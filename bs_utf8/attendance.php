@@ -1,0 +1,72 @@
+<?PHP // $Id$ 
+      // attendance.php - created with Moodle 1.4.3 + (2004083131)
+
+
+$string['absentlong'] = 'Odsutan';
+$string['absentshort'] = 'O';
+$string['addingmultiple'] = 'Dodavanje više pohađanja nastave';
+$string['addmultiple'] = 'Dodaj više pohađanja nastave';
+$string['allmodulename'] = 'Sva pohađanja';
+$string['auto'] = 'samo';
+$string['autoattend'] = 'Automatski preuzmite pohađanja nastavi zasnovano na aktivnosti posjetioca';
+$string['autoattendmulti'] = 'Automatski preuzmite pohađanja cijele nastave zasnovano na aktivnosti posjetioca';
+$string['autoattendshort'] = 'Automatski od posjetioca';
+$string['choosedays'] = 'Dana od svake sedmice za pohađanje nastave';
+$string['dayofroll'] = 'Datum preuzimanaj pohađanja nastave za';
+$string['defaultautoattend'] = 'Pohađanej nastave zasnovano prema zapisima aktivnosti korisnika (kao podrazumijevana opcija)';
+$string['defaultdynamicsection'] = 'Prebacivanje pohađanja nastave u ispravnu sedmicu(kao podrazumijevana opcija)';
+$string['defaultgrade'] = 'Pohađanje nastave se mogu ocjenjivati (kao podrazumijevana opcija)';
+$string['defaulthoursinclass'] = 'Koliko sati treba biti u pohađanju nastave((kao podrazumijevana opcija)';
+$string['defaultmaxgrade'] = 'Najveća ocjena za cijelo pohađanje nastave (kao podrazumijevana opcija)';
+$string['defaultstudentstatus'] = 'Status studenta koji pohađa nastavu na novom pohađanju nastave (kao podrazumijevana opcija)';
+$string['downloadexcelfull'] = 'Preuzmite cijeli Excel-ov dokument';
+$string['downloadexceltotals'] = 'Preuzmite sažeti Excel-ov dokument';
+$string['downloadtextfull'] = 'Preuzmite cijeli tekstualni izvještaj';
+$string['downloadtexttotals'] = 'Preuzmite sažeti tekstualni izvještaj';
+$string['dynamicsection'] = 'Odredite sedmicu za pohađanje sa ovim datumom';
+$string['dynamicsectionmulti'] = 'Automatski postavljanje nastave u sedmičnu sekciju';
+$string['dynsectionshort'] = 'Dinamički premješteno na sekciju';
+$string['endbeforestart'] = 'Kranji datum je prije početnog datuma';
+$string['endmulti'] = 'Datum zadnjeg pohađanja nastave';
+$string['for'] = 'za';
+$string['friday'] = 'Pet';
+$string['gradeshort'] = 'Ocijenjeno';
+$string['gradevalue'] = 'Ocijeniti nastavu';
+$string['gradevaluemulti'] = 'Ocijeniti sve nastave';
+$string['hoursinclass'] = 'Trajanje nastavnog sata';
+$string['hoursineachclass'] = 'Trajanje svakog nastavnog sata';
+$string['hoursinfullreport'] = 'Maksimalan broj sati pohađanja nastave koji će biti prikazan na jednog stranici izvještaja';
+$string['maxgradeshort'] = 'Maksimalna ocjena';
+$string['maxgradevalue'] = 'Maksimalna ocjena za sva pohađanja nastave';
+$string['modulename'] = 'Prisustvo';
+$string['modulenameplural'] = 'Pohađanje nastave';
+$string['monday'] = 'Pon';
+$string['norolls'] = 'Nema pohađanja nastave na ovom kursu';
+$string['notes'] = 'Izostavljene informacije';
+$string['notesfor'] = 'Izostavljene informacije za';
+$string['noviews'] = 'Žao nam je, ovdje nema podataka za vaš nalog';
+$string['of'] = 'od';
+$string['pages'] = 'stranica';
+$string['presentlong'] = 'predstavlja';
+$string['presentshort'] = 'P';
+$string['saturday'] = 'Sub';
+$string['startafterend'] = 'Početni datum je poslije završetka kursa';
+$string['startmulti'] = 'Datum prvog pohađanja nastave';
+$string['sunday'] = 'Ned';
+$string['takeroll'] = 'Preuzmite nastavu od ovog dana?';
+$string['tardiesperabsence'] = 'Koliko se zakašnjenja tretira kao odstustvo?';
+$string['tardylong'] = 'Kasni';
+$string['tardyshort'] = 'K';
+$string['teacheredit'] = 'Pohađajte nastavu';
+$string['thursday'] = 'Čet';
+$string['tuesday'] = 'Uto';
+$string['viewall'] = 'Pregled svih pohađanja nastave';
+$string['viewmulti'] = 'Pregled izvještaja na više stranica';
+$string['viewone'] = 'Pregled svih stranica izvještaja';
+$string['viewsection'] = 'Pregled svih pohađanja nastave iz ove sekcije';
+$string['viewtable'] = 'Pregled izvještaja kao jedne tabele';
+$string['viewweek'] = 'Pregled svih pohađanja nastave po sedmicama';
+$string['wednesday'] = 'Sri';
+$string['weekmodulename'] = 'Sva pohađanja nastave u prethodnoj sedmici';
+
+?>
