@@ -1,0 +1,96 @@
+<p align="center"><b>Importování nových úloh</b></p>
+<p>Tato funkce umožňuje importování úloh z externích textových souborů.</p>
+<p>Moodle podporuje několik formátů:</p>
+
+<p><b>Formát GIFT</b></p>
+<ul>
+<p>GIFT je nejkomplexnější dostupný formát pro importování testových otázek 
+z textového souboru do Moodlu. Byl navržen pro snadný textový zápis testových 
+otázek. Podporuje různé typy úloh: úlohy s výběrem odpovědí, 
+s krátkou odpovědí, s odpovědí pravda/nepravda, numerické úlohy, přiřazování, a 
+také vložení _______ pro formát "vynechané slovo". V jednom textovém souboru lze 
+použít více typů úloh. Formát GIFT dále umožňuje zadávat jméno otázky, komentář 
+k odpovědím a jejich hodnocení v procentech; pro interní potřebu lze text také 
+opatřovat poznámkami, které se v testu nezobrazí. Zde je několik příkladů:</p>
+  
+<pre>Kdo je pohřben v památníku na Vítkově?{~T.G.M. ~Klement Gottwald =nikdo}
+      
+V památníku na Vítkově byl {~otráven =pohřben ~oddán} Klement Gottwald.
+
+V památníku na Vítkově je pohřben Klement Gottwald.{FALSE}
+
+Kdo je pohřben v památníku na Vítkově?{=nyní již nikdo =nikdo}
+
+Kdy se narodil Klement Gottwald?{#1896}
+</pre>
+<p align="right"><a href="help.php?file=formatgift.html&module=quiz">Více 
+o formátu "GIFT"</a></p></ul>
+
+<p><b>Formát Aiken</b></p>
+<ul>
+<p>Formát Aiken umožňuje snadnou tvorbu úloh s výběrem odpovědí. Používá 
+jednoduchou syntaxi srozumitelnou i pro člověka. Např:</p>
+<pre>Co je cílem první pomoci?
+A. Zachránit život, zabránit dalšímu zranění
+B. Poskytnout lékařské ošetření zraněnému
+C. Zabránit dalšímu zranění
+D. Pomoci obětem v nouzi
+ANSWER: A</pre>
+<p align="right">
+<a href="help.php?file=formataiken.html&module=quiz">Více o formátu "AIKEN"</a></p></ul>
+
+<p><b>Vynechané slovo</b></p>
+<ul>
+<p>Tento formát podporuje pouze úlohy s výběrem odpovědí. Chybné varianty 
+odpovědi se uvozují vlnovkou (~), správná odpověď rovnítkem (=). Např.:</p> 
+<blockquote>Již v raném věku, kdy začínáme zkoumat své tělo, se z nás 
+stávají studenti {=anatomie a fyziologie ~mechaniky ~teologie ~botaniky}, 
+a studenty v jistém smyslu zůstáváme až do konce života.</blockquote>
+<p align="right">
+<a href="help.php?file=formatmissingword.html&module=quiz">Více o formátu 
+"Vynechané slovo"</a></p></ul>
+
+<p><b>AON</b></p>
+<ul>
+<p>Tento formát se od předchozího liší pouze tím, že po provedení importu se 
+všechny úlohy s krátkou odpovědí po čtveřicích převedou na přiřazovací úlohy.</p>
+<p>Kromě toho se u úloh s výběrem odpovědí během vkládání náhodně změní pořadí 
+odpovědí.</p>
+<p>Formát je pojmenován podle organizace, která sponzorovala vývoj testovacích 
+nástrojů.</p></ul>
+
+<p><b>Blackboard</b></p>
+<ul>
+<p>Importovat lze i úlohy z ezportního formátu systému Blackboard. Tento formát 
+využívá funkcí PHP určených pro práci s jazykem XML.</p>
+  <p align="right">
+<a href="help.php?file=formatblackboard.html&module=quiz">Více o 
+formátu "Blackboard"</a></p></ul>
+
+<p><b>Course Test Manager</b></p>
+<ul>
+<p>Do Moodlu lze importovat úlohy z databáze testovacích otázek systému Course 
+Test Manager (CTM). Pro přístup k testovacím otázkám (uloženým v databázi 
+Microsoft Access) se používají různé postupy v závislosti na tom, zda je Moodle 
+provozován v operačním systému Windows nebo Linux.</p>
+<p>Ve Windows můžete importovat databázi formátu Microsoft Access běžným 
+způsobem.</p>
+<p>V případě Linuxu potřebujete počítač s Windows umístěný na stejné síti. 
+Na něj zkopírujte databázi CTM a spusťte ODBC Socket Server, který pro převod 
+dat do Moodlu na serveru Linux použije jazyka XML.</p>
+<p>Před použitím tohoto importního filtru si prosím přečtěte podrobnější 
+nápovědu.</p>
+<p align="right">
+<a href="help.php?file=formatctm.html&module=quiz">Více o formátu "CTM"</a></p></ul>
+
+<p><b>Uživatelský formát</b></p>
+<ul>
+<p>Pokud máte vlastní formát, který potřebujete importovat, upravte podle potřeby 
+soubor mod/quiz/format/custom.php.
+<p>Rozsah nutných změn v kódu je opravdu malý &ndash; nový kód je potřeba pouze 
+pro rozpoznání jedné úlohy ve výchozím textu.
+<p align="right">
+<a href="help.php?file=formatcustom.html&module=quiz">Více o uživatelském formátu</a></p></ul>
+
+<p>Postupně budou přibývat další formáty, např. WebCT, IMS QTI a jakékoliv jiné, 
+kterými přispějí uživatelé Moodlu.</p>

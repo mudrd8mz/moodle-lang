@@ -1,0 +1,99 @@
+<head>
+    <title>Dokumentacja Moodle : Uaktualnianie</title>
+	<link rel="stylesheet" href="../theme/standard/styles.php" type="TEXT/CSS">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<style type="text/css">
+    <!--
+    .sectionheading {
+	  font-size: medium;
+	  font-weight: bold;
+	  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	  border: 1px dotted;
+	  padding: 10px;
+	  background-color: #EEEEEE;
+    }
+    -->
+    </style>
+</head>
+
+<body bgcolor="#FFFFFF">
+<h2>Uaktualnianie Moodle</h2>
+
+<p>Moodle jest zaprojektowane tak, aby bezproblemowo przechodzić ze starszej wersji na nowszą.</p>
+<p>Kiedy uaktualniasz Moodle powinieneś postępować zgodnie z poniższymi krokami :</p>
+<h3 class="sectionheading">1. Zrób kopie zapasowe ważnych danych</h3>
+<blockquote> 
+  <p>Pomimo, że nie jest to niezbędne, to zawsze wskazane jest aby zachowywać swoje dane przed jakimiś poważnymi zmianami w systemie, na wypadek gdybyś musiał wrócić do starszej wersji z jakiegoś powodu. W zasadzie dobrym pomysłem jest ustawienie serwera tak, aby tworzył kopie zapasowe Moodle codziennie. Jeśli tak jest, to możesz ominąć ten krok.</p>
+ 
+ <p>Istnieją trzy obszary, które wymagają kopii zapasowych.</p>
+  <blockquote> 
+    <p><strong>1.Katalog zawierający Moodle</strong></p>
+    <blockquote> 
+      <p>Zrób osobną kopię tych plików zanim przejdziesz do następnej wersji, abyś mógł przywrócić config.php i wszystkie moduły które były zainstalowane 9tematy, pakiety językowe, składowe kursu itd.)<strong><br>
+        </strong></p>
+    </blockquote>
+    <p><strong>2. Katalog z twoimi danymi.</strong></p>
+    <blockquote> 
+      <p>W tym miejscu przechowywane są przesłane pliki (takie jak zasoby, czy prace studentów), więc bardzo istotne jest aby mieć kopie tych plików zawsze, a nie tylko podczas aktualizacji wersji. Uaktualnianie może czasami zmienić nazwy katalogów, lub je przemieścić w inne miejsce.<strong><br>
+        </strong></p>
+    </blockquote>
+    <p><strong>3. Baza danych</strong></p>
+    <blockquote> 
+      <p>Większość uaktualnień Moodle będzie zmieniało tabele w bazie danych, modyfikując lub dodając pola. Kopie zapasowe tych tabel robi się w każdej bazie danych inaczej. Jednym ze sposobów tworzenia kopii zapasowych w MySQL jest zapisanie ich do jednego pliku SQL. Poniższy przykład pokazuje jak w systemie Unix zapisać bazę o nazwie &quot;moodle&quot;:</p>
+      <blockquote>
+        <p><font face="Courier New, Courier, mono">mysqldump moodle &gt; moodle-backup-2002-10-26.sql</font></p>
+      </blockquote>
+      <p>Możesz także skorzystać z funkcji &quot;Eksportuj&quot; w Moodle, poprzez interfejs WWW &quot;Zarządzanie bazą danych&quot; aby zrobić to samo na innych platformach.</p>
+      <p>&nbsp;</p>
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+<h3 class="sectionheading">2. Zainstaluj nowe oprogramowanie dla Moodle</h3>
+<blockquote> 
+  <p><strong>Korzystając z ściągniętego pliku</strong></p>
+  <blockquote> 
+    <p>Nie nadpisuj poprzedniej instalacji, chyba że jesteś pewien tego co robisz. Czasami stare pliki mogą powodować problemy w nowej wersji. Najlepszym sposobem jest zmiana nazwy katalogu z obecną wersją Moodle, a następnie rozpakować nową wersję w stare miejsce.</p>
+    <blockquote> 
+      <p><font face="Courier New, Courier, mono">mv moodle moodle.backup<br>
+        tar xvzf moodle-1.0.6.tgz</font></p>
+      </blockquote>
+    <p>Następnie skopiuj config.php i moduły zewnętrzne takie jak tematy.</p>
+    <blockquote>
+      <p><font face="Courier New, Courier, mono">cp moodle.backup/config.php moodle<br>
+        cp -pr moodle.backup/theme/mytheme moodle/theme/mytheme</font></p>
+    </blockquote>
+  </blockquote>
+  <p><strong>Korzystając z CVS</strong></p>
+  <blockquote> 
+    <p>Jeśli korzystasz z CVS, to po prostu przejdź do głównego katalogu Moodle i uaktualnij pliki.</p>
+    <blockquote> 
+      <p><font face="Courier New, Courier, mono">cvs update -dP</font></p>
+    </blockquote>
+    <p>Pamiętaj o parametrze &quot;d&quot;. Służy on do tworzenia nowych katalogów jeśli jest to potrzebne. Ważnym parametrem jest też &quot;P&quot;. Zezwala on na kasowanie pustych katalogów.
+</p>
+    <p>Jeśli edytowałeś pliki Moodle, to uważnie przeczytaj komunikaty, aby upewnić się, że nie zaistniały żadne konflikty. Wszystkie twoje tematy i niestandardowe moduły zewnętrzne pozostaną nienaruszone.</p>
+  </blockquote>
+  <p>&nbsp;</p>
+</blockquote>
+<h3 class="sectionheading">3. Kończenie procesu aktualizacji.</h3>
+<blockquote> 
+  <p>Ostantni krok polega na uruchomieniu procesu aktualizacji w samym Moodle.</p>
+  <p>Aby to zrobić wejdź na 
+<a target=_top href="../admin/index.php">panel administracyjny</a>.</p>
+  <blockquote> 
+    <p><font face="Courier New, Courier, mono">http://example.com/moodle/admin</font></p>
+  </blockquote>
+  <p>Nie jest ważne, czy jesteś zalogowany jako administrator czy nie.</p>
+  <p>Moodle wykryje istnienie nowej wersji automatycznie, oraz przeprowadzi wszystkie uaktualnienia bazy danych i plików, które są niezbędne. Jeśli natrafi na coś, czego nie jest w stanie zrobić sam (bardzo rzadko spotykane), to poinformuje Cię o wszystkim co trzeba zrobić ręcznie.</p>
+</blockquote>
+<p>&nbsp; </p>
+<p>Jeśli wszystko odbyło się bezbłędnie (nie było żadnych komunikatów o błędach) możesz od razu rozpocząć korzystanie z nowej wersji Moodle!</p>
+<p>Jeśli masz problemy z uaktualnianiem odwiedź <a target=_top href="http://moodle.org/">moodle.org</a> i umieść posta na <a target=_top href="http://moodle.org/mod/forum/view.php?id=28">Installation 
+  Support Forum</a>(forum wspomagania procesu instalacji) w kursie Using Moodle (korzystanie z Moodle). </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="CENTER"><font size="1"><a href="." target="_top">Dokumentacja Moodle</a></font></p>
+<p align="CENTER"><font size="1">Version: $Id$</font></p>
+
+</body>

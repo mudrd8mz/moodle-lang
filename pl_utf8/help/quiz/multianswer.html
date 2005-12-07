@@ -1,0 +1,44 @@
+<p align="center"><b>Załączone pytania (Cloze)</b></p>
+
+<p>Ten bardzo elastyczny typ pytań jest podobny do formatu
+   znanego jako format Cloze.
+
+<p>Pytania zawierają fragmentów tekstu (w formacie Moodle), z
+   różnymi pytaniami załączonymi wewnątrz, wielokrotnego
+   wyboru, pytaniami do krótkiej odpowiedzi oraz pytaniami numerycznymi.
+
+<p>Nie istnieje w tej chwili graficzny interfejs ułatwiający tworzenie
+   takich pytań - konieczne jest określenie formatu pytania używając
+   pola tekstowego lub importując go z zewnętrznego pliku.
+
+<p>Oto przykład tekstu definiującego takie pytanie:
+
+<form>
+<center>
+<textarea rows=15 cols=60 wrap=virtual>To pytanie zawiera nieco tekstu z pytaniami załączonymi właśnie tutaj {1:MULTICHOICE:Błędna odpowiedĽ#Informacja zwrotna dla błędnej odpowiedzi~Inna błędna odpowiedĽ#Informacja zwrotna dla innej błędnej odpowiedzi~=Poprawna odpowiedĽ#Informacja zwrotna dla poprawnej odpowiedzi~%50%OdpowiedĽ dająca połowę punktów#Informacja zwrotna dla odpowiedzi dającej połowę punktów} , po czym należy poradzić sobie z pytaniem do krótkiej odpowiedzi {1:SHORTANSWER:Błędna odpowiedĽ#Informacja zwrotna dla tej błędnej odpowiedzi~=Poprawna odpowiedĽ#Informacja zwrotna dla poprawnej odpowiedzi~%50%OdpowiedĽ dająca połowę punktów#Informacja zwrotna dla odpowiedzi dającej połowę punktów} i ostatecznie mamy pytanie numeryczne {2:NUMERICAL:=23.8:0.1#Informacja zwrotna dla poprawnej odpowiedzi, wynoszącej 23.8~%50%N/A#Informacja zwrotna dla odpowiedzi dającej połowę punktów}.
+
+Zauważ, że adresy, takie jak www.moodle.org i emotikony :-) działąją tak jak normalnie:
+ a) Czy podoba Ci się to? {:MULTICHOICE:=Tak#To świetnie~Nie#Mamy chyba różne poglądy}
+ b) Jaką ocenę byś za to przyznał? {3:NUMERICAL:=3:2}
+
+Powodzenia!
+</textarea>
+</center>
+</form>
+
+<p>Ten przykład ukaże się uczniom w następujący sposób:</p>
+
+
+<form>
+<table align="CENTER" width="90%" class="generalbox" border="0" cellpadding="5" cellspacing="0"><tr><td bgcolor="#FFFFFF" class="generalboxcontent"><table width=100% cellspacing=10><tr><td nowrap width=100 valign=top><p align=center><b>3</b></p><p align=center><font size=1>8 Marks</font></p><img height="1" width="100" src="pix/spacer.gif" alt=""><br />
+</td><td valign=top><p>To pytanie zawiera nieco tekstu z pytaniami załączonymi właśnie tutaj  <select   name="q4ma1" ><option></option><option value="4" >Błędna odpowiedĽ</option><option value="5" >Inna błędna odpowiedĽ</option><option value="6" >Poprawna odpowiedĽ</option><option value="7" >OdpowiedĽ dająca połowę punktów</option></select> , po czym należy poradzić sobie z pytaniem do krótkiej odpowiedzi <input   name="q4ma2"  value="" type="TEXT" size="8"/>  i ostatecznie mamy pytanie numeryczne  <input   name="q4ma3"  value="" type="TEXT" size="8"/> .<br />
+<br />
+Zauważ, że adresy, takie jak <a href="http://www.moodle.org" target="newpage">www.moodle.org</a> i emotikony <img border="0" src="pix/s/smiley.gif" width="15" height="15"> działąją tak jak normalnie:<br />
+a) Czy podoba Ci się to?  <select   name="q4ma4" ><option></option><option value="13" >Tak</option><option value="14" >Nie</option></select> <br />
+b) Jaką ocenę byś za to przyznał?  <input   name="q4ma5"  value="" type="TEXT" size="8"/> <br />
+<br />
+Powodzenia!</p></TD></TR></TABLE></td></tr></table>
+</form>
+
+<br />
+

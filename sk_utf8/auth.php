@@ -1,0 +1,158 @@
+<?PHP // $Id$ 
+      // auth.php - created with Moodle 1.6 development (2005060201)
+
+
+$string['alternatelogin'] = 'Pokiaľ sem vložíte nejaké URL, bude použité ako prihlasovacia stránka k tomuto systému. Táto Vaša stránka by mala obsahovať formulár s vlastnosťou \'action\' nastavenou na <strong>\'$a\'</strong>, ktorá vracia pole <strong>username</strong> a <strong>password</strong>.<br />Dbajte na to, aby ste vložili platné URL! V opačnom prípade by ste mohli komukoľvek vrátane seba zamedziť prístup k týmto stránkam.<br />Ak chcete používať štandardnú prihlasovaciu stránku, nechajte toto pole prázdne.';
+$string['alternateloginurl'] = 'Alternatívne URL pre prihlásenie';
+$string['auth_cas_baseuri'] = 'URI serveru (alebo nič, pokiaľ nie je baseUri)<br />Ak je napr. CAS server dostupný na  host.domena.sk/CAS/ potom nastavte<br />cas_baseuri = CAS/';
+$string['auth_cas_create_user'] = 'Pokiaľ chcete vložiť do Moodle databázy používateľov overených pomocou CAS, musíte zapnúť túto voľbu. Pokiaľ ju nezapnete, budú sa môcť prihlásiť len tí používatelia, ktorí už existujú v databáze Moodle.';
+$string['auth_cas_enabled'] = 'Pokiaľ chcete používať overovanie pomocou CAS, musíte zapnúť túto voľbu.';
+$string['auth_cas_hostname'] = 'Hostiteľské meno (hostname) CAS serveru<br />napr. host.domena.sk';
+$string['auth_cas_invalidcaslogin'] = 'Prepáčte, nepodarilo sa Vám prihlásiť - nebolo možné Vás overiť';
+$string['auth_cas_language'] = 'Zvolený  jazyk';
+$string['auth_cas_logincas'] = 'Prístup cez zabezpečené spojenie';
+$string['auth_cas_port'] = 'Port CAS serveru';
+$string['auth_cas_server_settings'] = 'Konfigurácia CAS serveru';
+$string['auth_cas_text'] = 'Zabezpečené spojenie';
+$string['auth_cas_version'] = 'Verzia CAS';
+$string['auth_casdescription'] = 'Táto metóda používa CAS server (Central Authentication Service) pre overovanie používateľov v prostredí jednotného systému prihlasovania (Single Sign On - SSO). Tiež môžete použiť jednoduché LDAP overovanie. Pokiaľ je zadané meno a heslo platné na serveri CAS, Moodle vytvorí záznam pre nového používateľa v databáze, pričom si potrebné používateľské údaje vezme z databázy LDAP. Pri nasledujúcich prihláseniach sú už kontrolované len prihlasovacie meno a heslo.';
+$string['auth_castitle'] = 'Použiť CAS server (SSO)';
+$string['auth_common_settings'] = 'Bežné nastavenia';
+$string['auth_data_mapping'] = 'Mapovanie údajov';
+$string['auth_dbdescription'] = 'Táto metóda využíva tabuľku v externej databáze na kontrolu platnosti daného používateľského mena a hesla. Ak je to nové konto, môžu byť do prostredia Moodle skopírované informácie aj z iných políčok.';
+$string['auth_dbextrafields'] = 'Tieto políčka sú nepovinné. Je tu možnosť, aby niektoré používateľské políčka v prostredí Moodle uvádzali informácie z <b>políčok externých databáz</b>, ktoré tu zadáte.<br />
+Ak toto políčko necháte prázdne, bude tu uvádzané pôvodné nastavenie.<br /><p>
+V obidvoch prípadoch, bude môcť používateľ po prihlásení upravovať všetky tieto políčka.</p>';
+$string['auth_dbfieldpass'] = 'Názov políčka obsahujúceho heslá';
+$string['auth_dbfielduser'] = 'Názov políčka obsahujúceho používateľské mená';
+$string['auth_dbhost'] = 'Počítač hosťujúci databázový server.';
+$string['auth_dbname'] = 'Názov databázy';
+$string['auth_dbpass'] = 'Heslo pre uvedeného používateľa';
+$string['auth_dbpasstype'] = 'Špecifkujte formát, ktorý používa políčko s heslom. MD5 šifrovanie je vhodné pre pripojenie k ďalším bežným web aplikáciám ako PostNuke';
+$string['auth_dbtable'] = 'Názov tabuľky v databáze';
+$string['auth_dbtitle'] = 'Použiť externú databázu';
+$string['auth_dbtype'] = 'Databázový typ (bližšie viď <a href=\"../lib/adodb/readme.htm#drivers\">ADOdb dokumentácia</a>)';
+$string['auth_dbuser'] = 'Používateľské meno s prístupom do databázy len na čítanie.';
+$string['auth_emaildescription'] = 'Emailové potvrdzovanie je prednastavený spôsob overovania. Keď sa používateľ prihlási, vyberie si vlastné nové používateľské meno a heslo. Následne dostane potvrdzujúci email na svoju emailovú adresu. Tento email obsahuje bezpečný odkaz na stránku, kde môže používateľ potvrdiť svoje nastavené údaje. Pri ďalších prihlasovaniach sa už iba skontroluje používateľské meno a heslo v porovnaní s údajmi uloženými v Moodle databáze.';
+$string['auth_emailtitle'] = 'Emailové overovanie';
+$string['auth_fccreators'] = 'Zoznam skupín, ktorých členovia majú oprávnenie na vytváranie nových kurzov. Ak ide o viaceré skupiny, oddeľte ich bodkočiarkou. Mená musia byť napísané presne tak, ako na FirstClass serveri. Systém zohľadňuje písanie malých a veľkých písmen.';
+$string['auth_fcdescription'] = 'Táto metóda používa FirstClass server na skontrolovanie správnosti používateľského mena a hesla.';
+$string['auth_fcfppport'] = 'Port servera (3333 je najbežnejší)';
+$string['auth_fchost'] = 'Adresa FirstClass servera. Použite IP adresu alebo meno DNS.';
+$string['auth_fcpasswd'] = 'Heslo pre hore uvedený používateľský účet.';
+$string['auth_fctitle'] = 'Použiť FirstClass server';
+$string['auth_fcuserid'] = 'ID používateľa pre účet na FirstClass serveri s nastavením privilégia \'Vedľajší administrátor\'.';
+$string['auth_fieldlock'] = 'Zamknúť hodnotu';
+$string['auth_fieldlock_expl'] = '<p><b>Zamknúť hodnotu:</b>Ak je voľba aktivovaná, bude zabraňovať priamemu upravovaniu políčok používateľmi a administrátormi Moodle. Použite túto voľbu, ak spravujete údaje v externom overovacom systéme.</p>';
+$string['auth_fieldlocks'] = 'Zamknúť políčka používateľov';
+$string['auth_fieldlocks_help'] = '	<p>Môžete zamknúť údaje v políčkach používateľov. Toto je užitočné najmä na tých stránkach , kde sú údaje používateľov spravované administrátormi ručne, prostredníctvom upravovania ich záznamov alebo ich prenesenia cez voľbu \'Preniesť používateľov\'. Ak zamknete políčka, ktoré sú vyžadované Moodle, uistite sa, že pri vytváraní používateľských účtov a &emdash, potom poskytnete všetky potrebné údaje; v opačnom prípade budú účty nepoužiteľné.</p><p>Odporúčame zvážiť možnosť nastavenia režimu zamkýnania na \'Odomknuté, ak prázdne\', aby ste sa vyhli tomuto problému.</p>';
+$string['auth_imapdescription'] = 'Na kontrolu správnosti daného používateľského mena a hesla používa táto metóda IMAP server.';
+$string['auth_imaphost'] = 'Adresa IMAP serveru. Používajte číslo IP, nie názov DNS.';
+$string['auth_imapport'] = 'Číslo portu IMAP serveru . Zvyčajne je to 143 alebo 993.';
+$string['auth_imaptitle'] = 'Použiť IMAP server';
+$string['auth_imaptype'] = 'Typ IMAP serveru. IMAP servery môžu používať rozličné typy overovania.';
+$string['auth_ldap_bind_dn'] = 'Ak chcete používať spoluužívateľov na vyhľadávanie používateľov, uveďte to tu. Napríklad: \'ou=users,o=org; ou=others,o=org\'';
+$string['auth_ldap_bind_pw'] = 'Heslo pre spoluužívateľa.';
+$string['auth_ldap_bind_settings'] = 'Spoločné nastavenia ';
+$string['auth_ldap_contexts'] = 'Zoznam kontextov, v ktorých sa nachádzajú používatelia. Oddeľte rozličné kontexty bodkočiarkou. Napríklad: \'ou=users,o=org; ou=others,o=org\'';
+$string['auth_ldap_create_context'] = 'Ak umožníte vytváranie používateľov s emailovým potvrdzovaním, špecifikujte kontext, kde budú používatelia vytvorení. Tento kontext by mal byť iný, ako pre ostatných používateľov, v záujme bezpečnosti. Nepotrebujete pridať tento kontext do premennej ldap-context, Moodle bude vyhľadávať používateľov z tohto kontextu automaticky.<br />
+<b>Pozor!</b> Musíte upraviť funkciu auth_user_create() v súbore auth/ldap/lib.php, aby mohli byť takýmto spôsobom vytváraní noví používatelia.';
+$string['auth_ldap_creators'] = 'Zoznam skupín, ktorých členovia majú povolené vytvárať nové kurzy. Jednotlivé skupiny oddeľujte bodkočiarkou. Obyčajne niečo ako cn=ucitelia,ou=ostatni,o=univ\'';
+$string['auth_ldap_expiration_desc'] = 'Vyberte si \'Nie\', aby sa deaktivovalo kontrolovanie neaktívneho hesla alebo LDAP na čítanie \'passwordexpiration time\' priamo z LDAP';
+$string['auth_ldap_expiration_warning_desc'] = 'Počet dní pred tým, ako sa objaví upozornenie o vypršaní platnosti hesla.';
+$string['auth_ldap_expireattr_desc'] = 'Nepovinné: toto potlačí ldap-vlastnosti, ktoré uchovávajú  čas do vypršania hesla  passwordExpirationTime';
+$string['auth_ldap_graceattr_desc'] = 'Nepovinné: Potlačí vlastnosť gracelogin';
+$string['auth_ldap_gracelogins_desc'] = 'Umožniť podporu LDAP gracelogin (tzv. prihlásenie z milosti). Po tom, ako vyprší platnosť hesla, používateľ sa môže prihlásiť, pokým nie je hodnota gracelogin 0. Ak povolíte toto nastavenie, používatelia budú informovaní, v prípade, že im vyprší platnosť hesla.';
+$string['auth_ldap_host_url'] = 'Špecifikujte hostiteľa LDAP v podobe URL, napr. \'ldap://ldap.myorg.com/\' alebo \'ldaps://ldap.myorg.com/\'. Jednotlivé servery oddeľte bodkočiarkou.';
+$string['auth_ldap_login_settings'] = 'Nastavenia prihlasovania';
+$string['auth_ldap_memberattribute'] = 'Nepovinné: voľba potlačí názov atribútu člena skupiny, ak používateľ patrí do skupiny. Obyčajne je to \'member\'';
+$string['auth_ldap_objectclass'] = 'Nepovinné: voľba potlačí funkciu objectClass používanú na vyhľadávanie používateľov na ldap_user_type. Zvyčajne túto voľbu nepotrebujete meniť.';
+$string['auth_ldap_opt_deref'] = 'Táto voľba určuje, ako sa zaobchádza s aliasmi pri vyhľadávaní. Vyberte jednu z nasledujúcich hodnôt: \"Nie\"(LDAP_DEREF_NEVER) alebo \"Áno\"(LDAP_DEREF_ALWAYS)';
+$string['auth_ldap_passwdexpire_settings'] = 'LDAP nastavenia pri vypršaní platnosti hesla.';
+$string['auth_ldap_search_sub'] = 'Uveďte hodnotu <> 0, ak chcete hľadať používateľov v subkontextoch.';
+$string['auth_ldap_server_settings'] = 'LDAP nastavenia servera';
+$string['auth_ldap_update_userinfo'] = 'Aktualizovať informácie o používateľovi (krstné meno, priezvisko, adresa...) z LDAP do Moodle. Hľadať v /auth/ldap/attr_mappings.php pre priraďujúce informácie. Ak potrebujete, definujte nastavenia pre \"Mapovanie údajov\". ';
+$string['auth_ldap_user_attribute'] = 'Nepovinné: voľba potlačí vlastnosť používanú na hľadanie mien používateľov. Zvyčajne \'cn\'.';
+$string['auth_ldap_user_settings'] = 'Nastavenia prehľadávania používateľov';
+$string['auth_ldap_user_type'] = 'Vyberte si, ako budú používatelia uchovávaní v LDAP. Toto nastavenie tiež špecifikuje, ako bude fungovať vytváranie nových používateľov, grace loginy a vypršanie platnosti hesla.';
+$string['auth_ldap_version'] = 'Verzia LDAP protokolu, ktorú používa váš server';
+$string['auth_ldapdescription'] = 'Táto metóda poskytuje overovanie používateľov proti  LDAP serveru. 
+
+Ak je používateľské meno a heslo správne, Moodle vytvorí nového používateľa vo svojej databáze. 	  
+
+Tento modul dokáže načítať používateľské vlastnosti z LDAP a predvyplniť požadované políčka v Moodle. 
+
+Pre nasledujúce prihlasovania sa kontrolujú už iba používateľské meno a heslo.';
+$string['auth_ldapextrafields'] = 'Tieto políčka sú nepovinné. Môžete predvyplniť niektoré políčka v profile používateľa v Moodle s informáciami z <b>LDAP políčok</b>, ktoré tu uvediete.
+<p>Ak tu nič neuvediete, informácie z LDAP nebudú prenesené a namiesto toho bude uvádzané štandardné Moodle nastavenie.</p>
+<p>V obidvoch prípadoch bude môcť používateľ po prihlásení upravovať všetky tieto políčka.</p>';
+$string['auth_ldaptitle'] = 'Použiť LDAP server';
+$string['auth_manualdescription'] = 'Táto metóda neumožňuje používateľom vytvárať vlastné kontá. Všetky kontá musí ručne vytvoriť administrátor.';
+$string['auth_manualtitle'] = 'Len ručne vytvorené kontá';
+$string['auth_multiplehosts'] = 'Tu môžu byť špecifikovaní viacerí hostitelia ALEBO ich adresy (napr. host1.com;host2.com;host3.com)alebo (napr.xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx)';
+$string['auth_nntpdescription'] = 'Táto metóda používa na kontrolu správnosti používateľského mena a hesla NNTP server.';
+$string['auth_nntphost'] = 'Adresa NNTP serveru. Použite číslo IP, nie názov DNS.';
+$string['auth_nntpport'] = 'Port serveru (119 je najbežnejší)';
+$string['auth_nntptitle'] = 'Použiť NNTP server';
+$string['auth_nonedescription'] = 'Používatelia sa môžu prihlásiť a okamžite si vytvoriť kontá bez nutnosti overovania proti externým serverom a bez potvrdzovania prostredníctvom emailu. Buďte opatrní pri tejto voľbe - myslite na bezpečnosť a problémy pri administrácii, ktoré tým môžu vzniknúť.';
+$string['auth_nonetitle'] = 'Bez overenia';
+$string['auth_pamdescription'] = 'Táto metóda používa PAM na prístup do používateľských mien na tomto serveri. Musíte si nainštalovať <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\">PHP4 PAM Authentication</a>, aby ste mohli používať tento modul.';
+$string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
+$string['auth_passwordisexpired'] = 'Platnosť Vášho hesla vypršala. Chcete si zmeniť Vaše heslo teraz?';
+$string['auth_passwordwillexpire'] = 'Platnosť Vášho hesla vyprší o $a dní. Chcete si zmeniť Vaše heslo teraz?';
+$string['auth_pop3description'] = 'Táto metóda používa na kontrolu správnosti používateľského mena a hesla POP3 server.';
+$string['auth_pop3host'] = 'Adresa POP3 serveru. Použite číslo IP, nie názov DNS.';
+$string['auth_pop3mailbox'] = 'Názov poštovej schránky, s ktorou by mohol byť nadviazaný kontakt. (väčšinou priečinok doručenej pošty INBOX)';
+$string['auth_pop3port'] = 'Port serveru  (110 je najbežnejší)';
+$string['auth_pop3title'] = 'Používať POP3 server';
+$string['auth_pop3type'] = 'Typ serveru. Ak Váš server používa zabezpečenie pomocou certifikátu, vyberte si pop3cert.';
+$string['auth_shib_convert_data'] = 'API pre úpravu údajov';
+$string['auth_shib_convert_data_description'] = 'Toto API (aplikačné rozhranie) Vám umožňuje ďalej upravovať údaje, ktoré máte k dispozícii zo systému Shibboleth. Viac infomácií <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">nájdete tu</a>.';
+$string['auth_shib_convert_data_warning'] = 'Súbor neexistuje alebo k nemu proces web serveru nemá prístup na čítanie!';
+$string['auth_shib_instructions'] = 'Použite <a href=\"$a\">prihlásenie cez Shibboleth</a>, pokiaľ Vaša inštitúcia tento systém podporuje.<br />V opačnom prípade použite normálny formulár pre prihlásenie.';
+$string['auth_shib_instructions_help'] = 'Tu môžete vložiť vlastné informácie o Vašom systéme Shibboleth. Budú sa zobrazovať na prihlasovacej stránke. Vložené informácie by mali obsahovať odkaz na zdroj chránený systémom Shibboleth, ktorý presmeruje používateľov na \"<b>$a</b>\", takže sa používatelia systému Shibboleth budú môcť prihlásiť do Moodle. Ak necháte toto pole prázdne, budú sa na prihlasovacej stránke zobrazovať všeobecné pokyny.';
+$string['auth_shib_only'] = 'Len Shibboleth';
+$string['auth_shib_only_description'] = 'Zaškrtnite túto voľbu, pokiaľ si chcete nastaviť prihlásenie za pomoci systému Shibboleth';
+$string['auth_shib_username_description'] = 'Názov premennej prostredia webserveru Shibboleth, ktorá má byť použitá ako používateľské meno Moodle ';
+$string['auth_shibboleth_login'] = 'Prihlásenie cez Shibboleth';
+$string['auth_shibboleth_manual_login'] = 'Ručné prihlásenie';
+$string['auth_shibbolethdescription'] = 'Táto metóda umožňuje vytvárať a overovať používatelov pomocou systému <a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth</a>.<br />
+Uistite sa, že ste si prečítali súbor <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> obsahujúci informácie o tom, ako nastaviť Váš Moodle pre podporu systému Shibboleth.';
+$string['auth_shibbolethtitle'] = 'Shibboleth';
+$string['auth_updatelocal'] = 'Aktualizovať miestne údaje';
+$string['auth_updatelocal_expl'] = '<p><b>Aktualizovať miestne údaje:</b> Ak je táto voľba aktívna, políčko bude aktualizované (z externého overovacieho zdroja) zakaždým, keď sa používateľ prihlási, alebo pri synchronizácii používateľov. Políčka určené na miestnu aktualizáciu by mali byť uzamknuté.</p>';
+$string['auth_updateremote'] = 'Aktualizovať externé údaje';
+$string['auth_updateremote_expl'] = '<p><b>Aktualizovať externé údaje:</b> Ak je táto voľba aktívna, externý overovací zdroj bude aktualizovaný zakaždým, keď dôjde k aktualizácii profilu používateľa. Políčka určené na miestnu aktualizáciu by nemali byť uzamknuté, aby sa mohli upravovať.</p>';
+$string['auth_updateremote_ldap'] = '<p><b>Poznámka:</b> Aktualizácia externých LDAP údajov si vyžaduje nastavenie binddn a bindpw spoluužívateľom s právom úpravy všetkých záznamov o používateľoch. Momentálne systém nepodporuje vlastnosti s viacerými hodnotami a pri aktualizácii sa preto odstránia nadbytočné hodnoty.</p>';
+$string['auth_user_create'] = 'Umožniť vytváranie používateľov';
+$string['auth_user_creation'] = 'Noví (anonymní) používatelia môžu vytvárať používateľské kontá v externom zdroji a overovať ich cez email. Ak to umožníte, nezabudnite tiež konfigurovať špecifické voľby pre vytváranie používateľských účtov v danom externom zdroji.';
+$string['auth_usernameexists'] = 'Zvolené používateľské meno už existuje. Prosím, vyberte si iné.';
+$string['authenticationoptions'] = 'Možnosti overovania';
+$string['authinstructions'] = 'Tu môžete uviesť pokyny pre používateľov, aby vedeli, aké používateľské meno a heslo majú používať. Text, ktorý tu vložíte sa objaví na prihlasovacej stránke. Ak to tu neuvediete, nebudú zobrazené žiadne pokyny.';
+$string['changepassword'] = 'URL na zmenu hesla ';
+$string['changepasswordhelp'] = 'Tu môžete uviesť URL, na ktorom si Vaši používatelia môžu obnoviť alebo zmeniť používateľské meno/heslo, ak ho zabudli. Pre používateľov to bude zobrazené ako tlačidlo na prihlasovacej stránke ich používateľskej stránky. Ak to tu neuvediete, tlačidlo sa nezobrazí.';
+$string['chooseauthmethod'] = 'Vyberte si spôsob overovania používateľov: ';
+$string['createchangepassword'] = 'Vytvoriť, ak chýba - je nutné zmeniť';
+$string['createpassword'] = 'Vytvoriť, ak chýba';
+$string['forcechangepassword'] = 'Vyžadovať zmenu hesla';
+$string['forcechangepassword_help'] = 'Vyžadovať od používateľov zmenu hesla pri ich ďalšom prihlásení do Moodle.';
+$string['forcechangepasswordfirst_help'] = 'Vyžadovať od používateľov zmenu hesla pri ich prvom prihlásení do Moodle.';
+$string['guestloginbutton'] = 'Prihlasovacie tlačidlo pre hosťa';
+$string['infilefield'] = 'Políčko vyžadované v súbore';
+$string['instructions'] = 'Inštrukcie';
+$string['locked'] = 'Zamknutý/Zamknuté';
+$string['md5'] = 'MD5 šifrovanie';
+$string['passwordhandling'] = 'Zaobchádzanie s políčkom s heslom';
+$string['plaintext'] = 'Čistý text';
+$string['showguestlogin'] = 'Môžete skryť, alebo zobraziť, prihlasovacie tlačidlo pre hosťa na prihlasovacej stránke.';
+$string['stdchangepassword'] = 'Použiť štandardnú stránku pre zmenu hesla';
+$string['stdchangepassword_expl'] = 'Ak Váš externý overovací systém povoľuje zmeny hesla v prostredí Moodle, prepnite túto voľbu na \"Áno\". Toto nastavenie potlačí funkciu \"URL na zmenu hesla\".';
+$string['stdchangepassword_explldap'] = 'Poznámka: Ak používate vzdialený LDAP server, odporúčame Vám komunikovať cez šifrované SSL spojenie (ldaps://).';
+$string['unlocked'] = 'Odomknutý/Odomknuté';
+$string['unlockedifempty'] = 'Odomknuté, ak prázdne';
+$string['update_never'] = 'Nikdy';
+$string['update_oncreate'] = 'Pri vytváraní';
+$string['update_onlogin'] = 'Pri každom prihlásení';
+$string['update_onupdate'] = 'Pri aktualizácii';
+
+?>

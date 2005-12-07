@@ -1,0 +1,113 @@
+<p align="center"><b>Typy otázek</b></p>
+
+<p>Modul Přednáška v současnosti podporuje následující typy otázek:</p>
+
+<ol>
+<b>Otázky s výběrem odpovědí</b> Představují výchozí typ otázky; 
+student vybírá odpověď z několika variant. Volba správné odpovědi 
+"pustí" studenta na další stránky přednášky, volba odpovědi chybné nikoliv. 
+Chybné varianty odpovědi se někdy nazývají <b>distraktory</b>; na jejich 
+kvalitě hodnota celé otázky často závisí více než na znění otázky nebo na 
+správné odpovědi.</p>
+
+<p>Ke každé odpovědi může učitel připojit reakci. Pokud žádnou nepřipojí, 
+studentovi se zobrazí výchozí reakce &quot;To je správná odpověď&quot;, resp. 
+&quot;To je špatná odpověď&quot;.</p>
+
+<p>U otázek s výběrem odpovědí může být správná více než jedna odpověď. 
+Každé správné odpovědi může být přiřazena odlišná reakce, stejně jako skok 
+na odlišnou (v lineární posloupnosti níže umístěnou) stránku přednášky. Bodové 
+ohodnocení správných odpovědí se neliší, tj. z hlediska známkování není 
+žádná odpověď &quot;správnější&quot; než jiná. Otázku je možné sestavit tak, 
+že správné jsou všechny odpovědi a každá z nich může přenést studenta do jiné 
+(níže umístěné) části přednášky.</p>
+
+<p>Podtypem otázky s výběrem odpovědí je <b>otázka s výběrem více správných 
+odpovědí</b>. Zde musí student vybrat všechny správné odpovědi. Součástí textu 
+otázky může (ale nemusí) být informace o celkovém počtu správných odpovědí. 
+Například otázka "Která z následujících osobností byla prezidentem USA?" tuto 
+informaci neobsahuje, kdežto otázka "Vyberte ze seznamu dva prezidenty USA" ano. 
+Počet správných odpovědí může sahat od 1 až do celkového počtu variant 
+odpovědí. I při jedné správné odpovědi se však "otázka s výběrem více správných 
+odpovědí" liší od "otázky s výběrem odpovědí", protože studentovi <b>dovoluje</b> 
+vybrat více než jednu odpověď (a dopustit se tak chyby).</p>
+
+<p>Také v tomto případě jsou správné odpovědi charakterizovány skokem na níže 
+umístěné stránky přednášky a chybné odpovědi návratem na aktuální stránku nebo 
+skokem na stránky umístěné výše. V případě více správných odpovědí by všechny 
+odskoky měly vést na tutéž stránku (a u chybných odpovědí právě tak). Pokud 
+tomu tak není, je učiteli na stránce přednášky zobrazeno výstražné hlášení. 
+Reakce ke správným odpovědím by měla být uvedena u první správné odpovědi, 
+reakce k chybným odpovědím potom u první chybné odpovědi. Reakce u ostatních 
+odpovědí jsou ignorovány (bez upozornění).</p></li>
+
+<li><p><b>Krátká odpověď</b> Student je vyzván k vložení krátkého textového 
+řetězce, který se porovnává s jednou nebo více možnými odpověďmi. Lze zadat 
+správné i špatné odpovědi, ke každé odpovědi lze připojit reakci. Pokud reakce 
+není zadána, studentovi se zobrazí výchozí reakce &quot;To je správná 
+odpověď&quot;, resp. &quot;To je špatná odpověď&quot;. Jestliže se studentova 
+odpověď neshoduje s žádnou z definovaných odpovědí, považuje se odpověď za 
+chybnou a studentovi se zobrazí výchozí reakce na chybnou odpověď.</p>
+
+<p>Ve výchozím nastavení se při kontrole odpovědi nerozlišují malá a velká 
+písmena, jejich rozlišování však lze volitelně aktivovat.</p></li>
+
+<li><b>Pravda/Nepravda</b> V případě tohoto typu otázky jsou jen dvě možnosti 
+odpovědi: "pravda" a "nepravda". Student je vyzván, aby vybral správnou možnost.
+Tento typ otázky je vlastně &quot;otázkou s výběrem odpovědí&quot;, výběr je však 
+v tomto případě omezen pouze na dvě možnosti.</p></li>
+
+<li><p><b>Přiřazování</b> Přiřazování je široce použitelný typ otázky 
+sestávající ze seznamu jmen nebo tvrzení, která je třeba správně přiřadit 
+k položkám jiného seznamu. Například otázka &quot;Přiřaďte hlavní město 
+k příslušnému státu&quot; obsahuje dva seznamy: "Japonsko, Kanada, Itálie" a 
+"Tokio, Ottawa, Řím".<br />
+Jeden ze seznamů může obsahovat duplicitní položky, je však třeba dbát, aby 
+opakované položky byly skutečně identické. Například otázka &quot;Zařaďte tyto 
+živočichy&quot; může obsahovat seznamy "vrabec, kráva, mravenec, pes" a "pták, 
+savec, hmyz, savec".</p>
+
+<p>Při vytváření tohoto typu otázek se položky prvního seznamu zapisují do pole 
+Odpověď a položky druhého seznamu do pole Reakce (po vytvoření otázky budou oba 
+seznamy označeny vhodněji). Pokud student přiřadí všechny položky správně, 
+provede se skok uvedený u první položky. Chybné přiřazení vede k odskoku na 
+stránku uvedenou u druhé položky. Otázka <b>neumožňuje</b> zadání reakcí učitele, 
+studentovi je pouze sděleno, kolik položek přiřadil správně.</p>
+
+<p>Narozdíl od otázek s výběrem odpovědí, u nichž se varianty odpovědí zobrazují 
+v náhodném pořadí, <b>nejsou</b> v tomto případě položky prvního seznamu 
+zamíchány, ale zobrazují se v pořadí, v jakém byly zadány. To umožňuje vytvářet 
+otázky s pevným řazením. Příkladem může být otázka &quot;Seřaďte osobnosti vzestupně 
+podle data narození&quot; se seznamy &quot;1., 2., 3., 4.&quot; a 
+&quot;Longfellow, Lawrence, Lowell, Larkin&quot;. Položky druhého seznamu jsou 
+před zobrazením pochopitelně zamíchány.</p></li>
+
+<li><p><b>Numerické otázky</b> Tento typ otázky vyžaduje jako odpověď číslo. V 
+nejjednodušší podobě je odpovědí pouze jediná hodnota, např. otázka &quot;Kolik 
+je 2 plus 2?&quot; může mít odpověď 4, které je přiřazen skok na další 
+stránku. Vhodnější je však stanovit jako odpověď interval, protože 
+zaokrouhlování číselných hodnot při výpočtu může otázku proměnit v hru 
+na náhodu. Pokud například otázka zní &quot;Kolik je 10&nbsp;/&nbsp;3?&quot;, je třeba 
+zadat odpověď ve tvaru <b>&quot;Minimum:Maximum&quot;</b> (tj. dvě krajní hodnoty 
+oddělené dvojtečkou). Je-li jako přijatelný interval zadáno 3.33:3.34, budou za 
+správné přijaty odpovědi 3.33, 3.333, 3.3333 atd. &quot;Chybné&quot; odpovědi 
+by byly např. 3.3 (menší než minimální hodnota) nebo 3.4 (větší než maximální 
+hodnota).</p>
+
+<p>Správných odpovědí může být zadáno více a mohou obsahovat jak přesné hodnoty, 
+tak intervaly. Odpovědi jsou se studentovým řešením porovnávány v pořadí Odpověď 1, 
+Odpověď 2 atd., takže je třeba dobře zvážit, v jakém pořadí uvedeme jednotlivé 
+varianty odpovědí, aby se studentovi zobrazila nejpřiměřenější reakce. Například
+otázka &quot;Kdy se narodil Larkin?&quot; může mít jednak přesnou odpověď 1922, 
+a jednak interval 1920:1929 jako méně přesnou odpověď. Je zřejmé, že tyto 
+odpovědi je třeba porovnávat v pořadí "1922", "1920:1929". K první odpovědi může
+být připojena například reakce &quot;Přesně tak!&quot;, ke druhé pak &quot;Ano, 
+jste ve správném desetiletí (přesně 1922).&quot;</p>
+    
+<p>Lze uvádět i chybné varianty odpovědi, opět je však třeba dát pozor a umístit 
+je až za odpovědi správné. Například na otázku &quot;Kolik je 10&nbsp;/&nbsp;3?&quot; 
+je třeba zařadit nejprve správnou odpověď 3.33:3.34 (např. s reakcí 
+&quot;Správně!&quot;), a pak teprve chybnou odpověď 3:4; (např. s reakcí 
+&quot;Nejste daleko, ale buďte přesnější.&quot;).</p></li>
+</ul>
+

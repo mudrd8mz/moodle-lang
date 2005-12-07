@@ -1,0 +1,127 @@
+<p align="center"><b>Jak pisać strony w formacie Wiki</b></p>
+
+<p>Strony w formacie Wiki są pisane w sposób przejrzysty, z intuicyjnym i czytelnym dla człowieka formatowaniem, które zostanie przekształcone na XHTML w momencie wyświetlania. Głównymi zaletami tego formatu jest to, iż nie musisz się uczyć języka HTML, aby otrzymać zaawansowane rezultaty, oraz to, że tekst napisany przez ciebie <em>wygląda</em> dobrze, nawet <em>przed</em> konwersją. Jest to też alternatywa dla zapisywania plików pisanych w Wordzie jako stron HTML. Dzięki temu pozostaje możliwość edytowania zasobów w środowisku on-line.</p>
+
+<p>W zasadzie w formacie tym piszesz w zwyczajny sposób. Dostępny jest zestaw <em> specjalnych</em> znaków, które możesz dodać. Służą one do formatowania.
+
+<h3>Formatowanie na poziomie bloków</h3>
+
+<p> Bloki paragrafów są od siebie oddzielone przynajmniej jedną pustą linią. Aby dodać specjalne formatowanie danego paragrafu, wstaw jeden z poniższych znaków jako pierwszy znak pierwszej linii danego bloku, a za nim umieść znak odstępu.</p>
+
+<table>
+  <tr><th>Znak</th><th>Styl bloku</th></tr>
+  <tr><td>Brak znaku</td><td>Zwykły paragraf</td></tr>
+  <tr><td>&gt;</td><td>Cytat</td></tr>
+  <tr><td>Odstęp (spacja)</td><td>Tekst z równymi odstępami między znakami</td></tr>
+  <tr><td>%</td><td>Jw. <em>oraz</em> ignorowany jest format Wiki</td></tr>
+  <tr><td>!#</td><td>Nagłówek -  # oznacza poziom nagłówka (1 oznacza największy).</td></tr>
+  <tr><td>Q.</td><td>Pytanie - wprowadzone po to, by w elegancki sposób prezentować pytania i odpowiedzi</td></tr>
+  <tr><td>A.</td><td>OdpowiedĽ - jw.</td></tr>
+</table>
+
+<h3>Formatowanie list</h3>
+
+<p> Proste listy mogą być tworzone w łatwy sposób, poprzez umieszczenie specjalnego znaku na początku każdej linii listy, a następnie znaku odstępu.
+Lista kończy się na pustej linii. Listy mogą dowolnie się zagnieżdżać, a listy zagnieżdżone mogą być innego typu niż te zewnętrzne. Deklaracja listy i typy tekstu mogą być dowolnie mieszane i przeplatane w celu otrzymania zamierzonego efektu. Znaki specjalne są następujące :</p>
+
+<table>
+  <tr><th>Znak</th><th>Rodzaj elementu listy</th></tr>
+  <tr><td>*</td><td>Lista nieuporządkowana (kropki)</td></tr>
+  <tr><td>#</td><td>Lista uporządkowana (1,2,3 itd.)</td></tr>
+  <tr><td>:</td><td>Lista definicji, definicja</td></tr>
+  <tr><td>;</td><td>Lista definicji, tekst</td></tr>
+</table>  
+
+<p>Przykład list zagnieżdżonych</p>
+<p><pre>
+  * Pierwsza kropka
+  * Druga kropka
+  ## Linia zagnieżdżona 1
+  ## Linia zagnieżdżona 2
+  * Trzecia kropka
+</pre></p>
+<p>Daj efekt:
+<ul><li>Pierwsza kropka</li>
+  <li>Druga kropka</li>
+  <ol><li>Linia zagnieżdżona 1</li>
+    <li>Linia zagnieżdżona 2</li></ol>
+  <li>Trzecia kropka
+</ul></p>
+
+<h3>Formatowanie wewnątrz linii</h3>
+
+<p> Formatowanie wewnątrz linii pozwala nadać jednemu lub kilku wyrazom konkretny styl. Wykorzystane znaki specjalne mogą pojawić się gdziekolwiek wewnątrz linii, ale pamiętaj, że format nie przechodzi z linii na linie. Kody są następujące : </p>
+
+<table>
+  <tr><th>Przykład</th><th>Efekt</th><th>Formatowanie</th></tr>
+  <tr><td>*hello world*</td><td><strong>hello world</strong></td><td>Pogrubienie</td></tr>
+  <tr><td>/hello world/</td><td><em>hello world</em></td><td>Kursywa</td></tr>
+  <tr><td>+hello world+</td><td><ins>hello world</ins></td><td>tekst 'wstawiony'</td></tr>
+  <tr><td>-hello world-</td><td><del>hello world</del></td><td>tekst wykreślony</td></tr>
+  <tr><td>hello ~world~</td><td>hello <sub>world</sub></td><td>Indeks dolny</td></tr>
+  <tr><td>hello ^world^</td><td>hello <sup>world</sup></td><td>Indeks górny</td></tr>
+  <tr><td>"hello world"</td><td><q>hello world</q></td><td>Cytat</td></tr>
+  <tr><td>%hello world%</td><td><code>hello world</code></td><td>Równe odstępy między znakami</td></tr>
+  <tr><td>@hello world@</td><td><cite>hello world</cite></td><td>Cytat</td></tr>
+</table>  
+
+<h3>Akronimy (podpowiedzi)</h3>
+
+<p> Podpowiedzi są tworzone poprzez wpisanie akronimu dużymi literami, a następnie jego opisu umieszczonego w nawiasach. Pomiędzy akronimem, a nawiasem nie może być znaku odstępu. Przykład (najechanie kursorem na dolny napis HTML spowoduje wyświetlenie po chwili podpowiedzi) :</p>
+
+<p>HTML(Hypertext Markup Language) <br />   <acronym title="Hypertext Markup Language">HTML</acronym></p>
+
+<h3>Hiperłącza</h3>
+Możesz wpisać odnośnik, a następnie (bez znaku odstępu) tekst, który ma być wyświetlany, umieszczony w nawiasach. Przykład :  </em>http://www.google.com/(Szukaj z Google)</em> zostanie przetłumaczone na 
+<a href="http://www.google.com/">Szukaj z Google</a>.
+
+<p>Odnośniki do adresów e-mail mogą być realizowane w taki sam sposób, np.:</p>
+<p>nikt@przyklad.com(Użytkownik testowy) zostanie przetłumaczone na 
+<a href="mailto:nikt@przyklad.com">Użytkownik testowy</a></p>
+
+<h3>Odnośniki do modułów Moodle</h3>
+
+<p> Jeśli znasz numer id Moodle (szukaj ?id=nn na końcu adresu modułu), oraz nazwę modułu, możesz stworzyć odnośnik bezpośrednio do niego korzystając z następującej składni : </p>
+
+<p>NazwaModułu:nn(Opis)</p>
+<p>np.  <em>resource:36(Moja nowa strona)</em>   <em>forum:10(PrzejdĽ do forum)</em></p>
+
+<h3>Odnośniki do grafiki w Moodle</h3>
+
+<p>Grafika może być mieszana z tekstem na stronach Wiki. Musisz najpierw przesłać grafikę i zapamiętać jego ścieżkę dostępu. Składnia jest następująca : 
+
+<p>/<em>..ścieżka do pliku..</em>(tekst wskazówki)</p>
+
+<p>przykładowo,  /mypics/graphic.jpg(Obrazek z personelem)</p>
+
+<h3>Automatyczne formatowanie</h3>
+
+<p>Wiele powszechnie stosowanych funkcji jest tłumaczona na swoje odpowiedniki w XHTML automatycznie. Poniżej podano te najważniejsze : </p>
+
+<ul>
+  <li>Linki HTTP są konwertowane na aktywne odnośniki
+  <li> ..., (R), (TM), (C), 1/4, 1/2, 3/4 są zmieniane na odpowiednie znaki
+  <li> liczba x liczba jest zmieniane na prawidłowy znak mnożenia.
+  <li>Linia rozpoczynająca się od przynajmniej czterech myślników jest zmieniana na poziomą linię.
+</ul>  
+
+<h3>Sprawdzanie pisowni (Doświadczalnie)</h3>
+
+<p>Narzędzie formatujące wiki może zostać przełączone w tryb sprawdzania pisowni. Umieść poniższą linię w dokumencie. Cały tekst znajdujący się poniżej tej linii zostanie sprawdzony...
+
+<pre>
+!SPELL:kod_języka:wariant_języka
+
+Przykłady:
+!SPELL:en:british
+!SPELL:pl
+</pre>
+
+<p>"kod_języka" powinien zostać zastąpiony odpowiednim kodem (np. EN, PL itp.),"wariant_języka" (wraz z przecinkiem) jest argumentem opcjonalnym. W przypadku języka angielskiego (kod EN) może przykładowo przyjmować wartości "american", "british", lub "canadian". Język polski dostępny jest jedynie w jednej wersji i drugi argument można spokojnie pominąć.</p>
+
+<p>Po zakończeniu pracy narzędzia sprawdzającego pisownię wszystkie nieznane słowa zostaną zaznaczone. Sugerowane zmiany pojawiają się po najechaniu myszką na dane słowo.</p>
+
+<p><em>UWAGA: Sprawdzanie pisowni korzysta z bibliotek <strong>pspell</strong>. Zarówno one jak i słowniki muszą być umieszczone na Twoim serwerze, aby narzędzie działało. Platforma Windows nie jest obsługiwana.
+</em></p>
+
+

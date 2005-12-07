@@ -1,0 +1,100 @@
+<p align="center"><b>Typy pytań</b></p>
+
+<p>Oto typy pytań, które można aktulanie znaleĽć w module Lekcja:
+
+<ol>
+<li><p><b>Wielokrotny wybór</b> Jest to domyślny typ pytań, który pozostaje najbardziej
+popularnym typem pytań. Poprawna odpowiedĽ przeniesie studenta do dalszej fazy lekcji, natomiast
+zła odpowiedĽ spowoduje powrót do poprzedniej lekcji. Złe odpowiedzi są czasem określane 
+jako odpowiedzi mylące i to właśnie od nich często zależy jakość pytania.</p>
+
+<p> Każda odpwiedĽ może mieć przypisaną informację zwrotną. Jeśli takowa nie zostanie 
+zdefiniowana wówczas pojawi się domyślna: &quot;To jest poprawna odpowiedĽ &quot; lub 
+&quot;To jest błędna odpowiedĽ&quot;.</p>
+
+<p>Można też wybrać opcję w której jest więcej niż jedna poprawna odpowiedĽ w pytaniach
+wielokrotnego wyboru. Różne poprawne odpowiedzi mogą skutkować różnymi informcjami zwrotnymi
+które będą przesyłane studentom. Studenci mogą być także przeniesieni do przodu do różnych części 
+lekcji w zależności od ich odpowiedzi. Jednakże, w tym wariancie oceny studentów nie ulegną zmianie
+t.j. niektóre odpowiedzi <b>nie</b> są bardziej poprawne od innych czy więcej warte. Może być również
+tak, że wszystkie odpowiedzi są poprawne i przeniosą one studenta do różnych części lekcji w zależności
+od wybranej odpowiedzi.</p>
+
+<p>Moodle zawiera wariant pytań wielokrotnego wyboru, który nazywa się <b>&quot;Wielokrotne pytania i odpowiedzi
+&quot;</b>. Ten typ pytań wymaga od studenta zaznaczenia wszystkich poprawnych odpwiedzi z danego zestawu.
+Pytanie może ale nie musi podpowiedzieć studentowi ile poprawnych odpowiedzi znajduje się w zestawie n.p. 
+"Wybierz dwóch prezedyntów Francji z poniższej listy". Aby wybrać tą opcje pytań trzeba zaznaczyć okienko
+Opcja pytania.</p>
+
+<p>Podobnie jak wcześniej poprawne odpowiedzi przeniosą studenta do następnej części
+materiału a błędne pozostawią na danej stronie lub cofną. W przypadku większej ilości
+poprawnych odpowiedzi student powinien być przeniesiony do jednej strony.
+Jeśli lekcja nie zostanie tak skonstruowana nauczyciel zostanie ostrzeżony o tym fakcie. Poprawna
+informacja zwrotna powinna być wyświetlona tylko po poprawnej odpowiedzi na pierwsze pytanie z listy
+a negatywny komentarz po złej odpowiedzi. Informacje zwrotne dotyczące innych odpowiedzi są ignorowane.</p></li>
+
+<li><p><b>Krótka odpowiedĽ</b> The student is prompted for a short piece of text. 
+    This is checked against one or more answers. Answers can be either correct 
+    or wrong. Each answer can optionally have a response. If no response is 
+    entered for an answer then the default reponse &quot;That's the Correct 
+    Answer&quot; or &quot;That's the Wrong Answer&quot; is shown to the student.
+    If the text entered does not match any of the answers the question is wrong
+    and the student is shown the default wrong response. 
+    </p>
+
+<p>By default the comparisons ignore the case of the text. There is an option 
+    to make the comparisons case sensitive.</p></li>
+
+<li><b>Prawda/Fałsz</b> The answer to this type of question only has two options,
+    true or false. The student is prompted to choose which is the correct 
+    option. This type of question is basically a Multichoice question with just
+    two choices.</p></li>
+
+<li><p><b>Pasujące (dopasuj odpowiedĽ)</b> To są bardzo ciekawe i elastyczne typy pytań. Składają się z listy 
+terminów lub zdań które muszą zostać poprawnie połączone z inną listą. Dla przykładu można 
+nakazać połączenie listy stolic krajów z listą krajów. Przy zachowaniu należytej uwagi
+można też powtarzać terminy w listach.</p>
+
+<p>Terminy które zostaną wpisane do pierwszego okienka tekstowego znajdą sie
+w okienku Odpowiedzi a te które mają się znaleĽć w drugiej liście powinny
+być wpisane do okienka Informacje zwrotne. Po utworzeniu w ten sposób pojawi
+sie dużo bardziej przejrzyste nazewnictwo tych pytań. Kiedy student dobrze
+połączy terminy wówczas zostanie przeniesiony do strony określonej w pierwszej
+odpowiedzi. W przypadku negatywnego połączenia zostanie przeniesiony sprecyzowanej
+w drugiej odpowiedzi. Ten typ pytań nie umożliwia tworzenia informacji zwrotnych
+dostosowanych do potrzeb użytkownika. Student zostanie poinformowany o tym ile
+dopasowań jest poprawnych lub czy wszystkie dopasowania są poprawne.</p>
+
+<p>W przeciwieństwie do pytań wielokrotnego wyboru gdzie odpowiedzi są wyświetlane
+losowo, w przypadku tego typu pytań pierwsza lista ma zachowany oryginalny układ
+pytań. To pozwala na ułożenie <b>&quot;uporządkowanych&quot;</b> pytań n.p.
+&quot; Ułóż poniższą listę nazwisk w porządku urodzin zaczynjąc od najwcześniej
+urodzonego:&quot; z listami 1., 2., 3., 4. i 
+    Longfellow, Lawrence, Lowell, Larkin. Druga lista zostanie oczywiście pomieszana
+    zanim zostanie użyta w pytaniu.</p></li>
+
+<li><p><b>Numeryczne</b> Ten typ odpowiedzi wymaga liczbowej odpowiedzi. W swej najprostszej
+postaci wymaga wskazania tylko jednej odpowiedzi. Dla przykładu: ile jest 2 + 2? i po odpowiedzi 4
+student zostanie przeniesiony do odpowiedniej części lekcji. Jednakże, lepiej jest określić
+zakres liczb a to dlatego, że w wyniku porównań pojedynczej liczby zaokrąglenia dokonane 
+przez Moodle system mogą wskazać różne odpowiedzi. Dla przykładu, odpowiedĽ na pytanie ile jest
+10 dzielone przez 3 lepiej dać odpowiedĽ <b>&quot;Minimum:Maximum&quot;</b>, tzn. <b>dwie</b> 
+wartości oddzielone od siebie dwukropkiem (:) n.p. jeśli wpiszemy 3.33:3.34 wówczas odpwiedzi
+takie jak 3.33, 3.333, 3.3333...  będą uznane za poprawne odpowiedzi. &quot;Złe&quot; odpowiedzi
+zawierają 3.3 (mniej niż minimum) i 3.4 (większe niż maksimum).</p>
+
+<p>W tym typie odpowiedzi możliwe jest więcej niż jedna poprawna odpowiedĽ i odpowiedzi mogą być
+albo pojedynczymi wartościami albo ich parami. Zauważ, że odpowiedzi są sprawdzane w porządku OdpowiedĽ 1,
+OdpowiedĽ 2... tak więc trzeba uważać przy konstruowaniu informacji zwrotnych.
+N.p. odpowiedĽ na pytanie &quot;Kiedy urodził się Larkin?&quot; mógłaby mieć pojedynczą wartość 1922 lub
+zakres odpowiedzi 1920:1929 lub lata 20-ste, jako mniej dokładne odpowiedzi. W tym też porządku te
+odpowiedzi są testowane. Pierwsza odpowiedĽ mogłaby zawierać informację zwrotną &quot;Dokładnie tak&quot; podczas
+gdy druga informacja zwrotna mogłaby zawierać bardziej dostosowane zdanie n.p.&quot;Blisko, wskazałeś
+poprawną dekadę&quot;</p>
+    
+<p>Można wskazać błędne odpowiedzi, ale powinno się to zrobić dopiero po
+poprawnych odpowiedzi. Odwołując się do wcześniejszego przykładu, odpowiedĽ na pytanie 10/3 które brzmiałoby
+3.4 (zła odpowiedĽ) powinno zostać umiejscowione po poprawnej odpowiedzi. To jest najpierw 3.33:3.34 a potem dopiero
+3:4 (zła odpowiedĽ ale nie ewidentnie zła odpowiedĽ!).</p></li>
+</ul>
+

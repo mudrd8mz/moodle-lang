@@ -1,0 +1,72 @@
+<?PHP // $Id$ 
+      // attendance.php - created with Moodle 1.4 (2004083100)
+
+
+$string['absentlong'] = 'Nieobecny/a';
+$string['absentshort'] = 'N';
+$string['addingmultiple'] = 'Dodawanie wielu list obecności';
+$string['addmultiple'] = 'Dodaj wiele list obecności';
+$string['allmodulename'] = 'Wszystkie listy obecności';
+$string['auto'] = 'automatycznie';
+$string['autoattend'] = 'Automatycznie sprawdź obecność opierając się na dziennikach aktywności użytkownika';
+$string['autoattendmulti'] = 'Automatycznie sprawdź wszystkie listy obecności opierając się na dziennikach aktywności użytkownika';
+$string['autoattendshort'] = 'Automatycznie z logów';
+$string['choosedays'] = 'Dni tygodnia w których należy sprawdzić obecność';
+$string['dayofroll'] = 'Data sprawdzenia obecności';
+$string['defaultautoattend'] = 'Czy zawsze sprawdzać obecność opierając się na logach aktywności użytkownika?';
+$string['defaultdynamicsection'] = 'Czy zawsze przesuwać listy obecności na właściwe tygodnie?';
+$string['defaultgrade'] = 'Czy zawsze umożliwiać ocenianie list obecności?';
+$string['defaulthoursinclass'] = 'Ile godzin powinno być zapisanych w typowej liście obecności?';
+$string['defaultmaxgrade'] = 'Jaka powinna być najwyższa ocena za brak nieobecności?';
+$string['defaultstudentstatus'] = 'Określ domyślny status studenta na nowej liście obecności';
+$string['downloadexcelfull'] = 'Ściągnij pełną wersję arkusza Excela';
+$string['downloadexceltotals'] = 'Ściągnij skróconą wersję arkusza Excela';
+$string['downloadtextfull'] = 'Ściągnij pełną wersję tekstową';
+$string['downloadtexttotals'] = 'Ściągnij skróconą wersję tekstową';
+$string['dynamicsection'] = 'Wyznacz tydzień odbywania się zajęć od tej daty';
+$string['dynamicsectionmulti'] = 'Automatycznie umieść listy obecności w określonych tygodniach';
+$string['dynsectionshort'] = 'Automatycznie przesunięte do sekcji';
+$string['endbeforestart'] = 'Data końcowa jest przed datą początkową.';
+$string['endmulti'] = 'Data ostatniego sprawdzenia obecności';
+$string['for'] = 'dla';
+$string['friday'] = 'Pt';
+$string['gradeshort'] = 'Ocenione';
+$string['gradevalue'] = 'Umożliw ocenę tej listy obecności';
+$string['gradevaluemulti'] = 'Umożliw ocenę tych list obecności';
+$string['hoursinclass'] = 'Ilość godzin w jednym okresie dla jednej klasy';
+$string['hoursineachclass'] = 'Ilość godzin w jednym okresie dla każdej klasy';
+$string['hoursinfullreport'] = 'Maksymalna liczba godzin obecności, która powinna zostać wyświetlona na jednej stronie raportu.';
+$string['maxgradeshort'] = 'Maksymalna ocena';
+$string['maxgradevalue'] = 'Maksymalna ocena za brak nieobecności.';
+$string['modulename'] = 'Obecność';
+$string['modulenameplural'] = 'Listy obecności';
+$string['monday'] = 'Pon';
+$string['norolls'] = 'Nie ma list obecności przypisanych do tego kursu';
+$string['notes'] = 'Specjalna informacja';
+$string['notesfor'] = 'Specjalna informacja dla';
+$string['noviews'] = 'Przepraszamy, ale nie mamy żadnych danych dla Twojego konta';
+$string['of'] = 'z';
+$string['pages'] = 'stron';
+$string['presentlong'] = 'Obecny/a';
+$string['presentshort'] = 'O';
+$string['saturday'] = 'Sob';
+$string['startafterend'] = 'Data początkowa została wyznaczona po zakończeniu kursu.';
+$string['startmulti'] = 'Data pierwszego sprawdzenia obecności';
+$string['sunday'] = 'Nie';
+$string['takeroll'] = 'Czy sprawdzić obecność tego dnia?';
+$string['tardiesperabsence'] = 'Ile spóźnień powinno się liczyć jako jedna niebecność?';
+$string['tardylong'] = 'Spóźnienie';
+$string['tardyshort'] = 'S';
+$string['teacheredit'] = 'Sprawdź obecność';
+$string['thursday'] = 'Czw';
+$string['tuesday'] = 'Wt';
+$string['viewall'] = 'Wyświetl wszystkie listy obecności';
+$string['viewmulti'] = 'Wyświetl raport na paru stronach';
+$string['viewone'] = 'Wyświetl wszystkie strony raportu';
+$string['viewsection'] = 'Wyświetl wszystkie listy obecności w tej sekcji';
+$string['viewtable'] = 'Wyświetl raport jako jedną tabelę';
+$string['viewweek'] = 'Wyświetl wszystkie listy obecności z danego tygodnia';
+$string['wednesday'] = 'Śr';
+$string['weekmodulename'] = 'Wszystkie listy obecności w ostatnim tygodniu ';
+
+?>

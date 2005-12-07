@@ -1,0 +1,100 @@
+<P ALIGN=CENTER><B>Importowanie nowych pytań</B></P>
+
+<P>Ta funkcja pozwala Ci zaimportować pytania z zewnętrznego pliku tekstowego, przesłanego na serwer za pomocą formularza.  
+
+
+<P>Import obsługuje kilka formatów.
+
+<P><B>Format GIFT</B></P>
+<ul>
+<p>Format GIFT jest najbardziej wszechstronnym formatem. Został zaprojektowany jako prosta metoda dla nauczycieli tworzacych pytania jako plik tekstowy. GIFT obsługuje pytania Wielokrotnego wyboru, Prawda-Fałsz, Krótkie odpowiedzi, Dopasuj odpowiedź, Numeryczne jak i zadania typu "wstaw brakujące słowo".</p>
+
+<p>Kilka typów pytań może być użyytych w jednym pliku tekstowym. Ponadto format ten zezwala na umieszczanie komentarzy, nazw pytań, informacji zwrotnych i ważenie ocen. </p>
+
+<p>Oto kilka przykładów:</p>
+
+<pre>
+CzasNaE-Biznes to?{~codzienna gazeta ~książka =serwis www i e-zin}
+
+CzasNaE-Biznes to {~codzienna gazeta ~książka =serwis www} o marketingu i biznesie.
+
+CzasNaE-Biznes to codzienna gazeta.{FALSE}
+
+CzasNaE-Biznes to?{=serwis www =e-zin}
+
+Kiedy powstał CzasNaE-Biznes?{#2000}
+</pre>
+
+<p align=right><a href="help.php?file=formatgift.html&module=quiz">Więcej o formacie GIFT</a></p>
+</ul>
+
+<P><B>Format Aiken</B></P>
+<ul>
+<p>Format Akien to bardzo prosty sposób tworzenia pytań wielokrotnego wyboru używając łatwego dla człowieka formatu. Oto przykład:</p>
+<pre>
+Jaka jest poprawna odpowiedĽ na to pytanie?
+A. Czy to ta odpowiedĽ?
+B. A może ta?
+C. A może jednak ta?
+D. Czy jednak może ta?
+ANSWER: D
+</pre>
+
+<p align=right><a href="help.php?file=formataiken.html&module=quiz">Więcej o formacie "Aiken"</a></p>
+</ul>
+
+
+<P><B>Brakujące słowo</B></P>
+<UL>
+<P>Format ten obsługuje jedynie pytania wielokrotnego wyboru. Kaza odpowiedź jest oddzielona tylką (~). Poprawna odpowiedź jest poprzedzona znakiem równości (=). Oto przykład:
+
+<BLOCKQUOTE>Bedąc jeszcze niemowlęciami, gdy tylko rozpoczniemy poznawać własne ciało, stajemy się studentami {=anatomii i fizjologii ~prawa ~psychologii}.
+</BLOCKQUOTE>
+
+<p align=right><a href="help.php?file=formatmissingword.html&module=quiz">Więcej o formacie "Brakujące słowo"</a></p>
+</UL>
+
+
+<P><B>AON</B></P>
+<UL>
+<P>Jest to inna wersja formatu "Brakujące słowo". W AON po zaimportowaniu
+pytań, wszystkie pytania typu krótkie odpowiedzi są konwertowane po 4 na raz w pytania typu dopasuj odpowiedź.</P>
+<p>Dodatkowo odpowiedzi pytań wielokrotnego wyboru są losowo wymieszane.
+<p>Format ten jest nazwany na czejść organizacji, która wspierała stworzenie wielu cech quizu.</p>
+</UL>
+
+
+<P><B>Blackboard</B></P>
+<UL>
+<P>Ten moduł potrafi importować pytania zapisane w formacie eksportowym Blackboard. Opiera się on o funkcje XML.</P>
+
+<p align=right><a href="help.php?file=formatblackboard.html&module=quiz">Więcej o formacie "Blackboard"</a></p>
+</UL>
+
+<P><B> CTM ("Course Test Manager")</B></P>
+<UL>
+<P>Moduł ten pozwala importować pytania stworzone przy pomocy programu Course Test Manager. Pliki CTM są zapisane w formacie Microsoft Access, więc sposób importowanie zależny jest od tego, czy Moodle działa na Windows czy na Unixie.
+</P>
+
+<p>W przypadku Windows możesz po prostu zaimportować plik z bazą danych pytań tak, jak każdy inny plik.
+</p>
+<p>W przypadku Linuxa musisz włączyć maszynę windows w tej samej sieci z zainstalowaną bazą CTM oraz programeme ODBC Socket Server, który prześle dane w formacie XML do Moodle.</p>
+
+  <p>Przeczytaj plik pomocy zanim zaczniesz importować w tym formacie.</p>
+
+
+<p align=right><a href="help.php?file=formatctm.html&module=quiz">Więcej o formacie "CTM"</a></p>
+</UL>
+
+<P><B>Własny format</B></P>
+<UL>
+<P>Jeśli masz swój własny format, możesz go uzywać, jeśli odpowiednio zmodyfikujesz mod/quiz/format/custom.php
+
+<P>Liczba niezbędnego nowego kodu jest dosyć niewielka - tylko tyle aby
+przetworzyć tekst na pytanie.
+
+<p align=right><a href="help.php?file=formatcustom.html&module=quiz">Więcej o Własnym formacie</a></p>
+</UL>
+
+
+<P>Tworzymy już nowe formaty: WebCT, IMS QTI i cokolwiek jeszcze zapragną członkowie społeczności Moodle! </p>

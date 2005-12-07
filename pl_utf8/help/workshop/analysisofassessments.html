@@ -1,0 +1,39 @@
+<P ALIGN=CENTER><B>Analiza ocen</B></P>
+
+<P>Analizowane są oceny wystawione przykładom
+jak i właściwe oceny wystawiane w fazie oceniania.
+System próbuje ustalić najbardziej prawidłowe oceny z grupy ocen studentów i nauczyciela. Te &quot;poprawne&quot; oceny są następnie używane w trakcie obliczania ostatecznej oceny.
+</p>
+
+<p>Analiza sprawdza się nalepiej, gdy dostępna są również oceny nauczyciela. Oceny te mogą się zachowywać jako benchmarki, w sotsunku do których wartościowane są oceny studentów. Nauczyciel <b>nie musi</b> oceniać każdego przykładu i każdego rozwiązania nadesłanego przez studenta. Jednakże dla najlepszych wyników analizy nauczyciel powinien wystawić więcej ocen niż średnio każdy student. Im więcej ocen wystawi nauczyciel tym bardziej pewny może być analizy.
+</p>
+
+<p>Analiza jest przeprowadzana wielokrtonie, za każdym razem z zmieniając nieco opcje. Możesz kontrolowac analizę za pomocą 3 opcji na górze strony.
+</p>
+
+<ol>
+
+<p><li>Obciążenie ocen nauczyciela ustawia wagę ocen nauczyciela w stosunku do ocen studentów w stadium analizy błędów. Jeśli nauczyciel chce aby jego oceny dominowały, jego oceny muszą mieć najmniejszą średnią odchyleń w &quot;Tabeli Błędów&quot;. Jeśli nauczyciel nie jest pierwszą osobą na tej liście, obciązenie ocen powinno być podniesione aż do osiągnięcia najmniejszej średniej odchyleń. Wtedy oceny nauczyciela dominują a studenci oceniający tak samo również pojawiają się na górze tej tabeli. Studenci na dole tabeli oceniali inaczej niż nauczyciel. Im więcej nauczyciel oceni prac, tym mniejsza potrzeba użycia tej opcji. Zwórc uwagę, że opcja ta <b>nie</b> wpływa na wagę ocen nauczyciela w trakcie obliczania ostatecznych ocen. W trakcie tego obliczania waga ocen nauczyciela jest taka sama, jak innych uczestników.
+</li>
+
+<p><li>Waga ocen jest używana podczas obliczania końcowych ocen. Prosta formuła jest używana do obliczenia &quot;Jakości oceniania&quot; przez studenta. Jest to proporcja &quot;prawidłowych&quot; ocen oraz maksymalnej liczby ocen, jakie mógł wystawić. Dla przykładu Zadanie prosi studenta o 3 oceny przykładowych rozwiązań oraz 5 ocen rozwiązań innych uczestników. Student daje 7 ocen z czego 1 jest opuszczana (zobacz poniżej). Wtedy jego jakość oceniania równa się (7-1)/8, czyli 75%. Końcowa ocena za zadanie jest ważona za pomocą kombinacji tej jakości oceniania i oceny za jego rozwiązanie (lub najlepszej oceny, jeśli dali kilka rozwiązań). Ocena za rozwiązanie ma zawsze wagę 1. Więc ustawiając ten parametr na 0.5 oznacza, że dwie oceny będą dodane w proporcji 0.5:1 lub 33% jakości oceniania i 66% oceny rozwiązania.</li>
+
+<p><li>Procent ocen do opuszczenia determinuje liczbę ocen, które zostaną wykluczone z obliczeń. Wartość ta może być ustawiona w dwojaki sposób:
+
+<ul>
+<p><li>Znając metodę obliczania &quot;Jakości oceniania&quot; każdy student mógłby osiągnąć maksymalną ocenę, gdyby ocenił wszystkie udostępnione mu prace. Jeśli nauczyciel chce mieć bardziej sensowną średnią, ustawiając tą opcję na 30% w rezultacie da &quot;Jakość oceniania&quot; na poziome 70% (o ile wszyscy studenci ocenią wszystkie prace).</li>
+
+<p><li>Alternatywnie liczba ocen do opuszczenia może być ustawiona tak aby pozostałe &quot;prawidłowe&quot; oceny dały średnie odchylenia były zmniejszone do sensownego minimum. Chodzi o wartości procentowe podane w czwarej kolumnie Błędów. Np. może być trudne aby oceny wszystkich studentów (średnio) mieściły się w zakresie 20%. Analiza jest więc powtarzana tak długo, za każdym razem usuwając którąś ocenę, aż wartości w tej kolumnie znajdą się ustalonym limicie.
+</ul>
+
+</ol>
+
+<p>Nawiązując do tabeli błędów, analiza wylistowuje oceny wszystkich ocen i ostateczne oceny przyznane studentom. Należy sprawdzić czy wyniki są racjonalne. Np. jeśli dużo ocen zostanie pominiętych, wtedy niektóre rozwiązania mogą pozostać nieocenione i przez to końcowa ocena studenta będzie zbyt mała. Analiza podaje liczbę rozwiązań na górze strony i zaraz przed tabelą ocen. Te dwie liczby powinny być identyczne. Jeśli pojawi się jedno lub więcej nie ocenionych rozwiązań a nauczyciel nie chce zmniejszać liczby opuszczonych ocen, wtedy te rozwiązania powinny być ocenione przez nauczyciela a analiza powtórzona. Ważne jest aby każde rozwiązanie zostało ocenione przynajmniej raz w końcowej fazie analizy, gdy obliczane są końcowe oceny.
+</p>
+
+<p>Istnieje równowaga pomiędzy liczbą opuszczonych ocen i końcowymi ocenami. Im więcej opuszczonych ocen tym niższe końcowe oceny. Jeśli jednak słabe oceny <b>nie</b> zostały opuszczone, studenci mogą narzekać na jakość ocen, które zdeterminowały ocenę końcową ich pracy. Najlepiej jeśli nauczyciel wystawi tyle ocen, aby zdominować analizę bez zbytniego wymuszania ocen. Wtedy racjonalne będzie opuszczenie 15-30% ocen studentów.
+</p>
+
+<p>Ponieważ analiza wymaga powtarzających się procesów, spodziewaj się że będzie długo trwała.
+Długie przerwy również są naturalne.
+</p>

@@ -1,0 +1,72 @@
+<?PHP // $Id$ 
+      // attendance.php - created with Moodle 1.6 development (2005053000)
+
+
+$string['absentlong'] = 'Chýba';
+$string['absentshort'] = 'A';
+$string['addingmultiple'] = 'Pridávajú sa archívy o viacnásobnej účasti používateľov v kurze';
+$string['addmultiple'] = 'Pridať archívy o viacnásobnej účasti používateľov v kurze';
+$string['allmodulename'] = 'Všetky archívy o účasti používateľov v kurze';
+$string['auto'] = 'automaticky';
+$string['autoattend'] = 'Automaticky zapísať dochádzku na základe protokolov o aktivite používateľov';
+$string['autoattendmulti'] = 'Automaticky zapísať dochádzku do všetkých archívov na základe protokolov o aktivite používateľa';
+$string['autoattendshort'] = 'Automaticky z protokolov';
+$string['choosedays'] = 'Dni v týždni, počas ktorých sa bude robiť dochádzka';
+$string['dayofroll'] = 'Dátum, kedy robiť dochádzku';
+$string['defaultautoattend'] = 'Či sa má implicitne robiť dochádzka na základe protokolov o aktivite používateľa';
+$string['defaultdynamicsection'] = 'Či sa má implicitne presunúť dochádzka do správneho týždňa ';
+$string['defaultgrade'] = 'Či má byť implicitne vytvorený archív dochádzky s možnosťou udeľovania bodov';
+$string['defaulthoursinclass'] = 'Koľko hodín by malo byť implicitne uvedených v archíve dochádzky ';
+$string['defaultmaxgrade'] = 'Aká by mala byť maximálna hodnota známky za kompletnú dochádzku';
+$string['defaultstudentstatus'] = 'Východiskový stav dochádzky v novom archíve dochádzky';
+$string['downloadexcelfull'] = 'Stiahnuť kompletný hárok v Exceli o aktivite v kurze';
+$string['downloadexceltotals'] = 'Stiahnuť súhrnný hárok v Exceli o aktivite v kurze';
+$string['downloadtextfull'] = 'Stiahnuť kompletnú textovú správu o aktivite v kurze';
+$string['downloadtexttotals'] = 'Stiahnuť súhrnnú textovú správu o aktivite v kurze';
+$string['dynamicsection'] = 'Určiť týždeň dochádzky na základe tohto dátumu';
+$string['dynamicsectionmulti'] = 'Automaticky umiestniť archívy dochádzky do príslušných týždňov';
+$string['dynsectionshort'] = 'Dynamicky presunuté do sekcie';
+$string['endbeforestart'] = 'Dátum ukončenia je pred dátumom začatia';
+$string['endmulti'] = 'Dátum poslednej účasti v kurze';
+$string['for'] = 'pre';
+$string['friday'] = 'Pia';
+$string['gradeshort'] = 'Oznámkované';
+$string['gradevalue'] = 'Za túto dochádzku je možné udeliť body';
+$string['gradevaluemulti'] = 'Za tieto dochádzky je možné udeliť body';
+$string['hoursinclass'] = 'Počet hodín v kurze';
+$string['hoursineachclass'] = 'Počet hodín v každom kurze';
+$string['hoursinfullreport'] = 'Maximálne množstvo hodín dochádzky, ktoré by malo byť zobrazené na samostatnej strane správy o aktivite v kurze';
+$string['maxgradeshort'] = 'Maximálna známka';
+$string['maxgradevalue'] = 'Maximálna hodnota známky za kompletnú dochádzku';
+$string['modulename'] = 'Dochádzka';
+$string['modulenameplural'] = 'Archívy dochádzky';
+$string['monday'] = 'Po';
+$string['norolls'] = 'V tomto kurze ešte nie sú žiadne archívy dochádzok';
+$string['notes'] = 'Doplňujúce  informácie';
+$string['notesfor'] = 'Doplňujúce informácie pre ';
+$string['noviews'] = 'Prepáčte, ale pre Váš používateľský účet neexistujú žiadne údaje';
+$string['of'] = '-';
+$string['pages'] = 'Strany';
+$string['presentlong'] = 'Prítomný/Prítomná';
+$string['presentshort'] = 'P';
+$string['saturday'] = 'So';
+$string['startafterend'] = 'Dátum začatia je po dátume ukončenia kurzu';
+$string['startmulti'] = 'Dátum prvého archívu dochádzky';
+$string['sunday'] = 'Ne';
+$string['takeroll'] = 'Zapísať dochádzku na tento deň?';
+$string['tardiesperabsence'] = 'Koľko oneskorení sa počíta ako jedna absencia';
+$string['tardylong'] = 'Oneskorenie';
+$string['tardyshort'] = 'T';
+$string['teacheredit'] = 'Zistiť dochádzku';
+$string['thursday'] = 'Štv';
+$string['tuesday'] = 'Ut';
+$string['viewall'] = 'Zobraziť  všetky archívy dochádzok';
+$string['viewmulti'] = 'Zobraziť správu na viacerých stranách';
+$string['viewone'] = 'Zobraziť všetky strany správy';
+$string['viewsection'] = 'Zobraziť všetky archívy dochádzok v tejto sekcii';
+$string['viewtable'] = 'Zobraziť správu ako jednu tabuľku';
+$string['viewweek'] = 'Zobraziť všetky archívy dochádzok z kalendárneho týždňa';
+$string['wednesday'] = 'Str';
+$string['weekmodulename'] = 'Všetky archívy dochádzok z minulého týždňa';
+
+?>

@@ -1,0 +1,271 @@
+<p align="center"><b>Import souborů z formátu GIFT</b></p>
+<p>GIFT je nejkomplexnější dostupný formát pro importování testových otázek 
+z textového souboru do Moodlu. Podporuje různé typy úloh: úlohy s výběrem odpovědí, 
+s krátkou odpovědí, s odpovědí pravda/nepravda, numerické úlohy, přiřazování a 
+doplňovací úlohy (cloze test), a také vložení _______ pro formát "vynechané 
+slovo". V jednom textovém souboru lze použít více typů úloh. Formát GIFT 
+dále umožňuje zadávat jméno otázky, komentář k odpovědím a jejich hodnocení 
+v procentech; pro interní potřebu lze text také opatřovat poznámkami, které se 
+v testu nezobrazí.</p>
+
+<p>Kódování importovaného souboru se musí shodovat s kódováním použitým ve vaší 
+instalaci Moodlu. Příklad souboru s úlohami pro import najdete zde: 
+<a href="mod/quiz/format/gift/examples.txt">gift/examples.txt</a></p>
+
+<h3>TYPY ÚLOH</h3>
+
+<p><b>Úloha s výběrem odpovědí</b><br />
+U úlohy tohoto typu jsou chybné odpovědi uvozeny vlnovkou/tildou (~), správné 
+odpovědi rovnítkem (=).</p>
+
+<pRE>     Kdo je pohřben v památníku na Vítkově?{~T.G.M. ~Klement Gottwald =nikdo}</PRE>
+
+<p>Zvláštní případ úlohy s výběrem odpovědi představuje formát <b>vynechané 
+slovo</b>, který na místo libovolného slova ve větě automaticky vloží značku 
+vynechávky (_____). Varianty odpovědí se v zápisu úlohy uvádějí na místě, kde se 
+má tato značka objevit.
+
+<pRE>     V památníku na Vítkově byl {~otráven =pohřben ~oddán}Klement Gottwald.</PRE>
+
+<p>Formát "vynechané slovo" bude použit vždy, když jsou odpovědi v závorce 
+uvedeny kdekoliv před závěrečným interpunkčním znaménkem. Na jejich místo se 
+automaticky vloží značka vynechávky (____). V tomto formátu lze zapsat všechny 
+typy úloh.</p>
+<p>Jednotlivé otázky musí být vždy odděleny prázdným řádkem (dvojité CR). Pro 
+větší srozumitelnost můžete napsat každou odpověď na zvláštní řádek a případně 
+odsadit:</p>
+<pRE>     Americký Den díkůvzdání se slaví {
+         ~druhý
+         ~třetí
+         =čtvrtý
+     } čtvrtek v listopadu.
+
+     
+     Z jaké země původně pochází japonské písmo? {
+         ~Indie
+         =Čína
+         ~Korea
+         ~Egypt}</PRE>
+
+<p><b>Úloha s krátkou odpovědí</b><br />
+U tohoto typu úlohy jsou všechny odpovědi označeny rovnítkem (=), které 
+signalizuje, že jsou všechny správné. Žádná odpověď nesmí obsahovat znak 
+vlnovka/tilda.</p>
+
+<pRE>     	Kdo je pohřben v památníku na Vítkově?{=nyní již nikdo =nikdo}
+	Dvě a dvě se rovnají {=čtyřem =4}.</PRE>
+
+<p>Pokud je možná jen <U>jedna</U> správná odpověď, pak nemusí být označena 
+rovnítkem. Pozor ale na záměnu s úlohou typu "pravda/nepravda".</p>
+
+<p><b>Úloha pravda/nepravda</b><br />
+U tohoto typu úlohy student v odpovědi rozhoduje, zda je určité tvrzení pravdivé. 
+V zápisu úlohy uvádíme odpověď v podobě {TRUE} nebo {FALSE}, příp. zkráceně {T} 
+nebo {F}.</p>
+
+<pRE>     V památníku na Vítkově je pohřben Klement Gottwald. {F}
+
+     Slunce vychází na východě. {T}</PRE>
+
+<p><b>Přiřazování</b><br />
+Dvojice správných odpovědí začínají rovnítkem (=) a jsou odděleny symbolem "->". 
+Musíte vytvořit alespoň tři páry správných odpovědí.</p>
+
+<pRE>     Zadání úlohy. {
+	=otázka1 -> odpověď1
+	=otázka2 -> odpověď2
+	=otázka3 -> odpověď3
+	}
+
+	Přiřaďte k následujícím zemím jejich hlavní města. {
+	=Kanada   -> Ottawa
+	=Itálie   -> Řím
+	=Japonsko -> Tokio
+	=Rakousko -> Vídeň
+	}</PRE>
+	
+<p>U tohoto typu úloh nelze k odpovědím připojovat komentář ani stanovovat 
+procentní hodnocení odpovědi.</p>
+
+<p><b>Numerická úloha</b><br />
+Odpověď u tohoto typu úlohy se označuje křížkem (#). Lze u ní stanovit i 
+odchylku, která se uvádí za správnou odpovědí a odděluje se dvojtečkou. Pokud 
+například správná odpověď leží kdekoliv v intervalu 1,5&ndash;2,5, 
+zapíšeme ji <U>{#2:0.5}</U>. Tím stanovujeme, že správná odpověď je 2 s 
+odchylkou 0,5 (tzn. interval od 1,5 do 2,5). Pokud není odchylka uvedena, 
+předpokládá se, že je nulová. Poznámka: číselné hodnoty je třeba zadávat s 
+řádovou tečkou, nikoliv čárkou (systém pracuje s anglosaským zápisem).</p>
+
+<pRE>     Kdy se narodil T.G.M.? {#1850}
+
+     Jaká je hodnota pí (na tři desetinná místa)? {#3.1415:0.0005}</PRE>
+     
+<p>Odpověď na numerickou úlohu může být zapsána také jako interval 
+v následujícím formátu: {#<i>MinimálníHodnota</i>..<i>MaximálníHodnota</i>}</p>
+
+<pRE>     Jaká je hodnota pí (na tři desetinná místa)? {#3.141..3.142}</PRE>
+
+<p>Uživatelské rozhraní Moodlu nedokáže pracovat s více variantami odpovědi na 
+numerickou úlohu. Programový kód Moodlu i formát GIFT to však dovedou; toho lze 
+využít pro zadání několika číselných intervalů v rámci jedné odpovědi, zvláště 
+pak v kombinaci s procentním hodnocením jednotlivých variant odpovědi. Pokud 
+použijeme více správných odpovědí, je třeba je v zápise oddělit rovnítkem 
+(stejně jako u otázek s krátkou odpovědí).</p>
+
+<pRE>     Kdy se narodil T.G.M.? {#
+         =1850:0
+         =%50%1850:2}</PRE>
+
+<p>Vzhledem k tomu, že uživatelské rozhraní Moodlu nedokáže pracovat s více 
+variantami odpovědi na numerickou úlohu, nelze je v Moodlu ani prohlížet, ani 
+upravovat. Chceme-li změnit druhou a další variantu odpovědi, nezbývá než otázku 
+vymazat a znovu ji importovat s novou, rozšířenou odpovědí (nebo použít nástroj 
+pro správu databáze, např. phpMyAdmin).</p>
+
+<H3>NASTAVENÍ</H3>
+<p>Kromě těchto základních typů úloh nabízí filtr formátu GIFT další nastavení: 
+jméno otázky, komentář k odpovědím a jejich hodnocení v procentech; pro interní 
+potřebu lze text také opatřovat poznámkami, které se v testu nezobrazí.</p>
+
+<p><U>Poznámky k otázce</U><br />
+Textový soubor může obsahovat i informace, které se nebudou vkládat do Moodlu, 
+např. mezinadpisy nebo poznámky k otázkám. Filtr ignoruje všechny řádky 
+začínající dvěma lomítky (tabulátory a mezery před nimi se neuvažují).</p>
+
+<pRE>     // Mezinadpis: Číselné otázky
+     Kolik je 2 plus 2? {#4}</PRE>
+
+<p><U>Jméno úlohy</U><br />
+Na začátku úlohy můžeme uvést její jméno, které uzavřeme do dvojitých dvojteček.</p>
+
+<pRE>     ::Původ kandži:: Z které země původně pochází japonské písmo? {=Čína}
+
+     ::Díkůvzdání:: Americký Den díkůvzdání se slaví {~druhý ~třetí =čtvrtý} čtvrtek v listopadu.</PRE>
+
+<p>Jestliže otázka není pojmenována, použije se jako jméno celé její znění.</p>
+
+<p><U>Komentář</U><br />
+Komentář lze připojit ke každé odpovědi; připojuje se za odpověď a uvozuje se 
+křížkem (#).</p>
+
+<pRE>     Která z těchto možností je správná?{ 
+     ~chybná odpověď#komentář k chybné odpovědi
+     ~další chybná odpověď#komentář k této chybné odpovědi
+     =správná odpověď#komentář ke správné odpovědi}
+     
+     Kdo je pohřben v památníku na Vítkově?{
+     =nyní již nikdo#výborně
+     =nikdo#výborně}
+
+     V památníku na Vítkově je pohřben T.G.M. {FALSE#Není a nikdy nebyl.}</PRE>
+
+<p>U úloh s výběrem odpovědí se zobrazí pouze komentář k té variantě, kterou 
+student zvolil. U krátkých odpovědí se komenář zobrazí jen v případě, že student 
+odpověděl správně. U úloh typu pravda/nepravda se komentář zobrazí pouze tehdy, 
+jestliže student odpověděl chybně. Proto by se komentář v posledním uvedeném 
+příkladě zobrazil, jenom kdyby student odpověděl "pravda".</p>
+
+<p><U>Procentní hodnocení odpovědí</U><br />
+Procentní hodnocení odpovědí je k dispozici jak pro úlohy s výběrem odpovědí, 
+tak pro úlohy s krátkou odpovědí. Procentní hodnocení se vkládá za vlnovku (u 
+úloh s výběrem odpovědí) nebo za rovnítko (u úloh s krátkou odpovědí), přičemž 
+údaj o procentech je uzavřen mezi dvěma znaky "%" (např. %50%). Toto nastavení 
+lze kombinovat s komentáři k odpovědím.</p>
+
+<pRE>     Složitá otázka.{~chybná odpověď ~%50%téměř správná odpověď =zcela správná odpověď}
+          
+     ::Ježíšovo město::Ježíš Kristus byl z {
+     ~Jeruzaléma#Jeruzalém je sice významné město, ale odpověď zní jinak.
+     ~%25%Betléma#Zde se narodil, ale nevyrůstal.
+     ~%50%Galileje#Je třeba být přesnější.
+     =Nazaretu#Ano! Přesně tak!}.
+     
+     ::Ježíšovo město::Ježíš Kristus byl z {
+     =Nazaretu#Ano! Přesně tak!
+     =%75%Nasaretu#Správně, ale pozor na pravopis.
+     =%25%Betléma#Zde se narodil, ale nevyrůstal.
+</PRE>
+
+<p>Povšimněte si, že poslední dva uvedené příklady obsahují tutéž otázku &ndash; 
+poprvé jako úlohu s výběrem odpovědí, podruhé jako úlohu s krátkou odpovědí.</p>
+
+<p>Systém umožňuje zadat u variant odpovědi i jiné procentní hodnoty, než které 
+nabízí uživatelské rozhraní Moodlu. S&nbsp;takovýmito hodnotami zachází modul Test 
+správně, a správně se také budou zobrazovat studentům při řešení testu. Nebudou 
+se však zobrazovat správně učiteli, pokud bude úlohu upravovat prostřednictvím 
+uživatelského rozhraní (Úprava úlohy v modulu Test). Rozbalovací menu totiž 
+nabízí k vložení pouze několik pevných hodnot, a pokud počet procent 
+přesně neodpovídá ani jedné z nich, nezobrazí se správně &ndash; na jeho 
+místo bude dosazena některá z přednastavených hodnot.</p>
+
+<p><U>Více správných odpovědí</U><br />
+Tato volba se používá u úloh s výběrem odpovědí tehdy, je-li správná více než 
+jedna možnost a k získání plného počtu bodů je nutno zvolit všechny správné 
+varianty. Volba se aktivuje, jestliže každé ze správných variant přiřadíte 
+dílčí procentní hodnocení a za žádnou veriantu neudělíte plných 100&nbsp;%.</p>
+
+<pRE>     Kdo byl pohřben v památníku na Vítkově? {
+	~Nikdo
+	~%50%Klement Gottwald
+	~%50%Představitelé komunistického režimu
+	~T.G.M. }</PRE>
+
+<p>Povšimněte si, že žádná odpověď není uvozena rovnítkem. Součet bodů by se měl 
+rovnat přesně 100&nbsp;%, jinak Moodle nahlásí chybu. Aby student automaticky 
+nezískal 100&nbsp;% jen proto, že si prošel všechny odpovědi, je dobré nastavit 
+ke špatným odpovědím záporné procentní hodnoty.</p>
+
+<pRE>     Kdo byl pohřben v památníku na Vítkově? {
+          ~%-50%Nikdo
+          ~%50%Klement Gottwald
+          ~%50%Představitelé komunistického režimu
+          ~%-50% T.G.M. }</PRE>
+          
+<p><u>Speciální znaky ~ = # { }</u><br />
+
+Znaky <b> ~ = # { } </b> slouží k řízení činnosti filtru a nelze je přímo použít 
+v textu úlohy. V jistých případech je však užití některého z těchto znaků 
+nezbytné, např. pro zápis matematického výrazu. V tom případě je nutno před něj 
+vložit zpětné lomítko (\); filtr jej pak nebude považovat za řídicí znak a 
+přepíše jej beze změny do textu úlohy.
+
+Například:</p>
+<pre>     Který výraz je roven 5? {
+          ~ \= 2 + 2
+          = \= 2 + 3
+          ~ \= 2 + 4  }
+
+     ::Řídicí znaky formátu GIFT::
+     Který z následujících znaků NENÍ řídicím znakem importního formátu GIFT? {
+        ~ \~     # \~ je řídicí znak.
+        ~ \=     # \= je řídicí znak.
+        ~ \#     # \# je řídicí znak.
+        ~ \{     # \{ je řídicí znak.
+        ~ \}     # \} je řídicí znak.
+        = \      # Správně! \ (zpětné lomítko) není řídicí znak, ale užívá se, 
+                   chceme-li řídicí znak použít v textu úlohy.
+     }</pre>
+     
+<p>Při zpracování otázky se zpětné lomítko odstraní a neuloží se do textu 
+úlohy.</p>
+
+<p><U>Další nastavení</U><br />
+Další nastavení lze měnit úpravou importního filtru <b>gift/format.php</b>.</p>
+
+<p>Například u krátkých odpovědí můžete nastavit rozlišování malých 
+a velkých písmen změnou "0" na "1" v následujícím řádku:<br />
+
+<TT>$question-&gt;usecase = 0; // Ignore case</TT></p>
+
+<p></p>
+<H3>PODĚKOVÁNÍ</H3>
+<p>Formát GIFT a filtr pro jeho převod do Moodlu byl vytvořen díky spolupráci 
+řady moodlovských nadšenců. Jeho základem je formát "vynechané slovo", na jehož 
+tvorbě se podíleli Martin Dougiamas, Thomas Robb a další. GIFT vytvořil v 
+prosinci 2003 Paul Tsuchido Shew a zakomponoval do něj i připomínky ostatních, 
+které se týkaly hlavně rozsahu možností formátu. Jméno GIFT vzniklo jako zkratka 
+pro "General Import Format Technology"; to by ovšem byl příliš dlouhý název pro 
+tak jednoduchý filtr, proto se mu říká prostě GIFT.</p>
+
+<p><font size=-1>Dokumentaci k formátu GIFT vypracoval Paul Tsuchido Shew, 
+http://ac.shew.jp (poslední aktualizace 27. února 2004).</font></p>

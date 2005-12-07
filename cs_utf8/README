@@ -1,0 +1,83 @@
+$Id$
+
+********************************************************************************
+                    README aneb CTIME (i já tě budu ctít :-)                  
+                           K ČESKÉMU PŘEKLADU MOODLE                      
+********************************************************************************
+
+AUTOŘI PŘEKLADU
+
+David Mudrák (david.mudrak@pedf.cuni.cz)
+ Univerzita Karlova v Praze, Pedagogická fakulta
+
+Jindřich Jindřich (jindrich@jindrich.org)
+ Univerzita Karlova v Praze, Přírodovědecká fakulta
+
+Jiří Rambousek (jiri.rambousek@phil.muni.cz)
+Daniel Mikšík (miksik@phil.muni.cz)
+Zdeněk Pytela (pytela@phil.muni.cz)
+ Masarykova univerzita v Brně, Filozofická fakulta
+
+LICENCE
+
+Tento překlad je určen k volnému použití. Můžete jej šířit a modifikovat podle
+ustanovení Obecné veřejné licence GNU, vydávané Free Software Foundation, a to
+buď verze 2 této licence anebo (podle vašeho uvážení) kterékoli pozdější verze.
+
+Tento překlad je rozšiřován v naději, že bude užitečný, avšak BEZ JAKÉKOLI
+ZÁRUKY. Neposkytují se ani odvozené záruky PRODEJNOSTI anebo VHODNOSTI PRO
+URČITÝ ÚČEL. Další podrobnosti hledejte ve Obecné veřejné licenci GNU na
+adresách:
+
+http://www.gnu.cz/
+http://www.gnu.org/copyleft/gpl.html
+
+
+ZDRAVÍČKO!
+
+Toto je balík češtiny pro Moodle. Překlad se snažíme aktualizovat tak rychle,
+jak jen to volný čas dovoluje -- takže toho spousta chybí ;-) Množství termínů
+je přeloženo "naslepo" (takový překlad je v tomto souboru označen slovem FIXME),
+takže je možné, že nebudou dávat v kontextu smysl a v příštích verzích dozná
+předklad úprav -- snad právě na základě vašich připomínek. Proto neváhejte a s
+jakýmkoliv smysluplným návrhem či (raději:-) nabídkou spolupráce se na nás
+obraťte (nejlépe na stránkách http://moodle.cz). 
+
+Obecně jsou pokyny překládány tak, jako by bylo mluveno k více lidem, tedy v
+první osobě čísla množného (například "...ujistěte se, že jste správně
+vložili..."). Kdoví (nechť napoví), zda je to gramaticky správně, ale obcházíme
+tím nemožnost rozlišovat mužský a ženský rod (vložil/vložila).
+
+V textech se občas provádí automatické nahrazování a doplňování textů pomocí
+proměnných $a, $a->name apod. V těchto a dalších případech bývá někdy obtížné
+udržet gramaticky správnou větu (typicky "Před 1 hodina, 2 hodiny" místo "Před 1
+hodinou, 2 hodinami"). Snažíme se nicméně překládané řetězce formulovat tak, aby
+k těmto problémům docházelo co nejméně.
+
+V zájmu konzistence a srozumitelnosti se dále snažíme používat stále stejné
+termíny pro překlad stejných slov. Odlaďování drobných nesrovnalostí však může
+nějakou dobu trvat, takže prosíme o trpělivost.
+
+Soubory v distribuci jsou uloženy v kódování ISO-8859-2 a některé z nich mohou
+používat Linuxový formát konce řádků. Texty, které jsou Moodlem odesílány
+emailem ve formě prostého textu (tedy ne jako HTML), jsou přeloženy bez 
+diakritiky.
+
+Pro překlad používáme naše oblíbené editory ViM a PSPad, případně zabudované
+nástroje lang.php a langdoc.php 
+
+
+DŮLEŽITÉ ZMĚNY
+
+R1.5
+* "Grade" je překládáno jako "Známka" či "Známkovat" místo dosavadního "Body".
+  Bodování je v novém pojetí jedním ze způsobů Známkování. Známkování je 
+  klasifikované hodnocení (to je buď pomocí bodů nebo na stupnici).
+
+R1.4
+* Modul "Dotazník" (Survey) přejmenován na "Průzkum"
+* Modul "Hlasování" (Choice) přejmenován na "Anketa"
+
+R1.2
+* Dosavadní modul "Písemná práce" (Journal) se změnil na "Poznámky"
+* Modul "Zdroj" (Resource) je od nynějška překládán jako "Studijní materiál"

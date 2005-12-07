@@ -1,0 +1,78 @@
+<p align=center><b>Importowanie plików z CTM ("Course Test Manager")</b></p>
+
+<p>Course Test Manager jest to software napisany przez Course Technology. 
+Nie jest już on aktywnie rozwijany przez Course Technology. Został zastąpiony przez 
+nowego menedżera testów ExamView. Nigdy nie istaniał wspólny format, który by umożliwiał
+eksport tego formatu z banków testó CTM do innych wspólych formatów testów. Z tego włanie 
+powodu napisano ten moduł.</p>
+
+<p> Ażeby móc zaimportować pytania z CTM, musisz mieć zainstalowany CTM w systemie Windows i dostęp do MS Access.
+Dwa pliki są potrzebne by uzyskać dostęp do danych:</p>
+<ul><li>System.mda - Ten plik znajduje się w głównym katalogu instalacji CTM. W żargonie MS Access, określa się go jako
+"Systemowa baza danych" (ang. "System Database").</li>
+<li>ctm.mdb - to jest baza danych, zawierająca pytania testowe. Istnieje jedna taka baza danych dla każdego kursu 
+zainstalowanego w CTM. Można odnaleĽć ten plik w katalogu jeden poziom poniżej instalacji CTM.</li>
+</ul>
+
+</p>Proces importowania pytań jest różny w zależności od tego czy Moodle działa na Linuxie czy Windows.
+Bez względu na to czy Moodle dziala na Linuxie czy nie, musisz mieć dostęp do komputera działającego w systemie 
+Windows aby miec dostep do plików MS Access.</p>
+
+<p>Proces importowania jest prostszy na Moodle działającym pod <b>Windowsem</b>. Wszystko co musisz zrobić aby
+zaimportować pliki to:</p>
+
+<ol><li>Skopiować plik  system.mda do katalogu moodle. Nie ma znaczenia do jakiego kursu skopiujesz ten plik, ponieważ
+Moodle odnajdzie go tak i tak. </li>
+<li>Utwórz własny quiz i przejdĽ to sekcji "Importuj pytania z pliku". Wybierz ctm.mdb jako plik do importu. 
+Jeśli wykonałeś tą operację poprawnie, zobaczysz kolejny ekran, który pozwoli tobie wybrać podkategorie pytań do 
+zamimporotowania. Powodem dla takiej organizacji procesu importowania jest fakt, iż banki testów CTM często zawierają
+bardzo dużą ilość pytań, które są pogrupowane w określony sposób.</li>
+</ol>
+
+<p>Aby dokonać importu na platformie Moodle zainstanowanej na <b>Linuxie</b> potrzebny jest dodatkowy software zwany
+<a href="http://odbcsock.sourceforge.net/" target="_new"><b>ODBC Socket Server</b></a>. Ażeby móc importować pliki
+baz danych CTM na Linuxie, musisz wpierw ściągnąć ten program i go zainstalować na komputerze, który na którym zainstalowana
+jest baza danych CTM (komputer ten musi mieć Windowsa - patrz wyżej). Jednakże, <b>nie postępuj zgodnie z domyślnymi
+krokami instalacji</b> ODBC Socket Server Installation. Są one bardziej skomplikowane, niż być powinny.
+Zamiast tego wykonaj następujące czynności aby zainstalować ten program w systemie Windows:</P>
+
+<ol><li>W systemie Windows rozpakuj ściągnięty program z strony 
+<a href="http://odbcsock.sourceforge.net/" target="_new"></a>.</li>
+<li>Skopiuj plik ODBCSocketServer.exe do wybranej lokalizacji takiej jak n.p. katalog Program Files. </li> 
+
+<li>Zainstaluj ODBC Socket Server jako Usługę (Service) używając następującej komendy wpisanej w Wierszu Poleceń
+albo w  menu Uruchom:<br />
+<b>&lt;ścieżka dostępu/ODBCSocketServer.exe /Service</b><br />.</li>
+
+<li>Otwórz Usługi: Start-&gt;Ustawienia-&gt;Panel Sterowania-&gt;Narzędzia Administracyjne-&gt;Usługi lub klikając prawym
+przyciskiem na ikonę<b>Mój Komputer</b>, <b>Zarządzaj</b>, wybierz w prawym panelu <B>Usługi i Aplikacje-&gt;Usługi</b>. 
+Możesz także użyć skrótu wpisując w okienku Uruchom</b></li>
+
+<li>W okienku Usługi odszukaj i kliknij prawym przyciskim na ODBC Socket Server i wybierz opcję <b>Start</b>. W tym momencie
+status tej usługi powinien się zmienić na "Uruchomiono". Zauważ, że można zatrzymać bądĽ całkowicie wyłączyć tą usługę
+po zakończeniu procesu importowania plików.</li>
+
+<li>Upewnij się, że pliki system.mda and ctm.mdb są dostępne i że zainstalowany jest również MS Access ODBC driver.
+Powinien być on zainstalowany wraz ze standardową instalacją Windowsa. Można to sprawdzić, wybierając Panel Sterowania ->
+Narzędzia administracyjne -> Źródła danych (ODBC) i klikając na "Sterowniki". 
+Następnie sprawdĽ gdzie sązainstalowane pliki CTM i odnajdĽ plik system.mda i bazę danych ctm.mdb z której 
+zamierzasz importować pytania. Zapisz pełną ściżkę dostępu do tych plików a także adres IP i nazwę serwera Windowsa.
+Te informacje będą potrzebne przy procesie importowania.</li>
+
+<li>Teraz jesteś gotowy aby rozpocząć proces importowania zbioru lub zbiorów pytań do moodle'a. Stwórz swój własny quiz
+i przejdĽ do sekcji "Importuj pytania z pliku". <B>I W TYM MIEJSCU INACZEJ BĘDZIE WYGLLˇDAŁ TEN PROCES NA LINUXIE - </B>
+MUSISZ WYBRAĆ JAKIKOLWIEK PLIK(NAJLEPIEJ NOWO UTWORZONY)W POLU GDZIE WSKAZUJE SIĘ PLIK DO IMPORTU ABY ROZPOCZˇĆ TEN PROCES.
+TEN PLIK <b>NIE ZOSTANIE</b> PRZETWORZONY - JEST TO TYLKO PEWIEN WYMÓG BY "OSZUKAĆ" SYSTEM. 
+DOPIERO NA NASTĘPNEJ STRONIE WSKAŻESZ WŁAŚCIWY PLIK. Na następnej stronie trzeba będzie wpisać nazwę komputera na którym 
+zainstalowany jest ODBC Socket Server a także scieżkę dostępu do systemowej bazy danych i bazy danych CTM. 
+Wpisz ten informacje i kliknij na "Połącz się ze serwerem". Jeżeli wszystko było wpisane poprawnie, wówczas 
+ukaże się lista z której będzie można wybrać podkategorie pytań, które można zaimportować z danej bazy danych. 
+Powodem takiego rozwiązania jest wcześniej już sygnalizowany fakt, iż banki danych CTM często zawierają dużą liczbę pytań
+skategoryzowanych według określonego klucza (n.p. układ kursu, rozdziały książki). JEŻELI UDAŁO SIĘ TOBIE DOJŚĆ DO TEGO
+ETAPU BEZ WYŚWIETLENIA BŁĘDÓW OZNACZA TO, ŻE UDAŁO SIĘ USTANOWIĆ POŁˇCZENIE Z SERWEREM W CELU ZAIMPORTOWANIA PYTAŃ DO MOODLE!</li>
+</ol>
+
+<P>Jeżli pojawiły się jakieś błędy, wówczas spróbuj wykorzytać poniższą informację. ODBC Socket server wykorzystuje port 
+9628 do otwarcia wtyczki (ang.socket) i wymiany danych używając zapytań w formie XML aby otrzymać tabelę rezultatów w XML. 
+Program (klasa) która importuje plik, przetwarza ten plik XMLowy i wykorzystuje go tak jakby proces importowania 
+odbywał się na lokalnym komputerze. </p>

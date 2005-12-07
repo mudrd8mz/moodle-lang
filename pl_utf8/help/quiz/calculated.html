@@ -1,0 +1,65 @@
+<p align="center"><b>Pytania liczbowe</b></p>
+Pytania liczbowe oferują możliwość tworzenia indywidualnych pytań numerycznych poprzez użycie zmiennych literowych które są równoznaczne z konkretnymi wartościami podczas quizu.
+<br/>Poniżej przedstawiono pomniejszony wygląd głównej strony edycji z wprowadzonym przykładem:<br/>
+table><tbody>
+<tr valign="top">
+    <td align="right"><p><b>Pytanie: :</b></p>
+    </td>
+    <td>
+        <textarea id="questiontext" name="questiontext" rows="5" cols="40" wrap="virtual">				ile jest {a}+{b}?</textarea></td></tr>
+<tr valign="top">
+    <td align="right"><p><b>Obrazek do wyświetlenia::</b></p></td>
+    <td>
+    <select name="image"><option value="" selected="selected">żaden</option><option value="grevture.gif">grevture.gif</option></select>
+    </td>
+</tr>
+tr valign="top">
+<td align="right"><p><b>Poprawna formuła odpowiedzi: :</b></p></td>
+    <td>
+    <input align="left" type="text" id="formula0" name="answer[]" size="20" value="{a} + {b}">&nbsp;&nbsp;
+    <input type="hidden" name="fraction[]" value="1.0">
+    </td>
+</tr>
+<tr valign="top">
+    <td align="right"><p><b>Tolerancja::</b></p></td>
+    <td>
+    <input align="left" type="text" id="tolerance0&quot;" name="tolerance[]" size="15" value="0.01">ą
+    </td>
+</tr>
+<tr valign="top">
+<td align="right"><p><b>Rodzaj tolerancji: :</b></p></td>
+    <td>
+    <select name="tolerancetype[]"><option value="1" selected="selected">Zależna</option><option value="2">Nominalna</option><option value="3">Geometryczna</option></select>
+    </td>
+</tr>
+<tr valign="top">
+<td align="right"><p><b>Ilość cyfr znaczących: :</b></p></td>
+    <td>
+    <select name="correctanswerlength[]"><option value="1">1</option><option value="2" selected="selected">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>
+    </td>
+</tr>
+</tbody></table><br/>
+		
+
+{a}i{b} będą wyświetlane w dzienniku edycji pytania oraz "Formuła poprawnej odpowiedzi". Te lub inne(nazwy) mogą być używane jako zmienne literowe odpowiadające konkretnym wartościom w quizie. Poprawna odpowiedź jest przeliczana kiedy w quizie zostanie użyte wyrażenie zapisane w "Formuła Poprawnej Odpowiedzi", które jest przeliczane jako wyrażenie numeryczne odpowiadające zmiennej literowej. Możliwe wartości zmiennych literowych są ustawiane lub generowane na następnej stronie w "Sztuczki edycyjne" dla pytań liczbowych.
+<br/>Przykładowa formuła używa operatora +. Inne możliwe operatory to -*/ i % gdzie % jest operatorem modulo. Istnieje również możliwość użycia funkcji matematycznej PHP. Poza nimi istnieją również 24 funkcje jednoargumentowe:<br/><b>
+Abs, acos, acosh, asin, asinh, atan, atanh, ceil, cos, cosh, deg2rad, exp, expm1, floor, log, log10, log1p, rad2deg, round, sin, sinh, sprt, tan, tanh<b><br/>
+oraz dwie funkcje dwuargoomentowe<br/><b>
+atan2, pow</b><br/>
+i funkcje <b>min</b> i <b>max</b> które zawierają dwa lub więcej argumentów. Można uzyć również funkcji <B>pi</b> która jest bezargumentowa, nie należy jednak zapominać o użyciu nawiasów &#8211; prawidłowe użycie: <b>pi()</b>. Podobnie pozostałe funkcje musza zawierać swoje argumenty w nawiasach. Przykładowe użycie <b>sin({a})+cos({b})*2 </b>itp.
+<br/>Więcej informacji na temat uzycia funkcji PHP znajdziesz w dokumantacji na stronie internetowej PHP.<a target="phpmathdoc" href="http://www.php.net/manual/en/ref.math.php">Dokumentacja PHP</a>
+<br /><br />
+
+<br /><br />Dla pytań numerycznych istnieje możliwość pozostawienia marginesu błędu, w którym mieszczące się odpowiedzi są uznawane za prawidłowe. Służy do tego pole "Tolerancja" istnieją trzy różne typy tolerancji. Są to  Zależna, Nominalna i Geometryczna. Jeśli założymy że poprawna odpowiedź na pytanie zadane w quizie wynosi 20 przy założeniu tolerancji 0.5, wówczas różne typy tolerancji przedstawiają się nastepująco:
+
+<br /><br /><b>Zależna:</b> Zakres tolerancji jest liczony jako pomnożenie poprawnej odpowiedzi przez założony współczynnik 0.5, w tym przypadku otrzymujemy 100, a więc dla tej tolerancji prawidłowa odpowiedź musi zawierać się w przedziale między 100 a 300. (200+/- 100).
+Ten rodzaj tolerancji używamy jeśli ważność poprawnej odpowiedzi może znacznie zmieniać się w zależności od różnych zmiennych literowych.<br/>
+
+<br /><br /><b>Nominalna: </b>Jest to najprostszy typ tolerancji lecz niezbyt trafny. Poprawna odpowiedź musi zawierać się pomiędzy 199,5 i 200,5. (200+/-0,5)<br/>
+Ten rodzaj tolerancji używamy jeśli różnice pomiędzy różnymi prawidłowymi odpowiedziami są niewielkie.<br/>
+
+<br /><b>Geometryczna:</b> Górny limit zakresu tolerancji jest liczony jako 200+0,5*200 i jest identyczny jak w pierwszym przypadku obliczania tolerancji zależnej. Dolny limit jest liczony jako 200/(1+0,5). Poprawna odpowiedź musi znajdować się w przedziale pomiędzy 133,33 i 300.<br/>
+Używamy jej dla kompleksowych kalkulacji które potrzebują znacznych tolerancji gdzie tolerancje zależne dla 1 lub więcej byłyby użyte dla górnego limitu lecz nieakceptowane dla limitu dolnego, który powodowałby zero jako poprawną odpowiedź dla wszystkich przypadków. <br/><br/>
+Pole <b>Ilość Cyfr Znaczących</b> ma znaczenie jedynie dla prezentacji poprawnej odpowiedzi na podglądzie lub w raporcie. Przykład: Jeśli zostało ustawione na 3, wówczas poprawna odpowiedź 13,333 będzie wyświetlona jako 13,3; 1236 będzie wyświetlone jako 1240; 23 będzie wyświetlone jako 23,0 itp.
+<br/><br/>
+Pole sprawdzenia i pola innych opcji działają jak dla pytań numerycznych.<br/>

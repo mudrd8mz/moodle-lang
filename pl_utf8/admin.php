@@ -1,0 +1,71 @@
+<?PHP // $Id$ 
+      // admin.php - created with Moodle 1.5.2 + (2005060223)
+
+
+$string['adminseesallevents'] = 'Administratorzy widzą wszystkie zdarzenia';
+$string['adminseesownevents'] = 'Administratorzy są jak inni użytkownicy';
+$string['blockinstances'] = 'instancja';
+$string['blockmultiple'] = 'złożony';
+$string['cachetext'] = 'Długość życia cache tekstu';
+$string['calendarsettings'] = 'Kalendarz';
+$string['change'] = 'zmiana';
+$string['configallowcoursethemes'] = 'Jeżeli jest wybrane TAK to umożliwiony jest wybór własnego  tematu dla kursu (wygląd strony). Tematy kursu unieważniają wybór ogólnego tematu (wygląd strony, użytkowników, albo tematów sesji ) ';
+$string['configallowemailaddresses'] = 'Jeżeli chcesz ograniczyć wszystkie nowe adresy e-mail do poszczególnej domeny (przy tworzeniu kont potwierdzanych e-mailem), to wprowadź tutaj listę tych domen oddzieloną spacjami. Wszystkie inne domeny będą odrzucane. np: <strong>ourcollege.edu.au .gov.au</strong> ';
+$string['configallowunenroll'] = 'Jeżeli jest ustawione \'tak\', studenci mogą samodzielnie wypisywać się z kursów w dowolnym momencie. W przeciwnym wypadku wyłącznie prowadzący i administrotorzy będą mieli do tego prawo.';
+$string['configallowuserblockhiding'] = 'Czy chcesz zezwolić użytkownikom ukrywać/pokazywać bloki strony?Ta cecha wymaga użycia Javascript i plików coockies  to wpływa na stan bloków i są widzialne dla danego użytkownika';
+$string['configallowuserthemes'] = 'Jeżeli opcja jest włączona to możliwe jest ustawianie własnych tematów (wyglądu strony). przez uzytkowników. Tematy użytkowników unieważniają ogólny temat strony (ale nie temat kursu)';
+$string['configautologinguests'] = 'Czy odwiedzający stronę powinni być automatycznie logowani do kursów z prawami konta gość?';
+$string['configclamactlikevirus'] = 'Traktuj pliki jako wirusy';
+$string['configclamdonothing'] = 'Traktuj pliki jako nie uszkodzone';
+$string['configcountry'] = 'Jeżeli ustawisz tutaj kraj, to ten kraj będzie wybrany jako domyślny dla nowego konta użytkownika. Jeżeli chcesz żeby użytkownicy ustawiali sami kraj, nic tutaj nie ustawiaj.';
+$string['configdeleteunconfirmed'] = 'Jeżeli używana jest autoryzacja przez adresy e-mail, tutaj ustawia się czas w jakim są przyjmowane potwierdzenia od użytkowników. Po tym czasie niepotwierdzone konta zostaną usunięte.';
+$string['configdenyemailaddresses'] = 'Żeby odrzucać listy z poszczególnych adresów wymień je tutaj. Inne domeny będą akceptowane. np <strong>hotmail.com yahoo.co.uk</strong>';
+$string['configdigestmailtime'] = 'Dla tych którzy wybrali wysyłanie streszczenia codziennie mailem. Można ustawić o której godzinnie codziennie streszczenie będzie wysyłane.';
+$string['configdisplayloginfailures'] = 'Będzie wyświetlać informacje wybranego użytkownika o poprzednich nieudanych próbach logowania.';
+$string['configenablerssfeedsdisabled'] = 'To jest niemożliwe ponieważ wiadomości RSS są wyłączone na tej platformie. Aby to zmienić zmień ustawienia zmiennych w Konfiguracji Administracji.';
+$string['configextendedusernamechars'] = 'Opcja pozwala na użycie dowolnych znaków w nazwie użytkownika. Domyślne ustawienie na \'nie\' ogranicza nazwy użytkowników do znaków alfanumerycznych.';
+$string['configgdversion'] = 'Wskazuje zainstalowaną wersje biblioteki GD. Ta wersja jest pokazywana jako domyślna. Nie zmieniaj tej opcji jeśli nie jesteś pewny.';
+$string['configlang'] = 'Wybierz domyślny język dla platformy Moodle. Użytkownicy mogą zmieniać ten wybór później w swoich ustawieniach.';
+$string['configlangdir'] = 'Większość języków jest pisane od lewej do prawej, ale niektóre, jak Arabski i Hebrajski są pisane od proawej do lewej.';
+$string['configlanglist'] = 'Pozostaw puste jeżeli chcesz umożliwić użytkownikom wybór wszystkich dostępnych języków w tej instalacji Moodla. Jeżeli chcesz skrócić listę możliwych języków do wyboru wprowadź tutaj kody tych języków oddzielone przecinkami. Np: en, es_es,fr,it';
+$string['configsectioninterface'] = 'Interfejs';
+$string['configsectionmail'] = 'poczta';
+$string['configsectionmaintenance'] = 'utrzymywanie (konserwacja)';
+$string['configsectionmisc'] = 'różne';
+$string['configsectionoperatingsystem'] = 'system operacyjny';
+$string['configsectionpermissions'] = 'pozwolenia';
+$string['configsectionsecurity'] = 'bezpieczeństwo';
+$string['configsectionuser'] = 'użytkownik';
+$string['configvariables'] = 'Zmienne';
+$string['confirmation'] = 'potwierdzenie';
+$string['edithelpdocs'] = 'edytuj pliki pomocy';
+$string['editstrings'] = 'edytuj łańcuchy znaków';
+$string['filterall'] = 'filtruj wszystkie łańcuchy znaków';
+$string['filteruploadedfiles'] = 'Filtruj uploadowane pliki';
+$string['helpadminseesall'] = 'Administrator widzi wszystkie zdarzenia z kalendarza, lub te dotyczące jego?';
+$string['helpcalendarsettings'] = 'Konfiguruj kalendarz, datę i czas zwiazane z różnymi aspektami moodle';
+$string['helpforcetimezone'] = 'Użytkownicy mogę indywidualnie dobierać strefe czasową, albo jest jedna strefa czasowa dla wszelkiech.';
+$string['helpsitemaintenance'] = 'Uaktualniania i inne prace konserwacyjne platformy';
+$string['helpstartofweek'] = 'Od jakiego dnia zaczyna się tydzień w kalendarzu';
+$string['helpupcominglookahead'] = ' ';
+$string['helpupcomingmaxevents'] = 'Ile (maksymalnie) nadchodzących wydarzeń jest domyślnie pokazywanych użytkownikom';
+$string['helpweekenddays'] = 'Które dni tygodnia są potraktowane jak \"weekend \" i pokazane różnym kolorem?';
+$string['importtimezones'] = 'pobranie listy stref czasowych';
+$string['importtimezonescount'] = '$a->count wejść importowany z $a->source';
+$string['importtimezonesfailed'] = 'Żadne źródła nie zostały znalezione';
+$string['incompatibleblocks'] = 'Niezgodne Bloki';
+$string['optionalmaintenancemessage'] = 'Opcjonalna wiadomość podczas konserwacji platformy';
+$string['pleaseregister'] = 'Proszę zarejestrować swoją stronę, wtedy przycisk zostanie usunięty';
+$string['sitemaintenance'] = 'Trwają pracę administracyjne i ta strona jest obecnie nie dostępna';
+$string['sitemaintenancemode'] = 'Moduł konserwacji';
+$string['sitemaintenanceon'] = 'Obecnie trwają prace administracyjne. (tylko adminstrator może zalogować się)';
+$string['therewereerrors'] = 'Dane zawierają błędy';
+$string['timezoneforced'] = 'Strefa czasowa wymuszana przez administratora systemu';
+$string['timezoneisforcedto'] = 'Zmuś wszystkich użytkowników do użycia strefy czasowej';
+$string['timezonenotforced'] = 'użytkownik może wybierać swoją strefę czasową';
+$string['upgradelogs'] = 'Dla uzyskania pełnej funkcjonalności, stare logi powinny zostać uaktualnione. <a href=\"$a\">Więcej informacji</a>';
+$string['upgradelogsinfo'] = 'Aby móc przeglądać stare logi musisz dokonać ich aktualizacji. W zależności od konfiguracji twojej strony internetowej proces ten może potrwać parę godzin i mocno wpłynąć na wydajność bazy danych. Gdy rozpoczniesz już proces aktualizacji, poczekaj aż on się skończy (nie zamykaj okna przeglądarki). Strona będzie działała poprawnie dla innych użytkowników.<br />Czy chcesz teraz dokonać aktualizacji logów?';
+$string['upgradingdata'] = 'Uaktualnianie danych';
+$string['upgradinglogs'] = 'Uaktualnianie logów';
+
+?>

@@ -1,0 +1,11 @@
+<p align="center"><b>Tryb dostosowania</b></p>
+
+<p>Po wybraniu opcji Tak uczeń może odpowiadać wielokrotnie na pytanie nawet podczas tego samego podejścia do quizu. A więc np. jeśli odpowiedź ucznia zostanie zaznaczona jako niepoprawna, uczeń może spróbować ponownie. Jednakże każdorazowa pomyłka skutkuje odjęciem punktów( liczba odejmowanych punktów jest uzależniona od współczynnika kary, ustawionego w następnej opcji).</p>
+
+<p>Ten tryb pozwala także dostosować pytania które mogą samoistnie zamieniać się w odpowiedzi. Tak definiuje pytania IMS QTI:</p>
+<blockquote>
+Adaptator pozwala na zaadoptowanie wyglądu, wartości (Proces Odpowiedzi) lub ich obu w odpowiedzi na każdą próbę kandydata. Np. adaptator może pojawić się jako podpowiedź dla kandydata w postaci ramki do wprowadzania własnych notatek, otrzymawszy niezadowalającą odpowiedź prezentuje skutki pojedynczego wyboru i przyznaje kilka stopni w procesie dalszej identyfikacji poprawnej odpowiedzi. Adaptatory pozwalają autorom na tworzenie scenariuszy gotowych do użycia w nowo zaistniałych sytuacjach, które pomogą nakierować kandydatów w otrzymanych zadaniach, równocześnie nie sugerując odpowiedzi i dbając o obiektywizm wyniku.
+
+</blockquote>
+<p>
+W trybie adaptacyjnym dodatkowy <?php print_string('mark', 'quiz') ?> przycisk jest pokazywany dla każdego pytania. Jeśli uczeń naciśnie przycisk wówczas odpowiedź do poszczególnego pytania jest dodawana do wyniku i zaznaczenie zostaje wyświetlone. Jeśli pytanie jest pytaniem adaptacyjnym wówczas wyświetlone zostaje z nowym statusem, odpowiedź zostaje zaliczona i w wielu przypadkach uczeń zostanie poproszony o wprowadzenie innej odpowiedzi. W najprostszych pytaniach adaptacyjnych nowy status może różnić się tylko komentarzem i skłaniać ucznia by spróbował ponownie. W bardziej skomplikowanych pytaniach może różnić się treścią a nawet kolejnością.</p>

@@ -1,0 +1,110 @@
+<?PHP // $Id$ 
+      // admin.php - created with Moodle 1.6 development (2005101200)
+
+
+$string['adminseesallevents'] = 'Yöneticiler bütün olayları görür';
+$string['adminseesownevents'] = 'Yöneticiler diğer kullanıcılar gibidir';
+$string['backgroundcolour'] = 'Arkaplan Rengi';
+$string['badwordsconfig'] = 'Kötü kelimeleri virgülle ayırarak girin';
+$string['badwordsdefault'] = 'Belirtilen liste boşsa, dil paketinde geçen kelimeler kullanılacaktır.';
+$string['badwordslist'] = 'Kötü Kelime Listesi';
+$string['blockinstances'] = 'Kullanım';
+$string['blockmultiple'] = 'Çoklu';
+$string['cachetext'] = 'Yazı önbelleği ömrü';
+$string['calendarsettings'] = 'Takvim';
+$string['change'] = 'değiştir';
+$string['configallowcoursethemes'] = 'Etkinleştirseniz, kursların kendi temalarını ayarlamasına izin verirsiniz. Kurs temaları diğer bütün temaları (site, kullanıcı veya oturum temaları) yok sayar.';
+$string['configallowunenroll'] = 'Bu seçenek \'Evet\' ise öğrenciler istedikleri zaman kendi kendilerine kurstan kayıtlarını silebilirler. Diğer durumda buna izin verilmez ve sadece yöneticiler ve eğitimciler tarafından bu iş kontrol edilir.';
+$string['configallowuserthemes'] = 'Etkinleştirirseniz, kullanıcılar kendi temalarını ayarlayabileceklerdir. Kullanıcı temaları site temasını yok sayar (ancak kurs temasını değil).';
+$string['configclamactlikevirus'] = 'Dosya VİRÜSLÜ olarak muamele görsün';
+$string['configclamdonothing'] = 'Dosya SAĞLAM olarak muamele görsün';
+$string['configclamfailureonupload'] = 'Clam\'ı yüklenen dosyaları taraması için yapılandırdıysanız, fakat yol yanlış belirtilir veya programın çalışması sırasında bilinmeyen bir sebepten dolayı hata oluşursa nasıl davranılacak? \'Dosya VİRÜSLÜ olarak muamele görsün\'ü seçerseniz dosya karantina klasörüne taşınır ya da silinir. \'Dosya SAĞLAM olarak muamele görsün\'ü seçerseniz dosya normal şekilde yüklenir. Aynı zamanda yöneticilere clam programında hata oluştuğu bildirilir. \'Dosya VİRÜSLÜ olarak muamele görsün\'ü seçer ve bazı sebeplerden dolayı clamın çalışması hata ile sonuçlanırsa (genellikle pathtoclam yolu yanlış girilirse olur), TÜM dosyalar belirtilen karantina klasörüne taşınır ya da silinir. Bu ayarı değiştirirken DİKKATLİ olun.';
+$string['configcountry'] = 'Buradan bir ülke seçerseniz, yeni kullanıcılar için bu ülke varsayılan olarak seçili olacaktır. Ülke seçmeyi zorunlu tutmak istiyorsanız, bu seçeneği ayarlamayın.';
+$string['configdebug'] = 'Bu seçeneği açık tutarsanız PHP\'deki error_reporting metodu daha fazla uyarı mesajı gösterecektir. Bu, geliştiriciler için kullanışlıdır.';
+$string['configdeleteunconfirmed'] = 'Bu, email yetkilendirmesi kullanıyorsanız, kullanıcının ne kadar sürede bu emali onaylaması gerektiğini belirtir. Bu süreden sonra, onyalanmaış eski hesaplar silinecektir.';
+$string['configdisplayloginfailures'] = 'Bu, seçilen kullanıcının önceden yapmış olduğu giriş hataları hakkında ekranda bilgi gösterir.';
+$string['configextendedusernamechars'] = 'Öğrencilerin kullanıcı adlarında isteği herhangi bir karakteri seçebilmesini istiyorsanız bu ayarı etkinleştirin. (Not: Adı ve soyadını etkilemez, giriş için kullanılan kullanıcı adını etkiler) Bu ayar \'hayır\' ise sadece ingilizceki alfanümerik karakterler kullanılabilecektir.';
+$string['configgdversion'] = 'Kurulu olan GD sürümünü seçiniz. Varsayılan olarak seçilen otomatik olarak algılanmıştır. Ne yaptığınızı bilmiyorsanız burayı değiştirmeyiniz.';
+$string['configintrotimezones'] = 'Bu sayfa dünya zaman dilimleri (yaz saati uygulaması dahil) hakkında yeni bilgiyi arayacak ve yerel veritabanını bu bilgi ile güncelleyecek. Bu kontrol şu sıraya göre yapılacak: $a Bu işlem genel olarak çok güvenlidir ve normal kurulumları bozmaz. Şimdi zaman dilimlerini güncellemek ister misiniz?';
+$string['configlang'] = 'Sitenin tamamında geçerli olan varsayılan bir dil seçin. Kullanıcılar daha sonra istedikleri dili seçebilirler.';
+$string['configlanglist'] = 'Kurulumla birlikte gelen dillerin herhangi birinin seçilebilmesi için burayı boş bırakın. Ancak dil menüsünü kısıtlamak istiyorsanız buraya dil listesini virgülle ayırarak girin. Örnek: tr,fr,de,en_us';
+$string['configlangmenu'] = 'Ana sayfa, giriş sayfası vb. yerlerde dil menüsünün görünüp görünmeyeceğini belirtin. Bu, kullanıcının kendi profilinde düzenleyebileceği dil tercihini etkilemeyecektir.';
+$string['configlocale'] = 'Sitenin tamamında geçerli olan yerelleştirme kodunu girin. Bu, gün biçimini ve dilini etkileyecektir. İşletim sisteminde bu yerelleştirmenin var olması gerekmektedir. Eğer neyi seçeneğinizi bilmiyorsanız boş bırakınız.
+<br /> Örnekler: Linux için: de_DE, en_US, tr_TR; Windows için: turkish, german, spanish';
+$string['configmessaging'] = 'Sitede kullanıcılar arası mesajlaşma etkinleştirilsin mi?';
+$string['configopentogoogle'] = 'Bu ayar etkinleştirilirse, Google, siteye konuk kullanıcı olarak giriş yapabilecektir. Ek olarak, sitenize Google aracılığıyla gelen kullanıcılar da konuk kullanıcı olarak giriş yapabileceklerdir. Not: Bu, zaten ziyaretçi girişine açık olan kurslara erişimi Google açısından şeffaflaştırır.';
+$string['configpathtoclam'] = 'Clam AV\'in yolu. Büyük ihtimal /usr/bin/clamscan veya /usr/bin/clamdscan olması gerekiyor. Clam AV\'in çalışması için bunu belirtmeniz gerekir.';
+$string['configquarantinedir'] = 'Clam AV\'in virüs bulaşmış dosyaları karantina klasörüne taşımasını istiyorsanız buraya yolu yazınız. Bu klasör Web sunucu tarafından yazılabilir olmalı. Burayı boş bırakırsanız veya olmayan bir klasörü girerseniz ya da klasör yazılabilir değilse, virüslü dosyalar silinir. Klasörün sonuna slash (/) ekleMEyin.';
+$string['configrunclamonupload'] = 'Dosya yüklemelerinde Clam AV çalıştırılsın mı? Bunun için doğru bir pathtoclam yolu belirtmeniz gerekiyor. (Clam AV, http://www.clamav.net/ sitesinden indirebileceğiniz ücretsiz bir virüs tarama programıdır.)';
+$string['configsectioninterface'] = 'Arayüz';
+$string['configsectionmail'] = 'Mail';
+$string['configsectionmaintenance'] = 'Bakım';
+$string['configsectionmisc'] = 'Çeşitli';
+$string['configsectionoperatingsystem'] = 'İşletim Sistemi';
+$string['configsectionpermissions'] = 'İzinler';
+$string['configsectionrequestedcourse'] = 'Kurs istekleri';
+$string['configsectionsecurity'] = 'Güvenlik';
+$string['configsectionstats'] = 'İstatistikler';
+$string['configsectionuser'] = 'Kullanıcı';
+$string['configsessioncookie'] = 'Bu seçenek Moodle oturumları için kullanılan çerezlerin adını ayarlar. Bu seçenek isteğe bağlıdır, ancak aynı anda aynı web sitesi birden çok moodle kopyası ile çalışıyorsa bu seçenek oluşan karışıklığı ortadan kaldırır.';
+$string['configsessiontimeout'] = 'Bu siteye giriş yapan kullanıcılar uzun süre işlem yapmazlarsa (sayfaları gezinmezse) ne kadar süre içinde oturum sona erecek?';
+$string['configsmtphosts'] = 'Moodle\'nin email göndermesi için bir veya birden fazla SMTP sunucu girebilirsiniz (ör: \'mail.a.com\' veya \'mail.a.com;mail.b.com\'). Bu seçeneği boş bırakırsanız PHP\'nin email gönderirken kullandığı varsayılan metot kullanılacaktır.';
+$string['configsmtpuser'] = 'Yukarıda bir SMTP sunucu belirttiyseniz ve bu sunucu yetki istiyorsa buraya sunucu için kullanıcı adı ve şifreyi giriniz.';
+$string['configunzip'] = 'Unzip programının yerini belirtin (Sadece Unix için, isteğe bağlıdır). Belirtilirse, sunucuda zip arşivini açmak için bu kullanılacaktır. Boş bırakırsanız, zip arşivini açmak için dahili işlemler kullanılacaktır.';
+$string['configvariables'] = 'Değişkenler';
+$string['configwarning'] = 'Bu ayarları değiştirirken dikkatli olun. Bilmediğiniz değerleri girmeniz sorunlara sebep olabilir.';
+$string['configzip'] = 'Zip programının yerini belirtin (Sadece Unix için, isteğe bağlıdır). Belirtilirse, sunucuda zip arşivi oluşturmak için bu kullanılacaktır. Boş bırakırsanız, zip arşivi oluşturmak için dahili işlemler kullanılacaktır.';
+$string['confirmation'] = 'Onay';
+$string['cronwarning'] = '<a href=\"cron.php\">cron.php bakım programı</a> son 24 saattir çalışmıyor. <br /><a href=\"../doc/?frame=install.html&sub=cron\">Kurulum belgesi</a> bunu nasıl otomatikleştireceğinizi açıklıyor.';
+$string['density'] = 'Yoğunluk';
+$string['edithelpdocs'] = 'Yardım belgelerini düzenle';
+$string['editstrings'] = 'İfadeleri düzenle';
+$string['filterall'] = 'Tüm ifadeleri filtrele';
+$string['filteruploadedfiles'] = 'Tüm gönderilen dosyaları filtrele';
+$string['helpadminseesall'] = 'Yöneticiler tüm olayları mı yoksa sadece kendine ait olayları mı görsün?';
+$string['helpcalendarsettings'] = 'Moodle\'a ilişkin tarih/saat ve takvim ayarlarını yapılandırın';
+$string['helpforcetimezone'] = 'Kullanıcıların bireysel olarak zaman dilimlerini seçmelerine izin verebilir ya da herkesin aynı zaman dilimini kullanmasını zorunlu tutabilirsiniz.';
+$string['helpsitemaintenance'] = 'Güncellemeler ve diğer çalışmalar için';
+$string['helpstartofweek'] = 'Takvimde hafta hangi günle başlıyor?';
+$string['helpupcomingmaxevents'] = 'Varsayılan olarak en fazla kaç tane yaklaşan olay kullanıcılara gösterilecek?';
+$string['helpweekenddays'] = 'Hangi günler \"Hafta sonu\" olarak değerlendirilecek ve farklı bir renkte görünecek?';
+$string['importtimezones'] = 'Zaman dilimleri listesinin tamamını güncelle';
+$string['importtimezonescount'] = '$a->source \'dan $a->count kayıt çıkartıldı';
+$string['importtimezonesfailed'] = 'Hiç kaynak bulunamadı! (Kötü haber)';
+$string['incompatibleblocks'] = 'Uyumsuz Bloklar';
+$string['latexpreamble'] = 'LaTeX Önsözü';
+$string['latexsettings'] = 'LaTeX Göstericisi Ayarları';
+$string['mediapluginavi'] = '.AVI filtresini etkinleştir';
+$string['mediapluginflv'] = '.FLV filtresini etkinleştir';
+$string['mediapluginmov'] = '.MOV filtresini etkinleştir';
+$string['mediapluginmp3'] = '.MP3 filtresini etkinleştir';
+$string['mediapluginmpg'] = '.MPG filtresini etkinleştir';
+$string['mediapluginswf'] = '.SWF filtresini etkinleştir';
+$string['mediapluginwmv'] = '.WMV filtresini etkinleştir';
+$string['optionalmaintenancemessage'] = 'İsteğe bağlı bakım mesajı';
+$string['pathconvert'] = '<i>convert</i> binari yolu';
+$string['pathdvips'] = '<i>dvips</i> binari yolu';
+$string['pathlatex'] = '<i>latex</i> binari yolu';
+$string['pleaseregister'] = 'Bu butonu silmek için lütfen kaydolun';
+$string['sitemaintenance'] = 'Bu siteye şu anda bakım yapılıyor ve şimdilik erişilemez';
+$string['sitemaintenancemode'] = 'Bakım modu';
+$string['sitemaintenanceoff'] = 'Bakım modu pasifleştirildi ve site şu anda tekrar normal çalışıyor';
+$string['sitemaintenanceon'] = 'Siteniz şu anda bakım modunda (sadece yöneticiler girş yapabilir ve siteyi kullanabilir)';
+$string['sitemaintenancewarning'] = 'Siteniz şu anda bakım modunda (sadece yöneticiler girş yapabilir). Bu siteyi normal haline döndürmek için <a href=\"maintenance.php\">bakım modunu pasifleştirin</a>.';
+$string['stickyblocks'] = 'Sabit bloklar';
+$string['stickyblockscourseview'] = 'Kurs sayfası';
+$string['stickyblocksmymoodle'] = 'Kişisel Moodle';
+$string['stickyblockspagetype'] = 'Yapılandırılacak sayfa tipi';
+$string['therewereerrors'] = 'Verinizde hatalar var';
+$string['timezoneforced'] = 'Bu site yöneticisi tarafından zorunlu tutuldu';
+$string['timezoneisforcedto'] = 'Bütün kullanıcıları kullanmaya zorunlu tut';
+$string['timezonenotforced'] = 'Kullanıcılar kendi zaman dilimini seçebilsin';
+$string['upgradelogs'] = 'Tam işlevsellik için, eski kayıt dosyalarınız güncellenmeli. <a href=\"$a\">Daha fazla bilgi</a>';
+$string['upgradesure'] = 'Moodle dosyalarını değişti ve otomatik olarak sunucunuzu şu sürüme terfi etmek üzeresiniz:
+<p><b>$a</b></p>
+<p>Bunu yaptığınızda tekrar geri dönemezsiniz.</p> 
+<p>Bu sunucuyu bu sürüme terfi etmek istediğinizden emin misiniz?</p>';
+$string['upgradingdata'] = 'Veri güncelleniyor';
+$string['upgradinglogs'] = 'Loglar güncelleniyor';
+
+?>

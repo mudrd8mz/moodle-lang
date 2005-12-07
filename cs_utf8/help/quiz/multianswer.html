@@ -1,0 +1,63 @@
+<p align="center"><b>Doplňovací úloha (cloze test)</b></p>
+
+<p>Tento typ úloh je podobný oblíbenému typu testu známému jako "cloze test".
+</p>
+
+<p>Každá úloha sestává z textu, do kterého jsou zabudovány otázky různého typu 
+(úloha s výběrem odpovědi, krátká odpověď, numerická úloha).</p>
+   
+<p>Pro tvorbu těchto úloh momentálně není k dispozici grafické rozhraní, 
+takže úlohy je nutné zadávat jako text s vloženými řídicími příkazy, a to buď
+pomocí vestavěného editoru, nebo z předem připravených souborů.</p>
+   
+<p>Příklad zadání úlohy:</p>
+<form action="">
+<center>
+<textarea rows="15" cols="60" wrap="virtual">Tato úloha se skládá z textu s otázkou, která je vložena 
+sem {1:MULTICHOICE:Chybná odpověď#Komentář k této chybné 
+odpovědi~Další chybná odpověď#Komentář k této chybné 
+odpovědi~=Správná odpověď#Komentář ke správné 
+odpovědi~%50%Odpověď s 50% bodovým ohodnocením#Komentář 
+k této odpovědi}, po ní následuje tato úloha s krátkou 
+odpovědí{1:SHORTANSWER:Chybná odpověď#Komentář k této chybné 
+odpovědi~=Správná odpověď#Komentář ke správné 
+odpovědi~%50%Odpověď s padesátiprocentním bodovým 
+ohodnocením#Komentář k této odpovědi} a nakonec numerická 
+úloha, jejímž výsledkem je číslo s pohyblivou řádovou tečkou 
+(nelze použít čárku) {2:NUMERICAL:=23.8:0.1#Komentář ke 
+správné odpovědi 23.8~%25%-23.8:0.1#Komentář k odpovědi 
+s 25% bodovým ohodnocením}.
+
+Adresy typu www.moodle.org a smajlíci :-) fungují jako obvykle:
+ a) Je to dobře? {:MULTICHOICE:=Ano#Správně~Ne#Máme 
+jiný názor}
+ b) Jak byste to obodovali? {3:NUMERICAL:=3:2}
+
+Hodně štěstí!
+
+</textarea>
+</center>
+</form>
+
+<p>Tento příklad se zobrazí studentům následovně:</p>
+
+<form action="">
+<table align="center" width="90%" class="generalbox" border="0" cellpadding="5" cellspacing="0"><tr><td bgcolor="#FFFFFF" class="generalboxcontent"><table width="100%" cellspacing="10"><tr><td nowrap="nowrap" width="100" valign="top"><p align="center"><b>3</b></p><p align="center"><font size="1">8 bodů</font></p><img height="1" width="100" src="pix/spacer.gif" alt="" /><br />
+</td><td valign="top"><p>Tato úloha se skládá z textu s otázkou, která je vložena 
+sem <select name="q4ma1"><option>&nbsp;</option><option value="4">Chybná 
+odpověď</option><option value="5">Další chybná odpověď</option><option value="6">Správná 
+odpověď</option><option value="7">Odpověď s 50% bodovým ohodnocením</option></select>, 
+po ní následuje tato úloha s krátkou odpovědí <input name="q4ma2" value="" 
+type="TEXT" size="8"/> a nakonec numerická úloha, jejímž výsledkem je číslo 
+s pohyblivou řádovou tečkou (nelze použít čárku) <input name="q4ma3" value="" 
+type="TEXT" size="8"/>.<br />
+<br />
+Adresy typu <a href="http://www.moodle.org" target="newpage">www.moodle.org</a> 
+a smajlíci <img alt=":-)" width="15" height="15" src="http://moodle.org/pix/s/smiley.gif" /> 
+fungují jako obvykle:<br />
+a) Je to dobře?<select name="q4ma4" ><option>&nbsp;</option><option value="13">Ano</option><option 
+value="14">Ne</option></select> <br />
+b) Jak byste to obodovali? <input name="q4ma5" value="" type="TEXT" size="8"/> <br />
+<br />
+Hodně štěstí!</p></td></tr></table></td></tr></table>
+</form>

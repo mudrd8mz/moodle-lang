@@ -1,0 +1,107 @@
+<!-- $Id$ -->
+
+<p align="center"><strong>Importation de questions</strong></p>
+
+<p>Cette fonction vous permet d'importer des questions  partir de fichiers de texte externes, l'aide d'un formulaire. Les formats de fichiers suivants sont supports&nbsp;:</p>
+
+<p><strong>Format GIFT</strong></p>
+
+<ul>
+
+<p>Le format GIFT est le plus complet des formats d'importation de questions disponible dans Moodle. Il a t conu pour permettre aux enseignants d'crire simplement des questions dans un fichier texte. Il permet la saisie des questions  Choix multiples, Vrai-Faux,  Rponse courte ou  Rponse numrique, ainsi que l'insertion de _____ pour le format Mot manquant. Les diffrents types de questions peuvent tre mlangs dans un mme fichier texte, et le format permet galement l'insertion de commentaires, titres de questions, feedbacks et pondration des points en %. Voici quelques exemples&nbsp;:</p>
+
+ <pre>
+ Quelle tait la couleur de la jument blanche
+ de Napolon ?{~Verte ~Noire =Blanche}
+ 
+ La jument blanche de Napolon tait {~verte =blanche ~noire}.
+ 
+ La jument blanche de Napolon tait verte.{FALSE}
+ 
+ Qui Napolon a-t-il pous ?{=Marie-Louise =Josphine}
+ 
+ Quelle est la date de naissance de Napolon ?{#1769:5}
+ </pre>
+
+<p align=right>Plus d'informations au sujet du format <a href="help.php?file=formatgift.html&module=quiz">GIFT</a>.</p>
+
+</ul>
+  	 
+<p><strong>Format Aiken</strong></p>
+
+<ul>
+ 
+<p>Le format Aiken format propose une faon trs intuitive pour crer des questions  choix multiples de faon lisible. Voici un exemple de ce format&nbsp;:</p>
+ 
+ <pre>
+ Lesquels parmi ces astres font partie du systme solaire ?
+ A. La Voie Lacte
+ B. Sirius
+ C. Les Pliades
+ D. La comte de Halley
+ ANSWER: D
+ </pre>
+ 
+<p align=right>Plus d'informations au sujet du format <a href="help.php?file=formataiken.html&module=quiz">Aiken</a>.</p>
+
+</ul>
+
+<p><strong>Rponse intgre au texte</strong></p>
+
+<ul>
+
+<p>Ce format supporte seulement des questions o la rponse est intgre au texte et qu'un choix de rponses est propos. Chaque rponse est prcde d'un tilde (~), sauf la rponse correcte qui est prcde d'un signe d'galit (=). Voici un exemple&nbsp;:</p>
+
+<blockquote>Ds que nous commenons  explorer les parties de notre corps lorsque nous sommes enfant, nous devenons des tudiants {=en anatomie et physiologie ~ en science ~ en rflexologie}, et dans un sens, nous demeurons des tudiants pour la vie.</blockquote>
+
+<p align="right">Plus d'informations au sujet du format <a href="help.php?file=formatmissingword.html&module=quiz">Ç&nbsp;Rponse intgre au texte&nbsp;È</a></p>
+
+</ul>
+
+<p><strong>Format AON</strong></p>
+
+<ul>
+
+<p>Ce format est identique au format prcdent, sauf qu'aprs l'importation des questions, toutes les questions  rponse courte sont converties en question d'appariements, par groupe de quatre. En outre, les rponses des questions  choix multiples sont places alatoirement.</p>
+
+<p>Ce type de question porte le nom d'une organisation qui a commandit le dveloppement de beaucoup de types de questions.</p>
+
+</ul>
+
+<p><strong>Format BlackBoard</strong></p>
+
+<ul>
+
+<p>Ce module permet d'importer des questions enregistres dans le format Ç&nbsp;BlackBoard&nbsp;È. Il se fonde sur des fonctions XML incluses avec le serveur PHP utilis par Moodle. </p>
+
+<p align="right">Plus d'informations au sujet du format <a href="help.php?file=formatblackboard.html&module=quiz">Ç&nbsp;BlackBoard&nbsp;È</a></p>
+
+</ul>
+
+<p><strong>Format Learnwise</strong></p>
+
+<ul>
+
+<p>Ce format permet d'importer des questions  choix multiples enregistres en format XML Learnwise.</p>
+
+</ul>
+  	 
+<p><strong>Format XML Moodle</strong></p>
+
+<ul>
+
+<p>Ce format spcifique  Moodle permet d'importer des questions de tests pralablement exportes dans le mme format. Le format est explicite, et se comprend facilement en exportant par exemple une catgorie en format XML Moodle.</p>
+
+</ul>
+
+<p><strong>Format Personnalis</strong></p>
+
+<ul>
+
+<p>Si vous avez votre propre format que vous dsirez importer, vous pouvez en programmer son importation en ditant le fichier modle Ç&nbsp;mod/quiz/format/custom.php&nbsp;È. Le bout de programme requis est minimal puisqu'il n'a qu' analyser le texte d'une question.</p>
+
+<p align="right">Plus d'informations au sujet du format <a href="help.php?file=formatcustom.html&module=quiz">Ç&nbsp;personnalis&nbsp;È</a></p>
+
+</ul>
+
+<p>D'autres formats sont  venir dans une prochaine version, y compris WebCT, IMS QTI et tous les autres formats que les utilisateurs de  Moodle voudront bien fournir&nbsp;!</p>

@@ -1,0 +1,17 @@
+BU DİZİN HAKKINDA
+-----------------
+
+GERÇEKTEN ne yaptığınızı bilmiyorsanız
+BU DİZİNDEKİ DOSYALARIN YERİNİ, ADINI
+DEĞİŞTİRMEYİN VE BAŞKA BİR YERE TAŞIMAYIN.
+
+Bu dosyaları değiştirmeniz kurslara zarar
+verebilir.
+
+Bu dizin çoğu, öğrenciler tarafından gönderilen
+ödevler ve forum ekleri gibi dosyaları
+içermektedir.
+
+Bu dizindeki klasör adları ve dosyaları
+çok özeldir ve otomatik olarak Moodle
+tarafından korunmaktadır.

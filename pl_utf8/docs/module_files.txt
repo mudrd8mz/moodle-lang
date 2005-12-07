@@ -1,0 +1,11 @@
+Na temat tego katalogu
+--------------------
+
+NIE MODYFIKUJ, ZMIENIAJ NAZWY, ANI NIE PRZEMIESZCZAJ ŻADNYCH PLIKÓW Z TEGO KATALOGU, chyba, że NA PRAWDĘ wiesz co robisz.
+
+Zmiany w tych plikach mogš uszkodzić Twój kurs.
+
+Katalog ten zawiera pliki przesłane w obrębie poszczególnych modułów (głównie przez studentów), takie jak rozwišzania zadań, czy załšczniki do forów.
+
+Nazwy katalogów i plików w tym katalogu sš cile okrelone i zarzšdzane przez platformę Moodle.
+

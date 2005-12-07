@@ -1,0 +1,28 @@
+<P ALIGN=CENTER><B>Wygląd słownika</B></P>
+
+<P>Ten parametr określa sposób w jaki definicje zostaną zaprezentowane w słowniku. Możliwe są następujące sposoby prezentacji:</p>
+<blockquote>
+<dl>
+<dt><b>Prosty słownik</b>:</dt>
+<dd>Przypomina klasyczny słownik. Autorzy nie są uwidocznieni a załączniki schowane są za linkami.</dd>
+<dt><b>Ciągły</b>:</dt>
+<dd>Pokazuje terminy jeden po drugim bez żadnych przerw oprócz edycyjnych ikon.</dd>
+<dt><b>Pełen z autorami</b>:</dt>
+<dd>Pokazuje terminy wraz z danymi autora w sposób podobny do forum. Załączniki schowane sa za linkami.</dd>
+<dt><b>Pełen bez autorów</b>:</dt>
+<dd>Format podobny do poprzedniego z tym, że nie zawiera informacji o autorach.</dd>
+<dt><b>Encyklopedia</b>:</dt>
+<dd>Taki jak "Ciągły z autorami" ale załączniki są wyświetlone w tekście.</dd>
+<dt><b>Często zadawane pytania (FAQ)</b>:</dt>
+<dd>Użyteczny przy wyświetlaniu "Często zadawanych pytań (FAQ). Automatycznie kategoryzuje terminy definiowane i definicje jako pytania i odpowiedzi.</dd>
+</dl>
+</blockquote>
+
+<hr>
+<p>Administratorzy Moodle'a mogą utworzyć nowe formy wyświetlenia słownika:
+<ol>
+<li> SprawdĽ zawratość katalogu mod/glossary/formats .... Powinny tam być ponumerowane pliki odpowiadające dostępnym formatom słownika.
+<li> Skopiuj jeden z tych plików i nadaj jemu nową nazwę tj. numer N (zwróć uwagę, że 0 i 1 są zarezerwowane).
+<li> Dokonaj edycji tego pliku w/g własnego uznania (musisz jednak trochę znać PHP).
+<li> Następnie, dopisz w każdym pakiecie językowym jakiego używasz <b>displayformatN</b>, i nadaj mu krótką ale logiczną nazwę.
+</ol>
