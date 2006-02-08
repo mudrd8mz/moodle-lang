@@ -4,13 +4,18 @@
 
 $string['admindirerror'] = 'Belirtilen yönetici dizini hatalı';
 $string['admindirname'] = 'Yönetici Dizini';
-$string['admindirsetting'] = 'Bir kaç web hosting, kontrol paneline ulaşmak için /admin olarak belirtilmiş bir URL kullanıyor. Maalesef, bu Moodle yönetici sayfalarıyla bir karışıklık ortaya çıkarmaktadır. Yönetici dizininin ismini kurulum sırasında değiştirerek bu sorunu ortadan kaldırabilirsiniz. Örnek: <br /><br />><b>moodleadmin</b><br /> <br />Bu Moodle içinde yönetici linklerini düzeltecektir.';
+$string['admindirsetting'] = 'Bazı web hostingler kontrol paneline ulaşmak için /admin olarak belirtilmiş bir URL kullanıyor. Maalesef, bu Moodle yönetici sayfalarıyla bir karışıklık ortaya çıkarmaktadır. Yönetici dizininin ismini kurulum sırasında değiştirerek bu sorunu ortadan kaldırabilirsiniz. Örnek: <br /><br />><b>moodleadmin</b><br /> <br />Bu Moodle içinde yönetici linklerini düzeltecektir.';
+$string['admindirsettinghead'] = 'Yönetici dizini ayarlanıyor...';
+$string['admindirsettingsub'] = 'Bazı web hostingler kontrol paneline ulaşmak için /admin olarak belirtilmiş bir URL kullanıyor. Maalesef, bu Moodle yönetici sayfalarıyla bir karışıklık ortaya çıkarmaktadır. Yönetici dizininin ismini kurulum sırasında değiştirerek bu sorunu ortadan kaldırabilirsiniz. Örnek: <br /><br />><b>moodleadmin</b><br /> <br />Bu Moodle içinde yönetici linklerini düzeltecektir.';
 $string['caution'] = 'Dikkat';
 $string['chooselanguage'] = 'Bir dil seçin';
+$string['chooselanguagehead'] = 'Bir dil seçin';
 $string['compatibilitysettings'] = 'PHP ayarlarınız kontrol ediliyor...';
+$string['compatibilitysettingshead'] = 'PHP ayarlarınız kontrol ediliyor...';
 $string['configfilenotwritten'] = 'Kurulum programı, Moodle dizini yazılabilir olmadığından dolayı seçtiğiniz ayarları içeren bir config.php dosyası oluşturamıyor.  Aşağıdaki kodu kopyalayıp bu kodu config.php dosyası içine yapıştırıp Moodle kök dizinine oluşturduğunuz dosyayı yükleyebilirsiniz.';
 $string['configfilewritten'] = 'config.php dosyası başarıyla oluşturuldu';
 $string['configurationcomplete'] = 'Yapılandırma tamamlandı';
+$string['configurationcompletehead'] = 'Yapılandırma tamamlandı';
 $string['database'] = 'Veritabanı';
 $string['databasecreationsettings'] = 'Şimdi, Moodle verilerinin saklanacağı veritabanını
 oluşturmanız gerekiyor. Bu veritabanı Moodle4Windows kurulumu tarafından aşağıdaki ayarlara göre otomatik olarak oluşturulacak.<br />
@@ -21,11 +26,28 @@ oluşturmanız gerekiyor. Bu veritabanı Moodle4Windows kurulumu tarafından aş
 <b>Kullanıcı:</b> kurulum tarafından root olarak sabitlendi<br />
 <b>Şifre:</b> kullanıcı şifresi<br />
 <b>Tablo öneki:</b> tüm tablo isimleri için isteğe bağlı önek';
+$string['databasecreationsettingshead'] = 'Şimdi, Moodle verilerinin saklanacağı veritabanını
+oluşturmanız gerekiyor. Bu veritabanı Moodle4Windows kurulumu tarafından aşağıdaki ayarlara göre otomatik olarak oluşturulacak.<br />';
+$string['databasecreationsettingssub'] = '<b>Tipi:</b> kurulum tarafından mysql olarak sabitlendi<br />
+<b>Sunucu:</b> kurulum tarafından localhost olarak sabitlendi<br />
+<b>Adı:</b> veritabanı adı, ör: moodle<br />
+<b>Kullanıcı:</b> kurulum tarafından root olarak sabitlendi<br />
+<b>Şifre:</b> kullanıcı şifresi<br />
+<b>Tablo öneki:</b> tüm tablo isimleri için isteğe bağlı önek';
 $string['databasesettings'] = 'Şimdi, Moodle verilerinin saklanacağı veritabanını
 oluşturmanız gerekiyor. Bu veritabanı önceden oluşturulmalı
 ve bu veritabanına erişmek için kullanıcı adı - şifre ayarlanmalı.<br />
 <br /><br />
 <b>Tipi:</b> mysql veya postgres7<br />
+<b>Sunucu:</b> ör: localhost veya db.iss.com<br />
+<b>Adı:</b> veritabanı adı, ör: moodle<br />
+<b>Kullanıcı:</b> veritabanı kullanıcısı<br />
+<b>Şifre:</b> kullanıcı şifresi<br />
+<b>Tablo öneki:</b> tüm tablo isimleri için isteğe bağlı önek';
+$string['databasesettingshead'] = 'Şimdi, Moodle verilerinin saklanacağı veritabanını
+oluşturmanız gerekiyor. Bu veritabanı önceden oluşturulmalı
+ve bu veritabanına erişmek için kullanıcı adı - şifre ayarlanmalı.';
+$string['databasesettingssub'] = '<b>Tipi:</b> mysql veya postgres7<br />
 <b>Sunucu:</b> ör: localhost veya db.iss.com<br />
 <b>Adı:</b> veritabanı adı, ör: moodle<br />
 <b>Kullanıcı:</b> veritabanı kullanıcısı<br />
@@ -56,9 +78,28 @@ Siteye yüklenen dosyaların nereye kaydedileceğini belirtin.
 Bu dizin sunucu kullanıcısı tarafından okunabilir ve
 YAZILABİLİR olmalı. (genellikle \'nobody\',\'apache\',\'www\' olur)
 Ancak, bu dizine direkt olarak webden erişim olMAMAlı.</p>';
+$string['directorysettingshead'] = 'Lütfen, Bu Moodle kurulumu için yolları onaylayın.';
+$string['directorysettingssub'] = '<b>Web Adresi:</b>
+Moodle\'a erişilecek olan tam web adresini belirtin.
+Web siteniz bir çok URL\'den erişilebiliyorsa, öğrencilerinizin
+en sık kullanacağı bir tanesini seçin.
+Sonuna / (slash) ekleMEyin.
+<br />
+<br />
+<b>Moodle Dizini:</b>
+Bu kurulama ait tam fiziksel klasör yolunu belirtin.
+BÜYÜK/küçük harflerin doğru olduğundan emin olun.
+<br />
+<br />
+<b>Veri Dizini:</b>
+Siteye yüklenen dosyaların nereye kaydedileceğini belirtin.
+Bu dizin sunucu kullanıcısı tarafından okunabilir ve
+YAZILABİLİR olmalı. (genellikle \'nobody\',\'apache\',\'www\' olur)
+Ancak, bu dizine direkt olarak webden erişim olMAMAlı.';
 $string['dirroot'] = 'Moodle Dizini';
 $string['dirrooterror'] = '\'Moodle Dizini\' ayarları hatalı görünüyor - Burada bir Moodle kurulumu bulunamadı. Aşağıdaki değer sıfırlandı.';
 $string['download'] = 'İndir';
+$string['environmenthead'] = 'Ortam kontrol ediliyor...';
 $string['fail'] = 'Hata';
 $string['fileuploads'] = 'Dosya Göndermeleri';
 $string['fileuploadserror'] = 'Bu açık olmalı';
@@ -93,9 +134,7 @@ $string['globalsquoteshelp'] = '<p>Pasifleştirilmiş Magic Quotes GPC ve etkinl
 <p>Php.ini\'ye erişim hakkınız yoksa Moodle dizinindeki .htaccess dosyasına şu satırları ekleyebilirsiniz:
 <blockquote>php_value magic_quotes_gpc On</blockquote>
 <blockquote>php_value register_globals Off</blockquote>
-</p> 
-
-';
+</p> ';
 $string['installation'] = 'Kurulum';
 $string['magicquotesruntime'] = 'Magic Quotes Run Time';
 $string['magicquotesruntimeerror'] = 'Bu kapalı olmalı';
@@ -154,6 +193,12 @@ $string['sessionautostarterror'] = 'Bu kapalı olmalı';
 $string['sessionautostarthelp'] = '<p>Moodle, oturum desteği gerektirir ve bu olmadan işlevsel çalışamaz.</p>
 
 <p>Oturum desteği php.ini dosyasından ayarlanabilir ... session.auto_start parametresine bakın.</p>';
+$string['skipdbencodingtest'] = 'Veritabanı Encoding Testini Atla';
+$string['welcomep10'] = '$a->installername ($a->installerversion)';
+$string['welcomep20'] = 'Bilgisayarınıza <strong>$a->packname $a->packversion</strong> paketini başarıyla kurdunuz. Tebrikler!';
+$string['welcomep40'] = 'Bu paket <strong>Moodle $a->moodlerelease ($a->moodleversion)</strong> sürümünü de içerir.';
+$string['welcomep60'] = 'Aşağıdaki sayfalar <strong>Moodle</strong>ın kurulumu ve yapılandırılması için size basitçe yol gösterecektir. Varsayılan ayarları kabul edebilir veya ihtiyaçlarınıza göre bunları değiştirebilirsiniz.';
+$string['welcomep70'] = '<strong>Moodle</strong> kurulumu için aşağıdaki \"İleri\" tuşuna basın.';
 $string['wwwroot'] = 'Web adresi';
 $string['wwwrooterror'] = 'Web adresi doğru ayarlanmış görünmüyor. Moodle kurulumu belirtilen yerde görünmüyor.';
 
