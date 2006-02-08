@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // block_glossary_random.php - created with Moodle 1.5 ALPHA (2005051500)
+      // block_glossary_random.php - created with Moodle 1.6 development (2005101200)
 
 
-$string['addentry'] = 'Favori sözcüklerinizi ekleyin!';
+$string['addentry'] = 'Kendi favori sözcüklerinizi ekleyin!';
 $string['askaddentry'] = 'Öğrenciler sözlüğe sözcük ekleyebiliyorlarsa, bu yazı ile bir link göster';
 $string['askinvisible'] = 'Öğrenciler sözlüğü düzenleyemiyor veya göremiyorsa bu yazıyı göster (linksiz)';
 $string['askviewglossary'] = 'Öğrenciler sözlüğü görebiliyor ancak kayıt ekleyemiyorlarsa bu yazı ile bir link göster';

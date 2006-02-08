@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.5 ALPHA (2005042300)
+      // dialogue.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['addmynewentries'] = 'Yeni Kayıtları ekle';
 $string['addmynewentry'] = 'Yeni Kaydı ekle';
 $string['addsubject'] = 'Konu Ekle';
-$string['allowmultiple'] = 'Aynı kişiyle birden fazla Söyleşiye izin ver';
-$string['allowstudentdialogues'] = 'Öğrenciden Öğrenciye Söyleşilere izin ver';
+$string['allowmultiple'] = 'Aynı kişiyle birden fazla söyleşiye izin ver';
+$string['allowstudentdialogues'] = 'Öğrenciden öğrenciye söyleşilere izin ver';
 $string['close'] = 'Kapat';
 $string['closed'] = 'Kapalı';
 $string['confirmclosure'] = '$a ile söyleşiyi kapatmak üzeresiniz. Kapatılan söyleşiler tekrar açılamaz. Bu söyleşiyi kapatırsanız görebilir, fakat yeni söz ekleyemezsiniz. Ayrıca bu kişiyle yeniden \"konuşmak\" için başka bir söyleşi başlatmak zorundasınız..<br /><br /> Bu söyleşiyi kapatmak istediğinizden emin misiniz?';

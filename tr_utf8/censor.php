@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // censor.php - created with Moodle 1.5 ALPHA (2005043000)
+      // censor.php - created with Moodle 1.6 development (2005101200)
 
 
-$string['badwords'] = 'bok,sikik,sikici,sikme,sikkafa,sik,amcık,göt,göt herif,hıyar,kancık,oruspu,fahişe,kahpe,sürtük,kaltak,şırfıntı,mastürbasyon,otuzbir,otuzbirci,otuzbir çek,piç,puşt,orgazm,vajina';
+$string['badwords'] = 'sik,sikik,sikici,sikme,sikkafa,amcık,göt,göt herif,hıyar,kancık,oruspu,fahişe,kahpe,sürtük,kaltak,şırfıntı,mastürbasyon,otuzbir,otuzbirci,otuzbir,piç,puşt,orgazm,vajina';
 $string['filtername'] = 'Sansürlü Kelime';
 
 ?>

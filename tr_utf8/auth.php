@@ -1,8 +1,16 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 development (2005081700)
+      // auth.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['alternateloginurl'] = 'Alternatif giriş URL';
+$string['auth_cas_language'] = 'Seçili dil';
+$string['auth_cas_logincas'] = 'Güvenli bağlantı erişimi';
+$string['auth_cas_port'] = 'CAS sunucu portu';
+$string['auth_cas_server_settings'] = 'CAS sunucu yapılandırması';
+$string['auth_cas_text'] = 'Güvenli bağlantı';
+$string['auth_cas_version'] = 'CAS sürümü';
+$string['auth_changepasswordhelp'] = 'Şifre değiştirme yardımı';
+$string['auth_changepasswordurl'] = 'Şifre değiştirme adresi';
 $string['auth_common_settings'] = 'Genel Ayarlar';
 $string['auth_data_mapping'] = 'Veri İlişkilendirmesi';
 $string['auth_dbextrafields'] = 'Bu alanlar isteğe bağlıdır. Burada belirttiğiniz <b>harici veritabanı alanlarındaki</b> bilgilerden sağlanan kullanıcı alanlarının bazılarının, önceden doldurulmasını sağlayabilirsiniz. <p>Bu alanları boş bırakırsanız, varsayılanlar kullanılacaktır.</p><p>Diğer durumda, kullanıcılar giriş yaptıktan sonra bu alnları değiştirebilileceklerdir.</p>';
@@ -18,6 +26,7 @@ $string['auth_dbtype'] = 'Veritabanı tipi (Ayrıntılar için <a href=\"../lib/
 $string['auth_dbuser'] = 'Veritabanı kullanıcısı';
 $string['auth_emaildescription'] = 'Email onayı varsayılan yetkilendirme yöntemidir. Kullanıcı kendi seçtiği kullanıcı adı ve şifreyle kaydolduğunda kullanıcının adresine bir onay emaili gönderilir. Bu email, kullanıcının hesabını onaylayabileceği güvenli bir bağlantı içerir.';
 $string['auth_emailtitle'] = 'Email-temelli yetki';
+$string['auth_fcfppport'] = 'Sunucu portu (en geneli 3333)';
 $string['auth_fctitle'] = 'FirstClass sunucusu kullan';
 $string['auth_fieldlock'] = 'Değeri kilitle';
 $string['auth_fieldlock_expl'] = '<p><b>Değeri kilitle:</b> Etkinleştirilirse, bu alanın kullanıcılar ve yöneticiler tarafından düzenlenmesi engellenecektir. Harici yetkilendirme sistemlerinde bu alanı düzenliyorsanız bu seçeneği kullanabilirsiniz.</p>';
@@ -31,6 +40,7 @@ $string['auth_nonetitle'] = 'Yetki yok';
 $string['auth_pop3title'] = 'POP3 sunusu kullan';
 $string['auth_updatelocal'] = 'Yereli güncelle';
 $string['auth_updateremote'] = 'Harici olanı güncelle';
+$string['auth_user_create'] = 'Kullanıcı oluşturmayı etkinleştir';
 $string['auth_usernameexists'] = 'Seçilen kullanıcı zaten var. Başka bir tane seçin.';
 $string['authenticationoptions'] = 'Yetkilendirme seçenekleri';
 $string['changepassword'] = 'Şifre değiştirme bağlantısı';
@@ -39,7 +49,9 @@ $string['forcechangepassword'] = 'Şifre değişimini zorunlu tut';
 $string['forcechangepassword_help'] = 'Kullanıcıların sonraki girişinde şifre değişimini zorunlu tut.';
 $string['forcechangepasswordfirst_help'] = 'Kullanıcılar ilk defa giriş yaptıklarında şifre değişimini zorunlu tut';
 $string['guestloginbutton'] = 'Ziyaretçi giriş düğmesi';
+$string['infilefield'] = 'Dosyada alan gerekli';
 $string['instructions'] = 'Yönergeler';
+$string['internal'] = 'Dahili';
 $string['locked'] = 'Kilitli';
 $string['md5'] = 'MD5 şifrelemesi';
 $string['passwordhandling'] = 'Şifre alanı işleme';

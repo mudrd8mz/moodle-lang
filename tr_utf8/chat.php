@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.5 ALPHA (2005042400)
+      // chat.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['beep'] = 'biip';
@@ -13,7 +13,7 @@ $string['configrefreshroom'] = 'Sohbet odası kaç saniyede bir yenilenecek? (sa
 $string['configrefreshuserlist'] = 'Kullanıcı listesi kaç saniyede bir yenilenecek? (saniye olarak)';
 $string['configserverhost'] = 'Daemonun çalıştığı bilgisayarın alan adı';
 $string['configserverip'] = 'Yukarıdaki alan adının IP numarası';
-$string['configservermax'] = 'İzin verilen max istemci sayısı';
+$string['configservermax'] = 'İzin verilen en fazla istemci sayısı';
 $string['configserverport'] = 'Daemon için sunucuda kullanılacak port';
 $string['currentchats'] = 'Aktif sohbet oturumları';
 $string['currentusers'] = 'Aktif kullanıcılar';

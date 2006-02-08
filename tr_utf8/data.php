@@ -92,7 +92,7 @@ $string['textarea'] = 'Uzun metin';
 $string['type'] = 'Alan tipi';
 $string['updatefield'] = 'Var olan alanı güncelle';
 $string['url'] = 'Url';
-$string['viewfromdate'] = 'Bakış başlangıç:';
-$string['viewtodate'] = 'Bakış bitiş:';
+$string['viewfromdate'] = 'Bakış başlangıç';
+$string['viewtodate'] = 'Bakış bitiş';
 
 ?>

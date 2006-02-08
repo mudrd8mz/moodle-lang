@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.5 ALPHA (2005042300)
+      // message.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['addcontact'] = 'Kişi ekle';
 $string['addsomecontacts'] = 'Birilerine mesaj göndermek veya bu sayfada o kişiye ait bir kısayol oluşturmak için, yukarıdaki <a href=\"$a\">arama sekmesini</a> kullanın.';
-$string['addsomecontactsincoming'] = 'Bunlar kişi listenizde olmayan kullanıcılar tarafından gönderilen mesajlardır. Kullanıcıyı kişi listenize eklemek için, isminin yanındaki \"Kişi ekle\" ikonuna tıklayın.';
+$string['addsomecontactsincoming'] = 'Bunlar kişi listenizde olmayan kullanıcılar tarafından gönderilen mesajlardır. Kullanıcıyı kişi listenize eklemek için, isminin yanındaki \"Kişi Ekle\" ikonuna tıklayın.';
 $string['ago'] = '$a önce';
 $string['allmine'] = 'Gelen ve giden bütün mesajlar';
 $string['allstudents'] = 'Kurstaki öğrenciler arasındaki bütün mesajlar';

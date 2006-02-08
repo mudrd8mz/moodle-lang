@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // journal.php - created with Moodle 1.5 ALPHA (2005042300)
+      // journal.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['alwaysopen'] = 'Her zaman açık';
 $string['blankentry'] = 'Boş kayıt';
 $string['daysavailable'] = 'Kalan gün';
 $string['editingended'] = 'Düzeltme süresi bitti';
-$string['editingends'] = 'Düzeltme süresi bitiyor';
+$string['editingends'] = 'Düzeltme süresi düzenleniyor';
 $string['entries'] = 'Kayıtlar';
 $string['feedbackupdated'] = '$a kayıtları için geribildirim güncellendi';
 $string['journalmail'] = '$a->teacher, \'$a->journal\' isimli yazınız için geribildirim verdi.

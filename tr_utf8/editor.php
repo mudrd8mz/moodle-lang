@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.5 ALPHA (2005042400)
+      // editor.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['about'] = 'Bu editor hakkında';
@@ -35,6 +35,7 @@ $string['height'] = 'Yükseklik';
 $string['hilitecolor'] = 'Arkaplan rengi';
 $string['horizontal'] = 'Yatay';
 $string['horizontalrule'] = 'Yatay Çizgi';
+$string['htmlmode'] = 'HTML Kaynağını Göster';
 $string['imageurl'] = 'Resim URL';
 $string['indent'] = 'Girintiyi Arttır';
 $string['insertchar'] = 'Özel Karakter Ekle';
@@ -43,7 +44,7 @@ $string['insertlink'] = 'Link Ekle';
 $string['insertsmile'] = 'Yüz İfadesi Ekle';
 $string['inserttable'] = 'Tablo Ekle';
 $string['italic'] = 'Yatık';
-$string['itemsreplaced'] = 'ögeler değiştirildi';
+$string['itemsreplaced'] = 'ögeler değiştirildi!';
 $string['justifycenter'] = 'Ortala';
 $string['justifyfull'] = 'Her iki yana yasla';
 $string['justifyleft'] = 'Sola hizala';
@@ -70,6 +71,7 @@ $string['ok'] = 'TAMAM';
 $string['options'] = 'Seçenekler';
 $string['orderedlist'] = 'Numaralı Liste';
 $string['outdent'] = 'Girintiyi Azalt';
+$string['paste'] = 'Panodan yapıştır';
 $string['path'] = 'Yol';
 $string['percent'] = 'Yüzde';
 $string['pixels'] = 'Pixel';

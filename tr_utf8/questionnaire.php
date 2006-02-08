@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // questionnaire.php - created with Moodle 1.5 ALPHA (2005042300)
+      // questionnaire.php - created with Moodle 1.6 development (2005101200)
 
 
-$string['alreadyfilled'] = 'Bu soru formunu bizim için zaten doldurdunuz. Teşekkür ederiz.';
+$string['alreadyfilled'] = 'Bu soru formunu zaten doldurdunuz. Teşekkür ederiz.';
 $string['modulename'] = 'Soru Formu';
 $string['modulenameplural'] = 'Soru Formları';
 $string['mustcomplete'] = '<b>Bu soru formunu sonuçlarınızın kaydedilmesi için <i>şimdi</i> tamamlamanız gerekiyor. Başka bir zaman bu soru formunu dolduramazsınız.</b><br /><br />';

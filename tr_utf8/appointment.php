@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // appointment.php - created with Moodle 1.5 ALPHA (2005042300)
+      // appointment.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['allowresubmit'] = 'Tekrar göndermeye izin ver';
@@ -9,7 +9,7 @@ $string['appointmentname'] = 'Görüşme adı';
 $string['date'] = 'Görüşme tarihi';
 $string['description'] = 'Açıklama';
 $string['early'] = '$a erken';
-$string['failedupdatefeedback'] = '$a kullanıcısı için gönderi geribildirimi güncellnirken hata oluştu';
+$string['failedupdatefeedback'] = '$a kullanıcısı için gönderi geribildirimi güncellenirken hata oluştu';
 $string['feedback'] = 'Geribildirim';
 $string['feedbackupdated'] = '$a kişi için gönderi geribildirimleri güncellendi';
 $string['late'] = '$a geç';

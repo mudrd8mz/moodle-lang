@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.5.2 (2005072200)
+      // wiki.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['action'] = '-- Eylem --';
@@ -14,8 +14,10 @@ $string['binnoimg'] = 'Bu kabul edilmeyen dosya biçimidir!';
 $string['browse'] = 'Gözat';
 $string['canceledit'] = 'İptal';
 $string['cannotchangepage'] = 'Bu sayfa değiştirilemez';
+$string['changes'] = '$a değişiklik';
 $string['checklinks'] = 'Bağlantıları kontrol et';
 $string['checklinkscheck'] = 'Bu sayfadaki bağlantıları kontrol etmek istediğinizden emin misiniz:';
+$string['checklinksnotice'] = 'Lütfen sayfa çalışırken sabırlı olun.';
 $string['chooseadministration'] = '-- Yönetim --';
 $string['chooseafile'] = 'Başlangıç sayfası seç/yükle';
 $string['choosewikilinks'] = '-- Wiki Bağlantılarını Seçin --';
@@ -23,7 +25,10 @@ $string['comment'] = 'Yorum';
 $string['contentsize'] = 'İçerik boyutu';
 $string['created'] = 'Oluşturuldu';
 $string['deletemewikiword'] = 'BeniSil';
+$string['deletemewikiwordfound'] = 'Sayfada $a bulundu';
 $string['deletepage'] = 'Sayfayı sil';
+$string['deleteversions'] = 'Kaç tane son sürümler silinecek';
+$string['deleteversionserror'] = 'Lütfen geçerli bir sürüm no girin.';
 $string['diff'] = 'Fark';
 $string['differences'] = '$a->pagename sayfasının $a->new_ver ve $a->old_ver sürümleri arasındaki farklar';
 $string['disablecamel'] = 'camelCase bağlantı etkin değil';
@@ -135,6 +140,7 @@ $string['versionstodelete'] = 'Silinecek sürüm(ler)';
 $string['viewpage'] = 'Sayfaya Bak';
 $string['viewsmfor'] = 'Site haritasına bak:';
 $string['wantedpages'] = 'İstenen Sayfalar';
+$string['wikidefaultpagename'] = 'WikiBaşlangıç';
 $string['wikiexport'] = 'Sayfaları çıkar';
 $string['wikilinkoptions'] = 'Otomatik-linkleme seçenekleri';
 $string['wikilinks'] = 'Wiki Baglantilari';

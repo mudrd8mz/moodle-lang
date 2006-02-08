@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.5 ALPHA (2005051500)
+      // block_rss_client.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['addfeed'] = 'Haber içeriği URL:';
@@ -34,6 +34,7 @@ $string['remotenewsfeed'] = 'Haber İçerikleri';
 $string['seeallfeeds'] = 'Tüm içeriklere bak';
 $string['shownumentrieslabel'] = 'Her bir blokta görünen max kayıt sayısı';
 $string['submitters'] = 'Yeni rss içeriklerini eklemeye kimler yetkili? Eklenen içerikler sitenizin herhangi bir yerinde olabilir.';
+$string['timeout'] = 'RSS Zaman Aşımı';
 $string['timeoutdesc'] = 'Bir RSS içeriğinin ara bellekte dakika cinsinden kalma süresi.';
 $string['updatefeed'] = 'Haber içeriği URL\'sini güncelle:';
 $string['validatefeed'] = 'İçeriği denetle';

@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.5 ALPHA (2005042300)
+      // choice.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['addmorechoices'] = 'Daha fazla seçenek ekle';
 $string['allowupdate'] = 'Anketin tekrar yanıtlanmasına izin ver';
 $string['answered'] = 'Yanıtlandı';
-$string['choice'] = 'Seçenek $a';
+$string['choice'] = 'Seçenek';
 $string['choiceclose'] = 'Bitiş';
 $string['choicename'] = 'Anket adı';
 $string['choiceopen'] = 'Başlangıç';
@@ -14,7 +14,7 @@ $string['displayhorizontal'] = 'Yatay görüntüle';
 $string['displaymode'] = 'Görünüm modu';
 $string['displayvertical'] = 'Dikey görüntüle';
 $string['full'] = '(Tam)';
-$string['havetologin'] = 'Ankete katılmadan önce giriş yapmalısınız';
+$string['havetologin'] = 'Anketi göndermeden önce giriş yapmalısınız';
 $string['limit'] = 'Sınır';
 $string['limitanswers'] = 'İzin verilen yanıt sayısını sınırla';
 $string['modulename'] = 'Anket';

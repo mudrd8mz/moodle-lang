@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // activitynames.php - created with Moodle 1.5 ALPHA (2005042300)
+      // activitynames.php - created with Moodle 1.6 development (2005101200)
 
 
-$string['filtername'] = 'Etkinlik İsimleri Otomatik Linkleme';
+$string['filtername'] = 'Etkinlik İsimleri Otomatik-Linkleme';
 
 ?>

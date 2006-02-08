@@ -1,17 +1,17 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.5 ALPHA (2005042300)
+      // workshop.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['absent'] = 'Yok';
 $string['accumulative'] = 'Toplam';
-$string['action'] = 'İşlem';
+$string['action'] = 'Eylem';
 $string['addacomment'] = 'Bir yorum ekle';
 $string['addcomment'] = 'Yorum ekle';
 $string['afterdeadline'] = 'Son teslim tarihinden sonra: $a';
 $string['ago'] = '$a önce';
 $string['agrade'] = 'Değerlendirme<br />Not';
 $string['agreetothisassessment'] = 'Bu değerlendirmeyi kabul et';
-$string['allgradeshaveamaximumof'] = 'Bütün Notların alabileceği maksimum değer: $a';
+$string['allgradeshaveamaximumof'] = 'Bütün notların alabileceği maksimum değer: $a';
 $string['allowresubmit'] = 'Tekrar Gönderme İzni';
 $string['allsubmissions'] = 'Bütün gönderiler';
 $string['alreadyinphase'] = 'Zaten $a Aşamasında';

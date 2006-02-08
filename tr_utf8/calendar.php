@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.5 + (2005060201)
+      // calendar.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['calendar'] = 'Takvim';
@@ -17,7 +17,7 @@ $string['durationminutes'] = 'Dakika süreli';
 $string['durationnone'] = 'Süresiz';
 $string['durationuntil'] = 'Süreli';
 $string['editevent'] = 'Olay düzenleniyor';
-$string['errorbeforecoursestart'] = 'Ders başlangıç tarihinden önce olay ayarlanamaz';
+$string['errorbeforecoursestart'] = 'Olay ders başlangıç tarihinden önce ayarlanamaz';
 $string['errorinvaliddate'] = 'Geçersiz tarih';
 $string['errorinvalidminutes'] = '1 ve 999 arasında bir sayı vererek dakika olarak süreyi belirtin';
 $string['errorinvalidrepeats'] = '1 ve 99 arasında bir sayı vererek olay sayısını belirtin';

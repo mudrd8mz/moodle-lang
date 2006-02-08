@@ -4,7 +4,7 @@
 
 $string['allowresubmit'] = 'Tekrar göndermeye izin ver';
 $string['assignmentdetails'] = 'Ödev ayrıntıları';
-$string['assignmentmail'] = '$a->teacher, \'$a->assignment\' isimli ödeviniz için geribildirim verdi.
+$string['assignmentmail'] = '$a->teacher, \'$a->assignment\' isimli ödeviniz için geribildirim verdi
 
 $a->url';
 $string['assignmentmailhtml'] = '$a->teacher, \'<i>$a->assignment</i>\' isimli ödeviniz için geribildirim verdi.
@@ -12,7 +12,7 @@ $string['assignmentmailhtml'] = '$a->teacher, \'<i>$a->assignment</i>\' isimli �
 <a href=\"$a->url\">Ayrıntılar</a>.';
 $string['assignmentname'] = 'Ödev adı';
 $string['assignmenttype'] = 'Ödev türü';
-$string['availabledate'] = 'Başlangıç Tarihi';
+$string['availabledate'] = 'Başlangıç tarihi';
 $string['comment'] = 'Yorum';
 $string['commentinline'] = 'Satıriçi yorum';
 $string['configmaxbytes'] = 'Sitedeki tüm ödevler için varsayılan en yüksek ödev boyutu (ders limitleri ve diğer yerel ayarlar içindir)';
@@ -38,7 +38,8 @@ $string['failedupdatefeedback'] = 'Bu kullanıcının gönderdiği geribildirim 
 $string['feedback'] = 'Geribildirim';
 $string['feedbackfromteacher'] = '$a \'den geribildirim';
 $string['feedbackupdated'] = 'Bu kullanıcının gönderdiği geribildirim güncellenmiştir $a kişi';
-$string['guestnoupload'] = 'Üzgünüz, konukların dosya göndermesine izin verilmemektedir.';
+$string['guestnosubmit'] = 'Üzgünüz, konukların ödev göndermesine izin verilmemektedir';
+$string['guestnoupload'] = 'Üzgünüz, konukların dosya göndermesine izin verilmemektedir';
 $string['helpoffline'] = '<p>Bu ödev türü site dışı bir ödev verdiğinizde kullanışlıdır.</p>
 <p>Öğrenciler ödev ile ilgili açıklamayı okurlar ancak herhangi bir dosya yükleyemezler.
 Bu ödev türünde öğrenciye bir ödev verip size getirmelerini isteyebilirsiniz. Daha sonra
