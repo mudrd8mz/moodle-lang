@@ -49,6 +49,7 @@ $string['adminhelpcourses'] = 'Définir les cours et les catégories, assigner d
 $string['adminhelpeditorsettings'] = 'Définir la configuration de base de l\'éditeur WYSIWYG';
 $string['adminhelpedituser'] = 'Consulter la liste des comptes des utilisateurs et les modifier';
 $string['adminhelpenrolments'] = 'Définir les procédures (internes ou externes) du contrôle des inscriptions';
+$string['adminhelpenvironment'] = 'Vérifier que votre serveur possède les spécifications d\'une installation actuelle et future';
 $string['adminhelpfailurelogs'] = 'Consulter les historiques des tentatives de connexion';
 $string['adminhelplanguage'] = 'Vérifier ou modifier les fichiers de la langue en cours';
 $string['adminhelplogs'] = 'Consulter les historiques de toutes les activités de ce site';
@@ -105,7 +106,7 @@ $string['assignstudentsnote'] = 'L\'utilisation de cette page n\'est pas toujour
 $string['assignstudentspass'] = 'Vous devez communiquer à vos étudiants le mot-clef permettant de s\'inscrire dans le cours. Cette clef est actuellement&nbsp;: «&nbsp;$a&nbsp;»';
 $string['assignteachers'] = 'Choisir les enseignants';
 $string['authentication'] = 'Authentification';
-$string['autosubscribe'] = 'Auto-inscription au forum';
+$string['autosubscribe'] = 'Auto-abonnement au forum';
 $string['autosubscribeno'] = 'Non, ne pas m\'inscrire automatiquement au forum';
 $string['autosubscribeyes'] = 'Oui, m\'inscrire automatiquement au forum si j\'y envoie un message';
 $string['availability'] = 'Disponibilité';
@@ -146,6 +147,7 @@ $string['blocksetup'] = 'Installation des tables de blocs';
 $string['blocksuccess'] = 'Les tables $a ont été installées correctement';
 $string['bycourseorder'] = 'Ordre dans le cours';
 $string['byname'] = 'par $a';
+$string['bypassed'] = 'Court-circuité';
 $string['cachecontrols'] = 'Réglages du cache';
 $string['cancel'] = 'Annuler';
 $string['categories'] = 'Catégories de cours';
@@ -156,13 +158,15 @@ $string['categoryduplicate'] = 'Une catégorie de ce nom («&nbsp;$a&nbsp;») ex
 $string['changedpassword'] = 'Mot de passe modifié';
 $string['changepassword'] = 'Changer le mot de passe';
 $string['changessaved'] = 'Modifications enregistrées';
+$string['check'] = 'Vérifier';
 $string['checkingbackup'] = 'Vérification de la sauvegarde';
 $string['checkingcourse'] = 'Vérification du cours';
 $string['checkingforbbexport'] = 'Vérification pour exportation BlackBoard';
 $string['checkinginstances'] = 'Verification des instances';
 $string['checkingsections'] = 'Vérification des sections';
 $string['checklanguage'] = 'Tester la langue';
-$string['childcoursenotfound'] = 'Le cours enfant n\'a pas été trouvé&nbsp;!';
+$string['childcourses'] = 'Cours descendants';
+$string['childcoursenotfound'] = 'Le cours descendant n\'a pas été trouvé&nbsp;!';
 $string['choose'] = 'Choisir';
 $string['choosecourse'] = 'Choisir un cours';
 $string['chooseenrolmethod'] = 'Choisir une méthode d\'inscription';
@@ -278,6 +282,7 @@ $string['databasesetup'] = 'Installation de la base de données';
 $string['databasesuccess'] = 'La base de données a été correctement mise à jour';
 $string['databaseupgradebackups'] = 'La version du logiciel de sauvegarde est maintenant $a';
 $string['databaseupgradeblocks'] = 'La version du logiciel des blocs est maintenant $a';
+$string['databaseupgradelocal'] = 'La version des modifications locales de la base de données est maintenant $a';
 $string['databaseupgrades'] = 'Mise à jour de la base de données';
 $string['date'] = 'Date';
 $string['datemostrecentfirst'] = 'Date - la plus récente en premier';
@@ -361,6 +366,7 @@ $string['edituser'] = 'Comptes des utilisateurs';
 $string['email'] = 'Adresse de courriel';
 $string['emailactive'] = 'Adresse de courriel activée';
 $string['emailagain'] = 'Courriel (confirmation)';
+$string['emailcharset'] = 'Encodage des courriels';
 $string['emailconfirm'] = 'Confirmer votre enregistrement';
 $string['emailconfirmation'] = 'Bonjour,
 
@@ -510,12 +516,12 @@ $string['formattopics'] = 'Thématique';
 $string['formatweeks'] = 'Hebdomadaire';
 $string['formatwiki'] = 'Format de genre wiki';
 $string['from'] = 'De';
-$string['frontpagecategorynames'] = 'Afficher la liste des catégories de cours';
-$string['frontpagecourselist'] = 'Afficher la liste des cours';
+$string['frontpagecategorynames'] = 'Liste des catégories de cours';
+$string['frontpagecourselist'] = 'Liste des cours';
 $string['frontpagedescription'] = 'Description sur la page d\'accueil';
 $string['frontpageformat'] = 'Format de la page d\'accueil';
-$string['frontpagenews'] = 'Afficher les brèves';
-$string['frontpagetopiconly'] = 'Afficher du HTML ou des activités à votre gré (section thématique)';
+$string['frontpagenews'] = 'Brèves';
+$string['frontpagetopiconly'] = 'Section thématique';
 $string['fulllistofcourses'] = 'Tous les cours';
 $string['fullname'] = 'Nom complet';
 $string['fullnamedisplay'] = '$a->firstname $a->lastname';
@@ -617,7 +623,7 @@ $string['importactivities'] = 'Importer les activités d\'un autre cours';
 $string['importdata'] = 'Importer les données d\'un cours';
 $string['importdatafrom'] = 'Rechercher un cours à partir duquel importer des données&nbsp;:';
 $string['importdataexported'] = 'Les données du cours d\'origine ont été exportées correctement.<br />Voulez-vous les importer dans le cours de destination&nbsp;?';
-$string['importdatafinished'] = 'Importation terminée&nbsp;! Aller sur votre cours';
+$string['importdatafinished'] = 'Importation terminée&nbsp;! Vous pouvez vous rendre sur votre cours';
 $string['importgroups'] = 'Importer des groupes';
 $string['importmetacoursenote'] = 'Utiliser ce formulaire pour ajouter des cours à votre méta-cours (les inscriptions seront également importées)';
 $string['inactive'] = 'Inactif';
@@ -798,11 +804,11 @@ Le mot de passe de votre compte sur « $a->sitename » a été remplacé par un 
 
 Les informations pour vous connecter sont désormais :
 
-nom d\'utilisateur : $a->username
-mot de passe : $a->newpassword
+    nom d\'utilisateur : $a->username
+    mot de passe : $a->newpassword
 
 Merci de visiter cette page afin de changer de mot de passe :
-$a->link
+    $a->link
 
 Dans la plupart des logiciels de messagerie, cette adresse devrait apparaître comme un lien de couleur bleue qu\'il vous suffit de cliquer. Si cela ne fonctionne pas, copiez ce lien et collez-le dans la barre d\'adresse de votre navigateur web.
 
@@ -813,6 +819,24 @@ $string['newsitem'] = 'article';
 $string['newsitems'] = 'articles';
 $string['newsitemsnumber'] = 'Articles récents à afficher';
 $string['newuser'] = 'Nouvel utilisateur';
+$string['newusernewpasswordtext'] = 'Bonjour,
+
+Un nouveau compte a été créé pour vous sur le site « $a->sitename » et un mot de passe temporaire vous a été délivré.
+
+Les informations nécessaires à votre connexion sont maintenant :
+   nom d\'utilisateur : $a->username
+   mot de passe       : $a->newpassword
+
+Vous devrez changer votre mot de passe lors de votre première connexion.
+
+Pour commencer à travailler sur « $a->sitename », veuillez vous connecter en cliquant sur le lien ci-dessous.
+   $a->link
+
+Dans la plupart des logiciels de messagerie, cette adresse devrait apparaître comme un lien de couleur bleue qu\'il vous suffit de cliquer. Si cela ne fonctionne pas, copiez ce lien et collez-le dans la barre d\'adresse de votre navigateur web.
+
+Si vous avez besoin d\'aide, veuillez contacter l\'administrateur du site $a->sitename,
+$a->signoff';
+$string['newusernewpasswordsubj'] = 'Nouveau compte utilisateur';
 $string['newusers'] = 'Nouveaux utilisateurs';
 $string['next'] = 'Suivant';
 $string['no'] = 'Non';
@@ -870,6 +894,7 @@ $string['numattempts'] = '$a tentatives de connexions infructueuses';
 $string['numberweeks'] = 'Nombre de semaines ou de thèmes';
 $string['numdays'] = '$a jours';
 $string['numhours'] = '$a heures';
+$string['numletters'] = '$a caractères';
 $string['numminutes'] = '$a minutes';
 $string['nummonths'] = '$a mois';
 $string['numseconds'] = '$a secondes';
@@ -969,6 +994,7 @@ $string['requestreason'] = 'Raison de la demande de création';
 $string['required'] = 'Nécessaire';
 $string['requireskey'] = 'Ce cours nécessite une clef d\'inscription';
 $string['requirespayment'] = 'Un paiement est requis pour accéder à ce cours';
+$string['resettodefaults'] = 'Retour aux réglages par défaut';
 $string['resortcoursesbyname'] = 'Trier les cours par nom';
 $string['resources'] = 'Ressources';
 $string['restore'] = 'Restauration';
@@ -1005,6 +1031,13 @@ $string['searchhelp'] = 'Vous pouvez introduire plusieurs termes comme critères
 $string['searchresults'] = 'Résultats de la recherche';
 $string['sec'] = 'sec';
 $string['secs'] = 'secs';
+$string['secondstotime86400']  = '1 jour';
+$string['secondstotime172800'] = '2 jours';
+$string['secondstotime259200'] = '3 jours';
+$string['secondstotime345600'] = '4 jours';
+$string['secondstotime432000'] = '5 jours';
+$string['secondstotime518400'] = '6 jours';
+$string['secondstotime604800'] = '1 semaine';
 $string['section'] = 'Section';
 $string['sections'] = 'Sections';
 $string['seealsostats'] = 'Voir aussi les statistiques';
@@ -1111,7 +1144,7 @@ $string['statsuserreads'] = 'Consultations';
 $string['statsuserwrites'] = 'Messages';
 $string['statsuseractivity'] = 'Toutes activités';
 $string['statsuserlogins'] = 'Connexions';
-$string['status'] = 'Statuts';
+$string['status'] = 'Statut';
 $string['strftimedate'] = '%%d %%B %%Y';
 $string['strftimedateshort'] = '%%d %%B';
 $string['strftimedatetime'] = '%%d %%B %%Y, %%H:%%M';
@@ -1258,6 +1291,7 @@ $string['virusfoundsubject'] = '$a : Virus détecté !';
 $string['virusfounduser'] = 'Le fichier que vous avez déposé, $a->filename, a été inspecté par un anti-virus et un virus y a été découvert ! Votre fichier n\'a donc pas été déposé.';
 $string['virusplaceholder'] = 'Un virus a été détecté dans ce fichier déposé. Il a été déplacé ou détruit, et l\'utilisateur en a été informé.';
 $string['visibletostudents'] = 'Visible pour les étudiants';
+$string['warningdeleteresource'] = 'Attention&nbsp;! $a est référencé dans une ressource. Voulez-vous mettre à jour la ressource&nbsp;?';
 $string['webpage'] = 'Page Web';
 $string['week'] = 'Semaine';
 $string['weekhide'] = 'Cacher cette semaine pour $a';
