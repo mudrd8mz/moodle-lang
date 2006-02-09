@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005041101)
+      // dialogue.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['addmynewentries'] = '新しいエントリを追加';
@@ -12,7 +12,7 @@ $string['closed'] = '閉鎖中';
 $string['confirmclosure'] = '$a とのダイアログを閉じようとしています。終了したダイアログは再開することはできません。このダイアログを閉じた場合、閲覧することは可能ですが追加することはできません。この人と計測して\"会話\"を行う場合、再度ダイアログを開始する必要があります。<br /><br />本当にこのダイアログを閉じてもよろしいですか?';
 $string['deleteafter'] = '終了したダイアログを削除する ( ○日後 )';
 $string['dialogueclosed'] = 'ダイアログが閉じられました';
-$string['dialogueintro'] = 'ダイアログ説明';
+$string['dialogueintro'] = 'ダイアログイントロダクション';
 $string['dialoguemail'] = '$a->userfrom が新しいエントリをあなたのダイアログエントリ \'$a->dialogue\' に投稿しました。
 
 追加されたダイアログを下記にてご覧になれます:
