@@ -20,6 +20,6 @@ $string['strftimerecentfull'] = '%%Y年 %%m月 %%d日(%%a) %%H:%%M';
 $string['strftimetime'] = '%%H:%%M';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
-$string['thislanguage'] = '&#26085;&#26412;&#35486;';
+$string['thislanguage'] = '日本語';
 
 ?>
