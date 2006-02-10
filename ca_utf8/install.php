@@ -1,17 +1,23 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.5.3+ (2005060230)
+      // install.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['admindirerror'] = 'El directori d\'administració especificat és incorrecte';
 $string['admindirname'] = 'Directori d\'administració';
 $string['admindirsetting'] = 'Alguns servidors web utilitzen un URL especial /admin per accedir a un tauler de control o quelcom semblant. Malauradament aquesta és també la ubicació estàndard de les pàgines d\'administració de Moodle. Podeu arreglar aquest problema canviant el nom del directori d\'administració de Moodle en la vostra instal·lació i posant el nou nom aquí. Per exemple:<br /> <br /><b>moodleadmin</b><br /> <br />
 Això modificarà els enllaços d\'administració de Moodle.';
+$string['admindirsettinghead'] = 'S\'està configurant el directori d\'administració...';
+$string['admindirsettingsub'] = 'Alguns proveïdors d\'espai web utilitzen /admin com una adreça URL especial per accedir a un tauler de control o quelcom semblant. Malauradament això interfereix amb la ubicació estàndard de les pàgines d\'administració de Moodle. Podeu solucionar aquest problema canviant el nom del directori admin en la vostra instal·lació i introduint aquí el nou nom. Per exemple: <br /> <br /><b>moodleadmin</b><br /> <br />
+Això repararà tots els enllaços d\'administració de Moodle.';
 $string['caution'] = 'Alerta';
 $string['chooselanguage'] = 'Trieu un idioma';
+$string['chooselanguagehead'] = 'Trieu un idioma';
 $string['compatibilitysettings'] = 'S\'estan comprovant els paràmetres del PHP...';
+$string['compatibilitysettingshead'] = 'S\'estan comprovant els paràmetres del PHP...';
 $string['configfilenotwritten'] = 'La seqüència d\'instal·lació no ha estat capaç de crear automàticament un fitxer config.php que contingui els paràmetres que heu triat, probablement perquè no pugui escriure al directori de Moodle. Podeu copiar a mà el codi següent en un fitxer anomenat config.php dins del directori arrel de Moodle.';
 $string['configfilewritten'] = 'S\'ha creat amb èxit el fitxer config.php';
 $string['configurationcomplete'] = 'S\'ha completat la configuració';
+$string['configurationcompletehead'] = 'S\'ha completat la configuració';
 $string['database'] = 'Base de dades';
 $string['databasecreationsettings'] = 'Ara cal configurar els paràmetres de la base de dades on s\'emmagatzemara la majoria de dades de Moodle. L\'instal·lador Moodle4Windows crearà automàticament aquesta base de dades amb els paràmetres que especifiqueu aquí.<br /><br /><br />
 <b>Tipus:</b> mysql (determinat per l\'instal·lador).<br />
@@ -20,14 +26,28 @@ $string['databasecreationsettings'] = 'Ara cal configurar els paràmetres de la 
 <b>Usuari:</b> root (determinat per l\'instal·lador).<br />
 <b>Contrasenya</b>: la vostra contrasenya per a la base de dades.<br />
 <b>Prefix de les taules:</b>: prefix opcional per als noms de les taules.';
-$string['databasesettings'] = 'Ara heu de configurar la base de dades on s\'emmagatzemaran la major part de les dades de Moodle. Aquesta base de dades s\'ha de crear abans i cal tenir un nom d\'usuari i una contrasenya amb accés a ella.<br />
+$string['databasecreationsettingshead'] = 'Ara cal configurar els paràmetres de la base de dades on s\'emmagatzemaran la majoria de dades de Moodle. L\'instal·lador crearà automàticament aquesta base de dades amb els paràmetres que especifiqueu aquí.';
+$string['databasecreationsettingssub'] = '<b>Tipus:</b> fixat a \"mysql\" per l\'instal·lador<br />
+<b>Servidor:</b> fixat a \"localhost\" per l\'instal·lador<br />
+<b>Nom:</b> nom de la base de dades, p. ex. moodle<br />
+<b>Usuari:</b> fixat a \"root\" per l\'instal·lador<br />
+<b>Contrasenya:</b> la contrasenya de l\'usuari \"root\" de la base de dades<br />
+<b>Prefix de les taules:</b> prefix opcional per utilitzar en els noms de totes les taules';
+$string['databasesettings'] = 'Ara cal configurar la base de dades on s\'emmagatzemaran la majoria de dades de Moodle. Aquesta base de dades s\'ha d\'haver crear abans i cal tenir un nom d\'usuari i una contrasenya per accedir-hi.<br />
 <br /> <br />
 <b>Tipus:</b> mysql o postgres7<br />
-<b>Ordinador:</b> p. ex. localhost o db.isp.com<br />
+<b>Servidor:</b> p. ex. localhost o db.isp.com<br />
 <b>Nom:</b> nom de la base de dades, p. ex. moodle<br />
-<b>Usuari:</b> el nom d\'usuari de la base de dades<br />
-<b>Contrasenya:</b> la contrasenya corresponent<br />
-<b>Prefix de les taules:</b> prefix opcional del nom de les taules';
+<b>Usuari:</b> nom de l\'usuari de la base de dades<br />
+<b>Contrasenya:</b> contrasenya de l\'usuari de la base de dades<br />
+<b>Prefix de les taules:</b> prefix opcional per utilitzar en els noms de totes les taules';
+$string['databasesettingshead'] = 'Ara cal configurar la base de dades on s\'emmagatzemaran la majoria de dades de Moodle. Aquesta base de dades s\'ha d\'haver crear abans i cal tenir un nom d\'usuari i una contrasenya per accedir-hi.';
+$string['databasesettingssub'] = '<b>Tipus:</b> mysql o postgres7<br />
+<b>Servidor:</b> p. ex. localhost o db.isp.com<br />
+<b>Nom:</b> nom de la base de dades, p. ex. moodle<br />
+<b>Usuari:</b> nom de l\'usuari de la base de dades<br />
+<b>Contrasenya:</b> contrasenya de l\'usuari de la base de dades<br />
+<b>Prefix de les taules:</b> prefix opcional per utilitzar en els noms de totes les taules';
 $string['dataroot'] = 'Directori de dades';
 $string['datarooterror'] = 'No s\'ha pogut trobar o crear el directori de dades que heu especificat. Corregiu el camí o creeu el directori a mà.';
 $string['dbconnectionerror'] = 'No es pot obrir la connexió amb la base de dades que heu especificat. Comproveu els paràmetres de la base de dades.';
@@ -36,19 +56,30 @@ $string['dbhost'] = 'Ordinador servidor';
 $string['dbpass'] = 'Contrasenya';
 $string['dbprefix'] = 'Prefix de taules';
 $string['dbtype'] = 'Tipus';
+$string['dbwrongencoding'] = 'La base de dades que heu seleccionat està funcionant amb una codificació ($a) no recomanada. Seria millor utilitzar una base de dades amb codificació Unicode (UTF-8). De totes maneres, podeu deixar de banda aquesta prova si seleccioneu més avall \"Omet la prova de codificació de la base de dades\", però podríeu experimentar problemes en el futur.';
 $string['directorysettings'] = '<p>Confirmeu les ubicacions d\'aquesta instal·lació de Moodle.</p>
 
 <p><b>Adreça web:</b>
-Especifiqueu l\'adreça web completa d\'accés a Moodle. Si el vostre lloc és accessible per mitjà de diversos URL, trieu el més natural per als estudiants. No inclogueu la barra final.</p>
+Especifiqueu l\'adreça web completa per a accedir a Moodle. Si el vostre lloc és accessible per mitjà de diversos URL, trieu el més natural per als estudiants. No inclogueu la barra final.</p>
 
 <p><b>Directori de Moodle:</b>
 Especifiqueu el camí complet del directori d\'aquesta instal·lació. Assegureu-vos que les majúscules/minúscules són correctes.</p>
 
 <p><b>Directori de dades:</b>
 Necessiteu un lloc on Moodle pugui desar els fitxers que es pengin. L\'usuari del servidor web (generalment \'nobody\' o \'apache\') ha de tenir permisos de lectura i d\'ESCRIPTURA en aquest directori, però no hauria de ser accessible directament per web.</p>';
+$string['directorysettingshead'] = 'Confirmeu les ubicacions d\'aquesta instal·lació de Moodle.';
+$string['directorysettingssub'] = '<b>Adreça web:</b>
+Especifiqueu l\'adreça web completa per a accedir a Moodle. Si el vostre lloc és accessible per mitjà de diversos URL, trieu el més natural per als estudiants. No inclogueu la barra final.</p>
+<br /><br />
+<b>Directori de Moodle:</b>
+Especifiqueu el camí complet del directori d\'aquesta instal·lació. Assegureu-vos que les majúscules/minúscules són correctes.</p>
+<br /><br />
+<b>Directori de dades:</b>
+Necessiteu un lloc on Moodle pugui desar els fitxers que es pengin. L\'usuari del servidor web (generalment \'nobody\' o \'apache\') ha de tenir permisos de lectura i d\'ESCRIPTURA en aquest directori, però no hauria de ser accessible directament via web.</p>';
 $string['dirroot'] = 'Directori de Moodle';
 $string['dirrooterror'] = 'El paràmetre \'Directori de Moodle\' sembla incorrecte: no s\'hi ha pogut trobat cap instal·lació de Moodle. S\'ha reiniciat el valor del paràmetre.';
 $string['download'] = 'Baixa';
+$string['environmenthead'] = 'S\'està comprovant el vostre entorn';
 $string['fail'] = 'Error';
 $string['fileuploads'] = 'Càrrega de fitxers';
 $string['fileuploadserror'] = 'Hauria d\'estar habilitada';
@@ -119,6 +150,16 @@ $string['sessionautostarterror'] = 'Hauria d\'estar desactivat';
 $string['sessionautostarthelp'] = '<p>Moodle necessita suport per a sessions i no funcionarà sense.</p>
 
 <p>Les sessions es poden habilitar en el fitxer php.ini. Comproveu el paràmetre session.auto_start.</p>';
+$string['skipdbencodingtest'] = 'Omet la prova de codificació de la base de dades';
+$string['welcomep10'] = '$a->installername ($a->installerversion)';
+$string['welcomep20'] = 'Esteu veient aquesta pàgina perquè heu instal·lat amb èxit i heu executat el paquet <strong>$a->packname $a->packversion</strong>. Felicitacions!';
+$string['welcomep30'] = 'Aquesta versió de <strong>$a->installername</strong> inclou les aplicacions necessàries per crear un entorn en el qual funcioni <strong>Moodle</strong>:';
+$string['welcomep40'] = 'El paquet inclou també <strong>Moodle $a->moodlerelease ($a->moodleversion)</strong>.';
+$string['welcomep50'] = 'L\'ús de totes les aplicacions d\'aquest paquet és governat per les seves llicències respectives. El paquet <strong>$a->installername</strong> complet és 
+<a href=\"http://www.opensource.org/docs/definition_plain.html\">codi font obert</a> i es distribueix 
+sota llicència <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a>.';
+$string['welcomep60'] = 'Les pàgines següents us guiaran per una sèrie de passos fàcils de seguir per configurar <strong>Moodle</strong> en el vostre ordinador. Podeu acceptar els paràmetres per defecte o, opcionalment, modificar-los perquè s\'ajustin a les vostres necessitats.';
+$string['welcomep70'] = 'Feu clic en el botó \"Següent\" per continuar la configuració de <strong>Moodle</strong>.';
 $string['wwwroot'] = 'Adreça web';
 $string['wwwrooterror'] = 'L\'adreça web no sembla vàlida. La instal·lació de Moodle no sembla que sigui en aquesta ubicació,';
 
