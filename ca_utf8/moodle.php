@@ -149,6 +149,7 @@ $string['blocksetup'] = 'S\'estan configurant les taules de blocs';
 $string['blocksuccess'] = 'S\'han configurat correctament les taules $a';
 $string['bycourseorder'] = 'Curs';
 $string['byname'] = '$a';
+$string['bypassed'] = 'S\'ha deixat de banda';
 $string['cachecontrols'] = 'Controls de la memòria cau';
 $string['cancel'] = 'Cancel·la';
 $string['categories'] = 'Categories de cursos';
@@ -159,6 +160,7 @@ $string['categoryduplicate'] = 'Ja existeix una categoria anomenada \'$a\'!';
 $string['changedpassword'] = 'S\'ha canviat la contrasenya';
 $string['changepassword'] = 'Canvia la contrasenya';
 $string['changessaved'] = 'S\'han desat els canvis';
+$string['check'] = 'Comprova';
 $string['checkingbackup'] = 'S\'està comprovant la còpia de seguretat';
 $string['checkingcourse'] = 'S\'està comprovant el curs';
 $string['checkingforbbexport'] = 'S\'està fent la comprovació per exportar a BlackBoard';
@@ -166,6 +168,7 @@ $string['checkinginstances'] = 'S\'estan comprovant les instàncies';
 $string['checkingsections'] = 'S\'estan comprovant les seccions';
 $string['checklanguage'] = 'Comprova l\'idioma';
 $string['childcoursenotfound'] = 'No s\'ha trobat el curs fill';
+$string['childcourses'] = 'Cursos fills';
 $string['choose'] = 'Tria';
 $string['choosecourse'] = 'Tria un curs';
 $string['chooseenrolmethod'] = 'Mètode d\'inscripció principal';
@@ -224,7 +227,7 @@ $string['coursefiles'] = 'Fitxers del curs';
 $string['courseformats'] = 'Formats de curs';
 $string['coursegrades'] = 'Qualificacions del curs';
 $string['coursehidden'] = 'Aquest curs no està disponible actualment per als estudiants';
-$string['courseimportnotaught'] = 'No sou professor/a de cap altre curs i per tant no disposeu de cursos d\'on importar.';
+$string['courseimportnotaught'] = 'No sou professor/a amb permisos d\'ecició en cap altre curs i per tant no disposeu de cursos d\'on importar.';
 $string['courseinfo'] = 'Informació del curs';
 $string['coursemessage'] = 'Missatge als usuaris del curs';
 $string['coursenotaccessible'] = 'Aquest curs no permet accés públic';
@@ -347,7 +350,7 @@ $string['edit'] = 'Edita $a';
 $string['editcoursesettings'] = 'Edita els paràmetres del curs';
 $string['editfiles'] = 'Edita fitxers';
 $string['editgroupprofile'] = 'Edita el perfil del grup';
-$string['editinga'] = 'S\'està editant $a';
+$string['editinga'] = 'Edició: $a';
 $string['editingteachershort'] = 'Editor';
 $string['editlock'] = 'Aquest valor no es pot editar!';
 $string['editmyprofile'] = 'Edita perfil';
@@ -367,6 +370,7 @@ $string['edituser'] = 'Edita els comptes d\'usuari';
 $string['email'] = 'Correu electrònic';
 $string['emailactive'] = 'Correu electrònic activat';
 $string['emailagain'] = 'Correu electrònic (una altra vegada)';
+$string['emailcharset'] = 'Joc de caràcters del correu';
 $string['emailconfirm'] = 'Confirmació del compte';
 $string['emailconfirmation'] = '$a->firstname,
 
@@ -832,6 +836,23 @@ $string['newsitem'] = 'Notícia';
 $string['newsitems'] = 'Notícies';
 $string['newsitemsnumber'] = 'Notícies per mostrar';
 $string['newuser'] = 'Nou usuari';
+$string['newusernewpasswordsubj'] = 'Nou compte d\'usuari';
+$string['newusernewpasswordtext'] = '$a->firstname,
+
+Se us ha creat un nou compte d\'usuari en $a->sitename i se us ha assignat una nova contrasenya temporal.
+
+La vostra informació d\'entrada és ara:
+usuari: $a->username
+contrasenya: $a->newpassword
+(en entrar-hi per primera vegada haureu de canviar aquesta contrasenya)
+
+Per començar a utilitzar $a->sitename, entreu en $a->link
+
+En la majoria de programes de correu aquesta adreça hauria d\'aparèixer com un enllaç blau on podeu fer clic. Si això no funciona, copieu l\'adreça i enganxeu-la en el camp d\'ubicació al capdamunt de la finestra del navegador.
+
+$a->sitename,
+
+$a->signoff';
 $string['newusers'] = 'Nous usuaris';
 $string['next'] = 'Següent';
 $string['no'] = 'No';
@@ -935,6 +956,7 @@ $string['paymentrequired'] = 'Aquest curs requereix pagament.';
 $string['paymentsorry'] = 'Gràcies per pagar. Dissortadament el pagament encara no ha estat completament processat i encara no podeu entrar al curs \"$a->fullname\". Torneu a intentar-ho d\'aquí a uns segons i si no podeu adreceu-vos al $a->teacher o a l\'administrador del lloc';
 $string['paymentthanks'] = 'Gràcies per pagar. Ja esteu inscrit al curs:<br />\"$a\"';
 $string['people'] = 'Persones';
+$string['periodending'] = 'Fi del període ($a)';
 $string['personalprofile'] = 'Perfil personal';
 $string['phone'] = 'Telèfon';
 $string['phpinfo'] = 'informació PHP';
@@ -996,6 +1018,7 @@ $string['requestreason'] = 'Raó de la sol·licitud';
 $string['required'] = 'Necessari';
 $string['requireskey'] = 'Aquest curs requereix una clau d\'inscripció';
 $string['requirespayment'] = 'Aquest curs requereix pagament';
+$string['resettodefaults'] = 'Reinicia a valors per defecte';
 $string['resortcoursesbyname'] = 'Reordena els cursos pel nom';
 $string['resources'] = 'Recursos';
 $string['restore'] = 'Restaura';
@@ -1003,6 +1026,7 @@ $string['restorecancelled'] = 'S\'ha cancel·lat la restauració';
 $string['restorecoursenow'] = 'Restaura aquest curs ara';
 $string['restorefinished'] = 'La restauració s\'ha completat amb èxit';
 $string['restoreto'] = 'Restaura en';
+$string['restrictmodules'] = 'Restringiu mòduls d\'activitat';
 $string['returningtosite'] = 'Esteu tornant a aquest lloc?';
 $string['revert'] = 'Torna';
 $string['role'] = 'Rol';
@@ -1030,6 +1054,13 @@ $string['searchcourses'] = 'Cerca cursos';
 $string['searchhelp'] = 'Podeu cercar diverses paraules de cop.<br /><br />paraula : cerca qualsevol coincidència d\'aquesta paraula al text.<br />+paraula : cerca només coincidències exactes.<br /> /-paraula : exclou els resultats que continguin aquesta paraula.';
 $string['searchresults'] = 'Resultats de la recerca';
 $string['sec'] = 'segon';
+$string['secondstotime172800'] = 'dos dies';
+$string['secondstotime259200'] = 'tres dies';
+$string['secondstotime345600'] = 'quatre dies';
+$string['secondstotime432000'] = 'cinc dies';
+$string['secondstotime518400'] = 'sis dies';
+$string['secondstotime604800'] = 'una setmana';
+$string['secondstotime86400'] = 'un dia';
 $string['secs'] = 'segons';
 $string['section'] = 'Secció';
 $string['sections'] = 'Seccions';
@@ -1099,6 +1130,10 @@ $string['state'] = 'Comarca/Província';
 $string['statistics'] = 'Estadístiques';
 $string['stats'] = 'Estadístiques';
 $string['statslogins'] = 'Entrades';
+$string['statsmodedetailed'] = 'Visió d\'usuari detallada';
+$string['statsmodegeneral'] = 'Visió general';
+$string['statsnodata'] = 'No hi ha dades disponibles per a aquesta combinació de curs i període de temps';
+$string['statsnodatauser'] = 'No hi ha dades disponibles per a aquesta combinació de curs, usuari i període de temps';
 $string['statsreport1'] = 'Entrades';
 $string['statsreport10'] = 'Activitat d\'usuari';
 $string['statsreport11'] = 'Cursos més actius';
@@ -1127,6 +1162,7 @@ $string['statsstudentwrites'] = 'Trameses de l\'estudiantat';
 $string['statsteacheractivity'] = 'Activitat del professorat';
 $string['statsteacherreads'] = 'Visualitzacions del professorat';
 $string['statsteacherwrites'] = 'Trameses del professorat';
+$string['statstimeperiod'] = 'Període - fi:';
 $string['statsuniquelogins'] = 'Entrades úniques';
 $string['statsuseractivity'] = 'Tota l\'activitat';
 $string['statsuserlogins'] = 'Entrades';
@@ -1279,6 +1315,7 @@ $string['virusfoundsubject'] = '$a: s\'ha trobat un virus';
 $string['virusfounduser'] = 'El fitxer que heu penjat, $a->filename, ha estat escanejat i sembla que conté un virus. El fitxer NO s\'ha penjat.';
 $string['virusplaceholder'] = 'S\'ha trobat un virus en aquest fitxer, el qual ha estat mogut o suprimit. S\'ha enviat una notificació a l\'usuari.';
 $string['visibletostudents'] = 'Visible per a $a';
+$string['warningdeleteresource'] = 'Avís: hi ha una referència a $a en un recurs. Voleu actualitzar aquest recurs?';
 $string['webpage'] = 'Pàgina web';
 $string['week'] = 'Setmana';
 $string['weekhide'] = 'Oculta aquesta setmana a $a';

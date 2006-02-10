@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.5.3+ (2005060230)
+      // assignment.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['allowresubmit'] = 'Permet tornar a trametre';
@@ -16,6 +16,7 @@ $string['assignmenttype'] = 'Tipus de tasca';
 $string['availabledate'] = 'Disponible des de';
 $string['comment'] = 'Comentari';
 $string['commentinline'] = 'Comentari inserit';
+$string['configitemstocount'] = 'Naturalesa dels elements que cal comptar en les trameses de les tasques en línia.';
 $string['configmaxbytes'] = 'Mida màxima per defecte de la tasca per a totes les tasques del lloc (subjecta als límits del curs i a altres paràmetres locals)';
 $string['description'] = 'Descripció';
 $string['duedate'] = 'Data de venciment';
@@ -36,6 +37,7 @@ $string['failedupdatefeedback'] = 'Ha fallat l\'actualització de la retroacció
 $string['feedback'] = 'Retroacció';
 $string['feedbackfromteacher'] = 'Retroacció del $a';
 $string['feedbackupdated'] = 'S\'ha actualitzat la retroacció en les tasques de $a persones';
+$string['guestnosubmit'] = 'Els visitants no poden trametre una tasca. Abans de trametre una tasca heu d\'entrar o us heu de registrar.';
 $string['guestnoupload'] = 'Els usuaris visitants no poden penjar fitxers.';
 $string['helpoffline'] = '<p>Útil quan la tasca es realitza fora de Moodle. Pot ser una cosa que es faci en un altra pàgina web o presencialment.</p><p>Els estudiants podran veure aquí la descripció de la tasca, però no podran penjar-hi fitxers ni res. La qualificació funciona de la manera normal i els estudiants reben l\'avís de les seves notes.</p>';
 $string['helponline'] = '<p>Aquest tipus de tasca demana als usuaris que editen un text, utilitzant les eines d\'edició normals. Els professors poden qualificar els treballs en línia i també inserir-los comentaris o fer-hi canvis.</p><p>(Si teniu experiència amb versions anteriors de Moodle, aquest tipus de tasca funciona igual que l\'antic mòdul Diari.)</p>';

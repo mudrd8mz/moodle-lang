@@ -1,10 +1,20 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.5.3+ (2005060230)
+      // error.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['adminprimarynoedit'] = 'L\'administrador primari no pot ser editat per altres usuaris';
+$string['cannotcreatetempdir'] = 'No s\'ha pogut crear el directori temporal';
+$string['cannotdownloadcomponents'] = 'No s\'han pogut baixar components';
+$string['cannotdownloadzipfile'] = 'No s\'ha pogut baixar el fitxer zip';
+$string['cannotfindcomponent'] = 'No s\'ha pogut trobar un component';
+$string['cannotsavemd5file'] = 'No s\'ha pogut desar el fitxer md5';
+$string['cannotsavezipfile'] = 'No s\'ha pogut desar el fitxer zip';
+$string['cannotunzipfile'] = 'No s\'ha pogut descomprimir el fitxer';
+$string['cmunknown'] = 'No s\'ha pogut trobar aquest mòdul del curs';
+$string['componentisuptodate'] = 'El component està al dia';
 $string['confirmsesskeybad'] = 'No s\'ha pogut confirmar la vostra clau de sessió per portar a terme aquesta acció. Aquesta característica de seguretat impedeix que s\'executin funcions importants en el vostre nom de manera accidental o fraudulenta. Si us plau confirmeu que volíeu realment executar aquesta funció.';
 $string['coursegroupunknown'] = 'No s\'ha especificat el curs corresponent al grup $a';
+$string['downloadedfilecheckfailed'] = 'Ha fallat la comprovació del fitxer baixat';
 $string['errorcleaningdirectory'] = 'S\'ha produït un error en netejar el directori \"$a\"';
 $string['errorcopyingfiles'] = 'S\'ha produït un error en copiar els fitxers';
 $string['errorcreatingdirectory'] = 'S\'ha produït un error en crear el directori \"$a\"';
@@ -14,25 +24,40 @@ $string['errorreadingfile'] = 'S\'ha produït un error en llegir el fitxer \"$a\
 $string['errorunzippingfiles'] = 'S\'ha produït un error en descomprimir els fitxers';
 $string['fieldrequired'] = '\"$a\" és un camp necessari';
 $string['filenotfound'] = 'El fitxer sol·licitat no es pot trobar';
+$string['forumblockingtoomanyposts'] = 'Heu sobrepassat el llindar de missatges definit per a aquest fòrum';
 $string['groupalready'] = 'L\'usuari ja pertany al grup $a';
 $string['groupunknown'] = 'El grup $a no està associat al curs especificat';
+$string['invalidcourse'] = 'El curs no és vàlid';
 $string['invalidfieldname'] = '\"$a\" no és un nom vàlid per a un camp';
 $string['invalidfiletype'] = '\"$a\" no és un tipus de fitxer vàlid';
+$string['invalidmd5'] = 'El md5 no és vàlid';
 $string['invalidxmlfile'] = '\"$a\" no és un fitxer XML vàlid';
 $string['missingfield'] = 'Falta el camp \"$a\"';
+$string['missingrequiredfield'] = 'Falta algun camp necessari';
+$string['modulemissingcode'] = 'El mòdul $a no inclou el codi necessari per a la realització d\'aquesta funció';
 $string['modulerequirementsnotmet'] = 'El mòdul \"$a->modulename\" ($a->moduleversion) no s\'ha pogut instal·lar. Requereix una versió més nova de Moodle (esteu utilitzant la $a->currentmoodle i necessiteu la  $a->requiremoodle).';
+$string['mustbeteacher'] = 'Cal ser professor/a per veure aquesta pàgina';
+$string['noinstances'] = 'No hi ha instància de $a en aquest curs.';
 $string['nonmeaningfulcontent'] = 'Contingut no significatiu';
 $string['notavailable'] = 'Això no està disponible actualment';
+$string['onlyadmins'] = 'Això només poden fer-ho els administradors';
 $string['onlyeditingteachers'] = 'Això només pot fer-ho el professorat que tingui permisos d\'edició';
 $string['onlyeditown'] = 'Només podeu editar la vostra pròpia informació';
 $string['processingstops'] = 'El processament acaba aquí. Els registres que resten s\'ignoraran.';
+$string['remotedownloadnotallowed'] = 'El vostre servidor no permet baixar components ((allow_url_fopen inhabilitat).<br /><br />Baixeu manualment el fitxer <a href=\"$a->url\">$a->url</a>, copieu en la ubicació \"$a->dest\" del vostre servidor i descomprimiu-lo allí.';
 $string['restricteduser'] = 'Al vostre compte \"$a\" no li és permès de fer això.';
 $string['sessionerroruser'] = 'Heu excedit el termini de la vostra sessió o s\'ha produït un error. Si us plau torneu a entrar-hi.';
 $string['sessionerroruser2'] = 'S\'ha detectat un error del servidor que afecta la vostra sessió. Heu d\'entrar de nou o reiniciar el vostre navegador.';
 $string['sessionipnomatch'] = 'Sembla que el vostre número IP ha canviat des que heu entrat. Aquesta característica de seguretat impedeix que un <i>cracker</i> suplanti la vostra identitat després que heu entrat en Moodle. Els usuaris normals no haurien de veure aquest missatge: demaneu ajuda a l\'administrador del lloc.';
+$string['statscatchupmode'] = 'S\'estan recollint les estadístiques. Fins ara s\'han processat $a->daysdone dies i estan pendents $a->dayspending. Torneu a provar-ho d\'aquí a una estona.';
 $string['unknowncourse'] = 'El curs \"$a\" és desconegut';
 $string['usernotaddederror'] = 'No s\'ha afegit l\'usuari \"$a\". Error desconegut';
 $string['usernotaddedregistered'] = 'No s\'ha afegit l\'usuari \"$a\". Ja està registrat';
 $string['usernotavailable'] = 'Els detalls d\'aquest usuari no estan disponibles per a vós.';
+$string['usernotrenamedexists'] = 'No s\'ha canviat el nom de l\'usuari. El nom nou ja és utilitzat per un altre usuari.';
+$string['usernotrenamedmissing'] = 'No s\'ha canviat el nom de l\'usuari. No s\'ha pogut trobar el nom vell.';
+$string['wrongdestpath'] = 'El camí de destinació és erroni';
+$string['wrongsourcebase'] = 'L\'adreça (URL) base de la font és errònia';
+$string['wrongzipfilename'] = 'El nom del fitxer zip és erroni';
 
 ?>
