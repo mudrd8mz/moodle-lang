@@ -1,4 +1,4 @@
-<?php // $Id$
+﻿<?php // $Id$
 
 $string['action'] = 'Action';
 $string['actions'] = 'Actions';
@@ -1009,7 +1009,7 @@ $string['role'] = 'Rôle';
 $string['rss'] = 'RSS';
 $string['rssarticles'] = 'Nombre d\'articles RSS récents';
 $string['rsserror'] = 'Erreur lors de la lecture de données RSS';
-$string['rsstype'] = 'Canal RSS de cette activité';
+$string['rsstype'] = 'Flux RSS de cette activité';
 $string['saveandnext'] = 'Enregistrer et afficher la suite';
 $string['savechanges'] = 'Enregistrer';
 $string['savepreferences'] = 'Enregistrer les préférences';

@@ -1,4 +1,4 @@
-<?php // $Id$ 
+﻿<?php // $Id$ 
 
 $string['addcomment'] = 'Ajouter un commentaire';
 $string['addentry'] = 'Ajouter un nouvel article';
@@ -48,7 +48,7 @@ $string['commentson'] = 'Commentaires activés';
 $string['commentupdated'] = 'Le commentaire a été mis à jour.';
 $string['concept'] = 'Concept';
 $string['concepts'] = 'Concepts';
-$string['configenablerssfeeds'] = 'Activation de l\'option des canaux RSS pour tous les glossaires. Il est en outre nécessaire d\'activer manuellement les canaux dans les réglages de chaque glossaire.';
+$string['configenablerssfeeds'] = 'Activation de l\'option des flux RSS pour tous les glossaires. Il est en outre nécessaire d\'activer manuellement les flux RSS dans les réglages de chaque glossaire.';
 $string['currentglossary'] = 'Glossaire actuel';
 $string['dateview'] = 'Consulter par date';
 $string['defaultapproval'] = 'Approbation par défaut';
@@ -142,13 +142,13 @@ $string['ratingsuse'] = 'Utiliser les notes';
 $string['ratingtime'] = 'Restreindre les notes aux articles entre les dates suivantes :';
 $string['rejectedentries'] = 'Articles rejetés';
 $string['rejectionrpt'] = 'Rapport de rejet';
-$string['rsssubscriberss'] = 'Affichage du canal RSS des concepts du glossaire « $a »';
+$string['rsssubscriberss'] = 'Affichage du flux RSS des concepts du glossaire «&nbsp;$a&nbsp;»';
 $string['searchindefinition'] = 'Rechercher dans les définitions aussi';
 $string['secondaryglossary'] = 'Glossaire secondaire';
 $string['sendinratings'] = 'Envoyer mes dernières évaluations';
-$string['showall'] = 'Afficher le lien « Tout »';
+$string['showall'] = 'Afficher le lien «&nbsp;Tout&nbsp;»';
 $string['showalphabet'] = 'Afficher l\'alphabet';
-$string['showspecial'] = 'Afficher le lien « Spécial »';
+$string['showspecial'] = 'Afficher le lien «&nbsp;Spécial&nbsp;»';
 $string['sortby'] = 'Trier par';
 $string['sortbycreation'] = 'Par date de création';
 $string['sortbylastupdate'] = 'Par date de mise à jour';
