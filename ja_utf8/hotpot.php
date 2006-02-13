@@ -4,9 +4,9 @@
 
 $string['abandoned'] = '放棄';
 $string['addquizchain'] = '連鎖クイズの追加';
-$string['allmycourses'] = '全てのコース';
+$string['allmycourses'] = 'すべてのコース';
 $string['alwaysopen'] = '常時利用可';
-$string['attemptsall'] = '全ての受験';
+$string['attemptsall'] = 'すべての受験';
 $string['attemptsbest'] = '最高の受験';
 $string['attemptsfirst'] = '最初の受験';
 $string['attemptslast'] = '最後の受験';
@@ -15,13 +15,13 @@ $string['checks'] = 'チェック';
 $string['clickreporting'] = 'クリックレポートを有効にする';
 $string['clues'] = 'クルー';
 $string['completed'] = '完了';
-$string['configexcelencodings'] = 'カンマで分離したエンコーディングのリストです。スプレッドシートプログラムのレポート値を特定のエンコーディングに変更するために使用します。例えば日本語では、Microsoft Excelは「SJIS」にする必要があります。';
+$string['configexcelencodings'] = 'カンマで区切ったエンコーディングのリストです。スプレッドシートプログラムのレポート値を特定のエンコーディングに変更するために使用します。例えば日本語では、Microsoft Excelは「SJIS」にする必要があります。';
 $string['configshowtimes'] = '一覧とレポートで表示されるレコードの処理に時間がかかるべきですか? これはなぜあなたのサーバの動作が遅いか調査するためだけに本当に必要な設定です。';
 $string['copiedtoclipboard'] = 'このページのコンテンツがクリップボードにコピーされました。';
 $string['copytoclipboard'] = 'クリップボードにコピーする';
 $string['correct'] = '正解';
 $string['deleteabandoned'] = '放棄を削除';
-$string['deleteabandonedcheck'] = '本当に全ての $a の放棄された受験を削除してもよろしいですか?';
+$string['deleteabandonedcheck'] = '本当にすべての $a の放棄された受験を削除してもよろしいですか?';
 $string['displaycoursenext'] = '次にコースページを表示';
 $string['displayhotpotnext'] = '次にHot Potatoesクイズを表示';
 $string['displayindexnext'] = '次にHotPotインデックスを表示';
