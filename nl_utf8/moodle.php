@@ -51,6 +51,7 @@ $string['adminhelpcourses'] = 'Definieer cursussen en cursuscategorieën en voeg
 $string['adminhelpeditorsettings'] = 'Definiëer basisinstellingen voor de HTML-editor';
 $string['adminhelpedituser'] = 'Bekijk de lijst met gebruikersaccounts en bewerk de accounts';
 $string['adminhelpenrolments'] = 'Kies interne of externe manieren om de aanmelding bij cursussen te controleren';
+$string['adminhelpenvironment'] = 'Controleer of je server voldoet aan de systeemvereisten';
 $string['adminhelpfailurelogs'] = 'Blader door de logs van mislukte aanmeldingen';
 $string['adminhelplanguage'] = 'Voor het controleren en bewerken van het huidige taalpakket';
 $string['adminhelplogs'] = 'Bekijk de statistieken van alle activiteiten op deze site';
@@ -71,6 +72,7 @@ $string['administrator'] = 'Beheerder';
 $string['administrators'] = 'Beheerders';
 $string['administratorsall'] = 'Alle beheerders';
 $string['administratorsandteachers'] = 'Beheerders en leraren';
+$string['adminprimarynoedit'] = 'Je mag het primaire beheerderswachtwoord niet wijzigen';
 $string['advanced'] = 'Geavanceerd';
 $string['advancedfilter'] = 'Geavanceerd zoeken';
 $string['advancedsettings'] = 'Geavanceerde instellingen';
@@ -147,6 +149,7 @@ $string['blocksetup'] = 'Installeren van de tabellen voor blokken';
 $string['blocksuccess'] = '$a tabellen zijn juist geïnstalleerd';
 $string['bycourseorder'] = 'In volgorde van de cursus';
 $string['byname'] = 'volgens $a';
+$string['bypassed'] = 'Omzeild';
 $string['cachecontrols'] = 'Cache controles';
 $string['cancel'] = 'Annuleer ';
 $string['categories'] = 'Cursuscategorieën';
@@ -157,6 +160,7 @@ $string['categoryduplicate'] = 'Er bestaat al een categorie met de naam \'$a\'!'
 $string['changedpassword'] = 'Het wachtwoord is veranderd';
 $string['changepassword'] = 'Verander wachtwoord  ';
 $string['changessaved'] = 'De veranderingen zijn bewaard';
+$string['check'] = 'Controleer';
 $string['checkingbackup'] = 'Backup controleren';
 $string['checkingcourse'] = 'Cursus controleren';
 $string['checkingforbbexport'] = 'Controleren voor export naar BlackBoard';
@@ -164,6 +168,7 @@ $string['checkinginstances'] = 'Instanties controleren';
 $string['checkingsections'] = 'Secties controleren';
 $string['checklanguage'] = 'Controleer taal';
 $string['childcoursenotfound'] = 'Onderliggende cursus niet gevonden!';
+$string['childcourses'] = 'Onderliggende cursussen';
 $string['choose'] = 'Kies';
 $string['choosecourse'] = 'Kies een cursus';
 $string['chooseenrolmethod'] = 'Primaire manier van aanmelden bij een cursus';
@@ -365,6 +370,7 @@ $string['edituser'] = 'Wijzig gebruikersaccounts';
 $string['email'] = 'E-mailadres';
 $string['emailactive'] = 'E-mail actief';
 $string['emailagain'] = 'E-mail (nogmaals)';
+$string['emailcharset'] = 'Tekenset voor e-mail';
 $string['emailconfirm'] = 'Bevestig je account';
 $string['emailconfirmation'] = 'Beste $a->firstname,
 
@@ -694,7 +700,7 @@ $string['logout'] = 'Log uit';
 $string['logs'] = 'Statistieken';
 $string['logtoomanycourses'] = '[<a href=\"$a->url\">meer</a>]';
 $string['logtoomanyusers'] = '[<a href=\"$a->url\">meer</a>]';
-$string['lookback'] = 'keer terug';
+$string['lookback'] = 'rapportperiode';
 $string['mailadmins'] = 'Verwittig beheerders';
 $string['mailstudents'] = 'Verwittig leerlingen';
 $string['mailteachers'] = 'Verwittig leraren';
@@ -820,6 +826,20 @@ $string['newsitem'] = 'Nieuwsitem';
 $string['newsitems'] = 'Nieuwsitems';
 $string['newsitemsnumber'] = 'Weer te geven nieuwsitems';
 $string['newuser'] = 'Nieuwe gebruiker';
+$string['newusernewpasswordsubj'] = 'Hallo $a->firstname,';
+$string['newusernewpasswordtext'] = 'Er is voor jou een nieuwe account gemaakt op \'$a->sitename\' en je hebt daarvoor een nieuw, tijdelijk wachtwoord gekregen.
+
+De informatie die je nu nodig hebt om op de site in te loggen is:
+gebruikersnaam: $a->username
+wachtwoord: $a->newpassword
+(je zult je wachtwoord moeten wijzigen wanneer je je de eerste keer aanmeldt op de site)
+
+Om \'$a->sitename\' te beginnen gebruiken, klik op $a->link
+
+In de meeste e-mailprogramma\'s zal de bovenstaande regel een blauw, onderlijnde link zijn, waarop je gewoon kunt klikken. Als dat niet werkt, knip en plak dan dit adres in de adresbalk bovenaan in je internetbrowser.
+
+Vriendelijke groeten van de \'$a->sitename\'-beheerder,
+$a->signoff';
 $string['newusers'] = 'Nieuwe gebruikers';
 $string['next'] = 'Volgende';
 $string['no'] = 'Nee';
@@ -879,6 +899,7 @@ $string['numattempts'] = '$a mislukte aanmeldingspogingen';
 $string['numberweeks'] = 'Aantal weken/onderwerpen';
 $string['numdays'] = '$a dagen';
 $string['numhours'] = '$a uren';
+$string['numletters'] = '$a letters';
 $string['numminutes'] = '$a minuten';
 $string['nummonths'] = '$a maanden';
 $string['numseconds'] = '$a seconden';
@@ -930,7 +951,7 @@ $string['policyagree'] = 'Je moet akkoord gaan met deze overeenkomst voor je ver
 $string['policyagreement'] = 'Overeenkomst voor  het gebruik van deze site';
 $string['policyagreementclick'] = 'Klik hier om de overeenkomst voor het gebruik van deze site te lezen';
 $string['popupwindow'] = 'Open het bestand in een nieuw venster';
-$string['post'] = 'Bericht';
+$string['post'] = 'Posten';
 $string['posts'] = 'Berichten';
 $string['potentialadmins'] = 'Mogelijke beheerders';
 $string['potentialcreators'] = 'Mogelijke cursus-aanmakers';
@@ -985,6 +1006,7 @@ $string['requestreason'] = 'Motivatie voor de vraag';
 $string['required'] = 'Verplicht';
 $string['requireskey'] = 'Deze cursus vereist een \'Cursussleutel\'.';
 $string['requirespayment'] = 'Voor toegang tot deze cursus is betaling vereist';
+$string['resettodefaults'] = 'Herstel standaardinstellingen';
 $string['resortcoursesbyname'] = 'Hersorteer de cursussen op naam';
 $string['resources'] = 'Bronnen';
 $string['restore'] = 'Terugzetten';
@@ -1021,6 +1043,13 @@ $string['searchcourses'] = 'Zoek cursussen';
 $string['searchhelp'] = 'Je kunt naar meer woorden tegelijkertijd zoeken.<p>woord : zoek naar elke instantie van dit woord in de tekst.<br />+word : alleen precies passende woorden worden gevonden.<br />-word : de resultaten waar dit woord in voorkomt worden niet getoond.';
 $string['searchresults'] = 'Zoekresultaten';
 $string['sec'] = 'seconde';
+$string['secondstotime172800'] = '2 dagen';
+$string['secondstotime259200'] = '3  dagen';
+$string['secondstotime345600'] = '4  dagen';
+$string['secondstotime432000'] = '5  dagen';
+$string['secondstotime518400'] = '6 dagen';
+$string['secondstotime604800'] = '1 week';
+$string['secondstotime86400'] = '1 dag';
 $string['secs'] = 'seconden';
 $string['section'] = 'Sectie  ';
 $string['sections'] = 'Secties';
@@ -1252,7 +1281,7 @@ $string['userzones'] = 'Gebruikerzones';
 $string['usethiscourse'] = 'Gebruik deze cursus';
 $string['usingexistingcourse'] = 'Gebruik bestaande cursus';
 $string['version'] = 'Versie';
-$string['view'] = 'Zien';
+$string['view'] = 'Bekijken';
 $string['views'] = 'Bekeken pagina\'s';
 $string['viewsolution'] = 'Bekijk oplossing';
 $string['virusfound'] = 'Opgelet beheerder! Clam AV vond een virus in een bestand, geüpload door $a->user voor de cursus $a->course. Hier is de boodschap van clamscan:';
@@ -1275,6 +1304,7 @@ $string['virusfoundsubject'] = '$a: Virus gevonden!';
 $string['virusfounduser'] = 'Het bestand $a->filename dat je geüpload hebt is door een virusscanner gecontroleerd en is geïnfecteerd! Je bestandsupload is mislukt.';
 $string['virusplaceholder'] = 'Dit geüploade bestand bevat een virus en is verplaatst of verwijderd. De gebruiker is verwittigd.';
 $string['visibletostudents'] = 'Zichtbaar voor $a';
+$string['warningdeleteresource'] = 'Waarschuwing: Er is naar $a verwezen vanuit een bron. Wil je de bron aanpassen?';
 $string['webpage'] = 'Website';
 $string['week'] = 'Week';
 $string['weekhide'] = 'Verberg deze week voor $a';
