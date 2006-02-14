@@ -82,6 +82,7 @@ $string['recorddeleted'] = 'レコードが削除されました。';
 $string['requireapproval'] = '承認が必要ですか?';
 $string['requiredentries'] = '必須エントリ数';
 $string['requiredentriestoview'] = '閲覧前に必要な必須エントリ数';
+$string['rsshowmany'] = '( 表示する最新のエントリ数、ゼロでRSSを無効 )';
 $string['rsstemplate'] = 'RSSテンプレート';
 $string['save'] = '保存';
 $string['savetemplate'] = 'テンプレートの保存';
