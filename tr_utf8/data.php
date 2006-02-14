@@ -81,6 +81,7 @@ $string['recorddeleted'] = 'Kayıt Silindi';
 $string['requireapproval'] = 'Onay Gerekli mi?';
 $string['requiredentries'] = 'Gerekli girdiler';
 $string['requiredentriestoview'] = 'Gözatmadan önce girdiler gerekli';
+$string['rsshowmany'] = '(gösterilecek son kayıtların sayısı, RSS iptali için 0)';
 $string['rsstemplate'] = 'RSS Şablonu';
 $string['save'] = 'Kaydet';
 $string['savetemplate'] = 'Şablonu kaydet';
