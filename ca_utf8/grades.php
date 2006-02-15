@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.5.3+ (2005060230)
+      // grades.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['addcategory'] = 'Afegeix categoria';
@@ -76,6 +76,7 @@ $string['nolettergrade'] = 'No s\'ha definit cap lletra per a';
 $string['nomode'] = 'N.D.';
 $string['nonnumericweight'] = 'S\'ha rebut un valor no-numèric per a';
 $string['nonweightedpct'] = '%% no ponderat';
+$string['notteachererror'] = 'Per a usar aquesta característica heu de ser professor o professora';
 $string['pctoftotalgrade'] = '%% de la qualificació total';
 $string['percent'] = 'Percentatge';
 $string['percentascending'] = 'Ordena per percentatge ascendent';

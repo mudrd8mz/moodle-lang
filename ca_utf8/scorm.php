@@ -79,6 +79,7 @@ $string['passed'] = 'S\'ha passat';
 $string['php5'] = 'PHP 5 (biblioteca nativa DOMXML)';
 $string['popup'] = 'Obre els objectes d\'aprenentatge en una altra finestra';
 $string['popupmenu'] = 'En un menú desplegable';
+$string['popupopen'] = 'Obre el paquet en una finestra nova';
 $string['position_error'] = 'L\'etiqueta $a->tag no pot ser filla de $a->parent';
 $string['prev'] = 'Anterior';
 $string['raw'] = 'Puntuació bruta';
