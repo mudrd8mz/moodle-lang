@@ -80,6 +80,7 @@ $string['recorddeleted'] = 'Enregistrement supprimé';
 $string['requireapproval'] = 'Nécessite une approbation&nbsp;?';
 $string['requiredentries'] = 'Enregistrements requis';
 $string['requiredentriestoview'] = 'Enregistrements requis avant consultation';
+$string['rsshowmany'] = '(nombre d\'enregistrements récents à afficher, 0 pour désactiver les RSS)';
 $string['rsstemplate'] = 'Modèle RSS';
 $string['save'] = 'Enregistrer';
 $string['savetemplate'] = 'Enregistrer modèle';
