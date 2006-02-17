@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.4.5 (2004083150)
+      // resource.php - created with Moodle 1.5.3+ (2005060230)
 
 
 $string['addresource'] = 'Добавить ресурс';
@@ -37,7 +37,7 @@ $string['htmlfragment'] = 'HTML-фрагмент';
 $string['maindirectory'] = 'Главная файловая директория';
 $string['modulename'] = 'Ресурс';
 $string['modulenameplural'] = 'Ресурсы';
-$string['neverseen'] = 'Никогда не просмотренные';
+$string['neverseen'] = 'Не смотрел(а)';
 $string['newdirectories'] = 'Показывать ссылки на  директории';
 $string['newfullscreen'] = 'Во весь экран';
 $string['newheight'] = 'Высота окна (в пикселях) по умолчанию';
@@ -75,6 +75,6 @@ $string['resourcetypehtml'] = 'Веб-страница';
 $string['resourcetypelabel'] = 'Пояснение';
 $string['resourcetypetext'] = 'Текстовая страница';
 $string['searchweb'] = 'Искать веб-страницу';
-$string['variablename'] = 'Изменяемое имя';
+$string['variablename'] = 'Имя переменной';
 
 ?>
