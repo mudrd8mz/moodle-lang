@@ -1,4 +1,4 @@
-﻿<?php // $Id$ 
+<?php // $Id$ 
 
 $string['addcomment'] = 'Ajouter un commentaire';
 $string['addentry'] = 'Ajouter un nouvel article';

@@ -1,4 +1,4 @@
-﻿<?php // $Id$
+<?php // $Id$
 
 $string['adminseesallevents'] = 'Les administrateurs voient tous les événements';
 $string['adminseesownevents'] = 'Les administrateurs sont comme tous les autres utilisateurs';

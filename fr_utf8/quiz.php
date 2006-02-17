@@ -1,4 +1,4 @@
-﻿<?php // $Id$ 
+<?php // $Id$ 
 
 $string['1day'] = '1 jour';
 $string['1hour'] = '1 heure';

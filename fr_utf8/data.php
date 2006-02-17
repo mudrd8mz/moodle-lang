@@ -1,4 +1,4 @@
-﻿<?php // $Id$
+<?php // $Id$
 
 $string['action'] = 'Action';
 $string['add'] = 'Ajouter un enregistrement'; // enregistrement ou fiche ?

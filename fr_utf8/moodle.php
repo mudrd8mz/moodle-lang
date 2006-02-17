@@ -1,4 +1,4 @@
-﻿<?php // $Id$
+<?php // $Id$
 
 $string['action'] = 'Action';
 $string['actions'] = 'Actions';
