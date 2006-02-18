@@ -2,15 +2,20 @@
       // install.php - created with Moodle 1.6 development (2005101200)
 
 
-$string['admindirerror'] = 'De adminmap die je opgeeft is niet juist';
-$string['admindirname'] = 'Adminmap';
+$string['admindirerror'] = 'De admin-map die je opgeeft is niet juist';
+$string['admindirname'] = 'Admin-map';
 $string['admindirsetting'] = 'Enkele webhosts gebruiken /admin als speciale URL  om je toegang te geven tot een controlepaneel of iets dergelijks. Jammer genoeg geeft dit conflicten met de standaardmap voor de Moodle-beheerpagina\'s. Je kunt dit toch aan het werk krijgen door de adminmap van jouw installatie te hernoemen en deze nieuwe mapnaam hier te zetten. Bijvoorbeeld <br /> <br /><b>moodleadmin</b><br /> <br />. Dit zal alle beheerlinks in Moodle aanpassen.';
+$string['admindirsettinghead'] = 'Admin-map instellen..';
+$string['admindirsettingsub'] = 'Enkele webhosts gebruiken /admin als een speciale url om een controle paneel of iets dergelijks te openen. Dat kan jammer genoeg conflict geven met de standaardlocatie van de Moodle admin pagina\'s. Je kunt dit in orde brengen door de adminmap van Moodle hier te hernoemen en die nieuwe naam hier te zetten, bijvoorbeeld <br /><br /><b>moodleadmin</b><br /><br  />Dit zal de links naar de adminmap in Moodle herstellen.';
 $string['caution'] = 'Opgelet';
 $string['chooselanguage'] = 'Kies een taal';
-$string['compatibilitysettings'] = 'Bezig je PHP-instellingen te controleren ...';
+$string['chooselanguagehead'] = 'Kies een taal';
+$string['compatibilitysettings'] = 'Bezig met je PHP-instellingen te controleren ...';
+$string['compatibilitysettingshead'] = 'Bezig met je PHP-instellingen te controleren ...';
 $string['configfilenotwritten'] = 'Het installatiescript kon het bestand config.php met jouw gekozen instellingen niet automatisch aanmaken.  Kopieer de volgende code in een bestand dat je config.php noemt en plaats dat in de rootmap van Moodle.';
 $string['configfilewritten'] = 'Het maken van config.php is gelukt';
 $string['configurationcomplete'] = 'De configuratie is volledig';
+$string['configurationcompletehead'] = 'Configuratie klaar';
 $string['database'] = 'Databank';
 $string['databasecreationsettings'] = 'Nu moet je de databank configureren waar de meeste gegevens van Moodle bewaard zullen worden. Deze databank zal automatisch gecreëerd worden door de Moodle4Windows installatietechnologie met de onderstaande instellingen.<br />
 <br /> <br />
@@ -20,12 +25,26 @@ $string['databasecreationsettings'] = 'Nu moet je de databank configureren waar 
 <b>Gebruiker:</b> vastgezet op \"root\" door de installatie.<br />
 <b>Wachtwoord:</b> jouw wachtwoord voor de databank.<br />
 <b>Tabelvoorvoegsel:</b> optionneel voorvoegsel om de naam van alle tabellen mee te beginnen.';
+$string['databasecreationsettingshead'] = 'Nu moet je de databankinstellingen configureren. In deze databank zullen de meeste gegevens van Moodle opgeslagen worden. De databank zal automatisch gemaakt worden door het installatiescript met volgende instellingen.';
+$string['databasecreationsettingssub'] = '<b>Type:</b> \"mysql\" gekozen door het installatiescript<br />
+<b>Host:</b> \"localhost\" gekozen door het installatiescript<br />
+<b>Naam:</b> database naam, bv moodle<br />
+<b>Gebruiker:</b> \"root\" gekozen door het installatiescript<br />
+<b>Wachtwoord:</b> het wachtwoord van jouw databank<br />
+<b>Tabelvoorvoegsel:</b> een voorvoegsel dat je wil gebruiken voor alle tabelnamen.';
 $string['databasesettings'] = 'Nu moet je de databank voor de gegevens van Moodle configureren. Deze databank zou je al aangemaakt moeten hebben, samen met een gebruikersnaam en wachtwoord voor toegang tot die databank.<br />
 <br /> <br />
 <b>Type:</b> mysql of postgres7<br />
 <b>Host Server:</b> bv localhost of db.isp.com<br />
 <b>Naam:</b> databanknaam, bv moodle<br />
 <b>Gebruiker: de gebruikersnaam voor je databank<br />
+<b>Wachtwoord:</b> het wachtwoord voor je databank<br />
+<b>Tabelvoorvoegsel:</b> een voorvoegsel dat je wil gebruiken voor alle tabelnamen';
+$string['databasesettingshead'] = 'Nu moet je de databank waarin Moodle geïnstalleerd zal worden, configureren. Deze databank moet al aangemaakt zijn en je hebt een gebruikersnaam en wachtwoord ervan nodig om Moodle toegang te geven.';
+$string['databasesettingssub'] = '<b>Type:</b> mysql of postgres7<br />
+<b>Host:</b> vb localhost of db.isp.com<br />
+<b>Naam:</b> database naam, vb moodle<br />
+<b>Gebruiker:</b> de gebruikersnaam voor jouw database<br />
 <b>Wachtwoord:</b> het wachtwoord voor je databank<br />
 <b>Tabelvoorvoegsel:</b> een voorvoegsel dat je wil gebruiken voor alle tabelnamen';
 $string['dataroot'] = 'Gegevens';
@@ -36,6 +55,7 @@ $string['dbhost'] = 'Hostserver';
 $string['dbpass'] = 'Wachtwoord';
 $string['dbprefix'] = 'Tabelvoorvoegsel';
 $string['dbtype'] = 'Type';
+$string['dbwrongencoding'] = 'De gekozen databank loopt niet onder Unicode (UTF8), maar onder een ongeschikte encodering ($a). Je kunt beter een Unicode (UTF8) databank gebruiken. Als je wil, kun je deze test overslaan door hieronder op \"Negeer DB-encodingtest\" te klikken, maar je zou hierdoor wel problemen kunnen krijgen.';
 $string['directorysettings'] = '<p>Bevestig de verschillende lokaties voor deze Moodle-installatie.</p>
 
 <p><b>Webadres:</b>
@@ -46,9 +66,21 @@ Geef het volledige fysieke pad van het besturingssysteem naar diezelfde lokatie.
 
 <p><b>Data-map:</b>
 Je moet een plaats voorzien waar Moodle geüploade bestanden kan plaatsen. Deze map moet leesbaar EN BESCHRIJFBAAR zijn door de webserver (meestal gebruiker \'nobody\' of \'apache\'), maar ze mag niet rechtstreeks leesbaar zijn vanaf het internet.</p>';
+$string['directorysettingshead'] = 'Bevestig de locaties voor dese Moodle-installatie';
+$string['directorysettingssub'] = '<b>Webadres:</b>
+Geef hier het volledig webadres (URL) langswaar moodle zall bekeken worden. Als je website via verschillende URL\'s toegankelijk is, kies dan diegene die je leerlingen normaal zullen gebruiken. Opgelet, geen schuine streep achteraan.
+<br />
+<br />
+<b>Moodle installatiemap:</b>
+Geef het volledige pad naar deze installatie. Zorg er voor dat je hoofdletters/kleine letters respecteert.
+<br />
+<br />
+<b>Datamap:</b>
+Je hebt een plaats nodig waar Moodle bestanden kan opslaat. Deze map moet leesbaar EN BESCHRIJFBAAR zijn door de webserver (meestal gebruikersnaam nobody, apache of www-data), maar mag niet rechtstreeks toegankelijk zijn via het web.';
 $string['dirroot'] = 'Moodle-map';
 $string['dirrooterror'] = 'De instelling voor \'Moodle-map\' was niet juist - we kunnen daar geen Moodle-installatie vinden. Onderstaande waarde is gereset.';
 $string['download'] = 'Download';
+$string['environmenthead'] = 'Omgeving controleren ...';
 $string['fail'] = 'Niet OK';
 $string['fileuploads'] = 'Bestanden uploaden';
 $string['fileuploadserror'] = 'Dit moet ingeschakeld zijn';
@@ -106,6 +138,16 @@ $string['sessionautostart'] = 'Session Auto Start';
 $string['sessionautostarterror'] = 'Dit moet uitgeschakeld zijn';
 $string['sessionautostarthelp'] = '<p>Moodle heeft session support nodig en zal zonder niet werken.</p>
 <p>Sessies kunnen ingeschakeld worden in het php.ini-bestand ... zoek naar de session.auto_start parameter.</p>';
+$string['skipdbencodingtest'] = 'Negeer DB-encodingtest';
+$string['welcomep10'] = '$a->installername ($a->installerversion)';
+$string['welcomep20'] = 'Je krijgt deze pagina te zien omdat je met succes het <strong>$a->packname $a->packversion</strong> packet op je computer gezet en gestart hebt. Proficiat! 	
+';
+$string['welcomep30'] = 'Deze uitgave van <strong>$a->installername</strong> bevat de software die nodig is om een omgeving te creëren waarin <strong>Moodle</strong> zal werken, namelijk:';
+$string['welcomep40'] = 'Dit pakket bevat ook <strong>Moodle $a->moodlerelease ($a->moodleversion)</strong>.';
+$string['welcomep50'] = 'Het gebruik van alle programma\'s in dit pakket wordt geregeld door hun respectievelijke licenties. Het complete <strong>$a->installername</strong> pakket is
+<a href=\"http://www.opensource.org/docs/definition_plain.html\">open source</a> en wordt verdeeld onder de <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> licentie.';
+$string['welcomep60'] = 'De volgende pagina\'s leiden je door een aantal makkelijk te volgen stappen om <strong>Moodle</strong> te installeren op je computer. Je kunt de standaardinstellingen overnemen of, optionneel, ze aanpassen aan je noden.';
+$string['welcomep70'] = 'Klik op de \"volgende\"-knop om verder te gaan met de installatie van <strong>Moodle</strong>';
 $string['wwwroot'] = 'Web adres';
 $string['wwwrooterror'] = 'Het webadres lijkt niet geldig te zijn - deze Moodle-installatie is blijkbaar niet op die plaats.';
 
