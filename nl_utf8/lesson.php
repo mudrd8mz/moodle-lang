@@ -156,6 +156,7 @@ $string['nextpage'] = 'Volgende pagina';
 $string['noanswer'] = 'Er is niet geantwoord';
 $string['noattemptrecordsfound'] = 'Geen pogingen gevonden: geen cijfer gegeven.';
 $string['nocommentyet'] = 'Nog geen commentaar';
+$string['nocoursemods'] = 'Geen activiteiten gevonden';
 $string['nohighscores'] = 'Geen hoogste cijfer';
 $string['nooneansweredcorrectly'] = 'Niemand heeft juist geantwoord';
 $string['nooneansweredthisquestion'] = 'Niemand heeft deze vraag beantwoord';

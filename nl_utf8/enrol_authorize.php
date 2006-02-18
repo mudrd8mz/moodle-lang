@@ -2,7 +2,15 @@
       // enrol_authorize.php - created with Moodle 1.6 development (2005101200)
 
 
+$string['adminauthorizeccapture'] = 'Bestellingsoverzicht & instellingen automatische ontvangsten';
+$string['adminauthorizeemail'] = 'Instellingen e-mail';
+$string['adminauthorizesettings'] = 'Instellingen Authorize.net';
+$string['adminauthorizewide'] = 'Instellingen voor heel de site';
+$string['adminavs'] = 'Controleer of je Adress Verification System (AVS) hebt geactiveerd in je authorize.net account. Wanneer de gebruiker het betaalformulier invult, worden hierdoor adresvelden zoals straat, staat, land en postcode gevraagd.';
+$string['admincronsetup'] = 'Het onderhoudsscript cron.php heeft al minstens 24 uur niet gelopen.<br />Om de autocapture mogelijkheid te gebruiken moet cron ingeschakeld zijn. <br /><a href=\"../doc/?frame=install.html⊂=cron\">Cron installeren</a> of schakel an_review opnieuw uit. <br />Als je autocapture uitschakeld, zullen de transacties geannuleerd worden, tenzij je ze binnen de 30 dagen bevestigd.<br />Controleer an_review en zet \'0\' in het an_capture_day veld <br /> als je betalingen manueel wil aanvaarden/niet aanvaarden binnen 30 dagen?';
+$string['adminemailexpired'] = 'Stuur een waarschuwingsmail naar de beheerders <b>$a</b> dagen geleden hoeveel het aantal van \'authorized/pending capture\' transacties er waren, voor transacties vervallen. (0=mail uitschakelen, standaardinstelling=2, maximum=5)<br />Dit is nuttig als je capturing manueel ingesteld hebt(an_review=checked, an_capture_day=0).';
 $string['adminreview'] = 'Controleer de bestelling voor het aanvaarden van de kredietkaart';
+$string['amount'] = 'Bedrag';
 $string['anlogin'] = 'Authorize.net: Login naam';
 $string['anpassword'] = 'Authorize.net: Wachtwoord (niet vereistà';
 $string['anreferer'] = 'Type hier de URL-verwijzing als je dit instelt met je authorize.net account. Dit zal een header \"Referer:URL\" in de webaanvraag zetten.';
@@ -26,6 +34,7 @@ Je kunt de optie <a href=\"$a->url\">loginhttps</a> instellen in de sectie Varia
 <br /><br />
 Door die instelling te gebruiken zal Moodle een veilige https-connectie maken voor de aanmelding- en betalingspagina\'s.';
 $string['nameoncard'] = 'Naam op de kaart';
+$string['paymentpending'] = 'Je betaling voor deze cursus wordt verwerkt met dit bestelnummer: $a->orderid.';
 $string['reviewday'] = 'Vraag het kredietkaartnummer automatisch, tenzij een leraar of beheer de bestelling herziet binnen de <b>$a</b> dagen. CRON MOET INGESCHAKELD ZIJN.<br />
 <0 dagen = schakel automatisch vragen uit = leraar of beheerder herzien de bestelling manueel. De transactie zal niet doorgaan als je automatisch kredietkaart vragen uitschakelt tenzij je ze goedkeurt binnen de 30 dagen.)';
 $string['reviewnotify'] = 'Je betaling zal bekeken worden. Verwacht binnen enkele dagen een e-mail van je leraar.';
