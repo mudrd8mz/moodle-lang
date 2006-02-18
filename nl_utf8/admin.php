@@ -123,7 +123,7 @@ $string['configwarning'] = 'Wees voorzichtig met het veranderen van deze instell
 $string['configzip'] = 'Geef de locatie van je ZIP-programma (alleen voor UNIX). Dit is nodig om ZIP-archieven op de server te maken.';
 $string['confirmation'] = 'Bevestiging';
 $string['confirminstall'] = 'Je gaat het taalpakket ($a) installeren. Verder gaan?';
-$string['cronwarning'] = 'Het onderhoudsscript <a href=\"cron.php\">cron.php</a> heeft de laatste 24 uur niet gelopen. <br />Als je dit nog niet geconfigureerd hebt, lees dan het onderdeel <a href=\"../doc/?frame=install.html⊂=cron\">Cron configureren</a> bij de installatie-instructies.';
+$string['cronwarning'] = 'Het onderhoudsscript <a href=\"cron.php\">cron.php</a> heeft de laatste 24 uur niet gelopen. <br />Als je dit nog niet geconfigureerd hebt, lees dan het onderdeel <a href=\"../doc/?frame=install.html&amp;sub=cron\">Cron configureren</a> bij de installatie-instructies.';
 $string['dbmigrate'] = 'Migratie van de Moodle databank naar UTF8';
 $string['dbmigratewarning'] = 'Zorg voor een backup van je databank voor je aan deze procedure begint. Als je niet goed weet hoe dat te doen, neem dan contact op met je systeembeheerder. Zodra je de migratie begint, wordt je Moodle-site in onderhoudsmodus gezet.';
 $string['dbmigratewarning2'] = '<b>Waarschuwing: zodadelijk ga je het databank migratieproces starten. Zorg er voor dat je een goede backup hebt van je Moodle databank.</b>';
