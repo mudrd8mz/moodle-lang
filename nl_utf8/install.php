@@ -10,12 +10,15 @@ $string['admindirsettingsub'] = 'Enkele webhosts gebruiken /admin als een specia
 $string['caution'] = 'Opgelet';
 $string['chooselanguage'] = 'Kies een taal';
 $string['chooselanguagehead'] = 'Kies een taal';
+$string['chooselanguagesub'] = 'De taalinstelling die je hier kiest is enkel voor het installatieproces. In één van de volgende schermen zul je de standaardtaal voor de site kunnen kiezen. Bebruikers kunnen als je dat wil, zelf bepalen met welke taal ze werken.';
 $string['compatibilitysettings'] = 'Bezig met je PHP-instellingen te controleren ...';
 $string['compatibilitysettingshead'] = 'Bezig met je PHP-instellingen te controleren ...';
+$string['compatibilitysettingssub'] = 'Om Moodle goed te laten werken, moet je server slagen voor al deze testen.';
 $string['configfilenotwritten'] = 'Het installatiescript kon het bestand config.php met jouw gekozen instellingen niet automatisch aanmaken.  Kopieer de volgende code in een bestand dat je config.php noemt en plaats dat in de rootmap van Moodle.';
 $string['configfilewritten'] = 'Het maken van config.php is gelukt';
 $string['configurationcomplete'] = 'De configuratie is volledig';
 $string['configurationcompletehead'] = 'Configuratie klaar';
+$string['configurationcompletesub'] = 'Moodle probeerde je configuratie te bewaren in een bestand in de root van je installatie.';
 $string['database'] = 'Databank';
 $string['databasecreationsettings'] = 'Nu moet je de databank configureren waar de meeste gegevens van Moodle bewaard zullen worden. Deze databank zal automatisch gecreëerd worden door de Moodle4Windows installatietechnologie met de onderstaande instellingen.<br />
 <br /> <br />
@@ -81,6 +84,7 @@ $string['dirroot'] = 'Moodle-map';
 $string['dirrooterror'] = 'De instelling voor \'Moodle-map\' was niet juist - we kunnen daar geen Moodle-installatie vinden. Onderstaande waarde is gereset.';
 $string['download'] = 'Download';
 $string['environmenthead'] = 'Omgeving controleren ...';
+$string['environmentsub'] = 'We controleren nu of de versies van verschillende componenten van je server voldoen aan de systeemvereisten van Moodle';
 $string['fail'] = 'Niet OK';
 $string['fileuploads'] = 'Bestanden uploaden';
 $string['fileuploadserror'] = 'Dit moet ingeschakeld zijn';
@@ -140,8 +144,7 @@ $string['sessionautostarthelp'] = '<p>Moodle heeft session support nodig en zal 
 <p>Sessies kunnen ingeschakeld worden in het php.ini-bestand ... zoek naar de session.auto_start parameter.</p>';
 $string['skipdbencodingtest'] = 'Negeer DB-encodingtest';
 $string['welcomep10'] = '$a->installername ($a->installerversion)';
-$string['welcomep20'] = 'Je krijgt deze pagina te zien omdat je met succes het <strong>$a->packname $a->packversion</strong> packet op je computer gezet en gestart hebt. Proficiat! 	
-';
+$string['welcomep20'] = 'Je krijgt deze pagina te zien omdat je met succes het <strong>$a->packname $a->packversion</strong> packet op je computer gezet en gestart hebt. Proficiat! 	';
 $string['welcomep30'] = 'Deze uitgave van <strong>$a->installername</strong> bevat de software die nodig is om een omgeving te creëren waarin <strong>Moodle</strong> zal werken, namelijk:';
 $string['welcomep40'] = 'Dit pakket bevat ook <strong>Moodle $a->moodlerelease ($a->moodleversion)</strong>.';
 $string['welcomep50'] = 'Het gebruik van alle programma\'s in dit pakket wordt geregeld door hun respectievelijke licenties. Het complete <strong>$a->installername</strong> pakket is
