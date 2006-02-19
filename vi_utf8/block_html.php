@@ -1,4 +1,4 @@
-﻿<?php // $Id$ 
+<?php // $Id$ 
 $string['html'] = 'HTML';
 $string['configtitle'] = 'Tiêu đề của khối';
 $string['configcontent'] = 'Nội dung';

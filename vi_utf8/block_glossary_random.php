@@ -1,4 +1,4 @@
-﻿<?php  // $Id$
+<?php  // $Id$
 $string['addentry'] = 'Đưa thêm trích dẫn yêu thích của bạn!';
 $string['askaddentry'] = 'Khi người dùng đưa thêm các mục mới vào bảng thuật ngữ, hiển thị liên kết với văn bản này';
 $string['askinvisible'] = 'Khi người dùng không thể chỉnh sửa hoặc xem bảng thuật ngữ, hiển thị văn bản này (không có liên kết)'; 
