@@ -81,6 +81,7 @@ $string['allactions'] = 'Toutes les actions';
 $string['allactivities'] = 'Toutes les activités';
 $string['alldays'] = 'Tous les jours';
 $string['allfieldsrequired'] = 'Tous les champs sont requis';
+$string['allfiles'] = 'Tous les fichiers';
 $string['allgroups'] = 'Tous les groupes';
 $string['alllogs'] = 'Tous les historiques';
 $string['allow'] = 'Autoriser';
@@ -615,6 +616,7 @@ $string['htmleditoravailable'] = 'L\'éditeur WYSIWYG est disponible';
 $string['htmleditordisabled'] = 'Vous avez désactivé l\'utilisation de l\'éditeur WYSIWYG dans votre profil utilisateur';
 $string['htmleditordisabledadmin'] = 'L\'administrateur a désactivé l\'utilisation de l\'éditeur WYSIWYG sur ce site';
 $string['htmleditordisabledbrowser'] = 'L\'éditeur WYSIWYG n\'est pas disponible car vous n\'utilisez pas un navigateur compatible';
+$string['htmlfilesonly'] = 'Fichiers HTML seulement';
 $string['htmlformat'] = 'Format HTML';
 $string['icqnumber'] = 'Identifiant ICQ';
 $string['idnumber'] = 'Numéro d\'identification';
@@ -1287,7 +1289,7 @@ $string['virusfoundlateradminnolog'] = 'Attention ! Un fichier de nom $a->filena
 Voici un résumé de ce qui est arrivé à ce fichier :
 
 $a->action';
-$string['virusfoundsubject'] = '$a : Virus détecté !';
+$string['virusfoundsubject'] = '$a&nbsp;: Virus détecté&nbsp;!';
 $string['virusfounduser'] = 'Le fichier que vous avez déposé, $a->filename, a été inspecté par un anti-virus et un virus y a été découvert ! Votre fichier n\'a donc pas été déposé.';
 $string['virusplaceholder'] = 'Un virus a été détecté dans ce fichier déposé. Il a été déplacé ou détruit, et l\'utilisateur en a été informé.';
 $string['visibletostudents'] = 'Visible pour les étudiants';
