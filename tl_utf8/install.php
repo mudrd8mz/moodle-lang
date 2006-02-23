@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 development (2005060201)
+      // install.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['admindirerror'] = 'Malî ang ibinigay na direktoryong pang-admin';
@@ -10,12 +10,21 @@ $string['admindirsetting'] = '    Mayroong ilang webhost na ginagamit ang /admin
     pagpapalit ng pangalan ng pang-admin na direktoryo sa iyong instalasyon, alalaong baga\'y ilagay ninyo
     ang bagong pangalan na iyon dito.  Halimbawa: <br /> <br /><b>moodleadmin</b><br /> <br />
     Maaayos nito ang mga pang-admin na link sa Moodle.';
+$string['admindirsettinghead'] = 'Itinatakda ang direktoryong pang-admin...';
+$string['admindirsettingsub'] = 'May ilang webhost na ginagamit ang /admin bilang isang espesyal na URL, halimbawa ay para makapasok sa isang kontrol panel.  Nguni\'t nakakagulo ito sa istandard na lokasyon ng mga pahinang pang-admin ng Moodle.  Malulutas ninyo ito sa pamamagitan ng pagbabago ng pangalan ng direktoryong pang-admin sa instalasyon ninyo, tapos ay isulat ang bagong pangalan dito.  Halimbawa:  <br /> <br /><b>moodleadmin</b><br /> <br />
+Maayos nito ang mga link na pang-admin sa Moodle.';
 $string['caution'] = 'Mag-ingat';
 $string['chooselanguage'] = 'Pumilì ng wika';
+$string['chooselanguagehead'] = 'Pumilì ng wika';
+$string['chooselanguagesub'] = 'Pumili po ng wika para sa pag-iinstol LAMANG.  Sa mga susunod na screen ay makakapili ka ng wika para sa site o user.';
 $string['compatibilitysettings'] = 'Sinusuri ang iyong kaayusan ng PHP...';
-$string['configfilenotwritten'] = 'Hindi awtomatikong nakalikha ang installer script ng config.php file na siyang naglalaman ng mga pinilì mong kaayusan.  Marahil ay dahil sa hindi masulatan ang direktoryo ng Moodle.  Maaari mong kopyahin ng mano-mano ang sumusunod na code sa isang file na nagngangalang config.php sa loob ng punong direktoryo ng Moodle.';
+$string['compatibilitysettingshead'] = 'Sinusuri ang iyong kaayusan ng PHP...';
+$string['compatibilitysettingssub'] = 'Kailangang pumasa ang server mo sa lahat ng pagsubok upang mapatakbo nang mahusay ang Moodle';
+$string['configfilenotwritten'] = 'Hindi awtomatikong nakalikha ang installer script ng config.php file na siyang naglalaman ng mga pinilì mong kaayusan.  Marahil ay dahil sa hindi masulatan ang direktoryo ng Moodle.  Maaari mong kopyahin nang mano-mano ang sumusunod na code sa isang file na nagngangalang config.php sa loob ng punong direktoryo ng Moodle.';
 $string['configfilewritten'] = 'matagumpay na nalikha ang config.php';
 $string['configurationcomplete'] = 'Nakumpleto na ang pagsasaayos';
+$string['configurationcompletehead'] = 'Nakumpleto na ang pagsasaayos';
+$string['configurationcompletesub'] = 'Tinangka ng Moodle na isave ang kaayusan mo sa isang file sa root ng instalasyon mo ng Moodle.';
 $string['database'] = 'Database';
 $string['databasecreationsettings'] = 'Ngayon ay kailangan mong isaayos ang kaayusan ng database kung saan iiimbakin ang karamihan sa datos ng Moodle.  Awtomatikong lilikhain ang database na ito ng pang-instol na Moodle4Windows na may mga kaayusang itinatakda sa ibaba.<br />
 <br /> <br />
@@ -25,7 +34,14 @@ $string['databasecreationsettings'] = 'Ngayon ay kailangan mong isaayos ang kaay
 <b>User:</b> ipinirmi ng pang-instol sa \"root\"<br />
 <b>Password:</b> ang password ng database mo<br />
 <b>Unlapi ng Teybol:</b> opsiyonal na unlapi na gagamitin sa lahat ng pangalan ng teybol';
-$string['databasesettings'] = '    Ngayon ay kailangan mong isaayos ang database kung saan iimbakin
+$string['databasecreationsettingshead'] = 'Ngayon ay kailangan mo namang isaayos ang mga kaayusan ng database kung saan nalalagak ang karamihan sa datos ng Moodle.  Ang database na ito ay awtomatikong lilikhain ng pang-instol, at itatakda nito ang sumusunod na kaayusan.';
+$string['databasecreationsettingssub'] = '<b>Uri:</b> ipinirmi ng pang-instol sa \"mysql\"<br />
+<b>Host:</b> ipinirmi ng pang-instol sa \"localhost\"<br />
+<b>Pangalan:</b> pangalan ng database, hal. moodle<br />
+<b>User:</b> ipinirmi ng pang-instol sa \"root\"<br />
+<b>Password:</b> ang password ng database mo<br />
+<b>Unlapi ng Teybol:</b> opsiyonal na unlapi na gagamitin sa lahat ng pangalan ng teybol';
+$string['databasesettings'] = '    Ngayon naman ay kailangan mong isaayos ang database kung saan iimbakin
     ang karamihan sa datos ng Moodle.  Dapat ay nalikha na ang database na ito
     at may username at password na upang mapasok ito.<br />
     <br /> <br />
@@ -35,14 +51,24 @@ $string['databasesettings'] = '    Ngayon ay kailangan mong isaayos ang database
        <b>User:</b> ang iyong database username<br />
        <b>Password:</b> ang iyong database password<br />
        <b>Unlapi ng mga Teybol:</b> opsiyonal na prefix na gagamitin sa lahat ng pangalan ng teybol';
+$string['databasesettingshead'] = 'Ngayon naman ay kailangan mong isaayos ang database kung saan iimbakin
+    ang karamihan sa datos ng Moodle.  Dapat ay nalikha na ang database na ito
+    at may username at password na upang mapasok ito.';
+$string['databasesettingssub'] = '<b>Uri:</b> mysql o postgres7<br />
+       <b>Host:</b> eg localhost o db.isp.com<br />
+       <b>Pangalan:</b> pangalan ng database, eg moodle<br />
+       <b>User:</b> ang iyong database username<br />
+       <b>Password:</b> ang iyong database password<br />
+       <b>Unlapi ng mga Teybol:</b> opsiyonal na prefix na gagamitin sa lahat ng pangalan ng teybol';
 $string['dataroot'] = 'Direktoryo ng Datos';
 $string['datarooterror'] = 'Hindi matagpuan o malikha ang \'Direktoryo ng Datos\' na ibinigay mo.  Alin sa dalawa, iwasto mo ang landas o lumikha ng direktoryo nang mano-mano.';
-$string['dbconnectionerror'] = 'Hindi kami makakonekta sa ibinigay mong database.  Pakitsek ang kaayusan mo ng database.';
-$string['dbcreationerror'] = 'Nagka-Error sa paglikha ng database.  Hindi malikha ang ibinigay na pangalan ng database nang may mga ibinigay na  kaayusan';
+$string['dbconnectionerror'] = 'Hindi kami makakonekta sa ibinigay mong database.  Pakitsek ang kaayusan ng iyong database.';
+$string['dbcreationerror'] = 'Nagka-error sa paglikha ng database.  Hindi malikha ang ibinigay na pangalan ng database nang may mga ibinigay na  kaayusan';
 $string['dbhost'] = 'Host Server';
 $string['dbpass'] = 'Password';
-$string['dbprefix'] = 'Prefix ng mga teybol';
+$string['dbprefix'] = 'Unlapi ng mga teybol';
 $string['dbtype'] = 'Uri';
+$string['dbwrongencoding'] = 'Ang piniling database ay gumagana alinsunod sa hindi iminumungkahing encoding ($a).  Mas makabubuti na gamitin ang isa sa mga inencode sa Unicode (UTF-8) na database.  Magkagayunman, maaari mong lagpasan ang pagsubok na ito sa pamamagitan ng pagpili sa tsek ng \"Lagpasan ang Pagsubok ng DB Encoding\" sa ibaba, pero maaari kang makaranas ng mga problema sa hinaharap.';
 $string['directorysettings'] = '<p>Pakikumpirma ang mga lokasyon ng instalasyong ito ng Moodle.</p>
 
 <p><b>Web Address:</b>
@@ -57,12 +83,33 @@ Tiyakin na ang malaki/maliit na titik ay wasto.</p>
 
 <p><b>Direktoryo ng Datos:</b>
 Kailangan mo ng pook kung saan puwedeng magsave ng inaplowd na file ang Moodle.  Ang
-direktoryong ito ay dapat nababasa AT NASUSULATAN ng web server user
-(kadalasan ay \'nobody\' o \'apache\'), pero hindi ito dapat mapapasok nang
+direktoryong ito ay dapat na nababasa AT NASUSULATAN ng web server user
+(kadalasan ay \'nobody\' o \'apache\'), pero hindi ito dapat mapasok nang
 direkta sa pamamagitan ng web.</p>';
+$string['directorysettingshead'] = 'Pakikumpirma ang mga lokasyon ng instalasyon ng Moodle na ito';
+$string['directorysettingssub'] = '<b>Web Address:</b>
+Ibigay ang buong web address kung saan papasukin ang Moodle.
+Kung ang web site mo ay mapapasok sa pamamagitan ng maraming URL piliin ang
+pinakaangkop para sa mga mag-aaral mo.  Huwag lalagyan ng 
+slash sa dulo.
+<br />
+<br />
+
+<b>Direktoryo ng Moodle:</b>
+Ibigay ang buong landas ng direktoryo sa instalasyong ito
+Tiyakin na ang malaki/maliit na titik ay wasto.
+<br />
+<br />
+<b>Direktoryo ng Datos:</b>
+Kailangan mo ng pook kung saan puwedeng magsave ng inaplowd na file ang Moodle.  Ang
+direktoryong ito ay dapat na nababasa AT NASUSULATAN ng web server user
+(kadalasan ay \'nobody\' o \'apache\'), pero hindi ito dapat mapasok nang
+direkta sa pamamagitan ng web.';
 $string['dirroot'] = 'Direktoryo ng Moodle';
 $string['dirrooterror'] = 'Mukhang mali ang kaayusan ng \'Direktoryo ng Moodle\' - wala kaming matagpuang instalasyon ng Moodle doon.  Inireset ang halaga sa ibaba.';
 $string['download'] = 'Idownload';
+$string['environmenthead'] = 'Sinusuri ang kapaligiran mo...';
+$string['environmentsub'] = 'Sinusuri namin kung ang iba\'t-ibang piyesa ng sistema mo ay umaayon sa mga kinakailangan na sistema';
 $string['fail'] = 'Bigô';
 $string['fileuploads'] = 'Mga Inaplowd na File';
 $string['fileuploadserror'] = 'Dapat ay buhay ito';
@@ -86,6 +133,18 @@ $string['gdversionhelp'] = '<p>Mukhang hindi nakainstol ang GD sa server mo.</p>
 <p>Para maidagdag ang GD sa PHP sa loob ng Unix, icompile ang PHP gamit ang  --with-gd na parameter.</p>
 
 <p>Sa loob ng Windows kadalasan ay maeedit mo ang php.ini at tanggalin ang comment sa linya na tumutukoy sa  libgd.dll.</p>';
+$string['globalsquotes'] = 'Di-ligtas na Paghandle ng mga Global';
+$string['globalsquoteserror'] = 'Ayusin ang iyong mga kaayusan ng PHP:  patayin ang register_globals at/o buhayin ang magic_quotes_gpc';
+$string['globalsquoteshelp'] = '<p>Hindi inirerekomenda ang pagsasabay ng patay na  
+ Magic Quotes GPC at buhay na Register Globals.</p>
+
+<p>Ang iminumungkahing kaayusan ay <b>magic_quotes_gpc = On</b> at <b>register_globals = Off</b> sa inyong php.ini</p>
+
+<p>Kung wala kang pahintulot na baguhin ang php.ini mo, marahil ay maaari mong ilagay ang sumusunod na linya sa file na tinatawag na 
+ .htaccess sa loob ng direktoryo mo ng Moodle:
+<blockquote>php_value magic_quotes_gpc On</blockquote>
+<blockquote>php_value register_globals Off</blockquote>
+</p>';
 $string['installation'] = 'Instalasyon';
 $string['magicquotesruntime'] = 'Magic Quotes Run Time';
 $string['magicquotesruntimeerror'] = 'Dapat ay patay ito';
@@ -140,6 +199,14 @@ $string['sessionautostarterror'] = 'Dapat ay patay ito';
 $string['sessionautostarthelp'] = '<p>Kailangan ng Moodle ng session support at hindi ito gagana kung wala ito.</p>
 
 <p>Ang session ay mabubuhay sa php.ini file ... hanapin ang session.auto_start na parameter.</p>';
+$string['skipdbencodingtest'] = 'Lagpasan ang Pagsubok sa DB Encoding';
+$string['welcomep10'] = '$a->installername ($a->installerversion)';
+$string['welcomep20'] = 'Nakikita mo ang pahinang ito dahil matagumpay mong naiinstol at napagana ang paketeng <strong>$a->packname $a->packversion</strong> sa iyong kompyuter.  Maligayang bati!';
+$string['welcomep30'] = 'Ang lathala ng <strong>$a->installername</strong> na ito ay naglalaman ng mga aplikasyon na lilikha ng kapaligiran na tatakbuhan ng  <strong>Moodle</strong>, ito ay ang mga sumusunod:';
+$string['welcomep40'] = 'Nilalaman din ng paketeng ito ang  <strong>Moodle $a->moodlerelease ($a->moodleversion)</strong>.';
+$string['welcomep50'] = 'Ang paggamit ng lahat ng aplikasyon sa paketeng ito ay alinsunod sa kani-kaniyang lisensiya.  Ang kumpletong pakete na <strong>$a->installername</strong> ay  <a href=\"http://www.opensource.org/docs/definition_plain.html\">open source</a> at ipinamamahagi alinsunod sa lisensiyang <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a>';
+$string['welcomep60'] = 'Dadalhin kayo ng mga sumusunod na pahina sa mga madaling hakbang upang maisaayos at mapatakbo ang <strong>Moodle</strong> sa kompyuter ninyo.  Kung gusto ninyo ay panatilihin ang default o kaya ay baguhin ito ayon sa inyong pangangailangan.';
+$string['welcomep70'] = 'Iklik ang \"Susunod\" na buton sa ibaba upang maituloy ang pasasaayos ng <strong>Moodle</strong>.';
 $string['wwwroot'] = 'Web address';
 $string['wwwrooterror'] = 'Mukhang hindi tanggap ang web address - mukhang wala roon ang instalasyong ito ng Moodle.';
 
