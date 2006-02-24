@@ -1,36 +1,197 @@
 <p align="center"><b>問題タイプ</b></p>
 
-<p>現在、レッスンモジュールでサポートしている問題タイプは下記の通りです:
+<p>現在、レッスンモジュールでサポートしている問題タイプは下記のとおりです:
 
 <ol>
-<li><p><b>多肢選択問題</b> これはデフォルトの問題タイプです。多肢選択問題は、学生が一連の選択肢から1つを選択するよう求められる人気の高い問題です。正解することにより、学生には更にレッスンが与えられ、間違いの場合は与えられません。間違った答えは、時々「 ディストラクタ ( 間違った選択肢 )」と呼ばれ、これらの問題のユーティリティは、しばしば問題自体や正解よりもディストラクタの質を重視します。</p>
+
+<li><p><b>多肢選択問題</b> これはデフォルトの問題タイプです。多肢選択問題は、学生が一連の選択肢から1つを選択するよう求められる人気の高い問題です。正解することにより、学生にはさらにレッスンが与えられ、間違いの場合は与えられません。間違った答えは、時々「 ディストラクタ ( 間違った選択肢 )」と呼ばれ、これらの問題のユーティリティは、しばしば問題自体や正解よりもディストラクタの質を重視します。</p>
 
 <p>それぞれの答えには、任意でレスポンスを与えることができます。レスポンスが無い場合、デフォルトのレスポンス「正しい答えです」「間違った答えです」が学生に表示されます。</p>
 
-<p>多肢選択問題では、1つ以上の正しい答えを設定することが可能です。異なる正解は学生に異なるレスポンスを与え、レッスンそれぞれ ( 前方の ) のページへジャンプしますが、評点を変えることはありません。つまり、ある答えが他の答えより、少なくとも評点の意味で更に正しいということは<b>ありません</b>。全ての答えを正解として、どの答えを選択したかによって、レッスンそれぞれ ( 前方の ) のパートへ学生を移動させることもできます。</p>
+<p>多肢選択問題では、1つ以上の正しい答えを設定することが可能です。異なる正解は学生に異なるレスポンスを与え、レッスンそれぞれ ( 前方の ) のページへジャンプしますが、評点を変えることはありません。つまり、ある答えが他の答えより、少なくとも評点の意味でさらに正しいということは<b>ありません</b>。すべての答えを正解として、どの答えを選択したかによって、レッスンそれぞれ ( 前方の ) のパートへ学生を移動させることもできます。</p>
 
-<p>多肢選択問題が変形したものに、<b>「多肢選択複数回答」</b>問題があります。これらの問題では、学生は一連の答えから正しい答えを全て選択する必要があります。問題は、学生にいくつの正解があるか伝える場合もあります。例えば「次の一覧からアメリカ合衆国の大統領を2人選択してください」は、正解数を伝えているのに対して、「次のうち誰がアメリカ合衆国の大統領ですか?」は、伝えていません。正解の実際の数は、<b>1</b>から選択数まで設定することができます。( １つの正解がある多肢選択複数回答問題は、多肢選択問題と違います。前者では学生が1つ以上の答えを選択できるのに対して、後者ではできません。 )</p>
+<p>多肢選択問題が変形したものに、<b>「多肢選択複数回答」</b>問題があります。これらの問題では、学生は一連の答えから正しい答えをすべて選択する必要があります。問題は、学生にいくつの正解があるか伝える場合もあります。例えば「次の一覧からアメリカ合衆国の大統領を2人選択してください」は、正解数を伝えているのに対して、「次のうち誰がアメリカ合衆国の大統領ですか?」は、伝えていません。正解の実際の数は、<b>1</b>から選択数まで設定することができます。( １つの正解がある多肢選択複数回答問題は、多肢選択問題と違います。前者では学生が1つ以上の答えを選択できるのに対して、後者ではできません。 )</p>
 
-<p>更に正しい答えは前方へのジャンプを、間違った答えは同じページまたは後方へのジャンプを使用してフラグされます。1つ以上の正解がある場合、ジャンプは全て同じページへ移動します。同様に1つ以上の誤答がある場合も、ジャンプは全て同じページへ移動します。もし、このように<b>動作しない</b>場合、レッスンの教師用画面に警告が表示されます。正解に対するレスポンスが必須の場合、最初の正解に与えられ、誤答に対するレスポンスが必須の場合、最初の誤答に与えられます。他の答えに対するレスポンスは無視されます ( 警告無し )。
-</p></li>
+<p>さらに正しい答えは前方へのジャンプを、間違った答えは同じページまたは後方へのジャンプを使用してフラグされます。1つ以上の正解がある場合、ジャンプはすべて同じページへ移動します。同様に1つ以上の誤答がある場合も、ジャンプはすべて同じページへ移動します。もし、このように<b>動作しない</b>場合、レッスンの教師用画面に警告が表示されます。正解に対するレスポンスが必須の場合、最初の正解に与えられ、誤答に対するレスポンスが必須の場合、最初の誤答に与えられます。他の答えに対するレスポンスは無視されます ( 警告無し )。</p></li>
 
 <li><p><b>記述問題</b> 学生は短いテキストを入力するよう促されます。このテキストでは、1つまたはそれ以上の答えがチェックされます。答えは、正しいまたは間違っている場合があります。それぞれの答えには、任意でレスポンスを設定することができます。レスポンスが無い場合、デフォルトのレスポンス「正しい答えです」または「間違った答えです」が学生に表示されます。入力されたテキストが、どの答えにも合致しない場合、問題に対する解答は間違いで、学生にはデフォルトの間違いに関するレスポンスが表示されます。</p>
 
-<p>デフォルトでは、テキストの大文字小文字の区別は行われません。大文字小文字の区別の比較を行わせるオプションがあります。</p>
+<p>記述問題には、<strong>2つの類似するシステム</strong>を使用することができます。デフォルトでは単純分析システムが使用され、オプションボックスがチェックされた場合、「正規表現」分析システムが使用されます。</p>
 
-<p>アスタリスク ( * ) 文字は、答えの「ワイルドカード」文字として使用されます。ワイルドカードは、 ( 文字無しを含む ) あらゆる数の文字を意味します。例えば、答え「Long*」は、「longer」「longest」および「loing」に合致します。もし、答えが単に「*」( 単一のアスタリスク ) の場合、この答えは全てに合致し、通常は最後の「キャッチオール」の答えに使用されます。マッチング処理は、画面に表示される答えの順番に従って動作します。マッチした場合、処理は停止し、該当する結果 ( および存在する場合はレスポンス ) が戻されます。例えば、Longest、Long* および * ( この順番で ) が答えの場合、入力値「longer」は2番目の答えと合致し、この場合3番目の答えとの合致は無視されます。</p>
+<ul>
 
-<p>アスタリスク (*) が答えに必要な場合、バックスラッシュを付けたアスタリスク ( \* ) で入力してください。</p></li>
+<li><strong>単純分析</strong>
+
+<p>この ( デフォルト ) 分析システムでは、テキストの大文字小文字の比較は無視されます。
+アスタリスク (*) は「ワイルドカード」文字として答えに使用することができます。
+これはあらゆる数の文字を意味します ( 文字が全く無い場合も含めて )。 
+例えば、答え「Long*」は、「longer」、「longest」および「long」と合致します。
+答えが「*」( 単一の* ) のみの場合、この答えはすべてに合致します。
+通常これは最後の「すべてに対応する」答えとして使用されます。
+マッチング過程は、画面に表示される答えの順番に従います。
+合致する文字が見つかった場合、処理は停止して該当する結果 ( ある場合はレスポンス ) が返されます。
+例えば答えが Longest、Long* および * の場合 ( この順番で )、「Long」は2番目の答えに合致し、この場合は3番目の答えに合致しますが、無視されます。</p>
+
+<p>答えにアスタリスク (*) が必要な場合、\* のようにバックスラッシュ「\」を付けてください。</p>
+</li>
+</ul>
+
+<ul>
+
+<li><strong>正規表現分析</strong>
+
+<p>このシステムでは、学生の答えを分析するため、更にパワフルな、しかし更に複雑なシステムを提供します。
+正規表現に関する完全なイントロダクションは、<a href="http://www.zend.com/zend/tut/tutorial-delin2.php" target="_blank">regular-expressions tutorial</a> または <a href="http://perso.wanadoo.fr/joseph.rezeau/eao/developpement/expandRegexpToString.htm#" target="_blank">rezeau.org</a>  をご覧ください。</p>
+<h3>正規表現による正解のマッチング</h3>
+
+<p>このシステムにより実現できる膨大な可能性の完全な例を提示することは不可能です。下記は、いくつかの可能な例です。</p>
+
+<p><strong>例 1</strong> あなたの問題が「What are the colors of the French flag?」と仮定しましょう。
+1フレームの答えで、「<span class="c_computeroutput">it&rsquo;s blue, white(,| and) red</span>/i」という正規表現を入力すると、
+下記の4つの学生の答えと合致します:</p>
+<ul>
+
+<li>it&rsquo;s blue, white, red</li>
+
+<li>it&rsquo;s blue, white and red</li>
+
+<li>It&rsquo;s blue, white, red</li>
+
+<li>It&rsquo;s blue, white and red </li>
+
+</ul>
+
+<p>デフォルトでは、正規表現マッチは大文字小文字を区別します。
+大文字小文字を区別しないためには、記述の右端に <strong>/i</strong> パラメータを追加してください。</p>
+
+<p><strong>例 2</strong> 問題:「What is blue, or red, or yellow?」、答え: 「(|it's )a colou?r」の場合、下記と合致します:</p>
+
+<ul>
+
+<li>a colour</li>
+
+<li> a color</li>
+
+<li>it's a colour</li>
+
+<li>it's a color</li>
+
+</ul>
+
+<p>注意- この正規表現の初めの部分 ( |it's ) は、何も合致しないか「it's  」 ( 例 スペースが続く「it's 」 ) に合致します。
+? ( クエスチョン・マーク ) は、先行する文字がゼロまたは1回使用されることを意味します。ここでは、アメリカ英語と同時にイギリス英語のスペリングで使用されています。</p>
+
+<p><strong>例 3</strong> 問題:「Name an animal whose name is made of 3 letters and the middle letter is the vowel <em>a</em>」、答え「[bcr]at」の場合、「bat、cat および rat」が合致します。</p>
+
+<h3>不足している必須単語または文字を検査する</h3>
+
+<p>Regular expressions alone cannot detect absent character strings, so you have to 
+
+          add a little code in your Answer to take care of this. Any Teacher Answer which 
+
+          begins with a double hyphen will analyse the student&rsquo;s answer to find out 
+
+          whether the following string is present or absent. If present, the analysis 
+
+          continues to the next question; if absent, the analysis stops and the relevant 
+
+          Response message is displayed.</p>
+
+<p><strong>例 4</strong></p>
+
+      <ul>
+
+        <li>Answer 2: <span class="c_computeroutput">--.*blue.*</span>/i</li>
+
+        <li>student answer: &quot;it's red and white&quot; </li>
+
+        <li>Response 2: <span class="c_computeroutput">The color of the sky is missing!</span></li>
+
+        <li>Jump 2: <span class="c_computeroutput">this page</span></li>
+
+      </ul>
+
+      <p>Here, the . (dot) stands for &ldquo;any character&rdquo; and the * (asterisk) 
+
+          means &ldquo;preceding special character repeated any number of times&rdquo;. 
+
+          The Answer2 regular expression above means: check whether the character string 
+
+          &quot;blue&quot;, preceded with anything and followed by anything is absent 
+
+          from the student's answer. Please note that the use of the asterisk is different 
+
+          in the Simple analysis system and in the Regular Expressions system.</p>
+
+<p><strong>Example 5.</strong> Question: &quot;Name an animal whose name is made of 
+
+          3 letters and the middle letter is the vowel <em>a</em>&quot;. Teacher Answer: &quot;--[b|c|r]&quot;. Response: &quot;Your answer should start with one of these letters: b, c or r&quot; </p>
+
+      <h3>Detecting unwanted (incorrect) words or character strings</h3>
+
+      <p>You may want to detect, in the student's answer, the presence of one or several 
+
+          words which should be <strong>not</strong> be there (because they are wrong) and 
+
+          to single them out with a specific response. Just start your teacher Answer by a 
+
+          double plus sign (++). </p>
+
+<p><strong>例 6</strong></p>
+
+      <ul>
+
+        <li>Answer 3: ++(yellow|black|orange|green|black|pink)/i</li>
+
+        <li>student answer: &quot;it's blue, orange and white&quot; </li>
+
+        <li>Response 3: One or more colors are wrong!</li>
+
+        <li>Jump 3: this page</li></ul>
+
+        <p>If any of these (wrong) colors is detected in the student&rsquo;s answer, 
+
+            then the negative feedback message (Response 3) will be displayed and the 
+
+            wrong strings will be colored red (or the color of the .incorrect class if 
+
+            it exists in a CSS stylesheet of your active theme).</p>
+
+<p><strong>例 7</strong>. Question: &quot;Name an animal whose name is made 
+
+          of 3 letters and the middle letter is the vowel <em>a</em>&quot;. Teacher 
+
+          Answer: &quot;++hat&quot;. Response: &quot;You might wear one made of an 
+
+          animal's skin, but a hat can't be considered as an animal.&quot;   </p>
+
+<h3>Escaping special characters </h3>
+
+      <p>If you need to use characters which are part of the regular expressions set 
+
+          of <em>special characters</em>, you need to &quot;escape&quot; them (i.e. precede 
+
+          them with a backslash). E.g. if you want to accept the answer &quot;My computer 
+
+          cost 1000$&quot;, you must write the regular expression as &quot;My computer cost 
+
+          1000\$&quot;. The special characters which must be escaped are .^$*()[]+?|</p>
+
+    </li>
+
+  </ul>
+
+</li>
 
 <li><p><b>○/×問題</b> このタイプの問題の答えには、正しいまたは間違いの2つのみ選択肢があります。学生は、どれが正しい選択肢か選択するよう求められます。このタイプの問題は、基本的に2つのみ選択肢を持った多肢選択問題です。</p></li>
 
 <li><p><b>組み合わせ問題</b> 組み合わせ問題は、非常にパワフルで柔軟な問題です。これは、他の名称または記述のリストと正しくマッチする名称または記述で構成されます。例えば、2つのリスト「日本、カナダ、イタリア」および「東京、オタワ、ローマ」で「国の首都をマッチしてください」というような問題です。1つのリストに繰り返しの項目を持つことは可能ですが、繰り返しが同一になるように注意する必要があります。例えば、リスト「Sparrow、Cow、Ant、Dog」および「Bird、Animal、Insect、Animal」 で「これらの生物のタイプを特定してください」というような問題です。</p>
 
-<p>このタイプの問題を作成する場合、最初のリストのアイテムは正解ボックスに入り、2番目のリストはレスポンスボックスに入ります。一旦作成されると、更に目的にふさわしいラベルスキームが表示されます。学生の答えがアイテムにマッチすると、最初の答えのジャンプが使用されます。間違った答えの場合、2番目の答えのページにジャンプします。問題は、カスタムレスポンスをサポート<b>しません</b>。学生には何件が正しくマッチしたか、または全てのマッチが正しいか伝えられます。</p>
+<p>このタイプの問題を作成する場合、最初のリストのアイテムは正解ボックスに入り、2番目のリストはレスポンスボックスに入ります。一旦作成されると、さらに目的にふさわしいラベルスキームが表示されます。学生の答えがアイテムにマッチすると、最初の答えのジャンプが使用されます。間違った答えの場合、2番目の答えのページにジャンプします。問題は、カスタムレスポンスをサポート<b>しません</b>。学生には何件が正しくマッチしたか、またはすべてのマッチが正しいか伝えられます。</p>
 
 <p>選択肢がランダムに表示される多肢選択問題と異なり、最初のリストアイテムはシャッフル<b>されず</b>、しかし入力した時と同じ順番で表示されます。これにより、<b>順番付けした</b>問題を作成することができます。リスト「1、2、3、4」および「Longfellow、Lawrence、Lowell、Larkin」で「次の人物を生まれた順番に並べてください。一番早く生まれた人を最初に並べてください。」という問題を考えてください。もちろん、2番目のリストは問題で使われる前にシャッフルされます。</p></li>
 
-<li><p><b>数値問題</b> このタイプの問題は、答えとして数値を求めます。シンプルなフォームでは、 1つの答えのみ入力する必要があります。例えば「2＋2の答えは?」という問題では、答え4が与えられた時に前へジャンプします。しかしながら、内部的な数値の丸めが1回の数値比較をヒットまたはミスさせることができるので、範囲を指定した方が良いでしょう。もし問題が「10÷3の答えは?」の場合、<b>最小値:最大値</b>というようにコロン(:)で分けられた<b>2つの</b>値を答えに設定する必要があります。従って、3.33:3.34が受け入れられる範囲の答えとして設定された場合、答え 3.33、3.333、3.3333... は全て正しい答えと見なされます。「間違った」答えは、3.3 ( 最小値よりも小さい ) および 3.4 ( 最大値よりも大きい ) を含みます。</p>
+<li><p><b>数値問題</b> このタイプの問題は、答えとして数値を求めます。シンプルなフォームでは、 1つの答えのみ入力する必要があります。例えば「2＋2の答えは?」という問題では、答え4が与えられた時に前へジャンプします。しかしながら、内部的な数値の丸めが1回の数値比較をヒットまたはミスさせることができるので、範囲を指定した方が良いでしょう。もし問題が「10÷3の答えは?」の場合、<b>最小値:最大値</b>というようにコロン(:)で分けられた<b>2つの</b>値を答えに設定する必要があります。従って、3.33:3.34が受け入れられる範囲の答えとして設定された場合、答え 3.33、3.333、3.3333... はすべて正しい答えと見なされます。「間違った」答えは、3.3 ( 最小値よりも小さい ) および 3.4 ( 最大値よりも大きい ) を含みます。</p>
 
 <p>1つ以上の正解が許可されている場合、答えは単一または一組の値にすることができます。答えが検査される順番は、答え1、答え2 ... となりますので、望ましいレスポンスを表示させたい場合は、配慮する必要がありますので注意してください。例えば、問題「ラーキンが生まれたのはいつですか?」は、単一の値1922を正解として、値の組1920:1929、1920代を正解より遠い答えとして持つことができます。これらの値が検査される順番は、明らかに、1922そして1920:1929です。他の答えのレスポンスが「近い、正しい10年間を指定しました。」であるのに対して、最初の答えのレスポンスは「正しくそのとおりです。」となるでしょう。</p>
 
