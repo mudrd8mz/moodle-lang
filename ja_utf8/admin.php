@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 development (2005101200)
+      // admin.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示';
@@ -120,8 +120,8 @@ $string['configthemelist'] = '空白にした場合、すべてのテーマを�
 $string['configtimezone'] = 'デフォルトタイムゾーンの設定を行うことができます。これは日付表示のためのデフォルトタイムゾーンを設定するのみで、各ユーザはプロフィールの設定により、この設定を変更することができます。ここで設定する「サーバ時間」はオペレーティングシステムに対するMoodleのデフォルト設定です。これに対してユーザプロフィールの「サーバ時間」では、ユーザが独自のデフォルトタイムゾーン設定を行います。時刻に依存するcronジョブは、このタイムゾーンを使用します。';
 $string['configunzip'] = 'unzipプログラムの場所を指定してください ( Unixのみ、任意 )。指定した場合、zipファイルを解凍に使用されます。空白にした場合、Moodleは内部ルーチンを使用します。';
 $string['configvariables'] = '詳細設定';
-$string['configwarning'] = '間違った設定はトラブルの原因になりますので、これらの設定を変更する場合は注意してください。';
-$string['configzip'] = 'zipプログラムの場所を指定してください ( Unixのみ、任意 )。これはZIP書庫をサーバ内で作成するために必要です。空白にした場合、Moodleは内部ルーチンを使用します';
+$string['configwarning'] = '設定を変更する場合は注意してください - 間違った設定はトラブルの原因になります。';
+$string['configzip'] = 'zipプログラムの場所を指定してください ( Unixのみ、任意 )。これはZIP書庫をサーバ内で作成するために必要です。空白にした場合、Moodleは内部ルーチンを使用します。';
 $string['confirmation'] = '確認';
 $string['confirminstall'] = 'あなたは言語パック ( $a ) をインストールしようとしています。本当によろしいですか?';
 $string['cronwarning'] = '<a href=\"cron.php\">cron.phpメンテナンススクリプト</a>が少なくとも24時間稼動していません。<br />cron.phpの自動化に関して<a href=\"../doc/?frame=install.html&sub=cron\">インストールドキュメント</a>をご覧ください。';
