@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.6 development (2005060201)
+      // survey.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['actual'] = 'Aktuwal';
@@ -68,7 +68,7 @@ $string['ciq4'] = 'Anong aksiyon ninuman sa mga talakayan ang sa palagay mo ay n
 $string['ciq4short'] = 'Nakalitong pangyayari';
 $string['ciq5'] = 'Anong pangyayari ang nakabigla sa iyon nang labis?';
 $string['ciq5short'] = 'Nakabigla na pangyayari';
-$string['ciqintro'] = 'Habang ginugunita mo ang mga huling nangyari sa klaseng ito, sagutan ang mga tanong tanong sa ibaba.';
+$string['ciqintro'] = 'Habang ginugunita mo ang mga huling nangyari sa klaseng ito, sagutan ang mga tanong sa ibaba.';
 $string['ciqname'] = 'Mga Mahahalagang Pangyayari';
 $string['clicktocontinue'] = 'Iklik ito para makapagpatuloy';
 $string['clicktocontinuecheck'] = 'Iklik ito upang matsek at makapagpatuloy';
@@ -153,7 +153,7 @@ $string['collesm5short'] = 'Suporta ng Kapwa';
 $string['collesm6'] = 'Interpretasyon';
 $string['collesm6short'] = 'Interpretasyon';
 $string['collesmintro'] = 'Sa online na yunit na ito...';
-$string['collespintro'] = 'Ang layunin ng sarbey na ito ay upang matulungan kaming maunawaan kung gaano katagumpay ang online na pagtuturo ng yunit na ito at kung paano nakatulong ito sa inyong pag-aaral.
+$string['collespintro'] = 'Ang layunin ng sarbey na ito ay upang matulungan kaming maunawaan kung ano ang pinahahalagahan ninyo sa isang online na pag-aaral.
 
 Bawat isa sa 24 na pangungusap sa ibaba ay may itatanong sa inyo hinggil sa inyong <b>mas-ibig</b> (ideyal) na karanasan sa yunit na ito.
 

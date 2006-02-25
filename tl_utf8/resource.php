@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 development (2005060201)
+      // resource.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['addresource'] = 'Magdagdag ng rekurso';
@@ -26,21 +26,21 @@ $string['configwindowsettings'] = 'Itinatakda nito ang default na halaga para sa
 $string['deploy'] = 'Ilatag';
 $string['directlink'] = 'Direktang link papunta sa file na ito';
 $string['directoryinfo'] = 'Lahat ng file sa piniling direktoryo ay ipapakita.';
-$string['display'] = 'Window';
+$string['display'] = 'Bintana';
 $string['editingaresource'] = 'Nageedit ng rekurso';
 $string['encryptedcode'] = 'Encrypted code';
 $string['example'] = 'Halimbawa';
 $string['exampleurl'] = 'http://www.halimbawa.com/isangdirektoryo/isangfile.html';
 $string['fetchclienterror'] = 'May natagpuang error sa web client mo habang tinatangkang kunin ang pahinang pangweb (marahil ay mali ang URL).';
 $string['fetcherror'] = 'May natagpuang error habang tinatangkang kunin ang pahinang pangweb.';
-$string['fetchservererror'] = 'May natagpuang error sa remote server habang tinatangkang kunin ang pahinang pangweb (marahil ay isang error ng program). </p>';
+$string['fetchservererror'] = 'May natagpuang error sa remote server habang tinatangkang kunin ang pahinang pangweb (marahil ay isang error ng program).';
 $string['filename'] = 'Pangalan ng file';
 $string['filtername'] = 'Awto-link ng mga Pangalan ng Rekurso';
 $string['frameifpossible'] = 'Ilagay ang rekurso sa isang frame upang mapanatiling nakikita ang nabigasyon ng site';
 $string['fulltext'] = 'Buong teksto';
 $string['htmlfragment'] = 'Piraso ng HTML';
 $string['imspackageloaded'] = 'Nailowd na ang Pakete';
-$string['localfile'] = 'Local na file';
+$string['localfile'] = 'Lokal na file';
 $string['localfilechoose'] = 'Pumilì ng isang lokal na file (CD-ROM)';
 $string['localfilehelp'] = 'Tulong sa pagpapakita ng mga lokal na file';
 $string['localfileinfo'] = '<p>Pumilì ng lokal na file sa iyong kompyuter. Hindi iaaplowd ang file sa web site, nguni\'t hahanapin ng Moodle ang parehong file sa kompyuter ng sinumang tumitingin sa rekursong ito.</p><p>Kapakipakinabang ito kapag may malalaki kang media file na nakaimbak sa isang istandard na CD-ROM na ipinamamahagi mo sa lahat ng kalahok.  Maaaring pumilì ang bawat kalahok ng kanilang lokal na landas para sa file na ganito, sa pamamagitan ng   <a href=\"$a\" target=\"_blank\">ineedit ang kanilang pagkakakilanlan ng   user</a>.</p>';
@@ -76,6 +76,7 @@ $string['parameter'] = 'Parameter';
 $string['parameters'] = 'Mga Parameter';
 $string['popupresource'] = 'Dapat lumitaw ang rekursong ito sa isang popup window.';
 $string['popupresourcelink'] = 'Kung hindi, iklik ito: $a';
+$string['redeploy'] = 'Muling Ideploy';
 $string['resourcetype'] = 'Uri ng rekurso';
 $string['resourcetype1'] = 'Sanggunian';
 $string['resourcetype2'] = 'Pahinang Pangweb';
