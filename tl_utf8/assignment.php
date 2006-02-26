@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6 development (2005060201)
+      // assignment.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['allowresubmit'] = 'Pahintulutang maípasa mulî';
@@ -18,6 +18,7 @@ $string['assignmenttype'] = 'Uri ng takdang-aralin';
 $string['availabledate'] = 'Magagamit mula ';
 $string['comment'] = 'Opinyon';
 $string['commentinline'] = 'Opinyong inline';
+$string['configitemstocount'] = 'Kalikasan ng mga aytem na bibilangin sa mga ipinasa ng mag-aaral sa mga online na takdang aralin.';
 $string['configmaxbytes'] = 'Default na maksimum na laki ng takdang-aralin para sa lahat ng takdang-aralin na nasa site (alinsunod sa limitasyon sa kurso at iba pang lokal na kaayusan)';
 $string['description'] = 'Deskripsiyon';
 $string['duedate'] = 'Huling araw ng pasahan';
@@ -38,6 +39,7 @@ $string['failedupdatefeedback'] = 'Nabigong baguhin ang puna sa ipinasa ni user 
 $string['feedback'] = 'Puna';
 $string['feedbackfromteacher'] = 'Puna mula sa $a';
 $string['feedbackupdated'] = 'Nabago na ang puna sa mga ipinasa ng $a tao';
+$string['guestnosubmit'] = 'Paumanhin, nguni\'t ang mga bisita ay hindi pinapahintulutang magpasa ng takdang-aralin.  Kailangan mo munang maglog-in/rehistro bago mo maipasa ang sagot mo.';
 $string['guestnoupload'] = 'Paumanhin nguni\'t hindi pinapahintulutang mag-aplowd ang bisita.';
 $string['helpoffline'] = '<p>Kapakipakinabang ito kapag ang takdang-aralin ay ginagawa sa labas ng Moodle.  Maaari itong isang bagay sa iba pang lugar sa web o harapan.</p><p>Maaaring makakita ng deskripsyon ng takdang-aralin ang mga mag-aaral, nguni hindi puwedeng mag-aplowd ng file o anupaman.  Gumagana ng normal ang pagmamarka, at tatanggap ng patalastas hinggil sa marka nila ang mga mag-aaral</p>';
 $string['helponline'] = '<p>Ang uri ng takdang-aralin na ito ay humihiling sa mga user na mag-edit ng teksto, gamit ang mga normal na editing tool.  Maaari itong markahan ng mga guro nang online, at puwede ring magdagdag ng inline na puna o pagbabago.</p><p>(Kung pamilyar ka sa mga lumang bersiyon ng Moodle, pareho ang silbi ng uri ng Takdang-aralin na ito sa lumang diyornal na modyul.)</p>';
@@ -53,7 +55,9 @@ $string['noattempts'] = 'Wala pang kumukuha ng takdang-aralin na ito';
 $string['notgradedyet'] = 'Hindi pa namamarkahan';
 $string['notsubmittedyet'] = 'Hindi pa naipapasa';
 $string['overwritewarning'] = 'Babala: kung mag-aaplowd kang mulî, MAPAPALITAN nito ang kasalukuyan mong ipinasa';
+$string['pagesize'] = 'Mga ipinapakitang ipinasa sa bawat pahina';
 $string['preventlate'] = 'Pigilan ang pagpapasa nang hulí';
+$string['quickgrade'] = 'Pahintulutan ang mabilisang pagmamarka';
 $string['saveallfeedback'] = 'Isave ang lahat ng aking puna';
 $string['submission'] = 'Ipinasa';
 $string['submissionfeedback'] = 'Puna sa ipinasa';

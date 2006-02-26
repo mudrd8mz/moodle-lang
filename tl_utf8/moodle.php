@@ -556,7 +556,7 @@ $string['gd2'] = 'nakainstol ang GD 2.x';
 $string['gdneed'] = 'Kailangang nakainstol ang GD para makita ang grap na ito';
 $string['gdnot'] = 'hindi nakainstol ang GD';
 $string['go'] = 'Takbo';
-$string['gpl'] = 'Copyright (C) 1999-2005 Martin Dougiamas  (http://moodle.com)
+$string['gpl'] = 'Copyright (C) 1999-2006 Martin Dougiamas  (http://moodle.com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
