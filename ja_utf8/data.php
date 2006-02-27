@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 development (2005101200)
+      // data.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['action'] = '操作';
@@ -15,7 +15,7 @@ $string['availablefromdate'] = '利用開始日時';
 $string['availabletags'] = '利用可能なタグ';
 $string['availabletodate'] = '利用終了日時';
 $string['browse'] = '表示';
-$string['byname'] = '$a 順';
+$string['bynameondate'] = '$a->date - $a->name の投稿';
 $string['cancel'] = 'キャンセル';
 $string['checkbox'] = 'チェックボックス';
 $string['comments'] = 'コメントを許可しますか?';
