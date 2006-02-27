@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 development (2005101200)
+      // install.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['admindirerror'] = 'El directori d\'administració especificat és incorrecte';
@@ -12,12 +12,15 @@ Això repararà tots els enllaços d\'administració de Moodle.';
 $string['caution'] = 'Alerta';
 $string['chooselanguage'] = 'Trieu un idioma';
 $string['chooselanguagehead'] = 'Trieu un idioma';
+$string['chooselanguagesub'] = 'Trieu un idioma NOMÉS per a la instal·lació. En una pantalla posterior podreu triar idiomes per al lloc i per als usuaris.';
 $string['compatibilitysettings'] = 'S\'estan comprovant els paràmetres del PHP...';
 $string['compatibilitysettingshead'] = 'S\'estan comprovant els paràmetres del PHP...';
+$string['compatibilitysettingssub'] = 'El vostre servidor hauria de passar totes aquestes proves per tal que Moodle funcioni correctament.';
 $string['configfilenotwritten'] = 'La seqüència d\'instal·lació no ha estat capaç de crear automàticament un fitxer config.php que contingui els paràmetres que heu triat, probablement perquè no pugui escriure al directori de Moodle. Podeu copiar a mà el codi següent en un fitxer anomenat config.php dins del directori arrel de Moodle.';
 $string['configfilewritten'] = 'S\'ha creat amb èxit el fitxer config.php';
 $string['configurationcomplete'] = 'S\'ha completat la configuració';
 $string['configurationcompletehead'] = 'S\'ha completat la configuració';
+$string['configurationcompletesub'] = 'Moodle ha intentat desar la configuració en un fitxer en l\'arrel de la vostra instal·lació de Moodle.';
 $string['database'] = 'Base de dades';
 $string['databasecreationsettings'] = 'Ara cal configurar els paràmetres de la base de dades on s\'emmagatzemara la majoria de dades de Moodle. L\'instal·lador Moodle4Windows crearà automàticament aquesta base de dades amb els paràmetres que especifiqueu aquí.<br /><br /><br />
 <b>Tipus:</b> mysql (determinat per l\'instal·lador).<br />
@@ -80,6 +83,7 @@ $string['dirroot'] = 'Directori de Moodle';
 $string['dirrooterror'] = 'El paràmetre \'Directori de Moodle\' sembla incorrecte: no s\'hi ha pogut trobat cap instal·lació de Moodle. S\'ha reiniciat el valor del paràmetre.';
 $string['download'] = 'Baixa';
 $string['environmenthead'] = 'S\'està comprovant el vostre entorn';
+$string['environmentsub'] = 'S\'està comprovant si els diferents components del vostre sistema satisfan els requeriments';
 $string['fail'] = 'Error';
 $string['fileuploads'] = 'Càrrega de fitxers';
 $string['fileuploadserror'] = 'Hauria d\'estar habilitada';
