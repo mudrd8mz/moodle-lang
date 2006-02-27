@@ -7,6 +7,6 @@ $string['deleteall'] = 'Cancella tutto';
 $string['modulename'] = 'Quiz Hot Potatoes';
 $string['modulenameplural'] = 'Quis Hot Potatoes';
 $string['really'] = 'Vuoi cancellare tutti i risultati per questo quiz?';
-$string['strattemptlabel'] = 'Tentativi: Punteggio, Data Ora (Durata), [PenalitÃ ]';
+$string['strattemptlabel'] = 'Tentativi: Punteggio, Data Ora (Durata), [Penalit&agrave; ]';
 
 ?>

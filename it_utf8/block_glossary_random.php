@@ -1,6 +1,6 @@
 <?PHP // $Id$ 
       // block_glossary_random.php - created with Moodle 1.5 ALPHA (2005043000)
-      // traduzione a cura di Luca Arese - Universit√† di Torino
+      // traduzione a cura di Luca Arese - Universit&agrave;† di Torino
 
 $string['addentry'] = 'Aggiungete le vostre citazioni preferite!';
 $string['askaddentry'] = 'Quando gli utenti possono aggiungere voci al glossario, mostra un collegamento con il seguente testo';
@@ -20,8 +20,8 @@ $string['select_glossary'] = 'Preleva la voce dal suo glossario';
 $string['showconcept'] = 'Mostra concept (intestazione) per ciascuna voce';
 $string['title'] = 'Titolo';
 $string['type'] = 'Metodo di scelta di una nuova voce';
-$string['typehelp'] = '<b>Ultima voce modificata</b> mostrer√† sempre l\'ultima voce modificata, mentre <b>voce casuale</b> ne sceglier√† ogni volta una diversa a caso. L\'opzione <b>Prossima voce</b> proporr√† le voci in un ciclo, una dopo l\'altra. Questa ultima opzione √® particolarmente utile quando viene scelto anche un numero di giorni, poich√® vi consente di fare una<i>Citazione della settimana</i> o un <i>Consiglio quotidiano</i> visibile da tutti.';
-$string['viewglossary'] = 'Pi√π citazioni...';
-$string['whichfooter'] = 'Potete mostrare i collegamenti alle azioni di glossario collegate a questo blocco. Il blocco mostrer√† solo i collegamenti ad azioni attivate per quel glossario.';
+$string['typehelp'] = '<b>Ultima voce modificata</b> mostrer&agrave;† sempre l\'ultima voce modificata, mentre <b>voce casuale</b> ne sceglier&agrave;† ogni volta una diversa a caso. L\'opzione <b>Prossima voce</b> proporr&agrave;† le voci in un ciclo, una dopo l\'altra. Questa ultima opzione &egrave; particolarmente utile quando viene scelto anche un numero di giorni, poich&egrave; vi consente di fare una<i>Citazione della settimana</i> o un <i>Consiglio quotidiano</i> visibile da tutti.';
+$string['viewglossary'] = 'Pi&ugrave; citazioni...';
+$string['whichfooter'] = 'Potete mostrare i collegamenti alle azioni di glossario collegate a questo blocco. Il blocco mostrer&agrave;† solo i collegamenti ad azioni attivate per quel glossario.';
 
 ?>

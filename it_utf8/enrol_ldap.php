@@ -2,15 +2,15 @@
       // enrol_ldap.php - created with Moodle 1.6 development (2005060201)
 
 
-$string['description'] = '<p>Si può usare un server LDAP per controllare le vostre registrazioni. Viene presupposto che l\'albero LDAP contenga gruppi che corrispondano ai corsi, e che ognuno di questi gruppi/corsi avrà la sua istanza di appartenenza per corrispondere agli studenti.</p>
+$string['description'] = '<p>Si pu&ograve; usare un server LDAP per controllare le vostre registrazioni. Viene presupposto che l\'albero LDAP contenga gruppi che corrispondano ai corsi, e che ognuno di questi gruppi/corsi avr&agrave;� la sua istanza di appartenenza per corrispondere agli studenti.</p>
 <p>Viene presupposto che i corsi siano definiti come gruppi in LDAP, con ogni gruppo che possiede campi di appartenenza multipli(<em>membro</em> o <em>Uid membro</em>) che contiene una identificazione unica dell\'utente.</p>
 <p>Per utilizzare la registrazione LDAP, i vostri utenti<strong>devono</strong> 
 avere un campo idnumber valido. I gruppi LDAP devono avere questo idnumber nei campi membro per utenti che si iscrivono a quel corso.</p>
-<p>Questo metodo funzionerà bene se state comunque utilizzando l\'autenticazione LDAP.</p/>
+<p>Questo metodo funzioner&agrave;� bene se state comunque utilizzando l\'autenticazione LDAP.</p/>
 <p>Le iscrizioni  verranno agiornate quando l\'utente effettua il login. Potete comunque lanciare uno script per tenere le iscrizioni in sincrono. Cercate in 
 <em>enrol/ldap/enrol_ldap_sync.php</em>.</p>
 
-<p>Questo plugin può anche venire settato in modo che crei automaticamente nuovi corsi quando appaiono nuovi gruppi in LDAP.</p>';
+<p>Questo plugin pu&ograve; anche venire settato in modo che crei automaticamente nuovi corsi quando appaiono nuovi gruppi in LDAP.</p>';
 $string['enrol_ldap_autocreate'] = 'I corsi possono essere creati automaticamente se ci sono iscrizioni in un corso che non esistono ancora in Moodle.';
 $string['enrol_ldap_autocreation_settings'] = 'Impostazioni creazione automatica corsi';
 $string['enrol_ldap_bind_dn'] = 'Se desiderate utilizzare bind-user per la ricerca di utenti, specificatelo qui. Qualcosa come \'cn=ldapuser,ou=public,o=org\'';

@@ -5,10 +5,10 @@
 $string['addresource'] = 'Aggiungi risorsa';
 $string['chooseafile'] = 'Scegli o aggiorna un file';
 $string['chooseparameter'] = 'Scegli parametro';
-$string['configallowlocalfiles'] = 'Quando si crea una risorsa di tipo \"file\", questa impostazione consente di collegare file presenti sul lettore CD o sul disco fisso del computer dell\'utente. Può essere utile nelle classi dove gli studenti possono accedere ad un disco di rete condiviso oppure per accedere a file contenuti in un CD-ROM. L\'impiego di questa caratteristica potrebbe richiedere la modifica di impostazioni di sicurezza del browser.';
-$string['configdefaulturl'] = 'Questo valore è utilizzato come preimpostazione degli URL quando si crea una nuova risorsa con URL';
+$string['configallowlocalfiles'] = 'Quando si crea una risorsa di tipo \"file\", questa impostazione consente di collegare file presenti sul lettore CD o sul disco fisso del computer dell\'utente. Pu&ograve; essere utile nelle classi dove gli studenti possono accedere ad un disco di rete condiviso oppure per accedere a file contenuti in un CD-ROM. L\'impiego di questa caratteristica potrebbe richiedere la modifica di impostazioni di sicurezza del browser.';
+$string['configdefaulturl'] = 'Questo valore &egrave; utilizzato come preimpostazione degli URL quando si crea una nuova risorsa con URL';
 $string['configfilterexternalpages'] = 'Abilitando questa impostazione tutte le risorse esterne (pagine web, file HTML inviati) saranno elaborate dai filtri attivati per il sito (come i collegamenti automatici del glossario, per esempio). Attivare questa opzione potrebbe rallentare il caricamento delle pagine del tuo corso in modo significativo - usalo con attenzione e solo se ti serve veramente.';
-$string['configframesize'] = 'Quando una pagina web  o un file é visualizzato in un frame, questa é la dimensione (in pixel) del frame superiore (che contiene la navigazione).';
+$string['configframesize'] = 'Quando una pagina web  o un file &egrave; visualizzato in un frame, questa &egrave; la dimensione (in pixel) del frame superiore (che contiene la navigazione).';
 $string['configparametersettings'] = 'Questo stabilisce il valore standard per le impostazioni dei parametri nel modulo quando aggiungi una nuova risorsa. Dopo la prima volta, diventa una preferenza legata all\'utente.';
 $string['configpopup'] = 'Impostare automaticamente la visualizzazione della risorsa (se possibile) in una nuova finestra?';
 $string['configpopupdirectories'] = 'Le finestre di popup possono mostrare la directory dei collegamenti?';
@@ -20,8 +20,8 @@ $string['configpopupscrollbars'] = 'Le finestre popup possono avere la barra di 
 $string['configpopupstatus'] = 'Le finestre popup possono mostrare la barra di stato?';
 $string['configpopuptoolbar'] = 'Le finestre popup possono mostrare la barra strumenti?';
 $string['configpopupwidth'] = 'Larghezza standard per le nuove finestre di popup';
-$string['configsecretphrase'] = 'Questa frase segreta viene utilizzata per generare il codice criptato che viene spedito ad alcune risorse com parametro. Il codice criptato è generato da un valore md5 dell\'indirizzo IP dell\'utente corrente concatenato con la frase segreta. Es: code  = md5(IP.secretphrase). Questo permette al destinatario della risorsa di verificare la connessione per una maggiore sicurezza.';
-$string['configwebsearch'] = 'Quando aggiungi un URL come una Pagina web o un Collegamento web, questo collegamento è offerto come un sito per aiutare gli utenti a cercare l\'URL che vogliono';
+$string['configsecretphrase'] = 'Questa frase segreta viene utilizzata per generare il codice criptato che viene spedito ad alcune risorse com parametro. Il codice criptato &egrave; generato da un valore md5 dell\'indirizzo IP dell\'utente corrente concatenato con la frase segreta. Es: code  = md5(IP.secretphrase). Questo permette al destinatario della risorsa di verificare la connessione per una maggiore sicurezza.';
+$string['configwebsearch'] = 'Quando aggiungi un URL come una Pagina web o un Collegamento web, questo collegamento &egrave; offerto come un sito per aiutare gli utenti a cercare l\'URL che vogliono';
 $string['configwindowsettings'] = 'Questo imposta il valore standard per le impostazioni della finestra nel modulo quando aggiungi una nuova risorsa. Dopo la prima volta, diventa una preferenza legata all\'utente.';
 $string['deploy'] = 'Pubblicare';
 $string['directlink'] = 'Collegamento diretto a questo file';
@@ -43,8 +43,8 @@ $string['imspackageloaded'] = 'Pacchetto caricato.';
 $string['localfile'] = 'File locale';
 $string['localfilechoose'] = 'Scegliere un file locale (CD-ROM)';
 $string['localfilehelp'] = 'Aiuto per la visualizzazione di file locali';
-$string['localfileinfo'] = '<p>Scegli un file che risiede nel tuo computer. Il file non sarà caricato sul server: Moodle lo cercherà lo stesso file nel computer di coloro che visualizzeranno questa risorsa.</p><p>Questo è particolarmente utile quando si utilizzano media ingombranti memorizzati su CD-ROM distribuiti a tutti i partecipanti. Ogni partecipante potrà scegliere il proprio percorso per accedere questi file <a href=\"$a\" target=\"_blank\">modificando il profilo utente</a>.</p>';
-$string['localfilepath'] = 'Per impostare il tuo percorso locale per questa risorsa, scegli un file qualsiasi dal disco del tuo computer (in genere il CD-ROM) dove si trova il file utilzzato dalla risorsa. Il file non sarà caricato nel server, solo le informazioni relative alla posizione nel tuo computer verrà memorizzata per essere usata per tutte le risorse che fanno uso di file locali.';
+$string['localfileinfo'] = '<p>Scegli un file che risiede nel tuo computer. Il file non sar&agrave;� caricato sul server: Moodle lo cercher&agrave;� lo stesso file nel computer di coloro che visualizzeranno questa risorsa.</p><p>Questo &egrave; particolarmente utile quando si utilizzano media ingombranti memorizzati su CD-ROM distribuiti a tutti i partecipanti. Ogni partecipante potr&agrave;� scegliere il proprio percorso per accedere questi file <a href=\"$a\" target=\"_blank\">modificando il profilo utente</a>.</p>';
+$string['localfilepath'] = 'Per impostare il tuo percorso locale per questa risorsa, scegli un file qualsiasi dal disco del tuo computer (in genere il CD-ROM) dove si trova il file utilzzato dalla risorsa. Il file non sar&agrave;� caricato nel server, solo le informazioni relative alla posizione nel tuo computer verr&agrave;� memorizzata per essere usata per tutte le risorse che fanno uso di file locali.';
 $string['localfileselect'] = 'Scegliere il percorso del file.';
 $string['maindirectory'] = 'Cartella principale';
 $string['modulename'] = 'Risorsa';
@@ -63,16 +63,16 @@ $string['newtoolbar'] = 'Mostra pulsanti';
 $string['newwidth'] = 'Larghezza standard della finestra (in pixel)';
 $string['newwindow'] = 'Nuova finestra';
 $string['newwindowopen'] = 'Visualizza questa risorsa in una nuova finestra';
-$string['notallowedlocalfileaccess'] = 'L\'accesso ai file locali è attualmente disabilitato, pertanto questa risorsa non risulta disponibile.';
+$string['notallowedlocalfileaccess'] = 'L\'accesso ai file locali &egrave; attualmente disabilitato, pertanto questa risorsa non risulta disponibile.';
 $string['note'] = 'Nota';
 $string['notefile'] = 'Per trasferire altri file nell\'archivio del
 
 corso (come quelli che compaiono in questa lista) usa il <a href=\"$a\" >File Manager</a>.';
-$string['notypechosen'] = 'È necessario che tu scelga un tipo. Usa il
+$string['notypechosen'] = '&Egrave; necessario che tu scelga un tipo. Usa il
 
 pulsante indietro per ritornare alla pagina precedente e riprovare.';
-$string['packagechanged'] = 'Questo pacchetto IMS è cambiato';
-$string['packagenotdeplyed'] = 'Questo pacchetto IMS non è pubblicato';
+$string['packagechanged'] = 'Questo pacchetto IMS &egrave; cambiato';
+$string['packagenotdeplyed'] = 'Questo pacchetto IMS non &egrave; pubblicato';
 $string['pagedisplay'] = 'Mostra questa risorsa nella finestra corrente';
 $string['pagewindow'] = 'Stessa finestra';
 $string['pan'] = 'Bilanciamento';

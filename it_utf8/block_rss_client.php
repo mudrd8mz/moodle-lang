@@ -8,7 +8,7 @@ $string['addnew'] = 'Aggiungi nuovo';
 $string['choosefeedlabel'] = 'Scegliere quale feed rendere disponibile in questo blocco:';
 $string['clientchannellink'] = 'Sito sorgente...';
 $string['clientnumentries'] = 'Numero predefinito di voci da mostrare per ogni feed';
-$string['clientshowchannellinklabel'] = 'Si deve mostrare un collegamento al sito originario (channel link)?<br/> (Da notare che se non √® fornito alcun collegamento feed nel feed delle news, <br/>allora nessun collegamento verr√† mostrato):';
+$string['clientshowchannellinklabel'] = 'Si deve mostrare un collegamento al sito originario (channel link)?<br/> (Da notare che se non &egrave; fornito alcun collegamento feed nel feed delle news, <br/>allora nessun collegamento verr&agrave;† mostrato):';
 $string['clientshowimagelabel'] = 'Mostra canale immagine se disponibile:';
 $string['configblock'] = 'Configura questo blocco';
 $string['couldnotfindfeed'] = 'Non ho trovato il  feed tramite l\'id';
@@ -33,7 +33,7 @@ $string['pickfeed'] = 'Preleva un feed news';
 $string['remotenewsfeed'] = 'Feed RSS remoto';
 $string['seeallfeeds'] = 'Visualizza tutti i feed';
 $string['shownumentrieslabel'] = 'Numero massimo di voci da mostrare per blocco.';
-$string['submitters'] = 'Chi sar√† autorizzato a definire nuovi feed RSS?
+$string['submitters'] = 'Chi sar&agrave;† autorizzato a definire nuovi feed RSS?
 Alcuni feed sono disponibili per utte le pagine del vostro sito.';
 $string['timeout'] = 'blockrsstimeout';
 $string['timeoutdesc'] = 'Tempo di permanenza nella cache di un RSS feed. (minuti)';

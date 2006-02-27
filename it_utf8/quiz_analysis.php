@@ -3,9 +3,9 @@
 
 $string['analysisoptions'] = 'Opzioni di analisi';
 $string['attemptselection'] = 'Tentativi da analizzare per utente ';
-$string['lowmarkslimit'] = "Non analizzare se il punteggio è minore di: ";
+$string['lowmarkslimit'] = "Non analizzare se il punteggio &egrave; minore di: ";
 $string['attemptsall'] = 'tutti i tentativi';
-$string['attemptshighest'] = 'voto più alto';
+$string['attemptshighest'] = 'voto pi&ugrave; alto';
 $string['attemptsfirst'] = 'primo tentativo';
 $string['attemptslast'] = 'ultimo tentativo';
 $string['pagesize'] = 'Domande per pagina: ';
@@ -21,7 +21,7 @@ $string['responsestitle'] = "Testo risposta";
 $string['rfractiontitle'] = 'Credito<br />parziale';
 $string['rcounttitle'] = 'Num.<br />giuste';
 $string['rpercenttitle'] = '%%<br />giuste';
-$string['facilitytitle'] = '%% Giuste<br>Facilità';
+$string['facilitytitle'] = '%% Giuste<br>Facilit&agrave;�';
 $string['stddevtitle'] = 'Deviaz.<br />standard';
 $string['dicsindextitle'] = 'Indice<br />discrim.';
 $string['disccoefftitle'] = 'Coeff.<br />discrim.';
