@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.5.2 + (2005060223)
+      // auth.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['alternatelogin'] = 'Si introduïu un URL aquí, s\'utilitzarà com a pàgina d\'entrada d\'aquest lloc. Aquesta pàgina hauria de contenir un formulari, amb la propietat \'action\' igual a <strong>$a</strong> i que retornés els camps <strong>username</strong> i <strong>password</strong>.<br />Tingueu cura de no escriure un URL incorrecte, ja que podríeu impedir l\'entrada dels usuaris en aquest lloc.<br />Si deixeu en blanc aquest paràmetre s\'utilitzarà la pàgina d\'entrada per defecte.';
@@ -17,6 +17,10 @@ $string['auth_cas_text'] = 'Connexió segura';
 $string['auth_cas_version'] = 'Versió de CAS';
 $string['auth_casdescription'] = 'Aquest mètode utilitza un servidor CAS (Central Authentication Service, Servei Central d\'Autenticació) per autenticar els usuaris en un entorn Single Sign On (SSO, inscripció única). També podeu fer servir autenticació LDAP. Si el nom d\'usuari i la contrasenya són vàlids d\'acord amb el CAS, Moodle crea un nou usuari en la seva base de dades i si escau agafa els atributs del LDAP. En les entrades següents només es verifiquen el nom d\'usuari i la contrasenya.';
 $string['auth_castitle'] = 'Servidor CAS (SSO)';
+$string['auth_changepasswordhelp'] = 'Ajuda de canvi de contrasenya';
+$string['auth_changepasswordhelp_expl'] = 'Mostra l\'ajuda de canvi de contrasenya als usuaris que hagin oblidat la contrasenya $a. Aquest ajuda es visualitzarà en lloc de o a més a més de l\'<strong>URL de canvi de contrasenya</strong> o el canvi de contrasenya intern de Moodle.';
+$string['auth_changepasswordurl'] = 'URL de canvi de contrasenya';
+$string['auth_changepasswordurl_expl'] = 'Especifiqueu l\'URL on cal enviar els usuaris que hagin oblidat la contrasenya $a. Trieu <strong>No</strong> en <strong>Utilitza la pàgina estàndard de canvi de contrasenya</strong>.';
 $string['auth_common_settings'] = 'Paràmetres comuns';
 $string['auth_data_mapping'] = 'Mapatge de dades';
 $string['auth_dbdescription'] = 'Aquest mètode utilitza una taula d\'una base de dades externa per comprovar si un nom d\'usuari i una contrasenya són vàlids. Si el compte és nou, aleshores també es pot copiar en Moodle informació d\'altres camps.';
@@ -49,8 +53,8 @@ $string['auth_imaphost'] = 'L\'adreça del servidor IMAP. Ha de ser el número I
 $string['auth_imapport'] = 'El número de port del servidor IMAP. Generalment és el 143 o el 993.';
 $string['auth_imaptitle'] = 'Utilitza un servidor IMAP';
 $string['auth_imaptype'] = 'Tipus de servidor IMAP. Els servidors IMAP poden tenir diferents tipus d\'autenticació i negociació.';
-$string['auth_ldap_bind_dn'] = 'Si voleu utilitzar l\'usuari de vinculació (<i>bind-user</i>) per cercar usuaris, especifiqueu-ho aquí. Una cosa semblant a \'cn=ldapuser,ou=public,o=org\'';
-$string['auth_ldap_bind_pw'] = 'Contrasenya del <i>bind-user</i>.';
+$string['auth_ldap_bind_dn'] = 'Si voleu utilitzar el bind-user per cercar usuaris, especifiqueu-ho aquí. Per exemple \'cn=ldapuser,ou=public,o=org\'';
+$string['auth_ldap_bind_pw'] = 'Contrasenya del bind-user.';
 $string['auth_ldap_bind_settings'] = 'Paràmetres de vinculació';
 $string['auth_ldap_contexts'] = 'Llista de contextos en què estan ubicats els usuaris. Separeu els contextos amb \';\'. Per exemple: \'ou=users,o=org; ou=others,o=org\'';
 $string['auth_ldap_create_context'] = 'Si activeu la creació d\'usuaris mitjançant confirmació per correu electrònic, especifiqueu en quin context s\'han de crear els usuaris. Aquest context ha de ser diferent del d\'altres usuaris per tal de prevenir problemes de seguretat. No cal afegir aquest context a ldap_context-variable. Moodle cercarà els usuaris en aquest context automàticament.';
@@ -98,12 +102,27 @@ $string['auth_pop3mailbox'] = 'Nom de la bústia amb la qual es fa la connexió 
 $string['auth_pop3port'] = 'Número de port del servidor (el 110 és el més habitual)';
 $string['auth_pop3title'] = 'Utilitza un servidor POP3';
 $string['auth_pop3type'] = 'Tipus de servidor. Si el vostre servidor utilitza seguretat per certificat, trieu pop3cert.';
+$string['auth_radiusdescription'] = 'Aquest mètode utilitza un servidor <a href=\"http://en.wikipedia.org/wiki/RADIUS\" target=\"_blank\">RADIUS</a> per comprovar que un nom d\'usuari i una contrasenya són vàlids.';
+$string['auth_radiushost'] = 'Adreça del servidor RADIUS';
+$string['auth_radiusnasport'] = 'Port per connectar-s\'hi';
+$string['auth_radiussecret'] = 'Secret compartit';
+$string['auth_radiustitle'] = 'Utilitza un servidor RADIUS';
+$string['auth_shib_convert_data'] = 'API de modificació de dades';
+$string['auth_shib_convert_data_description'] = 'Podeu utilitzar aquesta API per introduir modificacions en les dades que proporcioni Shibboleth. Teniu instruccions en el fitxer <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a>.';
+$string['auth_shib_convert_data_warning'] = 'El fitxer no existeix o el procés del servidor web no el pot llegir.';
+$string['auth_shib_instructions'] = 'Utilitzeu l\'<a href=\"$a\">entrada Shibboleth</a> per tenir accés mitjançant Shibboleth, si funciona amb la vostra institució. Si no, utilitzeu el formulari d\'entrada normal.';
+$string['auth_shib_instructions_help'] = 'Aquí podeu proporcionar instruccions per explicar Shibboleth als vostres usuaris. Es visualitzaran en la secció d\'instruccions de la pàgina d\'entrada. El text ha d\'incloure un enllaç a un recurs protegit de Shibboleth que redirigeixi els usuaris a \"<b>$a</b>\" de manera que els usuaris de Shibboleth puguin entrar en Moodle. Si deixeu el text en blanc s\'utilitzaran les instruccions estàndard (no específiques de Shibboleth)';
+$string['auth_shib_only'] = 'Només Shibboleth';
+$string['auth_shib_only_description'] = 'Activeu aquesta opció si cal imposar l\'autenticació via Shibboleth';
+$string['auth_shib_username_description'] = 'Nom de la variable d\'entorn del servidor Shibboleth que s\'utilitzarà com a nom d\'usuari en Moodle';
+$string['auth_shibboleth_login'] = 'Entrada Shibboleth';
+$string['auth_shibboleth_manual_login'] = 'Entrada manual';
 $string['auth_shibbolethdescription'] = 'Amb aquest mètode us podeu connectar a un servidor Shibboleth per verificar i crear nous comptes';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_updatelocal'] = 'Actualitza dades locals';
-$string['auth_updatelocal_expl'] = '<p><b>Actualitza dades locals:</b> si habiliteu aquesta opció, el camp s\'actualitzarà (amb les dades externes d\'autenticació) cada vegada que l\'usuari entri o quan es faci una sincronització d\'usuaris. Els camps definits per actualitzar-se localment haurien d\'estar bloquejats.</p>';
+$string['auth_updatelocal_expl'] = '<p><b>Actualitza dades locals:</b> si habiliteu aquesta opció, el camp s\'actualitzarà (amb les dades externes d\'autenticació) cada vegada que l\'usuari entri o quan es faci una sincronització d\'usuaris. Els camps definits per actualitzar-se localment haurien d\'estar blocats.</p>';
 $string['auth_updateremote'] = 'Actualitza dades externes';
-$string['auth_updateremote_expl'] = '<p>Actualitza dades externes:</b> si habiliteu aquesta opció, les dades externes d\'autenticació s\'actualitzaran quan s\'actualitzi el registre de l\'usuari. Els camps s\'haurien de desbloquejar per permetre l\'edició.</p>';
+$string['auth_updateremote_expl'] = '<p>Actualitza dades externes:</b> si habiliteu aquesta opció, les dades externes d\'autenticació s\'actualitzaran quan s\'actualitzi el registre de l\'usuari. Els camps s\'haurien de desblocar per permetre l\'edició.</p>';
 $string['auth_updateremote_ldap'] = '<p><b>Nota:</b> actualitzar dades LDAP externes requreix definir binddn i dindpw amb un bind-user que tingui privilegis d\'edició en tots els registres d\'usuari. Actualment no preserva valors múltiples en els atributs i suprimeix els valors extra quan es fa l\'actualització.</p>';
 $string['auth_user_create'] = 'Habilita la creació d\'usuaris';
 $string['auth_user_creation'] = 'Els nous usuaris (anònims) poden crear comptes d\'usuari en la font d\'autenticació externa i confirmar-los via correu electrònic. Si habiliteu aquesta opció, recordeu de configurar també opcions específiques del mòdul per a la creació d\'usuaris.';
@@ -113,18 +132,20 @@ $string['authinstructions'] = 'Aquí podeu posar instruccions per als vostres us
 $string['changepassword'] = 'URL per a canvi de contrasenya';
 $string['changepasswordhelp'] = 'Aquí podeu especificar una adreça en la qual els usuaris puguin recuperar o canviar la seua contrasenya si se n\'han oblidat. Aquesta opció apareixerà en forma de botó a la pàgina d\'entrada. Si la deixeu en blanc no apareixerà el botó.';
 $string['chooseauthmethod'] = 'Trieu un mètode d\'autenticació: ';
-$string['createchangepassword'] = 'Crea si està buit - imposa canvi';
-$string['createpassword'] = 'Crea si està buit';
 $string['forcechangepassword'] = 'Imposa canvi de contrasenya';
 $string['forcechangepassword_help'] = 'Obliga els usuaris a canviar la contrasenya la pròxima vegada que entrien en Moodle.';
 $string['forcechangepasswordfirst_help'] = 'Obliga els usuaris a canviar la contrasenya la pròxima vegada que entrien en Moodle.';
 $string['guestloginbutton'] = 'Botó d\'entrada de visitants';
 $string['infilefield'] = 'Camp requerit en el fitxer';
 $string['instructions'] = 'Instruccions';
+$string['internal'] = 'Intern';
 $string['locked'] = 'Blocat';
 $string['md5'] = 'Xifratge MD5';
 $string['passwordhandling'] = 'Gestió del camp de contrasenya';
 $string['plaintext'] = 'Text net';
+$string['shib_no_attributes_error'] = 'Sembla que us heu autenticat via Shibboleth, però Moodle no ha rebut els vostres atributs d\'usuari. Comproveu que el vostre Proveïdor d\'Identitat ha alliberat els atributs ($a) necessaris al Proveïdor de Servei en el qual s\'està executant Moodle, o informeu l\'administrador d\'aquest servidor.';
+$string['shib_not_all_attributes_error'] = 'Moodle necessita certs atributs de Shibboleth que en el vostre cas no són presents. Els atributs són: $a<br />Contacteu amb l\'administrador d\'aquest servidor o amb el vostre Proveïdor d\'Identitat.';
+$string['shib_not_set_up_error'] = 'Sembla que l\'autenticació via Shibboleth no ha estat correctament configurada. Consulteu les instruccions de configuració en el fitxer <a href=\"README.txt\">README</a>.';
 $string['showguestlogin'] = 'Podeu ocultar o mostrar el botó d\'entrada com a visitant a la pàgina d\'entrada.';
 $string['stdchangepassword'] = 'Utilitza la pàgina estàndard de canvi de contrasenya';
 $string['stdchangepassword_expl'] = 'Si el sistema extern d\'autenticació permet canvis de contrasenya per mitjà de Moodle, commuteu aquest paràmetre a Sí. Aquest paràmetre substitueix l\'\"URL per a canvi de contrasenya\".';

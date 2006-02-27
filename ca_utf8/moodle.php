@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2005101200)
+      // moodle.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['action'] = 'Acció';
@@ -42,7 +42,7 @@ $string['adminhelpaddnewuser'] = 'Creeu manualment un nou compte d\'usuari';
 $string['adminhelpassignadmins'] = 'Els administradors poden fer-ho tot i anar arreu en aquest lloc web';
 $string['adminhelpassigncreators'] = 'Els creadors poden crear cursos nous i ser-ne els professors';
 $string['adminhelpassignstudents'] = 'Feu clic damunt del nom d\'un curs i afegiu-hi els estudiants des del menú d\'administració';
-$string['adminhelpassignteachers'] = 'Trobeu el curs i feu clic damunt de la icona per afegir-hi professors';
+$string['adminhelpassignteachers'] = 'Cerqueu el curs i feu clic damunt de la icona per afegir-hi professorat';
 $string['adminhelpauthentication'] = 'Podeu fer servir comptes d\'usuari interns o bé una base de dades externa';
 $string['adminhelpbackup'] = 'Configureu i programeu les còpies de seguretat automàtiques';
 $string['adminhelpconfiguration'] = 'Configureu l\'aparença i el funcionament del lloc';
@@ -83,6 +83,7 @@ $string['allactions'] = 'Totes les accions';
 $string['allactivities'] = 'Totes les activitats';
 $string['alldays'] = 'Tots els dies';
 $string['allfieldsrequired'] = 'Tots els camps són necessaris';
+$string['allfiles'] = 'Tots els fitxers';
 $string['allgroups'] = 'Tots els grups';
 $string['alllogs'] = 'Tots els registres';
 $string['allow'] = 'Permet';
@@ -632,6 +633,7 @@ $string['htmleditoravailable'] = 'L\'editor HTML està disponible';
 $string['htmleditordisabled'] = 'Teniu inhabilitat l\'editor HTML en el vostre perfil d\'usuari';
 $string['htmleditordisabledadmin'] = 'L\'administrator ha inhabilitat l\'editor HTML en aquest lloc';
 $string['htmleditordisabledbrowser'] = 'L\'editor HTML no està disponible perquè el vostre navegador web no és compatible';
+$string['htmlfilesonly'] = 'Només fitxers HTML';
 $string['htmlformat'] = 'Format HTML';
 $string['icqnumber'] = 'Número ICQ';
 $string['idnumber'] = 'Número ID';
@@ -1184,8 +1186,8 @@ $string['stringsnotset'] = 'Les cadenes següents no estan definides en $a';
 $string['studentnotallowed'] = 'No podeu entrar en aquest curs com a \'$a\'';
 $string['students'] = 'Estudiants';
 $string['studentsandteachers'] = 'Estudiants i professors';
-$string['studentviewoff'] = 'Desactiva la visualització d\'estudiant';
-$string['studentviewon'] = 'Activa la visualització d\'estudiant';
+$string['studentviewoff'] = 'Desactiva visualització d\'estudiant';
+$string['studentviewon'] = 'Activa visualització d\'estudiant';
 $string['subcategories'] = 'Subcategories';
 $string['success'] = 'Èxit';
 $string['summary'] = 'Resum';
@@ -1349,7 +1351,7 @@ $string['writingloginfo'] = 'S\'està escrivint la informació dels registres';
 $string['writingmessagesinfo'] = 'S\'està escrivint la informació dels missatges';
 $string['writingmoduleinfo'] = 'S\'està escrivint la informació dels mòduls';
 $string['writingscalesinfo'] = 'S\'està escrivint la informació de les escales';
-$string['writinguserinfo'] = 'S\'està escrivint informació dels usuaris';
+$string['writinguserinfo'] = 'S\'està escrivint informació dels usuaris i usuàries';
 $string['wrongpassword'] = 'Contrasenya incorrecta per a aquest nom d\'usuari';
 $string['yahooid'] = 'Yahoo ID';
 $string['yes'] = 'Sí';
