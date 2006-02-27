@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+ï»¿<?PHP // $Id$ 
       // exercise.php - created with Moodle 1.5 ALPHA (2005050600)
 
 
@@ -86,8 +86,8 @@ $string['noexercisedescriptionssubmitted'] = 'Non sono stata inviate le descrizi
 $string['nosubmissions'] = 'Nessun invio';
 $string['notassessedyet'] = 'Non ancora valutato';
 $string['notavailable'] = 'Non disponibile';
-$string['noteonassessmentelements'] = 'Notare che la votazione &egrave; spezzettata in un numero di \' elementi di votazione\'.<br/> Questo rende il porcesso di votazione pi&ugrave; facile e pi&ugrave; consistente. In qualit&agrave;  di docente, bisdogna aggiungere questi <br/> Elementi prima di rendere disponibile  agli studenti la votazione.
-Per farlo, <br/> cliccate sull\'esercizio nel corso, se non ci fossero elementi vi verr&agrave;  chiesto <br /> di aggiungerli. Potete cambiare il numero di elementi utilizzando il pannello Modifica esercizio, <br/> gli elementi stessi possono essere modificati dal pannello \"Gestire l\'Esercizio\".';
+$string['noteonassessmentelements'] = 'Notare che la votazione &egrave; spezzettata in un numero di \' elementi di votazione\'.<br/> Questo rende il porcesso di votazione pi&ugrave; facile e pi&ugrave; consistente. In qualit&agrave;Â  di docente, bisdogna aggiungere questi <br/> Elementi prima di rendere disponibile  agli studenti la votazione.
+Per farlo, <br/> cliccate sull\'esercizio nel corso, se non ci fossero elementi vi verr&agrave;Â  chiesto <br /> di aggiungerli. Potete cambiare il numero di elementi utilizzando il pannello Modifica esercizio, <br/> gli elementi stessi possono essere modificati dal pannello \"Gestire l\'Esercizio\".';
 $string['noteongradinggrade'] = 'Questo voto &egrave; una misura di quanto bene concordi la vostra votazione con la votazione del <br/> vostro lavoro da parte del $a. Pi&ugrave; &egrave; alto il voto e pi&ugrave; &egrave; alto l\'accordo.';
 $string['noteonstudentassessments'] = '{Grade from student / Grading Grade for assessment}';
 $string['notgraded'] = 'Non valutato';

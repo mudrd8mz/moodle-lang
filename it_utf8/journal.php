@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // journal.php - created with Moodle 1.5 ALPHA (2005050600)
 
 
@@ -25,7 +25,7 @@ $string['modulenameplural'] = 'Diari';
 $string['newjournalentries'] = 'Nuove annotazioni sul diario';
 $string['noentry'] = 'Nessuna annotazione';
 $string['noratinggiven'] = 'Nessuna valutazione data';
-$string['notopenuntil'] = 'Questo diario non sar&agrave;� aperto fino a';
+$string['notopenuntil'] = 'Questo diario non sar&agrave;  aperto fino a';
 $string['notstarted'] = 'Non hai ancora iniziato questo diario';
 $string['overallrating'] = 'Valutazione generale';
 $string['rate'] = 'Valutazione';

@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+ï»¿<?PHP // $Id$ 
       // calendar.php - created with Moodle 1.6 development (2005060201)
 
 
@@ -38,9 +38,9 @@ $string['eventview'] = 'Dettagli evento';
 $string['expired'] = 'Terminato';
 $string['explain_lookahead'] = 'Questa preferenza imposta il numero (massimo) di giorni nel futuro per il quale un evento deve iniziare viene mostrato come un prossimo evento. Gli eventi che iniziano successivamente non saranno mostrati come prossimi. Si prega di notare che <strong>non c\'&egrave; garanzia</strong> che tutti gli eventi che iniziano in questo lasso di tempo vengano mostrati; se sono troppi (pi&ugrave; della preferenza \"Massimo prossimi eventi\") gli eventi pi&ugrave; lontani non saranno mostrati.';
 $string['explain_maxevents'] = 'Questa preferenza imposta il numero massimo di  eventi prossimi che possono essere mostrati. Se usate, qui, un numero grande, &egrave; possibile che la visualizzazione dei prossimi eventi occupi molto spazio sul vostro schermo.';
-$string['explain_persistflt'] = 'Se attivata, Moodle ricorder&agrave;  l\'ultima impostazione del filtro registrata e la ripristiner&agrave;  automaticamente ad ogni vostro nuovo login.';
+$string['explain_persistflt'] = 'Se attivata, Moodle ricorder&agrave;Â  l\'ultima impostazione del filtro registrata e la ripristiner&agrave;Â  automaticamente ad ogni vostro nuovo login.';
 $string['explain_startwday'] = 'Giorno di partenza del calendario mensile';
-$string['explain_timeformat'] = 'Questa preferenza imposta il modo in cui gli orari vengono visualizzati nel calendario. Scegliere se visualizzare il formatsi o a 12 o 24 ore. Se sceglie \"Impostazione base\", allora il formato verr&agrave;  scelto automaticamente in base alla lingua utilizzata dal vostro sito.';
+$string['explain_timeformat'] = 'Questa preferenza imposta il modo in cui gli orari vengono visualizzati nel calendario. Scegliere se visualizzare il formatsi o a 12 o 24 ore. Se sceglie \"Impostazione base\", allora il formato verr&agrave;Â  scelto automaticamente in base alla lingua utilizzata dal vostro sito.';
 $string['fri'] = 'Ven';
 $string['friday'] = 'Venerdi';
 $string['globalevents'] = 'Eventi generali';

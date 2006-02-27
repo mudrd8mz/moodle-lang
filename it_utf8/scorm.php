@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+ï»¿<?PHP // $Id$ 
       // scorm.php - created with Moodle 1.6 development (2005101200)
 
 
@@ -9,7 +9,7 @@ $string['autocontinue'] = 'Continuazione automatica';
 $string['badmanifest'] = 'Trovati alcuni errori nel manifest: controlla l\'elenco';
 $string['browse'] = 'Visita';
 $string['browsed'] = 'Navigato';
-$string['browsemode'] = 'Modalit&agrave;  di visita';
+$string['browsemode'] = 'Modalit&agrave;Â  di visita';
 $string['chooseapacket'] = 'Scegli o aggiorna un pacchetto';
 $string['completed'] = 'Completato';
 $string['coursepacket'] = 'Pacchetto del corso';
@@ -52,7 +52,7 @@ $string['menubar'] = 'Mostra la barra dei menu';
 $string['min'] = 'Punteggio minimo';
 $string['missing_attribute'] = 'Attributo mancante $a->attr al tag $a->tag';
 $string['missing_tag'] = 'Tag mancante $a->tag';
-$string['mode'] = 'Modalit&agrave; ';
+$string['mode'] = 'Modalit&agrave;Â ';
 $string['modulename'] = 'SCORM';
 $string['modulenameplural'] = 'SCORM';
 $string['next'] = 'Continua';

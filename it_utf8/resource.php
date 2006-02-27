@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+ï»¿<?PHP // $Id$ 
       // resource.php - created with Moodle 1.6 development (2005101200)
 
 
@@ -43,8 +43,8 @@ $string['imspackageloaded'] = 'Pacchetto caricato.';
 $string['localfile'] = 'File locale';
 $string['localfilechoose'] = 'Scegliere un file locale (CD-ROM)';
 $string['localfilehelp'] = 'Aiuto per la visualizzazione di file locali';
-$string['localfileinfo'] = '<p>Scegli un file che risiede nel tuo computer. Il file non sar&agrave;  caricato sul server: Moodle lo cercher&agrave;  lo stesso file nel computer di coloro che visualizzeranno questa risorsa.</p><p>Questo &egrave; particolarmente utile quando si utilizzano media ingombranti memorizzati su CD-ROM distribuiti a tutti i partecipanti. Ogni partecipante potr&agrave;  scegliere il proprio percorso per accedere questi file <a href=\"$a\" target=\"_blank\">modificando il profilo utente</a>.</p>';
-$string['localfilepath'] = 'Per impostare il tuo percorso locale per questa risorsa, scegli un file qualsiasi dal disco del tuo computer (in genere il CD-ROM) dove si trova il file utilzzato dalla risorsa. Il file non sar&agrave;  caricato nel server, solo le informazioni relative alla posizione nel tuo computer verr&agrave;  memorizzata per essere usata per tutte le risorse che fanno uso di file locali.';
+$string['localfileinfo'] = '<p>Scegli un file che risiede nel tuo computer. Il file non sar&agrave;Â  caricato sul server: Moodle lo cercher&agrave;Â  lo stesso file nel computer di coloro che visualizzeranno questa risorsa.</p><p>Questo &egrave; particolarmente utile quando si utilizzano media ingombranti memorizzati su CD-ROM distribuiti a tutti i partecipanti. Ogni partecipante potr&agrave;Â  scegliere il proprio percorso per accedere questi file <a href=\"$a\" target=\"_blank\">modificando il profilo utente</a>.</p>';
+$string['localfilepath'] = 'Per impostare il tuo percorso locale per questa risorsa, scegli un file qualsiasi dal disco del tuo computer (in genere il CD-ROM) dove si trova il file utilzzato dalla risorsa. Il file non sar&agrave;Â  caricato nel server, solo le informazioni relative alla posizione nel tuo computer verr&agrave;Â  memorizzata per essere usata per tutte le risorse che fanno uso di file locali.';
 $string['localfileselect'] = 'Scegliere il percorso del file.';
 $string['maindirectory'] = 'Cartella principale';
 $string['modulename'] = 'Risorsa';

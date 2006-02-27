@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // message.php - created with Moodle 1.5 ALPHA (2005050600)
 
 
@@ -61,7 +61,7 @@ $string['timenosee'] = 'Minuti trascorsi da quando sono stato visto online';
 $string['timesent'] = 'Ora dell\'invio';
 $string['unblockcontact'] = 'Sblocca contatto';
 $string['unreadmessages'] = '$a messaggi non letti';
-$string['userisblockingyou'] = 'Questo utente ha bloccato la possibilit&agrave;� da parte tua di inviargli messaggi';
+$string['userisblockingyou'] = 'Questo utente ha bloccato la possibilit&agrave;  da parte tua di inviargli messaggi';
 $string['userisblockingyounoncontact'] = 'Questo utente accetta messaggi solo dalle persone che compaiono nella propria lista di contatti: al momento, tu non figuri in questa lista.';
 $string['userssearchresults'] = 'Risultati della ricerca: trovati $a utenti';
 

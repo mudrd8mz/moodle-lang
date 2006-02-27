@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+ï»¿<?PHP // $Id$ 
       // grades.php - created with Moodle 1.6 development (2005101200)
 
 
@@ -21,7 +21,7 @@ $string['displaypoints'] = 'Mostra Punti';
 $string['displayweighted'] = 'Mostra Valutazioni Pesate';
 $string['dropped'] = 'Eliminati';
 $string['dropxlowest'] = 'Elimina X inferiori';
-$string['dropxlowestwarning'] = 'Nota: Se si utilizza Elimina X inferiori, la valutazione assume che tutte le attivit&agrave;  della corrispondente categoria hanno lo stesso valore per i punteggi. Se tali valori differiscono i risultati saranno imprevedibili';
+$string['dropxlowestwarning'] = 'Nota: Se si utilizza Elimina X inferiori, la valutazione assume che tutte le attivit&agrave;Â  della corrispondente categoria hanno lo stesso valore per i punteggi. Se tali valori differiscono i risultati saranno imprevedibili';
 $string['errorgradevaluenonnumeric'] = 'Inserito un valore non numerico come voto basso o alto per ';
 $string['errornocategorizedid'] = 'Non ci pu&ograve; essere un id Senza categoria!';
 $string['errornocourse'] = 'Mancano informazioni sul corso';
@@ -29,20 +29,20 @@ $string['errorreprintheadersnonnumeric'] = 'Inserito un valore non numerico per 
 $string['exceptions'] = 'Eccezioni';
 $string['excluded'] = 'Esclusi';
 $string['extracredit'] = 'Credito Extra';
-$string['extracreditwarning'] = 'Nota: L\'impostazione Credito Extra per tutte le attivit&agrave;  di una categoria di fatto le rimuove dal calcolo della valutazione, per cui non ci sar&agrave;  il punteggio totale.';
+$string['extracreditwarning'] = 'Nota: L\'impostazione Credito Extra per tutte le attivit&agrave;Â  di una categoria di fatto le rimuove dal calcolo della valutazione, per cui non ci sar&agrave;Â  il punteggio totale.';
 $string['forstudents'] = 'Per Studenti';
 $string['gradebook'] = 'Registro Valutazioni';
-$string['gradebookhiddenerror'] = 'Al momento il registro &egrave; impostato in modo da non mostrare alcuna attivit&agrave;  agli studenti.';
+$string['gradebookhiddenerror'] = 'Al momento il registro &egrave; impostato in modo da non mostrare alcuna attivit&agrave;Â  agli studenti.';
 $string['gradecategoryhelp'] = 'Help Categorie per Valutazioni';
 $string['gradeexceptions'] = 'Eccezioni';
 $string['gradeexceptionshelp'] = 'Help Eccezioni nelle Valutazioni';
 $string['gradehelp'] = 'Help Valutazioni';
-$string['gradeitem'] = 'Attivit&agrave; ';
+$string['gradeitem'] = 'Attivit&agrave;Â ';
 $string['gradeitemaddusers'] = 'Escludi dalle Valutazioni';
 $string['gradeitemmembersselected'] = 'Esclusi dalle Valutazioni';
 $string['gradeitemnonmembers'] = 'Inclusi nelle Valutazioni';
 $string['gradeitemremovemembers'] = 'Includi nelle Valutazioni';
-$string['gradeitems'] = 'Attivit&agrave;  valutabili';
+$string['gradeitems'] = 'Attivit&agrave;Â  valutabili';
 $string['gradeletter'] = 'Lettera';
 $string['gradeletterhelp'] = 'Help Valutazioni Alfabetiche';
 $string['gradeletternote'] = 'Per cancellare una lettera eliminare il contenuto di <br /> una delle tre aree di testo e salvare le modifiche.';
@@ -55,8 +55,8 @@ $string['highgradeascending'] = 'Ordina per voti alti crescenti';
 $string['highgradedescending'] = 'Ordina per voti alti decrescenti';
 $string['highgradeletter'] = 'Max';
 $string['incorrectcourseid'] = 'L\'ID del corso non &egrave; corretto';
-$string['item'] = 'Attivit&agrave; ';
-$string['items'] = 'Attivit&agrave; ';
+$string['item'] = 'Attivit&agrave;Â ';
+$string['items'] = 'Attivit&agrave;Â ';
 $string['lettergrade'] = 'Valutazioni Alfabetiche';
 $string['lettergradenonnumber'] = 'Il voto Basso e/o Alto non &egrave; numerico per ';
 $string['letters'] = 'Lettere';
@@ -99,7 +99,7 @@ $string['setting'] = 'Impostazione';
 $string['settings'] = 'Impostazioni';
 $string['setweights'] = 'Pesi';
 $string['showallstudents'] = 'Mostra tutti';
-$string['showhiddenitems'] = 'Mostra Attivit&agrave;  da valutare Nascoste';
+$string['showhiddenitems'] = 'Mostra Attivit&agrave;Â  da valutare Nascoste';
 $string['sort'] = 'ordina';
 $string['sortbyfirstname'] = 'Ordina per Nome';
 $string['sortbylastname'] = 'Ordina per Cognome';

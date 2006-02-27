@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+ï»¿<?PHP // $Id$ 
       // choice.php - created with Moodle 1.5 ALPHA (2005043000)
 
 
@@ -11,7 +11,7 @@ $string['choicename'] = 'Nome della scelta';
 $string['choiceopen'] = 'Aperta';
 $string['choicetext'] = 'Testo della domanda';
 $string['displayhorizontal'] = 'Mostra orizzontalmente';
-$string['displaymode'] = 'modalit&agrave;  di visualizzazione';
+$string['displaymode'] = 'modalit&agrave;Â  di visualizzazione';
 $string['displayvertical'] = 'Mostra verticalmente';
 $string['full'] = '(Completo)';
 $string['havetologin'] = 'Bisogna effettuare il Login prima di sottomettere la vostra scelta ';
@@ -21,7 +21,7 @@ $string['modulename'] = 'Scelta';
 $string['modulenameplural'] = 'Scelte';
 $string['mustchooseone'] = 'Bisogna scegliere una risposta prima di salvare. Non &egrave; stato salvato nulla.';
 $string['notanswered'] = 'Ancora nessuna risposta';
-$string['notopenyet'] = 'Spiacente, questa attivit&agrave;  non &egrave; disponibile fino al $a';
+$string['notopenyet'] = 'Spiacente, questa attivit&agrave;Â  non &egrave; disponibile fino al $a';
 $string['privacy'] = 'Privacy dei risultati';
 $string['publish'] = 'Rendi pubblici i risultati';
 $string['publishafteranswer'] = 'Mostra i risultati agli studenti dopo che hanno risposto';

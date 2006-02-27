@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+ï»¿<?PHP // $Id$ 
       // error.php - created with Moodle 1.6 development (2005101200)
 
 
@@ -14,7 +14,7 @@ $string['errorreadingfile'] = 'Si &egrave; verificato un errore leggendo il file
 $string['errorunzippingfiles'] = 'Si &egrave; verificato un errore scompattando i file';
 $string['fieldrequired'] = '\"$a\" &egrave; un campo richiesto';
 $string['filenotfound'] = 'Spiacente, il file richiesto non pu&ograve; essere trovato';
-$string['groupalready'] = 'Utente gi&agrave;  appartenente al gruppo $a';
+$string['groupalready'] = 'Utente gi&agrave;Â  appartenente al gruppo $a';
 $string['groupunknown'] = 'Il gruppo $a non &egrave; associato al corso specificato';
 $string['invalidfieldname'] = '\"$a\" non &egrave; nome di campo valido';
 $string['invalidfiletype'] = '\"$a\" non &egrave; un tipo di file valido';
@@ -29,11 +29,11 @@ $string['processingstops'] = 'L\'elaborazione si &egrave; fermata qui. Rimangono
 $string['restricteduser'] = 'Spiacente, ma il suo account corrente  \"$a\" non ha il permesso per fare questo.';
 $string['sessionerroruser'] = 'La sessione &egrave; scaduta o &egrave; stato rilevato un errore. Si prega effettuare nuovamente il login.';
 $string['sessionerroruser2'] = '&Egrave; stato rilevato un errore su server che ha compromesso la vostra sessione di autenticazione. Vi preghiamo di autenticarvi nuovamente o di far ripartire il browser.';
-$string['sessionipnomatch'] = 'Spiacente, ma il vostro IP sembra essere cambiato da quando vi siete autenticati. Questa caratteristica previene il furto della vostra identit&agrave;  da parte di hackers mentre siete collegati a questo sito. Gli utenti non dovrebbero vedere questo messaggio - chiedere aiuto all\'amministratore del sito.';
-$string['statscatchupmode'] = 'Le statistiche sono attualmente in modalit&agrave;  di raccolta dati. Sono gi&agrave;  stati elaborati $a->daysdone giorno(i) e $a->dayspending lo devono ancora essere. Ricontrollate presto!';
+$string['sessionipnomatch'] = 'Spiacente, ma il vostro IP sembra essere cambiato da quando vi siete autenticati. Questa caratteristica previene il furto della vostra identit&agrave;Â  da parte di hackers mentre siete collegati a questo sito. Gli utenti non dovrebbero vedere questo messaggio - chiedere aiuto all\'amministratore del sito.';
+$string['statscatchupmode'] = 'Le statistiche sono attualmente in modalit&agrave;Â  di raccolta dati. Sono gi&agrave;Â  stati elaborati $a->daysdone giorno(i) e $a->dayspending lo devono ancora essere. Ricontrollate presto!';
 $string['unknowncourse'] = 'Il corso chiamato \"$a\" risulta sconosciuto';
 $string['usernotaddederror'] = 'L\'utente \"$a\" non &egrave; stato aggiunto - errore sconosciuto ';
-$string['usernotaddedregistered'] = 'L\'utente \"$a\" non &egrave; stato aggiunto - utente gi&agrave;  registrato';
+$string['usernotaddedregistered'] = 'L\'utente \"$a\" non &egrave; stato aggiunto - utente gi&agrave;Â  registrato';
 $string['usernotavailable'] = 'Non &egrave; possibile visualizzare i dettagli di questo utente.';
 
 ?>

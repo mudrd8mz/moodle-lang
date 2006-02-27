@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+ï»¿<?PHP // $Id$ 
       // workshop.php - created with Moodle 1.5 ALPHA (2005050600)
 
 
@@ -14,7 +14,7 @@ $string['agreetothisassessment'] = 'Accetta questa Valutazione';
 $string['allgradeshaveamaximumof'] = 'Tutti i voti hanno il valore massimo: $a';
 $string['allowresubmit'] = 'Permessi invii multipli';
 $string['allsubmissions'] = 'Tutti gli invii';
-$string['alreadyinphase'] = 'Gi&agrave;  nella fase $a';
+$string['alreadyinphase'] = 'Gi&agrave;Â  nella fase $a';
 $string['amendassessmentelements'] = 'Modifica elementi di valutazione';
 $string['amendtitle'] = 'Modifica titolo';
 $string['analysis'] = 'Analisi';
@@ -101,9 +101,9 @@ $string['grade'] = 'Voto';
 $string['gradeassessment'] = 'Voto Valutazione';
 $string['graded'] = 'Valutato';
 $string['gradedbyteacher'] = 'Valutato da $a';
-$string['gradeforassessments'] = 'Capacit&agrave;  di valutazione';
+$string['gradeforassessments'] = 'Capacit&agrave;Â  di valutazione';
 $string['gradeforbias'] = 'Voto per Bias';
-$string['gradeforreliability'] = 'Voto per affidabilit&agrave; ';
+$string['gradeforreliability'] = 'Voto per affidabilit&agrave;Â ';
 $string['gradeforstudentsassessment'] = 'Voto per valutazione partecipante';
 $string['gradeforsubmission'] = 'Voto per lavoro inviato';
 $string['gradegiventoassessment'] = 'Voto dato alla valutazione';
@@ -161,7 +161,7 @@ $string['nosubmissionsavailableforassessment'] = 'Nessuna consegna disponibile p
 $string['notallowed'] = 'Non ti &egrave; consentito visitare questa pagina in questo momento';
 $string['notavailable'] = 'Non disponibile';
 $string['notenoughexamplessubmitted'] = 'Non sono stati inviati un numero sufficente di Esempi.';
-$string['noteonassessmentelements'] = 'Si osservi che il giudizio di un lavoro &egrave; suddiviso in un certo numero di \'elementi di valutazione \'.<br />Ci&ograve; rende la valutazione stessa pi&ugrave; facile e pi&ugrave; consistente.<br />Come insegnante dovresti definire questi elementi prima di mettere a disposizione il compito ai partecipanti al lavoro.<br />Ci&ograve; pu&ograve; essere fatto cliccando sul compito nel corso e,<br /> se non ci sono elementi di valutazione presenti, ti sar&agrave;  chiesto di aggiungerli.<br />Il numero di elementi potr&agrave;  essere modificato per mezzo dell pagina di definizione del compito.<br />Gli elementi stessi possono essere inseriti o modificati nella pagina di \'Gestione della valutazione\'.';
+$string['noteonassessmentelements'] = 'Si osservi che il giudizio di un lavoro &egrave; suddiviso in un certo numero di \'elementi di valutazione \'.<br />Ci&ograve; rende la valutazione stessa pi&ugrave; facile e pi&ugrave; consistente.<br />Come insegnante dovresti definire questi elementi prima di mettere a disposizione il compito ai partecipanti al lavoro.<br />Ci&ograve; pu&ograve; essere fatto cliccando sul compito nel corso e,<br /> se non ci sono elementi di valutazione presenti, ti sar&agrave;Â  chiesto di aggiungerli.<br />Il numero di elementi potr&agrave;Â  essere modificato per mezzo dell pagina di definizione del compito.<br />Gli elementi stessi possono essere inseriti o modificati nella pagina di \'Gestione della valutazione\'.';
 $string['noteonstudentassessments'] = '{Voto dallo Studente/Scala di valutazione per la valutazione ';
 $string['notgraded'] = 'Nessuna valutazione';
 $string['notitle'] = 'Nessun titolo';
@@ -299,14 +299,14 @@ $string['warningonamendingelements'] = 'ATTENZIONE: Ci sono valutazioni salvate.
 $string['weight'] = 'Peso';
 $string['weightederrorcount'] = 'Conteggio del peso dell\'errore: $a';
 $string['weightforbias'] = 'Peso del valore di soglia';
-$string['weightforgradingofassessments'] = 'Coefficiente della capacit&agrave;  di valutazione';
+$string['weightforgradingofassessments'] = 'Coefficiente della capacit&agrave;Â  di valutazione';
 $string['weightforpeerassessments'] = 'Peso delle valutazioni degli altri partecipanti';
-$string['weightforreliability'] = 'Peso dell\'affidabilit&agrave; ';
+$string['weightforreliability'] = 'Peso dell\'affidabilit&agrave;Â ';
 $string['weightforteacherassessments'] = 'Peso della valutazione del Docente';
 $string['weights'] = 'Pesi';
 $string['weightsusedforfinalgrade'] = 'Pesi usati per il voto finale';
 $string['weightsusedforsubmissions'] = 'Pesi usati per le sottomissioni';
-$string['workshopagreedassessments'] = 'Valutazioni di conformit&agrave;  del workshop';
+$string['workshopagreedassessments'] = 'Valutazioni di conformit&agrave;Â  del workshop';
 $string['workshopassessments'] = 'Valutazioni workshop';
 $string['workshopcomments'] = 'Commenti workshop';
 $string['workshopfeedback'] = 'Risposte workshop';

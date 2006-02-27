@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // wiki.php - created with Moodle 1.6 development (2005081700)
 
 

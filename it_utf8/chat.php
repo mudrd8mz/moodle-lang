@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // chat.php - created with Moodle 1.4 beta (2004082300)
 
 
@@ -8,7 +8,7 @@ $string['chatname'] = 'Nome di questa stanza di chat';
 $string['chatreport'] = 'Sessioni discussione';
 $string['chattime'] = 'Prossima ora di discussione';
 $string['configmethod'] = 'Il metodo normale della chat richiede che i client contattino regolarmente il server per gli aggiornamenti. Questo non richiede configurazioni e funziona dovunque, ma con molti utenti connessi pu&ograve; generare un grosso carico sul server. Utilizzare un server esterno richiede l\'utilizzo di una shell Unix, ma risulta essere un ambiente pi&ugrave; facilmente ampliabile.';
-$string['configoldping'] = 'Dopo quanto tempo di inattivit&agrave;� di un utente dobbiamo considerarlo uscito dalla chat?';
+$string['configoldping'] = 'Dopo quanto tempo di inattivit&agrave;  di un utente dobbiamo considerarlo uscito dalla chat?';
 $string['configrefreshroom'] = 'Ogni quanto tempo deve essere aggiornata la chat (in secondi)? Impostando un valore basso la chat sembra essere pi&ugrave; veloce, ma pu&ograve; determinare un grande carico sul web server quando molte persone sono collegate. ';
 $string['configrefreshuserlist'] = 'Ogni quanto tempo deve essere aggiornata la lista degli utenti (in secondi)?';
 $string['configserverhost'] = 'Il nome del computer dove &egrave; locato il server';

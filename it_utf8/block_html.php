@@ -1,6 +1,6 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // block_html.php - created with Moodle 1.5 ALPHA (2005043000)
-	  // traduzione a cura di Luca Arese - Universit&agrave;� di Torino
+	  // traduzione a cura di Luca Arese - Universit&agrave;  di Torino
 
 
 $string['configcontent'] = 'Contenuto';

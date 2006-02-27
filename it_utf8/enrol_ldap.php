@@ -1,12 +1,12 @@
-<?PHP // $Id$ 
+ï»¿<?PHP // $Id$ 
       // enrol_ldap.php - created with Moodle 1.6 development (2005060201)
 
 
-$string['description'] = '<p>Si pu&ograve; usare un server LDAP per controllare le vostre registrazioni. Viene presupposto che l\'albero LDAP contenga gruppi che corrispondano ai corsi, e che ognuno di questi gruppi/corsi avr&agrave;  la sua istanza di appartenenza per corrispondere agli studenti.</p>
+$string['description'] = '<p>Si pu&ograve; usare un server LDAP per controllare le vostre registrazioni. Viene presupposto che l\'albero LDAP contenga gruppi che corrispondano ai corsi, e che ognuno di questi gruppi/corsi avr&agrave;Â  la sua istanza di appartenenza per corrispondere agli studenti.</p>
 <p>Viene presupposto che i corsi siano definiti come gruppi in LDAP, con ogni gruppo che possiede campi di appartenenza multipli(<em>membro</em> o <em>Uid membro</em>) che contiene una identificazione unica dell\'utente.</p>
 <p>Per utilizzare la registrazione LDAP, i vostri utenti<strong>devono</strong> 
 avere un campo idnumber valido. I gruppi LDAP devono avere questo idnumber nei campi membro per utenti che si iscrivono a quel corso.</p>
-<p>Questo metodo funzioner&agrave;  bene se state comunque utilizzando l\'autenticazione LDAP.</p/>
+<p>Questo metodo funzioner&agrave;Â  bene se state comunque utilizzando l\'autenticazione LDAP.</p/>
 <p>Le iscrizioni  verranno agiornate quando l\'utente effettua il login. Potete comunque lanciare uno script per tenere le iscrizioni in sincrono. Cercate in 
 <em>enrol/ldap/enrol_ldap_sync.php</em>.</p>
 

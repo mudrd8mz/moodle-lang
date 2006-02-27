@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+ï»¿<?PHP // $Id$ 
       // glossary.php - created with Moodle 1.5 ALPHA (2005050600)
 
 
@@ -80,7 +80,7 @@ $string['entbypage'] = 'Termini mostrati per pagina';
 $string['entries'] = 'Termini';
 $string['entrieswithoutcategory'] = 'Termini senza categorie';
 $string['entry'] = 'Termine';
-$string['entryalreadyexist'] = 'Il termine esiste gi&agrave; ';
+$string['entryalreadyexist'] = 'Il termine esiste gi&agrave;Â ';
 $string['entryapproved'] = 'Questo termine &egrave; stato approvato';
 $string['entrydeleted'] = 'Termine cancellato.';
 $string['entryexported'] = 'Termine esportato correttamente.';
@@ -90,11 +90,11 @@ $string['entrysaved'] = 'Questo termine &egrave; stato salvato';
 $string['entryupdated'] = 'Questo termine &egrave; stato aggiornato';
 $string['entryusedynalink'] = 'Collegare il termine automaticamente';
 $string['explainaddentry'] = 'Aggiungi un nuovo termine al glossario corrente.<br />Concetto e definizione sono campi necessari.';
-$string['explainall'] = '<b>TUTTI</b> mostrer&agrave;  tutti i termini in una pagina.';
+$string['explainall'] = '<b>TUTTI</b> mostrer&agrave;Â  tutti i termini in una pagina.';
 $string['explainalphabet'] = 'Seleziona la lettera che vuoi vedere.<br /><br />';
 $string['explainexport'] = 'Un file &egrave; stato creato.<br />Scaricalo e mettilo al sicuro. Lo potrai importare quando vorrai in questo o in un altro corso.';
 $string['explainimport'] = 'Devi specificare il file da importare e definire il criterio per elaborarlo. <br />Sottoponi la tua richiesta ';
-$string['explainspecial'] = '<b>Speciali</b> mostrer&agrave;  tutti i termini che non iniziano con una lettera.';
+$string['explainspecial'] = '<b>Speciali</b> mostrer&agrave;Â  tutti i termini che non iniziano con una lettera.';
 $string['exportedentry'] = 'Termine esportato';
 $string['exportedfile'] = 'File esportato';
 $string['exportentries'] = 'Esporta termini';

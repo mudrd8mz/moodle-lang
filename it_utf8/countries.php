@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // countries.php - created with Moodle 1.4 development (2004080300)
 
 
@@ -226,7 +226,7 @@ $string['UG'] = 'Uganda';
 $string['US'] = 'Stati Uniti d\'America';
 $string['UY'] = 'Uruguay';
 $string['UZ'] = 'Uzbekistan';
-$string['VA'] = 'Citt&agrave;� Stato del Vaticano';
+$string['VA'] = 'Citt&agrave;  Stato del Vaticano';
 $string['VC'] = 'Saint Vincent e Grenadines';
 $string['VE'] = 'Venezuela';
 $string['VG'] = 'Isole Vergini (British)';

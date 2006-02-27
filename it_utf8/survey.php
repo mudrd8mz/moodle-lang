@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+ï»¿<?PHP // $Id$ 
       // survey.php - created with Moodle 1.3 Beta + (2004051300)
 
 
@@ -10,7 +10,7 @@ $string['allscales'] = 'Tutte le valutazioni, tutti gli studenti';
 $string['alreadysubmitted'] = 'Hai gia\' sostenuto questa prova';
 $string['analysisof'] = 'Analisi di $a';
 $string['answers'] = 'Risposte';
-$string['attls1'] = 'Valutando qualcuno, io pongo attenzione sulla qualit&agrave;  dei suoi argomenti, non sulla persona che li presenta.';
+$string['attls1'] = 'Valutando qualcuno, io pongo attenzione sulla qualit&agrave;Â  dei suoi argomenti, non sulla persona che li presenta.';
 $string['attls10'] = '&Egrave; importante per me rimanere il pi&ugrave; possibile obiettivo quando analizzo qualcosa.';
 $string['attls10short'] = 'rimanere obiettivo';
 $string['attls11'] = 'Provo a pensare con la gente anzich&egrave; contro di essa.';
@@ -31,7 +31,7 @@ $string['attls18'] = 'Posso arrivare alla comprensione di opinioni diverse dalle
 $string['attls18short'] = 'comprensione per empatia';
 $string['attls19'] = 'Quando incontro persone che sembrano avere opinioni diverse dalle mie, faccio uno sforzo per \'immedesimarmi\' in loro, per cercare di comprendere come possono avere quelle opinioni.';
 $string['attls19short'] = 'sforzo di immedesimazione';
-$string['attls1short'] = 'attenzione sulla qualit&agrave;  degli argomenti';
+$string['attls1short'] = 'attenzione sulla qualit&agrave;Â  degli argomenti';
 $string['attls2'] = 'Mi piace fare l\'avvocato del diavolo, affermando il contrario di quello che qualcuno sta dicendo.';
 $string['attls20'] = 'Passo il tempo a cercare cosa c\'&egrave; di sbagliato nelle cose. Per esempio, cercher&ograve; qualcosa, in un\'interpretazione letteraria, che non &egrave; sufficientemente chiaro.';
 $string['attls20short'] = 'cos\'&egrave; sbagliato?';
@@ -40,7 +40,7 @@ $string['attls3'] = 'Mi piace capire da \'dove vengono\' le altre persone, quali
 $string['attls3short'] = '\'dove vengono\' gli altri';
 $string['attls4'] = 'La parte pi&ugrave; importante della mia formazione sta nel aver imparanto a capire la gente che &egrave; molto differente da me.';
 $string['attls4short'] = 'capire la gente diversa';
-$string['attls5'] = 'Ritengo che il modo per concretizzare la mia identit&agrave;  sia di interagire con il maggior numero di persone.';
+$string['attls5'] = 'Ritengo che il modo per concretizzare la mia identit&agrave;Â  sia di interagire con il maggior numero di persone.';
 $string['attls5short'] = 'interagire con molti';
 $string['attls6'] = 'Mi piace ascoltare le opinioni delle persone che provengono da situazioni diverse dalle mie - questo mi aiuta a capire come le stesse cose possano essere  viste in diversi modi.';
 $string['attls6short'] = 'Mi piace ascoltare opinioni diverse';
@@ -68,7 +68,7 @@ $string['ciq4'] = 'Che azione da parte di chiunque nei forum trovi pi&ugrave; co
 $string['ciq4short'] = 'Momento confusionario';
 $string['ciq5'] = 'Cosa ti ha sorpreso di pi&ugrave;';
 $string['ciq5short'] = 'Momento sorprendente';
-$string['ciqintro'] = 'Mentre pensi alle recenti attivit&agrave;  in classe, rispondi alle seguenti domande.';
+$string['ciqintro'] = 'Mentre pensi alle recenti attivit&agrave;Â  in classe, rispondi alle seguenti domande.';
 $string['ciqname'] = 'Incidenti Critici';
 $string['clicktocontinue'] = 'Clicca qui per continuare';
 $string['clicktocontinuecheck'] = 'Clicca qui per controllare e continuare';
@@ -106,7 +106,7 @@ $string['colles23short'] = 'capisco il tutor';
 $string['colles24'] = 'il tutor capisce i miei commenti.';
 $string['colles24short'] = 'il tutor mi capisce';
 $string['colles2short'] = 'importante per la mia pratica';
-$string['colles3'] = 'imparo come migliorare la mia professionalit&agrave; .';
+$string['colles3'] = 'imparo come migliorare la mia professionalit&agrave;Â .';
 $string['colles3short'] = 'migliorare la mia pratica';
 $string['colles4'] = 'quello che imparo si collega bene con la mia professione.';
 $string['colles4short'] = 'si collega con la mia pratica ';
@@ -120,23 +120,23 @@ $string['colles8'] = 'penso in modo critico alle idee nelle letture.';
 $string['colles8short'] = 'sono critico delle letture';
 $string['colles9'] = 'spiego le mie idee agli altri studenti.';
 $string['colles9short'] = 'spiego le mie idee';
-$string['collesaintro'] = 'L\'obiettivo di questo sondaggio &egrave; di aiutarci a comprendere come lo svolgimento online di questa unit&agrave;  ti sia stato utile nell\'apprendimento.
+$string['collesaintro'] = 'L\'obiettivo di questo sondaggio &egrave; di aiutarci a comprendere come lo svolgimento online di questa unit&agrave;Â  ti sia stato utile nell\'apprendimento.
 
-Ciascuna delle seguenti 24 domande riguardano tua esperienza in questa unit&agrave; .
+Ciascuna delle seguenti 24 domande riguardano tua esperienza in questa unit&agrave;Â .
 
 Non ci sono domande \'giuste\' o \'sbagliate\'; noi siamo interessati solo alla tua opinione. Garantiamo che le risposte saranno trattate con il massimo grado di riservatezza e non influenzeranno la tua valutazione.
 
-Le tue risposte saranno considerate con attenzione e ci aiuteranno a migliorare le caratteristiche di questa unit&agrave;  online in futuro.
+Le tue risposte saranno considerate con attenzione e ci aiuteranno a migliorare le caratteristiche di questa unit&agrave;Â  online in futuro.
 
 Molte Grazie.';
 $string['collesaname'] = 'COLLES (Attuale)';
-$string['collesapintro'] = 'L\'obiettivo di questo sondaggio &egrave; di aiutarci a comprendere come lo svolgimento online di questa unit&agrave;  ti sia stato utile nell\'apprendimento.
+$string['collesapintro'] = 'L\'obiettivo di questo sondaggio &egrave; di aiutarci a comprendere come lo svolgimento online di questa unit&agrave;Â  ti sia stato utile nell\'apprendimento.
 
-Ciascuna delle seguenti 24 domande sotto ti chiede di confrontare la tua esperienza <b>preferita</b>(ideale) e quella <b>attuale</b> di questa unit&agrave; .
+Ciascuna delle seguenti 24 domande sotto ti chiede di confrontare la tua esperienza <b>preferita</b>(ideale) e quella <b>attuale</b> di questa unit&agrave;Â .
 
 Non ci sono risposte \'giuste\' o risposte \'errate\'; siamo interessati alla tua opinione. Garantiamo che le tue risposte saranno trattate con il massimo grado di riservatezza e non influenzeranno la tua valutazione.
 
-Le tue risposte saranno considerate con attenzione e ci aiuteranno a migliorare le caratteristiche di questa unit&agrave;  online in futuro.
+Le tue risposte saranno considerate con attenzione e ci aiuteranno a migliorare le caratteristiche di questa unit&agrave;Â  online in futuro.
 
 Molte grazie.';
 $string['collesapname'] = 'COLLES (Preferito e Attuale)';
@@ -144,22 +144,22 @@ $string['collesm1'] = 'Pertinenza';
 $string['collesm1short'] = 'Pertinenza';
 $string['collesm2'] = 'Senso critico';
 $string['collesm2short'] = 'Senso critico';
-$string['collesm3'] = 'Interattivit&agrave; ';
-$string['collesm3short'] = 'Interattivit&agrave; ';
+$string['collesm3'] = 'Interattivit&agrave;Â ';
+$string['collesm3short'] = 'Interattivit&agrave;Â ';
 $string['collesm4'] = 'Sostegno da parte del Tutor';
 $string['collesm4short'] = 'Tutoraggio';
 $string['collesm5'] = 'Sostegno da parte dei colleghi';
 $string['collesm5short'] = 'Supporto da colleghi';
 $string['collesm6'] = 'Comunicazione';
 $string['collesm6short'] = 'Cumunicazione';
-$string['collesmintro'] = 'In questa unit&agrave;  online...';
-$string['collespintro'] = 'L\'obiettivo di questo sondaggio &egrave; di aiutarci a comprendere come lo svolgimento online di questa unit&agrave;  ti sia stato utile nell\'apprendimento.
+$string['collesmintro'] = 'In questa unit&agrave;Â  online...';
+$string['collespintro'] = 'L\'obiettivo di questo sondaggio &egrave; di aiutarci a comprendere come lo svolgimento online di questa unit&agrave;Â  ti sia stato utile nell\'apprendimento.
 
-Ciascuna delle seguenti 24 domande sotto ti chiede di confrontare la tua esperienza <b>preferita</b>(ideale) e quella <b>attuale</b> di questa unit&agrave; .
+Ciascuna delle seguenti 24 domande sotto ti chiede di confrontare la tua esperienza <b>preferita</b>(ideale) e quella <b>attuale</b> di questa unit&agrave;Â .
 
 Non ci sono risposte \'giuste\' o risposte \'errate\'; siamo interessati alla tua opinione. Garantiamo che le tue risposte saranno trattate con il massimo grado di riservatezza e non influenzeranno la tua valutazione.
 
-Le tue risposte saranno considerate con attenzione e ci aiuteranno a migliorare le caratteristiche di questa unit&agrave;  online in futuro.
+Le tue risposte saranno considerate con attenzione e ci aiuteranno a migliorare le caratteristiche di questa unit&agrave;Â  online in futuro.
 
 Molte grazie.';
 $string['collespname'] = 'COLLES (Preferito)';

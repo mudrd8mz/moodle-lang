@@ -1,4 +1,4 @@
-<?php // $Id$
+﻿<?php // $Id$
       // quiz.php - created with Moodle 1.4 development (2004080300)
 
 $string['analysisoptions'] = 'Opzioni di analisi';
@@ -21,7 +21,7 @@ $string['responsestitle'] = "Testo risposta";
 $string['rfractiontitle'] = 'Credito<br />parziale';
 $string['rcounttitle'] = 'Num.<br />giuste';
 $string['rpercenttitle'] = '%%<br />giuste';
-$string['facilitytitle'] = '%% Giuste<br>Facilit&agrave;�';
+$string['facilitytitle'] = '%% Giuste<br>Facilit&agrave; ';
 $string['stddevtitle'] = 'Deviaz.<br />standard';
 $string['dicsindextitle'] = 'Indice<br />discrim.';
 $string['disccoefftitle'] = 'Coeff.<br />discrim.';

@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+ï»¿<?PHP // $Id$ 
       // forum.php - created with Moodle 1.6 development (2005101200)
 
 
@@ -7,14 +7,14 @@ $string['addanewtopic'] = 'Aggiungi un nuovo argomento';
 $string['advancedsearch'] = 'Ricerca avanzata';
 $string['allforums'] = 'Tutti i forum';
 $string['allowchoice'] = 'Scegli';
-$string['allowdiscussions'] = 'Possibilit&agrave;  di un(o) $a di scrivere in questo forum';
+$string['allowdiscussions'] = 'Possibilit&agrave;Â  di un(o) $a di scrivere in questo forum';
 $string['allowratings'] = 'Permettere la valutazione dei messaggi?';
 $string['allowsdiscussions'] = 'Questo forum permette a tutti di iniziare una nuova discussione.';
 $string['anyfile'] = 'Qualunque file';
 $string['attachment'] = 'Allegato';
 $string['bynameondate'] = 'di $a->name - $a->date';
 $string['configcleanreadtime'] = 'L\'ora del giorno in cui vengono ripuliti i vecchi messaggi dalla tabella \'lettura\'.';
-$string['configdisplaymode'] = 'La modalit&agrave;  di visualizzazione di default per le discussioni se nessuna &egrave; impostata.';
+$string['configdisplaymode'] = 'La modalit&agrave;Â  di visualizzazione di default per le discussioni se nessuna &egrave; impostata.';
 $string['configenablerssfeeds'] = 'Questa opzione abilita l\'utilizzo dei RSS per tutti i forum. Si devono comunque abilitare manualmente nelle impostazioni di ogni forum.';
 $string['configlongpost'] = 'Ogni messaggio oltre questa lunghezza (escludendo l\'HTML) &egrave; considerato lungo.';
 $string['configmanydiscussions'] = 'Numero massimo di discussioni mostrate in una pagina del forum';
@@ -25,8 +25,8 @@ $string['configshortpost'] = 'Ogni messaggio sotto questa lunghezza (escludendo 
 $string['configtrackreadposts'] = 'Impostare su \'Si\' se desiderate tracciare letto/non letto per ciascun utente.';
 $string['configusermarksread'] = 'Se \'Si\', l\'utente deve marcare manualmente un messaggio come \'letto\'. Se \'No\', quando il messaggio &egrave; stato visto viene marcato come \'letto\'';
 $string['couldnotadd'] = 'Non &egrave; possibile aggiungere il suo messaggio a causa di un errore sconosciuto.';
-$string['couldnotdeleteratings'] = 'Spiacenti, non pu&ograve; essere cancellato in quanto gli utenti lo hanno gi&agrave;  valutato.';
-$string['couldnotdeletereplies'] = 'Spiacenti, non pu&ograve; essere cancellato in quanto gli utenti hanno gi&agrave;  dato le loro risposte.';
+$string['couldnotdeleteratings'] = 'Spiacenti, non pu&ograve; essere cancellato in quanto gli utenti lo hanno gi&agrave;Â  valutato.';
+$string['couldnotdeletereplies'] = 'Spiacenti, non pu&ograve; essere cancellato in quanto gli utenti hanno gi&agrave;Â  dato le loro risposte.';
 $string['couldnotupdate'] = 'Non &egrave; possibile aggiornare il suo messaggio a causa di un errore sconosciuto.';
 $string['delete'] = 'Cancella';
 $string['deleteddiscussion'] = 'L\'argomento di discussione &egrave; stato cancellato.';
@@ -103,9 +103,9 @@ $string['nosubscribers'] = 'Non ci sono ancora iscritti per questo forum';
 $string['nothingnew'] = 'Niente di nuovo per $a';
 $string['notingroup'] = 'Spiacente, ma devi appartenere ad un gruppo per poter vedere questo forum.';
 $string['notrackforum'] = 'non tracciare i messaggi non letti';
-$string['nownotsubscribed'] = '$a->name NON ricever&agrave;  copie di \'$a->forum\' via email.';
+$string['nownotsubscribed'] = '$a->name NON ricever&agrave;Â  copie di \'$a->forum\' via email.';
 $string['nownottracking'] = '$a->name non sta pi&ugrave; tracciando \'$a->forum\'.';
-$string['nowsubscribed'] = '$a->name ricever&agrave;  copie di \'$a->forum\' via email.';
+$string['nowsubscribed'] = '$a->name ricever&agrave;Â  copie di \'$a->forum\' via email.';
 $string['nowtracking'] = '$a->name sta tracciando \'$a->forum\'.';
 $string['numposts'] = '$a messaggi';
 $string['olderdiscussions'] = 'Vecchie discussioni';
@@ -199,7 +199,7 @@ $string['unsubscribed'] = 'Iscrizione cancellata';
 $string['unsubscribeshort'] = 'Disiscrivi';
 $string['yesforever'] = 'Si, per sempre';
 $string['yesinitially'] = 'Si, inizialmente';
-$string['youratedthis'] = 'Lo hai gi&agrave;  votato';
+$string['youratedthis'] = 'Lo hai gi&agrave;Â  votato';
 $string['yournewtopic'] = 'Il tuo nuovo argomento di discussione';
 $string['yourreply'] = 'La tua replica';
 

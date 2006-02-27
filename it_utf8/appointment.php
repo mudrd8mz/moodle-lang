@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+ï»¿<?PHP // $Id$ 
       // appointment.php - created with Moodle 1.4 ready tomorrow (2004083000)
 
 
@@ -20,7 +20,7 @@ $string['modulenameplural'] = 'Appuntamenti';
 $string['newsubmissions'] = 'Appuntamenti sottomessi';
 $string['notgradedyet'] = 'Non ancora valutato';
 $string['notsubmittedyet'] = 'Non ancora sottomesso';
-$string['overwritewarning'] = 'Attenzione: inviando nuovamente sar&agrave;  SOSTITUITA la sottomissione corrente';
+$string['overwritewarning'] = 'Attenzione: inviando nuovamente sar&agrave;Â  SOSTITUITA la sottomissione corrente';
 $string['saveallfeedback'] = 'Salva tutti i miei commenti';
 $string['submissionfeedback'] = 'Sottomissione commenti';
 $string['submissions'] = 'Sottomissioni';
@@ -28,7 +28,7 @@ $string['submitappointment'] = 'Sottometti l\'appuntamento utilizzando questo mo
 $string['submitted'] = 'Sottomesso';
 $string['timeend'] = 'Fine dell\'appuntamento';
 $string['timestart'] = 'Inizio dell\'appuntamento';
-$string['typeoffline'] = 'Attivit&agrave;  offline';
+$string['typeoffline'] = 'Attivit&agrave;Â  offline';
 $string['typeuploadsingle'] = 'a';
 $string['uploadbadname'] = 'b';
 $string['uploadedfiles'] = 'c';

@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+ï»¿<?PHP // $Id$ 
       // editor.php - created with Moodle 1.5 ALPHA (2005050600)
 
 
@@ -60,7 +60,7 @@ $string['justifyright'] = 'Destra';
 $string['layout'] = 'Schema';
 $string['left'] = 'Sinistra';
 $string['lefttoright'] = 'Direzione da sinistra a destra';
-$string['linkproperties'] = 'Propriet&agrave;  collegamento';
+$string['linkproperties'] = 'Propriet&agrave;Â  collegamento';
 $string['linktarget'] = 'destinazione';
 $string['linktargetblank'] = 'Nuova finestra';
 $string['linktargetnone'] = 'Niente';
@@ -88,7 +88,7 @@ $string['pixels'] = 'Punti';
 $string['popupeditor'] = 'Editor in nuova finestra';
 $string['preformatted'] = 'Preformattato';
 $string['preview'] = 'Anteprima';
-$string['properties'] = 'Propriet&agrave; ';
+$string['properties'] = 'Propriet&agrave;Â ';
 $string['redo'] = 'Ripeti ultima azione';
 $string['regularexpressions'] = 'Utilizza espressioni regolari';
 $string['removelink'] = 'Elimina collegamento';

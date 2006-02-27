@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // timezones.php - created with Moodle 1.5 ALPHA (2005051500)
 
 
@@ -132,7 +132,7 @@ $string['america/martinique'] = 'America/Martinique';
 $string['america/mazatlan'] = 'America/Mazatlan';
 $string['america/menominee'] = 'America/Menominee';
 $string['america/merida'] = 'America/Merida';
-$string['america/mexico_city'] = 'America/Citt&agrave;�_del_Messico';
+$string['america/mexico_city'] = 'America/Citt&agrave; _del_Messico';
 $string['america/miquelon'] = 'America/Miquelon';
 $string['america/monterrey'] = 'America/Monterrey';
 $string['america/montevideo'] = 'America/Montevideo';

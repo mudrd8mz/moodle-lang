@@ -1,4 +1,4 @@
-<?PHP // $Id$
+﻿<?PHP // $Id$
 
 $string['-about'] = "A proposito di Moodle";
 $string['intro.html'] = "Introduzione";
