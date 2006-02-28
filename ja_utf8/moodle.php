@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2005101200)
+      // moodle.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['action'] = '操作';
@@ -587,6 +587,7 @@ $string['helpformatting'] = 'テキストフォーマットに関して';
 $string['helphtml'] = 'htmlの書き方';
 $string['helpindex'] = '全ヘルプファイルのインデックス';
 $string['helppicture'] = '写真のアップロード方法';
+$string['helpprefix'] = 'ヘルプ: ';
 $string['helpquestions'] = '適切な質問をする';
 $string['helpreading'] = '慎重に読む';
 $string['helprichtext'] = 'リッチテキストHTMLエディタに関して';
