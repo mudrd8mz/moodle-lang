@@ -39,6 +39,7 @@ $string['configdeleteunconfirmed'] = 'メールによる承認を利用してい
 $string['configdenyemailaddresses'] = '特定ドメインから新しいメールアドレスを拒否したい場合は、この欄にスペースで区切って入力してください。他のドメインはすべて認められます。例  <strong>hotmail.com yahoo.co.uk</strong> ';
 $string['configdigestmailtime'] = 'メール送信する選択をしたユーザに、投稿内容を要約したメールが毎日送信されます。ここでは1日の内で何時に要約メールを送信するか設定します ( 次のcronがここで設定した時間の後に実行されます )。';
 $string['configdisplayloginfailures'] = 'ここで選択したユーザに前回のログイン失敗情報を表示します。';
+$string['configdocroot'] = 'Moodle Docsのパスを定義します。独自のオンラインドキュメントを使用したい場合、この設定を変更することができます。設定を変更する場合、ドキュメンテーションのパスが、http://docs.moodle.org と同じフォーマットであることを確認してください。';
 $string['configenablecourserequests'] = 'すべてのユーザにコース作成のリクエストを許可します。';
 $string['configenablerssfeeds'] = 'ここではサイト全体からのRSSフィードを有効にします。実際に更新された情報を見たい場合は、各モジュールのRSSフィード設定を有効にする必要があります - 管理ページにあるモジュール管理を確認してください。';
 $string['configenablerssfeedsdisabled'] = 'サイトすべてにおいてRSSフィードが利用不可にされているため、利用できません。管理メニュー内の詳細設定でRSSフィードを利用可にすることができます。';
