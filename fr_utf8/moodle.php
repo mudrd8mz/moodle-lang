@@ -1,4 +1,4 @@
-<?php // $Id$
+<?php // // $Id$
 
 $string['action'] = 'Action';
 $string['actions'] = 'Actions';
@@ -590,7 +590,7 @@ $string['helpformatting'] = 'À propos de la mise en forme du texte';
 $string['helphtml'] = 'Comment écrire en HTML';
 $string['helpindex'] = 'Index général de l\'aide';
 $string['helppicture'] = 'Comment déposer une image';
-$string['helpprefix'] = 'Aide sur';
+$string['helpprefix'] = 'Aide sur «&nbsp;$a&nbsp;»';
 $string['helpquestions'] = 'Formuler des questions pertinentes';
 $string['helpreading'] = 'Lire attentivement';
 $string['helprichtext'] = 'À propos de l\'éditeur WYSIWYG';
