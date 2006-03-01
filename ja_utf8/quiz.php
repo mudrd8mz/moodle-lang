@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2005101200)
+      // quiz.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['1day'] = '1日';
@@ -48,11 +48,13 @@ $string['attempts'] = '受験';
 $string['attemptsallowed'] = '受験回数';
 $string['attemptselection'] = 'ユーザごとにどの受験を分析するか選択してください:';
 $string['attemptsexist'] = 'この小テストはすでに受験されています。';
+$string['attemptsonly'] = '受験済みの学生のみ表示';
 $string['attemptsunlimited'] = '無制限';
 $string['back'] = '問題のプレビューに戻る';
 $string['backtoquiz'] = '小テストの編集に戻る';
 $string['bestgrade'] = '最高評点';
 $string['blackboard'] = 'Blackboard';
+$string['bothattempts'] = '受験済みおよび未受験の学生を表示';
 $string['calculated'] = '計算問題';
 $string['calculatedquestion'] = '$a 行の計算された問題はサポートされていません。問題は無視されました。';
 $string['caseno'] = 'いいえ、文字の大小は重要ではありません。';
