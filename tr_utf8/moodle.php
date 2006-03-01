@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2005101200)
+      // moodle.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['action'] = 'Eylem';
@@ -546,7 +546,7 @@ $string['gd2'] = 'GD 2.x kurulu';
 $string['gdneed'] = 'Bu grafiği görebilmeniz için GD kurulu olmalı';
 $string['gdnot'] = 'GD kurulu değil';
 $string['go'] = 'Git';
-$string['gpl'] = 'Telif Hakkı (C) 1999-2004 Martin Dougiamas (http://dougiamas.com)
+$string['gpl'] = 'Telif Hakkı (C) 1999-2006 Martin Dougiamas (http://moodle.com)
 
 Bu program GNU Genel Kamu Lisansı (GPL) ile yazılmıştır.
 http://www.gnu.org/copyleft/gpl.html';
@@ -592,6 +592,7 @@ $string['helpformatting'] = 'Yazı biçimlendirme hakkında';
 $string['helphtml'] = 'HTML Nasıl yazılır';
 $string['helpindex'] = 'Tüm yardım dosyaları';
 $string['helppicture'] = 'Resim nasıl yüklenir';
+$string['helpprefix'] = '\'$a\' hakkında yardım';
 $string['helpquestions'] = 'İyi soru sor';
 $string['helpreading'] = 'Dikkatli oku';
 $string['helprichtext'] = 'Richtext HTML editörü hakkında';

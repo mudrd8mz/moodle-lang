@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 development (2005101200)
+      // data.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['action'] = 'Eylem';
@@ -7,7 +7,9 @@ $string['add'] = 'Kayıt ekle';
 $string['addafield'] = 'Bir Alan Ekle';
 $string['addcomment'] = 'Yorum Ekle';
 $string['addtemplate'] = 'Şablon Ekle';
+$string['allowcomments'] = 'Yorum izni';
 $string['allowratings'] = 'Gönderilerin derecelendirilmesine izin ver';
+$string['approve'] = 'Onayla';
 $string['ascending'] = 'Artan';
 $string['atmaxentry'] = 'İzin verilen en yüksek kayıt sayısını girdiniz!';
 $string['autogenallforms'] = 'Tüm varsayılan şablonları oluştur';
@@ -15,17 +17,19 @@ $string['availablefromdate'] = 'Başlangıç';
 $string['availabletags'] = 'Uygulanabilir etiketler';
 $string['availabletodate'] = 'Bitiş';
 $string['browse'] = 'Gözat';
-$string['byname'] = 'yazan $a';
+$string['bynameondate'] = 'gönderen $a->name - $a->date';
 $string['cancel'] = 'İptal';
 $string['checkbox'] = 'Kutu(lar)';
-$string['comments'] = 'Yorumlara izin ver?';
+$string['comments'] = 'Yorumlar';
 $string['commentsaved'] = 'Yorum Kaydedildi';
 $string['confirmdeletefield'] = 'Bu alanı silmek üzeresiniz, emin misiniz?';
 $string['confirmdeleterecord'] = 'Bu kaydı silmek üzeresiniz, emin misiniz?';
 $string['dateentered'] = 'Girilme Tarihi';
+$string['delete'] = 'Sil';
 $string['deleted'] = 'silindi';
 $string['deletefield'] = 'Varolan Alanı Sil';
 $string['descending'] = 'Azalan';
+$string['edit'] = 'Düzenle';
 $string['emptyadd'] = 'Ekleme şablonu boş, varsayılan biçim oluşturuluyor...';
 $string['emptyaddform'] = 'Bütün alanları doldurmadınız!';
 $string['entrysaved'] = 'Girdiniz kaydedildi.';
@@ -64,6 +68,7 @@ $string['menu'] = 'Menu (Tek-seçim)';
 $string['menuchoose'] = 'Seç...';
 $string['modulename'] = 'Veritabanı';
 $string['modulenameplural'] = 'Veritabanları';
+$string['more'] = 'Dahası';
 $string['multientry'] = 'Tekrarlamış girdi';
 $string['multimenu'] = 'Menu (Çoklu-seçme)';
 $string['multipletags'] = 'Birçok etiket bulundu. Şablon kaydedilmedi';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2005101200)
+      // quiz.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['1day'] = '1 Gün';
@@ -48,11 +48,13 @@ $string['attempts'] = 'Uygulamalar';
 $string['attemptsallowed'] = 'Tekrar uygulama izni';
 $string['attemptselection'] = 'Her bir kullanıcı için hangi uygulamalar analiz yapılacak:';
 $string['attemptsexist'] = 'Bu sınav zaten uygulandı. <br /> Artık soru ekleyemez veya çıkaramazsınız.';
+$string['attemptsonly'] = 'Sadece uygulama yapan öğrencileri göster';
 $string['attemptsunlimited'] = 'Sınırsız uygulama';
 $string['back'] = 'Soruyu önizlemeye geri dön';
 $string['backtoquiz'] = 'Sınav düzenlemeye dön';
 $string['bestgrade'] = 'En yüksek not';
 $string['blackboard'] = 'Karatahta';
+$string['bothattempts'] = 'Uygulama yapan ve yapmayan öğrencileri göster';
 $string['calculated'] = 'Hesaplanmış';
 $string['calculatedquestion'] = '$a. satırdaki Hesaplanmış Soru desteklenmiyor. Soru yok sayılacak';
 $string['caseno'] = 'Hayır, harf duyarlılığı önemli değil';
