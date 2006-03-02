@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.6 development (2005101200)
+      // lesson.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['accesscontrol'] = 'Toegangscontrole';
@@ -24,6 +24,7 @@ $string['answersfornumerical'] = 'Antwoorden voor numerieke vragen moeten paren 
 $string['arrangebuttonshorizontally'] = 'De knoppen voor de takken horizontaal schikken in de diamodus?';
 $string['attempt'] = 'Poging: $a';
 $string['attempts'] = 'Pogingen';
+$string['attemptsremaining'] = 'Je kan nog $a poging(en) doen';
 $string['available'] = 'Beschikbaar van';
 $string['averagescore'] = 'Gemiddelde score';
 $string['averagetime'] = 'Gemiddelde tijd';
@@ -132,6 +133,7 @@ $string['matchesanswer'] = 'Komt overeen met antwoord';
 $string['maxhighscores'] = 'Aantal getoonde hoogste cijfers';
 $string['maximumnumberofanswersbranches'] = 'Maximumaantal antwoorden/vertakkingen';
 $string['maximumnumberofattempts'] = 'Maximumaantal pogingen';
+$string['maximumnumberofattemptsreached'] = 'Maximum aantal pogingen bereikt - we gaan verder naar de volgende pagina.';
 $string['maxtime'] = 'Tijdslimiet (minuten)';
 $string['maxtimewarning'] = 'Je hebt $a minuten om de les af te werken.';
 $string['mediaclose'] = 'Toon knop om te sluiten';
@@ -147,7 +149,6 @@ $string['modulenameplural'] = 'Lessen';
 $string['movedpage'] = 'Pagina verplaatst';
 $string['movepagehere'] = 'Verplaats de pagina naar hier';
 $string['moving'] = 'Bezig met pagina $a verplaatsen';
-$string['movingtonextpage'] = 'Verplaatsen naar de volgende pagina';
 $string['multianswer'] = 'Meer antwoorden';
 $string['multipleanswer'] = 'Meer antwoorden';
 $string['nameapproved'] = 'Naam goedgekeurd';
@@ -203,7 +204,6 @@ $string['questiontype'] = 'Vraagtype';
 $string['randombranch'] = 'Willekeurige tak';
 $string['randompageinbranch'] = 'Willekeurige vraag binnen een tak';
 $string['rank'] = 'Rangschikking';
-$string['reached'] = 'bereikt';
 $string['receivedcredit'] = 'Behaalde score';
 $string['redisplaypage'] = 'Toon pagina opnieuw ';
 $string['report'] = 'Rapport';

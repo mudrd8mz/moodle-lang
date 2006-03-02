@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 development (2005101200)
+      // data.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['action'] = 'Actie';
@@ -7,7 +7,9 @@ $string['add'] = 'Voeg item toe';
 $string['addafield'] = 'Voeg een veld toe';
 $string['addcomment'] = 'Voeg commentaar toe';
 $string['addtemplate'] = 'Voeg een sjabloon toe';
+$string['allowcomments'] = 'Commentaar geven toelaten?';
 $string['allowratings'] = 'Berichten laten beoordelen?';
+$string['approve'] = 'Keur goed';
 $string['ascending'] = 'Oplopend';
 $string['atmaxentry'] = 'Je hebt het maximum aantal items ingevoegd';
 $string['autogenallforms'] = 'Genereer alle standaardsjablonen';
@@ -15,7 +17,7 @@ $string['availablefromdate'] = 'Beschikbaar van';
 $string['availabletags'] = 'Beschikbare tags';
 $string['availabletodate'] = 'Beschikbaar voor';
 $string['browse'] = 'Bladeren';
-$string['byname'] = 'door $a';
+$string['bynameondate'] = 'door $a->name - $a->date';
 $string['cancel'] = 'Annuleer';
 $string['checkbox'] = 'Keuzevakjes';
 $string['comments'] = 'Commentaar toelaten?';
@@ -24,9 +26,11 @@ $string['configenablerssfeeds'] = 'Met deze knop kun je RSS-feeds toelaten voor 
 $string['confirmdeletefield'] = 'Je gaat dit veld verwijderen. Ben je zeker?';
 $string['confirmdeleterecord'] = 'Je gaat deze record verwijderen. Ben je zeker?';
 $string['dateentered'] = 'Datum';
+$string['delete'] = 'Verwijder';
 $string['deleted'] = 'verwijderd';
 $string['deletefield'] = 'Verwijder een bestaand veld';
 $string['descending'] = 'Aflopend';
+$string['edit'] = 'Bewerk';
 $string['emptyadd'] = 'Het sjabloon voor toevoegen is leeg. Standaard formulier aan het genereren...';
 $string['emptyaddform'] = 'Je hebt geen velden ingevuld!';
 $string['entrysaved'] = 'Gegevens bewaard.';
@@ -65,6 +69,7 @@ $string['menu'] = 'Menu (enkele selectie)';
 $string['menuchoose'] = 'Kies...';
 $string['modulename'] = 'Databank';
 $string['modulenameplural'] = 'Databanken';
+$string['more'] = 'Meer';
 $string['multientry'] = 'Herhaald invoeren';
 $string['multimenu'] = 'Menu (meerdere selecties)';
 $string['multipletags'] = 'Meerdere tags gevonden! Sjabloon niet bewaard';

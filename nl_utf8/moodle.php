@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2005101200)
+      // moodle.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['action'] = 'Actie';
@@ -83,6 +83,7 @@ $string['allactions'] = 'Alle acties';
 $string['allactivities'] = 'Alle activiteiten';
 $string['alldays'] = 'Alle dagen';
 $string['allfieldsrequired'] = 'Alle velden zijn verplicht';
+$string['allfiles'] = 'Alle bestanden';
 $string['allgroups'] = 'Alle groepen';
 $string['alllogs'] = 'Alle statistieken';
 $string['allow'] = 'Sta toe';
@@ -591,6 +592,7 @@ $string['helpformatting'] = 'Over tekstopmaak';
 $string['helphtml'] = 'Hoe je HTML kunt schrijven';
 $string['helpindex'] = 'Index  helpbestanden';
 $string['helppicture'] = 'Hoe je een afbeelding kunt uploaden';
+$string['helpprefix'] = 'Hulp voor \'$a\'';
 $string['helpquestions'] = 'Stel goede vragen';
 $string['helpreading'] = 'Lees zorgvuldig';
 $string['helprichtext'] = 'Over de HTML-editor';
@@ -617,6 +619,7 @@ $string['htmleditoravailable'] = 'De HTML-editor is beschikbaar';
 $string['htmleditordisabled'] = 'Je hebt de HTML-editor uitgezet in je gebruikersprofiel';
 $string['htmleditordisabledadmin'] = 'De beheerder heeft de HTML-editor uitgezet op deze site';
 $string['htmleditordisabledbrowser'] = 'De HTML-editor is niet beschikbaar omdat je browser er niet compatibel mee is';
+$string['htmlfilesonly'] = 'Enkel HTML-bestanden';
 $string['htmlformat'] = 'Mooie HTML-opmaak';
 $string['icqnumber'] = 'ICQ-nummer';
 $string['idnumber'] = 'Nummer (ID)';
@@ -769,6 +772,7 @@ $string['moduledeleteconfirm'] = 'Je staat op het punt de volledige module \'$a\
 $string['moduledeletefiles'] = 'Alle gegevens in verband met de module \'$a->module\' zijn uit de databank verwijderd. Om deze verwijdering verder af te werken (en om te verhinderen dat de module zich herinstalleert), moet je nu de map $a->directory van je server verwijderen.';
 $string['modulesetup'] = 'Klaarmaken van de tabellen van de module';
 $string['modulesuccess'] = '$a tabellen zijn met succes klaargemaakt';
+$string['moodledocslink'] = 'Hulp uit Moodle Docs voor deze pagina';
 $string['moodleversion'] = 'Moodleversie';
 $string['more'] = 'meer';
 $string['mostrecently'] = 'meest recente';
