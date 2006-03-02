@@ -768,6 +768,7 @@ $string['moduledeleteconfirm'] = 'Vous allez supprimer le module «&nbsp;$a&nbsp
 $string['moduledeletefiles'] = 'Tous les éléments associés au module «&nbsp;$a->module&nbsp;» ont été effacés de la base de données. Pour terminer la suppression (et empêcher que le module se réinstalle automatiquement), veuillez supprimer le dossier suivant de votre serveur: $a->directory';
 $string['modulesetup'] = 'Installation des tables des modules';
 $string['modulesuccess'] = 'Les tables du module $a ont été installées correctement';
+$string['moodledocslink'] = 'Documentation Moodle pour cette page';
 $string['moodleversion'] = 'Version de Moodle';
 $string['more'] = 'suite';
 $string['mostrecently'] = 'le plus récemment';
