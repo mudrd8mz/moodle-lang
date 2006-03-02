@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 development (2005101200)
+      // admin.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['adminseesallevents'] = 'Beheerders zien alle gebeurtenissen';
@@ -39,6 +39,7 @@ $string['configdeleteunconfirmed'] = 'Als je met e-mailauthenticatie werkt dan i
 $string['configdenyemailaddresses'] = 'Om e-mailadressen van bepaalde domeinen te weigeren, kun je ze hier op dezelfde manier opnemen. Alle andere domeinen zullen aanvaard worden. bv <strong>hotmail.com yahoo.co.uk</strong>';
 $string['configdigestmailtime'] = 'Gebruikers die ervoor kiezen dat de e-mails hun als samenvatting toegezonden worden, zullen dagelijks een e-mail ontvangen. Deze instelling controleert op welk moment van de dag deze dagelijkse mail verzonden wordt (de mail wordt verstuurd door de cron die volgt op het uur dat hier gekozen wordt)';
 $string['configdisplayloginfailures'] = 'Dit zal informatie tonen over mislukte aanmeldingen van de geselecteerde gebruikers';
+$string['configdocroot'] = 'Bepaalt het pad naar Moodle Docs. Je kunt dit wijzigen als je je eigen aangepaste on line documentatie wil. Als je dat wil doen, moet je er wel voor zorgen dat de vorm van het pad er naartoe dezelfde is als http://docs.moodle.org';
 $string['configenablecourserequests'] = 'Hiermee kan elke gebruiker aanvragen om een nieuwe cursus aan te maken.';
 $string['configenablerssfeeds'] = 'Met deze instelling maak je RSS-feeds mogelijk voor heel de site. Om ze echt te kunnen gebruiken, moet je de RSS-feeds nog inschakelen voor elke module afzonderlijk - ga naar \'Beheer van de modules\' onder Beheer, Configuratie.';
 $string['configenablerssfeedsdisabled'] = 'Dit is niet beschikbaar omdat RSS voor heel de site is uitgeschakeld. Om RSS in te schakelen ga je naar Configureer variablen onder Beheer Configuratie.';
@@ -123,7 +124,7 @@ $string['configwarning'] = 'Wees voorzichtig met het veranderen van deze instell
 $string['configzip'] = 'Geef de locatie van je ZIP-programma (alleen voor UNIX). Dit is nodig om ZIP-archieven op de server te maken.';
 $string['confirmation'] = 'Bevestiging';
 $string['confirminstall'] = 'Je gaat het taalpakket ($a) installeren. Verder gaan?';
-$string['cronwarning'] = 'Het onderhoudsscript <a href=\"cron.php\">cron.php</a> heeft de laatste 24 uur niet gelopen. <br />Als je dit nog niet geconfigureerd hebt, lees dan het onderdeel <a href=\"../doc/?frame=install.html&amp;sub=cron\">Cron configureren</a> bij de installatie-instructies.';
+$string['cronwarning'] = 'Het onderhoudsscript <a href=\"cron.php\">cron.php</a> heeft de laatste 24 uur niet gelopen. <br />Als je dit nog niet geconfigureerd hebt, lees dan het onderdeel <a href=\"../doc/?frame=install.html&sub=cron\">Cron configureren</a> bij de installatie-instructies.';
 $string['dbmigrate'] = 'Migratie van de Moodle databank naar UTF8';
 $string['dbmigratewarning'] = 'Zorg voor een backup van je databank voor je aan deze procedure begint. Als je niet goed weet hoe dat te doen, neem dan contact op met je systeembeheerder. Zodra je de migratie begint, wordt je Moodle-site in onderhoudsmodus gezet.';
 $string['dbmigratewarning2'] = '<b>Waarschuwing: zodadelijk ga je het databank migratieproces starten. Zorg er voor dat je een goede backup hebt van je Moodle databank.</b>';
