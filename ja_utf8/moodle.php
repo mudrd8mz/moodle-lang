@@ -777,6 +777,7 @@ $string['moduledeleteconfirm'] = 'あなたはモジュール「 $a 」を完全
 $string['moduledeletefiles'] = '「 $a->module 」に関わるすべてのデータは削除されました。削除を完全なものにするために ( モジュールの自動再インストールを防ぐために ) 以下のディレクトリをサーバより削除してください: $a->directory';
 $string['modulesetup'] = 'Moodleテーブル設定中';
 $string['modulesuccess'] = '$a テーブルが正常に設定されました。';
+$string['moodledocslink'] = 'このページのMoodleドキュメント';
 $string['moodleversion'] = 'Moodleバージョン';
 $string['more'] = 'もっと';
 $string['mostrecently'] = '直近の';
