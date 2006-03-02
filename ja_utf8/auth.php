@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 development (2005101200)
+      // auth.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['alternatelogin'] = 'ここにURLを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong>フィールドおよび<strong>password</strong>フィールドを適切にMoodleに渡す必要があります。<br />間違ったURLを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合は、空白のままにしてください。';
@@ -109,7 +109,7 @@ $string['auth_shib_convert_data'] = 'データ修正API';
 $string['auth_shib_convert_data_description'] = 'Shibbolethから提供されるデータを修正したい場合にこのAPIを使うことができます。詳細は、<a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> をご覧ください。';
 $string['auth_shib_convert_data_warning'] = 'ファイルが存在しないか、ウェブプロセスで読み取れません!';
 $string['auth_shib_instructions'] = 'あなたの機関がShibbolethをサポートしている場合、Shibboleth経由のアクセスには、<a href=\"$a\">Shibbolethログイン</a>を使用してください。 <br />Shibbolethをサポートしていない場合は、ここに表示される通常ログインを使用してください。';
-$string['auth_shib_instructions_help'] = 'Shibbolethに関してユーザに提示する説明文です。 これはログインページの説明セクションに表示されます。Shibbolethユーザが簡単にログインできるように \"<b>$a</b>\" のようなリンクを入れてください。空白にした場合、通常の説明文 ( Shibboleth限定ではなく ) が使用されます。';
+$string['auth_shib_instructions_help'] = 'Shibbolethに関してユーザに提示する説明文です。 これはログインページの説明セクションに表示されます。Shibbolethユーザが簡単にログインできるよう「<b>$a</b>」 のようなリンクを入れてください。';
 $string['auth_shib_only'] = 'Shibbolethのみ';
 $string['auth_shib_only_description'] = 'Shibboleth認証を強制する場合は、このオプションをチェックしてください。';
 $string['auth_shib_username_description'] = 'Moodleユーザ名として使用されるShibbolethウェブサーバ環境のユーザ名';
@@ -143,7 +143,7 @@ $string['passwordhandling'] = 'パスワードフィールドの取り扱い';
 $string['plaintext'] = 'テキスト';
 $string['shib_no_attributes_error'] = 'あなたはShibbolethによる認証を行ったようですが、Moodleはユーザ属性を受信していません。Moodleが稼動しているプロバイダへ必要な属性 ( $a ) を発行するアイデンティティ・プロバイダを確認するか、このサーバの管理者に連絡してください。';
 $string['shib_not_all_attributes_error'] = 'あなたの場合、存在していないShibboleth属性をMoodleは必要とします。属性は次のとおりです: $a<br/>このサーバの管理者またはアイデンティティ・プロバイダにご連絡ください。';
-$string['shib_not_set_up_error'] = 'Shibboleth認証が正しく設定されていないようです。Shibboleth認証の設定に関する更なる情報は、<a href=\"README.txt\">README</a>をご覧ください。';
+$string['shib_not_set_up_error'] = 'Shibboleth環境変数がこのページに存在していないため、Shibboleth認証が正しく設定されていないようです。Shibboleth認証の設定に関する更なる情報は、<a href=\"README.txt\">README</a>を参照、またはこのMoodleをインストールした管理者に連絡してください。';
 $string['showguestlogin'] = 'ログインページのゲストログインボタンを表示／非表示にできます。';
 $string['stdchangepassword'] = '標準パスワード変更ページを使用';
 $string['stdchangepassword_expl'] = '外部認証システムがMoodleにパスワードの変更を許可する場合、この設定を「Yes」にしてください。この設定は、「Change Password URL」をオーバーライドします。';
