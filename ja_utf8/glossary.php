@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 development (2005101200)
+      // glossary.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -92,12 +92,11 @@ $string['entryusedynalink'] = 'エントリを自動的にリンクさせる';
 $string['explainaddentry'] = '用語集に新しいエントリを追加します。<br />用語と定義は必須入力項目です。';
 $string['explainall'] = 'すべてのエントリを1ページに表示';
 $string['explainalphabet'] = 'インデックスを利用して用語集を表示';
-$string['explainexport'] = 'ファイルが生成されました。<br />ファイルをダウンロードして安全に保管してください。いつでも必要な時に、このコースまたは他のコースにインポートすることができます。';
+$string['explainexport'] = '用語集をエクスポートするには、下記のボタンをクリックしてください。<br />いつでも必要な時に、用語集をこのコースまたは他のコースにインポートすることができます。<p>添付ファイル ( 例 イメージ ) および著者はエクスポートされませんので注意してください。</p>';
 $string['explainimport'] = 'インポートするファイルおよび処理方法を指定してください。<p>実行後、結果を検証してください。';
 $string['explainspecial'] = '１文字で始まらないエントリを表示します。';
-$string['exportedentry'] = 'エクスポートされたエントリ';
-$string['exportedfile'] = 'エクスポートされたファイル';
 $string['exportentries'] = 'エントリのエクスポート';
+$string['exportfile'] = 'エントリをファイルにエクスポート';
 $string['exportglossary'] = '用語集のエクスポート';
 $string['exporttomainglossary'] = 'メイン用語集へのエクスポート';
 $string['filetoimport'] = 'インポートするファイル';
@@ -107,7 +106,6 @@ $string['fullmatch'] = '完全一致のみ';
 $string['globalglossary'] = 'グローバル用語集';
 $string['glossaryleveldefaultsettings'] = '用語集レベルのデフォルト設定';
 $string['glossarytype'] = '用語集タイプ';
-$string['glosssaryexported'] = '用語集がエクスポートされました。';
 $string['importcategories'] = 'カテゴリをインポートする';
 $string['importedcategories'] = 'インポートされたカテゴリ';
 $string['importedentries'] = 'インポートされたエントリ';
