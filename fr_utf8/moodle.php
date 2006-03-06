@@ -678,6 +678,7 @@ $string['login'] = 'Connexion';
 $string['login_failure_logs'] = 'Historique des tentatives de connexion';
 $string['loginalready'] = 'Vous êtes déjà connecté';
 $string['loginas'] = 'Se connecter sous ce nom';
+$string['loginaspasswordexplain'] = '<p>Pour utiliser cette fonction, vous devez saisir un mot de passe spécial «&nbsp;connecté en tant que&nbsp;».<br />Si vous ne connaissez pas ce mot de passe, prenez contact avec l\'administrateur de ce moodle.</p>';
 $string['loginguest'] = 'Connexion en tant qu\'invité';
 $string['loginsite'] = 'Se connecter sur le site';
 $string['loginsteps'] = '<p>Bonjour. Pour un accès complet aux cours, prenez une minute pour vous créer un compte personnel sur ce site.<br />
