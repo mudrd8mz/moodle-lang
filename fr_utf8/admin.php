@@ -228,6 +228,6 @@ $string['userscreated'] = 'Utilisateurs créés';
 $string['usersrenamed'] = 'Utilisateurs renommés';
 $string['usersupdated'] = 'Utilisateurs modifiés';
 $string['updateaccounts'] = 'Modifier des comptes existants';
-$string['upwards']  = 'vers le haut';
+$string['upwards']  = 'et ultérieures';
 
 ?>
