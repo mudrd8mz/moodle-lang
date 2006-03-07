@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // auth.php - created with Moodle 1.6 development (2005090100)
 
 
@@ -107,6 +107,11 @@ $string['auth_pop3mailbox'] = 'Nome della casella di posta con cui tentale la co
 $string['auth_pop3port'] = 'Porta del server (110 &egrave; la pi&ugrave; tipica, 995 &egrave; standard per SSL)';
 $string['auth_pop3title'] = 'Usa server POP3';
 $string['auth_pop3type'] = 'Tipo di server. Se il vostro server usa i certificati per sicurezza, scegli pop3cert.';
+$string['auth_radiusdescription'] = 'Questo metodo utilizza un server <a href=\"http://en.wikipedia.org/wiki/RADIUS\" target=\"_blank\">RADIUS</a> per controllare se il nome utente e la password fornite sono valide.';
+$string['auth_radiushost'] = 'Indirizzo del server RADIUS';
+$string['auth_radiusnasport'] = 'Porta utilizzata per connettersi';
+$string['auth_radiussecret'] = 'Segreto condiviso';
+$string['auth_radiustitle'] = 'Utilizza un server RADIUS';
 $string['auth_shib_convert_data'] = 'API per la modifica dei dati';
 $string['auth_shib_convert_data_description'] = 'Puoi usare queste API per modificare ulteriormente i dati forniti da Shibboleth. Per maggiori informazioni, leggi <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a>';
 $string['auth_shib_convert_data_warning'] = 'Il file non esiste o non &egrave; leggibile dal processo del webserver!';
@@ -133,14 +138,13 @@ $string['authinstructions'] = 'Qui si possono fornire le istruzioni per i vostri
 $string['changepassword'] = 'Cambia URL delle password';
 $string['changepasswordhelp'] = 'Qui si pu&ograve; specificare una collocazione dove i gli utenti possono recuperare o cambiare il loro nome utente/password se li hanno dimenticati. Questo servizio di Help verr&agrave;  fornito agli utenti sotto forma di pulsante nella pagina di login e nella loro pagina utente. Se lasciato vuoto, il bottone non verr&agrave;  visualizzato.';
 $string['chooseauthmethod'] = 'Scegliete un metodo di autenticazione:';
-$string['createchangepassword'] = 'Crea se mancante - forza la modifica';
-$string['createpassword'] = 'Crea se mancante';
 $string['forcechangepassword'] = 'Forza il cambiamento della password';
 $string['forcechangepassword_help'] = 'Forzare gli utenti a cambiare la password al successivo accesso a Moodle?';
 $string['forcechangepasswordfirst_help'] = 'Forzare gli utenti a cambiare la password al primo accesso a Moodle?';
 $string['guestloginbutton'] = 'Pulsante login ospite';
 $string['infilefield'] = 'Campo richiesto nel file';
 $string['instructions'] = 'Istruzioni';
+$string['internal'] = 'Interna';
 $string['locked'] = 'Bloccato';
 $string['md5'] = 'Criptatura MD5';
 $string['passwordhandling'] = 'Gestione del campo password';

@@ -80,6 +80,7 @@ $string['parameter'] = 'Parametro';
 $string['parameters'] = 'Parametri';
 $string['popupresource'] = 'Questa risorsa deve apparire in una finestra di popup';
 $string['popupresourcelink'] = 'Se non lo fa, cliccare qui: $a';
+$string['redeploy'] = 'Pubblica nuovamente';
 $string['resourcetype'] = 'Tipo di risorsa';
 $string['resourcetype1'] = 'Riferimento';
 $string['resourcetype2'] = 'Pagina web';

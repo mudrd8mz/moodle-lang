@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // assignment.php - created with Moodle 1.6 development (2005060201)
 
 
@@ -36,6 +36,8 @@ $string['failedupdatefeedback'] = 'Aggiornamento delle risposte alle consegne de
 $string['feedback'] = 'Risposte';
 $string['feedbackfromteacher'] = 'Risposte dal';
 $string['feedbackupdated'] = 'Risposte alle consegne aggiornate per $a utenti';
+$string['guestnosubmit'] = 'Spiacente, ma agli ospiti non è permesso sottomettere compiti.
+Dovete autenticarvi/registrarvi prima di poter sottomettere la risposta';
 $string['guestnoupload'] = 'Spiacente, agli ospiti non &egrave; permesso inviare file.';
 $string['helpoffline'] = '<p>Questo &egrave; utile quando il compito &egrave; compilato al di fuori di Moodle. Potrebbe essere da qualche altra parte sul web o un\'attivit&agrave;  in presenza/aula.</p><p>Gli studenti possono vedere una descrizione del compito ma non possono inviare file o altro. La valutazione funziona normalmente, e gli studenti riceveranno la notifica delle loro valutazioni.</p>';
 $string['helponline'] = '<p>Questo tipo di compito chiede agli utenti di redigere un testo, utilizzando i normali strumenti di modifica. I docenti possono valutarli online, e anche aggiungere dei commenti in linea o modifiche.</p>

@@ -1,5 +1,5 @@
-﻿<?PHP // $Id$ 
-      // currencies.php - created with Moodle 1.6 development (2005101200)
+<?PHP // $Id$ 
+      // currencies.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['ADP'] = 'Peseta di Andorra';
@@ -29,6 +29,7 @@ $string['BWP'] = 'Pula della Bosnia';
 $string['BZD'] = 'Dollaro del Belize';
 $string['CAD'] = 'Dollaro Canadese';
 $string['CHF'] = 'Franco Svizzero';
+$string['CLF'] = 'Chilean Unidades de Fomento';
 $string['CLP'] = 'Peso Cileno';
 $string['CNY'] = 'Renminbi del Yuan (Cinese)';
 $string['COP'] = 'Peso Colombiano';
@@ -39,7 +40,7 @@ $string['CVE'] = 'Scudo di Capo Verde';
 $string['CYP'] = 'Sterlina Cipriota';
 $string['DDM'] = 'Marco della Germania dell\'Est (DDR)';
 $string['DEM'] = 'Marco Tedesco';
-$string['DJF'] = 'Franco del Djibout';
+$string['DJF'] = 'Franco del Djibouti';
 $string['DKK'] = 'Corona Danese';
 $string['DOP'] = 'Peso Dominicano';
 $string['DZD'] = 'Dinaro Algerino';
