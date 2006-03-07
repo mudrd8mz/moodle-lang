@@ -130,6 +130,7 @@ $string['authinstructions'] = 'どのようなユーザ名やパスワードを�
 $string['changepassword'] = 'パスワードURLの変更';
 $string['changepasswordhelp'] = 'ユーザがユーザ名/パスワードを忘れたときに回復または変更するためのボタンをログインページに表示します。この設定により、ログインページおよびユーザページにボタンが表示されます。空白の場合、ボタンは表示されません。';
 $string['chooseauthmethod'] = '認証方法の選択:';
+$string['createpasswordifneeded'] = '必要な場合、パスワードを作成する';
 $string['forcechangepassword'] = 'パスワード変更の強制';
 $string['forcechangepassword_help'] = '次にMoodleへログインするときに、ユーザのパスワード変更を強制します。';
 $string['forcechangepasswordfirst_help'] = '最初にMoodleへログインするときに、ユーザのパスワード変更を強制します。';
