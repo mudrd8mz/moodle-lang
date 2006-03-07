@@ -519,6 +519,7 @@ $string['formattext'] = 'Moodleオートフォーマット';
 $string['formattexttype'] = 'フォーマット';
 $string['formattopics'] = 'トピックフォーマット';
 $string['formatweeks'] = 'ウィークリーフォーマット';
+$string['formatweekscss'] = 'ウィークリーフォーマット - CSS/テーブル無し';
 $string['formatwiki'] = 'Wikiフォーマット';
 $string['from'] = 'From';
 $string['frontpagecategorynames'] = 'カテゴリ一覧';
