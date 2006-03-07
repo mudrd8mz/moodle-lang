@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 development (2005101200)
+      // admin.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['adminseesallevents'] = 'Els administradors veuen tots els esdeveniments';
@@ -29,7 +29,7 @@ $string['configautologinguests'] = 'Cal fer entrar automàticament com a visitan
 $string['configcachetext'] = 'Aquest paràmetre pot agilitzar el funcionament de llocs amb molts usuaris o llocs que utilitzen filtres de text. Durant el temps que s\'especifica aquí es reté una còpia del text ja filtrat. Teniu en compte que si el temps especificat és massa breu el funcionament es podria alentir i tot, i que un temps massa prolongat podria implicar que els textos triguessin massa a actualitzar-se.';
 $string['configclamactlikevirus'] = 'Tracta els fitxers com a virus';
 $string['configclamdonothing'] = 'Dóna els fitxers per bons';
-$string['configclamfailureonupload'] = 'Si heu configurat el clam per escanejar els fitxers que es pugin, però està configurat incorrectament o no es pot executar per alguna raó desconeguda, com s\'hauria de comportar? Si trieu \"Tracta els fitxers com a virus\", tots els fitxers es mouran a l\'àrea de quarantena, o seran suprimits. Si trieu \"Dóna els fitxers per bons\", els fitxers es mouran al seu directori de destinació com és normal.';
+$string['configclamfailureonupload'] = 'Si heu configurat el clam per escanejar els fitxers que es pengin, però està configurat incorrectament o no es pot executar per alguna raó desconeguda, com s\'hauria de comportar? Si trieu \"Tracta els fitxers com a virus\", tots els fitxers es mouran a l\'àrea de quarantena, o seran suprimits. Si trieu \"Dóna els fitxers per bons\", els fitxers es mouran al seu directori de destinació com és normal.';
 $string['configcountry'] = 'Si definiu un país aquí, llavors aquest país quedarà seleccionat per defecte en els nous comptes d\'usuari. Si voleu que els usuaris triïn obligatòriament un país, no n\'especifiqueu cap aquí.';
 $string['configdbsessions'] = 'Si habiliteu aquest paràmetre, la base de dades emmagatzemarà la informació de les sessions dels usuaris. Això és especialment útil en llocs amb molts usuaris o en llocs que funcionen en clústers de servidors. Per a la majoria de llocs problema és millor no habilitar-lo i utilitzar el disc del servidor en lloc de la base de dades. Teniu en compte que si canvieu ara aquest paràmetre tancareu les sessions de tots els usuaris (la vostra inclosa).';
 $string['configdebug'] = 'Si activeu aquest paràmetre s\'incrementarà l\'error_reporting del PHP, de manera que es visualitzaran més avisos. Útil només per a desenvolupadors.';
@@ -89,7 +89,7 @@ $string['configrequestedteachername'] = 'Paraula per a \"professor\" en els curs
 $string['configrequestedteachersname'] = 'Paraula per a \"professors\" en els cursos sol·licitats';
 $string['configrestrictbydefault'] = 'Els nous cursos que es creïn en aquesta categoria, han de tenir limitats per defecte els mòduls?';
 $string['configrestrictmodulesfor'] = 'Quins cursos han de tenir <b>l\'opció</b> d\'inhabilitar alguns mòduls d\'activitat?';
-$string['configrunclamonupload'] = 'Voleu executar el clam AV quan es pugin fitxers? Proporcioneu un camí correcte en pathtoclam perquè funcioni. (Clam AV és un escanejador de virus lliure que podeu obtenir en http://www.clamav.net/)';
+$string['configrunclamonupload'] = 'Voleu executar el clam AV quan es pengin fitxers? Proporcioneu un camí correcte en pathtoclam perquè funcioni. (Clam AV és un escanejador de virus lliure que podeu obtenir en http://www.clamav.net/)';
 $string['configsectioninterface'] = 'Interfície';
 $string['configsectionmail'] = 'Correu';
 $string['configsectionmaintenance'] = 'Manteniment';
