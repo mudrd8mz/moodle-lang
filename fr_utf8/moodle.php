@@ -515,6 +515,7 @@ $string['formattext'] = 'Format Moodle';
 $string['formattexttype'] = 'Mise au format';
 $string['formattopics'] = 'Thématique';
 $string['formatweeks'] = 'Hebdomadaire';
+$string['formatweekscss'] = 'Hebdomadaire - CSS, sans table';
 $string['formatwiki'] = 'Format de genre wiki';
 $string['from'] = 'De';
 $string['frontpagecategorynames'] = 'Liste des catégories de cours';
