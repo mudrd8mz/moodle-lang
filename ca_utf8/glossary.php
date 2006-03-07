@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.5.2 + (2005060223)
+      // glossary.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['addcomment'] = 'Afegeix un comentari';
@@ -95,9 +95,8 @@ $string['explainalphabet'] = 'Navegueu pel glossari utilitzant aquest índex';
 $string['explainexport'] = 'S\'ha creat un fitxer.<br/ >Baixeu-lo i deseu-lo en lloc segur. Podeu importar-lo en qualsevol moment en aquest curs o en un altre.';
 $string['explainimport'] = 'Heu d\'especificar el fitxer que voleu importar i definir els criteris del procés.<p>Trameteu la vostra sol·licitud i reviseu els resultats.';
 $string['explainspecial'] = 'Visualitzeu totes les entrades que no comencen per una lletra';
-$string['exportedentry'] = 'Entrada exportada';
-$string['exportedfile'] = 'Fitxer exportat';
 $string['exportentries'] = 'Exporta entrades';
+$string['exportfile'] = 'Exporta entrades a un fitxer';
 $string['exportglossary'] = 'Glossari exportat';
 $string['exporttomainglossary'] = 'Exporta al glossari principal';
 $string['filetoimport'] = 'Fitxer per importar';
@@ -107,7 +106,6 @@ $string['fullmatch'] = 'Enllaça només paraules completes';
 $string['globalglossary'] = 'Glossari global';
 $string['glossaryleveldefaultsettings'] = 'Paràmetres per defecte al nivell de glossari';
 $string['glossarytype'] = 'Tipus de glossari';
-$string['glosssaryexported'] = 'S\'ha exportat el glossari.';
 $string['importcategories'] = 'Importa categories';
 $string['importedcategories'] = 'Categories importades';
 $string['importedentries'] = 'Entrades importades';

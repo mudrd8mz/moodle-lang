@@ -39,6 +39,7 @@ $string['configdeleteunconfirmed'] = 'Si esteu utilitzant l\'autenticació per c
 $string['configdenyemailaddresses'] = 'Per refusar les adreces de correu de certs dominis, especifiqueu-les aquí de la mateixa manera. Tots els altres dominis seran acceptats. P. ex. <strong>hotmail.com yahoo.com</strong>';
 $string['configdigestmailtime'] = 'Les persones que triïn rebre el correu electrònic en format resum, el rebran una vegada al dia. Aquest paràmetre controla a quina hora s\'envia el resum diari (l\'enviarà el següent cron que s\'executi després d\'aquesta hora).';
 $string['configdisplayloginfailures'] = 'Aquest paràmetre permet que usuaris seleccionats visualitzin informació sobre intents d\'entrada erronis.';
+$string['configdocroot'] = 'Defineix el camí de Moodle Docs. Podeu canviar-lo si teniu la vostra documentació personalitzada en línia. Però, si ho feu, assegureu-vos que els camins dins la vostra documentació segueixen el mateix format que en http://docs.moodle.org.';
 $string['configenablecourserequests'] = 'Això permetrà que qualsevol usuari sol·liciti la creació d\'un curs.';
 $string['configenablerssfeeds'] = 'Aquest commutador habilita l\'RSS per a tot el lloc. Per a utilitzar realment l\'RSS, l\'haureu d\'activar també en cada mòdul. Aneu als paràmetres dels mòduls en Administració > Configuració.';
 $string['configenablerssfeedsdisabled'] = 'No està disponible perquè l\'RSS està inhabilitat per a tot el lloc. Per habilitar-lo, aneu a la pantalla de variables en Administració > Configuració.';
