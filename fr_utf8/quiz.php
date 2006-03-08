@@ -52,6 +52,7 @@ $string['back'] = 'Retour à la question précédente';
 $string['backtoquiz'] = 'Retour à l\'édition du test';
 $string['bestgrade'] = 'Meilleure note';
 $string['blackboard'] = 'Format Blackboard';
+$string['blackboard_6'] = 'Blackboard V6+';
 $string['bothattempts'] = 'Afficher aussi les étudiants n\'ayant pas fait le test';
 $string['calculated'] = 'Calculée';
 $string['calculatedquestion'] = 'Question calculée non supportée (ligne $a). La question sera ignorée';
