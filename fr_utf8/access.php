@@ -4,8 +4,9 @@ $string['access'] = 'Accessibilité';
 $string['accesshelp'] = 'Aide d\'accessibilité';
 $string['accesskey'] = 'Raccourci clavier, $a';
 $string['accessstatement'] = 'Déclaration d\'accessibilité';
+$string['breadcrumb'] = 'Piste de navigation';
 $string['monthnext'] = 'Mois suivant';
-$string['monthprevious'] = 'Mois précédent';
+$string['monthprev'] = 'Mois précédent';
 $string['showhideblock'] = 'Afficher ou masquer le bloc';
 $string['sitemap'] = 'Carte du site';
 $string['skipblock'] = 'Sauter le bloc';
@@ -15,5 +16,6 @@ $string['tablelayout'] = 'Formatage en tableau, $a';
 $string['tocontent'] = 'Vers le contenu principal';
 $string['today'] = 'Aujourd\'hui';
 $string['tonavigation'] = 'Vers la navigation';
+$string['youarehere'] = 'Vous êtes ici';
 
 ?>
