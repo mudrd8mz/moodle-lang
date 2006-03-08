@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2006022400)
+      // quiz.php - created with Moodle 1.6 development (2006030800)
 
 
 $string['1day'] = '1日';
@@ -54,6 +54,7 @@ $string['back'] = '問題のプレビューに戻る';
 $string['backtoquiz'] = '小テストの編集に戻る';
 $string['bestgrade'] = '最高評点';
 $string['blackboard'] = 'Blackboard';
+$string['blackboard_6'] = 'Blackboard V6+';
 $string['bothattempts'] = '受験済みおよび未受験の学生を表示';
 $string['calculated'] = '計算問題';
 $string['calculatedquestion'] = '$a 行の計算された問題はサポートされていません。問題は無視されました。';
