@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 development (2005101200)
+      // data.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['action'] = 'Aksiyon';
@@ -7,7 +7,9 @@ $string['add'] = 'Magdagdag ng talâ';
 $string['addafield'] = 'Magdagdag ng Field';
 $string['addcomment'] = 'Magdagdag ng Opinyon';
 $string['addtemplate'] = 'Magdagdag ng Padron';
+$string['allowcomments'] = 'Pahihintulutan ba ang mga opinyon?';
 $string['allowratings'] = 'Pahihintulutan bang malagyan ng reyting ang mga post?';
+$string['approve'] = 'Pahintulutan';
 $string['ascending'] = 'Pataas';
 $string['atmaxentry'] = 'Ipinasok mo ang maksimum na bilang ng talâ na pinapahintulutan!';
 $string['autogenallforms'] = 'Likhain ang lahat ng default na padron';
@@ -15,7 +17,7 @@ $string['availablefromdate'] = 'Magagamit mula';
 $string['availabletags'] = 'Magagamit na tag';
 $string['availabletodate'] = 'Magagamit hanggang';
 $string['browse'] = 'Tingnan';
-$string['byname'] = 'ni $a';
+$string['bynameondate'] = 'ni $a->name - $a->date';
 $string['cancel'] = 'Balewalain';
 $string['checkbox'] = '(Mga) Checkbox';
 $string['comments'] = 'Pahintulutan ang mga opinyon?';
@@ -24,9 +26,11 @@ $string['configenablerssfeeds'] = 'Bubuhayin ng swits na ito ang posibilidad ng 
 $string['confirmdeletefield'] = 'Buburahin mo ang field na ito, talaga bang gusto mo itong gawin?';
 $string['confirmdeleterecord'] = 'Talaga bang nais mong burahin ang rekord na ito?';
 $string['dateentered'] = 'Petsa na ipinasok';
+$string['delete'] = 'Burahin';
 $string['deleted'] = 'nabura na';
 $string['deletefield'] = 'Burahin ang isang Field';
 $string['descending'] = 'Pababa';
+$string['edit'] = 'Iedit';
 $string['emptyadd'] = 'Ang padron na Magdagdag ay blangko, lumilikha ng default na form...';
 $string['emptyaddform'] = 'Wala kang pinunan na field!';
 $string['entrysaved'] = 'Naisave na ang talâ mo';
@@ -43,9 +47,9 @@ $string['fieldname'] = 'Pangalan ng field';
 $string['fieldoptions'] = 'Mga Opsiyon (Pinaghiwalay ang Linya)';
 $string['fields'] = 'Mga Field';
 $string['fieldupdated'] = 'Ginawang bago ang Field';
-$string['fieldwidth'] = 'Lapad';
-$string['fieldwidthlistview'] = 'Lapad na nasa tanaw na palista';
-$string['fieldwidthsingleview'] = 'Lapad na nasa tanaw na paisa-isa';
+$string['fieldwidth'] = 'Lápad';
+$string['fieldwidthlistview'] = 'Lápad na nasa tanaw na palista';
+$string['fieldwidthsingleview'] = 'Lápad na nasa tanaw na paisa-isa';
 $string['file'] = 'File';
 $string['footer'] = 'Talababa';
 $string['generatedefault'] = 'Likhain ang default na padron';
@@ -65,6 +69,7 @@ $string['menu'] = 'Menu (Isahang-pagpili)';
 $string['menuchoose'] = 'Pumili...';
 $string['modulename'] = 'Database';
 $string['modulenameplural'] = 'Mga database';
+$string['more'] = 'Marami pa';
 $string['multientry'] = 'Naulit na talâ';
 $string['multimenu'] = 'Menu (Maramihang-pagpili)';
 $string['multipletags'] = 'Natagpuan ang maraming tag!  Hindi isinave ang padron';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2005101200)
+      // moodle.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['action'] = 'Aksiyon';
@@ -537,6 +537,7 @@ $string['formattext'] = 'Moodle auto-format';
 $string['formattexttype'] = 'Pagkakaformat';
 $string['formattopics'] = 'Paksaang format';
 $string['formatweeks'] = 'Lingguhang format';
+$string['formatweekscss'] = 'Lingguhang format - CSS/Walang teybol';
 $string['formatwiki'] = 'Mala-Wiki na format';
 $string['from'] = 'Mula sa';
 $string['frontpagecategorynames'] = 'Talaan ng mga kategoriya';
@@ -611,6 +612,7 @@ $string['helpformatting'] = 'Hinggil sa pagpoformat ng text';
 $string['helphtml'] = 'Kung paano magsulat ng html';
 $string['helpindex'] = 'Indeks ng lahat ng file na pantulong';
 $string['helppicture'] = 'Kung paano mag-aplowd ng larawan';
+$string['helpprefix'] = 'Tulong para sa \'$a\'';
 $string['helpquestions'] = 'Magbigay ng mahuhusay na tanong';
 $string['helpreading'] = 'Basahin nang mabuti';
 $string['helprichtext'] = 'Hinggil sa HTML editor';
@@ -698,6 +700,7 @@ $string['login'] = 'Maglog-in';
 $string['login_failure_logs'] = 'Log ng mga bigong log-in';
 $string['loginalready'] = 'Nakalog-in ka na';
 $string['loginas'] = 'Maglog-in bilang';
+$string['loginaspasswordexplain'] = '<p>Kailangan mong ipasok ang espesyal na \"maglog-in bilang na password\" upang magamit ang katangiang ito.<br />Kung hindi mo alam kung ano ito, tanungin mo ang administrador ng server mo.</p>';
 $string['loginguest'] = 'Maglog-in bilang bisita';
 $string['loginsite'] = 'Maglog-in sa site';
 $string['loginsteps'] = 'Hi! Upang magkaroon ka ng ganap na karapatang pumasok sa mga kurso, kailangan mo ng
@@ -795,6 +798,7 @@ $string['moduledeleteconfirm'] = 'Lubos mo nang buburahin ang modyul \'$a\'.  ga
 $string['moduledeletefiles'] = 'Lahat ng datos na kaugnay ng modyul \'$a->module\' ay nabura na sa database.  Upang makumpleto ang pagkakabura (at maiwasan ang muling pagiinstol ng modyul sa sarili nito), kailangan mong burahin ngayon ang direktoryong ito sa server mo:  $a->directory';
 $string['modulesetup'] = 'Isinasaayos ang mga teybol ng modyul';
 $string['modulesuccess'] = 'naisaayos nang wasto ang $a na teybol';
+$string['moodledocslink'] = 'Mga Dokyu ng Moodle para sa pahinang ito';
 $string['moodleversion'] = 'Bersiyon ng Moodle';
 $string['more'] = 'marami pa';
 $string['mostrecently'] = 'pinakabago';
@@ -1201,7 +1205,7 @@ $string['strftimerecent'] = '%%d %%b, %%H:%%M';
 $string['strftimerecentfull'] = '%%a, %%d %%b %%Y, %%I:%%M %%p';
 $string['strftimetime'] = '%%I:%%M %%p';
 $string['stringsnotset'] = 'Ang sumusunod na string ay hindi naitakda sa $a';
-$string['studentnotallowed'] = 'Paumanhin, pero hindi ka maaaring pumasok s akursong ito bilang \'$a\'';
+$string['studentnotallowed'] = 'Paumanhin, pero hindi ka maaaring pumasok sa kursong ito bilang \'$a\'';
 $string['students'] = 'Mga mag-aaral';
 $string['studentsandteachers'] = 'Mga mag-aaral at guro';
 $string['studentviewoff'] = 'Patayin ang tanaw na pangmag-aaral';

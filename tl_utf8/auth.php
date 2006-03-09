@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 development (2005060201)
+      // auth.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['alternatelogin'] = 'Kapag nagpasok ka ng URL dito, gagamitin ito bilang pahinang panglog-in para sa site na ito.  Dapat maglaman ang pahina ng isang form na ang action property ay nakatakda sa <strong>\'$a\'</strong> at mga  return field na <strong>username</strong> at <strong>password</strong>.<br />Ingatan na huwag makapagpasok ng maling URL, kundi\'y masasarhan kayo ng site na ito.<br />Iwanang blangko ang kaayusang ito upang gamitin ang default na pahinang panglog-in.';
@@ -22,7 +22,7 @@ $string['auth_changepasswordhelp_expl'] = 'Ipakita ang pantulong para sa nawawal
 $string['auth_changepasswordurl'] = 'Baguhin ang URL ng password';
 $string['auth_changepasswordurl_expl'] = 'Itakda ang url na ipapadala sa mga user na naiwala ang kanilang $a password. Itakda ang <strong>Gamitin ang istandard na Baguhin ang Password na pahina</strong> sa <strong>Hindi</strong>.';
 $string['auth_common_settings'] = 'Kaayusang para sa lahat';
-$string['auth_data_mapping'] = 'Data mapping';
+$string['auth_data_mapping'] = 'Pagmamapa ng datos';
 $string['auth_dbdescription'] = 'Gumagamit ang paraang ito ng panlabas na database teybol upang masuri kung ang ibinigay na username at password ay tanggap.  Kung bago ang account, ang impormasyon sa iba pang field ay maaari ring kopyahin ng Moodle.';
 $string['auth_dbextrafields'] = 'Opsiyonal ang mga field na ito.  Maaari mong piliin na magkalaman kaagad ang ilang Moodle-user-field ng impormasyon mula sa <b>mga panlabas na database field</b> na tutukuyin mo rito. <p>Kung pababayaan mong blangko ang mga ito, ang mga default ang gagamitin.</p><p>Ano\'t-anuman, maeedit ng mga user ang mga field na ito pagkatapos nilang maglog-in.</p>';
 $string['auth_dbfieldpass'] = 'Pangalan ng field na naglalaman ng mga password';
@@ -30,7 +30,7 @@ $string['auth_dbfielduser'] = 'Pangalan ng field na naglalaman ng mga username';
 $string['auth_dbhost'] = 'Ang kompyuter na naghohost ng database server.';
 $string['auth_dbname'] = 'Pangalan ng database mismo';
 $string['auth_dbpass'] = 'Password na katugon ng username sa itaas';
-$string['auth_dbpasstype'] = 'Itakda ang format na gagamitin ng password field.  Magagamit ang MD5 encryption sa pagkonek sa ibang karaniwang aplikasyong pangweb tulad ng PostNuke';
+$string['auth_dbpasstype'] = '<p>Itakda ang format na gagamitin ng password field.  Magagamit ang MD5 encryption sa pagkonek sa ibang karaniwang aplikasyong pangweb tulad ng PostNuke</p><p>Piliin ang \'panloob\' kung nais mong pangasiwaan ng panlabas na DB ang mga usernames at email address, subali\'t ang Moodle ang mangangasiwa sa password. Kapag ginamit mo ang  \'panloob\', <i>kailangan</i> mong magbigay ng isang  field ng email address na may mga laman na sa panlabas na DB, at kailangan mong patakbuhin ang auth/db/cron.php nang regular. Magpapadala ang Moodle ng email sa mga bagong user na may pansamantalang password.</p>';
 $string['auth_dbtable'] = 'Pangalan ng teybol sa database';
 $string['auth_dbtitle'] = 'Gumamit ng panlabas na database';
 $string['auth_dbtype'] = 'Ang uri ng database (Tingnan ang <a href=\"../lib/adodb/readme.htm#drivers\">Dokumentasyon ng ADOdb</a> para sa detalye)';
@@ -73,7 +73,7 @@ $string['auth_ldap_passwdexpire_settings'] = 'LDAP password expiration settings.
 $string['auth_ldap_preventpassindb'] = 'Piliin ang oo upang huwag maimbak ang mga password sa DB ng Moodle.';
 $string['auth_ldap_search_sub'] = 'Hanapin ang mga user mula sa subcontext.';
 $string['auth_ldap_server_settings'] = 'Kaayusan ng LDAP server';
-$string['auth_ldap_update_userinfo'] = 'Baguhin ang impormasyon ng user (unang pangalan, apelyido, tirahan..) mula LDAP hanggang Moodle.  Itakda ang kaayusan ng \"Data mapping\" alinsunod sa pangangailangan mo.';
+$string['auth_ldap_update_userinfo'] = 'Baguhin ang impormasyon ng user (unang pangalan, apelyido, tirahan..) mula LDAP hanggang Moodle.  Itakda ang kaayusan ng \"Pagmamapa ng datos\" alinsunod sa pangangailangan mo.';
 $string['auth_ldap_user_attribute'] = 'Opsiyonal: Nananaig sa attribute na ginagamit sa pagpapangalan/paghahanap ng mga user.  Karaniwan ay \'cn\'.';
 $string['auth_ldap_user_settings'] = 'Pang-lookup na kaayusan ng user';
 $string['auth_ldap_user_type'] = 'Piliin kung paano iiimbak ang user sa LDAP.  Itinatakda ng kaayusang ito kung paano gumagana ang pagkapasó ng log-in, may palugit na paglog-in at paglikha ng user. ';
@@ -104,11 +104,16 @@ $string['auth_pop3mailbox'] = 'Pangalan ng mailbox na pagtatangkaang magkipagkon
 $string['auth_pop3port'] = 'Server port (110 ang pinakakaraniwan, 995 ay karaniwan sa SSL)';
 $string['auth_pop3title'] = 'Gumamit ng POP3 server';
 $string['auth_pop3type'] = 'Uri ng server.  Kung gumagamit ng certificate security ang server mo, piliin ang pop3cert.';
+$string['auth_radiusdescription'] = 'Gumagamit ang paraang ito ng <a href=\"http://en.wikipedia.org/wiki/RADIUS\" target=\"_blank\">RADIUS</a> server upang masuri kung tanggap ang ibinigay na username at password.';
+$string['auth_radiushost'] = 'Address ng RADIUS server';
+$string['auth_radiusnasport'] = 'Gagamiting port para makakonekta';
+$string['auth_radiussecret'] = 'Pinagsasaluhang lihim';
+$string['auth_radiustitle'] = 'Gumamit ng RADIUS server';
 $string['auth_shib_convert_data'] = 'API para sa pagbabago ng datos';
 $string['auth_shib_convert_data_description'] = 'Magagamit mo ang API na ito upang lalong mabago ang datos na ibinigay ng Shibboleth. Basahin ang <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> para sa iba pang instruksiyon.';
 $string['auth_shib_convert_data_warning'] = 'Walang ganitong file o hindi ito mabasa ng proseso na webserver!';
 $string['auth_shib_instructions'] = 'Gamitin ang <a href=\"$a\">Shibboleth log-in</a> upang makapasok sa pamamagitan ng Shibboleth, kung sinusuportahan ito ng isntitusyon mo. <br />Kung hindi, gamitin ang normal na form ng log-in na ipinapakita rito.';
-$string['auth_shib_instructions_help'] = 'Dito ay dapat kang magbigay ng pasadyang panuto para sa user mo na nagpapaliwanag ng Shibboleth.  Ipapakita ito sa pahinang panglog-in sa may seksiyon ng panuto.  Dapat itong magkaroon ng link na \"<b>$a</b>\" upang makapaglog-in ng madali ang mga user ng Shibboleth.  Kapag iniwan mo itong blangko, ang mga istandard na panuto ang gagamitin (hindi ang partikular sa Shibboleth)';
+$string['auth_shib_instructions_help'] = 'Dito ay dapat kang magbigay ng pasadyang panuto para sa user mo na nagpapaliwanag ng Shibboleth.  Ipapakita ito sa pahinang panglog-in sa may seksiyon ng panuto.  Dapat itong magkaroon ng link na \"<b>$a</b>\" na ikiklik ng mga user kung nais nilang maglog-in.';
 $string['auth_shib_only'] = 'Shibboleth lamang';
 $string['auth_shib_only_description'] = 'Tsekan ang opsiyon na ito kung ipatutupad ang isang Shibboleth na pag-aauthenticate';
 $string['auth_shib_username_description'] = 'Pangalan ng webserver Shibboleth environment baryabol na gagamitin bilang Moodle username';
@@ -118,8 +123,8 @@ $string['auth_shibbolethdescription'] = 'Sa pamamagitan ng paraang ito, ang mga 
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_updatelocal'] = 'Baguhin ang lokal';
 $string['auth_updatelocal_expl'] = '<p><b>Baguhin ang lokal:</b> Kapag binuhay, ang field ay babaguhin (mula sa panlabas na auth) tuwing maglalog-in ang user o may user synchronization.  Dapat ikandado ang field na isinaayos na magpanibago nang lokal.</p>';
-$string['auth_updateremote'] = 'Baguhin ang panlabas na datos';
-$string['auth_updateremote_expl'] = '<p><b>Baguhin ang panlabas na datos:</b> Kapag binuhay, babaguhin ang panlabas na auth kpag ang rekord ng user ay binago.  Dapat alisin ang kandado ng mga field upang mapahintulutan ang pag-eedit.</p>';
+$string['auth_updateremote'] = 'Baguhin ang panlabas';
+$string['auth_updateremote_expl'] = '<p><b>Baguhin ang panlabas:</b> Kapag binuhay, babaguhin ang panlabas na auth kpag ang rekord ng user ay binago.  Dapat alisin ang kandado ng mga field upang mapahintulutan ang pag-eedit.</p>';
 $string['auth_updateremote_ldap'] = '<p><b>Tandaan:</b> Ang pagbabago ng panlabas na datos ng LDAP ay nangangailangan na iayos mo ang binddn at bindpw na maging isang bind-user na may pribelehiyo na mag-edit ng lahat ng rekord ng user.  Sa kasalukuyan ay hindi nito pinananatili ang mga attribute na marami ang halaga, at tatanggalin nito ang labis na halaga kapag may binago na ito. </p>';
 $string['auth_user_create'] = 'Paganahin ang paglikha ng user';
 $string['auth_user_creation'] = 'Ang mga bagong (anonymous) na user ay makakalikha ng user account sa panlabas na pinagmumulan ng pag-aauthenticate at kukumpirmahin ito sa pamamagitan ng email.  Kapag binuhay mo ito, tandaan din na iayos ang mga pangmodyul na opsiyon para sa paglikha ng user.';
@@ -129,18 +134,23 @@ $string['authinstructions'] = 'Dito ay maaari kang magbigay ng panuto sa mga use
 $string['changepassword'] = 'Baguhin ang password URL';
 $string['changepasswordhelp'] = 'Dito ay maitatakda mo ang lokasyon ng pahina kung saan maaaring makuha mulî o mabago ng mga user ang username/password nila, sakaling nakalimutan nila ito.  Ipapakita ito sa mga user bilang isang buton sa pahina na panglog-in at sa kanilang pahina na pang-user.  Kapag iniwan mo itong blangko ang buton ay hindi makikita.';
 $string['chooseauthmethod'] = 'Pumilì ng paraan ng pag-aauthenticate: ';
-$string['createchangepassword'] = 'Likhain kung nawawalâ - ipilit ang pagbabago';
-$string['createpassword'] = 'Likhain kung nawawalâ';
+$string['createpasswordifneeded'] = 'Lumikha ng password kung kinakailangan';
 $string['forcechangepassword'] = 'Ipilit ang pagpapalit ng password';
-$string['forcechangepassword_help'] = 'Pilitin ang mga user na palitan ang password nila sa susunod nilang log-in sa Moodle.';
+$string['forcechangepassword_help'] = 'Pilitin ang mga user na palitan ang password nila sa susunod nilang paglog-in sa Moodle.';
 $string['forcechangepasswordfirst_help'] = 'Pilitin ang mga user na palitan ang password nila sa unang log-in nila sa Moodle.';
 $string['guestloginbutton'] = 'Buton na panlog-in ng bisita';
 $string['infilefield'] = 'Kinakailangan ang field sa file';
 $string['instructions'] = 'Mga Panuto';
+$string['internal'] = 'Panloob';
 $string['locked'] = 'Nakakandado';
 $string['md5'] = 'MD5 encryption';
 $string['passwordhandling'] = 'Kung paano gagamitin ang field ng password';
 $string['plaintext'] = 'Plain text';
+$string['shib_no_attributes_error'] = 'Mukhang inaauthenticate ka sa pamamagitan ng Shibboleth pero hindi nakatanggap ang Moodle ng anumang katangiang ng user. Pakitiyak na inilalathala ng iyong Tagalako ng Pagkakakilanlan ang mga kinakailangang katangian ($a) sa Tagalako ng Serbisyo na tinatakbuhan ng Moodle o abisuhan ang webmaster ng server na ito.';
+$string['shib_not_all_attributes_error'] = 'Kailangan ng Moodle ng ilang katangian na pang-Shibboleth na wala sa kaso mo. Ang mga katangian ay: $a<br />Pakikontak ang webmaster ng server na ito o ang Tagalako mo ng Pagkakakilanlan.
+';
+$string['shib_not_set_up_error'] = 'Mukhang hindi nakaayos nang wasto ang Shibboleth authentication dahil walang pangkapaligirang baryabol ng Shibboleth sa pahinang ito.  Pakikonsulta ang  <a href=\"README.txt\">README</a> 
+para sa karagdagang instruksiyon kung paano isaayos ang Shibboleth authentication o kontakin ang  webmaster ng instalsyon ng Moodle na ito.';
 $string['showguestlogin'] = 'Maari mong itago o ilantad ang buton na panlog-in ng bisita sa pahinang panlog-in.';
 $string['stdchangepassword'] = 'Gumamit ng istandard na Pahinang Pampalit ng Password';
 $string['stdchangepassword_expl'] = 'Kung pinapahintulutan ng panlabas na sistemang pan-authenticate ang pagbabago ng password sa pamamagitan ng Moodle, iswits ito sa Oo.  Nananaig ang kaayusang ito sa \'Baguhin ang Password URL\'.';

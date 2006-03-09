@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 development (2005101200)
+      // admin.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['adminseesallevents'] = 'Nakikita ng mga Administrador ang lahat ng okasyon';
@@ -39,6 +39,7 @@ $string['configdeleteunconfirmed'] = 'Kung gumagamit ka ng email authentication,
 $string['configdenyemailaddresses'] = 'Upang mahadlangan ang mga email adress mula sa ilang partikular na domain, ilista ang mga ito rito sa parehong paraan.  Lahat ng iba pang domain ay tatanggapin, hal. <strong>hotmail.com yahoo.co.uk</strong>';
 $string['configdigestmailtime'] = 'Ang mga taong pinili na padalhan sila ng digest ng mga email ay padadalhan nang arawan.  Kinokontrol ng kaayusang ito kung anong oras sa isang araw ipadadala ang sulat (ang susunod na cron na tatakbo pagkatapos ng oras na ito ang magpapadala nito).';
 $string['configdisplayloginfailures'] = 'Magpapakita ito ng impormasyon sa ilang piling user tungkol sa mga nakaraang bigong login.';
+$string['configdocroot'] = 'Itinatakda ang landas patungo sa mga Dokyu ng Moodle.  Maaari mo itong baguhin kung nais mong magkaroon ng sarili mong pasadyang dokumentasyon na online. Magkagayunman, kapag ginawa mo iyan, tiyakin mo na ang mga landas sa iyong dokumentasyon ay sumusunod sa format ng http://docs.moodle.org.';
 $string['configenablecourserequests'] = 'Pahihintulutan nito na humiling ang sinumang user na   likhain ang isang bagong kurso.';
 $string['configenablerssfeeds'] = 'Nabubuhay sa swits na ito ang RSS feed sa buong site.  Upang makakita ng pagbabago, kailangan mong ring buhayin ang RSS feed sa indibidwal na modyul - pumunta sa mga kaayusan ng Modyul sa loob ng Kaayusang Pang-admin.';
 $string['configenablerssfeedsdisabled'] = 'Hindi ito magagamit dahil ang RSS feed ay pinatay sa kabuuan ng Site.  Para mabuhay ang mga ito, tumungo sa kaayusan ng mga Baryabol sa loob ng Kaayusang Pang-admin.';

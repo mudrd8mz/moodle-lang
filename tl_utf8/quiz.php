@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2005101200)
+      // quiz.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['1day'] = '1 Araw';
@@ -48,11 +48,13 @@ $string['attempts'] = 'Mga pagkuha';
 $string['attemptsallowed'] = 'Ilang ulit maaaring kumuha';
 $string['attemptselection'] = 'Piliin kung aling mga pagkuha ang susuriin sa bawat user:';
 $string['attemptsexist'] = 'Nakuha na ang pagsusulit na ito.<br />Hindi ka na maaaring magdagdag o magtanggal ng mga tanong.';
+$string['attemptsonly'] = 'Tanging ang mga mag-aaral na may kinuha ang ipakita';
 $string['attemptsunlimited'] = 'Maaaring kumuha kahit ilang ulit';
 $string['back'] = 'Bumalik sa pagsilip sa tanong';
 $string['backtoquiz'] = 'Bumalik sa pag-edit ng pagsusulit';
 $string['bestgrade'] = 'Pinakamataas na marka';
 $string['blackboard'] = 'Blackboard';
+$string['bothattempts'] = 'Ipakita ang mga mag-aaral na mayroon at walang kinuha';
 $string['calculated'] = 'Kinuwenta';
 $string['calculatedquestion'] = 'Ang mga Kinuwentang Tanong ay hindi suportado sa ika $a na linya.  Hindi gagamitin ang tanong';
 $string['caseno'] = 'Hindi, dimahalaga ang laki ng titik';
