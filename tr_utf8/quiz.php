@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2006022400)
+      // quiz.php - created with Moodle 1.6 development (2006030901)
 
 
 $string['1day'] = '1 Gün';
@@ -54,9 +54,12 @@ $string['back'] = 'Soruyu önizlemeye geri dön';
 $string['backtoquiz'] = 'Sınav düzenlemeye dön';
 $string['bestgrade'] = 'En yüksek not';
 $string['blackboard'] = 'Karatahta';
+$string['blackboard_6'] = 'Blackboard V6+';
 $string['bothattempts'] = 'Uygulama yapan ve yapmayan öğrencileri göster';
 $string['calculated'] = 'Hesaplanmış';
 $string['calculatedquestion'] = '$a. satırdaki Hesaplanmış Soru desteklenmiyor. Soru yok sayılacak';
+$string['cannotcreatepath'] = 'Yol oluşturulamıyor ($a)';
+$string['cannotinsert'] = 'Soru eklenemedi';
 $string['caseno'] = 'Hayır, harf duyarlılığı önemli değil';
 $string['casesensitive'] = 'Harf duyarlılığı';
 $string['caseyes'] = 'Evet, aynen uymalı';
@@ -242,6 +245,7 @@ $string['newattemptfail'] = 'Hata: Sınavda yeni bir uygulama başlatılamadı';
 $string['noanswers'] = 'Yanıtlar seçilmedi!';
 $string['noattempts'] = 'Bu sınavda hiçbir uygulama yapılmadı';
 $string['noattemptstoshow'] = 'Gösterilecek uygulama yok';
+$string['nocategory'] = 'Hatalı veya kategori belirtilmedi';
 $string['noconnection'] = 'Bu soruyu işleyebilecek bir web servisi bağlantısı şu anda yok. Lütfen yöneticinizle iletişim kurun.';
 $string['nodataset'] = 'hiçbirşey - bu bir joker karakter değil';
 $string['nomoreattempts'] = 'Başka uygulamaya izin verilmemiştir';
