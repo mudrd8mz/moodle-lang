@@ -1,4 +1,4 @@
-<?php 
+<?php // $Id$
 
 // These should be accessed using get_mimetype_description in filelib.php.
 // They correspond to a (currently small) subset of the MIME types that Moodle
