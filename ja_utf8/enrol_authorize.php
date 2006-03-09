@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6 development (2005101200)
+      // enrol_authorize.php - created with Moodle 1.6 development (2006030901)
 
 
 $string['adminauthorizeccapture'] = 'オーダーレビュー&オートキャプチャ設定';
@@ -14,12 +14,14 @@ $string['adminhelpcapture'] = '手動で支払いを受け付け/拒否するだ
 - cronを設定してください。
 - 「an_review」をチェックしてください。
 - 「an_capture_day」フィールドに、1から29の間の数値を入力してください。あなたが「an_capture_day」内にキャプチャしない場合を除いて、クレジットカード情報は取得され、ユーザがコース登録されます。';
+$string['adminhelpcapturetitle'] = 'オートキャプチャ';
 $string['adminhelpreview'] = '手動で支払いを受け付け/拒否するには?
 - 「an_review」をチェックしてください。
 - 「an_capture_day」フィールドにゼロを入力してください。
 
 カード番号を入力するのと同時に学生をコース登録させるには?
 - 「an_review」のチェックを外してください。';
+$string['adminhelpreviewtitle'] = 'オーダーレビュー';
 $string['adminneworder'] = '新しい保留の注文が入りました:
 
 注文ID: $a->orderid

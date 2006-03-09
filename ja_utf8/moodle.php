@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006022400)
+      // moodle.php - created with Moodle 1.6 development (2006030901)
 
 
 $string['action'] = '操作';
@@ -161,12 +161,14 @@ $string['changedpassword'] = 'パスワードを変更しました。';
 $string['changepassword'] = 'パスワードの変更';
 $string['changessaved'] = '変更内容が保存されました。';
 $string['check'] = 'チェック';
+$string['checkall'] = 'すべてをチェック';
 $string['checkingbackup'] = 'バックアップの確認中';
 $string['checkingcourse'] = 'コースの確認中';
 $string['checkingforbbexport'] = 'BlackBoardエクスポートの確認中';
 $string['checkinginstances'] = 'インスタンスの確認中';
 $string['checkingsections'] = 'セクションの確認中';
 $string['checklanguage'] = '言語の確認';
+$string['checknone'] = 'チェック無し';
 $string['childcoursenotfound'] = '子コースが見つかりません!';
 $string['childcourses'] = '子コース';
 $string['choose'] = '選択';
@@ -442,6 +444,7 @@ $string['enrolmentnewuser'] = '$a->user がコース 「 $a->course 」に登録
 $string['enrolmentnointernal'] = '手動登録は現在利用できません';
 $string['enrolmentnotyet'] = '申し訳ございません、このコースには下記の日付までアクセスできません。<br  />
 $a';
+$string['enrolmentplugins'] = 'ユーザ登録プラグイン';
 $string['enrolments'] = 'ユーザ登録方法';
 $string['enrolmentstart'] = 'ユーザ登録開始';
 $string['enrolperiod'] = '利用有効期間';
@@ -507,7 +510,6 @@ $string['forcepasswordchangenotice'] = '続けるにはパスワードを変更�
 $string['forcetheme'] = 'テーマの強制';
 $string['forgotaccount'] = 'パスワードを忘れました?';
 $string['forgotten'] = 'ユーザ名またはパスワードを忘れましたか?';
-$string['forgottenduplicate'] = 'あなたのメールアドレスが1件以上データベースに見つかりましたので、自動パスワードリカバリは完了しませんでした。管理者の <a href=\"mailto:$a->email\"> $a->lastname $a->firstname</a> にご連絡ください。';
 $string['format'] = 'フォーマット';
 $string['formathtml'] = 'HTMLフォーマット';
 $string['formatlams'] = 'LAMSコースフォーマット';

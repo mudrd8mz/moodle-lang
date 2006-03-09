@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 development (2006022400)
+      // admin.php - created with Moodle 1.6 development (2006030901)
 
 
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示';
@@ -44,6 +44,7 @@ $string['configenablecourserequests'] = 'すべてのユーザにコース作成
 $string['configenablerssfeeds'] = 'ここではサイト全体からのRSSフィードを有効にします。実際に更新された情報を見たい場合は、各モジュールのRSSフィード設定を有効にする必要があります - 管理ページにあるモジュール管理を確認してください。';
 $string['configenablerssfeedsdisabled'] = 'サイトすべてにおいてRSSフィードが利用不可にされているため、利用できません。管理メニュー内の詳細設定でRSSフィードを利用可にすることができます。';
 $string['configenablestats'] = '「Yes」を選択した場合、Moodleのcronジョブはログを処理し、統計情報を集めます。あなたのサイトのトラフィックにより、しばらく時間がかかる場合があります。このオプションを有効にした場合、あなたの各コースまたはサイト全体に関する面白いグラフおよび統計を見ることができます。';
+$string['configenrolmentplugins'] = '使用したいプラグインを選択してください。正しく設定してください。<br /><br />どのプラグインを有効にするのか指定する必要があります。<strong>1つ</strong>のプラグインが<em>インタラクティブ</em>なユーザ登録方法としてデフォルトに設定されます。インタラクティブなユーザ登録方法を無効にするには、該当するコースの設定画面で「コース登録可能」を「No」にしてください。';
 $string['configerrorlevel'] = '表示したいPHPの警告数を選択してください。通常は、Normalが最適です。';
 $string['configextendedusernamechars'] = 'この設定を行うことで、学生はユーザ名にどのような文字でも使用することができます ( 実際の名前には影響しません )。デフォルトでは、ユーザ名をアルファベットに制限する「No」が設定されています。';
 $string['configfilterall'] = 'ヘッダ、タイトル、ナビゲーションバー等を含むすべての文字をフィルタします。これは多言語フィルタを使用している時に最も便利です。そうでない場合は、あなたのサイトに単に負荷がかかるだけになります。';
