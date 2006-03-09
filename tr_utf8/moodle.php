@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006022400)
+      // moodle.php - created with Moodle 1.6 development (2006030901)
 
 
 $string['action'] = 'Eylem';
@@ -162,12 +162,14 @@ $string['changedpassword'] = 'Şifre değişti';
 $string['changepassword'] = 'Şifre değiştir';
 $string['changessaved'] = 'Değişiklikler kaydedildi';
 $string['check'] = 'Kontrol et';
+$string['checkall'] = 'Tümünü seç';
 $string['checkingbackup'] = 'Yedek kontrol ediliyor';
 $string['checkingcourse'] = 'Kurs kontrol ediliyor';
 $string['checkingforbbexport'] = 'BlackBoard çıkarması için kontrol ediliyor';
 $string['checkinginstances'] = 'Tekrarları kontrol ediliyor';
 $string['checkingsections'] = 'Bölümler kontrol ediliyor';
 $string['checklanguage'] = 'Dili kontrol et';
+$string['checknone'] = 'Hiçbirini seçme';
 $string['childcoursenotfound'] = 'Alt kurs bulunamadı';
 $string['childcourses'] = 'Alt kurslar';
 $string['choose'] = 'Seç';
@@ -448,7 +450,8 @@ $string['enrolmentnew'] = '$a dersine yeni kayıt';
 $string['enrolmentnewuser'] = '$a->user, \"$a->course\" dersine kaydoldu';
 $string['enrolmentnointernal'] = 'Manual olarak yapılan kayıtlar şu anda etkin değil';
 $string['enrolmentnotyet'] = 'Üzgünüz, bu derse şu tarihe kadar erişemezsiniz <br /> $a';
-$string['enrolments'] = 'Ders kayıtları';
+$string['enrolmentplugins'] = 'Ders Kayıt Eklentileri';
+$string['enrolments'] = 'Ders Kayıtları';
 $string['enrolmentstart'] = 'Kayıt Başlangıcı';
 $string['enrolperiod'] = 'Kayıt süresi';
 $string['enrolstartdate'] = 'Başlangıç tarihi';
@@ -515,7 +518,6 @@ $string['forcepasswordchangenotice'] = 'Devam etmek için şifrenizi değiştirm
 $string['forcetheme'] = 'Tema zorunluluğu';
 $string['forgotaccount'] = 'Şifrenizi mi unuttunuz?';
 $string['forgotten'] = 'Kullanıcı adı veya şifrenizi mi unuttunuz?';
-$string['forgottenduplicate'] = 'E-posta adresiniz veritabanında birden fazla göründüğü için otomatik şifre kurtarma tamamlanamadı. Lütfen yöneticiyle <a href=\"mailto:$a->email\">$a->firstname $a->lastname</a> iletişim kurun.';
 $string['format'] = 'Biçim';
 $string['formathtml'] = 'HTML biçimi';
 $string['formatlams'] = 'LAMS kurs biçimi';
@@ -527,6 +529,7 @@ $string['formattext'] = 'Program auto-format';
 $string['formattexttype'] = 'Biçim';
 $string['formattopics'] = 'Konu formatı';
 $string['formatweeks'] = 'Haftalık format';
+$string['formatweekscss'] = 'Haftalık biçim - CSS/Tablo yok';
 $string['formatwiki'] = 'Wiki-like biçimi';
 $string['from'] = 'Başlangıç';
 $string['frontpagecategorynames'] = 'Bölümleri göster';
@@ -777,6 +780,7 @@ $string['moduledeleteconfirm'] = '\'$a\' modülünü tamamen silmek üzeresiniz.
 $string['moduledeletefiles'] = '\'$a->module\' modülüyle ilgili bütün veriler veritabanından silindi. Silme işlemini tamamlamak ve bu modülün kendi kendini tekrar kurmasını engellemek için şimdi bu dizini sunucudan kaldırmanız gerekiyor: $a->directory';
 $string['modulesetup'] = 'Modül tabloları ayarlanıyor';
 $string['modulesuccess'] = '$a tabloları doğru olarak kuruldu';
+$string['moodledocslink'] = 'Bu sayfa için Moodle Belgeleri';
 $string['moodleversion'] = 'Sürüm: ';
 $string['more'] = 'daha';
 $string['mostrecently'] = 'en yakın';

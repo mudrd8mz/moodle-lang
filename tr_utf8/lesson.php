@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.6 development (2005101200)
+      // lesson.php - created with Moodle 1.6 development (2006030901)
 
 
 $string['accesscontrol'] = 'Erişim Kontrolü';
@@ -24,6 +24,7 @@ $string['answersfornumerical'] = 'Sayısal sorulara verilen yanıtlar en yüksek
 $string['arrangebuttonshorizontally'] = 'Dersi sunumunda butonları yatay olarak yerleştir';
 $string['attempt'] = 'Deneme: $a';
 $string['attempts'] = 'Denemeler';
+$string['attemptsremaining'] = '$a uygulama hakkınız kaldı';
 $string['available'] = 'Başlangıç';
 $string['averagescore'] = 'Ortalama Not';
 $string['averagetime'] = 'Ortalama Zaman';
@@ -31,7 +32,7 @@ $string['backtreeview'] = 'Ağaç Görünümüne geri dön';
 $string['branchtable'] = 'Konu Anlatımı Tablosu';
 $string['cancel'] = 'İptal';
 $string['canretake'] = '$a tekrar alabilir';
-$string['casesensitive'] = 'HaRf DuYaRLı';
+$string['casesensitive'] = 'Düzenli İfadeleri Kullan';
 $string['checkbranchtable'] = 'Konu Anlatımını Kontrol Et';
 $string['checkedthisone'] = 'bu seçildi.';
 $string['checknavigation'] = 'Dolaşımı kontol et';
@@ -132,6 +133,7 @@ $string['matchesanswer'] = 'Cevaplarla Eşleştir';
 $string['maxhighscores'] = 'Yüksek Puan Gösterim Sayısı';
 $string['maximumnumberofanswersbranches'] = 'Cevap sayısı (max)';
 $string['maximumnumberofattempts'] = 'Maximum uygulama sayısı';
+$string['maximumnumberofattemptsreached'] = 'En fazla uygulama sayısına ulaşıldı - Sonraki sayfaya gidiliyor';
 $string['maxtime'] = 'Zaman Sınırı (dakika)';
 $string['maxtimewarning'] = 'Bu dersi bitirmeniz için $a dakikanız var.';
 $string['mediaclose'] = 'Kapat düğmesini göster:';
@@ -147,7 +149,6 @@ $string['modulenameplural'] = 'Dersler';
 $string['movedpage'] = 'Sayfa taşındı';
 $string['movepagehere'] = 'Sayfayı buraya taşı';
 $string['moving'] = 'Sayfa taşınıyor: $a';
-$string['movingtonextpage'] = 'Sonraki Sayfaya Geçiliyor';
 $string['multianswer'] = 'Çokyanıtlı';
 $string['multipleanswer'] = 'Çoktan seçmeli';
 $string['nameapproved'] = 'İsim onaylandı';
@@ -203,7 +204,6 @@ $string['questiontype'] = 'Soru Tipi';
 $string['randombranch'] = 'Rasgele Dallanma Sayfası';
 $string['randompageinbranch'] = 'Dallanma içindeki Rasgele Soru';
 $string['rank'] = 'Rank';
-$string['reached'] = 'geçildi';
 $string['receivedcredit'] = 'Alınan Kredi';
 $string['redisplaypage'] = 'Sayfayı Tekrar Göster';
 $string['report'] = 'Rapor';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.6 development (2005101200)
+      // calendar.php - created with Moodle 1.6 development (2006030901)
 
 
 $string['calendar'] = 'Takvim';
@@ -30,6 +30,7 @@ $string['eventendtime'] = 'Bitiş süresi';
 $string['eventinstanttime'] = 'Zaman';
 $string['eventkind'] = 'Olay tipi';
 $string['eventname'] = 'İsim';
+$string['eventnone'] = 'Olay yok';
 $string['eventrepeat'] = 'Tekrarlama';
 $string['eventsfor'] = '$a olayları';
 $string['eventstarttime'] = 'Başlangıç tarihi';

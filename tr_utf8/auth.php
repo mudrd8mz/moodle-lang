@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 development (2005101200)
+      // auth.php - created with Moodle 1.6 development (2006030901)
 
 
 $string['alternateloginurl'] = 'Alternatif giriş URL';
@@ -9,6 +9,7 @@ $string['auth_cas_port'] = 'CAS sunucu portu';
 $string['auth_cas_server_settings'] = 'CAS sunucu yapılandırması';
 $string['auth_cas_text'] = 'Güvenli bağlantı';
 $string['auth_cas_version'] = 'CAS sürümü';
+$string['auth_castitle'] = 'CAS sunucu (SSO) kullan';
 $string['auth_changepasswordhelp'] = 'Şifre değiştirme yardımı';
 $string['auth_changepasswordurl'] = 'Şifre değiştirme adresi';
 $string['auth_common_settings'] = 'Genel Ayarlar';
@@ -27,6 +28,7 @@ $string['auth_dbuser'] = 'Veritabanı kullanıcısı';
 $string['auth_emaildescription'] = 'Email onayı varsayılan yetkilendirme yöntemidir. Kullanıcı kendi seçtiği kullanıcı adı ve şifreyle kaydolduğunda kullanıcının adresine bir onay emaili gönderilir. Bu email, kullanıcının hesabını onaylayabileceği güvenli bir bağlantı içerir.';
 $string['auth_emailtitle'] = 'Email-temelli yetki';
 $string['auth_fcfppport'] = 'Sunucu portu (en geneli 3333)';
+$string['auth_fcpasswd'] = 'Yukarıdaki hesap için şifre';
 $string['auth_fctitle'] = 'FirstClass sunucusu kullan';
 $string['auth_fieldlock'] = 'Değeri kilitle';
 $string['auth_fieldlock_expl'] = '<p><b>Değeri kilitle:</b> Etkinleştirilirse, bu alanın kullanıcılar ve yöneticiler tarafından düzenlenmesi engellenecektir. Harici yetkilendirme sistemlerinde bu alanı düzenliyorsanız bu seçeneği kullanabilirsiniz.</p>';
@@ -45,6 +47,7 @@ $string['auth_usernameexists'] = 'Seçilen kullanıcı zaten var. Başka bir tan
 $string['authenticationoptions'] = 'Yetkilendirme seçenekleri';
 $string['changepassword'] = 'Şifre değiştirme bağlantısı';
 $string['chooseauthmethod'] = 'Bir yetki metodu seçin:';
+$string['createpasswordifneeded'] = 'Gerekirse şifre oluştur';
 $string['forcechangepassword'] = 'Şifre değişimini zorunlu tut';
 $string['forcechangepassword_help'] = 'Kullanıcıların sonraki girişinde şifre değişimini zorunlu tut.';
 $string['forcechangepasswordfirst_help'] = 'Kullanıcılar ilk defa giriş yaptıklarında şifre değişimini zorunlu tut';

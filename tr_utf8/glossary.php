@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 development (2005101200)
+      // glossary.php - created with Moodle 1.6 development (2006030901)
 
 
 $string['addcomment'] = 'Yorum ekle';
@@ -77,11 +77,8 @@ $string['entryusedynalink'] = 'Bu kayıt otomatikmen linklensin';
 $string['explainaddentry'] = 'Şu anki terimler sözlüğüne yeni bir kayıt ekleyin.<br/>Kavram ve Tanım zorunlu alanlardır.';
 $string['explainall'] = 'Kayıtların HEPSİNİ bir sayfada gösterir';
 $string['explainalphabet'] = 'Bu dizini kullanarak göz atın';
-$string['explainexport'] = 'Dosya oluşturuldu.<br/> İndirin ve güvenli bir yerde saklayın. Bu kayıtları istediğiniz zaman bu derste veya diğer derslerde tekrar yükleyebilirsiniz.';
 $string['explainimport'] = 'Alınacak dosyayı ve işlem türünü belirtmeniz gerekiyor. <p>Dosyanızı gönderin ve sonuçları inceleyin.</p>';
 $string['explainspecial'] = 'Bir harfle başlamayan kayıtları gösterir';
-$string['exportedentry'] = 'Çıkartılmış kayıt';
-$string['exportedfile'] = 'Çıkartılmış dosya';
 $string['exportentries'] = 'Kayıtları çıkar';
 $string['exportglossary'] = 'Sözlüğü çıkar';
 $string['exporttomainglossary'] = 'Ana sözlüğe çıkar';
@@ -92,7 +89,6 @@ $string['fullmatch'] = 'Tam sözcük eşleşmesi';
 $string['globalglossary'] = 'Genel sözlük';
 $string['glossaryleveldefaultsettings'] = 'Sözlük Bazındaki Varsayılan Ayarlar';
 $string['glossarytype'] = 'Terim tipi';
-$string['glosssaryexported'] = 'Terimler çıkartıldı.';
 $string['importcategories'] = 'Kategorileri al';
 $string['importedcategories'] = 'Alınan kategoriler';
 $string['importedentries'] = 'Alınan kayıtlar';
