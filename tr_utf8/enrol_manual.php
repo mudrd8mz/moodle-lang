@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_internal.php - created with Moodle 1.6 development (2005101200)
+      // enrol_manual.php - created with Moodle 1.6 development (2006031000)
 
 
 $string['description'] = 'Bu varsayılan ders kaydı yöntemidir. Bir öğrencinin bir derse katılabilmesi için iki yol vardır.
