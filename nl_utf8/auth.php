@@ -80,7 +80,7 @@ $string['auth_ldap_user_type'] = 'Kies hoe gebruikers in LDAP bewaard worden. De
 $string['auth_ldap_version'] = 'De versie van het LDAP-protocol die jouw server gebruikt.';
 $string['auth_ldapdescription'] = 'Deze methode levert authenticatie door middel van een externe LDAP-server.  
 Als de gebruikersnaam en wachtwoord geldig zijn maakt Moodle een nieuwe gebruiker aan in zijn database. Deze module kan gebruikerseigenschappen vanuit LDAP lezen en bepaalde velden in Moodle alvast invullen. Bij latere aanmeldingen worden alleen de gebruikersnaam en het wachtwoord gecontroleerd.';
-$string['auth_ldapextrafields'] = 'Deze velden zijn niet verplicht. Je kunt ervoor kiezen om sommige Moodle-gebruikersvelden van te voren in te vullen met informatie uit de <b>LDAP-velden</b> die je hier kunt aangeven. <P>Als je deze velden leeg laat zal er niets vanuit LDAP worden overgebracht en worden de standaardwaarden van Moodle gebruikt.<p> In beide gevallen kan de gebruiker al deze velden wijzigingen zodra hij/zij ingelogd is.</p>';
+$string['auth_ldapextrafields'] = 'Deze velden zijn niet verplicht. Je kunt ervoor kiezen om sommige Moodle-gebruikersvelden van te voren in te vullen met informatie uit de <b>LDAP-velden</b> die je hier kunt aangeven. <p>Als je deze velden leeg laat zal er niets vanuit LDAP worden overgebracht en worden de standaardwaarden van Moodle gebruikt.<p> In beide gevallen kan de gebruiker al deze velden wijzigingen zodra hij/zij ingelogd is.</p>';
 $string['auth_ldaptitle'] = 'Gebruik een LDAP-server';
 $string['auth_manualdescription'] = 'Deze methode verwijdert alle mogelijkheden voor gebruikers om hun eigen accounts aan te maken. Alle accounts moeten handmatig worden aangemaakt door de beheerder.';
 $string['auth_manualtitle'] = 'Alleen handmatige accounts';
@@ -101,6 +101,11 @@ $string['auth_pop3mailbox'] = 'Naam van de mailbox waarmee je een connectie prob
 $string['auth_pop3port'] = 'De poort van de server (meestal is dat 110)';
 $string['auth_pop3title'] = 'Gebruik een  POP3-server';
 $string['auth_pop3type'] = 'Het type van de server. Als jouw server gebruikt maakt van beveiliging door middel van een certificaat, kies pop3cert.';
+$string['auth_radiusdescription'] = 'Deze methode gebruikt een <a href=\"http://nl.wikipedia.org/wiki/Radius_%%28protocol%%29\" target=\"_blank\">RADIUS</a>server om te controleren of een gebruikersnaam en wachtwoord geldig zijn ';
+$string['auth_radiushost'] = 'Adres van de RADIUS-server';
+$string['auth_radiusnasport'] = 'Poort om verbinding te maken';
+$string['auth_radiussecret'] = 'Gedeeld geheim';
+$string['auth_radiustitle'] = 'Gebruik een RADIUS server';
 $string['auth_shib_convert_data'] = 'Data wijzigings-API';
 $string['auth_shib_convert_data_description'] = 'Je kunt deze API gebruiken om de gegevens die Shibboleth geeft verder aan te passen. Lees <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> voor verder instructies.';
 $string['auth_shib_convert_data_warning'] = 'Het bestand bestaat niet of is niet leesbaar voor het webserverproces!';
@@ -126,14 +131,13 @@ $string['authinstructions'] = 'Hier kun je instructies geven aan de gebruikers, 
 $string['changepassword'] = 'URL voor het veranderen van het wachtwoord';
 $string['changepasswordhelp'] = 'Hier kun je een locatie aangeven waar gebruikers hun gebruikersnaam/wachtwoord kunnen terugkrijgen als ze deze vergeten zijn. Dit zal aan de gebruikers worden gegeven als een knop op de inlogpagina en op hun gebruikerspagina. Als je dit leeg laat zal de knop niet verschijnen.';
 $string['chooseauthmethod'] = 'Kies een methode van authenticatie:';
-$string['createchangepassword'] = 'Maak aan indien ontbreekt - verplicht wijzigen';
-$string['createpassword'] = 'Maak aan indien ontbreekt';
 $string['forcechangepassword'] = 'Verplicht het wijzigen van het wachtwoord';
 $string['forcechangepassword_help'] = 'Verplicht gebruikers om hun wachtwoord te wijzigen bij hun volgende aanmelding bij Moodle';
 $string['forcechangepasswordfirst_help'] = 'Verplicht gebruikers om hun wachtwoord te wijzigen bij hun eerste aanmelding bij Moodle.';
 $string['guestloginbutton'] = 'Knop om in te loggen als gast';
 $string['infilefield'] = 'Veld vereist in bestand';
 $string['instructions'] = 'Instructies';
+$string['internal'] = 'Intern';
 $string['locked'] = 'Geblokkeerd';
 $string['md5'] = 'MD5-encryptie';
 $string['passwordhandling'] = 'Behandeling van het wachtwoordveld';
