@@ -1,4 +1,4 @@
-<?PHP // $Id$
+m<?PHP // $Id$
 
 $string['blockname'] = 'Συνδεδεμένοι Χρήστες';
 $string['periodnminutes'] = 'τα τελευταία $a λεπτά';

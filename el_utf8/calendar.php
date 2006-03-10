@@ -1,4 +1,6 @@
-<?php // $Id$
+<?PHP // $Id$ 
+      // calendar.php - created with Moodle 1.6 development (2006031000)
+
 
 $string['calendar'] = 'Ημερολόγιο';
 $string['calendarheading'] = 'Ημερολόγιο $a';
@@ -38,11 +40,15 @@ $string['explain_lookahead'] = 'Ο αριθμός αυτός καθορίζει 
 $string['explain_maxevents'] = 'Ο αριθμός αυτός καθορίζει το μέγιστο αριθμό από επικείμενα γεγονότα που θα επιτρέπεται να εμφανίζεται κάθε φορά. Αν επιλέξετε πάρα πολλά, μπορεί να καταλαμβάνουν πολύ χώρο στην οθόνη.';
 $string['explain_startwday'] = 'Η πρώτη μέρα της εβδομάδας καθορίζει από το ποιά μέρα θα ξεκινάει κάθε εβδομάδα οπουδήποτε βλέπετε μηνιαίο ημερολόγιο. Χρησιμοποιήστε την για να προσαρμόσετε την εμφάνιση του ημερολογίου στις προτιμήσεις σας.';
 $string['explain_timeformat'] = 'Εδώ μπορείτε να επιλέξετε τη μορφή με την οποία θα εμφανίζονται οι ώρες στο ημερολόγιο. Οι επιλογές για 12ωρη και 24ωρη μορφή εμφανίζουν όλες τις ώρες στη μορφή αυτή. Με την επιλογή \"εξ\' ορισμού\" θα χρησιμοποιείται αυτόματα η μορφή απεικόνισης που έχει οριστεί για τη γλώσσα στην οποία βλέπετε τη σελίδα.';
+$string['fri'] = 'Παρ';
+$string['friday'] = 'Παρασκευή';
 $string['globalevents'] = 'Γεγονότα συστήματος';
-$string['groupevents'] = 'Ομαδικά γεγονότα';
 $string['gotocalendar'] = 'Ημερολόγιο';
+$string['groupevents'] = 'Ομαδικά γεγονότα';
 $string['hidden'] = 'δεν φαίνονται';
 $string['manyevents'] = '$a γεγονότα';
+$string['mon'] = 'Δευ';
+$string['monday'] = 'Δευτέρα';
 $string['monthlyview'] = 'Ημερολόγιο μήνα';
 $string['newevent'] = 'Νέο γεγονός';
 $string['noupcomingevents'] = 'Δεν υπάρχουν γεγονότα στο άμεσο μέλλον';
@@ -56,8 +62,14 @@ $string['preferences_available'] = 'Διαθέσιμες προσωπικές π
 $string['repeatnone'] = 'Χωρίς επανάληψη';
 $string['repeatweeksl'] = 'Εβδομαδιαία επανάληψη,';
 $string['repeatweeksr'] = 'φορές συνολικά';
+$string['sat'] = 'Σαβ';
+$string['saturday'] = 'Σάββατο';
 $string['shown'] = 'φαίνονται';
 $string['spanningevents'] = 'Γεγονότα σε εξέλιξη';
+$string['sun'] = 'Κυρ';
+$string['sunday'] = 'Κυριακή';
+$string['thu'] = 'Πεμ';
+$string['thursday'] = 'Πέμπτη';
 $string['timeformat_12'] = '12ωρη (πμ/μμ)';
 $string['timeformat_24'] = '24ωρη';
 $string['today'] = 'Σήμερα';
@@ -72,39 +84,16 @@ $string['tt_showcourse'] = 'Τα γεγονότα μαθήματος δε φαί
 $string['tt_showglobal'] = 'Τα γεγονότα συστήματος δε φαίνονται (κλικ για εμφάνιση)';
 $string['tt_showgroups'] = 'Τα ομαδικά γεγονότα δε φαίνονται (κλικ για εμφάνιση)';
 $string['tt_showuser'] = 'Τα προσωπικά γεγονότα δε φαίνονται (κλικ για εμφάνιση)';
+$string['tue'] = 'Τρι';
+$string['tuesday'] = 'Τρίτη';
 $string['typecourse'] = 'Γεγονός μαθήματος';
 $string['typegroup'] = 'Ομαδικό γεγονός';
 $string['typesite'] = 'Γεγονός συστήματος';
 $string['typeuser'] = 'Προσωπικό γεγονός';
 $string['upcomingevents'] = 'Επικείμενα γεγονότα';
 $string['userevents'] = 'Προσωπικά γεγονότα';
-$string['yesterday'] = 'Χθές';
-
-$string['sun'] = 'Κυρ';
-$string['mon'] = 'Δευ';
-$string['tue'] = 'Τρι';
 $string['wed'] = 'Τετ';
-$string['thu'] = 'Πεμ';
-$string['fri'] = 'Παρ';
-$string['sat'] = 'Σαβ';
-$string['sunday'] = 'Κυριακή';
-$string['monday'] = 'Δευτέρα';
-$string['tuesday'] = 'Τρίτη';
 $string['wednesday'] = 'Τετάρτη';
-$string['thursday'] = 'Πέμπτη';
-$string['friday'] = 'Παρασκευή';
-$string['saturday'] = 'Σάββατο';
-$string['january'] = 'Ιανουάριος';
-$string['february'] = 'Φεβρουάριος';
-$string['march'] = 'Μάρτιος';
-$string['april'] = 'Απρίλιος';
-$string['may'] = 'Μάιος';
-$string['june'] = 'Ιούνιος';
-$string['july'] = 'Ιούλιος';
-$string['august'] = 'Αύγουστος';
-$string['september'] = 'Σεπτέμβριος';
-$string['october'] = 'Οκτώβριος';
-$string['november'] = 'Νοέμβριος';
-$string['december'] = 'Δεκέμβριος';
+$string['yesterday'] = 'Χθές';
 
 ?>
