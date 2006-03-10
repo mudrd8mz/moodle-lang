@@ -232,6 +232,7 @@ $string['courseimportnotaught'] = 'Vous n\'êtes enseignant avec droit d\'éditi
 $string['courseinfo'] = 'Informations du cours';
 $string['coursemessage'] = 'Message aux participants du cours';
 $string['coursenotaccessible'] = 'Ce cours n\'est pas accessible au public';
+$string['courseoverview'] = 'Sommaire du cours';
 $string['coursereject'] = 'Rejeter une demande de cours';
 $string['courserejected'] = 'La demande de cours a été rejetée et le requérant en a été notifié.';
 $string['courserejectreason'] = 'Résumez vos raisons de rejeter ce cours course<br />(ce message sera envoyé au requérant)';
