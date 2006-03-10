@@ -1,4 +1,4 @@
-﻿Tài liệu về Moodle
+Tài liệu về Moodle
 --------------------
 
 Nếu bạn muốn dịch tài liệu này sang một ngôn ngữ khác,

@@ -1,4 +1,4 @@
-﻿Fonts
+Fonts
 -----
 
 Đây là thư mục chứa các font được dùng khi tạo ảnh bằng text.
