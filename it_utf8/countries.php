@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // countries.php - created with Moodle 1.4 development (2004080300)
 
 

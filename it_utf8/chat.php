@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // chat.php - created with Moodle 1.4 beta (2004082300)
 
 

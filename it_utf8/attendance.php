@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // attendance.php - created with Moodle 1.3 Beta + (2004051300)
 
 

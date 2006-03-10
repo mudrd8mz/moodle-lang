@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // choice.php - created with Moodle 1.5 ALPHA (2005043000)
 
 

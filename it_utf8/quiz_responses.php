@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // quiz_responses.php - created with Moodle 1.6 development (2005101200)
 
 

@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // hotpot.php - created with Moodle 1.4 ready tomorrow (2004083000)
 
 
