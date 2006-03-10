@@ -66,6 +66,8 @@ $string['directorysettingssub'] = '<strong>Adresse web :</strong> veuillez indiq
 $string['dirroot'] = 'Dossier Moodle';
 $string['dirrooterror'] = 'Le dossier Moodle semble incorrect : aucune installation de Moodle ne se trouve dans ce dossier. Le dossier Moodle indiqué ci-dessous est vraisemblablement correct.';
 $string['download'] = 'Télécharger';
+$string['downloadlanguagehead'] = 'Télécharger les fichiers de langue';
+$string['downloadlanguagesub'] = 'L\'installeur essaie maintenant de télécharger la totalité des fichiers de la langue que vous avez sélectionnée afin de poursuivre l\'installation dans cette langue.';
 $string['environmenthead'] = 'Vérification de l\'environnement...';
 $string['environmentsub'] = 'Les divers composants de votre système doivent satisfaire les exigences nécessaires à Moodle. Une vérification de votre environnement est en cours.';
 $string['fail'] = 'Échec';
@@ -79,6 +81,8 @@ $string['globalsquotes'] = 'Traitement non sûr des variables globales';
 $string['globalsquoteserror'] = 'Veuillez corriger vos réglages PHP&nbsp;: désactivez «&nbsp;register_globals&nbsp;» et/ou activez «&nbsp;magic_quotes_gpc&nbsp;»';
 $string['globalsquoteshelp'] = '<p>Pour des raisons de sécurité, la combinaison de la désactivation de l\'option «&nbsp;Magic Quotes GPC&nbsp;» et de l\'activation de l\'option «&nbsp;Register Globals&nbsp;» n\'est pas recommandée.</p> <p>Le réglage recommandé est <b>magic_quotes_gpc = On</b> et <b>register_globals = Off</b> dans votre fichier «&nbsp;php.ini&nbsp;».</p> <p>Si vous n\'avez pas accès au fichier «&nbsp;php.ini&nbsp;», il vous est peut-être possible de placer les deux lignes suivantes dans un fichier dénommé «&nbsp;.htaccess&nbsp;» placé dans votre dossier Moodle. <blockquote>php_value magic_quotes_gpc On</blockquote> <blockquote>php_value register_globals Off</blockquote></p>';
 $string['installation'] = 'Installation';
+$string['langdownloadok'] = 'La langue $a a été installée correctement. La suite de l\'installation aura lieu dans cette langue';
+$string['langdownloaderror'] = 'La langue $a n\'a pas été installée. La suite de l\'installation aura lieu en anglais. Vous pourrez télécharger et installer d\'autres langues à la fin de l\'installation';
 $string['magicquotesruntime'] = 'Magic Quotes Run Time';
 $string['magicquotesruntimeerror'] = 'Ce réglage doit être désactivé';
 $string['magicquotesruntimehelp'] = '<p>Le réglage «&nbsp;Magic quotes runtime&nbsp;» doit être désactivé pour que Moodle fonctionne correctement.</p><p>Il est normalement désactivé par défaut. Voyez le paramètre <strong>magic_quotes_runtime</strong> du fichier «&nbsp;php.ini&nbsp;» de votre serveur.</p><p>Si vous n\'avez pas accès à votre fichier «&nbsp;php.ini&nbsp;», vous pouvez créer dans le dossier principal de Moodle un fichier «&nbsp;.htaccess&nbsp;» contenant cette ligne&nbsp;:<br /><blockquote>php_value magic_quotes_runtime Off</blockquote></p>';
