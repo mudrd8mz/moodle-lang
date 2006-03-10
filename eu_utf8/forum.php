@@ -1,9 +1,11 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.4.1 (2004083101)
+      // forum.php - created with Moodle 1.5 (2005060201)
 
 
 $string['addanewdiscussion'] = 'Mezu berria idatzi';
 $string['addanewtopic'] = 'Gehitu gai berri bat';
+$string['advancedsearch'] = 'Bilaketa aurreratua';
+$string['allforums'] = 'Foro guztiak';
 $string['allowchoice'] = 'Utzi denei aukeratzen';
 $string['allowdiscussions'] = '$a batek foro honetan idatz dezake?';
 $string['allowratings'] = 'Mezuak baloratzeko aukera eman nahi?';
@@ -42,6 +44,7 @@ $string['forcesubscribeq'] = 'Denak harpidetzera behartu?';
 $string['forum'] = 'Foroa';
 $string['forumintro'] = 'Fororako sarrera';
 $string['forumname'] = 'Foroaren izena';
+$string['forumposts'] = 'Foroko mezuak';
 $string['forums'] = 'Foroak';
 $string['forumtype'] = 'Foro-mota';
 $string['generalforum'] = 'Foro arruntak erabilpen orokorrerako';
@@ -75,10 +78,12 @@ $string['noposts'] = 'Mezurik ez';
 $string['nopostscontaining'] = 'Ez da \'$a\' duen mezurik aurkitu';
 $string['nosubscribers'] = 'Oraindik inor ez da foro honetara harpidetu';
 $string['notingroup'] = 'Barkatu, baina talde honetako partaidea izan behar duzu foro hau ikusteko';
+$string['notrackforum'] = 'Ez jaso irakurri gabeko mezuak';
 $string['nownotsubscribed'] = '$a->name erabiltzaileak EZ du \'$a->forum\' foroko kopiarik jasoko e-postaz.';
 $string['nowsubscribed'] = '$a->name erabiltzaileak \'$a->forum\' foroko kopiak jasoko ditu e-postaz.';
 $string['numposts'] = '$a mezu';
 $string['olderdiscussions'] = 'Eztabaida zaharragoak';
+$string['oldertopics'] = 'Gai zaharragoak';
 $string['openmode0'] = 'Mezurik ez, erantzunik ez';
 $string['openmode1'] = 'Eztabaida berriak ez daude onartuta, baina erantzunak bai';
 $string['openmode2'] = 'Eztabaida berriak eta erantzunak onartuta daude';
@@ -139,6 +144,11 @@ $string['subscribestart'] = 'Bidali e-postaz foro honetako mezuak';
 $string['subscribestop'] = 'Ez bidali e-postaz foro honetako mezurik';
 $string['subscription'] = 'Harpidetza';
 $string['subscriptions'] = 'Harpidetzak';
+$string['trackforum'] = 'Jaso irakurri gabeko mezuak';
+$string['unread'] = 'Irakurri gabe';
+$string['unreadposts'] = 'Irakurri gabeko mezuak';
+$string['unreadpostsnumber'] = 'Irakurri gabeko $a mezu';
+$string['unreadpostsone'] = 'Irakurri gabeko mezu 1';
 $string['unsubscribe'] = 'Foro honetarako harpidetza kendu';
 $string['unsubscribed'] = 'Harpidetza kenduta';
 $string['unsubscribeshort'] = 'Harpidetza kendu';

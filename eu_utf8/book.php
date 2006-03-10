@@ -2,39 +2,39 @@
       // book.php - created with Moodle 1.5 unstable development (2004083000)
 
 
-$string['addafter'] = 'Agregar un nuevo cap√≠tulo';
-$string['chapterscount'] = 'Cap√≠tulos';
-$string['chaptertitle'] = 'T√≠tulo del cap√≠tulo';
-$string['confchapterdelete'] = '¬øRealmente desea eliminar este cap√≠tulo?';
-$string['confchapterdeleteall'] = '¬øRealmente desea eliminar este cap√≠tulo y todas sus secciones?';
+$string['addafter'] = 'Agregar un nuevo capÌtulo';
+$string['chapterscount'] = 'CapÌtulos';
+$string['chaptertitle'] = 'TÌtulo del capÌtulo';
+$string['confchapterdelete'] = 'øRealmente desea eliminar este capÌtulo?';
+$string['confchapterdeleteall'] = 'øRealmente desea eliminar este capÌtulo y todas sus secciones?';
 $string['content'] = 'Contenido';
-$string['customtitles'] = 'T√≠tulos personalizados';
-$string['disableprinting'] = 'Desactivar impresi√≥n';
+$string['customtitles'] = 'TÌtulos personalizados';
+$string['disableprinting'] = 'Desactivar impresiÛn';
 $string['doimport'] = 'Importar';
-$string['editingchapter'] = 'Editando cap√≠tulo';
+$string['editingchapter'] = 'Editando capÌtulo';
 $string['faq'] = 'FAQ Libro';
 $string['fileordir'] = 'Archivo o directorio';
 $string['import'] = 'Importar';
-$string['importinfo'] = 'Importar el archivo HTML seleccionado o un directorio,<br />los cap√≠tulos se ordenan alfab√©ticamente por nombre.
-                            <br /><h3>ESTA ES UNA NUEVA CARACTER√çSTICA EXPERIMENTAL ;-)</h3>';
+$string['importinfo'] = 'Importar el archivo HTML seleccionado o un directorio,<br />los capÌtulos se ordenan alfabÈticamente por nombre.
+                            <br /><h3>ESTA ES UNA NUEVA CARACTERÕSTICA EXPERIMENTAL ;-)</h3>';
 $string['importing'] = 'Importando';
-$string['importingchapters'] = 'Importando cap√≠tulos al libro';
+$string['importingchapters'] = 'Importando capÌtulos al libro';
 $string['maindirectory'] = 'Directorio principal';
 $string['modulename'] = 'Libro';
 $string['modulenameplural'] = 'Libros';
 $string['navnext'] = 'Siguiente';
 $string['navprev'] = 'Anterior';
-$string['numbering'] = 'N√∫mero del cap√≠tulo';
+$string['numbering'] = 'N˙mero del capÌtulo';
 $string['numbering0'] = 'No';
-$string['numbering1'] = 'Num√©rico';
-$string['numbering2'] = 'Vi√±etas';
-$string['numbering3'] = 'Sangr√≠a';
+$string['numbering1'] = 'NumÈrico';
+$string['numbering2'] = 'ViÒetas';
+$string['numbering3'] = 'SangrÌa';
 $string['printbook'] = 'Imprimir el libro completo';
-$string['printchapter'] = 'Imprimir este cap√≠tulo';
+$string['printchapter'] = 'Imprimir este capÌtulo';
 $string['printdate'] = 'Fecha';
 $string['printedby'] = 'Imprimido por';
 $string['relinking'] = 'Re-enlanzando';
-$string['subchapter'] = 'Secci√≥n';
+$string['subchapter'] = 'SecciÛn';
 $string['toc'] = 'Tabla de contenidos';
 $string['tocwidth'] = 'Seleciona la anchura de la tabla de contenidos de todos los libros.';
 $string['top'] = 'arriba';

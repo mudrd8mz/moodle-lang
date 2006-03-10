@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.4.1 (2004083101)
+      // resource.php - created with Moodle 1.5 (2005060201)
 
 
 $string['addresource'] = 'Baliabidea gehitu';
@@ -46,6 +46,7 @@ $string['resourcetypehtml'] = 'Sortu web-orri bat';
 $string['resourcetypelabel'] = 'Sartu etiketa';
 $string['resourcetypetext'] = 'Sortu testu-orri bat';
 $string['searchweb'] = 'Bilatu web-orri bat';
+$string['serverurl'] = 'Zerbitzariaren URLa';
 $string['variablename'] = 'Aldagaiaren izena';
 
 ?>
