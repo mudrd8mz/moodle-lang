@@ -2,14 +2,14 @@
 
 <p>En primer lugar tenga en cuenta que <strong>normalmente no es necesario importar 
 usuarios en bloque</strong> -para mantener su trabajo de mantenimiento bajo control, 
-deber√≠a explorar formas de autenticaci√≥n que no requieran mantenimiento manual, 
+deberÌa explorar formas de autenticaciÛn que no requieran mantenimiento manual, 
 tales como conectarse con una base de datos externa, o dejando que los usuarios 
-creen sus propias cuentas. Vea la secci√≥n de Autenticaci√≥n en el men√∫ del adminitrador.</p>
-<p>Si est√° seguro que quiere importar m√∫ltiples cuentas de usuario desde un archivo 
-de texto, entonces necesitar√° dare formato a su archivo de texto como se indica:</p>
+creen sus propias cuentas. Vea la secciÛn de AutenticaciÛn en el men˙ del adminitrador.</p>
+<p>Si est· seguro que quiere importar m˙ltiples cuentas de usuario desde un archivo 
+de texto, entonces necesitar· dare formato a su archivo de texto como se indica:</p>
 
 <ul>
-  <li>Cada l√≠nea del archivo contine un registro</li>
+  <li>Cada lÌnea del archivo contine un registro</li>
   <li>Cada registro es una serie de datos separados por comas</li>
   <li>El primer registro del archivo es especial, y contiene una lista de nombres 
 	de campos. Este registro define el formato del resto del archivo.
@@ -19,22 +19,22 @@ primer registro, y deben definirse para cada usuario.</p>
       <p></p>
       <font color="#990000" face="Courier New, Courier, mono">username, password, firstname, lastname, email</font></p>
 </p>
-      <p><strong>Campos por defecto:</strong> Estos son opcionales -si no est√°n presentes, se tomar√°n los valores del administrador primario</p>
+      <p><strong>Campos por defecto:</strong> Estos son opcionales -si no est·n presentes, se tomar·n los valores del administrador primario</p>
       <p><font color="#990000" face="Courier New, Courier, mono">institution, department, city, country, lang, timezone</font> </p>
-      <p><strong>Campos opcionales: </strong>todos estos son opcionales. Los nombres de los cursos son sus &quot;nombres cortos&quot; -si se incluyen los nombres cortos de los cursos el alumno se incribir√° autom√°ticamente en esos cursos.</p>
+      <p><strong>Campos opcionales: </strong>todos estos son opcionales. Los nombres de los cursos son sus &quot;nombres cortos&quot; -si se incluyen los nombres cortos de los cursos el alumno se incribir· autom·ticamente en esos cursos.</p>
       <p> <font color="#990000" face="Courier New, Courier, mono">idnumber, icq, phone1, phone2, address, url, description, mailformat, maildisplay, htmleditor, autosubscribe, course1, course2, course3, course4, course5, grupo1, grupo2, grupo3, grupo4, grupo5</font></p>
     </blockquote>
     </li>
-  <li>Las comas entre los datos se codificar√° como &amp;#44 --el script las decodificar√° autom√°ticamente como comas.</li>
+  <li>Las comas entre los datos se codificar· como &amp;#44 --el script las decodificar· autom·ticamente como comas.</li>
   <li>Para campos boleanos use 0 por falso y 1 por verdadero</li>
-  <li>Nota: Si un usuario ya est√° registrado en la base de datos de Moodle, el script regresar√° 
-	el n√∫mero userid (√≠ndice de la base de datos) de ese usuario, e inscribir√° al usuario en 
-	los cursos SIN alterar la infromaci√≥n anterior.
+  <li>Nota: Si un usuario ya est· registrado en la base de datos de Moodle, el script regresar· 
+	el n˙mero userid (Ìndice de la base de datos) de ese usuario, e inscribir· al usuario en 
+	los cursos SIN alterar la infromaciÛn anterior.
 </li>
 </ul>
   
   
-<p>Aqu√≠ hay un ejemplo de un archivo v√°lido:</p>
+<p>AquÌ hay un ejemplo de un archivo v·lido:</p>
 <p><font size="-1" face="Courier New, Courier, mono">username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1<br>
-juanb, secreto, Juan, Ben√≠tez, janb@algo.edu, en, 3663737, 1, Intro101, Seccion1<br>
-Saraf, sercreta, Sara, Fern√°ndez, sarara@alomas.edu, es, 6736733, 0, Avanzado202, Seccion3</font></p>
+juanb, secreto, Juan, BenÌtez, janb@algo.edu, en, 3663737, 1, Intro101, Seccion1<br>
+Saraf, sercreta, Sara, Fern·ndez, sarara@alomas.edu, es, 6736733, 0, Avanzado202, Seccion3</font></p>
