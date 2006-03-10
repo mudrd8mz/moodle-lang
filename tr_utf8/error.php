@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2005101200)
+      // error.php - created with Moodle 1.6 development (2006031000)
 
 
 $string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
-$string['cannotcreatetempdir'] = 'Geçici dizin oluşturulamadı.';
+$string['cannotcreatelangdir'] = 'Dil dizini oluşturulamıyor.';
+$string['cannotcreatetempdir'] = 'Geçici dizin oluşturulamıyor.';
 $string['cannotdownloadcomponents'] = 'Bileşenler indirilemedi.';
 $string['cannotdownloadzipfile'] = 'ZIP dosyası indirilemedi.';
 $string['cannotfindcomponent'] = 'Bileşen bulunamadı.';
@@ -36,6 +37,7 @@ $string['missingfield'] = '\"$a\" alanı eksiktir';
 $string['missingrequiredfield'] = 'Bazı gerekli alanlar eksik';
 $string['modulerequirementsnotmet'] = '\"$a->modulename\" ($a->moduleversion) modülü kurulamadı. Yeni moodle sürümü gerekmektedir (şu anda kullandığınız: $a->currentmoodle, gereken: $a->requiremoodle).';
 $string['mustbeteacher'] = 'Bu sayfaya bakabilmek için eğitimci olmalısınız';
+$string['noinstances'] = '$a bu kursta kullanılmadı!';
 $string['nonmeaningfulcontent'] = 'Anlamsız içerik';
 $string['notavailable'] = 'Şu anda erişilemez';
 $string['onlyadmins'] = 'Bunu sadece yöneticiler yapabilir';

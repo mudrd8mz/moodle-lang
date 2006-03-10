@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006030901)
+      // moodle.php - created with Moodle 1.6 development (2006031000)
 
 
 $string['action'] = 'Eylem';
@@ -108,7 +108,7 @@ $string['assignstudents'] = 'Öğrencileri kaydet';
 $string['assignstudentsnote'] = 'Not: Öğrenciler kendi kendilerini bu kursa kaydedebildiklerinden dolayı bu sayfayı kullanmanıza gerek yok.';
 $string['assignstudentspass'] = 'Öğrencilerinize bu kayıt anahtarını bildirmeniz gerekiyor: \'$a\'';
 $string['assignteachers'] = 'Eğitmen belirle';
-$string['authentication'] = 'Kimlik denetimi';
+$string['authentication'] = 'Kimlik Denetimi';
 $string['autosubscribe'] = 'Forum otomatik aboneği';
 $string['autosubscribeno'] = 'Hayır: Beni forumlara otomatik abone yapma';
 $string['autosubscribeyes'] = 'Evet: Mesaj gönderdiğimde beni o foruma abone yap';
@@ -174,7 +174,7 @@ $string['childcoursenotfound'] = 'Alt kurs bulunamadı';
 $string['childcourses'] = 'Alt kurslar';
 $string['choose'] = 'Seç';
 $string['choosecourse'] = 'Bir kurs seçiniz';
-$string['chooseenrolmethod'] = 'Birincil kayıt yöntemi';
+$string['chooseenrolmethod'] = 'Ders kaydı eklentisini seçiniz';
 $string['chooselivelogs'] = 'Yada şuanki etkinlikleri izleyiniz';
 $string['chooselogs'] = 'Hangi kayıtları görmek istediğinizi seçiniz';
 $string['choosereportfilter'] = 'Rapor için bir filtre seçiniz';
@@ -234,6 +234,7 @@ $string['courseimportnotaught'] = 'Hiçbir kursta düzenleyen eğitimci olarak g
 $string['courseinfo'] = 'Kurs bilgisi';
 $string['coursemessage'] = 'Kurs kullanıcılarına mesaj';
 $string['coursenotaccessible'] = 'Bu kurs herkesin erişimine açık değildir';
+$string['courseoverview'] = 'Kursu gözden geçirme';
 $string['coursereject'] = 'Kurs isteğini reddet';
 $string['courserejected'] = 'Kurs reddedildi ve isteyen kişi bilgilendirildi.';
 $string['courserejectemail'] = 'Üzgünüz, istediğiniz kurs onaylanmadı. Reddedilme sebebi:
@@ -450,7 +451,7 @@ $string['enrolmentnew'] = '$a dersine yeni kayıt';
 $string['enrolmentnewuser'] = '$a->user, \"$a->course\" dersine kaydoldu';
 $string['enrolmentnointernal'] = 'Manual olarak yapılan kayıtlar şu anda etkin değil';
 $string['enrolmentnotyet'] = 'Üzgünüz, bu derse şu tarihe kadar erişemezsiniz <br /> $a';
-$string['enrolmentplugins'] = 'Ders Kayıt Eklentileri';
+$string['enrolmentplugins'] = 'Ders Kaydı Eklentileri';
 $string['enrolments'] = 'Ders Kayıtları';
 $string['enrolmentstart'] = 'Kayıt Başlangıcı';
 $string['enrolperiod'] = 'Kayıt süresi';
@@ -595,7 +596,7 @@ $string['helpformatting'] = 'Yazı biçimlendirme hakkında';
 $string['helphtml'] = 'HTML Nasıl yazılır';
 $string['helpindex'] = 'Tüm yardım dosyaları';
 $string['helppicture'] = 'Resim nasıl yüklenir';
-$string['helpprefix'] = '\'$a\' hakkında yardım';
+$string['helpprefix'] = 'Yardım: $a';
 $string['helpquestions'] = 'İyi soru sor';
 $string['helpreading'] = 'Dikkatli oku';
 $string['helprichtext'] = 'Richtext HTML editörü hakkında';
@@ -954,7 +955,9 @@ $string['passwordsenttext'] = '   <P>$a->email adresinize bir eposta gönderildi
 $string['pathnotexists'] = 'Bu yer sunucuda yok!';
 $string['pathslasherror'] = 'Dosya yerleri \'/\' ile bitemez!';
 $string['paymentinstant'] = 'Ödeme için aşağıdaki butonu kullanın ve bir kaç dakika içinde kaydolun!';
+$string['paymentpending'] = '(<small><b><u>$a</u></b> bekliyor</small>)';
 $string['paymentrequired'] = 'Bu kurs bu kayıt için ödeme gerektirmektedir.';
+$string['payments'] = 'Ödemeler';
 $string['paymentsorry'] = 'Ödemeniz için teşekkürler! Ancak ödemeniz tam olarak işleme alınmadı ve \"$a->fullname\" dersine girmek için henüz kaydedilmediniz. Lütfen bir kaç dakika sonra derse girmeye çalışın. Derse girerken yine sorun yaşıyorsanız site yöneticini veya $a->teacher uyarınız.';
 $string['paymentthanks'] = 'Ödemeniz için teşekkürler! Şu anda bu kursa kaydoldunuz:<br />\"$a\"';
 $string['people'] = 'Topluluk';
