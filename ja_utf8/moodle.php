@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006030901)
+      // moodle.php - created with Moodle 1.6 development (2006031000)
 
 
 $string['action'] = '操作';
@@ -233,6 +233,7 @@ $string['courseimportnotaught'] = 'あなたは他のどのコースでも編集
 $string['courseinfo'] = 'コース情報';
 $string['coursemessage'] = 'コースユーザにメッセージを送信';
 $string['coursenotaccessible'] = 'このコースには一般からのアクセスはできません。';
+$string['courseoverview'] = 'コースオーバービュー';
 $string['coursereject'] = 'コースリクエストを拒否';
 $string['courserejected'] = 'コースは拒否され、申請者に通知メールが送信されました。';
 $string['courserejectemail'] = '申し訳ございません、あなたがリクエストしたコースは拒否されました。拒否理由は下記のとおりです。
