@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 development (2006030901)
+      // admin.php - created with Moodle 1.6 development (2006031000)
 
 
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示';
@@ -128,8 +128,13 @@ $string['confirmation'] = '確認';
 $string['confirminstall'] = 'あなたは言語パック ( $a ) をインストールしようとしています。本当によろしいですか?';
 $string['cronwarning'] = '<a href=\"cron.php\">cron.phpメンテナンススクリプト</a>が少なくとも24時間稼動していません。<br />cron.phpの自動化に関して<a href=\"../doc/?frame=install.html&sub=cron\">インストールドキュメント</a>をご覧ください。';
 $string['dbmigrate'] = 'Moodleデータベース移行';
+$string['dbmigrateconnecerror'] = '指定されたデータベースに接続できませんでした。';
+$string['dbmigrateencodingerror'] = '指定されたデータベースのエンコードは、必須のユニコード/UTF8と異なり、 $a となっています。<br />他のエンコードを指定してください。';
+$string['dbmigratepostgres'] = 'あなたはデータベースサーバとして、PostgreSQLを使用しているようです。移行処理を続けるには、移行データを保存するため「ユニコード」 ( PostgreSQL 7 ) または「UTF8」 ( PostgreSQL 8 ) の新たなデータベースを手動で作成してください。続けるには、下記に新たなデータベース接続設定を入力してください。';
 $string['dbmigratewarning'] = 'この処理を始める前に、Moodleデータベースをバックアップしたか確認してください。バックアップの方法が分からない場合は、システム管理者にご連絡ください。移行プロセスの開始後、あなたのMoodleサイトはメンテナンスモードに変更されます。';
 $string['dbmigratewarning2'] = '<b>警告: あなたはデータベース移行処理を開始しようとしています。すべてのMoodleデータベースをバックアップしているか、確実に確認してください。</b>';
+$string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">このデータベースは廃止され、新しいUTF8データベースに移行されました。このMoodleに新しいデータベースを使用するため、config.phpを編集してください。</font>';
+$string['dbmigrationdupfailed'] = 'データベース重複エラー:<font color=\"#ff0000\"><pre>$a</pre></font>';
 $string['density'] = '密度';
 $string['download'] = 'ダウンロード';
 $string['edithelpdocs'] = 'ヘルプドキュメントの編集';
@@ -194,6 +199,8 @@ $string['order3'] = '3番目';
 $string['pathconvert'] = '<i>convert</i>のバイナリパス';
 $string['pathdvips'] = '<i>dvips</i>のバイナリパス';
 $string['pathlatex'] = '<i>latex</i>のバイナリパス';
+$string['pgcluster'] = 'PostgreSQLクラスタ';
+$string['pgclusterdescription'] = '<pre>コマンドラインのためのPostgreSQL バージョン/クラスタパラメータです。あなたのシステムに1つのPostgreSQLのみある場合、またはこの設定が分からない場合は、空白にしてください。</pre>';
 $string['pleaseregister'] = 'このボタンを消すには、あなたのサイトを登録してください。';
 $string['remotelangnotavailable'] = 'Moodleがmoodle.orgに接続できないため、自動的に言語パックのインストールを行うことができません。適切なzipファイルを手動で下記のリンクよりダウンロードして、$a ディレクトリにコピーおよびunzipしてください。';
 $string['renameerrors'] = 'リネームのエラー';
