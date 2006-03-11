@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 development (2005101200)
+      // install.php - created with Moodle 1.6 development (2006031000)
 
 
 $string['admindirerror'] = '設定されたadminディレクトリが間違っています。';
@@ -85,6 +85,10 @@ Moodleが、アップロードされたファイルを保存する場所が必�
 $string['dirroot'] = 'Moodleディレクトリ';
 $string['dirrooterror'] = '「Moodleディレクトリ」設定が間違っているようです - インストール済みMoodleが見つかりませんでした。下記の値がリセットされました。';
 $string['download'] = 'ダウンロード';
+$string['downloadlanguagebutton'] = '「 $a 」言語パックをダウンロードする。';
+$string['downloadlanguagehead'] = '言語パックのダウンロード';
+$string['downloadlanguagenotneeded'] = 'デフォルトの言語パック「 $a 」でインストール処理を続けることができます。';
+$string['downloadlanguagesub'] = 'あなたは、この言語パックをダウンロードして、インストール処理を継続することができます。<br /><br />言語パックのダウンロードを無効にしている場合、インストール処理は英語で継続されます。 ( インストール処理が完了した後、他の言語パックをダウンロードして、インストールすることができます。 )';
 $string['environmenthead'] = 'あなたの環境を確認しています ...';
 $string['environmentsub'] = 'あなたのシステムに関する様々な要素が、システム要件に合致するか確認しています。';
 $string['fail'] = '失敗';
@@ -113,6 +117,8 @@ $string['globalsquoteshelp'] = '<p>Magic Quotes GPCの無効化およびRegister
 <blockquote>php_value register_globals Off</blockquote>
 </p> ';
 $string['installation'] = 'インストレーション';
+$string['langdownloaderror'] = '残念ですが、言語「 $a 」がインストールされていません。インストール処理は英語で継続されます。';
+$string['langdownloadok'] = '言語「 $a 」が正常にインストールされました。インストール処理は、この言語で継続されます。';
 $string['magicquotesruntime'] = 'Magic Quotesランタイム';
 $string['magicquotesruntimeerror'] = 'これは無効にしてください。';
 $string['magicquotesruntimehelp'] = '<p>Moodleを正常に動作させるためには、Magic quotesランタイムを無効にする必要があります。</p>
@@ -160,6 +166,6 @@ $string['welcomep50'] = 'このパッケージ内のすべてのアプリケー�
 $string['welcomep60'] = '次からのページは、あなたのコンピュータに <strong>Moodle</strong> を簡単に設定およびセットアップする手順にしたがって進みます。デフォルトの設定を使用することも、必要に応じて任意で設定を変更することもできます。';
 $string['welcomep70'] = '<strong>Moodle</strong>のセットアップを続けるには「次へ」ボタンをクリックしてください。';
 $string['wwwroot'] = 'ウェブアドレス';
-$string['wwwrooterror'] = 'ウェブアドレスが間違っています - インストール済みMoodleはここに表示されません。';
+$string['wwwrooterror'] = '「ウェブアドレス」が間違っています - インストール済みMoodleはそこに表示されません。下記の値はリセットされました。';
 
 ?>
