@@ -10,7 +10,9 @@ $string['editingends'] = "Koregavimo laikas baigiasi";
 $string['entries'] = "Įrašai";
 $string['feedbackupdated'] = "Atsakyti atnaujintus \$a įrašus";
 $string['journalmail'] = "\$a->teacher atsakė į jūsų žurnalo įrašus žurnale '\$a->journal'
+
 You can see it appended to your journal entry:
+
     \$a->url";
 $string['journalmailhtml'] = "\$a->teacher atsakė į jūsų žurnalo įrašus žurnale '<i>\$a->journal</i>'<br /><br />
 Atsakus galite pamatyti prisegtus prie jūsų <a href=\\\"\$a->url\\\">žurnalo įrašo</a>.";

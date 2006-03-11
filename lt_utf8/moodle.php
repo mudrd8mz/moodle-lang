@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2005060201)
+      // moodle.php - created with Moodle 1.5.3+ (2005060230)
 
 
 $string['action'] = 'Veiksmas';
@@ -39,32 +39,44 @@ $string['adminhelpassigncreators'] = 'Kūrėjai gali kurti naujas paskaitas ir m
 $string['adminhelpassignstudents'] = 'Eik į paskaitas ir pridėk studentą per Administratoriaus meniu';
 $string['adminhelpassignteachers'] = 'Raskite paskaitą tada naudokite ikoną naujam dėstytojui pridėti';
 $string['adminhelpauthentication'] = 'Galite naudoti vidinius vartotojus arba išorinę duomenų bazę';
+$string['adminhelpbackup'] = 'Nustatyti atomatinį atsarginį kopijavimą';
 $string['adminhelpconfiguration'] = 'Nustatyk kaip atrodo ir veikia šis puslapis';
 $string['adminhelpconfigvariables'] = 'Konfiguruokite kintamuosius kurie veikia bendrą puslapio veikimą';
 $string['adminhelpcourses'] = 'Apibrėžkite paskaitas ir categorijas bei priskirkite jiems žmones';
+$string['adminhelpeditorsettings'] = 'Pagrindiniai HTML redaktoriaus nustatymai';
 $string['adminhelpedituser'] = 'Naršykite vartotojų sąrašus ir koreduokite bet kurį iš jų';
+$string['adminhelpenrolments'] = 'Įsirašymams į paskaitas naudoti vidinį arba išorinį būdą.';
+$string['adminhelpfailurelogs'] = 'Peržiūrėti log\'us ir login\'us';
 $string['adminhelplanguage'] = 'Tikrinti ir koreguoti esamą kalbos paketą';
 $string['adminhelplogs'] = 'Naršyti \'log\' failus apie veiksmus puslapyje';
+$string['adminhelpmanageblocks'] = 'Įdiegtų blokų nustatymai ir administravimas';
 $string['adminhelpmanagedatabase'] = 'Kreiptis tiesiai į duomenų dazę (būkite atsargūs)';
-$string['adminhelpmanagemodules'] = 'Tvarkykite įdiektus modulius ir keiskite jų nustatymus';
+$string['adminhelpmanagefilters'] = 'Pasirink tekstinius filtrus ir jų nustatymus';
+$string['adminhelpmanagemodules'] = 'Tvarkykite įdiegtus modulius ir keiskite jų nustatymus';
 $string['adminhelpsitefiles'] = 'Bendrų bylų ar išorinių atsarginių kopijų skelbimui';
 $string['adminhelpsitesettings'] = 'Apibrėžkite šio puslapio šriftą';
 $string['adminhelpthemes'] = 'Pasirink kaip šis puslapis atrodo (spalva, šriftas)';
-$string['adminhelpusers'] = 'Apibrėžkite jųsū vartotojus ir nustatykite autentifikaciją';
+$string['adminhelpuploadusers'] = 'Impotuoti naujo vartotojo paskyrą iš tekstinės bylos';
+$string['adminhelpusers'] = 'Apibrėžkite jūsų vartotojus ir nustatykite autentifikaciją';
 $string['administration'] = 'Valdymas';
 $string['administrator'] = 'Administratorius';
 $string['administrators'] = 'Administratoriai';
 $string['administratorsall'] = 'Visi administratoriai';
 $string['administratorsandteachers'] = 'Administratoriai ir mokytojai';
+$string['adminprimarynoedit'] = 'Jus negalite pakeisti pagrindinio administratoriaus slaptažodžio';
+$string['advanced'] = 'Papildomai';
 $string['advancedfilter'] = 'Sudėtingesnė  paieška';
+$string['advancedsettings'] = 'Papildomi nustatymai';
 $string['again'] = 'dar kartą';
 $string['all'] = 'viską';
+$string['allactivities'] = 'Visi veiksmai';
 $string['alldays'] = 'Visas dienas';
 $string['allfieldsrequired'] = 'Visi laukai yra būtini';
 $string['allgroups'] = 'Visos grupės';
 $string['alllogs'] = 'Visos \'log\' bylos';
 $string['allow'] = 'Leisti';
 $string['allowguests'] = 'Ši paskaita skirta ir svečiams';
+$string['allowinternal'] = 'Leisti vidinius metodus';
 $string['allownot'] = 'Neleisti';
 $string['allparticipants'] = 'Visi dalyviai';
 $string['allteachers'] = 'Visi mokytojai';
@@ -88,8 +100,11 @@ $string['autosubscribeyes'] = 'Yes: when I post, subscribe me to that forum';
 $string['availability'] = 'Tinkamumas';
 $string['availablecourses'] = 'Paruoštos paskaitos';
 $string['backup'] = 'Atsarginė kopija';
+$string['backupcancelled'] = 'Atsarginė kopija atšaukta';
+$string['backupcoursefileshelp'] = 'Jei pažymėta, tai kurso bylos bus įtrauktos į automatinį kopijavimą';
 $string['backupdate'] = 'Atsarginės kopijos data';
 $string['backupdetails'] = 'Atsarginė kopija smulkiau';
+$string['backupfailed'] = 'Kai kurie Jūsų kursai neišsaugoti.';
 $string['backupfilename'] = 'atsarginė kopija';
 $string['backupfinished'] = 'Atsarginė kopija sukurta sėkmingai';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
@@ -217,26 +232,26 @@ $string['editthisactivity'] = 'Koreguoti šį veiksmą';
 $string['editthiscategory'] = 'Koreguoti šios paskaitos kategoriją';
 $string['edituser'] = 'Koreguoti vartotojų vardus';
 $string['email'] = 'El. pašto adresas';
+$string['emailactive'] = 'El. paštas aktyvuotas';
 $string['emailagain'] = 'El. paštas (dar kartą)';
 $string['emailconfirm'] = 'Patvirtinkite savo vartotojo vardą';
 $string['emailconfirmation'] = 'Sveiki $a->firstname,
 
-Naujas vartotojas užregistruotas puslapyje:
+Naujas vartotojas uzregistruotas puslapyje:
 \'$a->sitename\' 
-naudojant jūsų el. pašto adresą.
 
-Eikite į nuorodą, kad patvirtintumėte užsiregistravimą:
+Pasinaudokite sia nuoroda, kad patvirtintumete uzsiregistravima:
 
 $a->link 
 
-Daugelyje pašto programų ši nuoroda paryškinta mėlina spalva, tada užtenka tiesiog spragtelėti ant jos. Bet jeigu taip nėra, nukopijuokite šią nuorodą (Copy - Paste) į interneto naršyklės adreso juostelę ir spauskite ENTER.
+Daugelyje pasto programu si nuoroda paryskinta melina spalva, tada uztenka tiesiog spragteleti ant jos. Bet jeigu taip nera, nukopijuokite sia nuoroda (Copy - Paste) į interneto narsykles adreso juostele ir spauskite ENTER.
 
-Jei kyla problemų, susisiekite su administratorium:
+Jei kyla problemu, susisiekite su administratoriumi:
 $a->admin';
 $string['emailconfirmationsubject'] = '$a: vartotojo vardo patvirtinimas';
-$string['emailconfirmsent'] = '   <p>Išsiųstas laiškas jums į <b>$a</b></p>
-   <p>Jame parašyta kaip pabaigti registraciją.</p>
-   <p>Jei kas netaip, susisiekite su administratoriumi.</p>';
+$string['emailconfirmsent'] = '   <P>Išsiųstas laiškas jums į <B>$a</B>
+   <P>Jame parašyta kaip pabaigti registraciją.
+   <P>Jei kas netaip, susisiekite su administratoriumi.';
 $string['emaildisplay'] = 'El. pašto rodymas';
 $string['emaildisplaycourse'] = 'Rodyti mano el. pašto adresą tik paskaitos nariams';
 $string['emaildisplayno'] = 'Nerodyti mano el. pašto adreso kitiems';
@@ -258,11 +273,11 @@ Jei kyla problemų, susisiekite su administratorium:
 $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: pakeisto slaptažodžio patvirtinimas';
 $string['emailpasswordconfirmsent'] = 'Išsiųstas laiškas adresu <b>$a</b>.
-<br />Jame yra parašyta kaip užbaigti slaptažodžio keitimą.
+<p>Jame yra parašyta kaip užbaigti slaptažodžio keitimą.
 Jei kas nors ne taip, susisiekite su administratorium.';
 $string['emailpasswordsent'] = 'Ačiū kad patvirtinotė slaptažodžio pakeitimą.
-<br />Išsiųstas laiškas su nauju slaptažodžiu adresu<b>$a->email</b>.
-<br />Naujas slaptažodis yra automatiškai sugeneruotas - gal norite jį <a href=\"$a->link\">pakeisti</a> į labiaus įsimenamą.';
+<p>Išsiųstas laiškas su nauju slaptažodžiu adresu<b>$a->email</b>.
+<p>Naujas slaptažodis yra automatiškai sugeneruotas - gal norite jį <a href=$a->link>pakeisti</a> į labiaus įsimenamą.';
 $string['enrolmentconfirmation'] = 'Jūs bandote save įsirašyti į paskaitas.<br />Ar tikrai to norite?';
 $string['enrolmentkey'] = 'Įsirašymo raktas';
 $string['enrolmentkeyfrom'] = 'Ši paskaita reikalauja įsirašymo rakto - vienkartinio slaptažodžio<br />
@@ -293,6 +308,7 @@ $string['firstname'] = 'Vardas';
 $string['firsttime'] = 'Jūs čia pirmą kartą?';
 $string['followingoptional'] = 'Čia nebūtina';
 $string['followingrequired'] = 'Čia būtina';
+$string['forgotaccount'] = 'Priminti saptažodį';
 $string['forgotten'] = 'Pamiršote slaptažodį arba vartotojo vardą?';
 $string['format'] = 'Formatas';
 $string['formathtml'] = 'HTML formatas';
@@ -316,7 +332,8 @@ $string['fullsitename'] = 'Pilnas puslapio pavadinimas';
 $string['gd1'] = 'GD 1.x instaliuota';
 $string['gd2'] = 'GD 2.x instaliuota';
 $string['gdneed'] = 'GD turi būti instaliuota';
-$string['gdnot'] = 'GD neinstaliuota';
+$string['gdnot'] = 'GD ne instaliuota';
+$string['go'] = 'eiti į';
 $string['gpl'] = 'Copyright (C) 2001-2003  Martin Dougiamas  (http://dougiamas.com)
 
 This program is free software; you can redistribute it and/or modify
@@ -394,7 +411,7 @@ $string['list'] = 'Sąrašas';
 $string['listfiles'] = 'Bylų sąrašas iš $a';
 $string['listofallpeople'] = 'Visų žmonių sąrašas';
 $string['livelogs'] = 'Valandos senumo \'log\' bylos';
-$string['locale'] = 'lt_LT.UTF-8';
+$string['locale'] = 'lt_LT';
 $string['location'] = 'Vieta';
 $string['loggedinas'] = 'Jūs prisijungęs $a vardu';
 $string['loggedinnot'] = 'Jūs nesate prisijungęs.';
@@ -403,16 +420,16 @@ $string['loginas'] = 'Prisijunk kaip';
 $string['loginguest'] = 'Prisijunk kaip svečias';
 $string['loginsite'] = 'Prisijunk prie puslapio';
 $string['loginsteps'] = 'Sveiki! Norėdami prisijungiti ir naudotis visomis paskaitomis jūs turite susikurti vartotoją. Gali prireikti ir \"įrašymo rakto\", apie jį vėliau. Štai ka reikia daryti:
-   <ol>
-   <li>Užpildyti <a href=\"$a\">Naujo Vartotojo</a> formą savo duomenimis.</li>
-   <li>Tada gausite el. laišką.</li>
-   <li>Spauskite ant nuorodos laiške.</li>
-   <li>Jūsų registracija bus patvirtinta ir jūs būsite prijungtas.</li>
-   <li>Dabar galite pasirinkti paskaitą, kuri jums patinka.</li>
-   <li>Jei prašoma \"įrašymo rakto\" - naudokite tą, kurį davė dėstytojas. Taip įsirašysite save į paskaitas.</li>
-   <li>Dabar galite naudotis paskaitomis, prisijungdami savo vartotojo vardu ir slaptažodžiu.</li>
-   </ol>';
-$string['loginstepsnone'] = '<p>Sveiki!</p><p>Norėdami naudotis paskaitomis turi užsiregistruoti.</p><p>Tam reikia sugalvoti vartotojo vardą ir slaptažodį.</p>';
+   <OL size=2>
+   <LI>Užpildyti <A HREF=$a>Naujo Vartotojo</A> formą savo duomenimis.
+   <LI>Tada gausite el. laišką.
+   <LI>Spauskite ant nuorodos laiške.
+   <LI>Jūsų registracija bus patvirtinta ir jūs būsite prijungtas.
+   <LI>Dabar galite pasirinkti paskaitą, kuri jums patinka.
+   <LI>Jei prašoma \"įrašymo rakto\" - naudokite tą, kurį davė dėstytojas. Taip įsirašysite save į paskaitas.
+   <LI>Dabar galite naudotis paskaitomis, prisijungdami savo vartotojo vardu ir slaptažodžiu.
+   </OL>';
+$string['loginstepsnone'] = 'Sveiki!<P>Norėdami naudotis paskaitomis turi užsiregistruoti.<P>Tam reikia sugalvoti vartotojo vardą ir slaptažodį.';
 $string['loginto'] = 'Prisijunk prie $a';
 $string['loginusing'] = 'Prisijunk čia naudodamas savo vartotojo vardą ir slaptažodį';
 $string['logout'] = 'Atsijungti';
@@ -552,9 +569,9 @@ $string['passwordconfirmchange'] = 'Patvirtinkite slaptažodžio pakeitimą';
 $string['passwordrecovery'] = 'Taip, padėti man prisijungti';
 $string['passwordsdiffer'] = 'Šie slaptažodžiai nevienodi';
 $string['passwordsent'] = 'Slaptažodis išsiųstas';
-$string['passwordsenttext'] = '<p>Išsiųstas laiškas adresu $a->email.</p>
-   <p><b>Pasitikrinkite paštą dėl naujo slaptažodžio</b></p>
-   <p>Naujas slaptažodis yra automatiškai sugeneruotas ir jūs turbūt norėsitė jį <a href=\"$a->link\">pakeisti</a> į labiau įsimenamą.</p>';
+$string['passwordsenttext'] = '   <P>Išsiųstas laiškas adresu $a->email.
+   <P><B>Pasitikrinkite paštą dėl naujo slaptažodžio</B>
+   <P>Naujas slaptažodis yra automatiškai sugeneruotas ir jūs turbūt norėsitė jį <A HREF=$a->link>pakeisti</A> į labiau įsimenamą.';
 $string['people'] = 'Kolegos';
 $string['personalprofile'] = 'Asmeninis profilis';
 $string['phone'] = 'Telefonas';
@@ -567,6 +584,7 @@ $string['potentialteachers'] = 'Tinkami dėstytojai';
 $string['preferredlanguage'] = 'Norima kalba';
 $string['preview'] = 'Peržvelgti';
 $string['previeworchoose'] = 'Peržvelgti arba pasirinkti temą';
+$string['previous'] = 'Ankstesnis';
 $string['publicdirectory'] = 'Vieša direktorija';
 $string['publicdirectory0'] = 'Prašom neskelbti šio puslapio';
 $string['publicdirectory1'] = 'Skelbti tik puslapio pavadinimą';
@@ -578,6 +596,14 @@ $string['readme'] = 'SKAITYK_MANE';
 $string['recentactivity'] = 'Paskutiniai veiksmai';
 $string['registration'] = 'Moodle Registracija';
 $string['registrationemail'] = 'El. pašto pranešimai';
+$string['registrationinfo'] = '<p>This page allows you to register your Moodle site with moodle.org.  Registration is free.
+The main benefit of registering is that you will be added to a low-volume mailing list 
+for important notifications such as security alerts and new releases of Moodle.
+<p>By default, your information will be kept private, and will never be sold or passed on to anyone else.  The only 
+   reason for collecting this information is for support purposes, and to help build up a statistical 
+   picture of the Moodle community as a whole.
+<p>If you choose, you can allow your site name, country and URL to be added to the public list of Moodle Sites.
+<p>All new registrations are verified manually before they are added to the list, but once you are added you can update your registration (and your entry on the public list) at any time by resubmitting this form.';
 $string['registrationno'] = 'Ne, nenoriu gauti laiškų';
 $string['registrationsend'] = 'Siūsti registracijos informaciją į moodle.org';
 $string['registrationyes'] = 'Taip, praneškite man apie svarbesniu įvykius';
@@ -659,19 +685,19 @@ $string['subcategories'] = 'Sub-kategorijos';
 $string['success'] = 'Sėkmingai';
 $string['summary'] = 'Apibendrinimas';
 $string['summaryof'] = '$a apibendrinimas';
-$string['supplyinfo'] = 'Pateikite šiektiek informacijos apie save';
+$string['supplyinfo'] = 'Pateikite šiek tiek informacijos apie save';
 $string['teacheronly'] = 'tik $a';
 $string['teachers'] = 'Dėstytojai';
 $string['textediting'] = 'Kai koreguojama';
 $string['texteditor'] = 'Naudoti standartines formas';
-$string['textformat'] = 'Pprasto teksto formatas';
+$string['textformat'] = 'Paprasto teksto formatas';
 $string['thanks'] = 'Ačiū';
 $string['theme'] = 'Tema';
 $string['themes'] = 'Temos';
 $string['themesaved'] = 'Nauja tema išsaugota';
-$string['thischarset'] = 'UTF-8';
+$string['thischarset'] = 'utf-8';
 $string['thisdirection'] = 'ltr';
-$string['thislanguage'] = 'Lietuvi&#371;';
+$string['thislanguage'] = 'Lietuvių';
 $string['time'] = 'Laikas';
 $string['timezone'] = 'Laiko juosta';
 $string['to'] = 'Kam';
@@ -725,5 +751,7 @@ $string['welcometocoursetext'] = 'Sveikiname $a->coursename prisijungus!
 Jei dar to nepadarėte užpildykite teisingus savo duomenis.
 
 $a->profileurl';
+$string['yourteacher'] = 'Jūsų $a';
+$string['zippingbackup'] = 'Suspausta archyvo kopija';
 
 ?>
