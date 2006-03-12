@@ -127,7 +127,7 @@ $string['configwarning'] = 'Mag-ingat sa pagbabago ng mga kaayusang ito - ang di
 $string['configzip'] = 'Isulat ang lokasyon ng zip program mo (pang-Unix lamang, opsiyonal).  Kung itinakda, gagamitin ito sa paglikha ng zip archive sa server.  Kung pabayaan mo itong blangko, gagamitin ng Moodle ang mga internal na routine.';
 $string['confirmation'] = 'Kumpirmasyon';
 $string['confirminstall'] = 'Iiinstol mo ang pakete ng wika ($a), ito ba talaga ang gusto mo?';
-$string['cronwarning'] = 'Ang <a href=\"cron.php\">cron.php maintenance script</a> ay hindi pinatakbo sa loob ng 24 na oras. <br />Ipinapaliwanag ng <a href=\"../doc/?frame=install.html⊂=cron\"> dokumentasyon sa pag-iinstol</a> kung paano mo mapapatakbo ng awtomatiko ito.';
+$string['cronwarning'] = 'Ang <a href=\"cron.php\">cron.php maintenance script</a> ay hindi pinatakbo sa loob ng 24 na oras.';
 $string['dbmigrate'] = 'Pagsasalin ng Moodle Database';
 $string['dbmigrateconnecerror'] = 'Hindi makakonekta sa itinakdang database.';
 $string['dbmigrateencodingerror'] = 'Ang itinakdang database ay may encoding na $a sa halip na UNICODE/UTF8.<br />Magtakda po ng iba.';

@@ -94,7 +94,7 @@ $string['configvariables'] = 'Nastaviť premenné';
 $string['configwarning'] = 'Postupujte veľmi opatrne pri zmenách týchto nastavení - nesprávne hodnoty môžu spôsobiť problémy.';
 $string['configzip'] = 'Uveďte cestu k Vášmu zip programu (len pre UNIX, nepovinné). Pokiaľ je cesta špecifikovaná, bude použitá pre tvorbu zip archívov na serveri. Pokiaľ ju ponecháte prázdnu, Moodle bude používať vlastný interný postup.';
 $string['confirmation'] = 'Potvrdenie';
-$string['cronwarning'] = '<a href=\"cron.php\" title=\"cron.php\">Skript pre údržbu cron.php?</a> nebol spustený najmenej 24 hodín.<br /><a href=\"../doc/?frame=install.html&#8834;=cron\">Táto dokumentácia o inštalácii</a> vysvetľuje, ako tento proces môžete zautomatizovať.';
+$string['cronwarning'] = '<a href=\"cron.php\" title=\"cron.php\">Skript pre údržbu cron.php?</a> nebol spustený najmenej 24 hodín.';
 $string['edithelpdocs'] = 'Upraviť dokumentáciu nápovede';
 $string['editstrings'] = 'Upraviť textové reťazce';
 $string['filterall'] = 'Filtrovať všetky reťazce';

@@ -104,8 +104,7 @@ $string['configvariables'] = 'Asetukset';
 $string['configwarning'] = 'Ole varovainen muuttaessasi näitä asetuksia, väärät arvot voivat aiheuttaa ongelmia.';
 $string['configzip'] = 'Määritä polku zip-ohjelmaasi (vain Unixille, valinnanvarainen). Jos polku määritellään, zip-ohjelmaa käytetään luotaessa pakattuja arkistoja palvelimelle. Jos jätät tämän tyhjäksi Moodle käyttää sisäisiä ohjelmiaan.';
 $string['confirmation'] = 'Vahvistus';
-$string['cronwarning'] = '<a href=\"cron.php\">cron.php-ylläpitoscriptiä</a> ei ole ajettu viimeisen 24. tunnin sisällä.<br /> <a href=\"../doc/?frame=install.html&#8834;=cron\">Asennusdokumentaatiossa</a>
-selvitetään, kuinka voit automatisoida scriptin suorittamisen.';
+$string['cronwarning'] = '<a href=\"cron.php\">cron.php-ylläpitoscriptiä</a> ei ole ajettu viimeisen 24. tunnin sisällä.';
 $string['edithelpdocs'] = 'Muokkaa aputiedostoja';
 $string['editstrings'] = 'Muokkaa merkkijonoja';
 $string['filterall'] = 'Suodata kaikki merkkijonot';

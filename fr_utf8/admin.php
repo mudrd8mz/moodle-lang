@@ -123,7 +123,7 @@ $string['configwarning'] = 'Attention ! Des valeurs bizarres pour ces paramètre
 $string['configzip'] = 'Indiquer le chemin complet du programme «&nbsp;zip&nbsp;» (seulement pour Unix). Ce programme est requis pour réaliser des archives zip sur le serveur.';
 $string['confirmation'] = 'Confirmation';
 $string['confirminstall'] = 'Vous êtes sur le point d\'installer une nouvelle langue ($a). Voulez-vous continuer&nbsp;?';
-$string['cronwarning'] = 'Le <a href=\"cron.php\">script de maintenance cron.php</a> n\'a pas été lancé depuis au moins 24 heures.<br />La <a href=\"../doc/?frame=install.html&amp;sub=cron\">documentation d\'installation</a> explique comment vous pouvez automatiser cette tâche.';
+$string['cronwarning'] = 'Le <a href=\"cron.php\">script de maintenance cron.php</a> n\'a pas été lancé depuis au moins 24 heures.';
 $string['dbmigrate'] = 'Migration de la base de données de Moodle';
 $string['dbmigrateconnecerror'] = 'Impossible de se connecter à la base de données spécifiée.';
 $string['dbmigrateencodingerror'] = 'La base de données spécifiée a l\'encodage $a au lieu de l\'encodage requis UNICODE/UTF8.<br />Veuillez en sélectionner une autre.';

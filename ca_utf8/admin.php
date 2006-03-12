@@ -124,7 +124,7 @@ $string['configwarning'] = 'Aneu amb compte amb aquests paràmetres: uns valors 
 $string['configzip'] = 'Indiqueu la ubicació del vostre programa de compressió zip (opcional, només en Unix). Si l\'especifiqueu, aquest programa s\'utilitzarà per crear arxius zip al servidor. Si la deixeu en blanc, Moodle utilitzarà les seves rutines internes.';
 $string['confirmation'] = 'Confirmació';
 $string['confirminstall'] = 'Esteu a punt d\'instal·lar el paquet d\'idioma ($a). N\'esteu segur?';
-$string['cronwarning'] = 'La <a href=\"cron.php\">seqüència de manteniment cron.php</a> no s\'ha executat en les darreres 24 hores com a mínim.<br />La <a href=\"../doc/?frame=install.html?=cron\">documentació d\'instal·lació</a> explica com podeu automatitzar-ho.';
+$string['cronwarning'] = 'La <a href=\"cron.php\">seqüència de manteniment cron.php</a> no s\'ha executat en les darreres 24 hores com a mínim.';
 $string['dbmigrate'] = 'Migració de la base de dades de Moodle';
 $string['dbmigratewarning'] = 'Abans de començar aquest procediment, cercioreu-vos que teniu una còpia de seguretat de la base de dades de Moodle. Contacteu amb l\'administrador del vostre sistema si no sabeu com es fa. Quan engegueu el procés de migració, aquest lloc restarà en mode de manteniment.';
 $string['dbmigratewarning2'] = '<b>Avís: esteu a punt d\'engegar el procés de migració de la base de dades. Cercioreu-vos que teniu una còpia de seguretat de la base de dades de Moodle.</b>';

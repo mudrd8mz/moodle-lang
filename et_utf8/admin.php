@@ -73,7 +73,7 @@ $string['configzip'] = 'Määratle oma pakkimisprogrammi asukoht (ainult Unix). 
 $string['confirmation'] = 'Kinnitus';
 $string['confirmdeletedst'] = 'Kustutates ettemääratuid nimesi <strong>$a</strong> lülitab automaatselt välja selle DST ettemääruse kasutajate jaoks. See võib muuta nende ajataju ilma hoitamata. Oled sa kindel ,et soovid jätkata?';
 $string['confirmdeletedstdefault'] = '<strong>Ettemäärus nimega $a kasutatakse kõikide saidi kasutajate poolt</strong> Selle kustutates muudab see automaatselt nende ajataju ilma hoiatamata. Oled sa kindel ,et soovid jätkata?';
-$string['cronwarning'] = '<a href=\"cron.php\">cron.php hooldus skript</a> on jooksnud vähemalt 24 tundi. <br />The <a href=\"../doc/?frame=install.html&mp;sub=cron\">installation documentation</a> seletab kuidas seda automatiseerida.';
+$string['cronwarning'] = '<a href=\"cron.php\">cron.php hooldus skript</a> on jooksnud vähemalt 24 tundi.';
 $string['dstisapreference'] = 'Iga kasutaja saab valida mis ettemäärust valida';
 $string['dstisforcedto'] = 'Sunni kõiki kasutajaid kasutama';
 $string['dstpresets'] = 'DST ettemäärus';

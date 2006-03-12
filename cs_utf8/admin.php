@@ -91,7 +91,7 @@ $string['configvariables'] = 'Proměnné';
 $string['configwarning'] = 'S úpravou těchto hodnot buďte opatrní - nezvyklé hodnoty mohou způsobovat problémy.';
 $string['configzip'] = 'Zadejte umístění programu zip (volitelné). Pokud je zadáno, bude Moodle používat tento program k vytváření zip archívů na serveru. Jinak bude používat vlastní knihovny.';
 $string['confirmation'] = 'Potvrzení';
-$string['cronwarning'] = 'Skript <a href=\"cron.php\">cron.php</a>, který má na starosti běžnou údržbu serveru, nebyl během posledních 24 hodin spuštěn.<br /><a href=\"../doc/?frame=install.html&#8834;=cron\">Instalační příručka</a> vysvětluje, jak se dá nezbytná údržba vašeho serveru zautomatizovat.';
+$string['cronwarning'] = 'Skript <a href=\"cron.php\">cron.php</a>, který má na starosti běžnou údržbu serveru, nebyl během posledních 24 hodin spuštěn.';
 $string['edithelpdocs'] = 'Upravit nápovědu a dokumentaci';
 $string['editstrings'] = 'Upravit textové řetězce';
 $string['filterall'] = 'Filtrovat všechny řetězce';

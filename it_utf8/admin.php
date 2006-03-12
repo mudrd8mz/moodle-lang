@@ -147,7 +147,7 @@ $string['configzip'] = 'Indica il percorso del programma Zip di compressione dat
 Se specificato, questo programma si occuperà  di creare archivi di files compressi lato server. Se lasciato in bianco, Moodle utilizzerà  le proprie routine interne.';
 $string['confirmation'] = 'Conferma';
 $string['confirminstall'] = 'Si sta per installare il language pack ($a), siete sicuri?';
-$string['cronwarning'] = 'Lo  <a href=\"cron.php\">script della routine cron.php</a> non è stato lanciato nelle ultime 24 ore.  <br />La <a href=\"../doc/?frame=install.html?=cron\">documentazione di installazione</a> vi spiegherà  come fare ad automatizzare questo processo.';
+$string['cronwarning'] = 'Lo  <a href=\"cron.php\">script della routine cron.php</a> non è stato lanciato nelle ultime 24 ore.';
 $string['dbmigrate'] = 'Migrazione base di dati Moodle';
 $string['dbmigratewarning'] = 'Accertarsi di aver effettuato una copia di sicurezza della vostra base di dati di Moodle prima di iniziare questa procedura. Se non siete sicuri di come fare, contattate il vostro amministratore di sistema. Il vostro sito di Moodle verrà messo in modalità di mantenimento dopo l\'inizio del processo di migrazione.';
 $string['dbmigratewarning2'] = '<b>Attenzione: State per iniziare il processo di migrazione della base di dati. Siate certi che sulla vostra base di dati di Moodle sia stata effettuata una copia di sicurezza completa.</b>';

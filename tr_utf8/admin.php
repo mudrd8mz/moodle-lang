@@ -79,7 +79,7 @@ $string['configwarning'] = 'Bu ayarları değiştirirken dikkatli olun. Bilmedi�
 $string['configzip'] = 'Zip programının yerini belirtin (Sadece Unix için, isteğe bağlıdır). Belirtilirse, sunucuda zip arşivi oluşturmak için bu kullanılacaktır. Boş bırakırsanız, zip arşivi oluşturmak için dahili işlemler kullanılacaktır.';
 $string['confirmation'] = 'Onay';
 $string['confirminstall'] = 'Dil paketini kurmak üzereseniz ($a), emin misiniz?';
-$string['cronwarning'] = '<a href=\"cron.php\">cron.php bakım programı</a> son 24 saattir çalışmıyor. <br /><a href=\"../doc/?frame=install.html&sub=cron\">Kurulum belgesi</a> bunu nasıl otomatikleştireceğinizi açıklıyor.';
+$string['cronwarning'] = '<a href=\"cron.php\">cron.php bakım programı</a> son 24 saattir çalışmıyor.';
 $string['dbmigrate'] = 'Moodle Veritabanı Dönüşümü';
 $string['dbmigratewarning'] = 'Lüften bu işleme başlamadan önce moodle veritabanınızı yedeklediğinizden emin olun. Bunun nasıl yapılacağından emin değilseniz lütfen sistem yöneticinizle iletişim kurun. Moodle siteniz çevirim işlemine başladıktan sonra bakım moduna alınacak';
 $string['dbmigratewarning2'] = '<b>Uyarı: Veritabanı çevirim işlemine başlamak üzereseniz. Lütfen veritabanınızı yedekleğinizden kesinlikle emin olun!</b>';

@@ -120,7 +120,7 @@ $string['configvariables'] = 'Variabler';
 $string['configwarning'] = 'Pas på med at ændre på disse indstillinger - forkerte værdier kan forårsage problemer.';
 $string['configzip'] = 'Her skal stien til zipprogrammet angives (kun unix) Hvis den er specificeret kan du oprette zipfiler på serveren. Hvis du lader stien være blank vil Moodle forsøge at benytte PHP\'s interne rutiner hvis de er tilgængelige.';
 $string['confirmation'] = 'Godkendelse';
-$string['cronwarning'] = 'Cron <a href=\"cron.php\">vedligeholdelsesscriptet</a>  har ikke været kørt indenfor de sidste 24 timer.<br /> Der står i <a href=\"../doc/?frame=install.html&#8834;=cron\">installationsscriptet </a> hvordan du kan automatisere det.';
+$string['cronwarning'] = 'Cron <a href=\"cron.php\">vedligeholdelsesscriptet</a>  har ikke været kørt indenfor de sidste 24 timer.';
 $string['density'] = 'Tæthed';
 $string['edithelpdocs'] = 'Ret i hjælpefiler';
 $string['editstrings'] = 'Ret tekst';

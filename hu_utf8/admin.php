@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.4 (2004083100)
-
+      // admin.php - created with Moodle 1.6 development (2005053000)
 
 $string['adminseesallevents'] = 'A rendszergazdák minden eseményt látnak';
 $string['adminseesownevents'] = 'A rendszergazdák nem különböznek a többi felhasználótól';
+$string['availablelangs'] = 'Elérhető nyelvi csomagok';
 $string['backgroundcolour'] = 'Áttetsző szín';
 $string['badwordsconfig'] = 'Adja meg a nem használható szavak jegyzékét vesszővel elválasztva.';
 $string['badwordsdefault'] = 'Ha a testre szabott jegyzék üres, a nyelvi csomag alapbeállítás szerinti jegyzékét használja a rendszer.';
@@ -49,6 +49,7 @@ $string['configforceloginforprofiles'] = 'Ezzel a beállítással érhető el, h
 $string['configframename'] = 'Ha a Moodle-t keretben helyezi el, itt adja meg a keret nevét. Ellenkező esetben ennek \'_top\' értéket kell adni.';
 $string['configfullnamedisplay'] = 'Itt adható meg a teljesen megjelenő nevek száma. Az egynyelvű portálok esetén a legmegfelelőbb beállítás az alapértelmezett \"Utónév + Vezetéknév\", de dönthet úgy, hogy a vezetéknevek egyáltalán ne jelenjenek meg, vagy dönthet erről az adott nyelvi csomag alapján is (egyes nyelvekben ettől eltérő az elrendezés).';
 $string['configgdversion'] = 'Itt kell megadni a telepített GD változatát. A rendszer az alapértékként megadott változatot észlelte. Ne módosítsa, ha nem teljesen biztos annak következményében!';
+$string['confighiddenuserfields'] = 'Válassza ki, mely információt tartalmazó mezőket kíván elrejteni a tanárokon/rendszergazdákon kívül minden egyéb felhasználó elől. Ezzel növelheti a tanulók adatainak titkosságát. A CTRL-billentyű lenyomásával egyszerre több mezőt választhat.';
 $string['confightmleditor'] = 'Itt dönthet a beépített HTML-szerkesztő használatának engedélyezéséről. Engedélyezése esetén is csak akkor jelenik meg, ha a felhasználó ezzel kompatibilis böngészőt használ. A felhasználók eltekinthetnek a használatától.';
 $string['configidnumber'] = 'Ezzel az opcióval adható meg, hogy (a) a felhasználóktól kell-e egyáltalán azonosítószámot kérni, (b) a felhasználóktól kér a rendszer azonosítószámot, de üresen hagyhatják, illetve (c) a felhasználóktól a rendszer azonosítószámot kér, és ők ezt nem hagyhatják üresen. Ha meg van adva, a felhasználói azonosítószám megjelenik profiljukban.';
 $string['configintro'] = 'Ezen az oldalon adhatók meg olyan beállítási változók, amelyekkel a Moodle megfelelően működhet az adott szerveren. Nem szükséges a beállítással sokat vesződni, az alapbeállítások rendszerint megfelelnek, emellett bármikor vissza lehet térni erre az oldalra és módosítani lehet a beállításokon.';
@@ -75,6 +76,7 @@ $string['confignotifyloginthreshold'] = 'Ha a sikertelen bejelentkezésekről sz
 $string['configopentogoogle'] = 'Ezen beállítás bekapcsolásakor a Google a portálra beléphet mint vendég. Emellett a portálra a Google keresésén keresztül eljutók automatikusan vendégként jelentkeznek be. Ne feledje, hogy ez csak azon kurzusokhoz biztosít követhető hozzáférést, amelyek engedélyezik a vendégek bekapcsolódását.';
 $string['configpathtoclam'] = 'Útvonal az AV vírusölőhöz. Feltehetőleg egy /usr/bin/clamscan vagy /usr/bin/clamdscan jellegű útvonal. Erre az AV vírusölő működéséhez van szükség.';
 $string['configpathtodu'] = 'Útvonal a du-hoz. Például /usr/bin/du. Megadásakor a könyvtártartalmakat mutató oldalak sokkal gyorsabban futtathatók olyan könyvtárak esetén, amelyekben sok állomány van.';
+$string['configperfdebug'] = 'Bekapcsolása esetén a teljesítménnyel kapcsolatos információk megjelennek a standard téma lábrészében.';
 $string['configproxyhost'] = 'Ha ennek a <b>szervernek</b> proxyszámítógépet (például tűzfal) kell használni az Internet eléréséhez, akkor a proxygazdagép nevét és portszámát itt kell megadni. Ellenkező esetben hagyja üresen.';
 $string['configquarantinedir'] = 'Ha azt szeretné, hogy az AV vírusölő a fertőzött állományokat karanténkönyvtárba helyezze, azt itt adja meg. A könyvtárnak a webszerver számára írhatónak kell lenni. Ha ezt üresen hagyja, illetve olyan könyvtárat ad meg, amely nem létezik vagy nem írható, akkor a rendszer törölni fogja a fertőzött állományokat. Lezáró perjelet ne használjon.';
 $string['configrequestedteachername'] = 'A tanár megnevezése a kért kurzusokban';
@@ -114,7 +116,8 @@ $string['configvariables'] = 'Változók';
 $string['configwarning'] = 'Ezen beállítások módosításakor óvatosságra van szükség - a szokatlan értékek gondot okozhatnak.';
 $string['configzip'] = 'Itt adja meg a tömörítő program helyét (csak Unix esetén, opcionális). Ha meg van adva, a rendszer ezt a programot fogja használni tömörített állományok szerveren való létrehozására. Ha ez kitöltetlen marad, akkor a Moodle belső eljárásait fogja használni.';
 $string['confirmation'] = 'Megerősítés';
-$string['cronwarning'] = 'A <a href=\"cron.php\">cron.php karbantartó kód </a> legalább 24 órája nem futott le. <br />A <a href=\"../doc/?frame=install.html&amp;sub=cron\">telepítési dokumentációból</a> megtudható, hogyan automatizálható ez a folyamat.';
+$string['confirminstall'] = 'Nyelvi csomagot ($a) készül telepíteni, biztos, hogy ezt akarja?';
+$string['cronwarning'] = 'A <a href=\"cron.php\">cron.php karbantartó kód </a> legalább 24 órája nem futott le.';
 $string['density'] = 'Sűrűség';
 $string['edithelpdocs'] = 'Súgóállományok szerkesztése';
 $string['editstrings'] = 'Szövegsorok szerkesztése';
@@ -122,6 +125,7 @@ $string['filterall'] = 'Minden szövegsor szűrése';
 $string['filtermatchoneperpage'] = 'Oldalanként egy találat kiszűrése';
 $string['filtermatchonepertext'] = 'Szövegenként egy találat kiszűrése';
 $string['filteruploadedfiles'] = 'Feltöltött fájlok szűrése';
+$string['globalsquoteswarning'] = '<p><span style="font-weight: bold;">Biztonsági figyelmeztetés</span>: a  Moodle megfelelő működéséhez <br />a PHP adott beállításain néhány változtatást kell végrehajtani.<p/><p>A <code>register_globals=off</code> és/vagy a <code>magic_quotes_gpc=on</code> beállítást <em>kell</em> alkalmazni. <br />Ha lehet, a szerver fokozott biztonsága érdekében válassza a <code>register_globals=off</code> beállítást <br />, emellett ajánlott a <code>magic_quotes_gpc=on</code> beállítása is.<p/><p>Ezeket a beállításokat a <code>php.ini</code>, az Apache/IIS <br />konfigurációs állomány vagy a <code>.htaccess</code> fájl szerkesztésével állíthatja be.</p>';
 $string['helpadminseesall'] = 'A rendszergazdák minden naptáreseményt lássanak, vagy csak a rájuk vonatkozókat?';
 $string['helpcalendarsettings'] = 'A Moodle különféle, naptárral és dátummal/idővel kapcsolatos dolgainak beállítása ';
 $string['helpforcetimezone'] = 'A felhasználók számára lehetővé tehetjük, hogy egyenként válasszák ki a saját időzónájukat, vagy dönthetünk úgy, hogy mindenkinek egyetlen időzóna álljon rendelkezésére.';
@@ -134,8 +138,13 @@ $string['importtimezones'] = 'A teljes időzónajegyzék frissítése';
 $string['importtimezonescount'] = '$a->source helyről $a->count egység importálva';
 $string['importtimezonesfailed'] = 'Nincs adatforrás! (Ez gond!)';
 $string['incompatibleblocks'] = 'A blokkok nem kompatibilisek';
-$string['latexpreamble'] = 'LaTeX preambulum';
-$string['latexsettings'] = 'LaTeX Renderer beállításai';
+$string['install'] = 'Telepít';
+$string['installedlangs'] = 'Telepített nyelvi csomagok';
+$string['langimport'] = 'Nyelvimportáló segédeszköz';
+$string['langimportsuccess'] = 'A nyelvi csomag frissítése sikerült';
+$string['langpackremoved'] = 'A nyelvi csomag törlése befejeződött';
+$string['latexpreamble'] = 'LaTeX-preambulum';
+$string['latexsettings'] = 'LaTeX-átalakító beállításai';
 $string['mediapluginavi'] = '.avi filter bekapcsolása';
 $string['mediapluginmov'] = '.mov filter  bekapcsolása';
 $string['mediapluginmp3'] = '.mp3 filter  bekapcsolása';
@@ -157,15 +166,13 @@ $string['therewereerrors'] = 'Adataiban hiba volt';
 $string['timezoneforced'] = 'Ezt a portál rendszergazdája követeli meg';
 $string['timezoneisforcedto'] = 'Minden felhasználó kényszerítése ';
 $string['timezonenotforced'] = 'A felhasználók kiválaszthatják saját időzónájukat';
+$string['uninstall'] = 'Törlés';
+$string['uninstallconfirm'] = 'A $a nyelvi csomag teljes törlésére készül, biztosan ezt akarja tenni?';
 $string['upgradeforumread'] = 'A Moodle 1.5 új elemmel bővült az elolvasott/még nem olvasott fórumhozzászólások nyomon követésére.<br />Ennek használatához <a href=\"$a\">frissítenie kell táblázatait</a>.';
 $string['upgradeforumreadinfo'] = 'A Moodle 1.5 új elemmel bővült az elolvasott/még nem olvasott fórumhozzászólások nyomon követésére. Ennek használatához frissítenie kell táblázatait az összes meglévő hozzászólásra vonatkozó nyomon követési információval. A portál méretétől függően ez hosszú időbe (akár órákba) telhet és igénybe veheti az adatbázis erőforrását, ezért ennek elvégzésére célszerű egy nyugodtabb időszakot kiválasztani. Ugyanakkor a portál a frissítés alatt továbbra is üzemel, a felhasználókat ez nem érinti. Ha a folyamatot elindítja, hagyja, hogy véget érjen (a böngésző ablakát tartsa nyitva). Ha mégis becsukná, semmi probléma, újrakezdheti.<br /><br />Most akarja elindítani a frissítést?';
 $string['upgradelogs'] = 'Az összes funkció működéséhez minden régi naplóállományt frissíteni kell. <a href=\"$a\">További tájékoztatás</a>';
 $string['upgradelogsinfo'] = 'A naplóállományok tárolásában nemrégiben változásokra került sor. Ha a régebbi naplóállományokat tevékenységek szerint kívánja megtekinteni, akkor a régi naplóállományokat frissítenie kell. Ez az adott portáltól függően sok időt (akár órákat) vehet igénybe és meglehetősen megterhelheti a nagyobb portálok adatbázisait. Ha nekilát a folyamatnak, hagynia kell, hogy befejeződjék (oly módon, hogy a böngésző ablakát nyitva hagyja). A naplóállományok frissítése közben a portál mások számára minden gond nélkül üzemel.<br /><br />Most kívánja frissíteni a naplóállományait?';
-$string['upgradesure'] = 'Moodle-állományai módosultak, szerverét automatikusan erre a verzióra fogja frissíteni:
-<p><b>$a</b></p>
-<p>Ha így tesz, nem fog tudni visszalépni.</p> 
-<p>Ezt a szervert biztosan erre a verzióra kívánja frissíteni?</p>';
+$string['upgradesure'] = 'Moodle-állományai módosultak, szerverét automatikusan erre a verzióra fogja frissíteni: <p><span style="font-weight: bold;">$a</span></p> <p>Ha így tesz, nem fog tudni visszalépni.</p> <p>Ezt a szervert biztosan erre a verzióra kívánja frissíteni?</p>';
 $string['upgradingdata'] = 'Adatok frissítése';
 $string['upgradinglogs'] = 'Naplóállományok frissítése';
-
 ?>
