@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.5 ALPHA (2005043000)
+      // calendar.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['calendar'] = 'Kalendaryo';
@@ -21,8 +21,8 @@ $string['errorbeforecoursestart'] = 'Hindi puwedeng itakda ang okasyon bago ang 
 $string['errorinvaliddate'] = 'Ditanggap na petsa';
 $string['errorinvalidminutes'] = 'Itakda ang tagál sa minuto, sa pamamagitan ng pagbibigay ng bilang na nasa pagitan ng 1 at 999.';
 $string['errorinvalidrepeats'] = 'Itakda ang dami ng okasyon sa pamamgitan ng pagbibigay ng bilang sa pagitan ng 1 at 99.';
-$string['errornodescription'] = 'Kinakailangan ng Deskripsiyon';
-$string['errornoeventname'] = 'Kinakailangan ng pangalan';
+$string['errornodescription'] = 'Kinakailangan ang Deskripsiyon';
+$string['errornoeventname'] = 'Kinakailangan ang pangalan';
 $string['eventdate'] = 'Petsa';
 $string['eventdescription'] = 'Deskripsiyon';
 $string['eventduration'] = 'Tagál';
@@ -30,6 +30,7 @@ $string['eventendtime'] = 'Katapusang oras';
 $string['eventinstanttime'] = 'Oras';
 $string['eventkind'] = 'Uri ng okasyon';
 $string['eventname'] = 'Pangalan';
+$string['eventnone'] = 'Walang okasyon';
 $string['eventrepeat'] = 'Pag-ulit';
 $string['eventsfor'] = '$a okasyon';
 $string['eventstarttime'] = 'Simulang oras';

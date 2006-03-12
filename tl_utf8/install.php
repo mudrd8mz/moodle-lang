@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 development (2005101200)
+      // install.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['admindirerror'] = 'Malî ang ibinigay na direktoryong pang-admin';
@@ -108,6 +108,8 @@ direkta sa pamamagitan ng web.';
 $string['dirroot'] = 'Direktoryo ng Moodle';
 $string['dirrooterror'] = 'Mukhang mali ang kaayusan ng \'Direktoryo ng Moodle\' - wala kaming matagpuang instalasyon ng Moodle doon.  Inireset ang halaga sa ibaba.';
 $string['download'] = 'Idownload';
+$string['downloadlanguagehead'] = 'Idownload ang pakete ng wika';
+$string['downloadlanguagesub'] = 'Idinadownload na ngayon ng pang-instol ang buong pakete ng wika na pinili mo, upang maipagpatuloy ang pag-iinstol sa pamamagitan nito.';
 $string['environmenthead'] = 'Sinusuri ang kapaligiran mo...';
 $string['environmentsub'] = 'Sinusuri namin kung ang iba\'t-ibang piyesa ng sistema mo ay umaayon sa mga kinakailangan na sistema';
 $string['fail'] = 'Bigô';
@@ -146,6 +148,8 @@ $string['globalsquoteshelp'] = '<p>Hindi inirerekomenda ang pagsasabay ng patay 
 <blockquote>php_value register_globals Off</blockquote>
 </p>';
 $string['installation'] = 'Instalasyon';
+$string['langdownloaderror'] = 'Ang wikang $a ay hindi naka-instol. Ang kabuuan ng pag-iinstol ay itutuloy sa Ingles.  Maaari kang magdownload at mag-instol ng iba pang wika pagkatapos ng pag-iinstol.';
+$string['langdownloadok'] = 'Matagumpay na naiinstol ang wikang $a.  Ang kabuuan ng pag-iinstol ay itutuloy sa wika na iyong pinili.';
 $string['magicquotesruntime'] = 'Magic Quotes Run Time';
 $string['magicquotesruntimeerror'] = 'Dapat ay patay ito';
 $string['magicquotesruntimehelp'] = '<p>Ang magic quotes runtime ay dapat patayin para gumana ng maayos ang Moodle.</p>

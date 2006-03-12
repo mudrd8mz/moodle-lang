@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_internal.php - created with Moodle 1.5 ALPHA (2005043000)
+      // enrol_manual.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['description'] = 'Ito ang default na anyo ng pag-eenrol.  May dalawang pangunahing paraan ng pag-eenrol ng mag-aaral sa isang partikular na kurso.

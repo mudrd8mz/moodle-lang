@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2005101200)
+      // error.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['adminprimarynoedit'] = 'Hindi maaaring iedit ng iba ang pangunahing admin';
+$string['cannotcreatelangdir'] = 'Hindi makalikha ng lang dir.';
 $string['cannotcreatetempdir'] = 'Hindi makalikha ng temp dir.';
 $string['cannotdownloadcomponents'] = 'Hindi maidownload ang mga piyesa';
 $string['cannotdownloadzipfile'] = 'Hindi maidownload ang ZIP file.';

@@ -44,6 +44,9 @@ $string['configenablecourserequests'] = 'Pahihintulutan nito na humiling ang sin
 $string['configenablerssfeeds'] = 'Nabubuhay sa swits na ito ang RSS feed sa buong site.  Upang makakita ng pagbabago, kailangan mong ring buhayin ang RSS feed sa indibidwal na modyul - pumunta sa mga kaayusan ng Modyul sa loob ng Kaayusang Pang-admin.';
 $string['configenablerssfeedsdisabled'] = 'Hindi ito magagamit dahil ang RSS feed ay pinatay sa kabuuan ng Site.  Para mabuhay ang mga ito, tumungo sa kaayusan ng mga Baryabol sa loob ng Kaayusang Pang-admin.';
 $string['configenablestats'] = 'Kapag pinilì mo ang \'oo\' rito, ipoproseso ng cronjob ng Moodle ang mga log at mangangalap ito ng ilang estadistika.  Depende sa laki ng trapik sa site mo, maaari itong magtagal.  Kapag binuhay mo ito, makakakita ka ng ilang interesanteng graph at estadistika hinggil sa bawat kurso mo, o hinggil sa kabuuang site.';
+$string['configenrolmentplugins'] = 'Pumili po ng mga mga plug-in para sa pag-eenrol na nais mong gamitin.  Huwag ninyong kalilimutan na isaayos ang mga kaayusan nito nang wasto.  
+<br /><br />Kailangan ninyong itakda kung aling mga plug-in ang buhay, at maitatakda ang 
+<strong>isang</strong> plug-in bilang default na plug-in para sa <em>interaktib</em> na pag-eenrol.  Para mapatay ang interaktib na pag-eenrol, itakda ang \"makapag-eenrol sa kurso\" sa \"Hindi\" sa mga kinakailangang kurso.';
 $string['configerrorlevel'] = 'Pumilì ng dami ng babala ng PHP ang nais mong maipakita.  Normal ang karaniwan na pinakamaiging piliin.';
 $string['configextendedusernamechars'] = 'Buhayin ang kaayusang ito upang mapahintulutan ang mga mag-aaral na gumamit ng anumang titik sa kanilang username (tandaan na walâ itong epekto sa tunay nilang pangalan).  Ang default ay \"ditotoo\" na nagsasabing tanging alphanumeric na titik lamang ang puwedeng gamitin sa username';
 $string['configfilterall'] = 'Ifilter ang lahat ng string, kabilang ang mga heading, pamagat, nabigasyon bar at gayon ng gayon.  Kapakipakinabang ito kapag ginagamit ang multilang na filter, kundi ay lilikha lamang ito ng dagdag na trabaho sa site mo nang walang gaanong benepisyo.';
@@ -126,8 +129,14 @@ $string['confirmation'] = 'Kumpirmasyon';
 $string['confirminstall'] = 'Iiinstol mo ang pakete ng wika ($a), ito ba talaga ang gusto mo?';
 $string['cronwarning'] = 'Ang <a href=\"cron.php\">cron.php maintenance script</a> ay hindi pinatakbo sa loob ng 24 na oras. <br />Ipinapaliwanag ng <a href=\"../doc/?frame=install.html⊂=cron\"> dokumentasyon sa pag-iinstol</a> kung paano mo mapapatakbo ng awtomatiko ito.';
 $string['dbmigrate'] = 'Pagsasalin ng Moodle Database';
+$string['dbmigrateconnecerror'] = 'Hindi makakonekta sa itinakdang database.';
+$string['dbmigrateencodingerror'] = 'Ang itinakdang database ay may encoding na $a sa halip na UNICODE/UTF8.<br />Magtakda po ng iba.';
+$string['dbmigratepostgres'] = 'Mukhang ang ginagamit mong database server ay 
+PostgreSQL.  Para maipagpatuloy ang proseso ng pagsasalin, kailangang mong lumikha ng bagong database nang mano-mano, na may encoding na \"UNICODE\"(PostgreSQL 7) o \"UTF8\" (PostgreSQL 8), na siyang pag-iimbakan ng isinalin na datos. Pakipasok po ng bago ninyong kaayusang ng pagkonekta sa database sa ibaba upang makapagpatuloy na kayo:';
 $string['dbmigratewarning'] = 'Tiyakin po na naibak-ap ninyo ang moodle database ninyo bago simulan ang prosesong ito.  Kung hindi mo alam kung paano iyon gawin, pakikontak ang admin mo ng sistema.  Ilalagay sa mode na pangmentina ang Moodle site mo kapag sinimulan mo na ang proseso.';
 $string['dbmigratewarning2'] = '<b>Babala:  Magsisimula ka nang isalin ang database.  Tiyakin po na ang buo mong Moodle database ay nabak-ap.</b>';
+$string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">Ang database na ito ay isinalin na sa isang bagong UTF8 database at ito ay itinakwil na. Pakiedit po ang inyong config.php at gamitin ang bagong database para sa moodle na ito.</font>';
+$string['dbmigrationdupfailed'] = 'Ang pagkopya ng database ay nabigo, posibleng dahil sa error na:<font color=\"#ff0000\"><pre>$a</pre></font>';
 $string['density'] = 'Kasiksikan';
 $string['download'] = 'Idownload';
 $string['edithelpdocs'] = 'Iedit ang mga tulong na dokumento';
@@ -194,6 +203,12 @@ $string['order3'] = 'Ikatlo';
 $string['pathconvert'] = 'Path ng <i>convert</i> binary';
 $string['pathdvips'] = 'Path ng <i>dvips</i> binary';
 $string['pathlatex'] = 'Path ng <i>latex</i> binary';
+$string['pgcluster'] = 'Cluster na PostgreSQL';
+$string['pgclusterdescription'] = '<pre>Parameter ng PostgreSQL version/cluster
+para sa command line operation.
+Kung iisa lamang ang postgresql
+sa sistema mo o hindi mo tiyak 
+kung ano ito, iwan na lamang itong blangko.</pre>';
 $string['pleaseregister'] = 'Pakirehistro ang site mo para maalis ang buton na ito';
 $string['remotelangnotavailable'] = 'Dahil hindi makakonekta sa download.moodle.org ay hindi kami makapag-instol ng pakete ng wika nang awtomatiko.  Pakidownload ang angkop na (mga) zip file sa listahan sa ibaba, kopyahin ang mga ito sa iyong $a na direktoryo at i-unzip ito nang mano-mano.';
 $string['renameerrors'] = 'Nagka-eror sa pagbabago ng pangalan';
