@@ -126,7 +126,7 @@ $string['configwarning'] = '設定を変更する場合は注意してくださ�
 $string['configzip'] = 'zipプログラムの場所を指定してください ( Unixのみ、任意 )。これはZIP書庫をサーバ内で作成するために必要です。空白にした場合、Moodleは内部ルーチンを使用します。';
 $string['confirmation'] = '確認';
 $string['confirminstall'] = 'あなたは言語パック ( $a ) をインストールしようとしています。本当によろしいですか?';
-$string['cronwarning'] = '<a href=\"cron.php\">cron.phpメンテナンススクリプト</a>が少なくとも24時間稼動していません。<br />cron.phpの自動化に関して<a href=\"../doc/?frame=install.html&sub=cron\">インストールドキュメント</a>をご覧ください。';
+$string['cronwarning'] = '<a href=\"cron.php\">cron.phpメンテナンススクリプト</a>が少なくとも24時間稼動していません。';
 $string['dbmigrate'] = 'Moodleデータベース移行';
 $string['dbmigrateconnecerror'] = '指定されたデータベースに接続できませんでした。';
 $string['dbmigrateencodingerror'] = '指定されたデータベースのエンコードは、必須のユニコード/UTF8と異なり、 $a となっています。<br />他のエンコードを指定してください。';
