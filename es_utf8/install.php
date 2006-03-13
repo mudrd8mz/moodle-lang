@@ -8,10 +8,16 @@ $string['admindirsetting'] = '<p>Muy pocos servidores web usan /admin como URL e
 Así se corregirán los enlaces admin en Moodle.</p>';
 $string['caution'] = 'Precaución';
 $string['chooselanguage'] = 'Seleccionar idioma';
+$string['chooselanguagehead'] = 'Seleccionar idioma';
+$string['chooselanguagesub'] = 'Por favor, seleccione un idioma para el proceso de instalación.';
 $string['compatibilitysettings'] = 'Comprobando sus ajustes PHP...';
+$string['compatibilitysettings'] = 'Comprobando sus ajustes PHP...';
+$string['compatibilitysettingssub'] = 'Su servidor debería pasar todos estas comprobaciones para que Moodle pueda funcionar correctamente.';
 $string['configfilenotwritten'] = 'El script instalador no ha podido crear automáticamente un archivo config.php con las especificaciones elegidas. Por favor, copie el siguiente código en un archivo llamado config.php y coloque ese archivo en el directorio raíz de Moodle.';
 $string['configfilewritten'] = 'config.php se ha creado con éxito';
 $string['configurationcomplete'] = 'Configuración completa';
+$string['configurationcompletehead'] = 'Configuración completa';
+$string['configurationcompletesub'] = 'Moodle ha creado su fichero de configuración';
 $string['database'] = 'Base de datos';
 $string['databasecreationsettings'] = 'Ahora necesita configurar los ajustes de la base de datos donde se almacenarán la mayoría de los datos de Moodle. El instalador creará la base de datos con los ajustes especificados más abajo.<br />
 <br /> <br />
@@ -29,9 +35,16 @@ $string['databasesettings'] = 'Ahora necesita configurar la base de datos en la 
 <b>Usuario:</b> nombre de usuario de la base de datos<br />
 <b>Contraseña:</b> contraseña de la base de datos<br />
 <b>Prefijo de tablas:</b> prefijo a utilizar en todos los nombres de tabla';
-$string['dataroot'] = 'Datos';
-$string['datarooterror'] = 'El ajuste \'Data\' es incorrecto';
-$string['dbconnectionerror'] = 'Error de conexión con la base de datos. Por favor, compruebe los ajustes de la base de datos';
+$string['databasesettingshead'] = 'Ahora necesita configurar la base de datos en la que se almacenarán la mayor parte de los datos de Moodle. Esta base de datos debe haber sido ya creada y disponer de un nombre de usuario y una contraseña de acceso.';
+$string['databasesettingssub'] = '<b>Tipo:</b> mysql o postgres7<br />
+<b>Servidor:</b> p.ej.: localhost o db.tudominio.com<br />
+<b>Usuario:</b> el usuario propietario de tu base de datos<br />
+<b>Contraseña:</b> la contraseña del usuario de la base de datos<br />
+<b>Prefijo de tablas:</b>  prefijo opcional para utilizar en todas las tablas';
+
+$string['dataroot'] = 'Directorio de Datos';
+$string['datarooterror'] = 'El \'Directorio de Datos\' no pudo ser encontrado o creado. Corrija la ruta o cree el directorio manualmente.';
+$string['dbconnectionerror'] = 'Error de conexión con la base de datos. Por favor, compruebe los ajustes de la base de datos.';
 $string['dbcreationerror'] = 'Error al crear la base de datos. No se ha podido crear la base de datos con el nombre y ajustes suministrados';
 $string['dbhost'] = 'Servidor';
 $string['dbpass'] = 'Contraseña';
@@ -44,9 +57,29 @@ Especifique la ruta OS completa a esta misma ubicación
 Asegúrese de que escribe correctamente mayúsculas y minúsculas</p>
 <p><b>Datos:</b>
 Usted necesita un lugar en el que Moodle pueda guardar los archivos subidos. Este directorio debe ser legible Y ESCRIBIBLE por el usuario del servidor web (normalmente \'nobody\' o \'apache\'), pero no debería ser directamente accesible desde la web.</p>';
-$string['dirroot'] = 'Directorio';
-$string['dirrooterror'] = 'El ajuste de \'Directorio\' es incorrecto. Inténtelo con el siguiente';
+$string['directorysettingshead'] = 'Por favor confirme las siguientes localizaciones de su instalación';
+$string['directorysettingssub'] = '<b>Dirección Web:</b>
+Especifique la dirección web completa en la que se accederá a Moodle.
+Si su sitio es accesible desde diferentes URLs entonces elija
+la más natural que sus estudiantes deberían utilizar. No incluya la barra final.
+<br />
+<br />
+<b>Directorio Moodle:</b>
+Especifique la ruta completa de esta instalación. Asegurese de que las mayúsculas/minúsculas son correctas.
+<br /><br />
+<b>Directorio de Datos:</b>
+Es necesario un lugar donde Moodle pueda guardar los archivos subidos. Este directorio debe ser legible y
+escribible por el usuario de su servidor web (normalmente \'nobody\' o \'apache\'), pero no debería ser
+directamente accesible desde la red.';
+$string['dirroot'] = 'Directorio Moodle';
+$string['dirrooterror'] = 'El \'Directorio de Moodle\' parece incorrecto. No se pudo encontrar una instalación de Moodle. El valor ha sido cambiado por el original.';
 $string['download'] = 'Descargar';
+$string['downloadlanguagebutton'] = 'Descargar el paquete de idioma &quot;$a&quot;';
+$string['downloadlanguagehead'] = 'Descargar paquete de idioma';
+$string['downloadlanguagenotneeded'] = 'Puede continuar el proceso de instalación con el idioma por defecto, \"$a\".';
+$string['downloadlanguagesub'] = 'Ahora tiene la opción de descargar su paquete de idioma y continuar con el proceso de instalación en ese idioma.<br /><br />Si no es posible la descarga el proceso de instalación continuará en inglés (una vez que la instalación haya finalizado, podrá descargar e instalar otros idiomas).';
+$string['environmenthead'] = 'Comprobando su entorno';
+$string['environmentsub'] = 'Estamos comprobando que diferentes componentes de su servidor cumplen con los requerimientos del sistema';
 $string['fail'] = 'Fallo';
 $string['fileuploads'] = 'Subidas de archivos';
 $string['fileuploadserror'] = 'Debe estar activado';
@@ -75,6 +108,8 @@ $string['globalsquoteshelp'] = '<p>No se recomienda la combinación simultánea 
 <blockquote>php_value register_globals Off</blockquote>
 </p>';
 $string['installation'] = 'Instalación';
+$string['langdownloadok'] = 'El idioma \"$a\" ha sido instalado correctamente. El proceso de instalación continuará en este idioma.';
+$string['langdownloaderror'] = 'El idioma \"$a\" no pudo ser instalado. El proceso de instalación continuará en inglés.';
 $string['magicquotesruntime'] = 'Magic Quotes Run Time';
 $string['magicquotesruntimeerror'] = 'Debe estar desactivado';
 $string['magicquotesruntimehelp'] = '<p>Magic quotes runtime debe estar desactivado para que Moodle funcione adecuadamente.</p>
@@ -103,7 +138,7 @@ a, digamos, 16M. Si no lo tiene, pida a su administrador que lo haga por usted.<
 (podrá ver los errores cuando mire las páginas) de modo que tendrá que eliminar el archivo .htaccess.</p></li>
 </ol>';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP no ha sido adecuadamente configurado con la extensión MySQL de modo que pueda comunicarse con MySQL. Por favor, compruebe el archivo php.ini o recompile PHP.';
-$string['pass'] = 'Pass';
+$string['pass'] = 'Correcto';
 $string['phpversion'] = 'Versión PHP';
 $string['phpversionerror'] = 'La versión PHP debe ser 4.1.0 o superior';
 $string['phpversionhelp'] = '<p>Moodle requiere una versión de PHP 4.1.0 o superior.</p>
@@ -121,7 +156,7 @@ $string['sessionautostarterror'] = 'Deb e estar desactivado';
 $string['sessionautostarthelp'] = '<p>Moodle requiere apoyo de sesión y no funcionará sin él.</p>
 
 <p>Las sesiones deben estar activadas en el archhivo php.ini para el parámetro session.auto_start.</p>';
-$string['wwwroot'] = 'WWW';
-$string['wwwrooterror'] = 'El ajuste \'WWW\' es incorrecto';
+$string['wwwroot'] = 'Dirección Web';
+$string['wwwrooterror'] = 'La \'Dirección Web\' parece incorrecto. No se pudo encontrar una instalación de Moodle. El valor ha sido cambiado por el original.';
 
 ?>
