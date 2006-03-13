@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2006030901)
+      // quiz.php - created with Moodle 1.6 development (2006031000)
 
 
 $string['1day'] = '1日';
@@ -79,6 +79,7 @@ $string['checkanswer'] = 'チェック';
 $string['choice'] = '選択';
 $string['choices'] = '利用可能な選択';
 $string['choosedatasetproperties'] = 'データセット属性の選択';
+$string['choosefile'] = 'ファイルの選択';
 $string['close'] = 'ウィンドウを閉じる';
 $string['closepreview'] = 'プレビューを閉じる';
 $string['closereview'] = '再閲覧を閉じる';
@@ -208,6 +209,8 @@ $string['imagedisplay'] = '表示イメージ';
 $string['imagemissing'] = '$a 行のイメージが使用できません。ファイル名は無視されます。';
 $string['import'] = 'インポート';
 $string['importerror'] = 'インポート処理中にエラーが発生しました。';
+$string['importfilearea'] = 'すでにコース中にあるファイルからインポート ...';
+$string['importfileupload'] = 'アップロードしたファイルからインポート ...';
 $string['importingquestions'] = '$a の問題をファイルからインポート';
 $string['importmax10error'] = '問題にエラーがあります。10以上の答えを設定することはできません。';
 $string['importmaxerror'] = '問題にエラーがあります。答えが多すぎます。';

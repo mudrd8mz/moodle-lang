@@ -39,11 +39,12 @@ $a->url';
 $string['adminnewordersubject'] = '$a->course: 新しい未決注文 ( $a->orderid )';
 $string['adminpendingorders'] = 'あなたはオートキャプチャ機能を停止しています。<br />あなたがチェックしない場合、ステータスAN_STATUS_AUTHの合計 $a->count　件のトランザクションがキャンセルされます。<br />支払いを受け付け/拒否するには <a href=\'$a->url\'>支払い管理</a>ページにアクセスしてください。';
 $string['adminreview'] = 'クレジットカード処理手続きの前に注文を検査する。';
+$string['adminteachermanagepay'] = '教師がコースの支払いを管理できる。';
 $string['amount'] = '金額';
 $string['anlogin'] = 'Authorize.net: ログイン名';
-$string['anpassword'] = 'Authorize.net: パスワード ( 不要 )';
+$string['anpassword'] = 'Authorize.net: パスワード';
 $string['anreferer'] = '必要な場合は、リファラURLを設定してください。これは、ウェブリクエストの「Referer: URL」ヘッダを送信します。';
-$string['antestmode'] = 'Authorize.net: テストトランザクション';
+$string['antestmode'] = 'Authorize.net: テストトランザクション ( 料金は引き落とされません )';
 $string['antrankey'] = 'Authorize.net: トランザクションキー';
 $string['authcaptured'] = '認証完了 / キャプチャ完了';
 $string['authorizedpendingcapture'] = '認証完了 / キャプチャ未了';
@@ -140,6 +141,7 @@ $string['transid'] = 'トランザクションID';
 $string['unenrolstudent'] = '学生を登録解除しますか?';
 $string['void'] = '取り消し';
 $string['voidyes'] = 'トランザクションがキャンセルされます。本当によろしいですか?';
+$string['youcantdo'] = '次の処理を行うことはできません: $a->action';
 $string['zipcode'] = '郵便番号';
 
 ?>
