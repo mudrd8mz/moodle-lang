@@ -103,8 +103,10 @@ Ancak, bu dizine direkt olarak webden erişim olMAMAlı.';
 $string['dirroot'] = 'Moodle Dizini';
 $string['dirrooterror'] = '\'Moodle Dizini\' ayarları hatalı görünüyor - Burada bir Moodle kurulumu bulunamadı. Aşağıdaki değer sıfırlandı.';
 $string['download'] = 'İndir';
+$string['downloadlanguagebutton'] = 'Dil paketini \"$a\" indir';
 $string['downloadlanguagehead'] = 'Dil paketi indir';
-$string['downloadlanguagesub'] = 'Kurulum programı kullanmak istediğiniz dil paketlerini şimdi indirerek kuruluma devam edecek.';
+$string['downloadlanguagenotneeded'] = 'Varsayılan dil paketini \"$a\" kullanarak kurulum işlemine devam edebilirsiniz.';
+$string['downloadlanguagesub'] = 'Şu anda bir dil paketi indirme ve bu dilde kuruluma devam etme seçeneğiniz var.<br /><br />Dil paketini indiremezseniz kurulum işlemi İngilizce ile devam edecektir. (Kurulum işlemi bittiğinde ek dil paketlerini indirme ve kurma fırsatınız vardır.)';
 $string['environmenthead'] = 'Ortam kontrol ediliyor...';
 $string['environmentsub'] = 'Çeşitli bileşenlerin sisteminizle uyum içinde olup olmadığını kontrol ediyoruz';
 $string['fail'] = 'Hata';
@@ -143,8 +145,8 @@ $string['globalsquoteshelp'] = '<p>Pasifleştirilmiş Magic Quotes GPC ve etkinl
 <blockquote>php_value register_globals Off</blockquote>
 </p> ';
 $string['installation'] = 'Kurulum';
-$string['langdownloaderror'] = '$a dil paketi kurulamadı. Kurulum İngilizce olarak devam edecek. Kurulum bittiğinde dil paketlerini daha sonra indirip kurabilirsiniz.';
-$string['langdownloadok'] = 'Dil paketi ($a) başarıyla kuruldu. Kurulumun kalanı seçtiğiniz dille devam edecek.';
+$string['langdownloaderror'] = 'Maalesef dil paketi \"$a\" kurulamadı. Kurulum İngilizce olarak devam edecek.';
+$string['langdownloadok'] = 'Dil paketi \"$a\" başarıyla kuruldu. Kurulum bu dilde devam edecek.';
 $string['magicquotesruntime'] = 'Magic Quotes Run Time';
 $string['magicquotesruntimeerror'] = 'Bu kapalı olmalı';
 $string['magicquotesruntimehelp'] = '<p>Magic quotes runtime ayarı, Moodle\'ın işlevsel çalışması için kapalı olmalı.</p>
