@@ -25,7 +25,6 @@ $string['configfilewritten'] = 'matagumpay na nalikha ang config.php';
 $string['configurationcomplete'] = 'Nakumpleto na ang pagsasaayos';
 $string['configurationcompletehead'] = 'Nakumpleto na ang pagsasaayos';
 $string['configurationcompletesub'] = 'Tinangka ng Moodle na isave ang kaayusan mo sa isang file sa root ng instalasyon mo ng Moodle.';
-$string['database'] = 'Database';
 $string['databasecreationsettings'] = 'Ngayon ay kailangan mong isaayos ang kaayusan ng database kung saan iiimbakin ang karamihan sa datos ng Moodle.  Awtomatikong lilikhain ang database na ito ng pang-instol na Moodle4Windows na may mga kaayusang itinatakda sa ibaba.<br />
 <br /> <br />
 <b>Uri:</b> ipinirmi ng pang-instol sa \"mysql\"<br />
@@ -64,8 +63,6 @@ $string['dataroot'] = 'Direktoryo ng Datos';
 $string['datarooterror'] = 'Hindi matagpuan o malikha ang \'Direktoryo ng Datos\' na ibinigay mo.  Alin sa dalawa, iwasto mo ang landas o lumikha ng direktoryo nang mano-mano.';
 $string['dbconnectionerror'] = 'Hindi kami makakonekta sa ibinigay mong database.  Pakitsek ang kaayusan ng iyong database.';
 $string['dbcreationerror'] = 'Nagka-error sa paglikha ng database.  Hindi malikha ang ibinigay na pangalan ng database nang may mga ibinigay na  kaayusan';
-$string['dbhost'] = 'Host Server';
-$string['dbpass'] = 'Password';
 $string['dbprefix'] = 'Unlapi ng mga teybol';
 $string['dbtype'] = 'Uri';
 $string['dbwrongencoding'] = 'Ang piniling database ay gumagana alinsunod sa hindi iminumungkahing encoding ($a).  Mas makabubuti na gamitin ang isa sa mga inencode sa Unicode (UTF-8) na database.  Magkagayunman, maaari mong lagpasan ang pagsubok na ito sa pamamagitan ng pagpili sa tsek ng \"Lagpasan ang Pagsubok ng DB Encoding\" sa ibaba, pero maaari kang makaranas ng mga problema sa hinaharap.';
@@ -108,8 +105,12 @@ direkta sa pamamagitan ng web.';
 $string['dirroot'] = 'Direktoryo ng Moodle';
 $string['dirrooterror'] = 'Mukhang mali ang kaayusan ng \'Direktoryo ng Moodle\' - wala kaming matagpuang instalasyon ng Moodle doon.  Inireset ang halaga sa ibaba.';
 $string['download'] = 'Idownload';
+$string['downloadlanguagebutton'] = 'Idownload ang &quot;$a&quot; na pakete ng wika';
 $string['downloadlanguagehead'] = 'Idownload ang pakete ng wika';
-$string['downloadlanguagesub'] = 'Idinadownload na ngayon ng pang-instol ang buong pakete ng wika na pinili mo, upang maipagpatuloy ang pag-iinstol sa pamamagitan nito.';
+$string['downloadlanguagenotneeded'] = 'Maaari mong ipagpatuloy ang proseso ng pag-iinstol sa pamamagitan ng default na pakete ng wika, na \"$a\".';
+$string['downloadlanguagesub'] = 'May opsiyon ka ngayon na magdownload ng pakete ng wika at ipagpatuloy ang proseso ng pag-iinstol sa
+wikang ito.<br /><br />Kung hindi mo maidownload ang pakete ng wika, ang proseso ng pag-iinstol ay magpapatuloy sa Ingles.(Kapag tapos na ang proseso ng pag-iintol, magkakaroon ka ng pagkakataon na magdownload at mag-instol ng iba pang pakete ng wika.)
+';
 $string['environmenthead'] = 'Sinusuri ang kapaligiran mo...';
 $string['environmentsub'] = 'Sinusuri namin kung ang iba\'t-ibang piyesa ng sistema mo ay umaayon sa mga kinakailangan na sistema';
 $string['fail'] = 'Bigô';
@@ -148,9 +149,8 @@ $string['globalsquoteshelp'] = '<p>Hindi inirerekomenda ang pagsasabay ng patay 
 <blockquote>php_value register_globals Off</blockquote>
 </p>';
 $string['installation'] = 'Instalasyon';
-$string['langdownloaderror'] = 'Ang wikang $a ay hindi naka-instol. Ang kabuuan ng pag-iinstol ay itutuloy sa Ingles.  Maaari kang magdownload at mag-instol ng iba pang wika pagkatapos ng pag-iinstol.';
-$string['langdownloadok'] = 'Matagumpay na naiinstol ang wikang $a.  Ang kabuuan ng pag-iinstol ay itutuloy sa wika na iyong pinili.';
-$string['magicquotesruntime'] = 'Magic Quotes Run Time';
+$string['langdownloaderror'] = 'Ikinalulungkot namin na ang wikang \"$a\" ay hindi naiinstol. Ang kabuuan ng pag-iinstol ay itutuloy sa Ingles.';
+$string['langdownloadok'] = 'Matagumpay na naiinstol ang wikang \"$a\".  Ang kabuuan ng pag-iinstol ay itutuloy sa wikang ito.';
 $string['magicquotesruntimeerror'] = 'Dapat ay patay ito';
 $string['magicquotesruntimehelp'] = '<p>Ang magic quotes runtime ay dapat patayin para gumana ng maayos ang Moodle.</p>
 
@@ -161,7 +161,6 @@ $string['magicquotesruntimehelp'] = '<p>Ang magic quotes runtime ay dapat patayi
    <blockquote>php_value magic_quotes_runtime Off</blockquote>
 </p>   
    ';
-$string['memorylimit'] = 'Memory Limit';
 $string['memorylimiterror'] = 'Labis na mababa ang memory limit ng PHP ... maaaring magkaproblema ka mamaya.';
 $string['memorylimithelp'] = '<p>Ang memory limit ng PHP para sa server mo ay kasalukuyang nakatakda sa $a.</p>
 
@@ -189,7 +188,6 @@ $string['phpversionerror'] = 'Ang pinakamababang bersiyon ng PHP na puwedeng gam
 $string['phpversionhelp'] = '<p>Kinakailangan ng Moodle ang isang bersiyon ng PHP na kahit man lamang 4.1.0.</p>
 <p>Sa kasalukuyan ay pinatatakbo mo ang bersiyon $a</p>
 <p>Kailangan mong gawing bago ang PHP o lumipat sa isang host na may mas bagong bersiyon ng PHP!</p>';
-$string['safemode'] = 'Safe Mode';
 $string['safemodeerror'] = 'Maaaring magkaproblema ang moodle kung naka-ON ang safe mode';
 $string['safemodehelp'] = '<p>Maraming klase ng problema ang Moodle kapag naka-ON ang safe mode, isa rito
    ay maaaring hindi ito mapahintulutang lumikha ng mga bagong file.</p>
@@ -198,7 +196,6 @@ $string['safemodehelp'] = '<p>Maraming klase ng problema ang Moodle kapag naka-O
    mong humanap ng bagong web hosting na kumpanya para sa iyong site ng Moodle.</p>
    
 <p>Maaari mong ipagpatuloy ang pag-instol kung nais mo, pero asahan mo na na magkakaproblema ka maya-maya.</p>';
-$string['sessionautostart'] = 'Session Auto Start';
 $string['sessionautostarterror'] = 'Dapat ay patay ito';
 $string['sessionautostarthelp'] = '<p>Kailangan ng Moodle ng session support at hindi ito gagana kung wala ito.</p>
 
@@ -211,7 +208,6 @@ $string['welcomep40'] = 'Nilalaman din ng paketeng ito ang  <strong>Moodle $a->m
 $string['welcomep50'] = 'Ang paggamit ng lahat ng aplikasyon sa paketeng ito ay alinsunod sa kani-kaniyang lisensiya.  Ang kumpletong pakete na <strong>$a->installername</strong> ay  <a href=\"http://www.opensource.org/docs/definition_plain.html\">open source</a> at ipinamamahagi alinsunod sa lisensiyang <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a>';
 $string['welcomep60'] = 'Dadalhin kayo ng mga sumusunod na pahina sa mga madaling hakbang upang maisaayos at mapatakbo ang <strong>Moodle</strong> sa kompyuter ninyo.  Kung gusto ninyo ay panatilihin ang default o kaya ay baguhin ito ayon sa inyong pangangailangan.';
 $string['welcomep70'] = 'Iklik ang \"Susunod\" na buton sa ibaba upang maituloy ang pasasaayos ng <strong>Moodle</strong>.';
-$string['wwwroot'] = 'Web address';
-$string['wwwrooterror'] = 'Mukhang hindi tanggap ang web address - mukhang wala roon ang instalasyong ito ng Moodle.';
+$string['wwwrooterror'] = 'Mukhang hindi tanggap ang \'Web Address\' - mukhang wala roon ang instalasyong ito ng Moodle.  Inireset ang halaga sa ibaba.';
 
 ?>
