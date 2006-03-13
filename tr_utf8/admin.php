@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 development (2005101200)
+      // admin.php - created with Moodle 1.6 development (2006031000)
 
 
 $string['adminseesallevents'] = 'Yöneticiler bütün olayları görür';
@@ -130,6 +130,9 @@ $string['mediapluginflv'] = '.FLV filtresini etkinleştir';
 $string['mediapluginmov'] = '.MOV filtresini etkinleştir';
 $string['mediapluginmp3'] = '.MP3 filtresini etkinleştir';
 $string['mediapluginmpg'] = '.MPG filtresini etkinleştir';
+$string['mediapluginram'] = '.RAM filtresini etkinleştir';
+$string['mediapluginrm'] = '.RM filtresini etkinleştir';
+$string['mediapluginrpm'] = '.RPM filtresini etkinleştir';
 $string['mediapluginswf'] = '.SWF filtresini etkinleştir';
 $string['mediapluginwmv'] = '.WMV filtresini etkinleştir';
 $string['mysql416bypassed'] = 'Siteniz SADECE iso-8859-1 (latin) dillerini kullanıyorsa şimdiki kurulu  MySQL 4.1.12 (veya yüksek) veritabanını kullanmaya devam edebilirsiniz.';
