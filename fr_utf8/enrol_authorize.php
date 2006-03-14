@@ -35,6 +35,7 @@ $string['adminnewordersubject'] = '$a->course : nouvel ordre en attente de trait
 $string['adminpendingorders'] = 'Vous avez désactivé la saisie automatique.<br />Un total de $a->count transactions dont le statut est AN_STATUS_AUTH seront annulée, à moins que vous ne les approuviez.<br />Pour accepter ou refuser des paiements, visitez la page <a href=\'$a->url\'>Gestion des paiements</a>.';
 $string['adminhelpreviewtitle'] = 'Contrôle de commande';
 $string['adminreview'] = 'Contrôle de la commande avant envoi des données de la carte de crédit.';
+$string['adminteachermanagepay'] = 'Les enseignants peuvent gérer les paiements du cours.';
 $string['amount'] = 'Montant';
 $string['anlogin'] = 'Authorize.net&nbsp;: nom d\'utilisateur';
 $string['anpassword'] = 'Authorize.net&nbsp;: mot de passe';
@@ -91,7 +92,7 @@ $string['noreturns'] = 'Pas de retour&nbsp;!';
 $string['notsettled'] = 'Non réglé';
 $string['orderid'] = 'No d\'ordre';
 $string['paymentmanagement'] = 'Gestion des paiements';
-$string['paymentpending'] = 'Votre paiement pour ce cours est en attente de traitement. Son numéro d\'ordre est $a->orderid.';
+$string['paymentpending'] = 'Votre paiement pour ce cours est en attente de traitement. Son numéro de commande est $a->orderid. Voir les <a href=\'$a->url\'>détails de la commande</a>.';
 $string['pendingordersemail'] = 'Cher administrateur,
   	 
 $a->pending transactions arriveront à échéance à moins que vous
