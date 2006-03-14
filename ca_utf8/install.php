@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 development (2006022400)
+      // install.php - created with Moodle 1.6 development (2006031000)
 
 
 $string['admindirerror'] = 'El directori d\'administració especificat és incorrecte';
@@ -82,6 +82,10 @@ Necessiteu un lloc on Moodle pugui desar els fitxers que es pengin. L\'usuari de
 $string['dirroot'] = 'Directori de Moodle';
 $string['dirrooterror'] = 'El paràmetre \'Directori de Moodle\' sembla incorrecte: no s\'hi ha pogut trobat cap instal·lació de Moodle. S\'ha reiniciat el valor del paràmetre.';
 $string['download'] = 'Baixa';
+$string['downloadlanguagebutton'] = 'Baixa el paquet d\'idioma &quot;$a&quot;';
+$string['downloadlanguagehead'] = 'Baixa paquet d\'idioma';
+$string['downloadlanguagenotneeded'] = 'Podeu continuar el procés d\'instal·lació amb el paquet d\'idioma per defecte \"$a\".';
+$string['downloadlanguagesub'] = 'Ara teniu l\'opció de baixar un paquet d\'idioma i continuar el procés d\'instal·lació en aquest idioma.<br /><br />Si no podeu baixar el paquet, el procés d\'instal·lació prosseguirà en anglès. (Després que s\'hagi completat la instal·lació, tindreu l\'oportunitat de baixar i instal·lar paquets d\'idioma addicionals.)';
 $string['environmenthead'] = 'S\'està comprovant el vostre entorn';
 $string['environmentsub'] = 'S\'està comprovant si els diferents components del vostre sistema satisfan els requeriments';
 $string['fail'] = 'Error';
@@ -112,6 +116,8 @@ $string['globalsquoteshelp'] = '<p>No s\'aconsella tenir inhabilitat Magic Quote
 <blockquote>php_value register_globals Off</blockquote>
 </p> ';
 $string['installation'] = 'Instal·lació';
+$string['langdownloaderror'] = 'Dissortadament l\'idioma \"$a\" no està instal·lat. La instal·lació prosseguirà en anglès.';
+$string['langdownloadok'] = 'L\'dioma \"$a\" s\'ha instal·lat amb èxit. La instal·lació prosseguirà en aquest idioma.';
 $string['magicquotesruntime'] = 'Magic Quotes Run Time';
 $string['magicquotesruntimeerror'] = 'Hauria d\'estar desactivat';
 $string['magicquotesruntimehelp'] = '<p>Aquest paràmetre hauria d\'estar desactivat per tal que Moodle funcioni correctament.</p>

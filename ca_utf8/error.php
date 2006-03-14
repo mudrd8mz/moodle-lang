@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2005101200)
+      // error.php - created with Moodle 1.6 development (2006031000)
 
 
 $string['adminprimarynoedit'] = 'L\'administrador primari no pot ser editat per altres usuaris';
+$string['cannotcreatelangdir'] = 'No es pot crear el directori d\'idiomes.';
 $string['cannotcreatetempdir'] = 'No s\'ha pogut crear el directori temporal';
 $string['cannotdownloadcomponents'] = 'No s\'han pogut baixar components';
 $string['cannotdownloadzipfile'] = 'No s\'ha pogut baixar el fitxer zip';

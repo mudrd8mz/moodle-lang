@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 development (2006022400)
+      // admin.php - created with Moodle 1.6 development (2006031000)
 
 
 $string['adminseesallevents'] = 'Els administradors veuen tots els esdeveniments';
@@ -44,6 +44,7 @@ $string['configenablecourserequests'] = 'Això permetrà que qualsevol usuari so
 $string['configenablerssfeeds'] = 'Aquest commutador habilita l\'RSS per a tot el lloc. Per a utilitzar realment l\'RSS, l\'haureu d\'activar també en cada mòdul. Aneu als paràmetres dels mòduls en Administració > Configuració.';
 $string['configenablerssfeedsdisabled'] = 'No està disponible perquè l\'RSS està inhabilitat per a tot el lloc. Per habilitar-lo, aneu a la pantalla de variables en Administració > Configuració.';
 $string['configenablestats'] = 'Si trieu \'sí\', la tasca del cron de Moodle processarà els registres i recollirà algunes estadístiques. Això pot durar una estona, segons el tràfic del lloc. Si habiliteu aquesta opció podreu veure algunes gràfiques i estadístiques interessants referents a cada curs i al lloc complet. ';
+$string['configenrolmentplugins'] = 'Trieu els connectors d\'inscripcions que vulgueu usar. No us descuideu de configurar els paràmetres correctament.<br /><br />Heu d\'indicar quins connectors cal habilitar i podeu definir <strong>un</strong> connector per defecte per a inscripcions <strong>interactives</strong>. Per inhabilitar les inscripcions interactives, poseu \"No\" en \"Permet inscripcions\" en els cursos que calgui.';
 $string['configerrorlevel'] = 'Trieu el nivell d\'avisos del PHP que voleu visualitzar. Generalment \'Normal\' és la millor opció.';
 $string['configextendedusernamechars'] = 'Habiliteu aquest paràmetre perquè els estudiants puguin usar qualsevol caràcter en el seu nom d\'usuari (no afecta els noms actuals). El valor per defecte és \"fals\", la qual cosa limita els noms d\'usuari a caràcters alfanumèrics.';
 $string['configfilterall'] = 'Filtra totes les cadenes, inclosos encapçalaments, títols, barres de navegació, etc. Útil sobretot amb el filtre multillenguatge. Si no, pot crear una càrrega extra al servidor sense guanyar res a canvi.';
@@ -126,8 +127,12 @@ $string['confirmation'] = 'Confirmació';
 $string['confirminstall'] = 'Esteu a punt d\'instal·lar el paquet d\'idioma ($a). N\'esteu segur?';
 $string['cronwarning'] = 'La <a href=\"cron.php\">seqüència de manteniment cron.php</a> no s\'ha executat en les darreres 24 hores com a mínim.';
 $string['dbmigrate'] = 'Migració de la base de dades de Moodle';
+$string['dbmigrateencodingerror'] = 'La base de dades especificada té la codificació $a en lloc d\'Unicode/UTF-8, que és la requerida.<br />Si us plau, especifiqueu-ne una altra.';
+$string['dbmigratepostgres'] = 'Sembla que esteu utilitzant PostgreSQL com a servidor de base de dades. Per continuar el procés de migració necessiteu crear manualment una nova base de dades amb codificació \"UNICODE\" (PostgreSQL 7) o \"UTF8\" (PostgreSQL 8), on s\'emmagatzemaran les dades migrades. Introduïu aquí baix els paràmetres de connexió de la nova base de dades:';
 $string['dbmigratewarning'] = 'Abans de començar aquest procediment, cercioreu-vos que teniu una còpia de seguretat de la base de dades de Moodle. Contacteu amb l\'administrador del vostre sistema si no sabeu com es fa. Quan engegueu el procés de migració, aquest lloc restarà en mode de manteniment.';
 $string['dbmigratewarning2'] = '<b>Avís: esteu a punt d\'engegar el procés de migració de la base de dades. Cercioreu-vos que teniu una còpia de seguretat de la base de dades de Moodle.</b>';
+$string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">Aquesta base de dades s\'ha migrat a una nova base de dades UTF8 i ja no serveix. Editeu el fitxer config.php i utilitzeu la nova base de dades amb aquest moodle.</font>';
+$string['dbmigrationdupfailed'] = 'La duplicació de la base de dades ha fallat amb aquest possible error:<font color=\"#ff0000\"><pre>$a</pre></font>';
 $string['density'] = 'Densitat';
 $string['download'] = 'B';
 $string['edithelpdocs'] = 'Edita documents d\'ajuda';
@@ -180,6 +185,9 @@ $string['mediapluginflv'] = 'Habilita filtre .flv';
 $string['mediapluginmov'] = 'Habilita filtre .mov';
 $string['mediapluginmp3'] = 'Habilita filtre .mp3';
 $string['mediapluginmpg'] = 'Habilita filtre .mpg';
+$string['mediapluginram'] = 'Habilita filtre .ram';
+$string['mediapluginrm'] = 'Habilita filtre .rm';
+$string['mediapluginrpm'] = 'Habilita filtre .rpm';
 $string['mediapluginswf'] = 'Habilita filtre .swf';
 $string['mediapluginwmv'] = 'Habilita filtre .wmv';
 $string['mysql416bypassed'] = 'Tanmateix, si el vostre lloc fa servir NOMÉS llengües romàniques (iso-8859-1), podeu seguir utilitzant el MySQL 4.1.12 (o superior) instal·lat.';
@@ -192,6 +200,12 @@ $string['order3'] = 'Tercer';
 $string['pathconvert'] = 'Camí del binari del <i>convert</i>';
 $string['pathdvips'] = 'Camí del binari del <i>dvips</i>';
 $string['pathlatex'] = 'Camí del binari del <i>latex</i>';
+$string['pgcluster'] = 'Grup PostgreSQL';
+$string['pgclusterdescription'] = '<pre>Paràmetre de grup/versió PostgreSQL
+per a operacions de línia de comandament.
+Si només teniu un postgresql en el vostre
+sistema o no esteu segur de què significa
+això, deixeu el paràmetre en blanc.</pre>';
 $string['pleaseregister'] = 'Registreu si us plau el vostre lloc per eliminar aquest botó';
 $string['remotelangnotavailable'] = 'Moodle no s\'ha pogut connectar a download.moodle.org i no ha pogut fer la instal·lació automàtica del paquet d\'idioma. Baixeu el fitxer o fitxers zip de la llista següent, copieu-los al directori $a i descomprimiu-los manualment.';
 $string['renameerrors'] = 'S\'han produït errors en els canvis de nom';
