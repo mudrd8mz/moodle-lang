@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006031000)
+      // moodle.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['action'] = 'Eylem';
@@ -60,7 +60,7 @@ $string['adminhelpmanagedatabase'] = 'Doğrudan veritabanına ulaş (dikkatli ol
 $string['adminhelpmanagefilters'] = 'İçerik filtrelerini ve ayarlarını yönetin';
 $string['adminhelpmanagemodules'] = 'Kurulu modülleri ve ayarlarını yönetin';
 $string['adminhelpmymoodle'] = 'Kullanıcılar için Kişisel Moodle bloklarını yapılandır';
-$string['adminhelpreports'] = 'Çeşitli ölçütlere göre kursları sıralayın';
+$string['adminhelpreports'] = 'Site seviyesindeki raporlar';
 $string['adminhelpsitefiles'] = 'Genel dosyaların yayınlanması ve yedeklerin yüklemesi için';
 $string['adminhelpsitesettings'] = 'Başlangıç sayfasının nasıl görüneceğini tanımlayın';
 $string['adminhelpstickyblocks'] = 'Sabit blokları yapılandırın';

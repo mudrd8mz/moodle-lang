@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6 development (2005101200)
+      // enrol_authorize.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['adminauthorizeccapture'] = 'Siparişi İnceleme ve Otomatik-Çekme Ayarları';
@@ -7,13 +7,14 @@ $string['adminauthorizeemail'] = 'Email Gönderme Ayarları';
 $string['adminauthorizesettings'] = 'Authorize.net Ayarları';
 $string['adminauthorizewide'] = 'Site Geneli Ayarları';
 $string['adminavs'] = 'Authorize.net hesabınızda AVS\'yi (Adres Doğrulama Sistemi) etkinleştirdiyseniz bunu seçin. Kullanıcı ödeme formunu doldururken cadde, ülke, posta kodu gibi adres alanları istenir.';
-$string['admincronsetup'] = 'Cron.php bakım betiği son 24 saattir çalışmıyor. <br />Otomatik-çekme özelliğini kullanmak istiyorsanız cron etkin olmalı.<br /><a href=\"../doc/?frame=install.html&sub=cron\">Cronu ayarlayın</a> veya an_review\'i tekrar seçili durumdan kaldırın. <br />Otomatik-çekmeyi etkinleştirmezseniz ve 30 gün içinde işlemleri incelemezseniz işlem iptal edilir.<br />Ödemeleri 30 gün içinde elle kabul etmek veya iptal etmek istiyorsanız an_review\'i seçin an_capture_day alanına \'0\' girin.';
+$string['admincronsetup'] = 'Cron.php bakım betiği son 24 saattir çalışmıyor. <br />Otomatik-çekme özelliğini kullanmak istiyorsanız cron etkin olmalı.<br />Cronu düzgün ayarlayın veya an_review\'i tekrar seçili durumdan kaldırın.<br />Otomatik-çekmeyi etkinleştirmezseniz ve 30 gün içinde işlemleri incelemezseniz işlem iptal edilir.<br />Ödemeleri 30 gün içinde elle kabul etmek veya iptal etmek istiyorsanız an_review\'i seçin an_capture_day alanına \'0\' girin.';
 $string['adminemailexpired'] = 'İşlem iptal olmadan önce yöneticilere <b>$a</b> gün önceden \'onaylanmış/çekilmeyi bekliyor\' durumundaki siparişlerin sayısını içeren bir uyarı mesajı gönder. (0=email gönderme pasif, varsayılan=2, en fazla=5)<br />Siparişi elle incelemeyi etkinleştirdiyseniz bu kullanışlıdır (an_review=seçili, an_capture_day=0).';
 $string['adminhelpcapture'] = 'Ödemeleri sadece elle kabul etmek/iptal etmek değil, aynı zamanda ödemenin iptal olmasını engellemek için otomatik-çekmeyi de kullanmak istiyorum. Ne yapmam gerekiyor?
 
 - Cronu ayarlayın.
 - an_review\'i seçin.
 - an_capture_day alanına 1 ile 29 arasında bir sayı girin. Kredi kartından para çekilecek ve an_capture_day gün içinde çekmezseniz kullanıcı kursa kaydedilecek.';
+$string['adminhelpcapturetitle'] = 'Otomatik-Çekme Günü';
 $string['adminhelpreview'] = 'Ödemeleri elle nasıl kabul veya reddeceğim?
 
 - an_review\'i seçin.
@@ -22,6 +23,7 @@ $string['adminhelpreview'] = 'Ödemeleri elle nasıl kabul veya reddeceğim?
 Öğrenciler kart numarasını girdikten hemen sonra nasıl kursa kaydolurlar?
 
 - an_review\'i seçili durumdan kaldırın.';
+$string['adminhelpreviewtitle'] = 'Siparişi İnceleme';
 $string['adminneworder'] = 'Değerli Yönetici,
 
 Yeni bir bekleyen sipariş aldınız:
@@ -41,6 +43,7 @@ $a->url';
 $string['adminnewordersubject'] = '$a->course: Bekleyen Yeni Sipariş($a->orderid)';
 $string['adminpendingorders'] = 'Otomatik-çekme özelliğini etkinleştirmediniz.<br />PROVİZYON durumundaki toplam $a->count işlem kontrol etmezseniz iptal edilecek. <br /> Ödemeleri kabul etmek/reddetmek için <a href=\'$a->url\'>Ödeme Yönetimi</a> sayfasına gidin.';
 $string['adminreview'] = 'Kredi kartından çekmeden önce siparişi incele.';
+$string['adminteachermanagepay'] = 'Eğitimciler kurs ödemelerini yönetebilir.';
 $string['amount'] = 'Miktar';
 $string['anlogin'] = 'Authorize.net: Kullanıcı adı';
 $string['anpassword'] = 'Authorize.net: Şifre';
@@ -76,11 +79,11 @@ $string['ccno'] = 'Kredi Kartı No';
 $string['cctype'] = 'Kredi Kartı Tipi';
 $string['ccvv'] = 'Onay Kodu';
 $string['ccvvhelp'] = 'Kartın arkasına bakınız (son 3 rakam)';
-$string['choosemethod'] = 'Kursun kayıt anahtarını biliyorsanız giriniz. Diğer durumda bu kurs için ödeme yapmanız gerekiyor.';
+$string['choosemethod'] = 'Kursun kayıt anahtarını biliyorsanız lütfen giriniz. Diğer durumda bu kurs için ödeme yapmanız gerekiyor.';
 $string['chooseone'] = 'Aşağıdaki iki alandan birini veya ikisini doldurun';
 $string['cutofftime'] = 'Hesap Kesim Zamanı. Hesap kesimi en son ne zaman yapılacak?';
 $string['delete'] = 'Sil';
-$string['description'] = 'Authorize.net modülü Kredi Kartı sağlayıcılarıyla ücretli kurslar ayarlamanıza olanak verir. Bir kursun ücreti sıfır ise öğrencilere ödeme yapmaları için bir istekte bulunulmaz. Sitenin geneli için ayarlayabileceğiniz varsayılan bir tutar vardır ve her bir dersin ücretini tek tek de ayarlayabilirsiniz. Kurs ücreti ayarlanırsa site genelindeki ücret yoksayılır..<br /><br /><b>Not:</b> Kurs ayarlarında kayıt anahtarını girdiyseniz öğrenciler bu anahtara göre de kayıt olma seçeneğine sahip olabileceklerdir. Bu, öğrecilerden bazılarının ödeme yaparak bazılarının da kayıt anahtarına göre kayıt olmasını istiyorsanız kullanışlıdır.';
+$string['description'] = 'Authorize.net modülü Kredi Kartı sağlayıcılarıyla ücretli kurslar ayarlamanıza olanak verir. Bir kursun ücreti sıfır ise öğrencilere ödeme yapmaları için bir istekte bulunulmaz. Kurs ücretini iki şekilde ayarlayabilirsiniz. (1) Sitenin geneli için ayarlayabileceğiniz varsayılan bir tutar vardır ve ayrıca (2) her bir dersin ücretini tek tek de ayarlayabilirsiniz. Kurs ücreti ayarlanırsa site genelindeki ücret yoksayılır.<br /><br /><b>Not:</b> Kurs ayarlarında kayıt anahtarını girdiyseniz öğrenciler bu anahtara göre de kayıt olma seçeneğine sahip olabileceklerdir. Bu, öğrecilerden bazılarının ödeme yaparak bazılarının da kayıt anahtarına göre kayıt olmasını istiyorsanız kullanışlıdır.';
 $string['enrolname'] = 'Authorize.net Kredi Kartı Sağlayıcısı';
 $string['expired'] = 'Süresi dolmuş';
 $string['howmuch'] = 'Ne kadar?';
@@ -103,7 +106,7 @@ $string['noreturns'] = 'Geri ödeme yok';
 $string['notsettled'] = 'Faturalandırılmamış';
 $string['orderid'] = 'Sipariş ID';
 $string['paymentmanagement'] = 'Ödeme Yönetimi';
-$string['paymentpending'] = '$a->orderid numaralı ödemeniz bu kurs için onay bekliyor.';
+$string['paymentpending'] = '$a->orderid numaralı ödemeniz bu kurs için onay bekliyor. <a href=\'$a->url\'>Sipariş Ayrıntılarına</a> bakabilirsiniz.';
 $string['pendingordersemail'] = 'Değerli Yönetici,
 
 $a->days gün içinde onay bekleyen $a->pending işlemi kabul etmezseniz süresi dolacak ve iptal edilecek.
@@ -143,6 +146,7 @@ $string['transid'] = 'İşlem ID';
 $string['unenrolstudent'] = 'Öğrencinin ders kaydını sil?';
 $string['void'] = 'İptal et';
 $string['voidyes'] = 'İşlem iptal edilecek. Emin misiniz?';
+$string['youcantdo'] = 'Bu eylemi yapamazsınız: $a->action';
 $string['zipcode'] = 'Posta Kodu';
 
 ?>
