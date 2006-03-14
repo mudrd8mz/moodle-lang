@@ -142,6 +142,7 @@ $string['transid'] = 'No de transaction';
 $string['unenrolstudent'] = 'Désinscrire l\'étudiant&nbsp;?';
 $string['void'] = 'Nul';
 $string['voidyes'] = 'La transaction sera annulée. Voulez-vous continuer&nbsp;?';
+$string['youcantdo'] = 'Vous ne pouvez pas effectuer ceci&nbsp;: $a->action';
 $string['zipcode'] = 'Code postal';
 
 ?>
