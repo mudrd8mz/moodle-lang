@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6 development (2006022400)
+      // forum.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['addanewdiscussion'] = 'Afegeix un nou tema de debat';
@@ -222,7 +222,7 @@ $string['unreadpostsone'] = 'Un missatge no llegit';
 $string['unsubscribe'] = 'Cancel·la la meva subscripció a aquest fòrum';
 $string['unsubscribed'] = 'La vostra subscripció ha estat cancel·lada';
 $string['unsubscribeshort'] = 'Cancel·la subscripció';
-$string['warnafter'] = 'Llindar de missatge per a l\'avís';
+$string['warnafter'] = 'Llindar de missatges per a l\'avís';
 $string['yesforever'] = 'Sí, per sempre';
 $string['yesinitially'] = 'Sí, inicialment';
 $string['youratedthis'] = 'La vostra valoració';
