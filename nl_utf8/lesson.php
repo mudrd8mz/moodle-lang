@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.6 development (2006022400)
+      // lesson.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['accesscontrol'] = 'Toegangscontrole';
@@ -58,6 +58,7 @@ $string['customscoring'] = 'Aangepaste cijfers';
 $string['deadline'] = 'Deadline';
 $string['defaultessayresponse'] = 'Je antwoord op deze open vraag zal door de leraar beoordeeld worden.';
 $string['deleteattempts'] = 'Verwijder de pogingen van de leerling voor deze les (user id)';
+$string['deletedefaults'] = 'Standaard les $a verwijderd';
 $string['deletedpage'] = 'Pagina verwijderd';
 $string['deleting'] = 'Verwijderen';
 $string['deletingpage'] = 'Bezig met pagina $a verwijderen';

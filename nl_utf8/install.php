@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 development (2005101200)
+      // install.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['admindirerror'] = 'De admin-map die je opgeeft is niet juist';
@@ -83,6 +83,10 @@ Je hebt een plaats nodig waar Moodle bestanden kan opslaat. Deze map moet leesba
 $string['dirroot'] = 'Moodle-map';
 $string['dirrooterror'] = 'De instelling voor \'Moodle-map\' was niet juist - we kunnen daar geen Moodle-installatie vinden. Onderstaande waarde is gereset.';
 $string['download'] = 'Download';
+$string['downloadlanguagebutton'] = 'Download het \"$a\" taalpakket';
+$string['downloadlanguagehead'] = 'Download taalpakket';
+$string['downloadlanguagenotneeded'] = 'Je kunt het installatieproces verder laten lopen met het standaard taalpakket, \"$a\".';
+$string['downloadlanguagesub'] = 'Je kun nu een taalpakket downloaden en de installatie in die taal verder zetten.<br /><br />Als je dit taalpakket niet kunt downloaden, dan zal de installatie in het Engels verder gaan. (Als de installatie is afgewerkt, krijg je terug de mogelijkheid om nieuwe taalpakketten te downloaden en te installeren)';
 $string['environmenthead'] = 'Omgeving controleren ...';
 $string['environmentsub'] = 'We controleren nu of de versies van verschillende componenten van je server voldoen aan de systeemvereisten van Moodle';
 $string['fail'] = 'Niet OK';
@@ -109,6 +113,8 @@ $string['globalsquoteshelp'] = '<p>De combinatie van uitgeschakelde Magic Quotes
 <blockquote>php_value register_globals Off</blockquote>
 </p> ';
 $string['installation'] = 'Installatie';
+$string['langdownloaderror'] = 'De taal \"$a\" is jammer genoeg niet geïnstalleerd. Het installatieproces gaat verder in het Engels.';
+$string['langdownloadok'] = 'De taal \"$a\" is met succes geïnstalleerd. Het installatieproces zal in deze taal verder gaan.';
 $string['magicquotesruntime'] = 'Magic Quotes runtime';
 $string['magicquotesruntimeerror'] = 'Dit moet uitgeschakeld zijn';
 $string['magicquotesruntimehelp'] = '<p>Magic Quotes runtime moet uitgeschakeld zijn om Moodle goed te laten functioneren.</p>

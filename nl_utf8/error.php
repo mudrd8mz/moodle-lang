@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2005101200)
+      // error.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['adminprimarynoedit'] = 'Het profiel van de beheerder met het kleinste gebruikersnummer kan door de andere beheerders niet gewijzigd worden';
+$string['cannotcreatelangdir'] = 'Kan lang map niet maken';
 $string['cannotcreatetempdir'] = 'Kan tijdelijke map niet maken.';
 $string['cannotdownloadcomponents'] = 'Kan componenten niet downloaden.';
 $string['cannotdownloadzipfile'] = 'Kan ZIP-bestand niet downloaden.';

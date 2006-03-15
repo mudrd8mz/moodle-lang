@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005011000)
+      // glossary.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['addcomment'] = 'Voeg commentaar toe';
@@ -95,9 +95,8 @@ $string['explainalphabet'] = 'Blader door de woordenlijst met deze index';
 $string['explainexport'] = 'Er is een bestand gemaakt.<br />Download het en bewaar het veilig. Je kunt het altijd in dit of een andere cursus importeren.';
 $string['explainimport'] = 'Specifieer het te importeren bestand en bepaal de criteria van het proces.<p>Verstuur je verzoek en kijk het resultaat na.';
 $string['explainspecial'] = 'Toon items die niet met een letter beginnen';
-$string['exportedentry'] = 'Geëxporteerd item';
-$string['exportedfile'] = 'Geëxporteerd bestand';
 $string['exportentries'] = 'Exporteer invoer';
+$string['exportfile'] = 'Exporteer invoer naar bestand';
 $string['exportglossary'] = 'Exporteer de woordenlijst';
 $string['exporttomainglossary'] = 'Exporteer naar hoofdwoordenlijst';
 $string['filetoimport'] = 'Te importeren bestand';
@@ -107,7 +106,6 @@ $string['fullmatch'] = 'Alleen volledige woorden gebruiken<br /><small>(wanneer 
 $string['globalglossary'] = 'Globale woordenlijst';
 $string['glossaryleveldefaultsettings'] = 'Standaardinstellingen woordenlijst';
 $string['glossarytype'] = 'Type woordenlijst';
-$string['glosssaryexported'] = 'De woordenlijst is geëxporteerd';
 $string['importcategories'] = 'Importeer categorieën';
 $string['importedcategories'] = 'Geïmporteerde categorieën';
 $string['importedentries'] = 'Geïmporteerde invoer';

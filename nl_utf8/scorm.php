@@ -1,11 +1,14 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6 development (2005101200)
+      // scorm.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['advanced'] = 'Geavanceerd';
 $string['asset'] = 'Bezit';
+$string['attempt'] = 'Poging';
+$string['attempts'] = 'Pogingen';
 $string['attr_error'] = 'Foute waarde voor attribuut ($a->attr) in tag $a->tag.';
 $string['autocontinue'] = 'Ga automatisch verder';
+$string['averageattempt'] = 'Gemiddelde van pogingen';
 $string['badmanifest'] = 'Enkele belangrijke fouten: zie foutenlogboek';
 $string['browse'] = 'Voorproeven';
 $string['browsed'] = 'Voorgeproefd';
@@ -26,6 +29,7 @@ $string['exit'] = 'Verlaat de SCORM/AICC-cursus';
 $string['expcoll'] = 'Maximaliseer/Minimaliseer';
 $string['failed'] = 'Mislukt';
 $string['firstaccess'] = 'Eerste toegang';
+$string['firstattempt'] = 'Eerste poging';
 $string['found'] = 'Manifest gevonden';
 $string['frameheight'] = 'Met deze instelling kies je de hoogte van het SCO-frame';
 $string['framewidth'] = 'Deze voorkeurinstelling is de standaardbreedte van het SCO-frame';
@@ -41,12 +45,14 @@ $string['hidden'] = 'Verborgen';
 $string['hidebrowse'] = 'Verberg voorbeeldknop';
 $string['hidenav'] = 'Verberg navigatieknoppen';
 $string['hidetoc'] = 'Verberg cursusstructuur ';
+$string['highestattempt'] = 'Beste poging';
 $string['identifier'] = 'Vraagidentificatie';
 $string['iframe'] = 'Huidig venster';
 $string['iframedisplay'] = 'Open het pakket in het huidige venster';
 $string['incomplete'] = 'Onvolledig';
 $string['interactions'] = 'Interacties';
 $string['lastaccess'] = 'Laatste toegang';
+$string['lastattempt'] = 'Laatste poging';
 $string['location'] = 'Toon locatiebalk';
 $string['max'] = 'Max score';
 $string['maximumattempts'] = 'Aantal pogingen';
@@ -62,6 +68,7 @@ $string['next'] = 'Volgende';
 $string['no_attributes'] = 'Tag $a->tag moet attributen hebben';
 $string['no_children'] = 'Tag $a->tag moet children hebben';
 $string['noactivity'] = 'Niets te melden';
+$string['nolimit'] = 'Onbeperkt aantal pogingen';
 $string['nomanifest'] = 'Manifest niet gevonden';
 $string['noprerequisites'] = 'Sorry, maar je hebt nog niet genoeg afgewerkt om toegang te krijgen tot dit leerobject';
 $string['noreports'] = 'Er is geen rapport om te tonen';
@@ -113,6 +120,7 @@ $string['validationtype'] = 'Deze instelling maakt dat de DOMXML-bibliotheek geb
 $string['value'] = 'Waarde';
 $string['versionwarning'] = 'De versie van het Manifest is ouder dan 1.3, waarschuwing bij tag $a->tag';
 $string['viewallreports'] = 'Bekijk de rapporten voor $a pogingen';
+$string['whatgrade'] = 'Te beoordelen pogingen';
 $string['width'] = 'Breedte';
 $string['window'] = 'Frame/venster';
 
