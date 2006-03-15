@@ -7,8 +7,8 @@ $string['adminauthorizeemail'] = 'Kaayusan ng Pagpapadala ng Email';
 $string['adminauthorizesettings'] = 'Kaayusan ng Authorize.net';
 $string['adminauthorizewide'] = 'Kaayusan na Pangkalahatang-Site';
 $string['adminavs'] = 'Tsekan ito kung pinagana mo ang Address Verification System (AVS) sa iyong account ng authorize.net.  Mangangailangan iot ng mga field para sa address tulad ng kalye, estado, bansa at zip kapag sinulatan na ng user ang form para sa pagbabayad.';
-$string['admincronsetup'] = 'Hindi pinatakbo ang pangmentinang iskrip na cron.php maintenance sa loob ng 24 oras. <br />Kailangang gumagana ang cron kung nais mong gamitin ang katangiang autocapture.<br />Isaayos ang cron o tanggalin muli ang tsek ng an_review .<br />Kapag pinatay mo ang autocapture, ang mga transaksiyon ay kakanselahin maliban na lamang kung rebyuhin mo ito sa loob ng 30 araw.
-<br />Tsekan ang an_review at ipasok ang \'0\' sa an_capture_day na field<br />kung nais mong pagtanggap/pagtanggi sa mga bayad sa loob ng 30 araw.';
+$string['admincronsetup'] = 'Hindi pinatakbo ang pangmentinang iskrip na cron.php sa loob ng 24 oras. <br />Kailangang gumagana ang cron kung nais mong gamitin ang katangiang autocapture.<br />Isaayos ang cron nang wasto o tanggalin muli ang tsek ng an_review .<br />Kapag pinatay mo ang autocapture, ang mga transaksiyon ay kakanselahin maliban na lamang kung rebyuhin mo ito sa loob ng 30 araw.
+<br />Tsekan ang an_review at ipasok ang \'0\' sa an_capture_day na field<br />kung nais mong tumanggap/tumanggi sa mga bayad nang mano-mano sa loob ng 30 araw.';
 $string['adminemailexpired'] = 'Magpadala ng mga email na babala sa mga admin kung ilang <b>$a</b> araw ang nakalipas sa kung ilang estado ng \'pinahintulutan/nakabimbin na capture\' na transaksiyon, bago mapasó ang transaksiyon. (0=patayin ang pagpapadala ng email, default=2, maks=5)<br />Kapakipakinabang ito kung paganahin mo ang pagcapture nang manomano(an_review=may tsek, an_capture_day=0).';
 $string['adminhelpcapture'] = 'Nais kong tumanggap/tumanggi sa bayad ng mano-mano.  Pero nais ko ring gumamit ng autocapture para maiwasan ang pagkansela ng bayad.  Ano ang puwede kong gawin?
 
@@ -45,6 +45,7 @@ $a->url';
 $string['adminnewordersubject'] = '$a->course: Bagong Nakabimbin na Order($a->orderid)';
 $string['adminpendingorders'] = 'Pinatay mo ang katangiang auto-capture.<br />Ang kabuuang $a->count transaksiyon na may estadong  AN_STATUS_AUTH ay makakansela maliban na lamang kung tsekan mo ito.<br />Para matanggap/matanggihan ang mga bayad tumungo sa pahina para sa <a href=\'$a->url\'>Pamamahala ng Bayad</a>.';
 $string['adminreview'] = 'Rebyuhin ang order bago icapture ang credit card.';
+$string['adminteachermanagepay'] = 'Puwedeng pamahalaan ng mga guro ang pagbabayad sa kurso.';
 $string['amount'] = 'Halaga';
 $string['anlogin'] = 'Authorize.net: Pangalan na panglog-in';
 $string['anpassword'] = 'Authorize.net: Password';
@@ -108,7 +109,7 @@ $string['noreturns'] = 'Walang solian!';
 $string['notsettled'] = 'Hindi pa tapos ang proseso ng pagbabayad';
 $string['orderid'] = 'ID ng Order';
 $string['paymentmanagement'] = 'Pamamahala ng Pagbabayad';
-$string['paymentpending'] = 'Nakabimbin ang pagbabayad mo sa kursong ito na may bilang ng order na $a->orderid.';
+$string['paymentpending'] = 'Nakabimbin ang pagbabayad mo sa kursong ito na may bilang ng order na $a->orderid.  Tingnan ang <a href=\'$a->url\'>Mga Detalye ng Order</a>.';
 $string['pendingordersemail'] = 'Mahal naming admin,
 
 Mapapasó ang $a->pending transaksiyon maliban na lamang kung tanggapin mo ang bayad sa loob ng  $a->days araw.
@@ -153,5 +154,6 @@ $string['testwarning'] = 'Mukhang gumagana ang Capture/Void/Credit sa mode na pa
 $string['transid'] = 'ID ng Transaksiyon';
 $string['unenrolstudent'] = 'Alisin sa pagkakaenrol ang mag-aaral?';
 $string['voidyes'] = 'Kakanselahin ang transaksiyon.  Talaga bang nais mo itong gawin?';
+$string['youcantdo'] = 'Hindi mo puwedeng gawin ang aksiyong ito:  $a->action';
 
 ?>
