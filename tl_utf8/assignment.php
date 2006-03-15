@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6 development (2005101200)
+      // assignment.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['allowresubmit'] = 'Pahintulutang maípasa mulî';
@@ -39,6 +39,7 @@ $string['failedupdatefeedback'] = 'Nabigong baguhin ang puna sa ipinasa ni user 
 $string['feedback'] = 'Puna';
 $string['feedbackfromteacher'] = 'Puna mula sa $a';
 $string['feedbackupdated'] = 'Nabago na ang puna sa mga ipinasa ng $a tao';
+$string['graded'] = 'Minarkahan';
 $string['guestnosubmit'] = 'Paumanhin, nguni\'t ang mga bisita ay hindi pinapahintulutang magpasa ng takdang-aralin.  Kailangan mo munang maglog-in/rehistro bago mo maipasa ang sagot mo.';
 $string['guestnoupload'] = 'Paumanhin nguni\'t hindi pinapahintulutang mag-aplowd ang bisita.';
 $string['helpoffline'] = '<p>Kapakipakinabang ito kapag ang takdang-aralin ay ginagawa sa labas ng Moodle.  Maaari itong isang bagay sa iba pang lugar sa web o harapan.</p><p>Maaaring makakita ng deskripsyon ng takdang-aralin ang mga mag-aaral, nguni hindi puwedeng mag-aplowd ng file o anupaman.  Gumagana ng normal ang pagmamarka, at tatanggap ng patalastas hinggil sa marka nila ang mga mag-aaral</p>';
@@ -63,6 +64,7 @@ $string['submission'] = 'Ipinasa';
 $string['submissionfeedback'] = 'Puna sa ipinasa';
 $string['submissions'] = 'Mga ipinasa';
 $string['submissionsaved'] = 'Naisave na ang mga pagbabago mo';
+$string['submissionsnotgraded'] = '$a ipinasa ang hindi namamarkahan';
 $string['submitassignment'] = 'Ipasa ang iyong takdang-aralin sa pamamagitan ng form na ito';
 $string['submitted'] = 'Naipasa na';
 $string['typeoffline'] = 'Offline na aktibidad';

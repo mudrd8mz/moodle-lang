@@ -6,6 +6,7 @@ $string['addnewentry'] = 'Magdagdag ng bagong talâ';
 $string['addotags'] = 'Magdagdag ng mga opisyal na tag';
 $string['addptags'] = 'Magdagdag ng mga tag na itinakda ng user';
 $string['blockmenutitle'] = 'Menu ng blog';
+$string['blogdeleteconfirm'] = 'Buburahin ba ang blog na ito?';
 $string['blogpreferences'] = 'Mas-ibig sa blog';
 $string['blogs'] = 'Mga blog';
 $string['entrybody'] = 'Katawan ng tala sa blog';
@@ -24,7 +25,7 @@ $string['publishtosite'] = 'Kahit sino sa site na ito';
 $string['publishtoworld'] = 'Kahit sino sa mundo';
 $string['settingsupdatederror'] = 'May naganap na error, hindi magawang bago ang mas-ibig na kaayusan sa blog';
 $string['updateentrywithid'] = 'Ginagawang bago ang talâ';
-$string['viewcourseentries'] = 'Tingnan ang aking mga talâ';
+$string['viewcourseentries'] = 'Tingnan ang mga talâ sa kurso';
 $string['viewmyentries'] = 'Tingnan ang aking mga talâ';
 $string['viewsiteentries'] = 'Tingnan ang mga talâ sa site';
 

@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.5 ALPHA (2005043000)
+      // chat.php - created with Moodle 1.6 development (2006022400)
 
 
-$string['beep'] = 'beep';
+$string['beep'] = 'bip';
 $string['chatintro'] = 'Panimulang teksto';
 $string['chatname'] = 'Pangalan ng chat room na ito';
 $string['chatreport'] = 'Sesyon ng Chat';
@@ -28,19 +28,19 @@ $string['explainmethodnormal'] = 'Mahalaga ang mga kaayusang ito <strong>tangi k
 $string['generalconfig'] = 'Pangkalahatang pagsasaayos';
 $string['helpchatting'] = 'Tulong sa pagchachat';
 $string['idle'] = 'Diginagamit';
-$string['messagebeepseveryone'] = 'Bineep ang lahat ni $a!';
-$string['messagebeepsyou'] = 'Bineep ka ni $a !';
+$string['messagebeepseveryone'] = 'Binip ang lahat ni $a!';
+$string['messagebeepsyou'] = 'Binip ka ni $a !';
 $string['messageenter'] = 'Pumasok si $a sa chat na ito';
 $string['messageexit'] = 'Umalis na si $a sa chat na ito';
 $string['messages'] = 'Mga Mensahe';
 $string['methoddaemon'] = 'Chat server daemon';
 $string['methodnormal'] = 'Normal na paraan';
-$string['modulename'] = 'Chat';
 $string['modulenameplural'] = 'Mga Chat';
 $string['neverdeletemessages'] = 'Huwag kailanmang buburahin ang mga mensahe';
 $string['nextsession'] = 'Susunod na nakaiskedyul na sesyon';
-$string['noguests'] = 'Hindi bukas ang chat sa mga bisita';
+$string['noguests'] = 'Hindi bukás ang chat sa mga bisita';
 $string['nomessages'] = 'Wala pang mensahe';
+$string['noscheduledsession'] = 'Walang nakaiskedyul na sesyon';
 $string['repeatdaily'] = 'Sa parehong oras araw-araw';
 $string['repeatnone'] = 'Walang paguulit - tanging ang  partikular na oras ang ilathala';
 $string['repeattimes'] = 'Ulitin ang mga sesyon';
@@ -48,7 +48,6 @@ $string['repeatweekly'] = 'Sa parehong oras linggo-linggo';
 $string['savemessages'] = 'Isave ang mga nalipas na sesyon';
 $string['seesession'] = 'Tingnan ang sesyon na ito';
 $string['sessions'] = 'Mga sesyon ng Chat';
-$string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Makikita ng lahat ang mga nakaraang sesyon';
 $string['viewreport'] = 'Tingnan ang mga nakalipas na sesyon ng chat';
 
