@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6 development (2005101200)
+      // enrol_authorize.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['adminauthorizeccapture'] = 'Bestellingsoverzicht & instellingen automatische ontvangsten';
@@ -9,6 +9,34 @@ $string['adminauthorizewide'] = 'Instellingen voor heel de site';
 $string['adminavs'] = 'Controleer of je Adress Verification System (AVS) hebt geactiveerd in je authorize.net account. Wanneer de gebruiker het betaalformulier invult, worden hierdoor adresvelden zoals straat, staat, land en postcode gevraagd.';
 $string['admincronsetup'] = 'Het onderhoudsscript cron.php heeft al minstens 24 uur niet gelopen.<br />Om de autocapture mogelijkheid te gebruiken moet cron ingeschakeld zijn. <br />Cron installeren of schakel an_review opnieuw uit. <br />Als je autocapture uitschakeld, zullen de transacties geannuleerd worden, tenzij je ze binnen de 30 dagen bevestigd.<br />Controleer an_review en zet \'0\' in het an_capture_day veld <br /> als je betalingen manueel wil aanvaarden/niet aanvaarden binnen 30 dagen?';
 $string['adminemailexpired'] = 'Stuur een waarschuwingsmail naar de beheerders <b>$a</b> dagen geleden hoeveel het aantal van \'authorized/pending capture\' transacties er waren, voor transacties vervallen. (0=mail uitschakelen, standaardinstelling=2, maximum=5)<br />Dit is nuttig als je capturing manueel ingesteld hebt(an_review=checked, an_capture_day=0).';
+$string['adminhelpcapture'] = 'Ik wil niet alleen manueel betalingen kunnen aanvaarden en weigeren, maar dit ook automatisch kunnen doen om annulatie van betalingen te vermijden. Wat moet ik doen?
+-er voor zorgen dat Cron werkt
+-an_review controlleren
+-een nummer ingeven tussen 1 en 29 in het an_capture_day-veld. De kaart zal aanvaard worden en de gebruiker zal aangemeld worden, tenzij je het manueel doet binnen an_capture_dat.';
+$string['adminhelpcapturetitle'] = 'Dag voor automatisch aanvaarden';
+$string['adminhelpreview'] = 'Hoe kan ik betalingen manueel aanvaarden en weigeren?
+-controleer an_review
+-zet een 0 in het an_capture_day veld.
+
+Hoe kunnen leerlingen onmiddellijk aangemeld worden in cursussen na betaling het ingeven van hun kaartnummer?
+-Verwijder vinkje bij an_review';
+$string['adminhelpreviewtitle'] = 'Nakijken bestellingen';
+$string['adminneworder'] = 'Beste beheerder,
+
+Je hebt een nieuwe bestelling binnengekregen:
+
+Order ID: $a->orderid
+Transaction ID: $a->transid
+Gebruiker: $a->user
+Cursus: $a->course
+Bedrag: $a->amount
+
+Automatisch aanvaarden ingeschakeld? $a->acstatus
+
+Als automatisch aanvaarden ingeschakeld is, dan zal de kredietkaart aanvaard worden op $a->captureon en zal de leerling automatisch aangemeld worden in de cursus, anders zal deze aanvraag verlopen op $a->expireon en kan die niet meer bevestigd worden na die dag.
+
+Je kunt de betaling ook onmiddellijk aanvaarden en de leerling onmiddellijk toegang geven tot de cursus door deze link te volgen $a->url';
+$string['adminnewordersubject'] = '$a->course: Nieuwe bestelling ($a->orderid)';
 $string['adminreview'] = 'Controleer de bestelling voor het aanvaarden van de kredietkaart';
 $string['amount'] = 'Bedrag';
 $string['anlogin'] = 'Authorize.net: Login naam';

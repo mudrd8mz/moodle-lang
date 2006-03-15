@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004093001)
+      // chat.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['beep'] = 'Piep';
@@ -41,6 +41,7 @@ $string['neverdeletemessages'] = 'Berichten nooit verwijderen';
 $string['nextsession'] = 'Volgende geplande sessie';
 $string['noguests'] = 'De chatruimte is niet toegankelijk voor gastgebruikers';
 $string['nomessages'] = 'Nog geen berichten';
+$string['noscheduledsession'] = 'Geen sessie gepland';
 $string['repeatdaily'] = 'Elke dag om dezelfde tijd';
 $string['repeatnone'] = 'Geen herhalingen - alleen publiceren op de aangegeven tijd';
 $string['repeattimes'] = 'Herhaal sessies';

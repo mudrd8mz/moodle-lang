@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 development (2006022400)
+      // admin.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['adminseesallevents'] = 'Beheerders zien alle gebeurtenissen';
@@ -44,6 +44,7 @@ $string['configenablecourserequests'] = 'Hiermee kan elke gebruiker aanvragen om
 $string['configenablerssfeeds'] = 'Met deze instelling maak je RSS-feeds mogelijk voor heel de site. Om ze echt te kunnen gebruiken, moet je de RSS-feeds nog inschakelen voor elke module afzonderlijk - ga naar \'Beheer van de modules\' onder Beheer, Configuratie.';
 $string['configenablerssfeedsdisabled'] = 'Dit is niet beschikbaar omdat RSS voor heel de site is uitgeschakeld. Om RSS in te schakelen ga je naar Configureer variablen onder Beheer Configuratie.';
 $string['configenablestats'] = 'Als je hier \'ja\' kiest, zal de cron van Moodle de logbestanden verwerken en statistieken aanmaken. Afhankelijk van de hoeveelheid verkeer op je site, kan dit wel even duren. Als je dit inschakelt kun je interessante grafieken en statistieken zien over elke cursus of over de hele site.';
+$string['configenrolmentplugins'] = 'Kies de aanmeldingsplugins die je wil gebruiken. Vergeet niet om de instellingen er van behoorlijk te configureren.<br /><br />Je moet aangeven welke plugins ingeschakeld zijn, en <strong>één</strong> plugin kan als standaard plugin voor <em>interactieve</em> aanmelding gekozen worden. Om deze interactieve aanmelding uit te schakelen, zet je \"Aanmelden in de cursus mogelijk\" op \"Nee\" in de bedoelde cursus.';
 $string['configerrorlevel'] = 'Kies hoeveel PHP-waarschuwingen je wilt dat Moodle laat zien. \'Normaal\' is meestal de beste keuze.';
 $string['configextendedusernamechars'] = 'Schakel deze optie in om het mogelijk te maken dat gelijk welke karakters in de gebruikersnaam gebruikt kunnen worden (merk op dat deze instelling geen invloed heeft op de voornaam of achternaam). De standaardinstelling is \"false\", wat ervoor zorgt dat alleen alfanumerieke tekens gebruikt kunnen worden.';
 $string['configfilterall'] = 'Filter alle strings: hoofdingen, titels, navigatiebalk enz. inbegrepen. Dit is meestal slechts nuttig wanneer je de multilang-filter gebruikt. Anders wal het alleen maar een extra belasting op je server veroorzaken zonder meerwaarde.';
@@ -126,8 +127,13 @@ $string['confirmation'] = 'Bevestiging';
 $string['confirminstall'] = 'Je gaat het taalpakket ($a) installeren. Verder gaan?';
 $string['cronwarning'] = 'Het onderhoudsscript <a href=\"cron.php\">cron.php</a> heeft de laatste 24 uur niet gelopen.';
 $string['dbmigrate'] = 'Migratie van de Moodle databank naar UTF8';
+$string['dbmigrateconnecerror'] = 'Kon niet met de opgegeven databank verbinden';
+$string['dbmigrateencodingerror'] = 'De opgegeven databank heeft $a als encodering en dat zou moeten UNICODE/UTF8 zijn.<br />Kies een andere.';
+$string['dbmigratepostgres'] = 'Je gebruikt blijkbaar PostgreSQL als databank server. Om verder te gaan met het migratieproces, moet je manueel een nieuwe databank aanmaken met de encoding \"UNICODE\" (PostgreSQL 7 of \"UTF8\" (PostgreSQL 8) om de gemigreerde data in te bewaren. Geef hieronder de connectie-instellingen van je nieuwe databank in om verder te kunnen gaan.';
 $string['dbmigratewarning'] = 'Zorg voor een backup van je databank voor je aan deze procedure begint. Als je niet goed weet hoe dat te doen, neem dan contact op met je systeembeheerder. Zodra je de migratie begint, wordt je Moodle-site in onderhoudsmodus gezet.';
 $string['dbmigratewarning2'] = '<b>Waarschuwing: zodadelijk ga je het databank migratieproces starten. Zorg er voor dat je een goede backup hebt van je Moodle databank.</b>';
+$string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">Deze databank is gemigreerd naar een nieuwe UTF8 databank en is buiten werking gesteld. Bewerk je config.php om de nieuwe databank te gebruiken voor deze Moodle-installatie.</font>';
+$string['dbmigrationdupfailed'] = 'Databankduplicatie mislukt met als mogelijke fout: <font color=\"#ff0000\"><pre>$a</pre></font>';
 $string['density'] = 'Dichtheid';
 $string['download'] = 'Download';
 $string['edithelpdocs'] = 'Bewerk helpbestanden';
@@ -181,6 +187,9 @@ $string['mediapluginflv'] = 'Gebruik .flv-filter';
 $string['mediapluginmov'] = 'Gebruik .mov-filter';
 $string['mediapluginmp3'] = 'Gebruik .mp3-filter';
 $string['mediapluginmpg'] = 'Gebruik .mpg-filter';
+$string['mediapluginram'] = 'Gebruik .ram-filter';
+$string['mediapluginrm'] = 'Gebruik .rm-filter';
+$string['mediapluginrpm'] = 'Gebruik .rpm-filter';
 $string['mediapluginswf'] = 'Gebruik .swf-filter';
 $string['mediapluginwmv'] = 'Gebruik .wmv-filter';
 $string['mysql416bypassed'] = 'Als je site echter UITSLUITEND iso-8859-1 (latin) talen gebruikt, dan kun je MySQL 4.1.12 (of hoger) blijven gebruiken.';
@@ -193,6 +202,8 @@ $string['order3'] = 'Derde';
 $string['pathconvert'] = 'Pad van <i>convert</i> binary';
 $string['pathdvips'] = 'Pad van <i>dvips</i> binary';
 $string['pathlatex'] = 'Pad van <i>latex</i> binary';
+$string['pgcluster'] = 'PostgreSQL Cluster';
+$string['pgclusterdescription'] = '<pre>PostgeSQL versie/cluster parameter voor operaties via commandprompt. Als je slechts één PostgreSQL op je systeem hebt of je weet niet wat dit is, laat dit veld dan leeg.</pre>';
 $string['pleaseregister'] = 'Registreer aub je site.  Op die manier kun je deze knop verwijderen.';
 $string['remotelangnotavailable'] = 'Het is niet mogelijk om automatisch taalpakketten te installeren, omdat Moodle geen verbinding kan maken met Moodle.org. Download daarom de nodige zipbestanden uit onderstaande lijst, copieer ze naar je $a map en unzip ze daar.';
 $string['renameerrors'] = 'Fouten in hernoemen';
