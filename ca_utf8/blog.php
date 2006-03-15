@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 development (2006031000)
+      // blog.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['addnewentry'] = 'Afegeix una nova entrada';
 $string['addotags'] = 'Afegeix etiquetes oficials';
 $string['addptags'] = 'Afegeix etiquetes definides per l\'usuari';
 $string['blockmenutitle'] = 'Menú de bloc';
+$string['blogdeleteconfirm'] = 'Suprimiu aquest bloc?';
 $string['blogpreferences'] = 'Preferències del bloc';
 $string['blogs'] = 'Blocs';
 $string['entrybody'] = 'Text de l\'entrada';

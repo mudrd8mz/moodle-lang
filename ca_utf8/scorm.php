@@ -1,11 +1,14 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6 development (2005101200)
+      // scorm.php - created with Moodle 1.6 development (2006031000)
 
 
 $string['advanced'] = 'Avançat';
 $string['asset'] = 'Recurs';
+$string['attempt'] = 'intent';
+$string['attempts'] = 'intents';
 $string['attr_error'] = 'Valor incorrecte de l\'atribut ($a->attr) en l\'etiqueta $a->tag';
 $string['autocontinue'] = 'Continuació automàtica';
+$string['averageattempt'] = 'Mitjana d\'intents';
 $string['badmanifest'] = 'El manifest té errors: vg. el registre d\'errors';
 $string['browse'] = 'Explora';
 $string['browsed'] = 'Explorat';
@@ -26,6 +29,7 @@ $string['exit'] = 'Surt del curs SCORM';
 $string['expcoll'] = 'Expandeix/redueix';
 $string['failed'] = 'Fallat';
 $string['firstaccess'] = 'Primer accés';
+$string['firstattempt'] = 'Primer intent';
 $string['found'] = 'S\'ha trobat el manifest';
 $string['frameheight'] = 'Aquesta preferència defineix l\'alçada per defecte del marc del SCO';
 $string['framewidth'] = 'Aquesta preferència defineix l\'amplada per defecte del marc del SCO';
@@ -41,12 +45,14 @@ $string['hidden'] = 'Ocult';
 $string['hidebrowse'] = 'Inhabilita el mode d\'exploració';
 $string['hidenav'] = 'Oculta els botons de navegació';
 $string['hidetoc'] = 'Visualització de l\'estructura del curs (taula)';
+$string['highestattempt'] = 'Intent més alt';
 $string['identifier'] = 'Identificador de pregunta';
 $string['iframe'] = 'Finestra actual';
 $string['iframedisplay'] = 'Obre el paquet en la finestra actual';
 $string['incomplete'] = 'Incomplet';
 $string['interactions'] = 'Interaccions';
 $string['lastaccess'] = 'Darrer accés';
+$string['lastattempt'] = 'Darrer intent';
 $string['location'] = 'Mostra la barra d\'ubicació';
 $string['max'] = 'Puntuació màxima';
 $string['maximumattempts'] = 'Nombre d\'intents';
@@ -62,6 +68,7 @@ $string['next'] = 'Continua';
 $string['no_attributes'] = 'L\'etiqueta $a->tag ha de tenir atributs';
 $string['no_children'] = 'L\'etiqueta $a->tag ha de tenir fills';
 $string['noactivity'] = 'Res per informar';
+$string['nolimit'] = 'Intents il·limitats';
 $string['nomanifest'] = 'No s\'ha trobat el manifest';
 $string['noprerequisites'] = 'No compliu prou prerequisits per accedir a aquest objecte d\'aprenentatge';
 $string['noreports'] = 'Cap informe per visualitzar';
@@ -113,6 +120,7 @@ $string['validationtype'] = 'Aquesta preferència defineix la biblioteca DOMXML 
 $string['value'] = 'Valor';
 $string['versionwarning'] = 'La versió del manifest és anterior a la 1.3, avís en l\'etiqueta $a->tag';
 $string['viewallreports'] = 'Visualitza informes de $a intents';
+$string['whatgrade'] = 'Qualificació dels intents';
 $string['width'] = 'Amplada';
 $string['window'] = 'Finestra';
 

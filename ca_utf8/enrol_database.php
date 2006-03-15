@@ -1,18 +1,34 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.5 unstable development (2004083000)
+      // enrol_database.php - created with Moodle 1.6 development (2006031000)
 
 
-$string['dbhost'] = 'Nom del servidor de la base de dades';
-$string['dbname'] = 'La base de dades que cal utilitzar';
-$string['dbpass'] = 'Contrasenya per accedir al servidor';
-$string['dbtable'] = 'Taula de la base de dades';
-$string['dbtype'] = 'Tipus de servidor de bases de dades';
-$string['dbuser'] = 'Nom d\'usuari per accedir a la base de dades';
+$string['autocreate'] = 'Es poden crear els cursos automàticament si hi ha inscripcions a cursos que encara no existeixen en aquest Moodle.';
+$string['autocreation_settings'] = 'Paràmetres de creació automàtica';
+$string['category'] = 'Categoria per als cursos creats automàticament';
+$string['course_fullname'] = 'Nom del camp on s\'emmagatzema el nom complet del curs.';
+$string['course_id'] = 'Nom del camp on s\'emmagatzema l\'ID del curs. Els valors d\'aquest camp s\'aparellen amb els del camp \"enrol_db_l_coursefield\" de la taula de cursos de Moodle.';
+$string['course_shortname'] = 'Nom del camp on s\'emmagatzema el nom curt del curs.';
+$string['course_table'] = 'Nom de la taula on hi ha les dades del curs (nom curt, nom complet, ID, etc.)';
 $string['description'] = 'Podeu fer servir una base de dades externa (gairebé de qualsevol mena) per controlar les inscripcions. Se suposa que la base de dades externa té un camp que conté un ID de curs i un altre camp amb un ID d\'usuari. Aquests camps es comparen amb els camps que trieu de les taules locals de cursos i d\'usuaris.';
 $string['enrolname'] = 'Base de dades externa';
-$string['localcoursefield'] = 'El nom del camp de la taula local de cursos que s\'utilitzarà per comparar les entrades de la base de dades remota (p. ex. idnumber)';
-$string['localuserfield'] = 'El nom del camp de taula local d\'usuaris que s\'utilitzarà per comparar amb el registre remort (p. ex. idumber)';
-$string['remotecoursefield'] = 'El camp de la base de dades remota en el qual s\'espera trobar l\'ID del curs';
-$string['remoteuserfield'] = 'El camp de la base de dades remota en el qual s\'espera trobar l\'ID de l\'usuari';
+$string['general_options'] = 'Opcions generals';
+$string['host'] = 'Servidor de bases de dades';
+$string['local_coursefield'] = 'Nom del camp de la taula de cursos que s\'utilitzarà per aparellar les entrades amb la base de dades externa (p. ex. idnumber).';
+$string['local_fields_mapping'] = 'Camps de la base de dades (interna) de Moodle';
+$string['name'] = 'La base de dades concreta que cal utilitzar.';
+$string['pass'] = 'Contrasenya per a accedir al servidor.';
+$string['remote_fields_mapping'] = 'Camps de la base de dades (externa) d\'inscripcions';
+$string['server_settings'] = 'Paràmetres del servidor de bases de dades extern';
+$string['student_coursefield'] = 'Nom del camp de la taula d\'inscripcions d\'estudiantat on esperem trobar l\'ID del curs.';
+$string['student_l_userfield'] = 'Nom del camp de la taula interna d\'usuaris que s\'utilitzarà per aparellar l\'usuari amb un registre extern d\'estudiants (p. ex. idnumber).';
+$string['student_r_userfield'] = 'Nom de la taula externa d\'inscripcions d\'estudiantat on esperem trobar l\'ID de l\'usuari.';
+$string['student_table'] = 'Nom de la taula on s\'emmagatzemen les inscripcions d\'estudiantat.';
+$string['teacher_coursefield'] = 'Nom de la taula d\'inscripcions de professorat on esperem trobar l\'ID del curs.';
+$string['teacher_l_userfield'] = 'Nom del camp de la taula interna d\'usuaris que s\'utilitzarà per aparellar l\'usuari amb un registre extern de professors (p. ex. idnumber).';
+$string['teacher_r_userfield'] = 'Nom de la taula externa d\'inscripcions de professorat on esperem trobar l\'ID de l\'usuari.';
+$string['teacher_table'] = 'Nom de la taula on s\'emmagatzemen les inscripcions de professorat.';
+$string['template'] = 'Opcional: els cursos creats automàticament poden copiar els seus paràmetres de configuració d\'un curs model. Introduïu aquí el nom curt d\'aquest curs model.';
+$string['type'] = 'Tipus de servidor de bases de dades.';
+$string['user'] = 'Nom d\'usuari per a accedir al servidor.';
 
 ?>

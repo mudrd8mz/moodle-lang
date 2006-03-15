@@ -127,6 +127,7 @@ $string['confirmation'] = 'Confirmació';
 $string['confirminstall'] = 'Esteu a punt d\'instal·lar el paquet d\'idioma ($a). N\'esteu segur?';
 $string['cronwarning'] = 'La <a href=\"cron.php\">seqüència de manteniment cron.php</a> no s\'ha executat en les darreres 24 hores com a mínim.';
 $string['dbmigrate'] = 'Migració de la base de dades de Moodle';
+$string['dbmigrateconnecerror'] = 'No s\'ha pogut establir la connexió amb la base de dades especificada.';
 $string['dbmigrateencodingerror'] = 'La base de dades especificada té la codificació $a en lloc d\'Unicode/UTF-8, que és la requerida.<br />Si us plau, especifiqueu-ne una altra.';
 $string['dbmigratepostgres'] = 'Sembla que esteu utilitzant PostgreSQL com a servidor de base de dades. Per continuar el procés de migració necessiteu crear manualment una nova base de dades amb codificació \"UNICODE\" (PostgreSQL 7) o \"UTF8\" (PostgreSQL 8), on s\'emmagatzemaran les dades migrades. Introduïu aquí baix els paràmetres de connexió de la nova base de dades:';
 $string['dbmigratewarning'] = 'Abans de començar aquest procediment, cercioreu-vos que teniu una còpia de seguretat de la base de dades de Moodle. Contacteu amb l\'administrador del vostre sistema si no sabeu com es fa. Quan engegueu el procés de migració, aquest lloc restarà en mode de manteniment.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2006022400)
+      // quiz.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['1day'] = 'Un dia';
@@ -54,9 +54,15 @@ $string['back'] = 'Torna a la visualització prèvia de la pregunta';
 $string['backtoquiz'] = 'Torna a l\'edició del qüestionari';
 $string['bestgrade'] = 'Millor nota';
 $string['blackboard'] = 'Blackboard';
+$string['blackboard_6'] = 'Blackboard V6+';
 $string['bothattempts'] = 'Mostra l\'estudiantat amb intents i sense intents';
 $string['calculated'] = 'Calculada';
 $string['calculatedquestion'] = 'Pregunta calculada no permesa en la línia $a. S\'ignorarà aquesta pregunta.';
+$string['cannotcreatepath'] = 'No es pot crear el camí ($a)';
+$string['cannotinsert'] = 'No es pot inserir la pregunta';
+$string['cannotopen'] = 'No es pot obrir el fitxer d\'exportació ($a)';
+$string['cannotread'] = 'No es pot llegir el fitxer d\'importació (o potser el fitxer és buit)';
+$string['cannotwrite'] = 'No es pot escriure el fitxer d\'exportació ($a)';
 $string['caseno'] = 'No distingeixis majúscules i minúscules';
 $string['casesensitive'] = 'Majúscules i minúscules';
 $string['caseyes'] = 'Distingeix majúscules i minúscules';
@@ -73,6 +79,7 @@ $string['checkanswer'] = 'Comprova';
 $string['choice'] = 'Opció';
 $string['choices'] = 'Opcions disponibles';
 $string['choosedatasetproperties'] = 'Tria propietats del conjunt de dades';
+$string['choosefile'] = 'Tria un fitxer';
 $string['close'] = 'Tanca finestra';
 $string['closepreview'] = 'Tanca visualització prèvia';
 $string['closereview'] = 'Tanca revisió';
@@ -158,7 +165,9 @@ $string['existingcategory1'] = 'un literal d\'un conjunt existent de literals qu
 $string['existingcategory2'] = 'un fitxer d\'un conjunt existent de fitxers que també són utilitzats en altres preguntes d\'aquesta categoria';
 $string['existingcategory3'] = 'un enllaç d\'un conjunt existent d\'enllaços que també són utilitzats en altres preguntes d\'aquesta categoria';
 $string['export'] = 'Exporta';
+$string['exporterror'] = 'S\'ha produït un error durant el procés d\'exportació';
 $string['exportfilename'] = 'quiz';
+$string['exportingquestions'] = 'S\'estan exportant les preguntes en un fitxer';
 $string['exportname'] = 'Nom del fitxer';
 $string['exportnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['exportquestions'] = 'Exporta preguntes en un fitxer';
@@ -172,6 +181,8 @@ $string['filloutthreequestions'] = 'Heu d\'emplenar almenys tres preguntes. Les 
 $string['fillouttwochoices'] = 'Heu d\'emplenar almenys dues opcions. Les opcions en blanc no es tindran en compte.';
 $string['finishattempt'] = 'Tramet i acaba';
 $string['forceregeneration'] = 'Força regeneració';
+$string['formatnotfound'] = 'No s\'ha trobat el format d\'importació/exportació $a';
+$string['formatnotimplemented'] = 'Aquest format no està correctament implementat. Si us plau, enviu informació d\'aquest error.';
 $string['fractionsaddwrong'] = 'Les notes que heu donat no sumen 100%% (sumen $a%%).
 <br />Voleu tornar enrere i corregir aquesta pregunta?';
 $string['fractionsnomax'] = 'Una de les respostes ha de valer 100%%, de manera que sigui
@@ -198,6 +209,10 @@ $string['illegalformulasyntax'] = 'Sintaxi il·legal en la fòrmula començant '
 $string['imagedisplay'] = 'Imatge que es visualitzarà';
 $string['imagemissing'] = 'La imatge de la línia $a no està disponible. S\'ha ignorat el nom del fitxer.';
 $string['import'] = 'Importa';
+$string['importerror'] = 'S\'ha produït un error durant el procés d\'importació';
+$string['importfilearea'] = 'Importació d\'un fitxer que ja és a l\'àrea de fitxers del curs...';
+$string['importfileupload'] = 'Importació d\'un fitxer del vostre ordinador...';
+$string['importingquestions'] = 'S\'estan important $a preguntes del fitxer';
 $string['importmax10error'] = 'Hi ha un error en aquesta pregunta. No podeu tenir més de 10 respostes.';
 $string['importmaxerror'] = 'Hi ha un error en aquesta pregunta. Teniu massa respostes.';
 $string['importminerror'] = 'Hi ha un error en aquesta pregunta. No teniu prou respostes per al tipus de pregunta. ';
@@ -258,6 +273,7 @@ $string['newlocal3'] = 'un enllaç d\'un nou conjunt d\'enllaços que només s\'
 $string['noanswers'] = 'No s\'ha seleccionat cap resposta';
 $string['noattempts'] = 'Aquest qüestionari no ha estat contestat';
 $string['noattemptstoshow'] = 'No hi ha intents per mostrar';
+$string['nocategory'] = 'No heu especificat una categoria o la categoria és incorrecta';
 $string['noconnection'] = 'En aquest moment no hi ha connexió amb un servei web que pugui processar aquesta pregunta. Contacteu si us plau amb l\'administrador';
 $string['nodataset'] = 'res: no és un comodí';
 $string['nominal'] = 'Nominal';
@@ -267,6 +283,7 @@ $string['nopossibledatasets'] = 'No hi ha conjunts de dades possibles';
 $string['noquestionintext'] = 'El text de la pregunta no conté cap pregunta a dins.';
 $string['noquestions'] = 'Encara no s\'han afegit preguntes';
 $string['noquestionsfound'] = 'No s\'han trobat preguntes';
+$string['noquestionsinfile'] = 'No hi ha preguntes en el fitxer';
 $string['noresponse'] = 'Sense resposta';
 $string['noreview'] = 'No teniu permís per revisar aquest qüestionari';
 $string['noreviewuntil'] = 'No teniu permís per revisar aquest qüestionari fins el $a';
@@ -279,6 +296,8 @@ Voleu tornar enrere i arreglar aquesta pregunta?';
 $string['notimedependentitems'] = 'A hores d\'ara els elements dependents del temps no funcionen amb el mòdul de qüestionaris. Provisionalment podeu definir un temps límit per a tot el qüestionari. Voleu triar un altre ítem diferent o malgrat tot preferiu utilitzar aquest?';
 $string['numberabbr'] = 'n. ';
 $string['numerical'] = 'Numèrica';
+$string['onlyteachersexport'] = 'Només el professorat pot exportar preguntes';
+$string['onlyteachersimport'] = 'Només el professorat amb permís d\'edició pot importar preguntes';
 $string['optional'] = 'opcional';
 $string['outof'] = 'd\'un màxim de';
 $string['overdue'] = 'Venciment';

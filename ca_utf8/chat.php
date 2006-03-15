@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.5 unstable development (2004083000)
+      // chat.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['beep'] = 'bip';
@@ -41,6 +41,7 @@ $string['neverdeletemessages'] = 'No suprimeixis mai els missatges';
 $string['nextsession'] = 'Pròxima sessió programada';
 $string['noguests'] = 'El xat no està obert a visitants';
 $string['nomessages'] = 'No hi ha missatges encara';
+$string['noscheduledsession'] = 'No hi ha cap sessió programada';
 $string['repeatdaily'] = 'A la mateixa hora cada dia';
 $string['repeatnone'] = 'No es repeteix - publica només la data i hora especificades';
 $string['repeattimes'] = 'Repeteix sessions';
