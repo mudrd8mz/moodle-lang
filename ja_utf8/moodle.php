@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006031000)
+      // moodle.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['action'] = '操作';
@@ -298,7 +298,7 @@ $string['day'] = '日';
 $string['days'] = '日';
 $string['decodinginternallinks'] = '内部リンクのデコード';
 $string['default'] = 'デフォルト';
-$string['defaultcoursefullname'] = 'コース名称 101';
+$string['defaultcoursefullname'] = 'コースフルネーム 101';
 $string['defaultcourseshortname'] = 'CF101';
 $string['defaultcoursestudent'] = '学生';
 $string['defaultcoursestudents'] = '学生';
