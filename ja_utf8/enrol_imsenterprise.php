@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6 development (2006031000)
+      // enrol_imsenterprise.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['allowunenrol'] = 'IMSデータに学生/教師の<strong>登録解除</strong> を許可する';
@@ -20,6 +20,7 @@ $string['mailadmins'] = '管理者にメール通知する';
 $string['mailusers'] = 'ユーザにメール通知する';
 $string['miscsettings'] = 'その他';
 $string['processphoto'] = 'ユーザフォトデータをプロフィールに追加する';
+$string['restricttarget'] = '次のターゲットが指定されている場合のみ処理する';
 $string['sourcedidfallback'] = '「userid」が見つからない場合、ユーザIDに「sourcedid」を使用する';
 $string['truncatecoursecodes'] = 'この長さにコースコードを切り詰める';
 $string['usersettings'] = 'ユーザデータオプション';
