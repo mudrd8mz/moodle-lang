@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 development (2006031000)
+      // install.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['admindirerror'] = 'Belirtilen yönetici dizini hatalı';
@@ -103,7 +103,7 @@ Ancak, bu dizine direkt olarak webden erişim olMAMAlı.';
 $string['dirroot'] = 'Moodle Dizini';
 $string['dirrooterror'] = '\'Moodle Dizini\' ayarları hatalı görünüyor - Burada bir Moodle kurulumu bulunamadı. Aşağıdaki değer sıfırlandı.';
 $string['download'] = 'İndir';
-$string['downloadlanguagebutton'] = 'Dil paketini \"$a\" indir';
+$string['downloadlanguagebutton'] = 'Dil paketini $a indir';
 $string['downloadlanguagehead'] = 'Dil paketi indir';
 $string['downloadlanguagenotneeded'] = 'Varsayılan dil paketini \"$a\" kullanarak kurulum işlemine devam edebilirsiniz.';
 $string['downloadlanguagesub'] = 'Şu anda bir dil paketi indirme ve bu dilde kuruluma devam etme seçeneğiniz var.<br /><br />Dil paketini indiremezseniz kurulum işlemi İngilizce ile devam edecektir. (Kurulum işlemi bittiğinde ek dil paketlerini indirme ve kurma fırsatınız vardır.)';

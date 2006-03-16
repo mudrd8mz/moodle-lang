@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6 development (2005101200)
+      // assignment.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['allowresubmit'] = 'Tekrar göndermeye izin ver';
@@ -38,6 +38,7 @@ $string['failedupdatefeedback'] = 'Bu kullanıcının gönderdiği geribildirim 
 $string['feedback'] = 'Geribildirim';
 $string['feedbackfromteacher'] = '$a \'den geribildirim';
 $string['feedbackupdated'] = 'Bu kullanıcının gönderdiği geribildirim güncellenmiştir $a kişi';
+$string['graded'] = 'Notlandırıldı';
 $string['guestnosubmit'] = 'Üzgünüz, konukların ödev göndermesine izin verilmemektedir';
 $string['guestnoupload'] = 'Üzgünüz, konukların dosya göndermesine izin verilmemektedir';
 $string['helpoffline'] = '<p>Bu ödev türü site dışı bir ödev verdiğinizde kullanışlıdır.</p>
@@ -68,6 +69,7 @@ $string['submission'] = 'Gönderi';
 $string['submissionfeedback'] = 'Geribildirim Gönderimi';
 $string['submissions'] = 'Gönderiler';
 $string['submissionsaved'] = 'Değişiklikler kaydedildi';
+$string['submissionsnotgraded'] = '$a gönderisi notlandırılmadı';
 $string['submitassignment'] = 'Bu formu kullanarak ödevinizi gönderiniz';
 $string['submitted'] = 'Gönderilmiş';
 $string['typeoffline'] = 'Çevrimdışı Etkinlikler';
