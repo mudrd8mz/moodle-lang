@@ -3,37 +3,37 @@
 $string['enrolname'] = 'Fichier IMS Enterprise';
 
 // Subheadings which divide up the config page
-$string['basicsettings'] = 'Réglages de base';
+$string['basicsettings'] = 'RÃ©glages de base';
 $string['usersettings'] = 'Options utilisateurs';
 $string['coursesettings'] = 'Options cours';
 $string['miscsettings'] = 'Divers';
 
 // Labels in the config page
-$string['description'] = 'Cette méthode vérifiera régulièrement si un fichier texte de format particulier existe à un emplacement déterminé et le traitera. Ce fichier doit être conforme aux <a href=\'../help.php?module=enrol/imsenterprise&file=formatoverview.html\' target=\'_blank\'>spécifications IMS Enterprise</a>, et contenir des éléments XML person, group et membership.';
-$string['createnewusers'] = 'Créer des comptes utilisateur pour les utilisateurs pas encore enregistrés dans Moodle';
-$string['deleteusers'] = 'Supprimer les comptes utilisateurs comme spécifié dans les données IMS';
+$string['description'] = 'Cette mÃ©thode vÃ©rifiera rÃ©guliÃ¨rement si un fichier texte de format particulier existe Ã  un emplacement dÃ©terminÃ© et le traitera. Ce fichier doit Ãªtre conforme aux <a href=\'../help.php?module=enrol/imsenterprise&file=formatoverview.html\' target=\'_blank\'>spÃ©cifications IMS Enterprise</a>, et contenir des Ã©lÃ©ments XML person, group et membership.';
+$string['createnewusers'] = 'CrÃ©er des comptes utilisateur pour les utilisateurs pas encore enregistrÃ©s dans Moodle';
+$string['deleteusers'] = 'Supprimer les comptes utilisateurs comme spÃ©cifiÃ© dans les donnÃ©es IMS';
 $string['fixcaseusernames'] = 'Mettre les noms d\'utilisateur en minuscules';
-$string['fixcasepersonalnames'] = 'Mettre en majuscules les initiales des noms réels';
-$string['truncatecoursecodes'] = 'Tronquer les codes de cours à cette longueur';
-$string['createnewcourses'] = 'Créer de nouveaux cours (cachés) si inexistants dans Moodle';
-$string['createnewcategories'] = 'Créer de nouvelles catégories de cours (cachées) si inexistantes dans Moodle';
+$string['fixcasepersonalnames'] = 'Mettre en majuscules les initiales des noms rÃ©els';
+$string['truncatecoursecodes'] = 'Tronquer les codes de cours Ã  cette longueur';
+$string['createnewcourses'] = 'CrÃ©er de nouveaux cours (cachÃ©s) si inexistants dans Moodle';
+$string['createnewcategories'] = 'CrÃ©er de nouvelles catÃ©gories de cours (cachÃ©es) si inexistantes dans Moodle';
 $string['zeroisnotruncation'] = '0 indique pas de troncature';
-$string['cronfrequency'] = 'Fréquence de traitement';
-$string['allowunenrol'] = 'Permettre aux données IMS de <strong>désinscrire</strong> les participants';
-$string['sourcedidfallback'] = 'Utiliser le «&nbsp;sourcedid&nbsp;» comme identifiant pour les personnes dont le champ «&nbsp;userid&nbsp;» est introuvable';
-$string['usecapitafix']= 'Cocher cette case lors de l\'utilisation de «&nbsp;Capita&nbsp;» (leur format XML n\'est pas tout à fait correct)';
+$string['cronfrequency'] = 'FrÃ©quence de traitement';
+$string['allowunenrol'] = 'Permettre aux donnÃ©es IMS de <strong>dÃ©sinscrire</strong> les participants';
+$string['sourcedidfallback'] = 'Utiliser le Â«&nbsp;sourcedid&nbsp;Â» comme identifiant pour les personnes dont le champ Â«&nbsp;userid&nbsp;Â» est introuvable';
+$string['usecapitafix']= 'Cocher cette case lors de l\'utilisation de Â«&nbsp;Capita&nbsp;Â» (leur format XML n\'est pas tout Ã  fait correct)';
 $string['location'] = 'Emplacement du fichier';
 $string['mailusers'] = 'Informer les utilisateurs par courriel';
 $string['mailadmins'] = 'Informer l\'administrateur par courriel';
-$string['processphoto'] = 'Ajouter la photo de l\'utilisateur à son profil';
-$string['processphotowarning'] = 'Attention&nbsp;! Le traitement des images est susceptible de charger le seveur de façon significative. Nous vous recommandons de n\'activer pas cette option si un grand nombre d\'étudiants doit être traité.';
+$string['processphoto'] = 'Ajouter la photo de l\'utilisateur Ã  son profil';
+$string['processphotowarning'] = 'Attention&nbsp;! Le traitement des images est susceptible de charger le seveur de faÃ§on significative. Nous vous recommandons de n\'activer pas cette option si un grand nombre d\'Ã©tudiants doit Ãªtre traitÃ©.';
 $string['logtolocation'] = 'Emplacement de l\'historique d\'importation (vide pour ne pas avoir d\'historique)';
-$string['restricttarget'] = 'Ne traiter les données que si la cible suivante est spécifiée';
+$string['restricttarget'] = 'Ne traiter les donnÃ©es que si la cible suivante est spÃ©cifiÃ©e';
 
-$string['aftersaving...']= 'Une fois ces réglages enregistrés, vous voudrez peut-être';
-$string['doitnow']= 'effectuer immédiatement une importation IMS Enterprise';
+$string['aftersaving...']= 'Une fois ces rÃ©glages enregistrÃ©s, vous voudrez peut-Ãªtre';
+$string['doitnow']= 'effectuer immÃ©diatement une importation IMS Enterprise';
 
 $string['filelockedmailsubject'] = 'Erreur important&nbsp;: fichier d\'inscription';
-$string['filelockedmail'] = 'Le fichier texte utilisé pour les inscriptions basées sur un fichier IMS ($a) ne peut pas être supprimé par le script cron. Cela signifie habituellement que les droits sont mal réglés. Veuillez corriger les droits de telle sorte que Moodle puisse effacer le fichier, sans quoi il sera traité de façon répétitive.';
+$string['filelockedmail'] = 'Le fichier texte utilisÃ© pour les inscriptions basÃ©es sur un fichier IMS ($a) ne peut pas Ãªtre supprimÃ© par le script cron. Cela signifie habituellement que les droits sont mal rÃ©glÃ©s. Veuillez corriger les droits de telle sorte que Moodle puisse effacer le fichier, sans quoi il sera traitÃ© de faÃ§on rÃ©pÃ©titive.';
 
 ?>

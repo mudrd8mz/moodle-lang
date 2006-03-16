@@ -14,11 +14,11 @@ $string['text/rtf'] = 'document RTF';
 $string['application/vnd.ms-excel'] = 'feuille de calcul Excel';
 $string['audio/wav'] = 'fichier audio';
 $string['audio/mp3'] = 'fichier audio MP3';
-$string['application/vnd.ms-powerpoint'] = 'présentation Powerpoint';
+$string['application/vnd.ms-powerpoint'] = 'prÃ©sentation Powerpoint';
 $string['application/zip'] = 'archive ZIP';
 $string['image/jpeg'] = 'image JPEG';
 $string['image/gif'] = 'image GIF';
-$string['image/bmp'] = 'image BMP non compressée';
+$string['image/bmp'] = 'image BMP non compressÃ©e';
 
 // Moodle default MIME type used for all types not described 
 $string['document/unknown'] = 'fichier'; 
