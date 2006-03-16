@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.6 development (2006030900)
+      // lesson.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -257,7 +257,7 @@ $string['updatesuccess'] = '正常に更新されました。';
 $string['useeditor'] = 'エディタを使用';
 $string['usemaximum'] = '最大評点を使用';
 $string['usemean'] = '平均評点を使用';
-$string['usepassword'] = 'パスワードで保護';
+$string['usepassword'] = 'レッスンをパスワードで保護する';
 $string['viewallpages'] = 'すべてのページを表示';
 $string['viewgrades'] = '評点を表示';
 $string['viewhighscores'] = 'ハイスコア一覧を表示';
