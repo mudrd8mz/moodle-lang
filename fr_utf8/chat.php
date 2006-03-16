@@ -39,6 +39,7 @@ $string['neverdeletemessages'] = 'Ne pas effacer les messages';
 $string['nextsession'] = 'Prochaine session agendée';
 $string['noguests'] = 'Ce salon n\'est pas ouvert aux invités';
 $string['nomessages'] = 'Pas encore de messages';
+$string['noscheduledsession'] = 'Aucune session agendée';
 $string['repeatdaily'] = 'Chaque jour à la même heure';
 $string['repeatnone'] = 'Pas de répétition - ne publier que la date spécifiée';
 $string['repeattimes'] = 'Répéter les sessions';
