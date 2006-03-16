@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6 development (2005101200)
+      // assignment.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['allowresubmit'] = 'Permet tornar a trametre';
@@ -37,6 +37,7 @@ $string['failedupdatefeedback'] = 'Ha fallat l\'actualització de la retroacció
 $string['feedback'] = 'Retroacció';
 $string['feedbackfromteacher'] = 'Retroacció del $a';
 $string['feedbackupdated'] = 'S\'ha actualitzat la retroacció en les tasques de $a persones';
+$string['graded'] = 'Qualificada';
 $string['guestnosubmit'] = 'Els visitants no poden trametre una tasca. Abans de trametre una tasca heu d\'entrar o us heu de registrar.';
 $string['guestnoupload'] = 'Els usuaris visitants no poden penjar fitxers.';
 $string['helpoffline'] = '<p>Útil quan la tasca es realitza fora de Moodle. Pot ser una cosa que es faci en un altra pàgina web o presencialment.</p><p>Els estudiants podran veure aquí la descripció de la tasca, però no podran penjar-hi fitxers ni res. La qualificació funciona de la manera normal i els estudiants reben l\'avís de les seves notes.</p>';
@@ -61,6 +62,7 @@ $string['submission'] = 'Tramesa';
 $string['submissionfeedback'] = 'Retroacció per a la tramesa';
 $string['submissions'] = 'Trameses';
 $string['submissionsaved'] = 'S\'han desat els canvis';
+$string['submissionsnotgraded'] = '$a trameses no qualificades';
 $string['submitassignment'] = 'Trameteu la vostra tasca per mitjà d\'aquest formulari';
 $string['submitted'] = 'S\'ha tramès';
 $string['typeoffline'] = 'Activitat fora de línia';

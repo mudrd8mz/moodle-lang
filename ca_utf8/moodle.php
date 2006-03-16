@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006031000)
+      // moodle.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['action'] = 'Acció';
@@ -552,7 +552,7 @@ $string['gd1'] = 'GD 1.x instal·lada';
 $string['gd2'] = 'GD 2.x instal·lada';
 $string['gdneed'] = 'GD ha d\'estar instal·lada per veure aquesta imatge';
 $string['gdnot'] = 'GD no està instal·lada';
-$string['go'] = 'Vés';
+$string['go'] = 'Endavant';
 $string['gpl'] = 'Copyright (C) 2001-2002  Martin Dougiamas  (http://dougiamas.com)
 This program is free software; you can redistribute it and/or modify
 
@@ -721,7 +721,7 @@ $string['logout'] = 'Sortida';
 $string['logs'] = 'Registres';
 $string['logtoomanycourses'] = '[ <a href=\"$a->url\">més</a> ]';
 $string['logtoomanyusers'] = '[ <a href=\"$a->url\">més</a> ]';
-$string['lookback'] = 'Enrere';
+$string['lookback'] = 'Període';
 $string['mailadmins'] = 'Informa administradors';
 $string['mailstudents'] = 'Informa estudiantat';
 $string['mailteachers'] = 'Informa professorat';
@@ -975,8 +975,8 @@ $string['policyagree'] = 'Heu d\'acceptar la normativa abans d\'entrar en aquest
 $string['policyagreement'] = 'Normativa d\'ús del lloc';
 $string['policyagreementclick'] = 'Feu clic aquí per llegir la normativa d\'ús del lloc';
 $string['popupwindow'] = 'Obre el fitxer en una altra finestra';
-$string['post'] = 'Missatge';
-$string['posts'] = 'Missatges';
+$string['post'] = 'Enviament';
+$string['posts'] = 'Enviaments';
 $string['potentialadmins'] = 'Administradors en potència';
 $string['potentialcreators'] = 'Creadors de cursos en potència';
 $string['potentialstudents'] = 'Estudiants en potència';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.6 development (2006022400)
+      // lesson.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['accesscontrol'] = 'Control d\'accés';
@@ -58,6 +58,7 @@ $string['customscoring'] = 'Puntuació personalitzada';
 $string['deadline'] = 'Data límit';
 $string['defaultessayresponse'] = 'El vostre treball ha estat qualificat pel professor del curs.';
 $string['deleteattempts'] = 'Suprimeix els intents de l\'estudiant per a aquesta lliçó (id d\'usuari)';
+$string['deletedefaults'] = 'S\'han suprimit $a registres de valors per defecte de les lliçons';
 $string['deletedpage'] = 'S\'ha suprimit la pàgina';
 $string['deleting'] = 'S\'està suprimint';
 $string['deletingpage'] = 'S\'està suprimint la pàgina: $a';

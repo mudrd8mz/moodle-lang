@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 development (2006022400)
+      // glossary.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['addcomment'] = 'Afegeix un comentari';
@@ -101,7 +101,7 @@ $string['exportglossary'] = 'Glossari exportat';
 $string['exporttomainglossary'] = 'Exporta al glossari principal';
 $string['filetoimport'] = 'Fitxer per importar';
 $string['fillfields'] = 'El concepte i la definició són camps obligatoris.';
-$string['filtername'] = 'Enllaços automàtics al glossari';
+$string['filtername'] = 'Enllaços automàtics a glossaris';
 $string['fullmatch'] = 'Enllaça només paraules completes';
 $string['globalglossary'] = 'Glossari global';
 $string['glossaryleveldefaultsettings'] = 'Paràmetres per defecte al nivell de glossari';

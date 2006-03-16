@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2006031000)
+      // error.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['adminprimarynoedit'] = 'L\'administrador primari no pot ser editat per altres usuaris';
@@ -40,6 +40,7 @@ $string['modulerequirementsnotmet'] = 'El mòdul \"$a->modulename\" ($a->modulev
 $string['mustbeteacher'] = 'Cal ser professor/a per veure aquesta pàgina';
 $string['noinstances'] = 'No hi ha instància de $a en aquest curs.';
 $string['nonmeaningfulcontent'] = 'Contingut no significatiu';
+$string['noparticipatorycms'] = 'No teniu mòduls participatius dels qual es pugui informar.';
 $string['notavailable'] = 'Això no està disponible actualment';
 $string['onlyadmins'] = 'Això només poden fer-ho els administradors';
 $string['onlyeditingteachers'] = 'Això només pot fer-ho el professorat que tingui permisos d\'edició';
@@ -59,6 +60,6 @@ $string['usernotrenamedexists'] = 'No s\'ha canviat el nom de l\'usuari. El nom 
 $string['usernotrenamedmissing'] = 'No s\'ha canviat el nom de l\'usuari. No s\'ha pogut trobar el nom vell.';
 $string['wrongdestpath'] = 'El camí de destinació és erroni';
 $string['wrongsourcebase'] = 'L\'adreça (URL) base de la font és errònia';
-$string['wrongzipfilename'] = 'El nom del fitxer zip és erroni';
+$string['wrongzipfilename'] = 'El nom del fitxer ZIP és erroni';
 
 ?>
