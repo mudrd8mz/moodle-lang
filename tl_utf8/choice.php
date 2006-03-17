@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.5 ALPHA (2005043000)
+      // choice.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['addmorechoices'] = 'Magdagdag ng mas maraming pagpipilian';
 $string['allowupdate'] = 'Pahintulutan ang pinilì na mabago';
 $string['answered'] = 'Nasagutan na';
-$string['choice'] = 'Pinilì $a';
+$string['choice'] = 'Pinilì';
 $string['choiceclose'] = 'Hanggang';
 $string['choicename'] = 'Pangalan ng pinilì';
 $string['choiceopen'] = 'Buksan';
@@ -24,7 +24,7 @@ $string['notanswered'] = 'Hindi pa nasasagutan';
 $string['notopenyet'] = 'Paumanhin, hindi pa magagamit ang aktibidad na ito hanggang $a';
 $string['privacy'] = 'Pagiging lihim ng mga resulta';
 $string['publish'] = 'Ilathala ang mga resulta';
-$string['publishafteranswer'] = 'Ipakita ang resulta sa mag-aaral pagkatapos nilang sumagot';
+$string['publishafteranswer'] = 'Ipakita ang resulta sa mag-aaral pagkatapos niyang sumagot';
 $string['publishafterclose'] = 'Ipakita ang resulta sa mag-aaral pagkatapos lamang na maisara ang pagpilì';
 $string['publishalways'] = 'Palaging ipakita ang resulta sa mag-aaral';
 $string['publishanonymous'] = 'Ilathala ang mga anonymous na resulta, huwag ipakita ang pangalan ng mga mag-aaral';
@@ -37,8 +37,8 @@ $string['showunanswered'] = 'Ipakita ang tudlíng para sa dinasagutan';
 $string['spaceleft'] = 'espasyong magagamit';
 $string['spacesleft'] = 'mga espasyong magagamit';
 $string['taken'] = 'Kinuha na';
-$string['timerestrict'] = 'Limitahan ang pagsagot sa takdang oras na ito';
-$string['viewallresponses'] = 'Tingnan ang mga $a na tugon';
+$string['timerestrict'] = 'Limitahan ang pagsagot hanggang sa takdang oras na ito';
+$string['viewallresponses'] = 'Tingnan ang $a tugon';
 $string['yourselection'] = 'Ang pinilì mo';
 
 ?>

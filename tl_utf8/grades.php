@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6 development (2005060201)
+      // grades.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['addcategory'] = 'Magdagdag ng Kategoriya';
@@ -21,7 +21,7 @@ $string['displaypoints'] = 'Ipakita ang mga Puntos';
 $string['displayweighted'] = 'Ipakita ang mga May-timbang na Marka';
 $string['dropped'] = 'Inalis';
 $string['dropxlowest'] = 'Alisin ang X na Pinakamababa';
-$string['dropxlowestwarning'] = 'Tandaan: Kapag ginamit mo ang alisin ang x na pinakamababa, inaakala ng pagmamarka na ang lahat ng aytem sa kategoriya ay may pare-parehong halaga ng puntos.  Kung magkakaiba ang mga halaga ng puntos, magiging unpredictable ang mga resulta';
+$string['dropxlowestwarning'] = 'Tandaan: Kapag ginamit mo ang alisin ang x na pinakamababa, inaakala ng pagmamarka na ang lahat ng aytem sa kategoriya ay may pare-parehong halaga ng puntos.  Kung magkakaiba ang mga halaga ng puntos,  hindi matitiyak na wasto ang magiging resulta.';
 $string['errorgradevaluenonnumeric'] = 'Nakatanggap ng di-bilang para sa mababa o mataas na marka para sa';
 $string['errornocategorizedid'] = 'Hindi makakuha ng walang kategoriyang id!';
 $string['errornocourse'] = 'Hindi makakuha ng impormasyon ng kurso';
@@ -45,13 +45,13 @@ $string['gradeitemremovemembers'] = 'Isama sa Pagkuwenta';
 $string['gradeitems'] = 'Mga Aytem ng Marka';
 $string['gradeletter'] = 'Titik na Marka';
 $string['gradeletterhelp'] = 'Tulong sa Titik na Marka';
-$string['gradeletternote'] = 'Para mabura ang titik na marka, blangkuhin lamang <br />ang alinman sa tatlong text area para sa titik na iyon <br />at iklik ang \"isave ang mga pagbabago\".';
+$string['gradeletternote'] = 'Para mabura ang titik na marka, blangkuhin lamang <br />ang alinman sa tatlong text area para sa titik na iyon <br />at iklik ang \"ipasa\".';
 $string['gradepreferenceshelp'] = 'Tulong sa Mas-ibig para sa Marka';
 $string['grades'] = 'Mga Marka';
 $string['gradeweighthelp'] = 'Tulong sa May-timbang na Marka';
 $string['hideadvanced'] = 'Itago ang mga Abanteng Katangian';
 $string['hidecategory'] = 'Nakatagò';
-$string['highgradeascending'] = 'Pagsunud-sunurin ayon sa pinakamataas na marka pataas';
+$string['highgradeascending'] = 'Pagsunud-sunurin nang pataas sa pinakamataas na marka';
 $string['highgradedescending'] = 'Pagsunud-sunurin ayon sa pinakamataas na marka pababa';
 $string['highgradeletter'] = 'Mataas';
 $string['incorrectcourseid'] = 'Malî ang ID ng Kurso';
@@ -73,7 +73,6 @@ $string['nocategoryview'] = 'Walang kategoriya na tatanawin ayon sa ';
 $string['nogradeletters'] = 'Walang itinakdang titik ng marka';
 $string['nogradesreturned'] = 'Walang ibinalik na marka';
 $string['nolettergrade'] = 'Walang titik na marka para sa ';
-$string['nomode'] = 'NA';
 $string['nonnumericweight'] = 'Nakatanggap ng di-bilang na halaga para sa ';
 $string['nonweightedpct'] = 'walang-timbang %%';
 $string['notteachererror'] = 'Dapat ay guro ka para magamit ang katangiang ito.';
@@ -81,7 +80,6 @@ $string['pctoftotalgrade'] = '%% ng kabuuang marka';
 $string['percent'] = 'Bahagdan';
 $string['percentascending'] = 'Pagsunud-sunurin ayon sa bahagdan pataas';
 $string['percentdescending'] = 'Pagsunudsunurin ayon sa bahagdan pababa';
-$string['percentshort'] = '%%';
 $string['points'] = 'mga puntos';
 $string['pointsascending'] = 'Pagsunud-sunurin ayon sa mga puntos pataas';
 $string['pointsdescending'] = 'Pagsunud-sunurin ayon sa mga puntos pababa';
@@ -103,7 +101,6 @@ $string['showhiddenitems'] = 'Ipakita ang mga Nakatagong Aytem';
 $string['sort'] = 'pagsunud-sunurin';
 $string['sortbyfirstname'] = 'Pagsunud-sunurin ayon sa unang pangalan';
 $string['sortbylastname'] = 'Pagsunud-sunurin ayon sa apelyido';
-$string['standarddeviation'] = 'Standard Deviation';
 $string['stats'] = 'Estadistika';
 $string['statslink'] = 'Mga Istat';
 $string['student'] = 'Mag-aaral';

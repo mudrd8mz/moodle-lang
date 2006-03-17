@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.5 ALPHA (2005051500)
+      // enrol_ldap.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['description'] = '<p>Maaari kang gumamit ng LDAP server para makontrol ang pagpapaenrol mo.
@@ -31,7 +31,7 @@ $string['enrol_ldap_bind_dn'] = 'Kung gusto mong gumamit ng bind-user upang magh
 $string['enrol_ldap_bind_pw'] = 'Password para sa bind-user.';
 $string['enrol_ldap_category'] = 'Ang kategoriya para sa mga kursong nilikha nang awtomatiko.';
 $string['enrol_ldap_course_fullname'] = 'Opsiyonal: LDAP field na pagkukunan ng buong pangalan.';
-$string['enrol_ldap_course_idnumber'] = 'Imapa sa natatanging indentifier sa LDAP, karaniwan ay 
+$string['enrol_ldap_course_idnumber'] = 'Imapa sa natatanging identifier sa LDAP, karaniwan ay 
                                          <em>cn</em> o <em>uid</em>. Iminumungkahi na 
                                          ikandado ang halaga kung gumagamit ka 
                                          ng awtomatikong paglikha ng kurso.';

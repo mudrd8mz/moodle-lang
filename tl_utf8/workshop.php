@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.6 development (2005060201)
+      // workshop.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['absent'] = 'Walâ';
@@ -37,10 +37,10 @@ $string['assessmentsareok'] = 'OK ang mga Pagtatasa';
 $string['assessmentsby'] = 'Mga Pagtatasa ng $a';
 $string['assessmentsdone'] = 'Tapos nang Pagtatasa';
 $string['assessmentsexcluded'] = 'Bilang ng Pagtatasang hindi isinama sa $a na ito';
-$string['assessmentsmustbeagreed'] = 'Kailangang sang-ayunan ang mga pagtatasa';
+$string['assessmentsmustbeagreed'] = 'Kailangang pagkasunduan ang mga pagtatasa';
 $string['assessmentstart'] = 'Umpisa ng pagtatasa';
 $string['assessmentstartevent'] = 'Umpisa ng pagtatasa para sa $a';
-$string['assessmentwasagreedon'] = 'Sinang-ayunan ang Pagtatasa noong $a';
+$string['assessmentwasagreedon'] = 'Pinagkasunduan ang Pagtatasa noong $a';
 $string['assessor'] = 'Tagatasa';
 $string['assessthisassessment'] = 'Markahan ang pagtatasang ito';
 $string['assessthissubmission'] = 'Tasahin ang ipinasang ito';
@@ -67,7 +67,6 @@ $string['count'] = 'Bilang';
 $string['criterion'] = 'Pamantayan';
 $string['currentphase'] = 'Kasalukuyang hakbang';
 $string['date'] = 'Petsa';
-$string['datestr'] = '%%d/%%m/%%y<br />%%H:%%M';
 $string['deadline'] = 'Huling-araw ng pasahan';
 $string['deadlineis'] = 'Ang Huling-araw ng pasahan ay $a';
 $string['delete'] = 'Burahin';
@@ -86,7 +85,6 @@ $string['editsubmission'] = 'Iedit ang Ipinasa';
 $string['element'] = 'Elemento';
 $string['elementweight'] = 'Elementong Timbang';
 $string['enterpassword'] = 'Ipasok ang Password';
-$string['errorbanded'] = 'Error Banded';
 $string['errortable'] = 'Manghad ng Error';
 $string['examplesubmissions'] = 'Mga Halimbawang Ipinasa';
 $string['excellent'] = 'Napakagaling';
@@ -143,9 +141,6 @@ $string['mail9'] = 'Pakitasa ito sa takdang-araling pangworkshop \'$a\'.';
 $string['managingassignment'] = 'Pamamahala ng Workshop';
 $string['maximum'] = 'Maksimum';
 $string['maximumsize'] = 'Maksimum na Laki';
-$string['mean'] = 'Mean';
-$string['minimum'] = 'Minimum';
-$string['modulename'] = 'Workshop';
 $string['modulenameplural'] = 'Mga Workshop';
 $string['movingtophase'] = 'Papunta na sa Hakbang $a';
 $string['namesnotshowntostudents'] = 'Mga pangalang di-ipinapakita sa $a';
@@ -167,7 +162,7 @@ kailangan mo munang pagsamahin ang mga Elementong ito <br />
 bago ibigay ang takdang-aralin sa mga mag-aaral.  Ginagawa ito<br />
 sa pamamagitan ng pagklik sa takdang-aralin sa kurso; kung walang elemento,<br />
 hihilingan kang idagdag ang mga ito.  Maaari mong baguhin ang bilang ng mga elemento<br />
-sa pamamagitan ng screen na Iedit ang Takdang-Aralin, ang mga elemento<br />
+sa pamamagitan ng iskrin na Iedit ang Takdang-Aralin, ang mga elemento<br />
 mismo ay maaaring mabago sa pamamagitan ng screen na \"Pamamahala ng Pagtatasa\". ';
 $string['noteonstudentassessments'] = '{Marka mula Mag-aaral / Marka ng Pagmamarka para sa Pagtatasa}';
 $string['notgraded'] = 'Hindi Minarkahan';
@@ -227,7 +222,6 @@ $string['repeatanalysis'] = 'Ulitin ang Pagsusuri';
 $string['reply'] = 'Tumugon';
 $string['returnto'] = 'Bumalik sa';
 $string['returntosubmissionpage'] = 'Bumalik sa Pahina para sa Pagpapasa';
-$string['rubric'] = 'Rubric';
 $string['savedok'] = 'OK ang Isinave';
 $string['saveleaguetableoptions'] = 'Isave ang mga Opsiyon ng Panligang Manghad';
 $string['savemyassessment'] = 'Isave ang aking Pagtatasa';
@@ -252,7 +246,6 @@ $string['showdescription'] = 'Ipakita ang Deskripsiyon ng Workshop';
 $string['showgrades'] = 'Ipakita ang mga Marka';
 $string['showsubmission'] = 'Ipakita ang mga Ipinasa: $a';
 $string['specimenassessmentform'] = 'Halimbawang Form ng Pagtatasa';
-$string['standarddeviation'] = 'Standard Deviation';
 $string['standarddeviationnote'] = 'Ang mga elemento na may standard deviation na sero o napakaliit na halaga ay maaaring makasira sa pagsusuri.<br /> Hindi isinama ang Elementong ito sa pagsusuri.';
 $string['standarddeviationofelement'] = 'Standard deviation ng Elemento $a:';
 $string['strict'] = 'Istrikto';
@@ -312,7 +305,7 @@ $string['weightforreliability'] = 'Timbang para sa Reliability';
 $string['weightforteacherassessments'] = 'Timbang para sa mga Pagtatasa ng Gurò';
 $string['weights'] = 'Mga Timbang';
 $string['weightsusedforfinalgrade'] = 'Mga Timbang na ginamit sa Huling Marka';
-$string['weightsusedforsubmissions'] = 'Mga Timbang na ginamis sa mga Ipinasar Submissions';
+$string['weightsusedforsubmissions'] = 'Mga Timbang na ginamit sa mga Ipinasa';
 $string['workshopagreedassessments'] = 'Pinagkasunduang Pagtatasa na Pangworkshop';
 $string['workshopassessments'] = 'Mga Pagtatasa na Pangworkshop';
 $string['workshopcomments'] = 'Mga Opinyon na Pangworkshop';

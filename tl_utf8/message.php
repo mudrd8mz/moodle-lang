@@ -1,16 +1,16 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.5 ALPHA (2005043000)
+      // message.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['addcontact'] = 'Magdagdag ng kontak';
-$string['addsomecontacts'] = 'Para makapagpadala ng mensahe sa isang tao, o upang makapagdagdag ng shorcut para sa kanila sa pahinang ito, gamitina ang <a href=\"$a\">tab na panghanap</a> sa itaas.';
+$string['addsomecontacts'] = 'Para makapagpadala ng mensahe sa isang tao, o upang makapagdagdag ng shorcut para sa kanila sa pahinang ito, gamitin ang <a href=\"$a\">tab na panghanap</a> sa itaas.';
 $string['addsomecontactsincoming'] = 'Ang mga mensaheng ito ay mula sa mga taong wala sa listahan mo ng kontak.  Upang maidagdag ang mga taong ito sa iyong kontak, iklik lamang ang \"Magdagdag ng kontak\"na icon, katabi ng pangalan nila.';
 $string['ago'] = '$ ang lumipas';
 $string['allmine'] = 'Lahat ng mensahe para sa akin o mula sa akin';
 $string['allstudents'] = 'Lahat ng mensahe sa pagitan ng mga mag-aaral sa kurso';
 $string['allusers'] = 'Lahat ng mensahe mula sa lahat ng user';
 $string['backupmessageshelp'] = 'Kapag binuhay, ang mga instant na mensahe ay isasama sa awtomatikong ibinabak-ap sa SITE';
-$string['beepnewmessage'] = 'Magbeep kapag may bagong mensahe na dumating (maaaring mangailangan ng browser plugin na makapagpapatutog ng tunog, tulad ng Quicktime)';
+$string['beepnewmessage'] = 'Magbip kapag may bagong mensahe na dumating (maaaring mangailangan ng browser plugin na makapagpapatutog ng tunog, tulad ng Quicktime)';
 $string['blockcontact'] = 'Hadlangan ang kontak';
 $string['blockedmessages'] = '$a mensahe para sa/mula sa hinadlangang user';
 $string['blocknoncontacts'] = 'Hadlangan ang lahat ng bagong mensahe mula sa mga taong wala sa listahan ko ng kontak';
@@ -23,7 +23,7 @@ $string['emailmessages'] = 'Iemail ang mga mensahe kapag offline ako';
 $string['emailtagline'] = 'Ang email na ito ay kopya ng mensahe na ipinadala sa iyo sa \"$a\"';
 $string['emptysearchstring'] = 'Kailangan mong maghanap ng isang bagay';
 $string['formorethan'] = 'Para sa mahigit sa ';
-$string['includeblockedusers'] = 'Isama ang mga hinadlangan ng user';
+$string['includeblockedusers'] = 'Isama ang mga hinadlangan na user';
 $string['incomingcontacts'] = 'Dumarating na mga kontak ($a)';
 $string['keywords'] = 'Mga susingsalita';
 $string['keywordssearchresults'] = 'Resulta ng paghahanap: $a mensahe ang natagpuan';
@@ -37,9 +37,7 @@ $string['newsearch'] = 'Bagong paghahanap';
 $string['nomessages'] = 'Walang naghihintay na mensahe';
 $string['nomessagesfound'] = 'Walang natagpuang mensahe';
 $string['nosearchresults'] = 'Walang resulta ang paghahanap mo';
-$string['offline'] = 'Offline';
 $string['offlinecontacts'] = 'Mga Offline na Kontak ($a)';
-$string['online'] = 'Online';
 $string['onlinecontacts'] = 'Mga Online na Kontak ($a)';
 $string['onlyfromme'] = 'Tanging mensahe mula sa akin';
 $string['onlymycourses'] = 'Tanging sa mga kurso ko';
@@ -55,8 +53,7 @@ $string['sendmessage'] = 'Ipadala ang mensahe';
 $string['sendmessageto'] = 'Ipadala ang mensahe sa $a';
 $string['settings'] = 'Mga Kaayusan';
 $string['settingssaved'] = 'Naisave na ang mga kaayusan mo';
-$string['showmessagewindow'] = 'Awtomatikong ipakita ang window ng Mensahe kapag nakatanggap ako ng bagong mensahe (kailangang naka-ayos ang browser mo na hindi hinahadlangan ang mga popup sa site na ito)';
-$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
+$string['showmessagewindow'] = 'Awtomatikong ipakita ang bintana ng Mensahe kapag nakatanggap ako ng bagong mensahe (kailangang naka-ayos ang browser mo na hindi hinahadlangan ang mga popup sa site na ito)';
 $string['timenosee'] = 'Ilang minuto noong huling makita akong online';
 $string['timesent'] = 'Kung anong oras ipinadala';
 $string['unblockcontact'] = 'Alisin ang hadlang ng kontak';

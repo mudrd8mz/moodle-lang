@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.6 development (2005060201)
+      // quiz_analysis.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['analysisoptions'] = 'Mga opsiyon ng pagsusuri';
@@ -26,6 +26,5 @@ $string['reportanalysis'] = 'Ulat ng Pagsusuri ng Aytem';
 $string['responsestitle'] = 'Teksto ng Sagot';
 $string['rfractiontitle'] = 'bahagyang<br />marka';
 $string['rpercenttitle'] = 'S.%%';
-$string['stddevtitle'] = 'SD';
 
 ?>

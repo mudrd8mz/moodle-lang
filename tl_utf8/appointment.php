@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // appointment.php - created with Moodle 1.5 ALPHA (2005043000)
+      // appointment.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['allowresubmit'] = 'Pahintulutan ang muling pagpapasa';
@@ -30,7 +30,7 @@ $string['timeend'] = 'Katapusan ng pagtitiyáp';
 $string['timestart'] = 'Simula ng pagtitiyáp';
 $string['typeoffline'] = 'Offline na aktibidad';
 $string['typeuploadsingle'] = 'Mag-aplowd ng isang file lamang';
-$string['uploadbadname'] = 'Naglalaman ang file na ito ng mga dikilalang titik at hindi ito maiaplowd';
+$string['uploadbadname'] = 'Naglalaman ang pangalan ng file na ito ng mga dikilalang titik at hindi ito maiaplowd';
 $string['uploadedfiles'] = 'mga inaplowd na file';
 $string['uploaderror'] = 'May error na naganap habang isinisave ang file sa server';
 $string['uploadfailnoupdate'] = 'OK ang pagkaka-aplowd ng file pero hindi mabago ang ipinasa!';

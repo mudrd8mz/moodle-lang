@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.5 ALPHA (2005043000)
+      // exercise.php - created with Moodle 1.6 development (2006022400)
 
 
 $string['absent'] = 'Walâ';
@@ -44,7 +44,7 @@ $string['editingassessmentelements'] = 'Ineedit ang mga Elemento ng Pagtatasa';
 $string['element'] = 'Elemento';
 $string['elementweight'] = 'Timbang ng Elemento';
 $string['enterpassword'] = 'Ipasok ang Password';
-$string['entriessaved'] = 'Isinave ang mga Entry';
+$string['entriessaved'] = 'Isinave ang mga Talâ';
 $string['errorbanded'] = 'Error Banded';
 $string['excellent'] = 'Napakagaling';
 $string['exerciseassessments'] = 'Pagtatasa ng Ehersisyo';
@@ -100,8 +100,8 @@ $string['notgraded'] = 'Hindi Namarkahan';
 $string['notitlegiven'] = 'Walang Pamagat na Ibinigay';
 $string['numberofassessmentelements'] = 'Bilang ng Opinyon, Elemento ng Pagtatasa, Grade Band, Pahayag na Pamantayan o Kategorya sa isang Rubric';
 $string['numberofcriterionelements'] = 'Ang bilang ng Pamantayang Elemento ay dapat mas mataas sa isa.';
-$string['numberofentries'] = 'Bilang ng Entry';
-$string['numberofentriesinleaguetable'] = 'Bilang ng Entry sa Panligang Manghad';
+$string['numberofentries'] = 'Bilang ng Talâ';
+$string['numberofentriesinleaguetable'] = 'Bilang ng Talâ sa Panligang Manghad';
 $string['numberofnegativeresponses'] = 'Bilang ng Negatibong Tugon';
 $string['onesubmission'] = 'Isang Ipinasa';
 $string['optionaladjustment'] = 'Opsiyonal na Adjustment';
@@ -126,9 +126,8 @@ $string['reassess'] = 'Muling tasahin';
 $string['regradestudentassessments'] = 'Muling markahan ang patatasa ng Mag-aaral';
 $string['resubmissionfor'] = 'Ipinasang muli para sa $a';
 $string['resubmitnote'] = '* ay nangangahulugan na ang $a ay pinahihintulutan na gawin mulî ang ipinasa nila.  <br />Ang watawat na ito ay maaaring ibigay sa anumang ipinasa sa pamamgitan ng muling pagtatasa dito at pagklik <br />sa buton na <b>Pahintulutan si $a na Muling-ipasa</b>. <br />Maaaring magpasa mulî ang mag-aaral kung mayroong watawat na ganito sa <b>alinmang</b> ipinasa nila.';
-$string['rubric'] = 'Rubric';
 $string['savedok'] = 'OK ang pagsave';
-$string['saveentries'] = 'Isave ang mga Entry';
+$string['saveentries'] = 'Isave ang mga Talâ';
 $string['savemyassessment'] = 'Isave ang aking Pagtatasa';
 $string['saveweights'] = 'Isave ang mga Timbang';
 $string['scale10'] = 'Iskor sa kabuuang 10';
@@ -142,7 +141,6 @@ $string['scalegood3'] = '3 puntos na  Magaling/Mahina na iskala';
 $string['scalepresent'] = '2 puntos na  Mayroon/Walâ na iskala';
 $string['scaleyes'] = '2 puntos na Oo/Hindi na iskala';
 $string['specimenassessmentform'] = 'Halimbawang Form ng Pagtatasa';
-$string['standarddeviation'] = 'Standard Deviation';
 $string['strict'] = 'Istrikto';
 $string['studentallowedtoresubmit'] = '$a PINAPAHINTULUTANG muling magpasa';
 $string['studentassessments'] = '$a Pagtatasa';
