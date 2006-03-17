@@ -10,7 +10,10 @@ $string['createnewcourses'] = 'Moodleに登録されていない場合、新し�
 $string['createnewusers'] = 'Moodleに登録されていないユーザのアカウントを作成する';
 $string['cronfrequency'] = '処理の頻度';
 $string['deleteusers'] = 'IMSデータに指定されている場合、ユーザアカウントを削除する';
+$string['description'] = 'ここでは、あなたが指定した場所にある、特別にフォーマットされたテキストファイルを繰り返しチェックおよび処理します。ファイルは、<a href=\'../help.php?module=enrol/imsenterprise&file=formatoverview.html\' target=\'_blank\'>IMSエンタープライズ仕様</a>に基づき、person、group、および membership をXML要素に含む必要があります。';
+$string['doitnow'] = 'IMSエンタープライズインポート処理を行ってください。';
 $string['enrolname'] = 'IMSエンタープライズファイル';
+$string['filelockedmail'] = 'あなたが使用しているIMSファイルベースのユーザ登録 ( $a) のテキストファイルをcronプロセスで削除することができません。 これは通常、パーミッションが間違っていることを意味します。Moodleがファイルを削除できるように、パーミッションを修正してください。そうでなければ、この処理が繰り返し行われます。';
 $string['filelockedmailsubject'] = 'インポートエラー: ユーザ登録ファイル';
 $string['fixcasepersonalnames'] = '個人名をタイトル文字にする';
 $string['fixcaseusernames'] = 'ユーザ名を小文字に変更する';
@@ -20,10 +23,12 @@ $string['mailadmins'] = '管理者にメール通知する';
 $string['mailusers'] = 'ユーザにメール通知する';
 $string['miscsettings'] = 'その他';
 $string['processphoto'] = 'ユーザフォトデータをプロフィールに追加する';
+$string['processphotowarning'] = '警告: イメージ処理は、サーバーに深刻な負荷を与えます。多くの学生の処理が予想される場合、このオプションを有効にしないことをお勧めします。';
 $string['restricttarget'] = '次のターゲットが指定されている場合のみ処理する';
 $string['sourcedidfallback'] = '「userid」が見つからない場合、ユーザIDに「sourcedid」を使用する';
 $string['truncatecoursecodes'] = 'この長さにコースコードを切り詰める';
 $string['usecapitafix'] = '「Capita」を使用している場合、チェックしてください ( XMLフォーマットが若干間違っています )';
 $string['usersettings'] = 'ユーザデータオプション';
+$string['zeroisnotruncation'] = '表示 0、トランケーション 無し';
 
 ?>
