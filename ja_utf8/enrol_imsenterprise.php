@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6 development (2006031400)
+      // enrol_imsenterprise.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['allowunenrol'] = 'IMSデータに学生/教師の<strong>登録解除</strong> を許可する';
@@ -23,6 +23,7 @@ $string['processphoto'] = 'ユーザフォトデータをプロフィールに�
 $string['restricttarget'] = '次のターゲットが指定されている場合のみ処理する';
 $string['sourcedidfallback'] = '「userid」が見つからない場合、ユーザIDに「sourcedid」を使用する';
 $string['truncatecoursecodes'] = 'この長さにコースコードを切り詰める';
+$string['usecapitafix'] = '「Capita」を使用している場合、チェックしてください ( XMLフォーマットが若干間違っています )';
 $string['usersettings'] = 'ユーザデータオプション';
 
 ?>

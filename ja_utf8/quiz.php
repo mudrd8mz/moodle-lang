@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2006031000)
+      // quiz.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['1day'] = '1日';
@@ -40,9 +40,9 @@ $string['aon'] = 'AONフォーマット';
 $string['attempt'] = '受験  $a ';
 $string['attemptduration'] = '所要時間';
 $string['attemptedon'] = '受験日時';
-$string['attemptfirst'] = '初回受験';
+$string['attemptfirst'] = '最初の受験';
 $string['attemptincomplete'] = '$a による受験は完了していません。';
-$string['attemptlast'] = '最新受験';
+$string['attemptlast'] = '最新の受験';
 $string['attemptquiznow'] = '小テストを受験';
 $string['attempts'] = '受験';
 $string['attemptsallowed'] = '受験回数';
