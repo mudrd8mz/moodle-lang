@@ -1,0 +1,34 @@
+<p align="center"><b>Mag-aplowd ng mga pangkat</b></p>
+
+<p>Pinahihintulutan ng pasilidad na ito ang lansakang pag-aplowd ng mga pangkat sa Moodle.
+</p>
+
+<ul>
+  <li>Ang bawat linya ng file ay naglalaman ng isang rekord</li>
+  <li>Ang bawat rekord ay isang serye ng datos na pinaghihiwalay ng kuwit</li>
+  <li>Ang unang rekord ng file ay espesyal, at naglalaman ng listahan ng mga fieldname.  Itinatakda nito ang format ng kabuuan ng file.
+
+    <blockquote>
+      <p><strong>Mga kinakailangang fieldname:</strong> ang mga field na ito ay dapat isama sa unang rekord, at itakda para sa bawat user</p>
+      <p></p>
+      <font color="#990000" face="Courier New, Courier, mono">pangalan-ng-pangkat</font></p>
+</p>
+      <p><strong>Default na mga fieldname:</strong> opsiyonal ang mga ito - kung hindi ito isasama ang mga halaga ay kukunin sa kasalukuyang wika at kasalukuyang kurso</p>
+      <p><font color="#990000" face="Courier New, Courier, mono">bilang-na-id, pangalan-ng-kurso, wika</font> </p>
+      <p><strong>Opsiyonal na mga fieldname: </strong>lahat ito ay ganap na opsiyonal. </p>
+      <p> <font color="#990000" face="Courier New, Courier, mono">deskripsiyon, larawan, itago-ang-larawan</font></p>
+    </blockquote>
+    </li>
+  <li>Ang mga kuwit sa loob ng datos ay dapat i-encode bilang &amp;#44 - awtomatikong idedecode ng iskrip ang mga ito pabalik sa kuwit. </li>
+  <li>Para sa mga Boolean na field, gamitin ang 0 para sa ditotoo at 1 para sa totoo. </li>
+  <li>Alinman sa bilang-na-id o pangalan-ng-kurso ay magagamit sa pagkilala sa kurso.  Nananaig ang bilang-na-id sa pangalan-ng-kurso.  Kung hindi itakda ang isa man dito, ang kurso ay idaragdag sa kasalukuyang kurso.
+
+  <li>Ang pangalan-ng-kurso ay ang maikling pangalan ng kurso.</li>
+  <li>Tandaan:  Kung ang isang pangkat ay nakarehistro na sa database na Moodle para isang partikular na kurso, ibabalik ng iskrip na ito ang pangalan ng pangkat para sa pangkat na iyon.  Pinahihintulutan lamang ang mga guro na mag-aplowd ng pangkat sa mga kurso na may karapatan silang mag-edit.</li>
+</ul>
+   
+<p>Narito ang halimbawa ng isang tanggap na file na pang-angkat:</p>
+<p><font size="-1" face="Courier New, Courier, mono"></font>pangalan-ng-pangkat,bilang-na-id,wika,deskripsiyon,larawan <br />
+group1, Phil101, en, kailangan ng pangkat na ito ng dagdag na atensiyon!, 0 <br />
+group2, Math243, , ,
+</font></p>
