@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.5 + (2005060201)
+      // resource.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['addresource'] = 'Acrescentar recurso';
@@ -23,6 +23,7 @@ $string['configpopupwidth'] = 'Qual é a largura predefinida das janelas popup?'
 $string['configsecretphrase'] = 'Esta frase secreta é usada para produzir códigos com valôres cifrados que podem ser enviados aos recursos como parâmetros. O código cifrado é produzido por um valôr md5 do endereço IP ligado a current_users e concatenado à frase secreta: code = md5(IP.secretphrase). Isto permite ao destinatário de verificar a conexão como medida adicional de segurança.';
 $string['configwebsearch'] = 'Quando se adiciona uma URL como uma página web ou link, este endereço é apresentado como referimento para ajudar o usuário a buscar a URL que está procurando.';
 $string['configwindowsettings'] = 'Isto define o valôr padrão do painel de configuração da janela do formulário quando são adicionados novos recursos. Depois da primeira vez, passa a ser uma preferência individual do usuário.';
+$string['deploy'] = 'Usar';
 $string['directlink'] = 'Link direto a este arquivo';
 $string['directoryinfo'] = 'Todos os documentos no diretório selecionado serão visualizados';
 $string['display'] = 'Janela';
@@ -38,6 +39,7 @@ $string['filtername'] = 'Link automático aos nomes dos recursos';
 $string['frameifpossible'] = 'Colocar o recurso em un frame par que a barra de navegação do site continue visível';
 $string['fulltext'] = 'Texto completo';
 $string['htmlfragment'] = 'Fragmento de HTML';
+$string['imspackageloaded'] = 'pacote carregado.';
 $string['localfile'] = 'Arquivo local';
 $string['localfilechoose'] = 'Escolha um arquivo local (CD-ROM)';
 $string['localfilehelp'] = 'Ajuda para visualização dos arquivos locais';
@@ -47,6 +49,7 @@ $string['localfileselect'] = 'Escolha o caminho de acesso a este arquivo';
 $string['maindirectory'] = 'Diretório principal';
 $string['modulename'] = 'Recurso';
 $string['modulenameplural'] = 'Recursos';
+$string['navigationbuttons'] = 'Botões de navegação';
 $string['neverseen'] = 'Nunca visto';
 $string['newdirectories'] = 'Mostrar diretório de links';
 $string['newfullscreen'] = 'Preencher toda a tela';
@@ -64,6 +67,8 @@ $string['notallowedlocalfileaccess'] = 'O acesso a arquivos locais está disabil
 $string['note'] = 'Nota';
 $string['notefile'] = 'Para transferir mais arquivos ao curso (in modo que aparecerem nesta lista) use o <a href=\"$a\">Administrador de Arquivos</a>.';
 $string['notypechosen'] = 'Você tem que escolher um tipo. Use seu botão de retorno e tente novamente.';
+$string['packagechanged'] = 'Este pacote IMS CP foi mudado';
+$string['packagenotdeplyed'] = 'Este pacote IMS CP não está em uso';
 $string['pagedisplay'] = 'Visualizar este recurso nesta janela';
 $string['pagewindow'] = 'Mesma janela';
 $string['pan'] = 'Pan';
@@ -71,6 +76,7 @@ $string['parameter'] = 'Parâmetro';
 $string['parameters'] = 'Parâmetros';
 $string['popupresource'] = 'Este recurso deve ser mostrado em uma janela popup';
 $string['popupresourcelink'] = 'Em caso contrário, clicar aqui: $a';
+$string['redeploy'] = 'Usar de novo';
 $string['resourcetype'] = 'Tipo de recurso';
 $string['resourcetype1'] = 'Referência';
 $string['resourcetype2'] = 'Página Web';
@@ -84,13 +90,16 @@ $string['resourcetype9'] = 'Diretório';
 $string['resourcetypedirectory'] = 'Visualizar um diretório';
 $string['resourcetypefile'] = 'Link a um arquivo ou site';
 $string['resourcetypehtml'] = 'Criar uma página web';
+$string['resourcetypeims'] = 'usar um pacote IMS CP';
 $string['resourcetypelabel'] = 'Inserir rótulo';
 $string['resourcetyperepository'] = 'Link a um objeto do repositório';
 $string['resourcetypetext'] = 'Criar uma página de texto simples';
 $string['searchweb'] = 'Buscar página web';
 $string['serverurl'] = 'URL do servidor  ($a->wwwroot)';
 $string['showcourseblocks'] = 'Mostrar os box do curso';
+$string['tableofcontents'] = 'Tabela de conteúdos';
 $string['variablename'] = 'Nome da variável';
+$string['viewims'] = 'Ver pacote IMS CP';
 $string['vol'] = 'Vol';
 
 ?>

@@ -1,9 +1,11 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.5 + (2005060201)
+      // admin.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['adminseesallevents'] = 'Os administradores podem ver todos os eventos';
 $string['adminseesownevents'] = 'Os Administradores são como os outros usuários';
+$string['allowrenames'] = 'Permitir renomeação';
+$string['availablelangs'] = 'Pacotes de idioma disponíveis';
 $string['backgroundcolour'] = 'Cor do fundo';
 $string['badwordsconfig'] = 'Inserir a sua lista de palavras a serem censuradas, separadas por vírgulas';
 $string['badwordsdefault'] = 'Se a lista personalizada estiver vazia, a lista predefinida do idioma correspondente será utilizada';
@@ -13,11 +15,14 @@ $string['blockmultiple'] = 'Múltiplos';
 $string['cachetext'] = 'Memória temporária de textos';
 $string['calendarsettings'] = 'Calendário';
 $string['change'] = 'mudar';
+$string['changesitelang'] = 'Mudar idioma do site';
+$string['componentinstalled'] = 'Componente instalado';
 $string['configallowcoursethemes'] = 'Habilitando esta opção, os cursos podem ter seus próprios temas. Os temas do curso se sobrepõem a outras escolhas de tema (tema da plataforma, do usuário ou da sessão).';
 $string['configallowemailaddresses'] = 'Para restringir todos os novos endereços de e-mail a alguns domínios,inclu aqui uma lista separada por espaços. Todos os outros domínios serão recursados. Por exemplo, <strong>ourcollege.edu.au .gov.au</strong>.';
 $string['configallowobjectembed'] = 'Como medida padrão de segurança, os usuários em geral não podem incluir multimídia (como Flash) em seus textos usando os marcadores HTML EMBED e OBJECT (embora reste possível o procedimento seguro usando o filtro mediaplugins). Se você deseja permitir essas TAGs, então habilite esta opção.';
 $string['configallowunenroll'] = 'Se a opção for \'Sim\', os estudantes poderão concelar a matrícola nos cursos quando quiserem. No caso contrário isto não é permitido, e este processo será controlado pelos professores e administradores.';
 $string['configallowuserblockhiding'] = 'Permitir que os usuários escondam ou mostrem os box laterais deste site? Esta funcionalidade usa Javascript e cookies para lembrar o estado de cada box afeta apenas o formato de visualização do próprio usuário.';
+$string['configallowusermailcharset'] = 'Ativando isto, cada usuário do site poderá escolher o próprio set di caracteres para o email';
 $string['configallowuserthemes'] = 'Se esta opção estiver habilitada, os usuários poderão escolher seus próprios temas. Os temas do usuário se sobrepõem aos da plataforma (mas não aos do curso).';
 $string['configallusersaresitestudents'] = 'Em atividades da página inicial da instalação, todos os usuários devem ser considerados alunos? Se a resposta for \"Sim\", qualquer usuário cadastrado poderá participar como aluno nestas atividades. Se a resposta for \"Não\", só os usuários que já participam em pelo menos um curso poderão participar nestas atividades. Apenas os administradores e os professores especialmente designados podem atuar como professores nestas atividades da página inicial.';
 $string['configautologinguests'] = 'Os visitantes devem entrar como convidados automaticamente quando entram em cursos com acesso livre?';
@@ -34,6 +39,7 @@ $string['configdeleteunconfirmed'] = 'Se estiver utilizando autenticação por c
 $string['configdenyemailaddresses'] = 'Para recurar endereços de determinados domínios, faça uma lista como a anterior. Todos os demais domínios serão aceitos. Exemplo: <strong>hotmail.com yahoo.co.uk</strong>';
 $string['configdigestmailtime'] = 'Quem escolher esta opção receberá todas as mensagens do fórum agrupadas em um digest diário. Esta opção controla a hora do dia em que a mensagem diária é enviada (o primeiro cron depois deste horário fará o envio).';
 $string['configdisplayloginfailures'] = 'Isto mostra a informação sobre acessos mal sucedidos a usuários selecionados.';
+$string['configdocroot'] = 'Define o percurso de acesso a Moodle Docs. Você pode modificar este endereço se você quer usar um outro conjunto de documentos. Neste caso, mantenha a mesma estrutura e formato dos percursos utilizada em http://docs.moodle.org.';
 $string['configenablecourserequests'] = 'Isto permite que qualquer usuário faça um pedido de criação de curso.';
 $string['configenablerssfeeds'] = 'Esta chave habilita alimentadores RSS em toda o site. Os alimentadores RSS tem que ser habilitados também no painel de configuração de cada módulo que você pode acessar na página de administração do site.';
 $string['configenablerssfeedsdisabled'] = 'Não está disponível porque os alimentadores RSS estão desabilitados neste site. Para habilita-los, vá à configuração de Variáveis dentro no painel de Administração.';
@@ -47,6 +53,7 @@ $string['configforceloginforprofiles'] = 'Habilitar esta opção para forçar as
 $string['configframename'] = 'Se o Moodle for incluido em um frame, escreva o nome do frame aqui. Em caso contrário deixe o valor como \'_top\'';
 $string['configfullnamedisplay'] = 'Isto define como serão mostrados os nomes completos. Na maioria das instalações que usam apenas um idioma, a configuração mais eficiente é o padrão: \"Nome + Sobrenome\", mas você pode preferir ocultar os sobrenomes ou deixar que isto seja definido peloo pacote da linguagem escolhida (algumas linguagens tem diferentes convenções).';
 $string['configgdversion'] = 'Indicar a versão do GD que está instalada. A versão predefinida é a que foi detectada automaticamente. Não mude isto a menos que você tenha certeza do que esá fazendo.';
+$string['confighiddenuserfields'] = 'Selecione os campos de informação sobre usuários que você quer esconder dos usuários que não são professores ou administradores. Isto aumenta a privacy do estudante. Para selecionar diversos campos, utilize a tecla CTRL enquanto fizer a seleção.';
 $string['confightmleditor'] = 'Defina se é permitido ou não o uso do editor HTML. O editor será disponível quando o usuário usar um navegador compatível. Os usuários podem escolher se querem utilizar ou não este editor.';
 $string['configidnumber'] = 'Esta opção especifica se (a) Não será pedido um ID aos usuários, (b) Será pedido um ID aos usuários, mas eles podem deixar em branco, ou (c) Será pedido um ID e o campo não pode ser deixado em branco. O código ID é mostrado no Perfil do usuário.';
 $string['configintro'] = 'Nesta página você pode especificar algumas variáveis de configuração que ajudam o Moodle a funcionar corretamente em seu servidor. Não se preocupe demasiado com isto, o padrão normalmente funciona bem e você pode voltar a esta página posteriormente para mudar as configurações.';
@@ -97,6 +104,7 @@ $string['configsessioncookie'] = 'Esta opção personaliza o nome do \'cookie\' 
 $string['configsessiontimeout'] = 'Se as pessoas que fizeram o login neste site ficarem inativas por um longo tempo (sem navegar), serão automaticamente desconectados (a sessão é terminada). Esta variável determina a duraçào deste período de tempo.';
 $string['configshowblocksonmodpages'] = 'Alguns módulos de atividades aceitam box em suas páginas. Se esta opção for habilitada, os docentes poderão acrescentar blocos laterais nessas páginas. Em caso contrário a interface não mostrará esta possibilidade.';
 $string['configshowsiteparticipantslist'] = 'Todos os alunos e instrutores do site serão incluídos na lista de participantes. Quem pode consultar esta lista de participantes?';
+$string['configsitemailcharset'] = 'Todos os emails criados pelo site vão utilizar o set di caracteres definido aqui. Para que os usuários possam personalizar esta configuração é necessario ativar a próxima opção';
 $string['configsitepolicy'] = 'Se você tiver um documento que define regras para o uso do site que todos os usuários tem que ler e aceitar antes de poder navegar, especifique a URL deste documento. Em caso contrário deixe em branco. A URL pode apontar para qualquer arquivo. O diretório ideal para este arquivo é o diretório \'Arquivos do Site\'.';
 $string['configslasharguments'] = 'Os arquivos (imagens, envios, etc) dependem de um script que usa \'slash arguments\' (a segunda opção aqui). Este método permite que os arquivos sejam armazenados temporariamente nos navegadores e servidores proxy. Lamentavelmente, alguns servidores PHP não permitem este método. Se você tiver problemas para ver arquivos ou imagens (por exemplo, fotos dos usuários), escolha a primeira opção.';
 $string['configsmtphosts'] = 'Indique o endereço completo de um ou mais servidores SMTP locais que o Moodle deve utilizar para o envio de correio eletrônico (por exemplo: \'mail.a.com\' or \'mail.a.com;mail.b.com\'). Se deixar em branco, o Moodle usará o método PHP padrão envia o correio.';
@@ -134,9 +142,13 @@ $string['incompatibleblocks'] = 'Box incompatíveis';
 $string['latexpreamble'] = 'Preâmbulo LaTeX';
 $string['latexsettings'] = 'Configurações do Renderer LaTeX';
 $string['mediapluginavi'] = 'Ativar filtro .avi ';
+$string['mediapluginflv'] = 'Ativar filtro .flv ';
 $string['mediapluginmov'] = 'Ativar filtro .mov ';
 $string['mediapluginmp3'] = 'Ativar filtro .mp3 ';
 $string['mediapluginmpg'] = 'Ativar filtro .mpg ';
+$string['mediapluginram'] = 'Ativar filtro .ram';
+$string['mediapluginrm'] = 'Ativar filtro .rm';
+$string['mediapluginrpm'] = 'Ativar filtro .rpm';
 $string['mediapluginswf'] = 'Ativar filtro .swf ';
 $string['mediapluginwmv'] = 'Ativar filtro .wmv ';
 $string['optionalmaintenancemessage'] = 'Mensagem opcional de manutenção';
@@ -149,11 +161,19 @@ $string['sitemaintenancemode'] = 'Modo de manutenção';
 $string['sitemaintenanceoff'] = 'O modo de manutenção foi desativado e o sistema está funcionando normalmente';
 $string['sitemaintenanceon'] = 'O sistema está em modo de manutenção (só os administradores podem entrar)';
 $string['sitemaintenancewarning'] = 'O sistema está atualmente em modo de manutenção (só os administradores podem entrar). Para retornar à operação normal, <a href=\"maintenance.php\">desabilite o modo de manutenção</a>';
+$string['stickyblocks'] = 'Blocos adesivos';
+$string['stickyblockscourseview'] = 'Página do curso';
+$string['stickyblocksmymoodle'] = 'O meu Moodle';
+$string['stickyblockspagetype'] = 'Tipo de página a ser configurada';
 $string['tabselectedtofront'] = 'Em tabelas com tabulação, a linha que foi selecionada deve estar na frente';
 $string['therewereerrors'] = 'Os dados continham erros';
 $string['timezoneforced'] = 'Fuso horário fixado pelo administrador';
 $string['timezoneisforcedto'] = 'Forçar todos os usuários a usar';
 $string['timezonenotforced'] = 'O usuário pode escolher seu fuso horário';
+$string['uninstall'] = 'Desinstalar pacote de idioma selecionado';
+$string['updateaccounts'] = 'Atualizar contas existentes';
+$string['updatecomponent'] = 'Atualizar componente';
+$string['updatelangs'] = 'Atualizar pacotes de idioma';
 $string['upgradeforumread'] = 'No Moodle 1.5 foi adicionada a possibilidade de monitorar as mensagens lidas/não lidas.<br />Para usar esta funcionalidade você precisa <a href=\"$a\">atualizar as suas tabelas</a>';
 $string['upgradeforumreadinfo'] = 'No Moodle 1.5 foi adicionada a possibilidade de monitorar as mensagens lidas/não lidas. Para usar esta funcionalidade, você precisa atualizar as tabelas que registram as informações das mensagens existentes. Dependendo do tamanho de sua instalação, isto pode tomar bastante tempo (horas) e pode exigir bastante do banco de dados, portanto é melhor faze-lo num período de pouco uso. Enquanto isto a sua instalação continuará funcionando e os usuários não serão afetados. Uma vez iniciado este processo, permitir que seja concluído (mantenha a janela de seu navegador aberta). Se você interromper o processo fechando a janela, não se preocupe, você pode começar novamente.<br /><br />Quer iniciar o processo de atualização agora?';
 $string['upgradelogs'] = 'Para o funcionamento completo os logs antigos tem que ser atualizados. <a href=\"$a\">Mais informações</a>';
@@ -164,5 +184,11 @@ $string['upgradesure'] = 'Os seus arquivos Moodle foram alterados e voc~e está 
 <p>tem certeza que quer atualizar este servidor para esta versão?</p>';
 $string['upgradingdata'] = 'Atualizando os dados';
 $string['upgradinglogs'] = 'Atualizando logs';
+$string['upwards'] = 'para cima';
+$string['useraccountupdated'] = 'Usuário atualizado';
+$string['userrenamed'] = 'Usuário renomeado';
+$string['userscreated'] = 'Usuários criados';
+$string['usersrenamed'] = 'Usuários renomeados';
+$string['usersupdated'] = 'Usuários atualizados';
 
 ?>

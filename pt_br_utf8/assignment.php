@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.5 + (2005060201)
+      // assignment.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['allowresubmit'] = 'Permitir novo envio';
@@ -16,6 +16,7 @@ $string['assignmenttype'] = 'Tipo de tarefa';
 $string['availabledate'] = 'Disponível a partir de ';
 $string['comment'] = 'Comentário';
 $string['commentinline'] = 'Comentário inserido na frase';
+$string['configitemstocount'] = 'Tipo de elemento a ser considerado como envio em tarefas online.';
 $string['configmaxbytes'] = 'Maior tamanho definido para todas as tarefas do site (sujeita aos limites do curso e às configurações locais';
 $string['description'] = 'Descrição';
 $string['duedate'] = 'Data de entrega';
@@ -36,6 +37,8 @@ $string['failedupdatefeedback'] = 'Falhou a atualização do feedback da tarefa 
 $string['feedback'] = 'Feedback';
 $string['feedbackfromteacher'] = 'Feedback de $a';
 $string['feedbackupdated'] = 'Feedback das tarefas de $a pessoas atualizado';
+$string['graded'] = 'Avaliado';
+$string['guestnosubmit'] = 'Sinto muito, visitantes não podem enviar tarefas. Faça o login ou increva-se antes de responder';
 $string['guestnoupload'] = 'Visitantes não podem enviar documentos';
 $string['helpoffline'] = '<p>Isto é útil quando a tarefa é realizada fora do Moodle, em outro endereço web ou em presença.</p><p>os estudante podem ler uma descrição da tarefa, mas não podem enviar documentos. A avaliação das tarefas e a notificação dos estudantes é sempre ativa e pode ser utilizada.</p>';
 $string['helponline'] = '<p>Este tipo de tarefa prevê o uso do editor de textos para escrever diretamente em Moodle. Os professores podem avaliar as tarefas, adicionar comentários ou efetuar mudanças.</p>
@@ -60,6 +63,7 @@ $string['submission'] = 'Envio de tarefas';
 $string['submissionfeedback'] = 'Feedback';
 $string['submissions'] = 'Tarefas enviadas';
 $string['submissionsaved'] = 'As suas mudanças foram efetuadas';
+$string['submissionsnotgraded'] = '$a envios não avaliados';
 $string['submitassignment'] = 'Envie a sua tarefa usando este formulário';
 $string['submitted'] = 'Enviada';
 $string['typeoffline'] = 'Atividade offline';
