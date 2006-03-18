@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006031400)
+      // moodle.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['action'] = 'Actie';
@@ -596,7 +596,7 @@ $string['helpformatting'] = 'Over tekstopmaak';
 $string['helphtml'] = 'Hoe je HTML kunt schrijven';
 $string['helpindex'] = 'Index  helpbestanden';
 $string['helppicture'] = 'Hoe je een afbeelding kunt uploaden';
-$string['helpprefix'] = 'Hulp voor \'$a\'';
+$string['helpprefix'] = 'Help, $a';
 $string['helpquestions'] = 'Stel goede vragen';
 $string['helpreading'] = 'Lees zorgvuldig';
 $string['helprichtext'] = 'Over de HTML-editor';
