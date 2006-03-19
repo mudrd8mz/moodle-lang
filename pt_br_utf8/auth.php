@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.5 + (2005060201)
+      // auth.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['alternatelogin'] = 'Para substituir a página de default de login é necessário indicar uma outra URL aqui. Esta deve conter a propriedade de ação configurada em modo adequado como <strong>\'$a\'</strong> e retornar os campos <strong>username</strong> e <strong>password</strong>.<br />Atenção, com uma URL errada você pode ficar bloqueado sem acesso a este site.<br />';
@@ -17,6 +17,10 @@ $string['auth_cas_text'] = 'Conexão segura';
 $string['auth_cas_version'] = 'Versão de CAS';
 $string['auth_casdescription'] = 'Este método usa un servidor CAS (Central Authentication Service)para autenticar os usuários em SSO (Single Sign On environment). Você também pode usar uma simples autenticação LDAP. Se um usuário e uma senha são válidos para o CAS, o Moodle cria um novo usuário no DB utilizando os atributos LDAP definidos. Nos logins sucessivos apenas o nome do usuário e a senha serão controlados.';
 $string['auth_castitle'] = 'Usar um servidor (SSO) CAS';
+$string['auth_changepasswordhelp'] = 'Ajuda para mudança de senha';
+$string['auth_changepasswordhelp_expl'] = 'Mostrar ajuda para recuperação de senhas $a  perdidas. Isto será mostrado junto ou em alternativa à <strong>URL par mudança de senha</strong> ou ao sistema de mudanças de senha interno de Moodle.';
+$string['auth_changepasswordurl'] = 'URL par mudança de senha';
+$string['auth_changepasswordurl_expl'] = 'Indicar a URL a ser enviada aos usuários que perderem a senha $a . Confogure a opção <strong>Usar página padrão para mudança de senha</strong> como <strong>Não</strong>.';
 $string['auth_common_settings'] = 'Configurações comuns';
 $string['auth_data_mapping'] = 'Mapeamento dos dados';
 $string['auth_dbdescription'] = 'Este método usa uma tabela de uma base de dados externa para verificar se a senha e o nome do usuário são válidos. Se a conta for nova, a informação de outros campos também deve ser copiada em Moodle.';
@@ -97,6 +101,11 @@ $string['auth_pop3mailbox'] = 'Nome do mailbox indicado para a conexão (normalm
 $string['auth_pop3port'] = 'Porta do servidor  (normalmente 110)';
 $string['auth_pop3title'] = 'Use um servidor POP3';
 $string['auth_pop3type'] = 'Tipo de servidor. Se o seu servidor usar certificados de segurança, escolha pop3cert.';
+$string['auth_radiusdescription'] = 'Este método usa um servidor <a href=\"http://en.wikipedia.org/wiki/RADIUS\" target=\"_blank\">RADIUS</a> para controlar a validade do nome do usuário e da senha.';
+$string['auth_radiushost'] = 'Endereço do servidor RADIUS';
+$string['auth_radiusnasport'] = 'Porta de conexão';
+$string['auth_radiussecret'] = 'Segredo compartilhado';
+$string['auth_radiustitle'] = 'Usar servidor RADIUS';
 $string['auth_shib_convert_data'] = 'API de modificação dos dados';
 $string['auth_shib_convert_data_description'] = 'Você pode usar este API para modificar os dados fornecidos por Shibboleth. Leia <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> para maiores detalhes.';
 $string['auth_shib_convert_data_warning'] = 'Este campo não existe ou não é legível com o processo do servidor web!';
@@ -122,18 +131,21 @@ $string['authinstructions'] = 'Aqui você pode incluir instruções para os seus
 $string['changepassword'] = 'URL para mudança de senha';
 $string['changepasswordhelp'] = 'Aqui você pode especificar um endereço onde os usuários podem recuperar ou modificar a senha e o nome de usuário esquecidos. Este será publicado como um botão na página de entrada e na página do usuário. Se deixar este espaço em branco o botão não aparecerá.';
 $string['chooseauthmethod'] = 'Escolha um método de autenticação: ';
-$string['createchangepassword'] = 'Criar se faltar - forçar mudança';
-$string['createpassword'] = 'Criar se faltar';
+$string['createpasswordifneeded'] = 'Criar senha se necessário';
 $string['forcechangepassword'] = 'Forçar mudança de senha';
 $string['forcechangepassword_help'] = 'Forçar usuários a mudar a senha a próxima vez que fizerem o login';
 $string['forcechangepasswordfirst_help'] = 'Forçar usuários a mudar a senha no primeiro login';
 $string['guestloginbutton'] = 'Botão de entrada como visitante';
 $string['infilefield'] = 'Campos obrigatórios no arquivo';
 $string['instructions'] = 'Instruções';
+$string['internal'] = 'Interno';
 $string['locked'] = 'Bloqueado';
 $string['md5'] = 'codificação MD5';
 $string['passwordhandling'] = 'Gestão do campo Senha';
 $string['plaintext'] = 'Texto simples';
+$string['shib_no_attributes_error'] = 'Você usa autenticação Shibboleth mas o Moodle não recebeu os atributos do usuário. Controle o provedor da Identidade para a comunicação dos atributos ($a)necessários, ao provedor em que Moodle está instalado ou informe o webmaster tdeste servidor.';
+$string['shib_not_all_attributes_error'] = 'Moodle precisa de alguns atributos Shibboleth que não foram fornecidos no seu caso. Os atributos são: $a<br /> Contate o webmaster deste servidor ou o Provedor da sua Identidade.';
+$string['shib_not_set_up_error'] = 'A autenticação Shibboleth não está configurada corretamente pois as variáveis de ambiente não estão presentes nesta página. Consulte o <a href=\"README.txt\">README</a> para melhores explicações sobre a configuração da autenticação Shibboleth ou contate o webmaster.';
 $string['showguestlogin'] = 'Você pode esconder ou mostrar o botão de entrada para visitantes na página de ingresso.';
 $string['stdchangepassword'] = 'Usar página standard para mudança de senha';
 $string['stdchangepassword_expl'] = 'Se o sistema de autenticação externa permite mudanças de senha usando Moodle, escolha SIM. Esta configuração ignora a \'URL para mudança de senha\'.';
