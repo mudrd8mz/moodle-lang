@@ -164,7 +164,6 @@ $string['existingcategory2'] = 'isang file mula sa isang kasalukuyang set ng mga
 $string['existingcategory3'] = 'isang link mula sa isang kasalukuyang set ng mga link na ginagamit din ng ibang tanong sa kategoriyang ito';
 $string['export'] = 'Iluwas';
 $string['exporterror'] = 'May naganap na error sa nang prinoproseso ang pagluluwas';
-$string['exportfilename'] = 'pagsusulit';
 $string['exportingquestions'] = 'Iniluluwas ang mga tanong sa file';
 $string['exportname'] = 'Pangalan ng file';
 $string['exportquestions'] = 'Iluwas ang mga tanong sa isang file';
