@@ -50,7 +50,7 @@ $string['attls8'] = 'Tôi luôn luôn quan tâm đến việc nhận ra tại sa
 $string['attls8short'] = 'Nhận biết tại sao mọi người làm nó ';
 $string['attls9'] = 'Tôi thường đặt mình vào để tranh luận với các tác giả của các cuốn sách mà tôi đọc, cố gắng hình dung ra xem tại sao chúng sai.';
 $string['attls9short'] = 'Tranh luận với các tác giả ';
-$string['attlsintro'] = 'Mục đích của bản câu hỏi điều tra này là giúp chúng tôi đánh giá các quan điểm của bạn đối với ý kiến và sự học tập.
+$string['attlsintro'] = 'Mục đích của những câu hỏi điều tra này là giúp chúng tôi đánh giá các quan điểm của bạn đối với ý kiến và sự học tập.
 
 
 
@@ -122,7 +122,7 @@ $string['colles8'] = 'Tôi suy nghĩ bình phẩm về các ý kiến trong các
 $string['colles8short'] = 'Tôi bình phẩm về các bài đọc ';
 $string['colles9'] = 'Tôi giải thích các ý kiến của tôi cho các sinh viên khác.';
 $string['colles9short'] = 'Tôi giải thích các ý kiến của tôi';
-$string['collesaintro'] = 'Mục đích của bản khảo sát này là giúp chúng tôi hiểu phân phối bài học trực tuyến này làm cho bạn có khả năng học tập.
+$string['collesaintro'] = 'Mục đích của cuộc khảo sát này là giúp chúng tôi hiểu phân phối bài học trực tuyến này làm cho bạn có khả năng học tập.
 
 
 
@@ -140,7 +140,7 @@ Các câu trả lời được cân nhắc một cách cẩn thận sẽ giúp c
 
 Xin chân thành cảm ơn bạn.';
 $string['collesaname'] = 'COLLES (Thực tế)';
-$string['collesapintro'] = 'Mục đích của bản câu hỏi khảo sát này là nhằm giúp chúng tôi khảo sát xem sự phân phối học tập trực tuyến thì tốt như thế nào để bạn học. 
+$string['collesapintro'] = 'Mục đích của các câu hỏi khảo sát này là nhằm giúp chúng tôi khảo sát xem sự phân phối học tập trực tuyến thì tốt như thế nào để bạn học. 
 
 
 
@@ -171,7 +171,7 @@ $string['collesm5short'] = 'Bạn bè hỗ trợ';
 $string['collesm6'] = 'Sự giải thích';
 $string['collesm6short'] = 'Sự giải thích';
 $string['collesmintro'] = 'Trong bài học trực tuyến này...';
-$string['collespintro'] = 'Mục đích của bản khảo sát này giúp chúng tôi hiểu những gì mà bạn đánh giá theo kinh nghiệm học tập trực tuyến .
+$string['collespintro'] = 'Mục đích của cuộc khảo sát này giúp chúng tôi hiểu những gì mà bạn đánh giá theo kinh nghiệm học tập trực tuyến .
 
 
 
@@ -194,30 +194,30 @@ $string['download'] = 'Tải xuống';
 $string['downloadexcel'] = 'Tải dữ liệu xuống theo bảng tính Excel';
 $string['downloadinfo'] = 'Bạn có thể tải dữ liệu xuống theo một biểu mẫu thích hợp với bản phân tích trong Excel, SPSS hoặc gói khác.';
 $string['downloadtext'] = 'Tải dữ liệu như một file văn bản đơn giản ';
-$string['editingasurvey'] = 'Soạn thảo một bản khảo sát';
-$string['guestsnotallowed'] = 'Khách không được phép đưa các bản khảo sát ';
-$string['helpsurveys'] = 'Trợ giúp về các kiểu khác nhau của các bản khảo sát ';
-$string['howlong'] = 'Bạn hoàn thành bản khảo sát này trong bao lâu ?';
+$string['editingasurvey'] = 'Soạn thảo một cuộc khảo sát';
+$string['guestsnotallowed'] = 'Khách không được phép đưa các cuộc khảo sát ';
+$string['helpsurveys'] = 'Trợ giúp về các kiểu khác nhau của các cuộc khảo sát ';
+$string['howlong'] = 'Bạn hoàn thành cuộc khảo sát này trong bao lâu ?';
 $string['howlongoptions'] = 'dưới 1 phút,1-2 phút ,2-3 phút,3-4 phút,4-5 phút,5-10 phút, nhiều hơn 10';
 $string['ifoundthat'] = 'Tôi nhận thấy rằng ';
 $string['introtext'] = 'Văn bản giới thiệu ';
 $string['ipreferthat'] = 'Tôi muốn rằng ';
-$string['modulename'] = 'Bản khảo sát ';
-$string['modulenameplural'] = 'Bản khảo sát';
+$string['modulename'] = 'Cuộc khảo sát ';
+$string['modulenameplural'] = 'Cuộc khảo sát';
 $string['name'] = 'Tên';
-$string['newsurveyresponses'] = 'Các câu trả lời bản khảo sát mới';
-$string['nobodyyet'] = 'Không ai hoàn thành bản khảo sát này ';
+$string['newsurveyresponses'] = 'Các câu trả lời cuộc khảo sát mới';
+$string['nobodyyet'] = 'Không ai hoàn thành cuộc khảo sát này ';
 $string['notdone'] = 'Chưa hoàn thành ';
 $string['notes'] = 'Các ghi chú và bản phân tích của riêng bạn';
 $string['othercomments'] = 'Có phải bạn có các bình luận khác ?';
-$string['peoplecompleted'] = 'Đến thời điểm này có $a người hoàn thành bản khảo sát ';
+$string['peoplecompleted'] = 'Đến thời điểm này có $a người hoàn thành cuộc khảo sát ';
 $string['preferred'] = 'Được ưa thích';
 $string['preferredclass'] = 'Giờ học được ưa thích';
 $string['preferredstudent'] = '$a được ưa thích hơn ';
 $string['question'] = 'Câu hỏi';
 $string['questions'] = 'Câu hỏi';
 $string['questionsnotanswered'] = 'Một số câu hỏi chưa được trả lời .';
-$string['report'] = 'Bản báo cáo bản khảo sát';
+$string['report'] = 'Báo cáo cuộc khảo sát';
 $string['savednotes'] = 'Các ghi chú của bạn đã được cất ';
 $string['scaleagree5'] = ' Không đồng ý, Không đồng ý đến mức độ nào đó, Hoặc đồng ý hoặc không đồng ý, Đồng ý đến mức độ nào đó, Đồng ý  ';
 $string['scales'] = 'Các tỷ lệ ';
@@ -225,12 +225,12 @@ $string['scaletimes5'] = 'Không bao giờ, Hiếm khi, Thỉnh thoảng, thư�
 $string['seemoredetail'] = 'Kích vào đây để xem chi tiết hơn.';
 $string['selectedquestions'] = 'Các câu hỏi được lựa chọn theo một tỷ lệ, tất cả các sinh viên.';
 $string['summary'] = 'Tổng kết';
-$string['surveycompleted'] = 'Bạn vừa hoàn thành bản khảo sát này .Biểu đồ dưới đây tổng kết kết quả của bạn được so sánh với giá trị trung bình.';
-$string['surveyname'] = 'Tên bản khảo sát ';
-$string['surveysaved'] = 'Bản khảo sát được cất ';
+$string['surveycompleted'] = 'Bạn vừa hoàn thành cuộc khảo sát này .Biểu đồ dưới đây tổng kết kết quả của bạn được so sánh với giá trị trung bình.';
+$string['surveyname'] = 'Tên cuộc khảo sát ';
+$string['surveysaved'] = 'Cuộc khảo sát được cất ';
 $string['surveytype'] = 'Kiểu khảo sát ';
-$string['thanksforanswers'] = 'Cám ơn bạn $a đã trả lời bản khảo sát này ';
+$string['thanksforanswers'] = 'Cám ơn bạn $a đã trả lời cuộc khảo sát này ';
 $string['time'] = 'Thời gian';
-$string['viewsurveyresponses'] = 'Quan sát $a các câu trả lời bản khảo sát';
+$string['viewsurveyresponses'] = 'Quan sát $a các câu trả lời cuộc khảo sát';
 
 ?>
