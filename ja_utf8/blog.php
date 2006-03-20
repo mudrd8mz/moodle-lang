@@ -3,10 +3,10 @@
 
 
 $string['addnewentry'] = '新しいエントリの追加';
-$string['addotags'] = '公式タグの追加';
+$string['addotags'] = 'オフィシャルタグの追加';
 $string['addptags'] = 'ユーザ定義タグの追加';
 $string['blockmenutitle'] = 'ブログメニュー';
-$string['blogdeleteconfirm'] = 'このブログを削除しますか?';
+$string['blogdeleteconfirm'] = 'このブログを削除してもよろしいですか?';
 $string['blogpreferences'] = 'ブログ設定';
 $string['blogs'] = 'ブログ';
 $string['courseblog'] = 'コースブログ: $a';
@@ -17,15 +17,16 @@ $string['entrytitle'] = 'エントリタイトル';
 $string['entryupdated'] = 'ブログエントリが更新されました。';
 $string['groupblog'] = 'グループブログ: $a';
 $string['intro'] = 'このRSSフィードは、１つまたはそれ以上のブログから自動的に生成されました。';
+$string['noentriesyet'] = '表示できるエントリはありません。';
 $string['noguestpost'] = 'ゲストはブログを投稿できません!';
 $string['notallowedtoedit'] = 'あなたはこのエントリを編集できません。';
-$string['otags'] = '公式タグ';
+$string['otags'] = 'オフィシャルタグ';
 $string['pagesize'] = 'ページあたりのブログエントリ数';
 $string['ptags'] = 'ユーザ定義タグ';
 $string['publishto'] = '公開先: ';
-$string['publishtonoone'] = 'あなたのみ ( 下書き )';
+$string['publishtonoone'] = 'あなた自身 ( 下書き )';
 $string['publishtosite'] = 'このサイトすべて';
-$string['publishtoworld'] = '世界中に';
+$string['publishtoworld'] = '世界中';
 $string['settingsupdatederror'] = 'エラーが発生したため、ブログ設定は更新されませんでした。';
 $string['siteblog'] = 'サイトブログ: $a';
 $string['updateentrywithid'] = 'エントリの更新';
