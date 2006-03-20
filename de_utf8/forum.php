@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6 development (2005101200)
+      // forum.php - created with Moodle 1.6 development (2006031400)
 
 
 $string['addanewdiscussion'] = 'Ein neues Diskussionsthema hinzufügen';
@@ -10,6 +10,8 @@ $string['allowchoice'] = 'Jede/r darf auswählen';
 $string['allowdiscussions'] = 'Rechte der Teilnehmer/innen im Forum';
 $string['allowratings'] = 'Bewertung von Beiträgen';
 $string['allowsdiscussions'] = 'Jede/r darf in diesem Forum ein neues Diskussionsthema beginnen.';
+$string['allsubscribe'] = 'Tragen Sie mich in allen Foren ein';
+$string['allunsubscribe'] = 'Tragen Sie mich aus allen Foren aus.';
 $string['anyfile'] = 'Jede Datei';
 $string['attachment'] = 'Anhang';
 $string['bynameondate'] = 'von  $a->name - $a->date ';
@@ -45,6 +47,9 @@ $string['discussions'] = 'Themen';
 $string['discussionsstartedby'] = 'Diskussionen starteten am $a';
 $string['discussionsstartedbyrecent'] = 'Diskussion beginnt bei $a';
 $string['discussthistopic'] = 'Diesen Eintrag diskutieren';
+$string['displayend'] = 'Anzeigeende';
+$string['displayperiod'] = 'Anzeigeperiode';
+$string['displaystart'] = 'Anzeigebeginn';
 $string['eachuserforum'] = 'Jede/r kann genau ein Diskussionsthema einrichten.';
 $string['edit'] = 'Bearbeiten';
 $string['editedby'] = 'Bearbeitet von $a->name - $a->date';
@@ -103,6 +108,8 @@ $string['nosubscribers'] = 'Derzeit gibt es keine Teilnehmer/in in diesem Forum'
 $string['nothingnew'] = 'Keine Neuigkeiten für $a';
 $string['notingroup'] = 'Dieses Forum steht nur den Mitgliedern der Gruppe zur Verfügung.';
 $string['notrackforum'] = 'Ungelesene Beiträge nicht markieren';
+$string['nowallsubscribed'] = 'Sie sind in allen Foren in $a eingetragen';
+$string['nowallunsubscribed'] = 'Sie sind nicht in allen Foren von $a eingetragen';
 $string['nownotsubscribed'] = '$a->name wird künftig KEINE Kopien von \'$a->forum\' per E-Mail erhalten';
 $string['nownottracking'] = '$a->name will \'$a->forum\' nicht weiter verfolgen.';
 $string['nowsubscribed'] = '$a->name wird künftig Kopien von \'$a->forum\'  per E-Mail erhalten';
@@ -146,7 +153,7 @@ $string['ratingsuse'] = 'Bewertungen einschalten';
 $string['ratingtime'] = 'Mit diesem Eintrag beschränken Sie die Bewertung auf  Beiträge, die in dem Zeitraum eingestellt werden, der hier angegeben ist.';
 $string['re'] = 'Re:';
 $string['readtherest'] = 'Lesen Sie den Rest des Themas';
-$string['replies'] = 'antworten';
+$string['replies'] = 'Antworten';
 $string['repliesmany'] = '$a Antworten bis jetzt';
 $string['repliesone'] = '$a Antwort bis jetzt';
 $string['reply'] = 'Antwort';
@@ -184,6 +191,7 @@ $string['subscribestart'] = 'Senden Sie mir Kopien via E-Mail von den Beiträgen
 $string['subscribestop'] = 'Ich möchte keine Kopien via E-Mail von den Beiträgen zu diesem Forum';
 $string['subscription'] = 'Anmeldung';
 $string['subscriptions'] = 'Anmeldungen';
+$string['timestartenderror'] = 'Der Endtermin kann nicht vor dem Starttermin liegen.';
 $string['trackforum'] = 'Ungelesene Mitteilungen verfolgen/markieren';
 $string['tracking'] = 'Verfolgen/markieren';
 $string['trackingoff'] = 'Aus';

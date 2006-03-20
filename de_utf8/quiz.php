@@ -1,7 +1,12 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2005101200)
+      // quiz.php - created with Moodle 1.6 development (2006031400)
 
 
+$string['1day'] = '1 Tag';
+$string['1hour'] = '1 Stunde';
+$string['2hours'] = '2 Stunden';
+$string['30minutes'] = '30 Minuten';
+$string['6hours'] = '6 Stunden';
 $string['acceptederror'] = 'Akzeptierter Fehler';
 $string['action'] = 'Aktion';
 $string['adaptive'] = 'Adaptiver Modus';
@@ -43,7 +48,7 @@ $string['attempts'] = 'Versuche';
 $string['attemptsallowed'] = 'Erlaubte Versuche';
 $string['attemptselection'] = 'Auswahl welche Versuche für jede/n Nutzer/in  analysiert werden:';
 $string['attemptsexist'] = 'Dieser Test wurde bereits von Ihnen durchgeführt.<br />Sie können jetzt keine Fragen mehr hinzfügen und entfernen';
-$string['attemptsunlimited'] = 'Unbegrenzte Versuche';
+$string['attemptsunlimited'] = 'Unbegrenzte Zahl';
 $string['back'] = 'Zurück zur vorherigen Antwort';
 $string['backtoquiz'] = 'Zurück zur Testbearbeitung';
 $string['bestgrade'] = 'Beste Punkte';
@@ -219,7 +224,7 @@ $string['makecopy'] = 'Als neue Frage abspeichern';
 $string['managetypes'] = 'Fragentypen und Server verwalten';
 $string['mark'] = 'Abschicken';
 $string['markall'] = 'Seite abschicken';
-$string['marks'] = 'Punkte';
+$string['marks'] = 'Erreichbare Punktzahl';
 $string['match'] = 'Zuordnung';
 $string['matchanswer'] = 'zugeordnete Antwort';
 $string['max'] = 'Max';
