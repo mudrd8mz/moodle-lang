@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2006031600)
+      // quiz.php - created with Moodle 1.6 development (2006032001)
 
 
 $string['1day'] = '1日';
@@ -468,11 +468,11 @@ $string['uniform'] = '一様分布';
 $string['unit'] = '単位';
 $string['unknowntype'] = '$a 行目の問題タイプはサポートされていません。問題は無視されます。';
 $string['unsupportedformulafunction'] = '関数 $a はサポートされていません。';
-$string['unusedcategorydeleted'] = 'コースを削除した後、カテゴリに登録されている問題がサーバ内で使用されていないため、このカテゴリは削除されました。';
+$string['unusedcategorydeleted'] = 'コースを削除した後、カテゴリ内の問題が使用されませんでしたので、このカテゴリは削除されました。';
 $string['updatesettings'] = '問題設定の更新';
 $string['upgradesure'] = '<div style=\"color: red;\">小テストモジュールは広範囲におよぶ小テストデータベーステーブルの変更を行うことがあります。また、このアップグレードに関する十分なテストは行われていません。アップグレード処理の前に必ずデータベースのバックアップを行ってください。</div> ';
 $string['url'] = 'URL';
-$string['usedcategorymoved'] = 'コースを削除した後に、カテゴリに登録されている問題が他の小テストで使用されているため、このカテゴリはサイトレベルで移動されました。';
+$string['usedcategorymoved'] = 'このカテゴリは公開され、他のコースで使用されているため、維持したままサイトレベルに移動されました。';
 $string['validate'] = '確認';
 $string['viewallanswers'] = '$a 件の受験結果を表示';
 $string['viewallreports'] = '$a 件の受験レポートを表示';
