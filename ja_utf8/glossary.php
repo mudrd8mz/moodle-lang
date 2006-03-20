@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 development (2006022400)
+      // glossary.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -92,7 +92,7 @@ $string['entryusedynalink'] = 'エントリを自動的にリンクさせる';
 $string['explainaddentry'] = '用語集に新しいエントリを追加します。<br />用語と定義は必須入力項目です。';
 $string['explainall'] = 'すべてのエントリを1ページに表示';
 $string['explainalphabet'] = 'インデックスを利用して用語集を表示';
-$string['explainexport'] = '用語集をエクスポートするには、下記のボタンをクリックしてください。<br />いつでも必要な時に、用語集をこのコースまたは他のコースにインポートすることができます。<p>添付ファイル ( 例 イメージ ) および著者はエクスポートされませんので注意してください。</p>';
+$string['explainexport'] = '用語集をエクスポートするには、下記のボタンをクリックしてください。<br />いつでも必要なときに、用語集をこのコースまたは他のコースにインポートすることができます。<p>添付ファイル ( 例 イメージ ) および著者はエクスポートされませんので注意してください。</p>';
 $string['explainimport'] = 'インポートするファイルおよび処理方法を指定してください。<p>実行後、結果を検証してください。';
 $string['explainspecial'] = '１文字で始まらないエントリを表示します。';
 $string['exportentries'] = 'エントリのエクスポート';

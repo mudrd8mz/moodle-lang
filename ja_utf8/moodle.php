@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006031400)
+      // moodle.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['action'] = '操作';
@@ -186,7 +186,7 @@ $string['clamdeletedfilefailed'] = 'ファイルが削除されませんでし�
 $string['clamemailsubject'] = '$a :: Clam AV通知';
 $string['clamfailed'] = 'Clam AVの起動が失敗しました。 エラーメッセージは、 $a です。Clamからの出力結果は次のとおりです:';
 $string['clamlost'] = 'Moodleはファイルアップロード時にclamが動作するように設定されていますが、Clam AVのパス $a が間違っています。';
-$string['clamlostandactinglikevirus'] = '加えて、moodleはclamが動作失敗した時に、ファイルをウイルスとして扱うように設定されています。あなたが修正するまで、原則的に学生はファイルをアップロードできないことを意味します。';
+$string['clamlostandactinglikevirus'] = '加えて、moodleはclamが動作失敗したときに、ファイルをウイルスとして扱うように設定されています。あなたが修正するまで、原則的に学生はファイルをアップロードできないことを意味します。';
 $string['clammovedfile'] = 'ファイルは、あなたが指定した隔離用ディレクトリに移動されました。新しい保存場所は、$a です。';
 $string['clammovedfilebasic'] = 'ファイルが隔離用ディレクトリに移動されました。';
 $string['clamquarantinedirfailed'] = 'あなたが指定した隔離用ディレクトリ $a にファイルを移動できませんでした。これを修正しないで、ファイルが感染していることが分かった場合は、そのファイルは削除されます。';
@@ -844,7 +844,7 @@ $string['newusernewpasswordtext'] = 'こんにちは $a->lastname さん
 あなたの現在のログイン情報は下記のとおりです:
 ユーザ名: $a->username
 パスワード: $a->newpassword
-( 最初にログインした時にパスワードを変更してください。)
+( 最初にログインしたときにパスワードを変更してください。)
 
 $a->sitename で作業を始めるには $a->link にログインしてください。
 

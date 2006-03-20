@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 development (2006022400)
+      // auth.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['alternatelogin'] = 'ここにURLを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong>フィールドおよび<strong>password</strong>フィールドを適切にMoodleに渡す必要があります。<br />間違ったURLを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合は、空白のままにしてください。';
@@ -47,7 +47,7 @@ $string['auth_fcuserid'] = '権限「Subadministrator」を持ったFirstClass�
 $string['auth_fieldlock'] = '値をロックする';
 $string['auth_fieldlock_expl'] = '<p><b>値をロックする:</b> このオプションを有効にした場合、Moodleユーザおよび管理者はフィールドを直接編集するのを防止します。外部認証システムでデータをメンテナンスしている場合にこのオプションを使用してください。</p>';
 $string['auth_fieldlocks'] = 'ユーザフィールドのロック';
-$string['auth_fieldlocks_help'] = '<p>ここではユーザフィールドをロックすることができます。ユーザレコードを管理者が手動で編集する方法、または「ユーザのアップロード」機能を使ってユーザレコードをアップロードする方法をとっている場合に便利です。Moodleで必要なフィールドをロックする場合、ユーザアカウントを作成するときにそれらのデータを必ず提供してください。そうでない場合は、アカウントを使用できなくなります。</p><p>このトラブルを避けるために、「空の時はロックしない」に設定することを考慮してください。</p>';
+$string['auth_fieldlocks_help'] = '<p>ここではユーザフィールドをロックすることができます。ユーザレコードを管理者が手動で編集する方法、または「ユーザのアップロード」機能を使ってユーザレコードをアップロードする方法をとっている場合に便利です。Moodleで必要なフィールドをロックする場合、ユーザアカウントを作成するときにそれらのデータを必ず提供してください。そうでない場合は、アカウントを使用できなくなります。</p><p>このトラブルを避けるために、「空の場合はロックしない」に設定することを考慮してください。</p>';
 $string['auth_imapdescription'] = 'ユーザ名とパスワードを確認するためにIMAPサーバを使用します。';
 $string['auth_imaphost'] = 'IMAPサーバアドレスです。IPアドレスではなくドメイン名を使用してください。';
 $string['auth_imapport'] = 'IMAPサーバポート番号です。通常は143または993です。';
@@ -57,7 +57,7 @@ $string['auth_ldap_bind_dn'] = 'ユーザ検索にbindユーザを利用した�
 $string['auth_ldap_bind_pw'] = 'bindユーザ用のパスワード';
 $string['auth_ldap_bind_settings'] = 'Bind設定';
 $string['auth_ldap_contexts'] = 'ユーザが配置されているコンテキスト一覧です。異なるコンテキストは「;」で分けてください。例 \'ou=users,o=org; ou=others,o=org\'';
-$string['auth_ldap_create_context'] = 'ユーザ作成をメールによる認証で行う場合、ユーザが作成されるコンテキストを特定してください。セキュリティの観点から、このコンテキストは各ユーザごとに異なるものでなければなりません。Moodleが自動的にコンテキストからユーザを探しますので、ldap_context-vaiableをこのコンテキストに追加する必要はありません。<br /><b>注意!</b> ユーザ作成を動作させるために、auth/ldap/lib.phpファイルのauth_user_create() 関数を修正してください。';
+$string['auth_ldap_create_context'] = 'ユーザ作成をメールによる認証で行う場合、ユーザが作成されるコンテキストを特定してください。セキュリティの観点から、このコンテキストは各ユーザごとに異なるものでなければなりません。Moodleが自動的にコンテキストからユーザを探しますので、ldap_context-vaiableをこのコンテキストに追加する必要はありません。<br /><b>注意!</b> ユーザ作成を動作させるため、auth/ldap/lib.phpファイルのauth_user_create() 関数を修正してください。';
 $string['auth_ldap_creators'] = 'メンバーが新しいコースの作成を許されているグループのリストです。複数のグループは「;」で分けられています。通常は\'cn=teachers,ou=staff,o=myorg\'のようになります。';
 $string['auth_ldap_expiration_desc'] = 'パスワードチェックの有効期限を無効にする場合、またはLDAPがLDAPサーバから直接passwordexpirationを参照する場合は、「No」を選択してください。';
 $string['auth_ldap_expiration_warning_desc'] = 'パスワードの有効期限切れを警告するまでの日数を入力してください。';
@@ -79,7 +79,7 @@ $string['auth_ldap_user_settings'] = 'ユーザlookup設定';
 $string['auth_ldap_user_type'] = 'ユーザがどのようにLDAPに保存されるか選択してください。この設定では、有効期限、猶予ログイン、ユーザ作成がどのようになされるのかも指定します。';
 $string['auth_ldap_version'] = 'サーバで使用しているLDAPプロトコルのバージョン';
 $string['auth_ldapdescription'] = '外部のLDAPサーバに対して認証を行います。ユーザ名とパスワードが正しい場合、Moodleは新しいユーザをデータベースに作成します。このモジュールはユーザ属性をLDAPから取得してMoodleのフィールドに入力します。認証後のログインではユーザ名とパスワードのみが確認されます。';
-$string['auth_ldapextrafields'] = 'これらのフィールドは任意項目です。<b>LDAPフィールド</b>より事前に入力されたMoodleユーザフィールドを選択することも可能です。<p>空白の場合はLDAPよりデータの転送は行われずにMoodleの初期値が使用されます</p><p>どちらの場合でも、ユーザはログイン後にすべてのフィールドを編集可能です。</p>';
+$string['auth_ldapextrafields'] = 'これらのフィールドは任意項目です。<b>LDAPフィールド</b>より事前に入力されたMoodleユーザフィールドを選択することも可能です。<p>空白の場合、LDAPよりデータの転送は行われず、Moodleの初期値が使用されます</p><p>どちらの場合でも、ユーザはログイン後にすべてのフィールドを編集可能です。</p>';
 $string['auth_ldaptitle'] = 'LDAPサーバを使用';
 $string['auth_manualdescription'] = 'この方法では、ユーザによるユーザアカウント作成機能を停止します。すべてのアカウント作成は、管理者により手動で行う必要があります。';
 $string['auth_manualtitle'] = '手動アカウント作成のみ';
@@ -120,7 +120,7 @@ $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_updatelocal'] = 'ローカルデータの更新';
 $string['auth_updatelocal_expl'] = '<p><b>ローカルデータの更新:</b> この設定を「Yes」にした場合、このフィールドは(外部認証を通して)ログイン毎またはユーザの同期ごとに更新されます。更新されるローカルフィールドはロックする必要があります。</p>';
 $string['auth_updateremote'] = '外部データの更新';
-$string['auth_updateremote_expl'] = '<p><b>外部データの更新:</b> この設定を「Yes」にした場合、ユーザレコードが更新される時に外部認証が更新されます。編集できるようにフィールドをアンロックする必要があります。</p>';
+$string['auth_updateremote_expl'] = '<p><b>外部データの更新:</b> この設定を「Yes」にした場合、ユーザレコードが更新されるときに外部認証が更新されます。編集できるようにフィールドをアンロックする必要があります。</p>';
 $string['auth_updateremote_ldap'] = '<p><b>注意:</b> 外部LDAPデータを更新するためには、binddnとbindpwを書き込み権を持ったbindユーザに設定する必要があります。現在、マルチバリュー属性を保護しません。また、更新時にエクストラバリューは取り除かれます。</p>';
 $string['auth_user_create'] = 'ユーザの作成を許可する';
 $string['auth_user_creation'] = '新しい ( 匿名の ) ユーザは外部認証によりユーザアカウントを作成することができます。ユーザの確定はメールによって行われます。このオプションを有効にした場合、module-specificオプションも同時に有効にする必要があります。';
