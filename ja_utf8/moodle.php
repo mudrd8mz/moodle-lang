@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006031600)
+      // moodle.php - created with Moodle 1.6 development (2006032001)
 
 
 $string['action'] = '操作';
@@ -1192,7 +1192,7 @@ $string['summary'] = '概要';
 $string['summaryof'] = '$a の概要';
 $string['supplyinfo'] = '個人情報を入力してください。';
 $string['tag'] = 'タグ';
-$string['tagmanagement'] = 'タグ管理';
+$string['tagmanagement'] = 'タグの追加/削除 ...';
 $string['tags'] = 'タグ';
 $string['teacheronly'] = '$a 専用';
 $string['teacherroles'] = '$a 権限';
