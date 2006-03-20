@@ -1,17 +1,18 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.5 + (2005060201)
+      // quiz_analysis.php - created with Moodle 1.6 development (2006032001)
 
 
 $string['analysisoptions'] = 'Analiz seçenekleri';
 $string['analysistitle'] = 'Öge Analiz Tablosu';
-$string['attemptsall'] = 'Tüm uygulamalar';
-$string['attemptselection'] = 'Her bir kullanıcı için yapılacak uygulama analizi';
-$string['attemptsfirst'] = 'İlk uygulama';
-$string['attemptshighest'] = 'En yüksek not';
-$string['attemptslast'] = 'Son uygulama';
+$string['attemptsall'] = 'tüm uygulamalar';
+$string['attemptselection'] = 'Her bir kullanıcıyı analiz için uygulama';
+$string['attemptsfirst'] = 'ilk uygulama';
+$string['attemptshighest'] = 'en yüksek not';
+$string['attemptslast'] = 'son uygulama';
 $string['dicsindextitle'] = 'Ayırıcı<br />Index';
 $string['disccoefftitle'] = 'Ayırıcı<br />Katsayı';
-$string['downloadooo'] = 'OpenOffice biçiminde indir';
+$string['downloadooo'] = 'OpenOffice biçiminde İndir';
+$string['facilitytitle'] = 'Doğruluk%%<br />Kolaylık';
 $string['lowmarkslimit'] = 'Puanlar bundan azsa analiz yapma:';
 $string['pagesize'] = 'Her sayfadaki soru';
 $string['qcounttitle'] = 'S. sayısı';
@@ -23,6 +24,7 @@ $string['quizreportdir'] = 'sinav_sonuclari';
 $string['rcounttitle'] = 'Cevap<br />Sayısı';
 $string['reportanalysis'] = 'Öge Analiz Raporu';
 $string['responsestitle'] = 'Cevap metni';
+$string['rfractiontitle'] = 'kısmi<br />kredi';
 $string['rpercenttitle'] = 'C.%%';
 $string['stddevtitle'] = 'SS';
 

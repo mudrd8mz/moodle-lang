@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006031400)
+      // moodle.php - created with Moodle 1.6 development (2006032001)
 
 
 $string['action'] = 'Eylem';
@@ -684,6 +684,7 @@ $string['login'] = 'Giriş';
 $string['login_failure_logs'] = 'Giriş hatası kayıtları';
 $string['loginalready'] = 'Zaten giriş yaptınız';
 $string['loginas'] = 'Farklı giriş yap';
+$string['loginaspasswordexplain'] = '<p>Bu özelliği kullanmak için \"farklı şifreyle giriş\" anahtarını girmelisiniz.<br />Bilmiyorsanız, sunucu yöneticisine sorabilirsiniz.</p>';
 $string['loginguest'] = 'Konuk olarak giriş';
 $string['loginsite'] = 'Siteye giriş';
 $string['loginsteps'] = 'Merhaba! Bu sitedeki derslere tam erişim için hesap 
