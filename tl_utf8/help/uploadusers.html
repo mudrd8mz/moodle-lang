@@ -1,12 +1,12 @@
 <p style="text-align: center"><b>Pag-aaplowd ng mga user</b></p>
 
 <p>Una, tandaan na <strong>hindi naman talaga kailangang mag-angkat ng
-mga user nang maramihan</strong> - upang mabawasan ang gawain mo sa
+mga user nang lansakan</strong> - upang mabawasan ang gawain mo sa
 pagmementina, dapat ay pag-aralan mo muna ang ibang anyo ng pagsusuri ng
 pagkakakilanlan na hindi nangangailangan ng mano-manong pagsasaayos.
 Tulad ng pagkonekta sa yari nang panlabas na database o pagpapahintulot
 sa mga user na lumikha ng sarili nilang account.  Tingnan ang seksiyon
-hinggil sa Awtentikasyon sa mga pang-admin na
+hinggil sa Pagtiyak sa Pagkakakilanlan sa mga pang-admin na
 menu. </p>
 
 <p>Kung talagang nais mong mag-angkat ng maramihang user account mula
@@ -14,17 +14,14 @@ sa isang text file, kakailanganin mong ipormat ang text file mo ng
 paganito: </p>
 
 <ul>
-  <li>Ang bawat linya sa file ay maglalaman ng isang record </li>
-
-  <li>Ang bawat record ay isang serye ng datos na pinaghihiwalay ng
-kuwit </li>
-
-  <li>Natatangi ang unang record ng file, at naglalaman ito ng listahan
+  <li>Ang bawat linya sa file ay maglalaman ng isang rekord </li>
+  <li>Ang bawat rekord ay isang serye ng datos na pinaghihiwalay ng kuwit </li>
+  <li>Espesyal ang unang rekord ng file, at naglalaman ito ng listahan
 ng mga fieldname.  Ito ang nagtatakda sa format ng kabuuang file.
     <blockquote>
 
       <p><strong>Mga kinakailangang fieldname: </strong> ang mga field
-na ito ay kailangang isama sa unang record, at bigyang kahulugan ayon sa
+na ito ay kailangang isama sa unang rekord, at bigyang kahulugan ayon sa
 bawat user </p>
 
       <p>
@@ -39,26 +36,27 @@ admin </p>
 mono">institution, department, city, country, lang, auth, timezone</font> </p>
 
       <p><strong>Mga opsiyonal na fieldname: </strong>ganap na opsiyonal
-ang mga ito.  Ang mga pangalan ng kurso ay ang "maiikling
-panglan" ng mga kurso - kung mayroon nito, ang user ay ieenrol
+ang mga ito.  Ang mga pangalan ng kurso ay ang &quot;maiikling
+pangalan&quot; ng mga kurso - kung mayroon nito, ang user ay ieenrol
 bilang mag-aaral sa mga kursong itinakda.  Ang mga pangalan ng pangkat
 ay dapat kaugnay ng angkop na kurso, a.b. group1 sa course1, atbp.
 </p>
 
-      <p> <font color="#990000" face="Courier New, Courier,
-mono">idnumber, icq, phone1, phone2, address, url, description,
-mailformat, maildisplay, htmleditor, autosubscribe, course1, course2,
-course3, course4, course5, group1, group2, group3, group4,
-group5</font></p>
+<p> <font color="#990000" face="Courier New, Courier, mono">idnumber, icq, phone1, phone2, address, url, description, mailformat, maildisplay, htmleditor, autosubscribe, course1, course2, course3, course4, course5, group1, group2, group3, group4, group5, type1, type2, type3, type4, type5</font></p>
 
     </blockquote>
     </li>
-  <li>Ang mga kuwit sa loob ng datos ay kailangang iencode na &amp;&#035;44 -
-awtomatikong idedecode ng script ang mga ito pabalik sa kuwit. </li>
+  <li>Ang mga kuwit sa loob ng datos ay kailangang iencode na &amp;#44 -
+awtomatikong idedecode ng iskrip ang mga ito pabalik sa kuwit. </li>
 
   <li>Para sa mga Boolean na field, gumamit ng 0 para sa ditotoo at 1
 para sa totoo. </li>
 
+<li>Ang mga type ay ginagamit para sabihin sa Moodle kung ang user ay mag-aaral o guro, kung may kaugnay itong kurso (hal. type2 ay kaugnay ng course2). 
+1 = Mag-aaral, 2 = Nakapag-eedit na Guro, at 3 = Dinakapag-eedit na Guro. 
+Kapag iniwang blangko ang type, o kung walang kursong itinakda, ang default na user ay mag-aaral.
+ </li>
+  <li>Para sa mga kurso, gamiting ang maikling pangalan ng kurso</li>
   <li>Tala: Kung ang user ay nakarehistro na sa Moodle user database,
 ihuhudyat ng script ang userid na bilang (database index) ng user na
 iyon, at ieenrol ang user bilang mag-aaral sa anumang itinakdang kurso
@@ -67,10 +65,16 @@ NANG HINDI binabago ang iba pang itinakdang datos. </li>
 </ul>
   
   
-<p>Halimbawa ng isang balidong file na pang-importa: </p> <p><tt>
-username, password,
-firstname, lastname, email, lang, idnumber, maildisplay, course1,
-group1<br /> jonest, verysecret, Tom, Jones, jonest@someplace.edu, en,
-3663737, 1, Intro101, Section 1<br /> reznort, somesecret, Trent,
-Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section
-3</tt></p>
+<p>Halimbawa ng isang balidong file na pang-importa: </p> 
+<p><font size="-1" face="Courier New, Courier, mono">username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1, type1<br />
+jonest, verysecret, Tom, Jones, jonest@someplace.edu, en, 3663737, 1, Intro101, Section 1, 1<br />
+reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3, 3</font></p>
+
+<p align="center"><b>Paggawang bago sa mga kasalukuyang account</b></p>
+
+<p>Ang default na inaakala ng Moodle ay lilikha ka ng  bagong user account, at nilalagpasan nito ang mga rekord na ang username ay tumutugma sa isang kasalukuyang account.  Gayunpaman, kapag itinakda mo ang &quot;Gawing bago ang mga kasalukuyang account&quot; sa 
+ <b>Oo</b>, gagawing bago ang kasalukuyang user account. </p>
+
+<p>Habang ginagawang bago ang mga kasalukuyang account, mababago mo rin ang mga username.  Itakda ang &quot;Pahintulutan ang pagbabago ng pangalan&quot; sa  <b>Oo</b> at isama sa file mo ang isang field na may pangalang <font color="#990000" face="Courier New, Courier, mono">oldusername</font>.</p>
+
+<p><b>Babala:</b> ang anumang error sa paggawang bago ng mga kasalukuyang account ay magkakaroon ng masamang epekto sa mga user mo. Mag-ingat sa paggamit ng mga opsiyon sa paggawang bago.</p>
