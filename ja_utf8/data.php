@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 development (2006022400)
+      // data.php - created with Moodle 1.6 development (2006032001)
 
 
 $string['action'] = '操作';
@@ -25,7 +25,12 @@ $string['commentsaved'] = 'コメントが保存されました。';
 $string['configenablerssfeeds'] = 'このスイッチはすべてのデータベースに関するRSSフィードを有効にします。あなたは更に各データベースのRSSフィード設定を手動で行う必要があります。';
 $string['confirmdeletefield'] = 'あなたはこのフィールドを削除しようとしています。よろしいですか?';
 $string['confirmdeleterecord'] = '本当にこのレコードを削除してもよろしいですか?';
+$string['csvfile'] = 'CSVファイル:';
+$string['csvimporthelptext'] = 'ここで求められるファイルフォーマットは、フィールド名が最初のレコードにある通常のテキストファイルです。データは、次のレコードから始めてください。フィールドデリミタのデフォルトは、カンマ、フィールドエンクロージャは、デフォルトではセットしません。フィールドエンクロージャは、フィールドの最初および最後に置きます。レコードは、新しい行で区切ってください ( 通常、テキストエディタで、RETURNまたはENTERキーを押すことで作成されます )。独自の文字を設定することで、デフォルトを上書きすることができます。タブは、t 新しい行は n で指定することができます。現在、インポート機能は次のフィールドタイプに関して完全には動作しません: ファイル、ピクチャ、URL。';
+$string['csvimporthelptitle'] = 'ヘルプ: データモジュールのCSVファイルインポート';
 $string['dateentered'] = '入力日時';
+$string['defaultfielddelimiter'] = '( デフォルトはカンマ )';
+$string['defaultfieldenclosure'] = '( デフォルトは無し )';
 $string['delete'] = '削除';
 $string['deleted'] = '削除されました。';
 $string['deletefield'] = 'フィールドを削除します。';
@@ -39,7 +44,9 @@ $string['example'] = 'データベースモジュール例';
 $string['fieldadded'] = 'フィールドが追加されました。';
 $string['fieldallowautolink'] = 'オートリンクを許可';
 $string['fielddeleted'] = 'フィールドが削除されました。';
+$string['fielddelimiter'] = 'フィールドデリミタ:';
 $string['fielddescription'] = 'フィールド説明';
+$string['fieldenclosure'] = 'フィールドエンクロージャ:';
 $string['fieldheight'] = '高さ';
 $string['fieldheightlistview'] = '一覧表示の高さ';
 $string['fieldheightsingleview'] = '単一表示の高さ';
@@ -110,6 +117,8 @@ $string['ratings'] = '評価';
 $string['ratingssaved'] = '評価が保存されました。';
 $string['ratingsuse'] = '評価を使用';
 $string['recorddeleted'] = 'レコードが削除されました。';
+$string['recordsnotsaved'] = 'レコードは保存されませんでした。アップロードファイルのフォーマットを確認してください。';
+$string['recordssaved'] = 'レコードが保存されました。';
 $string['requireapproval'] = '承認が必要ですか?';
 $string['requiredentries'] = '必須エントリ数';
 $string['requiredentriestoview'] = '閲覧前に必要な必須エントリ数';
@@ -127,6 +136,8 @@ $string['text'] = 'テキスト';
 $string['textarea'] = 'テキストエリア';
 $string['type'] = 'フィールドタイプ';
 $string['updatefield'] = 'フィールドを更新します。';
+$string['uploadfile'] = 'ファイルのアップロード';
+$string['uploadrecords'] = 'レコードのアップロード';
 $string['url'] = 'URL';
 $string['viewfromdate'] = '表示開始日時';
 $string['viewtodate'] = '表示終了日時';
