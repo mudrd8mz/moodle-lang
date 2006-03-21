@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 development (2006022400)
+      // data.php - created with Moodle 1.6 development (2006032001)
 
 
 $string['action'] = 'Eylem';
@@ -24,7 +24,10 @@ $string['comments'] = 'Yorumlar';
 $string['commentsaved'] = 'Yorum Kaydedildi';
 $string['confirmdeletefield'] = 'Bu alanı silmek üzeresiniz, emin misiniz?';
 $string['confirmdeleterecord'] = 'Bu kaydı silmek üzeresiniz, emin misiniz?';
+$string['csvfile'] = 'CSV dosyası:';
 $string['dateentered'] = 'Girilme Tarihi';
+$string['defaultfielddelimiter'] = '(varsayılan, virgülle ayrılmış)';
+$string['defaultfieldenclosure'] = '(varsayılan, hiçbiri)';
 $string['delete'] = 'Sil';
 $string['deleted'] = 'silindi';
 $string['deletefield'] = 'Varolan Alanı Sil';
@@ -38,7 +41,9 @@ $string['example'] = 'Veritabanı modul örneği';
 $string['fieldadded'] = 'Alan eklendi';
 $string['fieldallowautolink'] = 'Oto-Link\'e izin ver';
 $string['fielddeleted'] = 'Alan silindi';
+$string['fielddelimiter'] = 'Alan ayracı:';
 $string['fielddescription'] = 'Alan açıklaması';
+$string['fieldenclosure'] = 'Alan kuşatıcı:';
 $string['fieldheight'] = 'Yükseklik';
 $string['fieldheightlistview'] = 'Liste görünümünüdeki yükseklik';
 $string['fieldheightsingleview'] = 'Tek görünümlük yükseklik';
@@ -109,6 +114,7 @@ $string['ratings'] = 'Derecelendirmeler';
 $string['ratingssaved'] = 'Derecelendirmeler kaydedildi';
 $string['ratingsuse'] = 'Derecelendirme kullan';
 $string['recorddeleted'] = 'Kayıt Silindi';
+$string['recordssaved'] = 'kayıt kaydedildi';
 $string['requireapproval'] = 'Onay Gerekli mi?';
 $string['requiredentries'] = 'Gerekli girdiler';
 $string['requiredentriestoview'] = 'Gözatmadan önce girdiler gerekli';
@@ -126,6 +132,8 @@ $string['text'] = 'Metin';
 $string['textarea'] = 'Uzun metin';
 $string['type'] = 'Alan tipi';
 $string['updatefield'] = 'Var olan alanı güncelle';
+$string['uploadfile'] = 'Dosya Yükle';
+$string['uploadrecords'] = 'Kayıtları Yükle';
 $string['url'] = 'Url';
 $string['viewfromdate'] = 'Bakış başlangıç';
 $string['viewtodate'] = 'Bakış bitiş';
