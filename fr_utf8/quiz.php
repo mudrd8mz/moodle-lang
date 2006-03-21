@@ -472,7 +472,7 @@ $string['unusedcategorydeleted'] = 'Cette catégorie à été supprimée, car ap
 $string['updatesettings'] = 'Modifier les réglages du test';
 $string['upgradesure'] = '<div style=\"color: red;\">ATTENTION&nbsp;! Les tables du module Test seront considérablement modifiées, et cette mise à jour n\'a pas encore été suffisamment testée. Nous vous recommandons instamment de faire une copie de sauvegarde de votre base de données avant de continuer&nbsp;!</div>';
 $string['url'] = 'URL';
-$string['usedcategorymoved'] = 'Cette catégorie à été déplacée au niveau du site, car après la suppression du cours, les questions qui y sont classées sont utilisées dans d\'autres cours.';
+$string['usedcategorymoved'] = 'Cette catégorie à été déplacée au niveau du site, car elle est publiée et certaines de ses questions sont utilisées dans d\'autres cours.';
 $string['validate'] = 'Valider';
 $string['viewallanswers'] = 'Afficher les $a tentatives du test';
 $string['viewallreports'] = 'Afficher le rapport des $a tentatives';
