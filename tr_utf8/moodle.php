@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006032001)
+      // moodle.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['action'] = 'Eylem';
@@ -967,6 +967,7 @@ $string['periodending'] = 'Bitiş süresi ($a)';
 $string['personalprofile'] = 'Kişisel profil';
 $string['phone'] = 'Telefon';
 $string['phpinfo'] = 'PHP Bilgisi';
+$string['pluginsetup'] = 'Eklenti tabloları ayarlanıyor';
 $string['policyagree'] = 'Bu siteyi kullanmaya devam etmek için bu sözleşmeyi kabul etmelisiniz. Kabul ediyor musunuz?';
 $string['policyagreement'] = 'Site Kullanım Sözleşmesi';
 $string['policyagreementclick'] = 'Site Kullanım Sözleşmesini okumak için burayı tıklayın';

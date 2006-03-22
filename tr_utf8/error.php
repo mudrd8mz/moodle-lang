@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2006031000)
+      // error.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
@@ -35,7 +35,7 @@ $string['invalidmd5'] = 'Geçersiz md5';
 $string['invalidxmlfile'] = '\"$a\" geçerli bir XML dosyası değil';
 $string['missingfield'] = '\"$a\" alanı eksiktir';
 $string['missingrequiredfield'] = 'Bazı gerekli alanlar eksik';
-$string['modulerequirementsnotmet'] = '\"$a->modulename\" ($a->moduleversion) modülü kurulamadı. Yeni moodle sürümü gerekmektedir (şu anda kullandığınız: $a->currentmoodle, gereken: $a->requiremoodle).';
+$string['modulerequirementsnotmet'] = '\"$a->modulename\" ($a->moduleversion) modülü kurulamadı. Bu modül daha yeni bir Moodle sürümü gerektirmektedir (şu anda kullandığınız: $a->currentmoodle, gereken: $a->requiremoodle).';
 $string['mustbeteacher'] = 'Bu sayfaya bakabilmek için eğitimci olmalısınız';
 $string['noinstances'] = '$a bu kursta kullanılmadı!';
 $string['nonmeaningfulcontent'] = 'Anlamsız içerik';
@@ -43,6 +43,7 @@ $string['notavailable'] = 'Şu anda erişilemez';
 $string['onlyadmins'] = 'Bunu sadece yöneticiler yapabilir';
 $string['onlyeditingteachers'] = 'Sadece eğitimciler bunu yapabilir';
 $string['onlyeditown'] = 'Sadece kendi bilgilerinizi düzenleyebilirsiniz';
+$string['pluginrequirementsnotmet'] = '\"$a->pluginname\" ($a->pluginversion) eklentisi kurulamadı. Bu eklenti daha yeni bir Moodle sürümü gerektirmektedir (şu anda kullandığınız: $a->currentmoodle, gereken: $a->requiremoodle).';
 $string['processingstops'] = 'İşlem burada sona erer. Kalan kayıtlar yoksayılır.';
 $string['remotedownloadnotallowed'] = 'Sunucunuza bileşen indirmeye izin verilmiyor. (allow_url_fopen pasif).<br /><br />Arşivlenmiş dosyayı elle buraya \"$a->dest\" indirip <a href=\"$a->url\">$a->url</a> arşivi açmalısınız. ';
 $string['restricteduser'] = 'Üzgünüz, şu anki \"$a\" hesabınız bunu yapmak için sınırlandırılmıştır.';
