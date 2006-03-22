@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2005111101)
+      // moodle.php - created with Moodle 1.6 development (2006032001)
 
 
 $string['action'] = 'Aktion';
@@ -434,7 +434,7 @@ $string['encryptedcode'] = 'Verschlüsselter Code';
 $string['enroldate'] = 'Datenbereich';
 $string['enrolenddate'] = 'Enddatum';
 $string['enrolenddaterror'] = 'Der Endzeitpunkt der Eintragung kann nicht vor dem Anfangsdatum liegen.';
-$string['enrollable'] = 'in den Kurs eintragen ist möglich';
+$string['enrollable'] = 'In den Kurs eintragen ist möglich';
 $string['enrolledincourse'] = 'Eingetragen in den Kurs ';
 $string['enrolledincoursenot'] = 'Nicht in Kurs ';
 $string['enrollfirst'] = 'Sie müssen zu einem Kurs angemeldet sein, bevor Sie diese Aktivität nutzen können.';
@@ -511,7 +511,6 @@ $string['forcepasswordchangenotice'] = 'Sie müssen Ihr Kennwort ändern, bevor 
 $string['forcetheme'] = 'Festgelegtes Design';
 $string['forgotaccount'] = 'Haben Sie Ihr Kennwort vergessen?';
 $string['forgotten'] = 'Anmeldename und Kennwort vergessen?';
-$string['forgottenduplicate'] = 'Die automatische Kennwortbenachrichtigung konnte nicht abgeschlossen werden. Die E-Mail-Adresse ist in der Datenbank mehr als einmal registriert. Nehmen Sie bitte mit der Administration Kontakt auf.<a href=\"mailto:$a->email\">$a->firstname $a->lastname</a>.';
 $string['format'] = 'Format';
 $string['formathtml'] = 'HTML-Format';
 $string['formatlams'] = 'LAMS Kursformat';

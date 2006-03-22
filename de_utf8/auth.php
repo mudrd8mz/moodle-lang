@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 development (2005090100)
+      // auth.php - created with Moodle 1.6 development (2006032001)
 
 
 $string['alternatelogin'] = 'Wenn Sie hier eine URL eingeben, wird diese als alternative Login-Seite  verwandt. Die Seite sollte ein Aktionsfeld (Button)auf <strong>\'$a\'</strong> enthalten und Eingabefelder für den <strong>Anmeldenamen</strong> und das <strong>Passwort</strong>.<br />Seien Sie sorgfältig bei der Eingabe der URL. Mit einer falschen URL schließen Sie sich selber vom Zugriff zur Seite aus.<br />Lassen Sie das Feld leer, um die Standardanmeldeseite zu verwenden.';
@@ -101,6 +101,11 @@ $string['auth_pop3mailbox'] = 'Name der Mailbox mit der eine Verbindung hergeste
 $string['auth_pop3port'] = 'POP3 Serverport-Nummer. Normalerweise ist das 110, für SSL 995.';
 $string['auth_pop3title'] = 'Einen POP3-Server verwenden';
 $string['auth_pop3type'] = 'Servertyp. Wenn Ihr Server Sicherheitszertifikate verwendet, wählen Sie pop3cert.';
+$string['auth_radiusdescription'] = 'Dieses Verfahren verwendet einen <a href=\"http://en.wikipedia.org/wiki/RADIUS\" target=\"_blank\">RADIUS</a> Server zur Prüfung des Nutzernamens und des Passwortes.';
+$string['auth_radiushost'] = 'Adresse des RADIUS Servers';
+$string['auth_radiusnasport'] = 'Port für Verbindung';
+$string['auth_radiussecret'] = 'Shared secret';
+$string['auth_radiustitle'] = 'RADIUS Server verwenden';
 $string['auth_shib_convert_data'] = 'Datenmodifikation APU';
 $string['auth_shib_convert_data_description'] = 'Sie können diese API nutzen, um Daten von Shibboleth zu bearbeiten. <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">Hier</a> finden Sie weitere Hinweise.';
 $string['auth_shib_convert_data_warning'] = 'Die Datei existiert nicht oder ist vom Server nicht lesbar.';
@@ -126,18 +131,21 @@ $string['authinstructions'] = 'Hier können Sie Ihren Nutzern Anweisungen geben,
 $string['changepassword'] = 'Passwort-URL ändern';
 $string['changepasswordhelp'] = 'Hier können Sie eine Adresse angeben, unter der die Nutzer ihren Nutzernamen/Passwort ändern können, sofern Sie dies vergessen haben. Diese Option wird den Nutzern als Schaltfläche auf der Anmeldungsseite angeboten. Wenn Sie dieses Feld leer lassen, wird er nicht angezeigt.';
 $string['chooseauthmethod'] = 'Wählen Sie eine Authentifizierungsmethode: ';
-$string['createchangepassword'] = 'Fehlenden Wert anlegen - Änderung verbindlich einfordern';
-$string['createpassword'] = 'Fehlenden Wert anlegen';
+$string['createpasswordifneeded'] = 'Passwort anlegen, falls erforderlich';
 $string['forcechangepassword'] = 'Verbindliche Änderung des Passwortes';
 $string['forcechangepassword_help'] = 'Nutzer werden aufgefordert Ihr Passwort beim nächsten Login zu ändern';
 $string['forcechangepasswordfirst_help'] = 'Nutzer werden aufgefordert Ihr Passwort beim ersten Login zu ändern';
 $string['guestloginbutton'] = 'Gast-Login Schaltfläche';
 $string['infilefield'] = 'Erforderliches Feld in Datei';
 $string['instructions'] = 'Anweisungen';
+$string['internal'] = 'Intern';
 $string['locked'] = 'Gesperrt';
 $string['md5'] = 'MD5-Verschlüsselung';
 $string['passwordhandling'] = 'Nutzung des Passwortfeldes';
 $string['plaintext'] = 'Reiner Text';
+$string['shib_no_attributes_error'] = 'Sie versuchen vermutlich die Shibboleth Authentifizierung zu verwenden. moodle hat jedoch keine Attribute für die Nutzer/innen erhalten. Prüfen Sie bitte, ob der Identity Provider die erforderlichen Attribute ($a) dem moodle Serviceprovider zur Verfügung stellt oder informieren Sie den Webmaster des Servers.';
+$string['shib_not_all_attributes_error'] = 'moodle benötigt einige Shibboleth-Attribute die derzeitnicht bereitgestellt werden. Es handelt sich um die Attribute: $a<br />Benachrichtigen Sie bitte den Webmaster des Servers oder Ihren Identity Provider.';
+$string['shib_not_set_up_error'] = 'Die Shibboleth-Authentifizierung scheint nicht richtig eingerichtet zu sein. Beachten Sie die <a href=\"README.txt\">README-Datei</a> mit weiteren Informationen zur Einrichtung der Shibboleth-Authentifizierung.';
 $string['showguestlogin'] = 'Sie können die Gast-Login Schaltfläche auf der Anmeldeseite anzeigen oder verbergen.';
 $string['stdchangepassword'] = 'Standardseite zur Passwortänderung nutzen';
 $string['stdchangepassword_expl'] = 'Stellen Sie Ja ein, wenn das externe Authentifizierungssystem eine Änderung des Passwortes durch moodle zulässt. Die Einstellungen überschreiben \'Passwort-URL ändern\'';
