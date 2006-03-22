@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2006031000)
+      // error.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -45,6 +45,7 @@ $string['notavailable'] = '現在利用できません';
 $string['onlyadmins'] = '管理者のみ処理可能です。';
 $string['onlyeditingteachers'] = '編集権限を持った教師のみ処理可能です。';
 $string['onlyeditown'] = '他の人の情報は編集できません。';
+$string['pluginrequirementsnotmet'] = 'プラグイン 「 $a->pluginname 」 ($a->pluginversion) がインストールされませんでした。インストールするには、新しいバージョンのMoodleが必要です ( 現在使用しているバージョン: $a->currentmoodle  インストールに必要なバージョン: $a->requiremoodle )。';
 $string['processingstops'] = 'プロセスが停止しました。残りのレコードは無視されます。';
 $string['remotedownloadnotallowed'] = 'あなたのサーバーにコンポーネントをダウンロードすることができません ( allow_url_fopen が無効 )。<br /><br /><a href=\"$a->url\">$a->url</a> ファイルを手動でダウンロードして、サーバの「 $a->dest 」にコピーした後、解凍してください。';
 $string['restricteduser'] = '申し訳ございません、あなたのアカウント「 $a 」では、この処理を行うことができません。';

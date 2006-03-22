@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006032001)
+      // moodle.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['action'] = '操作';
@@ -145,7 +145,7 @@ $string['blocks'] = 'ブロック';
 $string['blocksaddedit'] = 'ブロックの追加/編集';
 $string['blockseditoff'] = 'ブロック編集モード OFF';
 $string['blocksediton'] = 'ブロック編集モード ON';
-$string['blocksetup'] = 'ブロックテーブルの設定';
+$string['blocksetup'] = 'ブロックテーブル設定中';
 $string['blocksuccess'] = '$a テーブルが正常に設定されました。';
 $string['bycourseorder'] = 'コース順';
 $string['byname'] = '$a 順';
@@ -285,7 +285,7 @@ $string['currentrelease'] = '現在のリリース情報';
 $string['currentversion'] = '現在のバージョン';
 $string['databasechecking'] = 'Moodleデータベースをバージョン $a->oldversion より $a->newversion へアップグレードしています ...';
 $string['databaseperformance'] = 'データベースパフォーマンス';
-$string['databasesetup'] = 'データベースの設定';
+$string['databasesetup'] = 'データベース設定中';
 $string['databasesuccess'] = 'データベースのアップグレードが完了しました。';
 $string['databaseupgradebackups'] = '現在のバックアップバージョンは $a です。';
 $string['databaseupgradeblocks'] = '現在のブロックバージョンは $a です。';
@@ -781,7 +781,7 @@ $string['missingusername'] = 'ユーザ名が入力されていません。';
 $string['modified'] = '更新日時';
 $string['moduledeleteconfirm'] = 'あなたはモジュール「 $a 」を完全に削除しようとしています。この処理によりモジュールに関わるすべてのデータがデータベースより完全に削除されます。本当に続けてもよろしいですか？';
 $string['moduledeletefiles'] = '「 $a->module 」に関わるすべてのデータは削除されました。削除を完全なものにするために ( モジュールの自動再インストールを防ぐために ) 以下のディレクトリをサーバより削除してください: $a->directory';
-$string['modulesetup'] = 'Moodleテーブル設定中';
+$string['modulesetup'] = 'モジュールテーブル設定中';
 $string['modulesuccess'] = '$a テーブルが正常に設定されました。';
 $string['moodledocslink'] = 'このページのMoodleドキュメント';
 $string['moodleversion'] = 'Moodleバージョン';
@@ -962,6 +962,7 @@ $string['periodending'] = '期間終了 ( $a )';
 $string['personalprofile'] = 'プロフィール';
 $string['phone'] = '電話';
 $string['phpinfo'] = 'PHP情報';
+$string['pluginsetup'] = 'プラグインテーブル設定中';
 $string['policyagree'] = 'このサイトを継続して使用するには、使用許諾に同意する必要があります。同意しますか?';
 $string['policyagreement'] = 'サイト使用許諾';
 $string['policyagreementclick'] = 'サイト使用許諾を読む';
