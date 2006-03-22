@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2006032001)
+      // quiz.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['1day'] = '1日';
@@ -250,6 +250,10 @@ $string['markall'] = 'ページを送信';
 $string['marks'] = '得点';
 $string['match'] = '組み合わせ問題';
 $string['matchanswer'] = '組み合わせの答え';
+$string['matcherror'] = '評点が評定オプションと合致しません - 問題をスキップしました。';
+$string['matchgrades'] = '評点の合致';
+$string['matchgradeserror'] = '評点が一覧に無い場合、エラー';
+$string['matchgradesnearest'] = '評点が一覧にない場合、最も近い評点を使用';
 $string['max'] = '最大';
 $string['min'] = '最小';
 $string['minutes'] = '分';
