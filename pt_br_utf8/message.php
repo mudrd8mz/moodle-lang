@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.5 + (2005060201)
+      // message.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['addcontact'] = 'Acrescentar Contato';
-$string['addsomecontacts'] = 'Para mandar uma mensagem a alguém ou acrescentar um contato à sua lista, use a <a href=\"$a\">busca</a> acima.';
+$string['addsomecontacts'] = 'Para mandar uma mensagem para alguém ou acrescentar um contato à sua lista, use a <a href=\"$a\">busca</a> acima.';
 $string['addsomecontactsincoming'] = 'Estas mensagens são de pessoas que não estão em sua lista de contatos. Para acrescentá-las, clique no ícone \"Acrescentar Contato\" ao lado de seus nomes.';
 $string['ago'] = '$a atrás';
 $string['allmine'] = 'Todas as mensagens que enviei ou recebi';
@@ -38,9 +38,9 @@ $string['nomessages'] = 'Não há mensagens pendentes';
 $string['nomessagesfound'] = 'Não foram encontradas mensagens';
 $string['nosearchresults'] = 'Nenhum resultado corresponde aos termos da  busca';
 $string['offline'] = 'Desconectado';
-$string['offlinecontacts'] = 'Contatos desconectados ($a)';
+$string['offlinecontacts'] = 'Contatos off-line ($a)';
 $string['online'] = 'Conectado';
-$string['onlinecontacts'] = 'Contatos conectados ($a)';
+$string['onlinecontacts'] = 'Contatos on-line ($a)';
 $string['onlyfromme'] = 'Apenas mensagens que eu enviei';
 $string['onlymycourses'] = 'Apenas nos meus cursos';
 $string['onlytome'] = 'Apenas mensagens enviadas para mim';
@@ -62,7 +62,7 @@ $string['timesent'] = 'Horário do envio';
 $string['unblockcontact'] = 'Desbloquear contato';
 $string['unreadmessages'] = '$a mensagens não lidas';
 $string['userisblockingyou'] = 'Este usuário bloqueou as suas mensagens.';
-$string['userisblockingyounoncontact'] = 'Este usuário só aceita mensagens dos usuários incluídos em sua lista de contatos. Atualmente você não está nessa lista.';
+$string['userisblockingyounoncontact'] = 'Este usuário só aceita mensagens dos usuários incluídos em sua lista de contatos. Atualmente você não está nesta lista.';
 $string['userssearchresults'] = 'Resultados da busca: $a usuários encontrados';
 
 ?>

@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // appointment.php - created with Moodle 1.4.2 (2004083120)
+      // appointment.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['allowresubmit'] = 'Permitir novo envio';
 $string['appointmentdetails'] = 'Detalhes do compromisso';
-$string['appointmentlocation'] = 'lugar do compromisso';
+$string['appointmentlocation'] = 'Local do compromisso';
 $string['appointmentname'] = 'Nome do compromisso';
 $string['date'] = 'Data do compromisso';
 $string['description'] = 'Descrição';
@@ -20,7 +20,7 @@ $string['modulenameplural'] = 'Compromissos';
 $string['newsubmissions'] = 'Compromissos enviados';
 $string['notgradedyet'] = 'Sem avaliação';
 $string['notsubmittedyet'] = 'Ainda não enviado';
-$string['overwritewarning'] = 'Atenção: o novo documento que você quer enviar ao servidor vai substituir o documento atual';
+$string['overwritewarning'] = 'Atenção: o novo documento que você quer enviar ao servidor vai substituir o documento atual.';
 $string['saveallfeedback'] = 'Salvar os meus feedbacks';
 $string['submissionfeedback'] = 'Feedback ';
 $string['submissions'] = 'Compromissos enviados';

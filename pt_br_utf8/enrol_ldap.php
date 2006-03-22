@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.5 + (2005060201)
+      // enrol_ldap.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['description'] = '<p>Você pode usar um server LDAP para controlar as inscrições. Se presume que o ramo LDAP contenha grupos mapeados em relação aos cursos e que cada um destes grupos/cursos terá itens que identificam membros mapeados em relação aos estudantes.</p>
@@ -19,7 +19,7 @@ $string['enrol_ldap_general_options'] = 'Opções Gerais';
 $string['enrol_ldap_host_url'] = 'Definir o host LDAP em formato URL como \'ldap://ldap.myorg.com/\' 
 ou \'ldaps://ldap.myorg.com/\'';
 $string['enrol_ldap_objectclass'] = 'objectClass usado para buscar cursos. Normalmente é \'posixGroup\'.';
-$string['enrol_ldap_search_sub'] = 'Buscar membros de grupos em subcontextos';
+$string['enrol_ldap_search_sub'] = 'Buscar membros de grupos em sub-contextos';
 $string['enrol_ldap_server_settings'] = 'Parâmetros do Server LDAP';
 $string['enrol_ldap_student_contexts'] = 'Lista de contextos onde grupos com inscrição de estudantes estão localizados. Separar contextos diferentes com \';\'. Por exemplo: 
 \'ou=courses,o=org; ou=others,o=org\'';
@@ -30,7 +30,7 @@ $string['enrol_ldap_teacher_contexts'] = 'Lista de contextos onde grupos com ins
 $string['enrol_ldap_teacher_memberattribute'] = 'Atributo de um membro de um grupo. Normalmente \'member\' ou \'memberUid\'.';
 $string['enrol_ldap_teacher_settings'] = 'Parâmetros de inscrição dos professores';
 $string['enrol_ldap_template'] = 'Opcional: cursos criados automaticamente podem copiar as suas configurações a partir de um modelo de curso';
-$string['enrol_ldap_updatelocal'] = 'Atualizar local data';
+$string['enrol_ldap_updatelocal'] = 'Atualizar dados locais';
 $string['enrol_ldap_version'] = 'A versão de protocolo LDAP que o seu servidor está usando';
 $string['enrolname'] = 'LDAP';
 

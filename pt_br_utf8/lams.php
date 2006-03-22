@@ -2,8 +2,8 @@
       // lams.php - created with Moodle 1.6 development (2006031600)
 
 
-$string['createSequence'] = 'Criar nova sequência';
-$string['editSequence'] = 'Editar sequência selecionada';
+$string['createSequence'] = 'Criar nova seqüência';
+$string['editSequence'] = 'Editar seqüência selecionada';
 $string['error'] = 'Perdão, ocorreu um erro desconhecido';
 $string['introduction'] = 'Introdução';
 $string['lams'] = '-- LAMS - Learning Activity Management System --';
@@ -15,16 +15,16 @@ $string['notsetup'] = 'NOT_SET_UP';
 $string['openauthor'] = 'Abrir Autor LAMS';
 $string['openlearner'] = 'Abrir Aorendedor LAMS';
 $string['openmonitor'] = 'Abrir Monitor LAMS';
-$string['refreshSequenceList'] = 'Atualizar lista de sequência';
-$string['selectExistingSequence'] = 'Selecionar sequência ou criar uma nova';
-$string['sequence'] = 'Seleciona sequência';
+$string['refreshSequenceList'] = 'Atualizar lista de seqüência';
+$string['selectExistingSequence'] = 'Selecionar seqüência ou criar uma nova';
+$string['sequence'] = 'Seleciona seqüência';
 $string['serverid'] = 'Inserir o ID do servidor recebido de <a href=http://www.lamsinternational.com target=_blank>LAMS international</a>.';
 $string['serverkey'] = 'Inserir a chave do server recebida de <a href=http://www.lamsinternational.com target=_blank>LAMS international</a>.';
 $string['serverurl'] = 'Inserir a URL usada para acessar o servidor LAMS. Por exemplo http://localhost:8080/lams';
-$string['useSequence'] = 'Usar sequência selecionada';
+$string['useSequence'] = 'Usar seqüência selecionada';
 $string['visibletostudents'] = 'Mostrar atividade para os estudantes';
-$string['wikistartederror'] = 'O WIKI já tem conteúdos, não é possível modificar';
-$string['workspace'] = 'Selecionar Area de Trabalho';
+$string['wikistartederror'] = 'O WIKI já tem conteúdos, não é possível modificar.';
+$string['workspace'] = 'Selecionar Área de Trabalho';
 $string['wrongversionrange'] = '$a não é um intervalo correto!';
 
 ?>

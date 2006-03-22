@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.5 + (2005060201)
+      // choice.php - created with Moodle 1.6 development (2006031600)
 
 
-$string['addmorechoices'] = 'Adicionar outras escolhas';
-$string['allowupdate'] = 'Permitir a atualização das escolhas';
+$string['addmorechoices'] = 'Adicionar outras opções';
+$string['allowupdate'] = 'Permitir a atualização da escolha feita';
 $string['answered'] = 'Respondido';
 $string['choice'] = 'Escolha $a';
 $string['choiceclose'] = 'Até';
@@ -27,7 +27,7 @@ $string['publish'] = 'Publicar resultados';
 $string['publishafteranswer'] = 'Mostrar os resultados ao estudante só depois que ele tiver dado a sua resposta';
 $string['publishafterclose'] = 'Mostrar resultados aos estudantes apenas após o fechamento do período de escolha';
 $string['publishalways'] = 'Mostrar sempre os resultados aos estudantes';
-$string['publishanonymous'] = 'Publique resultados em forma anônima, sem mostrar o nome do aluno';
+$string['publishanonymous'] = 'Publique resultados de forma anônima, sem mostrar o nome do aluno';
 $string['publishnames'] = 'Publique resultados completos, mostrando os nomes dos alunos e os resultados';
 $string['publishnot'] = 'Não mostrar os resultados aos alunos';
 $string['responses'] = 'Respostas';
@@ -42,3 +42,4 @@ $string['viewallresponses'] = 'Ver $a respostas';
 $string['yourselection'] = 'A sua escolha';
 
 ?>
+

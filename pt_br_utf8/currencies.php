@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // currencies.php - created with Moodle 1.5 + (2005060201)
+      // currencies.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['ADP'] = 'Andorra, Peseta';

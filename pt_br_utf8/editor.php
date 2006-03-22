@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.5 + (2005060201)
+      // editor.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['about'] = 'Informações sobre este editor';
@@ -49,7 +49,7 @@ $string['indent'] = 'Aumentar distância da margem';
 $string['insertchar'] = 'Inserir caractere especial';
 $string['insertimage'] = 'Inserir imagem';
 $string['insertlink'] = 'Inserir link';
-$string['insertsmile'] = 'Inserir carinha';
+$string['insertsmile'] = 'Inserir emoticons';
 $string['inserttable'] = 'Inserir tabela';
 $string['italic'] = 'Itálico';
 $string['itemsreplaced'] = 'itens substituídos!';
@@ -119,7 +119,7 @@ $string['unorderedlist'] = 'Lista com marcadores';
 $string['upload'] = 'Enviar';
 $string['vertical'] = 'Vertical';
 $string['width'] = 'Largura';
-$string['wordclean'] = 'Limpar o html do word';
+$string['wordclean'] = 'Limpar o html do Word';
 $string['zip'] = 'Zip';
 
 ?>

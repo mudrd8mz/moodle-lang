@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // attendance.php - created with Moodle 1.3.3 (2004052503)
+      // attendance.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['absentlong'] = 'Ausente';
@@ -23,7 +23,7 @@ $string['downloadexcelfull'] = 'Baixar planilha excel completa';
 $string['downloadexceltotals'] = 'Baixar planilha excel resumida';
 $string['downloadtextfull'] = 'Baixar o texto completo do relatório';
 $string['downloadtexttotals'] = 'Baixar o texto do relatório resumido';
-$string['dynamicsection'] = 'Definir a semana de refrência da lista de presenças com base nesta data';
+$string['dynamicsection'] = 'Definir a semana de referência da lista de presenças com base nesta data';
 $string['dynamicsectionmulti'] = 'Colocar automaticamente as listas nas suas seções semanais';
 $string['dynsectionshort'] = 'Mudado dinamicamente para a seção';
 $string['endbeforestart'] = 'A data final é anterior à data inicial';

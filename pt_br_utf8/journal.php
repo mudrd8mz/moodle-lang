@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // journal.php - created with Moodle 1.5 + (2005060201)
+      // journal.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['alwaysopen'] = 'Sempre aberto';
@@ -21,12 +21,12 @@ $string['journalquestion'] = 'Pergunta do diário';
 $string['journalrating1'] = 'Não satisfatório';
 $string['journalrating2'] = 'Satisfatório';
 $string['journalrating3'] = 'Excelente';
-$string['mailsubject'] = 'Comentários ao Diário ';
+$string['mailsubject'] = 'Feedback do Diário ';
 $string['modulename'] = 'Diário';
 $string['modulenameplural'] = 'Diários';
 $string['newjournalentries'] = 'Novas anotações no diário';
 $string['noentry'] = 'Nenhuma anotação';
-$string['noratinggiven'] = 'Nenhuma avaliação dada';
+$string['noratinggiven'] = 'Nenhuma avaliação feita';
 $string['notopenuntil'] = 'Este diário não será aberto antes de';
 $string['notstarted'] = 'Você ainda não iniciou este diário';
 $string['overallrating'] = 'Avaliação global';

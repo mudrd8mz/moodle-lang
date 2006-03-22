@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.4.1 (2004083101)
+      // dialogue.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['addmynewentries'] = 'Adicionar novas mensagens';
@@ -9,7 +9,7 @@ $string['allowmultiple'] = 'Permitir mais de um diálogo com a mesma pessoa';
 $string['allowstudentdialogues'] = 'Permitir diálogos entre alunos';
 $string['close'] = 'Encerrar';
 $string['closed'] = 'Encerrado';
-$string['confirmclosure'] = 'Você está encerrando um diálogo com $a. Diálogos encerrados não podem ser abertos novamente. Se você encerrar este diálogo poderá acessá-lo mas não editá-lo. Para contatar a mesma pessoa será necessário iniciar um novo diálogo.<br /><br />Tem certeza que quer encerrar este Diálogo ?';
+$string['confirmclosure'] = 'Você está encerrando um diálogo com $a. Diálogos encerrados não podem ser abertos novamente. Se você encerrar este diálogo poderá acessá-lo mas não editá-lo. Para contatar a mesma pessoa será necessário iniciar um novo diálogo. <br /><br />Tem certeza que quer encerrar este Diálogo ?';
 $string['deleteafter'] = 'Remover Diálogos encerrados após (Dias)';
 $string['dialogueclosed'] = 'Diálogo Encerrado';
 $string['dialogueintro'] = 'Introdução ao Diálogo';
@@ -35,7 +35,7 @@ $string['modulenameplural'] = 'Diálogos';
 $string['namehascloseddialogue'] = '$a encerrou o diálogo';
 $string['newdialogueentries'] = 'Novas mensagens do diálogo';
 $string['newentry'] = 'Nova mensagem';
-$string['noavailablepeople'] = 'Não há ainda ninguém que possa participar em um diálogo';
+$string['noavailablepeople'] = 'Não há ainda ninguém que possa participar de um diálogo';
 $string['nopersonchosen'] = 'Nenhuma pessoa selecionada';
 $string['nosubject'] = 'Nenhum assunto inserido';
 $string['notextentered'] = 'Nenhum texto inserido';

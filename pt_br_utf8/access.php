@@ -15,8 +15,8 @@ $string['skipblock'] = 'Saltar bloco';
 $string['skipnavigation'] = 'Saltar navegação';
 $string['tabledata'] = 'Tabela de dados, $a';
 $string['tablelayout'] = 'Tabela de layout, $a';
-$string['tocontent'] = 'Vai ao conteúdo principal';
-$string['tonavigation'] = 'Vai à navegação';
+$string['tocontent'] = 'Ir para o conteúdo principal';
+$string['tonavigation'] = 'Ir para navegação';
 $string['youarehere'] = 'Você está aqui';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // questionnaire.php - created with Moodle 1.4.2 (2004083120)
+      // questionnaire.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['alreadyfilled'] = 'Você já respondeu a este questionário. Muito obrigado.';
