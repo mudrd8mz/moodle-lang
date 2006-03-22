@@ -9,6 +9,7 @@ $string['blockmenutitle'] = 'Menu ng blog';
 $string['blogdeleteconfirm'] = 'Buburahin ba ang blog na ito?';
 $string['blogpreferences'] = 'Mas-ibig sa blog';
 $string['blogs'] = 'Mga blog';
+$string['blogtags'] = 'Mga tag ng blog';
 $string['courseblog'] = 'Blog sa kurso: $a';
 $string['entrybody'] = 'Katawan ng tala sa blog';
 $string['entrybodyonlydesc'] = 'Deskripsiyon ng talâ';

@@ -461,7 +461,7 @@ $string['unsupportedformulafunction'] = 'Hindi suportado ang function na $a';
 $string['unusedcategorydeleted'] = 'Binura ang kategoriyang ito, dahil pagkatapos mabura ang kurso ay hindi na ginagamit ang mga tanong nito sa server.';
 $string['updatesettings'] = 'Gawing bago ang mga kaayusan ng pagsusulit';
 $string['upgradesure'] = '<div style=\"color: red;\">Sa partikular, ang modyul na pagsusulit ay gagawa ng malawakang pagbabago ng mga teybol ng pagsusulit at ang upgrade na ito ay hindi pa lubusang nasusubok.  Mahigpit ka naming pinapayuhan na ibak-ap ang mga database teybol mo bago ka magpatuloy.</div>';
-$string['usedcategorymoved'] = 'Inilipat ang kategoriyang ito sa antas site dahil pagkatapos mabura ang kurso, ginagamit pa rin ng ilang pagsusulit sa server ang mga tanong nila.';
+$string['usedcategorymoved'] = 'Pinanatili at inilipat ang kategoriyang ito sa antas site dahil ito ay isang inilathalang kategoriya, na ginagamit pa rin ng ibang kurso.';
 $string['validate'] = 'Tingnan kung Tanggap';
 $string['viewallanswers'] = 'Tingnan ang $a nakuhang pagsusulit';
 $string['viewallreports'] = 'Tingnan ang mga ulat para sa $a pagkuha';

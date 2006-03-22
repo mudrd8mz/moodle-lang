@@ -175,6 +175,7 @@ $string['repliesmany'] = '$a tugon sa kasalukuyan';
 $string['repliesone'] = '$a tugon sa kasalukuyan';
 $string['reply'] = 'Tumugon';
 $string['replyforum'] = 'Tumugon sa talakayan';
+$string['resetforums'] = 'Tanggalin ang lahat ng ipinaskil sa mga ganitong uri ng talakayang ';
 $string['rsssubscriberssdiscussions'] = 'Ipakita ang RSS feed para sa  \'$a\' usapan';
 $string['rsssubscriberssposts'] = 'Ipakita ang RSS feed para sa \'$a\' ipinaskil';
 $string['search'] = 'Hanapin';
