@@ -174,6 +174,7 @@ $string['repliesmany'] = '$a respostas até agora';
 $string['repliesone'] = '$a resposta até agora';
 $string['reply'] = 'Responder';
 $string['replyforum'] = 'Responder ao fórum';
+$string['resetforums'] = 'Cancelar todas as mensagens destes tipos de fórum';
 $string['rsssubscriberssdiscussions'] = 'Mostrar RSS de \'$a\' discussões';
 $string['rsssubscriberssposts'] = 'Mostrar RSS de \'$a\' mensagens';
 $string['search'] = 'Buscar';
