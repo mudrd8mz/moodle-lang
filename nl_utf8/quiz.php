@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2006031400)
+      // quiz.php - created with Moodle 1.6 development (2006032001)
 
 
 $string['1day'] = '1 dag';
@@ -162,6 +162,8 @@ $string['event2'] = 'Bewaar';
 $string['event3'] = 'Cijfer';
 $string['event5'] = 'Valideer';
 $string['event6'] = 'Sluit';
+$string['event7'] = 'Stuur in';
+$string['event8'] = 'Sluit';
 $string['examview'] = 'Examview';
 $string['existingcategory1'] = 'een jokerteken van een bestaande reeks jokertekens die ook door andere vragen in deze categorie gebruikt worden';
 $string['existingcategory2'] = 'een bestand van een bestaande set bestanden die ook door andere vragen in deze categorie gebruikt worden';
