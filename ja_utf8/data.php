@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 development (2006032001)
+      // data.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['action'] = '操作';
@@ -26,8 +26,7 @@ $string['configenablerssfeeds'] = 'このスイッチはすべてのデータベ
 $string['confirmdeletefield'] = 'あなたはこのフィールドを削除しようとしています。よろしいですか?';
 $string['confirmdeleterecord'] = '本当にこのレコードを削除してもよろしいですか?';
 $string['csvfile'] = 'CSVファイル:';
-$string['csvimporthelptext'] = 'ここで求められるファイルフォーマットは、フィールド名が最初のレコードにある通常のテキストファイルです。データは、次のレコードから始めてください。フィールドデリミタのデフォルトは、カンマ、フィールドエンクロージャは、デフォルトではセットしません。フィールドエンクロージャは、フィールドの最初および最後に置きます。レコードは、新しい行で区切ってください ( 通常、テキストエディタで、RETURNまたはENTERキーを押すことで作成されます )。独自の文字を設定することで、デフォルトを上書きすることができます。タブは、t 新しい行は n で指定することができます。現在、インポート機能は次のフィールドタイプに関して完全には動作しません: ファイル、ピクチャ、URL。';
-$string['csvimporthelptitle'] = 'ヘルプ: データモジュールのCSVファイルインポート';
+$string['csvimport'] = 'CSVファイルインポート';
 $string['dateentered'] = '入力日時';
 $string['defaultfielddelimiter'] = '( デフォルトはカンマ )';
 $string['defaultfieldenclosure'] = '( デフォルトは無し )';
@@ -51,7 +50,7 @@ $string['fieldheight'] = '高さ';
 $string['fieldheightlistview'] = '一覧表示の高さ';
 $string['fieldheightsingleview'] = '単一表示の高さ';
 $string['fieldname'] = 'フィールド名';
-$string['fieldoptions'] = 'オプション ( 行分離 )';
+$string['fieldoptions'] = 'オプション ( 1行あたり1つ )';
 $string['fields'] = 'フィールド';
 $string['fieldupdated'] = 'フィールドが更新されました。';
 $string['fieldwidth'] = '幅';
@@ -137,7 +136,7 @@ $string['textarea'] = 'テキストエリア';
 $string['type'] = 'フィールドタイプ';
 $string['updatefield'] = 'フィールドを更新します。';
 $string['uploadfile'] = 'ファイルのアップロード';
-$string['uploadrecords'] = 'レコードのアップロード';
+$string['uploadrecords'] = 'ファイルよりレコードをアップロード';
 $string['url'] = 'URL';
 $string['viewfromdate'] = '表示開始日時';
 $string['viewtodate'] = '表示終了日時';
