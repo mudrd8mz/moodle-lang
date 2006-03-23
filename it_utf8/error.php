@@ -1,16 +1,17 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2006022400)
+      // error.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['adminprimarynoedit'] = 'L\'amministratore principale non può essere modificato dagli altri';
-$string['cannotcreatetempdir'] = 'Non &egrave; possibile creare la cartella temporanea.';
-$string['cannotdownloadcomponents'] = 'Non &egrave; possibile scaricare componenti.';
-$string['cannotdownloadzipfile'] = 'Non &egrave; possibile scaricare il file compresso.';
-$string['cannotfindcomponent'] = 'Non &egrave; possibile trovare il componente.';
-$string['cannotsavemd5file'] = 'Non &egrave; possibile salvare il file md5.';
-$string['cannotsavezipfile'] = 'Non &egrave; possibile salvare il file compresso.';
-$string['cannotunzipfile'] = 'Non &egrave; possibile scompattare il file.';
-$string['cmunknown'] = 'Non &egrave; possibile trovare questo modulo.';
+$string['cannotcreatelangdir'] = 'Non è possibile creare la cartella delle lingue.';
+$string['cannotcreatetempdir'] = 'Non è possibile creare la cartella temporanea.';
+$string['cannotdownloadcomponents'] = 'Non è possibile scaricare componenti.';
+$string['cannotdownloadzipfile'] = 'Non è possibile scaricare il file compresso.';
+$string['cannotfindcomponent'] = 'Non è possibile trovare il componente.';
+$string['cannotsavemd5file'] = 'Non è possibile salvare il file md5.';
+$string['cannotsavezipfile'] = 'Non è possibile salvare il file compresso.';
+$string['cannotunzipfile'] = 'Non è possibile scompattare il file.';
+$string['cmunknown'] = 'Non è possibile trovare questo modulo.';
 $string['componentisuptodate'] = 'Componente aggiornato.';
 $string['confirmsesskeybad'] = 'Spiacente, ma la vostra chiave di sessione non può essere confermata per completare questa operazione. Questa caratteristica di sicurezza previene l\'esecuzione accidentale o maligna di funzioni importanti effettuate a vostro nome. Assicuratevi di voler eseguire realmente questa funzione.';
 $string['coursegroupunknown'] = 'Il corso corrisponde a un gruppo $a non specificato';
@@ -39,13 +40,13 @@ $string['modulerequirementsnotmet'] = 'Il modulo \"$a->modulename\" ($a->modulev
 $string['mustbeteacher'] = 'Bisogna essere docenti per visualizzare questa pagina';
 $string['noinstances'] = 'Non ci sono istanze di $a in questo corso!';
 $string['nonmeaningfulcontent'] = 'Contenuto senza significato';
-$string['noparticipatorycms'] = 'Spiacente, ma il rapporto di partecipazione dei moduli del corso non &egrave; attivato.';
+$string['noparticipatorycms'] = 'Spiacente, ma il rapporto di partecipazione dei moduli del corso non è attivato.';
 $string['notavailable'] = 'Non è attualmente disponibile';
 $string['onlyadmins'] = 'Solo gli amministratori possono farlo.';
 $string['onlyeditingteachers'] = 'Solo i docenti con diritti di modifica possono farlo.';
 $string['onlyeditown'] = 'È possibile modificare solo le proprie informazioni';
 $string['processingstops'] = 'L\'elaborazione si è fermata qui. Rimangono dei record ignorati.';
-$string['remotedownloadnotallowed'] = 'Non &egrave; permesso scaricare i componenti su vostro server (allow_url_fopen &egrave; disabilitato). <br /><br /> &Egrave; necessario scaricare manualmente il file <a href=\"$a->url\">$a->url</a>, copiarlo in \"$a->dest\" sul vostro server e scompattarlo la.';
+$string['remotedownloadnotallowed'] = 'Non è permesso scaricare i componenti su vostro server (allow_url_fopen è disabilitato). <br /><br /> È necessario scaricare manualmente il file <a href=\"$a->url\">$a->url</a>, copiarlo in \"$a->dest\" sul vostro server e scompattarlo la.';
 $string['restricteduser'] = 'Spiacente, ma il suo account corrente  \"$a\" non ha il permesso per fare questo.';
 $string['sessionerroruser'] = 'La sessione è scaduta o è stato rilevato un errore. Si prega effettuare nuovamente il login.';
 $string['sessionerroruser2'] = 'È stato rilevato un errore su server che ha compromesso la vostra sessione di autenticazione. Vi preghiamo di autenticarvi nuovamente o di far ripartire il browser.';
@@ -55,8 +56,8 @@ $string['unknowncourse'] = 'Il corso chiamato \"$a\" risulta sconosciuto';
 $string['usernotaddederror'] = 'L\'utente \"$a\" non è stato aggiunto - errore sconosciuto ';
 $string['usernotaddedregistered'] = 'L\'utente \"$a\" non è stato aggiunto - utente già  registrato';
 $string['usernotavailable'] = 'Non è possibile visualizzare i dettagli di questo utente.';
-$string['usernotrenamedexists'] = 'Utente non rinominato -- il nuovo username &egrave; gi&agrave; utilizzato.';
-$string['usernotrenamedmissing'] = 'Utente non rinominato -- non &egrave; possibile trovare il vecchio username.';
+$string['usernotrenamedexists'] = 'Utente non rinominato -- il nuovo username è già utilizzato.';
+$string['usernotrenamedmissing'] = 'Utente non rinominato -- non è possibile trovare il vecchio username.';
 $string['wrongdestpath'] = 'Percorso della destinazione errato.';
 $string['wrongsourcebase'] = 'Indirizzo (URL) base sorgente errato. ';
 $string['wrongzipfilename'] = 'Nome file compresso errato.';

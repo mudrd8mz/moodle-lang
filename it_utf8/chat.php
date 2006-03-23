@@ -1,17 +1,16 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.4 beta (2004082300)
-
+      // chat.php - created with Moodle 1.6 development (2006032200)
 
 $string['beep'] = 'campanella';
 $string['chatintro'] = 'Testo di introduzione';
 $string['chatname'] = 'Nome di questa stanza di chat';
 $string['chatreport'] = 'Sessioni discussione';
 $string['chattime'] = 'Prossima ora di discussione';
-$string['configmethod'] = 'Il metodo normale della chat richiede che i client contattino regolarmente il server per gli aggiornamenti. Questo non richiede configurazioni e funziona dovunque, ma con molti utenti connessi pu&ograve; generare un grosso carico sul server. Utilizzare un server esterno richiede l\'utilizzo di una shell Unix, ma risulta essere un ambiente pi&ugrave; facilmente ampliabile.';
-$string['configoldping'] = 'Dopo quanto tempo di inattivit&agrave;  di un utente dobbiamo considerarlo uscito dalla chat?';
-$string['configrefreshroom'] = 'Ogni quanto tempo deve essere aggiornata la chat (in secondi)? Impostando un valore basso la chat sembra essere pi&ugrave; veloce, ma pu&ograve; determinare un grande carico sul web server quando molte persone sono collegate. ';
+$string['configmethod'] = 'Il metodo normale della chat richiede che i client contattino regolarmente il server per gli aggiornamenti. Questo non richiede configurazioni e funziona dovunque, ma con molti utenti connessi può generare un grosso carico sul server. Utilizzare un server esterno richiede l\'utilizzo di una shell Unix, ma risulta essere un ambiente più facilmente ampliabile.';
+$string['configoldping'] = 'Dopo quanto tempo di inattività  di un utente dobbiamo considerarlo uscito dalla chat?';
+$string['configrefreshroom'] = 'Ogni quanto tempo deve essere aggiornata la chat (in secondi)? Impostando un valore basso la chat sembra essere più veloce, ma può determinare un grande carico sul web server quando molte persone sono collegate. ';
 $string['configrefreshuserlist'] = 'Ogni quanto tempo deve essere aggiornata la lista degli utenti (in secondi)?';
-$string['configserverhost'] = 'Il nome del computer dove &egrave; locato il server';
+$string['configserverhost'] = 'Il nome del computer dove è locato il server';
 $string['configserverip'] = 'Indirizzo IP che corrisponde al nome soprastante';
 $string['configservermax'] = 'Numero massimo di utenti ammessi';
 $string['configserverport'] = 'Porta da utilizzare sul server per il demone';
@@ -30,7 +29,7 @@ $string['helpchatting'] = 'Aiuto per la chat';
 $string['idle'] = 'Inattivo';
 $string['messagebeepseveryone'] = '$a richiama tutti!';
 $string['messagebeepsyou'] = '$a ti ha appena richiamato!';
-$string['messageenter'] = '$a &egrave; entrato nella chat';
+$string['messageenter'] = '$a è entrato nella chat';
 $string['messageexit'] = '$a ha lasciato la discussione';
 $string['messages'] = 'Messaggi';
 $string['methoddaemon'] = 'Server chat';
@@ -38,9 +37,10 @@ $string['methodnormal'] = 'Metodo normale';
 $string['modulename'] = 'Chat';
 $string['modulenameplural'] = 'Chat';
 $string['neverdeletemessages'] = 'Non cancellare i messaggi';
-$string['nextsession'] = 'Prossima seesione programmata';
-$string['noguests'] = 'La chat non &egrave; disponibile agli ospiti';
+$string['nextsession'] = 'Prossima sessione programmata';
+$string['noguests'] = 'La chat non è disponibile agli ospiti';
 $string['nomessages'] = 'Nessun messaggio ancora';
+$string['noscheduledsession'] = 'Nessuna sessione programmata';
 $string['repeatdaily'] = 'Alla stessa ora tutti i giorni';
 $string['repeatnone'] = 'Nessuna ripetizione - pubblica solo l\'orario specificato';
 $string['repeattimes'] = 'Ripeti sessioni';

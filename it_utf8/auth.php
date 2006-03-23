@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 development (2006022400)
+      // auth.php - created with Moodle 1.6 development (2006030800)
 
 
 $string['alternatelogin'] = 'Se inserite un\'URL verso un file qui, verrà  utilizzata come pagina di login del sito. La pagina dovrebbe contenere un modulo con le proprietà  impostate su <strong>\'$a\'</strong> con i campi di <strong>login</strong> e <strong>password</strong>.<br/> Fate attenzione a non inserire un URL errato perchè potreste \"chiudervi fuori\" dal sito. <br/>
@@ -117,7 +117,7 @@ $string['auth_shib_convert_data_description'] = 'Puoi usare queste API per modif
 $string['auth_shib_convert_data_warning'] = 'Il file non esiste o non è leggibile dal processo del webserver!';
 $string['auth_shib_instructions'] = 'Utilizzare <a href=\"$a\">Shibboleth login</a> per avere accesso tramite Shibboleth, se la vostra istituzione lo supporta<br />Altrimenti, utilizzare il modulo di login normale qui mostrato.';
 $string['auth_shib_instructions_help'] = 'Qui dovreste fornire istruzioni su Shibbolet per i vostri utenti. Verranno mostrate nella pagina di login nella sezione delle istruzioni.
-Dovrebbe includere un collegamento a \"<b>$a</b>\"  iin modo che gli utenti Shibboleth possano effettuare facilmente il login. Se lasciato in bianco, saranno usate le istruzioni standard.';
+Dovrebbe includere un collegamento a \"<b>$a</b>\"  in modo che gli utenti Shibboleth possano effettuare facilmente il login.';
 $string['auth_shib_only'] = 'Solo Shibboleth';
 $string['auth_shib_only_description'] = 'Selezionate questa opzione se desiderate forzare l\'autenticazione Shibboleth.';
 $string['auth_shib_username_description'] = 'Nome';
@@ -152,7 +152,7 @@ $string['passwordhandling'] = 'Gestione del campo password';
 $string['plaintext'] = 'Testo semplice';
 $string['shib_no_attributes_error'] = 'Sembra che dobbiate essere autenticati da Shibboleth ma Moodle non ha ricevuto gli attributi dell\'utente. Vi preghiamo di controllare che il vostro Identity Provider rilasci gli attributi necessari ($a) al Service Provider dove funziona Moodle o informate il webmaster di questo server.';
 $string['shib_not_all_attributes_error'] = 'Moodle richiede alcuni attributi Shibboleth che, nel vostro caso, non sono presenti. Gli attributi sono: $a<br />Vi preghiamo di contattare il webmaster di questo server o il vostro Identity Provider.';
-$string['shib_not_set_up_error'] = 'L\'autenticazione Shibboleth non sembra essere impostata correttamente perch&eacute; nessuna variabile Shibboleth &egrave; presente in questa pagina. Si prega di consultare il file <a href=\"README.txt\">README</a> per ulteriori istruzioni sulla configurazione della autenticazione Shibbleth o contattare il webmaster di questa installazione di Moodle.';
+$string['shib_not_set_up_error'] = 'L\'autenticazione Shibboleth non sembra essere impostata correttamente perché nessuna variabile Shibboleth è presente in questa pagina. Si prega di consultare il file <a href=\"README.txt\">README</a> per ulteriori istruzioni sulla configurazione della autenticazione Shibbleth o contattare il webmaster di questa installazione di Moodle.';
 $string['showguestlogin'] = 'Nascondere o mostrare il pulsante \'login come ospite\' nella pagina di login?';
 $string['stdchangepassword'] = 'Utilizzare la pagina standard per il cambiamento della password?';
 $string['stdchangepassword_expl'] = 'Se il sistema di autenticazione esterna permette il cambiamento delle password attraverso Moodle, cambiate questo su Si. Questa impostazione esclude l\'URL per cambiare la password.';

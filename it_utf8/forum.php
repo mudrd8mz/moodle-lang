@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6 development (2006022400)
+      // forum.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
@@ -69,8 +69,8 @@ $string['forcesubscribe'] = 'Obbligare ognuno all\'iscrizione';
 $string['forcesubscribeq'] = 'Obbligare tutti all\'iscrizione?';
 $string['forum'] = 'Forum';
 $string['forumauthorhidden'] = 'Authore (nascosto)';
-$string['forumblockingalmosttoomanyposts'] = 'State per raggiungere il limite di messaggi. Avete inviato $a->numposts messaggi negli ultimi $a->blockperiod e il limite &egrave; $a->blockafter messaggi.';
-$string['forumbodyhidden'] = 'Questo messaggio non pu&ograve; essere visualizzato, probabilmente perch&eacute; non avete ancora inviato messaggi nella discussione.';
+$string['forumblockingalmosttoomanyposts'] = 'State per raggiungere il limite di messaggi. Avete inviato $a->numposts messaggi negli ultimi $a->blockperiod e il limite è $a->blockafter messaggi.';
+$string['forumbodyhidden'] = 'Questo messaggio non può essere visualizzato, probabilmente perché non avete ancora inviato messaggi nella discussione.';
 $string['forumintro'] = 'Introduzione al forum';
 $string['forumname'] = 'Nome del forum';
 $string['forumposts'] = 'Messaggi del Forum';
@@ -174,6 +174,7 @@ $string['repliesmany'] = '$a risposte al momento';
 $string['repliesone'] = '$a risposta al momento';
 $string['reply'] = 'Rispondi';
 $string['replyforum'] = 'Replica al forum';
+$string['resetforums'] = 'Rimuovere tutti i messaggi da questi tipi di forum';
 $string['rsssubscriberssdiscussions'] = 'Mostra l\'RSS per \'$a\' discussioni';
 $string['rsssubscriberssposts'] = 'Mostra l\'RSS per \'$a\' messaggi';
 $string['search'] = 'Cerca';
@@ -207,7 +208,7 @@ $string['subscribestart'] = 'Spediscimi copia dei messaggi inviati a questo foru
 $string['subscribestop'] = 'Non voglio copia dei messaggi a questo forum';
 $string['subscription'] = 'Iscrizione';
 $string['subscriptions'] = 'Iscrizioni';
-$string['thisforumisthrottled'] = 'Questo forum ha un limite di messaggi che potete inviare in un dato periodo di tempo - questo &egrave; attualmente impostato a $a->blockafter messaggi(o) in $a->blockperiod';
+$string['thisforumisthrottled'] = 'Questo forum ha un limite di messaggi che potete inviare in un dato periodo di tempo - questo è attualmente impostato a $a->blockafter messaggi(o) in $a->blockperiod';
 $string['timestartenderror'] = 'La data di fine visualizzazione non può essere precendente alla data di inizio';
 $string['trackforum'] = 'Traccia messaggi non letti';
 $string['tracking'] = 'Traccia';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 development (2006022400)
+      // admin.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['adminseesallevents'] = 'Gli Amministratori  visualizzano tutti gli eventi';
@@ -47,6 +47,7 @@ $string['configenablecourserequests'] = 'Questa impostazione permette a qualunqu
 $string['configenablerssfeeds'] = 'Questa impostazione attiva l\'alimentatore RSS (RSS Feeds) nel sito. Per visualizzare i cambiamenti bisognerà  attivare l\'alimentatore RSS anche nei moduli individuali: per farlo, andate in \'configurazione moduli\' nel pannello di Amministrazione.';
 $string['configenablerssfeedsdisabled'] = 'Non è attiva poichè l\'alimentatore RSS è disabilitato in tutto il sito. Per attivarlo, andate in \'configura variabili\' nel pannello di Amministrazione.';
 $string['configenablestats'] = 'Se qui viene scelto \'Si\'. All\'esecuzione del cron Moodle elaborerà  i log e genererà  alcune statistiche. La durata di questa operazione dipende dal traffico del vostro sito. Se viene abititata questa impostazione sarete in grado di visualizzare alcuni grafici interessanti su ogni corso, o su tutto il sito.';
+$string['configenrolmentplugins'] = 'Si prega di selezionare il plugin di iscrizione che si vuole utilizzare. Non dimenticatevi di configurare l\'impostazione correttamente.<br /><br />Bisogna indicare quali plugin sono abilitati e qual\'è <strong>quello</strong> preimpostato come standard per l\'iscrizione <em>interattiva</em>. Per disabilitare l\'iscrizione interattiva, impostare \"Iscrivibile\" a \"No\" nei corsi richiesti.';
 $string['configerrorlevel'] = 'Scegliete l\'ammontare di messaggi di errore di PHP che si desidera visualizzare. \'Normale\' è solitamente l\'opzione migliore.';
 $string['configextendedusernamechars'] = 'Attivate questa opzione per permettere agli studenti di utilizzare qualsiasi carattere nel loro nome utente (da notare che questo non influisce sui loro nomi attuali).
 L\'impostazione predefinita limita l\'uso dei caratteri ai soli alfanumerici (esclude quindi caratteri speciali, caratteri accentati, ecc).';
@@ -149,8 +150,13 @@ $string['confirmation'] = 'Conferma';
 $string['confirminstall'] = 'Si sta per installare il language pack ($a), siete sicuri?';
 $string['cronwarning'] = 'Lo  <a href=\"cron.php\">script della routine cron.php</a> non è stato lanciato nelle ultime 24 ore.';
 $string['dbmigrate'] = 'Migrazione base di dati Moodle';
+$string['dbmigrateconnecerror'] = 'Non è possibile connettersi alla base dati specificata.';
+$string['dbmigrateencodingerror'] = 'La base dati specificata è codificata come $a e non come richiesto (UNICODE/UTF8).<br /> Si prega di indicarne un\'altra.';
+$string['dbmigratepostgres'] = 'Sembra che si stia utilizzando PostgreSQL come server della base dati. Per proseguire il processo di migrazione è necessario creare manualmente una nuova base daticon codifica \"UNICODE\" (PostgreSQL 7) o \"UTF8\" (PostgreSQL 8) per salvare i dati migrati. Si prega di inserire qui sotto le impostazioni della nuova base dati per continuare:';
 $string['dbmigratewarning'] = 'Accertarsi di aver effettuato una copia di sicurezza della vostra base di dati di Moodle prima di iniziare questa procedura. Se non siete sicuri di come fare, contattate il vostro amministratore di sistema. Il vostro sito di Moodle verrà messo in modalità di mantenimento dopo l\'inizio del processo di migrazione.';
 $string['dbmigratewarning2'] = '<b>Attenzione: State per iniziare il processo di migrazione della base di dati. Siate certi che sulla vostra base di dati di Moodle sia stata effettuata una copia di sicurezza completa.</b>';
+$string['dbmigrationdeprecateddb'] = '<strong>Questa base dati è stata migrata in una nuova base dati UTF8 e è deprecata. Si prega di modificare il file config.php e utilizzare la nuova base dati per questo moodle.</strong>';
+$string['dbmigrationdupfailed'] = 'Duplicazione della base dati fallita questo errore possibile:<strong><pre>$a</pre></strong>';
 $string['density'] = 'Densità ';
 $string['download'] = 'Scaricare';
 $string['edithelpdocs'] = 'Modifica documenti di Help';
@@ -168,7 +174,7 @@ $string['filterall'] = 'Filtra tutte le stringhe';
 $string['filtermatchoneperpage'] = 'Filtra occorrenze una volta per pagina';
 $string['filtermatchonepertext'] = 'Filtra occorrenze una volta per testo';
 $string['filteruploadedfiles'] = 'Applica filtro sui file inviati';
-$string['globalsquoteswarning'] = '<p><strong>Avvertimento di Sicurezza</strong>: per funzionare correttamente, Moodle necessita<br />che vengano fatte alcune modifiche alle vostre impostazioni del PHP.</p><p><em>Dovete</em> impostare <code>register_globals=off</code> e/o <code>magic_quotes_gpc=on</code>.<br />Se possibile, dovete impostare <code>register_globals=off</code> per migliorare la sicurezza generale del server,<br /> anche impostare <code>magic_quotes_gpc=on</code> &egrave; raccomandato.<p/><p>Queste impostazioni sono controllate modificando il vostro <code>php.ini</code>, la configurazione di Apache/IIS <br />o il file <code>.htaccess</code>.</p>';
+$string['globalsquoteswarning'] = '<p><strong>Avvertimento di Sicurezza</strong>: per funzionare correttamente, Moodle necessita<br />che vengano fatte alcune modifiche alle vostre impostazioni del PHP.</p><p><em>Dovete</em> impostare <code>register_globals=off</code> e/o <code>magic_quotes_gpc=on</code>.<br />Se possibile, dovete impostare <code>register_globals=off</code> per migliorare la sicurezza generale del server,<br /> anche impostare <code>magic_quotes_gpc=on</code> è raccomandato.<p/><p>Queste impostazioni sono controllate modificando il vostro <code>php.ini</code>, la configurazione di Apache/IIS <br />o il file <code>.htaccess</code>.</p>';
 $string['helpadminseesall'] = 'Gli amministratori visualizzano tutti gli eventi calendario o solo quelli a loro stessi collegati?';
 $string['helpcalendarsettings'] = 'Configura vari aspetti in Moodle relativi al calendario, alle date, alle durate.';
 $string['helpforcetimezone'] = 'Potete autorizzare gli utenti a selezionare individualmente il fuso orario, oppure impoore un fuso orario a tutti gli utenti.';
@@ -177,8 +183,8 @@ $string['helpstartofweek'] = 'Da quale giorno inizia la settimana nel calendario
 $string['helpupcominglookahead'] = 'Valore predefinito della frequenza con cui il calendario cerca eventi imminenti. (valore espresso in giorni futuri).';
 $string['helpupcomingmaxevents'] = 'Quanti (valore massimo) eventi imminenti vengono mostrati agli utenti?';
 $string['helpweekenddays'] = 'Quali giorni della settimana devono essere considerati come festivi e mostrati con un colore diverso?';
-$string['iconvrecommended'] = 'Installare la libreria opzionale ICONV &egrave; caldamente consigliato per migliorare le prestazioni del sito, in particolare se il vostro sito supporta lingue non latine.';
-$string['importlangreminder'] = 'Il processo di migrazioen della base di dati sta per iniziare. Sar&agrave; necessario effettuare <b>nuovamente il login</b> perch&eacute; l\'aggiornamento faccia effetto. Siete pregati di installare i language pack unicode il pi&ugrave; presto possibile attraverso Amministrazione->Lingua->Utilit&agrave; di Importazione Lingue <b>dopo</b> che il processo sia completato.';
+$string['iconvrecommended'] = 'Installare la libreria opzionale ICONV è caldamente consigliato per migliorare le prestazioni del sito, in particolare se il vostro sito supporta lingue non latine.';
+$string['importlangreminder'] = 'Il processo di migrazioen della base di dati sta per iniziare. Sarà necessario effettuare <b>nuovamente il login</b> perché l\'aggiornamento faccia effetto. Siete pregati di installare i language pack unicode il più presto possibile attraverso Amministrazione->Lingua->Utilità di Importazione Lingue <b>dopo</b> che il processo sia completato.';
 $string['importtimezones'] = 'Aggiorna la lista completa dei fusi orari';
 $string['importtimezonescount'] = '$a->conta entries importate da $a->source';
 $string['importtimezonesfailed'] = 'Non è stata trovata sorgente! (brutte notizie)';
@@ -197,16 +203,19 @@ $string['latexsettings'] = 'Impostazioni di elaborazione LaTex';
 $string['maintfileopenerror'] = 'Errore aprendo i file di manutenzione!';
 $string['maintinprogress'] = 'Manutenzione in corso...';
 $string['managelang'] = '<b>Gestione</b>';
-$string['mbstringrecommended'] = 'Installare la libreria opzionale MBSTRING &egrave; caldamente consigliato per migliorare le prestazioni del sito, in particolare se il vostro sito supporta lingue non latine.';
+$string['mbstringrecommended'] = 'Installare la libreria opzionale MBSTRING è caldamente consigliato per migliorare le prestazioni del sito, in particolare se il vostro sito supporta lingue non latine.';
 $string['mediapluginavi'] = 'Abilita filtro .avi';
 $string['mediapluginflv'] = 'Abilita filtro .flv';
 $string['mediapluginmov'] = 'Abilita filtro .mov';
 $string['mediapluginmp3'] = 'Abilita filtro .mp3';
 $string['mediapluginmpg'] = 'Abilita filtro .mpg';
+$string['mediapluginram'] = 'Abilita filtro .ram';
+$string['mediapluginrm'] = 'Abilita filtro .rm';
+$string['mediapluginrpm'] = 'Abilita filtro .rpm';
 $string['mediapluginswf'] = 'Abilita filtro .swf';
 $string['mediapluginwmv'] = 'Abilita filtro .wmv';
 $string['mysql416bypassed'] = 'Comunque, se il vostro sito sta utilizzando SOLO lingue iso-8859-1 (latin), potete continuare ad utilizzare MySQL 4.1.12 (o successivo) attualmente installato.';
-$string['mysql416required'] = 'MySQL 4.1.16 &egrave; la versione minima richiesta per Moodle 1.6 per garantire che tutti i dati possano essere convertiti in UTF-8 in futuro.';
+$string['mysql416required'] = 'MySQL 4.1.16 è la versione minima richiesta per Moodle 1.6 per garantire che tutti i dati possano essere convertiti in UTF-8 in futuro.';
 $string['nolangupdateneeded'] = 'Tutti i language pack sono aggiornati, non sono necessari aggiornamenti';
 $string['optionalmaintenancemessage'] = 'Messaggio di mantenimento opzionale';
 $string['order1'] = 'Primo';
@@ -215,8 +224,10 @@ $string['order3'] = 'Terzo';
 $string['pathconvert'] = 'Percorso per l\'eseguibile <i>convert</i>';
 $string['pathdvips'] = 'Percorso per l\'eseguibile <i>dvips</i>';
 $string['pathlatex'] = 'Percorso per l\'eseguibile <i>latex</i>';
+$string['pgcluster'] = 'Cluster PostgreSQL';
+$string['pgclusterdescription'] = '<pre>Parametro per le operazioni a linea di comando della versione/cluster di PostgreSQL. Se avete solo un postgresql sul vostro sistema o non siete sicuri di cosa sia questo, lasciatelo vuoto.</pre>';
 $string['pleaseregister'] = 'Registrando il vostro sito questo pulsante verrà  rimosso';
-$string['remotelangnotavailable'] = 'Non &egrave; possibile installare automaticamente i language pack perch&eacute; Moodle non riesce a connettersi a download.moodle.org. Si prega di scaricare i file compressi appropriati dalla lista qui sotto, copiarli nella vostra cartella $a e scompattarli manualmente.';
+$string['remotelangnotavailable'] = 'Non è possibile installare automaticamente i language pack perché Moodle non riesce a connettersi a download.moodle.org. Si prega di scaricare i file compressi appropriati dalla lista qui sotto, copiarli nella vostra cartella $a e scompattarli manualmente.';
 $string['renameerrors'] = 'Errori nel cambiamento di nome';
 $string['sitelangchanged'] = 'L\'impostazione della lingua del sito è stata cambiata correttamente';
 $string['sitemaintenance'] = 'Il sito è sottoposto a mantenimento e non è attualmente disponibile';
@@ -234,7 +245,7 @@ $string['therewereerrors'] = 'Si sono verificati errori nei vostri dati';
 $string['timezoneforced'] = 'Questa viene forzata dall\'amministratore?';
 $string['timezoneisforcedto'] = 'Forza tutti gli utenti all\'utilizzo';
 $string['timezonenotforced'] = 'Gli utenti possono opzionare il loro fuso orario';
-$string['unicodeupgradenotice'] = 'In Moodle 1.6 tutte le lingue sono state convertite in Unicode. Per completarel\'aggiornamento di questo sito, &egrave; necessario convertire tutti i dati nella base di dati in Unicode utilizzando lo script di conversione. <a href=\"utfdbmigrate.php\">Cliccare qui per eseguire lo script di conversione ora</a>!';
+$string['unicodeupgradenotice'] = 'In Moodle 1.6 tutte le lingue sono state convertite in Unicode. Per completarel\'aggiornamento di questo sito, è necessario convertire tutti i dati nella base di dati in Unicode utilizzando lo script di conversione. <a href=\"utfdbmigrate.php\">Cliccare qui per eseguire lo script di conversione ora</a>!';
 $string['uninstall'] = 'Disinstalla il language pack selezionato';
 $string['uninstallconfirm'] = 'Si sta per disinstallare completamente il Language Pack $a, siete sicuri?';
 $string['updateaccounts'] = 'Aggiornare registrazioni esistenti';
