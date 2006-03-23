@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.5 + (2005060201)
+      // survey.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['actual'] = 'Atual';
@@ -46,9 +46,9 @@ $string['attls6'] = 'Gosto de ouvir as opiniões de outras pessoas com backgroun
 $string['attls6short'] = 'gosta de ouvir opiniões';
 $string['attls7'] = 'Acho que posso reforçar a minha posição discutindo com alguém que não concorda comigo.';
 $string['attls7short'] = 'reforçar discutindo';
-$string['attls8'] = 'Estou sempre interessado(a) em saber porque as pessoas dizem e acreditam em certas coisas.';
-$string['attls8short'] = 'saber porque';
-$string['attls9'] = 'Frequentemente discordo de autores de livros que leio, e procuro uma explicação lógica que comprove que eles estão errados.';
+$string['attls8'] = 'Estou sempre interessado(a) em saber por que as pessoas dizem e acreditam em certas coisas.';
+$string['attls8short'] = 'saber por quê';
+$string['attls9'] = 'Freqüentemente discordo de autores de livros que leio, e procuro uma explicação lógica que comprove que eles estão errados.';
 $string['attls9short'] = 'discorda do autor';
 $string['attlsintro'] = '<b>COMO RESPONDER AO QUESTIONÁRIO</b>
 
@@ -71,7 +71,7 @@ $string['ciq1short'] = 'Mais envolvido';
 $string['ciq2'] = 'Como participante, em que momento você esteve menos envolvido?';
 $string['ciq2short'] = 'Menos envolvido';
 $string['ciq3'] = 'Qual das ações de outros participantes nos fóruns você achou mais elucidante ou útil?';
-$string['ciq3short'] = 'momento de auxilio útil';
+$string['ciq3short'] = 'momento de auxílio útil';
 $string['ciq4'] = 'Qual das ações de outros participantes nos fóruns você achou mais desconcertante ou confusa?';
 $string['ciq4short'] = 'momento de confusão';
 $string['ciq5'] = 'Qual evento foi mais surpreendente?';
@@ -82,10 +82,10 @@ $string['clicktocontinue'] = 'Continuar';
 $string['clicktocontinuecheck'] = 'Enviar respostas';
 $string['colles1'] = 'A minha aprendizagem é focalizada em assuntos que me interessam.';
 $string['colles10'] = 'Peço aos outros alunos explicações sobre as idéias deles.';
-$string['colles10short'] = 'peço explicações';
+$string['colles10short'] = 'Peço explicações';
 $string['colles11'] = 'Os outros participantes me pedem explicações sobre as minhas idéias.';
-$string['colles11short'] = 'me pedem explicações ';
-$string['colles12'] = 'Os outros participantes reagem às minhas ideias.';
+$string['colles11short'] = 'Me pedem explicações ';
+$string['colles12'] = 'Os outros participantes reagem às minhas idéias.';
 $string['colles12short'] = 'os participantes reagem ';
 $string['colles13'] = 'O tutor me estimula a refletir.';
 $string['colles13short'] = 'o tutor estimula a refletir';
@@ -93,8 +93,8 @@ $string['colles14'] = 'O tutor me encoraja a participar.';
 $string['colles14short'] = 'o tutor me encoraja';
 $string['colles15'] = 'O tutor ajuda a melhorar a qualidade dos discursos';
 $string['colles15short'] = 'tutor ajuda discursos';
-$string['colles16'] = 'O tutor ajuda a melhorar o processo de reflexão auto-crítica.';
-$string['colles16short'] = 'tutor ajuda reflexão auto-crítica';
+$string['colles16'] = 'O tutor ajuda a melhorar o processo de reflexão autocrítica.';
+$string['colles16short'] = 'tutor ajuda reflexão autocrítica';
 $string['colles17'] = 'Os outros participantes me encorajam a participar.';
 $string['colles17short'] = 'participantes me encorajam';
 $string['colles18'] = 'Os outros participantes elogiam as minhas contribuições.';
@@ -124,7 +124,7 @@ $string['colles6'] = 'Faço reflexões críticas sobre as minhas próprias idéi
 $string['colles6short'] = 'eu critico as minhas próprias idéias';
 $string['colles7'] = 'Faço reflexões críticas sobre as idéias dos outros participantes.';
 $string['colles7short'] = 'eu critico os outros participantes';
-$string['colles8'] = 'Faço reflexões críticas sôbre os conteúdos do curso';
+$string['colles8'] = 'Faço reflexões críticas sobre os conteúdos do curso';
 $string['colles8short'] = 'eu critico os conteúdos';
 $string['colles9'] = 'Eu explico as minhas idéias aos outros participantes.';
 $string['colles9short'] = 'eu explico as minhas idéias';
@@ -134,9 +134,9 @@ O objetivo deste questionário é fazer uma pesquisa sobre a medida em que as at
 
 Cada frase abaixo é uma declaração que descreve situações que podem caracterizar o seu processo de aprendizagem neste curso.
 
-Reflita sobre cada declaração e, depois, selecione a opção que descreve melhor a frequência em que as situações descritas ocorrem neste curso.
+Reflita sobre cada declaração e, depois, selecione a opção que descreve melhor a freqüência em que as situações descritas ocorrem neste curso.
 
-Não há respostas certas ou erradas; nós estamos interessados apenas na sua opinião. Todas as respostas dadas são confidenciais e não tem nenhum impacto sobre a avaliação do participante.
+Não há respostas certas ou erradas; nós estamos interessados apenas na sua opinião. Todas as respostas dadas são confidenciais e não têm nenhum impacto sobre a avaliação do participante.
 
 Agradecemos a sua colaboração.';
 $string['collesaname'] = 'COLLES (experiência efetiva)';
@@ -144,9 +144,9 @@ $string['collesapintro'] = '<b>COMO RESPONDER AO QUESTIONÁRIO</b>
 
 O objetivo deste questionário é fazer uma pesquisa sobre a medida em que o seu processo de aprendizagem neste curso corresponte às suas expectativas.
 
-Cada ítem abaixo consiste na comparação entre as suas expectativas e a sua experiência efetiva ao frequentar este curso.
+Cada ítem abaixo consiste na comparação entre as suas expectativas e a sua experiência efetiva ao freqüentar este curso.
 
-Reflita sobre cada declaração e, depois, selecione a opção que descreve melhor a frequência em que você gostaria que as situações descritas ocorressem neste curso (frequência desejada) e a frequência em que as situações descritas ocorrem atualmente neste curso (frequência atual).
+Reflita sobre cada declaração e, depois, selecione a opção que descreve melhor a freqüência em que você gostaria que as situações descritas ocorressem neste curso (freqüência desejada) e a freqüência em que as situações descritas ocorrem atualmente neste curso (freqüência atual).
 
 Não há respostas certas ou erradas; nós estamos interessados apenas na sua opinião. Todas as respostas dadas são confidenciais e não tem nenhum impacto sobre a avaliação do participante.
 
@@ -156,8 +156,8 @@ $string['collesm1'] = 'Relevância';
 $string['collesm1short'] = 'Relevância';
 $string['collesm2'] = 'Reflexão Crítica';
 $string['collesm2short'] = 'Reflexão Crítica';
-$string['collesm3'] = 'Interação';
-$string['collesm3short'] = 'Interação';
+$string['collesm3'] = 'Interatividade';
+$string['collesm3short'] = 'Interatividade';
 $string['collesm4'] = 'Apoio dos Tutores';
 $string['collesm4short'] = 'Apoio dos Tutores';
 $string['collesm5'] = 'Apoio dos Colegas';
@@ -171,7 +171,7 @@ O objetivo deste questionário é fazer uma pesquisa sobre as suas expectativas 
 
 Cada frase abaixo é uma declaração que descreve situações que podem caracterizar o seu processo de aprendizagem neste curso. 
 
-Reflita sobre cada declaração e, depois, selecione a opção que descreve melhor a frequência em que você gostaria que as situações descritas ocorressem neste curso (frequência desejada).
+Reflita sobre cada declaração e, depois, selecione a opção que descreve melhor a freqüência em que você gostaria que as situações descritas ocorressem neste curso (freqüência desejada).
 
 Não há respostas certas ou erradas; nós estamos interessados apenas na sua opinião. Todas as respostas dadas são confidenciais e não tem nenhum impacto sobre a avaliação do participante.
 
@@ -187,9 +187,9 @@ $string['guestsnotallowed'] = 'Os visitantes não podem responder às pesquisas 
 $string['helpsurveys'] = 'Ajuda sobre os diferentes tipos de pesquisa de avaliação';
 $string['howlong'] = 'Em quanto tempo você concluiu este questionário?';
 $string['howlongoptions'] = 'menos de 1 min,1-2 min,2-3 min,3-4 min,4-5-min,5-10 min,mais de 10';
-$string['ifoundthat'] = 'Frequência atual';
+$string['ifoundthat'] = 'Freqüência atual';
 $string['introtext'] = 'Texto introdutório';
-$string['ipreferthat'] = 'Frequência desejada';
+$string['ipreferthat'] = 'Freqüência desejada';
 $string['modulename'] = 'Pesquisa de avaliação';
 $string['modulenameplural'] = 'Pesquisas de avaliação';
 $string['name'] = 'Nome';
@@ -209,7 +209,7 @@ $string['report'] = 'Relatório da pesquisa de avaliação';
 $string['savednotes'] = 'As suas anotações foram gravadas';
 $string['scaleagree5'] = 'Discordo completamente,Discordo em parte,Não concordo nem discordo,Concordo em parte,Concordo plenamente';
 $string['scales'] = 'Escalas';
-$string['scaletimes5'] = 'Quase nunca,Raramente,Algumas vezes,Frequentemente,Quase sempre';
+$string['scaletimes5'] = 'Quase nunca,Raramente,Algumas vezes,Freqüentemente,Quase sempre';
 $string['seemoredetail'] = 'Clique aqui para mais detalhes';
 $string['selectedquestions'] = 'Perguntas selecionadas de uma escala, todos os participantes';
 $string['summary'] = 'Sumário';

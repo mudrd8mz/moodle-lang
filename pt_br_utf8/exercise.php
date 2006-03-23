@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.4.1 (2004083101)
+      // exercise.php - created with Moodle 1.6 development (2006031600)
 
 
 $string['absent'] = 'Ausente';
@@ -8,7 +8,7 @@ $string['action'] = 'Ação';
 $string['ago'] = '$a atrás';
 $string['amend'] = 'Alterar';
 $string['amendassessmentelements'] = 'Alterar elementos da Avaliação';
-$string['amendtitle'] = 'Alterar titulo';
+$string['amendtitle'] = 'Alterar título';
 $string['analysis'] = 'Análise';
 $string['assess'] = 'Avaliar';
 $string['assessed'] = 'Avaliado';
@@ -37,7 +37,7 @@ $string['description'] = 'Descrição';
 $string['descriptionofexercise'] = 'A descrição do Exercício é contida em um arquivo word ou HTML. Este arquivo é incluído no exercício antes da abertura do mesmo. É possível criar variações do mesmo exercício, sempre em Word ou Html, e incluí-los no exercício antes que seja aberto o período de acesso.';
 $string['detailsofassessment'] = 'Detalhes da avaliação';
 $string['displayoffinalgrades'] = 'Visualização das notas finais';
-$string['doubleupload'] = 'Atenção: é possível que este documento tenha sido enviado duas vêzes em um brevissimo arco de tempo. Controle a página de administração e compare as versões com datas muito próximas e se forem iguais, cancele uma delas antes de continuar.';
+$string['doubleupload'] = 'Atenção: é possível que este documento tenha sido enviado duas vêzes em um brevíssimo arco de tempo. Visite a página de administração e compare as versões com datas muito próximas e se forem iguais, cancele uma delas antes de continuar.';
 $string['duedate'] = 'Prazo final';
 $string['edit'] = 'Editar';
 $string['editingassessmentelements'] = 'Editando elementos da avaliação';
@@ -62,7 +62,7 @@ $string['gradinggrade'] = 'Avaliando notas';
 $string['gradingstrategy'] = 'Estratégia de avaliação';
 $string['handlingofmultiplesubmissions'] = 'Administração de exercícios múltiplos';
 $string['hidenamesfromstudents'] = 'Esconder nomes dos estudantes';
-$string['incorrect'] = 'errado';
+$string['incorrect'] = 'Errado';
 $string['late'] = 'Tarde';
 $string['lax'] = 'Vago';
 $string['leaguetable'] = 'Tabela dos trabalhos enviados';
@@ -80,7 +80,7 @@ $string['mean'] = 'Médio';
 $string['minimum'] = 'Mínimo';
 $string['modulename'] = 'Exercício';
 $string['modulenameplural'] = 'Exercícios';
-$string['movingtophase'] = 'Passando à fase $a';
+$string['movingtophase'] = 'Passando para a fase $a';
 $string['multiplesubmissions'] = 'Exercícios múltiplos';
 $string['noexercisedescriptionssubmitted'] = 'Nenhuma descrição do exercício';
 $string['nosubmissions'] = 'Nenhum envio';
@@ -88,14 +88,14 @@ $string['notassessedyet'] = 'Ainda não avaliado';
 $string['notavailable'] = 'Não disponível';
 $string['noteonassessmentelements'] = 'A avaliação é composta de alguns \'Elementos de Avaliação\'.<br />
 Estes elementos devem ser incluídos antes que a avaliação seja acessível aos estudantes.<br />
-para fazer isto, clique o titulo do exercício na página do curso. <br />
+Para fazer isto, clique o título do exercício na página do curso. <br />
 Quando o exercício ainda não tem nenhum elemento <br /> uma mensagem indica a necessidade de criá-los.<br />
 Você pode mudar o número de elementos na seção Editar Avaliação.<br />
 Os elementos podem ser modificados na seção Administrando a Avaliação.';
 $string['noteongradinggrade'] = 'Esta nota representa a medida em que a sua avaliação concorda com a avaliação <br />do seu trabalho feita por $a. Notas mais altas indicam maior índice de concordância';
 $string['noteonstudentassessments'] = '{nota do estudante/ avaliação das notas do professor}';
-$string['notgraded'] = 'Não foram dadas as notas';
-$string['notitlegiven'] = 'nenhum titulo';
+$string['notgraded'] = 'Não avaliado';
+$string['notitlegiven'] = 'nenhum título';
 $string['numberofassessmentelements'] = 'Número de comentários, Elementos da Avaliação, Notas, Definições de critérios ou categorias de uma rubrica';
 $string['numberofcriterionelements'] = 'O número de elementos de critério deve ser superior a um.';
 $string['numberofentries'] = 'Número de registros';
@@ -113,10 +113,10 @@ $string['phase2short'] = 'Abrir';
 $string['phase3'] = 'Mostrar notas gerais e tabela';
 $string['phase3short'] = 'Mostrar';
 $string['pleasegradetheassessment'] = 'Dar notas de avaliação do trabalho enviado por $a';
-$string['pleasemakeyourownassessment'] = 'Por favor avalie o trabalho de $a. <br /> O formulário de avaliação está atualmente pteenchido com os dados de avalição feitos pelo estudante.<br /> Modifique o que você achar necessário e clique <br />um dos botões no final da página';
+$string['pleasemakeyourownassessment'] = 'Por favor, avalie o trabalho de $a. <br /> O formulário de avaliação está atualmente preenchido com os dados de avaliação feitas pelo estudante.<br /> Modifique o que você achar necessário e clique <br />um dos botões no final da página';
 $string['pleasesubmityourwork'] = 'Por favor, envie o seu trabalho usando este formulário';
-$string['pleaseusethisform'] = 'Por favor preencha este formulário quando você tiver acabado de <br />seguir as instruções do seguinte exercício.';
-$string['pleaseviewtheexercise'] = 'Para ver o seguinte exercício, clique o título correspondente.<br />Siga as instruções do exercício.<br />Quando você estiver satisfeito com os resultados obtidos<br /> clique o link Avaliar ou Avaliar Novamente.<br />Quando você terminar esta avaliação, você receberá <br />instruções para a próxima fase do exercício.';
+$string['pleaseusethisform'] = 'Por favor preencha este formulário quando você tiver acabado de <br />seguir as instruções do exercício seguinte.';
+$string['pleaseviewtheexercise'] = 'Para ver o exercício seguinte, clique o título correspondente.<br />Siga as instruções do exercício.<br />Quando você estiver satisfeito com os resultados obtidos<br /> clique o link Avaliar ou Avaliar Novamente.<br />Quando você terminar esta avaliação, você receberá <br />instruções para a próxima fase do exercício.';
 $string['poor'] = 'Pobre';
 $string['present'] = 'Presente';
 $string['reasonforadjustment'] = 'Motivo do ajuste';
@@ -125,9 +125,9 @@ $string['regradestudentassessments'] = 'Dar notas novamente às avaliações dos
 $string['resubmissionfor'] = 'Reenvio de $a';
 $string['resubmitnote'] = '*significa que $a tem permissão para refazer este exercício. <br />Isto pode ser feito em relação a qualquer envio, avaliando novamente o mesmo <br />e clicando o botão Permitir Novo Envio. <br />O estudante pode refazer o exercício quando a permissão é ativada.';
 $string['rubric'] = 'Rubrica';
-$string['savedok'] = 'Salvado';
+$string['savedok'] = 'Salvo';
 $string['saveentries'] = 'Salvar registros';
-$string['savemyassessment'] = 'salvar minhas avaliações';
+$string['savemyassessment'] = 'Salvar minhas avaliações';
 $string['saveweights'] = 'Salvar pesos';
 $string['scale10'] = 'Escala de 10';
 $string['scale100'] = 'Escala de 100';
@@ -149,7 +149,7 @@ $string['studentsubmissions'] = '$a Envios';
 $string['studentsubmissionsforassessment'] = '$a Envios de avaliação dos estudantes';
 $string['submission'] = 'Envio';
 $string['submissions'] = 'Envios';
-$string['submissionsnowclosed'] = 'A data final para entrega foi superada';
+$string['submissionsnowclosed'] = 'A data final para entrega já passou';
 $string['submitexercisedescription'] = 'Enviar descrição do exercício';
 $string['submitted'] = 'Enviado';
 $string['submittedby'] = 'Enviado por';
@@ -161,7 +161,7 @@ $string['theexercise'] = 'O exercício';
 $string['theexerciseandthesubmissionby'] = 'O exercício e o envio de $a';
 $string['thegradeis'] = 'A nota é $a';
 $string['thereisfeedbackfromthe'] = 'Há um feedback de $a';
-$string['thisisaresubmission'] = 'Este é um novo envio de $a.<br />A sua avaliação do exercício enviado anteriormente è em mostra. <br /> Depois de controlar o novo envio, por favor corrija esta avaliação<br /> e clique um dos botões no final da página.';
+$string['thisisaresubmission'] = 'Este é um novo envio de $a.<br />A sua avaliação do exercício enviado anteriormente é mostrada. <br /> Depois de controlar o novo envio, por favor corrija esta avaliação<br /> e clique um dos botões no final da página.';
 $string['title'] = 'Título';
 $string['typeofscale'] = 'Tipo de escala';
 $string['unassessed'] = '$a não avaliados';
@@ -179,8 +179,8 @@ $string['weightederrorcount'] = 'Erro de contagem do peso $a';
 $string['weightforgradingofassessments'] = 'Peso para dar notas às avaliações';
 $string['weightforteacherassessments'] = 'Peso de $a avaliações';
 $string['weights'] = 'Pesos';
-$string['weightssaved'] = 'Pesos salvados';
-$string['weightsusedforoverallgrade'] = 'pesos usados para a avaliação geral';
+$string['weightssaved'] = 'Pesos salvos';
+$string['weightsusedforoverallgrade'] = 'Pesos usados para a avaliação geral';
 $string['wrongpassword'] = 'Senha errada';
 $string['yourassessment'] = 'A sua avaliação';
 $string['yourfeedbackgoeshere'] = 'O seu feedback';
