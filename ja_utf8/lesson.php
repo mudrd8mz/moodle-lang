@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.6 development (2006031400)
+      // lesson.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -137,8 +137,8 @@ $string['maximumnumberofattempts'] = '最大受験回数';
 $string['maximumnumberofattemptsreached'] = '最大受験回数に達しました - 次のページに移動しています。';
 $string['maxtime'] = '制限時間 ( 分 )';
 $string['maxtimewarning'] = 'レッスン終了まで $a 分です。';
-$string['mediaclose'] = 'クローズボタンを表示:';
-$string['mediafile'] = 'メディアファイル';
+$string['mediaclose'] = '「ウィンドウを閉じる」ボタンを表示:';
+$string['mediafile'] = 'ファイルまたはウェブページへポップアップする';
 $string['mediafilepopup'] = 'レッスンメディアファイルを閲覧するにはここをクリックしてください。';
 $string['mediaheight'] = 'ウィンドウ高:';
 $string['mediawidth'] = '幅:';
