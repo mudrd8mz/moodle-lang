@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6 development (2006032001)
+      // forum.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加';
@@ -20,16 +20,16 @@ $string['blockperiod'] = 'ブロックする期間';
 $string['blockperioddisabled'] = 'ブロックしない';
 $string['bynameondate'] = '$a->date - $a->name の投稿';
 $string['cannotviewpostyet'] = 'まだ投稿していないため、あなたは他の学生の質問を読むことはできません。';
-$string['configcleanreadtime'] = '古い投稿を「既読」表からクリアする時刻 ( 時 )';
-$string['configdisplaymode'] = '表示モードが設定されていない場合のデフォルト表示モードです。';
-$string['configenablerssfeeds'] = 'ここでは全フォーラムのRSS使用設定を行います。ここの設定をしても、各フォーラムでRSSフィードの設定を手動で行う必要があります。';
-$string['configlongpost'] = 'この文字長以上の長さ ( HTMLは含まない ) は長いと考えられます。サイトの表紙、ソーシャルフォーマットコースページ、ユーザプロフィールに表示される投稿内容は、forum_shortpostとforum_longpostの値の間に短くされます。';
+$string['configcleanreadtime'] = '古い投稿を「既読」テーブルからクリアする時刻 ( 時 )';
+$string['configdisplaymode'] = '設定されていない場合に使用されるデフォルト表示モードです。';
+$string['configenablerssfeeds'] = '全フォーラムのRSS使用設定を行います。ここで設定しても、各フォーラムでRSSフィードの設定を手動で行う必要があります。';
+$string['configlongpost'] = 'この文字長以上の長さ ( HTMLは含まない ) は長いと考えられます。サイトの表紙、ソーシャルフォーマット、ユーザプロフィールに表示される投稿内容の長さは、forum_shortpostとforum_longpostの値の間に短くされます。';
 $string['configmanydiscussions'] = 'フォーラムページに表示されるディスカッションの最大数';
-$string['configmaxbytes'] = 'すべてのフォーラム添付ファイルに関するデフォルトの最大サイズ ( コース制限および他のローカル設定に従います )';
+$string['configmaxbytes'] = 'すべてのフォーラムの添付ファイルに関するデフォルト最大サイズ ( コース制限および他のローカル設定に従います )';
 $string['configoldpostdays'] = '古い投稿を既読とする日数';
-$string['configreplytouser'] = 'フォーラムの投稿がメール送信される場合、受信者がフォーラムを通さずに個人的に返信できるように、メールにユーザメールアドレスを表示した方が良いですか?　「Yes」に設定した場合でも、ユーザはプロフィール内のメールアドレスを隠すことができます。';
+$string['configreplytouser'] = 'フォーラムの投稿がメール送信される場合、受信者がフォーラムを介さず個人的に返信できるよう、メールにユーザメールアドレスを表示しますか?　「Yes」に設定した場合でも、ユーザはプロフィールページで、メールアドレスを隠す設定を行うことができます。';
 $string['configshortpost'] = 'この文字長以下の長さ ( HTMLは含まない ) は短いと考えられます ( 下記参照 )。';
-$string['configtrackreadposts'] = 'ユーザごとの未読管理をしたい場合は「Yes」を選択してください。';
+$string['configtrackreadposts'] = 'ユーザごとの未読管理をしたい場合、「Yes」を選択してください。';
 $string['configusermarksread'] = '「Yes」に設定した場合、ユーザは手動で投稿を既読にする必要があります。「No」に設定した場合、投稿が閲覧された時点で既読にされます。';
 $string['couldnotadd'] = 'エラーのため投稿できませんでした。';
 $string['couldnotdeleteratings'] = '申し訳ございません、評価済みのため削除できませんでした。';
