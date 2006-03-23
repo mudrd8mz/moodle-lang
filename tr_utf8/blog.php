@@ -1,11 +1,13 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 development (2006032001)
+      // blog.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['addnewentry'] = 'Yeni kayıt ekle';
 $string['addotags'] = 'Resmi etiket ekle';
 $string['addptags'] = 'Kullanıcı tanımlı etiket ekle';
 $string['blockmenutitle'] = 'Blog menüsü';
+$string['blocktagstitle'] = 'Blog etiketleri';
+$string['blocktitle'] = 'Blog etiketleri blok başlığı';
 $string['blog'] = 'Blog';
 $string['blogdeleteconfirm'] = 'Bu blog silinsin mi?';
 $string['blogpreferences'] = 'Blog seçenekleri';
@@ -22,6 +24,8 @@ $string['intro'] = 'Bu RSS içeriği bir veya birden fazla blogdan oluşturuldu.
 $string['noentriesyet'] = 'Kayıtlar burada görünmez';
 $string['noguestpost'] = 'Konuklar blogları göremezler!';
 $string['notallowedtoedit'] = 'Bu kaydı düzeltmeye izniniz yok';
+$string['numberofentries'] = 'Kayıtlar: $a';
+$string['numberoftags'] = 'Gösterilecek etiket sayısı';
 $string['otags'] = 'Resmi etiketler';
 $string['pagesize'] = 'Her sayfadaki blog sayısı';
 $string['ptags'] = 'Kullanıcı tanımlı etiketler';
@@ -31,6 +35,9 @@ $string['publishtosite'] = 'Bu sitedeki herkese';
 $string['publishtoworld'] = 'Bu dünyadaki herkese';
 $string['settingsupdatederror'] = 'Bir hata oluştu, blog seçenekleri ayarları kaydedilemedi.';
 $string['siteblog'] = 'Site blogu: $a';
+$string['tagdatelastused'] = 'Tarih etiketi kullanıldı';
+$string['tagsort'] = 'Etiket görünümünü sırala:';
+$string['tagtext'] = 'Etiket metni';
 $string['updateentrywithid'] = 'Kayıt güncelleniyor';
 $string['userblog'] = 'Kullanıcı blogu: $a';
 $string['viewcourseentries'] = 'Kurs kayıtlarına bak';
