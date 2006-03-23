@@ -45,6 +45,8 @@ $string['notavailable'] = 'Hindi magagamit iyan sa kasalukuyan';
 $string['onlyadmins'] = 'Administrador lamang ang makagagawa niyan.';
 $string['onlyeditingteachers'] = 'Tanging ang mga guro na nakapag-eedit ang makagagawa niyan.';
 $string['onlyeditown'] = 'Tanging ang sarili mong impormasyon ang maeedit mo';
+$string['pluginrequirementsnotmet'] = 'Ang plug-in na \"$a->pluginname\" ($a->pluginversion) 
+ay hindi maiinstol.  Kailangan nito ng mas bagong bersiyon ng Moodle (sa kasalukuyan ay gumagamit ka ng $a->currentmoodle, kailangan mo ng $a->requiremoodle).';
 $string['processingstops'] = 'Huminto ang pagproseso dito.  Hindi na ginamit ang nalalabing rekord.';
 $string['remotedownloadnotallowed'] = 'Ang pagdownload ng mga piyesa sa server mo ay hindi pinapahintulutan (ang allow_url_fopen ay pinatay).<br /><br />Kailangan mong idownload ang 
  <a href=\"$a->url\">$a->url</a> file nang mano-mano, kopyahin ito sa \"$a->dest\" ng iyong server at iunzip ito doon.';

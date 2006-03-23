@@ -972,6 +972,7 @@ $string['periodending'] = 'Katapusan ng period ($a)';
 $string['personalprofile'] = 'Pagkakakilanlan';
 $string['phone'] = 'Telepono';
 $string['phpinfo'] = 'Impo hinggil sa PHP';
+$string['pluginsetup'] = 'Isinasaayos ang mga teybol ng plug-in';
 $string['policyagree'] = 'Kailangan mo munang sumang-ayon sa patakarang ito bago ka makapagpatuloy na gumamit ng site.  Sumasangayon ka ba?';
 $string['policyagreement'] = 'Kasunduan hinggil sa Patakaran ng Site';
 $string['policyagreementclick'] = 'Iklik ito upang mabasa ang Kasunduan hinggil sa Patakaran ng Site';
