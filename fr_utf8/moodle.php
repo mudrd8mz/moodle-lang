@@ -951,6 +951,7 @@ $string['periodending'] = 'Fin de la période ($a)';
 $string['personalprofile'] = 'Fiche personnelle';
 $string['phone'] = 'Téléphone';
 $string['phpinfo'] = 'Info PHP';
+$string['pluginsetup'] = 'Mise en place des tables de plug-ins';
 $string['policyagree'] = 'Vous devez accepter de vous conformer à ce règlement pour continuer à utiliser ce site. Acceptez-vous le règlement&nbsp;?';
 $string['policyagreement'] = 'Règlement du site';
 $string['policyagreementclick'] = 'Cliquer ici pour lire le règlement du site';

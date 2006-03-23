@@ -43,6 +43,7 @@ $string['notavailable'] = 'Ceci n\'est actuellement pas disponible';
 $string['onlyadmins'] = 'Seuls les administrateurs peuvent faire ceci.';
 $string['onlyeditown'] = 'Vous ne pouvez modifier que vos propres informations';
 $string['onlyeditingteachers'] = 'Seuls les enseignants avec droit de modification peuvent faire ceci.';
+$string['pluginrequirementsnotmet'] = 'Le plug-in \"$a->pluginname\" ($a->pluginversion) ne peut pas être installé. Il nécessite une version plus récente de Moodle (vous utilisez actuellement la version $a->currentmoodle&nbsp; la version $a->requiremoodle est requise).';
 $string['processingstops'] = 'Le traitement s\'arrête ici. Les enregistrements restant ont été ignorés.';
 $string['remotedownloadnotallowed'] = 'Le téléchargement de composants sur votre serveur n\'est pas autorisé (l\'option allow_url_fopen est désactivée).<br /><br />Vous devez télécharger manuellement le fichier <a href=\"$a->url\">$a->url</a>, le copier vers «&nbsp;$a->dest&nbsp;» dans votre serveur et le décompresser.';
 $string['restricteduser'] = 'Votre compte utilisateur «&nbsp;$a&nbsp;» ne vous permet pas d\'effectuer cette opération.';
