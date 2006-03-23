@@ -6,6 +6,12 @@ $string['admindirerror'] = 'El directorio especificado para admin es incorrecto'
 $string['admindirname'] = 'Directorio Admin';
 $string['admindirsetting'] = '<p>Muy pocos servidores web usan /admin como URL especial para permitirle acceder a un panel de control o similar. Desgraciadamente, esto entra en conflicto con la ubicación estándar de las páginas de administración de Moodle Usted puede corregir esto renombrando el directorio admin en su instalación, y poniendo aquí ese nuevo nombre. Por ejemplo: <blockquote> moodleadmin</blockquote>.
 Así se corregirán los enlaces admin en Moodle.</p>';
+$string['admindirsettinghead'] = 'Seleccionar el directorio admin...';
+$string['admindirsettingsub'] = 'Muy pocos servidores web usan /admin como URL especial para permitirle acceder
+    a un panel de control o similar. Desgraciadamente, esto entra en conflicto con la ubicación estándar
+    de las páginas de administración de Moodle. Usted puede corregir esto renombrando el directorio admin 
+    en su instalación, y poniendo aquí ese nuevo nombre. Por ejemplo: <br /> <br /><b>moodleadmin</b><br /> <br />
+    Así se corregirán los enlaces admin en Moodle.';
 $string['caution'] = 'Precaución';
 $string['chooselanguage'] = 'Seleccionar idioma';
 $string['chooselanguagehead'] = 'Seleccionar idioma';
