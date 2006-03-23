@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6 development (2005101200)
+      // hotpot.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['abandoned'] = '放棄';
@@ -16,7 +16,7 @@ $string['clickreporting'] = 'クリックレポートを有効にする';
 $string['clues'] = 'クルー';
 $string['completed'] = '完了';
 $string['configexcelencodings'] = 'カンマで区切ったエンコーディングのリストです。スプレッドシートプログラムのレポート値を特定のエンコーディングに変更するために使用します。例えば日本語では、Microsoft Excelは「SJIS」にする必要があります。';
-$string['configshowtimes'] = '一覧とレポートで表示されるレコードの処理に時間がかかるべきですか? これはなぜあなたのサーバの動作が遅いか調査するためだけに本当に必要な設定です。';
+$string['configshowtimes'] = '一覧とレポートで表示するレコードの処理に時間をかけますか? これは、なぜあなたのサーバの動作が遅いか調査するためだけに本当に必要な設定です。';
 $string['copiedtoclipboard'] = 'このページのコンテンツがクリップボードにコピーされました。';
 $string['copytoclipboard'] = 'クリップボードにコピーする';
 $string['correct'] = '正解';

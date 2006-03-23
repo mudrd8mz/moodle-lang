@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6 development (2006022400)
+      // scorm.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['advanced'] = '詳細設定';
@@ -31,8 +31,8 @@ $string['failed'] = '失敗';
 $string['firstaccess'] = '最初のアクセス';
 $string['firstattempt'] = '最初の受験';
 $string['found'] = 'マニフェストファイルが見つかりました';
-$string['frameheight'] = 'ここではステージフレームまたはウィンドウのデフォルトの高さを設定します。';
-$string['framewidth'] = 'ここではステージフレームまたはウィンドウのデフォルトの幅を設定します。';
+$string['frameheight'] = 'ステージフレームまたはウィンドウのデフォルトの高さを設定します。';
+$string['framewidth'] = 'ステージフレームまたはウィンドウのデフォルトの幅を設定します。';
 $string['fullscreen'] = 'フルスクリーンモード';
 $string['general'] = '一般データ';
 $string['gradeaverage'] = '平均評点';

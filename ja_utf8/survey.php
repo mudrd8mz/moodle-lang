@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.6 development (2006031600)
+      // survey.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['actual'] = '実体験';
@@ -171,7 +171,7 @@ $string['downloadtext'] = 'テキスト形式でダウンロードする';
 $string['editingasurvey'] = '調査を編集する';
 $string['guestsnotallowed'] = 'ゲストは調査へ参加できません';
 $string['helpsurveys'] = '他のタイプの調査に協力する';
-$string['howlong'] = 'この調査を終えるのにどれくらいの時間がかかりましたか?';
+$string['howlong'] = 'この調査を終えるのにどのくらいの時間がかかりましたか?';
 $string['howlongoptions'] = '1分以下,1-2分,2-3分,3-4分,4-5分,5-10分,10分以上';
 $string['ifoundthat'] = '私は次のことを発見しました:';
 $string['introtext'] = 'イントロダクションテキスト';
