@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6 development (2006031600)
+      // assignment.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['allowresubmit'] = '再提出を許可する';
 $string['assignmentdetails'] = '課題の詳細';
 $string['assignmentmail'] = '$a->teacher があなたの課題「 $a->assignment 」に対するフィードバックを登録しました。
 
-フィードバックはあなたの提出課題に追加されています:
+フィードバックは、あなたの提出課題に追加されています:
 
 $a->url';
 $string['assignmentmailhtml'] = '$a->teacher があなたの課題「 <i>$a->assignment</i> 」 に対する提出課題にフィードバックを登録しました。<br /><br />フィードバックはあなたの<a href=\"$a->url\">提出課題</a>に追加されています。';
