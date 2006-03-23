@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6 development (2006031400)
+      // assignment.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['allowresubmit'] = 'Tekrar göndermeye izin ver';
@@ -15,6 +15,7 @@ $string['assignmenttype'] = 'Ödev türü';
 $string['availabledate'] = 'Başlangıç tarihi';
 $string['comment'] = 'Yorum';
 $string['commentinline'] = 'Satıriçi yorum';
+$string['configitemstocount'] = 'Çevrimiçi ödevlerde öğrenci gönderileri için sayılacak tür';
 $string['configmaxbytes'] = 'Sitedeki tüm ödevler için varsayılan en yüksek ödev boyutu (ders limitleri ve diğer yerel ayarlar içindir)';
 $string['description'] = 'Açıklama';
 $string['duedate'] = 'Teslim tarihi';
