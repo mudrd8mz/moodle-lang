@@ -33,6 +33,7 @@ $string['newentry'] = 'Nouvelle contribution';
 $string['noavailablepeople'] = 'Il n\'y a personne avec qui dialoguer.';
 $string['nopersonchosen'] = 'Aucun utilisateur choisi';
 $string['nosubject'] = 'Aucun sujet donné';
+$string['notavailable'] = 'Les dialogues ne sont pas accesssibles aux invités';
 $string['notextentered'] = 'Aucun texte saisi';
 $string['notstarted'] = 'Vous n\'avez pas encore commencé ce dialogue';
 $string['notyetseen'] = 'Pas encore consulté';
