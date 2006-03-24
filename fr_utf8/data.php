@@ -11,6 +11,7 @@ $string['approve'] = 'Approuver';
 $string['ascending'] = 'Ascendant';
 $string['atmaxentry'] = 'Vous avez ajouté le nombre maximum de fiches permises&nbsp;!';
 $string['autogenallforms'] = 'Générer tous les modèles par défaut';
+$string['autolinkurl'] = 'Lien automaatique de l\'URL';
 $string['availablefromdate'] = 'Disponible du';
 $string['availabletags'] = 'Balises disponibles';
 $string['availabletodate'] = 'Disponible jusqu\'au';
