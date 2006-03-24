@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // langconfig.php - created with Moodle 1.6 development (2005101200)
+      // langconfig.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['firstdayofweek'] = '0';
 $string['locale'] = 'ja_JP.UTF-8';
+$string['localewin'] = 'Japanese_Japan.UTF8';
 $string['oldcharset'] = 'EUC-JP';
 $string['strftimedate'] = '%%Y年 %%m月 %%d日 ';
 $string['strftimedateshort'] = '%%m/%%d';
