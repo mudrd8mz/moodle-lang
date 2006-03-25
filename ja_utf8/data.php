@@ -13,6 +13,7 @@ $string['approve'] = '承認';
 $string['ascending'] = '降順';
 $string['atmaxentry'] = 'あなたは許可された最大数のエントリを入力しました。';
 $string['autogenallforms'] = 'すべてのデフォルトテンプレートの生成';
+$string['autolinkurl'] = 'URLにオートリンクする';
 $string['availablefromdate'] = '利用開始日時';
 $string['availabletags'] = '利用可能なタグ';
 $string['availabletodate'] = '利用終了日時';

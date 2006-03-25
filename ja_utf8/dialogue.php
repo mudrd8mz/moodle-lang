@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.6 development (2005101200)
+      // dialogue.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['addmynewentries'] = '新しいエントリを追加';
@@ -36,6 +36,7 @@ $string['newentry'] = '新しいエントリ';
 $string['noavailablepeople'] = 'ダイアログを行う相手がいません。';
 $string['nopersonchosen'] = '誰も選択していません';
 $string['nosubject'] = 'テーマが入力されていません';
+$string['notavailable'] = 'ゲストユーザはダイアログを利用できません。';
 $string['notextentered'] = 'テキストが入力されていません';
 $string['notstarted'] = 'このダイアログをまだ開始していません';
 $string['notyetseen'] = 'まだ閲覧されていません';
