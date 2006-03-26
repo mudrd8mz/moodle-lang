@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006022400)
+      // moodle.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['action'] = 'Aksiyon';
@@ -1155,7 +1155,7 @@ $string['statsreport12'] = 'Pinakaaktibong kurso (may timbang)';
 $string['statsreport13'] = 'Pinakanilalahukang kurso (pag-eenrol)';
 $string['statsreport14'] = 'Pinakanilalahukang kurso (tanaw/ipinaskil)';
 $string['statsreport2'] = 'Mga tanaw (guro at mag-aaral)';
-$string['statsreport3'] = 'Mga post (guro at mag-aaral)';
+$string['statsreport3'] = 'Mga ipinaskil (guro at mag-aaral)';
 $string['statsreport4'] = 'Lahat ng aktibidad (guro at mag-aaral)';
 $string['statsreport5'] = 'Lahat ng aktibidad ng mag-aaral (tanaw at ipinaskil)';
 $string['statsreport6'] = 'Lahat ng aktibidad ng guro (tanaw at ipinaskil)';
@@ -1169,10 +1169,10 @@ $string['statsreportreads'] = 'Mga Tanaw (guro at mag-aaral)';
 $string['statsreportstudentactivity'] = 'Lahat ng aktibidad ng mag-aaral (tanaw at ipinaskil)';
 $string['statsreportteacheractivity'] = 'Lahat ng aktibidad ng guro (tanaw at ipinaskil)';
 $string['statsreporttype'] = 'Urî ng Ulat';
-$string['statsreportwrites'] = 'Mga post (guro at mag-aaral)';
+$string['statsreportwrites'] = 'Mga ipinaskil (guro at mag-aaral)';
 $string['statsstudentactivity'] = 'Aktibidad ng mag-aaral';
 $string['statsstudentreads'] = 'Mga tanaw ng mag-aaral';
-$string['statsstudentwrites'] = 'Mga post ng mag-aaral';
+$string['statsstudentwrites'] = 'Mga ipinaskil ng mag-aaral';
 $string['statsteacheractivity'] = 'Aktibidad ng guro';
 $string['statsteacherreads'] = 'Mga tanaw ng guro';
 $string['statsteacherwrites'] = 'Mga ipinaskil ng guro';

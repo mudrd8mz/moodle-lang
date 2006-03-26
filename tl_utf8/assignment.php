@@ -1,17 +1,16 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6 development (2006022400)
+      // assignment.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['allowresubmit'] = 'Pahintulutang maípasa mulî';
 $string['assignmentdetails'] = 'Detalye ng takdang-aralin';
-$string['assignmentmail'] = 'Nagpost si $a->teacher ng puna sa ipinasa mong 
+$string['assignmentmail'] = 'Nagpaskil si $a->teacher ng puna sa ipinasa mong 
 takdang-aralin para sa  \'$a->assignment\'
 
 Makikita mo itong nakakabit sa ipinasa mong takdang-aralin:
 
     $a->url';
-$string['assignmentmailhtml'] = 'Nagpost si $a->teacher ng ilang puna sa ipinasa mong 
-takdang-aralin para sa \'<i>$a->assignment</i>\'<br /><br />
+$string['assignmentmailhtml'] = 'Nagpaskil si $a->teacher ng ilang puna sa ipinasa mong takdang-aralin para sa \'<i>$a->assignment</i>\'<br /><br />
 Makikita mo itong nakakabit sa <a href=\"$a->url\">ipinasa mong takdang-aralin</a>.';
 $string['assignmentname'] = 'Pangalan ng takdang-aralin';
 $string['assignmenttype'] = 'Uri ng takdang-aralin';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2006022400)
+      // error.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['adminprimarynoedit'] = 'Hindi maaaring iedit ng iba ang pangunahing admin';
@@ -25,7 +25,7 @@ $string['errorreadingfile'] = 'Nagka-error sa pagbasa ng file na \"$a\"';
 $string['errorunzippingfiles'] = 'Nagka-error sa pag-unzip ng mga file';
 $string['fieldrequired'] = '\"$a\" ay field na kailangan';
 $string['filenotfound'] = 'Paumanhin, hindi matagpuan ang hinihiling na file';
-$string['forumblockingtoomanyposts'] = 'Lumagpas ka na sa itinakdang hangganang bilang ng pagpopost sa talakyang ito.';
+$string['forumblockingtoomanyposts'] = 'Lumagpas ka na sa itinakdang hangganang bilang ng pagpapaskil sa talakyang ito.';
 $string['groupalready'] = 'Miyembro na ng pangkat $a ang user';
 $string['groupunknown'] = 'Hindi nakaugnay ang pangkat $a sa isang partikular na kurso';
 $string['invalidcourse'] = 'Ditanggap na kurso';

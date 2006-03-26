@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2006022400)
+      // quiz.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['1day'] = '1 Araw';
@@ -117,7 +117,7 @@ $string['default'] = 'Default';
 $string['defaultgrade'] = 'Default na marka ng tanong';
 $string['defaultinfo'] = 'Ang default na kategoriya ng mga tanong.';
 $string['delay1'] = 'Agwat ng oras sa una at ikalawang pagkuha';
-$string['delay2'] = 'Agwat ng oras sa ikalawa at higit pang pagkuha';
+$string['delay2'] = 'Agwat ng oras sa mga susunod na pagkuha';
 $string['deleteattemptcheck'] = 'Talaga bang nais mong burahin nang lubusan ang mga kinuhang pagsusulit na ito?';
 $string['deletequestioncheck'] = 'Talaga bang nais mong burahin ang \'$a\'?';
 $string['deletequestionscheck'] = 'Talaga bang nais mong burahin ang mga sumusunod na tanong? <div>$a</div>';
@@ -179,7 +179,7 @@ $string['fillouttwochoices'] = 'Dapat mong lagyan ng hindi bababa sa dalawang pa
 $string['finishattempt'] = 'Ipasa lahat at magtapos';
 $string['forceregeneration'] = 'ipilit ang muling pagbuo';
 $string['formatnotfound'] = 'Hindi natagpuan ang format na $a ng pag-aangkat/pagluluwas';
-$string['formatnotimplemented'] = 'Hindi wasto ang implementasyon ng format na ito, magpost po ng ulat ng bug';
+$string['formatnotimplemented'] = 'Hindi wasto ang implementasyon ng format na ito, magpaskil po ng ulat ng bug';
 $string['fractionsaddwrong'] = 'Hindi bumubuo ng 100%% ang mga positibong marka na pinili mo<br />Sa halip ay bumubuo ito ng $a%%<br /> Gusto mo bang bumalik upang maayos ang tanong na ito?';
 $string['fractionsnomax'] = 'Ang isa sa mga sagot ay dapat 100%%, upang <br />posibleng makakuha ng buong marka sa tanong na ito.<br />Gusto mo bang bumalik upang maayos ang tanong na ito?';
 $string['functiontakesatleasttwo'] = 'Ang function na $a ay kailangang may hindi bababa sa dalawang argumento';
@@ -310,9 +310,9 @@ $string['penalty'] = 'Parusa';
 $string['penaltyfactor'] = 'Paktor ng parusa';
 $string['penaltyscheme'] = 'Ilapat ang mga parusa';
 $string['percentcorrect'] = 'Bahagdang Wasto';
-$string['pleaseclose'] = 'Ang kahilingan mo ay naproseso na.  Maaari mo nang isara ang window na ito';
-$string['popup'] = 'Ipakita ang pagsusulit sa isang \"ligtas\" na window';
-$string['popupnotice'] = 'Makikita ng mga mag-aaral ang pagsusulit na ito sa isang ligtas na window';
+$string['pleaseclose'] = 'Ang kahilingan mo ay naproseso na.  Maaari mo nang isara ang bintanang ito';
+$string['popup'] = 'Ipakita ang pagsusulit sa isang &quot;ligtas&quot; na bintana';
+$string['popupnotice'] = 'Makikita ng mga mag-aaral ang pagsusulit na ito sa isang ligtas na bintana';
 $string['preview'] = 'Silipin';
 $string['previewquestion'] = 'Silipin ang tanong';
 $string['previewquiz'] = 'Silipin ang $a';
@@ -328,7 +328,7 @@ $string['questionname'] = 'Pangalan ng tanong';
 $string['questionnametoolong'] = 'Labis ang haba ng pangalan ng tanong sa ika- $a na linya (255 titik maks).  Pinutol ito.';
 $string['questions'] = 'Mga Tanong';
 $string['questionsinclhidden'] = 'Mga Tanong (kasama ang nakatago)';
-$string['questionsinuse'] = '(* Ang mga Tanong na may tanda na asteriks ay ginagamit na sa ilang pagsusulit.  Ang mga tanong na ito ay hindi buburahin sa mga tanong na ito kundi sa listahan lamang ng kategoriya.)';
+$string['questionsinuse'] = '(* Ang mga Tanong na may tanda na asterisk ay ginagamit na sa ilang pagsusulit.  Ang mga tanong na ito ay hindi buburahin sa mga tanong na ito kundi sa listahan lamang ng kategoriya.)';
 $string['questionsperpage'] = 'Maks na bilang ng tanong bawat pahina';
 $string['questiontype'] = 'Uri ng tanong na $a';
 $string['questiontypesetupoptions'] = 'Mga opsiyon na kaayusan para sa mga uri ng tanong:';
@@ -354,7 +354,7 @@ $string['recurse'] = 'Ipakita rin ang mga tanong sa mga sub-kategoriya';
 $string['regrade'] = 'Markahan muli ang lahat ng pagkuha';
 $string['regradecomplete'] = 'Ang lahat ng pagkuha ay namarkahan nang muli';
 $string['regradecount'] = '$a->changed mula sa $a->attempt marka ang binago';
-$string['regradedisplayexplanation'] = 'Ang mga pagkuha na nagbago habang minamarkang muli ay ipinapakita na hyperlink papunta sa window na panrebyu ng tanong';
+$string['regradedisplayexplanation'] = 'Ang mga pagkuha na nagbago habang minamarkang muli ay ipinapakita na hyperlink papunta sa bintanang  panrebyu ng tanong';
 $string['regradingquestion'] = 'Muling Minamarkahan ang  \"$a\".';
 $string['regradingquiz'] = 'Muling Minamarkahan ang Pagsusulit na \"$a\" ';
 $string['relative'] = 'Relatibo';

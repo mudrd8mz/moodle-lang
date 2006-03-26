@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 development (2006022400)
+      // data.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['action'] = 'Aksiyon';
@@ -13,6 +13,7 @@ $string['approve'] = 'Pahintulutan';
 $string['ascending'] = 'Pataas';
 $string['atmaxentry'] = 'Ipinasok mo ang maksimum na bilang ng talâ na pinapahintulutan!';
 $string['autogenallforms'] = 'Likhain ang lahat ng default na padron';
+$string['autolinkurl'] = 'Iawtolink ang URL';
 $string['availablefromdate'] = 'Magagamit mula';
 $string['availabletags'] = 'Magagamit na tag';
 $string['availabletodate'] = 'Magagamit hanggang';
@@ -57,7 +58,6 @@ $string['fieldwidth'] = 'Lápad';
 $string['fieldwidthlistview'] = 'Lápad ng nasa tanaw na palista';
 $string['fieldwidthsingleview'] = 'Lápad ng nasa tanaw na paisa-isa';
 $string['footer'] = 'Talababa';
-$string['generatedefault'] = 'Likhain ang default na padron';
 $string['header'] = 'Talaulo';
 $string['headeraddtemplate'] = 'Itinatakda ang interpeys kapag nagdadagdag ng bagong talâ';
 $string['headerlisttemplate'] = 'Itinatakda ang interpeys na pantingin para sa maramihang talâ';
@@ -70,7 +70,6 @@ $string['invalidurl'] = 'Ditanggap ang URL na ipinasok mo';
 $string['listtemplate'] = 'Padron ng Listahan';
 $string['maxentries'] = 'Maksimum na talâ';
 $string['maxsize'] = 'Maksimum na laki';
-$string['menu'] = 'Menu (Isahang-pagpili)';
 $string['menuchoose'] = 'Pumili...';
 $string['modulename'] = 'Database';
 $string['modulenameplural'] = 'Mga database';
@@ -120,6 +119,7 @@ $string['recordssaved'] = 'na-save ang (mga) rekord';
 $string['requireapproval'] = 'Gagawin bang kailangan ang Pahintulot?';
 $string['requiredentries'] = 'Mga kinakailangang talâ';
 $string['requiredentriestoview'] = 'Mga kinakailangang talâ bago matingnan';
+$string['resettemplate'] = 'Ireset ang padron';
 $string['rssglobaldisabled'] = 'Pinatay.  Tingnan ang kaayusan ng mga baryabol para sa site.';
 $string['rsshowmany'] = '(bilang ng pinakabagong talâ na ipapakita, 0 para mapatay ang RSS)';
 $string['rsstemplate'] = 'Padron ng RSS';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 development (2006022400)
+      // glossary.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['addcomment'] = 'Magdagdag ng opinyon';
@@ -42,7 +42,7 @@ $string['cnfrelatedview'] = 'Piliin ang format ng pagpapakita na gagamitin para 
 $string['cnfshowgroup'] = 'Itakda kung dapat o hindi dapat ipakita ang pagkakahiwalay ng pangkat.';
 $string['cnfsortkey'] = 'Piliin ang default na susi sa pagsusunod-sunod.';
 $string['cnfsortorder'] = 'Piliin ang default na pagkakasunod-sunod.';
-$string['cnfstudentcanpost'] = 'Itakda kung alin ang dapat maging default, ang makapagpost ang mga mag-aaral o hindi';
+$string['cnfstudentcanpost'] = 'Itakda kung alin ang dapat maging default, ang makapagpapaskil ang mga mag-aaral o hindi';
 $string['comment'] = 'Opinyon';
 $string['commentdeleted'] = 'Binura na ang opinyon.';
 $string['comments'] = 'Mga opinyon';

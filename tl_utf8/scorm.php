@@ -1,9 +1,8 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6 development (2006022400)
+      // scorm.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['advanced'] = 'Abante';
-$string['asset'] = 'Asset';
 $string['attempt'] = 'pagkuha';
 $string['attempts'] = 'mga pagkuha';
 $string['attr_error'] = 'Masamang halaga para sa attribute na ($a->attr) sa tag na $a->tag.';
@@ -15,10 +14,10 @@ $string['browsed'] = 'Natingnan';
 $string['browsemode'] = 'Patingin na Mode';
 $string['chooseapacket'] = 'Pumilì o baguhin ang isang paketeng SCORM';
 $string['completed'] = 'Nakumpleto';
-$string['coursepacket'] = 'Pakete ng Kurso';
-$string['coursestruct'] = 'Balangkas ng Kurso';
+$string['coursepacket'] = 'Pakete ng kurso';
+$string['coursestruct'] = 'Balangkas ng kurso';
 $string['datadir'] = 'Filesystem Error: Hindi malikha ang direktoryo ng datos ng kurso';
-$string['details'] = 'Mga detalye ng SCO track';
+$string['details'] = 'Mga detalye ng track';
 $string['directories'] = 'Ipakita ang mga link ng direktoryo';
 $string['display'] = 'Ipakita';
 $string['domxml'] = 'DOMXML external library';
@@ -33,7 +32,7 @@ $string['firstattempt'] = 'Unang pagkuha';
 $string['found'] = 'Natagpuan ang manifest';
 $string['frameheight'] = 'Itinatakda ng mas-ibig na ito ang default na taas ng kuwadro ng tanghalan o bintana';
 $string['framewidth'] = 'Itinatakda ng mas-ibig na ito ang default na lapad ng kuwadro ng tanghalan o bintana';
-$string['fullscreen'] = 'Punuin ang buong screen';
+$string['fullscreen'] = 'Punuin ang buong iskrin';
 $string['general'] = 'Pangkalahatang datos';
 $string['gradeaverage'] = 'Katamtamang marka';
 $string['gradehighest'] = 'PInakamataas na marka';
@@ -62,7 +61,7 @@ $string['missing_attribute'] = 'Nawawala ang attribute na $a->attr sa tag na $a-
 $string['missing_tag'] = 'Nawawala ang tag na $a->tag';
 $string['mode'] = 'Mode';
 $string['modulename'] = 'SCORM/AICC';
-$string['modulenameplural'] = 'Mga SCORMs/AICCs';
+$string['modulenameplural'] = 'Mga SCORM/AICC';
 $string['newattempt'] = 'Magsimula ng bagong pagkuha';
 $string['next'] = 'Ituloy';
 $string['no_attributes'] = 'Kailangang may mga attribute ang tag na $a->tag';
@@ -84,7 +83,7 @@ $string['packagedir'] = 'Filesystem Error: Hindi malikha ang direktoryo ng paket
 $string['packagefile'] = 'Walang paketeng file na itinakda';
 $string['passed'] = 'Pasado';
 $string['php5'] = 'PHP 5 (DOMXML native library)';
-$string['popup'] = 'Buksan ang mga Bagay na Pag-aaralan sa bagong window';
+$string['popup'] = 'Buksan ang mga Bagay na Pag-aaralan sa bagong bintana';
 $string['popupmenu'] = 'Sa isang hinihila pababa na menu';
 $string['popupopen'] = 'Buksan ang pakete sa bagong bintana';
 $string['position_error'] = 'Ang $a->tag na tag ay hindi maaaring maging anak ng $a->parent na tag';

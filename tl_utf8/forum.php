@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6 development (2006022400)
+      // forum.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['addanewdiscussion'] = 'Magdagdag ng bagong paksang pag-uusapan';
@@ -37,7 +37,7 @@ $string['couldnotdeletereplies'] = 'Paumanhin, hindi iyan maaaring mabura dahil 
 $string['couldnotupdate'] = 'Hindi mabago ang ipinaskil mo dahil sa dimalamang dahilan';
 $string['delete'] = 'Burahin';
 $string['deleteddiscussion'] = 'Ang paksang pinag-uusapan ay binura na';
-$string['deletedpost'] = 'Angipinaskil ay binura na';
+$string['deletedpost'] = 'Ang ipinaskil ay binura na';
 $string['deletedposts'] = 'Binura ang mga ipinaskil na iyon';
 $string['deletesure'] = 'Talaga bang nais mong burahin ang ipinaskil na ito?';
 $string['deletesureplural'] = 'Talaga bang nais mong burahin ang ipinaskil na ito at lahat ng tugon dito? ($a ipinaskil)';
@@ -60,8 +60,8 @@ $string['displaystart'] = 'Ipakita ang simula';
 $string['eachuserforum'] = 'Ang bawat tao ay magpapaskil ng isang panimulang pag-uusapan';
 $string['edit'] = 'Iedit';
 $string['editedby'] = 'Inedit ni $a->name - $a->date';
-$string['editing'] = 'Nageedit';
-$string['emptymessage'] = 'May problema ang nagpopost mo.  Marahil ay blangko ito, o ang kalakip ay masyadong malaki.  Ang mga pagbabago mo ay HINDI nasave.';
+$string['editing'] = 'Nag-eedit';
+$string['emptymessage'] = 'Nagkaproblema ang ipinaskil mo.  Marahil ay naiwan mo itong blangko, o ang kalakip ay masyadong malaki.   HINDI nasave ang mga pagbabago mo.';
 $string['everyonecanchoose'] = 'Lahat ay maaaring sumali';
 $string['everyoneissubscribed'] = 'Lahat ay kasali sa talakayang ito';
 $string['existingsubscribers'] = 'Mga kasalukuyang kasali';
