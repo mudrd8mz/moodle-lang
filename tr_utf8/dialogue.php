@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.6 development (2005101200)
+      // dialogue.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['addmynewentries'] = 'Yeni Kayıtları ekle';
@@ -38,6 +38,7 @@ $string['newentry'] = 'Yeni Kayıt';
 $string['noavailablepeople'] = 'Söyleşi yapılabilecek hiç kimse yok';
 $string['nopersonchosen'] = 'Kişi Seçilmedi';
 $string['nosubject'] = 'Konu Girilmedi';
+$string['notavailable'] = 'Söyleşiler konuk kullanıcılara açık değildir';
 $string['notextentered'] = 'Yazı Girilmedi';
 $string['notstarted'] = 'Henüz bu söyleşiye başlamadınız';
 $string['notyetseen'] = 'Henüz görülmedi';
