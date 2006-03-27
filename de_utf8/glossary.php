@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 development (2005101200)
+      // glossary.php - created with Moodle 1.6 development (2006032001)
 
 
 $string['addcomment'] = 'Kommentar einfügen';
@@ -53,7 +53,7 @@ $string['concepts'] = 'Einträge';
 $string['configenablerssfeeds'] = 'Diese Einstellung ermöglicht die Nutzung der RSS-Feeds für alle Foren. Jedes Forum muss einzeln für den RSS-Feed aktiviert werden.';
 $string['currentglossary'] = 'Derzeitiges Glossar';
 $string['dateview'] = 'Suche nach Datum';
-$string['defaultapproval'] = 'Freigabe vor Veröffentlichung';
+$string['defaultapproval'] = 'Beiträge ohne Prüfung freigeben';
 $string['definition'] = 'Definition';
 $string['definitions'] = 'Definitionen';
 $string['deleteentry'] = 'Eintrag löschen';
@@ -84,7 +84,7 @@ $string['entryalreadyexist'] = 'Der Eintrag existiert bereits.';
 $string['entryapproved'] = 'Der Eintrag wurde eingefügt.';
 $string['entrydeleted'] = 'Eintrag gelöscht';
 $string['entryexported'] = 'Der Eintrag wurde erfolgreich exportiert.';
-$string['entryishidden'] = '( Dieser Eintrag ist gegenwärtig nicht sichtbar.)';
+$string['entryishidden'] = '( Dieser Eintrag ist derzeit nicht sichtbar.)';
 $string['entryleveldefaultsettings'] = 'Grundeinstellung für Einträge';
 $string['entrysaved'] = 'Der Eintrag wurde gespeichert';
 $string['entryupdated'] = 'Der Eintrag wurde aktualisiert.';
@@ -95,9 +95,8 @@ $string['explainalphabet'] = 'Durchsuche das Glossar unter Verwendung des Index.
 $string['explainexport'] = 'Eine Datei wurde erstellt. <br />Downloaden Sie die Datei und bewahren Sie sie sicher auf. Sie können Sie jederzeit importieren oder in einen anderen Kurs einfügen.';
 $string['explainimport'] = 'Wählen Sie die zu importierende Datei aus und legen Sie die Kriterien des weiteren Vorgehens fest. <p>Löst den Vorgang aus und zeigt die Ergebnisse.';
 $string['explainspecial'] = 'Zeige Einträge, die nicht mit einem Buchstaben beginnen.';
-$string['exportedentry'] = 'Eintrag wurde exportiert.';
-$string['exportedfile'] = 'Exportierte Datei';
 $string['exportentries'] = 'Glossar exportieren';
+$string['exportfile'] = 'Glossar in Datei exportieren';
 $string['exportglossary'] = 'Export des Glossars';
 $string['exporttomainglossary'] = 'Übertrag zum Hauptglossar.';
 $string['filetoimport'] = 'Datei zum importieren';
@@ -107,7 +106,6 @@ $string['fullmatch'] = 'Nur ganze Wörter verlinken';
 $string['globalglossary'] = 'Globales Glossar';
 $string['glossaryleveldefaultsettings'] = 'Grundeinstellung des Glossars';
 $string['glossarytype'] = 'Art des Glossars';
-$string['glosssaryexported'] = 'Glossar wurde exportiert';
 $string['importcategories'] = 'Import von Kategorien';
 $string['importedcategories'] = 'Importierte Kategorien';
 $string['importedentries'] = 'Importierte Einträge';

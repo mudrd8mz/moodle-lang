@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6 development (2005111101)
+      // enrol_authorize.php - created with Moodle 1.6 development (2006032001)
 
 
 $string['adminauthorizeccapture'] = 'Orderreview & Auto-Capture Einstellungen';
@@ -13,12 +13,14 @@ $string['adminhelpcapture'] = 'Sie müssen Zahlungen nicht manuell akzeptieren o
 - Cron setup vornehmen.
 - an_review prüfen
 - Eintrag eines Wertes zwischen 1 und 29 in das Feld an_capture_day Feld. Kartenzahlungen werden angenommen und die Teilnehmer/innen in die Kurse eingetragen bis Sie innerhalb der Frist den Vorgang bearbeitet haben.';
+$string['adminhelpcapturetitle'] = 'Tag für automatische Zahlung';
 $string['adminhelpreview'] = 'Wie kann ich manuell Zahlungen annehmen/zurückweisen?
 - an_review prüfen.
 - \'0\' im Feld an_capture_day eintragen.
 
 Wie werden Teilnehmer/innen sofort nach Eingabe der Kartendaten in den Kurs eingetragen?
 - Deaktivieren Sie an_review.';
+$string['adminhelpreviewtitle'] = 'Order Rückblick';
 $string['adminneworder'] = 'An den Admin,
 
 Eine neue Zhalungist registriert worden:
@@ -38,19 +40,34 @@ $a->url';
 $string['adminnewordersubject'] = '$a->course: Neue offene Zahlungen ($a->orderid)';
 $string['adminpendingorders'] = 'Sie haben das auto-capture Feature deaktiviert. <br />Insgesamt $a->count Transaktionen mit dem Status AN_STATUS_AUTH werden zurückgewiesen wenn Sie diese nicht prüfen.<br />Gehen Sie zum <a href=\'§a->url\'>Zahlungsmanagement</a>, um diese zu bearbeiten.';
 $string['adminreview'] = 'Zahlung überprüfen bevor Kreditkarte akzeptiert wird';
+$string['adminteachermanagepay'] = 'Trainer/innen können die  Zahlungen des Kurses verwalten';
 $string['amount'] = 'Betrag';
 $string['anlogin'] = 'Authorize.net: Loginname';
 $string['anpassword'] = 'Authorize.net: Passwort (nicht erforderlich)';
 $string['anreferer'] = 'Tragen Sie hier die URL ein wenn Sie dies in Ihrem authorize.net account eintragen. Damit wird eine \"Referer:URL\" in der Webanfrage erstellt.';
 $string['antestmode'] = 'Authorize.net: Test Transaktionen';
 $string['antrankey'] = 'Authorize.net: Transaktionskey';
+$string['authcaptured'] = 'Bestätigte/Gezahlte';
 $string['authorizedpendingcapture'] = 'Bestätigte/Wartende Zahlungen';
+$string['avsa'] = 'Adresse (Strasse) abgleichen, Post Code nicht';
+$string['avsb'] = 'Adressinformation nicht erforderlich';
+$string['avse'] = 'Adressprüfungsfehler';
+$string['avsg'] = 'Nicht von US-Bank ausgestellt';
+$string['avsn'] = 'Weder Übereinstimmung von Adresse (Strasse) noch Post Code';
+$string['avsp'] = 'Adressprüfung nicht verfügbar';
+$string['avsr'] = 'Wiederholen - System nicht verfügbar oder Zeitüberschreitung';
+$string['avsresult'] = 'Adressprüfungsergebnis:';
+$string['avss'] = 'Service wird vom Ausgeber nicht unterstützt';
+$string['avsu'] = 'Adressinformation nicht verfügbar';
+$string['avsw'] = '9 Zeichen PostCode stimmt überein, Adresse (Strasse) nicht';
+$string['avsx'] = 'Adresse (Strasse) und 9-Zeichen PostCode stimmen überein';
+$string['avsy'] = 'Adresse (Strasse) und 5-Zeichen PostCode stimmen überein';
+$string['avsz'] = '5-Zeichen PostCode stimmt überein, Adresse (Strasse) jedoch nicht';
 $string['canbecredit'] = 'Kann erstattet werden an $a->upto';
 $string['cancelled'] = 'Aufgehoben';
 $string['capture'] = 'Zahlungen';
 $string['capturedpendingsettle'] = 'Bestätigte/offene Zahlungen';
 $string['capturedsettled'] = 'Bestätigt/ gezahlt';
-$string['capturetestwarn'] = 'Die Zahlungen scheinen zu funktionieren. Im Testmodus wurde aber kein Datensatz aktualisiert.';
 $string['captureyes'] = 'Die Kreditkarte wird angenommen und der/die Teilnehmer/in in den Kurs eingetragen. Sind Sie sicher?';
 $string['ccexpire'] = 'Verfallsdatum';
 $string['ccexpired'] = 'Die Kreditkarte ist abgelaufen';
@@ -61,7 +78,6 @@ $string['ccvv'] = 'Kreditkarten Überprüfung';
 $string['ccvvhelp'] = 'Schauen Sie auf der Kartenrückseite nach (letzte drei Zeichen)';
 $string['choosemethod'] = 'Wenn Sie den Zugangsschlüssel kennen, tragen Sie ihn hier ein. Im anderen Fall müssen Sie erst die Kursgebühren entrichten.';
 $string['chooseone'] = 'Füllen Sie eines oder beide Felder aus';
-$string['credittestwarn'] = 'Die Kreditkartenabwicklung scheint zu funktionieren. Im Testmodus wurde aber kein Datensatz zur Datenbank hinzugefügt.';
 $string['cutofftime'] = 'Transaktionsende. Wannn soll die letze Zahlung zur Abwicklung aufgenommen werden?';
 $string['delete'] = 'Löschen';
 $string['description'] = 'Das Authorize.net Modul erlaubt Kursgebühren über Kreditkarten abzurechnen. Wenn der Betrag für einen Kurs auf \'0\' gesetzt wird, wird die Gebührenabfrage nicht gestartet. Sie können hier einen seitenweit gültigen Betrag einsetzen, der als Grundbetrag für jeden Kurs voreingestellt ist. Diese Einstellung kann in den Kurseinstellungen überschrieben werden.';
@@ -73,6 +89,12 @@ Geben Sie Ihre Kreditkartennummer solange nicht ein bis Sie ein gelbes Schloß a
 $string['logindesc'] = 'Sie können in den Optionen (Variables/Security) eine sichere <a href=\"$a->url\">Https Verbindung</a> auswählen.
 <br /><br />
 Ist diese Variable gesetzt, wird Moodle für die Login- und Zahlungsseite eine sichere https Verbindung aufbauen.';
+$string['missingaddress'] = 'Adresse fehlt';
+$string['missingcc'] = 'Kartennummer fehlt';
+$string['missingccexpire'] = 'Gültigkeitsdatum fehlt';
+$string['missingcctype'] = 'Kartentyp fehlt';
+$string['missingcvv'] = 'Prüfnummer fehlt';
+$string['missingzip'] = 'PostCode fehlt';
 $string['nameoncard'] = 'Name auf den die Karte ausgestellt ist';
 $string['noreturns'] = 'Kein Zurück!';
 $string['notsettled'] = 'Nicht bearbeitet';
@@ -88,6 +110,23 @@ Dies ist ein Warnhinweis, weil Sie autocapture nicht eingerichtet haben. Die Zah
 Die offenen Zahlungen können unter $a->url bearbeitet werden.
 
 Unter $a->enrolurl kann autcapture eingerichtet werden, damit Sie künftig diese E-Mial nicht mehr erhalten.';
+$string['reason11'] = 'Eine Transaktion wurde doppelt beantragt';
+$string['reason13'] = 'Die Händler Login ID ist ungültig oder der Account ist inaktiv';
+$string['reason16'] = 'Die Transaktion wurde nicht gefunden.';
+$string['reason17'] = 'Der Anbieter akzeptiert diesen Kreditkartentyp nicht.';
+$string['reason27'] = 'Die Transaktion führte zu einem Fehler bei der Adressprüfung. Die angegebene Adresse stimmt nicht mit der hinterlegten Anschrift des Karteninhabers überein.';
+$string['reason28'] = 'Der Anbieter akzeptiert diesen Kreditkartentyp nicht.';
+$string['reason30'] = 'Die Konfiguration mit dem Dienstanbieter ist ungültig. Nehmen Sie mit dem Servicenabieter Kontakt auf.';
+$string['reason39'] = 'Der eingetragene Währungscode ist ungültig, wird nicht unterstützt, wird von diesem Anbieter nicht akzeptiert oder kann nicht umgerechnet werden.';
+$string['reason43'] = 'Der Anbieter ist nicht richtig an das Abrechnungssystem angebunden. Bitte nehmen Sie mit dem ServicenabieterK ontakt auf.';
+$string['reason44'] = 'Die Transaktion wurde abgelehnt. Fehler: Kartencode-Filter';
+$string['reason45'] = 'Die Transaktion wurde abgelehnt. Fehler: Kartencode/Adressprüfung-Filter';
+$string['reason47'] = 'Der angeforderte Betrag sollte nicht höher sein, als der ursprünglich geforderte Betrag.';
+$string['reason5'] = 'Geben Sie bitte einen gültigen Betrag ein.';
+$string['reason50'] = 'Die Transaktion wartet auf Bestätigung und kann nicht rückgängig gemacht werden.';
+$string['reason51'] = 'Die Summe alle Kredite der Transaktion übersteigt die Original-Transaktionen';
+$string['reason54'] = 'Die angegebene Transaktion erfüllt nicht die Kriterien zur Kreditabwicklung.';
+$string['reason55'] = 'Die Summe der Kreditabwicklungen übersteigt das Kreditvolumen.';
 $string['refund'] = 'Rückzahlung';
 $string['refunded'] = 'Zurückgezahlt';
 $string['returns'] = 'Rückläufe';
@@ -99,11 +138,12 @@ $string['settlementdate'] = 'Erledigungstermin';
 $string['subvoidyes'] = 'Zurückgezahlte Transaktionen $a->transid werden aufgehoben und Ihr Account wird mit $a->amount belastet.';
 $string['tested'] = 'Geprüft';
 $string['testmode'] = '[TEST MODUS]';
-$string['transid'] = 'Transaktons-ID';
+$string['testwarning'] = 'Zahlungen/Gültigkeit/Kredit arbeitet anscheinend im Testmodus. Es wurde jedoch kein Datensatz aktualisiert oder in Datenbank hinterlegt.';
+$string['transid'] = 'Transaktions-ID';
 $string['unenrolstudent'] = 'Teilnehmer/in aus Kurs austragen?';
 $string['void'] = 'Gültig';
-$string['voidtestwarn'] = 'Die Gültigkeitsprüfung scheint zu arbeiten. Im Testmodus wurde jedoch kein Datensatz aktualisiert. ';
 $string['voidyes'] = 'Ihre Transaktion wird abgebrochen. Sind Sie sicher?';
+$string['youcantdo'] = 'Sie können diese Aktion nicht ausführen: $a->action';
 $string['zipcode'] = 'Zip Code/Postleitzahl';
 
 ?>
