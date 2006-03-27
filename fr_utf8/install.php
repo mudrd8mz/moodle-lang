@@ -3,9 +3,9 @@
 $string['admindirerror'] = 'Le dossier d\'administration spécifié est incorrect';
 $string['admindirname'] = 'Dossier d\'administration';
 $string['admindirsetting'] = 'De rares  hébergeurs web utilisent le dossier «&nbsp;/admin&nbsp;» comme URL spéciale vous permettant d\'accéder à un tableau de bord ou autre chose. Ceci entre en collision avec l\'emplacement standard des pages d\'administration de Moodle. Vous pouvez corriger cela en renommant le dossier d\'administration de votre installation de Moodle, en inscrivant ici le nouveau nom, par exemple <br /><br /><strong>moodleadmin</strong>.<br /><br />Les liens vers l\'administration de Moodle seront ainsi corrigés.';
-$string['caution'] = 'Attention';
 $string['admindirsettinghead'] = 'Réglage du dossier «&nbsp;admin&nbsp;»...';
 $string['admindirsettingsub'] = 'De rares  hébergeurs web utilisent le dossier «&nbsp;/admin&nbsp;» comme URL spéciale vous permettant d\'accéder à un tableau de bord ou autre chose. Ceci entre en collision avec l\'emplacement standard des pages d\'administration de Moodle. Vous pouvez corriger cela en renommant le dossier d\'administration de votre installation de Moodle, en inscrivant ici le nouveau nom, par exemple <br /><br /><strong>moodleadmin</strong>.<br /><br />Les liens vers l\'administration de Moodle seront ainsi corrigés.';
+$string['caution'] = 'Attention';
 $string['chooselanguage'] = 'Choisissez une langue';
 $string['chooselanguagehead'] = 'Choisissez une langue';
 $string['chooselanguagesub'] = 'Veuillez choisir la langue d\'installation. Vous pourrez choisir ultérieurement la langue du site et les langues des utilisateurs.';
