@@ -399,6 +399,7 @@ $string['requirepasswordmessage'] = 'Vous devez connaître la clef du test pour 
 $string['requiresubnet'] = 'Restriction par adresse IP';
 $string['response'] = 'Réponse';
 $string['responses'] = 'Réponses';
+$string['results'] = 'Résultats';
 $string['reuseifpossible'] = 'réutiliser supprimés précédemment';
 $string['review'] = 'Relecture';
 $string['reviewafter'] = 'Permettre la relecture après la fermeture du test';
