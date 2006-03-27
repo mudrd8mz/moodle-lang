@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6 development (2005101200)
+      // editor.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['about'] = 'エディタに関して';
@@ -7,7 +7,7 @@ $string['absbottom'] = 'Absbottom';
 $string['address'] = 'アドレス';
 $string['alertnoselectedtext'] = '最初にテキストを選択してください!';
 $string['alignment'] = '配置';
-$string['alternatetext'] = 'Alternate text';
+$string['alternatetext'] = '代替表示テキスト';
 $string['anchorhelp'] = 'ここではアンカーのみを作成します。リンクは手動で作成する必要があります。';
 $string['anchorname'] = 'アンカー名';
 $string['anchors'] = 'アンカー';
@@ -58,7 +58,7 @@ $string['justifyfull'] = '均等';
 $string['justifyleft'] = '左寄せ';
 $string['justifyright'] = '右寄せ';
 $string['layout'] = 'レイアウト';
-$string['left'] = '左';
+$string['left'] = 'Left';
 $string['lefttoright'] = '左→右';
 $string['linkproperties'] = 'リンク属性';
 $string['linktarget'] = 'ターゲット';
@@ -70,7 +70,7 @@ $string['linktargettop'] = '同一ウィンドウ';
 $string['linktitle'] = 'タイトル';
 $string['linkurl'] = 'URL';
 $string['matchcase'] = '大文字・小文字を区別する';
-$string['middle'] = '中央';
+$string['middle'] = 'Middle';
 $string['minimize'] = 'エディタを最小化する';
 $string['move'] = '移動';
 $string['nolink'] = '用語集リンクを抑える';
@@ -93,9 +93,9 @@ $string['redo'] = 'やり直す';
 $string['regularexpressions'] = '通常の表現を使う';
 $string['removelink'] = 'リンクの削除';
 $string['rename'] = 'リネーム';
-$string['replaceall'] = '全てを置換';
+$string['replaceall'] = 'すべてを置換';
 $string['replacewith'] = '置換';
-$string['right'] = '右';
+$string['right'] = 'Right';
 $string['righttoleft'] = '右→左';
 $string['rows'] = '列';
 $string['searchandreplace'] = '検索および置換';
@@ -111,7 +111,7 @@ $string['superscript'] = '上付き文字';
 $string['textindicator'] = '現在のスタイル';
 $string['textmode'] = '現在テキストモードです。WYSIWYGモードに戻る場合は[<>]ボタンを押してください。 ';
 $string['texttop'] = 'Texttop';
-$string['top'] = 'トップ';
+$string['top'] = 'Top';
 $string['type'] = 'タイプ';
 $string['underline'] = 'アンダーライン';
 $string['undo'] = '元に戻す';
