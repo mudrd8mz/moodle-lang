@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006032001)
+      // moodle.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['action'] = 'Aktion';
@@ -848,8 +848,7 @@ Rufen Sie $a->sitename auf undloggen Sie sich auf der Seite
 $a->link 
 ein.
 
-In den meisten E-Mail-Programmen wird dieser Link blau dargestellt. Falls Ihr E-Mail-Programm dies anders darstellt markieren Sie die Zeile, kopieren Sie sie und fügen Sie sie in die Adresszeile (URL) des Browsers ein.
-';
+In den meisten E-Mail-Programmen wird dieser Link blau dargestellt. Falls Ihr E-Mail-Programm dies anders darstellt markieren Sie die Zeile, kopieren Sie sie und fügen Sie sie in die Adresszeile (URL) des Browsers ein.';
 $string['newusers'] = 'Neue Nutzer/innen';
 $string['next'] = 'Nächste';
 $string['no'] = 'Nein';
@@ -1023,7 +1022,7 @@ $string['requireskey'] = 'Dieser Kurs setzt einen Zugangsschlüssel voraus';
 $string['requirespayment'] = 'Dieser Kurs setzt die Bezahlung des Teilnahmeentgeltes voraus.';
 $string['reset'] = 'Zurücksetzen';
 $string['resetcourse'] = 'Kurs zurücksetzen';
-$string['resetinfo'] = 'Auf dfieser Seite können sie alle Nutzer/innen-Daten und Einträge aus dem gewählten Kurs entfernen. Alle anderen Kursbestandteile bleiben erhalten. Wenn Sie hier Einstellungen vornehmen und diese bestätigen werden also Daten aus Ihren jetzigen Kurs unwiderbringlich gelöscht.';
+$string['resetinfo'] = 'Auf dieser Seite können Sie alle Nutzer/innen-Daten und Einträge aus dem gewählten Kurs entfernen. Alle anderen Kursbestandteile bleiben erhalten. Wenn Sie hier Einstellungen vornehmen und diese bestätigen werden also Daten aus Ihren jetzigen Kurs unwiderbringlich gelöscht.';
 $string['resetstartdate'] = 'Startdatum zurücksetzen';
 $string['resettodefaults'] = 'Auf Grundeinstellungen zurücksetzen';
 $string['resortcoursesbyname'] = 'Kurse nach Namen neu sortieren';

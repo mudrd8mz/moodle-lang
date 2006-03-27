@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.5 ALPHA (2005051500)
+      // editor.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['about'] = 'Über diesen Editor';
@@ -38,7 +38,7 @@ $string['fontsize'] = 'Schriftgröße';
 $string['forecolor'] = 'Farbe der Zeichen';
 $string['formatblock'] = 'Format';
 $string['fullscreen'] = 'Große Bildschirmanzeige';
-$string['heading'] = 'Kopfbereich';
+$string['heading'] = 'Überschrift';
 $string['height'] = 'Höhe (Pixel)';
 $string['hilitecolor'] = 'Farbe des Hintergrundes';
 $string['horizontal'] = 'Horizontal';
