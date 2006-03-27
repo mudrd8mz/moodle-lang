@@ -1125,6 +1125,7 @@ $string['statistics'] = 'Statistiques';
 $string['stats'] = 'Statistiques';
 $string['statsnodata'] = 'Aucune donnée disponible pour ce cours et cette période.';
 $string['statsnodatauser'] = 'Aucune donnée disponible pour ce cours, cet utilisateur et cette période.';
+$string['statsoff'] = 'Les statistiques ne sont actuellement pas activées';
 $string['statsreportlogins'] = 'Connexions';
 $string['statsreportreads'] = 'Consultations (enseignants et étudiants)';
 $string['statsreportwrites'] = 'Messages (enseignants et étudiants)';
