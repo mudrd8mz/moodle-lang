@@ -32,6 +32,7 @@ $string['date'] = '日付';
 $string['dateentered'] = '入力日時';
 $string['defaultfielddelimiter'] = '( デフォルトはカンマ )';
 $string['defaultfieldenclosure'] = '( デフォルトは無し )';
+$string['defaultsortfield'] = 'デフォルトのフィールド並び替え順';
 $string['delete'] = '削除';
 $string['deleted'] = '削除されました。';
 $string['deletefield'] = 'フィールドを削除します。';
