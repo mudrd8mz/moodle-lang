@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 development (2006032200)
+      // admin.php - created with Moodle 1.6 development (2006032800)
 
 
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示';
@@ -104,6 +104,7 @@ $string['configsectionstats'] = '統計';
 $string['configsectionuser'] = 'ユーザ';
 $string['configsecureforms'] = 'Moodleでは、フォームデータを受入れる場合の追加的なレベルのセキュリティーを使用することができます。この設定を「Yes」にした場合、ブラウザのHTTP_REFERER変数とフォーム設置のアドレスが照合されます。 ユーザがファイアーウォールソフト ( 例 Zonealarm ) を使用してトラフィックからHTTP_REFERERを取除く設定をしている場合、まれに問題が発生する場合があります。 これは、フォーム使用時に画面が「固まる」現象です。ユーザがログインページ ( 例えば ) で問題を抱えている場合はこの設定をNoにしてください。しかしこの設定ではブルートフォース・パスワードアタックに対して無防備な状態になります。分からない場合は、この設定を「Yes」のままにしてください。';
 $string['configsessioncookie'] = 'ここではMoodleのセッションで使用されるクッキーの名前を設定します。この設定は1つ以上のMoodleが同じウェブサイトで稼動している場合に、クッキーが混乱するのを防ぐためだけに任意でお使いください。';
+$string['configsessioncookiepath'] = 'ブラウザが送信するMoodleクッキーの場所を変更したい場合、ここでウェブサイトのサブディレクトリを指定することができます。変更しない場合、デフォルトの「/」をお使いください。';
 $string['configsessiontimeout'] = 'このサイトにログインして長時間何もしない ( ページを更新しない ) 場合、自動的にログアウト ( セッションを終了 ) させます。この変数には、ログアウトさせるまでの時間を設定します。';
 $string['configshowblocksonmodpages'] = 'いくつかの活動モジュールでは、ページにブロックを表示することができます。この設定を「Yes」に設定した場合、教師はサイドブロックをページに追加することができます。「No」にした場合、この機能は表示されません。';
 $string['configshowsiteparticipantslist'] = 'すべての学生および教師が参加者リストに表示されます。誰がこの参加者リストを閲覧することができますか?';
