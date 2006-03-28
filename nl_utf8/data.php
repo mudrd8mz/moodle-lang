@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 development (2006022400)
+      // data.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['action'] = 'Actie';
@@ -25,7 +25,11 @@ $string['commentsaved'] = 'Commentaar bewaard';
 $string['configenablerssfeeds'] = 'Met deze knop kun je RSS-feeds toelaten voor alle databanken. Je zult nog wel manueel de RSS-feeds moeten inschakelen voor elke databank.';
 $string['confirmdeletefield'] = 'Je gaat dit veld verwijderen. Ben je zeker?';
 $string['confirmdeleterecord'] = 'Je gaat deze record verwijderen. Ben je zeker?';
+$string['csvfile'] = 'CSV-bestand';
+$string['csvimport'] = 'Imorteer CSV-bestand';
 $string['dateentered'] = 'Datum';
+$string['defaultfielddelimiter'] = '(standaardinstelling is een komma)';
+$string['defaultfieldenclosure'] = '(standaardinstelling is geen)';
 $string['delete'] = 'Verwijder';
 $string['deleted'] = 'verwijderd';
 $string['deletefield'] = 'Verwijder een bestaand veld';
@@ -39,6 +43,7 @@ $string['example'] = 'Voorbeeld van een databankmodule';
 $string['fieldadded'] = 'Veld toegevoegd';
 $string['fieldallowautolink'] = 'Automatisch linken toegelaten';
 $string['fielddeleted'] = 'Veld verwijderd';
+$string['fielddelimiter'] = 'Veldscheidingsteken';
 $string['fielddescription'] = 'Veldbeschrijving';
 $string['fieldheight'] = 'Hoogte';
 $string['fieldheightlistview'] = 'Hoogte in lijstscherm';
@@ -110,6 +115,8 @@ $string['ratings'] = 'Beoordelingen';
 $string['ratingssaved'] = 'Beoordelingen bewaard';
 $string['ratingsuse'] = 'Gebruik beoordelingen';
 $string['recorddeleted'] = 'Record verwijderd';
+$string['recordsnotsaved'] = 'Er werd geen record bewaard. Controleer de opmaak van het geüploade bestand.';
+$string['recordssaved'] = 'record(s) bewaard';
 $string['requireapproval'] = 'Goedkeuring nodig?';
 $string['requiredentries'] = 'Vereiste items';
 $string['requiredentriestoview'] = 'Items vereist voor bekijken';
@@ -127,6 +134,8 @@ $string['text'] = 'Tekst';
 $string['textarea'] = 'Tekstgebied';
 $string['type'] = 'Veldtype';
 $string['updatefield'] = 'Update een bestaand veld';
+$string['uploadfile'] = 'Upload bestand';
+$string['uploadrecords'] = 'Upload records uit een bestand';
 $string['url'] = 'URL';
 $string['viewfromdate'] = 'Zichtbaar vanaf';
 $string['viewtodate'] = 'Zichtbaar voor';
