@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // enrol_flatfile.php - created with Moodle 1.6 development (2005101200)
+      // enrol_flatfile.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['description'] = 'Deze methode controleert regelmatig een speciaal opgemaakt tekstbestand op een lokatie die je zelf bepaalt. Het bestand is een door komma\'s gescheiden lijst met vier of zes velden per lijn:
-Actie, rol, gebruikers IDnummer, cursus IDnummer, [starttijd, eindtijd]
+Actie, rol, gebruikers IDnummer, cursus IDnummer, [,starttijd, eindtijd]
 
 * actie = add|del
 * rol = student|teacher|teacheredit
