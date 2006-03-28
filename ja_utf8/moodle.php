@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006032200)
+      // moodle.php - created with Moodle 1.6 development (2006032800)
 
 
 $string['action'] = '操作';
@@ -169,7 +169,7 @@ $string['checkinginstances'] = 'インスタンスの確認中';
 $string['checkingsections'] = 'セクションの確認中';
 $string['checklanguage'] = '言語の確認';
 $string['checknone'] = 'チェック無し';
-$string['childcoursenotfound'] = '子コースが見つかりません!';
+$string['childcoursenotfound'] = '子コースが見つかりませんでした!';
 $string['childcourses'] = '子コース';
 $string['choose'] = '選択';
 $string['choosecourse'] = 'コースを選択してください。';
@@ -189,7 +189,7 @@ $string['clamlost'] = 'Moodleはファイルアップロード時にclamが動�
 $string['clamlostandactinglikevirus'] = '加えて、moodleはclamが動作失敗したときに、ファイルをウイルスとして扱うように設定されています。あなたが修正するまで、原則的に学生はファイルをアップロードできないことを意味します。';
 $string['clammovedfile'] = 'ファイルは、あなたが指定した隔離用ディレクトリに移動されました。新しい保存場所は、$a です。';
 $string['clammovedfilebasic'] = 'ファイルが隔離用ディレクトリに移動されました。';
-$string['clamquarantinedirfailed'] = 'あなたが指定した隔離用ディレクトリ $a にファイルを移動できませんでした。これを修正しないで、ファイルが感染していることが分かった場合は、そのファイルは削除されます。';
+$string['clamquarantinedirfailed'] = 'あなたが指定した隔離用ディレクトリ $a にファイルを移動できませんでした。ファイルが感染していることが分かった場合、感染したファイルが削除されるため、そのファイルを回復してください。';
 $string['clamunknownerror'] = 'calmに不明なエラーが発生しました。';
 $string['cleaningtempdata'] = '一時データの消去';
 $string['clicktochange'] = '変更';
@@ -809,6 +809,7 @@ $string['namescorm'] = 'SCORM';
 $string['namesocial'] = 'セクション';
 $string['nametopics'] = 'トピック';
 $string['nameweeks'] = '週';
+$string['nameweekscss'] = '週';
 $string['needed'] = '必要な';
 $string['never'] = '無し';
 $string['neverdeletelogs'] = 'ログを削除しない';
@@ -869,7 +870,7 @@ $string['nofilesselected'] = 'レストアするファイルが選択されて�
 $string['nofilesyet'] = 'コースにファイルがアップロードされていません。';
 $string['nograde'] = '評点無し';
 $string['noimagesyet'] = 'コースにイメージがアップロードされていません。';
-$string['nomorecourses'] = '該当するコースが見つかりません。';
+$string['nomorecourses'] = '該当するコースが見つかりませんでした。';
 $string['nomoreidnumber'] = '重複を回避するためのIDナンバーは使用されていません。';
 $string['none'] = '無し';
 $string['nopendingcourses'] = '承認処理中のコースはありません。';
@@ -930,7 +931,7 @@ $string['outline'] = '概要';
 $string['outlinereport'] = '概要レポート';
 $string['page'] = 'ページ';
 $string['pageheaderconfigablock'] = '%%fullname%% 内のブロック設定';
-$string['parentcoursenotfound'] = '親コースが見つかりません!';
+$string['parentcoursenotfound'] = '親コースが見つかりませんでした!';
 $string['parentcoursenotmetacourse'] = '親コースはメタコースではありません!';
 $string['parentfolder'] = '親フォルダ';
 $string['participants'] = '参加者';
@@ -1127,7 +1128,7 @@ $string['sizemb'] = 'MB';
 $string['skypeid'] = 'Skype ID';
 $string['socialheadline'] = '一般フォーラム - 最新トピック';
 $string['someallowguest'] = 'いくつかのコースはゲストで利用できます';
-$string['someerrorswerefound'] = 'いくつかの情報が未入力または間違っています。再度ご確認ください。';
+$string['someerrorswerefound'] = 'いくつかの情報が未入力または間違っています。詳細は下記をご覧ください。';
 $string['sortby'] = '並び替え';
 $string['specifyname'] = '名前を特定してください。';
 $string['starpending'] = '( [*] = 承認審査中コース )';
@@ -1271,7 +1272,7 @@ $string['uploadfailednotrecovering'] = 'ファイル $a->name に問題がある
 $string['uploadfilelog'] = 'ファイル $a のログをアップロードする。';
 $string['uploadformlimit'] = 'アップロードファイルがフォームで設定された最大サイズを超えました。';
 $string['uploadlabel'] = 'タイトル:';
-$string['uploadnofilefound'] = 'ファイルが見つかりません - アップロードするファイルを選択しましたか?';
+$string['uploadnofilefound'] = 'ファイルが見つかりませんでした - アップロードするファイルを選択しましたか?';
 $string['uploadnotallowed'] = 'アップロードは許可されません';
 $string['uploadoldfilesdeleted'] = 'アップロードエリアの古いファイルが削除されました。';
 $string['uploadpartialfile'] = 'ファイルが部分的にアップロードされました。';
@@ -1323,8 +1324,8 @@ $string['virusfoundlateradminnolog'] = '管理者の方! $a->filename という�
 
 $a->action';
 $string['virusfoundsubject'] = '$a: ウイルスが見つかりました!';
-$string['virusfounduser'] = 'あなたがアップロードしたファイル $a->filename は、ウイルスチェッカーによりスキャンされ、ウイルスに感染していることが判明しました!　あなたのファイルは正常にアップロードされませんでした。';
-$string['virusplaceholder'] = 'アップロードファイルにウイルスが見つかりました。感染したファイルは移動または削除され、ユーザにその旨の通知が送信されました。';
+$string['virusfounduser'] = 'あなたがアップロードしたファイル $a->filename は、ウイルスチェッカーによりスキャンされ、ウイルスに感染していることが発見されました!　あなたのファイルは正常にアップロードされませんでした。';
+$string['virusplaceholder'] = 'アップロードファイルにウイルスが見つかりました。感染したファイルは移動または削除され、ユーザに感染が通知されました。';
 $string['visibletostudents'] = '$a に表示';
 $string['warningdeleteresource'] = '警告: $a はりソースに参照されています。本当にリソースを更新してもよろしいですか?';
 $string['webpage'] = 'ウェブページ';
