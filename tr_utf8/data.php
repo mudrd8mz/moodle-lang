@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 development (2006032200)
+      // data.php - created with Moodle 1.6 development (2006032800)
 
 
 $string['action'] = 'Eylem';
@@ -28,9 +28,11 @@ $string['confirmdeletefield'] = 'Bu alanı silmek üzeresiniz, emin misiniz?';
 $string['confirmdeleterecord'] = 'Bu kaydı silmek üzeresiniz, emin misiniz?';
 $string['csvfile'] = 'CSV dosyası:';
 $string['csvimport'] = 'CSV dosya alma';
+$string['date'] = 'Tarih';
 $string['dateentered'] = 'Girilme tarihi';
 $string['defaultfielddelimiter'] = '(varsayılan, virgülle ayrılmış)';
 $string['defaultfieldenclosure'] = '(varsayılan, hiçbiri)';
+$string['defaultsortfield'] = 'Varsayılan sıralama alanı';
 $string['delete'] = 'Sil';
 $string['deleted'] = 'silindi';
 $string['deletefield'] = 'Varolan alanı sil';
@@ -82,6 +84,7 @@ $string['multientry'] = 'Tekrarlamış girdi';
 $string['multimenu'] = 'Menu (çoklu-seçim)';
 $string['multipletags'] = 'Birçok etiket bulundu. Şablon kaydedilmedi';
 $string['namecheckbox'] = 'Kutucuk alanı';
+$string['namedate'] = 'Tarih alanı';
 $string['namefile'] = 'Dosya alanı';
 $string['namemenu'] = 'Menu alanı';
 $string['namemultimenu'] = 'Çoklu-seçim alanı';
@@ -100,6 +103,7 @@ $string['nomaximum'] = 'En fazla yok';
 $string['norecords'] = 'Veritabanında girdi yok';
 $string['nosingletemplate'] = 'Tek şablon henüz tanımlanmadı';
 $string['numberrssarticles'] = 'RSS makaleleri';
+$string['numnotapproved'] = 'Bekliyor';
 $string['numrecords'] = 'Kayıtlar';
 $string['optionaldescription'] = 'Kısa açıklama (isteğe bağlı)';
 $string['optionalfilename'] = 'Dosya adı (isteğe bağlı)';

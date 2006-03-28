@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006032200)
+      // moodle.php - created with Moodle 1.6 development (2006032800)
 
 
 $string['action'] = 'Eylem';
@@ -1147,6 +1147,7 @@ $string['statsmodedetailed'] = 'Ayrıntılı (kullanıcı) görünümü';
 $string['statsmodegeneral'] = 'Genel görünüm';
 $string['statsnodata'] = 'Kursun birleşimi ve zaman periyodu için erişilebilir veri yok.';
 $string['statsnodatauser'] = 'Kursun birleşimi, kullanıcı ve zaman periyodu için erişilebilir veri yok.';
+$string['statsoff'] = 'İstatistikler şu anda etkinleştirilmemiş';
 $string['statsreport1'] = 'Girişler';
 $string['statsreport10'] = 'Kullanıcı etkinliği';
 $string['statsreport11'] = 'En etkin kurslar';
