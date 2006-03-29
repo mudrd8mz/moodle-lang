@@ -2,6 +2,7 @@
       // quiz_analysis.php - created with Moodle 1.6 development (2006031600)
 
 
+$string['analysis'] = 'Análise de ítem';
 $string['analysisoptions'] = 'Opções de análise';
 $string['analysistitle'] = 'Tabela de análise de itens';
 $string['attemptsall'] = 'todas as tentativas';

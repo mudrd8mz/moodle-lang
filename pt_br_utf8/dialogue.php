@@ -38,6 +38,7 @@ $string['newentry'] = 'Nova mensagem';
 $string['noavailablepeople'] = 'Não há ainda ninguém que possa participar de um diálogo';
 $string['nopersonchosen'] = 'Nenhuma pessoa selecionada';
 $string['nosubject'] = 'Nenhum assunto inserido';
+$string['notavailable'] = 'Visitantes não podem participar das atividades de Diálogo';
 $string['notextentered'] = 'Nenhum texto inserido';
 $string['notstarted'] = 'Você ainda não iniciou este diálogo';
 $string['notyetseen'] = 'Ainda não foi visto';
