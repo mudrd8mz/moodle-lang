@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 development (2006032200)
+      // blog.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['addnewentry'] = '新しいエントリの追加';
@@ -35,7 +35,10 @@ $string['publishtosite'] = 'このサイトすべて';
 $string['publishtoworld'] = '世界中';
 $string['settingsupdatederror'] = 'エラーが発生したため、ブログ設定は更新されませんでした。';
 $string['siteblog'] = 'サイトブログ: $a';
+$string['tagdatelastused'] = '日付タグは使用されています。';
+$string['tagsort'] = 'タグの並び替え';
 $string['tagtext'] = 'タグテキスト';
+$string['timewithin'] = '指定した期間で使用されたタグを表示';
 $string['updateentrywithid'] = 'エントリの更新';
 $string['userblog'] = 'ユーザブログ: $a';
 $string['viewcourseentries'] = 'コースエントリの表示';
