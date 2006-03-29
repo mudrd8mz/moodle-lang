@@ -175,7 +175,7 @@ $string['lang16notify'] = 'Moodle1.6以上のバージョンでは、下記の�
 $string['langimport'] = '言語インポートユーティリティ';
 $string['langimportsuccess'] = '言語パックが正常に更新されました。';
 $string['langpackremoved'] = '言語パックのアンインストールが完了しました。';
-$string['langpackupdated'] = '言語パック $a が更新されました。';
+$string['langpackupdated'] = '言語パック $a が正常にインストールされました。';
 $string['langupdatecomplete'] = '言語パックの更新が完了しました。';
 $string['latexpreamble'] = 'LaTeXプリアンブル';
 $string['latexsettings'] = 'LaTeXレンダ設定';
@@ -225,11 +225,11 @@ $string['timezoneforced'] = 'サイト管理者によって強制されていま
 $string['timezoneisforcedto'] = 'ユーザに使用を強制';
 $string['timezonenotforced'] = 'ユーザが独自のタイムゾーンを使用';
 $string['unicodeupgradenotice'] = 'Moodle1.6で、私たちはすべての言語をユニコードに移行しました。このサイトのアップグレードを完了するには、移行スクリプトを使用して、データベースのすべてのデータをユニコードにコンバートする必要があります。<a href=\"utfdbmigrate.php\">移行スクリプトを実行するには、ここをクリックしてください</a>!';
-$string['uninstall'] = 'アンインストール';
+$string['uninstall'] = '選択された言語パックをアンインストールする';
 $string['uninstallconfirm'] = 'あなたは言語パック ( $a ) を完全にアンインストールしようとしています。本当によろしいですか?';
 $string['updateaccounts'] = '既存のアカウントを更新する';
 $string['updatecomponent'] = 'コンポーネントを更新する';
-$string['updatelangs'] = '言語パックの更新';
+$string['updatelangs'] = 'すべての言語パックの更新';
 $string['upgradeforumread'] = 'Moodle1.5では、フォーラムの既読/未読記事を追跡するために新しい機能が追加されました。<br />この機能を有効にするには、<a href=\"$a\">テーブルをアップデート</a>する必要があります。';
 $string['upgradeforumreadinfo'] = 'Moodle1.5では、フォーラムの既読/未読記事を追跡するために新しい機能が追加されました。この機能を有効にするには、投稿内容の未読管理を含むテーブルをアップデートする必要があります。あなたのサイトのサイズにより、この作業は長時間かかる場合があります。また、データベースに非常に負荷がかかる可能性がありますので、閑散期のアップデート作業をお勧めします。このアップデート期間中も、あなたのサイトは動作し続け、ユーザは影響を受けません。この処理を開始した場合は処理を終わらせてください ( ブラウザを開いたままにして ) 。ウィンドウを閉じて処理を終わらせてしまった場合でも心配しないでください。アップデート処理を再開することができます。<br /><br />本当に今からアップデート処理を始めてもよろしいですか?';
 $string['upgradelogs'] = '正常に動作させるためには古いログのアップグレードが必要です。<a href=\"$a\">詳細はこちら</a>';
