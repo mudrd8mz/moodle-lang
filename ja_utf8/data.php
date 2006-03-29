@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 development (2006032200)
+      // data.php - created with Moodle 1.6 development (2006032800)
 
 
 $string['action'] = '操作';
@@ -37,7 +37,9 @@ $string['delete'] = '削除';
 $string['deleted'] = '削除されました。';
 $string['deletefield'] = 'フィールドを削除します。';
 $string['descending'] = '昇順';
+$string['detail'] = '詳細';
 $string['edit'] = '編集';
+$string['editentry'] = 'エントリの編集';
 $string['emptyadd'] = '追加用テンプレートが空です。デフォルトフォームを生成しています ...';
 $string['emptyaddform'] = 'あなたはどのフィールドにも入力していません!';
 $string['entrysaved'] = 'エントリが保存されました。';
