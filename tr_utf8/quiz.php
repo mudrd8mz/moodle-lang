@@ -90,6 +90,7 @@ $string['completedon'] = 'Tamamlama';
 $string['confirmclose'] = 'Bu uygulamayı kapatmak üzeresiniz. Bu uygulamayı kapattıktan sonra cevaplarınızı bir daha değiştiremeyeceksiniz.';
 $string['confirmserverdelete'] = '<b>$a</b> sunucunu listeden silmek istediğinizden emin misiniz?';
 $string['confirmstartattempt'] = 'Sınavın zaman sınırı var. Başlatmak istediğinizden emin misiniz?';
+$string['confirmstartattemptnotimelimit'] = 'Sınavın zaman sınırı yok. Devam etmek ister misiniz?';
 $string['confirmstartlimit'] = 'Bu sınavın zaman sınırı var ve $a uygulamaya kadar sınırlandırıldı. Sınava erişim bir uygulama olarak sayılır. Devam etmek ister misiniz?';
 $string['confirmstartnolimit'] = 'Bu sınav $a uygulamaya kadar sınırlandırıldı. Sınava erişim bir uygulama olarak sayılır. Devam etmek ister misiniz?';
 $string['containercategorycreated'] = 'Bu kategori tüm orijinal kategoridekileri saklamak için oluşturuldu ve aşağıdaki sebepten dolayı site seviyesine taşındı.';

@@ -809,6 +809,7 @@ $string['namescorm'] = 'SCORM';
 $string['namesocial'] = 'bölüm';
 $string['nametopics'] = 'konu';
 $string['nameweeks'] = 'hafta';
+$string['nameweekscss'] = 'hafta';
 $string['needed'] = 'gerekli';
 $string['never'] = 'Hiçbir zaman';
 $string['neverdeletelogs'] = 'Kayıtları hiçbir zaman silme';
