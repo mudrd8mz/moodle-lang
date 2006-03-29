@@ -173,7 +173,7 @@ $string['lang16notify'] = 'Les versions de Moodle 1.6 et suivantes vous permette
 $string['langimport'] = 'Utilitaire d\'importation de langues';
 $string['langimportsuccess'] = 'Le paquet de langue a été correctement mis à jour';
 $string['langpackremoved'] = 'La désinstallation de la langue est terminée';
-$string['langpackupdated'] = 'La langue $a a été mise à jour';
+$string['langpackupdated'] = 'La langue $a a été correctement mise à jour';
 $string['langupdatecomplete'] = 'La mise à jour des langues est terminée';
 $string['latexpreamble'] = 'Préambule LaTeX';
 $string['latexsettings'] = 'Réglages de LaTeX Renderer';
@@ -226,7 +226,7 @@ $string['unicodeupgradenotice'] = 'Dans la version 1.6 de Moodle, toutes les lan
 $string['uninstall'] = 'Désinstaller les langues sélectionnées';
 $string['uninstallconfirm'] = 'Vous êtes sur le point de supprimer totalement la langue $a. Voulez-vous continuer&nbsp;?';
 $string['updatecomponent'] = 'Mise à jour du composant';
-$string['updatelangs'] = 'Mise à jour des langues';
+$string['updatelangs'] = 'Mettre à jour toutes les langues installées';
 $string['upgradeforumread'] = 'Moodle 1.5 possède une nouvelle fonctionnalité permettant de signaler quels messages des forums ont été lus.<br />Pour profiter de cette fonctionnalité, les tables de la base de données <a href=\"$a\">doivent être mises à jour</a>.';
 $string['upgradeforumreadinfo'] = 'Moodle 1.5 possède une nouvelle fonctionnalité permettant de signaler quels messages des forums ont été lus. Pour profiter de cette fonctionnalité, les tables de la base de données doivent être complétées avec le statut de lecture pour les messages existants. Suivant la taille de votre site, cette mise à jour peut prendre beaucoup de temps (quelques heures) et risque de surcharger la base de données. Nous vous conseillons donc de l\'effectuer lors d\'une période creuse. Durant cette mise à jour, votre site continuera à fonctionner et les utilisateurs n\'en seront pas affectés. Une fois l\'opération démarrée, vous devez la laisser se terminer (en laissant ouverte la fenêtre du navigateur). Si par inadvertence vous interrompez le processus, par exemple en fermant la fenêtre, vous pourrez le recommencer sans dommage.<br /><br />Voulez-vous commencer maintenant cette opération&nbsp;?';
 $string['upgradelogs'] = 'Pour profiter de toutes les fonctionnalités, les historiques (logs) doivent être mis à jour. <a href=\"$a\">Plus d\'informations</a>';
