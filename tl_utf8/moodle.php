@@ -450,7 +450,7 @@ $string['enrolme'] = 'Ienrol mo ako sa kursong ito';
 $string['enrolmentconfirmation'] = 'Ieenrol mo ang sarili mo bilang kasapi ng kursong ito.<br />Talaga bang nais mo itong gawin?';
 $string['enrolmentend'] = 'Tapos na ang pag-eenrol';
 $string['enrolmentkey'] = 'Susi sa pag-eenrol';
-$string['enrolmentkeyfrom'] = 'Kailangan ng \'susi sa pageenrol\' ng kursong ito - ang susi ay minsan lamang gagamitin na password na dapat ay nakuha mo mula kay $a';
+$string['enrolmentkeyfrom'] = 'Kailangan ng \'susi sa pag-eenrol\' ng kursong ito - ang susi ay minsan lamang gagamitin na password na dapat ay nakuha mo mula kay $a';
 $string['enrolmentkeyhint'] = 'Hindi tama ang susi sa pageenrol, pakiulit<br />
 (Heto ang isang himaton - nagsisimula ito sa \'$a\')';
 $string['enrolmentnew'] = 'May bagong nakaenrol sa $a';
@@ -646,7 +646,7 @@ $string['importdataexported'] = 'Matagumpay na nailuwas ang datos mula sa \'mula
 $string['importdatafinished'] = 'Kumpleto na ang pag-angkat! Tumuloy sa iyong kurso';
 $string['importdatafrom'] = 'Maghanap ng kurso na pag-aangkatan ng datos:';
 $string['importgroups'] = 'Angkatin ang mga pangkat';
-$string['importmetacoursenote'] = 'Gamitin ang form na ito upang makapagdagdg ng kurso sa iyong meta kurso (iaangkat nito ang mga pag-eenrol)';
+$string['importmetacoursenote'] = 'Gamitin ang form na ito upang makapagdagdag ng kurso sa iyong meta kurso (iaangkat nito ang mga pag-eenrol)';
 $string['inactive'] = 'Di-aktibo';
 $string['include'] = 'Isama ang';
 $string['includeallusers'] = 'Isama ang Lahat ng User';
@@ -815,6 +815,7 @@ $string['name'] = 'Pangalan';
 $string['namesocial'] = 'seksiyon';
 $string['nametopics'] = 'paksa';
 $string['nameweeks'] = 'linggo';
+$string['nameweekscss'] = 'linggo';
 $string['needed'] = 'Kinakailangan';
 $string['never'] = 'Hindi kailanman';
 $string['neverdeletelogs'] = 'Huwag kailanman buburahin ang mga log';
@@ -822,7 +823,7 @@ $string['new'] = 'Bago';
 $string['newaccount'] = 'Bagong  account';
 $string['newcourse'] = 'Bagong kurso';
 $string['newpassword'] = 'Bagong password';
-$string['newpasswordfromlost'] = '<strong>PATALASTAS:</strong> Ang <strong>Kasalukuyan mong Password</strong> ay maaaring ipinadala sa iyo sa <strong>ikalawa</strong> ng dalawang email na ipinadala bilang bahagi ng proseso ng pagbawi sa nawawalang password.  Tiyakin mo na natanggap mo na ang pamalit mong password bago magpatuloy sa screen na ito.';
+$string['newpasswordfromlost'] = '<strong>PATALASTAS:</strong> Ang <strong>Kasalukuyan mong Password</strong> ay maaaring ipinadala sa iyo sa <strong>ikalawa</strong> ng dalawang email na ipinadala bilang bahagi ng proseso ng pagbawi sa nawawalang password.  Tiyakin mo na natanggap mo na ang pamalit mong password bago magpatuloy sa iskrin na ito.';
 $string['newpasswordtext'] = 'Hi $a->firstname,
 
 Ang password ng account mo sa \'$a->sitename\' ay inireset
@@ -908,8 +909,7 @@ $string['notenrolled'] = 'Si $a ay hindi naka-enrol sa kursong ito.';
 $string['noteuserschangednonetocourse'] = 'Tandaan: ang mga user ng kurso ay kailangang ibalik kapag ibinabalik ang datos ng user(sa aktibidad, file o mensahe).  Binago na ang kaayusang ito para sa iyo.';
 $string['nothingnew'] = 'Walang bago simula nang huli kang maglog-in';
 $string['nothingtodisplay'] = 'Walang maipapakita';
-$string['noticenewerbackup'] = 'Ang backup file na ito ay nilikha sa pamamagitan ng Moodle $a->backuprelease ($a->backupversion) at mas bago ito sa kasalukuyan mong naka-instol na Moodle $a->serverrelease ($a->serverversion). Maaaring magbunga ito ng ilang kamalian dahil hindi matitiyak ang paurong na kaangkupan ng bagong backup file sa mga luma.';
-$string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, User: $a->info';
+$string['noticenewerbackup'] = 'Ang bak-ap file na ito ay nilikha sa pamamagitan ng Moodle $a->backuprelease ($a->backupversion) at mas bago ito sa kasalukuyan mong naka-instol na Moodle $a->serverrelease ($a->serverversion). Maaaring magbunga ito ng ilang kamalian dahil hindi matitiyak ang paurong na kaangkupan ng bagong bak-ap file sa mga luma.';
 $string['notifyloginfailuresmessageend'] = 'Maaari mong makita ang mga log na ito sa $a/course/log.php?id=1&chooselog=1&modid=site_errors.';
 $string['notifyloginfailuresmessagestart'] = 'Narito ang listahan ng mga bigong pagtatangkang maglog-in sa $a simula noong huli kang pinatalastasan ';
 $string['notifyloginfailuressubject'] = '$a :: Patalastas ng mga bigong paglalog-in';
@@ -1012,7 +1012,7 @@ $string['registrationinfo'] = '<p>Sa pahinang ito mairerehistro mo ang iyong Moo
 Ang pangunahing benepisyo sa pagpaparehistro ay maisasali ka sa isang low-volume na mailing list para sa mga importanteng notipikasyon tulad ng security alert at mga bagong release ng Moodle.</p>
 <p>Ang default ay pananatilihing pribado ang mga impormasyon tungkol sa iyo, at hindi kailanman ibebenta o ipapasa sa iba.  Ang tanging dahilan ng pagkolekta ng impormasyong ito ay para sa suporta, at upang makabuo ng pangestadistikang larawan ng buong komunidad ng Moodle.</p>
 <p>Kung gusto mo, maaari mong ipalahok ang pangalan ng site mo, bansa at URL sa pampublikong listahan ng mga Moodle Site.</p>
-<p>Ang lahat ng bagong rehistrasyon ay tinitiyak nang mano-mano bago idagdag sa listahan, pero sa sandaling maidagdag ka na, maaupdate mo ang rehistrasyon mo (at ang talâ mo sa pampublikong listahan) anumang oras sa pamamagitan ng muling pagpapasa ng form na ito.</p>';
+<p>Ang lahat ng bagong rehistrasyon ay tinitiyak nang mano-mano bago idagdag sa listahan, pero sa sandaling maidagdag ka na, maa-update mo ang rehistrasyon mo (at ang talâ mo sa pampublikong listahan) anumang oras sa pamamagitan ng muling pagpapasa ng form na ito.</p>';
 $string['registrationno'] = 'Hindi, ayokong makatanggap ng email';
 $string['registrationsend'] = 'Ipadala ang impormasyon sa pagpaparehistro sa moodle.org';
 $string['registrationyes'] = 'Oo, pakipadalhan ako ng mga importanteng isyu';
@@ -1030,7 +1030,7 @@ $string['requestcourse'] = 'Humiling ng kurso';
 $string['requestedby'] = 'Hiniling ni';
 $string['requestreason'] = 'Dahilan sa paghiling ng kurso';
 $string['required'] = 'Kinakailangan';
-$string['requireskey'] = 'Kailangan ng susi sa pageenrol ng kursong ito';
+$string['requireskey'] = 'Kailangan ng susi sa pag-eenrol ng kursong ito';
 $string['requirespayment'] = 'Kailangan ng bayad ng kursong ito para mapasok';
 $string['reset'] = 'Ireset';
 $string['resetcourse'] = 'Ireset ang kurso';
