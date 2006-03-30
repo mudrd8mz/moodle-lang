@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.5 Beta + (2005060201)
+      // auth.php - created with Moodle 1.5.3+ (2005060230)
 
 
 $string['alternatelogin'] = '如果您在此输入一个URL，它将被用于本站的登录。这个页面上应当有一个表单，表单的action一项应设定为<strong>“{$a}”</strong>，并且返回的字段中应当有<strong>username</strong>和<strong>password</strong>。<br />小心宾不要输入错误的URL，否则您可能会被锁在站点之外。<br />要使用缺省的登录页面请为此设置保留空白。';
@@ -17,6 +17,10 @@ $string['auth_cas_text'] = '安全连接';
 $string['auth_cas_version'] = 'CAS版本';
 $string['auth_casdescription'] = '这个方法使用CAS服务器(中央认证服务)来认证Single Sing On(SSO)环境中的用户。您也可以使用LDAP认证。如果给定的用户名和密码在CAS中有效，Moodle会在数据库中船舰信用户项目，并从LDAP中取出相应的属性。在后续的登录中，只检查用户名和密码。';
 $string['auth_castitle'] = '使用CAS服务器(SSO)';
+$string['auth_changepasswordhelp'] = '修改密码帮助';
+$string['auth_changepasswordhelp_expl'] = '当用户丢失了他们的{$a}密码后显示给他们的帮助信息。系统将会把此信息和<strong>修改密码地址</strong>一起显示给用户或用它来替代Moodle内部的修改密码机制。';
+$string['auth_changepasswordurl'] = '修改密码地址';
+$string['auth_changepasswordurl_expl'] = '设定一个当用户丢失了他们的{$a}密码时发给用户的地址。需要将<strong>使用标准修改密码页面</strong>设定为<strong>否</strong>。';
 $string['auth_common_settings'] = '公用设置';
 $string['auth_data_mapping'] = '数据映射';
 $string['auth_dbdescription'] = '该方法使用一个外部数据库来检验用户名和密码是否有效。如果是一个新帐号，该帐号其它字段的信息将一起复制到本系统中。';
@@ -42,6 +46,10 @@ $string['auth_fctitle'] = '使用FirstClass服务器';
 $string['auth_fcuserid'] = '拥有‘Subadministrator’权限的FirstClass帐号的userid。';
 $string['auth_fieldlock'] = '锁定值';
 $string['auth_fieldlock_expl'] = '<p><b>锁定值：</b> 如果开启，Moodle用户和管理员将不能直接修改字段的值。如果您正在维护外部数据库的数据，请选择此项。';
+$string['auth_fieldlocks'] = '锁定的用户字段';
+$string['auth_fieldlocks_help'] = '<p>您可以锁定特定的用户数据字段。对于用户数据由管理员来维护或者是通过上传用户机制来创建的站点而言，这个功能是很有用的。如果您锁定了Moodle需要的字段，那么请您确信在创建用户帐户时已经提供了其内容，否则这个账号将无法使用。</p>
+
+<p>如果想要避免这个问题，可以考虑将锁定模式设定为“如果空则锁定”。</p>';
 $string['auth_imapdescription'] = '该方法使用一个IMAP服务器来检验用户名和密码是否有效。';
 $string['auth_imaphost'] = 'IMAP服务器地址。用IP地址，不要用域名。';
 $string['auth_imapport'] = 'IMAP服务器端口号。通常是143或993。';
@@ -64,6 +72,7 @@ $string['auth_ldap_memberattribute'] = '可选的：指定从属于某个组的�
 $string['auth_ldap_objectclass'] = '可选的：指定objectClass以外的属性在ldap_user_type中搜索用户。通常您不需修改这个选项。';
 $string['auth_ldap_opt_deref'] = '检查在搜索时如何处理别名。选择下列值之一: “否”(LDAP_DEREF_NEVER)或“是”(LDAP_DEREF_ALWAYS)。';
 $string['auth_ldap_passwdexpire_settings'] = 'LDAP密码过期设置。';
+$string['auth_ldap_preventpassindb'] = '如果设定为是，则在Moodle的数据库中不会存储密码。';
 $string['auth_ldap_search_sub'] = '如果您想从次级上下文中搜索用户，设值<> 0。';
 $string['auth_ldap_server_settings'] = 'LDAP服务器设置';
 $string['auth_ldap_update_userinfo'] = '从LDAP向本系统更新用户信息（姓名、地址……）要查看映射信息，请看/auth/ldap/attr_mappings.php';
@@ -128,20 +137,16 @@ $string['forcechangepassword'] = '强制修改密码';
 $string['forcechangepassword_help'] = '强制用户在下次登录时修改密码。';
 $string['forcechangepasswordfirst_help'] = '强制用户在第一次登录时修改密码。';
 $string['guestloginbutton'] = '访客登录按钮';
+$string['infilefield'] = '文件中需要的字段';
 $string['instructions'] = '使用说明';
-$string['locked'] = '锁定';
+$string['internal'] = '内部的';
 $string['locked'] = '已锁定';
 $string['md5'] = 'MD5加密';
+$string['passwordhandling'] = '处理密码字段中';
 $string['plaintext'] = '纯文本';
 $string['showguestlogin'] = '您可以在登录页面显示或隐藏访客登录按钮。';
 $string['stdchangepassword'] = '使用标准的修改密码页面';
 $string['stdchangepassword_expl'] = '如果外部认证系统允许通过Moodle修改密码，则应设为是。此选项会覆盖“修改密码URL”。';
-$string['unlocked'] = '不锁定';
-$string['unlockedifempty'] = '不锁定空内容';
-$string['update_never'] = '从不';
-$string['update_oncreate'] = '在建立时';
-$string['update_onlogin'] = '在每次登录时';
-$string['update_onupdate'] = '在更新时';
 $string['stdchangepassword_explldap'] = '注意: 如果使用远程服务器，建议您使用安全的LDAP连接(ldaps://)。';
 $string['unlocked'] = '已解除锁定';
 $string['unlockedifempty'] = '如果空则解除锁定';
