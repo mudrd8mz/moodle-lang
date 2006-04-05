@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2006032200)
+      // quiz.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['1day'] = '1 Araw';
@@ -176,7 +176,7 @@ $string['exporterror'] = 'May naganap na error sa nang prinoproseso ang pagluluw
 $string['exportingquestions'] = 'Iniluluwas ang mga tanong sa file';
 $string['exportname'] = 'Pangalan ng file';
 $string['exportquestions'] = 'Iluwas ang mga tanong sa isang file';
-$string['false'] = 'Malî';
+$string['false'] = 'Mali';
 $string['feedback'] = 'Puna';
 $string['fileformat'] = 'Format ng file';
 $string['fillcorrect'] = 'Punan ng wasto';
@@ -465,8 +465,8 @@ $string['timetaken'] = 'Oras na kinuha';
 $string['tolerancetype'] = 'Uri ng Tolerance';
 $string['toomanyrandom'] = 'Ang bilang ng mga kinakailangang random na tanong ay higit sa laman ng kategoriyang ito!';
 $string['top'] = 'Tuktok';
-$string['true'] = 'Tamà';
-$string['truefalse'] = 'Tamà/Malî';
+$string['true'] = 'Tama';
+$string['truefalse'] = 'Tama/Mali';
 $string['type'] = 'Uri';
 $string['unfinished'] = 'bukás';
 $string['ungraded'] = 'Di pa namamarkahan';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6 development (2006022400)
+      // editor.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['about'] = 'Hinggil sa editor na ito';
@@ -84,7 +84,7 @@ $string['replaceall'] = 'Palitan ang lahat';
 $string['replacewith'] = 'Palitan';
 $string['right'] = 'Kanan';
 $string['righttoleft'] = 'Direksiyon mula kanan pakaliwa';
-$string['rows'] = 'Hanay';
+$string['rows'] = 'Hilig';
 $string['searchandreplace'] = 'Hanapin at palitan';
 $string['searchnotfound'] = 'Hindi matagpuan ang string!';
 $string['selectcolor'] = 'Pumili ng kulay';

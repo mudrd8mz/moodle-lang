@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 development (2006022400)
+      // auth.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['alternatelogin'] = 'Kapag nagpasok ka ng URL dito, gagamitin ito bilang pahinang panglog-in para sa site na ito.  Dapat maglaman ang pahina ng isang form na ang action property ay nakatakda sa <strong>\'$a\'</strong> at mga  return field na <strong>username</strong> at <strong>password</strong>.<br />Ingatan na huwag makapagpasok ng maling URL, kundi\'y masasarhan kayo ng site na ito.<br />Iwanang blangko ang kaayusang ito upang gamitin ang default na pahinang panglog-in.';
@@ -47,7 +47,7 @@ $string['auth_fcuserid'] = 'Userid para sa FirstClass account na may pribilehiyo
 $string['auth_fieldlock'] = 'Ikandado ang halaga';
 $string['auth_fieldlock_expl'] = '<p><b>Ikandado ang halaga:</b> Kapag binuhay, ay pipigil sa mga Moodle user at admin na editin ang field nang direkta.  Gamitin ang opsiyong ito kung pinapanatili mo ang datos na ito sa panlabas na auth system. </p>';
 $string['auth_fieldlocks'] = 'Ikandado ang mga field ng user';
-$string['auth_fieldlocks_help'] = '<p>Maari mong ikandado ang mga data field ng user.  Kapakipakinabang para sa mga site na ang datos ng user ay minementina ng administrador nang mano-mano; sa pamamagitan ng pag-edit ng mga rekord ng user o pag-aaplowd gámit ang \'Iaplowd ang mga user\' na pasilidad.  Kung ikinakandado mo ang mga field na kinakailangan ng Moodle, tiyakin ninyo na ibibigay ninyo ang datos na ito sa paglikha ng mga account ng user &emdash; kundi ay hindi magagamit ang mga account.</p><p>Pag-isipan ninyo kung mas mabuting itakda ang mode ng pagkandado sa \'Dinakakandado kung walang laman\' upang maiwasan ang problemang ito.</p>';
+$string['auth_fieldlocks_help'] = '<p>Maari mong ikandado ang mga data field ng user.  Kapakipakinabang para sa mga site na ang datos ng user ay minementina ng administrador nang mano-mano; sa pamamagitan ng pag-edit ng mga rekord ng user o pag-aaplowd gámit ang \'Iaplowd ang mga user\' na pasilidad.  Kung ikinakandado mo ang mga field na kinakailangan ng Moodle, tiyakin ninyo na ibibigay ninyo ang datos na ito sa paglikha ng mga account ng user &#151; kundi ay hindi magagamit ang mga account.</p><p>Pag-isipan ninyo kung mas mabuting itakda ang mode ng pagkandado sa \'Dinakakandado kung walang laman\' upang maiwasan ang problemang ito.</p>';
 $string['auth_imapdescription'] = 'Gumagamit ang paraang ito ng IMAP server upang matsek kung tanggap ang ibinigay na username at password.';
 $string['auth_imaphost'] = 'Ang address ng IMAP server.  Gamitin ang IP number, huwag ang DNS name.';
 $string['auth_imapport'] = 'Port number ng IMAP server.  Ito ay karaniwang 143 o 993.';
@@ -147,8 +147,7 @@ $string['md5'] = 'MD5 encryption';
 $string['passwordhandling'] = 'Kung paano gagamitin ang field ng password';
 $string['plaintext'] = 'Plain text';
 $string['shib_no_attributes_error'] = 'Mukhang inaauthenticate ka sa pamamagitan ng Shibboleth pero hindi nakatanggap ang Moodle ng anumang katangiang ng user. Pakitiyak na inilalathala ng iyong Tagalako ng Pagkakakilanlan ang mga kinakailangang katangian ($a) sa Tagalako ng Serbisyo na tinatakbuhan ng Moodle o abisuhan ang webmaster ng server na ito.';
-$string['shib_not_all_attributes_error'] = 'Kailangan ng Moodle ng ilang katangian na pang-Shibboleth na wala sa kaso mo. Ang mga katangian ay: $a<br />Pakikontak ang webmaster ng server na ito o ang Tagalako mo ng Pagkakakilanlan.
-';
+$string['shib_not_all_attributes_error'] = 'Kailangan ng Moodle ng ilang katangian na pang-Shibboleth na wala sa kaso mo. Ang mga katangian ay: $a<br />Pakikontak ang webmaster ng server na ito o ang Tagalako mo ng Pagkakakilanlan.';
 $string['shib_not_set_up_error'] = 'Mukhang hindi nakaayos nang wasto ang Shibboleth authentication dahil walang pangkapaligirang baryabol ng Shibboleth sa pahinang ito.  Pakikonsulta ang  <a href=\"README.txt\">README</a> 
 para sa karagdagang instruksiyon kung paano isaayos ang Shibboleth authentication o kontakin ang  webmaster ng instalsyon ng Moodle na ito.';
 $string['showguestlogin'] = 'Maari mong itago o ilantad ang buton na panlog-in ng bisita sa pahinang panlog-in.';
