@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.6 development (2006032200)
+      // dialogue.php - created with Moodle 1.6 Beta 2 (2006040500)
 
 
 $string['addmynewentries'] = '新しいエントリを追加';
@@ -9,6 +9,7 @@ $string['allowmultiple'] = '同一人物による複数ダイアログを許可�
 $string['allowstudentdialogues'] = '学生 - 学生のダイアログを許可する';
 $string['close'] = '閉じる';
 $string['closed'] = '閉鎖中';
+$string['closeddialogues'] = '閉鎖中のダイアログ';
 $string['confirmclosure'] = '$a とのダイアログを閉じようとしています。終了したダイアログは再開することはできません。このダイアログを閉じた場合、閲覧することは可能ですが追加することはできません。この人と計測して\"会話\"を行う場合、再度ダイアログを開始する必要があります。<br /><br />本当にこのダイアログを閉じてもよろしいですか?';
 $string['deleteafter'] = '終了したダイアログを削除する ( ○日後 )';
 $string['dialogueclosed'] = 'ダイアログが閉じられました';
@@ -49,6 +50,7 @@ $string['open'] = '開催中';
 $string['openadialoguewith'] = 'ダイアログを開く';
 $string['opendialogue'] = 'ダイアログを開く';
 $string['opendialogueentries'] = 'ダイアログエントリを開く';
+$string['opendialogues'] = 'ダイアログを開く';
 $string['pane0'] = '開催中のダイアログ';
 $string['pane1'] = 'あなたの返事を待っているダイアログ $a 件';
 $string['pane1one'] = 'あなたの返事を待っているダイアログ 1 件';

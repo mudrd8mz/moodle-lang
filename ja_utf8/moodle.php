@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // moodle.php - created with Moodle 1.6 Beta 2 (2006040500)
 
 
 $string['action'] = '操作';
@@ -260,7 +260,7 @@ $string['createfolder'] = '$a にフォルダを作成する';
 $string['createuserandpass'] = 'ユーザ名 ( 英数字 ) とパスワードを入力してください。';
 $string['createziparchive'] = 'zip書庫を作成する';
 $string['creatingblocks'] = 'ブロックの作成';
-$string['creatingcategoriesandquestions'] = 'カテゴリと質問の作成';
+$string['creatingcategoriesandquestions'] = 'カテゴリと問題の作成';
 $string['creatingcoursemodules'] = 'コースモジュールの作成';
 $string['creatingevents'] = 'イベントの作成';
 $string['creatinggradebook'] = '評定表の作成';
@@ -1031,7 +1031,7 @@ $string['resortcoursesbyname'] = 'コース名で並び替える';
 $string['resources'] = '資料';
 $string['restore'] = 'リストア';
 $string['restorecancelled'] = 'リストアがキャンセルされました。';
-$string['restorecoursenow'] = 'このコースをリストア!';
+$string['restorecoursenow'] = 'このコースをリストアする!';
 $string['restorefinished'] = 'リストアが完了しました。';
 $string['restoreto'] = 'リストア';
 $string['restrictmodules'] = '活動モジュールを制限しますか?';
