@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.5.3+ (2005060230)
+      // auth.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['alternatelogin'] = '如果您在此输入一个URL，它将被用于本站的登录。这个页面上应当有一个表单，表单的action一项应设定为<strong>“{$a}”</strong>，并且返回的字段中应当有<strong>username</strong>和<strong>password</strong>。<br />小心宾不要输入错误的URL，否则您可能会被锁在站点之外。<br />要使用缺省的登录页面请为此设置保留空白。';
@@ -108,6 +108,11 @@ $string['auth_pop3mailbox'] = '要连接的邮箱名称。(通常是INBOX)';
 $string['auth_pop3port'] = '服务器端口(一般是110，SSL常用995)';
 $string['auth_pop3title'] = '使用一个POP3服务器';
 $string['auth_pop3type'] = '服务器类型。如果您的POP3服务器使用安全验证，请选择pop3cert。';
+$string['auth_radiusdescription'] = '此方法使用一个 <a href=\"http://en.wikipedia.org/wiki/RADIUS\" target=\"_blank\">RADIUS</a> 服务器来检查用户名和密码的有效性。';
+$string['auth_radiushost'] = 'RADIUS服务器地址';
+$string['auth_radiusnasport'] = '连接端口';
+$string['auth_radiussecret'] = '共享密钥';
+$string['auth_radiustitle'] = '使用 RADIUS 服务器';
 $string['auth_shib_convert_data'] = '数据修改API';
 $string['auth_shib_convert_data_description'] = '您可以是用此API将修改过的数据提交奥给Shibboleth。要了解细节，请参考<a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a>。';
 $string['auth_shib_convert_data_warning'] = '此文件不存在或无法被Web服务器读取！';
@@ -133,6 +138,7 @@ $string['authinstructions'] = '您在这里可以给您的用户提供使用说�
 $string['changepassword'] = '更改密码地址(URL)';
 $string['changepasswordhelp'] = '在这里您可以指定一个位置用户可以重新获得或更改他们的用户名/密码。这将在登录页面显示一个按钮。如果留空不填，就不会有按钮出现。';
 $string['chooseauthmethod'] = '选择一个身份验证方法：';
+$string['createpasswordifneeded'] = '如果需要则创建密码';
 $string['forcechangepassword'] = '强制修改密码';
 $string['forcechangepassword_help'] = '强制用户在下次登录时修改密码。';
 $string['forcechangepasswordfirst_help'] = '强制用户在第一次登录时修改密码。';

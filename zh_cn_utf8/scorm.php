@@ -1,17 +1,18 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.5 + (2005060201)
+      // scorm.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
+$string['advanced'] = '高级';
 $string['browse'] = '预览';
 $string['browsed'] = '已浏览';
 $string['browsemode'] = '浏览模式';
 $string['chooseapacket'] = '选择或更新一个包';
 $string['completed'] = '已完成';
+$string['exit'] = '从课程退出';
 $string['gradeaverage'] = '平均成绩';
 $string['gradehighest'] = '最高成绩';
 $string['grademethod'] = '评分方法';
 $string['gradesum'] = '总成绩';
-$string['guestsno'] = '访客不能浏览scrom课程';
 $string['height'] = '高度';
 $string['incomplete'] = '不完整';
 $string['lastaccess'] = '最后访问';
@@ -24,5 +25,6 @@ $string['totaltime'] = '时间';
 $string['validateascorm'] = '检验一个包';
 $string['validation'] = '检验结果';
 $string['width'] = '宽度';
+$string['window'] = '窗口';
 
 ?>

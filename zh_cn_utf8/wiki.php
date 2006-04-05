@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.5 ALPHA (2005050600)
+      // wiki.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['action'] = '-- 动作 --';
@@ -141,7 +141,9 @@ $string['safehtml'] = '安全的HTML';
 $string['save'] = '保存';
 $string['searchwiki'] = '搜索Wiki';
 $string['setpageflags'] = '设定页面标志';
+$string['showversions'] = '显示版本:';
 $string['sitemap'] = '站点地图';
+$string['smfor'] = '站点地图';
 $string['status'] = '状态';
 $string['strippagecheck'] = '您确定要裁减掉这个页面的旧版本么：';
 $string['strippages'] = '裁减页面';

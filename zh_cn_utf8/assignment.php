@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6 development (2005101200)
+      // assignment.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['allowresubmit'] = '允许重交';
@@ -32,6 +32,7 @@ $string['failedupdatefeedback'] = '为用户{$a}更新反馈失败';
 $string['feedback'] = '反馈';
 $string['feedbackfromteacher'] = '来自{$a}的反馈';
 $string['feedbackupdated'] = '为{$a}个人更新上交反馈';
+$string['graded'] = '已评分';
 $string['guestnosubmit'] = '对不起，访客不能提交作业。您在提交答案前应登录或注册。';
 $string['guestnoupload'] = '抱歉，访客用户不允许提交作业';
 $string['helpoffline'] = '<p>如果学生在Moodle之外完成作业（比如在其它网站，或者与教师直接交流），那么可以使用这种类型的作业。</p><p> 学生可以看到作业的描述，但不能上传包括文件在内的任何信息。教师依然可以对作业评分，学生也会得到关于他们的分数的通知。</p>';
@@ -57,6 +58,7 @@ $string['submission'] = '提交';
 $string['submissionfeedback'] = '对提交信息的反馈';
 $string['submissions'] = '提交信息';
 $string['submissionsaved'] = '已经保存了您的修改';
+$string['submissionsnotgraded'] = '$a 个作业尚未评分';
 $string['submitassignment'] = '用此表单上交作业';
 $string['submitted'] = '已交';
 $string['typeoffline'] = '离线活动项目';

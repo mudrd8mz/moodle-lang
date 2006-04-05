@@ -1,17 +1,21 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 development (2005101200)
+      // install.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['admindirerror'] = '指定的管理目录不正确';
 $string['admindirname'] = '管理目录';
 $string['admindirsetting'] = '有一些服务器的/admin用在了如控制面板之类的特殊功能上，但这与标准的Moodle管理页面冲突了。通过修改管理目录的名称并将新名称填写在这里就可以避免冲突了。例如: <br /> <br /><b>moodleadmin</b><br /> <br />
 这将修正Moodle中的管理链接。';
+$string['admindirsettinghead'] = '设定管理目录...';
 $string['caution'] = '原因';
 $string['chooselanguage'] = '选择一种语言';
+$string['chooselanguagehead'] = '选择一种语言';
 $string['compatibilitysettings'] = '检查您的PHP设置...';
+$string['compatibilitysettingshead'] = '检查您的PHP设置...';
 $string['configfilenotwritten'] = '安装脚本无法自动创建一个包含您设置的config.php文件，极可能是由于Moodle目录是不能写的。您可以复制如下的代码到Moodle根目录下的config.php文件中。';
 $string['configfilewritten'] = '已经成功创建了config.php文件';
 $string['configurationcomplete'] = '配置完毕';
+$string['configurationcompletehead'] = '配置完毕';
 $string['database'] = '数据库';
 $string['databasecreationsettings'] = '现在您需要配置数据库选项，Moodle的大部分数据都是存储在数据库中的。Moodle4Windows安装程序会根据下面的选项自动为您创建这个数据库。<br />
 <br /> <br />
@@ -49,6 +53,8 @@ Moodle需要一个位置存放上传的文件。这个目录对于Web服务器�
 $string['dirroot'] = 'Moodle目录';
 $string['dirrooterror'] = '“Moodle目录”的设置看上去不对——在那里找不到安装好的Moodle。下面的值已经重置了。';
 $string['download'] = '下载';
+$string['downloadlanguagehead'] = '下载语言包';
+$string['environmenthead'] = '检测您的运行环境...';
 $string['fail'] = '失败';
 $string['fileuploads'] = '上传文件';
 $string['fileuploadserror'] = '这应当是开启的';
@@ -77,6 +83,8 @@ $string['globalsquoteshelp'] = '<p>我们不建议你在禁用Magic Quotes GPC�
 <blockquote>php_value register_globals Off</blockquote>
 </p>';
 $string['installation'] = '安装';
+$string['langdownloaderror'] = '很不幸，语言“{$a}”并未安装。安装过程将以英文继续。';
+$string['langdownloadok'] = '语言“{$a}”已经成功安装了。安装过程将会以此语言继续。';
 $string['magicquotesruntime'] = '运行时的Magic Quotes';
 $string['magicquotesruntimeerror'] = '这应该是关闭的';
 $string['magicquotesruntimehelp'] = '<p>运行时的Magic Quotes应当关闭，这样Moodle才能正常工作。</p>
@@ -118,6 +126,7 @@ $string['sessionautostarterror'] = '这应当是关闭的';
 $string['sessionautostarthelp'] = '<p>Moodle需要会话支持，否则便无法正常工作。</p>
 
 <p>通过修改php.ini文件可以激活会话支持...找找session.auto_start参数</p>';
+$string['skipdbencodingtest'] = '跳过数据库编码检测';
 $string['wwwroot'] = '网站地址';
 $string['wwwrooterror'] = '这个网站地址似乎是错的——在那里并没有刚刚装好的Moodle。';
 

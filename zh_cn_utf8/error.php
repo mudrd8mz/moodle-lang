@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.5.3+ (2005060230)
+      // error.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['adminprimarynoedit'] = '其他人不能修改主管理员信息';
-$string['cannotcreatetempdir'] = '无法创建临时目录。';
+$string['cannotcreatelangdir'] = '无法创建 lang 目录。';
+$string['cannotcreatetempdir'] = '无法创建 temp 目录。';
 $string['cannotdownloadcomponents'] = '无法下载组件。';
 $string['cannotdownloadzipfile'] = '无法下载ZIP文件。';
 $string['cannotfindcomponent'] = '找不到组件。';

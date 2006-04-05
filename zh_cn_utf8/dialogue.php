@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005021000)
+      // dialogue.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['addmynewentries'] = '添加我的话题';
@@ -33,6 +33,7 @@ $string['newentry'] = '新条目';
 $string['noavailablepeople'] = '不许任何人对话';
 $string['nopersonchosen'] = '未选择用户';
 $string['nosubject'] = '未输入主题';
+$string['notavailable'] = '话题功能对访客无效';
 $string['notextentered'] = '未输入文字';
 $string['notstarted'] = '您为启动该对话';
 $string['notyetseen'] = '未被浏览';
