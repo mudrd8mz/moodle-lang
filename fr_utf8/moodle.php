@@ -537,7 +537,7 @@ $string['gd1'] = 'GD 1.x est installé';
 $string['gd2'] = 'GD 2.x est installé';
 $string['gdneed'] = 'GD doit être installé pour visualiser ce graphique';
 $string['gdnot'] = 'GD n\'est pas installé';
-$string['go'] = 'Aller';
+$string['go'] = 'Valider';
 $string['gpl'] = 'Copyright (C) 1999-2006 Martin Dougiamas (http://moodle.com)
 
 Ce programme est libre, vous pouvez le redistribuer et/ou le modifier
