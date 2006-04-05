@@ -204,6 +204,7 @@ $string['pathlatex'] = 'Chemin d\'accès du logiciel <i>latex</i>';
 $string['pgcluster'] = 'PostgreSQL Cluster';
 $string['pgclusterdescription'] = 'Paramètre de version/cluster de PostgreSQL pour les operations en ligne de commande. Si vous n\'avez qu\'un seul postgresql sur votre système ou n\'êtes pas sûr de ce qu\'il s\'agit, laissez ce champ vide.';
 $string['pleaseregister'] = 'Pour enlever ce bouton, veuillez enregistrer votre site';
+$string['releasenoteslink'] = 'Pour des informations sur cette version de Moodle, veuillez consulter les <a target=\"_new\" href=\"$a\">Notes de mise à jour</a> en ligne.';
 $string['remotelangnotavailable'] = 'Moodle ne peut pas se connecter au site download.moodle.org. L\'installation automatique des langues ne peut donc pas avoir lieu. Veuillez télécharger le(s) fichier(s) compressé(s) nécessaire(s) dans la liste ci-dessous, les copier dans votre dossier $a et les décompresser manuellement.';
 $string['renameerrors'] = 'Erreurs lors de changements de nom';
 $string['sitelangchanged'] = 'La langue du site a été modifiée';
