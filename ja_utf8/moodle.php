@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006032800)
+      // moodle.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['action'] = '操作';
@@ -110,8 +110,8 @@ $string['assignstudentspass'] = '現在、「 $a 」に設定されているコ�
 $string['assignteachers'] = '教師の割り当て';
 $string['authentication'] = '認証オプション';
 $string['autosubscribe'] = 'フォーラムメール購読';
-$string['autosubscribeno'] = 'いいえ： フォーラムのメール購読を行いません';
-$string['autosubscribeyes'] = 'はい： 投稿した場合、フォーラムのメール購読を行います';
+$string['autosubscribeno'] = 'いいえ： フォーラムをメール購読しません';
+$string['autosubscribeyes'] = 'はい： 投稿した場合、フォーラムをメール購読します';
 $string['availability'] = 'コース利用';
 $string['availablecourses'] = 'コース一覧';
 $string['backtoparticipants'] = '参加者リストに戻る';
