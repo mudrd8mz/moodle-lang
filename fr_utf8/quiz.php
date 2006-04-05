@@ -265,6 +265,7 @@ $string['min'] = 'Min';
 $string['minutes'] = 'minutes';
 $string['missinganswer'] = 'Nombre insuffisant d\'indications :ANSWER, :Lx, :Rx pour la question de la ligne $a. Vous devez définir au moins 2 réponses possibles';
 $string['missingcorrectanswer'] = 'La réponse correcte doit être indiquée';
+$string['missingformula'] = 'Formule manquante';
 $string['missingitemtypename'] = 'Nom manquant';
 $string['missingname'] = 'Le nom de la question doit être indiqué';
 $string['missingquestion'] = 'Étiquette de question manquante après la ligne $a';
