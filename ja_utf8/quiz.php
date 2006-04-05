@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2006032800)
+      // quiz.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['1day'] = '1日';
@@ -268,6 +268,7 @@ $string['min'] = '最小';
 $string['minutes'] = '分';
 $string['missinganswer'] = '問題の $a行目の記述 :ANSWER、 :Lx、:Rxが少なすぎます。少なくとも2つ以上の考えられる答えを定義してください。';
 $string['missingcorrectanswer'] = '正しい答えを設定してください。';
+$string['missingformula'] = '公式がありません。';
 $string['missingitemtypename'] = '名前がありません。';
 $string['missingname'] = '問題名がありません。';
 $string['missingquestion'] = '$a 以降に問題ラベルがありません。';
