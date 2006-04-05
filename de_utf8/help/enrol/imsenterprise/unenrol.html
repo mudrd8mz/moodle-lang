@@ -1,0 +1,13 @@
+<p align="center"><b>Teilnehmer/innen und Trainer/inenn austragen</b></p>
+
+<p>Die Daten von Enterprise erlauben das Ein- und Austragen von Nutzern aus den Kursen. Wenn die Einstellungen eingeschaltet wird, trägt moodle Nutzer/innen aus Kursen aus, wenn dies die Anwendung vorsieht. </p>
+
+<p>Es stehen drei Wege zur Verfügung um Teilnehmer/innen mit den IMS Daten auszutragen:</p>
+
+<ul><li>A &lt;member&gt;-Element definert Teilnehmer/in und Kurs. Das "recstatus" -Attribut des  &lt;role&gt;-Elements mit dem Wert 3 bedeutet 'löschen' ("delete"). DIESE FUNKTION IST ZUR ZEIT IN MOODLE NICHT AKTIV.</li>
+
+<li> A &lt;member&gt;-Element definert Teilnehmer/in und Kurs. Das "status"-Element mit dem Wert 0 bedeutet 'inaktiv'("inactive").</li></ul>
+
+<p>Das dritte Verfahren ist ein wenig anders aufgebaut. Die Konfiguration hier muß nicht aktiviert werden. Die Festlegung erfolgt durch das Ablaufdatum (unenrolement date):</p>
+
+<ul><li>Ein <member> Element definiert einen <timeframe> (Zeitrahmen) für die Teilnahmedauer. Sie können Start- und Endzeitpunkt für jede/n einzelnen Teilnehmer/in festlegen. Dieser Daten werden in die moodle Datenbank übernommen. Nach Ablauf der Teilnahmedauer kann der/die Teilnehmer/in sich nicht mehr in den Kurs einloggen.</li></ul>

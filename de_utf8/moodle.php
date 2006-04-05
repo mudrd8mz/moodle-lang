@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006032200)
+      // moodle.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['action'] = 'Aktion';
@@ -51,7 +51,7 @@ $string['adminhelpcourses'] = 'Kurse und Kursbereiche definieren und ihnen Perso
 $string['adminhelpeditorsettings'] = 'Einstellungen für den HTML-Editor festlegen';
 $string['adminhelpedituser'] = 'Nutzer/innen durchsuchen und bearbeiten';
 $string['adminhelpenrolments'] = 'Wählen Sie interne oder externe Wege zur Kontrolle der Legitimationsprüfung.';
-$string['adminhelpenvironment'] = 'Überprüfen Sie, ob Ihr Server die derzeitigen und künftigen Anforderungen für den Betrieb von moodle erfüllt.';
+$string['adminhelpenvironment'] = 'Server-Prüfung bezüglich aktueller und zukünftiger Anforderungen';
 $string['adminhelpfailurelogs'] = 'Log-Daten und gescheiterte Anmeldungen durchsehen';
 $string['adminhelplanguage'] = 'Aktuelles Sprachpaket überprüfen und bearbeiten';
 $string['adminhelplogs'] = 'Logfiles der Aktivitäten der Seite durchsuchen';
@@ -105,7 +105,7 @@ $string['assessment'] = 'Beurteilung';
 $string['assignadmins'] = 'Administrator/in zuweisen';
 $string['assigncreators'] = 'Kursverwalter/in zuweisen';
 $string['assignstudents'] = 'Teilnehmer/in eintragen';
-$string['assignstudentsnote'] = 'Anmerkung: Teilnehmer/innen können sich selbst in diesen Kurs einschreiben können. Meistens werden Sie diese Funktion nicht benötigen.';
+$string['assignstudentsnote'] = 'Hinweis: Teilnehmer/innen können sich selbst in diesen Kurs einschreiben. Meistens werden Sie diese Funktion nicht benötigen.';
 $string['assignstudentspass'] = 'Sie brauchen den Teilnehmer/innen nur den Schlüssel dieses Kurses mitzuteilen. Er lautet gegenwärtig: \'$a\'';
 $string['assignteachers'] = 'Trainer/in zuweisen';
 $string['authentication'] = 'Authentifizierung';
@@ -805,6 +805,7 @@ $string['namescorm'] = 'SCORM';
 $string['namesocial'] = 'Abschnitt';
 $string['nametopics'] = 'Thema';
 $string['nameweeks'] = 'Woche';
+$string['nameweekscss'] = 'Woche';
 $string['needed'] = 'Benötigt';
 $string['never'] = 'Nie';
 $string['neverdeletelogs'] = 'Niemals die Statistiken löschen';
@@ -958,6 +959,7 @@ $string['periodending'] = 'Ende der Periode (§a)';
 $string['personalprofile'] = 'Persönliches Profil';
 $string['phone'] = 'Telefon';
 $string['phpinfo'] = 'PHP-Info';
+$string['pluginsetup'] = 'Einrichten der Plugin-Tabellen';
 $string['policyagree'] = 'Lesen Sie diese Zustimmungserklärung sorgfältig. Sie müssen zuerst zustimmen, um diese Seite weiter nutzen zu können. Stimmen Sie zu?';
 $string['policyagreement'] = 'Zustimmungserklärung';
 $string['policyagreementclick'] = 'Klicken Sie hier, um die Zustimmungserklärung zu lesen.';
@@ -1143,6 +1145,7 @@ $string['statsmodedetailed'] = 'Detailansicht der Nutzer/innen';
 $string['statsmodegeneral'] = 'Übersicht';
 $string['statsnodata'] = 'Es gibt keine Daten für die Kombination aus Kurs und Zeitraum';
 $string['statsnodatauser'] = 'Es gibt keine Daten für die Kombination aus Kurs Nutzer/in und Zeitraum';
+$string['statsoff'] = 'Die Statistiken sind zur Zeit nicht aktiviert.';
 $string['statsreport1'] = 'Logins';
 $string['statsreport10'] = 'Aktivitäten der Nutzer/innen';
 $string['statsreport11'] = 'Aktivste Kurse';
@@ -1241,8 +1244,8 @@ $string['undecided'] = 'Unbestimmt';
 $string['unenrol'] = 'Aus diesem Kurs endgültig löschen';
 $string['unenrolallstudents'] = 'Alle Teilnehmer/innen aus diesem  Kurs LÖSCHEN !! Die Daten werden dann gelöscht.';
 $string['unenrolallstudentssure'] = 'Sind Sie sicher, dass Sie alle Teilnehmer/in  dieses Kurses löschen möchten? Die Daten werden dann gelöscht!!!\"';
-$string['unenrolme'] = 'Ich will  mich bei diesem Kurs LÖSCHEN !! <b>Hinweis:</b> Ihre Kursdaten werden dann gelöscht.';
-$string['unenrolsure'] = 'Sind Sie sicher, dass Sie $a als Teilnehmer/in dieses Kurses löschen möchten? Ihre Kursdaten werden dann gelöscht!!!\"';
+$string['unenrolme'] = 'Ich will mich bei diesem Kurs LÖSCHEN!!! Hinweis: Ihre Kursdaten werden gelöscht.';
+$string['unenrolsure'] = 'Sind Sie sicher, dass Sie $a als Teilnehmer/in dieses Kurses löschen wollen? <br /><strong>Hinweis: Die persönlichen Kursdaten werden nach Bestätigung dieser Sicherheitsabfrage gelöscht!!!</strong>';
 $string['unfinished'] = 'Noch nicht abgeschlossen';
 $string['unknowncategory'] = 'Unbekannter Kursbereich';
 $string['unlimited'] = 'Unbegrenzt';

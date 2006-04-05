@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005020101)
+      // dialogue.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['addmynewentries'] = 'Meine neuen Einträge hinzufügen.';
@@ -34,6 +34,7 @@ $string['newentry'] = 'Neuer Eintrag';
 $string['noavailablepeople'] = 'Hier ist niemand anwesend, mit dem ein Dialog geführt werden kann.';
 $string['nopersonchosen'] = 'Keine Person ausgewählt';
 $string['nosubject'] = 'Kein Betreff eingegeben';
+$string['notavailable'] = 'Dialoge stehen für Gast-Nutzer nicht zur Verfügung. ';
 $string['notextentered'] = 'Keinen Text eingegeben';
 $string['notstarted'] = 'Sie haben den Dialog noch nicht gestartet.';
 $string['notyetseen'] = 'Noch nicht gesehen';

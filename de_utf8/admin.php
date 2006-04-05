@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 development (2006032001)
+      // admin.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['adminseesallevents'] = 'Administrator/innen sehen alle Termine';
@@ -110,6 +110,7 @@ In einigen wenigen Fällen kann das Probleme verursachen, wenn der Nutzer eine F
 Das Ergebnis ist, dass Sie bei einem Formular nicht weiterkommen.
 Sofern Nutzer z.B. Probleme mit der Zugangsseite haben, sollten Sie diese Einstellung deaktivieren, so ist Ihre Seite allerdings offener für Brute-Force-Attacken. Im Zweifelsfall, belassen Sie es auf \'ja\'.';
 $string['configsessioncookie'] = 'Diese Einstellung legt den Namen des Cookies, der für Moodle-Zugriffe benutzt wird fest. Dieser Eintrag ist optional und nur sinnvoll, um zu verhindern das mehrere Cookies sich überlagern. Dies kann der Fall sein, wenn mehrere Moodle-Systeme auf der gleichen Website installiert sind. ';
+$string['configsessioncookiepath'] = 'Sollte es erforderlich sein, den Ablageort an dem Browser Cookies ablegen anzupassen, können Sie hier ein Unterverzeichnis Ihrer Website  definieren. Sonst ist die Grundeinstellung \'/\' ausreichend. ';
 $string['configsessiontimeout'] = 'Wenn angemeldete Nutzer/innen länger keine Aktionen ausführen (Seiten laden), werden sie automatisch abgemeldet. Diese Variable legt die betreffende Zeitspanne fest.';
 $string['configshowblocksonmodpages'] = 'Einige Lernaktivitäten erlauben die Nutzung von Blöcken innerhalb der Aktivität. Mit dieser Einstellung ermöglichen Sie den Trainer/innen auf der Kursseite diese Blöcke in die Lernaktivität einzufügen. Andernfalls steht diese Option nicht zur Verfügung.';
 $string['configshowsiteparticipantslist'] = 'Alle auf dieser Site angelegten Teilnehmer/innen und Trainer/innen werden in der Teilnehmerliste aufgeführt. Wer soll die Teilnehmerliste einsehen dürfen?';
