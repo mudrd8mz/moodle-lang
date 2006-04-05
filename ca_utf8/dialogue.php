@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.6 development (2006022400)
+      // dialogue.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['addmynewentries'] = 'Afegeix les meves entrades noves';
@@ -36,6 +36,7 @@ $string['newentry'] = 'Nova entrada';
 $string['noavailablepeople'] = 'No hi ha ningú disponible amb qui iniciar un diàleg.';
 $string['nopersonchosen'] = 'No heu triat cap persona';
 $string['nosubject'] = 'No heu introduït l\'assumpte';
+$string['notavailable'] = 'Els diàlegs no estan disponibles per a usuaris visitants';
 $string['notextentered'] = 'No heu introduït cap text';
 $string['notstarted'] = 'No heu iniciat encara aquest diàleg';
 $string['notyetseen'] = 'No ha estat vist encara';

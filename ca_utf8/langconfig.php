@@ -1,5 +1,8 @@
-<?php
-$string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
+<?PHP // $Id$ 
+      // langconfig.php - created with Moodle 1.6 Beta 1 (2006032900)
+
+
+$string['alphabet'] = 'A,B,C,Ç,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['firstdayofweek'] = '1';
 $string['locale'] = 'ca_ES.UTF-8';
@@ -20,4 +23,5 @@ $string['strftimetime'] = '%%H:%%M';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Català';
+
 ?>

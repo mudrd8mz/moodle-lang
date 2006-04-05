@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6 development (2006031400)
+      // forum.php - created with Moodle 1.6 development (2006032001)
 
 
 $string['addanewdiscussion'] = 'Afegeix un nou tema de debat';
@@ -174,6 +174,7 @@ $string['repliesmany'] = '$a respostes fins ara';
 $string['repliesone'] = '$a resposta fins ara';
 $string['reply'] = 'Contesta';
 $string['replyforum'] = 'Contesta al fòrum';
+$string['resetforums'] = 'Suprimeix tots els missatges d\'aquests tipus de fòrums';
 $string['rsssubscriberssdiscussions'] = 'Visualitza l\'RSS dels debats \'$a\'';
 $string['rsssubscriberssposts'] = 'Visualitza l\'RSS dels missatges \'$a\'';
 $string['search'] = 'Cerca';

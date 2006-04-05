@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2006031400)
+      // error.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['adminprimarynoedit'] = 'L\'administrador primari no pot ser editat per altres usuaris';
@@ -45,6 +45,7 @@ $string['notavailable'] = 'Això no està disponible actualment';
 $string['onlyadmins'] = 'Això només poden fer-ho els administradors';
 $string['onlyeditingteachers'] = 'Això només pot fer-ho el professorat que tingui permisos d\'edició';
 $string['onlyeditown'] = 'Només podeu editar la vostra pròpia informació';
+$string['pluginrequirementsnotmet'] = 'El connector \"$a->pluginname\" ($a->pluginversion) no s\'ha pogut instal·lar. Necessita una versió més nova de Moodle (esteu utilitzant la $a->currentmoodle i necessiteu la $a-> requiremoodle).';
 $string['processingstops'] = 'El processament acaba aquí. Els registres que resten s\'ignoraran.';
 $string['remotedownloadnotallowed'] = 'El vostre servidor no permet baixar components ((allow_url_fopen inhabilitat).<br /><br />Baixeu manualment el fitxer <a href=\"$a->url\">$a->url</a>, copieu en la ubicació \"$a->dest\" del vostre servidor i descomprimiu-lo allí.';
 $string['restricteduser'] = 'Al vostre compte \"$a\" no li és permès de fer això.';

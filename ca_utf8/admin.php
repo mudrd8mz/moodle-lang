@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 development (2006031000)
+      // admin.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['adminseesallevents'] = 'Els administradors veuen tots els esdeveniments';
@@ -104,6 +104,7 @@ $string['configsectionstats'] = 'Estadístiques';
 $string['configsectionuser'] = 'Usuari';
 $string['configsecureforms'] = 'Moodle pot fer servir un nivell addicional de seguretat quan accepta dades de formularis web. Si habiliteu aquesta opció, la variable HTTP_REFERER del navegador es compara amb l\'adreça real del formulari. En casos excepcionals això pot causar problemes si l\'usuari està utilitzant un tallafocs (p. ex. Zonealarm) configurar per suprimir l\'HTTP_REFERER del tràfic web. El símptoma habitual consisteix a quedar-se \'enganxat\' en un formulari. Si els vostres usuaris tenen problemes, per exemple, amb la pàgina d\'entrada, potser haureu d\'inhabilitar aquest paràmetre, tot i que llavors podríeu deixar el vostre lloc més obert a intents de desxifrar contrasenyes per força bruta. En cas de dubte, deixeu-lo en \'Sí\'.';
 $string['configsessioncookie'] = 'Aquest paràmetre personalitza el nom de la galeta utilitzada per a les sessions de Moodle. És opcional i només resulta útil per evitar que les galetes es confonguin quan s\'executen diferents còpies de Moodle en el mateix lloc web. ';
+$string['configsessioncookiepath'] = 'Si necessiteu canviar el lloc on els navegadors envien les galetes de Moodle, podeu especificar un subdirectori del vostre web en aquest paràmetre. Si no, deixeu el directori \'/\' per defecte.';
 $string['configsessiontimeout'] = 'Si els usuaris que entren en aquest lloc estan inactius durant molt temps (no carreguen pàgines) se\'ls farà sortir automàticament (s\'acabarà la seva sessió). Aquesta variable especifica després de quant temps passa això.';
 $string['configshowblocksonmodpages'] = 'Alguns mòduls d\'activitat permeten l\'ús de blocs en les seves pàgines. Si activeu aquest paràmetre, els professors podran afegir blocs laterals en aqueixes pàgines. Si no, la interfície no els oferirà aquesta possibilitat.';
 $string['configshowsiteparticipantslist'] = 'Tots els estudiants i professors del lloc figuren a la llista de participants del lloc. Qui podrà veure aquesta llista de participants del lloc?';
@@ -116,7 +117,7 @@ $string['configstatsfirstrun'] = 'Aquest paràmetre especifica des de quina data
 $string['configstatsmaxruntime'] = 'El processament de les estadístiques pot ser bastant intensiu. Utilitzeu una combinació d\'aquest camp i el següent per especificar quan s\'executa i quant temps.';
 $string['configstatsruntimestart'] = 'A quina hora ha de <b>començar</b> la tasca del cron que processa les estadístiques?';
 $string['configstatsuserthreshold'] = 'Si introduïu aquí un valor numèric, que no sigui zero, per classificar els cursos, s\'ignoraran aquells cursos amb un nombre d\'usuaris inscrits (estudiantat + professorat) inferior a aquest valor.';
-$string['configteacherassignteachers'] = 'És permès als professors d\'assignar altres professors als seus cursos? Si \'No\', només els creadors de cursos i els administradors podran assignar professors.';
+$string['configteacherassignteachers'] = 'Es permet als professors assignar altres professors als seus cursos? Si \'No\', només els creadors de cursos i els administradors podran assignar professors.';
 $string['configthemelist'] = 'Deixeu en blanc aquesta opció per permetre l\'ús de qualsevol tema vàlid. Si voleu abreujar el menú de temes, especifiqueu aquí una llista de noms separats per comes. Per exemple: standard,orangewhite';
 $string['configtimezone'] = 'Podeu definir aquí la zona horària per defecte. Només és la zona horària PER DEFECTE per a la visualització de dates: cada usuari pot definir la seva en el seu perfil. Aquí \"Hora del servidor\" vol dir que Moodle agafarà la zona horària del sistema operatiu del servidor. En el perfil de l\'usuari, \"Hora del servidor\" vol dir que l\'usuari agafa la zona horària definida en aquest paràmetre de Moodle.';
 $string['configunzip'] = 'Indiqueu la ubicació del vostre programa de descompressió unzip (opcional, només en Unix). Si l\'especifiqueu, aquest programa s\'utilitzarà per desempaquetar arxius zip al servidor. Si la deixeu en blanc, Moodle utilitzarà les seves rutines internes.';
