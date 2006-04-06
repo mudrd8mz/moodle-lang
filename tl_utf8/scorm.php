@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6 development (2006032200)
+      // scorm.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['advanced'] = 'Abante';
@@ -12,15 +12,14 @@ $string['badmanifest'] = 'Ilang manifest error: tingnan ang log ng mga error';
 $string['browse'] = 'Silipin';
 $string['browsed'] = 'Natingnan';
 $string['browsemode'] = 'Patingin na Mode';
-$string['chooseapacket'] = 'Pumilì o baguhin ang isang paketeng SCORM';
+$string['chooseapacket'] = 'Pumilì o baguhin ang isang pakete';
 $string['completed'] = 'Nakumpleto';
 $string['coursepacket'] = 'Pakete ng kurso';
 $string['coursestruct'] = 'Balangkas ng kurso';
 $string['datadir'] = 'Filesystem Error: Hindi malikha ang direktoryo ng datos ng kurso';
 $string['details'] = 'Mga detalye ng track';
 $string['directories'] = 'Ipakita ang mga link ng direktoryo';
-$string['display'] = 'Ipakita';
-$string['domxml'] = 'DOMXML external library';
+$string['display'] = 'Ipakita ang pakete';
 $string['element'] = 'Elemento';
 $string['entercourse'] = 'Ipasok ang kurso';
 $string['errorlogs'] = 'Log ng mga error';
@@ -59,8 +58,6 @@ $string['menubar'] = 'Ipakita ang bar ng menu';
 $string['min'] = 'Min na iskor';
 $string['missing_attribute'] = 'Nawawala ang attribute na $a->attr sa tag na $a->tag';
 $string['missing_tag'] = 'Nawawala ang tag na $a->tag';
-$string['mode'] = 'Mode';
-$string['modulename'] = 'SCORM/AICC';
 $string['modulenameplural'] = 'Mga SCORM/AICC';
 $string['newattempt'] = 'Magsimula ng bagong pagkuha';
 $string['next'] = 'Ituloy';
@@ -69,7 +66,7 @@ $string['no_children'] = 'Kailangan ay may anak ang tag na $a->tag';
 $string['noactivity'] = 'Walang maiuulat';
 $string['nolimit'] = 'Walang hangganang pagkuha';
 $string['nomanifest'] = 'Hindi natagpuan ang manifest';
-$string['noprerequisites'] = 'Paumanhin subali\'t wala ka pang sapat na prerequisite para mapasok ang learning object na ito';
+$string['noprerequisites'] = 'Paumanhin subali\'t wala ka pang sapat na prerequisite para mapasok ang araling bagay na ito';
 $string['noreports'] = 'Walang ulat na maipapakita';
 $string['normal'] = 'Normal';
 $string['noscriptnoscorm'] = 'Hindi suportado ng browser mo ang javascript o patay ang suporta nito sa javascript.  Walang track na mairerekord.';
@@ -82,8 +79,7 @@ $string['othertracks'] = 'Iba pang Track';
 $string['packagedir'] = 'Filesystem Error: Hindi malikha ang direktoryo ng pakete';
 $string['packagefile'] = 'Walang paketeng file na itinakda';
 $string['passed'] = 'Pasado';
-$string['php5'] = 'PHP 5 (DOMXML native library)';
-$string['popup'] = 'Buksan ang mga Bagay na Pag-aaralan sa bagong bintana';
+$string['popup'] = 'Bagong bintana';
 $string['popupmenu'] = 'Sa isang hinihila pababa na menu';
 $string['popupopen'] = 'Buksan ang pakete sa bagong bintana';
 $string['position_error'] = 'Ang $a->tag na tag ay hindi maaaring maging anak ng $a->parent na tag';
@@ -94,8 +90,8 @@ $string['report'] = 'Ulat';
 $string['resizable'] = 'Pahintulutan na mabago ang sukat ng bintana';
 $string['result'] = 'Resulta';
 $string['review'] = 'Irebyu';
-$string['reviewmode'] = 'Mode na Rebyu';
-$string['scoes'] = 'Mga Bagay na Pinag-aaralan';
+$string['reviewmode'] = 'Rebyu na Mode';
+$string['scoes'] = 'Araling Bagay';
 $string['score'] = 'Iskor';
 $string['scormcourse'] = 'Kursong Pinag-aaralan';
 $string['scrollbars'] = 'Pahintulutang maiiskrol ang bintana';

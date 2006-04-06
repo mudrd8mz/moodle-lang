@@ -261,6 +261,7 @@ $string['max'] = 'Maks';
 $string['minutes'] = 'Minuto';
 $string['missinganswer'] = 'Labis na kakaunti :ANSWER, :Lx, :Rx para sa tanong sa linyang $a.  Kailangan mong magtakda ng hindi bababa sa 2 posibleng sagot';
 $string['missingcorrectanswer'] = 'Dapat tukuyin ang wastong sagot';
+$string['missingformula'] = 'Nawawala ang pormula';
 $string['missingitemtypename'] = 'Nawawala ang pangalan';
 $string['missingname'] = 'Nawawala ang pangalan ng tanong';
 $string['missingquestion'] = 'Nawawala ang etiketa ng tanong pagkatapos ng ika- $a na linya';
