@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // quiz.php - created with Moodle 1.6 Beta 2 (2006040500)
 
 
 $string['1day'] = '1日';
@@ -214,6 +214,7 @@ $string['gradingdetailsadjustment'] = '前のペナルティにより <strong>$a
 $string['gradingdetailspenalty'] = 'この解答のペナルティ: $a';
 $string['gradingdetailszeropenalty'] = 'ペナルティはありません。';
 $string['guestsno'] = '申し訳ございません、ゲストユーザは小テストの閲覧および解答ができません。';
+$string['history'] = '解答履歴';
 $string['hotpot'] = 'Hot Potatoesフォーマット';
 $string['illegalformulasyntax'] = '「 $a 」で始まる不正なシンタックスの式です。';
 $string['imagedisplay'] = '表示イメージ';
