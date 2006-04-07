@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.6 development (2006032200)
+      // dialogue.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['addmynewentries'] = 'Idagdag ang mga Bago kong Talâ';
@@ -9,6 +9,7 @@ $string['allowmultiple'] = 'Pahintulutan ang higit sa isang Dayalogo sa parehong
 $string['allowstudentdialogues'] = 'Pahintulutan ang Mag-aaral-sa-Mag-aaral na Dayalogo';
 $string['close'] = 'Isara';
 $string['closed'] = 'Sarado';
+$string['closeddialogues'] = 'Isinarang Dayalogo';
 $string['confirmclosure'] = 'Isasara mo ang isang dayalogo kay $a.  Ang mga isinarang dayalogo ay hindi na muling mabubuksan.  Kapag isinara mo ang dayalogong ito maaari mo itong tingnan nguni\'t hindi mo ito maidadagdag, at kakailanganin mong mag-umpisa ng isa pang dayalogo para maipagpatuloy ang \"pakikipag-usap\" sa taong ito.<br /><br />Talaga bang nais mong isara ang dayalogong ito?';
 $string['deleteafter'] = 'Burahin ang mga Isinarang Dayalogo matapos ang (Araw)';
 $string['dialogueclosed'] = 'Isinara na ang Dayalogo';
@@ -48,12 +49,13 @@ $string['notyetseen'] = 'Hindi pa nakikita';
 $string['numberofentries'] = 'Bilang ng talâ';
 $string['numberofentriesadded'] = 'Bilang ng idinagdag na talâ: $a';
 $string['of'] = 'ng';
-$string['onwrote'] = 'Noon $a isinulat';
+$string['onwrote'] = 'Noong $a isinulat';
 $string['onyouwrote'] = 'Noong $a isinulat mo ';
 $string['open'] = 'Buksan';
 $string['openadialoguewith'] = 'Buksan ang Dayalogo kay';
 $string['opendialogue'] = 'Buksan ang Dayalogo';
 $string['opendialogueentries'] = 'Buksan ang mga pandayalogong talâ';
+$string['opendialogues'] = 'Bukás na Dayalogo';
 $string['pane0'] = 'Buksan ang isang Dayalogo';
 $string['pane1'] = '$a Dayalogo ang naghihintay ng iyong Tugon';
 $string['pane1one'] = '1 Dayalogo ang naghihintay ng iyong Tugon';
@@ -62,7 +64,7 @@ $string['pane2one'] = '1 Dayalogo ang naghihintay ng Tugon mula sa kinakaausap m
 $string['pane3'] = '$a Saradong Dayalogo';
 $string['pane3one'] = '1 Saradong Dayalogo';
 $string['seen'] = 'Nakita noong $a ang lumipas';
-$string['sendmailmessages'] = 'Magpadala ng Liham na Mensahe hinggil sa aking mga bagong talâ';
+$string['sendmailmessages'] = 'Magpadala ng Liham hinggil sa aking mga bagong talâ';
 $string['status'] = 'Kalagayan';
 $string['studenttostudent'] = 'Mag-aaral sa Mag-aaral';
 $string['subject'] = 'Paksa';

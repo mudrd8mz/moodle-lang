@@ -1,22 +1,22 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6 development (2006022400)
+      // enrol_authorize.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
-$string['adminauthorizeccapture'] = 'Kaayusan ng Rebyu ng Order & Auto-Capture';
+$string['adminauthorizeccapture'] = 'Kaayusan ng Rebyu ng Order & Scheduled-Capture';
 $string['adminauthorizeemail'] = 'Kaayusan ng Pagpapadala ng Email';
 $string['adminauthorizesettings'] = 'Kaayusan ng Authorize.net';
 $string['adminauthorizewide'] = 'Kaayusan na Pangkalahatang-Site';
-$string['adminavs'] = 'Tsekan ito kung pinagana mo ang Address Verification System (AVS) sa iyong account ng authorize.net.  Mangangailangan iot ng mga field para sa address tulad ng kalye, estado, bansa at zip kapag sinulatan na ng user ang form para sa pagbabayad.';
-$string['admincronsetup'] = 'Hindi pinatakbo ang pangmentinang iskrip na cron.php sa loob ng 24 oras. <br />Kailangang gumagana ang cron kung nais mong gamitin ang katangiang autocapture.<br />Isaayos ang cron nang wasto o tanggalin muli ang tsek ng an_review .<br />Kapag pinatay mo ang autocapture, ang mga transaksiyon ay kakanselahin maliban na lamang kung rebyuhin mo ito sa loob ng 30 araw.
+$string['adminavs'] = 'Tsekan ito kung pinagana mo ang Address Verification System (AVS) sa iyong account ng authorize.net.  Mangangailangan ito ng mga field para sa address tulad ng kalye, estado, bansa at zip kapag sinulatan na ng user ang form para sa pagbabayad.';
+$string['admincronsetup'] = 'Hindi pinatakbo ang pangmentinang iskrip na cron.php sa loob ng 24 oras. <br />Kailangang gumagana ang cron kung nais mong gamitin ang katangiang scheduled-capture.<br />Isaayos ang cron nang wasto o tanggalin muli ang tsek ng an_review .<br />Kapag pinatay mo ang scheduled-capture, ang mga transaksiyon ay kakanselahin maliban na lamang kung rebyuhin mo ito sa loob ng 30 araw.
 <br />Tsekan ang an_review at ipasok ang \'0\' sa an_capture_day na field<br />kung nais mong tumanggap/tumanggi sa mga bayad nang mano-mano sa loob ng 30 araw.';
-$string['adminemailexpired'] = 'Magpadala ng mga email na babala sa mga admin kung ilang <b>$a</b> araw ang nakalipas sa kung ilang estado ng \'pinahintulutan/nakabimbin na capture\' na transaksiyon, bago mapasó ang transaksiyon. (0=patayin ang pagpapadala ng email, default=2, maks=5)<br />Kapakipakinabang ito kung paganahin mo ang pagcapture nang manomano(an_review=may tsek, an_capture_day=0).';
-$string['adminhelpcapture'] = 'Nais kong tumanggap/tumanggi sa bayad ng mano-mano.  Pero nais ko ring gumamit ng autocapture para maiwasan ang pagkansela ng bayad.  Ano ang puwede kong gawin?
+$string['adminemailexpired'] = 'Magpadala ng mga email na babala sa mga admin kung ilang estado ng \'pinahintulutan/nakabimbin na capture\' na transaksiyon mayroon b>$a</b> araw ang nakalipas, bago mapasó ang mga transaksiyon. (0=patayin ang pagpapadala ng email, default=2, maks=5)<br />Kapakipakinabang ito kung paganahin mo ang pagcapture nang manomano(an_review=may tsek, an_capture_day=0).';
+$string['adminhelpcapture'] = 'Nais kong tumanggap/tumanggi sa bayad nang mano-mano.  Pero nais ko ring gumamit ng scheduled-capture para maiwasan ang pagkansela ng bayad.  Ano ang puwede kong gawin?
 
 - Isetup ang cron.
 - Tsekan ang an_review.
 - Magpasok ng bilang sa mula 1 hanggang 29 sa field na an_capture_day. Ang card ay makacapture 
 at ang user ay maeenrol sa kurso maliban na lamang kung macapture mo ito sa loob ng an_capture_day.';
-$string['adminhelpcapturetitle'] = 'Araw ng Auto-Capture';
+$string['adminhelpcapturetitle'] = 'Araw ng Scheduled-Capture';
 $string['adminhelpreview'] = 'Paano ko tatanggapin/tatanggihan ang bayad nang mano-mano?
 
 - Tsekan ang an_review.
@@ -35,21 +35,20 @@ User: $a->user
 Kurso: $a->course
 Halaga: $a->amount
 
-BUHAY BA ANG AUTO-CAPTURE?: $a->acstatus
+BUHAY BA ANG SCHEDULED-CAPTURE?: $a->acstatus
 
-Kung buhay ang auto-capture makacaptue ang credit card sa $a->captureon at ang mag-aaral ay maeenrol sa kurso, kundi ay mapapasó ito sa $a->expireon 
+Kung buhay ang scheduled-capture makacapture ang credit card sa $a->captureon at ang mag-aaral ay maeenrol sa kurso, kundi ay mapapasó ito sa $a->expireon 
 at hindi na makacapture pagkatapos ng araw na ito.
 
 Gayundin maaari mong tanggapin/tanggihan ang bayad para maenrol ang mag-aaral nang daglian sa pamamagitan ng pagpunta sa link na ito:
 $a->url';
 $string['adminnewordersubject'] = '$a->course: Bagong Nakabimbin na Order($a->orderid)';
-$string['adminpendingorders'] = 'Pinatay mo ang katangiang auto-capture.<br />Ang kabuuang $a->count transaksiyon na may estadong  AN_STATUS_AUTH ay makakansela maliban na lamang kung tsekan mo ito.<br />Para matanggap/matanggihan ang mga bayad tumungo sa pahina para sa <a href=\'$a->url\'>Pamamahala ng Bayad</a>.';
-$string['adminreview'] = 'Rebyuhin ang order bago icapture ang credit card.';
+$string['adminpendingorders'] = 'Pinatay mo ang katangiang scheduled-capture.<br />Ang kabuuang $a->count transaksiyon na may estadong  AN_STATUS_AUTH ay makakansela maliban na lamang kung tsekan mo ito.<br />Para matanggap/matanggihan ang mga bayad tumungo sa pahina para sa <a href=\'$a->url\'>Pamamahala ng Bayad</a>.';
+$string['adminreview'] = 'Rebyuhin ang order bago iproseso ang credit card.';
 $string['adminteachermanagepay'] = 'Puwedeng pamahalaan ng mga guro ang pagbabayad sa kurso.';
 $string['amount'] = 'Halaga';
 $string['anlogin'] = 'Authorize.net: Pangalan na panglog-in';
-$string['anpassword'] = 'Authorize.net: Password';
-$string['anreferer'] = 'Itype dito ang URL referer, kung isinaayos mo ito sa iyong authorize.net account.  Ipapadala nito ang linya na \"Referer: URL\" na nakaembed sa web request.';
+$string['anreferer'] = 'Iteklado dito ang URL referer, kung isinaayos mo ito sa iyong authorize.net account.  Ipapadala nito ang linya na \"Referer: URL\" na nakaembed sa web request.';
 $string['antestmode'] = 'Patakbuhin ang transaksiyon sa mode na pagsubok lamang (walang perang kukunin)';
 $string['antrankey'] = 'Authorize.net: Susi ng transaksiyon';
 $string['authcaptured'] = 'Pinahintulutan/Nacapture';
@@ -115,12 +114,12 @@ $string['pendingordersemail'] = 'Mahal naming admin,
 Mapapasó ang $a->pending transaksiyon maliban na lamang kung tanggapin mo ang bayad sa loob ng  $a->days araw.
 
 Babalang mensahe ito, dahil hindi mo binuhay ang 
-autocapture. Ibig sabihin ay kailangan mong tanggapin o tanggihan ang bayad ng mano-mano.
+scheduled-capture. Ibig sabihin ay kailangan mong tanggapin o tanggihan ang bayad ng mano-mano.
 
 Para matanggap/matanggihan ang nakabimbing bayad tumungo sa:
 $a->url
 
-Para mabuhay ang autocapture, alalaong baga\'y hindi ka na makakatanggap ng mga babalang email, tumungo sa:
+Para mabuhay ang scheduled-capture, alalaong baga\'y hindi ka na makakatanggap ng mga babalang email, tumungo sa:
 $a->enrolurl';
 $string['reason11'] = 'May kaparehong transaksiyon ang ipinasa.';
 $string['reason13'] = 'Ditanggap ang Login ID ng tagalako o di na aktibo ang account.';
@@ -142,12 +141,12 @@ $string['reason54'] = 'Ang pinagbatayang transaksiyon ay hindi umaayon sa mga pa
 $string['reason55'] = 'Ang kabuuan ng credit sa pinagbatayang transaksiyon ay lalabis sa orihinal na halaga ng debit.';
 $string['refunded'] = 'Inirefund';
 $string['returns'] = 'Mga Isinoli';
-$string['reviewday'] = 'Awtomatikong icapture ang credit card maliban na lamang kapag nirebyu ng guro o administrador ang order sa loob ng <b>$a</b> araw.  KAILANGANG BUHAYIN ANG CRON.<br />(0 araw = patayin ang awtocapture = rerebyuhin ito ng guro, admin nang mano-mano.  Ang transaksiyon ay kakanselahin kapag pinatay mo ang awtocapture o kapag hindi mo nirebyu ito sa loob ng 30 araw.)';
+$string['reviewday'] = 'Awtomatikong icapture ang credit card maliban na lamang kapag nirebyu ng guro o administrador ang order sa loob ng <b>$a</b> araw.  KAILANGANG BUHAYIN ANG CRON.<br />(0 araw ay mangangahulugan na patayin ang scheduled-capture, gayundin ay rerebyuhin ito ng guro o admin nang mano-mano.  Ang transaksiyon ay kakanselahin kapag pinatay mo ang scheduled-capture o kapag hindi mo nirebyu ito sa loob ng 30 araw.)';
 $string['reviewnotify'] = 'Rerebyuhin ang kabayaran mo.  Umasa ka na may email na ipapadala sa iyo ang guro mo sa loob ng ilang araw.';
 $string['sendpaymentbutton'] = 'Ipadala ang Bayad';
 $string['settled'] = 'Naayos na';
-$string['settlementdate'] = 'Petsa ng pagaayos';
-$string['subvoidyes'] = 'Ang inirefund na transaksiyon $a->transid ay kakanselahin at ikecrecit ang $a->amount sa iyong account. Talaga bang nais mo itong gawin?';
+$string['settlementdate'] = 'Petsa ng pag-aayos';
+$string['subvoidyes'] = 'Ang inirefund na transaksiyon $a->transid ay kakanselahin at ikecredit ang $a->amount sa iyong account. Talaga bang nais mo itong gawin?';
 $string['tested'] = 'Nasubok';
 $string['testmode'] = '[MODE NA PAGSUBOK]';
 $string['testwarning'] = 'Mukhang gumagana ang Capture/Void/Credit sa mode na pagsubok, pero walang rekord na ginawang bago o isiningit sa database.';

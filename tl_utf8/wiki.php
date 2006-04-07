@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6 development (2006022400)
+      // wiki.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['action'] = '-- Aksiyon --';
@@ -7,7 +7,7 @@ $string['administration'] = 'Administrasyon';
 $string['allowremovepages'] = 'Pahintulutan ang \'pagtanggal ng mga pahina\'';
 $string['allowrevertchanges'] = 'Pahintulutan ang  \'ipanumbalik ang maramihang pagbabago\'';
 $string['allowsetpage'] = 'Pahintulutan ang  \'itakda ang mga watawat ng pahina\'';
-$string['allowstrippages'] = 'Pahintulutan ang \'i-strip ang mga pahina\'';
+$string['allowstrippages'] = 'Pahintulutan ang \'paghubad ng mga pahina\'';
 $string['attachments'] = 'May mga kalakip ang pahinang ito';
 $string['author'] = 'Awtor';
 $string['authorfieldpattern'] = 'Field pattern ng Awtor';
@@ -53,7 +53,7 @@ $string['errornotype'] = 'Error ng watawat: Hindi BIN ni TXT';
 $string['errororreason'] = 'Error o dahilan';
 $string['errorroandwr'] = 'Error ng watawat: Pahina ay Masusulatan at Babasahin lamang';
 $string['errorsize'] = 'Labis ang laki ng pahina sa 64k';
-$string['errversionsave'] = 'Paumanhin, habang ineedit mo ang pahinang ito, may iba nang nagsave ng isang binagong bersiyon.  Bumalik po sa naunang screen at kopyahin ang mga pagbabago mo sa clipboard ng iyong kompyuter, pagkatapos ay isingit muli ito matapos mong maireload ang iyong edit screen.';
+$string['errversionsave'] = 'Paumanhin, habang ineedit mo ang pahinang ito, may iba nang nagsave ng isang binagong bersiyon.  Bumalik po sa naunang iskrin at kopyahin ang mga pagbabago mo sa clipboard ng iyong kompyuter, pagkatapos ay isingit muli ito matapos mong maireload ang iyong edit iskrin.';
 $string['ewikiacceptbinary'] = 'Pahintulutan ang mga binary file';
 $string['ewikiprinttitle'] = 'Ilathala ang pangalan ng wiki sa bawat pahina';
 $string['export'] = 'Iluwas';
@@ -111,11 +111,11 @@ $string['pagenamechoice'] = '- o -';
 $string['pageslinkingto'] = 'Mga pahinang nakalink sa pahinang ito';
 $string['pagesremoved'] = 'Mga pahinang natanggal.';
 $string['pagesreverted'] = 'Mga pagbabagong ipinanumbalik';
-$string['pagesstripped'] = 'Mga pahinang inistrip.';
+$string['pagesstripped'] = 'Mga pahinang hinubad.';
 $string['preview'] = 'Silipin';
 $string['readonly'] = 'Pahina babasahin lamang';
 $string['refs'] = 'Mga sanggunian';
-$string['removenotice'] = 'Tandaan na ang mga unreferenced na pahina lamang ang ililista rito.  At dahil limitadong pagsubok lamang ang ginagawa ng ewiki engine kapag ang pahina ay referenced, maaari nitong malampasan ang ilan sa mga ito.<br />Magkagayonman, kung tatanggalan mo muna ng laman ang isang pahina, malilista rin ito rito.  Gumagawa rin ng iba\'t-ibang uri ng database diagnostic.';
+$string['removenotice'] = 'Tandaan na ang mga di sinangguniang pahina lamang ang ililista rito.  At dahil limitadong pagsubok lamang ang ginagawa ng ewiki engine kapag ang pahina ay sinanggunian, maaari nitong malampasan ang ilan sa mga ito.<br />Magkagayonman, kung tatanggalan mo muna ng laman ang isang pahina, malilista rin ito rito.  Gumagawa rin ng iba\'t-ibang uri ng database diagnostic.';
 $string['removepagecheck'] = 'Talaga bang nais mong burahin ang mga pahinang ito?';
 $string['removepages'] = 'Alisin ang mga pahina';
 $string['removeselectedpages'] = 'Alisin ang mga piniling pahina';
@@ -132,8 +132,8 @@ $string['setpageflags'] = 'Itakda ang mga watawat ng pahina';
 $string['showversions'] = 'Ipakita ang mga bersiyon:';
 $string['smfor'] = 'Sitemap para sa';
 $string['status'] = 'Kalagayan';
-$string['strippagecheck'] = 'Talaga bang nais mong i-strip ang mga lumang bersiyon sa pahinang ito:';
-$string['strippages'] = 'I-strip ang mga pahina';
+$string['strippagecheck'] = 'Talaga bang nais mong hubarin ang mga lumang bersiyon sa pahinang ito:';
+$string['strippages'] = 'Hubarin ang mga pahina';
 $string['studentadminoptions'] = 'Pang-mag-aaral na opsiyon ng admin';
 $string['submit'] = 'Ipása';
 $string['tabattachments'] = 'Mga Kalakip';
