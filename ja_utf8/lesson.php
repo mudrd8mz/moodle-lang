@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.6 development (2006032200)
+      // lesson.php - created with Moodle 1.6 Beta 2 (2006040500)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -71,7 +71,7 @@ $string['displayhighscores'] = 'ハイスコアの表示';
 $string['displayinleftmenu'] = '左メニューに表示しますか?';
 $string['displayleftif'] = '$a が次の評点より高い場合のみ表示:';
 $string['displayleftmenu'] = '左メニューを表示';
-$string['displayofgrade'] = '評価を表示する ( 学生に対してのみ )';
+$string['displayofgrade'] = '評点を表示 ( 学生のみ )';
 $string['displayreview'] = 'レビューボタンを表示';
 $string['displayscorewithessays'] = '自動評定によるあなたの評点は、$a->tempmaxgrade 点中 $a->score 点です。<br />作文問題 $a->essayquestions は評定され、後日あなたの最終評点に追加されます。<br /><br />作文問題を除くあなたの現在の評点は、$a->grade 点中 $a->score 点です。';
 $string['displayscorewithoutessays'] = 'あなたの評点は、 $a->score ( $a->grade 点中 )です。';
