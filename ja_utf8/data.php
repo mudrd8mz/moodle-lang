@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // data.php - created with Moodle 1.6 Beta 2 (2006040500)
 
 
 $string['action'] = '操作';
@@ -112,7 +112,7 @@ $string['norecords'] = 'データベースにエントリがありません。';
 $string['nosingletemplate'] = '単一テンプレートはまだ定義されていません。';
 $string['numberrssarticles'] = 'RSS記事';
 $string['numnotapproved'] = '保留';
-$string['numrecords'] = 'レコード';
+$string['numrecords'] = '$a レコード';
 $string['optionaldescription'] = '短い説明 ( 任意 )';
 $string['optionalfilename'] = 'ファイル名 ( 任意 )';
 $string['pagesize'] = '1ページあたりのエントリ数';
