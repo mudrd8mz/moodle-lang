@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.4.4 (2004083140)
+      // chat.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['beep'] = 'ზუმერი';
@@ -42,6 +42,7 @@ $string['neverdeletemessages'] = 'წერილებს ნურასდრ
 $string['nextsession'] = 'შემდეგი დაგეგმილი სესია.';
 $string['noguests'] = 'სასაუბარი არ არის ღია სტუმრებისთვის.';
 $string['nomessages'] = 'წერილები ჯერ-ჯერობით არ არის.';
+$string['noscheduledsession'] = 'სესია დაგეგმილი არ არის';
 $string['repeatdaily'] = 'ყოველ დღე ამავე დროს.';
 $string['repeatnone'] = 'გამეორებების გარეშე –აჩვენეთ მხოლოდ მინიშნებული დრო.';
 $string['repeattimes'] = 'სესიის გამეორება.';
