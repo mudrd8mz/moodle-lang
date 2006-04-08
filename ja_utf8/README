@@ -1,14 +1,20 @@
 MOODLE JAPANESE TRANSLATION
 ----------------------------------------------------------------------
 STARTED                       : November 21, 2002
-LAST MODIFIED                 : April     8, 2006
+LAST MODIFIED                 : April     9, 2006
 ----------------------------------------------------------------------
 
 Mitsuhiro Yoshida ( http://mitstek.com/ )
- Translating whole ja and ja_utf8 files, translation management.
+ Translating whole ja_utf8 and ja files, translation management.
 
 Timothy Takemoto ( http://eigodaigaku.com/ )
  Facilitator of "Japanese Moodle" ( http://moodle.org/course/view.php?id=14 )
+ Translation brushup
+
+Toshihiro Kita ( http://t-kita.net/ )
+ Facilitator of "Japanese Moodle" ( http://moodle.org/course/view.php?id=14 )
+ Moodle RPM Package ( http://t-kita.net/rpm/moodle/ )
+ /fonts/README2.txt
  Translation brushup
 
 Paul Tsuchido Shew ( http://shew.jp/ )
@@ -33,12 +39,6 @@ Hiroto Kagotani ( http://www.infsys.cne.okayama-u.ac.jp/~kagotani/ )
 Thomas N. Robb ( http://www.kyoto-su.ac.jp/~trobb/ )
  Translation brushup
 
-Toshihiro Kita ( http://t-kita.net/ )
- Facilitator of "Japanese Moodle" ( http://moodle.org/course/view.php?id=14 )
- Moodle RPM Package ( http://t-kita.net/rpm/moodle/ )
- /fonts/README2.txt
- Translation brushup
-
 Takahiro Kagoya ( https://manabi.jin-ai.ac.jp/moodle/ )
  Inventor of QUIZ results block, ranking system
  Translation brushup
@@ -55,6 +55,7 @@ Haruhiko Okumura ( http://oku.edu.mie-u.ac.jp/~okumura/ )
 
 Minoru Akiyama ( http://www.e-Learning-Service.co.jp/ )
  Translation brushup
+
 ----------------------------------------------------------------------
 Any suggestion for Japanese language packs, please do not hesitate
 to post your comments on moodle.org Japanese:
