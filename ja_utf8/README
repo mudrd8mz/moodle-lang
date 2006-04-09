@@ -1,7 +1,7 @@
 MOODLE JAPANESE TRANSLATION
 ----------------------------------------------------------------------
 STARTED                       : November 21, 2002
-LAST MODIFIED                 : April     9, 2006
+LAST MODIFIED                 : April    10, 2006
 ----------------------------------------------------------------------
 
 Mitsuhiro Yoshida ( http://mitstek.com/ )
@@ -19,21 +19,21 @@ Toshihiro Kita ( http://t-kita.net/ )
 
 Paul Tsuchido Shew ( http://shew.jp/ )
  Quiz module GIFT import filter development
- Translation: /lang/ja/help/quiz/formatgift.html
+ Translation: /lang/ja_utf8/help/quiz/formatgift.html
  Translation brushup
 
 Tatsuya Aoyagi
- Translation: /lang/ja/questionnaire.php
- Translation: /lang/ja/help/questionnaire
+ Translation: /lang/ja_utf8/questionnaire.php
+ Translation: /lang/ja_utf8/help/questionnaire
  Translation brushup
  Localization
 
 Masataka Nakaue ( http://ldt.stanford.edu/~mnakauye/ )
- Translation: /lang/ja/book.php
- Translation: /lang/ja/help/book
+ Translation: /lang/ja_utf8/book.php
+ Translation: /lang/ja_utf8/help/book
 
 Hiroto Kagotani ( http://www.infsys.cne.okayama-u.ac.jp/~kagotani/ )
- Translation: /lang/ja/help/*
+ Translation: /lang/ja_utf8/help/*
  Translation brushup
 
 Thomas N. Robb ( http://www.kyoto-su.ac.jp/~trobb/ )
