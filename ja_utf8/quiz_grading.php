@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // quiz_grading.php - created with Moodle 1.6 development (2006032200)
+      // quiz_grading.php - created with Moodle 1.6 Beta 2 (2006041001)
 
 
-$string['essayonly'] = '現在のところ手動評定は、作文問題のみに利用できます。';
+$string['essayonly'] = '下記の問題は手動で評定する必要があります。';
 $string['grading'] = '手動評定';
 
 ?>

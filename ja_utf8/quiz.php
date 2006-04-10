@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 Beta 2 (2006040500)
+      // quiz.php - created with Moodle 1.6 Beta 2 (2006041001)
 
 
 $string['1day'] = '1日';
@@ -164,12 +164,12 @@ $string['errormissingquestion'] = 'エラー: id $a の問題はありません�
 $string['errornotnumbers'] = 'エラー - 答えは数字を使用してください。';
 $string['errorsdetected'] = '$a のエラーが見つかりました';
 $string['essay'] = '作文問題';
-$string['essayquestions'] = '作文問題';
+$string['essayquestions'] = '問題';
 $string['event1'] = '自動保存';
 $string['event2'] = '保存';
 $string['event3'] = '評定';
 $string['event5'] = '確認';
-$string['event6'] = '閉じる&amp;評定';
+$string['event6'] = '閉じる&評定';
 $string['event7'] = '送信';
 $string['event8'] = '閉じる';
 $string['event9'] = '手動評定';
@@ -300,7 +300,7 @@ $string['nocategory'] = 'カテゴリが正しくないか、指定されてい�
 $string['nocommentsyet'] = 'まだコメントはありません。';
 $string['noconnection'] = '現在、この問題を処理できるウェブサービスとの接続がありません。管理者に連絡してください。';
 $string['nodataset'] = '無し - ワイルドカードではありません';
-$string['noessayquestionsfound'] = '作文問題が見つかりませんでした。';
+$string['noessayquestionsfound'] = '手動評定問題が見つかりませんでした。';
 $string['nominal'] = '名義尺度';
 $string['nomoreattempts'] = '解答回数が終了しました。';
 $string['none'] = '無し';
