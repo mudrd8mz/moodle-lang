@@ -1,13 +1,13 @@
 <?php // $Id$ 
 
-$string['adminauthorizeccapture'] = 'Contrôle des commandes & réglages de saisie automatique';
+$string['adminauthorizeccapture'] = 'Contrôle des commandes & réglages de saisie programmée';
 $string['adminauthorizeemail'] = 'Réglages d\'envoi de courriel';
 $string['adminauthorizesettings'] = 'Réglages Authorize.net';
 $string['adminauthorizewide'] = 'Réglages globaux';
 $string['adminavs'] = 'Cochez cette option si vous avez activé Address Verification System (AVS) dans votre compte authorize.net. Lorsque l\'utilisateur remplit le formulaire de paiement, il lui sera alors demandé de saisir les champs de l\'adresse, par exemple la rue, le code postal, le pays, etc.';
-$string['admincronsetup'] = 'Le script de maintenance cron.php n\'a pas été lancé depuis plus de 24 heures.<br />Ce script doit être activé si vous voulez utiliser la saisie automatique.<br />Veuillez régler le cron ou décocher la variable an_review.<br />Si vous désactivez la saisie automatique, les transactions seront annulées à moins que vous ne les approuviez dans les 30 jours.<br />Cochez la variable an_review et inscrivez «&nbsp;0&nbsp;» dans le champ de la variable an_capture_day<br />si vous voulez accepter ou refuser manuellement les paiements durant 30 jours.';
-$string['adminhelpcapture'] = 'Je ne veux pas seulement accepter ou refuser manuellement les paiements, mais aussi utiliser la saisie automatique pour éviter l\'annullation des paiements. Comment faire&nbsp;?<ul><li>Régler le cron&nbsp;;</li><li>Cocher la variable an_review&nbsp;;</li><li>Tapez un nombre entre 1 et 29 dans le champ an_capture_day. Les données de la carte de crédit seront saisies et l\'utilisateur sera inscrit, sauf si vous spécifiez le contraire avant le nombre de jours de an_capture_day.</li></ul>';
-$string['adminhelpcapturetitle'] = 'Jour de saisie automatique';
+$string['admincronsetup'] = 'Le script de maintenance cron.php n\'a pas été lancé depuis plus de 24 heures.<br />Ce script doit être activé si vous voulez utiliser la saisie programmée.<br />Veuillez régler le cron ou décocher la variable an_review.<br />Si vous désactivez la saisie programmée, les transactions seront annulées à moins que vous ne les approuviez dans les 30 jours.<br />Cochez la variable an_review et inscrivez «&nbsp;0&nbsp;» dans le champ de la variable an_capture_day<br />si vous voulez accepter ou refuser manuellement les paiements durant 30 jours.';
+$string['adminhelpcapture'] = 'Je ne veux pas seulement accepter ou refuser manuellement les paiements, mais aussi utiliser la saisie programmée pour éviter l\'annullation des paiements. Comment faire&nbsp;?<ul><li>Régler le cron&nbsp;;</li><li>Cocher la variable an_review&nbsp;;</li><li>Tapez un nombre entre 1 et 29 dans le champ an_capture_day. Les données de la carte de crédit seront saisies et l\'utilisateur sera inscrit, sauf si vous spécifiez le contraire avant le nombre de jours de an_capture_day.</li></ul>';
+$string['adminhelpcapturetitle'] = 'Jour de saisie programmée';
 $string['adminhelpreview'] = 'Comment accepter ou refuser manuellement les paiements&nbsp;?<ul><li>Cochez la variable an_review.</li><li>Tapez 0 dans le champ de la variable an_capture_day.</li></ul>Comment faire pour que les étudiants soient inscrits aussitôt après qu\'ils ont tapé leur numéro de carte de crédit&nbsp;?<ul><li>Décochez la variable an_review.</li></ul>';
 $string['adminemailexpired'] = 'Envoyer par courriel aux administrateurs <b>$a</b> jours avant leur échéance le nombre de transaction dont le statut est «&nbsp;Autorisé / En attente de saisie&nbsp;» (0 = pas d\'envoi, par défaut = 2, max = 5).<br />Ce réglage est utile si vous avez choisi la saisie manuelle (an_review = activé, an_capture_day = 0).';
 $string['adminneworder'] = 'Cher administrateur,
@@ -20,9 +20,9 @@ Vous avez reçu un nouvel ordre en attente :
     Cours : $a->course
     Montant : $a->amount
 
-    SAISE AUTOMATIQUE ACTIVE ? $a->acstatus
+    SAISE PROGRAMÉE ACTIVE ? $a->acstatus
 
-Si la saisie automatique est actovie, les infos de carte de crédit seront
+Si la saisie programmée est actovie, les infos de carte de crédit seront
 saisies le $a->captureon et l\'étudiant sera inscrit au cours. Dans le cas
 contraire, ces données arriveront à échéance le $a->expireon et ne pourront
 plus être saisies après cette date.
@@ -32,7 +32,7 @@ de l\'étudiant en cliquant sur le lien ci-dessous.
 
 $a->url';
 $string['adminnewordersubject'] = '$a->course : nouvel ordre en attente de traitement ($a->orderid)';
-$string['adminpendingorders'] = 'Vous avez désactivé la saisie automatique.<br />Un total de $a->count transactions dont le statut est AN_STATUS_AUTH seront annulée, à moins que vous ne les approuviez.<br />Pour accepter ou refuser des paiements, visitez la page <a href=\'$a->url\'>Gestion des paiements</a>.';
+$string['adminpendingorders'] = 'Vous avez désactivé la saisie programmée.<br />Un total de $a->count transactions dont le statut est AN_STATUS_AUTH seront annulée, à moins que vous ne les approuviez.<br />Pour accepter ou refuser des paiements, visitez la page <a href=\'$a->url\'>Gestion des paiements</a>.';
 $string['adminhelpreviewtitle'] = 'Contrôle de commande';
 $string['adminreview'] = 'Contrôle de la commande avant envoi des données de la carte de crédit.';
 $string['adminteachermanagepay'] = 'Les enseignants peuvent gérer les paiements du cours.';
@@ -99,14 +99,14 @@ $a->pending transactions arriveront à échéance à moins que vous
 n\'acceptiez le paiement dans les $a->days jours.
 
 Ceci est un message d\'avertissement, car vous n\'avez pas activé
-la saisie automatique. Vous devez donc accepter ou refuser les paiements
+la saisie programmée. Vous devez donc accepter ou refuser les paiements
 manuellement.
   	 
 Pour accpeter ou refuser les paiements en attente de traitement, veuillez
 visiter la page
 $a->url
   	 
-Pour activer la saisie automatique, afin que vous ne receviez plus de tels
+Pour activer la saisie programmée, afin que vous ne receviez plus de tels
 messages d\avertissement, veuillez visiter la page
 $a->enrolurl';
 $string['reason11'] = 'Un doublon de transaction a été transmis.';
@@ -129,7 +129,7 @@ $string['reason55'] = 'La somme de tous les crédits concernant cette transactio
 $string['refund'] = 'Remboursement';
 $string['refunded'] = 'Remboursé';
 $string['returns'] = 'Retour';
-$string['reviewday'] = 'Saisir les données de la carte de crédit automatiquement, à moins qu\'un enseignant ou un administrateur ne contrôle la commande dans les <b>$a</b> jours. LE CRON DOIT ÊTRE ACTIF.<br />(0 jour signifie que la saisie automatique sera désactivée. Un contrôle par un enseignant ou administrateur est alors nécessaire. Dans ce cas, la transaction sera annulée si elle n\'est pas contrôlée dans les 30 jours)';
+$string['reviewday'] = 'Saisir les données de la carte de crédit automatiquement, à moins qu\'un enseignant ou un administrateur ne contrôle la commande dans les <b>$a</b> jours. LE CRON DOIT ÊTRE ACTIF.<br />(0 jour signifie que la saisie programmée sera désactivée. Un contrôle par un enseignant ou administrateur est alors nécessaire. Dans ce cas, la transaction sera annulée si elle n\'est pas contrôlée dans les 30 jours)';
 $string['reviewnotify'] = 'Votre paiement va être contrôlé. Votre enseignant vous contactera par courriel dans quelques jours.';
 $string['sendpaymentbutton'] = 'Envoyer paiement';
 $string['settled'] = 'Réglé';
