@@ -1,6 +1,6 @@
 <?php // $Id$
 
 $string['grading'] = 'Notation manuelle';
-$string['essayonly'] = 'La notation manuelle n\'est actuellement possible que pour les questions de composition';
+$string['essayonly'] = 'Les questions suivantes doivent être notées manuellement';
 
 ?>
