@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 Beta 2 (2006040500)
+      // data.php - created with Moodle 1.6 Beta 2 (2006041001)
 
 
 $string['action'] = '操作';
@@ -137,6 +137,7 @@ $string['requireapproval'] = '承認が必要ですか?';
 $string['requiredentries'] = '必須エントリ数';
 $string['requiredentriestoview'] = '閲覧前に必要な入力エントリ数';
 $string['resettemplate'] = 'テンプレートのリセット';
+$string['resizingimages'] = 'イメージサムネイルのリサイズ...';
 $string['rssglobaldisabled'] = '使用不可、サイト詳細設定をご覧ください。';
 $string['rsshowmany'] = '( 表示する最新のエントリ数、ゼロでRSSを無効 )';
 $string['rsstemplate'] = 'RSSテンプレート';
