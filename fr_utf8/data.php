@@ -135,6 +135,7 @@ $string['requireapproval'] = 'Nécessite une approbation&nbsp;?';
 $string['requiredentries'] = 'Fiches requises';
 $string['requiredentriestoview'] = 'Fiches requises avant consultation';
 $string['resettemplate'] = 'Réinitialiser le modèle';
+$string['resizingimages'] = 'Génération des vignettes...';
 $string['rssglobaldisabled'] = 'Désactivé. Voir les paramètres de configuration du Moodle.';
 $string['rsshowmany'] = '(nombre de fiches récentes à afficher, 0 pour désactiver les RSS)';
 $string['rsstemplate'] = 'Modèle RSS';
