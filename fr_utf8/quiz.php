@@ -84,6 +84,7 @@ $string['close'] = 'Fermer la prévisualisation';
 $string['closepreview'] = 'Fermer la prévisualisation';
 $string['closereview'] = 'fermer la relecture';
 $string['comment'] = 'Commentaire';
+$string['comments'] = 'Commentaires';
 $string['commentorgrade'] = 'Commenter ou modifier la note';
 $string['completedon'] = 'Terminé le';
 $string['confirmclose'] = 'Vous êtes sur le point d\'arrêter cette tentative. Une fois la tentative arrêtée, vous n\'aurez plus la possibilité de modifier vos réponses.';
