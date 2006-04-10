@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 2 (2006040500)
+      // moodle.php - created with Moodle 1.6 Beta 2 (2006041001)
 
 
 $string['action'] = '操作';
@@ -458,7 +458,7 @@ $string['error'] = 'エラー';
 $string['errortoomanylogins'] = 'ログイン失敗回数の上限に達しました。ブラウザを再起動してください。';
 $string['errorwhenconfirming'] = 'エラーが発生したため、アカウントの認証は行われませんでした。メール本文のリンクをクリックして、このページにたどり着いた場合は、リンクが記されている行が崩れていないか確認してください。正しくリンクを動作させるためにコピー＆ペーストを使用してください。';
 $string['everybody'] = '全員';
-$string['executeat'] = '処理開始時刻';
+$string['executeat'] = 'バックアップ処理開始時刻';
 $string['existing'] = '既存';
 $string['existingadmins'] = '管理者一覧';
 $string['existingcourse'] = '既存のコース';
