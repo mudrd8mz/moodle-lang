@@ -213,6 +213,7 @@ $string['gradingdetailsadjustment'] = 'Tenant compte des pénalités précédent
 $string['gradingdetailspenalty'] = 'Cet envoi a reçu une pénalité de $a. ';
 $string['gradingdetailszeropenalty'] = 'Vous n\'avez pas été pénalisé par cet envoi. ';
 $string['guestsno'] = 'Désolé, les invités n\'ont pas accès aux tests';
+$string['history'] = 'Historique des réponses&nbsp;: ';
 $string['hotpot'] = 'Format Hot Potatoes';
 $string['illegalformulasyntax'] = 'Syntaxe de la formule incorrecte (l\'erreur commence à « $a »)';
 $string['imagedisplay'] = 'Image à afficher';
