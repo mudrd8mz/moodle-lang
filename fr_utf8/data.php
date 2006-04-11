@@ -19,6 +19,7 @@ $string['bynameondate'] = 'par $a->name, le $a->date';
 $string['cancel'] = 'Annuler';
 $string['checkbox'] = 'Case à cocher';
 $string['commentdeleted'] = 'Commentaire supprimé';
+$string['commentempty'] = 'Le commentaire était vide';
 $string['comments'] = 'Commentaires';
 $string['commentsaved'] = 'Commentaire enregistré';
 $string['commentsn'] = '$a commentaires';
