@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 Beta 2 (2006041001)
+      // data.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['action'] = '操作';
@@ -21,12 +21,13 @@ $string['bynameondate'] = '$a->date - $a->name の投稿';
 $string['cancel'] = 'キャンセル';
 $string['checkbox'] = 'チェックボックス';
 $string['commentdeleted'] = 'コメントが削除されました。';
+$string['commentempty'] = 'コメントが空です。';
 $string['comments'] = 'コメント';
 $string['commentsaved'] = 'コメントが保存されました。';
 $string['commentsn'] = 'コメント $a 件';
 $string['configenablerssfeeds'] = 'このスイッチはすべてのデータベースに関するRSSフィードを有効にします。あなたは更に各データベースのRSSフィード設定を手動で行う必要があります。';
 $string['confirmdeletefield'] = 'あなたはこのフィールドを削除しようとしています。よろしいですか?';
-$string['confirmdeleterecord'] = '本当にこのレコードを削除してもよろしいですか?';
+$string['confirmdeleterecord'] = '本当にこのエントリを削除してもよろしいですか?';
 $string['csstemplate'] = 'CSSテンプレート';
 $string['csvfile'] = 'CSVファイル:';
 $string['csvimport'] = 'CSVファイルインポート';
@@ -45,6 +46,7 @@ $string['editcomment'] = 'コメントの編集';
 $string['editentry'] = 'エントリの編集';
 $string['emptyadd'] = '追加用テンプレートが空です。デフォルトフォームを生成しています ...';
 $string['emptyaddform'] = 'あなたはどのフィールドにも入力していません!';
+$string['entries'] = 'エントリ';
 $string['entrysaved'] = 'エントリが保存されました。';
 $string['errormustbeteacher'] = 'このページは教師のみ使用できます!';
 $string['example'] = 'データベースモジュール例';
@@ -112,7 +114,7 @@ $string['norecords'] = 'データベースにエントリがありません。';
 $string['nosingletemplate'] = '単一テンプレートはまだ定義されていません。';
 $string['numberrssarticles'] = 'RSS記事';
 $string['numnotapproved'] = '保留';
-$string['numrecords'] = 'レコード $a 件';
+$string['numrecords'] = 'エントリ $a 件';
 $string['optionaldescription'] = '短い説明 ( 任意 )';
 $string['optionalfilename'] = 'ファイル名 ( 任意 )';
 $string['pagesize'] = '1ページあたりのエントリ数';
@@ -129,10 +131,10 @@ $string['ratingpublicnot'] = '$a は自分の評価のみ閲覧できる';
 $string['ratings'] = '評価';
 $string['ratingssaved'] = '評価が保存されました。';
 $string['ratingsuse'] = '評価を使用';
-$string['recordapproved'] = 'レコードが承認されました。';
-$string['recorddeleted'] = 'レコードが削除されました。';
-$string['recordsnotsaved'] = 'レコードは保存されませんでした。アップロードファイルのフォーマットを確認してください。';
-$string['recordssaved'] = 'レコードが保存されました。';
+$string['recordapproved'] = 'エントリが承認されました。';
+$string['recorddeleted'] = 'エントリが削除されました。';
+$string['recordsnotsaved'] = 'エントリは保存されませんでした。アップロードファイルのフォーマットを確認してください。';
+$string['recordssaved'] = 'エントリが保存されました。';
 $string['requireapproval'] = '承認が必要ですか?';
 $string['requiredentries'] = '必須エントリ数';
 $string['requiredentriestoview'] = '閲覧前に必要な入力エントリ数';
@@ -157,7 +159,7 @@ $string['textarea'] = 'テキストエリア';
 $string['type'] = 'フィールドタイプ';
 $string['updatefield'] = 'フィールドを更新します。';
 $string['uploadfile'] = 'ファイルのアップロード';
-$string['uploadrecords'] = 'ファイルからレコードをアップロード';
+$string['uploadrecords'] = 'ファイルからエントリをアップロード';
 $string['url'] = 'URL';
 $string['viewfromdate'] = '表示開始日時';
 $string['viewtodate'] = '表示終了日時';
