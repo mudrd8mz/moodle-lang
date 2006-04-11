@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // data.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['action'] = 'Eylem';
@@ -112,7 +112,7 @@ $string['norecords'] = 'Veritabanında girdi yok';
 $string['nosingletemplate'] = 'Tek şablon henüz tanımlanmadı';
 $string['numberrssarticles'] = 'RSS makaleleri';
 $string['numnotapproved'] = 'Bekliyor';
-$string['numrecords'] = 'Kayıtlar';
+$string['numrecords'] = '$a kayıt';
 $string['optionaldescription'] = 'Kısa açıklama (isteğe bağlı)';
 $string['optionalfilename'] = 'Dosya adı (isteğe bağlı)';
 $string['pagesize'] = 'Her sayfadaki kayıt';
@@ -137,6 +137,7 @@ $string['requireapproval'] = 'Onay gerekli mi?';
 $string['requiredentries'] = 'Gerekli girdiler';
 $string['requiredentriestoview'] = 'Gözatmadan önce girdiler gerekli';
 $string['resettemplate'] = 'Şablonu temizle';
+$string['resizingimages'] = 'Tırnak resimler tekrar boyutlandırılıyor...';
 $string['rssglobaldisabled'] = 'Etkin değil. Site yapılandırma değişkenlerine bakın.';
 $string['rsshowmany'] = '(gösterilecek son kayıtların sayısı, RSS iptali için 0)';
 $string['rsstemplate'] = 'RSS şablonu';

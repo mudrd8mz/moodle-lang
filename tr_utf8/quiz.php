@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2006032800)
+      // quiz.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['1day'] = '1 Gün';
@@ -161,7 +161,7 @@ $string['errormissingquestion'] = 'Hata: Sistem bu id $a ile hataya sebep oldu.'
 $string['errornotnumbers'] = 'Hata - cevaplar sayısal olmalı';
 $string['errorsdetected'] = '$a hata algılandı';
 $string['essay'] = 'Yazılı';
-$string['essayquestions'] = 'Yazılı Soruları';
+$string['essayquestions'] = 'Sorular';
 $string['event1'] = 'Otomatik kaydet';
 $string['event2'] = 'Kaydet';
 $string['event3'] = 'Not';
@@ -213,6 +213,7 @@ $string['gradingdetailsadjustment'] = 'Önceki cezalarla birlikte <strong>$a->cu
 $string['gradingdetailspenalty'] = 'Bu gönderi $a cezasını gerektirir.';
 $string['gradingdetailszeropenalty'] = 'Bu gönderiden ceza almadınız.';
 $string['guestsno'] = 'Konuklar sınavları göremez ve uygulayamazlar';
+$string['history'] = 'Yanıt Geçmişi:';
 $string['hotpot'] = 'Hot Potatoes biçimi';
 $string['illegalformulasyntax'] = '$a ile başlayan kuraldışı formul';
 $string['imagedisplay'] = 'Gösterilecek resim';
@@ -260,6 +261,7 @@ $string['min'] = 'Minimum';
 $string['minutes'] = 'Dakika';
 $string['missinganswer'] = '$a. satırdaki :Lx, :Rx ifadeleri için çok az : CEVAP. En az iki cevap belirtmelisiniz. ';
 $string['missingcorrectanswer'] = 'Doğru cevap belirtilmeli';
+$string['missingformula'] = 'Hatalı formül';
 $string['missingitemtypename'] = 'Hatalı ad';
 $string['missingname'] = 'Eksik soru adı';
 $string['missingquestion'] = '$a. satırdan sonra eksik soru etiketi ';
@@ -287,7 +289,7 @@ $string['nocategory'] = 'Hatalı veya kategori belirtilmedi';
 $string['nocommentsyet'] = 'Henüz yorum yok.';
 $string['noconnection'] = 'Bu soruyu işleyebilecek bir web servisi bağlantısı şu anda yok. Lütfen yöneticinizle iletişim kurun.';
 $string['nodataset'] = 'hiçbirşey - bu bir joker karakter değil';
-$string['noessayquestionsfound'] = 'Yazılı sorusu bulunamadı';
+$string['noessayquestionsfound'] = 'Elle notlandırılan soru bulunamadı';
 $string['nomoreattempts'] = 'Başka uygulamaya izin verilmemiştir';
 $string['none'] = 'Hiçbiri';
 $string['nopossibledatasets'] = 'Veri kümesi yok';

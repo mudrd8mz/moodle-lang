@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 development (2006031000)
+      // admin.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['adminseesallevents'] = 'Yöneticiler bütün olayları görür';
@@ -146,6 +146,7 @@ $string['pathconvert'] = '<i>convert</i> binari yolu';
 $string['pathdvips'] = '<i>dvips</i> binari yolu';
 $string['pathlatex'] = '<i>latex</i> binari yolu';
 $string['pleaseregister'] = 'Bu butonu silmek için lütfen kaydolun';
+$string['releasenoteslink'] = 'Moodle\'ın bu sürümü hakkında bilgi için lütfen çevrimiçi <a target=\"_new\" href=\"$a\">Sürüm Notlarına</a> bakınız';
 $string['renameerrors'] = 'Yeniden adlandırmada hata';
 $string['sitelangchanged'] = 'Site dili ayarları başarıyla değiştirildi';
 $string['sitemaintenance'] = 'Bu siteye şu anda bakım yapılıyor ve şimdilik erişilemez';
