@@ -43,6 +43,7 @@ $string['editcomment'] = 'Modifier le commentaire';
 $string['editentry'] = 'Modifier la fiche';
 $string['emptyadd'] = 'Le modèle d\'ajout est vide. Génération d\'un formulaire par défaut...';
 $string['emptyaddform'] = 'Vous n\'avez rempli aucun champ&nbsp;!';
+$string['entries'] = 'Fiches';
 $string['entrysaved'] = 'Votre fiche a été enregistrée';
 $string['errormustbeteacher'] = 'Vous devez être enseignant pour afficher cette page&nbsp;!';
 $string['example'] = 'Exemple de module Base de données';
