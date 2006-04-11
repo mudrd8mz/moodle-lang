@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // quiz.php - created with Moodle 1.6 Beta 2 (2006040500)
 
 
 $string['1day'] = 'Un dia';
@@ -85,6 +85,8 @@ $string['choosefile'] = 'Tria un fitxer';
 $string['close'] = 'Tanca finestra';
 $string['closepreview'] = 'Tanca visualització prèvia';
 $string['closereview'] = 'Tanca revisió';
+$string['comment'] = 'Comentari';
+$string['commentorgrade'] = 'Fes un comentari o canvia la qualificació';
 $string['comments'] = 'Comentaris';
 $string['completedon'] = 'Completat el';
 $string['confirmclose'] = 'Esteu a punt de tancar aquest intent. Quan el tanqueu ja no podreu canviar les vostres respostes.';
@@ -166,9 +168,10 @@ $string['event1'] = 'Desa automàticament';
 $string['event2'] = 'Desa';
 $string['event3'] = 'Qualifica';
 $string['event5'] = 'Valida';
-$string['event6'] = 'Tanca';
+$string['event6'] = 'Tanca &amp; qualifica';
 $string['event7'] = 'Tramet';
 $string['event8'] = 'Tanca';
+$string['event9'] = 'Qualifica manualment';
 $string['examview'] = 'Examview';
 $string['existingcategory1'] = 'un literal d\'un conjunt existent de literals que també són utilitzats en altres preguntes d\'aquesta categoria';
 $string['existingcategory2'] = 'un fitxer d\'un conjunt existent de fitxers que també són utilitzats en altres preguntes d\'aquesta categoria';
@@ -215,6 +218,7 @@ $string['gradingdetailsadjustment'] = 'Amb les penalitzacions prèvies això dó
 $string['gradingdetailspenalty'] = 'Aquesta tramesa ha rebut una penalització de $a.';
 $string['gradingdetailszeropenalty'] = 'Aquesta tramesa no ha estat penalitzada.';
 $string['guestsno'] = 'Els visitants no poden contestar ni veure els qüestionaris';
+$string['history'] = 'Historial de respostes';
 $string['hotpot'] = 'Format Hot Potatoes';
 $string['illegalformulasyntax'] = 'Sintaxi il·legal en la fòrmula començant ';
 $string['imagedisplay'] = 'Imatge que es visualitzarà';
@@ -262,6 +266,7 @@ $string['min'] = 'Mín.';
 $string['minutes'] = 'minuts';
 $string['missinganswer'] = 'Massa poques declaracions :ANSWER, :Lx, :Rx per a la línia $a de la pregunta. Heu de definir almenys dues respostes possibles.';
 $string['missingcorrectanswer'] = 'S\'ha d\'especificar la resposta correcta ';
+$string['missingformula'] = 'Falta la fórmula';
 $string['missingitemtypename'] = 'Falta el nom';
 $string['missingname'] = 'Falta el títol de la pregunta';
 $string['missingquestion'] = 'Falta l\'etiqueta de la pregunta després de la línia $a';

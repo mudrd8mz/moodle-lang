@@ -1,44 +1,24 @@
-
-
 <p align="center"><b>Respostes incrustades (format Cloze)</b></p>
 
+<p>Aquest tipus de pregunta, molt flexible, és similar al format Cloze.</p>
 
+<p>Les preguntes consisteixen en un text (en format Moodle) que inclou les diferents respostes incrustades dins d'ell. Poden ser preguntes d'opcions múltiples, de resposta breu o numèriques.</p>
 
-<p>Aquest tipus de pregunta tan flexible &eacute;s semblant al conegut format 
+<p>De moment no hi ha una interfície gràfica per a crear aquestes preguntes, així que heu d'especificar el format de les preguntes mitjançant un camp de text o important-les d'un fitxer extern.</p>
 
-  Cloze.</p>
-
-<p>Les preguntes consisteixen en un passatge d'un text, en format de Moodle, que 
-
-  t&eacute; diferents respostes incrustades, incloent-ne dels tipus elecci&oacute; 
-
-  m&uacute;ltiple, resposta curta o resposta num&egrave;rica.</p>
-
-<p>De moment no hi ha una interf&iacute;cie gr&agrave;fica per crear aquestes 
-
-  preguntes de forma que haureu d'especificar el format de pregunta usant un quadre 
-
-  de text o important-lo d'un fitxer extern.</p>
-
-<p>Aquest &eacute;s un exemple de text d'entrada que especifica una pregunta d'aquest 
-
-  tipus: </p>
+<p>Aquí teniu un exemple d'un text que especifica una pregunta d'aquest tipus: </p>
 
 <form action="">
 
 <center>
 
-    <textarea rows="15" cols="60" wrap="virtual">Aquesta pregunta consisteix en un text amb una resposta incrustada just aquí {1:MULTICHOICE:Resposta incorrecta#Retroalimentació per resposta incorrecta~Una altra resposta incorrecta#Retroalimentació per una altra resposta incorrecta~=Resposta correcta#Retroalimentació per resposta correcta~%50% de la resposta que dona la meitat de punts#Retroalimentació per resposta meitat de punts} i ara haureu d'enfrontar-vos a aquesta resposta curta {1:SHORTANSWER:Resposta incorrecta#Retroalimentació per resposta incorrecta~=Resposta correcta#Retroalimentació per resposta correcta~%50%de la resposta que dona la meitat de punts#Retroalimentació per resposta meitat de punts} i per acabar un número decimal {2:NUMERICAL:=23.8:0.1#Retroalimentació per resposta correcta 23.8~%50%N/A#Retroalimentació per la meitat de la resposta en la regió propera a la resposta correcta}.
-
-
+    <textarea rows="15" cols="60" wrap="virtual">Aquesta pregunta consisteix en un text amb una resposta incrustada just aquí {1:MULTICHOICE:Resposta incorrecta#Retroacció per a resposta incorrecta~Una altra resposta incorrecta#Retroacció per a una altra resposta incorrecta~=Resposta correcta#Retroacció per a resposta correcta~%50% de la resposta que dóna la meitat de punts#Retroacció per a resposta meitat de punts} i ara haureu d'enfrontar-vos a aquesta resposta breu {1:SHORTANSWER:Resposta incorrecta#Retroacció per a resposta incorrecta~=Resposta correcta#Retroacció per a resposta correcta~%50%de la resposta que dóna la meitat de punts#Retroacció per a resposta meitat de punts} i per acabar un número decimal {2:NUMERICAL:=23.8:0.1#Retroacció per a resposta correcta 23.8~%50%N/A#Retroacció per la meitat de la resposta en la zona propera a la resposta correcta}.
 
 Fixeu-vos que les adreces com ara www.moodle.org i les emoticones :-) funcionen com de costum:
 
  a) T'agrada? {:MULTICHOICE:=Sí#Correcte~No#Em sembla que pensem diferent}
 
  b) Quina nota li posaries? {3:NUMERICAL:=3:2}
-
-
 
 Bona sort!
 
@@ -48,13 +28,7 @@ Bona sort!
 
 </form>
 
-
-
-<p>Aquest exemple apareixeria als estudiants d'aquesta manera:</p>
-
-
-
-
+<p>Aquest exemple es mostraria als estudiants d'aquesta manera:</p>
 
 <form action="">
 
@@ -70,7 +44,7 @@ Bona sort!
 
               <p>Aquesta pregunta consisteix en un text amb una resposta incrustada 
 
-                just aqu&iacute; 
+                just aquí; 
 
                 <select   name="q4ma1" >
 		  <option>&nbsp;</option>
@@ -81,15 +55,15 @@ Bona sort!
 
                   <option value="6" >Resposta correcta</option>
 
-                  <option value="7" >Resposta que dona la meitat de punts</option>
+                  <option value="7" >Resposta que dóna la meitat de punts</option>
 
                 </select>
 
-                i ara haureu d'enfrontar-vos a aquesta resposta curta 
+                i ara haureu d'enfrontar-vos a aquesta resposta breu 
 
                 <input   name="q4ma2"  value="" type="TEXT" size="8"/>
 
-                i per acabar un n&uacute;mero decimal 
+                i per acabar un número decimal 
 
                 <input   name="q4ma3"  value="" type="TEXT" size="8"/>
 
@@ -130,10 +104,3 @@ Bona sort!
             </td></tr></table></td></tr></table>
 
 </form>
-
-
-
-<br />
-
-
-

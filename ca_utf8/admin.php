@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // admin.php - created with Moodle 1.6 Beta 2 (2006040500)
 
 
 $string['adminseesallevents'] = 'Els administradors veuen tots els esdeveniments';
@@ -202,6 +202,12 @@ $string['order3'] = 'Tercer';
 $string['pathconvert'] = 'Camí del binari del <i>convert</i>';
 $string['pathdvips'] = 'Camí del binari del <i>dvips</i>';
 $string['pathlatex'] = 'Camí del binari del <i>latex</i>';
+$string['pathtopgdump'] = 'Camí de pg_dump';
+$string['pathtopgdumpdesc'] = 'Només cal definir aquest paràmetre en cas que tingueu diferents pg_dump en el vostre sistema (per exemple si teniu instal·lades diferents versions de postgresql)';
+$string['pathtopgdumpinvalid'] = 'El camí de pg_dump no és vàlid. El fitxer no es troba en aquest camí o no és executable.';
+$string['pathtopsql'] = 'Camí de psql';
+$string['pathtopsqldesc'] = 'Només cal definir aquest paràmetre en cas que tingueu diferents psql en el vostre sistema (per exemple si teniu instal·lades diferents versions de postgresql)';
+$string['pathtopsqlinvalid'] = 'El camí de psql no és vàlid. El fitxer no es troba en aquest camí o no és executable.';
 $string['pgcluster'] = 'Grup PostgreSQL';
 $string['pgclusterdescription'] = '<pre>Paràmetre de grup/versió PostgreSQL
 per a operacions de línia de comandament.
@@ -209,6 +215,7 @@ Si només teniu un postgresql en el vostre
 sistema o no esteu segur de què significa
 això, deixeu el paràmetre en blanc.</pre>';
 $string['pleaseregister'] = 'Registreu si us plau el vostre lloc per eliminar aquest botó';
+$string['releasenoteslink'] = 'Consulteu la informació sobre aquesta versió de Moodle en les <a target=\"_new\" href=\"$a\">Notes de llançament</a>';
 $string['remotelangnotavailable'] = 'Moodle no s\'ha pogut connectar a download.moodle.org i no ha pogut fer la instal·lació automàtica del paquet d\'idioma. Baixeu el fitxer o fitxers zip de la llista següent, copieu-los al directori $a i descomprimiu-los manualment.';
 $string['renameerrors'] = 'S\'han produït errors en els canvis de nom';
 $string['sitelangchanged'] = 'S\'ha canviat amb èxit el paràmetre d\'idioma del lloc';

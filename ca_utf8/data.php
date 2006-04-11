@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // data.php - created with Moodle 1.6 Beta 2 (2006040500)
 
 
 $string['action'] = 'Acció';
@@ -23,6 +23,7 @@ $string['checkbox'] = 'Quadre(s) de verificació';
 $string['commentdeleted'] = 'S\'ha suprimit el comentari.';
 $string['comments'] = 'Permet comentaris';
 $string['commentsaved'] = 'S\'ha desat el comentari';
+$string['commentsn'] = '$a comentaris';
 $string['configenablerssfeeds'] = 'Aquest commutador habilita la possibilitat d\'alimentacions RSS de les bases de dades. Però cal activar manualment les alimentacions en els paràmetres de cada base de dades.';
 $string['confirmdeletefield'] = 'Segur que voleu suprimir aquest camp?';
 $string['confirmdeleterecord'] = 'Segur que voleu suprimir aquest registre?';
@@ -140,6 +141,8 @@ $string['rssglobaldisabled'] = 'Inhabilitat. Vegeu les variables de configuraci�
 $string['rsshowmany'] = '(número d\'entrades recents per mostrar; 0 per inhabilitar el RSS)';
 $string['rsstemplate'] = 'Plantilla RSS';
 $string['save'] = 'Desa';
+$string['saveandadd'] = 'Desa i afegeix-ne un altre';
+$string['saveandview'] = 'Desa i visualitza';
 $string['savesettings'] = 'Desa els paràmetres';
 $string['savetemplate'] = 'Desa plantilla';
 $string['sendinratings'] = 'Envia les meves darreres valoracions';
