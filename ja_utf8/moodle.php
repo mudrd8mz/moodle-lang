@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 2 (2006041001)
+      // moodle.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['action'] = '操作';
@@ -207,6 +207,7 @@ $string['convertingwikitomarkdown'] = 'MarkdownのWikiへの変換';
 $string['cookiesenabled'] = ' ブラウザのクッキー設定を有効にしてください。 ';
 $string['cookiesnotenabled'] = 'あなたのブラウザーでは、クッキーの設定が有効にされていません。';
 $string['copy'] = 'コピー';
+$string['copyasnoun'] = 'コピー';
 $string['copyingcoursefiles'] = 'コースファイルの複写';
 $string['copyinguserfiles'] = 'ユーザファイルの複写';
 $string['copyingzipfile'] = 'ZIPファイルの複写';
