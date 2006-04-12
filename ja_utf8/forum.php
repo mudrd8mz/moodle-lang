@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6 development (2006032200)
+      // forum.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加';
@@ -8,7 +8,7 @@ $string['addanewtopic'] = 'トピックの追加';
 $string['advancedsearch'] = '検索オプション';
 $string['allforums'] = 'すべてのフォーラム';
 $string['allowchoice'] = '選択できるようにする';
-$string['allowdiscussions'] = '$a はこのフォーラムに投稿可能ですか?';
+$string['allowdiscussions'] = '$a はこのフォーラムに投稿できますか?';
 $string['allowratings'] = '投稿を評価可能にしますか?';
 $string['allowsdiscussions'] = 'このフォーラムでは1人1件のトピックを開始することができます。';
 $string['allsubscribe'] = 'すべてのフォーラムをメール購読する';
@@ -61,7 +61,7 @@ $string['eachuserforum'] = '各人が1件のディスカッションを投稿';
 $string['edit'] = '編集';
 $string['editedby'] = '編集 $a->name - $a->date';
 $string['editing'] = '編集';
-$string['emptymessage'] = '投稿に異常があります。空白のままか添付ファイルのサイズが制限を越えています。変更は保存されませんでした。';
+$string['emptymessage'] = '投稿に異常があります。投稿が空白のままか、添付ファイルのサイズが制限を越えています。変更は保存されませんでした。';
 $string['everyonecanchoose'] = 'このフォーラムはメール購読するかどうか選択できます。';
 $string['everyoneissubscribed'] = 'このフォーラムはメール購読が強制されています。';
 $string['existingsubscribers'] = 'メール購読ユーザ';
@@ -141,7 +141,8 @@ $string['postadded'] = '<p>あなたの投稿が追加されました。</p>
 <p>内容を変更したい場合は $a 編集できます。</p>';
 $string['postincontext'] = '関連した投稿を表示する';
 $string['postmailinfo'] = 'これは ウェブサイト $a に投稿された記事のコピーです。
-返信をウェブサイト経由で追加するには、このリンクをクリックしてください:';
+
+返信をウェブサイトに投稿するには、このリンクをクリックしてください:';
 $string['postmailnow'] = '<p>この投稿はすべてのメール購読ユーザにすぐに送信されます。</p>';
 $string['postrating1'] = '主に分離認識の傾向がある';
 $string['postrating2'] = '分離認識と関連認識を同等に持っている';
