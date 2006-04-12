@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 development (2006032200)
+      // blog.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['addnewentry'] = 'Yeni kayıt ekle';
@@ -14,6 +14,7 @@ $string['blogpreferences'] = 'Blog seçenekleri';
 $string['blogs'] = 'Bloglar';
 $string['blogtags'] = 'Blog etiketleri';
 $string['courseblog'] = 'Kurs blogu: $a';
+$string['disableblogs'] = 'Blog sistemini tamamen kapat';
 $string['entrybody'] = 'Blog metni';
 $string['entrybodyonlydesc'] = 'Açıklama';
 $string['entryerrornotyours'] = 'Bu size ait değil';
