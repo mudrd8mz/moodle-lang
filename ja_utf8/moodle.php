@@ -787,6 +787,7 @@ $string['modulesuccess'] = '$a テーブルが正常に設定されました。'
 $string['moodledocslink'] = 'このページのMoodleドキュメント';
 $string['moodleversion'] = 'Moodleバージョン';
 $string['more'] = 'もっと';
+$string['moreinformation'] = 'このエラーに関する詳細情報';
 $string['mostrecently'] = '直近の';
 $string['move'] = '移動';
 $string['movecategoryto'] = 'カテゴリの移動:';

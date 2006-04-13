@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 Beta 2 (2006041001)
+      // quiz.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['1day'] = '1日';
@@ -47,7 +47,7 @@ $string['attemptquiznow'] = '小テストを受験';
 $string['attempts'] = '受験';
 $string['attemptsallowed'] = '受験回数';
 $string['attemptselection'] = 'ユーザごとにどの受験を分析するか選択してください:';
-$string['attemptsexist'] = 'この小テストはすでに受験されています。';
+$string['attemptsexist'] = '問題を追加または削除することはできません。';
 $string['attemptsonly'] = '受験済みの学生のみ表示';
 $string['attemptsunlimited'] = '無制限';
 $string['back'] = '問題のプレビューに戻る';
@@ -313,11 +313,12 @@ $string['noresponse'] = '解答無し';
 $string['noreview'] = 'この小テストの再閲覧を許可されていません。';
 $string['noreviewuntil'] = '$a までこの小テストの再閲覧はできません。';
 $string['noscript'] = '続けるにはJavaスクリプトを使用可にしてください!';
-$string['notavailable'] = '申し訳御座いません、このクイズはまだ利用できません。';
+$string['notavailable'] = '申し訳ございません、このクイズはまだ利用できません。';
 $string['notavailabletostudents'] = '注意: 現在あなたの学生は、この小テストを利用できません。';
 $string['notenoughanswers'] = 'このタイプの質問には少なくとも $a の解答が必要です。';
 $string['notenoughsubquestions'] = '十分な副質問が定義されていません！<br />この質問を修正しますか？';
 $string['notimedependentitems'] = '現在、時間に依存する項目は小テストモジュールではサポートされていません。代わりに小テスト全体に対して制限時間を設定してください。他の項目を選択しますか ( または無視してこの項目を使いますか ) ?';
+$string['numattempts'] = '$a->studentnum 名の $a->studentstring が $a->attemptnum 回受験しました。';
 $string['numberabbr'] = '#';
 $string['numerical'] = '数値問題';
 $string['onlyteachersexport'] = '教師のみが問題をエクスポートできます。';
