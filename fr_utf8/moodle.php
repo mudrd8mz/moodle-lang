@@ -206,6 +206,7 @@ $string['convertingwikitomarkdown'] = 'Conversion du format Wiki au Markdown';
 $string['cookiesenabled'] = 'Votre navigateur doit supporter les cookies';
 $string['cookiesnotenabled'] = 'La gestion des cookies n\'est malheureusement pas activée actuellement dans votre navigateur';
 $string['copy'] = 'copie';
+$string['copyasnoun'] = 'copie';
 $string['copyingcoursefiles'] = 'Copie des fichiers de cours';
 $string['copyinguserfiles'] = 'Copie des fichiers utilisateurs';
 $string['copyingzipfile'] = 'Copie du fichier compacté (zip)';
