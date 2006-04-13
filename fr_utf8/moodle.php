@@ -626,6 +626,7 @@ $string['htmlfilesonly'] = 'Fichiers HTML seulement';
 $string['htmlformat'] = 'Format HTML';
 $string['icqnumber'] = 'Identifiant ICQ';
 $string['idnumber'] = 'Numéro d\'identification';
+$string['idnumbercourse'] = 'No d\'identification du cours';
 $string['import'] = 'Importer';
 $string['importactivities'] = 'Importer les activités d\'un autre cours';
 $string['importdata'] = 'Importer les données d\'un cours';
