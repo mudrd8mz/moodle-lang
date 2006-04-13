@@ -226,6 +226,7 @@ $string['import'] = 'インポート';
 $string['importerror'] = 'インポート処理中にエラーが発生しました。';
 $string['importfilearea'] = 'すでにコース中にあるファイルからインポート ...';
 $string['importfileupload'] = 'アップロードしたファイルからインポート ...';
+$string['importfromthisfile'] = 'このファイルからインポート';
 $string['importingquestions'] = '$a の問題をファイルからインポート';
 $string['importmax10error'] = '問題にエラーがあります。10以上の答えを設定することはできません。';
 $string['importmaxerror'] = '問題にエラーがあります。答えが多すぎます。';

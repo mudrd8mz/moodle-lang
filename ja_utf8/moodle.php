@@ -624,6 +624,7 @@ $string['htmlfilesonly'] = 'HTMLファイルのみ';
 $string['htmlformat'] = 'HTML形式';
 $string['icqnumber'] = 'ICQナンバー';
 $string['idnumber'] = 'IDナンバー';
+$string['idnumbercourse'] = 'コースIDナンバー';
 $string['import'] = 'インポート';
 $string['importactivities'] = '他のコースより活動をインポート';
 $string['importdata'] = 'コースデータのインポート';
