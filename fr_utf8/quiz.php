@@ -223,6 +223,7 @@ $string['import'] = 'Importer';
 $string['importerror'] = 'Une erreur est survenue lors de l\'importation';
 $string['importfilearea'] = 'Importer à partir d\'un fichier du cours...';
 $string['importfileupload'] = 'Importer à partir d\'un fichier à déposer...';
+$string['importfromthisfile'] = 'Importer à partir de ce fichier';
 $string['importingquestions'] = 'Importation de $a questions à partir du fichier';
 $string['importmax10error'] = 'Cette question comporte une erreur. Il est impossible d\'avoir plus de 10 réponses';
 $string['importmaxerror'] = 'Cette question comporte une erreur. Elle propose trop de réponses.';
