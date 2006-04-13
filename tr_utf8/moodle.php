@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006032800)
+      // moodle.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['action'] = 'Eylem';
@@ -124,7 +124,7 @@ $string['backupfailed'] = 'Bazı kurslar kaydedilmedi!';
 $string['backupfilename'] = 'yedek';
 $string['backupfinished'] = 'Yedekleme başarılıyla tamamlandı';
 $string['backupincludemoduleshelp'] = 'Otomatik yedeklemede hangi kurs modullerinin olup olmayacağını, kullanıcı verisinin olup olmayacağını seçiniz.';
-$string['backupkeephelp'] = 'Herbir ders için son yedeklemelerden kaç tanesini geriye doğru saklamak istersiniz? (eskiler otomatik olarak silinecektir)';
+$string['backupkeephelp'] = 'Herbir kurs için son yedeklemelerden kaç tanesini geriye doğru saklamak istersiniz? (eskiler otomatik olarak silinecektir)';
 $string['backuplogdetailed'] = 'Ayrıntılı çalıştırma kaydı';
 $string['backuploglaststatus'] = 'Son çalıştırma kaydı';
 $string['backuplogshelp'] = 'Etkinleştirilirse kurs logları otomatik yedek içinde dahil edilecek';
@@ -170,7 +170,7 @@ $string['checkinginstances'] = 'Tekrarları kontrol ediliyor';
 $string['checkingsections'] = 'Bölümler kontrol ediliyor';
 $string['checklanguage'] = 'Dili kontrol et';
 $string['checknone'] = 'Hiçbirini seçme';
-$string['childcoursenotfound'] = 'Alt kurs bulunamadı';
+$string['childcoursenotfound'] = 'Alt kurs bulunamadı!';
 $string['childcourses'] = 'Alt kurslar';
 $string['choose'] = 'Seç';
 $string['choosecourse'] = 'Bir kurs seçiniz';
@@ -208,6 +208,7 @@ $string['convertingwikitomarkdown'] = 'Wiki, Markdown\'a çevriliyor';
 $string['cookiesenabled'] = 'Tarayıcınızın oturum desteği (cookie) etkin olmalıdır';
 $string['cookiesnotenabled'] = 'Maalesef tarayıcı programınızın oturum desteği etkin değil';
 $string['copy'] = 'kopyala';
+$string['copyasnoun'] = 'kopya';
 $string['copyingcoursefiles'] = 'Kurs dosyaları kopyalanıyor';
 $string['copyinguserfiles'] = 'Kullanıcı dosyaları kopyalanıyor';
 $string['copyingzipfile'] = 'Zip dosyası kopyalanıyor';
@@ -300,11 +301,11 @@ $string['day'] = 'gün';
 $string['days'] = 'gün';
 $string['decodinginternallinks'] = 'Dahili bağlantılar çözülüyor';
 $string['default'] = 'Varsayılan';
-$string['defaultcoursefullname'] = 'Bu Kursun Tam Adı 101';
+$string['defaultcoursefullname'] = 'Kursun Tam Adı 101';
 $string['defaultcourseshortname'] = 'UE-101';
 $string['defaultcoursestudent'] = 'Öğrenci';
 $string['defaultcoursestudents'] = 'Öğrenci(ler)';
-$string['defaultcoursesummary'] = 'Bu dersin ne hakkında olduğunu açıklayan özlü ve ilgi çekici bir paragraf yazın';
+$string['defaultcoursesummary'] = 'Bu kursun ne hakkında olduğunu açıklayan özlü ve ilgi çekici bir paragraf yazın';
 $string['defaultcourseteacher'] = 'Eğitmen';
 $string['defaultcourseteachers'] = 'Eğitmen(ler)';
 $string['delete'] = 'Sil';
@@ -786,6 +787,7 @@ $string['modulesuccess'] = '$a tabloları doğru olarak kuruldu';
 $string['moodledocslink'] = 'Bu sayfa için Moodle Belgeleri';
 $string['moodleversion'] = 'Sürüm: ';
 $string['more'] = 'daha';
+$string['moreinformation'] = 'Bu hata hakkında daha fazla bilgi';
 $string['mostrecently'] = 'en yakın';
 $string['move'] = 'Taşı';
 $string['movecategoryto'] = 'Kategoriyi taşı: ';
