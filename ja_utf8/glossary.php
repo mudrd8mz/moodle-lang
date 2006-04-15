@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 development (2006032200)
+      // glossary.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -71,7 +71,7 @@ $string['displayformatfullwithauthor'] = 'フル、著者有り';
 $string['displayformatfullwithoutauthor'] = 'フル、著者無し';
 $string['displayformats'] = '表示フォーマット';
 $string['displayformatssetup'] = '表示フォーマット設定';
-$string['duplicateentry'] = 'エントリを複写する';
+$string['duplicateentry'] = 'エントリの重複';
 $string['editalways'] = '常に編集を許可';
 $string['editcategories'] = 'カテゴリの編集';
 $string['editentry'] = 'エントリの編集';
@@ -95,6 +95,7 @@ $string['explainalphabet'] = 'インデックスを利用して用語集を表�
 $string['explainexport'] = '用語集をエクスポートするには、下記のボタンをクリックしてください。<br />いつでも必要なときに、用語集をこのコースまたは他のコースにインポートすることができます。<p>添付ファイル ( 例 イメージ ) および著者はエクスポートされませんので注意してください。</p>';
 $string['explainimport'] = 'インポートするファイルおよび処理方法を指定してください。<p>実行後、結果を検証してください。';
 $string['explainspecial'] = '１文字で始まらないエントリを表示します。';
+$string['exportedentry'] = 'エクスポートされたエントリ';
 $string['exportentries'] = 'エントリのエクスポート';
 $string['exportfile'] = 'エントリをファイルにエクスポート';
 $string['exportglossary'] = '用語集のエクスポート';
@@ -142,7 +143,7 @@ $string['ratingsuse'] = '評価を使用する';
 $string['ratingtime'] = 'エントリ評価を下記の期間に制限する:';
 $string['rejectedentries'] = '拒否されたエントリ';
 $string['rejectionrpt'] = '拒否レポート';
-$string['rsssubscriberss'] = '\'$a\' 用語のRSSフィードを表示';
+$string['rsssubscriberss'] = '$a の用語のRSSフィードを表示';
 $string['searchindefinition'] = '定義も検索する';
 $string['secondaryglossary'] = 'サブ用語集';
 $string['sendinratings'] = '最新の評価を送る';
@@ -163,6 +164,6 @@ $string['warningstudentcapost'] = '( 用語集がメインで無い場合に適�
 $string['withauthor'] = '用語 ( 著者有り )';
 $string['withoutauthor'] = '用語 ( 著者無し )';
 $string['writtenby'] = '作成';
-$string['youarenottheauthor'] = 'あなたはこのコメントの作者ではありません。編集はできません。';
+$string['youarenottheauthor'] = 'あなたはこのコメントの投稿者ではありません。コメントの編集は許可されていません。';
 
 ?>
