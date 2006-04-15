@@ -93,6 +93,7 @@ $string['explainalphabet'] = 'Consultez le glossaire à l\'aide de cet index';
 $string['explainexport'] = 'Presser le bouton ci-dessous pour exporter les articles du glossaire.<br />Vous pourrez importer ce fichier à votre convenance dans ce cours ou un autre.<br />Veuillez prendre note que les annexes (par exemple les images) et les auteurs ne sont pas exportés.';
 $string['explainimport'] = '<p>Vous devez indiquer le fichier à importer et sélectionner vos options.</p><p>Lancez votre requête et contrôlez les résultats.</p>';
 $string['explainspecial'] = 'Afficher les articles ne commençant pas par une lettre';
+$string['exportedentry'] = 'Article exporté';
 $string['exportentries'] = 'Exporter des articles';
 $string['exportfile'] = 'Exporter les articles vers un fichier';
 $string['exportglossary'] = 'Exporter le glossaire';
