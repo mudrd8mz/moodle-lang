@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 development (2006031400)
+      // admin.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['adminseesallevents'] = 'Beheerders zien alle gebeurtenissen';
@@ -26,6 +26,7 @@ $string['configallowusermailcharset'] = 'Door dit in te schakelen, kan elke gebr
 $string['configallowuserthemes'] = 'Als je dit inschakelt, dan kunnen gebruikers hun eigen thema kiezen. Gebruikersthema\'s gaan boven site-thema\'s (maar niet boven cursusthema\'s)';
 $string['configallusersaresitestudents'] = 'Moeten ALLE gebruikers als leerlingen beschouwd worden voor activiteiten op de startpagina van de site? Als je hier \"Ja\" kiest, dan zullen alle bevestigde accounts hier als leerling kunnen meedoen aan alle activiteiten. Als je hier \"Nee\" kiest, dan zullen alleen gebruikers die minstens van één cursus lid zijn kunnen meedoen aan die startpagina-activiteiten.';
 $string['configautologinguests'] = 'Moeten bezoekers automatisch als gast aangemeld worden als ze cursussen met toegangsrecht voor gasten binnengaan ?';
+$string['configbloglevel'] = 'Met deze instelling kun je het niveau beperken waarop gebruikers blogs op deze site kunnen zien. Merk op dat ze een maximum zetten voor wie KIJKT, niet voor wie berichten post of de mogelijke types berichten die gepost kunnen worden. Blogs kunnen ook uitgeschakeld worden als je ze niet wil.';
 $string['configcachetext'] = 'Deze instelling kan de snelheid vergroten voor grotere sites of voor sites die tekstfilters gebruiken. kopieën van teksten zullen in hun gecompileerde vorm bewaard worden voor de tijd die je hier instelt. Als je deze tijd te kort instelt, zou je zelfs een kleine vertraging kunnen krijgen, maar de tijd te lang instellen kan ervoor zorgen dat het te lang duurt voor teksten vernieuwd worden (met nieuwe links bijvoorbeeld).';
 $string['configclamactlikevirus'] = 'Behandel bestanden als virussen';
 $string['configclamdonothing'] = 'Behandel bestanden als OK';
@@ -104,6 +105,7 @@ $string['configsectionstats'] = 'Statistieken';
 $string['configsectionuser'] = 'Gebruiker';
 $string['configsecureforms'] = 'Moodle kan een extra beveiliging toepassen wanneer het gegevens aanneemt van webformulieren. Als je dit inschakelt, dan wordt de variable HTTP_REFERER vergeleken met het huidige formulieradres. In zeldzame gevallen kan dit problemen veroorzaken als de gebruiker een firewall gebruikt (zoals Zonealarm) die geconfigureerd is om HTTP_REFERER uit het webverkeer te filteren. Het symptoom is: vastgeraken op een formulier. Als je gebruikers problemen hebben met de inlogpagina (bijvoorbeeld) dan zou je kunnen overwegen om deze instelling uit te zetten, hoewel dit je site meer blootstelt aan brute kracht-aanvallen op je wachtwoord. Bij twijfel laat je deze instelling op \'ja\' staan.';
 $string['configsessioncookie'] = 'Met deze instelling kun je de naam van de cookie die gebruikt wordt voor Moodlesessies, aanpassen. Deze instelling is optioneel en enkel nuttig om te verhinderen dat cookies in conflict komen wanneer meer dan één exemplaar van Moodle binnen dezelfde website draait.';
+$string['configsessioncookiepath'] = 'Als het nodig is dat je de standaardlocatie naar waar browsers de Moodle cookies sturen wijzigt, dan kun je hier een subdirectory van je website instellen. Normaal gezien is de standaard \'/\' goed.';
 $string['configsessiontimeout'] = 'Als mensen die ingelogd zijn op deze site voor een lange tijd niets doen (ze laden geen nieuwe pagina\'s) worden ze automatisch uitgelogd (hun sessie is beëindigd). Deze variabele geeft aan hoe lang deze tijd moet zijn. ';
 $string['configshowblocksonmodpages'] = 'Sommige modules ondersteunen blokken op hun pagina\'s. Als je dit inschakelt, dan kunnen leraren blokken aan de zijkant van deze pagina\'s zetten, anders toont de interface deze functie niet.';
 $string['configshowsiteparticipantslist'] = 'Al deze siteleerlingen en siteleraren zullen op de deelnemerslijst gezet worden. Wie zal er toelating krijgen om deze lijst met sitedeelnemers te zien?';
@@ -202,9 +204,16 @@ $string['order3'] = 'Derde';
 $string['pathconvert'] = 'Pad van <i>convert</i> binary';
 $string['pathdvips'] = 'Pad van <i>dvips</i> binary';
 $string['pathlatex'] = 'Pad van <i>latex</i> binary';
+$string['pathtopgdump'] = 'Pad naar pg_dump';
+$string['pathtopgdumpdesc'] = 'Je moet dit enkel ingeven als je meer dan één pg_dump op je systeem hebt (bijvoorbeeld als je meer dan één versie van postgresql geïnstalleerd hebt)';
+$string['pathtopgdumpinvalid'] = 'Ongeldig pad naar pg_dump - ofwel verkeerd pad of niet uitvoerbaar';
+$string['pathtopsql'] = 'Pad naar psql';
+$string['pathtopsqldesc'] = 'Dit is enkel nodig als je meer dan één psql op je systeem hebt (bijvoorbeeld als je meer dan één versie van postgresql geïnstalleerd hebt)';
+$string['pathtopsqlinvalid'] = 'Ongeldig pad naar psql - ofwel verkeerd pad ofwel niet uitvoerbaar';
 $string['pgcluster'] = 'PostgreSQL Cluster';
 $string['pgclusterdescription'] = '<pre>PostgeSQL versie/cluster parameter voor operaties via commandprompt. Als je slechts één PostgreSQL op je systeem hebt of je weet niet wat dit is, laat dit veld dan leeg.</pre>';
 $string['pleaseregister'] = 'Registreer aub je site.  Op die manier kun je deze knop verwijderen.';
+$string['releasenoteslink'] = 'Bekijk de on line <a target=\"_new\" href=\"$a\">Release Notes</a> voor informatie over deze versie van Moodle.';
 $string['remotelangnotavailable'] = 'Het is niet mogelijk om automatisch taalpakketten te installeren, omdat Moodle geen verbinding kan maken met Moodle.org. Download daarom de nodige zipbestanden uit onderstaande lijst, copieer ze naar je $a map en unzip ze daar.';
 $string['renameerrors'] = 'Fouten in hernoemen';
 $string['sitelangchanged'] = 'De taalinstelling van de site is gewijzigd';
