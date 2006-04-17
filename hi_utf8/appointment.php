@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // appointment.php - created with Moodle 1.5.2 (2005060220)
+      // appointment.php - created with Moodle 1.6 development (2005090100)
 
 
 $string['allowresubmit'] = 'दोबारा सब्मिट करने दीजिए';
@@ -9,6 +9,7 @@ $string['appointmentname'] = 'ऍपॉइन्ट्मॅन्ट का न
 $string['date'] = 'ऍपॉइन्ट्मॅन्ट की तारीख';
 $string['description'] = 'विवरण';
 $string['early'] = '$a जल्दी';
+$string['feedback'] = 'फ़ीड्बैक्';
 $string['late'] = '$a देर से';
 $string['modulename'] = 'ऍपॉइन्ट्मॅन्ट';
 $string['modulenameplural'] = 'ऍपॉइन्ट्मॅन्ट्स';
