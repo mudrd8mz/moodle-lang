@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 development (2006032200)
+      // moodle.php - created with Moodle 1.6 Beta 2 (2006040500)
 
 
 $string['action'] = 'Aksiyon';
@@ -204,6 +204,7 @@ $string['convertingwikitomarkdown'] = 'Ikinukumberte ang Wiki sa Markdown';
 $string['cookiesenabled'] = 'Kailangang mong buhayin ang pagtanggap-ng-cookie sa browser mo';
 $string['cookiesnotenabled'] = 'Nakakalungkot isipin, hindi buhay ang cookie sa iyong browser sa kasalukuyan';
 $string['copy'] = 'kopya';
+$string['copyasnoun'] = 'kopyahin';
 $string['copyingcoursefiles'] = 'Kinokopya ang mga file ng kurso';
 $string['copyinguserfiles'] = 'Kinokopya ang mga file ng user';
 $string['copyingzipfile'] = 'Kinokopya ang mga zip file';
@@ -639,6 +640,7 @@ $string['htmlfilesonly'] = 'Mga HTML na file lamang';
 $string['htmlformat'] = 'Format na Pretty HTML';
 $string['icqnumber'] = 'Bilang ng ICQ';
 $string['idnumber'] = 'Bilang na ID';
+$string['idnumbercourse'] = 'Bilang na ID ng Kurso';
 $string['import'] = 'Angkatin';
 $string['importactivities'] = 'Mag-angkat ng mga aktibidad mula sa ibang kurso';
 $string['importdata'] = 'Angkatin ang mga datos ng kurso';
@@ -795,6 +797,7 @@ $string['modulesuccess'] = 'naisaayos nang wasto ang $a na teybol';
 $string['moodledocslink'] = 'Mga Dokyu ng Moodle para sa pahinang ito';
 $string['moodleversion'] = 'Bersiyon ng Moodle';
 $string['more'] = 'marami pa';
+$string['moreinformation'] = 'Dagdag na impormasyon tungkol sa error na ito';
 $string['mostrecently'] = 'pinakabago';
 $string['move'] = 'Ilipat';
 $string['movecategoryto'] = 'Ilipat ang kategoriya sa:';

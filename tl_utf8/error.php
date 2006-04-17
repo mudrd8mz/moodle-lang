@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2006032200)
+      // error.php - created with Moodle 1.6 Beta 2 (2006040500)
 
 
 $string['adminprimarynoedit'] = 'Hindi maaaring iedit ng iba ang pangunahing admin';
@@ -56,6 +56,7 @@ $string['sessionerroruser2'] = 'May natagpuang error sa server na nakaapekto sa 
 $string['sessionipnomatch'] = 'Paumanhin, nguni\'t parang nagbago ang IP number mo simula ng huli kang maglog-in.  Ang panseguridad na katangiang ito ay pinipigil ang mga cracker na nakawin ang pagkatao mo habang nakalog-in sa site na ito.  Ang mga normal na user ay hindi dapat makakita ng ganitong mensahe - hingan ng tulong ang administrador ng site.';
 $string['statscatchupmode'] = 'Ang estadistika ay kasalukuyang nasa mode na naghahabol.  Sa kasalukuyan $a->daysdone araw ang naproseso na at $a->dayspending ang nakabimbin.  Balikan mo na lamang muli!';
 $string['unknowncourse'] = 'Dikilalang kurso na may pangalang \"$a\"';
+$string['unknownuseraction'] = 'Paumanhin, nguni\'t hindi ko maintindihan ang aksiyong ito ng user';
 $string['usernotaddederror'] = 'Hindi idinagdag ang user \"$a\" - dikilalang error';
 $string['usernotaddedregistered'] = 'Hindi idinagdag ang user \"$a\" - nakarehistro na ';
 $string['usernotavailable'] = 'Hindi mo maaaring makita ang mga detalye hinggil sa user na ito.';

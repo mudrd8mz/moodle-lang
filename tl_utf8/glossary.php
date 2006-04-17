@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 development (2006032200)
+      // glossary.php - created with Moodle 1.6 Beta 2 (2006040500)
 
 
 $string['addcomment'] = 'Magdagdag ng opinyon';
@@ -17,7 +17,7 @@ $string['approve'] = 'Tanggapin';
 $string['areyousuredelete'] = 'Talaga bang nais mong burahin ang talâ na ito?';
 $string['areyousuredeletecomment'] = 'Talaga bang nais mong burahin ang opinyong ito?';
 $string['areyousureexport'] = 'Talaga bang nais mong iluwas ang talâ na ito sa';
-$string['ascending'] = '(tumataas)';
+$string['ascending'] = '(pataas)';
 $string['attachment'] = 'Kalakip';
 $string['authorview'] = 'Tingnan alinsunod sa May-akda';
 $string['back'] = 'Bumalik';
@@ -59,7 +59,7 @@ $string['definitions'] = 'Mga Depinisiyon';
 $string['deleteentry'] = 'Burahin ang talâ';
 $string['deletingcomment'] = 'Binubura ang opinyon';
 $string['deletingnoneemptycategory'] = 'Ang pagbura sa kategoriyang ito ay hindi bubura sa mga talâ na laman nito - papangalanan lamang ang mga ito ng walang kategoriya.';
-$string['descending'] = '(bumababa)';
+$string['descending'] = '(pababa)';
 $string['destination'] = 'Destinasyon';
 $string['displayformat'] = 'Format ng Pagpapakita';
 $string['displayformatcontinuous'] = 'Tuloy-tuloy nang walang may-akda';
@@ -95,6 +95,7 @@ $string['explainalphabet'] = 'Tingnan ang talahulugan sa pamamagitan ng indeks n
 $string['explainexport'] = 'Iklik ang buton sa ibaba upang makapagluwas ng mga talâ ng talahulugan.<br />Maaangkat mo ito anumang oras na naisin mo sa kursong ito o sa iba pa.<p>Tandaan po na ang mga kalakip (hal. larawan) at mga awtor ay hindi iniluluwas.</p>';
 $string['explainimport'] = 'Dapat mong itakda ang file na aangkatin at itakda ang pamantayan ng proseso.<p>Ipasa ang hiling mo at rebyuhin ang mga resulta.</p>';
 $string['explainspecial'] = 'Ipakita ang mga talâ na hindi nagsisimula sa baybay';
+$string['exportedentry'] = 'Iniluwas na talâ';
 $string['exportentries'] = 'Iluwas ang mga talâ';
 $string['exportfile'] = 'Iluwas ang mga talâ sa isang file';
 $string['exportglossary'] = 'Iluwas ang talahulugan';

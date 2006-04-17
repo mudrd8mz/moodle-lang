@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // admin.php - created with Moodle 1.6 Beta 2 (2006040500)
 
 
 $string['adminseesallevents'] = 'Nakikita ng mga Administrador ang lahat ng okasyon';
@@ -26,6 +26,7 @@ $string['configallowusermailcharset'] = 'Kapag pinagana ito, ang bawat user sa s
 $string['configallowuserthemes'] = 'Kapag binuhay mo ito, ang mga user ay pahihintulutang magtakda ng sarili nilang tema Nananaig ang tema ng user sa tema ng site (pero hindi sa mga tema ng kurso)';
 $string['configallusersaresitestudents'] = 'Para sa lahat ng aktibidad sa harapang pahina ng site, dapat bang ituring na mag-aaral ang LAHAT ng user?  Kapag sumagot ka ng \"Oo\", ang may alinmang kumpirmadong user account ay pahihintulutan na lumahok bilang mag-aaral sa mga aktibidad na iyon.  Kapag sumagot ka ng \"Hindi\", tanging ang mga user na kalahok na sa isa man lamang na kurso ang makakalahok sa mga aktibidad sa harapang pahina.  Tanging ang mga admin at mga gurong binigyan ng karapatan ang maaaring magturo sa mga aktibidad sa harapang pahinang iyon.';
 $string['configautologinguests'] = 'Dapat bang ilog-in nang awtomatiko ang mga dumadalaw bilang bisita kapag pumasok sila sa kurso nang may pambisitang access?';
+$string['configbloglevel'] = 'Nalilimitahan ng kaayusang ito ang antas kung saan   maaaring matingnan ang mga blog ng user sa site na ito.  Tandaan na itinatakda nito ang maksimum sa konteksto ng TUMITINGIN at hindi ng nagpapaskil o uri ng ipinaskil na blog.  Puwede ring ganap na patayin ang mga blog, kung hindi mo kailangan ito.';
 $string['configcachetext'] = 'Para sa mas malaking site o site na gumagamit ng text filter, mapapabilis ng kaayusang ito ang pagtakbo ng mga bagay.  Ang mga kopya ng text ay pananatilihin sa anyo nilang prinoseso sa panahong itinakda dito.  Ang labis na pagpapaliit ng kaayusang ito ay magpapabagal ng mga bagay, nguni\'t ang pagpapalaki nito ng labis ay magpapatagal sa pananariwa ng mga teksto (kung may bagong link, halimbawa).';
 $string['configclamactlikevirus'] = 'Tratuhin ang mga file na parang virus';
 $string['configclamdonothing'] = 'Tratuhin ang mga file na OK';
@@ -74,7 +75,7 @@ $string['configlocale'] = 'Mamilì ng sitewide na locale - makakaapekto ito sa f
 $string['configloginhttps'] = 'Kapag binuhay ito, gagamit ang Moodle ng ligtas na https na koneksiyon para sa pahinang-panglog-in lamang (nagbibigay ng ligtas na log-in), tapos ay babalik sa normal na http URL para bumilis.  BABALA: KINAKAILANGAN ng kaayusang ito na buhay ang https sa web server - kundi ay MAAARI HINDI KA MAKAPASOK SA SARILI MONG SITE.';
 $string['configloglifetime'] = 'Itinatakda nito ang haba ng panahon na nais mong manatili ang mga log ng aktibidad ng user.  Ang mga log na mas matanda dito ay awtomatikong binubura.  Pinakamainam na panatilihin ang mga log nang mahaba-habang panahon, kung sakaling kailanganin mo ang mga ito, pero kung napakaraming ginagawa ng server mo at nakakaranas ka ng problema sa paggana nito, baka mas mainam na paigsiin ang buhay ng log.';
 $string['configlongtimenosee'] = 'Kung matagal nang hindi nag-lalog-in ang mga mag-aaral, awtomatiko silang ma-aalis sa kurso.  Itinatakda ng parameter na ito ang limitasyon sa oras.';
-$string['configmaxbytes'] = 'Itinatakda nito ang maksimum na laki ng inaplowd na file sa buong site.  Nililimitahan ang kaayusang ito ng PHP setting na upload_max_filesize at ng Apache setting na LimitRequestBody.  Nililimitahan naman ng maxbytes ang mga pagpipiliang laki sa antas kurso o antas modyul.';
+$string['configmaxbytes'] = 'Itinatakda nito ang maksimum na laki ng inaplowd na file sa buong site.  Nililimitahan ang kaayusang ito ng PHP setting na post_max_size at upload_max_filesize, gayundin ng Apache setting na LimitRequestBody.  Nililimitahan naman ng maxbytes ang mga pagpipiliang laki sa antas kurso o antas modyul.';
 $string['configmaxeditingtime'] = 'Itinatakda nito ang oras na mayroon ang mga tao para muling iedit ang mga pinaskil nila sa talakayan, mga puna sa talahulugan atbp.  Katamtaman nang oras ang mga 30 minuto.';
 $string['configmessaging'] = 'Dapat bang buhayin ang pangmensaheng sistema sa pagitan ng mga user ng site?';
 $string['configmymoodleredirect'] = 'Ipinipilit ng kaayusang ito ang pagbaling sa /my kapag naglog-in ang hindi-admin at pinapalitan ang breadcrumb sa tuktok na antas ng site ng /my';
