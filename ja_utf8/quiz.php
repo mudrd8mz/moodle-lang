@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // quiz.php - created with Moodle 1.6 Beta 3 (2006041801)
 
 
 $string['1day'] = '1日';
@@ -502,6 +502,7 @@ $string['viewallanswers'] = '$a 件の受験結果を表示';
 $string['viewallreports'] = '$a 件の受験レポートを表示';
 $string['warningsdetected'] = '$a の警告が見つかりました。';
 $string['webct'] = 'WebCTフォーマット';
+$string['wheregrade'] = '私の評点は?';
 $string['wildcard'] = 'ワイルドカード';
 $string['withselected'] = '選択したものを';
 $string['withsummary'] = '( 統計概要を含む )';
