@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 Beta 3 (2006041800)
+      // resource.php - created with Moodle 1.6 Beta 3 (2006041801)
 
 
 $string['addresource'] = 'リソースを追加する';
@@ -111,7 +111,7 @@ $string['serverurl'] = 'サーバURL ( $a->wwwroot )';
 $string['showcourseblocks'] = 'コースブロックを表示';
 $string['skipsubmenus'] = 'サブメニューページをスキップ';
 $string['tableofcontents'] = '目次';
-$string['upbutton'] = 'Up';
+$string['upbutton'] = 'UP';
 $string['variablename'] = '変数名';
 $string['viewims'] = 'IMS学習者情報パッケージの表示';
 $string['vol'] = 'Vol';
