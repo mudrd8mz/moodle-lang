@@ -502,6 +502,7 @@ $string['viewallanswers'] = 'Afficher les $a tentatives du test';
 $string['viewallreports'] = 'Afficher le rapport des $a tentatives';
 $string['warningsdetected'] = '$a alerte(s) détectées';
 $string['webct'] = 'Format WebCT';
+$string['wheregrade'] = 'Où est ma note&nbsp;?';
 $string['wildcard'] = 'Caractère joker';
 $string['withselected'] = 'Avec la sélection';
 $string['withsummary'] = 'avec des statistiques résumées';
