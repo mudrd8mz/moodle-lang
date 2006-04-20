@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // data.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['action'] = '操作';
@@ -98,6 +98,7 @@ $string['namedate'] = '日付フィールド';
 $string['namefile'] = 'ファイルフィールド';
 $string['namemenu'] = 'メニューフィールド';
 $string['namemultimenu'] = '複数選択メニューフィールド';
+$string['namenumber'] = '数値フィールド';
 $string['namepicture'] = 'ピクチャフィールド';
 $string['nameradiobutton'] = 'ラジオボタンフィールド';
 $string['nametext'] = 'テキストフィールド';
@@ -112,6 +113,7 @@ $string['nomatch'] = '該当するエントリが見つかりませんでした!
 $string['nomaximum'] = '最大数無し';
 $string['norecords'] = 'データベースにエントリがありません。';
 $string['nosingletemplate'] = '単一テンプレートはまだ定義されていません。';
+$string['number'] = '数値';
 $string['numberrssarticles'] = 'RSS記事';
 $string['numnotapproved'] = '保留';
 $string['numrecords'] = 'エントリ $a 件';
