@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // blog.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['addnewentry'] = '新しいエントリの追加';
@@ -26,6 +26,7 @@ $string['groupblogs'] = 'ユーザは、グループを共有しているユー�
 $string['intro'] = 'このRSSフィードは、１つまたはそれ以上のブログから自動的に生成されました。';
 $string['noentriesyet'] = '表示できるエントリはありません。';
 $string['noguestpost'] = 'ゲストはブログを投稿できません!';
+$string['norighttodeletetag'] = 'あなたはこのタグ ( $a ) を削除できません。';
 $string['notallowedtoedit'] = 'あなたはこのエントリを編集できません。';
 $string['numberofentries'] = 'エントリ: $a';
 $string['numberoftags'] = '表示するタグ数';

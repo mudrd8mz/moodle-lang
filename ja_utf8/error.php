@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // error.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -30,12 +30,12 @@ $string['groupalready'] = 'ユーザはすでにグループ $a に属してい�
 $string['groupunknown'] = 'グループ $a は指定されたコースに関連していません。';
 $string['invalidcourse'] = '無効なコース';
 $string['invalidfieldname'] = '「 $a 」 は正しいフィールド名ではありません。';
-$string['invalidfiletype'] = '「 $a 」は有効ファイルタイプではありません。';
+$string['invalidfiletype'] = '「 $a 」は有効なファイルタイプではありません。';
 $string['invalidmd5'] = '無効なmp5ファイルです。';
 $string['invalidxmlfile'] = '「 $a 」は有効なXMLファイルではありません。';
 $string['missingfield'] = '「 $a 」 を入力してください。';
 $string['missingrequiredfield'] = 'いくつかの必須入力フィールドに入力されていません。';
-$string['modulemissingcode'] = 'モジュール $a が、この機能を実行するためのコードがありません。';
+$string['modulemissingcode'] = 'この機能を実行するためのコードがモジュール $a にありません。';
 $string['modulerequirementsnotmet'] = 'モジュール「 $a->modulename 」 ($a->moduleversion) をインストールできませんでした。このモジュールをインストールするためには新しいバージョンのMoodleをインストールする必要があります。(現在、あなたは $a->currentmoodle を使用しています。 $a->requiremoodle が必要です。)';
 $string['mustbeteacher'] = 'このページは教師のみ閲覧可能です。';
 $string['noinstances'] = 'このコースに $a のインスタンスがありません!';
@@ -45,16 +45,19 @@ $string['notavailable'] = '現在利用できません';
 $string['onlyadmins'] = '管理者のみ処理可能です。';
 $string['onlyeditingteachers'] = '編集権限を持った教師のみ処理可能です。';
 $string['onlyeditown'] = '他の人の情報は編集できません。';
+$string['pagenotexist'] = '異常なエラー ( 存在しないページへのアクセス ) が発生しました。';
+$string['pleasereport'] = 'あなたに時間がある場合、エラーが発生したとき、あなたが何を試みたのか私たちにお教えください。';
 $string['pluginrequirementsnotmet'] = 'プラグイン 「 $a->pluginname 」 ($a->pluginversion) がインストールされませんでした。インストールするには、新しいバージョンのMoodleが必要です ( 現在使用しているバージョン: $a->currentmoodle  インストールに必要なバージョン: $a->requiremoodle )。';
 $string['processingstops'] = 'プロセスが停止しました。残りのレコードは無視されます。';
 $string['remotedownloadnotallowed'] = 'あなたのサーバーにコンポーネントをダウンロードすることができません ( allow_url_fopen が無効 )。<br /><br /><a href=\"$a->url\">$a->url</a> ファイルを手動でダウンロードして、サーバの「 $a->dest 」にコピーした後、解凍してください。';
 $string['restricteduser'] = '申し訳ございません、あなたのアカウント「 $a 」では、この処理を行うことができません。';
+$string['sendmessage'] = 'メッセージの送信';
 $string['sessionerroruser'] = 'セッションがタイムアウトしました。再度ログインしてください。';
 $string['sessionerroruser2'] = 'あなたのログインセッションに影響を与えるサーバエラーが検知されました。再度ログインするかブラウザを再起動してください。';
-$string['sessionipnomatch'] = '申し訳ございません、あなたのIPアドレスは、最初のログインから変更されているようです。このセキュリティ機能は、あなたがサイトにログインしている間に、クラッカーから個人情報を盗むことを防いでいます。通常のユーザは、このメッセージを見ることはありません - 詳細はシステム管理者にお問合せください。';
+$string['sessionipnomatch'] = '申し訳ございません、あなたのIPアドレスは、最初のログインから変更されているようです。このセキュリティ機能は、あなたがサイトにログインしている間、クラッカーから個人情報を盗むことを防いでいます。通常のユーザは、このメッセージを見ることはありません - 詳細はシステム管理者にお問合せください。';
 $string['statscatchupmode'] = '統計は現在キャッチアップモードです。今までのところ $a->daysdone 日分が処理され、$a->dayspending 日分が未処理です。すぐに確認してください!';
 $string['unknowncourse'] = '不明なコース名 「 $a 」';
-$string['unknownuseraction'] = '申し訳ございません、このユーザのアクションが理解できません。';
+$string['unknownuseraction'] = '申し訳ございません、このユーザアクションが理解できません。';
 $string['usernotaddederror'] = 'ユーザ 「 $a 」 は追加されませんでした - 原因不明のエラー';
 $string['usernotaddedregistered'] = 'ユーザ 「 $a 」 は追加されませんでした - 登録済み';
 $string['usernotavailable'] = 'このユーザの詳細は閲覧できません。';
