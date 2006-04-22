@@ -1137,7 +1137,7 @@ $string['sortby'] = 'Sırala';
 $string['specifyname'] = 'Bir isim belirtmelisiniz.';
 $string['starpending'] = '([*] = onay bekleyen kurs)';
 $string['startdate'] = 'Kursun başlama tarihi';
-$string['startsignup'] = 'Yeni hesap açarak başlayınız!';
+$string['startsignup'] = 'Yeni hesap oluştur';
 $string['state'] = 'Eyalet';
 $string['statistics'] = 'İstatistikler';
 $string['stats'] = 'İstatistikler';
