@@ -1,24 +1,29 @@
----------------------------------------------------------------------------------------
-TURKISH LANGUAGE PACKAGE (Maintained by Ethem Evlice ethem AT evlice DOT com)
----------------------------------------------------------------------------------------
+﻿------------------------------------------------------------------------
+MOODLE TURKISH TRANSLATION (MOODLE TÜRKÇE ÇEVİRİSİ)
+------------------------------------------------------------------------
+MAINTAINER    : Ethem Evlice <ethem AT evlice DOT com> (www.evlice.com)
+STARTED       : Dec 10, 2002
+LAST MODIFIED : $Id$
+------------------------------------------------------------------------
 
-Türkçe Dil Paketi
-Çeviri: Ethem Evlice (ethem _AT_ evlice _DOT_ com)
+* M. Cuneyt Birkok (www.birkok.net)
+  Moodle çevirilerini ilk başlatan kişi
+  Başlangıç: 10 Aralık 2002, Bitiş: 20 Ocak 2004
 
-Çeviri yaparken çevirinin geçtiği web sayfasını bir yana ve dil paketini bir yana aldım.
-Admin sayfaları hariç ekranda görünen web sayfalarının neredeyse tamamı çevrilmiştir.
-Çeviri için önerisi olanlar lütfen (ethem _AT_ evlice _DOT_ com) adresine email atsın.
+* Ethem Evlice (www.evlice.net)
+  Başlangıç: 6 Eylül 2004, Bitiş: Hala devam ediyor
 
----------------------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 ::: ÖNEMLİ :::
 
-Web sitesi için çoğu dil paketi çevrilmiş, ancak /docs ve /help klasöründe bulunan
-belgeler çevrilmemiştir. Bunları tek başıma çevirmem mümkün değil. Bu yüzden, çeviri
-kabiliyeti yüksek olan ve eğitimle ilgili kavramları anlayan kişilerin benimle
-iletişime geçip vereceğim belgeleri çevirmelerini veya daha önceden çeviri yaptıysanız
-bana göndermenizi istiyorum. Çeviri yapanların isimleri sitede yayınlanacaktır.
+Web sitesi için çoğu dil paketi çevrilmiş, ancak /docs ve /help
+klasöründe bulunan belgeler çevrilmemiştir. Bunları tek başıma çevirmem
+mümkün değil. Bu yüzden, çeviri kabiliyeti yüksek olan ve eğitimle ilgili
+kavramları anlayan kişilerin benimle iletişime geçip vereceğim belgeleri
+çevirmelerini veya daha önceden çeviri yaptıysanız bana göndermenizi
+istiyorum. Çeviri yapanların isimleri sitede yayınlanacaktır.
 
 Anlayışınız için teşekkür ediyor ve çeviri yardımlarınızı bekliyorum...
 
----------------------------------------------------------------------------------------
+------------------------------------------------------------------------
