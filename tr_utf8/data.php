@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // data.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['action'] = 'Eylem';
@@ -98,6 +98,7 @@ $string['namedate'] = 'Tarih alanı';
 $string['namefile'] = 'Dosya alanı';
 $string['namemenu'] = 'Menu alanı';
 $string['namemultimenu'] = 'Çoklu-seçim alanı';
+$string['namenumber'] = 'Sayı alanı';
 $string['namepicture'] = 'Resim alanı';
 $string['nameradiobutton'] = 'Radio buton alanı';
 $string['nametext'] = 'Metin alanı';
@@ -112,6 +113,7 @@ $string['nomatch'] = 'Eşleşen kayıt bulunamadı!';
 $string['nomaximum'] = 'En fazla yok';
 $string['norecords'] = 'Veritabanında girdi yok';
 $string['nosingletemplate'] = 'Tek şablon henüz tanımlanmadı';
+$string['number'] = 'Sayı';
 $string['numberrssarticles'] = 'RSS makaleleri';
 $string['numnotapproved'] = 'Bekliyor';
 $string['numrecords'] = '$a kayıt';
