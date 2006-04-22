@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // moodle.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['action'] = '操作';
@@ -642,7 +642,7 @@ $string['included'] = '含んだ';
 $string['includelogentries'] = 'ログファイルを含む';
 $string['includemodules'] = 'モジュールを含む';
 $string['includeneededusers'] = '必要なユーザを含む';
-$string['includenoneusers'] = '非ユーザを含む';
+$string['includenoneusers'] = 'ユーザを含まない';
 $string['includeuserfiles'] = 'ユーザファイルを含む';
 $string['info'] = '情報';
 $string['institution'] = '所属組織';
