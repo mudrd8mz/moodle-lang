@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6 development (2006031600)
+      // enrol_imsenterprise.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
+$string['aftersaving...'] = 'あなたの設定を保存した後、';
 $string['allowunenrol'] = 'IMSデータに学生/教師の<strong>登録解除</strong> を許可する';
 $string['basicsettings'] = '基本設定';
 $string['coursesettings'] = 'コースデータオプション';
