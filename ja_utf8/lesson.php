@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.6 Beta 2 (2006040500)
+      // lesson.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -48,7 +48,7 @@ $string['completederror'] = 'レッスンを完了する';
 $string['completethefollowingconditions'] = '先へ進む前に、<b>$a</b> レッスンの下記の状態を完了させる必要があります。';
 $string['conditionsfordependency'] = '依存条件';
 $string['confirmdeletionofthispage'] = 'このページを本当に削除してもよろしいですか?';
-$string['congratulations'] = 'おめでとうございます - 最終レッスンに到達しました。';
+$string['congratulations'] = 'おめでとうございます - レッスンの最後に到達しました。';
 $string['continue'] = '続ける';
 $string['continuetoanswer'] = '続けて答えを変更する。';
 $string['correctanswerjump'] = '正解のジャンプ先';
@@ -280,11 +280,11 @@ $string['wronganswerjump'] = '誤答のジャンプ先';
 $string['wronganswerscore'] = '誤答の評点';
 $string['wrongresponse'] = '誤答に対するレスポンス';
 $string['youhavereceived'] = 'あなたは、この作文問題で $a->outof 点中 $a->score 点を取りました。';
-$string['youhaveseen'] = 'あなたはすでにこのレッスンを1ページ以上閲覧しました。<br />あなたが見た最後のページから始めますか?';
+$string['youhaveseen'] = 'あなたはすでにこのレッスンを1ページ以上表示しました。<br />あなたが表示した最後のページから始めますか?';
 $string['youmadehighscore'] = 'あなたはトップ $a ハイスコアリストに入りました。';
 $string['youranswer'] = 'あなたの答え';
-$string['yourcurrentgradeis'] = '現在の成績は $a です。';
-$string['yourgradeisnow'] = 'このレッスンに関するあなたの成績は $a に変更されました。';
+$string['yourcurrentgradeis'] = '現在の評点は $a です。';
+$string['yourgradeisnow'] = 'このレッスンに関するあなたの評点は $a に変更されました。';
 $string['yourresponse'] = 'あなたのレスポンス';
 $string['youshouldview'] = '少なくとも $a 回閲覧してください。';
 
