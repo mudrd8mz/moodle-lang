@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2006032200)
+      // error.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
@@ -43,14 +43,18 @@ $string['notavailable'] = 'Şu anda erişilemez';
 $string['onlyadmins'] = 'Bunu sadece yöneticiler yapabilir';
 $string['onlyeditingteachers'] = 'Sadece eğitimciler bunu yapabilir';
 $string['onlyeditown'] = 'Sadece kendi bilgilerinizi düzenleyebilirsiniz';
+$string['pagenotexist'] = 'Nadiren görülen bir hata oluştu (olmayan bir sayfaya erişilmeye çalışıldı)';
+$string['pleasereport'] = 'Zamanınız varsa, lütfen hata oluştuğunda ne yapmaya çalıştığınızı bilmemize izin verin:';
 $string['pluginrequirementsnotmet'] = '\"$a->pluginname\" ($a->pluginversion) eklentisi kurulamadı. Bu eklenti daha yeni bir Moodle sürümü gerektirmektedir (şu anda kullandığınız: $a->currentmoodle, gereken: $a->requiremoodle).';
 $string['processingstops'] = 'İşlem burada sona erer. Kalan kayıtlar yoksayılır.';
 $string['remotedownloadnotallowed'] = 'Sunucunuza bileşen indirmeye izin verilmiyor. (allow_url_fopen pasif).<br /><br />Arşivlenmiş dosyayı elle buraya \"$a->dest\" indirip <a href=\"$a->url\">$a->url</a> arşivi açmalısınız. ';
 $string['restricteduser'] = 'Üzgünüz, şu anki \"$a\" hesabınız bunu yapmak için sınırlandırılmıştır.';
+$string['sendmessage'] = 'Mesajı Gönder';
 $string['sessionerroruser'] = 'Oturumunuz zaman aşımına uğradı. Lütfen tekrar giriş yapınız.';
 $string['sessionerroruser2'] = 'Giriş oturumunuzu etkileyen bir sunucu hatası algılandı. Lütfen yeniden giriş yapınız ya da tarayıcınızı yeniden başlatınız.';
 $string['sessionipnomatch'] = 'Üzgünüz, IP numaranız ilk girdiğinizden farklıdır. Bu güvenlik özelliği siteye girdiğinizde crackerların sizin kimlik bilgilerinizi çalmalarını engellemek içindir. Normal kullanıcıların bu mesajı görmemeleri gerekir - lütfen yardım için site yöneticisine başvurun.';
 $string['unknowncourse'] = '\"$a\" adlı kurs bilinmiyor';
+$string['unknownuseraction'] = 'Üzgünüm, bu kullanıcı eylemini anlamıyorum.';
 $string['usernotaddederror'] = '\"$a\" kullanıcısı eklenmedi - bilinmeyen hata';
 $string['usernotaddedregistered'] = '\"$a\" kullanıcı eklenmedi - zaten kayıtlı';
 $string['usernotavailable'] = 'Bu kullanıcının ayrıntıları sizin erişiminize kapalı';
