@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // quiz.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['1day'] = '1 Gün';
@@ -168,7 +168,7 @@ $string['event1'] = 'Otomatik kaydet';
 $string['event2'] = 'Kaydet';
 $string['event3'] = 'Not';
 $string['event5'] = 'Denetle';
-$string['event6'] = 'Kapat';
+$string['event6'] = 'Kapat ve Notlandır';
 $string['event7'] = 'Gönder';
 $string['event8'] = 'Kapat';
 $string['event9'] = 'Elle Notlandırma';
@@ -225,6 +225,7 @@ $string['import'] = 'Al';
 $string['importerror'] = 'Alma işlemi sırasında bir hata oluştu';
 $string['importfilearea'] = 'Mevcut kurs dosyalarından al...';
 $string['importfileupload'] = 'Dosya yüklemesinden al...';
+$string['importfromthisfile'] = 'Bu dosyadan al';
 $string['importingquestions'] = 'Dosyadan $a soru alınıyor';
 $string['importmax10error'] = 'Soruda bir hata var. 10 cevaptan fazlası olamaz.';
 $string['importmaxerror'] = 'Suruda bir hata var. Çok fazla cevap.';
@@ -487,6 +488,7 @@ $string['viewallanswers'] = '$a sınav uygulamasına bak';
 $string['viewallreports'] = '$a Uygulaması için raporları görüntüle';
 $string['warningsdetected'] = '$a uyarı algılandı';
 $string['webct'] = 'WebCT biçimi';
+$string['wheregrade'] = 'Notlarım nerede?';
 $string['wildcard'] = 'Joker karakter';
 $string['withselected'] = 'Seçilileri';
 $string['withsummary'] = 'Özet İstatistiklerle';

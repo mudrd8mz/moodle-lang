@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // admin.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['adminseesallevents'] = 'Yöneticiler bütün olayları görür';
@@ -169,10 +169,9 @@ $string['updateaccounts'] = 'Var olan hesapları güncelle';
 $string['updatecomponent'] = 'Bileşen Güncelle';
 $string['updatelangs'] = 'Dil Paketlerini Güncelle';
 $string['upgradelogs'] = 'Tam işlevsellik için, eski kayıt dosyalarınız güncellenmeli. <a href=\"$a\">Daha fazla bilgi</a>';
-$string['upgradesure'] = 'Moodle dosyaları değişti ve otomatik olarak sunucunuzu şu sürüme terfi etmek üzeresiniz:
-<p><b>$a</b></p>
-<p>Bunu yaptığınızda tekrar geri dönemezsiniz.</p> 
-<p>Bu sunucuyu bu sürüme terfi etmek istediğinizden emin misiniz?</p>';
+$string['upgradesure'] = 'Moodle dosyalarınız değişti ve otomatik olarak sunucunuzu şu sürüme terfi etmek üzeresiniz:<br /><br />
+<strong>$a</strong> <br /><br />
+Bunu yaptığınızda tekrar geri dönemezsiniz.<br /><br />>Bu sunucuyu bu sürüme terfi etmek istediğinizden emin misiniz?<br /><br />';
 $string['upgradingdata'] = 'Veri güncelleniyor';
 $string['upgradinglogs'] = 'Loglar güncelleniyor';
 $string['upwards'] = 'yukarısı';

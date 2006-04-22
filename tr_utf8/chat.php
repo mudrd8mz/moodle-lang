@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6 development (2006031400)
+      // chat.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['beep'] = 'biip';
@@ -9,7 +9,7 @@ $string['chatreport'] = 'Sohbet oturumları';
 $string['chattime'] = 'Sohbet saati';
 $string['configmethod'] = 'Normal sohbet yöntemi, güncellemeler için devamlı olarak sunuya bağlanan istemcilerle ilgilidir. Hiç bir yapılandırma gerektirmez ve her yerde çalışır. Ancak sohbet eden kişi çoğalırsa sunucuya ağır yük getirir. Sohbet sunucusu daemonu kullanımı Unix\'e shell erişimi gerektirir ve aynı zamanda sohbet için daha uygun bir ortam sağlar.';
 $string['configoldping'] = 'Bir kullanıcının bağlantısının kesildiği algılandığında en fazla ne kadar süre geçecek(saniye olarak)? Bu sadece üst sınırdır ve kesintiler zaten çok hızlı şekilde algılanır. Düşük değerler sunucunuza daha fazla talep olmasına sebep olur. Normal yöntemi kullanıyorsanız, bunu <strong>asla</strong> 2 * chat_refresh_room \'dan daha düşük ayarlamayın.';
-$string['configrefreshroom'] = 'Sohbet odası kaç saniyede bir yenilenecek? (saniye olarak). Bu ayarı düşük tutarsanız sohbet odası daha hızlı yenilenir. Ancak sunucuda çok fazla kullanıcı sohbet ediyorsa sunucunuza ağır yük getirebilir. ';
+$string['configrefreshroom'] = 'Sohbet odası kaç saniyede bir yenilenecek? (saniye olarak). Bu ayarı düşük tutarsanız sohbet odası daha hızlı yenilenir. Ancak sunucuda çok fazla kullanıcı sohbet ediyorsa sunucunuza ağır yük getirebilir. <em>Stream</em> güncellemelerini kullanıyorsanız daha yüksek yenileme sıklığı seçebilirsiniz -- 2\'yi deneyin.';
 $string['configrefreshuserlist'] = 'Kullanıcı listesi kaç saniyede bir yenilenecek? (saniye olarak)';
 $string['configserverhost'] = 'Daemonun çalıştığı bilgisayarın alan adı';
 $string['configserverip'] = 'Yukarıdaki alan adının IP numarası';
