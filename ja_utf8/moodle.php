@@ -638,7 +638,7 @@ $string['include'] = 'バックアップ';
 $string['includeallusers'] = 'すべてのユーザを含む';
 $string['includecoursefiles'] = 'コースファイルを含む';
 $string['includecourseusers'] = 'コースユーザを含む';
-$string['included'] = '含んだ';
+$string['included'] = 'バックアップ済み';
 $string['includelogentries'] = 'ログファイルを含む';
 $string['includemodules'] = 'モジュールを含む';
 $string['includeneededusers'] = '必要なユーザを含む';
@@ -906,7 +906,7 @@ $string['notifyloginfailuresmessage'] = 'a->time, IP: $a->ip, ユーザ: $a->inf
 $string['notifyloginfailuresmessageend'] = 'ログは、$a/course/log.php?id=1&chooselog=1&modid=site_errors で閲覧できます。';
 $string['notifyloginfailuresmessagestart'] = '前回通知以降の、$a におけるログイン失敗一覧です。';
 $string['notifyloginfailuressubject'] = '$a :: ログイン失敗通知';
-$string['notincluded'] = '含まない';
+$string['notincluded'] = 'バックアップ対象外';
 $string['notingroup'] = '申し訳ございません、この活動を閲覧するためにはグループに属している必要があります。';
 $string['notpublic'] = '非公開!';
 $string['nousersmatching'] = 'ユーザ「 $a 」は見つかりませんでした。';
