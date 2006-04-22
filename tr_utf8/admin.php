@@ -171,7 +171,7 @@ $string['updatelangs'] = 'Dil Paketlerini Güncelle';
 $string['upgradelogs'] = 'Tam işlevsellik için, eski kayıt dosyalarınız güncellenmeli. <a href=\"$a\">Daha fazla bilgi</a>';
 $string['upgradesure'] = 'Moodle dosyalarınız değişti ve otomatik olarak sunucunuzu şu sürüme terfi etmek üzeresiniz:<br /><br />
 <strong>$a</strong> <br /><br />
-Bunu yaptığınızda tekrar geri dönemezsiniz.<br /><br />>Bu sunucuyu bu sürüme terfi etmek istediğinizden emin misiniz?<br /><br />';
+Bunu yaptığınızda tekrar geri dönemezsiniz.<br /><br />Bu sunucuyu bu sürüme terfi etmek istediğinizden emin misiniz?<br /><br />';
 $string['upgradingdata'] = 'Veri güncelleniyor';
 $string['upgradinglogs'] = 'Loglar güncelleniyor';
 $string['upwards'] = 'yukarısı';
