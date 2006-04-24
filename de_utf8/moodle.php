@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // moodle.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['action'] = 'Aktion';
@@ -207,6 +207,7 @@ $string['convertingwikitomarkdown'] = 'Konvertierung Wiki zu Markdown';
 $string['cookiesenabled'] = '<b>Wichtiger Hinweis:</b> <br />Cookies müssen in Ihrem Browser aktiviert sein. Ansonsten gelangen Sie immer wieder auf diese Seite.';
 $string['cookiesnotenabled'] = 'Cookies sind zur Zeit in Ihrem Browser deaktiviert.';
 $string['copy'] = 'Kopiere';
+$string['copyasnoun'] = 'Kopie';
 $string['copyingcoursefiles'] = 'Kopiere Kursdateien';
 $string['copyinguserfiles'] = 'Kopiere Benutzerdateien';
 $string['copyingzipfile'] = 'Kopiere zip-Datei';
@@ -626,6 +627,7 @@ $string['htmlfilesonly'] = 'Nur HTML-Dateien';
 $string['htmlformat'] = 'Sauberes HTML-Format';
 $string['icqnumber'] = 'ICQ-Nummer';
 $string['idnumber'] = 'Identifizierungsnummer';
+$string['idnumbercourse'] = 'Kurs ID-Nummer';
 $string['import'] = 'Import';
 $string['importactivities'] = 'Aktivitäten aus anderen Kursen importieren';
 $string['importdata'] = 'Kursdaten importieren';
@@ -782,6 +784,7 @@ $string['modulesuccess'] = '$a Tabellen wurden korrekt angelegt';
 $string['moodledocslink'] = 'Moodle Dokumentation für diese Seite ';
 $string['moodleversion'] = 'Moodle-Version';
 $string['more'] = 'mehr';
+$string['moreinformation'] = 'Weitere Informationen über diesen Fehler';
 $string['mostrecently'] = 'neueste';
 $string['move'] = 'Verschieben';
 $string['movecategoryto'] = 'Verschiebe Kursbereich nach:';

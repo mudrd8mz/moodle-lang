@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // enrol_imsenterprise.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
-$string['aftersaving___'] = 'Wenn die Einstellungen gespeichert wurden, können Sie folgendes tun';
+$string['aftersaving...'] = 'Nachdem Sie die Einstellungen gespeichert haben, sollten Sie folgendes tun';
 $string['allowunenrol'] = 'IMS-Datei das <strong>Löschen</string> von Teilnehmer/innen / Trainer/innen erlauben';
 $string['basicsettings'] = 'Grundeinstellungen';
 $string['coursesettings'] = 'Kursdaten-Optionen';

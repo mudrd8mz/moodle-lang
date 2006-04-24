@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // data.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['action'] = 'Aktion';
@@ -21,8 +21,10 @@ $string['bynameondate'] = 'von $a->name - $a->date';
 $string['cancel'] = 'Ändern';
 $string['checkbox'] = 'Ankreuzfeld(er)';
 $string['commentdeleted'] = 'Kommentar gelöscht';
+$string['commentempty'] = 'Kommentar war leer';
 $string['comments'] = 'Kommentare';
 $string['commentsaved'] = 'Kommentare gespeichert';
+$string['commentsn'] = '$a Kommentare';
 $string['configenablerssfeeds'] = 'Mit dieser Funktion aktivieren Sie RSS Feeds für alle Datenbanken. Ncah der Aktivierung an dieser Stelle ist zusätzlich die Aktivierung in jeder einzelnen Datenbank innerhalb der Kursräume erforderlich.';
 $string['confirmdeletefield'] = 'Wollen Sie dieses Feld in der Datenbank wirklich löschen?';
 $string['confirmdeleterecord'] = 'Wollen Sie diesen Datensatz in der Datenbank wirklich löschen?';
@@ -44,6 +46,7 @@ $string['editcomment'] = 'Kommentar bearbeiten';
 $string['editentry'] = 'Eintrag bearbeiten';
 $string['emptyadd'] = 'Das Templateverzeichnis ist derzeit noch leer. Es wird ein Basisformular erstellt....';
 $string['emptyaddform'] = 'Sie haben keine Einträge vorgenommen!';
+$string['entries'] = 'Einträge';
 $string['entrysaved'] = 'Ihr Datenbankeintrag wurde abgespeichert';
 $string['errormustbeteacher'] = 'Diese Seite können Sie nur als Trainer/in bearbeiten!';
 $string['example'] = 'Datenbankmodul-Beispiel';
@@ -95,6 +98,7 @@ $string['namedate'] = 'Datenfeld';
 $string['namefile'] = 'Dateifeld';
 $string['namemenu'] = 'Pulldownmenufeld';
 $string['namemultimenu'] = 'Mehrfachauswahlfeld';
+$string['namenumber'] = 'Zahlenfeld';
 $string['namepicture'] = 'Bildfeld';
 $string['nameradiobutton'] = 'Radiobutton';
 $string['nametext'] = 'Textzeilenfeld';
@@ -109,6 +113,7 @@ $string['nomatch'] = 'Keine passenden Einträge gefunden';
 $string['nomaximum'] = 'Keine Begrenzung';
 $string['norecords'] = 'Keine Einträge in der Datenbank';
 $string['nosingletemplate'] = 'Die Einzelansicht ist noch nicht definiert';
+$string['number'] = 'Zahl';
 $string['numberrssarticles'] = 'RSS-Beiträge';
 $string['numnotapproved'] = 'Wartend';
 $string['numrecords'] = 'Datensätze';
@@ -136,10 +141,13 @@ $string['requireapproval'] = 'Freigabe erforderlich?';
 $string['requiredentries'] = 'Erforderliche Einträge';
 $string['requiredentriestoview'] = 'Einträge erforderlich, bevor Ansicht aller Daten möglich.';
 $string['resettemplate'] = 'Template zurückgesetzt';
+$string['resizingimages'] = 'Größe für Vorschaubilder ...';
 $string['rssglobaldisabled'] = 'Deaktiviert. Beachten Sie die Einstellungsseite für die Variablen.';
 $string['rsshowmany'] = '(Zahl der letzten Einträge die angezeigt werden sollen, 0 deaktiviert RSS)';
 $string['rsstemplate'] = 'RSS-Ansicht';
 $string['save'] = 'Speichern';
+$string['saveandadd'] = 'Speichern und weitere hinzufügen';
+$string['saveandview'] = 'Speichern und anzeigen';
 $string['savesettings'] = 'Einstellungen speichern';
 $string['savetemplate'] = 'Ansicht speichern';
 $string['sendinratings'] = 'Meine letzten Bewertungen übertragen';

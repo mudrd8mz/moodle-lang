@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6 development (2006032001)
+      // chat.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['beep'] = 'Signalton';
@@ -8,6 +8,7 @@ $string['chatname'] = 'Link (Kursseite)';
 $string['chatreport'] = 'Chat-Sitzungen';
 $string['chattime'] = 'Nächste Chat-Sitzung';
 $string['configmethod'] = 'In der Standardeinstellung fragen die Clients auf dem Server nach Aktualisierungen nach. Dazu ist keine Konfiguration erforderlich. Das Verfahren funktioniert immer. Es führt jedoch zu einer hohen Belastung des Servers durch dauernde Anfragen. Die Verwendung des Server Daemon erfordert einen Shell-Zugang zu Unix, es führt jedoch zu einem schnelleren Chatablauf.';
+$string['confignormalupdatemode'] = 'Chatroom-Aktualisierungen arbeiten in der Regel im <em>Keep-Alive-Modus</em> von HTTP 1.1 zuverlässig. Dies beansprucht den Server jedoch stark. Eine weiterentwickelte Möglichkeit nutzt die <em>Stream-Strategie</em> zur Aktualisierung der Anzeige bei den Nutzer/innen. Die <em>Stream-Einstellung</em> nutzt die Möglichkeiten des Servers (ähnlich wie chatd) besser. Es kann jedoch sein, dass Ihr Server dies nicht unterstützt.';
 $string['configoldping'] = 'Bei inaktiven Teilnehmer/innen wird davon ausgegangen, dass sie den Chat verlassen haben. Nach welcher Zeitdauer soll dies angenommen werden?';
 $string['configrefreshroom'] = 'Wie oft soll der Chatraum aktualisiert werden? (in Sekunden).  Ein niedriger Wert lässt den Chatraum schneller erscheinen, führt aber zu höherer Serverlast, wenn viele Leute chatten.';
 $string['configrefreshuserlist'] = 'Wie häufig soll die Teilnehmerliste aktualisiert werden? (Zeit in Sekunden)';
@@ -41,6 +42,8 @@ $string['neverdeletemessages'] = 'Mitteilungen nie löschen';
 $string['nextsession'] = 'Nächste geplante Sitzung';
 $string['noguests'] = 'Der Chat ist für Gäste nicht zugänglich.';
 $string['nomessages'] = 'Keine Nachrichten bisher';
+$string['normalkeepalive'] = 'KeepAlive';
+$string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Kein Termin vorgesehen';
 $string['repeatdaily'] = 'Jeden Tag zur gleichen Zeit';
 $string['repeatnone'] = 'Keine Antworten - nur festgelegte Zeiten veröffentlichen';

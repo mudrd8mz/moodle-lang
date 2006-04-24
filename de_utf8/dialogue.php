@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // dialogue.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['addmynewentries'] = 'Meine neuen Einträge hinzufügen.';
@@ -9,6 +9,7 @@ $string['allowmultiple'] = 'Sie können mehr als einen Dialog mit der gleichen P
 $string['allowstudentdialogues'] = 'Dialoge zwischen Teilnehmer/innen sind erlaubt';
 $string['close'] = 'Schließen';
 $string['closed'] = 'geschlossen';
+$string['closeddialogues'] = 'Geschlossene Dialoge';
 $string['confirmclosure'] = 'Sie wollen diesen Dialog mit $a schließen. Geschlossene Dialoge können nicht wieder bearbeitet werden. Wenn Sie einen Dialog schließen, können Sie ihn weiterhin ansehen, aber nichts mehr hinzufügen. Sie müssen einen neuen Dialog beginnen, wenn Sie weiter mit dieser Person den Dialog führen wollen.<br /><br /> Sind Sie sicher, dass Sie diesen Dialog beenden möchten ?';
 $string['deleteafter'] = 'Geschlossenen Dialoge nach (Tagen) löschen';
 $string['dialogueclosed'] = 'Der Dialog wurde geschlossen.';
@@ -47,6 +48,7 @@ $string['open'] = 'Offen';
 $string['openadialoguewith'] = 'Einen Dialog öffnen mit';
 $string['opendialogue'] = 'Dialog öffnen';
 $string['opendialogueentries'] = 'Dialogeinträge öffnen';
+$string['opendialogues'] = 'Dialoge öffnen';
 $string['pane0'] = 'Einen Dialog öffnen';
 $string['pane1'] = '$a Dialoge erwarten eine Antwort von Ihnen.';
 $string['pane1one'] = 'Ein Dialog erwartet eine Antwort von Ihnen.';

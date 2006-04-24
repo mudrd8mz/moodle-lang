@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 development (2005101200)
+      // resource.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['addresource'] = 'Material hinzufügen';
+$string['back'] = 'Zurück';
+$string['browserepository'] = 'Repository durchsuchen';
+$string['choose'] = 'Auswählen';
 $string['chooseafile'] = 'Wählen Sie ein Datei aus oder laden Sie eine auf den Server';
 $string['chooseparameter'] = 'Parameter auswählen';
 $string['configallowlocalfiles'] = 'Beim Erstellen neuer Arbeitsunterlagen können  Verlinkungen zu lokalen Dateisystemen, Festplatten oder CD-Laufwerken angelegt werden. Das ist sinnvoll wenn in einem Schulungsraum alle Nutzer/innen Zugriff auf gemeinsam Netzwerkverzeichnisse oder CD-Laufwerke haben. Evtl. müssen Sie jedoch Sicherheitseinstelungen des Browsers anpassen.';
@@ -24,10 +27,12 @@ $string['configsecretphrase'] = 'Dieser versteckte Wert wird verwandt, um einen 
 $string['configwebsearch'] = 'Wenn eine URL als Webseite oder Link eingefügt wird soll diese Seite dem Benutzer bei der Suche nach einer URL unterstützen.';
 $string['configwindowsettings'] = 'Stellen Sie die Anfangswerte für die Fenstereinstellungen im Formular zur Bereitstellung neuer Arbeitsunterlagen ein. Nach dem ersten Öffnen kann diese individuell angepasst werden.';
 $string['deploy'] = 'Verwenden';
+$string['deployall'] = 'Alle verweden';
 $string['directlink'] = 'Direkter Link zu dieser Datei';
 $string['directoryinfo'] = 'Alle Dateien im ausgewählten Verzeichnis werden angezeigt';
 $string['display'] = 'Fenster';
 $string['editingaresource'] = 'Material bearbeiten';
+$string['emptyfolder'] = 'Leerer Ordner';
 $string['encryptedcode'] = 'Verschlüsselter Code';
 $string['example'] = 'Beispiel';
 $string['exampleurl'] = 'http://www.beispiel.de/Beispielverzeichnis/Beispieldatei.html';
@@ -51,6 +56,8 @@ $string['maindirectory'] = 'Hauptverzeichnis für Dateien';
 $string['modulename'] = 'Arbeitsmaterial';
 $string['modulenameplural'] = 'Arbeitsmaterialien';
 $string['navigationbuttons'] = 'Navigationsbuttons';
+$string['navigationmenu'] = 'Navigationsmenu an der Seite';
+$string['navigationup'] = 'Aufwärtsbutton';
 $string['neverseen'] = 'Nie gelesen';
 $string['newdirectories'] = 'Die Verzeichnis-Verknüpfungen anzeigen';
 $string['newfullscreen'] = 'Den ganzen Bildschirm ausfüllen';
@@ -64,7 +71,9 @@ $string['newtoolbar'] = 'Die Werkzeugleiste anzeigen';
 $string['newwidth'] = 'Standard Fensterbreite (in Pixeln)';
 $string['newwindow'] = 'Neues Fenster';
 $string['newwindowopen'] = 'Dieses Quelle in einem neuen Popup-Fenster anzeigen';
+$string['next'] = 'Nächster';
 $string['notallowedlocalfileaccess'] = 'Der Zugriff auf lokale Dateiressourcen ist zur Zeit nicht aktiviert. Daher sind die Materialien nicht verfügbar.';
+$string['notdeployed'] = 'Nicht genutzt';
 $string['note'] = 'Anmerkung';
 $string['notefile'] = 'Um mehr als eine Datei für diesen Kurs hochzuladen (damit diese in der Liste erscheinen) benutzen Sie bitte den 
 <a href=\"$a\">Datei-Manager</a>.';
@@ -78,6 +87,10 @@ $string['parameter'] = 'Einstellung';
 $string['parameters'] = 'Einstellungen';
 $string['popupresource'] = 'Diese Quelle erscheint in einem Pop-Up-Fenster';
 $string['popupresourcelink'] = 'Wenn es nicht klappt, klicken Sie hier $a';
+$string['preview'] = 'Vorschau';
+$string['previous'] = 'Vorherige';
+$string['redeploy'] = 'Nochmal verwenden';
+$string['repository'] = 'IMS Repository';
 $string['resourcetype'] = 'Typ der Quelle';
 $string['resourcetype1'] = 'Referenz';
 $string['resourcetype2'] = 'Internet-Seite';
@@ -98,7 +111,9 @@ $string['resourcetypetext'] = 'Erstellen einer Textseite (ohne Editor)';
 $string['searchweb'] = 'Suche nach einer Webseite';
 $string['serverurl'] = 'Server URL ($a->wwwroot)';
 $string['showcourseblocks'] = 'Kursblöcke anzeigen';
+$string['skipsubmenus'] = 'Submenuseiten überspringen';
 $string['tableofcontents'] = 'Inhaltsverzeichnis';
+$string['upbutton'] = 'Aufwärts';
 $string['variablename'] = 'Name der Variable';
 $string['viewims'] = 'IMS  Contentpaket anzeigen';
 $string['vol'] = 'Vol';

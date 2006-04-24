@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // glossary.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['addcomment'] = 'Kommentar einfügen';
@@ -95,6 +95,7 @@ $string['explainalphabet'] = 'Durchsuche das Glossar unter Verwendung des Index.
 $string['explainexport'] = 'Eine Datei wurde erstellt. <br />Downloaden Sie die Datei und bewahren Sie sie sicher auf. Sie können Sie jederzeit importieren oder in einen anderen Kurs einfügen.';
 $string['explainimport'] = 'Wählen Sie die zu importierende Datei aus und legen Sie die Kriterien des weiteren Vorgehens fest. <p>Löst den Vorgang aus und zeigt die Ergebnisse.';
 $string['explainspecial'] = 'Zeige Einträge, die nicht mit einem Buchstaben beginnen.';
+$string['exportedentry'] = 'Exportierte Einträge';
 $string['exportentries'] = 'Glossar exportieren';
 $string['exportfile'] = 'Glossar in Datei exportieren';
 $string['exportglossary'] = 'Export des Glossars';

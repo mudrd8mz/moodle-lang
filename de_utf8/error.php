@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // error.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['adminprimarynoedit'] = 'Der Hauptadmin kann nicht von anderen bearbeitet werden';
@@ -45,15 +45,19 @@ $string['notavailable'] = 'Dies ist zur Zeit nicht verfügbar.';
 $string['onlyadmins'] = 'DieseFunktion können nur Admins ausführen';
 $string['onlyeditingteachers'] = 'Diese Funktion können nur Trainer/innen mit Bearbeitungsrecht ausführen.';
 $string['onlyeditown'] = 'Sie können nur eigene Informationen bearbeiten';
+$string['pagenotexist'] = 'Ein unerwarteter  Fehler ist aufgetreten (Versuch eine nicht bestehende Seite zu erreichen). ';
+$string['pleasereport'] = 'Wenn Sie etwas Zeit haben, informieren Sie uns darüber, was Sie versucht haben, bevor der Fehler auftrat.';
 $string['pluginrequirementsnotmet'] = 'Das Plugin \"$a->pluginname\" ($a->pluginversion) konnte nicht installiert werden. Es erfordert eine neuere Version von Moodle (Sie verwenden zur Zeit Version $a->currentmoodle, benötigt wird Version $a->requiremoodle).';
 $string['processingstops'] = 'Der Prozess wurde an dieser Stelle gestoppt. Verbleibende Schritte wurden nicht mehr durchgeführt.';
 $string['remotedownloadnotallowed'] = 'Der Download von Komponenten auf Ihren Server ist nicht erlaubt (allow_url_fopen ist deaktiviert). <br/><br/> Die Datei <a href=\"$a->url\">$a->url</a> muß manuell heruntergeladen werden. Kopieren Sie die Datei nach \"$a->dest\" auf dem Server und entpacken Sie sie dort. ';
 $string['restricteduser'] = 'Sorry, Sie sind gegenwärtig nicht zu dieser Aktion berechtigt.';
+$string['sendmessage'] = 'Mitteilung senden';
 $string['sessionerroruser'] = 'Die Zeitdauer für Ihre Sitzung wurde überschritten oder ein anderer Fehler ist eingetreten. Loggen Sie sich bitte neu ein.';
 $string['sessionerroruser2'] = 'Ein Serverfehler ist aufgetreten. Er betrifft Ihre Login Session. Loggen Sie sich bitte neu ein und starten Sie Ihren Browser noch einmal.';
 $string['sessionipnomatch'] = 'Sorry, Ihre IP-Adresse scheint sich seit Ihrem letzten Login geändert zu haben. Dieses Sicherheitsfeature schützt Sie vor dem Diebstahl Ihrer Identität durch Hacker während Sie auf der Seite arbeiten. Normale Nutzer sehen diese Mitteilung nicht - bitten Sie den Administrator um Hilfe.';
 $string['statscatchupmode'] = 'Statistiken sind im sog. catchup-Modus. Bisher sind $a->daysdone Tage verarbeitet und $a->dayspending Tage werden noch bearbeitet. Überprüfen Sie es später noch einmal.';
 $string['unknowncourse'] = 'Unbekannter Kursname \"$a\"';
+$string['unknownuseraction'] = 'Entschuldigung, dieser Nutzeraktion wurde nicht verstanden.';
 $string['usernotaddederror'] = 'Nutzer \"$a\" wurde nicht hinzugefügt - unbekannter Fehler';
 $string['usernotaddedregistered'] = 'Nutzer \"$a\" wurde nicht hinzugefügt - er/sie war bereits registriert';
 $string['usernotavailable'] = 'Sie können die Details für diese/n Nutzer/in nicht einsehen';

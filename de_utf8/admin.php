@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // admin.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['adminseesallevents'] = 'Administrator/innen sehen alle Termine';
@@ -26,6 +26,7 @@ $string['configallowusermailcharset'] = 'Mit der Aktivierung erlauben Sie jeder/
 $string['configallowuserthemes'] = 'Die Einstellung erlaubt Nutzer/innen, ein Theme auszuwählen. Damit wird das Theme der Installation überschrieben, nicht aber kursspezifische Theme-Einstellungen.';
 $string['configallusersaresitestudents'] = 'Hier legen Sie den Zugriff zu den Lernaktivitäten auf der Startseite der moodle-Installation fest. Wenn Sie \'Ja\' eintragen, kann jede/r bestätigte Teilnehmer/in, die Lernaktivitäten auf der Startseite durchführen. Wenn Sie \'Nein\' eintragen, können nur Teilnehmer/innen, die derzeit in mindestens einem Kurs eingetragen sind, die Lernaktivitäten auf der Startseite ausführen. Nur die Administrator/innen und spezielle zugelassene Trainer/innen können die Aktivitäten auf der Startseite einrichten und bearbeiten.';
 $string['configautologinguests'] = 'Sollen Gäste automatisch eingeloggt werden, wenn der Kurs den Zugang für Gäste erlaubt?';
+$string['configbloglevel'] = 'Die Einstellung erlaubt den Grad der Öffentlichkeit für Blogeinträge zu beschränken. Beachten Sie: Die Einstellung legt den Wert für den Betrachter/Leser, nicht den Beitragsschreiber oder den Blogtyp fest. Sie können auf Wunsch Blogs auch vollständig deaktivieren.';
 $string['configcachetext'] = 'Diese Einstellung kann größere Sites (oder bei Verwendung von Textfiltern) erheblich beschleunigen. Textkopien werden in ihrer verarbeiteten Fassung für die festgelegte Zeit vorgehalten. Eine zu niedrige Einstellung kann sogar zu einer leichten Verlangsamung führen, bei einer zu hohen Einstellung kann die Aktualisierung der Texte (z.B. mit neuen Links) allerdings zu lange dauernn.';
 $string['configclamactlikevirus'] = 'Behandle die Dateien wie virenhaltige Dateien';
 $string['configclamdonothing'] = 'Behandle die Dateien als ok';
@@ -74,7 +75,7 @@ $string['configloginhttps'] = 'Wenn Sie diese Einstellung aktivieren wird eine s
 ACHTUNG: Die Einstellung erfordert eine gesonderte Aktivierung von https auf dem Server. Wenn diese NICHT besteht, können Sie sich selbst vom Zugriff zur Site ausschließen!!!';
 $string['configloglifetime'] = 'Dies definiert die Zeitdauer, für die die Statistiken der Nutzer-Aktivitäten gespeichert werden. Ältere Statistiken werden automatisch gelöscht. Speichern Sie diese Daten nur so lange, wie sie unbedingt benötigt werden. Wenn Sie einen ausgelasteten Server haben und Geschwindigkeitseinbrüche feststellen, sollten Sie den Statistik-Zeitraum reduzieren.';
 $string['configlongtimenosee'] = 'Wenn sich Teilnehmer/innen nach einer sehr langen Zeit nicht mehr angemeldet haben, werden Sie automatisch nach dieser Zeit aus dem Kurs ausgetragen.';
-$string['configmaxbytes'] = 'Dieser Wert legt für die gesamte Site die maximale Größe für das Hochladen von Dateien fest. Der Eintrag wird begrenzt durch die PHP-Einstellung \'upload_max_filesize\' und die Apache-Einstellung \'LimitRequestBody\'. Diese Rahmeneinstellung begrenzt also auch die maximal wählbare Größe auf Kurs- oder Modulebene.';
+$string['configmaxbytes'] = 'Dieser Wert legt für die gesamte Site die maximale Größe für das Hochladen von Dateien fest. Der Eintrag wird begrenzt durch die PHP-Einstellung \'post_max-Sites\' und \'upload_max_filesize\' und die Apache-Einstellung \'LimitRequestBody\'. Diese Rahmeneinstellung begrenzt also auch die maximal wählbare Größe auf Kurs- oder Modulebene.';
 $string['configmaxeditingtime'] = 'Hier bestimmen Sie die Zeitspanne, in der die Teilnehmer/innen die Foren-Beiträge, Glossar-Kommentare usw. erneut bearbeiten dürfen. Normalerweise sind 30 Minuten ein guter Wert. ';
 $string['configmessaging'] = 'Soll das Messaging-System zwischen Nutzer/innen aktiviert werden?';
 $string['configmymoodleredirect'] = 'Die Einstellung führt Nicht-Admins beim Login automatisch zur Seite /my und ersetzt die normale Breadcrumb-Navigation durch /my';
@@ -209,9 +210,16 @@ $string['order3'] = 'Dritte';
 $string['pathconvert'] = 'Pfad <i>convert</i> Binary';
 $string['pathdvips'] = 'Pfad <i>dvips</i> Binary';
 $string['pathlatex'] = 'Pfad <i>latex</i> Binary';
+$string['pathtopgdump'] = 'Pfad zu pg_dump';
+$string['pathtopgdumpdesc'] = 'Sie benötigen diese Einstellung nur wenn mehr als ein pg_dump auf dem System vorhanden ist (z.B. wenn mehr als eine Version von PostgreSQL installiert ist).';
+$string['pathtopgdumpinvalid'] = 'Ungültiger Pfad zu pg_dump - entweder falscher Pfad oder nicht ausführbar';
+$string['pathtopsql'] = 'Pfad zu psql';
+$string['pathtopsqldesc'] = 'Sie benötigen diese Einstellung nur wenn mehr als ein psql auf dem System vorhanden ist (z.B. wenn mehr als eine Version von PostgreSQL installiert ist).';
+$string['pathtopsqlinvalid'] = 'Ungültiger Pfad zu psql - entweder falscher Pfad oder nicht ausführbar';
 $string['pgcluster'] = 'PostgreSQL Cluster';
 $string['pgclusterdescription'] = '<pre>PostgreSQL Versions-/Cluster-Parameter für Kommandozeilenoperationen. Wenn Sie nur eine PostgreSQL auf Ihrem System verwenden oder sich nicht sicher sind, lassen Sie das Feld leer.</pre>';
 $string['pleaseregister'] = 'Registrieren Sie Ihre Site, um diesen Button zu entfernen';
+$string['releasenoteslink'] = 'Weitere Informationen über diese Version online: <a target=\"_new\" href=\"$a\">Versionsinformation</a> ';
 $string['remotelangnotavailable'] = 'Moodle kann keine Verbindung zu download.moodle.org herstellen. Das Sprachpaket kann daher nicht automatisch aktualisiert werden. Laden Sie das/die  ausgewählte(n) Sprachpaket(e) herunter und kopieren Sie es in das Verzeichnis $a und entpacken Sie es manuell.';
 $string['renameerrors'] = 'Fehler beim Umbenennen';
 $string['sitelangchanged'] = 'Die Spracheinstellungen für die Site wurden erfolgreich geändert.';
@@ -240,7 +248,7 @@ $string['upgradeforumread'] = 'In der Version 1.5 können Sie Forenbeiträge als
 $string['upgradeforumreadinfo'] = 'Mit einer neuen Funktion in moodle 1.5 können Forenbeiträge als gelesen/ungelesen markiert werden. Um diese Funktion zu verwenden, müssen die Datenbanktabellen aktualisiert werden. Je nach Größe der Datenbank kann dieser Vorgang längere Zeit (Stunden) erfordern. Führen Sie diesen Vorgang am besten in Zeiten mit wenigen Zugriffen aus. Die Site funktioniert während der Umstellung weiter. Die Nutzer/innen bemerken davon nichts. Wenn Sie den Vorgang einmal gestartet haben, darf er nicht unterbrochen werden. Lassen Sie das Browser-Fenster dabei offen. Sollten Sie das Browser-Fenster versehentlich schließen, können Sie den Prozess neu starten. <br />Wollen Sie nun starten?';
 $string['upgradelogs'] = 'Für die vollständige Funktionsfähigkeit müssen die alten Log-Daten aktualisiert werden. <a href=\"$a\">More information</a>';
 $string['upgradelogsinfo'] = 'Die Art und Weise in der Log-Daten gespeichert werden wurde verändert. Damit Sie Ihre alten Log-Daten mit den Einzelaktivitäten einsehen können, müssen die alten Log-Daten aktualisiert werden. Je nachdem wie viele Daten auf Ihrer Seite gespeichert sind, kann dieser Vorgang eine längere Zeit beanspruchen (u.U. mehrere Stunden). Der Vorgang beansprucht die Datenbank bei umfangreichen Seiten stark. Wenn Sie den Vorgang einmal gestartet haben, müssen Sie ihn ohne Unterbrechung abschließen lassen. Das Browser-Fenster darf nicht geschlossen und die Internetverbindung nicht unterbrochen werden in dieser Zeit. Der Zugriff auf Ihre Site durch andere Anwender ist dadurch nicht beeinträchtigt. <br /><br>Wollen Sie nun Ihre Log-Daten aktualisieren?';
-$string['upgradesure'] = 'Moodledateien wurden verändert. Ihre Installation von Moodle wird auf die Version $a aktualisiert.
+$string['upgradesure'] = 'Moodledateien wurden verändert. Ihre Installation von Moodle wird auf die Version <strong>$a</strong> aktualisiert.
 <p>Wenn Sie dies tun, können Sie nicht zu einer früheren Version zurückkehren.</p>
 <p>Sind Sie sicher, dass Sie das Update ausführen wollen?</p>';
 $string['upgradingdata'] = 'Daten aktualisieren';
