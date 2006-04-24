@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.6 development (2006032200)
+      // dialogue.php - created with Moodle 1.6 Beta 3 (2006042401)
 
 
 $string['addmynewentries'] = 'Yeni Kayıtları ekle';
@@ -9,8 +9,9 @@ $string['allowmultiple'] = 'Aynı kişiyle birden fazla söyleşiye izin ver';
 $string['allowstudentdialogues'] = 'Öğrenciden öğrenciye söyleşilere izin ver';
 $string['close'] = 'Kapat';
 $string['closed'] = 'Kapalı';
+$string['closeddialogues'] = 'Kapanmış Söyleşiler';
 $string['confirmclosure'] = '$a ile söyleşiyi kapatmak üzeresiniz. Kapatılan söyleşiler tekrar açılamaz. Bu söyleşiyi kapatırsanız görebilir, fakat yeni söz ekleyemezsiniz. Ayrıca bu kişiyle yeniden \"konuşmak\" için başka bir söyleşi başlatmak zorundasınız..<br /><br /> Bu söyleşiyi kapatmak istediğinizden emin misiniz?';
-$string['deleteafter'] = 'Kapanmış Söyleşileri (Gün) sonra sil';
+$string['deleteafter'] = 'Kapanmış söyleşileri (gün) sonra sil';
 $string['dialogueclosed'] = 'Söyleşi kapatıldı';
 $string['dialogueintro'] = 'Söyleşi Tanıtımı';
 $string['dialoguemail'] = '$a->userfrom kullanıcısı, \'$a->dialogue\' isimli söyleşinize yeni bir söz ekledi.
@@ -51,6 +52,7 @@ $string['open'] = 'Açık';
 $string['openadialoguewith'] = 'Bununla bir söyleşi aç';
 $string['opendialogue'] = 'Söyleşi Aç';
 $string['opendialogueentries'] = 'Açık söyleşi kayıtları';
+$string['opendialogues'] = 'Açık Söyleşiler';
 $string['pane0'] = 'Bir söyleşi aç';
 $string['pane1'] = '$a söyleşi sizden Cevap bekliyor';
 $string['pane1one'] = '1 söyleşi sizden Cevap bekliyor';
