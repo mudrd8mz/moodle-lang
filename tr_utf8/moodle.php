@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // moodle.php - created with Moodle 1.6 Beta 3 (2006042401)
 
 
 $string['action'] = 'Eylem';
@@ -193,11 +193,11 @@ $string['clammovedfilebasic'] = 'Dosya karantina dizinine taşındı.';
 $string['clamquarantinedirfailed'] = 'Dosya, belirtilen karantina klasörüne taşınamadı: $a. Bunu, dosyada virüs bulunduğunda dosyalar silinsin olarak düzeltmek durumundasınız.';
 $string['clamunknownerror'] = 'Antivirus yazılımında bilinmeyen bir hata var.';
 $string['cleaningtempdata'] = 'Geçici veri temizleniyor';
-$string['clicktochange'] = 'Büyütmek için tıkla';
+$string['clicktochange'] = 'Değiştirmek için tıkla';
 $string['closewindow'] = 'Bu pencereyi kapat';
 $string['comparelanguage'] = 'Geçerli dili karşılaştır ve düzenle';
-$string['complete'] = 'Tamamlandı';
-$string['completereport'] = 'Tamamlanmış rapor';
+$string['complete'] = 'Tamamlanmış';
+$string['completereport'] = 'Bütün raporlar';
 $string['configuration'] = 'Yapılandırma';
 $string['confirm'] = 'Onayla';
 $string['confirmed'] = 'Kaydınız onaylandı';
@@ -231,7 +231,7 @@ $string['coursefiles'] = 'Kurs dosyaları';
 $string['courseformats'] = 'Kurs biçimleri';
 $string['coursegrades'] = 'Kurs notları';
 $string['coursehidden'] = 'Bu kurs şu anda öğrencilere açık değildir';
-$string['courseimportnotaught'] = 'Hiçbir kursta düzenleyen eğitimci olarak görünmediğiniz için çıkartabileceğiniz bir kurs yok.';
+$string['courseimportnotaught'] = 'Hiç bir kursta düzenleyen eğitimci olarak görünmediğiniz için çıkartabileceğiniz bir kurs yok.';
 $string['courseinfo'] = 'Kurs bilgisi';
 $string['coursemessage'] = 'Kurs kullanıcılarına mesaj';
 $string['coursenotaccessible'] = 'Bu kurs herkesin erişimine açık değildir';
@@ -255,7 +255,7 @@ $string['coursescategory'] = 'Aynı kategorideki kurslar';
 $string['coursespending'] = 'Onay bekleyen kurslar';
 $string['coursestaught'] = 'Aldığım kurslar';
 $string['courseupdates'] = 'Kurs güncellemeleri';
-$string['courseuploadlimit'] = 'Dosya yükleme sınırı';
+$string['courseuploadlimit'] = 'Kursa dosya yükleme sınırı';
 $string['create'] = 'Oluştur';
 $string['createaccount'] = 'Yeni hesabımı oluştur';
 $string['createfolder'] = '$a içinde bir dizin oluştur';
@@ -280,12 +280,12 @@ $string['currency'] = 'Para birimi';
 $string['currentcourseadding'] = 'Var olan kurs, bilgiyi ekle';
 $string['currentcoursedeleting'] = 'Var olan kurs, önceki dersi sil';
 $string['currentlanguage'] = 'Geçerli dil';
-$string['currentlocaltime'] = 'bölgesel saatiniz';
+$string['currentlocaltime'] = 'şu anki yerel zamanınız';
 $string['currentlyselectedusers'] = 'Şu an seçilen kullanıcılar';
 $string['currentpicture'] = 'Resim';
 $string['currentrelease'] = 'Şimdiki yayım bilgisi';
 $string['currentversion'] = 'Şimdiki sürüm';
-$string['databasechecking'] = 'Moodle veritabanı $a->oldversion sürümünden $a->newversion sürümüne yükseltiliyor';
+$string['databasechecking'] = 'Moodle veritabanı $a->oldversion sürümünden $a->newversion sürümüne yükseltiliyor...';
 $string['databaseperformance'] = 'Veritabanı performansı';
 $string['databasesetup'] = 'Veritabanı ayarlanıyor';
 $string['databasesuccess'] = 'Veritabanı başarıyla güncellendi';
@@ -294,7 +294,7 @@ $string['databaseupgradeblocks'] = 'Şimdiki blok sürümü: $a';
 $string['databaseupgradelocal'] = 'Kişiselleştirilmiş yerel veritabanı sürümü $a';
 $string['databaseupgrades'] = 'Veritabanı güncelleştiriliyor';
 $string['date'] = 'Tarih';
-$string['datechanged'] = 'Değiştirme Tarihi';
+$string['datechanged'] = 'Değiştirme tarihi';
 $string['datemostrecentfirst'] = 'Tarih - en yeniler önce';
 $string['datemostrecentlast'] = 'Tarih - en yeniler sonra';
 $string['day'] = 'gün';
@@ -302,12 +302,12 @@ $string['days'] = 'gün';
 $string['decodinginternallinks'] = 'Dahili bağlantılar çözülüyor';
 $string['default'] = 'Varsayılan';
 $string['defaultcoursefullname'] = 'Kursun Tam Adı 101';
-$string['defaultcourseshortname'] = 'UE-101';
+$string['defaultcourseshortname'] = 'UE101';
 $string['defaultcoursestudent'] = 'Öğrenci';
 $string['defaultcoursestudents'] = 'Öğrenci(ler)';
 $string['defaultcoursesummary'] = 'Bu kursun ne hakkında olduğunu açıklayan özlü ve ilgi çekici bir paragraf yazın';
 $string['defaultcourseteacher'] = 'Eğitmen';
-$string['defaultcourseteachers'] = 'Eğitmen(ler)';
+$string['defaultcourseteachers'] = 'Eğitimci(ler)';
 $string['delete'] = 'Sil';
 $string['deleteall'] = 'Tümünü sil';
 $string['deletecategorycheck'] = '<b>\'$a\'</b> kategosini tamamen silmek istediğinizden emin misiniz?<br />Bu kategoride herhangi bir kurs varsa bu kurslar \'Ana kategori\'ye veya \'Çeşitli kategorisi\'ne taşınacak.';
@@ -335,7 +335,7 @@ $string['directorypaths'] = 'Dizin Yolları';
 $string['disable'] = 'Pasifleştir';
 $string['displayingfirst'] = 'Sadece ilk $a->count $a->things gösteriliyor';
 $string['displayingrecords'] = '$a kayıt gösteriliyor';
-$string['displayingusers'] = '$a->start -den $a->end -e kullanıcıları gösteriyor';
+$string['displayingusers'] = '$a->start - $a->end arası kullanıcılar gösteriyor';
 $string['documentation'] = 'Moodle Belgeleri';
 $string['donotask'] = 'Sorma';
 $string['down'] = 'Aşağı';
@@ -345,14 +345,14 @@ $string['doyouagree'] = 'Şartları okuyup kabul ediyor musunuz?';
 $string['duplicate'] = 'Kopyasını çıkar';
 $string['duplicatinga'] = 'Kopyası çıkartılıyor: $a';
 $string['duplicatingain'] = '$a->in içindeki $a->what \'nın kopyası çıkartılıyor';
-$string['edhelpaspellpath'] = 'Sözcük-denetimini kullanabilmeniz için sunucuda <strong>aspell 0.50</strong> veya daha yeni bir sürümünün olması ve aspell programının doğru yolunun belirtilmesi gerekiyor. Bu genellikle Unix/Linux sistemlerinde <strong>/usr/bin/aspell</strong> yolundadır fakat bazen başka bir yerde olabilir.';
+$string['edhelpaspellpath'] = 'Sözcük-denetimini kullanabilmeniz için sunucuda <strong>aspell 0.50</strong> veya daha yeni bir sürümünün olması ve aspell programının yolunun doğru belirtilmesi gerekiyor. Bu genellikle Unix/Linux sistemlerinde <strong>/usr/bin/aspell</strong> yolundadır fakat bazen başka bir yerde olabilir.';
 $string['edhelpbgcolor'] = 'Düzenleme alanının arkaplan rengini tanımlayın. <br />Geçerli değerlere örnekler: #FFFFFF veya white';
-$string['edhelpcleanword'] = 'Bu, Word\'e ait biçimlendirme filtresini etkinleştirir.';
+$string['edhelpcleanword'] = 'Bu, Word\'e ait biçimlendirme filtresini etkinleştirir/pasifleştirir.';
 $string['edhelpenablespelling'] = 'Sözcük denetimini etkinleştirin veya pasifleştirin. Etkinleştirildiğinde <strong>aspell</strong> sunucuda kurulu olmalıdır. İkinci değer <strong>varsayılan sözlük</strong>tür. Aspell kullanıcının kendinin belirtiği dile sahip değilse, buradaki değer kullanılacaktır.';
 $string['edhelpfontfamily'] = 'Font-tipi özelliği genel font adlarının ve/veya font adlarının listesidir. Font tipleri virgül ile ayrılmalı.';
 $string['edhelpfontlist'] = 'Editörde kullanılacak fontları tanımlayın.';
 $string['edhelpfontsize'] = 'Font için varsayılan yazı boyutu. <br />Geçerli değerlere örnekler: medium, large, smaller, larger, 10pt, 11px.';
-$string['edit'] = '$a Düzenle';
+$string['edit'] = 'Düzenle: $a';
 $string['editcoursesettings'] = 'Kurs ayarlarını düzenle';
 $string['editfiles'] = 'Dosyaları düzenle';
 $string['editgroupprofile'] = 'Grup profilini düzenle';
@@ -380,44 +380,43 @@ $string['emailcharset'] = 'E-posta karakter seti';
 $string['emailconfirm'] = 'Hesabınızı onaylayın';
 $string['emailconfirmation'] = 'Merhaba $a->firstname,
 
-\'$a->sitename\' Sitesinde bu eposta adresiyle yeni bir hesap açılmıştır.
+\'$a->sitename\' sitesinde e-posta adresinizle yeni bir hesap açma isteğinde bulunulmuştur.
 
-Yeni hesabınızı onaylamak için aşağıdaki web adresine gidiniz:
+Yeni hesabınızı onaylamak için lütfen aşağıdaki web adresine gidiniz:
 
-  $a->link
+$a->link
 
-Bu bağlantıyı tıkladığınızda yeni sayfada site açılacaktır.
-Eğer açılmıyorsa gezgininizin adres satırına yukarıdaki bağlantıyı kopyalayınız.
+Bu bağlantıyı tıkladığınızda yeni sayfada site açılacaktır. Açılmıyorsa gezgininizin adres satırına yukarıdaki bağlantıyı kopyalayınız.
 
-Saygilar 
-\'$a->sitename\' Yönetimi,
+Yardıma ihtiyacınız varsa lütfen site yöneticisiyle iletişime geçin:
 $a->admin';
 $string['emailconfirmationsubject'] = '$a: Hesap Onayı';
-$string['emailconfirmsent'] = '   <P>Bu eposta adresinize (<B>$a</B>) kaydınızın tamamlanması için bazı açıklamalar içeren bir eposta gönderildi: 
-   <P>Bir sorun çıkması durumunda site yöneticisine başvurunuz.';
-$string['emaildigest'] = 'Eposta özet türü';
-$string['emaildigestcomplete'] = 'Tümü (tam içerikli günlük email)';
-$string['emaildigestoff'] = 'Özet yok (her forum mesajı için tek email)';
-$string['emaildigestsubjects'] = 'Konular (Sadece konulu günlük email)';
+$string['emailconfirmsent'] = '<p>Bu e-posta adresinize (<b>$a</b>) bir mesaj gönderildi.</p>
+<p>Bu mesaj, kaydınızı tamamlamanız için basit yönergeleri içermektedir.</p>
+<p>Bu işlemleri yaparken bir zorlukla karşılaşırsanız site yöneticiyle iletişim kurabilirsiniz.</p>';
+$string['emaildigest'] = 'E-posta özet türü';
+$string['emaildigestcomplete'] = 'Tamamı (bütün mesajları içeren günlük email)';
+$string['emaildigestoff'] = 'Özet yok (her forum mesajı için bir email)';
+$string['emaildigestsubjects'] = 'Konular (sadece konuları içeren günlük email)';
 $string['emaildisable'] = 'Bu email adresi etkin değildir';
-$string['emaildisableclick'] = 'Bu adrese gönderilen tüm epostaları devre dışı bırakmak için burayı tıklayın';
-$string['emaildisplay'] = 'Eposta gösterimi';
-$string['emaildisplaycourse'] = 'Sadece kurs üyelerine adresimi göster';
-$string['emaildisplayno'] = 'Gerçek adresimi gizle';
-$string['emaildisplayyes'] = 'Adresimi göster';
+$string['emaildisableclick'] = 'Bu adrese gönderilen tüm e-postaları devre dışı bırakmak için burayı tıklayın';
+$string['emaildisplay'] = 'E-posta gösterimi';
+$string['emaildisplaycourse'] = 'Adresimi sadece kurs üyelerinin görmesine izin ver';
+$string['emaildisplayno'] = 'Adresimi herkesten gizle';
+$string['emaildisplayyes'] = 'Adresimi herkesin görmesine izin ver';
 $string['emailenable'] = 'Bu email adresi etkindir';
 $string['emailenableclick'] = 'Bu adrese gönderilen tüm epostaları tekrar aktif hale getirmek için burayı tıklayın';
-$string['emailexists'] = 'Bu eposta adresi daha önce kaydedilmiştir.';
-$string['emailformat'] = 'Eposta formatı';
-$string['emailmustbereal'] = 'Uyarı: Eposta adresiniz gerçek olmalıdır';
+$string['emailexists'] = 'Bu e-posta adresi zaten kayıtlı.';
+$string['emailformat'] = 'E-posta formatı';
+$string['emailmustbereal'] = 'Not: E-posta adresiniz gerçek olmalıdır';
 $string['emailnotallowed'] = 'Bu alan adındaki email adreslerine izin verilmemektedir ($a)';
-$string['emailnotfound'] = 'Email adresi veritabanında bulunamadı';
-$string['emailonlyallowed'] = 'Bu email adresi şu izin verilenlerden biri değildir ($a)';
+$string['emailnotfound'] = 'E-posta adresi veritabanında bulunamadı';
+$string['emailonlyallowed'] = 'Bu e-posta adresi izin verilenlerden biri değildir ($a)';
 $string['emailpasswordconfirmation'] = 'Merhaba $a->firstname,
 
-Birisi (büyük ihtimal siz) \'$a->sitename\' hesabınız için yeni bir şifre isteğinde bulundu.
+Birisi (büyük ihtimal siz) \'$a->sitename\' sitesindeki hesabınız için yeni bir şifre isteğinde bulundu.
 
-Bunu onaylamak ve yeni bir şifrenin email adresinize gönderilmesini istiyorsanız, aşağıdaki linki takip edin:
+Bunu onaylıyor ve yeni bir şifrenin e-posta adresinize gönderilmesini istiyorsanız, aşağıdaki linki takip edin:
 
 $a->link
 
@@ -426,12 +425,9 @@ Bir çok mail programı yukarıdaki linki tıklanabilir olarak göstermektedir. 
 Yardıma ihtiyacınız olursa site yöneticisiyle iletişim kurun:
 $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: Şifre değişim onayı';
-$string['emailpasswordconfirmsent'] = 'Email adresinize şifrenizi nasıl değiştireceğinize dair bilgi mesajı gönderildi: <b>$a</b>.
-<p>Bu email, şifre değişimini tamamlamanız için gerekli yönergeleri içermektedir.
-Şayet bu işlemleri yaparken zorluk yaşarsanız site yöneticisiyle iletişim kurabilirsiniz.';
-$string['emailpasswordsent'] = 'Şifre değişimini onayladığınız için teşekkür ederiz.
-<p>Bu email adresinize <b>$a->email</b> yeni şifrenizi içeren bir email gönderdik.
-<p>Yeni şifreniz otomatik olarak oluşturulmuştur ve isterseniz <a href=$a->link>şifre değişim sayfasını</a> kullanarak hatırlayacağınız bir şifre oluşturabilirsiniz.';
+$string['emailpasswordconfirmsent'] = 'E-posta adresinize (<b>$a</b>) bir mesaj gönderildi.<br />Bu mesaj, şifre değişimini tamamlamanız için basit yönergeleri içermektedir.
+Bu işlemleri yaparken zorluk yaşarsanız site yöneticisiyle iletişim kurabilirsiniz.';
+$string['emailpasswordsent'] = 'Şifre değişimini onayladığınız için teşekkür ederiz. Bu e-posta adresinize <b>$a->email</b> yeni şifrenizi içeren bir mesaj gönderildi. Yeni şifreniz otomatik olarak oluşturulmuştur ve isterseniz bunu hatırlaması daha kolay bir şifreyle <a href=\"$a->link\">değiştirebilirsiniz</a>.';
 $string['enable'] = 'Etkinleştir';
 $string['encryptedcode'] = 'Şifrelenmiş kod';
 $string['enroldate'] = 'Tarih aralığı';
@@ -440,18 +436,17 @@ $string['enrolenddaterror'] = 'Kayıt bitiş tarihi kayıt başlangıç tarihind
 $string['enrollable'] = 'Kursa kayıt olunabilir';
 $string['enrolledincourse'] = '\"$a\" kursuna kayıt yapıldı';
 $string['enrolledincoursenot'] = '\"$a\" kursuna kayıt yapılmadı';
-$string['enrollfirst'] = 'Site etkinliklerini görebilmeniz için kurslardan en az bir tanesine kaydolmak durumundasınız.';
+$string['enrollfirst'] = 'Site etkinliklerini kullanmadan önce kurslardan en az bir tanesine kaydolmak zorundasınız.';
 $string['enrolme'] = 'Beni bu kursa kaydet';
-$string['enrolmentconfirmation'] = 'Bu kursa kendi kendinizi kaydetmek üzereseniz. <br /> Bunu yapmak istediğinizden emin misiniz?';
+$string['enrolmentconfirmation'] = 'Bu kursa kendi kendinizi kaydetmek üzeresiniz. <br />Bunu yapmak istediğinizden emin misiniz?';
 $string['enrolmentend'] = 'Kayıt Bitişi';
 $string['enrolmentkey'] = 'Kayıt anahtarı';
 $string['enrolmentkeyfrom'] = 'Bu kurs kaydı için bir defalığına kullanacağınız özel bir \'Kayıt Anahtarı\' gerekmektedir.<br />
 Eğer bu anahtarı bilmiyorsanız bu kişiden isteyebilirsiniz: $a';
-$string['enrolmentkeyhint'] = 'Bu anahtar yanlıştır, tekrar deneyiniz<br />
-(İpucu -  \'$a\' ile başlıyor)';
+$string['enrolmentkeyhint'] = 'Bu kayıt anahtarı yanlıştır, lütfen tekrar deneyin<br />(İpucu - \'$a\' ile başlıyor)';
 $string['enrolmentnew'] = '$a kursuna yeni kayıt';
 $string['enrolmentnewuser'] = '$a->user, \"$a->course\" kursuna kaydoldu';
-$string['enrolmentnointernal'] = 'Manual olarak yapılan kayıtlar şu anda etkin değil';
+$string['enrolmentnointernal'] = 'Elle yapılan kayıtlar şu anda etkin değil';
 $string['enrolmentnotyet'] = 'Üzgünüz, bu kursa şu tarihe kadar erişemezsiniz <br /> $a';
 $string['enrolmentplugins'] = 'Ders Kaydı Eklentileri';
 $string['enrolments'] = 'Ders Kayıtları';
@@ -460,11 +455,11 @@ $string['enrolperiod'] = 'Kayıt süresi';
 $string['enrolstartdate'] = 'Başlangıç tarihi';
 $string['entercourse'] = 'Bu kursa girmek için tıklayınız';
 $string['enteremailaddress'] = 'Şifrenizi sıfırlamak ve yeni şifrenizi
-epostayla göndermek için eposta adresinizi yazınız.';
+e-postayla almak için adresinizi yazınız.';
 $string['entries'] = 'Girdiler';
 $string['error'] = 'Hata';
 $string['errortoomanylogins'] = 'Üzgünüz, giriş için izin verilen deneme sayısını aştınız. Tarayıcınızı yeniden başlatınız.';
-$string['errorwhenconfirming'] = 'Bir hata oluştuğundan dolayı işlem onaylanmadı. Emaildeki bir linki tıklayarak buraya geldiyseniz, bu linkin yarım ya da alt satıra geçmiş halde olmadığından emin olun. Bağlantının düzgün olarak görünmesi için kopyala/yapıştır\'ı kullanabilirsiniz';
+$string['errorwhenconfirming'] = 'Bir hata oluştuğundan dolayı işlem onaylanmadı. Emaildeki bir linki tıklayarak buraya geldiyseniz, bu linkin yarım ya da alt satıra geçmiş halde olmadığından emin olun. Bağlantının düzgün olarak görünmesi için kopyala/yapıştır\'ı kullanabilirsiniz.';
 $string['everybody'] = 'Herkes';
 $string['executeat'] = 'Çalıştır';
 $string['existing'] = 'Mevcut';
@@ -473,7 +468,7 @@ $string['existingcourse'] = 'Mevcut kurs';
 $string['existingcourseadding'] = 'Var olan kurs, bilgiyi ekle';
 $string['existingcoursedeleting'] = 'Var olan kurs, önceki dersi sil';
 $string['existingcreators'] = 'Mevcut kurs oluşturucular';
-$string['existingstudents'] = 'Kayıtlı öğrenci';
+$string['existingstudents'] = 'Kayıtlı öğrenciler';
 $string['existingteachers'] = 'Mevcut eğitmenler';
 $string['expirynotify'] = 'Kayıt bitiş bildirisi';
 $string['expirynotifyemail'] = 'Kursa kayıtlı aşağıdaki öğrencilerin tam $a->threshold gün sonra süreleri bitiyor:
@@ -487,10 +482,10 @@ $a->past
 Aşağıdaki adrese gidip kayıt sürelerini uzatabilrsiniz:
 
 $a->extendurl';
-$string['expirynotifystudents'] = 'Öğrencilere bildir';
+$string['expirynotifystudents'] = 'Öğrencileri bilgilendir';
 $string['expirynotifystudentsemail'] = 'Sevgili öğrenci:
 
-Bu bildiri $a->threshold gün içinde kayıt süresinin biteceği $a->course kursuna kaydınız hakkındadır.
+Bu bildiri, $a->threshold gün içinde kayıt süresinin biteceği $a->course kursuna kaydınız hakkındadır.
 
 Lütfen daha fazla bilgi için eğitimcinizle iletişim kurunuz.';
 $string['expirythreshold'] = 'Aralık';
@@ -501,16 +496,16 @@ $string['failedloginattempts'] = 'Son girişinizden beri $a->attempts hatalı gi
 $string['failedloginattemptsall'] = '$a->accounts hesap için $a->attempts hatalı giriş yapıldı';
 $string['feedback'] = 'Geribildirim';
 $string['file'] = 'Dosya';
-$string['filemissing'] = '$a kayıptır';
-$string['files'] = 'Dosya(lar)';
+$string['filemissing'] = '$a mevcut değil';
+$string['files'] = 'Dosyalar';
 $string['filesfolders'] = 'Dosyalar/klasörler';
 $string['filloutallfields'] = 'Bu formdaki tüm alanları doldurunuz';
 $string['findmorecourses'] = 'Daha fazla kurs bul...';
 $string['firstdayofweek'] = '1';
 $string['firstname'] = 'Ad';
 $string['firsttime'] = 'Buraya ilk defa mı geliyorsunuz?';
-$string['followingoptional'] = 'Aşağıdaki maddeler seçimlidir';
-$string['followingrequired'] = 'Aşağıdaki maddeler zorunludur';
+$string['followingoptional'] = 'Aşağıdakiler isteğe bağlıdır';
+$string['followingrequired'] = 'Aşağıdakiler zorunludur';
 $string['force'] = 'Zorunluluk';
 $string['forcedmode'] = 'zorunlu mod';
 $string['forcelanguage'] = 'Dil zorunluluğu';
@@ -527,20 +522,20 @@ $string['formatlams'] = 'LAMS kurs biçimi';
 $string['formatmarkdown'] = 'Markdown biçimi';
 $string['formatplain'] = 'Düzyazı biçimi';
 $string['formatscorm'] = 'SCORM biçimi';
-$string['formatsocial'] = 'Sosya format';
-$string['formattext'] = 'Program auto-format';
-$string['formattexttype'] = 'Biçim';
-$string['formattopics'] = 'Konu formatı';
-$string['formatweeks'] = 'Haftalık format';
+$string['formatsocial'] = 'Sosyal biçim';
+$string['formattext'] = 'Moodle otomatik-biçim';
+$string['formattexttype'] = 'Biçimlendirme';
+$string['formattopics'] = 'Konu biçimi';
+$string['formatweeks'] = 'Haftalık biçim';
 $string['formatweekscss'] = 'Haftalık biçim - CSS/Tablo yok';
 $string['formatwiki'] = 'Wiki-like biçimi';
 $string['from'] = 'Başlangıç';
-$string['frontpagecategorynames'] = 'Bölümleri göster';
-$string['frontpagecourselist'] = 'Bölümleri & Kursları göster';
+$string['frontpagecategorynames'] = 'Kategori listesi';
+$string['frontpagecourselist'] = 'Kurs listesi';
 $string['frontpagedescription'] = 'Giriş sayfası açıklamaları';
-$string['frontpageformat'] = 'Giriş sayfası formatı';
-$string['frontpagenews'] = 'Haberleri göster';
-$string['frontpagetopiconly'] = 'Seçeneğe bağlı HTML veya etkinlikleri göster (konu bölümü)';
+$string['frontpageformat'] = 'Giriş sayfası biçimi';
+$string['frontpagenews'] = 'Haber ögeleri';
+$string['frontpagetopiconly'] = 'Konu bölümü';
 $string['fulllistofcourses'] = 'Tüm kurslar';
 $string['fullname'] = 'Tam adı';
 $string['fullnamedisplay'] = '$a->firstname $a->lastname';
@@ -560,7 +555,7 @@ $string['grade'] = 'Not';
 $string['grades'] = 'Notlar';
 $string['group'] = 'Grup';
 $string['groupadd'] = 'Yeni grup ekle';
-$string['groupaddusers'] = 'Seçili olanı gruba ekle';
+$string['groupaddusers'] = 'Seçiliyi gruba ekle';
 $string['groupfor'] = 'grup için';
 $string['groupinfo'] = 'Seçili grup hakkında bilgi';
 $string['groupinfoedit'] = 'Grup ayarlarını düzenle';
@@ -570,7 +565,7 @@ $string['groupmembers'] = 'Grup üyeleri';
 $string['groupmemberssee'] = 'Grup üyelerine bak';
 $string['groupmembersselected'] = 'Seçili grubun üyeleri';
 $string['groupmode'] = 'Grup modu';
-$string['groupmodeforce'] = 'Gruplu olsun';
+$string['groupmodeforce'] = 'Grup modu zorunluluğu';
 $string['groupmy'] = 'Grubum';
 $string['groupnonmembers'] = 'Grupta olmayan kişiler';
 $string['groupnotamember'] = 'Üzgünüz, bu grubun üyesi değilsiniz';
@@ -580,8 +575,8 @@ $string['groupremovemembers'] = 'Seçili üyeleri sil';
 $string['groups'] = 'Gruplar';
 $string['groupsnone'] = 'Grup yok';
 $string['groupsseparate'] = 'Ayrı gruplar';
-$string['groupsvisible'] = 'Görülür gruplar';
-$string['guestskey'] = 'Kayıt anahtarı olan konukların girmesine izin ver';
+$string['groupsvisible'] = 'Görünür gruplar';
+$string['guestskey'] = 'Kayıt anahtarı olan konuklara izin ver';
 $string['guestsno'] = 'Konukların girmesini yasakla';
 $string['guestsnotallowed'] = 'Özür dileriz, \'$a\' kursuna konukların girmesine izin verilmemektedir.';
 $string['guestsyes'] = 'Kayıt anahtarı olmayan konuklara izin ver';
@@ -593,17 +588,17 @@ $string['healthproblemsolution'] = 'Servis Sorunu Çözümü';
 $string['healthreturntomain'] = 'Devam Et';
 $string['healthsolution'] = 'Çözüm';
 $string['help'] = 'Yardım';
-$string['helpemoticons'] = 'Yüz ifadeleri kullan';
+$string['helpemoticons'] = 'Duygusal simgeleri kullan';
 $string['helpformatting'] = 'Yazı biçimlendirme hakkında';
-$string['helphtml'] = 'HTML Nasıl yazılır';
+$string['helphtml'] = 'HTML nasıl yazılır';
 $string['helpindex'] = 'Tüm yardım dosyaları';
 $string['helppicture'] = 'Resim nasıl yüklenir';
 $string['helpprefix'] = 'Yardım, $a';
-$string['helpquestions'] = 'İyi soru sor';
+$string['helpquestions'] = 'Güzel soru sor';
 $string['helpreading'] = 'Dikkatli oku';
-$string['helprichtext'] = 'Richtext HTML editörü hakkında';
+$string['helprichtext'] = 'HTML editörü hakkında';
 $string['helpsummaries'] = 'Bu özetler hakkında';
-$string['helptext'] = 'Yazı nasıl yazılır';
+$string['helptext'] = 'Metin nasıl yazılır';
 $string['helpwiki'] = 'Wiki-formatı nasıl yazılır';
 $string['helpwriting'] = 'Dikkatli yaz';
 $string['hiddensections'] = 'Gizli bölümler';
@@ -614,26 +609,26 @@ $string['hideadvancedsettings'] = 'Gelişmiş ayarları gizle';
 $string['hidepicture'] = 'Resmi gizle';
 $string['hidesettings'] = 'Ayarları gizle';
 $string['hits'] = 'İzlemeler';
-$string['hitsoncourse'] = '$a->username: $a->coursename izlemeleri';
-$string['hitsoncoursetoday'] = '$a->username: $a->coursename bugünkü izlemeleri';
+$string['hitsoncourse'] = '$a->coursename izlemeleri ($a->username)';
+$string['hitsoncoursetoday'] = 'Bugünün $a->coursename izlemeleri ($a->username)';
 $string['home'] = 'Ana Sayfa';
 $string['hour'] = 'saat';
 $string['hours'] = 'saat';
 $string['howtomakethemes'] = 'Nasıl yeni tema yapılır';
-$string['htmleditor'] = 'Zengin metin editörü kullan (sadece IE 5.5 ve sonrası)';
-$string['htmleditoravailable'] = 'Richtext editörü var';
-$string['htmleditordisabled'] = 'Kullanıcı profilinizdeki zengin metin editörünü kapattınız';
-$string['htmleditordisabledadmin'] = 'Yönetici bu sitedeki zengin metin editörünü kapatmıştır';
-$string['htmleditordisabledbrowser'] = 'Internet Explorer 5.5 ve yukarısı olmadığı için zengin metin editörünü kullanamazsınız';
+$string['htmleditor'] = 'HTML editörünü kullan (sadece bazı tarayıcılar)';
+$string['htmleditoravailable'] = 'HTML editörü kullanılabilir';
+$string['htmleditordisabled'] = 'Kullanıcı profilinizdeki HTML editörünü etkinleştirmediniz';
+$string['htmleditordisabledadmin'] = 'Yönetici bu sitedeki HTML editörünü etkinleştirmemiş';
+$string['htmleditordisabledbrowser'] = 'Tarayıcınız uyumlu olmadığı için HTML editörüne erişilemez';
 $string['htmlfilesonly'] = 'Sadece HTML dosyalar';
-$string['htmlformat'] = 'Kolay HTML formatı';
+$string['htmlformat'] = 'Şık HTML biçimi';
 $string['icqnumber'] = 'ICQ numarası';
 $string['idnumber'] = 'ID numarası';
 $string['idnumbercourse'] = 'Kursun ID numarası';
 $string['import'] = 'Al';
 $string['importactivities'] = 'Etkinlikleri başka kurstan al';
-$string['importdata'] = 'Kurs verisi yükle';
-$string['importdataexported'] = '\'Kaynak\' kurstan veriler başarıyla alındı. <br /> \'Hedef\' kursa verileri aktarmak için devam edin.';
+$string['importdata'] = 'Kurs verisi al';
+$string['importdataexported'] = '\'Kaynak\' kurstan veriler başarıyla alındı. <br />\'Hedef\' kursa verileri aktarmak için devam edin.';
 $string['importdatafinished'] = 'Alma tamamlandı! Kursunuza devam edin';
 $string['importdatafrom'] = 'Kurs verisinin alınacağı kurs:';
 $string['importgroups'] = 'Grupları al';
@@ -652,8 +647,8 @@ $string['includeuserfiles'] = 'Kullanıcı dosyalarını dahil et';
 $string['info'] = 'Bilgi';
 $string['institution'] = 'Kurum';
 $string['instudentview'] = '(öğrenci görünümü)';
-$string['invalidemail'] = 'Geçersiz eposta adresi';
-$string['invalidlogin'] = 'Geçersiz giriş, tekrar deneyin';
+$string['invalidemail'] = 'Geçersiz e-posta adresi';
+$string['invalidlogin'] = 'Hatalı giriş, lütfen tekrar deneyin';
 $string['ip_address'] = 'IP Adresi';
 $string['jump'] = 'Geç';
 $string['jumpto'] = 'Geçiş yap...';
@@ -662,10 +657,10 @@ $string['keepsearching'] = 'Aramaya devam et';
 $string['langltr'] = 'Dil yönü soldan sağa';
 $string['langrtl'] = 'Dil yönü sağdan sola';
 $string['language'] = 'Dil';
-$string['languagegood'] = 'Bu dil paketi günceldir. :-)';
+$string['languagegood'] = 'Bu dil paketi günceldir! :-)';
 $string['lastaccess'] = 'Son erişim';
 $string['lastedited'] = 'Son düzenleme';
-$string['lastlogin'] = 'Son Giriş';
+$string['lastlogin'] = 'Son giriş';
 $string['lastmodified'] = 'Son değiştirme';
 $string['lastname'] = 'Soyad';
 $string['lastyear'] = 'Geçen yıl';
@@ -701,11 +696,11 @@ $string['loginsteps'] = 'Merhaba! Bu sitedeki kurslara tam erişim için bir ka�
 <li>Artık kursa tamamen erişebilirsiniz. Bundan sonra gereken tek şey kaydolduğunuz kursa erişmek için bu sayfadaki formdan kullanıcı adınız ve şifrenizle giriş yapmaktır.</li>
 </ol>';
 $string['loginstepsnone'] = 'Merhaba!
-<P>Kurslara tam erişim için yeni bir hesap açmanız gerekmektedir.
-<P>Kullanıcı adınızı ve şifrenizi oluşturarak bu sayfadaki formdan giriş yapınız!
-<P>Seçtiğiniz kullanıcı adı başkası tarafından alınmışsa farklı bir kullanıcı adı kullanmak durumundasınız.';
+<p>Kurslara tam erişim için yeni bir hesap açmanız gerekmektedir.</p>
+<p>Kullanıcı adınızı ve şifrenizi oluşturarak bu sayfadaki formdan giriş yapınız!</p>
+<p>Seçtiğiniz kullanıcı adı başkası tarafından alınmışsa farklı bir kullanıcı adı kullanmak durumundasınız.</p>';
 $string['loginto'] = '$a\'e giriş';
-$string['loginusing'] = 'Kullanıcı adı ve şifrenizle buradan giriniz';
+$string['loginusing'] = 'Kullanıcı adı ve şifrenizle buradan giriş yapınız';
 $string['logout'] = 'Çıkış';
 $string['logs'] = 'Kayıtlar';
 $string['logtoomanycourses'] = '[ <a href=\"$a->url\">dahası</a> ] ';
@@ -714,35 +709,34 @@ $string['lookback'] = 'Süre';
 $string['mailadmins'] = 'Yöneticileri bilgilendir';
 $string['mailstudents'] = 'Öğrencileri bilgilendir';
 $string['mailteachers'] = 'Eğitimcileri bilgilendir';
-$string['mainmenu'] = 'Ana menü';
+$string['mainmenu'] = 'Ana Menü';
 $string['makeafolder'] = 'Klasör oluştur';
-$string['makeeditable'] = '\'$a\' dosyasını sunucu tarafından değiştirilebilir yaparsanız (ör: apache), 
-bu dosyayı doğrudan bu sayfada düzenleyebilirsiniz';
+$string['makeeditable'] = '\'$a\' dosyasını sunucu programı tarafından (ör: apache) değiştirilebilir yaparsanız, bu dosyayı doğrudan bu sayfada düzenleyebilirsiniz';
 $string['manageblocks'] = 'Bloklar';
-$string['managedatabase'] = 'Veritabanını yönet';
+$string['managedatabase'] = 'Veritabanı';
 $string['managefilters'] = 'Filtreler';
 $string['managemeta'] = 'Bu bir meta kurs mu?';
-$string['managemetadisabled'] = 'Bu kurs zaten bir meta kurs içinde olduğundan dolayı pasifleştirildi';
-$string['managemetaexplan'] = '(Anlamı: Bu kursa kayıtlı öğrenciler, diğer kurslardan devir alınmıştır.)';
+$string['managemetadisabled'] = 'Bu kurs bir meta kurs içinde zaten olduğundan dolayı pasifleştirildi';
+$string['managemetaexplan'] = '(Anlamı: Bu kursa kayıtlı öğrenciler, diğer kurslardan devir alınmıştır)';
 $string['managemodules'] = 'Modüller';
 $string['markedthistopic'] = 'Bu konu güncel konu olarak belirlendi';
 $string['markthistopic'] = 'Bu konuyu güncel konu olarak belirle';
-$string['maximumchars'] = 'En çok $a harf';
+$string['maximumchars'] = 'En çok $a karakter';
 $string['maximumgrade'] = 'En yüksek not';
 $string['maximumshort'] = 'Max';
-$string['maximumupload'] = 'En fazla yükleme boyutu';
+$string['maximumupload'] = 'En fazla dosya yükleme boyutu';
 $string['maxsize'] = 'En çok: $a';
-$string['memberincourse'] = 'Kurstaki Kişiler';
+$string['memberincourse'] = 'Kurstaki kişiler';
 $string['messagebody'] = 'Mesaj içeriği';
 $string['messagedselectedusers'] = 'Seçili kullanıcılara mesaj gönderildi ve alıcı listesi temizlendi.';
 $string['messagedselectedusersfailed'] = 'Seçili kullanıcılara mesaj gönderilirken bazı şeyler yanlış gitti. Bazıları emaili almış olabilir.';
-$string['messageselect'] = 'Bu kullanıcıyı email alıcısı olarak seç';
+$string['messageselect'] = 'Bu kullanıcıyı e-posta alıcısı olarak seç';
 $string['messageselectadd'] = 'Ekle / mesaj gönder';
 $string['metaaddcourse'] = 'Bu kursu ekle';
-$string['metaalreadycourses'] = 'Atanmış kurs';
+$string['metaalreadycourses'] = 'Kurs zaten atanmış';
 $string['metaalreadyhascourses'] = 'Bu meta kursun bir alt kursu zaten var.';
-$string['metaalreadyhasenrolments'] = 'Bu kurs zaten normal kayıtlara sahip.';
-$string['metaalreadyinmeta'] = 'Bu kurs zaten meta kursun bir parçası';
+$string['metaalreadyhasenrolments'] = 'Bu kurs normal kayıtlara zaten sahip.';
+$string['metaalreadyinmeta'] = 'Bu kurs meta kursun zaten bir parçası';
 $string['metaassigncourses'] = 'Kursları ata';
 $string['metacourse'] = 'Metakurs';
 $string['metanoalreadycourses'] = 'Atanan bir kurs yok';
@@ -757,7 +751,7 @@ $string['missingcategory'] = 'Bir kategori seçmelisiniz';
 $string['missingcity'] = 'Şehir eksik';
 $string['missingcountry'] = 'Ülke eksik';
 $string['missingdescription'] = 'Açıklama eksik';
-$string['missingemail'] = 'Eposta adresi eksik';
+$string['missingemail'] = 'E-posta adresi eksik';
 $string['missingfirstname'] = 'Ad eksik';
 $string['missingfullname'] = 'Tam ad eksik';
 $string['missinglastname'] = 'Soyad eksik';
@@ -779,10 +773,10 @@ $string['modified'] = 'Değiştirilme';
 $string['moduledeleteconfirm'] = '\'$a\' modülünü tamamen silmek üzeresiniz. Bu etkinlik modülüyle ilgili bütün kayıtlar veritabanından silinecektir. Devam etmek istediğinizden emin misiniz?';
 $string['moduledeletefiles'] = '\'$a->module\' modülüyle ilgili bütün veriler veritabanından silindi. Silme işlemini tamamlamak ve bu modülün kendi kendini tekrar kurmasını engellemek için şimdi bu dizini sunucudan kaldırmanız gerekiyor: $a->directory';
 $string['modulesetup'] = 'Modül tabloları ayarlanıyor';
-$string['modulesuccess'] = '$a tabloları doğru olarak kuruldu';
+$string['modulesuccess'] = '$a tabloları doğru bir şekilde kuruldu';
 $string['moodledocslink'] = 'Bu sayfa için Moodle Belgeleri';
-$string['moodleversion'] = 'Sürüm: ';
-$string['more'] = 'daha';
+$string['moodleversion'] = 'Moodle Sürümü';
+$string['more'] = 'dahası';
 $string['moreinformation'] = 'Bu hata hakkında daha fazla bilgi';
 $string['mostrecently'] = 'en yakın';
 $string['move'] = 'Taşı';
@@ -808,57 +802,55 @@ $string['namesocial'] = 'bölüm';
 $string['nametopics'] = 'konu';
 $string['nameweeks'] = 'hafta';
 $string['nameweekscss'] = 'hafta';
-$string['needed'] = 'gerekli';
+$string['needed'] = 'Gerekli';
 $string['never'] = 'Hiçbir zaman';
 $string['neverdeletelogs'] = 'Kayıtları hiçbir zaman silme';
 $string['new'] = 'Yeni';
 $string['newaccount'] = 'Yeni hesap';
 $string['newcourse'] = 'Yeni kurs';
 $string['newpassword'] = 'Yeni şifre';
-$string['newpasswordfromlost'] = '<strong>UYARI:</strong> <strong>Şimdiki Şifreniz</strong> şifre kurtarma işlemi olarak e-postalarınızdan <strong>ikincisine</strong> gönderilmiş olacak. Bu ekranda devam etmeden önce değiştirme şifrenizi almış olduğunuzdan emin olun.';
+$string['newpasswordfromlost'] = '<strong>UYARI:</strong> <strong>Şimdiki Şifreniz</strong> şifre kurtarma işleminin bir aşaması olarak e-postalarınızdan <strong>ikincisine</strong> gönderilmiş olacak. Bu ekranda devam etmeden önce değiştirme şifrenizi almış olduğunuzdan emin olun.';
 $string['newpasswordtext'] = 'Merhaba $a->firstname,
 
 \'$a->sitename\' sitesindeki eski şifreniz silindi 
 ve geçici yeni bir şifre oluşturuldu.
 
-Geçerli giriş bilgileriniz şunlardır:
-   kullanıcıadı: $a->username
+Şimdiki giriş bilgileriniz:
+
+  kullanıcı adı: $a->username
           şifre: $a->newpassword
 
-Bu sayfaya giderek şifrenizi değiştiriniz:
-   $a->link
+Şifrenizi değiştirmek için lütfen bu sayfaya gidin:
+$a->link
 
-Bu bağlantıyı tıkladığınızda yeni sayfada site açılacaktır.
-Eğer açılmıyorsa yukarıdaki bağlantıyı gezgininizin adres satırına kopyalayınız.
+Bu bağlantıyı tıkladığınızda yeni sayfada site açılacaktır. Açılmıyorsa yukarıdaki bağlantıyı gezgininizin adres satırına kopyalayınız.
 
-Saygilar
-\'$a->sitename\' Yönetimi,
+\'$a->sitename\' yöneticisinden saygılar,
 $a->signoff';
 $string['newpicture'] = 'Yeni resim';
-$string['newsitem'] = 'haber başlığı';
-$string['newsitems'] = 'haber başlığı';
-$string['newsitemsnumber'] = 'Gösterilecek haber';
-$string['newuser'] = 'Yeni Kullanıcı';
+$string['newsitem'] = 'haber ögesi';
+$string['newsitems'] = 'haber ögesi';
+$string['newsitemsnumber'] = 'Gösterilecek haber ögeleri';
+$string['newuser'] = 'Yeni kullanıcı';
 $string['newusernewpasswordsubj'] = 'Yeni kullanıcı hesabı';
 $string['newusernewpasswordtext'] = 'Merhaba $a->firstname,
 
-Size \'$a->sitename\' sitesinde yeni bir hesap ve geçici bir şifre oluşturuldu.
+Size \'$a->sitename\' sitesinde yeni bir hesap oluşturuldu ve geçici bir şifre tanımlandı.
 
 Şimdiki giriş bilgileriniz:
-
 Kullanıcı adı: $a->username
-Şifre: $a->newpassword
+        Şifre: $a->newpassword
+
 (ilk kez giriş yaptığınızda şifrenizi değiştirmeniz gerekiyor)
 
 \'$a->sitename\' kullanımına başlamak için buradan giriş yapın:
 $a->link
 
-Bu bağlantıyı tıkladığınızda yeni sayfada site açılacaktır. Eğer açılmıyorsa yukarıdaki bağlantıyı gezgininizin adres satırına kopyalayınız.
+Bu bağlantıyı tıkladığınızda yeni sayfada site açılacaktır. Açılmıyorsa yukarıdaki bağlantıyı gezgininizin adres satırına kopyalayınız.
 
-Saygilar
-\'$a->sitename\' Yönetimi,
+\'$a->sitename\' yöneticisinden saygılar,
 $a->signoff';
-$string['newusers'] = 'Yeni Kullanıcılar';
+$string['newusers'] = 'Yeni kullanıcılar';
 $string['next'] = 'Sonraki';
 $string['no'] = 'Hayır';
 $string['nobody'] = 'Hiçkimse';
@@ -867,59 +859,61 @@ $string['nocoursesfound'] = 'Bu kelimeyle ilgili bir kurs bulunamadı \'$a\'';
 $string['nocoursesyet'] = 'Bu kategoride kurs yoktur';
 $string['nodstpresets'] = 'Yönetici Yaz Saati Uygulamasını desteğini etkinleştirmedi.';
 $string['noexistingadmins'] = 'Var olan bir yönetici yok ve bu ciddi bir hatadır. Bu mesajı asla görmemeniz gerekiyor.';
-$string['noexistingcreators'] = 'Kurs açan yoktur';
+$string['noexistingcreators'] = 'Kurs açıcı yoktur';
 $string['noexistingstudents'] = 'Öğrenci yoktur';
-$string['noexistingteachers'] = 'Eğitmen yoktur';
+$string['noexistingteachers'] = 'Eğitimci yoktur';
 $string['nofilesselected'] = 'Geri yükleme için dosya seçilmedi';
 $string['nofilesyet'] = 'Kursunuza henüz bir dosya yüklenmedi';
 $string['nograde'] = 'Not yok';
 $string['noimagesyet'] = 'Kursunuza henüz bir resim yüklenmedi';
-$string['nomorecourses'] = 'Daha fazla eşleşen kurs bulunamadı';
+$string['nomorecourses'] = 'Eşleşen daha fazla kurs yok';
 $string['nomoreidnumber'] = 'Çakışmayı engellemek için bir id no kullanmıyor';
 $string['none'] = 'Hiçbiri';
 $string['nopendingcourses'] = 'Onay bekleyen kurs yok';
 $string['nopotentialadmins'] = 'Olası yönetici yoktur';
 $string['nopotentialcreators'] = 'Olası kurs açıcı yoktur';
 $string['nopotentialstudents'] = 'Olası öğrenci yoktur';
-$string['nopotentialteachers'] = 'Olası eğitmen yoktur';
-$string['noreplybouncemessage'] = 'Geri yanıt emaili olmayan bir  email adresine cevap veriyorsunuz. Bir forum mesajına yanıt yazmaya çalışıyorsanız $a forumlarını kullanarak yanıt veriniz.';
-$string['noreplybouncesubject'] = '$a - geri dönen email.';
-$string['noreplyname'] = 'Bu emaile cevap verme';
+$string['nopotentialteachers'] = 'Olası eğitimci yoktur';
+$string['noreplybouncemessage'] = 'Geri yanıt e-posta adresi olmayan bir mesaja cevap verdiniz. Bir forum mesajına yanıt yazmaya çalışıyorsanız $a forumlarını kullanarak yanıt veriniz.
+
+Mesajınızın içeriği aşağıdadır:';
+$string['noreplybouncesubject'] = '$a - geri dönen mesaj';
+$string['noreplyname'] = 'Bu e-postaya cevap verme';
 $string['noresults'] = 'Sonuç yok';
 $string['normal'] = 'Normal';
 $string['normalfilter'] = 'Normal arama';
-$string['nostatstodisplay'] = 'Üzgünüz, gösterilecek veri yok. İstatistikleri henüz etkinleştirseniz ve şu andan ileriye yönelik ilk çalıştırmaysa gösterilecek yeteri kadar veri olasıya kadar bir hafta beklemek durumundasınız.';
+$string['nostatstodisplay'] = 'Üzgünüz, gösterilecek veri yok.';
 $string['nostudentsfound'] = '$a bulunamadı';
-$string['nostudentsingroup'] = 'Bu grupta henüz öğrenci yoktur';
+$string['nostudentsingroup'] = 'Bu grupta henüz öğrenci yok';
 $string['nostudentsyet'] = 'Bu kursa henüz bir öğrenci kaydolmadı';
-$string['nosuchemail'] = 'Böyle bir eposta adresi yoktur';
+$string['nosuchemail'] = 'Böyle bir e-posta adresi yoktur';
 $string['notavailable'] = 'Ulaşılamaz';
-$string['noteachersyet'] = 'Bu kursta henüz bir eğitmen yoktur';
+$string['noteachersyet'] = 'Bu kursta henüz bir eğitimci yoktur';
 $string['notenrollable'] = 'Bu kursa şu anda kayıt olunamaz.';
 $string['notenrolled'] = '$a bu kursa kaydolmadı.';
 $string['noteuserschangednonetocourse'] = 'Dikkat: Kullanıcı verisini geri yüklerken kurs kullanıcılarının da geri yüklenmesi gerekiyor (etkinlikler, dosyalar, mesajlardaki). Bu ayar sizin için değiştirildi.';
 $string['nothingnew'] = 'Son girişinizden beri yeni bir şey yok';
 $string['nothingtodisplay'] = 'Gösterilecek bir şey yok';
-$string['noticenewerbackup'] = 'Yedek dosyası sürüm $a->backuprelease ($a->backupversion) ile oluşturuldu ve bu şu an kullandığınız sürümden $a->serverrelease ($a->serverversion) daha yeni. Bu bazı uyuşmazlıklara sebep olabilir, çünkü, geriye yönelik yedekleme uyumluluğu garanti edilemez.';
+$string['noticenewerbackup'] = 'Bu yedek dosyası sürüm $a->backuprelease ($a->backupversion) ile oluşturuldu ve bu şu an kullandığınız sürümden $a->serverrelease ($a->serverversion) daha yeni. Bu bazı uyuşmazlıklara sebep olabilir, çünkü, geriye yönelik yedekleme uyumluluğu garantisi verilemez.';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Kullanıcı: $a->info';
 $string['notifyloginfailuresmessageend'] = 'Bu kayıtlara buradan bakabilirsiniz: $a/course/log.php?id=1&chooselog=1&modid=site_errors.';
 $string['notifyloginfailuresmessagestart'] = 'Son bilgilendirildiğinizden beri hatalı girişlerin listesi: $a';
 $string['notifyloginfailuressubject'] = '$a :: Hatalı giriş bildirimi';
 $string['notincluded'] = 'Dahil edilmedi';
 $string['notingroup'] = 'Üzgünüz, bu etkinliği görebilmeniz için bir grubun üyesi olmanız gerekiyor.';
-$string['notpublic'] = 'Herkese açık değildir!';
+$string['notpublic'] = 'Herkese açık değil!';
 $string['nousersmatching'] = '\'$a\' ile eşleşen kullanıcı yok';
 $string['nousersyet'] = 'Henüz bir kullanıcı yok';
 $string['now'] = 'şimdi';
 $string['numattempts'] = '$a hatalı giriş';
-$string['numberweeks'] = 'Hafta/Konu sayısı';
+$string['numberweeks'] = 'Hafta/konu sayısı';
 $string['numdays'] = '$a gün';
 $string['numhours'] = '$a saat';
 $string['numletters'] = '$a harf';
 $string['numminutes'] = '$a dakika';
 $string['nummonths'] = '$a ay';
 $string['numseconds'] = '$ saniye';
-$string['numviews'] = '$a izleme';
+$string['numviews'] = '$a görme';
 $string['numweeks'] = '$a hafta';
 $string['numwords'] = '$a kelime';
 $string['numyears'] = '$a yıl';
@@ -929,12 +923,12 @@ $string['opentoguests'] = 'Konuk erişimi';
 $string['optional'] = 'isteğe bağlı';
 $string['order'] = 'Sırala';
 $string['other'] = 'Diğeri';
-$string['outline'] = 'Ana hatlar';
-$string['outlinereport'] = 'Anahat raporu';
+$string['outline'] = 'Özet';
+$string['outlinereport'] = 'Özet rapor';
 $string['page'] = 'Sayfa';
 $string['pageheaderconfigablock'] = '%%fullname%% içindeki bir blok yapılandırılıyor';
 $string['parentcoursenotfound'] = 'Ana kurs bulunamadı!';
-$string['parentcoursenotmetacourse'] = 'Üstteki kurs, bir metakurs değildir!';
+$string['parentcoursenotmetacourse'] = 'Ana kurs, bir metakurs değildir!';
 $string['parentfolder'] = 'Ana klasör';
 $string['participants'] = 'Katılımcılar';
 $string['participationratio'] = 'Katılım oranı';
