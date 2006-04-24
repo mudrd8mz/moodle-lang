@@ -36,7 +36,7 @@ $string['addnousersrecip'] = 'Bu $a\'a erişmeyen kişileri alıcı listesine ek
 $string['addresource'] = 'Yeni kaynak ekle...';
 $string['address'] = 'Adres';
 $string['addstudent'] = 'Öğrenci ekle';
-$string['addteacher'] = 'Eğitmen ekle';
+$string['addteacher'] = 'Eğitimci ekle';
 $string['admin'] = 'Yönet';
 $string['adminhelpaddnewuser'] = 'Elle yeni bir kullanıcı hesabı eklemek için';
 $string['adminhelpassignadmins'] = 'Yöneticiler herşeyi yapabilir ve sitedeki herşeye ulaşabilir';
@@ -107,7 +107,7 @@ $string['assigncreators'] = 'Kurs açıcı belirle';
 $string['assignstudents'] = 'Öğrencileri kaydet';
 $string['assignstudentsnote'] = 'Not: Öğrenciler kendi kendilerini bu kursa kaydedebildiklerinden dolayı bu sayfayı kullanmanıza gerek yok.';
 $string['assignstudentspass'] = 'Öğrencilerinize kursun kayıt anahtarını bildirmeniz gerekiyor: \'$a\'';
-$string['assignteachers'] = 'Eğitmen belirle';
+$string['assignteachers'] = 'Eğitimci belirle';
 $string['authentication'] = 'Kimlik Denetimi';
 $string['autosubscribe'] = 'Forum otomatik aboneği';
 $string['autosubscribeno'] = 'Hayır: Beni forumlara otomatik abone yapma';
@@ -306,7 +306,7 @@ $string['defaultcourseshortname'] = 'UE101';
 $string['defaultcoursestudent'] = 'Öğrenci';
 $string['defaultcoursestudents'] = 'Öğrenci(ler)';
 $string['defaultcoursesummary'] = 'Bu kursun ne hakkında olduğunu açıklayan özlü ve ilgi çekici bir paragraf yazın';
-$string['defaultcourseteacher'] = 'Eğitmen';
+$string['defaultcourseteacher'] = 'Eğitimci';
 $string['defaultcourseteachers'] = 'Eğitimci(ler)';
 $string['delete'] = 'Sil';
 $string['deleteall'] = 'Tümünü sil';
@@ -469,7 +469,7 @@ $string['existingcourseadding'] = 'Var olan kurs, bilgiyi ekle';
 $string['existingcoursedeleting'] = 'Var olan kurs, önceki dersi sil';
 $string['existingcreators'] = 'Mevcut kurs oluşturucular';
 $string['existingstudents'] = 'Kayıtlı öğrenciler';
-$string['existingteachers'] = 'Mevcut eğitmenler';
+$string['existingteachers'] = 'Mevcut eğitimciler';
 $string['expirynotify'] = 'Kayıt bitiş bildirisi';
 $string['expirynotifyemail'] = 'Kursa kayıtlı aşağıdaki öğrencilerin tam $a->threshold gün sonra süreleri bitiyor:
 
@@ -692,7 +692,7 @@ $string['loginsteps'] = 'Merhaba! Bu sitedeki kurslara tam erişim için bir ka�
 <li>Mesajınızı okuyun ve içerdiği web bağlantısını tıklayın.</li>
 <li>Hesabınız onaylanacak ve giriş yapabileceksiniz.</li>
 <li>Şimdi, katılmak istediğiniz kursu seçin.</li>
-<li>Bir \"Kayıt Anahtarı\" istenirse, eğitmeninizin size verdiği anahtarı kullanın. Bu sizin kursa \"kaydınızı\" yapacaktır.</li>
+<li>Bir \"Kayıt Anahtarı\" istenirse, eğitimcinizin size verdiği anahtarı kullanın. Bu sizin kursa \"kaydınızı\" yapacaktır.</li>
 <li>Artık kursa tamamen erişebilirsiniz. Bundan sonra gereken tek şey kaydolduğunuz kursa erişmek için bu sayfadaki formdan kullanıcı adınız ve şifrenizle giriş yapmaktır.</li>
 </ol>';
 $string['loginstepsnone'] = 'Merhaba!
@@ -1350,7 +1350,7 @@ $string['wordforstudentseg'] = 'ör. Öğrenciler, Katılımcılar vs.';
 $string['wordforteacher'] = 'Eğitimcinize söyleyecekleriniz';
 $string['wordforteachereg'] = 'ör. Eğitimci, Öğretim Üyesi, Hoca, Öğretmen, Asistan vs.';
 $string['wordforteachers'] = 'Eğitimcilerinize söyleyecekleriniz';
-$string['wordforteacherseg'] = 'ör. Eğitmenler, Öğretim Üyeleri, Hocalar, Öğretmenler, Asistanlar vs.';
+$string['wordforteacherseg'] = 'ör. Eğitimciler, Öğretim Üyeleri, Hocalar, Öğretmenler, Asistanlar vs.';
 $string['writingcategoriesandquestions'] = 'Kategoriler ve sorular yazılıyor';
 $string['writingcoursedata'] = 'Kurs verisi yazılıyor';
 $string['writingeventsinfo'] = 'Olay bilgileri yazılıyor';
