@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // quiz.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['1day'] = '1 Tag';
@@ -169,6 +169,7 @@ $string['event5'] = 'Validieren';
 $string['event6'] = 'Beenden';
 $string['event7'] = 'Abgabe';
 $string['event8'] = 'Schließen';
+$string['event9'] = 'Manuelle Bewertung';
 $string['examview'] = 'Prüfungsansicht';
 $string['existingcategory1'] = 'Einen Wert aus einem bereits existierenden Satz, der auch von anderen Fragen in dieser Kategorie genutzt wird';
 $string['existingcategory2'] = 'Eine Datei aus einem bereits existierenden Satz, der auch von anderen Fragen in dieser Kategorie genutzt wird';
@@ -176,7 +177,7 @@ $string['existingcategory3'] = 'Ein Link aus einem bereits existierenden Satz, d
 $string['export'] = 'Export';
 $string['exporterror'] = 'Beim Export ist ein Fehler aufgetreten';
 $string['exportfilename'] = 'quiz';
-$string['exportingquestions'] = 'DieFragen wurden in eine Exportdatei übertragen';
+$string['exportingquestions'] = 'Die Fragen wurden in eine Exportdatei übertragen';
 $string['exportname'] = 'Dateiname';
 $string['exportnameformat'] = '%%J%%M%%T-%%H%%M';
 $string['exportquestions'] = 'Fragen in Datei exportieren';
@@ -220,6 +221,7 @@ $string['gradingdetailsadjustment'] = 'Mit früheren Abzügen ergibt dies <stron
 $string['gradingdetailspenalty'] = 'Die Arbeit berücksichtigt einen Abzug von $a.';
 $string['gradingdetailszeropenalty'] = 'Sie erhalten für diese Arbeit keine Abzüge.';
 $string['guestsno'] = 'Entschuldigung, aber Gäste können den Test nicht sehen oder probieren.';
+$string['history'] = 'Frühere Antworten:';
 $string['hotpot'] = 'Hot Potatoe Format';
 $string['illegalformulasyntax'] = 'Fehlerhafte Formel-Syntax beginnend mit $a';
 $string['imagedisplay'] = 'Bild für die Anzeige';
@@ -228,6 +230,7 @@ $string['import'] = 'Import';
 $string['importerror'] = 'Beim Import ist ein Fehler aufgetreten';
 $string['importfilearea'] = 'Der Dateiimport in die Kursdateien erfolgt ....';
 $string['importfileupload'] = 'Dateiimport von hochgeladener Datei ...';
+$string['importfromthisfile'] = 'Import aus dieser Datei';
 $string['importingquestions'] = 'Import von $a Fragen aus Datei';
 $string['importmax10error'] = 'In der Frage ist ein Fehler aufgetreten. Sie dürfen höchsten zehn Antworten formulieren.';
 $string['importmaxerror'] = 'Fehler in der Frage: zu viele Antworten';
@@ -274,6 +277,7 @@ $string['min'] = 'Min';
 $string['minutes'] = 'Minuten';
 $string['missinganswer'] = 'Zu wenig :Antworten, :Lx, :Rx Antworten für Zeile $a. Sie müssen mindestens zwei mögliche Antworten eingeben';
 $string['missingcorrectanswer'] = 'Die korrekte Antwort muss angegeben werden';
+$string['missingformula'] = 'Formel fehlt';
 $string['missingitemtypename'] = 'Fehlender Name';
 $string['missingname'] = 'Der Name der Frage fehlt';
 $string['missingquestion'] = 'Fehlendes Fragezeichen nach Zeile $a';
@@ -321,9 +325,10 @@ $string['notenoughsubquestions'] = 'Es wurden noch nicht genügend Unter-Fragen 
 
 Möchten Sie zurück gehen und diese Frage korrigieren?';
 $string['notimedependentitems'] = 'Zeitabhängige Fragen können zur Zeit vom Test nicht bearbeitet werden. Sie können jedoch ein Zeitlimit für den gesamten Test festlegen. Wollen Sie eine andere Frabe auswählen (oder die derzeitige Frage trotzdem nutzen)?';
+$string['numattempts'] = '$a->studentnum $a->studentstring hat $a->attemptnum Versuche durchgeführt';
 $string['numberabbr'] = '#';
 $string['numerical'] = 'Numerisch';
-$string['onlyteachersexport'] = 'NurTrainer/innen können Fragen exportieren';
+$string['onlyteachersexport'] = 'Nur Trainer/innen können Fragen exportieren';
 $string['onlyteachersimport'] = 'Nur Trainer/innen mit Editierrecht können Fragen importieren';
 $string['optional'] = 'optional';
 $string['outof'] = 'von maximal';
@@ -457,7 +462,7 @@ $string['showteacherattempts'] = 'Versuche der Trainer/innen anzeigen';
 $string['shuffle'] = 'Mischen';
 $string['shuffleanswers'] = 'Antworten mischen';
 $string['shufflequestions'] = 'Fragen mischen';
-$string['shufflewithin'] = 'Fragen mischen';
+$string['shufflewithin'] = 'Antworten innerhalb der Fragen mischen';
 $string['significantfigures'] = 'mit $a';
 $string['significantfiguresformat'] = 'signifikante Ziffern';
 $string['singleanswer'] = 'Eine Antwort auswählen.';
@@ -503,6 +508,7 @@ $string['viewallanswers'] = 'Zeige $a ausgefüllte Tests';
 $string['viewallreports'] = 'Berichte ansehen für $a Versuche';
 $string['warningsdetected'] = '$a Warnung(en) entdeckt';
 $string['webct'] = 'WebCT Format';
+$string['wheregrade'] = 'Wo ist meine Bewertung?';
 $string['wildcard'] = 'Wild Card';
 $string['withselected'] = 'Ausgewählt';
 $string['withsummary'] = 'mit zusammenfassender Statistik';
