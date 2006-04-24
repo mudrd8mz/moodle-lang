@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 development (2006031400)
+      // glossary.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['addcomment'] = 'Afegeix un comentari';
@@ -95,6 +95,7 @@ $string['explainalphabet'] = 'Navegueu pel glossari utilitzant aquest índex';
 $string['explainexport'] = 'S\'ha creat un fitxer.<br/ >Baixeu-lo i deseu-lo en lloc segur. Podeu importar-lo en qualsevol moment en aquest curs o en un altre.';
 $string['explainimport'] = 'Heu d\'especificar el fitxer que voleu importar i definir els criteris del procés.<p>Trameteu la vostra sol·licitud i reviseu els resultats.';
 $string['explainspecial'] = 'Visualitzeu totes les entrades que no comencen per una lletra';
+$string['exportedentry'] = 'Entrada exportada';
 $string['exportentries'] = 'Exporta entrades';
 $string['exportfile'] = 'Exporta entrades a un fitxer';
 $string['exportglossary'] = 'Glossari exportat';

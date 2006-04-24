@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6 development (2006031400)
+      // chat.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['beep'] = 'bip';
@@ -8,6 +8,7 @@ $string['chatname'] = 'Nom d\'aquesta sala de xat';
 $string['chatreport'] = 'Sessions de xat';
 $string['chattime'] = 'Pròxim dia i hora de xat';
 $string['configmethod'] = 'El mètode normal de xat implica que els clients contactin regularment el servidor en cerca d\'actualitzacions. No necessita cap configuració i funciona enlloc, però pot crear una càrrega gran al servidor si s\'apleguen molts usuaris. Utilitzar un dimoni servidor requereix accés a l\'intèrpret d\'ordres d\'Unix, però comporta un entorn de xat ràpid i escalable.';
+$string['confignormalupdatemode'] = 'El refresc de la sala de xat se sol realitzar d\'una manera prou eficient per mitjà de la característica <em>Keep-Alive</em> de l\'HTTP 1.1, però això és bastant pesat per al servidor. Un mètode més avançat consisteix a utilitzar l\'estratègia <em>Corrent de dades</em> per enviar les actualitzacions als usuaris. L\'estratègia <em>Corrent de dades</em> és més escalable (similar al mètode chatd) però no funciona en tots els servidors.';
 $string['configoldping'] = 'Després de quant temps d\'estar en silenci cal considerar que un usuari ha marxat?';
 $string['configrefreshroom'] = 'Freqüència de refresc de la sala de xat (en segons). Posar aquest valor massa baix farà que la sala sembli més ràpida, però pot carregar excessivament el servidor quan hi ha molt gent xerrant.';
 $string['configrefreshuserlist'] = 'Freqüència de refresc de la llista d\'usuaris (en segons)';
@@ -41,6 +42,8 @@ $string['neverdeletemessages'] = 'No suprimeixis mai els missatges';
 $string['nextsession'] = 'Pròxima sessió programada';
 $string['noguests'] = 'El xat no està obert a visitants';
 $string['nomessages'] = 'No hi ha missatges encara';
+$string['normalkeepalive'] = 'Keep-Alive';
+$string['normalstream'] = 'Corrent de dades';
 $string['noscheduledsession'] = 'No hi ha cap sessió programada';
 $string['repeatdaily'] = 'A la mateixa hora cada dia';
 $string['repeatnone'] = 'No es repeteix - publica només la data i hora especificades';

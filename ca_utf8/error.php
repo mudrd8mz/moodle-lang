@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2006032200)
+      // error.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['adminprimarynoedit'] = 'L\'administrador primari no pot ser editat per altres usuaris';
@@ -45,15 +45,19 @@ $string['notavailable'] = 'Això no està disponible actualment';
 $string['onlyadmins'] = 'Això només poden fer-ho els administradors';
 $string['onlyeditingteachers'] = 'Això només pot fer-ho el professorat que tingui permisos d\'edició';
 $string['onlyeditown'] = 'Només podeu editar la vostra pròpia informació';
+$string['pagenotexist'] = 'S\'ha esdevingut un error poc comú (heu intentat anar a una pàgina que no existeix).';
+$string['pleasereport'] = 'Si teniu temps, us agrairem que ens informeu de què estàveu fent quan s\'ha esdevingut aquest error:';
 $string['pluginrequirementsnotmet'] = 'El connector \"$a->pluginname\" ($a->pluginversion) no s\'ha pogut instal·lar. Necessita una versió més nova de Moodle (esteu utilitzant la $a->currentmoodle i necessiteu la $a-> requiremoodle).';
 $string['processingstops'] = 'El processament acaba aquí. Els registres que resten s\'ignoraran.';
 $string['remotedownloadnotallowed'] = 'El vostre servidor no permet baixar components ((allow_url_fopen inhabilitat).<br /><br />Baixeu manualment el fitxer <a href=\"$a->url\">$a->url</a>, copieu en la ubicació \"$a->dest\" del vostre servidor i descomprimiu-lo allí.';
 $string['restricteduser'] = 'Al vostre compte \"$a\" no li és permès de fer això.';
+$string['sendmessage'] = 'Envia missatge';
 $string['sessionerroruser'] = 'Heu excedit el termini de la vostra sessió o s\'ha produït un error. Si us plau torneu a entrar-hi.';
 $string['sessionerroruser2'] = 'S\'ha detectat un error del servidor que afecta la vostra sessió. Heu d\'entrar de nou o reiniciar el vostre navegador.';
 $string['sessionipnomatch'] = 'Sembla que el vostre número IP ha canviat des que heu entrat. Aquesta característica de seguretat impedeix que un <i>cracker</i> suplanti la vostra identitat després que heu entrat en Moodle. Els usuaris normals no haurien de veure aquest missatge: demaneu ajuda a l\'administrador del lloc.';
 $string['statscatchupmode'] = 'S\'estan recollint les estadístiques. Fins ara s\'han processat $a->daysdone dies i estan pendents $a->dayspending. Torneu a provar-ho d\'aquí a una estona.';
 $string['unknowncourse'] = 'El curs \"$a\" és desconegut';
+$string['unknownuseraction'] = 'Aquesta acció d\'usuari no és intel·ligible';
 $string['usernotaddederror'] = 'No s\'ha afegit l\'usuari \"$a\". Error desconegut';
 $string['usernotaddedregistered'] = 'No s\'ha afegit l\'usuari \"$a\". Ja està registrat';
 $string['usernotavailable'] = 'Els detalls d\'aquest usuari no estan disponibles per a vós.';

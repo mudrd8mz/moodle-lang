@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 Beta 2 (2006040500)
+      // blog.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['addnewentry'] = 'Afegeix una nova entrada';
@@ -26,6 +26,7 @@ $string['groupblogs'] = 'Bitàcoles amb l\'accés restringit als membres del gru
 $string['intro'] = 'Aquesta alimentació RSS ha estat generada automàticament a partir d\'una o més bitàcoles.';
 $string['noentriesyet'] = 'Aquí no hi ha entrades visibles';
 $string['noguestpost'] = 'Els visitants no poden publicar bitàcoles.';
+$string['norighttodeletetag'] = 'No teniu drets per a suprimir aquesta etiqueta: $a';
 $string['notallowedtoedit'] = 'No teniu permís per a editar aquesta entrada';
 $string['numberofentries'] = 'Entrades: $a';
 $string['numberoftags'] = 'Nombre d\'etiquetes per visualitzar';

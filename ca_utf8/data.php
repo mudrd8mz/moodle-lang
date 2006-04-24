@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 Beta 2 (2006040500)
+      // data.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['action'] = 'Acció';
@@ -21,6 +21,7 @@ $string['bynameondate'] = 'per $a->name - $a->date';
 $string['cancel'] = 'Cancel·la';
 $string['checkbox'] = 'Quadre(s) de verificació';
 $string['commentdeleted'] = 'S\'ha suprimit el comentari.';
+$string['commentempty'] = 'El comentari és buit';
 $string['comments'] = 'Permet comentaris';
 $string['commentsaved'] = 'S\'ha desat el comentari';
 $string['commentsn'] = '$a comentaris';
@@ -45,6 +46,7 @@ $string['editcomment'] = 'Edita comentari';
 $string['editentry'] = 'Edita entrada';
 $string['emptyadd'] = 'La plantilla d\'addició és buida. S\'està generant un formulari per defecte...';
 $string['emptyaddform'] = 'No heu emplenat cap camp';
+$string['entries'] = 'Entrades';
 $string['entrysaved'] = 'S\'ha desat la vostra entrada';
 $string['errormustbeteacher'] = 'Per a utilitzar aquesta pàgina heu de ser professor/a';
 $string['example'] = 'Exemple del mòdul de bases de dades';
@@ -96,6 +98,7 @@ $string['namedate'] = 'Data';
 $string['namefile'] = 'Fitxer';
 $string['namemenu'] = 'Menú';
 $string['namemultimenu'] = 'Menú de selecció múltiple';
+$string['namenumber'] = 'Nombre';
 $string['namepicture'] = 'Imatge';
 $string['nameradiobutton'] = 'Botó de grup';
 $string['nametext'] = 'Text';
@@ -110,6 +113,7 @@ $string['nomatch'] = 'No s\'han trobat entrades que coincideixin';
 $string['nomaximum'] = 'No hi ha un valor màxim';
 $string['norecords'] = 'No hi ha entrades en la base de dades';
 $string['nosingletemplate'] = 'Encara no s\'ha definit la plantilla d\'entrada única';
+$string['number'] = 'Nombre';
 $string['numberrssarticles'] = 'Articles RSS';
 $string['numnotapproved'] = 'Pendents';
 $string['numrecords'] = 'Registres';
@@ -137,6 +141,7 @@ $string['requireapproval'] = 'Requereix aprovació?';
 $string['requiredentries'] = 'Entrades requerides';
 $string['requiredentriestoview'] = 'Entrades requerides per visualitzar';
 $string['resettemplate'] = 'Reinicia la plantilla';
+$string['resizingimages'] = 'S\'estan redimensionant les miniatures...';
 $string['rssglobaldisabled'] = 'Inhabilitat. Vegeu les variables de configuració del lloc.';
 $string['rsshowmany'] = '(número d\'entrades recents per mostrar; 0 per inhabilitar el RSS)';
 $string['rsstemplate'] = 'Plantilla RSS';

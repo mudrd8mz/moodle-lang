@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 development (2006022400)
+      // resource.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['addresource'] = 'Afegeix un recurs';
+$string['back'] = 'Enrere';
+$string['browserepository'] = 'Explora el repositori';
+$string['choose'] = 'Tria';
 $string['chooseafile'] = 'Tria o penja un fitxer';
 $string['chooseparameter'] = 'Trieu un paràmetre';
 $string['configallowlocalfiles'] = 'Quan creeu un nou recurs de tipus fitxer, són permesos els enllaços a fitxers d\'un sistema local com ara un CD-ROM o un disc dur? Això pot ser útil en una aula on tots els estudiants tenen accés a un CD-ROM o a dispositius en xarxa comuns. La utilització d\'aquesta característica pot requerir canvis en els paràmetres de seguretat dels navegadors.';
@@ -24,10 +27,12 @@ $string['configsecretphrase'] = 'Aquesta frase secreta s\'utilitza per produir u
 $string['configwebsearch'] = 'Quan s\'està afegint un URL com a pàgina web o com a enllaç web, aquesta ubicació s\'ofereix a l\'usuari per ajudar-lo a cercar l\'URL que desitgi.';
 $string['configwindowsettings'] = 'Defineix el valor per defecte de la secció de configuració de la Finestra quan s\'afegeixen alguns nous recursos. Després de la primera vegada esdevé una preferència individual de l\'usuari.';
 $string['deploy'] = 'Desplega';
+$string['deployall'] = 'Deplega tot';
 $string['directlink'] = 'Enllaç directe a aquest fitxer';
 $string['directoryinfo'] = 'Es visualitzaran tots els fitxers del directori escollit.';
 $string['display'] = 'Finestra';
 $string['editingaresource'] = 'S\'està editant un recurs';
+$string['emptyfolder'] = 'Carpeta buida';
 $string['encryptedcode'] = 'Codi xifrat';
 $string['example'] = 'Exemple';
 $string['exampleurl'] = 'http://www.example.com/somedirectory/somefile.html';
@@ -50,6 +55,8 @@ $string['maindirectory'] = 'Directori principal';
 $string['modulename'] = 'Recurs';
 $string['modulenameplural'] = 'Recursos';
 $string['navigationbuttons'] = 'Botons de navegació';
+$string['navigationmenu'] = 'Menú lateral de navegació';
+$string['navigationup'] = 'Botó amunt';
 $string['neverseen'] = 'Mai vist';
 $string['newdirectories'] = 'Mostra la barra d\'enllaços del navegador';
 $string['newfullscreen'] = 'Omple la pantalla completa';
@@ -63,7 +70,9 @@ $string['newtoolbar'] = 'Mostra la barra d\'eines';
 $string['newwidth'] = 'Amplada de la finestra (en píxels)';
 $string['newwindow'] = 'Nova finestra';
 $string['newwindowopen'] = 'Mostra el material en una nova finestra emergent';
+$string['next'] = 'Següent';
 $string['notallowedlocalfileaccess'] = 'Actualment l\'accés als fitxers locals està inhabilitat, així que aquest recurs no està disponible.';
+$string['notdeployed'] = 'No desplegat';
 $string['note'] = 'Nota';
 $string['notefile'] = 'Per penjar més fitxers al curs (de manera que apareguin en aquesta llista) feu servir l\'<a href=\"$a\">Gestor de fitxers</a>.';
 $string['notypechosen'] = 'Heu de triar un tipus. Torneu enrere i proveu una altra vegada.';
@@ -75,7 +84,10 @@ $string['parameter'] = 'Paràmetre';
 $string['parameters'] = 'Paràmetres';
 $string['popupresource'] = 'Aquest recurs ha d\'aparèixer en una finestra emergent.';
 $string['popupresourcelink'] = 'Si no, feu clic aquí: $a';
+$string['preview'] = 'Visualització prèvia';
+$string['previous'] = 'Anterior';
 $string['redeploy'] = 'Torna a desplegar';
+$string['repository'] = 'Repositori IMS';
 $string['resourcetype'] = 'Tipus de recurs';
 $string['resourcetype1'] = 'Referència';
 $string['resourcetype2'] = 'Pàgina web';
@@ -96,7 +108,9 @@ $string['resourcetypetext'] = 'Compon una pàgina de text';
 $string['searchweb'] = 'Cerca una pàgina web';
 $string['serverurl'] = 'URL del servidor ($a->wwwroot)';
 $string['showcourseblocks'] = 'Mostra els blocs del curs';
+$string['skipsubmenus'] = 'Omet submenús';
 $string['tableofcontents'] = 'Taula de continguts';
+$string['upbutton'] = 'Amunt';
 $string['variablename'] = 'Nom de variable';
 $string['viewims'] = 'Visualitza paquet IMS CP';
 

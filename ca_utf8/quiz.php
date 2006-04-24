@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 Beta 2 (2006040500)
+      // quiz.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['1day'] = 'Un dia';
@@ -143,7 +143,7 @@ $string['editcatquestions'] = 'Edita preguntes de la categoria';
 $string['editdatasets'] = 'Edita els conjunts de dades';
 $string['editingcalculated'] = 'S\'està editant una pregunta calculada';
 $string['editingdescription'] = 'S\'està editant una descripció';
-$string['editingessay'] = 'S\'està editant un assaig';
+$string['editingessay'] = 'S\'està editant una pregunta de desenvolupament';
 $string['editingmatch'] = 'S\'està editant una pregunta d\'aparellar';
 $string['editingmultianswer'] = 'S\'està editant una pregunta de respostes incrustades (Cloze)';
 $string['editingmultichoice'] = 'S\'està editant una pregunta d\'opcions múltiples  ';
@@ -162,13 +162,13 @@ $string['editquizquestions'] = 'Edita preguntes del qüestionari';
 $string['errormissingquestion'] = 'Error: el sistema no coneix la pregunta amb id $a';
 $string['errornotnumbers'] = 'Error: les respostes han de ser numèriques';
 $string['errorsdetected'] = 'S\'ha(n) detectat $a error(s)';
-$string['essay'] = 'Assaig';
-$string['essayquestions'] = 'Preguntes d\'assaig';
+$string['essay'] = 'Pregunta de desenvolupament';
+$string['essayquestions'] = 'Preguntes de desenvolupament';
 $string['event1'] = 'Desa automàticament';
 $string['event2'] = 'Desa';
 $string['event3'] = 'Qualifica';
 $string['event5'] = 'Valida';
-$string['event6'] = 'Tanca &amp; qualifica';
+$string['event6'] = 'Tanca & qualifica';
 $string['event7'] = 'Tramet';
 $string['event8'] = 'Tanca';
 $string['event9'] = 'Qualifica manualment';
@@ -210,7 +210,7 @@ $string['gift'] = 'Format GIFT';
 $string['grade'] = 'Qualificació';
 $string['gradeall'] = 'Qualifica tot';
 $string['gradeaverage'] = 'Qualificació mitjana';
-$string['gradeessays'] = 'Qualifica assajos';
+$string['gradeessays'] = 'Qualifica preguntes de desenvolupament';
 $string['gradehighest'] = 'Qualificació més alta';
 $string['grademethod'] = 'Mètode de qualificació';
 $string['gradingdetails'] = 'Punts d\'aquesta tramesa: $a->raw/$a->max.';
@@ -294,7 +294,7 @@ $string['nocategory'] = 'No heu especificat una categoria o la categoria és inc
 $string['nocommentsyet'] = 'Encara no hi ha comentaris';
 $string['noconnection'] = 'En aquest moment no hi ha connexió amb un servei web que pugui processar aquesta pregunta. Contacteu si us plau amb l\'administrador';
 $string['nodataset'] = 'res: no és un comodí';
-$string['noessayquestionsfound'] = 'No s\'han trobat preguntes d\'assaig en aquesta lliçó';
+$string['noessayquestionsfound'] = 'No s\'han trobat preguntes qualificades manualment';
 $string['nominal'] = 'Nominal';
 $string['nomoreattempts'] = 'No es permeten més intents';
 $string['none'] = 'Cap';

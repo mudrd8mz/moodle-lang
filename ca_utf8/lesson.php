@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // lesson.php - created with Moodle 1.6 Beta 2 (2006040500)
 
 
 $string['accesscontrol'] = 'Control d\'accés';
@@ -203,7 +203,7 @@ $string['pleaseenteryouranswerinthebox'] = 'Si us plau, introduïu la resposta a
 $string['pleasematchtheabovepairs'] = 'Si us plau, relacioneu les parelles de dalt';
 $string['pointsearned'] = 'Punts aconseguits';
 $string['postsuccess'] = 'Missatge enviat correctament';
-$string['practice'] = 'Lliçó de pràctica';
+$string['practice'] = 'Practica la lliçó';
 $string['preview'] = 'Visualització prèvia';
 $string['previewlesson'] = 'Visualització prèvia $a';
 $string['previouspage'] = 'Pàgina anterior';

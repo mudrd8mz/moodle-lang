@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 Beta 2 (2006040500)
+      // admin.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['adminseesallevents'] = 'Els administradors veuen tots els esdeveniments';
@@ -26,6 +26,7 @@ $string['configallowusermailcharset'] = 'Si habiliteu aquesta opció, cada usuar
 $string['configallowuserthemes'] = 'Si habiliteu aquesta opció, els usuaris podran definir els seus temes. Els temes dels usuaris substitueixen el tema del lloc (però no substitueixen els temes dels cursos).';
 $string['configallusersaresitestudents'] = 'Cal considerar com a estudiants TOTS els usuaris en les activitats de la pàgina inicial d\'aquest lloc? Si la resposta és \"Sí\", llavors qualsevol usuari amb un compte confirmat podrà participar com a estudiant en aquestes activitats. Si la resposta és \"No\", llavors només els usuaris que ja siguin membres d\'almenys un curs podran participar en aquestes activitats de la pàgina inicial. Només els administradors i els professors que hi hagin estat assignats poden actuar com a professors d\'aquestes activitats.';
 $string['configautologinguests'] = 'Cal fer entrar automàticament com a visitants els usuaris externs que intenten entrar en un curs que permet l\'accés de visitants?';
+$string['configbloglevel'] = 'Aquest paràmetre us permet limitar l\'àmbit de visualització dels blocs o bitàcoles d\'aquest lloc. Fixeu-vos que aquest paràmetre determina el context més ampli en què es poden VISUALITZAR les bitàcoles. No té res a veure amb tipus d\'autors o tipus de missatges. També podeu inhabilitar completament les bitàcoles si no voleu que s\'utilitzin en absolut.';
 $string['configcachetext'] = 'Aquest paràmetre pot agilitzar el funcionament de llocs amb molts usuaris o llocs que utilitzen filtres de text. Durant el temps que s\'especifica aquí es reté una còpia del text ja filtrat. Teniu en compte que si el temps especificat és massa breu el funcionament es podria alentir i tot, i que un temps massa prolongat podria implicar que els textos triguessin massa a actualitzar-se.';
 $string['configclamactlikevirus'] = 'Tracta els fitxers com a virus';
 $string['configclamdonothing'] = 'Dóna els fitxers per bons';

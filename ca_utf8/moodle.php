@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // moodle.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['action'] = 'Acció';
@@ -208,6 +208,7 @@ $string['convertingwikitomarkdown'] = 'S\'està convertint el Wiki a Markdown';
 $string['cookiesenabled'] = 'Les galetes han d\'estar habilitades en el vostre navegador';
 $string['cookiesnotenabled'] = 'Malauradament no teniu les galetes habilitades al navegador';
 $string['copy'] = 'copia';
+$string['copyasnoun'] = 'còpia';
 $string['copyingcoursefiles'] = 'S\'estan copiant els fitxers del curs';
 $string['copyinguserfiles'] = 'S\'estan copiant els fitxers d\'usuari';
 $string['copyingzipfile'] = 'S\'està copiant el fitxer zip';
@@ -643,6 +644,7 @@ $string['htmlfilesonly'] = 'Només fitxers HTML';
 $string['htmlformat'] = 'Format HTML';
 $string['icqnumber'] = 'Número ICQ';
 $string['idnumber'] = 'Número ID';
+$string['idnumbercourse'] = 'Número ID del curs';
 $string['import'] = 'Importa';
 $string['importactivities'] = 'Importa activitats d\'un altre curs';
 $string['importdata'] = 'Importa dades d\'un curs';
@@ -794,6 +796,7 @@ $string['modulesuccess'] = 'S\'han configurat correctament les taules $a';
 $string['moodledocslink'] = 'Moodle Docs per a aquesta pàgina';
 $string['moodleversion'] = 'Versió de Moodle';
 $string['more'] = 'més';
+$string['moreinformation'] = 'Més informació d\'aquest error';
 $string['mostrecently'] = 'més recent';
 $string['move'] = 'Mou';
 $string['movecategoryto'] = 'Mou categoria a:';
