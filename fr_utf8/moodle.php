@@ -79,6 +79,7 @@ $string['aimid'] = 'Identifiant AIM';
 $string['all'] = 'Tout';
 $string['allactions'] = 'Toutes les actions';
 $string['allactivities'] = 'Toutes les activités';
+$string['allchanges'] = 'Toutes les modifications';
 $string['alldays'] = 'Tous les jours';
 $string['allfieldsrequired'] = 'Tous les champs sont requis';
 $string['allfiles'] = 'Tous les fichiers';
