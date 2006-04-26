@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // moodle.php - created with Moodle 1.6 Beta 3 (2006042401)
 
 
 $string['action'] = '操作';
@@ -81,6 +81,7 @@ $string['aimid'] = 'AIM ID';
 $string['all'] = 'すべて';
 $string['allactions'] = 'すべての行動';
 $string['allactivities'] = 'すべての活動';
+$string['allchanges'] = 'すべての変更';
 $string['alldays'] = 'すべての日付';
 $string['allfieldsrequired'] = 'すべての項目に入力してください。';
 $string['allfiles'] = 'すべてのファイル';
