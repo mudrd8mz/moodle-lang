@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // lesson.php - created with Moodle 1.6 Beta 3 (2006042600)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -21,10 +21,10 @@ $string['and'] = 'AND';
 $string['answer'] = '選択肢';
 $string['answeredcorrectly'] = '正常に解答されました。';
 $string['answersfornumerical'] = '数字問題に対する解答は最大値および最小値の範囲内に入る必要があります。';
-$string['arrangebuttonshorizontally'] = 'スライドショーで分岐ボタンを水平に配置しますか?';
+$string['arrangebuttonshorizontally'] = 'スライドショーモードで分岐ボタンを水平に配置しますか?';
 $string['attempt'] = '受験: $a';
 $string['attempts'] = '受験';
-$string['attemptsremaining'] = 'あなたは $a 回の受験回数が残っています。';
+$string['attemptsremaining'] = 'あなたには $a 回の受験回数が残っています。';
 $string['available'] = 'レッスン公開';
 $string['averagescore'] = '平均評点';
 $string['averagetime'] = '平均時間';
@@ -47,7 +47,7 @@ $string['completed'] = '完了';
 $string['completederror'] = 'レッスンを完了する';
 $string['completethefollowingconditions'] = '先へ進む前に、<b>$a</b> レッスンの下記の状態を完了させる必要があります。';
 $string['conditionsfordependency'] = '依存条件';
-$string['confirmdeletionofthispage'] = 'このページを本当に削除してもよろしいですか?';
+$string['confirmdeletionofthispage'] = '本当にこのページを削除してもよろしいですか?';
 $string['congratulations'] = 'おめでとうございます - レッスンの最後に到達しました。';
 $string['continue'] = '続ける';
 $string['continuetoanswer'] = '続けて答えを変更する。';
@@ -257,10 +257,10 @@ $string['thefollowingpagesjumptothispage'] = '下記のページは、このペ�
 $string['thispage'] = 'このページ';
 $string['timed'] = '制限時間';
 $string['timeremaining'] = '残り時間';
-$string['timespenterror'] = '少なくとも $a 分の時間を使用してください。';
+$string['timespenterror'] = '少なくともレッスンで $a 分の時間を使用してください。';
 $string['timespentminutes'] = '利用時間 ( 分 )';
 $string['timetaken'] = '経過時間';
-$string['topscorestitle'] = '$a->name レッスンのハイスコア上位 $a->maxhighscores 件';
+$string['topscorestitle'] = 'トップ $a ハイスコア';
 $string['unseenpageinbranch'] = '分岐内の未閲覧の問題';
 $string['unsupportedqtype'] = 'サポートされていない問題タイプ ( $a ) です!';
 $string['updatedpage'] = 'ページを更新しました。';
