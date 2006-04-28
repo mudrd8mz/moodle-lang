@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6 development (2006031400)
+      // enrol_imsenterprise.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
+$string['aftersaving...'] = 'Als je instellingen bewaard zijn, wil je misschien';
 $string['allowunenrol'] = 'Laat IMS data toe om leraars en leerlingen <strong>af te melden</strong>';
 $string['basicsettings'] = 'Basisinstellingen';
 $string['coursesettings'] = 'Data opties van de cursus';
@@ -18,16 +19,16 @@ $string['filelockedmailsubject'] = 'Belangrijke fout: Aanmeldingsbestand';
 $string['fixcasepersonalnames'] = 'Begin namen met Hoofdletters';
 $string['fixcaseusernames'] = 'Wijzig gebruikersnamen naar kleine letters';
 $string['location'] = 'Bestandslocatie';
-$string['logtolocation'] = 'Locatie logbestand : l';
+$string['logtolocation'] = 'Locatie logbestand (niets invullen voor geen logbestand)';
 $string['mailadmins'] = 'Verwittig beheerder via e-mail';
 $string['mailusers'] = 'Verwittig gebruikers via e-mail';
 $string['miscsettings'] = 'Diverse';
 $string['processphoto'] = 'Voeg een gebruikersfoto toe aan het profiel';
 $string['processphotowarning'] = 'Waarschuwing: bewerken van afbeeldingen kan je server behoorlijk belasten. Aangeraden wordt om deze optie niet te gebruiken wanneer je grote aantallen leerlingen wil verwerken.';
 $string['restricttarget'] = 'Verwerk alleen datea als volgend doel ie opgegeven';
-$string['sourcedidfallback'] = 'Gebruik het &quot;sourcedid&quot; als gebruikersid als het &quot;sourcedid&quot;-veld niet gevonden kan worden';
+$string['sourcedidfallback'] = 'Gebruik het \"sourcedid\" als gebruikersid als het \"sourcedid\"-veld niet gevonden kan worden';
 $string['truncatecoursecodes'] = 'Verkort cursuscodes tot deze lengte';
-$string['usecapitafix'] = 'Zet hier een vinkje als je using &quot;Capita&quot; gebruikt (hun XML-formaat wijkt een klein beetje af)';
+$string['usecapitafix'] = 'Zet hier een vinkje als je using \"Capita\" gebruikt (hun XML-formaat wijkt een klein beetje af)';
 $string['usersettings'] = 'Opties voor gebruikersgegevens';
 $string['zeroisnotruncation'] = '0 betekent niet verkorten';
 
