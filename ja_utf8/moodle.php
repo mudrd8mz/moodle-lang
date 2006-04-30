@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 3 (2006042600)
+      // moodle.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
 $string['action'] = '操作';
@@ -41,8 +41,8 @@ $string['admin'] = '管理';
 $string['adminhelpaddnewuser'] = '新しいユーザを作成します。';
 $string['adminhelpassignadmins'] = '管理者はサイト内ですべての作業および移動を行うことができます。';
 $string['adminhelpassigncreators'] = 'コース作成者は新しいコースの作成およびコース内での教育を行うことができます。';
-$string['adminhelpassignstudents'] = 'コース内の管理メニューより学生を追加します。';
-$string['adminhelpassignteachers'] = '検索したコースにアイコンを使用して教師を割り当てます。';
+$string['adminhelpassignstudents'] = 'コースに入って、管理メニューより学生を追加します。';
+$string['adminhelpassignteachers'] = 'コースを探した後、アイコンを使用して教師を割り当てます。';
 $string['adminhelpauthentication'] = '内部のユーザアカウントまたは外部のデータベースを使用できます。';
 $string['adminhelpbackup'] = '自動バックアップおよびスケジュールの設定を行います。';
 $string['adminhelpconfiguration'] = 'サイト全体の動作に関係する変数の設定を行います。';
@@ -53,7 +53,7 @@ $string['adminhelpedituser'] = 'ユーザアカウントリストの表示およ
 $string['adminhelpenrolments'] = 'ユーザ登録管理を内部的に行うか、外部より行うか選択してください。';
 $string['adminhelpenvironment'] = 'あなたのサーバが現在および将来のインストールのシステム要件に適合しているかチェックします。';
 $string['adminhelpfailurelogs'] = 'ログイン失敗のログを表示';
-$string['adminhelplanguage'] = '言語パックの確認および編集を行います。';
+$string['adminhelplanguage'] = '現在の言語パックを確認および編集します。';
 $string['adminhelplogs'] = 'サイトの全活動に関するログを表示します。';
 $string['adminhelpmanageblocks'] = 'インストール済みブロックの管理および設定を行います。';
 $string['adminhelpmanagedatabase'] = 'データベースに直接アクセスする ( 注意してください! )';
@@ -63,7 +63,7 @@ $string['adminhelpmymoodle'] = 'ユーザにマイmoodleブロックを設定し
 $string['adminhelpreports'] = 'サイトレベルのレポートです。';
 $string['adminhelpsitefiles'] = '一般的なファイルの公開または外部バックアップファイルのアップロードを行います。';
 $string['adminhelpsitesettings'] = 'フロントページのデザインを設定します。';
-$string['adminhelpstickyblocks'] = 'moodle全体のスティッキーブロック設定を行います。';
+$string['adminhelpstickyblocks'] = 'moodle全体のスティッキーブロックを設定します。';
 $string['adminhelpthemes'] = 'サイトのデザイン ( 色、フォント等 ) を選択します。';
 $string['adminhelpuploadusers'] = 'テキストファイルから新しいユーザをインポートします。';
 $string['adminhelpusers'] = 'ユーザおよび認証の設定を行います。';
