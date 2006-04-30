@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // blog.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
 $string['addnewentry'] = '新しいエントリの追加';
@@ -50,6 +50,6 @@ $string['userblog'] = 'ユーザブログ: $a';
 $string['viewcourseentries'] = 'コースエントリの表示';
 $string['viewmyentries'] = 'マイエントリの表示';
 $string['viewsiteentries'] = 'サイトエントリの表示';
-$string['worldblogs'] = '「世界中の誰でも」に設定すると、世界の人々がエントリを読むことができます。';
+$string['worldblogs'] = '「世界中の誰でも」に設定すると、世界中の人々がエントリを読むことができます。';
 
 ?>
