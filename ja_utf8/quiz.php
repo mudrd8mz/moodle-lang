@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // quiz.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
 $string['1day'] = '1日';
@@ -408,7 +408,7 @@ $string['requiresubnet'] = 'ネットワークアドレス';
 $string['response'] = '解答';
 $string['responses'] = '解答';
 $string['results'] = '受験結果';
-$string['reuseifpossible'] = '削除データを再利用';
+$string['reuseifpossible'] = '前に削除したデータを再利用';
 $string['review'] = 'レビュー';
 $string['reviewafter'] = '小テスト終了後にレビューを許可する';
 $string['reviewalways'] = '常にレビューを許可する';
