@@ -38,7 +38,7 @@ $string['classstats'] = 'Statistique de classe';
 $string['clicktopost'] = 'Cliquer ici pour envoyer votre note dans la liste des Meilleures résultats.';
 $string['clusterjump'] = 'Question non vue à l\'intérieur d\'un groupe';
 $string['clustertitle'] = 'Groupe';
-$string['collapsed'] = 'Minimisé';
+$string['collapsed'] = 'Réduire';
 $string['comments'] = 'Vos commentaires';
 $string['commentswithname'] = 'Commentaires de $a->firstname {$a->lastname}';
 $string['completed'] = 'Terminé';
@@ -95,7 +95,7 @@ $string['fileformat'] = 'Format de fichier';
 $string['firstanswershould'] = 'La première réponse devrait toujours permettre l\'accès à la page « Réponse correcte »';
 $string['firstwrong'] = 'Vous ne recevez malheureusement pas ce point, car votre réponse n\'est pas correcte. Voulez-vous essayer de deviner la bonne réponse, pour le plaisir d\'apprendre (mais sans recevoir de point) ?';
 $string['flowcontrol'] = 'Contrôle du déroulement';
-$string['full'] = 'Développé';
+$string['full'] = 'Agrandir';
 $string['general'] = 'Général';
 $string['grade'] = 'Note';
 $string['gradebetterthan'] = 'Note plus haute que (&#37;)'; // &#37; = %
