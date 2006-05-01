@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // quiz.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
 $string['1day'] = '1 Gün';
@@ -9,7 +9,7 @@ $string['30minutes'] = '30 Dakika';
 $string['6hours'] = '6 Saat';
 $string['acceptederror'] = 'Kabul edilen hata';
 $string['action'] = 'Eylem';
-$string['adaptive'] = 'Uyarlanabilir Mod';
+$string['adaptive'] = 'Uyarlamalı mod';
 $string['addcategory'] = 'Kategori ekle';
 $string['addingquestions'] = 'Sayfanın bu tarafı soru bankasını yöneteceğiniz yerdir. Soruları daha kolay sınıflandırmanız için kategorik olarak ayrılırlar. Ayrıca \'yayınla\' yı seçerseniz bu sorular herhangi bir sınavda veya diğer derslerde kullanılabilir.<br /><br /> Bir  soru kategorisi seçtikten veya oluşturduktan sonra soruları düzenleyebilirsiniz. Sayfanın diğer tarafında soruları sınavınıza ekleyebilirsiniz.';
 $string['addquestions'] = 'Soru ekle';
@@ -24,7 +24,7 @@ $string['aiken'] = 'Aiken biçimi';
 $string['allattempts'] = 'Tüm uygulamalar';
 $string['allinone'] = 'Sınırsız';
 $string['allowreview'] = 'Yeniden gözden geçirme izni';
-$string['alreadysubmitted'] = 'Bu uygulamayı daha önce yapmış görünüyorsunuz';
+$string['alreadysubmitted'] = 'Bu uygulamayı daha önceden yapmış görünüyorsunuz';
 $string['alternativeunits'] = 'Alternatif Birimler';
 $string['alwaysavailable'] = 'Her zaman erişilebilir';
 $string['analysisoptions'] = 'Analiz seçenekleri';
@@ -338,8 +338,9 @@ $string['publish'] = 'Yayınla';
 $string['publishedit'] = 'Bu kategoriye soru eklemek veya değiştirmek için yayınlama hakkınız olmalıdır';
 $string['qti'] = 'IMS QTI biçimi';
 $string['qti2'] = 'IMS QTI 2.0 biçimi';
-$string['questincats'] = 'Soru Kategorileri';
 $string['question'] = 'Soru';
+$string['questioncats'] = 'Soru Kategorileri';
+$string['questiondeleted'] = 'Bu kategori silindi. Lütfen eğitimcinizle iletişim kurun';
 $string['questioninuse'] = 'Soru \'$a\' halihazırda kullanılmaktadır:';
 $string['questionname'] = 'Soru adı';
 $string['questionnametoolong'] = '$a satırındaki soru adı çok uzun (max 255 karakter). Fazlası atıldı.';
@@ -486,6 +487,7 @@ $string['url'] = 'URL';
 $string['validate'] = 'Denetle';
 $string['viewallanswers'] = '$a sınav uygulamasına bak';
 $string['viewallreports'] = '$a Uygulaması için raporları görüntüle';
+$string['warningmissingtype'] = '<p><b>Bu soru tipi henüz kurulu değil. Lütfen yöneticinizi uyarın.</b></p>';
 $string['warningsdetected'] = '$a uyarı algılandı';
 $string['webct'] = 'WebCT biçimi';
 $string['wheregrade'] = 'Notlarım nerede?';
