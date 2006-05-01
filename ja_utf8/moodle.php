@@ -1129,6 +1129,7 @@ $string['sizeb'] = 'バイト';
 $string['sizegb'] = 'GB';
 $string['sizekb'] = 'KB';
 $string['sizemb'] = 'MB';
+$string['skipped'] = 'スキップ';
 $string['skypeid'] = 'Skype ID';
 $string['socialheadline'] = '一般フォーラム - 最新トピック';
 $string['someallowguest'] = 'いくつかのコースはゲストで利用できます';
