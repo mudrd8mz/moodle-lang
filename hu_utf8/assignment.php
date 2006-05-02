@@ -1,5 +1,5 @@
-<?php // $Id$
-// assignment.php - created with Moodle 1.2 + (2004032100)
+<?PHP // $Id$ 
+      // assignment.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['allowresubmit'] = 'Ismételt leadás engedélyezése';
@@ -12,6 +12,7 @@ $string['assignmenttype'] = 'Feladat típusa';
 $string['availabledate'] = 'Elérhető innen';
 $string['comment'] = 'Megjegyzés';
 $string['commentinline'] = 'Sorközi megjegyzés';
+$string['configitemstocount'] = 'Online feladatokban a tanulói leadott munkákhoz megszámolandó tételek jellege.';
 $string['configmaxbytes'] = 'Az adott portálon az összes feladat alapbeállítás szerinti maximális mérete (a kurzustól és egyéb helyi beállításoktól függően)';
 $string['description'] = 'Leírás';
 $string['duedate'] = 'Határidő';
@@ -32,6 +33,8 @@ $string['failedupdatefeedback'] = 'A leadott munka véleményezésének a friss�
 $string['feedback'] = 'Visszajelzés';
 $string['feedbackfromteacher'] = 'Visszajelzés  $a részéről';
 $string['feedbackupdated'] = 'A leadott munka visszajelzése frissítve $a számára';
+$string['graded'] = 'Pontozott';
+$string['guestnosubmit'] = 'Vendégek nem adhatnak le feladatokat. A válasz leadása előtt be kell jelentkeznie vagy regisztráltatnia kell magát.';
 $string['guestnoupload'] = 'Vendégek nem tölthetnek fel állományokat.';
 $string['helpoffline'] = '<p>Ez akkor hasznos, amikor a feladat végrehajtása a Moodle-on kívül történik. Erre sor kerülhet valahol máshol a weben, illetve tantermi órán.</p><p>A tanulók látják a feladat leírását, de nem tudnak állományokat feltölteni. A pontozás a szokásos módon történik, a tanulók pontjaikról értesítést kapnak.</p>';
 $string['helponline'] = '<p>Ezen feladattípus esetén a felhasználók szokásos szerkesztőjükkel szerkesztenek szöveget. A tanárok online pontozhatnak, sőt, sorközi megjegyzéseket tehetnek vagy változtathatnak a szövegen.</p>
@@ -48,12 +51,15 @@ $string['noattempts'] = 'Ezzel a feladattal még nem próbálkoztak';
 $string['notgradedyet'] = 'Még nincs pontozva';
 $string['notsubmittedyet'] = 'Még nincs leadva';
 $string['overwritewarning'] = 'Vigyázat: az újrafeltöltés FELÜLÍRJA a most leadott munkát';
+$string['pagesize'] = 'Oldalankénti leadott munkák száma';
 $string['preventlate'] = 'Kései leadások megakadályozása';
+$string['quickgrade'] = 'Gyors pontozás engedélyezése';
 $string['saveallfeedback'] = 'Minden visszajelzésem mentése';
 $string['submission'] = 'Leadott munka';
 $string['submissionfeedback'] = 'Leadott munka véleményezése';
 $string['submissions'] = 'Leadott munkák';
 $string['submissionsaved'] = 'A módosítások mentése megtörtént';
+$string['submissionsnotgraded'] = '$a leadott munka nincs pontozva';
 $string['submitassignment'] = 'Ezzel az űrlappal küldje be feladatát';
 $string['submitted'] = 'Leadva';
 $string['typeoffline'] = 'Offline  tevékenység';

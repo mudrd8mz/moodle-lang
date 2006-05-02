@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.4 (2004083100)
+      // enrol_ldap.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['description'] = '<p>Beiratkozásait kezelheti egy LDAP-szerver segítségével. Feltételezés szerint az Ön LDAP-fája olyan csoportokat tartalmaz, amelyek kurzusoknak vannak megfeleltetve, az egyes kurzusok/csoportok pedig tagjegyzékkel rendelkeznek a tanulók megfeleltetéséhez.</p>

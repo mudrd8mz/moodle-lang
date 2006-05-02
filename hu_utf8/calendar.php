@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.4 (2004083100)
+      // calendar.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['calendar'] = 'Naptár';
@@ -30,6 +30,7 @@ $string['eventendtime'] = 'Befejezési időpont';
 $string['eventinstanttime'] = 'Idő';
 $string['eventkind'] = 'Esemény típusa';
 $string['eventname'] = 'Név';
+$string['eventnone'] = 'Nincs esemény';
 $string['eventrepeat'] = 'Ismétlések';
 $string['eventsfor'] = '$a esemény';
 $string['eventstarttime'] = 'Kezdési időpont';

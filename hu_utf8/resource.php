@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005032600)
+      // resource.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['addresource'] = 'Tananyag hozzáadása';
@@ -76,6 +76,7 @@ $string['parameter'] = 'Paraméter';
 $string['parameters'] = 'Paraméterek';
 $string['popupresource'] = 'Ennek a tananyagnak előbukkanó ablakban kell megjelenni.';
 $string['popupresourcelink'] = 'Ha nem, kattintson ide: $a';
+$string['redeploy'] = 'Újbóli használat';
 $string['resourcetype'] = 'Tananyag típusa';
 $string['resourcetype1'] = 'Hivatkozás';
 $string['resourcetype2'] = 'Weboldal';
@@ -99,6 +100,6 @@ $string['showcourseblocks'] = 'Kurzusblokkok megjelenítése';
 $string['tableofcontents'] = 'Tartalomjegyzék';
 $string['variablename'] = 'Változó neve';
 $string['viewims'] = 'IMS-csomag megtekintése';
-$string['vol'] = 'Vol';
+$string['vol'] = 'Kötet';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.4 (2004083100)
+      // grades.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['addcategory'] = 'Kategória hozzáadása';
@@ -111,7 +111,7 @@ $string['total'] = 'Összes';
 $string['totalweight100'] = 'Az összsúly 100-zal egyenlő';
 $string['totalweightnot100'] = 'Az összsúly nem egyenlő 100-zal';
 $string['uncategorised'] = 'Nincs kategorizálva';
-$string['useadvanced'] = 'Továbbfejlesztett jellemzők használata';
+$string['useadvanced'] = 'További jellemzők használata';
 $string['usepercent'] = 'Százalék használata';
 $string['useweighted'] = 'Súlyozás használata';
 $string['viewbygroup'] = 'Csoport';

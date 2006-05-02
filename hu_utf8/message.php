@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.4 (2004083100)
+      // message.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['addcontact'] = 'Kapcsolat hozzáadása';
@@ -62,7 +62,7 @@ $string['timesent'] = 'Küldés időpontja';
 $string['unblockcontact'] = 'Kapcsolat zárolásának feloldása';
 $string['unreadmessages'] = '$a olvasatlan üzenet';
 $string['userisblockingyou'] = 'Ez a felhasználó nem engedélyezte az Öntől jövő üzenetek fogadását';
-$string['userisblockingyounoncontact'] = 'Ez a felhasználó csak kapcsolatként nyilvántarott személyektől fogad üzeneteket, Ön nincs ebben a jegyzékben.';
+$string['userisblockingyounoncontact'] = 'Ez a felhasználó csak kapcsolatként nyilvántartott személyektől fogad üzeneteket, Ön nincs ebben a jegyzékben.';
 $string['userssearchresults'] = 'Keresés eredménye: $a felhasználót találtam';
 
 ?>

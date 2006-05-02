@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.4 (2004083100)
+      // dialogue.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['addmynewentries'] = 'Új szövegeim hozzáadása';
@@ -9,6 +9,7 @@ $string['allowmultiple'] = 'Ugyanazon személlyel egynél több párbeszéd enge
 $string['allowstudentdialogues'] = 'Tanulók közötti párbeszéd engedélyezése';
 $string['close'] = 'Lezárás';
 $string['closed'] = 'Lezárva';
+$string['closeddialogues'] = 'Lezárt párbeszédek ';
 $string['confirmclosure'] = 'Párbeszédet készül lezárni $a-val/-vel. A lezárt párbeszédet nem lehet újból megnyitni. Ha lezárja a párbeszédet, megtekintheti, de nem tehet hozzá és egy új párbeszédet kell elindítani, ha az adott személyhez kíván szólni.<br /><br />Biztosan le akarja zárni ezt a párbeszédet?';
 $string['deleteafter'] = 'Lezárt párbeszédek törlése ... elteltével';
 $string['dialogueclosed'] = 'Párbeszéd lezárva';
@@ -36,6 +37,7 @@ $string['newentry'] = 'Új szöveg';
 $string['noavailablepeople'] = 'Nincs kivel párbeszédet folytatni.';
 $string['nopersonchosen'] = 'Nem választott személyt';
 $string['nosubject'] = 'Nincs megadva téma';
+$string['notavailable'] = 'Vendégek nem használhatnak párbeszédet';
 $string['notextentered'] = 'Nincs megadva szöveg';
 $string['notstarted'] = 'Még nem kezdte el ezt a párbeszédet';
 $string['notyetseen'] = 'Még nem látták';
@@ -48,6 +50,7 @@ $string['open'] = 'Megnyitás';
 $string['openadialoguewith'] = 'Párbeszéd megnyitása a következővel';
 $string['opendialogue'] = 'Párbeszéd megnyitása';
 $string['opendialogueentries'] = 'Párbeszéd szövegeinek megnyitása';
+$string['opendialogues'] = 'Párbeszédek megnyitása';
 $string['pane0'] = 'Párbeszéd megnyitása';
 $string['pane1'] = '$a párbeszéd vár választ Öntől';
 $string['pane1one'] = '1 párbeszéd vár választ Öntől';

@@ -1,5 +1,5 @@
-<?php // $Id$ 
-      // wiki.php - created with Moodle 1.4 alpha (2004081900)
+<?PHP // $Id$ 
+      // wiki.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['action'] = '-- Tevékenység --';
@@ -185,7 +185,7 @@ $string['wikistartederror'] = 'A wikiben már vannak bejegyzések - nem lehet m�
 $string['wikitype'] = 'Típus';
 $string['wikiusage'] = 'Wiki használata';
 $string['withbinaries'] = 'Bináris tartalom beszúrása';
-$string['withvirtualpages'] = 'Wiki-ugrópontok beszúrása';
+$string['withvirtualpages'] = 'Wiki ugrópontok beszúrása';
 $string['wrongversionrange'] = 'A(z) $a nem megfelelő tartomány!';
 
 ?>

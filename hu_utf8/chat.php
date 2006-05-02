@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.4 (2004083100)
+      // chat.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['beep'] = 'csöngetés';
@@ -42,6 +42,7 @@ $string['neverdeletemessages'] = 'Az üzenetek soha nem törlődjenek';
 $string['nextsession'] = 'A következő csevegés';
 $string['noguests'] = 'A csevegésbe vendégek nem kapcsolódhatnak be';
 $string['nomessages'] = 'Még nincs üzenet';
+$string['noscheduledsession'] = 'Nincs előjegyzett csevegés';
 $string['repeatdaily'] = 'Minden nap ugyanakkor';
 $string['repeatnone'] = 'Nincs ismétlés - csak a megadott időpont megjelenítése';
 $string['repeattimes'] = 'Csevegések ismétlése';

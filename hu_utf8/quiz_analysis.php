@@ -1,7 +1,8 @@
-<?php // $Id$
-      // quiz.php - created with Moodle 1.4 development (2004080300)
+<?PHP // $Id$ 
+      // quiz_analysis.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
+$string['analysis'] = 'Tételes elemzés';
 $string['analysisoptions'] = 'Elemzési lehetőségek';
 $string['analysistitle'] = 'Tételes elemzési táblázat';
 $string['attemptsall'] = 'minden próbálkozás';

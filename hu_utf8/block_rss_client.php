@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.4 (2004083100)
+      // block_rss_client.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['addfeed'] = 'Hírfórum URL-jének hozzáadása';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.4 (2004083100)
+      // exercise.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['absent'] = 'Hiányzik';
@@ -55,7 +55,7 @@ $string['generalcomment'] = 'Általános megjegyzés';
 $string['good'] = 'Jó';
 $string['gradeassessment'] = 'Értékelés pontozása';
 $string['gradeforassessment'] = 'Pontszám az értékelésre';
-$string['gradeforstudentsassessment'] = 'Pontszám az $a értékelésére';
+$string['gradeforstudentsassessment'] = 'Pontszám a(z) $a értékelésére';
 $string['gradeforsubmission'] = 'Pontszám a leadott munkára';
 $string['gradetable'] = 'Pontozási táblázat';
 $string['gradinggrade'] = 'Pontozási pont';

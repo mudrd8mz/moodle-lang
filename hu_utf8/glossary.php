@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.4 (2004083100)
+      // glossary.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['addcomment'] = 'Megjegyzés hozzáadása';
@@ -95,9 +95,8 @@ $string['explainalphabet'] = 'Fogalomtár böngészése ezzel a mutatóval';
 $string['explainexport'] = 'Elkészült egy fájl.<br />Töltse le és őrizze meg. Akár ezen kurzus, akár más kurzus folyamán bármikor importálhatja.';
 $string['explainimport'] = 'Meg kell adnia az importálandó állományt és meg kell határoznia a folyamat kritériumait.<br />Adja le kérését és tekintse át az eredményeket.';
 $string['explainspecial'] = 'Megjeleníti a nem betűvel kezdődő fogalmakat';
-$string['exportedentry'] = 'Exportált fogalom';
-$string['exportedfile'] = 'Exportált állomány';
 $string['exportentries'] = 'Fogalmak exportálása';
+$string['exportfile'] = 'Fogalmak exportálása állományba';
 $string['exportglossary'] = 'Fogalomtár exportálása';
 $string['exporttomainglossary'] = 'Exportálás a fő fogalomtárba';
 $string['filetoimport'] = 'Importálandó állomány';
@@ -107,7 +106,6 @@ $string['fullmatch'] = 'Egész szavak egyezése';
 $string['globalglossary'] = 'Globális fogalomtár';
 $string['glossaryleveldefaultsettings'] = 'Fogalmi szintű alapbeállítások';
 $string['glossarytype'] = 'Fogalomtár típusa';
-$string['glosssaryexported'] = 'Fogalomtár exportálva.';
 $string['importcategories'] = 'Importálási kategóriák';
 $string['importedcategories'] = 'Importált kategóriák';
 $string['importedentries'] = 'Importált fogalmak';

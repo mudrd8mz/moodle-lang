@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // timezones.php - created with Moodle 1.4 (2004083100)
+      // timezones.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['africa/abidjan'] = 'Afrika/Abidjan';
@@ -48,7 +48,7 @@ $string['africa/ndjamena'] = 'Afrika/Ndjamena';
 $string['africa/niamey'] = 'Afrika/Niamey';
 $string['africa/nouakchott'] = 'Afrika/Nouakchott';
 $string['africa/ouagadougou'] = 'Afrika/Ouagadougou';
-$string['africa/porto'] = 'Afrika/Porto-Novo';
+$string['africa/porto-novo'] = 'Afrika/Porto Novo';
 $string['africa/sao_tome'] = 'Afrika/Sao-Tome';
 $string['africa/timbuktu'] = 'Afrika/Timbuktu';
 $string['africa/tripoli'] = 'Afrika/Tripoli';
@@ -148,7 +148,7 @@ $string['america/panama'] = 'Amerika/Panama';
 $string['america/pangnirtung'] = 'Amerika/Pangnirtung';
 $string['america/paramaribo'] = 'Amerika/Paramaribo';
 $string['america/phoenix'] = 'Amerika/Phoenix';
-$string['america/port'] = 'Amerika/Port-au-Prince';
+$string['america/port-au-prince'] = 'Amerika/Port au Prince';
 $string['america/port_of_spain'] = 'Amerika/Port-of-Spain';
 $string['america/porto_velho'] = 'Amerika/Porto-Velho';
 $string['america/puerto_rico'] = 'Amerika/Puerto-Rico';

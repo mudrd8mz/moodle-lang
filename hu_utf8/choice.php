@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.4 (2004083100)
+      // choice.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['addmorechoices'] = 'További válaszok hozzáadása';
@@ -39,6 +39,6 @@ $string['spacesleft'] = 'meglévő hely';
 $string['taken'] = 'Foglalt';
 $string['timerestrict'] = 'Válaszadás korlátozása eddig az időpontig';
 $string['viewallresponses'] = 'A(z) $a viszontválaszainak megtekintése';
-$string['yourselection'] = 'Választása';
+$string['yourselection'] = 'Az Ön választása';
 
 ?>

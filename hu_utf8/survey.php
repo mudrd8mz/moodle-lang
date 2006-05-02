@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.4 (2004083100)
+      // survey.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['actual'] = 'Aktuális';
@@ -187,7 +187,7 @@ $string['report'] = 'Felméréssel kapcsolatos jelentés';
 $string['savednotes'] = 'A megjegyzéseit elmentettük ';
 $string['scaleagree5'] = 'Nagyon nem ért egyet,Valamelyest nem ért egyet,Semleges, Valamelyest egyetért,Teljesen egyetért';
 $string['scales'] = 'Skálák';
-$string['scaletimes5'] = 'Szinte soha,Ritkán,Néha,Gyakran,Majdnem mindig';
+$string['scaletimes5'] = 'Szinte soha, Ritkán, Néha, Gyakran, Majdnem mindig';
 $string['seemoredetail'] = 'A részletekért kattintson ide';
 $string['selectedquestions'] = 'Egy skáláról választott kérdések, minden tanuló';
 $string['summary'] = 'Összegzés';
