@@ -1,28 +1,15 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6 development (2006031400)
+      // enrol_authorize.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
-$string['adminauthorizeccapture'] = 'Siparişi İnceleme ve Otomatik-Çekme Ayarları';
+$string['adminauthorizeccapture'] = 'Siparişi İnceleme ve Zamanlanmış-Çekme Ayarları';
 $string['adminauthorizeemail'] = 'Email Gönderme Ayarları';
 $string['adminauthorizesettings'] = 'Authorize.net Ayarları';
 $string['adminauthorizewide'] = 'Site Geneli Ayarları';
 $string['adminavs'] = 'Authorize.net hesabınızda AVS\'yi (Adres Doğrulama Sistemi) etkinleştirdiyseniz bunu seçin. Kullanıcı ödeme formunu doldururken cadde, ülke, posta kodu gibi adres alanları istenir.';
-$string['admincronsetup'] = 'Cron.php bakım betiği son 24 saattir çalışmıyor. <br />Otomatik-çekme özelliğini kullanmak istiyorsanız cron etkin olmalı.<br />Cronu düzgün ayarlayın veya an_review\'i tekrar seçili durumdan kaldırın.<br />Otomatik-çekmeyi etkinleştirmezseniz ve 30 gün içinde işlemleri incelemezseniz işlem iptal edilir.<br />Ödemeleri 30 gün içinde elle kabul etmek veya iptal etmek istiyorsanız an_review\'i seçin an_capture_day alanına \'0\' girin.';
+$string['admincronsetup'] = 'Cron.php bakım betiği son 24 saattir çalışmıyor. <br />Zamanlanmış-çekme özelliğini kullanmak istiyorsanız cron etkin olmalı.<br />Cronu düzgün ayarlayın veya an_review\'i tekrar seçili durumdan kaldırın.<br />Zamanlanmış-çekmeyi etkinleştirmezseniz ve 30 gün içinde işlemleri incelemezseniz işlem iptal edilir.<br />Ödemeleri 30 gün içinde elle kabul etmek veya iptal etmek istiyorsanız an_review\'i seçin an_capture_day alanına \'0\' girin.';
 $string['adminemailexpired'] = 'İşlem iptal olmadan önce yöneticilere <b>$a</b> gün önceden \'onaylanmış/çekilmeyi bekliyor\' durumundaki siparişlerin sayısını içeren bir uyarı mesajı gönder. (0=email gönderme pasif, varsayılan=2, en fazla=5)<br />Siparişi elle incelemeyi etkinleştirdiyseniz bu kullanışlıdır (an_review=seçili, an_capture_day=0).';
-$string['adminhelpcapture'] = 'Ödemeleri sadece elle kabul etmek/iptal etmek değil, aynı zamanda ödemenin iptal olmasını engellemek için otomatik-çekmeyi de kullanmak istiyorum. Ne yapmam gerekiyor?
-
-- Cronu ayarlayın.
-- an_review\'i seçin.
-- an_capture_day alanına 1 ile 29 arasında bir sayı girin. Kredi kartından para çekilecek ve an_capture_day gün içinde çekmezseniz kullanıcı kursa kaydedilecek.';
-$string['adminhelpcapturetitle'] = 'Otomatik-Çekme Günü';
-$string['adminhelpreview'] = 'Ödemeleri elle nasıl kabul veya reddeceğim?
-
-- an_review\'i seçin.
-- an_capture_day alanına \'0\' girin.
-
-Öğrenciler kart numarasını girdikten hemen sonra nasıl kursa kaydolurlar?
-
-- an_review\'i seçili durumdan kaldırın.';
+$string['adminhelpcapturetitle'] = 'Zamanlanmış-Çekme Günü';
 $string['adminhelpreviewtitle'] = 'Siparişi İnceleme';
 $string['adminneworder'] = 'Değerli Yönetici,
 
@@ -36,12 +23,12 @@ Miktar: $a->amount
 
 OTOMATİK-ÇEKME ETKİN Mİ?: $a->acstatus
 
-Otomatik çekme etkinse kredi kartından $a->captureon tarihinde çekilecek ve öğrencinin derse kaydı yapılacak. Diğer durumda $a->expireon tarihinde süresi dolacak ve bu tarihten sonra çekilemeyecek.
+Zamanlanmış çekme etkinse kredi kartından $a->captureon tarihinde çekilecek ve öğrencinin derse kaydı yapılacak. Diğer durumda $a->expireon tarihinde süresi dolacak ve bu tarihten sonra çekilemeyecek.
 
 Ayrıca aşağıdaki linki tıklayarak ödemeyi derhal kabul veya reddedebilir ve öğrenciyi derse kaydedebilirsiniz:
 $a->url';
 $string['adminnewordersubject'] = '$a->course: Bekleyen Yeni Sipariş($a->orderid)';
-$string['adminpendingorders'] = 'Otomatik-çekme özelliğini etkinleştirmediniz.<br />PROVİZYON durumundaki toplam $a->count işlem kontrol etmezseniz iptal edilecek. <br /> Ödemeleri kabul etmek/reddetmek için <a href=\'$a->url\'>Ödeme Yönetimi</a> sayfasına gidin.';
+$string['adminpendingorders'] = 'Zamanlanmış-çekme özelliğini etkinleştirmediniz.<br />PROVİZYON durumundaki toplam $a->count işlem kontrol etmezseniz iptal edilecek. <br /> Ödemeleri kabul etmek/reddetmek için <a href=\'$a->url\'>Ödeme Yönetimi</a> sayfasına gidin.';
 $string['adminreview'] = 'Kredi kartından çekmeden önce siparişi incele.';
 $string['adminteachermanagepay'] = 'Eğitimciler kurs ödemelerini yönetebilir.';
 $string['amount'] = 'Miktar';
@@ -111,12 +98,12 @@ $string['pendingordersemail'] = 'Değerli Yönetici,
 
 $a->days gün içinde onay bekleyen $a->pending işlemi kabul etmezseniz süresi dolacak ve iptal edilecek.
 
-Otomatik-çekmeyi etkinleştirmediğiniz için bu uyarı mesajı size gönderilmiştir. Bu durumda ödemeleri elle kabul veya reddetmelisiniz.
+Zamanlanmış-çekmeyi etkinleştirmediğiniz için bu uyarı mesajı size gönderilmiştir. Bu durumda ödemeleri elle kabul veya reddetmelisiniz.
 
 Ödemeleri kabul/reddetmek için:
 $a->url
 
-Otomatik-çekmeyi etkinleştirmek için:
+Zamanlanmış-çekmeyi etkinleştirmek için:
 $a->enrolurl';
 $string['reason11'] = 'Aynı işlem gönderildi.';
 $string['reason13'] = 'Mağaza Giriş ID hatalı veya hesap etkin değil';
@@ -129,11 +116,14 @@ $string['reason39'] = 'Verilen para birimi ya hatalı ya desteklenmiyor ya bu ma
 $string['reason43'] = 'Mağaza işleyiciyi hatalı yapılandırdı. Müşteri Hizmetlerini arayın.';
 $string['reason44'] = 'İşlem reddedildi. Kart kodu süzgeci hatası!';
 $string['reason45'] = 'İşlem reddedildi. Kart kodu / Adres süzgeci hatası!';
+$string['reason47'] = 'Faturalandırma için istenilen tutar orijinal provizyondaki miktardan fazla olamaz.';
 $string['reason5'] = 'Geçerli bir miktar gerekli.';
+$string['reason50'] = 'İşlem faturalandırma anlaşması beklediği için geri para iadesi yapılamaz.';
+$string['reason54'] = 'Referans gösterilen işlem geri ödeme şartlarına uymuyor.';
 $string['refund'] = 'Geri Öde';
 $string['refunded'] = 'Geri ödenmiş';
 $string['returns'] = 'Geri ödemeler';
-$string['reviewday'] = '<b>$a</b> gün içinde eğitimci veya yönetici siparişi incelemezse kredi kartından otomatik olarak parayı çek. CRON ETKİN OLMALI. <br /> (0 gün otomatik çekme aktif değil anlamına gelir ve aynı zamanda eğitimci veya yöneticinin siparişi kendisi inceleyeceğini zorunlu tutar. Otomatik çekmeyi etinleştirmezseniz veya 30 gün içinde siparişi incelemezseniz işlem iptal edilir.)';
+$string['reviewday'] = '<b>$a</b> gün içinde eğitimci veya yönetici siparişi incelemezse kredi kartından otomatik olarak parayı çek. CRON ETKİN OLMALI. <br /> (0 gün zamanlanmış-çekme aktif değil anlamına gelir ve aynı zamanda eğitimci veya yöneticinin siparişi kendisi inceleyeceğini zorunlu tutar. Zamanlanmış-çekmeyi etinleştirmezseniz veya 30 gün içinde siparişi incelemezseniz işlem iptal edilir.)';
 $string['reviewnotify'] = 'Ödemeniz incelenecek. Bir kaç gün içinde eğitimcinizden bir email bekleyin.';
 $string['sendpaymentbutton'] = 'Ödemeyi Yap';
 $string['settled'] = 'Faturalandırılmış';
