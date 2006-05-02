@@ -1116,6 +1116,7 @@ $string['sizeb'] = 'octets';
 $string['sizegb'] = 'Go';
 $string['sizekb'] = 'Ko';
 $string['sizemb'] = 'Mo';
+$string['skipped'] = 'Sauté';
 $string['skypeid'] = 'Identifiant Skype';
 $string['socialheadline'] = 'Forum public - derniers sujets';
 $string['someallowguest'] = 'Les invités peuvent accéder à<br />certains cours';
