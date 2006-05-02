@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // enrol_authorize.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
 $string['adminauthorizeccapture'] = 'オーダーレビュー&スケジュールキャプチャ設定';
@@ -9,18 +9,7 @@ $string['adminauthorizewide'] = 'サイト全体の設定';
 $string['adminavs'] = 'あなたのauthorize.netアカウントで住所確認システム ( AVS:Address Verification System ) を有効にした場合は、ここをチェックしてください。この設定により、ユーザが支払いフォームに入力するときに、市町村、県、国および郵便番号の入力が求められます。';
 $string['admincronsetup'] = 'cron.phpメンテナンススクリプトが少なくとも24時間稼動していません。<br />スケジュールキャプチャ機能を使用したい場合、Cronを有効にする必要があります。<br />再度cronを設定、または an_review のチェックを外してください。<br />スケジュールキャプチャを無効にすると、30日以内にトランザクションを検査しない場合、トランザクションはキャンセルされます。<br />30日以内に手動で支払いを受け付け/拒否したい場合は、「an_review」をチェックして、<br />「an_capture_day」フィールドにゼロを入力してください。';
 $string['adminemailexpired'] = 'トランザクションが失効する <b>$a</b> 日前に何件の「認証 / 保留キャプチャ」トランザクションがあったか警告メールを管理者へ送信します。 (0 = メール送信を停止する、デフォルト = 2、最大 = 5 )<br />手動キャプチャを有効にしている場合、便利です (an_review = チェック、 an_capture_day = 0 )。';
-$string['adminhelpcapture'] = '手動で支払いを受け付け/拒否するだけではなく、支払いのキャンセルを防ぐためにスケジュールキャプチャを使用したいと思います。どうすれば良いですか?
-
-- cronを設定してください。
-- 「an_review」をチェックしてください。
-- 「an_capture_day」フィールドに、1から29の間の数値を入力してください。あなたが「an_capture_day」内にキャプチャしない場合を除いて、クレジットカード情報は取得され、ユーザがコース登録されます。';
 $string['adminhelpcapturetitle'] = 'スケジュールキャプチャ';
-$string['adminhelpreview'] = '手動で支払いを受け付け/拒否するには?
-- 「an_review」をチェックしてください。
-- 「an_capture_day」フィールドにゼロを入力してください。
-
-カード番号を入力するのと同時に学生をコース登録させるには?
-- 「an_review」のチェックを外してください。';
 $string['adminhelpreviewtitle'] = 'オーダーレビュー';
 $string['adminneworder'] = '新しい保留の注文が入りました:
 
