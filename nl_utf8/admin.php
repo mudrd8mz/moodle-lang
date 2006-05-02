@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // admin.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['adminseesallevents'] = 'Beheerders zien alle gebeurtenissen';
 $string['adminseesownevents'] = 'Beheerders zien niet alle gebeurtenissen';
-$string['allowrenames'] = 'Hernoemen toestaan';
+$string['allowrenames'] = 'Gebruikersnamen bijwerken toestaan';
 $string['availablelangs'] = 'Beschikbare taalpakketten';
 $string['backgroundcolour'] = 'Transparant';
 $string['badwordsconfig'] = 'Geef je lijst te cencureren woorden in, gescheiden door komma\'s';

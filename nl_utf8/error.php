@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2006031400)
+      // error.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['adminprimarynoedit'] = 'Het profiel van de beheerder met het kleinste gebruikersnummer kan door de andere beheerders niet gewijzigd worden';
@@ -45,6 +45,7 @@ $string['notavailable'] = 'Dat is nu niet beschikbaar';
 $string['onlyadmins'] = 'Enkel beheerders mogen dit doen.';
 $string['onlyeditingteachers'] = 'Alleen leraren met het recht om te wijzigen kunnen dit doen';
 $string['onlyeditown'] = 'Je kunt enkel je eigen informatie bewerken';
+$string['pluginrequirementsnotmet'] = 'Plugin \"$a->pluginname\" ($a->pluginversion) kon niet geïnstalleerd worden. Er is een nieuwere versie van Moodle nodig (je gebruikt nu $a->currentmoodle en je hebt $a->requiremoodle nodig).';
 $string['processingstops'] = 'Verwerking stopt hier. De overgebleven records worden genegeerd';
 $string['remotedownloadnotallowed'] = 'Het downloaden van componenten naar je server is niet toegelaten (allow_url_fopen is uitgeschakeld)<br /><br />Je moet het <a href=\"$a->url\">$a->url</a>bestand manueel downloaden en het kopiëren naar \"$a->dest\" op je server en het daar unzippen.';
 $string['restricteduser'] = 'Sorry, maar je hebt onvoldoende rechten om dat te doen.';
@@ -53,6 +54,7 @@ $string['sessionerroruser2'] = 'Er is een serverfout gevonden die je loginsessie
 $string['sessionipnomatch'] = 'Sorry, maar je IP-adres is gewijzigd sinds je aangemeld bent. Deze beveiligingsmethode voorkomt dat crackers je identiteit stelen terwijl je aangemeld bent op deze site. Gewone gebruikers zouden deze melding niet mogen zien - vraag je sitebeheerder om hulp.';
 $string['statscatchupmode'] = 'De statistiekfunctie is nu wat achterstand aan het inhalen. Tot nu zijn al $a->daysdone dagen verwerkt en zijn er nog $a->dayspending dagen te doen. Kom later eens terug kijken!';
 $string['unknowncourse'] = 'Onbekende cursus \"$a\"';
+$string['unknownuseraction'] = 'Sorry, Moodle begrijpt niet wat je wil';
 $string['usernotaddederror'] = 'Gebruiker \"$a\" niet toegevoegd - onbekende fout';
 $string['usernotaddedregistered'] = 'Gebruiker \"$a\" niet toegevoegd - gebruiker bestaat al';
 $string['usernotavailable'] = 'Je hebt het recht niet om de detailgegevens van deze gebruiker te zien.';

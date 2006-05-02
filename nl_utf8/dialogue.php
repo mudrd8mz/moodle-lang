@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004093001)
+      // dialogue.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['addmynewentries'] = 'Voeg mijn nieuwe boodschappen toe';
@@ -9,6 +9,7 @@ $string['allowmultiple'] = 'Sta meer dan één dialoog met dezelfde persoon toe'
 $string['allowstudentdialogues'] = 'Sta dialoog tussen leerlingen toe';
 $string['close'] = 'Sluit';
 $string['closed'] = 'Gesloten';
+$string['closeddialogues'] = 'Gesloten Dialogen';
 $string['confirmclosure'] = 'Je gaat de dialoog met $a sluiten. Gesloten dialogen kunnen niet meer geopend worden. Als je deze dialoog sluit, kun je hem nog wel bekijken, maar je kunt er niets meer aan toevoegen. Je zult een nieuwe dialoog moeten starten om met deze persoon verder te \"praten\".<br /><br />Ben je er zeker van dat je deze dialoog wil sluiten? ';
 $string['deleteafter'] = 'Verwijder gesloten dialogen na (dagen)';
 $string['dialogueclosed'] = 'Dialoog gesloten';
@@ -34,6 +35,7 @@ $string['newentry'] = 'Nieuw item';
 $string['noavailablepeople'] = 'Er is niemand om een dialoog mee te starten';
 $string['nopersonchosen'] = 'Niemand gekozen';
 $string['nosubject'] = 'Geen onderwerp toegevoegd';
+$string['notavailable'] = 'Dialoog kan niet door gasten gebruikt worden';
 $string['notextentered'] = 'Geen tekst ingevoegd';
 $string['notstarted'] = 'Je bent deze dialoog nog niet begonnen';
 $string['notyetseen'] = 'Nog niet bekeken';
@@ -46,6 +48,7 @@ $string['open'] = 'Open';
 $string['openadialoguewith'] = 'Open een dialoog met';
 $string['opendialogue'] = 'Open dialoog';
 $string['opendialogueentries'] = 'Open de boodschappen van de dialoog';
+$string['opendialogues'] = 'Open dialogen';
 $string['pane0'] = 'Open een dialoog';
 $string['pane1'] = '$a dialogen te beantwoorden';
 $string['pane1one'] = '1 dialoog te beantwoorden';

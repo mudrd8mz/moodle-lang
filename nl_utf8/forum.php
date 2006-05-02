@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6 development (2005101200)
+      // forum.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -175,6 +175,7 @@ $string['repliesmany'] = '$a antwoorden tot nu toe';
 $string['repliesone'] = '$a antwoord tot nu toe';
 $string['reply'] = 'Antwoord';
 $string['replyforum'] = 'Antwoord op het forum';
+$string['resetforums'] = 'Verwijder alle berichten van deze forumtypes';
 $string['rsssubscriberssdiscussions'] = 'Met deze link kun je inschrijven op het \'$a\' forum RSS-discussiekanaal';
 $string['rsssubscriberssposts'] = 'Met deze link kun je inschrijven op het \'$a\' forum RSS-postkanaal';
 $string['search'] = 'Zoek';

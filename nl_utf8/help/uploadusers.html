@@ -20,12 +20,23 @@
 </tt></p>
     </blockquote>
     </li>
-  <li>Komma's in de gegevens mag je als , noteren. Het script zal automatisch de komma juist terugplaatsen. </li>
+  <li>Komma's in de gegevens mag je als &amp;#44 noteren. Het script zal automatisch de komma juist terugplaatsen. </li>
   <li>Voor Boolse velden gebruik je 0 voor onwaar en 1 voor waar. </li>
+ <li>Types worden gebruikt om aan Moodle door te geven of een gebruiker een leerling of een leraar is als er een overeenkomstige cursus bestaat (vb type2 komt overeen met course2). 1 = leerling, 2 = leraar met bewerkrechten, en 3 = leraar zonder bewerkrechten. Als type leeg gelaten wordt of als je geen cursus specifieerd, dan wordt de gebruiker standaard leerling. </li>
+  <li>Gebruik voor cursussen de korte cursusnaam</li>
+  <li>Opmerking: Als een gebruiker al in de databank geregistreerd is, dan zal dit script het userID teruggeven (de databankindex)en deze leerling als leerling aanmelden in de gespecifieerde cursus ZONDER de andere gespecifieerde data te wijzigen.</li>
 </ul>
   
   
 <p>Hier krijg je een voorbeeld van een geldig bestand om te importeren:</p>
-<p><tt>username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1<br />
-jonest, verysecret, Tom, Jones, jonest@someplace.edu, en, 3663737, 1, Intro101<br />
-reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202</tt></p>
+<p><font size="-1" face="Courier New, Courier, mono">username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1, type1<br />
+jonest, verysecret, Tom, Jones, jonest@someplace.edu, en, 3663737, 1, Intro101, Section 1, 1<br />
+reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3, 3</font></p>
+
+<p align="center"><b>Bestaande gebruikersaccounts updaten</b></p>
+
+<p>Standaard veronderstelt Moodle dat je nieuwe gebruikersaccounts wil aanmaken en zal records waarvan de gebruikersnaam overeenkomt met een bestaande account overslaan. Je kunt echter door de instelling "Update bestaande accounts" op <b>Ja</b> zet, dan zal de bestaande gebruikersaccount aangepast worden. </p>
+
+<p>Bij het updaten van bestaande accounts, kun je gebruikersnamen ook aanpassen. Zet de instelling "Gebruikersnamen bijwerken toestaan" op <b>Ja</b> en geef in je bestand een veld me met als veldnaam <font color="#990000" face="Courier New, Courier, mono">oldusername</font>.</p>
+
+<p><b>Opgelet:</b> fouten tijdens het updaten van bestaande gebruikersaccounts, kan de gegevens van die accounts behoorlijk beschadigen. Wees voorzichtig met de updatefunctie.</p>

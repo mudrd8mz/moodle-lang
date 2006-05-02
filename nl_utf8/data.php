@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // data.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['action'] = 'Actie';
@@ -55,6 +55,7 @@ $string['fieldallowautolink'] = 'Automatisch linken toegelaten';
 $string['fielddeleted'] = 'Veld verwijderd';
 $string['fielddelimiter'] = 'Veldscheidingsteken';
 $string['fielddescription'] = 'Veldbeschrijving';
+$string['fieldenclosure'] = 'Veldinsluiting';
 $string['fieldheight'] = 'Hoogte';
 $string['fieldheightlistview'] = 'Hoogte in lijstscherm';
 $string['fieldheightsingleview'] = 'Hoogte in scherm per lijn';

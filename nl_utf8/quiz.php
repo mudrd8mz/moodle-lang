@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2006032001)
+      // quiz.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['1day'] = '1 dag';
@@ -77,6 +77,7 @@ $string['categorymove'] = 'De categorie \'$a->name\' bevat $a->count vragen. Kie
 $string['categorymoveto'] = 'Verplaats ze naar deze categorie';
 $string['categorynoedit'] = 'Je hebt geen recht om categorie \'$a\' te bewerken.';
 $string['categoryupdated'] = 'De categorie is met succes geüpdatet';
+$string['changessaved'] = 'Wijzigingen aan cijfers bewaard';
 $string['checkanswer'] = 'Controleer';
 $string['choice'] = 'Keuzemogelijkheid';
 $string['choices'] = 'Mogelijke keuzes';
@@ -85,6 +86,8 @@ $string['choosefile'] = 'Kies een bestand';
 $string['close'] = 'Sluit weergave test';
 $string['closepreview'] = 'Sluit voorbeeld';
 $string['closereview'] = 'Sluit nalezen';
+$string['comment'] = 'Commentaar';
+$string['comments'] = 'Commentaren';
 $string['completedon'] = 'Afgewerkt op';
 $string['confirmclose'] = 'Je gaat deze poging afsluiten. Eens afgesloten kun je je antwoorden niet meer wijzigen.';
 $string['confirmserverdelete'] = 'Ben je er zeker van dat je server <b>$a</b> van de lijst wil schrappen?';
