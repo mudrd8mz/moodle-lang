@@ -3,7 +3,7 @@
 
 
 $string['abandoned'] = '放棄';
-$string['addquizchain'] = 'クイズ連鎖の追加';
+$string['addquizchain'] = 'クイズチェーンの追加';
 $string['allmycourses'] = 'すべてのコース';
 $string['alwaysopen'] = '常に利用可';
 $string['attemptsall'] = 'すべての受験';
@@ -122,12 +122,12 @@ $string['reportsofar'] = '$a 総数';
 $string['reportstatus'] = 'ステータス';
 $string['reportstudentid'] = '学生ID';
 $string['reportthisclick'] = '$a 今回';
-$string['reporttimerecorded'] = 'レスポンス記録';
+$string['reporttimerecorded'] = '記録日時';
 $string['reportwrapdata'] = 'データの折り返し';
 $string['reportwrong'] = '不正解';
 $string['reportwrongsymbol'] = 'X';
 $string['resultssaved'] = 'クイズ結果が保存されました。';
-$string['score'] = '点数';
+$string['score'] = 'スコア';
 $string['showhtmlsource'] = 'HTMLソースの表示';
 $string['shownextquiz'] = '次のクイズを表示';
 $string['showxmlsource'] = 'XMLソースの表示';
@@ -140,7 +140,7 @@ $string['textsourcequiz'] = 'クイズより取得';
 $string['textsourcespecific'] = 'テキストを指定';
 $string['thiscourse'] = 'このコース';
 $string['timedout'] = 'タイムアウト';
-$string['updatequizchain'] = 'クイズ連鎖の更新';
+$string['updatequizchain'] = 'クイズチェーンの更新';
 $string['weighting'] = 'ウェイト';
 $string['wrong'] = '不正解';
 
