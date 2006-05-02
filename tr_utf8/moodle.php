@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 3 (2006042600)
+      // moodle.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
 $string['action'] = 'Eylem';
@@ -1124,6 +1124,7 @@ $string['sizeb'] = 'byte';
 $string['sizegb'] = 'GB';
 $string['sizekb'] = 'KB';
 $string['sizemb'] = 'MB';
+$string['skipped'] = 'Atlandı';
 $string['skypeid'] = 'Skype ID';
 $string['socialheadline'] = 'Sosyal forum - son konular';
 $string['someallowguest'] = 'Bazı kurslara konuk olarak erişebilirsiniz';
