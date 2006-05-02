@@ -1,19 +1,27 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.5.2 + (2005060223)
+      // admin.php - created with Moodle 1.6 Beta 3 (2006042600)
 
 
 $string['adminseesallevents'] = 'Správci vidí všechny události';
 $string['adminseesownevents'] = 'Správci jsou jako ostatní uživatelé';
+$string['allowrenames'] = 'Povolit přejmenování';
+$string['availablelangs'] = 'Dostupné jazykové balíčky';
+$string['backgroundcolour'] = 'Průhledná barva';
+$string['badwordsconfig'] = 'Zadejte seznam nepovolených slov, jednotlivá slova oddělujte čárkou.';
+$string['badwordsdefault'] = 'Pokud nevytvoříte vlastní seznam nepovolených slov, použije se výchozí seznam z jazykového balíčku.';
+$string['badwordslist'] = 'Volitelný seznam nepovolených slov';
 $string['blockinstances'] = 'Výskyty';
-$string['blockmultiple'] = 'Složený';
+$string['blockmultiple'] = 'Vícenásobně';
 $string['cachetext'] = 'Životnost mezipaměti textu';
 $string['calendarsettings'] = 'Kalendář';
 $string['change'] = 'změnit';
-$string['configallowcoursethemes'] = 'Tato možnost povoluje nastavení vlastních motivů v kurzech. Motivy kurzů mají přednost před všemi ostatními motivy (tj. před motivem stránek, uživatele či sezení)';
-$string['configallowemailaddresses'] = 'Chcete-li omezit všechny nové emailové adresy pouze na určité domény. pak je zde uveďte oddělené mezerou. Všechny ostatní domény budou odmítnuty. Příklad: <strong>naseskola.cz .msmt.cz .edu.cz</strong>';
-$string['configallowobjectembed'] = 'Výchozí bezpečnostní opatření nedovoluje normálním uživatelům vkládat multimediální objekty (např. Flash) pomocí značek EMBED a OBJECT v jejich HTML textu. Bezpečné vkládání multimediálních objektů zajišťuje jeden z tzv. filtrů. Chcete-li přesto povolit uvedené značky, povolte tuto možnost.';
-$string['configallowunenroll'] = 'Je-li toto nastaveno na \'Ano\', mohou se studenti sami vyškrtávat z kurzů. Jinak je může z kurzu vyškrtnout toliko učitel nebo správce.';
-$string['configallowuserblockhiding'] = 'Chcete uživatelům povolit zasouvání/vysouvání postranních bloků na těchto strínkách? Tato fičurinka používá Javascript a pomocí cookies si pamatuje stav každého rolovatelného bloku. Vždy je ovlivňován pouze pohled příslušného uživatele.';
+$string['changesitelang'] = 'Změnit jazyk stránek';
+$string['componentinstalled'] = 'Komponent je nainstalován';
+$string['configallowcoursethemes'] = 'Aktivací tohoto nastavení povolíte, aby kurzy měly přiřazen svůj motiv. Motiv kurzu má přednost před všemi ostatními motivy (tj. před motivem stránek, uživatele či sezení).';
+$string['configallowemailaddresses'] = 'Chcete-li omezit všechny nové e-mailové adresy pouze na určité domény, pak je uveďte zde a oddělte je mezerou. Všechny ostatní domény budou odmítnuty. Příklad: <strong>naseskola.cz .msmt.cz .edu.cz</strong>';
+$string['configallowobjectembed'] = 'Výchozí bezpečnostní nastavení nedovoluje normálním uživatelům vkládat přímo do HTML textu multimediální objekty (např. Flash) pomocí značek EMBED a OBJECT. (Bezpečné vkládání multimediálních objektů zajišťuje jeden z tzv. filtrů.) Chcete-li přesto použití uvedných značek povolit, aktivujte tuto volbu.';
+$string['configallowunenroll'] = 'Je-li u této volby vybráno \'Ano\', mohou se studenti sami vyškrtávat z kurzů. Jinak je může z kurzu vyškrtnout pouze učitel nebo správce.';
+$string['configallowuserblockhiding'] = 'Chcete uživatelům umožnit volitelně zobrazovat/skrývat postranní bloky? S pomocí Javascriptu a cookies si systém pamatuje stav každého sklopitelného bloku. Nastavení se aplikuje vždy pouze na pohled příslušného uživatele.';
 $string['configallowuserthemes'] = 'Tímto povolíte uživatelům nastavit si vlastní motiv. Motiv uživatele má přednost před motivem stránek, ale nikoliv před motivem kurzu.';
 $string['configallusersaresitestudents'] = 'Měli bý být VŠICHNI uživatelé považováni za studenty v činnostech na titulní stránce? Odpovíte-li \"Ano\", mohou se všichni uživatelé s potvrzeným účtem zapojit do těchto činností jako studenti. Odpovíte-li \"Ne\", pak pouze uživatelé, kteří jsou již členy alespoň jednoho kurzu, budou moci participovat v těchto činnostech. Pouze správci a speciálně určení učitelé mohou figurovat jako vyučující v činnostech na titulní stráce.';
 $string['configautologinguests'] = 'Mají být návštěvníci vašich stránek automaticky přihlášeni jako hosté, když vstupují do kurzů, které umožńují hostům vstup?';
@@ -120,6 +128,7 @@ $string['therewereerrors'] = 'Vaše data obsahovala chyby';
 $string['timezoneforced'] = 'Toto je vnuceno správcem stránek';
 $string['timezoneisforcedto'] = 'Vnutit používání všem uživatelům';
 $string['timezonenotforced'] = 'Uživatelé si mohou vybrat vlastní časové pásmo';
+$string['updateaccounts'] = 'Aktualizovat stávající účty';
 $string['upgradeforumread'] = 'Do Moodlu 1.5 byla přidána nová funkce, která umožňuje zaznamenávat stav příspěvků \"přečteno/nepřečteno\".<br />Chcete-li tuto funcki používat, musíte <a href=\"$a\">aktualizovat tabulky v databázi</a>.';
 $string['upgradeforumreadinfo'] = 'Do Moodlu 1.5 byla přidána nová funkce, která umožňuje u každého uživatele zaznamenávat stav příspěvků \"přečteno/nepřečteno\". Chcete-li tuto funcki používat, je třeba doplnit ke stávajícím příspěvkům potřebné informace. Tento proces může v závislosti na velikosti vašich stránek trvat až několik hodin a na vašem databázovém serveru bude celkem rušno, takže doporučujeme provést tuto činnost ve vhodném čase (např. o víkendu v noci). Vaše stránky budou nicméně stále v provozu a práce uživatelů by neměla být výrazněji ovlivněna. Jakmile proces spustíte, měli byste jej nechat dokončit (tj. nechat otevřené příslušné okno prohlížeče). Ale nemějte obavy, pokud okno zavřete a proces ukončíte, můžete bez obav začít znovu.<br /><br />Chcete nyní spustit aktualizaci vaší databáze?';
 $string['upgradelogs'] = 'Vaše staré protokoly musejí být aktualizovány. <a href=\"$a\">Více informací</a>';
