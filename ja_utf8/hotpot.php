@@ -3,9 +3,9 @@
 
 
 $string['abandoned'] = '放棄';
-$string['addquizchain'] = '連鎖クイズの追加';
+$string['addquizchain'] = 'クイズ連鎖の追加';
 $string['allmycourses'] = 'すべてのコース';
-$string['alwaysopen'] = '常時利用可';
+$string['alwaysopen'] = '常に利用可';
 $string['attemptsall'] = 'すべての受験';
 $string['attemptsbest'] = '最高の受験';
 $string['attemptsfirst'] = '最初の受験';
@@ -60,7 +60,7 @@ $string['navigation_none'] = '無し';
 $string['neverclosed'] = '終了無し';
 $string['noactivity'] = '活動無し';
 $string['noresponses'] = '問題と解答に関する情報が見つかりませんでした。';
-$string['outputformat'] = '表示形式';
+$string['outputformat'] = 'アウトプットフォーマット';
 $string['outputformat_best'] = 'best';
 $string['outputformat_flash'] = 'Flash';
 $string['outputformat_mobile'] = 'mobile';
@@ -115,7 +115,7 @@ $string['reportpercentscore'] = '%% スコア';
 $string['reportquestionstried'] = '受験';
 $string['reportrawscore'] = '生スコア';
 $string['reportright'] = '正解';
-$string['reportsectionnumber'] = 'セクションNo.';
+$string['reportsectionnumber'] = 'セクション';
 $string['reportshowanswer'] = '答えの表示';
 $string['reportshowlegend'] = '問題の表示';
 $string['reportsofar'] = '$a 総数';
@@ -133,14 +133,14 @@ $string['shownextquiz'] = '次のクイズを表示';
 $string['showxmlsource'] = 'XMLソースの表示';
 $string['showxmltree'] = 'XMLツリーの表示';
 $string['specifictime'] = '日時指定';
-$string['studentfeedback'] = '学生フィードバック';
+$string['studentfeedback'] = '学生のフィードバック';
 $string['textsourcefilename'] = 'ファイル名を使用';
 $string['textsourcefilepath'] = 'ファイルパスを使用';
 $string['textsourcequiz'] = 'クイズより取得';
-$string['textsourcespecific'] = '名称を指定';
+$string['textsourcespecific'] = 'テキストを指定';
 $string['thiscourse'] = 'このコース';
 $string['timedout'] = 'タイムアウト';
-$string['updatequizchain'] = '連鎖クイズの更新';
+$string['updatequizchain'] = 'クイズ連鎖の更新';
 $string['weighting'] = 'ウェイト';
 $string['wrong'] = '不正解';
 
