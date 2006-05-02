@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // moodle.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
 $string['action'] = 'Acció';
@@ -81,6 +81,7 @@ $string['aimid'] = 'AIM ID';
 $string['all'] = 'Tots';
 $string['allactions'] = 'Totes les accions';
 $string['allactivities'] = 'Totes les activitats';
+$string['allchanges'] = 'Tots els canvis';
 $string['alldays'] = 'Tots els dies';
 $string['allfieldsrequired'] = 'Tots els camps són necessaris';
 $string['allfiles'] = 'Tots els fitxers';
@@ -1140,6 +1141,7 @@ $string['sizeb'] = 'bytes';
 $string['sizegb'] = 'Gb';
 $string['sizekb'] = 'Kb';
 $string['sizemb'] = 'Mb';
+$string['skipped'] = 'Omesos';
 $string['skypeid'] = 'Skype ID';
 $string['socialheadline'] = 'Fòrum social - darrers temes';
 $string['someallowguest'] = 'Alguns cursos poden permetre l\'accés de visitants';
