@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // error.php - created with Moodle 1.7 dev (2006050300)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -28,6 +28,8 @@ $string['filenotfound'] = '申し訳ございません、ファイルが見つ�
 $string['forumblockingtoomanyposts'] = 'このフォーラムに設定されている登録期限を超えています。';
 $string['groupalready'] = 'ユーザはすでにグループ $a に属しています';
 $string['groupunknown'] = 'グループ $a は指定されたコースに関連していません。';
+$string['guestnoeditprofile'] = 'ゲストユーザはプロフィールを変更できません。';
+$string['guestnoeditprofileother'] = 'ゲストユーザのプロフィールを変更できません。';
 $string['invalidcourse'] = '無効なコース';
 $string['invalidfieldname'] = '「 $a 」 は正しいフィールド名ではありません。';
 $string['invalidfiletype'] = '「 $a 」は有効なファイルタイプではありません。';

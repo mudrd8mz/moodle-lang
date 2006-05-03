@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // admin.php - created with Moodle 1.7 dev (2006050300)
 
 
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示';
@@ -213,7 +213,7 @@ $string['pathtopsqlinvalid'] = 'psqlのパスが正しくありません - パ�
 $string['pgcluster'] = 'PostgreSQLクラスタ';
 $string['pgclusterdescription'] = 'コマンドライン処理のためのPostgreSQLバージョン/クラスタパラメータです。あなたのシステムに1つのPostgreSQLのみある場合、またはこの設定が分からない場合は、空白にしてください。';
 $string['pleaseregister'] = 'このボタンを消すには、あなたのサイトを登録してください。';
-$string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細情報は、オンライン<a target=\"_new\" href=\"$a\">リリースノート</a>をご覧ください。';
+$string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細情報は、<a target=\"_new\" href=\"$a\">オンラインリリースノート</a>をご覧ください。';
 $string['remotelangnotavailable'] = 'Moodleがmoodle.orgに接続できないため、自動的に言語パックのインストールを行うことができません。適切なzipファイルを下記のリンクより手動でダウンロードして、$a ディレクトリにコピーおよびunzipしてください。';
 $string['renameerrors'] = 'リネームのエラー';
 $string['sitelangchanged'] = 'サイト言語の設定が正常に完了しました。';
