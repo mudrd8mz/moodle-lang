@@ -126,7 +126,7 @@ $string['configwarning'] = 'Upravujte následující hodnoty velice opatrně - n
 $string['configzip'] = 'Umístění programu unzip (pouze pro Unix, volitelné). Pokud je zadáno, bude Moodle používat tento program k vytváření zip archívů na serveru. Jinak bude používat vlastní knihovny.';
 $string['confirmation'] = 'Potvrzení';
 $string['confirminstall'] = 'Chcete opravdu nainstalovat jazykový balíček ($a)?';
-$string['cronwarning'] = 'Skript <a href=\"cron.php\">cron.php</a>, který má na starosti běžnou údržbu serveru, nebyl během posledních 24 hodin spuštěn.<br /><a href=\"../doc/?frame=install.html⊂=cron\">Instalační příručka</a> vysvětluje, jak se dá nezbytná údržba vašeho serveru zautomatizovat.';
+$string['cronwarning'] = 'Skript <a href=\"cron.php\">cron.php</a>, který má na starosti běžnou údržbu serveru, nebyl během posledních 24 hodin spuštěn.';
 $string['dbmigrate'] = 'Migrace Moodle databáze';
 $string['dbmigrateconnecerror'] = 'Nelze se připojit k určené databázi';
 $string['dbmigrateencodingerror'] = 'Zvolená databáze používá kódování $a namísto požadovaného UNICODE/UTF8.<br />Určete, prosím, jinou databázi.';
