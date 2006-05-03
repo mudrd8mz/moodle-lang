@@ -1,10 +1,11 @@
-<?php
+<?PHP // $Id$ 
+      // langconfig.php - created with Moodle 1.6 development (2005101200)
+
+
 $string['alphabet'] = 'A,Á,B,C,Č,D,Ď,E,É,Ě,F,G,H,I,Í,J,K,L,M,N,Ň,O,Ó,P,Q,R,Ř,S,Š,T,Ť,U,Ú,Ů,V,W,X,Y,Ý,Z,Ž';
 $string['backupnameformat'] = '%%Y-%%m-%%d-%%H-%%M';
 $string['firstdayofweek'] = '1';
 $string['locale'] = 'cs_CZ.UTF-8';
-$string['localewin'] = 'Czech_Czech Republic.1250';
-$string['localewincharset'] = 'WINDOWS-1250';
 $string['oldcharset'] = 'ISO-8859-2';
 $string['strftimedate'] = '%%d. %%B %%Y';
 $string['strftimedateshort'] = '%%d. %%B';
@@ -19,5 +20,6 @@ $string['strftimerecentfull'] = '%%A, %%d. %%B %%Y, %%H:%%M';
 $string['strftimetime'] = '%%H:%%M';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
-$string['thislanguage'] = 'Cestina';
+$string['thislanguage'] = 'Čeština';
+
 ?>

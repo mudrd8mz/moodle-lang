@@ -1,11 +1,14 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.5.2 + (2005060223)
+      // scorm.php - created with Moodle 1.6 Beta 2 (2006040500)
 
 
 $string['advanced'] = 'Pokročilé';
 $string['asset'] = 'Hodnota';
+$string['attempt'] = 'Pokus';
+$string['attempts'] = 'Pokusy';
 $string['attr_error'] = 'Špatná hodnota atributu ($a->attr) ve značce $a->tag.';
 $string['autocontinue'] = 'Automatické pokračování';
+$string['averageattempt'] = 'Průměr počtu pokusů';
 $string['badmanifest'] = 'Chyby v manifestu: viz protokol o chybách';
 $string['browse'] = 'Procházet';
 $string['browsed'] = 'Procházeno';
@@ -16,25 +19,32 @@ $string['coursepacket'] = 'Balík kurzu';
 $string['coursestruct'] = 'Struktura kurzu';
 $string['datadir'] = 'Chyba souborového systému: Nelze vytvořit adresář s daty kurzu';
 $string['details'] = 'Podrobnosti o průchodu SCO objektem';
+$string['directories'] = 'Ukázat odkazy na adresáře';
 $string['display'] = 'Zobrazit';
 $string['domxml'] = 'Externí knihovna DOMXML';
-$string['enablebrowse'] = 'Povolit režim náhledu';
+$string['element'] = 'Prvek';
 $string['entercourse'] = 'Vstoupit do SCORM kurzu';
 $string['errorlogs'] = 'Protokol o chybách';
 $string['exit'] = 'Zavřít SCORM kurz';
 $string['expcoll'] = 'Rozvinout/Svinout';
 $string['failed'] = 'Selhalo';
 $string['firstaccess'] = 'První přístup';
+$string['firstattempt'] = 'První pokus';
 $string['found'] = 'Manifest nalezen';
-$string['frameheight'] = 'Tato předvolba nastavuje výchozí výšku rámce s SCO';
-$string['framewidth'] = 'Tato předvolba nastavuje výchozí šířku rámce s SCO';
+$string['frameheight'] = 'Tato předvolba nastavuje výchozí výšku rámce nebo okna';
+$string['framewidth'] = 'Tato předvolba nastavuje výchozí šířku rámce nebo okna';
+$string['fullscreen'] = 'Zaplnit celou obrazovku';
+$string['general'] = 'Obecná data';
 $string['gradeaverage'] = 'Průměrná známka';
 $string['gradehighest'] = 'Nejvyšší známka';
 $string['grademethod'] = 'Metoda bodování';
 $string['gradescoes'] = 'SCO situace';
 $string['gradesum'] = 'Souhrnná známka';
-$string['guestsno'] = 'Hostům není povoleno zobrazení SCORM kurzů';
 $string['height'] = 'Výška';
+$string['hidden'] = 'Skryto';
+$string['hidebrowse'] = 'Zakázat režim náhledu';
+$string['hidenav'] = 'Skrýt navigační tlačítka';
+$string['hidetoc'] = 'Struktura obsahu';
 $string['incomplete'] = 'Nedokončeno';
 $string['lastaccess'] = 'Poslední přístup';
 $string['missing_attribute'] = 'Chybějící atribut $a->attr ve značce $a->tag';

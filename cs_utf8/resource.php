@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.5.2 + (2005060223)
+      // resource.php - created with Moodle 1.6 Beta 2 (2006040500)
 
 
 $string['addresource'] = 'Přidat studijní materiál';
@@ -23,6 +23,7 @@ $string['configpopupwidth'] = 'Výchozí šířka nových oken';
 $string['configsecretphrase'] = 'Tento tajný výraz se používá k tvorbě šifrovaného kódu, který můžete zasílat některým externím zdrojům studijních materiálů (jako např. vaše vlastní skripty) jako parametr. Šifrovaný kód je vytvořen jako MD5 hodnota IP adresy stávajícího uživatele (current_user) spojená s vaším tajným výrazem, tzn. kod=md5(IP.tajnyvyraz) . To umožňuje externím zdrojům ověřovat oprávněnost spojení.';
 $string['configwebsearch'] = 'Pokud přidáváte vloženou stránku nebo odkaz, je tato adresa nabídnuta jako stránka, kde může uživatel najít požadované URL.';
 $string['configwindowsettings'] = 'Tímto se nastavuje výchozí nastavení panelu Okno ve formuláři pro přidání nového studijního materiálu. Po prvním použití se tyto hodnoty stávají součástí preferencí jednotlivých uživatelů.';
+$string['deploy'] = 'Umístit';
 $string['directlink'] = 'Přímý odkaz na tento soubor';
 $string['directoryinfo'] = 'Budou zobrazeny všechny soubory ve zvoleném adresáři.';
 $string['display'] = 'Okno';
@@ -38,6 +39,7 @@ $string['filtername'] = 'Automatické propojování materiálu';
 $string['frameifpossible'] = 'Umístit studijní materiál do rámce a ponechat tak na obrazovce navigační lištu';
 $string['fulltext'] = 'Full text';
 $string['htmlfragment'] = 'HTML fragment';
+$string['imspackageloaded'] = 'Balíček nahrán.';
 $string['localfile'] = 'Lokální soubor';
 $string['localfilechoose'] = 'Vyberte lokální soubor (CD-ROM)';
 $string['localfilehelp'] = 'Nápověda k zobrazování lokálních souborů';
@@ -48,6 +50,7 @@ $string['localfileselect'] = 'Vyberte cestu k tomuto souboru.';
 $string['maindirectory'] = 'Adresář s hlavními soubory';
 $string['modulename'] = 'Studijní materiál';
 $string['modulenameplural'] = 'Studijní materiály';
+$string['navigationbuttons'] = 'Navigační tlačítka';
 $string['neverseen'] = 'Neprohlíženo';
 $string['newdirectories'] = 'Ukazovat adresář v odkazu';
 $string['newfullscreen'] = 'Zaplnit celou obrazovku';
@@ -65,12 +68,16 @@ $string['notallowedlocalfileaccess'] = 'Přístup k lokálním souborům je mome
 $string['note'] = 'Poznámka';
 $string['notefile'] = 'K nahrání dalších souborů do tohoto kurzu (aby se ukazovaly v tomto seznamu) použijte <a href=\"$a\">Správce souborů</a>.';
 $string['notypechosen'] = 'Musíte vybrat typ. Vraťte se pomocí tlačítka \'Zpět\' a zkuste to znovu.';
+$string['packagechanged'] = 'IMS Content balíček byl změněn';
+$string['packagenotdeplyed'] = 'IMS Content balíček není umístěn';
 $string['pagedisplay'] = 'Zobrazovat tento materiál ve stávajícím okně';
 $string['pagewindow'] = 'Stejné okno';
+$string['pan'] = 'Pan';
 $string['parameter'] = 'Parametr';
 $string['parameters'] = 'Parametry';
 $string['popupresource'] = 'Tento studijní materiál by se měl zobrazovat v novém okně';
 $string['popupresourcelink'] = 'Pokud se tak nestalo, klikněte zde: $a';
+$string['redeploy'] = 'Umístit znovu';
 $string['resourcetype'] = 'Typ studijního materiálu';
 $string['resourcetype1'] = 'Literatura';
 $string['resourcetype2'] = 'Vložená webová stránka';
@@ -84,11 +91,15 @@ $string['resourcetype9'] = 'Adresář';
 $string['resourcetypedirectory'] = 'Zobrazit adresář';
 $string['resourcetypefile'] = 'Odkaz na soubor/web';
 $string['resourcetypehtml'] = 'Vytvořit webovou stránku';
+$string['resourcetypeims'] = 'Umístit IMS Content balíček';
 $string['resourcetypelabel'] = 'Vytvořit popisek';
 $string['resourcetyperepository'] = 'Odkaz na objekt v repozitáři';
 $string['resourcetypetext'] = 'Vytvořit stránku s textem';
 $string['searchweb'] = 'Hledat webovou stránku';
 $string['serverurl'] = 'URL serveru ($a->wwwroot)';
+$string['showcourseblocks'] = 'Zobrazovat bloky kurzu';
+$string['tableofcontents'] = 'Obsah';
 $string['variablename'] = 'Název proměnné';
+$string['viewims'] = 'Zobrazit IMS Content baliček';
 
 ?>
