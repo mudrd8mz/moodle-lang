@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // hotpot.php - created with Moodle 1.7 dev (2006050400)
 
 
 $string['abandoned'] = '放棄';
@@ -15,7 +15,7 @@ $string['checks'] = 'チェック';
 $string['clickreporting'] = 'クリックレポートを有効にする';
 $string['clues'] = 'クルー';
 $string['completed'] = '完了';
-$string['configexcelencodings'] = 'カンマで区切ったエンコーディングのリストです。スプレッドシートプログラムのレポート値を特定のエンコーディングに変更するため使用します。例えば日本語では、Microsoft Excelは「SJIS」にする必要があります。';
+$string['configexcelencodings'] = 'カンマで区切ったエンコーディングのリストです。スプレッドシートプログラムのレポート値を特定のエンコーディングに変更するため使用します。例えば日本語では、Microsoft Excelのエンコーディングを「SJIS」にする必要があります。';
 $string['configshowtimes'] = '一覧とレポートで表示するレコードの処理に時間をかけますか? これは、なぜあなたのサーバの動作が遅いか調査するためだけに本当に必要な設定です。';
 $string['copiedtoclipboard'] = 'このページのコンテンツがクリップボードにコピーされました。';
 $string['copytoclipboard'] = 'クリップボードにコピーする';
@@ -55,7 +55,7 @@ $string['navigation_bar'] = 'Moodleナビケーションバー';
 $string['navigation_buttons'] = 'Hot Potatoesクイズボタン';
 $string['navigation_frame'] = 'Moodleナビケーションフレーム';
 $string['navigation_give_up'] = 'ギブアップボタン';
-$string['navigation_iframe'] = '埋め込み &lt;IFRAME&gt;';
+$string['navigation_iframe'] = '埋め込み <IFRAME>';
 $string['navigation_none'] = '無し';
 $string['neverclosed'] = '終了無し';
 $string['noactivity'] = '活動無し';
