@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // error.php - created with Moodle 1.7 dev (2006050400)
 
 
 $string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
@@ -13,7 +13,7 @@ $string['cannotsavezipfile'] = 'ZIP dosyası kaydedilemedi.';
 $string['cannotunzipfile'] = 'Dosya arşivi açılamadı.';
 $string['cmunknown'] = 'Bu kurs modülü bulunamadı';
 $string['componentisuptodate'] = 'Bileşen günceldir.';
-$string['confirmsesskeybad'] = 'Üzgünüz, oturum anahtarınız bu eylemi gerçekleştirmek için onaylanamadı. Bu güvenlik özelliği sizin adınıza yapılacak olan önemli işlevlerin yanlışlıkla ya da kasten kullanılmasını engellemek içindir. Lütfen bu işlevi gerçekten yapmak istediğinizden emin olun.';
+$string['confirmsesskeybad'] = 'Üzgünüz, oturum anahtarınız bu eylemi gerçekleştirmek için onaylanamadı. Bu güvenlik özelliği, sizin adınıza yapılacak olan önemli işlevlerin yanlışlıkla ya da kasten kullanılmasını engellemek içindir. Lütfen bu işlevi gerçekten yapmak istediğinizden emin olun.';
 $string['coursegroupunknown'] = 'Grup $a ile ilgili kurs belirtilmemiş';
 $string['downloadedfilecheckfailed'] = 'İndirilmiş dosya kontrol hatası';
 $string['errorcleaningdirectory'] = '\"$a\" dizinini temizlerken hata oluştu';
@@ -28,6 +28,8 @@ $string['filenotfound'] = 'Üzgünüz, aranan dosya bulunamadı';
 $string['forumblockingtoomanyposts'] = 'Bu forum için mesaj gönderme aralığını aştınız.';
 $string['groupalready'] = 'Kullanıcı $a grubuna zaten kayıtlı';
 $string['groupunknown'] = '$a grubu belirtilen kursla ilişkili değildir';
+$string['guestnoeditprofile'] = 'Konuk kullanıcı kendi profilini düzenleyemez';
+$string['guestnoeditprofileother'] = 'Konuk kullanıcının profili düzenlenemez';
 $string['invalidcourse'] = 'Geçersiz kurs';
 $string['invalidfieldname'] = '\"$a\" geçerli bir alan adı değildir';
 $string['invalidfiletype'] = '\"$a\" geçerli bir dosya tipi değil';
@@ -40,7 +42,7 @@ $string['mustbeteacher'] = 'Bu sayfaya bakabilmek için eğitimci olmalısınız
 $string['noinstances'] = '$a bu kursta kullanılmadı!';
 $string['nonmeaningfulcontent'] = 'Anlamsız içerik';
 $string['notavailable'] = 'Şu anda erişilemez';
-$string['onlyadmins'] = 'Bunu sadece yöneticiler yapabilir';
+$string['onlyadmins'] = 'Sadece yöneticiler bunu yapabilir';
 $string['onlyeditingteachers'] = 'Sadece eğitimciler bunu yapabilir';
 $string['onlyeditown'] = 'Sadece kendi bilgilerinizi düzenleyebilirsiniz';
 $string['pagenotexist'] = 'Nadiren görülen bir hata oluştu (olmayan bir sayfaya erişilmeye çalışıldı)';
