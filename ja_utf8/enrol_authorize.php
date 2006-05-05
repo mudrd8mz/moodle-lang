@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006050300)
+      // enrol_authorize.php - created with Moodle 1.7 dev (2006050500)
 
 
+$string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
 $string['adminauthorizeccapture'] = 'オーダーレビュー&スケジュールキャプチャ設定';
 $string['adminauthorizeemail'] = 'メール送信設定';
 $string['adminauthorizesettings'] = 'Authorize.net 設定';
