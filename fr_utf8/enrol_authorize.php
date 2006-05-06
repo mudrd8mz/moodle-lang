@@ -1,5 +1,6 @@
 <?php // $Id$ 
 
+$string['adminacceptccs'] = 'Quels types de carte de crédit sont acceptés&nbsp;?';
 $string['adminauthorizeccapture'] = 'Contrôle des commandes & réglages de saisie programmée';
 $string['adminauthorizeemail'] = 'Réglages d\'envoi de courriel';
 $string['adminauthorizesettings'] = 'Réglages Authorize.net';
