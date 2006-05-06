@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // data.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['action'] = '操作';
@@ -29,7 +29,7 @@ $string['configenablerssfeeds'] = 'このスイッチはすべてのデータベ
 $string['confirmdeletefield'] = 'あなたはこのフィールドを削除しようとしています。よろしいですか?';
 $string['confirmdeleterecord'] = '本当にこのエントリを削除してもよろしいですか?';
 $string['csstemplate'] = 'CSSテンプレート';
-$string['csvfile'] = 'CSVファイル:';
+$string['csvfile'] = 'CSVファイル';
 $string['csvimport'] = 'CSVファイルインポート';
 $string['date'] = '日付';
 $string['dateentered'] = '入力日時';
@@ -53,9 +53,9 @@ $string['example'] = 'データベースモジュール例';
 $string['fieldadded'] = 'フィールドが追加されました。';
 $string['fieldallowautolink'] = 'オートリンクを許可';
 $string['fielddeleted'] = 'フィールドが削除されました。';
-$string['fielddelimiter'] = 'フィールドデリミタ:';
+$string['fielddelimiter'] = 'フィールド区切り文字';
 $string['fielddescription'] = 'フィールド説明';
-$string['fieldenclosure'] = 'フィールドエンクロージャ:';
+$string['fieldenclosure'] = 'フィールド囲み文字';
 $string['fieldheight'] = '高さ';
 $string['fieldheightlistview'] = '一覧表示の高さ';
 $string['fieldheightsingleview'] = '個別表示の高さ';
