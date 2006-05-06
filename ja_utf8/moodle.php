@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006050300)
+      // moodle.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['action'] = '操作';
@@ -611,8 +611,8 @@ $string['hideadvancedsettings'] = '高度な設定を隠す';
 $string['hidepicture'] = '写真を隠す';
 $string['hidesettings'] = '設定を隠す';
 $string['hits'] = 'アクセス';
-$string['hitsoncourse'] = '$a->username による $a->coursename へのアクセス';
-$string['hitsoncoursetoday'] = '$a->username による本日の $a->coursename へのアクセス';
+$string['hitsoncourse'] = 'アクセス状況 - コース:$a->coursename / ユーザ:$a->username';
+$string['hitsoncoursetoday'] = '本日のアクセス状況 - コース:$a->coursename / ユーザ:$a->username';
 $string['home'] = 'Home';
 $string['hour'] = '時間';
 $string['hours'] = '時間';
