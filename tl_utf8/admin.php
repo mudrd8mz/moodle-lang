@@ -250,10 +250,10 @@ $string['upgradeforumread'] = 'May bagong katangian na idinagdag sa Moodle 1.5. 
 $string['upgradeforumreadinfo'] = 'May bagong katangian na idinagdag sa Moodle 1.5.  Para ito masubaybayan ang mga nabasa-na/di-pa-nabasang ipinaskil.  Para magamit ang kagamitang ito kailangang mong gawing bago ang mga teybol mo .  Kailangan itong magkaroon ng lahat ng impormasyon sa pagsubaybay para sa mga kasalukuyang ipinaskil.  Depende sa laki ng site mo, maaari itong magtagal nang labis (oras) at maaaring maging mabigat para sa database, kaya\'t pinakamaiging gawin ito kapag walang gaanong gumagamit ng site.  Gayonpaman, tuluyang gagana ang site mo sa panahong ito ng pagbabago, at hindi maaapektuhan ang mga user.  Kapag sinimulan mo na ang prosesong ito, dapat mo itong patapusin (panatilihing bukas ang bintana ng browser mo).  Pero, kung ihininto mo ang proseso sa pamamagitan ng pagsara ng bintana:  huwag kang mag-alala, maaari kang magsimula mulî.<br /><br />Nais mo bang simulan na ang proseso ng pagbabago ngayon?';
 $string['upgradelogs'] = 'Para ganap na gumana, ang luma mong log ay kailangang gawing bago.   <a href=\"$a\">Marami pang impormasyon</a>';
 $string['upgradelogsinfo'] = 'Kamakailan ay may mga pagbabagong ginawa sa kung paano iniimbak ang mga log.  Upang makita ang lahat ng luma mong log para sa bawat aktibidad, kailangang gawing bago ang mga luma mong log.  Depende sa site mo, maaaring magtagal ito (hal. ilang oras) at maaaring maging labis na mabigat para sa database sa malalaking site.  Kapag inumpisahan mo na ang prosesong ito, dapat mo itong patapusin (sa pamamagitan ng pagpapanatili na bukas ang bintana ng browser).  Huwag kang mag-alala, tatakbo ang site mo nang maayos para sa ibang tao habang binabago ang log.<br /><br />Nais mo bang gawing bago na ang mga log mo ngayon?';
-$string['upgradesure'] = 'Nagbago ang mga file mo ng Moodle, at awtomatiko mong gagawing bago ang server mo na maging bersiyong ito:
-<p><b>$a</b></p>
-<p>Kapag ginawa mo ito hindi ka na makababalik sa dati.</p> 
-<p>Talaga bang nais mong baguhin ang server mo sa bagong bersiyon na ito?</p>';
+$string['upgradesure'] = 'Nagbago ang mga file mo ng Moodle, at awtomatiko mong itataas ang server mo sa bagong bersiyon na ito:<br /><br />
+<strong>$a</strong> <br /><br />
+Kapag ginawa mo ito hindi ka na makababalik sa dati.<br /><br />
+Talaga bang nais mong baguhin ang server mo sa bagong bersiyon na ito?';
 $string['upgradingdata'] = 'Ginagawang bago ang datos';
 $string['upgradinglogs'] = 'Ginagawang bago ang mga log';
 $string['upwards'] = 'pataas';
