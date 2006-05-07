@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.6 Beta 3 (2006042600)
+      // lesson.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -57,7 +57,6 @@ $string['correctresponse'] = '正解に対するレスポンス';
 $string['customscoring'] = 'カスタムスコア';
 $string['deadline'] = 'レッスン終了';
 $string['defaultessayresponse'] = 'あなたの作文はコース教師によって評定されます。';
-$string['deleteattempts'] = 'このレッスンの学生の受験を削除 ( ユーザID )';
 $string['deletedefaults'] = '$a x レッスンデフォルトを削除しました。';
 $string['deletedpage'] = 'ページを削除しました。';
 $string['deleting'] = '削除中';
@@ -152,15 +151,15 @@ $string['modattempts'] = '学生のレビューを許可';
 $string['modattemptsnoteacher'] = '学生レビューは学生のみに表示されます。';
 $string['modulename'] = 'レッスン';
 $string['modulenameplural'] = 'レッスン';
-$string['movedpage'] = '移動済みページ';
+$string['movedpage'] = 'ページを移動しました。';
 $string['movepagehere'] = 'ページをここに移動する';
-$string['moving'] = 'ページ移動: $a';
+$string['moving'] = 'ページの移動: $a';
 $string['multianswer'] = '複数解答';
 $string['multipleanswer'] = '複数解答';
 $string['nameapproved'] = '名前が承認されました。';
 $string['namereject'] = '申し訳ございません、あなたの名前はフィルタにより拒否されました。<br />別の名前をお使いください。';
-$string['nextpage'] = '次ページ';
-$string['noanswer'] = '解答がありません。';
+$string['nextpage'] = '次のページ';
+$string['noanswer'] = '解答がありません。戻って解答を送信してください。';
 $string['noattemptrecordsfound'] = '受験レコードが見つかりません: 評価無し';
 $string['nocommentyet'] = 'コメントはありません。';
 $string['nocoursemods'] = '活動はありません。';
@@ -206,7 +205,7 @@ $string['postsuccess'] = '正常に投稿されました。';
 $string['practice'] = '練習レッスン';
 $string['preview'] = 'プレビュー';
 $string['previewlesson'] = '$a のプレビュー';
-$string['previouspage'] = '前ページ';
+$string['previouspage'] = '前のページ';
 $string['progressbar'] = 'プログレスバー';
 $string['progressbarteacherwarning'] = 'プログレスバーは $a に表示されません。';
 $string['question'] = '問題';
