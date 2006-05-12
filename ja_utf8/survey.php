@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.6 development (2006032200)
+      // survey.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['actual'] = '実体験';
@@ -73,7 +73,7 @@ $string['ciqname'] = 'クリティカル・インシデント';
 $string['clicktocontinue'] = '続ける';
 $string['clicktocontinuecheck'] = '確認して続ける';
 $string['colles1'] = '興味があることに集中します。';
-$string['colles10'] = '他の学生に彼らの意見に関する説明を求めます。';
+$string['colles10'] = '他の学生に自分の意見に関する説明を求めます。';
 $string['colles10short'] = '説明を求める';
 $string['colles11'] = '他の学生が私の意見に関する説明を求めます。';
 $string['colles11short'] = '説明を求められる';
