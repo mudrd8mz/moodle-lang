@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006050500)
+      // enrol_authorize.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
@@ -45,7 +45,7 @@ $string['avsg'] = '米国以外のカード発行銀行';
 $string['avsn'] = '住所および郵便番号が合致しません。';
 $string['avsp'] = '住所確認システムを使用できません。';
 $string['avsr'] = 'リトライ - システム利用不可またはタイムアウト';
-$string['avsresult'] = 'AVS結果';
+$string['avsresult'] = '<b>AVS結果:</b> $a';
 $string['avss'] = '発行人よりサービスがサポートされていません。';
 $string['avsu'] = '住所情報を利用できません。';
 $string['avsw'] = '9桁の郵便番号は合致しますが、住所が合致しません。';
