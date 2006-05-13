@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006050400)
+      // enrol_authorize.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['adminacceptccs'] = 'Hangi kredi kartı tipleri kabul edilecek?';
@@ -9,7 +9,7 @@ $string['adminauthorizesettings'] = 'Authorize.net Ayarları';
 $string['adminauthorizewide'] = 'Site Geneli Ayarları';
 $string['adminavs'] = 'Authorize.net hesabınızda AVS\'yi (Adres Doğrulama Sistemi) etkinleştirdiyseniz bunu seçin. Kullanıcı ödeme formunu doldururken cadde, ülke, posta kodu gibi adres alanları istenir.';
 $string['admincronsetup'] = 'Cron.php bakım betiği son 24 saattir çalışmıyor. <br />Zamanlanmış-çekme özelliğini kullanmak istiyorsanız cron etkin olmalı.<br />\'Authorize.net eklentisini\' <b>etkinleştirin</b> ve <b>cronu</b> düzgün ayarlayın; ya da an_review\'i tekrar <b>seçili durumdan kaldırın.</b><br />Zamanlanmış-çekmeyi etkinleştirmezseniz ve 30 gün içinde işlemleri incelemezseniz işlem iptal edilir.<br />Ödemeleri 30 gün içinde <b>elle</b> kabul etmek veya iptal etmek istiyorsanız <b>an_review\'i seçin</b> ve <b>an_capture_day alanına \'0\'</b> girin.';
-$string['adminemailexpired'] = 'İşlem iptal olmadan önce yöneticilere <b>$a</b> gün önceden \'onaylanmış/çekilmeyi bekliyor\' durumundaki siparişlerin sayısını içeren bir uyarı mesajı gönder. (0=email gönderme pasif, varsayılan=2, en fazla=5)<br />Siparişi elle incelemeyi etkinleştirdiyseniz bu kullanışlıdır (an_review=seçili, an_capture_day=0).';
+$string['adminemailexpired'] = 'İşlem iptal olmadan önce yöneticilere <b>$a</b> gün önceden \'yetki verilmiş/çekilmeyi bekliyor\' durumundaki siparişlerin sayısını içeren bir uyarı mesajı gönder. (0=email gönderme pasif, varsayılan=2, en fazla=5)<br />Siparişi elle incelemeyi etkinleştirdiyseniz bu kullanışlıdır (an_review=seçili, an_capture_day=0).';
 $string['adminhelpcapturetitle'] = 'Zamanlanmış-Çekme Günü';
 $string['adminhelpreviewtitle'] = 'Siparişi İnceleme';
 $string['adminneworder'] = 'Değerli Yönetici,
@@ -27,6 +27,7 @@ ZAMANLANMIŞ-ÇEKME ETKİN Mİ?: $a->acstatus
 Zamanlanmış-çekme etkinse kredi kartından $a->captureon tarihinde çekilecek ve öğrencinin kursa kaydı yapılacak. Diğer durumda $a->expireon tarihinde süresi dolacak ve bu tarihten sonra çekilemeyecek.
 
 Ayrıca aşağıdaki linki tıklayarak ödemeyi derhal kabul veya reddedebilir ve öğrenciyi kursa kaydedebilirsiniz:
+
 $a->url';
 $string['adminnewordersubject'] = '$a->course: Bekleyen Yeni Sipariş($a->orderid)';
 $string['adminpendingorders'] = 'Zamanlanmış-çekme özelliğini etkinleştirmediniz.<br />PROVİZYON durumundaki toplam $a->count işlemi kontrol etmezseniz iptal edilecek. <br />Ödemeleri kabul etmek/reddetmek için <a href=\'$a->url\'>Ödeme Yönetimi</a> sayfasına gidin.';
@@ -38,8 +39,8 @@ $string['anpassword'] = 'Authorize.net: Şifre';
 $string['anreferer'] = 'Authorize.net hesabınızda URL referer ayarı yaptıysanız buraya yazınız. Bu, web isteğinde \"Referer: URL\" başlığını gönderir.';
 $string['antestmode'] = 'İşlemleri deneme modunda çalıştır (para çekilmez)';
 $string['antrankey'] = 'Authorize.net: İşlem Anahtarı (Transaction Key)';
-$string['authcaptured'] = 'Onaylanmış / Çekilmiş';
-$string['authorizedpendingcapture'] = 'Onaylanmış / Çekilmeyi Bekliyor';
+$string['authcaptured'] = 'Yetki Verilmiş / Çekilmiş';
+$string['authorizedpendingcapture'] = 'Yetki Verilmiş / Çekilmeyi Bekliyor';
 $string['avsa'] = 'Adres (cadde) uydu, posta kodu uymadı';
 $string['avsb'] = 'Adres bilgisi verilmedi';
 $string['avse'] = 'Adres Doğrulama Sistemi Hatası';
@@ -55,10 +56,10 @@ $string['avsx'] = 'Adres (cadde) ve 9 rakamlık posta kodu eşleşti';
 $string['avsy'] = 'Adres (cadde) ve 5 rakamlık posta kodu eşleşti';
 $string['avsz'] = '5 rakamlık posta kodu eşleşti, adres (cadde) eşleşmedi';
 $string['canbecredit'] = '$a->upto\'a kadar geri ödenebilir';
-$string['cancelled'] = 'İptal edilmiş';
+$string['cancelled'] = 'İptal Edilmiş';
 $string['capture'] = 'Çek';
-$string['capturedpendingsettle'] = 'Çekilmiş / Ödeme Bekleniyor';
-$string['capturedsettled'] = 'Çekilmiş / Ödenmiş';
+$string['capturedpendingsettle'] = 'Çekilmiş / Uzlaşma Bekliyor';
+$string['capturedsettled'] = 'Çekilmiş / Uzlaşılmış';
 $string['captureyes'] = 'Para kredi kartından çekilecek ve öğrencinin derse kaydı yapılacak. Emin misiniz?';
 $string['ccexpire'] = 'Geçerlilik Tarihi';
 $string['ccexpired'] = 'Kredi kartının süresi geçmiş';
@@ -69,11 +70,11 @@ $string['ccvv'] = 'Onay Kodu';
 $string['ccvvhelp'] = 'Kartın arkasına bakınız (son 3 rakam)';
 $string['choosemethod'] = 'Kursun kayıt anahtarını biliyorsanız lütfen giriniz. Diğer durumda bu kurs için ödeme yapmanız gerekiyor.';
 $string['chooseone'] = 'Aşağıdaki iki alandan birini veya ikisini doldurun';
-$string['cutofftime'] = 'Hesap Kesim Zamanı. Hesap kesimi en son ne zaman yapılacak?';
+$string['cutofftime'] = 'Hesap Kesim Zamanı. En son işlem ne zaman karara bağlanacak?';
 $string['delete'] = 'Sil';
 $string['description'] = 'Authorize.net modülü Kredi Kartı sağlayıcılarıyla ücretli kurslar ayarlamanıza olanak verir. Bir kursun ücreti sıfır ise öğrencilere ödeme yapmaları için bir istekte bulunulmaz. Kurs ücretini iki şekilde ayarlayabilirsiniz. (1) Sitenin geneli için ayarlayabileceğiniz varsayılan bir tutar vardır ve ayrıca (2) her bir dersin ücretini tek tek de ayarlayabilirsiniz. Kurs ücreti ayarlanırsa site genelindeki ücret yoksayılır.<br /><br /><b>Not:</b> Kurs ayarlarında kayıt anahtarını girdiyseniz öğrenciler bu anahtara göre de kayıt olma seçeneğine sahip olabileceklerdir. Bu, öğrecilerden bazılarının ödeme yaparak bazılarının da kayıt anahtarına göre kayıt olmasını istiyorsanız kullanışlıdır.';
 $string['enrolname'] = 'Authorize.net Kredi Kartı Sağlayıcısı';
-$string['expired'] = 'Süresi dolmuş';
+$string['expired'] = 'Süresi Dolmuş';
 $string['howmuch'] = 'Ne kadar?';
 $string['httpsrequired'] = 'Üzgünüz, isteğinizi şu anda yerine getiremiyoruz. Bu sitenin ayarı doğru yapılandırılmamış.
 <br /><br />
@@ -90,8 +91,9 @@ $string['missingcctype'] = 'Kart tipi eksik';
 $string['missingcvv'] = 'Onay no eksik';
 $string['missingzip'] = 'Posta kodu eksik';
 $string['nameoncard'] = 'Kart Üzerindeki İsim';
+$string['new'] = 'Yeni';
 $string['noreturns'] = 'Geri ödeme yok';
-$string['notsettled'] = 'Faturalandırılmamış';
+$string['notsettled'] = 'Karara bağlanmamış';
 $string['orderid'] = 'Sipariş ID';
 $string['paymentmanagement'] = 'Ödeme Yönetimi';
 $string['paymentpending'] = '$a->orderid numaralı ödemeniz bu kurs için onay bekliyor. <a href=\'$a->url\'>Sipariş Ayrıntılarına</a> bakabilirsiniz.';
@@ -102,9 +104,11 @@ $a->days gün içinde onay bekleyen $a->pending işlemi kabul etmezseniz süresi
 Zamanlanmış-çekmeyi etkinleştirmediğiniz için bu uyarı mesajı size gönderilmiştir. Bu durumda ödemeleri elle kabul veya reddetmelisiniz.
 
 Ödemeleri kabul/reddetmek için:
+
 $a->url
 
 Zamanlanmış-çekmeyi etkinleştirmek için:
+
 $a->enrolurl';
 $string['reason11'] = 'Aynı işlem gönderildi.';
 $string['reason13'] = 'Mağaza Giriş ID hatalı veya hesap etkin değil';
@@ -122,15 +126,15 @@ $string['reason5'] = 'Geçerli bir miktar gerekli.';
 $string['reason50'] = 'İşlem faturalandırma anlaşması beklediği için geri para iadesi yapılamaz.';
 $string['reason54'] = 'Referans gösterilen işlem geri ödeme şartlarına uymuyor.';
 $string['refund'] = 'Geri Öde';
-$string['refunded'] = 'Geri ödenmiş';
-$string['returns'] = 'Geri ödemeler';
+$string['refunded'] = 'Geri Ödenmiş';
+$string['returns'] = 'Geri Ödemeler';
 $string['reviewday'] = '<b>$a</b> gün içinde eğitimci veya yönetici siparişi incelemezse kredi kartından otomatik olarak parayı çek. CRON ETKİN OLMALI. <br /> (0 gün zamanlanmış-çekme aktif değil anlamına gelir ve aynı zamanda eğitimci veya yöneticinin siparişi kendisi inceleyeceğini zorunlu tutar. Zamanlanmış-çekmeyi etinleştirmezseniz veya 30 gün içinde siparişi incelemezseniz işlem iptal edilir.)';
 $string['reviewnotify'] = 'Ödemeniz incelenecek. Bir kaç gün içinde eğitimcinizden bir email bekleyin.';
 $string['sendpaymentbutton'] = 'Ödemeyi Yap';
-$string['settled'] = 'Faturalandırılmış';
-$string['settlementdate'] = 'Hesap Kesim Tarihi';
+$string['settled'] = 'Uzlaşılmış';
+$string['settlementdate'] = 'Uzlaşma Tarihi';
 $string['subvoidyes'] = 'Geri ödenen $a->transid nolu işlem iptal edilecek ve hesabınıza $a->amount yüklenecek. Emin misiniz?';
-$string['tested'] = 'Denendi';
+$string['tested'] = 'Denenmiş';
 $string['testmode'] = '[DENEME MODU]';
 $string['testwarning'] = 'Çekme/İptal Etme/Geri Ödeme deneme modunda çalışıyor görünüyor ama veritabanına kayıt eklenmedi/güncellenmedi.';
 $string['transid'] = 'İşlem ID';
