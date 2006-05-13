@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // moodle.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['action'] = 'Eylem';
@@ -37,7 +37,7 @@ $string['addresource'] = 'Yeni kaynak ekle...';
 $string['address'] = 'Adres';
 $string['addstudent'] = 'Öğrenci ekle';
 $string['addteacher'] = 'Eğitimci ekle';
-$string['admin'] = 'Yönet';
+$string['admin'] = 'Yönetim';
 $string['adminhelpaddnewuser'] = 'Elle yeni bir kullanıcı hesabı eklemek için';
 $string['adminhelpassignadmins'] = 'Yöneticiler herşeyi yapabilir ve sitedeki herşeye ulaşabilir';
 $string['adminhelpassigncreators'] = 'Kurs açıcılar yeni ders açabilirler ve bu derste eğitim verebilirler';
