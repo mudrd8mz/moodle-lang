@@ -32,7 +32,7 @@ de l\'étudiant en cliquant sur le lien ci-dessous.
 
 $a->url';
 $string['adminnewordersubject'] = '$a->course : nouvel ordre en attente de traitement ($a->orderid)';
-$string['adminpendingorders'] = 'Vous avez désactivé la saisie programmée.<br />Un total de $a->count transactions dont le statut est AN_STATUS_AUTH seront annulée, à moins que vous ne les approuviez.<br />Pour accepter ou refuser des paiements, visitez la page <a href=\'$a->url\'>Gestion des paiements</a>.';
+$string['adminpendingorders'] = 'Vous avez désactivé la saisie programmée.<br />Un total de $a->count transactions dont le statut est «&nbsp;Autorisé / En attente de saisie&nbsp;» seront annulées, à moins que vous ne les approuviez.<br />Pour accepter ou refuser des paiements, visitez la page <a href=\'$a->url\'>Gestion des paiements</a>.';
 $string['adminreview'] = 'Contrôle de la commande avant envoi des données de la carte de crédit.';
 $string['adminteachermanagepay'] = 'Les enseignants peuvent gérer les paiements du cours.';
 $string['amount'] = 'Montant';
@@ -87,6 +87,7 @@ $string['missingcctype'] = 'Le type de carte n\'est pas renseigné';
 $string['missingcvv'] = 'Le numéro de vérification n\'est pas renseigné';
 $string['missingzip'] = 'Le code postal n\'est pas renseigné';
 $string['nameoncard'] = 'Nom sur la carte';
+$string['new'] = 'Nouveau';
 $string['noreturns'] = 'Pas de retour&nbsp;!';
 $string['notsettled'] = 'Non réglé';
 $string['orderid'] = 'No d\'ordre';
@@ -103,10 +104,12 @@ manuellement.
   	 
 Pour accpeter ou refuser les paiements en attente de traitement, veuillez
 visiter la page
+
 $a->url
   	 
 Pour activer la saisie programmée, afin que vous ne receviez plus de tels
 messages d\avertissement, veuillez visiter la page
+
 $a->enrolurl';
 $string['reason11'] = 'Un doublon de transaction a été transmis.';
 $string['reason13'] = 'L\'identifiant de connexion n\'est pas valide ou le compte est inactif.';
