@@ -27,7 +27,7 @@ $string['adminneworder'] = '新しい保留の注文が入りました:
 下記のリンクで、学生がコース登録するための支払いを承認/拒否することもできます:
 $a->url';
 $string['adminnewordersubject'] = '$a->course: 新しい未決注文 ( $a->orderid )';
-$string['adminpendingorders'] = 'あなたはスケジュールキャプチャ機能を停止しています。<br />あなたがチェックしない場合、ステータスAN_STATUS_AUTHの合計 $a->count　件のトランザクションがキャンセルされます。<br />支払いを受け付け/拒否するには <a href=\'$a->url\'>支払い管理</a>ページにアクセスしてください。';
+$string['adminpendingorders'] = 'あなたはスケジュールキャプチャ機能を停止しています。<br />あなたがチェックしない場合、ステータス「認証完了 / キャプチャ未了」の合計 $a->count　件のトランザクションがキャンセルされます。<br />支払いを受け付け/拒否するには <a href=\'$a->url\'>支払い管理</a>ページにアクセスしてください。';
 $string['adminreview'] = 'クレジットカード処理手続きの前に注文を検査する。';
 $string['adminteachermanagepay'] = '教師がコースの支払いを管理できる。';
 $string['amount'] = '金額';
@@ -84,11 +84,12 @@ $string['missingcctype'] = 'カードタイプを入力してください。';
 $string['missingcvv'] = '郵便番号を入力してください。';
 $string['missingzip'] = 'カード名義を入力してください。';
 $string['nameoncard'] = 'クレジットカード名義';
+$string['new'] = 'New';
 $string['noreturns'] = '返金無し!';
 $string['notsettled'] = '未確定';
 $string['orderid'] = '注文ID';
 $string['paymentmanagement'] = '支払い管理';
-$string['paymentpending'] = 'このコースに関するあなたの支払いは保留中です。注文番号は、 $a->orderid です。';
+$string['paymentpending'] = 'このコースに関するあなたの支払いは保留中です。注文番号は、 $a->orderid です。詳細は、<a href=\'$a->url\'>注文詳細</a>をご覧ください。';
 $string['pendingordersemail'] = '支払いを受け付けない場合、トランザクション $a->pending は、$a->days 日で期限が切れます。
 
 あなたがスケジュールキャプチャを有効にしていないため、これは警告メッセージです。手動で支払いを受け付けるか、拒否する必要があります。
