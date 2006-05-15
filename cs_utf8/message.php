@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.5 + (2005060201)
+      // message.php - created with Moodle 1.7 dev (2006050300)
 
 
 $string['addcontact'] = 'Přidat kontakt';
@@ -24,7 +24,7 @@ $string['emailtagline'] = 'Tento email obsahuje kopii zpravy, ktera vam byla zas
 $string['emptysearchstring'] = 'Musíte zadat řetězec k vyhledávání';
 $string['formorethan'] = 'Déle než';
 $string['includeblockedusers'] = 'Zahrnout blokované uživatele';
-$string['incomingcontacts'] = 'Příchozí kontakty ($a)';
+$string['incomingcontacts'] = 'Nové zprávy ($a)';
 $string['keywords'] = 'Klíčová slova';
 $string['keywordssearchresults'] = 'Výsledky hledání - počet nalezených zpráv: $a';
 $string['maxmessages'] = 'Největší počet zpráv zobrazovaných v historii diskuse';
