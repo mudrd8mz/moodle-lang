@@ -1,7 +1,6 @@
 <?PHP // $Id$ 
       // access.php - created with Moodle 1.6 Beta 4 (2006042800)
 
-
 $string['access'] = 'Přístupnost';
 $string['accesshelp'] = 'Nápověda k přístupnosti';
 $string['accesskey'] = 'Zkratková klávesa, $a';
