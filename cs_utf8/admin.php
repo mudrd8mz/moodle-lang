@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // admin.php - created with Moodle 1.7 dev (2006050300)
 
 
 $string['adminseesallevents'] = 'Správci vidí všechny události';
@@ -36,16 +36,16 @@ $string['configdbsessions'] = 'Je-li povoleno, bude se pro ukládání informac�
 $string['configdebug'] = 'Zapnout vypisování varování a ladicích informací pomocí zvýšení úrovně PHP error_reporting. Užitečné hlavně pro vývojáře.';
 $string['configdefaultallowedmodules'] = 'Které moduly mají být v kurzech spadajících do výše uvedené kategorie implicitně povoleny <b>při vytváření kurzu</b>?';
 $string['configdefaultrequestedcategory'] = 'Do jaké kategorie zařadit požadované kurzy, pokud jsou schváleny?';
+$string['configenablecourserequests'] = 'Povolit uživatelům žádat o založení kurzu?';
+$string['configenrolmentplugins'] = 'Jaké způsoby zápisů do kurzu povolit? Nezapomeňte upravit příslušné nastavení zásuvných modulů. <br /><br />Označte povolené moduly a vyberte <strong>jeden z nich</strong> jako výchozí pro interaktivní zápis do kurzů. Pro vypnutí interaktivních zápisů do určitých kurzu u nich nastavte proměnnou \"Do kurzu se lze zapisovat\" na \"Ne\".';
 $string['configdeleteunconfirmed'] = 'Jestliže používáte ověření na základě e-mailu, po uplynutí této doby jsou nepotvrzené účty automaticky odstraněny.';
 $string['configdenyemailaddresses'] = 'Chcete-li z některých domén e-mailové adresy zakázat, zadejte je stejným způsobem. Adresy ze všech ostatních domén budou povoleny. Příklad: <b>hotmail.com yahoo.co.uk</b>';
 $string['configdigestmailtime'] = 'Zadejte hodinu, kdy mají být odesílány denní e-mailové přehledy. (E-maily budou rozeslány při prvním spuštění cronu po nastavené hodině.)';
 $string['configdisplayloginfailures'] = 'Zvoleným uživatelům se budou zobrazovat informace o neúspěšných pokusech o přihlášení do systému.';
 $string['configdocroot'] = 'Cesta k dokumentaci Moodlu. Upravte toto nastavení, pokud si přejete mít vlastní online dokumentaci. Ujistětě se, že vaše dokumentace zachovává stejný formát jako http://docs.moodle.org.';
-$string['configenablecourserequests'] = 'Povolit všem uživatelům požádat o založení kurzu.';
 $string['configenablerssfeeds'] = 'Povolení RSS kanálů pro celý server. Kanály musíte povolit zvlášť u každého modulu v jeho nastavení -- \'Správa -> Nastavení -> Moduly -> Nastavení modulu\'.';
 $string['configenablerssfeedsdisabled'] = 'Tato volba není dostupná, protože RSS kanály jsou na těchto stránkách zakázány. Kanály povolíte v \'Správa -> Nastavení -> Obecné parametry\'.';
 $string['configenablestats'] = 'Při volbě \'Ano\' zpracuje cron protokoly o činnosti uživatelů a vytvoří z nich grafy a statistiky pro jednotlivé kurzy i celý server. Toto zpracování může nějakou dobu trvat, v závislosti na návštěvnosti vašeho serveru.';
-$string['configenrolmentplugins'] = 'Vyberte zásuvné moduly pro zápis do kurzů. Nezapomeňte upravit nastavení vybraných zásuvných modulů. <br /><br />Označte povolené moduly a vyberte <b>jeden</b> z nich jako výchozí pro <em>interaktivní</em> zápis do kurzů. Pro vypnutí interaktivního zápisu nastavte v daném kurzu proměnnou \'Povolit uživatelům zápis do kurzu\' na \'Ne\'.';
 $string['configerrorlevel'] = 'Vyberte rozsah zobrazovaných varování PHP. Většinou je nejlepší volbou \'Normální\'.';
 $string['configextendedusernamechars'] = 'Povolit uživatelům používat libovolné znaky v uživatelských jménech (volba nemá vliv na znaky ve jméně a příjmení). Výchozí hodnota \'Ne\' omezuje uživatelská jména pouze na alfanumerické znaky. Čeština není podporována, takže ponechte volbu na \'Ne\'!';
 $string['configfilterall'] = 'Zpracovávat pomocí filtrů všechny řetězce včetně nadpisů, titulků, navigační lišty apod. To se hodí zejména při používání filtru vícejazyčné podpory (multilang), jinak tato volba představuje pouze zvýšenou zátěž pro váš server bez výrazného zisku.';
@@ -157,7 +157,7 @@ $string['helpadminseesall'] = 'Vidí správci všechny události v kalendáři, 
 $string['helpcalendarsettings'] = 'Konfigurace kalendáře a dalších aspektů Moodlu, které se týkají data a času';
 $string['helpforcetimezone'] = 'Zvolte, zda chcete umožnit uživatelům změnu časového pásma, nebo vyberte jedno pásmo společné pro všechny.';
 $string['helpsitemaintenance'] = 'Pro případ upgradů a jiné údržby';
-$string['helpstartofweek'] = 'Kalendářní den, jímž začíná týden.';
+$string['helpstartofweek'] = 'Kterým dnem u vás začíná týden. Jestli nevíte, zvolte pondělí ;-)';
 $string['helpupcominglookahead'] = 'V kolika následujících dnech se mají implicitně vyhledávat tzv. nadcházející události?';
 $string['helpupcomingmaxevents'] = 'Kolik nadcházející událostí se má maximálně zobrazovat?';
 $string['helpweekenddays'] = 'Které z dnů v týdnu se mají považovat za \'víkend\' a zobrazovat se v kalendáři odlišnou barvou?';
