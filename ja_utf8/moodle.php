@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006050500)
+      // moodle.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['action'] = '操作';
@@ -337,6 +337,7 @@ $string['disable'] = 'No';
 $string['displayingfirst'] = '最初の $a->count $a->things のみ表示されます。';
 $string['displayingrecords'] = 'レコード $a 件を表示';
 $string['displayingusers'] = 'ユーザを $a->start から $a->end まで表示';
+$string['displayonpage'] = 'ページに表示する';
 $string['documentation'] = 'Moodleドキュメンテーション';
 $string['donotask'] = '問合せしない';
 $string['down'] = '下へ';
@@ -545,6 +546,7 @@ $string['gd1'] = 'GD 1.xインストール済';
 $string['gd2'] = 'GD 2.xインストール済';
 $string['gdneed'] = 'このグラフを表示するためにはGDのインストールが必要です。';
 $string['gdnot'] = 'GD未インストール';
+$string['gettheselogs'] = 'ログを取得';
 $string['go'] = 'Go';
 $string['gpl'] = 'Copyright (C) 1999-2006 Martin Dougiamas (http://moodle.com)
 
@@ -677,6 +679,7 @@ $string['listofallpeople'] = '全員を表示する';
 $string['livelogs'] = 'ライブログ';
 $string['locale'] = 'ja_JP.UTF-8';
 $string['location'] = 'ロケーション';
+$string['log_excel_date_format'] = 'yyyy/mm/dd h:mm';
 $string['loggedinas'] = 'あなたは $a としてログインしています。';
 $string['loggedinasguest'] = 'あなたは現在ゲストログインしています。';
 $string['loggedinnot'] = 'あなたはログインしていません。';
@@ -1110,7 +1113,6 @@ $string['showperpage'] = '1ページあたり $a 名を表示';
 $string['showrecent'] = '最新の活動を表示';
 $string['showreports'] = '活動レポートを表示';
 $string['showsettings'] = '設定を表示';
-$string['showtheselogs'] = 'ログを表示';
 $string['since'] = '対象範囲';
 $string['sincelast'] = '最終ログインより';
 $string['site'] = 'サイト';
