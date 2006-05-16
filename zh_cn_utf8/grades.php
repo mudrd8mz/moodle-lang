@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6 development (2005101200)
+      // grades.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['addcategory'] = '添加类别';
 $string['addcategoryerror'] = '不能添加分类。';
 $string['addexceptionerror'] = '添加例外时出错（用户id:成绩项）';
+$string['allcategories'] = '所有的类别';
 $string['allgrades'] = '按分类统计所有分数';
 $string['allstudents'] = '所有学生';
 $string['average'] = '平均';

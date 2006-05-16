@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // attendance.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005021000)
+      // attendance.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
 $string['absentlong'] = '缺席';
+$string['absentshort'] = '缺席';
 $string['addingmultiple'] = '正在添加多个出勤名单';
 $string['addmultiple'] = '添加多个出勤名单';
 $string['allmodulename'] = '所有出勤名单';
@@ -44,8 +45,10 @@ $string['norolls'] = '课程中没有出勤名单';
 $string['notes'] = '异常信息';
 $string['notesfor'] = '异常信息因为';
 $string['noviews'] = '抱歉，这里没有你的帐号信息';
+$string['of'] = '属于';
 $string['pages'] = '页面';
 $string['presentlong'] = '当前';
+$string['presentshort'] = '当前';
 $string['saturday'] = '周六';
 $string['startafterend'] = '开始的日期在课程结束日期以后';
 $string['startmulti'] = '第一个出勤记录的日期';
@@ -53,6 +56,7 @@ $string['sunday'] = '周日';
 $string['takeroll'] = '记录今天的出勤？';
 $string['tardiesperabsence'] = '多少迟到记录为一个缺勤';
 $string['tardylong'] = '迟到';
+$string['tardyshort'] = '迟到';
 $string['teacheredit'] = '记录出勤';
 $string['thursday'] = '周四';
 $string['tuesday'] = '周二';

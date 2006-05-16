@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.5 ALPHA (2005051500)
+      // exercise.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['absent'] = '无';
@@ -65,6 +65,11 @@ $string['incorrect'] = '错';
 $string['late'] = '迟交';
 $string['lax'] = '松';
 $string['leaguetable'] = '优秀作业展';
+$string['mail1'] = '您的作业\'$a\' 已经被评定';
+$string['mail2'] = '批注和成绩在作业练习\'$a\'中可见';
+$string['mail3'] = '您可以在您的作业练习';
+$string['mail6'] = '您的作业\'$a\' 已被回顾';
+$string['mail7'] = '$a 给的注释在作业练习中可见';
 $string['managingassignment'] = '管理大作业';
 $string['maximum'] = '最高';
 $string['maximumgradeforstudentassessments'] = '学生自评的最高成绩: $a';

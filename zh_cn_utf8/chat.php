@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.5 ALPHA (2005050600)
+      // chat.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
 $string['beep'] = '呼叫';
@@ -8,6 +8,7 @@ $string['chatname'] = '此聊天室名称';
 $string['chatreport'] = '聊天话题';
 $string['chattime'] = '下次聊天时间';
 $string['configmethod'] = '普通的聊天模式让客户端持续的联系服务器以获取更新。这种方式无需任何配置便可在所有环境下工作，但当很多人一起聊天时会给服务器带来极大负荷。使用聊天服务器程序需要访问Unix的shell，但却可以得到一个快速而稳定的聊天环境。';
+$string['confignormalupdatemode'] = '聊天室更新可以使用HTTP1.1的<em>Keep-Alive</em>特性而高效地服务，但事实上这样仍然给服务器带来很大的负荷。更好的方法是使用<em>Stream</em>来满足更新需求。使用<em>Stream</em>的方式会带来很大的改善（类似chatd方式），但是你的服务器可能并不支持。';
 $string['configoldping'] = '用户多久(秒)不发言被认为是离开了？这只是一个上限，通常用户的离开是可以马上被检测到的。您可以根据需要设置较低的值，但如果您使用普通的聊天模式，那么<strong>永远不要</strong>让它低于2*chat_refresh_room';
 $string['configrefreshroom'] = '聊天室自动刷新时间(秒),如果太短将耗费大量服务器资源';
 $string['configrefreshuserlist'] = '用户列表自动刷新时间(秒)';
@@ -17,8 +18,8 @@ $string['configservermax'] = '最多允许多少客户端';
 $string['configserverport'] = '服务器上聊天程序所使用的端口';
 $string['currentchats'] = '当前话题';
 $string['currentusers'] = '当前用户';
-$string['deletesession'] = '删除该session';
-$string['deletesessionsure'] = '确定删除该session吗?';
+$string['deletesession'] = '删除该主题';
+$string['deletesessionsure'] = '确定删除该主题吗?';
 $string['donotusechattime'] = '不显示聊天时间';
 $string['enterchat'] = '点此进入聊天室';
 $string['errornousers'] = '没有用户';
@@ -41,6 +42,8 @@ $string['neverdeletemessages'] = '从未删除消息';
 $string['nextsession'] = '下一个议定主题';
 $string['noguests'] = '此聊天室不对访客(guest)开放';
 $string['nomessages'] = '尚无消息';
+$string['normalkeepalive'] = '保持在线';
+$string['noscheduledsession'] = '没有预定的主题';
 $string['repeatdaily'] = '每天的此刻';
 $string['repeatnone'] = '无回复';
 $string['repeattimes'] = '回复主题';

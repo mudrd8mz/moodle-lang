@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6 development (2005101200)
+      // forum.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['addanewdiscussion'] = '添加一个新讨论话题';
@@ -15,8 +15,11 @@ $string['allsubscribe'] = '订阅所有的论坛';
 $string['allunsubscribe'] = '退订所有的论坛';
 $string['anyfile'] = '任何文件';
 $string['attachment'] = '附件';
+$string['blockafter'] = '登陆模块的极限';
+$string['blockperiod'] = '模块化的时期';
 $string['blockperioddisabled'] = '不阻止';
 $string['bynameondate'] = '由{$a->name}发表于$a->date';
+$string['cannotviewpostyet'] = '在这个讨论中您不能阅读别的同学的问题因为您没有权限';
 $string['configcleanreadtime'] = '一天中从“已读”表格中清除旧帖子的时间';
 $string['configdisplaymode'] = '讨论的缺省显示模式';
 $string['configenablerssfeeds'] = '这个选项允许所有的论坛支持RSS种子。您仍需手工激活每一个论坛配置中的RSS种子选项。';
@@ -66,6 +69,8 @@ $string['forcesubscribe'] = '强制每个人都订阅';
 $string['forcesubscribeq'] = '强制每个人都订阅吗?';
 $string['forum'] = '讨论区';
 $string['forumauthorhidden'] = '作者(隐藏)';
+$string['forumblockingalmosttoomanyposts'] = '您已经达到登陆的极限了。您已经登陆$a->numposts次了';
+$string['forumbodyhidden'] = '您不能看到这些内容，可能因为您还没有登陆到讨论中';
 $string['forumintro'] = '讨论区简介';
 $string['forumname'] = '讨论区名称';
 $string['forumposts'] = '讨论区帖子';
@@ -137,6 +142,7 @@ $string['postadded'] = '<p>您的贴子已经成功发表。</p>
 $string['postincontext'] = '在上下文中看此贴';
 $string['postmailinfo'] = '这是一份来自网站{$a}的贴子。
 点击下面的链接便可在网站上回贴:';
+$string['postmailnow'] = '<p>这个帖子将会被立即发到所有的讨论订阅者那里去</p>';
 $string['postrating1'] = '极端独立型';
 $string['postrating2'] = '独立型与情景型兼备';
 $string['postrating3'] = '极端情况型';
@@ -150,6 +156,7 @@ $string['prune'] = '分割';
 $string['prunedpost'] = '从该帖子创建了新的论题';
 $string['pruneheading'] = '分割论题并将此帖子移到一个新的论题中';
 $string['qandaforum'] = '问题及解答讨论区';
+$string['qandanotify'] = '这是一个提问和回答的讨论。为了能看到其他人的回应，首先您需要贴出您的答案';
 $string['rate'] = '评价';
 $string['rating'] = '等级';
 $string['ratingeveryone'] = '所有人可以评价';
@@ -168,6 +175,7 @@ $string['repliesmany'] = '迄今有{$a}个回贴';
 $string['repliesone'] = '迄今有{$a}个回贴';
 $string['reply'] = '回复';
 $string['replyforum'] = '回复到论坛';
+$string['resetforums'] = '从这些讨论中删除所有的贴';
 $string['rsssubscriberssdiscussions'] = '显示话题“{$a}”的RSS种子';
 $string['rsssubscriberssposts'] = '显示帖子“{$a}”的RSS种子';
 $string['search'] = '搜索';
@@ -201,6 +209,7 @@ $string['subscribestart'] = '此论坛有新帖就发电子邮件给我';
 $string['subscribestop'] = '此论坛有新帖不要发电子邮件给我';
 $string['subscription'] = '订阅';
 $string['subscriptions'] = '订阅';
+$string['thisforumisthrottled'] = '这个讨论有贴数限制，您可以在给定的时间期限中做-这个一般在{$a->blockafter}设置记录在{$a->blockperiod}';
 $string['timestartenderror'] = '可视时段的结束时间不能早于开始时间。';
 $string['trackforum'] = '跟踪未读信息';
 $string['tracking'] = '跟踪';
@@ -215,6 +224,7 @@ $string['unreadpostsone'] = '1条未读帖子';
 $string['unsubscribe'] = '不再订阅该讨论区';
 $string['unsubscribed'] = '未订阅';
 $string['unsubscribeshort'] = '退订';
+$string['warnafter'] = '贴出极限来警告';
 $string['yesforever'] = '是的，永远这样';
 $string['yesinitially'] = '是的，初始设为这样';
 $string['youratedthis'] = '您对此评分';

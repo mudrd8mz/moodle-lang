@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // dialogue.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
 $string['addmynewentries'] = '添加我的话题';
@@ -9,6 +9,7 @@ $string['allowmultiple'] = '允许和一个用户有多个对话';
 $string['allowstudentdialogues'] = '允许学生间对话';
 $string['close'] = '关闭';
 $string['closed'] = '关闭';
+$string['closeddialogues'] = '关闭对话';
 $string['confirmclosure'] = '您打算结束和{$a}的对话。您不能重新开启关闭的对话，但可以开启一个新对话和他交谈。<br /><br />您确定要关闭这个对话么?';
 $string['deleteafter'] = '几天后删除关闭的对话';
 $string['dialogueclosed'] = '对话关闭';
@@ -46,6 +47,7 @@ $string['open'] = '开启';
 $string['openadialoguewith'] = '启动一个对话和';
 $string['opendialogue'] = '开启对话';
 $string['opendialogueentries'] = '开始对话进程';
+$string['opendialogues'] = '开启对话';
 $string['pane0'] = '开启一个对话';
 $string['pane1'] = '{$a}来自于您自己的等待回复的对话';
 $string['pane1one'] = '1条来自于您自己的等待回复的对话';

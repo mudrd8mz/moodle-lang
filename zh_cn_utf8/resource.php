@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.5.3+ (2005060230)
+      // resource.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['addresource'] = '添加资源';
+$string['back'] = '后退';
+$string['browserepository'] = '浏览仓库';
+$string['choose'] = '选择';
 $string['chooseafile'] = '选择或上传一个文件';
 $string['chooseparameter'] = '选择一个参数';
 $string['configallowlocalfiles'] = '允许在创建新文件资源时使用指向本地文件系统的链接，如光驱或者硬盘。这对于学生都在一个教室内访问网络驱动器或CD上的文件是很有用出的。是用这个功能可能要修改您的浏览器的安全设置。';
@@ -24,10 +27,12 @@ $string['configsecretphrase'] = '这个保密口令用于制作加密码传递�
 $string['configwebsearch'] = '当添加一个URL作为网页或链接时,该站将帮助用户寻找其想要的URL.';
 $string['configwindowsettings'] = '当添加新资源时，此处设置将作为窗口设置框的缺省值。在第一次设之后，就允许每个用户自己设置。';
 $string['deploy'] = '部署';
+$string['deployall'] = '部署所有';
 $string['directlink'] = '直接链接到此文件';
 $string['directoryinfo'] = '将显示已选择目录中的所有文件。';
 $string['display'] = '窗口';
 $string['editingaresource'] = '编辑资源';
+$string['emptyfolder'] = '空文件夹';
 $string['encryptedcode'] = '加密代码';
 $string['example'] = '例子';
 $string['exampleurl'] = 'http://www.example.com/somedirectory/somefile.html';
@@ -50,6 +55,8 @@ $string['maindirectory'] = '主文件目录';
 $string['modulename'] = '资源';
 $string['modulenameplural'] = '资源';
 $string['navigationbuttons'] = '浏览按钮';
+$string['navigationmenu'] = '浏览侧边菜单';
+$string['navigationup'] = '上方按钮';
 $string['neverseen'] = '没看过';
 $string['newdirectories'] = '显示目录链接';
 $string['newfullscreen'] = '全屏';
@@ -63,7 +70,9 @@ $string['newtoolbar'] = '显示工具栏';
 $string['newwidth'] = '缺省窗口宽度(像素)';
 $string['newwindow'] = '新窗口';
 $string['newwindowopen'] = '在新窗口打开';
+$string['next'] = '下一个';
 $string['notallowedlocalfileaccess'] = '访问本地文件的功能已禁用，故无法访问此资源。';
+$string['notdeployed'] = '没有部署';
 $string['note'] = '注意';
 $string['notefile'] = '要上载更多文件到课程中（这样它们就会出现于该列表），请用 
 <a href=\"$a\">文件管理器</a>.';
@@ -77,7 +86,10 @@ $string['parameter'] = '参数';
 $string['parameters'] = '参数';
 $string['popupresource'] = '该资源将出现在一个弹出窗口中.';
 $string['popupresourcelink'] = '若不行, 点击这里: $a';
+$string['preview'] = '预览';
+$string['previous'] = '前面的';
 $string['redeploy'] = '重新部署';
+$string['repository'] = 'IMS仓库';
 $string['resourcetype'] = '资源类型';
 $string['resourcetype1'] = '参考书目';
 $string['resourcetype2'] = '网页';
@@ -98,7 +110,9 @@ $string['resourcetypetext'] = '编写文本页';
 $string['searchweb'] = '搜索网页';
 $string['serverurl'] = '服务器链接($a->wwwroot)';
 $string['showcourseblocks'] = '显示课程版块';
+$string['skipsubmenus'] = '跳过子菜单页面';
 $string['tableofcontents'] = '目录';
+$string['upbutton'] = '向上';
 $string['variablename'] = '变量名';
 $string['viewims'] = '查看IMS包';
 $string['vol'] = '音量';

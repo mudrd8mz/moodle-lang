@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // glossary.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['addcomment'] = '添加评论';
@@ -95,6 +95,7 @@ $string['explainalphabet'] = '通过此索引浏览词汇';
 $string['explainexport'] = '已生成一个文件。<br />下载并妥善保存它。您可以在任何时间将其导入到此课程或其它课程中。';
 $string['explainimport'] = '您必须指定要导入的文件名称以及导入标准。<p>提交您的请求并查看结果。</p>';
 $string['explainspecial'] = '显示并非以字母开始的词条';
+$string['exportedentry'] = '已导出词挑';
 $string['exportentries'] = '导出词条';
 $string['exportfile'] = '导出词条到文件';
 $string['exportglossary'] = '导出词汇';

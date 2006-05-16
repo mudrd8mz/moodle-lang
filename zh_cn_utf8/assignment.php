@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // assignment.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
 $string['allowresubmit'] = '允许重交';
@@ -15,6 +15,7 @@ $string['assignmenttype'] = '作业类型';
 $string['availabledate'] = '开始日期';
 $string['comment'] = '评论';
 $string['commentinline'] = '内嵌点评';
+$string['configitemstocount'] = '学生在线作业提交的次数将被记录';
 $string['configmaxbytes'] = '缺省情况下站点中作业的最大尺寸(同时受课程和其它本地设置的限制)';
 $string['description'] = '描述';
 $string['duedate'] = '截止日期';
@@ -74,6 +75,7 @@ $string['uploadnotregistered'] = '“{$a}”上载成功，但尚未登记!';
 $string['uploadsuccess'] = '成功上载“{$a}”';
 $string['viewfeedback'] = '查看作业成绩和反馈';
 $string['viewsubmissions'] = '查看{$a}份已交的作业';
+$string['viewsubmissionsunjudged'] = '(没有评分的包括{$a})';
 $string['yoursubmission'] = '您上交的作业';
 
 ?>

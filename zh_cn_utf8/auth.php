@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // auth.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
 $string['alternatelogin'] = '如果您在此输入一个URL，它将被用于本站的登录。这个页面上应当有一个表单，表单的action一项应设定为<strong>“{$a}”</strong>，并且返回的字段中应当有<strong>username</strong>和<strong>password</strong>。<br />小心宾不要输入错误的URL，否则您可能会被锁在站点之外。<br />要使用缺省的登录页面请为此设置保留空白。';
@@ -150,6 +150,9 @@ $string['locked'] = '已锁定';
 $string['md5'] = 'MD5加密';
 $string['passwordhandling'] = '处理密码字段中';
 $string['plaintext'] = '纯文本';
+$string['shib_no_attributes_error'] = '你似乎正在使用Shibboleth认证，但是Moodle不接受用户的属性。请确认你的身份提供者激活了必要的属性，或者向这个服务器的网络管理员报告。';
+$string['shib_not_all_attributes_error'] = 'Moodle需要Shibboleth属性，但是现在不存在这些属性。这些属性是: {$a}<br /> 请联系服务器的网络管理员或你的身份认证者。';
+$string['shib_not_set_up_error'] = 'Shibboleth认证并没有正确地安装，因为在此页上并没有Shibboleth环境变量。请查阅 <a href=\"README.txt\">README</a>获得更多的建议或联系安装此Moodle系统的网络管理员。';
 $string['showguestlogin'] = '您可以在登录页面显示或隐藏访客登录按钮。';
 $string['stdchangepassword'] = '使用标准的修改密码页面';
 $string['stdchangepassword_expl'] = '如果外部认证系统允许通过Moodle修改密码，则应设为是。此选项会覆盖“修改密码URL”。';

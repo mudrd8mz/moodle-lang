@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // admin.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
 $string['adminseesallevents'] = '管理员看到所有事件';
@@ -26,6 +26,7 @@ $string['configallowusermailcharset'] = '激活这个选项，站点中的所有
 $string['configallowuserthemes'] = '如果开启，则用户可以设定自己的主题风格。用户的主题风格设定会覆盖站点主题风格(但不会覆盖课程的)。';
 $string['configallusersaresitestudents'] = '是否假定<strong>所有</strong>访问站点首页的用户为学生。如果设定为是，则所有经过确认的用户帐号都可以参加首页上学生的活动。如果设定为否，则只有那些至少参加了一门课程学习的用户才可以参加首页上学生的活动。只有管理员和特别指定的教师才可以作为这些首页活动的教师。';
 $string['configautologinguests'] = '当访问者访问时，是否自动以访客(guest)身份登录那些允许访客(guest)进入的课程。';
+$string['configbloglevel'] = '这项设定允许你限制能浏览blog用户的级别。注意它们列出的是能浏览的用户的最大级别而与发表者和发表的blog类型无关。如果不需要博客功能，您可以完全禁止它。';
 $string['configcachetext'] = '对于较大的或者是开启了文本过滤器的站点，这个设置可以提高速度。在一段时间之内，已经处理过的文本的副本将会被保留。如果将这个值设得太小会减慢相应速度，但设定得太大也会使文本刷新缓慢。';
 $string['configclamactlikevirus'] = '认为文件带病毒';
 $string['configclamdonothing'] = '认为文件没问题';
@@ -226,6 +227,7 @@ $string['sitemaintenanceon'] = '您的站点目前处于维护模式(只有管�
 $string['sitemaintenancewarning'] = '您的站点目前处于维护模式(只有管理员可以登录)。要让站点返回到正常模式，请<a href=\"maintenance.php\">关闭维护模式</a>。';
 $string['stickyblocks'] = '粘性版块';
 $string['stickyblockscourseview'] = '课程页';
+$string['stickyblocksduplicatenotice'] = '如果你增加到这的版块已经存在于单独的页面中时，它将会被复制。<br /> 复制的版块能够被编辑除了一些小的版块。';
 $string['stickyblocksmymoodle'] = '我的 Moodle';
 $string['stickyblockspagetype'] = '要配置的页类型';
 $string['tabselectedtofront'] = '在有制表符的表格中，是否要将当前选择的行置于顶部。';
