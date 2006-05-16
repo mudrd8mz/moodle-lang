@@ -9,7 +9,7 @@ $string['adminavs'] = 'Cochez cette option si vous avez activé Address Verifica
 $string['admincronsetup'] = 'Le script de maintenance cron.php n\'a pas été lancé depuis plus de 24 heures.<br />Ce script doit être activé si vous voulez utiliser la saisie programmée.<br />Veuillez <b>activer</b> le plugin Authorize.net et régler le cron, ou décocher la variable an_review.<br />Si vous désactivez la saisie programmée, les transactions seront annulées à moins que vous ne les approuviez dans les 30 jours.<br />Cochez la variable an_review et inscrivez «&nbsp;0&nbsp;» dans le champ de la variable an_capture_day<br />si vous voulez accepter ou refuser manuellement les paiements durant 30 jours.';
 $string['adminhelpcapturetitle'] = 'Jour de saisie programmée';
 $string['adminhelpreviewtitle'] = 'Contrôle de commande';
-$string['adminemailexpired'] = 'Envoyer par courriel aux administrateurs <b>$a</b> jours avant leur échéance le nombre de transaction dont le statut est «&nbsp;Autorisé / En attente de saisie&nbsp;» (0 = pas d\'envoi, par défaut = 2, max = 5).<br />Ce réglage est utile si vous avez choisi la saisie manuelle (an_review = activé, an_capture_day = 0).';
+$string['adminemailexpired'] = 'Ce réglage est utile si vous avez choisi la saisie manuelle. Les administrateurs sont avertis par courriel <b>$a</b> jours avant l\'échéance des commandes en attente de traitement.<br />(0 = désactiver l\'envoi par courriel, par défaut = 2, max = 5)<br />(Réglage de saisie automatique&nbsp;: cron = activé, an_review = vérifié, an_capture_day = 0).';
 $string['adminneworder'] = 'Cher administrateur,
   	 
 Vous avez reçu un nouvel ordre en attente :
