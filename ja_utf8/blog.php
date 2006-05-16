@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // blog.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['addnewentry'] = '新しいエントリの追加';
@@ -40,7 +40,7 @@ $string['publishtosite'] = 'このサイトの誰でも';
 $string['publishtoworld'] = '世界中の誰でも';
 $string['settingsupdatederror'] = 'エラーが発生したため、ブログ設定は更新されませんでした。';
 $string['siteblog'] = 'サイトブログ: $a';
-$string['siteblogs'] = '全てのサイトユーザは全てのブログを読むことができます。';
+$string['siteblogs'] = 'すべてのサイトユーザはすべてのブログを読むことができます。';
 $string['tagdatelastused'] = '日付タグは使用されています。';
 $string['tagsort'] = 'タグの並び替え';
 $string['tagtext'] = 'タグテキスト';

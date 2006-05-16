@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // quiz.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['1day'] = '1日';
@@ -207,7 +207,7 @@ $string['generatevalue'] = '下記の範囲で新しい値を生成';
 $string['geometric'] = '幾何平均値';
 $string['gift'] = 'GIFTフォーマット';
 $string['grade'] = '評点';
-$string['gradeall'] = '全てを評定する';
+$string['gradeall'] = 'すべてを評定する';
 $string['gradeaverage'] = '平均評点';
 $string['gradeessays'] = '作文問題を評定する';
 $string['gradehighest'] = '最高評点';
