@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // moodle.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['action'] = 'Acció';
@@ -132,6 +132,7 @@ $string['backuplogshelp'] = 'Si habiliteu aquesta opció, les còpies de seguret
 $string['backupmetacoursehelp'] = 'Si habiliteu aquesta opció, les còpies de seguretat automàtiques inclouran informació del metacurs (inscripcions heretades)';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['backupnoneusersinfo'] = 'Nota: heu seleccionat no incloure cap usuari en la còpia de seguretat, de manera que tots els mòduls s\'han commutat al mode \"sense dades d\'usuari\". Si us plau teniu en compte que els mòduls \"Exercici\" i \"Taller\" no són compatibles amb aquest tipus de còpia i s\'han desactivat completament.';
+$string['backupnonisowarning'] = 'Avís: aquesta còpia de seguretat és d\'una versió de Moodle no Unicode (anterior a la 1.6). Si la còpia conté textos que no siguin ISO-8859-1, aquests textos es poden corrompre quan intenteu restaurar-los en aquesta versió Unicode de Moodle. Vegeu les <a href=\"http://docs.moodle.org/en/Backup_FAQ\">PMF de còpies de seguretat</a> per a més informació sobre la manera de restaurar correctament aquesta còpia.';
 $string['backuporiginalname'] = 'Nom de la còpia';
 $string['backupsavetohelp'] = 'Camí complet del directori on voleu desar els fitxers de còpies de seguretat<br />(deixeu en blanc per desar-los al directori per defecte del curs)';
 $string['backuptakealook'] = 'Si us plau doneu una ullada al registre de la còpia:
@@ -315,7 +316,7 @@ $string['deletecategorycheck'] = 'Esteu absolutament segur que voleu suprimir co
 $string['deletecheck'] = 'Suprimiu $a ?';
 $string['deletecheckfiles'] = 'Esteu absolutament segur que voleu suprimir aquests fitxers?';
 $string['deletecheckfull'] = 'Esteu absolutament segur que voleu suprimir completament $a ?';
-$string['deletecheckwarning'] = 'Aneu a suprimir aquests fitxers';
+$string['deletecheckwarning'] = 'Esteu a punt de suprimir aquests fitxers';
 $string['deletecompletely'] = 'Suprimeix-los completament';
 $string['deletecourse'] = 'Suprimeix un curs';
 $string['deletecoursecheck'] = 'Esteu absolutament segur que voleu suprimir completament aquest curs i totes les dades que conté?';

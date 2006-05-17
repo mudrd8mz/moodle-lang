@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // error.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['adminprimarynoedit'] = 'L\'administrador primari no pot ser editat per altres usuaris';
@@ -28,6 +28,8 @@ $string['filenotfound'] = 'El fitxer sol·licitat no es pot trobar';
 $string['forumblockingtoomanyposts'] = 'Heu sobrepassat el llindar de missatges definit per a aquest fòrum';
 $string['groupalready'] = 'L\'usuari ja pertany al grup $a';
 $string['groupunknown'] = 'El grup $a no està associat al curs especificat';
+$string['guestnoeditprofile'] = 'Els usuaris visitants no poden editar el seu perfil';
+$string['guestnoeditprofileother'] = 'El perfil de l\'usuari o usuària visitant no es pot editar';
 $string['invalidcourse'] = 'El curs no és vàlid';
 $string['invalidfieldname'] = '\"$a\" no és un nom vàlid per a un camp';
 $string['invalidfiletype'] = '\"$a\" no és un tipus de fitxer vàlid';
