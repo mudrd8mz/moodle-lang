@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.5 + (2005060201)
+      // wiki.php - created with Moodle 1.7 dev (2006050300)
 
 
 $string['action'] = '-- Akce --';
@@ -144,6 +144,7 @@ $string['safehtml'] = 'Bezpečné HTML';
 $string['save'] = 'Uložit';
 $string['searchwiki'] = 'Prohledat wiki';
 $string['setpageflags'] = 'Nastavit příznaky';
+$string['showversions'] = 'Ukázat verze:';
 $string['sitemap'] = 'MapaStránek';
 $string['smfor'] = 'MapaStránek pro';
 $string['status'] = 'Stav';
