@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.6 development (2006022400)
+      // choice.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['addmorechoices'] = 'Magdagdag ng mas maraming pagpipilian';
@@ -10,11 +10,11 @@ $string['choiceclose'] = 'Hanggang';
 $string['choicename'] = 'Pangalan ng pinilì';
 $string['choiceopen'] = 'Buksan';
 $string['choicetext'] = 'Teksto ng Pinilì';
-$string['displayhorizontal'] = 'Ipakita ng pahiga';
-$string['displaymode'] = 'Mode ng Pagpapakita';
-$string['displayvertical'] = 'Ipakita ng patayo';
+$string['displayhorizontal'] = 'Ipakita nang pahiga';
+$string['displaymode'] = 'Moda ng Pagpapakita';
+$string['displayvertical'] = 'Ipakita nang patayo';
 $string['full'] = '(Buo)';
-$string['havetologin'] = 'Kailangan mong maglog-in bago ka makapagpasa ng pinilì';
+$string['havetologin'] = 'Kailangan mong lumagda bago ka makapagpasa ng pinilì';
 $string['limit'] = 'Limitahan';
 $string['limitanswers'] = 'Limitahan ang bilang ng mga tugon na pinapahintulutan';
 $string['modulename'] = 'Pagpilì';
@@ -33,7 +33,7 @@ $string['publishnot'] = 'Huwag ilathala ang mga resulta sa mga mag-aaral';
 $string['responses'] = 'Mga tugon';
 $string['responsesto'] = 'Mga tugon sa $a';
 $string['savemychoice'] = 'Isave ang pinilì ko';
-$string['showunanswered'] = 'Ipakita ang tudlíng para sa dinasagutan';
+$string['showunanswered'] = 'Ipakita ang hanay para sa dinasagutan';
 $string['spaceleft'] = 'espasyong magagamit';
 $string['spacesleft'] = 'mga espasyong magagamit';
 $string['taken'] = 'Kinuha na';

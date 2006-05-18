@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.6 development (2006022400)
+      // exercise.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['absent'] = 'Walâ';
@@ -14,7 +14,7 @@ $string['assess'] = 'Tasahin';
 $string['assessed'] = 'Natasa';
 $string['assessment'] = 'Pagtatasa';
 $string['assessmentby'] = 'Pagtatasa ni $a';
-$string['assessmentform'] = 'Form ng Pagtatasa';
+$string['assessmentform'] = 'Porma ng Pagtatasa';
 $string['assessmentmadebythe'] = 'Pagtatasa na ginawa ng $a';
 $string['assessmentofthissubmission'] = 'Pagtatasa ng ipinasang ito';
 $string['assessments'] = 'Mga pagtatasa';
@@ -34,16 +34,16 @@ $string['deletesubmissionwarning'] = 'Babalâ: may $a na pagtatasa na iniugnay s
     Mahigpit na iminumungkahi na HUWAG burahin ang ipinasang ito.';
 $string['deleting'] = 'Binubura';
 $string['description'] = 'Deskripsiyon';
-$string['descriptionofexercise'] = 'Sa Ehersisyong Takdang-aralin, ang deskripsiyon ng ehersisyo o gawain ng $a ay inilalagay sa isang Word na dokumento o HTML file.  Ang file na ito ay inaaplowd sa ehersisyo bago buksan ang takdang-aralin sa $a.  Maaari ring lumikha ng isang set ng variant ng ehersisyong ito o gawain, gayundin ay sa mga dokumentong Word o HTML file, at iaaplowd ito sa ehersisyo bago buksan ito sa $a.';
+$string['descriptionofexercise'] = 'Sa Ehersisyong Takdang-aralin, ang deskripsiyon ng ehersisyo o gawain ng $a ay inilalagay sa isang Word na dokumento o HTML file.  Ang file na ito ay inahon sa ehersisyo bago buksan ang takdang-aralin sa $a.  Maaari ring lumikha ng isang set ng variant ng ehersisyong ito o gawain, gayundin ay sa mga dokumentong Word o HTML file, at iaahon ito sa ehersisyo bago buksan ito sa $a.';
 $string['detailsofassessment'] = 'Mga detalye ng Pagtatasa';
 $string['displayoffinalgrades'] = 'Pagpapakita ng mga Huling Marka';
-$string['doubleupload'] = 'Babalâ: malamang ay naipadala ang ipinasang ito ng dalawang beses.  Pumunta sa pahina ng Administrasyon, maghanap ng dalawang ipinasa ng user na ito sa loob ng maikling panahon.  Burahin ang isa sa mga ipinasang ito bago magpatuloy.';
+$string['doubleupload'] = 'Babalâ: malamang ay naipadala ang ipinasang ito ng dalawang beses.  Pumunta sa pahina ng Administrasyon, maghanap ng dalawang ipinasa ng tao na ito sa loob ng maikling panahon.  Burahin ang isa sa mga ipinasang ito bago magpatuloy.';
 $string['duedate'] = 'Huling Araw ng Pasahan';
 $string['edit'] = 'Iedit';
 $string['editingassessmentelements'] = 'Ineedit ang mga Elemento ng Pagtatasa';
 $string['element'] = 'Elemento';
 $string['elementweight'] = 'Timbang ng Elemento';
-$string['enterpassword'] = 'Ipasok ang Password';
+$string['enterpassword'] = 'Ipasok ang Kontrasenyas';
 $string['entriessaved'] = 'Isinave ang mga Talâ';
 $string['errorbanded'] = 'Error Banded';
 $string['excellent'] = 'Napakagaling';
@@ -60,7 +60,7 @@ $string['gradeforsubmission'] = 'Marka para sa Ipinasa';
 $string['gradetable'] = 'Manghad ng Marka';
 $string['gradinggrade'] = 'Minamarkahan ang Marka';
 $string['gradingstrategy'] = 'Estratehiya ng Pagmamarka';
-$string['handlingofmultiplesubmissions'] = 'Kung Paano Kukuwentahin Handling ang Maraming Ipinasa';
+$string['handlingofmultiplesubmissions'] = 'Kung Paano Kukuwentahin ang Maraming Ipinasa';
 $string['hidenamesfromstudents'] = 'Itago ang Pangalan sa mga Mag-aaral';
 $string['incorrect'] = 'Malî';
 $string['late'] = 'Hulí';
@@ -92,8 +92,8 @@ kailangan mo munang pagsamahin ang mga Elementong ito <br />
 bago ibigay ang takdang-aralin sa mga mag-aaral. Ginagawa ito<br />
 sa pamamagitan ng pagklik sa takdang-aralin sa kurso; kung walang elemento,<br />
 hihilingan kang idagdag ang mga ito.  Maaari mong baguhin ang bilang ng mga elemento<br />
-sa pamamagitan ng screen na Iedit ang Takdang-Aralin, ang mga elemento<br />
-mismo ay maaaring mabago sa pamamagitan ng screen na \"Pamamahala ng Takdang-aralin\". ';
+sa pamamagitan ng iskrin na Iedit ang Takdang-Aralin, ang mga elemento<br />
+mismo ay maaaring mabago sa pamamagitan ng iskrin na \"Pamamahala ng Takdang-aralin\". ';
 $string['noteongradinggrade'] = 'Ang marka na ito ay sukat ng kung gaano umaayon ang pagtatasa mo sa naging pagtatasa ng <br />ng gawa mo ni $a.  Mas umaayon mas mataas ang marka.';
 $string['noteonstudentassessments'] = '{Marka mula Mag-aaral / Marka ng Pagmamarka para sa Pagtatasa}';
 $string['notgraded'] = 'Hindi Namarkahan';
@@ -106,7 +106,7 @@ $string['numberofnegativeresponses'] = 'Bilang ng Negatibong Tugon';
 $string['onesubmission'] = 'Isang Ipinasa';
 $string['optionaladjustment'] = 'Opsiyonal na Adjustment';
 $string['overallgrade'] = 'Pangkalahatang Marka';
-$string['passwordprotectedexercise'] = 'Ehersisyo na may Password';
+$string['passwordprotectedexercise'] = 'Ehersisyo na may Kontrasenyas';
 $string['phase'] = 'Bahagi';
 $string['phase1'] = 'Iayos ang Ehersisyo';
 $string['phase1short'] = 'Iayos';
@@ -115,9 +115,9 @@ $string['phase2short'] = 'Buksan';
 $string['phase3'] = 'Ipakita ang Pangkalahatang Marka at Panligang Manghad';
 $string['phase3short'] = 'Ipakita';
 $string['pleasegradetheassessment'] = 'Pakimarkahan ang Pagtatasa ng Piraso ng Gawa na ito ni $a';
-$string['pleasemakeyourownassessment'] = 'Gumawa po ng sarili ninyong Pagtatasa ng Piraso ng Gawa mula kay $a. <br />Tandaan na ang Form ng Pagtatasa ay unang ipinapakita sa Pagtatasa ng Mag-aaral<br /> Dapat mong gawin ang anumang susog na sa palagay mo ay kailangan pagkatapos ay iklik ang isa <br />sa mga buton na nasa paanan ng pahina.';
-$string['pleasesubmityourwork'] = 'Pakipasa ang Gawa mo sa pamamagitan ng Form na ito';
-$string['pleaseusethisform'] = 'Pakikumpleto ang form na ito kapag <br />natapos mo na ang mga panuto sa ehersisyo na ipinakikita sa ibaba.';
+$string['pleasemakeyourownassessment'] = 'Gumawa po ng sarili ninyong Pagtatasa ng Piraso ng Gawa mula kay $a. <br />Tandaan na ang Porma ng Pagtatasa ay unang ipinapakita sa Pagtatasa ng Mag-aaral<br /> Dapat mong gawin ang anumang susog na sa palagay mo ay kailangan pagkatapos ay iklik ang isa <br />sa mga buton na nasa paanan ng pahina.';
+$string['pleasesubmityourwork'] = 'Pakipasa ang Gawa mo sa pamamagitan ng Porma na ito';
+$string['pleaseusethisform'] = 'Pakikumpleto ang porma na ito kapag <br />natapos mo na ang mga panuto sa ehersisyo na ipinakikita sa ibaba.';
 $string['pleaseviewtheexercise'] = 'Tingnan ang ehersisyo na ibinigay sa ibaba sa pamamagitan ng pagklik sa pamagat nito.<br />Dapat mong sundin ang panuto na ibinigay sa ehersisyong ito. <br />Kapag nasiyahan ka na, na matagumpay mong nakumpleto ang ehersisyo<br />dapat mong iklik ang Tasahin (o Tasahin mulî) na link sa <br />kahon na nasa ibaba.  Kapag nagawa mo na ang pagtatasa na ito<br />papakitaan ka ng dagdag pang panuto kung paano ipapasa ang gawa mo.';
 $string['poor'] = 'Mahina';
 $string['present'] = 'Mayroon';
@@ -140,7 +140,7 @@ $string['scaleexcellent7'] = '7 puntos na Napakagaling/Napakahina na iskala';
 $string['scalegood3'] = '3 puntos na  Magaling/Mahina na iskala';
 $string['scalepresent'] = '2 puntos na  Mayroon/Walâ na iskala';
 $string['scaleyes'] = '2 puntos na Oo/Hindi na iskala';
-$string['specimenassessmentform'] = 'Halimbawang Form ng Pagtatasa';
+$string['specimenassessmentform'] = 'Halimbawang Porma ng Pagtatasa';
 $string['strict'] = 'Istrikto';
 $string['studentallowedtoresubmit'] = '$a PINAPAHINTULUTANG muling magpasa';
 $string['studentassessments'] = '$a Pagtatasa';
@@ -168,20 +168,20 @@ $string['unassessed'] = '$a Di pa natatasa';
 $string['ungradedstudentassessments'] = '$a Di pa Namamarkahang Pagtatasa ng Mag-aaral';
 $string['usemaximum'] = 'Gamitin ang Maksimum';
 $string['usemean'] = 'Gamitin ang Mean';
-$string['usepassword'] = 'Gamitin ang Password';
+$string['usepassword'] = 'Gamitin ang Kontrasenyas';
 $string['verylax'] = 'Napakaluwag';
 $string['verypoor'] = 'Napakahina';
 $string['verystrict'] = 'Napakaistrikto';
 $string['view'] = 'Tingnan';
 $string['viewteacherassessment'] = 'Tingnan ang $a Pagtatasa';
-$string['warningonamendingelements'] = 'Babalâ: May mga ipinasa pagtatasa. <br />HUWAG babaguhin ang bilang ng elemento, uri ng iskala o mga timbang ng elemento.';
+$string['warningonamendingelements'] = 'Babalâ: May mga ipinasnga pagtatasa. <br />HUWAG babaguhin ang bilang ng elemento, uri ng iskala o mga timbang ng elemento.';
 $string['weightederrorcount'] = 'May-timbang na Bilang ng Error Count: $a';
 $string['weightforgradingofassessments'] = 'Timbang para sa Pagmamarka ng mga Pagtatasa';
 $string['weightforteacherassessments'] = 'Timbang para sa $a Pagtatasa';
 $string['weights'] = 'Mga Timbang';
 $string['weightssaved'] = 'Naisave na ang mga Timbang';
 $string['weightsusedforoverallgrade'] = 'Mga Timbang na ginamit para sa Pangkalahatang Marka';
-$string['wrongpassword'] = 'Maling password para sa Ehersisyong ito';
+$string['wrongpassword'] = 'Maling kontrasenyas para sa Ehersisyong ito';
 $string['yourassessment'] = 'Ang iyong Pagtatasa';
 $string['yourfeedbackgoeshere'] = 'Dito isulat ang Puna mo';
 $string['yoursubmission'] = 'Ang iyong Ipinasa';

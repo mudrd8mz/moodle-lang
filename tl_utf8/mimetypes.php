@@ -1,11 +1,9 @@
 <?PHP // $Id$ 
-      // mimetypes.php - created with Moodle 1.6 development (2006022400)
+      // mimetypes.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['application/msword'] = 'dokumentong Word';
 $string['application/pdf'] = 'dokumentong PDF';
-$string['application/vnd_ms-excel'] = 'spreadsheet na Excel';
-$string['application/vnd_ms-powerpoint'] = 'presentasyong Powerpoint';
 $string['application/zip'] = 'arkibong zip';
 $string['audio/mp3'] = 'file na tunog na MP3';
 $string['audio/wav'] = 'tunog na file';

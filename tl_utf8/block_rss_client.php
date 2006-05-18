@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.6 development (2006022400)
+      // block_rss_client.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['addfeed'] = 'Magdagdag ng URL ng balitang feed:';
@@ -7,7 +7,7 @@ $string['addheadlineblock'] = 'Magdagdag ng RSS na ulo ng balita na bloke';
 $string['addnew'] = 'Magdagdag ng Bago';
 $string['choosefeedlabel'] = 'Piliin ang mga feed na gusto mong gamitin ng bloke na ito:';
 $string['clientchannellink'] = 'Pagmumulang site...';
-$string['clientnumentries'] = 'Ang default na bilang ng talâ na ipapakita bawat feed.';
+$string['clientnumentries'] = 'Ang umiiral na bilang ng talâ na ipapakita bawat feed.';
 $string['clientshowchannellinklabel'] = 'Dapat bang ipakita ang link sa orihinal na site (channel link)? (Tandaan na kung walang feed link na ibinigay sa balitang feed ay walang link na maipapakita):';
 $string['clientshowimagelabel'] = 'Ipakita ang larawan ng channel kung mayroon:';
 $string['configblock'] = 'Isaayos ang bloke na ito';

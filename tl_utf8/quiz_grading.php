@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_grading.php - created with Moodle 1.6 Beta 2 (2006040500)
+      // quiz_grading.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['essayonly'] = 'Ang mga sumusunod na tanong ay kailangang mano-manong markahan';

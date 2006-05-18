@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // dialogue.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['addmynewentries'] = 'Idagdag ang mga Bago kong Talâ';
@@ -32,7 +32,7 @@ $string['dialoguewith'] = 'Dayalogo kay $a';
 $string['everybody'] = 'Lahat';
 $string['furtherinformation'] = 'Dagdag na Impormasyon';
 $string['lastentry'] = 'Huling Talâ';
-$string['maildefault'] = 'Default na Liham';
+$string['maildefault'] = 'Umiiral na Liham';
 $string['mailnotification'] = 'Patalastas na Liham';
 $string['modulename'] = 'Dayalogo';
 $string['modulenameplural'] = 'Mga Dayalogo';
@@ -42,7 +42,7 @@ $string['newentry'] = 'Bagong Talâ';
 $string['noavailablepeople'] = 'Walang tao na puwedeng maka-Dayalogo.';
 $string['nopersonchosen'] = 'Walang Piniling Tao';
 $string['nosubject'] = 'Walang Ipinasok na Paksa';
-$string['notavailable'] = 'Ang dayalogo ay hindi puwedeng gamitin ng mga bisitang user';
+$string['notavailable'] = 'Ang dayalogo ay hindi puwedeng gamitin ng mga bisita';
 $string['notextentered'] = 'Walang Ipinasok na Teksto';
 $string['notstarted'] = 'Hindi mo pa sinisimulan ang dayalogong ito';
 $string['notyetseen'] = 'Hindi pa nakikita';
@@ -60,7 +60,7 @@ $string['pane0'] = 'Buksan ang isang Dayalogo';
 $string['pane1'] = '$a Dayalogo ang naghihintay ng iyong Tugon';
 $string['pane1one'] = '1 Dayalogo ang naghihintay ng iyong Tugon';
 $string['pane2'] = '$a Dayalogo ang naghihintay ng Tugon mula sa kinakausap mo';
-$string['pane2one'] = '1 Dayalogo ang naghihintay ng Tugon mula sa kinakaausap mo';
+$string['pane2one'] = '1 Dayalogo ang naghihintay ng Tugon mula sa kinakausap mo';
 $string['pane3'] = '$a Saradong Dayalogo';
 $string['pane3one'] = '1 Saradong Dayalogo';
 $string['seen'] = 'Nakita noong $a ang lumipas';

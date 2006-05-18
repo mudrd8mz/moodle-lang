@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 1.6 Beta 2 (2006040500)
+      // quiz_overview.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['allattempts'] = 'Ipakita ang lahat ng pagkuha';

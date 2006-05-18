@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.6 development (2005101200)
+      // survey.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['actual'] = 'Aktuwal';
@@ -142,8 +142,8 @@ Maraming salamat po.';
 $string['collesapname'] = 'COLLES (Mas-ibig at Aktuwal)';
 $string['collesm1'] = 'Kabuluhan';
 $string['collesm1short'] = 'Kabuluhan';
-$string['collesm2'] = 'Replektibong Pag-iisip';
-$string['collesm2short'] = 'Replektibong pag-iisip';
+$string['collesm2'] = 'Pagninilay';
+$string['collesm2short'] = 'Pagninilay';
 $string['collesm3'] = 'Pagiging Interaktib';
 $string['collesm3short'] = 'Pagiging Interaktib';
 $string['collesm4'] = 'Suporta ng Guro';
@@ -164,10 +164,10 @@ Ang inyong seryosong pagsagot ay makatutulong sa aming paunlarin ang paraan ng o
 Maraming salamat po.';
 $string['collespname'] = 'COLLES (Mas-ibig)';
 $string['done'] = 'Tapos na';
-$string['download'] = 'Idownload';
-$string['downloadexcel'] = 'Idownload ang datos bilang Excel na spreadsheet';
-$string['downloadinfo'] = 'Maaari mong idownload ang kumpletong raw na datos para sa sarbey na ito sa isang anyong puwedeng suriin sa Excel, SPSS o iba pang program.';
-$string['downloadtext'] = 'Idownload ang datos bilang plain text na file';
+$string['download'] = 'Ilusong';
+$string['downloadexcel'] = 'Ilusong ang datos bilang Excel na spreadsheet';
+$string['downloadinfo'] = 'Maaari mong ilusong ang kumpletong hilaw na datos para sa sarbey na ito sa isang anyong puwedeng suriin sa Excel, SPSS o iba pang program.';
+$string['downloadtext'] = 'Ilusong ang datos bilang payak na tekstong file';
 $string['editingasurvey'] = 'Ineedit ang sarbey';
 $string['guestsnotallowed'] = 'Hindi pinapahintulutan ang mga bisitang magpasa ng sarbey';
 $string['helpsurveys'] = 'Tulong sa iba\'t-ibang uri ng sarbey';
@@ -199,10 +199,10 @@ $string['scaletimes5'] = 'Halos Dikailanman,Madalang,Minsan,Kalimitan,Halos Pala
 $string['seemoredetail'] = 'Iklik ito upang makakita ng mas maraming detalye';
 $string['selectedquestions'] = 'Mga piniling tanong mula sa isang iskala, lahat ng mag-aaral';
 $string['summary'] = 'Buod';
-$string['surveycompleted'] = 'Nakumpleto mo na ang sarbey na ito.  Ipinakikita ng graph sa ibaba ang buod ng mga resulta mo kung ihahambing sa mga katamtaman ng klase.';
+$string['surveycompleted'] = 'Nakumpleto mo na ang sarbey na ito.  Ipinakikita ng talaguhitan sa ibaba ang buod ng mga resulta mo kung ihahambing sa mga katamtaman ng klase.';
 $string['surveyname'] = 'Pangalan ng sarbey';
 $string['surveysaved'] = 'Nasave na ang sarbey';
-$string['surveytype'] = 'Uri ng sarbey type';
+$string['surveytype'] = 'Uri ng sarbey';
 $string['thanksforanswers'] = 'Salamat po sa pagsagot sa sarbey na ito, $a';
 $string['time'] = 'Oras';
 $string['viewsurveyresponses'] = 'Tingnan ang $a tugon sa sarbey';

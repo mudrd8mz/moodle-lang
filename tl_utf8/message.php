@@ -1,29 +1,29 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.6 development (2006022400)
+      // message.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['addcontact'] = 'Magdagdag ng kontak';
 $string['addsomecontacts'] = 'Para makapagpadala ng mensahe sa isang tao, o upang makapagdagdag ng shorcut para sa kanila sa pahinang ito, gamitin ang <a href=\"$a\">tab na panghanap</a> sa itaas.';
-$string['addsomecontactsincoming'] = 'Ang mga mensaheng ito ay mula sa mga taong wala sa listahan mo ng kontak.  Upang maidagdag ang mga taong ito sa iyong kontak, iklik lamang ang \"Magdagdag ng kontak\"na icon, katabi ng pangalan nila.';
+$string['addsomecontactsincoming'] = 'Ang mga mensaheng ito ay mula sa mga taong wala sa listahan mo ng kontak.  Upang maidagdag ang mga taong ito sa iyong kontak, iklik lamang ang \"Magdagdag ng kontak\"na ikon, katabi ng pangalan nila.';
 $string['ago'] = '$ ang lumipas';
 $string['allmine'] = 'Lahat ng mensahe para sa akin o mula sa akin';
 $string['allstudents'] = 'Lahat ng mensahe sa pagitan ng mga mag-aaral sa kurso';
-$string['allusers'] = 'Lahat ng mensahe mula sa lahat ng user';
-$string['backupmessageshelp'] = 'Kapag binuhay, ang mga instant na mensahe ay isasama sa awtomatikong ibinabak-ap sa SITE';
+$string['allusers'] = 'Lahat ng mensahe mula sa lahat ng tao';
+$string['backupmessageshelp'] = 'Kapag binuhay, ang mga instant na mensahe ay isasama sa kusang ibinabak-ap sa SITE';
 $string['beepnewmessage'] = 'Magbip kapag may bagong mensahe na dumating (maaaring mangailangan ng browser plugin na makapagpapatutog ng tunog, tulad ng Quicktime)';
 $string['blockcontact'] = 'Hadlangan ang kontak';
-$string['blockedmessages'] = '$a mensahe para sa/mula sa hinadlangang user';
+$string['blockedmessages'] = '$a mensahe para sa/mula sa hinadlangang tao';
 $string['blocknoncontacts'] = 'Hadlangan ang lahat ng bagong mensahe mula sa mga taong wala sa listahan ko ng kontak';
 $string['contactlistempty'] = 'Blangko sa kasalukuyan ang listahan mo ng kontak';
 $string['contacts'] = 'Mga kontak';
 $string['context'] = 'konteksto';
-$string['deletemessagesdays'] = 'Bilang ng araw bago awtomatikong burahin ang mga lumang mensahe';
+$string['deletemessagesdays'] = 'Bilang ng araw bago kusang burahin ang mga lumang mensahe';
 $string['discussion'] = 'Diskusyon';
 $string['emailmessages'] = 'Iemail ang mga mensahe kapag offline ako';
 $string['emailtagline'] = 'Ang email na ito ay kopya ng mensahe na ipinadala sa iyo sa \"$a\"';
 $string['emptysearchstring'] = 'Kailangan mong maghanap ng isang bagay';
 $string['formorethan'] = 'Para sa mahigit sa ';
-$string['includeblockedusers'] = 'Isama ang mga hinadlangan na user';
+$string['includeblockedusers'] = 'Isama ang mga hinadlangan na tao';
 $string['incomingcontacts'] = 'Dumarating na mga kontak ($a)';
 $string['keywords'] = 'Mga susingsalita';
 $string['keywordssearchresults'] = 'Resulta ng paghahanap: $a mensahe ang natagpuan';
@@ -53,13 +53,13 @@ $string['sendmessage'] = 'Ipadala ang mensahe';
 $string['sendmessageto'] = 'Ipadala ang mensahe sa $a';
 $string['settings'] = 'Mga Kaayusan';
 $string['settingssaved'] = 'Naisave na ang mga kaayusan mo';
-$string['showmessagewindow'] = 'Awtomatikong ipakita ang bintana ng Mensahe kapag nakatanggap ako ng bagong mensahe (kailangang naka-ayos ang browser mo na hindi hinahadlangan ang mga popup sa site na ito)';
+$string['showmessagewindow'] = 'Kusang ipakita ang bintana ng Mensahe kapag nakatanggap ako ng bagong mensahe (kailangang naka-ayos ang browser mo na hindi hinahadlangan ang mga popup sa site na ito)';
 $string['timenosee'] = 'Ilang minuto noong huling makita akong online';
 $string['timesent'] = 'Kung anong oras ipinadala';
 $string['unblockcontact'] = 'Alisin ang hadlang ng kontak';
 $string['unreadmessages'] = '$a dinabasang mensahe';
-$string['userisblockingyou'] = 'Hinadlangan ka ng user na ito na magpadala ng mensahe sa kanila';
-$string['userisblockingyounoncontact'] = 'Ang user na ito ay tumatanggap lamang ng mensahe mula sa mga taong nakalista bilang kontak niya, at sa kasalukuyan ay hindi ka kasama sa listahan.';
-$string['userssearchresults'] = 'Resulta ng paghahanap:  $a user ang natagpuan';
+$string['userisblockingyou'] = 'Hinadlangan ka ng tao na ito na magpadala ng mensahe sa kanila';
+$string['userisblockingyounoncontact'] = 'Ang tao na ito ay tumatanggap lamang ng mensahe mula sa mga taong nakalista bilang kontak niya, at sa kasalukuyan ay hindi ka kasama sa listahan.';
+$string['userssearchresults'] = 'Resulta ng paghahanap:  $a tao ang natagpuan';
 
 ?>

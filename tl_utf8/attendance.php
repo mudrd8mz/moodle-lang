@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // attendance.php - created with Moodle 1.5 ALPHA (2005051500)
+      // attendance.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['absentlong'] = 'Walâ';
@@ -7,24 +7,24 @@ $string['absentshort'] = 'W';
 $string['addingmultiple'] = 'Nagdadagdag ng Maraming Talaan ng Nagsipasok';
 $string['addmultiple'] = 'Magdagdag ng Maraming Talaan ng Nagsipasok';
 $string['allmodulename'] = 'Lahat ng Talaan ng Nagsipasok';
-$string['auto'] = 'awto';
-$string['autoattend'] = 'Awtomatikong tsekin ang pagpasok batay sa log ng aktibidad ng user';
-$string['autoattendmulti'] = 'Awtomatikong tsekin ang pagpasok para sa lahat ng talaan batay sa log ng aktibidad ng user';
-$string['autoattendshort'] = 'Awtomatiko mula sa mga log';
+$string['auto'] = 'kusa';
+$string['autoattend'] = 'Kusang tsekin ang pagpasok batay sa log ng aktibidad ng tao';
+$string['autoattendmulti'] = 'Kusang tsekin ang pagpasok para sa lahat ng talaan batay sa log ng aktibidad ng tao';
+$string['autoattendshort'] = 'Kusa mula sa mga log';
 $string['choosedays'] = 'Mga araw sa bawat linggo na tsetsekin ang pagpasok';
 $string['dayofroll'] = 'Petsa na tsetsekin ang nagsipasok';
-$string['defaultautoattend'] = 'Kung ang pagtsek na pagpasok batay sa log ng aktibidad ng user ay gagawing default';
-$string['defaultdynamicsection'] = 'Kung ililipat ba ang talaan ng pagpasok sa wastong linggo bilang default';
-$string['defaultgrade'] = 'Kung ang namamarkahang talaan ng pagpasok ang gagawing default';
-$string['defaulthoursinclass'] = 'Ilang oras dapat magkaroon sa isang default na talaan ng pagpasok';
-$string['defaultmaxgrade'] = 'Kung ano dapat maging default na maksimum na halaga ng marka para sa kumpletong pagpasok';
-$string['defaultstudentstatus'] = 'Ang default na kalagayan ng pagpasok ng mag-aaral sa mga bagong talaan ng pagpasok';
-$string['downloadexcelfull'] = 'Idownlowd ang Buong  Excel Spreadsheet';
-$string['downloadexceltotals'] = 'Idownload ang Lagom na Excel Spreadsheet';
-$string['downloadtextfull'] = 'Idownload ang Buong Ulat na Teksto';
-$string['downloadtexttotals'] = 'Idownload ang Lagom na Ulat na Teksto';
+$string['defaultautoattend'] = 'Kung ang pagtsek ng pagpasok batay sa log ng aktibidad ng tao ay gagawing umiiral';
+$string['defaultdynamicsection'] = 'Kung ililipat ba ang talaan ng pagpasok sa wastong linggo bilang umiiral';
+$string['defaultgrade'] = 'Kung ang namamarkahang talaan ng pagpasok ang gagawing umiiral';
+$string['defaulthoursinclass'] = 'Ilang oras dapat magkaroon sa isang umiiral na talaan ng pagpasok';
+$string['defaultmaxgrade'] = 'Kung ano dapat maging umiiral na maksimum na halaga ng marka para sa kumpletong pagpasok';
+$string['defaultstudentstatus'] = 'Ang umiiral na kalagayan ng pagpasok ng mag-aaral sa mga bagong talaan ng pagpasok';
+$string['downloadexcelfull'] = 'Ilusong ang Buong  Excel Spreadsheet';
+$string['downloadexceltotals'] = 'Ilusong ang Lagom na Excel Spreadsheet';
+$string['downloadtextfull'] = 'Ilusong ang Buong Ulat na Teksto';
+$string['downloadtexttotals'] = 'Ilusong ang Lagom na Ulat na Teksto';
 $string['dynamicsection'] = 'Itakda ang linggo para sa pagpasok batay sa petsang ito';
-$string['dynamicsectionmulti'] = 'Ilagay ang mga talaan sa kanilang linguhang seksiyon nang awtomatiko';
+$string['dynamicsectionmulti'] = 'Ilagay ang mga talaan sa kanilang linguhang seksiyon nang kusa';
 $string['dynsectionshort'] = 'Dagliang ilipat sa seksiyon';
 $string['endbeforestart'] = 'Nauna ang katapusang petsa kaysa sa umpisang petsa';
 $string['endmulti'] = 'Petsa ng huling talaan ng pagpasok';
@@ -44,7 +44,7 @@ $string['monday'] = 'Lun';
 $string['norolls'] = 'Walang talaan ng pagpasok sa kursong ito';
 $string['notes'] = 'Natatanging impormasyon';
 $string['notesfor'] = 'Natatanging impormasyon para sa';
-$string['noviews'] = 'Paumanhin, walang datos para sa account mo rito';
+$string['noviews'] = 'Paumanhin, walang datos para sa akawnt mo rito';
 $string['of'] = 'ng';
 $string['pages'] = 'Mga pahina';
 $string['presentlong'] = 'Pumasok';

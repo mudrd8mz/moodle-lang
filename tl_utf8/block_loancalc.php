@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_loancalc.php - created with Moodle 1.6 development (2006022400)
+      // block_loancalc.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['amountofloan'] = 'Halaga ng utang';

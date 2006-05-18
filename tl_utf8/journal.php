@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // journal.php - created with Moodle 1.5 ALPHA (2005043000)
+      // journal.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['alwaysopen'] = 'Palaging bukas';
@@ -9,13 +9,13 @@ $string['editingended'] = 'Tapos na ang panahon ng pag-eedit';
 $string['editingends'] = 'Nagtapos na ang panahon ng pag-edit';
 $string['entries'] = 'Mga talâ';
 $string['feedbackupdated'] = 'Nabago na ang puna para sa $a talâ';
-$string['journalmail'] = 'Si $a->teacher ay nagpost ng ilang puna sa iyong
+$string['journalmail'] = 'Si $a->teacher ay nagpaskil ng ilang puna sa iyong
 talâ ng para sa diyornal na \'$a->journal\'
 
 Makikita mo itong nakakabit sa iyong talâ sa diyornal:
 
     $a->url';
-$string['journalmailhtml'] = 'Si $a->teacher ay nagpost ng ilang puna sa iyong
+$string['journalmailhtml'] = 'Si $a->teacher ay nagpaskil ng ilang puna sa iyong
 talâ para sa diyornal na \'<i>$a->journal</i>\'<br /><br />
 Makikita mo itong nakakabit sa iyong <a href=\"$a->url\">talâ sa diyornal</a>.';
 $string['journalname'] = 'Pangalan ng diyornal';
@@ -28,11 +28,11 @@ $string['modulename'] = 'Diyornal';
 $string['modulenameplural'] = 'Mga Diyornal';
 $string['newjournalentries'] = 'Mga bagong talâ sa diyornal';
 $string['noentry'] = 'Walang talâ';
-$string['noratinggiven'] = 'Walang rate na ibinigay';
-$string['notopenuntil'] = 'Hindi pa magbubukas ang diyornal na ito hanggang';
+$string['noratinggiven'] = 'Walang reyt na ibinigay';
+$string['notopenuntil'] = 'Hindi pa magbubukas ang diyornal na ito hanggang sumapit ang';
 $string['notstarted'] = 'Hindi mo pa sinisimulan ang diyornal na ito';
-$string['overallrating'] = 'Pangkalahatang rate';
-$string['rate'] = 'Rate';
+$string['overallrating'] = 'Pangkalahatang reyt';
+$string['rate'] = 'Reyt';
 $string['saveallfeedback'] = 'Isave ang lahat ng aking puna';
 $string['startoredit'] = 'Simulan o iedit ang aking talâ sa diyornal';
 $string['viewallentries'] = 'Tingnan ang $a na talâ sa diyornal';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6 development (2006022400)
+      // grades.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['addcategory'] = 'Magdagdag ng Kategoriya';
@@ -25,7 +25,7 @@ $string['dropxlowestwarning'] = 'Tandaan: Kapag ginamit mo ang alisin ang x na p
 $string['errorgradevaluenonnumeric'] = 'Nakatanggap ng di-bilang para sa mababa o mataas na marka para sa';
 $string['errornocategorizedid'] = 'Hindi makakuha ng walang kategoriyang id!';
 $string['errornocourse'] = 'Hindi makakuha ng impormasyon ng kurso';
-$string['errorreprintheadersnonnumeric'] = 'Nakatanggap ng di-bilang na halaga para sa reprint-headers';
+$string['errorreprintheadersnonnumeric'] = 'Nakatanggap ng di-bilang na halaga para sa muling-ilathala-ang-talaulo';
 $string['exceptions'] = 'Eksepsiyon';
 $string['excluded'] = 'Iniliban';
 $string['extracredit'] = 'Dagdag na Marka';
@@ -73,7 +73,7 @@ $string['nocategoryview'] = 'Walang kategoriya na tatanawin ayon sa ';
 $string['nogradeletters'] = 'Walang itinakdang titik ng marka';
 $string['nogradesreturned'] = 'Walang ibinalik na marka';
 $string['nolettergrade'] = 'Walang titik na marka para sa ';
-$string['nonnumericweight'] = 'Nakatanggap ng di-bilang na halaga para sa ';
+$string['nonnumericweight'] = 'Nakatanggap ng hindi numerong halaga para sa ';
 $string['nonweightedpct'] = 'walang-timbang %%';
 $string['notteachererror'] = 'Dapat ay guro ka para magamit ang katangiang ito.';
 $string['pctoftotalgrade'] = '%% ng kabuuang marka';
@@ -85,7 +85,7 @@ $string['pointsascending'] = 'Pagsunud-sunurin ayon sa mga puntos pataas';
 $string['pointsdescending'] = 'Pagsunud-sunurin ayon sa mga puntos pababa';
 $string['preferences'] = 'Mas-ibig';
 $string['rawpct'] = 'Hilaw %%';
-$string['reprintheaders'] = 'Muling iprint ang mga Header';
+$string['reprintheaders'] = 'Muling ilathala ang mga Talaulo';
 $string['savechanges'] = 'Isave ang mga Pagbabago';
 $string['savepreferences'] = 'Isave ang mga Mas-ibig';
 $string['scaledpct'] = 'Iniskala %%';

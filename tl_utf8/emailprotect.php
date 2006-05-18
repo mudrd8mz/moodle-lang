@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // emailprotect.php - created with Moodle 1.5 ALPHA (2005043000)
+      // emailprotect.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['filtername'] = 'Proteksiyon ng Email';
