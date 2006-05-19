@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006050501)
+      // lesson.php - created with Moodle 1.7 dev (2006050502)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -180,7 +180,7 @@ $string['notitle'] = 'タイトル無し';
 $string['numberofcorrectanswers'] = '正解数: $a';
 $string['numberofcorrectmatches'] = '正しいマッチ数: $a';
 $string['numberofpagestoshow'] = 'ページ ( カード ) の表示数';
-$string['numberofpagesviewed'] = 'ページ閲覧数: $a';
+$string['numberofpagesviewed'] = '解答済み問題数: $a';
 $string['ongoing'] = '進行中の評点を表示';
 $string['ongoingcustom'] = '現在、あなたの評点は $a->currenthigh 点中 $a->score 点です。';
 $string['ongoingnormal'] = 'あなたは $a->viewed の問題の中から $a->correct を正しく答えました。';
@@ -285,6 +285,6 @@ $string['youranswer'] = 'あなたの答え';
 $string['yourcurrentgradeis'] = '現在の評点は $a です。';
 $string['yourgradeisnow'] = 'このレッスンに関するあなたの評点は $a に変更されました。';
 $string['yourresponse'] = 'あなたのレスポンス';
-$string['youshouldview'] = '少なくとも $a 回閲覧してください。';
+$string['youshouldview'] = '少なくとも $a 回解答してください。';
 
 ?>
