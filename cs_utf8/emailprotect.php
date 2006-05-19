@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // emailprotect.php - created with Moodle 1.5 + (2005060201)
+      // emailprotect.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
-$string['filtername'] = 'Ochrana emailových adres';
+$string['filtername'] = 'Ochrana e-mailových adres';
 
 ?>
