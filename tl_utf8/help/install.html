@@ -1,12 +1,12 @@
-<h1>Pag-iinstol ng Moodle</h1>
+<h1>Pagluluklok ng Moodle</h1>
 <h2>Huwag masisiraan ng loob! <img src="http://moodle.org/pix/s/smiley.gif" /></h2>
 <blockquote>
 
-  <p>Ipinapaliwanag ng gabay na ito kung paano mag-instol ng Moodle sa
+  <p>Ipinapaliwanag ng gabay na ito kung paano magluklok ng Moodle sa
 unang pagkakataon.  Ang ilan sa mga hakbang ay maraming detalye upang
 masakop ang mayorya ng mga posibleng kaayusan ng web server,  kaya't
 mukhang medyo mahaba at komplikado ang dokumentong ito.  Huwag
-masisiraan ng loob, kapag alam na ninyo kung paano ito gawin, maiiinstol ninyo ang
+masisiraan ng loob, kapag alam na ninyo kung paano ito gawin, mailuluklok ninyo ang
 Moodle sa loob ng ilang minuto!
 </p>
 
@@ -25,13 +25,13 @@ pagtuturo!
   <p>Mga seksiyon ng dokumentong ito:</p>
   <ol>
     <li><a href="#requirements">Mga Kinakailangan</a></li>
-    <li><a href="#downloading">Idownload at kopyahin ang mga file sa
+    <li><a href="#downloading">Ilusong at kopyahin ang mga file sa
 wastong lugar</a> </li>
     <li><a href="#site">Balangkas ng site</a></li>
-    <li><a href="#installer">Patakbuhin ang iskrip na pang-instol para makalikha ng config.php</a>      
+    <li><a href="#installer">Patakbuhin ang iskrip na pangluklok para makalikha ng config.php</a>      
         <ul>
         <li><a href="#webserver">Suriin ang kaayusan ng web server</a></li>
-        <li><a href="#database">Paglikha ng database</a></li>
+        <li><a href="#database">Paglikha ng datosan</a></li>
         <li><a href="#data">Paglikha ng direktoryo ng datos</a></li>
         </ul>
     </li>
@@ -47,7 +47,7 @@ Kinakailangan</h3>
   <p>Ang Moodle ay pangunahing dinebelop sa Linux na gumagamit ng
 Apache, MySQL at PHP (na tinatawag ding LAMP na plataporma), bagama't
 tinetesting din nang regular sa PostgreSQL at sa Windows XP, Mac OS X
-at Netware 6 na mga operating system
+at Netware 6 na mga sistemang pampatakbo
 </p>
   <p>Ang mga kinakailangan ng Moodle ay ang mga sumusunod:</p>
   <ol>
@@ -58,34 +58,34 @@ sumusuporta sa PHP, tulad ng IIS sa Windows na plataporma.</li>
     <li> <a href="http://www.php.net/" target="_blank">PHP</a> scripting
 language (version 4.1.0 o mas bago). Ang PHP 5 ay sinusuportahan na sa
 Moodle 1.4. </li>
-    <li>gumaganang database server: <a href="http://www.mysql.com/"
+    <li>gumaganang datosang server: <a href="http://www.mysql.com/"
 target="_blank">MySQL</a> o <a href="http://www.postgresql.org/"
 target="_blank">PostgreSQL</a> ay ganap na sinusuportahan at
 inirerekomenda na gamitin sa Moodle.</li>
   </ol>
   <p>Sinusuportahan ng karamihang web host ang lahat ng ito nang
-default.  Kung naka-sign-up ka sa isa sa iilang webhosts na hindi
-sinusuportahan ang mga feature na ito, tanongin mo sila kung bakit, at
+umiiral.  Kung naka-sign-up ka sa isa sa iilang webhosts na hindi
+sinusuportahan ang mga katangiang ito, tanongin mo sila kung bakit, at
 pag-isipan mong maghanap ng ibang web host.
 </p>
   <p>Kung gusto mong patakbuhin ang Moodle sa sarili mong kompyuter at
 parang masyadong mahirap ang mga bagay na ito, pakitingnan ang gabay
 naming:
-<a href="http://moodle.org/doc/?file=installamp.html">Pag-iinstol ng
+<a href="http://moodle.org/doc/?file=installamp.html">Pagluluklok ng
 Apache, MySQL at PHP</a>. Naglalahad ito ng mga hakbang na susundin
-upang maiinstol ang lahat ng ito sa karamihan sa mga popular na
+upang mailuklok ang lahat ng ito sa karamihan sa mga popular na
 plataporma. 
 </p>
   <p>&nbsp;</p>
 </blockquote>
 
-<h3 class="sectionheading"><a id="downloading" name="downloading"></a>2. Idownload at
+<h3 class="sectionheading"><a id="downloading" name="downloading"></a>2. Ilusong at
 kopyahin ang mga file sa wastong lugar </h3> <blockquote>
   <p>May dalawang paraan sa pagkuha ng Moodle, bilang isang siniksik na
 pakete at sa pamamagitan ng CVS.  Ipinaliliwanag ito ng detalyado sa
-pahina na pinagdadownloadan na:<a href="http://moodle.org/download/" 
+pahina na pinaglulusongan na:<a href="http://moodle.org/download/" 
 target="_blank">http://moodle.org/download/</a></p>
-  <p>Matapos idownload at i-unpack ang archive, o makuha ang mga file
+  <p>Matapos ilusong at buklatin ang arkibo, o makuha ang mga file
 sa pamamagitan ng CVS, magkakaroon ka ng isang direktoryong may
 pangalang &quot;moodle&quot;, na naglalaman ng ilang file at folder.
 </p>
@@ -94,11 +94,11 @@ document&quot; mo, kaya ang magiging lokasyon ng site ay
 <b>http://webservermo.com/moodle</b>, o puwede mong kopyahin ang lahat
 ng nilalaman sa punong direktoryo ng web server, kaya ang site ay
 magiging <b>http://webservermo.com</b>.</p>
-  <p> Kung idina-download mo ang Moodle sa lokal mong kompyuter bago mo
-ito iaplowd sa web site mo, mas mabuting iaplowd ang buong archive
-bilang isang file lamang, pagkatapos ay i-unpack na lamang ito sa
+  <p> Kung inilulusong mo ang Moodle sa lokal mong kompyuter bago mo
+ito iahon sa web site mo, mas mabuting iahon ang buong arkibo
+bilang isang file lamang, pagkatapos ay buklatin ito sa
 server.  Kahit ang mga web hosting interface tulad ng Cpanel ay
-pinapahintulutan kang mag-uncompress ng mga archive sa  &quot;File
+pinapahintulutan kang mag-uncompress ng mga arkibo sa  &quot;File
 Manager&quot;. </p>
 
 </blockquote>
@@ -145,37 +145,37 @@ kalendaryo</li>
       <li>course/ - code para sa pagdispley at pamamahala ng mga kurso</li>
       <li>doc/ - tulong na dokumentasyon para sa Moodle (eg ang pahinang
 ito)</li>
-      <li>files/ - code para sa pagdispley at pamamahala ng mga inaplowd
+      <li>files/ - code para sa pagdispley at pamamahala ng mga inahon
 na file
 </li>
       <li>lang/ - mga tekstong may sari-saring wika, isang direktoryo
 bawat wika</li>
       <li>lib/ - mga library ng core na Moodle code</li>
-      <li>login/ - code para sa pag-handle ng log-in at paglikha ng
-account</li>
+      <li>login/ - code para sa pag-handle ng lagda at paglikha ng
+akawnt</li>
       <li>mod/ - lahat ng pangunahing Moodle course module ay naririto</li>
       <li>pix/ - generic na mga larawan ng site</li>
       <li>theme/ - pakete/balat ng tema para mabago ang itsura ng site.</li>
-      <li>user/ - code para magdispley at pamahalaan ang mga user</li>
+      <li>user/ - code para magdispley at pamahalaan ang mga tao</li>
     </ul>
     <p>&nbsp;</p>
   </blockquote>
 </blockquote>
 <h3 class="sectionheading"><a id="installer" name="installer"></a>4. Patakbuhin ang
-iskrip na pang-instol upang malikha ang config.php </h3>
+iskrip na pangluklok upang malikha ang config.php </h3>
 <blockquote>
-  <p>Para mapatakbo ang iskip na pang-instol (install.php), pasukin lamang
+  <p>Para mapatakbo ang iskip na pangluklok (install.php), pasukin lamang
 ang inyong punong URL ng Moodle sa pamamagitan ng web browser, o pasukin
 ang <strong>http://servermo/install.php</strong> nang direkta. </p>
-  <p>(Tatangkain ng Pang-instol na mag-set ng session cookie.  Kung
+  <p>(Tatangkain ng Pangluklok na mag-set ng session cookie.  Kung
 makakuha ka ng isang pop-up na babala sa browser mo, tiyakin na tanggapin
 ang cookie!) </p>
   <p>Makikita ng Moodle na kailangang isaayos ito, at dadalhin ka sa
 ilang iskrin na tutulong sa iyong lumikha ng bagong configuration file
 na may pangalang <strong>config.php. </strong> Sa katapusan ng proseso,
 tatangkain ng Moodle na isulat ang file sa tamang lokasyon, kundi man
-puwede mong pindutin ang isang buton para madownload ito mula sa
-pang-instol, at pagkatapos ay iaplowd ang config.php sa punong Moodle
+puwede mong pindutin ang isang buton para mailusong ito mula sa
+pangluklok, at pagkatapos ay iahon ang config.php sa punong Moodle
 direktoryo sa server.</p>
   <p>Habang ginagawa ang mga ito, susubukin ng installer ang server
 environment mo at magmumungkahi ng paraan kung paano malulutas ang
@@ -192,7 +192,7 @@ Pangkalahatang kaayusan ng web server
 </h3>
   <blockquote>
     <p> Una, tiyakin na nakaayos ang web server mo na gamitin ang
-index.php bilang default na pahina (marahil ay kasama ng index.html,
+index.php bilang umiiral na pahina (marahil ay kasama ng index.html,
 default.htm at iba pa).</p>
     <p>Sa Apache, magagawa ito sa pamamagitan ng DirectoryIndex na
 parameter sa inyong httpd.conf file. Ganito ang karaniwang itsura ng sa akin:
@@ -221,7 +221,7 @@ linyang ito sa httpd.conf file mo.
     </blockquote>
 
     <p>Pangatlo, kailangan ng Moodle na maging aktibo ang ilang PHP
-setting para gumana ito.  <b>Sa karamihang server ito na ang mga default
+setting para gumana ito.  <b>Sa karamihang server ito na ang mga umiiral
 na setting.</b> Gayunpaman, may ilang PHP server (at ilang mas bagong
 bersiyon ng PHP) na iba ang setting.  Idini-define ito sa 
 configuration file ng PHP (na karaniwang tinatawag na php.ini):</p>
@@ -237,7 +237,7 @@ session.bug_compat_warn = 0
     <p>Kung wala kang access sa httpd.conf o php.ini sa server mo, o ang
 Moodle mo ay nasa server na may ibang aplikasyon na nangangailangan ng
 ibang setting, hindi ito problema, maaari mong PANAIGAN ang mga
-default na setting.
+umiiral na setting.
     </p>
     <p>Para magawa ito, kailangan mong lumikha ng file na ang pangalan
 ay <b>.htaccess</b> sa punong direktoryo ng Moodle na naglalaman ng mga linya na katulad ng
@@ -259,7 +259,7 @@ php_flag file_uploads 1
 php_flag session.auto_start 0
 php_flag session.bug_compat_warn 0</pre>
     </blockquote>
-    <p>Maaari mo ring itakda ang maksimum na laki ng inaaplowd na
+    <p>Maaari mo ring itakda ang maksimum na laki ng inaahon na
 file:
         
 </p>
@@ -283,41 +283,41 @@ Unix shell:
   </blockquote>
 <p>&nbsp;</p>
 <h3 class="sectionheading"><a id="database" name="database"></a>4.2 Paglikha
-ng database</h3>
+ng datosan</h3>
 
   <blockquote>
-    <p>Kailangan mong lumikha ng walang laman na database
-(eg "<em>moodle</em>") sa sistemang database mo na may espesyal na user
-(eg "moodleuser") na may karapatang pumasok sa database (at tanging database na
-yaon).  Maaari mong gamitin ang "root" user kung gusto mo ng sinusubok na
+    <p>Kailangan mong lumikha ng walang laman na datosan
+(eg "<em>moodle</em>") sa sistemang datosan mo na may espesyal na tao
+(eg "moodleuser") na may karapatang pumasok sa datosan (at tanging datosan na
+yaon).  Maaari mong gamitin ang taong "root" kung gusto mo ng sinusubok na
 server, pero hindi ito inirerekomenda para sa isang sistemang pamproduksiyon:
-Kapag natuklasan ng mga hacker ang password, hindi lamang ang isang
-database ang nasa panganib kundi ang buong sistemang database.
+Kapag natuklasan ng mga hacker ang kontrasenyas, hindi lamang ang isang
+datosan ang nasa panganib kundi ang buong sistemang datosan.
 </p>
     <p>Kung gumagamit ka ng webhost, malamang ay may web interface na control panel 
-ka para sa paglikha ng database.
+ka para sa paglikha ng datosan.
 </p>
     <p>Ang pinakapopular sa mga ito ay ang sistemang <strong>Cpanel</strong>.
-  Para makalikha ng database sa Cpanel,</p>
+  Para makalikha ng datosan sa Cpanel,</p>
 
     <ol>
-      <li>Iklik ang &quot;<strong>MySQL Databases</strong>&quot; na icon.</li>
-      <li>I-type ang  &quot;moodle&quot; sa database field at iklik ang
+      <li>Iklik ang &quot;<strong>MySQL Databases</strong>&quot; na ikon.</li>
+      <li>Iteklado ang  &quot;moodle&quot; sa pitak ng datosan at iklik ang
 &quot;<strong>Add Database</strong>&quot;.</li>
-      <li> I-type ang username at password (huwag iyong ginagamit sa
-ibang bagay) sa naaayong field at iklik ang &quot;<strong>Add
+      <li> Iteklado ang bansag at kontrasenyas (huwag iyong ginagamit sa
+ibang bagay) sa naaayong pitak at iklik ang &quot;<strong>Add
 User</strong>&quot;.</li>
       <li> Pagkatapos ay gamitin ang &quot;<strong>Add User to
-Database</strong>&quot; na buton para mabigyan ang bagong user account
+Database</strong>&quot; na buton para mabigyan ang bagong akawnt ng tao 
 na ito ng &quot;<strong>ALL</strong>&quot; na karapatan sa bagong
-database. </li>
-      <li>Pansinin na ang username at database name ay maaaring
-inuunlapian ng pangalan ng account mo sa Cpanel.  Kapag ipinasok mo ang
-impormasyong ito sa pang-instol ng Moodle - gamitin ang buong pangalan.
+datosan. </li>
+      <li>Pansinin na ang bansag at ngalan ng datosan ay maaaring
+inuunlapian ng pangalan ng akawnt mo sa Cpanel.  Kapag ipinasok mo ang
+impormasyong ito sa pangluklok ng Moodle - gamitin ang buong pangalan.
 </li>
     </ol>
     <p>Kung may access ka sa Unix command line, puwede mong gawin ang
-binanggit sa itaas sa pamamagitan ng pag-type ng mga command.
+binanggit sa itaas sa pamamagitan ng pagteklado ng mga command.
 </p>
     <p>Heto ang ilang halimbawa ng mga Unix command line para sa MySQL: 
 </p>
@@ -345,7 +345,7 @@ direktoryo ng datos</h3>
   <blockquote>
     
 <p>Mangangailangan din ang Moodle ng espasyo sa hard disk ng server mo
-para mapag-imbakan ng mga inaplowd na file,  tulad ng mga dokumento para
+para mapag-imbakan ng mga inahon na file,  tulad ng mga dokumento para
 sa kurso at mga larawan ng user.</p>
  <p>Pipilitin ng Moodle installer na likhain ang direktoryong ito para
 sa iyo, pero kapag nabigo ito kailangan mong likhain ang direktoryo nang
@@ -361,7 +361,7 @@ na tinatawag na .htaccess, na naglalaman ng sumusunod na linya:
     <blockquote>
       <pre>deny from all</pre>
     </blockquote>
-    <p>Para matiyak na kaya ng Moodle na magsave ng inaplowd na file sa
+    <p>Para matiyak na kaya ng Moodle na magsave ng inahon na file sa
 direktoryong ito, tingnan kung ang web server software (eg Apache) ay
 may permisong bumasa, sumulat at magpatakbo ng program sa direktoryong
 ito.
@@ -403,9 +403,9 @@ papakitaan ka ng isang GPL &quot;shrinkwrap&quot; na kasunduan na
 <strong>kailangan </strong> mong sang-ayunan bago ka makapagpatuloy sa
 pagsasaayos.
 </p>
-  <p>Ngayon, magsisimula nang iayos ng Moodle ang database mo at
+  <p>Ngayon, magsisimula nang iayos ng Moodle ang datosan mo at
 lilikha ito ng mga teybol para maimbakan ng datos.  Una, lilikhain ang
-mga punong database teybol.  Makakakita ka ng ilang SQL na pahayag, na
+mga punong teybol ng datosan.  Makakakita ka ng ilang SQL na pahayag, na
 susundan ng mga mensahe ng estado (na kulay berde o pula) na ganito ang
 itsura:
 </p>
@@ -422,10 +422,10 @@ itsura:
     <p><font color="#006600">TAGUMPAY</font></p>
   </blockquote>
 
-  <p>...at patuloy, tapos ay susundan ng: <font color="#006600">Matagumpay na naisaayos ang mga pangunahing database.</font> </p>
+  <p>...at patuloy, tapos ay susundan ng: <font color="#006600">Matagumpay na naisaayos ang mga pangunahing datosan.</font> </p>
   <blockquote>
     <p class="style3">Kapag hindi mo nakita ang mga ito, maaaring
-nagkaproblema sa database o sa configuration setting na itinakda sa
+nagkaproblema sa datosan o sa configuration setting na itinakda sa
 config.php.  Tingnan kung ang PHP ay hindi nasa restricted na "Safe
 Mode" (minsan binubuhay ng mga komersiyal na web host ang safe mode).
 Maaari mong tsekin ang mga PHP variable sa pamamagitan ng paglikha ng
@@ -439,11 +439,11 @@ lahat ito at tangkain muli ang paggamit ng pahinang ito.
   <p>Mag-scroll pababa sa pinaka-ibaba ng pahina at pindutin ang 
 &quot;Ituloy&quot; na link.</p>
 
-  <p>Makakakita ka ng form kung saan maitatakda mo ang marami pang 
-baryabol para sa pagsasaayos ng instalasyon mo, tulad ng default na wika
+  <p>Makakakita ka ng porma kung saan maitatakda mo ang marami pang 
+baryabol para sa pagsasaayos ng instalasyon mo, tulad ng umiiral na wika
 SMTP host at iba pa.  Huwag kang mag-alala kung hindi mo magawa ang lahat
 ng gusto mo sa ngayon - maaari ka namang bumalik dito at iedit ang iba
-pang hindi mo naiayos sa pamamagitan ng pang-admin na interpeys.  Ang mga default
+pang hindi mo naiayos sa pamamagitan ng pang-admin na interpeys.  Ang mga umiiral
 ay dinisenyo na maging kapakipakinabang at ligtas para sa karamihang site.
 Mag-scroll pababa at iklik ang &quot;Isave ang pagbabago&quot;.
 </p>
@@ -464,8 +464,8 @@ iba't-ibang modyul ng Moodle.  Tulad din ng nauna, dapat ay kulay
   <p>Mag-scroll sa pinaka-ibaba ng pahina at pindutin ang 
 &quot;Ituloy&quot; na link.</p>
 
-  <p>Ang susunod na pahina ay isang form na pagtatakdaan mo ng mga parameter
-para sa Moodle site at sa pambungad na pahina, tulad ng pangalan, format, 
+  <p>Ang susunod na pahina ay isang porma na pagtatakdaan mo ng mga parameter
+para sa Moodle site at sa pambungad na pahina, tulad ng pangalan, anyo, 
 deskripsiyon at iba pa.  Punan ang mga kahon nito (puwede mong itong balikan
 anumang oras para baguhin), tapos ay pindutin ang 
 &quot;Isave ang mga pagbabago&quot;.</p>
@@ -473,8 +473,8 @@ anumang oras para baguhin), tapos ay pindutin ang
   <p>Bilang panghuli, hihilingin kang lumikha ng isang top-level na administrador
 na user para mapasok ang mga pahina ng admin.  Punan ang mga kinakailangang
 detalye ng pangalan mo, email atbp., tapos ay iklik ang 
-&quot;Isave ang mga pagbabago&quot;. Hindi lahat ng field ay kailangan, pero
-kapag may mahalagang field kang nakaligtaan, huhudyatan kang muli para sagutan
+&quot;Isave ang mga pagbabago&quot;. Hindi lahat ng pitak ay kailangan, pero
+kapag may mahalagang pitak kang nakaligtaan, huhudyatan kang muli para sagutan
 ang mga ito.
   </p>
 
@@ -483,8 +483,8 @@ ang mga ito.
       <blockquote> 
         <blockquote> 
           <blockquote> 
-            <p><strong>Tiyakin na natatandaan mo ang username at password na
-pinili mo para sa user account ng administrador, dahil kailangan ito para 
+            <p><strong>Tiyakin na natatandaan mo ang bansag at kontrasenyas na
+pinili mo para sa akawnt ng administrador, dahil kailangan ito para 
 mapasok ang pahinang pang-administrasyon sa mga susunod na pagkakataon.
 </strong></p>
           </blockquote>
@@ -492,10 +492,10 @@ mapasok ang pahinang pang-administrasyon sa mga susunod na pagkakataon.
       </blockquote>
     </blockquote>
 
-    <p class="style3">(Kung dahil sa anumang bagay ay nahinto ang pag-iinstol mo,
-o kung nagka-error na pansistema, na pumipigil sa iyong mag-log-in gamit ang admin
-account, kadalasan ay makapagla-log-in ka sa pamamagitan ng default na username
-na &quot;<strong>admin</strong>&quot;, na may password na
+    <p class="style3">(Kung dahil sa anumang bagay ay nahinto ang pagluluklok mo,
+o kung nagka-error na pansistema, na pumipigil sa iyong lumagda gamit ang admin
+akawnt, kadalasan ay makakalagda ka sa pamamagitan ng umiiral na bansag
+na &quot;<strong>admin</strong>&quot;, na may kontrasenyas na
 &quot;<strong>admin</strong>&quot;.)</p>
 
   </blockquote>
@@ -503,7 +503,7 @@ na &quot;<strong>admin</strong>&quot;, na may password na
   <p>Kapag nagtagumpay ka na, ibabalik ka sa tahanang pahina ng bago mong site!
 Pansinin mo ang mga link na pang-administrador sa may ibabang-kaliwa ng
 pahina (lumilitaw din ang mga aytem na ito sa hiwalay na pahinang pang-Admin) -
-nakikita mo lamang ang mga aytem na ito dahil naka-log-in ka bilang admin user.
+nakikita mo lamang ang mga aytem na ito dahil nakalagda ka bilang taong admin.
 Lahat nang iba pang pamamahalang ng Moodle na kakailanganin mo ay maaari nang
 gawin sa pamamagitan ng menung ito, tulad ng:
 </p>
@@ -511,11 +511,11 @@ gawin sa pamamagitan ng menung ito, tulad ng:
   <ul>
 
     <li>paglikha at pagbura ng mga kurso</li>
-    <li>paglikha at pag-edit ng mga user account</li>
-    <li>pamamahala ng mga account ng guro</li>
+    <li>paglikha at pag-edit ng mga akawnt ng tao</li>
+    <li>pamamahala ng mga akawnt ng guro</li>
     <li>pagbabago ng mga setting na laganap sa buong site tulad ng tema atbp</li>
   </ul>
-  <p>Pero hindi pa tapos ang pag-iinstol mo! May isa pang napakahalagang 
+  <p>Pero hindi pa tapos ang pagluluklok mo! May isa pang napakahalagang 
 bagay na kailangang gawin (tingnan ang sususunod na seksiyon hinggil sa cron).
 </p>
 
@@ -573,9 +573,9 @@ pagpapatakbo ng iskrip nang awtomatiko at regular.
   <blockquote>
     <p>Ang pinasimpleng paraan ay gamitin ang maliit na paketeng ito
 <a href="http://moodle.org/download/modules/moodle-cron-for-windows.zip"
-title="Iklik para ma-download ang paketeng ito (150k)"
+title="Iklik para mailusong ang paketeng ito (150k)"
 target="_blank"><strong>moodle-cron-for-windows.zip</strong></a> na
-magpapadali sa gawaing ito sa pamamagitan ng pag-instol ng isang maliit
+magpapadali sa gawaing ito sa pamamagitan ng pagluklok ng isang maliit
 na serbisyong pang-Windows.  Patakbuhin mo ito at kalimutan na!
 </p>
 
@@ -666,18 +666,18 @@ bagong kurso na mapaglalaruan.
   <p>Piliin ang &quot;Lumikha ng bagong kurso&quot;
 sa pahinang Admin (o sa pang-admin na link sa tahanang pahina).</p>
 
-  <p>Punan ang form, pag-ingatan mo ang pagtukoy sa format ng kurso.
+  <p>Punan ang porma, pag-ingatan mo ang pagtukoy sa anyo ng kurso.
 Hindi mo kailangang busisiin ang detalye sa panahong ito, dahil lahat ay
-maaaring baguhin mamaya ng mga guro.  Tandaan na ang dilaw na icon ng tulong
+maaaring baguhin mamaya ng mga guro.  Tandaan na ang dilaw na ikon ng tulong
 ay nakakalat para magbigay ng nasa-kontekstong tulong sa anumang aspeto.
 </p>
 
   <p>Pindutin ang &quot;Isave ang mga pagbabago&quot;, at ipapasa ka sa
-isang bagong form kung saan puwede kang magtakda ng guro sa kurso.
-Maaari mo lamang idagdag ang mga user account na mayroon na sa form na
-ito - kung gusto mong lumikha ng bagong account ng guro, hilingin mo ang
-guro na lumikha ng account para sa sarili niya (tingnan ang pahinang
-panglog-in), o lumikha ng isa para sa kanila sa pamamagitan ng
+isang bagong porma kung saan puwede kang magtakda ng guro sa kurso.
+Maaari mo lamang idagdag ang mga akawnt ng tao na mayroon na sa porma na
+ito - kung gusto mong lumikha ng bagong akawnt ng guro, hilingin mo ang
+guro na lumikha ng akawnt para sa sarili niya (tingnan ang pahinang
+panglagda), o lumikha ng isa para sa kanila sa pamamagitan ng
 &quot;Magdagdag ng bagong user&quot; sa pahinang pang-Admin.
 </p>
 
