@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Moodle Docs: A PHP és a MySQL telepítése</title>
+	<link rel="stylesheet" href="docstyles.css" type="TEXT/CSS" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+<h1>Az Apache, a MySQL és a PHP telepítése</h1>
+<blockquote>
+  <p>A Moodle PHP szkriptnyelven íródott és adatainak túlnyomó többségét adatbázisban tárolja. 
+  Az általunk javasolt adtabázis a MySQL. A Moodle telepítése előtt rendelkeznie kell a PHP telepített és működő 
+  változatával, valamint egy működő adatbázissal ahhoz, hogy számítógépét webszerverként tudja üzemeltetni. Ezen csomagok telepítése az
+   átlagos számítógép-használó számára nehéznek bizonyulhat, ezért ezen oldal segítségével megpróbáltuk ezt a folyamatot leegyszerűsíteni
+   különféle platformokra:</p>
+  <ul>
+    <li><a href="#host" class="questionlink">Internetes szolgáltatók</a></li>
+    <li><a href="#mac" class="questionlink">Mac OS X</a></li>
+    <li><a href="#redhat" class="questionlink">Redhat Linux</a></li>
+    <li><a href="#windows" class="questionlink">Windows</a></li>
+  </ul>
+  <p class="questionlink">&nbsp;</p>
+  <h3 class="sectionheading"><a name="host" id="host"></a>Internetes szolgáltatók</h3>
+  <blockquote>
+    <p>Az internetes szolgáltatók sajnos nagyon eltérő módon működhetnek. Némelyikük akár telepíti is a Moodle-t az Ön számára.</p>
+    <p>A legtöbbjük internetes vezérlőpanellel teszi lehetővé portálja kezelését, adatbázisok létrehozását és a cron beállítását. 
+    Más szolgáltatók ssh-n keresztül terminálos hozzáférést kínálnak, így parancssori héjprogramokkal teszi lehetővé a környezet használatát.</p>
+    <p>Feltehetőleg végig kell olvasnia a <a href="./?file=install.html">Telepítési útmutatót</a> és lépésről lépésre végrehajtani a benne foglaltakat.
+    Ha elakad, forduljon szolgáltatójához. </p>
+    <p>&nbsp;</p>
+  </blockquote>
+  <h3 class="sectionheading"><a name="mac" id="mac"></a>Mac OS X</h3>
+  <blockquote>
+    <p>A legegyszerűbb megoldás az Apple által biztosított Apache szerver használata, 
+    melyhez a PHP és a MySQL Marc Liyanage csomagjaival telepíthető. Az alábbi oldalakon részletes utasításokat talál ehhez, melyeket e helyen nem ismétlünk meg:</p>
+    <blockquote>
+      <p><strong>PHP</strong> - Letölthető innen: <a href="http://www.entropy.ch/software/macosx/php/" target="_top">http://www.entropy.ch/software/macosx/php/</a></p>
+      <p><strong>MySQL</strong> - Letölthető innen: <a href="http://www.entropy.ch/software/macosx/mysql/" target="_top">http://www.entropy.ch/software/macosx/mysql/</a></p>
+    </blockquote>
+    <p>Ezek telepítése után a szokásos <a href="./?file=install.html">Telepítési útmutatóval
+</a> a folyamat egyértelműen végrehajtható.</p>
+    <p>Részletesebb leírást talál itt: <a href="http://moodle.org/wiki/index.php/InstallingMoodle">http://moodle.org/wiki/index.php/InstallingMoodle</a></p>
+    <p>&nbsp;</p>
+  </blockquote>
+  <h3 class="sectionheading"><a name="redhat"></a>Redhat Linux</h3>
+  <blockquote>
+    <p>Minden meglévő RPM-csomagot telepítenie kell az Apache, a PHP és a MySQL telepítéséhez. Az egyik gyakran kifelejtett csomag a php-mysql,
+    amely szükséges ahhoz, hogy a PHP kommunikálni tudjon a MySQL-lel.</p>
+    <p>Ezek telepítése után a szokásos <a href="./?file=install.html">Telepítési útmutatóval
+</a> a folyamat egyértelműen végrehajtható.</p>
+    <p>Részletesebb leírást talál itt: < <a href="http://moodle.org/wiki/index.php/InstallingMoodle">http://moodle.org/wiki/index.php/InstallingMoodle</a></p>
+  </blockquote>
+  <p>&nbsp;</p>
+  <h3 class="sectionheading"><a name="windows" id="windows"></a>Windows</h3>
+  <blockquote>
+    <p>A legegyszerűbb megoldás az <a href="http://www.easyphp.org/" target="_blank">EasyPHP</a> használata, 
+    mely csomag egyetlen Windows alkalmazásként magában foglalja az összes szükséges programot. A kezdetektől a befejezésig az alábbi lépéseket kell végrehajtania:</p>
+    <ol>
+      <li> Mindenekelőtt törölje a MySQL-t, ha korábban már telepítette (akár másik csomag részeként), törölje ki az összes MySQL-állományt
+      és mindenképpen törölje a <strong>c:\my.cnf</strong> és a <strong>c:\windows\my.ini</strong> fájlokat.
+      A gépét végignézve törölheti az összes <strong>my.cnf</strong> vagy <strong>my.ini</strong> elnevezésű állományt.</li>
+      <li> Ha már telepítette korábban a PHP-t, törölje ki az összes <strong>php4ts.dll</strong> állományt a Windows könyvtárból, valamint 
+      minden <strong>php.ini</strong> nevű fájlt.</li>
+      <li> Töltse le az EasyPHP-t innen: <a href="http://www.easyphp.org/telechargements/dn.php?F=easyphp1-7">http://www.easyphp.org/telechargements/dn.php?F=easyphp1-7</a> 
+      (kb. 10 Mb)</li>
+      <li> Futtassa le a letöltött <strong>easyphp1-7_setup.exe</strong> fájlt. A telepítési folyamat leírása franciául van, de egyebekben azonos a többi ű
+      Windows program telepítésével - ajánlatos az alapértékek elfogadása és a program megadott beállításokkal való telepítése. 
+      A &quot;Suivant&quot; jelentése Tovább, az &quot;Oui&quot; pedig Igen-t jelent.</li>
+      <li>A telepítés végén tartsa meg a &quot;Lancer 
+      EasyPHP&quot; (Az EasyPHP indítása) négyzetet bejelölve és kattintson a 'Terminer&quot; ˙Befejezés) gombra. 
+      Ha esetleg egy tájékoztató oldalra kerül, ezt nyugodtan figyelmen kívül hagyhatja. </li>
+      <li>Ha minden rendben történt, az Apache, a PHP és a MySQL feltelepült és működik! Az eszközsoron egy fekete E látható. Ha rákattint, egy menühöz kerül,
+      mellyel vezérelheti a programok futását.</li>
+      <li> A következő lépés egy adatbázis létrehozása a Moodle számára. 
+      A jobb egérgombbal kattintson az eszközsoron az E-re és válassza az Administration, majd a DB Management pontot (a PHPMyAdmin mellett).</li>
+      <li>Ha felhasználónevet kell megadnia, adja meg a &quot;<strong>root</strong>&quot; nevet egy <strong>üresjelszóval</strong>. Ekkor megjelenik 
+      a phpMyAdmin webes felülete, amelyen keresztül új adatbázisokat és felhasználói felületeket és felhasználókat hozhat létre. </li>
+      <li>Hozzon létre egy új adatbázist a &quot;moodle&quot; begépelésével és a &quot;Create&quot; (Létrehozás) gombra kattintással. 
+      Ez eddig egyszerű!</li>
+      <li>Ha kívánja, létrehozhat egy új felhasználót az adatbázis eléréséhez. Eleinte ez kissé bonyolultnak tűnhet, ezért használhatja a meglévő &quot;root&quot; 
+      felhasználót jelszó nélkül a Moodle-hoz, a későbbiekben módosíthat rajta.</li>
+      <li>Ekkor készen áll a Moodle telepítésére! Töltse le a Moodle legfrissebb változatát a 
+      <a href="http://moodle.org/download" target="_blank">http://moodle.org/download</a> portálról, 
+      majd csomagolja ki a programkészletet.</li>
+      <li>A Moodle állományait másolja át a <strong>C:\Program Files\EasyPHP\www </strong>könyvtárba. Átmásolhatja a teljes Moodle könyvtárat directory
+       (azaz: C:\Program Files\EasyPHP\www\moodle), vagy kimásolhatja a Moodle könyvtár teljes <em>tartalmát</em>. Ha ezt a második lehetőséget választja,
+       a Moodle kezdő oldalát a http://localhost/moodle/ helyett elérheti a http://localhost/ címről.</li>
+      <li>Hozzon létre egy mappát a Moodle feltöltött állományai számára, pl. <strong>C:\moodledata</strong> névvel</li>
+      <li>Térjen át a Moodle mappába. Készítsen egy másolatot a config-dist.php állományról, majd nevezze át config.php-re</li>
+      <li>A config.php állományt szerkessze meg egy szövegszerkesztővel (a célra megfelel a Notepad, csak ügyeljen arra, hogy felesleges szóközök ne maradjanak a szöveg végén). </li>
+      <li>Írja bele az adatbázisra vonatkozó összes új információt:<br />
+      $CFG-&gt;dbtype = 'mysql';<br />
+      $CFG-&gt;dbhost = 'localhost';<br />
+      $CFG-&gt;dbname = 'moodle';<br />
+      $CFG-&gt;dbuser = 'root'; <br />
+      $CFG-&gt;dbpass = '';<br />
+      $CFG-&gt;dbpersist = true;<br />
+      $CFG-&gt;prefix = 'mdl_';</li>
+      <li>majd adja meg állományainak útvonalát:<br />
+      $CFG-&gt;wwwroot = 'http://localhost/moodle'; // Ha ismeri, használjon külső címet. <br />
+      $CFG-&gt;dirroot = 'C:\Program Files\EasyPHP\www\moodle'; <br />
+      $CFG-&gt;dataroot = 'C:\moodledata';</li>
+      <li>Mentse el a config.php-t, az esetleges egyéb beállításokat figyelmen kívül hagyhatja.</li>
+      <li>Ezzel csaknem el is készült! A telepítés többi része már a weben keresztül zajlik. Böngészőjével térjen át a  
+      <a href="http://localhost/moodle/admin/" target="_blank">http://localhost/moodle/admin/</a> 
+      oldalra és folytassa a telepítést.</li>
+      <li>A tömörített állományok Moodle-lal való használatához bekapcsolhatja a &quot;zlib&quot; használatát. 
+      Ehhez térjen át az EasyPHP könyvtárba (<strong>C:\Program Files\EasyPHP</strong>) és futtassa le a phpini.exe programot. 
+      A &quot;zlib.dll&quot; melletti négyzetet jelölje be. 
+      Zárja be az ablakot, majd az eszközsoron a jobb gombbal az E-re kattintva hívja elő a menüt és válassza a &quot;Restart&quot; opciót.</li>
+      <li>Végezetül telepítenie kell a cron valamely változatát. A részleteket lásd a <a href="./?file=install.html">Telepítési útmutatóban</a>.
+      </li>
+    </ol>
+    <p>Ha nem használ(hat)ja az EasyPHP-t, az alábbi ötletek alapján ellenőrizze a PHP megfelelő beállítását 
+    és kerülje el a leggyakoribb gondokat:</p>
+    <ul>
+      <li>Ellenőrizze, bekapcsolta-e a GD-modul használatát, mellyel a Moodle képeket tud feldolgozni. Előfordulhat, hogy szerkesztenie kell a php.ini 
+      állományt és ki kell vennie az 'extension=php_gd2.dll' sorból a megjegyzést (;). 
+    </li>
+      <li>Ellenőrizze, bekapcsolta-e a Zlib modult, mellyel a Moodle-ból tud be- és kicsomagolni állományokat.</li>
+      <li>Ellenőrizze, az események be vannak-e kapcsolva, - lehet, hogy a php.ini-t szerkesztenie kell és be kell állítania a <strong>session.save_path</strong>-hoz 
+      a könyvtárat; az alapbeállítás szerinti "/tmp" helyett használjon pl. egy "c:/temp" könyvtárat.</li>
+    </ul>
+    <p>&nbsp;</p>
+  </blockquote>
+</blockquote>
+<p align="center"><font size="1"><a href="." target="_top">Moodle dokumentáció</a></font></p>
+<p align="center"><font size="1">Verzió: $Id$</font></p>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Moodle Docs: Frissítés</title>
+	<link rel="stylesheet" href="docstyles.css" type="TEXT/CSS" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+<h1>A Moodle frissítése</h1>
+
+<blockquote>
+  <p>A Moodle úgy van kialakítva, hogy bármely korábbi verzióról bármely későbbi verzióra való frissítése
+  zökkenőmentesen történjék. </p>
+  <p>A Moodle egy-egy telepítésének a frissítésekor kövesse az alábbi lépéseket:</p>
+  <h3 class="sectionheading">1. Fontos adatokról biztonsági másolat készítése</h3>
+  <blockquote>
+    <p>Habár nem kifejezetten szükséges, célszerű nagyobb frissítések alkalmával az élesben használt rendszerekről
+    biztonsági mentést készíteni arra az esetre, ha valamilyen okból a régihez vissza kell térni. Igazából célszerű a szerveren
+    a Moodle telepítéséről napi rendszerességgel biztonsági mentést készíteni, így az alábbi lépések kihagyhatók.</p>
+    <p>Három területről szükséges biztonsági mentést készíteni:</p>
+    <blockquote>
+      <p><strong>1. A Moodle szoftverkönytáráról</strong></p>
+      <blockquote>
+        <p>Frissítés előtt készítsen ezekről külön biztonsági másolatot, így szükség esetén helyre tudja állítani a 
+         config.php-t és minden egyéb Ön által hozzáadott modult, pl. témát, nyelvet stb.<br /></p>
+      </blockquote>
+      <p><strong>2. Saját adatkönyvtáráról</strong></p>
+      <blockquote>
+        <p>Ez az a hely, ahová a tartalmakat (pl. kurzusanyagokat és tanulói feladatokat) feltölti, ezért igen fontos,
+        hogy ezekről az állományokról egyébként is készüljenek biztonsági mentések. Egyes frissítések során
+        adatkönyvtárának egyes alkönyvtárai áthelyeződhetnek vagy más nevet kaphatnak.<strong><br />
+        </strong></p>
+      </blockquote>
+      <p><strong>3. Saját adatbázisáról</strong></p>
+      <blockquote>
+        <p>A Moodle frissítéseinek többsége során módosulnak az adatbázisok táblái, megváltoznak vagy belekerülnek mezők. 
+        Minden adatbázisról más-más módon készül biztonsági mentés. Az egyik lehetőség a MySQL adatbázis mentésére annak
+        egyetlen SQL-állományba való kimentése. Az alábbi példában a &quot;moodle&quot; nevű adatbázis ilyen kimentése látható
+        Unix alatt:</p>
+        <blockquote>
+          <p><font face="Courier New, Courier, mono">mysqldump moodle &gt; moodle-backup-2002-10-26.sql</font></p>
+        </blockquote>
+        <p>Használhatja emellett a Moodle opcionális adatbázisos internetes felületén az &quot;Export&quot; funkciót, mellyel ugyanezt 
+        teheti meg minden platformon.</p>
+        <p>&nbsp;</p>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+  <h3 class="sectionheading">2. Az új Moodle szoftverének telepítése</h3>
+  <blockquote>
+    <p><strong>Letöltött csomag használata</strong></p>
+    <blockquote>
+      <p>Hacsak nincs teljesen tisztában a részletekkel, ne írjon fölül egy meglévő telepítést. Néha a régi állományok gondot okozhatnak
+      az újak telepítése során. A legjobb megoldás, ha a meglévő Moodle könyvtárát átnevezi, majd az új csomagot a régi helyre csomagolja ki.</p>
+      <blockquote>
+        <p><font face="Courier New, Courier, mono">mv moodle moodle.backup<br />
+        tar xvzf moodle-1.1.tgz</font></p>
+      </blockquote>
+      <p>Ez után másolja át a config.php-t és az esetleges segédállományokat, például a testre szabott témákat:</p>
+      <blockquote>
+        <p><font face="Courier New, Courier, mono">cp moodle.backup/config.php moodle<br />
+        cp -pr moodle.backup/theme/mytheme moodle/theme/mytheme</font></p>
+      </blockquote>
+    </blockquote>
+    <p><strong>A CVS használata</strong></p>
+    <blockquote>
+      <p>Ha használja a CVS-t, térjenb át a Moodle gyökérkönyvtárába és frissítse a rendszert az új állományok szerint:</p>
+      <blockquote>
+        <p><font face="Courier New, Courier, mono">cvs update -dP</font></p>
+      </blockquote>
+      <p>Ne feledkezzen meg a &quot;d&quot; paraméterről, amellyel szükség esetén új könyvtárakat hozhat létre, 
+      valamint a &quot;P&quot; paraméterről, mellyel üres könyvtárakat szüntethet meg.</p>
+      <p>Ha szerkesztette a Moodle programállományait, ügyeljen az esetleegs ütközéseket jelző üzenetekre. 
+      Minden testre szabott témát és egyéni segédprogramot a rendszer érintetlenül hagy.</p>
+    </blockquote>
+    <p>&nbsp;</p>
+  </blockquote>
+  <h3 class="sectionheading">3. A frissítés befejezése</h3>
+  <blockquote>
+    <p>Az utolsó lépéssel a frissítési folyamat eredményei megjelennek a Moodle-ban.</p>
+    <p>Ehhez térjen át a telepítés <a target="_top" href="../admin/index.php">Adminisztráció oldalára</a>.</p>
+    <blockquote>
+      <p><font face="Courier New, Courier, mono">http://example.com/moodle/admin</font></p>
+    </blockquote>
+    <p>Közömbös, hogy rendszergazdaként jelentkezik-e be, vagy sem.</p>
+    <p>A Moodle automatikusan észleli az új rendszert és elvégzi az adatbázis és a fájlrendszer szükséges frissítéseit. 
+    Ha (igen ritka esetben) valamit nem tud végrehajtani, üzenetet jelenít meg a teendő leírásával. </p>
+  </blockquote>
+  <p>&nbsp; </p>
+  <p>Feltéve, hogy minden rendben lezajlott (nem voltak hibaüzenetek), hozzáláthat a frissített Moodle használatához és
+  kiaknázhatja az új lehetőségeket!</p>
+  <p>Ha gondja támad frissítés közben, látogasson el a <a target="_top" href="http://moodle.org/">moodle.org</a> 
+  portálra és a Using Moodle menüpontról küldjön üzenetet az <a target="_top" href="http://moodle.org/mod/forum/view.php?id=28">Installation 
+  Support Forum</a> nevű fórumra.</p>
+</blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center"><font size="1"><a href="." target="_top">Moodle-dokumentáció</a></font></p>
+<p align="center"><font size="1">Verzió: $Id$</font></p>
+
+</body>
+</html>

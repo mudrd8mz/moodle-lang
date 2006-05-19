@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Moodle Docs: Gyakran feltett kérdések (GYFK)</title>
+<link rel="stylesheet" href="docstyles.css" type="TEXT/CSS" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+<h1>Gyakran feltett kérdések (GYFK)</h1>
+<p class="normaltext">Ezen az oldalon válaszokat talál a Moodle telepítésével kapcsolatosan leggyakrabban feltett kérdésekre.
+Ha nyomon követte a <a href="./?file=install.html">telepítési utasításokat</a>, de mégis gondja támadt, feltehetőleg a legmegfelelőbb helyre érkezett. </p>
+
+<p class="normaltext">Ha nem talál rá a keresett válaszra, próbálkozzék a <a href="http://moodle.org/mod/forum/index.php?id=5" target="_top">Using 
+  Moodle</a> elnevezésű kurzussal a moodle.org portálon. Néhány kulcsszó megadásával kezdje el a kutatást a fórumokban, hátha már esett bennük szó az adott problémáról. 
+  Ha semmit nem talál, próbáljon feltenni egy kérdést az érintett fórumra - általában valaki tud segíteni.</p>
+
+<p class="normaltext">Ha végigpróbált egy sor megoldást és nem jutott eredményre, a rendszere pedig tűzfal mögött fut, megpróbálhatja
+újrakonfigurálni a tűzfalat, hátha az blokkolja valamely funkciót vagy kapcsolatot.
+A tűzfalak ritkán okoznak gondot a Moodle használata során, de a rossz beállítás esetleg csökkent működőképességet eredményezhet.
+
+<p class="normaltext">Az alábbi felsorolás alapján válassza ki a megfelelő választ:</p>
+
+<p class="questionlink"><a href="#filenotfound">Ha egy feltöltött állományt próbálok elérni vagy megtekinteni, &quot;File not Found&quot; (Az állomány nem található) üzenetet kapok.</a></p>
+<p class="questionlink"><a href="#php">PHP - telepítve van-e a gépen, és ha igen, melyik változat?</a></p>
+<p class="questionlink"><a href="#blankpages">Miért üresek az oldalaim?</a></p>
+<p class="questionlink"><a href="#errorgetstring">Az oldalaim végzetes hibát jeleznek, pl.: call to undefined function: get_string()</a></p>
+<p class="questionlink"><a href="#headerssent">Miért kapok &quot;headers already sent&quot; (fejlécek elküldése már megtörtént) hibaüzeneteket?</a></p>
+<p class="questionlink"><a href="#failedopen">Ezt a hibaüzenetet kapom: Failed opening required '/web/moodle/lib/setup.php'</a></p>
+<p class="questionlink"><a href="#quotes">Az aposztróffal (') vagy idézőjellel (&quot;) beszúrt szövegek hibát okoznak vagy egy perjellel együtt jelennek meg</a></p>
+<p class="questionlink"><a href="#sessiontmp">A session_start hibaüzenetet kapom.</a></p>
+<p class="questionlink"><a href="#fixdirroot">A rendszergazda oldalára térve a rendszer arra kér, hogy üres legyen a gyökérkönyvtár!</a></p>
+<p class="questionlink"><a href="#loginsetting">Bejelentkezem, de a bejelentkezési ugrópont nem változik. Be vagyok jelentkezve és szabadon navigálhatok.</a></p>
+<p class="questionlink"><a href="#resource1">Forrás hozzáadásakor hibaüzenetet kapok.</a></p>
+<p class="questionlink"><a href="#noadmin">A kezdeti beállítás során a rendszer nem kéri, hogy hozzak létre egy rendszergazda-felhasználót!</a></p>
+<p class="questionlink"><a href="#nologin">Nem tudok bejelentkezni - nem tudok továbblépni a bejelentkezési képernyőről.</a></p>
+<p class="questionlink"><a href="#backup">Hogyan készíthetek biztonsági mentést a Moodle portálomról?</a></p>
+<p class="questionlink"><a href="#locale">Miért nem jelzi a Moodle helyesen az időt és a dátumot?</a></p>
+<p class="questionlink"><a href="#cron">Fórumaimról nem mennek ki e-mail másolatok</a></p>
+<p class="questionlink">&nbsp;</p>
+<h3><a name="filenotfound"></a>Ha egy feltöltött állományt próbálok elérni vagy megtekinteni, &quot;File not Found&quot; (Az állomány nem található) üzenetet kapok.</h3>
+<p class="answer">Például: Not Found: The requested URL /moodle/file.php/2/myfile.jpg was not found on this server. </p>
+<p class="answer">Webszerverét be kell állítani úgy, hogy az URL kód utáni részét átadhassa a kódnak. Ez Apache 1 esetén
+általában be van kapcsolva, Apache 2 alatt viszont nincs. Bekapcsolásához szúrja be az alábbi sort a httpd.conf fájlba, 
+vagy a helyi könyvtárban elhelyezett  .htaccess állományba (részletek a <a href="./?file=install.html#webserver">Telepítési dokumentációban</a>): </p>
+<p class="answercode"><b>AcceptPathInfo</b> on</p>
+<p class="answer">A fenti sor CSAK Apache 2.x verzió esetén működik! </p>
+<p class="answer">Ha nem Apache 2-t használ és mégis jelentkezik ez a probléma (kevéssé valószínű), a Moodle-t átállíthatja egy alternatív módszer használatára. 
+Ennek hátránya a némi teljesítménycsökkenés és a HTML forrásokban a relatív ugrópontok használhatatlansága. </p>
+<p class="answer">Az alternatív módszer használatához: jelentkezzen be rendszergazdaként, térjen át a "Változók" oldalra és módosítsa 
+a "<b>slasharguments</b>" beállítását. Ezután elérheti a feltöltött állományokat.</p>
+<p class="answer">&nbsp;</p>
+<h3><a name="php"></a>PHP - telepítve van-e a gépen, és ha igen, melyik változat?</h3>
+<p class="answer">Hozzon létre a portálján egy új állományt info.php névvel és az alábbi tartalommal, majd nyissa meg a böngészőjéből:</p>
+  <p class="answercode">&lt;?PHP phpinfo() ?&gt;</p>
+<p class="answer">Ha nem történik semmi, a PHP nincs telepítve. A telepítési dokumentumokban talál információkat arról, hogyan töltheti le a gépére.</p>
+<p class="answer">&nbsp;</p>
+<h3><a name="blankpages"></a>Miért üresek az oldalaim?</h3> 
+<p class="answer">Ellenőrizze a dirroot változót a config.php állományban. Teljes útvonalakat kell megadnia, pl.:</p>
+<p class="answercode"> $CFG->dirroot = "d:\inetpub\sites\www.yoursite.com\web\moodle";</p>
+<p>&nbsp; </p>
+<p class="answer">Redhat Linux platform esetén lásd: <a href="http://moodle.org/doc/?file=installamp.html">Redhat Linux</a></p>
+<p>&nbsp; </p>
+<h3><a name="errorgetstring"></a>Az oldalaim végzetes hibát jeleznek, pl.: call to undefined function: get_string()</h3>
+<p class="answer">Ha ilyen hibaüzenetekkel találkozik:</p>
+<p class="answercode">Parse error: parse error, unexpected T_VARIABLE in c:\program files\easyphp\www\moodle\config.php on line 94 <br />
+Fatal error: Call to undefined function: get_string() in c:\program files\easyphp\www\moodle\mod\resource\lib.php on line 11</p>
+<p class="answer">akkor feltehetőleg kifelejtett egy pontosvesszőt vagy egy bezáró idézőjelet a config.php állományban (a 94. sor előtt).</p>
+<p class="answer">Egy másik ok lehet, ha a config.php-t pl. Wordben nyitotta meg szerkesztésre, majd HTML-dokumentumként mentette el egyszerű szöveg helyett.</p>
+<p>&nbsp;</p>
+<h3><a name="headerssent"></a>Miért kapok &quot;headers already sent&quot; (fejlécek elküldése már megtörtént) hibaüzeneteket?</h3>
+<p class="answer">Ha ilyen hibaüzenetekkel találkozik:</p>
+<p class="answercode">Warning: Cannot add header information - headers already sent by (output started at /webs/moodle/config.php:87) 
+in /webs/moodle/lib/moodlelib.php on line 1322 </p>
+<p class="answercode"> Warning: Cannot add header information - headers already sent by (output started at /webs/moodle/config.php:87) 
+in /webs/moodle/lib/moodlelib.php on line 1323 </p>
+<p class="answercode"> Warning: Cannot add header information - headers already sent by (output started at /webs/moodle/config.php:87) 
+in /webs/moodle/login/index.php on line 54 </p>
+<p class="answer">akkor a lezáró ?> után a config.php állományban szóközök vagy üres sorok maradhattak. Egyes szövegszerkesztők 
+- pl. a Notepad Windowsban - néha ilyet szúrnak be, ezért más szerkesztővel kell ezeket eltávolítani. </p>
+<p class="answer">&nbsp;</p>
+<h3><a name="failedopen"></a>Ezt a hibaüzenetet kapom: Failed opening required '/web/moodle/lib/setup.php'</h3>
+<p class="answer">A config.php állományban a dirroot változó beállításának a <strong>szerver merevlemezéhez a teljes útvonalat kell 
+tartalmaznia</strong>.</p>
+<p class="answer">Ha csak viszonylagos útvonalat ad meg a gyökérkönyvtárától vagy a webszerver könyvtárához viszonyít, az nem elegendő.</p>
+<p class="answer">&nbsp;</p>
+<h3><a name="quotes" id="quotes"></a>Az aposztróffal (') vagy idézőjellel (&quot;) beszúrt szövegek hibát okoznak vagy egy perjellel együtt jelennek meg</h3>
+<p class="answer">Az aposztrófok hibáit a nem megfelelő &quot;magic quotes&quot; beállítások okozzák. A Moodle-hoz az alábbi
+(általában alapbeállítás szerinti) beállításokra van szükség:</p>
+<p class="answercode">magic_quotes_gpc = On<br />
+ magic_quotes_runtime = Off</p>
+<p class="answer">További részletek a <a href="./?file=install.html#webserver">webszerver konfigurációjával</a> kapcsolatban a
+telepítési dokumentációban olvashatók.</p>
+<p class="answer">&nbsp;</p>
+<h3><a name="sessiontmp"></a>A session_start hibaüzenetet kapom.</h3>
+<p class="answer">Ha ilyen hibaüzenetekkel találkozik:</p>
+<p class="answercode">Warning: session_start() [function.session-start]: open(/tmp\sess_d40f380d37d431fc1516e9a895ad9ce0, O_RDWR) failed: No such file or directory (2) in G:\web\moodle\lib\setup.php on line 123</p>
+<p class="answercode">Warning: session_start() [function.session-start]: open(/tmp\sess_d40f380d37d431fc1516e9a895ad9ce0, O_RDWR) failed: No such file or directory (2) in G:\web\moodle\lib\setup.php on line 123</p>
+<p class="answercode">Warning: session_start() [function.session-start]: Cannot send session cache limiter - headers already sent (output started at G:\web\moodle\lib\setup.php:1) in G:\web\moodle\lib\setup.php on line 123</p>
+<p class="answer">... ennek az az oka, hogy a PHP nem tud eseményfájlokat a merevlemezre menteni (egy /tmp nevű könyvtárba). 
+Többnyire azért, mert NINCS a számítógépén /tmp nevű könyvtár. Ez általában Windows-telepítések esetén fordul elő.</p>
+<p class="answer">Megoldásként állítsa be a PHP-t úgy, hogy létező könyvtárra mutasson. Ezt a php.ini fájlban teheti meg:</p>
+<p class="answercode">session.save_path = C:\temp</p>
+<p class="answer">vagy a Moodle fő könyvtárában a .htaccess állományban:</p>
+<p class="answercode">php_value session.save_path "/home/moodle/sessions"</p>
+<p class="answercode">&nbsp;</p>
+<h3><a name="fixdirroot"></a>A rendszergazda oldalára térve a rendszer arra kér, hogy üres legyen a gyökérkönyvtár!</h3>
+<p class="answer">Ha ilyen hibaüzenetekkel találkozik a Moodle 1.0.9 verzióban:</p>
+<table class="generalbox" cellspacing="0" cellpadding="5" align="center" border="0">
+<tbody>
+<tr>
+<td bgcolor=#ffbbbb>Please fix your settings in config.php: 
+<p>akkor Önnél a beállítás: 
+<p>$CFG-&gt;dirroot = "/home/users/fred/public_html/moodle"; 
+<p>e helyett: 
+<p>$CFG-&gt;dirroot = "";</p></td></tr></tbody></table>
+<p class="answer">mely hiba egyes szervereken jelentkezik. A gond a hibaellenőrző mechanizmussal van, nem a tényleges útvonallal.  
+A hiba elhárításához térjen át erre a sorra (a 66.) az admin/index.php fájlban: </p>
+<p class="answercode">if ($dirroot != $CFG->dirroot) {</p>
+<p class="answer">és módosítsa ekként:</p>
+<p class="answercode">if (!empty($dirroot) and $dirroot != $CFG->dirroot) {</p>
+<p class="answercode">&nbsp;</p>
+<h3><a name="loginsetting"></a>Bejelentkezem, de a bejelentkezési ugrópont nem változik. Be vagyok jelentkezve és szabadon navigálhatok.</h3>
+<p class="answer">Ellenőrizze, hogy az URL a $CFG->wwwroot beállításban megegyezik-e azzal, amelyet pillanatnyilag a portál elérésére használ.</p>
+<p class="answer">&nbsp;</p>
+<h3><a name="resource1"></a>Forrás hozzáadásakor hibaüzenetet kapok.</h3>
+<p class="answer">Feltételezve, hogy Apache-ot használ, feltehetőleg a config.php $CFG->wwwroot beállítása eltér az elérésre 
+ténylegesen használt URL-től. Próbálja meg kikapcsolni a "<b>secureforms</b>" beállítást az Adminisztrációban.</p>
+<p class="answer">&nbsp;</p>
+<h3><a name="noadmin"></a>A kezdeti beállítás során a rendszer nem kéri, hogy hozzak létre egy rendszergazda-felhasználót!</h3>
+<p class="answer">Ez ismert hiba volt a Moodle 1.0.9 változatáig, most már a törzskódban és az 1.1 verziótól ez javítva van.</p>
+<p class="answer">A hiba nem mindenkinél jelentkezik és csak akkor fordul elő, ha a Moodle-t telepítő személy ugyanazon a portálon
+már rendelkezik a böngészőjében egy "user", "admin" vagy "teacher" nevű azonosítóval.</p>
+<p class="answer">Gyorsan elhárítható a hiba, ha telepítés előtt törli a böngészőből a sütiket, 
+egy másik böngészőt használ, vagy a  moodle/admin/user.php fájlnak valahova az elejére beszúrja az alábbi sorokat:</p>
+<p class="answercode">unset($user);<br />unset($admin);<br />unset($teacher);</p>
+<p class="answer">A hiba javítása után célszerű az adatbázis összes tábláját kitörölni és a rendszert újratelepíteni.</p>
+<p class="answer">&nbsp;</p>
+<h3><a name="nologin"></a>Nem tudok bejelentkezni - nem tudok továbblépni a bejelentkezési képernyőről.</h3>
+<p class="answer">Ennek a leggyakoribb oka a számítógépén (nem a Moodle szerverén) lévő tűzfal, amely a hivatkozó információt 
+elzárja a böngésző elől. Íme néhány utasítás ennek a kiküszöböléséhez
+<a href="http://service1.symantec.com/SUPPORT/nip.nsf/46f26a2d6dafb0a788256bc7005c3fa3/b9b47ad7eddd343b88256c6b006a85a8?OpenDocument&amp;src=bar_sch_nam">
+Norton firewall products</a>.</p>
+<p class="answer">A szerver rendszergazdája úgyszintén kijavíthatja ezt a Moodle konfigurációs oldalának szerkesztésével és a
+"<b>secureforms</b>" változó "Nem"-re állításával.</p>
+<p class="answer">A gond másik lehetséges oka lehet, hogy az események nincsenek megfelelően beállítva a szerveren. Ezt ellenőrizheti
+ a http://yourserver/moodle/lib/session-test.php kód lefuttatásával.</p>
+<p class="answer">&nbsp;</p>
+<h3><a name="backup"></a>Hogyan készíthetek biztonsági mentést a Moodle portálomról?</h3>
+<p class="answer">Két fő dologról szükséges biztonsági másolatot készíteni: az adatbázisról és a feltöltött állományokról. 
+Maguk a Moodle-kódok kevésbé fontosak, hiszen szükség esetén bármikor letölthető egy új példány.</p>
+<p class="answer">Biztonsági másolat sokféleképpen készíthető. Unix alatt használhatja az alábbi kódot </p>
+<p class="answercode">cd /my/backup/directory</p>
+<p class="answercode">mv moodle-database.sql.gz moodle-database-old.sql.gz</p>
+<p class="answercode">mysqldump -h example.com -u myusername --password=mypassword -C -Q -e -a mydatabasename > moodle-database.sql</p>
+<p class="answercode">gzip moodle-database.sql</p>
+<p class="answer">Az állományokhoz rendszeres időközönként használhatja az rsync kódot, mellyel a módosult állományokat egy másik gazdagépre másolhatja:</p>
+<p class="answercode">rsync -auvtz --delete -e ssh mysshusername@example.com:/my/server/directory  /my/backup/directory/</p>
+<p class="answercode">&nbsp;</p>
+<h3><a name="locale"></a>Miért nem jelzi a Moodle helyesen az időt és a dátumot?</h3>
+<p class="answer">Minden nyelvhez meghatározott nyelvi kódot (ún. <strong>locale</strong>) kell használni a megfelelő megjelenítéshez.
+A nyelvi csomagok tartalmazzák a standard kódokat, de ezek esetenként nem működnek Windows-szervereken. </p>
+<p class="answer">A megfelelő locale kódjait Windowshoz ezen a két oldalon találja meg: 
+<a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vclib/html/_crt_language_strings.asp" target="_blank">Nyelvkódok</a>
+ és <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vclib/html/_crt_country_strings.asp" target="_blank">
+ Ország/régiókódok</a>.(pl. &quot;esp_esp&quot; spanyol esetén)</p>
+<p class="answer">Az új locale kódjait megadhatja az Adminisztráció/Beállítások/Változók oldalon, 
+ahol azok felülírják a kiválasztott nyelvi csomagban szereplőket.</p>
+<p class="answer">&nbsp;</p>
+<h3><a name="cron"></a>Fórumaimról nem mennek ki e-mail másolatok</h3>
+<p class="answer">Ahhoz, hogy a Moodle automatikusan kiküldjön a fórumokról, feladatokról stb. e-mail üzeneteket,
+megfelelő módon be <strong>kell</strong> állítania a cron-t. Ezzel a programmal végezhet egy sor más karbantartási tennivalót, például régi,
+vissza nem igazolhat felhasználókat törölhet, kiiratkoztathat régi tanulókat stb.</p>
+<p class="answer">A programot úgy kell beállítania, hogy rendszeresen lefusson a http://yoursite/admin/cron.php. 
+Lásd a <a href="./?file=install.html#cron">részleteket a telepítési dokumentációban</a>.</p>
+<p class="answer">Ötlet: próbálja ki a Moodle változóinak oldalán az alapbeállításokat. Az smtphost maradjon üresen. 
+Ez a legtöbb felhasználó esetén beválik.
+<p class="answer">&nbsp;
+<p class="answer">&nbsp;
+<hr />
+<p align="center" class="normaltext"><a href='ma&#105&#108t&#111:ma%72%74in@%6d%6fo%64%6c%65.o%72g' title='mar&#116&#105n@&#109oo&#100&#108&#101&#46&#111&#114g'>
+Új GYFK feltevése</a> (a választ is mellékelje!)</p>
+<hr />
+<p align="right"><strong><em>Köszönet John Eyre-nek ezen GYFK karbantartásában nyújtott segítségéért.</em></strong></p>
+<p align="center"><font size="1"><a href="." target="_top">Moodle-dokumentáció</a></font></p>
+<p align="center"><font size="1">Verzió: $Id$</font></p>
+</body>
+</html>
