@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // grades.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
@@ -32,7 +32,7 @@ $string['extracredit'] = 'Plusz kreditpont';
 $string['extracreditwarning'] = 'Megjegyzés: Ha egy kategória minden tétele plusz kreditponttal szerepel, akkor kimaradnak a pontszámításból, mert nem születik összesített pontszám';
 $string['forstudents'] = 'Tanulóknak';
 $string['gradebook'] = 'Osztálynapló ';
-$string['gradebookhiddenerror'] = 'Az osztálynapló mostani beállításban mindent terjt a tanulók elől.';
+$string['gradebookhiddenerror'] = 'Az osztálynapló mostani beállításban mindent rejt a tanulók elől.';
 $string['gradecategoryhelp'] = 'Súgó a pontszámkategóriához';
 $string['gradeexceptions'] = 'Kivételpontok';
 $string['gradeexceptionshelp'] = 'Súgó a kivételpontokhoz';
@@ -87,12 +87,12 @@ $string['pointsascending'] = 'Rendezés növekvő pontok szerint';
 $string['pointsdescending'] = 'Rendezés csökkenő pontok szerint';
 $string['preferences'] = 'Hivatkozások';
 $string['rawpct'] = 'Nyers %%';
-$string['reprintheaders'] = 'Fejlécek úrjanyomtatása';
+$string['reprintheaders'] = 'Fejlécek újranyomtatása';
 $string['savechanges'] = 'Változások mentése';
 $string['savepreferences'] = 'Preferenciák mentése';
 $string['scaledpct'] = 'Léptékes %%';
 $string['setcategories'] = 'Kategóriák beállítása';
-$string['setcategorieserror'] = 'Súlyok hozzáadása előtt ketagóriákat kell a kurzusához beállítania.';
+$string['setcategorieserror'] = 'Súlyok hozzáadása előtt kategóriákat kell a kurzusához beállítania.';
 $string['setgradeletters'] = 'Pontozási betűk beállítása';
 $string['setpreferences'] = 'Preferenciák beállítása';
 $string['setting'] = 'Beállítás';

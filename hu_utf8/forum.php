@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // forum.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
@@ -53,7 +53,7 @@ $string['discussionname'] = 'Vita megnevezése';
 $string['discussions'] = 'Viták';
 $string['discussionsstartedby'] = '$a által indított vita ';
 $string['discussionsstartedbyrecent'] = '$a által nemrég indított viták';
-$string['discussthistopic'] = 'Téma mwegvitatása';
+$string['discussthistopic'] = 'Téma megvitatása';
 $string['displayend'] = 'Befejezés jelzése';
 $string['displayperiod'] = 'Időtartam jelzése';
 $string['displaystart'] = 'Kezdet jelzése';
@@ -69,7 +69,7 @@ $string['forcesubscribe'] = 'Mindenkit fel kell íratni';
 $string['forcesubscribeq'] = 'Mindenkit fel kell íratni?';
 $string['forum'] = 'Fórum';
 $string['forumauthorhidden'] = 'Szerző (rejtett)';
-$string['forumblockingalmosttoomanyposts'] = 'Közelíti az üzenetek küszöbértékét. Az utaolsó $a->blockperiod alatt $a->numposts alkalommal küldött üzenetet, a határ pedig $a->blockafter üzenet';
+$string['forumblockingalmosttoomanyposts'] = 'Közelíti az üzenetek küszöbértékét. Az utolsó $a->blockperiod alatt $a->numposts alkalommal küldött üzenetet, a határ pedig $a->blockafter üzenet';
 $string['forumbodyhidden'] = 'Az üzenetet nem tekintheti meg, feltehetőleg azért, mert még nem szólt hozzá a vitához.';
 $string['forumintro'] = 'Fórumbevezető';
 $string['forumname'] = 'Fórum neve';

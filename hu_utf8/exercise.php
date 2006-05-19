@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // exercise.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
@@ -92,7 +92,7 @@ $string['noteonassessmentelements'] = 'A pontozás több értékelési elemre bo
 	kattintson az adott kurzus feladatára. Ha nincs benne elem, a rendszer megkéri, hogy<br />
 	adja meg őket. Az elemek számát a Feladat szerkesztése képernyőn módosíthatja,<br />
 	magukat az elemeket pedig a Feladat kezelése képernyőn változtathatja. ';
-$string['noteongradinggrade'] = 'Ez a pont azt fejezi ki, hogy értékelése memnyire egyezik munkájának  <br />
+$string['noteongradinggrade'] = 'Ez a pont azt fejezi ki, hogy értékelése mennyire egyezik munkájának  <br />
 $a általi értékelésével. Minél magasabb a pontszám, annál nagyobb az egyezés.';
 $string['noteonstudentassessments'] = '{Tanuló pontszáma / Tanár osztályozó pontszáma}';
 $string['notgraded'] = 'Nincs lepontozva';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // workshop.php - created with Moodle 1.6 Beta 3 (2006042401)
 
 
 $string['absent'] = 'Hiányzik';
@@ -111,7 +111,7 @@ $string['gradeofsubmission'] = 'Leadott munka pontszáma: $a';
 $string['grades'] = 'Pontok';
 $string['gradesforassessmentsare'] = 'Értékelésre adott pontok meghaladják a $a-t';
 $string['gradesforstudentsassessment'] = '$a értékelésére adott pontok';
-$string['gradesforsubmissionsare'] = 'Leadott munklára adott pontok meghaladják a $a-t';
+$string['gradesforsubmissionsare'] = 'Leadott munkára adott pontok meghaladják a $a-t';
 $string['gradetable'] = 'Pontozási tábla';
 $string['gradingallassessments'] = 'Összes értékelés pontozása';
 $string['gradinggrade'] = 'Pontozás pontozása';
@@ -121,7 +121,7 @@ $string['hidenamesfromstudents'] = 'Nevek elrejtése $a elől';
 $string['includeteachersgrade'] = 'Tanári pontszám szerepeltetése';
 $string['incorrect'] = 'Hibás';
 $string['info'] = 'Infó';
-$string['invaliddates'] = 'A megadott dátum hibás.<br />A bönfésző Vissza gombjával lépjen vissza az űrlapra és javítsa ki a dátumot.';
+$string['invaliddates'] = 'A megadott dátum hibás.<br />A böngésző Vissza gombjával lépjen vissza az űrlapra és javítsa ki a dátumot.';
 $string['iteration'] = '$a ismétlése befejezve';
 $string['lastname'] = 'Családi név';
 $string['lax'] = 'Laza';
@@ -142,7 +142,7 @@ $string['mail8'] = 'A(z) $a feladat egy felülvizsgált munka. ';
 $string['mail9'] = 'Értékelje a $a műhelyfeladatban';
 $string['managingassignment'] = 'Feladat kezelése';
 $string['maximum'] = 'Maximum';
-$string['maximumsize'] = 'Maximuális méret';
+$string['maximumsize'] = 'Maximális méret';
 $string['mean'] = 'Átlag';
 $string['minimum'] = 'Minimum';
 $string['modulename'] = 'Műhely';

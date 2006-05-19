@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // editor.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
@@ -69,7 +69,7 @@ $string['linktargetself'] = 'Azonos keret';
 $string['linktargettop'] = 'Azonos ablak';
 $string['linktitle'] = 'Cím';
 $string['linkurl'] = 'URL';
-$string['matchcase'] = 'Kis-/nagybetű különöző';
+$string['matchcase'] = 'Kis-/nagybetű különbözik';
 $string['middle'] = 'Középre';
 $string['minimize'] = 'Szerkesztő kis méretben';
 $string['move'] = 'Áthelyezés';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // survey.php - created with Moodle 1.6 Beta 3 (2006042401)
 
 
 $string['actual'] = 'Aktuális';
@@ -148,9 +148,9 @@ $string['collesm6short'] = 'Értelmezés';
 $string['collesmintro'] = 'Ebben az online egységben...';
 $string['collespintro'] = 'Ennek a kérdőívnek az a célja, hogy segítsen bennünket annak felmérésében, hogy mit értékel Ön egy online tanulásban.
 
-AZ alábbi 24 megállapítás az egyéggel kapcsolatosan az Ön <b>preferált</b> (ideális) élményére kérdez rá.
+Az alábbi 24 megállapítás az egységgel kapcsolatosan az Ön <b>preferált</b> (ideális) élményére kérdez rá.
 
-Nincsenek \'helyes\' vagy \'rossz\' válaszok; minkezt a véleménye érdekel. Válaszait bizalmasan kezeljük, ezek nem befolyásolják az Ön értékelését.
+Nincsenek \'helyes\' vagy \'rossz\' válaszok; minket a véleménye érdekel. Válaszait bizalmasan kezeljük, ezek nem befolyásolják az Ön értékelését.
 Megfontolt válaszaival segít bennünket abban, hogy az egység bemutatását a jövőben tökéletesíthessük.
 
 Köszönjük!';

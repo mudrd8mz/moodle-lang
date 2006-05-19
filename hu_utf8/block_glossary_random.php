@@ -1,13 +1,13 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // block_glossary_random.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['addentry'] = 'Adja hozzá kedvenc idézeteit!';
 $string['askaddentry'] = 'Ha a tanulók saját fogalmaikat hozzáadhatják a fogalomtárhoz, a fogalomtárhoz egy ugrópont kapcsolódik az alábbi szöveggel';
-$string['askinvisible'] = 'Ha az eredeti fogalomtárat terjtve kívánja tartani a tanulók elől, akkor nem jelennek meg az ugrópontok. Helyettük a következő szöveg jelenik meg.';
-$string['askviewglossary'] = 'Ha a tanlukók csak a teljes fogalomtárat tekinthetik meg, akkor a fogalomtárhoz egy ugrópont kapcsolódik az alábbi szöveggel';
+$string['askinvisible'] = 'Ha az eredeti fogalomtárat rejtve kívánja tartani a tanulók elől, akkor nem jelennek meg az ugrópontok. Helyettük a következő szöveg jelenik meg.';
+$string['askviewglossary'] = 'Ha a tanulók csak a teljes fogalomtárat tekinthetik meg, akkor a fogalomtárhoz egy ugrópont kapcsolódik az alábbi szöveggel';
 $string['blockname'] = 'Véletlenszerű fogalom';
-$string['intro'] = 'Ügyeljen arra, hogy legalábbb egy fogalomtár legalább egy fogalommal hozzá legyen adva ehhez a kurzushoz. EZután beállíthatja a további beállításokat';
+$string['intro'] = 'Ügyeljen arra, hogy legalább egy fogalomtár legalább egy fogalommal hozzá legyen adva ehhez a kurzushoz. Ezután beállíthatja a további beállításokat';
 $string['invisible'] = '(folytatás)';
 $string['lastmodified'] = 'Utoljára módosított fogalom';
 $string['nextone'] = 'Következő fogalom';

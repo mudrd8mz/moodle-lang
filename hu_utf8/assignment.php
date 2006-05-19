@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // assignment.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
@@ -24,7 +24,7 @@ $string['emailteachermail'] = '$a->username frissítette a(z) \'$a->assignment\'
 Itt érhető el:
 
 $a->url';
-$string['emailteachermailhtml'] = '$a->username frissítette  <i>\'$a->assignment\'</i> feladathoz leeadott munkáját<br /><br />
+$string['emailteachermailhtml'] = '$a->username frissítette  <i>\'$a->assignment\'</i> feladathoz leadott munkáját<br /><br />
 Megtalálható <a href=\"$a->url\">ezen a hálószemen</a>.';
 $string['emailteachers'] = 'Tanárok figyelmeztetése e-mailben';
 $string['emptysubmission'] = 'Még semmit nem adott le';

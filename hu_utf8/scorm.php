@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // scorm.php - created with Moodle 1.6 Beta 3 (2006042401)
 
 
 $string['advanced'] = 'Haladó';
@@ -112,7 +112,7 @@ $string['too_many_attributes'] = 'A(z) $a->tag elemnek túl sok az attribútuma'
 $string['too_many_children'] = 'A(z) $a->tag elemnek túl sok a gyermekeleme';
 $string['toolbar'] = 'Eszközsor kijelzése';
 $string['totaltime'] = 'Idő';
-$string['trackingloose'] = 'FIGYELEM: Ezen Ssorm-csomag követési adatai elvesznek!';
+$string['trackingloose'] = 'FIGYELEM: Ezen Scorm-csomag követési adatai elvesznek!';
 $string['type'] = 'Típus';
 $string['validateascorm'] = 'Scorm-csomag érvényesítése';
 $string['validation'] = 'Érvényesítés eredménye';

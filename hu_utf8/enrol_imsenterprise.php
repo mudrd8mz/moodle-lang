@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // enrol_imsenterprise.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
@@ -28,7 +28,7 @@ $string['processphotowarning'] = 'Figyelmeztetés: a képfeldolgozás valószín
 $string['restricttarget'] = 'Csak az alábbi cél megadása esetén dolgozza fel az adatokat';
 $string['sourcedidfallback'] = 'Az adott személy azonosítójaként használja a &quot;sourcedid&quot;-ot, ha a &quot;userid&quot; mező nem található ';
 $string['truncatecoursecodes'] = 'Kurzuskódok lerövidítése ilyen hosszúra';
-$string['usecapitafix'] = 'Jelöülje be a négyzetet, ha &quot;Capita&quot;-t használ (ezek XML-formája kissé hibás)';
+$string['usecapitafix'] = 'Jelölje be a négyzetet, ha &quot;Capita&quot;-t használ (ezek XML-formája kissé hibás)';
 $string['usersettings'] = 'Felhasználói adatok opciói';
 $string['zeroisnotruncation'] = 'A 0 azt jelenti, hogy nincs lerövidítés';
 

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // wiki.php - created with Moodle 1.6 Beta 3 (2006042401)
 
 
 $string['action'] = '-- Tevékenység --';
@@ -153,7 +153,7 @@ $string['strippages'] = 'Oldalak kiiktatása';
 $string['studentadminoptions'] = 'Tanuló adminisztrációs lehetőségei';
 $string['submit'] = 'Beküldés';
 $string['tabattachments'] = 'Csatolt állományok';
-$string['tabedit'] = 'SZerkesztés';
+$string['tabedit'] = 'Szerkesztés';
 $string['tabinfo'] = 'Előzmények';
 $string['tablinks'] = 'Ugrópontok';
 $string['tabview'] = 'Nézet';

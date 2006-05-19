@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // appointment.php - created with Moodle 1.4 (2004083100)
 
 
@@ -36,7 +36,7 @@ $string['uploaderror'] = 'A fájl szerverre mentése közben hiba történt';
 $string['uploadfailnoupdate'] = 'A fájl feltöltése sikerült, de nem frissítette leadott munkáját!';
 $string['uploadfiletoobig'] = 'Sajnos a fájl túl nagy (a maximum $a bájt)';
 $string['uploadnofilefound'] = 'Nincs meg az állomány, biztosan kiválasztott egyet feltöltésre?';
-$string['uploadnotregistered'] = 'A(z) \'$a\' feltöltése sikerült, de a ladott munka regisztrálása nem történt meg!';
+$string['uploadnotregistered'] = 'A(z) \'$a\' feltöltése sikerült, de a leadott munka regisztrálása nem történt meg!';
 $string['uploadsuccess'] = 'A(z) \'$a\' feltöltése sikerült';
 $string['viewfeedback'] = 'A találkozó pontjainak és visszajelzésének megtekintése';
 $string['viewsubmissions'] = 'A(z) \'$a\' leadott találkozóinak megtekintése';

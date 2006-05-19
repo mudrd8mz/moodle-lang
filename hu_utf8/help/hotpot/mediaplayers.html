@@ -1,49 +1,43 @@
-<p align="center"><strong>Relat&iacute;v URL-ek, m&eacute;dialej&aacute;tsz&oacute;k &eacute;s Hot Potatoes</strong></p>
+<p align="center"><span style="font-weight: bold;">Relatív URL-ek, médialejátszók és Hot Potatoes</span></p>
 
-<p><strong>Meghat&aacute;roz&aacute;sok</strong></p>
+<p><span style="font-weight: bold;">Meghatározások</span></p>
+<div class="indent">
+	<p><i>URL</i><br />
 
-<dl>
+	valamely internetes forrás, például weboldal, kép vagy hangállomány címe.</p>
 
-	<dt><i>URL</i></dt>
+	<p><i>abszolút URL</i><br />
 
-	<dd>valamely internetes forr&aacute;s, p&eacute;ld&aacute;ul weboldal, k&eacute;p vagy hang&aacute;llom&aacute;ny c&iacute;me.</dd>
+	a "http://"-vel kezdődő URL. Mindig ugyanarra a címre mutat.</p>
 
-	<dt><i>abszol&uacute;t URL</i></dt>
+	<p><i>relatív URL</i><br />
 
-	<dd>a &quot;http://&quot;-vel kezd&#337;d&#337; URL. Mindig ugyanarra a c&iacute;mre mutat.</dd>
+	nem "http://"-vel kezdődő URL.  Egy "alapoldal" abszolút URL-jével kombinálva 
+	megadható a cím abszolút URL-je.</p>
+</div>
 
-	<dt><i>relat&iacute;v URL</i></dt>
+<p><span style="font-weight: bold;">Relatív URL-ek Hot Potatoes tesztek esetén</span></p>
 
-	<dd>nem &quot;http://&quot;-vel kezd&#337;d&#337; URL.  Egy &quot;alapoldal&quot; abszol&uacute;t URL-j&eacute;vel kombin&aacute;lva 
-	megadhat&oacute; a c&iacute;m abszol&uacute;t URL-je.</dd>
+<p>Relatív URL-ekkel kényelmesen megadhatók Hot Potatoes tesztekhez képek, hangok és videók, 
+hiszen ezek feltöltés előtt megtekinthetők és ellenőrizhetők a helyi gépen.
+Amikor a Moodle-ban használni kívánja a multimédiás állományokat, akkor azokat is 
+fel kell tölteni a Moodle megfelelő könyvtárába.</p>
 
-</dl>
+<p>Biztonsági okokból a Moodle nem engedélyezi a kurzusállományokhoz való közvetlen 
+hozzáférést, hanem egy programkóddal ellenőrzi, hogy az adott személy beiratkozott-e a kurzusba. 
+Emiatt azonban elállítódhatnak a tesztben lévő relatív ugrópontok.</p>
 
-<p><strong>Relat&iacute;v URL-ek Hot Potatoes tesztek eset&eacute;n</strong></p>
+<p>A megoldás viszonylag egyszerű: <font color="red"><span style="font-weight: bold;">minden relatív URL-t
+át kell alakítani abszolúttá, </span></font> 
+mire a teszt a böngészőbe betöltődik. A Hot Potatoes típusú tesztek esetén ezt a Moodle 
+elvégzi, 
+így a tartalomfejlesztőknek nem kell ezzel a fáradságos és könnyen elhibázható 
+feladattal bajlódniuk. </p>
 
-<p>Relat&iacute;v URL-ekkel k&eacute;nyelmesen megadhat&oacute;k Hot Potatoes tesztekhez k&eacute;pek, hangok &eacute;s vide&oacute;k, 
-hiszen ezek felt&ouml;lt&eacute;s el&#337;tt megtekinthet&#337;k &eacute;s ellen&#337;rizhet&#337;k a helyi g&eacute;pen.
-Amikor a Moodle-ban haszn&aacute;lni k&iacute;v&aacute;nja a multim&eacute;di&aacute;s &aacute;llom&aacute;nyokat, akkor azokat is 
-fel kell t&ouml;lteni a Moodle megfelel&#337; k&ouml;nyvt&aacute;r&aacute;ba.</p>
+<p><span style="font-weight: bold;">Médialejátszók Hot Potatoes tesztek esetén </span></p>
 
-<p>Biztons&aacute;gi okokb&oacute;l a Moodle nem enged&eacute;lyezi a kurzus&aacute;llom&aacute;nyokhoz val&oacute; k&ouml;zvetlen 
-hozz&aacute;f&eacute;r&eacute;st, hanem egy programk&oacute;ddal ellen&#337;rzi, hogy az adott szem&eacute;ly beiratkozott-e a kurzusba. 
-Emiatt azonban el&aacute;ll&iacute;t&oacute;dhatnak a tesztben l&eacute;v&#337; relat&iacute;v ugr&oacute;pontok.</p>
-
-<p>A megold&aacute;s viszonylag egyszer&#369;: <font color="red"><strong>minden relat&iacute;v URL-t
-&aacute;t kell alak&iacute;tani abszol&uacute;tt&aacute;, </strong></font> 
-mire a teszt a b&ouml;ng&eacute;sz&#337;be bet&ouml;lt&#337;dik. A Hot Potatoes t&iacute;pus&uacute; tesztek eset&eacute;n ezt a Moodle 
-elv&eacute;gzi, 
-&iacute;gy a tartalomfejleszt&#337;knek nem kell ezzel a f&aacute;rads&aacute;gos &eacute;s k&ouml;nnyen elhib&aacute;zhat&oacute; 
-feladattal bajl&oacute;dniuk. </p>
-
-<p><strong>M&eacute;dialej&aacute;tsz&oacute;k Hot Potatoes tesztek eset&eacute;n </strong></p>
-
-<p>Egyes m&eacute;dialej&aacute;tsz&oacute;k nem fogadj&aacute;k el azokat az &aacute;llom&aacute;nyokat, amelyeket kurzusv&eacute;d&#337; 
-k&oacute;don kereszt&uuml;l kapnak. Ilyen esetben olyan lej&aacute;tsz&oacute;t kell haszn&aacute;lni, amely kompatibilis a Moodle-lal. 
-Ez el&eacute;rhet&#337; a tesztben megadott lej&aacute;tsz&oacute; m&oacute;dos&iacute;t&aacute;s&aacute;val, vagy a Moodle annak 
-elfogad&aacute;s&aacute;ra k&eacute;nyszer&iacute;t&eacute;s&eacute;vel a &quot;M&eacute;dialej&aacute;tsz&oacute;k elfogad&aacute;sa&quot; 
-&quot;Igen&quot;-re &aacute;ll&iacute;t&aacute;s&aacute;val a teszt be&aacute;ll&iacute;t&aacute;sainak az oldal&aacute;n.</p>
-
-
-
+<p>Egyes médialejátszók nem fogadják el azokat az állományokat, amelyeket kurzusvédő 
+kódon keresztül kapnak. Ilyen esetben olyan lejátszót kell használni, amely kompatibilis a Moodle-lal. 
+Ez elérhető a tesztben megadott lejátszó módosításával, vagy a Moodle annak 
+elfogadására kényszerítésével a "Médialejátszók elfogadása" 
+"Igen"-re állításával a teszt beállításainak az oldalán.</p>

@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // data.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
@@ -44,7 +44,7 @@ $string['descending'] = 'Csökkenő';
 $string['edit'] = 'Szerkesztés';
 $string['editcomment'] = 'Megjegyzés szerkesztése';
 $string['editentry'] = 'Tétel szerkesztése';
-$string['emptyadd'] = 'A Hozzáadás sablon üres, alapbeállításszerinti űrlap készül...';
+$string['emptyadd'] = 'A Hozzáadás sablon üres, alapbeállítás szerinti űrlap készül...';
 $string['emptyaddform'] = 'Nem töltött ki egy mezőt sem!';
 $string['entries'] = 'Tételek';
 $string['entrysaved'] = 'Tételének mentése megtörtént';

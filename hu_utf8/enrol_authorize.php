@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // enrol_authorize.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
@@ -6,7 +6,7 @@ $string['adminauthorizeccapture'] = 'Megrendelés ellenőrzése és beállítás
 $string['adminauthorizeemail'] = 'E-mail küldésének beállításai';
 $string['adminauthorizesettings'] = 'Authorize.net beállításai';
 $string['adminauthorizewide'] = 'Portálra érvényes beállítások';
-$string['adminavs'] = 'Jelölje be ezt, ha bekapcsolta a címellenőrzési rendszert (AVS) authorize.net fiókjában. Itt olyan címrészleteket kell megadni, mint utca, állam, ország és irányítószám, amikor a fehasználó fizetési űrlapot tölt ki.';
+$string['adminavs'] = 'Jelölje be ezt, ha bekapcsolta a címellenőrzési rendszert (AVS) authorize.net fiókjában. Itt olyan címrészleteket kell megadni, mint utca, állam, ország és irányítószám, amikor a felhasználó fizetési űrlapot tölt ki.';
 $string['admincronsetup'] = 'A cron.php karbantartó kód legalább 24 órája nem futott le. <br />Az ütemezett megterhelés használatához be kell kapcsolnia a Cront.<br />Állítsa be a cront megfelelően, vagy ismét szüntesse meg az an_review bejelölését.<br />Az ütemezett megterhelés kikapcsolásakor az ügyleteket törli a rendszer, ha 30 napon belül nem ellenőrzi őket.<br />Ellenőrizze az an_review-t és az an_capture_day mezőbe írjon \'0\' -t,<br />ha 30 napon belül kézzel kíván fizetéseket elfogadni/elutasítani.';
 $string['adminemailexpired'] = '<b>$a</b> nappal korábban figyelmeztető e-mail küldése a rendszergazdáknak az \'engedélyezett/folyamatban lévő megterhelési\' ügyletről, mielőtt az lejár. (0=e-mail küldésének kikapcsolása, alapbeállítás=2, max=5)<br />Ez akkor hasznos, ha bekapcsolta a kézi megterhelést (an_review=bejelölve, an_capture_day=0).';
 $string['adminhelpcapture'] = 'Nemcsak kézzel akarok elfogadni/elutasítani fizetést. Az ütemezett megterhelés használatával meg kívánom előzni a fizetés törlését. Mi a teendő?
@@ -137,7 +137,7 @@ $string['sendpaymentbutton'] = 'Pénz küldése';
 $string['settled'] = 'Rendezve';
 $string['settlementdate'] = 'Rendezés dátuma';
 $string['subvoidyes'] = 'A visszatérített $a->transid ügylet törölve lesz és $a->amount összeget jóváírunk a számláján. Biztosan ezt akarja?';
-$string['tested'] = 'Elenőrizve';
+$string['tested'] = 'Ellenőrizve';
 $string['testmode'] = '[ELLENŐRZÉSI MÓD]';
 $string['testwarning'] = 'A megterhelés/törlés/jóváírás tesztmódban üzemel, de az adatbázisba nem került rekord vagy nem lett frissítve.';
 $string['transid'] = 'Ügyletazonosító';

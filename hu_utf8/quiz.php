@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // quiz.php - created with Moodle 1.6 Beta 3 (2006042401)
 
 
 $string['1day'] = '1 nap';
@@ -11,7 +11,7 @@ $string['acceptederror'] = 'Elfogadott hiba';
 $string['action'] = 'Lépés';
 $string['adaptive'] = 'Adaptív mód';
 $string['addcategory'] = 'Kategória hozzáadása';
-$string['addingquestions'] = 'Az oldalon itt kezelheti kérdéseinek adatbázisát. A kérdések kategóriákba vannak rendezve és kurzusán belül bármely tesztben felhasználhatók, sőt, más kurzusokban is, ha úgy dönt, hogy \"közreadja\" őket. <br /><br />Kérdéskategória kiválasztása vagy létrehozása után hozhat létree vagy szerkeszthet kérdéseket. A kérdések közül bármelyiket kiválaszthatja és hozzáadhatja az oldal másik felén lévő teszthez.';
+$string['addingquestions'] = 'Az oldalon itt kezelheti kérdéseinek adatbázisát. A kérdések kategóriákba vannak rendezve és kurzusán belül bármely tesztben felhasználhatók, sőt, más kurzusokban is, ha úgy dönt, hogy \"közreadja\" őket. <br /><br />Kérdéskategória kiválasztása vagy létrehozása után hozhat létren vagy szerkeszthet kérdéseket. A kérdések közül bármelyiket kiválaszthatja és hozzáadhatja az oldal másik felén lévő teszthez.';
 $string['addquestions'] = 'Kérdések hozzáadása';
 $string['addquestionstoquiz'] = 'Kérdések hozzáadása ehhez a teszthez';
 $string['addrandom'] = '$a véletlenszerű kérdés hozzáadása';
@@ -47,7 +47,7 @@ $string['attemptquiznow'] = 'Teszt megoldása most';
 $string['attempts'] = 'Próbálkozások';
 $string['attemptsallowed'] = 'Engedélyezett próbálkozás';
 $string['attemptselection'] = 'Felhasználónként elemzendő próbálkozások kiválasztása';
-$string['attemptsexist'] = 'A teszttel már történt próbálkozás. <br />Több kérdést már nem adhat hozzá és nem törölhet.ou can no longer add or remove questions.';
+$string['attemptsexist'] = 'A teszttel már történt próbálkozás. <br />Több kérdést már nem adhat hozzá és nem törölhet.';
 $string['attemptsonly'] = 'Csak a próbálkozást tett tanulók megjelenítése';
 $string['attemptsunlimited'] = 'Korlátlan számú próbálkozás';
 $string['back'] = 'Vissza a kérdés előzetes megtekintéséhez';
@@ -117,9 +117,9 @@ $string['custom'] = 'Saját forma';
 $string['datasetdefinitions'] = '$a kategóriához újrahasználható adatkészlet megadása';
 $string['datasetnumber'] = 'Szám';
 $string['daysavailable'] = 'Napok száma';
-$string['decimaldigits'] = 'Tizedesjegyek a pontozásban';
+$string['decimaldigits'] = 'Tizedes jegyek a pontozásban';
 $string['decimalformat'] = 'tizedes';
-$string['decimalpoints'] = 'tizedesjegy';
+$string['decimalpoints'] = 'tizedes jegy';
 $string['decimals'] = '$a-val';
 $string['default'] = 'Alapbeállítás';
 $string['defaultgrade'] = 'Alapbeállítás szerinti kérdéspont';
@@ -131,7 +131,7 @@ $string['deletequestioncheck'] = 'Biztosan törölni akarja a(z) \'$a\' -t?';
 $string['deletequestionscheck'] = 'Biztosan törölni ezeket a kérdéseket?  <div>$a</div>';
 $string['deleteselected'] = 'Kiválasztott törlése';
 $string['description'] = 'Leírás';
-$string['discrimination'] = 'Megkül. idex';
+$string['discrimination'] = 'Megkül. index';
 $string['displayoptions'] = 'Kijelzési lehetőségek';
 $string['download'] = 'Az exportált kategóriafájl letöltéséhez kattintson';
 $string['downloadextra'] = '(a fájl szerepel a kurzusállományok között is a /quiz mappában)';
@@ -161,7 +161,7 @@ $string['editquiz'] = 'Teszt szerkesztése';
 $string['editquizquestions'] = 'Tesztkérdések szerkesztése';
 $string['errormissingquestion'] = 'Hiba: a rendszerből hiányzik a(z) $a azonosítójú kérdés';
 $string['errornotnumbers'] = 'Hiba - a válaszoknak számjegyesnek kell lenni';
-$string['errorsdetected'] = '$a hiba fodult elő';
+$string['errorsdetected'] = '$a hiba fordult elő';
 $string['essay'] = 'Esszé';
 $string['essayquestions'] = 'Kérdések';
 $string['event1'] = 'Automatikus mentés';
@@ -198,7 +198,7 @@ $string['formatnotimplemented'] = 'A formátum hibás, küldjön hibajelentést'
 $string['fractionsaddwrong'] = 'A pozitív pontok összege nem 100%%,
 <br />hanem $a%%.
 <br />Visszatér és kijavítja ezt a kérdést?';
-$string['fractionsnomax'] = 'Valamelyik válasz legyen 100%%, enélkül nem
+$string['fractionsnomax'] = 'Valamelyik válasz legyen 100%%, e nélkül nem
 <br />lehet a kérdésre teljes pontot adni.
 <br />Visszatér és kijavítja ezt a kérdést?';
 $string['functiontakesatleasttwo'] = 'A(z) $a függvénynek legalább két argumentummal kell rendelkezni.';
@@ -229,6 +229,7 @@ $string['import'] = 'Importálás';
 $string['importerror'] = 'Hiba importálás feldolgozása közben';
 $string['importfilearea'] = 'Kurzusfájlok között szereplő állomány importálása';
 $string['importfileupload'] = 'Importálás fájlfeltöltésből';
+$string['importfromthisfile'] = 'Importálás ebből az állományból';
 $string['importingquestions'] = '$a kérdések importálása fájlból';
 $string['importmax10error'] = 'Hiba a kérdésben. Tíznél több választ nem adhat meg.';
 $string['importmaxerror'] = 'Hiba a kérdésben. Túl sok a válasz.';
@@ -257,7 +258,7 @@ $string['link'] = 'Ugrópont';
 $string['listitems'] = 'Teszt tételeinek felsorolása';
 $string['literal'] = 'Érték';
 $string['loguniform'] = 'egységes logaritmusos szórásból származó számjegyek';
-$string['lowmarkslimit'] = 'Ne lemezze, ha a pontszám kisebb, mint:';
+$string['lowmarkslimit'] = 'Ne elemezze, ha a pontszám kisebb mint:';
 $string['makecopy'] = 'Mentés új kérdésként';
 $string['managetypes'] = 'Kérdéstípusok és szerverek kezelése';
 $string['manualgrading'] = 'Pontozás';
@@ -305,7 +306,7 @@ $string['noconnection'] = 'Jelenleg nincs olyan webszolgáltatási kapcsolat, am
 $string['nodataset'] = 'semmi - ez nem helyettesítő karakter';
 $string['noessayquestionsfound'] = 'Nincs kézzel pontozott kérdés';
 $string['nominal'] = 'Névleges';
-$string['nomoreattempts'] = 'Több próbálkozás nem lehetségesNo more attempts are allowed';
+$string['nomoreattempts'] = 'Több próbálkozás nem lehetséges';
 $string['none'] = 'Egy sem';
 $string['nopossibledatasets'] = 'Nincsenek lehetséges adatkészletek';
 $string['noquestionintext'] = 'A kérdés szövegében nincs beépített kérdés';
@@ -374,7 +375,7 @@ $string['randomsamatch'] = 'Véletlen kiegészítő párosító';
 $string['randomsamatchcreate'] = 'Véletlen kiegészítő párosító kérdések létrehozása';
 $string['randomsamatchintro'] = 'Az alábbi kérdésekhez válassza ki a megfelelő választ a menüből';
 $string['randomsamatchnumber'] = 'Választandó kérdések száma';
-$string['readytosend'] = 'Teljes tesztjét pontozásra készül beküldeni. Biztonsan folytatni kívánja?';
+$string['readytosend'] = 'Teljes tesztjét pontozásra készül beküldeni. Biztosan folytatni kívánja?';
 $string['reattemptquiz'] = 'Teszt újbóli megoldása';
 $string['recentlyaddedquestion'] = 'Nemrégen hozzáadott kérdés!';
 $string['recurse'] = 'Alkategóriák kérdéseit is mutassa';
@@ -503,6 +504,7 @@ $string['viewallanswers'] = '$a kész tesztjeinek megtekintése';
 $string['viewallreports'] = '$a próbálkozások jelentéseinek megtekintése';
 $string['warningsdetected'] = '$a figyelmeztetés felderítve';
 $string['webct'] = 'WebCT-forma';
+$string['wheregrade'] = 'Hol van a pontszámom?';
 $string['wildcard'] = 'Helyettesítő';
 $string['withselected'] = 'kiválasztottal';
 $string['withsummary'] = 'összegző statisztikával';
@@ -510,7 +512,7 @@ $string['wronggrade'] = 'Hibás pont ($a sor után)';
 $string['wronguse'] = 'Így ezt az oldat nem használhatja';
 $string['xhtml'] = 'XHTML-forma';
 $string['xml'] = 'Moodle XML-forma';
-$string['xmltypeunsupported'] = 'A(z) $a kérdéstípust ax xml-importálás nem támogatja.';
+$string['xmltypeunsupported'] = 'A(z) $a kérdéstípust az xml-importálás nem támogatja.';
 $string['yourfinalgradeis'] = 'Végső pontszáma ennél a tesztnél $a';
 $string['zerosignificantfiguresnotallowed'] = 'A jó válasznak nem lehet nulla szignifikáns számjegye!';
 

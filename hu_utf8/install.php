@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // install.php - created with Moodle 1.6 Beta 3 (2006042401)
 
 
 $string['admindirerror'] = 'A megadott rendszergazdakönyvtár hibás';
@@ -72,7 +72,7 @@ Adja meg a teljes webcímet, ahol a Moodle elérhető lesz. Ha portálja több U
 Adja meg a telepítés teljes útvonalát. Ügyeljen a kis-/nagybetűk különbözésére.</p>
 
 <p><b>Adatkönyvtár:</b>
-Egy helyre lesz szüksége, ahova a Moodle a feltöltött állományokat menti. A könyvtárnak olvashatónak és a webszerver felhasználója által (ez általában \'nobody\' vagy \'apache\') ÍRHATÓNAK kell lennie, ugyanakkor ne legyen az Internetről közveltenül elérhető.</p>';
+Egy helyre lesz szüksége, ahova a Moodle a feltöltött állományokat menti. A könyvtárnak olvashatónak és a webszerver felhasználója által (ez általában \'nobody\' vagy \'apache\') ÍRHATÓNAK kell lennie, ugyanakkor ne legyen az Internetről közvetlenül elérhető.</p>';
 $string['directorysettingshead'] = 'Erősítse meg a Moodle telepítésének helyét.';
 $string['directorysettingssub'] = '<strong>Webcím:</strong>
 Adja meg a teljes webcímet, ahol a Moodle elérhető lesz. Ha portálja több URL-ről is elérhető, adja meg azt, amelyet a tanulók leginkább használni fognak. Ne tegyen a végére perjelet.
@@ -87,7 +87,7 @@ Egy helyre lesz szüksége, ahova a Moodle a feltöltött állományokat menti. 
 $string['dirroot'] = 'Moodle-könyvtár';
 $string['dirrooterror'] = 'A \'Moodle-könyvtár\' beállítása feltehetőleg hibás - nem található alatta a Moodle telepítése. Az alábbi értéket visszaállítottuk.';
 $string['download'] = 'Letöltés';
-$string['downloadlanguagebutton'] = 'Töltse le a(z) &quot;$a&quot; nyelvi csomagot';
+$string['downloadlanguagebutton'] = 'Töltse le a(z) \"$a\" nyelvi csomagot';
 $string['downloadlanguagehead'] = 'Töltse le a nyelvi csomagot';
 $string['downloadlanguagenotneeded'] = 'Folytathatja a telepítést az alapértelmezés szerinti \"$a\" nyelvi csomaggal.';
 $string['downloadlanguagesub'] = 'Letölthet most egy nyelvi csomagot és azon a nyelven folytathatja a telepítést.<br /><br />Ha nem tudja letölteni, folytathatja a telepítést angol nyelven. (A telepítés végén lehetősége lesz további nyelvi csomagok letöltésére és telepítésére.)';
@@ -103,12 +103,12 @@ $string['fileuploadshelp'] = '<p>Szerverén az állományok feltöltése feltehe
 $string['gdversion'] = 'GD-verzió';
 $string['gdversionerror'] = 'Képek feldolgozásához és készítéséhez a GD-könyvtárnak léteznie kell.';
 $string['gdversionhelp'] = '<p>Feltehetőleg szerverén nincs telepítve a GD.</p>
-<p>A GD a PHP számára szükséges könyvtár, mellyel a Moodle képeket (például flehasználói ikonokat) tud feldolgozni és újakat tud készíteni (például naplódiagramokat). A Moodle működik GD nélkül is - csak ezek a lehetőség nem lesznek az Ön számára elérhetők.</p>
+<p>A GD a PHP számára szükséges könyvtár, mellyel a Moodle képeket (például felhasználói ikonokat) tud feldolgozni és újakat tud készíteni (például naplódiagramokat). A Moodle működik GD nélkül is - csak ezek a lehetőség nem lesznek az Ön számára elérhetők.</p>
 <p>A GD Unix alatti PHP-hez való hozzáadásához a PHP-t fordítsa a --with-gd paraméterrel.</p>
 <p>Windows alatt szerkesztheti a php.ini-t: el kell távolítani a megjegyzésjelet a libgd.dll-re hivatkozó sor elejéről.</p>';
 $string['globalsquotes'] = 'Globális változók nem biztonságos kezelése';
-$string['globalsquoteserror'] = 'Javítsa ki a PHP beállításait: kapcsoolja ki a disable register_globals és/vagy az enable magic_quotes_gpc opciókat';
-$string['globalsquoteshelp'] = '<p>Nem ajánlottt egyszerre kikapcsolni a Magic Quotes GPC-t és bekapcsolni a Register Globals-t.</p>
+$string['globalsquoteserror'] = 'Javítsa ki a PHP beállításait: kapcsolja ki a disable register_globals és/vagy az enable magic_quotes_gpc opciókat';
+$string['globalsquoteshelp'] = '<p>Nem ajánlott egyszerre kikapcsolni a Magic Quotes GPC-t és bekapcsolni a Register Globals-t.</p>
 
 <p>Az ajánlott beállítás <b>magic_quotes_gpc = On</b> és <b>register_globals = Off</b> a php.ini-ben.</p>
 
@@ -122,12 +122,11 @@ $string['langdownloaderror'] = 'A(z) \"$a\" nyelv nincs telepítve. A telepíté
 $string['langdownloadok'] = 'A(z) \"$a\" nyelv telepítése sikerült. A telepítés ezen a nyelven folytatódik.';
 $string['magicquotesruntime'] = 'Futásidejű Magic Quotes';
 $string['magicquotesruntimeerror'] = 'Kikapcsolva kell lennie';
-$string['magicquotesruntimehelp'] = '<p>A futásidejű Magic Quotes-nak kikapcsolva kell lennie runtime should be turned off for Moodle to function properly.</p>
+$string['magicquotesruntimehelp'] = '<p>A futásidejű Magic Quotes-nak kikapcsolva kell lennie a Moodle megfelelő működéséhez.</p>
 
-<p>Normally it is off by default ... see the setting <b>magic_quotes_runtime</b> in your php.ini file.</p>
+<p>Alaphelyzetben ez ki van kapcsolva ... lásd a <b>magic_quotes_runtime</b> beállítást a php.ini fájlban.</p>
 
-<p>If you don\'t have access to your php.ini, you might be able to place the following line in a file 
-called .htaccess within your Moodle directory:
+<p>Ha nem éri el a php.ini állományát, próbálja meg beszúrni a következő sort egy .htaccess elnevezésű állományba a Moodle könyvtárba:
 </p><blockquote>php_value magic_quotes_runtime Off</blockquote>';
 $string['memorylimit'] = 'Memóriakorlát';
 $string['memorylimiterror'] = 'A PHP memóriakorlátja túl alacsonyra van állítva... ez a későbbiekben gondot okozhat.';
@@ -143,7 +142,7 @@ beállítást pl. 16M-ra. Ha nem éri el az állományt, kérje meg a rendszerad
 <p>Vannak szerverek, ahol ez <b>az összes</b> PHP-oldal működését megakadályozza  
 (az oldalak hibát jeleznek), ezért el kell távolítania a .htaccess állományt.</p></li>
 </ol>';
-$string['mysqlextensionisnotpresentinphp'] = 'A PHP nincs jól beállítva a has not been properly configured with the MySQL extension so that it can communicate with MySQL. Please check your php.ini file or recompile PHP.';
+$string['mysqlextensionisnotpresentinphp'] = 'A PHP nincs jól beállítva a MySQL kiterjesztéshez, így nem tud ele kommunikálni. Ellenőrizze a php.ini fájlt vagy fordítsa újra a PHP-t.';
 $string['pass'] = 'Rendben';
 $string['phpversion'] = 'PHP-verzió';
 $string['phpversionerror'] = 'A PHP-verzió legalább 4.1.0 legyen';

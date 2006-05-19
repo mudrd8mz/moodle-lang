@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // error.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
@@ -38,7 +38,7 @@ $string['missingrequiredfield'] = 'Egy szükséges mező hiányzik';
 $string['modulemissingcode'] = 'A $a modulból hiányzik a funkció végrehajtásához szükséges programkód';
 $string['modulerequirementsnotmet'] = 'A(z) \"$a->modulename\" modult ($a->moduleversion) nem lehetett telepíteni. Ehhez a Moodle újabb verziójára van szükség (Ön most a $a->currentmoodle változatot használja, ehelyett a $a->requiremoodle modulra van szüksége).';
 $string['mustbeteacher'] = 'Az oldal megtekintéséhez tanárnak kell lennie';
-$string['noinstances'] = 'A(z) $a nem fordule elő ebben a kurzusban! ';
+$string['noinstances'] = 'A(z) $a nem fordul elő ebben a kurzusban! ';
 $string['nonmeaningfulcontent'] = 'Nem értelmezhető tartalom';
 $string['noparticipatorycms'] = 'Önnel kapcsolatosan nincs jelentéssel ellátható résztvevői kurzusmodul.';
 $string['notavailable'] = 'Jelenleg nem elérhető';

@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // auth.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
@@ -9,16 +9,16 @@ $string['auth_cas_create_user'] = 'Kapcsolja be, ha CAS által hitelesített fel
 $string['auth_cas_enabled'] = 'Kapcsolja be, ha a CAS általi hitelesítést használni kívánja.';
 $string['auth_cas_hostname'] = 'A CAS-szerver gazdaneve<br />pl.: host.domain.fr';
 $string['auth_cas_invalidcaslogin'] = 'Bejelentkezése nem sikerült, nem kapott rá felhatalmazást.';
-$string['auth_cas_language'] = 'Selected language';
+$string['auth_cas_language'] = 'kiválasztott nyelv';
 $string['auth_cas_logincas'] = 'Biztonságos hozzáférésű csatlakozás';
 $string['auth_cas_port'] = 'A CAS-szerver portja';
 $string['auth_cas_server_settings'] = 'A CAS-szerver beállítása';
 $string['auth_cas_text'] = 'Biztonságos csatlakozás';
 $string['auth_cas_version'] = 'A CAS verziója';
-$string['auth_casdescription'] = 'Ez a módszer egy CAS-szervert (Központi Hitelesítő Szolgáltatást) alkalmaz ahhoz, hogy a felhasználókat egyszeri bejelentkezési (SSO) környezetben hitelesítse. Használhat egyszerű LDAP-hitelesítést is. Ha a CAS szerint a felhasználónév és a jelszó érvényes, akkor a Moodle létrehoz egy új felhasználót az adatbáziásban, szükség esetén a felhasználói jellemzőket az LDAP-ból veszi. A következő bejelentkezéskor már csak a  felhasználónév és a jelszó ellenőrzésére kerül sor.';
+$string['auth_casdescription'] = 'Ez a módszer egy CAS-szervert (Központi Hitelesítő Szolgáltatást) alkalmaz ahhoz, hogy a felhasználókat egyszeri bejelentkezési (SSO) környezetben hitelesítse. Használhat egyszerű LDAP-hitelesítést is. Ha a CAS szerint a felhasználónév és a jelszó érvényes, akkor a Moodle létrehoz egy új felhasználót az adatbázisában, szükség esetén a felhasználói jellemzőket az LDAP-ból veszi. A következő bejelentkezéskor már csak a  felhasználónév és a jelszó ellenőrzésére kerül sor.';
 $string['auth_castitle'] = 'CAS-szerver használata (SSO)';
 $string['auth_changepasswordhelp'] = 'Súgó jelszómódosításhoz';
-$string['auth_changepasswordhelp_expl'] = 'Megjeleníti a $a jelszavukat elfelejtő felhasználók súgóját. Ez vagy a <strong>Jelszómódosítási URL</strong>-lel vagy a Moodle belső jelszómódosításával együtt jelenik meg, vagy nélküle.';
+$string['auth_changepasswordhelp_expl'] = 'Megjeleníti a $a jelszavukat elfelejtő felhasználók súgóját. Ez vagy a <strong>Jelszó-módosítási URL</strong>-lel vagy a Moodle belső jelszómódosításával együtt jelenik meg, vagy nélküle.';
 $string['auth_changepasswordurl'] = 'URL-jelszó módosítása';
 $string['auth_changepasswordurl_expl'] = 'Adja meg a $a jelszavukat elfelejtő felhasználóknak küldendő url-t. Állítsa a <strong>Szokásos jelszómódosító oldalt</strong> <strong>Nem</strong>-re.';
 $string['auth_common_settings'] = 'Általános beállítások';
@@ -43,7 +43,7 @@ $string['auth_fcfppport'] = 'Szerverport (leggyakrabban 3333)';
 $string['auth_fchost'] = 'A FirstClass szerver címe. Használja az IP-számot vagy a DNS-nevet.';
 $string['auth_fcpasswd'] = 'Jelszó a fenti felhasználóhoz.';
 $string['auth_fctitle'] = 'Használjon FirstClass szervert';
-$string['auth_fcuserid'] = '\'Segédrendszergazdai\' joggal rendelkező felhasználó FirstClass azonosítója beállítva.';
+$string['auth_fcuserid'] = '\'Segéd-rendszergazdai\' joggal rendelkező felhasználó FirstClass azonosítója beállítva.';
 $string['auth_fieldlock'] = 'Érték zárolása';
 $string['auth_fieldlock_expl'] = '<p><strong>Érték zárolása:</strong> Bekapcsolásakor a felhasználók és a rendszergazdák a mezőt nem szerkeszthetik közvetlenül. Akkor jelölje be, ha az adatokat a külső hitelesítési rendszerben kezeli. </p>';
 $string['auth_fieldlocks'] = 'Felhasználómezők zárolása';
@@ -84,7 +84,7 @@ $string['auth_ldapextrafields'] = 'Ezek a mezők nem kötelezőek. Néhány felh
 $string['auth_ldaptitle'] = 'LDAP-szerver használata';
 $string['auth_manualdescription'] = 'Ez a módszer nem teszi lehetővé felhasználók számára azonosítók létrehozását. Minden felhasználói azonosítót az adminisztrátornak kell kézzel létrehozni.';
 $string['auth_manualtitle'] = 'Csak kézzel létrehozott felhasználói azonosítók';
-$string['auth_multiplehosts'] = 'Több gazdas VAGY cím adható meg (pl. host1.com;host2.com;host3.com vagy xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx)';
+$string['auth_multiplehosts'] = 'Több gazda VAGY cím adható meg (pl. host1.com;host2.com;host3.com vagy xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx)';
 $string['auth_nntpdescription'] = 'Ez a módszer egy NNTP-szerverrel ellenőrzi a felhasználónév és a jelszó érvényességét.';
 $string['auth_nntphost'] = 'Az NNTP-szerver címe. Az IP-címet használja, ne a DNS-nevet.';
 $string['auth_nntpport'] = 'Szerverport (általában a 119-es)';
@@ -121,7 +121,7 @@ $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_updatelocal'] = 'Helyi adatok frissítése';
 $string['auth_updatelocal_expl'] = '<p><b>Helyi adatok frissítése:</b> Bekapcsolása esetén a mező (külső hitelesítésből) mindannyiszor frissítve lesz, ahányszor a felhasználó bejelentkezik, vagy a felhasználók szinkronizálására kerül sor. A helyileg frissítendő mezőket zárolni kell.</p>';
 $string['auth_updateremote'] = 'Külső adatok frissítése';
-$string['auth_updateremote_expl'] = '<p><b>Külső adatok frissítése:</b> Bekapcsolása esetén a külső hitelesítés mindannyiszor frissítve lesz, ahányszor a felhasználói rekord frissíése megtörténik. Szerkesztés engedélyezéséhez a mezők zárolását fel kell oldani.</p>';
+$string['auth_updateremote_expl'] = '<p><b>Külső adatok frissítése:</b> Bekapcsolása esetén a külső hitelesítés mindannyiszor frissítve lesz, ahányszor a felhasználói rekord frissítése megtörténik. Szerkesztés engedélyezéséhez a mezők zárolását fel kell oldani.</p>';
 $string['auth_updateremote_ldap'] = '<p><b>Megjegyzés:</b> Külső LDAP-adatok frissítéséhez egy  bind-user-hez be kell állítani a binddn és a bindpw értékét az összes felhasználói rekordra vonatkozó szerkesztési privilégiummal. Jelenleg nem őrzi meg a többértékű attribútumokat és frissítéskor a fölös értékeket eltávolítja. </p>';
 $string['auth_user_create'] = 'Felhasználó létrehozásának engedélyezése';
 $string['auth_user_creation'] = 'Új (névtelen) felhasználók is létrehozhatnak új felhasználói azonosítót a külső hitelesítési forráson, e-mailes megerősítéssel. Ha ezt engedélyezi, ne feledje megadni a felhasználó létrehozásához a modul-specifikus adatokat.';
@@ -131,7 +131,7 @@ $string['authinstructions'] = 'Itt tájékoztathatja a felhasználókat arról, 
 $string['changepassword'] = 'Jelszó URL-jének módosítása';
 $string['changepasswordhelp'] = 'Itt megadhat egy helyet, ahol a felhasználók visszakereshetik vagy megváltoztathatják felhasználói nevüket/jelszavukat, ha elfelejtették. Ez gombként jelenik meg a bejelentkező oldalon és az adott felhasználó oldalán. Ha üresen hagyja, nem jelenik meg ilyen gomb.';
 $string['chooseauthmethod'] = 'Válasszon hitelesítési eljárást:';
-$string['createpasswordifneeded'] = 'SZükség esetén hozzon létre egy jelszót';
+$string['createpasswordifneeded'] = 'Szükség esetén hozzon létre egy jelszót';
 $string['forcechangepassword'] = 'Jelszómódosítás kényszerítése';
 $string['forcechangepassword_help'] = 'Felhasználói jelszó módosításának kikényszerítése a Moodle-ba való következő bejelentkezéskor.';
 $string['forcechangepasswordfirst_help'] = 'Felhasználói jelszó módosításának kikényszerítése a Moodle-ba való első bejelentkezéskor.';
@@ -144,10 +144,10 @@ $string['md5'] = 'MD5-titkosítás';
 $string['passwordhandling'] = 'Jelszavas mezőkezelés';
 $string['plaintext'] = 'Egyszerű szöveg';
 $string['shib_no_attributes_error'] = 'Úgy tűnik, rendelkezik Shibboleth jogosultsággal, de a Moodle nem kapott semmilyen felhasználói attribútumot. Ellenőrizze, hogy az azonosítási szolgáltatója átadja-e a Moodle szolgáltatója részére a szükséges attribútumokat ($a), vagy értesítse a szerver webmesterét.';
-$string['shib_not_all_attributes_error'] = 'A Moodle-nak a Shibboleth néhány attribútumára van szüksége, mely az Ön esetlben hiányzik. Ezek a következők: $a<br />Értesítse a szerver webmesterét vagy az azonosítási szolgáltatóját.';
+$string['shib_not_all_attributes_error'] = 'A Moodle-nak a Shibboleth néhány attribútumára van szüksége, mely az Ön esetében hiányzik. Ezek a következők: $a<br />Értesítse a szerver webmesterét vagy az azonosítási szolgáltatóját.';
 $string['shib_not_set_up_error'] = 'A Shibboleth jogosultsága nincs megfelelően beállítva, mert az oldalhoz nincsenek meg a Shibboleth környezeti változói. A Shibboleth jogosultságával kapcsolatosan olvassa el a <a href=\"README.txt\">README</a> állományt vagy értesítse a Moodle ezen telepítésének webmesterét.';
 $string['showguestlogin'] = 'Megjelenítheti vagy elrejtheti a vendégként való belépésre szolgáló gombot a bejelentkező oldalon.';
-$string['stdchangepassword'] = 'Szokásos jelszómódosítási oldal használata';
+$string['stdchangepassword'] = 'Szokásos jelszó-módosítási oldal használata';
 $string['stdchangepassword_expl'] = 'Ha a külső hitelesítési rendszer lehetővé teszi a jelszómódosítást a Moodle-on keresztül, akkor ezt állítsa Igen-re. Felülírja a \'Jelszó URL-jének módosítása\' beállítást.';
 $string['stdchangepassword_explldap'] = 'MEGJEGYZÉS: Az LDAP-ot távoli LDAP-szerver esetén célszerű SSL kódoláson (ldaps://) keresztül használni.';
 $string['unlocked'] = 'Zárolatlan';

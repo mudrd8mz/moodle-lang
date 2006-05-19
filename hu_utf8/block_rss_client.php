@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // block_rss_client.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
@@ -13,7 +13,7 @@ $string['clientshowimagelabel'] = 'Csatornakép megjelenítése, ha van:';
 $string['configblock'] = 'Blokk beállítása';
 $string['couldnotfindfeed'] = 'Az azonosítóval nem találtam hírt';
 $string['customtitlelabel'] = 'Testre szabott cím (üresen hagyva a hír címe jelenik meg):';
-$string['deletefeedconfirm'] = 'Biztosan tölöni akarja ezt a hírt?';
+$string['deletefeedconfirm'] = 'Biztosan törölni akarja ezt a hírt?';
 $string['displaydescriptionlabel'] = 'Minden ugrópont leírása jelenjen meg?';
 $string['editfeeds'] = 'RSS/Atom fórumhírek szerkesztése, járatása vagy leiratkozás';
 $string['editnewsfeeds'] = 'Fórumhírek szerkesztése';

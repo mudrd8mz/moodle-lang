@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // choice.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
@@ -16,7 +16,7 @@ $string['displayvertical'] = 'Függőleges kijelzés';
 $string['full'] = '(Teljes)';
 $string['havetologin'] = 'Válasz megadása előtt be kell jelentkeznie';
 $string['limit'] = 'Korlát';
-$string['limitanswers'] = 'ENgedélyezett válaszok számának korlátozása';
+$string['limitanswers'] = 'Engedélyezett válaszok számának korlátozása';
 $string['modulename'] = 'Válasz';
 $string['modulenameplural'] = 'Válaszok';
 $string['mustchooseone'] = 'Mentés előtt válasszon egy választ. Nem történt mentés.';

@@ -1,11 +1,11 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // block_quiz_results.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['bestgrade'] = 'Legmagasabb pontszám:';
 $string['bestgrades'] = 'A $a legmagasabb pontszámok:';
-$string['bestgroupgrade'] = 'A legmagasabb átalogot elért csoport:';
-$string['bestgroupgrades'] = 'A $a legmagasabb átalogot elért csoportok:';
+$string['bestgroupgrade'] = 'A legmagasabb átlagot elért csoport:';
+$string['bestgroupgrades'] = 'A $a legmagasabb átlagot elért csoportok:';
 $string['config_format_absolute'] = 'Abszolút számok';
 $string['config_format_fraction'] = 'Törtek';
 $string['config_format_percentage'] = 'Százalékok';

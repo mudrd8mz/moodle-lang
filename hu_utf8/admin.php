@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // admin.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
@@ -76,7 +76,7 @@ $string['configlongtimenosee'] = 'Ha a tanulók hosszú ideig nem jelentkeznek b
 $string['configmaxbytes'] = 'Itt adható meg a teljes portálra vonatkozóan a feltöltött állományok maximális száma. Ezt a beállítást a PHP upload_max_filesize beállítása és az Apache LimitRequestBody beállítása határolja be. Ugyanakkor a maxbytes a kurzusszinten vagy a modulszinten megadható méreteket korlátozza.';
 $string['configmaxeditingtime'] = 'Ez adja meg azt az időt, amely alatt még lehet fórumüzeneteket, naplóvisszajelzéseket stb. újraszerkeszteni. Rendszerint egy 30 perces időtartam megfelelőnek mondható.';
 $string['configmessaging'] = 'Bekapcsolandó-e a portál felhasználói közötti üzenetküldő rendszer?';
-$string['configmymoodleredirect'] = 'Ez a beállítás az átirányításokat a /my-ba tereli, ha nem rendszergazda jelentkezik be és lecseréli a legfelső szintű portálmorzsát /my-ra';
+$string['configmymoodleredirect'] = 'Ez a beállítás az átirányításokat a /my-ba tereli, ha nem rendszergazda jelentkezik be és lecseréli a legfelső szintű portálelemet /my-ra';
 $string['confignoreplyaddress'] = 'E-maileket esetenként egy felhasználó nevében továbbít a rendszer (pl. fórumüzenetek). Az itt megadott e-mail cím jelenik meg mint \"Feladó\" azon esetekben, amikor a címzettek nem válaszolhatnak közvetlenül a felhasználónak (például amikor a felhasználó úgy dönt, hogy címét nem hozza nyilvánosságra).';
 $string['confignotifyloginfailures'] = 'A bejelentkezési hibák rögzítése után e-mail értesítések küldhetők. Ki láthatja ezeket az értesítéseket?';
 $string['confignotifyloginthreshold'] = 'Ha a sikertelen bejelentkezésekről szóló értesítés be van kapcsolva, egy felhasználótól vagy egy IP-címről jövő hányadik sikertelen bejelentkezési próbálkozás után kell értesítést adni?';
@@ -108,14 +108,14 @@ $string['configsessioncookie'] = 'Ez a beállítás szabja meg azt a sütinevet,
 $string['configsessioncookiepath'] = 'Ha módosítani kívánja a Moodle sütijeinek helyét, megadhat egy alkönyvtárat a portálján. Ellenkező esetben megfelelő az az alapértelmezett \'/\'.';
 $string['configsessiontimeout'] = 'Ha a portálra bejelentkezett személyek sokáig tétlenek (oldalak töltése nélkül), a rendszer automatikusan kijelentkezteti őket (eseményük befejeződik). Ez a változó szabja meg ezt az időtartamot.';
 $string['configshowblocksonmodpages'] = 'Egyes tevékenységmodulok támogatják oldalaikon a blokkok használatát. Bekapcsolása esetén a tanárok az oldalakon oldalsó blokkokat használhatnak, ellenkező esetben az interfész nem jeleníti meg a blokkokat.';
-$string['configshowsiteparticipantslist'] = 'Az oldalhoz tartozó összes tanuló és tanár neve szereplni fog az oldalhoz tartozó résztvevők felsorolásában. Ki tekintheti meg  az oldalhoz tartozó résztvevők felsorolását?';
+$string['configshowsiteparticipantslist'] = 'Az oldalhoz tartozó összes tanuló és tanár neve szerepelni fog az oldalhoz tartozó résztvevők felsorolásában. Ki tekintheti meg  az oldalhoz tartozó résztvevők felsorolását?';
 $string['configsitemailcharset'] = 'A portálon keletkező összes e-mail ebben a karakterkészletben jelenik meg. Egyébként bármely felhasználó beállíthatja, ha az alábbi lehetőség be van kapcsolva.';
 $string['configsitepolicy'] = 'Ha a portállal kapcsolatosan olyan feltételeket alakít ki, amelyet a portál használata előtt minden felhasználónak meg kell ismerni és el kell fogadni, úgy annak URL-címét itt kell megadni; ellenkező esetben hagyja ezt a mezőt üresen. Az URL bárhova mutathat - például a portál egyik állományára:  http://portalnev/file.php/1/feltetel.HTML';
 $string['configslasharguments'] = 'Az állományok (képek, feltöltések stb.) olyan kódon keresztül állnak rendelkezésre, amely  \'perjeles argumentumokat\' használ (itt a második opció). Ezzel a módszerrel az állományokat könnyebben betöltheti a webböngészőbe, proxyszerverbe stb. Sajnos némelyik PHP-szerverrel ez a módszer nem használható, ezért ha gond támad a feltöltött állományok vagy képek (például felhasználók képei) megtekintésével, állítsa be ezt a változót az első opcióra.';
 $string['configsmtphosts'] = 'Adja meg egy vagy több olyan helyi SMTP-szerver teljes nevét, amelyet a Moodle levélküldésre használhat (pl. \'mail.a.com\' vagy \'mail.a.com;mail.b.com\'). Ha üresen hagyja, a Moodle levélküldésre a PHP alapbeállítás szerinti módszerét fogja használni.';
 $string['configsmtpuser'] = 'Ha fentebb beállított egy SMTP-szervert és a szervernek hitelesítésre van szüksége, a felhasználónevet és a jelszót adja meg itt.';
 $string['configstatsfirstrun'] = 'Itt adható meg, milyen régi naplók legyenek feldolgozva, amikor a cronjob  <b>először</b> akarja feldolgozni a statisztikát. Ha nagy a forgalma és másokkal osztozik a portálon, jobb kerülni a túl régre való visszanyúlást, mert sokáig tarthat és sok erőforrást köthet le. (Ne feledje, hogy ennél a beállításnál 1 hónap = 28 nap. Az előállított grafikonok és jelentések esetén 1 hónap = 1 naptári hónap.)';
-$string['configstatsmaxruntime'] = 'A statisztika feldolgozása erőforrás-igényes lehet, ezért ezt a mezőt kapocsolja össze a következővel a lefuttatás idejének és tartamának a megadásához.';
+$string['configstatsmaxruntime'] = 'A statisztika feldolgozása erőforrás-igényes lehet, ezért ezt a mezőt kapcsolja össze a következővel a lefuttatás idejének és tartamának a megadásához.';
 $string['configstatsruntimestart'] = 'A statisztikai feldolgozást végző cronjob mikor <b>induljon</b>?';
 $string['configstatsuserthreshold'] = 'Ha itt egy nem nulla és nem számjegyes értéket ad meg a kurzusok rangsorolására, az ennél kevesebb számú beiratkozott felhasználót (tanulót és tanárt) tartalmazó kurzusokat a rendszer figyelmen kívül hagyja.';
 $string['configteacherassignteachers'] = 'Az \'egyszerű\' tanárok hozzárendelhetnek-e más tanárokat az általuk tanított kurzusokhoz? Ha \'Nem\', akkor csakis a kurzuskészítők és a rendszergazdák rendelhetnek tanárokat a kurzusokhoz.';
@@ -133,7 +133,7 @@ $string['dbmigrateconnecerror'] = 'Nem lehetett a megadott adatbázishoz kapcsol
 $string['dbmigrateencodingerror'] = 'A megadott adatbázis kódolása UNICODE/UTF8 helyett $a. <br />Adjon meg helyette egy másikat.';
 $string['dbmigratepostgres'] = 'Az Ön által használt adatbázisszerver feltehetőleg a PostgreSQL. Az áttelepítési folyamat folytatásához kézi úton új adatbázist kell \"UNICODE\" (PostgreSQL 7) vagy \"UTF8\" (PostgreSQL 8) kódolással létrehozni az áttelepített adatok tárolásához. Folytatáshoz alább adja meg az új adatbázis kapcsolódási beállításait:';
 $string['dbmigratewarning'] = 'A folytatás előtt ellenőrizze, készített-e biztonsági mentést Moodle-adatbázisáról. Ha nem biztos abban, hogyan kell ezt megtenni, forduljon a rendszergazdához. Az áttelepítési folyamat elindítása után a Moodle portál karbantartási üzemmódba kerül.';
-$string['dbmigratewarning2'] = '<b>Figyelmeztetés: Most indítja el az áttelepítési folyamatot. Minképpen győződjön meg arról, hogy a teljes Moodle adatbázisról készült-e biztonsági másolat.</b>';
+$string['dbmigratewarning2'] = '<b>Figyelmeztetés: Most indítja el az áttelepítési folyamatot. Mindenképpen győződjön meg arról, hogy a teljes Moodle adatbázisról készült-e biztonsági másolat.</b>';
 $string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">Az adatbázisról új UTF8 áttelepítés készült, így ez elavulttá vált. A config.php szerkesztésével a Moodle-t használja ezzel az új adatbázissal.</font>';
 $string['dbmigrationdupfailed'] = 'Az adatbázisról nem sikerült másodpéldányt készíteni , ennek feltételezett oka:<font color=\"#ff0000\"><pre>$a</pre></font>';
 $string['density'] = 'Sűrűség';
@@ -213,7 +213,7 @@ $string['pgcluster'] = 'PostgreSQL fürt';
 $string['pgclusterdescription'] = 'A PostgreSQL verzió/fürt paramétere parancssori műveletekhez. Ha csak egy postgresql van a rendszerén telepítve, illetve ha nem biztos abban, melyik van telepítve, akkor hagyja ezt a mezőt üresen. 	';
 $string['pleaseregister'] = 'A gomb eltávolításához regisztrálja portálját';
 $string['releasenoteslink'] = 'A Moodle ezen verziójának adataival kapcsolatosan olvassa el az online <a target=\"_new\" href=\"$a\">Változatra vonatkozó megjegyzések</a>et';
-$string['remotelangnotavailable'] = 'Mivel a Moodle nem képes a download.moodle.org-hoz kapcsolódni, a nyelvi csomag nem telepíthető automatikusan. Töltse le az alábbi listából a megfelelő tömörített állomány(oka)t, másolja a $a könyvtárba és kézzel bonsta ki.';
+$string['remotelangnotavailable'] = 'Mivel a Moodle nem képes a download.moodle.org-hoz kapcsolódni, a nyelvi csomag nem telepíthető automatikusan. Töltse le az alábbi listából a megfelelő tömörített állomány(oka)t, másolja a $a könyvtárba és kézzel bontsa ki.';
 $string['renameerrors'] = 'Hiba az átnevezés során';
 $string['sitelangchanged'] = 'A portál nyelvi beállításainak módosítása sikerült';
 $string['sitemaintenance'] = 'A portálon karbantartás folyik, jelenleg nem elérhető';

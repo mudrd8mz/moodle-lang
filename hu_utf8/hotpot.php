@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // hotpot.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
@@ -75,7 +75,7 @@ $string['questionshort'] = 'Q-$a';
 $string['quiztype'] = 'Teszttípus';
 $string['rawdetails'] = 'Próbálkozás nyers részletei';
 $string['regrade'] = 'Újrapontozás';
-$string['regradecheck'] = 'Biztoan újra akarja pontozni \"$a\"?';
+$string['regradecheck'] = 'Biztosan újra akarja pontozni \"$a\"?';
 $string['regraderequired'] = 'Újrapontozás szükséges';
 $string['reportanswers'] = 'Válasz';
 $string['reportattemptfinish'] = 'Próbálkozás vége';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // moodle.php - created with Moodle 1.6 Beta 3 (2006042401)
 
 
 $string['action'] = 'Lépés';
@@ -113,7 +113,7 @@ $string['autosubscribe'] = 'Automatikus feliratkozás a fórumra';
 $string['autosubscribeno'] = 'Nem: nem iratkozom fel automatikusan a fórumokra';
 $string['autosubscribeyes'] = 'Igen: ha hozzászólok, írjon fel a fórumra';
 $string['availability'] = 'Felvehetőség';
-$string['availablecourses'] = 'Felvehető tanfolyamok';
+$string['availablecourses'] = 'Felvehető kurzusok';
 $string['backtoparticipants'] = 'Vissza a résztvevők felsorolásához';
 $string['backup'] = 'Biztonsági mentés';
 $string['backupcancelled'] = 'Biztonsági mentés érvénytelenítve';
@@ -445,7 +445,7 @@ $string['existingcoursedeleting'] = 'Létező kurzus, először törlöm';
 $string['existingcreators'] = 'Létező kurzusszerzők';
 $string['existingstudents'] = 'Beiratkozott tanulók';
 $string['existingteachers'] = 'Létező tanárok';
-$string['expirynotify'] = 'Enrolment expiry notification';
+$string['expirynotify'] = 'Beiratkozás lejártáról szóló értesítés';
 $string['expirynotifyemail'] = 'Az alábbi tanulók kurzusban való szereplése pontosan $a->threshold nap múlva lejár:
 
 $a->current
@@ -457,7 +457,7 @@ $a->past
 A beiratkozási időszak meghosszabbításához áttérhet a következő oldalra:
 $a->extendurl';
 $string['expirynotifystudents'] = 'Tanulók értesítése';
-$string['expirynotifystudentsemail'] = 'Dear studentKedves Tanuló!
+$string['expirynotifystudentsemail'] = 'Kedves Tanuló!
 
 Értesítjük, hogy a(z) $a->course -ra vonatkozó beiratkozása $a->threshold napon belül lejár.
 
@@ -595,12 +595,13 @@ $string['htmlfilesonly'] = 'Csak HTML-állományok';
 $string['htmlformat'] = 'Szerkesztett HTML-forma';
 $string['icqnumber'] = 'ICQ-szám';
 $string['idnumber'] = 'Azonosítószám';
+$string['idnumbercourse'] = 'Kurzus azonosítószáma';
 $string['import'] = 'Importálás';
 $string['importactivities'] = 'Tevékenységek importálása másik kurzusból';
 $string['importdata'] = 'Kurzusadatok importálása';
 $string['importdataexported'] = 'A forráskurzusa adatainak exportálása sikerült. <br />Folytassa a célkurzusába való importálással.';
 $string['importdatafinished'] = 'Az importálás megtörtént! ';
-$string['importdatafrom'] = 'Kurzus keresése adatimportálához:';
+$string['importdatafrom'] = 'Kurzus keresése adatimportáláshoz:';
 $string['importgroups'] = 'Csoportok importálása';
 $string['importmetacoursenote'] = 'Ezen az űrlapon adhat hozzá kurzusokat a metakurzusához (importálva a beiratkozásokat is)';
 $string['inactive'] = 'Nincs bekapcsolva';
@@ -743,9 +744,10 @@ $string['moduledeleteconfirm'] = 'A \'$a\' modult készül teljesen kitörölni.
 $string['moduledeletefiles'] = 'A \'$a\' modulhoz kapcsolódó minden adat kitörlődött az adatbázisból. A törlés befejezéséhez (és a modul újratelepülésének megelőzéséhez) ezt a könyvtárat ki kell most törölnie a szerveréről: $a->directory';
 $string['modulesetup'] = 'Modultáblák létrehozása';
 $string['modulesuccess'] = 'A $a táblák létrehozása sikerült';
-$string['moodledocslink'] = 'Az oldahoz tartozó Moodle Docs';
+$string['moodledocslink'] = 'Az oldalhoz tartozó Moodle Docs';
 $string['moodleversion'] = 'Moodle verziója';
 $string['more'] = 'tovább';
+$string['moreinformation'] = 'További tájékoztatás erről a hibáról';
 $string['mostrecently'] = 'legutoljára';
 $string['move'] = 'Áthelyezés';
 $string['movecategoryto'] = 'Kategória áthelyezése a következő helyre:';
@@ -818,7 +820,7 @@ $string['nopotentialadmins'] = 'Nincs lehetséges rendszergazda';
 $string['nopotentialcreators'] = 'Nincs lehetséges készítő';
 $string['nopotentialstudents'] = 'Nincs lehetséges tanuló';
 $string['nopotentialteachers'] = 'Nincs lehetséges tanár';
-$string['noreplybouncemessage'] = 'Választ nem váró e-mail címre válaszolt. Ha fórumra próbált választ küldeni, használja ehelelyett a $a fórumokat. E-mailjének tartalma:';
+$string['noreplybouncemessage'] = 'Választ nem váró e-mail címre válaszolt. Ha fórumra próbált választ küldeni, használja ehelyett a $a fórumokat. E-mailjének tartalma:';
 $string['noreplybouncesubject'] = '$a - visszapattanó e-mail.';
 $string['noreplyname'] = 'Ne válaszoljon erre az e-mailre';
 $string['noresults'] = 'Nincs eredmény';
@@ -913,7 +915,7 @@ $string['potentialteachers'] = 'Lehetséges tanárok';
 $string['preferences'] = 'Preferenciák';
 $string['preferredlanguage'] = 'Választott nyelv';
 $string['preferredtheme'] = 'Választott téma';
-$string['preview'] = 'Teszt megjelenítése';
+$string['preview'] = 'Forrás megjelenítése';
 $string['previewhtml'] = 'HTML formájú tesztoldal';
 $string['previeworchoose'] = 'Egy téma megtekintése vagy kiválasztása';
 $string['previous'] = 'Előző';
@@ -976,7 +978,7 @@ $string['rss'] = 'RSS';
 $string['rssarticles'] = 'Újabb RSS-cikkek száma';
 $string['rsserror'] = 'Hiba RSS-adatok olvasása közben';
 $string['rsstype'] = 'RSS-frissítés ehhez a tevékenységhez';
-$string['saveandnext'] = 'Mentés és a következő megjelnítése';
+$string['saveandnext'] = 'Mentés és a következő megjelenítése';
 $string['savechanges'] = 'Változás mentése';
 $string['savepreferences'] = 'Preferenciák mentése';
 $string['saveto'] = 'Mentés helye';
@@ -1208,7 +1210,7 @@ $string['uploadformlimit'] = 'A feltöltött állomány mérete nagyobb, mint az
 $string['uploadlabel'] = 'Cím:';
 $string['uploadnofilefound'] = 'Nincs ilyen fájl. Biztos benne, hogy kiválasztott egyet feltöltésre?';
 $string['uploadnotallowed'] = 'Feltöltés nincs engedélyezve';
-$string['uploadoldfilesdeleted'] = 'A régi állomány(ok) törlőtek feltöltési területéről';
+$string['uploadoldfilesdeleted'] = 'A régi állomány(ok) a feltöltési területéről törlődtek ';
 $string['uploadpartialfile'] = 'A(z) $a állomány feltöltése csak részben sikerült';
 $string['uploadproblem'] = 'Ismeretlen probléma lépett fel a(z) \'$a\' fájl feltöltésekor (talán túl nagy a fájl?)';
 $string['uploadrenamedchars'] = 'Érvénytelen karakterek miatt az állomány $a->oldname helyett $a->newname nevet kapott.';
@@ -1217,7 +1219,7 @@ $string['uploadserverlimit'] = 'A feltöltött állomány mérete nagyobb, mint 
 $string['uploadthisfile'] = 'A fájl feltöltése';
 $string['uploadusers'] = 'Felhasználók feltöltése';
 $string['usedinnplaces'] = '$a helyen használva';
-$string['usemessageform'] = 'vagy az alábbi űrlappal küldjön üzenetet a kiválaszott hallgatóknak';
+$string['usemessageform'] = 'vagy az alábbi űrlappal küldjön üzenetet a kiválasztott hallgatóknak';
 $string['user'] = 'Felhasználó';
 $string['userconfirmed'] = '$a megerősítve';
 $string['userdata'] = 'Felhasználói adatok';
@@ -1228,7 +1230,7 @@ $string['userlist'] = 'Felhasználók felsorolása';
 $string['username'] = 'Felhasználónév';
 $string['usernameemailmatch'] = 'A felhasználónév és az e-mail cím más-más felhasználóé';
 $string['usernameexists'] = 'A felhasználónév már létezik, válasszon másikat';
-$string['usernamenotfound'] = 'The username was not found in the database';
+$string['usernamenotfound'] = 'A felhasználónév nem volt az adatbázisban ';
 $string['usernotconfirmed'] = '$a nem volt megerősíthető';
 $string['userprofilefor'] = 'Felhasználói profil $a számára';
 $string['users'] = 'Felhasználó';

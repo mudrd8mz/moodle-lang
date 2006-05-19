@@ -1,9 +1,9 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // enrol_database.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
 $string['autocreate'] = 'Automatikusan lehet létrehozni kurzusokat, ha olyan kurzushoz van beiratkozás, amely még nem szerepel a Moodle-ban.';
-$string['autocreation_settings'] = 'Atumatikus létrehozás beállításai';
+$string['autocreation_settings'] = 'Automatikus létrehozás beállításai';
 $string['category'] = 'Az automatikusan létrehozott kurzusok kategóriája';
 $string['course_fullname'] = 'Azon mező neve, amely a kurzus teljes nevét tárolja.';
 $string['course_id'] = 'Azon mező neve, amely a kurzus azonosítóját tárolja.

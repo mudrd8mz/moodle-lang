@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // lesson.php - created with Moodle 1.6 Beta 3 (2006042401)
 
 
 $string['accesscontrol'] = 'Hozzáférés szabályozása';
@@ -139,7 +139,7 @@ $string['matchesanswer'] = 'Válasszal egyezik';
 $string['maxhighscores'] = 'Kijelzett legmagasabb pontok száma';
 $string['maximumnumberofanswersbranches'] = 'Válaszok/elágazások maximális száma';
 $string['maximumnumberofattempts'] = 'Próbálkozások maximális száma';
-$string['maximumnumberofattemptsreached'] = 'A peróbálkozások maximális számát elérte - Áttérés a következő oldalra.';
+$string['maximumnumberofattemptsreached'] = 'A próbálkozások maximális számát elérte - Áttérés a következő oldalra.';
 $string['maxtime'] = 'Időkorlát (perc)';
 $string['maxtimewarning'] = 'A lecke befejezésére $a perc áll rendelkezésére.';
 $string['mediaclose'] = 'Lezárás gombjának megjelenítése:';
@@ -152,7 +152,7 @@ $string['modattempts'] = 'Tanulói ellenőrzés engedélyezése';
 $string['modattemptsnoteacher'] = 'Tanulói ellenőrzést csak tanulók végezhetnek.';
 $string['modulename'] = 'Lecke';
 $string['modulenameplural'] = 'Leckék';
-$string['movedpage'] = 'OLdal áthelyezve';
+$string['movedpage'] = 'Oldal áthelyezve';
 $string['movepagehere'] = 'Oldal áthelyezése ide';
 $string['moving'] = 'A(z) $a oldal áthelyezése';
 $string['multianswer'] = 'Több válaszos';
@@ -233,7 +233,7 @@ $string['savepage'] = 'Oldal mentése';
 $string['score'] = 'Pontszám';
 $string['scores'] = 'Pontszámok';
 $string['secondpluswrong'] = 'Nem pontos. Próbálkozna újra?';
-$string['showanunansweredpage'] = 'Mégválaszolatlan oldal megjelenítése';
+$string['showanunansweredpage'] = 'Megválaszolatlan oldal megjelenítése';
 $string['showanunseenpage'] = 'Kihagyott oldal megjelenítése';
 $string['singleanswer'] = 'Egy válasz';
 $string['skip'] = 'Navigálás kihagyása';

@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // resource.php - created with Moodle 1.6 Beta 3 (2006042401)
 
 
 $string['addresource'] = 'Tananyag hozzáadása';
+$string['back'] = 'Vissza';
+$string['browserepository'] = 'Adattár böngészése';
+$string['choose'] = 'Választás';
 $string['chooseafile'] = 'Állomány kiválasztása vagy feltöltése';
 $string['chooseparameter'] = 'Paraméter kiválasztása';
 $string['configallowlocalfiles'] = 'Új állományforrás létrehozása során hozzon létre ugrópontokat a helyi rendszeren, például CD-meghajtón vagy merevlemezen lévő állományokhoz. Ez hasznosnak bizonyulhat olyankor, amikor minden tanuló azonos hálózati meghajtóhoz fér hozzá, vagy ha CD-n lévő állományokat kell elérni. Ennek használatához esetleg módosítani kell a böngésző biztonsági beállításain.';
@@ -20,14 +23,16 @@ $string['configpopupscrollbars'] = 'Az előbukkanó ablakok alapbeállításban 
 $string['configpopupstatus'] = 'Az előbukkanó ablakok alapbeállításban mutassák az állapotsort?';
 $string['configpopuptoolbar'] = 'Az előbukkanó ablakok alapbeállításban mutassák az eszközsort?';
 $string['configpopupwidth'] = 'Az előbukkanó ablakok alapbeállításban milyen szélesek legyenek?';
-$string['configsecretphrase'] = 'Ez a titkos kifejezés azon kódolt érték előállítására szolgál, amelyet bizonyos tananyagok  pareméterként kaphatnak meg. A titkos kód a felhasználók IP-címének md5-értéke és a titkos kifejezés egyesítéséből származik: md5(IP.kifejezés). Ezzel a céltananyag a fokozott biztonság érdekében ellenőrizheti a csatlakozást. ';
+$string['configsecretphrase'] = 'Ez a titkos kifejezés azon kódolt érték előállítására szolgál, amelyet bizonyos tananyagok  paraméterként kaphatnak meg. A titkos kód a felhasználók IP-címének md5-értéke és a titkos kifejezés egyesítéséből származik: md5(IP-kifejezés). Ezzel a céltananyag a fokozott biztonság érdekében ellenőrizheti a csatlakozást. ';
 $string['configwebsearch'] = 'URL weboldalként vagy ugrópontként való beszúrásakor ez a hely segíti a felhasználót a keresett URL megtalálásában.';
 $string['configwindowsettings'] = 'Ez új tananyag beszúrásakor beállítja az ablakbeállítások alapértékét. Az első alkalmat követően ez egy egyéni felhasználói preferencia lesz.  ';
 $string['deploy'] = 'Használatba vétel';
-$string['directlink'] = 'Közvetlen ugópont ehhez a fájlhoz';
+$string['deployall'] = 'Mind használatba vétele';
+$string['directlink'] = 'Közvetlen ugrópont ehhez a fájlhoz';
 $string['directoryinfo'] = 'A kiválasztott könyvtár minden állománya látszani fog.';
 $string['display'] = 'Ablak';
 $string['editingaresource'] = 'Tananyag szerkesztése';
+$string['emptyfolder'] = 'Mappa ürítése';
 $string['encryptedcode'] = 'Titkosított kód';
 $string['example'] = 'Példa';
 $string['exampleurl'] = 'http://www.pelda.com/konyvtar/egyfajl.html';
@@ -50,6 +55,8 @@ $string['maindirectory'] = 'Fő állományok könyvtára';
 $string['modulename'] = 'Tananyag';
 $string['modulenameplural'] = 'Tananyagok';
 $string['navigationbuttons'] = 'Navigációs gombok';
+$string['navigationmenu'] = 'Navigációs oldalmenü';
+$string['navigationup'] = 'Fel gomb';
 $string['neverseen'] = 'Ismeretlen';
 $string['newdirectories'] = 'Könyvtárkapcsolatok látsszanak';
 $string['newfullscreen'] = 'Teljes képernyős';
@@ -63,7 +70,9 @@ $string['newtoolbar'] = 'Eszköztár megmutatása';
 $string['newwidth'] = 'Alapértelmezett ablakszélesség (pixelben)';
 $string['newwindow'] = 'Új ablak';
 $string['newwindowopen'] = 'Ez a tananyag új ablakban jelenjen meg';
+$string['next'] = 'Tovább';
 $string['notallowedlocalfileaccess'] = 'A helyi állományok elérése jelenleg ki van kapcsolva, így a forrás nem elérhető.';
+$string['notdeployed'] = 'Nincs használatba véve';
 $string['note'] = 'Megjegyzés';
 $string['notefile'] = 'Egy vagy több fájl kurzusba való feltöltéséhez (hogy a felsorolásban megjelenjenek) használja a <a href=\"$a\">Fájlmenedzsert</a>.';
 $string['notypechosen'] = 'Típust kell választania. A Vissza gombbal menjen az előző oldalra és próbálja újból.';
@@ -76,7 +85,10 @@ $string['parameter'] = 'Paraméter';
 $string['parameters'] = 'Paraméterek';
 $string['popupresource'] = 'Ennek a tananyagnak előbukkanó ablakban kell megjelenni.';
 $string['popupresourcelink'] = 'Ha nem, kattintson ide: $a';
+$string['preview'] = 'Nyomtatási kép';
+$string['previous'] = 'Előző';
 $string['redeploy'] = 'Újbóli használat';
+$string['repository'] = 'IMS-adattár';
 $string['resourcetype'] = 'Tananyag típusa';
 $string['resourcetype1'] = 'Hivatkozás';
 $string['resourcetype2'] = 'Weboldal';
@@ -97,7 +109,9 @@ $string['resourcetypetext'] = 'Szöveges oldal létrehozása';
 $string['searchweb'] = 'Weboldal keresése';
 $string['serverurl'] = 'Szerver URL-je ($a->wwwroot)';
 $string['showcourseblocks'] = 'Kurzusblokkok megjelenítése';
+$string['skipsubmenus'] = 'Almenük oldalainak kihagyása';
 $string['tableofcontents'] = 'Tartalomjegyzék';
+$string['upbutton'] = 'Fel';
 $string['variablename'] = 'Változó neve';
 $string['viewims'] = 'IMS-csomag megtekintése';
 $string['vol'] = 'Kötet';
