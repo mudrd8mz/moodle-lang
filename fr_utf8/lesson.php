@@ -180,10 +180,10 @@ $string['notitle'] = 'Pas de titre';
 $string['numberofcorrectanswers'] = 'Nombre de réponses correctes : $a';
 $string['numberofcorrectmatches'] = 'Nombre de correspondances correctes : $a';
 $string['numberofpagestoshow'] = 'Nombre de pages à afficher';
-$string['numberofpagesviewed'] = 'Nombre de pages vues : $a';
+$string['numberofpagesviewed'] = 'Nombre de questions répondues&nbsp;: $a';
 $string['ongoing'] = 'Afficher le score actuel';
 $string['ongoingcustom'] = 'Vous avez jusqu\'ici reçu $a->score sur un maximum de $a->currenthigh point(s).';
-$string['ongoingnormal'] = 'Vous avez répondu correctement à $a->correct question(s) $a->viewed.';
+$string['ongoingnormal'] = 'Vous avez répondu correctement à $a->correct tentatives sur $a->viewed.';
 $string['or'] = 'OU';
 $string['ordered'] = 'Ordonnés';
 $string['other'] = 'Autre';
@@ -286,6 +286,6 @@ $string['youranswer'] = 'Votre réponse';
 $string['yourcurrentgradeis'] = 'Votre note actuelle est $a';
 $string['yourgradeisnow'] = 'Votre note pour la leçon a été changée $a';
 $string['yourresponse'] = 'Votre feedback';
-$string['youshouldview'] = 'Vous devriez voir au moins $a';
+$string['youshouldview'] = 'Vous devriez répondre au moins à $a';
 
 ?>
