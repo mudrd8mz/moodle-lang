@@ -1,0 +1,18 @@
+<p align="center"><b>Tanulók/tanárok kiiratkoztatása</b></p>
+
+<p>Az Enterprise adataival hozzáadhatók és eltávolíthatók kurzusbeiratkozások  - úgy tanulók, mint tanárok esetén. 
+Ezen beállítás bekapcsolásakor a Moodle végrehajtja a kiiratkoztatást, ha az adatokban ez szerepel.</p>
+
+<p>Az IMS-adatok a tanulók háromféle kiiratkoztatását teszik lehetővé:</p>
+
+<ul><li>Egy &lt;member&gt; elem, amely meghatározza az adott tanulót és kurzust, és a &lt;role&gt; elem "recstatus" attribútuma 3-ra állítva 
+(melynek jelentése: "törlés"). 	EZ A MOODLE SEGÉDPROGRAMJÁBAN MÉG NINCS KIDOLGOZVA.</li>
+
+<li>Egy &lt;member&gt; elem, amely meghatározza az adott tanulót és kurzust, és a &lt;status&gt; elem 0-ra állítva (melynek jelentése: "ki van kapcsolva").</li></ul>
+
+<p>A harmadik módszer némileg eltérő. Nem kívánja meg ezen konfigurációs beállítás bekapcsolását, emellett jóval a kiiratkozás időpontja előtt
+beállítható:</p>
+
+<ul><li>Egy <member> elem, amely a kiiratkozáshoz meghatároz egy <timeframe>-et, kezdő és/vagy befejező 
+időpontot adhat meg egy konkrét tanuló kiiratkoztatásához. Ezek a dátumok betölthetők a Moodle beiratkozási adattáblázatába, ha van, 
+így a befejező időpont után a tanuló nem tud az adott kurzusba bejelentkezni.</li></ul>

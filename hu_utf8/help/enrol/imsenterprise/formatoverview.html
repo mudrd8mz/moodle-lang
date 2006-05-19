@@ -1,0 +1,87 @@
+<p align="center"><b>A formátum áttekintése</b></p>
+<p>Alább található egy egyszerű útmutató egy jellemző IMS Enterprise adatfájl alapvető szerkezetéhez. 
+Ennél sokkal több információt talál az <a href="http://www.imsglobal.org/enterprise/">IMS Enterprise hivatalos weboldalán</a>.</p>
+<p>Esetleg érdemes elolvasni a <a href="./enrol/imsenterprise/entv1p1_conformance_summary.html">megfelelőségi összegzést</a>,
+amely leírja, mely IMS-adatelemeket képes ez a segédprogram feldolgozni.</p>
+<p align="center"><b>Alapvető útmutató az IMS Enterprise állományainak formátumához</b></p>
+<p>Egy IMS-nek megfelelő beiratkozáshoz szüksége van a kurzust azonosító &lt;group&gt; (csoport) elemre, 
+egy felhasználót azonosító &lt;person&gt; (személy) elemre, valamint egy &lt;membership&gt; (tagság) elemre, amely egy személynek
+az adott kurzusban betöltött szerepét meghatározó &lt;member&gt; (tag) elemekből áll.</p><p>
+</p>
+<p>
+Mint tudja, a Moodle adatbázisaiban használt numerikus kulcsok nem használhatók közös adatokként. Egy tanulói adatrendszer sosem fogja előre tudni,
+hogy XY a Moodle adatbázisába a huszadikként hozzáadott felhasználó, ezért ezek a kulcsok nem használatosak az effajta adatokkal.</p><p>
+</p>
+
+<p>
+Általában egy kurzus hivatkozási kóddal és névvel rendelkezik. Tegyük fel, hogy annak kódja a MOODLE101. 
+A kurzus meghatározható az alábbiak felhasználásával</p><p>
+</p>
+
+<p>
+&nbsp; &lt;group&gt;<br />
+&nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;id&gt;MOODLE101&lt;/id&gt;<br />
+&nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &lt;description&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;short&gt;Moodle 101&lt;/short&gt;<br />
+&nbsp; &nbsp; &lt;/description&gt;<br />
+&nbsp; &lt;/group&gt;<br />
+</p>
+
+<p>
+A beiratkozási program egy MOODLE101 kóddal rendelkező kurzust keres majd, ha pedig nem létezik, akkor (választhatóan) létrehozza azt. 
+Hasonló a helyzet személy esetén - legyen &quot;xymoodle&quot;:</p><p>
+</p>
+
+<p>
+&nbsp; &lt;person&gt;<br />
+&nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;id&gt;xymoodle&lt;/id&gt;<br />
+&nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &lt;userid&gt;xymoodle&lt;/userid&gt;<br />
+&nbsp; &nbsp; &lt;name&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;fn&gt;X Y&lt;/fn&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;n&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;family&gt;X&lt;/family&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;given&gt;Y&lt;/given&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;/n&gt;<br />
+&nbsp; &nbsp; &lt;/name&gt;<br />
+&nbsp; &lt;/person&gt;<br />
+</p>
+
+<p>
+Ha XY-nak még nincs azonosítója, a programkód (választhatóan) létrehozza egyet a számára.</p>
+
+<p>
+Ami a tagságot illeti, adjuk hozzá a személyt a kurzushoz:</p><p>
+</p>
+
+<p>
+&nbsp; &lt;membership&gt;<br />
+&nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;id&gt;MOODLE101&lt;/id&gt;<br />
+&nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &lt;member&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;id&gt;xymoodle&lt;/id&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;role roletype=&quot;01&quot;&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;status&gt;1&lt;/status&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;extension&gt;&lt;cohort&gt;unit 2&lt;/cohort&gt;&lt;/extension&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;/role&gt;<br />
+&nbsp; &nbsp; &lt;/member&gt;<br />
+&nbsp; &lt;/membership&gt;<br />
+</p>
+
+<p>
+Az IMS Enterprise specifikációja lehetővé teszi a beiratkozások kezdő és befejező dátumának megadását, így ezek szükség esetén beszúrhatók a &lt;timeframe&gt; elem segítségével.</p><p>
+</p>
+
+<p>
+Ha egy személy a kurzuson belül már hozzá van adva egy csoporthoz, a program ezen nem változtat. Ha viszont még nem készült el a csoportbeosztás, 
+akkor a megadott csoportosítást alkalmazza a rendszer.</p><p>

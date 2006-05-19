@@ -1,0 +1,55 @@
+<h1>Elérhetőség</h1>
+
+<h2>Elérhetőségi nyilatkozat</h2>
+
+<p>Ezt a portált egysor böngészővel és képernyőolvasó szoftverrel teszteltük.</p>
+
+<p>A Moodle szemantikai jelölőnyelvet használ a képernyőolvasó felhasználók segítésére, például
+ &mdash; a portál, az oldal és a blokk fejlécei &lt;h1&gt;, &lt;h2&gt;-t használnak, a navigálási blokkok &lt;ul&gt; listák stb.
+</p>
+
+<p>A Moodle megfelel a World Wide Web Konzorciumnak az [<a href="http://www.w3.org/TR/WCAG10/" title="Web Content Accessibility Guidelines 1.0">Internetes 
+tartalmak elérhetőségének irányelvei 1.0</a>] vonatkozó 1. szintű, valamint többnyire a 2. szintű 
+ [<a href="http://www.w3.org/WAI/WCAG1AA-Conformance"  title="About Double-A WCAG conformance">about Double-A conformance</a>] 
+ és egyes 3. szintű követelményeinek. Ezen irányelvek segítségével igyekszünk megfelelni a fogyatékkal élőkre vonatkozó helyi törvényeknek. 
+ Jelenleg is dolgozunk a Moodle elérhetőségének és használhatóságának a tökéletesítésén. 
+ Jelenleg még néhány helyen táblázatot használunk az elrendezésre, de általában véve a megjelenés (stíluslapoknak köszönhetően) elválik a tartalomtól.
+</p>
+
+<p>Örömmel veszünk minden megjegyzést, különösen az elérhetetlennek bizonyuló tartalomra vonatkozó tájékoztatást. 
+ Kérjük, küldjön  [<a href="./message/discussion.php?id=2">üzenetet a rendszergazdának</a>].
+</p>
+
+<h2>Elérhetőségi billentyűk</h2>
+
+<p>Jelenleg nem jelölünk ki elérhetőségi billentyűket, de szándékunkban áll ilyeneket létrehozni a Moodle későbbi változataiban.</p>
+
+<h2>Ugrópontok</h2>
+
+<p>Minden oldalsó blokk előtt van egy ugrópont, amellyel a képernyőt olvasó felhasználók kihagyhatják a blokkot.
+ Figyelem: az ugrópontot a grafikus böngészők nem látják.</p>
+
+<p>Számos ugrópontnak vannak címhez tartozó attribútumai, melyek részletesebb tájékoztatást adnak az ugrópontról, 
+hacsak maga az ugróponti szöveg önmagában kellő részletességgel le nem írja az ugrópont célpontját (például egy cikk címsora). 
+Ha egy ugróponthoz elérhetőségi billentyű tartozik, erről az ugrópont címe ad tájékoztatást.</p>
+
+<p>Amikor csak lehetséges, az ugrópontok szövege a szövegösszefüggés nélkül is érthető.
+ Nincsenek javascriptben megírt álugrópontok. </p>
+
+<h2>Képek</h2>
+
+<p>Minden képhez tartozik egy alt attribútum, amely arra alkalmas helyzetekben alternatív szöveget tartalmaz. A tisztán dekoratív 
+célú képekhez üres alternatív szöveg kapcsolódik. A komplex információt megjelenítő képekhez longdesc attribútum tartozik,. amely
+a képtartalmat leíró szöveges anyaghoz kapcsolja őket.</p>
+
+<h2>Szabványoknak való megfelelőség</h2>
+
+<p>A portál érvényes 
+ <acronym title="Extensible Hyper-Text Markup Language">XHTML-t</acronym> 
+ használ a jelölésre és CSS-t a megjelenítésre.</p>
+
+<p style="text-align:center">
+  <a href="http://validator.w3.org/check?verbose=1&amp;ss=1&amp;uri=<?php echo $CFG->wwwroot; ?>" title="Használja a W3C-validálót">A HTML validálása</a> 
+| <a href="http://www.contentquality.com/mynewtester/cynthia.exe?rptmode=-1&amp;url1=<?php echo $CFG->wwwroot; ?>" title="Ellenőrzés a Cynthia segítségével">508-as fejezet szerinti ellenőrzés</a> 
+| <a href="http://www.contentquality.com/mynewtester/cynthia.exe?rptmode=0&amp;warnp2n3e=1&amp;url1=<?php echo $CFG->wwwroot; ?>" title="Ellenőrzés a Cynthia segítségével">WCAG 1 (2,3) ellenőrzés</a>
+</p>
