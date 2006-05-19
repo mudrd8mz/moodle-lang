@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006050501)
+      // moodle.php - created with Moodle 1.7 dev (2006050502)
 
 
 $string['action'] = '操作';
@@ -469,7 +469,7 @@ $string['existingcourse'] = '既存のコース';
 $string['existingcourseadding'] = '既存のコース、ここにデータを追加する';
 $string['existingcoursedeleting'] = '既存のコース、最初に削除する';
 $string['existingcreators'] = 'コース作成者一覧';
-$string['existingstudents'] = '登録学生一覧';
+$string['existingstudents'] = '登録済み学生';
 $string['existingteachers'] = '教師一覧';
 $string['expirynotify'] = '登録期間終了通知';
 $string['expirynotifyemail'] = 'このコースに関する次の学生の登録期間は $a->threshold 日で終了します:
@@ -897,12 +897,12 @@ $string['normalfilter'] = '通常検索';
 $string['nostatstodisplay'] = '申し訳ございません、表示するデータがありません。';
 $string['nostudentsfound'] = '$a が見つかりませんでした。';
 $string['nostudentsingroup'] = 'このグループにはまだ学生がいません。';
-$string['nostudentsyet'] = 'このコースにはまだ学生が参加していません。';
+$string['nostudentsyet'] = 'このコースにはまだ学生が登録されていません。';
 $string['nosuchemail'] = 'そのようなメールアドレスは存在しません。';
 $string['notavailable'] = '利用できません。';
 $string['noteachersyet'] = 'このコースにはまだ教師が登録されていません。';
 $string['notenrollable'] = '現在このコースには登録できません。';
-$string['notenrolled'] = '$a はこのコースには参加していません。';
+$string['notenrolled'] = '$a はこのコースに登録されていません。';
 $string['noteuserschangednonetocourse'] = '注意:ユーザデータをリストアする場合、コースユーザをリストアする必要があります。あなたの設定が変更されました。';
 $string['nothingnew'] = '最終ログインより更新されたものはありません。';
 $string['nothingtodisplay'] = '表示するデータはありません。';
