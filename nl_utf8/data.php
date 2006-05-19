@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // data.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['action'] = 'Actie';
@@ -98,6 +98,7 @@ $string['namedate'] = 'Datumveld';
 $string['namefile'] = 'Veld voor bestand';
 $string['namemenu'] = 'Veld voor menu';
 $string['namemultimenu'] = 'Veld voor Meerkeuzemenu';
+$string['namenumber'] = 'Veld voor getallen';
 $string['namepicture'] = 'Veld voor afbeelding';
 $string['nameradiobutton'] = 'Veld voor keuzeknop';
 $string['nametext'] = 'Veld voor tekst';
@@ -112,6 +113,7 @@ $string['nomatch'] = 'Geen overeenkomende items gevonden';
 $string['nomaximum'] = 'Geen maximum';
 $string['norecords'] = 'Geen items in de databank';
 $string['nosingletemplate'] = 'Sjabloon voor enkel is niet gedefinieerd';
+$string['number'] = 'Getal';
 $string['numberrssarticles'] = 'RSS-artikels';
 $string['numnotapproved'] = 'Wachtend';
 $string['numrecords'] = 'Records';

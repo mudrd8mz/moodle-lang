@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // blog.php - created with Moodle 1.7 dev (2006050500)
 
 
 $string['addnewentry'] = 'Voeg een nieuw item toe';
@@ -26,6 +26,7 @@ $string['groupblogs'] = 'Gebruikers kunnen enkel blogs zien van groepsleden';
 $string['intro'] = 'Deze RSS-feed is automatisch gegenereerd uit één of meer blogs';
 $string['noentriesyet'] = 'Hier zijn geen zichtbare teksten';
 $string['noguestpost'] = 'Gasten kunnen geen blogs posten';
+$string['norighttodeletetag'] = 'Je mag deze blog niet verwijderen - $a';
 $string['notallowedtoedit'] = 'Je mag deze tekst niet bewerken';
 $string['numberofentries'] = 'Teksten: $a';
 $string['numberoftags'] = 'Aantal te tonen tags';
