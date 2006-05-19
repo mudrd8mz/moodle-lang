@@ -1,15 +1,15 @@
 <?PHP // $Id$ 
-      // block_loancalc.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // block_loancalc.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['amountofloan'] = 'Výše půjčky';
-$string['fortnightly'] = 'Čtrnáctidenně';
+$string['fortnightly'] = 'Čtrnáctidenní';
 $string['interestrate'] = 'Úroková sazba';
 $string['loancalc'] = 'Kalkulace půjčky';
 $string['loanterm'] = 'Délka půjčky (v letech)';
-$string['monthly'] = 'Měsíčně';
+$string['monthly'] = 'Měsíční';
 $string['repaymentamount'] = 'Výše splátky';
 $string['repaymentfreq'] = 'Periodicita splátek';
-$string['weekly'] = 'Týdenně';
+$string['weekly'] = 'Týdenní';
 
 ?>

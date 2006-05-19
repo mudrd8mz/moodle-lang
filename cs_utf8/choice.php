@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.5 + (2005060201)
+      // choice.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
-$string['addmorechoices'] = 'Přidat více anket';
+$string['addmorechoices'] = 'Přidat další volby';
 $string['allowupdate'] = 'Umožnit změnu hlasování';
 $string['answered'] = 'Zodpovězeno';
 $string['choice'] = 'Volba';
@@ -30,7 +30,7 @@ $string['publishalways'] = 'Vždy zobrazovat výsledky studentům';
 $string['publishanonymous'] = 'Zveřejnit výsledky anonymně, nezobrazovat jména studentů';
 $string['publishnames'] = 'Zveřejnit výsledky včetně jmen studentů a jejich volby';
 $string['publishnot'] = 'Nezobrazovat výsledky studentům';
-$string['responses'] = 'Odpovědí';
+$string['responses'] = 'Odpovědi';
 $string['responsesto'] = 'Odpovědi na $a';
 $string['savemychoice'] = 'Uložit mou odpověď';
 $string['showunanswered'] = 'Zobrazit sloupec \'Dosud nezodpovězeno\'';

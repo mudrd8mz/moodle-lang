@@ -1,8 +1,7 @@
 <?PHP // $Id$ 
-      // censor.php - created with Moodle 1.5 + (2005060201)
+      // censor.php - created with Moodle 1.6 Beta 5 (2006050500)
 
-
-$string['badwords'] = 'sračka,mrdat,jebat,čurák,piča,píča,kokot,kazišuk';
+$string['badwords'] = 'sračka,sračky,sračce,sračku,sračko,sračkou,sraček,sračkám,sračkách,sračkama,srát,seru,sereš,serem,sereme,serete,serou,sral,srala,sralo,srali,sraly,mrdat,mrdám,mrdáš,mrdá,mrdáme,mrdáte,mrdají,mrdal,mrdala,mrdalo,mrdali,mrdaly,jebat,jebu,jebeš,jebe,jebem,jebeme,jebete,jebou,jebal,jebala,jebalo,jebali,jebaly,šoustat,šoustám,šoustáš,šoustá,šoustáme,šoustáte,šoustají,šoustaj,šoustal,šoustala,šoustalo,šoustali,šoustaly,šukat,šukám,šukáš,šuká,šukáme,šukáte,šukaj,šukají,šukal,šukala,šukalo,šukali,šukaly,mrdačka,mrdačky,mrdačce,mrdačku,mrdačko,mrdačkou,mrdaček,mrdačkám,mrdačkách,mrdačkama,jebačka,jebačky,jebačce,jebačku,jebačko,jebačkou,jebaček,jebačkám,jebačkách,jebačkama,šukačka,šukačky,šukačce,šukačku,šukačko,šukačce,šukačkou,šukaček,šukačkám,šukačkách,šukačkama,čurák,čuráka,čurákovi,čuráku,čurákovi,čurákem,čuráci,čuráků,čurákům,čuráky,čurácích,čurákách,čurákama,kokot,kokota,kokotovi,kokota,kokote,kokotovi,kokotem,kokoti,kokotů,kokotům,kokoty,kokotech,kokoty,kokotama,piča,piče,piči,piču,pičo,piči,pičou,pičím,pičemi,pičma,píča,píče,píči,píču,píčo,píči,píčí,píčou,píčím,píčích,píčema,píčemi,kurva,kurvy,kurvě,kurvu,kurvo,kurvou,kurev,kurvám,kurvách,kurvami,kurvama,děvka,děvky,děvku,děvko,děvce,děvkou,děvek,děvkám,děvkách,děvkami,děvkama,kazišuk';
 $string['filtername'] = 'Slovní cenzura';
 
 ?>

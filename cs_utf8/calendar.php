@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.5 + (2005060201)
+      // calendar.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
 $string['calendar'] = 'Kalendář';
@@ -19,8 +19,8 @@ $string['durationuntil'] = 'Až do';
 $string['editevent'] = 'Úprava události';
 $string['errorbeforecoursestart'] = 'Nelze nastavit událost před začátkem kurzu';
 $string['errorinvaliddate'] = 'Neplatné datum';
-$string['errorinvalidminutes'] = 'Určete délku trvání v minutách. Vložte číslo mezi 1 and 999.';
-$string['errorinvalidrepeats'] = 'Určete počet událostí. Vložte číslo mezi 1 and 99.';
+$string['errorinvalidminutes'] = 'Určete délku trvání v minutách. Vložte číslo v rozmezí 1 až 999.';
+$string['errorinvalidrepeats'] = 'Určete počet událostí. Vložte číslo v rozmezí 1 až 99.';
 $string['errornodescription'] = 'Popis je povinný údaj';
 $string['errornoeventname'] = 'Název je povinný údaj';
 $string['eventdate'] = 'Datum';
@@ -30,23 +30,24 @@ $string['eventendtime'] = 'Končí';
 $string['eventinstanttime'] = 'Doba';
 $string['eventkind'] = 'Typ události';
 $string['eventname'] = 'Název';
+$string['eventnone'] = 'Žádné události';
 $string['eventrepeat'] = 'Opakování';
 $string['eventsfor'] = '$a - události';
 $string['eventstarttime'] = 'Začíná';
 $string['eventtime'] = 'čas';
 $string['eventview'] = 'Podrobnosti události';
 $string['expired'] = 'Vypršela';
-$string['explain_lookahead'] = 'Tímto nastavujete počet budoucích dnů, v nichž budou vyhledávány nadcházející události. Pokud událost začíná v některém z těchto dnů, bude zobrazena jako nadcházející. Události, které začínají později, nebudou zobrazeny jako nadcházející. Prosím, všimněte si, že <strong>není zaručeno</strong> zobrazení všech nadcházejících událostí: pokud je jich nalezeno příliš mnoho (tj. více než máte nastaveno v \"Maximum nadcházejících událostí\"), pak se ty nejvzdálenější nezobrazí.';
-$string['explain_maxevents'] = 'Tímto nastavujete největší možný počet zobrazovaných nadcházejících událostí. Pokud zde vyberete velké číslo, je možné, že seznam nadcházejících událostí bude velmi dlouhý a na obrazovce zabere spoustu místa.';
+$string['explain_lookahead'] = 'Tímto nastavujete počet dnů, v nichž budou vyhledávány nadcházející události. Pokud událost začíná v některém z těchto dnů, bude zobrazena jako nadcházející. Události, které začínají později, nebudou zobrazeny jako nadcházející. Vemte prosím na vědomí, že <strong>není zaručeno</strong> zobrazení všech nadcházejících událostí: pokud je jich nalezeno příliš mnoho (tj. více, než kolik je zadáno u nastavení \'Maximální počet nadcházejících událostí\'), pak se ty nejvzdálenější události nezobrazí.';
+$string['explain_maxevents'] = 'Tímto nastavujete největší možný počet zobrazovaných nadcházejících událostí. Pokud zde vyberete velké číslo, může se stát, že seznam nadcházejících událostí bude velmi dlouhý a na obrazovce zabere spoustu místa.';
 $string['explain_persistflt'] = 'Je-li povoleno, bude si Moodle pamatovat vaše poslední nastavení filtrování událostí a automaticky je obnoví při dalším přihlášení';
-$string['explain_startwday'] = 'Vyberte den, od kterého má začínat zobrazovaný týden.';
-$string['explain_timeformat'] = 'Můžete si zvolit, zda chcete čas zobrazovat ve 12-hodinovém formátu nebo 24-hodinovém formátu. Zvolíte-li \"výchozí\", bude formát vybrán na základě použitého jazyka vašich stránek.';
+$string['explain_startwday'] = 'Vyberte den, jímž má začínat týden v kalendáři.';
+$string['explain_timeformat'] = 'Můžete si zvolit, zda chcete čas zobrazovat ve 12-hodinovém formátu nebo 24-hodinovém formátu. Zvolíte-li \'výchozí\', bude formát vybrán na základě použitého jazyka vašich stránek.';
 $string['fri'] = 'Pá';
 $string['friday'] = 'Pátek';
 $string['globalevents'] = 'Globální události';
 $string['gotocalendar'] = 'Jdi do kalendáře';
 $string['groupevents'] = 'Skupinové události';
-$string['hidden'] = 'skyto';
+$string['hidden'] = 'skryto';
 $string['manyevents'] = '$a událostí';
 $string['mon'] = 'Po';
 $string['monday'] = 'Pondělí';
@@ -55,13 +56,13 @@ $string['newevent'] = 'Nová událost';
 $string['noupcomingevents'] = 'Žádné nadcházející události';
 $string['oneevent'] = '1 událost';
 $string['pref_lookahead'] = 'Vyhlížení nadcházejících událostí';
-$string['pref_maxevents'] = 'Maximum nadcházejících událostí';
+$string['pref_maxevents'] = 'Maximální počet nadcházejících událostí';
 $string['pref_persistflt'] = 'Pamatovat si nastavení filtrování';
 $string['pref_startwday'] = 'První den v týdnu';
 $string['pref_timeformat'] = 'Formát zobrazení času';
 $string['preferences'] = 'Nastavení';
 $string['preferences_available'] = 'Vaše osobní nastavení';
-$string['repeateditall'] = 'Použít změny na všechny (celkem $a) události v této opakující se sérii';
+$string['repeateditall'] = 'Použít změny na všechny události (celkem $a) v této opakující se sérii.';
 $string['repeateditthis'] = 'Použít změny pouze na tuto událost';
 $string['repeatnone'] = 'Bez opakování';
 $string['repeatweeksl'] = 'Opakovat každý týden, vytvořit celkem';
@@ -99,6 +100,6 @@ $string['userevents'] = 'Osobní události';
 $string['wed'] = 'St';
 $string['wednesday'] = 'Středa';
 $string['yesterday'] = 'Včera';
-$string['youcandeleteallrepeats'] = 'Tato událost je součástí série opakujících se událostí. Můžete odstranit buď tuto událost nebo všechny (celkem $a) události v sérii najednou.';
+$string['youcandeleteallrepeats'] = 'Tato událost je součástí série opakujících se událostí. Můžete odstranit buď tuto událost, nebo všechny události (celkem $a) v sérii najednou.';
 
 ?>
