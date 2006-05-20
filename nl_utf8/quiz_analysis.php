@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.6 development (2005053000)
+      // quiz_analysis.php - created with Moodle 1.7 dev (2006050502)
 
 
+$string['analysis'] = 'Vraaganalyse';
 $string['analysisoptions'] = 'Analyse-opties';
 $string['analysistitle'] = 'Vraaganalysetabel';
 $string['attemptsall'] = 'Alle pogingen';
