@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // attendance.php - created with Moodle 1.4 development (2004062401)
+      // attendance.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['absentlong'] = 'غائب';
@@ -41,7 +41,7 @@ $string['maxgradevalue'] = 'قيمة الدرجة القصوى للحضور ال
 $string['modulename'] = 'حضور';
 $string['modulenameplural'] = 'قوائم حضور';
 $string['monday'] = 'الاثنين';
-$string['norolls'] = 'لا توجد قوائم حضور لهذه المنهج الدراسي';
+$string['norolls'] = 'لا توجد قوائم حضور لهذه المقرر الدراسي';
 $string['notes'] = 'معلومات استثنائيه';
 $string['notesfor'] = 'معلومات استثنائيه لـ';
 $string['noviews'] = 'عذراً، لا توجد معلومات عن حسابك هناء';
@@ -50,7 +50,7 @@ $string['pages'] = 'صفحات';
 $string['presentlong'] = 'حاضر';
 $string['presentshort'] = 'ح';
 $string['saturday'] = 'السبت';
-$string['startafterend'] = 'تأريخ البداء هو بعد إنتهاء المنهج الدراسي';
+$string['startafterend'] = 'تأريخ البداء هو بعد إنتهاء المقرر الدراسي';
 $string['startmulti'] = 'تاريخ لأول قائمة حضور';
 $string['sunday'] = 'الأحد';
 $string['takeroll'] = 'سجل الحضور في هذا اليوم?';

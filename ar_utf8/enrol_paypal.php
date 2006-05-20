@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_paypal.php - created with Moodle 1.6 development (2005052400)
+      // enrol_paypal.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['business'] = 'عنوان بريدك الإلكتروني لحسابك Paypal التجاري.';

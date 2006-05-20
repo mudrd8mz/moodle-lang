@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 development (2005052400)
+      // resource.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['addresource'] = 'أضف مورد';
 $string['chooseafile'] = 'أختر أو قم بتحميل ملف';
 $string['configdefaulturl'] = 'هذه القيمة تستخدم لتعبيئة استمارة الـ URL عند إنشاء مورد جديد يعتمد على URL';
-$string['configfilterexternalpages'] = 'التّمكين هذا الاعداد  سيؤثر على كلّ الموارد الخارجيّة ( صفحات إنترنت, حمّل ملفّات إتش تي إم إل ) ليُعَالَج بفلاتر الموقع المعرّفة حاليًّا (على سبيل المثال الربط الآلي في المسرد) . تشغيل هذا الخيار قد يؤخر عرض صفحات بدرجة كبيرة - استخدم هذا الخيار بحذر و فقط إذا احتجت له فعلاً .';
+$string['configfilterexternalpages'] = 'التّمكين هذا الاعداد  سيؤثر على كلّ الموارد الخارجيّة (صفحات إنترنت, حمّل ملفّات إتش تي إم إل ) ليُعَالَج بفلاتر الموقع المعرّفة حاليًّا (على سبيل المثال الربط الآلي في المسرد) . تشغيل هذا الخيار قد يؤخر عرض صفحات بدرجة كبيرة - استخدم هذا الخيار بحذر و فقط إذا احتجت له فعلاً .';
 $string['configframesize'] = 'عنداختيار صفحه من شبكةالانترنت،أو تحميل ملف للعرض ضمن اطار هذا المتغيرهومقياس الاطار العلوي زالذي يحتوي على واصلات التنقل';
 $string['configpopup'] = 'عند اضافة مورد جديد والذي سيكون عرضة في نافذه جديدة، هل يمكن هذا الاختيار افتراضياً؟';
 $string['configpopupdirectories'] = 'هل ستظهر النوافذ الجديدة دليل الروابط افتراضياً؟';
@@ -33,6 +33,7 @@ $string['filtername'] = 'ربط آلي لأسماء الموارد';
 $string['frameifpossible'] = 'ضع المورد في الاطار لجعل روابط التنقل في الموقع ظاهرة';
 $string['fulltext'] = 'النص بالكامل';
 $string['htmlfragment'] = 'شطر من HTML';
+$string['imspackageloaded'] = 'تم تحميل الحزمة';
 $string['localfile'] = 'ملف محلي';
 $string['localfilechoose'] = 'اختر ملف محلي (قرص مدمج)';
 $string['localfilehelp'] = 'المساعدة لعرض الملفات المحلية';
@@ -77,6 +78,8 @@ $string['resourcetypelabel'] = 'ادرج ملصقة';
 $string['resourcetypetext'] = 'اعد صفحة نصية';
 $string['searchweb'] = 'ابحث عن صفحة ويب';
 $string['serverurl'] = 'عنوان الخادم  ($a->wwwroot)';
+$string['showcourseblocks'] = 'أظهر كتل المقرر الدراسي';
+$string['tableofcontents'] = 'قائمة المحتويات';
 $string['variablename'] = 'اسم المتغيرات';
 
 ?>

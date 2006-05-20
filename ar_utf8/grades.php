@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6 development (2005052400)
+      // grades.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['addcategory'] = 'أضف فئة';
@@ -59,6 +59,7 @@ $string['nogradeletters'] = 'لم يتم تحديد أحرف / حروف الدر
 $string['nogradesreturned'] = 'لا توجد درجات';
 $string['nolettergrade'] = 'لا توجد درجة حرفية لـ';
 $string['nomode'] = 'لا ينطبق';
+$string['notteachererror'] = 'لابد أن تكون معلما لتستطيع استخدام هذه الميزة';
 $string['pctoftotalgrade'] = '%% المجموع الكل لدرجة';
 $string['percent'] = 'نسبة';
 $string['percentascending'] = 'أفرز تصاعدياً حسب النسبة المئوية';

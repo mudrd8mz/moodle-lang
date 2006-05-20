@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // appointment.php - created with Moodle 1.2 development (2004012800)
+      // appointment.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['allowresubmit'] = 'السماح بإعادة التسليم';
@@ -32,7 +32,7 @@ $string['typeoffline'] = 'نشاط بدون إتصال';
 $string['typeuploadsingle'] = 'تحميل ملف واحد';
 $string['uploadbadname'] = 'لايمكن تحميل هذا الملف لإحتوى اسمه على حروف غير معروفه';
 $string['uploadedfiles'] = 'الملفات المحمله';
-$string['uploaderror'] = 'لقد تم خطاء أثناء حفظ الملف في الخادم';
+$string['uploaderror'] = 'لقد حدث خطاء أثناء حفظ الملف في الخادم';
 $string['uploadfailnoupdate'] = 'تم تحميل الملف ولكن لم يحدث تسليمك';
 $string['uploadfiletoobig'] = 'عذراً، حجم الملف اكبر من الحجم المسموح به (الحجم المسموح به هو $a بايت)';
 $string['uploadnofilefound'] = 'لا يوجد الملف - هل أنت متأكد من اختيارك ملف لتحميل؟';

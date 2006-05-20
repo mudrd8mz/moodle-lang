@@ -1,16 +1,20 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005011000)
+      // install.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['admindirerror'] = 'مجلد الإدارة المحدد غير صحيح';
 $string['admindirname'] = 'مجلد الإدارة';
+$string['admindirsettinghead'] = 'أعداد دليل المدير';
 $string['caution'] = 'تحذير';
 $string['chooselanguage'] = 'اختر اللغة';
+$string['chooselanguagehead'] = 'اختر اللغة';
 $string['compatibilitysettings'] = 'أفحص إعدادات الـ PHP';
+$string['compatibilitysettingshead'] = 'أفحص إعدادات الـ PHP';
 $string['configfilewritten'] = 'تم انشاء ملف config.php بنجاح';
-$string['configurationcomplete'] = 'تم عملية الإعداد';
+$string['configurationcomplete'] = 'تمت عملية الإعداد';
+$string['configurationcompletehead'] = 'تمت عملية الإعداد';
 $string['database'] = 'قاعدة بيانات';
-$string['dataroot'] = 'معلومات';
+$string['dataroot'] = 'دليل البيانات';
 $string['datarooterror'] = 'إعداد المعلومات غير صحيح';
 $string['dbconnectionerror'] = 'لم يتم التوصيل بقاعدة البيانات المحددة. تأكد من إعدادات قاعدة البيانات.';
 $string['dbcreationerror'] = 'خطاء في إنشاء قاعدة البيانات. لم يم انشاء قاعدة البيانات المسماه في الأعدادات المعطاه.';
@@ -18,9 +22,11 @@ $string['dbhost'] = 'الخادم المضيف';
 $string['dbpass'] = 'كلمة مرور';
 $string['dbprefix'] = 'مقدمة الجداول';
 $string['dbtype'] = 'نوع';
-$string['dirroot'] = 'مجلد';
+$string['dirroot'] = 'دليل مودل';
 $string['dirrooterror'] = 'إعدادّّّ\"المجلد\" غير صحيح. حاول إعادة الإعداد';
 $string['download'] = 'تنزيل';
+$string['downloadlanguagehead'] = 'تنزيل حزمة اللغة';
+$string['environmenthead'] = 'يتم فحص البيئة';
 $string['fail'] = 'فشل';
 $string['fileuploads'] = 'تحميل ملف';
 $string['fileuploadserror'] = 'هذا يجب أن يكون نشط';
@@ -41,6 +47,7 @@ $string['sessionautostart'] = 'البدء الآلي للجلسة';
 $string['sessionautostarterror'] = 'يجب أن يكون هذا معطل';
 $string['sessionautostarthelp'] = '<p> يتطلب مودل لدعم الجلسات وبدونها لا يستطع العمل.</p>
 <p>.يمكن تمكين الجلسات من خلال ملف php.in ...ابحث عن session.auto_start  </p>';
+$string['skipdbencodingtest'] = 'تخطى اختبار تشفير قاعدة البيانات';
 $string['wwwroot'] = 'WWW';
 $string['wwwrooterror'] = 'إعداد \'WWW\' غير صحيح';
 

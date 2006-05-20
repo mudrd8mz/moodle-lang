@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005011000)
+      // wiki.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['action'] = '--إجراء--';
@@ -36,13 +36,16 @@ $string['deletepage'] = 'احذف الصفحة';
 $string['deleteversions'] = 'كم عدد لااصدارات السابقة التي سيتم حذفها';
 $string['deleteversionserror'] = 'الرجاء إدخال عدد الأصدارات الصحيح';
 $string['diff'] = 'إختلاف';
+$string['differences'] = 'الفروق بين الأصدار a$->new_ver  والاصدار a$->old_ver of of a$->pagename';
 $string['disabledpage'] = 'هذه الصفحة غير متوفرة حاليا';
+$string['doesnotexist'] = 'لا توجد هذه الصفحة، أنقر على زر التحرير لو كنت ترغب في إنشائها.';
 $string['downloadaszip'] = 'الرشيف المضغوط قابل للتنزيل';
 $string['downloadtimes'] = 'تم التنزيل $a مرة';
 $string['dwnlnofiles'] = 'لم يتم تحميل أي ملف بعد.';
 $string['dwnlsection'] = 'قسم تنزيل الملفات';
 $string['editthispage'] = 'حرر هذه الصفحة';
 $string['emptypage'] = 'صفحة فارغة';
+$string['errorhtml'] = 'نوع الصفحة أتش تي أم إل';
 $string['errororreason'] = 'خطاء أو سبب';
 $string['errorsize'] = 'حجم الصفحة أكبر من 64ك';
 $string['ewikiacceptbinary'] = 'اسمح لملفات باينري';
@@ -105,6 +108,7 @@ $string['removeselectedpages'] = 'أزل الصفحات المختارة';
 $string['safehtml'] = 'HTML أمانة';
 $string['save'] = 'حفظ';
 $string['searchwiki'] = 'ابحث في ويكي';
+$string['showversions'] = 'أظهر الأصدارات:';
 $string['sitemap'] = 'خارطة الموقع';
 $string['smfor'] = 'خارطة الموقع لـ';
 $string['status'] = 'الحالة';
@@ -120,6 +124,7 @@ $string['tabview'] = 'معاينة';
 $string['thanksforcontribution'] = 'شكراً على المساهمتك';
 $string['thispageisntlinkedfromanywhereelse'] = 'لم يتم ربط هذه الصفحة من أى مكان اخر';
 $string['updatedpages'] = 'الصفحات المحدثة';
+$string['updatedwikipages'] = 'تم تحديث صفحات ويكي';
 $string['uplerror'] = 'عذراً: حصل خطاء ما أثناء تحميل الملف.';
 $string['uplinsect'] = 'حمل إلى';
 $string['uplnewnam'] = 'احفط باسم مختلف';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005011000)
+      // glossary.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['addcomment'] = 'أضف تعليق';
@@ -92,12 +92,11 @@ $string['entryusedynalink'] = 'يجب ربط هذا المصطلح آليا';
 $string['explainaddentry'] = 'أضف مصطلح جديدة إلى المسرد الحالي.<br /> تعبئة حقلي المفهوم و التعريف إجباري';
 $string['explainall'] = 'أعرض جميع المصطلاحات في صفحة واحدة';
 $string['explainalphabet'] = 'استعرض المسرد باستخدام الفهرست';
-$string['explainexport'] = 'لقد تم إنشاء ملف.<br /> قم بتنزيلة واحتفظ به في مكان أمن. تسطيع استيراده إلى هذا المنهج الدراسي أو غيره متى شئت ';
+$string['explainexport'] = 'لقد تم إنشاء ملف.<br /> قم بتنزيلة واحتفظ به في مكان أمن. تسطيع استيراده إلى هذا المقرر الدراسي أو غيره متى شئت ';
 $string['explainimport'] = 'يجب عليك تحديدالملف المستورد وتعريف معايير عملية الإستيراد.<br /> سلم طلبك وقم بمراجعة النتائج.';
 $string['explainspecial'] = 'اعرض المصطلاحات التى لا تنتم إلى حرف';
-$string['exportedentry'] = 'تم تصدير المصطلح';
-$string['exportedfile'] = 'تم تصدير الملف';
 $string['exportentries'] = 'صدر المصطلاحات';
+$string['exportfile'] = 'تصدير المدخلات إلى ملف';
 $string['exportglossary'] = 'صدر المسرد';
 $string['exporttomainglossary'] = 'صدر إلى مسرد رئيس';
 $string['filetoimport'] = 'الملف المراد استيراده';
@@ -107,7 +106,6 @@ $string['fullmatch'] = 'قارن كل الكلمات فقط';
 $string['globalglossary'] = 'مسرد شامل';
 $string['glossaryleveldefaultsettings'] = 'الإعداد الإفتراضي للمسرد';
 $string['glossarytype'] = 'نوع المسرد';
-$string['glosssaryexported'] = 'تم تصدير المسرد';
 $string['importcategories'] = 'استورد الفئات';
 $string['importedcategories'] = 'الفئات المستوردة';
 $string['importedentries'] = 'المصطلاحات المستوردة';

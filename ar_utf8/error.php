@@ -1,10 +1,24 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2005052400)
+      // error.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['adminprimarynoedit'] = 'لايمكن للأخرين تحرير المدير الرئيسي ';
-$string['coursegroupunknown'] = 'المنهج المتطابق مع المجموعة $a لم يحدد';
+$string['cannotcreatelangdir'] = 'لم يتم أنشاء دليل اللغة';
+$string['cannotcreatetempdir'] = 'لم يتم أنشاء الدليل المؤقت';
+$string['cannotdownloadcomponents'] = 'لم يتم تنزيل بعض العناصر';
+$string['cannotdownloadzipfile'] = 'لم يتم تنزيل بعض الملف المضغوط';
+$string['cannotfindcomponent'] = 'لم يتم العثور على العنصر';
+$string['cannotsavemd5file'] = 'لم يتم حفظ ملف  md5';
+$string['cannotsavezipfile'] = 'لم يتم حفظ الملف المضغوط';
+$string['cannotunzipfile'] = 'لم يتم فك الملف المضغوط';
+$string['coursegroupunknown'] = 'المقرر الدرسي المتطابق مع المجموعة $a لم يحدد';
+$string['errorcleaningdirectory'] = 'خطاء في تنظيف دليل \"$a\"';
+$string['errorcopyingfiles'] = 'خطاء في نسخ الملفات';
+$string['errorcreatingdirectory'] = 'خطاء في أنشاء دليل \"$a\"';
+$string['errorcreatingfile'] = 'خطاء في تنظيف ملف \"$a\"';
 $string['erroronline'] = 'خطاء في سطر $a';
+$string['errorreadingfile'] = 'خطاء في قراءة ملف \"$a\"';
+$string['errorunzippingfiles'] = 'خطاء في فك الملفات المضغوطة';
 $string['fieldrequired'] = '\"$a\" حقل مطلوب';
 $string['filenotfound'] = 'عذراً، لم يتم العثور على  الملف المطلوب ';
 $string['groupalready'] = 'المستخدم ينتمي للمجموعة $a';

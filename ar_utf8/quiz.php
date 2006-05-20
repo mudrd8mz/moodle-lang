@@ -1,7 +1,12 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 development (2005052400)
+      // quiz.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
+$string['1day'] = 'يوم واحد';
+$string['1hour'] = 'ساعة واحدة';
+$string['2hours'] = 'ساعتان';
+$string['30minutes'] = 'ثلاثون دقيقة';
+$string['6hours'] = 'ستة ساعات';
 $string['acceptederror'] = 'اخطاء مقبوله';
 $string['action'] = 'إجراء';
 $string['addcategory'] = 'أضف فئة';
@@ -42,13 +47,19 @@ $string['attempts'] = 'محاولات';
 $string['attemptsallowed'] = 'المحاولات المسموح بها';
 $string['attemptselection'] = 'أختر أي المحاولات لكل مستخدم للقيام بتحليلها';
 $string['attemptsexist'] = 'لقد تمت اخذ هذا الامتحان مسبقا';
+$string['attemptsonly'] = 'أظهر الطلاب الذين لديهم محاولات فقط';
 $string['attemptsunlimited'] = 'محاولات غير محدودة';
 $string['back'] = 'العودة لمعاينة السؤال';
+$string['backtoquestionlist'] = 'العودة إلي قائمة الأسئلة';
 $string['backtoquiz'] = 'عودة لتعديل الامتحان';
 $string['bestgrade'] = 'أفضل درجة';
 $string['blackboard'] = 'Blackboard';
+$string['blackboard_6'] = 'Blackboard V6+';
+$string['bothattempts'] = 'أظهر الطلاب الذين ليس لديهم محاولات فقط';
 $string['calculated'] = 'تم الحساب';
 $string['calculatedquestion'] = 'احتساب السؤال غير مدعوم في السطر $a . سيتم تجاهل السؤال.';
+$string['cannotread'] = 'تعذر قراءة الملف المستورد (أو الملف فارغ)';
+$string['cannotwrite'] = 'تعذرت الكتابة على ملف التصدير ($a)';
 $string['caseno'] = 'لا، حالة الأحرف غير مهمة';
 $string['casesensitive'] = 'مطابقة حالة الأحرف';
 $string['caseyes'] = 'نعم، لابد من مطابقة حالة الأحرف';
@@ -64,9 +75,11 @@ $string['categoryupdated'] = 'تم تحديث الفئة بنجاح';
 $string['checkanswer'] = 'اختر';
 $string['choice'] = 'اختيار';
 $string['choices'] = 'الخيارات المتاحة';
-$string['close'] = 'أغلاق عرض';
+$string['choosefile'] = 'أختر ملف';
+$string['close'] = 'أغلاق النافذه';
 $string['closepreview'] = 'أغلاق  المعاينة';
 $string['closereview'] = 'أغلاق  المراجعة';
+$string['comments'] = 'تعليقات';
 $string['completedon'] = 'اكتمل في';
 $string['confirmclose'] = 'أنت غ=على وشك إغلاق هذه المحاولة. بمجرد إغلاقك لهذه المحاول لن تستطيع تعديل إجاباتك.';
 $string['confirmserverdelete'] = 'هل أنت متأكد من إبعاد الخادم <b>a$</b> من القائمة؟';
@@ -109,6 +122,7 @@ $string['editcategory'] = 'حرر الفئة';
 $string['editcatquestions'] = 'حرر اسئلة الفئة';
 $string['editdatasets'] = 'حرر حزم البيانات';
 $string['editingdescription'] = 'تحرير الوصف';
+$string['editingessay'] = 'تحرير مقاله';
 $string['editingmatch'] = 'تحرير سؤال تطابقي';
 $string['editingmultianswer'] = 'تحرير اجابات ضمنية (Cloze)';
 $string['editingmultichoice'] = 'تحرير سؤال خيارات متعددة';
@@ -120,16 +134,23 @@ $string['editingrandomsamatch'] = 'تحرير سؤال عشوائى تطابقي
 $string['editingrqp'] = '$a: تحرير سؤال';
 $string['editingshortanswer'] = 'تحرير سؤال ذو إجابة قصيرة';
 $string['editingtruefalse'] = 'تحرير سؤال عن الصواب والخطأ';
+$string['editqcats'] = 'حرر فئات الأسئلة';
 $string['editquestions'] = 'تحرير الاسئله';
 $string['editquiz'] = 'حرر امتحان';
+$string['editquizquestions'] = 'حرر أسئلة الامتحان';
 $string['errornotnumbers'] = 'خطاء  -  الاجابة لابد ان تكون رقمية';
 $string['errorsdetected'] = '$a   تم استكشاف خطاء (أخطاء)';
+$string['essay'] = 'مقالة';
+$string['essayquestions'] = 'أسئلة مقالية';
 $string['event1'] = 'حفظ تلقائي';
 $string['event2'] = 'حفظ';
 $string['event3'] = 'درجة';
 $string['event5'] = 'مصادقة';
 $string['event6'] = 'اغلق';
+$string['event7'] = 'قدم';
+$string['event8'] = 'إغلق';
 $string['examview'] = 'معاينة اختبار';
+$string['export'] = 'تصدير';
 $string['exportfilename'] = 'امتحان';
 $string['exportname'] = 'اسم الملف';
 $string['exportquestions'] = 'صدر الأسئله إلى ملف';
@@ -151,6 +172,7 @@ $string['fractionsnomax'] = 'لا بد أن يكون أحد الأسئلة 100%%
 <br />هل تريد الرجوع لتصويب هذا السؤال؟';
 $string['gift'] = 'تنسيق GIFT';
 $string['grade'] = 'درجة';
+$string['gradeall'] = 'كل الدرجة';
 $string['gradeaverage'] = 'متوسط الدرجة';
 $string['gradehighest'] = 'أعلى درجة';
 $string['grademethod'] = 'أسلوب التقييم';
@@ -158,6 +180,7 @@ $string['guestsno'] = 'معذرة! يتعذر على الضيوف أداء ال�
 $string['hotpot'] = 'صياغة هوتبتيتوز';
 $string['imagedisplay'] = 'الصورة المراد عرضها';
 $string['imagemissing'] = 'لا توجد صورة في سطر  $a . سيتم تجاهل اسم الملف.';
+$string['import'] = 'استيراد';
 $string['importquestions'] = 'استيراد الاسئلة من ملف';
 $string['incorrect'] = 'خطاء';
 $string['indivresp'] = 'إجابات الافراد لكل بند';
@@ -203,7 +226,9 @@ $string['newattemptfail'] = 'خطاء  -  لا يمكن البدئ في محاو
 $string['noanswers'] = 'لم يتم اختيار إجابات!';
 $string['noattempts'] = 'لم تتم أي محاولات في هذا الامتحان';
 $string['noattemptstoshow'] = 'لا يوجد محاولات للقيام بعرضها';
+$string['nocommentsyet'] = 'لا يوجد تعليقات بعد';
 $string['nomoreattempts'] = 'غير مسموح بأي محاولات أخرى';
+$string['none'] = 'لا شئ';
 $string['noquestions'] = 'لم يتم إضافة أية أسئلة بعد';
 $string['noquestionsfound'] = 'لم يتم العثور على اسئله';
 $string['noresponse'] = 'لا توجد إجابة';
@@ -227,11 +252,13 @@ $string['previewquiz'] = 'معاينة امتحان';
 $string['previous'] = 'الوضع السابق';
 $string['publish'] = 'نشر';
 $string['qti'] = 'تنسيق IMS QTI';
+$string['questincats'] = 'فئات السؤال';
 $string['question'] = 'سؤال';
 $string['questioninuse'] = 'السؤال \'$a\' يتم استخدامه حاليا:';
 $string['questionname'] = 'اسم السؤال';
 $string['questionnametoolong'] = 'اسم السؤال طويل جدافي سطر $a(الحد الاقصى 255 حرف). تم اختصاره.';
 $string['questions'] = 'أسئلة';
+$string['questionsinclhidden'] = 'الأسئلة (ضمن المخفي)';
 $string['questionsperpage'] = 'الحد الاقصى لعدد الاسئله في الصفحة الواحدة';
 $string['questiontype'] = 'نوع السؤال $a';
 $string['questiontypesetupoptions'] = 'أعد خيارات أنواع الأسئلة';
@@ -270,6 +297,7 @@ $string['reportmulti_q_x_student'] = 'خيارات طلابية متعددة';
 $string['reportmulti_resp'] = 'إجابات فردية';
 $string['reportoverview'] = 'معاينه عامه';
 $string['reportregrade'] = 'إعادة تصحيح المحاولات';
+$string['reportresponses'] = 'إجابات مفصلة';
 $string['reports'] = 'تقارير';
 $string['reportsimplestat'] = 'إحصائيات مبسطة';
 $string['requirepassword'] = 'يتطلب كلمة مرور';
@@ -277,6 +305,7 @@ $string['requirepasswordmessage'] = 'لأخذ هذا الاختباريجب عل
 $string['requiresubnet'] = 'يتطلب عنوان شبكة';
 $string['response'] = 'إجابة';
 $string['responses'] = 'إجابات';
+$string['results'] = 'نتائج';
 $string['reuseifpossible'] = 'اعد استخدام المبعد سابقاً';
 $string['review'] = 'مراجعة';
 $string['reviewafter'] = 'السماح بالمراجعة بعد الاختبار';
@@ -320,6 +349,11 @@ $string['shuffleanswers'] = 'اخلط الاجابات';
 $string['shufflequestions'] = 'اخلط الاسئلة';
 $string['significantfigures'] = 'مع $a';
 $string['significantfiguresformat'] = 'أرقام معنوية';
+$string['singleanswer'] = 'اختر اجابة واحده';
+$string['sortage'] = 'رتب حسب الصفحة';
+$string['sortalpha'] = 'رتب حسب الاسم';
+$string['sortsubmit'] = 'رتب الأسئلة';
+$string['sorttypealpha'] = 'رتب حسب النوع، الاسم';
 $string['startagain'] = 'إبداء ثانياً';
 $string['startedon'] = 'بداء في';
 $string['substitutedby'] = 'سيستبدل بــ';
@@ -340,12 +374,14 @@ $string['type'] = 'النوع';
 $string['unfinished'] = 'مفتوح';
 $string['unit'] = 'حتى';
 $string['unknowntype'] = 'نوعية السؤال غير مدعم في سطر $a. سيتم تجاهل السؤال. ';
+$string['updatesettings'] = 'حدث إعدادات الامتحان';
 $string['url'] = 'عنوان';
 $string['validate'] = 'صادق';
 $string['viewallanswers'] = 'معاينة $a  الامتحانات المنجزة';
 $string['viewallreports'] = 'معاينة  التقارير لـ  $a  المحاولات';
 $string['warningsdetected'] = '$a  تم اكتشاف  تحذير (تحذيرات) ';
 $string['webct'] = 'تنسيق WebCT';
+$string['withselected'] = 'مع المختار';
 $string['withsummary'] = 'مع ملخص إحصائي';
 $string['wronggrade'] = 'درجة خطاء (بعد سطر $a  ) :';
 $string['wronguse'] = 'لا تستطيع استخدام الصفحة بهذا الشكل';

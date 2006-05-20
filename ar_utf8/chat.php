@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005010100)
+      // chat.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['beep'] = 'نغمة';
@@ -38,9 +38,10 @@ $string['methodnormal'] = 'الطريقة الاعتيادية';
 $string['modulename'] = 'محادثة';
 $string['modulenameplural'] = 'محادثات';
 $string['neverdeletemessages'] = 'لاتمسح الرسائل أبداً';
-$string['nextsession'] = 'الجلسة التالية ';
+$string['nextsession'] = 'الجلسة المجدوله التالية ';
 $string['noguests'] = 'المحادثة غير متاحة للزوار';
 $string['nomessages'] = 'لا توجد رسائل بعد';
+$string['noscheduledsession'] = 'لا يوجد الجلسة مجدوله';
 $string['repeatdaily'] = 'في نفس الموعد كل يوم';
 $string['repeatnone'] = 'لا تكرار- قم بنشر الموعد المحدد فقط';
 $string['repeattimes'] = 'جلسات مكررة';

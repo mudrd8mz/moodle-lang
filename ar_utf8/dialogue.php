@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005010100)
+      // dialogue.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
-$string['addmynewentries'] = 'اضف موادي الجديدة';
-$string['addmynewentry'] = 'اضف مادتي الجديدة';
+$string['addmynewentries'] = 'اضف مدخلاتي الجديدة';
+$string['addmynewentry'] = 'اضف مدخل الجديدة';
 $string['addsubject'] = 'اضف موضوع';
 $string['allowmultiple'] = 'السماح لأكثر من حوار مع نفس الشخص';
 $string['allowstudentdialogues'] = 'السماح بحوارات طالب -  لطالب';
@@ -25,29 +25,30 @@ $string['dialogueopened'] = 'فتح الحوار مع $a';
 $string['dialoguewith'] = 'حوار مع $a';
 $string['everybody'] = 'جميع الاشخاص';
 $string['furtherinformation'] = 'معلومات اخرى';
-$string['lastentry'] = 'اخر مادة';
+$string['lastentry'] = 'اخر مدخل';
 $string['maildefault'] = 'بريد افتراضي';
 $string['mailnotification'] = 'اشعار بريدي';
 $string['modulename'] = 'حوار';
 $string['modulenameplural'] = 'حوارات';
 $string['namehascloseddialogue'] = '$a قام باغلق الحوار';
-$string['newdialogueentries'] = 'مواد حوارية جديدة';
-$string['newentry'] = 'مادة جديدة';
+$string['newdialogueentries'] = 'مدخلات حوارية جديدة';
+$string['newentry'] = 'مدخل جديدة';
 $string['noavailablepeople'] = 'لا يجود اى شخص للمحاورة معه';
 $string['nopersonchosen'] = 'لم يتم اختيار اى شخص';
 $string['nosubject'] = 'لم يتم ادخال الموضوع';
+$string['notavailable'] = 'لا تتوفر الحوارات للزوار';
 $string['notextentered'] = 'لم يتم ادخال النص';
 $string['notstarted'] = 'لم يبداء هذا الحوار بعد';
 $string['notyetseen'] = 'لم يراى بعد';
-$string['numberofentries'] = 'عدد المواد';
-$string['numberofentriesadded'] = 'عدد المواد المضافة: $a';
+$string['numberofentries'] = 'عدد المدخلات';
+$string['numberofentriesadded'] = 'عدد المدخلات المضافة: $a';
 $string['of'] = 'من';
 $string['onwrote'] = 'كتب $a في';
 $string['onyouwrote'] = 'كتبت $a في';
 $string['open'] = 'مفتوح';
 $string['openadialoguewith'] = 'افتح حوار مع';
 $string['opendialogue'] = 'افتح حوار';
-$string['opendialogueentries'] = 'مواد الحوار المفتوح';
+$string['opendialogueentries'] = 'مدخلات الحوار المفتوح';
 $string['pane0'] = 'افتح حوار';
 $string['pane1'] = ' $a حوارات تنظر الردود منك';
 $string['pane1one'] = '1 حوار ينتظر الرد منك';
@@ -62,10 +63,10 @@ $string['studenttostudent'] = 'طالب - لطالب';
 $string['subject'] = 'موضوع';
 $string['subjectadded'] = 'تم اضافة موضوع';
 $string['teachertostudent'] = 'مدرس - لطالب';
-$string['typefirstentry'] = 'اطبع المادة الاولى هناء';
+$string['typefirstentry'] = 'اطبع المدخل الاولى هناء';
 $string['typefollowup'] = 'اطبع المتابعة هناء';
 $string['typeofdialogue'] = 'نوع الحوار';
 $string['typereply'] = 'اطبع الرد هناء';
-$string['viewallentries'] = 'شاهد $a مواد الحوار';
+$string['viewallentries'] = 'معاينة $a مدخلات الحوار';
 
 ?>

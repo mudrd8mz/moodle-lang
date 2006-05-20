@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.2 development (2004012800)
+      // survey.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['actual'] = 'فعلي';
 $string['actualclass'] = 'الفصل الفعلي';
-$string['actualstudent'] = ' $aفعلي';
+$string['actualstudent'] = ' $a فعلي';
 $string['allquestions'] = 'كل الأسئلة لكل الدارسين ';
 $string['allscales'] = 'كل الموازين, كل الدارسين';
 $string['alreadysubmitted'] = 'أنت بالفعل سلمت الاستبيان';
@@ -57,10 +57,15 @@ $string['attlsm3'] = 'التعلم المستقل';
 $string['attlsmintro'] = 'في نقاش...';
 $string['attlsname'] = 'ATTLS (نسخة ذات عشرين بندا)';
 $string['ciq1'] = 'في أي لحظة خلال الدرس شعرت اكثر تفاعلا كمتعلم؟';
+$string['ciq1short'] = 'مشارك تماما';
 $string['ciq2'] = 'في أي لحظة خلال الدرس شعرت بانك ابعدت كمتعلم ؟';
+$string['ciq2short'] = 'بعيد تماما';
 $string['ciq3'] = 'ماهو العمل الذ وجده في المنتديات من أي شخص وتعتبرة عملا مساعداً ومعززا ؟';
+$string['ciq3short'] = 'لحظة مساعده';
 $string['ciq4'] = 'ماهو العمل الذ وجده في المنتديات من أي شخص وتعتبرة عملا مربكا ومشوشا؟';
+$string['ciq4short'] = 'لخظة تشوش';
 $string['ciq5'] = 'ما هو الموقف الذي ادهشك اكثر؟';
+$string['ciq5short'] = 'لحظة مفاجئة';
 $string['ciqintro'] = 'اثناء تفكيرك في الاحداث الحاليه في الدرس اجب على الاسئله التاليه';
 $string['ciqname'] = 'موقف محرج';
 $string['clicktocontinue'] = 'اضغط هنا للاستمرار';

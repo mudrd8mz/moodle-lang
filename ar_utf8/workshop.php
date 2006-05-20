@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005011000)
+      // workshop.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['absent'] = 'غائب';
@@ -171,6 +171,7 @@ $string['noteonstudentassessments'] = '{الدرجة من الطالب / تقد�
 $string['notgraded'] = 'لم يتم رصد الدرجات';
 $string['notitle'] = 'لا يوجد عنوان';
 $string['notitlegiven'] = 'لم يعطى عنوان';
+$string['notsubmittedyet'] = 'لم يتم تسليم أي مهمة بعد';
 $string['nowork'] = 'انتهت فترة التسليم.<br /> لم تقم بتسليم أي عمل.';
 $string['numberofassessmentelements'] = 'Number of Comments, Assessment Elements, Grade Bands, Criterion Statments or Categories in a Rubric';
 $string['numberofassessments'] = 'عدد التقييمات';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // journal.php - created with Moodle 1.6 development (2005052400)
+      // journal.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['alwaysopen'] = 'متاح دائما';

@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.5 ALPHA (2005050600)
+      // choice.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['addmorechoices'] = 'أضف خيارات أكثر';
 $string['allowupdate'] = 'اسمح لتحميل الخيارات';
 $string['answered'] = 'أجيب عنه';
-$string['choice'] = 'اختيار  $a ';
+$string['choice'] = 'اختيار';
 $string['choiceclose'] = 'حتى';
 $string['choicename'] = 'اسم الاختيار';
 $string['choiceopen'] = 'مفتوح';
@@ -20,7 +20,7 @@ $string['limitanswers'] = 'حدد عدد الأجابات المسموح بها'
 $string['modulename'] = 'الاختيار';
 $string['modulenameplural'] = 'الاختيارات';
 $string['mustchooseone'] = 'يجب عليك اختيار إجابة قبل أن تحفظ. لم حفظ أي شيئ';
-$string['notanswered'] = 'لم يجب عنها بعد';
+$string['notanswered'] = 'لم تتم الأجابة بعد';
 $string['notopenyet'] = 'عذرا، هذا النشاط سيكون متوفر في $a';
 $string['privacy'] = 'نتائج الخصوصية';
 $string['publish'] = 'أنشر النتائج';

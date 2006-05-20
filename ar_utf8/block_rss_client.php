@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.6 development (2005052400)
+      // block_rss_client.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['addfeed'] = 'أضف عنوان تغذية الاخبار.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.6 development (2005052400)
+      // calendar.php - created with Moodle 1.6 Beta 1 (2006032900)
 
 
 $string['calendar'] = 'تقويم';
@@ -30,6 +30,7 @@ $string['eventendtime'] = 'وقت الانتهاء';
 $string['eventinstanttime'] = 'وقت';
 $string['eventkind'] = 'نوع الحدث';
 $string['eventname'] = 'اسم';
+$string['eventnone'] = 'لا يوجد أحداث';
 $string['eventrepeat'] = 'تكرار';
 $string['eventsfor'] = '$a احداث';
 $string['eventstarttime'] = 'وقت البداء';
