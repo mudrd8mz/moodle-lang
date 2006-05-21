@@ -83,7 +83,7 @@ Je hebt een plaats nodig waar Moodle bestanden kan opslaat. Deze map moet leesba
 $string['dirroot'] = 'Moodle-map';
 $string['dirrooterror'] = 'De instelling voor \'Moodle-map\' was niet juist - we kunnen daar geen Moodle-installatie vinden. Onderstaande waarde is gereset.';
 $string['download'] = 'Download';
-$string['downloadlanguagebutton'] = 'Download het \"$a\" taalpakket';
+$string['downloadlanguagebutton'] = 'Download het &quot;$a&quot; taalpakket';
 $string['downloadlanguagehead'] = 'Download taalpakket';
 $string['downloadlanguagenotneeded'] = 'Je kunt het installatieproces verder laten lopen met het standaard taalpakket, \"$a\".';
 $string['downloadlanguagesub'] = 'Je kun nu een taalpakket downloaden en de installatie in die taal verder zetten.<br /><br />Als je dit taalpakket niet kunt downloaden, dan zal de installatie in het Engels verder gaan. (Als de installatie is afgewerkt, krijg je terug de mogelijkheid om nieuwe taalpakketten te downloaden en te installeren)';
