@@ -1,5 +1,5 @@
-<?PHP // $Id$
-
+<?PHP // $Id$ 
+      // glossary.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
 $string['addcomment'] = '덧글 쓰기';
@@ -96,8 +96,8 @@ $string['explainexport'] = '파일이 생성되었습니다. 파일을 다운받
 $string['explainimport'] = '가져오기 할 파일을 구체적으로 적어야 합니다. 그리고 과정의 범주를 설정합니다.';
 $string['explainspecial'] = '문자로 시작하지 않는 항목 보기';
 $string['exportedentry'] = '내보내기된 항목';
-$string['exportedfile'] = '내보내기된 파일';
 $string['exportentries'] = '항목 내보내기';
+$string['exportfile'] = '게시물을 파일로 내보내기';
 $string['exportglossary'] = '자료집 내보내기';
 $string['exporttomainglossary'] = '주 자료집으로 내보내기';
 $string['filetoimport'] = '가져오기 파일';
@@ -107,7 +107,6 @@ $string['fullmatch'] = '완전히 일치하는 단어만';
 $string['globalglossary'] = '공용 자료집';
 $string['glossaryleveldefaultsettings'] = '어휘수준의초기설정';
 $string['glossarytype'] = '자료집 유형';
-$string['glosssaryexported'] = '자료집이 내보내기됨';
 $string['importcategories'] = '항목 가져오기';
 $string['importedcategories'] = '가져오기 된 범주';
 $string['importedentries'] = '가져오기 된 항목';
@@ -166,4 +165,5 @@ $string['withauthor'] = '올린이생각';
 $string['withoutauthor'] = '저자 없음';
 $string['writtenby'] = '올린이:';
 $string['youarenottheauthor'] = '글 쓴 사람만 내용을 고칠 수 있습니다.';
+
 ?>

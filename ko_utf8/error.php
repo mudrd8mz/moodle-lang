@@ -1,36 +1,72 @@
-<?PHP // $Id$
-
+<?PHP // $Id$ 
+      // error.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
 $string['adminprimarynoedit'] = '다른이에 의해 주요한 관리자가 편집되지 않음';
+$string['cannotcreatelangdir'] = 'lang 디렉토리를 만들 수 없습니다.';
+$string['cannotcreatetempdir'] = 'temp 디렉토리를 만들 수 없습니다.';
+$string['cannotdownloadcomponents'] = '구성요소를 내려받기 할 수 없습니다.';
+$string['cannotdownloadzipfile'] = 'ZIP파일을 내려받기 할 수 없습니다.';
+$string['cannotfindcomponent'] = '구성요소를 찾을 수 없습니다.';
+$string['cannotsavemd5file'] = 'md5  파일을 저장할 수 없습니다.';
+$string['cannotsavezipfile'] = 'ZIP 파일을 저장할 수 없습니다.';
+$string['cannotunzipfile'] = '파일 압축풀기를 할 수 없습니다.';
+$string['cmunknown'] = '이 과정 모듈을 찾을 수 없습니다.';
+$string['componentisuptodate'] = '구성 요소가 최신의 것입니다.';
 $string['confirmsesskeybad'] = '죄송합니다. 당신의 세션키가 확실치 않아 이 행동을 취할수 없습니다. 이 보안의 특징은 사고나 당신의 이름의 악의적인 이용을 예방합니다. 이 기능을 꼭 이용해 주시길 바랍니다.';
 $string['coursegroupunknown'] = '그룹에 상응하는 코스 $a 명시되 있지 않음.';
-$string['errorcleaningdirectory'] = '디렉토리 정리 오류';
+$string['downloadedfilecheckfailed'] = '내려받기 한 파일 체크가 실패하였습니다.';
+$string['errorcleaningdirectory'] = '\"$a\" 디렉토리 정리 오류';
 $string['errorcopyingfiles'] = '파일 복사 오류';
-$string['errorcreatingdirectory'] = '디렉토리 생성 오류';
-$string['errorcreatingfile'] = '파일 생성 오류';
-$string['erroronline'] = '온라인 상의 오류';
-$string['errorreadingfile'] = '파일 읽기 오류';
+$string['errorcreatingdirectory'] = '\"$a\" 디렉토리 생성 오류';
+$string['errorcreatingfile'] = '\"$a\" 파일 생성 오류';
+$string['erroronline'] = '\"$a\" 온라인 상의 오류';
+$string['errorreadingfile'] = '\"$a\" 파일 읽기 오류';
 $string['errorunzippingfiles'] = '파일 압축풀기 오류';
 $string['fieldrequired'] = '\"$a\"는 필요한(필수)분야';
 $string['filenotfound'] = '죄송합니다. 요청하신 파일을 찾을 수가 없습니다.';
-$string['groupalready'] = '사용자는 이미 그룹에 속해있습니다. ';
-$string['groupunknown'] = '$a  그룹은 특정 코스에 속해있지 않습니다.';
-$string['invalidfieldname'] = ' \"$a\"는 실효성이 없는(설득력이 없는) 분야명';
-$string['invalidfiletype'] = '정확한 유형의 파일이 아닙니다.';
-$string['invalidxmlfile'] = '정확한 XML 파일이 아닙니다.';
-$string['missingfield'] = '분야\"$a\" 가 없다';
-$string['modulerequirementsnotmet'] = 'Moodle이 설치될수가 없습니다. 최신버전의 Moodle이 필요합니다. ';
+$string['forumblockingtoomanyposts'] = '이 포럼에 대해 설정된 게시 한계를 초과했습니다.';
+$string['groupalready'] = '사용자는 이미 $a 그룹에 속해있습니다. ';
+$string['groupunknown'] = '$a 그룹은 특정 코스에 속해있지 않습니다.';
+$string['guestnoeditprofile'] = '손님 사용자는 프로필을 편집할 수 없습니다.';
+$string['guestnoeditprofileother'] = '손님 사용자 프로필은 편집될 수 없습니다.';
+$string['invalidcourse'] = '잘못된 과정';
+$string['invalidfieldname'] = '\"$a\"는 유효하지 않은 필드명';
+$string['invalidfiletype'] = '\"$a\" 는 정확한 유형의 파일이 아닙니다.';
+$string['invalidmd5'] = '잘못된 md5';
+$string['invalidxmlfile'] = '\"$a\"는 정확한 XML 파일이 아닙니다.';
+$string['missingfield'] = '필드 \"$a\" 가 없다';
+$string['missingrequiredfield'] = '필요한 항목이 빠져 있습니다.';
+$string['modulemissingcode'] = '모듈 $a가 이 기능을 수행하는데 필요한 코드를 가지고 있지 않습니다.';
+$string['modulerequirementsnotmet'] = '무듈 \"$a->modulename\" ($a->moduleversion) 이 설치될수가 없습니다. (현재 쓰고 있는 것은 $a->currentmoodle 입니다만 필요한 것은 $a->requiremoodle 입니다) ';
+$string['mustbeteacher'] = '교수자만 이 페이지를 볼 수 있습니다. ';
+$string['noinstances'] = '이 과정에 $a 의 인스턴스가 없습니다.';
 $string['nonmeaningfulcontent'] = '의미가 없는 내용';
-$string['notavailable'] = '유요하지 않습니다. ';
-$string['onlyeditingteachers'] = '편집할수 있는 성생님만이 할수 있습니다';
+$string['noparticipatorycms'] = '죄송합니다. 당신은 보고할 특정한 과정 모듈을 가지고 있지 않습니다.';
+$string['notavailable'] = '현재 사용할 수 없습니다. ';
+$string['onlyadmins'] = '관리자만이 그 일을 할 수 있습니다.';
+$string['onlyeditingteachers'] = '편집할수 있는 선생님만이 할수 있습니다';
 $string['onlyeditown'] = '본인의 정보만을 편집하시오';
-$string['processingstops'] = '진행이 멈췄습니다. 남은 기록은 무시하십시오.';
-$string['restricteduser'] = '죄송합니다. 현재 당신의 계정은 차단되었습니다. ';
+$string['pagenotexist'] = '흔치 않은 오류 발생(없는 페이지에 갈려고 함)';
+$string['pleasereport'] = '당신이 시간이 있다면 오류가 발생하였을때 무엇을 하고자 하였는지 우리에게 알려주십시요.';
+$string['pluginrequirementsnotmet'] = '플러그인 \"$a->pluginname\" ($a->pluginversion) 이 설치될 수 없습니다. 새로운 버전의 무들이 필요합니다. (현재 당신은 $a->currentmoodle 버전을 사용하고 있으며,$a->requiremoodle 버전이 필요합니다).';
+$string['processingstops'] = '진행이 멈췄습니다. 남은 기록은 무시됩니다.';
+$string['remotedownloadnotallowed'] = '서버로 구성요소를 내려받는 것이 허용되지 않습니다. (allow_url_fopen 이 비활성화 됨).<br /><br /> 수동으로  <a href=\"$a->url\">$a->url</a> 파일을 다운로드 하고,  서버의 \"$a->dest\" 에 복사한 후 압축을 푸셔야 합니다.';
+$string['restricteduser'] = '죄송합니다. 현재 당신의 \"$a\" 계정은 차단되었습니다. ';
+$string['sendmessage'] = '메세지 보내기';
 $string['sessionerroruser'] = '당신의 세션이 종료 되었습니다. 다시 로그인 하십시오.';
+$string['sessionerroruser2'] = '당신의 로그인 세션이 감지되어 서버에 오류가 발생했습니다. 다시 로그인 하시거나 인터넷 창을 다시 켜주십시오.';
 $string['sessionipnomatch'] = '죄송합니다 당신의 아이피 주소가 처음 로그인 했을때와 다릅니다. 이 보안의 특징은 해커가 이 사이트를 당신의 아이디를 해킹해 접속하는것을 방지합니다. 일반 사용자들은 이 메시지가 보여지지 않을것입니다. 도움을 원한다면 이 사이트의 운영자에게 문의하세요.';
+$string['statscatchupmode'] = '통계가 현재 따라잡기 모드로 설정되 있습니다. 현재 진행중인 상태입니다. 빠른시간안에 다시 확인하겠습니다!';
 $string['unknowncourse'] = '\"$a\"라는 알려지지 않는 강좌(과정)';
-$string['usernotaddederror'] = '사용자(가)\"$a\"를 추가하지 않았습니다.-알려지지 않은 오류';
-$string['usernotaddedregistered'] = '사용자 \"$a\"를 추가하지 않았습니다- 이미 등록되어짐';
+$string['unknownuseraction'] = '죄송합니다. 이 사용자 활동을 이해할 수 없습니다.';
+$string['usernotaddederror'] = '사용자 \"$a\"를 추가하지 않았습니다.-알수 없는 오류';
+$string['usernotaddedregistered'] = '사용자 \"$a\"를 추가하지 않았습니다- 이미 등록됨';
 $string['usernotavailable'] = '이 사용자의 세부항의 허용되지 않습니다';
+$string['usernotrenamedexists'] = '사용자 이름이 변경되지 않았습니다. 새로운 사용자 이름이 이미 사용중입니다.';
+$string['usernotrenamedmissing'] = '사용자 이름이 변경되지 않았습니다. 현재 사용자 이름을 찾을 수 없습니다.';
+$string['wrongdestpath'] = '잘못된 목적 경로';
+$string['wrongsourcebase'] = '잘못된 소스 URL  베이스';
+$string['wrongzipfilename'] = '잘못된 ZIP 파일이름';
+
 ?>

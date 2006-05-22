@@ -1,5 +1,5 @@
-<?PHP // $Id$
-
+<?PHP // $Id$ 
+      // auth.php - created with Moodle 1.6 development (2006032200)
 
 
 $string['alternatelogin'] = '만약 당신이 URL을 들어와 여기에 있다면, 이 사이트를 위한 로그인 페이지에서 사용될 것이다. 이 페이지는 행동 자산 설치 <strong>\'$a\'</strong> 를 가진 형태를 포함하여야 하고 <strong> 사용자 이름 </strong>  <strong>password</strong> 분야를 다시 돌려야 한다. 
@@ -19,6 +19,10 @@ $string['auth_cas_text'] = '안전한 연결';
 $string['auth_cas_version'] = 'CAS의 버전';
 $string['auth_casdescription'] = '이 방법은 간편 사용자 인증(SSO)하에서 사용자를 인증하기 위해 CAS 서버(중앙 인증 서비스)를 사용한다. 또한 단순한 LDAP 확증을 사용할 수도 있다. 만약 주어진 사용자 이름과 비밀 번호가 CAS에 따라 근거가 확실하다면, 모듈은 그것의 데이터베이스에서 새로운 사용자 엔트리를 만들고, 만약 요청이 있으면 LDAP로부터 사용자 변경을 취한다. 로그인과정에서는 단지 사용자 이름과 비밀번호만 체크된다. ';
 $string['auth_castitle'] = 'CAS 서버(SSO)를 사용하시오.';
+$string['auth_changepasswordhelp'] = '비밀번호 도움문서 바꾸기';
+$string['auth_changepasswordhelp_expl'] = '잊어버린 비밀번호 도움문서를 비밀번호를 잊어버린 사용자들에게 보입니다. 또한 이것은 비밀번호를 변경하는걸 대신하거나 무들의 내부 비밀번호를 바꾸는것을 보여줍니다.';
+$string['auth_changepasswordurl'] = '비밀번호 주소 바꾸기';
+$string['auth_changepasswordurl_expl'] = '비밀번호를 잊어버린 사용자들에게 이 주소를 전송합니다. 표준적인 비밀번호 변경 페이지';
 $string['auth_common_settings'] = '일반설정';
 $string['auth_data_mapping'] = '데이타 계획';
 $string['auth_dbdescription'] = '이 방식은 외부의 데이터베이스 테이블을 통해 사용자의 아이디와 비밀번호가 유효한 지를 확인합니다. 다른 항목의 정보도 Moodle사의 데이터 베이스에 복사될 수 있도록 설정이 가능합니다.';
@@ -40,11 +44,11 @@ $string['auth_fcdescription'] = '이 방법은 정해진 사용자성명인지 �
 $string['auth_fcfppport'] = '서버 포트(3333이 가장 일반적입니다.)';
 $string['auth_fchost'] = '펄스트클래스 서버 주소. IP 주소나 DNS 이름을 입력하세요';
 $string['auth_fcpasswd'] = '상층부 설명을 위한 비밀번호';
-$string['auth_fctitle'] = '펄스트클래스 서버를 이용하세요.';
+$string['auth_fctitle'] = 'FirstClass 서버를 이용하세요.';
 $string['auth_fcuserid'] = '최고급을 위해 \'Subadministrator\' 설치 특권과 함께 설명한다. ';
 $string['auth_fieldlock'] = '사용자 정보 잠김.';
 $string['auth_fieldlock_expl'] = '<p><b>사용자 정보 잠김:</b> 만약 보기가 허락된다면 무들 프로그램은 사용자 정보 분야를 바로 편집해서 정보 유출을 방지할것입니다. 이 옵션을 사용하면 사용자 정보 파일은 외부 시스템으로 부터 지속적으로 지킬수 있습니다. </p>';
-$string['auth_fieldlocks'] = '사용자 분야 잠금';
+$string['auth_fieldlocks'] = '사용자 항목 잠금';
 $string['auth_fieldlocks_help'] = '<p>당신은 사용자 정보 분야를 잠굴수 있습니다. 이 기능은 사용자 정보 기록이나 사용자 정보를 사이트에서 운영자가 직접 유지 관리하는데 유용합니다. 무들 프로그램에 의해 잠긴 분야가 있다면 사용자 계정을 새로만들거나 하지 않으면 계정은 사용할수 없게 될 것입니다.</p><p>이런 문제가 생기지 않길 바란다면 설정을 칸이 비워져있을땐 잠기지 않음으로 설정하십시오.</p>';
 $string['auth_imapdescription'] = 'IMAP 서버를 사용하여 사용자의 이름과 패스워드의 유용성을 확인합니다';
 $string['auth_imaphost'] = 'IMAP 서버의 주소. DNS 이름을 사용하지 않고 IP주소를 사용합니다.';
@@ -101,7 +105,13 @@ $string['auth_pop3mailbox'] = '연결 시도를 위한 우편함의 이름 (보�
 $string['auth_pop3port'] = '서버 포트 (110이 가장 무난합니다)';
 $string['auth_pop3title'] = 'POP3 서버를 사용합니다.';
 $string['auth_pop3type'] = '서버의 형식. 만약 당신의 서버가 증면된 보안을 사용한다면 POP3cert를 선택하세요.';
-$string['auth_shib_convert_data'] = 'API에 대한 변경 정보를 수집하십시오.';
+$string['auth_radiusdescription'] = '이방법은 사용자 이름과 암호를 인증하기 위하여  
+<a ref=\"http://en.wikipedia.org/wiki/RADIUS\"   target=\"_blank\">RADIUS</a> 서버를 사용합니다.';
+$string['auth_radiushost'] = 'RADIUS 서버 주소';
+$string['auth_radiusnasport'] = '연결할 포트';
+$string['auth_radiussecret'] = '공유된 암호';
+$string['auth_radiustitle'] = 'RADIUS 서버 사용';
+$string['auth_shib_convert_data'] = '자료 변경 API';
 $string['auth_shib_convert_data_description'] = '당신은 이 좀더 암호에 의해 제공된 데이터를 변경하기 위해 이 API를 사용할 수 있다. 좀 더 많은 규정을 위해
 <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> 을 읽어보십시오.';
 $string['auth_shib_convert_data_warning'] = '웹서버 진행에 의해 파일이 존재하지 않거나 읽을 수 없다. ';
@@ -130,18 +140,21 @@ $string['authinstructions'] = '이곳에서 당신은 사용자들이 사용하�
 $string['changepassword'] = '패스워드 URL을 바꾼다';
 $string['changepasswordhelp'] = '만약 계정과 비밀번호를 잊어버렸다면 이곳에서 계정과 비밀번호를 찾거나 혹은 바꿀 수 있습니다. 이 형식은 로그인 페이지나 사용자 페이지에서  버튼형식으로 제공되어지지만  이곳을 빈칸으로 놓아둔다면 버튼은 웹페이지에 나타나지 않습니다. ';
 $string['chooseauthmethod'] = '인증 방법 선택하세요:';
-$string['createchangepassword'] = '파일이 없다면 만드시오 - 강제 변경';
-$string['createpassword'] = '파일이 없다면 만드시오';
+$string['createpasswordifneeded'] = '필요하다면 암호를 생성하십시요';
 $string['forcechangepassword'] = '암호변경 강요';
 $string['forcechangepassword_help'] = '다음 무들 사용 로그인시 비밀번호를 바꿀 것을 사용자에게 요청합니다.';
 $string['forcechangepasswordfirst_help'] = '사용자에게 무들에 처음 로그인 할 때 비밀번호를 변경할 것을요청합니다.';
 $string['guestloginbutton'] = '손님 접속 버튼';
 $string['infilefield'] = '이 분야는 파일이 필요합니다.';
 $string['instructions'] = '도움말';
+$string['internal'] = '내부';
 $string['locked'] = '잠겨있음';
 $string['md5'] = 'MD5 인증 ';
 $string['passwordhandling'] = '비밀번호 분야 다루기.';
 $string['plaintext'] = '단순 텍스트';
+$string['shib_no_attributes_error'] = '당신은 Shibboleth 인증을 쓰는 것 같습니다만, 무들은 당신의 사용자 속성을 전달받지 못했습니다. 필요한 속성($a)을 무들 서비스 제공자 혹은 이 서버의 웹관리자에게 전달하였는지를 점검하여 주시기 바랍니다.';
+$string['shib_not_all_attributes_error'] = '무들은 당신의 경우와 같은 사례를 처리하기 위해서 별도의 Shibboleth 속성이 필요합니다.<br />여러분의 웹관리자나 인증제공자에게 문의하시기 바랍니다.';
+$string['shib_not_set_up_error'] = 'Shibboleth 인증이 제대로 설정되지 않은 것 같습니다. Shibboleth인증을 설정하기 위한 자세한 내용은 <a href=\"README.txt\">README</a>를 확인하여 주시기 바랍니다.';
 $string['showguestlogin'] = '로그인 페이지에서 손님 로그인 버튼을 보이거나 숨길 수 있습니다.';
 $string['stdchangepassword'] = '비밀번호 페이지를 사용하기';
 $string['stdchangepassword_expl'] = '만약 외부의 인증 시스템이 모듈을 통해 비밀 번호 변경을 허락한다면, 이것을 Yes 로 바꾸십시오. 이 장치는 \'URL 비밀 번호 변경\'을 변경한다.';
@@ -152,4 +165,5 @@ $string['update_never'] = '불가';
 $string['update_oncreate'] = '제작하다';
 $string['update_onlogin'] = '모든 접속';
 $string['update_onupdate'] = '업데이트';
+
 ?>

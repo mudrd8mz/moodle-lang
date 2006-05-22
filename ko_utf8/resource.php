@@ -1,8 +1,11 @@
-<?PHP // $Id$
-
+<?PHP // $Id$ 
+      // resource.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
 $string['addresource'] = '자원 추가';
+$string['back'] = '뒤로';
+$string['browserepository'] = '저장소 검색';
+$string['choose'] = '선택';
 $string['chooseafile'] = '업로드 파일 선택';
 $string['chooseparameter'] = '조건 선택';
 $string['configallowlocalfiles'] = '새로운 파일 요소를 만들었을때, CD 드라이브 또는 하드 드라이브와 같은 공간 파일 시스템의 파일 링크를 허락합니다.이것은 아마 모든 학생들이 공통의 네트워크 드라이브에 접속하거나 CD의 파일의 접속을 필요로 하는 강의실에 유용할 것입니다.';
@@ -24,10 +27,12 @@ $string['configsecretphrase'] = '이러한 비밀 구절은  매개변수와 같
 $string['configwebsearch'] = '웹 페이지 또는 웹 링크와 같은 URL을 추가할 때, 이 소재는 사용자가 원하는 URL 검색을 도와주는 사이트가 제공됩니다.';
 $string['configwindowsettings'] = '이것은 몇몇의 새로운 요소를 추가할 때의 형태의 윈도우 배치 창에 디폴트값을 배치합니다. 처음 이후에는, 이것은 개인 사용자의 선호가 됩니다.';
 $string['deploy'] = '배치';
+$string['deployall'] = '모두 배치';
 $string['directlink'] = '이 파일로 직접 링크하기';
 $string['directoryinfo'] = '선택된 디렉토리의 모든 파일들이 표시될 것입니다.';
 $string['display'] = '윈도우';
 $string['editingaresource'] = '자원 편집하기';
+$string['emptyfolder'] = '빈 폴더';
 $string['encryptedcode'] = '암호화된 코드';
 $string['example'] = '예제';
 $string['exampleurl'] = 'http://www.mirae.es.kr/';
@@ -50,6 +55,8 @@ $string['maindirectory'] = '주 화일 디렉토리';
 $string['modulename'] = '자원';
 $string['modulenameplural'] = '자원';
 $string['navigationbuttons'] = '네비게이션 버튼들';
+$string['navigationmenu'] = '네비게이션 사이드 메뉴';
+$string['navigationup'] = '위로 버튼';
 $string['neverseen'] = '보이지 않음';
 $string['newdirectories'] = '디렉토리 링크 보이기';
 $string['newfullscreen'] = '전체 화면으로 채우기';
@@ -63,7 +70,9 @@ $string['newtoolbar'] = '툴바 나타내기';
 $string['newwidth'] = '윈도우 너비 실패(픽셀)';
 $string['newwindow'] = '새 창으로';
 $string['newwindowopen'] = '팝업창으로 나타나게 합니다.';
+$string['next'] = '다음';
 $string['notallowedlocalfileaccess'] = '로컬 파일 접속은 최근에 억제되었기에,이 요소는 사용할 수 없습니다.';
+$string['notdeployed'] = '배포되지 않음';
 $string['note'] = '노트';
 $string['notefile'] = '더욱 많은 파일을 올리기 위해서는(이곳에 표시가 되어집니다.) <a href=\"$a\">파일 관리자</a>을 이용하시오.';
 $string['notypechosen'] = '유형을 선택하세요. 뒤로가기 버튼을 클릭하신후 재 시도해 주시기 바랍니다.';
@@ -76,6 +85,10 @@ $string['parameter'] = '조건';
 $string['parameters'] = '조건들';
 $string['popupresource'] = '이것은 팝업창으로 나타납니다.';
 $string['popupresourcelink'] = '활성화 되지 않으면 이곳을 클릭하시오.: $a';
+$string['preview'] = '미리보기';
+$string['previous'] = '이전';
+$string['redeploy'] = '다시 배포';
+$string['repository'] = 'IMS  저장소';
 $string['resourcetype'] = '자원의 유형';
 $string['resourcetype1'] = '출처';
 $string['resourcetype2'] = '웹 페이지';
@@ -94,10 +107,13 @@ $string['resourcetypelabel'] = '표지 삽입하기';
 $string['resourcetyperepository'] = '저장 대상에 연결';
 $string['resourcetypetext'] = '텍스트 페이지 만들기';
 $string['searchweb'] = '웹 사이트 검색';
-$string['serverurl'] = '서버 URL';
+$string['serverurl'] = '서버 URL ($a->wwwroot)';
 $string['showcourseblocks'] = '교육과정 블럭 보이기';
+$string['skipsubmenus'] = '부-메뉴 페이지 건너뛰기';
 $string['tableofcontents'] = '컨텐츠 목록';
+$string['upbutton'] = '위로';
 $string['variablename'] = '변덕스러운 이름';
 $string['viewims'] = 'IMS CP 팩키지 보기';
 $string['vol'] = '볼륨';
+
 ?>
