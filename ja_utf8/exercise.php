@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.7 dev (2006050501)
+      // exercise.php - created with Moodle 1.7 dev (2006050502)
 
 
 $string['absent'] = '欠席';
@@ -7,7 +7,7 @@ $string['accumulative'] = '累積評価';
 $string['action'] = '処理';
 $string['ago'] = '$ 日前';
 $string['amend'] = '更新';
-$string['amendassessmentelements'] = '評価要素の更新';
+$string['amendassessmentelements'] = '評価要素の修正';
 $string['amendtitle'] = 'タイトルの更新';
 $string['analysis'] = '分析';
 $string['assess'] = '評価';
@@ -85,7 +85,7 @@ $string['noexercisedescriptionssubmitted'] = 'エクササイズ説明資料が�
 $string['nosubmissions'] = '提出課題無し';
 $string['notassessedyet'] = '未評価';
 $string['notavailable'] = '利用不可';
-$string['noteonassessmentelements'] = '評定は、いくつかの「評価要素」に分解されます。<br />このことは評定を簡単にし、さらにしっかりとしたものにします。学生が課題を受けることが<br />できるようにする前に、教師として、あなたはこれらの要素を追加する必要があります。<br />これは、コースの課題をクリックすることで設定できます。もし、要素が存在しない場合、要素を<br />追加するよう求められます。要素数は、課題の編集画面で変更することができます。<br />要素自体は「課題の管理」画面で修正することができます。';
+$string['noteonassessmentelements'] = '評定は、いくつかの「評価要素」に分解されます。<br />このことは評定を簡単にし、さらにしっかりとしたものにします。学生が課題を受けることが<br />できるようにする前に、教師として、あなたはこれらの要素を追加する必要があります。<br />これは、コースの課題をクリックすることで設定できます。もし、評価要素が存在しない場合、評価要素を<br />追加するよう求められます。評価要素数は、エクササイズの更新画面で変更することができます。<br />評価要素自体は「評価要素の修正」画面で修正することができます。';
 $string['noteongradinggrade'] = 'この評点は、あなたの提出課題に対する $a による評価が、あなたの評価といかに<br />一致するか示すものです。評点が高いほど、一致していることを示します。';
 $string['noteonstudentassessments'] = '{ 学生による評定 / 評価のための評点 }';
 $string['notgraded'] = '評価無し';
