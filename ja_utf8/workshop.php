@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.7 dev (2006050501)
+      // workshop.php - created with Moodle 1.7 dev (2006050502)
 
 
 $string['absent'] = '欠席';
@@ -27,8 +27,8 @@ $string['assessmentdropped'] = '下げられた評価';
 $string['assessmentend'] = '評価終了日時';
 $string['assessmentendevent'] = '$a の評価終了日時';
 $string['assessmentgrade'] = '評価評点： $a';
-$string['assessmentnotyetagreed'] = '未同意の評価';
-$string['assessmentnotyetgraded'] = '未同意の評価';
+$string['assessmentnotyetagreed'] = 'まだ同意されていない評価';
+$string['assessmentnotyetgraded'] = 'まだ同意されていない評価';
 $string['assessmentof'] = '$a の評価';
 $string['assessmentofresubmission'] = 'これは修正された課題です。<br />このフォームにはあなたの以前の評点とコメントが記載されています。<br />修正した課題を元にこれらを修正してください。';
 $string['assessmentofthissubmission'] = 'この提出課題の評価';
@@ -49,7 +49,7 @@ $string['assmnts'] = '評価';
 $string['attachment'] = '添付ファイル';
 $string['attachments'] = '添付ファイル';
 $string['authorofsubmission'] = '提出課題の作成者';
-$string['automaticgradeforassessment'] = '評価の自動評定';
+$string['automaticgradeforassessment'] = '評価に対する自動評定';
 $string['averageerror'] = 'エラー平均';
 $string['awaitinggradingbyteacher'] = '$a により待たれている評価';
 $string['beforedeadline'] = '提出期限前： $a';
@@ -83,7 +83,7 @@ $string['edit'] = '編集';
 $string['editacomment'] = 'コメントの編集';
 $string['editingassessmentelements'] = '評価要素の編集';
 $string['editsubmission'] = '提出課題の編集';
-$string['element'] = '要素';
+$string['element'] = '評価要素';
 $string['elementweight'] = '評価要素の比重';
 $string['enterpassword'] = 'パスワード入力';
 $string['errorbanded'] = '減点評価';
@@ -276,7 +276,7 @@ $string['submittedby'] = '提出者';
 $string['suggestedgrade'] = '推奨評点';
 $string['tassmnt'] = '教師<br />評価';
 $string['teacherassessments'] = '$a 評価';
-$string['teachergradeforassessment'] = '$a による評価の評点';
+$string['teachergradeforassessment'] = '評価に対する $a の評点';
 $string['teacherscomment'] = '教師のコメント';
 $string['teachersgrade'] = '教師の評点';
 $string['teachersubmissionsforassessment'] = '$a 教師の評価対象提出課題';
