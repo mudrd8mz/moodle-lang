@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006050501)
+      // quiz.php - created with Moodle 1.7 dev (2006050502)
 
 
 $string['1day'] = '1日';
@@ -424,7 +424,7 @@ $string['reviewresponse'] = '解答のレビュー';
 $string['rqp'] = 'リモート問題';
 $string['rqps'] = 'リモート問題';
 $string['save'] = '保存';
-$string['saveandedit'] = '変更の保存および問題の編集';
+$string['saveandedit'] = '変更内容の保存および問題の編集';
 $string['savedfromdeletedcourse'] = '削除コース「 $a 」より保存';
 $string['savegrades'] = '評点を保存';
 $string['savemyanswers'] = '答えを保存';
