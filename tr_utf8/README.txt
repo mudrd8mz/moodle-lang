@@ -1,10 +1,11 @@
-﻿-------- $Id$ --------
+﻿--------- $Id$ --------
 ------------------------------------------------------------------------
 MOODLE TURKISH TRANSLATION (MOODLE TÜRKÇE ÇEVİRİSİ)
 ------------------------------------------------------------------------
 MAINTAINER    : Ethem Evlice <ethem AT evlice DOT com> (www.evlice.com)
-STARTED       : Dec 10, 2002
-LAST MODIFIED : May 23, 2006
+STARTED       : Dec 10, 2002 09:57:58
+LAST MODIFIED : $Date$
+REVISION      : $Revision$
 ------------------------------------------------------------------------
 
 * M. Cuneyt Birkok (www.birkok.net)
