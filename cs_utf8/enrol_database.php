@@ -1,18 +1,34 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.5 + (2005060201)
+      // enrol_database.php - created with Moodle 1.6 Beta 5 (2006050502)
 
 
-$string['dbhost'] = 'Název databázového serveru';
-$string['dbname'] = 'Název použité databáze';
-$string['dbpass'] = 'Heslo pro přístup k serveru';
-$string['dbtable'] = 'Tabulka v databázi';
-$string['dbtype'] = 'Typ databázového serveru';
-$string['dbuser'] = 'Uživatelské jméno pro přístup k serveru';
-$string['description'] = 'Pro řízení zápisů do kurzů můžete použít externí databázi (téměř jakéhokoliv druhu). Předpokládá se, že vaše databáze obsahuje pole s ID kurzu a pole s ID uživatele. Tato jsou porovnána proti polím, která která si vyberete v lokálních tabulkách kurzů a uživatelů.';
+$string['autocreate'] = 'Pokud jsou v externí databázi studenti zapsáni do kurzů, které ještě nejsou v Moodlu vytvořeny, lze takové kurzy založit v Moodlu automaticky.';
+$string['autocreation_settings'] = 'Nastavení automatického vytvoření kurzů';
+$string['category'] = 'Kategorie pro automaticky vytvořené kurzy';
+$string['course_fullname'] = 'Jméno pole, v němž je uložen celý název kurzu.';
+$string['course_id'] = 'Jméno pole, v němž je uloženo ID kurzu. Hodnoty v tomto poli jsou porovnávány s údaji v poli \'enrol_db_l_coursefield\' v lokální tabulce kurzů.';
+$string['course_shortname'] = 'Jméno pole, v němž je uložen krátký název kurzu.';
+$string['course_table'] = 'Jméno tabulky, v níž jsou uloženy údaje o kurzu (krátký název, celý název, ID ad.).';
+$string['description'] = 'Pro řízení zápisů do kurzů můžete použít externí databázi (téměř jakéhokoliv druhu). Předpokládá se, že externí databáze obsahuje pole s ID kurzu a pole s ID uživatele. Tato jsou porovnána s poli, která si vyberete v lokálních tabulkách kurzů a uživatelů.';
 $string['enrolname'] = 'Externí databáze';
-$string['localcoursefield'] = 'Název pole v lokální tabulce kurzů, které bude použito pro srovnání s položkami ve vzdálené databázi (např. idnumber)';
-$string['localuserfield'] = 'Název pole v lokální tabulce uživatelů, které bude použito pro srovnání s položkami ve vzdálené databázi (např. idnumber)';
-$string['remotecoursefield'] = 'Pole ve vzdálené databázi, ve kterém se bude hledat ID kurzu';
-$string['remoteuserfield'] = 'Pole ve vzdálené databázi, ve kterém se bude hledat ID uživatele';
+$string['general_options'] = 'Obecná nastavení';
+$string['host'] = 'Síťové jméno externího databázového serveru';
+$string['local_coursefield'] = 'Jméno pole v tabulce kurzů ([prefix]_course) používaného pro porovnávání s externí databází (např. \'idnumber\').';
+$string['local_fields_mapping'] = 'Pole lokální databáze';
+$string['name'] = 'Jméno databáze.';
+$string['pass'] = 'Heslo pro přístup k serveru.';
+$string['remote_fields_mapping'] = 'Pole zápisu do kurzů v (externí) databázi.';
+$string['server_settings'] = 'Nastavení externího databázového serveru';
+$string['student_coursefield'] = 'Jméno pole v tabulce se záznamy o zápisech studentů do kurzů, v němž je uloženo ID kurzu.';
+$string['student_l_userfield'] = 'Jméno pole v lokální tabulce uživatelů, s nímž budou porovnávány záznamy o zápisech studentů do kurzů uložené v externí tabulce.';
+$string['student_r_userfield'] = 'Jméno pole v externí tabulce zápisů studentů do kurzů, v němž je uloženo ID uživatele.';
+$string['student_table'] = 'Jméno tabulky, v níž jsou uloženy záznamy o zápisu studentů do kurzů.';
+$string['teacher_coursefield'] = 'Jméno pole v tabulce přiřazení učitelů ke kurzům, v němž je uloženo ID kurzu.';
+$string['teacher_l_userfield'] = 'Jméno pole v lokální tabulce uživatelů, s nímž budou porovnávány záznamy o přiřazení učitelů ke kurzům uložené v externí tabulce.';
+$string['teacher_r_userfield'] = 'Jméno pole v externí tabulce přiřazení učitelů ke kurzům, v němž je uloženo ID uživatele.';
+$string['teacher_table'] = 'Jméno tabulky, v níž jsou uloženy záznamy o přiřazení učitelů ke kurzům.';
+$string['template'] = 'Volitelné: automaticky vytvořené kurzy mohou převzít nastavení z předem připraveného kurzu-šablony. Zadejte zkrácený název kurzu, který chcete použít jako šablonu.';
+$string['type'] = 'Typ databázového serveru.';
+$string['user'] = 'Uživatelské jméno pro přístup k serveru.';
 
 ?>

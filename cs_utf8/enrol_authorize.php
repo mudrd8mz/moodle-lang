@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // enrol_authorize.php - created with Moodle 1.6 Beta 5 (2006050502)
 
 
 $string['adminacceptccs'] = 'Typy přijímaných kreditních karet';
@@ -77,7 +77,7 @@ $string['howmuch'] = 'Kolik?';
 $string['httpsrequired'] = 'Bohužel vám musíme sdělit, že váš požadavek nyní nemůže být zpracován. Nepodařilo se provést potřebná nastavení tohoto serveru.
 <br /><br />
 Nezadávejte prosím číslo své kreditní karty, pokud v dolní liště prohlížeče nevidíte žlutý zámek. Jestliže tento symbol vidíte, znamená to, že komunikace mezi klientem a serverem je šifrována, takže číslo vaší kreditní nebude možné během přenosu po síti Internet odposlechnout žádná třetí osoba.';
-$string['logindesc'] = 'Tato volba musí být ZAPNUTA.<br /><br />
+$string['logindesc'] = 'Tato volba musí být ZAPNUTA (ON).<br /><br />
 Nastavte proměnnou <a href=\"$a->url\">loginhttps</a> v sekci Správa->Proměnné->Zabezpečení.<br /><br />
 Po jejím zapnutí bude Moodle používat šifrované spojení HTTPS pouze pro přihlašování a pro provedení plateb.';
 $string['missingaddress'] = 'Nezadána adresa';
