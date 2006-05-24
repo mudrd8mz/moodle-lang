@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006050502)
+      // lesson.php - created with Moodle 1.7 dev (2006052400)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -30,7 +30,7 @@ $string['averagescore'] = '平均評点';
 $string['averagetime'] = '平均時間';
 $string['branchtable'] = 'ブランチテーブル';
 $string['cancel'] = 'キャンセル';
-$string['canretake'] = '$a の再受験';
+$string['canretake'] = '$a の再受験を許可する';
 $string['casesensitive'] = '正規表現を使用する';
 $string['checkbranchtable'] = 'ブランチテーブルの確認';
 $string['checkedthisone'] = 'チェックされました。';
@@ -117,8 +117,8 @@ $string['importquestions'] = '問題のインポート';
 $string['insertedpage'] = 'ページが挿入されました。';
 $string['jump'] = 'ジャンプ';
 $string['jumptsto'] = 'ジャンプ';
-$string['leftduringtimed'] = 'あなたは制限時間のあるレッスンの途中で離れました。<br />レッスンを再スタートするためにクリックしてください。';
-$string['leftduringtimednoretake'] = 'あなたは制限時間のあるレッスンの途中で離れました。<br />レッスンの再受験、継続はできません。';
+$string['leftduringtimed'] = 'あなたは制限時間のあるレッスンを途中で終了しました。<br />レッスンを再スタートするためにクリックしてください。';
+$string['leftduringtimednoretake'] = 'あなたは制限時間のあるレッスンを途中で終了しました。<br />レッスンの再受験、継続はできません。';
 $string['lessonclosed'] = 'このレッスンは $a に終了します。';
 $string['lessoncloses'] = 'レッスン終了';
 $string['lessondefault'] = 'この設定をデフォルトにする';
@@ -147,7 +147,7 @@ $string['mediafilepopup'] = 'レッスンメディアファイルを閲覧する
 $string['mediaheight'] = 'ウィンドウ高:';
 $string['mediawidth'] = '幅:';
 $string['minimumnumberofquestions'] = '最小問題数';
-$string['modattempts'] = '学生のレビューを許可';
+$string['modattempts'] = '学生のレビューを許可する';
 $string['modattemptsnoteacher'] = '学生レビューは学生のみに表示されます。';
 $string['modulename'] = 'レッスン';
 $string['modulenameplural'] = 'レッスン';
