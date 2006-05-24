@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004092700)
+      // dialogue.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['addmynewentries'] = 'Agregar mis nuevas entradas';
@@ -9,6 +9,7 @@ $string['allowmultiple'] = 'Permitir más de un diálogo con la misma persona';
 $string['allowstudentdialogues'] = 'Permitir diálogos entre estudiantes';
 $string['close'] = 'Cerrar';
 $string['closed'] = 'Cerrado';
+$string['closeddialogues'] = 'Diálogos cerrados';
 $string['confirmclosure'] = 'Está a punto de cerrar su diálogo con $a. Los diálogos ya cerradosno se pueden volver a abrir. Si cierra este diálogo podrá consultarlo pero ya no podrá intervenir en él, y deberá iniciar un nuev diálogo con la misma persona para continuar la conversación. ¿Está seguro de que desea cerrarlo?';
 $string['deleteafter'] = 'Borrar diálogos cerrados después de (Días)';
 $string['dialogueclosed'] = 'Diálogo cerrado';
@@ -34,6 +35,7 @@ $string['newentry'] = 'Nueva intervención';
 $string['noavailablepeople'] = 'No hay nadie disponible para dialogar.';
 $string['nopersonchosen'] = 'No se ha elegido interlocutor';
 $string['nosubject'] = 'No se ha elegido tema';
+$string['notavailable'] = 'Los invitados no pueden ver los diálogos';
 $string['notextentered'] = 'No se ha incluído texto';
 $string['notstarted'] = 'Usted no ha iniciado una charla aún';
 $string['notyetseen'] = 'Aún no ha sido leído';
@@ -46,6 +48,7 @@ $string['open'] = 'Abierto';
 $string['openadialoguewith'] = 'Diálogo abierto con';
 $string['opendialogue'] = 'Iniciar diálogo';
 $string['opendialogueentries'] = 'Abrir entradas del diálogo';
+$string['opendialogues'] = 'Diálogos abiertos';
 $string['pane0'] = 'Iniciar un diálogo';
 $string['pane1'] = '$a diálogos esperan su respuesta';
 $string['pane1one'] = 'Un diálogo espera su respuesta';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.5 unstable development (2004083000)
+      // chat.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['beep'] = 'beep';
@@ -8,6 +8,7 @@ $string['chatname'] = 'Nombre de la sala';
 $string['chatreport'] = 'Sesiones';
 $string['chattime'] = 'Próxima cita';
 $string['configmethod'] = 'El método normal de chat implica que los usuarios contactan con el servidor de forma regular para llevar a cabo las actualizaciones. No requiere configuración y funciona en cualquier parte, pero puede ocasionar una sobrecarga en el servidor cuando hay muchos usuarios simultáneamente en la sala. Utilizar un \'daemon\' (i.e., proceso de ejecución independiente en segundo plano) en el servidor requiere el acceso shell (de intérprete de comandos) a Unix, pero resulta en un ambiente de chat más rápido y escalable.';
+$string['confignormalupdatemode'] = 'Las actualizaciones de la sala de chat normalmente son servidas eficientemente utilizando la característica de HTTP 1.1 <em>Keep-Alive</em>, pero esto resulta una tarea bastante pesada para el servidor. Un método más avanzado consiste en utilizar la estrategia <em>Stream</em> para enviar actualizaciones a los usuarios. Al utilizar <em>Stream</em> se consigue un escalamiento mucho mejor (es similar al método chatd), pero es posible que su servidor no tenga disponible esta opción.';
 $string['configoldping'] = '¿Después de cuánto tiempo de inactividad debemos considerar que el usuario se retiró?';
 $string['configrefreshroom'] = '¿Cada cuántos segundos se debe actualizar la página del chat?
 Un valor bajo permitirá una conversación más ágil, pero puede ser mucha carga para el servidor cuando hay mucha gente en la sala';
@@ -42,6 +43,9 @@ $string['neverdeletemessages'] = 'Nunca borrar mensajes';
 $string['nextsession'] = 'Próxima sesión programada';
 $string['noguests'] = 'El chat no está abierto a invitados';
 $string['nomessages'] = 'Aún no hay mensajes';
+$string['normalkeepalive'] = 'KeepAlive';
+$string['normalstream'] = 'Stream';
+$string['noscheduledsession'] = 'No hay sesión programada';
 $string['repeatdaily'] = 'A la misma hora todos los días';
 $string['repeatnone'] = 'Sin repeticiones, publicar sólo la hora especificada';
 $string['repeattimes'] = 'Repetir sesiones';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.5.1 (2005060210)
+      // glossary.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['addcomment'] = 'Agregar comentario';
@@ -96,8 +96,8 @@ $string['explainexport'] = 'Se ha generado un archivo.<br />Descárguelo y guár
 $string['explainimport'] = 'Debe especificar el archivo a importar y definir el criterio del proceso.<p>Someta su solicitud y revise los resultados.</p>';
 $string['explainspecial'] = 'Muestra las entradas que no comienzan con una letra';
 $string['exportedentry'] = 'Entrada exportada';
-$string['exportedfile'] = 'Archivo exportado';
 $string['exportentries'] = 'Exportar entradas';
+$string['exportfile'] = 'Exportar entradas a un archivo';
 $string['exportglossary'] = 'Exportar glosario';
 $string['exporttomainglossary'] = 'Exportar al glosario principal';
 $string['filetoimport'] = 'Archivo a importar';
@@ -107,7 +107,6 @@ $string['fullmatch'] = 'Sólo enlazar palabras completas';
 $string['globalglossary'] = 'Glosario global';
 $string['glossaryleveldefaultsettings'] = 'Ajustes por defecto del nivel de glosario';
 $string['glossarytype'] = 'Tipo de glosario';
-$string['glosssaryexported'] = 'Glosario exportado';
 $string['importcategories'] = 'Importar categorías';
 $string['importedcategories'] = 'Categorías importadas';
 $string['importedentries'] = 'Entradas importadas';

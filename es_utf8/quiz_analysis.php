@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005042100)
+      // quiz_analysis.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
+$string['analysis'] = 'Análisis de ítems';
 $string['analysisoptions'] = 'Opciones de análisis';
 $string['analysistitle'] = 'Tabla de análisis de ítems';
 $string['attemptsall'] = 'todos los intentos';
