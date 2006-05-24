@@ -1,10 +1,21 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.5.3+ (2005060230)
+      // error.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['adminprimarynoedit'] = 'El administrador primario no puede ser editado por otros';
+$string['cannotcreatelangdir'] = 'No se puede crear el directorio lang.';
+$string['cannotcreatetempdir'] = 'No se puede crear el directorio temp.';
+$string['cannotdownloadcomponents'] = 'No se puede descargar componentes.';
+$string['cannotdownloadzipfile'] = 'No se puede descargar el archivo ZIP.';
+$string['cannotfindcomponent'] = 'No se puede encontrar el componente.';
+$string['cannotsavemd5file'] = 'No se puede guardar el archivo md5.';
+$string['cannotsavezipfile'] = 'No se puede guardar el archivo ZIP.';
+$string['cannotunzipfile'] = 'No se puede descomprimir el archivo.';
+$string['cmunknown'] = 'No se ha podido encontrar este módulo';
+$string['componentisuptodate'] = 'El componente está actualizado.';
 $string['confirmsesskeybad'] = 'Lo sentimos, pero su clave de sesión no ha podido ser confirmada para llevar a cabo esta acción. Esta característica de seguridad previene contra la ejecución en su nombre (accidental o maliciosa) de funciones importantes. Por favor, asegúrese de que realmente deseaba ejecutar esta función.';
 $string['coursegroupunknown'] = 'No se ha especificado el curso correspondiente al grupo $a';
+$string['downloadedfilecheckfailed'] = 'Ha fallado la comprobación del archivo descargado.';
 $string['errorcleaningdirectory'] = 'Error al limpiar el directorio  \"$a\"';
 $string['errorcopyingfiles'] = 'Error al copiar archivos';
 $string['errorcreatingdirectory'] = 'Error al crear el directorio  \"$a\"';
@@ -14,25 +25,48 @@ $string['errorreadingfile'] = 'Error al leer el archivo  \"$a\"';
 $string['errorunzippingfiles'] = 'Error al descomprimir archivos';
 $string['fieldrequired'] = '\"$a\" es un campo requerido';
 $string['filenotfound'] = 'Lo sentimos, el archivo solicitado no se encuentra';
+$string['forumblockingtoomanyposts'] = 'Usted ha excedido el umbral de tiempo para enviar mensajes a este foro.';
 $string['groupalready'] = 'El usuario ya pertence al grupo $a';
 $string['groupunknown'] = 'El grupo $a no está asociado al curso especificado';
+$string['guestnoeditprofile'] = 'Los usuarios invitados no pueden editar su perfil';
+$string['guestnoeditprofileother'] = 'No se puede editar el perfil de los usuarios invitados';
+$string['invalidcourse'] = 'Curso no válido';
 $string['invalidfieldname'] = '\"$a\" no es un nombre válido';
 $string['invalidfiletype'] = '\"$a\" no es un tipo de archivo válido';
+$string['invalidmd5'] = 'md5 no válido';
 $string['invalidxmlfile'] = '\"$a\" no es un archivo XML válido';
 $string['missingfield'] = 'Falta el campo \"$a\"';
+$string['missingrequiredfield'] = 'Falta algún campo necesario';
+$string['modulemissingcode'] = 'El módulo $a carece del código necesario para llevar a cabo esta función';
 $string['modulerequirementsnotmet'] = 'El módulo \"$a->modulename\" ($a->moduleversion) no se puede instalar debido a que requiere una versión más nueva de Moodle (esta versión es la $a->currentmoodle, y el módulo requiere la $a->requiremoodle).';
+$string['mustbeteacher'] = 'Sólo los profesores pueden ver esta página';
+$string['noinstances'] = 'En este curso no aparece $a.';
 $string['nonmeaningfulcontent'] = 'No contenido significativo';
+$string['noparticipatorycms'] = 'Lo sentimos, no dispone de módulos de participación en cursos sobre los que informar.';
 $string['notavailable'] = 'No disponible en este momento';
+$string['onlyadmins'] = 'Sólo los administradores pueden hacer eso.';
 $string['onlyeditingteachers'] = 'Sólo los profesores con permiso de edición pueden hacer eso.';
 $string['onlyeditown'] = 'Sólo puede editar su propia información';
+$string['pagenotexist'] = 'Ha ocurrido un error no usual (se ha intentado acceder a una página que no existe).';
+$string['pleasereport'] = 'Si tiene tiempo, por favor háganos saber qué estaba intentando hacer cuando tuvo lugar el error:';
+$string['pluginrequirementsnotmet'] = 'No se ha podido instalar el plugin \"$a->pluginname\" ($a->pluginversion). Necesita una nueva versión de Moodle (actualmente usted está usando $a->currentmoodle, y necesita $a->requiremoodle).';
 $string['processingstops'] = 'El procesamiento acaba aquí. Se ignoran los demás registros.';
+$string['remotedownloadnotallowed'] = 'No está permitido descargar los componentes a su servidor (allow_url_fopen está deshabilitado).<br /><br />Debe descargar el archivo <a href=\"$a->url\">$a->url</a> manualmente, y copiarlo a \"$a->dest\" ';
 $string['restricteduser'] = 'Lo sentimos, su cuenta \"$a\" no puede hacer esto.';
+$string['sendmessage'] = 'Enviar mensaje';
 $string['sessionerroruser'] = 'Su sesión ha excedido el tiempo límite. Por favor, ingrese de nuevo.';
 $string['sessionerroruser2'] = 'Se ha detectado un error del servidor que afecta a su sesión de acceso. Por favor, acceda de nuevo o reinicie su navegador.';
 $string['sessionipnomatch'] = 'Lo sentimos, pero su número IP parece haber cambiado desde su primer acceso. Esta norma de seguridad previene que los crackers roben su identidad mientras usted está dentro de este sitio. Los usuarios normales no deberían ver este mensaje, así que por favor pida ayuda al administrador del sitio.';
+$string['statscatchupmode'] = 'La estadística está en este momento en modo \'catchup\'. Hasta el momento se ha(n) procesado $a->daysdone día(s) y $a->dayspending están pendientes de procesamiento. Por favor, vuelva a comprobarlo más tarde.';
 $string['unknowncourse'] = 'No existe un curso llamado \"$a\"';
+$string['unknownuseraction'] = 'Lo sentimos, no podemos entender esta acción del usuario.';
 $string['usernotaddederror'] = 'No se agregó el usuario \"$a\" - error desconocido';
 $string['usernotaddedregistered'] = 'No se agregó el usuario \"$a\" - ya está registrado';
 $string['usernotavailable'] = 'Usted no puede acceder a los detalles de este usuario.';
+$string['usernotrenamedexists'] = 'Usuario no renombrado - el nuevo nombre de usuario ya está en uso.';
+$string['usernotrenamedmissing'] = 'Usuario no renombrado - no se ha podido encontrar el nombre de usuario anterior.';
+$string['wrongdestpath'] = 'Ruta de destino errónea.';
+$string['wrongsourcebase'] = 'Base de fuente de URL errónea.';
+$string['wrongzipfilename'] = 'Nombre de archivo ZIP erróneo.';
 
 ?>

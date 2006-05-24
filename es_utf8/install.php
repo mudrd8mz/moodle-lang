@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.5.3+ (2005060230)
+      // install.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['admindirerror'] = 'El directorio especificado para admin es incorrecto';
@@ -54,7 +54,6 @@ $string['databasesettingssub'] = '<b>Tipo:</b> mysql o postgres7<br />
 <b>Usuario:</b> el usuario propietario de tu base de datos<br />
 <b>Contraseña:</b> la contraseña del usuario de la base de datos<br />
 <b>Prefijo de tablas:</b>  prefijo opcional para utilizar en todas las tablas';
-
 $string['dataroot'] = 'Directorio de Datos';
 $string['datarooterror'] = 'El \'Directorio de Datos\' no pudo ser encontrado o creado. Corrija la ruta o cree el directorio manualmente.';
 $string['dbconnectionerror'] = 'Error de conexión con la base de datos. Por favor, compruebe los ajustes de la base de datos.';
@@ -63,6 +62,7 @@ $string['dbhost'] = 'Servidor';
 $string['dbpass'] = 'Contraseña';
 $string['dbprefix'] = 'Prefijo de tablas';
 $string['dbtype'] = 'Tipo';
+$string['dbwrongencoding'] = 'La base de datos seleccionada está ejecutándose bajo una codificación no recomendada ($a). Convendría usar en su lugar una base de datos con codificación Unicode (UTF-8). En cualquier caso, usted puede pasar por alto esta prueba seleccionando \"Pasar por alto la prueba de codificación BD\", si bien tal vez tenga problemas en el futuro.';
 $string['directorysettings'] = ' <p><b>WWW:</b>
 Necesita decir a Moodle dónde está localizado. Especifique la dirección web completa en la que se ha instalado Moodle. Si su sitio web es accesible a través de varias URLs, seleccione la que resulte de acceso más natural a sus estudiantes. No incluya la última barra</p>
 <p><b>Directorio:</b>
@@ -87,7 +87,7 @@ directamente accesible desde la red.';
 $string['dirroot'] = 'Directorio Moodle';
 $string['dirrooterror'] = 'El \'Directorio de Moodle\' parece incorrecto. No se pudo encontrar una instalación de Moodle. El valor ha sido cambiado por el original.';
 $string['download'] = 'Descargar';
-$string['downloadlanguagebutton'] = 'Descargar el paquete de idioma &quot;$a&quot;';
+$string['downloadlanguagebutton'] = 'Descargar el paquete de idioma \"$a\"';
 $string['downloadlanguagehead'] = 'Descargar paquete de idioma';
 $string['downloadlanguagenotneeded'] = 'Puede continuar el proceso de instalación con el idioma por defecto, \"$a\".';
 $string['downloadlanguagesub'] = 'Ahora tiene la opción de descargar su paquete de idioma y continuar con el proceso de instalación en ese idioma.<br /><br />Si no es posible la descarga el proceso de instalación continuará en inglés (una vez que la instalación haya finalizado, podrá descargar e instalar otros idiomas).';
@@ -121,8 +121,8 @@ $string['globalsquoteshelp'] = '<p>No se recomienda la combinación simultánea 
 <blockquote>php_value register_globals Off</blockquote>
 </p>';
 $string['installation'] = 'Instalación';
-$string['langdownloadok'] = 'El idioma \"$a\" ha sido instalado correctamente. El proceso de instalación continuará en este idioma.';
 $string['langdownloaderror'] = 'El idioma \"$a\" no pudo ser instalado. El proceso de instalación continuará en inglés.';
+$string['langdownloadok'] = 'El idioma \"$a\" ha sido instalado correctamente. El proceso de instalación continuará en este idioma.';
 $string['magicquotesruntime'] = 'Magic Quotes Run Time';
 $string['magicquotesruntimeerror'] = 'Debe estar desactivado';
 $string['magicquotesruntimehelp'] = '<p>Magic quotes runtime debe estar desactivado para que Moodle funcione adecuadamente.</p>
@@ -169,6 +169,7 @@ $string['sessionautostarterror'] = 'Deb e estar desactivado';
 $string['sessionautostarthelp'] = '<p>Moodle requiere apoyo de sesión y no funcionará sin él.</p>
 
 <p>Las sesiones deben estar activadas en el archhivo php.ini para el parámetro session.auto_start.</p>';
+$string['skipdbencodingtest'] = 'Pasar por alto el test de decodificación de la BD';
 $string['welcomep10'] = '$a->installername ($a->installerversion)';
 $string['welcomep20'] = 'Si está viendo esta página es porque ha podido ejecutar el paquete
     <strong>$a->packname $a->packversion</strong> en su ordenador. !Enhorabuena!';
