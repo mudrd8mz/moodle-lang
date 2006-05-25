@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.7 dev (2006050501)
+      // blog.php - created with Moodle 1.7 dev (2006052400)
 
 
 $string['addnewentry'] = '新しいエントリの追加';
@@ -19,6 +19,7 @@ $string['disableblogs'] = 'ブログシステムを完全に無効にする';
 $string['entrybody'] = 'ブログエントリ本文';
 $string['entrybodyonlydesc'] = 'エントリ説明';
 $string['entryerrornotyours'] = 'これはあなたのエントリではありません。';
+$string['entrysaved'] = 'あなたのエントリが保存されました。';
 $string['entrytitle'] = 'エントリタイトル';
 $string['entryupdated'] = 'ブログエントリが更新されました。';
 $string['groupblog'] = 'グループブログ: $a';
