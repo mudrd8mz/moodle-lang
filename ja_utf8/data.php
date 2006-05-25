@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006050500)
+      // data.php - created with Moodle 1.7 dev (2006052400)
 
 
 $string['action'] = '操作';
@@ -107,7 +107,7 @@ $string['nameurl'] = 'URLフィールド';
 $string['newentry'] = '新しいエントリ';
 $string['newfield'] = '新しいフィールドの作成';
 $string['noaccess'] = 'あなたはこのページにアクセスできません。';
-$string['nofieldindatabase'] = 'このデータベースにはフィールドが定義されていません。フィールドを追加してください。';
+$string['nofieldindatabase'] = 'このデータベースにはフィールドが定義されていません。';
 $string['nolisttemplate'] = 'テンプレート一覧はまだ定義されていません。';
 $string['nomatch'] = '該当するエントリが見つかりませんでした!';
 $string['nomaximum'] = '最大数無し';
