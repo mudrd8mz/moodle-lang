@@ -18,6 +18,7 @@ $string['entrybody'] = 'Corps de l\'article du blog';
 $string['entrybodyonlydesc'] = 'Description de l\'article';
 $string['entryerrornotyours'] = 'Cet article n\'est pas vôtre';
 $string['entrytitle'] = 'Titre de l\'article';
+$string['entrysaved'] = 'L\'article a été enregistré';
 $string['entryupdated'] = 'Article du blog mis à jour';
 $string['groupblog'] = 'Blog de groupe&nbsp;: $a';
 $string['groupblogs'] = 'Les utilisateurs ne peuvent voir que les articles des blogs d\'utilisateurs dans les mêmes groupes qu\'eux';
