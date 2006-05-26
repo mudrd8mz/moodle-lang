@@ -1,6 +1,6 @@
 Español Internacional
 
-Versión:  1.5.3+
+Versión:  1.6
 
 Coordinadores de traducción:
 
