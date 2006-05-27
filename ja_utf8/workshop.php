@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.7 dev (2006050502)
+      // workshop.php - created with Moodle 1.7 dev (2006052400)
 
 
 $string['absent'] = '欠席';
@@ -276,7 +276,7 @@ $string['submittedby'] = '提出者';
 $string['suggestedgrade'] = '推奨評点';
 $string['tassmnt'] = '教師<br />評価';
 $string['teacherassessments'] = '$a 評価';
-$string['teachergradeforassessment'] = '評価に対する $a の評点';
+$string['teachergradeforassessment'] = '評価に対する $a の評定';
 $string['teacherscomment'] = '教師のコメント';
 $string['teachersgrade'] = '教師の評点';
 $string['teachersubmissionsforassessment'] = '$a 教師の評価対象提出課題';
