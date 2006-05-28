@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006050502)
+      // quiz.php - created with Moodle 1.7 dev (2006052400)
 
 
 $string['1day'] = '1日';
@@ -180,7 +180,7 @@ $string['existingcategory3'] = 'すでに登録されているリンク、この
 $string['export'] = 'エクスポート';
 $string['exporterror'] = 'エクスポート処理中にエラーが発生しました。';
 $string['exportfilename'] = 'quiz';
-$string['exportingquestions'] = '問題がファイルにエクスポートされます。';
+$string['exportingquestions'] = '問題がファイルにエクスポートされました。';
 $string['exportname'] = 'ファイル名';
 $string['exportnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['exportquestions'] = '問題をファイルにエクスポートする';
