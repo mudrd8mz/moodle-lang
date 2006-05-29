@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // enrol_authorize.php - created with Moodle 1.7 dev (2006052400)
 
 
 $string['adminacceptccs'] = '¿Qué tarjetas de crédito se aceptan?';
@@ -89,6 +89,7 @@ $string['missingcctype'] = 'Falta el tipo de tarjeta de crédito';
 $string['missingcvv'] = 'Falta el número de verificación';
 $string['missingzip'] = 'Falta el código postal';
 $string['nameoncard'] = 'Nombre que figura en la tarjeta';
+$string['new'] = 'Nuevo';
 $string['noreturns'] = '¡No devolución!';
 $string['notsettled'] = 'No liquidado';
 $string['orderid'] = 'ID Orden';

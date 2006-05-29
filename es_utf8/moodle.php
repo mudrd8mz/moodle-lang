@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // moodle.php - created with Moodle 1.7 dev (2006052400)
 
 
 $string['action'] = 'Acción';
@@ -338,6 +338,7 @@ $string['disable'] = 'Deshabilitar';
 $string['displayingfirst'] = 'Mostrando las primeras $a->count $a->things';
 $string['displayingrecords'] = 'Mostrando $a registros';
 $string['displayingusers'] = 'Mostrando los usuarios $a->start a $a->end';
+$string['displayonpage'] = 'Mostrar en página';
 $string['documentation'] = 'Documentación de Moodle';
 $string['donotask'] = 'No preguntar';
 $string['down'] = 'Abajo';
@@ -561,6 +562,7 @@ $string['gd1'] = 'GD 1.x instalado';
 $string['gd2'] = 'GD 2.x instalado';
 $string['gdneed'] = 'GD debe estar instalado para ver este gráfico';
 $string['gdnot'] = 'GD no instalado';
+$string['gettheselogs'] = 'Conseguir estos registros';
 $string['go'] = 'Ir';
 $string['gpl'] = 'Copyright (C) 2001-2004  Martin Dougiamas  (http://dougiamas.com)
 
@@ -699,6 +701,7 @@ $string['listofallpeople'] = 'Lista total de personas';
 $string['livelogs'] = 'Registros en vivo';
 $string['locale'] = 'es_ES.UTF-8';
 $string['location'] = 'Ubicación';
+$string['log_excel_date_format'] = 'yyyy mmmm d h:mm';
 $string['loggedinas'] = 'Usted está en el sistema como $a';
 $string['loggedinasguest'] = 'En este momento está usando el acceso para invitados';
 $string['loggedinnot'] = 'Usted no está en el sistema.';
@@ -1080,6 +1083,7 @@ $string['rsserror'] = 'Error al leer datos RSS';
 $string['rsstype'] = 'Canal RSS para esta actividad';
 $string['saveandnext'] = 'Guardar y mostrar siguiente';
 $string['savechanges'] = 'Guardar cambios';
+$string['savedat'] = 'Guardado en:';
 $string['savepreferences'] = 'Guardar preferencias';
 $string['saveto'] = 'Guardar en';
 $string['scale'] = 'Escala';
@@ -1141,7 +1145,6 @@ $string['showperpage'] = 'Mostrar $a por página';
 $string['showrecent'] = 'Mostrar actividad reciente';
 $string['showreports'] = 'Mostrar informes de actividad';
 $string['showsettings'] = 'Mostrar ajustes';
-$string['showtheselogs'] = 'Mostrar estos registros';
 $string['since'] = 'Desde';
 $string['sincelast'] = 'desde el último acceso';
 $string['site'] = 'Sitio';
