@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.7 dev (2006050502)
+      // exercise.php - created with Moodle 1.7 dev (2006052400)
 
 
 $string['absent'] = '欠席';
@@ -119,7 +119,7 @@ $string['regradestudentassessments'] = '学生の評価を再評定する';
 $string['resubmissionfor'] = '$a の再提出';
 $string['resubmitnote'] = '* は、$a がこの課題を再提出できることを意味します。<br />各提出課題の処理欄にある評価または編集リンクをクリックし、<br /><b>$a の課題再提出を許可する</b>ボタンをクリックすることで、<br />このフラグを設定できます。学生は、このフラグが表示されている<br /><b>どの課題でも</b>再提出することができます。';
 $string['rubric'] = 'ルーブリック';
-$string['savedok'] = '設定内容を保存しました。';
+$string['savedok'] = '正常に保存しました。';
 $string['saveentries'] = 'エントリの保存';
 $string['savemyassessment'] = '評価の保存';
 $string['saveweights'] = '比重の保存';
