@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 development (2006031000)
+      // install.php - created with Moodle 1.7 dev (2006052400)
 
 
 $string['admindirerror'] = '設定されたadminディレクトリが間違っています。';
@@ -144,10 +144,11 @@ $string['memorylimithelp'] = '<p>現在、サーバのPHPメモリー制限が $
 $string['mysqlextensionisnotpresentinphp'] = 'MySQLと通信できるようにPHPのMySQL extension設定が正しく設定されていません。php.iniを確認するか、PHPを再度コンパイルしてください。';
 $string['pass'] = 'パス';
 $string['phpversion'] = 'PHPバージョン';
-$string['phpversionerror'] = 'PHPバージョンは4.1.0以上をお使いください。';
-$string['phpversionhelp'] = '<p>MoodleではPHPバージョン4.1.0以上が必要です。</p>
+$string['phpversionerror'] = 'PHPバージョンは少なくとも 4.3.0 または 5.1.0 をお使いください ( 5.0.x には既知の多数の問題があります )。';
+$string['phpversionhelp'] = '<p>Moodleには、少なくとも 4.3.0 または 5.1.0 のPHPバージョンが必要です ( 5.0.x には既知の多数の問題があります )。</p>
 <p>現在、バージョン $a が動作しています。</p>
-<p>PHPをアップグレードするか、新しいバージョンがインストールされているホストに移動してください!</p>';
+<p>PHPをアップグレードするか、新しいバージョンがインストールされているホストに移動してください!<br/>
+( 5.0.x の場合、バージョン 4.4.x にダウングレードすることもできます。 )</p>';
 $string['safemode'] = 'セーフモード';
 $string['safemodeerror'] = 'セーフモードが有効の場合、Moodleに問題が発生する場合があります。';
 $string['safemodehelp'] = '<p>セーフモードが有効にされている場合、Moodleには様々な問題が発生する場合があります。 特に新しいファイルを作成することができません。</p>
