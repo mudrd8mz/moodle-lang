@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 Beta 2 (2006040500)
+      // resource.php - created with Moodle 1.7 dev (2006050300)
 
 
 $string['addresource'] = 'Přidat studijní materiál';
+$string['back'] = 'Zpět';
+$string['browserepository'] = 'Procházet repozitář';
+$string['choose'] = 'Vyberte';
 $string['chooseafile'] = 'Vyberte nebo nahrejte soubor';
 $string['chooseparameter'] = 'Vyberte parametr';
 $string['configallowlocalfiles'] = 'Při vytváření studijních materiálů ve formě odkazů na soubory lze povolit odkazy směřující na lokální souborový systém, např. CD mechaniky či pevné disky. Tato možnost může být užitečná ve třídách, kde mají všichni studenti k dispozici stejně namapované síťové disky nebo když je potřeba přistupovat k obsahu vložených CD. Tato možnost si může vyžádat změnu nastavení zabezpečení použitých prohlížečů.';
@@ -24,10 +27,12 @@ $string['configsecretphrase'] = 'Tento tajný výraz se používá k tvorbě ši
 $string['configwebsearch'] = 'Pokud přidáváte vloženou stránku nebo odkaz, je tato adresa nabídnuta jako stránka, kde může uživatel najít požadované URL.';
 $string['configwindowsettings'] = 'Tímto se nastavuje výchozí nastavení panelu Okno ve formuláři pro přidání nového studijního materiálu. Po prvním použití se tyto hodnoty stávají součástí preferencí jednotlivých uživatelů.';
 $string['deploy'] = 'Umístit';
+$string['deployall'] = 'Umístit vše';
 $string['directlink'] = 'Přímý odkaz na tento soubor';
 $string['directoryinfo'] = 'Budou zobrazeny všechny soubory ve zvoleném adresáři.';
 $string['display'] = 'Okno';
 $string['editingaresource'] = 'Úprava studijního materiálu';
+$string['emptyfolder'] = 'Prázdná složka';
 $string['encryptedcode'] = 'Šifrovaný kód';
 $string['example'] = 'Příklad';
 $string['exampleurl'] = 'http://www.napriklad.zde/adresar/soubor.html';
@@ -51,6 +56,8 @@ $string['maindirectory'] = 'Adresář s hlavními soubory';
 $string['modulename'] = 'Studijní materiál';
 $string['modulenameplural'] = 'Studijní materiály';
 $string['navigationbuttons'] = 'Navigační tlačítka';
+$string['navigationmenu'] = 'Postranní navigační nabídka';
+$string['navigationup'] = 'Tlačítko nahoru';
 $string['neverseen'] = 'Neprohlíženo';
 $string['newdirectories'] = 'Ukazovat adresář v odkazu';
 $string['newfullscreen'] = 'Zaplnit celou obrazovku';
@@ -64,7 +71,9 @@ $string['newtoolbar'] = 'Ukazovat pruh s nástroji';
 $string['newwidth'] = 'Výchozí šířka okna (v pixelech)';
 $string['newwindow'] = 'Nové okno';
 $string['newwindowopen'] = 'Zobrazovat tento studijní materiál v novém okně';
+$string['next'] = 'Další';
 $string['notallowedlocalfileaccess'] = 'Přístup k lokálním souborům je momentálně zakázán, takže tento studijní materiál není k dispozici.';
+$string['notdeployed'] = 'Neumístěno';
 $string['note'] = 'Poznámka';
 $string['notefile'] = 'K nahrání dalších souborů do tohoto kurzu (aby se ukazovaly v tomto seznamu) použijte <a href=\"$a\">Správce souborů</a>.';
 $string['notypechosen'] = 'Musíte vybrat typ. Vraťte se pomocí tlačítka \'Zpět\' a zkuste to znovu.';
@@ -77,7 +86,10 @@ $string['parameter'] = 'Parametr';
 $string['parameters'] = 'Parametry';
 $string['popupresource'] = 'Tento studijní materiál by se měl zobrazovat v novém okně';
 $string['popupresourcelink'] = 'Pokud se tak nestalo, klikněte zde: $a';
+$string['preview'] = 'Nádhled';
+$string['previous'] = 'Předchozí';
 $string['redeploy'] = 'Umístit znovu';
+$string['repository'] = 'IMS repozitář';
 $string['resourcetype'] = 'Typ studijního materiálu';
 $string['resourcetype1'] = 'Literatura';
 $string['resourcetype2'] = 'Vložená webová stránka';
@@ -98,8 +110,11 @@ $string['resourcetypetext'] = 'Vytvořit stránku s textem';
 $string['searchweb'] = 'Hledat webovou stránku';
 $string['serverurl'] = 'URL serveru ($a->wwwroot)';
 $string['showcourseblocks'] = 'Zobrazovat bloky kurzu';
+$string['skipsubmenus'] = 'Přeskočit stránky s podnabídkami';
 $string['tableofcontents'] = 'Obsah';
+$string['upbutton'] = 'Nahoru';
 $string['variablename'] = 'Název proměnné';
 $string['viewims'] = 'Zobrazit IMS Content baliček';
+$string['vol'] = 'Vol';
 
 ?>

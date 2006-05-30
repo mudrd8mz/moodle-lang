@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.7 dev (2006050300) by mudrd8mz 
+      // workshop.php - created with Moodle 1.7 dev (2006050300)
 
 
 $string['absent'] = 'Chybí';
@@ -240,6 +240,7 @@ $string['scalepresent'] = '2-bodová Obsahuje/Chybí škála';
 $string['scaleyes'] = '2-bodová Ano/Ne škála';
 $string['select'] = 'Vyberte';
 $string['selfassessment'] = 'Sebehodnocení';
+$string['sgrade'] = 'Sbmsn<br />známka';
 $string['showdescription'] = 'Ukázat popis workshopu';
 $string['showgrades'] = 'Ukázat body';
 $string['showsubmission'] = 'Ukázat odevzdání: $a';
