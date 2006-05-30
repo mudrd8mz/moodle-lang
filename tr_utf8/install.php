@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 development (2006031400)
+      // install.php - created with Moodle 1.6 Beta 5 (2006050503)
 
 
 $string['admindirerror'] = 'Belirtilen yönetici dizini hatalı';
@@ -68,40 +68,32 @@ $string['dbwrongencoding'] = 'Seçili veritabanı tavsiye edilmeyen dil kodlamas
 $string['directorysettings'] = '<p>Lütfen, Bu Moodle kurulumu için yolları onaylayın.</p>
 
 <p><b>Web Adresi:</b>
-Moodle\'a erişilecek olan tam web adresini belirtin.
-Web siteniz bir çok URL\'den erişilebiliyorsa, öğrencilerinizin
+Moodle\'a erişilecek olan tam web adresini belirtin. Web siteniz bir çok URL\'den erişilebiliyorsa, öğrencilerinizin
 en sık kullanacağı bir tanesini seçin.
 Sonuna / (slash) ekleMEyin.</p>
 
 <p><b>Moodle Dizini:</b>
-Bu kurulama ait tam fiziksel klasör yolunu belirtin.
-BÜYÜK/küçük harflerin doğru olduğundan emin olun.</p>
+Bu kurulama ait tam fiziksel klasör yolunu belirtin. BÜYÜK/küçük harflerin doğru olduğundan emin olun.</p>
 
 <p><b>Veri Dizini:</b>
-Siteye yüklenen dosyaların nereye kaydedileceğini belirtin.
-Bu dizin sunucu kullanıcısı tarafından okunabilir ve
-YAZILABİLİR olmalı. (genellikle \'nobody\',\'apache\',\'www\' olur)
+Siteye yüklenen dosyaların nereye kaydedileceğini belirtin. Bu dizin sunucu kullanıcısı tarafından okunabilir ve YAZILABİLİR olmalı. (genellikle \'nobody\',\'apache\',\'www\' olur)
 Ancak, bu dizine direkt olarak webden erişim olMAMAlı.</p>';
 $string['directorysettingshead'] = 'Lütfen, Bu Moodle kurulumu için yolları onaylayın';
 $string['directorysettingssub'] = '<b>Web Adresi:</b>
-Moodle\'a erişilecek olan tam web adresini belirtin.
-Web siteniz bir çok URL\'den erişilebiliyorsa, öğrencilerinizin
+Moodle\'a erişilecek olan tam web adresini belirtin. Web siteniz bir çok URL\'den erişilebiliyorsa, öğrencilerinizin
 en sık kullanacağı bir tanesini seçin.
 Sonuna / (slash) ekleMEyin.
 <br />
 <br />
 <b>Moodle Dizini:</b>
-Bu kurulama ait tam fiziksel klasör yolunu belirtin.
-BÜYÜK/küçük harflerin doğru olduğundan emin olun.
+Bu kurulama ait tam fiziksel klasör yolunu belirtin. BÜYÜK/küçük harflerin doğru olduğundan emin olun.
 <br />
 <br />
 <b>Veri Dizini:</b>
-Siteye yüklenen dosyaların nereye kaydedileceğini belirtin.
-Bu dizin sunucu kullanıcısı tarafından okunabilir ve
-YAZILABİLİR olmalı. (genellikle \'nobody\',\'apache\',\'www\' olur)
+Siteye yüklenen dosyaların nereye kaydedileceğini belirtin. Bu dizin sunucu kullanıcısı tarafından okunabilir ve YAZILABİLİR olmalı. (genellikle \'nobody\',\'apache\',\'www\' olur)
 Ancak, bu dizine direkt olarak webden erişim olMAMAlı.';
 $string['dirroot'] = 'Moodle Dizini';
-$string['dirrooterror'] = '\'Moodle Dizini\' ayarları hatalı görünüyor - Burada bir Moodle kurulumu bulunamadı. Aşağıdaki değer sıfırlandı.';
+$string['dirrooterror'] = '\'Moodle Dizini\' ayarları hatalı görünüyor - Burada bir Moodle kurulumu bulunamadı. Aşağıdaki değer yeniden ayarlandı.';
 $string['download'] = 'İndir';
 $string['downloadlanguagebutton'] = 'Dil paketini $a indir';
 $string['downloadlanguagehead'] = 'Dil paketi indir';
@@ -114,22 +106,17 @@ $string['fileuploads'] = 'Dosya Göndermeleri';
 $string['fileuploadserror'] = 'Bu açık olmalı';
 $string['fileuploadshelp'] = '<p>Bu sunucuda, Dosya yüklemesi etkinleştirilmemiş görünüyor.</p>
 
-<p>Moodle hala kurulabilir, fakat bu özellik olmadan, yeni kullanıcı
-resimleri ve kurslara dosya gönderilemez.</p>
+<p>Moodle hala kurulabilir, fakat bu özellik olmadan, yeni kullanıcı resimleri ve kurslara dosya gönderilemez.</p>
 
-<p>Dosya yüklemesini etkinleştirmeniz için (veya sistem yöneticiniz)
-sisteminizin php.ini dosyasınındaki <b>file_uploads</b> ayarı \'1\'
+<p>Dosya yüklemesini etkinleştirmeniz için (veya sistem yöneticiniz) sisteminizin php.ini dosyasınındaki <b>file_uploads</b> ayarı \'1\'
 olarak değiştirilmeli.</p>';
 $string['gdversion'] = 'GD sürümü';
 $string['gdversionerror'] = 'GD kütüphanesi resimleri oluşturma ve işleme özelliği sunmalı';
 $string['gdversionhelp'] = '<p>Sunucunuzda GD kütüphanesi kurulu görülmüyor.</p>
 
-<p>Moodle\'ın resimleri işlemesi ve yeni resim oluşturması için
-GD kütüphanesi PHP kurulumu sırasında gereklidir. Örneğin,
-Moodle bu kütüphane sayesinde kullanıcı resimlerinin tırnak
-resimlerini çıkartır ve loglarla ilgili grafikler oluşturur.
-Moodle GD olmadan da çalışır, ancak yukarıda bahsedilen
-özelliklerden yararlanamazsınız.</p>
+<p>Moodle\'ın resimleri işlemesi ve yeni resim oluşturması için GD kütüphanesi PHP kurulumu sırasında gereklidir. Örneğin,
+Moodle bu kütüphane sayesinde kullanıcı resimlerinin tırnak resimlerini çıkartır ve loglarla ilgili grafikler oluşturur.
+Moodle GD olmadan da çalışır, ancak yukarıda bahsedilen özelliklerden yararlanamazsınız.</p>
 
 <p>Unix altında PHP\'ye GD desteğini sağlamak için, PHP\'yi --with-gd parametresiyle derleyin.</p>
 
@@ -145,7 +132,7 @@ $string['globalsquoteshelp'] = '<p>Pasifleştirilmiş Magic Quotes GPC ve etkinl
 <blockquote>php_value register_globals Off</blockquote>
 </p> ';
 $string['installation'] = 'Kurulum';
-$string['langdownloaderror'] = 'Maalesef dil paketi \"$a\" kurulamadı. Kurulum İngilizce olarak devam edecek.';
+$string['langdownloaderror'] = 'Maalesef \"$a\" dil paketi kurulamadı. Kuruluma İngilizce olarak devam edilecek.';
 $string['langdownloadok'] = 'Dil paketi \"$a\" başarıyla kuruldu. Kurulum bu dilde devam edecek.';
 $string['magicquotesruntime'] = 'Magic Quotes Run Time';
 $string['magicquotesruntimeerror'] = 'Bu kapalı olmalı';
@@ -185,20 +172,15 @@ Böyle bir durumda .htaccess dosyasını silmeniz gerekiyor.</p></li>
 $string['mysqlextensionisnotpresentinphp'] = 'PHP, büyük ihtimal MySQL uzantısıyla birlikte yapılandırılmamış. Bu yüzden MySQL ile bağlantı kurulamıyor. php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin.';
 $string['pass'] = 'Geçti';
 $string['phpversion'] = 'PHP sürümü';
-$string['phpversionerror'] = 'PHP sürümü en az 4.1.0 olmalı';
-$string['phpversionhelp'] = '<p>Moodle, PHP sürümünün en az 4.1.0 olmasını gerektirir.</p>
-<p>Şu anda bu sürümü çalışıyor: $a</p>
+$string['phpversionerror'] = 'PHP sürümü en az 4.3.0 veya 5.1.0 olmalı (5.0.x sürümünde çok fazla hata var)';
+$string['phpversionhelp'] = '<p>Moodle, PHP sürümünün en az 4.3.0 veya 5.1.0 olmasını gerektirir (5.0.x sürümünde çok fazla hata var).</p>
+<p>Şu anda çalışan sürüm: $a</p>
 <p>PHP\'yi güncellemeli veya PHP\'nin yeni sürümünü kullananan bir hostinge taşınmalısınız!</p>';
 $string['safemode'] = 'Safe Mode';
 $string['safemodeerror'] = 'Moodle, safe mode\'ın açık olması durumunda bazı sorunlar çıkartabilir';
-$string['safemodehelp'] = '<p>Moodle, safe mode\'un açık olması durumunda bazı sorunlar çıkartabilir.
-   Moodle tarafından en azından bazı dosyaların oluşturulması gerekiyor,
-   ama bu mod yeni dosyaların oluşturulmasına izin vermiyor.</p>
-
-<p>Safe mode sadece paranoyak web hostinglerince kullanılmaktadır. Bu durumda
-Moodle için başka bir web hosting firması bulmanız gerekiyor.</p>
-
-<p>İsterseniz devam edebilirsiniz, ama daha sonra bir çok sorunla karşılaşırsınız.</p>   ';
+$string['safemodehelp'] = '<p>Moodle, safe mode\'un açık olması durumunda bazı sorunlar çıkartabilir. Moodle tarafından en azından bazı dosyaların oluşturulması gerekiyor, ama bu mod yeni dosyaların oluşturulmasına izin vermiyor.</p>
+<p>Safe mode sadece paranoyak web hostinglerince kullanılmaktadır. Bu durumda Moodle için başka bir web hosting firması bulmanız gerekiyor.</p>
+<p>İsterseniz devam edebilirsiniz, ama daha sonra bir çok sorunla karşılaşırsınız.</p>';
 $string['sessionautostart'] = 'Otomatik Oturum Başlama';
 $string['sessionautostarterror'] = 'Bu kapalı olmalı';
 $string['sessionautostarthelp'] = '<p>Moodle, oturum desteği gerektirir ve bu olmadan işlevsel çalışamaz.</p>
