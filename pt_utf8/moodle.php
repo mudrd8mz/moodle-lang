@@ -1,9 +1,11 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.5 ALPHA (2005043000)
+      // moodle.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['action'] = 'Acção';
+$string['actions'] = 'Acções';
 $string['active'] = 'Activa(o)';
+$string['activeusers'] = 'Utilizadores activos';
 $string['activities'] = 'Actividades';
 $string['activity'] = 'Actividade';
 $string['activityclipboard'] = 'Movendo esta actividade: <b>$a</b>';
@@ -13,11 +15,14 @@ $string['activityreport'] = 'Relatório de actividade';
 $string['activityreports'] = 'Relatórios de actividade';
 $string['activityselect'] = 'Seleccione esta actividade para ser movida para outro lado';
 $string['activitysince'] = 'Actividade desde $a';
+$string['activityweighted'] = 'Actividade por utilizador';
 $string['add'] = 'Adicionar';
 $string['addactivity'] = 'Adicionar uma actividade';
 $string['addadmin'] = 'Adicionar administrador';
 $string['addcreator'] = 'Adicionar dono da disciplina';
 $string['added'] = 'Adicionado $a';
+$string['addedrecip'] = 'Adicionado $a novo destinatário';
+$string['addedrecips'] = 'Adicionados $a novos destinatários';
 $string['addedtogroup'] = 'Adicionado ao grupo $a';
 $string['addedtogroupnot'] = 'Não adicionado ao grupo $a';
 $string['addedtogroupnotenrolled'] = 'Não adicionado ao grupo $a, porque não está inscrito na disciplina';
@@ -27,6 +32,7 @@ $string['addingdatatoexisting'] = 'Adicionar dados à existente';
 $string['addnewcategory'] = 'Adicionar nova categoria';
 $string['addnewcourse'] = 'Adicionar nova disciplina';
 $string['addnewuser'] = 'Adicionar novo utilizador';
+$string['addnousersrecip'] = 'Adicionar utilizadores que não tenham accedido este(a) $a à lista de destinatários';
 $string['addresource'] = 'Adicionar um recurso';
 $string['address'] = 'Morada';
 $string['addstudent'] = 'Adicionar aluno';
