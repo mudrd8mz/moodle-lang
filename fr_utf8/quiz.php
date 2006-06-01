@@ -81,6 +81,7 @@ $string['choices'] = 'Propositions';
 $string['choosedatasetproperties'] = 'Propriétés du jeu de données';
 $string['choosefile'] = 'Choisir un fichier';
 $string['close'] = 'Fermer la prévisualisation';
+$string['closebeforeopen'] = 'Impossible de modifier le test&nbsp;: vous avez indiqué une date de fermeture antérieure à la date d\'ouverture du test.';
 $string['closepreview'] = 'Fermer la prévisualisation';
 $string['closereview'] = 'fermer la relecture';
 $string['comment'] = 'Commentaire';
