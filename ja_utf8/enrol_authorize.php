@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006050501)
+      // enrol_authorize.php - created with Moodle 1.7 dev (2006052400)
 
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
@@ -70,7 +70,7 @@ $string['chooseone'] = '次の2つのフィールドの1つまたは両方に入
 $string['cutofftime'] = 'トランザクションカットオフ時間。何時に最終のトランザクションを確定のために取得しますか?';
 $string['delete'] = '無効化';
 $string['description'] = 'Authorize.netモジュールでは、受講料支払いが必要なコースを作成することができます。コースの受講料がゼロの場合、学生には受講登録の支払いは求められません。サイト全体の利用料をデフォルトとしてここで設定して、コースごとに受講料を設定することができます。コース受講料を設定した場合、コース受講料はサイト利用料に優先します。<b>注意:</b> コース設定で登録キーを指定した場合、学生は登録キーを使用した受講登録のオプションも持つことになります。これは、支払い要、支払い不要の学生が混在している場合に便利です。';
-$string['enrolname'] = 'Authorize.net クレジットカード・ゲイトウェイ';
+$string['enrolname'] = 'Authorize.net マーチャント・ペイメントゲートウェイ';
 $string['expired'] = '期限切れ';
 $string['howmuch'] = 'いくらですか?';
 $string['httpsrequired'] = '申し訳ございません、あなたのリクエストは現在処理することができません。このサイトの設定は正常に行われませんでした。
