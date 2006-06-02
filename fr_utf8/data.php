@@ -143,6 +143,7 @@ $string['resizingimages'] = 'Génération des vignettes...';
 $string['rssglobaldisabled'] = 'Désactivé. Voir les paramètres de configuration du Moodle.';
 $string['rsshowmany'] = '(nombre de fiches récentes à afficher, 0 pour désactiver les RSS)';
 $string['rsstemplate'] = 'Modèle RSS';
+$string['rsstitletemplate'] = 'Modèle titre RSS';
 $string['save'] = 'Enregistrer';
 $string['saveandadd'] = 'Enregistrer et ajouter une autre fiche';
 $string['saveandview'] = 'Enregistrer et afficher';
