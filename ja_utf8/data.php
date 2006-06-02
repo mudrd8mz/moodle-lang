@@ -145,6 +145,7 @@ $string['resizingimages'] = 'イメージサムネイルのリサイズ...';
 $string['rssglobaldisabled'] = '使用不可、サイト詳細設定をご覧ください。';
 $string['rsshowmany'] = '( 表示する最新のエントリ数、ゼロでRSSを無効 )';
 $string['rsstemplate'] = 'RSSテンプレート';
+$string['rsstitletemplate'] = 'RSSタイトルテンプレート';
 $string['save'] = '保存';
 $string['saveandadd'] = '保存して次を追加';
 $string['saveandview'] = '保存して表示';
