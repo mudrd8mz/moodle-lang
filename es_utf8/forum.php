@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // forum.php - created with Moodle 1.7 dev (2006052400)
 
 
 $string['addanewdiscussion'] = 'Colocar un nuevo tema de discusión aquí';
@@ -73,7 +73,7 @@ $string['forumblockingalmosttoomanyposts'] = 'Usted se está aproximando al lím
 $string['forumbodyhidden'] = 'Usted no puede ver este mensaje, probablemente debido a que aún no ha enviado mensajes a esta discusión.';
 $string['forumintro'] = 'Introducción';
 $string['forumname'] = 'Nombre del foro';
-$string['forumposts'] = 'Mensajes del foro';
+$string['forumposts'] = 'Mensajes';
 $string['forums'] = 'Foros';
 $string['forumsubjecthidden'] = 'Tema (oculto)';
 $string['forumtype'] = 'Tipo de foro';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // quiz.php - created with Moodle 1.7 dev (2006052400)
 
 
 $string['1day'] = '1 día';
@@ -83,6 +83,7 @@ $string['choices'] = 'Opciones disponibles';
 $string['choosedatasetproperties'] = 'Elegir propiedades del conjunto de datos';
 $string['choosefile'] = 'Elegir un archivo';
 $string['close'] = 'Cerrar vista previa';
+$string['closebeforeopen'] = 'No se pudo actualizar el cuestionario: la fecha de cierre es anterior a la de apertura.';
 $string['closepreview'] = 'Cerrar vista previa';
 $string['closereview'] = 'Cerrar revisión';
 $string['comment'] = 'Comentario';
@@ -516,7 +517,7 @@ $string['wronggrade'] = 'Calificación equivocada (después de la línea $a) :';
 $string['wronguse'] = 'Usted no puede usar esta página así';
 $string['xhtml'] = 'Formato XHTML';
 $string['xml'] = 'Formato Moodle XML';
-$string['xmltypeunsupported'] = 'La importación xml no admite el tipo $a de pregunta';
+$string['xmltypeunsupported'] = 'La importación XML no admite el tipo de pregunta $a';
 $string['yourfinalgradeis'] = 'Su calificación final en este cuestionario es $a';
 $string['zerosignificantfiguresnotallowed'] = '¡La respuesta correcta no puede tener cero dígitos significativos!';
 
