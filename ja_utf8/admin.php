@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006050501)
+      // admin.php - created with Moodle 1.7 dev (2006060400)
 
 
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示';
@@ -37,7 +37,7 @@ $string['configdebug'] = 'この設定を「Yes」にした場合、PHPのerror_
 $string['configdefaultallowedmodules'] = '上位カテゴリに分類される<b>コースが作成される場合</b>、デフォルトでどのモジュールを許可しますか?';
 $string['configdefaultrequestedcategory'] = 'リクエストされたコースが認証された場合、コースが設置されるデフォルトカテゴリです。';
 $string['configdeleteunconfirmed'] = 'メールによる承認を利用している場合、この値はユーザからの返答を受け付ける期間を指します。この期間終了後、古い未承認のアカウントは削除されます。';
-$string['configdenyemailaddresses'] = '特定ドメインから新しいメールアドレスを拒否したい場合は、この欄にスペースで区切って入力してください。他のドメインはすべて認められます。例  <strong>hotmail.com yahoo.co.uk</strong> ';
+$string['configdenyemailaddresses'] = '特定ドメインから新しいメールアドレスを拒否したい場合は、この欄にスペースで区切って入力してください。他のドメインはすべて認められます。例  <strong>hotmail.com yahoo.co.uk</strong>';
 $string['configdigestmailtime'] = 'メール送信する選択をしたユーザに、投稿内容を要約したメールが毎日送信されます。ここでは1日の内で何時に要約メールを送信するか設定します ( 次のcronがここで設定した時間の後に実行されます )。';
 $string['configdisplayloginfailures'] = 'ここで選択したユーザに前回のログイン失敗情報を表示します。';
 $string['configdocroot'] = 'Moodle Docsのパスを定義します。独自のオンラインドキュメントを使用したい場合、この設定を変更することができます。設定を変更する場合、ドキュメンテーションのパスが、http://docs.moodle.org と同じフォーマットであることを確認してください。';
@@ -91,7 +91,7 @@ $string['configrequestedstudentsname'] = 'リクエストされたコースで�
 $string['configrequestedteachername'] = 'リクエストされたコースで使用する教師 ( 単数 ) に対する呼称';
 $string['configrequestedteachersname'] = 'リクエストされたコースで使用する教師 ( 複数 ) に対する呼称';
 $string['configrestrictbydefault'] = '上位カテゴリに分類される新しく作成されたコースでは、デフォルトでモジュールを制限しますか?';
-$string['configrestrictmodulesfor'] = 'どのコースに、活動モジュールを停止するための<b>設定</b>を設置しますか?';
+$string['configrestrictmodulesfor'] = 'どのコースに、活動モジュールを停止するための<b>設定</b>を設置しますか? この設定は、教師には適用されません。管理者は、どのような活動でもコースに追加することができます。';
 $string['configrunclamonupload'] = 'ファイルアップロード時にclam AVを動作させますか? 正常に動作させるためには、pathtoclamに正しいパスを入力する必要があります。 ( Clam AVは次の場所で入手できる無料ウイルススキャナーです。 http://www.clamav.net/ )';
 $string['configsectioninterface'] = 'インターフェース';
 $string['configsectionmail'] = 'メール';
