@@ -113,6 +113,7 @@ $string['createfirst'] = 'Vous devez d\'abord créer quelques questions à répo
 $string['createmultiple'] = 'Ajouter plusieurs questions aléatoires au test';
 $string['createnewquestion'] = 'Créer une question';
 $string['custom'] = 'Format personnalisé';
+$string['dataitemneed'] = 'Un jeu de données au moins doit être ajouté pour obtenir une question valide';
 $string['datasetdefinitions'] = 'Définitions du jeu de données réutilisable de la catégorie $a';
 $string['datasetnumber'] = 'Nombre';
 $string['daysavailable'] = 'Jours disponibles';
