@@ -210,6 +210,7 @@ $string['pathtopsqldesc'] = 'Il n\'est nécessaire de renseigner ce champ que si
 $string['pathtopsqlinvalid'] = 'Chemin d\'accès à <i>psql</i> non valide. Le chemin est incorrect ou le programme n\'est pas exécutable';
 $string['pgcluster'] = 'PostgreSQL Cluster';
 $string['pgclusterdescription'] = 'Paramètre de version/cluster de PostgreSQL pour les operations en ligne de commande. Si vous n\'avez qu\'un seul postgresql sur votre serveur ou n\'êtes pas sûr de ce dont il s\'agit, laissez ce champ vide.';
+$string['php50restricted'] = 'Les versions 5.0.x de PHP ont plusieurs problèmes connus. Veuillez mettre à jour PHP à la version 5.1.x ou revenir à une version 4.3.x ou 4.4.x';
 $string['pleaseregister'] = 'Pour enlever ce bouton, veuillez enregistrer votre site';
 $string['releasenoteslink'] = 'Pour des informations sur cette version de Moodle, veuillez consulter les <a target=\"_new\" href=\"$a\">Notes de mise à jour</a> en ligne.';
 $string['remotelangnotavailable'] = 'Moodle ne peut pas se connecter au site download.moodle.org. L\'installation automatique des langues ne peut donc pas avoir lieu. Veuillez télécharger le(s) fichier(s) compressé(s) nécessaire(s) dans la liste ci-dessous, les copier dans votre dossier $a et les décompresser manuellement.';

@@ -1029,6 +1029,7 @@ $string['restorecancelled'] = 'Restauration annulée';
 $string['restorecoursenow'] = 'Restaurer ce cours maintenant!';
 $string['restorefinished'] = 'Restauration réussie';
 $string['restoreto'] = 'Restaurer vers';
+$string['restricted'] = 'Interdit';
 $string['restrictmodules'] = 'Restreindre des modules&nbsp;?';
 $string['returningtosite'] = 'Déjà inscrit ?';
 $string['revert'] = 'Version précédente';
