@@ -145,6 +145,7 @@ $string['resizingimages'] = 'Tırnak resimler tekrar boyutlandırılıyor...';
 $string['rssglobaldisabled'] = 'Etkin değil. Site yapılandırma değişkenlerine bakın.';
 $string['rsshowmany'] = '(gösterilecek son kayıtların sayısı, RSS iptali için 0)';
 $string['rsstemplate'] = 'RSS şablonu';
+$string['rsstitletemplate'] = 'RSS başlık şablonu';
 $string['save'] = 'Kaydet';
 $string['saveandadd'] = 'Kaydet ve başka ekle';
 $string['saveandview'] = 'Kaydet ve bak';
