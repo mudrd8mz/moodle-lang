@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006050500)
+      // lesson.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['accesscontrol'] = 'Kontrol ng pagpasok';
@@ -92,7 +92,7 @@ $string['essay'] = 'Sanaysay';
 $string['essayemailsubject'] = 'Ang marka mo para sa $a na tanong';
 $string['essays'] = 'Mga sanaysay';
 $string['essayscore'] = 'Iskor ng sanaysay';
-$string['fileformat'] = 'Anyo ng File';
+$string['fileformat'] = 'Anyo ng Sako';
 $string['firstanswershould'] = 'Ang unang sagot ay dapat lumukso sa \"Wasto\" na Pahina';
 $string['firstwrong'] = 'Nakakalungkot, pero hindi ka tatanggap ng isang puntos, dahil ang tugon mo ay mali.  Nais mo bang magpatuloy sa panghuhula, para lamang sa katuwaan ng pag-aaral (pero walang puntos na matatanggap)?';
 $string['flowcontrol'] = 'Kontrol ng daloy';
@@ -141,8 +141,8 @@ $string['maximumnumberofattemptsreached'] = 'Naabot na ang maksimum na bilang ng
 $string['maxtime'] = 'Taning na oras (minuto)';
 $string['maxtimewarning'] = 'May $a minuto ka upang matapos ang aralín.';
 $string['mediaclose'] = 'Ipakita ang buton na pansara:';
-$string['mediafile'] = 'Magpop-up sa file o pahinang pangweb';
-$string['mediafilepopup'] = 'Iklik ito upang makita ang media file ng araling ito.';
+$string['mediafile'] = 'Magpop-up sa sako o pahinang pangweb';
+$string['mediafilepopup'] = 'Iklik ito upang makita ang sakong media ng araling ito.';
 $string['mediaheight'] = 'Taas ng bintana:';
 $string['mediawidth'] = 'lápad:';
 $string['minimumnumberofquestions'] = 'Minimum na bilang ng tanong';
@@ -179,10 +179,10 @@ $string['notitle'] = 'Walang pamagat';
 $string['numberofcorrectanswers'] = 'Bilang ng wastong sagot: $a';
 $string['numberofcorrectmatches'] = 'Bilang ng tugmâ: $a';
 $string['numberofpagestoshow'] = 'Bilang ng pahina (baraha) na ipapakita';
-$string['numberofpagesviewed'] = 'Bilang ng pahinang natingnan: $a';
+$string['numberofpagesviewed'] = 'Bilang ng mga tanong na nasagot: $a';
 $string['ongoing'] = 'Ipakita ang nagaganap na iskor';
 $string['ongoingcustom'] = 'Nakatanggap ka na ng $a->score puntos mula sa $a->currenthigh puntos sa kasalukuyan.';
-$string['ongoingnormal'] = 'Nasagot mo nang wasto ang $a->correct tanong sa $a->viewed tanong.';
+$string['ongoingnormal'] = 'Nasagot mo nang wasto ang $a->correct tanong sa $a->viewed pagkuha.';
 $string['or'] = 'O';
 $string['ordered'] = 'Pinagsunud-sunod';
 $string['other'] = 'Iba pa';
@@ -225,9 +225,9 @@ $string['reviewlesson'] = 'Rebyuhin ang aralín';
 $string['reviewquestionback'] = 'Oo, nais kong umulit';
 $string['reviewquestioncontinue'] = 'Hindi, gusto ko nang pumunta sa susunod na tanong';
 $string['sanitycheckfailed'] = 'Nabigo ang pagsusuri ng katinuan:  Binura na ang pagtatangkang ito';
-$string['savechanges'] = 'Isave ang mga Pagbabago';
-$string['savechangesandeol'] = 'Isave ang lahat ng pagbabago at pumunta sa wakas ng aralín.';
-$string['savepage'] = 'Isave ang pahina';
+$string['savechanges'] = 'Isilid ang mga Pagbabago';
+$string['savechangesandeol'] = 'Isilid ang lahat ng pagbabago at pumunta sa wakas ng aralín.';
+$string['savepage'] = 'Isilid ang pahina';
 $string['score'] = 'Iskor';
 $string['scores'] = 'Mga iskor';
 $string['secondpluswrong'] = 'Mali pa rin.  Nais mo bang umulit?';
@@ -284,6 +284,6 @@ $string['youranswer'] = 'Ang iyong sagot';
 $string['yourcurrentgradeis'] = 'Ang kasalukuyan mong marka ay $a';
 $string['yourgradeisnow'] = 'Binago ang marka mo sa aralín at ginawa itong $a';
 $string['yourresponse'] = 'Ang tugon mo';
-$string['youshouldview'] = 'Dapat mong tingnan ang hindi kukulangin sa: $a';
+$string['youshouldview'] = 'Dapat mong sagutin ang hindi kukulangin sa: $a';
 
 ?>

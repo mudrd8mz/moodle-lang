@@ -3,9 +3,9 @@
 
 
 $string['addentry'] = 'Idagdag ang inyong mga paboritong sipi!';
-$string['askaddentry'] = 'Kapag nakakapagdagdag ang mga tao ng talâ sa talahulugan, ipakita ang tekstong ito na may link';
-$string['askinvisible'] = 'Kapag hindi ma-edit o matingnan ng mga tao ang talahulugan, ipakita ang tekstong ito (nang walang link)';
-$string['askviewglossary'] = 'Kapag natitingnan ng mga tao ang talahulugan pero hindi sila makapagdagdag ng talâ, ipakita ang tekstong ito na may link';
+$string['askaddentry'] = 'Kapag nakakapagdagdag ang mga tagagamit ng talâ sa talahulugan, ipakita ang tekstong ito na may link';
+$string['askinvisible'] = 'Kapag hindi ma-edit o matingnan ng mga tagagamit ang talahulugan, ipakita ang tekstong ito (nang walang link)';
+$string['askviewglossary'] = 'Kapag natitingnan ng mga tagagamit ang talahulugan pero hindi sila makapagdagdag ng talâ, ipakita ang tekstong ito na may link';
 $string['blockname'] = 'Random na Talâ sa Talahulugan';
 $string['intro'] = 'Tiyakin ninyo na mayroon kayong kahit isa man lamang na talahulugan na may isa man lamang na talâ, na idinagdag sa kursong ito.  Pagkatapos ay mababago ninyo ang sumusunod na kaayusan';
 $string['invisible'] = '(itutuloy)';

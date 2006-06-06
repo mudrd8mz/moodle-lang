@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.7 dev (2006050500)
+      // hotpot.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['abandoned'] = 'inabandona';
@@ -25,29 +25,29 @@ $string['deleteabandonedcheck'] = 'Talaga bang nais mong burahin ang lahat ng $a
 $string['displaycoursenext'] = 'Ipakita ang pahinang Pangkurso sa susunod';
 $string['displayhotpotnext'] = 'Ipakita ang pagsusulit na Hot Potatoes sa susunod';
 $string['displayindexnext'] = 'Ipakita ang indeks na HotPot sa susunod';
-$string['enterafilename'] = 'Magpasok ng filename';
-$string['error_couldnotopenfolder'] = 'Hindi mapasok ang folder na \"$a\" ';
+$string['enterafilename'] = 'Magpasok ng ngalan ng sako';
+$string['error_couldnotopenfolder'] = 'Hindi mapasok ang bugsok na \"$a\" ';
 $string['error_couldnotopensourcefile'] = 'Hindi mabuksan ang source file na \"$a\"';
 $string['error_couldnotopentemplate'] = 'Hindi mabuksan ang padron para sa anyong \"$a\"';
 $string['error_invalidquiztype'] = 'Ang uri ng pagsusulit ay nawawala o ditanggap';
-$string['error_nocourseorfilename'] = 'Hindi malikha ang XML tree: may nawawalang pangalan ng kurso o file';
+$string['error_nocourseorfilename'] = 'Hindi malikha ang XML tree: may nawawalang pangalan ng kurso o sako';
 $string['error_nofeedbackurlformmail'] = 'Magpasok ng URL para sa iskrip na nagpoproseso ng porma';
 $string['error_nofeedbackurlwebpage'] = 'Magpasok ng URL para sa pahinang pangweb';
-$string['error_nofilename'] = 'Magpasok ng pangalan ng file';
+$string['error_nofilename'] = 'Magpasok ng pangalan ng sako';
 $string['error_noquizzesfound'] = 'Walang natagpuang pagsusulit na Hot Potatoes';
-$string['error_notfileorfolder'] = 'Ang \"$a\" ay hindi file ni folder';
+$string['error_notfileorfolder'] = 'Ang \"$a\" ay hindi sako ni bugsok';
 $string['feedbackformmail'] = 'Porma para sa puna';
 $string['feedbackmoodleforum'] = 'Talakayan na Pang-Moodle';
 $string['feedbackmoodlemessaging'] = 'Mensahe na Pang-Moodle';
 $string['feedbacknone'] = 'Walâ';
 $string['feedbackwebpage'] = 'Pahinang pangweb';
-$string['filetype'] = 'Uri ng file';
+$string['filetype'] = 'Uri ng sako';
 $string['forceplugins'] = 'Ipilit ang mga media plugin';
 $string['giveup'] = 'Sirit';
 $string['hints'] = 'mga hint';
 $string['ignored'] = 'Binalewala';
 $string['inprogress'] = 'Kasalukuyang ginagawa';
-$string['location'] = 'Lokasyon ng file';
+$string['location'] = 'Lokasyon ng sako';
 $string['modulename'] = 'Hot Potatoes Quiz';
 $string['modulenameplural'] = 'Mga Hot Potatoes Quiz';
 $string['navigation'] = 'Nabigasyon';
@@ -112,7 +112,7 @@ $string['reportthisclick'] = '$a ang klik na ito';
 $string['reporttimerecorded'] = 'Inirekord na tugon';
 $string['reportwrapdata'] = 'Iwrap ang datos';
 $string['reportwrong'] = 'Mali';
-$string['resultssaved'] = 'Isinave ang mga resulta ng pagsusulit';
+$string['resultssaved'] = 'Isinilid ang mga resulta ng pagsusulit';
 $string['score'] = 'iskor';
 $string['showhtmlsource'] = 'Ipakita ang HTML source';
 $string['shownextquiz'] = 'Ipakita ang susunod na pagsusulit';
@@ -120,8 +120,8 @@ $string['showxmlsource'] = 'Ipakita ang XML source';
 $string['showxmltree'] = 'Ipakita ang XML tree';
 $string['specifictime'] = 'Partikular na oras';
 $string['studentfeedback'] = 'Puna ng mag-aaral';
-$string['textsourcefilename'] = 'Gamitin ang file name';
-$string['textsourcefilepath'] = 'Gamitin ang landas ng file';
+$string['textsourcefilename'] = 'Gamitin ang ngalan ng sako';
+$string['textsourcefilepath'] = 'Gamitin ang landas ng sako';
 $string['textsourcequiz'] = 'Kunin mula sa pagsusulit';
 $string['textsourcespecific'] = 'Partikular na teksto';
 $string['thiscourse'] = 'Ang kursong ito';

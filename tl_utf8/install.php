@@ -1,44 +1,44 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.7 dev (2006050500)
+      // install.php - created with Moodle 1.7 dev (2006050501)
 
 
-$string['admindirerror'] = 'Malî ang ibinigay na direktoryong pang-admin';
-$string['admindirname'] = 'Pang-Admin na Direktoryo';
+$string['admindirerror'] = 'Malî ang ibinigay na bugsok na pang-admin';
+$string['admindirname'] = 'Pang-Admin na Bugsok';
 $string['admindirsetting'] = '    Mayroong ilang webhost na ginagamit ang /admin bilang isang espesyal na URL para mapasok mo ang
     kontrol panel o iba pa.  Nakakalungkot isipin pero sumasalungat ito sa 
     istandard na lokasyon ng mga pang-admin na pahina ng Moodle.  Maaayos ninyo ito sa pamamagitan ng
-    pagpapalit ng pangalan ng pang-admin na direktoryo sa iyong iniluklok, alalaong baga\'y ilagay ninyo
+    pagpapalit ng pangalan ng pang-admin na bugsok sa iyong iniluklok, alalaong baga\'y ilagay ninyo
     ang bagong pangalan na iyon dito.  Halimbawa: <br /> <br /><b>moodleadmin</b><br /> <br />
     Maaayos nito ang mga pang-admin na link sa Moodle.';
-$string['admindirsettinghead'] = 'Itinatakda ang direktoryong pang-admin...';
-$string['admindirsettingsub'] = 'May ilang webhost na ginagamit ang /admin bilang isang espesyal na URL, halimbawa ay para makapasok sa isang kontrol panel.  Nguni\'t nakakagulo ito sa istandard na lokasyon ng mga pahinang pang-admin ng Moodle.  Malulutas ninyo ito sa pamamagitan ng pagbabago ng pangalan ng direktoryong pang-admin sa iniluklok ninyo, tapos ay isulat ang bagong pangalan dito.  Halimbawa:  <br /> <br /><b>moodleadmin</b><br /> <br />
+$string['admindirsettinghead'] = 'Itinatakda ang bugsok na pang-admin...';
+$string['admindirsettingsub'] = 'May ilang webhost na ginagamit ang /admin bilang isang espesyal na URL, halimbawa ay para makapasok sa isang kontrol panel.  Nguni\'t nakakagulo ito sa istandard na lokasyon ng mga pahinang pang-admin ng Moodle.  Malulutas ninyo ito sa pamamagitan ng pagbabago ng pangalan ng bugsok na pang-admin sa iniluklok ninyo, tapos ay isulat ang bagong pangalan dito.  Halimbawa:  <br /> <br /><b>moodleadmin</b><br /> <br />
 Maaayos nito ang mga link na pang-admin sa Moodle.';
 $string['caution'] = 'Mag-ingat';
 $string['chooselanguage'] = 'Pumilì ng wika';
 $string['chooselanguagehead'] = 'Pumilì ng wika';
-$string['chooselanguagesub'] = 'Pumili po ng wika para sa pagluluklok LAMANG.  Sa mga susunod na iskrin ay makakapili ka ng wika para sa site o tao.';
+$string['chooselanguagesub'] = 'Pumili po ng wika para sa pagluluklok LAMANG.  Sa mga susunod na iskrin ay makakapili ka ng wika para sa site o tagagamit.';
 $string['compatibilitysettings'] = 'Sinusuri ang iyong kaayusan ng PHP...';
 $string['compatibilitysettingshead'] = 'Sinusuri ang iyong kaayusan ng PHP...';
 $string['compatibilitysettingssub'] = 'Kailangang pumasa ang server mo sa lahat ng pagsubok upang mapatakbo nang mahusay ang Moodle';
-$string['configfilenotwritten'] = 'Hindi nakalikha nang kusa ang iskrip na pangluklok ng config.php file na siyang naglalaman ng mga pinilì mong kaayusan.  Marahil ay dahil sa hindi masulatan ang direktoryo ng Moodle.  Maaari mong kopyahin nang mano-mano ang sumusunod na code sa isang file na nagngangalang config.php sa loob ng punong direktoryo ng Moodle.';
+$string['configfilenotwritten'] = 'Hindi nakalikha nang kusa ang iskrip na pangluklok ng sakong config.php na siyang naglalaman ng mga pinilì mong kaayusan.  Marahil ay dahil sa hindi masulatan ang bugsok ng Moodle.  Maaari mong kopyahin nang mano-mano ang sumusunod na code sa isang sako na nagngangalang config.php sa loob ng punong bugsok ng Moodle.';
 $string['configfilewritten'] = 'matagumpay na nalikha ang config.php';
 $string['configurationcomplete'] = 'Nakumpleto na ang pagsasaayos';
 $string['configurationcompletehead'] = 'Nakumpleto na ang pagsasaayos';
-$string['configurationcompletesub'] = 'Tinangka ng Moodle na isave ang kaayusan mo sa isang file sa root ng iniluklok mong Moodle.';
+$string['configurationcompletesub'] = 'Tinangka ng Moodle na isilid ang kaayusan mo sa isang sako sa root ng iniluklok mong Moodle.';
 $string['database'] = 'Datosan';
 $string['databasecreationsettings'] = 'Ngayon ay kailangan mong isaayos ang kaayusan ng datosan kung saan iiimbakin ang karamihan sa datos ng Moodle.  Kusang lilikhain ang datosan na ito ng pangluklok na Moodle4Windows na may mga kaayusang itinatakda sa ibaba.<br />
 <br /> <br />
 <b>Uri:</b> ipinirmi ng pangluklok sa \"mysql\"<br />
 <b>Host:</b> ipinirmi ng pangluklok sa \"localhost\"<br />
 <b>Ngalan:</b> pangalan ng datosan, hal. moodle<br />
-<b>Gumagamit:</b> ipinirmi ng pangluklok sa \"root\"<br />
+<b>Tagagamit:</b> ipinirmi ng pangluklok sa \"root\"<br />
 <b>Kontrasenyas:</b> ang kontrasenyas ng datosan mo<br />
 <b>Unlapi ng Teybol:</b> opsiyonal na unlapi na gagamitin sa lahat ng pangalan ng teybol';
 $string['databasecreationsettingshead'] = 'Ngayon ay kailangan mo namang isaayos ang mga kaayusan ng datosan kung saan nalalagak ang karamihan sa datos ng Moodle.  Ang datosan na ito ay kusang lilikhain ng pangluklok, at itatakda nito ang sumusunod na kaayusan.';
 $string['databasecreationsettingssub'] = '<b>Uri:</b> ipinirmi ng pangluklok sa \"mysql\"<br />
 <b>Host:</b> ipinirmi ng pangluklok sa \"localhost\"<br />
 <b>Ngalan:</b> pangalan ng datosan, hal. moodle<br />
-<b>Gumagamit:</b> ipinirmi ng pangluklok sa \"root\"<br />
+<b>Tagagamit:</b> ipinirmi ng pangluklok sa \"root\"<br />
 <b>Kontrasenyas:</b> ang kontrasenyas ng datosan mo<br />
 <b>Unlapi ng Teybol:</b> opsiyonal na unlapi na gagamitin sa lahat ng pangalan ng teybol';
 $string['databasesettings'] = '    Ngayon naman ay kailangan mong isaayos ang datosan kung saan iimbakin
@@ -48,7 +48,7 @@ $string['databasesettings'] = '    Ngayon naman ay kailangan mong isaayos ang da
        <b>Uri:</b> mysql o postgres7<br />
        <b>Host:</b> eg localhost o db.isp.com<br />
        <b>Pangalan:</b> pangalan ng datosan, eg moodle<br />
-       <b>Gumagamit:</b> ang iyong bansag para sa datosan<br />
+       <b>Tagagamit:</b> ang iyong bansag para sa datosan<br />
        <b>Kontrasenyas:</b> ang iyong kontrasenyas ng datosan<br />
        <b>Unlapi ng mga Teybol:</b> opsiyonal na unlapi na gagamitin sa lahat ng pangalan ng teybol';
 $string['databasesettingshead'] = 'Ngayon naman ay kailangan mong isaayos ang datosan kung saan iimbakin
@@ -57,11 +57,11 @@ $string['databasesettingshead'] = 'Ngayon naman ay kailangan mong isaayos ang da
 $string['databasesettingssub'] = '<b>Uri:</b> mysql o postgres7<br />
        <b>Host:</b> eg localhost o db.isp.com<br />
        <b>Pangalan:</b> pangalan ng datosan, eg moodle<br />
-       <b>Gumagamit:</b> ang iyong bansag para sa datosan<br />
+       <b>Tagagamit:</b> ang iyong bansag para sa datosan<br />
        <b>Kontrasenyas:</b> ang iyong kontrasenyas ng datosan<br />
        <b>Unlapi ng mga Teybol:</b> opsiyonal na unlapi na gagamitin sa lahat ng pangalan ng teybol';
-$string['dataroot'] = 'Direktoryo ng Datos';
-$string['datarooterror'] = 'Hindi matagpuan o malikha ang \'Direktoryo ng Datos\' na ibinigay mo.  Alin sa dalawa, iwasto mo ang landas o lumikha ng direktoryo nang mano-mano.';
+$string['dataroot'] = 'Bugsok ng Datos';
+$string['datarooterror'] = 'Hindi matagpuan o malikha ang \'Bugsok ng Datos\' na ibinigay mo.  Alin sa dalawa, iwasto mo ang landas o lumikha ng bugsok nang mano-mano.';
 $string['dbconnectionerror'] = 'Hindi kami makakonekta sa ibinigay mong datosan.  Pakitsek ang kaayusan ng iyong datosan.';
 $string['dbcreationerror'] = 'Nagka-error sa paglikha ng datosan.  Hindi malikha ang ibinigay na pangalan ng datosan nang may mga ibinigay na  kaayusan';
 $string['dbpass'] = 'Kontrasenyas';
@@ -76,13 +76,13 @@ Kung ang web site mo ay mapapasok sa pamamagitan ng maraming URL piliin ang
 pinakaangkop para sa mga mag-aaral mo.  Huwag lalagyan ng 
 slash sa dulo.</p>
 
-<p><b>Direktoryo ng Moodle:</b>
-Ibigay ang buong landas ng direktoryo sa iluluklok na ito
+<p><b>Bugsok ng Moodle:</b>
+Ibigay ang buong landas ng bugsok sa iluluklok na ito
 Tiyakin na ang malaki/maliit na titik ay wasto.</p>
 
-<p><b>Direktoryo ng Datos:</b>
-Kailangan mo ng pook kung saan puwedeng magsave ng inahon na file ang Moodle.  Ang
-direktoryong ito ay dapat na nababasa AT NASUSULATAN ng gumagamit na web server 
+<p><b>Bugsok ng Datos:</b>
+Kailangan mo ng pook kung saan puwedeng magsilid ng inahon na sako ang Moodle.  Ang
+bugsok na ito ay dapat na nababasa AT NASUSULATAN ng tagagamit na web server 
 (kadalasan ay \'nobody\' o \'apache\'), pero hindi ito dapat mapasok nang
 direkta sa pamamagitan ng web.</p>';
 $string['directorysettingshead'] = 'Pakikumpirma ang mga lokasyon ng iluluklok na Moodle';
@@ -94,18 +94,18 @@ slash sa dulo.
 <br />
 <br />
 
-<b>Direktoryo ng Moodle:</b>
-Ibigay ang buong landas ng direktoryo sa iluluklok na ito
+<b>Bugsok ng Moodle:</b>
+Ibigay ang buong landas ng bugsok sa iluluklok na ito
 Tiyakin na ang malaki/maliit na titik ay wasto.
 <br />
 <br />
-<b>Direktoryo ng Datos:</b>
-Kailangan mo ng pook kung saan puwedeng magsave ng inahon na file ang Moodle.  Ang
-direktoryong ito ay dapat na nababasa AT NASUSULATAN ng gumagamit na web server 
+<b>Bugsok ng Datos:</b>
+Kailangan mo ng pook kung saan puwedeng magsilid ng inahon na sako ang Moodle.  Ang
+bugsok na ito ay dapat na nababasa AT NASUSULATAN ng tagagamit na web server 
 (kadalasan ay \'nobody\' o \'apache\'), pero hindi ito dapat mapasok nang
 direkta sa pamamagitan ng web.';
-$string['dirroot'] = 'Direktoryo ng Moodle';
-$string['dirrooterror'] = 'Mukhang mali ang kaayusan ng \'Direktoryo ng Moodle\' - wala kaming matagpuang iluluklok na Moodle doon.  Inireset ang halaga sa ibaba.';
+$string['dirroot'] = 'Bugsok ng Moodle';
+$string['dirrooterror'] = 'Mukhang mali ang kaayusan ng \'Bugsok ng Moodle\' - wala kaming matagpuang iluluklok na Moodle doon.  Inireset ang halaga sa ibaba.';
 $string['download'] = 'Ilusong';
 $string['downloadlanguagebutton'] = 'Ilusong ang \"$a\" na pakete ng wika';
 $string['downloadlanguagehead'] = 'Ilusong ang pakete ng wika';
@@ -115,22 +115,22 @@ wikang ito.<br /><br />Kung hindi mo mailusong ang pakete ng wika, ang proseso n
 $string['environmenthead'] = 'Sinusuri ang kapaligiran mo...';
 $string['environmentsub'] = 'Sinusuri namin kung ang iba\'t-ibang piyesa ng sistema mo ay umaayon sa mga kinakailangan na sistema';
 $string['fail'] = 'Bigô';
-$string['fileuploads'] = 'Mga Inahon na File';
+$string['fileuploads'] = 'Mga Inahon na Sako';
 $string['fileuploadserror'] = 'Dapat ay buhay ito';
-$string['fileuploadshelp'] = '<p>Mukhang patay ang pag-aahon ng file sa server mo.</p>
+$string['fileuploadshelp'] = '<p>Mukhang patay ang pag-aahon ng sako sa server mo.</p>
 
 <p>Maaari pa ring iluklok ang Moodle, nguni\'t wala ang abilidad na ito, hindi
-   ka makakapag-ahon ng mga file ng kurso o ng mga bagong larawan para sa pagkakakilanlan ng tao.</p>
+   ka makakapag-ahon ng mga sako ng kurso o ng mga bagong larawan para sa pagkakakilanlan ng tagagamit.</p>
 
-<p>Para mabuhay ang pag-aahon ng file (ikaw o ang iyong administrador ng sistema) ay kailangang
-   iedit ang pangunahing php.ini na file sa iyong sistema at gawing \'1\' ang halaga 
+<p>Para mabuhay ang pag-aahon ng sako (ikaw o ang iyong administrador ng sistema) ay kailangang
+   iedit ang pangunahing php.ini na sako sa iyong sistema at gawing \'1\' ang halaga 
    ng kaayusang <b>file_uploads</b>.</p>';
 $string['gdversion'] = 'Bersiyon ng GD';
 $string['gdversionerror'] = 'Dapat ay may GD library para maproseso at makalikha ng mga larawan';
 $string['gdversionhelp'] = '<p>Mukhang hindi nakaluklok ang GD sa server mo.</p>
 
 <p>Ang GD ay isang library na kailangan ng PHP upang mapahintulutan ang Moodle na magproseso ng mga larawan
-   (tulad ng mga ikon ng pagkakakilanlan ng tao) at upang lumikha ng mga bagong larawan (tulad ng
+   (tulad ng mga ikon ng pagkakakilanlan ng tagagamit) at upang lumikha ng mga bagong larawan (tulad ng
    mga talaguhitan ng log).  Gagana pa rin ang Moodle kahit walang GD - hindi mo lamang magagamit
    ang mga katangiang ito.</p>
 
@@ -144,8 +144,8 @@ $string['globalsquoteshelp'] = '<p>Hindi inirerekomenda ang pagsasabay ng patay 
 
 <p>Ang iminumungkahing kaayusan ay <b>magic_quotes_gpc = On</b> at <b>register_globals = Off</b> sa inyong php.ini</p>
 
-<p>Kung wala kang pahintulot na baguhin ang php.ini mo, marahil ay maaari mong ilagay ang sumusunod na linya sa file na tinatawag na 
- .htaccess sa loob ng direktoryo mo ng Moodle:
+<p>Kung wala kang pahintulot na baguhin ang php.ini mo, marahil ay maaari mong ilagay ang sumusunod na linya sa sako na tinatawag na 
+ .htaccess sa loob ng bugsok mo ng Moodle:
 <blockquote>php_value magic_quotes_gpc On</blockquote>
 <blockquote>php_value register_globals Off</blockquote>
 </p>';
@@ -155,10 +155,10 @@ $string['langdownloadok'] = 'Matagumpay na nailuklok ang wikang \"$a\".  Ang kab
 $string['magicquotesruntimeerror'] = 'Dapat ay patay ito';
 $string['magicquotesruntimehelp'] = '<p>Ang magic quotes runtime ay dapat patayin para gumana ng maayos ang Moodle.</p>
 
-<p>Karaniwan ay off ito bilang umiiral ... tingnan ang kaayusan na <b>magic_quotes_runtime</b> sa inyong php.ini file.</p>
+<p>Karaniwan ay off ito bilang umiiral ... tingnan ang kaayusan na <b>magic_quotes_runtime</b> sa inyong sakong php.ini.</p>
 
-<p>Kung wala kang karapatang pasukin ang php.ini, baka maaari mong ilagay lang sumusunod na linya sa isang file
-   na tinatawag na .htaccess sa loob ng iyong direktoryo ng Moodle:
+<p>Kung wala kang karapatang pasukin ang php.ini, baka maaari mong ilagay lang sumusunod na linya sa isang sako
+   na tinatawag na .htaccess sa loob ng iyong bugsok ng Moodle:
    <blockquote>php_value magic_quotes_runtime Off</blockquote>
 </p>   
    ';
@@ -166,32 +166,33 @@ $string['memorylimiterror'] = 'Labis na mababa ang memory limit ng PHP ... maaar
 $string['memorylimithelp'] = '<p>Ang memory limit ng PHP para sa server mo ay kasalukuyang nakatakda sa $a.</p>
 
 <p>Maaaring magdulot ito ng mga problemang pangmemorya sa Moodle sa mga susunod na panahon, lalo na
-   kung marami kang binuhay na modyul at/o marami kang tao.</p>
+   kung marami kang binuhay na modyul at/o marami kang tagagamit.</p>
 
 <p>Iminumungkahi namin na isaayos mo ang PHP na may mas mataas na limit kung maaari, tulad ng 16M.
     May iba\'t-ibang paraan na magagawa kayo upang ito ay maiisakatuparan:</p>
 <ol>
 <li>Kunga maaari mong gawin, muling ikompayl ang PHP na may <i>--enable-memory-limit</i>.  
      Pahihintulutan nito ang Moodle na itakda ang memory limit sa sarili nito.</li>
-<li>Kung mapapasok mo ang iyong php.ini file, mababago mo ang <b>memory_limit</b> 
+<li>Kung mapapasok mo ang iyong sakong php.ini, mababago mo ang <b>memory_limit</b> 
     na kaayusan doon at gawin itong mga 16M.  Kung wala kang karapatang pasukin ito
     baka puwede mong hilingin sa administrador na gawin ito para sa iyo.</li>
-<li>Sa ilang PHP serve maaari kang lumikha ng isang .htaccess file sa direktoryo ng Moodle
+<li>Sa ilang PHP serve maaari kang lumikha ng isang sakong .htaccess sa bugsok ng Moodle
     na naglalaman ng linyang ito:
     <p><blockquote>php_value memory_limit 16M</blockquote></p>
     <p>Subali\'t sa ilang server ay pipigilin nito ang paggana ng <b>lahat</b> ng pahinang PHP 
-    (makakakita ka ng mga error kapag tumingin ka sa mga pahina) kaya\'t kakailanganin mong tanggalin ang .htaccess file.</p></li>
+    (makakakita ka ng mga error kapag tumingin ka sa mga pahina) kaya\'t kakailanganin mong tanggalin ang sakong .htaccess.</p></li>
 </ol>';
-$string['mysqlextensionisnotpresentinphp'] = 'Hindi isinaayos ang PHP na may MySQL extension para magawa nitong makipag-usap sa MySQL.  Pakitsek ang iyong php.ini file o muling ikompayl ang PHP.';
+$string['mysqlextensionisnotpresentinphp'] = 'Hindi isinaayos ang PHP na may MySQL extension para magawa nitong makipag-usap sa MySQL.  Pakitsek ang iyong sakong php.ini o muling ikompayl ang PHP.';
 $string['pass'] = 'Pasado';
 $string['phpversion'] = 'Bersiyon ng PHP';
-$string['phpversionerror'] = 'Ang pinakamababang bersiyon ng PHP na puwedeng gamitin ay 4.1.0';
-$string['phpversionhelp'] = '<p>Kinakailangan ng Moodle ang isang bersiyon ng PHP na kahit man lamang 4.1.0.</p>
-<p>Sa kasalukuyan ay pinatatakbo mo ang bersiyon $a</p>
-<p>Kailangan mong gawing bago ang PHP o lumipat sa isang host na may mas bagong bersiyon ng PHP!</p>';
+$string['phpversionerror'] = 'Ang pinakamababang bersiyon ng PHP na puwedeng gamitin ay 4.3.0 o 5.1.0 (ang 5.0.x ay maraming problema)';
+$string['phpversionhelp'] = '<p>Kinakailangan ng Moodle ang isang bersiyon ng PHP na kahit man lamang 4.3.0. o 5.1.0 (ang 5.0.x ay maraming problema)</p>
+<p>Sa kasalukuyan ay pinatatakbo mo ang bersiyong $a</p>
+<p>Kailangan mong gawing bago ang PHP o lumipat sa isang host na may mas bagong bersiyon ng PHP!<br />(Sa kaso ng 5.0.x ay maaari mo ring ibaba ang bersiyon sa 4.4.x)
+</p>';
 $string['safemodeerror'] = 'Maaaring magkaproblema ang moodle kung naka-ON ang safe mode';
 $string['safemodehelp'] = '<p>Maraming klase ng problema ang Moodle kapag naka-ON ang safe mode, isa rito
-   ay maaaring hindi ito mapahintulutang lumikha ng mga bagong file.</p>
+   ay maaaring hindi ito mapahintulutang lumikha ng mga bagong sako.</p>
    
 <p>Ang safe mode ay kadalasang binubuhay lamang ng mga paranoid na pampublikong web host, kaya kakailanganin
    mong humanap ng bagong web hosting na kumpanya para sa iyong site ng Moodle.</p>
@@ -200,7 +201,7 @@ $string['safemodehelp'] = '<p>Maraming klase ng problema ang Moodle kapag naka-O
 $string['sessionautostarterror'] = 'Dapat ay patay ito';
 $string['sessionautostarthelp'] = '<p>Kailangan ng Moodle ng session support at hindi ito gagana kung wala ito.</p>
 
-<p>Ang session ay mabubuhay sa php.ini file ... hanapin ang session.auto_start na parameter.</p>';
+<p>Ang session ay mabubuhay sa sakong php.ini ... hanapin ang session.auto_start na parameter.</p>';
 $string['skipdbencodingtest'] = 'Lagpasan ang Pagsubok sa DB Encoding';
 $string['welcomep10'] = '$a->installername ($a->installerversion)';
 $string['welcomep20'] = 'Nakikita mo ang pahinang ito dahil matagumpay mong nailuklok at napagana ang paketeng <strong>$a->packname $a->packversion</strong> sa iyong kompyuter.  Maligayang bati!';

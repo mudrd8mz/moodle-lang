@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006050500)
+      // enrol_authorize.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['adminacceptccs'] = 'Aling uri ng credit card ang tatanggapin?';
@@ -7,10 +7,12 @@ $string['adminauthorizeccapture'] = 'Kaayusan ng Rebyu ng Order & Scheduled-Capt
 $string['adminauthorizeemail'] = 'Kaayusan ng Pagpapadala ng Email';
 $string['adminauthorizesettings'] = 'Kaayusan ng Authorize.net';
 $string['adminauthorizewide'] = 'Kaayusan na Pangkalahatang-Site';
-$string['adminavs'] = 'Tsekan ito kung pinagana mo ang Address Verification System (AVS) sa iyong akawnt ng authorize.net.  Mangangailangan ito ng mga pitak para sa address tulad ng kalye, estado, bansa at zip kapag sinulatan na ng tao ang porma para sa pagbabayad.';
+$string['adminavs'] = 'Tsekan ito kung pinagana mo ang Address Verification System (AVS) sa iyong akawnt ng authorize.net.  Mangangailangan ito ng mga pitak para sa address tulad ng kalye, estado, bansa at zip kapag sinulatan na ng tagagamit ang porma para sa pagbabayad.';
 $string['admincronsetup'] = 'Hindi pinatakbo ang pangmentinang iskrip na cron.php sa loob ng 24 oras. <br />Kailangang gumagana ang cron kung nais mong gamitin ang katangiang scheduled-capture.<br /><b>Buhayin</b> ang \'Authorize.net plugin\'at <b>isaayos ang cron</b> nang wasto; o <b>tanggalin muli ang tsek ng an_review</b> .<br />Kapag pinatay mo ang scheduled-capture, ang mga transaksiyon ay kakanselahin maliban na lamang kung rebyuhin mo ito sa loob ng 30 araw.
 <br />Tsekan ang <b>an_review</b> at ipasok ang <b>\'0\' sa an_capture_day</b> na pitak<br />kung nais mong tumanggap/tumanggi sa mga bayad nang <b>mano-mano</b> sa loob ng 30 araw.';
-$string['adminemailexpired'] = 'Magpadala ng mga email na babala sa mga admin kung ilang estado ng \'pinahintulutan/nakabimbin na capture\' na transaksiyon mayroon b>$a</b> araw ang nakalipas, bago mapasó ang mga transaksiyon. (0=patayin ang pagpapadala ng email, umiiral=2, maks=5)<br />Kapakipakinabang ito kung paganahin mo ang pag-capture nang manomano(an_review=may tsek, an_capture_day=0).';
+$string['adminemailexpired'] = 'Ito ay kapakipakinabang para sa \'Mano-manong-Pagcapture\'.
+Patatalastasan ang mga admin b>$a</b> araw bago mapasó ang mga transaksiyon.<br /> (0=patayin ang pagpapadala ng email, umiiral=2, maks=5)<br />
+(Kaayusan ng mano-manong pag-capture para sa pagpapadala ng email:  cron=buhay, an_review=may tsek, an_capture_day=0, an_emailexpired=1-5)';
 $string['adminhelpcapturetitle'] = 'Araw ng Scheduled-Capture';
 $string['adminhelpreviewtitle'] = 'Rebyu ng Order';
 $string['adminneworder'] = ' Mahal Naming Admin,
@@ -19,7 +21,7 @@ Nakatanggap ka ng bagong nakabimbin na order:
 
 ID ng Order : $a->orderid
 ID ng Transaksiyon: $a->transid
-Tao: $a->user
+Tagagamit: $a->user
 Kurso: $a->course
 Halaga: $a->amount
 
@@ -74,7 +76,7 @@ $string['chooseone'] = 'Punan ang isa o pareho sa sumusunod na dalawang pitak';
 $string['cutofftime'] = 'Oras ng Cut-Off ng Transaksiyon.  Kung kailan aayusin ang huling transaksiyon para matapos na ang pagbabayad.';
 $string['delete'] = 'Sirain';
 $string['description'] = 'Ang Authorize.net na modyul ay pinahihintulutan kang magsaayos ng may-bayad na kurso sa pamamagitan ng mga tagalako ng CC.  Kung ang halaga ng anumang kurso ay sero, ang mga mag-aaral ay hindi na sisingilin para makapasok.  May dalawang paraan ng pagsasaayos ng halaga ng kurso (1) pangbuong site na halaga na umiiral para sa buong site o (2) isang kaayusang pangkurso na itatakda mo para sa bawat kurso.  Nananaig ang halaga ng kurso sa halaga ng site.<br /><br /><b>Tandaan:</b> Kapag nagpasok ka ng susi sa pag-eenrol sa kaayusan ng kurso, ang mga mag-aaral ay may opsiyon ding mag-enrol sa pamamagitan ng susi. Kapakipakinabang ito kung magkahalo ang mag-aaral mong nagbabayad at walang bayad.';
-$string['enrolname'] = 'Gateway ng Authorize.net Credit Card ';
+$string['enrolname'] = 'Gateway ng Authorize.net Payment';
 $string['expired'] = 'Pasó na';
 $string['howmuch'] = 'Magkano?';
 $string['httpsrequired'] = 'Ikinalulungkot naming ipaalam sa inyo na hindi puwedeng iproseso ang kahilingan mo sa kasalukuyan.   Hindi maisaayos ang kompigurasyon ng site na ito.
@@ -94,7 +96,7 @@ $string['missingcvv'] = 'Nawawala ang numero na pamberipika';
 $string['missingzip'] = 'Nawawala ang postal code';
 $string['nameoncard'] = 'Pangalan sa card';
 $string['new'] = 'Bago';
-$string['noreturns'] = 'Walang solian!';
+$string['noreturns'] = 'Walang saulian!';
 $string['notsettled'] = 'Hindi pa tapos ang proseso ng pagbabayad';
 $string['orderid'] = 'ID ng Order';
 $string['paymentmanagement'] = 'Pamamahala ng Pagbabayad';

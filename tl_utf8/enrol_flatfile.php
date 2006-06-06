@@ -1,22 +1,22 @@
 <?PHP // $Id$ 
-      // enrol_flatfile.php - created with Moodle 1.7 dev (2006050500)
+      // enrol_flatfile.php - created with Moodle 1.7 dev (2006050501)
 
 
-$string['description'] = 'Ang paraang ito ay paulit-ulit na tsetsekin at ipoproseso ang isang tekstong file na may espesyal na anyo, sa lokasyon na itinakda mo.  
-Ang file na ito ay file na pinaghihiwalay ng kuwit ang laman, na inaakalang may apat o anim na pitak sa bawat linya:
+$string['description'] = 'Ang paraang ito ay paulit-ulit na tsetsekin at ipoproseso ang isang tekstong sako na may espesyal na anyo, sa lokasyon na itinakda mo.  
+Ang sako na ito ay sako na pinaghihiwalay ng kuwit ang laman, na inaakalang may apat o anim na pitak sa bawat linya:
 
 <pre>
-* operasyon, papel, numero-na-id(tao), numero-na-id(tao) [, simulang-oras, katapusang-oras]
+* operasyon, papel, numero-na-id(tagagamit), numero-na-id(kurso) [, simulang-oras, katapusang-oras]
 kung saan:
 * operasyon = add | del
 * papel = student | teacher | teacheredit
-* numero-na-id(tao) = numero-na-id sa teybol ng tao na NB hindi ang id
+* numero-na-id(tagagamit) = numero-na-id sa teybol ng tagagamit na NB hindi ang id
 * idnumber(course) = bilang na id sa teybol ng kurso na NB hindi ang id
 * simulang-oras = simulang oras (sa segundo simula epoch) - opsiyonal
 * katapusang-oras = katapusang oras (sa segundo simula epoch) - opsiyonal
 </pre>
 
-Ganito ang maaaring maging itsura ng file:
+Ganito ang maaaring maging itsura ng sako:
 
 <pre>
    add, student, 5, CF101
@@ -26,10 +26,11 @@ Ganito ang maaaring maging itsura ng file:
    del, student, 17, CF101
    add, student, 21, CF101, 1091115000, 1091215000
 </pre>';
-$string['filelockedmail'] = 'Ang tekstong file na ginagamit mo para sa pag-eenrol na nakabatay sa file ($a) ay hindi mabura ng prosesong cron.  Kadalasan ay nangangahulugan ito na ang mga permiso nito ay malî.  Pakiayos po ang mga permiso upang mabura ng Moodle ang file, kundi ay maaari itong maproseso nang paulit-ulit.';
-$string['filelockedmailsubject'] = 'Mahalagang error: File sa pag-eenrol';
-$string['location'] = 'Lokasyon ng file';
+$string['enrolname'] = 'Flat na sako';
+$string['filelockedmail'] = 'Ang tekstong sako na ginagamit mo para sa pag-eenrol na nakabatay sa sako ($a) ay hindi mabura ng prosesong cron.  Kadalasan ay nangangahulugan ito na ang mga permiso nito ay malî.  Pakiayos po ang mga permiso upang mabura ng Moodle ang sako, kundi ay maaari itong maproseso nang paulit-ulit.';
+$string['filelockedmailsubject'] = 'Mahalagang error: Sako sa pag-eenrol';
+$string['location'] = 'Lokasyon ng sako';
 $string['mailadmin'] = 'Patalastasan ang admin sa email';
-$string['mailusers'] = 'Patalastasan ang mga tao sa email';
+$string['mailusers'] = 'Patalastasan ang mga tagagamit sa email';
 
 ?>
