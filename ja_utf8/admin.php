@@ -212,6 +212,7 @@ $string['pathtopsqldesc'] = 'あなたのシステムに、1つ以上のpsqlが�
 $string['pathtopsqlinvalid'] = 'psqlのパスが正しくありません - パスが間違っているか、実行可能ではありません。';
 $string['pgcluster'] = 'PostgreSQLクラスタ';
 $string['pgclusterdescription'] = 'コマンドライン処理のためのPostgreSQLバージョン/クラスタパラメータです。あなたのシステムに1つのPostgreSQLのみある場合、またはこの設定が分からない場合は、空白にしてください。';
+$string['php50restricted'] = 'PHP 5.0.x には数多くの既知の問題があります。5.1.x にアップグレードするか、4.3.x または 4.4.x にダウングレードしてください。';
 $string['pleaseregister'] = 'このボタンを消すには、あなたのサイトを登録してください。';
 $string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細情報は、<a target=\"_new\" href=\"$a\">オンラインリリースノート</a>をご覧ください。';
 $string['remotelangnotavailable'] = 'Moodleがmoodle.orgに接続できないため、自動的に言語パックのインストールを行うことができません。適切なzipファイルを下記のリンクより手動でダウンロードして、$a ディレクトリにコピーおよびunzipしてください。';

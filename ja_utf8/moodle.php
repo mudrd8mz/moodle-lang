@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006052400)
+      // moodle.php - created with Moodle 1.7 dev (2006060400)
 
 
 $string['action'] = '操作';
@@ -1042,6 +1042,7 @@ $string['restorecancelled'] = 'リストアがキャンセルされました。'
 $string['restorecoursenow'] = 'このコースをリストアする!';
 $string['restorefinished'] = 'リストアが完了しました。';
 $string['restoreto'] = 'リストア';
+$string['restricted'] = '使用禁止';
 $string['restrictmodules'] = '活動モジュールを制限しますか?';
 $string['returningtosite'] = 'アカウントをお持ちの方ですか?';
 $string['revert'] = 'クリア';
