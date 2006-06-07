@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006050501)
+      // forum.php - created with Moodle 1.7 dev (2006060400)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加';
@@ -41,7 +41,7 @@ $string['deletedpost'] = '投稿が削除されました。';
 $string['deletedposts'] = '投稿が削除されました。';
 $string['deletesure'] = 'この投稿を削除してもよろしいですか?';
 $string['deletesureplural'] = 'この投稿およびすべての返信を削除してもよろしいですか? ( 投稿数 $a )';
-$string['digestmailheader'] = 'これは、 $a->sitename フォーラムに投稿された内容のデイリーダイジェストです。メールアドレスを変更する場合は、 $a->userprefs にて設定してください。 ';
+$string['digestmailheader'] = 'これは、 $a->sitename フォーラムに投稿された内容のデイリーダイジェストです。メールアドレスを変更する場合は、 $a->userprefs にて設定してください。';
 $string['digestmailprefs'] = 'ユーザプロフィール';
 $string['digestmailsubject'] = '$a: フォーラムダイジェスト';
 $string['digestsentusers'] = 'メールダイジェストが  $a 名のユーザに送信されました。';
@@ -81,7 +81,7 @@ $string['generalforum'] = '一般利用のための標準フォーラム';
 $string['generalforums'] = '総合フォーラム';
 $string['inforum'] = '$a';
 $string['intronews'] = 'ニュースとお知らせ';
-$string['introsocial'] = '投稿制限無しフォーラム';
+$string['introsocial'] = '投稿制限なしフォーラム';
 $string['introteacher'] = '教師専用フォーラム';
 $string['lastpost'] = '最新の投稿';
 $string['learningforums'] = '学習フォーラム';
@@ -161,7 +161,7 @@ $string['qandanotify'] = 'これはQ&Aフォーラムです。これらの質問
 $string['rate'] = '評価';
 $string['rating'] = '評価';
 $string['ratingeveryone'] = '誰でも投稿を評価できる';
-$string['ratingno'] = '評価無し';
+$string['ratingno'] = '評価なし';
 $string['ratingonlyteachers'] = '$a のみが投稿を評価できる';
 $string['ratingpublic'] = '$a は全員の評価を閲覧できる';
 $string['ratingpublicnot'] = '$a は自分の評価のみ閲覧できる';

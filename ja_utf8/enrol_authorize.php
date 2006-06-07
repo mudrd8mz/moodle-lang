@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006052400)
+      // enrol_authorize.php - created with Moodle 1.7 dev (2006060400)
 
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
@@ -85,7 +85,7 @@ $string['missingcvv'] = '郵便番号を入力してください。';
 $string['missingzip'] = 'カード名義を入力してください。';
 $string['nameoncard'] = 'クレジットカード名義';
 $string['new'] = 'New';
-$string['noreturns'] = '返金無し!';
+$string['noreturns'] = '返金なし!';
 $string['notsettled'] = '未確定';
 $string['orderid'] = '注文ID';
 $string['paymentmanagement'] = '支払い管理';

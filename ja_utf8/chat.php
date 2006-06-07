@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // chat.php - created with Moodle 1.7 dev (2006060400)
 
 
 $string['beep'] = 'ビープ';
@@ -46,7 +46,7 @@ $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'スケジュールセッションがありません。';
 $string['repeatdaily'] = '毎日同じ時間に';
-$string['repeatnone'] = '繰り返し無し - 指定した時間にのみ公開';
+$string['repeatnone'] = '繰り返しなし - 指定した時間にのみ公開';
 $string['repeattimes'] = 'セッションの繰り返し';
 $string['repeatweekly'] = '毎週同じ時間に';
 $string['savemessages'] = 'セッションの保存期間';

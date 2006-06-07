@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6 development (2006032200)
+      // scorm.php - created with Moodle 1.7 dev (2006060400)
 
 
 $string['advanced'] = '詳細設定';
@@ -59,7 +59,7 @@ $string['maximumattempts'] = '処理回数';
 $string['menubar'] = 'メニューバーを表示する';
 $string['min'] = '最小得点';
 $string['missing_attribute'] = 'タグ $a->tag に属性 $a->attr がありません';
-$string['missing_tag'] = 'タグ無し $a->tag';
+$string['missing_tag'] = 'タグなし $a->tag';
 $string['mode'] = 'モード';
 $string['modulename'] = 'SCORM/AICC';
 $string['modulenameplural'] = 'SCORM/AICC';
@@ -68,7 +68,7 @@ $string['next'] = '続ける';
 $string['no_attributes'] = 'タグ $a->tag にアトリビュートがありません';
 $string['no_children'] = 'タグ $a->tag に子タグがありません';
 $string['noactivity'] = '報告内容はありません。';
-$string['nolimit'] = '受験制限無し';
+$string['nolimit'] = '受験制限なし';
 $string['nomanifest'] = 'マニフェストファイルが見つかりませんでした';
 $string['noprerequisites'] = '申し訳ございません、あなたはこの学習オブジェクトにアクセスするための十分な必要条件に到達していません。';
 $string['noreports'] = '表示するレポートがありません';

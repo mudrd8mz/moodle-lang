@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7 dev (2006050500)
+      // glossary.php - created with Moodle 1.7 dev (2006060400)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -62,13 +62,13 @@ $string['deletingnoneemptycategory'] = '空でないカテゴリが削除され�
 $string['descending'] = '( 昇順 )';
 $string['destination'] = 'インポート先';
 $string['displayformat'] = '表示フォーマット';
-$string['displayformatcontinuous'] = '連続、著者無し';
+$string['displayformatcontinuous'] = '連続、著者なし';
 $string['displayformatdictionary'] = 'シンプル、辞書スタイル';
 $string['displayformatencyclopedia'] = '百科事典';
 $string['displayformatentrylist'] = 'エントリリスト';
 $string['displayformatfaq'] = 'FAQ';
 $string['displayformatfullwithauthor'] = 'フル、著者有り';
-$string['displayformatfullwithoutauthor'] = 'フル、著者無し';
+$string['displayformatfullwithoutauthor'] = 'フル、著者なし';
 $string['displayformats'] = '表示フォーマット';
 $string['displayformatssetup'] = '表示フォーマット設定';
 $string['duplicateentry'] = 'エントリの重複';
@@ -78,7 +78,7 @@ $string['editentry'] = 'エントリの編集';
 $string['editingcomment'] = 'コメントの編集';
 $string['entbypage'] = '1ページあたりのエントリ数';
 $string['entries'] = 'エントリ';
-$string['entrieswithoutcategory'] = 'カテゴリ無しのエントリ';
+$string['entrieswithoutcategory'] = 'カテゴリなしのエントリ';
 $string['entry'] = 'エントリ';
 $string['entryalreadyexist'] = 'エントリがすでに登録されています。';
 $string['entryapproved'] = 'エントリが承認されました。';
@@ -126,7 +126,7 @@ $string['nocomments'] = '(  このエントリにはコメントがありませ�
 $string['noconceptfound'] = '用語または定義が見つかりませんでした。';
 $string['noentries'] = 'このセクションにはエントリがありません。';
 $string['noentry'] = 'エントリが見つかりませんでした。';
-$string['notcategorised'] = 'カテゴリ無し';
+$string['notcategorised'] = 'カテゴリなし';
 $string['numberofentries'] = 'エントリ数';
 $string['onebyline'] = '( 1行あたり1件 )';
 $string['printerfriendly'] = '印刷モード';
@@ -135,7 +135,7 @@ $string['question'] = '質問';
 $string['rate'] = '評価';
 $string['rating'] = '評価';
 $string['ratingeveryone'] = '誰でもエントリを評価できる';
-$string['ratingno'] = '評価無し';
+$string['ratingno'] = '評価なし';
 $string['ratingonlyteachers'] = '$a のみがエントリを評価できる';
 $string['ratings'] = '評価';
 $string['ratingssaved'] = '評価が保存されました。';
@@ -162,7 +162,7 @@ $string['usedynalink'] = 'エントリを自動的にリンクする';
 $string['waitingapproval'] = '承認待ち';
 $string['warningstudentcapost'] = '( 用語集がメインで無い場合に適用 )';
 $string['withauthor'] = '用語 ( 著者有り )';
-$string['withoutauthor'] = '用語 ( 著者無し )';
+$string['withoutauthor'] = '用語 ( 著者なし )';
 $string['writtenby'] = '作成';
 $string['youarenottheauthor'] = 'あなたはこのコメントの投稿者ではありません。コメントの編集は許可されません。';
 

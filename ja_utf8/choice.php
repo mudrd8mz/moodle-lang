@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.7 dev (2006050501)
+      // choice.php - created with Moodle 1.7 dev (2006060400)
 
 
 $string['addmorechoices'] = '選択肢の追加';
@@ -13,7 +13,7 @@ $string['choicetext'] = '説明文';
 $string['displayhorizontal'] = '水平に表示';
 $string['displaymode'] = '表示モード';
 $string['displayvertical'] = '垂直に表示';
-$string['full'] = '( 制限無し )';
+$string['full'] = '( 制限なし )';
 $string['havetologin'] = '投票を行う前にログインしてください。';
 $string['limit'] = '投票可能回数';
 $string['limitanswers'] = '投票可能回数を制限する';

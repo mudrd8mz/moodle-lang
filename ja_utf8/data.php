@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006052400)
+      // data.php - created with Moodle 1.7 dev (2006060400)
 
 
 $string['action'] = '操作';
@@ -34,7 +34,7 @@ $string['csvimport'] = 'CSVファイルインポート';
 $string['date'] = '日付';
 $string['dateentered'] = '入力日時';
 $string['defaultfielddelimiter'] = '( デフォルトはカンマ )';
-$string['defaultfieldenclosure'] = '( デフォルトは無し )';
+$string['defaultfieldenclosure'] = '( デフォルトはなし )';
 $string['defaultsortfield'] = 'デフォルトのフィールド並び替え順';
 $string['delete'] = '削除';
 $string['deletecomment'] = '本当にこのコメントを削除してもよろしいですか?';
@@ -110,7 +110,7 @@ $string['noaccess'] = 'あなたはこのページにアクセスできません
 $string['nofieldindatabase'] = 'このデータベースにはフィールドが定義されていません。';
 $string['nolisttemplate'] = 'テンプレート一覧はまだ定義されていません。';
 $string['nomatch'] = '該当するエントリが見つかりませんでした!';
-$string['nomaximum'] = '最大数無し';
+$string['nomaximum'] = '最大数なし';
 $string['norecords'] = 'データベースにエントリがありません。';
 $string['nosingletemplate'] = '単一テンプレートはまだ定義されていません。';
 $string['number'] = '数値';
@@ -126,7 +126,7 @@ $string['radiobutton'] = 'ラジオボタン';
 $string['rate'] = '評価';
 $string['rating'] = '評価';
 $string['ratingeveryone'] = '誰でも投稿を評価できる';
-$string['ratingno'] = '評価無し';
+$string['ratingno'] = '評価なし';
 $string['ratingonlyteachers'] = '$a のみが投稿を評価できる';
 $string['ratingpublic'] = '$a は全員の評価を閲覧できる';
 $string['ratingpublicnot'] = '$a は自分の評価のみ閲覧できる';

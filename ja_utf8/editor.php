@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6 development (2006032200)
+      // editor.php - created with Moodle 1.7 dev (2006060400)
 
 
 $string['about'] = 'エディタに関して';
@@ -63,7 +63,7 @@ $string['lefttoright'] = '左→右';
 $string['linkproperties'] = 'リンク属性';
 $string['linktarget'] = 'ターゲット';
 $string['linktargetblank'] = '新しいウィンドウ';
-$string['linktargetnone'] = '無し';
+$string['linktargetnone'] = 'なし';
 $string['linktargetother'] = 'その他';
 $string['linktargetself'] = '同一フレーム';
 $string['linktargettop'] = '同一ウィンドウ';
@@ -109,7 +109,7 @@ $string['strikethrough'] = '打ち消し線';
 $string['subscript'] = '下付き文字';
 $string['superscript'] = '上付き文字';
 $string['textindicator'] = '現在のスタイル';
-$string['textmode'] = '現在テキストモードです。WYSIWYGモードに戻る場合は[<>]ボタンを押してください。 ';
+$string['textmode'] = '現在テキストモードです。WYSIWYGモードに戻る場合は[<>]ボタンを押してください。';
 $string['texttop'] = 'Texttop';
 $string['top'] = 'Top';
 $string['type'] = 'タイプ';

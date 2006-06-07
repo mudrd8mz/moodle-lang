@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 development (2006031600)
+      // auth.php - created with Moodle 1.7 dev (2006060400)
 
 
 $string['alternatelogin'] = 'ここにURLを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong>フィールドおよび<strong>password</strong>フィールドを適切にMoodleに渡す必要があります。<br />間違ったURLを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合は、空白のままにしてください。';
@@ -88,8 +88,8 @@ $string['auth_nntpdescription'] = 'ユーザ名とパスワードを確認する
 $string['auth_nntphost'] = 'NNTPサーバアドレスです。IPアドレスではなくドメイン名を使用してください。';
 $string['auth_nntpport'] = 'サーバポート ( 119が最も一般的です )';
 $string['auth_nntptitle'] = 'NNTPサーバを使用';
-$string['auth_nonedescription'] = 'ユーザはログインして外部サーバおよびメールによる認証無しにアカウントを直ちに作成できます。このオプションを使用するときは十分に注意してください - セキュリティーおよび管理上の問題が発生するかもしれないことを考えてください。';
-$string['auth_nonetitle'] = '認証無し';
+$string['auth_nonedescription'] = 'ユーザはログインして外部サーバおよびメールによる認証なしにアカウントを直ちに作成できます。このオプションを使用するときは十分に注意してください - セキュリティーおよび管理上の問題が発生するかもしれないことを考えてください。';
+$string['auth_nonetitle'] = '認証なし';
 $string['auth_pamdescription'] = 'この方式では、サーバのネイティブユーザ名にアクセスする手段としてPAMを使用します。このモジュールを使用するためには、<a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Authentication</a>がインストールされている必要があります。';
 $string['auth_pamtitle'] = 'PAM ( Pluggable Authentication Modules )';
 $string['auth_passwordisexpired'] = 'あなたのパスワードの有効期限が切れました。パスワードを変更しますか?';

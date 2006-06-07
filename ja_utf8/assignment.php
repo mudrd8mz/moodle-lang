@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6 development (2006032200)
+      // assignment.php - created with Moodle 1.7 dev (2006060400)
 
 
 $string['allowresubmit'] = '再提出を許可する';
@@ -19,7 +19,7 @@ $string['configitemstocount'] = 'オンライン課題でカウントする学�
 $string['configmaxbytes'] = 'すべての課題に関するデフォルト最大サイズ ( コース制限および他のローカル設定に従います )';
 $string['description'] = '詳細';
 $string['duedate'] = '終了日時';
-$string['duedateno'] = '提出期限無し';
+$string['duedateno'] = '提出期限なし';
 $string['early'] = '$a 早く提出';
 $string['editmysubmission'] = '提出課題を編集';
 $string['emailteachermail'] = '$a->username が「 $a->assignment 」の提出課題を更新しました。
@@ -32,7 +32,7 @@ $string['emailteachermailhtml'] = '$a->username が「 <i>$a->assignment</i> 」
 $string['emailteachers'] = '教師にメール通知する';
 $string['emptysubmission'] = 'あなたはまだ何も提出していません。';
 $string['existingfiledeleted'] = '登録済みファイルが削除されました: $a';
-$string['failedupdatefeedback'] = 'ユーザ $a のフィードバック更新に失敗しました ';
+$string['failedupdatefeedback'] = 'ユーザ $a のフィードバック更新に失敗しました';
 $string['feedback'] = 'フィードバック';
 $string['feedbackfromteacher'] = '$a のフィードバック';
 $string['feedbackupdated'] = '$a の参加者に対するフィードバックの更新';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006052400)
+      // lesson.php - created with Moodle 1.7 dev (2006060400)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -65,7 +65,7 @@ $string['dependencyon'] = '依存対象';
 $string['description'] = '説明';
 $string['detailedstats'] = '統計詳細';
 $string['didnotanswerquestion'] = 'この問題に答えていません。';
-$string['didnotreceivecredit'] = '承認無し';
+$string['didnotreceivecredit'] = '承認なし';
 $string['displayhighscores'] = 'ハイスコアの表示';
 $string['displayinleftmenu'] = '左メニューに表示しますか?';
 $string['displayleftif'] = '$a が次の評点より高い場合のみ表示:';
@@ -160,7 +160,7 @@ $string['nameapproved'] = '名前が承認されました。';
 $string['namereject'] = '申し訳ございません、あなたの名前はフィルタにより拒否されました。<br />別の名前をお使いください。';
 $string['nextpage'] = '次のページ';
 $string['noanswer'] = '解答がありません。戻って解答を送信してください。';
-$string['noattemptrecordsfound'] = '受験レコードが見つかりません: 評定無し';
+$string['noattemptrecordsfound'] = '受験レコードが見つかりません: 評定なし';
 $string['nocommentyet'] = 'コメントはありません。';
 $string['nocoursemods'] = '活動はありません。';
 $string['noessayquestionsfound'] = 'このレッスンには作文問題はありません。';
@@ -176,7 +176,7 @@ $string['normal'] = '通常 - レッスンパスに従う';
 $string['notcompleted'] = '未了';
 $string['notdefined'] = '未定義';
 $string['nothighscore'] = 'あなたはトップ $a ハイスコアリストに入りませんでした。';
-$string['notitle'] = 'タイトル無し';
+$string['notitle'] = 'タイトルなし';
 $string['numberofcorrectanswers'] = '正解数: $a';
 $string['numberofcorrectmatches'] = '正しいマッチ数: $a';
 $string['numberofpagestoshow'] = 'ページ ( カード ) の表示数';

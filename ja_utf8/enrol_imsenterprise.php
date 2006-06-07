@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // enrol_imsenterprise.php - created with Moodle 1.7 dev (2006060400)
 
 
 $string['aftersaving...'] = 'あなたの設定を保存した後、';
@@ -19,7 +19,7 @@ $string['filelockedmailsubject'] = 'インポートエラー: ユーザ登録フ
 $string['fixcasepersonalnames'] = '個人名をタイトル文字にする';
 $string['fixcaseusernames'] = 'ユーザ名を小文字に変更する';
 $string['location'] = 'ファイルロケーション';
-$string['logtolocation'] = 'ログファイルの出力場所 ( 空白はログ無し )';
+$string['logtolocation'] = 'ログファイルの出力場所 ( 空白はログなし )';
 $string['mailadmins'] = '管理者にメール通知する';
 $string['mailusers'] = 'ユーザにメール通知する';
 $string['miscsettings'] = 'その他';
@@ -30,6 +30,6 @@ $string['sourcedidfallback'] = '「userid」が見つからない場合、ユー
 $string['truncatecoursecodes'] = 'この長さにコースコードを切り詰める';
 $string['usecapitafix'] = '「Capita」を使用している場合、チェックしてください ( XMLフォーマットが若干間違っています )';
 $string['usersettings'] = 'ユーザデータオプション';
-$string['zeroisnotruncation'] = '表示 0、トランケーション 無し';
+$string['zeroisnotruncation'] = '表示 0、トランケーション なし';
 
 ?>

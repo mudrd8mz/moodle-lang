@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.6 development (2006030800)
+      // calendar.php - created with Moodle 1.7 dev (2006060400)
 
 
 $string['calendar'] = 'カレンダー';
@@ -14,7 +14,7 @@ $string['default'] = 'デフォルト';
 $string['deleteevent'] = 'イベントの削除';
 $string['detailedmonthview'] = '詳細な月表示';
 $string['durationminutes'] = '期間 ( 分 )';
-$string['durationnone'] = '期間無し';
+$string['durationnone'] = '期間なし';
 $string['durationuntil'] = '終了日:';
 $string['editevent'] = 'イベントの編集';
 $string['errorbeforecoursestart'] = 'コースの開始日以前にはイベントを登録できません';
@@ -30,7 +30,7 @@ $string['eventendtime'] = '終了日時';
 $string['eventinstanttime'] = '時間';
 $string['eventkind'] = 'イベントの種類';
 $string['eventname'] = '名称';
-$string['eventnone'] = 'イベント無し';
+$string['eventnone'] = 'イベントなし';
 $string['eventrepeat'] = '繰り返し';
 $string['eventsfor'] = '$a イベント';
 $string['eventstarttime'] = '開始日時';
@@ -64,7 +64,7 @@ $string['preferences'] = '設定';
 $string['preferences_available'] = '個人設定';
 $string['repeateditall'] = '変更内容をすべての $a 繰り返しイベントに適用する。';
 $string['repeateditthis'] = '変更内容をこのイベントのみに適用する。';
-$string['repeatnone'] = '繰り返し無し';
+$string['repeatnone'] = '繰り返しなし';
 $string['repeatweeksl'] = '毎週、作成イベント数';
 $string['repeatweeksr'] = '件';
 $string['sat'] = '土';
