@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006050500)
+      // error.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['adminprimarynoedit'] = 'Hindi maaaring iedit ng iba ang pangunahing admin';

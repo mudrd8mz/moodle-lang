@@ -1052,6 +1052,7 @@ $string['restorecancelled'] = 'Binalewalâ ang Pagbabalik';
 $string['restorecoursenow'] = 'Ibalik na ang kursong ito!';
 $string['restorefinished'] = 'Matagumpay na nakumpleto ang pagbabalik';
 $string['restoreto'] = 'Ibalik sa';
+$string['restricted'] = 'Limitado';
 $string['restrictmodules'] = 'Lilimitahan ba ang mga modyul na aktibidad?';
 $string['returningtosite'] = 'Bumabalik ka ba sa site na ito?';
 $string['revert'] = 'Ipanumbalik';

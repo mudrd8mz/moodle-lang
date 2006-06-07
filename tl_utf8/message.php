@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.7 dev (2006050500)
+      // message.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['addcontact'] = 'Magdagdag ng kontak';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_course_list.php - created with Moodle 1.7 dev (2006050500)
+      // block_course_list.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['allcourses'] = 'Nakikita ng tagagamit na Admin ang lahat ng kurso';

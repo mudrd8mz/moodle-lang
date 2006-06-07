@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006050500)
+      // forum.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['addanewdiscussion'] = 'Magdagdag ng bagong paksang pag-uusapan';

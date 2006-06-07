@@ -113,6 +113,7 @@ $string['createfirst'] = 'Kailangan mo munang lumikha ng maikling-sagot na tanon
 $string['createmultiple'] = 'Magdagdag ng ilang random na tanong sa pagsusulit';
 $string['createnewquestion'] = 'Lumikha ng bagong tanong';
 $string['custom'] = 'Pasadyang anyo';
+$string['dataitemneed'] = 'Kakailanganin mong magdagdag ng kahit man lamang isang set ng mga aytem na datos upang makakuha ng tanggap na tanong';
 $string['datasetdefinitions'] = 'Depinisyon ng datosset na magagamit mulî para sa kategoriyang $a';
 $string['datasetnumber'] = 'Numero';
 $string['daysavailable'] = 'Mga araw na puwedeng gamitin';

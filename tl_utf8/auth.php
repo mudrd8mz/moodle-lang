@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.7 dev (2006050500)
+      // auth.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['alternatelogin'] = 'Kapag nagpasok ka ng URL dito, gagamitin ito bilang pahinang panglagda para sa site na ito.  Dapat maglaman ang pahina ng isang porma na ang action property ay nakatakda sa <strong>\'$a\'</strong> at mga  return field na <strong>bansag</strong> at <strong>kontrasenyas</strong>.<br />Ingatan na huwag makapagpasok ng maling URL, kundi\'y masasarhan kayo ng site na ito.<br />Iwanang blangko ang kaayusang ito upang gamitin ang umiiral na pahinang panglagda.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 dev (2006050500)
+      // scorm.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['advanced'] = 'Abante';
@@ -8,7 +8,7 @@ $string['attempts'] = 'mga pagkuha';
 $string['attr_error'] = 'Masamang halaga para sa attribute na ($a->attr) sa tag na $a->tag.';
 $string['autocontinue'] = 'Kusang-Pagpapatuloy';
 $string['averageattempt'] = 'Katamtamang pagkuha';
-$string['badmanifest'] = 'Ilang manifest error: tingnan ang log ng mga error';
+$string['badmanifest'] = 'Ilang error sa manipesto: tingnan ang log ng mga error';
 $string['browse'] = 'Silipin';
 $string['browsed'] = 'Natingnan';
 $string['browsemode'] = 'Patingin na Moda';
@@ -29,7 +29,7 @@ $string['expcoll'] = 'Palawakin/Paliitin';
 $string['failed'] = 'Bigô';
 $string['firstaccess'] = 'Unang pagpasok';
 $string['firstattempt'] = 'Unang pagkuha';
-$string['found'] = 'Natagpuan ang manifest';
+$string['found'] = 'Natagpuan ang manipesto';
 $string['frameheight'] = 'Itinatakda ng mas-ibig na ito ang umiiral na taas ng kuwadro ng tanghalan o bintana';
 $string['framewidth'] = 'Itinatakda ng mas-ibig na ito ang umiiral na lapad ng kuwadro ng tanghalan o bintana';
 $string['fullscreen'] = 'Punuin ang buong iskrin';
@@ -41,8 +41,8 @@ $string['gradescoes'] = 'Sitwasyon ng mga SCO';
 $string['gradesum'] = 'Kabuuang marka';
 $string['height'] = 'Taas';
 $string['hidden'] = 'Nakatago';
-$string['hidebrowse'] = 'Patayin ang buton ng pansilip na moda';
-$string['hidenav'] = 'Itago ang mga butong pangnabigasyon';
+$string['hidebrowse'] = 'Patayin ang pasilip na moda';
+$string['hidenav'] = 'Itago ang mga buton na pangnabigasyon';
 $string['hidetoc'] = 'Displey ng balangkas ng kurso (TOC)';
 $string['highestattempt'] = 'Pinakamataas na pagkuha';
 $string['identifier'] = 'Pangkilala ng Tanong';
@@ -67,8 +67,8 @@ $string['no_attributes'] = 'Kailangang may mga attribute ang tag na $a->tag';
 $string['no_children'] = 'Kailangan ay may anak ang tag na $a->tag';
 $string['noactivity'] = 'Walang maiuulat';
 $string['nolimit'] = 'Walang hangganang pagkuha';
-$string['nomanifest'] = 'Hindi natagpuan ang manifest';
-$string['noprerequisites'] = 'Paumanhin subali\'t wala ka pang sapat na prerequisite para mapasok ang araling bagay na ito';
+$string['nomanifest'] = 'Hindi natagpuan ang manipesto';
+$string['noprerequisites'] = 'Paumanhin subali\'t wala ka pang sapat na panimulang kinakailangan para mapasok ang araling bagay na ito';
 $string['noreports'] = 'Walang ulat na maipapakita';
 $string['normal'] = 'Normal';
 $string['noscriptnoscorm'] = 'Hindi suportado ng browser mo ang javascript o patay ang suporta nito sa javascript.  Walang track na mairerekord.';
@@ -88,7 +88,7 @@ $string['popupopen'] = 'Buksan ang pakete sa bagong bintana';
 $string['position_error'] = 'Ang $a->tag na tag ay hindi maaaring maging anak ng $a->parent na tag';
 $string['prev'] = 'Nakaraan';
 $string['raw'] = 'Hilaw na iskor';
-$string['regular'] = 'Regular na Manifest';
+$string['regular'] = 'Regular na Manipesto';
 $string['report'] = 'Ulat';
 $string['resizable'] = 'Pahintulutan na mabago ang sukat ng bintana';
 $string['result'] = 'Resulta';
@@ -114,9 +114,9 @@ $string['trackingloose'] = 'Babalâ: Mawawala ang tracking data ng paketeng SCOR
 $string['type'] = 'Urî';
 $string['validateascorm'] = 'Suriin kung tanggap ang pakete';
 $string['validation'] = 'Resulta ng pagsusuri kung tanggap';
-$string['validationtype'] = 'Ang mas-ibig na ito ay itinatakda ang DOMXML library na ginagamit sa pagtiyak kung tanggap ang SCORM Manifest. Kung hindi mo alam kung ano ito, pabayaan ang pinilì na.';
+$string['validationtype'] = 'Ang mas-ibig na ito ay itinatakda ang DOMXML library na ginagamit sa pagtiyak kung tanggap ang Manipestong SCORM. Kung hindi mo alam kung ano ito, pabayaan ang pinilì na.';
 $string['value'] = 'Halaga';
-$string['versionwarning'] = 'Ang bersiyon ng manifest ay mas luma sa 1.3, babala sa $a->tag na tag';
+$string['versionwarning'] = 'Ang bersiyon ng manipesto ay mas luma sa 1.3, babala sa $a->tag na tag';
 $string['viewallreports'] = 'Tingnan ang mga ulat para sa $a na pagkuha';
 $string['whatgrade'] = 'Pagmamarka sa pagkuha';
 $string['width'] = 'Lapad';

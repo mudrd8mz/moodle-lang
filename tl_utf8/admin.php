@@ -93,7 +93,7 @@ $string['configrequestedstudentsname'] = 'Salita para sa mga mag-aaral na ginami
 $string['configrequestedteachername'] = 'Salita para sa guro na ginamit sa mga hiniling na kurso';
 $string['configrequestedteachersname'] = 'Salita para sa mga guro na ginamit sa mga hiniling na kurso';
 $string['configrestrictbydefault'] = 'Dapat ba\'y umiral ang paglimita sa mga modyul ng mga bagong kurso na nilikha, na napapaloob sa kategoriya sa itaas.';
-$string['configrestrictmodulesfor'] = 'Aling kurso ang dapat may <b>kaayusan</b> para sa pagpatay ng ilang modyul ng aktibidad?';
+$string['configrestrictmodulesfor'] = 'Aling kurso ang dapat may <b>kaayusan</b> para sa pagpatay ng ilang modyul ng aktibidad? Tandaan na ang kaayusang ito ay para lamang sa mga guro; ang mga administrador ay makapagdadagdag pa rin ng anumang aktibidad sa isang kurso.';
 $string['configrunclamonupload'] = 'Patatakbuhin ba ang clam AV sa tuwing may mag-ahon ng sako?   Kailangan mo ng wastong landas tungo sa pathtoclam upang gumana ito.  (Ang Clam AV ay isang libreng virus scanner na makukuha mo sa http://www.clamav.net/)';
 $string['configsectioninterface'] = 'Interpeys';
 $string['configsectionmail'] = 'Liham';
@@ -220,6 +220,7 @@ para sa command line operation.
 Kung iisa lamang ang postgresql
 sa sistema mo o hindi mo tiyak 
 kung ano ito, iwan na lamang itong blangko.';
+$string['php50restricted'] = 'Ang PHP 5.0.x ay maraming problema, itaas po ang bersiyon sa 5.1.x o ibaba sa 4.3.x o 4.4.x';
 $string['pleaseregister'] = 'Pakirehistro ang site mo para maalis ang buton na ito';
 $string['releasenoteslink'] = 'Para sa impormasyon tungkol sa bersiyon ng Moodle na ito, pakitingnan po ang online na <a target=\"_new\" href=\"$a\">Mga Talâ ng Lathala</a>';
 $string['remotelangnotavailable'] = 'Dahil hindi makakonekta sa download.moodle.org ay hindi kami makapagluklok ng pakete ng wika nang kusa.  Pakilusong ang angkop na (mga) sakong zip sa listahan sa ibaba, kopyahin ang mga ito sa iyong $a na bugsok at i-unzip ito nang mano-mano.';

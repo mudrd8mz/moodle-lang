@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.7 dev (2006050500)
+      // quiz_analysis.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['analysis'] = 'Pagsusuri ng aytem';

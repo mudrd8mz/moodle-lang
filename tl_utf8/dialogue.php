@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.7 dev (2006050500)
+      // dialogue.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['addmynewentries'] = 'Idagdag ang mga Bago kong Talâ';

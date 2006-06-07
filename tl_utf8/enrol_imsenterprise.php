@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.7 dev (2006050500)
+      // enrol_imsenterprise.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['allowunenrol'] = 'Pahintulutan ang datos ng IMS na <strong>magtanggal sa pagkakaenrol</strong> ng mga mag-aaral/guro';

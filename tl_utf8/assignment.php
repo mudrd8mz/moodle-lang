@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 dev (2006050500)
+      // assignment.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['allowresubmit'] = 'Pahintulutang maípasa mulî';

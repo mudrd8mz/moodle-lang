@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.7 dev (2006050500)
+      // enrol_ldap.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['description'] = '<p>Maaari kang gumamit ng LDAP server para makontrol ang pagpapaenrol mo.
@@ -62,7 +62,7 @@ $string['enrol_ldap_teacher_contexts'] = 'Listahan ng mga konteksto kung saan na
 $string['enrol_ldap_teacher_memberattribute'] = 'Kaayusan ng miyembro, kung ang tagagamit ay kabilang 
                                           (nakaenrol) sa isang grupo. Karaniwan ay \'member\'
                                           o \'memberUid\'.';
-$string['enrol_ldap_teacher_settings'] = 'Kaayusan ng pageenrol ng guro';
+$string['enrol_ldap_teacher_settings'] = 'Kaayusan ng pag-eenrol ng guro';
 $string['enrol_ldap_template'] = 'Opsiyonal: ang mga kusang-nilikhang kurso ay makokopya 
                                   ang kaayusan nila sa isang padron na kurso.';
 $string['enrol_ldap_updatelocal'] = 'Baguhin ang lokal na datos';

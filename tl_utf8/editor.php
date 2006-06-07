@@ -1,10 +1,8 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.7 dev (2006050500)
+      // editor.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['about'] = 'Hinggil sa editor na ito';
-$string['absbottom'] = 'Absbottom';
-$string['address'] = 'Address';
 $string['alertnoselectedtext'] = 'Kailangan mo munang pumili ng teksto!';
 $string['alignment'] = 'Pagkakahanay';
 $string['alternatetext'] = 'Alternatibong teksto';
@@ -75,7 +73,6 @@ $string['path'] = 'Landas';
 $string['percent'] = 'Bahagdan';
 $string['pixels'] = 'Mga Piksel';
 $string['popupeditor'] = 'Palakihin ang Editor';
-$string['preformatted'] = 'Preformatted';
 $string['preview'] = 'Silipin';
 $string['properties'] = 'Mga Katangian';
 $string['redo'] = 'Ulitin ang huli mong ginawa';

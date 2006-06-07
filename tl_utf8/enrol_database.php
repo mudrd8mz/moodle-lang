@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.7 dev (2006050500)
+      // enrol_database.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['autocreate'] = 'Maaring likhain nang kusa ang mga kurso kung may nag-enrol na sa isang kurso na hindi pa nalilikha sa Moodle.';

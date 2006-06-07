@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_glossary_random.php - created with Moodle 1.7 dev (2006050500)
+      // block_glossary_random.php - created with Moodle 1.7 dev (2006050501)
 
 
 $string['addentry'] = 'Idagdag ang inyong mga paboritong sipi!';
