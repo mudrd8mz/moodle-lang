@@ -5,7 +5,7 @@ $string['modulename'] = 'SCORM/AICC';
 $string['modulenameplural'] = 'SCORMs/AICCs';
 #------------------------------------------------------------
 
-$string['advanced'] = 'Avancé';
+$string['advanced'] = 'Paramètres';
 $string['asset'] = 'Élément';
 $string['attempt'] = 'tentative';
 $string['attempts'] = 'tentatives';
@@ -41,7 +41,7 @@ $string['general'] = 'Généralités';
 $string['gradeaverage'] = 'Note moyenne';
 $string['gradehighest'] = 'Note la plus haute';
 $string['grademethod'] = 'Méthode de notation';
-$string['gradescoes'] = 'Situation des SCOs';
+$string['gradescoes'] = 'Objets d\'apprentissage';
 $string['gradesum'] = 'Note totale';
 $string['height'] = 'Hauteur';
 $string['hidden'] = 'Invisible';
