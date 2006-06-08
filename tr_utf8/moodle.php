@@ -878,6 +878,7 @@ $string['nopotentialadmins'] = 'Olası yönetici yoktur';
 $string['nopotentialcreators'] = 'Olası kurs açıcı yoktur';
 $string['nopotentialstudents'] = 'Olası öğrenci yoktur';
 $string['nopotentialteachers'] = 'Olası eğitimci yoktur';
+$string['norecentactivity'] = 'Şu an etkinlik yok';
 $string['noreplybouncemessage'] = 'Geri yanıt e-posta adresi olmayan bir mesaja cevap verdiniz. Bir forum mesajına yanıt yazmaya çalışıyorsanız $a forumlarını kullanarak yanıt veriniz.
 
 Mesajınızın içeriği aşağıdadır:';

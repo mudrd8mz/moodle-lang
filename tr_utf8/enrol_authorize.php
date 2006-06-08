@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006050501)
+      // enrol_authorize.php - created with Moodle 1.6 Beta 5 (2006050503)
 
 
 $string['adminacceptccs'] = 'Hangi kredi kartı tipleri kabul edilecek?';
@@ -73,7 +73,7 @@ $string['chooseone'] = 'Aşağıdaki iki alandan birini veya ikisini doldurun';
 $string['cutofftime'] = 'Hesap Kesim Zamanı. En son işlem ne zaman karara bağlanacak?';
 $string['delete'] = 'Sil';
 $string['description'] = 'Authorize.net modülü Kredi Kartı sağlayıcılarıyla ücretli kurslar ayarlamanıza olanak verir. Bir kursun ücreti sıfır ise öğrencilere ödeme yapmaları için bir istekte bulunulmaz. Kurs ücretini iki şekilde ayarlayabilirsiniz. (1) Sitenin geneli için ayarlayabileceğiniz varsayılan bir tutar vardır ve ayrıca (2) her bir dersin ücretini tek tek de ayarlayabilirsiniz. Kurs ücreti ayarlanırsa site genelindeki ücret yoksayılır.<br /><br /><b>Not:</b> Kurs ayarlarında kayıt anahtarını girdiyseniz öğrenciler bu anahtara göre de kayıt olma seçeneğine sahip olabileceklerdir. Bu, öğrecilerden bazılarının ödeme yaparak bazılarının da kayıt anahtarına göre kayıt olmasını istiyorsanız kullanışlıdır.';
-$string['enrolname'] = 'Authorize.net Kredi Kartı Sağlayıcısı';
+$string['enrolname'] = 'Authorize.net Ödeme Sağlayıcısı';
 $string['expired'] = 'Süresi Dolmuş';
 $string['howmuch'] = 'Ne kadar?';
 $string['httpsrequired'] = 'Üzgünüz, isteğinizi şu anda yerine getiremiyoruz. Bu sitenin ayarı doğru yapılandırılmamış.
@@ -111,7 +111,7 @@ Zamanlanmış-çekmeyi etkinleştirmek için:
 
 $a->enrolurl';
 $string['reason11'] = 'Aynı işlem gönderildi.';
-$string['reason13'] = 'Mağaza Giriş ID hatalı veya hesap etkin değil';
+$string['reason13'] = 'Mağaza Giriş ID hatalı veya hesap etkin değil.';
 $string['reason16'] = 'İşlem bulunamadı.';
 $string['reason17'] = 'Mağaza, bu kredi kartı tipini kabul etmiyor.';
 $string['reason27'] = 'İşlem AVS hatasına sebep oldu. Verilen adres kart sahibinin adresiyle eşleşmiyor.';
@@ -121,10 +121,12 @@ $string['reason39'] = 'Verilen para birimi ya hatalı ya desteklenmiyor ya bu ma
 $string['reason43'] = 'Mağaza işleyiciyi hatalı yapılandırdı. Müşteri Hizmetlerini arayın.';
 $string['reason44'] = 'İşlem reddedildi. Kart kodu süzgeci hatası!';
 $string['reason45'] = 'İşlem reddedildi. Kart kodu / Adres süzgeci hatası!';
-$string['reason47'] = 'Faturalandırma için istenilen tutar orijinal provizyondaki miktardan fazla olamaz.';
+$string['reason47'] = 'Uzlaşma için istenen tutar orijinal provizyondaki miktardan fazla olamaz.';
 $string['reason5'] = 'Geçerli bir miktar gerekli.';
-$string['reason50'] = 'İşlem faturalandırma anlaşması beklediği için geri para iadesi yapılamaz.';
+$string['reason50'] = 'İşlem faturalandırma uzlaşması beklediği için geri para iadesi yapılamaz.';
+$string['reason51'] = 'Bu işleme karşı tüm geri ödemelerin toplamı orijinal işlem miktarından daha büyüktür.';
 $string['reason54'] = 'Referans gösterilen işlem geri ödeme şartlarına uymuyor.';
+$string['reason55'] = 'Referans edilen işleme karşı tüm geri ödemelerin toplamı orijinal borç miktarını aşıyor.';
 $string['refund'] = 'Geri Öde';
 $string['refunded'] = 'Geri Ödenmiş';
 $string['returns'] = 'Geri Ödemeler';
@@ -134,7 +136,7 @@ $string['sendpaymentbutton'] = 'Ödemeyi Yap';
 $string['settled'] = 'Uzlaşılmış';
 $string['settlementdate'] = 'Uzlaşma Tarihi';
 $string['subvoidyes'] = 'Geri ödenen $a->transid nolu işlem iptal edilecek ve hesabınıza $a->amount yüklenecek. Emin misiniz?';
-$string['tested'] = 'Denenmiş';
+$string['tested'] = 'Test edilmiş';
 $string['testmode'] = '[DENEME MODU]';
 $string['testwarning'] = 'Çekme/İptal Etme/Geri Ödeme deneme modunda çalışıyor görünüyor ama veritabanına kayıt eklenmedi/güncellenmedi.';
 $string['transid'] = 'İşlem ID';
