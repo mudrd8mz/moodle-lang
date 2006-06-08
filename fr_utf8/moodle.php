@@ -879,6 +879,7 @@ $string['nopotentialadmins'] = 'Aucun administrateur potentiel';
 $string['nopotentialcreators'] = 'Aucun responsable de cours potentiel';
 $string['nopotentialstudents'] = 'Aucun étudiant potentiel';
 $string['nopotentialteachers'] = 'Aucun enseignant potentiel';
+$string['norecentactivity'] = 'Aucune activité récente';
 $string['noreplyname'] = 'Merci de ne pas répondre à ce courriel';
 $string['noreplybouncemessage'] = 'Vous avez répondu à une adresse de courriel sans réponse. Si vous essayiez de répondre à un message d\'un forum, essayez plutôt d\'y répondre dans les forums de $a. '.'\n\n'.'Voici une copie de votre message :'.'\n\n';
 $string['noreplybouncesubject'] = '$a - message de rebond.';
