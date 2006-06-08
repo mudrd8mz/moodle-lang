@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // admin.php - created with Moodle 1.6 Beta 5 (2006050504)
 
 
 $string['adminseesallevents'] = 'Els administradors veuen tots els esdeveniments';
@@ -215,6 +215,7 @@ per a operacions de línia de comandament.
 Si només teniu un postgresql en el vostre
 sistema o no esteu segur de què significa
 això, deixeu el paràmetre en blanc.</pre>';
+$string['php50restricted'] = 'PHP 5.0 té alguns problemes coneguts. Actualitzeu-vos si us plau a 5.1.x o torneu a 4.3.x o 4.4.x';
 $string['pleaseregister'] = 'Registreu si us plau el vostre lloc per eliminar aquest botó';
 $string['releasenoteslink'] = 'Consulteu la informació sobre aquesta versió de Moodle en les <a target=\"_new\" href=\"$a\">Notes de llançament</a>';
 $string['remotelangnotavailable'] = 'Moodle no s\'ha pogut connectar a download.moodle.org i no ha pogut fer la instal·lació automàtica del paquet d\'idioma. Baixeu el fitxer o fitxers zip de la llista següent, copieu-los al directori $a i descomprimiu-los manualment.';

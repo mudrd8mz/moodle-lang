@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // data.php - created with Moodle 1.6 Beta 5 (2006050504)
 
 
 $string['action'] = 'Acció';
@@ -145,6 +145,7 @@ $string['resizingimages'] = 'S\'estan redimensionant les miniatures...';
 $string['rssglobaldisabled'] = 'Inhabilitat. Vegeu les variables de configuració del lloc.';
 $string['rsshowmany'] = '(número d\'entrades recents per mostrar; 0 per inhabilitar el RSS)';
 $string['rsstemplate'] = 'Plantilla RSS';
+$string['rsstitletemplate'] = 'Plantilla títol RSS';
 $string['save'] = 'Desa';
 $string['saveandadd'] = 'Desa i afegeix-ne un altre';
 $string['saveandview'] = 'Desa i visualitza';

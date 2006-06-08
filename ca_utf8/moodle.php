@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // moodle.php - created with Moodle 1.6 Beta 5 (2006050504)
 
 
 $string['action'] = 'Acció';
@@ -1051,6 +1051,7 @@ $string['restorecancelled'] = 'S\'ha cancel·lat la restauració';
 $string['restorecoursenow'] = 'Restaura aquest curs ara';
 $string['restorefinished'] = 'La restauració s\'ha completat amb èxit';
 $string['restoreto'] = 'Restaura en';
+$string['restricted'] = 'Restringit';
 $string['restrictmodules'] = 'Restringiu mòduls d\'activitat';
 $string['returningtosite'] = 'Esteu tornant a aquest lloc?';
 $string['revert'] = 'Torna';
