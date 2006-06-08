@@ -886,6 +886,7 @@ $string['nopotentialadmins'] = '潜在的な管理者は登録されていませ
 $string['nopotentialcreators'] = '潜在的なコース作成者は登録されていません。';
 $string['nopotentialstudents'] = '潜在的な学生は登録されていません。';
 $string['nopotentialteachers'] = '潜在的な教師は登録されていません。';
+$string['norecentactivity'] = '最近の活動はありません。';
 $string['noreplybouncemessage'] = 'あなたは no-reply アドレスにメール返信しました。フォーラムの投稿に返信したい場合は、メール返信する代わりにフォーラム $a で返信を投稿してください。
 
 あなたのメール本文は下記のとおりです:';
