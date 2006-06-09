@@ -1,19 +1,19 @@
 <?PHP // $Id$ 
-      // mimetypes.php - created with Moodle 1.7 dev (2006050300)
+      // mimetypes.php - created with Moodle 1.6 Beta 5 (2006050504)
 
 
 $string['application/msword'] = 'Dokument aplikace Word';
-$string['application/pdf'] = 'PDF dokument';
+$string['application/pdf'] = 'Dokument PDF';
 $string['application/vnd.ms-excel'] = 'Sešit aplikace Excel';
 $string['application/vnd.ms-powerpoint'] = 'Prezentace Powerpoint';
-$string['application/zip'] = 'ZIP archív';
-$string['audio/mp3'] = 'MP3 audio';
-$string['audio/wav'] = 'WAV audio';
+$string['application/zip'] = 'Archiv ZIP';
+$string['audio/mp3'] = 'Zvukový soubor MP3';
+$string['audio/wav'] = 'Zvukový soubor WAV';
 $string['document/unknown'] = 'soubor';
-$string['image/bmp'] = 'BMP obrázek (bez komprese)';
-$string['image/gif'] = 'GIF obrázek';
-$string['image/jpeg'] = 'JPEG obrázek';
+$string['image/bmp'] = 'Obrázek BMP (bez komprese)';
+$string['image/gif'] = 'Obrázek GIF';
+$string['image/jpeg'] = 'Obrázek JPEG';
 $string['text/plain'] = 'textový soubor';
-$string['text/rtf'] = 'RTF dokument';
+$string['text/rtf'] = 'Dokument RTF';
 
 ?>
