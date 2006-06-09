@@ -1,43 +1,43 @@
-<p style="text-align: center"><b>Pag-aaplowd ng mga user</b></p>
+<p style="text-align: center"><b>Pag-aahon ng mga tagagamit</b></p>
 
 <p>Una, tandaan na <strong>hindi naman talaga kailangang mag-angkat ng
-mga user nang lansakan</strong> - upang mabawasan ang gawain mo sa
+mga tagagamit nang lansakan</strong> - upang mabawasan ang gawain mo sa
 pagmementina, dapat ay pag-aralan mo muna ang ibang anyo ng pagsusuri ng
 pagkakakilanlan na hindi nangangailangan ng mano-manong pagsasaayos.
-Tulad ng pagkonekta sa yari nang panlabas na database o pagpapahintulot
-sa mga user na lumikha ng sarili nilang account.  Tingnan ang seksiyon
+Tulad ng pagkonekta sa yari nang panlabas na datosan o pagpapahintulot
+sa mga tagagamit na lumikha ng sarili nilang akawnt.  Tingnan ang seksiyon
 hinggil sa Pagtiyak sa Pagkakakilanlan sa mga pang-admin na
 menu. </p>
 
-<p>Kung talagang nais mong mag-angkat ng maramihang user account mula
-sa isang text file, kakailanganin mong ipormat ang text file mo ng
+<p>Kung talagang nais mong mag-angkat ng maramihang akawnt ng tagagamit mula
+sa isang sakong teksto, kakailanganin mong ipormat ang sakong teksto mo ng
 paganito: </p>
 
 <ul>
-  <li>Ang bawat linya sa file ay maglalaman ng isang rekord </li>
+  <li>Ang bawat linya sa sako ay maglalaman ng isang rekord </li>
   <li>Ang bawat rekord ay isang serye ng datos na pinaghihiwalay ng kuwit </li>
-  <li>Espesyal ang unang rekord ng file, at naglalaman ito ng listahan
-ng mga fieldname.  Ito ang nagtatakda sa format ng kabuuang file.
+  <li>Espesyal ang unang rekord ng sako, at naglalaman ito ng listahan
+ng mga ngalan ng pitak.  Ito ang nagtatakda sa pormat ng kabuuang sako.
     <blockquote>
 
-      <p><strong>Mga kinakailangang fieldname: </strong> ang mga field
+      <p><strong>Mga kinakailangang ngalan ng pitak: </strong> ang mga pitak
 na ito ay kailangang isama sa unang rekord, at bigyang kahulugan ayon sa
-bawat user </p>
+bawat tagagamit </p>
 
       <p>
       <font color="#990000" face="Courier New, Courier, mono">username,
 password, firstname, lastname, email</font></p> 
 
-      <p><strong>Mga default na fieldname:</strong> opsiyonal ang mga
+      <p><strong>Mga umiiral na ngalan ng pitak:</strong> opsiyonal ang mga
 ito - kapag hindi ito isinama, ang mga halaga ay kukunin sa pangunahing
 admin </p>
 
       <p><font color="#990000" face="Courier New, Courier,
 mono">institution, department, city, country, lang, auth, timezone</font> </p>
 
-      <p><strong>Mga opsiyonal na fieldname: </strong>ganap na opsiyonal
+      <p><strong>Mga opsiyonal na ngalan ng pitak: </strong>ganap na opsiyonal
 ang mga ito.  Ang mga pangalan ng kurso ay ang &quot;maiikling
-pangalan&quot; ng mga kurso - kung mayroon nito, ang user ay ieenrol
+pangalan&quot; ng mga kurso - kung mayroon nito, ang tagagamit ay ieenrol
 bilang mag-aaral sa mga kursong itinakda.  Ang mga pangalan ng pangkat
 ay dapat kaugnay ng angkop na kurso, a.b. group1 sa course1, atbp.
 </p>
@@ -49,32 +49,32 @@ ay dapat kaugnay ng angkop na kurso, a.b. group1 sa course1, atbp.
   <li>Ang mga kuwit sa loob ng datos ay kailangang iencode na &amp;#44 -
 awtomatikong idedecode ng iskrip ang mga ito pabalik sa kuwit. </li>
 
-  <li>Para sa mga Boolean na field, gumamit ng 0 para sa ditotoo at 1
+  <li>Para sa mga Boolean na pitak, gumamit ng 0 para sa ditotoo at 1
 para sa totoo. </li>
 
-<li>Ang mga type ay ginagamit para sabihin sa Moodle kung ang user ay mag-aaral o guro, kung may kaugnay itong kurso (hal. type2 ay kaugnay ng course2). 
+<li>Ang mga type ay ginagamit para sabihin sa Moodle kung ang tagagamit ay mag-aaral o guro, kung may kaugnay itong kurso (hal. type2 ay kaugnay ng course2). 
 1 = Mag-aaral, 2 = Nakapag-eedit na Guro, at 3 = Dinakapag-eedit na Guro. 
-Kapag iniwang blangko ang type, o kung walang kursong itinakda, ang default na user ay mag-aaral.
+Kapag iniwang blangko ang type, o kung walang kursong itinakda, ang umiiral na tagagamit ay mag-aaral.
  </li>
   <li>Para sa mga kurso, gamiting ang maikling pangalan ng kurso</li>
-  <li>Tala: Kung ang user ay nakarehistro na sa Moodle user database,
-ihuhudyat ng script ang userid na bilang (database index) ng user na
-iyon, at ieenrol ang user bilang mag-aaral sa anumang itinakdang kurso
+  <li>Tala: Kung ang tagagamit ay nakarehistro na sa tagagamit ng datosan ng Moodle,
+ihuhudyat ng iskrip ang userid na bilang (indeks ng datosan) ng tagagamit na
+iyon, at ieenrol ang tagagamit bilang mag-aaral sa anumang itinakdang kurso
 NANG HINDI binabago ang iba pang itinakdang datos. </li>
 
 </ul>
   
   
-<p>Halimbawa ng isang balidong file na pang-importa: </p> 
+<p>Halimbawa ng isang balidong sako na pang-angkat: </p> 
 <p><font size="-1" face="Courier New, Courier, mono">username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1, type1<br />
 jonest, verysecret, Tom, Jones, jonest@someplace.edu, en, 3663737, 1, Intro101, Section 1, 1<br />
 reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3, 3</font></p>
 
-<p align="center"><b>Paggawang bago sa mga kasalukuyang account</b></p>
+<p align="center"><b>Paggawang bago sa mga kasalukuyang akawnt</b></p>
 
-<p>Ang default na inaakala ng Moodle ay lilikha ka ng  bagong user account, at nilalagpasan nito ang mga rekord na ang username ay tumutugma sa isang kasalukuyang account.  Gayunpaman, kapag itinakda mo ang &quot;Gawing bago ang mga kasalukuyang account&quot; sa 
- <b>Oo</b>, gagawing bago ang kasalukuyang user account. </p>
+<p>Ang umiiral na inaakala ng Moodle ay lilikha ka ng  bagong akawnt ng tagagamit, at nilalagpasan nito ang mga rekord na ang bansag ay tumutugma sa isang kasalukuyang akawnt.  Gayunpaman, kapag itinakda mo ang &quot;Gawing bago ang mga kasalukuyang akawnt&quot; sa 
+ <b>Oo</b>, gagawing bago ang kasalukuyang akawnt ng tagagamit. </p>
 
-<p>Habang ginagawang bago ang mga kasalukuyang account, mababago mo rin ang mga username.  Itakda ang &quot;Pahintulutan ang pagbabago ng pangalan&quot; sa  <b>Oo</b> at isama sa file mo ang isang field na may pangalang <font color="#990000" face="Courier New, Courier, mono">oldusername</font>.</p>
+<p>Habang ginagawang bago ang mga kasalukuyang akawnt, mababago mo rin ang mga bansag.  Itakda ang &quot;Pahintulutan ang pagbabago ng pangalan&quot; sa  <b>Oo</b> at isama sa sako mo ang isang pitak na may pangalang <font color="#990000" face="Courier New, Courier, mono">oldusername</font>.</p>
 
-<p><b>Babala:</b> ang anumang error sa paggawang bago ng mga kasalukuyang account ay magkakaroon ng masamang epekto sa mga user mo. Mag-ingat sa paggamit ng mga opsiyon sa paggawang bago.</p>
+<p><b>Babala:</b> ang anumang error sa paggawang bago ng mga kasalukuyang akawnt ay magkakaroon ng masamang epekto sa mga tagagamit mo. Mag-ingat sa paggamit ng mga opsiyon sa paggawang bago.</p>

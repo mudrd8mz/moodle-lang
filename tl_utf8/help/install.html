@@ -25,14 +25,14 @@ pagtuturo!
   <p>Mga seksiyon ng dokumentong ito:</p>
   <ol>
     <li><a href="#requirements">Mga Kinakailangan</a></li>
-    <li><a href="#downloading">Ilusong at kopyahin ang mga file sa
+    <li><a href="#downloading">Ilusong at kopyahin ang mga sako sa
 wastong lugar</a> </li>
     <li><a href="#site">Balangkas ng site</a></li>
     <li><a href="#installer">Patakbuhin ang iskrip na pangluklok para makalikha ng config.php</a>      
         <ul>
         <li><a href="#webserver">Suriin ang kaayusan ng web server</a></li>
         <li><a href="#database">Paglikha ng datosan</a></li>
-        <li><a href="#data">Paglikha ng direktoryo ng datos</a></li>
+        <li><a href="#data">Paglikha ng bugsok ng datos</a></li>
         </ul>
     </li>
     <li><a href="#admin">Tumungo sa pahinang pang-admin para maipagpatuloy ang pagsasaayos</a></li>
@@ -63,7 +63,7 @@ target="_blank">MySQL</a> o <a href="http://www.postgresql.org/"
 target="_blank">PostgreSQL</a> ay ganap na sinusuportahan at
 inirerekomenda na gamitin sa Moodle.</li>
   </ol>
-  <p>Sinusuportahan ng karamihang web host ang lahat ng ito nang
+  <p>Sinusuportahan ng karamihang web host ang lahat ng ito na siyang 
 umiiral.  Kung naka-sign-up ka sa isa sa iilang webhosts na hindi
 sinusuportahan ang mga katangiang ito, tanongin mo sila kung bakit, at
 pag-isipan mong maghanap ng ibang web host.
@@ -80,25 +80,25 @@ plataporma.
 </blockquote>
 
 <h3 class="sectionheading"><a id="downloading" name="downloading"></a>2. Ilusong at
-kopyahin ang mga file sa wastong lugar </h3> <blockquote>
+kopyahin ang mga sako sa wastong lugar </h3> <blockquote>
   <p>May dalawang paraan sa pagkuha ng Moodle, bilang isang siniksik na
 pakete at sa pamamagitan ng CVS.  Ipinaliliwanag ito ng detalyado sa
 pahina na pinaglulusongan na:<a href="http://moodle.org/download/" 
 target="_blank">http://moodle.org/download/</a></p>
-  <p>Matapos ilusong at buklatin ang arkibo, o makuha ang mga file
-sa pamamagitan ng CVS, magkakaroon ka ng isang direktoryong may
-pangalang &quot;moodle&quot;, na naglalaman ng ilang file at folder.
+  <p>Matapos ilusong at buklatin ang arkibo, o makuha ang mga sako
+sa pamamagitan ng CVS, magkakaroon ka ng isang bugsok na may
+pangalang &quot;moodle&quot;, na naglalaman ng ilang sako at bugsok.
 </p>
-  <p>Maaari mong ilagay ang buong folder sa direktoryo ng &quot;web server
+  <p>Maaari mong ilagay ang buong bugsok sa bugsok ng &quot;web server
 document&quot; mo, kaya ang magiging lokasyon ng site ay
 <b>http://webservermo.com/moodle</b>, o puwede mong kopyahin ang lahat
-ng nilalaman sa punong direktoryo ng web server, kaya ang site ay
+ng nilalaman sa punong bugsok ng web server, kaya ang site ay
 magiging <b>http://webservermo.com</b>.</p>
   <p> Kung inilulusong mo ang Moodle sa lokal mong kompyuter bago mo
 ito iahon sa web site mo, mas mabuting iahon ang buong arkibo
-bilang isang file lamang, pagkatapos ay buklatin ito sa
+bilang isang sako lamang, pagkatapos ay buklatin ito sa
 server.  Kahit ang mga web hosting interface tulad ng Cpanel ay
-pinapahintulutan kang mag-uncompress ng mga arkibo sa  &quot;File
+pinapahintulutan kang magbuklat ng mga arkibo sa  &quot;File
 Manager&quot;. </p>
 
 </blockquote>
@@ -106,7 +106,7 @@ Manager&quot;. </p>
 <h3 class="sectionheading"><a id="site" name="site"></a>3. Balangkas ng site</h3>
 <blockquote>
   <p> Puwede mo nang laktawan ang seksiyong ito, gayunpaman narito ang
-mabilisang lagom ng mga nilalaman ng Moodle folder, para maging pamilyar
+mabilisang lagom ng mga nilalaman ng bugsok ng Moodle, para maging pamilyar
 ka sa program:</p>
 
   <blockquote>
@@ -114,7 +114,7 @@ ka sa program:</p>
       <td width="130" valign="top">config.php</td>
       <td valign="top">-</td>
       <td valign="top">
-naglalaman ng mga pangunahing kaayusan.  Hindi kasama sa Moodle ang file na
+naglalaman ng mga pangunahing kaayusan.  Hindi kasama sa Moodle ang sako na
 ito - kailangan mo itong likhain.</td>
     </tr>
       <tr>
@@ -126,7 +126,7 @@ config.php </td>
       <tr><td valign="top">version.php</td>
       <td valign="top">-</td>
       <td valign="top">
-binibigyang depinisyon ang kasalukuyang bersiyon ng Moodle code
+binibigyang depinisyon ang kasalukuyang bersiyon ng kodang Moodle
       </td></tr>
       <tr><td valign="top">index.php</td>
       <td valign="top">-</td>
@@ -135,28 +135,28 @@ ang pambungad na pahina ng site
       </td></tr></table>
     </p>
     <ul>
-      <li>admin/ - code para pamahalaan ang buong server</li>
-      <li>auth/ - mga plugin module para i-authenticate ang mga user
+      <li>admin/ - koda para pamahalaan ang buong server</li>
+      <li>auth/ - mga plugin module para sinuhin ang mga tagagamit
 </li>
       <li>blocks/ - mga plugin module para sa maliliit na bloke sa
 gilid sa iba't-ibang pahina</li>
-      <li>calendar/ - lahat ng code para sa pamamahala at pagdispley ng
+      <li>calendar/ - lahat ng koda para sa pamamahala at pagdispley ng
 kalendaryo</li>
-      <li>course/ - code para sa pagdispley at pamamahala ng mga kurso</li>
+      <li>course/ - koda para sa pagdispley at pamamahala ng mga kurso</li>
       <li>doc/ - tulong na dokumentasyon para sa Moodle (eg ang pahinang
 ito)</li>
-      <li>files/ - code para sa pagdispley at pamamahala ng mga inahon
-na file
+      <li>files/ - koda para sa pagdispley at pamamahala ng mga inahon
+na sako
 </li>
-      <li>lang/ - mga tekstong may sari-saring wika, isang direktoryo
+      <li>lang/ - mga tekstong may sari-saring wika, isang bugsok
 bawat wika</li>
-      <li>lib/ - mga library ng core na Moodle code</li>
-      <li>login/ - code para sa pag-handle ng lagda at paglikha ng
+      <li>lib/ - mga library ng pangunahing kodang Moodle</li>
+      <li>login/ - koda para sa pag-handle ng lagda at paglikha ng
 akawnt</li>
       <li>mod/ - lahat ng pangunahing Moodle course module ay naririto</li>
       <li>pix/ - generic na mga larawan ng site</li>
       <li>theme/ - pakete/balat ng tema para mabago ang itsura ng site.</li>
-      <li>user/ - code para magdispley at pamahalaan ang mga tao</li>
+      <li>user/ - koda para magdispley at pamahalaan ang mga tagagamit</li>
     </ul>
     <p>&nbsp;</p>
   </blockquote>
@@ -171,14 +171,14 @@ ang <strong>http://servermo/install.php</strong> nang direkta. </p>
 makakuha ka ng isang pop-up na babala sa browser mo, tiyakin na tanggapin
 ang cookie!) </p>
   <p>Makikita ng Moodle na kailangang isaayos ito, at dadalhin ka sa
-ilang iskrin na tutulong sa iyong lumikha ng bagong configuration file
+ilang iskrin na tutulong sa iyong lumikha ng bagong sako ng pagsasaayos 
 na may pangalang <strong>config.php. </strong> Sa katapusan ng proseso,
-tatangkain ng Moodle na isulat ang file sa tamang lokasyon, kundi man
+tatangkain ng Moodle na isulat ang sako sa tamang lokasyon, kundi man
 puwede mong pindutin ang isang buton para mailusong ito mula sa
-pangluklok, at pagkatapos ay iahon ang config.php sa punong Moodle
-direktoryo sa server.</p>
-  <p>Habang ginagawa ang mga ito, susubukin ng installer ang server
-environment mo at magmumungkahi ng paraan kung paano malulutas ang
+pangluklok, at pagkatapos ay iahon ang config.php sa punong bugsok ng Moodle
+ sa server.</p>
+  <p>Habang ginagawa ang mga ito, susubukin ng pangluklok ang kapaligiran ng server
+ mo at magmumungkahi ng paraan kung paano malulutas ang
 anumang suliranin.  Para sa karaniwang problema, sapat na ang mga
 mungkahing ito para malutas ang mga iyon, pero kung hindi malutas, tingnan mo sa
 ibaba ang iba pang impormasyon hinggil sa mga kadalasang nagbibigay sa
@@ -195,7 +195,7 @@ Pangkalahatang kaayusan ng web server
 index.php bilang umiiral na pahina (marahil ay kasama ng index.html,
 default.htm at iba pa).</p>
     <p>Sa Apache, magagawa ito sa pamamagitan ng DirectoryIndex na
-parameter sa inyong httpd.conf file. Ganito ang karaniwang itsura ng sa akin:
+parameter sa inyong sakong httpd.conf. Ganito ang karaniwang itsura ng sa akin:
 </p>
     <blockquote>
       <pre><strong>DirectoryIndex</strong> index.php index.html index.htm </pre>
@@ -209,11 +209,11 @@ unahan ng listahan, para sa kasinupan).
 
 <b>kung ginagamit mo ang Apache 2</b>, buhayin mo ang 
 <i>AcceptPathInfo</i> na baryabol, na nagpapahintulot sa mga iskrip na
-magpasa ng mga argument tulad ng http://server/file.php/arg1/arg2.
+magpasa ng mga argumento tulad ng http://server/file.php/arg1/arg2.
 Mahalaga ito para mapahintulutan ang mga relatibong link sa pagitan ng
 mga rekurso mo, at nagpapahusay sa paggamit ng mga tao sa Moodle web
 site mo.  Maaari mo itong buhayin sa pamamagitan ng pagdaragdag ng mga
-linyang ito sa httpd.conf file mo.
+linyang ito sa sakong httpd.conf mo.
 </p>
 
     <blockquote>
@@ -223,8 +223,8 @@ linyang ito sa httpd.conf file mo.
     <p>Pangatlo, kailangan ng Moodle na maging aktibo ang ilang PHP
 setting para gumana ito.  <b>Sa karamihang server ito na ang mga umiiral
 na setting.</b> Gayunpaman, may ilang PHP server (at ilang mas bagong
-bersiyon ng PHP) na iba ang setting.  Idini-define ito sa 
-configuration file ng PHP (na karaniwang tinatawag na php.ini):</p>
+bersiyon ng PHP) na iba ang setting.  Itinatakda ito sa 
+sako ng pagkakaayos ng PHP (na karaniwang tinatawag na php.ini):</p>
 
     <blockquote>
       <pre>magic_quotes_gpc = 1    (mas mabuti pero hindi kinakailangan)
@@ -239,8 +239,8 @@ Moodle mo ay nasa server na may ibang aplikasyon na nangangailangan ng
 ibang setting, hindi ito problema, maaari mong PANAIGAN ang mga
 umiiral na setting.
     </p>
-    <p>Para magawa ito, kailangan mong lumikha ng file na ang pangalan
-ay <b>.htaccess</b> sa punong direktoryo ng Moodle na naglalaman ng mga linya na katulad ng
+    <p>Para magawa ito, kailangan mong lumikha ng sako na ang pangalan
+ay <b>.htaccess</b> sa punong bugsok ng Moodle na naglalaman ng mga linya na katulad ng
 sumusunod.  Gagana lamang ito sa mga Apache server at tangi kung ang
 Overrides ay pinapahintulutan sa pangunahing kompigurasyon.
 </p>
@@ -260,7 +260,7 @@ php_flag session.auto_start 0
 php_flag session.bug_compat_warn 0</pre>
     </blockquote>
     <p>Maaari mo ring itakda ang maksimum na laki ng inaahon na
-file:
+sako:
         
 </p>
     <blockquote>
@@ -272,7 +272,7 @@ php_value post_max_size 2M
     </blockquote>
 
     <p> Ang pinakamadaling gawin ay kopyahin mo na lamang ang sampol na
-file sa <strong>lib/htaccess</strong> at iedit ito ayon sa iyong
+sako sa <strong>lib/htaccess</strong> at iedit ito ayon sa iyong
 pangangailangan.  May laman itong dagdag na panuto.  Halimbawa, sa isang
 Unix shell:
 
@@ -287,9 +287,9 @@ ng datosan</h3>
 
   <blockquote>
     <p>Kailangan mong lumikha ng walang laman na datosan
-(eg "<em>moodle</em>") sa sistemang datosan mo na may espesyal na tao
+(eg "<em>moodle</em>") sa sistemang datosan mo na may espesyal na tagagamit 
 (eg "moodleuser") na may karapatang pumasok sa datosan (at tanging datosan na
-yaon).  Maaari mong gamitin ang taong "root" kung gusto mo ng sinusubok na
+yaon).  Maaari mong gamitin ang tagagamit na "root" kung gusto mo ng sinusubok na
 server, pero hindi ito inirerekomenda para sa isang sistemang pamproduksiyon:
 Kapag natuklasan ng mga hacker ang kontrasenyas, hindi lamang ang isang
 datosan ang nasa panganib kundi ang buong sistemang datosan.
@@ -308,7 +308,7 @@ ka para sa paglikha ng datosan.
 ibang bagay) sa naaayong pitak at iklik ang &quot;<strong>Add
 User</strong>&quot;.</li>
       <li> Pagkatapos ay gamitin ang &quot;<strong>Add User to
-Database</strong>&quot; na buton para mabigyan ang bagong akawnt ng tao 
+Database</strong>&quot; na buton para mabigyan ang bagong akawnt ng tagagamit 
 na ito ng &quot;<strong>ALL</strong>&quot; na karapatan sa bagong
 datosan. </li>
       <li>Pansinin na ang bansag at ngalan ng datosan ay maaaring
@@ -341,49 +341,49 @@ binanggit sa itaas sa pamamagitan ng pagteklado ng mga command.
   <p>&nbsp;</p>
   
 <h3 class="sectionheading"><a id="data" name="data"></a>4.3 Paglikha ng
-direktoryo ng datos</h3>
+bugsok ng datos</h3>
   <blockquote>
     
 <p>Mangangailangan din ang Moodle ng espasyo sa hard disk ng server mo
-para mapag-imbakan ng mga inahon na file,  tulad ng mga dokumento para
-sa kurso at mga larawan ng user.</p>
- <p>Pipilitin ng Moodle installer na likhain ang direktoryong ito para
-sa iyo, pero kapag nabigo ito kailangan mong likhain ang direktoryo nang
+para mapag-imbakan ng mga inahon na sako,  tulad ng mga dokumento para
+sa kurso at mga larawan ng tagagamit.</p>
+ <p>Pipilitin ng pangluklok ng Moodle na likhain ang bugsok na ito para
+sa iyo, pero kapag nabigo ito kailangan mong likhain ang bugsok nang
 mano-mano.
 </p>
     <p>Para maingatan ang seguridad, mas mabuti na HUWAG gawing
-mapapasok nang direkta mula sa web ang direktoryong ito.  Ang
-pinakamadaling paraan para magawa ito ay ilagay ito sa LABAS ng direktoryong pangweb
-, pero kung kailangan mong ilagay ito sa direktoryong pangweb ay
-protektahan mo ito sa pamamagitan ng paglikha ng file sa direktoryo ng datos
+mapapasok nang direkta mula sa web ang bugsok na ito.  Ang
+pinakamadaling paraan para magawa ito ay ilagay ito sa LABAS ng bugsokng pangweb
+, pero kung kailangan mong ilagay ito sa bugsok na pangweb ay
+protektahan mo ito sa pamamagitan ng paglikha ng sako sa bugsok ng datos
 na tinatawag na .htaccess, na naglalaman ng sumusunod na linya:
 </p>
     <blockquote>
       <pre>deny from all</pre>
     </blockquote>
-    <p>Para matiyak na kaya ng Moodle na magsave ng inahon na file sa
-direktoryong ito, tingnan kung ang web server software (eg Apache) ay
-may permisong bumasa, sumulat at magpatakbo ng program sa direktoryong
+    <p>Para matiyak na kaya ng Moodle na magsilid ng inahon na sako sa
+bugsok na ito, tingnan kung ang web server software (eg Apache) ay
+may permisong bumasa, sumulat at magpatakbo ng program sa bugsok na
 ito.
 </p>
     <p>Sa mga makinang Unix, ang ibig sabihin nito ay ang pagseset ng
-may-ari ng direktoryo na tulad ng &quot;nobody&quot; o
-&quot;apache&quot;, at pagbibigay ng kinakailangang permiso ng user na ito upang
+may-ari ng bugsok na tulad ng &quot;nobody&quot; o
+&quot;apache&quot;, at pagbibigay ng kinakailangang permiso ng tagagamit na ito upang
 bumasa, sumulat at magpatakbo ng program. </p>
     <p>Sa Cpanel system, maaari mong gamitin ang &quot;File Manager&quot; 
-para mahanap ang folder, iklik ito, pagkatapos ay piliin ang 
+para mahanap ang bugsok, iklik ito, pagkatapos ay piliin ang 
 &quot;Change Permissions&quot;. Sa maraming pinagsasaluhang hosting
-server, marahil ay kailangan mong limitahan ang lahat ng file access sa
-"group" mo (upang maiwasan ang pagtingin o pagbabago ng mga file mo ng
+server, marahil ay kailangan mong limitahan ang lahat ng paggamit ng sako sa
+"group" mo (upang maiwasan ang pagtingin o pagbabago ng mga sako mo ng
 ibang kostumer ng webhost), pero bigyan mo ng ganap na karapatang bumasa/sumulat
-ang iba pa (na magpapahintulot sa web server na magamit ang file
+ang iba pa (na magpapahintulot sa web server na magamit ang sako
 mo).</p>
 
     <p>Makipag-usap ka sa administrador ng server mo, kung namomoroblema
 ka sa pagseset-up nito nang may sapat na seguridad.  Ang ilang site na gumagamit
 ng katangiang pang-PHP na tinatawag na &quot;Safe Mode&quot; ay maaaring
 <em>magtakda ng kondisyon</em> na tanging ang administrador ang makalilikha nang wasto
-ng direktoryong ito para sa iyo.</p>
+ng bugsok na ito para sa iyo.</p>
 
   </blockquote>
 
@@ -429,7 +429,7 @@ nagkaproblema sa datosan o sa configuration setting na itinakda sa
 config.php.  Tingnan kung ang PHP ay hindi nasa restricted na "Safe
 Mode" (minsan binubuhay ng mga komersiyal na web host ang safe mode).
 Maaari mong tsekin ang mga PHP variable sa pamamagitan ng paglikha ng
-maliit na file na naglalaman ng <strong>&lt;?php phpinfo()
+maliit na sako na naglalaman ng <strong>&lt;?php phpinfo()
 ?&gt;</strong> at pagtingin dito sa pamamagitan ng browser.  Suriin
 lahat ito at tangkain muli ang paggamit ng pahinang ito.
 </p>
@@ -445,7 +445,7 @@ SMTP host at iba pa.  Huwag kang mag-alala kung hindi mo magawa ang lahat
 ng gusto mo sa ngayon - maaari ka namang bumalik dito at iedit ang iba
 pang hindi mo naiayos sa pamamagitan ng pang-admin na interpeys.  Ang mga umiiral
 ay dinisenyo na maging kapakipakinabang at ligtas para sa karamihang site.
-Mag-scroll pababa at iklik ang &quot;Isave ang pagbabago&quot;.
+Mag-scroll pababa at iklik ang &quot;Isilid ang pagbabago&quot;.
 </p>
 
   <blockquote>
@@ -468,12 +468,12 @@ iba't-ibang modyul ng Moodle.  Tulad din ng nauna, dapat ay kulay
 para sa Moodle site at sa pambungad na pahina, tulad ng pangalan, anyo, 
 deskripsiyon at iba pa.  Punan ang mga kahon nito (puwede mong itong balikan
 anumang oras para baguhin), tapos ay pindutin ang 
-&quot;Isave ang mga pagbabago&quot;.</p>
+&quot;Isilid ang mga pagbabago&quot;.</p>
 
   <p>Bilang panghuli, hihilingin kang lumikha ng isang top-level na administrador
-na user para mapasok ang mga pahina ng admin.  Punan ang mga kinakailangang
+na tagagamit para mapasok ang mga pahina ng admin.  Punan ang mga kinakailangang
 detalye ng pangalan mo, email atbp., tapos ay iklik ang 
-&quot;Isave ang mga pagbabago&quot;. Hindi lahat ng pitak ay kailangan, pero
+&quot;Isilid ang mga pagbabago&quot;. Hindi lahat ng pitak ay kailangan, pero
 kapag may mahalagang pitak kang nakaligtaan, huhudyatan kang muli para sagutan
 ang mga ito.
   </p>
@@ -503,7 +503,7 @@ na &quot;<strong>admin</strong>&quot;, na may kontrasenyas na
   <p>Kapag nagtagumpay ka na, ibabalik ka sa tahanang pahina ng bago mong site!
 Pansinin mo ang mga link na pang-administrador sa may ibabang-kaliwa ng
 pahina (lumilitaw din ang mga aytem na ito sa hiwalay na pahinang pang-Admin) -
-nakikita mo lamang ang mga aytem na ito dahil nakalagda ka bilang taong admin.
+nakikita mo lamang ang mga aytem na ito dahil nakalagda ka bilang tagagamit na admin.
 Lahat nang iba pang pamamahalang ng Moodle na kakailanganin mo ay maaari nang
 gawin sa pamamagitan ng menung ito, tulad ng:
 </p>
@@ -511,7 +511,7 @@ gawin sa pamamagitan ng menung ito, tulad ng:
   <ul>
 
     <li>paglikha at pagbura ng mga kurso</li>
-    <li>paglikha at pag-edit ng mga akawnt ng tao</li>
+    <li>paglikha at pag-edit ng mga akawnt ng tagagamit</li>
     <li>pamamahala ng mga akawnt ng guro</li>
     <li>pagbabago ng mga setting na laganap sa buong site tulad ng tema atbp</li>
   </ul>
@@ -530,7 +530,7 @@ Moodle ang mga talakayan upang mai-email nito ang mga kopya ng post sa
 mga taong sumali.
 </p>
 
-  <p>Ang iskrip na gumagawa ng lahat ng ito ay nasa direktoryong admin,
+  <p>Ang iskrip na gumagawa ng lahat ng ito ay nasa bugsok na admin,
 at ang pangalan ay cron.php.  Kaya lamang, hindi nito kayang tumakbo sa
 sarili nito, kaya kailangan mong magsaayos ng mekanismo na magpapatakbo
 ng iskrip na ito nang regular (eg tuwing ikalima o ikasampung minuto).
@@ -646,9 +646,9 @@ command na ito:
     </blockquote>
     <p>Kadalasan, ipapasa ka ng "crontab" command sa 'vi' editor.
 Makakapasok ka sa "insert mode" sa pamamagitan ng pagpindot ng "i",
-tapos ay itype mo ang linya sa itaas, tapos ay lumabas sa insert mode sa
-pamamagitan ng pagpindot ng ESC.  Makapagse-save at makakalabas ka sa
-pamamagitan ng pagtype ng ":wq", o umayaw nang hindi nagse-save sa
+tapos ay itiklado mo ang linya sa itaas, tapos ay lumabas sa insert mode sa
+pamamagitan ng pagpindot ng ESC.  Makapagsisilid at makakalabas ka sa
+pamamagitan ng pagtiklado ng ":wq", o umayaw nang hindi nagsisilid sa
 pamamagitan ng ":q!" (alisin ang mga panipi).
 </p>
 
@@ -672,13 +672,13 @@ maaaring baguhin mamaya ng mga guro.  Tandaan na ang dilaw na ikon ng tulong
 ay nakakalat para magbigay ng nasa-kontekstong tulong sa anumang aspeto.
 </p>
 
-  <p>Pindutin ang &quot;Isave ang mga pagbabago&quot;, at ipapasa ka sa
+  <p>Pindutin ang &quot;Isilid ang mga pagbabago&quot;, at ipapasa ka sa
 isang bagong porma kung saan puwede kang magtakda ng guro sa kurso.
-Maaari mo lamang idagdag ang mga akawnt ng tao na mayroon na sa porma na
+Maaari mo lamang idagdag ang mga akawnt ng tagagamit na mayroon na sa porma na
 ito - kung gusto mong lumikha ng bagong akawnt ng guro, hilingin mo ang
 guro na lumikha ng akawnt para sa sarili niya (tingnan ang pahinang
 panglagda), o lumikha ng isa para sa kanila sa pamamagitan ng
-&quot;Magdagdag ng bagong user&quot; sa pahinang pang-Admin.
+&quot;Magdagdag ng bagong tagagamit&quot; sa pahinang pang-Admin.
 </p>
 
   <p>Pag natapos na ito, puwede nang lagyan ng pasadyang katangian ang
