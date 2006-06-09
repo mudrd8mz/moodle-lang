@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6 development (2005101200)
+      // hotpot.php - created with Moodle 1.6 Beta 5 (2006050503)
 
 
 $string['abandoned'] = 'Vazgeçildi';
@@ -68,6 +68,7 @@ $string['outputformat_v6_plus'] = 'v6+';
 $string['penalties'] = 'Cezalar';
 $string['questionshort'] = 'S-$a';
 $string['quiztype'] = 'Sınav tipi';
+$string['rawdetails'] = 'Ham uygulama ayrıntıları';
 $string['regrade'] = 'Tekrar notlandır';
 $string['regradecheck'] = '\"$a\" sınavını tekrar notlandırmak istediğinizden emin misiniz?';
 $string['regraderequired'] = 'Tekrar notlandırma gerekli';
@@ -85,20 +86,31 @@ $string['reportcontent'] = 'İçerik';
 $string['reportcorrectsymbol'] = 'O';
 $string['reportcoursename'] = 'Kurs adı';
 $string['reportevents'] = 'Olaylar';
+$string['reportexercisename'] = 'Uyg. adı';
+$string['reportexercisenumber'] = 'Uygulama';
+$string['reportexercisetype'] = 'Uyg. tipi';
 $string['reportformat'] = 'Biçim';
 $string['reportformatexcel'] = 'Excel';
 $string['reportformathtml'] = 'HTML';
 $string['reportformattext'] = 'Metin';
 $string['reporthints'] = 'İpucu';
+$string['reporthotpotscore'] = 'Hotpot puanı';
+$string['reportlegend'] = 'Simge';
 $string['reportlogindate'] = 'Giriş tarihi';
 $string['reportlogintime'] = 'Giriş zamanı';
 $string['reportlogofftime'] = 'Çıkış zamanı';
 $string['reportmaxscore'] = 'En yüksek not';
+$string['reportnottried'] = 'Denenmedi';
 $string['reportnottriedsymbol'] = '-';
+$string['reportnumberofquestions'] = 'Soru no';
+$string['reportpercentscore'] = 'Puan %%';
+$string['reportquestionstried'] = 'Denenen soru';
 $string['reportrawscore'] = 'Ham puan';
 $string['reportright'] = 'Doğru';
 $string['reportsectionnumber'] = 'Bölüm';
 $string['reportshowanswer'] = 'Cevapları göster';
+$string['reportshowlegend'] = 'Simgeyi göster';
+$string['reportsofar'] = 'Şu ana kadar $a';
 $string['reportstatus'] = 'Durum';
 $string['reportstudentid'] = 'Öğrenci ID';
 $string['reporttimerecorded'] = 'Yanıtlar kaydedildi';
