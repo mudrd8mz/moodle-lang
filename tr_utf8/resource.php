@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // resource.php - created with Moodle 1.6 Beta 5 (2006050503)
 
 
 $string['addresource'] = 'Kaynak ekle';
@@ -8,6 +8,15 @@ $string['browserepository'] = 'Ambara gözat';
 $string['choose'] = 'Seç';
 $string['chooseafile'] = 'Seç veya bir dosya yükle';
 $string['chooseparameter'] = 'Parametre seç';
+$string['configpopupdirectories'] = 'Açılır pencereler dizin bağlantılarını gösterecek mi?';
+$string['configpopupheight'] = 'Yeni açılır pencereler için varsayılan yükseklik ne olsun?';
+$string['configpopuplocation'] = 'Açılır pencereler adres çubuğunu gösterecek mi?';
+$string['configpopupmenubar'] = 'Açılır pencereler menü çubuğunu gösterecek mi?';
+$string['configpopupresizable'] = 'Açılır pencereler yeniden boyutlandırılabilecek mi?';
+$string['configpopupscrollbars'] = 'Açılır pencereler kaydırma çubuğuna izin verecek mi?';
+$string['configpopupstatus'] = 'Açılır pencereler durum çubuğunu göstrecek mi?';
+$string['configpopuptoolbar'] = 'Açılır pencereler araç çubuğunu gösterecek mi?';
+$string['configpopupwidth'] = 'Yeni açılır pencereler için varsayılan genişlik ne olsun?';
 $string['deploy'] = 'Yerleştir';
 $string['deployall'] = 'Tümünü yerleştir';
 $string['directlink'] = 'Bu dosyaya direkt link';
@@ -18,6 +27,8 @@ $string['emptyfolder'] = 'Boş klasör';
 $string['encryptedcode'] = 'Şifrelenmiş kod';
 $string['example'] = 'Örnek';
 $string['exampleurl'] = 'http://www.ornek.com/ornekdizin/dosya.html';
+$string['fetcherror'] = 'Web sayfası alınırken bir hata bulundu';
+$string['fetchservererror'] = 'Uzaktaki sunucudan bir web sayfası alınırken bir hata bulundu (muhtemelen program hatası)';
 $string['filename'] = 'Dosya adı';
 $string['filtername'] = 'Kaynak Adları Otomatik-Linkleme';
 $string['frameifpossible'] = 'Site navigasyonunu görünür kılmak için kaynak frame içinde görünsün';
