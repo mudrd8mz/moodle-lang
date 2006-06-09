@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6 development (2006030901)
+      // scorm.php - created with Moodle 1.6 Beta 5 (2006050503)
 
 
-$string['advanced'] = 'Gelişmiş';
+$string['advanced'] = 'Parametreler';
 $string['asset'] = 'Varlık';
 $string['attempt'] = 'uygulama';
 $string['attempts'] = 'uygulama';
@@ -16,7 +16,7 @@ $string['browsemode'] = 'Önizleme Modu';
 $string['chooseapacket'] = 'Seç veya bir paketi güncelle';
 $string['completed'] = 'Tamamlandı';
 $string['coursepacket'] = 'Kurs paketi';
-$string['coursestruct'] = 'Ders Yapısı';
+$string['coursestruct'] = 'Kurs yapısı';
 $string['datadir'] = 'Dosya sistemi hatası: Kurs veri klasörü oluşturulamadı.';
 $string['details'] = 'İzleme ayrıntıları';
 $string['directories'] = 'Dizin bağlantılarını göster';
@@ -31,18 +31,18 @@ $string['failed'] = 'Hata oluştu';
 $string['firstaccess'] = 'İlk erişim';
 $string['firstattempt'] = 'İlk uygulama';
 $string['found'] = 'Manifest bulundu';
-$string['frameheight'] = 'Bu seçenek ekranın varsayılan yüksekliğini ayarlar';
-$string['framewidth'] = 'Bu seçenek ekranın varsayılan genişliğini ayarlar';
+$string['frameheight'] = 'Bu seçenek sahnenin veya ekranın varsayılan yüksekliğini ayarlar';
+$string['framewidth'] = 'Bu seçenek sahnenin veya ekranın varsayılan genişliğini ayarlar';
 $string['fullscreen'] = 'Ekranın tamamını kapla';
 $string['general'] = 'Genel veri';
 $string['gradeaverage'] = 'Ortalama not';
 $string['gradehighest'] = 'En yüksek not';
 $string['grademethod'] = 'Not verme yöntemi';
-$string['gradescoes'] = 'Pylş.İçr.Nesn durumu';
+$string['gradescoes'] = 'Öğrenme Nesneleri';
 $string['gradesum'] = 'Notları topla';
 $string['height'] = 'Yükseklik';
 $string['hidden'] = 'Gizli';
-$string['hidebrowse'] = 'Önizleme modu etkin değil';
+$string['hidebrowse'] = 'Önizleme modunu pasifleştir';
 $string['hidenav'] = 'Gezinme düğmelerini gizle';
 $string['hidetoc'] = 'Kurs yapısı görünümü (İçindekiler)';
 $string['highestattempt'] = 'En yüksek uygulama';
@@ -64,7 +64,7 @@ $string['mode'] = 'Mod';
 $string['modulename'] = 'SCORM/AICC';
 $string['modulenameplural'] = 'SCORM/AICC';
 $string['newattempt'] = 'Yeni bir uygulama başlat';
-$string['next'] = 'Sonraki';
+$string['next'] = 'Devam et';
 $string['no_attributes'] = '$a->tag etiketinin özellikleri olmalı';
 $string['no_children'] = '$a->tag etiketinin yavruları olmalı';
 $string['noactivity'] = 'Rapor edilecek bir şey yok';
@@ -85,11 +85,11 @@ $string['packagefile'] = 'Paket dosya belirtilmedi';
 $string['passed'] = 'Geçti';
 $string['php5'] = 'PHP 5 (DOMXML doğal kütüphansesi)';
 $string['popup'] = 'Yeni pencere';
-$string['popupmenu'] = 'Açılan listede';
+$string['popupmenu'] = 'Açılır menüde';
 $string['popupopen'] = 'Paketi yeni bir pencerede aç';
 $string['position_error'] = '$a->tag etiketi, $a->parent etiketinin yavrusu olamaz.';
 $string['prev'] = 'Önceki';
-$string['raw'] = 'Düşük puan';
+$string['raw'] = 'Ham puan';
 $string['regular'] = 'Düzenli Manifest';
 $string['report'] = 'Rapor';
 $string['resizable'] = 'Pencerenin tekrar boyutlandırılmasına izin ver';
@@ -112,9 +112,9 @@ $string['too_many_attributes'] = '$a->tag etiketinin çok fazla özelliği var';
 $string['too_many_children'] = '$a->tag etiketinin çok fazla yavrusu var';
 $string['toolbar'] = 'Araç çubuğunu göster';
 $string['totaltime'] = 'Zaman';
-$string['trackingloose'] = 'UYARI: Bu paketin izleme verisi kaybedilecek.';
+$string['trackingloose'] = 'UYARI: Bu paketin izleme verisi kaybolacak!';
 $string['type'] = 'Tip';
-$string['validateascorm'] = 'Bir paket denetle';
+$string['validateascorm'] = 'Bir paket doğrula';
 $string['validation'] = 'Doğrulama sonucu';
 $string['validationtype'] = 'Bu seçenek SCORM paketindeki manifest dosyasınının geçerliliğini doğrulamak için DOMXML kütüphanesinin kullanımını ayarlar. Ne yaptığınızı bilmiyorsanız seçili olanı bırakın.';
 $string['value'] = 'Değer';
@@ -122,6 +122,6 @@ $string['versionwarning'] = 'Manifest sürümü 1.3\'den daha eski, $a->tag etik
 $string['viewallreports'] = 'Toplam $a uygulama raporu var';
 $string['whatgrade'] = 'Uygulama notu';
 $string['width'] = 'Genişlik';
-$string['window'] = 'Çerçeve/Pencere';
+$string['window'] = 'Pencere';
 
 ?>
