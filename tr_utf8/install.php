@@ -130,7 +130,7 @@ $string['globalsquoteshelp'] = '<p>Pasifleştirilmiş Magic Quotes GPC ve etkinl
 <p>Php.ini\'ye erişim hakkınız yoksa Moodle dizinindeki .htaccess dosyasına şu satırları ekleyebilirsiniz:
 <blockquote>php_value magic_quotes_gpc On</blockquote>
 <blockquote>php_value register_globals Off</blockquote>
-</p> ';
+</p>';
 $string['installation'] = 'Kurulum';
 $string['langdownloaderror'] = 'Maalesef \"$a\" dil paketi kurulamadı. Kuruluma İngilizce olarak devam edilecek.';
 $string['langdownloadok'] = 'Dil paketi \"$a\" başarıyla kuruldu. Kurulum bu dilde devam edecek.';
@@ -143,7 +143,7 @@ $string['magicquotesruntimehelp'] = '<p>Magic quotes runtime ayarı, Moodle\'ın
 <p>php.ini dosyasına erişim hakkınız yoksa, Moodle klasöründe yer alan .htaccess isimli dosyada şu ayarı yapın:
 
 <blockquote>php_value magic_quotes_runtime Off</blockquote>
-</p> ';
+</p>';
 $string['memorylimit'] = 'Bellek Limiti';
 $string['memorylimiterror'] = 'PHP bellek limiti ayarı çok düşük... Daha sonra bu ayardan dolayı bazı sorunlar oluşabilir.';
 $string['memorylimithelp'] = '<p>Sunucunuz için PHP bellek limiti şu anda $a olarak ayarlanmış durumda.</p>
@@ -189,7 +189,9 @@ $string['sessionautostarthelp'] = '<p>Moodle, oturum desteği gerektirir ve bu o
 $string['skipdbencodingtest'] = 'Veritabanı Dil Kodlama Testini Atla';
 $string['welcomep10'] = '$a->installername ($a->installerversion)';
 $string['welcomep20'] = 'Bilgisayarınıza <strong>$a->packname $a->packversion</strong> paketini başarıyla kurdunuz. Tebrikler!';
+$string['welcomep30'] = '<strong>$a->installername</strong>\'nin bu sürümü <strong>Moodle</strong>\'da bir ortam oluşturmak için uygulamaları içerir:';
 $string['welcomep40'] = 'Bu paket <strong>Moodle $a->moodlerelease ($a->moodleversion)</strong> sürümünü de içerir.';
+$string['welcomep50'] = 'Bu paketteki tüm uygulamaların kullanımı her biri kendine ait olan lisanslar tarafından yönetilir. <strong>$a->installername</strong> paketinin tamamı <a href=\"http://www.opensource.org/docs/definition_plain.html\">açık kaynak</a> kodludur ve <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> lisansı altında dağıtılır.';
 $string['welcomep60'] = 'Aşağıdaki sayfalar <strong>Moodle</strong>ın kurulumu ve yapılandırılması için size basitçe yol gösterecektir. Varsayılan ayarları kabul edebilir veya ihtiyaçlarınıza göre bunları değiştirebilirsiniz.';
 $string['welcomep70'] = '<strong>Moodle</strong> kurulumu için aşağıdaki \"İleri\" tuşuna basın.';
 $string['wwwroot'] = 'Web adresi';
