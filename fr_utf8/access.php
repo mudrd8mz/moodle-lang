@@ -8,6 +8,7 @@ $string['breadcrumb'] = 'Piste de navigation';
 $string['monthnext'] = 'Mois suivant';
 $string['monthprev'] = 'Mois précédent';
 $string['showhideblock'] = 'Afficher ou masquer le bloc';
+$string['skipa'] = 'Sauter $a';
 $string['sitemap'] = 'Carte du site';
 $string['skipblock'] = 'Sauter le bloc';
 $string['skipnavigation'] = 'Sauter la navigation';
