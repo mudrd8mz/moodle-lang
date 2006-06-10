@@ -911,6 +911,7 @@ $string['nopotentialadmins'] = 'No hay administradores potenciales';
 $string['nopotentialcreators'] = 'No hay creadores potenciales';
 $string['nopotentialstudents'] = 'No hay estudiantes potenciales';
 $string['nopotentialteachers'] = 'No hay profesores potenciales';
+$string['norecentactivity'] = 'No hay actividad reciente';
 $string['noreplybouncemessage'] = 'Ha respondido a una dirección \'no-reply\'. Si está intentando responder a un mensaje de foro, use por favor los foros $a.
 
 Éste es el contenido de su correo:';
@@ -1073,6 +1074,7 @@ $string['restorecancelled'] = 'Cancelada la restauración';
 $string['restorecoursenow'] = 'Restaurar este curso ahora';
 $string['restorefinished'] = 'Restauración completada con éxito';
 $string['restoreto'] = 'Restaurar a ';
+$string['restricted'] = 'Restringido';
 $string['restrictmodules'] = '¿Restringir módulos de actividad?';
 $string['returningtosite'] = 'Usuarios registrados';
 $string['revert'] = 'Revertir';

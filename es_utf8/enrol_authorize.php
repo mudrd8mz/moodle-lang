@@ -10,6 +10,7 @@ $string['adminauthorizewide'] = 'Ajustes Todo el Sitio';
 $string['adminavs'] = 'Compruebe esto si tiene activado el Sistema de Verificación de Direcciones (AVS, Address Verification System) en su cuenta authorize.net. Este sistema requiere campos de dirección tales como calle, estado, país y código postal cuando el usuario rellena el formulario de pago.';
 $string['admincronsetup'] = 'El script de mantenimiento cron.php no ha sido ejecutado durante al menos 24 horas. <br />El cron debe estar habilitado si quiere usar la característica de captura programada.<br /><b>Active adecuadamente el</b> \'Authorize.net plugin\' y <b>setup cron</b>; o bien el <b>uncheck an_review</b> de nuevo.<br />Si desactiva la captura programada, las transacciones serán canceladas a menos que las revise dentro de los próximos 30 días.<br />Compruebe<b>an_review</b> y escriba <b>\'0\' en el campo an_capture_day</b> <br />si desea aceptar o denegar  <b>manualmente</b> los pagos en los próximos 30 días.';
 $string['adminemailexpired'] = 'Enviar un email de advertencia a los administradores <b>$a</b> días ';
+$string['adminemailexpsetting'] = '(0=deshabilitar envío de email, por defecto=2, máx.=5)<br />(Ajustes de captura manual para enviar email: cron=habilitado, an_review=marcado, an_capture_day=0, an_emailexpired=1-5)';
 $string['adminhelpcapturetitle'] = 'Día de captura programada';
 $string['adminhelpreviewtitle'] = 'Revisión de orden';
 $string['adminneworder'] = 'Estimado Administrador,

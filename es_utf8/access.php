@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // access.php - created with Moodle 1.7 dev (2006052400)
 
 
 $string['access'] = 'Accesibilidad';
@@ -11,6 +11,7 @@ $string['monthnext'] = 'Mes próximo';
 $string['monthprev'] = 'Mes anterior';
 $string['showhideblock'] = 'Mostrar u ocultar bloque';
 $string['sitemap'] = 'Mapa del sitio';
+$string['skipa'] = 'Saltar $a';
 $string['skipblock'] = 'Saltar bloque';
 $string['skipnavigation'] = 'Saltar navegación';
 $string['tabledata'] = 'Tabla de datos, $a';

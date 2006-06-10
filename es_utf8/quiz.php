@@ -115,6 +115,7 @@ $string['createfirst'] = 'Antes debe crear algunas preguntas de respuesta corta.
 $string['createmultiple'] = 'Crear múltiples preguntas';
 $string['createnewquestion'] = 'Crear una pregunta nueva';
 $string['custom'] = 'Formato personalizado';
+$string['dataitemneed'] = 'Necesita agregar al menos un conjunto de ítems para obtener una pregunta válida';
 $string['datasetdefinitions'] = 'Definiciones reutilizables del conjunto de datos para la categoría $a';
 $string['datasetnumber'] = 'Número';
 $string['daysavailable'] = 'Días disponible';

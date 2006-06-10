@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // admin.php - created with Moodle 1.7 dev (2006052400)
 
 
 $string['adminseesallevents'] = 'Los administradores ven todos los eventos';
@@ -211,6 +211,7 @@ $string['pathtopsqldesc'] = 'Esto sólo es necesario si tiene más de un psql en
 $string['pathtopsqlinvalid'] = 'Ruta a psql no válida: o bien es errónea, o bien no es ejecutable';
 $string['pgcluster'] = 'Cluster PostgreSQL';
 $string['pgclusterdescription'] = 'Parámetro de versión/cluster PostgreSQL para operaciones de línea de comandos. Si sólo tiene un postgresql en su sistema o no está seguro de qué es esto, déjelo en blanco.';
+$string['php50restricted'] = 'PHP 5.0.x tiene varios problemas conocidos; por favor, actualícese a la versión 5.1.x o utilice las versiones 4.3.x o 4.4.x';
 $string['pleaseregister'] = 'Por favor, registre su sitio para eliminar este botón';
 $string['releasenoteslink'] = 'Si desea información sobre esta versiónde Moodle, por favor vea <a target=\"_new\" href=\"$a\">Release Notes</a>';
 $string['remotelangnotavailable'] = 'Debido a que Moodle no puede conectarse a download.moodle.org, no podemos instalar el paquete de idioma automáticamente. Por favor, descargue los archivos apropiados de la lista, cópielos en su directorio $a y descomprímalos manualmente.';
