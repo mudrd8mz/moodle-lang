@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006060400)
+      // moodle.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['action'] = '操作';
@@ -984,8 +984,8 @@ $string['potentialcreators'] = '潜在的なコース作成者';
 $string['potentialstudents'] = '潜在的な学生';
 $string['potentialteachers'] = '潜在的な教師';
 $string['preferences'] = '設定';
-$string['preferredlanguage'] = '優先言語';
-$string['preferredtheme'] = '優先テーマ';
+$string['preferredlanguage'] = '使用言語';
+$string['preferredtheme'] = '使用テーマ';
 $string['preview'] = 'プレビュー';
 $string['previewhtml'] = 'HTMLフォーマットプレビュー';
 $string['previeworchoose'] = 'テーマを選択またはプレビューしてください。';
