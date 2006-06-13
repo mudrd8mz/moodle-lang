@@ -8,12 +8,12 @@ $string['adminauthorizeemail'] = 'メール送信設定';
 $string['adminauthorizesettings'] = 'Authorize.net 設定';
 $string['adminauthorizewide'] = 'サイト全体の設定';
 $string['adminavs'] = 'あなたのauthorize.netアカウントで住所確認システム ( AVS:Address Verification System ) を有効にした場合は、ここをチェックしてください。この設定により、ユーザが支払いフォームに入力するときに、市町村、県、国および郵便番号の入力が求められます。';
-$string['admincronsetup'] = 'cron.phpメンテナンススクリプトが少なくとも24時間稼動していません。<br />スケジュールキャプチャ機能を使用したい場合、Cronを有効にする必要があります。<br />Authorize.netプラグインを<b>有効</b>および適切に<b>cronを設定</b>、または <b>an_review</b> のチェックを外してください。<br />スケジュールキャプチャを無効にすると、30日以内にトランザクションを検査しない場合、トランザクションはキャンセルされます。<br />30日以内に<b>手動で</b>支払いを受け付け/拒否したい場合は、<b>an_review</b> をチェックして、<br /><b>an_capture_day</b>フィールドにゼロを入力してください。';
-$string['adminemailexpired'] = 'これは「マニュアルキャプチャ」に便利です。<b>$a</b> 日で何件の保留オーダーが失効したか管理者に通知します。';
+$string['admincronsetup'] = 'cron.phpメンテナンススクリプトが少なくとも24時間稼動していません。<br />スケジュールキャプチャ機能を使用したい場合、Cronを有効にする必要があります。<br />Authorize.netプラグインを<b>有効</b>および適切に<b>cronを設定</b>、または <b>an_review</b> のチェックを外してください。<br />スケジュールキャプチャを無効にすると、30日以内にトランザクションを検査しない場合、トランザクションはキャンセルされます。<br />30日以内に<b>手動で</b>支払いを受領/拒否したい場合、<b>an_review</b> をチェックして、<br /><b>an_capture_day</b>フィールドにゼロを入力してください。';
+$string['adminemailexpired'] = 'この設定は「マニュアルキャプチャ」に便利です。<b>$a</b> 日で何件の保留オーダーが失効したか管理者に通知します。';
 $string['adminemailexpsetting'] = '( 0 = メール送信を停止する、デフォルト = 2、最大 = 5 )<br />( メール送信のためのマニュアルキャプチャ設定: cron = 有効、an_review = チェック、an_capture_day = 0、an_emailexpired = 1-5 )';
 $string['adminhelpcapturetitle'] = 'スケジュールキャプチャ';
 $string['adminhelpreviewtitle'] = 'オーダーレビュー';
-$string['adminneworder'] = '新しい保留の注文が入りました:
+$string['adminneworder'] = '新しい保留オーダーが入りました:
 
 注文ID: $a->orderid
 トランザクションID: $a->transid
@@ -25,10 +25,10 @@ $string['adminneworder'] = '新しい保留の注文が入りました:
 
 スケジュールキャプチャが有効にされている場合、クレジットカード情報は $a->captureon 日で取得され、学生はコース登録されます。そうでない場合、$a->expireon 日で期限切れとなり、この日以降はカード情報の取得ができなくなります。
 
-下記のリンクで、学生がコース登録するための支払いを承認/拒否することもできます:
+下記のリンクで、学生がコース登録するための支払いを受領/拒否することもできます:
 $a->url';
-$string['adminnewordersubject'] = '$a->course: 新しい未決注文 ( $a->orderid )';
-$string['adminpendingorders'] = 'あなたはスケジュールキャプチャ機能を停止しています。<br />あなたがチェックしない場合、ステータス「認証完了 / キャプチャ未了」の合計 $a->count　件のトランザクションがキャンセルされます。<br />支払いを受け付け/拒否するには <a href=\'$a->url\'>支払い管理</a>ページにアクセスしてください。';
+$string['adminnewordersubject'] = '$a->course: 新しい保留オーダー ( $a->orderid )';
+$string['adminpendingorders'] = 'あなたはスケジュールキャプチャ機能を停止しています。<br />あなたがチェックしない場合、ステータス「認証完了 / キャプチャ保留」の合計 $a->count　件のトランザクションがキャンセルされます。<br />支払いを受領/拒否するには <a href=\'$a->url\'>支払い管理</a>ページにアクセスしてください。';
 $string['adminreview'] = 'クレジットカード処理手続きの前に注文を検査する。';
 $string['adminteachermanagepay'] = '教師がコースの支払いを管理できる。';
 $string['amount'] = '金額';
@@ -38,7 +38,7 @@ $string['anreferer'] = '必要な場合は、リファラURLを設定してく�
 $string['antestmode'] = 'Authorize.net: テストトランザクション ( 料金は引き落とされません )';
 $string['antrankey'] = 'Authorize.net: トランザクションキー';
 $string['authcaptured'] = '認証完了 / キャプチャ完了';
-$string['authorizedpendingcapture'] = '認証完了 / キャプチャ未了';
+$string['authorizedpendingcapture'] = '認証完了 / キャプチャ保留';
 $string['avsa'] = '住所は合致しますが、郵便番号が合致しません。';
 $string['avsb'] = '住所情報を入力されていません。';
 $string['avse'] = '住所確認システムエラー';
@@ -56,7 +56,7 @@ $string['avsz'] = '5桁の郵便番号は合致しますが、住所が合致し
 $string['canbecredit'] = '$a->upto に返金可能';
 $string['cancelled'] = 'キャンセル完了';
 $string['capture'] = 'キャプチャ';
-$string['capturedpendingsettle'] = '認証完了 / 確定未了';
+$string['capturedpendingsettle'] = '認証完了 / 確定保留';
 $string['capturedsettled'] = '認証完了 / 確定';
 $string['captureyes'] = 'クレジットカード情報が取得され、学生がコース登録されます。本当によろしいですか?';
 $string['ccexpire'] = '有効期限';
@@ -71,7 +71,7 @@ $string['chooseone'] = '次の2つのフィールドの1つまたは両方に入
 $string['cutofftime'] = 'トランザクションカットオフ時間。何時に最終のトランザクションを確定のために取得しますか?';
 $string['delete'] = '無効化';
 $string['description'] = 'Authorize.netモジュールでは、受講料支払いが必要なコースを作成することができます。コースの受講料がゼロの場合、学生には受講登録の支払いは求められません。サイト全体の利用料をデフォルトとしてここで設定して、コースごとに受講料を設定することができます。コース受講料を設定した場合、コース受講料はサイト利用料に優先します。<b>注意:</b> コース設定で登録キーを指定した場合、学生は登録キーを使用した受講登録のオプションも持つことになります。これは、支払い要、支払い不要の学生が混在している場合に便利です。';
-$string['enrolname'] = 'Authorize.net ペイメントゲートウェイ';
+$string['enrolname'] = 'Authorize.netペイメントゲートウェイ';
 $string['expired'] = '期限切れ';
 $string['howmuch'] = 'いくらですか?';
 $string['httpsrequired'] = '申し訳ございません、あなたのリクエストは現在処理することができません。このサイトの設定は正常に行われませんでした。
@@ -91,11 +91,11 @@ $string['notsettled'] = '未確定';
 $string['orderid'] = '注文ID';
 $string['paymentmanagement'] = '支払い管理';
 $string['paymentpending'] = 'このコースに関するあなたの支払いは保留中です。注文番号は、 $a->orderid です。詳細は、<a href=\'$a->url\'>注文詳細</a>をご覧ください。';
-$string['pendingordersemail'] = '支払いを受け付けない場合、トランザクション $a->pending は、$a->days 日で期限が切れます。
+$string['pendingordersemail'] = '支払いを受領しない場合、トランザクション $a->pending は、$a->days 日で期限が切れます。
 
 あなたがスケジュールキャプチャを有効にしていないため、これは警告メッセージです。手動で支払いを受け付けるか、拒否する必要があります。
 
-保留の支払いを受け付け/拒否するには次のページへ:
+保留の支払いを受領/拒否するには次のページへ:
 $a->url
 
 スケジュールキャプチャを有効にすると、あなたは警告メッセージを受信しなくなります。設定は次のページへ:
@@ -103,9 +103,9 @@ $a->enrolurl';
 $string['reason11'] = '重複トランザクションが送信されました。';
 $string['reason13'] = 'マーチャントログインIDが無効またはアカウントがアクティブではありません。';
 $string['reason16'] = 'トランザクションが見つかりませんでした。';
-$string['reason17'] = 'マーチャントは、このタイプのクレジットカードを受付けません。';
+$string['reason17'] = 'マーチャントは、このタイプのクレジットカードを受け付けません。';
 $string['reason27'] = 'AVSのトランザクション結果が一致しません。提供された住所がカード所有者の住所と合致しません。';
-$string['reason28'] = 'マーチャントは、このタイプのクレジットカードを受付けません。';
+$string['reason28'] = 'マーチャントは、このタイプのクレジットカードを受け付けません。';
 $string['reason30'] = 'プロセッサの設定が正しくありません。マーチャントサービスプロバイダにご連絡ください。';
 $string['reason39'] = '提供された通貨コードが正しくないか、サポートされていないか、マーチャントに許可されていないか、為替レートがありません。';
 $string['reason43'] = 'プロセッサでマーチャントが正しく設定されていません。マーチャントサービスプロバイダにご連絡ください。';
