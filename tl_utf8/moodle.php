@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006050501)
+      // moodle.php - created with Moodle 1.7 dev (2006060400)
 
 
 $string['action'] = 'Aksiyon';
@@ -266,7 +266,7 @@ $string['creatinggradebook'] = 'Lumilikha ng markahan';
 $string['creatinggroups'] = 'Lumilikha ng mga pangkat';
 $string['creatinglogentries'] = 'Lumilikha ng mga talâ sa log';
 $string['creatingmessagesinfo'] = 'Lumilikha ng impo ng mga mensahe';
-$string['creatingmetacoursedata'] = 'Lumilikha ng impo ng mga metakurso ';
+$string['creatingmetacoursedata'] = 'Lumilikha ng impo ng mga metakurso';
 $string['creatingnewcourse'] = 'Lumilikha ng bagong kurso';
 $string['creatingscales'] = 'Lumilikha ng mga iskala';
 $string['creatingsections'] = 'Lumilikha ng mga seksiyon';
@@ -315,7 +315,7 @@ $string['deletecheckwarning'] = 'Buburahin mo ang mga sako na ito';
 $string['deletecompletely'] = 'Burahin nang lubos';
 $string['deletecourse'] = 'Burahin ang kurso';
 $string['deletecoursecheck'] = 'Talaga bang nais mong burahin nang lubos ang kursong ito at lahat ng datos na laman nito?';
-$string['deleted'] = 'Nabura na ';
+$string['deleted'] = 'Nabura na';
 $string['deletedactivity'] = 'Nabura na ang $a';
 $string['deletedcourse'] = 'Ang $a ay nabura na nang lubos';
 $string['deletednot'] = 'Hindi mabura ang $a !';
@@ -392,7 +392,7 @@ Kung kailangan mo ng tulong, pakikontak lamang ang administrador ng
 site,
 $a->admin';
 $string['emailconfirmationsubject'] = '$a: kumpirmasyon ng akawnt';
-$string['emailconfirmsent'] = '   <p>Dapat ay may ipinadala na email sa iyong address sa <b>$a</b></p>
+$string['emailconfirmsent'] = '<p>Dapat ay may ipinadala na email sa iyong address sa <b>$a</b></p>
    <p>Naglalaman ito ng mga madaling hakbang para makumpleto ang pagpaparehistro mo.</p>
    <p>Kapag patuloy kang nagkaproblema, kontakin ang administrador ng site.</p>';
 $string['emaildigest'] = 'Uri ng tinipong siping email';
@@ -694,7 +694,7 @@ $string['listofallpeople'] = 'Listahan ng lahat ng tao';
 $string['livelogs'] = 'Mga \"live\" na log mula sa nakaraang oras';
 $string['locale'] = 'tl.UTF-8';
 $string['location'] = 'Lokasyon';
-$string['loggedinas'] = 'Nakalagda ka bilang si $a ';
+$string['loggedinas'] = 'Nakalagda ka bilang si $a';
 $string['loggedinasguest'] = 'Kasalukuyan kang gumagamit ng pambisitang pagpasok';
 $string['loggedinnot'] = 'Hindi ka nakalagda.';
 $string['login'] = 'Lumagda';
@@ -728,8 +728,8 @@ $string['loginto'] = 'Lumagda sa $a';
 $string['loginusing'] = 'Lumagda dito gamit ang bansag at kontrasenyas mo';
 $string['logout'] = 'Lumabas';
 $string['logs'] = 'Mga Log';
-$string['logtoomanycourses'] = ' [ <a href=\"$a->url\">marami pa</a> ] ';
-$string['logtoomanyusers'] = ' [ <a href=\"$a->url\">marami pa</a> ] ';
+$string['logtoomanycourses'] = '[ <a href=\"$a->url\">marami pa</a> ]';
+$string['logtoomanyusers'] = '[ <a href=\"$a->url\">marami pa</a> ]';
 $string['lookback'] = 'Tumanaw sa pinanggalingan';
 $string['mailadmins'] = 'Ipabatid sa mga admin';
 $string['mailstudents'] = 'Ipabatid sa mga mag-aaral';
@@ -895,6 +895,7 @@ $string['nopotentialadmins'] = 'Walang posibleng admin';
 $string['nopotentialcreators'] = 'Walang posibleng tagalikha ng kurso';
 $string['nopotentialstudents'] = 'Walang posibleng mag-aaral';
 $string['nopotentialteachers'] = 'Walang posibleng guro';
+$string['norecentactivity'] = 'Walang naganap na kamakailan lamang na aktibidad';
 $string['noreplybouncemessage'] = 'Tumugon ka sa isang ditinutugon na email address.  Kung nagtatangka kang tumugon sa isang ipinaskil sa talakayan, sa halip ay gamitin ang $a na talakayan.
 
 Ang sumusunod ay ang nilalaman ng email mo:';
@@ -903,7 +904,7 @@ $string['noreplyname'] = 'Huwag tumugon sa email na ito';
 $string['noresults'] = 'Walang resulta';
 $string['normal'] = 'Normal';
 $string['normalfilter'] = 'Normal na paghahanap';
-$string['nostatstodisplay'] = 'Paumanhin, walang magagamit na datos para ipakita.  ';
+$string['nostatstodisplay'] = 'Paumanhin, walang magagamit na datos para ipakita.';
 $string['nostudentsfound'] = 'Walang natagpuang $a';
 $string['nostudentsingroup'] = 'Wala pang mag-aaral sa pangkat na ito';
 $string['nostudentsyet'] = 'Wala pang mag-aaral na naka-enrol sa kursong ito';
@@ -918,15 +919,15 @@ $string['nothingtodisplay'] = 'Walang maipapakita';
 $string['noticenewerbackup'] = 'Ang sakong bak-ap na ito ay nilikha sa pamamagitan ng Moodle $a->backuprelease ($a->backupversion) at mas bago ito sa kasalukuyan mong nakaluklok na Moodle $a->serverrelease ($a->serverversion). Maaaring magbunga ito ng ilang kamalian dahil hindi matitiyak ang paurong na kaangkupan ng bagong sakong bak-ap sa mga luma.';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Tagagamit: $a->info';
 $string['notifyloginfailuresmessageend'] = 'Maaari mong makita ang mga log na ito sa $a/course/log.php?id=1&chooselog=1&modid=site_errors.';
-$string['notifyloginfailuresmessagestart'] = 'Narito ang listahan ng mga bigong pagtatangkang lumagda sa $a simula noong huli kang pinatalastasan ';
+$string['notifyloginfailuresmessagestart'] = 'Narito ang listahan ng mga bigong pagtatangkang lumagda sa $a simula noong huli kang pinatalastasan';
 $string['notifyloginfailuressubject'] = '$a :: Patalastas ng mga bigong paglagda';
 $string['notincluded'] = 'Hindi kasama';
 $string['notingroup'] = 'Paumanhin, nguni\'t kailangang kalahok ka sa isang pangkat upang makita ang aktibidad na ito.';
 $string['notpublic'] = 'Hindi pampubliko!';
-$string['nousersmatching'] = 'Walang natagpuang tagagamit na tumutugma sa \'$a\' ';
+$string['nousersmatching'] = 'Walang natagpuang tagagamit na tumutugma sa \'$a\'';
 $string['nousersyet'] = 'Wala pang tagagamit';
 $string['now'] = 'ngayon';
-$string['numattempts'] = '$a bigong pagtatangka na lumagda ';
+$string['numattempts'] = '$a bigong pagtatangka na lumagda';
 $string['numberweeks'] = 'Bilang ng linggo/paksa';
 $string['numdays'] = '$a araw';
 $string['numhours'] = '$a oras';
@@ -963,7 +964,7 @@ $string['passwordnohelp'] = 'Walang tulong para sa paghahanap ng nawawala mong k
 $string['passwordrecovery'] = 'Oo, tulungan mo akong lumagda';
 $string['passwordsdiffer'] = 'Hindi nagtutugma ang mga kontrasenyas na ito';
 $string['passwordsent'] = 'Naipadala na ang kontrasenyas';
-$string['passwordsenttext'] = '   <p>May ipinadalang email sa address mo sa $a->email.</p>
+$string['passwordsenttext'] = '<p>May ipinadalang email sa address mo sa $a->email.</p>
    <p><b>Pakitingnan ang email mo para sa iyong bagong kontrasenyas</b></p>
    <p>Kusang nilikha ang bagong kontrasanyas, kaya\'t baka nais mong baguhin ito
    <a href=\"$a->link\">at gawin itong mas madaling maalala</a>.</p>';
@@ -1099,7 +1100,7 @@ $string['selectacountry'] = 'Pumilì ng bansâ';
 $string['selectall'] = 'Piliin lahat';
 $string['selectamodule'] = 'Pumili po ng modyul na aktibidad';
 $string['selectednowmove'] = '$a sako ang pinili para ilipat. Pumunta ngayon sa paglilipatan at pindutin ang \'Ilipat ang mga sako dito\'';
-$string['selectnos'] = 'Piliin ang \'hindi\' para sa lahat ';
+$string['selectnos'] = 'Piliin ang \'hindi\' para sa lahat';
 $string['selectperiod'] = 'Piliin ang panahon';
 $string['senddetails'] = 'Ipadala ang mga detalye tungkol sa akin sa pamamagitan ng email';
 $string['separateandconnected'] = 'Magkahiwalay at Magkaugnay na paraan ng pag-unawa';

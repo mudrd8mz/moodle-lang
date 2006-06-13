@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 dev (2006050501)
+      // scorm.php - created with Moodle 1.7 dev (2006060400)
 
 
-$string['advanced'] = 'Abante';
+$string['advanced'] = 'Mga Parameter';
 $string['attempt'] = 'pagkuha';
 $string['attempts'] = 'mga pagkuha';
 $string['attr_error'] = 'Masamang halaga para sa attribute na ($a->attr) sa tag na $a->tag.';
@@ -37,7 +37,7 @@ $string['general'] = 'Pangkalahatang datos';
 $string['gradeaverage'] = 'Katamtamang marka';
 $string['gradehighest'] = 'PInakamataas na marka';
 $string['grademethod'] = 'Paraan ng pagmamarka';
-$string['gradescoes'] = 'Sitwasyon ng mga SCO';
+$string['gradescoes'] = 'Araling Bagay';
 $string['gradesum'] = 'Kabuuang marka';
 $string['height'] = 'Taas';
 $string['hidden'] = 'Nakatago';

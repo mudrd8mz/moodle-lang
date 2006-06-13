@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006050501)
+      // enrol_authorize.php - created with Moodle 1.7 dev (2006060400)
 
 
 $string['adminacceptccs'] = 'Aling uri ng credit card ang tatanggapin?';
@@ -11,11 +11,12 @@ $string['adminavs'] = 'Tsekan ito kung pinagana mo ang Address Verification Syst
 $string['admincronsetup'] = 'Hindi pinatakbo ang pangmentinang iskrip na cron.php sa loob ng 24 oras. <br />Kailangang gumagana ang cron kung nais mong gamitin ang katangiang scheduled-capture.<br /><b>Buhayin</b> ang \'Authorize.net plugin\'at <b>isaayos ang cron</b> nang wasto; o <b>tanggalin muli ang tsek ng an_review</b> .<br />Kapag pinatay mo ang scheduled-capture, ang mga transaksiyon ay kakanselahin maliban na lamang kung rebyuhin mo ito sa loob ng 30 araw.
 <br />Tsekan ang <b>an_review</b> at ipasok ang <b>\'0\' sa an_capture_day</b> na pitak<br />kung nais mong tumanggap/tumanggi sa mga bayad nang <b>mano-mano</b> sa loob ng 30 araw.';
 $string['adminemailexpired'] = 'Ito ay kapakipakinabang para sa \'Mano-manong-Pagcapture\'.
-Patatalastasan ang mga admin b>$a</b> araw bago mapasó ang mga transaksiyon.<br /> (0=patayin ang pagpapadala ng email, umiiral=2, maks=5)<br />
+Patatalastasan ang mga admin b>$a</b> araw bago mapasó ang mga nakabimbing order.';
+$string['adminemailexpsetting'] = '(0=patayin ang pagpapadala ng email, umiiral=2, maks=5)<br />
 (Kaayusan ng mano-manong pag-capture para sa pagpapadala ng email:  cron=buhay, an_review=may tsek, an_capture_day=0, an_emailexpired=1-5)';
 $string['adminhelpcapturetitle'] = 'Araw ng Scheduled-Capture';
 $string['adminhelpreviewtitle'] = 'Rebyu ng Order';
-$string['adminneworder'] = ' Mahal Naming Admin,
+$string['adminneworder'] = 'Mahal Naming Admin,
 
 Nakatanggap ka ng bagong nakabimbin na order:
 
