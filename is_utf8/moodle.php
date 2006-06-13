@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // moodle.php - created with Moodle 1.7 dev (2006052400)
 
 
 $string['action'] = 'Aðgerð';
@@ -300,7 +300,7 @@ $string['defaultcourseteacher'] = 'Kennari';
 $string['defaultcourseteachers'] = 'Kennarar';
 $string['delete'] = 'Eyða';
 $string['deleteall'] = 'Eyða öllu';
-$string['deletecategorycheck'] = 'Viltu örugglega eyða þessum flokknum <b>$a</b>?<br />Allir áfangar sem tilheyra flokknum verða færðir yfir í næsta yfirflokk ef hann er til staðar, annars í flokkinn ýmislegt. ';
+$string['deletecategorycheck'] = 'Viltu örugglega eyða þessum flokknum <b>$a</b>?<br />Allir áfangar sem tilheyra flokknum verða færðir yfir í næsta yfirflokk ef hann er til staðar, annars í flokkinn ýmislegt.';
 $string['deletecheck'] = 'Eyða $a ?';
 $string['deletecheckfiles'] = 'Ert\'u alveg viss um að þú viljir eyða þessum skrám?';
 $string['deletecheckfull'] = 'Ertu alveg viss um að þú viljir eyða $a ?';
@@ -378,7 +378,7 @@ og sláðu svo á Enter hnappinn til að opna vefinn.
 Ef þú þarfnast aðstoðar hafðu þá samband við kerfisstjóra,
 $a->admin';
 $string['emailconfirmationsubject'] = '$a: staðfesting á aðgangi';
-$string['emailconfirmsent'] = '   <P>Sendur hefur verið tölvupóstur á netfangið <B>$a</B>
+$string['emailconfirmsent'] = '<P>Sendur hefur verið tölvupóstur á netfangið <B>$a</B>
    <P>Tölvupósturinn inniheldur leiðbeiningar um hvernig má ljúka innskráningu.
    <P>Ef þú átt í erfiðleikum með innskráningu hafðu þá samband við kerfisstjóra.';
 $string['emaildigest'] = 'Hvers konar samantekt';
@@ -425,7 +425,7 @@ $string['enroldate'] = 'Tímabil';
 $string['enrolenddate'] = 'Lokadagsetning';
 $string['enrolenddaterror'] = 'Áfangi getur ekki endað áður en hann hefst';
 $string['enrollable'] = 'Innritunartímabil';
-$string['enrolledincourse'] = 'Innritaður/innrituð í áfangann ';
+$string['enrolledincourse'] = 'Innritaður/innrituð í áfangann';
 $string['enrolledincoursenot'] = 'Ekki inritaður/innrituð í áfangann  $a';
 $string['enrollfirst'] = 'Þú verður að vera innrituð/innritaður í áfanga til að geta nýtt þennan vef';
 $string['enrolme'] = 'Innritaðu mig í þennan áfanga';
@@ -589,7 +589,7 @@ $string['hidepicture'] = 'Fela mynd';
 $string['hidesettings'] = 'Fela stillingar';
 $string['hits'] = 'Flettingar';
 $string['hitsoncourse'] = 'Flettingar notandans $a->username í áfanganum $a->coursename';
-$string['hitsoncoursetoday'] = 'Flettingar notandans $a->username fyrir daginn í dag í áfanganum $a->coursename af ';
+$string['hitsoncoursetoday'] = 'Flettingar notandans $a->username fyrir daginn í dag í áfanganum $a->coursename af';
 $string['home'] = 'Heim';
 $string['hour'] = 'klst';
 $string['hours'] = 'klukkustundir';
@@ -607,7 +607,7 @@ $string['idnumbercourse'] = 'Aukennitala áfanga';
 $string['import'] = 'Flytja inn';
 $string['importactivities'] = 'Flytja inn viðföng úr öðrum áfanga';
 $string['importdata'] = 'Gagnainnflutningur';
-$string['importdatafinished'] = 'Innflutningi gagna lokið! ';
+$string['importdatafinished'] = 'Innflutningi gagna lokið!';
 $string['importdatafrom'] = 'Veldu áfanga til að sækja gögn úr';
 $string['importgroups'] = 'Flytja inn hópa';
 $string['inactive'] = 'Óvirkur';
@@ -652,7 +652,7 @@ $string['listofallpeople'] = 'Yfirlit yfir alla notendur';
 $string['livelogs'] = 'Skráðar aðgerðir á síðasta klukkutíma';
 $string['locale'] = 'is_IS';
 $string['location'] = 'Staðsetning';
-$string['loggedinas'] = 'Innskráð/ur sem $a ';
+$string['loggedinas'] = 'Innskráð/ur sem $a';
 $string['loggedinasguest'] = 'Þú ert innskráð/ur sem gestur';
 $string['loggedinnot'] = 'Ekki innskráður.';
 $string['login'] = 'Innskrá';
@@ -661,22 +661,6 @@ $string['loginalready'] = 'Þú ert þegar innskráð/ur';
 $string['loginas'] = 'Innskrá sem';
 $string['loginguest'] = 'Innskrá sem gest';
 $string['loginsite'] = 'Innskráning';
-$string['loginsteps'] = 'Til �ess a� ��last fullan a�gang a� �f�ngum er nau�synlegt a� skr� sig sem notandi a� n�msstj�rnunarkerfinu.
-Haf�u � huga a� a�gengi a� einstaka �f�ngum � kerfinu getur einnig veri� st�rt me� skr�ningarlykli sem kennari �thlutar nemendum. Innskr�ning
-� n�msstj�rnunarkerfi� fer �annig fram:
-   <OL size=2>
-   <LI>Fylltu �t <A HREF=$a>N�r notandi</A> skr�ningarformi�.
-   <LI>T�lvup�stur ver�ur sendur � uppgefi� netfang.
-   <LI>Lestu t�lvup�stinn vel og smelltu � vefsl��ina sem hann inniheldur.
-   <LI>Innskr�ning ��n ver�ur sta�fest og a�gengi a� kerfinu tryggt.
-   <LI>Veldu �� �fanga sem �� vilt skr� �ig �.
-   <LI>Ef spurt er um \"a�gangsor�\" - gef�u �� upp a�gangsor�i�
-   sem kennari �fangans hefur �thluta�, a� �v� loknum getur ��  \"skr��\" �ig �
-   �fangann.
-   <LI>N� hefur �� fullan a�gang a� kerfinu. Framvegis �arftu einungis
-   a� sl� inn notendanafn �itt og lykilor� (h�r til hli�ar)
-   til a� f� a�gang a� �eim �f�ngum sem �� ert skr��(ur) �.
-   </OL>';
 $string['loginstepsnone'] = 'Hi!<P>For full access to courses you\'ll need to create 
 yourself an account.<P>All you need to do is make up a username and password and use it in
 the form on this page!<P>If someone else has already chosen your username
@@ -789,25 +773,6 @@ $string['new'] = 'Nýtt';
 $string['newaccount'] = 'Nýskrá notanda';
 $string['newcourse'] = 'Nýr áfangi';
 $string['newpassword'] = 'Nýtt lykilorð';
-$string['newpasswordtext'] = 'S�l(l) $a->firstname,
-
-Lykilor� �itt a� vefnum \'$a->sitename\' hefur veri� endursett
-og ��r �thluta� n�ju lykilor� til br��abirg�a.
-
-N�verandi notendanafn og lykilor�:
-   notendanafn: $a->username
-   lykilor�: $a->newpassword
-
-Vinsamlegast breyttu lykilor�inu ��nu � eftirfarandi s��u:
-   $a->link
-
-� flestum p�stforritum birtist ofangreind sl�� sem bl�r tengill
-sem h�gt er a� smella �. Ef svo er ekki reyndin, afrita�u �� sl��ina
-og l�mdu � vefsko�ara.
-
-Me� kve�ju fr� kerfisstj�ra \'$a->sitename\'
-
-$a->signoff';
 $string['newpicture'] = 'Ný mynd';
 $string['newsitem'] = 'frétt';
 $string['newsitems'] = 'fréttir';
@@ -837,7 +802,6 @@ $string['nopotentialadmins'] = 'Engir mögulegir kerfisstjórar';
 $string['nopotentialcreators'] = 'Engir mögulegir áfangastjórar';
 $string['nopotentialstudents'] = 'Engir mögulegir nemendur';
 $string['nopotentialteachers'] = 'Engir mögulegir kennarar';
-$string['noreplybouncemessage'] = '�� hefur sent svarbr�f � t�lvup�stfang sem ekki tekur vi� br�fum. Ef �tlunin var a� taka ��tt � umr��u � umr��u�ingi, vinsamlegast sendu svar � umr��u�ingi vefsins $a.';
 $string['noreplybouncesubject'] = '$a - bréf komust ekki til skila';
 $string['noreplyname'] = 'Ekki svara þessum tölvupósti';
 $string['noresults'] = 'Engar niðurstöður';
@@ -854,8 +818,8 @@ $string['notenrollable'] = 'Innritun er ekki heimiluð í þennan áfanga sem st
 $string['notenrolled'] = '$a er ekki innritaður í þennan áfanga.';
 $string['nothingnew'] = 'Engar breytingar frá síðustu innskráningu';
 $string['nothingtodisplay'] = 'Ekkert til að birta';
-$string['notifyloginfailuresmessage'] = ' $a->time, IP: $a->ip, Notandi: $a->info ';
-$string['notifyloginfailuresmessagestart'] = 'Hér er yfirlit yfir ógildar innskráningar á $a frá því að síðasta tilkynning var birt ';
+$string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Notandi: $a->info';
+$string['notifyloginfailuresmessagestart'] = 'Hér er yfirlit yfir ógildar innskráningar á $a frá því að síðasta tilkynning var birt';
 $string['notifyloginfailuressubject'] = '$a :: tilkynning/ar um ógilda innskráningu';
 $string['notincluded'] = 'Ekki innifalið';
 $string['notingroup'] = 'Ekki hægt, þú verður að tilheyra hóp til að hafa aðgang að þessu.';
@@ -1006,7 +970,6 @@ $string['screenshot'] = 'Skjámynd';
 $string['search'] = 'Leita';
 $string['searchagain'] = 'Leita aftur';
 $string['searchcourses'] = 'Leita í áföngum';
-$string['searchhelp'] = 'H�gt er a� leita eftir m�rgum or�um � einu <br /><br />or� : finnur allan texta sem inniheldur �etta or�<br />+or� : finnur einungis texta sem inniheldur vi�komandi or�, n�kv�mlega � �essari r��  <br />-or� : �tilokar texta sem inniheldur �etta or�. ';
 $string['searchresults'] = 'Niðurstöður leitar';
 $string['sec'] = 'sek';
 $string['secondstotime172800'] = '2 dagar';
@@ -1052,7 +1015,6 @@ $string['showperpage'] = 'Birta $a á hverri síðu';
 $string['showrecent'] = 'Birta nýleg viðfangsefni';
 $string['showreports'] = 'Birta leiðarskrár';
 $string['showsettings'] = 'Sýna stillingar';
-$string['showtheselogs'] = 'Birta þessar leiðarbækur';
 $string['since'] = 'Frá';
 $string['sincelast'] = 'frá síðustu innskráningu';
 $string['site'] = 'Vefur';
@@ -1108,7 +1070,7 @@ $string['statsreportforuser'] = 'fyrir';
 $string['statsreportlogins'] = 'Innskráningar';
 $string['statsreportreads'] = 'Flettingar (kennarar og nemendur)';
 $string['statsreportstudentactivity'] = 'Öll vikrni nemenda';
-$string['statsreportteacheractivity'] = 'Öll virkni kennara ';
+$string['statsreportteacheractivity'] = 'Öll virkni kennara';
 $string['statsreporttype'] = 'Tegund skýrslu';
 $string['statsreportwrites'] = 'Innlegg (kennarar og nemendur)';
 $string['statsstudentactivity'] = 'Virkni nemenda';
@@ -1167,14 +1129,13 @@ $string['to'] = 'Til';
 $string['today'] = 'Í dag';
 $string['todaylogs'] = 'Skráningar dagsins';
 $string['toeveryone'] = 'til allra';
-$string['toomanybounces'] = 'Reynst hefur erfitt a� senda p�st � �etta netfang �ar sem hann er of oft endursendur. �� You <b>ver�ur</b>a� breyta �v� ��ur en �� heldur �fram.';
 $string['toomanytoshow'] = 'Of margir notendur til að birta alla';
 $string['toonly'] = 'einungis til $a';
 $string['top'] = 'Efst';
 $string['topic'] = 'Viðfangsefni';
 $string['topichide'] = 'Fela viðfangsefnið fyrir $a';
 $string['topicoutline'] = 'Viðfangsefni';
-$string['topicshow'] = 'Birta $a viðfangsefnið ';
+$string['topicshow'] = 'Birta $a viðfangsefnið';
 $string['total'] = 'Alls';
 $string['trackforums'] = 'Fylgjast með lestri umræðna';
 $string['trackforumsno'] = 'Nei: ekki halda skrá yfir innlegg sem ég hef lesið';
@@ -1212,18 +1173,11 @@ $string['upload'] = 'Senda';
 $string['uploadafile'] = 'Senda skrá';
 $string['uploadedfile'] = 'Sending tókst';
 $string['uploadedfileto'] = 'Skráin $a->file hefur verið vistuð í skráarsafninu $a->directory';
-$string['uploadedfiletoobig'] = '�v� mi�ur, skr�in er of st�r (h�marks skr�arst�r� er $a b�ti)';
-$string['uploadfailednotrecovering'] = 'Innflutningur mist�kst vegna vandkv��a tengdum einni af eftirfarandi skr�m, $a->name.<br /> H�r er yfirlit yfir villubo�: <br />$a->problem<br />Ekki laga�.';
 $string['uploadfilelog'] = 'Atburðarskrá fyrir skrána $a';
-$string['uploadformlimit'] = 'Innflutt skr� er st�rri en heimila� er';
 $string['uploadlabel'] = 'Titill:';
-$string['uploadnofilefound'] = 'Engin skr� fannst - valdir �� �rugglega skr� til a� flytja inn?';
 $string['uploadnotallowed'] = 'Innflutningur á efni eru ekki heimilaður';
 $string['uploadoldfilesdeleted'] = 'Gömlum skrám í skráarsafninu þínu hefur verið eytt';
 $string['uploadpartialfile'] = 'Einungis hluti skráarinnar komst til skila';
-$string['uploadproblem'] = '��ekkt villa kom upp �egar skr�in \'$a\' var send inn � Moodle (ef til vill var h�n of st�r?)';
-$string['uploadrenamedchars'] = 'Nafni skr�arinnar var breytt fr� $a->oldname yfir � $a->newname vegna �ess a� nafni� innih�lt ��skileg t�kn.';
-$string['uploadrenamedcollision'] = 'Nafni skr�arinnar var breytt fr� $a->oldname yfir � $a->newname vegna �ess a� til sta�ar var skr� me� sama nafni.';
 $string['uploadserverlimit'] = 'Innsend skrá er of stór.';
 $string['uploadthisfile'] = 'Senda þessa skrá';
 $string['uploadusers'] = 'Fjölskrá notendur';
@@ -1252,9 +1206,8 @@ $string['version'] = 'Útgáfa';
 $string['view'] = 'Skoða';
 $string['views'] = 'Skoða';
 $string['viewsolution'] = 'skoða lausn';
-$string['virusfound'] = 'Ath. kerfisstj�ri! Clam AV hefur fundi� v�rus � skr� sem innflutt var af notandanum $a->use � �fangann $a->course. H�r m� sj� ni�urst��u v�rusvarnarinnar:';
 $string['virusfoundsubject'] = '$: Vírus fannst!';
-$string['virusfounduser'] = 'Innflutt skrá, $a->filename, hefur verið yfirfarin af vírusvörn og samkvæmt henni er skráin smituð af vírus. Innflutningur skráar heppnaðist EKKI. ';
+$string['virusfounduser'] = 'Innflutt skrá, $a->filename, hefur verið yfirfarin af vírusvörn og samkvæmt henni er skráin smituð af vírus. Innflutningur skráar heppnaðist EKKI.';
 $string['virusplaceholder'] = 'Innlesin skrá inniheldur vírus og hefur verið færð eða fjarlægð og viðkomandi notandi látinn vita.';
 $string['visibletostudents'] = 'Sýnilegt $a';
 $string['webpage'] = 'Vefsíða';

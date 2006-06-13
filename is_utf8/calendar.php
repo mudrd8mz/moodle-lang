@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // calendar.php - created with Moodle 1.7 dev (2006052400)
 
 
 $string['calendar'] = 'Dagatal';
@@ -19,8 +19,6 @@ $string['durationuntil'] = 'Þangað til';
 $string['editevent'] = 'Breyta viðburði';
 $string['errorbeforecoursestart'] = 'Ekki er hægt að skilgreina viðburð sem á sér stað en áfanginn hefst';
 $string['errorinvaliddate'] = 'Ógild dagsetning';
-$string['errorinvalidminutes'] = 'Tilgreindu lengd vi�bur�ar � m�n�tum me� �v� a� sl� inn t�lu � bilinu 1-999';
-$string['errorinvalidrepeats'] = 'Tilgreindu fj�lda vi�bur�a me� �v� a� sl� inn t�lu � bilinu 1 - 99';
 $string['errornodescription'] = 'Lýsingu vantar';
 $string['errornoeventname'] = 'Nafn vantar';
 $string['eventdate'] = 'Dags.';
@@ -37,11 +35,6 @@ $string['eventstarttime'] = 'Viðburður hefst';
 $string['eventtime'] = 'Tími';
 $string['eventview'] = 'Lýsing';
 $string['expired'] = 'Útrunnið';
-$string['explain_lookahead'] = 'H�r er skilgreint hversu langt fram � t�mann dagatali� leitar eftir vi�bur�i sem telst vera � d�finni. Vi�bur�ir sem hefjast fyrir �ennan t�ma teljast ekki vera � d�finni. Athugi� a� <strong>�a� er ekki �ruggt</strong> a� allir vi�bur�ir sem falla innan �essa t�maramma birtist nemandandum. Hugsanlega eru vi�bur�irnir fleiri en nemandinn e�a kennarinn vill birta, �.e. hann hefur stillt.';
-$string['explain_maxevents'] = 'H�r er stillt hversu margir vi�bur�ir eru birtir � einu. Ef talan er h� er hugsanlegt a� listinn yfir v�ntanlega vi�bur�i taki miki� pl�ss.';
-$string['explain_persistflt'] = 'Ef �essi stilling er virk man Moodle s��ustu stillingar � dagatalinu og notast vi� ��r � hvert sinn sem �� skr�ir �ig � kerfi�.';
-$string['explain_startwday'] = 'Vikan hefst � �eim degi sem h�r er tilgreindur.';
-$string['explain_timeformat'] = 'H�gt er a� skilgreina hvort t�masetningar birtast � 12 e�a 24 stunda sni�i. ';
 $string['fri'] = 'Fös.';
 $string['friday'] = 'Föstudagur';
 $string['globalevents'] = 'Almennir viðburðir';
@@ -75,7 +68,7 @@ $string['sun'] = 'Sun.';
 $string['sunday'] = 'Sunnudagur';
 $string['thu'] = 'Fim.';
 $string['thursday'] = 'Fimmtudagur';
-$string['timeformat_12'] = '12 klst. ';
+$string['timeformat_12'] = '12 klst.';
 $string['timeformat_24'] = '24 klst.';
 $string['today'] = 'Í dag';
 $string['tomorrow'] = 'Á morgun';
@@ -86,9 +79,6 @@ $string['tt_hideglobal'] = 'Birta almenna viðburði (smella til að fela)';
 $string['tt_hidegroups'] = 'Birta viðburði sem tilheyra hópum (smella til að fela)';
 $string['tt_hideuser'] = 'Birta notendaviðburði (smella til að fela)';
 $string['tt_showcourse'] = 'Viðburðir í áfanga eru ekki sýnilegir (smelltu til að gera sýnilega)';
-$string['tt_showglobal'] = 'Vefvi�bur�irr eru ekki s�nilegir (smelltu til a� gera s�nilega)';
-$string['tt_showgroups'] = 'H�pvi�bur�ir eru ekki s�nilegir (smelltu til a� gera s�nilega)';
-$string['tt_showuser'] = 'Notendavi�bur�ir eru ekki s�nilegir (smelltu til a� gera s�nilega)';
 $string['tue'] = 'Þri.';
 $string['tuesday'] = 'Þriðjudagur';
 $string['typecourse'] = 'Áfangabundinn viðburður';
