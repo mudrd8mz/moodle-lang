@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006052400)
+      // moodle.php - created with Moodle 1.6 Beta 5 (2006050504)
 
 
 $string['action'] = 'Aðgerð';
@@ -8,7 +8,7 @@ $string['active'] = 'Virkur';
 $string['activeusers'] = 'Virkir notendur';
 $string['activities'] = 'Viðfangsefni';
 $string['activity'] = 'Viðfangsefni';
-$string['activityclipboard'] = 'Flyt þetta viðfangsefni <b>$a</b>';
+$string['activityclipboard'] = 'Flyt viðfangsefnið <b>$a</b>';
 $string['activityiscurrentlyhidden'] = 'Því miður, þetta viðfangsefni er falið';
 $string['activitymodule'] = 'Viðfang';
 $string['activityreport'] = 'Yfirlit yfir aðgerðir notenda';
@@ -20,7 +20,7 @@ $string['add'] = 'Nýtt';
 $string['addactivity'] = 'Viðföng';
 $string['addadmin'] = 'Nýr kerfisstjóri';
 $string['addcreator'] = 'Nýr áfangastjóri';
-$string['added'] = 'Bætt við $a';
+$string['added'] = 'Nýtt $a';
 $string['addedrecip'] = 'Bætti við $a nýjum viðtakanda';
 $string['addedrecips'] = 'Bætti við $a nýjum viðtakendum';
 $string['addedtogroup'] = 'Bætt við hóp $a';
@@ -31,7 +31,7 @@ $string['addinganewto'] = 'Bæti $a->what við $a->to';
 $string['addingdatatoexisting'] = 'Bæti gögnum við þau sem fyrir eru';
 $string['addnewcategory'] = 'Nýr flokkur';
 $string['addnewcourse'] = 'Nýr áfangi';
-$string['addnewuser'] = 'Nýr notandi';
+$string['addnewuser'] = 'Nýskrá notanda';
 $string['addnousersrecip'] = 'Bæta notendum sem ekki hafa skoðað $a við lista móttakenda';
 $string['addresource'] = 'Aðföng';
 $string['address'] = 'Heimilisfang';
@@ -60,6 +60,7 @@ $string['adminhelpmanagedatabase'] = 'Beinn aðgangur að gagnagrunni (farðu va
 $string['adminhelpmanagefilters'] = 'Velja textasíur og stillingar á þeim';
 $string['adminhelpmanagemodules'] = 'Sýsla með uppsettar einingar og stillingar á þeim';
 $string['adminhelpmymoodle'] = 'Skilgreina mitt Moodle blokkina fyrir notendur';
+$string['adminhelpreports'] = 'Skýrslur fyrir kerfisstjórn';
 $string['adminhelpsitefiles'] = 'Fyrir birtingu á almennum skrám eða innlestri á utanaðkomandi afritum.';
 $string['adminhelpsitesettings'] = 'Skilgreina útlit á forsíðu vefsins';
 $string['adminhelpstickyblocks'] = 'Skilgreina fastar blokkir';
@@ -80,6 +81,7 @@ $string['aimid'] = 'AIM auðkenni';
 $string['all'] = 'Allt';
 $string['allactions'] = 'Allar aðgerðir';
 $string['allactivities'] = 'Öll viðfangsefni';
+$string['allchanges'] = 'Allar breytingar';
 $string['alldays'] = 'Allir dagar';
 $string['allfieldsrequired'] = 'Öll svið verða að vera útfyllt';
 $string['allfiles'] = 'Allar skrár';
@@ -128,7 +130,7 @@ $string['backuplogdetailed'] = 'Námkvæm viðburðaskrá';
 $string['backuploglaststatus'] = 'Síðustu viðburðir';
 $string['backuplogshelp'] = 'Ef virkjað þá verða leiðarbækur afritaðar ásamt öðrum gögnum við sjálfvirka afritunartöku.';
 $string['backupmetacoursehelp'] = 'Ef virkjað þá verða upplýsingar um lýsiáfanga afritaðar ásamt öðrum gögnum við sjálfvirka afritunartöku.';
-$string['backupnoneusersinfo'] = 'Ath. þú hefur valið að afritið innihaldi enga notendur þannig að allar afritaðar einingar verða afritaðar ,,án notendagagna\". Athugaðu að ,,exercise\" og ,,workshop\" einingarnar bjóða ekki uppá slíka afritun og verða því ekki afritaðar.';
+$string['backupnoneusersinfo'] = 'Ath. þú hefur valið að afritið innihaldi enga notendur þannig að allar afritaðar einingar verða afritaðar \"án notendagagna\". Athugaðu að \"exercise\" og \"workshop\" einingarnar bjóða ekki uppá slíka afritun og verða því ekki afritaðar.';
 $string['backuporiginalname'] = 'Nafn á afriti';
 $string['backupsavetohelp'] = 'Slóðin að skránni þar sem þú vilt vista afritin <br />(hafa autt til að vista í möppu námskeiðsins)';
 $string['backuptakealook'] = 'Hægt er að fá yfirlit yfir afritatökuna hér: $a';
@@ -178,13 +180,16 @@ $string['choosereportfilter'] = 'Veldu síu á skýrsluna';
 $string['choosetheme'] = 'Veldu þema';
 $string['chooseuser'] = 'Veldu notanda';
 $string['city'] = 'Borg/bær';
+$string['clambroken'] = 'Kerfisstjóri hefur virkjað vírusvörn í Moodle en eitthvað er stillingum ábótavant.<br />Innflutningur skráar mistókst. Tölvupóstur hefur þegar verið sendur á kerfisstjóra vegna þessa. <br /> Reyndu að hlaða skránni inn síðar.';
 $string['clamdeletedfile'] = 'Skránni hefur verið eytt';
 $string['clamdeletedfilefailed'] = 'Ekki var hægt að eyða skránni';
 $string['clamemailsubject'] = '$a :: tilkynning frá Clam AV vírusvörninni';
 $string['clamfailed'] = 'CLAM AV vírusvörnin virkar ekki. Villuboðin eru eftirfarandi: $a.';
+$string['clamlost'] = 'Moodle finnur ekki Clam vírusvörnina á slóðinni $a og getur því ekki vírusskannað skrár um leið og þær eru fluttar inn í kerfið.';
+$string['clamlostandactinglikevirus'] = 'Þar að auki er Moodle þannig uppsett að ef Clam virkar ekki þá eru skrár meðhöndlaðar sem vírusar. Þetta hefur í för með sér að nemendur geta ekki sent skrár í kerfir og því er mikilvægt að breyta viðkomandi stillingu. ';
 $string['clammovedfile'] = 'Skráin hefur verið einangruð í þar til gerðu skráarsafni, ný staðsetning er $a';
 $string['clammovedfilebasic'] = 'Skráin hefur verið færð til einangrunar í sérstakt skráarsafn.';
-$string['clamquarantinedirfailed'] = 'Gat ekki fært skránna til einangrunar í einangrunar skrarsafnið, $a. Þetta þarf að laga þar sem vírussmituðum skrám er sjálfvirkt eytt.';
+$string['clamquarantinedirfailed'] = 'Gat ekki fært skránna til einangrunar í einangrunar skrársafnið, $a. Þetta þarf að laga þar sem vírussmituðum skrám er sjálfvirkt eytt.';
 $string['clamunknownerror'] = 'Óþekkt villa í Clam vírusvörninni';
 $string['cleaningtempdata'] = 'Hreinsa út bráðabirgðagögn';
 $string['clicktochange'] = 'Smelltu til að breyta';
@@ -199,8 +204,8 @@ $string['confirmednot'] = 'Innritun hefur ekki verið staðfest!';
 $string['continue'] = 'Áfram';
 $string['continuetocourse'] = 'Smelltu hér til að komast inn í áfangann';
 $string['convertingwikitomarkdown'] = 'Breyti Wiki yfir í Markdown rithátt';
-$string['cookiesenabled'] = 'Vefskoðarinn verður að leyfa ,,cookies\"';
-$string['cookiesnotenabled'] = 'Því miður eru ,cookies\' ekki heimilaðar af vefskoðaranum þínum.';
+$string['cookiesenabled'] = 'Vefskoðarinn verður að leyfa \"cookies\"';
+$string['cookiesnotenabled'] = 'Því miður eru \"cookies\" ekki heimilaðar af vefskoðaranum þínum.';
 $string['copy'] = 'afrita';
 $string['copyasnoun'] = 'afrit';
 $string['copyingcoursefiles'] = 'Afrita skrár sem tilheyra áfanganum';
@@ -209,8 +214,10 @@ $string['copyingzipfile'] = 'Afrita .zip skrá';
 $string['copyrightnotice'] = 'Höfundarréttur';
 $string['cost'] = 'Verð';
 $string['costdefault'] = 'Sjálfgefinn kostnaður';
+$string['counteditems'] = '$a->count $a->items';
 $string['country'] = 'Land';
 $string['course'] = 'Áfangi';
+$string['courseapprovedemail'] = 'Áfanginn, $a->name, sem þú óskaðir eftir hefur verið stofnaður í Moodle og þú gerð(ur) að kennara í honum. Smelltu á eftirfarandi netfang til að opna áfangann: $a->url.';
 $string['courseapprovedfailed'] = 'Vistun áfanga tókst ekki!';
 $string['courseapprovedsubject'] = 'Áfangi hefur verið samþykktur!';
 $string['courseavailable'] = 'Áfanginn er sýnilegur nemendum';
@@ -230,14 +237,13 @@ $string['coursenotaccessible'] = 'Þessi áfangi er ekki opinn almenningi';
 $string['courseoverview'] = 'Yfirlit áfanga';
 $string['coursereject'] = 'Hafna áfanga';
 $string['courserejected'] = 'Áfanganum hefur verið hafnað og umsækjanda send tilkynning þess eðlis.';
-$string['courserejectemail'] = 'Því miður, beiðni þinni um áfanga hefur verið hafnað. Ástæðan er eftirfarandi:
-
-$a';
+$string['courserejectemail'] = 'Því miður, beiðni þinni um áfanga hefur verið hafnað. Ástæðan er eftirfarandi: $a';
 $string['courserejectreason'] = 'Gerðu grein fyrir því hvers vegna þessari áfangabeiðni er hafnað<br />(þessi skýring verður send viðkomandi kennara í tölvupósti)';
 $string['courserejectsubject'] = 'Breiðni um áfanga hafnað';
 $string['courserequest'] = 'Áfangabeiðni';
 $string['courserequestdisabled'] = 'Því miður hefur kerfisstjóri gert áfangabeiðnir óvirkar';
 $string['courserequestfailed'] = 'Af einhverjum orsökum var ekki hægt að vista áfangabeiðnina';
+$string['courserequestintro'] = 'Notaðu þetta form til þess að óska eftir að stofnaður verði nýr áfangi í Moodle.<br />Því meiri upplýsingar sem þú skráir um áfangann því hægara er um vika að afgreiða beiðnina.';
 $string['courserequestreason'] = 'Ástæður fyrir stofnun áfanga';
 $string['courserequestsuccess'] = 'Beiðni um áfanga hefur verið vistuð. Þú mátt gera ráð fyrir svari í tölvupósti innan örfárra daga.';
 $string['courserestore'] = 'Áfangi endurskapaður';
@@ -282,7 +288,7 @@ $string['databasesetup'] = 'Set upp gagnagrunn';
 $string['databasesuccess'] = 'Gagnagrunnur uppfærður';
 $string['databaseupgradebackups'] = 'Útgáfa afrits er $a';
 $string['databaseupgradeblocks'] = 'Útgáfa blokka er $a';
-$string['databaseupgrades'] = 'Er að uppfæra gagnagrunn';
+$string['databaseupgrades'] = 'Uppfæri gagnagrunn';
 $string['date'] = 'Dags.';
 $string['datechanged'] = 'Dagsetningu var breytt';
 $string['datemostrecentfirst'] = 'Dags. - nýjasta fyrst';
@@ -300,7 +306,7 @@ $string['defaultcourseteacher'] = 'Kennari';
 $string['defaultcourseteachers'] = 'Kennarar';
 $string['delete'] = 'Eyða';
 $string['deleteall'] = 'Eyða öllu';
-$string['deletecategorycheck'] = 'Viltu örugglega eyða þessum flokknum <b>$a</b>?<br />Allir áfangar sem tilheyra flokknum verða færðir yfir í næsta yfirflokk ef hann er til staðar, annars í flokkinn ýmislegt.';
+$string['deletecategorycheck'] = 'Viltu örugglega eyða þessum flokknum <b>$a</b>?<br />Allir áfangar sem tilheyra flokknum verða færðir yfir í næsta yfirflokk ef hann er til staðar, annars í flokkinn ýmislegt. ';
 $string['deletecheck'] = 'Eyða $a ?';
 $string['deletecheckfiles'] = 'Ert\'u alveg viss um að þú viljir eyða þessum skrám?';
 $string['deletecheckfull'] = 'Ertu alveg viss um að þú viljir eyða $a ?';
@@ -335,8 +341,13 @@ $string['doyouagree'] = 'Hefur þú lesið þessi skilyrði og samþykkir þú �
 $string['duplicate'] = 'Afrita';
 $string['duplicatinga'] = 'Afrita: $a';
 $string['duplicatingain'] = 'Afrita $a->what í $a->in';
+$string['edhelpaspellpath'] = '<strong>Aspell 0.50</strong> hugbúnaðurinn eða nýrri útgáfa hans verður að vera uppsett á vefþjóninum til þess að ritilinn geti leitað eftir stafsetningarvillum í texta. Gefa verður upp rétt slóð að Aspell svo hann virki. Á Unix/Linux kerfum er algengt að slóðin sé, <strong>/usr/bin/aspell</strong>, en hún getur þú verið önnur. ';
 $string['edhelpbgcolor'] = 'Skilgreindu bakgrunnslit textaritilsins. <br /> Hægt er að skrá gildin í hexadecimal, t.d. #FFFFFF eða með orðum, t.d. white';
+$string['edhelpcleanword'] = 'Þessi stilling virkjar eða gerir óvirka síun á sértækum Word-sniðtáknum í texta.';
+$string['edhelpenablespelling'] = 'Virkja eða gera óvirkan aspell villupúkann. Athugið að <strong>aspell</strong> hugbúnaðurinn verður að vera uppsettur á vefþjóni til að villuleit virki. Seinna gildið er <strong>sjálfgefin orðabók</strong>. Sjálfgefin orðabók er notuð ef aspell finnur ekki orðabók á máli notenda.';
+$string['edhelpfontfamily'] = 'Font-family breytan inniheldur lista yfir nöfn á skyldu letri eða leturgerðum. Aðskilja verður einstaka leturgerðir í listanum með kommu.';
 $string['edhelpfontlist'] = 'Skilgreindu leturgerðir sem fylgja HTML ritli';
+$string['edhelpfontsize'] = 'Sjálfgefin leturstærð (font-size) skilgreinir stærð á letri. <br />Gildar stærðir eru t.d.: medium, large, smaller, larger, 10pt, 11px.';
 $string['edit'] = 'Breyta $a';
 $string['editcoursesettings'] = 'Sýsla með áfangastillingar';
 $string['editfiles'] = 'Sýsla með skrár';
@@ -372,13 +383,12 @@ Til þess að staðfesta aðganginn verður þú að opna eftirfarandi vefsíðu
 
   $a->link
 
-Í flestum tölvupóstforritum, mun þessi vefslóð birtast sem blá krækja sem hægt er að smella á.  Ef sú er ekki raunin, afritaðu þá slóðina yfir í vefskoðarann sem þú notar
-og sláðu svo á Enter hnappinn til að opna vefinn.
+Í flestum tölvupóstforritum, mun þessi vefslóð birtast sem blá krækja sem hægt er að smella á.  Ef sú er ekki raunin, afritaðu þá slóðina yfir í vefskoðarann sem þú notar og sláðu svo á Enter hnappinn til að opna vefinn.
 
 Ef þú þarfnast aðstoðar hafðu þá samband við kerfisstjóra,
 $a->admin';
 $string['emailconfirmationsubject'] = '$a: staðfesting á aðgangi';
-$string['emailconfirmsent'] = '<P>Sendur hefur verið tölvupóstur á netfangið <B>$a</B>
+$string['emailconfirmsent'] = '   <P>Sendur hefur verið tölvupóstur á netfangið <B>$a</B>
    <P>Tölvupósturinn inniheldur leiðbeiningar um hvernig má ljúka innskráningu.
    <P>Ef þú átt í erfiðleikum með innskráningu hafðu þá samband við kerfisstjóra.';
 $string['emaildigest'] = 'Hvers konar samantekt';
@@ -425,7 +435,7 @@ $string['enroldate'] = 'Tímabil';
 $string['enrolenddate'] = 'Lokadagsetning';
 $string['enrolenddaterror'] = 'Áfangi getur ekki endað áður en hann hefst';
 $string['enrollable'] = 'Innritunartímabil';
-$string['enrolledincourse'] = 'Innritaður/innrituð í áfangann';
+$string['enrolledincourse'] = 'Innritaður/innrituð í áfangann ';
 $string['enrolledincoursenot'] = 'Ekki inritaður/innrituð í áfangann  $a';
 $string['enrollfirst'] = 'Þú verður að vera innrituð/innritaður í áfanga til að geta nýtt þennan vef';
 $string['enrolme'] = 'Innritaðu mig í þennan áfanga';
@@ -461,12 +471,15 @@ $string['existingcreators'] = 'Áfangastjórar';
 $string['existingstudents'] = 'Innritaðir nemendur';
 $string['existingteachers'] = 'Kennarar';
 $string['expirynotify'] = 'Tilkynningar um lok á skráningartímabili';
+$string['expirynotifyemail'] = 'Innritun eftirfarandi nemenda í þessum áfanga rennur út eftir nákvæmlega $a->threshold daga:';
 $string['expirynotifystudents'] = 'Tilkynna notendum';
+$string['expirynotifystudentsemail'] = 'Hér með tilkynnist að innritun þín í áfangann $a->course rennur út eftir $a->threshold daga.';
+$string['expirythreshold'] = 'Tímamörk';
 $string['explanation'] = 'Útskýring';
 $string['extendenrol'] = 'Framlengja skráningartíma';
 $string['extendperiod'] = 'Framlengdur skráningartími';
-$string['failedloginattempts'] = '$a->attempts misheppnaðar innskráningar frá því þú varst hér síðast';
-$string['failedloginattemptsall'] = '$a->attempts ógildar innskráningar hjá $a->accounts notendum';
+$string['failedloginattempts'] = '$a->attempts ótækar innskráningar frá því þú varst hér síðast';
+$string['failedloginattemptsall'] = '$a->attempts ótækar innskráningar hjá $a->accounts notendum';
 $string['feedback'] = 'Endurgjöf';
 $string['file'] = 'Skrá';
 $string['filemissing'] = '$a vantar';
@@ -494,14 +507,14 @@ $string['formathtml'] = 'HTML snið';
 $string['formatlams'] = 'LAMS áfangasnið';
 $string['formatmarkdown'] = 'Markdown snið';
 $string['formatplain'] = 'Textasnið';
-$string['formatscorm'] = 'SCORM áfangasnið';
+$string['formatscorm'] = 'SCORM';
 $string['formatsocial'] = 'Félagssnið';
 $string['formattext'] = 'Moodle sjálfgefið snið';
 $string['formattexttype'] = 'Framsetning';
-$string['formattopics'] = 'Framsetning byggð á viðfangsefnum';
-$string['formatweeks'] = 'Vikulegt framsetning';
-$string['formatweekscss'] = 'Vikulegt sniðg - CSS/engar töflur';
-$string['formatwiki'] = 'Wiki framsetning';
+$string['formattopics'] = 'Efnisþættir';
+$string['formatweeks'] = 'Vikulegt';
+$string['formatweekscss'] = 'Vikulegt - CSS/engar töflur';
+$string['formatwiki'] = 'Wiki';
 $string['from'] = 'Frá';
 $string['frontpagecategorynames'] = 'Birta lista yfir flokka';
 $string['frontpagecourselist'] = 'Birta lista yfir áfanga';
@@ -564,6 +577,7 @@ $string['guestsnotallowed'] = 'Því miður, \'$a\' leyfir ekki gestaaðgang.';
 $string['guestsyes'] = 'Hleypa inn gestum án lykils';
 $string['guestuser'] = 'Gestanotandi';
 $string['guestuserinfo'] = 'Um er að ræða sérstakan notanda sem einungis hefur lesaðgang að ákveðnum áföngum.';
+$string['healthcenter'] = 'Heilsugæsla';
 $string['healthreturntomain'] = 'Halda áfram';
 $string['healthsolution'] = 'Lausn';
 $string['help'] = 'Hjálp';
@@ -589,7 +603,7 @@ $string['hidepicture'] = 'Fela mynd';
 $string['hidesettings'] = 'Fela stillingar';
 $string['hits'] = 'Flettingar';
 $string['hitsoncourse'] = 'Flettingar notandans $a->username í áfanganum $a->coursename';
-$string['hitsoncoursetoday'] = 'Flettingar notandans $a->username fyrir daginn í dag í áfanganum $a->coursename af';
+$string['hitsoncoursetoday'] = 'Flettingar notandans $a->username fyrir daginn í dag í áfanganum $a->coursename af ';
 $string['home'] = 'Heim';
 $string['hour'] = 'klst';
 $string['hours'] = 'klukkustundir';
@@ -597,7 +611,7 @@ $string['howtomakethemes'] = 'Hvernig eru ný þemu gerð';
 $string['htmleditor'] = 'Nota Richtext HTML ritil (einungis IE, 5.5 eða nýrra)';
 $string['htmleditoravailable'] = 'Richtext ritillinn er aðgengilegur';
 $string['htmleditordisabled'] = 'Kerfisstjóri hefur gert Richtext ritilinn óvirkan í notendaskilgreiningu þinni';
-$string['htmleditordisabledadmin'] = 'Kerfisstjóri hefur gert ,,Richtext\" ritilinn óvirkan á þessum vef';
+$string['htmleditordisabledadmin'] = 'Kerfisstjóri hefur gert HTML ritilinn óvirkan á þessum vef';
 $string['htmleditordisabledbrowser'] = 'Richtext ritilinn er ekki virkur þar sem þú ert ekki að nota Internet Explorer 5.5 eða yngri útgáfur af Internet Explorer vefskoðaranum';
 $string['htmlfilesonly'] = 'Einungis HTML skrár';
 $string['htmlformat'] = 'HTML snið';
@@ -607,9 +621,11 @@ $string['idnumbercourse'] = 'Aukennitala áfanga';
 $string['import'] = 'Flytja inn';
 $string['importactivities'] = 'Flytja inn viðföng úr öðrum áfanga';
 $string['importdata'] = 'Gagnainnflutningur';
-$string['importdatafinished'] = 'Innflutningi gagna lokið!';
+$string['importdataexported'] = 'Útflutingur gagna heppnaðist <br />Næst verða gögnin flutt inn í nýjan áfanga.';
+$string['importdatafinished'] = 'Innflutningi gagna lokið! ';
 $string['importdatafrom'] = 'Veldu áfanga til að sækja gögn úr';
 $string['importgroups'] = 'Flytja inn hópa';
+$string['importmetacoursenote'] = 'Notaðu þetta form til þess að bæta áföngum við lýsiáfangann þinn (ath. innritanir fylgja með)';
 $string['inactive'] = 'Óvirkur';
 $string['include'] = 'Inniheldur';
 $string['includeallusers'] = 'Innihalda alla notendur';
@@ -652,15 +668,32 @@ $string['listofallpeople'] = 'Yfirlit yfir alla notendur';
 $string['livelogs'] = 'Skráðar aðgerðir á síðasta klukkutíma';
 $string['locale'] = 'is_IS';
 $string['location'] = 'Staðsetning';
-$string['loggedinas'] = 'Innskráð/ur sem $a';
+$string['loggedinas'] = 'Innskráð/ur sem $a ';
 $string['loggedinasguest'] = 'Þú ert innskráð/ur sem gestur';
 $string['loggedinnot'] = 'Ekki innskráður.';
 $string['login'] = 'Innskrá';
 $string['login_failure_logs'] = 'Misheppnaðar innskráningar';
 $string['loginalready'] = 'Þú ert þegar innskráð/ur';
 $string['loginas'] = 'Innskrá sem';
+$string['loginaspasswordexplain'] = '<p>Þú verður að innskrá þig með sérstöku \"innskrá sem lykilorði\" til þess að framkvæma þessa aðgerð.<br />Hafðu samband við kerfisstjóra ef þú veist ekki lykilorðið.</p>';
 $string['loginguest'] = 'Innskrá sem gest';
 $string['loginsite'] = 'Innskráning';
+$string['loginsteps'] = 'Til þess að öðlast fullan aðgang að áföngum er nauðsynlegt að skrá sig sem notandi að námsstjórnunarkerfinu.
+Hafðu í huga að aðgengi að einstaka áföngum í kerfinu getur einnig verið stýrt með skráningarlykli sem kennari úthlutar nemendum. Nýskráning í kerfið er einföld:
+
+   <ol size=2>
+   <li>Fylltu út <a HREF=$a>Nýr notandi</a> skráningarformið.
+   <LI>Tölvupóstur verður sendur á uppgefið netfang.
+   <LI>Lestu tölvupóstinn vel og smelltu á vefslóðina sem hann inniheldur.
+   <LI>Innskráning þín verður staðfest og aðgengi að kerfinu tryggt.
+   <LI>Veldu þá áfanga sem þú vilt skrá þig í.
+   <LI>Ef spurt er um \"skráningarlykil\" - gefðu þá upp skráningarlykilinn
+   sem kennari viðkomandi áfanga hefur úthlutað, að því loknum getur þú skráð þig í
+   áfangann.
+   <LI>Nú hefur þú fullan aðgang að kerfinu. Framvegis þarftu einungis
+   að slá inn notendanafn þitt og lykilorð (t.d. hér til hliðar)
+   til að fá aðgang að þeim áföngum sem þú ert skráð(ur) í.
+   </OL>';
 $string['loginstepsnone'] = 'Hi!<P>For full access to courses you\'ll need to create 
 yourself an account.<P>All you need to do is make up a username and password and use it in
 the form on this page!<P>If someone else has already chosen your username
@@ -694,6 +727,8 @@ $string['maximumupload'] = 'Hámarksstærð á innsendum skrám';
 $string['maxsize'] = 'Hámarksstærð: $a';
 $string['memberincourse'] = 'Nemendur í áfanga';
 $string['messagebody'] = 'Meginmál';
+$string['messagedselectedusers'] = 'Skilaboðin hafa verið send völdum notendum og listi yfir viðtakendur hreinsaður.';
+$string['messagedselectedusersfailed'] = 'Eitthvað fór úrskeiðis þegar skilaboðin voru send völdum notendum. Ekki er víst að skilaboðin komist í öllum tilfellum á áfangastað.';
 $string['messageselect'] = 'Veldu þennan notanda sem viðtakanda tölvupósts';
 $string['messageselectadd'] = 'Bæta við / senda skilaboð';
 $string['metaaddcourse'] = 'Bæta þessum áfanga við';
@@ -734,8 +769,8 @@ $string['missingteacher'] = 'Verður að velja eitthvað';
 $string['missingurl'] = 'Vantar URL';
 $string['missingusername'] = 'Ekkert notendanafn skráð';
 $string['modified'] = 'Breytt';
-$string['moduledeleteconfirm'] = 'You are about to completely delete the module \'$a\'.  This will completely delete everything in the database associated with this activity module.  Are you SURE you want to continue?';
-$string['moduledeletefiles'] = 'All data associated with the module \'$a->module\' has been deleted from the database.  To complete the deletion (and prevent the module re-installing itself), you should now delete this directory from your server: $a->directory';
+$string['moduledeleteconfirm'] = 'Þú ert um það bil að eyða \'$a\' einingunni. Við þessa aðgerð er öllum gögnum sem tengjast viðkomandi einingu eytt úr gagnagrunni Moodle. Viltu örugglega halda áfram?';
+$string['moduledeletefiles'] = 'Öllum gögnum sem tengjast einingunni \'$a->module\' hefur verið eytt úr gagnagrunni Moodle. Eyddu skráarsafninu $a->directory á vefþjóninum til þess að koma í veg fyrir að Moodle setji eininguna sjálfvirkt upp aftur.';
 $string['modulesetup'] = 'Set upp töflur fyrir kerfiseiningu';
 $string['modulesuccess'] = 'Uppsetning á $a töflum tókst';
 $string['moodledocslink'] = 'Hjálp fyrir þessa síðu';
@@ -773,12 +808,41 @@ $string['new'] = 'Nýtt';
 $string['newaccount'] = 'Nýskrá notanda';
 $string['newcourse'] = 'Nýr áfangi';
 $string['newpassword'] = 'Nýtt lykilorð';
+$string['newpasswordfromlost'] = '<strong>Ath:</strong> Lykilorðið sem þú <strong>hefur núna</strong> hefur verið sent til þín í <strong>öðrum</strong>af tveimur tölvupóstum sem eru hluti af ferlinu við að endurnýja glatað lykilorð. Athugaðu hvort þú hafir ekki fengið báða þessa tölvupósta áður en haldið er áfram.';
+$string['newpasswordtext'] = 'Sæl(l) $a->firstname,
+
+Lykilorð þitt að vefnum \'$a->sitename\' hefur verið endursett og þér úthlutað nýju lykilorði til bráðabirgða.
+
+Núverandi notendanafn og lykilorð:
+   notendanafn: $a->username
+   lykilorð: $a->newpassword
+
+Vinsamlegast breyttu lykilorðinu þínu á eftirfarandi síðu:
+   $a->link
+
+Í flestum póstforritum birtist ofangreind slóð sem blár tengill sem hægt er að smella á. Ef svo er ekki reyndin, afritaðu þá slóðina
+og límdu í vefskoðara.
+
+Með kveðju frá kerfisstjóra \'$a->sitename\'
+
+$a->signoff';
 $string['newpicture'] = 'Ný mynd';
 $string['newsitem'] = 'frétt';
 $string['newsitems'] = 'fréttir';
 $string['newsitemsnumber'] = 'Fjöldi birtra frétta';
 $string['newuser'] = 'Nýr notandi';
 $string['newusernewpasswordsubj'] = 'Ný notendaskráning';
+$string['newusernewpasswordtext'] = 'Nýr notendaaðgangur hefur verið stofnaður fyrir þig að vefnum \'$a->sitename\' og nýtt tímabundið lykilorð verið gefið út.
+
+Notaðu eftirfarandi til að innskrá þig:
+Notendanafn: $a->username
+Lykilorð: $a->newpassword
+(athugaðu að þú verður að breyta þessu tímabundna lykilorði um leið og þú skráir þig næst inn)
+
+Opnaðu vefinn  \'$a->sitename\' með því að smella á eftirfarandi vefslóð:
+ $a->link
+
+Í flestum póstforritum birtist ofangreind slóð sem blár tengill sem hægt er að smella á. Ef svo er ekki reyndin, afritaðu þá slóðina og límdu í vefskoðara.';
 $string['newusers'] = 'Nýir notendur';
 $string['next'] = 'Áfram';
 $string['no'] = 'Nei';
@@ -802,6 +866,7 @@ $string['nopotentialadmins'] = 'Engir mögulegir kerfisstjórar';
 $string['nopotentialcreators'] = 'Engir mögulegir áfangastjórar';
 $string['nopotentialstudents'] = 'Engir mögulegir nemendur';
 $string['nopotentialteachers'] = 'Engir mögulegir kennarar';
+$string['noreplybouncemessage'] = 'Þú hefur sent svarbréf á tölvupóstfang sem ekki tekur við bréfum. Ef ætlunin var að taka þátt í umræðu á umræðuþingi, vinsamlegast sendu svar á umræðuþingi vefsins $a.';
 $string['noreplybouncesubject'] = '$a - bréf komust ekki til skila';
 $string['noreplyname'] = 'Ekki svara þessum tölvupósti';
 $string['noresults'] = 'Engar niðurstöður';
@@ -816,10 +881,13 @@ $string['notavailable'] = 'Ekki til';
 $string['noteachersyet'] = 'Engir kennarar er skráðir í þennan áfanga';
 $string['notenrollable'] = 'Innritun er ekki heimiluð í þennan áfanga sem stendur';
 $string['notenrolled'] = '$a er ekki innritaður í þennan áfanga.';
+$string['noteuserschangednonetocourse'] = 'Nauðsynlegt er að endurkalla notendur í áfanga þegar notendagögn (s.s. verkefni, skrár eða skilaboð) eru endurkölluð. Þessari stillingu hefur verið breytt fyrir þig. ';
 $string['nothingnew'] = 'Engar breytingar frá síðustu innskráningu';
 $string['nothingtodisplay'] = 'Ekkert til að birta';
-$string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Notandi: $a->info';
-$string['notifyloginfailuresmessagestart'] = 'Hér er yfirlit yfir ógildar innskráningar á $a frá því að síðasta tilkynning var birt';
+$string['noticenewerbackup'] = 'Þessi afritunarskrá var búin til með Moodle $a->backuprelease ($a->backupversion) og er nýrri en sú útgáfa sem nú er til staðar, sem er $a->serverrelease ($a->serverversion). Þetta ósamræmi milli útgáfa gæti valdið vandræðum.';
+$string['notifyloginfailuresmessage'] = ' $a->time, IP: $a->ip, Notandi: $a->info ';
+$string['notifyloginfailuresmessageend'] = 'Leiðarskrárnar eru aðgengilegar á  $a/course/log.php?id=1&chooselog=1&modid=site_errors.';
+$string['notifyloginfailuresmessagestart'] = 'Hér er yfirlit yfir ógildar innskráningar á $a frá því að síðasta tilkynning var birt ';
 $string['notifyloginfailuressubject'] = '$a :: tilkynning/ar um ógilda innskráningu';
 $string['notincluded'] = 'Ekki innifalið';
 $string['notingroup'] = 'Ekki hægt, þú verður að tilheyra hóp til að hafa aðgang að þessu.';
@@ -850,6 +918,8 @@ $string['outlinereport'] = 'Yfirlit';
 $string['page'] = 'Blaðsíða';
 $string['pageheaderconfigablock'] = 'Skilgreini blokk í %%fullname%%';
 $string['parentcoursenotfound'] = 'Yfiráfangi fannst ekki';
+$string['parentcoursenotmetacourse'] = 'Yfiráfangi ekki lýsiáfangi';
+$string['parentfolder'] = 'Yfirmappa';
 $string['parentlanguage'] = 'en';
 $string['participants'] = 'Þátttakendur';
 $string['participationratio'] = 'Hlutfall þátttakenda';
@@ -857,7 +927,10 @@ $string['participationreport'] = 'Skýrsla yfir þátttöku';
 $string['password'] = 'Lykilorð';
 $string['passwordchanged'] = 'Lykilorði hefur verið breytt';
 $string['passwordconfirmchange'] = 'Staðfestu breytingu á lykilorði';
+$string['passwordextlink'] = 'Eftirfarandi krækja gerir þér kleift að endurheimta glatað lykilorð. Athugaðu að krækjan vísar út fyrir Moodle.';
 $string['passwordforgotten'] = 'Glatað lykilorð';
+$string['passwordforgotteninstructions'] = 'Upplýsingar um þig verða fyrst að finnast í gagnagrunni Moodle. Vinsamlegast gefuð upp annað hvort Moodle notendanafnið þitt eða tölvupóst þann sem þú gafst upp þegar þú skráðir þig í Moodle. Athugaðu að ekki er þörf á að gefa bæði upp notendanafn og tölvupóst.';
+$string['passwordnohelp'] = 'Því miður er ekki hægt að hjálpa þér við að endurheimta glatað lykilorð. Vinsamlegast hafðu samband við kerfisstjóra.';
 $string['passwordrecovery'] = 'Já, égg þarf hjálp við innskráningu';
 $string['passwordsdiffer'] = 'Lykilorðin eru ekki þau sömu';
 $string['passwordsent'] = 'Lykilorð hefur verið sent';
@@ -871,6 +944,7 @@ $string['paymentinstant'] = 'Notaðu hnappinn hér að neðan til að greiða og
 $string['paymentpending'] = '(<small><b><u>$a</u></b> bið</small>)';
 $string['paymentrequired'] = 'Gjaldskyldur áfangi';
 $string['payments'] = 'Greiðslur';
+$string['paymentthanks'] = 'Greiðsla hefur verið innt af hendi. Þú ert núna innritaður/innrituð í áfangann:<br />\"$a\"';
 $string['people'] = 'Notendur';
 $string['periodending'] = 'Tímabili lýkur ($a)';
 $string['personalprofile'] = 'Persónulegar upplýsingar';
@@ -906,6 +980,7 @@ $string['readme'] = 'LESTUMIG';
 $string['recentactivity'] = 'Nýleg viðfangsefni';
 $string['recentactivityreport'] = 'Sýna nýlegar breytingar';
 $string['recipientslist'] = 'Móttakendur';
+$string['recreatedcategory'] = 'Endurmyndaður flokkur $a';
 $string['refreshingevents'] = 'Endurhleð viðburðum';
 $string['registration'] = 'Moodle Innskráning';
 $string['registrationemail'] = 'Staðfesting í tölvupósti';
@@ -938,6 +1013,7 @@ $string['requireskey'] = 'þessi áfangi krefst innskráningarlykils';
 $string['requirespayment'] = 'Gjaldskyldur áfangi';
 $string['reset'] = 'Endursetja';
 $string['resetcourse'] = 'Endursetja áfanga';
+$string['resetinfo'] = 'Hér getur þú eytt öllum notendagögnum úr áfanga en haldið eftir öðru efni og stillingum. Athugaðu að við þessa aðgerð er viðkomandi notendagögnum endanlega eytt.';
 $string['resetstartdate'] = 'Endursetja upphafsdagsetningu';
 $string['resettodefaults'] = 'Endursetja sjálfgefin gildi';
 $string['resortcoursesbyname'] = 'Endurraða áföngum eftir heiti';
@@ -947,6 +1023,7 @@ $string['restorecancelled'] = 'Endurköllun afturkölluð';
 $string['restorecoursenow'] = 'Endurkalla þennan áfanga núna!';
 $string['restorefinished'] = 'Endurköllun áfanga heppnaðist';
 $string['restoreto'] = 'Endurkalla í';
+$string['restrictmodules'] = 'Takmarka viðföng?';
 $string['returningtosite'] = 'Reglulegur notandi?';
 $string['revert'] = 'Afturkalla';
 $string['role'] = 'Hlutverk';
@@ -964,12 +1041,14 @@ $string['scalescustom'] = 'Sérsniðnir einkunnaskalar';
 $string['scalescustomcreate'] = 'Nýr einkunnaskali';
 $string['scalescustomno'] = 'Engir sérsniðnir einkunnaskalar til';
 $string['scalesstandard'] = 'Hefðbundinn einkunnaskali';
+$string['scalestip'] = 'Smelltu á hnappinn \"Einkunnaskalar\" til að sérsníða einkunnaskala.';
 $string['schedule'] = 'Dagskrá';
 $string['scheduledbackupstatus'] = 'Yfirlit yfir reglulega afritatöku';
 $string['screenshot'] = 'Skjámynd';
 $string['search'] = 'Leita';
 $string['searchagain'] = 'Leita aftur';
 $string['searchcourses'] = 'Leita í áföngum';
+$string['searchhelp'] = 'Hægt er að leita eftir mörgum orðum í einu <br /><br />orð : finnur allan texta sem inniheldur þetta orð<br />+orð : finnur einungis texta sem inniheldur viðkomandi orð, nákvæmlega í þessari röð  <br />-orð : útilokar texta sem inniheldur þetta orð. ';
 $string['searchresults'] = 'Niðurstöður leitar';
 $string['sec'] = 'sek';
 $string['secondstotime172800'] = '2 dagar';
@@ -1015,6 +1094,7 @@ $string['showperpage'] = 'Birta $a á hverri síðu';
 $string['showrecent'] = 'Birta nýleg viðfangsefni';
 $string['showreports'] = 'Birta leiðarskrár';
 $string['showsettings'] = 'Sýna stillingar';
+$string['showtheselogs'] = 'Birta þessar leiðarbækur';
 $string['since'] = 'Frá';
 $string['sincelast'] = 'frá síðustu innskráningu';
 $string['site'] = 'Vefur';
@@ -1034,6 +1114,7 @@ $string['sizeb'] = 'bæti';
 $string['sizegb'] = 'GB';
 $string['sizekb'] = 'KB';
 $string['sizemb'] = 'MB';
+$string['skipped'] = 'Sleppt';
 $string['skypeid'] = 'Skype auðkenni';
 $string['socialheadline'] = 'Nýjustu viðfangsefni félagssniðs';
 $string['someallowguest'] = 'Sumir áfangar leyfa gestaaðgang';
@@ -1047,6 +1128,7 @@ $string['state'] = 'Landsvæði';
 $string['statistics'] = 'Tölfræði';
 $string['stats'] = 'Tölfræði';
 $string['statslogins'] = 'Innskráningar';
+$string['statsmodedetailed'] = 'Ítarlegar notendaupplýsingar';
 $string['statsmodegeneral'] = 'Almenn sýn';
 $string['statsnodata'] = 'Þessi samstilling tíma og áfanga skilar engum niðurstöðum.';
 $string['statsnodatauser'] = 'Þessi samstilling tíma og áfanga skilar engum niðurstöðum.';
@@ -1070,7 +1152,7 @@ $string['statsreportforuser'] = 'fyrir';
 $string['statsreportlogins'] = 'Innskráningar';
 $string['statsreportreads'] = 'Flettingar (kennarar og nemendur)';
 $string['statsreportstudentactivity'] = 'Öll vikrni nemenda';
-$string['statsreportteacheractivity'] = 'Öll virkni kennara';
+$string['statsreportteacheractivity'] = 'Öll virkni kennara ';
 $string['statsreporttype'] = 'Tegund skýrslu';
 $string['statsreportwrites'] = 'Innlegg (kennarar og nemendur)';
 $string['statsstudentactivity'] = 'Virkni nemenda';
@@ -1107,7 +1189,7 @@ $string['subcategories'] = 'Undirflokkar';
 $string['success'] = 'Tókst';
 $string['summary'] = 'Samantekt';
 $string['summaryof'] = 'Samantekt fyrir $a';
-$string['supplyinfo'] = 'Vinsamlegast skráðu eftirfarandi upplsingar';
+$string['supplyinfo'] = 'Vinsamlegast skráðu eftirfarandi upplýsingar';
 $string['tag'] = 'Tag';
 $string['tagmanagement'] = 'Bæta við /eyða tagi';
 $string['tags'] = 'Tög';
@@ -1129,13 +1211,14 @@ $string['to'] = 'Til';
 $string['today'] = 'Í dag';
 $string['todaylogs'] = 'Skráningar dagsins';
 $string['toeveryone'] = 'til allra';
-$string['toomanytoshow'] = 'Of margir notendur til að birta alla';
+$string['toomanybounces'] = 'Reynst hefur erfitt að senda póst á þetta netfang þar sem hann er of oft endursendur. Þú <b>verður</b>að breyta netfanginu til að geta haldið áfram.';
+$string['toomanytoshow'] = 'Notendur of margir til að hægt sé að birta þá alla';
 $string['toonly'] = 'einungis til $a';
 $string['top'] = 'Efst';
 $string['topic'] = 'Viðfangsefni';
 $string['topichide'] = 'Fela viðfangsefnið fyrir $a';
 $string['topicoutline'] = 'Viðfangsefni';
-$string['topicshow'] = 'Birta $a viðfangsefnið';
+$string['topicshow'] = 'Birta $a viðfangsefnið ';
 $string['total'] = 'Alls';
 $string['trackforums'] = 'Fylgjast með lestri umræðna';
 $string['trackforumsno'] = 'Nei: ekki halda skrá yfir innlegg sem ég hef lesið';
@@ -1164,20 +1247,27 @@ $string['updated'] = 'Uppfært $a';
 $string['updatemymoodleoff'] = 'Staðalhamur';
 $string['updatemymoodleon'] = 'Breyta þessari síðu';
 $string['updatemyprofile'] = 'Uppfæra notendaskilgreiningu';
-$string['updatesevery'] = 'Uppfærirst $a seconds hverja sekúntu';
+$string['updatesevery'] = 'Uppfærist á $a sek. fresti';
 $string['updatethis'] = 'Uppfæra $a';
 $string['updatethiscourse'] = 'Uppfæra þennan áfanga';
 $string['updatinga'] = 'Uppfæri $a';
-$string['updatingain'] = 'Uppfæri $a->what in $a->in';
+$string['updatingain'] = 'Uppfæri $a->what í $a->in';
 $string['upload'] = 'Senda';
 $string['uploadafile'] = 'Senda skrá';
 $string['uploadedfile'] = 'Sending tókst';
 $string['uploadedfileto'] = 'Skráin $a->file hefur verið vistuð í skráarsafninu $a->directory';
+$string['uploadedfiletoobig'] = 'Því miður, skráin er of stór (hámarks skráarstærð er $a bæti)';
+$string['uploadfailednotrecovering'] = 'Innflutningur mistókst vegna vandkvæða tengdum einni af eftirfarandi skrám, $a->name.<br /> Hér er yfirlit yfir villuboð: <br />$a->problem <br />Ekki lagað.';
 $string['uploadfilelog'] = 'Atburðarskrá fyrir skrána $a';
+$string['uploadformlimit'] = 'Innflutt skrá er stærri en heimilað er';
 $string['uploadlabel'] = 'Titill:';
+$string['uploadnofilefound'] = 'Engin skrá fannst - valdir þú örugglega skrá til að flytja inn?';
 $string['uploadnotallowed'] = 'Innflutningur á efni eru ekki heimilaður';
 $string['uploadoldfilesdeleted'] = 'Gömlum skrám í skráarsafninu þínu hefur verið eytt';
 $string['uploadpartialfile'] = 'Einungis hluti skráarinnar komst til skila';
+$string['uploadproblem'] = 'Óþekkt villa kom upp þegar skráin \'$a\' var send inn í Moodle (ef til vill var hún of stór?)';
+$string['uploadrenamedchars'] = 'Nafni skráarinnar var breytt úr $a->oldname yfir í $a->newname vegna þess að nafnið innihélt óæskileg tákn.';
+$string['uploadrenamedcollision'] = 'Nafni skráarinnar var breytt úr $a->oldname yfir í $a->newname vegna þess að til staðar var skrá með sama nafni.';
 $string['uploadserverlimit'] = 'Innsend skrá er of stór.';
 $string['uploadthisfile'] = 'Senda þessa skrá';
 $string['uploadusers'] = 'Fjölskrá notendur';
@@ -1206,10 +1296,21 @@ $string['version'] = 'Útgáfa';
 $string['view'] = 'Skoða';
 $string['views'] = 'Skoða';
 $string['viewsolution'] = 'skoða lausn';
+$string['virusfound'] = 'Ath. kerfisstjóri! Clam AV hefur fundið vírus í skrá sem innflutt var af notandanum $a->use í áfangann $a->course. Hér má sjá niðurstöðu vírusvarnarinnar:';
+$string['virusfoundlater'] = 'Skráin $a->filename sem hlaðið var inn $a->date í áfangann $a->course inniheldur vírus. Eftirfarandi aðgerðir voru framkvæmdar:
+$a->action
+Ef um var að ræða innsent efni, t.d. verkefni, er skynsamlegt að senda það inn aftur þannig að kennarinn hafi aðgang að því.';
+$string['virusfoundlateradmin'] = 'Ath. kerfisstjóri! Skráin $a->filename sem hlaðið var inn $a->date í áfangann $a->course af notandanum  $a->user inniheldur vírus. Eftirfarandi aðgerðir voru framkvæmdar:
+$a->action
+
+Viðkomandi notandi hefur fengið samsvarandi tilkynningu.';
+$string['virusfoundlateradminnolog'] = 'Ath. kerfisstjóri! Skráin $a->filename hefur verið greind með vírus. Eftirfarandi aðgerðir voru framkvæmdar:
+$a->action';
 $string['virusfoundsubject'] = '$: Vírus fannst!';
-$string['virusfounduser'] = 'Innflutt skrá, $a->filename, hefur verið yfirfarin af vírusvörn og samkvæmt henni er skráin smituð af vírus. Innflutningur skráar heppnaðist EKKI.';
+$string['virusfounduser'] = 'Innflutt skrá, $a->filename, hefur verið yfirfarin af vírusvörn og samkvæmt henni er skráin smituð af vírus. Innflutningur skráar heppnaðist EKKI. ';
 $string['virusplaceholder'] = 'Innlesin skrá inniheldur vírus og hefur verið færð eða fjarlægð og viðkomandi notandi látinn vita.';
 $string['visibletostudents'] = 'Sýnilegt $a';
+$string['warningdeleteresource'] = 'Ath: Vísað er í $a í þessum áfanga. Viltu breyta þessari vísun?';
 $string['webpage'] = 'Vefsíða';
 $string['week'] = 'Vika';
 $string['weekhide'] = 'Fela þessa viku fyrir $a';

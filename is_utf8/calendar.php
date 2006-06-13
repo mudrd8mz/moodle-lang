@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.7 dev (2006052400)
+      // calendar.php - created with Moodle 1.6 Beta 3 (2006041900)
 
 
 $string['calendar'] = 'Dagatal';
 $string['calendarheading'] = '$a Dagatal';
 $string['clickhide'] = 'smelltu til að fela';
 $string['clickshow'] = 'smelltu til að birta';
-$string['confirmeventdelete'] = 'Ertu viss um að þú viljir eyða tilteknum viðburði?';
+$string['confirmeventdelete'] = 'Viltu örugglega eyða þessum viðburði?';
 $string['courseevents'] = 'Áfangabundnir viðburðir';
 $string['dayview'] = 'Dagar';
 $string['daywithnoevents'] = 'Það eru engir viðburðir skráðir þennan dag';
@@ -19,6 +19,8 @@ $string['durationuntil'] = 'Þangað til';
 $string['editevent'] = 'Breyta viðburði';
 $string['errorbeforecoursestart'] = 'Ekki er hægt að skilgreina viðburð sem á sér stað en áfanginn hefst';
 $string['errorinvaliddate'] = 'Ógild dagsetning';
+$string['errorinvalidminutes'] = 'Tilgreindu lengd viðburðar í mínútum með því að slá inn tölu á bilinu 1-999';
+$string['errorinvalidrepeats'] = 'Tilgreindu fjölda viðburða með því að slá inn tölu á bilinu 1 - 99';
 $string['errornodescription'] = 'Lýsingu vantar';
 $string['errornoeventname'] = 'Nafn vantar';
 $string['eventdate'] = 'Dags.';
@@ -35,6 +37,11 @@ $string['eventstarttime'] = 'Viðburður hefst';
 $string['eventtime'] = 'Tími';
 $string['eventview'] = 'Lýsing';
 $string['expired'] = 'Útrunnið';
+$string['explain_lookahead'] = 'Hér er skilgreint hversu langt fram í tímann dagatalið leitar eftir viðburði sem telst vera á döfinni. Viðburðir sem hefjast fyrir þennan tíma teljast ekki vera á döfinni. Athugið að <strong>það er ekki öruggt</strong> að allir viðburðir sem falla innan þessa tímaramma birtist nemandandum. Hugsanlega eru viðburðirnir fleiri en nemandinn eða kennarinn vill birta, þ.e. hann hefur stillt.';
+$string['explain_maxevents'] = 'Hér er stillt hversu margir viðburðir birtast í einu. Ef talan er há er hugsanlegt að listinn yfir væntanlega viðburði taki mikið pláss.';
+$string['explain_persistflt'] = 'Ef þessi stilling er virk geymir Moodle síðustu stillingar á dagatalinu og notast við þær í hvert sinn sem þú skráir þig í kerfið.';
+$string['explain_startwday'] = 'Vikan hefst á þeim degi sem hér er tilgreindur.';
+$string['explain_timeformat'] = 'Hægt er að skilgreina hvort tímasetningar birtast á 12 eða 24 stunda sniði. ';
 $string['fri'] = 'Fös.';
 $string['friday'] = 'Föstudagur';
 $string['globalevents'] = 'Almennir viðburðir';
@@ -68,7 +75,7 @@ $string['sun'] = 'Sun.';
 $string['sunday'] = 'Sunnudagur';
 $string['thu'] = 'Fim.';
 $string['thursday'] = 'Fimmtudagur';
-$string['timeformat_12'] = '12 klst.';
+$string['timeformat_12'] = '12 klst. ';
 $string['timeformat_24'] = '24 klst.';
 $string['today'] = 'Í dag';
 $string['tomorrow'] = 'Á morgun';
@@ -79,6 +86,9 @@ $string['tt_hideglobal'] = 'Birta almenna viðburði (smella til að fela)';
 $string['tt_hidegroups'] = 'Birta viðburði sem tilheyra hópum (smella til að fela)';
 $string['tt_hideuser'] = 'Birta notendaviðburði (smella til að fela)';
 $string['tt_showcourse'] = 'Viðburðir í áfanga eru ekki sýnilegir (smelltu til að gera sýnilega)';
+$string['tt_showglobal'] = 'Vefviðburðir eru ekki sýnilegir (smelltu til að gera sýnilega)';
+$string['tt_showgroups'] = 'Hópviðburðir eru ekki sýnilegir (smelltu til að gera sýnilega)';
+$string['tt_showuser'] = 'Notendaviðburðir eru ekki sýnilegir (smelltu til að gera sýnilega)';
 $string['tue'] = 'Þri.';
 $string['tuesday'] = 'Þriðjudagur';
 $string['typecourse'] = 'Áfangabundinn viðburður';
@@ -90,6 +100,6 @@ $string['userevents'] = 'Viðburðir notanda';
 $string['wed'] = 'Mið.';
 $string['wednesday'] = 'Miðvikudagur';
 $string['yesterday'] = 'Í gær';
-$string['youcandeleteallrepeats'] = 'Þessi viðburður er hluti af endurteknum viðburðum. Þú getur eytt þessum staka viðburði, eða öllum $a viðburðunum í viðburðaröðinni.';
+$string['youcandeleteallrepeats'] = 'Þessi viðburður er hluti af röð endurtekinna viðburða. Þú getur eytt þessum staka viðburði, eða öllum $a viðburðunum í viðburðaröðinni.';
 
 ?>
