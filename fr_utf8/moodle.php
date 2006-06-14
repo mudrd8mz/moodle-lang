@@ -407,7 +407,7 @@ $string['emailformat'] = 'Format des courriels';
 $string['emailmustbereal'] = 'Remarque&nbsp;: votre adresse de courriel doit être valide';
 $string['emailnotallowed'] = 'Les adresses de courriel de ce domaine ne sont pas autorisées ($a)';
 $string['emailnotfound'] = 'Cette adresse de courriel n\'a pas été trouvée dans la base de données';
-$string['emailonlyallowed'] = 'Cette adresse de courriel ne fait pas partie de celle qui sont autorisées ($a)';
+$string['emailonlyallowed'] = 'Cette adresse de courriel ne fait pas partie de celles qui sont autorisées ($a)';
 $string['emailpasswordconfirmation'] = 'Bonjour,
 
 Quelqu\'un (probablement vous) a demandé un nouveau mot de passe pour votre compte sur « $a->sitename ».
