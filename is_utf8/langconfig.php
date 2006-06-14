@@ -1,5 +1,3 @@
-
-
 <?php
 $string['alphabet'] = 'A,&Aacute;,B,C,D,E,&Eacute;,F,G,H,I,&Iacute;,J,K,L,M,N,O,&Oacute;,P,Q,R,S,T,U,&Uacute;,V,W,X,Y,&Yacute;,Z,&THORN;,&AElig;,&Ouml;';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
