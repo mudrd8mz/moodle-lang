@@ -95,6 +95,7 @@ $string['notsettled'] = 'Non réglé';
 $string['orderid'] = 'No d\'ordre';
 $string['paymentmanagement'] = 'Gestion des paiements';
 $string['paymentpending'] = 'Votre paiement pour ce cours est en attente de traitement. Son numéro de commande est $a->orderid. Voir les <a href=\'$a->url\'>détails de la commande</a>.';
+$string['pendingorderssubject'] = 'ATTENTION : $a->pending commande(s) arriveront à échéance dans $a->days jour(s).'
 $string['pendingordersemail'] = 'Cher administrateur, Cher enseignant,
   	 
 $a->pending transactions arriveront à échéance à moins que vous
