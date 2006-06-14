@@ -10,6 +10,7 @@ $string['admincronsetup'] = 'Le script de maintenance cron.php n\'a pas été la
 $string['adminhelpcapturetitle'] = 'Jour de saisie programmée';
 $string['adminhelpreviewtitle'] = 'Contrôle de commande';
 $string['adminemailexpired'] = 'Ce réglage est utile si vous avez choisi la saisie manuelle. Les administrateurs sont avertis par courriel <b>$a</b> jours avant l\'échéance des commandes en attente de traitement.';
+$string['adminemailexpiredteacher'] = 'Si vous avez activé la saisie manuelle (voir ci-dessus) et si les enseignants peuvent gérer les paiements, ceux-ci peuvent être en outre avertis des commandes en suspend en voie d\'expiration. Un message leur sera envoyé par courriel contenant le nombre de commandes en suspens.';
 $string['adminemailexpsetting'] = '(0 = désactiver l\'envoi par courriel, par défaut = 2, max = 5)<br />(Réglage de saisie automatique requis pour l\'envoi des courriels&nbsp;: cron = activé, an_review = coché, an_capture_day = 0, an_emailexpired = 1-5)';
 $string['adminneworder'] = 'Cher administrateur,
   	 
@@ -79,7 +80,7 @@ $string['description'] = 'Le module Authorize.net permet de mettre en place des 
 $string['enrolname'] = 'Passerelle de paiement Authorize.net';
 $string['expired'] = 'Échu';
 $string['howmuch'] = 'Combien&nbsp;?';
-$string['httpsrequired'] = 'Votre requête ne peut pas être traitée. Les réglages du site n\'ont pas pu être configurés correctement.<br /><br />Veuillez NE PAS taper votre numéro de carte de  crédit, à moins que vous ne voyez un cadenas jaune au bas ou dans la barre d\'adresse de votre navigateur. Ce cadenas indique que toutes les données transmises entre votre ordinateur et le serveur sont chiffrées, et que les informations échangées entre ces deux ordinateurs sont protégées et ne peuvent pas être interceptées sur Internet.';
+$string['httpsrequired'] = 'Votre requête ne peut pas être traitée. Les réglages du site n\'ont pas pu être configurés correctement.<br /><br />Veuillez NE PAS taper votre numéro de carte de  crédit, à moins que vous ne voyez un cadenas au bas de la fenêtre ou dans la barre d\'adresse de votre navigateur. Ce cadenas indique que toutes les données transmises entre votre ordinateur et le serveur sont chiffrées, et que les informations échangées entre ces deux ordinateurs sont protégées et ne peuvent pas être interceptées sur Internet.';
 $string['logindesc'] = 'Cette option doit impérativement être activée&nbsp;!<br /><br />Veuillez vous assurer que l\'option «&nbsp;<a href=\"$a->url\">loginhttps</a>&nbsp;» soit activée dans les paramètres de l\'administration, section Sécurité.<br /><br />L\'activation de cette option permettra à Moodle d\'utiliser une connexion sécurisée pour l\'affichage et le traitement des pages de connexion et de paiement.';
 $string['missingaddress'] = 'L\'adresse n\'est pas renseignée';
 $string['missingcc'] = 'Le numéro de carte n\'est pas renseigné';
@@ -94,7 +95,7 @@ $string['notsettled'] = 'Non réglé';
 $string['orderid'] = 'No d\'ordre';
 $string['paymentmanagement'] = 'Gestion des paiements';
 $string['paymentpending'] = 'Votre paiement pour ce cours est en attente de traitement. Son numéro de commande est $a->orderid. Voir les <a href=\'$a->url\'>détails de la commande</a>.';
-$string['pendingordersemail'] = 'Cher administrateur,
+$string['pendingordersemail'] = 'Cher administrateur, Cher enseignant,
   	 
 $a->pending transactions arriveront à échéance à moins que vous
 n\'acceptiez le paiement dans les $a->days jours.
@@ -103,13 +104,13 @@ Ceci est un message d\'avertissement, car vous n\'avez pas activé
 la saisie programmée. Vous devez donc accepter ou refuser les paiements
 manuellement.
   	 
-Pour accpeter ou refuser les paiements en attente de traitement, veuillez
+Pour accepter ou refuser les paiements en attente de traitement, veuillez
 visiter la page
 
 $a->url
   	 
-Pour activer la saisie programmée, afin que vous ne receviez plus de tels
-messages d\avertissement, veuillez visiter la page
+Pour activer la saisie programmée (administrateurs uniquement), afin que
+vous ne receviez plus de tels messages d\avertissement, veuillez visiter la page
 
 $a->enrolurl';
 $string['reason11'] = 'Un doublon de transaction a été transmis.';
