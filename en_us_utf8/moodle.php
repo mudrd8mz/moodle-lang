@@ -11,6 +11,7 @@ $string['assignstudentspass'] = 'All you may need to do is notify your students 
 $string['backupmetacoursehelp'] = 'If enabled, then metacourse info (inherited enrollments) will be included in automated backups';
 $string['chooseenrolmethod'] = 'Primary method of enrollment';
 $string['enrolme'] = 'Enroll me in this course';
+$string['enrolmentconfirmation'] = 'You are about to enroll yourself as a member of this course.<br />Are you sure you wish to do this?';
 $string['enrolmentkey'] = 'Enrollment key';
 $string['enrolmentkeyfrom'] = 'This course requires an \'enrollment key\' - a one-time<br />
 password that you should have received from $a';
