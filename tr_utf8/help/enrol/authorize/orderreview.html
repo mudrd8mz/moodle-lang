@@ -1,0 +1,14 @@
+<p align="center"><strong>Kredi kartını işleme almadan önce siparişleri incelemek istiyorsanız bu ayarları kullanın.</strong></p>
+<p>Öğrenciler kart numaralarını girdiklerinde kursa hemen kaydolacaklarsa 'an_review' alanını seçili durumdan kaldırın.<br />
+   'an_review' alanını seçerseniz kredi kartından provizyon alınır ama çekilmez ve 2 seçeneğiniz olur:
+   'Elle-Çekme' ve 'Zamanlanmış-Çekme'.
+   <ul>
+      <li>Elle-Çekme için, an_capture_day alanına '0' girin. 30 gün içinde işlemi incelemezseniz iptal edilir.
+          Paniklenmeyin! İşiniz bizim için önemlidir. 'Email Gönderme Ayarları' bölümünde, CRONu doğru yapılandırdıysanız süresi dolacak olan siparişler için X gün önceden bilgilendirilirsiniz.</li>
+      <li>Zamanlanmış-Çekme için, an_capture_day alanına 1 ile 29 arasında bir sayı girin. CRONUN ETKİN OLDUĞUNUNDAN emin olun.
+          Kart çekilir ve öğrencinin kursa kaydı yapılır. Rahatınızı seviyorsanız zamanlanmış-çekme sistemi karttan an_capture_day gün sonra çeker. Şüpheci bir kişiyseniz,
+          yeni onay bekleyen sipariş hakkında e-posta aldıktan sonra ödemeyi kabul veya reddedebilirsiniz.
+          enrol_mailstudents seçiliyse kullanıcılara kursa hoşgeldiniz mesajı da gönderilir.</li>
+   </ul>
+</p>
+<p align="center"><strong>Moodle 1.6'da, Ödeme Yönetimi sayfasında siparişleri kabul/red/geri ödeme yapabilirsiniz.</strong></p>
