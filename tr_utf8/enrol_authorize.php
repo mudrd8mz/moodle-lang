@@ -106,6 +106,7 @@ $a->url
 Zamanlanmış-çekmeyi etkinleştirmek için (sadece yöneticiler için), artık uyarı mesajı almayacağınız anlamına gelir, bu adrese gidin:
 
 $a->enrolurl';
+$string['pendingorderssubject'] = 'UYARI: $a->pending siparişin $a->days gün içinde süresi dolacak.';
 $string['reason11'] = 'Aynı işlem gönderildi.';
 $string['reason13'] = 'Mağaza Giriş ID hatalı veya hesap etkin değil.';
 $string['reason16'] = 'İşlem bulunamadı.';
