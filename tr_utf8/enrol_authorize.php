@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6 Beta 5 (2006050503)
+      // enrol_authorize.php - created with Moodle 1.6 Beta 5 (2006050505)
 
 
 $string['adminacceptccs'] = 'Hangi kredi kartı tipleri kabul edilecek?';
@@ -10,6 +10,9 @@ $string['adminauthorizewide'] = 'Site Geneli Ayarları';
 $string['adminavs'] = 'Authorize.net hesabınızda AVS\'yi (Adres Doğrulama Sistemi) etkinleştirdiyseniz bunu seçin. Kullanıcı ödeme formunu doldururken cadde, ülke, posta kodu gibi adres alanları istenir.';
 $string['admincronsetup'] = 'Cron.php bakım betiği son 24 saattir çalışmıyor. <br />Zamanlanmış-çekme özelliğini kullanmak istiyorsanız cron etkin olmalı.<br />\'Authorize.net eklentisini\' <b>etkinleştirin</b> ve <b>cronu</b> düzgün ayarlayın; ya da an_review\'i tekrar <b>seçili durumdan kaldırın.</b><br />Zamanlanmış-çekmeyi etkinleştirmezseniz ve 30 gün içinde işlemleri incelemezseniz işlem iptal edilir.<br />Ödemeleri 30 gün içinde <b>elle</b> kabul etmek veya iptal etmek istiyorsanız <b>an_review\'i seçin</b> ve <b>an_capture_day alanına \'0\'</b> girin.';
 $string['adminemailexpired'] = 'Bu \'Elle-Çekme\' için kullanışlıdır. Yöneticiler, onay bekleyen siparişlerin süresi dolmadan <b>$a</b> gün önce bilgilendirilir.';
+$string['adminemailexpiredsort'] = 'Süresi dolacak siparişlerin sayısı emaille eğitimcilere gönderilirken hangisi önemli?';
+$string['adminemailexpiredsortcount'] = 'Siparişlerin sayısı';
+$string['adminemailexpiredsortsum'] = 'Ücretlerin toplamı';
 $string['adminemailexpiredteacher'] = '\'Elle-çekmeyi\' etkinleştirdiyseniz (yukarıya bakınız) ve eğitimciler ödemeleri yönetebiliyorsa, eğitimciler süresi dolmak üzere olan siparişler hakkında bilgilendirilebilir. Bu, her bir kurs eğitimcisine süresi dolmak üzere olan siparişler hakkında e-posta gönderecektir.';
 $string['adminemailexpsetting'] = '(0=email gönderme pasif, varsayılan=2, en fazla=5)<br />(E-posta gönderme için elle-çekme ayarları: cron=etkin, an_review=seçili, an_capture_day=0, an_emailexpired=1-5)';
 $string['adminhelpcapturetitle'] = 'Zamanlanmış-Çekme Günü';
