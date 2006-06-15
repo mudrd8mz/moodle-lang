@@ -96,7 +96,7 @@ $string['notsettled'] = 'Karara bağlanmamış';
 $string['orderid'] = 'Sipariş ID';
 $string['paymentmanagement'] = 'Ödeme Yönetimi';
 $string['paymentpending'] = '$a->orderid numaralı ödemeniz bu kurs için onay bekliyor. <a href=\'$a->url\'>Sipariş Ayrıntılarına</a> bakabilirsiniz.';
-$string['pendingordersemail'] = 'Değerli yönetici/eğitimci,
+$string['pendingordersemail'] = 'Değerli yönetici,
 
 $a->days gün içinde onay bekleyen $a->pending işlemi kabul etmezseniz süresi dolacak ve iptal edilecek.
 
@@ -106,9 +106,16 @@ Zamanlanmış-çekmeyi etkinleştirmediğiniz için bu uyarı mesajı size gönd
 
 $a->url
 
-Zamanlanmış-çekmeyi etkinleştirmek için (sadece yöneticiler için), artık uyarı mesajı almayacağınız anlamına gelir, bu adrese gidin:
+Zamanlanmış-çekmeyi etkinleştirmek için, artık uyarı mesajı almayacağınız anlamına gelir, bu adrese gidin:
 
 $a->enrolurl';
+$string['pendingordersemailteacher'] = 'Değerli eğitimci,
+
+$a->sumcost $a->currency tutan $a->pending işlemi $a->days gün içinde kabul etmezseniz süresi dolacak.
+
+Yönetici zamanlanmış-çekmeyi etkinleştirmediği için ödemeleri elle kabul veya reddetmek zorundasınız.
+
+$a->url';
 $string['pendingorderssubject'] = 'UYARI: $a->pending siparişin $a->days gün içinde süresi dolacak.';
 $string['reason11'] = 'Aynı işlem gönderildi.';
 $string['reason13'] = 'Mağaza Giriş ID hatalı veya hesap etkin değil.';
