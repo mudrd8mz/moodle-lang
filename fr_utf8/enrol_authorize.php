@@ -100,8 +100,8 @@ $string['paymentmanagement'] = 'Gestion des paiements';
 $string['paymentpending'] = 'Votre paiement pour ce cours est en attente de traitement. Son numéro de commande est $a->orderid. Voir les <a href=\'$a->url\'>détails de la commande</a>.';
 $string['pendingordersemail'] = 'Cher administrateur,
   	 
-$a->pending transactions arriveront à échéance dans les $a->days jours,
-à moins que vous n\'acceptiez le paiement.
+$a->pending transactions pour le cours $a->course arriveront à échéance
+dans les $a->days jours, à moins que vous n\'acceptiez le paiement.
 
 Ceci est un message d\'avertissement, car vous n\'avez pas activé
 la saisie programmée. Vous devez donc accepter ou refuser les paiements
@@ -118,9 +118,9 @@ tels messages d\avertissement, veuillez visiter la page
 $a->enrolurl';
 $string['pendingordersemailteacher'] = 'Cher enseignant,
   	 
-$a->pending transactions d\'un montant total de $a->currency $a->sumcost
-arriveront à échéance dans les $a->days jours, à moins que vous
-n\'acceptiez le paiement.
+$a->pending transactions d\'un montant total de $a->currency $a->sumcost,
+pour le cours $a->course, arriveront à échéance dans les $a->days jours,
+à moins que vous n\'acceptiez le paiement.
 
 Vous devez donc accepter ou refuser les paiements manuellement, car
 l\'administrateur n\'a pas activé leur saisie programmée. 
@@ -129,7 +129,7 @@ Pour accepter ou refuser les paiements en attente de traitement, veuillez
 visiter la page
 
 $a->url';
-$string['pendingorderssubject'] = 'ATTENTION : $a->pending commande(s) arriveront à échéance dans $a->days jour(s).';
+$string['pendingorderssubject'] = 'ATTENTION : $a->course, $a->pending commande(s) arriveront à échéance dans $a->days jour(s).';
 $string['reason11'] = 'Un doublon de transaction a été transmis.';
 $string['reason13'] = 'L\'identifiant de connexion n\'est pas valide ou le compte est inactif.';
 $string['reason16'] = 'La transaction n\'a pas été trouvée.';
