@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 dev (2006060400)
+      // assignment.php - created with Moodle 1.7 dev (2006060900)
 
 
-$string['allowresubmit'] = '再提出を許可する';
+$string['allowresubmit'] = '課題の再提出を許可する';
 $string['assignmentdetails'] = '課題の詳細';
 $string['assignmentmail'] = '$a->teacher があなたの課題「 $a->assignment 」に対するフィードバックを登録しました。
 
@@ -37,13 +37,13 @@ $string['feedback'] = 'フィードバック';
 $string['feedbackfromteacher'] = '$a のフィードバック';
 $string['feedbackupdated'] = '$a の参加者に対するフィードバックの更新';
 $string['graded'] = '評定済み';
-$string['guestnosubmit'] = '申し訳ございません、ゲストは課題を提出できません。課題を提出するにはログインまたはユーザ登録してください。';
+$string['guestnosubmit'] = '申し訳ございません、ゲストは課題を提出できません。課題を提出するには、ログインまたはユーザ登録してください。';
 $string['guestnoupload'] = '申し訳ございません、ゲストはアップロードできません。';
 $string['helpoffline'] = '<p>このタイプの課題は、Moodleの外で課題が行われるときに便利です。他のウェブサイト上での課題、対面により課される課題が考えられます。</p>
 <p>学生は課題の説明を読むことはできますが、ファイル等をアップロードすることはできません。評定は通常どおり動作し、評定に関する通知メールが学生宛に送信されます。</p>';
 $string['helponline'] = '<p>このタイプの課題は、ユーザに通常の編集ツールを使用したテキストの編集を求めます。教師はオンラインでこれらを評定でき、インラインコメントの追加・変更を行うこともできます。</p>
 <p>(  あなたが古いバージョンのMoodleに慣れているのでしたら、このタイプの課題は古い日誌モジュールと同じように動作すると考えてください。 )</p>';
-$string['helpuploadsingle'] = '<p>このタイプの課題では、各参加者があらゆる種類の単一ファイルをアップロードすることができます。</p> <p>ワードプロセッサ文書、イメージ、ZIP圧縮したウェブサイト、その他あなたが参加者に提出するように求めたファイルです。</p>';
+$string['helpuploadsingle'] = '<p>このタイプの課題では、各参加者があらゆる種類の単一ファイルをアップロードすることができます。</p> <p>ワードプロセッサ文書、イメージ、ZIP圧縮したウェブサイト、その他あなたが参加者に提出するよう求めたファイルです。</p>';
 $string['late'] = '$a 遅く提出';
 $string['maximumgrade'] = '最大評価';
 $string['maximumsize'] = '最大サイズ';
@@ -51,10 +51,10 @@ $string['modulename'] = '課題';
 $string['modulenameplural'] = '課題';
 $string['newsubmissions'] = '課題が提出されました。';
 $string['noassignments'] = '課題はまだありません。';
-$string['noattempts'] = 'この課題には提出物がありません。';
+$string['noattempts'] = 'この課題はまだ提出されていません。';
 $string['notgradedyet'] = '未評価';
 $string['notsubmittedyet'] = '未提出';
-$string['overwritewarning'] = '注意: 再度アップロードすることにより現在の提出物は置き換えられます。';
+$string['overwritewarning'] = '注意: 再度アップロードすることにより現在の提出課題は置き換えられます。';
 $string['pagesize'] = '1ページあたりの提出課題数';
 $string['preventlate'] = '提出期限後の課題提出を許可しない';
 $string['quickgrade'] = 'クイック評定を許可';
@@ -72,12 +72,12 @@ $string['typeuploadsingle'] = '単一ファイルのアップロード';
 $string['uploadbadname'] = '不正な文字がファイル名に含まれているため、このファイルをアップロードできませんでした。';
 $string['uploadedfiles'] = 'ファイルをアップロードしました。';
 $string['uploaderror'] = 'サーバにファイルの保存中にエラーが発生しました。';
-$string['uploadfailnoupdate'] = 'ファイルはアップロードされましたが提出物の更新はできませんでした!';
-$string['uploadfiletoobig'] = '申し訳ございません、ファイルサイズが制限を越えています ( $a バイト以内 )';
-$string['uploadnofilefound'] = 'ファイルが見つかりませんでした - 実際に存在するファイルですか?';
-$string['uploadnotregistered'] = '「 $a 」は正常にアップロードされましたが登録されませんでした!';
-$string['uploadsuccess'] = '「 $a 」のアップロードが完了しました。';
-$string['viewfeedback'] = '課題の評価とフィードバックを確認する';
+$string['uploadfailnoupdate'] = 'ファイルはアップロードされましたが、提出課題は更新できませんでした!';
+$string['uploadfiletoobig'] = '申し訳ございません、ファイルサイズが制限を越えています ( 制限は $a バイトです )';
+$string['uploadnofilefound'] = 'ファイルが見つかりませんでした - アップロードするファイルを選択しましたか?';
+$string['uploadnotregistered'] = '「 $a 」は正常にアップロードされましたが、登録されませんでした!';
+$string['uploadsuccess'] = '「 $a 」のアップロードが正常に完了しました。';
+$string['viewfeedback'] = '提出課題の評価とフィードバックを確認する';
 $string['viewsubmissions'] = '$a 件の提出課題を確認する';
 $string['yoursubmission'] = 'あなたの提出課題';
 
