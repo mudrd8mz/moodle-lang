@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.7 dev (2006060400)
+      // workshop.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['absent'] = '欠席';
@@ -16,7 +16,7 @@ $string['allowresubmit'] = '課題の再提出を許可';
 $string['allsubmissions'] = 'すべての提出課題';
 $string['alreadyinphase'] = 'すでにフェーズ $a　に達しています。';
 $string['amendassessmentelements'] = '評価要素を更新する';
-$string['amendtitle'] = '提出課題名の変更';
+$string['amendtitle'] = '課題名の変更';
 $string['analysis'] = '分析';
 $string['analysisofassessments'] = '評価分析';
 $string['assess'] = '評価';
@@ -169,8 +169,8 @@ $string['noteonassessmentelements'] = '評価は数多くの「評価要素」�
 ことができます。要素自体は「評価の管理」画面で変更できます。';
 $string['noteonstudentassessments'] = '{学生の評点/評価のための評定点';
 $string['notgraded'] = '評定なし';
-$string['notitle'] = '提出課題名なし';
-$string['notitlegiven'] = '提出課題名がありません。';
+$string['notitle'] = '課題名なし';
+$string['notitlegiven'] = '課題名がありません。';
 $string['notsubmittedyet'] = 'まだ提出課題はありません。';
 $string['nowork'] = '提出期限が終了しました。<br />あなたは課題を提出していません。';
 $string['numberofassessmentelements'] = 'コメント数、評価要素数、評価の幅、クリテリオン・ステートメントまたはルーブリックのカテゴリ数';
@@ -285,7 +285,7 @@ $string['thegradeis'] = '評点';
 $string['theseasessmentsaregradedbytheteacher'] = 'これらの評価は $a により評定されます。';
 $string['thisisadroppedassessment'] = 'これは除外された評価です。';
 $string['timeassessed'] = '評価時間';
-$string['title'] = '提出課題名';
+$string['title'] = '課題名';
 $string['typeofscale'] = '評価尺度のタイプ';
 $string['unassessed'] = '$a 未評価';
 $string['ungradedassessments'] = '$a 未評定評価';
