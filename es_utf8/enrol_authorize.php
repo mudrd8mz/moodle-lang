@@ -10,6 +10,10 @@ $string['adminauthorizewide'] = 'Ajustes Todo el Sitio';
 $string['adminavs'] = 'Compruebe esto si tiene activado el Sistema de Verificación de Direcciones (AVS, Address Verification System) en su cuenta authorize.net. Este sistema requiere campos de dirección tales como calle, estado, país y código postal cuando el usuario rellena el formulario de pago.';
 $string['admincronsetup'] = 'El script de mantenimiento cron.php no ha sido ejecutado durante al menos 24 horas. <br />El cron debe estar habilitado si quiere usar la característica de captura programada.<br /><b>Active adecuadamente el</b> \'Authorize.net plugin\' y <b>setup cron</b>; o bien el <b>uncheck an_review</b> de nuevo.<br />Si desactiva la captura programada, las transacciones serán canceladas a menos que las revise dentro de los próximos 30 días.<br />Compruebe<b>an_review</b> y escriba <b>\'0\' en el campo an_capture_day</b> <br />si desea aceptar o denegar  <b>manualmente</b> los pagos en los próximos 30 días.';
 $string['adminemailexpired'] = 'Enviar un email de advertencia a los administradores <b>$a</b> días ';
+$string['adminemailexpiredsort'] = 'Cuando el número de órdenes a expirar pendientes se envían a los profesores por email, ¿cuál es importante?';
+$string['adminemailexpiredsortcount'] = 'El número de órdenes';
+$string['adminemailexpiredsortsum'] = 'La cantidad total';
+$string['adminemailexpiredteacher'] = 'Si usted ha habilitado la captura manual (ver más arriba) y los profesores pueden manejar los pagos, se puede también notificar al profesor las órdenes pendientes a expirar. Se enviará un email a los profesores de cada curso informándoles de cuántas órdenes están pendientes de expiración.';
 $string['adminemailexpsetting'] = '(0=deshabilitar envío de email, por defecto=2, máx.=5)<br />(Ajustes de captura manual para enviar email: cron=habilitado, an_review=marcado, an_capture_day=0, an_emailexpired=1-5)';
 $string['adminhelpcapturetitle'] = 'Día de captura programada';
 $string['adminhelpreviewtitle'] = 'Revisión de orden';
@@ -100,10 +104,23 @@ $string['pendingordersemail'] = 'Estimado administrador,
 
 $a->pending transacciones expirarán a menos que usted acepte el pago dentro de los próximos $a->days días.
 
-Éste es un mensaje de advertencia, debido a que usted no ha habilitado la captura programada.
+Éste es un mensaje de advertencia, debido a que usted no ha habilitado la captura programada, lo que significa que tiene que aceptar o rechazar los pagos manualmente.
 
 Para aceptar o rechazar pagos pendientes, vaya a:
+$a->url
+
+Para habilitar la captura programada (lo que significa que usted no recibirá en el futuro ningún email de advertencia), vaya a:
+
+$a->enrolurl';
+$string['pendingordersemailteacher'] = 'Estimado profesor,
+
+$a->pending transacciones por un costo de $a->currency $a->sumcost para el curso \"$a->course\"
+expirarán a menos que usted acepte el pago dentro de los próximos $a->days días.
+
+Usted tiene que aceptar o rechazar los pagos manualmente debido a que el administrador no tiene habilitada la captura programada.
+
 $a->url';
+$string['pendingorderssubject'] = 'ATENCIÓN: $a->course, $a->pending orden(es) expirarán en $a->days día(s).';
 $string['reason11'] = 'Se ha enviado una transacción duplicada';
 $string['reason13'] = 'La ID del login del proveedor no es válida o la cuenta está inactiva.';
 $string['reason16'] = 'La transacción no se ha encontrado.';
