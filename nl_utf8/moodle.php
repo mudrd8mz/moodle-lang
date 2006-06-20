@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006050502)
+      // moodle.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['action'] = 'Actie';
@@ -883,6 +883,7 @@ $string['nopotentialadmins'] = 'Geen mogelijke beheerders';
 $string['nopotentialcreators'] = 'Geen mogelijke cursus-aanmakers';
 $string['nopotentialstudents'] = 'Geen mogelijke leerlingen';
 $string['nopotentialteachers'] = 'Geen mogelijke leraren';
+$string['norecentactivity'] = 'Geen recente activiteit';
 $string['noreplybouncemessage'] = 'Je hebt geantwoord op een niet-beantwoorden e-mailadres. Als je probeerde te antwoorden op een forumbericht, doe dat dan door gebruik te maken van de $a forums.
 
 Dit was de inhoud van je e-mail:';
@@ -1042,6 +1043,7 @@ $string['restorecancelled'] = 'Backup terugzetten geannuleerd';
 $string['restorecoursenow'] = 'Deze cursus nu terugzetten!';
 $string['restorefinished'] = 'Terugzetten was succesvol';
 $string['restoreto'] = 'Zet de backup terug naar';
+$string['restricted'] = 'Beperkt';
 $string['restrictmodules'] = 'Activiteitenmodules beperken?';
 $string['returningtosite'] = 'Al eerder op deze website geweest?';
 $string['revert'] = 'Keer terug';

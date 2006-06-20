@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // admin.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['adminseesallevents'] = 'Beheerders zien alle gebeurtenissen';
@@ -106,7 +106,7 @@ $string['configsectionuser'] = 'Gebruiker';
 $string['configsecureforms'] = 'Moodle kan een extra beveiliging toepassen wanneer het gegevens aanneemt van webformulieren. Als je dit inschakelt, dan wordt de variable HTTP_REFERER vergeleken met het huidige formulieradres. In zeldzame gevallen kan dit problemen veroorzaken als de gebruiker een firewall gebruikt (zoals Zonealarm) die geconfigureerd is om HTTP_REFERER uit het webverkeer te filteren. Het symptoom is: vastgeraken op een formulier. Als je gebruikers problemen hebben met de inlogpagina (bijvoorbeeld) dan zou je kunnen overwegen om deze instelling uit te zetten, hoewel dit je site meer blootstelt aan brute kracht-aanvallen op je wachtwoord. Bij twijfel laat je deze instelling op \'ja\' staan.';
 $string['configsessioncookie'] = 'Met deze instelling kun je de naam van de cookie die gebruikt wordt voor Moodlesessies, aanpassen. Deze instelling is optioneel en enkel nuttig om te verhinderen dat cookies in conflict komen wanneer meer dan één exemplaar van Moodle binnen dezelfde website draait.';
 $string['configsessioncookiepath'] = 'Als het nodig is dat je de standaardlocatie naar waar browsers de Moodle cookies sturen wijzigt, dan kun je hier een subdirectory van je website instellen. Normaal gezien is de standaard \'/\' goed.';
-$string['configsessiontimeout'] = 'Als mensen die ingelogd zijn op deze site voor een lange tijd niets doen (ze laden geen nieuwe pagina\'s) worden ze automatisch uitgelogd (hun sessie is beëindigd). Deze variabele geeft aan hoe lang deze tijd moet zijn. ';
+$string['configsessiontimeout'] = 'Als mensen die ingelogd zijn op deze site voor een lange tijd niets doen (ze laden geen nieuwe pagina\'s) worden ze automatisch uitgelogd (hun sessie is beëindigd). Deze variabele geeft aan hoe lang deze tijd moet zijn.';
 $string['configshowblocksonmodpages'] = 'Sommige modules ondersteunen blokken op hun pagina\'s. Als je dit inschakelt, dan kunnen leraren blokken aan de zijkant van deze pagina\'s zetten, anders toont de interface deze functie niet.';
 $string['configshowsiteparticipantslist'] = 'Al deze siteleerlingen en siteleraren zullen op de deelnemerslijst gezet worden. Wie zal er toelating krijgen om deze lijst met sitedeelnemers te zien?';
 $string['configsitemailcharset'] = 'Alle e-mails die door je site gegenereerd worden, zullen in de tekenset die je hier specifieerd verstuurd worden. Elke gebruiker kan deze instelling wijzigen als voor de volgende instelling ja gekozen wordt.';
@@ -164,7 +164,7 @@ $string['helpupcomingmaxevents'] = 'Hoeveel aankomende activiteiten worden er ma
 $string['helpweekenddays'] = 'Welke dagen van de week worden als \"weekend\" beschouwd en dus in een andere kleur getoond?';
 $string['iconvrecommended'] = 'Als je site andere talen dan die uit de Latin1 tekenset gebruikt, dan is het installeren van de optionele ICONV library ten zeerste aangeraden om de performantie van de site te verhogen.';
 $string['importlangreminder'] = 'Het migratieproces van de databank is begonnen. Nadien zul je opnieuw moeten <b>aanmelden</b> om de upgrade af te ronden. 
-Installeer onmiddellijk <b>na</b> de migratie nieuwe taalpakketten via Beheer->Taal->Taalpaketten importeren. ';
+Installeer onmiddellijk <b>na</b> de migratie nieuwe taalpakketten via Beheer->Taal->Taalpaketten importeren.';
 $string['importtimezones'] = 'Update de volledige lijst van tijdzones';
 $string['importtimezonescount'] = '$a->count items geïmporteerd van $a->source';
 $string['importtimezonesfailed'] = 'Geen bronnen gevonden! (= slecht nieuws)';
@@ -212,6 +212,7 @@ $string['pathtopsqldesc'] = 'Dit is enkel nodig als je meer dan één psql op je
 $string['pathtopsqlinvalid'] = 'Ongeldig pad naar psql - ofwel verkeerd pad ofwel niet uitvoerbaar';
 $string['pgcluster'] = 'PostgreSQL Cluster';
 $string['pgclusterdescription'] = '<pre>PostgeSQL versie/cluster parameter voor operaties via commandprompt. Als je slechts één PostgreSQL op je systeem hebt of je weet niet wat dit is, laat dit veld dan leeg.</pre>';
+$string['php50restricted'] = 'PHP 5.0.x heeft een heel aantal bekende problemen. Upgrade naar 5.1.x of downgrade naar 4.3.x of 4.4.x';
 $string['pleaseregister'] = 'Registreer aub je site.  Op die manier kun je deze knop verwijderen.';
 $string['releasenoteslink'] = 'Bekijk de on line <a target=\"_new\" href=\"$a\">Release Notes</a> voor informatie over deze versie van Moodle.';
 $string['remotelangnotavailable'] = 'Het is niet mogelijk om automatisch taalpakketten te installeren, omdat Moodle geen verbinding kan maken met Moodle.org. Download daarom de nodige zipbestanden uit onderstaande lijst, copieer ze naar je $a map en unzip ze daar.';
@@ -230,7 +231,7 @@ $string['stickyblockspagetype'] = 'Te configureren paginatype';
 $string['tabselectedtofront'] = 'Moet bij tabellen met tabs de nu geselecteerde tab vooraan gezet worden?';
 $string['therewereerrors'] = 'Er waren fouten in je gegevens';
 $string['timezoneforced'] = 'Dit is opgelegd door de sitebeheerder';
-$string['timezoneisforcedto'] = 'Iedereen gebruikt ';
+$string['timezoneisforcedto'] = 'Iedereen gebruikt';
 $string['timezonenotforced'] = 'Gebruikers kunnen hun eigen tijdzone kiezen';
 $string['unicodeupgradenotice'] = 'In Moodle 1.6 zijn alle talen naar Unicode gemigreerd. Om het upgradeproces van deze site af te werken, moet je alle gegevens in de databank naar Unicode converteren door ons migratiescript. <a href=\"utfdbmigrate.php\">Klik hier om het migratiescript nu te starten</a>!';
 $string['uninstall'] = 'Verwijder het geselecteerde taalpakket';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.6 development (2006031000)
+      // access.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['access'] = 'Toegankelijkheid';
@@ -11,12 +11,12 @@ $string['monthnext'] = 'Volgende maand';
 $string['monthprev'] = 'Vorige maand';
 $string['showhideblock'] = 'Toon of verberg blok';
 $string['sitemap'] = 'Site kaart';
+$string['skipa'] = 'Sla $a over';
 $string['skipblock'] = 'Sla een blok over';
 $string['skipnavigation'] = 'Sla navigatie over';
 $string['tabledata'] = 'Gegevenstabel, $a';
 $string['tablelayout'] = 'Opmaaktabel, $a';
 $string['tocontent'] = 'Ga naar hoofdinhoud';
-$string['today'] = 'Vandaag';
 $string['tonavigation'] = 'Ga naar navigatie';
 $string['youarehere'] = 'Je bent hier';
 

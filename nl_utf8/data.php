@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006050500)
+      // data.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['action'] = 'Actie';
@@ -145,6 +145,7 @@ $string['resizingimages'] = 'Tumbnails van afbeeldingen herschalen';
 $string['rssglobaldisabled'] = 'Uitgeschakeld. Controleer de configuratievariablen van de site';
 $string['rsshowmany'] = '(aantal te tonen recente items, 0 om RSS uit te schakelen';
 $string['rsstemplate'] = 'RSS-sjabloon';
+$string['rsstitletemplate'] = 'RSS titelsjabloon';
 $string['save'] = 'Bewaar';
 $string['saveandadd'] = 'Bewaar en voeg nog één toe';
 $string['saveandview'] = 'Bewaar en bekijk';
