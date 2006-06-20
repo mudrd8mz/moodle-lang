@@ -39,6 +39,7 @@ $string['configdenyemailaddresses'] = 'Pour interdire les adresses de courriel d
 $string['configdigestmailtime'] = 'Les utilisateurs désirant recevoir un courriel contenant tous les messages des forums le recevront quotidiennement. Ce réglage détermine l\'heure de la journée à laquelle le courriel sera envoyé (la tâche cron s\'exécutant immédiatement après cette heure enverra le message).';
 $string['configdisplayloginfailures'] = 'Ceci permet d\'afficher les informations sur les tentatives de connexion des utilisateurs sélectionnés.';
 $string['configdocroot'] = 'Définit l\'URL du site de documentation Moodle. Vous pouvez modifier cette adresse, si vous disposez de votre propre documentation en ligne. Cependant, si vous la modifiez, assurez-vous que les chemins d\'accès de votre documentation soient de la même forme que sur http://docs.moodle.org/.';
+$string['configdoctonewwindow'] = 'Après activation de ce réglage, les liens vers Moodle Docs s\'ouvriront dans une nouvelle fenêtre.';
 $string['configenablecourserequests'] = 'Vous permettrez ainsi à tous les utilisateurs de faire des demandes de création de cours.';
 $string['configenablerssfeeds'] = 'Activation des flux RSS pour tout le site. Il est également nécessaire d\'activer les flux RSS des différents modules - voyez l\'option Blocs sous Administration -> Configuration.';
 $string['configenablerssfeedsdisabled'] = 'Non disponible, car les flux RSS ne sont pas activés pour le site. Pour les activer, voyez l\'option Paramètres techniques sous Administration -> Configuration.';
