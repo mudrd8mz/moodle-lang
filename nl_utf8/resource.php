@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 dev (2006050502)
+      // resource.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['addresource'] = 'Bron toevoegen';
@@ -26,8 +26,8 @@ $string['configpopupwidth'] = 'Hoe breed zou een popup-venster standaard moeten 
 $string['configsecretphrase'] = 'Deze geheime zin wordt gebruikt om de geëncrypteerde code te genereren die naar sommige bronnen als een parameter kan meegestuurd worden. De geëncrypteerde code wordt gemaakt met een md5-waarde van het IP-adress van de huidige gebruiker samen met je geheime zin. ie code = md5(IP.secretphrase). Dit laat de bron op de bestemming toe de connectie te controleren voor extra veiligheid.';
 $string['configwebsearch'] = 'Wanneer je een URL als webpagina of link toevoegt, wordt deze plaats aangeboden als een site om de gebruiker te helpen de URL te zoeken.';
 $string['configwindowsettings'] = 'Dit stelt de standaardwaarden voor het \"Venster\" instellingspaneel van het formulier voor het invoeren van nieuwe bronnen. De voorkeur van de individuele gebruiker wordt na een eerste toegang verder gebruikt.';
-$string['deploy'] = 'Verdeel';
-$string['deployall'] = 'Verdeel alles';
+$string['deploy'] = 'Publiceer';
+$string['deployall'] = 'Publiceer alles';
 $string['directlink'] = 'Rechtstreekse link naar dit bestand';
 $string['directoryinfo'] = 'Alle bestanden in de gekozen map zullen getoond worden.';
 $string['display'] = 'Venster';
@@ -72,12 +72,12 @@ $string['newwindow'] = 'Nieuw venster';
 $string['newwindowopen'] = 'Toon deze bron in een popup-venster';
 $string['next'] = 'Volgende';
 $string['notallowedlocalfileaccess'] = 'Toegang tot lokale bestanden is op dit moment uitgeschakeld. Deze bron is dus niet beschikbaar.';
-$string['notdeployed'] = 'Niet verdeeld';
+$string['notdeployed'] = 'Niet gepubliceerd';
 $string['note'] = 'Aantekening';
 $string['notefile'] = 'Gebruik <a href=\"$a\">Bestandsbeheer</a> om meer bestanden naar de cursus te uploaden (zodat ze in deze lijst verschijnen).';
 $string['notypechosen'] = 'Je moet een soort kiezen. Gebruik de \'Back\'-knop om terug te gaan en het opnieuw te proberen.';
 $string['packagechanged'] = 'Dit IMS-pakket is gewijzigd.';
-$string['packagenotdeplyed'] = 'Dit IMS-pakket is niet verdeeld.';
+$string['packagenotdeplyed'] = 'Dit IMS-pakket is niet gepubliceerd.';
 $string['pagedisplay'] = 'Toon deze bron in het huidige venster';
 $string['pagewindow'] = 'Zelfde venster';
 $string['pan'] = 'Pan';
@@ -87,7 +87,7 @@ $string['popupresource'] = 'Deze bron zou in een popup-venster moeten verschijne
 $string['popupresourcelink'] = 'Als ze dat niet deed, klik hier: $a';
 $string['preview'] = 'Voorbeeld';
 $string['previous'] = 'Vorige';
-$string['redeploy'] = 'Opnieuw verdelen';
+$string['redeploy'] = 'Opnieuw publiceren';
 $string['repository'] = 'IMS-bibliotheek';
 $string['resourcetype'] = 'Soort bron';
 $string['resourcetype1'] = 'Verwijzing';
