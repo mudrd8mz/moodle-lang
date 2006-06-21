@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.7 dev (2006060400)
+      // wiki.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['action'] = '-- アクション --';
@@ -65,7 +65,7 @@ $string['fetchback'] = '取り戻し編集';
 $string['file'] = 'ファイル';
 $string['filedownload'] = 'ファイルダウンロード';
 $string['fileisoftype'] = 'ファイルタイプ';
-$string['filtername'] = 'Wikiページ自動リンク';
+$string['filtername'] = 'Wikiページオートリンク';
 $string['flagbin'] = 'BIN';
 $string['flaghtm'] = 'HTM';
 $string['flagoff'] = 'OFF';
@@ -178,7 +178,7 @@ $string['wantedpages'] = '執筆が望まれているページ';
 $string['wikidefaultpagename'] = 'Wikiインデックス';
 $string['wikiexport'] = 'ページのエクスポート';
 $string['wikiexportcomment'] = 'エクスポートに関する設定を行ってください。';
-$string['wikilinkoptions'] = 'Wiki自動リンクオプション';
+$string['wikilinkoptions'] = 'Wikiオートリンクオプション';
 $string['wikilinks'] = 'Wikiリンク';
 $string['wikiname'] = 'ページ名';
 $string['wikistartederror'] = 'すでにエントリが存在します - 変更できません。';

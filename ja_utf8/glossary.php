@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7 dev (2006060400)
+      // glossary.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -38,7 +38,7 @@ $string['cnfdefaultmode'] = '用語集が表示される時のデフォルトフ
 $string['cnffullmatch'] = 'エントリがリンクの場合、ターゲットテキストと文字の大小 ( 大文字・小文字 ) を合わせる。';
 $string['cnflinkentry'] = 'デフォルトでエントリを自動的にリンクさせる。';
 $string['cnflinkglossaries'] = 'デフォルトで用語集を自動的にリンクさせる。';
-$string['cnfrelatedview'] = '自動リンクおよびエントリ表示における表示形式を選択してください。';
+$string['cnfrelatedview'] = 'オートリンクおよびエントリ表示における表示形式を選択してください。';
 $string['cnfshowgroup'] = 'グループ区切りを表示するかどうかを指定してください。';
 $string['cnfsortkey'] = 'デフォルトの並び替えキーを選択してください。';
 $string['cnfsortorder'] = 'デフォルトの並び替え順を選択してください。';
