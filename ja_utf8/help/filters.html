@@ -11,11 +11,13 @@
 
 <div class="indent">
 <p>Tex表記法は、主にMoodleリソースにインラインの数式を生成するため使用されます。例えば $$ sqrt(a+b) $$ ( $$ は、このフォーマットの開始および終了「タグ」です ) のように記述します。</p>
-<p>Moodleは、あなたのシステムに設定する必要のある画像を、外部バイナリを使用してレンダリングします。フィルタは、最初にLaTeXレンダー ( 同様に、このメソッドではGhostscriptが必須です ) そして失敗した場合は、Moodleディストリビューションに含まれた類似の<i>miktex</i>バイナリを使用します。miktexが数学的サブセットのみをサポートするのに対して、LaTexはすべてのレンジのシンタックスを許可します。</p>
+<p>Moodleは、あなたのシステムに設定する必要のある画像を、外部バイナリを使用してレンダリングします。フィルタは、最初にLaTeXレンダー ( 同様に、このメソッドではGhostscriptが必須です ) そして失敗した場合は、Moodleディストリビューションに含まれた類似の<i>mimetex</i>バイナリを使用します。mimetexが数学的サブセットのみをサポートするのに対して、LaTexはすべてのレンジのシンタックスを許可します。</p>
+<p>GhostscriptはWindowsで利用でき、LaTeXに実装されたMikTeXも利用できます。</p>
 <p>設定ページでは、LaTexおよびGhostscriptバイナリパス、同時にLaTeX preambleの設定を行うことができます。</p>
 <p><b>詳細情報</b></p>
-<p><a href="http://www.miktex.org/">MiKTeX</a><br/>
-<a href="http://www.latex-project.org/">LaTeX</a><br/>
+<p><a href="http://www.miktex.org/">MiKTeX</a><br/ >
+<a href="http://www.forkosh.com/mimetex.html">MimeTeX</a><br />
+<a href="http://www.latex-project.org/">LaTeX</a><br/ >
 <a href="http://www.ghostscript.com/">ghostscript</a></p>
 </div>
 
