@@ -395,5 +395,19 @@ $string['xml'] = 'Формат Moodle XML';
 $string['xmltypeunsupported'] = 'Тип вопроса $a не поддерживается XML-импортом';
 $string['yourfinalgradeis'] = 'Ваша итоговая оценка за этот тест: $a';
 $string['zerosignificantfiguresnotallowed'] = 'Верный ответ не может иметь ноль значимых цифр!';
+$string['backtoquestionlist'] = 'Назад к списку вопросов';
+$string['changessaved'] = 'Оценка сохранена';
+$string['comments'] = 'Коментарии';
+$string['editingessay'] = 'Редактирование Эссе';
+$string['essay'] = 'Эссе';
+$string['essayquestions'] = 'Вопросы Эссе';
+$string['gradeall'] = 'Оценить все';
+$string['gradeessays'] = 'Оценить Эссе';
+$string['manualgrading'] = 'Оценить вручную';
+$string['nocommentsyet'] = 'Коментариев еше нет';
+$string['noessayquestionsfound'] = 'Вопросы типа Эссе не найдены';
+$string['essayonly'] = 'Оценка вручную доступна только для вопросо типа Эссе';
+$string['numungraded'] = '($a не оценено)';
+$string['ungraded'] = 'Не оценено';
 
 ?>

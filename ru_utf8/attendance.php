@@ -50,6 +50,7 @@ $string['pages'] = 'страницы';
 $string['presentlong'] = 'Присутствие ';
 $string['presentshort'] = 'П';
 $string['saturday'] = 'Суб';
+$string['showdefaults'] = 'Показать значения по-умолчанию';
 $string['startafterend'] = 'Начальная дата после завершения курса';
 $string['startmulti'] = 'Дата для первой ведомости посещений';
 $string['sunday'] = 'Вск';
