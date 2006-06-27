@@ -1,16 +1,18 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.5 (2005060201)
+      // resource.php - created with Moodle 1.5.3+ (2005060230)
 
 
 $string['addresource'] = 'Baliabidea gehitu';
 $string['chooseafile'] = 'Aukeratu edo igo fitxategi bat';
 $string['chooseparameter'] = 'Aukeratu parametroa';
 $string['directlink'] = 'Lotura zuzena fitxategi honetara';
+$string['directoryinfo'] = 'Aukeratutako direktorioan dauden fitxategi guztiak erakutsiko dira';
 $string['display'] = 'Leihoa';
 $string['editingaresource'] = 'Baliabidea editatzen';
 $string['example'] = 'Adibidea';
 $string['exampleurl'] = 'http://www.adibidea.com/direktorioa/fitxategia.html';
 $string['filename'] = 'Fitxategiaren izena';
+$string['frameifpossible'] = 'Jarri baliabidea marko batean, web gunean nabigatzeko aukera emateko';
 $string['fulltext'] = 'Testu osoa';
 $string['htmlfragment'] = 'HTML zatia';
 $string['maindirectory'] = 'Direktorio nagusia';
@@ -23,7 +25,7 @@ $string['newwindowopen'] = 'Erakutsi baliabide hau popup leiho berri batean';
 $string['note'] = 'Oharra';
 $string['notefile'] = 'Ikasgaian fitxategi gehiago igotzeko (zerrenda honetan ager daitezen)
 <A HREF=$a >Fitxategi Kudeatzailea</A> erabil ezazu.';
-$string['notypechosen'] = 'Mota bat aukeratu behar duzu.  Zure nabigatzailearen atzera botoia erabiliz bueltatu eta berriro saiatu.';
+$string['notypechosen'] = 'Mota bat aukeratu behar duzu. Zure nabigatzailearen atzera botoia erabiliz bueltatu eta berriro saiatu.';
 $string['pagedisplay'] = 'Erakutsi baliabide hau oraingo leihoan';
 $string['pagewindow'] = 'Leiho berean';
 $string['parameter'] = 'Parametroa';

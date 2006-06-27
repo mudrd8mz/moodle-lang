@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.5 (2005060201)
+      // lesson.php - created with Moodle 1.5.3+ (2005060230)
 
 
 $string['actionaftercorrectanswer'] = 'Erantzuna egokia izanez gero, zer egin';
@@ -42,9 +42,11 @@ $string['essayemailsubject'] = 'Zure nota galdera honetan: $a';
 $string['essays'] = 'Idazlanak';
 $string['essayscore'] = 'Idazlanaren puntuazioa';
 $string['fileformat'] = 'Fitxategiaren formatua';
+$string['general'] = 'Orokorra';
 $string['gobacktolesson'] = 'Atzera ikasgaira';
 $string['grade'] = 'Nota';
 $string['gradeis'] = 'Nota: $a';
+$string['gradeoptions'] = 'Kalifikazio-aukerak';
 $string['havenotgradedyet'] = 'Nota oraindik jarri gabe';
 $string['here'] = 'hemen';
 $string['highscore'] = 'Puntuazio altua';
@@ -54,6 +56,7 @@ $string['jump'] = 'Joan';
 $string['jumptsto'] = 'Nora joan';
 $string['lesson'] = '$a ikasgaia';
 $string['lessonclosed'] = 'Ikasgaia noiz itxita: $a';
+$string['lessoncloses'] = 'Ikasgaiaren amaiera-data';
 $string['lessondefault'] = 'Erabili ikasgai honetako ezarpenak kasu guztietarako';
 $string['lessonmenu'] = 'Ikasgaiko menua';
 $string['lessonopen'] = 'Ikasgaia noiz zabalduko: $a';

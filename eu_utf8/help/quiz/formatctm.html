@@ -1,103 +1,103 @@
 <p align=center><b>Importando archivos del "Course Test Manager"</b></p>
 
 <p>Course Test Manager (Administrador de Test de Cursos) es un paquete 
-de software "End of Lifetime" de TecnologÌa de cursos (Course Technology). 
+de software "End of Lifetime" de Tecnolog√≠a de cursos (Course Technology). 
 Actualmente ya no es desarrollado por Course Technology, sino que ha 
 sido reemplazado por un nuevo administrador de cuestionarios llamado ExamView. 
-Sin embargo, nunca ha habido una migraciÛn que permita exportar este formato del 
-CTM a alg˙n otro formato conocido de cuestionarios. Por esto se escribiÛ este mÛdulo.</p>
+Sin embargo, nunca ha habido una migraci√≥n que permita exportar este formato del 
+CTM a alg√∫n otro formato conocido de cuestionarios. Por esto se escribi√≥ este m√≥dulo.</p>
 
-<p> Para importar preguntas de CTM deber· tenerlo previamente instalado en una PC 
+<p> Para importar preguntas de CTM deber√° tenerlo previamente instalado en una PC 
 con Windows, y tener acceso a los archivos de datos del MS Access en esa PC. Se 
 requieren dos archivos de datos para acceder a los datos del CTM:</p>
 <ul><li>System.mda --Este archivo se encuentra en el directorio superior de la 
-instalaciÛn de su CTM y es llamado en lenguaje Access la "Base de datos del sistema".</li>
-<li>ctm.mdb --…sta es la base de datos que contiene las preguntas del banco de 
-cuestionarios. Hay una base de datos por cada curso instalado en el CTM, y est· 
+instalaci√≥n de su CTM y es llamado en lenguaje Access la "Base de datos del sistema".</li>
+<li>ctm.mdb --√âsta es la base de datos que contiene las preguntas del banco de 
+cuestionarios. Hay una base de datos por cada curso instalado en el CTM, y est√° 
 ubicado en el correspondiente directorio de nivel inferior, por debajo del de 
-instalaciÛn del CTM.</li>
+instalaci√≥n del CTM.</li>
 </ul>
 
-</p>El proceso de importaciÛn es ligeramente diferente si Ud. trabaja en un Moodle 
-sobre Linux o sobre Windows. Sin importar cu·l plataforma corre bajo el Moodle, 
-necesitar· un sistema Windows (sea Windows 2000 o Windows XP) en la misma red en 
-la que est· Moodle, para poder importar desde el Moodle directamente las bases de 
+</p>El proceso de importaci√≥n es ligeramente diferente si Ud. trabaja en un Moodle 
+sobre Linux o sobre Windows. Sin importar cu√°l plataforma corre bajo el Moodle, 
+necesitar√° un sistema Windows (sea Windows 2000 o Windows XP) en la misma red en 
+la que est√° Moodle, para poder importar desde el Moodle directamente las bases de 
 datos del Access.</p>
 
-<p>El proceso es ligeramente m·s f·cil si Moodle est· <b>basado en Windows</b>. 
-Todo lo que necesita hacer para utilizar la importaciÛn CTM es:</p>
+<p>El proceso es ligeramente m√°s f√°cil si Moodle est√° <b>basado en Windows</b>. 
+Todo lo que necesita hacer para utilizar la importaci√≥n CTM es:</p>
 
 <ol><li>Subir la base de datos system.mda a Moodle usando el administrador de archivos. 
-No importa a quÈ curso suba el sistem.mda, Moodle lo encontrar· por Ud. </li>
+No importa a qu√© curso suba el sistem.mda, Moodle lo encontrar√° por Ud. </li>
 <li>Cree su cuestionario y vaya al proceso "importar preguntas de archivo". Suba 
 su base de datos ctm.mdb elegida como archivo a importar. Si hizo esto correctamente, 
-ver· otra pantalla que le permitir· elegir la subcategorÌa de preguntas a importar 
-de la base de datos. La razÛn de este paso es que los bancos de evaluaciones CTM 
-contienen a menudo un gran n˙mero de preguntas categorizadas, basadas en los capÌtulos 
+ver√° otra pantalla que le permitir√° elegir la subcategor√≠a de preguntas a importar 
+de la base de datos. La raz√≥n de este paso es que los bancos de evaluaciones CTM 
+contienen a menudo un gran n√∫mero de preguntas categorizadas, basadas en los cap√≠tulos 
 del libro o secciones del curso.</li>
 </ol>
 
 <p>El proceso para Moodle <b>basado en Linux</b> incluye un componente de software 
 de terceros llamado <a href="http://odbcsock.sourceforge.net/" target="_new"><b>ODBC 
 Socket Server</b></a>. Para importar bases de datos CTM en Linux, primero debe bajar 
-e instalar este pequeÒo programa de red en la PC con Windows que hospeda las bases 
-de datos CTM. <b>No siga</b> las instrucciones mencionadas en la instalaciÛn del <br />
-ODBC Socket Server. °Son m·s complicadas de lo necesario para este trabajo! En vez 
-de eso, siga los pasos a continuaciÛn:</P>
+e instalar este peque√±o programa de red en la PC con Windows que hospeda las bases 
+de datos CTM. <b>No siga</b> las instrucciones mencionadas en la instalaci√≥n del <br />
+ODBC Socket Server. ¬°Son m√°s complicadas de lo necesario para este trabajo! En vez 
+de eso, siga los pasos a continuaci√≥n:</P>
 
-<ol><li>Vaya a la PC con Windows y descomprima el archivo de instalaciÛn que bajÛ de 
+<ol><li>Vaya a la PC con Windows y descomprima el archivo de instalaci√≥n que baj√≥ de 
 <a href="http://odbcsock.sourceforge.net/" target="_new">este sitio</a> en la PC.</li>
-<li>Copie el archivo binario ODBCSocketServer.exe a una ubicaciÛn permanente, tal 
-como c:\windows\ o c:\WINNT\ (tambiÈn podrÌa ser su carpeta de archivos de programa). </li> 
+<li>Copie el archivo binario ODBCSocketServer.exe a una ubicaci√≥n permanente, tal 
+como c:\windows\ o c:\WINNT\ (tambi√©n podr√≠a ser su carpeta de archivos de programa). </li> 
 
 <li>Instale el ODBC Socket Server como un servicio en el sistema con este 
-comando:<br /><b>&lt;directorio completo a donde copiÛ el archivo en el paso 
+comando:<br /><b>&lt;directorio completo a donde copi√≥ el archivo en el paso 
 anterior&gt;ODBCSocketServer.exe /Service</b><br /> Puede hacer esto escribiendo 
-este comando desde la caja de di·logo: Inicio-&gt;Ejecutar... , o desde la lÌnea 
+este comando desde la caja de di√°logo: Inicio-&gt;Ejecutar... , o desde la l√≠nea 
 de comandos.</li> 
-<li>Abra el administrador de Servicios en: Inicio-&gt;ConfiguraciÛn-&gt;Panel de 
+<li>Abra el administrador de Servicios en: Inicio-&gt;Configuraci√≥n-&gt;Panel de 
 Control-&gt;Herramientas Administrativas-&gt;Servicios, o haciendo clic con el 
-botÛn derecho del mouse en <b>Mi PC</b>, eligiendo <b>Administrar</b>, luego 
+bot√≥n derecho del mouse en <b>Mi PC</b>, eligiendo <b>Administrar</b>, luego 
 eligiendo <B>Servicios y Aplicaciones-&gt;Servicios</b> del Panel derecho. 
-TambiÈn puede acceder al Administrador de Servicios escribiendo <b>services.msc</b> en 
-la caja de di·logo Inicio-&gt;Ejecutar...</li>
+Tambi√©n puede acceder al Administrador de Servicios escribiendo <b>services.msc</b> en 
+la caja de di√°logo Inicio-&gt;Ejecutar...</li>
 
-<li>En el Administrador de Servicios haga clic con el botÛn derecho del mouse en 
-el Ìtem ODBC Socket Server y elija el Ìtem <b>Iniciar</b>. Su estado debe cambiar 
-a "Iniciado" cuando haga esto. Observe que podr· detenerlo y/o deshabilitarlo 
-completamente luego de que haya terminado el proceso de importaciÛn.</li>
+<li>En el Administrador de Servicios haga clic con el bot√≥n derecho del mouse en 
+el √≠tem ODBC Socket Server y elija el √≠tem <b>Iniciar</b>. Su estado debe cambiar 
+a "Iniciado" cuando haga esto. Observe que podr√° detenerlo y/o deshabilitarlo 
+completamente luego de que haya terminado el proceso de importaci√≥n.</li>
 
-<li>Aseg˙rese de que los archivos system.mda y ctm.mdb estÈn en la PC, y que el 
-driver ODBC de MS Access estÈ presente; Est· instalado normalmente en toda 
-instalaciÛn est·ndar de Windows. Puede asegurarse de que est· instalado abriendo 
-el Ìtem "fuentes de datos" en "Herramientas Administrativas" en la leng¸eta "Drivers". 
-Deber· determinar dÛnde est· instalado el CTM y ubicar las bases de datos 
-system.mda y ctm.mdb (o las bases de datos que estÈ interesado en importar). 
-Recuerde tomar nota de la ubicaciÛn exacta y completa de las bases de datos, 
-asÌ como de la direcciÛn IP o nombre del Host del servidor Windows. Necesitar· 
-esta informaciÛn para el proceso de importaciÛn.</li>
+<li>Aseg√∫rese de que los archivos system.mda y ctm.mdb est√©n en la PC, y que el 
+driver ODBC de MS Access est√© presente; Est√° instalado normalmente en toda 
+instalaci√≥n est√°ndar de Windows. Puede asegurarse de que est√° instalado abriendo 
+el √≠tem "fuentes de datos" en "Herramientas Administrativas" en la leng√ºeta "Drivers". 
+Deber√° determinar d√≥nde est√° instalado el CTM y ubicar las bases de datos 
+system.mda y ctm.mdb (o las bases de datos que est√© interesado en importar). 
+Recuerde tomar nota de la ubicaci√≥n exacta y completa de las bases de datos, 
+as√≠ como de la direcci√≥n IP o nombre del Host del servidor Windows. Necesitar√° 
+esta informaci√≥n para el proceso de importaci√≥n.</li>
 
 <li>Ahora ya puede importar los bancos de evaluaciones al Moodle. Cree su cuestionario 
-y vaya al proceso "Importar preguntas desde archivo". <B>AQUÕ ES DONDE LAS COSAS 
+y vaya al proceso "Importar preguntas desde archivo". <B>AQU√ç ES DONDE LAS COSAS 
 SON DIFERENTES PARA LINUX - </B> ESPECIFIQUE UN ARCHIVO IMAGINARIO EN EL CAMPO 
-SUBIR PARA EMPEZAR EL PROCESO DE IMPORTACI”N. ESTE ARCHIVO <b>NO SE PROCESAR¡</b>, 
-ES S”LO UN NOMBRE PARA EL FORMULARIO DE IMPORTACI”N. TENDR¡ UN LUGAR PARA ESPECIFICAR 
-LA INFORMACI”N DEL SERVIDOR WINDOWS M¡S ADELANTE. A continuaciÛn, aparecer· una pantalla 
-en donde podr· escribir el nombre del Host para la PC con el Windows ODBC Socket 
-Server asÌ como el directorio completo a las bases de datos del sistema y de los 
-bancos de evaluaciones. Escriba la informaciÛn que obtuvo antes y haga clic en 
-"Connect to Server". Si todo estuvo configurado correctamente, obtendr· otro 
-formulario que le permitir· elegir la subcategorÌa de preguntas a importar de la 
-base de datos. La razÛn de este paso es que los bancos de evaluaciones a menudo 
-contienen una gran cantidad de preguntas sub-categorizadas, basadas en los capÌtulos 
+SUBIR PARA EMPEZAR EL PROCESO DE IMPORTACI√ìN. ESTE ARCHIVO <b>NO SE PROCESAR√Å</b>, 
+ES S√ìLO UN NOMBRE PARA EL FORMULARIO DE IMPORTACI√ìN. TENDR√Å UN LUGAR PARA ESPECIFICAR 
+LA INFORMACI√ìN DEL SERVIDOR WINDOWS M√ÅS ADELANTE. A continuaci√≥n, aparecer√° una pantalla 
+en donde podr√° escribir el nombre del Host para la PC con el Windows ODBC Socket 
+Server as√≠ como el directorio completo a las bases de datos del sistema y de los 
+bancos de evaluaciones. Escriba la informaci√≥n que obtuvo antes y haga clic en 
+"Connect to Server". Si todo estuvo configurado correctamente, obtendr√° otro 
+formulario que le permitir√° elegir la subcategor√≠a de preguntas a importar de la 
+base de datos. La raz√≥n de este paso es que los bancos de evaluaciones a menudo 
+contienen una gran cantidad de preguntas sub-categorizadas, basadas en los cap√≠tulos 
 del libro o las secciones de un curso.
 SI LLEGA A ESTE PUNTO SIN MENSAJES DE ERROR, SIGNIFICA QUE HA CONFIGURADO EL SOCKET 
-SERVER CORRECTAMENTE, Y °EST¡ LISTO PARA IMPORTAR LAS PREGUNTAS AL MOODLE!</li> </ol>
+SERVER CORRECTAMENTE, Y ¬°EST√Å LISTO PARA IMPORTAR LAS PREGUNTAS AL MOODLE!</li> </ol>
 
-<P>Si recibiÛ mensajes de error durante este proceso, encontrar· esta informaciÛn 
-tÈcnica muy ˙til: 
+<P>Si recibi√≥ mensajes de error durante este proceso, encontrar√° esta informaci√≥n 
+t√©cnica muy √∫til: 
 El ODBC Socket server utiliza el puerto 9628 para abrir el socket, negociar y 
-ejecutar las consultas XML, y a partir de allÌ construir una tabla con los 
-resultados de la consulta. La clase de importaciÛn descompone el XML y lo usa tal 
-como uno usarÌa una consulta local para hacer una importaciÛn. 
+ejecutar las consultas XML, y a partir de all√≠ construir una tabla con los 
+resultados de la consulta. La clase de importaci√≥n descompone el XML y lo usa tal 
+como uno usar√≠a una consulta local para hacer una importaci√≥n. 
 </p>
