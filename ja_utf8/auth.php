@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.7 dev (2006060400)
+      // auth.php - created with Moodle 1.7 dev (2006060900)
 
 
-$string['alternatelogin'] = 'ここにURLを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong>フィールドおよび<strong>password</strong>フィールドを適切にMoodleに渡す必要があります。<br />間違ったURLを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合は、空白のままにしてください。';
+$string['alternatelogin'] = 'ここにURLを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong> フィールドおよび <strong>password</strong> フィールドをMoodleに渡してください。<br />間違ったURLを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合、空白のままにしてください。';
 $string['alternateloginurl'] = '代替ログインURL';
 $string['auth_cas_baseuri'] = 'サーバのURI  ( ベースURIが無い場合は空白 )<br />CASサーバが host.domaine.fr/CAS/ に応答する場合、<br />cas_baseuri = CAS/';
 $string['auth_cas_create_user'] = 'MoodleデータベースにCAS認証ユーザを挿入したい場合は、「Yes」を選択してください。「No」を選択した場合は、Moodleデータベースに登録されているユーザのみがログインできます。';
@@ -47,7 +47,7 @@ $string['auth_fcuserid'] = '権限「Subadministrator」を持ったFirstClass�
 $string['auth_fieldlock'] = '値をロックする';
 $string['auth_fieldlock_expl'] = '<p><b>値をロックする:</b> このオプションを有効にした場合、Moodleユーザおよび管理者はフィールドを直接編集するのを防止します。外部認証システムでデータをメンテナンスしている場合にこのオプションを使用してください。</p>';
 $string['auth_fieldlocks'] = 'ユーザフィールドのロック';
-$string['auth_fieldlocks_help'] = '<p>ここではユーザフィールドをロックすることができます。ユーザレコードを管理者が手動で編集する方法、または「ユーザのアップロード」機能を使ってユーザレコードをアップロードする方法をとっている場合に便利です。Moodleで必要なフィールドをロックする場合、ユーザアカウントを作成するときにそれらのデータを必ず提供してください。そうでない場合は、アカウントを使用できなくなります。</p><p>このトラブルを避けるために、「空の場合はロックしない」に設定することを考慮してください。</p>';
+$string['auth_fieldlocks_help'] = '<p>ここではユーザフィールドをロックすることができます。ユーザレコードを管理者が手動で編集する方法、または「ユーザのアップロード」機能を使ってユーザレコードをアップロードする方法をとっている場合に便利です。Moodleで必要なフィールドをロックする場合、ユーザアカウントを作成するときにそれらのデータを必ず提供してください。そうでない場合、アカウントを使用できなくなります。</p><p>このトラブルを避けるため、「空の場合はロックしない」に設定することを考慮してください。</p>';
 $string['auth_imapdescription'] = 'ユーザ名とパスワードを確認するためにIMAPサーバを使用します。';
 $string['auth_imaphost'] = 'IMAPサーバアドレスです。IPアドレスではなくドメイン名を使用してください。';
 $string['auth_imapport'] = 'IMAPサーバポート番号です。通常は143または993です。';
