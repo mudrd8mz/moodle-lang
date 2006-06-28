@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006060400)
+      // quiz.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['1day'] = '1日';
@@ -92,10 +92,9 @@ $string['comments'] = 'コメント';
 $string['completedon'] = '完了日時';
 $string['confirmclose'] = 'あなたは、この小テストを終了しようとしています。小テストを終了すると、これ以上答えを変更することができません。';
 $string['confirmserverdelete'] = '本当にサーバ <b>$a</b> をリストから削除してもよろしいですか?';
-$string['confirmstartattempt'] = 'この小テストには制限時間が設けられています。本当にスタートしてもよろしいですか?';
-$string['confirmstartattemptnotimelimit'] = 'この小テストには制限時間がありません。続けてもよろしいですか?';
-$string['confirmstartlimit'] = 'この小テストには制限時間があります。また、受験回数が $a 回に制限されています。小テストへのアクセスは受験回数としてカウントされます。続けてもよろしいですか?';
-$string['confirmstartnolimit'] = 'この小テストは受験回数 $a 回に制限されています。小テストへのアクセスは受験回数としてカウントされます。続けてもよろしいですか?';
+$string['confirmstartattemptlimit'] = 'この小テストの受験回数は、$a 回に制限されています。小テストへのアクセスは、1回の受験としてカウントされます。進んでもよろしいですか?';
+$string['confirmstartattempttimelimit'] = 'この小テストには制限時間があり、受験回数は $a 回に制限されています。小テストへのアクセスは、1回の受験としてカウントされます。進んでもよろしいですか?';
+$string['confirmstarttimelimit'] = '小テストには制限時間があります。本当に開始してもよろしいですか?';
 $string['containercategorycreated'] = 'このカテゴリは、下記の原因によりサイトレベルで移動されたすべてのオリジナルカテゴリを保存するために作成されました。';
 $string['continueattemptquiz'] = '最後の受験を続ける';
 $string['copyingfrom'] = '問題「 $a 」のコピーを作成';
