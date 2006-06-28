@@ -1,0 +1,72 @@
+<?PHP // $Id$ 
+      // attendance.php - created with Moodle 1.6 (2006050506)
+
+
+$string['absentlong'] = 'நீங்கியிருக்கிற';
+$string['absentshort'] = 'A';
+$string['addingmultiple'] = 'Adding Multiple Attendance Rolls';
+$string['addmultiple'] = 'Add Multiple Attendance Rolls';
+$string['allmodulename'] = 'All Attendance Rolls';
+$string['auto'] = 'தன்னிச்சை';
+$string['autoattend'] = 'Automatically take attendance based on user activity logs';
+$string['autoattendmulti'] = 'Automatically take attendance for all rolls based on user activity logs';
+$string['autoattendshort'] = 'புள்ளிவிவரத்திலிருந்து தன்னிச்சையாக';
+$string['choosedays'] = 'ஒவ்வொரு வாரத்தின் நாட்களிலும் எடுக்கப்பட்ட வருகைப்பதிவேடு';
+$string['dayofroll'] = 'Date to take roll for';
+$string['defaultautoattend'] = 'Whether to take attendance based on user activity logs by default';
+$string['defaultdynamicsection'] = 'Whether to move attendance rolls to the correct week by default';
+$string['defaultgrade'] = ' Whether to make attendance rolls gradeable by default';
+$string['defaulthoursinclass'] = 'How many hours there should be in a default attendance roll';
+$string['defaultmaxgrade'] = 'What the default maximum grade value for full attendance should be';
+$string['defaultstudentstatus'] = 'The default student attendance status on new attendance rolls';
+$string['downloadexcelfull'] = 'Download Full Excel Spreadsheet';
+$string['downloadexceltotals'] = 'Download Summary Excel Spreadsheet';
+$string['downloadtextfull'] = 'Download Full Text Report';
+$string['downloadtexttotals'] = 'Download Summary Text Report';
+$string['dynamicsection'] = 'Determine week for attendance based on this date';
+$string['dynamicsectionmulti'] = 'Place rolls in their weekly section automatically';
+$string['dynsectionshort'] = 'Dynamically moved to section';
+$string['endbeforestart'] = 'The end date is before the start date';
+$string['endmulti'] = 'Date for last attendance roll';
+$string['for'] = 'பதிலாக';
+$string['friday'] = 'வெள்ளி';
+$string['gradeshort'] = 'தரப்படுத்தப்பட்டது';
+$string['gradevalue'] = 'Make this roll gradeable';
+$string['gradevaluemulti'] = 'Make these rolls gradeable';
+$string['hoursinclass'] = 'Number of hours in a class period';
+$string['hoursineachclass'] = 'Number of Hours in each class period';
+$string['hoursinfullreport'] = 'The maximum number of hours of attendance that should be displayed on a single page of a report';
+$string['maxgradeshort'] = 'அதிகப்படியான தரம்';
+$string['maxgradevalue'] = 'Maximum grade value for full attendance';
+$string['modulename'] = 'வருகைப்பதிவு';
+$string['modulenameplural'] = 'Attendance Rolls';
+$string['monday'] = 'திங்கள்';
+$string['norolls'] = 'There are no attendance rolls in this course';
+$string['notes'] = 'Exceptional information';
+$string['notesfor'] = 'Exceptional information for';
+$string['noviews'] = 'வருந்துகிறோம். உங்கள் கணக்கில் எந்த தகவலும் இல்லை';
+$string['of'] = 'of';
+$string['pages'] = 'பக்கங்கள்';
+$string['presentlong'] = 'வருகை';
+$string['presentshort'] = 'வருகை';
+$string['saturday'] = 'சனி';
+$string['startafterend'] = 'பாடத்திட்டத்திம் முடிந்த பிறகு தேதி தொடங்கும்';
+$string['startmulti'] = 'Date for first attendance roll';
+$string['sunday'] = 'ஞாயிறு ';
+$string['takeroll'] = 'Take roll on this day?';
+$string['tardiesperabsence'] = 'How many tardies should count as one absence';
+$string['tardylong'] = 'Tardy';
+$string['tardyshort'] = 'T';
+$string['teacheredit'] = 'Take Attendance';
+$string['thursday'] = 'வியாழன்';
+$string['tuesday'] = 'செவ்வாய்';
+$string['viewall'] = 'View All Attendance Rolls';
+$string['viewmulti'] = 'View Report as Multiple Pages';
+$string['viewone'] = 'View All Pages of Report';
+$string['viewsection'] = 'View All Attendance Rolls from this Section';
+$string['viewtable'] = 'View Report as One Table';
+$string['viewweek'] = 'View All Attendance Rolls from the Calendar Week';
+$string['wednesday'] = 'புதன்';
+$string['weekmodulename'] = 'All Attendance Rolls In the Last Week';
+
+?>
