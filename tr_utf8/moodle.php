@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 5 (2006050503)
+      // moodle.php - created with Moodle 1.6 + (2006050507)
 
 
 $string['action'] = 'Eylem';
@@ -132,6 +132,7 @@ $string['backuplogshelp'] = 'Etkinleştirilirse kurs logları otomatik yedekleme
 $string['backupmetacoursehelp'] = 'Etkinleştirirse, metakurs bilgisi (miras öğrenci kayıtları) otomatik yedeklemelere dahil edilecek';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['backupnoneusersinfo'] = 'Uyarı: Kullanıcıların hiçbirini yedekleme için seçmediniz. Bundan dolayı tüm modül yedeklemeleri \"kullanıcı verisi olmadan\" moduna geçti. Lütfen \"alıştırma\" ve \"çalıştay\" modüllerinin bu yedekleme tipiyle uyumlu olmadığını ve bundan dolayı bu modüllerin tamamen pasifleştirildiğini dikkate alın.';
+$string['backupnonisowarning'] = 'Uyarı: Bu yedek Moodle (pre 1.6) Unicode olmayan sürümünden elde edilmiştir. Bu yedek ISO-8859-1 olmayan her hangi bir metin içeriyorsa ve bunu Moodle Unicode sürümünden geri yüklüyorsanız METİNLER BOZULABİLİR. Bu yedeği nasıl kurtaracağınız hakkında daha fazla bilgi için <a href=\"http://docs.moodle.org/en/Backup_FAQ\">Yedekleme SSS</a> sayfasına bakınız.';
 $string['backuporiginalname'] = 'Yedek Adı';
 $string['backupsavetohelp'] = 'Yedek dosyaları kaydetmek istediğiniz klasörün tam adresi<br />(varsayılan olarak kurs dizinine kaydedilsin istiyorsanız boş bırakın)';
 $string['backuptakealook'] = 'Yedek kayıtlarınıza lütfen bir göz atın:
@@ -337,7 +338,6 @@ $string['disable'] = 'Pasifleştir';
 $string['displayingfirst'] = 'Sadece ilk $a->count $a->things gösteriliyor';
 $string['displayingrecords'] = '$a kayıt gösteriliyor';
 $string['displayingusers'] = '$a->start - $a->end arası kullanıcılar gösteriyor';
-$string['displayonpage'] = 'Sayfada göster';
 $string['documentation'] = 'Moodle Belgeleri';
 $string['donotask'] = 'Sorma';
 $string['down'] = 'Aşağı';
@@ -548,7 +548,6 @@ $string['gd1'] = 'GD 1.x kurulu';
 $string['gd2'] = 'GD 2.x kurulu';
 $string['gdneed'] = 'Bu grafiği görebilmeniz için GD kurulu olmalı';
 $string['gdnot'] = 'GD kurulu değil';
-$string['gettheselogs'] = 'Bu kayıtları getir';
 $string['go'] = 'Git';
 $string['gpl'] = 'Telif Hakkı (C) 1999-2006 Martin Dougiamas (http://moodle.com)
 
@@ -678,7 +677,6 @@ $string['listofallpeople'] = 'Tam kullanıcı listesi';
 $string['livelogs'] = 'Son bir saatteki canlı kayıtlar';
 $string['locale'] = 'tr_TR.UTF-8';
 $string['location'] = 'Yer';
-$string['log_excel_date_format'] = 'yyyy mmmm d h:mm';
 $string['loggedinas'] = '$a olarak giriş yaptınız';
 $string['loggedinasguest'] = 'Şu anda konuk erişimini kullanıyorsunuz';
 $string['loggedinnot'] = 'Giriş yapmadınız.';
@@ -1048,7 +1046,6 @@ $string['rsserror'] = 'RSS verisi okunurken hata olustu';
 $string['rsstype'] = 'Bu etkinlik için RSS desteği';
 $string['saveandnext'] = 'Kaydet ve sonrakini göster';
 $string['savechanges'] = 'Değişiklikleri kaydet';
-$string['savedat'] = 'Kaydedildi:';
 $string['savepreferences'] = 'Seçenekleri kaydet';
 $string['saveto'] = 'Kaydet';
 $string['scale'] = 'Ölçek';
@@ -1110,6 +1107,7 @@ $string['showperpage'] = 'Her sayfada $a kayıt göster';
 $string['showrecent'] = 'Son etkinlikleri göster';
 $string['showreports'] = 'Etkinlik raporlarını göster';
 $string['showsettings'] = 'Ayarları göster';
+$string['showtheselogs'] = 'Bu kayıtları göster';
 $string['since'] = 'Şu tarihten beri';
 $string['sincelast'] = 'son girişten beri';
 $string['site'] = 'Site';

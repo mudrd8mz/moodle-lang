@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6 Beta 5 (2006050505)
+      // enrol_authorize.php - created with Moodle 1.6 + (2006050507)
 
 
 $string['adminacceptccs'] = 'Hangi kredi kartı tipleri kabul edilecek?';
@@ -91,6 +91,7 @@ $string['missingcvv'] = 'Onay no eksik';
 $string['missingzip'] = 'Posta kodu eksik';
 $string['nameoncard'] = 'Kart Üzerindeki İsim';
 $string['new'] = 'Yeni';
+$string['nocostyet'] = 'Henüz ücret yok!';
 $string['noreturns'] = 'Geri ödeme yok';
 $string['notsettled'] = 'Karara bağlanmamış';
 $string['orderid'] = 'Sipariş ID';

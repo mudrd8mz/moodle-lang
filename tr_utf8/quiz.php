@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 Beta 5 (2006050503)
+      // quiz.php - created with Moodle 1.6 + (2006050507)
 
 
 $string['1day'] = '1 Gün';
@@ -83,7 +83,6 @@ $string['choices'] = 'Verilen seçenekler';
 $string['choosedatasetproperties'] = 'Veri kümesi özellikleri seçin';
 $string['choosefile'] = 'Bir dosya seçin';
 $string['close'] = 'Pencereyi kapat';
-$string['closebeforeopen'] = 'Sınav güncellenemedi. Kapanış tarihini başlangıç tarihinden önce belirttiniz.';
 $string['closepreview'] = 'Önizlemeyi kapat';
 $string['closereview'] = 'İncelemeyi kapat';
 $string['comment'] = 'Yorum';
@@ -92,10 +91,9 @@ $string['comments'] = 'Yorumlar';
 $string['completedon'] = 'Tamamlama';
 $string['confirmclose'] = 'Bu uygulamayı kapatmak üzeresiniz. Bu uygulamayı kapattıktan sonra cevaplarınızı bir daha değiştiremeyeceksiniz.';
 $string['confirmserverdelete'] = '<b>$a</b> sunucunu listeden silmek istediğinizden emin misiniz?';
-$string['confirmstartattempt'] = 'Sınavın zaman sınırı var. Başlatmak istediğinizden emin misiniz?';
-$string['confirmstartattemptnotimelimit'] = 'Sınavın zaman sınırı yok. Devam etmek ister misiniz?';
-$string['confirmstartlimit'] = 'Bu sınavın zaman sınırı var ve $a uygulamaya kadar sınırlandırıldı. Sınava erişim bir uygulama olarak sayılır. Devam etmek ister misiniz?';
-$string['confirmstartnolimit'] = 'Bu sınav $a uygulamaya kadar sınırlandırıldı. Sınava erişim bir uygulama olarak sayılır. Devam etmek ister misiniz?';
+$string['confirmstartattemptlimit'] = 'Bu sınav $a uygulama ile sınırlandırılmıştır. Bu sınava erişim bir uygulama olarak sayılacaktır. Devam etmek istiyor musunuz?';
+$string['confirmstartattempttimelimit'] = 'Bu sınavın süre sınırlaması var $a uygulama ile sınırlıdır. Bu sınava erişim bir uygulama olarak sayılacaktır. Devam etmek istiyor musunuz?';
+$string['confirmstarttimelimit'] = 'Bu sınavın süre sınırlaması var. Başlamak istediğinizden emin misiniz?';
 $string['containercategorycreated'] = 'Bu kategori tüm orijinal kategoridekileri saklamak için oluşturuldu ve aşağıdaki sebepten dolayı site seviyesine taşındı.';
 $string['continueattemptquiz'] = 'Son uygulamadan devam et';
 $string['copyingfrom'] = '\'$a\' sorusunun bir kopyası oluşturuluyor';
@@ -244,7 +242,7 @@ $string['itemdefinition'] = 'Tanımlama';
 $string['itemsource'] = 'Öge Kaynağı';
 $string['itemsourceformat'] = 'Öge Kaynak Biçimi';
 $string['itemtypes'] = 'Uzak Soru Tipi';
-$string['lastanswer'] = 'Son yanıtınız:';
+$string['lastanswer'] = 'Son yanıtınız';
 $string['learnwise'] = 'Öğrenen biçimi';
 $string['link'] = 'Bağlantı';
 $string['listitems'] = 'Sınavdaki Maddelerin Listesi';
@@ -318,7 +316,7 @@ $string['numerical'] = 'Numaralı';
 $string['onlyteachersexport'] = 'Sadece eğitimciler soruları çıkarabilir';
 $string['onlyteachersimport'] = 'Sadece düzenleme hakları olan eğitimciler soruları alabilir';
 $string['optional'] = 'isteğe bağlı';
-$string['outof'] = '&nbsp;/&nbsp;';
+$string['outof'] = '/';
 $string['overdue'] = 'Süresi dolmuş';
 $string['pagesize'] = 'Her sayfada görünen uygulama:';
 $string['paragraphquestion'] = '$a satırındaki Paragraf Sorusu desteklenmez. Soru yoksayılacak.';
