@@ -2,7 +2,7 @@
 $string['alphabet'] = 'A,Ă,Â,B,C,D,Đ,E,Ê,F,G,H,I,J,K,L,M,N,O,Ô,Ơ,P,Q,R,S,T,U,Ư,V,W,X,Y,Z';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['firstdayofweek'] = '0';
-$string['locale'] = 'en';
+$string['locale'] = 'vi_VN.UTF-8';
 $string['localewin'] = 'Vietnamese_Viet Nam.1258';
 $string['localewincharset'] = 'WINDOWS-1258';
 $string['oldcharset'] = 'UTF-8';

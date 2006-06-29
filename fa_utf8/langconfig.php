@@ -1,6 +1,6 @@
 <?php
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
-$string['locale'] = 'en.UTF-8';
+$string['locale'] = 'fa_IR.UTF-8';
 $string['localewin'] = 'Farsi_Iran.1256';
 $string['localewincharset'] = 'WINDOWS-1256';
 $string['oldcharset'] = 'WINDOWS-1256';

@@ -2,7 +2,7 @@
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['firstdayofweek'] = '0';
-$string['locale'] = 'ta.UTF-8';
+$string['locale'] = 'ta_IN.UTF-8';
 $string['localewin'] = 'English_Australia.1252';
 $string['localewincharset'] = '';
 $string['oldcharset'] = 'ISO-8859-1';

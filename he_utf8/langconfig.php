@@ -2,7 +2,7 @@
 $string['alphabet'] = 'א,ב,ג,ד,ה,ו,ז,ח,ט,י,כ,ל,מ,נ,ס,ע,פ,צ,ק,ר,ש,ת';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['firstdayofweek'] = '0';
-$string['locale'] = 'en.UTF-8';
+$string['locale'] = 'he_IL.utf8';
 $string['localewin'] = 'Hebrew_Israel.1255';
 $string['localewincharset'] = 'WINDOWS-1255';
 $string['oldcharset'] = 'ISO-8859-8';

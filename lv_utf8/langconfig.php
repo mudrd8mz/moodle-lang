@@ -2,7 +2,7 @@
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,R,S,T,U,V,Z';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['firstdayofweek'] = '0';
-$string['locale'] = 'lat.UTF-8';
+$string['locale'] = 'lv_LV.UTF-8';
 $string['localewin'] = 'Latvian_Latvia.1257';
 $string['localewincharset'] = 'WINDOWS-1257';
 $string['oldcharset'] = 'ISO-8859-4';

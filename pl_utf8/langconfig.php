@@ -2,7 +2,7 @@
 $string['alphabet'] = 'A,Ą,B,C,Ć,D,E,Ę,F,G,H,I,J,K,L,Ł,M,N,Ń,O,Ó,P,Q,R,S,Ś,T,U,V,W,X,Y,Z,Ź,Ż';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['firstdayofweek'] = 'Pierwszy dzień tygodnia';
-$string['locale'] = 'pl.UTF-8';
+$string['locale'] = 'pl_PL.UTF-8';
 $string['localewin'] = 'Polish_Poland.1250';
 $string['localewincharset'] = 'WINDOWS-1250';
 $string['oldcharset'] = 'ISO-8859-2';

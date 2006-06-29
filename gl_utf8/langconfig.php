@@ -2,7 +2,7 @@
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,Ñ,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['backupnameformat'] = '%%d%%m%%Y-%%H%%M';
 $string['firstdayofweek'] = '1';
-$string['locale'] = 'es_ES.UTF-8';
+$string['locale'] = 'gl_ES.UTF-8';
 $string['localewin'] = 'Galician_Spain.1252';
 $string['localewincharset'] = 'WINDOWS-1252';
 $string['oldcharset'] = 'ISO-8859-1';
@@ -18,6 +18,6 @@ $string['strftimerecent'] = ' %%d de %%b, %%H:%%M ';
 $string['strftimerecentfull'] = ' %%a, %%d de %%b de %%Y, %%H:%%M';
 $string['strftimetime'] = ' %%H:%%M';
 $string['thischarset'] = 'UTF-8';
-$string['thisdirection'] = 'Itr';
+$string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Galego';
 ?>

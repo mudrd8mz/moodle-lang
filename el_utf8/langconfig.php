@@ -4,7 +4,7 @@
 
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['firstdayofweek'] = '0';
-$string['locale'] = 'el.UTF-8';
+$string['locale'] = 'el_GR.UTF-8';
 $string['localewin'] = 'Greek_Greece.1253';
 $string['localewincharset'] = 'WINDOWS-1253';
 $string['oldcharset'] = 'WINDOWS-1253';

@@ -2,7 +2,7 @@
 $string['alphabet'] = 'А,Б,В,Г,Д,Е,Ж,З,И,Й,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Ч,Ш,Щ,Ъ,Ь,Ю,Я';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['firstdayofweek'] = '0';
-$string['locale'] = 'en.UTF-8';
+$string['locale'] = 'bg_BG.UTF-8';
 $string['localewin'] = 'Bulgarian_Bulgaria.1251';
 $string['localewincharset'] = 'WINDOWS-1251';
 $string['oldcharset'] = 'WINDOWS-1251';

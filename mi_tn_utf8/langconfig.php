@@ -2,7 +2,7 @@
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['firstdayofweek'] = '0';
-$string['locale'] = 'en';
+$string['locale'] = 'mi_NZ.UTF-8';
 $string['localewin'] = 'Maori.1252';
 $string['localewincharset'] = 'WINDOWS-1252';
 $string['oldcharset'] = 'UTF-8';

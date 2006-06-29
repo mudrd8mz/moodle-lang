@@ -2,7 +2,7 @@
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['firstdayofweek'] = '0';
-$string['locale'] = 'ಕನ್ನಡ';
+$string['locale'] = 'kn_IN.UTF-8';
 $string['localewin'] = 'Kannada.65001';
 $string['oldcharset'] = 'UTF-8';
 $string['strftimedate'] = '%%d %%B %%Y';

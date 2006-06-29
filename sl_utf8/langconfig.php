@@ -2,7 +2,7 @@
 $string['alphabet'] = 'A,B,C,Č,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,�,T,U,V,W,X,Y,Z,�';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['firstdayofweek'] = '0';
-$string['locale'] = 'en.UTF-8';
+$string['locale'] = 'sl_SI.UTF-8';
 $string['localewin'] = 'Slovenian_Slovenia.1250';
 $string['localewincharset'] = 'WINDOWS-1250';
 $string['oldcharset'] = 'ISO-8859-2';

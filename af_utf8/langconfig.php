@@ -1,6 +1,6 @@
 <?php
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
-$string['locale'] = 'en.UTF-8';
+$string['locale'] = 'af_ZA.UTF-8';
 $string['localewin'] = 'Afrikaans.1252';
 $string['localewincharset'] = 'WINDOWS-1252';
 $string['strftimedate'] = '%%d %%B %%Y';
