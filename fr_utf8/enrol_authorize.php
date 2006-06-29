@@ -93,6 +93,7 @@ $string['missingcvv'] = 'Le numéro de vérification n\'est pas renseigné';
 $string['missingzip'] = 'Le code postal n\'est pas renseigné';
 $string['nameoncard'] = 'Nom sur la carte';
 $string['new'] = 'Nouveau';
+$string['nocostyet'] = 'Pas encore de prix&nbsp;!';
 $string['noreturns'] = 'Pas de retour&nbsp;!';
 $string['notsettled'] = 'Non réglé';
 $string['orderid'] = 'No d\'ordre';
