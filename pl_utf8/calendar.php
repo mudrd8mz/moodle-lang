@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.6 development (2005072200)
+      // calendar.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['calendar'] = 'Kalendarz';
@@ -30,6 +30,7 @@ $string['eventendtime'] = 'Data końcowa';
 $string['eventinstanttime'] = 'Czas';
 $string['eventkind'] = 'Typ terminu';
 $string['eventname'] = 'Nazwa';
+$string['eventnone'] = 'Żadne zdarzenia';
 $string['eventrepeat'] = 'Powtórzenia';
 $string['eventsfor'] = 'Terminy $a';
 $string['eventstarttime'] = 'Czas początkowy';
@@ -38,8 +39,7 @@ $string['eventview'] = 'Szczegóły terminu';
 $string['expired'] = 'Wygasły(a)';
 $string['explain_lookahead'] = 'Ten parametr oznacza maksymalną liczbę dni \"na przyszłość\" na podstawie której określony termin zostanie wyświetlony jako nadchodzący. Terminy ustalone jako rozpoczynające się później w stosunku do tej ilości dni nie będą wyświetlone. Zauważ, że <strong>nie ma gwarancji</strong>, że wszystkie zdarzenia zaczynające się w danym przeciągu czasu będą wyświetlone jako nadchodzące; jeśli jest ich zbyt wiele, najbardziej oddalone zdarzenia nie zostana wyświetlone. ';
 $string['explain_maxevents'] = 'Ten parametr ustala maksymalną liczbę wydarzeń, które zostaną wyświetlone.';
-$string['explain_persistflt'] = 'Jeżeli opcja jest włączona, to Moodle będzie pamiętać ostatnie ustawienie filtru i automatycznie odtwarzać je za każdym razem kiedy się zalogujesz. 
-';
+$string['explain_persistflt'] = 'Jeżeli opcja jest włączona, to Moodle będzie pamiętać ostatnie ustawienie filtru i automatycznie odtwarzać je za każdym razem kiedy się zalogujesz. ';
 $string['explain_startwday'] = 'Ten parametr ustawia sposób w jaki wszystkie miesięczne kalendarze będą wyświetlone. Ustaw go w sposób do którego jesteś przyzwyczajony.';
 $string['explain_timeformat'] = 'Możesz wybrać czas w formacie 12 albo 24 godzinnym. Jeśli wybierzesz \"domyślny\", wówczas ten format będzie automatycznie wybrany w zgodzie z językiem, który używasz na tej stronie';
 $string['fri'] = 'Pi.';

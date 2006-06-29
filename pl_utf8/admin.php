@@ -1,47 +1,126 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.5.2 + (2005060223)
+      // admin.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['adminseesallevents'] = 'Administratorzy widzą wszystkie zdarzenia';
 $string['adminseesownevents'] = 'Administratorzy są jak inni użytkownicy';
+$string['allowrenames'] = 'Zmień nazwę';
+$string['availablelangs'] = 'Dostępne paczki językowe';
+$string['backgroundcolour'] = 'przeźroczysty';
+$string['badwordsconfig'] = 'wprowadź na swoją listy \"zakazanych\" słow oddzielając przecinkami';
+$string['badwordsdefault'] = 'jeżeli lista użytkownika jest pusta, domyślnie jest używana lista dołączona do pakietu językowego';
+$string['badwordslist'] = 'lista \"zakazanych słów\" zdefiniowana przez uzytkownika';
 $string['blockinstances'] = 'instancja';
 $string['blockmultiple'] = 'złożony';
 $string['cachetext'] = 'Długość życia cache tekstu';
 $string['calendarsettings'] = 'Kalendarz';
 $string['change'] = 'zmiana';
+$string['changesitelang'] = 'zmień język witryny';
+$string['componentinstalled'] = 'zainstalowane komponenty';
 $string['configallowcoursethemes'] = 'Jeżeli jest wybrane TAK to umożliwiony jest wybór własnego  tematu dla kursu (wygląd strony). Tematy kursu unieważniają wybór ogólnego tematu (wygląd strony, użytkowników, albo tematów sesji ) ';
 $string['configallowemailaddresses'] = 'Jeżeli chcesz ograniczyć wszystkie nowe adresy e-mail do poszczególnej domeny (przy tworzeniu kont potwierdzanych e-mailem), to wprowadź tutaj listę tych domen oddzieloną spacjami. Wszystkie inne domeny będą odrzucane. np: <strong>ourcollege.edu.au .gov.au</strong> ';
+$string['configallowobjectembed'] = 'W domyślnym ustawieniu zabezpieczeń, zwykli użytkownicy nie mają prawa ingerować w strukturę tekstu plików multimedialnych (takie jak Flash) używając oznaczonych zakładek  INGERUJ i ZANEGUJ w ich HTML (pomimo, że proces ten może być ciągle bezpiecznie przeprowadzany przy pomocy filtra nakładki multimedialnej). Jeśli chcesz uaktywnić te zakładki wówczas udostępnij tę opcję';
 $string['configallowunenroll'] = 'Jeżeli jest ustawione \'tak\', studenci mogą samodzielnie wypisywać się z kursów w dowolnym momencie. W przeciwnym wypadku wyłącznie prowadzący i administrotorzy będą mieli do tego prawo.';
 $string['configallowuserblockhiding'] = 'Czy chcesz zezwolić użytkownikom ukrywać/pokazywać bloki strony?Ta cecha wymaga użycia Javascript i plików coockies  to wpływa na stan bloków i są widzialne dla danego użytkownika';
+$string['configallowusermailcharset'] = 'włączając tę opcje każdy użytkownik tego serwisu będzie mógł określić swoje kodowanie znaków w poczcie elektronicznej';
 $string['configallowuserthemes'] = 'Jeżeli opcja jest włączona to możliwe jest ustawianie własnych tematów (wyglądu strony). przez uzytkowników. Tematy użytkowników unieważniają ogólny temat strony (ale nie temat kursu)';
+$string['configallusersaresitestudents'] = 'Czy aby umożliwić operacje na stronie głównej, WSZYSCY użytkownicy powinni być rozpatrywani jako uczniowie? Jeśli odpowiesz \"Tak\", wówczas każde potwierdzone konto użytkownika będzie dopuszczone do uczestniczenia w tych operacjach. Jeśli odpowiesz \"Nie\", wówczas tylko użytkownicy którzy już są uczestnikami przynajmniej jednego kursu będą mogli wziąć udział w operacjach na stronie głównej. Tylko administratorzy i nauczyciele z odpowiednimi uprawnieniami mogą uczestniczyć jako nauczyciele w operacjach na stronie głównej';
 $string['configautologinguests'] = 'Czy odwiedzający stronę powinni być automatycznie logowani do kursów z prawami konta gość?';
+$string['configbloglevel'] = 'To ustawienie pozwala ograniczyć (określić) wyświetlanie blogów użytkowników w tej witrynie. Określa ono maksymalny kontekst WYŚWIETLAJĄCEGO a nie wystawiającego blog czy też typy blogów. Blogi mogą być także całkowicie zablokowane w razie potrzeby';
+$string['configcachetext'] = 'Dla  większych stron lub stron które używają filtrów tekstu, to ustawienie może rzeczywiście je przyspieszyć. Kopie tekstów będą przechowywane w swoich formach przetworzonych przez okres tutaj zaznaczony. Ustawienie tej opcji zbyt małej może nieco zwalniać pliki. Lecz ustawienie jej zbyt dużej może powodować, że pliki będą potrzebowały zbyt długiego czasu na odświeżanie (np. z nowymi linkami)';
 $string['configclamactlikevirus'] = 'Traktuj pliki jako wirusy';
 $string['configclamdonothing'] = 'Traktuj pliki jako nie uszkodzone';
+$string['configclamfailureonupload'] = 'Jeśli ustawiłeś clam ażeby skanowała załadowane pliki, lecz zostało to skonfigurowane niepoprawnie lub zawodzi z jakiś nieznanych powodów, co należy zrobić? Jeśli wybierzesz \'Traktuj pliki jak wirusy\', zostaną one przeniesione do obszaru kwarantanny, lub skasowane. Jeśli wybierzesz \'Zaakceptuj pliki\', pliki zostaną zwyczajnie przeniesione do katalogu docelowego. W innym przypadku, administratorzy  zostaną ostrzeżeni iż  clam zawiodła. Jeśli wybierzesz \'Traktuj pliki jak wirusy\', a clam z jakichś powodów zawiedzie (zazwyczaj ponieważ wprowadziłeś błędną ścieżkę), WSZYSTKIE pliki, które zostały załadowane będą przeniesione do oznaczonego obszaru kwarantanny, lub skasowane. Uważnie używaj tego ustawien';
 $string['configcountry'] = 'Jeżeli ustawisz tutaj kraj, to ten kraj będzie wybrany jako domyślny dla nowego konta użytkownika. Jeżeli chcesz żeby użytkownicy ustawiali sami kraj, nic tutaj nie ustawiaj.';
+$string['configdbsessions'] = 'Jeśli to ustawienie zostanie zaznaczone – pozwoli użyć bazy danych do przechowywania informacji o aktualnej sesji. Jest to szczególnie użyteczne dla dużych / często odwiedzanych stron lub stron budowanych na klastrach serwerów. Dla większości stron powinno zostać to odznaczone, a wówczas używany będzie dysk serwera. Należy zauważyć, że zmiana tego ustawienia w danej chwili wyloguje wszystkich aktualnie zalogowanych użytkowników (włączając w to również Ciebie).';
+$string['configdebug'] = 'Jeśli zostanie to włączone, wówczas raport błędów PHP zostanie rozszerzony, a więc zostanie wyszczególnionych więcej ostrzeżeń. Ta opcja jest użyteczna jedynie dla osób zajmujących się rozbudowa strony';
+$string['configdefaultallowedmodules'] = 'Dla kursów, które realizowane są w powyższej kategorii, które moduły chcesz ustawić jako domyślne <b>  gdy kurs jest tworzony </b>”';
+$string['configdefaultrequestedcategory'] = 'Domyślna kategoria załączana dla żądanych kursów, jeśli zostały zatwierdzone';
 $string['configdeleteunconfirmed'] = 'Jeżeli używana jest autoryzacja przez adresy e-mail, tutaj ustawia się czas w jakim są przyjmowane potwierdzenia od użytkowników. Po tym czasie niepotwierdzone konta zostaną usunięte.';
 $string['configdenyemailaddresses'] = 'Żeby odrzucać listy z poszczególnych adresów wymień je tutaj. Inne domeny będą akceptowane. np <strong>hotmail.com yahoo.co.uk</strong>';
 $string['configdigestmailtime'] = 'Dla tych którzy wybrali wysyłanie streszczenia codziennie mailem. Można ustawić o której godzinnie codziennie streszczenie będzie wysyłane.';
 $string['configdisplayloginfailures'] = 'Będzie wyświetlać informacje wybranego użytkownika o poprzednich nieudanych próbach logowania.';
+$string['configenablecourserequests'] = 'To pozwoli każdemu użytkownikowi stworzyć kurs na własne potrzeby';
+$string['configenablerssfeeds'] = 'Ta opcja zezwala na działanie RSS na całej stronie. Właściwie aby zauważyć jakiekolwiek zmiany należy zezwolić na RSS także w trybach indywidualnych – idź do ustawień Trybów pod Ustawienia Administratora';
 $string['configenablerssfeedsdisabled'] = 'To jest niemożliwe ponieważ wiadomości RSS są wyłączone na tej platformie. Aby to zmienić zmień ustawienia zmiennych w Konfiguracji Administracji.';
+$string['configenablestats'] = 'Jeśli wybierzesz \'tak\', cronjob Moodle będzie nadzorował logowania i generował statystyki. W zależności od ilości operacji na Twojej stronie realizacja tej opcji może chwilę potrwać. Jeśli zezwolisz na to, będziesz mógł obserwować interesujące wykresy i statystyki o każdym z twoich kursów lub o wszystkich równocześnie';
+$string['configerrorlevel'] = 'Wybierz ilość ostrzeżeń PHP, które chcesz by zostały wyświetlone. Zazwyczaj najlepszym wyborem jest ustawienie Normal';
 $string['configextendedusernamechars'] = 'Opcja pozwala na użycie dowolnych znaków w nazwie użytkownika. Domyślne ustawienie na \'nie\' ogranicza nazwy użytkowników do znaków alfanumerycznych.';
+$string['configfilterall'] = 'Filtruj wszystkie ciągi znaków, włączając w to nagłówki, tytuły, przyciski nawigacji itp. Zazwyczaj użyteczne podczas używania filtrów multilang, należy zauważyć, iż powoduje nadmierne obciążenie strony, przy niewielkich korzyściach';
+$string['configfiltermatchoneperpage'] = 'Filtry automatycznego łączenia będą jedynie tworzyły pojedynczy link do pierwszego pasującego przykładu tekstu, znalezionego na ukończonej stronie. Wszystkie pozostałe zostaną zignorowane';
+$string['configfiltermatchonepertext'] = 'Filtry automatycznego łączenia będą jedynie tworzyły pojedynczy link do pierwszego pasującego przykładu tekstu, znalezionego w każdym punkcie tekstu (np. zasób, blok) na  stronie. Wszystkie pozostałe zostaną zignorowane. To ustawienie jest ignorowane jeśli jedno z ustawień na stronie zostało zaznaczone jako \'Tak\'';
+$string['configforcelogin'] = 'Normalnie strona główna i zestawienie kursów (lecz nie same kursy) mogą być przeglądane bez logowania się na stronę. Jeśli chcesz wymusić na odwiedzającym konieczność zalogowania się, zanim wykona on JAKĄKOLWIEK czynność na stronie, wówczas powinieneś zaznaczyć to ustawienie.';
+$string['configforceloginforprofiles'] = 'Zaznaczenie tego ustawienia zmusza odwiedzającego do zalogowania się na konkretne konto (nie jako gość) zanim zostanie przekierowany do stron profilu użytkownika. Domyślnie ustawienie to jest odznaczone (\"false\") a więc potencjalni uczniowie mogą dowiedzieć się o nauczycielach na każdym kursie, lecz oznacza to także, że zostaną oni zauważeni przez system';
+$string['configframename'] = 'Jeśli ingerujesz w Moodle w obszarze ramki strony web, wprowadź tutaj nazwę ramki. W przeciwnym razie żądana wartość zostanie ustawiona jako \"_top\"';
+$string['configfullnamedisplay'] = 'To definiuje, jak zostaną wyświetlane pełne nazwy. Dla większości stron jednojęzycznych najkorzystniejszym ustawieniem jest domyślne \"Zadane imiona + nazwisko\", lecz możesz wybrać ukrywanie nazwisk wszystkich naraz lub pozostawić to do decyzji dla aktualnego pakietu językowego (niektóre języki mają inne reguły)';
 $string['configgdversion'] = 'Wskazuje zainstalowaną wersje biblioteki GD. Ta wersja jest pokazywana jako domyślna. Nie zmieniaj tej opcji jeśli nie jesteś pewny.';
+$string['confighiddenuserfields'] = 'Wybierz które pola informacji o użytkowniku pragniesz ukryć przed innymi użytkownikami, nie będącymi nauczycielami/administratorami. Ustawienie to reguluje poziom ochrony prywatności uczniów. Trzymaj klawisz CTRL w celu zaznaczenia wielu pól';
+$string['confightmleditor'] = 'Wybierz zezwalanie (lub nie) na użycie edytora tekstu ingerującego w HTML. Nawet jeśli na to zezwolisz, ten edytor będzie występował jedynie wtedy, gdy użytkownik będzie używał kompatybilnej przeglądarki. Użytkownicy mogą również wybrać zaniechanie korzystania z tej opcji';
+$string['configidnumber'] = 'Ta opcja określa czy (a) Użytkownicy nie są w ogóle proszeni o podanie numeru identyfikacyjnego ID, (b) Użytkownicy są proszeni o podanie numeru identyfikacyjnego ID, lecz mogą pozostawić pole pustym, lub (c) Użytkownicy są proszeni o podanie numeru identyfikacyjnego ID i nie mogą pozostawić pola pustym. Podany numer identyfikacyjny ID zostanie wyświetlony w ich Profilu';
+$string['configintro'] = 'Na tej stronie możesz określić ilość zróżnicowanych konfiguracji, które pozwolą na prawidłową prace Moodle na Twoim serwerze. Nie należy się zbytnio tym przejmować – zazwyczaj ustawienia domyślne wystarczają w zupełności, a Ty zawsze możesz wrócić do tej strony później i zmienić te ustawienia';
+$string['configintroadmin'] = 'Na tej stronie powinieneś skonfigurować  swoje główne konto administratora, które będzie zezwalało na całościowe kontrolowanie strony. Upewnij się, że podałeś bezpieczną nazwę użytkownika i hasło, jak również aktualny adres e-mail. W przyszłości możesz dodawać kolejne konta administratorów.';
+$string['configintrotimezones'] = 'Ta strona będzie wyszukiwała nowe informacje o światowych strefach czasowych (włącznie ze zmianą czasu) i aktualizowała tymi informacjami Twoją lokalną bazę danych. Te położenia będą sprawdzane w odpowiedniej kolejności: $a Ta procedura jest generalnie bardzo bezpieczna i nie jest w stanie przerwać zwykłej instalacji. Czy chcesz teraz aktualizować swoje strefy czasowe?';
 $string['configlang'] = 'Wybierz domyślny język dla platformy Moodle. Użytkownicy mogą zmieniać ten wybór później w swoich ustawieniach.';
+$string['configlangcache'] = 'Przenieś menu języków do pamięci podręcznej. Zachowuje wiele pamięci oraz minimalizuje użycie procesora. Jeśli zaznaczysz to, menu będzie potrzebowało kilku minut na aktualizację po każdorazowym dodaniu lub usunięciu języków';
 $string['configlangdir'] = 'Większość języków jest pisane od lewej do prawej, ale niektóre, jak Arabski i Hebrajski są pisane od proawej do lewej.';
 $string['configlanglist'] = 'Pozostaw puste jeżeli chcesz umożliwić użytkownikom wybór wszystkich dostępnych języków w tej instalacji Moodla. Jeżeli chcesz skrócić listę możliwych języków do wyboru wprowadź tutaj kody tych języków oddzielone przecinkami. Np: en, es_es,fr,it';
+$string['configlangmenu'] = 'Wybierz zezwalanie (lub nie) na wyświetlanie menu zasad językowych na stronie głównej, stronie logowania itd. Nie ogranicza to możliwości ustawienia przez użytkownika preferowanego języka w jego własnym profilu';
+$string['configlocale'] = 'Wybierz lokalny format strony – spowoduje to zmianę wyświetlania formatu i języka danych. Informacje potrzebne do wyświetlania danych w formacie lokalnym muszą być zainstalowane w Twoim systemie operacyjnym (np. en_US lub es_ES). Jeśli nie wiesz co wybrać pozostaw to pole pustym';
+$string['configloginhttps'] = 'Włączając tą opcję spowodujesz, że Moodle będzie używać bezpiecznego połączenia https tylko dla strony logowania (zapewnienie bezpiecznego logowania), a następnie powróci z powrotem do zwykłego http URL na zwykłej prędkości. UWAGA: to ustawienie WYMAGA, aby serwer zezwalał na specjalne połączenia https – jeśli nie MOŻE TO DOPROWADZIĆ DO SAMOCZYNNEGO ODRZUCENIA CIĘ Z TWOJEJ STRONY';
+$string['configloglifetime'] = 'To ustawienie określa przedział czasu , z jakiego zostaną zachowane logowania na stronie. Logowania które nie mieszczą się w zaznaczonym przedziale czasowym są automatycznie usuwane. Zalecane jest zachowywać logowania tak długo, jak to tylko możliwe, w przypadku gdybyś ich potrzebował, lecz jeśli posiadasz bardzo zajęty serwer i w przeszłości miałeś problemy z jego wydajnością, wówczas możesz być zainteresowany ograniczeniem interesującego Cię przedziału czasu';
+$string['configlongtimenosee'] = 'Jeśli uczniowie nie zalogują się przez bardzo długi czas, wówczas są automatycznie wykreślani z kursu. Ten parametr określa limit czasu';
+$string['configmaxbytes'] = 'To ustawienie określa maksymalną wielkość plików, które można załadować na całą stronę. To ustawienie jest ograniczane przez ustawienie PHP upload_max_filesize oraz ustawienie Appache LimitRequestBody. Po kolei, limity wielkości plików, zakres wielkości przy wyborze poziomu kursu lub poziomu modułu';
+$string['configmaxeditingtime'] = 'To ustawienie określa ilość czasu, którą użytkownicy mają na re-edycję obszaru forum, wyjaśnień słownikowych itd. Zazwyczaj dobrym rozwiązaniem jest ustawienie tego parametru na 30 minut';
+$string['configmessaging'] = 'Czy system porozumiewania się pomiędzy użytkownikami strony powinien być włączony?';
+$string['configmymoodleredirect'] = 'To ustawienie zarządza przekierowaniami na /mój dla logowania nie-administratorów i zmienia nagłówki strony najwyższego poziomu na /mój';
+$string['confignoreplyaddress'] = 'Emaile są czasami wysyłane w imieniu użytkownika (na przykład w obszarze forum). Adres e-mail który tutaj wpiszesz będzie używany jako adres \"Wyjścia\" w przypadkach gdy odbiorca nie powinien posiadać możliwości bezpośredniej odpowiedzi na konto użytkownika (na przykład gdy użytkownik wybierze opcję prywatności swojego adresu)';
+$string['confignotifyloginfailures'] = 'Jeśli błędy logowania zostały zapisane mogą być wysłane e-maile powiadamiające o tym. Kto powinien mieć dostęp do tych powiadomień.”';
+$string['confignotifyloginthreshold'] = 'Jeśli powiadomienia o błędnych loginach są aktywne, ile błędnych prób logowania przez jednego użytkownika lub jeden adres IP warto zachowywać';
+$string['configopentogoogle'] = 'Jeśli zaznaczysz to ustawienie, wówczas zezwolisz Google na wchodzenie na Twoja stronę jako Gość. W dodatku, użytkownicy zaglądający na Twoją stronę poprzez wyszukiwarkę Google będą automatycznie logowani jako Gość. Należy zaznaczyć, iż zezwala to jedynie na ograniczony (transparentny) dostęp do kursów, określony jak dla gości';
+$string['configquarantinedir'] = 'Jeśli chcesz, aby clam AV przeniósł zarażone pliki do katalogu kwarantanny, wskaż to tutaj. Na serwerze musi istnieć możliwość zapisywania do tego katalogu. Jeśli pozostawisz to pole pustym, lub jeśli określisz katalog który nie istnieje lub jest nie zapisywalny, zarażone pliki będą skasowane. Nie zapomnij o slashu na końcu';
+$string['configrestrictbydefault'] = 'Czy nowo tworzone kursy, które są umieszczane w powyższej kategorii powinny mieć swoje moduły domyślnie ograniczone?';
+$string['configrestrictmodulesfor'] = 'Które kursy powinny mieć <b> ustawienie </b>  dla odznaczania jakieś moduły operacji?';
+$string['configrunclamonupload'] = 'Czy clam AV dziala na załadowywanym pliku? Aby powyższa funkcja zadziałała będziesz potrzebował prawidłowej ścieżki w ścieżce do-clam’u (clam AV jest darmowym skanerem wirusów który możesz pobrać z http://www.clamav.net/)';
 $string['configsectioninterface'] = 'Interfejs';
 $string['configsectionmail'] = 'poczta';
 $string['configsectionmaintenance'] = 'utrzymywanie (konserwacja)';
 $string['configsectionmisc'] = 'różne';
 $string['configsectionoperatingsystem'] = 'system operacyjny';
 $string['configsectionpermissions'] = 'pozwolenia';
+$string['configsectionrequestedcourse'] = 'zapotrzebowanie kursu';
 $string['configsectionsecurity'] = 'bezpieczeństwo';
+$string['configsectionstats'] = 'statystyka';
 $string['configsectionuser'] = 'użytkownik';
+$string['configsecureforms'] = 'Moodle może używać dodatkowego poziomu zabezpieczeń podczas akceptowania danych pochodzących z różnych postaci stron web. Jeśli jest to zaznaczone ,wówczas parametr HTTP REFERER przeglądarki jest dodatkowo weryfikowany. W niektórych przypadkach może rodzić to problemy, jeśli użytkownik używa firewall’a (na przykład Zonealarm) skonfigurowanego na usuwanie HTTP REFERER z odwiedzanych stron web. Objawia się to \'zablokowaniem\'. Jeśli twoim użytkownicy mają problemy ze stroną logowania (na przykład) możesz chcieć odznaczyć to ustawienie, mimo iż, spowoduje to większą wrażliwość Twojej strony na prymitywne ataki hasłowe. Jeśli nie jesteś pewien pozostaw to ustawienie zaznaczone jako \'Tak\'';
+$string['configsessioncookie'] = 'To ustawienie określa nazwę cookie używanego dla sesji Moodle. Jest to ustawienie opcjonalne, i użyteczne jedynie w celu unikania komplikujących cookies podczas uruchomienia kilku kopii Moodle działających w obrębie tej samej strony web';
+$string['configsessioncookiepath'] = 'Jeśli musisz zmienić miejsce do którego przeglądarki przesyłają \"ciasteczka\" Moodle, możesz zmienić to ustawienie określając podkatalog twojej witryny (może lepiej: serwera). W przeciwnym przypadku domyślna wartość \"/\" powinna działać prawidłowo';
+$string['configsessiontimeout'] = 'Jeśli użytkownicy zalogowani na tą stronę są bezczynni przez dłuższy czas (bez ładowania stron), są automatycznie wylogowywani (ich sesja zostaje zakończona). Ten parametr określa w/w przedział czasu.';
+$string['configshowblocksonmodpages'] = 'Pewne moduły operacyjne wspierają bloki na swoich stronach. Jeśli zostanie to włączone wówczas nauczyciele będą mogli dodawać własne bloki na tych stronach, w przeciwnym razie interfejs nie wyświetli tej cechy';
+$string['configshowsiteparticipantslist'] = 'Wszyscy z tych uczniów i nauczycieli będą zapisani w zestawieniu uczestników. Kto powinien mieć dostęp do tego zestawienia?';
+$string['configsitepolicy'] = 'Jeśli masz ustawioną politykę zarządzania stroną, na którą wszyscy użytkownicy musza się zgodzić przed skorzystaniem ze strony, wówczas ustaw tutaj URL, w przeciwnym razie pozostaw to pole pustym. URL może wskazywać gdziekolwiek – dogodnym miejscem będzie plik pośród plików strony. Np. http://yoursite/file.php/1/policy.html';
+$string['configslasharguments'] = 'Pliki (obrazy, wgrania, itd.) są dostarczane poprzez skrypt używający ‘slash arguments’ (druga opcja). Ta metoda pozwala na łatwiejsze zachowywanie plików przez przeglądarkę, serwery proxy itd. Niestety niektóre serwery PHP nie dopuszczają takiej metody, a więc jeśli masz problemy z przeglądaniem wgrywanych plików lub obrazów (np. rysunki użytkownika), ustaw ten parametr na opcję pierwszą';
+$string['configsmtphosts'] = 'Nadaj pełną nazwę jednemu lub większej ilości lokalnych serwerów SMTP, które będą używane przez Moodle do wysłania maili (np. \'mail.a.com\' or \'mail.a.com;mail.b.com\'). Jeśli pozostawisz to miejsce pustym Moodle będzie używać domyślnej metody PHP do wysyłania maili';
+$string['configsmtpuser'] = 'Jeśli ustawiłeś powyżej serwer SMTP i serwer wymaga autoryzacji, wówczas wpisz tutaj nazwę użytkownika i hasło';
+$string['configstatsfirstrun'] = 'To ustawienie określa jak odległe w czasie logowania powinny być zachowywane <b> pierwszy czas </b> w celu tworzenia statystyk przetwarzania. Jeśli zauważasz duży ruch na stronie i masz dzielone łącze, prawdopodobnie nie będzie dobrym rozwiązaniem ustawianie zbyt dużego przedziału czasowego, ponieważ może potrzebować na to zbyt długiego czasu i nazbyt obciążać dane źródłowe. (Należy zwrócić uwagę, iż dlatego ustawienia 1 miesiąc=28 dni. Na wykresach i generowanych raportach 1 miesiąc=1 miesiąc kalendarzowy.)';
+$string['configstatsmaxruntime'] = 'Proces generowania statystyk może być dość intensywny, w celu jego ograniczenia użyj kombinacji tego pola i następnego do określenia kiedy statystyki mają być realizowane i przez jaki czas.';
+$string['configstatsruntimestart'] = 'O której godzinie cronjob powinien rozpocząć proces generowania statystyk?';
+$string['configstatsuserthreshold'] = 'Jeśli wprowadzisz tutaj nie-zerową, nie numeryczną wartość dla rankingu kursów, kursy z wartością mniejszą niż ta liczba końcowych użytkowników (uczniowie i nauczyciele) będą ignorowane';
+$string['configteacherassignteachers'] = 'Czy nauczyciele bez specjalnych priorytetów mogą weryfikować innych nauczycieli w danym kursie? Jeśli \'Nie\', wówczas jedynie osoby tworzące kurs oraz administratorzy mogą weryfikować nauczycieli';
+$string['configthemelist'] = 'Pozostaw to miejsce pustym w celu wprowadzenia kolejnych tematów. Jeśli zamierzasz skrócić menu tematów, możesz definiować tutaj listę tematów których nazwy są rozgraniczone przecinkami (Nie używać spacji).
+Na przykład: standard,orangewhite';
+$string['configtimezone'] = 'Masz możliwość ustawienia tutaj domyślnej strefy czasowej. Jest to główne ustawienie strefy czasowej dla wszelkich wyświetlanych dat – każdy użytkownik może weryfikować to ustawienie poprzez zdefiniowanie daty w swoim własnym profilu. ”Server time – wytyczne czasowe serwera” W tym miejscu będą powodowały odnoszenie się domyślnych ustawień Moodle do ustawień systemu operacyjnego serwera, lecz użycie ustawienia ”Server time w profilu użytkownika będzie powodowało odczytywanie czasu z tychże ustawień czasowych. Użycie cronjob-ów używających ustawień czasowych (o wyznaczonej godzinie dnia) będzie powodowało, iż będą one używały tego ustawienia strefy czasowej';
+$string['configunzip'] = 'Wskazuje lokalizację Twoich rozpakowanych (unzpi-owanych) programów (dotyczy jedynie systemu Unix, ustawienie opcjonalne). Jeśli zostało określone, będzie wskazywało miejsce na serwerze dla rozpakowywania pobranych archiwów. Jeśli pozostawisz to miejsce pustym, wówczas Moodle będzie stosował się do swoich wewnętrznych procedur';
 $string['configvariables'] = 'Zmienne';
+$string['configwarning'] = 'Postępuj rozważnie z tymi ustawieniami – wartości skrajne mogą powodować problemy';
+$string['configzip'] = 'Wskazuje lokalizację Twoich spakowanych programów (dotyczy jedynie systemu Unix, ustawienie opcjonalne). Jeśli zostało określone, będzie wskazywało miejsce na serwerze dla zapisywania spakowanych archiwów. Jeśli pozostawisz to miejsce pustym, wówczas Moodle będzie stosował się do swoich wewnętrznych procedur';
 $string['confirmation'] = 'potwierdzenie';
+$string['cronwarning'] = 'Skrypt konserwacyjny <a href=\"cron.php\">cron.php nie był uruchamiany przez ostatnie 24 godziny. ';
 $string['edithelpdocs'] = 'edytuj pliki pomocy';
 $string['editstrings'] = 'edytuj łańcuchy znaków';
 $string['filterall'] = 'filtruj wszystkie łańcuchy znaków';
 $string['filteruploadedfiles'] = 'Filtruj uploadowane pliki';
+$string['globalsquoteswarning'] = '<p><strong>Security Warning</strong>:do prawidłowego działania Moodle potrzebuje
+<br />, odpowiednie zmiany dla Twoich ustawień PHP. <p/><p> musisz <em>ustawić </em> <code>register_globals=off</code> and/or <code>magic_quotes_gpc=on</code>. <br />. Jeśli mozliwe, powinieneś ustawić <code>register_globals=off</code> w celu wzmocnienia głównych ustawień ochrony serwera <br />, ustawienie <code>magic_quotes_gpc=on</code> jest również zalecane.<p/><p> Te ustawienia są kontrolowane poprzez edycję Twojej konfiguracji <code>php.ini</code>, Apache/IIS <br /> lub pliku <code>.htaccess</code> </p>';
 $string['helpadminseesall'] = 'Administrator widzi wszystkie zdarzenia z kalendarza, lub te dotyczące jego?';
 $string['helpcalendarsettings'] = 'Konfiguruj kalendarz, datę i czas zwiazane z różnymi aspektami moodle';
 $string['helpforcetimezone'] = 'Użytkownicy mogę indywidualnie dobierać strefe czasową, albo jest jedna strefa czasowa dla wszelkiech.';
@@ -59,13 +138,30 @@ $string['pleaseregister'] = 'Proszę zarejestrować swoją stronę, wtedy przyci
 $string['sitemaintenance'] = 'Trwają pracę administracyjne i ta strona jest obecnie nie dostępna';
 $string['sitemaintenancemode'] = 'Moduł konserwacji';
 $string['sitemaintenanceon'] = 'Obecnie trwają prace administracyjne. (tylko adminstrator może zalogować się)';
+$string['sitemaintenancewarning'] = 'Twoja strona znajduje się obecnie w trybie edycyjnym (możliwość zalogowania jedynie dla administratorów). W celu powrotu strony do trybu normalnego, odznacz tryb zarządzania  <a href=\"maintenance.php\">.';
+$string['stickyblocksduplicatenotice'] = 'Jeśli jakikolwiek blok dodany w tym miejscu istnieje już na pojedynczej stronie, spowoduje to stworzenie duplikatu. <br /> Jedynie załączony plik będzie nie edytowalny, duplikat ciągle pozostanie edytowalny';
+$string['stickyblocksmymoodle'] = 'Mój MOODLE';
+$string['tabselectedtofront'] = 'W tabeli oznaczeń, linijka z aktualnym zaznaczeniem powinna być podświetlona';
 $string['therewereerrors'] = 'Dane zawierają błędy';
 $string['timezoneforced'] = 'Strefa czasowa wymuszana przez administratora systemu';
 $string['timezoneisforcedto'] = 'Zmuś wszystkich użytkowników do użycia strefy czasowej';
 $string['timezonenotforced'] = 'użytkownik może wybierać swoją strefę czasową';
+$string['upgradeforumread'] = 'Nowy program został dodany w Moodle 1.5 w celu śledzenia przeczytanych/nie przeczytanych opinii na forum <br/> Aby skorzystać z tej opcji musisz <a href=\"$a\">zaktualizować swoje tabele </a>';
+$string['upgradeforumreadinfo'] = 'Nowy program został dodany w Moodle 1.5 w celu śledzenia przeczytanych/nie przeczytanych opinii na forum. Aby skorzystać z tej opcji musisz zaktualizować swoje tabele za pomocą wszelkich informacji śledzących dla istniejących post-ów. W zależności od wielkości Twojej strony może zająć to dłuższy okres czasu (liczony nawet w godzinach) i może powodować znaczne obciążenia bazy danych, a więc zalecane jest stosowanie go podczas okresów bezczynności. Aktualizacja ta nie będzie miała wpływu na funkcjonalność Twojej strony, nie wpłynie ona również na obsługę użytkowników. Po rozpoczęciu procesu powinieneś przeprowadzić go do końca ( okno przeglądarki powinno pozostać otwarte). Nie należy jednak przejmować się przerwaniem procesu wynikłym wskutek zamknięcia strony, ponieważ można  <br /><br /> Czy chcesz teraz rozpocząć proces aktualizacji?”';
 $string['upgradelogs'] = 'Dla uzyskania pełnej funkcjonalności, stare logi powinny zostać uaktualnione. <a href=\"$a\">Więcej informacji</a>';
 $string['upgradelogsinfo'] = 'Aby móc przeglądać stare logi musisz dokonać ich aktualizacji. W zależności od konfiguracji twojej strony internetowej proces ten może potrwać parę godzin i mocno wpłynąć na wydajność bazy danych. Gdy rozpoczniesz już proces aktualizacji, poczekaj aż on się skończy (nie zamykaj okna przeglądarki). Strona będzie działała poprawnie dla innych użytkowników.<br />Czy chcesz teraz dokonać aktualizacji logów?';
+$string['upgradesure'] = 'Twoje pliki Moodle zostały zmienione, a Ty właśnie automatycznie aktualizujesz swój serwer do tej wersji:
+<p><strong>$a</strong></p>
+<p>Zmiana tego ustawienia jest nieodwracalna. </p>
+<p>Czy chcesz teraz rozpocząć aktualizację tego serwera do tej wersji?</p>”
+';
 $string['upgradingdata'] = 'Uaktualnianie danych';
 $string['upgradinglogs'] = 'Uaktualnianie logów';
+$string['upwards'] = 'Do góry ';
+$string['useraccountupdated'] = 'użytkownik uaktualniony';
+$string['userrenamed'] = 'użytkownik usunięty';
+$string['userscreated'] = 'użytkownicy utworzeni';
+$string['usersrenamed'] = 'nazwa użytkowników zmieniona';
+$string['usersupdated'] = 'użytkownicy usunięci';
 
 ?>

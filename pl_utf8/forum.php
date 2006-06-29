@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.5.2 + (2005060222)
+      // forum.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['addanewdiscussion'] = 'Dodaj nowy temat dyskusji';
+$string['addanewquestion'] = 'Dadaj nowe pytanie';
 $string['addanewtopic'] = 'Dodaj nowy temat';
 $string['advancedsearch'] = 'Zaawansowane szukanie';
 $string['allforums'] = 'Wszystkie fora';
@@ -10,6 +11,8 @@ $string['allowchoice'] = 'Zezwól każdemu użytkownikowi na wybór';
 $string['allowdiscussions'] = 'Czy $a może wysyłać wiadomości na to forum?';
 $string['allowratings'] = 'Czy posty mogą być oceniane?';
 $string['allowsdiscussions'] = 'W tym forum każdy może utworzyć tylko jeden temat dyskusji.';
+$string['allsubscribe'] = 'Subskrybuj wszystkie fora';
+$string['allunsubscribe'] = 'Odwołaj subskrybcje wszystkich forów';
 $string['anyfile'] = 'Jakikolwiek plik';
 $string['attachment'] = 'Załącznik';
 $string['bynameondate'] = ' $a->name  w dniu $a->date napisał(a)';
@@ -111,7 +114,7 @@ $string['oldertopics'] = 'Starsze tematy';
 $string['openmode0'] = 'Żadnych dyskusji, żadnych odpowiedzi';
 $string['openmode1'] = 'Żadnych dyskusji, ale odpowiedzi są dozwolone';
 $string['openmode2'] = 'Dyskusje i odpowiedzi są dozwolone';
-$string['parent'] = 'Przejdź do wiadomości wyżej (&#8222;parent&#8221;)';
+$string['parent'] = 'Przejdź do wiadomości wyżej („parent”)';
 $string['parentofthispost'] = 'Wiadomość nadrzędna';
 $string['postadded'] = 'Twój post został dodany. <br />Jeżeli chcesz coś jeszcze zmienić masz $a na edycję.';
 $string['postincontext'] = 'Zobacz ten post w kontekście';

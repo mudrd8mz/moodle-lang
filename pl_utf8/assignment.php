@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6 development (2005101200)
+      // assignment.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['allowresubmit'] = 'Zezwól na wielokrotne przesyłanie rozwiązania';
@@ -30,6 +30,8 @@ $string['failedupdatefeedback'] = 'Nie udało się uaktualnić informacji zwrotn
 $string['feedback'] = 'Informacja zwrotna';
 $string['feedbackfromteacher'] = 'Informacja zwrotna z $a';
 $string['feedbackupdated'] = 'Informacja zwrotna została uaktualniona dla $a osób';
+$string['graded'] = 'Oceniono';
+$string['guestnosubmit'] = 'Goście nie mogą oddawać rozwiązań do ocenienia. Musisz rejestrować się aby móc przesłać rozwiązanie.';
 $string['guestnoupload'] = 'Przepraszamy, użytkownik zalogowany joko gość przesłać';
 $string['helpoffline'] = '<p>To jest użyteczne kiedy zadanie jest wykonywane poza Moodle. 
 <p>Studenci mogą widzieć opis zadania, ale nie mogą przesłać pliku. Oceniasz prace normalnie, i studenci będą otrzymywać zawiadomienia o stopniach. ';
@@ -46,12 +48,15 @@ $string['noattempts'] = 'Nie próbowano rozwiązać zadania';
 $string['notgradedyet'] = 'Jeszcze nie oceniono';
 $string['notsubmittedyet'] = 'Nic jeszcze nie przesłano';
 $string['overwritewarning'] = 'UWAGA: Ponowne przesłanie zastąpi twoje aktualne rozwiązanie';
+$string['pagesize'] = 'Liczba rozwiązań na stronie';
 $string['preventlate'] = 'Zabraniaj przesyłac po terminie';
+$string['quickgrade'] = 'Pozwól na szybkie ocenianie';
 $string['saveallfeedback'] = 'Zapisz moje wszystkie informacje zwrotne';
 $string['submission'] = 'Rozwiązanie';
 $string['submissionfeedback'] = 'Informacje zwrotne na temat rozwiązania';
 $string['submissions'] = 'Rozwiązania';
 $string['submissionsaved'] = 'Zmiany zostały zapisane';
+$string['submissionsnotgraded'] = '$a rozwiązań nie oceniono';
 $string['submitassignment'] = 'Prześlij swoje rozwiązanie korzystając z poniższego formularza';
 $string['submitted'] = 'Przesłano';
 $string['typeoffline'] = 'Działania wykonywane w trybie off-line';

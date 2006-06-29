@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 development (2005072200)
+      // glossary.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['addcomment'] = 'Dodaj komentarz';
@@ -96,8 +96,8 @@ $string['explainexport'] = 'Plik został stworzony.<br />Ściągnij go i zachowa
 $string['explainimport'] = 'Musisz wskazać plik, który chcesz importować i zdefiniowac kryteria.<p>Wyślij swoje żądanie i sprawdź wynik.';
 $string['explainspecial'] = 'Pokaż pojęcia, które nie zaczynają się od litery';
 $string['exportedentry'] = 'Wyeksportowany plik';
-$string['exportedfile'] = 'Eksportuj plik';
 $string['exportentries'] = 'Eksportuj pojęcia';
+$string['exportfile'] = 'Eksportuj pojęcia do pliku';
 $string['exportglossary'] = 'Eksportuj słownik pojęć';
 $string['exporttomainglossary'] = 'Eksportuj do głównego słownika pojęć';
 $string['filetoimport'] = 'Plik do importu';
@@ -107,7 +107,6 @@ $string['fullmatch'] = 'Szukaj tylko wyrazów tak jak zostały wpisane<br /><sma
 $string['globalglossary'] = 'Słownik globalny';
 $string['glossaryleveldefaultsettings'] = 'Domyślne ustawienia słownika';
 $string['glossarytype'] = 'Typ słownika pojęć';
-$string['glosssaryexported'] = 'Wyeksportowano słownik pojęć';
 $string['importcategories'] = 'Importuj kategorie';
 $string['importedcategories'] = 'Zaimportowano kategorie';
 $string['importedentries'] = 'Zaimportowano wpisy';
@@ -148,9 +147,9 @@ $string['rsssubscriberss'] = 'Wyświetl RSS feed dla $a terminów';
 $string['searchindefinition'] = 'Przeszukaj cały tekst';
 $string['secondaryglossary'] = 'Tymczasowy słownik pojęć';
 $string['sendinratings'] = 'Przyślij moje ostatnie oceny';
-$string['showall'] = 'Pokaż link &#8222;Wszystkie&#8221;';
+$string['showall'] = 'Pokaż link „Wszystkie”';
 $string['showalphabet'] = 'Pokaż link ';
-$string['showspecial'] = 'Pokaż link &#8222;Specjalne&#8221;';
+$string['showspecial'] = 'Pokaż link „Specjalne”';
 $string['sortby'] = 'Posortuj według';
 $string['sortbycreation'] = 'Według daty utworzenia';
 $string['sortbylastupdate'] = 'Według ostatniej aktualizacji';
