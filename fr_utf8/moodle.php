@@ -1103,6 +1103,7 @@ $string['showperpage'] = 'Afficher $a par page';
 $string['showrecent'] = 'Afficher les événements récents';
 $string['showreports'] = 'Afficher les rapports d\'activités';
 $string['showsettings'] = 'Afficher les réglages';
+$string['showtheselogs'] = 'Afficher cet historique';
 $string['since'] = 'Depuis';
 $string['sincelast'] = ' depuis la dernière connexion';
 $string['site'] = 'Site';
