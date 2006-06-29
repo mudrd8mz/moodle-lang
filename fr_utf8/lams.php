@@ -18,7 +18,7 @@ $string['selectExistingSequence'] = 'Sélectionner une séquence existante ou en
 $string['sequence'] = 'Sélectionner séquence';
 $string['serverid'] = 'Saisissez l\'identifiant du serveur (server ID) reçu de <a href=http://www.lamsinternational.com target=_blank>LAMS international</a>.';
 $string['serverkey'] = 'Saisissez la clef du serveur (server key) reçue de <a href=http://www.lamsinternational.com target=_blank>LAMS international</a>.';
-$string['serverurl'] = 'Saisissez l\URL de base utilisé pour accéder au serveur LAMS, par exemple http://localhost:8080/lams';
+$string['serverurl'] = 'Saisissez l\'URL de base utilisée pour accéder au serveur LAMS, par exemple http://localhost:8080/lams';
 $string['useSequence']  = 'Utiliser la séquence sélectionnée';
 $string['visibletostudents'] = 'Montrer les activités aux étudiants';
 $string['wikistartederror'] = 'Le wiki comporte déjà des données. Impossible de modifier.';
