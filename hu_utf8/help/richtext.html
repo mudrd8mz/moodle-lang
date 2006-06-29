@@ -1,9 +1,17 @@
 <p align="center"><strong>A richtext formájú HTML-szerkesztő használata</strong></p>
 
-<p>Elérhetőség: <strong><?php  if ( !$CFG -> htmleditor) { print_string("htmleditordisabledadmin"); } 
-else if (!$USER->htmleditor) { print_string("htmleditordisabled"); } 
-else if (!can_use_richtext_editor() { print_string("htmleditordisabledbrowser"); } 
-else { print_string("htmleditoravailable"); } ?></strong></p>
+<p>Elérhetőség: <strong>
+<?php  if (!$CFG->htmleditor) {
+       print_string("htmleditordisabledadmin");
+   } else if (!$USER->htmleditor) {
+       print_string("htmleditordisabled");
+   } else if (!can_use_richtext_editor()) {
+       print_string("htmleditordisabledbrowser");
+   } else {
+       print_string("htmleditoravailable");
+   }
+?>
+</strong></p>
 
 <p>A richtext formájú HTML-szerkesztő olyan weboldalba beágyazott szövegszerkesztői felület, 
 amely lehetővé teszi az adott szöveg intuitív módon való szerkesztését, 

@@ -1,15 +1,15 @@
 <P ALIGN=CENTER><B>Editor HTML</B></P>
 <P>Disponibilit&agrave;: <B>
 <?php  if (!$CFG->htmleditor) {
-       print_string(&quot;htmleditordisabledadmin&quot;);
-   } else if (!$USER-&gt;htmleditor) {
-       print_string(&quot;htmleditordisabled&quot;);
+       print_string("htmleditordisabledadmin");
+   } else if (!$USER->htmleditor) {
+       print_string("htmleditordisabled");
    } else if (!can_use_richtext_editor()) {
-       print_string(&quot;htmleditordisabledbrowser&quot;);
+       print_string("htmleditordisabledbrowser");
    } else {
-       print_string(&quot;htmleditoravailable&quot;);
+       print_string("htmleditoravailable");
    }
-?&gt;
+?>
 </B></P>
 <P>L'editor HTML mette a disposizione una interfaccia
   tipo word-processor direttamente all'interno di una pagina web, permettendo
