@@ -1,6 +1,7 @@
 <?php // $Id$
 
 $string['analysis'] = 'Analyse par éléments';
+$string['analysisdownload'] = 'Téléchargement analyse';
 $string['analysisoptions'] = 'Options d\'analyse';
 $string['analysistitle'] = 'Table d\'analyse éléments';
 $string['attemptsall'] = 'Toutes tentatives';
