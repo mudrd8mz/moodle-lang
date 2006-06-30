@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // admin.php - created with Moodle 1.6 + (2006050506)
 
 
 $string['adminseesallevents'] = 'Správci vidí všechny události';
@@ -41,6 +41,7 @@ $string['configdenyemailaddresses'] = 'Chcete-li z některých domén e-mailové
 $string['configdigestmailtime'] = 'Zadejte hodinu, kdy mají být odesílány denní e-mailové přehledy. (E-maily budou rozeslány při prvním spuštění cronu po nastavené hodině.)';
 $string['configdisplayloginfailures'] = 'Zvoleným uživatelům se budou zobrazovat informace o neúspěšných pokusech o přihlášení do systému.';
 $string['configdocroot'] = 'Cesta k dokumentaci Moodlu. Upravte toto nastavení, pokud si přejete mít vlastní online dokumentaci. Ujistětě se, že vaše dokumentace zachovává stejný formát jako http://docs.moodle.org.';
+$string['configdoctonewwindow'] = 'Otevírat stránky dokumentace v novém okně.';
 $string['configenablecourserequests'] = 'Povolit uživatelům žádat o založení kurzu?';
 $string['configenablerssfeeds'] = 'Povolení RSS kanálů pro celý server. Kanály musíte povolit zvlášť u každého modulu v jeho nastavení -- \'Správa -> Nastavení -> Moduly -> Nastavení modulu\'.';
 $string['configenablerssfeedsdisabled'] = 'Tato volba není dostupná, protože RSS kanály jsou na těchto stránkách zakázány. Kanály povolíte v \'Správa -> Nastavení -> Obecné parametry\'.';
@@ -210,6 +211,7 @@ $string['pathtopsqldesc'] = 'Tento údaj je nutné zadat pouze v případě, že
 $string['pathtopsqlinvalid'] = 'Neplatná cesta k psql -- buď je zadána chybná cesta, nebo nelze odkazovaný soubor spustit.';
 $string['pgcluster'] = 'Cluster PostgreSQL';
 $string['pgclusterdescription'] = 'Parametry PostgreSQL version/cluster pro operace prováděné z příkazové řádky. Pokud provozujete pouze jednu instanci PostgreSQL, nebo pokud si nejste jisti, ponechte pole prázdné.';
+$string['php50restricted'] = 'V PHP 5.0.x bylo nalezeno množství chyb; přejděte buď na vyšší verzi 5.1.x, nebo na nižší verzi 4.3.x či 4.4.x.';
 $string['pleaseregister'] = 'Chcete-li se zbavit tohoto tlačítka, zaregistrujte svou instalaci Moodlu';
 $string['releasenoteslink'] = 'Informace o této verzi Moodlu najdete v <a target=\"_new\" href=\"$a\">Poznámkách k verzi</a>';
 $string['remotelangnotavailable'] = 'Nepodařilo se připojit k serveru download.moodle.org, automatickou instalaci jazykových balíčků proto nelze provést. Stáhněte prosím příslušné soubory ZIP ze seznamu níže, zkopírujte je do adresáře $a a ručně je dekomprimujte.';
