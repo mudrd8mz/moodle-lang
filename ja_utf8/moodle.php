@@ -472,7 +472,7 @@ $string['existingcreators'] = 'コース作成者一覧';
 $string['existingstudents'] = '登録済み学生';
 $string['existingteachers'] = '教師一覧';
 $string['expirynotify'] = '登録期間終了通知';
-$string['expirynotifyemail'] = 'このコースに関する次の学生の登録期間は $a->threshold 日で終了します:
+$string['expirynotifyemail'] = 'このコースに関する次の学生の登録期間は、厳密に $a->threshold 日で終了します:
 
 $a->current
 
@@ -528,7 +528,7 @@ $string['formattexttype'] = 'フォーマット';
 $string['formattopics'] = 'トピックフォーマット';
 $string['formatweeks'] = 'ウィークリーフォーマット';
 $string['formatweekscss'] = 'ウィークリーフォーマット - CSS/テーブルなし';
-$string['formatwiki'] = 'Wikiフォーマット';
+$string['formatwiki'] = 'Wikiのようなフォーマット';
 $string['from'] = 'From';
 $string['frontpagecategorynames'] = 'カテゴリ一覧';
 $string['frontpagecourselist'] = 'コース一覧';
