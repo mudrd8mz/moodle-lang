@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.7 dev (2006052400)
+      // quiz_analysis.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['analysis'] = 'アイテム分析';
+$string['analysisdownload'] = '分析結果のダウンロード';
 $string['analysisoptions'] = '分析オプション';
 $string['analysistitle'] = 'アイテム分析テーブル';
 $string['attemptsall'] = 'すべての受験';
