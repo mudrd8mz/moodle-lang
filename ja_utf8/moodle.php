@@ -484,11 +484,11 @@ $a->past
 学生の登録期間を延長するには、次のページにアクセスしてください:
 $a->extendurl';
 $string['expirynotifystudents'] = '学生に通知';
-$string['expirynotifystudentsemail'] = 'こんにちは。
+$string['expirynotifystudentsemail'] = 'こんにちは、$a->studentstr さん。
 
 このメールは、あなたのコース「 $a->course 」に対する登録期間が、あと $a->threshold 日で終了するお知らせのために送信されました。
 
-詳細な情報は、あなたの先生にたずねてください。';
+詳細な情報は、あなたの $a->teacherstr にたずねてください。';
 $string['expirythreshold'] = '閾値';
 $string['explanation'] = '説明';
 $string['extendenrol'] = 'ユーザ登録期間の延長';
