@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // currencies.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // currencies.php - created with Moodle 1.6 + (2006050506)
 
 
-$string['CSK'] = 'CZK (českých korun)';
-$string['EUR'] = 'EUR (eur)';
-$string['USD'] = 'USD (amerických dolarů)';
+$string['CSK'] = 'CZK (česká koruna)';
+$string['EUR'] = 'EUR (euro)';
+$string['USD'] = 'USD (americký dolar)';
 
 ?>

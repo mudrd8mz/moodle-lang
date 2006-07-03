@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // data.php - created with Moodle 1.6 + (2006050506)
 
 
 $string['action'] = 'Akce';
@@ -25,10 +25,10 @@ $string['commentempty'] = 'Komentář byl prázdný';
 $string['comments'] = 'Komentáře';
 $string['commentsaved'] = 'Komentář byl uložen';
 $string['commentsn'] = 'Komentáře: $a';
-$string['configenablerssfeeds'] = 'Touto volbou povolíte funkci RSS kanálů pro všechny databáze. Budete ještě muset zapnout RSS kanály v nastavení jednotlivých databází.';
+$string['configenablerssfeeds'] = 'Povolit funkci RSS kanálů pro všechny databáze. Budete ještě muset zapnout RSS kanály v nastavení jednotlivých databází.';
 $string['confirmdeletefield'] = 'Chcete skutečně odstranit toto pole?';
 $string['confirmdeleterecord'] = 'Chcete skutečně odstranit tento záznam?';
-$string['csstemplate'] = 'šablona CSS';
+$string['csstemplate'] = 'Šablona CSS';
 $string['csvfile'] = 'Soubor CSV';
 $string['csvimport'] = 'import souboru CSV';
 $string['date'] = 'Datum';
@@ -114,7 +114,7 @@ $string['nomaximum'] = 'Není stanoven';
 $string['norecords'] = 'Nejsou k dispozici žádné záznamy';
 $string['nosingletemplate'] = 'Šablona pro jednotlivý záznam ještě není definována';
 $string['number'] = 'Číslo';
-$string['numberrssarticles'] = 'RSS články';
+$string['numberrssarticles'] = 'RSS zprávy';
 $string['numnotapproved'] = 'Ke schválení';
 $string['numrecords'] = '$a záznamů';
 $string['optionaldescription'] = 'Krátký popis (nepovinný údaj)';
@@ -144,7 +144,8 @@ $string['resettemplate'] = 'Generovat výchozí šablonu';
 $string['resizingimages'] = 'Změna velikosti náhledů...';
 $string['rssglobaldisabled'] = 'Není v provozu. Zkontrolujte nastavení.';
 $string['rsshowmany'] = '(počet nejnovějších záznamů k zobrazení, nebo vypnutí RSS)';
-$string['rsstemplate'] = 'Šablona RSS';
+$string['rsstemplate'] = 'Šablona RSS zpráv';
+$string['rsstitletemplate'] = 'Titulek RSS zpráv';
 $string['save'] = 'Uložit';
 $string['saveandadd'] = 'Uložit a vložit další';
 $string['saveandview'] = 'Uložit a prohlédnout';

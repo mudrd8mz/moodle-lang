@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.5 + (2005060201)
+      // editor.php - created with Moodle 1.6 + (2006050506)
 
 
 $string['about'] = 'O tomto editoru';
@@ -8,7 +8,7 @@ $string['address'] = 'Adresa';
 $string['alertnoselectedtext'] = 'Nejprve je třeba vybrat text!';
 $string['alignment'] = 'Zarovnání';
 $string['alternatetext'] = 'Alternativní text';
-$string['anchorhelp'] = 'Tímto vytváříte pouze návěští. Stále sem musíte ručně nadefinovat odkaz.';
+$string['anchorhelp'] = 'Tímto vytváříte pouze návěští. Stále ještě musíte ručně vytvořit odkaz, který na ně bude odkazovat.';
 $string['anchorname'] = 'Název návěští';
 $string['anchors'] = 'Návěští';
 $string['baseline'] = 'Účaří (baseline)';
@@ -29,7 +29,7 @@ $string['createanchor'] = 'Vytvořit návěští';
 $string['createfolder'] = 'Vytvořit složku';
 $string['createlink'] = 'Vložit odkaz';
 $string['cut'] = 'Vyjmout výběr';
-$string['cutpastemozilla'] = 'Bohužel, pro vložení textu ze schránky momentálně nemůžete použít běžnou klávesovou zkratku či dokonce tlačítko Vložit. Toto chování je způsobeno bezpečnostním opatřením zabudovaným do některých verzí prohlížečů Mozilla a Firefox.<br /><br />Existují způsoby, jak toto chování obejít, takže vyzkoušejte:<br />(1) Místo CTRL+v zkuste zkratku SHIFT+Insert<br />(2) Použijte nabídku Úpravy->Vložit v menu vašeho prohlížeče<br />(3) Upravte si nastavení vašeho prohlížeče v souboru user.js<br />(4) Na Linuxu zkuste vložit text pomocí nastaveného tlačítka myši<br /><br />Pro více informací klikněte na tlačítko OK, pro návrat do editoru stiskněte Cancel, Storno či Zrušit.';
+$string['cutpastemozilla'] = 'Bohužel, pro vložení textu ze schránky momentálně nemůžete použít běžnou klávesovou zkratku či dokonce tlačítko Vložit. Toto chování je způsobeno bezpečnostním opatřením zabudovaným do některých verzí prohlížečů Mozilla a Firefox.<br /><br />Existují způsoby, jak toto chování obejít, takže vyzkoušejte:<br />(1) Místo CTRL+V zkuste zkratku SHIFT+Insert<br />(2) Použijte nabídku Úpravy->Vložit v menu vašeho prohlížeče<br />(3) Upravte si nastavení vašeho prohlížeče v souboru user.js<br />(4) V Linuxu zkuste vložit text pomocí nastaveného tlačítka myši<br /><br />Pro více informací klikněte na tlačítko OK, pro návrat do editoru stiskněte Cancel, Storno či Zrušit.';
 $string['delete'] = 'Odstranit';
 $string['filebrowser'] = 'Prohlížeč souborů';
 $string['findwhat'] = 'Najít';
@@ -46,7 +46,7 @@ $string['horizontalrule'] = 'Vodorovná čára';
 $string['htmlmode'] = 'Přepnout na HTML zdroj';
 $string['imageurl'] = 'URL obrázku';
 $string['indent'] = 'Zvětšit odsazení';
-$string['insertchar'] = 'Vložit specíální znak';
+$string['insertchar'] = 'Vložit speciální znak';
 $string['insertimage'] = 'Vložit obrázek';
 $string['insertlink'] = 'Vložit odkaz';
 $string['insertsmile'] = 'Vložit smajlík';
@@ -75,14 +75,14 @@ $string['minimize'] = 'Minimalizovat editor';
 $string['move'] = 'Přesunout';
 $string['nolink'] = 'Zabránit automatickému vytváření odkazů';
 $string['normal'] = 'Normální';
-$string['notimage'] = 'Vybraný soubor není obrázek. Prosím, vyberte jiný soubor.';
+$string['notimage'] = 'Vybraný soubor není obrázek. Vyberte prosím jiný soubor.';
 $string['notset'] = 'Nenastaveno';
 $string['ok'] = 'OK';
 $string['options'] = 'Volby';
 $string['orderedlist'] = 'Číslovaný seznam';
 $string['outdent'] = 'Zmenšit odsazení';
 $string['paste'] = 'Vložit ze schránky';
-$string['path'] = 'HTML cesta';
+$string['path'] = 'Cesta';
 $string['percent'] = 'Procent';
 $string['pixels'] = 'Pixelů';
 $string['popupeditor'] = 'Zvětšit editor';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6 Beta 5 (2006050502)
+      // enrol_authorize.php - created with Moodle 1.6 + (2006050506)
 
 
 $string['adminacceptccs'] = 'Typy přijímaných kreditních karet';
@@ -9,7 +9,14 @@ $string['adminauthorizesettings'] = 'Nastavení Authorize.net';
 $string['adminauthorizewide'] = 'Globální nastavení';
 $string['adminavs'] = 'Vyberte tuto možnost, pokud jste u svého účtu authorize.net aktivovali kontrolní systém Address Verification System (AVS). Uživatelé tak budou muset na platebním formuláři vyplnit také pole ulice, stát, země a PSČ (Zip Code).';
 $string['admincronsetup'] = 'Skript cron.php, který má na starosti běžnou údržbu serveru, nebyl během posledních 24 hodin spuštěn.<br />Chcete-li používat automatické zpracování plateb, musí být cron v provozu.<br /><b>Povolte</b> zápis prostřednictvím \'Authorize.net Credit Card Gateway\' a <b>zprovozněte cron</b>, nebo <b>zrušte</b> volbu <b>an_review</b>.<br />Zrušíte-li automatické zpracování transakcí, budou transakce zrušeny, nezpracujete-li je do 30 dnů.<br />Zatrhněte volbu <b>an_review</b> a zapišter <b>\'0\' (nulu)</b> do pole <b>an_capture_day</b>,<br />chcete-li platby přijmout/zamítnout <b>ručně</b> během 30 dnů od podání.';
-$string['adminemailexpired'] = 'Odesílat správcům e-mail s upozorněním na počet transakcí ve stavu \'autorizováno/vyřizuje se rezervace prostředků\' (authorized/pending capture) <b>$a</b> dny/dnů před uplynutím lhůty pro uskutečnění transakce. (0=neposílat e-mail, výchozí nastavení=2, maximum=5)<br />Použití této možnosti je vhodné, pokud jste aktivovali ruční zpracování plateb (an_review=zatrženo, an_capture_day=0).';
+$string['adminemailexpired'] = 'Odesílat správcům e-mail s upozorněním <b>$a</b> dny/dnů před uplynutím lhůty pro uskutečnění transakce.';
+$string['adminemailexpiredsort'] = 'Čím se řídí upozorňování na transakce s blížícím se koncem lhůty pro vyžízení?';
+$string['adminemailexpiredsortcount'] = 'Počet transakcí';
+$string['adminemailexpiredsortsum'] = 'Celkový úhrn částek';
+$string['adminemailexpiredteacher'] = 'Jestliže jste aktivovali ruční zpracování transakcí(viz výše) a jestliže učitelé mohou spravovat transkace, je možné zasílat oznámení o transakcích s blížícím se koncem lhůty pro vyřízení také učitelům. 
+
+na počet transakcí ve stavu \'autorizováno/vyřizuje se rezervace prostředků\' (authorized/pending capture)';
+$string['adminemailexpsetting'] = '(0=neposílat e-mail, výchozí nastavení=2, maximum=5)<br />Nastavení pro e-mailové upozorňování při ručním zpracování plateb (cron=v provozu, an_review=zatrženo, an_capture_day=0, an_emailexpired=1-5)';
 $string['adminhelpcapturetitle'] = 'Den automatického zpracování plateb';
 $string['adminhelpreviewtitle'] = 'Kontrola objednávky';
 $string['adminneworder'] = 'Zpráva pro správce
@@ -95,13 +102,21 @@ $string['paymentmanagement'] = 'Správa plateb';
 $string['paymentpending'] = 'Vaše platba za tento kurz, pod číslem objednávky $a->orderid, se zpracovává. Viz <a href=\'$a->url\'>Podrobnosti o objednávce</a>.';
 $string['pendingordersemail'] = 'Zpráva pro správce
 
-Jestliže do $a->days dnů nepřijmete platby u zpracovávaných transakcí, dojde u $a->pending transakcí k vypršení doby platnosti.
+Jestliže do $a->days dnů nepřijmete platby u $a->pending zpracovávaných transakcí pro kurz \"$a->course\", vyprší u těchto transakcí doba platnosti.
 
 Tato zpráva vás upozorňuje, že jste neaktivovali systém automatického zpracování transakcí, takže musíte každou platbu potvrdit či zamítnout ručně.
 
 Přijetí/Zamítnutí plateb provedete na adrese: $a->url.
 
 Chcete-li zapnout automatické zpracování transakcí (nebudete potom dostávat upozorňovací e-maily), můžete to provést na této stránce: $a->enrolurl.';
+$string['pendingordersemailteacher'] = 'Zpráva pro učitele
+
+Jestliže do $a->days dnů nepřijmete platby u $a->pending zpracovávaných transakcí pro kurz \"$a->course\" (o celkové výši $a->currency $a->sumcost), vyprší u těchto transakcí doba platnosti.
+
+Správce Moodlu neaktivoval systém automatického zpracování transakcí, proto musíte každou platbu potvrdit či zamítnout ručně.
+
+Přijetí/Zamítnutí plateb provedete na adrese: $a->url.';
+$string['pendingorderssubject'] = 'UPOZORNĚNÍ: $a->course, $a->pending transakcí vyprší během $a->days dnů.';
 $string['reason11'] = 'Byla podána duplicitní transkace.';
 $string['reason13'] = 'Přihlašovací ID obchodníka je neplatné nebo je účet neaktivní. ';
 $string['reason16'] = 'Transakce nebyla nalezena';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // blog.php - created with Moodle 1.6 + (2006050506)
 
 
 $string['addnewentry'] = 'Vložit nový příspěvek';
@@ -19,6 +19,7 @@ $string['disableblogs'] = 'Zcela deaktivovat blogovací systém';
 $string['entrybody'] = 'Text příspěvku';
 $string['entrybodyonlydesc'] = 'Popis příspěvku';
 $string['entryerrornotyours'] = 'Tento příspěvek není váš';
+$string['entrysaved'] = 'Váš příspěvek byl uložen';
 $string['entrytitle'] = 'Titulek příspěvku';
 $string['entryupdated'] = 'Příspěvek byl aktualizován';
 $string['groupblog'] = 'Blog skupiny: $a';
