@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // unittest.php - created with Moodle 1.7 dev (2006060900)
+      // simpletest.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['all'] = 'すべて';
