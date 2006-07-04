@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.6 development (2006032800)
+      // quiz_analysis.php - created with Moodle 1.6 + (2006050506)
 
 
 $string['analysis'] = 'Öge analizi';
+$string['analysisdownload'] = 'Analiz indirme';
 $string['analysisoptions'] = 'Analiz seçenekleri';
 $string['analysistitle'] = 'Öge Analiz Tablosu';
 $string['attemptsall'] = 'tüm uygulamalar';

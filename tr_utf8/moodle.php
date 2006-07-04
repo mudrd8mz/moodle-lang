@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 + (2006050507)
+      // moodle.php - created with Moodle 1.6 + (2006050506)
 
 
 $string['action'] = 'Eylem';
@@ -53,6 +53,7 @@ $string['adminhelpedituser'] = 'Kullanıcı hesaplarına gözatın ve düzenleyi
 $string['adminhelpenrolments'] = 'Ders kayıtlarını kontrol etmek için dahili veya harici yöntemleri seçin';
 $string['adminhelpenvironment'] = 'Sunucunuzun şimdiki ve sonraki kurulum gereksinimleri için uygunluğunu kontrol edin';
 $string['adminhelpfailurelogs'] = 'Hatalı girişlere ait kayıtlara gözat';
+$string['adminhelphealthcenter'] = 'Site sorunlarını otomatik bulma';
 $string['adminhelplanguage'] = 'Şu anki dil paketini kontrol edin ve düzenleyin';
 $string['adminhelplogs'] = 'Sitedeki aktivitelere ait kayıtlara gözatın';
 $string['adminhelpmanageblocks'] = 'Kurulu blokları ve ayarlarını yönetin';
@@ -481,15 +482,15 @@ Aşağıdaki öğrencilerin ise $a->threshold günden daha az süresi kaldı.
 
 $a->past
 
-Aşağıdaki adrese gidip kayıt sürelerini uzatabilrsiniz:
+Aşağıdaki adrese gidip kayıt sürelerini uzatabilirsiniz:
 
 $a->extendurl';
 $string['expirynotifystudents'] = 'Öğrencileri bilgilendir';
-$string['expirynotifystudentsemail'] = 'Sevgili öğrenci:
+$string['expirynotifystudentsemail'] = 'Sevgili $a->studentstr:
 
 Bu bildiri, $a->threshold gün içinde kayıt süresinin biteceği $a->course kursuna kaydınız hakkındadır.
 
-Lütfen daha fazla bilgi için eğitimcinizle iletişim kurunuz.';
+Lütfen daha fazla bilgi için $a->teacherstr ile iletişim kurunuz.';
 $string['expirythreshold'] = 'Aralık';
 $string['explanation'] = 'Açıklama';
 $string['extendenrol'] = 'Kaydı uzat';
@@ -715,6 +716,7 @@ $string['mainmenu'] = 'Ana Menü';
 $string['makeafolder'] = 'Klasör oluştur';
 $string['makeeditable'] = '\'$a\' dosyasını sunucu programı tarafından (ör: apache) değiştirilebilir yaparsanız, bu dosyayı doğrudan bu sayfada düzenleyebilirsiniz';
 $string['manageblocks'] = 'Bloklar';
+$string['managecourses'] = 'Kursları yönet';
 $string['managedatabase'] = 'Veritabanı';
 $string['managefilters'] = 'Filtreler';
 $string['managemeta'] = 'Bu bir meta kurs mu?';
