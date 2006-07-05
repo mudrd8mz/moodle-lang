@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.7 dev (2006060400)
+      // hotpot.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['abandoned'] = '放棄';
@@ -60,7 +60,7 @@ $string['navigation_none'] = 'なし';
 $string['neverclosed'] = '終了なし';
 $string['noactivity'] = '活動なし';
 $string['noresponses'] = '問題と解答に関する情報が見つかりませんでした。';
-$string['outputformat'] = 'アウトプットフォーマット';
+$string['outputformat'] = '表示フォーマット';
 $string['outputformat_best'] = 'best';
 $string['outputformat_flash'] = 'Flash';
 $string['outputformat_mobile'] = 'mobile';
