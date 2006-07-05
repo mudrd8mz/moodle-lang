@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006052400)
+      // enrol_authorize.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['adminacceptccs'] = 'Welke kredietkaarten zullen aanvaard worden?';
@@ -10,6 +10,10 @@ $string['adminauthorizewide'] = 'Instellingen voor heel de site';
 $string['adminavs'] = 'Controleer of je Adress Verification System (AVS) hebt geactiveerd in je authorize.net account. Wanneer de gebruiker het betaalformulier invult, worden hierdoor adresvelden zoals straat, staat, land en postcode gevraagd.';
 $string['admincronsetup'] = 'Het onderhoudsscript cron.php heeft al minstens 24 uur niet gelopen.<br />Om de autocapture mogelijkheid te gebruiken moet cron ingeschakeld zijn. <br />Cron installeren of schakel an_review opnieuw uit. <br />Als je autocapture uitschakeld, zullen de transacties geannuleerd worden, tenzij je ze binnen de 30 dagen bevestigd.<br />Controleer an_review en zet \'0\' in het an_capture_day veld <br /> als je betalingen manueel wil aanvaarden/niet aanvaarden binnen 30 dagen?';
 $string['adminemailexpired'] = 'Stuur een waarschuwingsmail naar de beheerders <b>$a</b> dagen geleden hoeveel het aantal van \'authorized/pending capture\' transacties er waren, voor transacties vervallen. (0=mail uitschakelen, standaardinstelling=2, maximum=5)<br />Dit is nuttig als je capturing manueel ingesteld hebt(an_review=checked, an_capture_day=0).';
+$string['adminemailexpiredsortcount'] = 'Het aantal bestellingen';
+$string['adminemailexpiredsortsum'] = 'Het totaalbedrag';
+$string['adminemailexpiredteacher'] = 'Als je manueel krediteren hebt ingeschakeld (zie boven) en leraren kunnen de betalingen beheren, dan kunnen leraren ook verwittigd worden over het vervallen van wachtende bestellingen. Hierdoor zal een e-mail gestuurd worden naar de leraren van een cursus met daarin hoeveel bestellingen er gaan vervallen.';
+$string['adminemailexpsetting'] = '(0=schakel mail sturen uit, standaard=2, maximum=5)<br />(Instelling voor het sturen van mail bij Manueel krediteren: cron=ingeschakeld, an_review=vinkje, an_capture_day=0, an_emailexpired=1-5)';
 $string['adminhelpcapturetitle'] = 'Dag voor automatisch aanvaarden';
 $string['adminhelpreviewtitle'] = 'Nakijken bestellingen';
 $string['adminneworder'] = 'Beste beheerder,
@@ -28,17 +32,17 @@ Als automatisch aanvaarden ingeschakeld is, dan zal de kredietkaart aanvaard wor
 
 Je kunt de betaling ook onmiddellijk aanvaarden en de leerling onmiddellijk toegang geven tot de cursus door deze link te volgen $a->url';
 $string['adminnewordersubject'] = '$a->course: Nieuwe bestelling ($a->orderid)';
-$string['adminpendingorders'] = 'Je hebt de functie voor automatisch aanvaarden uitgeschakeld.<br />Er zijn $a->count transacties met als status AN_STATUS_AUTH die geannulleerd zullen worden, tenzij je ze goedkeurt.<br />Deze betalingen aanvaarden/verwerpen doe je met de <a href=\'$a->url\'>Beheer betalingen</a> pagina';
+$string['adminpendingorders'] = 'Je hebt de functie voor automatisch krediteren uitgeschakeld.<br />Er zijn $a->count transacties met als status AN_STATUS_AUTH die geannulleerd zullen worden, tenzij je ze krediteerd.<br />Deze betalingen aanvaarden/verwerpen doe je met de <a href=\'$a->url\'>Beheer betalingen</a> pagina';
 $string['adminreview'] = 'Controleer de bestelling voor het aanvaarden van de kredietkaart';
 $string['adminteachermanagepay'] = 'Leraren kunnen de betalingen van de cursus beheren';
 $string['amount'] = 'Bedrag';
 $string['anlogin'] = 'Authorize.net: Login naam';
-$string['anpassword'] = 'Authorize.net: Wachtwoord (niet vereistà';
+$string['anpassword'] = 'Authorize.net: Wachtwoord (niet vereist)';
 $string['anreferer'] = 'Type hier de URL-verwijzing als je dit instelt met je authorize.net account. Dit zal een header \"Referer:URL\" in de webaanvraag zetten.';
 $string['antestmode'] = 'Authorize.net: test transacties';
 $string['antrankey'] = 'Authorize.net: transactiesleutel';
-$string['authcaptured'] = 'Goedgekeurd /  Aanvaard';
-$string['authorizedpendingcapture'] = 'Goedgekeurd / Wachten op aanvaarding';
+$string['authcaptured'] = 'Goedgekeurd /  Gekrediteerd';
+$string['authorizedpendingcapture'] = 'Goedgekeurd / Wachten op kreditering';
 $string['avsa'] = 'Adres (straat) is juist';
 $string['avsb'] = 'Adres niet opgegeven';
 $string['avse'] = 'Systeem fout in adresverificatie';
