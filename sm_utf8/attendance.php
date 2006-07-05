@@ -1,0 +1,71 @@
+<?PHP // $Id$ 
+      // attendance.php - created with Moodle 1.4.1 (2004083101)
+
+
+$string['absentlong'] = 'E le\'o auai';
+$string['absentshort'] = 'A';
+$string['addingmultiple'] = 'Fa\'aopoopoga o tauvala\'auga e tele';
+$string['addmultiple'] = 'Fa\'aopoopo tauvala\'auga e tele';
+$string['allmodulename'] = 'Tauvala\'auga uma ';
+$string['auto'] = 'oto';
+$string['autoattend'] = 'E otometi le faiga o le tauvala\'auga e tusa ma fa\'amaumauga o galuega ua tu\'uina atu. ';
+$string['autoattendmulti'] = 'E otometi le faiga o le tauvala\'auga e tusa ma fa\'amaumauga o galuega ua tu\'uina atu. ';
+$string['autoattendshort'] = 'Otometi mai fa\'amaumauga';
+$string['choosedays'] = 'O aso o vaiaso taitasi e fai ai tauvala\'auga';
+$string['dayofroll'] = 'Aso e fai ai le tauvala\'auga';
+$string['defaultautoattend'] = 'Pe fa\'atapula\'aina le tauvala\'auga e tusa ma galuega a tagata ta\'ito\'atasi.';
+$string['defaultgrade'] = 'Pe fa\'atapula\'aina le faia o tauvala\'auga';
+$string['defaulthoursinclass'] = 'Pe fia itula e tatatu ona i le tauvala\'auga fa\'atulagaina.';
+$string['defaultmaxgrade'] = 'Po\'o le a le maualuga o le togi fa\'atapula\'aina mo le e auai atu i soo se taimi ma aso uma lava. 100%% ';
+$string['defaultstudentstatus'] = 'The default student attendance status on new attendance rolls';
+$string['downloadexcelfull'] = 'Tu\'uina mai/fa\'amau mai le itulau atoa mai le polokalame o le EXCEL ';
+$string['downloadexceltotals'] = 'Tu\'uina mai/fa\'amau mai le summary atoa mai le EXCEL';
+$string['downloadtextfull'] = 'Tu\'uina mai le Lipoti tusia atoaatoa';
+$string['downloadtexttotals'] = 'Tu\'uina mai le autu o le Lipoti tusia';
+$string['dynamicsection'] = 'Fa\'amautinoa le vaiaso mo le auai atu e tusa ma le aso lenei';
+$string['dynamicsectionmulti'] = 'Fa\'aotometi le fa\'avasegaina o tauvala\'auga i vaega o le vaiaso';
+$string['dynsectionshort'] = 'Dynamically moved to section';
+$string['endbeforestart'] = 'O le aso fa\'ai\'u e muamua i le aso amata';
+$string['endmulti'] = 'Aso fa\'ai\'u mo le tauvala\'auga';
+$string['for'] = 'Mo le';
+$string['friday'] = 'Faraile';
+$string['gradeshort'] = 'Togia';
+$string['gradevalue'] = 'Fa\'atogia le tauvala\'auga';
+$string['gradevaluemulti'] = 'Fa\'atogia tauvala\'auga';
+$string['hoursinclass'] = 'Numera o itula i vasega';
+$string['hoursineachclass'] = 'Numera o itula mo vasega ta\'itasitasi';
+$string['hoursinfullreport'] = 'Le ';
+$string['maxgradeshort'] = 'Tulaga aupito maualuga';
+$string['maxgradevalue'] = 'Tulaga (togi) aupito maualuga mo le auai mai 100%%';
+$string['modulename'] = 'Auai';
+$string['modulenameplural'] = 'Tauvala\'auga ';
+$string['monday'] = 'Gafua';
+$string['norolls'] = 'E leai ni tauvala\'auga i lenei vasega';
+$string['notes'] = 'Fa\'amaumauga fa\'apitoa';
+$string['notesfor'] = 'Fa\'amaumauga fa\'apitoa mo le';
+$string['noviews'] = 'Fa\'amalie atu ona e leai ni fa\'amaumauga i lau lipoti';
+$string['of'] = 'mo le';
+$string['pages'] = 'Itulau';
+$string['presentlong'] = 'Taimi nei';
+$string['presentshort'] = 'P';
+$string['saturday'] = 'To\'ona\'i';
+$string['startafterend'] = 'O le aso amata e mulimuli mai i le aso fa\'ai\'u o le vasega';
+$string['startmulti'] = 'Aso mo le aso muamua o le tauvala\'auga';
+$string['sunday'] = 'Sa';
+$string['takeroll'] = 'Ua fai le tauvala\'auga o le aso?';
+$string['tardiesperabsence'] = 'E fia \"tuai\" e tutusa ma le aso e tasi ua \"misia\"?';
+$string['tardylong'] = 'Tuai';
+$string['tardyshort'] = 'T';
+$string['teacheredit'] = 'Fai le tauvala\'auga';
+$string['thursday'] = 'Tofi';
+$string['tuesday'] = 'Lua';
+$string['viewall'] = 'Tilotilo i tauvala\'auga uma';
+$string['viewmulti'] = 'Tilotilo i le lipoti e sili ma le tasi le itulau';
+$string['viewone'] = 'Tilotilo i itulau uma o le lipoti';
+$string['viewsection'] = 'Tilotilo uma i tauvala\'auga mai le vaega lea';
+$string['viewtable'] = 'Tilotilo i le lipoti e na o le tasi lava';
+$string['viewweek'] = 'Tilotilo i tauvala\'auga uma mai le kalena o le vaiaso';
+$string['wednesday'] = 'Lulu';
+$string['weekmodulename'] = 'Tauvala\'auga uma mo le vaiaso ua tuana\'i';
+
+?>

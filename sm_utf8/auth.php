@@ -1,0 +1,73 @@
+<?PHP // $Id$ 
+      // auth.php - created with Moodle 1.4.1 (2004083101)
+
+
+$string['auth_dbdescription'] = 'O lenei metotia e fa\'aaogaina ai le latuele o fa\'amaumauga tusia o lo\'o tu\'ufa\'atasiina i se nofoaga e tasi (taulaiga o fa\'amatalaga) e fa\'aaoga lea e siakiina ai upu-fa\'alilolilo (passwords) pe sa\'o pe leai. Afai e fou mai le tagata i lenei polokalame, o le a fa\'apea lea ona kopiina mai uma fa\'amaumauga mai i isi vaega agai i totonu o lenei polokalame ua fa\'aigoaina o le Moodle. ';
+$string['auth_dbextrafields'] = 'O nei vaega e tau le fa\'atumua. E tu\'u atu le filifiliga e fa\'atumu ai nisi o vaega o le Moodle e fa\'aaoga ai fa\'amaumauga mai le <B>taula\'iga o fa\'amatalaga e i fafo atu o le taula\'iga tutotonu</B> ua e fa\'amaotiina mai i \'i. <P>Afai ete le fa\'atumuina nei avanoa, o lea fa\'aotometi le fa\'atumuga. <P>So\'o se mea lava e mafai lava ona toe suia uma ma fa\'asa\'o uma fa\'amatalaga tusia pe a ulufale atu i lenei polokalame. ';
+$string['auth_dbfieldpass'] = 'Igo o le vaega o lo\'o i ai le upu-fa\'alilolilo';
+$string['auth_dbfielduser'] = 'Igoa o le vaega o lo\'o i ai le igoa-fa\'aaoga';
+$string['auth_dbhost'] = 'Le komipiuta o lo\'o tauaveina le taula\'iga o fa\'amaumauga';
+$string['auth_dbname'] = 'Igoa o le taula\'iga o fa\'amaumauga lava ia';
+$string['auth_dbpass'] = 'Upu-fa\'alilolilo e tutusa ma le igoa-fa\'aaoga o lo\'o i luga';
+$string['auth_dbpasstype'] = 'Fa\'amautinoaina le seti tau\'ave(set up)o lo\'o fa\'aaogaina i le upu-fa\'alilolilo. MD5 fa\'anana e aoga lea e feso\'ota\'i ai i si polokalame fa\'aaogaina so\'o iluga o le initaneti e pei o le PostNuke.';
+$string['auth_dbtable'] = 'Igoa o se vaega i totonu lava o le taula\'iga o fa\'amaumauga (table in database)';
+$string['auth_dbtitle'] = 'Fa\'aaoga se isi taula\'iga o fa\'amaumauga e ese atu nai lo le taula\'iga tutotonu.';
+$string['auth_dbtype'] = 'Ituaiga o taula\'iga o fa\'amaumauga (See the <a href=\"../lib/adodb/readme.htm#drivers\">ADOdb documentation</a> for details)';
+$string['auth_dbuser'] = 'Igoa fa\'aaoga o lo\'o i ai le fa\'atanaga e faitau ma ulufale ai le taula\'iga o fa\'amatalaga.';
+$string['auth_emaildescription'] = 'O fa\'amaoniga o i-meli e fa\'aotometi le metotia e fa\'aaogaina.  O lenei fa\'amaoniga e fa\'aaogaina lea i le taimi muamua e fa\'aogaina ai e so\'o se tasi lenei polokalame.  O igoa fa\'aaoga ma upu-fa\'alilolilo e fou mai o le a fa\'apea ona fa\'amaonia i se i-meli o le a lafoina i le e fou mai i le polokalame. O lenei meli o lo\'o i ai i totonu se laina fa\'apuipuia e mafai ai ona feso\'ota\'i ma toe siaki ai pe sa\'o ma moni fa\'amaumauga ua tu\'uina atu.  E aoga tele nei metotia mo le lumana\'i e siaki ai ma fa\'amaonia ai le e ona tonu le igoa fa\'aaoga. O lo\'o umia uma nei fa\'amaumauga e le taula\'iga o fa\'amaumauga a le Moodle.';
+$string['auth_emailtitle'] = 'Fa\'amaoniga o i-meli';
+$string['auth_fccreators'] = 'Lisi o kulupu e i ai le fa\'atanaga e amatalia ni vasega fou.  Fa\'avasega mai kulupu toatele e fa\'aaogaina ai le \';\'. O igoa e tatau ona sipela lelei ia tutusa ma isi i le vasega muamua.  O lenei polokalame ia sa\'o lelei ki e fa\'aaoga ae aua nei fenumia\'i le fa\'aaogaina o ki. ';
+$string['auth_fcdescription'] = 'O lenei metotia e fa\'aaogaina le VASEGAMUAMUA o seva (server) e siaki ma fa\'amaonia ai pe sa\'o igoa fa\'aaoga ma upu fa\'alilolilo ua tu\'uina atu.';
+$string['auth_fcfppport'] = 'O le seva (333 e ta\'atele)';
+$string['auth_fchost'] = 'O le tuatusi o le seva e i le VASEGAMUAMUA. Fa\'aaoga le numera o le IP po\'o le igoa o le DNS.';
+$string['auth_fcpasswd'] = 'Upu fa\'alilolilo o le vaega o lo\'o i luga.';
+$string['auth_fctitle'] = 'Fa\'aaoga le seva i le VasegaMuamua.';
+$string['auth_imapdescription'] = 'O lenei metotia e fa\'aaogaina le IMAP seva (server) e siaki ma fa\'amaonia ai pe sa\'o igoa fa\'aaoga ma upu fa\'alilolilo ua tu\'uina atu.';
+$string['auth_imaphost'] = 'O le tuatusi o le IMAP seva. Fa\'aaoga le numera o le IP ae le o le igoa o le DNS.';
+$string['auth_imapport'] = 'Numera o le Seva (server) o le IMAP. O le numera masani o le 143 po\'o le 993.';
+$string['auth_imaptitle'] = 'Fa\'aaoga le IMAP seva.';
+$string['auth_imaptype'] = 'O le ituaiga o le IMAP seva.  IMAP seva e mafai ona i ai ituaiga o fa\'amaoniga ma feso\'oso\'otai\'ga.';
+$string['auth_ldap_bind_dn'] = 'Afai e mana\'omia se bind-user e su\'e ai se igoa fa\'aaoga, tusi mai i i.  Fa\'ata\'ita\'iga -\'cn=ldapuser,ou=public,o=public,o=rga\"';
+$string['auth_ldap_bind_pw'] = 'Upu fa\'alilolilo mo le bind-user.';
+$string['auth_ldap_contexts'] = 'Lisi o upu o lo\'o i ai igoa fa\'aaoga.  Tu\'u ese\'ese upu e fa\'aaoga ai le \';\'. Fa\'ata\'ita\'iga: \'ou=users,o=org; ou=others,o=org\'';
+$string['auth_ldap_create_context'] = 'Afai ua e fa\'atagaina le fa\'amaoniga o igoa fa\'aaoga e fa\'aaoga ai le i-meli, fa\'amaoti mai po\'o fea tonu o lo\'o i ai le gaosiga o nei igoa-fa\'aaoga.  O lenei vaega e tatau ona ese mai i isi e fa\'aaogaina lenei polokalame aua le puipui i ni fa\'afitauli e ono tutupu mai.  E le tatau ona toe fa\'aopoopoina lenei vaega i le ldap_context-variable aua e totometi lava ona maua e le MOODLE e o lo\'o i le polokalame. ';
+$string['auth_ldap_creators'] = 'Lisi o kulupu e i ai le fa\'atanaga e amatalia ni vasega fou.  Tu\'ueseese le to\'atele o kulupu e ala lea i le fa\'aogaina o le \';\'. E masani lava ona pei o le \'cn=teachers,ou=staff,o=myorg\'';
+$string['auth_ldap_host_url'] = 'Fa\'amaoti mai le vaega i le URL e pei o le \'ldap://ldap.myorg.com/\' po\'o le \'ldaps://ldap.myorg.com/\' ';
+$string['auth_ldap_objectclass'] = 'Mo le fa\'afaigofieina o le suega o e o loo i le polokalame, fa\'aaoga le objectClass=posixAccount. E fa\'aotometiina ona seti i le objectClass=* e maua uma mai ai e o loo i le LDAP.';
+$string['auth_ldap_search_sub'] = 'Fa\'aoga le $lt>0 pea fia su\'eina se isi mai le sapuseti o lmea o loo fa\'amautu ai. ';
+$string['auth_ldap_update_userinfo'] = 'Fa\'afouina o igoa fa\'aoga ma fa\'amatalaga o e o loo i le polokalame (igoa muamua, fa\'ai\'u, tuatusi...)mai le LDAP e aga\'i atu i le MOODle.  Tilotilo i le /auth/ldap/attr_mappings.php mo le fa\'asinoina o fa\'amatalaga. ';
+$string['auth_ldap_user_attribute'] = 'Mea patino o lo\'o fa\'aaogaina e su\'eina ai igoa/su\'e igoa. Masani ona fa\'aaoga le \'cn\'.';
+$string['auth_ldap_version'] = 'Le fausaga o le LDAP ma le fausaga o loo fa\'aaogaina e le polokalame. ';
+$string['auth_ldapdescription'] = 'O lenei metotia e fa\'aaogaina ai le fa\'amaoniga moni o le seva (server) mai fafo. Afai o le igo fa\'aaoga e fa\'amaonia, MOODLE o le a amataina se isi igoa fou i le taula\'iga o fa\'amaumauga.  O lenei vaega e mafai ai ona faitauina vaega taua mai le LDAP ma e fa\'aaogaina lea e fa\'atumu ai isi vaega o le MOODLE poo le polokalame o loo fa\'aaoga.  E na o le igoa fa\'aaoga ma le upu fa\'alilolilo o le a fa\'apea ona siakiina. ';
+$string['auth_ldapextrafields'] = 'O vaega nei e mafai ona e filifili mai ai.  E mafai ona fa\'atumuina muamua nisi vaega o le MOODLE e fa\'aaoga ai fa\'amatalaga mai i le <B>LDAP fields</B> ua uma ona fa\'amaoti mai. <P>Afai e le fa\'atumuina nei avanoa, o le a a\'afia ai le pasiina mai o fa\'amaumauga mai le LDAP, ma o le a fa\'aotometi ai loa le fa\'aaogaina o le MOODLE. <P>So\'o se isi lava o nei auala o le a mafai ai e so\'o se isi e fa\'aaogaina lenei polokalame ona suia uma vaega e fia suia. ';
+$string['auth_ldaptitle'] = 'Fa\'aoga le LDAP seva.';
+$string['auth_manualdescription'] = 'O lenei metotia e mafai ona aveeseina ai ni fa\'atanaga mo so\'o se isi e fia amataliaina se isi igoa fia fa\'aaoga.  E na o le e i ai le aia tatau e mafai ona ia faia nei galuega ma suiga. ';
+$string['auth_manualtitle'] = 'Mea fou e le fa\'aotometiina. ';
+$string['auth_multiplehosts'] = 'O ni vaega e mafai ona fa\'amaotiina igoa.(eg host1.com;host2.com;host3.com) or (eg xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx)';
+$string['auth_nntpdescription'] = 'O lenei metotia e fa\'aaogaina le NNTP seva e siaki ai fa\'amaoniga o igoa fa\'aaoga ma upu fa\'alilolilo pe mo\'i pe leai. ';
+$string['auth_nntphost'] = 'Le tuatusi o le NNTP seva. Fa\'aaoga le IP numera ae le o le igoa o le DNS. ';
+$string['auth_nntpport'] = 'Ala atu i le seva (119 e masani ona fa\'aaoga)';
+$string['auth_nntptitle'] = 'Fa\'aaoga se NNTP seva';
+$string['auth_nonedescription'] = 'E mafai ona saini ma fa\'aaoga loa lenei vaega ua uma ona amataliaina.  E leai se fa\'amaoniga e mana\'omiaina mai i isi seva e i fafo atu nai lo\'o le seva tutotonu, e leai fo\'i se i-meli e mana\'omia e fa\'amaonia ai le igoa fou. Fa\'aeteete i le fa\'aaogaina o lenei auala ona e a\'afia ai le saogalemu ma e ono amataliaina ai nisi fa\'afitauli ese\'ese. ';
+$string['auth_nonetitle'] = 'Leai se fa\'amaoniga';
+$string['auth_pop3description'] = 'O lenei metotia e fa\'aaogaina le POP3 seva e siakiina ai pe tutusa ma mo\'i igoa ua fa\'atagaina pe leai. ';
+$string['auth_pop3host'] = 'Le tuatusi ole POP3 seva. Fa\'aaoga le IP numera ae le o le igoa o le DNS.';
+$string['auth_pop3mailbox'] = 'Igoa o le pusameli e fa\'ata\'ita\'i ona fa\'afeso\'ota\'i atu i ai. (usually INBOX)';
+$string['auth_pop3port'] = 'Auala i le seva (110 e masani ona fa\'aaoga, 995 e masani ona fa\'aaoga mo le SSL)';
+$string['auth_pop3title'] = 'Fa\'aaoga se POP3 seva';
+$string['auth_pop3type'] = 'Ituaiga o seva. Afai e fa\'aaogaina e le seva se fa\'ailoga mo le saogalemu, filifili le pop3cert. ';
+$string['auth_user_create'] = 'Fa\'atagaina le amataina o se igoa. ';
+$string['auth_user_creation'] = 'E mafaia ona amataina ni igoa fou e fa\'aaoga ai fa\'amaoniga mai fafo atu o le seva tutotonu lo\'o fa\'aaogaina ma e mafai ona fa\'amaonia lea i se i-meli. Afai o le a fa\'aaogaina lenei auala, e tatau foi ona suia le setiina o mataupu-patino ua e filifilia e fa\'aaogaina. ';
+$string['auth_usernameexists'] = 'Filifilia se igoa fa\'aaoga ua uma ona fa\'aaogaina.  Sui mai i se isi igoa fou fa\'amolemole.';
+$string['authenticationoptions'] = 'Lisi o fa\'amaoniga filifilia';
+$string['authinstructions'] = 'Fa\'aaoga le avanoa lenei e tusi ai fa\'atonuga mo e e fa\'aaogaina le polokalame ina ia fautuaina ai le moni o igoa fa\'aaoga ma igoa fa\'alilolilo o loo fa\'aaogaina. O upu e fa\'aaogaina o le a fa\'apea lea ona fa\'ailoa mai i lenei itulau. A le fa\'atumuina lenei avanoa o le a fa\'apea fo\'i ona leai ni fa\'atonuga o le a lomia. ';
+$string['changepassword'] = 'Sui le upu fa\'alilolilo o le URL';
+$string['changepasswordhelp'] = 'O i e mafai ona e fa\'amaotiina ai se vaega e toe auamaia ai upu fa\'alilolilo ma igoa fa\'aaoga pe afai ua galo. E i ai se fa\'amau/button e mafai lea ona fa\'aaogaina e faia ai lenei auala. E maua lea i le itulau amata pe a ulufale atu i le polokalame. Afai e le fa\'atumuina lenei avanoa, o le a le mafai lea ona lomia le fa\'amau e pei ona ta\'ua i luga. ';
+$string['chooseauthmethod'] = 'Filifili se metotia e fai ma fa\'amaoniga:';
+$string['guestloginbutton'] = 'Fa\'amau/button e fa\'aaoga e e asiasi mai';
+$string['instructions'] = 'Fa\'atonuga';
+$string['md5'] = 'MD5 auala fa\'anana';
+$string['plaintext'] = 'Gagana tu\'usa\'o';
+$string['showguestlogin'] = 'E mafai ona fa\'aalia/pe nana le vaega e fa\'ataga ae e asiasi mai. ';
+
+?>
