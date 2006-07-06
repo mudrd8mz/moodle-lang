@@ -163,6 +163,17 @@ $string['transid'] = 'No de transaction';
 $string['unenrolstudent'] = 'Désinscrire l\'étudiant&nbsp;?';
 $string['void'] = 'Nul';
 $string['voidyes'] = 'La transaction sera annulée. Voulez-vous continuer&nbsp;?';
+$string['welcometocoursesemail'] = 'Chère étudiante, cher étudiant,
+
+Nous vous remercions de votre paiement. Vous vous êtes inscrits aux cours suivants
+
+$a->courses
+
+Nous vous invitons à modifier votre profil :
+$a->profileurl
+
+Vous pouvez consulter les détails de votre paiement à l\'adresse
+$a->paymenturl';
 $string['youcantdo'] = 'Vous ne pouvez pas effectuer ceci&nbsp;: $a->action';
 $string['zipcode'] = 'Code postal';
 
