@@ -141,6 +141,15 @@ $string['transid'] = 'トランザクションID';
 $string['unenrolstudent'] = '学生を登録解除しますか?';
 $string['void'] = '取り消し';
 $string['voidyes'] = 'トランザクションがキャンセルされます。本当によろしいですか?';
+$string['welcometocoursesemail'] = 'お支払いありがとうございます。あなたは下記のコースに受講登録されました:
+
+$a->courses
+
+あなたのプロフィールは、下記で編集することができます:
+$a->profileurl
+
+あなたの支払い詳細は下記でご覧ください:
+$a->paymenturl';
 $string['youcantdo'] = '次の処理を行うことはできません: $a->action';
 $string['zipcode'] = '郵便番号';
 
