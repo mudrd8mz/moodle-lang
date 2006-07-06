@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006060400)
+      // forum.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加';
@@ -59,7 +59,7 @@ $string['displayperiod'] = '表示期間';
 $string['displaystart'] = '表示開始';
 $string['eachuserforum'] = '各人が1件のディスカッションを投稿';
 $string['edit'] = '編集';
-$string['editedby'] = '編集 $a->name - $a->date';
+$string['editedby'] = '編集 $a->name - 最初の投稿日時 $a->date';
 $string['editing'] = '編集';
 $string['emptymessage'] = '投稿に異常があります。投稿が空白のままか、添付ファイルのサイズが制限を越えています。変更は保存されませんでした。';
 $string['everyonecanchoose'] = 'このフォーラムはメール購読するかどうかを選択できます。';
