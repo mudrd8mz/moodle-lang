@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6 Beta 3 (2006042600)
+      // forum.php - created with Moodle 1.6 + (2006050506)
 
 
 $string['addanewdiscussion'] = 'Yeni tartışma konusu ekle';
@@ -56,7 +56,7 @@ $string['displayperiod'] = 'Görünüm Süresi';
 $string['displaystart'] = 'Görünüm başlangıcı';
 $string['eachuserforum'] = 'Bu tartışmaya herkes tek mesaj gönderebilir';
 $string['edit'] = 'Düzelt';
-$string['editedby'] = 'Düzenleyen: $a->name - $a->date';
+$string['editedby'] = 'Düzenleyen: $a->name - ilk gönderim: $a->date';
 $string['editing'] = 'Düzenleniyor';
 $string['emptymessage'] = 'Mesajınızda bir sorun var. Olasılıkla metin yazmadınız yada ekiniz çok büyük.  Değişiklikleriniz KAYDEDİLMEDİ.';
 $string['everyonecanchoose'] = 'Herkes abone olma seçeneğine sahip';

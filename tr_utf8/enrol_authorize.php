@@ -150,6 +150,17 @@ $string['transid'] = 'İşlem ID';
 $string['unenrolstudent'] = 'Öğrencinin ders kaydını sil?';
 $string['void'] = 'İptal et';
 $string['voidyes'] = 'İşlem iptal edilecek. Emin misiniz?';
+$string['welcometocoursesemail'] = 'Sevgili öğrenci,
+
+Ödemeleriniz için teşekkürler. Bu kurslara kaydınız yapılmıştır:
+
+$a->courses
+
+Profilinizi düzenlemek için:
+$a->profileurl
+
+Ödeme ayrıntılarına bakmak için:
+$a->paymenturl';
 $string['youcantdo'] = 'Bu eylemi yapamazsınız: $a->action';
 $string['zipcode'] = 'Posta Kodu';
 
