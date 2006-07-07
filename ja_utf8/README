@@ -1,7 +1,7 @@
 MOODLE JAPANESE TRANSLATION
 ----------------------------------------------------------------------
 STARTED                       : November 21, 2002
-LAST MODIFIED                 : July      6, 2006
+LAST MODIFIED                 : July      7, 2006
 ----------------------------------------------------------------------
 
 Mitsuhiro Yoshida ( http://mitstek.com/ )
@@ -20,6 +20,9 @@ Toshihiro Kita ( http://t-kita.net/ )
 Paul Tsuchido Shew ( http://shew.jp/ )
  Quiz module GIFT import filter development
  Translation: /lang/ja_utf8/help/quiz/formatgift.html
+ Translation brushup
+
+Haruhiko Okumura ( http://oku.edu.mie-u.ac.jp/~okumura/ )
  Translation brushup
 
 Tatsuya Aoyagi
@@ -50,11 +53,11 @@ Takahito Kashiwagi ( http://www.supertak.com/ )
 Naoko Ueda ( http://knowledgestudio.biz/ )
  Translation brushup
 
-Haruhiko Okumura ( http://oku.edu.mie-u.ac.jp/~okumura/ )
- Translation brushup
-
 ----------------------------------------------------------------------
-Any suggestion for Japanese language packs, please do not hesitate
+Please read MoodleDocs ( http://docs.moodle.org/ja/ ) to set up your
+Moodle site :-)
+
+Any suggestion for Japanese language pack, please do not hesitate
 to post your comments on moodle.org Japanese:
 http://moodle.org/course/view.php?id=14
 
