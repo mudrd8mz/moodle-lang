@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.7 dev (2006060400)
+      // grades.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['addcategory'] = 'カテゴリの追加';
 $string['addcategoryerror'] = 'カテゴリを追加できませんでした。';
-$string['addexceptionerror'] = 'ユーザID:評定項目に例外を追加中にエラーが発生しました。';
+$string['addexceptionerror'] = 'ユーザID:評定項目への例外追加中にエラーが発生しました。';
 $string['allgrades'] = 'カテゴリごとの評点';
 $string['allstudents'] = 'すべての学生';
 $string['average'] = '平均';
@@ -45,7 +45,7 @@ $string['gradeitemremovemembers'] = '評定対象とする';
 $string['gradeitems'] = '評定項目';
 $string['gradeletter'] = '評定文字';
 $string['gradeletterhelp'] = '評定文字ヘルプ';
-$string['gradeletternote'] = '評定文字を削除するには、テキストエリアの文字を<br />空白にして「変更を保存」をクリックしてください。';
+$string['gradeletternote'] = '評定文字を削除するには、テキストエリアの文字を<br />空白にして「変更を保存する」をクリックしてください。';
 $string['gradepreferenceshelp'] = '評定オプションヘルプ';
 $string['grades'] = '評定';
 $string['gradeweighthelp'] = '評定比重ヘルプ';
@@ -88,7 +88,7 @@ $string['pointsdescending'] = '点数の降順で並び替え';
 $string['preferences'] = 'オプション';
 $string['rawpct'] = '実%%';
 $string['reprintheaders'] = 'ヘッダの再表示';
-$string['savechanges'] = '変更を保存';
+$string['savechanges'] = '変更を保存する';
 $string['savepreferences'] = '設定を保存';
 $string['scaledpct'] = '伸縮%%';
 $string['setcategories'] = 'カテゴリの設定';
