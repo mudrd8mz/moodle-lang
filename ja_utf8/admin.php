@@ -51,7 +51,7 @@ $string['configerrorlevel'] = '表示したいPHPの警告数を選択してく�
 $string['configextendedusernamechars'] = 'この設定を行うことで、学生はユーザ名にどのような文字でも使用することができます ( 実際の名前には影響しません )。デフォルトでは、ユーザ名をアルファベットに制限する「No」が設定されています。';
 $string['configfilterall'] = 'ヘッダ、タイトル、ナビゲーションバー等を含むすべての文字をフィルタします。これは多言語フィルタを使用しているときに最も便利です。そうでない場合は、あなたのサイトに単に負荷がかかるだけになります。';
 $string['configfiltermatchoneperpage'] = 'オートリンクフィルタは、ページ全体で最初のテキストマッチングに該当した1つのリンクのみ生成します。他のすべては無視されます。';
-$string['configfiltermatchonepertext'] = 'オートリンクフィルタは、各アイテムのページテキスト ( 例 リソース、ブロック ) で最初のテキストマッチングに該当した1つのリンクのみ生成します。この設定は、「ページあたり1回フィルタマッチする」が<i>yes</i>の場合、無視されます。';
+$string['configfiltermatchonepertext'] = 'オートリンクフィルタは、各アイテムのページテキスト ( 例 リソース、ブロック ) で最初のテキストマッチングに該当した1つのリンクのみ生成します。この設定は、「1ページあたり1回フィルタマッチする」が<i>yes</i>の場合、無視されます。';
 $string['configfilteruploadedfiles'] = '「すべてのファイル」はアップロードしたすべてのHTMLおよびテキストファイル、「HTMLファイルのみ」はアップロードしたHTMLファイルのみ、表示する前にフィルタをかけます。「No」は全くフィルタをかけません。';
 $string['configforcelogin'] = '通常、サイトとコース一覧 ( コースではなく ) のフロントページはサイトにログインせずに閲覧することができます。すべての動作を行う前にログインを強制したい場合、この設定を「Yes」にしてください。';
 $string['configforceloginforprofiles'] = 'この設定を「Yes」にした場合、ユーザプロフィールページを閲覧するには実際のアカウントでログインする必要があります。デフォルトでは、「No」に設定されますので、学生は事前に各コースの教師のプロフィールを閲覧することができます。これはサーチエンジンからもプロフィールページにアクセスできることを意味します。';
@@ -152,7 +152,7 @@ $string['environmentrequireversion'] = 'バージョン $a->needed 以上が必�
 $string['environmentxmlerror'] = '環境データ ($a->error_code) の読み込み中にエラーが発生しました。';
 $string['errors'] = 'エラー';
 $string['filterall'] = 'すべての文字をフィルタする';
-$string['filtermatchoneperpage'] = 'ページあたり1回フィルタマッチする';
+$string['filtermatchoneperpage'] = '1ページあたり1回フィルタマッチする';
 $string['filtermatchonepertext'] = 'テキストあたり1回フィルタマッチする';
 $string['filteruploadedfiles'] = 'アップロードファイルをフィルタする';
 $string['globalsquoteswarning'] = '<p><strong>セキュリティ警告</strong>: Moodleを適切に動作させるため、<br />現在のPHP設定を変更する必要があります。<p/><p><code>register_globals=off</code> および/または <code>magic_quotes_gpc=on</code> の<em>設定を行って</em>ください。<br />可能でしたら、一般的なサーバセキュリティを改善するため、<code>register_globals=off</code> の設定を行ってください。<br />また、<code>magic_quotes_gpc=on</code> の設定も推奨いたします。<p/><p>これらの設定は、<code>php.ini</code>、Apache/IIS <br />設定、または <code>.htaccess</code> ファイルの設定により管理されます。</p>';
