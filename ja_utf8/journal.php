@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // journal.php - created with Moodle 1.6 development (2005100400)
+      // journal.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['alwaysopen'] = '常に利用可能';
@@ -9,15 +9,15 @@ $string['editingended'] = '編集期間が終了しました';
 $string['editingends'] = '編集期間の終了';
 $string['entries'] = 'エントリ';
 $string['feedbackupdated'] = '$a の評価が保存されました';
-$string['journalmail'] = '$a->teacher さんがあなたの日誌 \'$a->journal\' にフィードバックを投稿しました。
+$string['journalmail'] = '$a->teacher さんがあなたの日誌「 $a->journal 」にフィードバックを投稿しました。
 
 フィードバックはあなたの日誌に追加されています:
 
 $a->url';
-$string['journalmailhtml'] = '$a->teacher さんがあなたの日誌\'<i>$a- >journal</i>\' にフィードバックを投稿しました。<br /><br />
+$string['journalmailhtml'] = '$a->teacher さんがあなたの日誌\'「 $a- >journal</i> 」にフィードバックを投稿しました。<br /><br />
 フィードバックはあなたの<a href=\"$a->url\">日誌</a>に追加されています。';
 $string['journalname'] = '日誌名';
-$string['journalquestion'] = '日誌質問';
+$string['journalquestion'] = '日誌問題';
 $string['journalrating1'] = '不満足';
 $string['journalrating2'] = '満足';
 $string['journalrating3'] = '素晴らしい';
@@ -27,11 +27,11 @@ $string['modulenameplural'] = '日誌';
 $string['newjournalentries'] = '新規日誌';
 $string['noentry'] = '登録なし';
 $string['noratinggiven'] = '未評価';
-$string['notopenuntil'] = '日誌が開きません';
-$string['notstarted'] = 'この日誌は未使用です';
+$string['notopenuntil'] = 'この日誌は次の日時より利用可能です:';
+$string['notstarted'] = 'あなたは、まだこの日誌を書き始めていません。';
 $string['overallrating'] = '総体的評価';
 $string['rate'] = '評価';
-$string['saveallfeedback'] = '全ての評価を保存する';
+$string['saveallfeedback'] = 'すべての評価を保存する';
 $string['startoredit'] = '日誌を編集する';
 $string['viewallentries'] = '$a 件の日誌エントリを表示する';
 
