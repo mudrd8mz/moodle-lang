@@ -1,16 +1,16 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.6 Beta 5 (2006050504)
+      // message.php - created with Moodle 1.6 + (2006050506)
 
 
 $string['addcontact'] = 'Přidat kontakt';
-$string['addsomecontacts'] = 'Chcete-li někomu poslat zprávu nebo si na tuto stránku přidat odkaz pro poslání zprávy někomu, použijte <a href=\"$a\">záložku Vyhledat</a> nahoře.';
-$string['addsomecontactsincoming'] = 'Tyto zprávy jsou od lidí, které nemáte ve svém seznamu kontaktů. Přejete-li si je do vašeho seznamu přidat, klikněte na ikonku \"Přidat kontakt\" vedle jejich jména.';
+$string['addsomecontacts'] = 'Chcete-li někomu poslat zprávu nebo si na tuto stránku přidat odkaz pro rychlé odeslání zprávy vybranému uživateli, použijte <a href=\"$a\">záložku Vyhledat</a> nahoře.';
+$string['addsomecontactsincoming'] = 'Tyto zprávy jsou od uživatelů, které nemáte ve svém seznamu kontaktů. Přejete-li si je do vašeho seznamu přidat, klikněte na ikonku \"Přidat kontakt\" vedle jejich jména.';
 $string['ago'] = 'před: $a';
 $string['allmine'] = 'Všechny zprávy pro mě nebo ode mě';
 $string['allstudents'] = 'Všechny zprávy mezi studenty v kurzu';
 $string['allusers'] = 'Všechny zprávy všech uživatelů';
-$string['backupmessageshelp'] = 'Je-li povoleno, budou zprávy zahrnuty do automaticky vytvářených záloh na těchto stránkách.';
-$string['beepnewmessage'] = 'Pípne při příchozí zprávě (může vyžadovat plugin prohlížeče pro přehrávání zvuků, např. Quicktime)';
+$string['backupmessageshelp'] = 'Zahrnout do automaticky vytvářených záloh zprávy';
+$string['beepnewmessage'] = 'Pípnout při příchozí zprávě (může vyžadovat plugin prohlížeče pro přehrávání zvuku, např. Quicktime)';
 $string['blockcontact'] = 'Blokovat kontakt';
 $string['blockedmessages'] = 'Počet zpráv u blokovaných uživatelů: $a';
 $string['blocknoncontacts'] = 'Blokuj všechny nové zprávy od uživatelů, které nemám v seznamu kontaktů';
@@ -24,7 +24,7 @@ $string['emailtagline'] = 'Tento e-mail obsahuje kopii zpravy, ktera vam byla za
 $string['emptysearchstring'] = 'Musíte zadat řetězec k vyhledávání';
 $string['formorethan'] = 'Déle než';
 $string['includeblockedusers'] = 'Zahrnout blokované uživatele';
-$string['incomingcontacts'] = 'Nové zprávy ($a)';
+$string['incomingcontacts'] = 'Nové kontakty ($a)';
 $string['keywords'] = 'Klíčová slova';
 $string['keywordssearchresults'] = 'Výsledky hledání -- počet nalezených zpráv: $a';
 $string['maxmessages'] = 'Největší počet zpráv zobrazovaných v historii diskuse';
@@ -61,7 +61,7 @@ $string['timenosee'] = 'Počet minut od doby, kdy jsem byl(a) naposledy viděn(a
 $string['timesent'] = 'Čas odeslání';
 $string['unblockcontact'] = 'Odblokovat kontakt';
 $string['unreadmessages'] = 'Nepřečtených zpráv: $a';
-$string['userisblockingyou'] = 'Vaše zprávy tomuto uživateli jsou na základě jeho nastavení blokovány';
+$string['userisblockingyou'] = 'Vaše zprávy tomuto uživateli jsou na základě jeho nastavení blokovány.';
 $string['userisblockingyounoncontact'] = 'Tento uživatel přijímá zprávy pouze od lidí, které má v seznamu kontaktů. Vy na tomto seznamu zatím nejste.';
 $string['userssearchresults'] = 'Výsledky hledání -- počet nalezených uživatelů: $a';
 
