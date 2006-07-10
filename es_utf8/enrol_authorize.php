@@ -1,160 +1,169 @@
-<?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006052400)
+<?PHP // $Id$
+      // enrol_authorize.php - created with Moodle 1.7 dev (2006050501)
 
 
-$string['adminacceptccs'] = '¿Qué tarjetas de crédito se aceptan?';
-$string['adminauthorizeccapture'] = 'Ajustes Revisar Orden y Auto-Capturar';
-$string['adminauthorizeemail'] = 'Ajustes Enviar Email';
-$string['adminauthorizesettings'] = 'Ajustes Authorize.net';
-$string['adminauthorizewide'] = 'Ajustes Todo el Sitio';
-$string['adminavs'] = 'Compruebe esto si tiene activado el Sistema de Verificación de Direcciones (AVS, Address Verification System) en su cuenta authorize.net. Este sistema requiere campos de dirección tales como calle, estado, país y código postal cuando el usuario rellena el formulario de pago.';
-$string['admincronsetup'] = 'El script de mantenimiento cron.php no ha sido ejecutado durante al menos 24 horas. <br />El cron debe estar habilitado si quiere usar la característica de captura programada.<br /><b>Active adecuadamente el</b> \'Authorize.net plugin\' y <b>setup cron</b>; o bien el <b>uncheck an_review</b> de nuevo.<br />Si desactiva la captura programada, las transacciones serán canceladas a menos que las revise dentro de los próximos 30 días.<br />Compruebe<b>an_review</b> y escriba <b>\'0\' en el campo an_capture_day</b> <br />si desea aceptar o denegar  <b>manualmente</b> los pagos en los próximos 30 días.';
-$string['adminemailexpired'] = 'Enviar un email de advertencia a los administradores <b>$a</b> días ';
-$string['adminemailexpiredsort'] = 'Cuando el número de órdenes a expirar pendientes se envían a los profesores por email, ¿cuál es importante?';
-$string['adminemailexpiredsortcount'] = 'El número de órdenes';
-$string['adminemailexpiredsortsum'] = 'La cantidad total';
-$string['adminemailexpiredteacher'] = 'Si usted ha habilitado la captura manual (ver más arriba) y los profesores pueden manejar los pagos, se puede también notificar al profesor las órdenes pendientes a expirar. Se enviará un email a los profesores de cada curso informándoles de cuántas órdenes están pendientes de expiración.';
-$string['adminemailexpsetting'] = '(0=deshabilitar envío de email, por defecto=2, máx.=5)<br />(Ajustes de captura manual para enviar email: cron=habilitado, an_review=marcado, an_capture_day=0, an_emailexpired=1-5)';
-$string['adminhelpcapturetitle'] = 'Día de captura programada';
-$string['adminhelpreviewtitle'] = 'Revisión de orden';
-$string['adminneworder'] = 'Estimado Administrador,
+$string['adminacceptccs'] = 'Which credit card types will be accepted?';
+$string['adminauthorizeccapture'] = 'Order Review & Scheduled-Capture Settings';
+$string['adminauthorizeemail'] = 'Email Sending Settings';
+$string['adminauthorizesettings'] = 'Authorize.net Settings';
+$string['adminauthorizewide'] = 'Site-Wide Settings';
+$string['adminavs'] = 'Check this if you have activated Address Verification System (AVS) in your authorize.net account. This demands address fields like street, state, country and zip when user fills out payment form.';
+$string['admincronsetup'] = 'The cron.php maintenance script has not been run for at least 24 hours. <br />Cron must be enabled if you want to use scheduled-capture feature.<br /><b>Enable</b> \'Authorize.net plugin\' and <b>setup cron</b> properly; or <b>uncheck an_review</b> again.<br />If you disable scheduled-capture, transactions will be cancelled unless you review them within 30 days.<br />Check <b>an_review</b> and enter <b>\'0\' to an_capture_day</b> field<br />if you want to <b>manually</b> accept/deny payments within 30 days.';
+$string['adminemailexpired'] = 'This is useful for \'Manual-Capture\'. Admins are notified <b>$a</b> days prior to pending orders expiring.';
+$string['adminemailexpiredsort'] = 'When the number of pending orders expiring are sent to the teachers via email, which one is important?';
+$string['adminemailexpiredsortcount'] = 'The number of the orders';
+$string['adminemailexpiredsortsum'] = 'The total of the amounts';
+$string['adminemailexpiredteacher'] = 'If you have enabled manual-capture (see above) and teachers can manage the payments, teacher may also notified about pending orders expiring. This will send an email to each course teachers about how many pending orders expiring.';
+$string['adminemailexpsetting'] = '(0=disable sending email, default=2, max=5)<br />(Manual capture settings for sending email: cron=enabled, an_review=checked, an_capture_day=0, an_emailexpired=1-5)';
+$string['adminhelpcapturetitle'] = 'Scheduled-Capture Day';
+$string['adminhelpreviewtitle'] = 'Order Review';
+$string['adminneworder'] = 'Dear Admin,
 
-Ha recibido una nueva orden pendiente:
+  You have received a new pending order:
 
-ID Orden: $a->orderid
-ID Transacción: $a->transid
-Usuario: $a->user
-Curso: $a->course
-Cantidad: $a->amount
+   Order ID: $a->orderid
+   Transaction ID: $a->transid
+   User: $a->user
+   Course: $a->course
+   Amount: $a->amount
 
-¿HABILITADA CAPTURA PROGRAMADA?: $a->acstatus
+   SCHEDULED-CAPTURE ENABLED?: $a->acstatus
 
-Si está habilitada la captura programada, la tarjeta de crédito será capturada en $a->captureon
-y el estudiante podrá matricularse en el curso; en caso contrario, expirará en on $a->expireon y no podrá ser capturada después de ese día.
+  If scheduled-capture enabled the credit card will be captured on $a->captureon
+  and then student will be enrolled to course, otherwise it will be expired
+  on $a->expireon and cannot be captured after this day.
 
-Asimismo, usted puede aceptar o rechazar el pago para matricular al estudiante inmediatamente siguiendo este enlace:
-$a->url';
-$string['adminnewordersubject'] = '$a->course: Nueva Orden Pendiente($a->orderid)';
-$string['adminpendingorders'] = 'Ha deshabilitado la captura programada.<br />Un total de $a->count transacciones con estatus de AN_STATUS_AUTH serán canceladas a menos que lo marque.<br />Para aceptar o rechazar pagos, vaya a la página <a href=\'$a->url\'>Gestión de pagos</a>.';
-$string['adminreview'] = 'Revisar el orden antes de capturar la tarjeta de crédito.';
-$string['adminteachermanagepay'] = 'Los profesores pueden gestionar los pagos del curso.';
-$string['amount'] = 'Cantidad';
-$string['anlogin'] = 'Authorize.net: Usuario';
-$string['anpassword'] = 'Authorize.net: Contraseña (no requerida)';
-$string['anreferer'] = 'Escriba aquí la referencia URL en el caso de que usted la ajuste en su cuenta authorize.net, que enviará una cabecera \"Referer: URL\" en la petición web.';
-$string['antestmode'] = 'Authorize.net:';
-$string['antrankey'] = 'Authorize.net:';
-$string['authcaptured'] = 'Autorizado / Capturado';
-$string['authorizedpendingcapture'] = 'Autorizado / Pendiente de Captura';
-$string['avsa'] = 'La dirección (calle) es correcta, pero el código postal no';
-$string['avsb'] = 'Falta información sobre la dirección';
-$string['avse'] = 'Error del sistema de verificación de la dirección';
-$string['avsg'] = 'Banco emisor de tarjetas no de U.S.';
-$string['avsn'] = 'No coinciden la dirección (calle) ni el código postal';
-$string['avsp'] = 'Sistema de verificación de direcciones no aplicable';
-$string['avsr'] = 'Reintentar - Sistema no disponible o fuera de tiempo';
-$string['avsresult'] = 'Resultado AVS:';
-$string['avss'] = 'Servicio no prestado por el proveedor';
-$string['avsu'] = 'Información sobre dirección no disponible';
-$string['avsw'] = 'El código postal de 9 dígitos coincide, pero la dirección (calle) no';
-$string['avsx'] = 'La dirección (calle) y el código postal de 9 dígitos son correctos';
-$string['avsy'] = 'La dirección (calle) y el código postal de 5 dígitos son correctos';
-$string['avsz'] = 'El código postal de 5 dígitos es correcto, pero la dirección (calle) no';
-$string['canbecredit'] = 'Puede reembolsarse hasta $a->upto';
-$string['cancelled'] = 'Cancelado';
-$string['capture'] = 'Captura';
-$string['capturedpendingsettle'] = 'Liquidación Capturada / Pendiente';
-$string['capturedsettled'] = 'Capturado / Liquidado';
-$string['captureyes'] = 'La tarjeta de crédito será capturada y el estudiante será matriculado en el curso. ¿Está seguro?';
-$string['ccexpire'] = 'Fecha de expiración';
-$string['ccexpired'] = 'La tarjeta de crédito ha expirado';
-$string['ccinvalid'] = 'Número de tarjeta no válido';
-$string['ccno'] = 'Número de la tarjeta de crédito';
-$string['cctype'] = 'Tipo de la tarjeta de crédito';
-$string['ccvv'] = 'CV2';
-$string['ccvvhelp'] = 'Mire el reverso de la tarjeta (3 últimos dígitos)';
-$string['choosemethod'] = 'Si conoce la clave de matriculación en el curso, escríbala; en caso contrario, necesitará pagar para acceder al curso.';
-$string['chooseone'] = 'Rellene uno o ambos de los siguientes dos campos';
-$string['cutofftime'] = 'Tiempo límite para la transacción. ¿Cuándo será captada la última transacción para liquidación?';
-$string['delete'] = 'Destruir';
-$string['description'] = 'El módulo Authorize.net le permite ajustar cursos de pago vía proveedores CC. Si el costo de cualquier curso es cero, no se pedirá a los estudiantes que paguen. Existe un costo del sitio que usted ajusta aquí por defecto para todo el sitio y además un ajuste por curso que puede efectuar para cada curso individualmente. El costo del curso pasa por alto el costo del sitio.';
-$string['enrolname'] = 'Puerta de tarjeta de crédito Authorize.net:';
-$string['expired'] = 'Caducado';
-$string['howmuch'] = '¿Cuánto?';
-$string['httpsrequired'] = 'Lamentamos comunicarle que su solicitud no puede procesarse en este momento. La configuración de este sitio no se ha podido realizar correctamente.
-<br /><br />
-Por favor, no escriba su número de tarjeta de crédito a menos que vea un candado amarillo en la parte inferior del navegador. Ello significa transferidos entre cliente y servidor son encriptados, con el fin de proteger la información durante la transacción entre dos ordenadores y que el número de su tarjeta no puede ser capturado en internet.';
-$string['logindesc'] = 'Puede seleccionar la opción <a href=\"$a->url\">loginhttps</a> en la sección Variables/Seguridad.
-<br /><br />
-Si la selecciona, Moodle usará una conexión https segura únicamente en la página de acceso y pago.';
-$string['missingaddress'] = 'Falta la dirección';
-$string['missingcc'] = 'Falta el número de tarjeta de crédito';
-$string['missingccexpire'] = 'Falta la fecha de caducidad';
-$string['missingcctype'] = 'Falta el tipo de tarjeta de crédito';
-$string['missingcvv'] = 'Falta el número de verificación';
-$string['missingzip'] = 'Falta el código postal';
-$string['nameoncard'] = 'Nombre que figura en la tarjeta';
-$string['new'] = 'Nuevo';
-$string['noreturns'] = '¡No devolución!';
-$string['notsettled'] = 'No liquidado';
-$string['orderid'] = 'ID Orden';
-$string['paymentmanagement'] = 'Gestión del pago';
-$string['paymentpending'] = 'El pago de este curso está pendiente con este número de orden $a->orderid.';
-$string['pendingordersemail'] = 'Estimado administrador,
+  Also you can accept/deny the payment to enrol the student immediately following this link:
+  $a->url';
+$string['adminnewordersubject'] = '$a->course: New Pending Order($a->orderid)';
+$string['adminpendingorders'] = 'You have disabled scheduled-capture feature.<br />Total $a->count transactions with a status of \'Authorized/Pending Capture\' will be cancelled unless you check it.<br />To accept/deny payments go to <a href=\'$a->url\'>Payment Management</a> page.';
+$string['adminreview'] = 'Review order before processing the credit card.';
+$string['adminteachermanagepay'] = 'Teachers can manage the payments of the course.';
+$string['amount'] = 'Amount';
+$string['anlogin'] = 'Authorize.net: Login name';
+$string['anpassword'] = 'Authorize.net: Password';
+$string['anreferer'] = 'Define the URL referer if you have set up this in your authorize.net account. This will send a line \"Referer: URL\" embedded in the web request.';
+$string['antestmode'] = 'Run transactions in test mode only (no money will be drawn)';
+$string['antrankey'] = 'Authorize.net: Transaction Key';
+$string['authcaptured'] = 'Authorized / Captured';
+$string['authorizedpendingcapture'] = 'Authorized / Pending Capture';
+$string['avsa'] = 'Address (street) matches, postal code does not';
+$string['avsb'] = 'Address information not provided';
+$string['avse'] = 'Address Verification System Error';
+$string['avsg'] = 'Non-U.S. Card Issuing Bank';
+$string['avsn'] = 'No match on address (street) nor postal code';
+$string['avsp'] = 'Address Verification System not applicable';
+$string['avsr'] = 'Retry - System unavailable or timed out';
+$string['avsresult'] = '<b>AVS Result:</b> $a';
+$string['avss'] = 'Service not supported by issuer';
+$string['avsu'] = 'Address information is unavailable';
+$string['avsw'] = '9 digit postal code matches, address (street) does not';
+$string['avsx'] = 'Address (street) and 9 digit postal code match';
+$string['avsy'] = 'Address (street) and 5 digit postal code match';
+$string['avsz'] = '5 digit postal code matches, address (street) does not';
+$string['canbecredit'] = 'Can be refunded to $a->upto';
+$string['cancelled'] = 'Cancelled';
+$string['capture'] = 'Capture';
+$string['capturedpendingsettle'] = 'Captured / Pending Settlement';
+$string['capturedsettled'] = 'Captured / Settled';
+$string['captureyes'] = 'The credit card will be captured and student will be enrolled to course. Are you sure?';
+$string['ccexpire'] = 'Expiry Date';
+$string['ccexpired'] = 'The credit card has expired';
+$string['ccinvalid'] = 'Invalid card number';
+$string['ccno'] = 'Credit Card Number';
+$string['cctype'] = 'Credit Card Type';
+$string['ccvv'] = 'Card Verification';
+$string['ccvvhelp'] = 'Look at the back of card (last 3 digits)';
+$string['choosemethod'] = 'If you know the enrolment key of the cource, please enter it; otherwise you need to pay for this course.';
+$string['chooseone'] = 'Fill one or both of the following two fields';
+$string['cutofftime'] = 'Transaction Cut-Off Time. When the last transaction is picked up for settlement?';
+$string['delete'] = 'Destroy';
+$string['description'] = 'The Authorize.net module allows you to set up paid courses via CC providers.  If the cost for any course is zero, then students are not asked to pay for entry.  Two ways to set the course cost (1) a site-wide cost as a default for the whole site or (2) a course setting that you can set for each course individually. The course cost overrides the site cost.<br /><br /><b>Note:</b> If you enter an enrolment key in the course settings, then students will also have the option to enrol using a key. This is useful if you have a mixture of paying and non-paying students.';
+$string['enrolname'] = 'Authorize.net Payment Gateway';
+$string['expired'] = 'Expired';
+$string['howmuch'] = 'How much?';
+$string['httpsrequired'] = 'We are sorry to inform you that your request cannot be processed now. This site\'s configuration couldn\'t be set up correctly.<br /><br />Please don\'t enter your credit card number unless you see a yellow lock at the bottom of the browser. If the symbol appears, it means the page encrypts all data sent between client and server. So the information during the transaction between the two computers is protected, hence your credit card number cannot be captured over the internet.';
+$string['logindesc'] = 'This option must be ON. <br /><br />Please ensure that you have turned <a href=\"$a->url\">loginhttps ON</a> in Admin >> Variables >> Security.<br /><br />Turning this on will make Moodle use a secure https connection just for the login and payment pages.';
+$string['missingaddress'] = 'Missing address';
+$string['missingcc'] = 'Missing card number';
+$string['missingccexpire'] = 'Missing expiration date';
+$string['missingcctype'] = 'Missing card type';
+$string['missingcvv'] = 'Missing verification number';
+$string['missingzip'] = 'Missing postal code';
+$string['nameoncard'] = 'Name on Card';
+$string['new'] = 'New';
+$string['noreturns'] = 'No returns!';
+$string['notsettled'] = 'Not settled';
+$string['orderid'] = 'Order ID';
+$string['paymentmanagement'] = 'Payment Management';
+$string['paymentpending'] = 'Your payment is pending for this course with this order number $a->orderid.  See <a href=\'$a->url\'>Order Details</a>.';
+$string['pendingordersemail'] = 'Dear admin,
 
-$a->pending transacciones expirarán a menos que usted acepte el pago dentro de los próximos $a->days días.
+$a->pending transactions for course \"$a->course\" will expire unless you accept payment within $a->days days.
 
-Éste es un mensaje de advertencia, debido a que usted no ha habilitado la captura programada, lo que significa que tiene que aceptar o rechazar los pagos manualmente.
+This is a warning message, because you didn\'t enable scheduled-capture.
+It means you have to accept or deny payments manually.
 
-Para aceptar o rechazar pagos pendientes, vaya a:
+To accept/deny pending payments go to:
 $a->url
 
-Para habilitar la captura programada (lo que significa que usted no recibirá en el futuro ningún email de advertencia), vaya a:
+To enable scheduled-capture, it means you will not receive any warning emails anymore, go to:
 
 $a->enrolurl';
-$string['pendingordersemailteacher'] = 'Estimado profesor,
+$string['pendingordersemailteacher'] = 'Dear teacher,
 
-$a->pending transacciones por un costo de $a->currency $a->sumcost para el curso \"$a->course\"
-expirarán a menos que usted acepte el pago dentro de los próximos $a->days días.
+$a->pending transactions costed $a->currency $a->sumcost for course \"$a->course\"
+will expire unless you accept payment with in $a->days days.
 
-Usted tiene que aceptar o rechazar los pagos manualmente debido a que el administrador no tiene habilitada la captura programada.
+You have to accept or deny payments manually because of the admin hasn\'t enabled the scheduled-capture.
 
 $a->url';
-$string['pendingorderssubject'] = 'ATENCIÓN: $a->course, $a->pending orden(es) expirarán en $a->days día(s).';
-$string['reason11'] = 'Se ha enviado una transacción duplicada';
-$string['reason13'] = 'La ID del login del proveedor no es válida o la cuenta está inactiva.';
-$string['reason16'] = 'La transacción no se ha encontrado.';
-$string['reason17'] = 'El proveedor no acepta este tipo de tarjeta de crédito.';
-$string['reason27'] = 'La transacción ha resultado en una discrepancia AVS. La dirección no se corresponde con la dirección de facturación del propietario de la tarjeta.';
-$string['reason28'] = 'El proveedor no acepta este tipo de tarjeta de crédito.';
-$string['reason30'] = 'La configuración con el procesador no es válida. Contacte con el proveedor de servicios mercantiles.';
-$string['reason39'] = 'El código suministrado de moneda no es válido, no admitido, no aceptado por este proveedor o no dispone de tasa de cambio.';
-$string['reason43'] = 'El proveedor ha sido incorrectamente ajustado al procesador. Contacte con su proveedor de servicios mercantiles.';
-$string['reason44'] = 'La transacción ha sido rechazada. Error en el filtro de código de la tarjeta.';
-$string['reason45'] = 'La transacción ha sido rechazada. Error en el filtro de código de la tarjeta / AVS.';
-$string['reason47'] = 'La cantidad solicitada para liquidación no puede ser mayor que la cantidad original autorizada.';
-$string['reason5'] = 'Se requiere una cantidad válida.';
-$string['reason50'] = 'Esta transacción está esperando su liquidación y no puede ser reembolsada.';
-$string['reason51'] = 'La suma de todos los créditos contra esta transacción es mayor que la cantidad de la transacción original.';
-$string['reason54'] = 'La transacción referenciada no cumple los criterios para emitir un crédito.';
-$string['reason55'] = 'La suma de los créditos contra la transacción referenciada excedería la cantidad de débito original.';
-$string['refund'] = 'Reembolso';
-$string['refunded'] = 'Reembolsado';
-$string['returns'] = 'Devoluciones';
-$string['reviewday'] = 'Capturar la tarjeta de crédito automáticamente a menos que un profesor o administrador revise la orden antes de <b>$a</b>días. EL CRON DEBE ESTAR ACTIVADO.<br />(0 días significa que se desactivará la auto-captura, y que el profesor o administrador revisarán la orden manualmente. La transacción será cancelada si usted desactiva la auto-captura, o si no la revisa antes de 30 días).';
-$string['reviewnotify'] = 'Su pago será revisado. En unos días recibirá un email de su profesor.';
-$string['sendpaymentbutton'] = 'Enviar pago';
-$string['settled'] = 'Liquidado';
-$string['settlementdate'] = 'Fecha de liquidación';
-$string['subvoidyes'] = 'La transacción reembolsada $a->transid será cancelada y se traspasará $a->amount a su cuenta. ¿Está seguro?';
-$string['tested'] = 'Probado';
-$string['testmode'] = '[MODO TEST]';
-$string['testwarning'] = 'Captura/Cancelación/Crédito parece funcionar en modo prueba, pero no se ha actualizado o insertado ningún registro en la base de datos.';
-$string['transid'] = 'ID Transacción';
-$string['unenrolstudent'] = '¿Dar de baja al estudiante?';
-$string['void'] = 'Cancelación';
-$string['voidyes'] = 'La transacción será cancelada. ¿Está seguro?';
-$string['youcantdo'] = 'No puede realizar esta acción: $a->action';
-$string['zipcode'] = 'Código postal';
+$string['pendingorderssubject'] = 'WARNING: $a->course, $a->pending order(s) will expire within $a->days day(s).';
+$string['reason11'] = 'A duplicate transaction has been submitted.';
+$string['reason13'] = 'The merchant Login ID is invalid or the account is inactive.';
+$string['reason16'] = 'The transaction was not found.';
+$string['reason17'] = 'The merchant does not accept this type of credit card.';
+$string['reason27'] = 'The transaction resulted in an AVS mismatch. The address provided does not match billing address of cardholder.';
+$string['reason28'] = 'The merchant does not accept this type of credit card.';
+$string['reason30'] = 'The configuration with the processor is invalid. Call Merchant Service Provider.';
+$string['reason39'] = 'The supplied currency code is either invalid, not supported, not allowed for this merchant or doesn\'t have an exchange rate.';
+$string['reason43'] = 'The merchant was incorrectly set up at the processor. Call your Merchant Service Provider.';
+$string['reason44'] = 'This transaction has been declined. Card Code filter error!';
+$string['reason45'] = 'This transaction has been declined. Card Code / AVS filter error!';
+$string['reason47'] = 'The amount requested for settlement may not be greater than the original amount authorized.';
+$string['reason5'] = 'A valid amount is required.';
+$string['reason50'] = 'This transaction is awaiting settlement and cannot be refunded.';
+$string['reason51'] = 'The sum of all credits against this transaction is greater than the original transaction amount.';
+$string['reason54'] = 'The referenced transaction does not meet the criteria for issuing a credit.';
+$string['reason55'] = 'The sum of credits against the referenced transaction would exceed the original debit amount.';
+$string['refund'] = 'Refund';
+$string['refunded'] = 'Refunded';
+$string['returns'] = 'Returns';
+$string['reviewday'] = 'Capture the credit card automatically unless a teacher or administrator review the order within <b>$a</b> days. CRON MUST BE ENABLED.<br />(0 day means it will disable scheduled-capture, also means teacher or admin review order manually. Transaction will be cancelled if you disable scheduled-capture or unless you review it within 30 days.)';
+$string['reviewnotify'] = 'Your payment will be reviewed. Expect an email within a few days from your teacher.';
+$string['sendpaymentbutton'] = 'Send Payment';
+$string['settled'] = 'Settled';
+$string['settlementdate'] = 'Settlement Date';
+$string['subvoidyes'] = 'Refunded transaction $a->transid will be cancelled and it will credit $a->amount to your account. Are you sure?';
+$string['tested'] = 'Tested';
+$string['testmode'] = '[TEST MODE]';
+$string['testwarning'] = 'Capture/Void/Credit seems working in test mode, but no record was updated or inserted in database.';
+$string['transid'] = 'Transaction ID';
+$string['unenrolstudent'] = 'Unenrol student?';
+$string['void'] = 'Void';
+$string['voidyes'] = 'Transaction will be cancelled. Are you sure?';
+$string['welcometocoursesemail'] = 'Dear student,
+
+Thanks for your payments. You have enrolled these courses:
+
+$a->courses
+
+You may edit your profile:
+ $a->profileurl
+
+You may view your payment details:
+ $a->paymenturl';
+$string['youcantdo'] = 'You can\'t do this action: $a->action';
+$string['zipcode'] = 'Zip Code';
 
 ?>
