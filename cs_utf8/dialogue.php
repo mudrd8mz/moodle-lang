@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // dialogue.php - created with Moodle 1.6 + (2006050506)
 
 
 $string['addmynewentries'] = 'Přidat mé nové příspěvky';
@@ -27,7 +27,7 @@ Můžete si jej prohlédnout na stránce <a href=\"$a->url\">rozhovoru</a>.';
 $string['dialoguename'] = 'Název rozhovoru';
 $string['dialogueopened'] = 'Rozhovor s uživatelem $a otevřen';
 $string['dialoguewith'] = 'Rozhovor s uživatelem $a';
-$string['everybody'] = 'Mezi kýmkoliv';
+$string['everybody'] = 'Bez omezení';
 $string['furtherinformation'] = 'Další informace';
 $string['lastentry'] = 'Poslední příspěvek';
 $string['maildefault'] = 'Implicitně zasílat e-mailem';
