@@ -116,7 +116,10 @@ $string['configzip'] = 'Wskazuje lokalizację Twoich spakowanych programów (dot
 $string['confirmation'] = 'potwierdzenie';
 $string['cronwarning'] = 'Skrypt konserwacyjny <a href=\"cron.php\">cron.php nie był uruchamiany przez ostatnie 24 godziny. ';
 $string['edithelpdocs'] = 'edytuj pliki pomocy';
+$string['editlang'] = '<b>Edytuj</b>';
 $string['editstrings'] = 'edytuj łańcuchy znaków';
+$string['environment'] = 'Środowisko';
+$string['errors'] = 'błędy';
 $string['filterall'] = 'filtruj wszystkie łańcuchy znaków';
 $string['filteruploadedfiles'] = 'Filtruj uploadowane pliki';
 $string['globalsquoteswarning'] = '<p><strong>Security Warning</strong>:do prawidłowego działania Moodle potrzebuje
@@ -153,8 +156,7 @@ $string['upgradelogsinfo'] = 'Aby móc przeglądać stare logi musisz dokonać i
 $string['upgradesure'] = 'Twoje pliki Moodle zostały zmienione, a Ty właśnie automatycznie aktualizujesz swój serwer do tej wersji:
 <p><strong>$a</strong></p>
 <p>Zmiana tego ustawienia jest nieodwracalna. </p>
-<p>Czy chcesz teraz rozpocząć aktualizację tego serwera do tej wersji?</p>”
-';
+<p>Czy chcesz teraz rozpocząć aktualizację tego serwera do tej wersji?</p>”';
 $string['upgradingdata'] = 'Uaktualnianie danych';
 $string['upgradinglogs'] = 'Uaktualnianie logów';
 $string['upwards'] = 'Do góry ';
