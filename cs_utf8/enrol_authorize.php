@@ -150,6 +150,17 @@ $string['transid'] = 'ID transakce';
 $string['unenrolstudent'] = 'Vyškrtnout studenta?';
 $string['void'] = 'Zrušit';
 $string['voidyes'] = 'Transakce bude zrušena. Pokračovat?';
+$string['welcometocoursesemail'] = 'Zpráva pro studující(ho)
+
+Děkujeme za vaše platby. Jste zapsán(a) do těchto kurzů:
+
+$a->courses
+
+Svůj uživatelský profil můžete upravit zde:
+$a->profileurl
+
+Podrobné údaje o svých platbách najdete zde:
+$a->paymenturl';
 $string['youcantdo'] = 'Nemáte oprávnění provést akci \'$a->action\'';
 $string['zipcode'] = 'PSČ (Zip Code)';
 
