@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.6 development (2006031400)
+      // calendar.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['calendar'] = 'Kalender';
@@ -15,7 +15,7 @@ $string['deleteevent'] = 'Wis activiteit';
 $string['detailedmonthview'] = 'Gedetaileerd maandoverzicht';
 $string['durationminutes'] = 'Duur in minuten';
 $string['durationnone'] = 'Geen tijdsduur';
-$string['durationuntil'] = 'Tot';
+$string['durationuntil'] = 'Tot en met';
 $string['editevent'] = 'Bewerk activiteit';
 $string['errorbeforecoursestart'] = 'Je kunt geen activiteit plannen voor de startdatum van de cursus';
 $string['errorinvaliddate'] = 'Ongeldige datum';
