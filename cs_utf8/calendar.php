@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // calendar.php - created with Moodle 1.6 + (2006050506)
 
 
 $string['calendar'] = 'Kalendář';
 $string['calendarheading'] = '$a kalendář';
-$string['clickhide'] = 'kliknutím se skryje';
-$string['clickshow'] = 'kliknutím se ukáže';
+$string['clickhide'] = 'kliknutím skryjete';
+$string['clickshow'] = 'kliknutím zobrazíte';
 $string['confirmeventdelete'] = 'Jste si jisti, že chcete odstranit tuto událost?';
 $string['courseevents'] = 'Události kurzu';
 $string['dayview'] = 'Zobrazit den';
@@ -37,11 +37,11 @@ $string['eventstarttime'] = 'Začíná';
 $string['eventtime'] = 'čas';
 $string['eventview'] = 'Podrobnosti události';
 $string['expired'] = 'Vypršela';
-$string['explain_lookahead'] = 'Tímto nastavujete počet dnů, v nichž budou vyhledávány nadcházející události. Pokud událost začíná v některém z těchto dnů, bude zobrazena jako nadcházející. Události, které začínají později, nebudou zobrazeny jako nadcházející. Vemte prosím na vědomí, že <strong>není zaručeno</strong> zobrazení všech nadcházejících událostí: pokud je jich nalezeno příliš mnoho (tj. více, než kolik je zadáno u nastavení \'Maximální počet nadcházejících událostí\'), pak se ty nejvzdálenější události nezobrazí.';
+$string['explain_lookahead'] = 'Tímto nastavujete počet dnů, v nichž budou vyhledávány nadcházející události. Pokud událost začíná v některém z těchto dnů, bude zobrazena jako nadcházející. Události, které začínají později, nebudou zobrazeny jako nadcházející.<br />Upozornění: zobrazení všech nadcházejících událostí <strong>není zaručeno</strong>. Pokud je jich nalezeno příliš mnoho (tj. více, než kolik je zadáno v nastavení \'Maximální počet nadcházejících událostí\'), pak se ty nejvzdálenější události nezobrazí.';
 $string['explain_maxevents'] = 'Tímto nastavujete největší možný počet zobrazovaných nadcházejících událostí. Pokud zde vyberete velké číslo, může se stát, že seznam nadcházejících událostí bude velmi dlouhý a na obrazovce zabere spoustu místa.';
 $string['explain_persistflt'] = 'Je-li povoleno, bude si Moodle pamatovat vaše poslední nastavení filtrování událostí a automaticky je obnoví při dalším přihlášení';
 $string['explain_startwday'] = 'Vyberte den, jímž má začínat týden v kalendáři.';
-$string['explain_timeformat'] = 'Můžete si zvolit, zda chcete čas zobrazovat ve 12-hodinovém formátu nebo 24-hodinovém formátu. Zvolíte-li \'výchozí\', bude formát vybrán na základě použitého jazyka vašich stránek.';
+$string['explain_timeformat'] = 'Můžete si zvolit, zda chcete čas zobrazovat ve 12-hodinovém formátu nebo 24-hodinovém formátu. Zvolíte-li \'výchozí\', použije se výchozí formátování aktuálně používaného jazyka.';
 $string['fri'] = 'Pá';
 $string['friday'] = 'Pátek';
 $string['globalevents'] = 'Globální události';
@@ -55,7 +55,7 @@ $string['monthlyview'] = 'Zobrazit měsíce';
 $string['newevent'] = 'Nová událost';
 $string['noupcomingevents'] = 'Žádné nadcházející události';
 $string['oneevent'] = '1 událost';
-$string['pref_lookahead'] = 'Vyhlížení nadcházejících událostí';
+$string['pref_lookahead'] = 'Přehled nadcházejících událostí';
 $string['pref_maxevents'] = 'Maximální počet nadcházejících událostí';
 $string['pref_persistflt'] = 'Pamatovat si nastavení filtrování';
 $string['pref_startwday'] = 'První den v týdnu';
