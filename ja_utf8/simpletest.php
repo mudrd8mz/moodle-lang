@@ -5,14 +5,17 @@
 $string['all'] = 'すべて';
 $string['exception'] = '例外';
 $string['fail'] = '失敗';
+$string['ignorefile'] = 'このファイルのテストを無視する。';
 $string['ignorethisfile'] = 'このテストファイルを無視してテストを再実行する。';
 $string['moodleunittests'] = 'Moodleユニットテスト: $a';
 $string['notice'] = '警告';
+$string['onlytest'] = '次の内部のみでテストを実行:';
 $string['pass'] = 'パス';
 $string['pathdoesnotexist'] = 'パス「 $a 」が存在しません。';
 $string['retest'] = 'テストの再実行';
 $string['retestonlythisfile'] = 'このテスト対象ファイルのテストのみ実行';
 $string['runall'] = 'すべてのテスト対象ファイルのテストを実行';
+$string['runat'] = '$a で実行';
 $string['runonlyfile'] = 'このファイル内のみテストを実行';
 $string['runonlyfolder'] = 'このフォルダ内のみテストを実行';
 $string['runtests'] = 'テストの実行';
