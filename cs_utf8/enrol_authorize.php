@@ -8,16 +8,14 @@ $string['adminauthorizeemail'] = 'E-mailové upozorňování';
 $string['adminauthorizesettings'] = 'Nastavení Authorize.net';
 $string['adminauthorizewide'] = 'Globální nastavení';
 $string['adminavs'] = 'Vyberte tuto možnost, pokud jste u svého účtu authorize.net aktivovali kontrolní systém Address Verification System (AVS). Uživatelé tak budou muset na platebním formuláři vyplnit také pole ulice, stát, země a PSČ (Zip Code).';
-$string['admincronsetup'] = 'Skript cron.php, který má na starosti běžnou údržbu serveru, nebyl během posledních 24 hodin spuštěn.<br />Chcete-li používat automatické zpracování plateb, musí být cron v provozu.<br /><b>Povolte</b> zápis prostřednictvím \'Authorize.net Credit Card Gateway\' a <b>zprovozněte cron</b>, nebo <b>zrušte</b> volbu <b>an_review</b>.<br />Zrušíte-li automatické zpracování transakcí, budou transakce zrušeny, nezpracujete-li je do 30 dnů.<br />Zatrhněte volbu <b>an_review</b> a zapišter <b>\'0\' (nulu)</b> do pole <b>an_capture_day</b>,<br />chcete-li platby přijmout/zamítnout <b>ručně</b> během 30 dnů od podání.';
-$string['adminemailexpired'] = 'Odesílat správcům e-mail s upozorněním <b>$a</b> dny/dnů před uplynutím lhůty pro uskutečnění transakce.';
+$string['admincronsetup'] = 'Skript cron.php, který má na starosti běžnou údržbu serveru, nebyl během posledních 24 hodin spuštěn.<br />Chcete-li používat automatické zpracování transakcí, musí být cron v provozu.<br /><b>Povolte</b> zápis prostřednictvím \'Authorize.net Credit Card Gateway\' a <b>zprovozněte cron</b>, nebo <b>zrušte</b> volbu <b>an_review</b>.<br />Pokud deaktivujete automatické zpracování transakcí, budou transakce zrušeny, nezpracujete-li je do 30 dnů.<br />Zatrhněte volbu <b>an_review</b> a zapište <b>\'0\' (nulu)</b> do pole <b>an_capture_day</b>,<br />chcete-li transakce potvrdit/zamítnout <b>ručně</b> během 30 dnů od podání.';
+$string['adminemailexpired'] = 'Odesílat správcům e-mail s upozorněním <b>$a</b> dny/dnů před uplynutím lhůty pro uskutečnění transakce. Tuto volbu je vhodné použít při ručním zpracování transakcí.';
 $string['adminemailexpiredsort'] = 'Čím se řídí upozorňování na transakce s blížícím se koncem lhůty pro vyžízení?';
 $string['adminemailexpiredsortcount'] = 'Počet transakcí';
 $string['adminemailexpiredsortsum'] = 'Celkový úhrn částek';
-$string['adminemailexpiredteacher'] = 'Jestliže jste aktivovali ruční zpracování transakcí(viz výše) a jestliže učitelé mohou spravovat transkace, je možné zasílat oznámení o transakcích s blížícím se koncem lhůty pro vyřízení také učitelům. 
-
-na počet transakcí ve stavu \'autorizováno/vyřizuje se rezervace prostředků\' (authorized/pending capture)';
+$string['adminemailexpiredteacher'] = 'Jestliže jste aktivovali ruční zpracování transakcí (viz výše) a jestliže učitelé mohou spravovat transkace, je možné zasílat oznámení o transakcích s blížícím se koncem lhůty pro vyřízení také učitelům. Všem učitelům příslušného kurzu tak bude e-mailem odeslána zpráva o počtu transakcí s blížícím se koncem lhůty pro vyřízení.';
 $string['adminemailexpsetting'] = '(0=neposílat e-mail, výchozí nastavení=2, maximum=5)<br />Nastavení pro e-mailové upozorňování při ručním zpracování plateb (cron=v provozu, an_review=zatrženo, an_capture_day=0, an_emailexpired=1-5)';
-$string['adminhelpcapturetitle'] = 'Den automatického zpracování plateb';
+$string['adminhelpcapturetitle'] = 'Den automatického zpracování transakcí';
 $string['adminhelpreviewtitle'] = 'Kontrola objednávky';
 $string['adminneworder'] = 'Zpráva pro správce
 
@@ -50,7 +48,7 @@ $string['avsa'] = 'Adresa (ulice) souhlasí, PSČ nikoliv';
 $string['avsb'] = 'Nebyly zadány údaje o adrese';
 $string['avse'] = 'Chyba kontrolního systému AVS';
 $string['avsg'] = 'Banka vydavatele nesídlí v USA';
-$string['avsn'] = 'Adresa (ulice) ani PSČ souhlasí';
+$string['avsn'] = 'Adresa (ulice) ani PSČ nesouhlasí';
 $string['avsp'] = 'Kontrolu pomocí AVS nelze použít';
 $string['avsr'] = 'Opakujte požadavek -- systém je nedostupný, nebo vypršel časový limit žádosti';
 $string['avsresult'] = '<b>Výsledek kontroly AVS:</b> $a';
@@ -63,10 +61,10 @@ $string['avsz'] = '5místné PSČ souhlasí, adresa (ulice) nikoliv ';
 $string['canbecredit'] = 'Lze refundovat až $a->upto';
 $string['cancelled'] = 'Zrušeno';
 $string['capture'] = 'Rezervovat prostředky';
-$string['capturedpendingsettle'] = 'Vyžádána rezervace prostředků/vyřizuje se úhrada';
-$string['capturedsettled'] = 'Vyžádána rezervace prostředků/uhrazeno';
+$string['capturedpendingsettle'] = 'Rezervace prostředků provedena/vyřizuje se úhrada';
+$string['capturedsettled'] = 'Rezervace prostředků provedena/uhrazeno';
 $string['captureyes'] = 'Vyžádá se rezervace prostředků na kartě a student bude zapsán do kurzu. Pokračovat?';
-$string['ccexpire'] = 'Datum vypršení';
+$string['ccexpire'] = 'Datum expirace';
 $string['ccexpired'] = 'Platnost této kreditní karty vypršela';
 $string['ccinvalid'] = 'Neplatné číslo karty';
 $string['ccno'] = 'Číslo kreditní karty';
@@ -83,7 +81,7 @@ $string['expired'] = 'Vypršela lhůta';
 $string['howmuch'] = 'Kolik?';
 $string['httpsrequired'] = 'Bohužel vám musíme sdělit, že váš požadavek nyní nemůže být zpracován. Nepodařilo se provést potřebná nastavení tohoto serveru.
 <br /><br />
-Nezadávejte prosím číslo své kreditní karty, pokud v dolní liště prohlížeče nevidíte žlutý zámek. Jestliže tento symbol vidíte, znamená to, že komunikace mezi klientem a serverem je šifrována, takže číslo vaší kreditní nebude možné během přenosu po síti Internet odposlechnout žádná třetí osoba.';
+Nezadávejte prosím číslo své kreditní karty, pokud v dolní liště prohlížeče nevidíte žlutý zámek. Jestliže tento symbol vidíte, znamená to, že komunikace mezi klientem a serverem je šifrována, takže číslo vaší kreditní karty nebude moci během přenosu po síti Internet odposlechnout žádná třetí osoba.';
 $string['logindesc'] = 'Tato volba musí být ZAPNUTA (ON).<br /><br />
 Nastavte proměnnou <a href=\"$a->url\">loginhttps</a> v sekci Správa->Proměnné->Zabezpečení.<br /><br />
 Po jejím zapnutí bude Moodle používat šifrované spojení HTTPS pouze pro přihlašování a pro provedení plateb.';
@@ -102,11 +100,11 @@ $string['paymentmanagement'] = 'Správa plateb';
 $string['paymentpending'] = 'Vaše platba za tento kurz, pod číslem objednávky $a->orderid, se zpracovává. Viz <a href=\'$a->url\'>Podrobnosti o objednávce</a>.';
 $string['pendingordersemail'] = 'Zpráva pro správce
 
-Jestliže do $a->days dnů nepřijmete platby u $a->pending zpracovávaných transakcí pro kurz \"$a->course\", vyprší u těchto transakcí doba platnosti.
+Jestliže do $a->days dnů nepotvrdíte platby u $a->pending zpracovávaných transakcí pro kurz \"$a->course\", vyprší u těchto transakcí doba platnosti.
 
 Tato zpráva vás upozorňuje, že jste neaktivovali systém automatického zpracování transakcí, takže musíte každou platbu potvrdit či zamítnout ručně.
 
-Přijetí/Zamítnutí plateb provedete na adrese: $a->url.
+Potvrzení/Zamítnutí plateb provedete na adrese: $a->url.
 
 Chcete-li zapnout automatické zpracování transakcí (nebudete potom dostávat upozorňovací e-maily), můžete to provést na této stránce: $a->enrolurl.';
 $string['pendingordersemailteacher'] = 'Zpráva pro učitele
@@ -115,7 +113,7 @@ Jestliže do $a->days dnů nepřijmete platby u $a->pending zpracovávaných tra
 
 Správce Moodlu neaktivoval systém automatického zpracování transakcí, proto musíte každou platbu potvrdit či zamítnout ručně.
 
-Přijetí/Zamítnutí plateb provedete na adrese: $a->url.';
+Potvrzení/Zamítnutí plateb provedete na adrese: $a->url.';
 $string['pendingorderssubject'] = 'UPOZORNĚNÍ: $a->course, $a->pending transakcí vyprší během $a->days dnů.';
 $string['reason11'] = 'Byla podána duplicitní transkace.';
 $string['reason13'] = 'Přihlašovací ID obchodníka je neplatné nebo je účet neaktivní. ';

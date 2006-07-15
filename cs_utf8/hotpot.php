@@ -47,7 +47,7 @@ $string['giveup'] = 'Vzdávám to';
 $string['hints'] = 'Nápovědy';
 $string['ignored'] = 'Nevybráno';
 $string['inprogress'] = 'probíhá';
-$string['location'] = 'Umístění souboru';
+$string['location'] = 'Cesta k souboru';
 $string['modulename'] = 'Test Hot Potatoes';
 $string['modulenameplural'] = 'Testy Hot Potatoes';
 $string['navigation'] = 'Navigace';
@@ -140,8 +140,8 @@ $string['textsourcequiz'] = 'Převzít z testu';
 $string['textsourcespecific'] = 'Zadat nyní';
 $string['thiscourse'] = 'tento kurz';
 $string['timedout'] = 'vypršel čas';
-$string['updatequizchain'] = 'Upravit sadu testů';
+$string['updatequizchain'] = 'Aktualizovat sadu testů';
 $string['weighting'] = 'Váhy';
-$string['wrong'] = 'Špatně';
+$string['wrong'] = 'Nesprávně';
 
 ?>

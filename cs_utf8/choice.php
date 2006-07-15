@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // choice.php - created with Moodle 1.6 + (2006050506)
 
 
 $string['addmorechoices'] = 'Přidat další volby';
@@ -32,7 +32,7 @@ $string['publishnames'] = 'Zveřejnit výsledky včetně jmen studentů a jejich
 $string['publishnot'] = 'Nezobrazovat výsledky studentům';
 $string['responses'] = 'Odpovědi';
 $string['responsesto'] = 'Odpovědi na $a';
-$string['savemychoice'] = 'Uložit mou odpověď';
+$string['savemychoice'] = 'Uložit mou volbu';
 $string['showunanswered'] = 'Zobrazit sloupec \'Dosud nezodpovězeno\'';
 $string['spaceleft'] = 'volné místo';
 $string['spacesleft'] = 'volná místa';

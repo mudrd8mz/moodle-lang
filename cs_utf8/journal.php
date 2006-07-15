@@ -7,7 +7,7 @@ $string['blankentry'] = 'Prázdný zápis';
 $string['daysavailable'] = 'Dostupnost';
 $string['editingended'] = 'Lhůta k úpravám vypršela';
 $string['editingends'] = 'Lhůta k úpravám končí';
-$string['entries'] = 'Položek';
+$string['entries'] = 'Zapsané poznámky';
 $string['feedbackupdated'] = 'Aktualizovány reakce k $a poznámkám';
 $string['journalmail'] = '$a->teacher reagoval(a) na vas zapis do poznamek \'$a->journal\'.
 
@@ -30,6 +30,6 @@ $string['overallrating'] = 'Celkové hodnocení';
 $string['rate'] = 'Hodnotit';
 $string['saveallfeedback'] = 'Uložit mé reakce';
 $string['startoredit'] = 'Zapsat nebo upravit poznámku';
-$string['viewallentries'] = 'Zobrazit $a poznámek';
+$string['viewallentries'] = 'Zobrazit poznámky (celkem: $a)';
 
 ?>
