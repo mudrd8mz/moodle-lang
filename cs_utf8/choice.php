@@ -38,7 +38,7 @@ $string['spaceleft'] = 'volné místo';
 $string['spacesleft'] = 'volná místa';
 $string['taken'] = 'Zabráno';
 $string['timerestrict'] = 'Omezit odpovídání na dobu';
-$string['viewallresponses'] = 'Zobrazit $a odpovědí';
+$string['viewallresponses'] = 'Zobrazit odpovědi (celkem: $a)';
 $string['yourselection'] = 'Vaše volba';
 
 ?>
