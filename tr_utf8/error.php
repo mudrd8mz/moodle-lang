@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006050400)
+      // error.php - created with Moodle 1.6 + (2006050506)
 
 
 $string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
@@ -27,20 +27,22 @@ $string['fieldrequired'] = '\"$a\" doldurulması gerekli bir alandır';
 $string['filenotfound'] = 'Üzgünüz, aranan dosya bulunamadı';
 $string['forumblockingtoomanyposts'] = 'Bu forum için mesaj gönderme aralığını aştınız.';
 $string['groupalready'] = 'Kullanıcı $a grubuna zaten kayıtlı';
-$string['groupunknown'] = '$a grubu belirtilen kursla ilişkili değildir';
+$string['groupunknown'] = '$a grubu belirtilen kursla ilişkili değil';
 $string['guestnoeditprofile'] = 'Konuk kullanıcı kendi profilini düzenleyemez';
 $string['guestnoeditprofileother'] = 'Konuk kullanıcının profili düzenlenemez';
 $string['invalidcourse'] = 'Geçersiz kurs';
-$string['invalidfieldname'] = '\"$a\" geçerli bir alan adı değildir';
+$string['invalidfieldname'] = '\"$a\" geçerli bir alan adı değil';
 $string['invalidfiletype'] = '\"$a\" geçerli bir dosya tipi değil';
 $string['invalidmd5'] = 'Geçersiz md5';
 $string['invalidxmlfile'] = '\"$a\" geçerli bir XML dosyası değil';
-$string['missingfield'] = '\"$a\" alanı eksiktir';
+$string['missingfield'] = '\"$a\" alanı eksik';
 $string['missingrequiredfield'] = 'Bazı gerekli alanlar eksik';
+$string['modulemissingcode'] = 'Bu eylemi gerçekleştirecek gerekli kod $a modülü için eksik';
 $string['modulerequirementsnotmet'] = '\"$a->modulename\" ($a->moduleversion) modülü kurulamadı. Bu modül daha yeni bir Moodle sürümü gerektirmektedir (şu anda kullandığınız: $a->currentmoodle, gereken: $a->requiremoodle).';
 $string['mustbeteacher'] = 'Bu sayfaya bakabilmek için eğitimci olmalısınız';
 $string['noinstances'] = '$a bu kursta kullanılmadı!';
 $string['nonmeaningfulcontent'] = 'Anlamsız içerik';
+$string['noparticipatorycms'] = 'Üzgünüz, rapor edilecek kurs modüllerinin katılımcısı değilsiniz.';
 $string['notavailable'] = 'Şu anda erişilemez';
 $string['onlyadmins'] = 'Sadece yöneticiler bunu yapabilir';
 $string['onlyeditingteachers'] = 'Sadece eğitimciler bunu yapabilir';
@@ -49,20 +51,22 @@ $string['pagenotexist'] = 'Nadiren görülen bir hata oluştu (olmayan bir sayfa
 $string['pleasereport'] = 'Zamanınız varsa, lütfen hata oluştuğunda ne yapmaya çalıştığınızı bilmemize izin verin:';
 $string['pluginrequirementsnotmet'] = '\"$a->pluginname\" ($a->pluginversion) eklentisi kurulamadı. Bu eklenti daha yeni bir Moodle sürümü gerektirmektedir (şu anda kullandığınız: $a->currentmoodle, gereken: $a->requiremoodle).';
 $string['processingstops'] = 'İşlem burada sona erer. Kalan kayıtlar yoksayılır.';
-$string['remotedownloadnotallowed'] = 'Sunucunuza bileşen indirmeye izin verilmiyor. (allow_url_fopen pasif).<br /><br />Arşivlenmiş dosyayı elle buraya \"$a->dest\" indirip <a href=\"$a->url\">$a->url</a> arşivi açmalısınız. ';
+$string['remotedownloadnotallowed'] = 'Sunucunuza bileşen indirmeye izin verilmiyor. (allow_url_fopen pasif).<br /><br />Arşivlenmiş dosyayı <a href=\"$a->url\">$a->url</a> elle indirip buraya \"$a->dest\" açmalısınız.';
 $string['restricteduser'] = 'Üzgünüz, şu anki \"$a\" hesabınız bunu yapmak için sınırlandırılmıştır.';
 $string['sendmessage'] = 'Mesajı Gönder';
 $string['sessionerroruser'] = 'Oturumunuz zaman aşımına uğradı. Lütfen tekrar giriş yapınız.';
 $string['sessionerroruser2'] = 'Giriş oturumunuzu etkileyen bir sunucu hatası algılandı. Lütfen yeniden giriş yapınız ya da tarayıcınızı yeniden başlatınız.';
-$string['sessionipnomatch'] = 'Üzgünüz, IP numaranız ilk girdiğinizden farklıdır. Bu güvenlik özelliği siteye girdiğinizde crackerların sizin kimlik bilgilerinizi çalmalarını engellemek içindir. Normal kullanıcıların bu mesajı görmemeleri gerekir - lütfen yardım için site yöneticisine başvurun.';
+$string['sessionipnomatch'] = 'Üzgünüz, IP numaranız ilk girdiğinizden farklıdır. Bu güvenlik özelliği, siteye giriş yaptığınızda crackerların kimlik bilgilerinizi çalmalarını engellemek içindir. Normal kullanıcıların bu mesajı görmemeleri gerekir - lütfen yardım için site yöneticisine başvurun.';
+$string['statscatchupmode'] = 'İstatistikler şu anda işleme modunda. Şu ana kadar $a->daysdone gün işlendi ve $a->dayspending gün de beklemede. Daha sonra tekrar kontrol edin!';
 $string['unknowncourse'] = '\"$a\" adlı kurs bilinmiyor';
 $string['unknownuseraction'] = 'Üzgünüm, bu kullanıcı eylemini anlamıyorum.';
 $string['usernotaddederror'] = '\"$a\" kullanıcısı eklenmedi - bilinmeyen hata';
-$string['usernotaddedregistered'] = '\"$a\" kullanıcı eklenmedi - zaten kayıtlı';
-$string['usernotavailable'] = 'Bu kullanıcının ayrıntıları sizin erişiminize kapalı';
+$string['usernotaddedregistered'] = '\"$a\" kullanıcısı eklenmedi - zaten kayıtlı';
+$string['usernotavailable'] = 'Bu kullanıcının ayrıntıları sizin erişiminize kapalı.';
 $string['usernotrenamedexists'] = 'Kullanıcı yeniden adlandırılamadı - yeni kullanıcı adı zaten kullanımda.';
 $string['usernotrenamedmissing'] = 'Kullanıcı yeniden adlandırılamadı - eski kullanıcı adı bulunamadı.';
 $string['wrongdestpath'] = 'Hatalı hedef yolu';
+$string['wrongsourcebase'] = 'Hatalı kaynak URL base.';
 $string['wrongzipfilename'] = 'Hatalı ZIP dosya adı.';
 
 ?>
