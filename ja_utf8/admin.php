@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006060900)
+      // admin.php - created with Moodle 1.7 dev (2006071800)
 
 
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示';
@@ -202,6 +202,7 @@ $string['optionalmaintenancemessage'] = '任意のメンテナンスメッセー
 $string['order1'] = '1番目';
 $string['order2'] = '2番目';
 $string['order3'] = '3番目';
+$string['order4'] = '4番目';
 $string['pathconvert'] = '<i>convert</i>のバイナリパス';
 $string['pathdvips'] = '<i>dvips</i>のバイナリパス';
 $string['pathlatex'] = '<i>latex</i>のバイナリパス';

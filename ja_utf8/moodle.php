@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006060900)
+      // moodle.php - created with Moodle 1.7 dev (2006071800)
 
 
 $string['action'] = '操作';
@@ -531,10 +531,12 @@ $string['formatweeks'] = 'ウィークリーフォーマット';
 $string['formatweekscss'] = 'ウィークリーフォーマット - CSS/テーブルなし';
 $string['formatwiki'] = 'Wikiのようなフォーマット';
 $string['from'] = 'From';
+$string['frontpagecategorycombo'] = 'コンボリスト';
 $string['frontpagecategorynames'] = 'カテゴリ一覧';
 $string['frontpagecourselist'] = 'コース一覧';
 $string['frontpagedescription'] = 'フロントページの説明';
-$string['frontpageformat'] = 'フロントページのフォーマット';
+$string['frontpageformat'] = 'フロントページフォーマット ( ゲスト )';
+$string['frontpageformatloggedin'] = 'フロントページフォーマット ( ユーザ )';
 $string['frontpagenews'] = 'ニュースアイテム';
 $string['frontpagetopiconly'] = 'トピックセクション';
 $string['fulllistofcourses'] = 'すべてのコース';
@@ -1221,7 +1223,7 @@ $string['teacherroles'] = '$a 権限';
 $string['teachers'] = '教師';
 $string['textediting'] = 'テキスト編集';
 $string['texteditor'] = '標準のウェブフォームを使用します';
-$string['textformat'] = 'テキスト形式';
+$string['textformat'] = 'プレインテキストフォーマット';
 $string['thanks'] = 'ありがとうございます';
 $string['theme'] = 'テーマ';
 $string['themes'] = 'テーマ';
