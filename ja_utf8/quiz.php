@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006060900)
+      // quiz.php - created with Moodle 1.7 dev (2006071800)
 
 
 $string['1day'] = '1日';
@@ -92,8 +92,8 @@ $string['comments'] = 'コメント';
 $string['completedon'] = '完了日時';
 $string['confirmclose'] = 'あなたは、この小テストを終了しようとしています。小テストを終了すると、これ以上答えを変更することができません。';
 $string['confirmserverdelete'] = '本当にサーバ <b>$a</b> をリストから削除してもよろしいですか?';
-$string['confirmstartattemptlimit'] = 'この小テストの受験回数は、$a 回に制限されています。小テストへのアクセスは、1回の受験としてカウントされます。進んでもよろしいですか?';
-$string['confirmstartattempttimelimit'] = 'この小テストには制限時間があり、受験回数は $a 回に制限されています。小テストへのアクセスは、1回の受験としてカウントされます。進んでもよろしいですか?';
+$string['confirmstartattemptlimit'] = 'この小テストの受験回数は、$a 回に制限されています。あなたは新しい受験を開始しようとしています。本当に続けてもよろしいですか?';
+$string['confirmstartattempttimelimit'] = 'この小テストには制限時間があり、受験回数は $a 回に制限されています。あなたは新しい受験を開始しようとしています。本当に続けてもよろしいですか?';
 $string['confirmstarttimelimit'] = '小テストには制限時間があります。本当に開始してもよろしいですか?';
 $string['containercategorycreated'] = 'このカテゴリは、下記の原因によりサイトレベルで移動されたすべてのオリジナルカテゴリを保存するために作成されました。';
 $string['continueattemptquiz'] = '最後の受験を続ける';
@@ -136,7 +136,7 @@ $string['description'] = '説明';
 $string['discrimination'] = '識別指数';
 $string['displayoptions'] = '表示オプション';
 $string['download'] = 'エクスポートしたカテゴリファイルをダウンロードする';
-$string['downloadextra'] = '( ファイルはコースファイル内の /quizフォルダにも保存されます。 )';
+$string['downloadextra'] = '( ファイルはコースファイル内の /backupdata/quizフォルダにも保存されます。 )';
 $string['duplicateresponse'] = 'あなたは、過去に同じ解答を行っていますので、この送信は無視されました。';
 $string['eachattemptbuildsonthelast'] = '直近の解答内容を反映させる';
 $string['editcategories'] = 'カテゴリの編集';
@@ -506,7 +506,7 @@ $string['usedcategorymoved'] = 'このカテゴリは公開され、他のコー
 $string['validate'] = '確認';
 $string['viewallanswers'] = '$a 件の受験結果を表示';
 $string['viewallreports'] = '$a 件の受験レポートを表示';
-$string['warningmissingtype'] = '<p><b>この問題タイプは、あなたのMoodleにまだインストールされていません。<br />あなたのMoodle管理者に連絡してください。</b></p>';
+$string['warningmissingtype'] = '<b>この問題タイプは、あなたのMoodleにまだインストールされていません。<br />あなたのMoodle管理者に連絡してください。</b>';
 $string['warningsdetected'] = '$a の警告が見つかりました。';
 $string['webct'] = 'WebCTフォーマット';
 $string['wheregrade'] = '私の評点は?';
