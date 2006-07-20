@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 + (2006050506)
+      // moodle.php - created with Moodle 1.6 + (2006050507)
 
 
 $string['action'] = 'Eylem';
@@ -533,10 +533,12 @@ $string['formatweeks'] = 'Haftalık biçim';
 $string['formatweekscss'] = 'Haftalık biçim - CSS/Tablo yok';
 $string['formatwiki'] = 'Wiki-like biçimi';
 $string['from'] = 'Başlangıç';
+$string['frontpagecategorycombo'] = 'Açılır liste';
 $string['frontpagecategorynames'] = 'Kategori listesi';
 $string['frontpagecourselist'] = 'Kurs listesi';
-$string['frontpagedescription'] = 'Giriş sayfası açıklamaları';
+$string['frontpagedescription'] = 'Giriş sayfası açıklaması';
 $string['frontpageformat'] = 'Giriş sayfası biçimi';
+$string['frontpageformatloggedin'] = 'Giriş yapıldığında giriş sayfası biçimi';
 $string['frontpagenews'] = 'Haber ögeleri';
 $string['frontpagetopiconly'] = 'Konu bölümü';
 $string['fulllistofcourses'] = 'Tüm kurslar';

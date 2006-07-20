@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 development (2006030901)
+      // auth.php - created with Moodle 1.6 + (2006050507)
 
 
 $string['alternateloginurl'] = 'Alternatif giriş URL';
+$string['auth_cas_hostname'] = 'CAS sunucusunun host adı<br />Ör: host.domain.com';
+$string['auth_cas_invalidcaslogin'] = 'Üzgünüz, giriş hatalı. Yetkilendirmeniz yapılamadı.';
 $string['auth_cas_language'] = 'Seçili dil';
 $string['auth_cas_logincas'] = 'Güvenli bağlantı erişimi';
 $string['auth_cas_port'] = 'CAS sunucu portu';
@@ -33,20 +35,37 @@ $string['auth_fctitle'] = 'FirstClass sunucusu kullan';
 $string['auth_fieldlock'] = 'Değeri kilitle';
 $string['auth_fieldlock_expl'] = '<p><b>Değeri kilitle:</b> Etkinleştirilirse, bu alanın kullanıcılar ve yöneticiler tarafından düzenlenmesi engellenecektir. Harici yetkilendirme sistemlerinde bu alanı düzenliyorsanız bu seçeneği kullanabilirsiniz.</p>';
 $string['auth_fieldlocks'] = 'Kullanıcı alanlarını kilitle';
+$string['auth_imaphost'] = 'IMAP sunucu adresi. IP numarasını kullanın, DNS adını değil.';
+$string['auth_imapport'] = 'IMAP sunucu bağlantı noktası. Bu genellikle 143 veya 993\'tür.';
 $string['auth_imaptitle'] = 'IMAP sunucu kullan';
 $string['auth_ldap_login_settings'] = 'Giriş ayarları';
+$string['auth_ldap_server_settings'] = 'LDAP sunucu ayarları';
+$string['auth_ldap_user_settings'] = 'Kullanıcı bulma ayarları';
+$string['auth_ldap_version'] = 'Sunucunuzun kullandığı LDAP protokol sürümü';
 $string['auth_ldaptitle'] = 'LDAP sunucu kullan';
 $string['auth_manualtitle'] = 'Sadece elle ayarlanabilir hesaplar';
+$string['auth_nntpport'] = 'Sunucu bağlantı noktası (119 en genelidir)';
 $string['auth_nntptitle'] = 'NNTP sunucu kullan';
 $string['auth_nonetitle'] = 'Yetki yok';
+$string['auth_passwordisexpired'] = 'Şifrenizin süresi dolmuş. Şifrenizi şimdi değiştirmek istiyor musunuz?';
+$string['auth_passwordwillexpire'] = 'Şifrenizin $a gün içinde süresi dolacak. Şifrenizi şimdi değiştirmek istiyor musunuz?';
+$string['auth_pop3description'] = 'Bu yöntem, kullanıcı adı ve şifrenin doğru olup olmadığını kontrol etmek için POP3 sunucu kullanır.';
+$string['auth_pop3host'] = 'POP3 sunucu adresi. IP numarasını kullanın, DNS adını değil.';
+$string['auth_pop3port'] = 'Sunucu bağlantı noktası (110 en geneli, SSL için 995)';
 $string['auth_pop3title'] = 'POP3 sunusu kullan';
+$string['auth_pop3type'] = 'Sunucu tipi. Sunucunuz güvenlik sertifikası kullanıyorsa pop3certi seçin.';
+$string['auth_radiushost'] = 'RADIUS sunucu adresi';
+$string['auth_radiusnasport'] = 'Bağlantı noktası';
+$string['auth_radiustitle'] = 'RADIUS sunucu kullan';
+$string['auth_shib_convert_data'] = 'Veri düzenleme API';
+$string['auth_shib_convert_data_warning'] = 'Dosya yok veya sunucu tarafından okunabilir değil!';
 $string['auth_updatelocal'] = 'Yereli güncelle';
 $string['auth_updateremote'] = 'Harici olanı güncelle';
 $string['auth_user_create'] = 'Kullanıcı oluşturmayı etkinleştir';
 $string['auth_usernameexists'] = 'Seçilen kullanıcı zaten var. Başka bir tane seçin.';
 $string['authenticationoptions'] = 'Yetkilendirme seçenekleri';
 $string['changepassword'] = 'Şifre değiştirme bağlantısı';
-$string['chooseauthmethod'] = 'Bir yetki metodu seçin:';
+$string['chooseauthmethod'] = 'Bir yetki metodu seçin';
 $string['createpasswordifneeded'] = 'Gerekirse şifre oluştur';
 $string['forcechangepassword'] = 'Şifre değişimini zorunlu tut';
 $string['forcechangepassword_help'] = 'Kullanıcıların sonraki girişinde şifre değişimini zorunlu tut.';

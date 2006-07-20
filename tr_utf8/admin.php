@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 Beta 5 (2006050503)
+      // admin.php - created with Moodle 1.6 + (2006050507)
 
 
 $string['adminseesallevents'] = 'Yöneticiler bütün olayları görür';
@@ -35,6 +35,7 @@ $string['configdeleteunconfirmed'] = 'Bu, email yetkilendirmesi kullanıyorsanı
 $string['configdenyemailaddresses'] = 'Buraya aynı yöntemle belirli domainlerdeki reddedilecek e-posta adreslerini girin. Diğer bütün domainler kabul edilecek. Ör: <strong>hotmail.com mynet.com</strong>';
 $string['configdisplayloginfailures'] = 'Bu, seçilen kullanıcının önceden yapmış olduğu giriş hataları hakkında ekranda bilgi gösterir.';
 $string['configdocroot'] = 'Moodle Belgelerinin yolunu tanımlar. Kendi çevrimiçi belgeleriniz varsa isterseniz bunu değiştirebilirsiniz. Ancak, bunu yaptığınızda belge yollarının bu sayfadakiyle aynı formatta olduğundan emin olun: http://docs.moodle.org';
+$string['configdoctonewwindow'] = 'Bunu etkinleştirirseniz, Moodle Belgeleri bağlantıları yeni bir pencerede gösterilecektir.';
 $string['configenablecourserequests'] = 'Bu herhangi bir kullanıcının kurs oluşturma isteğine izin verir.';
 $string['configenablerssfeedsdisabled'] = 'RSS içeriği tüm sitede pasifleştirildiği için buna erişilemez. Etkinleştirmek için Yönetim/Yapılandırma ayarlarından Değişkenler bölümüne gidin.';
 $string['configenablestats'] = '\'Evet\'i seçerseniz cronjob, kayıtları(loglar) ve gerekli bazı istatistikleri işleme alır. Sitenizin trafiğine bağlı olarak bu biraz zaman alabilir. Bunu etkinleştirirseniz her bir kursunuz hakkında ya da site bazında bazı ilginç grafikler ve istatistikler görebilirsiniz.';
@@ -59,13 +60,14 @@ $string['confignotifyloginfailures'] = 'Giriş hataları kaydediliyorsa email g�
 $string['configopentogoogle'] = 'Bu ayar etkinleştirilirse, Google, siteye konuk kullanıcı olarak giriş yapabilecektir. Ek olarak, sitenize Google aracılığıyla gelen kullanıcılar da konuk kullanıcı olarak giriş yapabileceklerdir. Not: Bu, zaten ziyaretçi girişine açık olan kurslara erişimi Google açısından şeffaflaştırır.';
 $string['configpathtoclam'] = 'Clam AV\'in yolu. Büyük ihtimal /usr/bin/clamscan veya /usr/bin/clamdscan olması gerekiyor. Clam AV\'in çalışması için bunu belirtmeniz gerekir.';
 $string['configpathtodu'] = 'du\'nun yolu. İhtimalen /usr/bin/du gibi bir şeyler olmalı. Bunu girerseniz dosyası çok olan klasörlerin içerikleri daha hızlı gösterilir.';
-$string['configperfdebug'] = 'Bunu açık yaparsanız, performans bilgisi standard temanın altında yazılır.';
+$string['configperfdebug'] = 'Bunu açık yaparsanız, performans bilgisi standard temanın altında yazılır';
+$string['configproxyhost'] = 'Bu <b>sunucunun</b> internete erişmek için bir vekil bilgisayara (firewall gibi) gereksinimi varsa vekil sunucunun host adını ve bağlantı noktasını buraya girin, aksi takdirde boş bırakın.';
 $string['configquarantinedir'] = 'Clam AV\'in virüs bulaşmış dosyaları karantina klasörüne taşımasını istiyorsanız buraya yolu yazınız. Bu klasör Web sunucu tarafından yazılabilir olmalı. Burayı boş bırakırsanız veya olmayan bir klasörü girerseniz ya da klasör yazılabilir değilse, virüslü dosyalar silinir. Klasörün sonuna slash (/) ekleMEyin.';
 $string['configrequestedstudentname'] = 'İstek kurslar için öğrenci kelimesi';
 $string['configrequestedstudentsname'] = 'İstek kurslar için öğrenciler kelimesi';
 $string['configrequestedteachername'] = 'İstek kurslar için eğitimci kelimesi';
 $string['configrequestedteachersname'] = 'İstek kurslar için eğitimciler kelimesi';
-$string['configrestrictmodulesfor'] = 'Bazı etkinlik modüllerin pasifleştirilmesiiçin  hangi kursların <b>ayarları</b> olacak? Bu ayarın sadece eğitimcilere uygulandığını dikkate alın, yöneticiler zaten bir kursa herhangi bir etkinlik ekleyebilmektedirler.';
+$string['configrestrictmodulesfor'] = 'Bazı etkinlik modüllerin pasifleştirilmesi için  hangi kursların <b>ayarları</b> olacak? Bu ayarın sadece eğitimcilere uygulandığını dikkate alın, yöneticiler zaten bir kursa herhangi bir etkinlik ekleyebilirler.';
 $string['configrunclamonupload'] = 'Dosya yüklemelerinde Clam AV çalıştırılsın mı? Bunun için doğru bir pathtoclam yolu belirtmeniz gerekiyor. (Clam AV, http://www.clamav.net/ sitesinden indirebileceğiniz ücretsiz bir virüs tarama programıdır.)';
 $string['configsectioninterface'] = 'Arayüz';
 $string['configsectionmail'] = 'Mail';
@@ -108,6 +110,7 @@ $string['environmentxmlerror'] = 'Ortam verisini okurken hata ($a->error_code)';
 $string['errors'] = 'Hatalar';
 $string['filterall'] = 'Tüm ifadeleri filtrele';
 $string['filteruploadedfiles'] = 'Gönderilen dosyaları filtrele';
+$string['globalsquoteswarning'] = '<p><strong>Güvenlik Uyarısı</strong>: Moodle\'ın düzgün bir şekilde çalışması için <br />şu anki PHP ayarlarınızda bazı değişikliklerin yapılması gerekiyor.</p><p><code>register_globals=off</code> ve/veya <code>magic_quotes_gpc=on</code> olarak <em>ayarlamalısınız</em>.<br />Mümkünse, sunucu güvenliğini üst düzeyde tutmak için <code>register_globals=off</code> olarak ayar yapmanız önerilir.<br />Aynı zamanda, <code>magic_quotes_gpc=on</code> olarak ayarlamanız tavsiye edilir.</p><p>Bu ayarları, <code>php.ini</code> dosyasını, Apache/IIS ayar dosyasını veya <code>.htaccess</code> dosyasını düzenleyerek yapabilirsiniz.</p>';
 $string['helpadminseesall'] = 'Yöneticiler tüm olayları mı yoksa sadece kendisine ait olayları mı görsün?';
 $string['helpcalendarsettings'] = 'Tarih/saat ve takvim ayarlarını yapılandırın';
 $string['helpforcetimezone'] = 'Kullanıcıların bireysel olarak zaman dilimlerini seçmelerine izin verebilir ya da herkesin aynı zaman dilimini kullanmasını zorunlu tutabilirsiniz.';
@@ -152,6 +155,7 @@ $string['optionalmaintenancemessage'] = 'İsteğe bağlı bakım mesajı';
 $string['order1'] = 'İlk';
 $string['order2'] = 'İkinci';
 $string['order3'] = 'Üçüncü';
+$string['order4'] = 'Dördüncü';
 $string['pathconvert'] = '<i>convert</i> binari yolu';
 $string['pathdvips'] = '<i>dvips</i> binari yolu';
 $string['pathlatex'] = '<i>latex</i> binari yolu';
