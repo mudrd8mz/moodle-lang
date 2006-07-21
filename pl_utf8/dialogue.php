@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.6 development (2005072200)
+      // dialogue.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['addmynewentries'] = 'Dodaj moje nowe dialogi';
@@ -9,6 +9,7 @@ $string['allowmultiple'] = 'Pozwól na więcej dialogów z tą samą osobą';
 $string['allowstudentdialogues'] = 'Pozwól na dialogi student-do-studenta';
 $string['close'] = 'Zamknij';
 $string['closed'] = 'Zamknięte';
+$string['closeddialogues'] = 'Zamknij dialogi';
 $string['confirmclosure'] = 'Zamierzasz zakończyć dialog z $a. Pamiętaj, że zakończone dialogi nie mogą być na nowo otwarte. Jeśli zamkniesz ten dialog, będziesz mógł go obejrzeć ale nie będziesz mógł dodać do niego nowych wpisów, więc będziesz musiał rozpocząć nowy dialog aby kontynuować \"rozmowę\" z daną osobą.<br /><br /> Czy jesteś pewien, że chcesz zakończyć ten dialog?';
 $string['deleteafter'] = 'Usuń zakończone dialogi po (dniach)';
 $string['dialogueclosed'] = 'Dialog zostal zakończony';
@@ -32,6 +33,7 @@ $string['newentry'] = 'Nowy wpis';
 $string['noavailablepeople'] = 'Niestety pozostaje Tobie dialog z samym sobą';
 $string['nopersonchosen'] = 'Nie wybrałeś osoby';
 $string['nosubject'] = 'Nie wpisałeś tematu';
+$string['notavailable'] = 'Dialogi nie są dostępne dla gościa ';
 $string['notextentered'] = 'Nic nie wpisałeś';
 $string['notstarted'] = 'Jeszcze nie zacząłeś prowadzić dialog';
 $string['notyetseen'] = 'Jeszcze nie widzany';
@@ -44,6 +46,7 @@ $string['open'] = 'Otwórz';
 $string['openadialoguewith'] = 'Rozpocznij dialog z ';
 $string['opendialogue'] = 'Rozpocznij dialog';
 $string['opendialogueentries'] = 'Pokaż dialogi';
+$string['opendialogues'] = 'Otwórz dialogi';
 $string['pane0'] = 'Rozpocznij dialog';
 $string['pane1'] = '$a dialogów oczekujących odpowiedzi od Ciebie';
 $string['pane1one'] = '1 dialog oczekujący odpowiedzi od Ciebie';

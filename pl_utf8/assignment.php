@@ -11,6 +11,7 @@ $string['assignmenttype'] = 'Rodzaj zadania';
 $string['availabledate'] = 'Data rozpoczęcia';
 $string['comment'] = 'Komentarz';
 $string['commentinline'] = 'Komentarz';
+$string['configitemstocount'] = 'Natura elementów które trzeba policzyć w zadaniach studentów oddawanych online.';
 $string['configmaxbytes'] = 'Domyślna wielkość plików dla wszystkich prac na tej stronie (chyba, że przedmiot bądź ustawienia strony nakładają jeszcze inne ograniczenia)';
 $string['description'] = 'Opis';
 $string['duedate'] = 'Termin oddawania zadania';

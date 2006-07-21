@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.4 (2004083100)
+      // chat.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['beep'] = 'rozmawia';
@@ -8,6 +8,7 @@ $string['chatname'] = 'Nazwa tego czatu';
 $string['chatreport'] = 'Sesje czatu';
 $string['chattime'] = 'Czas następnego czatu';
 $string['configmethod'] = 'Normalna metoda tworzenia czasu wymaga aby użytkownicy regularnie łączyli się z serwerem aby zaktualizować dyskusję. Nie wymaga to dodatkowej konfiguracji i działa wszędzie. Niestety duża liczba czatujących osób generuje duże obciązenie serwera. Używanie tzw. demona wymaga dostępu do powłoki Unixa, ale daje szybkie i skalowalne środowisko czatu.';
+$string['confignormalupdatemode'] = 'Uaktualnianie chat-roomów zazwyczaj obsługuje sie wydajnie używając funkcji <em>keep-alive</em> w Http 1.1, ale to mimo wszystko obciąża serwer. Bardziej zaawansowaną metodą jest używanie <em>Stream</em> aby przesyłać uaktualnienie użytkownikom. Używanie <em>Stream</em> jest znacznie lepsze, ale może nie być zainstalowane na Twoim serwerze.';
 $string['configoldping'] = 'Po jakim czasie braku reakcji powinno uważać się, że użytkownik opuścił czat?';
 $string['configrefreshroom'] = 'Jak często czat powinien być odświeżany? (w sekundach). Ustawienie niskiej wartości spowoduje szybsze działanie, może jednak obciążać serwer, kiedy wiele osób rozmawia';
 $string['configrefreshuserlist'] = 'Jak często lista użytkowników powinna być odświeżana? (w sekundach)';
@@ -41,6 +42,9 @@ $string['neverdeletemessages'] = 'Nigdy nie usuwaj wiadomości';
 $string['nextsession'] = 'Następna zaplanowana sesja';
 $string['noguests'] = 'Czat jest zamknięty dla gości';
 $string['nomessages'] = 'Póki co brak wiadomości';
+$string['normalkeepalive'] = 'Utrzymuj';
+$string['normalstream'] = 'Strumień';
+$string['noscheduledsession'] = 'Nie ma zaplanowanych sesji.';
 $string['repeatdaily'] = 'Codziennie w tym samym czasie';
 $string['repeatnone'] = 'Nie powtarzaj - jedynie określony czas';
 $string['repeattimes'] = 'Powtórz sesje';
