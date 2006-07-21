@@ -1,0 +1,25 @@
+<p align="center"><b>Zarządzanie filtrami</b></p>
+
+<p> Strona zarządzania filtrami pozwala Ci określić, które filtry mają zastosowanie do wyświetlonego tekstu i w jakiej kolejności. Pozwala także na dostęp do strony ustawień zabezpieczanych przez filtry. Filtry są stosowane do większości tekstów użytkowników w Moodle zanim zostaną wyświetlone. Pozwala to na modyfikację tekstu w ostatniej chwili.</p>
+<p> Filtry są zasobami ‘dołączanymi’. Większość jest dostępnych na 
+<a href="http://download.moodle.org/modules/filters.php">   http://download.moodle.org/modules/filters.php</a>.</p>
+<p> Zaznacz filtry, które chcesz użyć poprzez odkrycie ich za pomocą ikony oka.
+Jeśli posiadasz więcej niż jeden odkryty, możesz zmienić kolejność w której będą zastosowane za pomocą strzałek góra i dół.</p>
+<p><b>TeX notation</b></p>
+<div class="indent">
+<p> TeX notation jest pierwotnie używane do generowania liniowych formuł matematycznych w zasobach Moodle. Na przykład $$ sqrt(a+b) $$ ($$ jest znacznikiem początku i końca tego formatu).</p>
+<p> Moodle używa zewnętrznego systemu binarnego do renderowania obrazów, które mogą być wprowadzone do Twojego systemu. Filtr sprawdza na początku render LaTeX (Ghostscript jest także wymagany w tej metodzie) i zawieszenie tego procesu będzie używało prostego systemu binarnego <i>miktex</i> załączonego na etapie dystrybucji Moodle. LaTeX zezwala na cały zakres składni, podczas gdy miktex jedynie wspiera podzespoły matematyczne.</p>
+<p> Strona ustawień zezwala na konfigurowanie LaTeX oraz ścieżek systemu binarnego Ghostscript, razem z wytycznymi LaTeX.</p>
+<p><b>More info</b></p>
+<p><a href="http://www.miktex.org/">MiKTeX</a><br/>
+<a href="http://www.latex-project.org/">LaTeX</a><br/>
+<a href="http://www.ghostscript.com/">ghostscript</a></p>
+</div>
+<p><b>Word Censorship</b></p>
+<div class="indent">
+<p> Word Censorship skanuje tekst w celu odnalezienia ‘błędnych słów’ wykorzystując wcześniej zdefiniowaną listę. 
+Każdy pakiet ma swoją własną domyślną listę, lecz możesz również definiować swoje własne. W celu zdefiniowania swojej własnej listy wejdź na stronę ustawień i zaznacz swoją listę słów. Użytkownik ujrzy słowa przyciemnione za pomocą czarnych bloków, jednakże przesuwając się myszką nad nimi spowoduje wyświetlenie się oryginalnego słowa.</p>
+</div>
+<p><b>Resource Names Auto-Linking</b></p>
+<div class="indent">
+<p>Resource Name Auto-linking skanuje tekst w celu znalezienia tytułów źródłowych znajdujących się w tym samym kursie. W miejscach znalezienia zostaną podświetlone oraz zostaną stworzone linki
