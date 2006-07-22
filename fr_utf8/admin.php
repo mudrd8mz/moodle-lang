@@ -200,6 +200,7 @@ $string['optionalmaintenancemessage'] = 'Message de maintenance facultatif';
 $string['order1'] = 'Premier';
 $string['order2'] = 'Deuxième';
 $string['order3'] = 'Troisième';
+$string['order4'] = 'Quatrième';
 $string['pathdvips'] = 'Chemin d\'accès du logiciel <i>dvips</i>';
 $string['pathconvert'] = 'Chemin d\'accès du logiciel <i>convert</i>';
 $string['pathlatex'] = 'Chemin d\'accès du logiciel <i>latex</i>';
