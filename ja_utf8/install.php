@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.7 dev (2006060400)
+      // install.php - created with Moodle 1.7 dev (2006071800)
 
 
 $string['admindirerror'] = '設定されたadminディレクトリが間違っています。';
@@ -157,7 +157,7 @@ $string['safemodehelp'] = '<p>セーフモードが有効にされている場�
 $string['sessionautostart'] = 'セッション自動スタート';
 $string['sessionautostarterror'] = 'これは無効にしてください。';
 $string['sessionautostarthelp'] = '<p>Moodleはセッションサポートを必要とします。また、セッションサポートなしでは動作しません。</p>
-<p>セッションは、php.iniファイルで使用可にすることができます ... session.auto_startパラメータを探してください。</p>';
+<p>セッションは、php.iniファイルで有効にすることができます ... session.auto_startパラメータを探してください。</p>';
 $string['skipdbencodingtest'] = 'DBエンコーディングテストをスキップ';
 $string['welcomep10'] = '$a->installername ( $a->installerversion )';
 $string['welcomep20'] = 'インストールが正常に完了したため、このページをご覧頂いています。あなたのコンピュータで <strong>$a->packname $a->packversion</strong> パッケージを起動してください。';
