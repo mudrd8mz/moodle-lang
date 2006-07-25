@@ -1,5 +1,5 @@
 <?php
-$string['alphabet'] = 'A,B,C,Č,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,�,T,U,V,W,X,Y,Z,�';
+$string['alphabet'] = 'A,B,C,Č,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,Š,T,U,V,W,X,Y,Z,Ž';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['firstdayofweek'] = '0';
 $string['locale'] = 'sl_SI.UTF-8';
@@ -18,5 +18,5 @@ $string['strftimerecentfull'] = '%%a, %%d %%b %%Y, %%I:%%M %%p';
 $string['strftimetime'] = '%%I:%%M %%p';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
-$string['thislanguage'] = 'Slovenšèina';
+$string['thislanguage'] = 'Slovenščina';
 ?>
