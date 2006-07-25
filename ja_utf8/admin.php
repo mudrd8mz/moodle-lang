@@ -223,8 +223,8 @@ $string['sitelangchanged'] = 'サイト言語の設定が正常に完了しま�
 $string['sitemaintenance'] = 'このサイトはメンテナンス中です。現在ご利用いただけません。';
 $string['sitemaintenancemode'] = 'メンテナンスモード';
 $string['sitemaintenanceoff'] = 'メンテナンスモードが解除されました。サイトは正常に動作しています。';
-$string['sitemaintenanceon'] = 'あなたのサイトは現在メンテナンスモードで運用されています ( 管理者のみログインまたはサイトを利用することができます )。';
-$string['sitemaintenancewarning'] = 'あなたのサイトは現在メンテナンスモードで運用されています ( 管理者のみログインできます )。通常運用に戻すには、<a href=\"maintenance.php\">メンテナンスモードを解除</a> してください。';
+$string['sitemaintenanceon'] = 'あなたのサイトは、現在メンテナンスモードで運用されています ( 管理者のみログインまたはサイトを利用することができます )。';
+$string['sitemaintenancewarning'] = 'あなたのサイトは、現在メンテナンスモードで運用されています ( 管理者のみログインできます )。通常運用に戻すには、<a href=\"maintenance.php\">メンテナンスモードを解除してください</a>。';
 $string['stickyblocks'] = 'スティッキーブロック';
 $string['stickyblockscourseview'] = 'コースページ';
 $string['stickyblocksduplicatenotice'] = 'ここで追加したブロックが、すでにページに存在する場合、重複することになります。<br />しかし、スティッキーブロックのみ編集不可で、重複したブロックは編集することができます。';
