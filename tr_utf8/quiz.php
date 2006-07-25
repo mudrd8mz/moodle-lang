@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 + (2006050507)
+      // quiz.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['1day'] = '1 Gün';
@@ -247,7 +247,6 @@ $string['learnwise'] = 'Öğrenen biçimi';
 $string['link'] = 'Bağlantı';
 $string['listitems'] = 'Sınavdaki Maddelerin Listesi';
 $string['literal'] = 'Kelime';
-$string['lowmarkslimit'] = 'Puanlar bundan azsa analiz yapma:';
 $string['makecopy'] = 'Yeni soru olarak kaydet';
 $string['managetypes'] = 'Soru tiplerini ve sunucuları yönet';
 $string['manualgrading'] = 'Notlandırma';
@@ -316,7 +315,7 @@ $string['numerical'] = 'Numaralı';
 $string['onlyteachersexport'] = 'Sadece eğitimciler soruları çıkarabilir';
 $string['onlyteachersimport'] = 'Sadece düzenleme hakları olan eğitimciler soruları alabilir';
 $string['optional'] = 'isteğe bağlı';
-$string['outof'] = '/';
+$string['outof'] = '$a->maxgrade üzerinden $a->grade';
 $string['overdue'] = 'Süresi dolmuş';
 $string['pagesize'] = 'Her sayfada görünen uygulama:';
 $string['paragraphquestion'] = '$a satırındaki Paragraf Sorusu desteklenmez. Soru yoksayılacak.';
