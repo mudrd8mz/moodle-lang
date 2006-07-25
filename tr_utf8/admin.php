@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 + (2006050507)
+      // admin.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['adminseesallevents'] = 'Yöneticiler bütün olayları görür';
@@ -29,10 +29,12 @@ $string['configclamactlikevirus'] = 'Dosya VİRÜSLÜ olarak muamele görsün';
 $string['configclamdonothing'] = 'Dosya SAĞLAM olarak muamele görsün';
 $string['configclamfailureonupload'] = 'Clam\'ı yüklenen dosyaları taraması için yapılandırdıysanız, fakat yol yanlış belirtilir veya programın çalışması sırasında bilinmeyen bir sebepten dolayı hata oluşursa nasıl davranılacak? \'Dosya VİRÜSLÜ olarak muamele görsün\'ü seçerseniz dosya karantina klasörüne taşınır ya da silinir. \'Dosya SAĞLAM olarak muamele görsün\'ü seçerseniz dosya normal şekilde yüklenir. Aynı zamanda yöneticilere clam programında hata oluştuğu bildirilir. \'Dosya VİRÜSLÜ olarak muamele görsün\'ü seçer ve bazı sebeplerden dolayı clamın çalışması hata ile sonuçlanırsa (genellikle pathtoclam yolu yanlış girilirse olur), TÜM dosyalar belirtilen karantina klasörüne taşınır ya da silinir. Bu ayarı değiştirirken DİKKATLİ olun.';
 $string['configcountry'] = 'Buradan bir ülke seçerseniz, yeni kullanıcılar için bu ülke varsayılan olarak seçili olacaktır. Ülke seçmeyi zorunlu tutmak istiyorsanız, bu seçeneği ayarlamayın.';
+$string['configdbsessions'] = 'Etkinse, kullanıcı oturumlarını saklamak için veritabanı kullanılacaktır. Bu, özellikle çok büyük/yoğun siteler veya küme sunuculardan (cluster) oluşan siteler için kullanışlıdır. Çoğu site bu ayarı muhtemelen kapalı tutuyor, bu durumda veritabanı yerine sunucu diski kullanılır. Bu ayarı şimdi değiştirmeniz şu anda oturumu açık olan tüm kullanıcıların (siz de dahil) çıkış yapmasına neden olacaktır.';
 $string['configdebug'] = 'Bu seçeneği açık tutarsanız PHP\'deki error_reporting metodu daha fazla uyarı mesajı gösterecektir. Bu, sadece geliştiriciler için kullanışlıdır.';
 $string['configdefaultrequestedcategory'] = 'İstenen kurs onaylanırsa hangi kategoride yer alacak?';
 $string['configdeleteunconfirmed'] = 'Bu, email yetkilendirmesi kullanıyorsanız, kullanıcının ne kadar sürede bu emali onaylaması gerektiğini belirtir. Bu süreden sonra, onaylanmamış eski hesaplar silinecektir.';
 $string['configdenyemailaddresses'] = 'Buraya aynı yöntemle belirli domainlerdeki reddedilecek e-posta adreslerini girin. Diğer bütün domainler kabul edilecek. Ör: <strong>hotmail.com mynet.com</strong>';
+$string['configdigestmailtime'] = 'Günlük özet türünü seçen kullanıcılara günlük olarak özet e-posta gönderilir. Bu ayar, günün hangi saatinde bu e-postaların gönderileceğini belirtir (bir sonraki çalışacak cron bu saatten sonra mesajları gönderir).';
 $string['configdisplayloginfailures'] = 'Bu, seçilen kullanıcının önceden yapmış olduğu giriş hataları hakkında ekranda bilgi gösterir.';
 $string['configdocroot'] = 'Moodle Belgelerinin yolunu tanımlar. Kendi çevrimiçi belgeleriniz varsa isterseniz bunu değiştirebilirsiniz. Ancak, bunu yaptığınızda belge yollarının bu sayfadakiyle aynı formatta olduğundan emin olun: http://docs.moodle.org';
 $string['configdoctonewwindow'] = 'Bunu etkinleştirirseniz, Moodle Belgeleri bağlantıları yeni bir pencerede gösterilecektir.';
@@ -44,6 +46,7 @@ $string['configerrorlevel'] = 'Görünmesini isteğiniz PHP uyarı miktarını s
 $string['configextendedusernamechars'] = 'Öğrencilerin kullanıcı adlarında isteği herhangi bir karakteri seçebilmesini istiyorsanız bu ayarı etkinleştirin. (Not: Adı ve soyadını etkilemez, giriş için kullanılan kullanıcı adını etkiler) Bu ayar \'hayır\' ise sadece ingilizceki alfanümerik karakterler kullanılabilecektir.';
 $string['configfilterall'] = 'Başlıklar, gezinme çubuğu ve vb. yerlerdeki bütün metinleri filtrele. Bu, çoklu-dil filtresini kullanıyorsanız kullanışlıdır, diğer durumda sitenize biraz fazladan yük getirecektir.';
 $string['configfiltermatchoneperpage'] = 'Otomatik-linkleme filtresi bir sayfanın tamamında sadece ilk eşleşen bağlantıya link verecektir. Diğer tümü yoksayılır.';
+$string['configframename'] = 'Moodle\'ı bir web frame\'i içinde saklıyorsanız, bu frame adını girin. Diğer durumda bu değer \'_top\' olarak kalacaktır.';
 $string['configgdversion'] = 'Kurulu olan GD sürümünü seçiniz. Varsayılan olarak seçilen otomatik olarak algılanmıştır. Ne yaptığınızı bilmiyorsanız burayı değiştirmeyiniz.';
 $string['configintrotimezones'] = 'Bu sayfa dünya zaman dilimleri (yaz saati uygulaması dahil) hakkında yeni bilgiyi arayacak ve yerel veritabanını bu bilgi ile güncelleyecek. Bu kontrol şu sıraya göre yapılacak: $a Bu işlem genel olarak çok güvenlidir ve normal kurulumları bozmaz. Şimdi zaman dilimlerini güncellemek ister misiniz?';
 $string['configlang'] = 'Sitenin tamamında geçerli olan varsayılan bir dil seçin. Kullanıcılar daha sonra istedikleri dili seçebilirler.';
@@ -54,9 +57,12 @@ $string['configlangmenu'] = 'Ana sayfa, giriş sayfası vb. yerlerde dil menüs�
 $string['configlocale'] = 'Sitenin tamamında geçerli olan yerelleştirme kodunu girin. Bu, gün biçimini ve dilini etkileyecektir. İşletim sisteminde bu yerelleştirmenin var olması gerekmektedir. Eğer neyi seçeneğinizi bilmiyorsanız boş bırakınız.
 <br /> Örnekler: Linux için: de_DE, en_US, tr_TR; Windows için: turkish, german, spanish';
 $string['configloginhttps'] = 'Bu seçeneği açık yapmak giriş sayfası için güvenli bir https bağlantı sağlayacaktır. Bundan sonra hız için tekrar normal bağlantıya geri geçilecektir. DİKKAT: Bu ayar web sunucusunda https\'in etkinleştirilmesini GEREKTİRİR. Böyle değilse, KENDİ KENDİNİZ BİLE SİTEYE ERİŞEMEZSİNİZ.';
+$string['configloglifetime'] = 'Bu, kullanıcı etkinlik kayıtlarının ne kadar süre saklı kalacağını belirtir. Bu süreden daha eski kayıtlar otomatikmen silinir. Kayıtları mümkün olan en uzun sürede tutmanız bunlara daha sonra gereksinim duymanız durumunda en iyisidir. Ancak, çok yoğun bir sunucunuz varsa ve performans sorunları yaşıyorsanız daha kısa bir süre belirtebilirsiniz.';
 $string['configlongtimenosee'] = 'Öğrenciler uzun süre giriş yapmazlarsa kurslardan otomatik olarak kaydı silinecektir. Bu parametre bu zaman sınırını belirler.';
 $string['configmessaging'] = 'Sitede kullanıcılar arası mesajlaşma etkinleştirilsin mi?';
+$string['confignoreplyaddress'] = 'E-postalar bazen bir kullanıcı tarafından gönderilir (forum gönderileri gibi). Burada belirteceğiniz adres, alıcılara direkt yanıt verememesi gibi durumlarda \"Kimden\" alanında kullanılacaktır (örneğin bir kullanıcı kendi profilinde kendi adresini gizli tutmayı tercih ettiğinde).';
 $string['confignotifyloginfailures'] = 'Giriş hataları kaydediliyorsa email gönderilebilir. Bu uyarıları kimler görebilir?';
+$string['confignotifyloginthreshold'] = 'Giriş hataları uyarıları etkinse bir kullanıcı veya bir IP adresi tarafından kaç adet hatalı giriş denemesi dikkate alınacak?';
 $string['configopentogoogle'] = 'Bu ayar etkinleştirilirse, Google, siteye konuk kullanıcı olarak giriş yapabilecektir. Ek olarak, sitenize Google aracılığıyla gelen kullanıcılar da konuk kullanıcı olarak giriş yapabileceklerdir. Not: Bu, zaten ziyaretçi girişine açık olan kurslara erişimi Google açısından şeffaflaştırır.';
 $string['configpathtoclam'] = 'Clam AV\'in yolu. Büyük ihtimal /usr/bin/clamscan veya /usr/bin/clamdscan olması gerekiyor. Clam AV\'in çalışması için bunu belirtmeniz gerekir.';
 $string['configpathtodu'] = 'du\'nun yolu. İhtimalen /usr/bin/du gibi bir şeyler olmalı. Bunu girerseniz dosyası çok olan klasörlerin içerikleri daha hızlı gösterilir.';
@@ -79,11 +85,17 @@ $string['configsectionrequestedcourse'] = 'Kurs istekleri';
 $string['configsectionsecurity'] = 'Güvenlik';
 $string['configsectionstats'] = 'İstatistikler';
 $string['configsectionuser'] = 'Kullanıcı';
+$string['configsecureforms'] = 'Moodle, web formlarından veri kabul edilirken ek bir güvenlik seviyesi kullanabilir. Bu etkinse, tarayıcının adres çubuğundaki adresle HTTP_REFERER değişkeni kontrol edilir. Bazı durumlarda, kullanıcının firewall (Zonealarm gibi) programı web trafiğinden HTTP_REFERER değişkenini siliyorsa bu ayar sorunlara sebep olabilir. Bu durum web formları için kötü bir şeydir. Örneğin, bazı kullanıcılar giriş sayfasında sorunlar yaşıyorsa bu ayarı kapatabilirsiniz. Ancak bu durumda, bu değişken kontrol edilmediği için siteniz şifre deneyerek bulma saldırılarına açık olur. Bu durumdan şüpheleniyorsanız \'Evet\' seçin.';
 $string['configsessioncookie'] = 'Bu seçenek Moodle oturumları için kullanılan çerezlerin adını ayarlar. Bu seçenek isteğe bağlıdır, ancak aynı anda aynı web sitesi birden çok moodle kopyası ile çalışıyorsa bu seçenek oluşan karışıklığı ortadan kaldırır.';
+$string['configsessioncookiepath'] = 'Tarayıcıların Moodle çerezlerini (cookie) nereye kaydedeciğini değiştirmeye ihtiyaç duyuyorsanız, web sitenizin bir alt dizini belirtebilirsiniz. Diğer durumda geçerli \'/\' iyi bir seçenektir.';
 $string['configsessiontimeout'] = 'Bu siteye giriş yapan kullanıcılar uzun süre işlem yapmazlarsa (sayfaları gezinmezse) ne kadar süre içinde oturum sona erecek?';
+$string['configshowblocksonmodpages'] = 'Bazı etkinlik modülleri kendi sayfalarında blokları desteklemektedir. Bunu etkinleştirirseniz, eğitimciler bu sayfalara yan tarafta görünen blokları ekleyebilecektir. Diğer durumda bu özelliğe izin verilmeyecektir.';
 $string['configsitemailcharset'] = 'Siteniz tarafından oluşturulan bütün emailler burada belirttiğiniz karakter setinde gönderilecektir. Bir sonraki ayarı etkinleştirirseniz her bireysel kullanıcı kendininkini ayarlayabilecektir.';
+$string['configslasharguments'] = 'Dosyalar (yüklenen dosyalar, resimler gibi) bir betik tarafından sunulurken \'/\' (slashlar) kullanılabilir (ikinci seçenek). Bu yöntem, web tarayıcıları ve proxy(vekil) sunucular tarafından  çok kolay bir şekilde dosyaların önbelleklenmesine olanak sağlar. Maalesef, bazı PHP sunucuları bu yönteme izin vermemektedir. Yüklenmiş dosyaları indirirken veya resimleri görüntülerken (kullanıcı profindeki resimler gibi) sorunlarla karşılaşıyorsanız, bunu ilk seçenekle değiştirin.';
 $string['configsmtphosts'] = 'Moodle\'nin email göndermesi için bir veya birden fazla SMTP sunucu girebilirsiniz (ör: \'mail.a.com\' veya \'mail.a.com;mail.b.com\'). Bu seçeneği boş bırakırsanız PHP\'nin email gönderirken kullandığı varsayılan metot kullanılacaktır.';
 $string['configsmtpuser'] = 'Yukarıda bir SMTP sunucu belirttiyseniz ve bu sunucu yetki istiyorsa buraya sunucu için kullanıcı adı ve şifreyi giriniz.';
+$string['configthemelist'] = 'Kullanılan geçerli temalara izin vermek istiyorsanız boş bırakın. Tema menüsünü kısaltmak istiyorsanız isimleri buraya virgülle ayırarak girebilirsiniz (Boşluk kullanmayın!). Örneğin: standard,orangewhite';
+$string['configtimezone'] = 'Buradan varsayılan bölgesel zamanı ayarlayabilirsiniz. Bu, tarihlerin gösterimi için VARSAYILAN bölgesel zamandır. Ayrıca her kullanıcı bu ayarı kendi profilinden değiştirebilir. Buradaki \"Sunucu zamanı\" Moodle\'ın geçerli işletim sistemi ayarı olacaktır, fakat kullanıcı profilindeki \"Sunucu zamanı\" kullanıcının geçerli bölgesel zamanı olacaktır. Günün zamanına bağımlı olan crontab bu bölgesel zamanı kullanacaktır.';
 $string['configunzip'] = 'Unzip programının yerini belirtin (Sadece Unix için, isteğe bağlıdır). Belirtilirse, sunucuda zip arşivini açmak için bu kullanılacaktır. Boş bırakırsanız, zip arşivini açmak için dahili işlemler kullanılacaktır.';
 $string['configvariables'] = 'Değişkenler';
 $string['configwarning'] = 'Bu ayarları değiştirirken dikkatli olun. Bilmediğiniz değerleri girmeniz sorunlara sebep olabilir.';
@@ -175,6 +187,7 @@ $string['stickyblocks'] = 'Sabit bloklar';
 $string['stickyblockscourseview'] = 'Kurs sayfası';
 $string['stickyblocksmymoodle'] = 'Kişisel Moodle';
 $string['stickyblockspagetype'] = 'Yapılandırılacak sayfa tipi';
+$string['tabselectedtofront'] = 'Sekmeleri kullanan tablolarda, seçili hücre ön tarafa yerleştirilsin mi?';
 $string['therewereerrors'] = 'Verinizde hatalar var';
 $string['timezoneforced'] = 'Bu site yöneticisi tarafından zorunlu tutuldu';
 $string['timezoneisforcedto'] = 'Bütün kullanıcıları kullanmaya zorunlu tut';
