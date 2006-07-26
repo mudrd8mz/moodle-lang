@@ -1,7 +1,7 @@
-<?PHP // $Id$ 
-      // algebra.php - created with Moodle 1.3 (2004052500)
+<?PHP // $Id:algebra.php from algebra.xml
+      // Comments: tomaz at zid dot si
 
+$string['filtername'] = 'Algebrski zapis';
 
-$string['filtername'] = 'Algebrajska notacija';
 
 ?>

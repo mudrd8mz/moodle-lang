@@ -1,26 +1,26 @@
-<?PHP // $Id$ 
-      // pix.php - created with Moodle 1.3 (2004052500)
-
+<?PHP // $Id:pix.php from pix.xml
+      // Comments: tomaz at zid dot si
 
 $string['angry'] = 'jezen';
-$string['approve'] = 'odobravam';
-$string['biggrin'] = 'velik smeko';
+$string['approve'] = 'odobravanje';
+$string['biggrin'] = 'režanje';
 $string['blackeye'] = 'črno oko';
-$string['blush'] = 'zardevam';
+$string['blush'] = 'zardeva';
 $string['clown'] = 'klovn';
 $string['cool'] = 'kul';
 $string['dead'] = 'mrtev';
-$string['evil'] = 'zlobko';
-$string['kiss'] = 'pojlub';
-$string['mixed'] = 'meanica';
-$string['sad'] = 'alosten';
-$string['shy'] = 'srameljiv';
+$string['evil'] = 'zloben';
+$string['kiss'] = 'poljub';
+$string['mixed'] = 'mešano';
+$string['sad'] = 'žalosten';
+$string['shy'] = 'sramežljiv';
 $string['sleepy'] = 'zaspan';
-$string['smiley'] = 'smeko';
-$string['surprise'] = 'začuden';
-$string['thoughtful'] = 'zamiljen';
-$string['tongueout'] = 'kae jezik';
-$string['wideeyes'] = 'začuden';
-$string['wink'] = 'pomeik';
+$string['smiley'] = 'smeško';
+$string['surprise'] = 'presenečenje';
+$string['thoughtful'] = 'zamišljen';
+$string['tongueout'] = 'jezik';
+$string['wideeyes'] = 'široke oči';
+$string['wink'] = 'pomežik';
+
 
 ?>

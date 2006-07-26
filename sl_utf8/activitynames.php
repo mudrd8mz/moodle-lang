@@ -1,7 +1,7 @@
-<?PHP // $Id$ 
-      // activitynames.php - created with Moodle 1.3 (2004052500)
+<?PHP // $Id:activitynames.php from activitynames.xml
+      // Comments: tomaz at zid dot si
 
+$string['filtername'] = 'Samodejno povezovanje imen dejavnosti';
 
-$string['filtername'] = 'Samodejna povezava imen aktivnosti';
 
 ?>

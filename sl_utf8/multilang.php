@@ -1,7 +1,7 @@
-<?PHP // $Id$ 
-      // multilang.php - created with Moodle 1.3 (2004052500)
-
+<?PHP // $Id:multilang.php from multilang.xml
+      // Comments: tomaz at zid dot si
 
 $string['filtername'] = 'Večjezična vsebina';
+
 
 ?>

@@ -1,7 +1,7 @@
-<?PHP // $Id$ 
-      // tex.php - created with Moodle 1.3 (2004052500)
+<?PHP // $Id:tex.php from tex.xml
+      // Comments: tomaz at zid dot si
 
+$string['filtername'] = 'Zapis TeX';
 
-$string['filtername'] = 'Notacija TeX ';
 
 ?>

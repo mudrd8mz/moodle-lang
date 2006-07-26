@@ -1,11 +1,11 @@
-<?PHP // $Id$ 
-      // block_section_links.php - created with Moodle 1.3 (2004052500)
+<?PHP // $Id:block_section_links.php from block_section_links.xml
+      // Comments: tomaz at zid dot si
 
+$string['blockname'] = 'Povezave odseka';
+$string['topics'] = 'Poglavja';
+$string['jumptocurrenttopic'] = 'Skok na trenutno poglavje';
+$string['jumptocurrentweek'] = 'Skok na trenuten teden';
+$string['weeks'] = 'Tednov';
 
-$string['blockname'] = 'Povezave sekcije';
-$string['jumptocurrenttopic'] = 'Skoči na trenutno temo';
-$string['jumptocurrentweek'] = 'Skoči na trenutni teden';
-$string['topics'] = 'Teme';
-$string['weeks'] = 'Tedni';
 
 ?>

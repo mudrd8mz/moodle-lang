@@ -1,7 +1,8 @@
-<?PHP // $Id$ 
-      // censor.php - created with Moodle 1.3.1 (2004052501)
+<?PHP // $Id:censor.php from censor.xml
+      // Comments: tomaz at zid dot si
 
+$string['filtername'] = 'Cenzura besed';
+$string['badwords'] = 'sranje,zajeban,zafukan,jebač,fukač,fukara,fuk,jeba,kurac,kurba,peder,pizda,pizdun,pofukan,pička,pičkarija,jebem';
 
-$string['filtername'] = 'Cenzuriranje besed';
 
 ?>

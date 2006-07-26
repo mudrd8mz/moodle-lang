@@ -1,37 +1,40 @@
-<?PHP // $Id$ 
-      // journal.php - created with Moodle 1.3.1 (2004052501)
+<?PHP // $Id:journal.php from journal.xml
+      // Comments: tomaz at zid dot si
 
+$string['alwaysopen'] = 'Vedno odprto';
+$string['blankentry'] = 'Prazen vnos';
+$string['daysavailable'] = 'Dnevi na voljo';
+$string['editingended'] = 'Obdobje urejanja je zaključeno';
+$string['editingends'] = 'Obdobje urejanje se konča';
+$string['entries'] = 'Vnosi';
+$string['feedbackupdated'] = 'Posodobljen odziv za $a vnosov';
+$string['journalmail'] = '$a->teacher je objavil odziv na vaš
+dnevniški vnos za \'$a->journal\'
 
-$string['alwaysopen'] = 'Vedno odprt';
-$string['blankentry'] = 'Prazen zapis';
-$string['daysavailable'] = 't. dni';
-$string['editingended'] = 'Čas za urejejanje je potekel';
-$string['editingends'] = 'Čas za urejejanje se zaključi';
-$string['entries'] = 'Zapisi';
-$string['feedbackupdated'] = 'Odgovor posodobljen za zapise ($a)';
-$string['journalmail'] = '$a->teacher je poslal odgovor na dnevniki zapis v \'$a->journal\'
-
-You can see it appended to your journal entry:
+Vidite ga lahko pripetega k vašemu dnevniškem vnosu:
 
     $a->url';
-$string['journalmailhtml'] = '$a->teacher je poslal odgovor na dnevniki zapis v \'<i>$a->journal</i>\'<br /><br />
-Odgovor je pripet (povezava  <a href=\"$a->url\">journal entry</a>).';
-$string['journalname'] = 'Naziv dnevnika';
-$string['journalquestion'] = 'Vpraanje dnevnika';
-$string['journalrating1'] = 'Neuspeno';
-$string['journalrating2'] = 'Uspeno';
-$string['journalrating3'] = 'Zelo dobro';
+$string['journalmailhtml'] = '$a->teacher je objavil odziv na vaš
+dnevniški vnos za \'<i>$a->journal</i>\'<br /><br />
+Vidite ga lahko pripetega k vašemu <a href=\"$a->url\">dnevniškemu vnosu</a>.';
+$string['journalname'] = 'Ime dnevnika';
+$string['journalquestion'] = 'Vprašanje dnevnika';
+$string['journalrating1'] = 'Nezadostno';
+$string['journalrating2'] = 'Zadostno';
+$string['journalrating3'] = 'Izvrstno';
+$string['mailsubject'] = 'Odziv na dnevnik';
 $string['modulename'] = 'Dnevnik';
 $string['modulenameplural'] = 'Dnevniki';
-$string['newjournalentries'] = 'Novi zapisi v dnevniku';
-$string['noentry'] = 'Ni zapisov';
-$string['noratinggiven'] = 'Brez ocen';
-$string['notopenuntil'] = 'Ta dnevnik ne bo odprt do ';
-$string['notstarted'] = 'Dnevnika e niste začeli';
-$string['overallrating'] = 'Splona ocena';
-$string['rate'] = 'Oceni';
-$string['saveallfeedback'] = 'Shrani odgovore';
-$string['startoredit'] = 'Začni ali uredi dnevniki zapis';
-$string['viewallentries'] = 'Poglej dnevnike zapise v $a';
+$string['newjournalentries'] = 'Novi dnevniški vnosi';
+$string['noentry'] = 'Ni vnosa';
+$string['noratinggiven'] = 'Ni dane ocene';
+$string['notopenuntil'] = 'Ta dnevnik ne bo odprt do';
+$string['notstarted'] = 'Tega dnevnika še niste začeli';
+$string['overallrating'] = 'Skupna ocena';
+$string['rate'] = 'Ocena';
+$string['saveallfeedback'] = 'Shrani vse moje odzive';
+$string['startoredit'] = 'Začni ali uredi moj dnevniški vnos';
+$string['viewallentries'] = 'Ogled $a dnevniških vnosov';
+
 
 ?>

@@ -1,9 +1,9 @@
-<?PHP // $Id$ 
-      // label.php - created with Moodle 1.3 (2004052500)
+<?PHP // $Id:label.php from label.xml
+      // Comments: tomaz at zid dot si
 
-
-$string['labeltext'] = 'Tekst oznake';
+$string['labeltext'] = 'Besedilo oznake';
 $string['modulename'] = 'Oznaka';
 $string['modulenameplural'] = 'Oznake';
+
 
 ?>

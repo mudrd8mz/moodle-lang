@@ -1,8 +1,8 @@
-<?PHP // $Id$ 
-      // webquest.php - created with Moodle 1.2 development (2003111400)
-
+<?PHP // $Id:webquest.php from webquest.xml
+      // Comments: tomaz at zid dot si
 
 $string['modulename'] = 'Webquest';
-$string['modulenameplural'] = 'Webquests';
+$string['modulenameplural'] = 'Webquesti';
+
 
 ?>
