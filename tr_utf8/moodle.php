@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 + (2006050507)
+      // moodle.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['action'] = 'Eylem';
@@ -94,7 +94,7 @@ $string['allowinternal'] = 'Dahili yöntemlere de izin ver';
 $string['allownone'] = 'Hiçbirine izin verme';
 $string['allownot'] = 'İzin verme';
 $string['allparticipants'] = 'Bütün katılımcılar';
-$string['allteachers'] = 'Bütün öğretmenler';
+$string['allteachers'] = 'Bütün eğitimciler';
 $string['alphabet'] = 'A,B,C,Ç,D,E,F,G,H,I,İ,J,K,L,M,N,O,Ö,P,R,S,Ş,T,U,Ü,V,Y,Z,Q,W,X';
 $string['alphanumerical'] = 'Sadece alfabetik harfleri ve sayıları içerebilir';
 $string['alreadyconfirmed'] = 'Kayıt zaten onaylandı';
