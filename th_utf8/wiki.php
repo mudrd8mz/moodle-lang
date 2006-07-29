@@ -1,5 +1,5 @@
-<?PHP // $Id$
-
+<?PHP // $Id$ 
+      // wiki.php - created with Moodle 1.6 (2006050506)
 
 
 $string['action'] = 'ต้องการทำ..';
@@ -144,6 +144,7 @@ $string['safehtml'] = 'Safe HTML';
 $string['save'] = 'บันทึก';
 $string['searchwiki'] = 'ค้นหา Wiki';
 $string['setpageflags'] = 'ตั้งค่า page flags';
+$string['showversions'] = 'แสดงเวอร์ชัน';
 $string['sitemap'] = 'ผังเว็บไซต์';
 $string['smfor'] = 'ผังเว็บไซต์สำหรับ';
 $string['status'] = 'สถานะ';
@@ -159,6 +160,7 @@ $string['tabview'] = 'ดู';
 $string['thanksforcontribution'] = 'ขอบคุณสำหรับข้อมูลที่คุณเพิ่มเข้ามาค่ะ';
 $string['thispageisntlinkedfromanywhereelse'] = 'ไม่ได้ลิงก์หน้านี้มาจากที่อื่น';
 $string['updatedpages'] = 'อัพเดทหน้านี้แล้ว';
+$string['updatedwikipages'] = 'อัพเดทหน้า Wiki';
 $string['uplerror'] = 'ขออภัยค่ะมีปัญหาในระหว่างการอัพโหลด';
 $string['uplinsect'] = 'อัพโหลดไปยัง';
 $string['uplnewnam'] = 'บันทึกในชื่ออื่น';
@@ -185,4 +187,5 @@ $string['wikiusage'] = 'การใช้ wiki';
 $string['withbinaries'] = 'รวมสารบาญไบนารี';
 $string['withvirtualpages'] = 'รวมลิงก์ wiki';
 $string['wrongversionrange'] = '$a  ไม่อยู่ในช่วงที่ถูกต้อง';
+
 ?>
