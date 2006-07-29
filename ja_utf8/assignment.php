@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 dev (2006060900)
+      // assignment.php - created with Moodle 1.7 dev (2006071800)
 
 
 $string['allowmultiple'] = '複数ファイルを許可する';
@@ -74,11 +74,11 @@ $string['onceassignmentsent'] = '採点のため課題を提出すると、あ�
 $string['overwritewarning'] = '注意: 再度アップロードすることにより現在の提出課題は置き換えられます。';
 $string['pagesize'] = '1ページあたりの提出課題数';
 $string['preventlate'] = '提出期限後の課題提出を許可しない';
-$string['quickgrade'] = 'クイック評定を許可';
+$string['quickgrade'] = 'クイック評定を有効にする';
 $string['removelink'] = '削除';
 $string['responsefile'] = 'レスポンスファイル:';
-$string['responsesfromteacher'] = '教師によりアップロードされたレスポンス';
-$string['saveallfeedback'] = 'フィードバックを保存する';
+$string['responsesfromteacher'] = '教師よりアップロードされたレスポンス';
+$string['saveallfeedback'] = 'すべてのフィードバックを保存する';
 $string['sendformarking'] = '採点のため送信する';
 $string['step1'] = 'ステップ 1:';
 $string['step2'] = 'ステップ 2:';
