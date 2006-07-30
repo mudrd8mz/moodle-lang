@@ -2,8 +2,8 @@
 $string['alphabet'] = 'أ،ب،ت،ث،ج،ح،خ،د،ذ،ر،ز،س،ش،ص،ض،ط،ظ،ع،غ،ف،ق،ك،ل،م،ن،هـ،و،ي،';
 $string['backupnameformat'] = 'نوع تنسيق ملف النسخة الإحتياطية';
 $string['firstdayofweek'] = '0';
-$string['locale'] = 'en.UTF-8';
-$string['localewin'] = 'Arabic.1256';
+$string['locale'] = 'ar_SA.UTF-8';
+$string['localewin'] = 'Arabic_Saudi Arabia.1256';
 $string['localewincharset'] = 'WINDOWS-1256';
 $string['oldcharset'] = 'WINDOWS-1256';
 $string['strftimedate'] = '%%d %%B %%Y';
