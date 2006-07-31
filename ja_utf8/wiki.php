@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.7 dev (2006060900)
+      // wiki.php - created with Moodle 1.7 dev (2006071800)
 
 
 $string['action'] = '-- アクション --';
@@ -130,6 +130,8 @@ $string['plaintext'] = 'プレインテキスト';
 $string['preview'] = 'プレビュー';
 $string['readonly'] = '読み取り専用ページ';
 $string['refs'] = 'リファレンス';
+$string['reloadlinkdescription'] = '新しいコンテンツを表示するために、ページをリロードする。';
+$string['reloadlinktext'] = 'このページをリロードする';
 $string['removenotice'] = 'ここでは、閲覧されていないページのみ表示されますので注意してください。ewikiエンジンのチェック機能が限定されているため、閲覧されたページがここに表示される場合もあります。<br />最初にページを空にした場合も、ここに表示されます。同時に他の様々なデータベース診断が行われます。';
 $string['removepagecheck'] = '本当にこれらのページを削除してもよろしいですか?';
 $string['removepages'] = 'ページの削除';
