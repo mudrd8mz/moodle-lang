@@ -63,8 +63,8 @@ $string['configlangcache'] = 'Dil menüsünü önbellekle. Belleğin çoğunu ve
 $string['configlangdir'] = 'Bir çok dil soldan-sağa doğru yazılır, ancak Arapça ve İbranice gibi diller sağdan-sola doğru yazılır.';
 $string['configlanglist'] = 'Kurulumla birlikte gelen dillerin herhangi birinin seçilebilmesi için burayı boş bırakın. Ancak dil menüsünü kısıtlamak istiyorsanız buraya dil listesini virgülle ayırarak girin. Örnek: tr,fr,de,en_us';
 $string['configlangmenu'] = 'Ana sayfa, giriş sayfası vb. yerlerde dil menüsünün görünüp görünmeyeceğini belirtin. Bu, kullanıcının kendi profilinde düzenleyebileceği dil tercihini etkilemeyecektir.';
-$string['configlocale'] = 'Sitenin tamamında geçerli olan yerelleştirme kodunu girin. Bu, gün biçimini ve dilini etkileyecektir. İşletim sisteminde bu yerelleştirmenin var olması gerekmektedir. Eğer neyi seçeneğinizi bilmiyorsanız boş bırakınız.
-<br /> Örnekler: Linux için: de_DE, en_US, tr_TR; Windows için: turkish, german, spanish';
+$string['configlocale'] = 'Sitenin tamamı için geçerli bir yerelleştirme kodu girin. Bu, günlerin gösterim biçimini ve dilini etkileyecektir. İşletim sisteminde bu yerelleştirmenin var olması gerekmektedir. Neyi seçeneğinizi bilmiyorsanız boş bırakınız.
+<br />Linux için örnekler: tr_TR.UTF-8, en_US.UTF-8';
 $string['configloginhttps'] = 'Bu seçeneği açık yapmak giriş sayfası için güvenli bir https bağlantı sağlayacaktır. Bundan sonra hız için tekrar normal bağlantıya geri geçilecektir. DİKKAT: Bu ayar web sunucusunda https\'in etkinleştirilmesini GEREKTİRİR. Böyle değilse, KENDİ KENDİNİZ BİLE SİTEYE ERİŞEMEZSİNİZ.';
 $string['configloglifetime'] = 'Bu, kullanıcı etkinlik kayıtlarının ne kadar süre saklı kalacağını belirtir. Bu süreden daha eski kayıtlar otomatikmen silinir. Kayıtları mümkün olan en uzun sürede tutmanız bunlara daha sonra gereksinim duymanız durumunda en iyisidir. Ancak, çok yoğun bir sunucunuz varsa ve performans sorunları yaşıyorsanız daha kısa bir süre belirtebilirsiniz.';
 $string['configlongtimenosee'] = 'Öğrenciler uzun süre giriş yapmazlarsa kurslardan otomatik olarak kaydı silinecektir. Bu parametre bu zaman sınırını belirler.';
