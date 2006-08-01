@@ -1,21 +1,26 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 development (2006022400)
+      // install.php - created with Moodle 1.7 dev (2006071800)
 
 
 $string['admindirerror'] = 'La directory di amministrazione specificata non è corretta';
 $string['admindirname'] = 'Directory di amministrazione';
 $string['admindirsetting'] = 'Pochissimi web server utilizzano /admin come un URL speciale per accedere al pannello di controllo o altro. Sfortunatamente questo collide con la posizione standard per le pagine di amministrazione di Moodle. È possibile risolvere questo problema rinominando la directory di amministrazione nella vostra installazione, e inserendo il nuovo nome qui. Per esempio:<p><b>moodleadmin</b></p>
-Questo sistemerà  i collegamenti di amministrazione in Moodle.';
+Questo correggerà i collegamenti di amministrazione in Moodle.';
 $string['admindirsettinghead'] = 'Impostazione la directory admin...';
+$string['admindirsettingsub'] = 'Pochissimi web server utilizzano /admin come un URL speciale per accedere al pannello di controllo o altro. Sfortunatamente questo collide con la posizione standard per le pagine di amministrazione di Moodle. È possibile risolvere questo problema rinominando la directory di amministrazione nella vostra installazione, e inserendo il nuovo nome qui. Per esempio:<p><b>moodleadmin</b></p>
+Questo correggerà i collegamenti di amministrazione in Moodle.';
 $string['caution'] = 'Attenzione';
 $string['chooselanguage'] = 'Scegli la lingua';
 $string['chooselanguagehead'] = 'Scegli la lingua';
+$string['chooselanguagesub'] = 'Scegliere una lingua per SOLO l\'installazione. Si potrà scegliere le lingue del sito e dell\'utente in una schermata successiva';
 $string['compatibilitysettings'] = 'Controllo impostazioni PHP...';
 $string['compatibilitysettingshead'] = 'Controllo impostazioni PHP...';
-$string['configfilenotwritten'] = 'Il sistema di installazione non è in grado di creare il file config.php contenente le vostre impostazioni, probabilmente perchè la directory di Moodle non è scrivibile. È possbile copiare manualmente il codice seguente in un file chiamato config.php nella directory principale di Moodle.';
+$string['compatibilitysettingssub'] = 'Il vostro server deve passare tutti questi test per permettere a Moodle di funzionare correttamente';
+$string['configfilenotwritten'] = 'Il sistema di installazione non è in grado di creare il file config.php contenente le vostre impostazioni, probabilmente perchè la directory di Moodle non è scrivibile. È possibile copiare manualmente il codice seguente in un file chiamato config.php nella directory principale di Moodle.';
 $string['configfilewritten'] = 'Il config.php è stato creato correttamente';
 $string['configurationcomplete'] = 'Configurazione completata';
 $string['configurationcompletehead'] = 'Configurazione completata';
+$string['configurationcompletesub'] = 'Moodle tenta di salvare la configurazione in un file nella directory principale della vostra installazione di Moodle.';
 $string['database'] = 'Base di dati';
 $string['databasecreationsettings'] = 'È necessario configurare le impostazioni della base dati dove Moodle salvac la maggior parte dei dati. Questa base dati sarà  creata automaticamente dall\'installatore di Moodle4Windows con le impostazioni specificate sotto.<br /><br /><br />
 <b>Tipo:</b> impostato a \"mysql\" dall\'installatore<br />
@@ -39,7 +44,7 @@ $string['dbhost'] = 'Server della base dati';
 $string['dbpass'] = 'Password';
 $string['dbprefix'] = 'Prefisso tabelle';
 $string['dbtype'] = 'Tipo';
-$string['directorysettings'] = '<p>Confermare le locazioni di questa installazione di Moodle.</p>
+$string['directorysettings'] = '<p>Confermare i posizionamenti di questa installazione di Moodle.</p>
 <p><b>Indirizzo Web:</b>
 Specificare l\'indirizzo completo dove Moodle sarà  locato.
 Se il vostro sito web è accessibile tramite indirizzi multipli scegliere quello più naturale per gli studenti. Non aggiungere lo slash(/) finale.</p>
@@ -47,9 +52,15 @@ Se il vostro sito web è accessibile tramite indirizzi multipli scegliere quello
 Specificare il percorso completo per questa installazione. Controllare che la capitalizzazione sia corretta.</p>
 <p><b>Directory dati:</b>
 È necessario un posto dove Moodle può salvare i file inviati. Questa directory deve essere leggibile e SCRIVIBILE dall\'utente del server web (normalmente \'nobody\' o \'apache\'), ma non dovrebbe essere direttamente accessibile via web.</p>';
+$string['directorysettingshead'] = 'Si prega di confermare i posizionamenti di questa installazione di Moodle';
 $string['dirroot'] = 'Directory di Moodle';
 $string['dirrooterror'] = 'L\'impostazione \'Directory di Moodle\' sembra essere scorretta - non è possibile trovare un\'installazione di Moodle nel percorso specificato. Il valore sotto è stato ripristinato.';
 $string['download'] = 'Download';
+$string['downloadlanguagebutton'] = 'Scarica il language pack &quot;$a&quot;';
+$string['downloadlanguagehead'] = 'Scarica language pack';
+$string['downloadlanguagenotneeded'] = 'È possibile continuare l\'installazione utilizzando il language pack standard, \"$a\"';
+$string['environmenthead'] = 'Controllo del vostro sistema';
+$string['environmentsub'] = 'Stiamo controllando se i diversi conponenti del vostro sistema coincidano con le richieste del sistema';
 $string['fail'] = 'Fallito';
 $string['fileuploads'] = 'Invio file';
 $string['fileuploadserror'] = 'Questo deve essere impostato a on';
@@ -62,6 +73,8 @@ $string['gdversionhelp'] = '<p>Sul vostro server sembra non essere installato il
 <p>GD è una libreria che è richiesta dal PHP per permettere a Moodle di elaborare le immagini (come le icone dei profili utente) e creare nuove immagini (come i grafici dei log). Moodle continuerà  a funzionare senza GD - queste caratteristiche non saranno disponibili sulla vostra installazione.</p>
 <p>Per aggiungere GD al PHP su sistemi operativi Unix/Linux, compilare il PHP utilizzando l\'opzione --with-gd.</p>
 <p>Su Windows normalmente è possibile modificare il file php.ini e togliere il commento dalla linea che contiene libgd.dll.</p>';
+$string['globalsquotes'] = 'Gestione insicura dei Globals';
+$string['globalsquoteserror'] = 'Correggere le impostazioni PHP: disabilitare register_globals e/o abilitare magic_quotes_gpc';
 $string['installation'] = 'Installazione';
 $string['magicquotesruntime'] = 'Magic Quotes Run Time';
 $string['magicquotesruntimeerror'] = 'Questo deve essere impostato a off';
@@ -98,7 +111,9 @@ $string['sessionautostart'] = 'Session Auto Start';
 $string['sessionautostarterror'] = 'Questo deve essere off';
 $string['sessionautostarthelp'] = '<p>Moodle richiede il supporto delle sessioni e non funziona senza.</p>
 <p>Le sessioni possono essere abilitate nel file php.ini ... cerca il parametro session.auto_start.</p>';
+$string['skipdbencodingtest'] = 'Salta il test del sistema di codifica della base dati';
+$string['welcomep10'] = '$a->installername ($a->installerversion)';
 $string['wwwroot'] = 'Indirizzo web';
-$string['wwwrooterror'] = 'L\'indirizzo web sembra non essere valido - questa installazione di Moodle non sembra esere li.';
+$string['wwwrooterror'] = 'L\'indirizzo web sembra non essere valido - questa installazione di Moodle non sembra essere li. Il valore è stato reimpostato';
 
 ?>
