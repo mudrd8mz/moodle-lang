@@ -1120,6 +1120,7 @@ $string['showperpage'] = '1ページあたり $a 名を表示';
 $string['showrecent'] = '最新の活動を表示';
 $string['showreports'] = '活動レポートを表示';
 $string['showsettings'] = '設定を表示';
+$string['showtheselogs'] = 'これらのログを表示';
 $string['since'] = '対象範囲';
 $string['sincelast'] = '最終ログインより';
 $string['site'] = 'サイト';
