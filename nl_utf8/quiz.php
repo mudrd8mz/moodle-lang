@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006060900)
+      // quiz.php - created with Moodle 1.7 dev (2006071800)
 
 
 $string['1day'] = '1 dag';
@@ -191,6 +191,7 @@ $string['feedback'] = 'Feedback';
 $string['file'] = 'Bestand';
 $string['fileformat'] = 'Bestandsformaat';
 $string['fillcorrect'] = 'Vul aan met het juiste';
+$string['filloutnumericalanswer'] = 'Je geeft hier minstens één mogelijk antwoord en een tolerantie op. Het eerste overeenkomende antwoord zal gebruikt worden om het cijfer en de feedback te bepalen. Als je feedback geeft zonder antwoord, dan zal dat gebruikt worden om aan leerlingen te tonen die geen antwoord uit de lijst gaven.';
 $string['filloutoneanswer'] = 'Je moet minstens één mogelijk antwoord invullen. Lege antwoorden zullen niet worden gebruikt.';
 $string['filloutthreequestions'] = 'Je moet minstens drie vragen invullen. Niet ingevulde vragen zullen niet worden gebruikt.';
 $string['fillouttwochoices'] = 'Je moet minstens twee keuzemogelijkheden invullen. Lege keuzemogelijkheden zullen niet worden gebruikt.';
@@ -244,6 +245,8 @@ $string['incorrect'] = 'Niet juist';
 $string['indivresp'] = 'Reacties van ieder afzonderlijk op elke vraag';
 $string['info'] = 'Info';
 $string['introduction'] = 'Inleiding';
+$string['invalidnumericanswer'] = 'Eén van je antwoorden die je gaf, was geen geldig getal.';
+$string['invalidnumerictolerance'] = 'Eén van de toleranties die je gaf, was geen geldig getal.';
 $string['invalidsource'] = 'Deze bron is niet geldig';
 $string['invalidsourcetype'] = 'Ongeldig brontype';
 $string['itemanal'] = 'Analyse van de antwoorden';
@@ -263,7 +266,6 @@ $string['link'] = 'Link';
 $string['listitems'] = 'Lijst van items in de test';
 $string['literal'] = 'Jokertekens';
 $string['loguniform'] = 'aantal cijfers, logaritmisch uniforme distrubutie';
-$string['lowmarkslimit'] = 'Niet analyseren als de score minder is dan:';
 $string['makecopy'] = 'Bewaar als nieuwe vraag';
 $string['managetypes'] = 'Beheer vraagtypes en servers';
 $string['manualgrading'] = 'Beoordelen';
@@ -310,6 +312,7 @@ $string['nocommentsyet'] = 'Nog geen commentaar';
 $string['noconnection'] = 'Er is op dit ogenblik geen verbinding naar een webservice die deze vraag kan behandelen. Neem contact op met je beheerder';
 $string['nodataset'] = 'niets - dit is geen jokerteken';
 $string['noessayquestionsfound'] = 'Geen manueel te beoordelen vragen gevonden';
+$string['nomatchinganswer'] = 'Je moet een antwoord geven dat overeenkomt met vraag \'$a\'.';
 $string['nominal'] = 'Nominaal';
 $string['nomoreattempts'] = 'Een nieuwe poging is niet meer toegestaan';
 $string['none'] = 'Geen';
@@ -335,7 +338,7 @@ $string['numerical'] = 'Numeriek';
 $string['onlyteachersexport'] = 'Enkel leraren kunnen vragen exporteren';
 $string['onlyteachersimport'] = 'Enkel leraren met bewerkrechten kunnen vragen importeren';
 $string['optional'] = 'optioneel';
-$string['outof'] = 'uit een maximum van';
+$string['outof'] = '$a->grade uit een maximum van $a->maxgrade';
 $string['overdue'] = 'Te laat';
 $string['pagesize'] = 'Aantal te tonen pogingen per pagina';
 $string['paragraphquestion'] = 'Vraagparagraaf niet ondersteund op lijn $a. De vraag wordt genegeerd';
