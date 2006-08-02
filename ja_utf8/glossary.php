@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7 dev (2006060900)
+      // glossary.php - created with Moodle 1.7 dev (2006071800)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -50,7 +50,7 @@ $string['commentson'] = 'コメント';
 $string['commentupdated'] = 'コメントが更新されました。';
 $string['concept'] = '用語';
 $string['concepts'] = '用語';
-$string['configenablerssfeeds'] = 'このスイッチは用語集すべてにおいてRSSフィードを設置可能にします。さらにそれぞれの用語集でRSSフィードを手動設定する必要があります。';
+$string['configenablerssfeeds'] = 'ここでは、すべての用語集に関するRSSフィードを有効にします。更に、手動で各用語集のRSSフィード設定を有効にする必要があります。';
 $string['currentglossary'] = '現在の用語集';
 $string['dateview'] = '日付順';
 $string['defaultapproval'] = 'デフォルトで承認する';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006060900)
+      // data.php - created with Moodle 1.7 dev (2006071800)
 
 
 $string['action'] = '操作';
@@ -25,7 +25,7 @@ $string['commentempty'] = 'コメントが空です。';
 $string['comments'] = 'コメント';
 $string['commentsaved'] = 'コメントが保存されました。';
 $string['commentsn'] = 'コメント数: $a';
-$string['configenablerssfeeds'] = 'このスイッチは、すべてのデータベースに関するRSSフィードを有効にします。あなたは、更に各データベースのRSSフィード設定を手動で行う必要があります。';
+$string['configenablerssfeeds'] = 'ここでは、すべてのデータベースに関するRSSフィードを有効にします。更に、手動で各データベースのRSSフィード設定を有効にする必要があります。';
 $string['confirmdeletefield'] = 'あなたは、このフィールドを削除しようとしています。よろしいですか?';
 $string['confirmdeleterecord'] = '本当にこのエントリを削除してもよろしいですか?';
 $string['csstemplate'] = 'CSSテンプレート';
