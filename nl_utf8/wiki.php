@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6 development (2005101200)
+      // wiki.php - created with Moodle 1.7 dev (2006071800)
 
 
 $string['action'] = '- - Acties - -';
@@ -130,11 +130,13 @@ $string['plaintext'] = 'Platte tekst';
 $string['preview'] = 'Voorbeeld';
 $string['readonly'] = 'Alleen lezen pagina';
 $string['refs'] = 'Referenties';
+$string['reloadlinkdescription'] = 'Herlaad de pagina, zodat nieuwe inhoud getoond wordt.';
+$string['reloadlinktext'] = 'Herlaad deze pagina';
 $string['removenotice'] = 'Merk op dat alleen pagina\'s zonder referentie in deze lijst voorkomen. Omdat Ewiki slechts beperkte tests doet op pagina\'s met referenties, zou het kunnen dat er sommige pagina\'s ontbreken.<br />Als je echter een pagina eerst leeg maakt, zal die ook in deze lijst verschijnen. Er worden nog verschillende andere analyses van de databank gedaan.';
 $string['removepagecheck'] = 'Ben je er zeker van dat je deze pagina\'s wil verwijderen?';
 $string['removepages'] = 'Verwijder pagina\'s';
 $string['removeselectedpages'] = 'Verwijder de geselecteerde pagina\'s';
-$string['revertallsince'] = 'Duiken in vorige versies, verwijder ook alle veranderingen die gemaakt zijn na ';
+$string['revertallsince'] = 'Duiken in vorige versies, verwijder ook alle veranderingen die gemaakt zijn na';
 $string['revertchanges'] = 'Draai wijzigingen terug';
 $string['revertlastonly'] = 'Alleen als het de laatste wijziging was';
 $string['revertpages'] = 'Terug naar vorige versie';

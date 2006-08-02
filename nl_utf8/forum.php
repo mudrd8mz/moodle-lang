@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // forum.php - created with Moodle 1.7 dev (2006071800)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -22,7 +22,7 @@ $string['bynameondate'] = 'door  $a->name  - $a->date';
 $string['cannotviewpostyet'] = 'Je kunt de vragen van andere leerlingen in deze discussie nog niet lezen, omdat je zelf nog niets gepost hebt';
 $string['configcleanreadtime'] = 'Het uur van de dag waarop oude berichten van de \'gelezen\'-tabel moeten verwijderd worden.';
 $string['configdisplaymode'] = 'De standaardmanier voor het weergeven van discussies als er geen methode is ingesteld.';
-$string['configenablerssfeeds'] = 'Met deze instelling kun je de mogelijkheid voor het maken van RSS-feeds inschakelen voor alle forums. Je zult wel nog voor elk forum afzonderlijk het maken van de RSS-feeds moeten  inschakelen. ';
+$string['configenablerssfeeds'] = 'Met deze instelling kun je de mogelijkheid voor het maken van RSS-feeds inschakelen voor alle forums. Je zult wel nog voor elk forum afzonderlijk het maken van de RSS-feeds moeten  inschakelen.';
 $string['configlongpost'] = 'Elk bericht dat langer is dan deze waarde (HTML-code niet inbegrepen) wordt als lang beschouwd.';
 $string['configmanydiscussions'] = 'Maximale aantal discussies van een forum die per pagina getoond worden';
 $string['configmaxbytes'] = 'Standaard maximumgrootte voor alle forumbijlagen op deze site (afhankelijk van vaklimieten en andere lokale instellingen)';
@@ -49,6 +49,7 @@ $string['disallowsubscribe'] = 'Inschrijven niet niet toegelaten';
 $string['disallowsubscribeteacher'] = 'Inschrijven niet toegelaten (behalve voor leraren)';
 $string['discussion'] = 'Discussie';
 $string['discussionmoved'] = 'Deze discussie is verplaatst naar \'$a\'.';
+$string['discussionmovedpost'] = 'Deze discussie is verplaatst naar <a href=\"$a->discusshref\">deze plaats</a> in het forum <a href=\"$a->forumhref\">$a->forumname</a>';
 $string['discussionname'] = 'Discussienaam';
 $string['discussions'] = 'Discussies';
 $string['discussionsstartedby'] = 'Discussies die door $a zijn gestart';
@@ -77,7 +78,7 @@ $string['forumposts'] = 'Forumberichten';
 $string['forums'] = 'Forums';
 $string['forumsubjecthidden'] = 'Onderwerp (verborgen)';
 $string['forumtype'] = 'Soort forum';
-$string['generalforum'] = 'Standaardforum voor algemeen gebruik ';
+$string['generalforum'] = 'Standaardforum voor algemeen gebruik';
 $string['generalforums'] = 'Algemene forums';
 $string['inforum'] = 'in $a';
 $string['intronews'] = 'Algemeen nieuws en aankondigingen';
@@ -103,6 +104,7 @@ $string['modethreaded'] = 'Laat de antwoorden in hun \'draden\' zien';
 $string['modulename'] = 'Forum';
 $string['modulenameplural'] = 'Forums';
 $string['more'] = 'meer';
+$string['movedmarker'] = '(Verplaatst)';
 $string['movethisdiscussionto'] = 'Verplaats deze discussie naar ...';
 $string['namenews'] = 'Nieuwsforum';
 $string['namesocial'] = 'Sociaal forum';
@@ -164,7 +166,7 @@ $string['ratingno'] = 'Geen beoordelingen';
 $string['ratingonlyteachers'] = 'Alleen $a kunnen berichten beoordelen';
 $string['ratingpublic'] = '$a kunnen ieders beoordelingen zien';
 $string['ratingpublicnot'] = '$a kunnen alleen hun eigen beoordelingen zien';
-$string['ratings'] = 'Beoordelingen ';
+$string['ratings'] = 'Beoordelingen';
 $string['ratingssaved'] = 'Beoordelingen zijn bewaard';
 $string['ratingsuse'] = 'Gebruik beoordelingen';
 $string['ratingtime'] = 'Beperk het beoordelen van berichten tot het bereik van deze data:';
@@ -198,7 +200,7 @@ $string['sendinratings'] = 'Bewaar mijn beoordelingen';
 $string['showsubscribers'] = 'Toon / wijzig leden';
 $string['singleforum'] = 'Eén eenvoudige discussie';
 $string['startedby'] = 'Begonnen door';
-$string['subject'] = 'Onderwerp  ';
+$string['subject'] = 'Onderwerp';
 $string['subscribe'] = 'Word lid van dit forum';
 $string['subscribeall'] = 'Maak alle deelnemers van de cursus lid van dit forum';
 $string['subscribed'] = 'Lid';

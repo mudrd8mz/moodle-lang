@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006060900)
+      // moodle.php - created with Moodle 1.7 dev (2006071800)
 
 
 $string['action'] = 'Actie';
@@ -535,10 +535,12 @@ $string['formatweeks'] = 'Weekformat';
 $string['formatweekscss'] = 'Weekformat - CSS / geen tabellen';
 $string['formatwiki'] = 'Wiki-format';
 $string['from'] = 'Van';
+$string['frontpagecategorycombo'] = 'Combolijst';
 $string['frontpagecategorynames'] = 'Toon een lijst met categorieën';
 $string['frontpagecourselist'] = 'Toon een lijst met alle cursussen';
-$string['frontpagedescription'] = 'Beschrijving voorpagina';
-$string['frontpageformat'] = 'Format voorpagina';
+$string['frontpagedescription'] = 'Beschrijving startpagina';
+$string['frontpageformat'] = 'Format startpagina';
+$string['frontpageformatloggedin'] = 'Startpaginaopmaak wanneer aangemeld';
 $string['frontpagenews'] = 'Toon nieuwsberichten';
 $string['frontpagetopiconly'] = 'Toon activiteiten of HTML (onderwerpsectie)';
 $string['fulllistofcourses'] = 'Alle cursussen';
@@ -1119,6 +1121,7 @@ $string['showperpage'] = 'Toon $a per pagina';
 $string['showrecent'] = 'Laat recente wijzigingen zien';
 $string['showreports'] = 'Toon activiteitenrapporten';
 $string['showsettings'] = 'Toon instellingen';
+$string['showtheselogs'] = 'Toon deze statistieken';
 $string['since'] = 'Sinds';
 $string['sincelast'] = 'sinds laatste aanmelding';
 $string['site'] = 'Site';

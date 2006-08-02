@@ -202,6 +202,7 @@ $string['optionalmaintenancemessage'] = 'Optionele onderhoudsboodschap';
 $string['order1'] = 'Eerste';
 $string['order2'] = 'Tweede';
 $string['order3'] = 'Derde';
+$string['order4'] = 'Vierde';
 $string['pathconvert'] = 'Pad van <i>convert</i> binary';
 $string['pathdvips'] = 'Pad van <i>dvips</i> binary';
 $string['pathlatex'] = 'Pad van <i>latex</i> binary';
