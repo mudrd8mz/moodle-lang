@@ -35,6 +35,7 @@
 </li>
   <li class="spaced">ブラウザから ( GET または POST 経由で ) 入ってくるデータは、( PHPの設定に関わらず ) 安全にデータベースにインサートできるよう、自動的に magic_quotes が適用されます。他のすべての生データ ( ファイルまたはデータベース ) は、データベースにインサートする前に <font color="#339900">addslashes()</font> でエスケープしてください。</li>
   <li class="spaced">重要:  Moodle内のすべてのテキスト、特にユーザによって入力されるものは format_text() 関数を使用してプリントしてください。これによりテキストは、正確にフィルタおよびクリーニングされます。</li>
+  <li class="spaced">ユーザログは、add_to_log()関数を使用して記録してください。これらのログは、活動レポートおよびログで使用されます。</li>
 </ol>
 <p>&nbsp;</p>
 <h2>コーディングスタイル</h2>
@@ -55,9 +56,7 @@
     <p class="examplecode"><font color="#006600">define(&quot;FORUM_MODE_FLATOLDEST&quot;, 
       1);</font></p>
   </li>
-  <li class="spaced"><strong>関数名</strong> は単純な英語の小文字の単語を使用して、モジュール間のコンフリクトを避けるため、モジュール名で始めてください。
-    単語はアンダースコア ( _ ) で別けてください。可能でしたら、パラメータは常に適切なデフォルト値を持つようにしてください。
-    関数名および続く ( 大括弧 ) の間にはスペースを入れないことに注意してください。
+  <li class="spaced"><strong>関数名</strong> は単純な英語の小文字の単語を使用して、モジュール間のコンフリクトを避けるため、モジュール名で始めてください。単語はアンダースコア ( _ ) で別けてください。可能でしたら、パラメータは常に適切なデフォルト値を持つようにしてください。関数名および続く ( 大括弧 ) の間にはスペースを入れないことに注意してください。
     <br />
     <p class="examplecode"> <font color="#007700">function </font><font color="#0000BB">forum_set_display_mode</font><font color="#007700">(</font><font color="#0000BB">$mode</font><font color="#007700">=</font><font color="#0000BB">0</font><font color="#007700">) 
       {<br />
@@ -96,8 +95,7 @@
 
   <li class="spaced"><strong>コメント</strong> は可能な限り実用的に追加し、コードの流れ、関数および変数の目的を説明してください。
      <ul>
-     <li>すべての関数 ( およびクラス ) は、評判の良い <a target="_blank" href="http://www.phpdoc.org/">phpDocフォーマット</a> を使用してください。
-         phpDocにより、コードドキュメンテーションを自動的に生成することができます。</li>
+     <li>すべての関数 ( およびクラス ) は、評判の良い <a target="_blank" href="http://www.phpdoc.org/">phpDocフォーマット</a> を使用してください。phpDocにより、コードドキュメンテーションを自動的に生成することができます。</li>
      <li>インラインコメントは、 // スタイルを使用し、コードおよび行が並ぶよう、きちんとレイアウトしてください。</li>
      </ul>
   
@@ -133,8 +131,7 @@
       ....etc </p>
   </li>
   
-  <li class="spaced"><strong>スペース</strong> は自由に使用してください - 明快さを得るために、物事を少し広げることを恐れないでください。一般的に、
-    大括弧と標準的な命令文の間には1つのスペースを入れますが、大括弧と変数および関数の間にはスペースを入れません。
+  <li class="spaced"><strong>スペース</strong>は自由に使用してください - 明快さを得るために、物事を少し広げることを恐れないでください。一般的に、大括弧と標準的な命令文の間には1つのスペースを入れますが、大括弧と変数および関数の間にはスペースを入れません。
     <br />
     <p class="examplecode"> <font color="#007700">foreach (</font><font color="#0000BB">$objects 
       </font><font color="#007700">as </font><font color="#0000BB">$key </font><font color="#007700">=&gt;</font><font color="#0000BB"> 
@@ -157,6 +154,16 @@
       </font><font color="#007700">= </font><font color="#0000BB">$d</font><font color="#007700">;</font><font color="#006600"><br />
       } </font></p>
   </li>
+
+  <li class="spaced">オブジェクトのコピーを作成する場合、常にphp5 clone() 関数 ( そうでなければ最初のオブジェクトの参照で終わります ) を使用してください。Moodleは、これがphp4でも間違いなく動作するようにします。
+    <br />
+    <p class="examplecode"><font color="#006600">良い: $quiz<br />
+      悪い: $b = $a;<br />
+      良い: $b = clone($a);</font></p>
+    <br />
+    あなたがコピーしたいものがオブジェクトではない ( 例 オブジェクトの配列 ) 場合、代わりにfullclone() 関数を使用してください。
+  </li>
+
 </ol>
 <p>&nbsp;</p>
 <h2>データベース構造</h2>
@@ -176,7 +183,7 @@
   <li class="spaced">ほとんどのフィールドは、PHP <strong>time</strong>() 関数から現在のタイムスタンプで更新される <strong>timemodified</strong> フィールド ( INT10 ) を持つ必要があります。</li>
 </ol>
 <p>&nbsp;</p>
-<h2>セキュリティ問題 ( およびフォームおよびURLデータの取り扱い )</h2>
+<h2>セキュリティ関連 ( およびフォームおよびURLデータの取り扱い )</h2>
 <ol class="normaltext">
   <li class="spaced">「register_globals」を信頼しないでください。<strong>すべての</strong>変数は、<strong>すべての</strong>コードファイルで適切に初期化してください。変数がどこから来たか明らかでなければなりません。</li>
   <li class="spaced">空でもすべての配列およびオブジェクトを初期化してください。<code>$a = array()</code> または <code>$obj = new stdClass();</code>。</li>
