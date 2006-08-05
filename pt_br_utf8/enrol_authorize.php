@@ -1,26 +1,21 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6 development (2006031600)
+      // enrol_authorize.php - created with Moodle 1.6.1 (2006050510)
 
 
-$string['adminauthorizeccapture'] = 'Configurações de revisão de encomenda & Auto-Capture ';
+$string['adminacceptccs'] = 'Que tipos de cartão de crédito são aceitos?';
+$string['adminauthorizeccapture'] = 'Configurações de revisão de encomenda & Auto-Capture';
 $string['adminauthorizeemail'] = 'Configurações de Email';
-$string['adminauthorizesettings'] = 'Configurações Authorize.net ';
+$string['adminauthorizesettings'] = 'Configurações Authorize.net';
 $string['adminauthorizewide'] = 'Configurações para todo o site';
 $string['adminavs'] = 'Selecione isto se você ativou Address Verification System (AVS) na sua conta authorize.net. Isto requer campos de endereço como rua, estado, país, código postal quando o usuário completa o formulário de pagamento.';
 $string['admincronsetup'] = 'O script cron de manutenção não foi executado nas últimas 24 horas.<br /> O Cron deve estar habilitado para utilizar autocapture.<br />Configure o cron em modo correto ou desmarque novamente an_review.<br />Se você desabilitar autocapture, as transações que não forem controladas em 30 dias, serão canceladas.<br />Selecionar an_review e inserir \'0\' no campo an_capture_day <br />se você quiser aceitar e recusar manualmente os pagamentos em 30 dias.';
 $string['adminemailexpired'] = 'Mandar avisos aos admins por email <b>$a</b> dias passados quantos alunos status de capturas autorizadas/pendentes, antes que a transação expire.(0=disabilita envio email, padrão=2, max=5)<br />';
-$string['adminhelpcapture'] = 'Eu quero aceitar e recusar pagamentos manualmente mas também usar autocapture para evitar o cancelamento dos pagamentos. Como posso fazer isto?
-
-- Configurar o cron.
-- Selecionar an_review.
-- Inserir um número entre 1 e 29 no campo an_capture_day . O cartão vai ser capturado e o usuário será inscrito no curso a não ser que você o capture em an_capture_day dias.';
-$string['adminhelpcapturetitle'] = 'Dia de Auto-Capture ';
-$string['adminhelpreview'] = 'Como aceitar ou recusar manualmente os pagamentos?
-- selecionar an_review.
-- inserir \'0\' no campo an_capture_day .
-
-Como os alunos farão a inscrição imediata, inserindo o número do cartão?
-- deselecionar an_review.';
+$string['adminemailexpiredsort'] = 'Quando o número de pedidos pendentes que estão expirando é enviado aos professores por email, qual é importante?';
+$string['adminemailexpiredsortcount'] = 'O número de encomendas';
+$string['adminemailexpiredsortsum'] = 'O valor total';
+$string['adminemailexpiredteacher'] = 'Se você habilitou a captura manual (veja acima)e os professores podem administrar os pagamentos, eles também devem receber avisos sobre os pedidos pendentes que estão expirando. Isto manda um aviso por email para cada professor do curso.';
+$string['adminemailexpsetting'] = '(0=desabilitar envio de email, padrão=2, max=5)<br />(Opções de captura manual para envio de email: cron=habilitado, an_review=selecionado, an_capture_day=0, an_emailexpired=1-5)';
+$string['adminhelpcapturetitle'] = 'Dia de Auto-Capture';
 $string['adminhelpreviewtitle'] = 'Revisão de Pedido';
 $string['adminneworder'] = 'Prezado Admin,
 
@@ -79,6 +74,7 @@ $string['ccvv'] = 'CV2';
 $string['ccvvhelp'] = 'Olhe na parte detrás do cartão (últimos 3 dígitos)';
 $string['choosemethod'] = 'Insira o código da chave de inscrição do curso. Se você ainda não tem este código, é necessário fazer a inscrição (e pagar) para poder obtê-lo.';
 $string['chooseone'] = 'Complete um ou dois dos campos abaixo';
+$string['costdefaultdesc'] = '<strong>Na configuração do curso, inserir -1</strong> no campo de preço para usar este preço padrão.';
 $string['cutofftime'] = 'Cut-Off Time da transação. Quando a próxima transação será selecionada para estabelecimento?';
 $string['delete'] = 'Destruir';
 $string['description'] = 'O módulo Authorize.net permite a configuração do pagamento de cursos utilizando providers CC. Se o valor da inscrição for zero, o pedido de pagamento não será apresentado ao aluno. Você deve configurar um preço predefinido para todo o site e um preço determinado para cada curso. O preço do curso tem prioridade sobre o preço predefinido para o site.';
@@ -99,6 +95,7 @@ $string['missingcctype'] = 'Falta o tipo do cartão';
 $string['missingcvv'] = 'Falta o número de controle';
 $string['missingzip'] = 'Falta o código postal';
 $string['nameoncard'] = 'Nome no cartão';
+$string['new'] = 'Novo';
 $string['noreturns'] = 'Nenhum retorno!';
 $string['notsettled'] = 'Não estabelecido';
 $string['orderid'] = 'ID do pedido';
@@ -113,11 +110,20 @@ Este é um aviso enviado porque você não habilitou autocapture. Isto significa
 Para aceitar ou recusar pagamentos pendentes vá a $a->url
 
 Para ativar o autocapture e evitar o recebimento de avisos, vá a $a->enrolurl';
+$string['pendingordersemailteacher'] = 'Prezado professor,
+
+a->pending transações com valor de $a->currency $a->sumcost relativas ao curso \"$a->course\"
+serão expiradas se você não confirmar a aceitação do pagamento em  $a->days dias.
+
+Você tem que aceitar ou recusar o pagamento manualmente porque a captura programada não foi habilitada no sistema.
+
+$a->url';
+$string['pendingorderssubject'] = 'Atenção: $a->course, $a->pending pedido(s) estão por expirar em $a->days dia(s).';
 $string['reason11'] = 'Uma transação duplicada foi enviada.';
 $string['reason13'] = 'O ID de login do comerciante não é valido ou a conta não está ativa.';
 $string['reason16'] = 'A transação não foi encontrada';
 $string['reason17'] = 'O negociante não aceita este tipo de cartão de crédito.';
-$string['reason27'] = 'A transação resultou em confusão de AVS. O endereço fornecido não corresponde ao endereço do proprietário do cartão. ';
+$string['reason27'] = 'A transação resultou em confusão de AVS. O endereço fornecido não corresponde ao endereço do proprietário do cartão.';
 $string['reason28'] = 'O negociante não aceita este tipo de cartão de crédito.';
 $string['reason30'] = 'A configuração do processador não é válida. Chame o provedor do serviço.';
 $string['reason39'] = 'O código da moeda não é válido, suportado ou permitido pelo negociante ou não tem taxa de câmbio definida.';
@@ -146,6 +152,17 @@ $string['transid'] = 'ID da transação';
 $string['unenrolstudent'] = 'Desinscrever aluno?';
 $string['void'] = 'Nulo';
 $string['voidyes'] = 'A transação vai ser cancelada. Proceder?';
+$string['welcometocoursesemail'] = 'Prezado cursista,
+
+O pagamento foi recebido, muito obrigado. Você foi inscrito nos seguintes cursos:
+
+a->courses
+
+Você pode editar os dados do seu perfil :
+$a->profileurl
+
+Você pode consultar os dados do pagamento:
+$a->paymenturl';
 $string['youcantdo'] = 'Você não pode fazer isto: $a->action';
 $string['zipcode'] = 'Código Postal';
 

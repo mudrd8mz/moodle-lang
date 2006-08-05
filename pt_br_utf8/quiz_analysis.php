@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.6 development (2006031600)
+      // quiz_analysis.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['analysis'] = 'Análise de ítem';
+$string['analysisdownload'] = 'Baixar análise';
 $string['analysisoptions'] = 'Opções de análise';
 $string['analysistitle'] = 'Tabela de análise de itens';
 $string['attemptsall'] = 'todas as tentativas';
@@ -12,7 +13,7 @@ $string['attemptshighest'] = 'Melhor nota';
 $string['attemptslast'] = 'última tentativa';
 $string['dicsindextitle'] = 'Disc.<br />Índice';
 $string['disccoefftitle'] = 'Disc.<br />Coef.';
-$string['downloadooo'] = 'Baixar em formato Open Office ';
+$string['downloadooo'] = 'Baixar em formato Open Office';
 $string['facilitytitle'] = '%% Corretas<br>Facilidade';
 $string['lowmarkslimit'] = 'Não analisar se a nota for inferior a:';
 $string['pagesize'] = 'Questões por página:';

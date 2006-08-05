@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 development (2006031600)
+      // resource.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['addresource'] = 'Acrescentar recurso';
+$string['back'] = 'Voltar';
+$string['browserepository'] = 'Procurar no repositório';
+$string['choose'] = 'Escolher';
 $string['chooseafile'] = 'Escolher ou enviar arquivo';
 $string['chooseparameter'] = 'Escolher parâmetro';
 $string['configallowlocalfiles'] = 'Ao criar um novo recurso, permite links a arquivos do sistema local, como um CD ou um disco rígido. Isto pode ser útil numa classe onde todos os estudantes tem acesso ao mesmo dispositivo da rede ou quando è necessário acessar arquivos de um CD. O uso desta funcionalidade pode exigir a mudança da configuração de segurança de seu navegador.';
@@ -23,11 +26,13 @@ $string['configpopupwidth'] = 'Qual é a largura predefinida das janelas popup?'
 $string['configsecretphrase'] = 'Esta frase secreta é usada para produzir códigos com valores cifrados que podem ser enviados aos recursos como parâmetros. O código cifrado é produzido por um valor md5 do endereço IP ligado a current_users e concatenado à frase secreta: code = md5(IP.secretphrase). Isto permite ao destinatário verificar a conexão como medida adicional de segurança.';
 $string['configwebsearch'] = 'Quando se adiciona uma URL como uma página web ou link, este endereço é apresentado como referimento para ajudar o usuário a buscar a URL que está procurando.';
 $string['configwindowsettings'] = 'Isto define o valor padrão do painel de configuração da janela do formulário quando são adicionados novos recursos. Depois da primeira vez, passa a ser uma preferência individual do usuário.';
-$string['deploy'] = 'Usar';
+$string['deploy'] = 'Utilizar';
+$string['deployall'] = 'Utilizar todos';
 $string['directlink'] = 'Link direto a este arquivo';
 $string['directoryinfo'] = 'Todos os documentos no diretório selecionado serão visualizados';
 $string['display'] = 'Janela';
 $string['editingaresource'] = 'Editar recurso';
+$string['emptyfolder'] = 'Pasta vazia';
 $string['encryptedcode'] = 'Código cifrado';
 $string['example'] = 'Exemplo';
 $string['exampleurl'] = 'http://www.exemplo.com/diretorio/arquivo.html';
@@ -50,6 +55,8 @@ $string['maindirectory'] = 'Diretório principal';
 $string['modulename'] = 'Recurso';
 $string['modulenameplural'] = 'Recursos';
 $string['navigationbuttons'] = 'Botões de navegação';
+$string['navigationmenu'] = 'Menu de navegação lateral';
+$string['navigationup'] = 'Botão Para Cima';
 $string['neverseen'] = 'Nunca visto';
 $string['newdirectories'] = 'Mostrar diretório de links';
 $string['newfullscreen'] = 'Preencher toda a tela';
@@ -63,7 +70,9 @@ $string['newtoolbar'] = 'Mostrar a barra de ferramentas';
 $string['newwidth'] = 'Largura predefinida da janela (em pixels)';
 $string['newwindow'] = 'Nova janela';
 $string['newwindowopen'] = 'Mostre este material em uma janela popup';
+$string['next'] = 'Próximo';
 $string['notallowedlocalfileaccess'] = 'O acesso a arquivos locais está desabilitado, portanto este recurso não pode ser acessado.';
+$string['notdeployed'] = 'Não utilizado';
 $string['note'] = 'Nota';
 $string['notefile'] = 'Para transferir mais arquivos ao curso (in modo que aparecerem nesta lista) use o <a href=\"$a\">Administrador de Arquivos</a>.';
 $string['notypechosen'] = 'Você tem que escolher um tipo. Use seu botão de retorno e tente novamente.';
@@ -76,7 +85,10 @@ $string['parameter'] = 'Parâmetro';
 $string['parameters'] = 'Parâmetros';
 $string['popupresource'] = 'Este recurso deve ser mostrado em uma janela popup';
 $string['popupresourcelink'] = 'Em caso contrário, clicar aqui: $a';
+$string['preview'] = 'Vista prévia';
+$string['previous'] = 'Anterior';
 $string['redeploy'] = 'Usar de novo';
+$string['repository'] = 'Repositório IMS';
 $string['resourcetype'] = 'Tipo de recurso';
 $string['resourcetype1'] = 'Referência';
 $string['resourcetype2'] = 'Página Web';
@@ -97,7 +109,9 @@ $string['resourcetypetext'] = 'Criar uma página de texto simples';
 $string['searchweb'] = 'Buscar página web';
 $string['serverurl'] = 'URL do servidor  ($a->wwwroot)';
 $string['showcourseblocks'] = 'Mostrar os box do curso';
+$string['skipsubmenus'] = 'Saltar páginas de sub-menu';
 $string['tableofcontents'] = 'Tabela de conteúdos';
+$string['upbutton'] = 'Para cima';
 $string['variablename'] = 'Nome da variável';
 $string['viewims'] = 'Ver pacote IMS CP';
 $string['vol'] = 'Vol';

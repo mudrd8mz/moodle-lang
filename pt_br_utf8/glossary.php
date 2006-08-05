@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 development (2006031600)
+      // glossary.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['addcomment'] = 'Inserir comentário';
 $string['addentry'] = 'Inserir novo item';
 $string['addingcomment'] = 'Inserir um comentário';
-$string['aliases'] = 'Palavras alternativas para links automáticos ao mesmo item ';
+$string['aliases'] = 'Palavras alternativas para links automáticos ao mesmo item';
 $string['allcategories'] = 'Todas as categorias';
 $string['allentries'] = 'Todos';
 $string['allowcomments'] = 'Permitir comentários';
@@ -33,8 +33,8 @@ $string['cnfallowcomments'] = 'Indicar como opção predefinida a aceitação de
 $string['cnfallowdupentries'] = 'Indicar como opção predefinida a aceitação de itens duplicados';
 $string['cnfapprovalstatus'] = 'Indicar como opção predefinida a aprovação de um item enviado por um estudante';
 $string['cnfcasesensitive'] = 'Definir como opção predefinida de um item, se \"linkado\", a distinção entre maiúsculas e minúsculas';
-$string['cnfdefaulthook'] = 'Escolher o formato de visualização predefinido ';
-$string['cnfdefaultmode'] = 'Escolher o frame de visualização predefinido ';
+$string['cnfdefaulthook'] = 'Escolher o formato de visualização predefinido';
+$string['cnfdefaultmode'] = 'Escolher o frame de visualização predefinido';
 $string['cnffullmatch'] = 'Definir se um item tem como opção predefinida do link, a exata correspondência com maiúsculas ou minúsculos no texto destinatário';
 $string['cnflinkentry'] = 'Indicar como opção predefinida o link automático de um item.';
 $string['cnflinkglossaries'] = 'Indicar como opção predefinida o link automático de um glossário.';
@@ -50,7 +50,7 @@ $string['commentson'] = 'Comentários sobre';
 $string['commentupdated'] = 'O comentário foi atualizado';
 $string['concept'] = 'Conceito';
 $string['concepts'] = 'Conceitos';
-$string['configenablerssfeeds'] = 'Este parâmetro autoriza a criação de alimentadores RSS em todos os glossários. É necessário configurar cada glossário para que sejam criados os alimentadores. ';
+$string['configenablerssfeeds'] = 'Este parâmetro autoriza a criação de alimentadores RSS em todos os glossários. É necessário configurar cada glossário para que sejam criados os alimentadores.';
 $string['currentglossary'] = 'Este glossário';
 $string['dateview'] = 'por data de inserção';
 $string['defaultapproval'] = 'Aprovação imediata de novos itens';
@@ -95,13 +95,14 @@ $string['explainalphabet'] = 'Navegar usando este índice';
 $string['explainexport'] = 'Foi criado um novo arquivo.<br /> Baixe o arquivo em um espaço seguro. Você pode importar este arquivo neste curso ou em um outro curso quando você quiser.';
 $string['explainimport'] = 'Você deve definir o arquivo a ser importado e os critérios de importação.<br /> Faça o envio e controle os resultados.';
 $string['explainspecial'] = 'Mostrar itens que não iniciam com letras';
+$string['exportedentry'] = 'Exportar item';
 $string['exportentries'] = 'Exportar itens';
 $string['exportfile'] = 'Exportar itens em arquivo';
 $string['exportglossary'] = 'Exportar glossário';
 $string['exporttomainglossary'] = 'Esportar glossário principal';
 $string['filetoimport'] = 'Arquivo a ser importado';
 $string['fillfields'] = 'Conceito e definição são campos obrigatórios';
-$string['filtername'] = 'Links automáticos ao glossário ';
+$string['filtername'] = 'Links automáticos ao glossário';
 $string['fullmatch'] = 'Criar links apenas a partir de palavras inteiras';
 $string['globalglossary'] = 'Glossário global';
 $string['glossaryleveldefaultsettings'] = 'Configurações predefinidas do glossário';

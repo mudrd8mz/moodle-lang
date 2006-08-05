@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.6 development (2006031600)
+      // block_rss_client.php - created with Moodle 1.6.1 (2006050510)
 
 
-$string['addfeed'] = 'Adicionar URL do alimentador de notícias: ';
+$string['addfeed'] = 'Adicionar URL do alimentador de notícias:';
 $string['addheadlineblock'] = 'Adicionar título do box RSS';
 $string['addnew'] = 'Adicionar Novo';
 $string['choosefeedlabel'] = 'Escolher os alimentadores que devem ser disponíveis neste box:';
@@ -34,8 +34,9 @@ $string['remotenewsfeed'] = 'Alimentador de notícias remoto';
 $string['seeallfeeds'] = 'Mostrar todos os alimentadores';
 $string['shownumentrieslabel'] = 'Número máximo de itens mostrados em cada box.';
 $string['submitters'] = 'Quem pode definir novos alimentadores RSS? Os alimentadores definidos podem ser disponibilizados em todas as páginas do site.';
+$string['timeout'] = 'blockrsstimeout';
 $string['timeoutdesc'] = 'Duração em minutos do alimentador rss na cache.';
-$string['updatefeed'] = 'Atualizar URL do alimentador de notícias : ';
+$string['updatefeed'] = 'Atualizar URL do alimentador de notícias :';
 $string['validatefeed'] = 'Validar alimentador';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 development (2006031600)
+      // admin.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['adminseesallevents'] = 'Os administradores podem ver todos os eventos';
@@ -26,6 +26,7 @@ $string['configallowusermailcharset'] = 'Ativando isto, cada usuário do site po
 $string['configallowuserthemes'] = 'Se esta opção estiver habilitada, os usuários poderão escolher seus próprios temas. Os temas do usuário se sobrepõem aos da plataforma (mas não aos do curso).';
 $string['configallusersaresitestudents'] = 'Em atividades da página inicial da instalação, todos os usuários devem ser considerados alunos? Se a resposta for \"Sim\", qualquer usuário cadastrado poderá participar como aluno nestas atividades. Se a resposta for \"Não\", só os usuários que já participam em pelo menos um curso poderão participar nestas atividades. Apenas os administradores e os professores especialmente designados podem atuar como professores nestas atividades da página inicial.';
 $string['configautologinguests'] = 'Os visitantes devem entrar como convidados automaticamente quando entram em cursos com acesso livre?';
+$string['configbloglevel'] = 'Esta opção permite a restrição do nível de acesso aos blogs deste site. Isto é aplicado ao contexto do usuário que ACESSA, mas não modifica as opções de autoria ou os tipos de texto publicados no blog. É possível também desabilitar totalmente o sistema de blogs do site.';
 $string['configcachetext'] = 'Em instalações maiores, que usam filtros de texto, esta configuração pode aumentar a rapidez do processamento. Cópias dos textos serão mantidas durante o período definido aqui. Um período muito breve pode, de fato, aumentar o tempo de processamento, mas um período muito longo significa que os textos levarão mais tempo para serem atualizados (com novos links, por exemplo).';
 $string['configclamactlikevirus'] = 'Tratar arquivos como vírus';
 $string['configclamdonothing'] = 'Tratar arquivos como OK';
@@ -40,6 +41,7 @@ $string['configdenyemailaddresses'] = 'Para recusar endereços de determinados d
 $string['configdigestmailtime'] = 'Quem escolher esta opção receberá todas as mensagens do fórum agrupadas em um sumário diário. Esta opção controla a hora do dia em que a mensagem diária é enviada (o primeiro cron depois deste horário fará o envio).';
 $string['configdisplayloginfailures'] = 'Isto mostra a informação sobre acessos mal sucedidos a usuários selecionados.';
 $string['configdocroot'] = 'Define o percurso de acesso até Moodle Docs. Você pode modificar este endereço se você quer usar um outro conjunto de documentos. Neste caso, mantenha a mesma estrutura e formato dos percursos utilizada em http://docs.moodle.org.';
+$string['configdoctonewwindow'] = 'Se você habilitar isto, as páginas de documentação do Moodle serão abertas em novas janelas do navegador';
 $string['configenablecourserequests'] = 'Isto permite que qualquer usuário faça um pedido de criação de curso.';
 $string['configenablerssfeeds'] = 'Esta chave habilita alimentadores RSS em toda o site. Os alimentadores RSS tem que ser habilitados também no painel de configuração de cada módulo que você pode acessar na página de administração do site.';
 $string['configenablerssfeedsdisabled'] = 'Não está disponível porque os alimentadores RSS estão desabilitados neste site. Para habilita-los, vá à configuração de Variáveis dentro no painel de Administração.';
@@ -182,16 +184,16 @@ $string['maintfileopenerror'] = 'Erro de abertura dos arquivos de manutenção';
 $string['maintinprogress'] = 'Progresso da manutenção...';
 $string['managelang'] = '<b>Administrar</b>';
 $string['mbstringrecommended'] = 'A instalação da MBSTRING library é altamente recomendável para melhorar a performanse do site, especialmente se o seu site suporta idiomas não-latinos.';
-$string['mediapluginavi'] = 'Ativar filtro .avi ';
-$string['mediapluginflv'] = 'Ativar filtro .flv ';
-$string['mediapluginmov'] = 'Ativar filtro .mov ';
-$string['mediapluginmp3'] = 'Ativar filtro .mp3 ';
-$string['mediapluginmpg'] = 'Ativar filtro .mpg ';
+$string['mediapluginavi'] = 'Ativar filtro .avi';
+$string['mediapluginflv'] = 'Ativar filtro .flv';
+$string['mediapluginmov'] = 'Ativar filtro .mov';
+$string['mediapluginmp3'] = 'Ativar filtro .mp3';
+$string['mediapluginmpg'] = 'Ativar filtro .mpg';
 $string['mediapluginram'] = 'Ativar filtro .ram';
 $string['mediapluginrm'] = 'Ativar filtro .rm';
 $string['mediapluginrpm'] = 'Ativar filtro .rpm';
-$string['mediapluginswf'] = 'Ativar filtro .swf ';
-$string['mediapluginwmv'] = 'Ativar filtro .wmv ';
+$string['mediapluginswf'] = 'Ativar filtro .swf';
+$string['mediapluginwmv'] = 'Ativar filtro .wmv';
 $string['mysql416bypassed'] = 'Entretanto, se o seu site usa apenas idiomas iso-8859-1 (latin), você pode continuar a usar a sua base de dados atual MySQL 4.1.12 (ou superior).';
 $string['mysql416required'] = 'MySQL 4.1.16 é a versão mínima necessária para ainstalação de Moodle 1.6 em modo que os daados possam ser convertidos para UTF-8.';
 $string['nolangupdateneeded'] = 'Todos os seus pacotes de idioma estão atualizados.';
@@ -199,16 +201,25 @@ $string['optionalmaintenancemessage'] = 'Mensagem opcional de manutenção';
 $string['order1'] = 'Primeiro';
 $string['order2'] = 'Segundo';
 $string['order3'] = 'Terceiro';
+$string['order4'] = 'Quarto';
 $string['pathconvert'] = 'Caminho do binário <i>convert</i>';
 $string['pathdvips'] = 'Caminho do binário <i>dvips</i>';
 $string['pathlatex'] = 'Caminho do binário <i>latex</i>';
+$string['pathtopgdump'] = 'Caminho do pg_dump';
+$string['pathtopgdumpdesc'] = 'Isto é necessário apenas se você tiver mais de um pg_dump no seu sistema (por exemplo, quando diversas versões de postgresql estão instaladas)';
+$string['pathtopgdumpinvalid'] = 'Caminho do pg_dump não válido - caminho errado ou não executável';
+$string['pathtopsql'] = 'Caminho do psql';
+$string['pathtopsqldesc'] = 'Isto é necessário apenas se você tiver mais de um psql no seu sistema (por exemplo, quando diversas versões de postgresql estão instaladas)';
+$string['pathtopsqlinvalid'] = 'Caminho do psql não válido - caminho errado ou não executável';
 $string['pgcluster'] = 'Cluster PostgreSQL';
 $string['pgclusterdescription'] = '<pre>PostgreSQL version/cluster parameter
 for command line operations.
 If you only have one postgresql
 on your system or you are not
 sure what this is, leave this blank.</pre>';
+$string['php50restricted'] = 'O PHP 5.0.x apresenta muitos problemas conhecidos, faça o upgrade para a versão 5.1.x ou faça o downgrade para a versão 4.3.x ou 4.4.x';
 $string['pleaseregister'] = 'Por favor registre este site (em seguida este botão será removido)';
+$string['releasenoteslink'] = 'Para obter informações sobre esta versão de Moodle, por favor visite a página <a target=\"_new\" href=\"$a\">Release Notes</a>';
 $string['remotelangnotavailable'] = 'Moodle não consegue acessar download.moodle.org. Não é possível fazer a atualização automática. Em alternativa, baixe os arquivos zip da lista abaixo, copie-os no diretório $a e descompacte-os manualmente.';
 $string['renameerrors'] = 'Erros em renomeações';
 $string['sitelangchanged'] = 'Idioma do site modificado com sucesso';

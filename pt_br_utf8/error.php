@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2006031600)
+      // error.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['adminprimarynoedit'] = 'Apenas o administrador principal pode alterar os seus dados';
@@ -28,6 +28,8 @@ $string['filenotfound'] = 'Sinto muito, o arquivo não foi encontrado';
 $string['forumblockingtoomanyposts'] = 'Você ultrapassou o limite de mensagens permitido neste fórum.';
 $string['groupalready'] = 'O usuário já participa do grupo $a';
 $string['groupunknown'] = 'O grupo $a não é associado ao curso especificado';
+$string['guestnoeditprofile'] = 'O usuário visitante não pode modificar o seu perfil';
+$string['guestnoeditprofileother'] = 'O perfil do usuário visitante não pode ser modificado';
 $string['invalidcourse'] = 'Curso não válido';
 $string['invalidfieldname'] = '\"$a\" não é um nome de campo válido';
 $string['invalidfiletype'] = '\"$a\" não é um tipo de arquivo válido';
@@ -45,15 +47,19 @@ $string['notavailable'] = 'Atualmente não é disponível';
 $string['onlyadmins'] = 'Apenas administradores podem fazer isto';
 $string['onlyeditingteachers'] = 'Apenas os tutores com direitos de edição podem fazer isto.';
 $string['onlyeditown'] = 'Você pode modificar apenas os seus dados';
+$string['pagenotexist'] = 'Erro incomum (tentativa de acessar uma página que não existe)';
+$string['pleasereport'] = 'Por favor dedique alguns minutos à descrição do que você estava tentando fazer quando aconteceu o erro:';
 $string['pluginrequirementsnotmet'] = 'O Plugin \"$a->pluginname\" ($a->pluginversion) não foi instalado. Isto requer uma nova versão de Moodle (você está usando a versão $a->currentmoodle, mas precisa da $a->requiremoodle).';
 $string['processingstops'] = 'Processamento interrompido aqui. Os demais registros foram ignorados.';
 $string['remotedownloadnotallowed'] = 'Não é permitido baixar componentes no seu servidor (allow_url_fopen está desabilitado).).<br /><br />Você deve baixar o arquivo <a href=\"$a->url\">$a->url</a> manualmente, copiar em \"$a->dest\" no seu servidor e descomprimir o arquivo nesta posição.';
 $string['restricteduser'] = 'Sinto muito, mas a sua conta atual, \"$a\" , não tem permissão para fazer isto.';
+$string['sendmessage'] = 'Mandar mensagem';
 $string['sessionerroruser'] = 'A sua sessão foi interrompida (time out). Por favor, faça um novo login.';
 $string['sessionerroruser2'] = 'Foi detectado um erro no servidor relativo ao seu login. Por favor faça um novo login no site ou feche todas as janelas do seu navegador antes de tentar novamente.';
 $string['sessionipnomatch'] = 'Sinto muito, mas parece que o seu número de IP mudou desde o seu primeiro login. Esta medida de segurança evita o roubo da sua identidade por crackers enquanto você estiver utilizando este site. Contate o administrador do site se você precisar de ajuda para resolver este problema.';
 $string['statscatchupmode'] = 'As estatísticas estão em modalidade de captura. Até agora $a->daysdone dias foram processados e $a->dayspending então pendentes. Faça um novo controle dauqi a pouco!';
 $string['unknowncourse'] = 'Curso \"$a\" desconhecido';
+$string['unknownuseraction'] = 'Sinto muito, não entendo esta ação do usuário';
 $string['usernotaddederror'] = 'Usuário \"$a\" não foi adicionado - erro indefinido';
 $string['usernotaddedregistered'] = 'Usuário \"$a\" não foi adicionado - já foi registrado antes';
 $string['usernotavailable'] = 'O acesso aos dados deste usuário é reservado.';

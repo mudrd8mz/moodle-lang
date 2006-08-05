@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6 development (2006031600)
+      // enrol_imsenterprise.php - created with Moodle 1.6.1 (2006050510)
 
 
-$string['aftersaving___'] = 'Assim que salvar as configurações, você pode desejar';
+$string['aftersaving...'] = 'Depois de salvar as suas opções, é possível que você queira';
 $string['allowunenrol'] = 'Permitir que o IMS data <strong>cancele a inscrição</strong> de alunos e professores';
 $string['basicsettings'] = 'Configuração básica';
 $string['coursesettings'] = 'Opções de dados do curso';
@@ -11,7 +11,7 @@ $string['createnewcourses'] = 'Criar novos (escondidos) cursos se não forem enc
 $string['createnewusers'] = 'Criar novas contas de usuários se ainda não forem registrados no Moodle';
 $string['cronfrequency'] = 'Freqüência de processamento';
 $string['deleteusers'] = 'Cancelar contas de usuários quando especificado em IMS data';
-$string['description'] = 'Este método controla repetidamente e processa textos com formatação especial no endereço que você indicar. O arquivo deve seguir as <a href=\'../help.php?module=enrol/imsenterprise&file=formatoverview.html\' target=\'_blank\'>IMS Enterprise specifications</a> e conter elemento XML relativos às pessoas, grupos e associações. ';
+$string['description'] = 'Este método controla repetidamente e processa textos com formatação especial no endereço que você indicar. O arquivo deve seguir as <a href=\'../help.php?module=enrol/imsenterprise&file=formatoverview.html\' target=\'_blank\'>IMS Enterprise specifications</a> e conter elemento XML relativos às pessoas, grupos e associações.';
 $string['doitnow'] = 'fazer importação IMS Enterprise imediatamente';
 $string['enrolname'] = 'Arquivo IMS Enterprise';
 $string['filelockedmail'] = 'O arquivo de texto que você está usando para inscrições baseadas em IMS ($a) não pode ser cancelado pelo processo cron. Isto significa que as autorizações do arquivo estão configuradas em modo errado. Por favor, corrija as permissões para que o Moodle possa cancelar o arquivo. Assim você evita que o arquivo seja processado repetidamente.';
