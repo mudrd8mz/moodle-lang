@@ -4,7 +4,7 @@ Versión:  1.6
 
 Coordinadores de traducción:
 
-Interface: 
+Interfaz: 
 	Benito Arias (barias@benitoarias.com)
 
 Archivos HELP y DOCS:
