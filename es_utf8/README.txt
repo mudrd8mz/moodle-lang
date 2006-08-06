@@ -28,6 +28,6 @@ Colaboradores:
 	Sergio Zúñiga (szuniga@vtr.net)
 	Juan David Martinez Pavony (juanmp@familia.com.co) 
 
-La traducción de Moodle al español se actualiza prácticamente cada día, inmediatamente después de aparecer los correspondientes cambios en el original en inglés, o cada vez que se advierte cualquier error o expresión incorrectamente traducida. Puede conseguir la última versión en http://download.moodle.org/download.php/lang/es.zip
+La traducción de Moodle al español se actualiza prácticamente cada día, inmediatamente después de aparecer los correspondientes cambios en el original en inglés, o cada vez que se advierte cualquier error o expresión incorrectamente traducida. Puede conseguir la última versión en http://download.moodle.org/lang16/es_utf8.zip
 
 Pretendemos mantener la versión española de Moodle actualizada y con la máxima calidad posible. Si encuentra alguna errata, o si cree que cualquier expresión puede traducirse de otro modo y así mejorar la comprensión del texto, comuníquelo por favor a los coordinadores de la traducción, o envíe un mensaje al foro de Traducción de Moodle al español (http://moodle.org/mod/forum/view.php?f=104). Gracias.
