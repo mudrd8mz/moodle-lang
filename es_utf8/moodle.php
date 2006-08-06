@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006052400)
+      // moodle.php - created with Moodle 1.6 (2006050506)
 
 
 $string['action'] = 'Acción';
@@ -702,9 +702,9 @@ $string['livelogs'] = 'Registros en vivo';
 $string['locale'] = 'es_ES.UTF-8';
 $string['location'] = 'Ubicación';
 $string['log_excel_date_format'] = 'yyyy mmmm d h:mm';
-$string['loggedinas'] = 'Usted está en el sistema como $a';
+$string['loggedinas'] = 'Usted se ha autentificado como $a';
 $string['loggedinasguest'] = 'En este momento está usando el acceso para invitados';
-$string['loggedinnot'] = 'Usted no está en el sistema.';
+$string['loggedinnot'] = 'Usted no se ha autentificado.';
 $string['login'] = 'Entrar';
 $string['login_failure_logs'] = 'Registro de fallos de acceso';
 $string['loginalready'] = 'Usted ya ha accedido al sistema';
@@ -748,6 +748,7 @@ $string['mainmenu'] = 'Menú principal';
 $string['makeafolder'] = 'Crear un directorio';
 $string['makeeditable'] = 'Si \'$a\' tiene CHMOD 777, usted puede editar el idioma desde aquí.';
 $string['manageblocks'] = 'Bloques';
+$string['managecourses'] = 'Gestionar cursos';
 $string['managedatabase'] = 'Administrar la base de datos';
 $string['managefilters'] = 'Filtros';
 $string['managemeta'] = '¿Es éste un metacurso?';
