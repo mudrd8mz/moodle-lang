@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // blog.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['addnewentry'] = '增加新条目';
@@ -19,6 +19,7 @@ $string['disableblogs'] = '完全禁止博客系统';
 $string['entrybody'] = '博客条目内容';
 $string['entrybodyonlydesc'] = '条目描述';
 $string['entryerrornotyours'] = '这不是您的条目';
+$string['entrysaved'] = '您的条目已经被保存';
 $string['entrytitle'] = '条目标题';
 $string['entryupdated'] = '博客条目已更新';
 $string['groupblog'] = '组博客：{$a}';

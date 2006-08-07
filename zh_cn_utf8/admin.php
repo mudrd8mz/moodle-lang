@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // admin.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['adminseesallevents'] = '管理员看到所有事件';
@@ -204,6 +204,7 @@ $string['optionalmaintenancemessage'] = '可选的维护信息';
 $string['order1'] = '第一';
 $string['order2'] = '第二';
 $string['order3'] = '第三';
+$string['order4'] = '第四';
 $string['pathconvert'] = '<i>convert</i>程序的路径';
 $string['pathdvips'] = '<i>dvips</i>程序的路径';
 $string['pathlatex'] = '<i>latex</i>程序的路径';
@@ -215,6 +216,7 @@ $string['pathtopsqldesc'] = '只有您的系统上有多个 psql 时您才需要
 $string['pathtopsqlinvalid'] = '无效的 psql 路径──错误的路径或无法执行';
 $string['pgcluster'] = 'PostgreSQL 集群';
 $string['pgclusterdescription'] = '命令行操作时使用的 PostgreSQL version/cluster 选项。如果您的系统上只有一个 postgresql 服务器或您不对此不确定，请将此选项留空。';
+$string['php50restricted'] = 'PHP 5.0.x有数个已知的问题，请升级到5.1.x或者降级到4.3.x或4.4.x';
 $string['pleaseregister'] = '要删除此按钮，请注册您的站点。';
 $string['releasenoteslink'] = '对于这个版本的 Moodle，请参考在线的 <a target=\"_new\" href=\"$a\">发行备忘录</a>。';
 $string['remotelangnotavailable'] = '由于 Moodle 无法连接到 download.moodle.org，我们无法自动完成语言包的安装。请从下面的列表中下载相应的 zip 文件，并将它们复制到 {$a} 目录中解压。';

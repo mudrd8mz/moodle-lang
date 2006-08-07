@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // moodle.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['action'] = '动作';
@@ -53,6 +53,7 @@ $string['adminhelpedituser'] = '浏览用户列表并编辑';
 $string['adminhelpenrolments'] = '选择内部或外部方式控制选课';
 $string['adminhelpenvironment'] = '检查您的服务器是否达到当前及未来的安装要求';
 $string['adminhelpfailurelogs'] = '浏览失败登录的日志';
+$string['adminhelphealthcenter'] = '自动监测站点问题';
 $string['adminhelplanguage'] = '检查编辑当前语言包';
 $string['adminhelplogs'] = '浏览日志';
 $string['adminhelpmanageblocks'] = '管理已安装的版块和设置';
@@ -326,8 +327,6 @@ $string['deleteselected'] = '删除选定的项';
 $string['deletingcourse'] = '正在删除$a';
 $string['deletingexistingcoursedata'] = '删除已存在的课程数据';
 $string['deletingolddata'] = '删除旧数据';
-$string['demoaccount'] = '演示帐户';
-$string['demoaccounthelp'] = '锁定这个帐户的密码和信息';
 $string['department'] = '系部';
 $string['description'] = '描述';
 $string['deselectall'] = '全不选';
@@ -544,10 +543,12 @@ $string['formatweeks'] = '星期格式';
 $string['formatweekscss'] = '星期格式 - CSS/无表格';
 $string['formatwiki'] = 'Wiki格式';
 $string['from'] = '开始于';
+$string['frontpagecategorycombo'] = '组合列表';
 $string['frontpagecategorynames'] = '显示类别列表';
 $string['frontpagecourselist'] = '显示课程列表';
 $string['frontpagedescription'] = '首页说明';
 $string['frontpageformat'] = '首页格式';
+$string['frontpageformatloggedin'] = '登录后的首页格式';
 $string['frontpagenews'] = '显示新闻项';
 $string['frontpagetopiconly'] = '显示可编辑的HTML或活动（主题区域）';
 $string['fulllistofcourses'] = '所有课程';
@@ -740,6 +741,7 @@ $string['mainmenu'] = '主菜单';
 $string['makeafolder'] = '新建一个文件夹';
 $string['makeeditable'] = '如果您设置“{$a}”为Web服务器进程(例如apache)可写，那么您可以在此页中直接编辑该文件';
 $string['manageblocks'] = '版块';
+$string['managecourses'] = '课程管理';
 $string['managedatabase'] = '管理数据库';
 $string['managefilters'] = '过滤器';
 $string['managemeta'] = '这是元课程么?';

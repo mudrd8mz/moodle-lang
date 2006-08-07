@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.5 ALPHA (2005050600)
+      // wiki.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['action'] = '-- 动作 --';
@@ -20,7 +20,7 @@ $string['canceledit'] = '取消';
 $string['cannotchangepage'] = '不能修改此页面。';
 $string['changes'] = '{$a}修改';
 $string['changesfield'] = '最后一次修改后多少个小时内';
-$string['changesfielderror'] = '请输入正确的小时数 ';
+$string['changesfielderror'] = '请输入正确的小时数';
 $string['checklinks'] = '检查链接';
 $string['checklinkscheck'] = '您确定要检查这个页面上的链接么：';
 $string['checklinksnotice'] = '请耐心等候';
@@ -68,6 +68,7 @@ $string['fileisoftype'] = '文件类型为';
 $string['filtername'] = 'Wiki页面自动链接';
 $string['flagbin'] = '二进制';
 $string['flaghtm'] = '网页';
+$string['flagoff'] = '关闭';
 $string['flagro'] = '只读';
 $string['flags'] = '标记';
 $string['flagsset'] = '标记已修改';
@@ -127,6 +128,7 @@ $string['plaintext'] = '纯文本';
 $string['preview'] = '预览';
 $string['readonly'] = '只读页面';
 $string['refs'] = '参考';
+$string['reloadlinktext'] = '刷新此页';
 $string['removenotice'] = '注意此处仅列出未被引用的页面。由于ewiki engine仅测试那些被引用的页面，因此此处可能会有遗漏。<br />如果您清空了一个页面，它也会被列在此处。同时也进行了其它不同的数据库诊断。';
 $string['removepagecheck'] = '您确定要删除这些页面么？';
 $string['removepages'] = '删除页面';
@@ -169,7 +171,7 @@ $string['versions'] = '版本';
 $string['versionstodelete'] = '要删除的版本';
 $string['viewpage'] = '显示页面';
 $string['viewsmfor'] = '显示站点地图';
-$string['wantedpages'] = '想要的页面';
+$string['wantedpages'] = '待建页面';
 $string['wikidefaultpagename'] = 'Wiki索引';
 $string['wikiexport'] = '输出页面';
 $string['wikiexportcomment'] = '您可以在此配置您想要倒出的。';
