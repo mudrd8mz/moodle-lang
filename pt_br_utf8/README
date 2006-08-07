@@ -2,21 +2,31 @@
 coordenador: Paula de Waal
 
 ATENÇÃO:
-ESTE PACOTE DE LINGUAS É MAIS ATUALIZADO DO QUE O PACOTE QUE SE ENCONTRA NO INSTALLER DE MOODLE SUBSTITUA OS ARQUIVOS CORRESPONDENTES E MANTENHA-SE INFORMADO SOBRE ATUALIZAÇÕES NO FORUM DA COMUNIDADE BRASILEIRA.
+ESTE PACOTE DE LINGUAS É MAIS ATUALIZADO DO QUE O PACOTE QUE SE ENCONTRA NO INSTALLER DE MOODLE
+SUBSTITUA OS ARQUIVOS CORRESPONDENTES E MANTENHA-SE INFORMADO SOBRE ATUALIZAÇÕES NO FORUM DA COMUNIDADE BRASILEIRA.
 
-Para participar do projeto de tradução ou indicar erros por favor contatar paula@dynamiclab.com ou participar do fórum Moodle Brasileiro em Moodle.org:
+O endereço para atualização dos arquivos de idioma recentes é 
+http://download.moodle.org/lang16/
+
+Para participar do projeto de tradução ou indicar erros por favor visitar o fórum Moodle Brasileiro em Moodle.org:
 http://moodle.org/course/view.php?id=35
 
 Estamos precisando de muuuita ajuda para a tradução da documentação técnica!
 
 Agradecemos a todos os moodlers brasileiros que estão sugerindo soluções para melhorar a tradução da interface nos fóruns da comunidade
 
-22/03/2005
+06/08/2006
+-------------------------------------
+Atualização dos arquivos php v. 1.6 por Paula de Waal
+
+
+
+22/03/2006
 -------------------------------------
 Ampla revisão ortográfica por G. Farias, controle do código por Paula de Waal
 
 
-20/03/2005
+20/03/2006
 -------------------------------------
 Pacote oficial atualizado por Paula de Waal para o lançamento da versão 1.6.
 Contribuiram com novos arquivos, Serafim e Mesquita.
