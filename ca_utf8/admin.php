@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 Beta 5 (2006050504)
+      // admin.php - created with Moodle 1.6.1+ (2006050511)
 
 
 $string['adminseesallevents'] = 'Els administradors veuen tots els esdeveniments';
@@ -41,10 +41,11 @@ $string['configdenyemailaddresses'] = 'Per refusar les adreces de correu de cert
 $string['configdigestmailtime'] = 'Les persones que triïn rebre el correu electrònic en format resum, el rebran una vegada al dia. Aquest paràmetre controla a quina hora s\'envia el resum diari (l\'enviarà el següent cron que s\'executi després d\'aquesta hora).';
 $string['configdisplayloginfailures'] = 'Aquest paràmetre permet que usuaris seleccionats visualitzin informació sobre intents d\'entrada erronis.';
 $string['configdocroot'] = 'Defineix el camí de Moodle Docs. Podeu canviar-lo si teniu la vostra documentació personalitzada en línia. Però, si ho feu, assegureu-vos que els camins dins la vostra documentació segueixen el mateix format que en http://docs.moodle.org.';
+$string['configdoctonewwindow'] = 'Si habiliteu aquesta opció, els enllaços a la documentació de Moodle s\'obriran en una finestra nova.';
 $string['configenablecourserequests'] = 'Això permetrà que qualsevol usuari sol·liciti la creació d\'un curs.';
 $string['configenablerssfeeds'] = 'Aquest commutador habilita l\'RSS per a tot el lloc. Per a utilitzar realment l\'RSS, l\'haureu d\'activar també en cada mòdul. Aneu als paràmetres dels mòduls en Administració > Configuració.';
 $string['configenablerssfeedsdisabled'] = 'No està disponible perquè l\'RSS està inhabilitat per a tot el lloc. Per habilitar-lo, aneu a la pantalla de variables en Administració > Configuració.';
-$string['configenablestats'] = 'Si trieu \'sí\', la tasca del cron de Moodle processarà els registres i recollirà algunes estadístiques. Això pot durar una estona, segons el tràfic del lloc. Si habiliteu aquesta opció podreu veure algunes gràfiques i estadístiques interessants referents a cada curs i al lloc complet. ';
+$string['configenablestats'] = 'Si trieu \'sí\', la tasca del cron de Moodle processarà els registres i recollirà algunes estadístiques. Això pot durar una estona, segons el tràfic del lloc. Si habiliteu aquesta opció podreu veure algunes gràfiques i estadístiques interessants referents a cada curs i al lloc complet.';
 $string['configenrolmentplugins'] = 'Trieu els connectors d\'inscripcions que vulgueu usar. No us descuideu de configurar els paràmetres correctament.<br /><br />Heu d\'indicar quins connectors cal habilitar i podeu definir <strong>un</strong> connector per defecte per a inscripcions <strong>interactives</strong>. Per inhabilitar les inscripcions interactives, poseu \"No\" en \"Permet inscripcions\" en els cursos que calgui.';
 $string['configerrorlevel'] = 'Trieu el nivell d\'avisos del PHP que voleu visualitzar. Generalment \'Normal\' és la millor opció.';
 $string['configextendedusernamechars'] = 'Habiliteu aquest paràmetre perquè els estudiants puguin usar qualsevol caràcter en el seu nom d\'usuari (no afecta els noms actuals). El valor per defecte és \"fals\", la qual cosa limita els noms d\'usuari a caràcters alfanumèrics.';
@@ -64,7 +65,7 @@ $string['configintro'] = 'En aquesta pàgina podeu especificar un gran nombre de
 $string['configintroadmin'] = 'En aquesta pàgina hauríeu de configurar el compte de l\'administrador principal que tindrà control complet sobre aquest lloc. Doneu-li un nom i una contrasenya segurs i una adreça de correu electrònic vàlida. Després podreu crear més comptes d\'administració.';
 $string['configintrosite'] = 'Aquesta pàgina us permet configurar la pàgina inicial i el nom d\'aquest lloc. Podeu tornar-hi després en qualsevol moment per canviar aquests paràmetres, per mitjà de l\'enllaç \"Paràmetres del lloc\" de la pàgina inicial.';
 $string['configintrotimezones'] = 'Aquesta pàgina cercarà informació nova sobre zones horàries (inclosos horaris d\'estiu) i actualitzarà la vostra base de dades. S\'inspeccionaran, per ordre, aquestes ubicacions: $a Aquest procediment generalment és molt segur i no pot perjudicar les instal·lacions normals. Desitgeu actualitzar ara les zones horàries?';
-$string['configlang'] = 'Trieu un idioma per defecte per a tot el lloc. Casa usuari podrà triar després el seu idioma. ';
+$string['configlang'] = 'Trieu un idioma per defecte per a tot el lloc. Casa usuari podrà triar després el seu idioma.';
 $string['configlangcache'] = 'Desar el menú d\'idiomes a la memòria cau. Estalvia molta memòria i potència de processament.Si habiliteu aquest paràmetre, el menú trigarà uns minuts a actualitzar-se quan afegiu o suprimiu idiomes.';
 $string['configlangdir'] = 'La majoria d\'idiomes s\'escriuen d\'esquerra a dreta, però alguns, com l\'àrab o l\'hebreu, s\'escriuen de dreta a esquerra.';
 $string['configlanglist'] = 'Deixeu en blanc aquest camp per tal que els usuaris puguin triar qualsevol idioma instal·lat. Si voleu abreujar el menú d\'idiomes, introduïu aquí una llista de codis separats per comes. Per exemple: ca,es_es,en,fr,it.';
@@ -104,7 +105,7 @@ $string['configsectionsecurity'] = 'Seguretat';
 $string['configsectionstats'] = 'Estadístiques';
 $string['configsectionuser'] = 'Usuari';
 $string['configsecureforms'] = 'Moodle pot fer servir un nivell addicional de seguretat quan accepta dades de formularis web. Si habiliteu aquesta opció, la variable HTTP_REFERER del navegador es compara amb l\'adreça real del formulari. En casos excepcionals això pot causar problemes si l\'usuari està utilitzant un tallafocs (p. ex. Zonealarm) configurar per suprimir l\'HTTP_REFERER del tràfic web. El símptoma habitual consisteix a quedar-se \'enganxat\' en un formulari. Si els vostres usuaris tenen problemes, per exemple, amb la pàgina d\'entrada, potser haureu d\'inhabilitar aquest paràmetre, tot i que llavors podríeu deixar el vostre lloc més obert a intents de desxifrar contrasenyes per força bruta. En cas de dubte, deixeu-lo en \'Sí\'.';
-$string['configsessioncookie'] = 'Aquest paràmetre personalitza el nom de la galeta utilitzada per a les sessions de Moodle. És opcional i només resulta útil per evitar que les galetes es confonguin quan s\'executen diferents còpies de Moodle en el mateix lloc web. ';
+$string['configsessioncookie'] = 'Aquest paràmetre personalitza el nom de la galeta utilitzada per a les sessions de Moodle. És opcional i només resulta útil per evitar que les galetes es confonguin quan s\'executen diferents còpies de Moodle en el mateix lloc web.';
 $string['configsessioncookiepath'] = 'Si necessiteu canviar el lloc on els navegadors envien les galetes de Moodle, podeu especificar un subdirectori del vostre web en aquest paràmetre. Si no, deixeu el directori \'/\' per defecte.';
 $string['configsessiontimeout'] = 'Si els usuaris que entren en aquest lloc estan inactius durant molt temps (no carreguen pàgines) se\'ls farà sortir automàticament (s\'acabarà la seva sessió). Aquesta variable especifica després de quant temps passa això.';
 $string['configshowblocksonmodpages'] = 'Alguns mòduls d\'activitat permeten l\'ús de blocs en les seves pàgines. Si activeu aquest paràmetre, els professors podran afegir blocs laterals en aqueixes pàgines. Si no, la interfície no els oferirà aquesta possibilitat.';
@@ -200,6 +201,7 @@ $string['optionalmaintenancemessage'] = 'Missatge opcional de manteniment';
 $string['order1'] = 'Primer';
 $string['order2'] = 'Segon';
 $string['order3'] = 'Tercer';
+$string['order4'] = 'Quart';
 $string['pathconvert'] = 'Camí del binari del <i>convert</i>';
 $string['pathdvips'] = 'Camí del binari del <i>dvips</i>';
 $string['pathlatex'] = 'Camí del binari del <i>latex</i>';

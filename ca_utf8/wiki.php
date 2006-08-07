@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6 development (2006031400)
+      // wiki.php - created with Moodle 1.6.1+ (2006050511)
 
 
 $string['action'] = '-- Acció --';
@@ -102,7 +102,7 @@ $string['mostoftenchangedpages'] = 'Pàgines modificades més sovint';
 $string['mostvisitedpages'] = 'Pàgines més llegides';
 $string['newestpages'] = 'Pàgines més noves';
 $string['noadministrationaction'] = 'Falta l\'acció d\'administració.';
-$string['nocandidatestoremove'] = 'No hi ha pàgines candidates per suprimir. Trieu \'$a\' per mostrar totes les pàgines. ';
+$string['nocandidatestoremove'] = 'No hi ha pàgines candidates per suprimir. Trieu \'$a\' per mostrar totes les pàgines.';
 $string['nochangestorevert'] = 'No hi ha canvis per desfer.';
 $string['nohtml'] = 'Sense HTML';
 $string['nolinksfound'] = 'No s\'han trobat enllaços en aquesta pàgina.';
@@ -130,6 +130,8 @@ $string['plaintext'] = 'Text';
 $string['preview'] = 'Previsualització';
 $string['readonly'] = 'Pàgina només de lectura';
 $string['refs'] = 'Referències';
+$string['reloadlinkdescription'] = 'Refresca la pàgina, de manera que es mostri qualsevol contingut nou.';
+$string['reloadlinktext'] = 'Refresca aquesta pàgina';
 $string['removenotice'] = 'Noteu que aquí només es llistaran les pàgines no referenciades. I com que el motor ewiki comprova d\'una manera molt limitada si hi ha referències o no a una pàgina, potser aquí se n\'ometran algunes.<br />Tanmateix, si primer buideu una pàgina, també es mostrarà aquí. També es faran altres diagnòstics de la base de dades.';
 $string['removepagecheck'] = 'Esteu segur que voleu suprimir aquestes pàgines?';
 $string['removepages'] = 'Suprimeix pàgines';
