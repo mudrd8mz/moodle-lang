@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006052400)
+      // forum.php - created with Moodle 1.6 (2006050506)
 
 
 $string['addanewdiscussion'] = 'Colocar un nuevo tema de discusión aquí';
@@ -49,6 +49,7 @@ $string['disallowsubscribe'] = 'No se permiten suscripciones';
 $string['disallowsubscribeteacher'] = 'No se permiten suscripciones (excepto para profesores)';
 $string['discussion'] = 'Tema';
 $string['discussionmoved'] = 'Este tema se ha movido a \'$a\'.';
+$string['discussionmovedpost'] = 'Esta discusión ha sido trasladada a <a href=\"$a->discusshref\">aquí</a> en el foro <a href=\"$a->forumhref\">$a->forumname</a>';
 $string['discussionname'] = 'Denominación';
 $string['discussions'] = 'Temas';
 $string['discussionsstartedby'] = 'Tema comenzado por $a';
@@ -103,6 +104,7 @@ $string['modethreaded'] = 'Mostrar respuestas por rama';
 $string['modulename'] = 'Foro';
 $string['modulenameplural'] = 'Foros';
 $string['more'] = ' más';
+$string['movedmarker'] = '(Trasladada)';
 $string['movethisdiscussionto'] = 'Mover este tema a...';
 $string['namenews'] = 'Novedades';
 $string['namesocial'] = 'Foro social';
