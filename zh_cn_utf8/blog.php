@@ -3,8 +3,8 @@
 
 
 $string['addnewentry'] = '增加新条目';
-$string['addotags'] = '添加官方分类';
-$string['addptags'] = '添加用户定义分类';
+$string['addotags'] = '添加官方标签';
+$string['addptags'] = '添加用户定义标签';
 $string['blockmenutitle'] = '博客目录';
 $string['blocktagstitle'] = '博客分类';
 $string['blocktitle'] = '博客分类的版块名称';
@@ -31,10 +31,10 @@ $string['norighttodeletetag'] = '您不能删除这个分类- {$a}';
 $string['notallowedtoedit'] = '您不能修改这个项目';
 $string['numberofentries'] = '条目：$a';
 $string['numberoftags'] = '要显示的分类数';
-$string['otags'] = '官方分类';
+$string['otags'] = '官方标签';
 $string['pagesize'] = '每页显示的条目数';
 $string['personalblogs'] = '用户只能浏览自己的博客';
-$string['ptags'] = '用户定义的条目';
+$string['ptags'] = '用户定义的标签';
 $string['publishto'] = '发布给';
 $string['publishtonoone'] = '你自己(草稿)';
 $string['publishtosite'] = '本站的所有人';
@@ -42,9 +42,9 @@ $string['publishtoworld'] = '所有地球人';
 $string['settingsupdatederror'] = '发生了错误，无法更新博客的使用偏好设定。';
 $string['siteblog'] = '站点博客：{$a}';
 $string['siteblogs'] = '所有用户均能浏览所有博客';
-$string['tagdatelastused'] = '使用了过时的分类';
+$string['tagdatelastused'] = '使用了过时的标签';
 $string['tagsort'] = '分类排序';
-$string['tagtext'] = '分类文字';
+$string['tagtext'] = '标签文字';
 $string['timewithin'] = '显示最近使用的分类';
 $string['updateentrywithid'] = '更新项目';
 $string['userblog'] = '用户博客：{$a}';

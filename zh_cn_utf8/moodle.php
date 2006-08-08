@@ -47,7 +47,7 @@ $string['adminhelpauthentication'] = '可使用网络帐户或外部数据';
 $string['adminhelpbackup'] = '设定备份参数';
 $string['adminhelpconfiguration'] = '设定网站外观及工作参数';
 $string['adminhelpconfigvariables'] = '设定基本变量';
-$string['adminhelpcourses'] = '设定课程,类别并为他们指派用户';
+$string['adminhelpcourses'] = '设定课程，类别并为他们指派用户';
 $string['adminhelpeditorsettings'] = '为HTML编辑器设定基本属性';
 $string['adminhelpedituser'] = '浏览用户列表并编辑';
 $string['adminhelpenrolments'] = '选择内部或外部方式控制选课';
@@ -65,7 +65,7 @@ $string['adminhelpreports'] = '站点级报表';
 $string['adminhelpsitefiles'] = '发布文件或上传备份';
 $string['adminhelpsitesettings'] = '定义首页外观';
 $string['adminhelpstickyblocks'] = '配置moodle全站的粘性版块';
-$string['adminhelpthemes'] = '选择外观(颜色,字体等)';
+$string['adminhelpthemes'] = '选择外观(颜色、字体等)';
 $string['adminhelpuploadusers'] = '从文本文件导入用户';
 $string['adminhelpusers'] = '定义用户并设定验证';
 $string['administration'] = '管理';
@@ -119,17 +119,17 @@ $string['availablecourses'] = '现有的课程';
 $string['backtoparticipants'] = '返回参与者列表';
 $string['backup'] = '备份';
 $string['backupcancelled'] = '备份被中断';
-$string['backupcoursefileshelp'] = '如果使用,课程文件将会被包含在自动备份中';
+$string['backupcoursefileshelp'] = '如果使用，课程文件将会被包含在自动备份中';
 $string['backupdate'] = '备份日期';
 $string['backupdetails'] = '备份细节';
 $string['backupfailed'] = '您的一些课程尚未保存!!';
 $string['backupfilename'] = '备份';
 $string['backupfinished'] = '备份成功';
 $string['backupincludemoduleshelp'] = '选择自动备份中是否包含带有或不带有用户数据的的课程模组';
-$string['backupkeephelp'] = '您想要为每门课程保存多少最近的备份? (比较旧的一些将会被自动划除)';
+$string['backupkeephelp'] = '您想要为每门课程保存多少最近的备份? (比较旧的一些将会被自动删除)';
 $string['backuplogdetailed'] = '详细的运行日志';
 $string['backuploglaststatus'] = '最后的运行日志';
-$string['backuplogshelp'] = '如果使用,课程记录将会被包含在自动备份中';
+$string['backuplogshelp'] = '如果使用，课程记录将会被包含在自动备份中';
 $string['backupmetacoursehelp'] = '如果使用，元课程信息(从选课数据继承)将会被包含在自动备份中';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['backupnoneusersinfo'] = '注意: 您选择了“不”备份用户，因此所有模块的备份功能都切换到“不备份用户信息”的模式。请注意“练习”和“工作室”模块与此种备份并不兼容，因此已经将它们完全关闭。';
@@ -379,13 +379,13 @@ $string['emailactive'] = 'E-mail已激活';
 $string['emailagain'] = 'E-mail (重复)';
 $string['emailcharset'] = 'E-mail字符集';
 $string['emailconfirm'] = '确认您的帐号';
-$string['emailconfirmation'] = '{$a->firstname}:
+$string['emailconfirmation'] = '{$a->firstname}：
 
 您好! 
 
-刚才您用您的电子邮箱地址在‘{$a->sitename}’上申请了一个新帐号。
+刚才您用您的电子邮箱地址在“{$a->sitename}上”申请了一个新帐号。
 
-如果要确认您的新帐号，请点击以下链接: 
+如果要确认您的新帐号，请点击以下链接： 
 
   $a->link
 
@@ -394,11 +394,11 @@ $string['emailconfirmation'] = '{$a->firstname}:
 
 敬礼! 
 
-‘{$a->sitename}’管理员
+“{$a->sitename}”管理员
 
 $a->admin';
 $string['emailconfirmationsubject'] = '$a: 帐号确认';
-$string['emailconfirmsent'] = '<p>一封已经发送到您的地址 <b>$a</b>。</p>
+$string['emailconfirmsent'] = '<p>一封邮件已经发送到您的地址 <b>$a</b>。</p>
 <p>这封邮件简要说明了您如何完成注册。</p>
 <p>如果您还遇到什么困难，请和站点管理员联系。</p>';
 $string['emaildigest'] = 'E-mail摘要类型';
@@ -479,8 +479,8 @@ $string['executeat'] = '执行';
 $string['existing'] = '已有';
 $string['existingadmins'] = '现有网站管理员';
 $string['existingcourse'] = '现有课程';
-$string['existingcourseadding'] = '现有课程,向其中添加数据';
-$string['existingcoursedeleting'] = '现有课程,先删除它';
+$string['existingcourseadding'] = '现有课程，向其中添加数据';
+$string['existingcoursedeleting'] = '现有课程，先删除它';
 $string['existingcreators'] = '现有的课程管理员';
 $string['existingstudents'] = '注册的学生';
 $string['existingteachers'] = '现有教师';
@@ -510,7 +510,7 @@ $string['failedloginattemptsall'] = '帐号{$a->accounts}共有{$a->attempts}次
 $string['feedback'] = '反馈';
 $string['file'] = '文件';
 $string['filemissing'] = '$a 找不到';
-$string['files'] = '文件管理';
+$string['files'] = '个文件';
 $string['filesfolders'] = '文件/文件夹';
 $string['filloutallfields'] = '请填完这个表单的所有空格';
 $string['findmorecourses'] = '查询更多课程...';
@@ -870,7 +870,7 @@ $string['nochange'] = '无变化';
 $string['nocoursesfound'] = '没有含关键词“{$a}”的课程';
 $string['nocoursesyet'] = '此类中无课程';
 $string['nodstpresets'] = '管理员未开启本站的夏时制功能';
-$string['noexistingadmins'] = '没有管理员,这是个严重的错误,您不应该看到这条信息才对。';
+$string['noexistingadmins'] = '没有管理员，这是个严重的错误，您不应该看到这条信息才对。';
 $string['noexistingcreators'] = '没有创建者';
 $string['noexistingstudents'] = '没有学生';
 $string['noexistingteachers'] = '没有教师';
@@ -938,7 +938,7 @@ $string['other'] = '其它';
 $string['outline'] = '概要';
 $string['outlinereport'] = '概要报告';
 $string['page'] = '页';
-$string['pageheaderconfigablock'] = '配置{%%fullname%%}中的版块';
+$string['pageheaderconfigablock'] = '配置“%%fullname%%”中的版块';
 $string['parentcoursenotfound'] = '父课程未找到!';
 $string['parentcoursenotmetacourse'] = '父课程不是元课程!';
 $string['parentfolder'] = '父文件夹';
@@ -1181,7 +1181,7 @@ $string['statsstudentwrites'] = '学生摘要';
 $string['statsteacheractivity'] = '老师活动';
 $string['statsteacherreads'] = '老师视图';
 $string['statsteacherwrites'] = '老师摘要';
-$string['statstimeperiod'] = '剩下的学时';
+$string['statstimeperiod'] = '统计周期——过去的：';
 $string['statsuniquelogins'] = '唯一登陆';
 $string['statsuseractivity'] = '所有活动';
 $string['statsuserlogins'] = '登陆';

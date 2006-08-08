@@ -6,4 +6,4 @@ by copying new font into this directory and renaming it
 to default.ttf
 
 Recommended fonts:
-?
+ukai.ttf

@@ -41,6 +41,7 @@ $string['configdenyemailaddresses'] = '要拒绝某些域名的电邮地址，�
 $string['configdigestmailtime'] = '系统每天会给那些希望以文摘形式接受邮件的人发送文摘。这个选项控制着每日发送文摘邮件的时间(下一个在此时间后运行的cron程序将会发出这些信件)。';
 $string['configdisplayloginfailures'] = '为指定用户显示登录失败的日志。';
 $string['configdocroot'] = '定义一个指向Moodle文档的路径。通过修改这个配置，您可以将其指向您自己的在线文档。当然，您要注意您的在线文档的路径组织要和 http://docs.moodle.org 的一致。';
+$string['configdoctonewwindow'] = '开启这个选项，那么到Moodle文档的链接都将在新窗口中打开。';
 $string['configenablecourserequests'] = '开启这个选项，允许任何人申请创建新的课程。';
 $string['configenablerssfeeds'] = '这个选项允许所有的论坛支持RSS种子。您仍需手工激活每一个论坛配置中的RSS种子选项。';
 $string['configenablerssfeedsdisabled'] = '由于RSS种子已经在整个站点关闭了，因此无法使用。要开启它，访问管理中的变量设置。';
