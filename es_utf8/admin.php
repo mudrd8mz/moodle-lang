@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006052400)
+      // admin.php - created with Moodle 1.6 (2006050506)
 
 
 $string['adminseesallevents'] = 'Los administradores ven todos los eventos';
@@ -41,6 +41,7 @@ $string['configdenyemailaddresses'] = 'Para denegar direcciones de email de domi
 $string['configdigestmailtime'] = 'Se enviará un resumen de los correos a las personas que eligen dicha opción. Este ajuste controla a qué hora del día se enviará el correo (por medio del primer cron que se ejecute después de la hora fijada).';
 $string['configdisplayloginfailures'] = 'Esta opción muestra información a los usuarios seleccionados sobre intentos previos de acceso fallidos.';
 $string['configdocroot'] = 'Define la ruta a Moodle Docs. Puede cambiar esta opción si desea tener su propia documentación personalizada en línea. No obstante, si lo hace así, asegúrese de que las rutas de su documentación siguen el mismo formato que http://docs.moodle.org.';
+$string['configdoctonewwindow'] = 'Si habilita esta opción, los enlaces a Moodle Docs se mostrarán en una nueva ventana.';
 $string['configenablecourserequests'] = 'Permite que cualquier usuario solicite la creación de un curso.';
 $string['configenablerssfeeds'] = 'Esta opción posibilita el acceso a canales RSS. Para ver cualquier cambio es necesario también activar los canales RSS en los módulos individuales (vaya a los ajustes de Módulos en Admin - Configuración).';
 $string['configenablerssfeedsdisabled'] = 'No está disponible porque los canales RSS están desactivados en todo el sitio. Para activarlos, vaya a Variables en Admin - Configuración.';
@@ -93,7 +94,7 @@ $string['configrequestedteachersname'] = 'Término utilizado para \'profesores\'
 $string['configrestrictbydefault'] = '¿Deberían los cursos nuevos incluídos en la categoría anterior tener sus módulos restringidos por defecto?';
 $string['configrestrictmodulesfor'] = '¿Qué cursos deberían contener <b>la opción</b> de deshabilitar algunos módulos de actividad?';
 $string['configrunclamonupload'] = '¿Deberá ejecutarse clam AV cuando se sube un archivo? Para que esto funcione es necesaria una ruta correcta \'pathtoclam\'. (Clam AV es un programa antivirus gratuito que se puede bajar de http://www.clamav.net/)';
-$string['configsectioninterface'] = 'Interface';
+$string['configsectioninterface'] = 'Interfaz';
 $string['configsectionmail'] = 'Correo electrónico';
 $string['configsectionmaintenance'] = 'Mantenimiento';
 $string['configsectionmisc'] = 'Miscelánea';
@@ -107,7 +108,7 @@ $string['configsecureforms'] = 'Moodle puede usar un nivel adicional de segurida
 $string['configsessioncookie'] = 'Esta opción personaliza el nombre de la cookie usada para las sesiones de Moodle. Es opcional, y resulta útil únicamente para evitar que las cookies se confundan cuando hay más de una copia de Moodle ejecutándose en el mismo sitio web.';
 $string['configsessioncookiepath'] = 'Si necesita cambiar el lugar al que los navegadores envían las cookies de Moodle, puede cambiar esta opción para especifirar un subdirectorio de su sitio web. En otro caso, funcionará bien el \'/\' por defecto.';
 $string['configsessiontimeout'] = 'Si los usuarios conectados al sitio están inactivos durante mucho tiempo (i.e., sin cargar páginas), serán desconectados automáticamente (i.e., terminará la sesión). Esta variable especifica el tiempo de inactividad antes de la desconexión.';
-$string['configshowblocksonmodpages'] = 'Algunos módulos de actividad soportan bloques en sus páginas. Si selecciona esta opción, los profesores podrán añadir bloques laterales a sus páginas. En caso contrario, la interface no mostrará esta característica.';
+$string['configshowblocksonmodpages'] = 'Algunos módulos de actividad adminten bloques en sus páginas. Si selecciona esta opción, los profesores podrán añadir bloques laterales a sus páginas. En caso contrario, la interfaz no mostrará esta característica.';
 $string['configshowsiteparticipantslist'] = 'Todos los estudiantes y profesores del sitio aparecerán en la lista de participantes. ¿Quién puede ver esa lista?';
 $string['configsitemailcharset'] = 'Todos los emails generados por su sitio se enviarán en el juego de caracteres que aquí se especifique. En cualquier caso, cada usuario individual podrá ajustar esta opción si está habilitado el siguiente ajuste.';
 $string['configsitepolicy'] = 'Si su política exige que todos los usuarios lean y acepten sus condiciones antes de usar el sitio, especifique aquí la URL; en caso contrario, déjelo en blanco. La URL puede ser cualquier dirección (un lugar conveniente podría ser un fichero en el propio sitio, e.g., http://yoursite/file.php/1/policy.html)';
@@ -200,6 +201,7 @@ $string['optionalmaintenancemessage'] = 'Mensaje de mantenimiento opcional';
 $string['order1'] = 'Primero';
 $string['order2'] = 'Segundo';
 $string['order3'] = 'Tercero';
+$string['order4'] = 'Cuarto';
 $string['pathconvert'] = 'Ruta de <i>convert</i> binario';
 $string['pathdvips'] = 'Ruta de <i>dvips</i> binario';
 $string['pathlatex'] = 'Ruta de <i>latex</i> binario';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006052400)
+      // enrol_authorize.php - created with Moodle 1.6 (2006050506)
 
 
 $string['adminacceptccs'] = '¿Qué tarjetas de crédito se aceptan?';
@@ -75,6 +75,7 @@ $string['ccvv'] = 'CV2';
 $string['ccvvhelp'] = 'Mire el reverso de la tarjeta (3 últimos dígitos)';
 $string['choosemethod'] = 'Si conoce la clave de matriculación en el curso, escríbala; en caso contrario, necesitará pagar para acceder al curso.';
 $string['chooseone'] = 'Rellene uno o ambos de los siguientes dos campos';
+$string['costdefaultdesc'] = '<strong>En los ajustes del curso, escriba -1</strong> en el campo de costo para usar dicho costo por defecto.';
 $string['cutofftime'] = 'Tiempo límite para la transacción. ¿Cuándo será captada la última transacción para liquidación?';
 $string['delete'] = 'Destruir';
 $string['description'] = 'El módulo Authorize.net le permite ajustar cursos de pago vía proveedores CC. Si el costo de cualquier curso es cero, no se pedirá a los estudiantes que paguen. Existe un costo del sitio que usted ajusta aquí por defecto para todo el sitio y además un ajuste por curso que puede efectuar para cada curso individualmente. El costo del curso pasa por alto el costo del sitio.';
@@ -154,6 +155,9 @@ $string['transid'] = 'ID Transacción';
 $string['unenrolstudent'] = '¿Dar de baja al estudiante?';
 $string['void'] = 'Cancelación';
 $string['voidyes'] = 'La transacción será cancelada. ¿Está seguro?';
+$string['welcometocoursesemail'] = 'Estimado estudiante,
+
+Gracias por enviar su pago. Está matriculado en los siguientes cursos:';
 $string['youcantdo'] = 'No puede realizar esta acción: $a->action';
 $string['zipcode'] = 'Código postal';
 

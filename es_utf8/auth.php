@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // auth.php - created with Moodle 1.6 (2006050506)
 
 
 $string['alternatelogin'] = 'Si introduce aquí una URL, se usará como página de acceso al sitio. La página debería contener un formulario cuya propiedad de acción está ajustada a <strong>\'$a\'</strong> y devuelve los campos <strong>nombre de usuario</strong> y <strong>contraseña</strong>.<br />Procure no introducir una URL incorrecta puesto que hacerlo supondrá su expulsión del sitio.<br />Deje el ajuste en blanco para utilizar la página de acceso por defecto.';
@@ -156,6 +156,6 @@ $string['unlockedifempty'] = 'Desbloqueado si está vacío';
 $string['update_never'] = 'Nunca';
 $string['update_oncreate'] = 'Al crearse';
 $string['update_onlogin'] = 'En cada acceso';
-$string['update_onupdate'] = 'En la actualización';
+$string['update_onupdate'] = 'Al actualizar';
 
 ?>

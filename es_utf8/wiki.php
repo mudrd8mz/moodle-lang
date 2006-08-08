@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // wiki.php - created with Moodle 1.6 (2006050506)
 
 
 $string['action'] = '-- Acción --';
@@ -130,6 +130,8 @@ $string['plaintext'] = 'Texto plano';
 $string['preview'] = 'Ver';
 $string['readonly'] = 'Página de sólo lectura';
 $string['refs'] = 'Referencias';
+$string['reloadlinkdescription'] = 'Vuelve a cargarse la página, de modo que puede verse cualquier contenido nuevo.';
+$string['reloadlinktext'] = 'Volver a cargar esta página';
 $string['removenotice'] = 'Observe que aquí sólo se pueden listar las páginas sin referencia. Y, debido a que la máquina ewiki por sí misma sólo efectúa una prueba limitada si una página tiene referencias, puede perder algunas.<br />Sin embargo, si usted vacía primero una página, también aparecerá en esta lista. Se llevan a cabo asimismo otros diagnósticos de la base de datos.';
 $string['removepagecheck'] = '¿Está seguro de que quiere eliminar estas páginas?';
 $string['removepages'] = 'Eliminar páginas';

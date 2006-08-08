@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005042100)
+      // message.php - created with Moodle 1.6 (2006050506)
 
 
 $string['addcontact'] = 'Añadir contacto';
@@ -24,7 +24,7 @@ $string['emailtagline'] = 'Este email es una copia de un mensaje que usted envi�
 $string['emptysearchstring'] = 'Debe buscar algo';
 $string['formorethan'] = 'Durante más de';
 $string['includeblockedusers'] = 'Incluir usuarios bloqueados';
-$string['incomingcontacts'] = 'Contactos Agregados ($a)';
+$string['incomingcontacts'] = 'Contactos Entrantes ($a)';
 $string['keywords'] = 'Palabras-clave';
 $string['keywordssearchresults'] = 'Resultados de la búsqueda: $a mensajes encontrados';
 $string['maxmessages'] = 'Número máximo de mensajes para mostrar en la historia de la discusión';
