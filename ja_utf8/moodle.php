@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006071800)
+      // moodle.php - created with Moodle 1.7 dev (2006080400)
 
 
 $string['action'] = '操作';
@@ -71,6 +71,7 @@ $string['adminhelpusers'] = 'ユーザの定義および認証の設定を行い
 $string['adminhelpxmldbeditor'] = 'XMLDBファイルを編集するためのインターフェースです。開発者のみ利用できます。';
 $string['administration'] = '管理';
 $string['administrator'] = '管理者';
+$string['administratordescription'] = '通常、管理者はサイト内のすべてのコースでどのような作業でも行うことができます。';
 $string['administrators'] = '管理者';
 $string['administratorsall'] = 'すべての管理者';
 $string['administratorsandteachers'] = '管理者および教師';
@@ -230,6 +231,7 @@ $string['coursebackup'] = 'コースバックアップ';
 $string['coursecategories'] = 'コースカテゴリ';
 $string['coursecategory'] = 'コースカテゴリ';
 $string['coursecreators'] = 'コース作成者';
+$string['coursecreatorsdescription'] = 'コース作成者は、新しいコースの作成およびコース内での教育を行うことができます。';
 $string['coursefiles'] = 'コースファイル';
 $string['courseformats'] = 'コースフォーマット';
 $string['coursegrades'] = 'コース評定';
@@ -307,9 +309,11 @@ $string['default'] = 'デフォルト';
 $string['defaultcoursefullname'] = 'コースフルネーム 101';
 $string['defaultcourseshortname'] = 'CF101';
 $string['defaultcoursestudent'] = '学生';
+$string['defaultcoursestudentdescription'] = '通常、学生はコース内でより少ない権限があります。';
 $string['defaultcoursestudents'] = '学生';
 $string['defaultcoursesummary'] = 'コースに関する簡単な説明を記入してください。';
 $string['defaultcourseteacher'] = '教師';
+$string['defaultcourseteacherdescription'] = '教師は、活動の変更および学生の評定を含み、コース内でどのような作業でも行うことができます。';
 $string['defaultcourseteachers'] = '教師';
 $string['delete'] = '削除';
 $string['deleteall'] = 'すべてを削除';
@@ -584,6 +588,8 @@ $string['groups'] = 'グループ';
 $string['groupsnone'] = 'グループなし';
 $string['groupsseparate'] = '分離グループ';
 $string['groupsvisible'] = '可視グループ';
+$string['guest'] = 'ゲスト';
+$string['guestdescription'] = 'ゲストは最小限の権限があり、通常どこでもテキストを入力することはできません。';
 $string['guestskey'] = 'キーを持っているゲストを許可する';
 $string['guestsno'] = 'ゲストを許可しない';
 $string['guestsnotallowed'] = '申し訳ございません、「 $a 」ではゲストでの入室は許可されていません。';
@@ -886,6 +892,8 @@ $string['noimagesyet'] = 'コースにイメージがアップロードされて
 $string['nomorecourses'] = '該当するコースが見つかりませんでした。';
 $string['nomoreidnumber'] = '重複を回避するためのIDナンバーは使用されていません。';
 $string['none'] = 'なし';
+$string['noneditingteacher'] = '編集権限のない教師';
+$string['noneditingteacherdescription'] = '編集権限のない教師は、コース内での教育および学生の評定ができますが、活動を変更することはできません。';
 $string['nopendingcourses'] = '承認処理中のコースはありません。';
 $string['nopotentialadmins'] = '潜在的な管理者は登録されていません。';
 $string['nopotentialcreators'] = '潜在的なコース作成者は登録されていません。';
