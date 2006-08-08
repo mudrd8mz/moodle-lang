@@ -194,6 +194,7 @@ $string['mediapluginram'] = '.ramフィルタを有効にする';
 $string['mediapluginrm'] = '.rmフィルタを有効にする';
 $string['mediapluginrpm'] = '.rpmフィルタを有効にする';
 $string['mediapluginswf'] = '.swfフィルタを有効にする';
+$string['mediapluginswfnote'] = 'デフォルトのセキュリティ対策として、通常のユーザはswfフラッシュファイルを埋め込むことは許可されていません。';
 $string['mediapluginwmv'] = '.wmvフィルタを有効にする';
 $string['mysql416bypassed'] = 'あなたのサイトが iso-8859-1 ( ラテン ) 言語のみ使用している場合、現在インストールされている MySQL 4.1.12 ( またはそれ以上 ) を使用することができます。';
 $string['mysql416required'] = 'Moodle1.6では、将来すべてのデータをUTF-8に変換するため、MySQL 4.1.16 が要求される最低限のバージョンです。';
