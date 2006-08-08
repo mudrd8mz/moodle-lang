@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6.1 (2006050510)
+      // admin.php - created with Moodle 1.7 dev (2006080400)
 
 
 $string['adminseesallevents'] = 'Yöneticiler bütün olayları görür';
@@ -175,6 +175,7 @@ $string['mediapluginram'] = '.RAM filtresini etkinleştir';
 $string['mediapluginrm'] = '.RM filtresini etkinleştir';
 $string['mediapluginrpm'] = '.RPM filtresini etkinleştir';
 $string['mediapluginswf'] = '.SWF filtresini etkinleştir';
+$string['mediapluginswfnote'] = 'Varsayılan güvenlik önlemi olarak normal kullanıcıların sayfaya swf flash dosyalarını gömmelerine izin verilmemesi tavsiye edilir.';
 $string['mediapluginwmv'] = '.WMV filtresini etkinleştir';
 $string['mysql416bypassed'] = 'Siteniz SADECE iso-8859-1 (latin) dillerini kullanıyorsa şimdiki kurulu  MySQL 4.1.12 (veya yüksek) veritabanını kullanmaya devam edebilirsiniz.';
 $string['mysql416required'] = 'Moodle 1.6 için ilerde tüm verilerin UTF-8\'e çevrilebilmesinin garantilenmesi için en az MySQL 4.1.16 kurulu olması gerekir.';
