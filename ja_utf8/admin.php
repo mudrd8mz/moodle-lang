@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006071800)
+      // admin.php - created with Moodle 1.7 dev (2006080900)
 
 
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示';
@@ -79,9 +79,9 @@ $string['configmaxeditingtime'] = 'ここではフォーラムの投稿や用語
 $string['configmessaging'] = 'サイトのユーザ間でメッセージシステムを利用できるようにしますか?';
 $string['configmymoodleredirect'] = 'この設定は、管理者以外のユーザをログイン後、 /my に強制的にリダイレクトし、トップレベルのサイト・ブレッドクラムを /my に置き換えます。';
 $string['confignoreplyaddress'] = 'Moodleでは、メールがユーザに送信される場合があります ( 例 フォーラムの投稿 )。ここで設定するメールアドレスは、「From」に使用され、受信者が直接送信者に返信できないようにします ( 例 ユーザが個人のメールアドレスを隠す設定を行っている場合 )。';
-$string['confignotifyloginfailures'] = 'ログインに失敗した場合、メールによる通知を行うことができます。誰がメール通知を受け取りますか?';
-$string['confignotifyloginthreshold'] = 'ログイン失敗通知が有効の場合、同一ユーザまたはIPアドレスが何回ログインに失敗するとメール通知しますか?';
-$string['configopentogoogle'] = 'この設定を「Yes」にした場合、Googleはあなたのサイトにゲストとして入ることができます。さらにGoogleがゲストとして自動的に記録したデータを元に、他の人があなたのサイトにアクセスできます。これはすでにゲストアクセスを許可している場合の透過アクセスのみを提供します。';
+$string['confignotifyloginfailures'] = 'ログイン失敗が記録された場合、通知メールを送信することができます。誰が通知メールを受け取りますか?';
+$string['confignotifyloginthreshold'] = 'ログイン失敗の通知 ( notifyloginfailures ) が有効の場合、同一ユーザまたはIPアドレスで何回ログインに失敗すると通知メールを送信しますか?';
+$string['configopentogoogle'] = 'この設定を「Yes」にした場合、Googleはあなたのサイトにゲストとして入ることができます。さらにGoogleが自動的に記録したデータを元に、他の人がゲストとしてあなたのサイトにアクセスできます。これは、すでにゲストアクセスを許可しているコースのみに、透過アクセスを提供します。';
 $string['configpathtoclam'] = 'clam AVのパス。おそらく /usr/bin/clamscan または /usr/bin/clamdscan のようになります。clam AVを正常に動作させるため、clam AVのパスを設定してください。';
 $string['configpathtodu'] = 'duのパス。おそらく /usr/bin/du のようになります。duのパスを設定した場合、ディレクトリコンテンツを表示するページの表示速度は、多くのファイルを含んだディレクトリに関して、はるかに速くなります。';
 $string['configperfdebug'] = 'この設定を「Yes」にした場合、パフォーマンス情報がスタンダードテーマのフッタに表示されます。';
