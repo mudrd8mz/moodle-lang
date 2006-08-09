@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 + (2006050506)
+      // admin.php - created with Moodle 1.6.1+ (2006050511)
 
 
 $string['adminseesallevents'] = 'Ylläpitäjät näkevät kaikki tapahtumat';
@@ -45,7 +45,7 @@ $string['configerrorlevel'] = 'Valitse kuinka paljon PHP-varoituksia haluat näy
 $string['configextendedusernamechars'] = 'Tätä asetusta käyttämällä voit antaa oppilaille oikeuden käyttää käyttäjänimissään mitä tahansa merkkejä (tämä ei kuitenkaan koske heidän oikeita nimiään). Oletusarvo asetukselle on \"false\", joka rajoittaa käytettävissä olevat merkit aakkosnumeerisiin merkkeihin.';
 $string['configfilterall'] = 'Suodata kaikki merkkijonot, mukaan lukien otsikot, navikaatiopalkki, jne. Tämä on hyödyllistä lähinnä käytettäessä monikielistä suodatinta, muuten tämä vain kuormittaa palvelinta turhaan, tuottamatta merkittävää hyötyä.';
 $string['configfilteruploadedfiles'] = 'Tämän asetuksen valinta käskee Moodlen käsitellä kaikki palvelimelle kopioidut HTML- ja tekstitiedostot suodattimilla ennen kuin ne näytetään .';
-$string['configforcelogin'] = 'Yleensä sivuston etusivu ja kurssilista (muttei kurssien sisältö) on kaikkien sivustolle saapuneiden nähtävillä ilman sisäänkirjautumista. Jos haluat, että käyttäjien on kirjauduttava sisään ennen kuin he voivat tehdä MITÄÄN sivustolla, laita tämä asetus päälle. ';
+$string['configforcelogin'] = 'Yleensä sivuston etusivu ja kurssilista (muttei kurssien sisältö) on kaikkien sivustolle saapuneiden nähtävillä ilman sisäänkirjautumista. Jos haluat, että käyttäjien on kirjauduttava sisään ennen kuin he voivat tehdä MITÄÄN sivustolla, laita tämä asetus päälle.';
 $string['configforceloginforprofiles'] = 'Ota tämä asetus käyttöön, jos haluat että käyttäjät kirjautuvat sisään (eivät siis ole vieraita) ennen kuin he voivat nähdä käyttäjäprofiilisivuja. Oletusarvoisesti tämä ei ole päällä (asetus \"Ei\"), jotta mahdolliset tulevat oppilaat voivat lukea jokaisen kurssin opettajista, mutta tämä tarkoittaa myös sitä että hakukoneet näkevät sivut.';
 $string['configframename'] = 'Jos sijoitat Moodlen kehykseen verkkosivulla, kirjoita kyseisen kehyksen nimi tähän. Muuten tämän kohdan voi jättää ennalleen (\'_top\').';
 $string['configfullnamedisplay'] = 'Tämä määrittää kuinka nimet näytetään silloin, kun nimet näytetään kokonaisuudessaan. Useimmille vain yhtä kieltä käyttäville sivuilla toimii asetus \"Etunimet + Sukunimet\", mutta voit myös kätkeä sukunimet kokonaan, tai antaa valitun kielipaketin päättää muodosta (eri kielissä on eri tapoja).';
@@ -62,8 +62,8 @@ $string['configlangdir'] = 'Useimmat kielet kirjoitetaan vasemmalta oikelle, mut
 $string['configlanglist'] = 'Jätä tämä tyhjäksi antaaksesi käyttäjien kaikista Moodleen asentamistasi kielistä. Voit lyhentää kielivalikkoa kirjoittamalla halutut kielet tähän pilkulla erottuina. Esimerkki: fi,en,es_es,fr,it';
 $string['configlangmenu'] = 'Valitse näytetäänkö kielivalikko kotisivulla, kirjautumissivulla, jne. Tämä ei vaikuta käyttäjien kykyyn valita haluamansa kielen profiileissaan.';
 $string['configlocale'] = 'Valitse koko sivustoa koskeva maa-asetus, joka vaikuttaa päivämäärien moutoon ja kieleen. Maa-asetuksen vaatimien tietojen täytyy olla asennettuna (esim.  fi_FI tai en_US). Jos et osaa valita, jätä tyhjäksi.';
-$string['configloginhttps'] = 'Kun tämä asetus on asetettu päälle, Moodle käyttää suojattua https-yhteyttä vain kirjautumissivulle (mahdollistaen turvallisen kirjautumisen) ja tämän jälkeen palaa käyttämään tavallista http:tä lisänopeuden saavuttamiseksi. HUOMIOI: tätä asetusta käytettäessä https:n TÄYTYY olla valittuna palvelimen asetuksissa - jos näin ei ole, SAATAT LUKITA ITSESI SIVUSTOLTASI. ';
-$string['configloglifetime'] = 'Tässä määritellään kuinka kauan haluat säilyttää lokitiedostoja käyttäjien toimista. Tätä asetusta vanhemmat lokitiedostot poistetaan automaattisesti. On parasta säilyttää lokitiedostot mahdollisimman kauan, koska saatat tarvita niitä. Mutta jos palvelimesi liikenne on erittäin vilkasta ja sillä esiintyy suorituskykyyn liittyviä ongelmia,  kannatta ehkä laskea lokien säilytysaikaa. ';
+$string['configloginhttps'] = 'Kun tämä asetus on asetettu päälle, Moodle käyttää suojattua https-yhteyttä vain kirjautumissivulle (mahdollistaen turvallisen kirjautumisen) ja tämän jälkeen palaa käyttämään tavallista http:tä lisänopeuden saavuttamiseksi. HUOMIOI: tätä asetusta käytettäessä https:n TÄYTYY olla valittuna palvelimen asetuksissa - jos näin ei ole, SAATAT LUKITA ITSESI SIVUSTOLTASI.';
+$string['configloglifetime'] = 'Tässä määritellään kuinka kauan haluat säilyttää lokitiedostoja käyttäjien toimista. Tätä asetusta vanhemmat lokitiedostot poistetaan automaattisesti. On parasta säilyttää lokitiedostot mahdollisimman kauan, koska saatat tarvita niitä. Mutta jos palvelimesi liikenne on erittäin vilkasta ja sillä esiintyy suorituskykyyn liittyviä ongelmia,  kannatta ehkä laskea lokien säilytysaikaa.';
 $string['configlongtimenosee'] = 'Jos oppilaat eivät ole kirjautuneet sisään pitkään aikaan, heidät poistetaan automaattisesti kursseilta. Tämä asetus määrittelee tuon ajan.';
 $string['configmaxbytes'] = 'Tämä asetus määrittelee palvelimelle kopioitavien tiedostojen suurimman koon koko sivustolle. Tämän asetuksen yläraja riippuu PHP:n upload_max_filesize-asetuksesta ja Apachen LimitRequestBody-aetuksesta. Tämä asetus taas määrittelee kokoluokat, jotka voidaan valita kurssi- tai moduulitasolla.';
 $string['configmaxeditingtime'] = 'Tässä määritellään kuinka kauan käyttäjät voivat muokata kirjoittamiaan keskustelualueen viestejä, sanakirjan huomautuksia, jne. Yleensä 30 minuutia on hyvä arvo asetukselle.';
@@ -98,7 +98,7 @@ $string['configshowblocksonmodpages'] = 'Jotkin toiminnat tukevat lohkoja sivuil
 $string['configshowsiteparticipantslist'] = 'Kaikki nämä sivuston oppilaat ja sivuston opettajat listataan sivuston osanottajalistaan. Kenelle osallistumislista näytetään?';
 $string['configsitepolicy'] = 'Jos sivustollasi on käyttösopimus, joka käyttäjien pitää lukea ja hyväksyä, määritä tuon sopimuksen URL tähän, muutoin voit jättää kohdan tyhjäksi. URL voi viitata mihin vain - yksi käytännöllinen ratkaisu olisi tiedosto sivuston tiedostoissa, esim. ´http://sivustosi.php/1/policy.html´';
 $string['configslasharguments'] = 'Tiedostoihin (kuviin ja muihin palvelimelle kopioituihin) viitataan scriptillä, joka käyttää ´kauttaviiva-argumentteja´ (pudotusvalikon alempi vaihtoehto). Tällä menetelmällä tiedostojen säilyttäminen verkkopalvelinten, välityspalvelinten tms. välimuistissa helpottuu. Valitettavasti jotkin PHP-palvelimet eivät salli tätä menetelmää, joten jos palvelimelle kopioitujen tiedostojen käytössä on ongelmia (esim. käyttäjäkuvat eivät näy), aseta asetus ensimmäiseen arvoon.';
-$string['configsmtphosts'] = 'Anna yhden tai useamman, Moodlen sähköpostin lähettämiseen käyttämän, paikallisen SMTP-palvelimen koko nimi (esim. \'mail.a.com\' tai \'mail.a.com;mail.b.com\'). Jos jätät tämän tyhjäksi, Moodle käyttää PHP:n oletustapaa lähettää sähköpostit. ';
+$string['configsmtphosts'] = 'Anna yhden tai useamman, Moodlen sähköpostin lähettämiseen käyttämän, paikallisen SMTP-palvelimen koko nimi (esim. \'mail.a.com\' tai \'mail.a.com;mail.b.com\'). Jos jätät tämän tyhjäksi, Moodle käyttää PHP:n oletustapaa lähettää sähköpostit.';
 $string['configsmtpuser'] = 'Jos olet määritellyt ylhäällä SMTP-palvelimen ja tuo palvelin vaatii kirjautumista, niin kirjoita käyttäjänimi (ylle) ja salasana (alle) tähän.';
 $string['configteacherassignteachers'] = 'Pitäisikö tavallisten opettajien olla mahdollista lisätä muita opettajia kursseilleen? Jos tähän asetetaan ´Ei´ vain kurssit luoneet ja ylläpitäjät voivat lisätä opettajia.';
 $string['configthemelist'] = 'Jätä tyhjäksi salliaksesi minkä tahansa käyvän teeman käyttö. Jos haluat lyhentää teema-valikkoa, voit määrittää tähän pilkulla erotellun listan sallituista teemoista (älä käytä välilyöntiä!). Esim: standard,orangewhite.';
@@ -111,6 +111,7 @@ $string['confirmation'] = 'Vahvistus';
 $string['cronwarning'] = '<a href=\"cron.php\">cron.php-ylläpitoscriptiä</a> ei ole ajettu viimeisen 24. tunnin sisällä.';
 $string['edithelpdocs'] = 'Muokkaa aputiedostoja';
 $string['editstrings'] = 'Muokkaa merkkijonoja';
+$string['environment'] = 'Ympäristö';
 $string['filterall'] = 'Suodata kaikki merkkijonot';
 $string['filteruploadedfiles'] = 'Suodata lähetettyjä tiedostoja';
 $string['helpadminseesall'] = 'Näkevätkö ylläpitäjät kaikki kalenterimerkinnät, vaiko vain heitä itseään koskevat?';
@@ -131,7 +132,7 @@ $string['sitemaintenance'] = 'Sivusto on ylläpitotilassa eikä se ole nyt saata
 $string['sitemaintenancemode'] = 'Ylläpitotila';
 $string['sitemaintenanceoff'] = 'Ylläpitotila on kytketty pois ja sivusto toimii taas normaalisti';
 $string['sitemaintenanceon'] = 'Sivustosi on parhaimmillaan ylläpitotilassa (vain ylläpitäjät voivat kirjautua sisään tai käyttää sivustoa).';
-$string['sitemaintenancewarning'] = 'Sivustosi on parhaimmillaan ylläpitotilassa (vain ylläpitäjät voivat kirjautua sisään). Palauttaaksesi sivuston takaisin normaaliin tilaan <a href=\"maintenance.php\">kytke ylläpitotila pois päältä</a>. ';
+$string['sitemaintenancewarning'] = 'Sivustosi on parhaimmillaan ylläpitotilassa (vain ylläpitäjät voivat kirjautua sisään). Palauttaaksesi sivuston takaisin normaaliin tilaan <a href=\"maintenance.php\">kytke ylläpitotila pois päältä</a>.';
 $string['tabselectedtofront'] = 'Taulukoissa, joissa on välilehtiä, pitäisikö se rivi, jolla on sen hetkinen valittu merkintä tuoda eteen?';
 $string['therewereerrors'] = 'Tiedoissasi oli virheitä';
 $string['timezoneforced'] = 'Tämän on valinnut sivuston ylläpitäjä';

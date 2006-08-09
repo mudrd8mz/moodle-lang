@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // tex.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004101900)
+      // tex.php - created with Moodle 1.6.1+ (2006050511)
 
 
-$string['filtername'] = 'TeX -merkintä';
+$string['filtername'] = 'TeX-merkintä';
 
 ?>

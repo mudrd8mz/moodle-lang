@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.5.2 + (2005060222)
+      // wiki.php - created with Moodle 1.6.1+ (2006050511)
 
 
 $string['action'] = '-- Toiminto --';
@@ -10,7 +10,7 @@ $string['allowsetpage'] = 'Salli \'Aseta sivun liput\'';
 $string['allowstrippages'] = 'Salli \'Siivoa sivuja\'';
 $string['attachments'] = 'Sivun liitteet';
 $string['author'] = 'Kirjoittaja';
-$string['authorfieldpattern'] = 'Kirjoittajan ';
+$string['authorfieldpattern'] = 'Kirjoittajan';
 $string['authorfieldpatternerror'] = 'Anna kirjoittaja ole hyvä.';
 $string['backlinks'] = 'Viittaavat linkit';
 $string['binimgtoolarge'] = 'Kuva on liian iso!';
@@ -60,7 +60,7 @@ $string['ewikiprinttitle'] = 'Pane wikinimi joka sivulle';
 $string['export'] = 'Vie';
 $string['exportformats'] = 'Vientimuodot';
 $string['exportsuccessful'] = 'Vienti onnistui';
-$string['exportto'] = 'Vie ';
+$string['exportto'] = 'Vie';
 $string['fetchback'] = 'Palauta';
 $string['file'] = 'Tiedosto';
 $string['filedownload'] = 'Tiedoston lataus';
@@ -130,6 +130,7 @@ $string['plaintext'] = 'Pelkkä teksti';
 $string['preview'] = 'Esikatsele';
 $string['readonly'] = 'Kirjoitusuojattu sivu';
 $string['refs'] = 'Viittaukset';
+$string['reloadlinkdescription'] = 'Lataa sivun palvelimelta jotta sivun uusin sisältö näkyisi.';
 $string['removenotice'] = 'Huomaa että ainostaan orposivut ovat listattuna tässä. Ja koska wiki testaa sivujen linkityksen vain osittain, voivat jotkut linkitetytkin sivut näkyä luettelossa.';
 $string['removepagecheck'] = 'Oletko varma että haluat poistaa nämä sivut?';
 $string['removepages'] = 'Poista sivuja';
@@ -177,7 +178,7 @@ $string['viewsmfor'] = 'Katso sivukarttaa';
 $string['wantedpages'] = 'Halutut sivut';
 $string['wikidefaultpagename'] = 'Wikin sisältö';
 $string['wikiexport'] = 'Vie sivuja';
-$string['wikiexportcomment'] = 'Tässä voit määritellä vientiasetukset ';
+$string['wikiexportcomment'] = 'Tässä voit määritellä vientiasetukset';
 $string['wikilinkoptions'] = 'Wikin automaattilinkitys määritykset';
 $string['wikilinks'] = 'Wiki linkit';
 $string['wikiname'] = 'Sivun nimi';

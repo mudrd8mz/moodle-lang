@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.5.2 + (2005060222)
+      // resource.php - created with Moodle 1.6.1+ (2006050511)
 
 
 $string['addresource'] = 'Lisää aineisto';
+$string['back'] = 'Takaisin';
+$string['choose'] = 'Valitse';
 $string['chooseafile'] = 'Valitse tai lähetä tiedosto';
 $string['chooseparameter'] = 'Valitse parametri';
 $string['configallowlocalfiles'] = 'Kun luodaan uutta tiedostoaineistoa, annetaanko luoda linkkejä paikallisiin tiedostoihin, jotka ovat esimerkikisi CD:llä tai kiintolevyllä. Tästä voi olla hyötyä luokkatilassa, jossa kaikilla oppilailla on pääsy yhteiseen verkkoasemaan tai jos on tarpeen käyttää CD:llä olevia tiedostoja. Tämän asetuksen käyttö voi vaatia muutoksia selaimesi turvallisuusasetuksiin.';
@@ -27,6 +29,7 @@ $string['directlink'] = 'Suora linkki tähän tiedostoon';
 $string['directoryinfo'] = 'Kaikki valitun hakemiston tiedostot näytetään';
 $string['display'] = 'Ikkuna';
 $string['editingaresource'] = 'Aineiston muokkaus';
+$string['emptyfolder'] = 'Tyhjää kansio';
 $string['encryptedcode'] = 'Suojaa koodi';
 $string['example'] = 'Esimerkki';
 $string['exampleurl'] = 'http://www.esimerkki.fi/jokuhakemisto/jokutiedosto.html';
@@ -38,6 +41,7 @@ $string['filtername'] = 'Aineiston automaattilinkitys';
 $string['frameifpossible'] = 'Pane aineisto kehykseen ja jätä sivuston navigointipainikkeet näkyviin.';
 $string['fulltext'] = 'Teksti';
 $string['htmlfragment'] = 'HTML';
+$string['imspackageloaded'] = 'Paketti ladattu';
 $string['localfile'] = 'Paikallinen tiedosto';
 $string['localfilechoose'] = 'Valitse paikallinen tiedosto (CD-ROM)';
 $string['localfilehelp'] = 'Apua paikallisten tiedostojen näyttämiseen';
@@ -49,6 +53,9 @@ $string['localfileselect'] = 'Valitse tämä hakemistopolku.';
 $string['maindirectory'] = 'Tiedostojen hakemisto';
 $string['modulename'] = 'Aineisto';
 $string['modulenameplural'] = 'Aineistot';
+$string['navigationbuttons'] = 'Navigointipainikkeet';
+$string['navigationmenu'] = 'Navigointireunavalikko';
+$string['navigationup'] = 'Ylös painike';
 $string['neverseen'] = 'Lukematta';
 $string['newdirectories'] = 'Näytä linkkirivi';
 $string['newfullscreen'] = 'Täytä koko ruutu';
@@ -62,6 +69,7 @@ $string['newtoolbar'] = 'Näytä työkalurivi';
 $string['newwidth'] = 'Ikkunan oletusleveys pikseleinä';
 $string['newwindow'] = 'Uusi ikkuna';
 $string['newwindowopen'] = 'Näytä linkki uudessa ikkunassa';
+$string['next'] = 'Seuraava';
 $string['notallowedlocalfileaccess'] = 'Pääsy paikallisiin tiedostoihin on estetty, eikä tämä aineisto ole saatavilla.';
 $string['note'] = 'Huomaa';
 $string['notefile'] = 'Lisätäksesi tiedostoja kurssille (jotta ne näkysivät tässä listassa) käytä 
@@ -73,6 +81,8 @@ $string['parameter'] = 'Asetus';
 $string['parameters'] = 'Asetukset';
 $string['popupresource'] = 'Tämän aineiston tulee näkyä ponnahdusikkunassa.';
 $string['popupresourcelink'] = 'Jos et vielä napsannut, napsauta tässä: $a';
+$string['preview'] = 'Esikatselu';
+$string['previous'] = 'Edellinen';
 $string['resourcetype'] = 'Aineiston tyyppi';
 $string['resourcetype1'] = 'Referenssi';
 $string['resourcetype2'] = 'Websivu';
@@ -89,6 +99,8 @@ $string['resourcetypehtml'] = 'Tee uusi web-sivu';
 $string['resourcetypelabel'] = 'Lisää otsikko';
 $string['resourcetypetext'] = 'Tee uusi tekstisivu';
 $string['searchweb'] = 'Etsi web-sivua';
+$string['tableofcontents'] = 'Sisällysluettelo';
+$string['upbutton'] = 'Ylös';
 $string['variablename'] = 'Muuttujan nimi';
 
 ?>
