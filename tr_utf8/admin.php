@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006080400)
+      // admin.php - created with Moodle 1.7 dev (2006080900)
 
 
 $string['adminseesallevents'] = 'Yöneticiler bütün olayları görür';
@@ -164,7 +164,7 @@ $string['latexpreamble'] = 'LaTeX önsözü';
 $string['latexsettings'] = 'LaTeX göstericisi ayarları';
 $string['maintfileopenerror'] = 'Bakım dosyalarını açarken hata!';
 $string['maintinprogress'] = 'Bakım işlemde...';
-$string['managelang'] = '<b>Yönet</b>';
+$string['managelang'] = 'Yönet';
 $string['mbstringrecommended'] = 'Sitenizde latin olmayan dilleri kullanıyorsanız isteğe bağlı MBSTRING kütüphanesinin kurulması site performansını arttırmak için şiddetle tavsiye edilir.';
 $string['mediapluginavi'] = '.AVI filtresini etkinleştir';
 $string['mediapluginflv'] = '.FLV filtresini etkinleştir';
