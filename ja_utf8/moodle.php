@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006080400)
+      // moodle.php - created with Moodle 1.7 dev (2006080900)
 
 
 $string['action'] = '操作';
@@ -746,8 +746,8 @@ $string['managemeta'] = 'このコースはメタコースですか?';
 $string['managemetadisabled'] = 'このコースはすでにメタコースに登録されていますので利用できません。';
 $string['managemetaexplan'] = '( 他のコースからユーザ登録情報を継承することを意味します )';
 $string['managemodules'] = 'モジュール管理';
-$string['markedthistopic'] = 'このトピックは最新トピックとして強調されています。';
-$string['markthistopic'] = 'このトピックを最新トピックにする。';
+$string['markedthistopic'] = 'このトピックは最新トピックとして強調表示されています。';
+$string['markthistopic'] = 'このトピックを最新トピックとして強調表示する。';
 $string['maximumchars'] = '$a の最大文字数';
 $string['maximumgrade'] = '最大評点';
 $string['maximumshort'] = '最大';
