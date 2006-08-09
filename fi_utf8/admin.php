@@ -1,9 +1,11 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.5.2 + (2005060222)
+      // admin.php - created with Moodle 1.6 + (2006050506)
 
 
 $string['adminseesallevents'] = 'Ylläpitäjät näkevät kaikki tapahtumat';
 $string['adminseesownevents'] = 'Ylläpitäjät ovat tavallisia käyttäjiä';
+$string['allowrenames'] = 'Salli uudelleen nimeäminen';
+$string['availablelangs'] = 'Saatavilla olevat kielipaketit';
 $string['backgroundcolour'] = 'Läpikuultava väri';
 $string['badwordsconfig'] = 'Kirjoita kiellettyjen sanojen lista pilkuin erotettuna.';
 $string['badwordsdefault'] = 'Jos oma kiellettyjen sanojen lista on tyhjä, käytetään kielipaketissa olevaa oletussanalistaa.';
@@ -13,11 +15,13 @@ $string['blockmultiple'] = 'Monenkertainen';
 $string['cachetext'] = 'Tekstivälimuistin kesto';
 $string['calendarsettings'] = 'Kalenteri';
 $string['change'] = 'muutos';
+$string['changesitelang'] = 'Vaihda sivuston kieli';
 $string['configallowcoursethemes'] = 'Tämä asetus sallii kurssien käyttää omia teemojaan.';
 $string['configallowemailaddresses'] = 'Jos haluat rajoittaa uudet sallitut sähköpostiosoitteet tiettyihin verkoalueisiin, niin kirjoita niisät tähän lista välilyönnein erotettuna. Kaikki muut verkkoalueet hylätään. Esim: <strong>meidan.koulu.fi joku.muu.com .fi .org</strong>';
 $string['configallowobjectembed'] = 'Turvallisuuden tähden eivät tavalliset käyttäjät oletusarvoisesti saa sisällyttää HTML-teksteihinsä multimediaa (kuten Flash-animaatioita) käyttämällä  EMBED- ja OBJECT-merkintöjä (vaikka näin voidaan tehdä turvallisesti, jos käytetään medialaajennus-suodatinta). Laita tämä asetus päälle , jos haluat sallia näiden merkintöjen käytön.';
 $string['configallowunenroll'] = 'Tämä sallii opiskelijoiden poistua kursseilta koska tahansa. Jos asetus ei ole päällä opettajien tai ylläpitäjien pitää poistaa opiskelijat kursseilta.';
 $string['configallowuserblockhiding'] = 'Voivatko käyttäjät piiloittaa lohkoja?';
+$string['configallowusermailcharset'] = 'Voivatko käyttäjät määrittää oman merkistönsä sähköpostia varten?';
 $string['configallowuserthemes'] = 'Voivatko käyttäjät valita omia teemojaan?';
 $string['configallusersaresitestudents'] = 'Pitäisikö KAIKKIA käyttäjiä käsitellä etusivun toiminnoissa opiskelijoina? Jos vastaat \"Kyllä\" kaikki hyväksytyn käyttäjätilin luoneet käyttäjät voivat osallistua näihin toimintoihin oppilaina. Jos vastaat \"Ei\", niin tällöin vain käyttäjät jotka ovat jo osanottajana vähintään yhdellä kurssilla voivat osallistua etusivun toimintoihin. Vain ylläpitäjät ja erityisesti määrätyt opettajat voivat toimia opettajina etusivun toiminnoissa.';
 $string['configautologinguests'] = 'Pitäisikö vierailijat kirjata automaattisesti sisään vierailija-tunnuksilla, kun he menevät kurssille, joka sallii vieraiden osallistua?';
