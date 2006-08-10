@@ -33,7 +33,7 @@ $string['addnewcategory'] = 'Acrescentar uma nova categoria';
 $string['addnewcourse'] = 'Criar um novo curso';
 $string['addnewuser'] = 'Acrescentar novo usuário';
 $string['addnousersrecip'] = 'Acrescentar usuários que não acessaram este $a à lista de destinatários';
-$string['addresource'] = 'Acrescentar material...';
+$string['addresource'] = 'Acrescentar recurso...';
 $string['address'] = 'Endereço';
 $string['addstudent'] = 'Acrescentar participante';
 $string['addteacher'] = 'Acrescentar tutor';
@@ -133,7 +133,7 @@ $string['backuplogshelp'] = 'Se ativado, então os logs dos cursos serão inclui
 $string['backupmetacoursehelp'] = 'Se ativado, a informação do metacurso (inscrições herdadas) será incluída nos backups automáticos';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['backupnoneusersinfo'] = 'Atenção: Como você selecionou \"nenhum\" usuário, o backup de todos os módulos foi reconfigurado para \"sem dados de usuários\". 
-Infelizmente o backup dos módulos exercício e workshop não é compatível com esta opção e foi desativado completamente.';
+Infelizmente o backup dos módulos Exercício e Laboratório de Avaliação não é compatível com esta opção e foi desativado completamente.';
 $string['backupnonisowarning'] = 'Atenção: este backup é de um sistema com versão de Moodle anterior à 1.6 (não unicode). Os textos do arquivo de backup que não são ISO-8859-1 podem ser adulterados se forem restaurados na presente instalação de Moodle, que é Unicode. Consulte o documento <a href=\"http://docs.moodle.org/en/Backup_FAQ\">Backup FAQ</a> para informações detalhadas sobre como recuperar este backup corretamente.';
 $string['backuporiginalname'] = 'Nome do Backup';
 $string['backupsavetohelp'] = 'Percurso completo do diretório de destino dos arquivos de backup<br />(deixar em branco para salvar no diretório predefinido)';
@@ -147,8 +147,8 @@ $string['blockdeleteconfirm'] = 'Você está cancelando o box \'$a\'. Todas as i
 $string['blockdeletefiles'] = 'Os dados associados ao box \'$a->block\' foram cancelados da base de dados. Para completar o cancelamento e evitar que o box reapareça, você deve cancelar o seguinte diretório no servidor: $a->directory';
 $string['blocks'] = 'Box';
 $string['blocksaddedit'] = 'Adicionar/Editar Box';
-$string['blockseditoff'] = 'Edição de Box desabilitada';
-$string['blocksediton'] = 'Edição de Box habilitada';
+$string['blockseditoff'] = 'Desabilitar Edição de Box';
+$string['blocksediton'] = 'Habilitar Edição de Box';
 $string['blocksetup'] = 'Configurando tabelas do box';
 $string['blocksuccess'] = '$a tabelas foram configuradas';
 $string['bycourseorder'] = 'Por ordem dos cursos';

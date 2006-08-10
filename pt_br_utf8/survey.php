@@ -1,13 +1,13 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.6 development (2006031600)
+      // survey.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['actual'] = 'Atual';
 $string['actualclass'] = 'Grupo atual';
 $string['actualstudent'] = '$a atual';
-$string['allquestions'] = 'Todas as perguntas em ordem, todos os participantes ';
-$string['allscales'] = 'Todas as escalas, todos os participantes ';
-$string['alreadysubmitted'] = 'Você já tinha enviado esta avaliação do curso';
+$string['allquestions'] = 'Todas as perguntas em ordem, todos os participantes';
+$string['allscales'] = 'Todas as escalas, todos os participantes';
+$string['alreadysubmitted'] = 'Você já tinha enviado esta perquisa de avaliação';
 $string['analysisof'] = 'Análise de $a';
 $string['answers'] = 'Respostas';
 $string['attls1'] = 'Quando avalio uma argumentação, me concentro na qualidade do discurso, e não na pessoa que o apresenta.';
@@ -22,7 +22,7 @@ $string['attls13short'] = 'tento compreender';
 $string['attls14'] = 'Tento indicar o ponto fraco dos argumentos dos outros para ajudá-los a esclarecer as idéias apresentadas.';
 $string['attls14short'] = 'indico o ponto fraco';
 $string['attls15'] = 'Quando discuto questões polêmicas, tendo a colocar-me na posição dos outros para entender o ponto de vista deles.';
-$string['attls15short'] = 'me coloco na posição dos outros ';
+$string['attls15short'] = 'me coloco na posição dos outros';
 $string['attls16'] = 'Pode-se afirmar que o meu modo de analisar as coisas é como \'submetê-las a julgamento\' porque considero todas as evidências com muita atenção.';
 $string['attls16short'] = 'submeter a julgamento';
 $string['attls17'] = 'Quando resolvo problemas, dou mais valor ao uso da lógica e da razão do que à satisfação dos meus interesses pessoais.';
@@ -30,7 +30,7 @@ $string['attls17short'] = 'dou mais valor à lógica';
 $string['attls18'] = 'A empatia facilita a compreensão das opinões de outros, diferentes das minhas.';
 $string['attls18short'] = 'compreensão por empatia';
 $string['attls19'] = 'Quando as opiniões de uma pessoa me parecem totalmente estranhas, procuro me colocar no lugar dessa pessoa, para entender o porquê dessas opiniões.';
-$string['attls19short'] = 'procuro me colocar no lugar ';
+$string['attls19short'] = 'procuro me colocar no lugar';
 $string['attls1short'] = 'focalizo na qualidade do argumento';
 $string['attls2'] = 'Eu gosto de fazer a parte do advogado do diabo - argumentar em modo contrário ao que alguém está dizendo.';
 $string['attls20'] = 'Eu me dedico a descobrir o que está \'errado\' nas coisas. Por exemplo, procuro argumentações insuficientes em interpretações literárias.';
@@ -84,9 +84,9 @@ $string['colles1'] = 'A minha aprendizagem é focalizada em assuntos que me inte
 $string['colles10'] = 'Peço aos outros alunos explicações sobre as idéias deles.';
 $string['colles10short'] = 'Peço explicações';
 $string['colles11'] = 'Os outros participantes me pedem explicações sobre as minhas idéias.';
-$string['colles11short'] = 'Me pedem explicações ';
+$string['colles11short'] = 'Me pedem explicações';
 $string['colles12'] = 'Os outros participantes reagem às minhas idéias.';
-$string['colles12short'] = 'os participantes reagem ';
+$string['colles12short'] = 'os participantes reagem';
 $string['colles13'] = 'O tutor me estimula a refletir.';
 $string['colles13short'] = 'o tutor estimula a refletir';
 $string['colles14'] = 'O tutor me encoraja a participar.';
@@ -104,7 +104,7 @@ $string['colles19short'] = 'alunos me estimam';
 $string['colles1short'] = 'focalizo em assuntos interessantes';
 $string['colles2'] = 'O que eu estou aprendendo é importante para a prática da minha profissão.';
 $string['colles20'] = 'Os outros participantes demonstram empatia quando me esforço para aprender.';
-$string['colles20short'] = 'demonstram empatia ';
+$string['colles20short'] = 'demonstram empatia';
 $string['colles21'] = 'Eu compreendo bem as mensagens dos outros participantes.';
 $string['colles21short'] = 'eu compreendo outros participantes';
 $string['colles22'] = 'Os outros participantes compreendem bem as minhas mensagens.';
