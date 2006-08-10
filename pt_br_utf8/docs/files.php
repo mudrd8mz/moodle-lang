@@ -22,11 +22,10 @@ $string['-usage'] = "Usando o Moodle";
 $string['teacher.html'] = "Manual do professor";
 $string['other.html'] = "Outros documentos";
 
-$string['-development'] = "Programação";
-$string['developer.html'] = "Manual do programador";
+$string['-development'] = "Desenvolvimento";
+$string['developer.html'] = "Manual do desenvolvedor";
 $string['coding.html'] = "Guia sobre o código";
 $string['cvs.html'] = "Usando o CVS";
 $string['translation.html'] = "Tradução";
-
 
 ?>
