@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6.1 (2006050510)
+      // moodle.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['action'] = '动作';
@@ -510,7 +510,7 @@ $string['failedloginattemptsall'] = '帐号{$a->accounts}共有{$a->attempts}次
 $string['feedback'] = '反馈';
 $string['file'] = '文件';
 $string['filemissing'] = '$a 找不到';
-$string['files'] = '个文件';
+$string['files'] = '文件';
 $string['filesfolders'] = '文件/文件夹';
 $string['filloutallfields'] = '请填完这个表单的所有空格';
 $string['findmorecourses'] = '查询更多课程...';
