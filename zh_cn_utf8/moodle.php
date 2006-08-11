@@ -1139,7 +1139,7 @@ $string['skypeid'] = 'Skype号码';
 $string['socialheadline'] = '社区论坛――最新话题';
 $string['someallowguest'] = '有些课程可能允许访客进入';
 $string['someerrorswerefound'] = '可能有些信息缺失或有误。详细情况请看下面。';
-$string['sortby'] = '分类标准';
+$string['sortby'] = '排序';
 $string['specifyname'] = '您必须指定一个名称';
 $string['starpending'] = '([*] = 待审批的课程)';
 $string['startdate'] = '课程开始日期';
