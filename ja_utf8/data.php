@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006071800)
+      // data.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['action'] = '操作';
@@ -80,8 +80,12 @@ $string['insufficiententries'] = 'このデータベースを見るには、更�
 $string['intro'] = 'イントロダクション';
 $string['invalidfieldname'] = 'このフィールドに他の名称を選択してください。';
 $string['invalidurl'] = '入力されたURLが正しくありません。';
+$string['latitude'] = '経度';
+$string['latlong'] = '緯度/経度';
+$string['latlonglinkservicesdisplayed'] = '表示するLinkOutサービス';
 $string['list'] = '一覧表示';
 $string['listtemplate'] = '一覧表示用テンプレート';
+$string['longitude'] = '経度';
 $string['maxentries'] = '最大エントリ数';
 $string['maxsize'] = '最大サイズ';
 $string['menu'] = 'メニュー';
@@ -96,6 +100,7 @@ $string['multipletags'] = '重複タグが見つかりました! テンプレー
 $string['namecheckbox'] = 'チェックボックスフィールド';
 $string['namedate'] = '日付フィールド';
 $string['namefile'] = 'ファイルフィールド';
+$string['namelatlong'] = '緯度/経度フィールド';
 $string['namemenu'] = 'メニューフィールド';
 $string['namemultimenu'] = '複数選択メニューフィールド';
 $string['namenumber'] = '数値フィールド';
