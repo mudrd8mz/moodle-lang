@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // forum.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['addanewdiscussion'] = '添加一个新讨论话题';
@@ -15,9 +15,9 @@ $string['allsubscribe'] = '订阅所有的论坛';
 $string['allunsubscribe'] = '退订所有的论坛';
 $string['anyfile'] = '任何文件';
 $string['attachment'] = '附件';
-$string['blockafter'] = '登陆模块的极限';
-$string['blockperiod'] = '模块化的时期';
-$string['blockperioddisabled'] = '不阻止';
+$string['blockafter'] = '被阻塞前贴数极限';
+$string['blockperiod'] = '阻塞统计周期';
+$string['blockperioddisabled'] = '不阻塞';
 $string['bynameondate'] = '由{$a->name}发表于$a->date';
 $string['cannotviewpostyet'] = '在这个讨论中您不能阅读别的同学的问题因为您没有权限';
 $string['configcleanreadtime'] = '一天中从“已读”表格中清除旧帖子的时间';
@@ -69,7 +69,7 @@ $string['forcesubscribe'] = '强制每个人都订阅';
 $string['forcesubscribeq'] = '强制每个人都订阅吗?';
 $string['forum'] = '讨论区';
 $string['forumauthorhidden'] = '作者(隐藏)';
-$string['forumblockingalmosttoomanyposts'] = '您已经达到登陆的极限了。您已经登陆$a->numposts次了';
+$string['forumblockingalmosttoomanyposts'] = '您已经达到发帖的极限。在过去的$a->blockperiod里，您已经发表了$a->numposts个帖子。这个极限是$a->blockafter个帖子。';
 $string['forumbodyhidden'] = '您不能看到这些内容，可能因为您还没有登陆到讨论中';
 $string['forumintro'] = '讨论区简介';
 $string['forumname'] = '讨论区名称';
@@ -168,7 +168,7 @@ $string['ratings'] = '评价';
 $string['ratingssaved'] = '评价已保存';
 $string['ratingsuse'] = '用户等级';
 $string['ratingtime'] = '该时间段内限制评分';
-$string['re'] = '回复: ';
+$string['re'] = '回复:';
 $string['readtherest'] = '阅读该话题的其它贴子';
 $string['replies'] = '回贴';
 $string['repliesmany'] = '迄今有{$a}个回贴';
@@ -209,7 +209,7 @@ $string['subscribestart'] = '此论坛有新帖就发电子邮件给我';
 $string['subscribestop'] = '此论坛有新帖不要发电子邮件给我';
 $string['subscription'] = '订阅';
 $string['subscriptions'] = '订阅';
-$string['thisforumisthrottled'] = '这个讨论有贴数限制，您可以在给定的时间期限中做-这个一般在{$a->blockafter}设置记录在{$a->blockperiod}';
+$string['thisforumisthrottled'] = '这个讨论区有规定周期内发贴数的限制，它被设置为{$a->blockperiod}内最多发{$a->blockafter}个帖子。';
 $string['timestartenderror'] = '可视时段的结束时间不能早于开始时间。';
 $string['trackforum'] = '跟踪未读信息';
 $string['tracking'] = '跟踪';
@@ -224,7 +224,7 @@ $string['unreadpostsone'] = '1条未读帖子';
 $string['unsubscribe'] = '不再订阅该讨论区';
 $string['unsubscribed'] = '未订阅';
 $string['unsubscribeshort'] = '退订';
-$string['warnafter'] = '贴出极限来警告';
+$string['warnafter'] = '发多少贴后警告';
 $string['yesforever'] = '是的，永远这样';
 $string['yesinitially'] = '是的，初始设为这样';
 $string['youratedthis'] = '您对此评分';

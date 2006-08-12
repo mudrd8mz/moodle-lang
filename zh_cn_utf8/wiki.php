@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6.1 (2006050510)
+      // wiki.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['action'] = '-- 动作 --';
@@ -128,6 +128,7 @@ $string['plaintext'] = '纯文本';
 $string['preview'] = '预览';
 $string['readonly'] = '只读页面';
 $string['refs'] = '参考';
+$string['reloadlinkdescription'] = '刷新此页，以便让最新的内容显现';
 $string['reloadlinktext'] = '刷新此页';
 $string['removenotice'] = '注意此处仅列出未被引用的页面。由于ewiki engine仅测试那些被引用的页面，因此此处可能会有遗漏。<br />如果您清空了一个页面，它也会被列在此处。同时也进行了其它不同的数据库诊断。';
 $string['removepagecheck'] = '您确定要删除这些页面么？';
