@@ -1,32 +1,37 @@
 <p align="center"><b>Minimální počet otázek</b></p>
 
-<p>Tento parametr by měl učitel nastavit, jestliže přednáška obsahuje jeden 
-nebo více bodů větvení. Jeho hodnota udává minimální počet otázek pro 
-výpočet hodnocení. Přitom však studenty <b>nenutí</b> takový počet otázek 
+<p>Tento parametr by měl učitel nastavit, jestliže přednáška obsahuje jeden
+nebo více bodů větvení (rozcestníků). Jeho hodnota udává minimální počet otázek
+pro výpočet hodnocení. Přitom však studenty <b>nenutí</b> takový počet otázek
 skutečně zodpovědět.</p>
 
-<p><b>Například</b>: Jestliže tento parametr nastavíte na hodnotu 20, bude se při 
-výpočtu hodnocení předpokládat, že student prošel nejméně dvacet stránek 
-přednášky. Uvažujme případ studenta, který absolvuje pouze jednu pětistránkovou 
-větev přednášky a všechny otázky zodpoví správně. Poté se rozhodne přednášku 
-opustit (za předpokladu, že to nastavení přednášky umožňuje, tj. některý z 
-větvicích bodů, kterými student prochází, nabízí možnost "Skočit na konec 
-přednášky"). Pokud by parametr Minimální počet otázek nebyl nastaven,  
-hodnocení by bylo "pět správných odpovědí z pěti", tedy 100&nbsp;%. Je-li však 
-parametr nastaven na hodnotu 20, celkové hodnocení bude sníženo na "pět správných 
-odpovědí z dvaceti", tedy 25&nbsp;%. Jiný student, který prošel všechny větve 
-přednášky, zhlédl řekněme 25 stránek a zodpověděl správně všechny otázky až na 
-dvě, získá hodnocení "23 z 25", tedy 92&nbsp;%.</p>
+<p>Například: Jestliže tento parametr nastavíte na hodnotu 20, bude se při
+výpočtu hodnocení předpokládat, že student prošel <b>nejméně</b> dvacet stránek
+přednášky. Uvažujme případ studenta, který absolvuje pouze jednu pětistránkovou
+větev přednášky a všechny otázky zodpoví správně. Poté se rozhodne přednášku
+opustit (za předpokladu, že to nastavení přednášky umožňuje, tedy některý z
+větvících bodů, kterými student prochází, nabízí možnost "Skočit na konec
+přednášky"). Pokud by parametr Minimální počet otázek nebyl nastaven, hodnocení
+by bylo "pět správných odpovědí z pěti", tedy 100&nbsp;%. Je-li však parametr
+nastaven na hodnotu 20, celkové hodnocení bude sníženo na "pět správných
+odpovědí z dvaceti", tedy 25&nbsp;%. Jiný student, který prošel všechny větve
+přednášky, zhlédl řekněme 25 stránek a zodpověděl správně všechny otázky až na
+dvě, získá hodnocení "23 z 25" , tedy 92&nbsp;%.</p>
 
-<p>V případě, že parametr Minimální počet otázek použijete, měla by úvodní 
-stránka přednášky obsahovat zhruba takovouto informaci:<p>
+<p>V případě, že parametr Minimální počet otázek použijete, měla by úvodní
+stránka přednášky obsahovat zhruba takovouto informaci:</p>
 
-<p><blockquote>V této přednášce byste se měli pokusit zodpovědět alespoň <i>n</i> 
-otázek. Chcete-li, můžete jich zodpovědět více; pokud jich však zodpovíte, bude 
-se při výpočtu hodnocení přesto předpokládat, že jste jich zodpověděli 
-<i>n</i>.</blockquote></p>
+<p>&nbsp;</p>
 
-<p>(Za &quot;n&quot; samozřejmě dosadíme skutečně nastavenou hodnotu.)</p>
+<blockquote>
+  V této přednášce byste se měli pokusit zodpovědět alespoň <i>n</i> otázek.
+  Chcete-li, můžete jich zodpovědět více. Pokud jich však zodpovíte méně, bude
+  se při výpočtu hodnocení přesto předpokládat, že jste jich zodpověděli
+  <i>n</i>.
+</blockquote>
+<p>
 
-<p>Jestliže je parametr nastaven, studentům se zobrazuje informace o tom, na 
+<p>Za "n" samozřejmě dosadíme skutečně nastavenou hodnotu.</p>
+
+<p>Jestliže je parametr nastaven, studentům se zobrazuje informace o tom, na
 kolik otázek již odpovídali a na kolik ještě odpovědět mají.</p>

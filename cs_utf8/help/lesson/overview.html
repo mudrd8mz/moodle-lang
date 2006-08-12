@@ -1,57 +1,153 @@
 <p align="center"><b>Přehled</b></p>
 
 <ol>
-<li>Přednáška sestává z určitého počtu <b>stránek</b>.</li>
-<li>Stránky podávají vlastní <b>obsah</b> přednášky a jsou obvykle zakončeny 
-<b>otázkou</b>.</li>
-<li>Ke každé otázce je obvykle připojena sada <b>odpovědí</b>.</li>
-<li>Ke každé odpovědi je přiřazen krátký text, tzv. <b>komentář</b>, který se 
-zobrazí, jestliže student danou odpověď zvolí.</li>
-<li>K odpovědi je také přiřazen <b>skok</b>. Skok může být relativní (tato 
-stránka, následující stránka), nebo absolutní (konkrétní stránka nebo konec 
-přednášky).</li>
-<li>Ve výchozím nastavení je s první odpovědí spojen skok na <b>následující 
-stránku</b> přednášky. Ostatní odpovědi vedou zpět na aktuální stránku &ndash; 
-tj. studentovi je v případě chybné odpovědi zobrazena tatáž stránka.</li>
-<li>"Následující stránka" je určena <b>lineární posloupností</b> stránek přednášky.
-To je pořadí, ve kterém jednotlivé stránky vidí učitel; lze je kdykoliv změnit 
-přesunutím stránek v rámci přednášky.</li>
-<li>Přednáška má dále <b>navigační posloupnost</b>. To je pořadí, ve kterém 
-jednotlivé stránky vidí student. Je definováno skoky nastavenými u jednotlivých 
-odpovědí a od lineární posloupnosti se může značně lišit. (Pokud jste výchozí 
-nastavení skoků neměnili, jsou si ovšem obě posloupnosti velmi podobné.) Učitel 
-má možnost navigační posloupnost kontrolovat a upravovat.</li>
-<li>Při zobrazování studentům jsou varianty odpovědi vždy zamíchány. Odpověď, 
-kterou učitel vidí jako první, není tedy nutně uvedena jako první odpověď 
-nabízená studentovi. (Navíc se odpovědi při každém pokusu pravděpodobně zobrazí 
-v jiném pořadí.)</li>
-<li>Počet odpovědí může být na každé stránce přednášky jiný. Některé otázky tak 
-mohou například končit otázkou typu Pravda/Nepravda a další mít počet variant 
-jiný, například čtyři.</li>
-<li>Do přednášky lze zařadit také stránku bez otázky. Studentům se místo variant 
-odpovědí zobrazí jen odkaz <b>Pokračovat</b>.</li>
-<li>Pro účely hodnocení se za <b>správné</b> považují odpovědi, z nichž vede 
-skok na stránku umístěnou <b>níže</b> v lineární posloupnosti stránek. 
-<b>Chybné</b> jsou naopak odpovědi, z nichž vede skok na tutéž stránku nebo 
-stránku umístěnou v lineární posloupnosti <b>výše</b>. Pokud jste neměnili 
-výchozí nastavení, první odpověď bude chápána jako správná a ostatní jako 
-chybné. </li>
-<li>Otázky mohou mít více než jednu správnou odpověď. Vedou-li například dvě 
-z odpovědí na stránku umístěnou v lineární posloupnosti níže, považují se za 
-správné obě dvě. (Je však možné pro každou ze správných odpovědí nastavit různé 
-reakce, i když obě vedou na stejnou stránku.)</li>
-<li>Učitel v přednášce u správných odpovědí vidí odkazy podtrženě.
-<li>Na stránce přednášky, jak ji vidí učitel, je nadpis u správné odpovědi 
-podtržen (např. <u>Odpověď 1</u>).</li>
-<li>Na <b>konec přednášky</b> student dojde buďto explicitně (přímým skokem), 
-nebo implicitně, tj. skokem na následující stránku, pokud se právě nachází na 
-poslední stránce v lineární posloupnosti přednášky.
-Po dosažení konce přednášky se studentovi zobrazí blahopřání a hodnocení, 
-kterého dosáhl. Toto hodnocení vznikne vyhodnocením výrazu 
-(počet správných odpovědí / počet navštívených stránek přednášky) * bodové ohodnocení kurzu.</li>
-<li>Pokud student nedospěl ke konci přednášky, dostane při příští návštěvě 
-přednášky na výběr, zda chce začít od začátku nebo zda chce do přednášky 
-vstoupit v místě, kde naposledy zodpověděl otázku správně.</li>
-<li>Je-li u přednášky povoleno její opakované prohlížení, může ji student 
-opakovat tak dlouho, dokud nedosáhne maximálního počtu bodů.</li>
+  <li>Přednáška sestává z určitého počtu <b>stránek</b> a případně také z
+  <b>rozcestníků</b>.</li>
+
+  <li>Stánky podávají vlastní <b>obsah</b> přednášky a jsou obvykle zakončeny
+  <b>otázkou</b>. Odtud termín <b>Stránka s otázkou</b>, označující běžnou
+  stránku přednášky.</li>
+
+  <li>Otázkám typu tvořená odpověď nejsou přiřazeny odpovědi, pouze počet bodů,
+  komentář a skok na stránku.</li>
+
+  <li>Ke každé odpovědi je přiřazen krátký text, který se zobrazí, jestliže
+  student danou odpověď zvolí. Tento krátký text se nazývá <b>reakce</b>.</li>
+
+  <li>K odpovědi je také přiřazen <b>skok</b>. Skok může být relativní (tato
+  stránka, následující stránka), nebo absolutní (konkrétní stránka nebo konec
+  přednášky).</li>
+
+  <li>Ve výchozím nastavení je s první odpovědí spojen skok na <b>následující
+  stránku</b> přednášky. Ostatní odpovědi vedou zpět na aktuální stránku. Pokud
+  student zvolí jinou odpověď než tu, která je v nastavení uvedena na prvním
+  místě (tj. pokud odpoví nesprávně), je mu zobrazena tatáž stránka. Pokud jste
+  již vytvořili seskupení s koncem seskupení, a otázka je jeho součástí, můžete
+  také zvolit skok na neprohlédnutou otázku v rámci seskupení. Tato možnost se
+  vám nenabídne, pokud se nenacházíte uvnitř seskupení. Z vybrané sady otázek
+  můžete kdykoli vytvořit seskupení tak, že před ni vložíte začátek seskupení a
+  za ni konec seskupení.</li>
+
+  <li>"Následující stránka" je určena <b>lineární posloupností</b> stránek
+  přednášky. To je pořadí, ve kterém jednotlivé stránky vidí učitel. Lze je
+  kdykoliv změnit přesunutím stránek v rámci přednášky.</li>
+
+  <li>Přednáška má dále <b>navigační posloupnost</b>. To je pořadí, ve kterém
+  jednotlivé stránky vidí student. Je definováno skoky nastavenými u
+  jednotlivých odpovědí a od lineární posloupnosti se může značně lišit. (Pokud
+  jste výchozí nastavení skoků neměnili, jsou si ovšem obě posloupnosti velmi
+  podobné.) Učitel má možnost navigační posloupnost kontrolovat a
+  upravovat.</li>
+
+  <li>Při zobrazování studentům jsou varianty odpovědi obvykle zamíchány.
+  Odpověď, kterou učitel vidí jako první, není tedy nutně uvedena jako první
+  odpověď nabízená studentovi. (Navíc se odpovědi při každém pokusu velmi
+  pravděpodobně zobrazí v jiném pořadí.) Výjimku tvoří sada odpovědí u
+  přiřazovacích otázek, zde se odpovědi zobrazují v pořadí, které zadá
+  učitel.</li>
+
+  <li>Počet odpovědí může být na každé stránce přednášky jiný. Některé otázky
+  tak mohou například končit otázkou typu Pravda/Nepravda, a jiné zase např.
+  obsahovat jednu správnou odpověď a tři distraktory.</li>
+
+  <li>Do přednášky lze zařadit také stránku bez otázky. Studentům se místo
+  variant odpovědí zobrazí jen odkaz <b>Pokračovat</b>.</li>
+
+  <li>Pokud je uživatelské bodování <i>vypnuto</i>, pak se pro účely hodnocení
+  považují za <b>správné</b> ty odpovědi, z nichž vede skok na stránku
+  umístěnou <i>níže</i> v lineární posloupnosti stránek. <b>Chybné</b> jsou
+  naopak odpovědi, z nichž vede skok na tutéž stránku nebo stránku umístěnou v
+  lineární posloupnosti výše. Pokud jste neměnili výchozí nastavení, první
+  odpověď bude chápána jako správná a ostatní jako chybné.<br>
+  Pokud je uživatelské bodování <i>zapnuto</i>, je bodový zisk za odpověď určen
+  bodovou hodnotou odpovědi; celkový počet získaných bodů je uváděn jako
+  procentní podíl z nejvyšší možné známky, kterou lze za přednášku získat,
+  maximální hodnotou je 100&nbsp;%.</li>
+
+  <li>Otázky mohou mít více než jednu správnou odpověď. Vedou-li například dvě
+  z odpovědí na stránku umístěnou v lineární posloupnosti níže, považují se za
+  správné obě dvě. (Je však možné pro každou ze správných odpovědí nastavit
+  různé reakce, i když obě vedou na stejnou stránku.)</li>
+
+  <li>V pohledu učitele jsou popisky u správných odpovědí podtrženy (např.:
+  <u>Odpověď 1</u>).</li>
+
+  <li><b>Rozcestníky</b> jsou stránky, které obasahují odkazy na jiné stránky v
+  přednášce. Přednáška může typicky začínat rozcestníkem, který slouží jako
+  obsah.</li>
+
+  <li>Všechny odkazy v rozcestníku mají dvě části &ndash; popis a název stránky, na
+  kterou odkazují.</li>
+
+  <li>Rozcestník ve skutečnosti rozděluje přednášku na několik <b>větví</b>
+  (nebo sekcí). Každá větev může obsahovat libovolný počet stránek
+  (vztahujících se obvykle k témuž tématu). Konec větve je obvykle označen
+  stránkou <b>konec větve</b>. Jde o zvláštní stránku, která studenta
+  automaticky vrací na předcházející rozcestník. ("Zpětný" skok na stránce
+  konce větve je možno změnit v nastavení stránky, pokud je to třeba.)</li>
+
+  <li>Přednáška může obsahovat více než jeden rozcestník. Je například možné
+  strukturovat přednášku tak, že podrobné informace jsou umístěny v podřazených
+  větvích několika hlavních tematických větví.</li>
+
+  <li>Je důležité poskytnout studentům možnost ukončení přednášky. Odkaz na
+  "Konec přednášky" je možno uvést v hlavním rozcestníku. Je to skok na
+  (imaginární) stránku <b>Konec přednášky</b>. Jinou možností je, aby poslední
+  větev v přednášce ("poslední" se zde chápe jako poslední v lineární
+  posloupnosti) prostě pokračovala na konec přednášky, tj. aby <i>nebyla</i>
+  ukončena stránkou konce větve.</li>
+
+  <li>Jestliže je uživatelské bodování <i>vypnuto</i>, je vhodné, v případě, že
+  přednáška obsahuje jeden nebo více rozcestníků, nastavit "Minimální počet
+  otázek" na nějakou rozumnou hodnotu. Tímto nastavením zadáme dolní limit
+  počtu prohlédnutých stránek pro výpočet známky. Bez tohoto parametru by
+  student mohl navštívit jen jednu větev přednášky, odpovědět správně na
+  všechny otázky a opustit přednášku s plným počtem bodů.<br>
+  Jestliže je uživatelské bodování <i>zapnuto</i>, je známka studenta založena
+  na poměru počtu získaných bodů vůči celkovému počtu bodů, které lze v
+  přednášce získat.</li>
+
+  <li>Kromě toho má student při vypnutém uživatelském bodování možnost, je-li k
+  dispozici rozcestník, znovu navštívit tutéž větev víckrát než jednou. Známka
+  se ovšem počítá podle počtu zodpovězených <i>jedinečných</i> otázek.
+  Opakované odpovědi na tutéž skupinu otázek tak výslednou známku
+  <i>nezlepší</i>. (Ve skutečnosti je tomu právě naopak &ndash; tento postup známku
+  snižuje, neboť jako jmenovatel se při výpočtu známky používá počet
+  prohlédnutých stránek, a ten opakovaná prohlížení zahrnuje.) Aby měli
+  studenti představu o tom, jak postupují ve studiu přednášky, zobrazují se jim
+  na každé stránce rozcestníku podrobnosti o tom, kolik otázek odpověděli
+  správně, kolik stránek prohlédli a jakou mají v daném okamžiku známku.<br>
+  Je-li uživatelské bodování zapnuto, může student znovu odpovídat na otázku,
+  pokud mu to umožní navigační cesta, a znovu za tuto otázku získat bod(y),
+  jestliže je počet pokusů nastaven na hodnotu vyšší než 1. Abyste tomu
+  zabránili, stanovte počet pokusů na 1.</li>
+
+  <li>Na <b>konec přednášky</b> student dojde buď explicitně (přímým skokem),
+  nebo implicitně, tj. skokem na následující stránku z poslední stránky v
+  lineární posloupnosti přednášky. Je-li uživatelské bodování <i>vypnuto</i>,
+  zobrazí se studentovi po dosažení konce přednášky blahopřání a známka, které
+  dosáhl. Tato známka vznikne vyhodnocením výrazu (počet správných odpovědí /
+  počet navštívených stránek) * nejlepší možná známka za přednášku. Je-li
+  uživatelské bodování <i>zapnuto</i>, známka se stanoví jako procentní poměr
+  nejlepší možné známky (např. 3 body získané za 3bodovou přednášku = 100 % ze
+  3 bodů).</li>
+
+  <li>Pokud student nedospěl na konec přednášky, dostane při příští návštěvě
+  přednášky na výběr, zda chce začít od začátku, nebo zda chce do přednášky
+  vstoupit v místě poslední správně zodpovězené otázky.</li>
+
+  <li>Je-li u přednášky povoleno její opakované prohlížení, má učitel možnost
+  volby, zda použije nejlepší známku nebo průměr známek jako "konečnou" známku
+  za přednášku. Tato známka se pak zobrazí mj. na stránce Známky.</li>
+
+  <li><b>Seskupení</b>: Seskupení představuje sadu otázek, z nichž lze
+  studentům náhodně vybírat a nabízet jednu nebo více stránek. Seskupení by
+  měla být ideálně ukončena stránkou "konec seskupení" (pokud tomu tak není, je
+  za konec seskupení považován konec přednášky). Otázky v rámci seskupení jsou
+  náhodně vybírány, jestliže jako skok vybereme možnost "Neprohlédnutá otázka v
+  rámci seskupení". Otázky v rámci seskupení mohou buď odkazovat na konec
+  seskupení (a tak seskupení opustit), nebo na neprohlédnutou otázku v rámci
+  seskupení, nebo na jakoukoli jinou stránku v přednášce. Toto nastavení také
+  umožňuje použít modulu Přednáška k vytvoření různých studijních scénářů
+  obsahujících náhodný prvek.</li>
 </ol>

@@ -1,96 +1,195 @@
 <p align="center"><b>Importování nových úloh</b></p>
-<p>Tato funkce umožňuje importování úloh z externích textových souborů.</p>
-<p>Moodle podporuje několik formátů:</p>
+
+<p>Tato funkce vám umožňuje importovat do Moodlu úlohy buďto nahráním předem
+připravených textových souborů, nebo výběrem vhodného souboru v kurzu.</p>
+
+<p><b>Poznámka ke kódování znaků</b></p>
+
+<p>Pokud váš soubor obsahuje znaky, které nejsou součástí sady ASCII, musíte
+použít kódování UTF-8. Výběr nebo změnu kódování na UTF-8 můžete provést přímo
+ve svém textovém editoru, nebo může být tato volba nastavena v programu, z
+něhož jsou soubory exportovány. Importní formáty založené na jazyce XML budou
+zpracovány automaticky v případě, že je na vašem serveru nainstalováno PHP
+5.</p>
+
+<p>Moodle podporuje několik formátů souborů:</p>
 
 <p><b>Formát GIFT</b></p>
-<ul>
-<p>GIFT je nejkomplexnější dostupný formát pro importování testových otázek 
-z textového souboru do Moodlu. Byl navržen pro snadný textový zápis testových 
-otázek. Podporuje různé typy úloh: úlohy s výběrem odpovědí, 
-s krátkou odpovědí, s odpovědí pravda/nepravda, numerické úlohy, přiřazování, a 
-také vložení _______ pro formát "vynechané slovo". V jednom textovém souboru lze 
-použít více typů úloh. Formát GIFT dále umožňuje zadávat jméno otázky, komentář 
-k odpovědím a jejich hodnocení v procentech; pro interní potřebu lze text také 
-opatřovat poznámkami, které se v testu nezobrazí. Zde je několik příkladů:</p>
-  
-<pre>Kdo je pohřben v památníku na Vítkově?{~T.G.M. ~Klement Gottwald =nikdo}
-      
+
+<div style="margin-left: 2em">
+  <p>GIFT je nejkomplexnější z formátů, které jsou k dispozici pro importování
+  testových úloh z textového souboru. Byl navržen jako jednoduchý nástroj pro
+  učitele, kteří vytvářejí úlohy ve formátu textového souboru. Podporuje různé
+  typy úloh: úlohy s výběrem odpovědí, s krátkou tvořenou odpovědí, s odpovědí
+  pravda/nepravda, numerické úlohy, přiřazování, a také vložení _______ pro
+  formát "vynechané slovo". V rámci jednoho textového souboru lze použít více
+  typů úloh a formát GIFT zároveň umožňuje zadávat poznámky k úlohám, jména
+  úloh, komentář k odpovědím a jejich hodnocení v procentech. Zde je několik
+  příkladů:</p>
+  <pre>
+Kdo je pohřben v památníku na Vítkově? {~TGM ~Klement Gottwald =nikdo} 
+
 V památníku na Vítkově byl {~otráven =pohřben ~oddán} Klement Gottwald.
 
-V památníku na Vítkově je pohřben Klement Gottwald.{FALSE}
+V památníku na Vítkově je pohřben TGM. {FALSE#Není a nikdy nebyl.}
 
-Kdo je pohřben v památníku na Vítkově?{=nyní již nikdo =nikdo}
+Kdo je pohřben v památníku na Vítkově? {=nyní již nikdo =nikdo}
 
-Kdy se narodil Klement Gottwald?{#1896}
+Kdy se narodil Klement Gottwald? {#1896}
 </pre>
-<p align="right"><a href="help.php?file=formatgift.html&module=quiz">Více 
-o formátu "GIFT"</a></p></ul>
+
+  <p align="right"><a href="help.php?file=formatgift.html&module=quiz">Více o
+  formátu "GIFT"</a></p>
+</div>
 
 <p><b>Formát Aiken</b></p>
-<ul>
-<p>Formát Aiken umožňuje snadnou tvorbu úloh s výběrem odpovědí. Používá 
-jednoduchou syntaxi srozumitelnou i pro člověka. Např:</p>
-<pRE>Co je cílem první pomoci?
-A. Zachránit život, zabránit dalšímu zranění
-B. Poskytnout lékařské ošetření zraněnému
-C. Zabránit dalšímu zranění
-D. Pomoci obětem v nouzi
-ANSWER: A</PRE>
-<p align="right">
-<a href="help.php?file=formataiken.html&module=quiz">Více o formátu "AIKEN"</a></p></ul>
 
-<p><b>Vynechané slovo</b></p>
-<ul>
-<p>Tento formát podporuje pouze úlohy s výběrem odpovědí. Chybné varianty 
-odpovědi se uvozují vlnovkou (~), správná odpověď rovnítkem (=). Např.:</p> 
-<blockquote>Již v raném věku, kdy začínáme zkoumat své tělo, se z nás 
-stávají studenti {=anatomie a fyziologie ~mechaniky ~teologie ~botaniky}, 
-a studenty v jistém smyslu zůstáváme až do konce života.</blockquote>
-<p align="right">
-<a href="help.php?file=formatmissingword.html&module=quiz">Více o formátu 
-"Vynechané slovo"</a></p></ul>
+<div style="margin-left: 2em">
+  <p>Formát Aiken poskytuje možnost, jak jednoduše vytvářet úlohy s výběrem
+  odpovědí, a to ve snadno srozumitelném formátu. Příklad formátu Aiken:</p>
+  <pre>
+Co je cílem první pomoci?
+A. Zachránit život, předejít dalšímu zranění.
+B. Poskytnout lékařské ošetření zraněnému.
+C. Předejít dalšímu zranění.
+D. Pomoci obětem v nouzi.
+ANSWER: A
+</pre>
 
-<p><b>AON</b></p>
-<ul>
-<p>Tento formát se od předchozího liší pouze tím, že po provedení importu se 
-všechny úlohy s krátkou odpovědí po čtveřicích převedou na přiřazovací úlohy.</p>
-<p>Kromě toho se u úloh s výběrem odpovědí během vkládání náhodně změní pořadí 
-odpovědí.</p>
-<p>Formát je pojmenován podle organizace, která sponzorovala vývoj testovacích 
-nástrojů.</p></ul>
+  <p align="right"><a href="help.php?file=formataiken.html&module=quiz">Více o
+  formátu "Aiken"</a></p>
+</div>
 
-<p><b>Blackboard</b></p>
-<ul>
-<p>Importovat lze i úlohy z ezportního formátu systému Blackboard. Tento formát 
-využívá funkcí PHP určených pro práci s jazykem XML.</p>
-  <p align="right">
-<a href="help.php?file=formatblackboard.html&module=quiz">Více o 
-formátu "Blackboard"</a></p></ul>
+<p><b>Formát "Vynechané slovo"</b></p>
 
-<p><b>Course Test Manager</b></p>
-<ul>
-<p>Do Moodlu lze importovat úlohy z databáze testovacích otázek systému Course 
-Test Manager (CTM). Pro přístup k testovacím otázkám (uloženým v databázi 
-Microsoft Access) se používají různé postupy v závislosti na tom, zda je Moodle 
-provozován v operačním systému Windows nebo Linux.</p>
-<p>Ve Windows můžete importovat databázi formátu Microsoft Access běžným 
-způsobem.</p>
-<p>V případě Linuxu potřebujete počítač s Windows umístěný na stejné síti. 
-Na něj zkopírujte databázi CTM a spusťte ODBC Socket Server, který pro převod 
-dat do Moodlu na serveru Linux použije jazyka XML.</p>
-<p>Před použitím tohoto importního filtru si prosím přečtěte podrobnější 
-nápovědu.</p>
-<p align="right">
-<a href="help.php?file=formatctm.html&module=quiz">Více o formátu "CTM"</a></p></ul>
+<div style="margin-left: 2em">
+  <p>Tento formát podporuje pouze úlohy s výběrem odpovědí a úlohy s krátkou
+  tvořenou odpovědí. Vytvoření příslušné úlohy závisí na počtu odpovědí. Při
+  jedné odpovědi se vytvoří úloha s krátkou tvořenou odpovědí, při dvou a více
+  odpovědích úloha s výběrem odpovědí. Chybné varianty odpovědi se uvozují
+  vlnovkou (~), správná odpověď rovnítkem (=). Příklad úlohy s výběrem
+  odpovědí:</p>
 
-<p><b>Uživatelský formát</b></p>
-<ul>
-<p>Pokud máte vlastní formát, který potřebujete importovat, upravte podle potřeby 
-soubor mod/quiz/format/custom.php.
-<p>Rozsah nutných změn v kódu je opravdu malý &ndash; nový kód je potřeba pouze 
-pro rozpoznání jedné úlohy ve výchozím textu.
-<p align="right">
-<a href="help.php?file=formatcustom.html&module=quiz">Více o uživatelském formátu</a></p></ul>
+  <blockquote>
+    Již v raném věku, kdy začínáme zkoumat své tělo, se z nás stávají studenti
+    {=anatomie a fyziologie ~mechaniky ~teologie ~botaniky}, a studenty v
+    jistém smyslu zůstáváme až do konce života.
+  </blockquote>
 
-<p>Postupně budou přibývat další formáty, např. WebCT, IMS QTI a jakékoliv jiné, 
+  <p>Příklad úlohy s krátkou tvořenou odpovědí:</p>
+
+  <blockquote>
+    Již v raném věku, kdy začínáme zkoumat své tělo, se z nás stávají studenti
+    {=anatomie a fyziologie}, a studenty v jistém smyslu zůstáváme až do konce
+    života.
+  </blockquote>
+
+  <p align="right"><a href=
+  "help.php?file=formatmissingword.html&module=quiz">Více o formátu "Vynechané
+  slovo"</a></p>
+</div>
+
+<p><b>Formát AON</b></p>
+
+<div style="margin-left: 2em">
+  <p>Tento formát se od předchozího liší pouze tím, že po provedení importu se
+  všechny úlohy s krátkou tvořenou odpovědí převedou po čtveřicích na
+  přiřazovací úlohy.</p>
+
+  <p>Kromě toho se u úloh s výběrem odpovědí během vkládání náhodně změní
+  pořadí odpovědí.</p>
+
+  <p>Formát je pojmenován podle organizace, která sponzorovala vývoj mnoha
+  testovacích nástrojů.</p>
+</div>
+
+<p><b>Formát Blackboard</b></p>
+
+<div style="margin-left: 2em">
+  <p>Tento modul umožňuje importovat úlohy uložené v exportním formátu systému
+  Blackboard. Je založen na funkcích XML, které jsou kompilovány do vašeho PHP.
+  Upozornění: Tato verze Moodlu <b>není kompatibilní</b> s programem Blackboard
+  verze 6 nebo novější.</p>
+
+  <p align="right"><a href=
+  "help.php?file=formatblackboard.html&module=quiz">Více o formátu
+  "Blackboard"</a></p>
+</div>
+
+<p><b>Formát Blackboard V6+</b></p>
+
+<div style="margin-left: 2em">
+  <p>Také tento modul umožňuje importovat úlohy uložené v exportním formátu
+  systému Blackboard. V omezené míře podporuje systém Blackboard verze 6 a 7.
+  Je opět založen na funkcích XML, které jsou kompilovány do vašeho PHP. Musíte
+  nahrát soubor ZIP exportovaný ze systému Blackboard.</p>
+</div>
+
+<p><b>Formát WebCT</b></p>
+
+<div style="margin-left: 2em">
+  <p>Tento modul umožňuje importovat úlohy uložené v textovém formátu
+  WebCT.</p>
+
+  <p align="right"><a href="help.php?file=formatwebct.html&module=quiz">Více o
+  formátu "WebCT"</a></p>
+</div>
+
+<p><b>Formát Course Test Manager</b></p>
+
+<div style="margin-left: 2em">
+  <p>Tento modul umožňuje importovat úlohy uložené v databázi testových úloh
+  systému Course Test Manager (CTM). Pro přístup k testovým úlohám (uloženým v
+  databázi Microsoft Access) se používají různé postupy v závislosti na tom,
+  zda je Moodle provozován v operačním systému Windows nebo Linux.</p>
+
+  <p>Ve Windows můžete importovat databázi formátu Microsoft Access stejným
+  způsobem jako ostatní importní soubory.</p>
+
+  <p>V případě Linuxu musíte do stejné sítě umístit počítač se systémem
+  Windows, na který zkopírujete databázi CTM. Dále je nutné spustit program
+  ODBC Socket Server, který pro převod dat do Moodlu na serveru Linux použije
+  jazyka XML.</p>
+
+  <p>Před použitím tohoto importního filtru si prosím přečtěte podrobnější
+  nápovědu.</p>
+
+  <p align="right"><a href="help.php?file=formatctm.html&module=quiz">Více o
+  formátu "CTM"</a></p>
+</div>
+
+<p><b>Doplňovací úloha (cloze)</b></p>
+
+<div style="margin-left: 2em">
+  <p>Tento speciální formát umožňuje importovat pouze jeden typ úlohy, a to
+  doplňovací úlohu (cloze).</p>
+
+  <p align="right"><a href="help.php?file=multianswer.html&module=quiz">Více o
+  formátu "Doplňovací úloha (cloze)"</a></p>
+</div>
+
+<p><b>Formát Learnwise</b></p>
+
+<div style="margin-left: 2em">
+  <p>Tento formát umožňuje importovat úlohy s výběrem odpovědí uložené v XML
+  formátu Learnwise.</p>
+</div>
+
+<p><b>Formát Examview</b></p>
+
+<div style="margin-left: 2em">
+  <p>Tento formát umožňuje import úloh z XML souborů programu Examview 4.
+  Upozornění: Starší verze programu Examview nejsou podporovány.</p>
+</div>
+
+<p><b>Formát Moodle XML</b></p>
+
+<div style="margin-left: 2em">
+  <p>Tento specifický formát Moodlu umožňuje importovat testové úlohy, které
+  byly již dříve exportovány v tomtéž formátu. Jde o srozumitelný formát, který
+  se nejlépe uplatní při exportování kategorie úloh do formátu Moodle XML.
+  Tento XML formát umožňuje importovat i obrazové soubory.</p>
+</div>
+
+<p>Postupně budou přibývat další formáty, napříkad IMS QTI a jakékoliv další,
 kterými přispějí uživatelé Moodlu.</p>

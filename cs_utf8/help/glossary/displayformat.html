@@ -1,43 +1,43 @@
 <p align="center"><b>Způsob zobrazení</b></p>
 
-<p>Toto nastavení upřesňuje, jak se hesla slovníku budou zobrazovat. 
-Standardní způsoby zobrazení jsou tyto:</p>
-<blockquote>
-<dl>
-<dt><b>Prostý slovníkový styl</b></dt>
-<dd>Vypadá jako běžný tištěný slovník; nezobrazují se autoři hesel
-a přílohy jsou uvedeny ve formě odkazů.</dd>
-<dt><b>Seznam položek</b></dt>
-<dd>Zobrazí pouze heslová slova jako hypertextové odkazy; text hesla se 
-zobrazí po kliknutí na odkaz.</dd>
-<dt><b>Souvislý bez autora</b></dt>
-<dd>Zobrazuje hesla jedno za druhým, oddělená pouze editačními ikonami.</dd>
-<dt><b>Úplný včetně autora</b></dt>
-<dd>Zobrazení podobné jako ve fóru; zobrazuje se údaj o autorovi hesla, přílohy 
-jsou uvedeny ve formě odkazů.</dd>
-<dt><b>Úplný bez autora</b></dt>
-<dd>Zobrazení podobné jako ve fóru; údaj o autorovi hesla se nezobrazuje, přílohy 
-jsou uvedeny ve formě odkazů.</dd>
-<dt><b>Encyklopedie</b></dt>
-<dd>Stejný způsob zobrazení jako "Úplný včetně autora", ale pokud je přílohou 
-obrázek, zobrazí se přímo v textu hesla.</dd>
-<dt><b>FAQ (ČKD:-)</b></dt>
-<dd>Vhodný pro zobrazení seznamů <b>č</b>asto <b>k</b>ladených <b>d</b>otazů. 
-Automaticky vkládá před heslové slovo (které v tomto případě obsahuje znění 
-dotazu) a před text hesla (obsahující odpověď) slovo OTÁZKA, resp. ODPOVĚĎ.</dd>
-</dl>
-</blockquote>
+<p>Toto nastavení upřesňuje, jak se hesla slovníku budou zobrazovat. Standardní
+způsoby zobrazení jsou tyto:</p>
 
-<hr />
-<p>Správci Moodlu mohou vytvářet nové způsoby zobrazení, a to následujícím 
-postupem:</p>
-<ol>
-<li>Nahlédněte do adresáře mod/glossary/formats; pro každý existující způsob 
-zobrazení byste měli vidět soubor označený číslem.</li>
-<li>Vytvořte kopii jednoho z nich a označte ji jiným číslem N (nezapomeňte, že 
-0 a 1 jsou rezervovány).</li>
-<li>Editací souboru vytvořte vlastní formát (vyžaduje jistou znalost PHP).</li>
-<li>Nakonec vložte do každého jazykového balíčku, který používáte, novou 
-proměnnou s názvem <b>displayformatN</b> a připojte krátké, ale výstižné 
-jméno pro nový formát.</li>
-</ol>
+<blockquote>
+  <dl>
+    <dt><b>Prostý slovníkový styl</b></dt>
+
+    <dd>Podobá se běžnému tištěnému slovníku se samostatnými hesly. Nezobrazují
+    se autoři hesel a přílohy jsou uvedeny ve formě odkazů.</dd>
+
+    <dt><b>Souvislý bez autora</b></dt>
+
+    <dd>Hesla jsou zobrazena souvisle jedno za druhým, oddělena jsou pouze
+    editačními ikonami.</dd>
+
+    <dt><b>Úplný včetně autora</b></dt>
+
+    <dd>Zobrazení je podobné jako ve fóru, zobrazuje se údaj o autorovi hesla.
+    Přílohy jsou uvedeny ve formě odkazů.</dd>
+
+    <dt><b>Úplný bez autora</b></dt>
+
+    <dd>Zobrazení je podobné jako ve fóru, informace o autorovi se nezobrazují.
+    Přílohy jsou uvedeny ve formě odkazů.</dd>
+
+    <dt><b>Encyklopedie</b></dt>
+
+    <dd>Stejný způsob zobrazení jako "Úplný včetně autora", ale pokud tvoří
+    přílohou obrázek, zobrazí se přímo v textu hesla.</dd>
+
+    <dt><b>ČKD (FAQ)</b></dt>
+
+    <dd>Formát vhodný pro zobrazení seznamů často kladených dotazů. Automaticky
+    vkládá před heslové slovo (které v tomto případě obsahuje znění dotazu) a
+    před text hesla (obsahující odpověď) slovo OTÁZKA, respektive ODPOVĚĎ.</dd>
+  </dl>
+</blockquote>
+<hr>
+
+<p>Správci těchto stránek mohou vytvořit nové formáty podle pokynů uvedených v
+souboru <b>mod/glossary/formats/README.txt</b>.</p>
