@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.7 dev (2006050300)
+      // quiz_analysis.php - created with Moodle 1.6 + (2006050506)
 
 
 $string['analysis'] = 'Položková analýza';
+$string['analysisdownload'] = 'Stažení analýzy';
 $string['analysisoptions'] = 'Volby analýzy';
 $string['analysistitle'] = 'Tabulka položkové analýzy';
 $string['attemptsall'] = 'všechny pokusy';
@@ -13,20 +14,20 @@ $string['attemptslast'] = 'poslední pokus';
 $string['dicsindextitle'] = 'Diskrim.<br />index';
 $string['disccoefftitle'] = 'Diskrim.<br />koef.';
 $string['downloadooo'] = 'Stáhnout ve formátu OpenOffice';
-$string['facilitytitle'] = '%% Správných<br />možnosti';
+$string['facilitytitle'] = 'Snadnost<br />(%% správných)';
 $string['lowmarkslimit'] = 'Neprovádět analýzu, pokud je skór menší než:';
 $string['pagesize'] = 'Počet úloh na stránku:';
-$string['qcounttitle'] = 'Úl. počet';
-$string['qidtitle'] = 'Úl. č.';
+$string['qcounttitle'] = 'Počet úl.';
+$string['qidtitle'] = 'Č. úl.';
 $string['qnametitle'] = 'Název úlohy';
 $string['qtexttitle'] = 'Text úlohy';
-$string['qtypetitle'] = 'Úl. typ';
+$string['qtypetitle'] = 'Typ úl.';
 $string['quizreportdir'] = 'analyzy_testu';
-$string['rcounttitle'] = 'Od.<br />počet';
+$string['rcounttitle'] = 'Počet<br />odp.';
 $string['reportanalysis'] = 'Zpráva položkové analýzy';
 $string['responsestitle'] = 'Text odpovědi';
 $string['rfractiontitle'] = 'částečný<br />kredit';
-$string['rpercenttitle'] = 'Od.%%';
-$string['stddevtitle'] = 'SD';
+$string['rpercenttitle'] = 'Odp. %%';
+$string['stddevtitle'] = 'SO';
 
 ?>

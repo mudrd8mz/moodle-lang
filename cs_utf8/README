@@ -16,7 +16,13 @@ Jindřich Jindřich (jindrich@jindrich.org)
 Jiří Rambousek (jiri.rambousek@phil.muni.cz)
 Daniel Mikšík (miksik@phil.muni.cz)
 Zdeněk Pytela (pytela@phil.muni.cz)
- Masarykova univerzita v Brně, Filozofická fakulta
+Jarmila Fictumová (fictumov@phil.muni.cz)
+Petr Sudický (sudpet@mail.muni.cz)
+Kamila Králíková (145370@mail.muni.cz)
+ Masarykova univerzita, Filozofická fakulta
+
+LANGMaster Group, a. s.
+
 
 LICENCE
 
@@ -58,9 +64,9 @@ V zájmu konzistence a srozumitelnosti se dále snažíme používat stále stej
 termíny pro překlad stejných slov. Odlaďování drobných nesrovnalostí však může
 nějakou dobu trvat, takže prosíme o trpělivost.
 
-Soubory v distribuci jsou uloženy v kódování ISO-8859-2 a některé z nich mohou
+Soubory v distribuci jsou uloženy v kódování UTF-8 a některé z nich mohou
 používat Linuxový formát konce řádků. Texty, které jsou Moodlem odesílány
-emailem ve formě prostého textu (tedy ne jako HTML), jsou přeloženy bez 
+e-mailem ve formě prostého textu (tedy ne jako HTML), jsou přeloženy bez 
 diakritiky.
 
 Pro překlad používáme naše oblíbené editory ViM a PSPad, případně zabudované
@@ -69,6 +75,14 @@ nástroje lang.php a langdoc.php
 
 DŮLEŽITÉ ZMĚNY
 
+R1.6
+* Modul Quiz: Úloha typu "Essay" = "Úloha s tvořenou odpovědí"
+* Modul Workshop a Exercise: způsoby hodnocení jsou přejmenovány takto (napřed 
+  krátký název, v závorce dlouhý):
+  - Accumulative (Grading) = Kritéria (Hodnocení podle kritérií)
+  - Error Banded (Grading) = Dichotomické (Dichotomické hodnocení Ano/Ne)
+  - Criterion (Grading)    = Charakteristika (Hodnocení volbou charakteristiky)
+  - Rubric (Grading)       = Sady charakteristik (Hodnocení sadami charakteristik)
 R1.5
 * "Grade" je překládáno jako "Známka" či "Známkovat" místo dosavadního "Body".
   Bodování je v novém pojetí jedním ze způsobů Známkování. Známkování je 
