@@ -1,0 +1,192 @@
+<h2>Pokročilé použití formátu Markdown</h2>
+
+<div id="Main">
+  <div class="article">
+    <p>Tato část obsahuje rozšíření základních informací uvedených v části
+    nazvané "Psaní textu pomocí formátu Markdown" a je určena uživatelům, kteří
+    mají zvláštní požadavky a chtějí maximálně využít výhod poskytovaných
+    formátem Markdown. Pokud neznáte nebo nepotřebujete níže uvedené
+    formátování, můžete tuto část vynechat a vrátit se k ní v okamžiku, kdy
+    budete uvedené informace potřebovat.</p>
+
+    <ul>
+      <li><a href="#linebreaks">Zalomení řádků</a></li>
+
+      <li><a href="#hr">Horizontální linky</a></li>
+
+      <li><a href="#image_links">Obrázky s hypertextovými odkazy</a></li>
+
+      <li><a href="#embedded">Vložení HTML</a></li>
+
+      <li><a href="#preformatted">Předformátovaný kód</a></li>
+
+      <li><a href="#special_char">Použití speciálních znaků</a></li>
+
+      <li><a href="#further">Další informace</a></li>
+    </ul>
+
+    <h2><a id="linebreaks" name="linebreaks">Konce řádků</a></h2>
+
+    <p>Do některých textů, například do básní a říkanek, je třeba často vložit
+    konce řádků. Vložení konce řádků pomocí klávesy Enter nebude mít požadovaný
+    efekt, protože ve výchozím nastavení se řádky spojí tak, aby vytvořily
+    odstavec.</p>
+
+    <p><strong><code>Ententýky, dva špalíky,<br>
+    čert vyletěl z elektriky,<br>
+    bez klobouku bos,<br>
+    narazil si nos!</code></strong></p>
+
+    <p>Použijeme-li klávesu Enter, dostaneme následující výstup, v němž jsou
+    konce řádků ignorovány:</p>
+
+    <p>Ententýky, dva špalíky, čert vyletěl z elektriky, bez klobouku bos,
+    narazil si nos!</p>
+
+    <p>Zakončíme-li jednotlivé řádky dvojitou mezerou, získáme konce řádků:</p>
+
+    <p>Ententýky, dva špalíky,<br>
+    čert vyletěl z elektriky,<br>
+    bez klobouku bos,<br>
+    narazil si nos!</p>
+
+    <h2><a id="hr" name="hr">Horizontální linky</a></h2>
+
+    <p>Horizontální linky je možné vytvořit tak, že umístíte tři či více
+    hvězdiček (*), spojovníků (-) nebo podtržítek (_) na řádek vedle sebe.</p>
+
+    <p>Příklad:</p>
+
+    <p><strong><code>***</code></strong></p>
+
+    <p>Můžete však přidat mezery nebo další znaky, abyste zřetelněji odlišili
+    oddělení sekcí v okně pro úpravy textu. Příklad:</p>
+
+    <p><strong><code>* * * * *</code></strong></p>
+
+    <p><strong><code>-------------------------</code></strong></p>
+
+    <p><strong><code>_ _ _ _ _</code></strong></p>
+
+    <p>Všechny uvedené metody poskytnou přesně stejný výsledek:</p>
+    <hr>
+
+    <h2><a id="image_links" name="image_links">Obrázky s hypertextovými
+    odkazy</a></h2>
+
+    <p>Dokument "Psaní textu pomocí formátu Markdown" obsahuje postupy
+    vytváření webových odkazů a vkládání obrázků. Obě tyto operace lze
+    zkombinovat a vytvořit tak obrázky, které fungují jako odkazy.</p>
+
+    <p><strong><code>[vyhledávač google][google]</code></strong></p>
+
+    <p><strong><code>![logo google][logo]</code></strong></p>
+
+    <p>Jedná se o standardní webový odkaz a obrázek. Umístěním obrázku na místo
+    textu odkazu získáte tento odkaz:</p>
+
+    <p><strong><code>[![logo google][logo]][google]</code></strong></p>
+
+    <p>Výše uvedený řádek v kombinaci s následujícími definicemi odkazů na
+    jiném místě v dokumentu:</p>
+
+    <p><strong><code>[logo]:</code></strong>
+    <strong><code>http://www.google.com/images/logo.gif</code></strong><br>
+    <strong><code>[google]:</code></strong>
+    <strong><code>http://www.google.com/ "Kliknutím spustíte vyhledávač
+    Google.com"</code></strong></p>
+
+    <p>vytvoří obrázkový odkaz, který se po kliknutí otevře (s bublinovou
+    nápovědou, která se zobrazí, pokud přes odkaz přejedete myší):</p>
+
+    <p><a href="http://www.google.com/" title=
+    "Kliknutím spustíte vyhledávač Google.com"><img src=
+    "http://www.google.com/images/logo.gif" alt="logo google"></a></p>
+
+    <p>Tato technika je například užitečná při propojení malých obrázků &ndash;
+    náhledů &ndash; se soubory velkých fotografií pro stažení.</p>
+
+    <h2><a id="embedded" name="embedded">Vložení HTML</a></h2>
+
+    <p>Pokud jste zběhlí v používání jazyka HTML, může se stát, že vám formát
+    Markdown neumožní takovou kontrolu formátování, na jakou jste zvyklí. Při
+    návrhu formátu Markdown byla tato eventualita vzata v úvahu, a proto je
+    možné kód HTML vložit přímo do textu formátovaného pomocí formátu
+    Markdown.</p>
+
+    <p><strong><code>* &lt;small&gt;text malými
+    písmeny&lt;/small&gt;</code></strong><br>
+    <strong><code>* &lt;big&gt;text velkými
+    písmeny&lt;/big&gt;</code></strong></p>
+
+    <ul>
+      <li><small>text malými písmeny</small></li>
+
+      <li><big>text velkými písmeny</big></li>
+    </ul>
+
+    <p>Poznámka: U seznamů s odrážkami jsou souběžně použity značky HTML a kód
+    Markdown. Díky tomu není třeba vytvářet složitý kód HTML u základních
+    funkcí formátování, například odstavců a seznamů, a přesto můžete jazyk
+    HTML v určitých situacích plně využít.</p>
+
+    <h2><a id="preformatted" name="preformatted">Zobrazení HTML nebo
+    předformátovaného textu</a></h2>
+
+    <p>Pokud chcete, aby se zadaný kód HTML zobrazil přesně tak, jak jste jej
+    zadali, a nebyl zpracován prohlížečem, můžete na začátek každého řádku
+    umístit čtyři mezery.</p>
+    <pre>
+<code>&lt;p&gt;Odstavec v &lt;b&gt;HTML&lt;/b&gt; zobrazený jako kód&lt;/p&gt;
+</code>
+</pre>
+
+    <p>Tento postup také funguje u zobrazení počítačového kódu:</p>
+    <pre>
+<code>print "Argumenty příkazového řádku: </code><code>(@ARGV)\n";
+</code>
+</pre>
+
+    <p>Protože je toto formátování často používáno u výpisů počítačových
+    programů a dalších textů, které mohou obsahovat znaky používané formátem
+    Markdown k rozlišení různých typů formátování, je u těchto řádků
+    formátování Markdown vypnuto:</p>
+    <pre>
+<code>Normálně by toto slovo bylo zobrazeno **tučně**.
+</code>
+</pre>
+
+    <p>Chcete-li takové znaky zahrnout do běžného textu, přečtěte si
+    následující podkapitolu.</p>
+
+    <h2><a id="special_char" name="special_char">Použití speciálních
+    znaků</a></h2>
+
+    <p>Chcete-li použít speciální znaky, které spouští formátování Markdown,
+    aniž by došlo k jejich zpracování, zadejte před ně zpětné lomítko (\).
+    Tímto způsobem "vynecháváte" následující znak ze zpracování. Zpětné lomítko
+    není zobrazeno, ale znak, který přímo za ním následuje, se zobrazí přesně
+    tak, jak byl zadán.</p>
+
+    <p><strong><code>\*hvězdičky, bez zdůraznění\*</code></strong></p>
+
+    <p>se zobrazí jako</p>
+
+    <p>*hvězdičky, bez zdůraznění*</p>
+
+    <p>narozdíl od</p>
+
+    <p><strong><code>*zdůraznění, bez hvězdiček*</code></strong></p>
+
+    <p>zobrazeného jako</p>
+
+    <p><em>zdůraznění, bez hvězdiček</em></p>
+
+    <h2><a id="further" name="further">Další informace</a></h2>
+
+    <p>Formátovací systém Markdown není používán pouze v Moodlu, ale stále
+    častěji i v různých nástrojích pro publikování na webu. Další informace o
+    tomto formátu naleznete na adrese <a href=
+    "http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a>.</p>
+  </div>
+</div>

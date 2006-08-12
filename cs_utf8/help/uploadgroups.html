@@ -1,0 +1,60 @@
+<p align="center"><b>Nahrávání skupin</b></p>
+
+<p>Tato funkce umožňuje dávkové nahrávání skupin do Moodlu.</p>
+
+<ul>
+  <li>Každý řádek souboru obsahuje právě jeden záznam.</li>
+
+  <li>Každý záznam je tvořen řadou údajů oddělených čárkami.</li>
+
+  <li>První záznam souboru má zvláštní funkci &ndash; obsahuje seznam názvů polí.
+  Tento seznam definuje formát zbytku souboru.
+
+    <blockquote>
+      <p><strong>Povinná pole:</strong> Tyto položky nesmí v prvním záznamu
+      chybět a musí být vyplněny u všech uživatelů.</p>
+
+      <p> </p><font color="#990000" face=
+      "Courier New, Courier, mono">groupname</font>
+      <p>
+      <p>
+
+      <p><strong>Standardně vyžadovaná pole:</strong> Tato pole jsou volitelná.
+      Pokud nejsou zahrnuta, jsou hodnoty převzaty z aktuálního jazyka a
+      kurzu:</p>
+
+      <p><font color="#990000" face="Courier New, Courier, mono">idnumber,
+      coursename, lang</font></p>
+
+      <p><strong>Volitelná pole:</strong> Všechna tato pole jsou zcela
+      volitelná.</p>
+
+      <p><font color="#990000" face="Courier New, Courier, mono">description,
+      picture, hidepicture</font></p>
+    </blockquote>
+  </li>
+
+  <li>Čárky obsažené uvnitř údajů je nutné zapsat kódem &amp;#44; &ndash; skript jej
+  automaticky převede zpět na čárky.</li>
+
+  <li>Pro booleovská pole použijte 0 pro False (nepravda) a 1 pro True
+  (pravda).</li>
+
+  <li>K identifikaci kurzu lze použít identifikační číslo (idnumber) nebo název
+  kurzu (coursename). Identifikační číslo má přednost před názvem kurzu. Pokud
+  není ani jedno z těchto polí zadáno, jsou skupiny přidány do aktuálního
+  kurzu.</li>
+
+  <li>Název kurzu zde odpovídá krátkému názvu kurzu.</li>
+
+  <li>Poznámka: Jestliže je skupina již registrována v databázi Moodlu u
+  konkrétního kurzu, vrátí skript název dané skupiny. Učitelé mohou nahrávat
+  skupiny pouze do kurzů, v nichž mají oprávnění k úpravám.</li>
+</ul>
+
+<p>Zde je příklad platného souboru pro import:</p>
+
+<p><font size="-1" face=
+"Courier New, Courier, mono">groupname,idnumber,lang,description,picture<br>
+group1, Phil101, cs, tato skupina vyzaduje specialni pozornost!, 0<br>
+group2, Mat243, , ,</font></p>
