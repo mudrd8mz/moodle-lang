@@ -1,0 +1,51 @@
+<p align="center"><b>Relativní URL, přehrávače multimédií a testy Hot
+Potatoes</b></p>
+
+<p><b>Pojmy</b></p>
+
+<div class="indent">
+  <p><i>URL (Uniform Resource Locator)</i><br>
+  Adresa internetového zdroje, kterým může být např. webová stránka, obrazový
+  nebo zvukový soubor ad.</p>
+
+  <p><i>Absolutní URL</i><br>
+  URL, které začíná sekvencí "http://", se nazývá absolutní URL. Ať je ho
+  použito kdekoliv, vždy odkazuje na tentýž cílový zdroj.</p>
+
+  <p><i>Relativní URL</i><br>
+  URL, které není uvozeno sekvencí "http://", se nazývá relativní URL.
+  Absolutní URL cílového zdroje pak lze získat kombinací relativního URL a
+  absolutního URL "základní" stránky.</p>
+</div>
+
+<p><b>Relativní URL v testech Hot Potatoes</b></p>
+
+<p>Relativní URL jsou výhodnou metodou, jak v testech Hot Potatoes určit
+umístění obrazových a zvukových souborů či videosekvencí. Umožňují totiž
+prohlížení a kontrolu testů na lokálním počítači před tím, než jsou vloženy do
+kurzu v Moodlu. Pokud jsou do testu vloženy multimediální soubory, je potřeba
+je uložit do Moodlu spolu se souborem testu, tak aby byly dostupné, až budete
+chtít test v Moodlu použít.</p>
+
+<p>Z bezpečnostních důvodů nepovoluje Moodle přímý přístup k souborům kurzu.
+Všechny požadavky na soubory v daném kurzu procházejí zabezpečovacím skriptem,
+který ověřuje, zda je uživatel vznášející požadavek na soubor zapsaným členem
+kurzu. Tento mechanismus však zároveň způsobuje, že běžná pravidla převodu
+relativních URL na absolutní (viz výše) zde neplatí, takže relativní odkazy
+použité v testu by potom byly nefunkční.</p>
+
+<p>Řešení je přesto docela jednoduché: Stačí zajistit, aby v okamžiku načtení
+testu do prohlížeče byla <font color="red">všechna relativní URL převedena na
+absolutní</font>. <b>V případě testů Hot Potatoes zajišťuje tento převod
+automaticky sám Moodle</b> &ndash; tvůrci testů se tak tímto zdlouhavým úkolem
+nemusejí zabývat.</p>
+
+<p><b>Přehrávače multimédií v testech Hot Potatoes</b></p>
+
+<p>Některé přehrávače multimédií odmítnou zpracovat multimediální soubory, poté
+co projdou zabezpečovacím skriptem chránícím soubory kurzu. V této situaci je
+nutné nahradit původně použitý přehrávač takovým, který je kompatibilní se
+systémem Moodle. To můžete provést buď tak, že odkaz na přehrávač v testu ručně
+upravíte, nebo že použití kompatibilního přehrávače vynutíte aktivováním funkce
+"Vnutit multimediální pluginy" &ndash; na stránce nastavení testu vyberte u této
+položky "Ano".</p>

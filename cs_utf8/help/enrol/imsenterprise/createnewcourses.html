@@ -1,0 +1,18 @@
+<p align="center"><b>Automatické vytvoření nových kurzů</b></p>
+
+<p>Pokud je toto nastavení aktivní, může zápisový modul IMS Enterprise vytvořit
+takové nové kurzy, které se vyskytují v souboru IMS, ale které nejsou v
+databázi Moodlu.</p>
+
+<p>Nejprve je vznesen dotaz na "idnumber" kurzu. Jedná se o alfanumerické pole,
+které je uvedeno v tabulce kurzů v Moodlu a které může např. upřesňovat kód
+použitý pro identifikaci kurzu ve studijním informačním systému. Pokud není
+nalezeno idnumber, vyhledává se v tabulce kurzů " krátký popis", který v Moodlu
+slouží jako krátký identifikátor kurzu, a zobrazuje se např. v horní řádkové
+navigaci. (V některých systémech mohou být obě tato pole identická.) Teprve
+když ani toto hledání není uspěšné, může modul volitelně vytvořit nové
+kurzy.</p>
+
+<p>Všechny nově vzniklé kurzy jsou vytvářeny jako SKRYTÉ. Předchází se tak
+tomu, aby se studenti dostali do zcela prázdných kurzů, o jejichž existenci
+učitel ani neví.</p>

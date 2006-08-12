@@ -1,0 +1,31 @@
+<p align="center"><strong>Použijte tato nastavení, pokud chcete zkontrolovat
+objednávky před tím, než bude zpracována kreditní karta.</strong></p>
+
+<p>Ponechte pole "an_review" nezaškrtnuté, jestliže mají být studenti zapsáni
+do kurzů bezprostředně poté, co zadají číslo své kreditní karty.<br>
+Jestliže pole "an_review" zaškrtnete, bude kreditní karta autorizována, ale
+prostředky na ní nebudou rezervovány. Nyní máte dvě možnosti: 'Ruční zpracování
+transakcí' nebo 'Automatické zpracování transakcí'.</p>
+
+<ul>
+  <li>Pro ruční zpracování transakcí vložte do pole "an_capture_day" číslo 0
+  (nula). Pokud transakci nezkontrolujete během 30 dnů, bude zrušena.
+  Nepropadejte panice! Vaše podnikání je pro nás důležité. Na transakce s
+  blížícím se koncem lhůty pro vyřízení budete upozorněni X dnů předem podle
+  nastavení v sekci "E-mailové upozorňování" - pokud správně nastavíte
+  CRON.</li>
+
+  <li>Pro automatické zpracování transakcí vložte do pole "an_capture_day"
+  číslo mezi 1 a 29. Pamatujte, že MUSÍ BÝT ZPROVOZNĚN CRON. Prostředky na
+  kreditní kartě budou rezervovány a student bude zapsán do kurzu. Systém
+  automatického zpracování transakcí rezervuje prostředky na kreditní kartě o
+  tolik dní později, kolik je nastaveno v poli "an_capture_day", a to bez
+  nutnosti dalších zásahů. Pokud jste založením skeptici, můžete potvrzovat
+  nebo zamítat platby poté, co obdržíte e-mail o nové nevyřízené transakci.
+  Uživatelé mohou taktéž e-mailem obdržet uvítací zprávu, pokud zaškrtnete pole
+  "enrol_mailstudents".</li>
+</ul>
+<p>
+
+<p align="center"><strong>V Moodlu 1.6 můžete potvrdit, zamítnout nebo
+refundovat platby</strong> na stránce "Správa plateb".</p>

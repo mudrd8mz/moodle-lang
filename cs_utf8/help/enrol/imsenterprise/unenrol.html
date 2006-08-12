@@ -1,0 +1,30 @@
+<p align="center"><b>Vyškrtávání studentů/učitelů</b></p>
+
+<p>Pomocí dat ve formátu IMS Enterprise je možné řídit zápisy do kurzů &ndash; pro
+studenty i pro učitele. Pokud je toto nastavení zapnuto, provede Moodle
+vyškrtnutí z kurzů uvedená v souboru IMS.</p>
+
+<p>V rámci souboru IMS existují tři způsoby vyškrtávání studentů:</p>
+
+<ul>
+  <li>Pomocí položky &lt;member&gt; &ndash; ta identifikuje daného studenta a kurz, a
+  pomocí atributu "recstatus" nastaveného u položky &lt;role&gt; na hodnotu 3
+  ("odstranit"). TENTO ZPŮSOB JEŠTĚ NENÍ V ZÁPISOVÉM MODULU MOODLU K
+  DISPOZICI.</li>
+
+  <li>Pomocí položky &lt;member&gt; &ndash; ta identifikuje daného studenta a kurz, a
+  pomocí položky &lt;status&gt; nastavené na hodnotu 0 ("neaktivní").</li>
+</ul>
+
+<p>Třetí způsob je poněkud odlišný. Nevyžaduje, aby bylo povoleno vyškrtávání z
+kurzů, a může být definován v dostatečném předstihu před datem vyškrtnutí z
+kurzu.</p>
+
+<ul>
+  <li>Pokud je u položky &lt;member&gt; uveden také údaj o časové platnosti
+  zápisu &ndash; &lt;timeframe&gt;, lze jeho pomocí určovat datum začátku a/nebo
+  konce zápisu do kurzu pro konkrétního studenta. Jestliže jsou tato data v
+  souboru IMS uvedena, uloží se v Moodlu do tabulky obsahující údaje o zápisu;
+  po datu konce zápisu pak nebude mít student do příslušného kurzu povolen
+  přístup.</li>
+</ul>

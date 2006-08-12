@@ -1,0 +1,188 @@
+<p align="center"><b>Vypočítávané úlohy</b></p>Vypočítávané úlohy umožňují
+vytvářet jednotlivé numerické úlohy s použitím masek, které se při vstupu do
+testu nahradí konkrétními hodnotami.<br>
+Zde je uveden zkrácený náhled hlavní stránky pro úpravu úlohy, spolu s několika
+příklady:<br>
+
+<table>
+  <tbody>
+    <tr valign="top">
+      <td align="right">
+        <p><b>Otázka:</b></p>
+      </td>
+
+      <td>
+      <textarea id="questiontext" name="questiontext" rows="5" cols="40" wrap=
+      "virtual">
+Kolik je {a} + {b} ?
+</textarea></td>
+    </tr>
+
+    <tr valign="top">
+      <td align="right">
+        <p><b>Obrázek k zobrazení:</b></p>
+      </td>
+
+      <td><select name="image">
+        <option value="" selected="selected">
+          Žádný
+        </option>
+
+        <option value="grevture.gif">
+          grevture.gif
+        </option>
+      </select></td>
+    </tr>
+
+    <tr valign="top">
+      <td align="right">
+        <p><b>Vzorec správné odpovědi:</b></p>
+      </td>
+
+      <td><input align="left" type="text" id="formula0" name="answer[]" size=
+      "20" value="{a} + {b}">&nbsp;&nbsp; <input type="hidden" name=
+      "fraction[]" value="1.0"></td>
+    </tr>
+
+    <tr valign="top">
+      <td align="right">
+        <p><b>Tolerance:</b></p>
+      </td>
+
+      <td><input align="left" type="text" id="tolerance0&quot;" name=
+      "tolerance[]" size="15" value="0.01">±</td>
+    </tr>
+
+    <tr valign="top">
+      <td align="right">
+        <p><b>Typ tolerance:</b></p>
+      </td>
+
+      <td><select name="tolerancetype[]">
+        <option value="1" selected="selected">
+          Relativní
+        </option>
+
+        <option value="2">
+          Nominální
+        </option>
+
+        <option value="3">
+          Geometrická
+        </option>
+      </select></td>
+    </tr>
+
+    <tr valign="top">
+      <td align="right">
+        <p><b>Platné číslice:</b></p>
+      </td>
+
+      <td><select name="correctanswerlength[]">
+        <option value="1">
+          1
+        </option>
+
+        <option value="2" selected="selected">
+          2
+        </option>
+
+        <option value="3">
+          3
+        </option>
+
+        <option value="4">
+          4
+        </option>
+
+        <option value="5">
+          5
+        </option>
+
+        <option value="6">
+          6
+        </option>
+
+        <option value="7">
+          7
+        </option>
+
+        <option value="8">
+          8
+        </option>
+
+        <option value="9">
+          9
+        </option>
+
+        <option value="10">
+          10
+        </option>
+      </select></td>
+    </tr>
+  </tbody>
+</table><br>
+U otázky vidíte zadaný text a "Vzorec správné odpovědi" {a} a {b}. Tato i
+jakákoliv jiná {jména} mohou být použita jako maska, která se při vstupu do
+testu nahradí konkrétní hodnotou. Po odeslání testu se s použitím výrazu v poli
+"Vzorec správné odpovědi" vypočte správná odpověď (jako numerická hodnota).
+Masky, které je možné použít, se nastaví nebo vytvoří na další stránce pomocí
+nástroje pro úpravu vypočítávaných úloh.<br>
+V příkladu je použit operátor +. Dalšími povolenými operátory jsou: -*/ a %,
+přičemž % funguje jako operátor modulo. Stejně tak je možné použít některé
+matematické funkce, které se vyskytují i v jazyce PHP. Patří k nim 24 funkcí s
+jedním argumentem:<br>
+<b>abs, acos, acosh, asin, asinh, atan, atanh, ceil, cos, cosh, deg2rad, exp,
+expm1, floor, log, log10, log1p, rad2deg, round, sin, sinh, sprt, tan,
+tanh</b><br>
+a dvě funkce se dvěma argumenty:<br>
+<b>atan2, pow</b><br>
+a dále funkce <b>min</b> a <b>max</b>, které vyžadují dva nebo více argumentů.
+Můžete použít rovněž funkci <b>pi</b>, která nevyžaduje žádný argument, ale
+nezapoměňte použít závorky &ndash; správné použití je <b>pi()</b>. Stejně tak u
+ostatních funkcí musí být argumenty uzavřeny v závorkách. Je možné použít
+např.: <b>sin({a}) + cos({b}) * 2</b>. Neměl by být ani problém vkládat jednu
+funkci do druhé, jako např.: <b>cos(deg2rad({a} + 90))</b> apod.<br>
+Více informací o používání těchto funkcí naleznete na stránkách <a target=
+"phpmathdoc" href="http://www.php.net/manual/en/ref.math.php">dokumentace
+PHP</a>.<br>
+<br>
+Stejně jako u numerických úloh můžete povolit rozpětí hodnot, v jehož rámci
+jsou všechny odpovědi považovány za správné. K tomuto účelu se používá pole
+"Tolerance". Existují tři různé typy tolerance. <b>Relativní, nominální a
+geometrická tolerance.</b> Jestliže je správná odpověď v testu vypočtena na
+hodnotu 200 a tolerance nastavena na hodnotu 0.5, pak bude rozdíl mezi
+jednotlivými typy tolerance následující:<br>
+<br>
+<b>Relativní tolerance:</b> Interval tolerance je určen vynásobením správné
+odpovědi hodnotou 0,5. V tomto případě je tedy hodnota tolerance 100 a za
+správnou musí být považována každá odpověď v intervalu 100 až 300 (200 ± 100).
+Tato metoda je vhodná, pokud se velikost správné odpovědi může výrazně lišit
+spolu s různými hodnotami masek.<br>
+<br>
+<b>Nominální tolerance:</b> Jedná se o nejjednodušší typ tolerance, který ovšem
+není příliš účinný. Správná odpověď musí ležet mezi hodnotou 199,5 a 200,5 (200
+± 0,5).<br>
+Tento typ tolerance je vhodný, pouze pokud jsou rozdíly mezi různými správnými
+odpověďmi malé.<br>
+<br>
+<b>Geometrická tolerance:</b> Horní hranice intervalu tolerance se určí jako
+200 + 0,5*200 a je stejná jako v případě tolerance relativní. Dolní hranice se
+počítá jako 200/(1 + 0,5). Správná odpověď tak musí ležet mezi hodnotou 133,33
+and 300.<br>
+Tato metoda je vhodná pro komplexní výpočty, které vyžadují velké tolerance. U
+podobných úloh by bylo možné použít pro výpočet horní hranice intervalu
+relativní toleranci o hodnotě 1 nebo vyšší, ta ale není vhodná pro dolní
+hranici intervalu, protože by ve všech případech povolovala nulu jako správnou
+odpověď.<br>
+<br>
+<b>Poznámka: Jako oddělovač desetinných míst je nutné použít tečku, nikoliv
+čárku, a to jak při vytváření úloh, tak při odpovídání.</b><br>
+<br>
+Pole <b>Platné číslice</b> pouze značí, jakou formou má být správná odpověď
+uvedena v přehledu nebo v protokolech. Příklady: Pokud je volba "Platné
+číslice" nastavena na hodnotu 3, bude správná odpověď 13.333 uvedena jako 13.3;
+1236 bude uvedeno jako 1240; 23 bude uvedeno jako 23.0 atd.<br>
+<br>
+Pole pro komentář a další volitelná pole fungují stejně jako u numerických
+úloh.<br>

@@ -1,0 +1,68 @@
+<p align="center"><b>Položková analýza</b></p>
+
+<p>Pro zajištění správné funkce hodnocení uvádí tato tabulka zpracovaná data
+testu v podobě, která je vhodná pro analýzu a posouzení výkonnosti každé
+otázky. Statistické parametry použité při analýze jsou vypočítávány v souladu s
+klasickou teorií testů.</p>
+
+<p><b>Snadnost (% správně)</b></p>
+
+<p>Tento údaj vypovídá o tom, jak snadná nebo obtížná je daná otázka pro
+studenty. Výpočet: Snadnost = X<sub>průměr</sub> / X<sub>max</sub>,<br>
+kde X<sub>průměr</sub> je průměrný počet bodů získaný všemi studenty za tuto
+položku a X<sub>max</sub> je maximální počet bodů, který lze za položku
+získat.<br>
+Jestliže je možné převest otázky do dichotomické podoby (pouze
+správné/nesprávné odpovědi), souhlasí tento parametr s procentuálně vyjádřeným
+počtem studentů, kteří na danou otázku odpověděli správně.</p>
+<p>
+
+<p><b>Směrodatná odchylka (SO)</b></p>
+
+<p>Tento parametr udává rozptyl jednotlivých odpovědí v celém jejich souboru.
+Pokud všichni studenti odpoví stejně, pak platí, že SO=0. SO se počítá jako
+statistická směrodatná odchylka souboru poměrných skóre (bodový zisk/maximum) u
+každé konkrétní úlohy.</p>
+
+<p><b>Diskriminační index (DI)</b></p>
+
+<p>Tento parametr je hrubým ukazatelem výkonnosti každé položky odděleně pro
+skupinu zdatnějších a méně zdatných studentů. Před vlastním výpočtem indexu se
+provede rozdělení studentů na třetiny podle jejich celkového skóre dosaženého v
+testu. Potom se u analyzované položky vypočtou průměrná skóre skupiny
+nejlepších a nejhorších studentů a oba průměry se navzájem odečtou. Zde je
+matematické vyjádření:<br>
+DI = (X<sub>nejlepší</sub> - X<sub>nejhorší</sub>) / N,<br>
+kde X<sub>nejlepší</sub> je suma poměrných skóre (bodový zisk/maximum), které u
+této úlohy získala 1/3 studentů s nejvyšším počtem bodů za celý test (jde tedy
+o počet správných odpovědí v rámci této nejlepší skupiny), a
+X<sub>nejhorší</sub> je analogicky vypočtená suma pro 1/3 studentů s nejnižším
+počtem bodů za celý test.</p>
+
+<p>Diskriminační index může nabývat hodnot v intervalu +1 až -1. Pokud je
+hodnota indexu menší než 0, znamená to, že položku zodpovědělo správně více
+slabších než zdatnějších studentů. Takové otázky by měly být vyřazeny jako
+bezcenné. Snižují totiž přesnost celkového výsledku testu.</p>
+
+<p><b>Diskriminační koeficient (DC)</b></p>
+
+<p>Tento koeficient představuje další ukazatel pro posouzení schopnosti položky
+rozlišovat zdatnější a méně zdatné studenty. DC je korelační koeficient mezi
+skóre za danou položku a za celý test. Výpočet:<br>
+DC = Suma(xy) / (N * s<sub>x</sub> * s<sub>y</sub>),<br>
+kde Suma(xy) je suma součinů odchylek pro skóre za danou položku a skóre za
+test,<br>
+N je počet odpovědí odeslaných u této otázky,<br>
+s<sub>x</sub> je směrodatná odchylka poměrného skóre za danou otázku,<br>
+a s<sub>y</sub> je směrodatná odchylka skóre za celý test.</p>
+
+<p>Také tento parametr nabývá hodnot v intervalu +1 až -1. Kladné hodnoty značí
+položky, které odlišují zdatnější studenty, zatímco záporné hodnoty indikují
+položky, které byly zodpovězeny nejlépe studenty s nejnižším počtem bodů za
+celý test. Položky se zápornou hodnotou DC byly nesprávně zodpovězeny
+nejlepšími studenty, a představují tak pro ně vlastně jakousi penalizaci.
+Podobné položky by se neměly používat.<br>
+Výhodou diskriminačního koeficientu oproti diskriminačnímu indexu je, že DC
+používá k výpočtu data ze všech výsledků, ne pouze extrémní údaje pro nejlepší
+a nejhorší třetinu studentů. Z tohoto důvodu může být tento parametr
+citlivějším indikátorem pro posouzení výkonnosti jednotlivých položek.</p>

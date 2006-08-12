@@ -1,0 +1,76 @@
+<p align="center"><b>Exportování úloh z vybrané kategorie</b></p>
+
+<p>Tato funkce vám umožní exportovat celou kategorii úloh (včetně podkategorií)
+do textového souboru.</p>
+
+<p>Mějte prosím na paměti, že u mnoha formátů souborů se při exportu úloh
+některé informace ztratí. Je to proto, že mnohé formáty nemají všechny
+vlastnosti, které se vyskytují v úlohách Moodlu. Neměli byste předpokládat, že
+po provedení exportu a importu téže úlohy zůstane tato úloha zcela beze změn.
+Navíc některé typy úloh nelze vůbec exportovat. Doporučujeme proto zkontrolovat
+exportovaná data před tím, než budou použita v novém prostředí.</p>
+
+<p>Aktuálně podporované formáty zahrnují:</p>
+
+<p><b>Formát GIFT</b></p>
+
+<div style="margin-left: 2em">
+  <p>GIFT je nejkomplexnější z formátů, které jsou k dispozici pro exportování
+  testových úloh Moodlu do textového souboru. Byl navržen jako jednoduchý
+  nástroj pro učitele, kteří vytvářejí úlohy ve formátu textového souboru.
+  Podporuje různé typy úloh: úlohy s výběrem odpovědí, s krátkou tvořenou
+  odpovědí, s odpovědí pravda/nepravda, numerické úlohy, přiřazování, a také
+  vložení _______ pro formát "vynechané slovo". Upozornění: Doplňovací úlohy
+  (cloze) nejsou v současné době podporovány. V rámci jednoho textového souboru
+  lze použít více typů úloh a formát GIFT zároveň umožňuje zadávat poznámky k
+  úlohám, jména úloh, komentář k odpovědím a jejich hodnocení v procentech. Zde
+  je několik příkladů:</p>
+  <pre>
+Kdo je pohřben v památníku na Vítkově? {~TGM ~Klement Gottwald =nikdo} 
+
+V památníku na Vítkově byl {~otráven =pohřben ~oddán} Klement Gottwald.
+
+V památníku na Vítkově je pohřben TGM. {FALSE#Není a nikdy nebyl.}
+
+Kdo je pohřben v památníku na Vítkově? {=nyní již nikdo =nikdo}
+
+Kdy se narodil Klement Gottwald? {#1896}
+</pre>
+
+  <p align="right"><a href="help.php?file=formatgift.html&module=quiz">Více o
+  formátu "GIFT"</a></p>
+</div>
+
+<p><b>Formát Moodle XML</b></p>
+
+<div style="margin-left: 2em">
+  <p>Tento specifický formát Moodlu exportuje testové úlohy v jednoduchém
+  formátu XML. Úlohy mohou být následně importovány do jiné testové kategorie
+  nebo využity v rámci jiného procesu, např. při transformaci XSLT. Formát XML
+  exportuje i obrázky připojené k úlohám (v kódování base64).</p>
+</div>
+
+<p><b>Formát IMS QTI 2.0</b></p>
+
+<div style="margin-left: 2em">
+  <p>Úlohy se exportují ve standardním formátu IMS QTI (verze 2.0). Mějte na
+  paměti, že v rámci jednoho souboru ZIP se tak vytvoří sada několika
+  souborů.</p>
+
+  <p align="right"><a href="http://www.imsglobal.org/question/" target=
+  "_qti">Více informací naleznete na stránkách IMS QTI</a>. (externí odkaz v
+  novém okně)</p>
+</div>
+
+<p><b>Formát XHTML</b></p>
+
+<div style="margin-left: 2em">
+  <p>Testová kategorie se expotuje jako jedna stránka v kódu XHTML Strict.
+  Každá úloha je samostatně uzavřena v tagu &lt;div&gt;. Pokud chcete tuto
+  stránku dále používat, jak je, musíte přinejmenším upravit tag &lt;form&gt;
+  na začátku sekce &lt;body&gt;, aby se zajistila požadovaná akce (např.
+  'mailto').</p>
+</div>
+
+<p>Postupně budou přibývat další formáty, např. WebCT a jakékoliv další,
+kterými přispějí uživatelé Moodlu.</p>

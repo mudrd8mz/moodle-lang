@@ -1,0 +1,34 @@
+<p align="center"><b>Adaptivní režim</b></p>
+
+<p>Pokud nastavíte tuto možnost na "Ano", umožníte studentovi v rámci jednoho
+pokusu o splnění testu opakovaně odpovědět na stejnou otázku. Například je-li
+odpověď studenta označena za nesprávnou, má student ihned možnost zkusit
+odpovědět znovu. Bodobý zisk studenta je ale po každém nesprávném pokusu
+obvykle snížen o určitou penalizaci (hodnota penalizace je určena penalizačním
+faktorem, který určíte v dalším nastavení).</p>
+
+<p>Tento režim rovněž povoluje použití adaptivních úloh, které se mohou měnit v
+reakci na odpověd studenta. Takto definuje adaptivní úlohy (položky)
+specifikace IMS QTI:</p>
+
+<blockquote>
+  Adaptivní položka je taková položka, která přizpůsobuje svůj vzhled, svoje
+  hodnocení (zpracování odpovědí) nebo obojí v reakci na každý pokus studenta.
+  Adaptivní položka může na počátku vypadat například jako pole, do kterého má
+  student vložit text. Při vložení nevyhovující odpovědi se však může změnit v
+  úlohu s jednoduchým výběrem odpovědí. Pokud student následně označí správnou
+  odpověď, bude hodnocena menším počtem bodů. Adaptivita tak umožňuje tvůrcům
+  testů vytvářet položky, které pomáhají vést studenty při řešení daného úkolu,
+  a zároveň zajišťují dosažení výsledku při zohlednění individuálního postupu
+  každého studenta.
+</blockquote>
+
+<p>V adaptivním režimu se u každé úlohy zobrazuje další tlačítko:
+<?php print_string('mark', 'quiz') ?>. Pokud student na toto tlačítko klikne,
+odpověď na danou úlohu se odešle a studentovi se zobrazí dosažený bodový zisk.
+Pokud je úloha adaptivní, zobrazí se po kliknutí na tlačítko v nové formě,
+která zohlední odpověď studenta a bude ve většině případů od studenta vyžadovat
+další odpověď. V nejjednodušším případě se bude nová forma adaptivní úlohy
+lišit pouze textem komentáře a student bude vyzván, aby odpovědět ještě jednou.
+V případě složitější adaptivní úlohy se může změnit jak text, tak i celková
+kompozice úlohy.</p>
