@@ -1,95 +1,93 @@
 <p align=center><b>Importar archivos en formato "GIFT"</b></p>
 
 <p>GIFT es el formato disponible más completo para importar preguntas de
-   cuestionario a partir de un archivo de texto. Soporta opciones múltiples,
-   verdadero-falso, respuesta corta, juego de coincidencias y preguntas
-   numéricas, así como la inserción de _____ para el formato de completar. 
-	 Varios tipos de pregunta pueden mezclarse en un simple archivo
-   de texto, dado que este formato soporta líneas de comentario, nombres de
-   preguntas, respuesta automática al alumno y calificaciones por porcentajes de peso.</p>
+   cuestionario a partir de un archivo de texto. Admite preguntas de opción múltiple,
+   verdadero-falso, respuesta corta, preguntas de emparejamiento y preguntas
+   numéricas, así como la inserción de un espacio en blanco ('palabra perdida').
+   Pueden mezclarse varios tipos de pregunta en un único archivo
+   de texto, dado que este formato admite comentarios, nombres de
+   preguntas, comentarios relativos a las respuestas y calificaciones por porcentajes y ponderadas.</p>
 
-        <h3>TIPOS DE PREGUNTA</h3>
+   <p>La codificación del texto debe estar en utf-8 (a menos que utilice únicamente caracteres ascii). 
+   En esta dirección puede encontrar un ejemplo preguntas en formato texto: <a href="<?php echo $CFG->wwwroot; ?>/question/format/gift/examples.txt">gift/examples.txt</a>.</p>
 
-        <p><u>Opción múltiple:</u><br />
-         En las preguntas de opción múltiple, las respuestas erróneas llevan una 
-				 tilde (~) como prefijo; las correctas, un signo de igual(=).</p>
-        <pre>     ¿Cuántos lados tiene un cuadrado?{~dos ~tres =cuatro}</pre>
-        <p>El formato <b>Completar</b> inserta automáticamente una línea en blanco 
-				para completar (como ésta:_____) en medio de la frase. Para usar el 
-				formato de Completar coloque la respuesta en el lugar en donde quiere que 
-				aparezca la línea de completar.</p>
-        <pre>     El cuadrado tiene {~tres =cuatro ~cinco} lados.</pre>
-        <p>Si la respuesta está antes del punto se insertará una línea para completar 
-				en el formato "Completar". En este formato se puede escribir todo tipo de preguntas.</p>
-        <p>Siempre debe haber una línea en blanco (un doble retorno de carro) separando 
-				las preguntas. Por una cuestión de claridad, las preguntas se pueden escribir 
-				en líneas separadas e incluso sangradas. Por ejemplo:</p>
-	<pre>     Colón descubrió América el 12 de {
+<h3>Introducción</h3>
+
+<p>Ninguna pregunta individual en formato GIFT puede contener líneas en blanco. Cada pregunta está delimitada por al menos una línea en blanco. Si necesitara representar una línea en blanco en una pregunta determinada, utilice la marca <b>\n</b>. Puede incorporar comentarios en cualquier momento, pero deben comenzar con dos barras (<b>//</b>) en el inicio de la línea.</p>
+
+<h3>TIPOS DE PREGUNTA</h3>
+
+<p><u>Opción múltiple:</u><br />
+En las preguntas de opción múltiple, las respuestas erróneas llevan una 
+tilde (~) como prefijo; las correctas, el signo igual(=).</p>
+<pre>     ¿Cuántos lados tiene un cuadrado?{~dos ~tres =cuatro}</pre>
+<p>El formato <b>Completar</b> inserta automáticamente una línea en blanco 
+para completar (como ésta:_____) en medio de la frase. Para usar el 
+formato de Completar coloque la respuesta en el lugar en donde quiere que 
+aparezca la línea de completar.</p>
+<pre>     El cuadrado tiene {~tres =cuatro ~cinco} lados.</pre>
+<p>Si la respuesta está antes del punto se insertará una línea para completar en el formato "Completar". En este formato se puede escribir todo tipo de preguntas.</p>
+<p>Siempre debe haber una línea en blanco (un doble retorno de carro) separando las preguntas. Por una cuestión de claridad, las preguntas se pueden escribir en líneas separadas e incluso sangradas. Por ejemplo:</p>
+<pre>     Colón descubrió América el 12 de {
          ~Agosto
          ~Septiembre
          =Octubre
          } de 1492.
      
-     De qué país provienen originalmente los caracteres japoneses? {
+¿De qué país provienen originalmente los caracteres japoneses? {
          ~India
          =China
          ~Corea
          ~Egipto}</pre>
 
-        <p><u>Respuesta Corta:</u><br /> Las respuestas del tipo "Respuesta Corta" 
-				se prefijan siempre con un signo igual (=), indicando que son todas respuestas 
-				correctas. No debe haber respuestas con tilde.</p>
-        <pre>     ¿Quién es el mejor amigo del hombre?{=perro =can}
+<p><u>Respuesta Corta:</u><br /> Las respuestas del tipo "Respuesta Corta" 
+se prefijan siempre con un signo igual (=), indicando que son todas respuestas 
+correctas. No debe haber respuestas con tilde.</p>
+<pre>     ¿Quién es el mejor amigo del hombre?{=perro =can}
 
      Dos mas dos es igual a {=cuatro =4}.</pre>
-        <p>Si hubiera sólo <u>una</u> Respuesta Corta correcta, Debería estar escrita 
-				sin el prefijo igual, de tal manera que no se pueda confundir con el tipo 
-				Verdadero-Falso.
-        <p><u>Verdadero-Falso:</u><br />
-            En este tipo de pregunta la respuesta indica si la frase es correcta 
-						o incorrecta. La respuesta debe ser descrita como {TRUE} o {FALSE}, o 
-						más brevemente {T} o {F}.</p>
-        <pre>     Colón descubrió África.{F}
+<p>Si hubiera sólo <u>una</u> Respuesta Corta correcta, Debería estar escrita 
+sin el prefijo igual, de tal manera que no se pueda confundir con el tipo Verdadero-Falso.
+<p><u>Verdadero-Falso:</u><br />
+En este tipo de pregunta la respuesta indica si la frase es correcta 
+o incorrecta. La respuesta debe ser descrita como {TRUE} o {FALSE}, o 
+más brevemente {T} o {F}.</p>
+<pre>     Colón descubrió África.{F}
 
-     El Sol nace por el Este.{T}</pre>
+El Sol nace por el Este.{T}</pre>
 
-        <p><u>Emparejamiento:</u><br />
-        Las parejas coincidentes comienzan con un signo igual(=) y se separan con 
-				este símbolo: ->. Debe haber al menos tres parejas coincidentes.</p>
+<p><u>Emparejamiento:</u><br />
+Las parejas coincidentes comienzan con un signo igual(=) y se separan con 
+este símbolo: ->. Debe haber al menos tres parejas coincidentes.</p>
 
-	<pre>     Preguntas por Coincidencias. {
+<pre>     Preguntas por Coincidencias. {
          =subpregunta1 -> subrespuesta1
          =subpregunta2 -> subrespuesta2
          =subpregunta3 -> subrespuesta3
          }
      
-     Marque las capitales con sus correspondientes países. {
+Empareje las capitales con sus correspondientes países. {
          =Canadá -> Ottawa
          =Italia  -> Roma
          =Japón  -> Tokio
          =India  -> Nueva Delhi
          }</pre>
-<p>Las preguntas por coincidencias no aceptan respuestas automáticas al alumno 
-o pesos de respuestas por porcentajes.</p>
-         <p><u>Numéricas:</u><br 
-/>
+<p>Las preguntas de emparejamiento no admiten comentarios de retroalimentación ni permiten ponderar mediante porcentajes.</p>
+<p><u>Numéricas:</u><br />
 La sección de respuestas para las preguntas numéricas debe comenzar con el signo #. 
 	Las respuestas numéricas pueden incluir un margen de error, el cual estará 
-	escrito a continuación de la respuesta correcta, separada con dos puntos(:). Así, por 
-	ejemplo, si la respuesta correcta está entre 1,5 y 2,5, debería escribirse como sigue:
- 	<u>{#2:0.5}</u>. Esto indica que 2, con un margen de error de 0,5 es una respuesta
-	 correcta.
+	escrito a continuación de la respuesta correcta, separado con dos puntos (:). Así, por ejemplo, si la respuesta correcta está entre 1,5 y 2,5, debería escribirse como sigue:
+ 	<u>{#2:0.5}</u>. Esto indica que 2, con un margen de error de 0,5 es una respuesta correcta.
 	(es decir, el margen va de 1,5 a 2,5). Si no se especifica ningún margen de 
 	error, se asume que es igual a cero.</p>
         <pre>     ¿Cuándo se descubrió America? {#1492}
 
      ¿Qué valor tiene Pi(con tres decimales de precisión)? 
 	{#3.1415:0.0005}.</pre>
-         <p>Opcionalmente, las respuestas numéricas pueden ser escritas como un 
-				 intervalo con el siguiente formato {<i>Valor mínimo</i>..<i>Valor máximo</i>}.</p>
+         <p>Opcionalmente, las respuestas numéricas pueden ser escritas como un intervalo con el siguiente formato {<i>Valor mínimo</i>..<i>Valor máximo</i>}.</p>
         <pre>     ¿Cuál es el valor de Pi(con tres decimales)? 
 	{#3.141..3.142}.</pre>
-        <p>La interfase del navegador del Moodle no acepta respuestas numéricas múltiples, 
+        <p>La interfaz del navegador de Moodle no acepta respuestas numéricas múltiples, 
 	pero sí el código interno del Moodle y el GIFT. Esto puede ser usado para especificar 
 	múltiples intervalos numéricos, y puede ser particularmente útil cuando se combina con 
 	calificaciones ponderadas porcentuales. Si se utilizan varias respuestas, deben estar 
@@ -227,3 +225,5 @@ del Moodle. </p>
  ("Tecnología de Formato General de Importación") o algo por el estilo, pero era 
  demasiado largo para un simple filtro como éste; por eso quedó simplemente: GIFT.</p>
         <p><font size="-1">Documentación GIFT, por Paul Tsuchido Shew, 13 Ene 2004.</font></p>
+
+<b>ADVERTENCIA</b>: La traducción de este archivo contiene algunos errores e imprecisiones, por lo que está en proceso de <b>revisión</b>. <b>Próximamente se dispondrá de la versión correctamente traducida</b>. Gracias. El equipo de traducción de Moodle al español.

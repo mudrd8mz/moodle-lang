@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006052400)
+      // data.php - created with Moodle 1.6 (2006050506)
 
 
 $string['action'] = 'Acción';
@@ -80,8 +80,12 @@ $string['insufficiententries'] = 'se necesitan más entradas para ver esta base 
 $string['intro'] = 'Introducción';
 $string['invalidfieldname'] = 'Por favor, seleccione otro nombre para este campo';
 $string['invalidurl'] = 'La URL introducida no es válida';
+$string['latitude'] = 'Latitud';
+$string['latlong'] = 'Latitud/logitud';
+$string['latlonglinkservicesdisplayed'] = 'Conectar servicios a mostrar';
 $string['list'] = 'Ver lista';
 $string['listtemplate'] = 'Plantilla de lista';
+$string['longitude'] = 'Longitud';
 $string['maxentries'] = 'No. máximo de entradas';
 $string['maxsize'] = 'Tamaño máximo';
 $string['menu'] = 'Menú';
@@ -96,6 +100,7 @@ $string['multipletags'] = 'Se han encontrado múltiples marcas. Plantilla no gua
 $string['namecheckbox'] = 'Campo de selección';
 $string['namedate'] = 'Campo de fecha';
 $string['namefile'] = 'Campo de archivo';
+$string['namelatlong'] = 'Campo de latitud/longitud';
 $string['namemenu'] = 'Campo de menú';
 $string['namemultimenu'] = 'Campo de menú de selección múltiple';
 $string['namenumber'] = 'Campo numérico';

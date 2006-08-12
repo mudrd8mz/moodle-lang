@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // scorm.php - created with Moodle 1.6 (2006050506)
 
 
 $string['advanced'] = 'Avanzada';
@@ -13,6 +13,7 @@ $string['badmanifest'] = 'Errores de manifiesto: ver registro de errores';
 $string['browse'] = 'Vista previa';
 $string['browsed'] = 'Navegado';
 $string['browsemode'] = 'Modo Navegación';
+$string['browserepository'] = 'Navegar por el repositorio';
 $string['chooseapacket'] = 'Elegir o actualizar un paquete SCORM';
 $string['completed'] = 'Completado';
 $string['coursepacket'] = 'Paquete de curso';

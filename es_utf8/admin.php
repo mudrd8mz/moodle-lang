@@ -193,6 +193,7 @@ $string['mediapluginram'] = 'Habilitar filtro .ram';
 $string['mediapluginrm'] = 'Habilitar filtro .rm';
 $string['mediapluginrpm'] = 'Habilitar filtro .rpm';
 $string['mediapluginswf'] = 'Habilitar filtro .swf';
+$string['mediapluginswfnote'] = 'Como medida de seguridad por defecto, no se permite a los usuarios incrustar archivos flash swf.';
 $string['mediapluginwmv'] = 'Habilitar filtro .wmv';
 $string['mysql416bypassed'] = 'En cualquier caso, si su sitio únicamente está utilizando idiomas ISO-8859-1 (latin), puede continuar con su versión de MySQL actual (4.1.12 o superior).';
 $string['mysql416required'] = 'MySQL 4.1.16 es la versión mínima requerida para trabajar con Moodle 1.6 y garantizar que toda la información podrá ser convertida a UTF-8 en el futuro.';
