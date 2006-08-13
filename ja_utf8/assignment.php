@@ -1,9 +1,12 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 dev (2006071800)
+      // assignment.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['allowmultiple'] = '複数ファイルを許可する';
 $string['allowresubmit'] = '課題の再提出を許可する';
+$string['assignment:grade'] = '課題を評定する';
+$string['assignment:submit'] = '課題を提出する';
+$string['assignment:view'] = '課題を表示する';
 $string['assignmentdetails'] = '課題の詳細';
 $string['assignmentmail'] = '$a->teacher があなたの課題「 $a->assignment 」に対するフィードバックを登録しました。
 

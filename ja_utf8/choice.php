@@ -1,11 +1,15 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.7 dev (2006060400)
+      // choice.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['addmorechoices'] = '選択肢の追加';
 $string['allowupdate'] = '投票内容の更新を許可する';
 $string['answered'] = '投票済み';
 $string['choice'] = '選択肢';
+$string['choice:choose'] = '投票を記録する';
+$string['choice:deleteresponses'] = '投票を削除する';
+$string['choice:downloadresponses'] = '投票をダウンロードする';
+$string['choice:readresponses'] = '投票を表示する';
 $string['choiceclose'] = '終了日時';
 $string['choicename'] = '投票名';
 $string['choiceopen'] = '開始日時';

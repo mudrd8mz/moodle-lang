@@ -220,6 +220,7 @@ $string['copyingcoursefiles'] = 'コースファイルの複写';
 $string['copyinguserfiles'] = 'ユーザファイルの複写';
 $string['copyingzipfile'] = 'ZIPファイルの複写';
 $string['copyrightnotice'] = '著作権表示';
+$string['coresystem'] = 'コアシステム';
 $string['cost'] = '費用';
 $string['costdefault'] = 'デフォルト費用';
 $string['counteditems'] = '$a->count $a->items';

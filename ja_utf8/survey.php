@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.7 dev (2006050501)
+      // survey.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['actual'] = '実体験';
@@ -184,7 +184,7 @@ $string['nobodyyet'] = 'この調査は解答されていません';
 $string['notdone'] = '未回答';
 $string['notes'] = '個人的な分析とメモ';
 $string['othercomments'] = '他にコメントはありますか?';
-$string['peoplecompleted'] = '現在 $a 人がこの調査に回答しています ';
+$string['peoplecompleted'] = '現在 $a 人がこの調査に回答しています';
 $string['preferred'] = '要望';
 $string['preferredclass'] = 'クラスの要望';
 $string['preferredstudent'] = '$a の要望';
@@ -199,6 +199,9 @@ $string['scaletimes5'] = 'ほとんど無い,まれに,時々,頻繁に,ほと�
 $string['seemoredetail'] = '詳細を見るためにはここをクリックしてください。';
 $string['selectedquestions'] = '評価尺度から選ばれた質問, 全学生';
 $string['summary'] = '概要';
+$string['survey:download'] = '調査をダウンロードする';
+$string['survey:participate'] = '調査に回答する';
+$string['survey:readresponses'] = '回答を表示する';
 $string['surveycompleted'] = '調査が終了しました。下のグラフはクラスの平均とあなたの結果を比較したものです。';
 $string['surveyname'] = '調査名';
 $string['surveysaved'] = '調査が保存されました。';

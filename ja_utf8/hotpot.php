@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.7 dev (2006071800)
+      // hotpot.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['abandoned'] = '放棄';
@@ -45,6 +45,7 @@ $string['filetype'] = 'ファイルタイプ';
 $string['forceplugins'] = 'メディアプラグインの強制';
 $string['giveup'] = 'ギブアップ';
 $string['hints'] = 'ヒント';
+$string['hotpot:view'] = 'クイズを使用する';
 $string['ignored'] = '無視';
 $string['inprogress'] = '進行中';
 $string['location'] = 'ファイルの場所';
@@ -55,7 +56,7 @@ $string['navigation_bar'] = 'Moodleナビケーションバー';
 $string['navigation_buttons'] = 'Hot Potatoesクイズボタン';
 $string['navigation_frame'] = 'Moodleナビケーションフレーム';
 $string['navigation_give_up'] = 'ギブアップボタン';
-$string['navigation_iframe'] = '埋め込み &lt;IFRAME&gt;';
+$string['navigation_iframe'] = '埋め込み&lt;IFRAME&gt;';
 $string['navigation_none'] = 'なし';
 $string['neverclosed'] = '終了なし';
 $string['noactivity'] = '活動なし';

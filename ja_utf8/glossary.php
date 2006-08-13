@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7 dev (2006071800)
+      // glossary.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -105,6 +105,17 @@ $string['fillfields'] = '用語と定義は必須入力項目です。';
 $string['filtername'] = '用語集オートリンク';
 $string['fullmatch'] = '完全一致のみ';
 $string['globalglossary'] = 'グローバル用語集';
+$string['glossary:approve'] = '未承認のエントリを承認する';
+$string['glossary:comment'] = 'コメントを作成する';
+$string['glossary:export'] = 'エントリをエクスポートする';
+$string['glossary:import'] = 'エントリをインポートする';
+$string['glossary:managecategories'] = 'カテゴリを管理する';
+$string['glossary:managecomments'] = 'コメントを管理する';
+$string['glossary:manageentries'] = 'エントリを管理する';
+$string['glossary:rate'] = 'エントリを評価する';
+$string['glossary:view'] = '用語集を表示する';
+$string['glossary:viewrating'] = '評価を表示する';
+$string['glossary:write'] = '新しいエントリを作成する';
 $string['glossaryleveldefaultsettings'] = '用語集レベルのデフォルト設定';
 $string['glossarytype'] = '用語集タイプ';
 $string['importcategories'] = 'カテゴリをインポートする';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.7 dev (2006060900)
+      // exercise.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['absent'] = '欠席';
@@ -46,6 +46,7 @@ $string['enterpassword'] = 'パスワードを入力してください。';
 $string['entriessaved'] = 'エントリが保存されました';
 $string['errorbanded'] = '減点評価';
 $string['excellent'] = '素晴らしい';
+$string['exercise:assess'] = 'エクササイズを評価する';
 $string['exerciseassessments'] = 'エクササイズ評価';
 $string['exercisefeedback'] = 'エクササイズフィードバック';
 $string['exercisesubmissions'] = 'エクササイズ提出';
