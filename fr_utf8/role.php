@@ -1,11 +1,16 @@
 <?php // $Id$ 
 
+$string['allow'] = 'Autoriser';
 $string['assignroles'] = 'Assigner des rôles';
+$string['capability'] = 'Autorisation';
 $string['currentrole'] = 'Rôle actuel';
 $string['currentcontext'] = 'Contexte actuel';
 $string['existingusers'] = '$a utilisateurs existants';
+$string['inherit'] = 'Hériter';
 $string['overrideroles'] = 'Ne pas tenir compte des rôles';
 $string['potentialusers'] = '$a utilisateurs potentiels';
+$string['prevent'] = 'Empêcher';
+$string['prohibit'] = 'Interdire';
 
 $string['site:doanything'] = 'Permettre de tout faire';
 $string['legacy:guest'] = 'ANCIEN RÔLE : Invité';
