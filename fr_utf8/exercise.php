@@ -44,6 +44,7 @@ $string['enterpassword'] = 'Saisir le mot de passe';
 $string['entriessaved'] = 'Réglage enregistré';
 $string['errorbanded'] = 'Erreur cumulée';
 $string['excellent'] = 'Excellent';
+$string['exercise:assess'] = 'Évaluer des exercices';
 $string['exerciseassessments'] = 'Évaluations de l\'exercice';
 $string['exercisefeedback'] = 'Feedback de l\'exercice';
 $string['exercisesubmissions'] = 'Travaux remis de l\'exercice';

@@ -219,6 +219,7 @@ $string['copyingcoursefiles'] = 'Copie des fichiers de cours';
 $string['copyinguserfiles'] = 'Copie des fichiers utilisateurs';
 $string['copyingzipfile'] = 'Copie du fichier compacté (zip)';
 $string['copyrightnotice'] = 'Copyright';
+$string['coresystem'] = 'Système de base';
 $string['cost'] = 'Coût';
 $string['costdefault'] = 'Coût par défaut';
 $string['counteditems'] = '$a->count $a->items';

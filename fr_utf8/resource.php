@@ -87,6 +87,7 @@ $string['preview'] = 'Prévisualisation';
 $string['previous'] = 'Précédent';
 $string['redeploy'] = 'Déployer à nouveau';
 $string['repository'] = 'Répertoire IMS';
+$string['resource:view'] = 'Voir les ressources';
 $string['resourcetype'] = 'Type de ressource';
 $string['resourcetypedirectory'] = 'Afficher le contenu d\'un dossier';
 $string['resourcetypefile'] = 'Lien vers un fichier ou un site web';

@@ -17,6 +17,8 @@ $string['displayhotpotnext'] = 'Afficher un test Hot Potatoes ensuite';
 $string['displaycoursenext'] = 'Afficher la page du cours ensuite';
 $string['displayindexnext'] = 'Afficher l\'index HotPot ensuite';
   	 
+$string['hotpot:view'] = 'Utiliser les test Hot Potatoes';
+
 $string['outputformat'] = 'Format d\'affichage';
 $string['outputformat_best'] = 'Meilleur';
 $string['outputformat_v6_plus'] = 'v6+';

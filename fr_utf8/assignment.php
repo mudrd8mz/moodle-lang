@@ -7,6 +7,9 @@ $string['backtoassignment'] = 'Retour au devoir';
 $string['backtofeedback'] = 'Retour au feedback';
 $string['choosereviewfile'] = 'Choisir un fichier à déposer comme retour du devoir :';
 $string['allowresubmit'] = 'Permettre plusieurs remises d\'un devoir';
+$string['assignment:view'] = 'Afficher un devoir';
+$string['assignment:grade'] = 'Noter un devoir';
+$string['assignment:submit'] = 'Remettre un devoir';
 $string['assignmentdetails'] = 'Détails du devoir';
 $string['assignmentmail'] = '$a->teacher a écrit un feedback concernant votre devoir «&nbsp;$a->assignment&nbsp;»
 

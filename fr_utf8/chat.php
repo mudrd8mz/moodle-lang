@@ -1,6 +1,9 @@
 <?php // $Id$ 
 
 $string['beep'] = 'bip';
+$string['chat:chat'] = 'Participer à un chat';
+$string['chat:readlog'] = 'Lire les historiques des chats';
+$string['chat:deletelog'] = 'Supprimer les historiques des chats';
 $string['chatintro'] = 'Texte d\'introduction';
 $string['chatname'] = 'Nom de ce salon';
 $string['chatreport'] = 'Sessions de chat';
