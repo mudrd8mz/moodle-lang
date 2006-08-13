@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006071800)
+      // quiz.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['1day'] = '1日';
@@ -87,6 +87,7 @@ $string['closebeforeopen'] = '小テストを更新できませんでした。�
 $string['closepreview'] = 'プレビューを閉じる';
 $string['closereview'] = 'レビューを閉じる';
 $string['comment'] = 'コメント';
+$string['commentary'] = '解説';
 $string['commentorgrade'] = 'コメントの作成または評定の上書き';
 $string['comments'] = 'コメント';
 $string['completedon'] = '完了日時';
@@ -267,6 +268,7 @@ $string['markall'] = 'すべてを送信';
 $string['marks'] = '得点';
 $string['match'] = '組み合わせ問題';
 $string['matchanswer'] = '組み合わせの答え';
+$string['matchanswerno'] = '組み合わせの答え $a';
 $string['matcherror'] = '評点が評定オプションと合致しません - 問題をスキップしました。';
 $string['matchgrades'] = '評点の合致';
 $string['matchgradeserror'] = '評点が一覧に無い場合、エラー';
@@ -357,10 +359,12 @@ $string['questiondeleted'] = 'この問題は削除されました。あなた�
 $string['questioninuse'] = '問題「 $a->questionname 」は現在使用されています: <br />$a->quiznames<br />問題はこれらの小テストから削除されませんが、カテゴリ一覧からのみ削除されます。';
 $string['questionname'] = '問題名';
 $string['questionnametoolong'] = '$a 行の問題名が長すぎます ( 最大、半角255文字 )。問題名を省略しました。';
+$string['questionno'] = '問題 $a';
 $string['questions'] = '問題';
 $string['questionsinclhidden'] = '問題 ( 隠された問題を含む )';
 $string['questionsinuse'] = '(* アスタリスクが付いている問題はすでに小テストで使用されています。これらの問題は小テストからは削除されませんが、カテゴリ一覧から削除されます。)';
 $string['questionsperpage'] = '1ページあたりの問題数';
+$string['questiontext'] = '問題テキスト';
 $string['questiontype'] = '問題タイプ $a';
 $string['questiontypesetupoptions'] = '問題タイプのオプション設定';
 $string['quizavailable'] = '小テストは $a まで利用できます。';
