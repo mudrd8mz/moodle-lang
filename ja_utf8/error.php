@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006050300)
+      // error.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -43,6 +43,7 @@ $string['mustbeteacher'] = 'このページは教師のみ閲覧可能です。'
 $string['noinstances'] = 'このコースに $a のインスタンスがありません!';
 $string['nonmeaningfulcontent'] = '意味の無いコンテンツです。';
 $string['noparticipatorycms'] = '申し訳ございません、レポートするための参加者がいるコースモジュールはありません。';
+$string['nopermissions'] = '申し訳ございません、あなたには現在「 $a 」のパーミッションがありません。';
 $string['notavailable'] = '現在利用できません';
 $string['onlyadmins'] = '管理者のみ処理可能です。';
 $string['onlyeditingteachers'] = '編集権限を持った教師のみ処理可能です。';
