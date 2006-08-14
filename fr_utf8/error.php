@@ -41,6 +41,7 @@ $string['mustbeteacher'] = 'Vous devez être enseignant pour voir cette page';
 $string['noinstances'] = 'Il n\'a y aucune instance de $a dans ce cours&nbsp;! ';
 $string['nonmeaningfulcontent'] = 'Le contenu ne fait pas de sens';
 $string['noparticipatorycms'] =  'Désolé, aucun module de participation pour lequel faire un rapport.';
+$string['nopermissions'] =  'Désolé, vous n\'avez actuellement pas les autorisations pour effectuer ceci ($a)';
 $string['notavailable'] = 'Ceci n\'est actuellement pas disponible';
 $string['onlyadmins'] = 'Seuls les administrateurs peuvent faire ceci.';
 $string['onlyeditown'] = 'Vous ne pouvez modifier que vos propres informations';
