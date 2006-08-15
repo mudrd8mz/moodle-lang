@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6 Beta 5 (2006050503)
+      // hotpot.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['abandoned'] = 'Vazgeçildi';
@@ -20,6 +20,9 @@ $string['copytoclipboard'] = 'Panoya Kopyala';
 $string['correct'] = 'Doğru';
 $string['deleteabandoned'] = 'Vazgeçilenleri sil';
 $string['deleteabandonedcheck'] = 'Gerçekten tüm $a vazgeçilen uygulamayı silmek istediğinizden emin misiniz?';
+$string['displaycoursenext'] = 'Kursun sonraki sayfası\'nı göster';
+$string['displayhotpotnext'] = 'Hot Potatoes sınavı sonraki\'ni göster';
+$string['displayindexnext'] = 'HotPot dizin sonraki\'ni göster';
 $string['enterafilename'] = 'Lütfen bir dosya adı girin';
 $string['error_couldnotopenfolder'] = '\"$a\" klasörüne erişilemedi';
 $string['error_couldnotopensourcefile'] = '\"$a\" kaynağı açılamadı';
@@ -40,6 +43,7 @@ $string['filetype'] = 'Dosya Tipi';
 $string['forceplugins'] = 'Ortam eklentileri zorunlu mu?';
 $string['giveup'] = 'Vazgeç';
 $string['hints'] = 'Talimatlar';
+$string['hotpot:view'] = 'Sınavı kullan';
 $string['ignored'] = 'Yoksayıldı';
 $string['inprogress'] = 'işlemde';
 $string['location'] = 'Dosya yeri';
@@ -85,6 +89,7 @@ $string['reportclues'] = 'İpuçları';
 $string['reportcontent'] = 'İçerik';
 $string['reportcorrectsymbol'] = 'O';
 $string['reportcoursename'] = 'Kurs adı';
+$string['reportencoding'] = 'Kodlama';
 $string['reportevents'] = 'Olaylar';
 $string['reportexercisename'] = 'Uyg. adı';
 $string['reportexercisenumber'] = 'Uygulama';

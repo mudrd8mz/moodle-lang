@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6 + (2006050506)
+      // forum.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['addanewdiscussion'] = 'Yeni tartışma konusu ekle';
@@ -65,6 +65,23 @@ $string['existingsubscribers'] = 'Kayıtlı aboneler';
 $string['forcesubscribe'] = 'Herkesi abone olmaya zorunlu tut';
 $string['forcesubscribeq'] = 'Herkes abone olmaya zorunlu mu?';
 $string['forum'] = 'Forum';
+$string['forum:createattachment'] = 'Dosya oluştur';
+$string['forum:deleteanypost'] = 'Mesajları sil (her zaman)';
+$string['forum:deleteownpost'] = 'Mesajları sil (son süreye kadar)';
+$string['forum:editanypost'] = 'Mesajları düzenle';
+$string['forum:managesubscriptions'] = 'Abonelikleri yönet';
+$string['forum:movediscussions'] = 'Tartışmaları taşı';
+$string['forum:rate'] = 'Mesajları derecelendir';
+$string['forum:replypost'] = 'Mesajlara cevap ver';
+$string['forum:splitdiscussions'] = 'Tartışmaları ayır';
+$string['forum:startdiscussion'] = 'Yeni tartışma başlat';
+$string['forum:viewanyrating'] = 'Derecelendirmelere bak';
+$string['forum:viewdiscussion'] = 'Tartışmalara bak';
+$string['forum:viewforum'] = 'Foruma bak';
+$string['forum:viewhiddentimedposts'] = 'Gizli zamanlı mesajlara bak';
+$string['forum:viewqandawithoutposting'] = 'Herzaman Soru ve Cevaplara bak';
+$string['forum:viewrating'] = 'Derecelendirmelere bak';
+$string['forum:viewsubscribers'] = 'Abonelere bak';
 $string['forumauthorhidden'] = 'Yazan (gizli)';
 $string['forumblockingalmosttoomanyposts'] = 'Mesaj gönderme sınırını aşıyorsunuz. Son $a->blockperiod sürede $a->numposts kez mesaj gönderdiniz. Sınır $a->blockafter mesajdır.';
 $string['forumbodyhidden'] = 'Bu tartışmaya henüz mesaj göndermediğiniz için bu mesaja bakamazsınız.';
@@ -99,6 +116,7 @@ $string['modethreaded'] = 'Yanıtları tek tek göster';
 $string['modulename'] = 'Forum';
 $string['modulenameplural'] = 'Forumlar';
 $string['more'] = 'devamı';
+$string['movedmarker'] = '(Taşındı)';
 $string['movethisdiscussionto'] = 'Bu tartışmayı taşı...';
 $string['namenews'] = 'Haber forumu';
 $string['namesocial'] = 'Sosyal forum';
