@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.6 development (2005101200)
+      // exercise.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['absent'] = 'Yok';
@@ -43,6 +43,7 @@ $string['elementweight'] = 'Öge Ağırlığı';
 $string['enterpassword'] = 'Parola Giriniz';
 $string['entriessaved'] = 'Kayıtlar Kaydedildi';
 $string['excellent'] = 'Mükemmel';
+$string['exercise:assess'] = 'Alıştırmaları değerlendir';
 $string['exerciseassessments'] = 'Alıştırma Değerlendirmeleri';
 $string['exercisefeedback'] = 'Alıştırma Geribildirimi';
 $string['exercisesubmissions'] = 'Alıştırma Gönderileri';

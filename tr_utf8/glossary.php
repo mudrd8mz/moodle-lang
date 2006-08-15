@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 Beta 5 (2006050503)
+      // glossary.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['addcomment'] = 'Yorum ekle';
@@ -105,6 +105,17 @@ $string['fillfields'] = 'Kavram ve tanımlamalar gerekli alanlardır.';
 $string['filtername'] = 'Terimler Otomatik-Linkleme';
 $string['fullmatch'] = 'Tam sözcük eşleştir';
 $string['globalglossary'] = 'Genel sözlük';
+$string['glossary:approve'] = 'Onaylanmamış kayıtları onayla';
+$string['glossary:comment'] = 'Yorum oluştur';
+$string['glossary:export'] = 'Kayıtları çıkart';
+$string['glossary:import'] = 'Kayıtları al';
+$string['glossary:managecategories'] = 'Kategorileri yönet';
+$string['glossary:managecomments'] = 'Yorumları yönet';
+$string['glossary:manageentries'] = 'Kayıtları yönet';
+$string['glossary:rate'] = 'Kayıtları derecelendir';
+$string['glossary:view'] = 'Sözlüğe bak';
+$string['glossary:viewrating'] = 'Derecelendirmelere bak';
+$string['glossary:write'] = 'Yeni kayıt oluştur';
 $string['glossaryleveldefaultsettings'] = 'Sözlük Seviyesindeki Ayarlar';
 $string['glossarytype'] = 'Terim Tipi';
 $string['importcategories'] = 'Kategorileri al';

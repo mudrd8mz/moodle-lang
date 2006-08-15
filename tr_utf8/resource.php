@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 Beta 5 (2006050503)
+      // resource.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['addresource'] = 'Kaynak ekle';
@@ -77,6 +77,7 @@ $string['preview'] = 'Önizleme';
 $string['previous'] = 'Önceki';
 $string['redeploy'] = 'Tekrar yerleştir';
 $string['repository'] = 'IMS ambarı';
+$string['resource:view'] = 'Kaynağa bak';
 $string['resourcetype'] = 'Kaynak türü';
 $string['resourcetype1'] = 'Referans';
 $string['resourcetype2'] = 'Web Sayfası';
