@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.5.2 + (2005060222)
+      // calendar.php - created with Moodle 1.6.1+ (2006050511)
 
 
 $string['calendar'] = 'Kalenteri';
@@ -30,6 +30,7 @@ $string['eventendtime'] = 'Tapahtuman päättymisaika';
 $string['eventinstanttime'] = 'kello';
 $string['eventkind'] = 'Tapahtuman tyyppi';
 $string['eventname'] = 'Nimi';
+$string['eventnone'] = 'Ei tapahtumia';
 $string['eventrepeat'] = 'Toistot';
 $string['eventsfor'] = '$a tapahtumat';
 $string['eventstarttime'] = 'Tapahtuman alkamisaika';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.5.2 + (2005060222)
+      // glossary.php - created with Moodle 1.6.1+ (2006050511)
 
 
 $string['addcomment'] = 'Lisää kommentti';
@@ -8,7 +8,7 @@ $string['addingcomment'] = 'Lisää kommentti';
 $string['aliases'] = 'Avainsana(t)';
 $string['allcategories'] = 'Kaikki kategoriat';
 $string['allentries'] = 'Kaikki';
-$string['allowcomments'] = 'Salli tietueiden kommentit ';
+$string['allowcomments'] = 'Salli tietueiden kommentit';
 $string['allowduplicatedentries'] = 'Päällekkäiset tietueet sallitaan';
 $string['allowprintview'] = 'Salli tulostusnäkymä';
 $string['allowratings'] = 'Salli tietueiden arviointi';
@@ -32,7 +32,7 @@ $string['categoryview'] = 'Selaa kategorioiden mukaan';
 $string['cnfallowcomments'] = 'Määritä, sallitaanko kommentit sanaston tietueisiin oletuksena';
 $string['cnfallowdupentries'] = 'Määritä, sallitaanko päällekkäisyydet sanastossa oletuksena';
 $string['cnfapprovalstatus'] = 'Määritä oletustila opiskelijoiden lähettämille tietueille.';
-$string['cnfcasesensitive'] = 'Onko oletuksena tietueen kirjainkoko merkityksellinen (\"case sensitive\"), kun tietue linkitetään. ';
+$string['cnfcasesensitive'] = 'Onko oletuksena tietueen kirjainkoko merkityksellinen (\"case sensitive\"), kun tietue linkitetään.';
 $string['cnfdefaulthook'] = 'Valitse oletuskokoelma näytettäväksi, kun sanastoon tutustutaan ensimmäistä kertaa.';
 $string['cnfdefaultmode'] = 'Valitse oletuskehys, kun sanastoon tutustutaan ensimmäistä kertaa.';
 $string['cnffullmatch'] = 'Kun tietuetta linkitetään, onko oletuksena kohdetekstin kirjainkoko merkityksellinen?';
@@ -96,18 +96,17 @@ $string['explainexport'] = 'Vientitiedosto on luotu.<br />Lataa se ja säilytä 
 $string['explainimport'] = 'Määritä tuontitiedosto ja tuonnin asetukset.';
 $string['explainspecial'] = 'Näyttää tietueet, jotka eivät ala kirjaimella';
 $string['exportedentry'] = 'Viety tietue';
-$string['exportedfile'] = 'Vientitiedosto';
 $string['exportentries'] = 'Vie tietueet';
+$string['exportfile'] = 'Vie tietueet tiedostoksi';
 $string['exportglossary'] = 'Vie sanasto';
 $string['exporttomainglossary'] = 'Vie pääsanastoon';
 $string['filetoimport'] = 'Tuontitiedosto';
 $string['fillfields'] = 'Käsite ja määritelmä ovat pakollisia kenttiä.';
 $string['filtername'] = 'Sanaston automaattinen linkitys';
-$string['fullmatch'] = 'Vain täydet sanat ';
+$string['fullmatch'] = 'Vain täydet sanat';
 $string['globalglossary'] = 'Yleinen sanasto';
 $string['glossaryleveldefaultsettings'] = 'Sanastojen oletusasetukset';
 $string['glossarytype'] = 'Sanaston tyyppi';
-$string['glosssaryexported'] = 'Sanasto viety.';
 $string['importcategories'] = 'Tuo kategorioita';
 $string['importedcategories'] = 'Tuodut kategoriat';
 $string['importedentries'] = 'Tuodut tietueet';
@@ -144,7 +143,7 @@ $string['ratingsuse'] = 'Käytä arvioita';
 $string['ratingtime'] = 'Rajoita tietueiden arvointi näiden päivämäärien välille:';
 $string['rejectedentries'] = 'Hylätyt tietueet';
 $string['rejectionrpt'] = 'Hylkäysraportti';
-$string['rsssubscriberss'] = 'Näytä RSS-syötteet $a ';
+$string['rsssubscriberss'] = 'Näytä RSS-syötteet $a';
 $string['searchindefinition'] = 'Vapaatekstihaku';
 $string['secondaryglossary'] = 'Toissijainen sanasto';
 $string['sendinratings'] = 'Lähetä viimeisimmät arvioni';

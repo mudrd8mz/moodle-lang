@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.5.2 + (2005060222)
+      // grades.php - created with Moodle 1.6.1+ (2006050511)
 
 
 $string['addcategory'] = 'Lisää kategoria';
@@ -12,7 +12,7 @@ $string['bonuspoints'] = 'Lisäpisteet';
 $string['categories'] = 'Kategoriat';
 $string['category'] = 'Kategoria';
 $string['choosecategory'] = 'Valitse kategoria';
-$string['creatinggradebooksettings'] = 'Luodaan arvioitikirjan asetukset';
+$string['creatinggradebooksettings'] = 'Luodaan arviontikirjan asetukset';
 $string['deletecategory'] = 'Poista kategoria';
 $string['displaylettergrade'] = 'Näytä arvosana kirjain';
 $string['displaypercent'] = 'Näytä prosentit';
@@ -70,7 +70,7 @@ $string['nocategories'] = 'Arvosanakategoroita ei voitu lisätä tai löytää t
 $string['nocategoryview'] = 'Ei kategorioita katsottavaksi';
 $string['nogradeletters'] = 'Arvosanamerkintöjä ei asetettu';
 $string['nogradesreturned'] = 'Ei tuotu arvosanoja';
-$string['nolettergrade'] = 'Ei arvosanamerkintää seuravalle ';
+$string['nolettergrade'] = 'Ei arvosanamerkintää seuravalle';
 $string['nonnumericweight'] = 'Saatiin ei-numeerinen arvo seuraavalle';
 $string['nonweightedpct'] = 'Painottamaton %%';
 $string['pctoftotalgrade'] = 'prosenttia kokonaisarvosanasta';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005030501)
+      // dialogue.php - created with Moodle 1.6.1+ (2006050511)
 
 
 $string['addmynewentries'] = 'Lisää viestini';
@@ -9,6 +9,7 @@ $string['allowmultiple'] = 'Salli useita dialogi samalle henkilölle';
 $string['allowstudentdialogues'] = 'Salli dialogit opiskelijoiden välillä';
 $string['close'] = 'Sulje';
 $string['closed'] = 'Suljettu';
+$string['closeddialogues'] = 'Suljetut dialogit';
 $string['confirmclosure'] = 'Olet sulkemassa dialogia $a:n kanssa. Suljettua dialogia ei voida avata uudelleen. Jos suljet tämän dialogin, voit katsella merkintöjä, mutta et voi enää lisätä siihen mitään.<br /><br />Oletko varma, että haluat sulkea dialogin?';
 $string['deleteafter'] = 'Poista suljetut tämän ajan kuluttua (päivissä)';
 $string['dialogueclosed'] = 'Dialogi suljettu';
@@ -46,7 +47,7 @@ $string['of'] = '/';
 $string['onwrote'] = '$a kirjoitti';
 $string['onyouwrote'] = '$a kirjoitit';
 $string['open'] = 'Avaa';
-$string['openadialoguewith'] = 'Avaa dialogi ';
+$string['openadialoguewith'] = 'Avaa dialogi';
 $string['opendialogue'] = 'Avaa dialogi';
 $string['opendialogueentries'] = 'Avaa dialogin viestit';
 $string['pane0'] = 'Avaa dialogi';
