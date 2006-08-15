@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 + (2006050506)
+      // error.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
@@ -43,6 +43,7 @@ $string['mustbeteacher'] = 'Bu sayfaya bakabilmek için eğitimci olmalısınız
 $string['noinstances'] = '$a bu kursta kullanılmadı!';
 $string['nonmeaningfulcontent'] = 'Anlamsız içerik';
 $string['noparticipatorycms'] = 'Üzgünüz, rapor edilecek kurs modüllerinin katılımcısı değilsiniz.';
+$string['nopermissions'] = 'Üzgünüz, şu anda bunu yapmaya yetkiniz yok: $a';
 $string['notavailable'] = 'Şu anda erişilemez';
 $string['onlyadmins'] = 'Sadece yöneticiler bunu yapabilir';
 $string['onlyeditingteachers'] = 'Sadece eğitimciler bunu yapabilir';
