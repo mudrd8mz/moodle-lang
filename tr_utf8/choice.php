@@ -1,11 +1,15 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.6 development (2005101200)
+      // choice.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['addmorechoices'] = 'Daha fazla seçenek ekle';
 $string['allowupdate'] = 'Anketin tekrar yanıtlanmasına izin ver';
 $string['answered'] = 'Yanıtlandı';
 $string['choice'] = 'Seçenek';
+$string['choice:choose'] = 'Oy kullan';
+$string['choice:deleteresponses'] = 'Yanıtları sil';
+$string['choice:downloadresponses'] = 'Yanıtları indir';
+$string['choice:readresponses'] = 'Yanıtları oku';
 $string['choiceclose'] = 'Bitiş';
 $string['choicename'] = 'Anket adı';
 $string['choiceopen'] = 'Başlangıç';
@@ -19,7 +23,7 @@ $string['limit'] = 'Sınır';
 $string['limitanswers'] = 'İzin verilen yanıt sayısını sınırla';
 $string['modulename'] = 'Anket';
 $string['modulenameplural'] = 'Anketler';
-$string['mustchooseone'] = 'Kaydetmeden önce bir cevap seçmelisiniz. Hiçbirşey kaydedilmedi.';
+$string['mustchooseone'] = 'Kaydetmeden önce bir cevap seçmelisiniz. Hiçbir şey kaydedilmedi.';
 $string['notanswered'] = 'Henüz yanıtlanmadı';
 $string['notopenyet'] = 'Üzgünüz, bu etkinliğe $a tarihine kadar ulaşılamaz';
 $string['privacy'] = 'Sonuç gizliliği';
@@ -33,12 +37,12 @@ $string['publishnot'] = 'Sonuçları öğrencilere yayınlama';
 $string['responses'] = 'Yanıtlar';
 $string['responsesto'] = '$a \'e Yanıt';
 $string['savemychoice'] = 'Seçeneklerimi kaydet';
-$string['showunanswered'] = 'Yanıtlanmayan seçenek için sütun göster';
+$string['showunanswered'] = 'Yanıtlanmayan için sütun göster';
 $string['spaceleft'] = 'boş alan';
 $string['spacesleft'] = 'boş alanlar';
 $string['taken'] = 'Geçen';
 $string['timerestrict'] = 'Oylamayı şu zamana kadar kısıtla';
-$string['viewallresponses'] = 'Toplam $a sonuca bak';
+$string['viewallresponses'] = '$a yanıta bak';
 $string['yourselection'] = 'Seçiminiz';
 
 ?>

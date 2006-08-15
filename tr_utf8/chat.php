@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // chat.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['beep'] = 'biip';
+$string['chat:chat'] = 'Sohbette konuş';
+$string['chat:deletelog'] = 'Sohbet kayıtlarını sil';
+$string['chat:readlog'] = 'Sohbet kayıtlarına bak';
 $string['chatintro'] = 'Tanıtım metni';
 $string['chatname'] = 'Sohbet odasının adı';
 $string['chatreport'] = 'Sohbet oturumları';
