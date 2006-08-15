@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // glossary.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['addcomment'] = 'Skrá athugasemd';
-$string['addentry'] = 'Næsta færsla';
+$string['addentry'] = 'Ný færsla';
 $string['addingcomment'] = 'Ný athugasemd';
 $string['aliases'] = 'Lykilorð';
 $string['allcategories'] = 'Allir flokkar';
@@ -29,18 +29,18 @@ $string['categories'] = 'Flokkar';
 $string['category'] = 'Flokkur';
 $string['categorydeleted'] = 'Flokki eytt';
 $string['categoryview'] = 'eftir flokki';
-$string['cnfallowcomments'] = 'Define if a glossary will accept comments on entries by default';
-$string['cnfallowdupentries'] = 'Define if a glossary will allows duplicated entries by default';
-$string['cnfapprovalstatus'] = 'Define the approval status by default of an entry posted by a student';
-$string['cnfcasesensitive'] = 'Define if an entry, when linked, is case sensitive by default';
+$string['cnfallowcomments'] = 'Ákvarðar hvort athugasemdir við færslur í safninu eru sjálfgefið heimilaðar';
+$string['cnfallowdupentries'] = 'Ákvarðar hvort tvískráningar á færslum í safninu eru sjálfgefið heimilaðar';
+$string['cnfapprovalstatus'] = 'Ákvarðar sjálfgefna samþykktarstöðu færslu sem skráð er af nemanda';
+$string['cnfcasesensitive'] = 'Ákvarðar hvort há/eða lágstafir hafa áhrif þegar færsla er tengd efnisorðum í texta';
 $string['cnfdefaulthook'] = 'Select the default selection to show when the glossary is first viewed';
-$string['cnfdefaultmode'] = 'Select the default frame to show when the glossary is first viewed.';
+$string['cnfdefaultmode'] = 'Ákvarðar hvaða rammi er sjálfgefinn þegar safn er fyrst opnað';
 $string['cnffullmatch'] = 'Define if an entry, when linked, should match the case in the target text by default';
-$string['cnflinkentry'] = 'Define if an entry should be automatically linked by default';
-$string['cnflinkglossaries'] = 'Define if a glossary should be automatically linked by default';
+$string['cnflinkentry'] = 'Ákvarðar hvort færslur í safninu eru sjálfgefið tengdar samsvarandi efnisorðum í texta á vefnum';
+$string['cnflinkglossaries'] = 'Ákvarðar hvort safnið á sjálgefið að vera tengt samsvarandi efnisorðum í texta á vefnum';
 $string['cnfrelatedview'] = 'Select the display format to be used for automatic linking and entry view.';
 $string['cnfshowgroup'] = 'Specify if the group break should be shown or not.';
-$string['cnfsortkey'] = 'Select the sorting key by default.';
+$string['cnfsortkey'] = 'Ákvarðar sjálfgefin röðunarlykil';
 $string['cnfsortorder'] = 'Sjálfgefin stilling á röðun';
 $string['cnfstudentcanpost'] = 'Skilgreina hvort nemendur geti sjálfgefið lagt inn efni.';
 $string['comment'] = 'Athugasemd';
@@ -50,7 +50,7 @@ $string['commentson'] = 'Athugasemdir virkar';
 $string['commentupdated'] = 'Athugasemdin hefur verið uppfærð';
 $string['concept'] = 'Hugtak';
 $string['concepts'] = 'Hugtök';
-$string['configenablerssfeeds'] = 'This switch will enable the possibility of RSS feeds for all glosaries.  You will still need to turn feeds on manually in the settings for each glossary.';
+$string['configenablerssfeeds'] = 'Þessi rofi virkjar möguleikann á RSS skeytum fyrir öll söfn. Eftir sem áður verður að virkja rss skeytin handvirkt fyrir hvert einstaka safn.';
 $string['currentglossary'] = 'Núverandi safn';
 $string['dateview'] = 'Eftir dagsetningu';
 $string['defaultapproval'] = 'Sjálfgefin staða samþykktar';
@@ -61,7 +61,7 @@ $string['deletingcomment'] = 'Eyði athugasemd';
 $string['deletingnoneemptycategory'] = 'Þegar flokknum er eytt teljast þær færslur sem honum tilheyra óflokkaðar.';
 $string['descending'] = '(lækkandi)';
 $string['destination'] = 'Flytja til';
-$string['displayformat'] = 'Birtingarmti';
+$string['displayformat'] = 'Birtingarmáti';
 $string['displayformatcontinuous'] = 'Samfellt án höfundar';
 $string['displayformatdictionary'] = 'Orðabókarsnið';
 $string['displayformatencyclopedia'] = 'Alfræðirit';
@@ -92,7 +92,7 @@ $string['explainaddentry'] = 'Nýrri færslu bætt við safnið.<br>
 Nauðsynlegt er að fylla út reitina \"Hugtak\" og \"skilgreining\".';
 $string['explainall'] = 'Birtir allar færslur á sömu síðu';
 $string['explainalphabet'] = 'Flettu í safninu hér að neðan';
-$string['explainexport'] = 'A file has been generated.<br>Download it and keep it safe. You can import it anytime you wish in this or other course.';
+$string['explainexport'] = 'Smelltu á hnappinn hér að neðan til að flygja út færslurnar í safninu. <br />Þú getur sótt þær aftur hvenær sem þú óskar í þennan eða aðra áfanga.<p>Athugaðu að viðhengi (s.s. myndir) og upplýsingar um höfunda fylgja ekki.</p>';
 $string['explainimport'] = 'You must specify the file to import and define the criteria of the process.<p>Submit your request and review the results.';
 $string['explainspecial'] = 'Birtir færslur sem byrja ekki á bókstaf';
 $string['exportedentry'] = 'Flutt skráning';

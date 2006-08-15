@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 Beta 5 (2006050504)
+      // error.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['adminprimarynoedit'] = 'Almennir notendur geta ekki breytt upplýsingum um kerfisstjóra';
@@ -21,11 +21,11 @@ $string['errorcreatingfile'] = 'Villa við myndun skráarinnar \"$a\"';
 $string['erroronline'] = 'Villa í línu $a';
 $string['errorreadingfile'] = 'Villa við lestur skráarinnar \"$a\"';
 $string['errorunzippingfiles'] = 'Villa við afþjöppun';
-$string['fieldrequired'] = 'Það verður að skrá í reit \"$a\" ';
+$string['fieldrequired'] = 'Það verður að skrá í reit \"$a\"';
 $string['filenotfound'] = 'Því miður, umbeðin skrá fannst ekki';
 $string['forumblockingtoomanyposts'] = 'Þú hefur farið frammyfir hámarksfjölda innleggja sem leyfður er í þessari umræðu.';
 $string['groupalready'] = 'Notandi tilheyrir þegar hóp: $a';
-$string['groupunknown'] = 'Hópurinn $a er ekki tengdur viðkomandi áfanga ';
+$string['groupunknown'] = 'Hópurinn $a er ekki tengdur viðkomandi áfanga';
 $string['guestnoeditprofile'] = 'Gestanotendur geta ekki uppfært notendaskilgreiningar';
 $string['guestnoeditprofileother'] = 'Ekki er hægt að uppfæra notendaskilgreiningu fyrir gestaaðgang';
 $string['invalidcourse'] = 'Ótækur áfangi';
@@ -44,10 +44,11 @@ $string['onlyadmins'] = 'Einungis kerfisstjórar geta framkvæmt þetta';
 $string['onlyeditingteachers'] = 'Einungis kennarar með ritheimild geta framkvæmt þetta';
 $string['onlyeditown'] = 'Þú getur einungis breytt eigin upplýsingum';
 $string['pagenotexist'] = 'Óvenjuleg villa hefur komið upp (reyndi að opna síðu sem ekki er til).';
+$string['pleasereport'] = 'Ef þú hefur tíma aflögu vinsamlegast lýstu því fyrir okkur hvað þú varst að reyna að gera þegar villan kom upp:';
 $string['restricteduser'] = 'Því miður, \"$a\" hefur ekki heimild til að framkvæma þessa aðgerð.';
 $string['sendmessage'] = 'Senda skilaboð';
 $string['sessionerroruser'] = 'Þessi lota hefur runnið út á tíma. Vinsamlegast skráðu þig inn aftur.';
-$string['sessionipnomatch'] = 'Því miður hefur IP-talan þín breyst frá innskráningu. Þessi öryggisráðstöfun er gerð til þess að koma í veg fyrir að óprúttnir aðilar steli upplýsingum um þig á meðan þú ert innskráð/ur á þennan vef. Vinsamlegast hafðu samband við kerfisstjóra. ';
+$string['sessionipnomatch'] = 'Því miður hefur IP-talan þín breyst frá innskráningu. Þessi öryggisráðstöfun er gerð til þess að koma í veg fyrir að óprúttnir aðilar steli upplýsingum um þig á meðan þú ert innskráð/ur á þennan vef. Vinsamlegast hafðu samband við kerfisstjóra.';
 $string['unknowncourse'] = 'Óþekktur áfangi: \"$a\"';
 $string['unknownuseraction'] = 'Því miður, ég skil ekki þessa aðgerð.';
 $string['usernotaddederror'] = 'Notanda \"$a\" ekki bætt við - óþekkt villa';

@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.5.2 + (2005060222)
+      // auth.php - created with Moodle 1.6 Beta 5 (2006050505)
 
 
-$string['auth_cas_language'] = 'Virkt tungumál';
-$string['auth_cas_text'] = 'Örugg tenging';
+$string['auth_cas_language'] = 'Virkt tungumÃ¡l';
+$string['auth_cas_text'] = 'Ã¶rugg tenging';
 $string['auth_dbdescription'] = 'This method uses an external database table to check whether a given username and password is valid.  If the account is a new one, then information from other fields may also be copied across into Moodle.';
 $string['auth_dbextrafields'] = 'These fields are optional.  You can choose to pre-fill some Moodle user fields with information from the <B>external database fields</B> that you specify here. <P>If you leave these blank, then defaults will be used.<P>In either case, the user will be able to edit all of these fields after they log in.';
 $string['auth_dbfieldpass'] = 'Name of the field containing passwords';
@@ -18,8 +18,8 @@ $string['auth_dbtype'] = 'The database type (See the <A HREF=../lib/adodb/readme
 $string['auth_dbuser'] = 'Username with read access to the database';
 $string['auth_emaildescription'] = 'Email confirmation is the default authentication method.  When the user signs up, choosing their own new username and password, a confirmation email is sent to the user\'s email address.  This email contains a secure link to a page where the user can confirm their account. Future logins just check the username and password against the stored values in the Moodle database.';
 $string['auth_emailtitle'] = 'Email-based authentication';
-$string['auth_fieldlock'] = 'Læsa gildi';
-$string['auth_fieldlocks'] = 'Læsa notendasviðum';
+$string['auth_fieldlock'] = 'LÃ¦sa gildi';
+$string['auth_fieldlocks'] = 'LÃ¦sa notendasviÃ°um';
 $string['auth_imapdescription'] = 'This method uses an IMAP server to check whether a given username and password is valid.';
 $string['auth_imaphost'] = 'The IMAP server address. Use the IP number, not DNS name.';
 $string['auth_imapport'] = 'IMAP server port number. Usually this is 143 or 993.';
@@ -50,8 +50,8 @@ $string['auth_nntpport'] = 'Server port (119 is the most common)';
 $string['auth_nntptitle'] = 'Use an NNTP server';
 $string['auth_nonedescription'] = 'Users can sign in and create valid accounts immediately, with no authentication against an external server and no confirmation via email.  Be careful using this option - think of the security and administration problems this could cause.';
 $string['auth_nonetitle'] = 'No authentication';
-$string['auth_passwordisexpired'] = 'Lykilorðið þitt er runnið út. Viltu breyta lykilorðinu núna?';
-$string['auth_passwordwillexpire'] = 'Lykilorðið þitt rennur út eftir $a daga. Viltu breyta lykilorðinu núna?';
+$string['auth_passwordisexpired'] = 'Lykilorï¿½iï¿½ ï¿½itt er runniï¿½ ï¿½t. Viltu breyta lykilorï¿½inu nï¿½na?';
+$string['auth_passwordwillexpire'] = 'Lykilorï¿½iï¿½ ï¿½itt rennur ï¿½t eftir $a daga. Viltu breyta lykilorï¿½inu nï¿½na?';
 $string['auth_pop3description'] = 'This method uses a POP3 server to check whether a given username and password is valid.';
 $string['auth_pop3host'] = 'The POP3 server address. Use the IP number, not DNS name.';
 $string['auth_pop3port'] = 'Server port (110 is the most common)';
@@ -66,19 +66,19 @@ $string['authinstructions'] = 'Here you can provide instructions for your users,
 $string['changepassword'] = 'Change password URL';
 $string['changepasswordhelp'] = 'Here you can specify a location at which your users can recover or change their username/password if they\'ve forgotten it.  This will be provided to users as a button on the login page and their user page.  if you leave this blank the button will not be printed.';
 $string['chooseauthmethod'] = 'Choose an authentication method: ';
-$string['forcechangepassword'] = 'Skilyrða breytingu á lykilorði';
-$string['forcechangepassword_help'] = 'Skilyrða notendur til þess að breyta lykilorði við næstu innskráningu.';
-$string['forcechangepasswordfirst_help'] = 'Skilyrða notendur til að breyta lykilorði við fyrstu innskráningu í Moodle.';
+$string['forcechangepassword'] = 'Skilyrï¿½a breytingu ï¿½ lykilorï¿½i';
+$string['forcechangepassword_help'] = 'Skilyrï¿½a notendur til ï¿½ess aï¿½ breyta lykilorï¿½i viï¿½ nï¿½stu innskrï¿½ningu.';
+$string['forcechangepasswordfirst_help'] = 'Skilyrï¿½a notendur til aï¿½ breyta lykilorï¿½i viï¿½ fyrstu innskrï¿½ningu ï¿½ Moodle.';
 $string['guestloginbutton'] = 'Guest login button';
-$string['instructions'] = 'Leiðbeiningar';
-$string['locked'] = 'Læst';
-$string['md5'] = 'MD5 dulkóðun';
+$string['instructions'] = 'LeiÃ°beiningar';
+$string['locked'] = 'LÃ¦st';
+$string['md5'] = 'MD5 dulkÃ³Ã°un';
 $string['plaintext'] = 'Plain text';
 $string['showguestlogin'] = 'You can hide or show the guest login button on the login page.';
-$string['unlocked'] = 'Ólæst';
-$string['unlockedifempty'] = 'Ólæst ef tómt';
+$string['unlocked'] = 'Ã“lÃ¦st';
+$string['unlockedifempty'] = 'Ã“lÃ¦st ef tÃ³mt';
 $string['update_never'] = 'Aldrei';
-$string['update_onlogin'] = 'Við hverja innskráningu';
-$string['update_onupdate'] = 'Við uppfærslu';
+$string['update_onlogin'] = 'ViÃ° hverja innskrÃ¡ningu';
+$string['update_onupdate'] = 'ViÃ° uppfÃ¦rslu';
 
 ?>

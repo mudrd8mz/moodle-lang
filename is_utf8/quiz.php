@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 Beta 5 (2006050504)
+      // quiz.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['1day'] = '1 dagur';
@@ -17,7 +17,7 @@ $string['addingquestions'] = 'Hér fer fram vinnsla á prófum og prófabanka. A
 $string['addquestions'] = 'Bæta við spurningum';
 $string['addquestionstoquiz'] = 'Bæta spurningum við núverandi próf';
 $string['addrandom'] = 'Bæti við $a spurningum af handahófi';
-$string['addrandom1'] = ' << Bæta við';
+$string['addrandom1'] = '<< Bæta við';
 $string['addrandom2'] = 'Spurningar af handahófi';
 $string['addselectedtoquiz'] = 'Bæta völdu við prófið';
 $string['addtoquiz'] = 'Bæti við prófið';
@@ -46,6 +46,7 @@ $string['attemptlast'] = 'Lokatilraun';
 $string['attemptquiznow'] = 'Taka próf núna';
 $string['attempts'] = 'Tilraunir';
 $string['attemptsallowed'] = 'Leyfilegar tilraunir';
+$string['attemptselection'] = 'Veldu þá tilraun sem þú vilt greina fyrir hvern nemanda:';
 $string['attemptsexist'] = 'Þú ert þegar búin(n) að taka þetta próf';
 $string['attemptsonly'] = 'Birta einungis nemendur sem hafa reynt við prófið';
 $string['attemptsunlimited'] = 'Ótakmarkaður fjöldi tilrauna';
@@ -78,6 +79,7 @@ $string['changessaved'] = 'Breytingar á einkunnum vistaðar';
 $string['checkanswer'] = 'Athuga';
 $string['choice'] = 'Valkostur';
 $string['choices'] = 'Valkostir';
+$string['choosedatasetproperties'] = 'Veldu eiginleika gagnasetts';
 $string['choosefile'] = 'Veldu skrá';
 $string['close'] = 'Loka forskoðun';
 $string['closepreview'] = 'Loka forskoðun';
@@ -88,10 +90,9 @@ $string['comments'] = 'Athugasemdir';
 $string['completedon'] = 'Lokið þann';
 $string['confirmclose'] = 'Þú ert um það bil að loka þessari tilraun. Þegar tilraun hefur verið lokað er ekki lengur hægt að breyta svörum.';
 $string['confirmserverdelete'] = 'Viltu örugglega vefþjóninum <b>$a</b> úr þessum lista?';
-$string['confirmstartattempt'] = 'Þetta próf hefur tímamörk. Ertu viss um að þú viljir taka það núna?';
-$string['confirmstartattemptnotimelimit'] = 'Þetta próf er með tímamörkum. Viltu halda áfram?';
-$string['confirmstartlimit'] = 'Þetta próf hefur tímamörk og einungis eru heimilaðar $a tilraunir. Ef þú opnar prófið núna telst það sem tilraun. Viltu halda áfram?';
-$string['confirmstartnolimit'] = 'Einungis $a tilraunir eru heimilaðar í þessu prófi. Ef þú opnar prófið núna telst það sem tilraun. Viltu halda áfram?';
+$string['confirmstartattemptlimit'] = 'Þú færð $a tilraunir til þess að leysa þetta próf. Ef þú opnar prófið núna telst það ein tilraun. Viltu örugglega halda áfram?';
+$string['confirmstartattempttimelimit'] = 'Þú hefur takmarkaðan tíma og $a tilraunir til þess að leysa þetta próf. Ef þú opnar prófið núna telst það ein tilraun. Viltu örugglega halda áfram?';
+$string['confirmstarttimelimit'] = 'Þú hefur takmarkaðan tíma til þess að leysa þetta próf. Viltu örugglega halda áfram?';
 $string['continueattemptquiz'] = 'Halda áfram með síðustu tilraun';
 $string['copyingfrom'] = 'Afrita spurninguna: $a';
 $string['copyingquestion'] = 'Afrita spurningu';
@@ -126,7 +127,7 @@ $string['deletequestionscheck'] = 'Viltu örugglega eyða eftirfarandi spurningu
 $string['deleteselected'] = 'Eyða völdu';
 $string['description'] = 'Lýsing';
 $string['displayoptions'] = 'Birtingarstjórn';
-$string['download'] = 'Smelltu til að sækja ';
+$string['download'] = 'Smelltu til að sækja';
 $string['downloadextra'] = '(skráin er einnig hýst í skráarsafni quiz möppunni í skráarsafni áfangas)';
 $string['eachattemptbuildsonthelast'] = 'Tilraun byggir á næstu á undan';
 $string['editcategories'] = 'Breyta flokkum';
@@ -274,7 +275,7 @@ $string['noresponse'] = 'Engin endurgjöf';
 $string['noreview'] = 'Þú hefur ekki heimild til að skoða þetta próf';
 $string['noreviewuntil'] = 'Þú hefur ekki heimild til að skoða þetta próf fyrr en $a';
 $string['noscript'] = 'Leyfa verður JavaScript til að halda áfram!';
-$string['notavailable'] = 'Því miður, ekki er hægt að taka þetta próf ';
+$string['notavailable'] = 'Því miður, ekki er hægt að taka þetta próf';
 $string['notavailabletostudents'] = 'Ath. þetta próf er ekki opið nemendum';
 $string['notenoughanswers'] = 'Þessi tegund spurningar krefst a.m.k. $a svara';
 $string['notenoughsubquestions'] = 'Not enough sub-questions have been defined!<br>

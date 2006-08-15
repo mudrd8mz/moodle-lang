@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // data.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['action'] = 'Aðgerð';
@@ -10,10 +10,13 @@ $string['addtemplate'] = 'Nýtt sniðmát';
 $string['allowcomments'] = 'Leyfa athugasemdir?';
 $string['allowratings'] = 'Leyfa mat á færslum?';
 $string['approve'] = 'Samþykkja';
+$string['ascending'] = 'Hækkandi röð';
 $string['atmaxentry'] = 'Heildarfjölda færslna hefur verið náð!';
 $string['autolinkurl'] = 'Sjálfvirk tenging veffangs';
 $string['availablefromdate'] = 'Aðgengilegt frá';
+$string['availabletags'] = 'Nothæf tög';
 $string['availabletodate'] = 'Aðgengilegt til';
+$string['bynameondate'] = 'eftir $a->name - $a->date';
 $string['cancel'] = 'Hætta';
 $string['commentdeleted'] = 'Athugasemd var eytt';
 $string['commentempty'] = 'Athugasemd var auð';
@@ -34,6 +37,7 @@ $string['delete'] = 'Eyða';
 $string['deletecomment'] = 'Viltu örugglega eyða þessari athugasemd?';
 $string['deleted'] = 'Eytt';
 $string['deletefield'] = 'Eyða svæði';
+$string['descending'] = 'Lækkandi röð';
 $string['edit'] = 'Breyta';
 $string['editcomment'] = 'Breyta athugasemd';
 $string['editentry'] = 'Breyta færslu';
@@ -67,6 +71,7 @@ $string['modulenameplural'] = 'Gagnagrunnar';
 $string['more'] = 'Meira';
 $string['moreurl'] = 'Meira URL';
 $string['multientry'] = 'Endurtekin færsla';
+$string['multimenu'] = 'Valseðill (fjölval)';
 $string['namedate'] = 'Gagnasvæði';
 $string['namefile'] = 'Skráarsvæði';
 $string['namemenu'] = 'Valsvæði';
