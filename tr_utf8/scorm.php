@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6 Beta 5 (2006050503)
+      // scorm.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['advanced'] = 'Parametreler';
@@ -13,8 +13,10 @@ $string['badmanifest'] = 'Manifest hatası: hata kayıtlarına bakın';
 $string['browse'] = 'Önizleme';
 $string['browsed'] = 'Gözatıldı';
 $string['browsemode'] = 'Önizleme Modu';
+$string['browserepository'] = 'Depoya gözat';
 $string['chooseapacket'] = 'Seç veya bir paketi güncelle';
 $string['completed'] = 'Tamamlandı';
+$string['confirmloosetracks'] = 'UYARI: Paket değiştirilmiş/güncellenmiş görünüyor. Paket yapısı değiştirilden kullanıcı izlemeleri güncelleme sırasında kaybolabilir.';
 $string['coursepacket'] = 'Kurs paketi';
 $string['coursestruct'] = 'Kurs yapısı';
 $string['datadir'] = 'Dosya sistemi hatası: Kurs veri klasörü oluşturulamadı.';
@@ -98,6 +100,8 @@ $string['review'] = 'Önizleme';
 $string['reviewmode'] = 'Önizleme Modu';
 $string['scoes'] = 'Öğrenme Nesneleri';
 $string['score'] = 'Puan';
+$string['scorm:view'] = 'İçeriğe bak';
+$string['scorm:viewgrades'] = 'Notlara bak';
 $string['scormcourse'] = 'Öğrenme Kursu';
 $string['scrollbars'] = 'Kaydırma çubuğuna izin ver';
 $string['sided'] = 'Sol tarafta';
