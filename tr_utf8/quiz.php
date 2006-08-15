@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6.1 (2006050510)
+      // quiz.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['1day'] = '1 Gün';
@@ -83,9 +83,11 @@ $string['choices'] = 'Verilen seçenekler';
 $string['choosedatasetproperties'] = 'Veri kümesi özellikleri seçin';
 $string['choosefile'] = 'Bir dosya seçin';
 $string['close'] = 'Pencereyi kapat';
+$string['closebeforeopen'] = 'Sınav güncellenemedi. Açılma tarihinden önce kapatma tarihini belirtmeniz gerekiyor.';
 $string['closepreview'] = 'Önizlemeyi kapat';
 $string['closereview'] = 'İncelemeyi kapat';
 $string['comment'] = 'Yorum';
+$string['commentary'] = 'Anlatım';
 $string['commentorgrade'] = 'Yorum yap veya tekrar notlandır';
 $string['comments'] = 'Yorumlar';
 $string['completedon'] = 'Tamamlama';
@@ -235,6 +237,7 @@ $string['incorrect'] = 'Yanlış';
 $string['indivresp'] = 'Her Bir Ögeye Bireylerin Cevabı';
 $string['info'] = 'Bilgi';
 $string['introduction'] = 'Tanıtım';
+$string['invalidnumericanswer'] = 'Girdiğiniz yanıtlardan bir tanesi geçerli bir sayı değildi.';
 $string['invalidsource'] = 'Kaynak geçerli kabul edilmedi';
 $string['invalidsourcetype'] = 'Geçersiz kaynak tipi.';
 $string['itemanal'] = 'Öge Cevap Analizi';
@@ -255,6 +258,7 @@ $string['markall'] = 'Sayfayı gönder';
 $string['marks'] = 'Puanlar';
 $string['match'] = 'Eşleştirmeli';
 $string['matchanswer'] = 'Eşleşen cevap';
+$string['matchanswerno'] = 'Eşleşen cevap $a';
 $string['matcherror'] = 'Notlar, not seçenekleriyle eşleşmiyor - soru atlandı';
 $string['matchgrades'] = 'Notları eşleştir';
 $string['matchgradeserror'] = 'Not listelenmediyse hata';
@@ -293,6 +297,7 @@ $string['nocommentsyet'] = 'Henüz yorum yok.';
 $string['noconnection'] = 'Bu soruyu işleyebilecek bir web servisi bağlantısı şu anda yok. Lütfen yöneticinizle iletişim kurun.';
 $string['nodataset'] = 'hiçbirşey - bu bir joker karakter değil';
 $string['noessayquestionsfound'] = 'Elle notlandırılan soru bulunamadı';
+$string['nomatchinganswer'] = 'Bu soruyla \'$a\' eşleşecek bir cevap seçmelisiniz.';
 $string['nomoreattempts'] = 'Başka uygulamaya izin verilmemiştir';
 $string['none'] = 'Hiçbiri';
 $string['nopossibledatasets'] = 'Veri kümesi yok';
@@ -343,10 +348,12 @@ $string['questiondeleted'] = 'Bu kategori silindi. Lütfen eğitimcinizle ileti�
 $string['questioninuse'] = 'Soru \'$a\' halihazırda kullanılmaktadır:';
 $string['questionname'] = 'Soru adı';
 $string['questionnametoolong'] = '$a satırındaki soru adı çok uzun (max 255 karakter). Fazlası atıldı.';
+$string['questionno'] = 'Soru $a';
 $string['questions'] = 'Sorular';
 $string['questionsinclhidden'] = 'Sorular (gizli olanlar dahil)';
 $string['questionsinuse'] = '(* Yıldız ile işaretlenmiş sorular bazı sınavlarda zaten kullanılmıştır. Bu sorular bu sınavlardan silinmeyecektir ancak kategori listesinden çıkarılacaktır.)';
 $string['questionsperpage'] = 'Her sayfadaki max soru sayısı';
+$string['questiontext'] = 'Soru metni';
 $string['questiontype'] = 'Soru tipi $a';
 $string['questiontypesetupoptions'] = 'Soru tipleri için seçenekleri ayarla';
 $string['quizavailable'] = 'Sınav şu tarihe kadar açıktır: $a';

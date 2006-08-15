@@ -1,9 +1,12 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6 + (2006050507)
+      // assignment.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['allowmultiple'] = 'Birden fazla dosyaya izin ver';
 $string['allowresubmit'] = 'Tekrar göndermeye izin ver';
+$string['assignment:grade'] = 'Ödevi notlandır';
+$string['assignment:submit'] = 'Ödevi gönder';
+$string['assignment:view'] = 'Ödeve bak';
 $string['assignmentdetails'] = 'Ödev ayrıntıları';
 $string['assignmentmail'] = '$a->teacher, \'$a->assignment\' isimli ödeviniz için geribildirim verdi.
 

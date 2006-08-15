@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006080900)
+      // moodle.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['action'] = 'Eylem';
@@ -221,6 +221,7 @@ $string['copyingcoursefiles'] = 'Kurs dosyaları kopyalanıyor';
 $string['copyinguserfiles'] = 'Kullanıcı dosyaları kopyalanıyor';
 $string['copyingzipfile'] = 'Zip dosyası kopyalanıyor';
 $string['copyrightnotice'] = 'Yayın hakları';
+$string['coresystem'] = 'Ana sistem';
 $string['cost'] = 'Ücret';
 $string['costdefault'] = 'Varsayılan tutar';
 $string['counteditems'] = '$a->count $a->items';
