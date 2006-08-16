@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // lesson.php - created with Moodle 1.5.2 + (2005060222)
 
 
@@ -68,7 +68,7 @@ $string['editlessonsettings'] = 'Muokkaa tämän oppitunnin asetuksia';
 $string['editpagecontent'] = 'Muokkaa tämän sivun osia';
 $string['email'] = 'Sähköposti';
 $string['emailallgradedessays'] = 'Lähetä kaikki<br />arvostellut esseet';
-$string['emailgradedessays'] = 'Lähetä arvostellut eseet';
+$string['emailgradedessays'] = 'Lähetä arvostellut esseet';
 $string['emailsuccess'] = 'Lähettäminen onnistui';
 $string['endofbranch'] = 'Haaran pääte';
 $string['endofclustertitle'] = 'Ryhmän pääte';
@@ -250,7 +250,7 @@ $string['youhaveseen'] = 'Olet aikaisemmin aloittanut tämän oppitunnin.<br />H
 $string['youmadehighscore'] = 'Selvisit TOP $a :iin parhaat tulokset listalla.';
 $string['youranswer'] = 'Vastauksesi';
 $string['yourcurrentgradeis'] = 'Nykyinen arvosanasi on $a';
-$string['yourgradeisnow'] = 'Arvosanasi tunnista on mutettu $a :iksi';
+$string['yourgradeisnow'] = 'Arvosanasi tunnista on muutettu $a :iksi';
 $string['yourresponse'] = 'Vastauksesi';
 $string['youshouldview'] = 'Sinun pitäisi katsoa ainakin $a sivua';
 

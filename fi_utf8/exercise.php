@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // exercise.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005030501)
 
 
@@ -30,7 +30,7 @@ $string['criterion'] = 'Peruste';
 $string['deadline'] = 'Määräaika';
 $string['deadlineis'] = 'Määräaika on $a';
 $string['delete'] = 'Poista';
-$string['deletesubmissionwarning'] = 'Varoitus: $a:n arviontia liittliitettynä tähän palautukseen.<br /> Suosittelemme vahvasti, että tätä palautusta EI poisteta.';
+$string['deletesubmissionwarning'] = 'Varoitus: $a:n arviointia liitettynä tähän palautukseen.<br /> Suosittelemme vahvasti, että tätä palautusta EI poisteta.';
 $string['deleting'] = 'Poistetaan';
 $string['description'] = 'Kuvaus';
 $string['descriptionofexercise'] = 'Oppimistehtävän tehtäväkuvaus on Word-asiakirjassa tai HTML-tiedostossa. Tämä tiedosto ladataan oppimistehtävään ennen kuin tehtävä avautuu. On myös mahdollista tehdä joukko muunnelmia samasta tehtävästä lataamalla useampia Word- tai HTML-tiedostoja ennen tehtävän avautumista.';
@@ -39,7 +39,7 @@ $string['displayoffinalgrades'] = 'Lopullisten arvosanojen näyttö';
 $string['doubleupload'] = 'Varoitus: tämä palautus on todennäköisesti lähetetty  kahdesti. Mene ylläpidon sivulle, etsi kahta palautusta tältä käyttäjältä lyhyen ajan sisällä. Poista ylimääräiset palautukset ennen jatkamista.';
 $string['duedate'] = 'Eräpäivä';
 $string['edit'] = 'Muokkaa';
-$string['editingassessmentelements'] = 'Muokkataan arviointiperusteita';
+$string['editingassessmentelements'] = 'Muokataan arviointiperusteita';
 $string['element'] = 'Arviointiperuste';
 $string['elementweight'] = 'Arviointiperusteen painoarvo';
 $string['enterpassword'] = 'Anna salasana';
@@ -85,15 +85,15 @@ $string['noexercisedescriptionssubmitted'] = 'Oppimistehtävän kuvauksia ei ole
 $string['nosubmissions'] = 'Ei palautuksia';
 $string['notassessedyet'] = 'Ei vielä arvioitu';
 $string['notavailable'] = 'Ei valittavissa';
-$string['noteonassessmentelements'] = 'Huomaa, että arvostelu on hajoitettu useisiin arvosteluperusteihin.<br />Tämä helpottaa arvostelua ja tekee siitä johdonmukaisemman. Opettajana sinun pitää lisätä nämä osat ennen tehtävän julkistamista opiskelijoille.<br />Tämä tehdään napsauttamalla kurssin tehtävää, ja mikäli arvosteluperusteita ei ole, sinua pyydetään lisäämään niitä.<br />Voit muuttaa arvosteluperusteiden määrää käyttäen tehtävän muokkaustilaa, itse arvosteluperusteita voi muokata \"Oppimistehtävän hallinta\"-ruudulta.';
-$string['noteongradinggrade'] = 'Tämä kertoo kuinka hyvin arvointisi sopii yhteen työn $a arvioinnin kanssa. Korkeampi arvosana tarkoitaa parempaa yheensopivuutta.';
+$string['noteonassessmentelements'] = 'Huomaa, että arvostelu on harjoitettu useisiin arvosteluperusteihin.<br />Tämä helpottaa arvostelua ja tekee siitä johdonmukaisemman. Opettajana sinun pitää lisätä nämä osat ennen tehtävän julkistamista opiskelijoille.<br />Tämä tehdään napsauttamalla kurssin tehtävää, ja mikäli arvosteluperusteita ei ole, sinua pyydetään lisäämään niitä.<br />Voit muuttaa arvosteluperusteiden määrää käyttäen tehtävän muokkaustilaa, itse arvosteluperusteita voi muokata \"Oppimistehtävän hallinta\"-ruudulta.';
+$string['noteongradinggrade'] = 'Tämä kertoo kuinka hyvin arviointisi sopii yhteen työn $a arvioinnin kanssa. Korkeampi arvosana tarkoittaa parempaa yheensopivuutta.';
 $string['noteonstudentassessments'] = '(Arvosana opiskelijalta/ Arvosanan arvosana opettajalta)';
 $string['notgraded'] = 'Ei arvioitu';
 $string['notitlegiven'] = 'Ei annettua otsikkoa';
 $string['numberofassessmentelements'] = 'Kommenttien, arvosteluperusteiden, arvosanajoukkojen, perustelujen tai luokkien lukumäärä otsikossa';
-$string['numberofcriterionelements'] = 'Perusteiden määrän pitää ola enemmän kuin yksi.';
+$string['numberofcriterionelements'] = 'Perusteiden määrän pitää olla enemmän kuin yksi.';
 $string['numberofentries'] = 'Tietueiden määrä';
-$string['numberofentriesinleaguetable'] = 'Tietueden määrä taulukossa';
+$string['numberofentriesinleaguetable'] = 'Tietueiden määrä taulukossa';
 $string['numberofnegativeresponses'] = 'Negatiivisten vastausten lukumäärä';
 $string['onesubmission'] = 'Yksi palautus';
 $string['optionaladjustment'] = 'Valinnainen tarkistus';

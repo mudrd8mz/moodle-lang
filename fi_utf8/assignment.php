@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // assignment.php - created with Moodle 1.6.1+ (2006050511)
 
 
@@ -76,7 +76,7 @@ $string['onceassignmentsent'] = 'Kun tehtävä on palautettu merkittäväksi, et
 $string['overwritewarning'] = 'Varoitus: uudelleen lähettäminen KORVAA aiemman vastauksesi.';
 $string['pagesize'] = 'Näytettävien tehtävien määrä sivua kohden';
 $string['preventlate'] = 'Estä myöhästyneet palautukset';
-$string['quickgrade'] = 'Salli nopea arvointi';
+$string['quickgrade'] = 'Salli nopea arviointi';
 $string['removelink'] = 'Poista';
 $string['responsefile'] = 'Palaute tiedosto:';
 $string['responsesfromteacher'] = 'Opettajan lähettämät palautteet';
@@ -88,12 +88,12 @@ $string['submission'] = 'Palautus';
 $string['submissionfeedback'] = 'Palaute tehtävästä';
 $string['submissions'] = 'Palautukset';
 $string['submissionsaved'] = 'Muutokset tallennettu';
-$string['submissionsnotgraded'] = '$a tehtävää arvoimatta';
+$string['submissionsnotgraded'] = '$a tehtävää arvioimatta';
 $string['submissionstatus'] = 'Tehtävän tila:';
 $string['submissionstatusblank'] = 'Tyhjä';
 $string['submissionstatusdraft'] = 'Kesken';
 $string['submissionstatusmarked'] = 'Merkitty';
-$string['submissionstatusreturned'] = 'Palauttettu';
+$string['submissionstatusreturned'] = 'Palautettu';
 $string['submissionstatussubmitted'] = 'Lähetetty';
 $string['submitassignment'] = 'Palauta tehtäväsi käyttäen tätä lomaketta';
 $string['submitformarking'] = 'Palauta tehtävä merkittäväksi';

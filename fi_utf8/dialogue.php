@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // dialogue.php - created with Moodle 1.6.1+ (2006050511)
 
 
@@ -38,7 +38,7 @@ $string['newentry'] = 'Uusi viesti';
 $string['noavailablepeople'] = 'Ei henkilöitä, joiden kanssa dialogi voidaan aloittaa';
 $string['nopersonchosen'] = 'Henkilöä ei ole valittu';
 $string['nosubject'] = 'Aihe puuttuu';
-$string['notextentered'] = 'Teksti puttuu';
+$string['notextentered'] = 'Teksti puuttuu';
 $string['notstarted'] = 'Et ole aloittanut tätä dialogia vielä';
 $string['notyetseen'] = 'Avaamatta';
 $string['numberofentries'] = 'Viestien määrä';
@@ -53,7 +53,7 @@ $string['opendialogueentries'] = 'Avaa dialogin viestit';
 $string['pane0'] = 'Avaa dialogi';
 $string['pane1'] = '$a dialogia odottaa vastauksiasi';
 $string['pane1one'] = '1 dialogi odottaa vastaustasi';
-$string['pane2'] = '$a dialogia odottaa vastausta toiselta henkiöltä';
+$string['pane2'] = '$a dialogia odottaa vastausta toiselta henkilöltä';
 $string['pane2one'] = '1 dialogi odottaa vastausta toiselta henkilöltä';
 $string['pane3'] = '$a suljettua dialogia';
 $string['pane3one'] = '1 suljettu dialogi';
@@ -64,7 +64,7 @@ $string['studenttostudent'] = 'Opiskelija opiskelijalle';
 $string['subject'] = 'Aihe';
 $string['subjectadded'] = 'Aihe lisätty';
 $string['teachertostudent'] = 'Opettaja opiskelijalle';
-$string['typefirstentry'] = 'Kirjoita ensinmäinen viesti tähän';
+$string['typefirstentry'] = 'Kirjoita ensimmäinen viesti tähän';
 $string['typefollowup'] = 'Kirjoita seuraavat tähän';
 $string['typeofdialogue'] = 'Dialogin tyyppi';
 $string['typereply'] = 'Kirjoita vastaus tähän';

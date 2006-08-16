@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // editor.php - created with Moodle 1.5.2 + (2005060222)
 
 
@@ -8,7 +8,7 @@ $string['address'] = 'Osoite';
 $string['alertnoselectedtext'] = 'Sinun on valittava tekstiä ensin!';
 $string['alignment'] = 'Tasaus';
 $string['alternatetext'] = 'Oletusteksti';
-$string['anchorhelp'] = 'Tämä luo vain ankkurin. Sinun pitää luoda akkuriin viittaava linkki itse.';
+$string['anchorhelp'] = 'Tämä luo vain ankkurin. Sinun pitää luoda ankkuriin viittaava linkki itse.';
 $string['anchorname'] = 'Ankkurin nimi';
 $string['anchors'] = 'Ankkurit';
 $string['baseline'] = 'Baseline';
@@ -65,7 +65,7 @@ $string['justifyleft'] = 'Tasaa vasen reuna';
 $string['justifyright'] = 'Tasaa oikea reuna';
 $string['layout'] = 'Ulkoasu';
 $string['left'] = 'Vasen';
-$string['lefttoright'] = 'Suunta vesemmalta oikealle';
+$string['lefttoright'] = 'Suunta vasemmalta oikealle';
 $string['linkproperties'] = 'Linkin ominaisuudet';
 $string['linktarget'] = 'Linkin kohde';
 $string['linktargetblank'] = 'Uuteen ikkunaan';
@@ -113,7 +113,7 @@ $string['size'] = 'Koko';
 $string['spacing'] = 'Välistys';
 $string['strikethrough'] = 'Yliviivattu';
 $string['subscript'] = 'Alaindeksi';
-$string['superscript'] = 'Ylädeksi';
+$string['superscript'] = 'Yläindeksi';
 $string['textindicator'] = 'Nykyinen tyyli';
 $string['textmode'] = 'Olet tekstitilassa.  Käytä [<>] painiketta palataksesi takaisin WYSIWYG -tilaan.';
 $string['texttop'] = 'Texttop';

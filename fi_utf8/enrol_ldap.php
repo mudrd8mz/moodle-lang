@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // enrol_ldap.php - created with Moodle 1.5.2 + (2005060222)
 
 
@@ -24,7 +24,7 @@ $string['enrol_ldap_course_summary'] = 'Valinnainen: LDAP-kenttä jolta haetaan 
 $string['enrol_ldap_editlock'] = 'Lukitse arvo';
 $string['enrol_ldap_general_options'] = 'Yleiset asetukset';
 $string['enrol_ldap_host_url'] = 'Määritä LDAP-palvelin URL-muodossa. Malli:  \'ldap://ldap.myorg.com/\'tai \'ldaps://ldap.myorg.com/\'';
-$string['enrol_ldap_objectclass'] = 'objektiLuokka jolla etsittän kursseilta. Yleensä \'posixGroup\'.';
+$string['enrol_ldap_objectclass'] = 'objektiLuokka jolla etsitään kursseilta. Yleensä \'posixGroup\'.';
 $string['enrol_ldap_search_sub'] = 'Etsi ryhmien jäsenyyksiä alakonteksteista';
 $string['enrol_ldap_server_settings'] = 'LDAP-palvelimen asetukset';
 $string['enrol_ldap_student_contexts'] = 'Lista konteksteista, joissa ryhmät joille on ilmoittautunut oppilaita sijaitsevat. Eri kontekstit erotetaan puolipisteellä ´;´. Esimerkki: \'ou=courses,o=org; ou=others,o=org\'';

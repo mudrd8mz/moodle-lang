@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // scorm.php - created with Moodle 1.5.2 + (2005060222)
 
 
@@ -21,7 +21,7 @@ $string['errorlogs'] = 'Virheloki';
 $string['exit'] = 'Poistu SCORM-kurssilta';
 $string['expcoll'] = 'Laajenna/supista';
 $string['failed'] = 'Epäonnistui';
-$string['firstaccess'] = 'Ensimäienn käynti';
+$string['firstaccess'] = 'Ensimäinen käynti';
 $string['found'] = 'Manifest';
 $string['frameheight'] = 'Tämä asetus asettaa SCO-kehyksen oletuskorkeuden';
 $string['framewidth'] = 'Tämä asetus asettaa SCO-kehyksen oletusleveyden';
@@ -40,7 +40,7 @@ $string['mode'] = 'Muoto';
 $string['modulename'] = 'Scorm';
 $string['modulenameplural'] = 'Scorm';
 $string['next'] = 'Jatka';
-$string['no_attributes'] = 'Merkinnällä $a->tag pitää olla atribuutit';
+$string['no_attributes'] = 'Merkinnällä $a->tag pitää olla attribuutit';
 $string['no_children'] = 'Merkinnällä $a->tag pitää olla lapsi';
 $string['noactivity'] = 'Ei mitään raportoitavaa';
 $string['nomanifest'] = 'Manifestia ei löydy';
@@ -65,7 +65,7 @@ $string['scormcourse'] = 'SCORM-kurssi';
 $string['stagesize'] = 'Kehyksen/ikkunan koko';
 $string['syntax'] = 'Muoto virhe';
 $string['tag_error'] = 'Tuntematon merkintä ($a->tag) sisällössä: $a->value';
-$string['too_many_attributes'] = 'Merkinällä $a->tag on liikaa atribuutteja';
+$string['too_many_attributes'] = 'Merkinnällä $a->tag on liikaa atribuutteja';
 $string['too_many_children'] = 'Merkinnällä $a->tag on liikaa lapsia';
 $string['totaltime'] = 'Aika';
 $string['trackingloose'] = 'VAROITUS: Tämän SCORM-paketin seurantatiedot menetetään!';

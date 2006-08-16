@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // resource.php - created with Moodle 1.6.1+ (2006050511)
 
 
@@ -7,7 +7,7 @@ $string['back'] = 'Takaisin';
 $string['choose'] = 'Valitse';
 $string['chooseafile'] = 'Valitse tai lähetä tiedosto';
 $string['chooseparameter'] = 'Valitse parametri';
-$string['configallowlocalfiles'] = 'Kun luodaan uutta tiedostoaineistoa, annetaanko luoda linkkejä paikallisiin tiedostoihin, jotka ovat esimerkikisi CD:llä tai kiintolevyllä. Tästä voi olla hyötyä luokkatilassa, jossa kaikilla oppilailla on pääsy yhteiseen verkkoasemaan tai jos on tarpeen käyttää CD:llä olevia tiedostoja. Tämän asetuksen käyttö voi vaatia muutoksia selaimesi turvallisuusasetuksiin.';
+$string['configallowlocalfiles'] = 'Kun luodaan uutta tiedostoaineistoa, annetaanko luoda linkkejä paikallisiin tiedostoihin, jotka ovat esimerkiksi CD:llä tai kiintolevyllä. Tästä voi olla hyötyä luokkatilassa, jossa kaikilla oppilailla on pääsy yhteiseen verkkoasemaan tai jos on tarpeen käyttää CD:llä olevia tiedostoja. Tämän asetuksen käyttö voi vaatia muutoksia selaimesi turvallisuusasetuksiin.';
 $string['configdefaulturl'] = 'Tätä käytetään esimerkkiosoitteena, kun lisätään uusia URL-osoiteen sisältäviä aineistoja.';
 $string['configfilterexternalpages'] = 'Tämä asetus aiheuttaa kaikkien ulkoisten aineistoiden suodattamisen sivuston suotimien läpi. Tämän toiminnon kytkeminen päälle hidastaa sivustoa, käytä sitä vain, jos ei ole muuta mahdollisuutta.';
 $string['configframesize'] = 'Kun WWW-sivu tai palvelimelle tallennettu tiedosto on osa kehystä, tämä arvo on yläkehyksen koko pikseleinä (sisältää navigointipalkit).';
@@ -15,14 +15,14 @@ $string['configparametersettings'] = 'Tässä voit määritellä oletusarvot ase
 $string['configpopup'] = 'Jos uusi aineisto on mahdollista näyttää ponnahdusikkunassa, otetetaanko ponnahdusikkuna käyttöön?';
 $string['configpopupdirectories'] = 'Näytetäänkö ponnahdusikkunoissa hakemistolinkit?';
 $string['configpopupheight'] = 'Ponnahdusikkunoiden korkeus?';
-$string['configpopuplocation'] = 'Näytetäänkö ponnahdusikkunoissa sijanti?';
+$string['configpopuplocation'] = 'Näytetäänkö ponnahdusikkunoissa sijainti?';
 $string['configpopupmenubar'] = 'Näytetäänkö ponnahdusikkunoissa valikkorivi?';
 $string['configpopupresizable'] = 'Voiko ponnahdusikkunoiden kokoa muuttaa?';
 $string['configpopupscrollbars'] = 'Näytetäänkö ponnahdusikkunoissa vierityspalkit?';
 $string['configpopupstatus'] = 'Näytetäänkö ponnahdusikkunoissa tilarivi?';
 $string['configpopuptoolbar'] = 'Näytetäänkö ponnahdusikkunoissa työkalurivi?';
 $string['configpopupwidth'] = 'Ponnahdusikkunoiden leveys?';
-$string['configsecretphrase'] = 'Tämä määrittää salasanan jota käytetää lähettyjen tietojen salaamiseen.';
+$string['configsecretphrase'] = 'Tämä määrittää salasanan jota käytetään lähettyjen tietojen salaamiseen.';
 $string['configwebsearch'] = 'Kun lisätää WWW-sivun tai -linkin osoite, tätä osoitetta tarjotaan käyttäjälle etsimisen helpottamiseksi (esimerkiksi sopivan hakukoneen URL).';
 $string['configwindowsettings'] = 'Tässä määritetään oletus arvot Ikkunan asetuksille kun uusia resursseja lisätään ensikerran. Tämän jälkeen oletusasetukset määräytyvät käyttäjän asetusten mukaan.';
 $string['directlink'] = 'Suora linkki tähän tiedostoon';
@@ -72,7 +72,7 @@ $string['newwindowopen'] = 'Näytä linkki uudessa ikkunassa';
 $string['next'] = 'Seuraava';
 $string['notallowedlocalfileaccess'] = 'Pääsy paikallisiin tiedostoihin on estetty, eikä tämä aineisto ole saatavilla.';
 $string['note'] = 'Huomaa';
-$string['notefile'] = 'Lisätäksesi tiedostoja kurssille (jotta ne näkysivät tässä listassa) käytä 
+$string['notefile'] = 'Lisätäksesi tiedostoja kurssille (jotta ne näkyisivät tässä listassa) käytä 
 <a href=\"$a\">Tiedostot</a>-työkalua.';
 $string['notypechosen'] = 'Sinun pitää valita luettavan aineiston tyyppi.  Käytä selaimen Takaisin-painiketta ja yritä uudelleen.';
 $string['pagedisplay'] = 'Näytä aineisto nykyisessä ikkunassa';

@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // auth.php - created with Moodle 1.5.2 + (2005060222)
 
 
@@ -79,7 +79,7 @@ $string['auth_ldap_preventpassindb'] = 'Valitse kyllä, jos haluat estää salas
 $string['auth_ldap_search_sub'] = 'Aseta arvo <> 0, jos haluat hakea käyttäjiä myös alikonteksteista.';
 $string['auth_ldap_server_settings'] = 'LDAP palvelimen asetukset';
 $string['auth_ldap_update_userinfo'] = 'Päivitä käyttäjätiedot LDAP:ista Moodleen (etunimi, sukunimi, osoite..). Katso <a href=\"/auth/ldap/attr_mappings.php\">/auth/ldap/attr_mappings.php</a> tarkempia määrittelytietoja.';
-$string['auth_ldap_user_attribute'] = 'Valinnainen: ylimääritä attribuutti käyttäjänimille. Yleensä \'cn\'.';
+$string['auth_ldap_user_attribute'] = 'Valinnainen: ylimäärittele attribuutti käyttäjänimille. Yleensä \'cn\'.';
 $string['auth_ldap_user_settings'] = 'Käyttäjien etsintä';
 $string['auth_ldap_user_type'] = 'Valitse kuinka käyttäjät tallennetaan LDAP:iin. Tämä asetus myös määrittää kuinka sisäänkirjautumisen voimassaolo, vapaat sisäänkirjautumiset ja käyttäjien luominen toimii';
 $string['auth_ldap_version'] = 'Palvelimella käytettävä LDAP protokolla versio';
@@ -114,13 +114,13 @@ $string['auth_shib_convert_data_description'] = 'Voit käyttää tätä APIa muo
 $string['auth_shib_convert_data_warning'] = 'Tiedosto ei ole olemassa tai se ei ole verkkopalvelinprosessin luettavissa!';
 $string['auth_shib_instructions'] = 'Käytä <a href=\"$a\">Shibboleth-kirjautumista</a> käyttääksesi yhteyden muodostamiseen Shibbolethia, jos se on tarjolla. <br />
 Muuten voit käyttää tätä tavallista kirjautumislomaketta.';
-$string['auth_shib_instructions_help'] = 'Tähän voit kirjoittaa lisäohjeita käyttäjillesi selittääksesi Shibboleth-varmennusta. Nämä ohjeet näytetään kirjautumissivun ohjeosiossa. Siinä pitäisi olla linkki, joka ohjaa käyttäjät \"<b>$a</b>\", niin että Shibbolethin käyttäjät voivat kirjautua sisään Moodleen. Jos jätät tämän tyhjäksi, näytetää käyttäjille tavallset ohjeet (eivät käsittele erityisesti Shibbolethia)';
+$string['auth_shib_instructions_help'] = 'Tähän voit kirjoittaa lisäohjeita käyttäjillesi selittääksesi Shibboleth-varmennusta. Nämä ohjeet näytetään kirjautumissivun ohjeosiossa. Siinä pitäisi olla linkki, joka ohjaa käyttäjät \"<b>$a</b>\", niin että Shibbolethin käyttäjät voivat kirjautua sisään Moodleen. Jos jätät tämän tyhjäksi, näytetää käyttäjille tavalliset ohjeet (eivät käsittele erityisesti Shibbolethia)';
 $string['auth_shib_only'] = 'Vain Shibboleth';
 $string['auth_shib_only_description'] = 'Käytä tätä valintaa, jos haluat pakottaa Shibboleth-varmennuksen';
 $string['auth_shib_username_description'] = 'Sen verkkopalvelimen Shibboleth-ympäristön muuttujan nimi, jota käytetään Moodlen käyttäjänimenä.';
 $string['auth_shibboleth_login'] = 'Shibboleth-kirjautuminen';
-$string['auth_shibboleth_manual_login'] = 'Sisäänkirjaantuminen käsin';
-$string['auth_shibbolethdescription'] = 'Tätä menetelmää käyttäessä käyttäjät luodaan ja varmennetaan käyttäen href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth-käyttäjänvarmennusta</a>. Lue <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README (englanniksi)</a>, jossa kerrotaan kuinka Moodle asetaan käyttämään Shibbolethin-varmennusta.';
+$string['auth_shibboleth_manual_login'] = 'Sisäänkirjautuminen käsin';
+$string['auth_shibbolethdescription'] = 'Tätä menetelmää käyttäessä käyttäjät luodaan ja varmennetaan käyttäen href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth-käyttäjänvarmennusta</a>. Lue <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README (englanniksi)</a>, jossa kerrotaan kuinka Moodle asetetaan käyttämään Shibbolethin-varmennusta.';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_updatelocal'] = 'Päivitä sisäinen arvo';
 $string['auth_updatelocal_expl'] = '<p><b>Päivitä sisäinen arvo:</b> Jos ei onnistu, kenttä päivittyy joka kerta käyttäjän kirjautuessa tai käyttäjäsynkronoinnin yhteydessä. Kentät jotka on asetettu päivittymään paikallisesti tulisi lukita.</p> ';
@@ -138,7 +138,7 @@ $string['changepasswordhelp'] = 'Tässä osoitteessa käyttäjät voivat vaihtaa
 $string['chooseauthmethod'] = 'Valitse käyttäjäntunnistusmetodi: ';
 $string['createchangepassword'] = 'Luo, jos ei olemassa - pakota muutos';
 $string['createpassword'] = 'Luo, jos ei olemassa';
-$string['forcechangepassword'] = 'Pakoita salasanan vaihto';
+$string['forcechangepassword'] = 'Pakota salasanan vaihto';
 $string['forcechangepassword_help'] = 'Pakota käyttäjät vaihtamaan salasanaa heidän seuraavalla Moodleen kirjautumiskerrallaan.';
 $string['forcechangepasswordfirst_help'] = 'Pakota käyttäjät vaihtamaan salasanaa heidän ensimmäisellä Moodleen kirjautumiskerrallaan.';
 $string['guestloginbutton'] = 'Kirjaudu vieraana-painike';

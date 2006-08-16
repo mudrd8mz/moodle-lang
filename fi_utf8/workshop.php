@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // workshop.php - created with Moodle 1.5.2 + (2005060222)
 
 
@@ -18,7 +18,7 @@ $string['alreadyinphase'] = 'Jo vaiheessa $a';
 $string['amendassessmentelements'] = 'Muuta arviointielementtejä';
 $string['amendtitle'] = 'Muuta otsikkoa';
 $string['analysis'] = 'Analyysi';
-$string['analysisofassessments'] = 'Arvointien analyysi';
+$string['analysisofassessments'] = 'Arviointien analyysi';
 $string['assess'] = 'Arvioi';
 $string['assessedon'] = 'Arvioitu $a';
 $string['assessment'] = 'Arviointi';
@@ -213,7 +213,7 @@ $string['poor'] = 'Heikko';
 $string['present'] = 'Läsnä';
 $string['reasonforadjustment'] = 'Tarkennuksen syy';
 $string['reassess'] = 'Arvioi uudelleen';
-$string['regradestudentassessments'] = 'Uudelleenarvostele oppilaiden arvioinnit';
+$string['regradestudentassessments'] = 'Uudelleen arvostele oppilaiden arvioinnit';
 $string['releaseteachergrades'] = 'Julkaise opettajan arvosanat oppilaille';
 $string['removeallattachments'] = 'Poista kaikki liitteet';
 $string['repeatanalysis'] = 'Toista analyysi';
@@ -246,7 +246,7 @@ $string['showgrades'] = 'Näytä arvosanat';
 $string['showsubmission'] = 'Näytä palautus: $a';
 $string['specimenassessmentform'] = 'Arviointilomakkeen mallikappale';
 $string['standarddeviation'] = 'Arviointielementin $a keskihajonta';
-$string['standarddeviationnote'] = 'Arvointielementit, joiden keskihajonta on nolla tai hyvin pieni, voivat vääristää analyysiä.<br />Tätä arvosteluelementtiä ei ole otettu huomioon analyysissä.';
+$string['standarddeviationnote'] = 'Arviointielementit, joiden keskihajonta on nolla tai hyvin pieni, voivat vääristää analyysiä.<br />Tätä arvosteluelementtiä ei ole otettu huomioon analyysissä.';
 $string['standarddeviationofelement'] = 'Alkion $a normipoikkeavuus:';
 $string['strict'] = 'Tiukka';
 $string['studentassessments'] = '$a Arvioinnit';

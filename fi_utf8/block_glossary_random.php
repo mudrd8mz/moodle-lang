@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // block_glossary_random.php - created with Moodle 1.6.1+ (2006050511)
 
 
@@ -7,7 +7,7 @@ $string['askaddentry'] = 'Kun käyttäjät voivat lisätä tietueita sanastoon, 
 $string['askinvisible'] = 'Kun käyttäjät eivät voi lisätä tai katsella sanaston tietueita , näytä tämä testi';
 $string['askviewglossary'] = 'Kun käyttäjät eivät voi lisätä tai katsella sanaston tietueita , näytä linkkitekstinä';
 $string['blockname'] = 'Satunnainen sana sanastosta';
-$string['intro'] = 'Varmista että kurssilla ainakin yksi sanasto ja siinä ainakin yksi tietue. Sitten voit muokata suraavia asetuksia';
+$string['intro'] = 'Varmista että kurssilla ainakin yksi sanasto ja siinä ainakin yksi tietue. Sitten voit muokata seuraavia asetuksia';
 $string['invisible'] = '(Jatkuu)';
 $string['lastmodified'] = 'Viimeiseksi muokattu tietue';
 $string['nextone'] = 'Seuraava tietue';

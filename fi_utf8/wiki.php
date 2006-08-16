@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // wiki.php - created with Moodle 1.6.1+ (2006050511)
 
 
@@ -46,7 +46,7 @@ $string['dwnlnofiles'] = 'Tiedostoja ei ole vielä lähetetty';
 $string['dwnlsection'] = 'Ladattavat tiedostot';
 $string['editform1'] = 'Älä murehdi liikaa tekstin muotoilua, voit muokata sivua aina jälkeenpäin.';
 $string['editform2'] = 'Muokkaa varovasti ja muista että kaikki muokkaustapahtumat kirjataan ylös.';
-$string['editthispage'] = 'Muokkataan sivua';
+$string['editthispage'] = 'Muokataan sivua';
 $string['emptypage'] = 'Tyhjä sivu';
 $string['errorbinandtxt'] = 'Virhe: Sivu on tyypiltään BIN JA TXT';
 $string['errorhtml'] = 'Sivu tyyppiä: HTML';
@@ -95,7 +95,7 @@ $string['linkschecked'] = 'Linkit tarkastettu';
 $string['listall'] = 'Listaa kaikki';
 $string['listcandidates'] = 'Listaa ehdokkaat';
 $string['meta'] = 'Meta tiedot';
-$string['moduledirectory'] = 'Moduli hakemisto';
+$string['moduledirectory'] = 'Moduuli hakemisto';
 $string['modulename'] = 'Wiki';
 $string['modulenameplural'] = 'Wikit';
 $string['mostoftenchangedpages'] = 'Eniten muokatut sivut';
@@ -131,7 +131,7 @@ $string['preview'] = 'Esikatsele';
 $string['readonly'] = 'Kirjoitusuojattu sivu';
 $string['refs'] = 'Viittaukset';
 $string['reloadlinkdescription'] = 'Lataa sivun palvelimelta jotta sivun uusin sisältö näkyisi.';
-$string['removenotice'] = 'Huomaa että ainostaan orposivut ovat listattuna tässä. Ja koska wiki testaa sivujen linkityksen vain osittain, voivat jotkut linkitetytkin sivut näkyä luettelossa.';
+$string['removenotice'] = 'Huomaa että Ainostaan orposivut ovat listattuna tässä. Ja koska wiki testaa sivujen linkityksen vain osittain, voivat jotkut linkitetytkin sivut näkyä luettelossa.';
 $string['removepagecheck'] = 'Oletko varma että haluat poistaa nämä sivut?';
 $string['removepages'] = 'Poista sivuja';
 $string['removeselectedpages'] = 'Poista valitut sivut';

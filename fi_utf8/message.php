@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // message.php - created with Moodle 1.5.2 + (2005060222)
 
 
@@ -12,14 +12,14 @@ $string['allusers'] = 'Kaikki viestit kaikilta';
 $string['backupmessageshelp'] = 'Määrittää varmuuskopioidaanko viestit sivuston varmuuskopioinnin yhteydessä.';
 $string['beepnewmessage'] = 'Äänimerkki viestin saapuessa';
 $string['blockcontact'] = 'Estä kontakti';
-$string['blockedmessages'] = '$a viesti(ä) estetyiltä käyttäjiltä/kayttäjille';
+$string['blockedmessages'] = '$a viesti(ä) estetyiltä käyttäjiltä/käyttäjille';
 $string['blocknoncontacts'] = 'Estä kaikki vietit jos lähettäjä ei ole listallani.';
 $string['contactlistempty'] = 'Kontaktilistasi on tyhjä.';
 $string['contacts'] = 'Kontaktit';
 $string['context'] = 'asiayhteys';
 $string['deletemessagesdays'] = 'Tätä vanhemmat viestit poistetaan automaattisesti.';
 $string['discussion'] = 'Keskustelu';
-$string['emailmessages'] = 'Lähetä viesit sähköpostilla jos olen poissa sivultolta';
+$string['emailmessages'] = 'Lähetä viestit sähköpostilla jos olen poissa sivultolta';
 $string['emailtagline'] = 'Tämä on kopio vististä sivustolla \"$a\"';
 $string['emptysearchstring'] = 'Sinun pitää määritellä jokin hakuehto';
 $string['formorethan'] = 'Useampi kuin';
@@ -36,7 +36,7 @@ $string['mycontacts'] = 'Kontaktini';
 $string['newsearch'] = 'Uusi haku';
 $string['nomessages'] = 'Ei odottavia viestejä';
 $string['nomessagesfound'] = 'Viestejä ei löytynyt';
-$string['nosearchresults'] = 'Haku ei tuttanut tuolosta';
+$string['nosearchresults'] = 'Haku ei tuottanut tulosta';
 $string['offline'] = 'Offline';
 $string['offlinecontacts'] = 'Offline kontaktit';
 $string['online'] = 'Online';
@@ -55,8 +55,8 @@ $string['sendmessage'] = 'Lähetä viesti';
 $string['sendmessageto'] = 'Lähetä viesti $a:lle';
 $string['settings'] = 'Asetukset';
 $string['settingssaved'] = 'Asetuksesi on tallennettu';
-$string['showmessagewindow'] = 'Näytä viesti-ikkuna automaatisesti kun saan uuden viestin.';
-$string['timenosee'] = 'Kuinka monta minuttia sitten olin viimeksi kirjautuneena';
+$string['showmessagewindow'] = 'Näytä viesti-ikkuna automaattisesti kun saan uuden viestin.';
+$string['timenosee'] = 'Kuinka monta minuuttia sitten olin viimeksi kirjautuneena';
 $string['timesent'] = 'Lähetysaika';
 $string['unblockcontact'] = 'Salli kontakti';
 $string['unreadmessages'] = '$a uutta viestiä';

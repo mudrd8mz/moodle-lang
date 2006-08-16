@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // data.php - created with Moodle 1.6.1+ (2006050511)
 
 
@@ -23,7 +23,7 @@ $string['commentempty'] = 'KOmmentti oli tyhjä';
 $string['comments'] = 'Kommentit';
 $string['commentsaved'] = 'Kommentit tallennettu';
 $string['commentsn'] = '$a kommentti(a)';
-$string['configenablerssfeeds'] = 'Sallii RSS-syötteet kaikista tietokannoista. Jokaisesta tietokannaasta pitää vielä määritt RSS-asetukset.';
+$string['configenablerssfeeds'] = 'Sallii RSS-syötteet kaikista tietokannoista. Jokaisesta tietokannasta pitää vielä määrittää RSS-asetukset.';
 $string['confirmdeletefield'] = 'Haluatko poistaa tämän kentän?';
 $string['confirmdeleterecord'] = 'Haluatko poistaa tämän tietueen?';
 $string['csstemplate'] = 'CSS-pohja';
@@ -38,11 +38,11 @@ $string['delete'] = 'Poista';
 $string['deletecomment'] = 'Haluatko varmasti poistaa kommentin?';
 $string['deleted'] = 'poistettu';
 $string['deletefield'] = 'Poista kenttä';
-$string['descending'] = 'Järjestettyn takaperin';
+$string['descending'] = 'Järjestetty takaperin';
 $string['edit'] = 'Muokkaa';
 $string['editcomment'] = 'Muokkaa kommenttia';
 $string['editentry'] = 'Muokkaa tietuetta';
-$string['emptyaddform'] = 'Et täyttäny tietueen kenttiä!';
+$string['emptyaddform'] = 'Et täyttänyt tietueen kenttiä!';
 $string['entries'] = 'Tietueet';
 $string['entrysaved'] = 'Tietueesi on tallennettu';
 $string['errormustbeteacher'] = 'Vain opettaja voi käyttää tätä sivua!';
@@ -56,7 +56,7 @@ $string['fieldheight'] = 'Korkeus';
 $string['fieldheightlistview'] = 'Korkeus listanäkymässä';
 $string['fieldheightsingleview'] = 'Korkeus yksittäisnäkymässä';
 $string['fieldname'] = 'Kentän nimi';
-$string['fieldoptions'] = 'Valiinnat (yksi riviä kohden)';
+$string['fieldoptions'] = 'Valinnat (yksi riviä kohden)';
 $string['fields'] = 'Kentät';
 $string['fieldupdated'] = 'Kentät päivitetty';
 $string['fieldwidth'] = 'Leveys';
@@ -106,7 +106,7 @@ $string['optionalfilename'] = 'Tiedoston nimi (valinnainen)';
 $string['pagesize'] = 'Tietuetta sivulle';
 $string['participants'] = 'Osallistujat';
 $string['picture'] = 'Kuva';
-$string['radiobutton'] = 'Radio painikket';
+$string['radiobutton'] = 'Radio painikkeet';
 $string['requireapproval'] = 'Vaadi hyväksyntä?';
 
 ?>

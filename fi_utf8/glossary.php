@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // glossary.php - created with Moodle 1.6.1+ (2006050511)
 
 
@@ -140,7 +140,7 @@ $string['ratingonlyteachers'] = 'Vain $a voi arvioida tietueita';
 $string['ratings'] = 'Arviot';
 $string['ratingssaved'] = 'Arviot tallennettu';
 $string['ratingsuse'] = 'Käytä arvioita';
-$string['ratingtime'] = 'Rajoita tietueiden arvointi näiden päivämäärien välille:';
+$string['ratingtime'] = 'Rajoita tietueiden arviointi näiden päivämäärien välille:';
 $string['rejectedentries'] = 'Hylätyt tietueet';
 $string['rejectionrpt'] = 'Hylkäysraportti';
 $string['rsssubscriberss'] = 'Näytä RSS-syötteet $a';

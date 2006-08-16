@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // forum.php - created with Moodle 1.6.1+ (2006050511)
 
 
@@ -22,11 +22,11 @@ $string['configenablerssfeeds'] = 'Tämä mahdollistaa RSS-syötteet eri keskust
 $string['configlongpost'] = 'Tätä pitemmät keskustelut käsitellään pitkinä (HTML koodia ei lasketa mukaan).';
 $string['configmanydiscussions'] = 'Samalla sivulla näytettävien keskustelujen suurin määrä';
 $string['configmaxbytes'] = 'Oletusasetus liitetiedoston maksimikoolle koko sivustolla.';
-$string['configoldpostdays'] = 'Kuinka monta päivää vanhoja vietejä pidetään luettuina?';
+$string['configoldpostdays'] = 'Kuinka monta päivää vanhoja viestejä pidetään luettuina?';
 $string['configreplytouser'] = 'Kun viesti keskustelualueelle lähetetään sähköpostilla, pitäisikö sen sisältää kirjoittajan sähköpostiosoite, jotta vastaanottajat voisivat vastata henkilökohtaisesti ennemmin kuin keskustelualueen kautta? Vaikka asetukseksi valittaisiin kyllä, käyttäjät voivat valita profiilissaan pitävänsä sähköpostiosoitteensa salaisena.';
 $string['configshortpost'] = 'Tätä lyhyemmät keskustelut ovat lyhyitä (HTML koodia ei lasketa mukaan).';
 $string['configtrackreadposts'] = 'Aseta ´Kyllä´ jos haluat seurata jokaisen käyttäjän kohdalla viestien luettu/lukematon-tilaa.';
-$string['configusermarksread'] = '´Kyllä´ vaatii käyttäjän merkitsevän viestin itse luetuksi, kun taas ´Ei´-asetuksella viestit merkitään automaatisesti luetuiksi, kun ne luetaan.';
+$string['configusermarksread'] = '´Kyllä´ vaatii käyttäjän merkitsevän viestin itse luetuksi, kun taas ´Ei´-asetuksella viestit merkitään automaattisesti luetuiksi, kun ne luetaan.';
 $string['couldnotadd'] = 'Viestiäsi ei voida lisätä tuntemattoman virheen takia.';
 $string['couldnotdeleteratings'] = 'Valitettavasti viestiä ei voida poistaa, koska se on jo arvioitu';
 $string['couldnotdeletereplies'] = 'Valitettavasti viestiä ei voida poistaa, koska siihen on jo vastattu';
@@ -37,7 +37,7 @@ $string['deletedpost'] = 'Viesti on poistettu';
 $string['deletedposts'] = 'Nuo viestit on poistettu';
 $string['deletesure'] = 'Oletko varma, että haluat poistaa tämän viestin?';
 $string['deletesureplural'] = 'Oletko varma, että haluat poistaa tämän viestin ja kaikki vastaukset ($a viestiä)?';
-$string['digestmailheader'] = 'Tässä on tämän päivän kerätyt viestit keskustelualueilta $a->sitename. Vaihtaaksesi poistitus asetuksia, käy ositteessa $a->userprefs.';
+$string['digestmailheader'] = 'Tässä on tämän päivän kerätyt viestit keskustelualueilta $a->sitename. Vaihtaaksesi postitus asetuksia, käy ositteessa $a->userprefs.';
 $string['digestmailprefs'] = 'asetuksesi';
 $string['digestmailsubject'] = '$a: kerätyt keskustelut';
 $string['digestsentusers'] = 'Kerätty email lähetetty $a käyttäjälle';
@@ -59,7 +59,7 @@ $string['existingsubscribers'] = 'Nykyiset tilaajat';
 $string['forcesubscribe'] = 'Pakota kaikki tilaajiksi';
 $string['forcesubscribeq'] = 'Pakota kaikki tilaajiksi?';
 $string['forum'] = 'Keskustelualue';
-$string['forumauthorhidden'] = 'Kijoittaja (piilotettu)';
+$string['forumauthorhidden'] = 'Kirjoittaja (piilotettu)';
 $string['forumintro'] = 'Keskustelualueen johdanto';
 $string['forumname'] = 'Keskustelualueen nimi';
 $string['forumposts'] = 'Keskustelualueen viestit';
@@ -120,7 +120,7 @@ $string['oldertopics'] = 'Vanhat aiheet';
 $string['openmode0'] = 'Ei keskusteja, ei vastauksia';
 $string['openmode1'] = 'Ei keskusteluja, mutta vastaaminen sallitaan';
 $string['openmode2'] = 'Keskustelut ja vastaukset sallitaan';
-$string['overviewnumpostssince'] = 'viestiä edellisen kijaantumisen jälkeen';
+$string['overviewnumpostssince'] = 'viestiä edellisen kirjautumisen jälkeen';
 $string['overviewnumunread'] = 'lukematta';
 $string['parent'] = 'Naytä aiempi';
 $string['parentofthispost'] = 'Tämän viestin alku';
@@ -129,7 +129,7 @@ $string['postincontext'] = 'Katso tätä viestiä asiayhteydessään';
 $string['postmailinfo'] = 'Tämä on kopio viestistä sivustolla $a.
 Lisätäksesi vastauksen viestiin suoraan sivustolle, napsauta seuraavaa linkkiä:';
 $string['postrating1'] = 'Suurimmaksi osaksi eristyvää osaamista';
-$string['postrating2'] = 'Yhtälaisesti eristynyt ja sosiaalinen';
+$string['postrating2'] = 'Yhtäläisesti eristynyt ja sosiaalinen';
 $string['postrating3'] = 'Suurimmaksi osaksi sosiaalista osaamista';
 $string['posts'] = 'Viestit';
 $string['posttoforum'] = 'Lähetä viesti';

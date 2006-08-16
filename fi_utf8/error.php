@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // error.php - created with Moodle 1.5.2 + (2005060222)
 
 
@@ -18,7 +18,7 @@ $string['onlyeditown'] = 'Voit muokata vain omia tietojasi.';
 $string['processingstops'] = 'Käsittely loppuu tähän. Jäljelle jääneet merkinnät jätetään huomiotta.';
 $string['restricteduser'] = 'Käyttäjätiliäsi \"$a\" on rajoitettu toiminnon osalta.';
 $string['sessionerroruser'] = 'Istuntosi on kirjautunut ulos aikarajan takia. Kirjaudu uudestaan sisään.';
-$string['sessionipnomatch'] = 'Valitettavasti IP numerosi näyttää muuttuneen siitä, kun aluksi kirjauduit sisään. Tämä turvatoiminto estää hakkereita varastamasta identiteettiäsi sillä välin kun olet rekisteröityneenä tällä sivulla. Normaalien käyttäjien ei pitäisi nähdä tätä viestiä- pyydä sivuston hallinnolta apua.';
+$string['sessionipnomatch'] = 'Valitettavasti IP numerosi näyttää muuttuneen siitä, kun aluksi kirjauduit sisään. Tämä turvatoiminto estää hakkereita varastamasta identiteettiäsi sillä välin kun olet rekisteröityneenä tällä sivulla. Normaalien käyttäjien ei pitäisi nähdä tätä viestiä - pyydä sivuston hallinnolta apua.';
 $string['unknowncourse'] = 'Tuntematon kurssi nimeltään \"$a\"';
 $string['usernotaddederror'] = 'Käyttäjää \"$a\" ei lisätty - tuntematon virhe';
 $string['usernotaddedregistered'] = 'Käyttäjää \"$a\" ei lisätty - on jo rekisteröity';

@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // attendance.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004112900)
 
 
@@ -11,10 +11,10 @@ $string['auto'] = 'Automaattinen';
 $string['autoattend'] = 'Määrittele läsnäolo automaattisesti tapahtumalokien pohjalta';
 $string['autoattendmulti'] = 'Määrittele läsnäolo kaikkiin listoihin automaattisesti tapahtumalokien pohjalta';
 $string['autoattendshort'] = 'Automaattisesti lokeista';
-$string['choosedays'] = 'Viikottainen läsnöolo';
+$string['choosedays'] = 'Viikottainen läsnäolo';
 $string['dayofroll'] = 'Päiväys, jolta lista laaditaan';
 $string['defaultautoattend'] = 'Määrittele oletuksena läsnäolo tapahtumalokien pohjalta';
-$string['defaultdynamicsection'] = 'Siirrä oletuksena läsnäolotlistat oikealle viikolle';
+$string['defaultdynamicsection'] = 'Siirrä oletuksena läsnäololistat oikealle viikolle';
 $string['defaultgrade'] = 'Tee oletuksena läsnäololistoista arvioitavia';
 $string['defaulthoursinclass'] = 'Montako tuntia on oletuksena läsnäololistassa';
 $string['defaultmaxgrade'] = 'Mikä on suurin arvosana täydelle läsnäololle';
@@ -23,8 +23,8 @@ $string['downloadexcelfull'] = 'Lataa kaikki tiedot Excel-taulukkona';
 $string['downloadexceltotals'] = 'Lataa yhteenveto Excel-taulukkona';
 $string['downloadtextfull'] = 'Lataa kaikki tiedot tekstinä';
 $string['downloadtexttotals'] = 'Lataa yhteenveto tekstinä';
-$string['dynamicsection'] = 'Siirrä läsnäololista viikottain päivämäärän mukaan';
-$string['dynamicsectionmulti'] = 'Sijoita listat viikolle automattisesti';
+$string['dynamicsection'] = 'Siirrä läsnäololista viikoittain päivämäärän mukaan';
+$string['dynamicsectionmulti'] = 'Sijoita listat viikolle automaattisesti';
 $string['dynsectionshort'] = 'Siirtyy dynaamisesti osioon';
 $string['endbeforestart'] = 'Päättymispäivä on ennen lopetus päivää';
 $string['endmulti'] = 'Päiväys viimeiselle läsnäololistalle';

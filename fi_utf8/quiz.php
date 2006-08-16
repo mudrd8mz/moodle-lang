@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // quiz.php - created with Moodle 1.5.2 + (2005060222)
 
 
@@ -6,7 +6,7 @@ $string['acceptederror'] = 'Hyväksyttävä virhe';
 $string['action'] = 'Toiminto';
 $string['adaptive'] = 'Mukautuva tila';
 $string['addcategory'] = 'Lisää kategoria';
-$string['addingquestions'] = 'Täällä sivun vasemmalla laidalla voit hallinoida kysymysvarastoasi. Kysymykset on talletettu kategorioihin ja niitä voi käyttää missä tahansa tentissä ja vaikka aivan eri kurssissa, jos julkaiset ne. <br /><br /> Kun olet valinnut tai luonut kysymyskategorian, voit editoida tai luoda kysymyksiä. Voit valita minkä tahansa kysymyksen ja lisätä sen sivun vasemmalla laidalla olevaan tenttiin.';
+$string['addingquestions'] = 'Täällä sivun vasemmalla laidalla voit hallinnoida kysymysvarastoasi. Kysymykset on talletettu kategorioihin ja niitä voi käyttää missä tahansa tentissä ja vaikka aivan eri kurssissa, jos julkaiset ne. <br /><br /> Kun olet valinnut tai luonut kysymyskategorian, voit editoida tai luoda kysymyksiä. Voit valita minkä tahansa kysymyksen ja lisätä sen sivun vasemmalla laidalla olevaan tenttiin.';
 $string['addquestions'] = 'Lisää kysymyksiä';
 $string['addquestionstoquiz'] = 'Lisää kysymykset tähän tenttiin';
 $string['addrandom'] = 'Lisää $a satunnaista kysymystä';
@@ -156,7 +156,7 @@ $string['filloutoneanswer'] = 'Sinun pitää täyttää vähintään yksi vastau
 $string['filloutthreequestions'] = 'Sinun pitää täyttää vähintään kolme kysymystä. Tyhjiä kysymyksiä ei käytetä.';
 $string['fillouttwochoices'] = 'Sinun pitää valita vähintään kaksi vaihtoehtoa. Tyhjiä vaihtoehtoja ei käytetä.';
 $string['finishattempt'] = 'Palauta kaikki ja lopeta';
-$string['forceregeneration'] = 'pakoita uudelleenluonti';
+$string['forceregeneration'] = 'pakota uudelleenluonti';
 $string['fractionsaddwrong'] = 'Valitsemasi arviointiasteikko ei ole<br/>100%% asti, vaan $a%%.<br />
 Haluatko palata ja korjata tämän kysymyksen?';
 $string['fractionsnomax'] = 'Yhden vastauksista pitäisi olla %%100, jotta<br /> käyttäjän on mahdollista saada täysi <br />arviointi tästä kysymyksestä.<br />
@@ -165,7 +165,7 @@ $string['functiontakesatleasttwo'] = 'Funktiolla $a pitää ola vähintään kak
 $string['functiontakesnoargs'] = 'Funktio $a ei ota vastaan argumentteja';
 $string['functiontakesonearg'] = 'Funktio $a vaatii yhden argumentin';
 $string['functiontakesoneortwoargs'] = 'Funktio $a vaatii yhden tai kaksi argumanttia';
-$string['functiontakestwoargs'] = 'Funktio $a vaatii kaksi argumanttia';
+$string['functiontakestwoargs'] = 'Funktio $a vaatii kaksi argumenttia';
 $string['generatevalue'] = 'Luo uusi arvo väliltä';
 $string['geometric'] = 'Maantieteellinen';
 $string['gift'] = 'GIFT-muotoilu';
@@ -250,7 +250,7 @@ $string['noquestionsfound'] = 'Ei löydetty kysymyksiä';
 $string['noresponse'] = 'Ei vastausta';
 $string['noreview'] = 'Et voi tarkastella tätä tenttiä';
 $string['noreviewuntil'] = 'Et voi tarkastella tätä tenttiä ennen $a';
-$string['noscript'] = 'Salaimen JavaScritin pitää olla toiminnassa, jotta voisit jatkaa';
+$string['noscript'] = 'Selaimen JavaScritin pitää olla toiminnassa, jotta voisit jatkaa';
 $string['notavailable'] = 'Valitan, tämä tentti ei ole saatavilla';
 $string['notavailabletostudents'] = 'Huomio: Tämä tentti ei ole tällä hetkellä oppilaittesi saatavilla';
 $string['notenoughanswers'] = 'Tämän tyyppinen kysymys vaatii ainakin $a vastausta';
@@ -305,7 +305,7 @@ $string['randomsamatchintro'] = 'Valitse jokaiselle seuraavalle kysymykselle sop
 $string['randomsamatchnumber'] = 'Valittavien kysymysten määrä';
 $string['readytosend'] = 'Olet lähettämässä tentin arvosteltavaksi. Oletko varma, että haluat jatkaa?';
 $string['reattemptquiz'] = 'Yritä tenttiä uudestaan';
-$string['recentlyaddedquestion'] = 'Viimeksi lisätyt kysmykset';
+$string['recentlyaddedquestion'] = 'Viimeksi lisätyt kysymykset';
 $string['recurse'] = 'Näytä myös kysymykset alakategorioista';
 $string['regrade'] = 'Arvioi uudelleen kaikki yritykset';
 $string['regradecomplete'] = 'Kaikki yritykset on uudelleen arvioitu.';
@@ -332,7 +332,7 @@ $string['reports'] = 'Raportit';
 $string['reportsimplestat'] = 'Perustilasto';
 $string['requirepassword'] = 'Vaadi salasana';
 $string['requirepasswordmessage'] = 'Sinun pitää tietää tentin salasana jotta voisit yrittää tenttiä';
-$string['requiresubnet'] = 'Vaadi tietty verkkoosoite';
+$string['requiresubnet'] = 'Vaadi tietty verkko-osoite';
 $string['response'] = 'Vastaus';
 $string['responses'] = 'Vastaukset';
 $string['reuseifpossible'] = 'käytä aikaisemmin poistettuja';
@@ -374,7 +374,7 @@ $string['showall'] = 'Näytä kaikki kysymykset yhdellä sivulla';
 $string['showbreaks'] = 'Näytä sivun muotoilu';
 $string['showcorrectanswer'] = 'Näytä oikeat vastaukset palautteessa?';
 $string['showdetailedmarks'] = 'Näytä pisteytyksen yksityiskohdat';
-$string['showfeedback'] = 'Näytä palaute vastamisen jälkeen?';
+$string['showfeedback'] = 'Näytä palaute vastaamisen jälkeen?';
 $string['showhidden'] = 'Näytä myös vanhat kysymykset';
 $string['shownoattempts'] = 'Näytä oppilaat, joilla ei ole yrityksiä';
 $string['showteacherattempts'] = 'Näytä opettajalle yritykset';
@@ -395,7 +395,7 @@ $string['timelimitexeeded'] = 'Pahus! Aikarajoitus umpeutui!';
 $string['timesup'] = 'Aika loppui!';
 $string['timetaken'] = 'Suoritusaika';
 $string['tolerance'] = 'Toleranssi';
-$string['tolerancetype'] = 'Toleransin tyyppi';
+$string['tolerancetype'] = 'Toleranssin tyyppi';
 $string['toomanyrandom'] = 'Haluttu satunnaisten kysymysten määrä on suurempi kuin tämän kysymyskategorian kysymysten määrä ($a).';
 $string['top'] = 'Ylös';
 $string['true'] = 'Tosi';

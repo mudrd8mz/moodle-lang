@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // admin.php - created with Moodle 1.6.1+ (2006050511)
 
 
@@ -18,10 +18,10 @@ $string['change'] = 'muutos';
 $string['changesitelang'] = 'Vaihda sivuston kieli';
 $string['componentinstalled'] = 'Komponentti asennettu';
 $string['configallowcoursethemes'] = 'Tämä asetus sallii kurssien käyttää omia teemojaan.';
-$string['configallowemailaddresses'] = 'Jos haluat rajoittaa uudet sallitut sähköpostiosoitteet tiettyihin verkoalueisiin, niin kirjoita niisät tähän lista välilyönnein erotettuna. Kaikki muut verkkoalueet hylätään. Esim: <strong>meidan.koulu.fi joku.muu.com .fi .org</strong>';
+$string['configallowemailaddresses'] = 'Jos haluat rajoittaa uudet sallitut sähköpostiosoitteet tiettyihin verkkoalueisiin, niin kirjoita niistä lista välilyönnein erotettuna. Kaikki muut verkkoalueet hylätään. Esim: <strong>meidan.koulu.fi joku.muu.com .fi .org</strong>';
 $string['configallowobjectembed'] = 'Turvallisuuden tähden eivät tavalliset käyttäjät oletusarvoisesti saa sisällyttää HTML-teksteihinsä multimediaa (kuten Flash-animaatioita) käyttämällä  EMBED- ja OBJECT-merkintöjä (vaikka näin voidaan tehdä turvallisesti, jos käytetään medialaajennus-suodatinta). Laita tämä asetus päälle , jos haluat sallia näiden merkintöjen käytön.';
 $string['configallowunenroll'] = 'Tämä sallii opiskelijoiden poistua kursseilta koska tahansa. Jos asetus ei ole päällä opettajien tai ylläpitäjien pitää poistaa opiskelijat kursseilta.';
-$string['configallowuserblockhiding'] = 'Voivatko käyttäjät piiloittaa lohkoja?';
+$string['configallowuserblockhiding'] = 'Voivatko käyttäjät piilottaa lohkoja?';
 $string['configallowusermailcharset'] = 'Voivatko käyttäjät määrittää oman merkistönsä sähköpostia varten?';
 $string['configallowuserthemes'] = 'Voivatko käyttäjät valita omia teemojaan?';
 $string['configallusersaresitestudents'] = 'Pitäisikö KAIKKIA käyttäjiä käsitellä etusivun toiminnoissa opiskelijoina? Jos vastaat \"Kyllä\" kaikki hyväksytyn käyttäjätilin luoneet käyttäjät voivat osallistua näihin toimintoihin oppilaina. Jos vastaat \"Ei\", niin tällöin vain käyttäjät jotka ovat jo osanottajana vähintään yhdellä kurssilla voivat osallistua etusivun toimintoihin. Vain ylläpitäjät ja erityisesti määrätyt opettajat voivat toimia opettajina etusivun toiminnoissa.';
@@ -52,14 +52,14 @@ $string['configframename'] = 'Jos sijoitat Moodlen kehykseen verkkosivulla, kirj
 $string['configfullnamedisplay'] = 'Tämä määrittää kuinka nimet näytetään silloin, kun nimet näytetään kokonaisuudessaan. Useimmille vain yhtä kieltä käyttäville sivuilla toimii asetus \"Etunimet + Sukunimet\", mutta voit myös kätkeä sukunimet kokonaan, tai antaa valitun kielipaketin päättää muodosta (eri kielissä on eri tapoja).';
 $string['configgdversion'] = 'Määritä mikä GD:n versio on asennettuna. Oletusarvona on havaittu versio. Älä muuta, ellet tiedä mitä olet tekemässä.';
 $string['confightmleditor'] = 'Määritä haluatko sallia upotetun HTML-tekstieditorin. Jos päätät sallia sen, editori tulee käyttöön vain, jos käyttäjällä on yhteensopiva selain. Käyttäjät voivat myös valita olla käyttämättä editoria.';
-$string['configidnumber'] = 'Tämä asetus määrittää (a) kysytäänkö käyttäjiltä ollenkaan ID:tä, (b) käyttäjiltä kysytään ID-numeroa, mutta he voivat jättää kentän tyhjäksi, (c) käyttäjiltä kysytään ID-numeroa, eivätkä he voi jättää kohtaa tyhjäksi. Jos ID-numero annetaan, se näytetään käyttäjän profiilissä.';
+$string['configidnumber'] = 'Tämä asetus määrittää (a) kysytäänkö käyttäjiltä ollenkaan ID:tä, (b) käyttäjiltä kysytään ID-numeroa, mutta he voivat jättää kentän tyhjäksi, (c) käyttäjiltä kysytään ID-numeroa, eivätkä he voi jättää kohtaa tyhjäksi. Jos ID-numero annetaan, se näytetään käyttäjän profiilissa.';
 $string['configintro'] = 'Tällä sivulla voit määritellä useita asetuksia, jotta Moodle toimisi oikein palvelimellasi. Älä turhaan kanna huolta näistä - oletusarvot toimivat yleensä hyvin ja voit aina myöhemmin palata tälle sivulle ja muuttaa näitä asetuksia.';
 $string['configintroadmin'] = 'Tällä sivulla sinun pitää määritellä pääasiallinen ylläpitäjä sivustollesi, jolla on täydet valtuudet koko sivustolla. Huolehdi siitä että käyttäjänimi ja salasana ovat turvallisia ja että sähköpostiosoite on toimiva. Voit luoda lisää ylläpitäjäkäyttäjiä myöhemmin.';
 $string['configintrosite'] = 'Tällä sivulla määritellään etusivu ja uuden sivuston nimi. Voit palata tälle sivulle myöhemmin käyttämällä ´Sivuston asetukset´-linkkiä kotisivulla.';
 $string['configintrotimezones'] = 'Tämä sivu etsii uutta tietoa aikavyöhykkeistä (mukaan lukien mahdolliset kesäaikaa koskevat säännöt) ja päivittävät paikallisen tietokantasi näillä tiedoilla. Nämä sijainnit tarkistetaan, järjestyksessä: $a Tämä toimenpide on yleensä hyvin turvallinen, eikä se riko tavallisia asennuksia. Haluatko päivittää aikavyöhykkeet nyt?';
 $string['configlang'] = 'Valitse oletuskieli koko sivustolle. Käyttäjät voivat muuttaa myöhemmin omaa kieliasetustaan.';
 $string['configlangcache'] = 'Talleta kielivalikko välimuistiin. Säästää runsaasti muistia ja prosessointitehoa. Jos otat asetuksen käyttöön, kielien lisäämisen tai poistamisen jälkeen kielivalikon päivittyminen kestää muutaman minuutin.';
-$string['configlangdir'] = 'Useimmat kielet kirjoitetaan vasemmalta oikelle, mutta jotkin, kuten arabia ja hebrea, kirjoitetaan oikealta vasemmalle.';
+$string['configlangdir'] = 'Useimmat kielet kirjoitetaan vasemmalta oikealle, mutta jotkin, kuten arabia ja hebrea, kirjoitetaan oikealta vasemmalle.';
 $string['configlanglist'] = 'Jätä tämä tyhjäksi antaaksesi käyttäjien kaikista Moodleen asentamistasi kielistä. Voit lyhentää kielivalikkoa kirjoittamalla halutut kielet tähän pilkulla erottuina. Esimerkki: fi,en,es_es,fr,it';
 $string['configlangmenu'] = 'Valitse näytetäänkö kielivalikko kotisivulla, kirjautumissivulla, jne. Tämä ei vaikuta käyttäjien kykyyn valita haluamansa kielen profiileissaan.';
 $string['configlocale'] = 'Valitse koko sivustoa koskeva maa-asetus, joka vaikuttaa päivämäärien moutoon ja kieleen. Maa-asetuksen vaatimien tietojen täytyy olla asennettuna (esim.  fi_FI tai en_US). Jos et osaa valita, jätä tyhjäksi.';
@@ -67,7 +67,7 @@ $string['configloginhttps'] = 'Kun tämä asetus on asetettu päälle, Moodle k�
 $string['configloglifetime'] = 'Tässä määritellään kuinka kauan haluat säilyttää lokitiedostoja käyttäjien toimista. Tätä asetusta vanhemmat lokitiedostot poistetaan automaattisesti. On parasta säilyttää lokitiedostot mahdollisimman kauan, koska saatat tarvita niitä. Mutta jos palvelimesi liikenne on erittäin vilkasta ja sillä esiintyy suorituskykyyn liittyviä ongelmia,  kannatta ehkä laskea lokien säilytysaikaa.';
 $string['configlongtimenosee'] = 'Jos oppilaat eivät ole kirjautuneet sisään pitkään aikaan, heidät poistetaan automaattisesti kursseilta. Tämä asetus määrittelee tuon ajan.';
 $string['configmaxbytes'] = 'Tämä asetus määrittelee palvelimelle kopioitavien tiedostojen suurimman koon koko sivustolle. Tämän asetuksen yläraja riippuu PHP:n upload_max_filesize-asetuksesta ja Apachen LimitRequestBody-aetuksesta. Tämä asetus taas määrittelee kokoluokat, jotka voidaan valita kurssi- tai moduulitasolla.';
-$string['configmaxeditingtime'] = 'Tässä määritellään kuinka kauan käyttäjät voivat muokata kirjoittamiaan keskustelualueen viestejä, sanakirjan huomautuksia, jne. Yleensä 30 minuutia on hyvä arvo asetukselle.';
+$string['configmaxeditingtime'] = 'Tässä määritellään kuinka kauan käyttäjät voivat muokata kirjoittamiaan keskustelualueen viestejä, sanakirjan huomautuksia, jne. Yleensä 30 minuuttia on hyvä arvo asetukselle.';
 $string['configmessaging'] = 'Käytetäänkö sivuston käyttäjien välistä viestintäjärjestelmää?';
 $string['confignoreplyaddress'] = 'Joskus sähköposteja lähetetään käyttäjän puolesta (esim. keskustelualueen viestit). Tässä määrittelemääsi sähköpostiosoitetta käytetään \"Lähettäjä\"-osoitteena niissä tapauksissa, joissa halutaan etteivät vastaanottajat voi vastata suoraan käyttäjälle (esim. kun käyttäjä haluaa pitää sähköpostiosoitteensa salaisena).';
 $string['confignotifyloginfailures'] = 'Jos havaitaan epäonnistuneita kirjautumisyrityksiä, voidaan lähettää ilmoitus sähköpostitse. Kenelle ilmoitukset lähetetään?';
@@ -143,16 +143,16 @@ $string['langpackupdated'] = 'Käännöspaketti $a asennettu';
 $string['langupdatecomplete'] = 'Käännöspaketin päivitys suoritettu';
 $string['maintinprogress'] = 'Ylläpitotoimet ovat käynnissä...';
 $string['managelang'] = '<b>Hallitse</b>';
-$string['mediapluginavi'] = 'Kaytä .avi suodinta';
-$string['mediapluginflv'] = 'Kaytä .flv suodinta';
-$string['mediapluginmov'] = 'Kaytä .mov suodinta';
-$string['mediapluginmp3'] = 'Kaytä .mp3 suodinta';
-$string['mediapluginmpg'] = 'Kaytä .mpg suodinta';
-$string['mediapluginram'] = 'Kaytä .ram suodinta';
-$string['mediapluginrm'] = 'Kaytä .rm suodinta';
-$string['mediapluginrpm'] = 'Kaytä .rpm suodinta';
-$string['mediapluginswf'] = 'Kaytä .swf suodinta';
-$string['nolangupdateneeded'] = 'Kaikki käännöspaketit ovat ajantasalla, päivtystä ei tarvita';
+$string['mediapluginavi'] = 'Käytä .avi suodinta';
+$string['mediapluginflv'] = 'Käytä .flv suodinta';
+$string['mediapluginmov'] = 'Käytä .mov suodinta';
+$string['mediapluginmp3'] = 'Käytä .mp3 suodinta';
+$string['mediapluginmpg'] = 'Käytä .mpg suodinta';
+$string['mediapluginram'] = 'Käytä .ram suodinta';
+$string['mediapluginrm'] = 'Käytä .rm suodinta';
+$string['mediapluginrpm'] = 'Käytä .rpm suodinta';
+$string['mediapluginswf'] = 'Käytä .swf suodinta';
+$string['nolangupdateneeded'] = 'Kaikki käännöspaketit ovat ajan tasalla, päivtystä ei tarvita';
 $string['optionalmaintenancemessage'] = 'Valinnainen ylläpitoviesti';
 $string['order1'] = 'Ensimmäinen';
 $string['order2'] = 'Toinen';
@@ -186,9 +186,9 @@ $string['updateaccounts'] = 'Päivitä olemassa olevat tilit';
 $string['updatecomponent'] = 'Päivitä komponentti';
 $string['updatelangs'] = 'Päivitä kaikki paikalliset käännöspaketit';
 $string['upgradeforumread'] = 'Moodle 1.5een on lisätty uusi ominaisuus, jolla voidaan seurata luettuja ja lukemattomia viestejä keskustelupalstoilla. .<br />Käyttääksesi tätä ominaisuutta sinun pitää <a href=\"$a\">päivittää taulukkosi</a>.';
-$string['upgradeforumreadinfo'] = 'Moodle 1.5een on lisätty uusi ominaisuus, jolla voidaan seurata luettuja ja lukemattomia viestejä keskustelupalstoilla. Käyttääksesi tätä ominaisuutta sinun pitää päivittää taulukkosi kaikella seurantatiedolla, joka liittyy olemassaoleviin viesteihin. Riippuen sivustosi koosta tähän voi mennä kauan (tunteja) ja olla varsin vaativaa tietokannallesi, joten päivittäminen on parasta tehdä hiljaisena aikana. Päivitys ei kuitenkaan vaikuta sivustosi toimintaan, eikä sillä ole vaikutuksia käyttäjiisi. Kun aloitat päivityksen, anna sen tulla valmiiksi, äläkä siis sulje sel<br /><br />Do you want to start the upgrading process now?aimen ikkunaa. Jos kuitenkin pysäytät päivityksen sulkemalla selainikkunan, älä huolehdi, päivityksen voi aloittaa uudelleen. <br /><br />Haluatko aloittaa päivityksen nyt?';
+$string['upgradeforumreadinfo'] = 'Moodle 1.5een on lisätty uusi ominaisuus, jolla voidaan seurata luettuja ja lukemattomia viestejä keskustelupalstoilla. Käyttääksesi tätä ominaisuutta sinun pitää päivittää taulukkosi kaikella seurantatiedolla, joka liittyy olemassa oleviin viesteihin. Riippuen sivustosi koosta tähän voi mennä kauan (tunteja) ja olla varsin vaativaa tietokannallesi, joten päivittäminen on parasta tehdä hiljaisena aikana. Päivitys ei kuitenkaan vaikuta sivustosi toimintaan, eikä sillä ole vaikutuksia käyttäjiisi. Kun aloitat päivityksen, anna sen tulla valmiiksi, äläkä siis sulje sel<br /><br />Do you want to start the upgrading process now?aimen ikkunaa. Jos kuitenkin pysäytät päivityksen sulkemalla selainikkunan, älä huolehdi, päivityksen voi aloittaa uudelleen. <br /><br />Haluatko aloittaa päivityksen nyt?';
 $string['upgradelogs'] = 'Tapahtumalokien sisällöt pitää päivittää uuteen muotoon. <a href=\"$a\">Lisätietoja</a>';
-$string['upgradelogsinfo'] = 'Tapahtumalokien tallennuksessa on tapahtunut muutoksia. Jotta voisit tarkastella lokeja uudella tavalla, vanhat lokimerkinnät pitää päivittää uuteen muotoon. Tämä tapahtuu automaattisesti eikä häiritse sivustosi muuta käyttöä. Riippuen sivustosi koosta tähän saattaa kuitenkin mennä aikaa jopa useita tunteja. Kun aloitat päivityksen, pitää se antaan mennä loppuun asti keskeyttämättä.
+$string['upgradelogsinfo'] = 'Tapahtumalokien tallennuksessa on tapahtunut muutoksia. Jotta voisit tarkastella lokeja uudella tavalla, vanhat lokimerkinnät pitää päivittää uuteen muotoon. Tämä tapahtuu automaattisesti eikä häiritse sivustosi muuta käyttöä. Riippuen sivustosi koosta tähän saattaa kuitenkin mennä aikaa jopa useita tunteja. Kun aloitat päivityksen, pitää se antaa mennä loppuun asti keskeyttämättä.
 <br /><br />
 Haluatko päivittää lokit nyt?';
 $string['upgradesure'] = 'Moodlen asennustiedostot ovat muuttuneet, järjestelmä tullaan päivittämään uuteen versioon automaattisesti. Uusi version on:
@@ -200,8 +200,8 @@ $string['upgradinglogs'] = 'Päivitetään tapahtumalokeja';
 $string['upwards'] = 'ylöspäin';
 $string['useraccountupdated'] = 'Käyttäjä päivitetty';
 $string['userrenamed'] = 'Käyttäjä nimetty';
-$string['userscreated'] = 'Kayttäjä luotu';
+$string['userscreated'] = 'Käyttäjä luotu';
 $string['usersrenamed'] = 'Käyttäjät nimetty';
-$string['usersupdated'] = 'Kayttäjät päivitetty';
+$string['usersupdated'] = 'Käyttäjät päivitetty';
 
 ?>

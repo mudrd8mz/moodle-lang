@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // chat.php - created with Moodle 1.5.2 + (2005060222)
 
 
@@ -7,7 +7,7 @@ $string['chatintro'] = 'Johdanto';
 $string['chatname'] = 'Chat-huoneen nimi';
 $string['chatreport'] = 'Chat-istunnot';
 $string['chattime'] = 'Seuraavan chat-istunnon aika';
-$string['configmethod'] = 'Normaalisti chatin toiminta vaatii selaimen ottavan yhteyttä säännöllisesti palvelimeen. Tämä toimii kaikkialla ja eikä vaadi asetuksia, mutta saattaa samalla aiheuttaa kuormitusta palvelimelle. Chat-palvelu vaatii unix-komentorivin käyttömahdollisuuden mutta skaalaantuu paremmin laajempaan käyttöön.';
+$string['configmethod'] = 'Normaalisti chatin toiminta vaatii selaimen ottavan yhteyttä säännöllisesti palvelimeen. Tämä toimii kaikkialla ja eikä vaadi asetuksia, mutta saattaa samalla aiheuttaa kuormitusta palvelimelle. Chat-palvelu vaatii unix-komentorivin käyttömahdollisuuden mutta skaalautuu paremmin laajempaan käyttöön.';
 $string['configoldping'] = 'Kuinka pitkän ajan kuluttua käyttäjä katsotaan poistuneeksi siitä, kun hänestä ei ole kuulunut mitään?';
 $string['configrefreshroom'] = 'Kuinka usein chat-huone päivitetään (sekunteina)? Mitä lyhyempi aika, sen \"nopeampi\" huone on, mutta serverin kuormitus on silloin suurempi, kun monta käyttäjää on huoneessa samaan aikaan.';
 $string['configrefreshuserlist'] = 'Kuinka nopeasti käyttäjälista päivitetään (sekunteina)';

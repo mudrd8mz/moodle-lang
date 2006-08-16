@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // block_quiz_results.php - created with Moodle 1.6.1+ (2006050511)
 
 
@@ -12,7 +12,7 @@ $string['config_grade_format'] = 'Näytä arvosanat:';
 $string['config_names_anon'] = 'Anonyymit tulokset';
 $string['config_names_full'] = 'Näytä nimet';
 $string['config_names_id'] = 'Näytä vain ID numerot';
-$string['config_no_quizzes_in_course'] = 'Lisää kursille \"Tentti\" jotta voisit käyttää tätä lohkoa.';
+$string['config_no_quizzes_in_course'] = 'Lisää kurssille \"Tentti\" jotta voisit käyttää tätä lohkoa.';
 $string['config_select_quiz'] = 'Minkä tentin tulokset näytetään tässä lohkossa?';
 $string['config_show_best'] = 'Montako ylintä arvosanaa näytetään (0 poistaa  arvosanojen näytön))?';
 $string['config_show_worst'] = 'Montako alinta arvosanaa näytetään (0 poistaa  arvosanojen näytön))?';

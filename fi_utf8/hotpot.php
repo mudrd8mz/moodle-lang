@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // hotpot.php - created with Moodle 1.5.2 + (2005060222)
 
 
@@ -18,7 +18,7 @@ $string['deletedattempts'] = '$a vastausyritystä poistettiin';
 $string['deletedresponses'] = '$a vastausta poistettiin';
 $string['enterafilename'] = 'Kirjoita tiedoston nimi';
 $string['filetype'] = 'Tiedoston tyyppi';
-$string['forceplugins'] = 'Käytä medialajennuksia';
+$string['forceplugins'] = 'Käytä medialaajennuksia';
 $string['giveup'] = 'Luovuta';
 $string['hints'] = 'Vihjeet';
 $string['ignored'] = 'Jätä huomiotta';

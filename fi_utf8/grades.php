@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // grades.php - created with Moodle 1.6.1+ (2006050511)
 
 
@@ -12,7 +12,7 @@ $string['bonuspoints'] = 'Lisäpisteet';
 $string['categories'] = 'Kategoriat';
 $string['category'] = 'Kategoria';
 $string['choosecategory'] = 'Valitse kategoria';
-$string['creatinggradebooksettings'] = 'Luodaan arviontikirjan asetukset';
+$string['creatinggradebooksettings'] = 'Luodaan arviointikirjan asetukset';
 $string['deletecategory'] = 'Poista kategoria';
 $string['displaylettergrade'] = 'Näytä arvosana kirjain';
 $string['displaypercent'] = 'Näytä prosentit';
@@ -22,7 +22,7 @@ $string['dropped'] = 'Tiputettu';
 $string['dropxlowest'] = 'Tiputa X alinta';
 $string['dropxlowestwarning'] = 'Huomioi: Jos käytät ´Tiputa X alinta´-asetusta, arvostelu olettaa että kaikkien pisteiden arvo on sama. Jos pisteiden arvo vaihtelee, voivat tulokset olla vääriä';
 $string['errorgradevaluenonnumeric'] = 'Saatiin ei-numeerinen arvo matalalle tai korkealle arvosanalle seuravalle';
-$string['errornocategorizedid'] = 'Ei saatu kategoroimatonta id:tä!';
+$string['errornocategorizedid'] = 'Ei saatu kategorioimatonta id:tä!';
 $string['errornocourse'] = 'Ei voitu noutaa kurssitietoja';
 $string['exceptions'] = 'Poikkeukset';
 $string['excluded'] = 'Jätetty pois';
@@ -42,7 +42,7 @@ $string['gradeitemnonmembers'] = 'Mukana arvostelussa';
 $string['gradeitemremovemembers'] = 'Ota mukaan arvosteluun';
 $string['gradeitems'] = 'Arvostelukohteet';
 $string['gradeletter'] = 'Arvosanan merkki';
-$string['gradeletterhelp'] = 'Apua arvosanojen merkintöihn';
+$string['gradeletterhelp'] = 'Apua arvosanojen merkintöihin';
 $string['gradeletternote'] = 'Poistaaksesi arvosanakirjaimen sinun tarvitsee vain  tyhjentää jokin sen arvosanakirjaimen kolmesta tekstialueesta ja napsauttaa lähetyspainiketta.';
 $string['gradepreferenceshelp'] = 'Apua arvosanojen asetuksiin';
 $string['grades'] = 'Arvosanat';
@@ -66,11 +66,11 @@ $string['median'] = 'Mediaani';
 $string['min'] = 'Matalin';
 $string['mode'] = 'Tila';
 $string['no'] = 'Ei';
-$string['nocategories'] = 'Arvosanakategoroita ei voitu lisätä tai löytää tätä kurssia varten';
+$string['nocategories'] = 'Arvosanakategorioita ei voitu lisätä tai löytää tätä kurssia varten';
 $string['nocategoryview'] = 'Ei kategorioita katsottavaksi';
 $string['nogradeletters'] = 'Arvosanamerkintöjä ei asetettu';
 $string['nogradesreturned'] = 'Ei tuotu arvosanoja';
-$string['nolettergrade'] = 'Ei arvosanamerkintää seuravalle';
+$string['nolettergrade'] = 'Ei arvosanamerkintää seuraavalle';
 $string['nonnumericweight'] = 'Saatiin ei-numeerinen arvo seuraavalle';
 $string['nonweightedpct'] = 'Painottamaton %%';
 $string['pctoftotalgrade'] = 'prosenttia kokonaisarvosanasta';
@@ -105,7 +105,7 @@ $string['student'] = 'Oppilas';
 $string['total'] = 'Kokonaistulos';
 $string['totalweight100'] = 'Kokonaispainotus on yhteensä 100';
 $string['totalweightnot100'] = 'Kokonaispainotus ei ole yhteensä 100';
-$string['uncategorised'] = 'Kategoroimaton';
+$string['uncategorised'] = 'Kategorioimaton';
 $string['useadvanced'] = 'Näytä kehittyneet ominaisuudet';
 $string['usepercent'] = 'Käytä prosenttia';
 $string['useweighted'] = 'Käytä painotusta';
@@ -113,7 +113,7 @@ $string['viewbygroup'] = 'Ryhmä';
 $string['viewgrades'] = 'Näytä arvosanat';
 $string['weight'] = 'Painotus';
 $string['weightedascending'] = 'Lajittele nousevasti painotetun prosenti mukaan';
-$string['weighteddescending'] = 'Lajittele laskevasti painotetun prosenti mukaan';
+$string['weighteddescending'] = 'Lajittele laskevasti painotetun prosenttin mukaan';
 $string['weightedpct'] = 'painotettu %%';
 $string['weightedpctcontribution'] = 'painotettu %%-jakauma';
 $string['writinggradebookinfo'] = 'Kirjoitetaan arviointikirjan asetuksia';

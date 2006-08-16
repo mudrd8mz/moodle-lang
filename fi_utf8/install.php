@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // install.php - created with Moodle 1.5.2 + (2005060222)
 
 
@@ -14,7 +14,7 @@ $string['configfilenotwritten'] = 'Asennus ei pystynyt luomaan automaattisesti c
 $string['configfilewritten'] = 'config.php on luotu.';
 $string['configurationcomplete'] = 'Asetukset suoritettu';
 $string['database'] = 'Tietokanta';
-$string['databasecreationsettings'] = 'Nyt sinun täytyy asettaa assetukset tietokannalle, johon suurin osa Moodlen tiedoista tallennetaan. Moodle4Windows-asennusohjelma luo tietokannan automaattisesti käyttäen asetuksia, jotka on kerrottu alla.<br />
+$string['databasecreationsettings'] = 'Nyt sinun täytyy asettaa asetukset tietokannalle, johon suurin osa Moodlen tiedoista tallennetaan. Moodle4Windows-asennusohjelma luo tietokannan automaattisesti käyttäen asetuksia, jotka on kerrottu alla.<br />
  <br /> <br />
 <b>Type:</b> asennusohjelma asettaa asetusarvoksi \"mysql\"<br />
 <b>Host:</b> asennusohjelma asettaa asetusarvoksi \"localhost\"<br />
@@ -32,7 +32,7 @@ $string['databasesettings'] = 'Nyt sinun täytyy valita tietokanta missä suurin
 <b>Taulukon etuliite:</b> omavalintainen etuliite jota käytetään kaikissa taulukoissa ';
 $string['dataroot'] = 'Datahakemisto';
 $string['datarooterror'] = '\"Datahakemistoa\", jonka määrittelit, ei voitu löytää, eikä luoda. Joko korjaa polku, tai luo hakemisto manuaalisesti.';
-$string['dbconnectionerror'] = 'Emme pystyneet kytkeytymään tiedokantaan, jonka määrittelit. Tarkista tietokanta asetuksesi.';
+$string['dbconnectionerror'] = 'Emme pystyneet kytkeytymään tietokantaan, jonka määrittelit. Tarkista tietokanta asetuksesi.';
 $string['dbcreationerror'] = 'Tietokannan luomisvirhe. Ei pystytty luomaan annettua tietokannan nimeä tarjotuilla asetuksilla.';
 $string['dbhost'] = 'Palvelin';
 $string['dbpass'] = 'Salasana';
@@ -50,7 +50,7 @@ Määritä koko hakemistopolku tähän asennukseen. Varmista, että isot/pienet 
 <p><b>Data hakemisto:</b>
 Tarvitset paikan, jonne Moodle voi tallentaa ladatut tiedostot. Tämän hakemiston pitäisi olla luettavissa ja kirjoitettavissa web palvelin käyttäjän taholta (usein \"nobody\" tai \"apache\"), mutta sen ei pitäisi olla käytettävissä suoraan web:in kautta.</p>';
 $string['dirroot'] = 'Moodle hakemisto';
-$string['dirrooterror'] = '\"Moodle hakemisto\" asetus näyttäisi olevan väärä-emme voi löytää Moodle asennusta sieltä. Arvo alapuolella on nollattu.';
+$string['dirrooterror'] = '\"Moodle hakemisto\" asetus näyttäisi olevan väärin - emme voi löytää Moodle asennusta sieltä. Arvo alapuolella on nollattu.';
 $string['download'] = 'Lataus';
 $string['fail'] = 'Virhe';
 $string['fileuploads'] = 'Tiedostojen lähettäminen';

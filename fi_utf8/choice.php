@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // choice.php - created with Moodle 1.5.2 + (2005060222)
 
 
@@ -21,7 +21,7 @@ $string['modulename'] = 'Monivalinta';
 $string['modulenameplural'] = 'Monivalinnat';
 $string['mustchooseone'] = 'Sinun pitää valita vastaus ennen tallennusta. Tallennusta ei tehty.';
 $string['notanswered'] = 'Vastaamatta';
-$string['notopenyet'] = 'Pahus, tämä aktiviteetti ei ole saativilla ennen kuin $a';
+$string['notopenyet'] = 'Pahus, tämä aktiviteetti ei ole saatavilla ennen kuin $a';
 $string['privacy'] = 'Tulosten suojaus';
 $string['publish'] = 'Julkaise tulokset';
 $string['publishafteranswer'] = 'Näytä tulokset oppilaalle vastaamisen jälkeen';
