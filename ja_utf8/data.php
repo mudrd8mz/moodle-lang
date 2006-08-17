@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006081000)
+      // data.php - created with Moodle 1.7 dev (2006081700)
 
 
 $string['action'] = '操作';
@@ -91,7 +91,8 @@ $string['forcelinkname'] = '強制リンク名';
 $string['fromfile'] = 'ZIPファイルから';
 $string['header'] = 'ヘッダ';
 $string['headeraddtemplate'] = 'エントリ編集用のインターフェース定義';
-$string['headercsstemplate'] = '他のテンプレートのローカルCSSスタイル定義';
+$string['headercsstemplate'] = '他のテンプレート用のローカルCSSスタイル定義';
+$string['headerjstemplate'] = '他のテンプレート用のカスタムJavaスクリプト定義';
 $string['headerlisttemplate'] = '一覧表示用のインターフェース定義';
 $string['headerrsstemplate'] = 'RSSフィードエントリの概観定義';
 $string['headersingletemplate'] = '個別表示用のインターフェース定義';
@@ -100,6 +101,7 @@ $string['insufficiententries'] = 'このデータベースを見るには、更�
 $string['intro'] = 'イントロダクション';
 $string['invalidfieldname'] = 'このフィールドに他の名称を選択してください。';
 $string['invalidurl'] = '入力されたURLが正しくありません。';
+$string['jstemplate'] = 'Javaスクリプトテンプレート';
 $string['latitude'] = '経度';
 $string['latlong'] = '緯度/経度';
 $string['latlongdownloadallhint'] = 'すべてのエントリのリンクをKMLとしてダウンロードする';
