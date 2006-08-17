@@ -137,6 +137,7 @@ $string['optionalfilename'] = 'Fichier (facultatif)';
 $string['pagesize'] = 'Fiches par page';
 $string['participants'] = 'Participants';
 $string['picture'] = 'Image';
+$string['pleaseaddsome'] = 'Veuillez en créer maintenant ou <a href=\"$a\">choisir un préréglage disponible</a>.';
 $string['radiobutton'] = 'Boutons radio';
 $string['rate'] = 'Note';
 $string['rating'] = 'Évaluation';
@@ -181,5 +182,27 @@ $string['uploadrecords'] = 'Importer des fiches à partir d\'un fichier';
 $string['url'] = 'URL';
 $string['viewfromdate'] = 'Consultable du';
 $string['viewtodate'] = 'Consultable jusqu\'au';
+
+$string['presets'] = 'Préréglages';
+$string['exportaszip'] = 'Exporter en zip';
+$string['exportedtozip'] = 'Exporté vers un zip temporaire...';
+$string['saveaspreset'] = 'Enregistrer en tant que préréglage';
+$string['export'] = 'Exporter';
+$string['fromfile'] = 'à partir d\'un fichier zip';
+$string['usestandard'] = 'utiliser un préréglage';
+$string['chooseorupload'] = 'Sélectionner un fichier';
+$string['fieldmappings'] = 'Correspondances des champs';
+$string['mappingwarning'] = 'Les anciens champs qui ne sont pas mis en correspondance avec un nouveau champ seront perdus, ainsi que toutes les données qu\'ils contiennent.';
+$string['blank'] = 'Vide';
+
+$string['presetwarning'] = 'L\'enregistrement en tant que préréglage publie ce modèle sur tout le site. Tous les utilisateurs pourront l\'utiliser dans leurs bases de données.';
+$string['deletewarning'] = 'Vouslez-vous vraiment supprimer ce préréglage ?';
+$string['importsuccess'] = 'Le préréglage a été mis en place correctement.';
+$string['addentries'] = 'Ajouter des fiches';
+$string['todatabase'] = 'à cette base de données.';
+$string['savesuccess'] = 'Enregistrement réussi. Votre préréglage est maintenant disponible sur tout le site.';
+$string['overwrite'] = 'Écraser';
+
+$string['download'] = 'Télécharger';
 
 ?>
