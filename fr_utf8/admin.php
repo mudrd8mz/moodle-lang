@@ -2,15 +2,15 @@
 
 // begin {added with admin cleanup}
 $string['userinterface'] = 'Interface utilisateur';
-$string['serverinterface'] = 'InterfaceServer Interface';
+$string['serverinterface'] = 'Interface serveur';
 $string['authenticationandsecurity'] = 'Authentification et sécurité';
-$string['maintenanceandauditing'] = 'Maintenance et rapports';
+$string['maintenanceandauditing'] = 'Maintenance et contrôle';
 $string['courses'] = 'Cours';
 
 $string['languageandlocation'] = 'Langue et lieu';
 $string['htmleditor'] = 'Éditeur WYSIWYG';
 $string['misc'] = 'Divers';
-$string['filtersettings'] = 'Filtres';
+$string['filtersettings'] = 'Réglages filtres';
 $string['generalsettings'] = 'Réglages généraux';
 $string['frontpage'] = 'Page d\'accueil';
 $string['systempaths'] = 'Chemins système';
@@ -20,8 +20,8 @@ $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'Sécurité HTTP';
 $string['modulesecurity'] = 'Sécurité modules';
 $string['notifications'] = 'Notifications';
-$string['sitepolicies'] = 'Conventions du site';
-$string['userpolicies'] = 'Conventions utilisateurs';
+$string['sitepolicies'] = 'Règles site';
+$string['userpolicies'] = 'Règles utilisateurs';
 $string['antivirus'] = 'Anti-virus';
 $string['authentication'] = 'Authentification';
 $string['performanceandstats'] = 'Performance et statistiques';
