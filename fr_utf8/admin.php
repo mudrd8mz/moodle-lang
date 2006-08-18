@@ -1,5 +1,35 @@
 <?php // $Id$
 
+// begin {added with admin cleanup}
+$string['userinterface'] = 'Interface utilisateur';
+$string['serverinterface'] = 'InterfaceServer Interface';
+$string['authenticationandsecurity'] = 'Authentification et sécurité';
+$string['maintenanceandauditing'] = 'Maintenance et rapports';
+$string['courses'] = 'Cours';
+
+$string['languageandlocation'] = 'Langue et lieu';
+$string['htmleditor'] = 'Éditeur WYSIWYG';
+$string['misc'] = 'Divers';
+$string['filtersettings'] = 'Filtres';
+$string['generalsettings'] = 'Réglages généraux';
+$string['frontpage'] = 'Page d\'accueil';
+$string['systempaths'] = 'Chemins système';
+$string['mail'] = 'Courriel';
+$string['sessionhandling'] = 'Gestion des sessions';
+$string['http'] = 'HTTP';
+$string['httpsecurity'] = 'Sécurité HTTP';
+$string['modulesecurity'] = 'Sécurité modules';
+$string['notifications'] = 'Notifications';
+$string['sitepolicies'] = 'Conventions du site';
+$string['userpolicies'] = 'Conventions utilisateurs';
+$string['antivirus'] = 'Anti-virus';
+$string['authentication'] = 'Authentification';
+$string['performanceandstats'] = 'Performance et statistiques';
+$string['backups'] = 'Sauvegardes';
+$string['courserequests'] = 'Demandes de cours';
+// end {added with admin cleanup}
+
+
 $string['adminseesallevents'] = 'Les administrateurs voient tous les événements';
 $string['adminseesownevents'] = 'Les administrateurs sont comme tous les autres utilisateurs';
 $string['allowrenames'] = 'Permettre de changer les noms';
