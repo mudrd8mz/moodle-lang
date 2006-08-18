@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // glossary.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['addcomment'] = '덧글 쓰기';
@@ -105,6 +105,17 @@ $string['fillfields'] = '필수적으로 채워넣어야 하는 항목';
 $string['filtername'] = '자료집 자동 링크';
 $string['fullmatch'] = '완전히 일치하는 단어만';
 $string['globalglossary'] = '공용 자료집';
+$string['glossary:approve'] = '승인받지 못했던 내용 승인';
+$string['glossary:comment'] = '논평 생성';
+$string['glossary:export'] = '입력내용 내보내기';
+$string['glossary:import'] = '입력내용 가져오기';
+$string['glossary:managecategories'] = '범주 관리';
+$string['glossary:managecomments'] = '논평 관리';
+$string['glossary:manageentries'] = '입력내용 관리';
+$string['glossary:rate'] = '입력내용 등수 매기기';
+$string['glossary:view'] = '용어집 보기';
+$string['glossary:viewrating'] = '등위 보기';
+$string['glossary:write'] = '새 로 입력';
 $string['glossaryleveldefaultsettings'] = '어휘수준의초기설정';
 $string['glossarytype'] = '자료집 유형';
 $string['importcategories'] = '항목 가져오기';
@@ -115,8 +126,8 @@ $string['isglobal'] = '이 자료집은 공용인가요?';
 $string['linkcategory'] = '이 범주로 자동 링크됨';
 $string['mainglossary'] = '주 자료집';
 $string['maxtimehaspassed'] = '죄송합니다만, 수정할 수 있는 횟수($a)를 초과하였습니다!';
-$string['modulename'] = '인터넷 사전';
-$string['modulenameplural'] = '자료집들';
+$string['modulename'] = '자료집';
+$string['modulenameplural'] = '자료집';
 $string['newentries'] = '새 자료 항목';
 $string['newglossary'] = '새로운 자료집';
 $string['newglossarycreated'] = '새로운 자료집이 생성됨';

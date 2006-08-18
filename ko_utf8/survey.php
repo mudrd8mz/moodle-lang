@@ -1,5 +1,5 @@
-<?PHP // $Id$
-
+<?PHP // $Id$ 
+      // survey.php - created with Moodle 1.7 dev (2006081000)
 
 
 $string['actual'] = '실적';
@@ -8,7 +8,7 @@ $string['actualstudent'] = '$a 실적';
 $string['allquestions'] = '모든 질문들을 순서대로, 모든 학생들에게';
 $string['allscales'] = '모든 등급들, 모든 학생들';
 $string['alreadysubmitted'] = '너는 이미 이 조사에 응답하였다.';
-$string['analysisof'] = ' $a 의 분석';
+$string['analysisof'] = '$a 의 분석';
 $string['answers'] = '대답';
 $string['attls1'] = '평가에서 나는 그것을 표현하는 사람이 아니라 그들의 주장의 질에 초점을 두겠다.';
 $string['attls10'] = '무언가를 분석할 때에는 가능한한 객관적인 입장에 서는 것이 나에게는 중요합니다.';
@@ -97,40 +97,40 @@ $string['colles1short'] = '흥미있는 일에 집중하시오';
 $string['colles2'] = '내가 배운것은 나의 교수 연습을 위해 중요하다';
 $string['colles20'] = '다른 학생들은 배우기 위한 노력에 공감한다.';
 $string['colles20short'] = '학생들이 열정이 있습니다';
-$string['colles21'] = '나는 다른 학생들의 이야기들을 잘 이해한다. ';
+$string['colles21'] = '나는 다른 학생들의 이야기들을 잘 이해한다.';
 $string['colles21short'] = '다른 학생들을 이해합니다';
-$string['colles22'] = '다른 학생들은 자신들의 이야기를 잘 이해한다. ';
+$string['colles22'] = '다른 학생들은 자신들의 이야기를 잘 이해한다.';
 $string['colles22short'] = '다른 학생들아 나를 이해합니다';
-$string['colles23'] = '나는 선생님의 이야기를 잘 이해한다. ';
-$string['colles23short'] = '나는 선생님을 이해한다. ';
-$string['colles24'] = '선생님은 자신들의 이야기를 잘 이해한다. ';
-$string['colles24short'] = '선생님은 나를 이해한다. ';
+$string['colles23'] = '나는 선생님의 이야기를 잘 이해한다.';
+$string['colles23short'] = '나는 선생님을 이해한다.';
+$string['colles24'] = '선생님은 자신들의 이야기를 잘 이해한다.';
+$string['colles24short'] = '선생님은 나를 이해한다.';
 $string['colles2short'] = '중요한 나의 실행';
 $string['colles3'] = '나는 나의 전문적인 실행을 향상하는 법을 배운다.';
 $string['colles3short'] = '나의';
-$string['colles4'] = '내가 배우는 것은 나의 전문적인 실행으로 잘 연결해 준다. ';
-$string['colles4short'] = '나의 실행으로 연결한다. ';
-$string['colles5'] = '나는 어떻게 내가 배우는 지에 관해 비판적으로 생각한다. ';
-$string['colles5short'] = '나는 나의 학문에 비판적이다. ';
-$string['colles6'] = '나는 나만의 생각에 대해 비판적으로 생각한다. ';
-$string['colles6short'] = '나는 나만의 생각에 비판적이다. ';
-$string['colles7'] = '나는 다른 학생들의 생각에 대해 비판적으로 생각한다. ';
-$string['colles7short'] = '나는 다른 학생들에게 비판적이다. ';
+$string['colles4'] = '내가 배우는 것은 나의 전문적인 실행으로 잘 연결해 준다.';
+$string['colles4short'] = '나의 실행으로 연결한다.';
+$string['colles5'] = '나는 어떻게 내가 배우는 지에 관해 비판적으로 생각한다.';
+$string['colles5short'] = '나는 나의 학문에 비판적이다.';
+$string['colles6'] = '나는 나만의 생각에 대해 비판적으로 생각한다.';
+$string['colles6short'] = '나는 나만의 생각에 비판적이다.';
+$string['colles7'] = '나는 다른 학생들의 생각에 대해 비판적으로 생각한다.';
+$string['colles7short'] = '나는 다른 학생들에게 비판적이다.';
 $string['colles8'] = '나는 독서시 그 생각들에 대해 비판적으로 생각한다.';
-$string['colles8short'] = '나는 독서를 비판적으로 한다. ';
-$string['colles9'] = '나는 다른 학생들에게 나의 생각들을 설명한다. ';
-$string['colles9short'] = '나는 나의 생각들을 설명한다. ';
+$string['colles8short'] = '나는 독서를 비판적으로 한다.';
+$string['colles9'] = '나는 다른 학생들에게 나의 생각들을 설명한다.';
+$string['colles9short'] = '나는 나의 생각들을 설명한다.';
 $string['collesaintro'] = '이 조사의 목적은 이 단원을 배우는데 있어 우리들이 온라인 송신을 잘 이해하는 것을 도와주는 데 있습니다.
 
 아래의 각각 24개의 문항은 이 단원에서의 당신의 경험을 묻고있습니다.
 
-답에는 맞고 틀림이 없으며, 오직 당신의 의견에 관심을 두고 있습니다. 당신의 응답은 완벽하게 비밀을 보장될것을 약속드리며, 이 응답들은 당신의 성적에 전혀 영향을 미치지 않을것입니다. ';
-$string['collesaname'] = '사실상';
+답에는 맞고 틀림이 없으며, 오직 당신의 의견에 관심을 두고 있습니다. 당신의 응답은 완벽하게 비밀을 보장될것을 약속드리며, 이 응답들은 당신의 성적에 전혀 영향을 미치지 않을것입니다.';
+$string['collesaname'] = 'COLLES';
 $string['collesapintro'] = '이 질문사항의 목적은 이 단원을 배우는데 있어 우리들이 온라인 송신을 잘 이해하는 것을 도와주는 데 있습니다.
 
 아래의 각각 24개의 문항은 이 단원에서 당신의 우선권(이상)과 실제상의 경험을 비교하는 것을 묻고있습니다.
 
-답에는 맞고 틀림이 없으며, 오직 당신의 의견에 관심을 두고 있습니다. 당신의 응답은 철저하게 비밀을 보장될것을 약속드리며, 이 응답들은 당신의 성적에 전혀 영향을 미치지 않을것입니다. ';
+답에는 맞고 틀림이 없으며, 오직 당신의 의견에 관심을 두고 있습니다. 당신의 응답은 철저하게 비밀을 보장될것을 약속드리며, 이 응답들은 당신의 성적에 전혀 영향을 미치지 않을것입니다.';
 $string['collesapname'] = '우선적으로 그리고 사실상';
 $string['collesm1'] = '적합성';
 $string['collesm1short'] = '적합성';
@@ -167,7 +167,7 @@ $string['ifoundthat'] = '을 발견하다.';
 $string['introtext'] = '소개글';
 $string['ipreferthat'] = '을 더 좋아하다.';
 $string['modulename'] = '조사';
-$string['modulenameplural'] = '조사';
+$string['modulenameplural'] = '설문조사';
 $string['name'] = '이름';
 $string['newsurveyresponses'] = '새 조사 응답';
 $string['nobodyyet'] = '아무도 이 조사를 아직 끝마치지 않았습니다.';
@@ -183,17 +183,21 @@ $string['questions'] = '질문들';
 $string['questionsnotanswered'] = '몇몇의 선택형 질문들이 답해지지 않았습니다.';
 $string['report'] = '조사 리포트';
 $string['savednotes'] = '저장되었습니다.';
-$string['scaleagree5'] = '전적으로 동의하지 않음, 조금 동의하지 않음, 중립, 조금 동의함, 전적으로 동의함. ';
+$string['scaleagree5'] = '전적으로 동의하지 않음, 조금 동의하지 않음, 중립, 조금 동의함, 전적으로 동의함.';
 $string['scales'] = '등급';
 $string['scaletimes5'] = '전혀, 아주가끔, 가끔, 종종, 매번';
 $string['seemoredetail'] = '더 많은 정보를 보기 원하시면 이곳을 클릭하시오.';
-$string['selectedquestions'] = '모든학생들은 등급에 따라 질문을 선택하십시오.';
+$string['selectedquestions'] = '모든 학생들은 등급에 따라 질문을 선택하십시오.';
 $string['summary'] = '요약';
-$string['surveycompleted'] = '당신은 이미 이것을 끝마쳤습니다. 밑에 보이는 그래프는 평균 점수에 관한 당신의 결과를 요약적으로 보여주는 것 입니다. ';
+$string['survey:download'] = '설문응답을 내려받음';
+$string['survey:participate'] = '설문에 응답';
+$string['survey:readresponses'] = '응답을 봄';
+$string['surveycompleted'] = '당신은 이미 이것을 끝마쳤습니다. 밑에 보이는 그래프는 평균 점수에 관한 당신의 결과를 요약적으로 보여주는 것 입니다.';
 $string['surveyname'] = '조사 이름';
 $string['surveysaved'] = '조사가 저장되었음';
 $string['surveytype'] = '조사 유형';
-$string['thanksforanswers'] = '조사에 응답해 주셔서 감사합니다.';
+$string['thanksforanswers'] = '$a 님, 조사에 응답해 주셔서 감사합니다.';
 $string['time'] = '시간';
-$string['viewsurveyresponses'] = '견해 $a 조사 응답';
+$string['viewsurveyresponses'] = '$a 조사 응답 열람';
+
 ?>

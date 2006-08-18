@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 Beta 3 (2006042400)
+      // blog.php - created with Moodle 1.6 + (2006050506)
 
 
 $string['addnewentry'] = '새 게시물 추가';
@@ -19,6 +19,7 @@ $string['disableblogs'] = '블로그 시스템 비 활성화';
 $string['entrybody'] = '블로그 게시물 내용';
 $string['entrybodyonlydesc'] = '게시물 설명';
 $string['entryerrornotyours'] = '이 게시물은 당신것이 아닙니다';
+$string['entrysaved'] = '입력사항이 저장되었습니다';
 $string['entrytitle'] = '게시물 타이틀';
 $string['entryupdated'] = '블로그 게시물이 갱신되었습니다.';
 $string['groupblog'] = '그룹 블로그: $a';

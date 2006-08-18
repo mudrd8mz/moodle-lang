@@ -1,21 +1,21 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // resource.php - created with Moodle 1.7 dev (2006081000)
 
 
-$string['addresource'] = '자원 추가';
+$string['addresource'] = '자료 추가';
 $string['back'] = '뒤로';
 $string['browserepository'] = '저장소 검색';
 $string['choose'] = '선택';
 $string['chooseafile'] = '업로드 파일 선택';
 $string['chooseparameter'] = '조건 선택';
 $string['configallowlocalfiles'] = '새로운 파일 요소를 만들었을때, CD 드라이브 또는 하드 드라이브와 같은 공간 파일 시스템의 파일 링크를 허락합니다.이것은 아마 모든 학생들이 공통의 네트워크 드라이브에 접속하거나 CD의 파일의 접속을 필요로 하는 강의실에 유용할 것입니다.';
-$string['configdefaulturl'] = 'URL 자원 추가시 기본값';
+$string['configdefaulturl'] = 'URL 자료 추가시 기본값';
 $string['configfilterexternalpages'] = '합법화하는 이 세팅은 최근의 정의된 사이트 필터(어휘사전,예시)에 의해 조작되는 모든 외부의 요소(웹 페이지,업로드된 HTML파일)들의 원인이 됩니다.';
 $string['configframesize'] = '웹 페이지나 업로드된 파일이 프레임으로 보여진다면 이 값은 프레임으로 구성된 부분의 윗부분 값(픽셀로 표시)입니다.(네이게이션을 포함하고 있습니다.)';
 $string['configparametersettings'] = '이것은 몇몇의 새로운 요소를 더할 때의 형태에서의 매개변수 배치 창에 디폴트 값을 둡니다.';
 $string['configpopup'] = '팝업창에 나타내여질 수 있는 새로운 자원값을 추가할때 디폴트 값으로 옵션이 작동되어져야 합니까?';
 $string['configpopupdirectories'] = '디폴트 값으로 팝업창의 디렉토리 링크를 나타내야 합니까?';
-$string['configpopupheight'] = '새로운 윈도우 팝업창의 디폴트 높이가 어느 정도여야 합니까?';
+$string['configpopupheight'] = '새로운 윈도우 팝업창의 기본 높이가 어느 정도여야 합니까?';
 $string['configpopuplocation'] = '디폴트 값으로 팝업창의 로케이션 바가 보여져야 합니까?';
 $string['configpopupmenubar'] = '디폴트 값으로 팝업창의 메뉴바를 나타내야 합니까?';
 $string['configpopupresizable'] = '디폴트 값으로 팝업창을 재조절 해야 합니까?';
@@ -31,14 +31,14 @@ $string['deployall'] = '모두 배치';
 $string['directlink'] = '이 파일로 직접 링크하기';
 $string['directoryinfo'] = '선택된 디렉토리의 모든 파일들이 표시될 것입니다.';
 $string['display'] = '윈도우';
-$string['editingaresource'] = '자원 편집하기';
+$string['editingaresource'] = '자료 편집하기';
 $string['emptyfolder'] = '빈 폴더';
 $string['encryptedcode'] = '암호화된 코드';
 $string['example'] = '예제';
 $string['exampleurl'] = 'http://www.mirae.es.kr/';
 $string['fetchclienterror'] = '웹 페이지를 열면서 오류가 생겼습니다.(옳바르지 않은 URL입니다.)';
 $string['fetcherror'] = '웹 페이지를 열며 오류가 생겼습니다.';
-$string['fetchservererror'] = '웹 페이지를 갱생하며 원격 서버 오류가 생겼습니다.';
+$string['fetchservererror'] = '웹 페이지를 갱신하려고 하니 원격 서버 오류가 생겼습니다.';
 $string['filename'] = '파일명';
 $string['filtername'] = '자료 이름 자동 연결';
 $string['frameifpossible'] = '보이는 사이트 네비게이션 유지 틀에 요소를 넣으십시오.';
@@ -52,8 +52,8 @@ $string['localfileinfo'] = '당신의 컴퓨터로부터 로컬 파일을 선택
 $string['localfilepath'] = '이러한 요소를 위한 당신의 길 배치는, 요소가 존재하는 당신의 컴퓨터의 드라이브(보통 CD-ROM)로부터 어떠한 파일이든 선택할 수 있습니다. 파일은 업로드되지 않을 것이지만 드라이브 정보는 저장될 것이고 다른 로컬파일 요소에 사용될것입니다.';
 $string['localfileselect'] = '이 화일경로를 선택하시오';
 $string['maindirectory'] = '주 화일 디렉토리';
-$string['modulename'] = '자원';
-$string['modulenameplural'] = '자원';
+$string['modulename'] = '자료';
+$string['modulenameplural'] = '자료제공';
 $string['navigationbuttons'] = '네비게이션 버튼들';
 $string['navigationmenu'] = '네비게이션 사이드 메뉴';
 $string['navigationup'] = '위로 버튼';
@@ -89,7 +89,8 @@ $string['preview'] = '미리보기';
 $string['previous'] = '이전';
 $string['redeploy'] = '다시 배포';
 $string['repository'] = 'IMS  저장소';
-$string['resourcetype'] = '자원의 유형';
+$string['resource:view'] = '자원 보기';
+$string['resourcetype'] = '자료의 유형';
 $string['resourcetype1'] = '출처';
 $string['resourcetype2'] = '웹 페이지';
 $string['resourcetype3'] = '업로드 파일';
