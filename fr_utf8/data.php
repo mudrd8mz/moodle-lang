@@ -205,4 +205,7 @@ $string['overwrite'] = 'Écraser';
 
 $string['download'] = 'Télécharger';
 
+$string['jstemplate'] = 'Modèle JavaScript';
+$string['headerjstemplate'] = 'Définit du code JavaScript utilisable dans les autres modèles';
+
 ?>
