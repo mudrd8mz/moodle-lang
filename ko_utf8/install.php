@@ -1,164 +1,167 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // install.php - created with Moodle 1.7 dev (2006081000)
 
 
-$string['admindirerror'] = '명시된 관리 디렉토리가 맞지 않습니다';
+$string['admindirerror'] = '지정한 관리 디렉토리가 적절치 않습니다';
 $string['admindirname'] = '관리 디렉토리';
-$string['admindirsetting'] = '간혹 웹호스트 업체는 당신이 관리 구획에 접근할 수 있도록하기 위해 특별한 URL을 사용하거나 관리한다. 불행히도 이것은 모들관리페이지를 위한 표준위치와 충돌한다. 당신은 이것을 고칠수있다. 설치과정에 적어넣은 관리 디렉토리를  새로 바꿔 적어 넣으면 된다.
+$string['admindirsetting'] = '간혹 웹호스트 업체는 당신이 관리 구획에 접근할 수 있도록하기 위해 특별한 URL을 사용하거나 관리합니다. 어떤 경우 이 위치가 무들 관리페이지와 충돌할 수도 있습니다. 이 경우 이것을 바꿔서 지정할 수 있는데, 설치과정에서 적어넣었던 관리 디렉토리를  새로 바꿔 적어 넣으면 됩니다.
 예를 들어  <br /> <br /><b>moodleadmin</b><br /> <br />
-그러면 무들에 있는 관리 링크가 고쳐질 것이다.';
+그러면 무들에 있는 관리 링크가 고쳐질 것입니다.';
 $string['admindirsettinghead'] = '관리자 디렉토리 설정 ...';
-$string['admindirsettingsub'] = '몇개의 웹사이트만이 제어판 등을 제공하는 특별한 URL으로서 /admin을 사용합니다. 불행하게도 이것은 무들 관리페이지를 위한 표준 위치와 충돌을 일으킵니다. 설치도중 admin디렉토리 이름을 바꿈으로서 이런문제를 고칠수 있습니다. 새이름을 여기에 넣을 수 있습니다. 예: <br /> <br /><b>moodleadmin</b><br /> <br /> 이렇게 하면 무들에서 관리자 링크문제가 해결됩니다.';
+$string['admindirsettingsub'] = '몇 개의 웹사이트만이 제어판 등을 제공하는 특별한 URL으로서 /admin을 사용합니다. 불행하게도 이것은 무들 관리페이지를 위한 표준 위치와 충돌을 일으킵니다. 설치과정에서 관리 디렉토리의 이름을 바꿈으로서 이 문제를 고칠수 있는 데, 다음의 예와 같이 새이름을 여기에 넣으면 됩니다. 예: <br /> <br /><b>moodleadmin</b><br /> <br /> 이렇게 하면 무들에서 관리자 링크문제가 해결됩니다.';
 $string['caution'] = '주의';
 $string['chooselanguage'] = '언어를 선택하시오';
 $string['chooselanguagehead'] = '언어를 선택하시오';
-$string['chooselanguagesub'] = '설치를 위한 언어를 선택하시오. 추후 화면에 사이트와 사용자 언어를 선택할 수 있습니다.';
+$string['chooselanguagesub'] = '설치를 위한 언어를 선택하시오. 설치를 마치고 난 후에도 사이트와 사용자들을 위한 언어팩을 가져와서 다시 바꿀 수 있습니다.';
 $string['compatibilitysettings'] = 'PHP 설정을 검사하는 중 ..';
 $string['compatibilitysettingshead'] = 'PHP 설정을 검사하는 중 ..';
-$string['compatibilitysettingssub'] = '당신의 서버는 무들이 잘 돌아가도록 하는데 필요한 모든 테스트를 통과해야 합니다.';
-$string['configfilenotwritten'] = '설치 스크립트는 당신이 선택한 설정으로 config.php파일을 자동적으로 생성할수 없습니다. 아마도 무들의 경로에 쓰기 허용이 되어 있지 않은 모양입니다.  당신은 수동적으로 다음의 코드를 무들의 루트디렉토리안의 config.php파일로 복사할수 있습니다.';
+$string['compatibilitysettingssub'] = '당신의 서버는 무들이 잘 작동되기 위한 필요한 모든 테스트를 통과해야 합니다.';
+$string['configfilenotwritten'] = '설치 스크립트는 당신이 선택한 설정으로 config.php파일을 자동적으로 생성할 수 없습니다. 아마도 무들 경로가 쓰기 허용이 되어 있지 않은 모양입니다.  당신은 수동으로 다음의 코드를 무들의 루트디렉토리안에 config.php파일로 복사해 넣을 수 있습니다.';
 $string['configfilewritten'] = '성공적으로 contig.php가 생성되었음.';
 $string['configurationcomplete'] = '초기 설정 완료';
 $string['configurationcompletehead'] = '초기 설정 완료';
-$string['configurationcompletesub'] = '무들이 당신의 무들 설치 루트디렉토리에 있는 파일에 당신의 설정을 저장하도록 시도하였습니다.';
+$string['configurationcompletesub'] = '무들이 설치 루트디렉토리에 있는 파일에 당신의 설정을 저장하도록 시도하였습니다.';
 $string['database'] = '데이타 베이스';
-$string['databasecreationsettings'] = '지금 당신은 모든 무들 데이터가 저장될 데이터 베이스를 설정할 필요가 있습니다. 이 데이터 베이스는  아래에 있는 특별한 설정의 윈도우 설치프로그램으로써 무들 프로그램에 의해 자동 설치 될것입니다.<br />
+$string['databasecreationsettings'] = '지금 당신은 모든 무들 데이터가 저장될 데이터베이스를 설정할 필요가 있습니다. 이 데이터베이스는  아래에 있는 특별한 설정의 윈도우 설치 프로그램으로써 무들 프로그램에 의해 자동설치 될 것입니다.<br />
 <br /> <br />
 <b>종류:</b> 설치프로그램에 의해 \"mysql\" 로 고정됨 <br />
 <b>호스트:</b> 설치프로그램에 의해 \"localhost\"로 고정됨<br />
 <b>이름:</b> 데이터베이스 이름, 예: moodle<br />
 <b>사용자:</b> 설치프로그램에 의해 \"root\" 로 고정됨 <br />
 <b>암호:</b> 데이터베이스 암호 <br />
-<b>테이블 첨두어:</b> 모든 테이블에 사용되는 선택적 첨두어';
-$string['databasecreationsettingshead'] = '대부분의 무들 데이터가 저장될 데이터베이스를 설정하는 것이 필요합니다. 아래에 명시된 설정대로 데이터베이스가 자동으로 설치프로그램에 의해 생성될 것입니다.';
+<b>테이블 접두어:</b> 모든 테이블에 사용되는 선택적 접두어';
+$string['databasecreationsettingshead'] = '대부분의 무들 데이터가 저장될 데이터베이스를 설정해야 합니다. 설치프로그램에 의해 자동으로 아래에 명시된 설정대로 데이터베이스가 생성될 것입니다.';
 $string['databasecreationsettingssub'] = '<b>종류:</b> 설치프로그램에 의해 \"mysql\" 로 고정됨 <br />
 <b>호스트:</b>설치프로그램에 의해 \"localhost\"로 고정됨<br />
 <b>이름:</b>데이터베이스이름, 예:moodle<br />
 <b>사용자:</b> 설치프로그램에 의해 \"root\" 로 고정됨 <br />
 <b>암호:</b> 데이터베이스 암호 <br />
-<b>테이블 첨두어:</b> 모든 테이블에 사용되는 선택적 첨두어';
-$string['databasesettings'] = '지금 당신은 대부분의 무들 정보가 저장될 데이터 베이스를 설정할 필요가 있습니다. 이 데이터베이스는 미리 생성되어있어야 하며, 데이터 베이스에 접근하기위한 사용자이름과 비밀번호가 만들어져 있어야 합니다.<br />
+<b>테이블 첨두어:</b> 모든 테이블에 사용되는 선택적 접두어';
+$string['databasesettings'] = '지금 대부분의 무들 정보가 저장될 데이터베이스를 설정할 필요가 있습니다. 이 데이터베이스는 미리 생성되어 있어야 하며, 데이터베이스에 접근하기위한 사용자명과 비밀번호가 등록되어 있어야만 합니다.<br />
 <br /> <br />
 <b>종류:</b> mysql 또는 postgres7<br />
 <b>호스트:</b>예: localhost 또는 db.isp.com <br />
 <b>이름:</b> 데이터베이스 이름, 예:moodle<br />
-<b>사용자:</b> 데이터베이스 사용자이름<br />
+<b>사용자:</b> 데이터베이스 사용자명<br />
 <b>암호:</b> 데이터베이스 암호<br />
-<b>테이블 첨두어:</b> 모든 테이블에 사용되는 선택적 첨두어';
-$string['databasesettingshead'] = '모든 무들데이터가 저장되는 데이터베이스를 설정할 필요가 있습니다. 이 데이터베이스는 이미 만들어졌으며 데이터베이스를 접근할 수 있는사용자 이름과 암호가 생성되었습니다.';
+<b>테이블 접두어:</b> 모든 테이블에 사용되는 선택적 접두어';
+$string['databasesettingshead'] = '모든 무들데이터가 저장되는 데이터베이스를 설정할 필요가 있습니다. 이 데이터베이스는 이미 만들어졌으며 이에 접근할 수 있는 사용자명과 암호가 등록되어 있어야만 합니다.';
 $string['databasesettingssub'] = '<b>종류:</b> mysql 또는 postgres7<br />
 <b>호스트:</b>예: localhost 또는 db.isp.com <br />
 <b>이름:</b> 데이터베이스 이름, 예:moodle<br />
-<b>사용자:</b> 데이터베이스 사용자이름<br />
+<b>사용자:</b> 데이터베이스 사용자명<br />
 <b>암호:</b> 데이터베이스 암호<br />
-<b>테이블 첨두어:</b> 모든 테이블에 사용되는 선택적 첨두어';
-$string['dataroot'] = '데이타 디렉토리';
-$string['datarooterror'] = '당신이 지정한 \'데이타 디렉토리\'가 없거나 생성되지 않았습니다. 정확한 경로를 적거나 수동으로 그 디렉토리를 생성해 놓으시오.';
+<b>테이블 접두어:</b> 모든 테이블에 사용되는 선택적 접두어';
+$string['dataroot'] = '데이타 경로';
+$string['datarooterror'] = '당신이 지정한 \'데이타 경로\'가 없거나 생성되지 않았습니다. 정확한 경로를 적거나 수동으로 그 디렉토리를 생성해 놓으시오.';
 $string['dbconnectionerror'] = '지정한 데이터베이스에 연결할 수 없습니다. 데이타베이스의 설정을 점검하시오.';
-$string['dbcreationerror'] = '데이터베이스 생성 오류. 주어진 설정값으로 데이터베이스 이름을 생성할 수 없습니다.';
+$string['dbcreationerror'] = '데이터베이스 생성 오류. 주어진 사용자명 및 암호로 데이터베이스 이름을 생성할 수 없습니다.';
 $string['dbhost'] = '호스트 서버';
 $string['dbpass'] = '비밀번호';
-$string['dbprefix'] = '접두사';
+$string['dbprefix'] = '접두어';
 $string['dbtype'] = '형태';
-$string['dbwrongencoding'] = '선택된 데이터베이스는 추천되지 않는 엔코딩 방법($a)에 의해 동작하고 있습니다. 유니코드 UTF-8로 인코딩 되는 데이터베이스를 사용하는 것이 좋습니다. 아래의\"DB 엔코딩 테스트 건너뛰기\"를 선택하여 이 테스트를 건너뛸 수 있지만 추후 문제를 경험할 수 있습니다.';
+$string['dbwrongencoding'] = '선택된 데이터베이스는 바람직하지 않은 엔코딩 방법($a)에 의해 동작하고 있습니다. 유니코드 UTF-8로 인코딩 되는 데이터베이스를 사용하는 것이 좋습니다. 아래의\"DB 엔코딩 테스트 건너뛰기\"를 선택하여 이 테스트를 건너뛸 수 있지만 추후에 문제가 야기될 수 있습니다.';
 $string['directorysettings'] = '<p>무들을 설치할 위치를 확인하세요.</p>
 <p><b>웹주소:</b>
-무들이 접근할 전체 웹 주소 명기하세요
-만약 당신의 웹 사이트가 복합적인 URLs를 경유하여 접근가능하다면 당신의 학생들이 사용할 가장 자연스러운 것을 선택하세요.  마지막에 슬레시를 넣지 마세요.</p>
+무들이 접근할 전체 웹 주소를 명기하세요. 만약 당신의 웹 사이트가 복합적인 URLs를 경유하여 접근가능하다면 학생들이 사용할 가장 자연스러운 것을 선택하세요. 마지막에 슬레시를 넣지 마세요.</p>
 
 <p><b>무들 경로:</b>
-완전한 디렉토리 경로를 명기하세요  대소문자를 정확히 구별하여 기재하세요.</p>
+완전한 디렉토리 경로를 명기하세요. 대소문자를 정확히 구별하여 기재하세요.</p>
 
 <p><b>데이터 경로:</b>
-무들이 업로드된 파일을 저장할 수 있는 장소가 필요합니다. 이 디렉토리는 웹 서버의 사용자(보통 \"none\" 또는 \"apache\" )에 의해서 \'읽고쓰기 가능\' 권한을 보유하여야 합니다. 그러나 그것은 직접적으로 웹을 경유해서 접근할 수 있어서는 안됩니다.</p> ';
+무들로 업로드된 파일을 저장할 수 있는 장소가 필요합니다. 이 디렉토리는 웹 서버의 사용자(보통 \"none\" 또는 \"apache\" )에 의해서 \'읽고쓰기 가능\' 권한을 보유하여야 합니다. 그러나 직접적으로 웹을 경유해서 접근할 수 있어서는 안됩니다.</p>';
 $string['directorysettingshead'] = '무들 설치 위치를 확인하기 바랍니다.';
 $string['directorysettingssub'] = '<b>웹 주소:</b>
 무들이 접속될 완전한 웹주소를 기입하시오.
-만일 다중 URL을 통하여 웹사이트가 접근할 수 있다면 학습자가 사용하기 쉬운 자연스런 주소를 선택하시오. 끝에 슬래시를 포함하지 마십시요.
+만일 다중 URL을 통하여 웹사이트에 접근할 수 있다면 학습자가 사용하기 쉬운 자연스런 주소를 선택하시오. 끝에 슬래시를 포함하지 마십시요.
 <br />
 <br />
 <b>무들 경로:</b>
-이 설치에 대한 완전한 디렉토리 경로를 명시하시오. 대문자/소문자가 맞는지 확인하시오.
+무들이 설치될 완전한 디렉토리 경로를 명시하시오. 대문자/소문자가 맞는지 확인하시오.
 <br />
 <br />
 <b>데이터 디렉토리:</b>
-무들이 올리기한 파일을 저장할 곳이 필요합니다. 이 디렉토리는 웹서버 사용자(\'nobody 나 \'apache\')들이 읽고 쓸 수 있어야 합니다. 그러나 직접 접근할 수 있어서는 안됩니다.';
+무들로 업로드된 파일을 저장할 수 있는 장소가 필요합니다. 이 디렉토리는 웹 서버의 사용자(보통 \"none\" 또는 \"apache\" )에 의해서 \'읽고쓰기 가능\' 권한을 보유하여야 합니다. 그러나 직접 접근할 수 있어서는 안됩니다.';
 $string['dirroot'] = '무들 디렉토리';
-$string['dirrooterror'] = '무들 경로의 위치가 바르지 않은 것 같습니다 - 모들설치 프로그램을 찾을 수 없습니다. 아래의 값들은 초기화 되었습니다.';
-$string['download'] = '다운로드';
+$string['dirrooterror'] = '무들의 경로가 바르지 않은 것 같습니다 - 무들의 설치 프로그램을 찾을 수 없습니다. 아래의 값들은 초기화 되었습니다.';
+$string['download'] = '내려 받음';
 $string['downloadlanguagebutton'] = '\"$a\" 언어팩 내려받기';
 $string['downloadlanguagehead'] = '언어팩 다운로드';
 $string['downloadlanguagenotneeded'] = '기본 언어팩인 \"$a\"을 사용하여 설치과정을 계속할 수 있습니다.';
-$string['downloadlanguagesub'] = '이제 언어팩 선택을 하셨기 때문에 추후에는 선택한 언어로 설치를 계속할 수 있습니다.<br /><br />만일 해당 언어팩을 내려받지 못한다면, 영문으로 설치가 계속될 것입니다.(일단 영문으로 프로그램을 깐 후, 다시 또 다른 언어팩을 선택하여 설정할 수 있는 기회가 있습니다) ';
-$string['environmenthead'] = '환경변수를 점검하십시요.';
-$string['environmentsub'] = '당신의 시스템의 여러 구성요소가 시스템 요구조건을 만족하는지 점검합니다.';
+$string['downloadlanguagesub'] = '이제 언어팩 선택을 하셨기 때문에 추후에는 선택한 언어로 설치를 계속할 수 있습니다.<br /><br />만일 해당 언어팩을 내려받지 못한다면, 영문으로 설치가 계속될 것입니다.(일단 영문으로 프로그램을 깐 후, 다시 또 다른 언어팩을 선택하여 설정할 수 있는 기회가 있습니다)';
+$string['environmenthead'] = '구동환경을 점검합니다...';
+$string['environmentsub'] = '기존 운영체제가 무들의 여러 구성 요소들을 구동하는데 적합한지 점검합니다.';
 $string['fail'] = '실패';
-$string['fileuploads'] = '업로드된 파일 ';
+$string['fileuploads'] = '파일 올리기';
 $string['fileuploadserror'] = '이것은 켜져야 합니다.';
-$string['fileuploadshelp'] = '<p> 당신의 서버에서 파일 업로딩이 불가능해 보입니다.</p>
+$string['fileuploadshelp'] = '<p>서버로 파일올리기가 불가능해 보입니다.</p>
 
-<p>무들은 설치될 수 있지만 파일 업로딩 할 수 없는 상태에서는 당신은 배움터의 파일이나 사진을 업로드 할 수 없을 것입니다.</p>
+<p>무들은 설치될 수 있지만 파일을 업로딩 할 수 없는 상태에서는 배움터에 파일이나 사진을 올릴 수 없을 것입니다.</p>
 
 <p>파일 업로딩이 가능하게 하기 위해서는 당신(또는 당신의 시스템 관리자)가 php.ini 파일 속의  <b>file_upload</b>을 \'1\'로 설정해야 할 것입니다.</p>';
 $string['gdversion'] = 'GD 의 버전';
-$string['gdversionerror'] = 'GD 라이브러리는 진행과정과 사진을 만드는 것을 보여주어야 합니다.';
+$string['gdversionerror'] = 'GD 라이브러리는 사진이나 그림을 처리하기 위해서는 필수적으로 있어야만 합니다.';
 $string['gdversionhelp'] = '<P>당신의 서버는 GD가 설치된 것으로 보여지지 않습니다.
 
-<P>GD는 무들이 그림을 처리할 수 있도록 PHP에 의해서 요구되는 라이브러리 입니다.{사용자 아이콘과 같은}그리고 새로운 이미지를 생성하는{함수 그래프와 같은} 모들은 여전히 GD의 이런 기능없이 작동할 것이고 이런 GD의 기능들은 단지 당신에게는 사용할 수 없을 것입니다.';
+<P>GD는 무들이 (사용자 아이콘과 같은) 그림이나 (함수 그래프와 같은) 새로운 이미지를 생성,처리할 수 있도록 PHP에 의해서 요구되는 라이브러리 입니다. 하지만 무들은 GD없이도 작동되는데, 이 때는 GD가 제공하는 기능은 사용할 수 없을 것입니다.';
 $string['globalsquotes'] = '전역변수 조작 안전성 결여';
-$string['globalsquoteserror'] = '여러분의 PHP 설정을 다음과 같이 고쳤습니다:  register_globals 및 enable magic_quotes_gpc 을 껐습니다.';
-$string['globalsquoteshelp'] = '<p>Combination of disabled Magic Quotes GPC and enabled Register Globals both at the same time is not recommended.</p>
+$string['globalsquoteserror'] = 'PHP.ini 속의 설정을 다음과 같이 고치십시오:  register_globals 및 enable magic_quotes_gpc 을 끄십시오(Off).';
+$string['globalsquoteshelp'] = '<p>magic_quotes_gpc = Off 과 register_globals = On 을 조합하는 것은 바람직하지 않습니다.</p>
 
-<p>권장하는 여러분의 php.ini 설정은 <b>magic_quotes_gpc = On</b> 과 <b>register_globals = Off</b> 입니다.</p>
+<p>권장하는 php.ini 설정은 <b>magic_quotes_gpc = On</b> 과 <b>register_globals = Off</b> 입니다.</p>
 
 <p>만일 여러분이 php.ini 에 접근할 수 없다면, 무들 디렉토리안에 아래의 내용이 담긴 .htaccess 파일을 넣어 두십시오.
 <blockquote>php_value magic_quotes_gpc On</blockquote>
 <blockquote>php_value register_globals Off</blockquote>
-</p> ';
+</p>';
 $string['installation'] = '설치';
 $string['langdownloaderror'] = '안타깝게도 \"$a\" 언어팩이 설치되지 않았습니다. 대신 영어를 이용하여 설치될 것입니다.';
 $string['langdownloadok'] = '\"$a\" 언어팩이 성공적으로 설치되었습니다. 해당 언어를 이용하여 설치가 진행될 것입니다.';
-$string['magicquotesruntime'] = '매직 코트 실행 시간';
+$string['magicquotesruntime'] = 'Magic Quotes 실행 시간';
 $string['magicquotesruntimeerror'] = '이것은 꺼져야 합니다.';
-$string['magicquotesruntimehelp'] = '<p>매직 코트 실행시간은 모들이 적절한 기능을 하기 위해 꺼져야 합니다.</p>
+$string['magicquotesruntimehelp'] = '<p>Magic quotes runtime은 무들이 제대로 작동하기 위해 꺼져야(Off) 합니다.</p>
 
-<p>일반적으로 이것은 디폴트값에 의해 꺼집니다. 당신의 php.ini파일에 있는 매직 코트 실행시간을 조절하세요.</p>
+<p>일반적으로 기본값은 Off 입니다만 다시한번 php.ini파일에 있는 <b>magic_quotes_runtime</b>을 확인해 보세요.</p>
 
-<p>만약에 당신의 php.ini파일에 접속하지 않았다면 당신은 요구되는 파일안의 라인을 따르는 곳에 위치할 수 있을 것입니다. 당신의 모들 주소성명록대로 접속하세요<blockquote>php_value magic_quotes_runtime off<blockquote></p>';
-$string['memorylimit'] = '기억 제한';
-$string['memorylimiterror'] = '이 php 기억 제한은 매우 낮게 설치되어 있습니다. 당신은 후에 문제를 닥치게 될 것입니다.';
-$string['memorylimithelp'] = '<p>서버의 PHP 메모리한계가 최근 $a 로 설정되었습니다.</p>
+<p>만약에 당신이 php.ini파일에 접근하지 못한다면 무들 디렉토리안에 다음의 내용을 적은 .htaccess 파일을 넣어두시기 바랍니다.<blockquote>php_value magic_quotes_runtime off<blockquote></p>';
+$string['memorylimit'] = '메모리 사용량';
+$string['memorylimiterror'] = 'php의 메모리 사용량이 너무 작게 설정되어 있습니다. 당신은 후에 문제에 봉착할 지도 모릅니다.';
+$string['memorylimithelp'] = '<p>현재 서버의 PHP 메모리 사용량은 $a 로 설정되어 있습니다.</p>
 
-<p>이것은 아마 무들이 나중에 기억의 문제를 갖게 되는 것을 야기시킬것입니다. 특히 만약 당신이 사용할 수 있는 많은 무들을 가지고 있거나 그런 사용자를 가지고 있다면 그러할 것입니다.</p>
+<p>이는 추후에 무들이 원활히 구동되는 데 문제가 될 것입니다. 특히 여러분이 상당히 많은 모듈을 이용하고 또 사용자가 많아지게 되면 문제가 될 소지가 더 커집니다.</p>
 
-<p>우리는 당신이 16M 와 같은 가능하면 더 높은 제한을 가지고 있는 PHP를 형성하기를 요구합니다.
-당신이 시도 할 수 잇는 여러가지 방법들이 있습니다.</p>
+<p>우리는 당신이 PHP가 사용할 수 있는 메모리 용랑을 16M 나 아니면 더 큰 값으로 설정하길 바랍니다. 설정하는 방법은 
+여러가지가 있습니다.</p>
 <ol>
-<li>만약 당신이 할 수 있다면 기억제한이 가능한 파일과 함께 PHP를 번역하세요. 이것은 무들이 자기 스스로 기억제한을 설치하는데 허락할 것입니다</li>
+<li>만약 PHP소스를 재컴파일 할 수 있다면 옵션에 <i>--enable-memory-limit</i> 을 포함시켜 컴파일 하십시오. 이렇게 해 놓으면 무들 프로그램으로 메모리 용량을 제어할 수 있게 됩니다.</li>
 
-<li>만약 다신이 php.ini.파일에 접속했다면 당신은 <b>memory_limit</b>을  16M와 같은 어떤 것으로 바꿔설치 할 수 있을것입니다. 만약 당신이 접속하지 않았다면 이것을 실행하기 위한 당신의관리자에게 문의하실 수 있습니다.</li>
+<li>만약 php.ini 파일에 접근 가능하다면 당신은 <b>memory_limit 16M</b> 처럼 값을 바꿀 수 있을것입니다. 만약 여러분이 직접 접근 할 수 없다면 서버 관리자에게 요청하여 처리하실 수 있습니다.</li>
 
-<li>당신이 만들어 낼수 있는 몇개의 PHP서버들에서 무들 주소성명록에 있는 접속파일은 이 라인을 포함하고 있습니다.
+<li>또 도저히 php.ini 안에 있는 값을 바꿀 수가 없다면 무들 디렉토리에 아래와 같은 내용을 포함하는 .htaccess 를 넣어두면 됩니다.
 <P><blockquote>php_value memory_limit 16M<blockquote></p>
-<p>그러나 모든 php페이지가 (당신이 페이지를 살펴보았을때 문제를 찾을 것이다) 일하는 것으로부터 방해 할 이 몇개의 서버들이 있기때문에 당신은 .htaccess 를 제거해야 할 것입니다.</p></li></ol>';
-$string['mysqlextensionisnotpresentinphp'] = 'php는 php가 mysql과 연결할 수 있기 위해서 적절하게 형성됐다. 당신의 php.ini 파일이나 recompile php를 확인하세요.';
-$string['pass'] = '통과하세요.';
+<p>그러나 어떤 서버에서는 이러한 기능이 모든 PHP페이지에 적용되어 버릴 수도 있게 되는 데 (당신이 페이지를 살펴보았을때 문제를 찾을 것이다) 이 때에는 .htaccess 를 제거해야 하고 다른 방안을 찾아봐야 할 것입니다.</p></li></ol>';
+$string['mysqlextensionisnotpresentinphp'] = 'php.ini 는 mysql과 연동되도록 적절하게 설정되지 못했습니다. 당신의 php.ini 파일을 점검해 보거나 PHP를 재컴파일 하세요.';
+$string['pass'] = '통과';
 $string['phpversion'] = 'php버젼';
-$string['phpversionerror'] = 'php 버젼은 틀림없이 적어도 4.1.0.이어야합니다.';
-$string['phpversionhelp'] = '무들은 적어도 4.1.0의 php버젼을 요구합니다.';
+$string['phpversionerror'] = 'php 버젼은 최소한 4.3.0 혹은 5.1.0. 이상 이어야합니다.(5.0.x는 버그가 있다고 알려져 있습니다)';
+$string['phpversionhelp'] = '<p>무들은 적어도 PHP4.3.0 혹은 5.1.0. 이상 이어야합니다.(5.0.x는 버그가 있다고 알려져 있습니다)</p>
+<p>현재 구동되고 있는 PHP버전은 $a 입니다.</p>
+<p>PHP를 업그레이드 하시거나 새버전을 제공하는 웹호스팅 업체로 이전하기를 권합니다!<br />(만일 5.0.x버전을 사용 중이라면 4.4.x 버전으로 다운그레이드 할 수 있습니다)</p>';
 $string['safemode'] = 'Safe Mode';
-$string['safemodeerror'] = '아마 Safe Mode가 작동되어서 문제가 있을 것입니다.';
-$string['safemodehelp'] = '<p>무들은 아마 safe mode on 문제를 가지고 있을수 있습니다. 적어도 그 문제는 아마 새로운 파일을 만드는 것을 허락하지 않을 것입니다.</p>';
-$string['sessionautostart'] = '세션의 활동을 시작하세요.';
-$string['sessionautostarterror'] = '이것은 종료되어야 합니다.';
-$string['sessionautostarthelp'] = '<p>무들은 세션의 지원을 요구하고 무들은 그것 없이는 기능하지 않을 것 입니다.</p>
-<P>세션은 php 안에서 ini 파일이 될 수 있습니다. 세션의 자동적 활동의 시작을 위한 매개변수를 찾으세요.</p>';
+$string['safemodeerror'] = '아마 Safe Mode가 작동되어서 문제가 생겼을 것입니다.';
+$string['safemodehelp'] = '<p>무들은 safe mode on 상태에서는 작동이 원활하지 않을 텐데, 아마 그 중 하나가 새로운 파일을 못 만들게 하는 문제일 것입니다.</p>
+<p>Safe mode는 일단의 보안 편집증적인 웹호스트에서 이를 켜 놓을 것인데, 무들 사이트를 원활히 운용하기 위해서는 새로운 웹호스트를 찾아보시는 편이 나을 겁니다.</p>
+<p>원한다면 설치는 계속할 수는 있는데, 나중에 문제에 봉착할 것이라는 점을 염두에 두기 바랍니다.</p>';
+$string['sessionautostart'] = '세션 자동 시작';
+$string['sessionautostarterror'] = '이것은 꺼져 있어야(Off) 합니다.';
+$string['sessionautostarthelp'] = '<p>무들은 세션의 지원이 필요하고 그것 없이는 작동하지 않을 것 입니다.</p>
+<P>세션은 php.ini 파일 안에서 조정될 수 있습니다. session.auto_start 항목을 살펴보세요.</p>';
 $string['skipdbencodingtest'] = 'DB 엔코딩 테스트 생략';
 $string['welcomep10'] = '$a->installername ($a->installerversion)';
-$string['welcomep20'] = '당신의 컴퓨터에 <strong>$a->packname $a->packversion</strong> 패키지를 성공적으로 설치한 것을 축하합니다! ';
+$string['welcomep20'] = '당신의 컴퓨터에 <strong>$a->packname $a->packversion</strong> 패키지를 성공적으로 설치한 것을 축하합니다!';
 $string['welcomep30'] = '<strong>$a->installername</strong> 의 이 릴리스는 <strong>무들</strong>이 그 속에서 동작하는 환경을 생성하기 위한 어플리케이션을 포함하고 있습니다.';
 $string['welcomep40'] = '이 패키지는 <strong>무들 $a->moodlerelease ($a->moodleversion)</strong> 을 포함하고 있습니다.';
-$string['welcomep50'] = '이 패키지에 있는 모든 어플리케이션을 사용하는 것은 각각의 라이선스에의해 지배받습니다. 완전한<strong>$a->installername</strong> 패키지는
+$string['welcomep50'] = '이 패키지에 있는 모든 어플리케이션을 사용하는 것은 각각의 라이센스에의해 지배받습니다. 완전한<strong>$a->installername</strong> 패키지는
 <a href=\"http://www.opensource.org/docs/definition_plain.html\">공개 소스이며 </a> <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> 라이선스에 의해 배포됩니다.';
 $string['welcomep60'] = '다음 페이지들은 당신의 컴퓨터에 <strong>무들</strong>을 설정하고 설치하는데 따라하기 쉬운 방법으로 당신을 안내할 것입니다. 당신은 기본 설정을 선택하거나 당신의 목적에 맞게 선택적으로 수정할 수 있습니다.';
 $string['welcomep70'] = '<strong>무들</strong> 설정을 계속하기 위해서는 \"다음\" 버튼을 클릭하세요.';
