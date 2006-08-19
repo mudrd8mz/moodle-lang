@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006081000)
+      // moodle.php - created with Moodle 1.7 dev (2006081700)
 
 
 $string['action'] = '操作';
@@ -926,6 +926,7 @@ $string['noteuserschangednonetocourse'] = '注意:ユーザデータをリスト
 $string['nothingnew'] = '最終ログインより更新されたものはありません。';
 $string['nothingtodisplay'] = '表示するデータはありません。';
 $string['noticenewerbackup'] = 'このバックアップファイルは、現在インストールされているMoodle $a->serverrelease ( $a->serverversion ) よりも新しいバージョンMoodle $a->backuprelease ($a->backupversion) により作成されました。旧バージョンへの互換性が保障されないため、バックアップデータの矛盾を生じる恐れがあります。';
+$string['notifications'] = '通知';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, ユーザ: $a->info';
 $string['notifyloginfailuresmessageend'] = 'ログは、$a/course/log.php?id=1&chooselog=1&modid=site_errors で閲覧できます。';
 $string['notifyloginfailuresmessagestart'] = '前回通知以降の、$a におけるログイン失敗一覧です。';
