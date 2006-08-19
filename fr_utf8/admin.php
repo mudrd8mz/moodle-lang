@@ -2,6 +2,7 @@
 
 // begin {added with admin cleanup}
 $string['userinterface'] = 'Interface utilisateur';
+$string['userlist'] = 'Liste des utilisateurs';
 $string['serverinterface'] = 'Interface serveur';
 $string['authenticationandsecurity'] = 'Authentification et sécurité';
 $string['maintenanceandauditing'] = 'Maintenance et contrôle';
@@ -202,6 +203,7 @@ $string['install'] = 'Installer les langues sélectionnées';
 $string['installedlangs'] = 'Langues installées';
 $string['invaliduserchangeme'] = 'Le nom d\'utilisateur «&nbsp;changeme&nbsp;» est réservé. Il n\'est pas permis de créer un compte de ce nom.';
 $string['lang16notify'] = 'Les versions de Moodle 1.6 et suivantes vous permettent d\'installer et de mettre à jour les langues directement depuis download.moodle.org en suivant le lien ci-dessous';
+$string['langedit'] = 'Modification de langue';
 $string['langimport'] = 'Utilitaire d\'importation de langues';
 $string['langimportsuccess'] = 'Le paquetage de langue a été correctement mis à jour';
 $string['langpackremoved'] = 'La désinstallation de la langue est terminée';
@@ -269,6 +271,7 @@ $string['uninstall'] = 'Désinstaller les langues sélectionnées';
 $string['uninstallconfirm'] = 'Vous êtes sur le point de supprimer totalement la langue $a. Voulez-vous continuer&nbsp;?';
 $string['updatecomponent'] = 'Mise à jour du composant';
 $string['updatelangs'] = 'Mettre à jour toutes les langues installées';
+$string['updatetimezones'] = 'Mettre à jour les fuseaux horaires';
 $string['upgradeforumread'] = 'Moodle 1.5 possède une nouvelle fonctionnalité permettant de signaler quels messages des forums ont été lus.<br />Pour profiter de cette fonctionnalité, les tables de la base de données <a href=\"$a\">doivent être mises à jour</a>.';
 $string['upgradeforumreadinfo'] = 'Moodle 1.5 possède une nouvelle fonctionnalité permettant de signaler quels messages des forums ont été lus. Pour profiter de cette fonctionnalité, les tables de la base de données doivent être complétées avec le statut de lecture pour les messages existants. Suivant la taille de votre site, cette mise à jour peut prendre beaucoup de temps (quelques heures) et risque de surcharger la base de données. Nous vous conseillons donc de l\'effectuer lors d\'une période creuse. Durant cette mise à jour, votre site continuera à fonctionner et les utilisateurs n\'en seront pas affectés. Une fois l\'opération démarrée, vous devez la laisser se terminer (en laissant ouverte la fenêtre du navigateur). Si par inadvertence vous interrompez le processus, par exemple en fermant la fenêtre, vous pourrez le recommencer sans dommage.<br /><br />Voulez-vous commencer maintenant cette opération&nbsp;?';
 $string['upgradelogs'] = 'Pour profiter de toutes les fonctionnalités, les historiques (logs) doivent être mis à jour. <a href=\"$a\">Plus d\'informations</a>';
@@ -276,9 +279,9 @@ $string['upgradelogsinfo'] = 'Récemment, des changements ont eu lieu dans la fa
 $string['upgradesure'] = 'Certains fichiers de votre Moodle ont été modifiés, et vous êtes sur le point<br />de lancer la procédure automatique de mise à jour de votre serveur vers cette version&nbsp;:<br /><br /><strong>$a</strong><br /><br />Une fois cette mise à jour effectuée, il sera impossible de revenir en arrière&nbsp;!<br /><br />Voulez-vous vraiment mettre à jour ce Moodle vers cette version&nbsp;?';
 $string['upgradingdata'] = 'Mise à jour des données';
 $string['upgradinglogs'] = 'Mise à jour des fichiers d\'historique (logs)';
-$string['userrenamed'] = 'Utilisateur renommé';
 $string['useraccountupdated'] = 'Utilisateur modifié';
 $string['userscreated'] = 'Utilisateurs créés';
+$string['userrenamed'] = 'Utilisateur renommé';
 $string['usersrenamed'] = 'Utilisateurs renommés';
 $string['usersupdated'] = 'Utilisateurs modifiés';
 $string['updateaccounts'] = 'Modifier des comptes existants';
