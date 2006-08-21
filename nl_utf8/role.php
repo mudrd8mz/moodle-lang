@@ -42,5 +42,19 @@ $string['overrideroles'] = 'Rollen negeren';
 $string['potentialusers'] = '$a mogelijke gebruikers';
 $string['prevent'] = 'Voorkom';
 $string['prohibit'] = 'Verbied';
+$string['role:assign'] = 'Toewijzen van rollen aan gebruikers';
+$string['role:manage'] = 'Aanmaken en beheren van rollen';
+$string['site:accessallgroups'] = 'Toegang voor alle groepen';
+$string['site:backup'] = 'Cursussen backuppen';
+$string['site:config'] = 'Site configuratie wijzigen';
+$string['site:doanything'] = 'Toelaten alles te doen';
+$string['site:import'] = 'Importeren van andere cursussen in een cursus';
+$string['site:manageblocks'] = 'Beheer blokken op site niveau';
+$string['site:restore'] = 'Cursussen terugzetten';
+$string['site:viewfullnames'] = 'Altijd volledige namen van gebruikers zien';
+$string['user:create'] = 'Gebruikers aanmaken';
+$string['user:delete'] = 'Gebruikers verwijderen';
+$string['user:update'] = 'Gebruikersprofielen updaten';
+$string['user:viewdetails'] = 'Gebruikersprofielen bekijken';
 
 ?>
