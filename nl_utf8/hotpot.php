@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6 development (2005101200)
+      // hotpot.php - created with Moodle 1.7 dev (2006082100)
 
 
 $string['abandoned'] = 'verlaten';
@@ -23,7 +23,7 @@ $string['correct'] = 'juist';
 $string['deleteabandoned'] = 'Verwijder verlaten';
 $string['deleteabandonedcheck'] = 'Wil je echt alle $a verlaten pogingen verwijderen?';
 $string['displaycoursenext'] = 'Toon hierna de cursuspagina';
-$string['displayhotpotnext'] = 'Toon hierna de Hot Potatoes-test ';
+$string['displayhotpotnext'] = 'Toon hierna de Hot Potatoes-test';
 $string['displayindexnext'] = 'Toon hierna de Hot Potoes indexpagina';
 $string['enterafilename'] = 'Geef een bestandsnaam';
 $string['error_couldnotopenfolder'] = 'Map \"$a\" niet toegankelijk';
@@ -45,6 +45,7 @@ $string['filetype'] = 'Bestandstype';
 $string['forceplugins'] = 'Verplicht mediaplugins';
 $string['giveup'] = 'Geef op';
 $string['hints'] = 'hints';
+$string['hotpot:view'] = 'Testen gebruiken';
 $string['ignored'] = 'genegeerd';
 $string['inprogress'] = 'lopend';
 $string['location'] = 'Bestandslocatie';
@@ -54,8 +55,8 @@ $string['navigation'] = 'navigatie';
 $string['navigation_bar'] = 'Moodle-navigatiebalk';
 $string['navigation_buttons'] = 'Knoppen van Hot Potatoes-test';
 $string['navigation_frame'] = 'Moodle-navigatieframe';
-$string['navigation_give_up'] = 'Een enkele &quot;Geef op&quot; knop';
-$string['navigation_iframe'] = 'Ingebed &lt;IFRAME&gt;';
+$string['navigation_give_up'] = 'Een enkele \"Geef op\" knop';
+$string['navigation_iframe'] = 'Ingebed <IFRAME>';
 $string['navigation_none'] = 'Geen';
 $string['neverclosed'] = 'Nooit gesloten';
 $string['noactivity'] = 'Geen activiteit';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006050500)
+      // error.php - created with Moodle 1.7 dev (2006082100)
 
 
 $string['adminprimarynoedit'] = 'Het profiel van de beheerder met het kleinste gebruikersnummer kan door de andere beheerders niet gewijzigd worden';
@@ -43,6 +43,7 @@ $string['mustbeteacher'] = 'Je moet leraar zijn om deze pagina te mogen bekijken
 $string['noinstances'] = 'Er is niets te vinden van $a in deze cursus!';
 $string['nonmeaningfulcontent'] = 'Geen zinnige inhoud';
 $string['noparticipatorycms'] = 'Sorry, maar je hebt geen vereiste cursusmodules om over te rapporteren';
+$string['nopermissions'] = 'Sorry, maar je hebt nu niet het recht om dat te doen ($a).';
 $string['notavailable'] = 'Dat is nu niet beschikbaar';
 $string['onlyadmins'] = 'Enkel beheerders mogen dit doen.';
 $string['onlyeditingteachers'] = 'Alleen leraren met het recht om te wijzigen kunnen dit doen';

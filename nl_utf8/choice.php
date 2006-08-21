@@ -1,13 +1,17 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005041900)
+      // choice.php - created with Moodle 1.7 dev (2006082100)
 
 
 $string['addmorechoices'] = 'Voeg meer keuzes toe';
 $string['allowupdate'] = 'Laat toe de keuze aan te passen';
 $string['answered'] = 'Beantwoord';
 $string['choice'] = 'Keuze $a';
+$string['choice:choose'] = 'Bewaar een keuze';
+$string['choice:deleteresponses'] = 'Verwijder antwoorden';
+$string['choice:downloadresponses'] = 'Download antwoorden';
+$string['choice:readresponses'] = 'Lees antwoorden';
 $string['choiceclose'] = 'Tot';
-$string['choicename'] = 'Naam keuze ';
+$string['choicename'] = 'Naam keuze';
 $string['choiceopen'] = 'Open';
 $string['choicetext'] = 'Keuzetekst';
 $string['displayhorizontal'] = 'Toon horizontaal';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006071800)
+      // forum.php - created with Moodle 1.7 dev (2006082100)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -69,6 +69,23 @@ $string['existingsubscribers'] = 'Huidige leden';
 $string['forcesubscribe'] = 'Verplicht iedereen om lid te zijn';
 $string['forcesubscribeq'] = 'Moet iedereen verplicht lid zijn?';
 $string['forum'] = 'Forum';
+$string['forum:createattachment'] = 'Bijlage toevoegen';
+$string['forum:deleteanypost'] = 'Gelijk welk bericht verwijderen (altijd)';
+$string['forum:deleteownpost'] = 'Eigen berichten verwijderen (binnen bepaalde tijd)';
+$string['forum:editanypost'] = 'Gelijk welk bericht bewerken';
+$string['forum:managesubscriptions'] = 'Lidmaatschap beheren';
+$string['forum:movediscussions'] = 'Discussies verplaatsen';
+$string['forum:rate'] = 'Berichten beoordelen';
+$string['forum:replypost'] = 'Berichten beantwoorden';
+$string['forum:splitdiscussions'] = 'Discussies splitsen';
+$string['forum:startdiscussion'] = 'Nieuwe discussies starten';
+$string['forum:viewanyrating'] = 'Alle beoordelingen bekijken';
+$string['forum:viewdiscussion'] = 'Discussies bekijken';
+$string['forum:viewforum'] = 'Forum bekijken';
+$string['forum:viewhiddentimedposts'] = 'Verborgen berichten bekijken';
+$string['forum:viewqandawithoutposting'] = 'Altijd Vraag en Antwoord berichten bekijken';
+$string['forum:viewrating'] = 'Beoordelingen bekijken';
+$string['forum:viewsubscribers'] = 'Leden bekijken';
 $string['forumauthorhidden'] = 'Auteur (verborgen)';
 $string['forumblockingalmosttoomanyposts'] = 'Je nadert de berichtenlimiet. Je hebt $a->numposts berichten in de afgelopen $a->blockperiod gepost en de limiet is $a->blockafter berichten.';
 $string['forumbodyhidden'] = 'Je kunt dit bericht niet bekijken, waarschijnlijk omdat je zelf nog niets gepost hebt in deze discussie.';

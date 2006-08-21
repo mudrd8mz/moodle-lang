@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // glossary.php - created with Moodle 1.7 dev (2006082100)
 
 
 $string['addcomment'] = 'Voeg commentaar toe';
@@ -50,7 +50,7 @@ $string['commentson'] = 'Commentaar op';
 $string['commentupdated'] = 'De commentaar is bijgewerkt';
 $string['concept'] = 'Concept';
 $string['concepts'] = 'Concepten';
-$string['configenablerssfeeds'] = 'Met deze instelling kun je de mogelijkheid voor het maken van RSS-feeds inschakelen voor alle woordenlijsten. Je zult wel nog voor elke woordenlijst afzonderlijk het maken van de RSS-feeds moeten inschakelen.  ';
+$string['configenablerssfeeds'] = 'Met deze instelling kun je de mogelijkheid voor het maken van RSS-feeds inschakelen voor alle woordenlijsten. Je zult wel nog voor elke woordenlijst afzonderlijk het maken van de RSS-feeds moeten inschakelen.';
 $string['currentglossary'] = 'Huidige woordenlijst';
 $string['dateview'] = 'Blader op datum';
 $string['defaultapproval'] = 'Standaardinstelling goedkeuring';
@@ -105,6 +105,17 @@ $string['fillfields'] = 'Concept en definitie zijn verplichte velden.';
 $string['filtername'] = 'Automatisch links maken van de woordenlijst';
 $string['fullmatch'] = 'Alleen volledige woorden gebruiken<br /><small>(wanneer automatisch gelinkt)</small>';
 $string['globalglossary'] = 'Globale woordenlijst';
+$string['glossary:approve'] = 'Nieuwe items goedkeuren';
+$string['glossary:comment'] = 'Commentaar toevoegen';
+$string['glossary:export'] = 'Items exporteren';
+$string['glossary:import'] = 'Items importeren';
+$string['glossary:managecategories'] = 'Categorieën beheren';
+$string['glossary:managecomments'] = 'Commentaren beheren';
+$string['glossary:manageentries'] = 'Items beheren';
+$string['glossary:rate'] = 'Items beoordelen';
+$string['glossary:view'] = 'Woordenlijsten bekijken';
+$string['glossary:viewrating'] = 'Beoordelingen bekijken';
+$string['glossary:write'] = 'Nieuwe items toevoegen';
 $string['glossaryleveldefaultsettings'] = 'Standaardinstellingen woordenlijst';
 $string['glossarytype'] = 'Type woordenlijst';
 $string['importcategories'] = 'Importeer categorieën';

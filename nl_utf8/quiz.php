@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006071800)
+      // quiz.php - created with Moodle 1.7 dev (2006082100)
 
 
 $string['1day'] = '1 dag';
@@ -89,6 +89,7 @@ $string['closebeforeopen'] = 'Kon de test niet aanpassen. De datum die je ingege
 $string['closepreview'] = 'Sluit voorbeeld';
 $string['closereview'] = 'Sluit nalezen';
 $string['comment'] = 'Commentaar';
+$string['commentary'] = 'Commentaar';
 $string['commentorgrade'] = 'Geef commentaar of verander cijfer';
 $string['comments'] = 'Commentaren';
 $string['completedon'] = 'Afgewerkt op';
@@ -274,6 +275,7 @@ $string['markall'] = 'Pagina inzenden';
 $string['marks'] = 'Punten';
 $string['match'] = 'Koppelen';
 $string['matchanswer'] = 'Koppel antwoord';
+$string['matchanswerno'] = 'Passend antwoord $a';
 $string['matcherror'] = 'Cijfers komen niet overeen met de gekozen instellingen - vraag overgeslagen';
 $string['matchgrades'] = 'Koppel cijfers';
 $string['matchgradeserror'] = 'Fout als cijfer niet getoond';
@@ -366,10 +368,12 @@ $string['questiondeleted'] = 'Deze vraag is verwijderd. Neem contact op met je l
 $string['questioninuse'] = 'De vraag \'$a\' is op dit moment al in gebruik:';
 $string['questionname'] = 'Naam vraag';
 $string['questionnametoolong'] = 'Vraagnaam te lang op lijn $a (maximum 255 tekens). De naam is afgekort.';
+$string['questionno'] = 'Vraag $a';
 $string['questions'] = 'Vragen';
 $string['questionsinclhidden'] = 'Vragen (verborgen inbegrepen)';
 $string['questionsinuse'] = '(* Vragen, gemerkt met een sterretje, zijn al in gebruik in sommige testen. Deze vragen zullen niet uit die testen verwijderd worden, maar alleen uit de  lijst van de categorie.)';
 $string['questionsperpage'] = 'Maximum aantal vragen per pagina';
+$string['questiontext'] = 'Vraag tekst';
 $string['questiontype'] = 'Vraagtype $a';
 $string['questiontypesetupoptions'] = 'Instellingen voor vraagtypes';
 $string['quizavailable'] = 'De test is beschikbaar tot: $a';

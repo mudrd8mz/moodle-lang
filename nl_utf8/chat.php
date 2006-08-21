@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // chat.php - created with Moodle 1.7 dev (2006082100)
 
 
 $string['beep'] = 'Piep';
+$string['chat:chat'] = 'Gebruik chat';
+$string['chat:deletelog'] = 'Verwijder chat logs';
+$string['chat:readlog'] = 'Bekijk chat logs';
 $string['chatintro'] = 'Inleidende tekst';
 $string['chatname'] = 'Naam van deze chatroom';
 $string['chatreport'] = 'Chatsessies';

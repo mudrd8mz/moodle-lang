@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004093001)
+      // exercise.php - created with Moodle 1.7 dev (2006082100)
 
 
 $string['absent'] = 'Afwezig';
@@ -47,6 +47,7 @@ $string['enterpassword'] = 'Geef wachtwoord';
 $string['entriessaved'] = 'Inzending bewaard';
 $string['errorbanded'] = 'Als fout aangeduid';
 $string['excellent'] = 'Schitterend';
+$string['exercise:assess'] = 'Beoordeel oefeningen';
 $string['exerciseassessments'] = 'Beoordelingen van de oefening';
 $string['exercisefeedback'] = 'Feedback van de oefening';
 $string['exercisesubmissions'] = 'Inzending van de oefeningen';
@@ -86,7 +87,7 @@ $string['noexercisedescriptionssubmitted'] = 'Geen oefeningsbeschrijvingen ingez
 $string['nosubmissions'] = 'Geen inzendingen';
 $string['notassessedyet'] = 'Nog niet beoordeeld';
 $string['notavailable'] = 'Niet beschikbaar';
-$string['noteonassessmentelements'] = ' Merk op dat het beoordelen opgesplitst is in een aantal \'Beoordelingselementen\'.<br />
+$string['noteonassessmentelements'] = 'Merk op dat het beoordelen opgesplitst is in een aantal \'Beoordelingselementen\'.<br />
 Dit maakt het beoordelen gemakkelijker en consequenter. Als leraar moet je deze<br />
 elementen ingeven voor je de opdracht opent voor je leerlingen. Dit doe je door <br />
 te klikken op de opdracht in de cursus. Als er nog geen elementen zijn, wordt je gevraagd.<br />
@@ -116,7 +117,7 @@ $string['pleasegradetheassessment'] = 'Geef een cijfer voor de zelfevaluatie van
 $string['pleasemakeyourownassessment'] = 'Maak je eigen beoordeling van het werk van $a.<br />Merk op dat het beoordelingsformulier al ingevuld is met de beoordeling van de leerling.<br />Je moet alle wijzigingen maken die je nodig acht en dan op één<br />van de knoppen onderaan de pagina klikken.';
 $string['pleasesubmityourwork'] = 'Stuur je werk in met dit formulier';
 $string['pleaseusethisform'] = 'Vul dit formulier in wanneer je klaar bent<br />met alle instructies van onderstaande
-oefening. ';
+oefening.';
 $string['pleaseviewtheexercise'] = 'Bekijk de hieronder opgegeven oefening door op de titel ervan te klikken.<br />Volg de instructies in deze oefening.<br />Wanneer je klaar bent met de oefening<br />klik je op de Beoordeel- (of Herbeoordeel-)link aan de <br />rechterkant van de titel. Als je deze beoordeling gedaan hebt, krijg je <br />verdere instructies te zien over wat er volgt.';
 $string['poor'] = 'Slecht';
 $string['present'] = 'Aanwezig';

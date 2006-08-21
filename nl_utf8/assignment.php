@@ -1,9 +1,12 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 dev (2006071800)
+      // assignment.php - created with Moodle 1.7 dev (2006082100)
 
 
 $string['allowmultiple'] = 'Sta meerdere bestanden toe';
 $string['allowresubmit'] = 'Sta herhaald insturen toe';
+$string['assignment:grade'] = 'Beoordeel opdracht';
+$string['assignment:submit'] = 'Stuur opdracht in';
+$string['assignment:view'] = 'Bekijk opdracht';
 $string['assignmentdetails'] = 'De details van de opdracht';
 $string['assignmentmail'] = '$a->teacher heeft feedback gepost voor je bijdrage aan de opdracht \'$a->assignment\'
 Hij is toegevoegd aan je ingestuurde opdracht:
