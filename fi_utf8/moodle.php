@@ -1,5 +1,5 @@
-﻿<?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6.1+ (2006050511)
+<?PHP // $Id$ 
+      // moodle.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['action'] = 'Tapahtuma';
@@ -1147,6 +1147,11 @@ $string['statsreport3'] = 'Viestit  (opettajat ja opiskelijat)';
 $string['statsreport4'] = 'Kaikki aktiivisuus (opettajat ja opiskelijat)';
 $string['statsreport5'] = 'Kaikki opiskelijoiden aktiivisuus (lataukset ja viestit)';
 $string['statsreport6'] = 'Kaikki opettajien aktiivisuus (lataukset ja viestit)';
+$string['statsreport7'] = 'Käyttäjien aktiivisuus (lataukset ja viestit)';
+$string['statsreport8'] = 'Kaikki käyttäjien aktiivisuus';
+$string['statsreport9'] = 'Kirjautumiset';
+$string['statsreportactivity'] = 'Kaikki aktivisuus (opettaja ja opiskelijat)';
+$string['statsreportlogins'] = 'Kirjautumiset';
 $string['status'] = 'Tilanne';
 $string['strftimedate'] = '%%d %%B %%Y';
 $string['strftimedateshort'] = '%%d %%B';

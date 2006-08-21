@@ -1,5 +1,5 @@
-﻿<?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6.1+ (2006050511)
+<?PHP // $Id$ 
+      // wiki.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['action'] = '-- Toiminto --';
@@ -131,6 +131,7 @@ $string['preview'] = 'Esikatsele';
 $string['readonly'] = 'Kirjoitusuojattu sivu';
 $string['refs'] = 'Viittaukset';
 $string['reloadlinkdescription'] = 'Lataa sivun palvelimelta jotta sivun uusin sisältö näkyisi.';
+$string['reloadlinktext'] = 'Lataa sivu uudelleen';
 $string['removenotice'] = 'Huomaa että Ainostaan orposivut ovat listattuna tässä. Ja koska wiki testaa sivujen linkityksen vain osittain, voivat jotkut linkitetytkin sivut näkyä luettelossa.';
 $string['removepagecheck'] = 'Oletko varma että haluat poistaa nämä sivut?';
 $string['removepages'] = 'Poista sivuja';

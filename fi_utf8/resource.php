@@ -1,9 +1,10 @@
-﻿<?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6.1+ (2006050511)
+<?PHP // $Id$ 
+      // resource.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['addresource'] = 'Lisää aineisto';
 $string['back'] = 'Takaisin';
+$string['browserepository'] = 'Selaa varastoa';
 $string['choose'] = 'Valitse';
 $string['chooseafile'] = 'Valitse tai lähetä tiedosto';
 $string['chooseparameter'] = 'Valitse parametri';
@@ -83,6 +84,7 @@ $string['popupresource'] = 'Tämän aineiston tulee näkyä ponnahdusikkunassa.'
 $string['popupresourcelink'] = 'Jos et vielä napsannut, napsauta tässä: $a';
 $string['preview'] = 'Esikatselu';
 $string['previous'] = 'Edellinen';
+$string['repository'] = 'IMS varasto';
 $string['resourcetype'] = 'Aineiston tyyppi';
 $string['resourcetype1'] = 'Referenssi';
 $string['resourcetype2'] = 'Websivu';
@@ -96,11 +98,16 @@ $string['resourcetype9'] = 'Hakemisto';
 $string['resourcetypedirectory'] = 'Näytä hakemisto';
 $string['resourcetypefile'] = 'Linkitä  tiedostoon tai web-sivuun';
 $string['resourcetypehtml'] = 'Tee uusi web-sivu';
+$string['resourcetypeims'] = 'Lisää IMS-sisältöpaketti';
 $string['resourcetypelabel'] = 'Lisää otsikko';
+$string['resourcetyperepository'] = 'Linkki varastoobjektiin';
 $string['resourcetypetext'] = 'Tee uusi tekstisivu';
 $string['searchweb'] = 'Etsi web-sivua';
+$string['serverurl'] = 'Palvelimen URL ($a->wwwroot)';
+$string['showcourseblocks'] = 'Näytä kurssilohkot';
 $string['tableofcontents'] = 'Sisällysluettelo';
 $string['upbutton'] = 'Ylös';
 $string['variablename'] = 'Muuttujan nimi';
+$string['viewims'] = 'Katso IMS-sisältöpakettia';
 
 ?>
