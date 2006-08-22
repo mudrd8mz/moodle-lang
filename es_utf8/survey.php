@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.3 (2004052500)
+      // survey.php - created with Moodle 1.6 (2006050506)
 
 
-$string['actual'] = 'Actual';
-$string['actualclass'] = 'Clase actual';
-$string['actualstudent'] = '$a actual';
+$string['actual'] = 'Real';
+$string['actualclass'] = 'Clase real';
+$string['actualstudent'] = '$a real';
 $string['allquestions'] = 'Todas las preguntas en orden, todos los estudiantes';
 $string['allscales'] = 'Todas las escalas, todos los estudiantes';
 $string['alreadysubmitted'] = 'Ya envió esta información';
@@ -124,12 +124,12 @@ Cada una de las 24 declaraciones siguientes le interroga acerca de su experienci
 No hay respuestas \'correctas\' o \'equivocadas\', nosotros estamos interesados sólo en su opinión. Sus respuestas serán tratadas con alto grado de confidencialidad y no afectarán su evaluación.
 Sus respuestas, pensadas cuidadosamente, nos ayudarán a mejorar la manera de presentar esta unidad en el futuro.
 Muchas gracias.';
-$string['collesaname'] = 'COLLES (Actual)';
+$string['collesaname'] = 'COLLES (Real)';
 $string['collesapintro'] = 'El propósito de este cuestionario es ayudarnos a entender hasta qué punto la presentación en línea de esta unidad le facilitó el aprendizaje.
 Cada una de las declaraciones siguientes le pedirán que compare su experiencia <strong>favorita</strong> (ideal) y su experiencia <strong>real</strong> en esta unidad. Sus respuestas serán tratadas con alto grado de confidencialidad y no afectarán su evaluación.
 Sus respuestas, pensadas cuidadosamente, nos ayudarán a mejorar la manera de presentar esta unidad en el futuro.
 Muchas gracias por su colaboración.';
-$string['collesapname'] = 'COLLES (Favorita y actual)';
+$string['collesapname'] = 'COLLES (Favorita y real)';
 $string['collesm1'] = 'Relevancia';
 $string['collesm1short'] = 'Relevancia';
 $string['collesm2'] = 'Pensamiento reflexivo';
@@ -185,6 +185,9 @@ $string['scaletimes5'] = 'casi nunca, rara vez, alguna vez, a menudo, casi siemp
 $string['seemoredetail'] = 'Haga clic aquí para ver más detalles';
 $string['selectedquestions'] = 'Preguntas seleccionadas de una escala, todos los estudiantes';
 $string['summary'] = 'Resumen';
+$string['survey:download'] = 'Descargar respuestas';
+$string['survey:participate'] = 'Responder a la encuesta';
+$string['survey:readresponses'] = 'Ver respuestas';
 $string['surveycompleted'] = 'Usted ha completado la encuesta. La gráfica siguiente muestra sus resultados comparados con el promedio de la clase.';
 $string['surveyname'] = 'Nombre de la encuesta';
 $string['surveysaved'] = 'Encuesta guardada';

@@ -4,6 +4,9 @@
 
 $string['allowmultiple'] = 'Permitir archivos múltiples';
 $string['allowresubmit'] = 'Permitir reenvío';
+$string['assignment:grade'] = 'Calificar tarea';
+$string['assignment:submit'] = 'Enviar tarea';
+$string['assignment:view'] = 'Ver tarea';
 $string['assignmentdetails'] = 'Detalles de la tarea';
 $string['assignmentmail'] = 'El profesor $a->teacher ha hecho comentarios sobre su tarea \'$a->assignment\'
 

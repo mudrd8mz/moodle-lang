@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // resource.php - created with Moodle 1.6 (2006050506)
 
 
 $string['addresource'] = 'Agregar recurso';
@@ -90,6 +90,7 @@ $string['preview'] = 'Previsualizar';
 $string['previous'] = 'Anterior';
 $string['redeploy'] = 'Desplegar de nuevo';
 $string['repository'] = 'Repositorio IMS';
+$string['resource:view'] = 'Ver recurso';
 $string['resourcetype'] = 'Tipo de recurso';
 $string['resourcetype1'] = 'Referencia';
 $string['resourcetype2'] = 'Página web';

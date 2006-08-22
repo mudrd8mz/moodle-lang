@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // glossary.php - created with Moodle 1.6 (2006050506)
 
 
 $string['addcomment'] = 'Agregar comentario';
@@ -105,6 +105,17 @@ $string['fillfields'] = 'Los campos Concepto y Definición son obligatorios.';
 $string['filtername'] = 'Auto-enlace de glosario';
 $string['fullmatch'] = 'Sólo enlazar palabras completas';
 $string['globalglossary'] = 'Glosario global';
+$string['glossary:approve'] = 'Aprobar entradas pendientes';
+$string['glossary:comment'] = 'Crear comentarios';
+$string['glossary:export'] = 'Exportar entradas';
+$string['glossary:import'] = 'Importar entradas';
+$string['glossary:managecategories'] = 'Gestionar categorías';
+$string['glossary:managecomments'] = 'Gestionar comentarios';
+$string['glossary:manageentries'] = 'Gestionar entradas';
+$string['glossary:rate'] = 'Clasificar entradas';
+$string['glossary:view'] = 'Ver glosario';
+$string['glossary:viewrating'] = 'Ver clasificaciones';
+$string['glossary:write'] = 'Crear nuevas entradas';
 $string['glossaryleveldefaultsettings'] = 'Ajustes por defecto del nivel de glosario';
 $string['glossarytype'] = 'Tipo de glosario';
 $string['importcategories'] = 'Importar categorías';

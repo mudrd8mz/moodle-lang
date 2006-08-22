@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // error.php - created with Moodle 1.6 (2006050506)
 
 
 $string['adminprimarynoedit'] = 'El administrador primario no puede ser editado por otros';
@@ -43,6 +43,7 @@ $string['mustbeteacher'] = 'Sólo los profesores pueden ver esta página';
 $string['noinstances'] = 'En este curso no aparece $a.';
 $string['nonmeaningfulcontent'] = 'No contenido significativo';
 $string['noparticipatorycms'] = 'Lo sentimos, no dispone de módulos de participación en cursos sobre los que informar.';
+$string['nopermissions'] = 'Lo sentimos, pero por el momento no tiene permiso para hacer eso ($a)';
 $string['notavailable'] = 'No disponible en este momento';
 $string['onlyadmins'] = 'Sólo los administradores pueden hacer eso.';
 $string['onlyeditingteachers'] = 'Sólo los profesores con permiso de edición pueden hacer eso.';

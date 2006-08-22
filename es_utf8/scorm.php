@@ -3,7 +3,7 @@
 
 
 $string['advanced'] = 'Avanzada';
-$string['asset'] = 'Asset';
+$string['asset'] = 'Recurso';
 $string['attempt'] = 'intento';
 $string['attempts'] = 'intentos';
 $string['attr_error'] = 'Valor incorrecto para el atributo ($a->attr) en la marca $a->tag.';
@@ -16,6 +16,7 @@ $string['browsemode'] = 'Modo Navegación';
 $string['browserepository'] = 'Navegar por el repositorio';
 $string['chooseapacket'] = 'Elegir o actualizar un paquete SCORM';
 $string['completed'] = 'Completado';
+$string['confirmloosetracks'] = 'ATENCIÓN: El paquete parece haber sido modificado.nSi la estructura del paquete se ha cambiado,nlas pistas de algunos usuarios pueden haberse perdido durante el proceso de actualización.';
 $string['coursepacket'] = 'Paquete de curso';
 $string['coursestruct'] = 'Estructura de curso';
 $string['datadir'] = 'Error de sistema: No se puede crear el directorio de datos del curso';
@@ -32,8 +33,8 @@ $string['failed'] = 'Error';
 $string['firstaccess'] = 'Primer acceso';
 $string['firstattempt'] = 'Primer intento';
 $string['found'] = 'Encontrado manifiesto';
-$string['frameheight'] = 'Esta preferencia determina la altura por defecto del marco SCO';
-$string['framewidth'] = 'Esta preferencia ajusta la anchura por defecto del marco SCO';
+$string['frameheight'] = 'Esta preferencia determina la altura por defecto del marco o ventana SCO';
+$string['framewidth'] = 'Esta preferencia ajusta la anchura por defecto del marco o ventana SCO';
 $string['fullscreen'] = 'Llenar toda la pantalla';
 $string['general'] = 'Datos generales';
 $string['gradeaverage'] = 'Calificación promedio';
@@ -99,7 +100,9 @@ $string['review'] = 'Revisión';
 $string['reviewmode'] = 'Modo Revisión';
 $string['scoes'] = 'Scoes';
 $string['score'] = 'Puntuación';
-$string['scormcourse'] = 'Curso SCORM';
+$string['scorm:view'] = 'Ver contenido';
+$string['scorm:viewgrades'] = 'Ver calificaciones';
+$string['scormcourse'] = 'Curso de Aprendizaje';
 $string['scrollbars'] = 'Permitir desplazamiento de la ventana';
 $string['sided'] = 'A la izquierda';
 $string['stagesize'] = 'Tamaño de marco/ventana';
@@ -123,6 +126,6 @@ $string['versionwarning'] = 'La versión del manifiesto es anterior a la 1.3, at
 $string['viewallreports'] = 'Ver los informes de $a intentos';
 $string['whatgrade'] = 'Calificación de intentos';
 $string['width'] = 'Anchura';
-$string['window'] = 'Marco/Ventana';
+$string['window'] = 'Ventana';
 
 ?>

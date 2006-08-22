@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.5.2 (2005060220)
+      // hotpot.php - created with Moodle 1.6 (2006050506)
 
 
 $string['abandoned'] = 'Abandonado';
@@ -45,6 +45,7 @@ $string['filetype'] = 'Tipo de archivo';
 $string['forceplugins'] = 'Forzar plugins multimedia';
 $string['giveup'] = 'Abandonar';
 $string['hints'] = 'Ayudas';
+$string['hotpot:view'] = 'Usar cuestionario';
 $string['ignored'] = 'Ignorado';
 $string['inprogress'] = 'En progreso';
 $string['location'] = 'Localización del archivo';
@@ -55,7 +56,7 @@ $string['navigation_bar'] = 'Barra de navegación de Moodle';
 $string['navigation_buttons'] = 'Botones de Hot Potatoes';
 $string['navigation_frame'] = 'Marco de navegación de Moodle';
 $string['navigation_give_up'] = 'Solamente un botón de \"Abandonar\" ';
-$string['navigation_iframe'] = '<IFRAME> embebido';
+$string['navigation_iframe'] = '<IFRAME>> embebido';
 $string['navigation_none'] = 'Ninguna';
 $string['neverclosed'] = 'Nunca cerrado';
 $string['noactivity'] = 'No hay actividad';

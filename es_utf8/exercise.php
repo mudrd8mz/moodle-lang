@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004092700)
+      // exercise.php - created with Moodle 1.6 (2006050506)
 
 
 $string['absent'] = 'Ausente';
@@ -49,6 +49,7 @@ $string['enterpassword'] = 'Escriba la contraseña';
 $string['entriessaved'] = 'Entradas guardadas';
 $string['errorbanded'] = 'Franja de error';
 $string['excellent'] = 'Excelente';
+$string['exercise:assess'] = 'Evaluar ejercicio';
 $string['exerciseassessments'] = 'Evaluaciones del ejercicio';
 $string['exercisefeedback'] = 'Respuesta al ejercicio';
 $string['exercisesubmissions'] = 'Envíos del ejercicio';

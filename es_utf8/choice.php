@@ -1,11 +1,15 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005042100)
+      // choice.php - created with Moodle 1.6 (2006050506)
 
 
 $string['addmorechoices'] = 'Añadir más opciones';
 $string['allowupdate'] = 'Permitir la actualización de la consulta';
 $string['answered'] = 'Contestado';
-$string['choice'] = 'Opción $a';
+$string['choice'] = 'Opción';
+$string['choice:choose'] = 'Registrar una elección';
+$string['choice:deleteresponses'] = 'Eliminar respuestas';
+$string['choice:downloadresponses'] = 'Descargar respuestas';
+$string['choice:readresponses'] = 'Leer respuestas';
 $string['choiceclose'] = 'Hasta';
 $string['choicename'] = 'Título de la consulta';
 $string['choiceopen'] = 'Abrir';
