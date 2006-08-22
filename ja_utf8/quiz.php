@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006081000)
+      // quiz.php - created with Moodle 1.7 dev (2006082100)
 
 
 $string['1day'] = '1日';
@@ -188,6 +188,11 @@ $string['exportnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['exportquestions'] = '問題をファイルにエクスポートする';
 $string['false'] = '×';
 $string['feedback'] = 'フィードバック';
+$string['feedbackerrorboundaryformat'] = 'フィードバック評点境界は、パーセンテージまたは数値で入力してください。あなたが入力した境界 $a は認められません。';
+$string['feedbackerrorboundaryoutofrange'] = 'フィードバック評点境界は、0%%から100%%の間で入力してください。あなたが入力した境界 $a は範囲外です。';
+$string['feedbackerrorjunkinboundary'] = '評点境界ボックスには、ギャップなしで入力してください。';
+$string['feedbackerrorjunkinfeedback'] = 'フィードバックボックスには、ギャップなしで入力してください。';
+$string['feedbackerrororder'] = 'フィードバック評点境界は、最初に最高値から順に入力してください。あなたが入力した境界 $a の順番は正しくありません。';
 $string['file'] = 'ファイル';
 $string['fileformat'] = 'ファイルフォーマット';
 $string['fillcorrect'] = '正解を表示する';
@@ -212,6 +217,7 @@ $string['gift'] = 'GIFTフォーマット';
 $string['grade'] = '評点';
 $string['gradeall'] = 'すべてを評定する';
 $string['gradeaverage'] = '平均評点';
+$string['gradeboundary'] = '評点境界';
 $string['gradeessays'] = '作文問題を評定する';
 $string['gradehighest'] = '最高評点';
 $string['grademethod'] = '評定方法';
@@ -332,6 +338,7 @@ $string['onlyteachersexport'] = '教師のみが問題をエクスポートで�
 $string['onlyteachersimport'] = '権限のある教師のみが問題をインポートできます。';
 $string['optional'] = 'オプション';
 $string['outof'] = '$a->grade / $a->maxgrade';
+$string['overallfeedback'] = '全体のフィードバック';
 $string['overdue'] = '期限切れ';
 $string['pagesize'] = '1ページあたりの受験数:';
 $string['paragraphquestion'] = '$a 行目の段落問題はサポートされていません。問題は無視されます。';
@@ -374,6 +381,7 @@ $string['quizcloses'] = '終了日時';
 $string['quiznotavailable'] = '小テストは  $a まで利用できません。';
 $string['quizopen'] = '小テスト公開';
 $string['quizopens'] = '公開日時';
+$string['quizsettings'] = '小テスト設定';
 $string['quiztimelimit'] = '制限時間: $a';
 $string['quiztimer'] = '小テストタイマー';
 $string['random'] = 'ランダム問題';
