@@ -1,5 +1,5 @@
-﻿<?PHP // $Id$ 
-      // auth.php - created with Moodle 1.5.2 + (2005060222)
+<?PHP // $Id$ 
+      // auth.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['alternatelogin'] = 'Jos kirjoitat tähän URL:n, sitä käytetään kirjautumissivuna tälle sivustolle. Sivun pitäisi sisältää lomake, jonak ominaisuudet on asetettu <strong>\'$a\'</strong> ja joko antaa paluukentät <strong>käyttäjänimi</strong> and <strong>salasana</strong>.<br />
@@ -66,12 +66,12 @@ $string['auth_ldap_create_context'] = 'Jos sähköpostiviestillä tunnuksensa va
 $string['auth_ldap_creators'] = 'Lista ryhmistä, minkä jäsenet voivat luoda uusia kursseja Moodleen. Erota useat ryhmät toisistaan \';\'-merkillä. Esimerkiksi \'cn=teachers,ou=staff,o=myorg;\'';
 $string['auth_ldap_expiration_desc'] = 'Valitse \"Ei\" poistaaksesi vanhentuneiden salasanojen seurannan. Tai \"LDAP\" jos haluat näyttää käyttäjille viestin kun heidän salasanansa on vanhenemassa.';
 $string['auth_ldap_expiration_warning_desc'] = 'päivien määrä ennen salasanan voimassaolon loppumista on asetettu.';
-$string['auth_ldap_expireattr_desc'] = 'Valinnainen: ylimääritä haluamasi ';
+$string['auth_ldap_expireattr_desc'] = 'Valinnainen: ylimääritä haluamasi';
 $string['auth_ldap_graceattr_desc'] = 'Valinnainen: ohita graceLogin atribuutti';
 $string['auth_ldap_gracelogins_desc'] = 'Käytä LDAP graceLogin ominaisuutta. Esim. Edirectory voidaan konfiguroida kirjaamaan käyttäjä sisään  vielä muutaman kerran salasanan vanhenemisen jälkeen, jotta salana voidaan vaihtaa. Jos haluat antaa ilmoituksen kun käyttäjä käyttää grace-logineja valise \"Kyllä\".';
-$string['auth_ldap_host_url'] = 'Määritä LDAP-palvelin URL-muodossa. Esim. \'ldap://ldap.myorg.com/\' tai \'ldaps://ldap.myorg.com/\' ';
+$string['auth_ldap_host_url'] = 'Määritä LDAP-palvelin URL-muodossa. Esim. \'ldap://ldap.myorg.com/\' tai \'ldaps://ldap.myorg.com/\'';
 $string['auth_ldap_login_settings'] = 'Kirjaantumisasetukset';
-$string['auth_ldap_memberattribute'] = 'Valinnainen: ylimääritä käyttäjän ryhmäjäsenyysattribuutti. Yleensä \'member\' tai \'groupMembership\' ';
+$string['auth_ldap_memberattribute'] = 'Valinnainen: ylimääritä käyttäjän ryhmäjäsenyysattribuutti. Yleensä \'member\' tai \'groupMembership\'';
 $string['auth_ldap_objectclass'] = 'Valinnainen: ylimääritä objectClass jota käytetää käyttäjien hakuun.';
 $string['auth_ldap_opt_deref'] = 'määrittä kuinka aliakset käsitellään haun aikana. Valitse yksi seuraavista vaihtoehdoista: \"Ei\" (LDAP_DEREF_NEVER) tai \"Kyllä\" (LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_passwdexpire_settings'] = 'LDAP salasanojen vanheneminen';
@@ -123,7 +123,7 @@ $string['auth_shibboleth_manual_login'] = 'Sisäänkirjautuminen käsin';
 $string['auth_shibbolethdescription'] = 'Tätä menetelmää käyttäessä käyttäjät luodaan ja varmennetaan käyttäen href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth-käyttäjänvarmennusta</a>. Lue <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README (englanniksi)</a>, jossa kerrotaan kuinka Moodle asetetaan käyttämään Shibbolethin-varmennusta.';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_updatelocal'] = 'Päivitä sisäinen arvo';
-$string['auth_updatelocal_expl'] = '<p><b>Päivitä sisäinen arvo:</b> Jos ei onnistu, kenttä päivittyy joka kerta käyttäjän kirjautuessa tai käyttäjäsynkronoinnin yhteydessä. Kentät jotka on asetettu päivittymään paikallisesti tulisi lukita.</p> ';
+$string['auth_updatelocal_expl'] = '<p><b>Päivitä sisäinen arvo:</b> Jos ei onnistu, kenttä päivittyy joka kerta käyttäjän kirjautuessa tai käyttäjäsynkronoinnin yhteydessä. Kentät jotka on asetettu päivittymään paikallisesti tulisi lukita.</p>';
 $string['auth_updateremote'] = 'Päivitä ulkoinen arvo';
 $string['auth_updateremote_expl'] = '<p><b>Päivitä ulkoinen tieto:</b> Jos tämä ei onnistu, ulkoinen tieto päivitetään samalla kun käyttäjä rekisteri päivitetään. Kenttien pitäisi olla lukitsemattomia, jotta editointi sallitaan.</p>';
 $string['auth_updateremote_ldap'] = '<p><b>Huomautus:</b> Ulkoisen LDAP tiedon päivitys vaatii, että asetetaan binddn ja bindpw
@@ -135,14 +135,13 @@ $string['authenticationoptions'] = 'Käyttäjätunnistuksen asetukset';
 $string['authinstructions'] = 'Tähän voi kirjoittaa ohjeet opiskelijoille, mitä tunnusta ja salasanaa heidän tulisi käyttää. Tämä teksti näkyy kirjautumissivulla.';
 $string['changepassword'] = 'Salasananvaihto-URL';
 $string['changepasswordhelp'] = 'Tässä osoitteessa käyttäjät voivat vaihtaa unohtamansa salasanan. Käyttäjille tämä näkyy painikkeena kirjautumissivulla ja heidän käyttäjätietosivullaan.';
-$string['chooseauthmethod'] = 'Valitse käyttäjäntunnistusmetodi: ';
-$string['createchangepassword'] = 'Luo, jos ei olemassa - pakota muutos';
-$string['createpassword'] = 'Luo, jos ei olemassa';
+$string['chooseauthmethod'] = 'Valitse käyttäjäntunnistusmetodi:';
+$string['createpasswordifneeded'] = 'Luo salasana tarvittaessa';
 $string['forcechangepassword'] = 'Pakota salasanan vaihto';
 $string['forcechangepassword_help'] = 'Pakota käyttäjät vaihtamaan salasanaa heidän seuraavalla Moodleen kirjautumiskerrallaan.';
 $string['forcechangepasswordfirst_help'] = 'Pakota käyttäjät vaihtamaan salasanaa heidän ensimmäisellä Moodleen kirjautumiskerrallaan.';
 $string['guestloginbutton'] = 'Kirjaudu vieraana-painike';
-$string['infilefield'] = 'Kenttään tarvitaan tiedostossa';
+$string['infilefield'] = 'Salasana on tiedostossa';
 $string['instructions'] = 'Ohjeet';
 $string['locked'] = 'Lukittu';
 $string['md5'] = 'MD5-salaus';
