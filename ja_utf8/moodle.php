@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006081700)
+      // moodle.php - created with Moodle 1.7 dev (2006082200)
 
 
 $string['action'] = '操作';
@@ -1145,8 +1145,8 @@ $string['siteerrors'] = 'サイトエラー';
 $string['sitefiles'] = 'サイトファイル';
 $string['sitelogs'] = 'サイトログ';
 $string['sitenews'] = 'サイトニュース';
-$string['sitepartlist0'] = 'サイト教師のみが参加者リストを閲覧することができます。';
-$string['sitepartlist1'] = '教師のみが参加者リストを閲覧することができます。';
+$string['sitepartlist0'] = 'サイト教師のみ参加者リストを閲覧することができます。';
+$string['sitepartlist1'] = '教師のみ参加者リストを閲覧することができます。';
 $string['sites'] = 'サイト';
 $string['sitesection'] = 'トピックセクションを表示する';
 $string['sitesettings'] = 'サイト設定';

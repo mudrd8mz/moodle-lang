@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006081000)
+      // forum.php - created with Moodle 1.7 dev (2006082200)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加';
@@ -182,7 +182,7 @@ $string['rate'] = '評価';
 $string['rating'] = '評価';
 $string['ratingeveryone'] = '誰でも投稿を評価できる';
 $string['ratingno'] = '評価なし';
-$string['ratingonlyteachers'] = '$a のみが投稿を評価できる';
+$string['ratingonlyteachers'] = '$a のみ投稿を評価できる';
 $string['ratingpublic'] = '$a は全員の評価を閲覧できる';
 $string['ratingpublicnot'] = '$a は自分の評価のみ閲覧できる';
 $string['ratings'] = '評価';

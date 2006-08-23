@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006082100)
+      // quiz.php - created with Moodle 1.7 dev (2006082200)
 
 
 $string['1day'] = '1日';
@@ -334,8 +334,8 @@ $string['notimedependentitems'] = '現在、時間に依存する問題は小テ
 $string['numattempts'] = '$a->studentnum 名の $a->studentstring が $a->attemptnum 回受験しました。';
 $string['numberabbr'] = '#';
 $string['numerical'] = '数値問題';
-$string['onlyteachersexport'] = '教師のみが問題をエクスポートできます。';
-$string['onlyteachersimport'] = '権限のある教師のみが問題をインポートできます。';
+$string['onlyteachersexport'] = '教師のみ問題をエクスポートできます。';
+$string['onlyteachersimport'] = '権限のある教師のみ問題をインポートできます。';
 $string['optional'] = 'オプション';
 $string['outof'] = '$a->grade / $a->maxgrade';
 $string['overallfeedback'] = '全体のフィードバック';
@@ -528,8 +528,8 @@ $string['wronggrade'] = '誤評定 ( $a 行目以降 ):';
 $string['wronguse'] = 'あなたは、このページをそのように使うことはできません。';
 $string['xhtml'] = 'XHTMLフォーマット';
 $string['xml'] = 'Moodle XMLフォーマット';
-$string['xmltypeunsupported'] = '問題タイプ $a はxmlインポートでサポートされていません。';
+$string['xmltypeunsupported'] = '問題タイプ $a は、xmlインポートでサポートされていません。';
 $string['yourfinalgradeis'] = 'あなたの最終評点は $a です。';
-$string['zerosignificantfiguresnotallowed'] = '正解の有効数字にはゼロを設定できません!';
+$string['zerosignificantfiguresnotallowed'] = '正解の有効数字には、ゼロを設定できません!';
 
 ?>

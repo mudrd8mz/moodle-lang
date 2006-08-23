@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006081700)
+      // admin.php - created with Moodle 1.7 dev (2006082200)
 
 
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示';
@@ -124,7 +124,7 @@ $string['configstatsfirstrun'] = 'ここでは、cronジョブが<b>最初の</b
 $string['configstatsmaxruntime'] = '統計処理は、コンピュータに大きな負荷がかかる場合があります。このオプションと次のオプションの組み合わせで、「いつ」および「どのくらい」稼動させるか設定してください。';
 $string['configstatsruntimestart'] = '何時にcronジョブの統計処理を<b>開始</b>させますか?';
 $string['configstatsuserthreshold'] = 'コースランキングのため、ゼロ以外または数値以外の値をここに入力した場合、この値より少ない登録ユーザ ( 学生 + 教師 ) のコースは無視されます。';
-$string['configteacherassignteachers'] = '一般の教師は、自分が教えるコースに他の教師を割り当てることができますか? 「No」の場合、コース作成者および管理者のみが教師の割り当てを行うことができます。';
+$string['configteacherassignteachers'] = '一般の教師は、自分が教えるコースに他の教師を割り当てることができますか? 「No」の場合、コース作成者および管理者のみ教師の割り当てを行うことができます。';
 $string['configthemelist'] = '空白にした場合、すべてのテーマを使用することができます。テーマメニューを短くしたい場合は、カンマで区切ったテーマ名を入力してください ( テーマ名に空白を使用しないでください! )。例: standard,orangewhite';
 $string['configtimezone'] = 'デフォルトタイムゾーンの設定を行うことができます。これは日付表示のためのデフォルトタイムゾーンを設定するのみで、各ユーザはプロフィールの設定により、この設定を変更することができます。ここで設定する「サーバ時間」はオペレーティングシステムに対するMoodleのデフォルト設定です。これに対してユーザプロフィールの「サーバ時間」では、ユーザが独自のデフォルトタイムゾーン設定を行います。時刻に依存するcronジョブは、このタイムゾーンを使用します。';
 $string['configunzip'] = 'unzipプログラムのパスを指定してください ( Unix/Linuxのみ、任意 )。パスを指定した場合、サーバ内のzipファイル解凍時に使用されます。空白にした場合、Moodleは内部ルーチンを使用します。';
@@ -135,11 +135,11 @@ $string['confirmation'] = '確認';
 $string['confirminstall'] = 'あなたは言語パック ( $a ) をインストールしようとしています。本当によろしいですか?';
 $string['courserequests'] = 'コースリクエスト';
 $string['courses'] = 'コース';
-$string['cronwarning'] = '<a href=\"cron.php\">cron.phpメンテナンススクリプト</a>が少なくとも24時間稼動していません。';
+$string['cronwarning'] = '<a href=\"cron.php\">cron.phpメンテナンススクリプト</a>が、少なくとも24時間稼動していません。';
 $string['dbmigrate'] = 'Moodleデータベース移行';
 $string['dbmigrateconnecerror'] = '指定されたデータベースに接続できませんでした。';
 $string['dbmigrateencodingerror'] = '指定されたデータベースのエンコードは、必須のユニコード/UTF8と異なり、 $a となっています。<br />他のエンコードを指定してください。';
-$string['dbmigratepostgres'] = 'あなたはデータベースサーバとして、PostgreSQLを使用しているようです。移行処理を続けるには、移行データを保存するため「ユニコード」 ( PostgreSQL 7 ) または「UTF8」 ( PostgreSQL 8 ) の新たなデータベースを手動で作成してください。続けるには、下記に新たなデータベース接続設定を入力してください。';
+$string['dbmigratepostgres'] = 'あなたはデータベースサーバとして、PostgreSQLを使用しているようです。移行処理を続けるには、移行データを保存するため「ユニコード」 ( PostgreSQL 7 ) または「UTF8」 ( PostgreSQL 8 ) の新たなデータベースを手動で作成してください。続けるには、下記に新たなデータベース接続設定を入力してください:';
 $string['dbmigratewarning'] = 'この処理を始める前に、Moodleデータベースをバックアップしたか確認してください。バックアップの方法が分からない場合は、システム管理者にご連絡ください。移行プロセスの開始後、あなたのMoodleサイトはメンテナンスモードに変更されます。';
 $string['dbmigratewarning2'] = '<b>警告: あなたはデータベース移行処理を開始しようとしています。すべてのMoodleデータベースをバックアップしているか、確実に確認してください。</b>';
 $string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">このデータベースは廃止され、新しいUTF8データベースに移行されました。このMoodleに新しいデータベースを使用するため、config.phpを編集してください。</font>';
@@ -251,7 +251,7 @@ $string['sitemaintenancewarning'] = 'あなたのサイトは、現在メンテ�
 $string['sitepolicies'] = 'サイトポリシー';
 $string['stickyblocks'] = 'スティッキーブロック';
 $string['stickyblockscourseview'] = 'コースページ';
-$string['stickyblocksduplicatenotice'] = 'ここで追加したブロックが、すでにページに存在する場合、重複することになります。<br />しかし、スティッキーブロックのみ編集不可で、重複したブロックは編集することができます。';
+$string['stickyblocksduplicatenotice'] = 'あなたがここで追加するブロックが、すでにページに存在する場合、重複することになります。<br />固定されたブロックのみ編集不可で、重複したブロックは編集することができます。';
 $string['stickyblocksmymoodle'] = 'マイ moodle';
 $string['stickyblockspagetype'] = '設定するページタイプ';
 $string['systempaths'] = 'システムパス';
