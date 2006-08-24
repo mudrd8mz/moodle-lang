@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006082200)
+      // moodle.php - created with Moodle 1.7 dev (2006082300)
 
 
 $string['action'] = '操作';
@@ -1075,7 +1075,7 @@ $string['rsstype'] = 'この活動のRSSフィード';
 $string['saveandnext'] = '保存して次を表示';
 $string['savechanges'] = '変更を保存する';
 $string['savedat'] = '保存日時:';
-$string['savepreferences'] = '設定を保存';
+$string['savepreferences'] = '設定を保存する';
 $string['saveto'] = '保存先';
 $string['scale'] = '評価尺度';
 $string['scales'] = '評価尺度';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.7 dev (2006060900)
+      // grades.php - created with Moodle 1.7 dev (2006082300)
 
 
 $string['addcategory'] = 'カテゴリの追加';
@@ -89,7 +89,7 @@ $string['preferences'] = 'オプション';
 $string['rawpct'] = '実%%';
 $string['reprintheaders'] = 'ヘッダの再表示';
 $string['savechanges'] = '変更を保存する';
-$string['savepreferences'] = '設定を保存';
+$string['savepreferences'] = '設定を保存する';
 $string['scaledpct'] = '伸縮%%';
 $string['setcategories'] = 'カテゴリの設定';
 $string['setcategorieserror'] = '比重を与える前にコースにカテゴリを設定してください。';

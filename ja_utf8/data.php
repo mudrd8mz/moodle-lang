@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006082200)
+      // data.php - created with Moodle 1.7 dev (2006082300)
 
 
 $string['action'] = '操作';
@@ -185,9 +185,9 @@ $string['save'] = '保存';
 $string['saveandadd'] = '保存して次を追加する';
 $string['saveandview'] = '保存して表示する';
 $string['saveaspreset'] = 'プリセットとして保存する';
-$string['savesettings'] = '設定の保存';
+$string['savesettings'] = '設定を保存する';
 $string['savesuccess'] = '正常に保存されました。あなたのプリセットは、サイト全体で利用できます。';
-$string['savetemplate'] = 'テンプレートの保存';
+$string['savetemplate'] = 'テンプレートを保存する';
 $string['sendinratings'] = '私の評価を送信する';
 $string['single'] = '個別表示';
 $string['singletemplate'] = '個別表示用テンプレート';

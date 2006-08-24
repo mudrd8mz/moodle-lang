@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.7 dev (2006071800)
+      // workshop.php - created with Moodle 1.7 dev (2006082300)
 
 
 $string['absent'] = '欠席';
@@ -227,12 +227,12 @@ $string['returnto'] = '戻る';
 $string['returntosubmissionpage'] = '登録ページに戻る';
 $string['rubric'] = 'ルーブリック';
 $string['savedok'] = '正常に保存されました。';
-$string['saveleaguetableoptions'] = '成績一覧表オプションを保存';
-$string['savemyassessment'] = '評価を保存';
-$string['savemycomment'] = 'コメントを保存';
-$string['savemygrading'] = '評定を保存';
-$string['savemysubmission'] = '提出課題を保存';
-$string['saveoverallocation'] = '割り当て回数過剰を許す度合を保存';
+$string['saveleaguetableoptions'] = '成績一覧表オプションを保存する';
+$string['savemyassessment'] = '私の評価を保存する';
+$string['savemycomment'] = '私のコメントを保存する';
+$string['savemygrading'] = '私の評定を保存する';
+$string['savemysubmission'] = '私の提出課題を保存する';
+$string['saveoverallocation'] = '割り当て回数過剰を許す度合を保存するF&';
 $string['scale10'] = '10点中の評点';
 $string['scale100'] = '100点中の評点';
 $string['scale20'] = '20点中の評点';

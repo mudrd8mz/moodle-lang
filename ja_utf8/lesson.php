@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006060900)
+      // lesson.php - created with Moodle 1.7 dev (2006082300)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -100,14 +100,13 @@ $string['flowcontrol'] = 'フローコントロール';
 $string['full'] = '広げる';
 $string['general'] = '一般設定';
 $string['grade'] = '評点';
-$string['gradebetterthan'] = '評点が上 (&#37;)';
+$string['gradebetterthan'] = '評点が上 (%%)';
 $string['gradebetterthanerror'] = '$a パーセントより多い評点が与えられています。';
 $string['gradeessay'] = '作文問題の評定 ( 評定未了: $a->notgradedcount 件、送信未了 $a->notsentcount 件 )';
 $string['gradeis'] = '評点は $a です';
 $string['gradeoptions'] = '評定オプション';
 $string['handlingofretakes'] = '再受験の評定方法';
 $string['havenotgradedyet'] = '未評定';
-$string['here'] = '&nbsp;';
 $string['highscore'] = '最高評点';
 $string['highscores'] = 'ハイスコア';
 $string['hightime'] = '最長時間';
@@ -228,7 +227,7 @@ $string['reviewquestioncontinue'] = 'いいえ、次の問題に移ります。'
 $string['sanitycheckfailed'] = '正当性チェックが失敗しました: この受験は削除されました。';
 $string['savechanges'] = '変更を保存する';
 $string['savechangesandeol'] = 'すべての変更を保存してレッスンの最後に移動する。';
-$string['savepage'] = 'ページを保存';
+$string['savepage'] = 'ページを保存する';
 $string['score'] = '評点';
 $string['scores'] = '評点';
 $string['secondpluswrong'] = 'もう一度受験しますか?';
