@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006082200)
+      // quiz.php - created with Moodle 1.7 dev (2006082300)
 
 
 $string['1day'] = '1日';
@@ -197,7 +197,7 @@ $string['file'] = 'ファイル';
 $string['fileformat'] = 'ファイルフォーマット';
 $string['fillcorrect'] = '正解を表示する';
 $string['filloutnumericalanswer'] = 'あなたは、少なくとも1つの答えおよび許容誤差を入力しました。最初の組み合わせの答えは、点数とフィードバックを決定するために使用されます。あなたが最後に答えの無いいくつかのフィードバックを提供した場合、学生には解答が他のどの答えとも合致していない旨が表示されてしまいます。';
-$string['filloutoneanswer'] = '1つ以上の考えられる答えを入力してください。空白は使用できません。「*」は、どのような文字にでも合致するワイルドカードとして使用することができます。最初の組み合わせの答えは、点数とフィードバックを決定するために使用されます。';
+$string['filloutoneanswer'] = '1つ以上の考えられる答えを入力してください。空白の答えは使用されません。「*」は、どのような文字にでも合致するワイルドカードとして使用することができます。最初の組み合わせの答えは、点数とフィードバックを決定するために使用されます。';
 $string['filloutthreequestions'] = '組み合わせの答えがある問題を、少なくとも3つ入力してください。答えと空白の問題を使用して、誤答を余分に提供することもできます。問題と答え両方が空白のエントリは無視されます。';
 $string['fillouttwochoices'] = '2つ以上の選択を入力してください。空白は使用できません。';
 $string['finishattempt'] = 'すべてを送信して終了';
@@ -266,7 +266,7 @@ $string['link'] = 'リンク';
 $string['listitems'] = '問題一覧';
 $string['literal'] = '定数';
 $string['loguniform'] = '対数一様分布';
-$string['makecopy'] = '新しい問題として保存';
+$string['makecopy'] = '新しい問題として保存する';
 $string['managetypes'] = '問題タイプとサーバの管理';
 $string['manualgrading'] = '評定';
 $string['mark'] = '送信';
