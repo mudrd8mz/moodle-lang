@@ -152,7 +152,7 @@ $string['optionaldescription'] = '短い説明 ( 任意 )';
 $string['optionalfilename'] = 'ファイル名 ( 任意 )';
 $string['overwrite'] = '上書き';
 $string['pagesize'] = '1ページあたりのエントリ数';
-$string['participants'] = '関係者';
+$string['participants'] = '参加者';
 $string['picture'] = 'ピクチャー';
 $string['pleaseaddsome'] = '始めるには、下記で新しいフィールドを追加するか、<a href=\"$a\">定義済みのフィールドセットを選択</a>してください。';
 $string['presets'] = 'プリセット';
