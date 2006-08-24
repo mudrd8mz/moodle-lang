@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?php // $Id$
       // enrol_authorize.php - created with Moodle 1.5.2 + (2005060222)
 
 

@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?php // $Id$
       // assignment.php - created with Moodle 1.6.1+ (2006050511)
 
 

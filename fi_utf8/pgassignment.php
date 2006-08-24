@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?php // $Id$
       // pgassignment.php - created with Moodle 1.0.9 development (2003050400)
 
 
