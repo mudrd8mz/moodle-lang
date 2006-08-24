@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006081000)
+      // moodle.php - created with Moodle 1.7 dev (2006082300)
 
 
 $string['action'] = 'Eylem';
@@ -919,6 +919,7 @@ $string['noteuserschangednonetocourse'] = 'Dikkat: Kullanıcı verisini geri yü
 $string['nothingnew'] = 'Son girişinizden beri yeni bir şey yok';
 $string['nothingtodisplay'] = 'Gösterilecek bir şey yok';
 $string['noticenewerbackup'] = 'Bu yedek dosyası sürüm $a->backuprelease ($a->backupversion) ile oluşturuldu ve bu şu an kullandığınız sürümden $a->serverrelease ($a->serverversion) daha yeni. Bu bazı uyuşmazlıklara sebep olabilir, çünkü, geriye yönelik yedekleme uyumluluğu garantisi verilemez.';
+$string['notifications'] = 'Bildirimler';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Kullanıcı: $a->info';
 $string['notifyloginfailuresmessageend'] = 'Bu kayıtlara buradan bakabilirsiniz: $a/course/log.php?id=1&chooselog=1&modid=site_errors.';
 $string['notifyloginfailuresmessagestart'] = 'Son bilgilendirildiğinizden beri hatalı girişlerin listesi: $a';
