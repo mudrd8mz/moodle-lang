@@ -2,7 +2,8 @@
       // qtype_multichoice.php - created with Moodle 1.7 dev (2006082300)
 
 
-$string['answersingleno'] = '複数解答可能';
+$string['answerhowmany'] = '単一または複数解答?';
+$string['answersingleno'] = '複数解答を許可';
 $string['answersingleyes'] = '単一の解答のみ';
 $string['choiceno'] = '選択肢 $a';
 $string['choices'] = '利用可能な選択肢';

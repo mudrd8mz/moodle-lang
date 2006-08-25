@@ -107,6 +107,7 @@ $string['gradeis'] = '評点は $a です';
 $string['gradeoptions'] = '評定オプション';
 $string['handlingofretakes'] = '再受験の評定方法';
 $string['havenotgradedyet'] = '未評定';
+$string['here'] = '&nbsp;';
 $string['highscore'] = '最高評点';
 $string['highscores'] = 'ハイスコア';
 $string['hightime'] = '最長時間';
