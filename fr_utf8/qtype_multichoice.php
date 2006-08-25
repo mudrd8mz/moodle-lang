@@ -1,5 +1,6 @@
 <?php // $Id$ 
 
+$string['answerhowmany'] = 'Une seule ou plusieurs réponses ?';
 $string['answersingleno'] = 'Réponses multiples autorisées';
 $string['answersingleyes'] = 'Une seule réponse';
 $string['choiceno'] = 'Réponse $a';
