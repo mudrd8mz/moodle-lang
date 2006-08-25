@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006082200)
+      // forum.php - created with Moodle 1.7 dev (2006082300)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加';
@@ -230,14 +230,14 @@ $string['subscribestart'] = 'このフォーラムの投稿記事をメール購
 $string['subscribestop'] = 'このフォーラムの投稿記事をメール購読しない';
 $string['subscription'] = 'メール購読';
 $string['subscriptions'] = 'メール購読';
-$string['thisforumisthrottled'] = 'このフォーラムでは、期限内にあなたが投稿できる投稿数を制限しています - 設定は現在 $a->blockperiod で $a->blockafter 回に設定されています。';
-$string['timestartenderror'] = '表示終了日は表示開始日より先にすることはできません。';
+$string['thisforumisthrottled'] = 'このフォーラムでは、期限内にあなたが投稿できる投稿数を制限しています - 現在 $a->blockperiod で $a->blockafter 回に設定されています。';
+$string['timestartenderror'] = '表示終了日を表示開始日より先にすることはできません。';
 $string['trackforum'] = 'メッセージの未読管理をする';
 $string['tracking'] = '未読管理';
 $string['trackingoff'] = 'Off';
 $string['trackingon'] = 'On';
 $string['trackingoptional'] = '任意';
-$string['trackingtype'] = 'このフォーラムの未読管理をしますか?';
+$string['trackingtype'] = 'このフォーラムを未読管理しますか?';
 $string['unread'] = '未読';
 $string['unreadposts'] = '未読の投稿';
 $string['unreadpostsnumber'] = '未読件数 $a';
