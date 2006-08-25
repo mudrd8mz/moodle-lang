@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6.1 (2006050510)
+      // admin.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['adminseesallevents'] = '管理员看到所有事件';
@@ -197,8 +197,9 @@ $string['mediapluginram'] = '过滤.ram文件';
 $string['mediapluginrm'] = '过滤.rm文件';
 $string['mediapluginrpm'] = '过滤.rpm文件';
 $string['mediapluginswf'] = '过滤.swf文件';
+$string['mediapluginswfnote'] = '按照缺省的安全标准，普通用户不允许嵌入扩展名为swf的flash文件';
 $string['mediapluginwmv'] = '过滤.wmv文件';
-$string['mysql416bypassed'] = '如果您的站点使用只 iso-8859-1 (latin) 语言，您可以使用您当前安装的 MySQL 4.1.12(或更高)。';
+$string['mysql416bypassed'] = '如果您的站点只使用 iso-8859-1 (latin) 语言，您可以使用您当前安装的 MySQL 4.1.12(或更高)。';
 $string['mysql416required'] = 'MySQL 4.1.16 是 Moodle 1.6 所需要的最低版本，否则将无法保证所有数据都能转换到 UTF-8 编码。';
 $string['nolangupdateneeded'] = '您的语言包已经是最新的了，不需要升级。';
 $string['optionalmaintenancemessage'] = '可选的维护信息';
