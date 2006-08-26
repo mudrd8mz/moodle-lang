@@ -1,0 +1,72 @@
+<?PHP // $Id$ 
+      // error.php - created with Moodle 1.6 + (2006050506)
+
+
+$string['adminprimarynoedit'] = 'Podaci primarnog administratora ne mogu biti menjani od strane drugih korisnika';
+$string['cannotcreatelangdir'] = 'Nije moguće kreiranje direktorijuma jezika';
+$string['cannotcreatetempdir'] = 'Nije moguće kreiranje privremenog direktorijuma.';
+$string['cannotdownloadcomponents'] = 'Nije moguće preuzimanje komponenti.';
+$string['cannotdownloadzipfile'] = 'Nije moguće preuzimanje arhive.';
+$string['cannotfindcomponent'] = 'Nije moguće pronalaženje komponenti.';
+$string['cannotsavemd5file'] = 'Nije moguće čuvanje md5 datoteke.';
+$string['cannotsavezipfile'] = 'Nije moguće čuvanje arhive.';
+$string['cannotunzipfile'] = 'Nije moguće raspakivanje datoteke.';
+$string['cmunknown'] = 'Nije pronađen taj modul kursa';
+$string['componentisuptodate'] = 'Komponenta je dostupna u svojoj najnovijoj verziji.';
+$string['confirmsesskeybad'] = 'Nažalost, ali ključ Vaše sesije ne može biti potvrđen da bi se izvršila ova akcija. Ova sigurnosna opcija sprečava slučajno ili zlonamerno izvršavanje važnih funkcija u Vaše ime. Molimo budite sigurni da stvarno želite da izvršite ovu funkciju.';
+$string['coursegroupunknown'] = 'Odgovarajući kurs za grupu $a nije zadat';
+$string['downloadedfilecheckfailed'] = 'Nije uspela provera preuzete datoteke.';
+$string['errorcleaningdirectory'] = 'Greška pri čišćenju direktorijuma \"$a\"';
+$string['errorcopyingfiles'] = 'Greška pri kopiranju datoteka';
+$string['errorcreatingdirectory'] = 'Greška pri kreiranju direktorijuma \"$a\"';
+$string['errorcreatingfile'] = 'Greška pri kreiranju datoteke \"$a\"';
+$string['erroronline'] = 'Greška u liniji $a';
+$string['errorreadingfile'] = 'Greška pri čitanju datoteke \"$a\"';
+$string['errorunzippingfiles'] = 'Greška pri raspakivanju datoteka';
+$string['fieldrequired'] = '\"$a\" je obavezno polje';
+$string['filenotfound'] = 'Nažalost traženi dokument nije bilo moguće pronaći';
+$string['forumblockingtoomanyposts'] = 'Prekoračili ste ograničenje za broj poruka na ovom forumu.';
+$string['groupalready'] = 'Korisnik već pripada grupi $a';
+$string['groupunknown'] = 'Grupa $a ne pripada datom kursu';
+$string['guestnoeditprofile'] = 'Gost ne može da uređuje svoj profil';
+$string['guestnoeditprofileother'] = 'Ne može se uređivati profil gosta';
+$string['invalidcourse'] = 'Nevalidan kurs';
+$string['invalidfieldname'] = '\"$a\" nije validno ime polja';
+$string['invalidfiletype'] = '\"$a\" nije validan tip datoteke';
+$string['invalidmd5'] = 'Nevalidna md5 datoteka';
+$string['invalidxmlfile'] = '\"$a\" nije validna XML datoteka';
+$string['missingfield'] = 'Nedostaje polje \"$a\"';
+$string['missingrequiredfield'] = 'Nedostaje neko obavezno polje';
+$string['modulemissingcode'] = 'Modulu $a nedostaje kod potreban za izvođenje ove funkcije';
+$string['modulerequirementsnotmet'] = 'Modul \"$a->modulename\" ($a->moduleversion) nije mogao biti instaliran. Navedeni modul zahteva noviju verziju sistema Moodle (Vi trenutno imate $a->currentmoodle, a potrebna Vam je verzija $a->requiremoodle).';
+$string['mustbeteacher'] = 'Morate biti predavač da biste videli ovu stranicu';
+$string['noinstances'] = 'Nema instanci $a u ovom kursu!';
+$string['nonmeaningfulcontent'] = 'Besmislen sadržaj';
+$string['noparticipatorycms'] = 'Nažalost nemate učestvujućih modula kursa o kojima bi se mogao podneti izveštaj.';
+$string['notavailable'] = 'Trenutno nije na raspolaganju';
+$string['onlyadmins'] = 'Samo administratori mogu to da rade.';
+$string['onlyeditingteachers'] = 'Samo predavači mogu to da rade.';
+$string['onlyeditown'] = 'Možete menjati samo lične podatke';
+$string['pagenotexist'] = 'Došlo je do neuobičajene greške (pokušano je dostizanje kraja stranice koja uopšte ne postoji).';
+$string['pleasereport'] = 'Ako imate vremena, molimo objasnite nam šta ste pokušavali da učinite kada je došlo do greške:';
+$string['pluginrequirementsnotmet'] = 'Dodatak \"$a->pluginname\" ($a->pluginversion) nije mogao biti instaliran. On zahteva noviju verziju Moodle sistema (Vi trenutno koristite $a->currentmoodle, a potrebna Vam je verzija $a->requiremoodle).';
+$string['processingstops'] = 'Procesiranje se ovde zaustavlja. Preostali zapisi biće ignorisani.';
+$string['remotedownloadnotallowed'] = 'Nije dozvoljeno preuzimanje komponenti na Vaš server (opcija allow_url_fopen je onemogućena).<br /><br />Morate ručno preuzeti datoteku <a href=\"$a->url\">$a->url</a>, kopirati je u \"$a->dest\" na svom serveru i tamo je raspakovati.';
+$string['restricteduser'] = 'Žao nam je, ali vaš tekući nalog \"$a\" je ograničen i ne možete uraditi ovu akciju.';
+$string['sendmessage'] = 'Slanje poruke';
+$string['sessionerroruser'] = 'Vaša sesija je istekla. Molimo prijavite se na sistem ponovo.';
+$string['sessionerroruser2'] = 'Došlo je do greške koja utiče na Vašu tekuću sesiju. Molimo pristupite sistemu ponovo ili ponovo pokrenite svoj web čitač.';
+$string['sessionipnomatch'] = 'Nažalost, ali izgleda da se Vaš IP broj promenio od kada ste se prijavili na sistem. Ova sigurnosna opcija sprečava krakere da ukradu Vaš indentitet dok ste prijavljeni na ovaj sajt. Normalni korisnici ne bi trebalo da vide ovu poruku - molimo Vas da tražite pomoć od administratora sajta.';
+$string['statscatchupmode'] = 'Statistika je trenutno u modu za sustizanje obrade padataka. Do sada je procesirano $a->daysdone dana, a još $a->dayspending dana čeka na obradu. Vratite se nešto kasnije!';
+$string['unknowncourse'] = 'Ne postoji kurs pod nazivom \"$a\"';
+$string['unknownuseraction'] = 'Žao nam je, ali sistem nije razumeo ovu akciju korisnika.';
+$string['usernotaddederror'] = 'Korisnik \"$a\" nije dodat - nepoznata greška';
+$string['usernotaddedregistered'] = 'Korisnik \"$a\" nije dodat - već je registrovan';
+$string['usernotavailable'] = 'Detaljne informacije o ovom korisniku Vam nisu dostupne.';
+$string['usernotrenamedexists'] = 'Korisnik nije preimenovan -- novo korisničko ime je već zauzeto.';
+$string['usernotrenamedmissing'] = 'Korisnik nije preimenovan -- nije pronađeno staro korisničko ime.';
+$string['wrongdestpath'] = 'Pogrešna odredišna putanja.';
+$string['wrongsourcebase'] = 'Pogrešan izvorni URL baze.';
+$string['wrongzipfilename'] = 'Pogrešan naziv arhive.';
+
+?>

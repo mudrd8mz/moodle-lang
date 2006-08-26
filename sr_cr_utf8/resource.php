@@ -1,0 +1,74 @@
+<?PHP // $Id$ 
+      // resource.php - created with Moodle 1.6 + (2006050506)
+
+
+$string['addresource'] = 'Додавање извора';
+$string['back'] = 'Назад';
+$string['browserepository'] = 'Тражи у репозиторијуму';
+$string['choose'] = 'Изабери';
+$string['chooseafile'] = 'Избор или додавање датотеке';
+$string['configdefaulturl'] = 'Ове вредности су коришћене за попуњавање URL форме при прављењу новог URL-базног извора.';
+$string['configfilterexternalpages'] = 'Омогућавање овог подешавања ће узроковати свим спољашњим изворима (web странице, додате HTML датотеке) да буду уређене са текућим одабраним сајт филтерима (нпр. аутолинк речник). Укључивање ове опције може узроковати значајно успоравање учитавања страница Вашег курса - користите је са опрезом и једино ако је баш неопходно.';
+$string['configframesize'] = 'Када су web страница или додата (upload) датотека приказани унутар оквира, ова вредност је величина (у пикселима) горњег оквира (који садржи навигацију).';
+$string['configpopup'] = 'Кад се додаје нови извор који је могуће приказати у искачућем (popup) прозору, треба ли ова опција бити омогућена као подразумевана (default)?';
+$string['configpopupdirectories'] = 'Треба ли искачући прозор по подразумеваном подешавању приказати директоријумске линкове?';
+$string['configpopupheight'] = 'Која висина треба бити подразумевана за нове искачуће прозоре?';
+$string['configpopuplocation'] = 'Треба ли по подразумеваном подешавању искачући прозор показивати локацијски бар - траку?';
+$string['configpopupmenubar'] = 'Требају ли искачући прозори по подразумеваном подешавању приказивати падајући мени - траку?';
+$string['configpopupresizable'] = 'Требају ли искачући прозори имати промењиве димензије?';
+$string['configpopupscrollbars'] = 'Требају ли искачући прозори имати траку за померање прозора?';
+$string['configpopupstatus'] = 'Треба ли искачући прозор имати статусну траку?';
+$string['configpopuptoolbar'] = 'Треба ли искачући прозор имати палету алата?';
+$string['configpopupwidth'] = 'Која ширина требала бити подразумевана за нове искачуће прозоре?';
+$string['configwebsearch'] = 'Када додајете URL као web страницу или web линк, ова локација је понуђена као сајт да помогне кориснику претраживање за URL које они желе.';
+$string['directlink'] = 'Директна веза  - линк на ову датотеку';
+$string['directoryinfo'] = 'Све датотеке у изабраном директоријуму ће бити приказане на екрану.';
+$string['editingaresource'] = 'Уређивање извора';
+$string['example'] = 'Пример';
+$string['exampleurl'] = 'http://www.primjer123.com/direktorijum/datoteka.html';
+$string['fetchclienterror'] = 'Грешка је пронађена у Вашем web клијенту приликом покушаја учитавања web странице (вероватно погрешан URL).';
+$string['fetcherror'] = 'Грешка је пронађена приликом покушаја учитавања web странице.';
+$string['fetchservererror'] = 'Грешка је пронађена када је удаљени сервер покушао учитати web страницу (вероватно програмска грешка).';
+$string['filename'] = 'Пуно име';
+$string['filtername'] = 'Изворни Ауто-линк';
+$string['fulltext'] = 'Пуни текст';
+$string['htmlfragment'] = 'HTML део';
+$string['maindirectory'] = 'Директоријуми главних датотека';
+$string['modulename'] = 'Извор';
+$string['modulenameplural'] = 'Извори';
+$string['neverseen'] = 'Никад виђено';
+$string['newdirectories'] = 'Прикажи директроријумске линкове';
+$string['newfullscreen'] = 'Попуни цео екран';
+$string['newheight'] = 'Подразумевана висина прозора (у пикселима)';
+$string['newlocation'] = 'Прикажи локацијску траку';
+$string['newmenubar'] = 'Прикажи мени траку';
+$string['newresizable'] = 'Омогући да прозор има промењиве димензије';
+$string['newscrollbars'] = 'Омогући померање прозора';
+$string['newstatus'] = 'Прикажи статус бар - траку';
+$string['newtoolbar'] = 'Прикажи палету алата';
+$string['newwidth'] = 'Подразумевана ширина прозора (у пикселима)';
+$string['newwindow'] = 'Нови прозор';
+$string['newwindowopen'] = 'Прикажи извор у новом искачућем прозору';
+$string['next'] = 'Следеће';
+$string['note'] = 'Напомена';
+$string['notefile'] = 'За додавање још фајлова у курс (тако да се појављују на овој листи) користи <a href=\"$a\">Управљање фајловима</a>.';
+$string['notypechosen'] = 'Морате изабрати тип. Користите дугме за повратак назад и поново покушајте.';
+$string['parameter'] = 'Параметар';
+$string['parameters'] = 'Параметри';
+$string['popupresource'] = 'Овај извор треба да се појави у искачућем прозору';
+$string['popupresourcelink'] = 'Ако се није појавио, притисните овде: $a';
+$string['previous'] = 'Претходно';
+$string['repository'] = 'IMS репозиторијум';
+$string['resourcetype'] = 'Тип извора';
+$string['resourcetype1'] = 'Референце';
+$string['resourcetype2'] = 'Web страница';
+$string['resourcetype3'] = 'Пренета датотека';
+$string['resourcetype4'] = 'Чисти (Plain) текст';
+$string['resourcetype5'] = 'Web Линк';
+$string['resourcetype6'] = 'HTML текст';
+$string['resourcetype7'] = 'Програм';
+$string['resourcetype8'] = 'Вики текст';
+$string['resourcetype9'] = 'Директоријум';
+$string['vol'] = 'Vol';
+
+?>

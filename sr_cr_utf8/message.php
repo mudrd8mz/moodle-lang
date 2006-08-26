@@ -1,0 +1,68 @@
+<?PHP // $Id$ 
+      // message.php - created with Moodle 1.6 + (2006050506)
+
+
+$string['addcontact'] = 'Додавање контакта';
+$string['addsomecontacts'] = 'Да бисте некоме послали поруку или да додате пречицу за њега на овој страни користите линк <a href=\"$a\">Претражи</a>.';
+$string['addsomecontactsincoming'] = 'Ове поруке су од особа које се не налазе у Вашој листи контаката. Да бисте их додали својим контактима притисните икону \"Додај контакт\" поред њиховог имена.';
+$string['ago'] = '$a пре';
+$string['allmine'] = 'Све поруке које сам послао/ла или примио/ла';
+$string['allstudents'] = 'Све поруке између студената на курсу';
+$string['allusers'] = 'Све поруке од свих корисника';
+$string['backupmessageshelp'] = 'Уколико омогућите ову опцију, инстант поруке ће бити укључене у аутоматски генерисане резервне копије података сајта';
+$string['beepnewmessage'] = 'Када стигне нова порука обавести ме звучним сигналом (ова опција може захтевати додатак за web читач, нпр. Quicktime)';
+$string['blockcontact'] = 'Блокирај контакт';
+$string['blockedmessages'] = '$a порука за/од блокираних корисника';
+$string['blocknoncontacts'] = 'Блокирај све нове поруке од корисника који нису на мојој листи контаката';
+$string['contactlistempty'] = 'Ваша листа контакта је тренутно празна';
+$string['contacts'] = 'Контакти';
+$string['context'] = 'контекст';
+$string['deletemessagesdays'] = 'Број дана након којих се све старе поруке аутоматски бришу';
+$string['discussion'] = 'Дискусија';
+$string['emailmessages'] = 'Пошаљи ми поруке е-поштом кад нисам на сајту';
+$string['emailtagline'] = 'Ова електронска порука је копија поруке коју Вам је послао/ла \"$a\"';
+$string['emptysearchstring'] = 'Морате нешто тражити';
+$string['formorethan'] = 'За више од';
+$string['includeblockedusers'] = 'Укључи блокиране кориснике';
+$string['incomingcontacts'] = 'Приспели контакти ($a)';
+$string['keywords'] = 'Кључне речи';
+$string['keywordssearchresults'] = 'Резултати претраге: $а порука је пронађено';
+$string['maxmessages'] = 'Максималан број порука за приказивање у историји дискусија';
+$string['message'] = 'Порука';
+$string['messagehistory'] = 'Историја порука';
+$string['messages'] = 'Поруке';
+$string['messaging'] = 'Слање порука';
+$string['mycontacts'] = 'Моји контакти';
+$string['newsearch'] = 'Нова претрага';
+$string['nomessages'] = 'Нема порука на чекању';
+$string['nomessagesfound'] = 'Није пронађена ниједна порука';
+$string['nosearchresults'] = 'Ваша претрага није дала резултате';
+$string['offline'] = 'Offline';
+$string['offlinecontacts'] = 'Offline контакти ($a)';
+$string['online'] = 'Online';
+$string['onlinecontacts'] = 'Online контакти ($a)';
+$string['onlyfromme'] = 'Само поруке које сам ја послао/ла';
+$string['onlymycourses'] = 'Само у мојим курсевима';
+$string['onlytome'] = 'Само поруке послате мени';
+$string['pagerefreshes'] = 'Ова страница се аутоматски освежава сваких $а секунди';
+$string['readmessages'] = '$a прочитаних порука';
+$string['removecontact'] = 'Обриши контакт';
+$string['savemysettings'] = 'Сачувај моја подешавања';
+$string['search'] = 'Претраживање';
+$string['searchforperson'] = 'Тражи особу';
+$string['searchmessages'] = 'Претражи поруке';
+$string['sendmessage'] = 'Пошаљи поруку';
+$string['sendmessageto'] = 'Пошаљи поруку $a';
+$string['settings'] = 'Подешавања';
+$string['settingssaved'] = 'Ваша подешавања су сачувана';
+$string['showmessagewindow'] = 'Када добијем нове поруке аутоматски прикажи прозор са порукама (потребно је да у Вашем web читачу искључите блокирање искачућих прозора)';
+$string['strftimedaydatetime'] = '%%A, %%d. %%B %%Y., %%H:%%M';
+$string['timenosee'] = 'Време (у минутима) од када сам последњи пут виђен(а) на сајту';
+$string['timesent'] = 'Време слања';
+$string['unblockcontact'] = 'Одблокирај контакт';
+$string['unreadmessages'] = '$a непрочитаних порука';
+$string['userisblockingyou'] = 'Овај корисник је блокирао пријем Ваших порука';
+$string['userisblockingyounoncontact'] = 'Овај корисник прихвата само поруке од особа које се налазе на његовој листи контаката, а Ви тренутно нисте на њој.';
+$string['userssearchresults'] = 'Резултати претраге: пронађено је $а корисника';
+
+?>

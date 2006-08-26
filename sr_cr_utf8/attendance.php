@@ -1,0 +1,72 @@
+<?PHP // $Id$ 
+      // attendance.php - created with Moodle 1.6 + (2006050506)
+
+
+$string['absentlong'] = 'Одсутан';
+$string['absentshort'] = 'О';
+$string['addingmultiple'] = 'Додавања више похађања наставе';
+$string['addmultiple'] = 'Додајте више похађања наставе';
+$string['allmodulename'] = 'Сва похађања';
+$string['auto'] = 'само';
+$string['autoattend'] = 'Аутоматски преузмите похађања наставе заснована на активности посетитеља';
+$string['autoattendmulti'] = 'Аутоматски преузмите похађања комплетне наставе засноване на активности посетитеља';
+$string['autoattendshort'] = 'Аутоматски од посетитеља';
+$string['choosedays'] = 'Дана од сваке седмице за похађање наставе';
+$string['dayofroll'] = 'Датум преузимања похађања наставе за';
+$string['defaultautoattend'] = 'Похађање наставе засновано према записима активности корисника (као подразумевана опција)';
+$string['defaultdynamicsection'] = 'Пребацивање похађања наставе у исправну седмицу (као подразумевана опција)';
+$string['defaultgrade'] = 'Похађања наставе се могу оцењивати (као подразумевана опција)';
+$string['defaulthoursinclass'] = 'Колико часова треба бити у похађању наставе (као подразумевана опција)';
+$string['defaultmaxgrade'] = 'Највиша оцена за комплетно похађање наставе (као подразумевана опција)';
+$string['defaultstudentstatus'] = 'Статус студента који похађа наставу на новом похађању наставе (као подразумевана опција)';
+$string['downloadexcelfull'] = 'Преузмите комплетан Excel документ';
+$string['downloadexceltotals'] = 'Преузмите збирни Excel документ';
+$string['downloadtextfull'] = 'Преузмите комплетан текстуални извештај';
+$string['downloadtexttotals'] = 'Преузмите збирни текстуални извештај';
+$string['dynamicsection'] = 'Одредите седмицу за похађање са овим датумом';
+$string['dynamicsectionmulti'] = 'Аутоматско постављање наставе у седмичну секцију';
+$string['dynsectionshort'] = 'Динамички премештено на секцију';
+$string['endbeforestart'] = 'Крајњи датум је прије почетног датума';
+$string['endmulti'] = 'Датум задњег похађања наставе';
+$string['for'] = 'до - за';
+$string['friday'] = 'Пет';
+$string['gradeshort'] = 'Оцењено';
+$string['gradevalue'] = 'Оценити наставу';
+$string['gradevaluemulti'] = 'Оценити све наставе';
+$string['hoursinclass'] = 'Број сати трајања часа';
+$string['hoursineachclass'] = 'Број сати трајања сваког часа';
+$string['hoursinfullreport'] = 'Максималан број сати похађања наставе који ће бити приказан на једној страници извештаја';
+$string['maxgradeshort'] = 'Максимална оцена';
+$string['maxgradevalue'] = 'Максимална оцена за сва похађања наставе';
+$string['modulename'] = 'Похађање наставе';
+$string['modulenameplural'] = 'Похађања наставе';
+$string['monday'] = 'Пон';
+$string['norolls'] = 'Нема похађања наставе на овом курсу';
+$string['notes'] = 'Посебне информације';
+$string['notesfor'] = 'Посебне информације од';
+$string['noviews'] = 'Нажалост, овде нема података за ваш налог';
+$string['of'] = 'од';
+$string['pages'] = 'Страница';
+$string['presentlong'] = 'Представља';
+$string['presentshort'] = 'P';
+$string['saturday'] = 'Суб';
+$string['startafterend'] = 'Почетни датум је после завршетка курса';
+$string['startmulti'] = 'Датум првог похађања наставе';
+$string['sunday'] = 'Нед';
+$string['takeroll'] = 'Преузмите наставу од овог дана?';
+$string['tardiesperabsence'] = 'Колико се закашњења третира као једно одсуство?';
+$string['tardylong'] = 'Касни';
+$string['tardyshort'] = 'К';
+$string['teacheredit'] = 'Похађајте наставу';
+$string['thursday'] = 'Чет';
+$string['tuesday'] = 'Уто';
+$string['viewall'] = 'Преглед свих похађања наставе';
+$string['viewmulti'] = 'Преглед извештаја на више страница';
+$string['viewone'] = 'Преглед свих страница извештаја';
+$string['viewsection'] = 'Преглед свих похађања наставе из ове секције';
+$string['viewtable'] = 'Преглед извештаја као једне табеле';
+$string['viewweek'] = 'Преглед свих похађања наставе по важећој седмици у календару';
+$string['wednesday'] = 'Сре';
+$string['weekmodulename'] = 'Сва похађања наставе у претходној седмици';
+
+?>
