@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006081000)
+      // error.php - created with Moodle 1.7 dev (2006082300)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -54,7 +54,7 @@ $string['pluginrequirementsnotmet'] = 'プラグイン 「 $a->pluginname 」 ($
 $string['processingstops'] = 'プロセスが停止しました。残りのレコードは無視されます。';
 $string['remotedownloadnotallowed'] = 'あなたのサーバーにコンポーネントをダウンロードすることができません ( allow_url_fopen が無効 )。<br /><br /><a href=\"$a->url\">$a->url</a> ファイルを手動でダウンロードして、サーバの「 $a->dest 」にコピーした後、解凍してください。';
 $string['restricteduser'] = '申し訳ございません、あなたのアカウント「 $a 」では、この処理を行うことができません。';
-$string['sendmessage'] = 'メッセージの送信';
+$string['sendmessage'] = 'メッセージを送信する';
 $string['sessionerroruser'] = 'セッションがタイムアウトしました。再度ログインしてください。';
 $string['sessionerroruser2'] = 'あなたのログインセッションに影響を与えるサーバエラーが検知されました。再度ログインするかブラウザを再起動してください。';
 $string['sessionipnomatch'] = '申し訳ございません、あなたのIPアドレスは、最初のログインから変更されているようです。このセキュリティ機能は、あなたがサイトにログインしている間、クラッカーから個人情報を盗むことを防いでいます。通常のユーザは、このメッセージを見ることはありません - 詳細はシステム管理者にお問合せください。';
