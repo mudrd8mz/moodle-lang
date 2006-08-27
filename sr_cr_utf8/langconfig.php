@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $string['alphabet'] = 'А,Б,В,Г,Д,Ђ,Е,Ж,З,И,J,K,Л,Љ,М,Н,O,П,Р,С,Т,Ћ,У,Ф,Х,Ц,Ч,Џ,Ш';
 $string['backupnameformat'] = '%%d.%%m.%%Y.-%%H.%%M ';
 $string['firstdayofweek'] = '1';
