@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // enrol_imsenterprise.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 

@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // timezones.php - created with Moodle 1.6 + (2006050506)
 
 

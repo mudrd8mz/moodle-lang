@@ -1,4 +1,4 @@
-﻿<?php // $Id$ 
+<?php // $Id$ 
       // notebook.php - created with e-China workspace development (2006010600)
 
 

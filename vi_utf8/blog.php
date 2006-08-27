@@ -1,4 +1,4 @@
-﻿<?php  // $Id$
+<?php  // $Id$
 
 $string['addnewentry'] = 'Đưa thêm một mục mới';
 $string['addotags'] = 'Đưa thêm các thẻ chính thức';
