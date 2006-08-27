@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7 dev (2006082200)
+      // glossary.php - created with Moodle 1.7 dev (2006082300)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -72,7 +72,7 @@ $string['displayformatfullwithoutauthor'] = 'フル、著者なし';
 $string['displayformats'] = '表示フォーマット';
 $string['displayformatssetup'] = '表示フォーマット設定';
 $string['duplicateentry'] = 'エントリの重複';
-$string['editalways'] = '常に編集を許可';
+$string['editalways'] = '常に編集を許可する';
 $string['editcategories'] = 'カテゴリの編集';
 $string['editentry'] = 'エントリの編集';
 $string['editingcomment'] = 'コメントの編集';
@@ -154,13 +154,13 @@ $string['ratingsuse'] = '評価を使用する';
 $string['ratingtime'] = 'エントリ評価を下記の期間に制限する:';
 $string['rejectedentries'] = '拒否されたエントリ';
 $string['rejectionrpt'] = '拒否レポート';
-$string['rsssubscriberss'] = '$a の用語のRSSフィードを表示';
+$string['rsssubscriberss'] = '$a の用語のRSSフィードを表示する';
 $string['searchindefinition'] = '定義も検索する';
 $string['secondaryglossary'] = 'サブ用語集';
 $string['sendinratings'] = '最新の評価を送る';
-$string['showall'] = 'すべてのリンクを表示';
-$string['showalphabet'] = 'アルファベットを表示';
-$string['showspecial'] = '特別リンクを表示';
+$string['showall'] = 'すべてのリンクを表示する';
+$string['showalphabet'] = 'アルファベットを表示する';
+$string['showspecial'] = '特別リンクを表示する';
 $string['sortby'] = '並び替え';
 $string['sortbycreation'] = '作成日時';
 $string['sortbylastupdate'] = '最終更新日時';
