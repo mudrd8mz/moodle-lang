@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 + (2006050506)
+      // moodle.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['action'] = 'Akce';
@@ -217,7 +217,7 @@ $string['copyingzipfile'] = 'Kopíruji soubor ZIP';
 $string['copyrightnotice'] = 'Autorská práva';
 $string['cost'] = 'Cena';
 $string['costdefault'] = 'Výchozí cena';
-$string['counteditems'] = '$a->items: $a->count ';
+$string['counteditems'] = '$a->items: $a->count';
 $string['country'] = 'Země';
 $string['course'] = 'Kurz';
 $string['courseapprovedemail'] = 'Vas pozadavek na zalozeni kurzu $a->name byl schvalen; v kurzu vam byla prirazena role $a->teacher. Svuj novy kurz najdete na adrese:
@@ -352,7 +352,7 @@ $string['edhelpaspellpath'] = 'Chcete-li v editoru používat kontrolu pravopisu
 $string['edhelpbgcolor'] = 'Určete barvu pozadí editačního okna. Platné hodnoty jsou např. \'#ffffff\' nebo \'white\'.';
 $string['edhelpcleanword'] = 'Zapnout filtrování formátu dokumentu Word';
 $string['edhelpenablespelling'] = 'Zapnout kontrolu pravopisu. Vyžaduje, aby byl na serveru nainstalován <strong>aspell</strong>.<br />Druhý parametr určuje <strong>výchozí slovník</strong>. Tato hodnota se použije, pokud aspell nemá k dispozici slovník pro jazyk vybraný uživatelem.';
-$string['edhelpfontfamily'] = 'Vlastnost font-family je seznam názvů skupin (rodin) fontů a/nebo obecných skupin. Názvy skupin musí být odděleny čárkou. ';
+$string['edhelpfontfamily'] = 'Vlastnost font-family je seznam názvů skupin (rodin) fontů a/nebo obecných skupin. Názvy skupin musí být odděleny čárkou.';
 $string['edhelpfontlist'] = 'Určete fonty nabízené v editoru v rozbalovacím seznamu';
 $string['edhelpfontsize'] = 'Výchozí font-size definuje velikost fontu. Platné hodnoty jsou např. medium, large, smaller, larger, 10pt, 11px.';
 $string['edit'] = 'Upravit $a';
@@ -527,11 +527,13 @@ $string['formatweeks'] = 'Týdenní uspořádání';
 $string['formatweekscss'] = 'Týdenní uspořádání -- CSS/bez tabulek';
 $string['formatwiki'] = 'Formát Wiki';
 $string['from'] = 'Od';
-$string['frontpagecategorynames'] = 'Zobrazovat seznam kategorií';
-$string['frontpagecourselist'] = 'Zobrazovat seznam kurzů';
+$string['frontpagecategorycombo'] = 'Kategorizovaný seznam kurzů';
+$string['frontpagecategorynames'] = 'Seznam kategorií';
+$string['frontpagecourselist'] = 'Seznam kurzů';
 $string['frontpagedescription'] = 'Popis titulní strany';
 $string['frontpageformat'] = 'Uspořádání titulní strany';
-$string['frontpagenews'] = 'Zobrazovat novinky';
+$string['frontpageformatloggedin'] = 'Uspořádání titulní strany po přihlášení';
+$string['frontpagenews'] = 'Novinky';
 $string['frontpagetopiconly'] = 'Zobrazovat libovolné HTML nebo činnosti (tematická sekce)';
 $string['fulllistofcourses'] = 'Všechny kurzy';
 $string['fullname'] = 'Celý název';
@@ -677,7 +679,7 @@ $string['listofallpeople'] = 'Seznam všech osob';
 $string['livelogs'] = 'Protokol činností za uplynulou hodinu';
 $string['locale'] = 'cs_CZ.UTF-8';
 $string['location'] = 'Město/Obec';
-$string['loggedinas'] = 'Jste přihlášeni jako $a ';
+$string['loggedinas'] = 'Jste přihlášeni jako $a';
 $string['loggedinasguest'] = 'Momentálně na stránky přistupujete s právy hosta.';
 $string['loggedinnot'] = 'Nejste přihlášeni';
 $string['login'] = 'Přihlásit se';
@@ -899,7 +901,7 @@ $string['nothingnew'] = 'Nic nového od vašeho posledního přihlášení.';
 $string['nothingtodisplay'] = 'Nic k zobrazení';
 $string['noticenewerbackup'] = 'Tato záloha byla vytvořena v Moodlu $a->backuprelease ($a->backupversion) a je novější, než vaše stávající instalace Moodlu $a->serverrelease ($a->serverversion). To může vést k nekonzistencím, protože u záloh nelze zaručit zpětnou kompatibilitu.';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Uzivatel: $a->info';
-$string['notifyloginfailuresmessageend'] = 'Tyto protokoly si muzete prohlednout zde: $a/course/log.php?id=1&chooselog=1&modid=site_errors ';
+$string['notifyloginfailuresmessageend'] = 'Tyto protokoly si muzete prohlednout zde: $a/course/log.php?id=1&chooselog=1&modid=site_errors';
 $string['notifyloginfailuresmessagestart'] = 'Zde je seznam neuspesnych pokusu o prihlaseni na $a od doby posledniho zaslani takovehoto upozorneni';
 $string['notifyloginfailuressubject'] = '$a :: Upozorneni na neuspesna prihlaseni';
 $string['notincluded'] = 'Nezahrnuto';
@@ -1370,7 +1372,7 @@ $string['yahooid'] = 'Yahoo ID';
 $string['yes'] = 'Ano';
 $string['youareabouttocreatezip'] = 'Chystáte se vytvořit soubor ZIP obsahující';
 $string['youaregoingtorestorefrom'] = 'Chystáte se zahájit proces obnovy';
-$string['yourlastlogin'] = 'Vaše poslední přihlášení ';
+$string['yourlastlogin'] = 'Vaše poslední přihlášení';
 $string['yourself'] = 'vy';
 $string['yourteacher'] = 'váš $a';
 $string['zippingbackup'] = 'Komprimuji (ZIP) zálohu';

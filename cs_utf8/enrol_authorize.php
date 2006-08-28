@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6 + (2006050506)
+      // enrol_authorize.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['adminacceptccs'] = 'Typy přijímaných kreditních karet';
@@ -57,7 +57,7 @@ $string['avsu'] = 'Není k dispozici údaj o adrese';
 $string['avsw'] = '9místné PSČ souhlasí, adresa (ulice) nikoliv';
 $string['avsx'] = 'Adresa (ulice) a 9místné PSČ souhlasí';
 $string['avsy'] = 'Adresa (ulice) a 5místné PSČ souhlasí';
-$string['avsz'] = '5místné PSČ souhlasí, adresa (ulice) nikoliv ';
+$string['avsz'] = '5místné PSČ souhlasí, adresa (ulice) nikoliv';
 $string['canbecredit'] = 'Lze refundovat až $a->upto';
 $string['cancelled'] = 'Zrušeno';
 $string['capture'] = 'Rezervovat prostředky';
@@ -72,7 +72,8 @@ $string['cctype'] = 'Typ kreditní karty';
 $string['ccvv'] = 'Ověření karty';
 $string['ccvvhelp'] = 'Podívejte se na zadní stranu karty (poslední 3 číslice)';
 $string['choosemethod'] = 'Znáte-li klíč k zápisu do tohoto kurzu, zadejte jej. V opačném případě budete muset za přístup do tohoto kurzu zaplatit.';
-$string['chooseone'] = 'Vyplňte jedno nebo obě následující pole';
+$string['chooseone'] = 'Vyplňte jedno nebo obě následující pole. Heslo se nezobrazuje.';
+$string['costdefaultdesc'] = 'Pro použití této výchozí ceny <strong>zadejte v nastavení kurzu v poli pro cenu hodnotu -1</strong>.';
 $string['cutofftime'] = 'Čas zpracování transakcí -- v tuto dobu systém Authorize.net hromadně převezme shromážděné transkace k vyřízení.';
 $string['delete'] = 'Zrušit';
 $string['description'] = 'Modul Authorize.net umožňuje nastavit placení za kurzy pomocí kreditní karty. Je-li cena některého z kurzů nastavena na nulu, nebudou uživatelé žádáni o platbu při zápisu do kurzu. Můžete nastavit výchozí cenu pro všechny kurzy na vašich stránkách -- tu lze potom upravit v nastavení jednotlivých kurzů. Cena uvedená v nastavení kurzu má přednost před cenou uvedenou v nastavení stránek.<br /><br /><b>Poznámka:</b> Zadáte-li v nastavení kurzu klíč k zápisu, budou mít studenti možnost zapsat se do kurzu také s použitím tohoto klíče. Tento kombinovaný způsob je výhodný zejména u kurzů, do nichž se zapisují platící a neplatící studenti.';
@@ -116,7 +117,7 @@ Správce Moodlu neaktivoval systém automatického zpracování transakcí, prot
 Potvrzení/Zamítnutí plateb provedete na adrese: $a->url.';
 $string['pendingorderssubject'] = 'UPOZORNĚNÍ: $a->course, $a->pending transakcí vyprší během $a->days dnů.';
 $string['reason11'] = 'Byla podána duplicitní transkace.';
-$string['reason13'] = 'Přihlašovací ID obchodníka je neplatné nebo je účet neaktivní. ';
+$string['reason13'] = 'Přihlašovací ID obchodníka je neplatné nebo je účet neaktivní.';
 $string['reason16'] = 'Transakce nebyla nalezena';
 $string['reason17'] = 'Tento typ kreditní karty obchodník nepřijímá.';
 $string['reason27'] = 'Výsledek kontroly AVS pro tuto transakci: neshodné adresní údaje. Zadaná adresa se neshoduje s adresou držitele karty.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6 + (2006050506)
+      // wiki.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['action'] = '-- Akce --';
@@ -44,7 +44,7 @@ $string['downloadaszip'] = 'Stáhnutelný archiv ZIP';
 $string['downloadtimes'] = 'Počet stažení: $a';
 $string['dwnlnofiles'] = 'Dosud nebyly nahrány žádné soubory';
 $string['dwnlsection'] = 'Soubory ke stažení';
-$string['editform1'] = 'Pokuste se nemyslet příliš na formátování textu &ndash; to můžete kdykoliv vylepšit později.';
+$string['editform1'] = 'Pokuste se nemyslet příliš na formátování textu – to můžete kdykoliv vylepšit později.';
 $string['editform2'] = 'Pište prosím rozumně a citlivě. A pamatujte, že všechny úpravy se zaznamenávají.';
 $string['editthispage'] = 'Upravit tuto stránku';
 $string['emptypage'] = 'Prázdná stránka';
@@ -130,6 +130,8 @@ $string['plaintext'] = 'Čistý text';
 $string['preview'] = 'Náhled';
 $string['readonly'] = 'Stránka jen pro čtení';
 $string['refs'] = 'Odkazy';
+$string['reloadlinkdescription'] = 'Znovu načte stránku, tak aby se zobrazil nově vložený obsah.';
+$string['reloadlinktext'] = 'Znovu načíst stránku';
 $string['removenotice'] = 'Jsou uvedeny pouze stránky, na které nevede žádný odkaz. Mechanismus wiki sám o sobě provádí pouze omezené testy odkazovaných stránek, takže zde mohou některé chybět.<br />Pokud jste stránku vyprázdnili, bude zde uvedena také. Vedle toho je v databázi provedena řada dalších diagnostických operací.';
 $string['removepagecheck'] = 'Skutečně chcete odstranit tyto stránky?';
 $string['removepages'] = 'Odstranit stránky';
@@ -181,7 +183,7 @@ $string['wikiexportcomment'] = 'Zde můžete nastavit vlastnosti exportu.';
 $string['wikilinkoptions'] = 'Nastavení automatického propojování wiki';
 $string['wikilinks'] = 'Wiki odkazy';
 $string['wikiname'] = 'Název wiki';
-$string['wikistartederror'] = 'Wiki už obsahuje položky &ndash; nelze změnit.';
+$string['wikistartederror'] = 'Wiki už obsahuje položky – nelze změnit.';
 $string['wikitype'] = 'Druh';
 $string['wikiusage'] = 'Použití wiki';
 $string['withbinaries'] = 'Zahrnout binární obsah';

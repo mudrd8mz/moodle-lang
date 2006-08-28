@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 + (2006050506)
+      // quiz.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['1day'] = '1 den';
@@ -91,8 +91,8 @@ $string['comments'] = 'Komentáře';
 $string['completedon'] = 'Dokončení testu';
 $string['confirmclose'] = 'Hodláte uzavřít tento pokus. Po uzavření pokusu již nebudete mít možnost upravit své odpovědi.';
 $string['confirmserverdelete'] = 'Opravdu chcete odstranit server <b>$a</b> ze seznamu?';
-$string['confirmstartattemptlimit'] = 'Počet pokusů v tomto testu je omezen na $a. Vstup na stránku testu bude započítán jako jeden pokus. Chcete pokračovat?';
-$string['confirmstartattempttimelimit'] = 'Tento test má nastaven časový limit a počet pokusů je omezen na $a. Vstup na stránku testu bude započítán jako jeden pokus. Chcete pokračovat?';
+$string['confirmstartattemptlimit'] = 'Počet pokusů v tomto testu je omezen na $a. Právě hodláte začít nový pokus. Chcete pokračovat?';
+$string['confirmstartattempttimelimit'] = 'Tento test má nastaven časový limit a počet pokusů je omezen na $a. Právě hodláte začít nový pokus. Chcete pokračovat?';
 $string['confirmstarttimelimit'] = 'Tento test má nastaven časový limit. Opravdu chcete začít?';
 $string['containercategorycreated'] = 'Tato kategorie byla vytvořena proto, aby do ní mohly být umístěny všechny původní kategorie přesunuté z důvodů uvedených níže do kategorie nejvyšší úrovně.';
 $string['continueattemptquiz'] = 'Pokračovat v posledním pokusu';
@@ -254,7 +254,6 @@ $string['link'] = 'Odkaz';
 $string['listitems'] = 'Seznam položek testu';
 $string['literal'] = 'Literál';
 $string['loguniform'] = 'číslicemi (rozdělení pravděpodobnosti \'loguniform\')';
-$string['lowmarkslimit'] = 'Vyloučit pokusy se skórem nižším než:';
 $string['makecopy'] = 'Uložit jako novou úlohu';
 $string['managetypes'] = 'Spravovat typy úloh a servery';
 $string['manualgrading'] = 'Známkování';

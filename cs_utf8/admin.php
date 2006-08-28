@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 + (2006050506)
+      // admin.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['adminseesallevents'] = 'Správci vidí všechny události';
@@ -192,6 +192,7 @@ $string['mediapluginram'] = 'Aktivovat filtr .ram';
 $string['mediapluginrm'] = 'Aktivovat filtr .rm';
 $string['mediapluginrpm'] = 'Aktivovat filtr .rpm';
 $string['mediapluginswf'] = 'Aktivovat filtr .swf';
+$string['mediapluginswfnote'] = 'Výchozí bezpečnostní nastavení nedovoluje normálním uživatelům vkládat přímo do HTML textu soubory swf.';
 $string['mediapluginwmv'] = 'Aktivovat filtr .wmv';
 $string['mysql416bypassed'] = 'Pokud ovšem ve vaší instalaci Moodlu používáte POUZE jazyky založené na latince (iso-8859-1), můžete nadále používat momentálně nainstalovanou verzi MySQL 4.1.12 (nebo vyšší).';
 $string['mysql416required'] = 'Minimální verzí požadovanou pro Moodle 1.6 -- a pro pozdější bezpečný převod všech dat do UTF-8 -- je MySQL 4.1.16.';
@@ -200,6 +201,7 @@ $string['optionalmaintenancemessage'] = 'Volitelná zpráva pro uživatele po do
 $string['order1'] = 'První';
 $string['order2'] = 'Druhý';
 $string['order3'] = 'Třetí';
+$string['order4'] = 'Čtvrtý';
 $string['pathconvert'] = 'Cesta k binárnímu souboru <i>convert</i>';
 $string['pathdvips'] = 'Cesta k binárnímu souboru <i>dvips</i>';
 $string['pathlatex'] = 'Cesta k binárnímu souboru <i>latex</i>';
