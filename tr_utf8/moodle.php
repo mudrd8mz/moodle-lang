@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006082300)
+      // moodle.php - created with Moodle 1.7 dev (2006082800)
 
 
 $string['action'] = 'Eylem';
@@ -83,6 +83,9 @@ $string['advancedfilter'] = 'Gelişmiş arama';
 $string['advancedsettings'] = 'Gelişmiş ayarlar';
 $string['again'] = 'tekrarla';
 $string['aimid'] = 'AIM ID';
+$string['ajaxno'] = 'Hayır: temel web özelliklerini kullan';
+$string['ajaxuse'] = 'AJAX ve Javascript';
+$string['ajaxyes'] = 'Evet: gelişmiş web özelliklerini kullan';
 $string['all'] = 'Tümü';
 $string['allactions'] = 'Bütün eylemler';
 $string['allactivities'] = 'Bütün etkinlikler';
@@ -539,6 +542,7 @@ $string['formatsocial'] = 'Sosyal biçim';
 $string['formattext'] = 'Moodle otomatik-biçim';
 $string['formattexttype'] = 'Biçimlendirme';
 $string['formattopics'] = 'Konu biçimi';
+$string['formattopicsajax'] = 'Konu biçimi - AJAX';
 $string['formatweeks'] = 'Haftalık biçim';
 $string['formatweekscss'] = 'Haftalık biçim - CSS/Tablo yok';
 $string['formatwiki'] = 'Wiki-like biçimi';
