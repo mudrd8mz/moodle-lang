@@ -159,6 +159,7 @@ $string['confirmation'] = 'Confirmation';
 $string['confirminstall'] = 'Vous êtes sur le point d\'installer une nouvelle langue ($a). Voulez-vous continuer&nbsp;?';
 $string['cronwarning'] = 'Le <a href=\"cron.php\">script de maintenance cron.php</a> n\'a pas été lancé depuis au moins 24 heures.';
 $string['cronwarning2'] = 'Le <a href=\"cron.php\">script de maintenance cron.php</a> n\'a pas été lancé depuis au moins 24 heures.<br />Voir $a pour de plus amples informations sur l\'automatisation de cette opération.';
+$string['datarootsecuritywarning'] = 'La configuration de votre site semble ne pas être sûre. Veuillez vous assurer que le dossier des données de Moodle ($a) ne soit pas directement accessible depuis le web.';
 $string['dbmigrate'] = 'Migration de la base de données de Moodle';
 $string['dbmigrateconnecerror'] = 'Impossible de se connecter à la base de données spécifiée.';
 $string['dbmigrateencodingerror'] = 'La base de données spécifiée a l\'encodage $a au lieu de l\'encodage requis UNICODE/UTF8.<br />Veuillez en sélectionner une autre.';
