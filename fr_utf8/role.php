@@ -11,6 +11,7 @@ $string['overrideroles'] = 'Ne pas tenir compte des rôles';
 $string['potentialusers'] = '$a utilisateurs potentiels';
 $string['prevent'] = 'Empêcher';
 $string['prohibit'] = 'Interdire';
+$string['roletoassign'] = 'Rôle à assigner';
 
 $string['site:doanything'] = 'Permettre de tout faire';
 $string['legacy:guest'] = 'ANCIEN RÔLE : Invité';
