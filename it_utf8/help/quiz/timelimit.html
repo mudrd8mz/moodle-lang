@@ -1,6 +1,12 @@
-<p align="center"><strong>Limite tempo</strong></p>
+<p align="center"><strong>Tempo limite</strong></p>
 
-<p>Con il limite di tempo &egrave; possibile controllare quanto tempo ha a disposizione per ogni tentativo.
-on one quiz attempt. Se il limite di tempo viene superato, il quiz viene automaticamente inviato, con le risposte attuali. Se lo studente torna indietro al quiz quando il tempo &egrave; scaduto, il quiz verr valutato zero.</p>
+<p>Per default, i quiz non hanno un tempo limite per rispondere, per dare allo studente tutto il tempo necessario a completare il quiz stesso.</p>
 
-<p>Il valore zero come limite di tempo significa, senza limite di tempo.</p>
+<p>Se si specifica un tempo limite, diverse cose avvengono per assicurare che i quiz siano completati in questo intervallo di tempo:</p>
+
+<ul>
+  <li>Il supporto Javascript nel browser &egrave; obbligatorio - questo permette al timer di lavorare correttamente</li>
+  <li>&Egrave; mostrata una finestrella con il timer che esegue un conto alla rovescia</li>
+  <li>Quando il tempo scade, il quiz viene salvato automaticamente con qualunque risposta &egrave; stata scritta fino a qual momento</li>
+  <li>Se uno studente cerca di imbrogliare e fa passare pi&ugrave; di 60 secondi oltre il tempo assegnato, il quiz &egrave; automaticamente valutato zero</li>
+</ul>
