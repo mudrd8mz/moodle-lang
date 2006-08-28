@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006082300)
+      // moodle.php - created with Moodle 1.7 dev (2006082600)
 
 
 $string['action'] = '操作';
@@ -536,6 +536,7 @@ $string['formatsocial'] = 'ソーシャルフォーマット';
 $string['formattext'] = 'Moodleオートフォーマット';
 $string['formattexttype'] = 'フォーマット';
 $string['formattopics'] = 'トピックフォーマット';
+$string['formattopicsajax'] = 'トピックフォーマット - AJAX';
 $string['formatweeks'] = 'ウィークリーフォーマット';
 $string['formatweekscss'] = 'ウィークリーフォーマット - CSS/テーブルなし';
 $string['formatwiki'] = 'Wikiのようなフォーマット';
