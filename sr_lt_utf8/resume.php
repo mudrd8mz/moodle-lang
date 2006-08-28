@@ -7,4 +7,3 @@ $string['modulenameplural'] = 'Dugmad za nastavak';
 $string['resumetext'] = 'Naziv dugmeta za nastavak';
 
 ?>
-

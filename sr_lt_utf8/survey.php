@@ -44,7 +44,7 @@ $string['attls5'] = 'Osećam da je najbolji način da spoznam sebe da stupam u i
 $string['attls5short'] = 'interakcija sa mnoštvom različitih ljudi';
 $string['attls6'] = 'Uživam slušajući mišljenja ljudi koji su došli iz sredine različite od moje - to mi pomaže da razumem kako iste stvari mogu biti viđene na tako mnogo različitih načina.';
 $string['attls6short'] = 'uživanje u slušanju drugačijih mišljenja';
-$string['attls7'] = 'Smatram da mogu ojačati svoju sopstvenu poziciju razjašnjavajući svoje stavove u raspravama sa nekim ko se ne slaže sa mnom.';
+$string['attls7'] = 'Smatram da mogu ojačati svoju sopstvenu poziciju razjašnjavajući svoje stavove u raspravama sa nekim ko se ne slaže samnom.';
 $string['attls7short'] = 'jačanje putem rasprave';
 $string['attls8'] = 'Uvek sam zainteresovan/a da saznam zašto ljudi govore to što govore i veruju u stvari u koje veruju.';
 $string['attls8short'] = 'saznati zašto ljudi rade to što rade';
@@ -83,8 +83,8 @@ $string['colles13'] = 'predavač stimuliše moje razmišljanje.';
 $string['colles13short'] = 'predavač stimuliše razmišljanje';
 $string['colles14'] = 'predavač me podstiče na učešće u raspravi.';
 $string['colles14short'] = 'predavač me podstiče';
-$string['colles15'] = 'predavač modelira dobar diskurs.';
-$string['colles15short'] = 'predavač modelira diskurs';
+$string['colles15'] = 'predavač modelira dobru diskusiju.';
+$string['colles15short'] = 'predavač modelira diskusiju';
 $string['colles16'] = 'predavač modelira kritičko mišljenje.';
 $string['colles16short'] = 'predavač modelira mišljenje';
 $string['colles17'] = 'ostali studenti podstiču  moje učešće.';
@@ -130,7 +130,7 @@ Vaši pažljivo promišljeni odgovori će nam pomoći da poboljšamo način prez
 
 Mnogo Vam hvala.';
 $string['collesaname'] = 'COLLES (Stvarni)';
-$string['collesapintro'] = 'Svrha ove ankete je da nam pomogne da razumemo koliko dobro Vam je ova online verzija jedne celine našeg kursa omogućila da savladate gradivo.
+$string['collesapintro'] = 'Svrha ove ankete je da nam pomogne da razumemo koliko dobro Vam je ova elektronska verzija jedne celine našeg kursa omogućila da savladate gradivo.
 
 Svaka od 24 rečenice navedene u nastavku traže od Vas da uporedite svoja <b>preferirana</b> (savršena) i <b>stvarna</b> iskustva u ovoj celini.
 
@@ -153,7 +153,7 @@ $string['collesm5short'] = 'Podrška kolega studenata';
 $string['collesm6'] = 'Objašnjenje';
 $string['collesm6short'] = 'Objašnjenje';
 $string['collesmintro'] = 'U ovoj celini...';
-$string['collespintro'] = 'Svrha ove ankete je da nam pomogne da razumemo šta Vi najviše cenite u online načinu učenju (na bazi Vaših dosadašnjih iskustava).
+$string['collespintro'] = 'Svrha ove ankete je da nam pomogne da razumemo šta Vi najviše cenite u online načinu učenja (na bazi Vaših dosadašnjih iskustava).
 
 Svaka od 24 rečenice navedene u nastavku traži od Vas informacije o Vašem <b>preferiranom</b> (savršenom) iskustvu u ovoj celini.
 
@@ -172,7 +172,7 @@ $string['editingasurvey'] = 'Uređivanje ankete';
 $string['guestsnotallowed'] = 'Gostima nije dopušteno da popunjavaju ankete';
 $string['helpsurveys'] = 'Pomoć vezana za različite vrste anketa';
 $string['howlong'] = 'Koliko Vam je trebalo da završite anketu?';
-$string['howlongoptions'] = 'manje od 1 min, 1-2 min, 2-3 min, 3-4 min, 4-5-min, 5-10 min, više od 10 min';
+$string['howlongoptions'] = 'manje od 1 minuta, 1-2 minuta, 2-3 minuta, 3-4 minuta, 4-5-minuta, 5-10 minuta, više od 10 minuta';
 $string['ifoundthat'] = 'Otkrio/la sam da';
 $string['introtext'] = 'Uvodni tekst';
 $string['ipreferthat'] = 'Preferiram';

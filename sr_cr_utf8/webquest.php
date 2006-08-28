@@ -3,6 +3,6 @@
 
 
 $string['modulename'] = 'Web претрага';
-$string['modulenameplural'] = 'Web претраживач';
+$string['modulenameplural'] = 'Web претраге';
 
 ?>
