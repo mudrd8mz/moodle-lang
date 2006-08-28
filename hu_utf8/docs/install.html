@@ -250,7 +250,7 @@ php_value post_max_size 2M
     Ennek a legegyszerűbb módja, ha az internetes könyvtáron KÍVÜL helyezi el. Ha mégis az internetes könyvtáron belül kell elhelyeznie, 
     védje le oly módon, hogy az adatkönyvtárban létrehoz egy .htaccess nevű állományt, benne az alábbi sorral: </p>
     <blockquote>
-      <pre>deny from all</pre>
+      <pre>deny from all<br />AllowOverride None</pre>
     </blockquote>
     <p>Annak ellenőrzésére, hogy a Moodle az ezen könyvtárba feltöltött állományokat el tudja menteni, 
     győződjön meg arról, hogy a webszerver szoftvere (pl. az Apache) rendelkezik-e a könyvtárhoz olvasási, írási és futtatási joggal. </p>

@@ -248,7 +248,7 @@ php_value post_max_size 2M
     <p>Moodle安装程序很努力的尝试为你创建这个目录，但是如果安装程序不能创建这个数据目录，你需要自己手工来创建它。 </p>
     <p>从安全的方面考虑，这个目录最好不能直接从Web目录访问。 最简单的方法是把它放在web目录之外，但如果你必须把它放在web目录下，你需要在创建一个叫 .htaccess 的在数据目录下，包含这一行：</p>
     <blockquote>
-      <pre>deny from all</pre>
+      <pre>deny from all<br />AllowOverride None</pre>
     </blockquote>
     <p>要确认Moodle能够保存上传的文件到这个目录，检查web服务器软件 (例如 Apache) 具有读、写和执行的权限在这个目录中。 </p>
     <p>在Unix机器上，这意味着设置目录的拥有者给用户 &quot;nobody&quot; 或 &quot;apache&quot;，然后给用户读、写和执行的权力。</p>

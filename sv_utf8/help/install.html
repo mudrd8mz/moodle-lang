@@ -207,7 +207,7 @@ som Du kan använda för att skapa Din databas.</p>
     <p>Installationsprogrammet för Moodle gör tappra försök att skapa denna katalog åt Dig men om det inte går då måste Du skapa en sådan katalog manuellt. </p>
     <p>Med tanke på säkerheten så är det bäst att den här katalogen INTE är tillgänglig direkt via webben. Det enklaste sättet att lösa det här problemet är att helt enkelt att placera den UTANFÖR webbkatalogen (www). Om Du måste ha den i webbkatalogen då bör Du skydda den genom att skapa en fil i datakatalogen som kallas för .htaccess och som innehåller följande rad: </p>
     <blockquote>
-      <pre>deny from all</pre>
+      <pre>deny from all<br />AllowOverride None</pre>
     </blockquote>
     <p>För att säkerställa att Moodle kan spara uppladdade filer i den här katalogen så ska Du kontrollera att webbserverprogrammet (t.ex. Apache) har tillstånd att läsa, skriva och köra (program) i den här katalogen. </p>
     <p>På Unix maskiner, betyder den här inställningen att ägaren av katalogen kan var något i stil med  &quot;nobody&quot; eller &quot;apache&quot;, och därmed får den användaren tillstånd att läsa, skriva och köra (program).</p>

@@ -94,7 +94,7 @@
 
   <p>Utwórz gdzieś katalog, który zamierzasz przeznaczyć na ten cel. Ze względów bezpieczeństwa najlepiej by było, gdyby był to katalog, który nie jest bezpośrednio dostępny poprzez internet. Najłatwiej to osiągnąć umieszczając go po prostu poza katalogiem sieciowym. Jeśli tego nie zrobisz, to zamieść w katalogu na dane Moodle plik o nazwie .htaccess, zawierający poniższą linię :
   <blockquote>
-     <pre>deny from all</pre>
+     <pre>deny from all<br />AllowOverride None</pre>
   </blockquote>
   
   <p>Upewnij się, że platforma Moodle będzie mogła zapisywać przesłane pliki w tym katalogu. Sprawdź, czy oprogramowanie serwera (np. Apache) ma uprawnienie do zapisu w tym katalogu. W systemie Unix oznacza to ustawienie właściciela tego katalogu na przykładowo &quot;nobody&quot; lub &quot;apache&quot;</p>

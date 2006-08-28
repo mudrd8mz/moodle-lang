@@ -87,7 +87,7 @@
   <p>Moodle necessita una mica d'espai al disc dur per emmagatzemar els fitxers que es pengin, p. ex. els documents d'un curs o les fotos dels usuaris.</p>
   <p>Creeu un directori en qualsevol part del servidor. Per seguretat &eacute;s millor que aquest directori NO sigui accessible directament via web. La manera m&eacute;s f&agrave;cil de fer-ho &eacute;s situar-lo FORA del directori del web. Si no ho feu aix&ograve;, podeu protegir-lo creant, dins del mateix directori de dades, un fitxer anomenat .htaccess que contingui aquesta l&iacute;nea:
   <blockquote>
-    <pre>deny from all</pre>
+    <pre>deny from all<br />AllowOverride None</pre>
   </blockquote>
   <p>Per assegurar-vos que Moodle pot desar fitxers en aquest directori, comproveu que el programari del servidor (p. ex. Apache) t&eacute; perm&iacute;s d'escriptura en aquest directori. En m&agrave;quines Unix this means setting the owner of the directory 
     to be something like &quot;nobody&quot; or &quot;apache&quot;.</p>

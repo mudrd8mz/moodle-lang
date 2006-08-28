@@ -205,7 +205,7 @@ php_value post_max_size 2M
   <p>L'instal·lador de Moodle intenta crear aquest directori, però si no pot, haureu de crear manualment el directori.</p>
     <p>Per seguretat, és millor que aquest directori NO sigui accessible directament via web. La manera més fàcil de fer-ho és situar-lo FORA del directori del web, però si l'heu de tenir dins del directori del web, protegiu-lo tot creant un fitxer .htaccess dins del directori de dades, amb el contingut següent:</p>
   <blockquote>
-    <pre>deny from all</pre>
+    <pre>deny from all<br />AllowOverride None</pre>
   </blockquote>
   <p>Per assegurar-vos que Moodle pot desar fitxers en aquest directori, comproveu que el programari del servidor web (p. ex. Apache) té permís de lectura, escriptura i execució en aquest directori.</p>
   <p>En sistemes Cpanel, utilitzeu el &quot;Gestor de fitxers&quot; per seleccionar la carpeta i trieu &quot;Canvia permisos&quot;. En molts serveis d'allotjament compartits, probablement haureu de restringir l'accés a fitxers al vostre "grup" (per impedir que altres clients del mateix proveïdor puguin veure o modificar els vostres fitxers), però doneu sempre accés complet de lectura i escriptura a "altres" de manera que el servidor web pugui accedir als vostres fitxers.</p>

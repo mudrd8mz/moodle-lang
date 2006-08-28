@@ -235,7 +235,7 @@ documentación de los cursos y las fotos de los usuarios.</p>
 <p>El instalador de Moodle intenta crear este directorio pero si no puede hacerlo tendr&aacute; que crearlo usted manualmente. </p>
 <p>Por seguridad, es mejor que este directorio NO sea accesible directamente desde la web. La manera m&aacute;s sencilla de conseguir esto es simplemente colocarlo FUERA del directorio web, pero en caso  de que no pueda hacerlo as&iacute;, prot&eacute;jalo creando un archivo <span>.htaccess</span> en el directorio de datos que contenga la siguiente l&iacute;nea:</p>
 <blockquote>
-  <pre>deny from all</pre>
+  <pre>deny from all<br />AllowOverride None</pre>
 </blockquote>
 <p>Para asegurarse de que Moodle puede guardar los archivos subidos en ese directorio, revise que el servidor web (por ejemplo Apache) tiene permiso de lectura, escritura y ejecuci&oacute;n en ese directorio. </p>
 <p>En las m&aacute;quinas Unix, esto significa establecer que el due&ntilde;o del directorio sea algo como "nobody" o "apache" y dar a ese usuario permiso de lectura, escritura y ejecuci&oacute;n.</p>
