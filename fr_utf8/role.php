@@ -2,11 +2,12 @@
 
 $string['allow'] = 'Autoriser';
 $string['assignroles'] = 'Assigner des rôles';
-$string['capability'] = 'Autorisation';
+$string['capability'] = 'Autorisation';  // Trouver un meilleur terme pour capability
 $string['currentrole'] = 'Rôle actuel';
 $string['currentcontext'] = 'Contexte actuel';
 $string['existingusers'] = '$a utilisateurs existants';
 $string['inherit'] = 'Hériter';
+$string['nocapabilitiesincontext'] = 'Aucune autorisation dans ce contexte';
 $string['overrideroles'] = 'Ne pas tenir compte des rôles';
 $string['potentialusers'] = '$a utilisateurs potentiels';
 $string['prevent'] = 'Empêcher';
