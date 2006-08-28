@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006082200)
+      // admin.php - created with Moodle 1.7 dev (2006082800)
 
 
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示';
@@ -136,6 +136,7 @@ $string['confirminstall'] = 'あなたは言語パック ( $a ) をインスト�
 $string['courserequests'] = 'コースリクエスト';
 $string['courses'] = 'コース';
 $string['cronwarning'] = '<a href=\"cron.php\">cron.phpメンテナンススクリプト</a>が、少なくとも24時間稼動していません。';
+$string['datarootsecuritywarning'] = 'あなたのサイト設定は、安全ではない可能性があります。datarootディレクトリ ( $a ) が、ウェブから直接アクセスできないことを確認してください。';
 $string['dbmigrate'] = 'Moodleデータベース移行';
 $string['dbmigrateconnecerror'] = '指定されたデータベースに接続できませんでした。';
 $string['dbmigrateencodingerror'] = '指定されたデータベースのエンコードは、必須のユニコード/UTF8と異なり、 $a となっています。<br />他のエンコードを指定してください。';

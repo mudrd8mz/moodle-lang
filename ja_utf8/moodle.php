@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006082600)
+      // moodle.php - created with Moodle 1.7 dev (2006082800)
 
 
 $string['action'] = '操作';
@@ -83,6 +83,9 @@ $string['advancedfilter'] = '検索オプション';
 $string['advancedsettings'] = '高度な設定';
 $string['again'] = 'もう一度';
 $string['aimid'] = 'AIM ID';
+$string['ajaxno'] = 'No: 基本的なウェブ機能を使用します。';
+$string['ajaxuse'] = 'AJAXおよびJavascript';
+$string['ajaxyes'] = 'Yes: 高度なウェブ機能を使用します。';
 $string['all'] = 'すべて';
 $string['allactions'] = 'すべての行動';
 $string['allactivities'] = 'すべての活動';
