@@ -530,6 +530,7 @@ $string['formatsocial'] = 'Informel';
 $string['formattext'] = 'Format Moodle';
 $string['formattexttype'] = 'Mise au format';
 $string['formattopics'] = 'Thématique';
+$string['formattopicsajax'] = 'Thématique - AJAX';
 $string['formatweeks'] = 'Hebdomadaire';
 $string['formatweekscss'] = 'Hebdomadaire - CSS, sans table';
 $string['formatwiki'] = 'Format de genre wiki';
