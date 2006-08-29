@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006082300)
+      // quiz.php - created with Moodle 1.7 dev (2006082800)
 
 
 $string['1day'] = '1日';
@@ -523,7 +523,7 @@ $string['webct'] = 'WebCTフォーマット';
 $string['wheregrade'] = '私の評点は?';
 $string['wildcard'] = 'ワイルドカード';
 $string['withselected'] = '選択したものを';
-$string['withsummary'] = '( 統計概要を含む )';
+$string['withsummary'] = '( 要約統計量を含む )';
 $string['wronggrade'] = '誤評定 ( $a 行目以降 ):';
 $string['wronguse'] = 'あなたは、このページをそのように使うことはできません。';
 $string['xhtml'] = 'XHTMLフォーマット';

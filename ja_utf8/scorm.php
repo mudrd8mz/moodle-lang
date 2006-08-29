@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 dev (2006081000)
+      // scorm.php - created with Moodle 1.7 dev (2006082800)
 
 
 $string['advanced'] = '詳細設定';
@@ -61,7 +61,7 @@ $string['maximumattempts'] = '処理回数';
 $string['menubar'] = 'メニューバーを表示する';
 $string['min'] = '最小得点';
 $string['missing_attribute'] = 'タグ $a->tag に属性 $a->attr がありません。';
-$string['missing_tag'] = 'タグなし $a->tag';
+$string['missing_tag'] = 'タグ $a->tag がありません。';
 $string['mode'] = 'モード';
 $string['modulename'] = 'SCORM/AICC';
 $string['modulenameplural'] = 'SCORM/AICC';
