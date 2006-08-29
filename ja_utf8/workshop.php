@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.7 dev (2006082300)
+      // workshop.php - created with Moodle 1.7 dev (2006082800)
 
 
 $string['absent'] = '欠席';
@@ -167,7 +167,7 @@ $string['noteonassessmentelements'] = '評価は数多くの「評価要素」�
 しなければなりません。コース課題をクリックして要素が存在しない場合、<br />
 追加するかどうかたずねられます。「課題の編集」画面で要素数を変更する<br />
 ことができます。要素自体は「評価の管理」画面で変更できます。';
-$string['noteonstudentassessments'] = '{ 学生の評点/評価作業のための評定点 }';
+$string['noteonstudentassessments'] = '{ 学生による評点 / 評価作業に対する評定点 }';
 $string['notgraded'] = '評定なし';
 $string['notitle'] = '提出課題名なし';
 $string['notitlegiven'] = '提出課題名がありません。';

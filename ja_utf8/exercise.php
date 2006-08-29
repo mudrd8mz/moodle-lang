@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.7 dev (2006082300)
+      // exercise.php - created with Moodle 1.7 dev (2006082800)
 
 
 $string['absent'] = '欠席';
@@ -85,10 +85,10 @@ $string['multiplesubmissions'] = '複数提出課題';
 $string['noexercisedescriptionssubmitted'] = 'エクササイズ説明資料が登録されていません。';
 $string['nosubmissions'] = '提出課題なし';
 $string['notassessedyet'] = '未評価';
-$string['notavailable'] = '利用不可';
+$string['notavailable'] = '利用できません。';
 $string['noteonassessmentelements'] = '評定は、いくつかの「評価要素」に分解されます。<br />このことは評定を簡単にし、さらにしっかりとしたものにします。学生が課題を受けることが<br />できるようにする前に、教師として、あなたはこれらの要素を追加する必要があります。<br />これは、コースの課題をクリックすることで設定できます。もし、評価要素が存在しない場合、評価要素を<br />追加するよう求められます。評価要素数は、エクササイズの更新画面で変更することができます。<br />評価要素自体は「評価要素の修正」画面で修正することができます。';
 $string['noteongradinggrade'] = 'この評点は、あなたの提出課題に対する $a による評価が、あなたの評価といかに<br />一致するか示すものです。評点が高いほど、一致していることを示します。';
-$string['noteonstudentassessments'] = '{ 学生の評点/評価作業のための評定点 }';
+$string['noteonstudentassessments'] = '{ 学生による評点 / 評価作業に対する評定点 }';
 $string['notgraded'] = '評価なし';
 $string['notitlegiven'] = 'タイトルなし';
 $string['numberofassessmentelements'] = 'コメント数、評価要素数、評価の幅、クリテリオン・ステートメントまたはルーブリックのカテゴリ数';
