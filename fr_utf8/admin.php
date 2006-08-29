@@ -28,6 +28,10 @@ $string['authentication'] = 'Authentification';
 $string['performanceandstats'] = 'Performance et statistiques';
 $string['backups'] = 'Sauvegardes';
 $string['courserequests'] = 'Demandes de cours';
+$string['themeselector'] = 'Sélecteur de thème';
+$string['nonewsettings'] = 'Aucun nouveau réglage n\'a été ajouté lors de cette mise à jour.';
+$string['upgradesettings'] = 'Nouveaux réglages';
+$string['upgradesettingsintro'] = 'Les réglages ci-dessous ont été ajoutés lors de la dernière mise à jour de votre Moodle. Effectuez les modifications nécessaires et cliquez ensuite sur « Enregistrer les réglages » au bas de cette page.';
 // end {added with admin cleanup}
 
 
