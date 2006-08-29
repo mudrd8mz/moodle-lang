@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2006032200)
+      // error.php - created with Moodle 1.7 dev (2006082800)
 
 
 $string['adminprimarynoedit'] = 'L\'amministratore principale non può essere modificato dagli altri';
@@ -28,6 +28,8 @@ $string['filenotfound'] = 'Spiacente, il file richiesto non può essere trovato'
 $string['forumblockingtoomanyposts'] = 'Avete superato il limite di messaggi impostato per questo forum.';
 $string['groupalready'] = 'Utente già  appartenente al gruppo $a';
 $string['groupunknown'] = 'Il gruppo $a non è associato al corso specificato';
+$string['guestnoeditprofile'] = 'Gli utenti ospiti non possono modificare il loro profilo';
+$string['guestnoeditprofileother'] = 'Il profilo dell\'utente ospite non può essere modificato';
 $string['invalidcourse'] = 'Corso non valido';
 $string['invalidfieldname'] = '\"$a\" non è nome di campo valido';
 $string['invalidfiletype'] = '\"$a\" non è un tipo di file valido';
@@ -41,25 +43,31 @@ $string['mustbeteacher'] = 'Bisogna essere docenti per visualizzare questa pagin
 $string['noinstances'] = 'Non ci sono istanze di $a in questo corso!';
 $string['nonmeaningfulcontent'] = 'Contenuto senza significato';
 $string['noparticipatorycms'] = 'Spiacente, ma il rapporto di partecipazione dei moduli del corso non è attivato.';
+$string['nopermissions'] = 'Spiacente, ma attualmente non avete il permesso per fare questo ($a)';
 $string['notavailable'] = 'Non è attualmente disponibile';
 $string['onlyadmins'] = 'Solo gli amministratori possono farlo.';
 $string['onlyeditingteachers'] = 'Solo i docenti con diritti di modifica possono farlo.';
 $string['onlyeditown'] = 'È possibile modificare solo le proprie informazioni';
+$string['pagenotexist'] = 'Si è verificato un errore comune (si è provato a raggiungere una pagina inesistente).';
+$string['pleasereport'] = 'Se avete tempo, vi preghiamo di farci sapere cosa stavate cercando di fare quando l\'errore si è verificato:';
+$string['pluginrequirementsnotmet'] = 'Il plugin \"$a->pluginname\" ($a->pluginversion) non può essere installato. Richiede una versione più recente di Moodle (attualmente state utilizzando la $a->currentmoodle, mentre si necessita la $a->requiremoodle).';
 $string['processingstops'] = 'L\'elaborazione si è fermata qui. Rimangono dei record ignorati.';
 $string['remotedownloadnotallowed'] = 'Non è permesso scaricare i componenti su vostro server (allow_url_fopen è disabilitato). <br /><br /> È necessario scaricare manualmente il file <a href=\"$a->url\">$a->url</a>, copiarlo in \"$a->dest\" sul vostro server e scompattarlo la.';
 $string['restricteduser'] = 'Spiacente, ma il suo account corrente  \"$a\" non ha il permesso per fare questo.';
+$string['sendmessage'] = 'Invia messaggio';
 $string['sessionerroruser'] = 'La sessione è scaduta o è stato rilevato un errore. Si prega effettuare nuovamente il login.';
 $string['sessionerroruser2'] = 'È stato rilevato un errore su server che ha compromesso la vostra sessione di autenticazione. Vi preghiamo di autenticarvi nuovamente o di far ripartire il browser.';
 $string['sessionipnomatch'] = 'Spiacente, ma il vostro IP sembra essere cambiato da quando vi siete autenticati. Questa caratteristica previene il furto della vostra identità  da parte di hackers mentre siete collegati a questo sito. Gli utenti non dovrebbero vedere questo messaggio - chiedere aiuto all\'amministratore del sito.';
 $string['statscatchupmode'] = 'Le statistiche sono attualmente in modalità  di raccolta dati. Sono già  stati elaborati $a->daysdone giorno(i) e $a->dayspending lo devono ancora essere. Ricontrollate presto!';
 $string['unknowncourse'] = 'Il corso chiamato \"$a\" risulta sconosciuto';
-$string['usernotaddederror'] = 'L\'utente \"$a\" non è stato aggiunto - errore sconosciuto ';
+$string['unknownuseraction'] = 'Spiacente, non si riesce a capire questa azione dell\'utente';
+$string['usernotaddederror'] = 'L\'utente \"$a\" non è stato aggiunto - errore sconosciuto';
 $string['usernotaddedregistered'] = 'L\'utente \"$a\" non è stato aggiunto - utente già  registrato';
 $string['usernotavailable'] = 'Non è possibile visualizzare i dettagli di questo utente.';
 $string['usernotrenamedexists'] = 'Utente non rinominato -- il nuovo username è già utilizzato.';
 $string['usernotrenamedmissing'] = 'Utente non rinominato -- non è possibile trovare il vecchio username.';
 $string['wrongdestpath'] = 'Percorso della destinazione errato.';
-$string['wrongsourcebase'] = 'Indirizzo (URL) base sorgente errato. ';
+$string['wrongsourcebase'] = 'Indirizzo (URL) base sorgente errato.';
 $string['wrongzipfilename'] = 'Nome file compresso errato.';
 
 ?>
