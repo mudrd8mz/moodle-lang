@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 dev (2006082800)
+      // xmldb.php - created with Moodle 1.7 dev (2006083001)
 
 
 $string['aftertable'] = 'アフターテーブル:';
@@ -42,6 +42,7 @@ $string['enumvaluesincorrect'] = 'enumフィールドが正しくありません
 $string['field'] = 'フィールド';
 $string['fieldnameempty'] = 'フィールド名が空です。';
 $string['fields'] = 'フィールド';
+$string['filenotwriteable'] = 'ファイルに書き込み権がありません。';
 $string['floatincorrectdecimals'] = 'floatフィールドの小数点以下桁数が正しくありません。';
 $string['floatincorrectlength'] = 'floatフィールドの長さが正しくありません。';
 $string['gotolastused'] = '最後に使用されたファイルへ移動';
