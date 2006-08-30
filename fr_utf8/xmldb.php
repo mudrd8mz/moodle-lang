@@ -40,6 +40,7 @@ $string['enumvaluesincorrect'] = 'Valeur du champ énumération incorrecte';
 $string['field'] = 'Champ';
 $string['fieldnameempty'] = 'Nom du champ vide';
 $string['fields'] = 'Champs';
+$string['filenotwriteable'] = 'Fichier non accessible en écriture';
 $string['floatincorrectdecimals'] = 'Nombre de décimales incorrecte pour champ virgule flottante';
 $string['floatincorrectlength'] = 'Longueur du champ virgule flottante incorrecte';
 $string['gotolastused'] = ' Retour au dernier fichier utilisé';
