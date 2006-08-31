@@ -50,7 +50,7 @@ $string['incorrectfieldname'] = 'フィールド名が正しくありません�
 $string['indexes'] = 'インデックス';
 $string['integerincorrectlength'] = 'integerフィールドの長さが正しくありません。';
 $string['keys'] = 'キー';
-$string['listreservedwords'] = '予約語一覧<br/>( <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a>を更新するために使用されます。)';
+$string['listreservedwords'] = '予約語一覧<br/>( <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> を更新するため使用されます。)';
 $string['load'] = 'ロード';
 $string['main_view'] = 'メインビュー';
 $string['missingfieldsinsentence'] = 'センテンスのフィールドが見つかりません。';
