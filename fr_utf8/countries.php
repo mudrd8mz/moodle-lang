@@ -195,8 +195,7 @@ $string['SK'] = 'Slovaquie ';
 $string['SI'] = 'Slovénie';
 $string['SB'] = 'Îles Salomon';
 $string['SO'] = 'Somalie';
-$string['ZA'] = '
-que du Sud';
+$string['ZA'] = 'Afrique du Sud';
 $string['ES'] = 'Espagne';
 $string['LK'] = 'Sri Lanka';
 $string['SH'] = 'Sainte Hélène';
