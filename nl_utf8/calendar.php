@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.7 dev (2006060900)
+      // calendar.php - created with Moodle 1.7 dev (2006082800)
 
 
 $string['calendar'] = 'Kalender';
@@ -7,7 +7,7 @@ $string['calendarheading'] = '$a Kalender';
 $string['clickhide'] = 'Verberg';
 $string['clickshow'] = 'Toon';
 $string['confirmeventdelete'] = 'Wil je deze activiteit echt wissen?';
-$string['courseevents'] = 'Cursus';
+$string['courseevents'] = 'Cursusactiviteiten';
 $string['dayview'] = 'Per dag';
 $string['daywithnoevents'] = 'Vandaag geen activiteiten';
 $string['default'] = 'Standaard';

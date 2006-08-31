@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006082100)
+      // quiz.php - created with Moodle 1.7 dev (2006083003)
 
 
 $string['1day'] = '1 dag';
@@ -26,7 +26,7 @@ $string['aiken'] = 'Aikenopmaak';
 $string['allattempts'] = 'Alle pogingen';
 $string['allinone'] = 'Onbeperkt';
 $string['allowreview'] = 'Sta nalezen toe';
-$string['alreadysubmitted'] = 'Waarschijnlijk heb je deze poging al ingestuurd';
+$string['alreadysubmitted'] = 'Waarschijnlijk heb je deze poging al bewaard';
 $string['alternativeunits'] = 'Alternatieve eenheden';
 $string['alwaysavailable'] = 'Altijd beschikbaar';
 $string['analysisoptions'] = 'Analyse-opties';
@@ -110,7 +110,7 @@ $string['correctanswers'] = 'Juiste antwoorden';
 $string['correctanswershows'] = 'Juist antwoord toont';
 $string['corrresp'] = 'Juiste reactie';
 $string['countdown'] = 'Aftellen';
-$string['countdownfinished'] = 'De test gaat dicht. Je moet nu je antwoorden insturen.';
+$string['countdownfinished'] = 'De test gaat dicht. Je moet nu je antwoorden bewaren.';
 $string['countdowntenminutes'] = 'De test gaat over tien minuten dicht.';
 $string['coursetestmanager'] = 'Course Test Manager- opmaak';
 $string['createfirst'] = 'Je moet eerst enkele kort antwoordvragen maken.';
@@ -173,7 +173,7 @@ $string['event2'] = 'Bewaar';
 $string['event3'] = 'Cijfer';
 $string['event5'] = 'Valideer';
 $string['event6'] = 'Sluit';
-$string['event7'] = 'Stuur in';
+$string['event7'] = 'Bewaar';
 $string['event8'] = 'Sluit';
 $string['event9'] = 'Manueel cijfers geven';
 $string['examview'] = 'Examview';
@@ -196,7 +196,7 @@ $string['filloutnumericalanswer'] = 'Je geeft hier minstens één mogelijk antwo
 $string['filloutoneanswer'] = 'Je moet minstens één mogelijk antwoord invullen. Lege antwoorden zullen niet worden gebruikt.';
 $string['filloutthreequestions'] = 'Je moet minstens drie vragen invullen. Niet ingevulde vragen zullen niet worden gebruikt.';
 $string['fillouttwochoices'] = 'Je moet minstens twee keuzemogelijkheden invullen. Lege keuzemogelijkheden zullen niet worden gebruikt.';
-$string['finishattempt'] = 'Stuur alles in en beëindig';
+$string['finishattempt'] = 'Bewaar alles en beëindig test';
 $string['forceregeneration'] = 'maak nieuwe waarden';
 $string['formatnotfound'] = 'Import- / exportopmaak $a niet gevonden';
 $string['formatnotimplemented'] = 'Deze opmaak is niet juist geïmplementeerd. Stuur aub een bugrapport.';
@@ -270,8 +270,8 @@ $string['loguniform'] = 'aantal cijfers, logaritmisch uniforme distrubutie';
 $string['makecopy'] = 'Bewaar als nieuwe vraag';
 $string['managetypes'] = 'Beheer vraagtypes en servers';
 $string['manualgrading'] = 'Beoordelen';
-$string['mark'] = 'Inzenden';
-$string['markall'] = 'Pagina inzenden';
+$string['mark'] = 'Bewaren';
+$string['markall'] = 'Pagina bewaren';
 $string['marks'] = 'Punten';
 $string['match'] = 'Koppelen';
 $string['matchanswer'] = 'Koppel antwoord';
@@ -445,7 +445,7 @@ $string['saveandedit'] = 'Bewaar de wijzigingen en bewerk de vragen';
 $string['savedfromdeletedcourse'] = 'Bewaard uit het verwijderde van \"$a\"';
 $string['savegrades'] = 'Bewaar cijfers';
 $string['savemyanswers'] = 'Bewaar mijn antwoorden';
-$string['savenosubmit'] = 'Bewaar zonder insturen';
+$string['savenosubmit'] = 'Bewaar zonder te beëindigen';
 $string['savequiz'] = 'Bewaar deze hele test';
 $string['score'] = 'Ruwe score';
 $string['scores'] = 'Scores';
