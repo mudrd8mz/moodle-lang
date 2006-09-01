@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6.1 (2006050510)
+      // enrol_authorize.php - created with Moodle 1.7 dev (2006083102)
 
 
 $string['adminacceptccs'] = 'Hangi kredi kartı tipleri kabul edilecek?';
+$string['adminacceptmethods'] = 'Hangi ödeme yöntemleri kabul edilecek?';
 $string['adminauthorizeccapture'] = 'Siparişi İnceleme ve Zamanlanmış-Çekme Ayarları';
 $string['adminauthorizeemail'] = 'E-Posta Gönderme Ayarları';
 $string['adminauthorizesettings'] = 'Authorize.net Ayarları';
@@ -79,12 +80,27 @@ $string['costdefaultdesc'] = 'Bu varsayılan ayarı kullanmak için, <strong>kur
 $string['cutofftime'] = 'Hesap Kesim Zamanı. En son işlem ne zaman karara bağlanacak?';
 $string['delete'] = 'Sil';
 $string['description'] = 'Authorize.net modülü Kredi Kartı sağlayıcılarıyla ücretli kurslar ayarlamanıza olanak verir. Bir kursun ücreti sıfır ise öğrencilere ödeme yapmaları için bir istekte bulunulmaz. Kurs ücretini iki şekilde ayarlayabilirsiniz. (1) Sitenin geneli için ayarlayabileceğiniz varsayılan bir tutar vardır ve ayrıca (2) her bir dersin ücretini tek tek de ayarlayabilirsiniz. Kurs ücreti ayarlanırsa site genelindeki ücret yoksayılır.<br /><br /><b>Not:</b> Kurs ayarlarında kayıt anahtarını girdiyseniz öğrenciler bu anahtara göre de kayıt olma seçeneğine sahip olabileceklerdir. Bu, öğrecilerden bazılarının ödeme yaparak bazılarının da kayıt anahtarına göre kayıt olmasını istiyorsanız kullanışlıdır.';
+$string['echeckabacode'] = 'Banka ABA Numarası';
+$string['echeckaccnum'] = 'Banka Hesap Numarası';
+$string['echeckacctype'] = 'Banka Hesap Tipi';
+$string['echeckbankname'] = 'Banka Adı';
+$string['echeckbusinesschecking'] = 'Ticari Çek';
+$string['echeckchecking'] = 'Çek';
+$string['echeckfirslasttname'] = 'Banka Hesap Sahibi';
+$string['echecksavings'] = 'Tasarruf';
 $string['enrolname'] = 'Authorize.net Ödeme Sağlayıcısı';
 $string['expired'] = 'Süresi Dolmuş';
 $string['howmuch'] = 'Ne kadar?';
 $string['httpsrequired'] = 'Üzgünüz, isteğinizi şu anda yerine getiremiyoruz. Bu sitenin ayarı doğru yapılandırılmamış.<br /><br />Tarayıcınızın alt tarafında sarı bir kilit görmüyorsanız kredi kartı numaranızı girmeyiniz. Bu, sizinle sunucu arasında gidip gelen verinin şifrelendiği anlamına gelir. Böylece 2 bilgisayar arasında akan bilgi korunmuş olur ve kredi kartı numaranız internet üzerinden yakalanamaz.';
+$string['invalidaba'] = 'Geçersiz ABA numarası';
+$string['invalidaccnum'] = 'Geçersiz hesap numarası';
+$string['invalidacctype'] = 'Geçersiz hesap tipi';
 $string['logindesc'] = 'Bu seçenek AÇIK olmalı.<br /><br /><a href=\"$a->url\">Loginhttps</a> seçeneğini Değişkenler/Güvenlik bölümünden ayarlayabilirsiniz.<br /><br />Bu seçenek aktif ise sadece giriş ve ödeme sayfaları için güvenli bağlantı (https) kullanılacaktır.';
+$string['methodcc'] = 'Kredi Kartı';
+$string['methodecheck'] = 'E-Çek (ACH)';
+$string['missingaba'] = 'ABA numarası eksik';
 $string['missingaddress'] = 'Adres eksik';
+$string['missingbankname'] = 'Banka adı eksik';
 $string['missingcc'] = 'Kart no eksik';
 $string['missingccexpire'] = 'Son kullanma tarihi eksik';
 $string['missingcctype'] = 'Kart tipi eksik';
@@ -149,6 +165,8 @@ $string['testmode'] = '[DENEME MODU]';
 $string['testwarning'] = 'Çekme/İptal Etme/Geri Ödeme deneme modunda çalışıyor görünüyor ama veritabanına kayıt eklenmedi/güncellenmedi.';
 $string['transid'] = 'İşlem ID';
 $string['unenrolstudent'] = 'Öğrencinin ders kaydını sil?';
+$string['usingccmethod'] = '<a href=\"$a->url\"><strong>Kredi Kartı</strong></a> kullanarak kaydol';
+$string['usingecheckmethod'] = '<a href=\"$a->url\"><strong>E-Çek</strong></a> kullanarak kaydol';
 $string['void'] = 'İptal et';
 $string['voidyes'] = 'İşlem iptal edilecek. Emin misiniz?';
 $string['welcometocoursesemail'] = 'Sevgili öğrenci,
