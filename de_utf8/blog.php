@@ -1,28 +1,29 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // blog.php - created with Moodle 1.6 (2006050506)
 
 
 $string['addnewentry'] = 'Neuen Eintrag hinzufügen';
 $string['addotags'] = 'Offizielles Schlagwort hinzufügen';
-$string['addptags'] = 'Nutzer-definiertes Schlagwort hinzu fügen';
-$string['blockmenutitle'] = 'Blogmenu';
+$string['addptags'] = 'Nutzer-definiertes Schlagwort hinzufügen';
+$string['blockmenutitle'] = 'Blogmenü';
 $string['blocktagstitle'] = 'Blog-Schlagwörter';
 $string['blocktitle'] = 'Titel des Blocks für Blog-Schlagwörter';
 $string['blog'] = 'Blog';
 $string['blogdeleteconfirm'] = 'Diesen Blog löschen?';
-$string['blogpreferences'] = 'Blog Voreinstellungen';
+$string['blogpreferences'] = 'Blog-Voreinstellungen';
 $string['blogs'] = 'Blogs';
 $string['blogtags'] = 'Blog-Schlagwörter';
 $string['courseblog'] = 'Kursblog: $a';
-$string['courseblogs'] = 'Nutzer/innen können nur Blogs anderer Teilnehmer/inenn der Kurse sehen';
+$string['courseblogs'] = 'Nutzer/innen können nur Blogs anderer Kursteilnehmer/innen sehen';
 $string['disableblogs'] = 'Blog-System komplett deaktivieren';
 $string['entrybody'] = 'Blogeintrag';
 $string['entrybodyonlydesc'] = 'Beschreibung';
 $string['entryerrornotyours'] = 'Dies ist nicht Ihr eigener Eintrag';
+$string['entrysaved'] = 'Ihr Eintrag wurde gespeichert';
 $string['entrytitle'] = 'Titel des Eintrags';
 $string['entryupdated'] = 'Eintrag aktualisiert';
 $string['groupblog'] = 'Gruppenblog: $a';
-$string['groupblogs'] = 'Nutzer/innen können nur Blogs anderer Gruppenmitglieder sehen.';
+$string['groupblogs'] = 'Nutzer/innen können nur Blogs anderer Gruppenmitglieder sehen';
 $string['intro'] = 'Der RSS-Feed wurde automatisch von einem oder mehreren Blogs erstellt.';
 $string['noentriesyet'] = 'Keine sichtbaren Einträge hier';
 $string['noguestpost'] = 'Gäste können in Blogs keine Beiträge veröffentlichen.';
@@ -40,7 +41,7 @@ $string['publishtosite'] = 'Jede/r auf dieser Site';
 $string['publishtoworld'] = 'Jede/r (öffentlich)';
 $string['settingsupdatederror'] = 'Es ist ein Fehler aufgetreten. Die Voreinstellungen konnten nicht aktualisiert werden. ';
 $string['siteblog'] = 'Site-Blog: $a';
-$string['siteblogs'] = 'Alle Nutzer/innen dieses moodles können alle Blog-Einträge sehen';
+$string['siteblogs'] = 'Alle Nutzer/innen dieses Moodles können alle Blog-Einträge sehen';
 $string['tagdatelastused'] = 'Tag an dem das Schlagwort zuletzt gebraucht wurde';
 $string['tagsort'] = 'Sotierung der Schlagwörter nach';
 $string['tagtext'] = 'Schlagworttext';
@@ -48,7 +49,7 @@ $string['timewithin'] = 'Anzeige der Schlagwörtern, die an so vielen Tagen gebr
 $string['updateentrywithid'] = 'Eintrag aktualisieren';
 $string['userblog'] = 'Nutzer/innen-Blog: $a';
 $string['viewcourseentries'] = 'Kurseinträge anzeigen';
-$string['viewmyentries'] = 'Meine eigenen Einträge anzeigen';
+$string['viewmyentries'] = 'Eigene Einträge anzeigen';
 $string['viewsiteentries'] = 'Site-Einträge anzeigen';
 $string['worldblogs'] = 'Einträge sind weltweit erreichbar und damit öffentlich';
 

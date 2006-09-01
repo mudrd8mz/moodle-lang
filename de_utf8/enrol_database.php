@@ -2,19 +2,19 @@
       // enrol_database.php - created with Moodle 1.6 development (2006032001)
 
 
-$string['autocreate'] = 'Kurse können automatisch angelegt werden, wenn es Eintragungen zu einem Kurs gibt, der noch nicht in moodle existiert.';
+$string['autocreate'] = 'Kurse können automatisch angelegt werden, wenn es Eintragungen zu einem Kurs gibt, der noch nicht in Moodle existiert.';
 $string['autocreation_settings'] = 'Einstellungen für  die automatische Erstellung von Kursen';
 $string['category'] = 'Kategorie für automatisch angelegte Kurse';
 $string['course_fullname'] = 'Feldname für den Kurstitel (Langbezeichnung)';
-$string['course_id'] = 'Feldname in dem die Kurs-ID abgelegt ist. Die Werte dieses Feldes werden mit dem Feld \"enrol_db_l_coursefield\" der moodle-Kurstabelle abgeglichen.';
+$string['course_id'] = 'Feldname in dem die Kurs-ID abgelegt ist. Die Werte dieses Feldes werden mit dem Feld \"enrol_db_l_coursefield\" der Moodle-Kurstabelle abgeglichen.';
 $string['course_shortname'] = 'Feldname für den Kurztitel desKurses ';
 $string['course_table'] = 'Name der Tabelle in der Detailinformationen zum Kurs gefunden werden (Kurzbezeichnung, Titel, ID, etc.)';
 $string['description'] = 'Sie können eine externe Datenbank (fast jeder Art benutzen), um den Zugang zu Moodle zu ermöglichen. Es wird vorausgesetzt, dass die Datenbank die Felder Kurs-ID und Benutzer-ID enthält. Diese werden geprüft gegen die Felder des Kurses und des Benutzers im Moodle System.';
 $string['enrolname'] = 'Externe Datenbank';
 $string['general_options'] = 'Generelle Optionen';
 $string['host'] = 'Datenbankserver Hostname';
-$string['local_coursefield'] = 'Feld in der Kurstabelle von moodle, das zum Abgleich mit der verbundenen Datenbank verwandt werden soll (z.B. idnumber).';
-$string['local_fields_mapping'] = 'moodle Datenbankfelder (lokal)';
+$string['local_coursefield'] = 'Feld in der Kurstabelle von Moodle, das zum Abgleich mit der verbundenen Datenbank verwandt werden soll (z.B. idnumber).';
+$string['local_fields_mapping'] = 'Moodle-Datenbankfelder (lokal)';
 $string['name'] = 'Spezifische Datenbank, die verwandt werden soll';
 $string['pass'] = 'Passwort für Zugriff auf Server';
 $string['remote_fields_mapping'] = 'Anmeldungsdatenbankfelder (remote)';

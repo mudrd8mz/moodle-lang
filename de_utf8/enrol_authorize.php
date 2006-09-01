@@ -38,7 +38,7 @@ Mit aktivem auto-capture wird die Kreditkarte angenommen unter $a->captureon und
 Zahlungen können angenommen/zurückgewiesen werden wenn Sie diesem Link folgen: 
 $a->url';
 $string['adminnewordersubject'] = '$a->course: Neue offene Zahlungen ($a->orderid)';
-$string['adminpendingorders'] = 'Sie haben das auto-capture Feature deaktiviert. <br />Insgesamt $a->count Transaktionen mit dem Status AN_STATUS_AUTH werden zurückgewiesen wenn Sie diese nicht prüfen.<br />Gehen Sie zum <a href=\'§a->url\'>Zahlungsmanagement</a>, um diese zu bearbeiten.';
+$string['adminpendingorders'] = 'Sie haben das auto-capture Feature deaktiviert. <br />Insgesamt $a->count Transaktionen mit dem Status AN_STATUS_AUTH werden zurückgewiesen wenn Sie diese nicht prüfen.<br />Gehen Sie zum <a href=\'$a->url\'>Zahlungsmanagement</a>, um diese zu bearbeiten.';
 $string['adminreview'] = 'Zahlung überprüfen bevor Kreditkarte akzeptiert wird';
 $string['adminteachermanagepay'] = 'Trainer/innen können die  Zahlungen des Kurses verwalten';
 $string['amount'] = 'Betrag';
@@ -130,7 +130,7 @@ $string['reason55'] = 'Die Summe der Kreditabwicklungen übersteigt das Kreditvo
 $string['refund'] = 'Rückzahlung';
 $string['refunded'] = 'Zurückgezahlt';
 $string['returns'] = 'Rückläufe';
-$string['reviewday'] = 'Bewahren der Kreditkarte automatisch für <b>$a </b> Tage bis ein/e Trainer/in oder ein/e Administrator/in die Zahlung geprüft hat. CronJobs müssen hierfür aktiv sein.<br/>Wert 0 Tage = Funktion deaktiviert<br/>autocapture = Trainer/in, Admin prüft manuell.<br/>Transaktion wird gelöscht wenn autocapture deaktiviert wird oder innerhalb von 30 Tagen keine Prüfung erfolgt ist.';
+$string['reviewday'] = 'Bewahren der Kreditkarte automatisch für <b>$a </b> Tage bis ein/e Trainer/in oder ein/e Administrator/in die Zahlung geprüft hat. CronJobs müssen hierfür aktiv sein.<br />Wert 0 Tage = Funktion deaktiviert<br />autocapture = Trainer/in, Admin prüft manuell.<br />Transaktion wird gelöscht wenn autocapture deaktiviert wird oder innerhalb von 30 Tagen keine Prüfung erfolgt ist.';
 $string['reviewnotify'] = 'Ihre Zahlung wird geprüft. Sie erhalten eine E-Mailnachricht von Ihrer/m Trainer/in in einigen Tagen.';
 $string['sendpaymentbutton'] = 'Zahlung übertragen';
 $string['settled'] = 'Erledigt';

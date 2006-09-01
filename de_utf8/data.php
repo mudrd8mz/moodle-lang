@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // data.php - created with Moodle 1.6 (2006050506)
 
 
 $string['action'] = 'Aktion';
@@ -28,8 +28,8 @@ $string['commentsn'] = '$a Kommentare';
 $string['configenablerssfeeds'] = 'Mit dieser Funktion aktivieren Sie RSS Feeds für alle Datenbanken. Ncah der Aktivierung an dieser Stelle ist zusätzlich die Aktivierung in jeder einzelnen Datenbank innerhalb der Kursräume erforderlich.';
 $string['confirmdeletefield'] = 'Wollen Sie dieses Feld in der Datenbank wirklich löschen?';
 $string['confirmdeleterecord'] = 'Wollen Sie diesen Datensatz in der Datenbank wirklich löschen?';
-$string['csstemplate'] = 'CSS Template';
-$string['csvfile'] = 'CSV Datei:';
+$string['csstemplate'] = 'CSS-Template';
+$string['csvfile'] = 'CSV-Datei:';
 $string['csvimport'] = 'CSV-Dateiimport';
 $string['date'] = 'Datum';
 $string['dateentered'] = 'Daten eingetragen';
@@ -37,7 +37,7 @@ $string['defaultfielddelimiter'] = '(Grundeinstellung ist ein Komma-Zeichen)';
 $string['defaultfieldenclosure'] = '(Grundeinstellung ist \'kein \' Eintrag)';
 $string['defaultsortfield'] = 'Standard Sortierfeld';
 $string['delete'] = 'Löschen';
-$string['deletecomment'] = 'Sind Siesicher, dass Sie diesen Kommentar löschen wollen?';
+$string['deletecomment'] = 'Sind Sie sicher, dass Sie diesen Kommentar löschen wollen?';
 $string['deleted'] = 'gelöscht';
 $string['deletefield'] = 'Ein bestehendes Feld löschen';
 $string['descending'] = 'Absteigend';
@@ -84,19 +84,19 @@ $string['list'] = 'Liste anzeigen';
 $string['listtemplate'] = 'Templates auflisten';
 $string['maxentries'] = 'Einträge (Höchstzahl)';
 $string['maxsize'] = 'Größe (max)';
-$string['menu'] = 'Menu ';
+$string['menu'] = 'Menü ';
 $string['menuchoose'] = 'Auswählen ...';
 $string['modulename'] = 'Datenbank';
 $string['modulenameplural'] = 'Datenbanken';
 $string['more'] = 'Weitere';
 $string['moreurl'] = 'Weitere URL';
 $string['multientry'] = 'Wiederholter Eintrag';
-$string['multimenu'] = 'Menu (Mehrfachansicht)';
+$string['multimenu'] = 'Menü (Mehrfachansicht)';
 $string['multipletags'] = 'Mehrere Schlagworte gefunden! Keine Vorlage gespeichert.';
 $string['namecheckbox'] = 'Ankreuzfeld';
 $string['namedate'] = 'Datenfeld';
 $string['namefile'] = 'Dateifeld';
-$string['namemenu'] = 'Pulldownmenufeld';
+$string['namemenu'] = 'Pulldownmenüfeld';
 $string['namemultimenu'] = 'Mehrfachauswahlfeld';
 $string['namenumber'] = 'Zahlenfeld';
 $string['namepicture'] = 'Bildfeld';
@@ -145,6 +145,7 @@ $string['resizingimages'] = 'Größe für Vorschaubilder ...';
 $string['rssglobaldisabled'] = 'Deaktiviert. Beachten Sie die Einstellungsseite für die Variablen.';
 $string['rsshowmany'] = '(Zahl der letzten Einträge die angezeigt werden sollen, 0 deaktiviert RSS)';
 $string['rsstemplate'] = 'RSS-Ansicht';
+$string['rsstitletemplate'] = 'RSS-Titel-Template';
 $string['save'] = 'Speichern';
 $string['saveandadd'] = 'Speichern und weitere hinzufügen';
 $string['saveandview'] = 'Speichern und anzeigen';
@@ -162,7 +163,7 @@ $string['type'] = 'Typ';
 $string['updatefield'] = 'Ein bestehendes Feld aktualisieren';
 $string['uploadfile'] = 'Datei hochladen';
 $string['uploadrecords'] = 'Datensätze hochladen';
-$string['url'] = 'Url';
+$string['url'] = 'URL';
 $string['viewfromdate'] = 'Sichtbar von';
 $string['viewtodate'] = 'Sichtbar bis';
 

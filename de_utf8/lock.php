@@ -20,6 +20,6 @@ $string['requiredgrade'] = 'Erforderliche Bewertung';
 $string['saveactivitylocks'] = 'Sperrungen speichern';
 $string['showactivitytracking'] = 'Sperrungen anzeigen';
 $string['timedelay'] = 'Zeitverzögerung';
-$string['usermustaccess'] = 'Teilnehmer/in muß diese Aktivität bearbeiten';
+$string['usermustaccess'] = 'Teilnehmer/in muss diese Aktivität bearbeiten';
 
 ?>

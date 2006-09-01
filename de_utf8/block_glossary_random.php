@@ -20,7 +20,7 @@ $string['select_glossary'] = 'Einträge aus diesem Glossar nutzen';
 $string['showconcept'] = 'Begriff für jeden Eintrag anzeigen';
 $string['title'] = 'Titel';
 $string['type'] = 'Prinzip der Auswahl eines neuen Eintrags';
-$string['typehelp'] = 'Die Option <b>nächster</b> ist sinnvoll, um interessante Links/ Zitate im wöchentlichen oder täglichen Wechsel anzuzeigen. Wenn Sie drei neue Einträge zum Glossar hinzufügen, wird immer nur einer angezeigt. <br> Die Option <b>zuletzt geändert</b> zeigt immer den zuletzt geänderten Eintrag an.';
+$string['typehelp'] = 'Die Option <b>nächster</b> ist sinnvoll, um interessante Links/ Zitate im wöchentlichen oder täglichen Wechsel anzuzeigen. Wenn Sie drei neue Einträge zum Glossar hinzufügen, wird immer nur einer angezeigt. <br /> Die Option <b>zuletzt geändert</b> zeigt immer den zuletzt geänderten Eintrag an.';
 $string['viewglossary'] = 'Weitere Zitate';
 $string['whichfooter'] = 'Links in das Glossar können im Block angezeigt werden. ';
 
