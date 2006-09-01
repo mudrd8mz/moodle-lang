@@ -1,6 +1,7 @@
 <?php // $Id$ 
 
 $string['adminacceptccs'] = 'Cartes de crédit acceptées';
+$string['adminacceptmethods'] = 'Méthodes de paiement acceptées';
 $string['adminauthorizeccapture'] = 'Contrôle des commandes & réglages de saisie programmée';
 $string['adminauthorizeemail'] = 'Réglages d\'envoi de courriel';
 $string['adminauthorizesettings'] = 'Réglages Authorize.net';
@@ -81,12 +82,27 @@ $string['costdefaultdesc'] = 'Pour utiliser ce prix par défaut, <strong> tapez 
 $string['cutofftime'] = 'Date butoir de transaction. Quand la dernière transaction doit-elle être traitée pour règlement ?';
 $string['delete'] = 'Détruire';
 $string['description'] = 'Le module Authorize.net permet de mettre en place des cours payant par carte de crédit. Si le prix d\'un cours est nul, les étudiants peuvent s\'y inscrire sans payer. Le prix des cours peut être fixé de 2 manières. (1) Un prix défini globalement, que vous fixez ici, est le prix par défaut pour tous les cours du site. (2) Le prix de chaque cours peut être fixé individuellement. S\'il est défini, le prix spécifique d\'un cours remplace le prix par défaut.<br /><br /><b>Remarque :</b> si vous indiquez une clef d\'inscription dans les réglages du cours, les étudiants auront également la possibilité de s\'y inscrire avec cette clef. Ceci est utile si vous avez un mélange d\'étudiants payant et non payant.';
+$string['echeckabacode'] = 'Numéro bancaire ABA';
+$string['echeckaccnum'] = 'Numéro de compte bancaire';
+$string['echeckacctype'] = 'Type de compte bancaire';
+$string['echeckbankname'] = 'Nom de la banque';
+$string['echeckbusinesschecking'] = 'Business Checking';
+$string['echeckchecking'] = 'Checking';
+$string['echeckfirslasttname'] = 'Titulaire du compte bancaire';
+$string['echecksavings'] = 'Économie';
 $string['enrolname'] = 'Passerelle de paiement Authorize.net';
 $string['expired'] = 'Échu';
 $string['howmuch'] = 'Combien ?';
 $string['httpsrequired'] = 'Votre requête ne peut pas être traitée. Les réglages du site n\'ont pas pu être configurés correctement.<br /><br />Veuillez NE PAS taper votre numéro de carte de  crédit, à moins que vous ne voyez un cadenas au bas de la fenêtre ou dans la barre d\'adresse de votre navigateur. Ce cadenas indique que toutes les données transmises entre votre ordinateur et le serveur sont chiffrées, et que les informations échangées entre ces deux ordinateurs sont protégées et ne peuvent pas être interceptées sur Internet.';
+$string['invalidaba'] = 'Numéro ABA non valide';
+$string['invalidaccnum'] = 'Numéro de compte non valide';
+$string['invalidacctype'] = 'Type de compte non valide';
 $string['logindesc'] = 'Cette option doit impérativement être activée !<br /><br />Veuillez vous assurer que l\'option « <a href=\"$a->url\">loginhttps</a> » soit activée dans les paramètres de l\'administration, section Sécurité.<br /><br />L\'activation de cette option permettra à Moodle d\'utiliser une connexion sécurisée pour l\'affichage et le traitement des pages de connexion et de paiement.';
+$string['methodcc'] = 'Carte de crédit';
+$string['methodecheck'] = 'eCheck (ACH)';
+$string['missingaba'] = 'Le numéro ABA n\'est pas renseigné';
 $string['missingaddress'] = 'L\'adresse n\'est pas renseignée';
+$string['missingbankname'] = 'Le nom de la banque n\'est pas renseigné';
 $string['missingcc'] = 'Le numéro de carte n\'est pas renseigné';
 $string['missingccexpire'] = 'La date d\'échéance n\'est pas renseignée';
 $string['missingcctype'] = 'Le type de carte n\'est pas renseigné';
@@ -162,6 +178,8 @@ $string['testmode'] = '[MODE TEST]';
 $string['testwarning'] = 'Les opérations de saisie/annulation/crédit semblent fonctionner correctement en mode test. Aucun enregistrement n\'a cependant été mis à jour ni inséré dans la base de données.';
 $string['transid'] = 'No de transaction';
 $string['unenrolstudent'] = 'Désinscrire l\'étudiant ?';
+$string['usingccmethod'] = 'S\'inscrire par <a href=\"$a->url\"><strong>carte de crédit</strong></a>';
+$string['usingecheckmethod'] = 'S\'inscrire par <a href=\"$a->url\"><strong>eCheck</strong></a>';
 $string['void'] = 'Nul';
 $string['voidyes'] = 'La transaction sera annulée. Voulez-vous continuer ?';
 $string['welcometocoursesemail'] = 'Chère étudiante, cher étudiant,
