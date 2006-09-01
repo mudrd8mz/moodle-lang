@@ -114,6 +114,7 @@ $string['noreturns'] = 'Pas de retour !';
 $string['notsettled'] = 'Non réglé';
 $string['orderid'] = 'No d\'ordre';
 $string['paymentmanagement'] = 'Gestion des paiements';
+$string['paymentmethod'] = 'Méthode de paiement';
 $string['paymentpending'] = 'Votre paiement pour ce cours est en attente de traitement. Son numéro de commande est $a->orderid. Voir les <a href=\'$a->url\'>détails de la commande</a>.';
 $string['pendingordersemail'] = 'Cher administrateur,
   	 
