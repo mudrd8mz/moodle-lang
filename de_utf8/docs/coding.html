@@ -12,19 +12,18 @@
   }
   // done hiding -->
   </script>
-<meta http-equiv="Content-Type" content=
-"text/html; charset=us-ascii">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 <body bgcolor="#FFFFFF">
 <h1>Moodle Coding Guidelines</h1>
-<p class="normaltext">Die Stabilit&auml;t eines Programms wie
-Moodle h&auml;ngt weesentlich davon ab, dass alle Entwickler des
+<p class="normaltext">Die Stabilität eines Programms wie
+Moodle hängt weesentlich davon ab, dass alle Entwickler des
 Programmcodes bestimmte Grundregeln einheitlich anwenden. Diese
 sind hier definert.</p>
-<p class="normaltext">Dieser Text wird vorl&auml;ufig nicht ins
-Deutsche &uuml;bersetzt. Wir gehen davon aus, dass alle Anwender,
-die selber Programmteile f&uuml;r Moodle bearbeiten wollen so
-viel Englisch lesen und verstehen k&ouml;nnen dass sie diesen
+<p class="normaltext">Dieser Text wird vorläufig nicht ins
+Deutsche übersetzt. Wir gehen davon aus, dass alle Anwender,
+die selber Programmteile für Moodle bearbeiten wollen so
+viel Englisch lesen und verstehen können dass sie diesen
 Text im Original verstehen.</p>
 <p class="normaltext">Any collaborative project needs consistency
 and stability to stay strong.</p>
@@ -70,7 +69,7 @@ or print_string().</li>
 new texts in the "en/help" directory and call them using
 helpbutton().</li>
 </ol>
-<p> </p>
+<p>Â </p>
 <h2>Coding Style</h2>
 <p class="normaltext">I know it can be a little annoying to
 change your style if you're used to something else, but balance
@@ -112,27 +111,27 @@ the following (brackets).<br>
 "#007700">(</font><font color="#0000BB">$mode</font><font color=
 "#007700">=</font><font color="#0000BB">0</font><font color=
 "#007700">) {<br>
-    global</font> <font color="#0000BB">$USER</font><font color=
+Â Â Â Â global</font> <font color="#0000BB">$USER</font><font color=
 "#007700">,</font> <font color="#0000BB">$CFG</font><font color=
 "#007700">;<br>
 <br>
-    if (</font><font color="#0000BB">$mode</font><font color=
+Â Â Â Â if (</font><font color="#0000BB">$mode</font><font color=
 "#007700">) {<br>
-        </font><font color="#0000BB">$USER</font><font color=
+Â Â Â Â Â Â Â Â </font><font color="#0000BB">$USER</font><font color=
 "#007700">-&gt;</font><font color="#0000BB">mode</font>
 <font color="#007700">=</font> <font color=
 "#0000BB">$mode</font><font color="#007700">;<br>
-    } else if (empty(</font><font color=
+Â Â Â Â } else if (empty(</font><font color=
 "#0000BB">$USER</font><font color=
 "#007700">-&gt;</font><font color=
 "#0000BB">mode</font><font color="#007700">)) {<br>
-        </font><font color="#0000BB">$USER</font><font color=
+Â Â Â Â Â Â Â Â </font><font color="#0000BB">$USER</font><font color=
 "#007700">-&gt;</font><font color="#0000BB">mode</font>
 <font color="#007700">=</font> <font color=
 "#0000BB">$CFG</font><font color=
 "#007700">-&gt;</font><font color=
 "#0000BB">forum_displaymode</font><font color="#007700">;<br>
-    }<br>
+Â Â Â Â }<br>
 }</font></p>
 </li>
 <li class="spaced"><strong>Blocks</strong> must always be
@@ -142,19 +141,19 @@ uses this style:
 (</font><font color="#0000CC">$quiz</font><font color=
 "#006600">-&gt;</font><font color=
 "#0000CC">attempts</font><font color="#006600">) {<br>
-    if (</font><font color="#0000CC">$numattempts</font>
+Â Â Â Â if (</font><font color="#0000CC">$numattempts</font>
 <font color="#006600">&gt;</font> <font color=
 "#0000CC">$quiz</font><font color=
 "#006600">-&gt;</font><font color=
 "#0000CC">attempts</font><font color="#006600">) {<br>
-        </font><font color="#0000CC">error</font><font color=
+Â Â Â Â Â Â Â Â </font><font color="#0000CC">error</font><font color=
 "#006600">(</font><font color=
 "#0000BB">$strtoomanyattempts</font><font color=
 "#006600">,</font> <font color=
 "#CC0000">"view.php?id=$cm</font><font color=
 "#006600">-&gt;</font><font color=
 "#CC0000">id"</font><font color="#006600">);<br>
-    }<br>
+Â Â Â Â }<br>
 }</font></p>
 </li>
 <li class="spaced"><strong>Strings</strong> should be defined
@@ -181,12 +180,12 @@ mean rating of a post given to the current user by others.<br>
 /// Ratings is an optional simple array of actual ratings (just
 integers)<br>
 <br>
-    </font><font color="#007700">if (!</font><font color=
+Â Â Â Â </font><font color="#007700">if (!</font><font color=
 "#0000BB">$ratings</font><font color="#007700">) {<br>
-        </font><font color="#0000BB">$ratings</font> <font color=
-"#007700">= array();     </font><font color="#FF8000">//
+Â Â Â Â Â Â Â Â </font><font color="#0000BB">$ratings</font> <font color=
+"#007700">= array(); Â Â Â Â </font><font color="#FF8000">//
 Initialize the empty array</font><font color="#007700"><br>
-        if (</font><font color="#0000BB">$rates</font>
+Â Â Â Â Â Â Â Â if (</font><font color="#0000BB">$rates</font>
 <font color="#007700">=</font> <font color=
 "#0000BB">get_records</font><font color=
 "#007700">(</font><font color=
@@ -194,9 +193,9 @@ Initialize the empty array</font><font color="#007700"><br>
 <font color="#DD0000">"post"</font><font color="#007700">,</font>
 <font color="#0000BB">$postid</font><font color="#007700">))
 {<br>
-            </font><font color="#FF8000">// Process each rating
+Â Â Â Â Â Â Â Â Â Â Â Â </font><font color="#FF8000">// Process each rating
 in turn</font><font color="#007700"><br>
-            foreach (</font><font color="#0000BB">$rates</font>
+Â Â Â Â Â Â Â Â Â Â Â Â foreach (</font><font color="#0000BB">$rates</font>
 <font color="#007700">as</font> <font color=
 "#0000BB">$rate</font><font color="#007700">) {</font><br>
 ....etc</p>
@@ -212,30 +211,30 @@ variables or functions:<br>
 <font color="#007700">=&gt;</font> <font color=
 "#0000BB">$thing</font><font color="#007700">)</font>
 <font color="#006600">{<br></font> <font color=
-"#007700">    </font><font color=
+"#007700">Â Â Â Â </font><font color=
 "#0000BB">process($thing);</font> <font color="#006600"><br>
 }<br>
 <br></font> <font color="#007700">if (</font><font color=
 "#0000BB">$x</font> <font color="#007700">==</font> <font color=
 "#0000BB">$y</font><font color="#007700">)</font> <font color=
 "#006600">{<br></font> <font color=
-"#007700">    </font><font color="#0000BB">$a</font> <font color=
+"#007700">Â Â Â Â </font><font color="#0000BB">$a</font> <font color=
 "#007700">=</font> <font color="#0000BB">$b</font><font color=
 "#007700">;</font><font color="#006600"><br>
 } else if (</font><font color="#0000BB">$x</font> <font color=
 "#007700">==</font> <font color="#0000BB">$z</font><font color=
 "#006600">) {<br></font> <font color=
-"#007700">    </font><font color="#0000BB">$a</font> <font color=
+"#007700">Â Â Â Â </font><font color="#0000BB">$a</font> <font color=
 "#007700">=</font> <font color="#0000BB">$c</font><font color=
 "#007700">;</font><font color="#006600"><br>
-} else {<br></font> <font color="#007700">    </font><font color=
+} else {<br></font> <font color="#007700">Â Â Â Â </font><font color=
 "#0000BB">$a</font> <font color="#007700">=</font> <font color=
 "#0000BB">$d</font><font color="#007700">;</font><font color=
 "#006600"><br>
 }</font></p>
 </li>
 </ol>
-<p> </p>
+<p>Â </p>
 <h2>Database structures</h2>
 <ol class="normaltext">
 <li class="spaced">Every table must have an auto-incrementing

@@ -9,19 +9,19 @@
 <body>
 <h1>Moodle Upgrade</h1>
 <p>Moodle ist so konzipiert, dass man problemlos von einer
-fr&uuml;heren Version auf eine aktuellere Version 'upgraden'
+früheren Version auf eine aktuellere Version 'upgraden'
 kann.</p>
-<p>Um ein Upgrade einer Moodle-Installation durchzuf&uuml;hren,
-sollte man folgende Schritte durchf&uuml;hren:</p>
-<h3 class="sectionheading">1. Datensicherung wichtiger Daten durchf&uuml;hren</h3>
+<p>Um ein Upgrade einer Moodle-Installation durchzuführen,
+sollte man folgende Schritte durchführen:</p>
+<h3 class="sectionheading">1. Datensicherung wichtiger Daten durchführen</h3>
 <blockquote>
 <p>Auch wenn es nicht unbedingt notwendig ist, ist es immer eine
 gute Idee, eine Datensicherung von einem System zu machen, bevor
-man ein Upgrade durchf&uuml;hrt, nur f&uuml;r den Fall, dass man
-aus irgendeinem Grund zu einer &auml;lteren Version
-zur&uuml;ckkehren m&ouml;chte. Tats&auml;chlich ist es sinnvoll,
-den Server so zu automatisieren, dass er t&auml;glich eine
-Datensicherung der Moodle-Installation durchf&uuml;hrt. Dann kann
+man ein Upgrade durchführt, nur für den Fall, dass man
+aus irgendeinem Grund zu einer älteren Version
+zurückkehren möchte. Tatsächlich ist es sinnvoll,
+den Server so zu automatisieren, dass er täglich eine
+Datensicherung der Moodle-Installation durchführt. Dann kann
 man diesen Schritt auslassen.</p>
 <p>Es gibt drei Gebiete, die man sichern sollte:</p>
 <blockquote>
@@ -29,18 +29,18 @@ man diesen Schritt auslassen.</p>
 <blockquote>
 <p>Machen Sie vor dem Upgrade eine separate Kopie von diesen Dateien,
 so dass Sie die Datei config.php und andere Module, die 
-hinzugef&uuml;gt wurden, wie Themen, Sprachen usw. abrufen
+hinzugefügt wurden, wie Themen, Sprachen usw. abrufen
 können.</p>
 </blockquote>
 <p><strong>2. Das Datenverzeichnis.</strong></p>
 <blockquote>
-<p>Hier befinden sich hochgeladene Dateien (Kursverzeichnisse, die Kurs-Inhalte und Teilnehmerarbeiten). Diese Daten sollten in jedem Fall regelmäßig gesichert werden. Manchmal k&ouml;nnen Upgrades Verzeichnisse des Datenverzeichnisses verschieben oder umbenennen.</p>
+<p>Hier befinden sich hochgeladene Dateien (Kursverzeichnisse, die Kurs-Inhalte und Teilnehmerarbeiten). Diese Daten sollten in jedem Fall regelmäßig gesichert werden. Manchmal können Upgrades Verzeichnisse des Datenverzeichnisses verschieben oder umbenennen.</p>
 </blockquote>
 <p><strong>3. Die Datenbank</strong></p>
 <blockquote>
 <p>Die meisten Moodleupgrades werden die Datenbanktabellen
-&auml;ndern, indem Felder hinzugef&uuml;gt oder ver&auml;ndert
-werden. Jede Datenbank hat unterschiedliche Methoden f&uuml;r
+ändern, indem Felder hinzugefügt oder verändert
+werden. Jede Datenbank hat unterschiedliche Methoden für
 eine Datensicherung. Ein Weg, eine MySQL-Datenbank zu sichern,
 ist, sie in eine einzelne SQL-Datei zu 'dumpen'. Das folgende
 Beispiel zeigt den Befehl (Unix und Windows), um die Datenbank
@@ -51,7 +51,7 @@ moodle-backup-2002-10-26.sql</font></p>
 </blockquote>
 <p>Sie können ebenfalls das "Export"-Werkzeug in Moodles
 "Datenbank verwalten" Web-Interface nutzen (Zusatztool), um diesen Vorgang
-f&uuml;r alle Plattformen durchzuf&uuml;hren.</p>
+für alle Plattformen durchzuführen.</p>
 <p> </p>
 </blockquote>
 </blockquote>
@@ -60,8 +60,8 @@ f&uuml;r alle Plattformen durchzuf&uuml;hren.</p>
 <blockquote>
 <p><strong>Mit einem heruntergeladenen Archiv</strong></p>
 <blockquote>
-<p>&Uuml;berschreiben Sie nicht die alte Installation, es sei denn, Sie wissen genau, was Sie tun
-... Manchmal k&ouml;nnen alte Dateien
+<p>Überschreiben Sie nicht die alte Installation, es sei denn, Sie wissen genau, was Sie tun
+... Manchmal können alte Dateien
 Probleme in der neuen Installation bewirken. Der beste Weg ist
 es, das aktuelle Moodle-Verzeichnis umzubenennen, und dann das
 neue Moodle-Archiv an die alte Stelle zu entpacken.</p>
@@ -70,8 +70,8 @@ neue Moodle-Archiv an die alte Stelle zu entpacken.</p>
 moodle.backup<br>
 tar xvzf moodle-1.0.6.tgz</font></p>
 </blockquote>
-<p>Als n&auml;chstes kopieren Sie die config.php-Datei und alle anderen
-pers&ouml;nlichen Module und Themes her&uuml;ber.</p>
+<p>Als nächstes kopieren Sie die config.php-Datei und alle anderen
+persönlichen Module und Themes herüber.</p>
 <blockquote>
 <p><font face="Courier New, Courier, mono">cp
 moodle.backup/config.php moodle<br>
@@ -81,8 +81,8 @@ moodle/theme/mytheme</font></p>
 </blockquote>
 <p><strong>Mit CVS</strong></p>
 <blockquote>
-<p>Falls Sie das CVS benutzt, gehen Sie nur in das Moodle Wurzelvezeichnis
-und f&uuml;hre ein Update durch:</p>
+<p>Falls Sie das CVS benutzt, gehen Sie nur in das Moodle Wurzelverzeichnis
+und führe ein Update durch:</p>
 <blockquote>
 <p><font face="Courier New, Courier, mono">cvs update
 -dP</font></p>
@@ -91,16 +91,16 @@ und f&uuml;hre ein Update durch:</p>
 Verzeichnisse zu erstellen und den "P"-Parameter, um leere
 Verzeichnisse zu entfernen.</p>
 <p>Sollten Sie Moodle-Dateien editiert haben, achten Sie 
-sorgf&auml;ltig auf die Mitteilungen wegen m&ouml;glicher
-Konflikte. All individuellen Themes und zus&auml;tzlichen
-Inhalte bleiben unber&uuml;hrt.</p>
+sorgfältig auf die Mitteilungen wegen möglicher
+Konflikte. All individuellen Themes und zusätzlichen
+Inhalte bleiben unberührt.</p>
 <p> </p>
 </blockquote>
 </blockquote>
 <h3 class="sectionheading">3. Fertigstellen des Upgrades</h3>
 <blockquote>
 <p>Der letzte Schritt ist, den Upgradeprozess innerhalb von
-Moodle auszul&ouml;sen.</p>
+Moodle auszulösen.</p>
 <p>Um das zu tun, rufen Sie nur <a href="../admin/index.php">die
 admin Seite der Installation auf </a>.</p>
 <blockquote>
@@ -109,9 +109,9 @@ admin Seite der Installation auf </a>.</p>
 </blockquote>
 <p>Es ist nicht wichtig, ob Sie als admin angemeldet sind.</p>
 <p>Moodle wird automatisch die neue Version entdecken und alle
-Datenbank- oder Dateisystemanpassungen durchf&uuml;hren, die
+Datenbank- oder Dateisystemanpassungen durchführen, die
 notwendig sind. Sollte es irgendetwas geben, das nicht
-automatisch durchgef&uuml;hrt werden kann (sehr selten), dann
+automatisch durchgeführt werden kann (sehr selten), dann
 erhalten Sie Mitteilungen sehen, die beschreiben, was zu tun
 ist.</p>
 </blockquote>

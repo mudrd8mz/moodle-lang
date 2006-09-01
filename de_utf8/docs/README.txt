@@ -3,10 +3,10 @@ Wenn Sie diese Dokumentation in eine andere Sprache übersetzen wollen,
 empfehle ich Ihnen:
 
  1) die englischen Versionen der Dateien nicht in dieses Verzeichnis zu kopieren.
-    Wenn das Programm im von Ih en gewählten Sprachverzeichnis keine Übersetzung dieser
+    Wenn das Programm im von Ihnen gewählten Sprachverzeichnis keine Übersetzung dieser
     Datei findet, nutzt es automatisch die englische Fassung.
 
- 2) übersetzen Sie in der folgenden Reihenfolge (beginnen Sie mit den wichtigsten Dateien):
+ 2) Übersetzen Sie in der folgenden Reihenfolge (beginnen Sie mit den wichtigsten Dateien):
 
     DIE WICHTIGSTEN DATEIEN
     |-------------------
