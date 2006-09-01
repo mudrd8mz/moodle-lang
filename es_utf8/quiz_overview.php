@@ -1,11 +1,12 @@
-<?php // $Id$
+<?PHP // $Id$ 
+      // quiz_overview.php - created with Moodle 1.6 (2006050506)
 
-$string['overview'] = 'Overview';
 
-$string['attemptsonly'] = 'Show $a with attempts only';
-$string['allattempts'] = 'Show all attempts';
-$string['allstudents'] = 'Show all $a';
-$string['noattemptsonly'] = 'Show $a with no attempts only';
-$string['overviewdownload'] = 'Overview download';
+$string['allattempts'] = 'Mostrar todos los intentos';
+$string['allstudents'] = 'Mostrar todos los $a';
+$string['attemptsonly'] = 'Mostrar solamente $a con intentos';
+$string['noattemptsonly'] = 'Mostrar solamente $a sin intentos';
+$string['overview'] = 'Visión general';
+$string['overviewdownload'] = 'Descargar visión general';
 
 ?>

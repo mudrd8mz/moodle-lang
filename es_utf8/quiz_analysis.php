@@ -1,33 +1,33 @@
-<?php // $Id$
-
-$string['analysis'] = 'Item analysis';
-$string['analysisdownload'] = 'Analysis download';
-$string['analysisoptions'] = 'Analysis options';
-$string['attemptselection'] = 'Attempts to analyze per user ';
-$string['lowmarkslimit'] = "Don't analyse if score is less than: ";
-$string['attemptsall'] = 'all attempts';
-$string['attemptshighest'] = 'highest grade';
-$string['attemptsfirst'] = 'first attempt';
-$string['attemptslast'] = 'last attempt';
-$string['pagesize'] = 'Questions per page: ';
-$string['analysistitle'] = 'Item Analysis Table';
-$string['reportanalysis'] = 'Item Analysis Report';
-$string['downloadooo'] = 'Download in OpenOffice format';
-$string['qidtitle'] = 'Q#';
-$string['qnametitle'] = 'Question name';
-$string['qtexttitle'] = 'Question text';
-$string['qcounttitle'] = 'Q. count';
-$string['qtypetitle'] = 'Q. type';
-$string['responsestitle'] = "Answer's text";
-$string['rfractiontitle'] = 'partial<br />credit';
-$string['rcounttitle'] = 'R.<br />Counts';
-$string['rpercenttitle'] = 'R.%%';
-$string['facilitytitle'] = '%% Correct<br />Facility';
-$string['stddevtitle'] = 'SD';
-$string['dicsindextitle'] = 'Disc.<br />Index';
-$string['disccoefftitle'] = 'Disc.<br />Coeff.';
-$string['quizreportdir'] = 'quiz_reports';
+<?PHP // $Id$ 
+      // quiz_analysis.php - created with Moodle 1.6 (2006050506)
 
 
+$string['analysis'] = 'Análisis de ítems';
+$string['analysisdownload'] = 'Descargar análisis';
+$string['analysisoptions'] = 'Opciones de análisis';
+$string['analysistitle'] = 'Tabla de análisis de ítems';
+$string['attemptsall'] = 'todos los intentos';
+$string['attemptselection'] = 'Intentos a analizar por usuario';
+$string['attemptsfirst'] = 'primer intento';
+$string['attemptshighest'] = 'calificación más alta';
+$string['attemptslast'] = 'último intento';
+$string['dicsindextitle'] = 'Índice<br/>Disc.';
+$string['disccoefftitle'] = 'Coef.<br/>Disc.';
+$string['downloadooo'] = 'Descargar en formato OpenOffice';
+$string['facilitytitle'] = '%% Facil.<br>Correct.';
+$string['lowmarkslimit'] = 'No alizar si la puntuación es inferior a:';
+$string['pagesize'] = 'Preguntas por página: ';
+$string['qcounttitle'] = 'Nº Pr.';
+$string['qidtitle'] = 'Pr.#';
+$string['qnametitle'] = 'Nombre de la pregunta';
+$string['qtexttitle'] = 'Texto de la pregunta';
+$string['qtypetitle'] = 'Tipo de Pr.';
+$string['quizreportdir'] = 'informes_cuest.';
+$string['rcounttitle'] = 'Nº<br>R.';
+$string['reportanalysis'] = 'Informe análisis de ítems';
+$string['responsestitle'] = 'Texto de la respuesta';
+$string['rfractiontitle'] = 'crédito<br>parcial';
+$string['rpercenttitle'] = '%%R.';
+$string['stddevtitle'] = 'DT';
 
 ?>
