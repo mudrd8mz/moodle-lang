@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 dev (2006082900)
+      // xmldb.php - created with Moodle 1.7 dev (2006083102)
 
 
 $string['aftertable'] = 'Tablodan Sonra:';
@@ -42,6 +42,9 @@ $string['enumvaluesincorrect'] = 'Enum alanı için geçersiz değerler';
 $string['field'] = 'Alan';
 $string['fieldnameempty'] = 'İsim alanı boş';
 $string['fields'] = 'Alanlar';
+$string['filenotwriteable'] = 'Dosya yazılabilir değil';
+$string['floatincorrectdecimals'] = 'Float alanı için hatalı ondalık sayı';
+$string['floatincorrectlength'] = 'Float alanı için hatalı uzunluk';
 $string['gotolastused'] = 'Son kullanılan dosyaya git';
 $string['incorrectfieldname'] = 'Geçersiz ad';
 $string['indexes'] = 'İndeksler';

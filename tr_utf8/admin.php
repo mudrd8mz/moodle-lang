@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006082300)
+      // admin.php - created with Moodle 1.7 dev (2006083102)
 
 
 $string['adminseesallevents'] = 'Yöneticiler bütün olayları görür';
@@ -125,6 +125,7 @@ $string['confirminstall'] = 'Dil paketini kurmak üzereseniz ($a), emin misiniz?
 $string['courserequests'] = 'Kurs İstekleri';
 $string['courses'] = 'Kurslar';
 $string['cronwarning'] = '<a href=\"cron.php\">cron.php bakım programı</a> son 24 saattir çalışmıyor.';
+$string['datarootsecuritywarning'] = 'Site yapılandırmanız güvenli olmayabilir. Lütfen veri dizinin (dataroot: $a) direkt olarak webden ulaşılmadığından emin olun.';
 $string['dbmigrate'] = 'Moodle Veritabanı Dönüşümü';
 $string['dbmigrateconnecerror'] = 'Belirtilen veritabanına bağlantı kurulamadı.';
 $string['dbmigratewarning'] = 'Lüften bu işleme başlamadan önce moodle veritabanınızı yedeklediğinizden emin olun. Bunun nasıl yapılacağından emin değilseniz lütfen sistem yöneticinizle iletişim kurun. Moodle siteniz çevirim işlemine başladıktan sonra bakım moduna alınacak';
@@ -198,6 +199,7 @@ $string['modulesecurity'] = 'Modül Güvenliği';
 $string['mysql416bypassed'] = 'Siteniz SADECE iso-8859-1 (latin) dillerini kullanıyorsa şimdiki kurulu  MySQL 4.1.12 (veya yüksek) veritabanını kullanmaya devam edebilirsiniz.';
 $string['mysql416required'] = 'Moodle 1.6 için ilerde tüm verilerin UTF-8\'e çevrilebilmesinin garantilenmesi için en az MySQL 4.1.16 kurulu olması gerekir.';
 $string['nolangupdateneeded'] = 'Tüm dil paketleriniz güncel olduğundan dolayı güncelleştirmeye gerek yok';
+$string['nonewsettings'] = 'Bu güncelleme sırasında yeni bir ayar eklenmedi.';
 $string['notifications'] = 'Bildirimler';
 $string['optionalmaintenancemessage'] = 'İsteğe bağlı bakım mesajı';
 $string['order1'] = 'İlk';
@@ -229,6 +231,7 @@ $string['stickyblocksmymoodle'] = 'Kişisel Moodle';
 $string['stickyblockspagetype'] = 'Yapılandırılacak sayfa tipi';
 $string['systempaths'] = 'Sistem Yolları';
 $string['tabselectedtofront'] = 'Sekmeleri kullanan tablolarda, seçili hücre ön tarafa yerleştirilsin mi?';
+$string['themeselector'] = 'Tema Seçimi';
 $string['therewereerrors'] = 'Verinizde hatalar var';
 $string['timezoneforced'] = 'Bu site yöneticisi tarafından zorunlu tutuldu';
 $string['timezoneisforcedto'] = 'Bütün kullanıcıları kullanmaya zorunlu tut';
@@ -242,6 +245,8 @@ $string['updatelangs'] = 'Tüm Dil Paketlerini Güncelle';
 $string['updatetimezones'] = 'Zaman Dilimleri';
 $string['upgradeforumread'] = 'Moodle 1.5 sürümünde forum mesajlarını izleme özelliği eklendi.<br />Bu işlevselliği kullanmak için <a href=\"$a\">tablolarınızı güncellemeniz gerekiyor</a>.';
 $string['upgradelogs'] = 'Tam işlevsellik için, eski kayıt dosyalarınız güncellenmeli. <a href=\"$a\">Daha fazla bilgi</a>';
+$string['upgradesettings'] = 'Yeni Ayarlar';
+$string['upgradesettingsintro'] = 'Aşağıda gösterilen ayarlar son Moodle güncelleştirme sırasında eklendi. Gerekli değişikliklikleri yaptıktan sonra sayfanın altındaki Değişiklikleri Kaydet butonuna basın.';
 $string['upgradesure'] = 'Moodle dosyalarınız değişti ve otomatik olarak sunucunuzu şu sürüme terfi etmek üzeresiniz:<br /><br />
 <strong>$a</strong> <br /><br />
 Bunu yaptığınızda tekrar geri dönemezsiniz.<br /><br />Bu sunucuyu bu sürüme terfi etmek istediğinizden emin misiniz?<br /><br />';
