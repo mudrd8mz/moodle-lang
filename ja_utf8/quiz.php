@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006082800)
+      // quiz.php - created with Moodle 1.7 dev (2006083102)
 
 
 $string['1day'] = '1日';
@@ -201,7 +201,7 @@ $string['filloutoneanswer'] = '1つ以上の考えられる答えを入力して
 $string['filloutthreequestions'] = '組み合わせの答えがある問題を、少なくとも3つ入力してください。答えと空白の問題を使用して、誤答を余分に提供することもできます。問題と答え両方が空白のエントリは無視されます。';
 $string['fillouttwochoices'] = '2つ以上の選択を入力してください。空白は使用できません。';
 $string['finishattempt'] = 'すべてを送信して終了する';
-$string['forceregeneration'] = 'データを再生成';
+$string['forceregeneration'] = 'データを再生成する';
 $string['formatnotfound'] = 'インポート/エクスポートフォーマット $a が見つかりませんでした。';
 $string['formatnotimplemented'] = 'フォーマットが正しく実装されていません。バグレポートに投稿してください。';
 $string['fractionsaddwrong'] = 'あなたが選択したプラス評点の合計が、100%%に達していません。<br />現在の評点合計は $a%% です。<br />戻ってこの問題を修正しますか?';
@@ -211,7 +211,7 @@ $string['functiontakesnoargs'] = '関数 $a には引数はありません。';
 $string['functiontakesonearg'] = '関数 $a は厳密に1つの引数を持つ必要があります。';
 $string['functiontakesoneortwoargs'] = '関数 $a は1つまたは2つの引数を持つ必要があります。';
 $string['functiontakestwoargs'] = '関数 $a は厳密に2つの引数を持つ必要があります。';
-$string['generatevalue'] = '下記の範囲で新しい値を生成';
+$string['generatevalue'] = '下記の範囲で新しい値を生成する';
 $string['geometric'] = '幾何平均値';
 $string['gift'] = 'GIFTフォーマット';
 $string['grade'] = '評点';
@@ -355,7 +355,7 @@ $string['popupnotice'] = '学生は、この小テストをセキュアウィン
 $string['preview'] = 'プレビュー';
 $string['previewquestion'] = '問題のプレビュー';
 $string['previewquiz'] = '$a のプレビュー';
-$string['previous'] = '前の状態';
+$string['previous'] = '前の状態に戻る';
 $string['publish'] = '公開';
 $string['publishedit'] = 'このカテゴリへの問題の追加・編集を行うためにはコース公開に関する権限を有する必要があります。';
 $string['qti'] = 'IMS QTIフォーマット';
@@ -425,7 +425,7 @@ $string['requiresubnet'] = 'ネットワークアドレス';
 $string['response'] = '解答';
 $string['responses'] = '解答';
 $string['results'] = '受験結果';
-$string['reuseifpossible'] = '前に削除したデータを再利用';
+$string['reuseifpossible'] = '前に削除したデータを再利用する';
 $string['review'] = 'レビュー';
 $string['reviewafter'] = '小テスト終了後にレビューを許可する';
 $string['reviewalways'] = '常にレビューを許可する';
