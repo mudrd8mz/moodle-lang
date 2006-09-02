@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Moodle Dokumentacija: Nadgrajevanje</title>
+	<link rel="stylesheet" href="docstyles.css" type="TEXT/CSS" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+<h1>Nadgrajevanje Moodle</h1>
+
+<blockquote>
+  <p>Moodle je zasnovan tako, da se brez zapletov nadgradi iz poljubne starej&scaron;e različice v poljubno novej&scaron;o. </p>
+  <p>Ob nadgradnji namestitve Moodle, sledite tem korakom:</p>
+  <h3 class="sectionheading">1. Izdelajte varnostno kopijo pomembnih podatkov</h3>
+  <blockquote>
+    <p>Čeprav to ni nujno potrebno, je vedno pametno izdelati varnostno kopijo vsakega delujočega sistema pred večjo nadgradnjo, za vsak slučaj, če bi morali iz kakr&scaron;nega koli razloga spet obnoviti starej&scaron;o različico. Dejansko je pametna ideja, avtomatizirati va&scaron; strežnik, da izdela varnostno kopijo namestitve Moodle vsak dan in lahko ta korak preskočite.</p>
+    <p>Obstajajo tri področja, ki jih je potrebno varnostno kopirati:</p>
+    <blockquote>
+      <p><strong>1. Sam imenik programske opreme Moodle</strong></p>
+      <blockquote>
+        <p>Naredite ločeno kopijo teh datotek pred nadgradnji, da lahko dobite datoteko config.php in vse module, ki ste jih dodali, kot so teme, jeziki ipd.<strong><br /></strong></p>
+      </blockquote>
+      <p><strong>2. Va&scaron; imenik s podatki.</strong></p>
+      <blockquote>
+        <p>Tu se nahaja naložena vsebina (kot so viri predmetov in naloge udeležencev) zato je tudi drugače zelo pomembno imeti varnostno kopijo teh datotek. Včasih lahko posodobitve premaknejo ali preimenujejo imenike v va&scaron;em podatkovnem imeniku.<strong><br /></strong></p>
+      </blockquote>
+      <p><strong>3. Va&scaron;a podatkovna zbirka</strong></p>
+      <blockquote>
+        <p>Večina nadgradenj Moodle bo spremenila tabele, dodala ali spremenila polja. Vsaka podatkovna zbirka ima različne načine varnostnega kopiranja. En način varnostnega kopiranja podatkovne zbirke MySQL je ustvariti t.i. 'dump' v eno samo datoteko SQL. Naslednji primer prikazuje, kako to naredimo z Unix ukazi za podatkovno zbirko z imenom &quot;moodle&quot;:</p>
+        <blockquote>
+          <p><font face="Courier New, Courier, mono">mysqldump moodle &gt; moodle-backup-2002-10-26.sql</font></p>
+        </blockquote>
+        <p>Uporabite lahko tudi možnost &quot;Izvoz&quot; v dodatnem spletnem vmesniku &quot;Podatkovna zbirka&quot;, da izvedete isto v vseh okoljih.</p>
+        <p>&nbsp;</p>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+  <h3 class="sectionheading">2. Namestitev nove programske re&scaron;itve Moodle</h3>
+  <blockquote>
+    <p><strong>Uporaba prenesenega arhiva</strong></p>
+    <blockquote>
+      <p>Ne prepi&scaron;ite stare namestitve, razen če veste kaj počnete ... včasih lahko stare datoteke povzročajo težave v novih namestitvah. Najbolje je preimenovati trenuten imenik Moodle v nekaj drugega in nato razpakirati nov arhiv Moodle na staro mesto.</p>
+      <blockquote>
+        <p><font face="Courier New, Courier, mono">mv moodle moodle.backup<br /> tar xvzf moodle-1.1.tgz</font></p>
+      </blockquote>
+      <p>Nato prekopirajte va&scaron;o datoteko config.php in ostale vtičnike kot so teme po meri:</p>
+      <blockquote>
+        <p><font face="Courier New, Courier, mono">cp moodle.backup/config.php moodle<br /> cp -pr moodle.backup/theme/mytheme moodle/theme/mytheme</font></p>
+      </blockquote>
+    </blockquote>
+    <p><strong>Uporaba CVS</strong></p>
+    <blockquote>
+      <p>Če uporabljate CVS, pojdite v korenski imenik Moodle in posodobite namestitev z novimi datotekami:</p>
+      <blockquote>
+        <p><font face="Courier New, Courier, mono">cvs update -dP</font></p>
+      </blockquote>
+      <p>Bodite pozorni na uporabo parametra &quot;d&quot; za ustvarjanje novih imenikov, če je to potrebno in parametra &quot;P&quot; za odstranitev praznih imenikov.</p>
+      <p>Če ste urejali datoteke Moodle, zelo pozorno spremljajte sporočila o možnih konfliktih. Vse va&scaron;e teme prilagojene po meri in nestandardni vtičniki bodo nedotaknjeni.</p>
+    </blockquote>
+    <p>&nbsp;</p>
+  </blockquote>
+  <h3 class="sectionheading">3. Dokončanje nadgradnje</h3>
+  <blockquote>
+    <p>Zadnji korak je sprožitev postopka nadgradnje v Moodle.</p>
+    <p>Da bi to storili samo obi&scaron;čite <a target="_top" href="../admin/index.php">skrbni&scaron;ko stran va&scaron;e namestitve</a>.</p>
+    <blockquote>
+      <p><font face="Courier New, Courier, mono">http://primer.si/moodle/admin</font></p>
+    </blockquote>
+    <p>Vseeno je, ali ste prijavljeni kot skrbnik ali ne.</p>
+    <p> Moodle bo samodejno prepoznal novo različico in izvedel vse nadgradnje podatkovne zbirka ali datotečnega sistema, ki so potrebne. Če je karkoli, česar ne more program storiti sam (zelo redko) boste videli sporočilo, ki vam bo pojasnilo, kaj morate narediti.</p>
+  </blockquote>
+  <p>&nbsp; </p>
+  <p> Ob predpostavki, da je vse teklo v redu (brez sporočil o napakah), lahko začnete uporabljati va&scaron;o novo različico Moodle in uživati v novih možnostih!</p>
+  <p>Če imate težave z nadgradnjo, obi&scaron;čite <a target="_top" href="http://moodle.org/">moodle.org</a> in objavite težavo v <a target="_top" href="http://moodle.org/mod/forum/view.php?id=28">Installation Support Forum </a> (Forum podpore za namestitev) v predmetu Using Moodle (Uporaba Moodle).</p>
+</blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center"><font size="1"><a href="." target="_top">Moodle dokumentacija</a></font></p>
+<p align="center"><font size="1">Različica: $Id$</font></p>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+﻿<p align="center"><b>Izpis udeležencev ali izvajalcev</b></p>
+
+<p>Podatki Enterprise lahko vpise v predmet dodajajo in tudi odstranijo - tako za udeležence, kot za izvajalce. Če je ta nastavitev vključena, bo Moodle izvedel izpis, ko bo tako določeno v podatkih.</p>
+
+<p>Obstajajo trije načini za izpis udeleženca v podatkih IMS:</p>
+
+<ul><li>Element <member>, ki določa določenega udeleženca in predmet, ter z lastnostjo "recstatus" v elementu <role> nastavljeno na 3 (kar pomeni "izbriši"). TO ŠE NI PODPRTO V VTIČNIKU MOODLE.</li>
+
+<li> Element <member>, ki določa določenega udeleženca in predmet, ter z elementom <status> nastavljenim na 0 (kar pomeni "neaktiven").</li></ul>
+
+
+<p>Tretji način je nekoliko drugačen. Ne zahteva vključitve nastavitve konfiguracije in je lahko določen pred datumom izpisa:</p>
+
+<ul><li>Element <member>, ki določa <timeframe> za vpis, lahko določi začetni oziroma končni datum za vpis tega določenega udeleženca. Če si prisotni, se ti datumi naložijo v tabelo podatkov o vpisih Moodle in tako po končnem datumu udeleženec ne more več dostopati do določenega predmeta.</li></ul>
+
+
+

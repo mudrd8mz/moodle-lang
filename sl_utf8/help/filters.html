@@ -1,0 +1,65 @@
+﻿<p align="center"><b>Skrbništvo filtrov</b></p>
+
+<p>Stran skrbništva filtrov vam omogoča določiti kateri filtri bodo uporabljeni za prikazano besedilo in v kakšnem vrstnem redu. Ponuja tudi dostop do strani nastavitev, ki jih ponujajo nekateri filtri. Filtri so uporabljeni na večini uporabniških besedil v sistemu Moodle tik preden se besedilo prikaže. Dovoljujejo spreminjanje besedila 'v zadnjem hipu'.</p>
+
+<p>Filtri so 'vtičniški' vir. Več o tem je na voljo na naslovu <a href="http://download.moodle.org/modules/filters.php">http://download.moodle.org/modules/filters.php</a>.</p>
+
+<p>Izberite filtre, ki jih želite uporabljati tako, da jih 'prikažete' z ikono očesa. Če imate več kot en prikazan filter, lahko spremenite vrstni red v katerem se uporabijo s puščicami gor in dol.</p> 
+   
+<p><b>Zapis TeX</b></p>
+
+<div class="indent">
+  <p>Zapis TeX se večinoma uporablja za generiranje vstavljenih matematičnih formul v virih. Na primer $$ sqrt(a+b) $$ (znaka $$ je 'oznaka' za začetek in konec tega zapisa).</p>
+  <p>Moodle uporablja zunanjo binarno datoteko za upodobitev slik, kar lahko zahteva nastavitev vašega sistema. Filter bo najprej preveril obstoj programa za upodabljanje LaTeX (za ta način je zahtevan tudi Ghostscript) in bo v primeru neuspeha uporabil preprostejšo izvršno datoteko <i>mimetex</i>, ki je vključena v distribucijo Moodle. LaTeX dovoljuje celo vrsto sintaks, medtem ko mimetex podpira samo njegovo matematično podmnožico.</p>
+  <p>Ghostscript je na voljo za Windows in na voljo je tudi izvedba LaTeX imenovana MikTeX.</p>
+  <p>Stran nastavitev omogoča konfiguracijo poti do izvršnih datotek LaTeX in Ghostscript, skupaj z uvodom LaTeX.</p>
+  <p><b>Več informacij</b></p>
+  <p><a href="http://www.miktex.org/">MiKTeX</a><br/ > <a href="http://www.forkosh.com/mimetex.html">MimeTeX</a><br /> <a href="http://www.latex-project.org/">LaTeX</a><br/ > <a href="http://www.ghostscript.com/">ghostscript</a></p>
+</div>
+
+<p><b>Cenzura besed</b></p>
+
+<div class="indent">
+  <p>Cenzura besed preišče besedilo za 'grde besede' iz vnaprej določenega seznama. Vsak jezikovni paket ima lasten privzet seznam, a lahko določite tudi svojega. Za določitev lastnega seznama pojdite na stran nastavitev in določite svoj seznam besed. Uporabnik bo videl besede potemnjene s črnim blokom, vendar bo prehod z miško prikazal izvorno besedo.</p>
+</div>
+
+<p><b>Samodejno povezovanje imen virov</b></p>
+
+<div class="indent">
+  <p>Samodejno povezovanje imen virov preišče besedilo za nazive virov, ki obstajajo v istem predmetu. Če bodo najdeni bodo poudarjeni in ustvarjena bo povezava. Vedite, da morate uporabljati opisne nazive, če želite to možnost uporabljati učinkovito. Na primer naziv 'Uvod' je slab, saj bo <b>vsaka</b> uporaba besede 'Uvod' v besedilu povezana, ne glede na kaj se nanaša.</p>
+</div>
+
+<p><b>Samodejno povezovanje imen dejavnosti</b></p>
+
+<div class="indent">
+  <p>Samodejno povezovanje imen dejavnosti preišče besedilo za nazive dejavnosti, ki obstajajo v istem predmetu. Če bodo najdeni bodo poudarjeni in ustvarjena bo povezava. Vedite, da morate uporabljati opisne nazive, če želite to možnost uporabljati učinkovito. Na primer naziv 'Kviz' je slab, saj bo <b>vsaka</b> uporaba besede 'Kviz' v besedilu povezana, ne glede na kaj se nanaša.</p>
+</div>
+
+<p><b>Samodejno povezovanje slovarja</b></p>
+
+<div class="indent">
+  <p>Ta filter preišče besedilo za uporabljene ključne besede v kateremkoli slovarju v predmetu. Vedite, da mora imeti vsak zapis slovarja omogočeno povezovanje. Če bodo najdeni bodo poudarjeni in ustvarjena bo povezava.
+  </p>
+</div>
+
+<p><b>Zaščita e-pošte</b></p>
+
+<div class="indent">
+  <p>Filter zaščite e-pošte poišče vse elektronske naslove v besedilu. Najdeni bodo 'prikriti', da bi preprečili delovanje sistemom za samodejno zbiranje elektronskih naslovov. To lahko zmanjša tveganje neželene pošte, če je del vaše strani Moodle odprt za javnost.</p>
+</div>
+
+<p><b>Natančnost</b></p>
+
+<div class="indent">
+  <p>Filter natančnost preveri HTML kodo v besedilu. Nad najdeno kodo uveljavi pravila, ki poskušajo narediti veljavno HTML kodo. Vedite, da mora biti zmogljivost natančnosti HTML del vaše namestitve PHP, da bi to delovalo.</p>
+</div>
+
+<p><b>Večjezična vsebina</b></p>
+
+<div class="indent">
+  <p>Ta filter omogoča ustvarjanje virov v večih jezikih. Jezik vira bo nato spremenjen, ko uporabnik spremeni svoj izbran jezik v okolju Moodle. Za uporabo te možnosti najprej ustvarite vašo vsebino v večih jezikih (v istem viru). Nato obdajte vsak jezikovni blok s sledečimi oznakami:</p>
+  <pre>      <lang lang="XX">vaša_vsebina</lang></pre>
+
+  <p>Če vam je ljubše, lahko uporabite oznake SPAN namesto tega, na primer:</p>
+  <pre>      <span lang="XX">vaša_vsebina</span></pre>
+ </div>

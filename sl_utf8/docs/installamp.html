@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Moodle Dokumentacija: Name&scaron;čanje PHP in MySQL</title>
+	<link rel="stylesheet" href="docstyles.css" type="TEXT/CSS" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+<h1>Name&scaron;čanje programov Apache, MySQL in PHP</h1>
+<blockquote>
+  <p>Moodle je napisan v skriptnem jeziku PHP in hrani večino svojih podatkov v podatkovni zbirki. Podatkovna zbirka, ki jo priporočamo je MySQL. Pred namestitvijo Moodle morate imeti delujočo namestitev PHP in delujočo podatkovno zbirko za spremembo računalnika v funkcionalno platformo spletnega strežnika. Ti paketi so lahko težavni za nastavitev za povprečne uporabnike računalnikov, zato je narejena ta stran, ki posku&scaron;a kar najbolj poenostaviti ta proces za različne platforme:</p>
+  <ul>
+    <li><a href="#host" class="questionlink">Storitve gostovanja</a></li>
+    <li><a href="#mac" class="questionlink">Mac OS X</a></li>
+    <li><a href="#redhat" class="questionlink">Redhat Linux</a></li>
+    <li><a href="#windows" class="questionlink">Windows</a></li>
+  </ul>
+  <p class="questionlink">&nbsp;</p>
+  <h3 class="sectionheading"><a name="host" id="host"></a>Storitve gostovanja</h3>
+  <blockquote>
+    <p>Na žalost se storitve gostovanja precej razlikujejo glede svojega delovanja. Nekateri bodo celo namestili Moodle za vas.</p>
+    <p>Večina jih ponuja spletno kontrolno orodje za upravljanje va&scaron;e strani, ustvarjanje podatkovnih zbirk in nastavitve storitve cron. Nekateri ponujajo tudi terminalski dostop prek protokola SSH in tako omogočajo delo v ukazni vrstici.</p>
+    <p>Prebiti se morate skozi <a href="./?file=install.html">Vodič za namestitev</a> in narediti korak za korakom. Če se vam zatakne zaprosite za pomoč va&scaron;ega ponudnika gostovanja. </p>
+    <p>&nbsp;</p>
+  </blockquote>
+  <h3 class="sectionheading"><a name="mac" id="mac"></a>Mac OS X</h3>
+  <blockquote>
+    <p>Najlažji način je uporaba strežnika Apache, ki ga ponuja Apple in dodajanje PHP ter MySQL s paketi Marca Liyangagea. Obe spodnji strani ponujata dobra navodila, ki jih tu ne bomo podvajali:</p>
+    <blockquote>
+      <p><strong>PHP</strong>: Prenesite od tod: <a href="http://www.entropy.ch/software/macosx/php/" target="_top">http://www.entropy.ch/software/macosx/php/</a></p>
+      <p><strong>MySQL</strong>: Prenesite tu: <a href="http://www.entropy.ch/software/macosx/mysql/" target="_top">http://www.entropy.ch/software/macosx/mysql/</a></p>
+    </blockquote>
+    <p>Ko te pakete namestite bi moral biti standardni <a href="./?file=install.html">Vodič za namestitev</a> dovolj jasen.</p>
+    <p>Podrobnej&scaron;i potopis najdete tu: <a href="http://moodle.org/wiki/index.php/InstallingMoodle">http://moodle.org/wiki/index.php/InstallingMoodle</a></p>
+    <p>&nbsp;</p>
+  </blockquote>
+  <h3 class="sectionheading"><a name="redhat"></a>Redhat Linux</h3>
+  <blockquote>
+    <p>Namestiti morate vse pakete RPM za Apache, PHP in MySQL, ki so na voljo. Paket, ki ga mnogi pogosto pozabijo je paket php-mysql, ki je potreben za to, da PHP lahko komunicira z MySQL.</p>
+    <p>Ko te pakete namestite bi moral biti standardni <a href="./?file=install.html">Vodič za namestitev</a> dovolj jasen.</p>
+    <p>Podrobnej&scaron;i potopis najdete tu: <a href="http://moodle.org/wiki/index.php/InstallingMoodle">http://moodle.org/wiki/index.php/InstallingMoodle</a></p>
+  </blockquote>
+  <p>&nbsp;</p>
+  <h3 class="sectionheading"><a name="windows" id="windows"></a>Windows</h3>
+  <blockquote>
+    <p>Najlažji način za to je uporaba paketa <a href="http://www.easyphp.org/" target="_blank">EasyPHP</a>, ki združuje vse programe, ki jih potrebujete v eno samo Windows aplikacijo. Tu so koraki od začetka do konca:</p>
+    <ol>
+      <li> Če ste kadarkoli namestili MySQL (tudi kot del drugega paketa) morate najprej odstraniti celo namestitev in izbrisati datoteke MySQL ter se prepričati, da ste izbrisali tudi <strong>c:\my.cnf</strong> in <strong>c:\windows\my.ini</strong>. Lahko tudi prei&scaron;čete disk za katerokoli datoteko z imenom <strong>my.cnf</strong> ali <strong>my.ini</strong>.</li>
+      <li> Če ste kadarkoli pred tem namestili PHP izbri&scaron;ite vse datoteke z imenom <strong>php4ts.dll</strong> predvidoma v va&scaron;em imeniku Windows in tudi datoteke z imenom <strong>php.ini</strong>.</li>
+      <li> Prenesite EasyPHP od tod: <a href="http://www.easyphp.org/telechargements/dn.php?F=easyphp1-7">http://www.easyphp.org/telechargements/dn.php?F=easyphp1-7</a> (približno 10 MB)</li>
+      <li> Zaženite preneseno datoteko: <strong>easyphp1-7_setup.exe</strong>. Namestitveni postopek je v Franco&scaron;čini a je sicer podoben namestitvi poljubnega programa v okolju Windows - priporočljivo je sprejeti privzete vrednosti in dovoliti vse namestitve. Vedite, da &quot;Suivant&quot; pomeni Naprej in &quot;Oui&quot; pomeni Da.</li>
+      <li>Po končani namestitvi pustite izbrano potrditveno polje &quot;Lancer EasyPHP&quot; (Zaženi EasyPHP) in kliknite na gumb &quot;Terminer&quot;. Morda se vam bo odprla informativna spletna stran, ki jo lahko varno prezrete. </li>
+      <li>Če je vse minilo dobro - čestitke! Apache, PHP in MySQL so zdaj name&scaron;čeni in tečejo! Videti bi morali črn E na pladnju orodne vrstice. Z desnim klikom nanj lahko pridete do menija s katerim lahko nadzirate teh programov.</li>
+      <li>Morda bodo nekateri napisi v Franco&scaron;čini, čeprav bi vam bila ljub&scaron;a Angle&scaron;čina. Prenesete si lahko datoteko <a href="http://www.easyphp.org/telechargements/dn.php?F=indexUS_1.7">http://www.easyphp.org/telechargements/dn.php?F=indexUS_1.7</a>, ki vsebuje angle&scaron;ko različico imenika www in domov v imeniku EasyPHP1-7. Te datoteke lahko prepi&scaron;ete prek privzetih datotek.</li>
+      <li> Naslednje kar morate storiti je nastavitev podatkovne zbirke, ki jo bo uporabljal Moodle. Z desnim klikom na črni E v pladnju orodne vrstice izberite Administration in nato kliknite na DB Management (poleg PHPMyAdmin).</li>
+      <li>Če vas program vpra&scaron;a za uporabni&scaron;ko ime (username) uporabite &quot;<strong>root</strong>&quot; s <strong>praznim geslom</strong>. Zdaj bi morali videti spletni vmesnik phpMyAdmin, ki vam omogoča ustvarjanje novih podatkovnih zbirk in uporabni&scaron;kih računov. </li>
+      <li>Ustvarite novo podatkovno zbirko z vnosom &quot;moodle&quot; v polje in pritisnite gumb &quot;Create&quot;. To je bilo enostavno!</li>
+      <li>Ustvarite lahko tudi novega uporabnika za dostopanje do podatkovne zbirke, če tako želite. To je lahko težavno za uporabnika začetnika zato je morda lažje, če za zdaj uporabljate obstoječega uporabnika &quot;root&quot; brez gesla za konfiguracijo Moodle in to popravite pozneje.</li>
+      <li> Zdaj ste pripravljeni za namestitev Moodle! Prenesite zadnjo izdajo Moodle z naslova <a href="http://moodle.org/download" target="_blank">http://moodle.org/download</a>, nato raztegnite arhiv.</li>
+      <li>Kopirajte datoteke moodle v <strong>C:\Program Files\EasyPHP\www. </strong>Kopirate lahko celoten imenik moodle (npr. C:\Program Files\EasyPHP\www\moodle) ali kopirate vso <em>vsebino</em> imenika moodle. Če se odločite za slednjo možnost boste lahko dostopali do domače strani Moodle z uporabo http://localhost/ namesto http://localhost/moodle/.</li>
+      <li> Naredite nov prazen imenik nekje drugje, kamor bo Moodle shranjeval naložene datoteke, npr.: <strong>C:\moodledata</strong></li>
+      <li> Pojdite v va&scaron; imenik Moodle. Naredite kopijo datoteke config-dist.php in jo poimenujte config.php</li>
+      <li> Uredite config.php z urejevalnikom besedila (Beležnica bo zado&scaron;čala, pazite le, da ne bo dodala neželenih presledkov na koncu). </li>
+      <li>Vstavite podatke va&scaron;e nove podatkovne zbirke:<br /> $CFG-&gt;dbtype = 'mysql';<br /> $CFG-&gt;dbhost = 'localhost';<br /> $CFG-&gt;dbname = 'moodle';<br /> $CFG-&gt;dbuser = 'root'; <br /> $CFG-&gt;dbpass = '';<br /> $CFG-&gt;dbpersist = true;<br /> $CFG-&gt;prefix = 'mdl_';</li>
+      <li>in dodajte poti va&scaron;ih datotek:<br /> $CFG-&gt;wwwroot = 'http://localhost/moodle'; // Uporabite zunanji naslov, če ga poznate. <br /> $CFG-&gt;dirroot = 'C:\Program Files\EasyPHP\www\moodle'; <br /> $CFG-&gt;dataroot = 'C:\moodledata';</li>
+      <li>Shranite datoteko config.php - ostale morebitne nastavitve lahko prezrete.</li>
+      <li>Zdaj ste že skoraj tam! Preostali del nastavitev temelji na spletnem vmesniku. Obi&scaron;čite <a href="http://localhost/moodle/admin/" target="_blank">http://localhost/moodle/admin/</a> z va&scaron;im brskalnikom za nadaljevanje nastavitev prek brskalnika.</li>
+      <li>Za uporabo datotek ZIP z Moodle (varnostne kopije npr. uporabljajo zip) boste morda morali omogočiti &quot;zlib&quot;. To lahko storite v imeniku EasyPHP (<strong>C:\Program Files\EasyPHP</strong>) in tam zaženete program phpini.exe. Označite potrditveno polje poleg &quot;zlib.dll&quot;. Zaprite to okno in na črnem E v orodni vrstici z desnim klikom v meniju izberite &quot;Restart&quot;.</li>
+      <li>Nazadnje morate nastaviti tak ali drugačen cron. Glejte <a href="./?file=install.html">Vodič za namestitev</a> za podrobnosti o tem.</li>
+    </ol>
+    <p>Če nočete ali ne morete uporabljati EasyPHP je tu nekaj nasvetov kako preveriti, če je PHP nastavljen pravilno v izogib običajnim problemom:</p>
+    <ul>
+      <li>Prepričajte se, da ste omogočili modul GD, da bo Moodle lahko obdeloval slike - morda boste morali urediti php.ini in odstraniti komentar (;) pred to vrstico: 'extension=php_gd2.dll'. 
+    </li>
+      <li>Prepričajte se, da ste omogočili modul Zlib, da boste lahko ustvarili in raztegnili datoteke ZIP v Moodle.</li>
+      <li>Prepričajte se, da so seje vključene - morda boste morali urediti php.ini in popraviti pot imenika pri <strong>session.save_path</strong> namesto privzete &quot;/tmp&quot; uporabite imenik Windows kot &quot;c:/temp&quot;.</li>
+    </ul>
+    <p>&nbsp;</p>
+  </blockquote>
+</blockquote>
+<p align="center"><font size="1"><a href="." target="_top">Moodle dokumentacija</a></font></p>
+<p align="center"><font size="1">Različica: $Id$</font></p>
+
+</body>
+</html>

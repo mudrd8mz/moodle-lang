@@ -1,0 +1,30 @@
+﻿<p align="center"><b>Nalaganje skupin</b></p>
+
+<p>Ta zmožnost omogoča paketno nalaganje skupin v Moodle.</p>
+
+
+<ul>
+  <li>Vsaka vrstica datoteke vsebuje en zapis</li>
+  <li>Vsak zapis je vrsta podatkov ločenih z vejicami</li>
+  <li>Prvi zapis datoteke je poseben in vsebuje seznam imen polij. Ta določa obliko drugega dela datoteke.
+    <blockquote>
+      <p><strong>Zahtevana imena polj:</strong> ta polja morajo biti vključena v prvem zapisu in določena za vsakega uporabnika</p>
+      <p></p>
+      <font color="#990000" face="Courier New, Courier, mono">groupname</font></p>
+</p>
+      <p><strong>Privzeta imena polj:</strong> ta so možna - če niso vključena bodo vrednosti prevzete iz nastavitev trenutnega jezika in trenutnega predmeta</p>
+      <p><font color="#990000" face="Courier New, Courier, mono">idnumber, coursename, lang</font> </p>
+      <p><strong>Možna imena polj: </strong> vsa ta imena so popolnoma izbirna. </p>
+      <p> <font color="#990000" face="Courier New, Courier, mono">description, picture, hidepicture</font></p>
+    </blockquote>
+    </li>
+  <li>Vejice v podatkih morajo biti predstavljene kodirano kot &#44 - program bo samodejno odkodiral to oznako nazaj v vejice. </li>
+  <li>Za logična polja uporabite 0 za "ne" in 1 za "da". </li>
+  <li>Bodisi idnumber ali coursename sta lahklo uporabljena za identifikacijo predmeta. Idnumber preglasi coursename. Če nista določen niti prvi niti drugi, bodo skupine dodane v trenutni predmet.
+  <li>Coursname je kratko ime predmeta.</li>
+  <li>Opomba: Če je skupina že registrirana v podatkovni zbirki Moodle za določen predmet, bo ta skripta vrnila ime skupine za to skupino. Izvajalci smejo nalagati skupine samo v predmete, ki jih smejo urejati.</li>
+</ul>
+   
+<p>Tu je primer veljavne datoteke za uvoz:</p>
+<p><font size="-1" face="Courier New, Courier, mono"></font>groupname,idnumber,lang,description,picture <br /> group1, Phil101, en, this group requires extra attention!, 0 <br /> group2, Math243, , ,</font></p>
+

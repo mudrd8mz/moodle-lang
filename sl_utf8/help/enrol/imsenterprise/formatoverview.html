@@ -1,0 +1,50 @@
+﻿<p align="center"><b>Pregled zapisa</b></p>
+<p>V nadaljevanju sledi preprost vodič po osnovni strukturi tipične podatkovne datoteke IMS Enterprise. Veliko več informacij je na voljo na <a href="http://www.imsglobal.org/enterprise/">uradni spletni strani IMS Enterprise</a>.</p>
+
+<p>Morda boste želeli prebrati <a href="./enrol/imsenterprise/entv1p1_conformance_summary.html">povzetek združljivosti</a>, ki opisuje, katere podatkovne elemente IMS lahko obdeluje ta vtičnik.</p>
+
+
+<p align="center"><b>Osnovni vodič za zapis datoteke EMS Enterprise</b></p>
+
+<p>Za vsak vpis v slogu IMS potrebujete oznako <group>, ki določa predmet, oznako <person>, ki določa uporabniški račun in oznako<membership>, ki vsebuje oznako <member>, ki določa vloge osebe v podanem predmetu.</p><p>
+</p>
+
+<p>
+Zapomnite si, da številčni ključi, ki jih uporablja podatkovna zbirka Moodle, niso izmenljivi podatki - podatkovni sistem udeležencev ne bo nikoli v naprej vedel, da je bil Janez kot 20-ti dodan v podatkovno zbirko Moodle - zato to niso ključi, ki se izmenjujejo v tej vrsti podatkov.</p><p>
+</p>
+
+<p>
+Običajno ima predmet referenčno kodo in tudi ime, zato si predstavljajmo, da je njegova koda MOODLE101. Za določitev vašega predmeta bi lahko uporabili</p><p>
+</p>
+
+<p>
+  <group><br />     <sourcedid><br />       <source>MojPodatkovniSistem</source><br />       <id>MOODLE101</id><br />     </sourcedid><br />     <description><br />       <short>Moodle 101</short><br />     </description><br />   </group><br />
+</p>
+
+<p>
+Skripta za vpisovanje bo poiskala predmet s kodo MOODLE101 in (kot možnost) ga ustvarila, če še ne obstaja. Podobno velja za osebo - predstavljajmo si, da je "jmoodle":</p><p>
+</p>
+
+<p>
+  <person><br />     <sourcedid><br />       <source>MojPodatkovniSistem</source><br />       <id>jmoodle</id><br />     </sourcedid><br />     <userid>jmoodle</userid><br />     <name><br />       <fn>Janez Moodle</fn><br />       <n><br />         <family>MOODLE</family><br />         <given>JANEZ</given><br />       </n><br />     </name><br />   </person><br />
+</p>
+
+<p>
+Če Janez še nima računa, lahko (kot možnost) skripta ustvari račun zanj.</p>
+
+
+<p>
+Oglejmo si zdaj članstvo, dodajanje osebe v predmet:</p><p>
+</p>
+
+<p>
+  <membership><br />     <sourcedid><br />       <source>MojPodatkovniSistem</source><br />       <id>MOODLE101</id><br />     </sourcedid><br />     <member><br />       <sourcedid><br />         <source>MojPodatkovniSistem</source><br />         <id>jmoodle</id><br />       </sourcedid><br />       <role roletype="01"><br />         <status>1</status><br />         <extension><cohort>unit 2</cohort></extension><br />       </role><br />     </member><br />   </membership><br />
+</p>
+
+<p>
+Specifikacija IMS Enterprise ponuja možnost določanja začetnih in končnih datumov za vpise, tako jih je možno po potrebi vključiti z uporabo oznake <timeframe>.</p><p>
+</p>
+
+<p>
+Če je oseba že dodana v skupino v predmetu, tega skripta ne bo dejansko spreminjala. Če niso v skupinah, bo uveljavljeno določeno razvrščanje po skupinah.</p><p>
+

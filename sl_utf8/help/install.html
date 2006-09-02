@@ -1,0 +1,314 @@
+﻿<h1>Nameščanje Moodle</h1>
+<h2>Brez panike! <img src="http://moodle.org/pix/s/smiley.gif" /></h2>
+<blockquote>
+  <p>Ta vodič razlaga kako prvič namestiti Moodle.  Za nekatere korake gre precej v podrobnosti in poskuša pokriti večino možnih nastavitev spletnih strežnikov, zato utegne dokument izgledati dolg in kompliciran.  Brez panike, ko boste vedeli kako, boste lahko namestili Moodle v nekaj minutah!</p>
+  <p>Če imate težave, skrbno preberite ta dokument - tu so odgovori na najbolj splošne težave. Če bi še naprej imeli težave, lahko poiščete pomoč v <a target="_blank" href="http://moodle.org/help">Moodle pomoč</a></p>
+  <p>Druga možnost je vzpostavitev stika s <a target="_blank" href="http://moodle.com/hosting/">podjetjem za spletno gostovanje</a>, ki lahko popolnoma vzdržuje Moodle za vas, tako da lahko vse to prezrete in se takoj lotite izobraževanja!
+</p>
+  <p>   </p>
+  <p>Odseki tega dokumenta:</p>
+  <ol>
+    <li><a href="#requirements">Zahteve</a></li>
+    <li><a href="#downloading">Prenos in kopiranje datotek na svoje mesto</a> </li>
+    <li><a href="#site">Struktura strani</a></li>
+    <li><a href="#installer">Zagon namestitvene skripte za ustvarjanje config.php</a>      <ul>
+        <li><a href="#webserver">Preverite nastavitve spletnega strežnika</a></li>
+        <li><a href="#database">Ustvarjanje podatkovne zbirke</a></li>
+        <li><a href="#data">Ustvarjanje podatkovnega imenika</a></li>
+        </ul>
+    </li>
+    <li><a href="#admin">Obisk skrbniške strani za nadaljevanje konfiguracije</a></li>
+    <li><a href="#cron">Nastavite cron</a></li>
+    <li><a href="#course">Ustvarite nov predmet</a></li>
+     </ol>
+  <p> </p>
+</blockquote>
+<h3 class="sectionheading"><a name="requirements"></a>1. Zahteve</h3>
+<blockquote> 
+  <p>Moodle je razvit predvsem v okolju Linux in uporablja Apache, MySQL in PHP (okolje poznano tudi pod kratico LAMP), vendar se redno izvaja tudi testiranje s PostgreSQL in na operacijskih sistemih Windows XP, Mac OS X in Netware 6</p>
+  <p>Zahteve za Moodle so sledeče:</p>
+  <ol>
+    <li>Programska oprema spletnega strežnika. Večina uporablja <a href="http://www.apache.org/" target="_blank">Apache</a>, vendar bi moral Moodle dobro delovati na poljubnem spletnem strežniku, ki podpira PHP, kot je IIS na platformah Windows.</li>
+    <li><a href="http://www.php.net/" target="_blank">PHP</a> skriptni jezik (različica 4.1.0 ali novejši). PHP 5 je podprt od Moodle 1.4 naprej. </li>
+    <li>Delujoč strežnik podatkovne zbirke: <a href="http://www.mysql.com/" target="_blank">MySQL</a> ali <a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a> sta popolnoma podprta in priporočena za rabo z Moodle. </li>
+  </ol>
+  <p>Večina spletnih gostovanj kot privzeto podpira te zahteve. Če gostujete pri katerem izmed redkih ponudnikov spletnega gostovanja, ki ne podpirajo teh možnosti jih povprašajte zakaj in razmislite o selitvi svojih spletnih vsebin.</p>
+  <p>Če želite poganjati Moodle na lastnem računalniku in se vam vse to zdi nekoliko strašljivo, si oglejte vodič: <a href="http://moodle.org/doc/?file=installamp.html">Nameščanje programov Apache, MySQL in PHP</a>. Ta vodič ponuja nekaj navodil korak za korakom za namestitev vsega tega na večini priljubljenih platform.</p>
+  <p> </p>
+</blockquote>
+<h3 class="sectionheading"><a name="downloading"></a>2. Prenos in kopiranje datotek na svoje mesto </h3>
+<blockquote>
+  <p>Obstajata dva načina kako pridobiti Moodle: kot stisnjen paket ali prek CVS. Načina sta podrobno pojasnena na strani za prenos: <a href="http://moodle.org/download/" target="_blank">http://moodle.org/download/</a></p>
+  <p>Po prenosu in razpakiranju arhiva ali pridobitvi datotek prek CVS, boste imeli imenik z imenom "moodle", ki bo vseboval vrsto datotek in imenikov.</p>
+  <p>V imenik dokumentov spletnega strežnika lahko postavite celoten imenik v tem primeru bo stran na naslovu <b>http://imestreznika/moodle</b>, lahko pa tudi kopirate vso vsebino naravnost v glavni imenk dokumentov spletnega strežnika s čimer bo naslov strani preprosto <b>http://imestreznika</b>.</p>
+  <p>Če prenašate Moodle na vaš lokalni računalnik in ga nato nalagate na vašo spletno stran, je običajno bolje naložiti celoten arhiv kot eno datoteko in nato razpakiranje na strežniku. Celo vmesniki spletnega gostovanja kot je Cpanel vam omogočajo razširitev arhivov v "Upravniku datotek". </p>
+</blockquote>
+<p> </p>
+<h3 class="sectionheading"><a name="site"></a>3. Struktura strani</h3>
+<blockquote>
+  <p>Ta odsek lahko varno preskočite, vendar je tu hiter povzetek vsebine imenika Moodle, za lažjo orientacijo:</p>
+  <blockquote>
+    <table><tr>
+      <td width="130" valign="top">config.php</td>
+      <td valign="top">-</td>
+      <td valign="top">
+        vsebuje osnovne nastavitve. Ta datoteka ne pride v paketu Moodle - ustvarite jo sami. </td>
+    </tr>
+      <tr>
+        <td valign="top">install.php</td>
+        <td valign="top">-</td>
+        <td valign="top">skripta, ki jo boste zagnali za ustvarjanje config.php </td>
+      </tr>
+      <tr><td valign="top">version.php</td>
+      <td valign="top">-</td>
+      <td valign="top">
+        določa trenutno različico kode Moodle
+      </td></tr>
+      <tr><td valign="top">index.php</td>
+      <td valign="top">-</td>
+      <td valign="top">
+        naslovna stran spletnega mesta
+      </td></tr></table>
+    <ul>
+      <li>admin/ - koda za skrbništvo celotnega strežnika</li>
+      <li>auth/ - vtičniški moduli za preverjanje pristnosti uporabnikov</li>
+      <li>blocks/ - vtični moduli za majhne stranske bloke na mnogih straneh</li>
+      <li>calendar/ - vsa koda za upravljanje in prikaz koledarjev</li>
+      <li>course/ - koda za prikaz in upravljanje predmetov</li>
+      <li>doc/ - pomoč in dokumentacija za Moodle (npr. ta stran)</li>
+      <li>files/ - koda za prikaz in upravljanje naloženih datotek</li>
+      <li>lang/ - besedila v različnih jezikih, po en imenik za jezik</li>
+      <li>lib/ - knjižnice osrednje kode Moodle</li>
+      <li>login/ - koda za delo s prijavo in ustvarjanjem računov</li>
+      <li>mod/ - vsi glavni moduli predmeta Moodle so tu </li>
+      <li>pix/ - splošna grafika strani</li>
+      <li>theme/ - tematski paketi / preobleke za spreminjanje izgleda strani.</li>
+      <li>user/ - koda za prikaz in upravljanje uporabnikov</li>
+    </ul>
+    <p> </p>
+  </blockquote>
+</blockquote>
+<h3 class="sectionheading"><a name="installer"></a>4. Zagon namestitvene skripte za ustvarjanje config.php </h3>
+<blockquote>
+  <p>Za zagon namestitvene skripte (install.php), samo vnesite osnovni spletni naslov vaše namestitve Moodle v vašem btskalniku, oziroma pojdite neposredno na <strong>http://vasstreznik/install.php</strong>. </p>
+  <p>(Namestitveni program bo poskušal nastaviti piškotek seje. Če naletite na pojavno opozorilo v vašem brskalniku, poskrbite, da ta piškotek sprejmete!) </p>
+  <p>Moodle bo zaznal kakšna konfiguracija je potrebna in vas bo vodil prek nekaj zaslonov, da bi vam pomagal ustvariti novo konfiguracijsko datoteko z imenom <strong>config.php. </strong>Na koncu postopka bo Moodle poskusil zapisati to datoteko na pravo lokacijo, sicer lahko pritisnete gumb in prenesete datoteko iz namestitvenega programa in nato naložite config.php v glavni imenik Moodle na strežniku. </p>
+  <p>Spotoma bo program za namestitev preverjal okolje vašega strežnika in vam predlagal kako odpraviti morebitne težave. Za najpogostejše težave bi morali biti predlogi zadostni, če pa se vam zatakne, preglejte spodnje informacije o nekaterih splošnih zadevah, ki bi vas utegnile ovirati. <br />
+  </p>
+</blockquote>
+<blockquote>
+
+<h3 class="sectionheading"><a name="webserver" id="webserver"></a>4.1 Splošne nastavitve spletnega strežnika</h3>
+  <blockquote>
+    <p>Najprej se prepričajte, da je spletni strežnik nastavljen tako, da uporablja index.php kot privzeto stran (morda poleg index.html, default.htm in podobno).</p>
+    <p>V strežniku Apache to dosežete s parametrom DirectoryIndex v datoteki httpd.conf. Moja običajno izgleda takole:</p>
+    <blockquote>
+      <pre><strong>DirectoryIndex</strong> index.php index.html index.htm </pre>
+    </blockquote>
+    <p>Poskrbite, da je index.pgp v seznamu (in zaradi učinkovitosti čim bolj na začetku seznama).</p>
+    <p>Kot drugo, <b>če uporabljate Apache 2</b>, morate vključiti spremenljivko <i>AcceptPathInfo</i>, ki dovoljuje skriptam posredovanje argumentov v obliki http://streznik/datoteka.php/arg1/arg2. To je ključno za omogočanje relativnih povezav med vašimi viri in hkrati zagotavlja učinkovitejšo rabo spletne strani Moodle.  To lahko vključite z dodajanjem sledečih vrstic v datoteki httpd.conf.</p>
+    <blockquote>
+      <pre><strong>AcceptPathInfo</strong> on </pre>
+    </blockquote>
+    <p>Kot tretje, Moodle zahteva vrsto vključenih PHP nastavitev za svoje delovanje.  <b>Na večini strežnikov bodo to že privzete nastavitve.</b> Kljub temu bodo nekateri strežniki PHP (in nekatere novejše različice PHP) imeli drugačne nastavitve.  Te se nastavijo v konfiguracijski datoteki PHP (običajno php.ini):</p>
+    <blockquote>
+      <pre>magic_quotes_gpc = 1    (zaželeno, a ni obvezno)
+magic_quotes_runtime = 0    (obvezno)
+file_uploads = 1
+session.auto_start = 0
+session.bug_compat_warn = 0
+  </pre>
+    </blockquote>
+    <p>Če nimate dostopa do httpd.conf ali php.ini na vašem strežniku, ali imate Moodle na istem strežniku z drugimi aplikacijami, ki zahtevajo drugačne nastavitve, ne skrbite, pogosto lahko PREGLASITE privzete nastavitve. 
+    </p>
+    <p>Da bi to storili morate ustvariti datoteko z imenom <b>.htaccess</b> v glavnem imeniku Moodle, ki vsebuje vrstice podobne sledečim. To deluje samo na strežnikih Apache in samo takrat, ko so preglasitve (Overrides) dovoljene v glavni konfiguraciji. </p>
+    <blockquote>
+      <pre>
+DirectoryIndex index.php index.html index.htm
+
+<IfDefine APACHE2>
+     <b>AcceptPathInfo</b> on
+</IfDefine>
+
+php_flag magic_quotes_gpc 1
+php_flag magic_quotes_runtime 0
+php_flag file_uploads 1
+php_flag session.auto_start 0
+php_flag session.bug_compat_warn 0</pre>
+    </blockquote>
+    <p>Lahko tudi na primer določite največjo velikost datotek za nalaganje:
+         
+</p>
+    <blockquote>
+      <pre>
+LimitRequestBody 0
+php_value upload_max_filesize 2M
+php_value post_max_size 2M
+     </pre>
+    </blockquote>
+    <p>Najlažje je preprosto kopirati vzorčno datoteko iz <strong>lib/htaccess</strong> in jo urediti, da bo ustrezala vašim potrebam.  Datoteka vsebije dodatna navodila.  Na primer v Unix ukazni vrstici:
+   </p>
+    <blockquote>
+      <pre>cp lib/htaccess .htaccess</pre>
+    </blockquote>
+  </blockquote>
+<p> </p>
+<h3 class="sectionheading"><a name="database"></a>4.2 Ustvarjanje podatkovne zbirke</h3>
+
+  <blockquote>
+    <p>Ustvariti morate prazno podatkovno zbirko (npr. "<em>moodle</em>") v vašem sistemu podatkovnih zbirk, ter posebnega uporabnika (npr. "moodleuser"), ki ima dostop do te (in samo te) podatkovne zbirke. Če želite lahko uporabljate uporabnika "root", za preizkusni strežnik, vendar to ni priporočljivo v delujočem sistemu: če bi hacker uspel odkriti geslo bi bil v nevarnosti vaš celoten sistem podatkovnih zbirk in ne zgolj ena podatkovna zbirka. </p>
+    <p>Če uporabljate spletno gostovanje, boste verjetno imeli spletni vmesnik nadzorne plošče, v katerem lahko ustvarite podatkovno zbirko. </p>
+    <p>Sistem <strong>Cpanel</strong> je eden izmed popularnejših te vrste. Za ustvarjanje podatkovne zbirke v sistemu Cpanel, </p>
+    <ol>
+      <li>Kliknite na ikono "<strong>MySQL Databases</strong>" (Podatkovne zbirke MySQL).</li>
+      <li>Vpišite "moodle" v polje podatkovne zbirke in kliknite "<strong>Add Database</strong>" (Dodaj podatkovno zbirko).</li>
+      <li> Vpišite uporabniško ime in geslo (ne tako, ki ga uporabljate drugje) v ustrezni polji in kliknite "<strong>Add User</strong>" (Dodaj uporabnika).</li>
+      <li> Zdaj uporabite gumb "<strong>Add User to Database</strong>" (Dodaj uporabnika podatkovni zbirki), da boste dodali temu novemu uporabniškemu računu "<strong>ALL</strong>" (VSE) pravice za novo podatkovno zbirko.</li>
+      <li>Vedite, da imata lahko uporabniško ime in ime podatkovne zbirke predpono imena vašega uporabniškega računa Cpanel. Ob vnašanju teh podatkov v namestitveni program Moodle, uporabite polna imena.</li>
+    </ol>
+    <p>Če imate dostop do ukazne vrstive Unix lahko isto dosežete z vnosom naslednjih ukazov. </p>
+    <p>Tu je nekaj primerov Unix ukaznih vrstic za MySQL: </p>
+    <pre>
+   # mysql -u root -p
+   > CREATE DATABASE moodle;
+   > GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,INDEX,ALTER ON moodle.*
+           TO moodleuser@localhost IDENTIFIED BY 'vasegeslo';
+   > quit
+   # mysqladmin -p reload
+    </pre>
+    <p>In nekaj primerov ukaznih vrstic za PostgreSQL: </p>
+    <pre>
+   # su - postgres
+   > psql -c "create user moodleuser createdb;" template1
+   > psql -c "create database moodle;" -U moodleuser template1
+   > psql -c "alter user moodleuser nocreatedb;" template1</pre>
+  </blockquote>
+  <p> </p>
+  
+<h3 class="sectionheading"><a name="data"></a>4.3 Ustvarjanje podatkovnega imenika</h3>
+
+  <blockquote>
+    <p>Moodle potrebuje prostor na trdem disku vašega strežnika za hranjenje naloženih datotek, kot so dokumenti predmeta in slike uporabnikov. </p>
+    <p>Program za namestitev Moodle poskuša ustvariti ta imenik za vas, a če mu ne uspe, boste morali v ta namen sami ročno ustvariti imenik. </p>
+    <p>Zaradi varnosti je najbolje, da ta imenik NI neposredno dostopen prek spleta. To najlažje dosežete tako, da ga ustvarite IZVEN spletnega imenika, a če ga morate imeti v spletnem imeniku, ga zaščitite z ustvarjanjem datoteke v podatkovnem imeniku, ki ima ime .htaccess in vsebuje to vrstico: </p>
+    <blockquote>
+      <pre>deny from all</pre>
+    </blockquote>
+    <p>Da se prepričate, da lahko Moodle shrani naložene datoteke v ta imenik, preverite, če programska oprema spletnega strežnika (npe. Apache) sme v tem imeniku izvajati operacije branja, pisanja in izvajanja. </p>
+    <p>Na strežnikih Unix to pomeni nastavitev lastnika imenika na nekaj podobnega "nobody" ali "apache" in dodelitev temu uporabniku pravice branja, pisanja in izvajanja.</p>
+    <p>V sistemu Cpanel lahko uporabite "Upravnika datotek" (File Manager), da najdete mapo, kliknete nanjo in nato izberete "Spremeni dovoljenja" (Change Permissions). Na mnogih deljenih gostiteljskih strežnikih, boste verjetno morali omejiti ves dostop do datotek na vašo skupino ("group") (da bi preprečili drugim strankam gostovanja ogled ali spreminjanje vaših datotek), vendar zagotovite polno pravico dostopa branja in pisanja za vse druge (kar bo omogočilo dostop do datotek spletnemu strežniku). </p>
+    <p>Pogovorite se s skrbnikom strežnika, če naletite na težave pri takšni nastavitvi varnosti. Še posebej nekatera spletna mesta, ki uporabljajo PHP možnost poznano kot varni način oz. "Safe Mode" lahko <em>zahtevajo</em>, da skrbnik ustvari ta imenik za vas na ustrezen način. </p>
+  </blockquote>
+
+</blockquote>
+
+
+<h3 class="sectionheading"><a name="admin"></a>5. Obisk skrbniške strani za nadaljevanje konfiguracije </h3>
+<blockquote> 
+  <p>Ko je osnovna datoteka <strong>config.php</strong> pravilno ustvarjena v prejšnjem koraku, vas bo poskus dostopa do naslovne strani vašega spletnega mesta preusmeril na "skrbniško" stran za nadaljevanje konfiguracije.</p>
+  <p>Ko prvič dostopate do skrbniške strani, vam bo predstavljen GPL sporazum, s katerim se <strong>morate</strong> strinjati preden lahko nadaljujete z nastavitvijo.</p>
+  <p>Zdaj bo Moodle začel nastavljati podatkovno zbirko in ustvarjati tabele za hranjenje podatkov. Kot prvo bodo ustvarjene glavne tabele podatkovne zbirke. Videti bi morali vrsto izjav SQL, ki jim sledi statusno sporočilo (zeleno ali rdeče), ki je podobno temu:</p>
+  <blockquote> 
+    <p>CREATE TABLE course ( id int(10) unsigned NOT NULL auto_increment, category int(10) unsigned NOT NULL default '0', password varchar(50) NOT NULL default '', fullname varchar(254) NOT NULL default '', shortname varchar(15) NOT NULL default '', summary text NOT NULL, format tinyint(4) NOT NULL default '1', teacher varchar(100) NOT NULL default 'Teacher', startdate int(10) unsigned NOT NULL default '0', enddate int(10) unsigned NOT NULL default '0', timemodified int(10) unsigned NOT NULL default '0', PRIMARY KEY (id)) TYPE=MyISAM</p>
+    <p><font color="#006600">USPELO</font></p>
+  </blockquote>
+  <p>... in tako naprej, čemur sledi: <font color="#006600">Glavne podatkovne zbirke so uspešno nastavljene.</font> </p>
+  <blockquote>
+    <p class="style3">Če tega ne vidite, je moralo priti do težav pri podatkovni zbirki ali konfiguracijskih nastavitvah, ki ste jih določili v config.php. Preverite, da PHP ni v omejenem načinu t.i. "Safe Mode" (komercialni spletni gostitelji imajo včasih vključen varni način). PHP spremenljivke lahko preverite, če ustvarite malo datoteko, ki vsebuje <strong><?php phpinfo() ?></strong>in jo prikličete prek brskalnika. Preverite vse nastavitve in poskusite znova s to stranjo.</p>
+  </blockquote>
+  <p>Drsite navzdol do samega konca strani in pritisnite povezavo "Nadaljevanje".</p>
+  <p>Zdaj bi morali videti obrazec v katerem lahko določite več konfikuracijskih spremenljivk vaše namestitve kot je privzet jezik, strežnik SMTP in tako naprej. Ne skrbite preveč, da bi vse pravilno nastavili takoj - vedno se lahko vrnete in uredite te spremenljivke kasneje z uporabo skrbniškega vmesnika. Privzete vrednosti so zasnovane tako, da so uporabne in varne za večino strani. Drsite navzdol do dna in kliknite "Shrani spremembe".</p>
+  <blockquote>
+    <p class="style3">Če (in samo če) se vam zatakne na tej strani ter ne morete nadaljevati ima vaš strežnik po vsej verjetnosti nekaj čemur sam pravim "hroščasto sklicevanje" (angl. buggy referrer). To je enostavno popraviti: samo izključite nastavitev "secureforms" in ponovno poskusite nadaljevati.</p>
+  </blockquote>
+  <p>Nato boste videli več strani, ki prikažejo veliko sporočil stanja, ko nastavljajo vse tabele zahtevane za različne module Moodle. Kot pred tem, morajo vsi biti <font color="#006600">zeleni</font>.</p>
+  <p>Drsite navzdol do samega konca strani in pritisnite povezavo "Nadaljevanje".</p>
+  <p>Naslednja stran je obrazec v katerem določite parametre za vašo stran Moodle in naslovnico, kot so ime, oblika, opis in tako naprej. Izpolnite obrazec (vedno se lahko vrnete in spremenite nastavitve pozneje) in nato pritisnite "Shrani spremembe".</p>
+  <p>Končno, vas bo sistem vprašal za ustvarjenje vrhnjega skrbniškega uporabnika za prihodnji dostop do skrbniških strani. Izpolnite podrobnosti z lastnim imenom, elektronskim naslovom in ostalimi podatki in nato kliknite "Shrani spremembe". Vsa polja niso zahtevana, vendar vas bo program obvestil, če boste prezrli pomembna polja in od vas ponovno zahteval vnos. 
+  </p>
+  <blockquote> 
+    <blockquote> 
+      <blockquote> 
+        <blockquote> 
+          <blockquote> 
+            <p><strong>Pazite na to, da si zapomnite uporabniško ime in geslo, ki ju izberete za skrbniški uporabniški račun, saj ju boste potrebovali za dostop do skrbniških strani v prihodnje.</strong></p>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+    <p class="style3">(Če bi bila namestitev iz kakršnegakoli razloga prekinjena, ali bi prišlo do sistemske napake, ki vam preprečuje prijavo z uporabo skrbniškega računa, se lahko običajno prijavite z privzetim uporabniškim imenom "<strong>admin</strong>" in geslom "<strong>admin</strong>".)</p>
+  </blockquote>
+  <p>Ko to uspešno opravite, vas bo program vrnil na naslovnico vaše nove strani! Bodite pozorni na skrbniške povezave, ki se pojavijo na strani spodaj levo (ti elementi se pojavijo tudi na ločeni skrbniški strani) - ti elementi so vam vidni samo vam, ker ste prijavljeni kot skrbniški uporabnik. Vsa nadaljnja skrb za Moodle je zdaj dostopna z uporabo tega menija, kot je:</p>
+  <ul>
+    <li>ustvarjanje in brisanje predmetov</li>
+    <li>ustvarjanje in urejanje uporabniških računov</li>
+    <li>skrbništvo računov izvajalcev</li>
+    <li>spreminjanje nastavitev strani, kot so teme ipd.</li>
+  </ul>
+  <p>A niste še končali nameščanja! Obstaja še eno zelo pomembno opravilo, ki ga morate narediti (glejte naslednji odsek o cron). </p>
+</blockquote>
+<p> </p>
+<h3 class="sectionheading"><a name="cron"></a>6. Nastavite cron -- POMEMBNO! </h3>
+<blockquote> 
+  <p>Nekateri moduli Moodle zahtevajo neprestano preverjanje za izvedbo opravil. Na primer, Moodle mora preveriti razprave v forumih, da lahko pošlje kopije objav osebam, ki so se nanje naročile.</p>
+  <p>Skripta, ki vse to počne se nahaja v imeniku admin in se imenuje cron.php. Vendar ta skripta ne more teči sama od sebe, zato morate nastaviti mehanizem, da se bo ta skripta zaganjala redno (npr. vsakih pet ali deset minut). To zagotavlja "srčni utrip", da lahko skripta izvaja funkcije v časovnih razmakih določenih v vsakem modulu. Takšna vrsta rednega mehanizma je poznana kot <strong>storitev cron</strong>. </p>
+  <p>Vedite, da računalnik, ki izvaja cron <b>ni nujno isti računalnik, ki poganja Moodle</b>. Na primer, če imate omejeno storitev spletnega gostovanja, ki nima storitve cron, lahko poganjate cron na drugem strežniku ali vašem domačem računalniku. Pomembno je le, da se datoteka cron.php redno kliče. </p>
+  <p>Obremenitev te skripte ni zelo velika, tako je 5 minut običajno razumno obdobje, če pa ste v skrbeh glede tega lahko podaljšate časovno obdobje na 15 ali celo 30 minut. Najbolje je, če časovnega obdobja ne podaljšate preveč, saj zapoznelo razpošiljanje elektronske pošte lahko upočasni dejavnosti znotraj predmeta.</p>
+  <p>Najprej preverite, če skripta deluje z zagonom neposredno iz vašega brskalnika:</p>
+  <blockquote> 
+    <pre>http://primer.si/moodle/admin/cron.php</pre>
+  </blockquote>
+  <p>Zdaj, morate nekako nastaviti način, da se bo skripta zaganjala samodejno in redno.</p>
+  <p><b>Na sistemih Windows</b></p>
+  <blockquote>
+    <p>Najlažji način je uporaba tega majhnega paketka <a href="http://moodle.org/download/modules/moodle-cron-for-windows.zip" title="Kliknite za prenos tega paketa (150K)" target="_blank"><strong>moodle-cron-for-windows.zip</strong></a>, ki vse skupaj zelo poenostavi z namestitvijo majhne storitve Windows. Zaženite jo in nanjo pozabite!</p>
+  </blockquote>
+  <p><strong>Na storitvah spletnega gostovanja</strong></p>
+  <blockquote>
+    <p> Vaša spletna nadzorna plošča morda ima spletno stran, ki vam omogoča nastavitev takega cron procesa. Na primer, v sistemu Cpanel, poiščite gumb z imenom "Cron jobs" (Opravila Cron). Tja lahko vstavite enake ukaze Unix, kot so našteti spodaj. </p>
+  </blockquote>
+  <h4> Uporaba ukazne vrstice v okolju Unix </h4>
+  <blockquote>
+    <p>Obstajajo različni programi ukazne vrstice, ki jih lahko uporabite za klic strani iz ukazne vrstice. Ni nujno, da so vsi na voljo na danem strežniku.</p>
+    <p>Na primer, uporabite Unix pripomoček kot je 'wget':</p>
+    <blockquote>
+      <pre>wget -q -O /dev/null http://primer.si/moodle/admin/cron.php</pre>
+    </blockquote>
+    <p>Pomnite, da je v tem primeru rezultat zavržen (v /dev/null).</p>
+    <p>Enako z uporabo lynx-a:</p>
+    <blockquote>
+      <pre>lynx -dump http://primer.si/moodle/admin/cron.php > /dev/null</pre>
+    </blockquote>
+    <p>Alternativno lahko uporabite samostojno različico PHP prevedenega za izvajanje v ukazni vrstici. Prednost takega početja je, da dnevnik spletnega strežnika ni poln s stalnimi zahtevami za cron.php. Slabost je, da morate imeti dostop do različice PHP za ukazno vrstico.</p>
+    <blockquote>
+      <pre>/opt/bin/php /web/moodle/admin/cron.php
+
+    </pre>
+    </blockquote>
+  </blockquote>
+  <h4>Uporaba programa crontab v okolju Unix</h4>
+  <blockquote>
+    <p> Vse kar naredi Cpanel je zagotavljanje spletnega vmesnika do prišomočka Unix poznanega kot crontab. Če imate dostop do ukazne vrstice lahko nastavite crontab sami z naslednjim ukazom:</p>
+    <blockquote>
+      <pre>crontab -e</pre>
+   </blockquote>
+   <p>in nato dodate enega izmed gornjih ukazov tako:</p>
+    <blockquote>
+      <pre>*/5 * * * * wget -q -O /dev/null http://primer.si/moodle/admin/cron.php</pre>
+    </blockquote>
+    <p>Običajno vas bo ukaz "crontab" spravil v urejevalnik 'vi'. V način vnosa "insert mode" preidete s pritiskom na "i", nato vnesete zgornjo vrstico in iz načina vnosa izstopite s pritiskom na ESC.  Vse skupaj shranite in izstopite iz programa z vnosom ":wq" ali prekinete brez shranjevanja z vnosom ":q!" (brez narekovajev).</p>
+  </blockquote>
+  <p> </p>
+</blockquote>
+<h3 class="sectionheading"><a name="course"></a>7. Ustvarite nov predmet</h3>
+<blockquote>
+  <p>Zdaj ko Moodle pravilno deluje lahko poskusite ustvariti nov predmet in se z njim igrate. </p>
+  <p>Izberite "Ustvari nov predmet" na skrbniški strani (ali skrbniških povezavah na naslovnici).</p>
+  <p>Izpolnite obrazec in bodite še posebej pozorni na obliko predmeta. V tej fazi vam še ni potrebno preveč skrbeti za podrobnosti, saj lahko vse pozneje spremeni izvajalec. Vedite, da so rumene ikone pomoči na voljo povsod, kjer je na voljo kontekstna pomoč o vseh vidikih. </p>
+  <p>Pritisnite "Shrani spremembe" in pojavil se vam bo nov obrazec v katerem lahko dodelite predmetu izvajalce. V tem obrazcu lahko dodate samo obstoječe uporabniške račune - če želite ustvariti nov uporabniški račun izvajalca bodisi prosite izvajalca naj si uporabniški račun ustvari sam (poglejte stran prijave) ali ga ustvarite zanj z uporabo "Dodaj novega uporabnika" na skrbniški strani.</p>
+  <p>Ko ste to storili, lahko predmet prilagajate in je dostopen prek povezave "predmeti" na naslovnici.</p>
+  <p>Oglejte si "<a href="./?file=teacher.html">Navodila za izvajalce</a>" za podrobnosti o gradnji predmetov.</p>
+  <p> </p>
+  <p align="center"><strong>Veselo raziskovanje in veselo Moodlanje!</strong></p>
+  <p align="center"><strong>Če vam je Moodle všeč, razmislite o <a href="http://moodle.org/donations/" target="_blank">darovanju</a> za pomoč pri pokrivanju naših stroškov! </strong></p>
+</blockquote>

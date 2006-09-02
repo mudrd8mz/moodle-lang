@@ -1,0 +1,49 @@
+﻿<!--
+TODO:  Update as accessibility status changes.
+FILE:  lang/en_utf8/docs/accessibility.html
+NOTES: Hard-coded links need to be edited/ scripted.
+       May need editing for local Moodle sites.
+-->
+
+<h1>Dostopnost</h1>
+
+<h2>Izjava o dostopnosti</h2>
+
+<p>Ta stran je bila preizkušena v vrsti brskalnikov in s programsko opremo za branje zaslona.</p>
+
+<p>Moodle uporablja semantično označevanje za pomoč uporabnikom bralcev zaslona, med drugim - spletno mesto, stran in glave blokov uporabljajo &lt;h1&gt;, &lt;h2&gt;, navigacijski bloki so seznami &lt;ul> in tako naprej. 
+</p>
+
+<p>Moodle ustreza priporočilom konzorcija World Wide Web [<a href="http://www.w3.org/TR/WCAG10/" title="Web Content Accessibility Guidelines 1.0">Vodila za dostopnost spletnih vsebin 1.0</a>] raven 1 in večini z ravni 2 [<a href="http://www.w3.org/WAI/WCAG1AA-Conformance"  title="About Double-A WCAG conformance">glede ustreznosti dvojnega A</a>] ter nekaterim z ravni 3. Prek teh navodil si prizadeva ustrezanju lokalni zakonodaji, ki ureja dostopnost za osebe z zmanjšanimi telesnimi sposobnostmi. Prizadevamo si izboljšati dostopnost in uporabnost Moodle. Trenutno je za postavitev še vedno uporabljenih nekaj tabel, vendar je na splošno predstavitev (z uporabo predlog slogov) ločena od vsebine.
+</p>
+
+<p>Hvaležni smo za odzive in še posebej za poročila o kakršnikoli nedostopnosti vsebine. Prosimo, [<a href="./message/discussion.php?id=2">sporočite skrbniku</a>].
+</p>
+
+
+<h2>Ključi za dostop</h2>
+
+<p>Trenutno ne določamo ključev za dostop, vendar jih nameravamo uvesti v prihodnjih različicah Moodle.</p>
+
+
+<h2>Povezave</h2>
+
+<p>Pred vsakim stranskim blokom je povezava, ki omogoča uporabnikom bralca zaslona, da preskočijo blok. Vedite, da je ta povezava skrita v grafičnih brskalnikih.</p>
+
+<p>Mnoge povezave imajo atribute naziva, ki podrobneje opisuje povezavo, razen če besedilo povezave že popolnoma opisuje cilj (kot je npr. naslov članka). Če ima povezava ključ dostopa, bo le ta najavljen v nazivu povezave.</p>
+
+<p>Kjerkoli je to možno, so povisave napisane tako, da so smiselne v kontekstu. Ni javaskript: navideznih povezav. </p>
+
+
+<h2>Slike</h2>
+
+<p>Vse slike uporabljajo atribut ALT, da zagotavljajo alternativno besedilo, kjer je to primerno. Slike namenjene zgolj okrasu vsebujejo nično vrednost atributa ALT. Slike kot so zemljeviti, ki predstavljajo kompleksno informacijo imajo atribut londesc, ki jih povezuje z besedilnim opisom vsebine slike.</p>
+
+
+<h2>Ustrezanje standardom</h2>
+
+<p>Ta stran je zgrajena z uporabo veljavnega <acronym title="Extensible Hyper-Text Markup Language">XHTML</acronym> za označevanje in uporablja CSS za predstavitev.</p>
+
+<p style="text-align:center">
+  <a href="http://validator.w3.org/check?verbose=1&amp;ss=1&amp;uri=<?php echo $CFG->wwwroot; ?>" title="Uporabi preverjalnik W3C">Preveri HTML</a> | <a href="http://www.contentquality.com/mynewtester/cynthia.exe?rptmode=-1&amp;url1=<?php echo $CFG->wwwroot; ?>" title="Preizkusi s Cynthia">Preverjanje odstavka 508</a> | <a href="http://www.contentquality.com/mynewtester/cynthia.exe?rptmode=0&amp;warnp2n3e=1&amp;url1=<?php echo $CFG->wwwroot; ?>" title="Preizkusi s Cynthia">Preverjanje WCAG 1 (2,3)</a>
+</p>
