@@ -75,6 +75,7 @@ $string['nolettergrade'] = 'Ni pisne ocene za';
 $string['nomode'] = 'BREZ';
 $string['nonnumericweight'] = 'Prejeta neštevilčna vrednost za ';
 $string['nonweightedpct'] = 'ne utežen %%';
+$string['notteachererror'] = 'Za uporabo te možnosti morate biti izvajalec.';
 $string['pctoftotalgrade'] = '%% od skupne ocene';
 $string['percent'] = 'Odstotek';
 $string['percentascending'] = 'Razvrsti po odstotkih naraščajoče';

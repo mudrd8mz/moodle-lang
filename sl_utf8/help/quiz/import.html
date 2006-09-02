@@ -1,12 +1,16 @@
 <p align="center"><b>Uvažanje novih vprašanj</b></p>
 
-<p>Ta funkcija vam omogoča uvoz vprašanj iz zunanje besedilne datoteke, naložene prek obrazca.  </p>
+<p>Ta funkcija omogoča uvoz vprašanj iz prek obrazca naloženih zunanjih besedilnih datotek ali z izborom ustrezne datoteke, ki je že v področju datotek predmeta.  </p>
+
+<p><b>Opomba glede kodnih tabel</b></p>
+
+<p>Če vaša datoteka uporablja znake, ki niso ASCII, mora uporabljati kodiranje UTF-8. Morda boste lahko nastavili ali pretvorili v UTF-8 z uporabo vašega priljubljenega urejevalnika, ali obstaja možnost v programsku iz katerega vprašanja izvažate. Če vaš strežnik Moodle teče na PHP 5, bo uvoz datotek zapisanih na osnovi XML-a, obdelan samodejno.</p> 
 
 <p>Podprta je vrsta zapisov:</p>
 
 <p><b>Oblika zapisa GIFT</b></p>
 <ul>
-<p>GIFT je najbolj vsestranska oblika zapisa za uvoz vprašanj Moodle kviz iz datoteke z besedilom.  Zasnovan je bil kot enostaven način s katerim lahko izvajalci pišejo vprašanja kot datoteko z besedilom. Podpira večkratno izbiro, drži - ne drži, kratek odgovor, ujemanje in številčna vprašanja, kakor tudi obliko za vstavljanje ____ za "manjkajoče besede".  Različne vrste vprašanj so lahko mešane v eni datoteki besedila in oblika podpira tudi vrstice s komentarji, imena vprašanj, povratno informacijo in odstotke oz. utežene ocene.  Spodaj je nekaj primerov:</p>
+<p>GIFT je najbolj vsestranska oblika zapisa za uvoz vprašanj Moodle kviz iz datoteke z besedilom.  Zasnovan je bil kot enostaven način s katerim lahko izvajalci pišejo vprašanja kot datoteko z besedilom. Podpira večkratno izbiro, drži - ne drži, kratek odgovor, ujemanje in številčna vprašanja, kakor tudi obliko za vstavljanje ____ za &quot;manjkajoče besede&quot;.  Različne vrste vprašanj so lahko mešane v eni datoteki besedila in oblika podpira tudi vrstice s komentarji, imena vprašanj, povratno informacijo in odstotke oz. utežene ocene.  Spodaj je nekaj primerov:</p>
 <pre>
 Kdo je pokopan v Grantovi grobnici?{~Grant ~Jefferson =nihče}
 
@@ -19,7 +23,7 @@ Kdo je pokopan v Grantovi grobnici?{=nihče =nobeden}
 Kdaj je bil Ulysses S. Grant rojen?{#1822}
 </pre>
 
-<p align="right"><a href="help.php?file=formatgift.html&module=quiz">Več informacij o zapisu "GIFT"</a></p>
+<p align="right"><a href="help.php?file=formatgift.html&module=quiz">Več informacij o zapisu &quot;GIFT&quot;</a></p>
 </ul>
 
 <p><b>Aiken zapis</b></p>
@@ -34,7 +38,7 @@ D. Pomagati žrtvam, ki iščejo pomoč
 ANSWER: O
 </pre>
 
-<p align="right"><a href="help.php?file=formataiken.html&module=quiz">Več informacij o zapisu "Aiken"</a></p>
+<p align="right"><a href="help.php?file=formataiken.html&module=quiz">Več informacij o zapisu &quot;Aiken&quot;</a></p>
 </ul>
 
 
@@ -50,7 +54,7 @@ ANSWER: O
 <blockquote>Kakor hitro začnemo kot dojenčki raziskovati dele svojega telesa postanemo študenti {=anatomije in psihologije} in na nek način to ostanemo celo življenje.
 </blockquote>
 
-<p align="right"><a href="help.php?file=formatmissingword.html&module=quiz">Več informacij o zapisu "Manjkajoče besede"</a></p>
+<p align="right"><a href="help.php?file=formatmissingword.html&module=quiz">Več informacij o zapisu &quot;Manjkajoče besede&quot;</a></p>
 </ul>
 
 
@@ -64,9 +68,14 @@ ANSWER: O
 
 <p><b>Blackboard</b></p>
 <ul>
-<p>Ta modul zna uvažati vprašanja shranjena v izvoznem zapisu programa Blackboard.  Temelji na XML funkcijah, ki jih mora podpirati vaš PHP.</p>
+<p>Ta modul zna uvažati vprašanja shranjena v izvoznem zapisu programa Blackboard.  Temelji na XML funkcijah, ki jih mora podpirati vaš PHP. Vedite, da ta različica <strong>ne deluje</strong> z različico Blackoard 6 ali novejšo.</p>
 
-<p align="right"><a href="help.php?file=formatblackboard.html&module=quiz">Več informacij o zapisu "Blackboard"</a></p>
+<p align="right"><a href="help.php?file=formatblackboard.html&module=quiz">Več informacij o zapisu &quot;Blackboard&quot;</a></p>
+</ul>
+
+<p><b>Blackboard V6+</b></p>
+<ul>
+<p>Ta modul zna uvažati vprašanja shranjena v izvoznem zapisu programa Blackboard. Ponuja omejeno podporo za različice Blackoard 6 in 7. Zanaša se na funkcije XML, prevedene v vašem PHP-ju. Naložiti morate datoteko ZIP, ki ste jo izvozili iz programa Blackoard.</p>
 </ul>
 
 
@@ -74,7 +83,7 @@ ANSWER: O
 <ul>
 <p>Ta modul zna uvoziti vprašanja shranjena v besedilni obliki zapisa WebCT.</p>
 
-<p align="right"><a href="help.php?file=formatwebct.html&module=quiz">Več informacij o zapisu "WebCT"</a></p>
+<p align="right"><a href="help.php?file=formatwebct.html&module=quiz">Več informacij o zapisu &quot;WebCT&quot;</a></p>
 </ul>
 
 
@@ -86,7 +95,7 @@ ANSWER: O
 <p>Prosimo, preberite celotno spodnjo datoteko s pomočjo preden uporabite ta razred za uvoz.</p>
 
 
-<p align="right"><a href="help.php?file=formatctm.html&module=quiz">Več informacij o zapisu "CTM"</a></p>
+<p align="right"><a href="help.php?file=formatctm.html&module=quiz">Več informacij o zapisu &quot;CTM&quot;</a></p>
 </ul>
 
 
@@ -96,7 +105,7 @@ ANSWER: O
 <p>Ta zapis s posebnim namenom uvozi samo eno vrsto vprašanj - zapis Ugnezdenih odgovorov (poznano tudi kot izpolnjevanje).
 </p>
 
-<p align="right"><a href="help.php?file=multianswer.html&module=quiz">Več informacij o zapisu "Izpolnjevanja"</a></p>
+<p align="right"><a href="help.php?file=multianswer.html&module=quiz">Več informacij o zapisu &quot;Izpolnjevanja&quot;</a></p>
 </ul>
 
 <p><b>Oblika zapisa Learnwise</b></p>
@@ -111,7 +120,8 @@ ANSWER: O
 
 <p><b>Oblika zapisa Moodle XML</b></p>
 <ul>
-<p>Ta zapis značilen za Moodle uvozi vprašanja kviza, ki so bila pred tem izvožena v enak zapis. Zapis je jasen in se najboljše prikaže z izvozom kategorije v zapis Moodle XML.</p>
+<p>Ta zapis značilen za Moodle uvozi vprašanja kviza, ki so bila pred tem izvožena v enak zapis. Zapis je jasen in se najboljše prikaže z izvozom kategorije v zapis Moodle XML. Zapis XML lahko uvaža datoteke slik.
+</p>
 </ul>
 
 <p>Več zapisov bo še sledilo, vključno z WebCT, IMS QTI in karkoli drugega bodo lahko prispevali uporabniki Moodle! </p>

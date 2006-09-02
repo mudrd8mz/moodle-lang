@@ -8,13 +8,13 @@ $string['editingended'] = 'Obdobje urejanja je zaključeno';
 $string['editingends'] = 'Obdobje urejanje se konča';
 $string['entries'] = 'Vnosi';
 $string['feedbackupdated'] = 'Posodobljen odziv za $a vnosov';
-$string['journalmail'] = '$a->teacher je objavil odziv na vaš
+$string['journalmail'] = '$a->teacher je objavil odziv na vašo
 dnevniški vnos za \'$a->journal\'
 
 Vidite ga lahko pripetega k vašemu dnevniškem vnosu:
 
     $a->url';
-$string['journalmailhtml'] = '$a->teacher je objavil odziv na vaš
+$string['journalmailhtml'] = '$a->teacher je objavil odziv na vašo
 dnevniški vnos za \'<i>$a->journal</i>\'<br /><br />
 Vidite ga lahko pripetega k vašemu <a href=\"$a->url\">dnevniškemu vnosu</a>.';
 $string['journalname'] = 'Ime dnevnika';

@@ -2,24 +2,24 @@
       // Comments: tomaz at zid dot si
 
 $string['enrolname'] = 'LDAP';
-$string['description'] = '<p>Uporabite lahko strežnik LDAP za nadzor vaših prijav.  
+$string['description'] = '<p>Uporabite lahko strežnik LDAP za nadzor vaših vpisov.  
                           Predvideno je, da drevo LDAP vsebuje skupine, ki se ujemajo s 
-                          predmeti in vsaka izmed teh skupin oz. predmetov bo
+                          predmeti in vsaka izmed teh skupin oz. predmetov bo 
                           imela vnose članstva, ki se bodo ujemali z udeleženci.</p>
-                          <p>Predvideno je, da so predmeti določeni kot skupine v
-                          LDAP-u, kjer ima vsaka skupina več polij za članstvo
+                          <p>Predvideno je, da so predmeti določeni kot skupine v 
+                          LDAP-u, kjer ima vsaka skupina več polij za članstvo 
                           (<em>member</em> ali <em>memberUid</em>), ki vsebujejo enolično
                           identifikacijo uporabnika.</p>
-                          <p>Za uporabo LDAP vpisovanja, <stron>morajo</strong> vaši uporabniki
-                          imeti veljavno polje idnumber. Skupine LDAP morajo imeti
-                          isto idnumber oznako v poljih member, da je uporabnik prijavljen
+                          <p>Za uporabo LDAP vpisovanja, <strong>morajo</strong> vaši uporabniki 
+                          imeti veljavno polje idnumber. Skupine LDAP morajo imeti 
+                          isto idnumber oznako v poljih member, da je uporabnik vpisan 
                           v predmet.
-                          To bo običajno delovalo dobro, če že uporabljate LDAP
+                          To bo običajno delovalo dobro, če že uporabljate LDAP 
                           preverjanje pristnosti.</p>
-                          <p>Prijave v predmete bodo posodobljene, ko se uporabnik prijavi. Lahko
-                           tudi zaženete skripto, za ohranjanje sinhroniziranih prijav. Poglejte v 
+                          <p>Vpisi v predmete bodo posodobljeni, ko se uporabnik prijavi. Lahko
+                           tudi zaženete skripto, za ohranjanje sinhroniziranih vpisov. Poglejte v 
                           <em>enrol/ldap/enrol_ldap_sync.php</em>.</p>
-                          <p>Ta vtičnik lahko nastavite za samodejno ustvarjanje novih
+                          <p>Ta vtičnik lahko nastavite za samodejno ustvarjanje novih 
                           predmetov, ko se nova skupina pojavi v LDAP-u.</p>';
 $string['enrol_ldap_server_settings'] = 'Nastavitve strežnika LDAP';
 $string['enrol_ldap_host_url'] = 'Navedite ime LDAP gostitelja in obliki URL npr.:
@@ -36,14 +36,14 @@ $string['enrol_ldap_teacher_settings'] = 'Nastavitve vpisa izvajalca';
 $string['enrol_ldap_course_settings'] = 'Nastavitve vpisa predmeta';
 $string['enrol_ldap_student_contexts'] = 'Seznam kontekstov v katerih se nahajajo
                                           skupine z udeleženci. Ločite različne 
-                                          kotekste s podpičjem \';\'. Na primer: 
+                                          kontekste s podpičjem \';\'. Na primer: 
                                           \'ou=courses,o=org; ou=others,o=org\'';
 $string['enrol_ldap_student_memberattribute'] = 'Lastnost člana, ko uporabnik pripada
                                           (je vpisan) v skupino. Običajno \'member\'
                                           ali \'memberUid\'.';
 $string['enrol_ldap_teacher_contexts'] = 'Seznam kontekstov v katerih se nahajajo
                                           skupine z izvajalci. Ločite različne 
-                                          kotekste s podpičjem \';\'. Na primer: 
+                                          kontekste s podpičjem \';\'. Na primer: 
                                           \'ou=courses,o=org; ou=others,o=org\'';
 $string['enrol_ldap_teacher_memberattribute'] = 'Lastnost člana, ko uporabnik pripada
                                           (je vpisan) v skupino. Običajno \'member\'

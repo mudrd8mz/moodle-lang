@@ -1,4 +1,4 @@
-<p align="center"><b>Nalaganje uporabnikov</b></p>
+﻿<p align="center"><b>Nalaganje uporabnikov</b></p>
 
 <p>Najprej opomba, <strong>da običajno ni potrebno množično uvažanje uporabnikov</strong>. Da bi zmanjšali potrebo po lastnem vzdrževanju preučite oblike preverjanja pristnosti, ki ne zahtevajo ročnega vzdrževanja, kot je povezava na obstoječe zunanje podatkovne zbirke ali omogočanje uporabnikom, da ustvarijo lasten uporabniški račun. Glejte poglavje o preverjanju pristnosti v skrbniških menijih.</p>
 <p>Če ste prepričani, da želite uvoziti več uporabniških računov iz datoteke z besedilom, morate oblikovati vaše besedilo, kot sledi:</p>
@@ -14,16 +14,25 @@
 </p>
       <p><strong>Privzeta imena polj:</strong> ta so možna - če niso vključena bodo vrednosti prevzete iz nastavitev glavnega skrbnika</p>
       <p><font color="#990000" face="Courier New, Courier, mono">institution, department, city, country, lang, auth, timezone</font> </p>
-      <p><strong>Možna imena polj: </strong> vsa ta imena so popolnoma izbirna. Imena predmetov so &quot;kratka imena&quot; predmetov - če so prisotna bo uporabnik prijavljen kot udeleženec v teh predmetih. Imena skupin morajo biti povezana z ustreznimi predmeti, npr. skupina1 s predmetom1 itn.</p>
-      <p> <font color="#990000" face="Courier New, Courier, mono">idnumber, icq, phone1, phone2, address, url, description, mailformat, maildisplay, htmleditor, autosubscribe, course1, course2, course3, course4, course5, group1, group2, group3, group4, group5</font></p>
+      <p><strong>Možna imena polj: </strong> vsa ta imena so popolnoma izbirna. Imena predmetov so "kratka imena" predmetov - če so prisotna bo uporabnik vpisan kot udeleženec v teh predmetih. Imena skupin morajo biti povezana z ustreznimi predmeti, npr. skupina1 s predmetom1 itn.</p>
+      <p> <font color="#990000" face="Courier New, Courier, mono">idnumber, icq, phone1, phone2, address, url, description, mailformat, maildisplay, htmleditor, autosubscribe, course1, course2, course3, course4, course5, group1, group2, group3, group4, group5, type1, type2, type3, type4, type5</font></p>
     </blockquote>
     </li>
-  <li>Vejice v podatkih morajo biti predstavljene kodirano kot &amp;#44 - program bo samodejno odkodiral to oznako nazaj v vejice. </li>
+  <li>Vejice v podatkih morajo biti predstavljene kodirano kot &#44 - program bo samodejno odkodiral to oznako nazaj v vejice. </li>
   <li>Za logična polja uporabite 0 za "ne" in 1 za "da". </li>
+  <li>Vrste so uporabljene, da povedo ali je uporabnik udeleženec ali izvajalec, če ustrezen predmet obstaja (n.pr. type2 ustreza course2). 1 = Udeleženec, 2 = Izvajalec s pravico urejanja in 3 = Izvajalec brez pravice urejanja. Če je vrsta opuščena (prazna), ali predmet ni določen, je privzeta vrsta uporabnika udeleženec. </li>
+  <li>Za predmete uporabite kratka imena predmeta</li>
   <li>Opomba: Če je uporabnik že registriran v podatkovni zbirki uporabnikov Moodle, bo program vrnil identifikacijsko številko uporabnika (userid - indeks podatkovne zbirke) za tega uporabnika in bo uporabnika prijavil kot udeleženca v navedene predmete BREZ posodabljanja drugih navedenih podatkov.</li>
 </ul>
   
   
 <p>Tu je primer veljavne datoteke za uvoz:</p>
-<p><font size="-1" face="Courier New, Courier, mono">username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1<br /> jonest, verysecret, Tom, Jones, jonest@someplace.edu, en, 3663737, 1, Intro101, Section 1<br /> reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3</font></p>
+<p><font size="-1" face="Courier New, Courier, mono">username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1, type1<br /> jonest, verysecret, Tom, Jones, jonest@someplace.edu, en, 3663737, 1, Intro101, Section 1, 1<br /> reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3, 3</font></p>
 
+<p align="center"><b>Posodabljanje obstoječih uporabniških računov</b></p>
+
+<p>Kot privzeto Moodle predvideva, da boste ustvarjali nove uporabniške račune in preskoči zapise, kjer se uporabniško ime ujema z obstoječim računom. Vendar bodo v primeru, da nastavite "Posodobi obstoječe uporabniške račune" na <b>Da</b>, obstoječi uporabniški računi posodobljeni. </p>
+
+<p>Ob posodabljanju obstoječih uporabniških računov lahko spremenite tudi uporabniška imena. Nastavite "Dovoli preimenovanja" na <b>Da</b> in vključite v vašo datoteko polje z imenom <font color="#990000" face="Courier New, Courier, mono">oldusername</font>.</p>
+
+<p><b>Opozorilo:</b> vse napake ob posodabljanju obstoječih uporabniških računov lahko zelo slabo vplivajo na vaše uporabnike. Bodite previdni, ko uporabljate možnosti posodabljanja.</p>

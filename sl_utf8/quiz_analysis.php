@@ -1,9 +1,11 @@
 <?PHP // $Id:quiz_analysis.php from quiz_analysis.xml
       // Comments: tomaz at zid dot si
 
+$string['analysis'] = 'Analiza elementa';
+$string['analysisdownload'] = 'Prenos analize';
 $string['analysisoptions'] = 'Možnosti analize';
-$string['attemptselection'] = 'Poskusi za analizo na uporabnika ';
-$string['lowmarkslimit'] = 'Ne analiziraj, če je rezultat nižji od: ';
+$string['attemptselection'] = 'Poskusi za analizo na uporabnika';
+$string['lowmarkslimit'] = 'Ne analiziraj, če je rezultat nižji od:';
 $string['attemptsall'] = 'vsi poskusi';
 $string['attemptshighest'] = 'najvišja ocena';
 $string['attemptsfirst'] = 'prvi poskus';
@@ -20,8 +22,8 @@ $string['qtypetitle'] = 'Vrsta vprašanja';
 $string['responsestitle'] = 'Besedilo odgovora';
 $string['rfractiontitle'] = 'delni<br />odgovor';
 $string['rcounttitle'] = 'Število<br />odgovorov';
-$string['rpercenttitle'] = 'Odgovori %%';
-$string['facilitytitle'] = '%% pravilno<br>Težavnost';
+$string['rpercenttitle'] = 'O.%%';
+$string['facilitytitle'] = '%% Pravilno<br />Možnost';
 $string['stddevtitle'] = 'SO';
 $string['dicsindextitle'] = 'Disc.<br />indeks';
 $string['disccoefftitle'] = 'Disc.<br />koefi.';

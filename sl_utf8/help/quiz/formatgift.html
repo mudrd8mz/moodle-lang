@@ -1,7 +1,7 @@
-<p align="center"><b>Uvažanje datotek zapisa "GIFT"</b></p>
+<p align="center"><b>Uvažanje datotek zapisa &quot;GIFT&quot;</b></p>
 <p>GIFT je najbolj vsestranska oblika zapisa za uvoz vprašanj Moodle kviz iz datoteke z besedilom.  Podpira večkratno izbiro, drži - ne drži, kratek odgovor, ujemanje in številčna vprašanja, kakor tudi obliko za vstavljanje ____ za zapis Manjkajočeih besed.  Različne vrste vprašanj so lahko mešane v eni datoteki besedila in oblika podpira tudi vrstice s komentarji, imena vprašanj, povratno informacijo in odstotke oz. utežene ocene.</p>
 
-    <p>Kodiranje besedila datoteke z besedilom mora biti enako kot je vaša namestitev Moodle. Primer datoteke vprašanj z besedilom najdete tu: <a href="../../../../mod/quiz/format/gift/examples.txt">gift/examples.txt</a>.</p>
+    <p>Kodiranje vaše datoteke z besedilom mora biti UTF-8 (razen če uporabljate samo nabor znakov ASCII). Primer datoteke vprašanj z besedilom najdete tu: <a href="<?php echo $CFG->wwwroot; ?>/question/format/gift/examples.txt">gift/examples.txt</a>.</p>
 
 
 <h3>VRSTE VPRAŠANJ</h3>
@@ -35,22 +35,22 @@
 
      Sonce vzide na vzhodu.{T}</pre>
 
-<p><u>Ujemanje:</u><br /> Pari za povezovanje se začnejo z znakom enakosti (=) in so ločeni s tem simbolom "->". Morajo biti vsaj trije pari za ujemanje.</p>
+<p><u>Ujemanje:</u><br /> Pari za povezovanje se začnejo z znakom enakosti (=) in so ločeni s tem simbolom &quot;-&gt;&quot;. Morajo biti vsaj trije pari za ujemanje.</p>
     <pre>     Vprašanje ujemanja. {
-         =podvprašanje 1 -> pododgovor 1
-         =podvprašanje 2 -> pododgovor 2
-         =podvprašanje 3 -> pododgovor 3
+         =podvprašanje 1 -&gt; pododgovor 1
+         =podvprašanje 2 -&gt; pododgovor 2
+         =podvprašanje 3 -&gt; pododgovor 3
          }
      
      Poveži sledeče države z njihovimi glavnimi mesti. {
-         =Kanada -> Ottawa
-         =Italija -> Rim
-         =Japonska -> Tokio
-         =Indija  -> New Delhi
+         =Kanada -&gt; Ottawa
+         =Italija -&gt; Rim
+         =Japonska -&gt; Tokio
+         =Indija  -&gt; New Delhi
          }</pre>
     <p>Vprašanja ujemanja ne podpirajo povratne informacije ali uteži odgovorov v odstotkih.</p>
 
-<p><u>Številčno:</u><br /> Odsek odgovora za številčna vprašanja se mora pričeti z uveljavljenim znakom za število (#) oz. "lojtro". Številčni odgovori lahko vključujejo mejo napake, ki je zapisana za pravilnim odgovorom ločena z dvopičjem. Če je na primer pravilen odgovor karkoli med 1,5 in 2,5 potem bi bilo to zapisano kot sledi <u>{#2:0.5}</u>. To nakazuje, da je 2 znotraj meja napake 0,5 pravilno (npr. razpon od 1,5 do 2,5). Če meja napake ni navedena, se predvideva, da je nič.</p>
+<p><u>številčno:</u><br /> Odsek odgovora za številčna vprašanja se mora pričeti z uveljavljenim znakom za število (#) oz. &quot;lojtro&quot;. številčni odgovori lahko vključujejo mejo napake, ki je zapisana za pravilnim odgovorom ločena z dvopičjem. Če je na primer pravilen odgovor karkoli med 1,5 in 2,5 potem bi bilo to zapisano kot sledi <u>{#2:0.5}</u>. To nakazuje, da je 2 znotraj meja napake 0,5 pravilno (npr. razpon od 1,5 do 2,5). Če meja napake ni navedena, se predvideva, da je nič.</p>
     <pre>     Kdaj je bil rojen Ulysses S. Grant? {#1822}
 
      Koliko je vrednost števila pi (na 3 decimalke)? {#3.1415:0.0005}.</pre>
@@ -71,8 +71,8 @@
      Koliko je 2 plus 2? {#4}</pre>
 
 <p><u>Ime vprašanja:</u><br /> Ime vprašanja je možno določiti tako, da ga vmestite pred vprašanje in obdate z dvojnim dvopičjem.</p>
-    <pre>     ::Izvor pisave Kanji::Iz katere države prvotno izvirajo japonski znaki?
- {=Kitajske}
+    <pre>     ::Izvor pisave Kanji::Japonski znaki prvotno
+     prihajajo iz iste države? {=Kitajske}
 
      ::Datum dneva zahvalnosti::Ameriški praznik Dan zahvalnosti se praznuje {~drugi ~tretji =četrti} četrtek v novembru.
 </pre>
@@ -130,7 +130,7 @@
           ~%50%Grantova žena
           ~%-50%Grantov oče }</pre>
 
-<p><u>Posebni znaki ~ = # { } :</u><br /> Ti simboli <b> ~ = # { } </b> nadzirajo operacije tega filtra in se jih ne sme uporabiti kot navadno besedilo v vprašanjih. Ker imajo ti simboli posebno vlogo v določanju operacij tega filtra se imenujejo "kontrolni znaki". Včasih boste želeli uporabiti katerega izmed teh znakov, na primer za prikaz matematične formule v vprašanju. Tej težavi se izognete z ubežnim znakom pred kontrolnimi znaki. To pomeni enostavno vstavljanje poševnice nazah (\) pred kontrolni znak, da bo filter vedel, da ga želite uporabiti dobesedno kot znak namesto njegove uporabe kot kontrolnega znaka. Na primer:</p>
+<p><u>Posebni znaki ~ = # { } :</u><br /> Ti simboli <b> ~ = # { } </b> nadzirajo operacije tega filtra in se jih ne sme uporabiti kot navadno besedilo v vprašanjih. Ker imajo ti simboli posebno vlogo v določanju operacij tega filtra se imenujejo &quot;kontrolni znaki&quot;. Včasih boste želeli uporabiti katerega izmed teh znakov, na primer za prikaz matematične formule v vprašanju. Tej težavi se izognete z ubežnim znakom pred kontrolnimi znaki. To pomeni enostavno vstavljanje poševnice nazah (\) pred kontrolni znak, da bo filter vedel, da ga želite uporabiti dobesedno kot znak namesto njegove uporabe kot kontrolnega znaka. Na primer:</p>
     <pre>     Kateri odgovor da 5? {
           ~ \= 2 + 2
           = \= 2 + 3
@@ -148,7 +148,7 @@
      }</pre>
     <p>Ko se vprašanje obdeluje se poševnica nazaj odstrani in ni shranjena v Moodle.</p>
 
-<p><u>Druge možnosti:</u><br /> Vprašanja s kratkimi odgovori lahko razlikujejo velike in male črke, ke spremenite &quot;0&quot; v &quot;1&quot; v naslednji vrstici:<br /> <tt>$question-&gt;usecase = 0;  // ne razlikuj velikosti črk</tt></p>
+<p><u>Druge možnosti:</u><br />  Vprašanja s kratkimi odgovori lahko razlikujejo velike in male črke, ke spremenite &quot;0&quot; v &quot;1&quot; v naslednji vrstici:<br /> <tt>$question-&gt;usecase = 0;  // ne razlikuj velikosti črk</tt></p>
     <p>Druge možnosti so na voljo z urejanjem uvoznega filtra <b>gift/format.php</b>. </p>
 <p></p>
 
