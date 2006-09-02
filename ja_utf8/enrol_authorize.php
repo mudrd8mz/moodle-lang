@@ -3,7 +3,7 @@
 
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
-$string['adminacceptmethods'] = 'どの支払方法を許可しますか?';
+$string['adminacceptmethods'] = 'どの支払方法を受け入れますか?';
 $string['adminauthorizeccapture'] = 'オーダーレビュー&スケジュールキャプチャ設定';
 $string['adminauthorizeemail'] = 'メール送信設定';
 $string['adminauthorizesettings'] = 'Authorize.net 設定';
