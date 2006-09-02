@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006082100)
+      // moodle.php - created with Moodle 1.7 dev (2006083003)
 
 
 $string['action'] = 'Actie';
@@ -83,6 +83,9 @@ $string['advancedfilter'] = 'Geavanceerd zoeken';
 $string['advancedsettings'] = 'Geavanceerde instellingen';
 $string['again'] = 'nogmaals';
 $string['aimid'] = 'AIM ID';
+$string['ajaxno'] = 'Nee, gebruik basis webfuncties';
+$string['ajaxuse'] = 'AJAX en Javascript';
+$string['ajaxyes'] = 'Ja, gebruik geavanceerde webfuncties';
 $string['all'] = 'Alle';
 $string['allactions'] = 'Alle acties';
 $string['allactivities'] = 'Alle activiteiten';
@@ -540,6 +543,7 @@ $string['formatsocial'] = 'Forumformat';
 $string['formattext'] = 'Moodle auto-opmaak';
 $string['formattexttype'] = 'Opmaken';
 $string['formattopics'] = 'Onderwerpformat';
+$string['formattopicsajax'] = 'Onderwerpformat - AJAX';
 $string['formatweeks'] = 'Weekformat';
 $string['formatweekscss'] = 'Weekformat - CSS / geen tabellen';
 $string['formatwiki'] = 'Wiki-format';

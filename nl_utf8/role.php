@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006082100)
+      // role.php - created with Moodle 1.7 dev (2006083003)
 
 
 $string['allow'] = 'Toelaten';
@@ -38,12 +38,14 @@ $string['legacy:editingteacher'] = 'PRE 1.7 ROL: Leraar (bewerken)';
 $string['legacy:guest'] = 'PRE 1.7 ROL: Gast';
 $string['legacy:student'] = 'PRE 1.7 ROL: Leerling';
 $string['legacy:teacher'] = 'PRE 1.7 ROL: Leraar (niet bewerken)';
+$string['nocapabilitiesincontext'] = 'Geen rechten in deze context';
 $string['overrideroles'] = 'Rollen negeren';
 $string['potentialusers'] = '$a mogelijke gebruikers';
 $string['prevent'] = 'Voorkom';
 $string['prohibit'] = 'Verbied';
 $string['role:assign'] = 'Toewijzen van rollen aan gebruikers';
 $string['role:manage'] = 'Aanmaken en beheren van rollen';
+$string['roletoassign'] = 'Aan te wijzen rol';
 $string['site:accessallgroups'] = 'Toegang voor alle groepen';
 $string['site:backup'] = 'Cursussen backuppen';
 $string['site:config'] = 'Site configuratie wijzigen';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006082100)
+      // admin.php - created with Moodle 1.7 dev (2006083003)
 
 
 $string['adminseesallevents'] = 'Beheerders zien alle gebeurtenissen';
@@ -135,6 +135,7 @@ $string['confirminstall'] = 'Je gaat het taalpakket ($a) installeren. Verder gaa
 $string['courserequests'] = 'Cursusaanvragen';
 $string['courses'] = 'Cursussen';
 $string['cronwarning'] = 'Het onderhoudsscript <a href=\"cron.php\">cron.php</a> heeft de laatste 24 uur niet gelopen.';
+$string['datarootsecuritywarning'] = 'De configuratie van je site zou onveilig kunnen zijn. Zorg er voor dat je dataroot map ($a) niet toegankelijk is vanaf het internet.';
 $string['dbmigrate'] = 'Migratie van de Moodle databank naar UTF8';
 $string['dbmigrateconnecerror'] = 'Kon niet met de opgegeven databank verbinden';
 $string['dbmigrateencodingerror'] = 'De opgegeven databank heeft $a als encodering en dat zou moeten UNICODE/UTF8 zijn.<br />Kies een andere.';
@@ -212,10 +213,12 @@ $string['mediapluginrpm'] = 'Gebruik .rpm-filter';
 $string['mediapluginswf'] = 'Gebruik .swf-filter';
 $string['mediapluginswfnote'] = 'Het is niet veilig om gewone gebruikers toe te laten swf flash bestanden te gebruiken in hun webpagina\'s.';
 $string['mediapluginwmv'] = 'Gebruik .wmv-filter';
+$string['misc'] = 'Andere';
 $string['modulesecurity'] = 'Module security';
 $string['mysql416bypassed'] = 'Als je site echter UITSLUITEND iso-8859-1 (latin) talen gebruikt, dan kun je MySQL 4.1.12 (of hoger) blijven gebruiken.';
 $string['mysql416required'] = 'MySQL 4.1.16 is de minimum versie die nodig is voor Moodle 1.6 om te kunnen garanderen dat alle gegevens naar UTF-8 geconverteerd zullen worden.';
 $string['nolangupdateneeded'] = 'Al je geïnstalleerde taalpakketten zijn up-to-date. Er is geen update nodig.';
+$string['nonewsettings'] = 'Er zijn geen nieuwe instellingen toegevoegd tijdens deze upgrade';
 $string['notifications'] = 'Meldingen';
 $string['optionalmaintenancemessage'] = 'Optionele onderhoudsboodschap';
 $string['order1'] = 'Eerste';
@@ -255,6 +258,7 @@ $string['stickyblocksmymoodle'] = 'Mijn Moodle';
 $string['stickyblockspagetype'] = 'Te configureren paginatype';
 $string['systempaths'] = 'Systeempaden';
 $string['tabselectedtofront'] = 'Moet bij tabellen met tabs de nu geselecteerde tab vooraan gezet worden?';
+$string['themeselector'] = 'Kies thema';
 $string['therewereerrors'] = 'Er waren fouten in je gegevens';
 $string['timezoneforced'] = 'Dit is opgelegd door de sitebeheerder';
 $string['timezoneisforcedto'] = 'Iedereen gebruikt';
@@ -270,6 +274,8 @@ $string['upgradeforumread'] = 'Vanaf Moodle 1.5 kun je bijhouden of forumbericht
 $string['upgradeforumreadinfo'] = 'Vanaf Moodle 1.5 kun je bijhouden of forumberichten al gelezen zijn of niet.<br /> Om deze functie te kunnen gebruiken moet je je tabellen upgraden met alle niet gelezen/gelezen informatie voor de bestaande berichten. Afhankelijk van de grootte van je site kan dit lang duren (uren) en kan je databank behoorlijk belasten. Het is dus aangeraden dit te doen tijdens een rustige periode. Je site zal blijven werken tijdens deze upgrade en je gebruikers zullen er weinig hinder van ondervinden. Als je dit proces start moet je het laten aflopen (laat je browser-venster open). Geen paniek als je het proces toch zou stoppen door je venster te sluiten: je kunt terug opnieuw beginnen .<br /><br />Wil je het upgrade-proces nu starten?';
 $string['upgradelogs'] = 'Om volledige functionaliteit te verkrijgen, moeten je oude logbestanden geüpgraded worden. <a href=\"$a\">Meer informatie</a>';
 $string['upgradelogsinfo'] = 'Sommige wijzigingen hebben invloed op de manier waarop de logs worden opgeslagen. Om al je oude logs per activiteit te kunnen bekijken, moeten je oude logs geüpdated worden. Afhankelijk van je site kan dit lang duren (zelfs enkele uren) en voor lange sites kan dat de databank zwaar belasten. Als je het proces start, dan zou je het moeten laten aflopen (door het browservenster open te laten). Maak je geen zorgen, terwijl je de logs upgradet, zal de site blijven werken voor je gebruikers.<br /><br />Wil je je logs nu upgraden?';
+$string['upgradesettings'] = 'Nieuw instellingen';
+$string['upgradesettingsintro'] = 'Onderstaande instellingen werden toegevoegd sinds je laatste Moodle upgrade. Wijzig de standaardinstellingen waar nodig en klik op de &quot;Bewaar instellingen&quot;-knop onderaan deze pagina.';
 $string['upgradesure'] = 'De bestanden op je Moodleserver zijn gewijzigd en je gaat zo dadelijk je server automatisch upgraden naar versie: <p><b>$a</b></p>
 <p>Als je dit doet, kun je niet meer terug.</p>
 <p>Ben je er er zeker van dat je deze server naar die versie wil upgraden?</p>';

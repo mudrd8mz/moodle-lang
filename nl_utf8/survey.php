@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004093001)
+      // survey.php - created with Moodle 1.7 dev (2006083003)
 
 
 $string['actual'] = 'Werkelijk';
@@ -9,7 +9,7 @@ $string['allquestions'] = 'Alle vragen in volgorde, voor alle leerlingen';
 $string['allscales'] = 'Alle schalen, voor alle leerlingen';
 $string['alreadysubmitted'] = 'Je hebt dit onderzoek al ingestuurd';
 $string['analysisof'] = 'Analyse van $a';
-$string['answers'] = 'Antwoorden ';
+$string['answers'] = 'Antwoorden';
 $string['attls1'] = 'In mijn beoordeling van wat iemand zegt, let ik op de kwaliteit van het argument en niet op de persoon die het argument presenteert.';
 $string['attls10'] = 'Het is belangrijk voor mij om zo objectief mogelijk te blijven als ik iets analyseer.';
 $string['attls10short'] = 'Blijf objectief';
@@ -128,8 +128,7 @@ Er zijn geen \'goede\' en geen \'foute\' antwoorden; we zijn alleen maar geïnte
 
 Jouw zorgvuldig ingevulde antwoorden zullen ons helpen bij het verbeteren van de manier waarop dit onderdeel in toekomst online aangeboden gaat worden.
 
-Hartelijk bedankt.
- ';
+Hartelijk bedankt.';
 $string['collesaname'] = 'COLLES (Werkelijk)';
 $string['collesapintro'] = 'Door middel van dit onderzoek proberen we beter te begrijpen hoe goed de online lesmethode van dit onderdeel jou heeft geholpen bij het leren.
 
@@ -161,7 +160,7 @@ Elk van de onderstaande 24 beweringen vraagt je naar je <b>voorkeur</b> (ideale)
 Er zijn geen \'goede\' en geen \'foute\' antwoorden; we zijn alleen maar geïnteresseerd in je mening. Je kunt er zeker van zijn dat je antwoorden zeer vertrouwelijk zullen worden behandeld en geen invloed zullen hebben op je beoordeling. Jouw zorgvuldig ingevulde antwoorden zullen ons helpen bij het verbeteren van de manier waarop dit onderdeel in toekomst online aangeboden gaat worden. 
 
 Hartelijk bedankt.';
-$string['collespname'] = 'COLLES (Voorkeur) ';
+$string['collespname'] = 'COLLES (Voorkeur)';
 $string['done'] = 'Voltooid';
 $string['download'] = 'Download';
 $string['downloadexcel'] = 'Download de gegevens als een Excel spreadsheet';
@@ -171,8 +170,8 @@ $string['editingasurvey'] = 'Een onderzoek bewerken';
 $string['guestsnotallowed'] = 'Gasten mogen geen onderzoeken posten';
 $string['helpsurveys'] = 'Help over de verschillende soorten onderzoeken';
 $string['howlong'] = 'Hoe lang heb je er over gedaan om dit onderzoek in te vullen?';
-$string['howlongoptions'] = 'minder dan 1 min,1-2 min,2-3 min,3-4 min,4-5 min,5-10 min,meer dan 10 min ';
-$string['ifoundthat'] = 'Ik vond dat  ';
+$string['howlongoptions'] = 'minder dan 1 min,1-2 min,2-3 min,3-4 min,4-5 min,5-10 min,meer dan 10 min';
+$string['ifoundthat'] = 'Ik vond dat';
 $string['introtext'] = 'Inleidende tekst';
 $string['ipreferthat'] = 'Mijn voorkeur zou zijn';
 $string['modulename'] = 'Onderzoek';
@@ -195,9 +194,12 @@ $string['savednotes'] = 'Je aantekeningen zijn bewaard';
 $string['scaleagree5'] = 'Volledig mee oneens,Enigszins mee oneens,Mee eens noch mee oneens,Enigszins mee eens,Volledig mee eens';
 $string['scales'] = 'Schalen';
 $string['scaletimes5'] = 'Bijna nooit,Zelden,Soms,Vaak,Bijna altijd';
-$string['seemoredetail'] = 'Klik hier om meer details te zien ';
-$string['selectedquestions'] = 'Geselecteerde vragen van een schaal, alle studenten  ';
-$string['summary'] = 'Beschrijving  ';
+$string['seemoredetail'] = 'Klik hier om meer details te zien';
+$string['selectedquestions'] = 'Geselecteerde vragen van een schaal, alle studenten';
+$string['summary'] = 'Beschrijving';
+$string['survey:download'] = 'Download antwoorden';
+$string['survey:participate'] = 'Deelnemen aan onderzoek';
+$string['survey:readresponses'] = 'Antwoorden zien';
 $string['surveycompleted'] = 'Je bent klaar met het invullen van dit onderzoek. De grafiek hieronder laat een samenvatting zien van jouw resultaten vergeleken met het klasseresultaat.';
 $string['surveyname'] = 'De naam van het onderzoek';
 $string['surveysaved'] = 'Het onderzoek is bewaard';

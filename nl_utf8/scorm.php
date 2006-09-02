@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6 development (2006031400)
+      // scorm.php - created with Moodle 1.7 dev (2006083003)
 
 
 $string['advanced'] = 'Geavanceerd';
@@ -13,8 +13,10 @@ $string['badmanifest'] = 'Enkele belangrijke fouten: zie foutenlogboek';
 $string['browse'] = 'Voorproeven';
 $string['browsed'] = 'Voorgeproefd';
 $string['browsemode'] = 'Voorproef-modus';
+$string['browserepository'] = 'Blader door de bibliotheek';
 $string['chooseapacket'] = 'Kies of update een SCORM/AICC-pakket';
 $string['completed'] = 'Volledig';
+$string['confirmloosetracks'] = 'WAARSCHUWING: Dit pakket is blijkbaar gewijzigd/aangepast. De pakketstructuur is gewijzigd. Het afgelegde leerpad van sommige gebruikers zou kunnen verloren gegaan zijn tijdens het updateproces.';
 $string['coursepacket'] = 'Cursuspakket';
 $string['coursestruct'] = 'Cursusstructuur';
 $string['datadir'] = 'Fout van het bestandssysteem: de gegevensfolder van de cursus kan niet gemaakt worden';
@@ -44,7 +46,7 @@ $string['height'] = 'Hoogte';
 $string['hidden'] = 'Verborgen';
 $string['hidebrowse'] = 'Verberg voorbeeldknop';
 $string['hidenav'] = 'Verberg navigatieknoppen';
-$string['hidetoc'] = 'Verberg cursusstructuur ';
+$string['hidetoc'] = 'Verberg cursusstructuur';
 $string['highestattempt'] = 'Beste poging';
 $string['identifier'] = 'Vraagidentificatie';
 $string['iframe'] = 'Huidig venster';
@@ -98,6 +100,8 @@ $string['review'] = 'Herzien';
 $string['reviewmode'] = 'Herzien modus';
 $string['scoes'] = 'Scoes';
 $string['score'] = 'Score';
+$string['scorm:view'] = 'Bekijk inhoud';
+$string['scorm:viewgrades'] = 'Bekijk cijfers';
 $string['scormcourse'] = 'SCORM/AICC-cursus';
 $string['scrollbars'] = 'Laat rollen door het venster toe';
 $string['sided'] = 'Aan de linkerkant';
