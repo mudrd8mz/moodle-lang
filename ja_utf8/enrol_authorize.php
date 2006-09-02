@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006071800)
+      // enrol_authorize.php - created with Moodle 1.7 dev (2006083102)
 
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
+$string['adminacceptmethods'] = 'どの支払方法を許可しますか?';
 $string['adminauthorizeccapture'] = 'オーダーレビュー&スケジュールキャプチャ設定';
 $string['adminauthorizeemail'] = 'メール送信設定';
 $string['adminauthorizesettings'] = 'Authorize.net 設定';
@@ -76,14 +77,29 @@ $string['costdefaultdesc'] = 'このデフォルト費用を使用するには�
 $string['cutofftime'] = 'トランザクションのカットオフ時間です。確定するため、何時に最終のトランザクションを取得しますか?';
 $string['delete'] = '無効化';
 $string['description'] = 'Authorize.netモジュールでは、受講料支払いが必要なコースを作成することができます。コースの受講料がゼロの場合、学生には受講登録の支払いは求められません。サイト全体の利用料をデフォルトとしてここで設定して、コースごとに受講料を設定することができます。コース受講料を設定した場合、コース受講料はサイト利用料に優先します。<b>注意:</b> コース設定で登録キーを指定した場合、学生は登録キーを使用した受講登録のオプションも持つことになります。これは、支払い要、支払い不要の学生が混在している場合に便利です。';
+$string['echeckabacode'] = '銀行ABA番号';
+$string['echeckaccnum'] = '銀行口座番号';
+$string['echeckacctype'] = '銀行口座種別';
+$string['echeckbankname'] = '銀行名';
+$string['echeckbusinesschecking'] = '法人当座口座';
+$string['echeckchecking'] = '当座口座';
+$string['echeckfirslasttname'] = '銀行口座名義';
+$string['echecksavings'] = '普通口座';
 $string['enrolname'] = 'Authorize.netペイメントゲートウェイ';
 $string['expired'] = '期限切れ';
 $string['howmuch'] = 'いくらですか?';
 $string['httpsrequired'] = '申し訳ございません、あなたのリクエストは現在処理することができません。このサイトの設定は正常に行われませんでした。
 <br /><br />
 ブラウザの下部に黄色の鍵マークが表示されない場合は、あなたのクレジットカード番号を入力しないでください。これはクライアントとサーバ間で送信されるすべてのデータが単に暗号化されることを意味します。ですから、2台のコンピュータ間のトランザクション情報は保護され、あなたのクレジットカード番号がインターネット上で盗まれることはありません。';
+$string['invalidaba'] = 'ABA番号が正しくありません。';
+$string['invalidaccnum'] = '口座番号が正しくありません。';
+$string['invalidacctype'] = '講座種別が正しくありません。';
 $string['logindesc'] = 'このオプションは「ON」にする必要があります。<br /><br />管理 >> 詳細設定 >> セキュリティ で <a href=\"$a->url\">loginhttps が「Yes」になっていること</a>を確認してください。 <br /><br />この設定を「Yes」にすることで、Moodleはログインおよび支払いページでセキュアhttps接続を使用します。';
+$string['methodcc'] = 'クレジットカード';
+$string['methodecheck'] = 'eCheck (ACH)';
+$string['missingaba'] = 'ABA番号を入力してください。';
 $string['missingaddress'] = '住所を入力してください。';
+$string['missingbankname'] = '銀行名を入力してください。';
 $string['missingcc'] = 'カード番号を入力してください。';
 $string['missingccexpire'] = '有効期限を入力してください。';
 $string['missingcctype'] = 'カードタイプを入力してください。';
@@ -95,6 +111,7 @@ $string['noreturns'] = '返金なし!';
 $string['notsettled'] = '未確定';
 $string['orderid'] = '注文ID';
 $string['paymentmanagement'] = '支払い管理';
+$string['paymentmethod'] = '支払方法';
 $string['paymentpending'] = 'このコースに関するあなたの支払いは保留中です。注文番号は、 $a->orderid です。詳細は、<a href=\'$a->url\'>注文詳細</a>をご覧ください。';
 $string['pendingordersemail'] = '支払いを受領しない場合、トランザクション $a->pending は、$a->days 日で期限が切れます。
 
@@ -139,7 +156,9 @@ $string['tested'] = 'テスト済み';
 $string['testmode'] = '[ テストモード ]';
 $string['testwarning'] = 'キャプチャー/取り消し/クレジットはテストモードで動作しているようです。データベースのレコードは更新およびインサートされませんでした。';
 $string['transid'] = 'トランザクションID';
-$string['unenrolstudent'] = '学生を登録解除しますか?';
+$string['unenrolstudent'] = '学生を登録抹消しますか?';
+$string['usingccmethod'] = '<a href=\"$a->url\"><strong>クレジットカード</strong></a>を使用して登録する。';
+$string['usingecheckmethod'] = '<a href=\"$a->url\"><strong>eCheck</strong></a>を使用して登録する。';
 $string['void'] = '取り消し';
 $string['voidyes'] = 'トランザクションがキャンセルされます。本当によろしいですか?';
 $string['welcometocoursesemail'] = 'お支払いありがとうございます。あなたは下記のコースに受講登録されました:
