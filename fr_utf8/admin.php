@@ -1,14 +1,24 @@
 <?php // $Id$
 
 // begin {added with admin cleanup}
-$string['userinterface'] = 'Interface utilisateur';
+$string['accounts'] = 'Comptes';
+$string['appearance'] = 'Apparence';
+$string['server'] = 'Serveur';
+$string['users'] = 'Utilisateurs';
+$string['security'] = 'Sécurité';
 $string['userlist'] = 'Liste des utilisateurs';
-$string['serverinterface'] = 'Interface serveur';
-$string['authenticationandsecurity'] = 'Authentification et sécurité';
-$string['maintenanceandauditing'] = 'Maintenance et contrôle';
 $string['courses'] = 'Cours';
+$string['location'] = 'Lieu';
+$string['coursemgmt'] = 'Ajouter cours';
+$string['debugging'] = 'Débogage';
+$string['plugins'] = 'Modules';
+$string['mustenablestats'] = 'Les statistiques n\'ont pas encore été activée sur ce site.';
+$string['courseoverview'] = 'Vue d\'ensemble cours';
+$string['log'] = 'Historiques';
+$string['simpletest'] = 'Tests';
+$string['stats'] = 'Statistiques';
+$string['mymoodle'] = 'Mon Moodle';
 
-$string['languageandlocation'] = 'Langue et lieu';
 $string['htmleditor'] = 'Éditeur WYSIWYG';
 $string['misc'] = 'Divers';
 $string['filtersettings'] = 'Réglages filtres';
@@ -25,7 +35,6 @@ $string['sitepolicies'] = 'Règles site';
 $string['userpolicies'] = 'Règles utilisateurs';
 $string['antivirus'] = 'Anti-virus';
 $string['authentication'] = 'Authentification';
-$string['performanceandstats'] = 'Performance et statistiques';
 $string['backups'] = 'Sauvegardes';
 $string['courserequests'] = 'Demandes de cours';
 $string['themeselector'] = 'Sélecteur de thème';
@@ -208,7 +217,7 @@ $string['install'] = 'Installer les langues sélectionnées';
 $string['installedlangs'] = 'Langues installées';
 $string['invaliduserchangeme'] = 'Le nom d\'utilisateur «&nbsp;changeme&nbsp;» est réservé. Il n\'est pas permis de créer un compte de ce nom.';
 $string['lang16notify'] = 'Les versions de Moodle 1.6 et suivantes vous permettent d\'installer et de mettre à jour les langues directement depuis download.moodle.org en suivant le lien ci-dessous';
-$string['langedit'] = 'Modification de langue';
+$string['langpacks'] = 'Paquetages langue';
 $string['langimport'] = 'Utilitaire d\'importation de langues';
 $string['langimportsuccess'] = 'Le paquetage de langue a été correctement mis à jour';
 $string['langpackremoved'] = 'La désinstallation de la langue est terminée';
@@ -264,7 +273,6 @@ $string['sitemaintenancewarning'] = 'Votre site est actuellement en mode de main
 $string['stickyblocks'] = 'Blocs fixes';
 $string['stickyblocksduplicatenotice'] = 'Si l\'un des blocs que vous ajoutez ici existe déjà sur une page, il y aura alors un doublon.<br />Seul celui qui est fixe ne sera pas modifiable. Le doublon pourra encore être modifié.';
 $string['stickyblockspagetype'] = 'Type de page à configurer';
-$string['stickyblocksmymoodle'] = 'Mon moodle';
 $string['stickyblockscourseview'] = 'Page de cours';
 $string['tabselectedtofront'] = 'Dans les tables avec onglets, la rangée contenant l\'onglet sélectionné doit-elle être ramenée au premier plan&nbsp;?';
 $string['therewereerrors'] = 'Des erreurs sont présentes dans vos données';
