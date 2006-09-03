@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006082800)
+      // admin.php - created with Moodle 1.7 dev (2006090200)
 
 
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示';
@@ -187,7 +187,7 @@ $string['install'] = 'インストール';
 $string['installedlangs'] = 'インストール済み言語パック';
 $string['invaliduserchangeme'] = 'ユーザ名「changeme」は予約されています -- このユーザ名のアカウントは作成することができません。';
 $string['lang16notify'] = 'Moodle1.6以上のバージョンでは、下記のリンクでmoodle.orgより言語パックのインストールおよびアップデートを行うことができます。';
-$string['langedit'] = '言語編集';
+$string['langedit'] = '言語の編集';
 $string['langimport'] = '言語インポートユーティリティ';
 $string['langimportsuccess'] = '言語パックが正常に更新されました。';
 $string['langpackremoved'] = '言語パックのアンインストールが完了しました。';
