@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // questionnaire.php - created with Moodle 1.7 dev (2006090200)
+      // questionnaire.php - created with Moodle 1.7 dev (2006090300)
 
 
 $string['addaline'] = '答えの行を追加する';
@@ -11,6 +11,7 @@ $string['anonymous'] = '匿名';
 $string['average'] = '平均';
 $string['averagerank'] = '平均ランク';
 $string['bodytext'] = '本文';
+$string['cancelandreturn'] = 'キャンセル & 戻る';
 $string['changeorder'] = 'リストから順番を選択して、問題が表示される順番を変更してください。';
 $string['closed'] = 'アンケートは、$a に終了しました。ありがとうございます。';
 $string['closedate'] = '終了日を使用する';
@@ -22,6 +23,7 @@ $string['crosstabulation'] = 'クロス集計';
 $string['edit'] = '編集';
 $string['editfield'] = 'このフィールドを編集するか、あなたが編集したいフィールド番号をクリックしてください。';
 $string['email'] = 'Eメール';
+$string['errquestionoption'] = '申し訳ございません、この質問タイプには少なくとも1つの回答オプションが必要です。';
 $string['errquestiontext'] = 'この質問のテキストを入力してください。';
 $string['errquestiontype'] = '申し訳ございません、この質問のタイプを選択してください。';
 $string['field'] = 'フィールド $a';
@@ -29,14 +31,16 @@ $string['fieldname'] = 'フィールド名';
 $string['generalpage'] = 'このタブの情報は、調査全体に適用されます。このページの必要事項を入力し、個々のフィールドを編集するには、<b>Edit Questions</b>に移動してください。';
 $string['headingtext'] = '表題';
 $string['id'] = 'ID';
+$string['inuse'] = '使用中';
 $string['length'] = '長さ';
 $string['modulename'] = 'アンケート';
 $string['modulenameplural'] = 'アンケート';
 $string['mustcomplete'] = '<b>アンケート結果を保存するためには<i>今</i>このアンケートを完了させる必要があります。別の機会に回答することはできません。</b><br /><br />';
 $string['myresponsedated'] = 'あなたの回答日: $a';
 $string['myresponses'] = 'あなたのすべての回答';
+$string['myresults'] = 'マイ リザルト';
 $string['name'] = 'アンケート名';
-$string['newfield'] = '新しいフィールド';
+$string['newfield'] = 'フィールドの保存/追加';
 $string['next'] = '次へ';
 $string['nextpage'] = '次のページ';
 $string['noneinuse'] = '現在、定義されているコンテンツはありません。';
@@ -47,6 +51,7 @@ $string['noteligible'] = 'あなたはこのアンケートに回答できませ
 $string['notopen'] = 'このアンケートは、$a まで開始されません。';
 $string['notused'] = '未使用';
 $string['num'] = '#';
+$string['of'] = '/';
 $string['opendate'] = '開始日を使用する';
 $string['owner'] = 'オーナー';
 $string['page'] = 'ページ';
@@ -98,6 +103,7 @@ $string['subtitle'] = 'サブタイトル';
 $string['summary'] = '要約';
 $string['surveyfilename'] = 'アンケートファイル名です。このファイル名は、以降このアンケートへのアクセスに使用されます。 ( スペースなし、半角英数字のみ )';
 $string['surveyinfo'] = 'この調査のすべてのフィールドの前に表示されるテキストです。( 例 インストラクション、バックグラウンド情報等 )';
+$string['surveyresponse'] = 'アンケート回答';
 $string['surveysubtitle'] = 'この調査のサブタイトルです。タイトルの下に表示されます。( 入力自由、スペース含む )';
 $string['surveytitle'] = 'この調査のタイトルです。このタイトルは調査すべてのページのトップに表示されます。( 入力自由、スペース含む )';
 $string['template'] = 'テンプレート';
