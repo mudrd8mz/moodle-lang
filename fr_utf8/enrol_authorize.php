@@ -1,7 +1,7 @@
 <?php // $Id$ 
 
 $string['adminacceptccs'] = 'Cartes de crédit acceptées';
-$string['adminacceptmethods'] = 'Méthodes de paiement acceptées';
+$string['adminaccepts'] = 'Veuillez choisir les méthodes de paiement acceptées et leur type';
 $string['adminauthorizeccapture'] = 'Contrôle des commandes & réglages de saisie programmée';
 $string['adminauthorizeemail'] = 'Réglages d\'envoi de courriel';
 $string['adminauthorizesettings'] = 'Réglages Authorize.net';
@@ -152,6 +152,8 @@ $string['reason11'] = 'Un doublon de transaction a été transmis.';
 $string['reason13'] = 'L\'identifiant de connexion n\'est pas valide ou le compte est inactif.';
 $string['reason16'] = 'La transaction n\'a pas été trouvée.';
 $string['reason17'] = 'Le marchand n\'accepte pas ce type de carte de crédit.';
+$string['reason245'] = 'Ce type de eCheck n\'est pas permis lors de l\'utilisation du formulaire de paiement hébergé par la passerelle de paiement.';
+$string['reason246'] = 'Ce type de eCheck n\'est pas permis.';
 $string['reason27'] = 'La transaction a abouti à un problème AVS. L\'adresse fournie ne correspond à l\'adresse de facturation du détenteur de la carte.';
 $string['reason28'] = 'Le marchand n\'accepte pas ce type de carte de crédit.';
 $string['reason30'] = 'Une telle configuration n\'est pas valable. Veuillez appeler votre fournisseur.';
