@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006082800)
+      // moodle.php - created with Moodle 1.7 dev (2006090300)
 
 
 $string['action'] = 'Eylem';
@@ -248,7 +248,6 @@ $string['courseimportnotaught'] = 'Hiç bir kursta düzenleyen eğitimci olarak 
 $string['courseinfo'] = 'Kurs bilgisi';
 $string['coursemessage'] = 'Kurs kullanıcılarına mesaj';
 $string['coursenotaccessible'] = 'Bu kurs herkesin erişimine açık değildir';
-$string['courseoverview'] = 'Kursu gözden geçirme';
 $string['coursereject'] = 'Kurs isteğini reddet';
 $string['courserejected'] = 'Kurs reddedildi ve isteyen kişi bilgilendirildi.';
 $string['courserejectemail'] = 'Üzgünüz, istediğiniz kurs onaylanmadı. Reddedilme sebebi:
@@ -799,6 +798,7 @@ $string['moduledeleteconfirm'] = '\'$a\' modülünü tamamen silmek üzeresiniz.
 $string['moduledeletefiles'] = '\'$a->module\' modülüyle ilgili bütün veriler veritabanından silindi. Silme işlemini tamamlamak ve bu modülün kendi kendini tekrar kurmasını engellemek için şimdi bu dizini sunucudan kaldırmanız gerekiyor: $a->directory';
 $string['modulesetup'] = 'Modül tabloları ayarlanıyor';
 $string['modulesuccess'] = '$a tabloları doğru bir şekilde kuruldu';
+$string['moodledocs'] = 'Moodle Belgeleri';
 $string['moodledocslink'] = 'Bu sayfa için Moodle Belgeleri';
 $string['moodleversion'] = 'Moodle Sürümü';
 $string['more'] = 'dahası';

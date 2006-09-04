@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006083102)
+      // enrol_authorize.php - created with Moodle 1.7 dev (2006090300)
 
 
 $string['adminacceptccs'] = 'Hangi kredi kartı tipleri kabul edilecek?';
-$string['adminacceptmethods'] = 'Hangi ödeme yöntemleri kabul edilecek?';
+$string['adminaccepts'] = 'İzin verilen ödeme yöntemlerini ve tiplerini seçin';
 $string['adminauthorizeccapture'] = 'Siparişi İnceleme ve Zamanlanmış-Çekme Ayarları';
 $string['adminauthorizeemail'] = 'E-Posta Gönderme Ayarları';
 $string['adminauthorizesettings'] = 'Authorize.net Ayarları';
@@ -112,6 +112,7 @@ $string['noreturns'] = 'Geri ödeme yok';
 $string['notsettled'] = 'Karara bağlanmamış';
 $string['orderid'] = 'Sipariş ID';
 $string['paymentmanagement'] = 'Ödeme Yönetimi';
+$string['paymentmethod'] = 'Ödeme Yöntemi';
 $string['paymentpending'] = '$a->orderid numaralı ödemeniz bu kurs için onay bekliyor. <a href=\'$a->url\'>Sipariş Ayrıntılarına</a> bakabilirsiniz.';
 $string['pendingordersemail'] = 'Değerli yönetici,
 
@@ -138,6 +139,8 @@ $string['reason11'] = 'Aynı işlem gönderildi.';
 $string['reason13'] = 'Mağaza Giriş ID hatalı veya hesap etkin değil.';
 $string['reason16'] = 'İşlem bulunamadı.';
 $string['reason17'] = 'Mağaza, bu kredi kartı tipini kabul etmiyor.';
+$string['reason245'] = 'Ödeme geçidi tarafından barındırılan form kullanılırken bu e-çek tipine izin verilmiyor.';
+$string['reason246'] = 'Bu e-çek tipine izin verilmiyor.';
 $string['reason27'] = 'İşlem AVS hatasına sebep oldu. Verilen adres kart sahibinin adresiyle eşleşmiyor.';
 $string['reason28'] = 'Mağaza, bu kredi kartı tipini kabul etmiyor.';
 $string['reason30'] = 'İşleyici yapılandırması hatalı. Müşteri Hizmetlerini arayın.';
@@ -151,6 +154,7 @@ $string['reason50'] = 'İşlem faturalandırma uzlaşması beklediği için geri
 $string['reason51'] = 'Bu işleme karşı tüm geri ödemelerin toplamı orijinal işlem miktarından daha büyüktür.';
 $string['reason54'] = 'Referans gösterilen işlem geri ödeme şartlarına uymuyor.';
 $string['reason55'] = 'Referans edilen işleme karşı tüm geri ödemelerin toplamı orijinal borç miktarını aşıyor.';
+$string['reason56'] = 'Bu mağaza sadece eÇek (ACH) işlemlerini kabul ediyor; kredi kartı işlemlerini değil.';
 $string['refund'] = 'Geri Öde';
 $string['refunded'] = 'Geri Ödenmiş';
 $string['returns'] = 'Geri Ödemeler';

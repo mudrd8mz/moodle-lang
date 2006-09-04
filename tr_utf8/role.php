@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006082800)
+      // role.php - created with Moodle 1.7 dev (2006090300)
 
 
 $string['allow'] = 'İzin ver';
@@ -30,6 +30,7 @@ $string['course:viewscales'] = 'Ölçeklere bak';
 $string['course:visibility'] = 'Kursları gizle/göster';
 $string['currentcontext'] = 'Geçerli bağlam';
 $string['currentrole'] = 'Geçerli rol';
+$string['defineroles'] = 'Rolleri tanımla';
 $string['existingusers'] = '$a mevcut kullanıcı';
 $string['inherit'] = 'Devral';
 $string['legacy:admin'] = 'DEVRALINAN ROL: Yönetici';
@@ -40,6 +41,7 @@ $string['legacy:student'] = 'DEVRALINAN ROL: Öğrenci';
 $string['legacy:teacher'] = 'DEVRALINAN ROL: Eğitimci (düzenlemeyen)';
 $string['nocapabilitiesincontext'] = 'Bu bağlamda yetki yok';
 $string['overrideroles'] = 'Rollerin üstüne yaz';
+$string['permissions'] = 'İzinler';
 $string['potentialusers'] = '$a olası kullanıcı';
 $string['prevent'] = 'Engelle';
 $string['prohibit'] = 'Yasakla';
