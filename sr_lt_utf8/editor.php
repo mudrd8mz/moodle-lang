@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6 + (2006050506)
+      // editor.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['LOs'] = 'Objekti za učenje';
@@ -31,7 +31,7 @@ $string['createanchor'] = 'Kreiraj oslonac';
 $string['createfolder'] = 'Napravi direktorijum';
 $string['createlink'] = 'Dodaj Web link';
 $string['cut'] = 'Iseci izabrano';
-$string['cutpastemozilla'] = 'Nažalost ne možete trenutno da koristite uobičajete skraćenice sa tastature (čak ni Paste dugme) za ubacivanje teksta u ovaj editor. To je posledica sigurnosne opcije ugrađene u neke verzije Mozilla i Firefox čitača.<br /><br />Postoje tri načina da ipak uradite ono što želite:<br /> (1) Umesto CTRL-v, koristite SHIFT-Insert <br /> (2) Koristite Edit->Paste meni Vašeg web čitača <br /> (3) Promenite podešavanja Vašeg web čitača uređivanjem user.js datoteke. <br /><br />Kliknite na dugme ”Potvrdi” ispod za detaljniju pomoć, ili na dugme ”Odustani” za povratak na editor';
+$string['cutpastemozilla'] = 'Nažalost ne možete trenutno da koristite uobičajete skraćenice sa tastature (čak ni Paste dugme) za ubacivanje teksta u ovaj editor. To je posledica sigurnosne opcije ugrađene u neke verzije Mozilla i Firefox čitača.<br /><br />Postoje tri načina da ipak uradite ono što želite:<br /> (1) Umesto CTRL-v, koristite SHIFT-Insert <br /> (2) Koristite Edit->Paste meni Vašeg web čitača <br /> (3) Promenite svojstva u Vašem web čitaču uređivanjem user.js datoteke. <br /><br />Kliknite na dugme ”Potvrdi” ispod za detaljniju pomoć, ili na dugme ”Odustani” za povratak na editor';
 $string['delete'] = 'Obriši';
 $string['filebrowser'] = 'Pretraživač datoteka';
 $string['findwhat'] = 'Pronađi';

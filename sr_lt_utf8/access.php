@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.6 + (2006050506)
+      // access.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['access'] = 'Pristupačnost';
-$string['accesshelp'] = 'Pomoć za opcije pristupačnosti';
+$string['accesshelp'] = 'Pomoć za pristup';
 $string['accesskey'] = 'Pristupna lozinka, $a';
 $string['accessstatement'] = 'Izjava o pristupačnosti';
-$string['breadcrumb'] = 'Pozicija stranice u hijerarhiji sajta';
+$string['breadcrumb'] = 'Navigaciona putanja';
 $string['monthnext'] = 'Sledeći mesec';
 $string['monthprev'] = 'Prethodni mesec';
 $string['showhideblock'] = 'Prikaži ili sakrij blok';
@@ -17,6 +17,6 @@ $string['tabledata'] = 'Tabela podataka, $a';
 $string['tablelayout'] = 'Tabela razmeštaja, $a';
 $string['tocontent'] = 'Idi na glavni sadržaj';
 $string['tonavigation'] = 'Idi na navigaciju';
-$string['youarehere'] = 'Vi ste ovde';
+$string['youarehere'] = 'Nalazite se ovde';
 
 ?>

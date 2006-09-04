@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6 + (2006050506)
+      // grades.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['addcategory'] = 'Додавање категорије';
@@ -29,7 +29,7 @@ $string['errorreprintheadersnonnumeric'] = 'Добијена је ненумер
 $string['exceptions'] = 'Изузеци';
 $string['excluded'] = 'Искључено';
 $string['extracredit'] = 'Додатни бодови';
-$string['extracreditwarning'] = 'Напомена: Постављање додатних бодова за све ставке у категорији ће их уклонити из прорачуна оцене, те неће бити укупног броја бодова';
+$string['extracreditwarning'] = 'Напомена: Подешавање додатних бодова за све ставке у категорији ће их уклонити из прорачуна оцене, те неће бити укупног броја бодова';
 $string['forstudents'] = 'За студенте';
 $string['gradebook'] = 'Књига оцена';
 $string['gradebookhiddenerror'] = 'Књига оцена је тренутно подешена тако да све скрива од студената';
@@ -46,7 +46,7 @@ $string['gradeitems'] = 'Могуће оцене';
 $string['gradeletter'] = 'Словне оцене (A, B, C...)';
 $string['gradeletterhelp'] = 'Помоћ за словне оцене';
 $string['gradeletternote'] = 'Да бисте избрисали словну оцену само обришите било које од <br /> три текстулна поља за дато слово и притисните тастер за чување подешавања.';
-$string['gradepreferenceshelp'] = 'Избор подешавања за оцене';
+$string['gradepreferenceshelp'] = 'Помоћ за својства оцене';
 $string['grades'] = 'Оцене';
 $string['gradeweighthelp'] = 'Помоћ за тежинску вредност оцена';
 $string['hideadvanced'] = 'Сакриј напредне опције';
@@ -85,16 +85,16 @@ $string['percentshort'] = '%%';
 $string['points'] = 'бодова';
 $string['pointsascending'] = 'Сортирај по бодовима растуће';
 $string['pointsdescending'] = 'Сортирај по бодовима опадајуће';
-$string['preferences'] = 'Префериране вредности';
+$string['preferences'] = 'Својства';
 $string['rawpct'] = 'Основни %%';
 $string['reprintheaders'] = 'Поновни испис заглавља';
 $string['savechanges'] = 'Сачувај измене';
-$string['savepreferences'] = 'Сачувај префериране вредности';
+$string['savepreferences'] = 'Сачувај својства';
 $string['scaledpct'] = 'Скалирани %%';
 $string['setcategories'] = 'Подеси категорије';
 $string['setcategorieserror'] = 'Прво морате да подесите категорије за Ваш курс пре него што им одредите тежинске вредности.';
 $string['setgradeletters'] = 'Подеси словне оцене';
-$string['setpreferences'] = 'Подеси префериране вредности';
+$string['setpreferences'] = 'Подеси својства';
 $string['setting'] = 'Подешавање';
 $string['settings'] = 'Подешавања';
 $string['setweights'] = 'Подеси тежинске вредности';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 + (2006050506)
+      // resource.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['addresource'] = 'Dodavanje resursa';
@@ -12,7 +12,7 @@ $string['configallowlocalfiles'] = 'Kada kreirate novi datotečni resurs, dozvol
 $string['configdefaulturl'] = 'Ova vrednost se koristi za prethodno popunjavanje URL forme kad se kreira novi resurs baziran na URL adresi.';
 $string['configfilterexternalpages'] = 'Ukoliko omogućite ovo podešavanje, ono će uticati na to da svi spoljašnji resursi (web stranice, učitane HTML datoteke) budu procesirani pomoću trenutno odabranih filtera sajta (kao što je npr. automatsko linkovanje pojmova iz rečnika). Uključivanje ove opcije može izazvati značajno usporavanje stranica Vašeg kursa - koristite ovu opciju sa oprezom i jedino ako Vam je zaista potrebna.';
 $string['configframesize'] = 'Kada se učitana web stranica ili datoteka prikaže unutar okvira, ovo će biti veličina (u pikselima) gornjeg okvira (koji sadrži navigaciju).';
-$string['configparametersettings'] = 'Ovo podešavanje zadaje standardne vrednosti za opciju \"Parametri\" koja se nalazi na obrascu za postavljanje novih resursa u kurs. Nakon prvog korišćenja, ono postaje i standardno podešavanje za individualne korisnike.';
+$string['configparametersettings'] = 'Ovo podešavanje zadaje standardne vrednosti za opciju \"Parametri\" koja se nalazi na obrascu za postavljanje novih resursa u kurs. Nakon prvog korišćenja, ono postaje i standardno svojstvo za individualne korisnike.';
 $string['configpopup'] = 'Kad se dodaje novi resurs koji je moguće prikazati u iskačućem prozoru, da li bi ova opcija trebala biti omogućena kao podrazumevana?';
 $string['configpopupdirectories'] = 'Da li bi trebalo da iskačući prozori po podrazumevanom podešavanju prikazuju linkove direktorijuma?';
 $string['configpopupheight'] = 'Koja visina treba biti podrazumevana za nove iskačuće prozore?';
@@ -25,7 +25,7 @@ $string['configpopuptoolbar'] = 'Da li bi trebalo da iskačući prozori po podra
 $string['configpopupwidth'] = 'Koja bi širina trebala biti podrazumevana za nove iskačuće prozore?';
 $string['configsecretphrase'] = 'Ova tajna fraza se koristi da bi se kreirala šifriranu vrednost koda koja da bi mogla biti poslata nekim resursima kao parametar. Šifrirana vrednost je napravljena od md5 vrednosti current_users IP adrese povezane sa Vašom tajnom frazom, tj. code = md5(IP.secretphrase). Ovo omogućava ciljnom resursu da verifikuje konekciju radi dodatne sigurnosti.';
 $string['configwebsearch'] = 'Kad dodajete URL poput web stranice ili linka na neki spoljašnji izvor informacija, ova lokacija je ponuđena kao sajt pretraživača za pomoć korisniku u potrazi za željenim URL-om.';
-$string['configwindowsettings'] = 'Ovo podešavanje podešava standardnu vrednost za opciju \"Prozor\" koja se nalazi na obrascu za postavljanje novih resursa u kurs. Nakon prvog korišćenja, ista postaje i standardna opcija za individualne korisnike.';
+$string['configwindowsettings'] = 'Ovo podešavanje postavlja standardnu vrednost za opciju \"Prozor\" koja se nalazi na obrascu za postavljanje novih resursa u kurs. Nakon prvog korišćenja, ista postaje i standardno svojstvo za individualne korisnike.';
 $string['deploy'] = 'Iskoristi';
 $string['deployall'] = 'Iskoristi sve';
 $string['directlink'] = 'Direktni link ka ovoj datoteci';

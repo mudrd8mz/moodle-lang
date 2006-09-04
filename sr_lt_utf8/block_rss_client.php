@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.6 + (2006050506)
+      // block_rss_client.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['addfeed'] = 'Dodavanje URL-a izvora vesti';
@@ -10,7 +10,7 @@ $string['clientchannellink'] = 'Izvorni sajt...';
 $string['clientnumentries'] = 'Podrazumevani broj stavki za prikaz po izvoru vesti.';
 $string['clientshowchannellinklabel'] = 'Da li bi trebalo prikazivati link ka originalnom sajtu (link kanala)? (Primetite da ako nema obezbeđenog izvora vesti neće biti prikazan ni ovaj link):';
 $string['clientshowimagelabel'] = 'Prikaz slike kanala (ako je moguć):';
-$string['configblock'] = 'Podešavanje ovog bloka';
+$string['configblock'] = 'Konfigurišite ovaj blok';
 $string['couldnotfindfeed'] = 'Nije moguće pronaći izvor vesti sa identifikatorom';
 $string['customtitlelabel'] = 'Naslov koji želite da bude prikazan (ostavite ovo polje prazno ako želite prikaz naslova dobijenih od izvora vesti):';
 $string['deletefeedconfirm'] = 'Da li ste sigurni da želite da obrišete ovaj izvor vesti?';
@@ -23,7 +23,7 @@ $string['feedadded'] = 'Dodat je izvor vesti';
 $string['feeddeleted'] = 'Obrisan je izvor vesti';
 $string['feeds'] = 'Izvori vesti';
 $string['feedsaddedit'] = 'Dodavanje/Uređivanje izvora vesti';
-$string['feedsconfigurenewinstance'] = 'Kliknite ovde za podešavanje ovog bloka za prikaz RSS izvora vesti.';
+$string['feedsconfigurenewinstance'] = 'Kliknite ovde da biste konfigurisali ovaj blok za prikaz RSS izvora vesti.';
 $string['feedstitle'] = 'Udaljeni RSS izvori vesti';
 $string['feedupdated'] = 'Ažuriran je izvor vesti';
 $string['findmorefeeds'] = 'Pronađite još RSS izvora vesti';

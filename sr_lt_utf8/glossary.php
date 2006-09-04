@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 + (2006050506)
+      // glossary.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['addcomment'] = 'Dodavanje komentara';
@@ -105,7 +105,7 @@ $string['fillfields'] = 'Koncept i definicija su obavezna polja.';
 $string['filtername'] = 'Automatsko linkovanje rečnika';
 $string['fullmatch'] = 'Sadrži samo cele reči';
 $string['globalglossary'] = 'Opšti rečnik';
-$string['glossaryleveldefaultsettings'] = 'Podrazumevana podešavanje na nivou rečnika';
+$string['glossaryleveldefaultsettings'] = 'Podrazumevana podešavanja na nivou rečnika';
 $string['glossarytype'] = 'Vrsta rečnika';
 $string['importcategories'] = 'Uvoz kategorija';
 $string['importedcategories'] = 'Uvežene kategorije';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 + (2006050506)
+      // blog.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['addnewentry'] = 'Dodavanje novog unosa';
@@ -10,7 +10,7 @@ $string['blocktagstitle'] = 'Oznake bloga';
 $string['blocktitle'] = 'Naslov bloka sa oznakama bloga';
 $string['blog'] = 'Blog';
 $string['blogdeleteconfirm'] = 'Obrisati ovaj blog?';
-$string['blogpreferences'] = 'Podešavanja bloga';
+$string['blogpreferences'] = 'Svojstva bloga';
 $string['blogs'] = 'Blogovi';
 $string['blogtags'] = 'Oznake bloga';
 $string['courseblog'] = 'Blog kursa: $a';
@@ -39,7 +39,7 @@ $string['publishto'] = 'Objaviti za';
 $string['publishtonoone'] = 'Sebe samog (koncept)';
 $string['publishtosite'] = 'Sve na ovom sajtu';
 $string['publishtoworld'] = 'Sve na svetu';
-$string['settingsupdatederror'] = 'Došlo je do greške, podešavanja bloga nisu mogla biti ažurirana';
+$string['settingsupdatederror'] = 'Došlo je do greške, podešavanje svojstava bloga nije moglo biti ažurirano';
 $string['siteblog'] = 'Blog sajta: $a';
 $string['siteblogs'] = 'Svi korisnici sajta mogu da vide sve blog unose';
 $string['tagdatelastused'] = 'Datum kad je oznaka poslednji put korišćena';

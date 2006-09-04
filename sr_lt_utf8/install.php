@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 + (2006050506)
+      // install.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['admindirerror'] = 'Specificirani administratorski direktorijum je netačan';
@@ -15,12 +15,12 @@ $string['chooselanguagehead'] = 'Izaberite jezik';
 $string['chooselanguagesub'] = 'Molimo izaberite jezik koji će se koristiti samo tokom instalacije. Kasnije ćete moći da izaberete jezička podešavanja na nivou sajta i korisnika.';
 $string['compatibilitysettings'] = 'Provera Vaših PHP podešavanja...';
 $string['compatibilitysettingshead'] = 'Provera Vaših PHP podešavanja...';
-$string['compatibilitysettingssub'] = 'Vaš server bi trebo proći sve ove testove da bi Moodle na njemu uspešno funkcionisao';
+$string['compatibilitysettingssub'] = 'Vaš server bi trebao proći sve ove testove da bi Moodle na njemu uspešno funkcionisao';
 $string['configfilenotwritten'] = 'Instalacioni skript nije bio u mogućnosti da automatski kreira datoteku config.php koja bi sadržavala Vaša odabrana podešavanja, verovatno zbog toga što nema prava na pisanje (menjanje sadržaja) u Vašem Moodle direktorijumu. Ako to želite, možete ručno kopirati kod u datoteku config.php u osnovnom direktorijumu Vaše Moodle instalacije.';
 $string['configfilewritten'] = 'config.php je uspešno kreiran';
 $string['configurationcomplete'] = 'Konfiguracija je završena';
 $string['configurationcompletehead'] = 'Konfiguracija je završena';
-$string['configurationcompletesub'] = 'Moodle je pokušao da sačuva Vaša podešavanja u datoteci smeštenoj u korenskom direktorijumu Moodle instalacije.';
+$string['configurationcompletesub'] = 'Moodle je pokušao da sačuva Vašu konfiguraciju u datoteci smeštenoj u korenskom direktorijumu Moodle instalacije.';
 $string['database'] = 'Baza podataka';
 $string['databasecreationsettings'] = 'Sada je potrebno konfigurisati podešavanja baze podataka u kojoj će se čuvati najveći deo Moodle podataka. Ta baza podataka će biti kreirana automatski prilikom instalacije, sa podešavanjima specificiranim ispod. <br />
 <br /> <br />
@@ -54,7 +54,7 @@ $string['databasesettingssub'] = '<b>Tip:</b> mysql ili postgres7<br />
 <b>Prefiks tabela:</b> opcioni prefiks koji će se koristiti u nazivima svih tabela';
 $string['dataroot'] = 'Direktorijum podataka';
 $string['datarooterror'] = '\'Direktorijum podataka\' koji ste naveli ne može biti pronađen ili kreiran. Unesite tačnu putanju ili napravite taj direktorijum ručno.';
-$string['dbconnectionerror'] = 'Nemoguće je uspostaviti vezu sa bazom podataka koju ste naveli. Molimo proverite podatke koje ste uneli.';
+$string['dbconnectionerror'] = 'Nemoguće je uspostaviti vezu sa bazom podataka koju ste naveli. Molimo proverite podešavanja baze podataka.';
 $string['dbcreationerror'] = 'Greška pri kreiranju baze podataka. Nije bilo moguće kreirati bazu navedenog imena uz zadata podešavanja';
 $string['dbhost'] = 'Server';
 $string['dbpass'] = 'Lozinka';

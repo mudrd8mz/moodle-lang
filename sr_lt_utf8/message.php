@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.6 + (2006050506)
+      // message.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['addcontact'] = 'Dodavanje kontakta';
@@ -9,7 +9,7 @@ $string['ago'] = '$a pre';
 $string['allmine'] = 'Sve poruke koje sam poslao/la ili primio/la';
 $string['allstudents'] = 'Sve poruke između studenata na kursu';
 $string['allusers'] = 'Sve poruke od svih korisnika';
-$string['backupmessageshelp'] = 'Ukoliko omogućite ovu opciju, instant poruke će biti uključene u automatski generisane rezervne kopije podataka sajta';
+$string['backupmessageshelp'] = 'Ukoliko omogućite ovu opciju, instant poruke će biti uključene u automatski generisane rezervne kopije sajta';
 $string['beepnewmessage'] = 'Kada stigne nova poruka obavesti me zvučnim signalom (ova opcija može zahtevati dodatak za web čitač, npr. Quicktime)';
 $string['blockcontact'] = 'Blokiraj kontakt';
 $string['blockedmessages'] = '$a poruka za/od blokiranih korisnika';

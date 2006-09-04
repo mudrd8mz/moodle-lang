@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_loancalc.php - created with Moodle 1.6 + (2006050506)
+      // block_loancalc.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['amountofloan'] = 'Износ кредита';
@@ -8,8 +8,8 @@ $string['interestrate'] = 'Каматна стопа';
 $string['loancalc'] = 'Кредитни калкулатор';
 $string['loanterm'] = 'Период отплате кредита (у годинама)';
 $string['monthly'] = 'Месечно';
-$string['repaymentamount'] = 'Износ за отплату';
-$string['repaymentfreq'] = 'Учесталост отплате';
+$string['repaymentamount'] = 'Износ рате';
+$string['repaymentfreq'] = 'Начин отплате';
 $string['weekly'] = 'Недељно';
 
 ?>

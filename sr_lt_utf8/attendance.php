@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // attendance.php - created with Moodle 1.6 + (2006050506)
+      // attendance.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['absentlong'] = 'Odsutan';
@@ -8,12 +8,12 @@ $string['addingmultiple'] = 'Dodavanje više pohađanja nastave';
 $string['addmultiple'] = 'Dodaj više pohađanja nastave';
 $string['allmodulename'] = 'Sva pohađanja';
 $string['auto'] = 'samo';
-$string['autoattend'] = 'Automatski preuzmite pohađanja nastave zasnovano na zapisima o aktivnostima posetioca';
-$string['autoattendmulti'] = 'Automatski preuzmite pohađanja cele nastave zasnovano na zapisima o aktivnostima posetioca';
-$string['autoattendshort'] = 'Automatski iz zapisa o aktivnostima posetioca';
+$string['autoattend'] = 'Automatski preuzmite pohađanje nastave zasnovano na izveštajima o aktivnostima korisnika';
+$string['autoattendmulti'] = 'Automatski preuzmite pohađanje cele nastave zasnovano na izveštajima o aktivnostima korisnika';
+$string['autoattendshort'] = 'Automatski iz izveštaja o aktivnostima';
 $string['choosedays'] = 'Dana od svake sedmice za pohađanje nastave';
 $string['dayofroll'] = 'Datum preuzimanja pohađanja nastave za';
-$string['defaultautoattend'] = 'Pohađanje nastave zasnovano na zapisima o aktivnostima korisnika (kao podrazumevana opcija)';
+$string['defaultautoattend'] = 'Pohađanje nastave zasnovano na izveštajima o aktivnostima korisnika (kao podrazumevana opcija)';
 $string['defaultdynamicsection'] = 'Prebacivanje pohađanja nastave u ispravnu sedmicu (kao podrazumevana opcija)';
 $string['defaultgrade'] = 'Pohađanja nastave se mogu ocenjivati (kao podrazumevana opcija)';
 $string['defaulthoursinclass'] = 'Koliko sati treba biti u pohađanju nastave (kao podrazumevana opcija)';

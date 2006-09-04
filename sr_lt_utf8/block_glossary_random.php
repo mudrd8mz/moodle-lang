@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_glossary_random.php - created with Moodle 1.6 + (2006050506)
+      // block_glossary_random.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['addentry'] = 'Dodajte svoje omiljene citate!';
@@ -12,7 +12,7 @@ $string['invisible'] = '(nastaviće se)';
 $string['lastmodified'] = 'Pojam koji je poslednji modifikovan';
 $string['nextone'] = 'Sledeći pojam';
 $string['noentriesyet'] = 'Još uvek nema pojmova u odabranom rečniku';
-$string['notyetconfigured'] = 'Molimo podesite ovaj blok koristeći ikonu za uređivanje';
+$string['notyetconfigured'] = 'Molimo konfigurišite ovaj blok koristeći ikonu za uređivanje';
 $string['notyetglossary'] = 'Morate imati na raspolaganju bar jedan rečnik da biste mogli da birate.';
 $string['random'] = 'Slučajno odabrani pojam';
 $string['refresh'] = 'Dana pre nego što je novi pojam odabran';

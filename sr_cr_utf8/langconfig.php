@@ -1,11 +1,11 @@
-<?php
+﻿<?php
 $string['alphabet'] = 'А,Б,В,Г,Д,Ђ,Е,Ж,З,И,J,K,Л,Љ,М,Н,O,П,Р,С,Т,Ћ,У,Ф,Х,Ц,Ч,Џ,Ш';
 $string['backupnameformat'] = '%%d.%%m.%%Y.-%%H.%%M ';
 $string['firstdayofweek'] = '1';
-$string['locale'] = 'sr_CS.UTF-8';
+$string['locale'] = 'sr.UTF-8';
 $string['localewin'] = 'Serbian (Cyrillic)_Serbia.1251';
 $string['localewincharset'] = 'WINDOWS-1251';
-$string['oldcharset'] = 'UTF-8';
+$string['oldcharset'] = 'ISO-8859-5';
 $string['strftimedate'] = '%%d. %%B %%Y.';
 $string['strftimedateshort'] = '%%d. %%B';
 $string['strftimedatetime'] = '%%d. %%B %%Y., %%I:%%M';

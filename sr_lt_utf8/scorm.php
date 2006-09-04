@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6 + (2006050506)
+      // scorm.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['advanced'] = 'Parametri';
@@ -24,15 +24,15 @@ $string['display'] = 'Prikaz paketa';
 $string['domxml'] = 'DOMXML eksterna biblioteka';
 $string['element'] = 'Element';
 $string['entercourse'] = 'Ulaz u SCORM kurs';
-$string['errorlogs'] = 'Evidentirane greške';
+$string['errorlogs'] = 'Izveštaj o greškama';
 $string['exit'] = 'Izlaz iz SCORM kursa';
 $string['expcoll'] = 'Proširivanje/Skupljanje';
 $string['failed'] = 'Nije uspelo';
 $string['firstaccess'] = 'Prvi pristup';
 $string['firstattempt'] = 'Prvi pokušaj';
 $string['found'] = 'Manifest je nađen';
-$string['frameheight'] = 'Podešena podrazumevana visina okvira ili prozora nivoa';
-$string['framewidth'] = 'Podešena podrazumevana širina okvira ili prozora nivoa';
+$string['frameheight'] = 'Ovo svojstvo određuje podrazumevanu visinu okvira ili prozora nivoa';
+$string['framewidth'] = 'Ovo svojstvo određuje podrazumevanu širinu okvira ili prozora nivoa';
 $string['fullscreen'] = 'Popuni ceo ekran';
 $string['general'] = 'Opšti podaci';
 $string['gradeaverage'] = 'Prosečna ocena';
@@ -116,7 +116,7 @@ $string['trackingloose'] = 'UPOZORENJE: Podaci o praćenju ovog SCORM paketa bi�
 $string['type'] = 'Tip';
 $string['validateascorm'] = 'Proverite ispravnost SCORM paketa';
 $string['validation'] = 'Rezultat provere ispravnosti';
-$string['validationtype'] = 'Ova opcija podešava DOMXML biblioteku koja se koristi za validaciju SCORM manifesta. Ako niste sigurni koju vrednost treba da postavite, ostavite trenutno aktivni izbor.';
+$string['validationtype'] = 'Ovo svojstvo određuje DOMXML biblioteku koja se koristi za validaciju SCORM manifesta. Ako niste sigurni koju vrednost treba da postavite, ostavite trenutno aktivni izbor.';
 $string['value'] = 'Vrednost';
 $string['versionwarning'] = 'Verzija manifesta je starija od 1.3, upozorenje na oznaci $a->tag';
 $string['viewallreports'] = 'Prikaz izveštaja za $a pokušaja';

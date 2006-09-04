@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6 + (2006050506)
+      // wiki.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['action'] = '-- Akcija --';
@@ -130,6 +130,8 @@ $string['plaintext'] = 'Običan tekst';
 $string['preview'] = 'Pregled';
 $string['readonly'] = 'Stranica koja se može samo čitati';
 $string['refs'] = 'Reference';
+$string['reloadlinkdescription'] = 'Ponovo učitava stranicu, da bi se prikazao i eventualni novi sadržaj.';
+$string['reloadlinktext'] = 'Ponovno učitavanje ove stranice';
 $string['removenotice'] = 'Primetite da će jedino nekorišćene stranice biti ispisane ovde. I zato što sam wiki obavlja samo osnovnu proveru referenciranja stranica, može da propusti neke od njih.<br />Međutim ako prvo ispraznite stranicu, i ona će se prikazivati na ovom spisku. Sprovode se i razna druga dijagnostifikovanja baze podataka.';
 $string['removepagecheck'] = 'Jeste li sigurni da želite da obrišete ove stranice?';
 $string['removepages'] = 'Ukloni stranice';

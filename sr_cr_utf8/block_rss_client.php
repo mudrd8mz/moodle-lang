@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.6 + (2006050506)
+      // block_rss_client.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['addfeed'] = 'Додавање URL-a извора вести';
@@ -10,7 +10,7 @@ $string['clientchannellink'] = 'Изворни сајт...';
 $string['clientnumentries'] = 'Подразумевани број ставки за приказ по извору вести.';
 $string['clientshowchannellinklabel'] = 'Да ли би требало приказивати линк ка оригиналном сајту (линк канала)? (Приметите да ако нема обезбеђеног извора вести неће бити приказан ни овај линк):';
 $string['clientshowimagelabel'] = 'Приказ слике канала (ако је могућ):';
-$string['configblock'] = 'Подешавање овог блока';
+$string['configblock'] = 'Конфигуришите овај блок';
 $string['couldnotfindfeed'] = 'Није могуће пронаћи извор вести са идентификатором';
 $string['customtitlelabel'] = 'Наслов који желите да буде приказан (оставите ово поље празно ако желите приказ наслова добијених од извора вести):';
 $string['deletefeedconfirm'] = 'Да ли сте сигурни да желите да обришете овај извор вести?';
@@ -23,7 +23,7 @@ $string['feedadded'] = 'Додат је извор вести';
 $string['feeddeleted'] = 'Обрисан је извор вести';
 $string['feeds'] = 'Извори вести';
 $string['feedsaddedit'] = 'Додавање/Уређивање извора вести';
-$string['feedsconfigurenewinstance'] = 'Кликните овде за подешавање овог блока за приказ RSS извора вести.';
+$string['feedsconfigurenewinstance'] = 'Кликните овде да бисте конфигурисали овај блок за приказ RSS извора вести.';
 $string['feedstitle'] = 'Удаљени RSS извори вести';
 $string['feedupdated'] = 'Ажуриран је извор вести';
 $string['findmorefeeds'] = 'Пронађите још RSS извора вести';

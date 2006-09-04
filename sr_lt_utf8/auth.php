@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 + (2006050506)
+      // auth.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['alternatelogin'] = 'Ako ovde unesete URL, biće korišćen kao stranica za prijavu na ovaj sajt. Stranica bi trebala sadržati formu sa akcijskom opcijom podešenom na <strong>\'$a\'</strong> i vraćanjem polja <strong>username</strong> i <strong>password</strong>.<br />Budite oprezni da ne biste slučajno uneli pogrešan URL i time sami sebi onemogućili pristup sajtu.<br />Ostavite ovo podešavanje prazno da biste koristili podrazumevanu stranicu za pristup sistemu.';
-$string['alternateloginurl'] = 'Alternativni URL za prijavu sistemu';
+$string['alternateloginurl'] = 'Alternativni URL za prijavu na sistem';
 $string['auth_cas_baseuri'] = 'URI servera (ništa ako nije podešen baseUri)<br />Na primer, ako CAS server odgovara domenu host.domaine.fr/CAS/ onda je <br />cas_baseuri = CAS/';
 $string['auth_cas_create_user'] = 'Uključite ovo podešavanje ako želite da ubacite CAS-autentikovane korisnike u Moodle bazu podataka. Ako to ne želite, samo korisnici koji već postoje u Moodle bazi podataka će moći da pristupe sistemu.';
 $string['auth_cas_enabled'] = 'Uključite ovo podešavanje ako želite da koristite CAS autentikaciju.';
@@ -12,7 +12,7 @@ $string['auth_cas_invalidcaslogin'] = 'Nažalost, Vaša prijava nije uspela - ni
 $string['auth_cas_language'] = 'Odabrani jezik';
 $string['auth_cas_logincas'] = 'Pristup preko sigurne veze';
 $string['auth_cas_port'] = 'Port CAS servera';
-$string['auth_cas_server_settings'] = 'Podešavanje CAS servera';
+$string['auth_cas_server_settings'] = 'Konfiguracija CAS servera';
 $string['auth_cas_text'] = 'Sigurna veza';
 $string['auth_cas_version'] = 'CAS verzija';
 $string['auth_casdescription'] = 'Ovaj način koristi CAS server (Central Authentication Service) za autentikaciju korisnika u Single Sign On okruženje (SSO). Možete koristiti i jednostavnu LDAP autentikaciju. Ako su dato korisničko ime i lozinka validni prema CAS-u, Moodle kreira novi korisnički unos u svojoj bazi podataka, po potrebi preuzimajući atribute korisnika iz LDAP-a. Pri sledećim pristupima vrši se samo provera korisničkog imena i lozinke.';
@@ -70,13 +70,13 @@ $string['auth_ldap_memberattribute'] = 'Opciono: Određuje korisnikov članski a
 $string['auth_ldap_objectclass'] = 'Opciono: Određuje objectClass koristeći ime/tražeći korisnika na ldap_user_type. Obično nema potrebe da ovo menjate.';
 $string['auth_ldap_opt_deref'] = 'Ustanovite kako drugačije upravljati u toku traženja. Izaberite jednu od pratećih vrednosti: 
 \"Ne\" (LDAP_DEREF_NEVER) ili \"Da\" (LDAP_DEREF_ALWAYS)';
-$string['auth_ldap_passwdexpire_settings'] = 'Podešavanje LDAP isteka lozinke';
+$string['auth_ldap_passwdexpire_settings'] = 'Podešavanja LDAP isteka lozinke';
 $string['auth_ldap_preventpassindb'] = 'Izaberite \"da\" da biste sprečili čuvanje lozinki u Moodle bazi podataka.';
 $string['auth_ldap_search_sub'] = 'Stavite vrednost <> 0 ako želite da tražite korisnike u potkontekstima';
-$string['auth_ldap_server_settings'] = 'Podešavanje LDAP servera';
+$string['auth_ldap_server_settings'] = 'Podešavanja LDAP servera';
 $string['auth_ldap_update_userinfo'] = 'Ažurirajte informacije korisnika (ime, prezime, adrese...) iz LDAP-a u Moodle. Specificirajte podešavanja za mapiranje podataka prema sopstvenim potrebama.';
 $string['auth_ldap_user_attribute'] = 'Atribut koji se koristi za ime/pretragu korisnika. Uglavnom je \'cn\'.';
-$string['auth_ldap_user_settings'] = 'Izgled korisničkog podešavanja';
+$string['auth_ldap_user_settings'] = 'Podešavanja pretrage korisnika';
 $string['auth_ldap_user_type'] = 'Izaberite kako se korisnik čuva u LDAP. Ovo podešavanje takođe određuje kako će funkcionisati istek upisa, poček unosa i kreiranje korisnika.';
 $string['auth_ldap_version'] = 'Verzija LDAP protokola koju Vaš server koristi.';
 $string['auth_ldapdescription'] = 'Ovaj metod služi za proveru od strane spoljašnjeg LDAP servera.
@@ -127,7 +127,7 @@ $string['auth_updateremote'] = 'Ažuriranje eksternih podataka';
 $string['auth_updateremote_expl'] = '<p><b>Ažuriranje eksternih podataka:</b> Ako je omogućeno, eksterni auth će biti ažuriran pri ažuriranju zapisa o korisnicima. Polja bi trebala biti otključana da bi se dozvolile promene.</p>';
 $string['auth_updateremote_ldap'] = '<p><b>Napomene:</b> Ažuriranje eksternih LDAP podataka zahteva da podesite povezivanje binddn i bindpw za bind-korisnika sa privilegijama korigovanja svih korisničkih zapisa. Ovo trenutno ne čuva viševrednosne atribute i ukloniće dodatne vrednosti nadogradnje.</p>';
 $string['auth_user_create'] = 'Omogućiti kreiranje korisnika';
-$string['auth_user_creation'] = 'Novi (anonimni) korisnici mogu napraviti korisničke naloge na spoljašnjem autentikacionom izvoru i izvršiti potvrdu putem e-pošte. Ako omogućite ovu opciju, pazite da takođe uredite specifične opcije modula koje služe za kreiranje korisnika.';
+$string['auth_user_creation'] = 'Novi (anonimni) korisnici mogu napraviti korisničke naloge na spoljašnjem autentikacionom izvoru i izvršiti potvrdu putem e-pošte. Ako omogućite ovu opciju, konfigurišite i specifične opcije modula koje služe za kreiranje korisnika.';
 $string['auth_usernameexists'] = 'Odabrano korisničko ime već postoji. Molimo izaberite drugo korisničko ime.';
 $string['authenticationoptions'] = 'Opcije za proveru';
 $string['authinstructions'] = 'Ovde možete dati instrukcije Vašim korisnicima, tako da znaju koje korisničko ime i lozinku treba da koriste. Tekst koji ovde napišete biće prikazan na stranici za pristup sistemu. Ako polje ostavite prazno, onda instrukcije neće biti prikazane.';

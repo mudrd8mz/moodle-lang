@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 1.6 + (2006050506)
+      // quiz_overview.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['allattempts'] = 'Prikaz svih pokušaja';
-$string['allstudents'] = 'Prikaz svih $a';
-$string['attemptsonly'] = 'Prikaz $a samo sa pokušajima';
-$string['noattemptsonly'] = 'Prikaz $a samo bez pokušaja';
+$string['allstudents'] = 'Svi $a';
+$string['attemptsonly'] = 'Samo $a sa pokušajima';
+$string['noattemptsonly'] = 'Samo $a bez pokušaja';
 $string['overview'] = 'Pregled';
 $string['overviewdownload'] = 'Preuzimanje pregleda';
 

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6 + (2006050506)
+      // enrol_authorize.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['adminacceptccs'] = 'Koji tipovi kreditnih kartica se prihvataju?';
@@ -74,6 +74,7 @@ $string['ccvv'] = 'Provera kreditne kartice';
 $string['ccvvhelp'] = 'Pogledajte poleđinu kartice (poslednje 3 cifre)';
 $string['choosemethod'] = 'Ukoliko znate pristupnu lozinku kursa unesite je; u suprotnom morate da platite da biste upisali ovaj kurs.';
 $string['chooseone'] = 'Popunite jedno ili oba polja';
+$string['costdefaultdesc'] = '<strong>U podešavanjima kursa, unesite -1</strong>u polje za cenu da biste koristili podrazumevani iznos.';
 $string['cutofftime'] = 'Vreme prekida transakcije. Kada je poslednja transakcija preuzeta za dogovor?';
 $string['delete'] = 'Uništiti';
 $string['description'] = 'Authorize.net modul Vam dozvoljava da postavite kurseve koji se plaćaju preko CC davalaca usluga. Ako je cena bilo kog kursa 0, od studenata se ne traži da plate za pristup kursu. Postoje dva načina da se postavi cena kursa (1) cena na nivou sajta, podrazumevana za svaki kurs (2) ili podešavanje svakog pojedinačnog kursa. Cena kursa ima prednost nad podrazumevanom cenom na nivou sajta.<br /><br /><b>Napomena:</b> Ako postavite lozinku za upis na kurs, studenti će recimo moći da se upišu koristeći samo tu lozinku. To je korisno ako imate dve grupe studenata na istom kursu - one koji plaćaju njegovo pohađanje i one za koje je on besplatan.';

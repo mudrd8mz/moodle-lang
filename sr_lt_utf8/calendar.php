@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.6 + (2006050506)
+      // calendar.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['calendar'] = 'Kalendar';
@@ -7,7 +7,7 @@ $string['calendarheading'] = '$a Kalendar';
 $string['clickhide'] = 'Sakrivanje';
 $string['clickshow'] = 'Prikaz';
 $string['confirmeventdelete'] = 'Jeste li u potpunosti sigurni da želite da obrišete ovaj događaj?';
-$string['courseevents'] = 'Dešavanja na kursu';
+$string['courseevents'] = 'Događaji na kursu';
 $string['dayview'] = 'Pregled po danima';
 $string['daywithnoevents'] = 'Danas nema nikakvih aktivnosti.';
 $string['default'] = 'Podrazumevano';
@@ -37,9 +37,9 @@ $string['eventstarttime'] = 'Početno vreme';
 $string['eventtime'] = 'Vreme';
 $string['eventview'] = 'Detalji događaja';
 $string['expired'] = 'Krajnji rok';
-$string['explain_lookahead'] = 'Podešavanje (maksimalnog) broja dana u budućnosti kad aktivnost treba da počne, sa ciljem da ta aktivnost bude prikazana kao predstojeći događaj. Događaji koji počinju mimo ovog datuma neće biti prikazani kao predstojeći. Obratite pažnju na to da <strong>nema garancije</strong> da će svi događaji koji počinju u ovim okvirima biti prikazani. Ako je previše događaja (više od određenog maksimalnog broja predstojećih događaja), onda najdalji događaji neće biti prikazani.';
+$string['explain_lookahead'] = 'Podešavanje (maksimalnog) broja dana u budućnosti kad aktivnost treba da počne, sa ciljem da ta aktivnost bude prikazana kao predstojeći događaj. Događaji koji počinju mimo ovog datuma neće biti prikazani kao predstojeći. Obratite pažnju na to da <strong>nema garancije</strong> da će svi događaji koji počinju u ovim okvirima biti prikazani. Ako je previše događaja (više od svojstva \"Maksimalni broj predstojećih događaja\"), onda najdalji događaji neće biti prikazani.';
 $string['explain_maxevents'] = 'Maksimalan broj predstojećih događaja koji može biti prikazan. Ako izaberete velik broj, moguće je da prikaz predstojećih događaja zauzeti mnogo prostora na Vašem ekranu.';
-$string['explain_persistflt'] = 'Ukoliko je ova opcija omogućena, Moodle će zapamtiti Vaše poslednja podešavanje filtera i automatski će ih obnovite svaki put kada pristupite sistemu.';
+$string['explain_persistflt'] = 'Ukoliko je ova opcija omogućena, Moodle će zapamtiti Vaša poslednja podešavanja filtera i automatski će ih restaurirati svaki put kada pristupite sistemu.';
 $string['explain_startwday'] = 'Sedmice u kalendaru će započinjati danom koji Vi ovde zadate.';
 $string['explain_timeformat'] = 'Možete odabrati prikaz vremena bilo u 12 ili 24-satnom formatu. Ako odaberete opciju \"podrazumevano\", onda će format biti automatski odabran u skladu sa jezičkim paketom koji Vi koristite na ovom sajtu.';
 $string['fri'] = 'Pet';
@@ -47,7 +47,7 @@ $string['friday'] = 'Petak';
 $string['globalevents'] = 'Globalni događaji';
 $string['gotocalendar'] = 'Idi na kalendar';
 $string['groupevents'] = 'Grupni događaji';
-$string['hidden'] = 'sakrij';
+$string['hidden'] = 'sakriveni';
 $string['manyevents'] = '$a događaja';
 $string['mon'] = 'Pon';
 $string['monday'] = 'Ponedeljak';
@@ -60,8 +60,8 @@ $string['pref_maxevents'] = 'Maksimalni broj predstojećih događaja';
 $string['pref_persistflt'] = 'Zapamti podešavanja filtera';
 $string['pref_startwday'] = 'Prvi dan u sedmici';
 $string['pref_timeformat'] = 'Format prikaza vremena';
-$string['preferences'] = 'Podešavanja';
-$string['preferences_available'] = 'Vaša lična podešavanja kalendara';
+$string['preferences'] = 'Svojstva';
+$string['preferences_available'] = 'Vaša lična svojstva';
 $string['repeateditall'] = 'Primeni promene na svih $a događaja u ovom ponavljajućem nizu';
 $string['repeateditthis'] = 'Primeni promene samo na ovaj događaj';
 $string['repeatnone'] = 'Bez ponavljanja';
@@ -69,7 +69,7 @@ $string['repeatweeksl'] = 'Sedmično ponavljanje, potpuno kreiranje';
 $string['repeatweeksr'] = 'događaja';
 $string['sat'] = 'Sub';
 $string['saturday'] = 'Subota';
-$string['shown'] = 'prikazan';
+$string['shown'] = 'prikazani';
 $string['spanningevents'] = 'Događaji u toku';
 $string['sun'] = 'Ned';
 $string['sunday'] = 'Nedelja';

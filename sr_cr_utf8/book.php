@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // book.php - created with Moodle 1.6 + (2006050506)
 
 $string['addafter'] = 'Додај ново поглавље';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.6 + (2006050506)
+      // enrol_ldap.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['description'] = '<p>Možete koristiti LDAP server za kontrolu Vašeg upisa. Podrazumeva se da Vaše LDAP stablo sadrži grupe planirane za kurseve, i da će svaka od tih grupa/kurseva imati unose članova koji odgovaraju planiranim studentima.</p>
@@ -14,7 +14,7 @@ $string['enrol_ldap_bind_pw'] = 'Lozinka za obaveznog korisnika.';
 $string['enrol_ldap_category'] = 'Kategorija za automatski kreirane kurseve.';
 $string['enrol_ldap_course_fullname'] = 'Opciono: LDAP polje iz kog se dobija puni naziv.';
 $string['enrol_ldap_course_idnumber'] = 'Planirati jedinstveni indentifikator LDAP, obično <em>cn</em> or <em>uid</em>. Preporučljivo je zaključavanje vrednosti ako koristite automatsko kreiranje kursa.';
-$string['enrol_ldap_course_settings'] = 'Podesite upis kursa';
+$string['enrol_ldap_course_settings'] = 'Podešavanja upisa kursa';
 $string['enrol_ldap_course_shortname'] = 'Opciono: LDAP polje iz kog se dobija kratak naziv.';
 $string['enrol_ldap_course_summary'] = 'Opciono: LDAP polje iz kog se dobija rezime.';
 $string['enrol_ldap_editlock'] = 'Zaključajte vrednosti';
@@ -25,7 +25,7 @@ $string['enrol_ldap_search_sub'] = 'Pretraga članstava u grupama iz podkontekst
 $string['enrol_ldap_server_settings'] = 'Podešavanja LDAP servera';
 $string['enrol_ldap_student_contexts'] = 'Spisak konteksta u kojima su locirane grupe sa upisanim studentima. Odvojite različite kontekste sa \';\' znakom. Na primer \'ou=courses,o=org; ou=others,o=org\'';
 $string['enrol_ldap_student_memberattribute'] = 'Atribut člana, kada korisnik pripada grupi. Obično \'member\' ili \'memberUid\'.';
-$string['enrol_ldap_student_settings'] = 'Podešavanja upisa studenata';
+$string['enrol_ldap_student_settings'] = 'Podešavanja upisa studenta';
 $string['enrol_ldap_teacher_contexts'] = 'Spisak konteksta u kojima su locirani upisi predavača. Odvojite različite kontekste sa \';\' znakom. Na primer \'ou=courses,o=org; ou=others,o=org\'';
 $string['enrol_ldap_teacher_memberattribute'] = 'Atribut člana, kada korisnik pripada grupi. Obično \'member\' ili \'memberUid\'.';
 $string['enrol_ldap_teacher_settings'] = 'Podešavanja upisa predavača';

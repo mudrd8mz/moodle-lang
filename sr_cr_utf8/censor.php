@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // censor.php - created with Moodle 1.6 + (2006050506)
+      // censor.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['badwords'] = 'срање,јебено,јебач,јебање,педер,курац,кита,сероња,

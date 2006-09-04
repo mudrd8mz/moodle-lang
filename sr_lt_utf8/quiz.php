@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 + (2006050506)
+      // quiz.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['1day'] = '1 dan';
@@ -135,7 +135,7 @@ $string['description'] = 'Opis';
 $string['discrimination'] = 'Indeks zapažanja';
 $string['displayoptions'] = 'Opcije za prikaz';
 $string['download'] = 'Kliknite za preuzimanje izvezene datoteke sa kategorijama';
-$string['downloadextra'] = '(datoteka se čuva i među datotekama kursa u /quiz direktorijumu)';
+$string['downloadextra'] = '(datoteka se čuva i među datotekama kursa u /backupdata/quiz direktorijumu)';
 $string['duplicateresponse'] = 'Ovo predato rešenje je ignorisano jer ste već ranije dali ekvivalentan odgovor.';
 $string['eachattemptbuildsonthelast'] = 'Svaki pokušaj nadograđuje prethodni';
 $string['editcategories'] = 'Uređivanje kategorija';
@@ -255,7 +255,6 @@ $string['link'] = 'Link';
 $string['listitems'] = 'Lista stavki u testu';
 $string['literal'] = 'Znak';
 $string['loguniform'] = 'cifre, iz loguniform distribucije';
-$string['lowmarkslimit'] = 'Ne analiziraj ako je rezultat manji od:';
 $string['makecopy'] = 'Sačuvaj kao novo pitanje';
 $string['managetypes'] = 'Upravljanje tipovima pitanja i serverima';
 $string['manualgrading'] = 'Ocenjivanje';
@@ -495,7 +494,7 @@ $string['unknowntype'] = 'Tip pitanja koji nije podržan u liniji $a. Ovo pitanj
 $string['unsupportedformulafunction'] = 'Funkcija $a nije podržana';
 $string['unusedcategorydeleted'] = 'Nakon brisanja kursa, ova kategorija je obrisana, zbog toga što se pitanja iz ove kategorija ne koriste u testovima drugih kurseva.';
 $string['updatesettings'] = 'Ažuriranje podešavanja testa';
-$string['upgradesure'] = '<div style=\"color: red;\">Test modul će izvesti krupne promene tabela sa testovima u bazi podataka.Ova nadogradnja još uvek nije dovoljno testirana. Pre nego što nastavite strogo Vam preporučujemo da napravite rezervnu kopiju podataka.</div>';
+$string['upgradesure'] = '<div style=\"color: red;\">Test modul će izvesti krupne promene tabela sa testovima u bazi podataka. Ova nadogradnja još uvek nije dovoljno testirana. Pre nego što nastavite strogo Vam preporučujemo da napravite rezervnu kopiju.</div>';
 $string['url'] = 'URL';
 $string['usedcategorymoved'] = 'Nakon brisanja kursa, ova kategorija je sačuvana i premeštena na nivo sajta, zbog toga što se pitanja iz ove kategorije koriste u testovima drugih kurseva.';
 $string['validate'] = 'Proveri';
