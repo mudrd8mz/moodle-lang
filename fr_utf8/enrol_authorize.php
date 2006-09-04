@@ -165,6 +165,7 @@ $string['reason50'] = 'Cette transaction est en attente de règlement et ne peut
 $string['reason51'] = 'La somme de tous les crédits concernant cette transaction est plus grande que le montant original de la transaction.';
 $string['reason54'] = 'La transaction référencée ne satisfait pas les critères permettant de délivrer un crédit.';
 $string['reason55'] = 'La somme de tous les crédits concernant cette transaction dépasserait le montant dû initialement.';
+$string['reason56'] = 'Ce marchand n\'accepte que les transactations eCheck (ACH). Aucune transaction par carte de crédit n\'est acceptée.';
 $string['refund'] = 'Remboursement';
 $string['refunded'] = 'Remboursé';
 $string['returns'] = 'Retour';
