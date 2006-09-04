@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006082800)
+      // role.php - created with Moodle 1.7 dev (2006090300)
 
 
 $string['allow'] = '許可';
@@ -30,6 +30,7 @@ $string['course:viewscales'] = '尺度を表示する';
 $string['course:visibility'] = 'コースを表示/非表示する';
 $string['currentcontext'] = 'コンテクスト';
 $string['currentrole'] = '任務';
+$string['defineroles'] = '任務を定義する';
 $string['existingusers'] = '割り当て済みユーザ: $a';
 $string['inherit'] = '継承';
 $string['legacy:admin'] = 'レガシー任務: 管理者';
@@ -40,6 +41,7 @@ $string['legacy:student'] = 'レガシー任務: 学生';
 $string['legacy:teacher'] = 'レガシー任務: 教師 ( 編集権限なし )';
 $string['nocapabilitiesincontext'] = 'このコンテクストで利用できる機能はありません。';
 $string['overrideroles'] = '任務のオーバーライド';
+$string['permissions'] = 'パーミッション';
 $string['potentialusers'] = '潜在的なユーザ: $a';
 $string['prevent'] = '抑制';
 $string['prohibit'] = '禁止';

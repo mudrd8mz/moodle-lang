@@ -1,13 +1,14 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006090200)
+      // admin.php - created with Moodle 1.7 dev (2006090300)
 
 
+$string['accounts'] = 'アカウント';
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示';
 $string['adminseesownevents'] = '管理者は他のユーザと同じ';
 $string['allowrenames'] = 'リネームを許可する';
 $string['antivirus'] = 'アンチウイルス';
+$string['appearance'] = '外観';
 $string['authentication'] = '認証';
-$string['authenticationandsecurity'] = '認証およびセキュリティ';
 $string['availablelangs'] = '利用可能な言語パック';
 $string['backgroundcolour'] = '透過色';
 $string['backups'] = 'バックアップ';
@@ -133,6 +134,8 @@ $string['configwarning'] = '設定の変更は慎重に行ってください - �
 $string['configzip'] = 'zipプログラムのパスを指定してください ( Unix/Linuxのみ、任意 )。パスを指定した場合、サーバ内のzip書庫作成時に使用されます。空白にした場合、Moodleは内部ルーチンを使用します。';
 $string['confirmation'] = '確認';
 $string['confirminstall'] = 'あなたは言語パック ( $a ) をインストールしようとしています。本当によろしいですか?';
+$string['coursemgmt'] = 'コースの追加/編集';
+$string['courseoverview'] = 'コースオーバービュー';
 $string['courserequests'] = 'コースリクエスト';
 $string['courses'] = 'コース';
 $string['cronwarning'] = '<a href=\"cron.php\">cron.phpメンテナンススクリプト</a>が、少なくとも24時間稼動していません。';
@@ -145,6 +148,7 @@ $string['dbmigratewarning'] = 'この処理を始める前に、Moodleデータ�
 $string['dbmigratewarning2'] = '<b>警告: あなたはデータベース移行処理を開始しようとしています。すべてのMoodleデータベースをバックアップしているか、確実に確認してください。</b>';
 $string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">このデータベースは廃止され、新しいUTF8データベースに移行されました。このMoodleに新しいデータベースを使用するため、config.phpを編集してください。</font>';
 $string['dbmigrationdupfailed'] = 'データベース重複エラー:<font color=\"#ff0000\"><pre>$a</pre></font>';
+$string['debugging'] = 'デバッギング';
 $string['density'] = '密度';
 $string['download'] = 'ダウンロード';
 $string['edithelpdocs'] = 'ヘルプドキュメントの編集';
@@ -188,16 +192,16 @@ $string['installedlangs'] = 'インストール済み言語パック';
 $string['invaliduserchangeme'] = 'ユーザ名「changeme」は予約されています -- このユーザ名のアカウントは作成することができません。';
 $string['lang16notify'] = 'Moodle1.6以上のバージョンでは、下記のリンクでmoodle.orgより言語パックのインストールおよびアップデートを行うことができます。';
 $string['langedit'] = '言語の編集';
-$string['langimport'] = '言語インポートユーティリティ';
 $string['langimportsuccess'] = '言語パックが正常に更新されました。';
 $string['langpackremoved'] = '言語パックのアンインストールが完了しました。';
+$string['langpacks'] = '言語パック';
 $string['langpackupdated'] = '言語パック $a が正常にインストールされました。';
-$string['languageandlocation'] = '言語およびロケーション';
 $string['langupdatecomplete'] = '言語パックの更新が完了しました。';
 $string['latexpreamble'] = 'LaTeXプリアンブル';
 $string['latexsettings'] = 'LaTeXレンダ設定';
+$string['location'] = 'ロケーション';
+$string['log'] = 'ログ';
 $string['mail'] = 'Eメール';
-$string['maintenanceandauditing'] = 'メンテナンスおよび監査';
 $string['maintfileopenerror'] = 'メンテナンスファイルのオープン中にエラーが発生しました！';
 $string['maintinprogress'] = 'メンテナンス処理中です ...';
 $string['managelang'] = '管理';
@@ -215,6 +219,8 @@ $string['mediapluginswfnote'] = 'デフォルトのセキュリティ対策と�
 $string['mediapluginwmv'] = '.wmvフィルタを有効にする';
 $string['misc'] = 'その他';
 $string['modulesecurity'] = 'モジュールセキュリティ';
+$string['mustenablestats'] = 'このサイトでは統計が使用可能にされていません。';
+$string['mymoodle'] = 'マイ Moodle';
 $string['mysql416bypassed'] = 'あなたのサイトが iso-8859-1 ( ラテン ) 言語のみ使用している場合、現在インストールされている MySQL 4.1.12 ( またはそれ以上 ) を使用することができます。';
 $string['mysql416required'] = 'Moodle1.6では、将来すべてのデータをUTF-8に変換するため、MySQL 4.1.16 が要求される最低限のバージョンです。';
 $string['nolangupdateneeded'] = 'すべての言語パックは最新です。アップデートは必要ありません。';
@@ -234,16 +240,18 @@ $string['pathtopgdumpinvalid'] = 'pg_dumpのパスが正しくありません - 
 $string['pathtopsql'] = 'psqlのパス';
 $string['pathtopsqldesc'] = 'あなたのシステムに、1つ以上のpsqlが存在する場合 ( 例 1つ以上のバージョンのpostgresqlがインストールされている場合 ) のみ入力する必要があります。';
 $string['pathtopsqlinvalid'] = 'psqlのパスが正しくありません - パスが間違っているか、実行可能ではありません。';
-$string['performanceandstats'] = 'パフォーマンスおよびステータス';
 $string['pgcluster'] = 'PostgreSQLクラスタ';
 $string['pgclusterdescription'] = 'コマンドライン処理のためのPostgreSQLバージョン/クラスタパラメータです。あなたのシステムに1つのPostgreSQLのみある場合、またはこの設定が分からない場合は、空白にしてください。';
 $string['php50restricted'] = 'PHP 5.0.x には数多くの既知の問題があります。5.1.x にアップグレードするか、4.3.x または 4.4.x にダウングレードしてください。';
 $string['pleaseregister'] = 'このボタンを消すには、あなたのサイトを登録してください。';
+$string['plugins'] = 'モジュール';
 $string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細情報は、<a target=\"_new\" href=\"$a\">オンラインリリースノート</a>をご覧ください。';
 $string['remotelangnotavailable'] = 'Moodleがmoodle.orgに接続できないため、自動的に言語パックのインストールを行うことができません。適切なzipファイルを下記のリンクより手動でダウンロードして、$a ディレクトリにコピーおよびunzipしてください。';
 $string['renameerrors'] = 'リネームのエラー';
-$string['serverinterface'] = 'サーバインターフェース';
+$string['security'] = 'セキュリティ';
+$string['server'] = 'サーバ';
 $string['sessionhandling'] = 'セッションハンドリング';
+$string['simpletest'] = '単体テスト';
 $string['sitelangchanged'] = 'サイト言語の設定が正常に完了しました。';
 $string['sitemaintenance'] = 'このサイトはメンテナンス中です。現在ご利用いただけません。';
 $string['sitemaintenancemode'] = 'メンテナンスモード';
@@ -251,10 +259,10 @@ $string['sitemaintenanceoff'] = 'メンテナンスモードが解除されま�
 $string['sitemaintenanceon'] = 'あなたのサイトは、現在メンテナンスモードで運用されています ( 管理者のみログインまたはサイトを利用することができます )。';
 $string['sitemaintenancewarning'] = 'あなたのサイトは、現在メンテナンスモードで運用されています ( 管理者のみログインできます )。通常運用に戻すには、<a href=\"maintenance.php\">メンテナンスモードを解除してください</a>。';
 $string['sitepolicies'] = 'サイトポリシー';
+$string['stats'] = '統計資料';
 $string['stickyblocks'] = 'スティッキーブロック';
 $string['stickyblockscourseview'] = 'コースページ';
 $string['stickyblocksduplicatenotice'] = 'あなたがここで追加するブロックが、すでにページに存在する場合、重複することになります。<br />固定されたブロックのみ編集不可で、重複したブロックは編集することができます。';
-$string['stickyblocksmymoodle'] = 'マイ moodle';
 $string['stickyblockspagetype'] = '設定するページタイプ';
 $string['systempaths'] = 'システムパス';
 $string['tabselectedtofront'] = '現在選択されているタグの列を、タグ付きテーブルの最前面に表示します。';
@@ -282,10 +290,10 @@ $string['upgradingdata'] = 'データのアップグレード';
 $string['upgradinglogs'] = 'ログのアップグレード';
 $string['upwards'] = '以上';
 $string['useraccountupdated'] = 'ユーザが更新されました。';
-$string['userinterface'] = 'ユーザインターフェース';
 $string['userlist'] = 'ユーザ一覧の表示';
 $string['userpolicies'] = 'ユーザポリシー';
 $string['userrenamed'] = 'ユーザがリネームされました。';
+$string['users'] = 'ユーザ';
 $string['userscreated'] = 'ユーザが作成されました。';
 $string['usersrenamed'] = 'ユーザがリネームされました。';
 $string['usersupdated'] = 'ユーザが更新されました。';

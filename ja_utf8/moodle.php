@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006082800)
+      // moodle.php - created with Moodle 1.7 dev (2006090300)
 
 
 $string['action'] = '操作';
@@ -247,7 +247,6 @@ $string['courseimportnotaught'] = 'あなたは他のどのコースでも編集
 $string['courseinfo'] = 'コース情報';
 $string['coursemessage'] = 'コースユーザにメッセージを送信';
 $string['coursenotaccessible'] = 'このコースには一般からのアクセスはできません。';
-$string['courseoverview'] = 'コースオーバービュー';
 $string['coursereject'] = 'コースリクエストを拒否';
 $string['courserejected'] = 'コースは拒否され、申請者に通知メールが送信されました。';
 $string['courserejectemail'] = '申し訳ございません、あなたがリクエストしたコースは拒否されました。拒否理由は下記のとおりです。
@@ -810,7 +809,8 @@ $string['moduledeleteconfirm'] = 'あなたはモジュール「 $a 」を完全
 $string['moduledeletefiles'] = 'モジュール「 $a->module 」に関わるすべてのデータが削除されました。削除を完全なものにするために ( モジュールの自動再インストールを防ぐために ) サーバより次のディレクトリを削除してください: $a->directory';
 $string['modulesetup'] = 'モジュールテーブル設定中';
 $string['modulesuccess'] = '$a テーブルが正常に設定されました。';
-$string['moodledocslink'] = 'このページのMoodleドキュメント';
+$string['moodledocs'] = 'Moodle Docs';
+$string['moodledocslink'] = 'このページのMoodle Docs';
 $string['moodleversion'] = 'Moodleバージョン';
 $string['more'] = 'もっと';
 $string['moreinformation'] = 'このエラーに関する詳細情報';
