@@ -1,13 +1,14 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006083003)
+      // admin.php - created with Moodle 1.7 dev (2006090300)
 
 
+$string['accounts'] = 'Accounts';
 $string['adminseesallevents'] = 'Beheerders zien alle gebeurtenissen';
 $string['adminseesownevents'] = 'Beheerders zien niet alle gebeurtenissen';
 $string['allowrenames'] = 'Gebruikersnamen bijwerken toestaan';
 $string['antivirus'] = 'Anti-virus';
+$string['appearance'] = 'Uitzicht';
 $string['authentication'] = 'Authenticatie';
-$string['authenticationandsecurity'] = 'Authenticatie & Beveiliging';
 $string['availablelangs'] = 'Beschikbare taalpakketten';
 $string['backgroundcolour'] = 'Transparant';
 $string['backups'] = 'Backups';
@@ -132,6 +133,8 @@ $string['configwarning'] = 'Wees voorzichtig met het veranderen van deze instell
 $string['configzip'] = 'Geef de locatie van je ZIP-programma (alleen voor UNIX). Dit is nodig om ZIP-archieven op de server te maken.';
 $string['confirmation'] = 'Bevestiging';
 $string['confirminstall'] = 'Je gaat het taalpakket ($a) installeren. Verder gaan?';
+$string['coursemgmt'] = 'Cursussen toevoegen/bewerken';
+$string['courseoverview'] = 'Cursusoverzicht';
 $string['courserequests'] = 'Cursusaanvragen';
 $string['courses'] = 'Cursussen';
 $string['cronwarning'] = 'Het onderhoudsscript <a href=\"cron.php\">cron.php</a> heeft de laatste 24 uur niet gelopen.';
@@ -144,6 +147,7 @@ $string['dbmigratewarning'] = 'Zorg voor een backup van je databank voor je aan 
 $string['dbmigratewarning2'] = '<b>Waarschuwing: zodadelijk ga je het databank migratieproces starten. Zorg er voor dat je een goede backup hebt van je Moodle databank.</b>';
 $string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">Deze databank is gemigreerd naar een nieuwe UTF8 databank en is buiten werking gesteld. Bewerk je config.php om de nieuwe databank te gebruiken voor deze Moodle-installatie.</font>';
 $string['dbmigrationdupfailed'] = 'Databankduplicatie mislukt met als mogelijke fout: <font color=\"#ff0000\"><pre>$a</pre></font>';
+$string['debugging'] = 'Fouten opsporen';
 $string['density'] = 'Dichtheid';
 $string['download'] = 'Download';
 $string['edithelpdocs'] = 'Bewerk helpbestanden';
@@ -188,16 +192,16 @@ $string['installedlangs'] = 'Geïnstalleerde taalpakketten';
 $string['invaliduserchangeme'] = 'De gebruikersnaam \"changeme\" kan niet als gebruikersnaam gebruikt worden. Kies een andere.';
 $string['lang16notify'] = 'Vanaf Moodle 1.6 kun je rechtstreeks van download.moodle.org taalpakketten installeren en updaten door op onderstaande link te klikken';
 $string['langedit'] = 'Taal bewerken';
-$string['langimport'] = 'Taalpakketten importeren';
 $string['langimportsuccess'] = 'Taalpakket geüpgraded';
 $string['langpackremoved'] = 'Taalpakket verwijderd';
+$string['langpacks'] = 'Taalpakketten';
 $string['langpackupdated'] = 'Taalpakket $a geupdate';
-$string['languageandlocation'] = 'Taal & Localisatie';
 $string['langupdatecomplete'] = 'Taalpakket update afgewerkt';
 $string['latexpreamble'] = 'LaTeX inleiding';
 $string['latexsettings'] = 'LaTeX  renderer instellingen';
+$string['location'] = 'Plaats';
+$string['log'] = 'Logs';
 $string['mail'] = 'E-mail';
-$string['maintenanceandauditing'] = 'Onderhoud & controle';
 $string['maintfileopenerror'] = 'Fout bij het openen van de onderhoudsbestanden!';
 $string['maintinprogress'] = 'Onderhoud bezig...';
 $string['managelang'] = '<b>Beheer</b>';
@@ -215,6 +219,8 @@ $string['mediapluginswfnote'] = 'Het is niet veilig om gewone gebruikers toe te 
 $string['mediapluginwmv'] = 'Gebruik .wmv-filter';
 $string['misc'] = 'Andere';
 $string['modulesecurity'] = 'Module security';
+$string['mustenablestats'] = 'Op deze server zijn Statistieken nog uitgeschakeld';
+$string['mymoodle'] = 'Mijn Moodle';
 $string['mysql416bypassed'] = 'Als je site echter UITSLUITEND iso-8859-1 (latin) talen gebruikt, dan kun je MySQL 4.1.12 (of hoger) blijven gebruiken.';
 $string['mysql416required'] = 'MySQL 4.1.16 is de minimum versie die nodig is voor Moodle 1.6 om te kunnen garanderen dat alle gegevens naar UTF-8 geconverteerd zullen worden.';
 $string['nolangupdateneeded'] = 'Al je geïnstalleerde taalpakketten zijn up-to-date. Er is geen update nodig.';
@@ -234,16 +240,18 @@ $string['pathtopgdumpinvalid'] = 'Ongeldig pad naar pg_dump - ofwel verkeerd pad
 $string['pathtopsql'] = 'Pad naar psql';
 $string['pathtopsqldesc'] = 'Dit is enkel nodig als je meer dan één psql op je systeem hebt (bijvoorbeeld als je meer dan één versie van postgresql geïnstalleerd hebt)';
 $string['pathtopsqlinvalid'] = 'Ongeldig pad naar psql - ofwel verkeerd pad ofwel niet uitvoerbaar';
-$string['performanceandstats'] = 'Performantie & statistieken';
 $string['pgcluster'] = 'PostgreSQL Cluster';
 $string['pgclusterdescription'] = '<pre>PostgeSQL versie/cluster parameter voor operaties via commandprompt. Als je slechts één PostgreSQL op je systeem hebt of je weet niet wat dit is, laat dit veld dan leeg.</pre>';
 $string['php50restricted'] = 'PHP 5.0.x heeft een heel aantal bekende problemen. Upgrade naar 5.1.x of downgrade naar 4.3.x of 4.4.x';
 $string['pleaseregister'] = 'Registreer aub je site.  Op die manier kun je deze knop verwijderen.';
+$string['plugins'] = 'Modules';
 $string['releasenoteslink'] = 'Bekijk de on line <a target=\"_new\" href=\"$a\">Release Notes</a> voor informatie over deze versie van Moodle.';
 $string['remotelangnotavailable'] = 'Het is niet mogelijk om automatisch taalpakketten te installeren, omdat Moodle geen verbinding kan maken met Moodle.org. Download daarom de nodige zipbestanden uit onderstaande lijst, copieer ze naar je $a map en unzip ze daar.';
 $string['renameerrors'] = 'Fouten in hernoemen';
-$string['serverinterface'] = 'Server interface';
+$string['security'] = 'Veiligheid';
+$string['server'] = 'Server';
 $string['sessionhandling'] = 'Sessie afhandeling';
+$string['simpletest'] = 'Unit testen';
 $string['sitelangchanged'] = 'De taalinstelling van de site is gewijzigd';
 $string['sitemaintenance'] = 'De site is in onderhoud en is op dit ogenblik niet beschikbaar';
 $string['sitemaintenancemode'] = 'Onderhoudsmodus';
@@ -251,10 +259,10 @@ $string['sitemaintenanceoff'] = 'De onderhoudsmodus is uitgeschakeld en de site 
 $string['sitemaintenanceon'] = 'Je site is nu in onderhoudsmodus (alleen beheerders kunnen inloggen of gebruik maken van de site)';
 $string['sitemaintenancewarning'] = 'Je site is nu in onderhoudsmodus (alleen beheerders kunnen inloggen of gebruik maken van de site). Om terug te keren naar normale werking: <a href=\"maintenance.php\">onderhoudsmodus uitschakelen</a>';
 $string['sitepolicies'] = 'Site reglement';
+$string['stats'] = 'Statistieken';
 $string['stickyblocks'] = 'Permanent blok';
 $string['stickyblockscourseview'] = 'Cursuspagina';
 $string['stickyblocksduplicatenotice'] = 'Als je hier een blok toevoegd dat al op een bepaalde pagina staat, krijg je er twee.<br />Alleen het vastgezette blok zul je niet kunnen bewerken, het tweede zul je wel kunnen bewerken.';
-$string['stickyblocksmymoodle'] = 'Mijn Moodle';
 $string['stickyblockspagetype'] = 'Te configureren paginatype';
 $string['systempaths'] = 'Systeempaden';
 $string['tabselectedtofront'] = 'Moet bij tabellen met tabs de nu geselecteerde tab vooraan gezet worden?';
@@ -275,7 +283,7 @@ $string['upgradeforumreadinfo'] = 'Vanaf Moodle 1.5 kun je bijhouden of forumber
 $string['upgradelogs'] = 'Om volledige functionaliteit te verkrijgen, moeten je oude logbestanden geüpgraded worden. <a href=\"$a\">Meer informatie</a>';
 $string['upgradelogsinfo'] = 'Sommige wijzigingen hebben invloed op de manier waarop de logs worden opgeslagen. Om al je oude logs per activiteit te kunnen bekijken, moeten je oude logs geüpdated worden. Afhankelijk van je site kan dit lang duren (zelfs enkele uren) en voor lange sites kan dat de databank zwaar belasten. Als je het proces start, dan zou je het moeten laten aflopen (door het browservenster open te laten). Maak je geen zorgen, terwijl je de logs upgradet, zal de site blijven werken voor je gebruikers.<br /><br />Wil je je logs nu upgraden?';
 $string['upgradesettings'] = 'Nieuw instellingen';
-$string['upgradesettingsintro'] = 'Onderstaande instellingen werden toegevoegd sinds je laatste Moodle upgrade. Wijzig de standaardinstellingen waar nodig en klik op de &quot;Bewaar instellingen&quot;-knop onderaan deze pagina.';
+$string['upgradesettingsintro'] = 'Onderstaande instellingen werden toegevoegd sinds je laatste Moodle upgrade. Wijzig de standaardinstellingen waar nodig en klik op de \"Bewaar instellingen\"-knop onderaan deze pagina.';
 $string['upgradesure'] = 'De bestanden op je Moodleserver zijn gewijzigd en je gaat zo dadelijk je server automatisch upgraden naar versie: <p><b>$a</b></p>
 <p>Als je dit doet, kun je niet meer terug.</p>
 <p>Ben je er er zeker van dat je deze server naar die versie wil upgraden?</p>';
@@ -283,10 +291,10 @@ $string['upgradingdata'] = 'Bezig met het upgraden van de gegevens';
 $string['upgradinglogs'] = 'Bezig met upgraden van logs';
 $string['upwards'] = 'hoger';
 $string['useraccountupdated'] = 'Gebruiker geüpdatet';
-$string['userinterface'] = 'Gebruikersinterface';
 $string['userlist'] = 'Gebruikerslijst';
 $string['userpolicies'] = 'Gebruikersregels';
 $string['userrenamed'] = 'Gebruiker hernoemd';
+$string['users'] = 'Gebruikers';
 $string['userscreated'] = 'Gebruikers gecreëerd';
 $string['usersrenamed'] = 'Gebruikers hernoemd';
 $string['usersupdated'] = 'Gebruikers geüpdatet';

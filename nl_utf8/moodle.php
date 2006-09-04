@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006083003)
+      // moodle.php - created with Moodle 1.7 dev (2006090300)
 
 
 $string['action'] = 'Actie';
@@ -248,7 +248,6 @@ $string['courseimportnotaught'] = 'Het lijkt er op dat je geen leraar bent met h
 $string['courseinfo'] = 'Cursusinformatie';
 $string['coursemessage'] = 'Bericht voor de gebruikers van de cursus';
 $string['coursenotaccessible'] = 'Deze cursus is niet publiek toegankelijk';
-$string['courseoverview'] = 'cursusoverzicht';
 $string['coursereject'] = 'Verwerp een cursusaanvraag';
 $string['courserejected'] = 'De cursusaanvraag is niet goedgekeurd en de aanvrager is daarvan op de hoogte gebracht.';
 $string['courserejectemail'] = 'Sorry, maar je aanvraag voor een nieuwe cursus, is niet goedgekeurd. De opgegeven reden is:
@@ -805,6 +804,7 @@ $string['moduledeleteconfirm'] = 'Je staat op het punt de volledige module \'$a\
 $string['moduledeletefiles'] = 'Alle gegevens in verband met de module \'$a->module\' zijn uit de databank verwijderd. Om deze verwijdering verder af te werken (en om te verhinderen dat de module zich herinstalleert), moet je nu de map $a->directory van je server verwijderen.';
 $string['modulesetup'] = 'Klaarmaken van de tabellen van de module';
 $string['modulesuccess'] = '$a tabellen zijn met succes klaargemaakt';
+$string['moodledocs'] = 'Moodle Docs';
 $string['moodledocslink'] = 'Hulp uit Moodle Docs voor deze pagina';
 $string['moodleversion'] = 'Moodleversie';
 $string['more'] = 'meer';

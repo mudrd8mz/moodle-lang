@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 dev (2006083003)
+      // xmldb.php - created with Moodle 1.7 dev (2006090300)
 
 
+$string['aftertable'] = 'Tabel resultaat:';
 $string['back'] = 'Terug';
 $string['backtomainview'] = 'Terug naar Hoofd';
 $string['binaryincorrectlength'] = 'Foute lengte voor binair veld';
@@ -15,6 +16,7 @@ $string['confirmdeletesentence'] = 'Ben je zeker dat je deze zin wil verwijderen
 $string['confirmdeletestatement'] = 'Ben je zeker dat je deze stelling en al deze zinnen wil verwijderen:';
 $string['confirmdeletetable'] = 'Ben je zeker dat je deze tabel wil verwijderen:';
 $string['confirmdeletexmlfile'] = 'Ben je zeker dat je dit bestand wil verwijderen:';
+$string['confirmrevertchanges'] = 'Ben je er zeker van dat je de wijzigingen ongedaan wil maken?';
 $string['create'] = 'Maak';
 $string['createtable'] = 'Maak tabel:';
 $string['delete'] = 'Verwijder';
@@ -66,6 +68,8 @@ $string['numberincorrectdecimals'] = 'Fout aantal deximalen voor numeriek veld';
 $string['numberincorrectlength'] = 'Foute lengte voor numeriek veld';
 $string['reserved'] = 'Gereserveerd';
 $string['reservedwords'] = 'Gereserveerde woorden';
+$string['revert'] = 'Maak ongedaan';
+$string['revert_changes'] = 'Maak wijzigingen ongedaan';
 $string['save'] = 'Bewaar';
 $string['selectdb'] = 'Kies databank';
 $string['sentences'] = 'Zinnen';
@@ -75,5 +79,16 @@ $string['statementtype'] = 'Stellingtype:';
 $string['table'] = 'Tabel';
 $string['tables'] = 'Tabellen';
 $string['textincorrectlength'] = 'Foute lengte voor tekstveld';
+$string['up'] = 'Omhoog';
+$string['view_reserved_words'] = 'Bekijk gereserveerde woorden';
+$string['view_structure_sql'] = 'Bekijk struktuur SQL';
+$string['view_table_sql'] = 'Bekijk tabel SQL';
+$string['viewedited'] = 'Bekijk bewerkt';
+$string['vieworiginal'] = 'Bekijk origineel';
+$string['viewphpcode'] = 'Bekijk PHP code';
+$string['viewsqlcode'] = 'Bekijk SQL code';
+$string['wronglengthforenum'] = 'Lengte van enum veld fout';
+$string['wrongnumberoffieldsorvalues'] = 'Fout aantal velden of waarden in zin';
+$string['wrongreservedwords'] = 'Gebruikte gereserveerde woorden<br />(merk op dat tabelnamen niet belangrijk zijn als je *CFG->prefix gebruikt)';
 
 ?>

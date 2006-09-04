@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006083003)
+      // role.php - created with Moodle 1.7 dev (2006090300)
 
 
 $string['allow'] = 'Toelaten';
@@ -30,6 +30,7 @@ $string['course:viewscales'] = 'Schalen bekijken';
 $string['course:visibility'] = 'Cursussen verbergen/tonen';
 $string['currentcontext'] = 'Huidige context';
 $string['currentrole'] = 'Huidige rol';
+$string['defineroles'] = 'Definieer rollen';
 $string['existingusers'] = '$a bestaande gebruikers';
 $string['inherit'] = 'Erf';
 $string['legacy:admin'] = 'PRE 1.7 ROL: Beheerder';
@@ -40,6 +41,7 @@ $string['legacy:student'] = 'PRE 1.7 ROL: Leerling';
 $string['legacy:teacher'] = 'PRE 1.7 ROL: Leraar (niet bewerken)';
 $string['nocapabilitiesincontext'] = 'Geen rechten in deze context';
 $string['overrideroles'] = 'Rollen negeren';
+$string['permissions'] = 'Rechten';
 $string['potentialusers'] = '$a mogelijke gebruikers';
 $string['prevent'] = 'Voorkom';
 $string['prohibit'] = 'Verbied';
