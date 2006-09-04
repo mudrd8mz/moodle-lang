@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7 dev (2006082300)
+      // glossary.php - created with Moodle 1.7 dev (2006090300)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -42,7 +42,7 @@ $string['cnfrelatedview'] = 'オートリンクおよびエントリ表示に使
 $string['cnfshowgroup'] = 'グループ区切りを表示するかどうか指定してください。';
 $string['cnfsortkey'] = 'デフォルトの並び替えキーを選択してください。';
 $string['cnfsortorder'] = 'デフォルトの並び替え順を選択してください。';
-$string['cnfstudentcanpost'] = '学生の投稿を許可する。';
+$string['cnfstudentcanpost'] = '学生のエントリ投稿をデフォルトで許可する。';
 $string['comment'] = 'コメント';
 $string['commentdeleted'] = 'コメントが削除されました。';
 $string['comments'] = 'コメント';
@@ -50,7 +50,7 @@ $string['commentson'] = 'コメント';
 $string['commentupdated'] = 'コメントが更新されました。';
 $string['concept'] = '用語';
 $string['concepts'] = '用語';
-$string['configenablerssfeeds'] = 'ここでは、すべての用語集に関するRSSフィードを有効にします。更に、手動で各用語集のRSSフィード設定を有効にする必要があります。';
+$string['configenablerssfeeds'] = 'ここでは、すべての用語集に関するRSSフィードを有効にします。さらに、手動で各用語集のRSSフィード設定を有効にする必要があります。';
 $string['currentglossary'] = '現在の用語集';
 $string['dateview'] = '日付順';
 $string['defaultapproval'] = 'デフォルトで承認する';
@@ -151,7 +151,7 @@ $string['ratingonlyteachers'] = '$a のみエントリを評価できる';
 $string['ratings'] = '評価';
 $string['ratingssaved'] = '評価が保存されました。';
 $string['ratingsuse'] = '評価を使用する';
-$string['ratingtime'] = 'エントリ評価を下記の期間に制限する:';
+$string['ratingtime'] = 'エントリの評価を下記の期間に制限する:';
 $string['rejectedentries'] = '拒否されたエントリ';
 $string['rejectionrpt'] = '拒否レポート';
 $string['rsssubscriberss'] = '$a の用語のRSSフィードを表示する';
