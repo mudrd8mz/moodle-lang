@@ -216,6 +216,7 @@ $string['incompatibleblocks'] = 'Blocs incompatibles';
 $string['install'] = 'Installer les langues sélectionnées';
 $string['installedlangs'] = 'Langues installées';
 $string['invaliduserchangeme'] = 'Le nom d\'utilisateur «&nbsp;changeme&nbsp;» est réservé. Il n\'est pas permis de créer un compte de ce nom.';
+$string['langedit'] = 'Édition langue';
 $string['lang16notify'] = 'Les versions de Moodle 1.6 et suivantes vous permettent d\'installer et de mettre à jour les langues directement depuis download.moodle.org en suivant le lien ci-dessous';
 $string['langpacks'] = 'Paquetages langue';
 $string['langimport'] = 'Utilitaire d\'importation de langues';
