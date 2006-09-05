@@ -3,7 +3,7 @@
 
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
-$string['adminacceptmethods'] = 'どの支払方法を受け入れますか?';
+$string['adminaccepts'] = '許可する支払方法およびタイプを選択してください。';
 $string['adminauthorizeccapture'] = 'オーダーレビュー&スケジュールキャプチャ設定';
 $string['adminauthorizeemail'] = 'メール送信設定';
 $string['adminauthorizesettings'] = 'Authorize.net 設定';
@@ -130,6 +130,8 @@ $string['reason11'] = '重複トランザクションが送信されました。
 $string['reason13'] = 'マーチャントログインIDが無効またはアカウントがアクティブではありません。';
 $string['reason16'] = 'トランザクションが見つかりませんでした。';
 $string['reason17'] = 'マーチャントは、このタイプのクレジットカードを受け付けません。';
+$string['reason245'] = '支払いフォーム経由のペイメントゲートウェイは、このeCheckタイプで許可されていません。';
+$string['reason246'] = 'このeCheckタイプは許可されていません。';
 $string['reason27'] = 'AVSのトランザクション結果が一致しません。提供された住所がカード所有者の住所と合致しません。';
 $string['reason28'] = 'マーチャントは、このタイプのクレジットカードを受け付けません。';
 $string['reason30'] = 'プロセッサの設定が正しくありません。マーチャントサービスプロバイダにご連絡ください。';
