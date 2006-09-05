@@ -151,6 +151,7 @@ $string['blockconfigbad'] = 'Ce bloc n\'a pas été implémenté correctement et
 $string['blockconfigin'] = 'Cours&nbsp;: configuration d\'un bloc dans $a';
 $string['blockdeleteconfirm'] = 'Vous allez supprimer totalement le bloc «&nbsp;$a&nbsp;». Cette action supprimera de la base de données tout ce qui est associé à ce bloc. Voulez-vous VRAIMENT continuer ?';
 $string['blockdeletefiles'] = 'Toutes les données associées au bloc «&nbsp;$a->block&nbsp;» ont été supprimées de la base de données. Pour terminer la suppression du bloc, et éviter ainsi qu\'il se réinstalle, veuillez supprimer de votre serveur le dossier «&nbsp;$a->directory&nbsp;».';
+$string['block'] = 'Bloc';
 $string['blocks'] = 'Blocs';
 $string['blocksaddedit'] = 'Ajouter/Modifier des blocs';
 $string['blockseditoff'] = 'Désactiver l\'édition des blocs';
