@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6 development (2005090100)
+      // wiki.php - created with Moodle 1.7 dev (2006082900)
 
 
 $string['action'] = '--- Aktion ---';
@@ -10,7 +10,7 @@ $string['allowsetpage'] = 'Erlaubt das Markieren von Seiten';
 $string['allowstrippages'] = 'Erlaubt das Zerlegen von Seiten';
 $string['attachments'] = 'Seitenergänzungen';
 $string['author'] = 'Autor/in';
-$string['authorfieldpattern'] = 'Anzeigeoption für Autor/in ';
+$string['authorfieldpattern'] = 'Anzeigeoption für Autor/in';
 $string['authorfieldpatternerror'] = 'Geben Sie bitte eine/n Autor/in an.';
 $string['backlinks'] = 'Link zur Herkunftsseite';
 $string['binimgtoolarge'] = 'Bilddatei ist zu groß!';
@@ -65,7 +65,7 @@ $string['fetchback'] = 'Zurück holen';
 $string['file'] = 'Datei';
 $string['filedownload'] = 'Download von Dateien';
 $string['fileisoftype'] = 'Dateiart';
-$string['filtername'] = 'Automatische Verlinkung von Wikiseiten ';
+$string['filtername'] = 'Automatische Verlinkung von Wikiseiten';
 $string['flagbin'] = 'BIN';
 $string['flaghtm'] = 'HTM';
 $string['flagoff'] = 'OFF';
@@ -121,7 +121,7 @@ $string['pageactions'] = 'Seitenaktivitäten';
 $string['pageindex'] = 'Seitenindex';
 $string['pageinfo'] = 'Seiteninformationen';
 $string['pagename'] = 'Seitenname';
-$string['pagenamechoice'] = '- oder - ';
+$string['pagenamechoice'] = '- oder -';
 $string['pageslinkingto'] = 'Seiten die auf diese Seite verweisen';
 $string['pagesremoved'] = 'Gelöschte Seiten';
 $string['pagesreverted'] = 'Veränderungen rückgängig gemacht.';
@@ -130,6 +130,8 @@ $string['plaintext'] = 'Einfacher Text';
 $string['preview'] = 'Vorschau';
 $string['readonly'] = 'Seite kann nur gelesen werden';
 $string['refs'] = 'Referenzen';
+$string['reloadlinkdescription'] = 'Seite neu laden und damit alle Änderungen anzeigen.';
+$string['reloadlinktext'] = 'Seite neu laden';
 $string['removenotice'] = 'Anmerkung: hier werden nur Seiten aufgelistet für die keine Referenzen vorliegen. Die Übersicht ist evtl. unvollständig.';
 $string['removepagecheck'] = 'Sind Sie sicher, dass Sie diese Seiten löschen wollen?';
 $string['removepages'] = 'Entfernte Seiten';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6 development (2006032001)
+      // scorm.php - created with Moodle 1.7 dev (2006082900)
 
 
 $string['advanced'] = 'Weitere Einstellungen';
@@ -13,8 +13,10 @@ $string['badmanifest'] = 'Einige  Fehler  in manifest: siehe Fehlerprotokoll';
 $string['browse'] = 'Vorschau';
 $string['browsed'] = 'Durchsucht';
 $string['browsemode'] = 'Vorschaumodus';
+$string['browserepository'] = 'Repository durchsuchen';
 $string['chooseapacket'] = 'Auswählen/aktualisieren eines Pakets';
 $string['completed'] = 'Abgeschlossen';
+$string['confirmloosetracks'] = 'Warnung: Das Paket scheint verändert worden zu sein. Evtl. ist die Paketstruktur geändert worden. Beim Update können Trackingdaten der Nutzer verloren gehen.';
 $string['coursepacket'] = 'Kurspaket';
 $string['coursestruct'] = 'Kursstruktur';
 $string['datadir'] = 'Dateisystemfehler: Verzeichnis für Kursdaten konnte nicht erstellt werden';
@@ -98,12 +100,14 @@ $string['review'] = 'Rückblick';
 $string['reviewmode'] = 'Rückblick-Modus';
 $string['scoes'] = 'Scoes';
 $string['score'] = 'Bewertung';
+$string['scorm:view'] = 'Inhalt ansehen';
+$string['scorm:viewgrades'] = 'Bewertungen ansehen';
 $string['scormcourse'] = 'SCORM Kurs';
 $string['scrollbars'] = 'Scrollfunktion im Fenster bereitstellen';
 $string['sided'] = 'Auf der linken Seite';
 $string['stagesize'] = 'Frame/Fenster Größe';
 $string['status'] = 'Status';
-$string['statusbar'] = 'Statusanzeige ';
+$string['statusbar'] = 'Statusanzeige';
 $string['student_response'] = 'Antwort';
 $string['syntax'] = 'Schreibfehler';
 $string['tag_error'] = 'Unbekannter Tag ($a->tag) mit dem Inhalt: $a->value';

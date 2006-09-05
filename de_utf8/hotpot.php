@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6 development (2005101200)
+      // hotpot.php - created with Moodle 1.7 dev (2006082900)
 
 
 $string['abandoned'] = 'abgebrochen';
@@ -45,6 +45,7 @@ $string['filetype'] = 'Dateityp';
 $string['forceplugins'] = 'Erforderlicher Media Plugin';
 $string['giveup'] = 'Aufhören/abbrechen';
 $string['hints'] = 'Hinweise';
+$string['hotpot:view'] = 'Test verwenden';
 $string['ignored'] = 'ignoriert';
 $string['inprogress'] = 'in Bearbeitung';
 $string['location'] = 'Dateispeicherort';

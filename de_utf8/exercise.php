@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.4.3 (2004083130)
+      // exercise.php - created with Moodle 1.7 dev (2006082900)
 
 
 $string['absent'] = 'Fehlen';
@@ -36,7 +36,7 @@ $string['description'] = 'Zusammenfassung';
 $string['descriptionofexercise'] = 'Die Aufgabe für die Teilnehmer/innen ist in einer Word- oder HTML- Datei zu erfassen. Die Datei muss auf den Server geladen werden, bevor die Übung zur Lösung für die $a bereitgestellt wird. Es ist möglich, eine Anzahl von Varianten der Aufgaben oder Übung als WORD- oder HTML- Datei zu erstellen, die ebenfalls auf den Server geladen werden müssen, bevor die Übung den $a zur Verfügung steht.';
 $string['detailsofassessment'] = 'Einzelheiten der Bewertung';
 $string['displayoffinalgrades'] = 'Anzeige der endgültigen Bewertung';
-$string['doubleupload'] = 'Hinweis: Diese Lösung wurde wahrscheinlich zwei Mal  gesendet. Gehen Sie ins Administrator-Menü unter Dateien und überprüfen Sie im Verzeichnis mit den Übungsdateien, ob zwei Lösungen von diesem User vorliegen, welche kurz hintereinander eingereicht wurden. Löschen Sie bitte eine Lösung bevor Sie weiter fortfahren. ';
+$string['doubleupload'] = 'Hinweis: Diese Lösung wurde wahrscheinlich zwei Mal  gesendet. Gehen Sie ins Administrator-Menü unter Dateien und überprüfen Sie im Verzeichnis mit den Übungsdateien, ob zwei Lösungen von diesem User vorliegen, welche kurz hintereinander eingereicht wurden. Löschen Sie bitte eine Lösung bevor Sie weiter fortfahren.';
 $string['duedate'] = 'Abgabetermin';
 $string['edit'] = 'Bearbeiten';
 $string['editingassessmentelements'] = 'Bearbeiten der Bewertungselemente';
@@ -46,6 +46,7 @@ $string['enterpassword'] = 'Passwort eingeben';
 $string['entriessaved'] = 'Einträge gespeichert';
 $string['errorbanded'] = 'Fehlersumme';
 $string['excellent'] = 'Sehr gut';
+$string['exercise:assess'] = 'Übungen bewerten';
 $string['exerciseassessments'] = 'Bewertung der Übung';
 $string['exercisefeedback'] = 'Kommentar zur Übung';
 $string['exercisesubmissions'] = 'Ausführungen zur Übung';
@@ -69,7 +70,7 @@ $string['mail1'] = 'Ihre Aufgabe \'$a\' wurde bewertet von';
 $string['mail2'] = 'Die Kommentare und die Note können in der Übungsaufgabe $a eingesehen werden.';
 $string['mail3'] = 'Sie können dies in Ihrer Übungsaufgabe sehen';
 $string['mail6'] = 'Ihre Bewertung für die Aufgabe $a wurde überarbeitet.';
-$string['mail7'] = 'Die Kommentare zur Übungsaufgabe erteilt von $a können eingesehen werden. ';
+$string['mail7'] = 'Die Kommentare zur Übungsaufgabe erteilt von $a können eingesehen werden.';
 $string['managingassignment'] = 'Verantwortlich für die Übung';
 $string['maximum'] = 'Maximum';
 $string['maximumgradeforstudentassessments'] = 'Höchste Bewertung bei den Teilnehmerbewertungen: $a';
@@ -90,7 +91,7 @@ $string['noteongradinggrade'] = 'Dieser Wert bezeichnet die Übereinstimmung Ihr
 $string['noteonstudentassessments'] = '( Note von Teilnehmer/in/ Note vom Trainer/in )';
 $string['notgraded'] = 'Nicht bewertet';
 $string['notitlegiven'] = 'Kein  Titel vergeben';
-$string['numberofassessmentelements'] = 'Anzahl der Bewertungskriterien ';
+$string['numberofassessmentelements'] = 'Anzahl der Bewertungskriterien';
 $string['numberofcriterionelements'] = 'Die Zahl der Bewertungselemente muss größer als eins sein.';
 $string['numberofentries'] = 'Anzahl der Einträge';
 $string['numberofentriesinleaguetable'] = 'Zahl der Eintragungen in der Bestenliste';

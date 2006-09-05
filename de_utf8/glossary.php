@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // glossary.php - created with Moodle 1.7 dev (2006082900)
 
 
 $string['addcomment'] = 'Kommentar einfügen';
@@ -38,7 +38,7 @@ $string['cnfdefaultmode'] = 'Zuerst gezeigter Rahmen des Glossars';
 $string['cnffullmatch'] = 'Legt fest, ob ein Eintrag, wenn er verlinkt ist, die alternative Schreibweise anzeigt (??)';
 $string['cnflinkentry'] = 'Legt fest, ob ein Eintrag automatisch verlinkt wird';
 $string['cnflinkglossaries'] = 'Legt fest, ob das Glossar automatisch verlinkt wird';
-$string['cnfrelatedview'] = 'Wählen Sie die Anzeige für die automatische Verlinkung und die Anzeige ';
+$string['cnfrelatedview'] = 'Wählen Sie die Anzeige für die automatische Verlinkung und die Anzeige';
 $string['cnfshowgroup'] = 'Legen Sie fest, ob zwischen einzelnen Abschnitten (z.B. Buchstaben) eine visuelle Trennung erfolgen soll.';
 $string['cnfsortkey'] = 'Sortierschlüssel (Grundeinstellung)';
 $string['cnfsortorder'] = 'Sortierfolge (Grundeinstellung)';
@@ -105,6 +105,17 @@ $string['fillfields'] = 'Konzept und Definition sind Pflichtfelder.';
 $string['filtername'] = 'Automatische Verlinkung des Glossars';
 $string['fullmatch'] = 'Nur ganze Wörter verlinken';
 $string['globalglossary'] = 'Globales Glossar';
+$string['glossary:approve'] = 'Nicht bestätigte  Einträge bestätigen';
+$string['glossary:comment'] = 'Kommentare erstellen';
+$string['glossary:export'] = 'Einträge exportieren';
+$string['glossary:import'] = 'Einträge importieren';
+$string['glossary:managecategories'] = 'Kategorien verwalten';
+$string['glossary:managecomments'] = 'Kommentare verwalten';
+$string['glossary:manageentries'] = 'Einträge verwalten';
+$string['glossary:rate'] = 'Einträge bewerten';
+$string['glossary:view'] = 'Glossar betrachten';
+$string['glossary:viewrating'] = 'Bewertungen betrachten';
+$string['glossary:write'] = 'Neue Einträge erstellen';
 $string['glossaryleveldefaultsettings'] = 'Grundeinstellung des Glossars';
 $string['glossarytype'] = 'Art des Glossars';
 $string['importcategories'] = 'Import von Kategorien';

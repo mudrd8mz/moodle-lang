@@ -1,8 +1,12 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6 development (2006032001)
+      // assignment.php - created with Moodle 1.7 dev (2006082900)
 
 
+$string['allowmultiple'] = 'Mehrere Dateien zulassen';
 $string['allowresubmit'] = 'Erneutes Einreichen erlauben';
+$string['assignment:grade'] = 'Aufgabe bewerten';
+$string['assignment:submit'] = 'Aufgabe abgeben';
+$string['assignment:view'] = 'Aufgabe zeigen';
 $string['assignmentdetails'] = 'Aufgabendetails';
 $string['assignmentmail'] = '$a->teacher hat einen Kommentar zu Ihrer eingereichten Aufgabe \'$a->assignment\' verfasst.
 
@@ -14,16 +18,24 @@ Sie finden diesen im Anhang Ihrer
 <a href=\"$a->url\">eingereichten Aufgabe</a>:.';
 $string['assignmentname'] = 'Link (Kursseite)';
 $string['assignmenttype'] = 'Aufgabentyp';
+$string['attachfile'] = 'Datei hinzufpügen';
+$string['attachfiletoassignment'] = 'Datei(en) zu Aufgabe hinzufügen';
 $string['availabledate'] = 'Verfügbar von';
+$string['backtoassignment'] = 'Zurück zur Aufgabe';
+$string['backtofeedback'] = 'Zurück zum Feedback';
 $string['comment'] = 'Kommentar';
 $string['commentinline'] = 'eingearbeiteter Kommentar';
 $string['configitemstocount'] = 'Werte, die bei den Online Aufgaben der Teilnehmer/innen, ausgezählt werden sollen (z.B. Wortzahl, Zeichenzahl)';
 $string['configmaxbytes'] = 'Voreingestellte maximale Größe für alle Einstellungen auf dieser Seite';
+$string['deletecheckfile'] = 'Sind Sie sich wirklich sicher, dass Sie diese Datei löschen wollen?';
+$string['deleteednotification'] = 'Die Datei wurde gelöscht.';
+$string['deletefail'] = 'Die folgende Datei wurde nicht gelöscht:';
 $string['description'] = 'Zusammenfassung';
 $string['duedate'] = 'Abgabetermin (Datum, Zeitpunkt)';
 $string['duedateno'] = 'Kein Abgabedatum';
 $string['early'] = '$a früh';
 $string['editmysubmission'] = 'Meine Lösung bearbeiten';
+$string['emailstudents'] = 'E-Mailbenachrichtung an Teilnehmer/innen';
 $string['emailteachermail'] = '$a->username hat die Aufgabe \'$a->assignment\' überarbeitet und neu hochgeladen 
 
 Sie ist hier abgelegt:
@@ -44,8 +56,8 @@ $string['guestnoupload'] = 'Gäste dürfen keine Dateien hochladen.';
 $string['helpoffline'] = '<p>Dieser Aufgabentyp ist nützlich wenn die Erledigung der Aufgabe außerhalb von Moodle erfolgt.</p> <p>Die Teilnehmer/innen sehen die Aufgabenbeschreibung. Sie können jedoch keine Lösungsdatei hochladen. Die Bewertung erfolgt in dieser Aufgabe und die Teilnehmer/inenn können auch die Bewertung hier einsehen.</p>';
 $string['helponline'] = '<p>Dieser Aufgabentyp fordert die Teilnehmer/innen auf ihre Lösung im Editorfenster einzutragen. Der/die Trainer/in kann die Lösung online bewerten und im Textfenster direkt Kommentare eintragen oder Veränderungen vornehmen.</p> <p>In früheren Moodle-Versionen wurde diese Funktion vom Journal-Modul wahrgenommen.</p>';
 $string['helpuploadsingle'] = '<p>Diese Aufgabenart ermöglicht den Upload einer beliebigen Datei für jede/n Teilnehmer/in</p><p>Dies kann eine Textdatei, eine Bilddatei, eine Zip-Datei oder eine Datei in einem Format, das Sie in der Aufgabenstellung definiert haben.</p>';
-$string['late'] = '$a spät ';
-$string['maximumgrade'] = 'Höchste Bewertung ';
+$string['late'] = '$a spät';
+$string['maximumgrade'] = 'Höchste Bewertung';
 $string['maximumsize'] = 'Maximale Größe';
 $string['modulename'] = 'Aufgabe';
 $string['modulenameplural'] = 'Aufgaben';
@@ -54,7 +66,7 @@ $string['noassignments'] = 'Es gibt derzeit keine  Aufgaben';
 $string['noattempts'] = 'Bisher wurden keine Arbeiten eingereicht.';
 $string['notgradedyet'] = 'Noch nicht bewertet';
 $string['notsubmittedyet'] = 'Noch nichts eingereicht';
-$string['overwritewarning'] = 'Hinweis: erneutes hochladen ERSETZT Ihren gegenwärtigen Eintrag ';
+$string['overwritewarning'] = 'Hinweis: erneutes hochladen ERSETZT Ihren gegenwärtigen Eintrag';
 $string['pagesize'] = 'Zahl der abgegebenen Aufgaben pro Seite';
 $string['preventlate'] = 'Verhindert verspätete Abgaben';
 $string['quickgrade'] = 'Schnelle Bewertung zulassen';
@@ -66,7 +78,7 @@ $string['submissionsaved'] = 'Ihre Veränderungen wurden gespeichert';
 $string['submissionsnotgraded'] = '$a nicht bewertete Aufgaben';
 $string['submitassignment'] = 'Tragen Sie Ihre Aufgabe unter Verwendung dieses Formulars ein';
 $string['submitted'] = 'Eingereicht';
-$string['typeoffline'] = 'Offline Aktivität ';
+$string['typeoffline'] = 'Offline Aktivität';
 $string['typeonline'] = 'Online-Aktivität';
 $string['typeuploadsingle'] = 'Eine einzige Datei hochladen';
 $string['uploadbadname'] = 'Dieser Dateiname enthält unzulässige Zeichen und kann nicht hochgeladen werden.';
@@ -77,8 +89,8 @@ $string['uploadfiletoobig'] = 'Entschuldigung, aber diese Datei ist zu groß (di
 $string['uploadnofilefound'] = 'Es wurde keine Datei gefunden. Sind Sie sicher, dass Sie eine für das Hochladen ausgewählt haben?';
 $string['uploadnotregistered'] = '\'$a\' wurde korrekt hochgeladen, aber der Eintrag wurde nicht registriert!';
 $string['uploadsuccess'] = '\'$a\' wurde erfolgreich hochgeladen';
-$string['viewfeedback'] = 'Aufgabenbewertung und Rückmeldung anzeigen ';
-$string['viewsubmissions'] = '$a eingereichte Aufgabe(n) ansehen, bewerten und kommentieren ';
+$string['viewfeedback'] = 'Aufgabenbewertung und Rückmeldung anzeigen';
+$string['viewsubmissions'] = '$a eingereichte Aufgabe(n) ansehen, bewerten und kommentieren';
 $string['yoursubmission'] = 'Ihre eingereichten Aufgaben';
 
 ?>

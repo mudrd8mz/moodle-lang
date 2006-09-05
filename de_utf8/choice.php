@@ -1,15 +1,19 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.5 ALPHA (2005043000)
+      // choice.php - created with Moodle 1.7 dev (2006082900)
 
 
 $string['addmorechoices'] = 'Weitere Abstimmungen hinzufügen';
 $string['allowupdate'] = 'Abstimmung kann aktualisiert werden';
 $string['answered'] = 'Beantwortet';
 $string['choice'] = 'Abstimmung  $a';
+$string['choice:choose'] = 'Abstimmung aufzeichnen';
+$string['choice:deleteresponses'] = 'Antworten löschen';
+$string['choice:downloadresponses'] = 'Antworten downloaden';
+$string['choice:readresponses'] = 'Antworten einsehen';
 $string['choiceclose'] = 'Abstimmungsende (Datum, Uhrzeit)';
 $string['choicename'] = 'Abstimmung';
 $string['choiceopen'] = 'Abstimmungsbeginn (Datum, Uhrzeit)';
-$string['choicetext'] = 'Beschreibung ';
+$string['choicetext'] = 'Beschreibung';
 $string['displayhorizontal'] = 'Horizontal anzeigen';
 $string['displaymode'] = 'Anzeigemodus';
 $string['displayvertical'] = 'Vertikal anzeigen';
@@ -30,7 +34,7 @@ $string['publishalways'] = 'Ergebnisse der anderen Teilnehmer/innen immer zeigen
 $string['publishanonymous'] = 'Anonyme Ergebnisse veröffentlichen, Namen der Teilnehmer nicht zeigen';
 $string['publishnames'] = 'Ergebnisse vollständig veröffentlichen, Namen und deren Wahl anzeigen';
 $string['publishnot'] = 'Keine Ergebnisse veröffentlichen';
-$string['responses'] = 'Antworten ';
+$string['responses'] = 'Antworten';
 $string['responsesto'] = 'Antworten zu  $a';
 $string['savemychoice'] = 'Meine Abstimmung speichern';
 $string['showunanswered'] = 'Zeige Spalte mit TN, die noch nicht geantwortet haben';
