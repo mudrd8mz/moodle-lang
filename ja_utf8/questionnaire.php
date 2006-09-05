@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // questionnaire.php - created with Moodle 1.7 dev (2006090300)
+      // questionnaire.php - created with Moodle 1.7 dev (2006090400)
 
 
 $string['addaline'] = '答えの行を追加する';
@@ -19,13 +19,17 @@ $string['confirmationpage'] = '確認ページ';
 $string['confpagedesc'] = 'ユーザがこの調査を完了した後、「確認」ページで表示される表題 ( 太字 ) および本文です。( URLが入力されている場合、確認テキストに優先します。)';
 $string['createcontent'] = '新しいコンテンツの定義';
 $string['createnew'] = '新しいアンケートを作成する';
+$string['crosstabulate'] = 'クロス集計';
 $string['crosstabulation'] = 'クロス集計';
 $string['edit'] = '編集';
 $string['editfield'] = 'このフィールドを編集するか、あなたが編集したいフィールド番号をクリックしてください。';
 $string['email'] = 'Eメール';
+$string['errnewname'] = '申し訳ございません、このアンケート名はすでに使用されています。新しいアンケート名を入力してください。';
+$string['errquestionchange'] = '申し訳ございません、これらのタイプ間で質問を変更することはできません。代わりに新しい質問を作成してください。';
 $string['errquestionoption'] = '申し訳ございません、この質問タイプには少なくとも1つの回答オプションが必要です。';
 $string['errquestiontext'] = 'この質問のテキストを入力してください。';
 $string['errquestiontype'] = '申し訳ございません、この質問のタイプを選択してください。';
+$string['errrequiredfields'] = '申し訳ございません、続行する前に、アンケート名、オーナー、およびタイトルを入力してください。';
 $string['field'] = 'フィールド $a';
 $string['fieldname'] = 'フィールド名';
 $string['generalpage'] = 'このタブの情報は、調査全体に適用されます。このページの必要事項を入力し、個々のフィールドを編集するには、<b>Edit Questions</b>に移動してください。';
@@ -33,11 +37,13 @@ $string['headingtext'] = '表題';
 $string['id'] = 'ID';
 $string['inuse'] = '使用中';
 $string['length'] = '長さ';
+$string['missingquestions'] = 'あなたは次の必須回答質問に回答していません。';
 $string['modulename'] = 'アンケート';
 $string['modulenameplural'] = 'アンケート';
 $string['mustcomplete'] = '<b>アンケート結果を保存するためには<i>今</i>このアンケートを完了させる必要があります。別の機会に回答することはできません。</b><br /><br />';
 $string['myresponsedated'] = 'あなたの回答日: $a';
 $string['myresponses'] = 'あなたのすべての回答';
+$string['myresponsetitle'] = 'あなたの回答内容: $a';
 $string['myresults'] = 'マイ リザルト';
 $string['name'] = 'アンケート名';
 $string['newfield'] = 'フィールドの保存/追加';
@@ -55,7 +61,9 @@ $string['of'] = '/';
 $string['opendate'] = '開始日を使用する';
 $string['owner'] = 'オーナー';
 $string['page'] = 'ページ';
+$string['pageof'] = 'ページ $a->page / $a->totpages';
 $string['precision'] = '精度';
+$string['previous'] = '前へ';
 $string['previouspage'] = '前のページ';
 $string['private'] = 'プライベート';
 $string['public'] = 'パブリック';
@@ -120,5 +128,7 @@ $string['url'] = 'URL';
 $string['usepublic'] = 'パブリックを使用する';
 $string['usetemplate'] = '既存のアンケートをコピーする';
 $string['usingsurvey'] = '$a を使用中';
+$string['viewresponses'] = 'すべての回答内容 $a 件を表示する';
+$string['viewyourresponses'] = 'あなたの回答内容 $a を表示する';
 
 ?>
