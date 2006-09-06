@@ -41,6 +41,18 @@ $string['themeselector'] = 'Sélecteur de thème';
 $string['nonewsettings'] = 'Aucun nouveau réglage n\'a été ajouté lors de cette mise à jour.';
 $string['upgradesettings'] = 'Nouveaux réglages';
 $string['upgradesettingsintro'] = 'Les réglages ci-dessous ont été ajoutés lors de la dernière mise à jour de votre Moodle. Effectuez les modifications nécessaires et cliquez ensuite sur « Enregistrer les réglages » au bas de cette page.';
+
+$string['nonexistentbookmark'] = 'Le marque-page demandé n\'existe pas.';
+$string['bookmarkdeleted'] = 'Marque-page supprimé.';
+$string['nobookmarksforuser'] = 'vous n\'avez pas de marque-page.';
+$string['invalidsection'] = 'Section non valide.';
+$string['bookmarkalreadyexists'] = 'Vous avez déjà marqué cette page.';
+$string['bookmarkadded'] = 'Marque-page ajouté.';
+$string['unbookmarkthispage'] = 'Supprimer le marque-page de cette page';
+$string['bookmarkthispage'] = 'Marquer cette page';
+
+$string['savechanges'] = 'Enregistrer les modifications';
+
 // end {added with admin cleanup}
 
 
