@@ -1,5 +1,6 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.4 development (2004070800)
+      // wiki.php - created with Moodle 1.6 development (2006090600)
+      // Last version for eWiki
 
 
 $string['action'] = '-- Действие --';
