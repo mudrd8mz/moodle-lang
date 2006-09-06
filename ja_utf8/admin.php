@@ -94,6 +94,7 @@ $string['configopentogoogle'] = 'この設定を「Yes」にした場合、Googl
 $string['configpathtoclam'] = 'clam AVのパス。おそらく /usr/bin/clamscan または /usr/bin/clamdscan のようになります。clam AVを正常に動作させるため、clam AVのパスを設定してください。';
 $string['configpathtodu'] = 'duのパス。おそらく /usr/bin/du のようになります。duのパスを設定した場合、ディレクトリコンテンツを表示するページの表示速度は、多くのファイルを含んだディレクトリに関して、はるかに速くなります。';
 $string['configperfdebug'] = 'この設定を「Yes」にした場合、パフォーマンス情報がスタンダードテーマのフッタに表示されます。';
+$string['configprotectusernames'] = 'デフォルトでは、forget_password.phpはユーザ名またはメールアドレスを推測できるヒントを表示しません。';
 $string['configproxyhost'] = '<b>サーバ</b>のインターネットアクセスにプロクシ ( 例 ファイアーウォール ) が必要な場合は、プロクシのホスト名とポート番号を入力してください。必要でない場合は空白にしてください。';
 $string['configquarantinedir'] = 'clam AVに感染ファイルを隔離用ディレクトリに移動させたい場合は、ここにそのディレクトリを入力してください。このディレクトリは、ウェブサーバより書き込みができるようにする必要があります。ここを空白にした場合、または存在しないか、書き込み権が無いディレクトリを指定した場合、感染ファイルは削除されます。末尾にスラッシュを付けないでください。';
 $string['configrequestedstudentname'] = 'リクエストされたコースで使用する学生 ( 単数 ) に対する呼称';
