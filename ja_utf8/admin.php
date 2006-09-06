@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006090300)
+      // admin.php - created with Moodle 1.7 dev (2006090400)
 
 
 $string['accounts'] = 'アカウント';
@@ -17,6 +17,10 @@ $string['badwordsdefault'] = '使用禁止用語リストが空の場合、言�
 $string['badwordslist'] = '特別使用禁止用語リスト';
 $string['blockinstances'] = 'インスタンス';
 $string['blockmultiple'] = '複数設置';
+$string['bookmarkadded'] = 'ブックマークが追加されました。';
+$string['bookmarkalreadyexists'] = 'すでにこのページをブックマークしています。';
+$string['bookmarkdeleted'] = 'ブックマークが削除されました。';
+$string['bookmarkthispage'] = 'このページをブックマークする';
 $string['cachetext'] = 'テキストキャッシュ保存時間';
 $string['calendarsettings'] = 'カレンダー';
 $string['change'] = '変更';
@@ -189,6 +193,7 @@ $string['importtimezonesfailed'] = 'ソースが見つかりませんでした! 
 $string['incompatibleblocks'] = '互換性がないブロック';
 $string['install'] = 'インストール';
 $string['installedlangs'] = 'インストール済み言語パック';
+$string['invalidsection'] = 'セクションが正しくありません。';
 $string['invaliduserchangeme'] = 'ユーザ名「changeme」は予約されています -- このユーザ名のアカウントは作成することができません。';
 $string['lang16notify'] = 'Moodle1.6以上のバージョンでは、下記のリンクでmoodle.orgより言語パックのインストールおよびアップデートを行うことができます。';
 $string['langedit'] = '言語の編集';
@@ -223,8 +228,10 @@ $string['mustenablestats'] = 'このサイトでは統計が使用可能にさ�
 $string['mymoodle'] = 'マイ Moodle';
 $string['mysql416bypassed'] = 'あなたのサイトが iso-8859-1 ( ラテン ) 言語のみ使用している場合、現在インストールされている MySQL 4.1.12 ( またはそれ以上 ) を使用することができます。';
 $string['mysql416required'] = 'Moodle1.6では、将来すべてのデータをUTF-8に変換するため、MySQL 4.1.16 が要求される最低限のバージョンです。';
+$string['nobookmarksforuser'] = 'ブックマークはありません。';
 $string['nolangupdateneeded'] = 'すべての言語パックは最新です。アップデートは必要ありません。';
 $string['nonewsettings'] = 'このアップグレードで、新しい設定は追加されませんでした。';
+$string['nonexistentbookmark'] = 'あなたがリクエストしたブックマークは、登録されていません。';
 $string['notifications'] = '通知';
 $string['optionalmaintenancemessage'] = '任意のメンテナンスメッセージ';
 $string['order1'] = '1番目';
@@ -248,6 +255,7 @@ $string['plugins'] = 'モジュール';
 $string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細情報は、<a target=\"_new\" href=\"$a\">オンラインリリースノート</a>をご覧ください。';
 $string['remotelangnotavailable'] = 'Moodleがmoodle.orgに接続できないため、自動的に言語パックのインストールを行うことができません。適切なzipファイルを下記のリンクより手動でダウンロードして、$a ディレクトリにコピーおよびunzipしてください。';
 $string['renameerrors'] = 'リネームのエラー';
+$string['savechanges'] = '変更を保存する';
 $string['security'] = 'セキュリティ';
 $string['server'] = 'サーバ';
 $string['sessionhandling'] = 'セッションハンドリング';
@@ -271,6 +279,7 @@ $string['therewereerrors'] = 'あなたのデータにエラーがあります�
 $string['timezoneforced'] = 'サイト管理者によって強制されています。';
 $string['timezoneisforcedto'] = 'ユーザに使用を強制';
 $string['timezonenotforced'] = 'ユーザが独自のタイムゾーンを使用';
+$string['unbookmarkthispage'] = 'このページをブックマーク解除する';
 $string['unicodeupgradenotice'] = 'Moodle1.6で、私たちはすべての言語をユニコードに移行しました。このサイトのアップグレードを完了するには、移行スクリプトを使用して、データベースのすべてのデータをユニコードにコンバートする必要があります。<a href=\"utfdbmigrate.php\">移行スクリプトを実行するには、ここをクリックしてください</a>!';
 $string['uninstall'] = '選択された言語パックをアンインストールする';
 $string['uninstallconfirm'] = 'あなたは言語パック ( $a ) を完全にアンインストールしようとしています。本当によろしいですか?';
