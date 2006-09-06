@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006090300)
+      // moodle.php - created with Moodle 1.7 dev (2006090400)
 
 
 $string['action'] = 'Eylem';
@@ -38,6 +38,7 @@ $string['address'] = 'Adres';
 $string['addstudent'] = 'Öğrenci ekle';
 $string['addteacher'] = 'Eğitimci ekle';
 $string['admin'] = 'Yönetim';
+$string['adminbookmarks'] = 'Yönetici Yer İmleri';
 $string['adminhelpaddnewuser'] = 'Elle yeni bir kullanıcı hesabı eklemek için';
 $string['adminhelpassignadmins'] = 'Yöneticiler herşeyi yapabilir ve sitedeki herşeye ulaşabilir';
 $string['adminhelpassigncreators'] = 'Kurs açıcılar yeni ders açabilirler ve bu derste eğitim verebilirler';
@@ -72,6 +73,7 @@ $string['adminhelpuploadusers'] = 'Bir düzyazı dosyasından yeni hesapları al
 $string['adminhelpusers'] = 'Kullanıcılarınızı ve yetkilerini tanımlayın';
 $string['adminhelpxmldbeditor'] = 'XMLDB dosyalarını düzenlemek için arayüz. Sadece geliştiriciler için.';
 $string['administration'] = 'Yönetim';
+$string['administrationsite'] = 'Site Yönetimi';
 $string['administrator'] = 'Yönetici';
 $string['administratordescription'] = 'Sitede ve bütün kurslarda her şeyi yapabilirler.';
 $string['administrators'] = 'Yöneticiler';
@@ -149,6 +151,7 @@ $a';
 $string['backupuserfileshelp'] = 'Kullanıcı dosyalarının (ör: profil resimleri) otomatik yedeklemelere dahil edilip edilmeyeceğini seçin';
 $string['backupusershelp'] = 'Bütün kullanıcıların sunucu içine dahil edilip edilmeyeceğini veya yalnızca her bir kurs için gerekli kullanıcıyı seçin.';
 $string['backupversion'] = 'Yedekleme Sürümü';
+$string['block'] = 'Blok';
 $string['blockconfiga'] = '$a bloğu yapılandırılıyor';
 $string['blockconfigbad'] = 'Bu blok doğru olarak kurulmadı ve bu yüzden bir yapılandırma arayüzü sağlayamaz.';
 $string['blockdeleteconfirm'] = '\'$a\' bloğunu tamamen silmek üzeresiniz. Bu blokla ilgili herşey veritabanından silinecektir. Devam etmek istediğinizden EMİN misiniz?';

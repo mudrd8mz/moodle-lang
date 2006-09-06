@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006090300)
+      // admin.php - created with Moodle 1.7 dev (2006090400)
 
 
 $string['accounts'] = 'Hesaplar';
@@ -17,6 +17,10 @@ $string['badwordsdefault'] = 'Belirtilen liste boşsa, dil paketinde geçen keli
 $string['badwordslist'] = 'Kötü kelime listesi';
 $string['blockinstances'] = 'Kullanım';
 $string['blockmultiple'] = 'Çoklu Kullanım';
+$string['bookmarkadded'] = 'Yer imi eklendi.';
+$string['bookmarkalreadyexists'] = 'Bu sayfayı zaten yer imi olarak eklediniz.';
+$string['bookmarkdeleted'] = 'Yer imi silindi.';
+$string['bookmarkthispage'] = 'yer imlerine ekle';
 $string['cachetext'] = 'Yazı önbelleği ömrü';
 $string['calendarsettings'] = 'Takvim';
 $string['change'] = 'değiştir';
@@ -170,6 +174,7 @@ $string['importtimezonesfailed'] = 'Hiç kaynak bulunamadı! (Kötü haber)';
 $string['incompatibleblocks'] = 'Uyumsuz bloklar';
 $string['install'] = 'Seçili dili kur';
 $string['installedlangs'] = 'Kurulu dil paketleri';
+$string['invalidsection'] = 'Geçersiz bölüm.';
 $string['invaliduserchangeme'] = '\"changeme\" kullanıcı adı rezerve edildiğinden dolayı bu hesabı oluşturamazsınız.';
 $string['lang16notify'] = 'Moodle 1.6 ve yukarı sürümleri dil paketlerini direkt olarak download.moodle.org sitesinden aşağıdaki linki tıklayarak indirip kurmanıza izin verir';
 $string['langedit'] = 'Dil Düzenleme';
@@ -204,8 +209,10 @@ $string['mustenablestats'] = 'Bu sitede istatsitikler etkinleştirilmemiş';
 $string['mymoodle'] = 'Kişisel Moodle';
 $string['mysql416bypassed'] = 'Siteniz SADECE iso-8859-1 (latin) dillerini kullanıyorsa şimdiki kurulu  MySQL 4.1.12 (veya yüksek) veritabanını kullanmaya devam edebilirsiniz.';
 $string['mysql416required'] = 'Moodle 1.6 için ilerde tüm verilerin UTF-8\'e çevrilebilmesinin garantilenmesi için en az MySQL 4.1.16 kurulu olması gerekir.';
+$string['nobookmarksforuser'] = 'Hiç yer imi yok.';
 $string['nolangupdateneeded'] = 'Tüm dil paketleriniz güncel olduğundan dolayı güncelleştirmeye gerek yok';
 $string['nonewsettings'] = 'Bu güncelleme sırasında yeni bir ayar eklenmedi.';
+$string['nonexistentbookmark'] = 'İstediğiniz yer imi yok.';
 $string['notifications'] = 'Bildirimler';
 $string['optionalmaintenancemessage'] = 'İsteğe bağlı bakım mesajı';
 $string['order1'] = 'İlk';
@@ -222,6 +229,7 @@ $string['pleaseregister'] = 'Bu butonu silmek için lütfen kaydolun';
 $string['plugins'] = 'Modüller';
 $string['releasenoteslink'] = 'Moodle\'ın bu sürümü hakkında bilgi için lütfen çevrimiçi <a target=\"_new\" href=\"$a\">Sürüm Notlarına</a> bakınız';
 $string['renameerrors'] = 'Yeniden adlandırmada hata';
+$string['savechanges'] = 'Değişiklikleri Kaydet';
 $string['security'] = 'Güvenlik';
 $string['server'] = 'Sunucu';
 $string['sessionhandling'] = 'Oturum Yönetimi';
@@ -244,6 +252,7 @@ $string['therewereerrors'] = 'Verinizde hatalar var';
 $string['timezoneforced'] = 'Bu site yöneticisi tarafından zorunlu tutuldu';
 $string['timezoneisforcedto'] = 'Bütün kullanıcıları kullanmaya zorunlu tut';
 $string['timezonenotforced'] = 'Kullanıcılar kendi zaman dilimini seçebilsin';
+$string['unbookmarkthispage'] = 'yer imlerinden kaldır';
 $string['unicodeupgradenotice'] = 'Moodle 1.6\'da bütün dilleri UNICODE çevirdik. Bu sitede güncellemeyi tamamlamak ve veritabanınızdaki bütün verileri UNICODE çevirmek için <a href=\"utfdbmigrate.php\">Çevirme Betiğini Şimdi Çalıştırın</a>!';
 $string['uninstall'] = 'Seçili dili kaldır';
 $string['uninstallconfirm'] = 'Dil Paketini ($a)  kaldırmak üzeresiniz, emin misiniz?';
