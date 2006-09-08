@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 dev (2006081000)
+      // assignment.php - created with Moodle 1.7 dev (2006090600)
 
 
 $string['allowmultiple'] = '複数ファイルを許可する';
@@ -8,12 +8,12 @@ $string['assignment:grade'] = '課題を評定する';
 $string['assignment:submit'] = '課題を提出する';
 $string['assignment:view'] = '課題を表示する';
 $string['assignmentdetails'] = '課題の詳細';
-$string['assignmentmail'] = '$a->teacher があなたの課題「 $a->assignment 」に対するフィードバックを登録しました。
+$string['assignmentmail'] = '$a->teacher があなたの提出課題「 $a->assignment 」に関するフィードバックを登録しました。
 
 フィードバックは、あなたの提出課題に追加されています:
 
 $a->url';
-$string['assignmentmailhtml'] = '$a->teacher があなたの課題「 <i>$a->assignment</i> 」 に対する提出課題にフィードバックを登録しました。<br /><br />フィードバックはあなたの<a href=\"$a->url\">提出課題</a>に追加されています。';
+$string['assignmentmailhtml'] = '$a->teacher があなたの提出課題「 <i>$a->assignment</i> 」 に関するフィードバックを登録しました。<br /><br />フィードバックはあなたの<a href=\"$a->url\">提出課題</a>に追加されています。';
 $string['assignmentname'] = '課題名';
 $string['assignmenttype'] = '課題タイプ';
 $string['attachfile'] = 'ファイルを添付する';
@@ -103,13 +103,13 @@ $string['typeoffline'] = 'オフライン活動';
 $string['typeonline'] = 'オンラインテキスト';
 $string['typeupload'] = 'ファイルの高度なアップロード';
 $string['typeuploadsingle'] = '単一ファイルのアップロード';
-$string['uploadbadname'] = '不正な文字がファイル名に含まれているため、このファイルをアップロードできませんでした。';
+$string['uploadbadname'] = 'ファイル名に不正な文字が含まれているため、このファイルをアップロードできませんでした。';
 $string['uploadedfiles'] = 'ファイルをアップロードしました。';
-$string['uploaderror'] = 'サーバにファイルの保存中にエラーが発生しました。';
+$string['uploaderror'] = 'サーバへのファイル保存中にエラーが発生しました。';
 $string['uploadfailnoupdate'] = 'ファイルはアップロードされましたが、提出課題は更新できませんでした!';
 $string['uploadfiletoobig'] = '申し訳ございません、ファイルサイズが制限を越えています ( 制限は $a バイトです )';
-$string['uploadnofilefound'] = 'ファイルが見つかりませんでした - アップロードするファイルを選択しましたか?';
-$string['uploadnotregistered'] = '「 $a 」は正常にアップロードされましたが、登録されませんでした!';
+$string['uploadnofilefound'] = 'ファイルが見つかりませんでした - 本当にアップロードするファイルを選択しましたか?';
+$string['uploadnotregistered'] = '「 $a 」は正常にアップロードされましたが、提出課題は登録されませんでした!';
 $string['uploadsuccess'] = '「 $a 」のアップロードが正常に完了しました。';
 $string['uploadsuccessresponse'] = 'レスポンスファイルが正常にアップロードされました。';
 $string['viewfeedback'] = '提出課題の評価とフィードバックを確認する';
