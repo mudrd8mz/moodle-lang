@@ -4,7 +4,7 @@
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
 $string['addanewquestion'] = '新しい質問を追加する';
-$string['addanewtopic'] = 'トピックの追加する';
+$string['addanewtopic'] = '新しいトピックを追加する';
 $string['advancedsearch'] = '検索オプション';
 $string['allforums'] = 'すべてのフォーラム';
 $string['allowchoice'] = '選択できるようにする';
