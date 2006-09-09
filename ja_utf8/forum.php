@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006082300)
+      // forum.php - created with Moodle 1.7 dev (2006090600)
 
 
-$string['addanewdiscussion'] = 'ディスカッショントピックを追加';
-$string['addanewquestion'] = '新しい質問を追加';
-$string['addanewtopic'] = 'トピックの追加';
+$string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
+$string['addanewquestion'] = '新しい質問を追加する';
+$string['addanewtopic'] = 'トピックの追加する';
 $string['advancedsearch'] = '検索オプション';
 $string['allforums'] = 'すべてのフォーラム';
 $string['allowchoice'] = '選択できるようにする';
