@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006082300)
+      // lesson.php - created with Moodle 1.7 dev (2006090600)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -54,6 +54,7 @@ $string['continuetoanswer'] = '続けて答えを変更する。';
 $string['correctanswerjump'] = '正解のジャンプ先';
 $string['correctanswerscore'] = '正解の評点';
 $string['correctresponse'] = '正解に対するレスポンス';
+$string['credit'] = '承認';
 $string['customscoring'] = 'カスタムスコア';
 $string['deadline'] = 'レッスン終了';
 $string['defaultessayresponse'] = 'あなたの作文はコース教師によって評定されます。';
@@ -80,7 +81,7 @@ $string['editpagecontent'] = 'ページコンテンツの編集';
 $string['email'] = 'メール';
 $string['emailallgradedessays'] = 'すべての作文問題の評定結果を<br />メール送信する';
 $string['emailgradedessays'] = '作文問題の評定結果をメール送信する';
-$string['emailsuccess'] = 'メール送信完了';
+$string['emailsuccess'] = 'メールが正常に送信されました。';
 $string['endofbranch'] = '終了ブランチ';
 $string['endofclustertitle'] = '終了クラスタ';
 $string['endoflesson'] = 'レッスン終了';
@@ -141,7 +142,7 @@ $string['maximumnumberofattempts'] = '最大受験回数';
 $string['maximumnumberofattemptsreached'] = '最大受験回数に達しました - 次のページに移動しています。';
 $string['maxtime'] = '制限時間 ( 分 )';
 $string['maxtimewarning'] = 'レッスン終了まで $a 分です。';
-$string['mediaclose'] = '「ウィンドウを閉じる」ボタンを表示:';
+$string['mediaclose'] = '「ウィンドウを閉じる」ボタンを表示する:';
 $string['mediafile'] = 'ファイルまたはウェブページへポップアップする';
 $string['mediafilepopup'] = 'レッスンメディアファイルを閲覧するにはここをクリックしてください。';
 $string['mediaheight'] = 'ウィンドウ高:';
@@ -163,6 +164,7 @@ $string['noanswer'] = '解答がありません。戻って解答を送信して
 $string['noattemptrecordsfound'] = '受験レコードが見つかりません: 評定なし';
 $string['nocommentyet'] = 'コメントはありません。';
 $string['nocoursemods'] = '活動はありません。';
+$string['nocredit'] = '未承認';
 $string['noessayquestionsfound'] = 'このレッスンには作文問題はありません。';
 $string['nohighscores'] = 'ハイスコアはありません。';
 $string['nolessonattempts'] = 'このレッスンは受験されていません。';
@@ -196,10 +198,10 @@ $string['pages'] = 'ページ';
 $string['pagetitle'] = 'ページタイトル';
 $string['password'] = 'パスワード';
 $string['passwordprotectedlesson'] = '$a はパスワードで保護されたレッスンです。';
-$string['pleasecheckoneanswer'] = '答えを選択して、このボタンをクリック';
-$string['pleasecheckoneormoreanswers'] = '1つ以上の答えを選択して、このボタンをクリック';
-$string['pleaseenteryouranswerinthebox'] = '答えを入力して、このボタンをクリック';
-$string['pleasematchtheabovepairs'] = '答えを選択して、このボタンをクリック';
+$string['pleasecheckoneanswer'] = '答えを選択して、このボタンをクリックしてください';
+$string['pleasecheckoneormoreanswers'] = '1つ以上の答えを選択して、このボタンをクリックしてください';
+$string['pleaseenteryouranswerinthebox'] = '答えを入力して、このボタンをクリックしてください';
+$string['pleasematchtheabovepairs'] = '答えを選択して、このボタンをクリックしてください';
 $string['pointsearned'] = '獲得点数';
 $string['postsuccess'] = '正常に投稿されました。';
 $string['practice'] = '練習レッスン';
