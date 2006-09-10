@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 dev (2006083001)
+      // xmldb.php - created with Moodle 1.7 dev (2006090600)
 
 
 $string['aftertable'] = 'アフターテーブル:';
@@ -78,6 +78,7 @@ $string['statementtable'] = 'ステートメントテーブル:';
 $string['statementtype'] = 'ステートメントタイプ:';
 $string['table'] = 'テーブル';
 $string['tables'] = 'テーブル';
+$string['test'] = 'テスト';
 $string['textincorrectlength'] = 'textフィールドの長さが正しくありません。';
 $string['unload'] = 'アンロード';
 $string['up'] = '上へ';
