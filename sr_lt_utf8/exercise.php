@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.6 + (2006050506)
+      // exercise.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['absent'] = 'Odsutan';
@@ -92,7 +92,7 @@ Vašeg rada koju je dao/la $a. Što je viša ocena to je bliži dogovor.';
 $string['noteonstudentassessments'] = '{Ocena studenta/Ocenjivanje ocene za procenu}';
 $string['notgraded'] = 'Nije ocenjeno';
 $string['notitlegiven'] = 'Nije dat naslov';
-$string['numberofassessmentelements'] = 'Broj komentara, elemenata ocenjivanja, kriterijuma ili kategorija po rubrikama';
+$string['numberofassessmentelements'] = 'Broj komentara, elemenata ocenjivanja, opsega ocena, kriterijuma ili kategorija u rubrici';
 $string['numberofcriterionelements'] = 'Broj elemenata kriterijuma mora biti veći od jedan';
 $string['numberofentries'] = 'Broj ulazaka';
 $string['numberofentriesinleaguetable'] = 'Broj ulazaka u skup iznetih predloga';
@@ -120,7 +120,7 @@ $string['reassess'] = 'Ponovno ocenjivanje';
 $string['regradestudentassessments'] = 'Ponovno ocenjivanje studentskih procena';
 $string['resubmissionfor'] = 'Ponovna predaja za $a';
 $string['resubmitnote'] = '* znači da $a ima dozvolu za ponovnu predaju rešenja.<br />Ova oznaka može se dati bilo kom predatom rešenju ponovnim procenjivanjem i klikom <br />na  <b>Dozvoli $a da ponovo preda rešenje</b> dugme. <br />Student može ponovo da preda svoje rešenje kada je ova oznaka prisutna na <b>bilo kom</b> od njegovih/njenih predatih rešenja.';
-$string['rubric'] = 'Crveno označen';
+$string['rubric'] = 'Rubrika';
 $string['savedok'] = 'Uredno sačuvano';
 $string['saveentries'] = 'Sačuvaj unose';
 $string['savemyassessment'] = 'Sačuvaj moje procene';

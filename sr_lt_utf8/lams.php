@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.6 + (2006050506)
+      // lams.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['createSequence'] = 'Kreiranje novog redosleda';
@@ -28,4 +28,3 @@ $string['workspace'] = 'Izaberite radni prostor';
 $string['wrongversionrange'] = '$a nije tačan opseg!';
 
 ?>
-
