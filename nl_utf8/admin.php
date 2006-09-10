@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006090300)
+      // admin.php - created with Moodle 1.7 dev (2006090600)
 
 
 $string['accounts'] = 'Accounts';
@@ -17,6 +17,10 @@ $string['badwordsdefault'] = 'Je aangepaste lijst is leeg. Er zal een standaardl
 $string['badwordslist'] = 'Aangepaste lijst te censureren woorden';
 $string['blockinstances'] = 'In gebruik';
 $string['blockmultiple'] = 'Meer';
+$string['bookmarkadded'] = 'Bladwijzer toegevoegd';
+$string['bookmarkalreadyexists'] = 'Je hebt al een bladwijzer naar deze pagina gemaakt';
+$string['bookmarkdeleted'] = 'Bladwijzer verwijderd';
+$string['bookmarkthispage'] = 'Maak een bladwijzer naar deze pagina';
 $string['cachetext'] = 'Hoelang mag tekst in cache blijven';
 $string['calendarsettings'] = 'Kalender';
 $string['change'] = 'wijzig';
@@ -90,6 +94,7 @@ $string['configopentogoogle'] = 'Als je deze instelling inschakelt, dan zal Goog
 $string['configpathtoclam'] = 'Pad naar clam AV. Gewoonlijk iets als /usr/bin/clamscan of /usr/bin/clamdscan. Je hebt dit nodig om clam AV te laten lopen.';
 $string['configpathtodu'] = 'Pad naar du. Waarschijnlijk iets als /usr/bin/du. Als je dit invult, dan zullen pagina\'s die mapinhoud tonen veel sneller openen bij mappen met veel bestanden in.';
 $string['configperfdebug'] = 'Als je dit inschakelt wordt er informatie over de performantie getoond onderaan de pagina. Je moet hiervoor het standaard thema gebruiken.';
+$string['configprotectusernames'] = 'De standaardinstelling voor forget_password.php is dat er geen hints getoond worden die het zouden mogelijk maken een gebruikersnaam of e-mailadres te raden.';
 $string['configproxyhost'] = 'Als deze <b>server</b> een proxyserver (zoals bijvoorbeeld een firewall) nodig heeft om op het internet te komen, vul hier dan de hostname en de poort van de proxy in. Laat het veld leeg als dit niet het geval is.';
 $string['configquarantinedir'] = 'Als je wil dat clam AV besmette bestanden naar een quarantainemap verplaatst, zet het pad dan hier. Het moet beschrijfbaar zijn voor de webserver. Als je dit leeg laat of als je een map opgeeft die niet bestaat of niet beschrijfbaar is, dan zullen besmette bestanden verwijderd worden. Gebruik geen schuine streep achteraan het pad.';
 $string['configrequestedstudentname'] = 'Woord voor leerling, gebruikt in aangevraagde cursussen';
@@ -189,6 +194,7 @@ $string['importtimezonesfailed'] = 'Geen bronnen gevonden! (= slecht nieuws)';
 $string['incompatibleblocks'] = 'Niet-compatibele blokken';
 $string['install'] = 'Installeer het geselecteerde taalpakket';
 $string['installedlangs'] = 'Geïnstalleerde taalpakketten';
+$string['invalidsection'] = 'Ongeldige sectie';
 $string['invaliduserchangeme'] = 'De gebruikersnaam \"changeme\" kan niet als gebruikersnaam gebruikt worden. Kies een andere.';
 $string['lang16notify'] = 'Vanaf Moodle 1.6 kun je rechtstreeks van download.moodle.org taalpakketten installeren en updaten door op onderstaande link te klikken';
 $string['langedit'] = 'Taal bewerken';
@@ -223,8 +229,10 @@ $string['mustenablestats'] = 'Op deze server zijn Statistieken nog uitgeschakeld
 $string['mymoodle'] = 'Mijn Moodle';
 $string['mysql416bypassed'] = 'Als je site echter UITSLUITEND iso-8859-1 (latin) talen gebruikt, dan kun je MySQL 4.1.12 (of hoger) blijven gebruiken.';
 $string['mysql416required'] = 'MySQL 4.1.16 is de minimum versie die nodig is voor Moodle 1.6 om te kunnen garanderen dat alle gegevens naar UTF-8 geconverteerd zullen worden.';
+$string['nobookmarksforuser'] = 'Je hebt geen bladwijzers.';
 $string['nolangupdateneeded'] = 'Al je geïnstalleerde taalpakketten zijn up-to-date. Er is geen update nodig.';
 $string['nonewsettings'] = 'Er zijn geen nieuwe instellingen toegevoegd tijdens deze upgrade';
+$string['nonexistentbookmark'] = 'De bladwijzer die je vroeg, bestaat niet.';
 $string['notifications'] = 'Meldingen';
 $string['optionalmaintenancemessage'] = 'Optionele onderhoudsboodschap';
 $string['order1'] = 'Eerste';
@@ -248,6 +256,7 @@ $string['plugins'] = 'Modules';
 $string['releasenoteslink'] = 'Bekijk de on line <a target=\"_new\" href=\"$a\">Release Notes</a> voor informatie over deze versie van Moodle.';
 $string['remotelangnotavailable'] = 'Het is niet mogelijk om automatisch taalpakketten te installeren, omdat Moodle geen verbinding kan maken met Moodle.org. Download daarom de nodige zipbestanden uit onderstaande lijst, copieer ze naar je $a map en unzip ze daar.';
 $string['renameerrors'] = 'Fouten in hernoemen';
+$string['savechanges'] = 'Bewaar wijzigingen';
 $string['security'] = 'Veiligheid';
 $string['server'] = 'Server';
 $string['sessionhandling'] = 'Sessie afhandeling';
@@ -271,6 +280,7 @@ $string['therewereerrors'] = 'Er waren fouten in je gegevens';
 $string['timezoneforced'] = 'Dit is opgelegd door de sitebeheerder';
 $string['timezoneisforcedto'] = 'Iedereen gebruikt';
 $string['timezonenotforced'] = 'Gebruikers kunnen hun eigen tijdzone kiezen';
+$string['unbookmarkthispage'] = 'Verwijder de bladwijzer naar deze pagina';
 $string['unicodeupgradenotice'] = 'In Moodle 1.6 zijn alle talen naar Unicode gemigreerd. Om het upgradeproces van deze site af te werken, moet je alle gegevens in de databank naar Unicode converteren door ons migratiescript. <a href=\"utfdbmigrate.php\">Klik hier om het migratiescript nu te starten</a>!';
 $string['uninstall'] = 'Verwijder het geselecteerde taalpakket';
 $string['uninstallconfirm'] = 'Je gaat zodadelijk het taalpakket $a verwijderen. Verder gaan?';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006090300)
+      // moodle.php - created with Moodle 1.7 dev (2006090600)
 
 
 $string['action'] = 'Actie';
@@ -38,6 +38,7 @@ $string['address'] = 'Adres';
 $string['addstudent'] = 'Voeg een leerling toe';
 $string['addteacher'] = 'Voeg een leraar toe';
 $string['admin'] = 'Beheer';
+$string['adminbookmarks'] = 'Beheer bladwijzers';
 $string['adminhelpaddnewuser'] = 'Handmatig een nieuwe account aanmaken';
 $string['adminhelpassignadmins'] = 'Beheerders kennen geen beperkingen en hebben overal toegang binnen de site';
 $string['adminhelpassigncreators'] = 'Cursus-aanmakers kunnen nieuwe cursussen aanmaken en binnen deze cursussen les geven';
@@ -72,6 +73,7 @@ $string['adminhelpuploadusers'] = 'Importeer nieuwe gebruikersaccounts vanuit ee
 $string['adminhelpusers'] = 'Definieer je gebruikers en stel de authenticatie in';
 $string['adminhelpxmldbeditor'] = 'Interface om de XMLDB-bestanden te bewerken. Enkel voor ontwikkelaars';
 $string['administration'] = 'Beheer';
+$string['administrationsite'] = 'Site beheer';
 $string['administrator'] = 'Beheerder';
 $string['administratordescription'] = 'Beheerders kunnen gewoonlijk op de hele site alles doen, in alle cursussen.';
 $string['administrators'] = 'Beheerders';
@@ -149,6 +151,7 @@ $a';
 $string['backupuserfileshelp'] = 'Selecteer als je gebruikersbestanden in de backup wil';
 $string['backupusershelp'] = 'Selecteer als je alle gebruikers op de server of alleen de gebruikers van het cursus in de backup wil';
 $string['backupversion'] = 'Versie backup';
+$string['block'] = 'Blok';
 $string['blockconfiga'] = 'Een $a blok configureren';
 $string['blockconfigbad'] = 'Dit blok is niet juist geïmplementeerd en kan dus geen configuratie-interface tonen. Cursus:';
 $string['blockdeleteconfirm'] = 'Je gaat het blok \'$a\' volledig verwijderen. Hiermee zal alles in de databank dat met dit blok geassocieerd is verwijderd worden. Ben je ZEKER dat je hiermee verder wil gaan?';
@@ -440,6 +443,7 @@ In de meeste e-mailprogramma\'s zou dit moeten verschijnen als een blauwe link w
 
 Als je hulp nodig hebt, neem dan contact op met de sitebeheerder, $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: bevestiging van de wijziging van het wachtwoord';
+$string['emailpasswordconfirmmaybesent'] = '<p>Als je de juiste gebruikersnaam of e-mailadres ingegeven hebt, dan is er een email naar je gestuurd.</p><p>Daarin staan eenvoudige instructies om te bevestige en om deze wijziging van wachtwoord af te werken. Als je blijft moeilijkheden ondervinden, kun je best contakt opnemen met de site beheerder .</p>';
 $string['emailpasswordconfirmsent'] = 'Er is een e-mail verstuurd naar jouw adres: <b>$a</b>.
 Indien je moeilijkheden blijft ondervinden, neem dan contact op met je sitebeheerder.';
 $string['emailpasswordsent'] = 'Bedankt voor de bevestiging van de wijziging van je wachtwoord.
