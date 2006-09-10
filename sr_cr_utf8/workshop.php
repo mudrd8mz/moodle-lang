@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.6 + (2006050506)
+      // workshop.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['absent'] = 'Одсутан';
@@ -168,7 +168,7 @@ $string['notitle'] = 'Без наслова';
 $string['notitlegiven'] = 'Без датог наслова';
 $string['notsubmittedyet'] = 'Још није предато ниједно решење.';
 $string['nowork'] = 'Рок за предају решења је истекао.<br />Нисте предали рад.';
-$string['numberofassessmentelements'] = 'Број коментара, Елементи оцењивања, Опсег оцена, Критеријуми или категорије у наглашеној рубрици';
+$string['numberofassessmentelements'] = 'Број коментара, елемената оцењивања, опсега оцена, критеријума или категорија у рубрици';
 $string['numberofassessments'] = 'Број процена';
 $string['numberofassessmentschanged'] = 'Број измењених процена: $a';
 $string['numberofassessmentsdropped'] = 'Број процена од којих се одустало: $a';
@@ -220,7 +220,7 @@ $string['repeatanalysis'] = 'Понови анализу';
 $string['reply'] = 'Одговор';
 $string['returnto'] = 'Повратак на';
 $string['returntosubmissionpage'] = 'Повратак на страницу предатих решења';
-$string['rubric'] = 'Наглашена рубрика';
+$string['rubric'] = 'Рубрика';
 $string['savedok'] = 'Успешно сачувано';
 $string['saveleaguetableoptions'] = 'Сачувај опције за свеобухватну табелу';
 $string['savemyassessment'] = 'Сачувај моју процену';
