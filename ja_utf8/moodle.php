@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006090400)
+      // moodle.php - created with Moodle 1.7 dev (2006090600)
 
 
 $string['action'] = '操作';
@@ -483,8 +483,8 @@ $string['executeat'] = 'バックアップ処理開始時刻';
 $string['existing'] = '既存';
 $string['existingadmins'] = '管理者一覧';
 $string['existingcourse'] = '既存のコース';
-$string['existingcourseadding'] = '既存のコース、ここにデータを追加する';
-$string['existingcoursedeleting'] = '既存のコース、最初に削除する';
+$string['existingcourseadding'] = '既存のコース、既存のコースにデータを追加する';
+$string['existingcoursedeleting'] = '既存のコース、最初に既存のコースを削除する';
 $string['existingcreators'] = 'コース作成者一覧';
 $string['existingstudents'] = '登録済み学生';
 $string['existingteachers'] = '教師一覧';
