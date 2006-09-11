@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006083102)
+      // quiz.php - created with Moodle 1.7 dev (2006090600)
 
 
 $string['1day'] = '1日';
@@ -347,7 +347,7 @@ $string['partiallycorrect'] = '部分的に正解';
 $string['passworderror'] = 'パスワードが間違っています。';
 $string['penalty'] = 'ペナルティ';
 $string['penaltyfactor'] = 'ペナルティ要素';
-$string['penaltyscheme'] = 'ペナルティを適用';
+$string['penaltyscheme'] = 'ペナルティを適用する';
 $string['percentcorrect'] = '正答率';
 $string['pleaseclose'] = 'あなたのリクエストは処理されました。このウィンドウを閉じてください。';
 $string['popup'] = '小テストを「セキュア」ウィンドウに表示する';
