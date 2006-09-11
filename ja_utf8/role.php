@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006090300)
+      // role.php - created with Moodle 1.7 dev (2006090600)
 
 
 $string['allow'] = '許可';
@@ -20,11 +20,19 @@ $string['course:activityvisibility'] = '活動を表示/非表示する';
 $string['course:create'] = 'コースを作成する';
 $string['course:delete'] = 'コースを削除する';
 $string['course:manageactivities'] = '活動を管理する';
+$string['course:managefiles'] = 'ファイルを管理する';
+$string['course:managegrades'] = '評定を管理する';
 $string['course:managegroups'] = 'グループを管理する';
+$string['course:managequestions'] = '問題を管理する';
 $string['course:managescales'] = '尺度を管理する';
+$string['course:reset'] = 'コースをリセットする';
+$string['course:sectionvisibility'] = 'セクションの視認性をコントロールする';
+$string['course:setcurrentsection'] = '最新のトピックを設定する';
 $string['course:update'] = 'コース設定を更新する';
 $string['course:view'] = 'コースを表示する';
+$string['course:viewcoursegrades'] = 'コース評定を表示する';
 $string['course:viewhiddenactivities'] = '非表示の活動を表示する';
+$string['course:viewhiddensections'] = '非表示のセクションを表示する';
 $string['course:viewparticipants'] = '参加者を表示する';
 $string['course:viewscales'] = '尺度を表示する';
 $string['course:visibility'] = 'コースを表示/非表示する';
@@ -45,20 +53,33 @@ $string['permissions'] = 'パーミッション';
 $string['potentialusers'] = '潜在的なユーザ: $a';
 $string['prevent'] = '抑制';
 $string['prohibit'] = '禁止';
+$string['question:export'] = '問題をエクスポートする';
+$string['question:import'] = '問題をインポートする';
+$string['question:manage'] = '問題を管理する';
+$string['question:managecategory'] = '問題カテゴリを管理する';
 $string['role:assign'] = 'ユーザに任務を割り当てる';
 $string['role:manage'] = '任務を作成および管理する';
+$string['role:override'] = '他のパーミッションをオーバーライドする';
+$string['role:unassignself'] = '自分の任務を解除する';
 $string['roletoassign'] = '割り当てる任務';
 $string['site:accessallgroups'] = 'すべてのグループにアクセスする';
 $string['site:backup'] = 'コースをバックアップする';
 $string['site:config'] = 'サイト設定を変更する';
 $string['site:doanything'] = 'すべての動作を許可する';
+$string['site:doclinks'] = 'サイト外ドキュメントのリンクを表示する';
 $string['site:import'] = 'コースに他のコースをインポートする';
 $string['site:manageblocks'] = 'サイトレベルのブロックを管理する';
 $string['site:restore'] = 'コースをリストアする';
+$string['site:trustcontent'] = 'コンテンツが安全だと信頼する';
 $string['site:viewfullnames'] = 'ユーザのフルネームを常に表示する';
+$string['site:viewreports'] = 'レポートを表示する';
 $string['user:create'] = 'ユーザを作成する';
 $string['user:delete'] = 'ユーザを削除する';
+$string['user:readuserblogs'] = 'すべてのユーザブログを表示する';
+$string['user:readuserposts'] = 'すべてのユーザ投稿を表示する';
 $string['user:update'] = 'ユーザプロフィールを更新する';
 $string['user:viewdetails'] = 'ユーザプロフィールを表示する';
+$string['user:viewuseractivitiesreport'] = 'ユーザの活動レポートを表示する';
+$string['user:viewusergrades'] = 'ユーザの評定を表示する';
 
 ?>
