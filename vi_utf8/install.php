@@ -51,7 +51,7 @@ này nên có khả năng đọc và khả năng viết bởi người dùng web
 (thông thường \'không ai\' hoặc \'apache\'), nhưng nó không nên có khả năng truy cập trực tiếp qua web 
 .</p>';
 $string['dirroot'] = 'Thư mục Moodle';
-$string['dirrooterror'] = '  Thiết lập \'Thư mục Moodle\' dường như không đúng - chúng tôi không thể tìm thấy một sự cài đặt Moodle ở đó. Giá trị dưới đây được đặt lại.';
+$string['dirrooterror'] = '  Thiết lập \'Thư mục Moodle\' dường như không đúng - chúng tôi không thể tìm thấy các file cài đặt Moodle ở đó. Giá trị dưới đây được đặt lại.';
 $string['download'] = 'Tải xuống';
 $string['fail'] = 'Thất bại';
 $string['fileuploads'] = 'File tải lên';
@@ -76,7 +76,7 @@ $string['gdversionhelp'] = '<p> Máy chủ của bạn hình như không cài GD
 <p>Để thêm GD vào PHP dưới hệ điều hành Unix, biên dịch PHP sử dụng tham số--with-gd. </p>
 
 <p>Dưới hệ điều hành Windows bạn có thể soạn thảo file php.ini và bỏ dấu chú thích dòng tham chiếu đến libgd.dll.</p>';
-$string['installation'] = 'Sự cài đặt';
+$string['installation'] = 'Cài đặt';
 $string['magicquotesruntime'] = 'Magic Quotes Run Time';
 $string['magicquotesruntimeerror'] = 'Điều này nên là off';
 $string['magicquotesruntimehelp'] = '<p>Magic quotes runtime nên được tắt để Moodle hoạt động đúng.</p>
@@ -131,6 +131,6 @@ $string['sessionautostarthelp'] = '<p>Moodle yêu cầu hỗ trợ session và s
 
 <p>Sessions có thể được cho phép trong file php.ini ... tìm kiếm tham số session.auto_start.</p>';
 $string['wwwroot'] = 'Địa chỉ web';
-$string['wwwrooterror'] = ' Địa chỉ web không xuất hiện hợp lệ - sự cài đặt Moodle không xuất hiện ở đó.';
+$string['wwwrooterror'] = ' Địa chỉ web không xuất hiện hợp lệ - Các file cài đặt Moodle không xuất hiện ở đó.';
 
 ?>
