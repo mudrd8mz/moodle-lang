@@ -77,6 +77,7 @@ $string['statementtable'] = 'Table d\'instruction :';
 $string['statementtype'] = 'Type d\'instruction :';
 $string['table'] = 'Table';
 $string['tables'] = 'Tables';
+$string['test'] = 'Test';
 $string['textincorrectlength'] = 'Longueur du champ texte incorrecte';
 $string['unload'] = 'Unload';
 $string['up'] = 'Vers le haut';
