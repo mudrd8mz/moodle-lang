@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006090400)
+      // moodle.php - created with Moodle 1.7 dev (2006090600)
 
 
 $string['action'] = 'Eylem';
@@ -443,6 +443,8 @@ Bir çok mail programı yukarıdaki linki tıklanabilir olarak göstermektedir. 
 Yardıma ihtiyacınız olursa site yöneticisiyle iletişim kurun:
 $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: Şifre değişim onayı';
+$string['emailpasswordconfirmmaybesent'] = '<p>Geçerli bir kullanıcı adı veya adres belirttiyseniz size bir e-posta gönderilmiş olmalı.</p>
+<p>Bu e-posta, şifre değişimini onaylamanız ve tamamlamanız için basit yönergeleri içermektedir. Zorluk yaşarsanız, lütfen site yöneticisiyle ilerişim kurun.</p>';
 $string['emailpasswordconfirmsent'] = 'E-posta adresinize (<b>$a</b>) bir mesaj gönderildi.<br />Bu mesaj, şifre değişimini tamamlamanız için basit yönergeleri içermektedir.
 Bu işlemleri yaparken zorluk yaşarsanız site yöneticisiyle iletişim kurabilirsiniz.';
 $string['emailpasswordsent'] = 'Şifre değişimini onayladığınız için teşekkür ederiz. Bu e-posta adresinize <b>$a->email</b> yeni şifrenizi içeren bir mesaj gönderildi. Yeni şifreniz otomatik olarak oluşturulmuştur ve isterseniz bunu hatırlaması daha kolay bir şifreyle <a href=\"$a->link\">değiştirebilirsiniz</a>.';

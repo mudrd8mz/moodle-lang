@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006090300)
+      // role.php - created with Moodle 1.7 dev (2006090600)
 
 
 $string['allow'] = 'İzin ver';
@@ -20,11 +20,19 @@ $string['course:activityvisibility'] = 'Etkinlikleri gizle/göster';
 $string['course:create'] = 'Kursları oluştur';
 $string['course:delete'] = 'Kursları sil';
 $string['course:manageactivities'] = 'Etkinlikleri yönet';
+$string['course:managefiles'] = 'Dosyaları yönet';
+$string['course:managegrades'] = 'Notları yönet';
 $string['course:managegroups'] = 'Grupları yönet';
+$string['course:managequestions'] = 'Soruları yönet';
 $string['course:managescales'] = 'Ölçekleri yönet';
+$string['course:reset'] = 'Kursu temizle';
+$string['course:sectionvisibility'] = 'Bölüm gizliliğini değiştir';
+$string['course:setcurrentsection'] = 'Şimdiki bölümü ayarla';
 $string['course:update'] = 'Kurs ayarlarını yönet';
 $string['course:view'] = 'Kurslara bak';
+$string['course:viewcoursegrades'] = 'Kurs notlarına bak';
 $string['course:viewhiddenactivities'] = 'Gizli etkinliklere bak';
+$string['course:viewhiddensections'] = 'Gizli bölümlere bak';
 $string['course:viewparticipants'] = 'Katılımcılara bak';
 $string['course:viewscales'] = 'Ölçeklere bak';
 $string['course:visibility'] = 'Kursları gizle/göster';
@@ -45,20 +53,33 @@ $string['permissions'] = 'İzinler';
 $string['potentialusers'] = '$a olası kullanıcı';
 $string['prevent'] = 'Engelle';
 $string['prohibit'] = 'Yasakla';
+$string['question:export'] = 'Soruları çıkart';
+$string['question:import'] = 'Soruları al';
+$string['question:manage'] = 'Soruları yönet';
+$string['question:managecategory'] = 'Soru kategorilerini yönet';
 $string['role:assign'] = 'Kullanıcılara rol ata';
 $string['role:manage'] = 'Rolleri oluştur ve yönet';
+$string['role:override'] = 'Diğerleri için izinlerin üstüne yaz';
+$string['role:unassignself'] = 'Kendi rolünü kaldır';
 $string['roletoassign'] = 'Atanacak rol';
 $string['site:accessallgroups'] = 'Tüm gruplara eriş';
 $string['site:backup'] = 'Kursları yedekle';
 $string['site:config'] = 'Site yapılandırmasını değiştir';
 $string['site:doanything'] = 'Her şeyi yapmasına izin ver';
+$string['site:doclinks'] = 'Site dışı belgelere bağlantıları göster';
 $string['site:import'] = 'Bir kursu başka bir kursa yükle';
 $string['site:manageblocks'] = 'Site seviyesindeki blokları yönet';
 $string['site:restore'] = 'Kursları geri yükle';
+$string['site:trustcontent'] = 'İçeriğin güvenilir olduğuna itimat et';
 $string['site:viewfullnames'] = 'Kullanıcıların tam isimlerini gör';
+$string['site:viewreports'] = 'Raporlara bak';
 $string['user:create'] = 'Kullanıcı oluştur';
 $string['user:delete'] = 'Kullanıcı sil';
+$string['user:readuserblogs'] = 'Tüm kullanıcı bloglarına bak';
+$string['user:readuserposts'] = 'Tüm kullanıcı mesajlarına bak';
 $string['user:update'] = 'Kullanıcı profillerini güncelle';
 $string['user:viewdetails'] = 'Kullanıcı profillerine bak';
+$string['user:viewuseractivitiesreport'] = 'Kullanıcı etkinlik raporlarına bak';
+$string['user:viewusergrades'] = 'Kullanıcı notlarına bak';
 
 ?>

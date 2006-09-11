@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006090400)
+      // admin.php - created with Moodle 1.7 dev (2006090600)
 
 
 $string['accounts'] = 'Hesaplar';
@@ -87,6 +87,7 @@ $string['configopentogoogle'] = 'Bu ayar etkinleştirilirse, Google, siteye konu
 $string['configpathtoclam'] = 'Clam AV\'in yolu. Büyük ihtimal /usr/bin/clamscan veya /usr/bin/clamdscan olması gerekiyor. Clam AV\'in çalışması için bunu belirtmeniz gerekir.';
 $string['configpathtodu'] = 'du\'nun yolu. İhtimalen /usr/bin/du gibi bir şeyler olmalı. Bunu girerseniz dosyası çok olan klasörlerin içerikleri daha hızlı gösterilir.';
 $string['configperfdebug'] = 'Bunu açık yaparsanız, performans bilgisi standard temanın altında yazılır';
+$string['configprotectusernames'] = 'Varsayılan olarak forget_password.php (şifre hatırlatma) sayfası kullanıcı adını veya e-posta adresini hatırlatacak herhangi bir ipucu göstermez.';
 $string['configproxyhost'] = 'Bu <b>sunucunun</b> internete erişmek için bir vekil bilgisayara (firewall gibi) gereksinimi varsa vekil sunucunun host adını ve bağlantı noktasını buraya girin, aksi takdirde boş bırakın.';
 $string['configquarantinedir'] = 'Clam AV\'in virüs bulaşmış dosyaları karantina klasörüne taşımasını istiyorsanız buraya yolu yazınız. Bu klasör Web sunucu tarafından yazılabilir olmalı. Burayı boş bırakırsanız veya olmayan bir klasörü girerseniz ya da klasör yazılabilir değilse, virüslü dosyalar silinir. Klasörün sonuna slash (/) ekleMEyin.';
 $string['configrequestedstudentname'] = 'İstek kurslar için öğrenci kelimesi';

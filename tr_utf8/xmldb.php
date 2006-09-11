@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 dev (2006083102)
+      // xmldb.php - created with Moodle 1.7 dev (2006090600)
 
 
 $string['aftertable'] = 'Tablodan Sonra:';
@@ -78,6 +78,7 @@ $string['statementtable'] = 'İfade Tablosu:';
 $string['statementtype'] = 'İfade Tipi:';
 $string['table'] = 'Tablo';
 $string['tables'] = 'Tablolar';
+$string['test'] = 'Dene';
 $string['textincorrectlength'] = 'Metin alanı için geçersiz uzunluk';
 $string['unload'] = 'Yükleme';
 $string['up'] = 'Yukarı';
