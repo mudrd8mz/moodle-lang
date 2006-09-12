@@ -2,7 +2,7 @@
       // xmldb.php - created with Moodle 1.7 dev (2006090600)
 
 
-$string['aftertable'] = 'アフターテーブル:';
+$string['aftertable'] = '次のテーブルの後:';
 $string['back'] = '戻る';
 $string['backtomainview'] = 'メインに戻る';
 $string['binaryincorrectlength'] = 'binaryフィールドの長さが正しくありません。';
