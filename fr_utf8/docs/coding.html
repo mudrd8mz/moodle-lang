@@ -31,7 +31,7 @@
 
 <li class="spaced">Tous les fichiers doivent comporter une commande d'inclusion du fichier config.php principal.</li>
 
-<li class="spaced">Tous les fichiers doivent vérifier que l'utilisateur est correctement authentifié, à l'aide de require_login() et d'une des fonctions isadmin(), isteacher(), iscreator() et isstudent().</li>
+<li class="spaced">Tous les fichiers doivent vérifier que l'utilisateur est correctement authentifié, à l'aide des contrôles corrects has_capability() ou required_capability().</li>
 
 <li class="spaced">Tous les accès aux bases de données doivent autant que possible utiliser les fonctions définies dans lib/datalib.php. Ceci permet la compatibilité avec un grand nombre de marques de bases de données. Il est possible de faire presque tout avec ces fonctions. Si vous devez écrire du code SQL, assurez-vous qu'il soit&nbsp;: multi-plateforme, restreint à des fonctions spécifiques de votre code (habituellement placés dans un fichier lib.php) et clairement marqué.</li>
 
