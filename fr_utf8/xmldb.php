@@ -71,6 +71,7 @@ $string['revert'] = 'Annuler';
 $string['revert_changes'] = 'Annuler les modifications';
 $string['save'] = 'Enregistrer';
 $string['selectdb'] = 'Sélectionner une base de données :';
+$string['selectonefieldkeyindex'] = 'Veuillez sélectionner un champ/une clef/un index dans la liste pour voir le code PHP';
 $string['sentences'] = 'Phrases';
 $string['statements'] = 'Instructions';
 $string['statementtable'] = 'Table d\'instruction :';
