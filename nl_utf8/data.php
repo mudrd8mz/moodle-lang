@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006082100)
+      // data.php - created with Moodle 1.7 dev (2006090600)
 
 
 $string['action'] = 'Actie';
@@ -7,7 +7,7 @@ $string['add'] = 'Voeg item toe';
 $string['addafield'] = 'Voeg een veld toe';
 $string['addcomment'] = 'Voeg commentaar toe';
 $string['addentries'] = 'Voeg items toe';
-$string['addtemplate'] = 'Voeg een sjabloon toe';
+$string['addtemplate'] = 'Toevoeg-sjabloon';
 $string['allowcomments'] = 'Commentaar geven toelaten?';
 $string['allowratings'] = 'Berichten laten beoordelen?';
 $string['approve'] = 'Keur goed';
