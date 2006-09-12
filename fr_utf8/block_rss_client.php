@@ -30,6 +30,7 @@ $string['nofeeds'] = 'Il n\'y a pas de fil RSS défini sur ce site.';
 $string['pickfeed'] = 'Choisir un fil RSS';
 $string['remotenewsfeed'] = 'Fils de nouvelles RSS distants';
 $string['seeallfeeds'] = 'Afficher tous les fils RSS';
+$string['sharedfeed'] = 'Fil RSS partagé';
 $string['shownumentrieslabel'] = 'Nombre maximum d\'articles à afficher par bloc.';
 $string['submitters'] = 'Qui aura l\'autorisation de définir de nouveaux fils RSS ? Les fils RSS définis sont disponibles sur toutes les pages de votre site.';
 $string['timeout'] = 'blockrsstimeout';
