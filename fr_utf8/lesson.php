@@ -22,6 +22,7 @@ $string['answersfornumerical'] = 'Les réponses aux questions numériques doiven
 $string['arrangebuttonshorizontally'] = 'Arranger horizontalement les boutons de branchement en mode présentation ?';
 $string['attempt'] = 'Tentative&nbsp;: $a';
 $string['attempts'] = 'Tentatives';
+$string['attemptsdeleted'] = 'Tentatives supprimées';
 $string['attemptsremaining'] = 'Il vous reste $a tentative(s)';
 $string['available'] = 'Disponible dès le';
 $string['averagescore'] = 'Note moyenne';
