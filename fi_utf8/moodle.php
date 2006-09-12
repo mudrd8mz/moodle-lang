@@ -1,4 +1,4 @@
-<?php // $Id$
+<?PHP // $Id$ 
       // moodle.php - created with Moodle 1.6.1+ (2006050512)
 
 
@@ -461,7 +461,7 @@ $string['enrolmentnotyet'] = 'Pahus, et voi päästä kursille ennen <br /> $a';
 $string['enrolmentplugins'] = 'Rekisteröitymislaajennukset';
 $string['enrolments'] = 'Rekisteröityminen';
 $string['enrolmentstart'] = 'Rekisteröityminen aloitettu';
-$string['enrolperiod'] = 'Rekisteröitymisjakso';
+$string['enrolperiod'] = 'Rekisteröitymisen kesto';
 $string['enrolstartdate'] = 'Alkaa';
 $string['entercourse'] = 'Napsauta päästäksesi kurssille';
 $string['enteremailaddress'] = 'Anna sähköpostiosoitteesi, jotta uusi salasana voidaan lähettää sinulle.';

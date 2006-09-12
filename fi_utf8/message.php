@@ -1,9 +1,9 @@
-<?php // $Id$
-      // message.php - created with Moodle 1.5.2 + (2005060222)
+<?PHP // $Id$ 
+      // message.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['addcontact'] = 'Lisää kontakti';
-$string['addsomecontacts'] = 'Käytä <a href=\"$a\">hakutoimintoa</a> lähettääksesi viestin jollekin, tai lisätäksesi heidät tälle sivulle. ';
+$string['addsomecontacts'] = 'Käytä <a href=\"$a\">hakutoimintoa</a> lähettääksesi viestin jollekin, tai lisätäksesi heidät tälle sivulle.';
 $string['addsomecontactsincoming'] = 'Nämä viestit ovat henkilöiltä jotka eivät ole kontakteissasi. Lisätäksesi heidät kontakteihin, napsauta \"Lisää kontakti\" ikonia nimen perässä.';
 $string['ago'] = '$a sitten';
 $string['allmine'] = 'Kaikki viestit minulta tai minulle';
@@ -13,7 +13,7 @@ $string['backupmessageshelp'] = 'Määrittää varmuuskopioidaanko viestit sivus
 $string['beepnewmessage'] = 'Äänimerkki viestin saapuessa';
 $string['blockcontact'] = 'Estä kontakti';
 $string['blockedmessages'] = '$a viesti(ä) estetyiltä käyttäjiltä/käyttäjille';
-$string['blocknoncontacts'] = 'Estä kaikki vietit jos lähettäjä ei ole listallani.';
+$string['blocknoncontacts'] = 'Estä kaikki viestit jos lähettäjä ei ole listallani.';
 $string['contactlistempty'] = 'Kontaktilistasi on tyhjä.';
 $string['contacts'] = 'Kontaktit';
 $string['context'] = 'asiayhteys';
