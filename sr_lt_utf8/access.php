@@ -11,6 +11,7 @@ $string['monthnext'] = 'Sledeći mesec';
 $string['monthprev'] = 'Prethodni mesec';
 $string['showhideblock'] = 'Prikaži ili sakrij blok';
 $string['sitemap'] = 'Mapa sajta';
+$string['skipa'] = 'Preskoči $a';
 $string['skipblock'] = 'Preskoči blok';
 $string['skipnavigation'] = 'Preskoči navigaciju';
 $string['tabledata'] = 'Tabela podataka, $a';

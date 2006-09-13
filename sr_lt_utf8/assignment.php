@@ -1,15 +1,18 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6 + (2006050506)
+      // assignment.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['allowmultiple'] = 'Dozvolite više datoteka';
 $string['allowresubmit'] = 'Dozvolite ponovno predavanje zadatka';
+$string['assignment:grade'] = 'Ocenjivanje zadatka';
+$string['assignment:submit'] = 'Predaja zadatka';
+$string['assignment:view'] = 'Pregled zadatka';
 $string['assignmentdetails'] = 'Detalji zadatka';
 $string['assignmentmail'] = '$a->teacher je objavio povratne informacije o Vašem rešenju zadatka \'$a->assignment\'.
 
 Možete ih videti dodate Vašem rešenju na ovoj adresi:
 
-$a->url';
+    $a->url';
 $string['assignmentmailhtml'] = '$a->teacher je objavio povratne informacije o Vašem rešenju zadatka \'<i>$a->assignment</i>\'.<br /><br />
 
 Možete ih videti pridodate <a href=\"$a->url\">rešenju zadatka koje ste predali</a>.';

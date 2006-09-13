@@ -1,0 +1,122 @@
+<p align="center"><b>Uvoz novih pitanja</b></p>
+
+<p>Ova funckija Vam pruža mogućnost da uvezete pitanja iz spoljašnje tekstualne datoke, da ih postavite pomoću forme, ili tako što ćete izabrati odgovarajuću datoteku koja se već nalazi među datotekama kursa.  </p>
+
+<p><b>Napomena o kodnim rasporedima </b></p>
+
+<p>Ako Vaša datoteka sadrži karaktere koji ne pripadaju ASCII znacima, ona mora koristiti UTF-8 kodni raspored. Možda ćete biti u mogućnosti da izaberete tu opciju ili da je prebacite u UTF-8 koristeći svoj omiljeni editor, ili će možda u progamu iz kog se pitanja izvoze postojati opcija za taj kodni raspored. Uvoz pitanja baziranih na XML formatu je automatski podržan ukoliko Vaš Moodle server koristi PHP 5.</p> 
+
+<p>Podržani su brojni formati datoteka:</p>
+
+<p><b>GIFT format</b></p>
+<ul>
+<p>GIFT je najsveobuhvatniji format dostupan za uvoz pitanja u Moodle iz tekstualne datoteke. Dizajniran je tako da bude lak način za pisanje pitanja u formi tekstualne datoteke. GIFT podržava pitanja tipa Višestruki izbor, Tačno-Netačno, Kratki odgovori, Sparivanje odgovora i Numerička pitanja, kao i umetanje _____ za pitanja u formatu "reč koja nedostaje". Različiti tipovi pitanja mogu biti kombinovani unutar jedne tekstualne datoteke. Format, podržava i komentare redova, nazive pitanja, povratne informacije, kao i težinske ocene izražene u procentima. Evo nekoliko primera:</p>
+<pre>
+Ko je sahranjen u Grantovoj grobnici?{~Grant ~Džeferson =niko}
+
+Grant {~je pokopan =je sahranjen ~živi} u Grantovoj grobnici.
+
+Grant je sahranjen u Grantovoj grobnici.{FALSE}
+
+Ko je sahranjen u Grantovoj grobnici?{=niko}
+
+Kada je Grant rođen?{#1822}
+</pre>
+
+<p align="right"><a href="help.php?file=formatgift.html&module=quiz">Više informacija o "GIFT" formatu</a></p>
+</ul>
+
+<p><b>Aiken format</b></p>
+<ul>
+<p>Aiken format je vrlo jednostavan način za kreiranje pitanja tipa Višestruki izbor jer koristi vrlo jasan, lako čitljiv format. Evo primera za ovaj format:</p>
+<pre>
+Šta je cilj prve pomoći?
+A. Da sačuva život, spreči dalje povređivanje, očuva zdravlje
+B. Da pruži medicinski tretman svakoj povređenoj odnosno ranjenoj osobi
+C. Da spreči dalje povređivanje
+D. Da pomogne žrtvama koje traže pomoć
+ANSWER: A
+</pre>
+
+<p align="right"><a href="help.php?file=formataiken.html&module=quiz"> Više informacija "Aiken" formatu</a></p>
+</ul>
+
+<p><b>Reč koja nedostaje</b></p>
+<ul>
+<p>Ovaj format podržava samo pitanja višestrukog izbora i pitanja sa kratkim odgovorom, zavisno od broja odgovora. Jedan odgovor generiše pitanje sa kratkim odgovorom, dva ili više odgovora generišu pitanja višestrukog izbora.
+Svako pitanje je odvojeno znakom tilda (~), a tačan odgovor je obeležen znakom jednakosti (=). Evo primera za pitanje višestrukog izbora:</p>
+
+<blockquote>Od trenutka kada kao deca počnemo da istražujemo svoje telo, postajemo studenti {=anatomije i fiziologije ~refleksologije ~biologije ~fizike}, i na neki način ostajemo studenti čitavog života.
+</blockquote>
+
+<p> Evo primera za pitanje sa kratkim odgovorom:</p>
+
+<blockquote> Od trenutka kada kao deca počnemo da istražujemo svoje telo postajemo studenti {=anatomije i fiziologije}, i u tom smislu ostajemo studenti čitavog života.
+</blockquote>
+
+<p align="right"><a href="help.php?file=formatmissingword.html&module=quiz"> Više informacija o formatu "Reč koja nedostaje"</a></p>
+</ul>
+
+<p><b>AON</b></p>
+<ul>
+<p>Ovo je isto kao format "Reč koja nedostaje", osim što nakon uvoza pitanja dolazi do konverzije po četiri uzastopna pitanja sa kratkim odgovorom u pitanja sa sparivanjem odgovora.</p>
+<p>Dodatno, odgovori koji se nude za pitanja višestrikog izbora se nasumično preraspoređuju prilikom uvoza.</p>
+<p>Svoj naziv je ovaj format dobio po organizaciji koja je sponzorisala razvoj mnogih mogućnosti testova.</p>
+</ul>
+
+<p><b>Blackboard</b></p>
+<ul>
+<p>Ovaj modul može da uveze pitanja sačuvana u Blackboard-ovom formatu za izvoz. Zasnovan je na XML funkcijama koje su ugrađene u Vaš PHP. Uočite da ova verzija modula <strong>ne</strong> funkcioniše sa Blackboard verzijom 6 i novijim.</p>
+
+<p align="right"><a href="help.php?file=formatblackboard.html&module=quiz"> Više informacija o "Blackboard" formatu</a></p>
+</ul>
+
+<p><b>Blackboard V6+</b></p>
+<ul>
+<p> Ovaj modul može da uveze pitanja sačuvana u Blackboard-ovom formatu za izvoz. Pruža ograničenu podršku za Blackboard verzije 6 i 7. Zasnovan je na XML funkcijama koje su ugrađene u Vaš PHP. Datoteku koja izvezena iz Blackboard-a morate poslati u obliku zip arhive.</p>
+</ul>
+
+<p><b>WebCT</b></p>
+<ul>
+<p>Ovaj modul može da uveze pitanja sačuvana u WebCT tekstualnom formatu.</p>
+
+<p align="right"><a href="help.php?file=formatwebct.html&module=quiz"> Više informacija o "WebCT" formatu</a></p>
+</ul>
+
+<p><b>Test Menadžer format</b></p>
+<ul>
+<p>Ovaj modul može da uveze pitanja sačuvana u Test Menadžer banci testova. Modul se bazira na različitim načinima pristupa banci testova, koja je smeštena u Microsoft Access bazi podataka. Kako će se banci pristupiti zavisi od toga da li je Moodle instaliran na Windows ili Linux serveru.</p>
+<p>Na Windows serveru Vam je dozvoljeno da Access bazu pošaljete, baš kao i bilo koju drugu datoteku za uvoz.</p>
+<p>Na  Linux serveru, u okviru iste mreže morate prethodno podesite jedan Windows računar sa Test Menadžer bazom i programom koji se zove ODBC Socket Server, i koji koristi XML za transfer podataka ka Moodle sistemu koji se nalazi na Linux serveru.</p>
+<p>Pre nego što upotrebite ovaj modul za uvoz molimo Vas da pročitate donju datoteku za pomoć.</p>
+
+<p align="right"><a href="help.php?file=formatctm.html&module=quiz"> Više
+informacija o Test Menadžer formatu</a></p>
+</ul>
+
+<p><b>Umetnuti odgovori (Zatvorena pitanja)</b></p>
+<ul>
+<p>Ovaj format posebne namene uvozi samo jedan tip pitanja - Umetnuti odgovori (poznat i kao Zatovorena pitanja).
+</p>
+
+<p align="right"><a href="help.php?file=multianswer.html&module=quiz">Više
+informacija o formatu "Zatvorena pitanja"</a></p>
+</ul>
+
+<p><b>Learnwise format</b></p>
+<ul>
+<p>Ovaj format može da uveze pitanja tipa viešstruki izbor sačuvana u Learnwise XML formatu.</p>
+</ul>
+
+<p><b>Examview format</b></p>
+<ul>
+<p> Ovaj format može da uveze pitanja iz Examview 4 XML datoteka. Obratite pažnju da starije verzije Examviewa nisu podržane.</p>
+</ul>
+
+<p><b>Moodle XML format</b></p>
+<ul>
+<p>Ovaj Moodle specifični format uvozi pitanja koja su prethodno izvezena u istom formatu. Format je  precizan i najbolje se može demonstrirati uvozom kategorije u Moodle XML formatu. XML format, takođe, ima mogućnost da uvozi datoteke sa slikama.
+</p>
+</ul>
+
+<p>Uskoro se može očekivati više formata za uvoz, uključujući WebCT, IMS QTI kao i sve druge formate koje budu kreirali korisnici Moodla!

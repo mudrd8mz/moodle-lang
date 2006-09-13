@@ -1,0 +1,47 @@
+<p align="center"><b>Izvoz pitanjâ iz kategorije</b></p>
+
+<p align="justify">Ova funkcija Vam omogućava izvoz pitanja iz cele kategorije (sa svim njenim podkategorijama) u tekstualnu datoteku. </p> 
+
+<p align="justify">Molimo imajte na umu da u mnogim formatima datoteka neke informacije se izgube pri izvozu pitanjâ. Ovo je zbog toga što mnogi formati ne poseduju sva svojstva koja postoje u Moodle pitanjima. Ne treba očekivati da će izvežena i uvežena pitanja biti identična. Takođe, neke vrste pitanja ne mogu se uopšte ni izvesti. Preporučuje se da proverite sadržaj izveženih pitanja pre njihovog korišćenja u radnom okruženju.</p>
+
+<p align="justify">Trenutno podržani je (su) format(i):</p>
+
+<p align="justify"><b>GIFT format</b></p>
+<ul>
+<p align="justify">GIFT je najsveobuhvatniji raspoloživi format za izvoženje Moodle test pitanja u tekstualnu datoteku.  Projektovan je da bude lak postupak za nastavnike koji pišu pitanja u tekstualnoj datoteci. Podržava Višestruki izbor, 
+   Tačno-netačno, Kratke odgovore, Uklapanje i Numerička pitanja, kao i ubacivanje _____ za "missing word" ("nedostajuća reč") format.  Zapazite da Cloze (Ubačeni odgovori) pitanja trenutno nisu podržana. Različite vrste pitanja mogu se kombinovati u tekstualnoj datoteci, a the format takođe podešava linijske komentare, imena pitanja, povratne informacije i procentualne ocene. Evo nekih primera:</p>
+<pre>
+Ko je pokopan u Grantovoj grobnici?{~Grant ~Jefferson =niko}
+
+Grant {~je pokopan =je sahranjen ~živi} u Grantovoj grobnici.
+
+Grant je pokopan u Grantovoj grobnici.{FALSE}
+
+Ko je pokopan u Grantovoj grobnici?{=nijedan =niko}
+
+Kada je rođen Ulysses S. Grant?{#1822}
+</pre>
+
+<p align="right"><a href="help.php?file=formatgift.html&module=quiz">Više informacija o "GIFT" formatu</a></p>
+</ul>
+
+<p align="justify"><b>Moodle XML format</b></p>
+<ul>
+<p align="justify">Ovaj format posebno za Moodle izvozi test pitanja u prost XML format. Ona se tada mogu uvoziti u kategorije iz drugih testova ili koristiti u nekom drugom procesu, kao što je XSLT transformacija. XML format će izvoziti i slike vezane za pitanja (kodirano sa base64).</p>
+</ul>
+
+<p align="justify"><b>IMS QTI 2.0</b></p>
+<ul>
+<p align="justify">Izvozi u standardni IMS QTI (version 2.0) format. Imati na umu da ovo generiše grupu datoteka unutar jedne .zip datoteke.</p>
+<p align="right"><a href="http://www.imsglobal.org/question/" target="_qti">Više informacija na IMS QTI sajtu</a>
+ (eksterni sajt u novom prozoru)</p>
+</ul>
+
+<p align="justify"><b>XHTML</b></p>
+<ul>
+<p align="justify">Izvozi kategoriju kao jednu stranicu 'striktnog' XHTML-a. Svako pitanje je jasno postavljeno u sopstveni 
+&lt;div&gt; tag. Ako želite koristiti stranicu takvu kakva jeste, biće potrebna izmena bar  &lt;form&gt; taga na početku &lt;body&gt; sekcije da bi se obezbedila odgovarajuća akcija (npr. 'mailto').</p>
+</ul>
+
+<p align="justify">Stiže još formata, uključujući WebCT i sve što doprinesu korisnici
+   Moodle-a! </p>

@@ -1,0 +1,13 @@
+<p align="center"><b>Adaptivni režim</b></p>
+
+<p align="justify">Ako izaberete <b>Da</b> za ovu opciju, tada će studentu biti dopušteno više pokušaja odgovora na isto pitanje, čak i u okviru istog pokušaja rešavanja testa. Tako ako bi npr. odgovor studenta bio označen kao netačan, studentu bi bilo dopušteno da odmah pokuša ponovo sa novim odgovorom. Međutim, najčešće bi od postignutog rezultata studentu bili oduzeti kazneni bodovi za svaki pokušaj u kome je dao netačan odgovor (broj kaznenih bodova određuje se na osnovu kaznenog faktora, koji se podešava u sledećoj opciji)</p>
+
+<p align="justify">Ovaj režim omogućava i adaptivna pitanja koja se menjaju kao posledica odgovora studenta. Evo kako IMS QTI specifikacija definiše adaptivna pitanja (stavke):</p>
+
+<blockquote>
+<p align="justify">Adaptivna stavka je stavka koja menja svoj izgled (sadržaj), bodovanje (obrada odgovora) ili i jedno i drugo kao reakciju na svaki odgovor kandidata. Na primer, adaptivna stavka može započeti zahtevom kandidatu da popuni tačnim odgovorom polje sa tekstom, ali na dobijen nezadovoljavajući odgovor može umesto tog tekstualnog polja prikazati izbor među ponuđenim odgovorima, te nagrađivati sve manjom ocenom svaki sledeći korak u navođenom otkrivanju tačnog odgovora. Adaptivnost omogućava autoru da kreira stavke za korišćenje u unapred osmišljenim situacijama, što pomaže da se kandidati usmeravaju kroz postavljeni zadatak, a istovremeno se obezbeđuje i rezultat koji uzima u obzir njihovu putanju učenja.<p>
+</blockquote>
+
+<p align="justify">U adaptivnom režimu prikazuje se dodatno dugme <b><?php print_string('mark', 'quiz') ?></b> za svako pitanje.
+Ako student pritisne ovo dugme, odgovor se tada predaje na bodovanje i zarađena ocena se prikazuje studentu. Ako je pitanje adaptivno, ono se tada prikazuje u novom izdanju, prema prethodnom odgovoru studenta, i u mnogo slučajeva tražiće od studenta novi pokušaj rešavanja. Kod najprostijih adaptivnih pitanja to novo izdanje može se od prethodnog razlikovati jedino u komentaru na odgovor studenta i tražiti od studenta da pokuša ponovo; u složenijoj varijanti može se menjati i tekst pitanja, pa čak i elementi interakcije.
+</p>
