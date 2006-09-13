@@ -1,0 +1,47 @@
+﻿
+<p align="center"><b>Уметнути одговори (Затворено питање)</b></p>
+
+<p>Овај врло флексибилан тип питања је сличан
+   популаром формату познатом као и Формат Затвореног питања.  </p>
+
+<p>Питања се састоје од одломка текста (у Moodle формату) који
+   има различите одговоре уметнуте унутар самог текста, укључујући вишеструки избор,
+   кратке одговоре као и нумеричке одговоре.</p>
+
+<p>Тренутно не постоји графички интефејс за креирање ових питања -
+   морате да наведете формат питања користећи поље за унос текста или тако што ћете
+   питања импортовати из спољних датотека.</p>
+
+<p>Ево примера текста који се уноси да би се детаљно описало такво питање:</p>
+
+<form action="">
+<center>
+<textarea rows="15" cols="60" wrap="virtual">Ово питање састоји се од текста у који је уметнут одговор управо овде {1:MULTICHOICE:Wrong answer#Feedback for this wrong answer~Another wrong answer#Feedback for the other wrong answer~=Correct answer#Feedback for correct answer~%50%Answer that gives half the credit#Feedback for half credit answer} и одмах након тога мораћете да се изборите са овим кратким одговором {1:SHORTANSWER:Wrong answer#Feedback for this wrong answer~=Correct answer#Feedback for correct answer~%50%Answer that gives half the credit#Feedback for half credit answer} и на крају имамо број са покретним зарезом {2:NUMERICAL:=23.8:0.1#Feedback for correct answer 23.8~%50%23.8:2#Feedback for half credit answer in the nearby region of the correct answer}.
+
+Уочите да адресе као www.moodle.org и емотикони <img alt="smešak" width="15" height="15" src="http://www.reticulum.org/moodle/pix/s/smiley.gif" /> функционишу нормално:
+ a) Колико је ово добро? {:MULTICHOICE:=Јесте#Correct~Није#We have a different opinion}
+ b) Коју бисте оцену дали? {3:NUMERICAL:=3:2}
+
+Срећно!
+</textarea>
+</center>
+</form>
+
+<p>Овај пример ће студентима бити приказана на следећи начин:</p>
+
+<form action="">
+<table align="center" width="90%" class="generalbox" border="0" cellpadding="5" cellspacing="0"><tr><td bgcolor="#FFFFFF" class="generalboxcontent"><table width="100%" cellspacing="10"><tr><td nowrap="nowrap" width="100" valign="top"><p align="center"><b>3</b></p><p align="center"><font size="1">8 Marks</font></p><img height="1" width="100" src="pix/spacer.gif" alt="" /><br />
+</td><td valign="top"><p>Ово питање састоји се од текста у који је уметнут одговор управо овде   <select   name="q4ma1" ><option>&nbsp;</option><option value="4" >Wrong answer</option><option value="5" >Another wrong answer</option><option value="6" >Correct answer</option><option value="7" >Answer that gives half the credit</option></select>  и одмах након тога мораћете да се изборите са овим кратким одговором <input   name="q4ma2"  value="" type="text" size="8"/>  и на крају имамо број са покретним зарезом  <input   name="q4ma3"  value="" type="text" size="8"/> .<br />
+
+<br />
+
+Уочите да адресе као <a href="http://www.moodle.org" target="_blank">www.moodle.org</a> и емотикони <img alt=""  border="0" src="pix/s/smiley.gif" width="15" height="15" /> функционишу нормално:<br />
+
+a) Колико је ово добро?  <select   name="q4ma4" ><option>&nbsp;</option><option value="13" >Јесте</option><option value="14" >Није</option></select> <br />
+
+b) Коју бисте оцену дали?  <input   name="q4ma5"  value="" type="text" size="8"/> <br />
+
+<br />
+
+Срећно!</p></td></tr></table></td></tr></table>
+</form>

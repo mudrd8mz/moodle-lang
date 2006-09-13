@@ -1,9 +1,12 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6 + (2006050506)
+      // assignment.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['allowmultiple'] = 'Дозволите више датотека';
 $string['allowresubmit'] = 'Дозволите поновно предавање задатка';
+$string['assignment:grade'] = 'Оцењивање задатка';
+$string['assignment:submit'] = 'Предаја задатка';
+$string['assignment:view'] = 'Преглед задатка';
 $string['assignmentdetails'] = 'Детаљи задатка';
 $string['assignmentmail'] = '$a->teacher је објавио повратне информације о Вашем решењу задатка \'$a->assignment\'.
 
