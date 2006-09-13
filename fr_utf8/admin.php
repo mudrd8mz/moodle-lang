@@ -194,6 +194,13 @@ $string['dbmigratewarning'] = 'Veuillez vous assurer de bien avoir effectuer un 
 $string['dbmigratewarning2'] = '<b>Attention&nbsp;! Vous êtes sur le point de commencer le processus de migration de la base de données de Moodle. Veuillez vous assurez de manière certaine que votre base de données Moodle est sauvegardée.</b>';
 $string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">Cette base de données a été convertie en une nouvelle base de données UTF8. Elle n\'est plus utilisable avec cette version de Moodle. Veuillez modifier votre fichier config.php et utiliser la nouvelle base de données pour ce moodle.</font>';
 $string['dbmigrationdupfailed'] = 'La duplication de la base de données a échoué. L\'erreur est vraisemblablement&nbsp;: <font color=\"#ff0000\"><pre>$a</pre></font>';
+$string['debugnone'] = 'N\'afficher aucune information de débogage';
+$string['debugerror'] = 'E_ERROR : n\'afficher que les erreurs fatales';
+$string['debugwarning'] = 'E_WARNING : n\'afficher que les avertissements sérieux';
+$string['debugparse'] = 'E_PARSE : n\'afficher que les erreurs de l\'analyseur PHP';
+$string['debugnotice'] = 'E_NOTICE : afficher les notes d\'information';
+$string['debugall'] = 'E_ALL : afficher toutes les informations importantes';
+$string['debugstrict'] = 'E_STRICT : afficher absolument toutes les informations, même les erreurs mineures';
 $string['density'] = 'Densité';
 $string['download'] = 'Télécharger';
 $string['editlang'] = '<b>Modifier</b>';
