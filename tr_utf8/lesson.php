@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006090600)
+      // lesson.php - created with Moodle 1.7 dev (2006091212)
 
 
 $string['accesscontrol'] = 'Erişim kontrolü';
@@ -18,6 +18,7 @@ $string['addedaquestionpage'] = 'Soru Sayfası Eklendi';
 $string['addedcluster'] = 'Küme Eklendi';
 $string['addedendofcluster'] = 'Küme Sonu Eklendi';
 $string['addendofcluster'] = 'Küme Sonu Ekle';
+$string['addpage'] = 'Bir sayfa ekle';
 $string['anchortitle'] = 'Ana içeriğin başlangıcı';
 $string['and'] = 'VE';
 $string['answer'] = 'Yanıt';
@@ -45,7 +46,6 @@ $string['clusterjump'] = 'Küme içindeki bakılmamış soru';
 $string['clustertitle'] = 'Küme';
 $string['collapsed'] = 'Katlanmış';
 $string['comments'] = 'Yorumlarınız';
-$string['commentswithname'] = '$a->firstname {$a->lastname}\'nın yorumları';
 $string['completed'] = 'Bitirmeli';
 $string['completederror'] = 'Dersi tamamla';
 $string['completethefollowingconditions'] = 'Devam etmeden önce <b>$a</b> dersindeki koşulları yerine getirmelisiniz.';
@@ -94,6 +94,11 @@ $string['enterpassword'] = 'Lütfen şifreyi giriniz:';
 $string['eolstudentoutoftime'] = 'Dikkat: Bu dersin süresi bitti. Zaman bittikten sonra cevap verildiği takdirde cevabınız değerlendirilmeyecektir.';
 $string['eolstudentoutoftimenoanswers'] = 'Hiç bir soruya cevap vermediniz. Bu ders için 0 aldınız.';
 $string['essay'] = 'Yazılı';
+$string['essayemailmessage'] = '<p>Yazılı onayı:<blockquote>$a->question</blockquote></p>
+<p>Yanıtınız:<blockquote><em>$a->response</em></blockquote></p>
+<p>$a->teacher\'nin yorumları:<blockquote><em>$a->comment</em></blockquote></p>
+<p>Bu yazılı sorusu için $a->outof üzerinden $a->earned aldınız.</p>
+<p>Ders için notunuz %%$a->newgrade olarak değiştirildi.</p>';
 $string['essayemailsubject'] = '$a sorusu için notunuz';
 $string['essays'] = 'Yazılılar';
 $string['essayscore'] = 'Yazılı puanı';
@@ -167,6 +172,7 @@ $string['namereject'] = 'Üzgünüz, isminiz kurallara uygun olmadığı için r
 $string['nextpage'] = 'Sonraki sayfa';
 $string['noanswer'] = 'Cevap verilmedi. Lütfen geri dönün ve bir cevap verin.';
 $string['noattemptrecordsfound'] = 'Deneme kaydı bulunamadı: puan verilmedi';
+$string['nobranchtablefound'] = 'Konu Anlatımı Yok';
 $string['nocommentyet'] = 'Henüz yorum yok.';
 $string['nocoursemods'] = 'Etkinlik bulunamadı';
 $string['nocredit'] = 'Kredi yok';
@@ -223,6 +229,7 @@ $string['questiontype'] = 'Soru tipi';
 $string['randombranch'] = 'Rasgele dal sayfası';
 $string['randompageinbranch'] = 'Dal içindeki rasgele soru';
 $string['rank'] = 'Sıra';
+$string['rawgrade'] = 'Ham not';
 $string['receivedcredit'] = 'Alınan kredi';
 $string['redisplaypage'] = 'Sayfayı tekrar göster';
 $string['report'] = 'Rapor';
@@ -273,7 +280,6 @@ $string['unseenpageinbranch'] = 'Bir daldaki görülmemiş soru';
 $string['unsupportedqtype'] = 'Desteklenmeyen soru tipi ($a)!';
 $string['updatedpage'] = 'Sayfa güncellendi';
 $string['updatefailed'] = 'Güncelleme başarısız';
-$string['updatesuccess'] = 'Güncelleme başarılı';
 $string['useeditor'] = 'Editörü kullan';
 $string['usemaximum'] = 'En yüksek kullan';
 $string['usemean'] = 'Ortalama kullan';
@@ -286,15 +292,12 @@ $string['whatdofirst'] = 'İlk önce ne yapmak istersiniz?';
 $string['wronganswerjump'] = 'Yanlış cevaba git';
 $string['wronganswerscore'] = 'Yanlış cevap puanı';
 $string['wrongresponse'] = 'Yanlış cevap';
-$string['youhavereceived'] = 'Bu yazılı sorusu için $a->outof üzerinden $a-score aldınız.';
 $string['youhaveseen'] = 'Bu dersin birden fazla sayfasını zaten gördünüz.
 <br />Kaldığınız sayfadan devam etmek ister misiniz?';
 $string['youmadehighscore'] = 'Yüksek notlar listesinde $a. oldunuz.';
 $string['youranswer'] = 'Cevabınız';
 $string['yourcurrentgradeis'] = 'Şuanki notunuz: $a';
 $string['yourcurrentgradeisoutof'] = 'Şu anki notunuz $a->total üzerinden $a->grade dir.';
-$string['yourgradeisnow'] = 'Bu ders için notunuz $a olarak değiştirildi';
-$string['yourresponse'] = 'Yanıtınız';
 $string['youshouldview'] = 'En az cevaplamanız gereken: $a';
 
 ?>

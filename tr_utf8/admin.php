@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006090600)
+      // admin.php - created with Moodle 1.7 dev (2006091212)
 
 
 $string['accounts'] = 'Hesaplar';
@@ -138,7 +138,14 @@ $string['dbmigrate'] = 'Moodle Veritabanı Dönüşümü';
 $string['dbmigrateconnecerror'] = 'Belirtilen veritabanına bağlantı kurulamadı.';
 $string['dbmigratewarning'] = 'Lüften bu işleme başlamadan önce moodle veritabanınızı yedeklediğinizden emin olun. Bunun nasıl yapılacağından emin değilseniz lütfen sistem yöneticinizle iletişim kurun. Moodle siteniz çevirim işlemine başladıktan sonra bakım moduna alınacak';
 $string['dbmigratewarning2'] = '<b>Uyarı: Veritabanı çevirim işlemine başlamak üzereseniz. Lütfen veritabanınızı yedekleğinizden kesinlikle emin olun!</b>';
+$string['debugall'] = 'E_ALL: Tüm uygun geribildirimleri göster';
+$string['debugerror'] = 'E_ERROR: Sadece sistemi engelleyen hataları göster';
 $string['debugging'] = 'Hata ayıklama';
+$string['debugnone'] = 'Herhangi hata ayıklama uyarısı gösterme';
+$string['debugnotice'] = 'E_NOTICE: Bilgi veren uyarıları göster';
+$string['debugparse'] = 'E_PARSE: Sözdizimsel hataları göster';
+$string['debugstrict'] = 'E_STRICT: Tümüyle herşeyi göster, hatta çok ufak hataları da';
+$string['debugwarning'] = 'E_WARNING: Sadece ciddi uyarıları göster';
 $string['density'] = 'Yoğunluk';
 $string['download'] = 'İndir';
 $string['edithelpdocs'] = 'Yardım belgelerini düzenle';

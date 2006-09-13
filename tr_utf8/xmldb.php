@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 dev (2006090600)
+      // xmldb.php - created with Moodle 1.7 dev (2006091212)
 
 
 $string['aftertable'] = 'Tablodan Sonra:';
@@ -71,7 +71,11 @@ $string['reservedwords'] = 'Rezerve Edilmiş Sözcükler';
 $string['revert'] = 'Geri Al';
 $string['revert_changes'] = 'Değişiklikleri Geri Al';
 $string['save'] = 'Kaydet';
+$string['selectaction'] = 'Eylem Seç:';
 $string['selectdb'] = 'Veritabanı Seç:';
+$string['selectfieldkeyindex'] = 'Alan/Anahtar/İndex Seç:';
+$string['selectonefieldkeyindex'] = 'PHP kodunu görmek için, lütfen listeden bir Alan/Anahtar/İndex seçin.';
+$string['selecttable'] = 'Tablo Seç:';
 $string['sentences'] = 'Tümceler';
 $string['statements'] = 'İfadeler';
 $string['statementtable'] = 'İfade Tablosu:';
@@ -82,8 +86,11 @@ $string['test'] = 'Dene';
 $string['textincorrectlength'] = 'Metin alanı için geçersiz uzunluk';
 $string['unload'] = 'Yükleme';
 $string['up'] = 'Yukarı';
+$string['view'] = 'Bak';
 $string['view_reserved_words'] = 'Rezerve Edilmiş Sözcüklere Bak';
+$string['view_structure_php'] = 'PHP Yapısına Bak';
 $string['view_structure_sql'] = 'SQL Yapısına Bak';
+$string['view_table_php'] = 'PHP Tablosuna Bak';
 $string['view_table_sql'] = 'SQL Tablosuna Bak';
 $string['viewedited'] = 'Düzeltilmişe Bak';
 $string['vieworiginal'] = 'Orijinaline Bak';

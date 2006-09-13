@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006090600)
+      // moodle.php - created with Moodle 1.7 dev (2006091212)
 
 
 $string['action'] = 'Eylem';
@@ -1115,6 +1115,7 @@ $string['selectamodule'] = 'Lütfen bir etkinlik modülü seçin';
 $string['selectednowmove'] = '$a dosya taşınmak için seçildi. Şimdi taşımak istediğiniz yere gidin ve \'Dosyaları buraya taşı\'ya basın';
 $string['selectnos'] = 'Tüm \'hayır\'ları seç';
 $string['selectperiod'] = 'Süre seçiniz';
+$string['selectrole'] = 'Bir rol seçin';
 $string['senddetails'] = 'Bilgilerimi e-postayla gönder';
 $string['separateandconnected'] = 'Ayrı ve İlgili bilgi yolları';
 $string['serverlocaltime'] = 'Sunucunun yerel zamanı';
