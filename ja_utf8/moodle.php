@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006090600)
+      // moodle.php - created with Moodle 1.7 dev (2006091212)
 
 
 $string['action'] = '操作';
@@ -1120,6 +1120,7 @@ $string['selectamodule'] = '活動モジュールを選択してください。'
 $string['selectednowmove'] = '移動するために $a つのファイルが選択されました。ファイルの移動先に移動して「ファイルをここに移動する」ボタンをクリックしてください。';
 $string['selectnos'] = 'すべて「no」を選択';
 $string['selectperiod'] = '期間の選択';
+$string['selectrole'] = '任務の選択';
 $string['senddetails'] = '私のログイン情報をメール送信する';
 $string['separateandconnected'] = '分離・関連認識';
 $string['serverlocaltime'] = 'サーバのシステム時間';

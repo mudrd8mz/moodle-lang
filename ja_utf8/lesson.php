@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006090600)
+      // lesson.php - created with Moodle 1.7 dev (2006091212)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -18,6 +18,7 @@ $string['addedaquestionpage'] = '問題ページが追加されました。';
 $string['addedcluster'] = 'クラスタが追加されました。';
 $string['addedendofcluster'] = '終了クラスタが追加されました。';
 $string['addendofcluster'] = '終了クラスタの追加';
+$string['addpage'] = 'ページの追加';
 $string['anchortitle'] = 'メインコンテンツの開始';
 $string['and'] = 'AND';
 $string['answer'] = '答え/選択肢';
@@ -45,7 +46,6 @@ $string['clusterjump'] = 'クラスタ内の未閲覧の問題';
 $string['clustertitle'] = 'クラスタ';
 $string['collapsed'] = '折りたたむ';
 $string['comments'] = 'あなたのコメント';
-$string['commentswithname'] = '$a->lastname $a->firstname さんのコメント';
 $string['completed'] = '完了';
 $string['completederror'] = 'レッスンを完了する';
 $string['completethefollowingconditions'] = '先へ進む前に、<b>$a</b> レッスンの下記の状態を完了させる必要があります。';
@@ -94,6 +94,11 @@ $string['enterpassword'] = 'パスワードを入力してください:';
 $string['eolstudentoutoftime'] = 'お知らせ: このレッスンの制限時間が終了しました。制限時間終了後に答えた内容はカウントされません。';
 $string['eolstudentoutoftimenoanswers'] = 'あなたは問題に解答していません。このレッスンのあなたの評点は、0点です。';
 $string['essay'] = '作文問題';
+$string['essayemailmessage'] = '<p>作文問題:<blockquote>$a->question</blockquote></p>
+<p>あなたの解答:<blockquote><em>$a->response</em></blockquote></p>
+<p>$a->teacher のコメント:<blockquote><em>$a->comment</em></blockquote></p>
+<p>この作文問題の評点は $a->earned /$a->outof です。</p>
+<p>あなたのレッスンの評点は $a->newgrade&#37; に変更されました。</p>';
 $string['essayemailsubject'] = '$a 問題に対するあなたの評点';
 $string['essays'] = '作文問題';
 $string['essayscore'] = '作文問題の評点';
@@ -167,8 +172,9 @@ $string['namereject'] = '申し訳ございません、あなたの名前はフ�
 $string['nextpage'] = '次のページ';
 $string['noanswer'] = '解答がありません。戻って解答を送信してください。';
 $string['noattemptrecordsfound'] = '受験レコードが見つかりません: 評定なし';
+$string['nobranchtablefound'] = 'ブランチテーブルが見つかりません。';
 $string['nocommentyet'] = 'コメントはありません。';
-$string['nocoursemods'] = '活動はありません。';
+$string['nocoursemods'] = '活動が見つかりません。';
 $string['nocredit'] = '未承認';
 $string['noessayquestionsfound'] = 'このレッスンには作文問題はありません。';
 $string['nohighscores'] = 'ハイスコアはありません。';
@@ -223,6 +229,7 @@ $string['questiontype'] = '問題タイプ';
 $string['randombranch'] = 'ランダムブランチページ';
 $string['randompageinbranch'] = 'ブランチ内のランダム問題';
 $string['rank'] = 'ランク';
+$string['rawgrade'] = '評点詳細';
 $string['receivedcredit'] = '承認クレジット';
 $string['redisplaypage'] = '再表示';
 $string['report'] = 'レポート';
@@ -273,7 +280,6 @@ $string['unseenpageinbranch'] = 'ブランチ内の未閲覧の問題';
 $string['unsupportedqtype'] = 'サポートされていない問題タイプ ( $a ) です!';
 $string['updatedpage'] = 'ページを更新しました。';
 $string['updatefailed'] = '更新が失敗しました。';
-$string['updatesuccess'] = '正常に更新されました。';
 $string['useeditor'] = 'エディタを使用';
 $string['usemaximum'] = '最大評点を使用';
 $string['usemean'] = '評点平均を使用';
@@ -286,14 +292,11 @@ $string['whatdofirst'] = '最初に何をしますか?';
 $string['wronganswerjump'] = '誤答のジャンプ先';
 $string['wronganswerscore'] = '誤答の評点';
 $string['wrongresponse'] = '誤答に対するレスポンス';
-$string['youhavereceived'] = 'あなたは、この作文問題で $a->outof 点中 $a->score 点を取りました。';
 $string['youhaveseen'] = 'あなたはすでにこのレッスンを1ページ以上表示しました。<br />あなたが表示した最後のページから始めますか?';
 $string['youmadehighscore'] = 'あなたはトップ $a ハイスコアリストに入りました。';
 $string['youranswer'] = 'あなたの答え';
 $string['yourcurrentgradeis'] = '現在の評点は $a です。';
 $string['yourcurrentgradeisoutof'] = '現在の評点は $a->total 点中 $a->grade 点です。';
-$string['yourgradeisnow'] = 'このレッスンに関するあなたの評点は $a に変更されました。';
-$string['yourresponse'] = 'あなたのレスポンス';
 $string['youshouldview'] = '少なくとも $a 回解答してください。';
 
 ?>
