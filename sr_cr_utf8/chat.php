@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6.1+ (2006050512)
+      // chat.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['beep'] = 'звучни сигнал';
+$string['chat:chat'] = 'Учествовање у разговору';
+$string['chat:deletelog'] = 'Брисање записа разговора';
+$string['chat:readlog'] = 'Читање записа разговора';
 $string['chatintro'] = 'Уводни текст';
 $string['chatname'] = 'Назив ове причаонице';
 $string['chatreport'] = 'Разговори';
@@ -29,10 +32,10 @@ $string['explainmethodnormal'] = 'Ова подешавања су активн�
 $string['generalconfig'] = 'Општа конфигурација';
 $string['helpchatting'] = 'Помоћ при разговору';
 $string['idle'] = 'Неактиван';
-$string['messagebeepseveryone'] = '$a сигнализира свима!';
-$string['messagebeepsyou'] = '$a Вам је управо послао звучни сигнал!';
-$string['messageenter'] = '$a је управо ушао у причаоницу';
-$string['messageexit'] = '$a је напустио причаоницу';
+$string['messagebeepseveryone'] = 'Учесник $a сигнализира свима!';
+$string['messagebeepsyou'] = 'Учесник $a Вам је управо послао звучни сигнал!';
+$string['messageenter'] = 'Учесник $a је управо ушао у причаоницу';
+$string['messageexit'] = 'Учесник $a је напустио причаоницу';
 $string['messages'] = 'Поруке';
 $string['methoddaemon'] = 'IRC server daemon';
 $string['methodnormal'] = 'Нормалан режим';
