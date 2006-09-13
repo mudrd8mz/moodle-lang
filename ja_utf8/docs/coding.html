@@ -19,8 +19,8 @@
   <li class="spaced">すべてのテキストファイルは、Unixスタイルのテキストフォーマットを使用してください。 ( ほとんどのテキストエディタには、このオプションがあります。 )</li>
   <li class="spaced">すべてのphpタグは、<font color="#339900">&lt;?php  ?&gt;</font> のように「フルタグ」を使用してください ... <font color="#339900">&lt;? ?&gt;</font> のように「ショートタグ」ではなく。</li>
   <li class="spaced">すべての著作権情報は保持してください。必要であれば、あなた独自の情報を追加することができます。</li>
-  <li class="spaced">各ファイルでは、config.phpをインクルードしてください。</li>
-  <li class="spaced">各ファイルでは、require_login() および isadmin()、isteacher()、iscreator() または isstudent() を使用してユーザが正しく認証されているか確認してください。</li>
+  <li class="spaced">各ファイルには、config.phpをインクルードしてください。</li>
+  <li class="spaced">各ファイルでは、has_capability() または required_capability() を使用してユーザが正しく認証されているか確認してください。</li>
   <li class="spaced">データベースへのアクセスは、可能な場合は常に関数 lib/datalib.php を使用してください - この関数により幅広いデータベースの互換性を実現します。この関数を使用することにより、ほとんどのことが実現できることに気づくでしょう。SQLコードを書く必要がある場合、次のことを確認してください: クロスプラットフォームであること、あなたのコードが特定の関数 ( 通常、lib.phpファイル ) に限定されていること、明確に注釈がなされていること。</li>
   <li class="spaced">$CFG、$SESSION、$THEME および $USER のような標準的なもの以外、グローバル変数を作成または使用しないでください。</li>
   <li class="spaced">すべての変数は使用する前に初期化するか、少なくとも isset() または empty() を使用して存在チェックを行ってください。</li>
@@ -35,7 +35,6 @@
 </li>
   <li class="spaced">ブラウザから ( GET または POST 経由で ) 入ってくるデータは、( PHPの設定に関わらず ) 安全にデータベースにインサートできるよう、自動的に magic_quotes が適用されます。他のすべての生データ ( ファイルまたはデータベース ) は、データベースにインサートする前に <font color="#339900">addslashes()</font> でエスケープしてください。</li>
   <li class="spaced">重要:  Moodle内のすべてのテキスト、特にユーザによって入力されるものは format_text() 関数を使用してプリントしてください。これによりテキストは、正確にフィルタおよびクリーニングされます。</li>
-  <li class="spaced">ユーザログは、add_to_log()関数を使用して記録してください。これらのログは、活動レポートおよびログで使用されます。</li>
 </ol>
 <p>&nbsp;</p>
 <h2>コーディングスタイル</h2>
@@ -193,8 +192,7 @@
   <li class="spaced"><code>$_GET</code>、<code>$_POST</code> または <code>$_REQUEST</code> を使用しないでください。必要に応じて、適切な <code>required_param()</code> または <code>optional_param()</code> を使用してください。</li>
   <li class="spaced"><code>if (isset($_GET['something']))</code> のようなものを使用して動作をチェックしないでください。例えば <code>$something = optional_param( 'something',-1,PARAM_INT )</code> を使用して、適切な値の幅に入っているかテストしてください。例 <code>if ($something>=0) {...</code></li>
   <li class="spaced">簡単に探すことができるよう、可能な限りすべての <code>required_param()</code>、<code>optional_param()</code> および他の変数を各ファイルの最初で初期化してください。</li>
-  <li class="spaced">フォーム処理ルーチンをアタックから保護するために「sesskey」メカニズムを使用してください。基本的な使用例: フォームが生成されるときに、
-    include <code>&lt;input type="hidden" name="sesskey" value="&lt;?php echo sesskey(); ?&gt;" /&gt;</code> と使用します。フォームの処理を行うときは、 <code>if (!confirm_sesskey()) {error('Bad Session Key');}</code> でチェックしてください。</li> 
+  <li class="spaced">フォーム処理ルーチンをアタックから保護するために「sesskey」メカニズムを使用してください。基本的な使用例: フォームが生成されるときに、include <code>&lt;input type="hidden" name="sesskey" value="&lt;?php echo sesskey(); ?&gt;" /&gt;</code> と使用します。フォームの処理を行うときは、 <code>if (!confirm_sesskey()) {error('Bad Session Key');}</code> でチェックしてください。</li> 
   <li class="spaced"><code>required_param()</code> または <code>optional_param()</code> の適切な使用で「きれいにされていない」場合、すべてのファイルは <code>clean_filename()</code> 関数を使用して「きれいにする」必要があります。</li>
   <li class="spaced">データベースから読み込んだデータは、更新する前に <code>addslashes()</code> を適用してください。データオブジェクト全体は、<code>addslashes_object()</code> で一度に処理することができます。</li>
   <li class="spaced">可能な限り、データベースに保存するデータは、<code>GET</code>データ ( 例 URLラインからのデータ ) とは対照的な <code>POST</code>データ ( <code>method="POST"</code> によるフォームデータ ) を使用してください。</li>
