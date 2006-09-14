@@ -38,6 +38,7 @@ $string['missingrequiredfield'] = 'Un champ obligatoire n\'est pas renseigné';
 $string['modulemissingcode'] = 'Le module $a ne possède pas le code source permettant d\'effectuaer cette fonction';
 $string['modulerequirementsnotmet'] = 'Le module «&nbsp;$a->modulename&nbsp;» ($a->moduleversion) n\'a pas pu être installé. Il requiert une version plus récente de Moodle (votre version actuelle est $a->currentmoodle, vous avez besoin de la version $a->requiremoodle).';
 $string['mustbeteacher'] = 'Vous devez être enseignant pour voir cette page';
+$string['nocontext'] = 'Désolé, ce cours n\'est pas dans un contexte valide';
 $string['noinstances'] = 'Il n\'a y aucune instance de $a dans ce cours&nbsp;! ';
 $string['nonmeaningfulcontent'] = 'Le contenu ne fait pas de sens';
 $string['noparticipatorycms'] =  'Désolé, aucun module de participation pour lequel faire un rapport.';
