@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 Beta 5 (2006050503)
+      // blog.php - created with Moodle 1.7 dev (2006090600)
 
 
 $string['addnewentry'] = 'Afegeix una nova entrada';
@@ -34,7 +34,7 @@ $string['numberoftags'] = 'Nombre d\'etiquetes per visualitzar';
 $string['otags'] = 'Etiquetes oficials';
 $string['pagesize'] = 'Nombre d\'entrades per pàgina';
 $string['personalblogs'] = 'Bitàcoles privades amb accés restringit a l\'autor';
-$string['ptags'] = 'Etiquetes definides per l\'usuari';
+$string['ptags'] = 'Etiquetes definides pels usuaris';
 $string['publishto'] = 'Publica per a';
 $string['publishtonoone'] = 'Privat (esborrany)';
 $string['publishtosite'] = 'Usuaris del lloc';

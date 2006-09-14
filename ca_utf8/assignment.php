@@ -1,9 +1,12 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6.1+ (2006050511)
+      // assignment.php - created with Moodle 1.7 dev (2006090600)
 
 
 $string['allowmultiple'] = 'Permet múltiples fitxers';
 $string['allowresubmit'] = 'Permet tornar a trametre';
+$string['assignment:grade'] = 'Qualifica la tasca';
+$string['assignment:submit'] = 'Tramet la tasca';
+$string['assignment:view'] = 'Visualitza la tasca';
 $string['assignmentdetails'] = 'Detalls de la tasca';
 $string['assignmentmail'] = '$a->teacher ha posat certa retroacció sobre la vostra tramesa corresponent a la tasca \'$a->assignment\'
 
