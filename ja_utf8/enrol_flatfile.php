@@ -1,13 +1,13 @@
 <?PHP // $Id$ 
-      // enrol_flatfile.php - created with Moodle 1.7 dev (2006052400)
+      // enrol_flatfile.php - created with Moodle 1.7 dev (2006091212)
 
 
 $string['description'] = 'この方法では、あなたが指定した場所に置いた特別にフォーマットされたテキストファイルを繰り返しチェックします。ファイルはカンマ区切りのファイルで、1行あたり4個または6個のフィールドを持ちます:
 <pre>
-* 処理, 任務, IDナンバー ( ユーザ ), IDナンバー　(　コース ) [, 開始日時, 終了日時]
+* 処理, ロール, IDナンバー ( ユーザ ), IDナンバー　(　コース ) [, 開始日時, 終了日時]
 詳細:
 * 処理 = add | del
-* 任務 = student | teacher | teacheredit
+* ロール = student | teacher | teacheredit
 * IDナンバー ( ユーザ ) = user tableのidnumber ( idではなく ) 
 * IDナンバー　(　コース ) = course tableのidnumber ( idではなく )
 * 開始日時 = 開始日時 ( UNIXエポックからの秒数 ) - 任意

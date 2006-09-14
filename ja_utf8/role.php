@@ -1,9 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006090600)
+      // role.php - created with Moodle 1.7 dev (2006091400)
 
 
+$string['addrole'] = '新しいロールを追加する';
 $string['allow'] = '許可';
-$string['assignroles'] = '任務の割り当て';
+$string['allowassign'] = 'ロールの割り当てを許可する';
+$string['allowoverride'] = 'ロールのオーバーライドを許可する';
+$string['assignroles'] = 'ロールの割り当て';
 $string['blog:create'] = '新しいブログエントリを作成する';
 $string['blog:manageentries'] = 'エントリを編集および管理する';
 $string['blog:manageofficialtags'] = 'オフィシャルタグを管理する';
@@ -37,18 +40,19 @@ $string['course:viewparticipants'] = '参加者を表示する';
 $string['course:viewscales'] = '尺度を表示する';
 $string['course:visibility'] = 'コースを表示/非表示する';
 $string['currentcontext'] = 'コンテクスト';
-$string['currentrole'] = '任務';
-$string['defineroles'] = '任務を定義する';
+$string['currentrole'] = 'ロール';
+$string['defineroles'] = 'ロールの定義';
 $string['existingusers'] = '割り当て済みユーザ: $a';
 $string['inherit'] = '継承';
-$string['legacy:admin'] = 'レガシー任務: 管理者';
-$string['legacy:coursecreator'] = 'レガシー任務: コース作成者';
-$string['legacy:editingteacher'] = 'レガシー任務: 教師 ( 編集権限あり )';
-$string['legacy:guest'] = 'レガシー任務: ゲスト';
-$string['legacy:student'] = 'レガシー任務: 学生';
-$string['legacy:teacher'] = 'レガシー任務: 教師 ( 編集権限なし )';
+$string['legacy:admin'] = 'レガシーロール: 管理者';
+$string['legacy:coursecreator'] = 'レガシーロール: コース作成者';
+$string['legacy:editingteacher'] = 'レガシーロール: 教師 ( 編集権限あり )';
+$string['legacy:guest'] = 'レガシーロール: ゲスト';
+$string['legacy:student'] = 'レガシーロール: 学生';
+$string['legacy:teacher'] = 'レガシーロール: 教師 ( 編集権限なし )';
+$string['manageroles'] = 'ロールの管理';
 $string['nocapabilitiesincontext'] = 'このコンテクストで利用できる機能はありません。';
-$string['overrideroles'] = '任務のオーバーライド';
+$string['overrideroles'] = 'ロールのオーバーライド';
 $string['permissions'] = 'パーミッション';
 $string['potentialusers'] = '潜在的なユーザ: $a';
 $string['prevent'] = '抑制';
@@ -57,11 +61,12 @@ $string['question:export'] = '問題をエクスポートする';
 $string['question:import'] = '問題をインポートする';
 $string['question:manage'] = '問題を管理する';
 $string['question:managecategory'] = '問題カテゴリを管理する';
-$string['role:assign'] = 'ユーザに任務を割り当てる';
-$string['role:manage'] = '任務を作成および管理する';
+$string['role:assign'] = 'ユーザにロールを割り当てる';
+$string['role:manage'] = 'ロールを作成および管理する';
 $string['role:override'] = '他のパーミッションをオーバーライドする';
-$string['role:unassignself'] = '自分の任務を解除する';
-$string['roletoassign'] = '割り当てる任務';
+$string['role:unassignself'] = '自分のロールを解除する';
+$string['roles'] = 'ロール';
+$string['roletoassign'] = '割り当てるロール';
 $string['site:accessallgroups'] = 'すべてのグループにアクセスする';
 $string['site:backup'] = 'コースをバックアップする';
 $string['site:config'] = 'サイト設定を変更する';
