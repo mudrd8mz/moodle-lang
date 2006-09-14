@@ -1,6 +1,9 @@
 <?php // $Id$ 
 
+$string['addrole'] = 'Ajouter un nouveau rôle';
 $string['allow'] = 'Autoriser';
+$string['allowassign'] = 'Autoriser les assignements de rôles';
+$string['allowoverride'] = 'Autoriser de court-circuiter les rôles';
 $string['assignroles'] = 'Assigner des rôles';
 $string['capability'] = 'Capacité';
 $string['currentrole'] = 'Rôle actuel';
@@ -8,6 +11,7 @@ $string['currentcontext'] = 'Contexte actuel';
 $string['defineroles'] = 'Definir les rôles';
 $string['existingusers'] = '$a utilisateurs existants';
 $string['inherit'] = 'Hériter';
+$string['manageroles'] = 'Gérer les rôles';
 $string['nocapabilitiesincontext'] = 'Aucune capacité dans ce contexte';
 $string['overrideroles'] = 'Ne pas tenir compte des rôles';
 $string['permissions'] = 'Autorisations';
@@ -15,6 +19,7 @@ $string['potentialusers'] = '$a utilisateurs potentiels';
 $string['prevent'] = 'Empêcher';
 $string['prohibit'] = 'Interdire';
 $string['roletoassign'] = 'Rôle à assigner';
+$string['roles'] = 'Rôles';
 
 $string['legacy:guest'] = 'ANCIEN RÔLE : Invité';
 $string['legacy:student'] = 'ANCIEN RÔLE : Étudiant';
