@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006091212)
+      // admin.php - created with Moodle 1.7 dev (2006091400)
 
 
 $string['accounts'] = 'Hesaplar';
@@ -65,7 +65,7 @@ $string['configgdversion'] = 'Kurulu olan GD sürümünü seçiniz. Varsayılan 
 $string['confighiddenuserfields'] = 'Diğer kullanıcılardan, kurs yöneticileri ve eğitimcileri hariç, hangi kullanıcı bilgilerinin gizli kalması gerekiyor? Bu ayar öğrenci gizliliğini arttırır. Birden fazla alan seçmek için CTRL tuşuna basılı tutun.';
 $string['configintro'] = 'Bu sayfada Moodle\'ın sunucunuzda düzgün bir şekilde çalışması için gerekli olan yapılandırma ayarlarını belirtebilirsiniz. Bunun için fazla tasalanmanıza gerek yok; çünkü, geçerli ayarlar genellikle iyi çalışır ve daha sonra bu sayfaya istediğiniz zaman geri gelip bu ayarları değiştirebilirsiniz.';
 $string['configintroadmin'] = 'Bu sayfada sitenin tamamını kontrol altına alacak ana yönetici hesabınızı yapılandırmalısınız. Lütfen doğru bir e-postanın yanında güvenli bir kullanıcı adı ve şifre tanımladığınızdan emin olun. Daha sonra daha fazla yönetici hesabı oluşturabilirsiniz.';
-$string['configintrosite'] = 'Bu sayfa başlangıç sayfasını ve sitenin adını yapılandırmanıza olanak sağlar. İstediğiz zaman bu ayarlarları değiştirmek için ana sayfadaki \'Site Ayarları\' bağlantısını kullanarak buraya geri gelebilirsiniz.';
+$string['configintrosite'] = 'Bu sayfa başlangıç sayfasını ve sitenin adını yapılandırmanıza olanak sağlar. İstediğiz zaman bu ayarlarları değiştirmek için ana sayfadaki \'Yönetim\' menülerini kullanarak buraya geri gelebilirsiniz.';
 $string['configintrotimezones'] = 'Bu sayfa dünya zaman dilimleri (yaz saati uygulaması dahil) hakkında yeni bilgiyi arayacak ve yerel veritabanını bu bilgi ile güncelleyecek. Bu kontrol şu sıraya göre yapılacak: $a Bu işlem genel olarak çok güvenlidir ve normal kurulumları bozmaz. Şimdi zaman dilimlerini güncellemek ister misiniz?';
 $string['configlang'] = 'Sitenin tamamında geçerli olan varsayılan bir dil seçin. Kullanıcılar daha sonra istedikleri dili seçebilirler.';
 $string['configlangcache'] = 'Dil menüsünü önbellekle. Belleğin çoğunu ve işlem gücünü idareli kullanır. Bunu etkinleştirirseniz dil eklendikten veya silindikten sonra güncellenmesi bir kaç dakika alabilir.';
@@ -160,10 +160,10 @@ $string['environmentrequireversion'] = 'sürüm $a->needed gerekli ve şu anda $
 $string['environmentxmlerror'] = 'Ortam verisini okurken hata ($a->error_code)';
 $string['errors'] = 'Hatalar';
 $string['filterall'] = 'Tüm ifadeleri filtrele';
-$string['filtersettings'] = 'Filtre Ayarları';
+$string['filtersettings'] = 'Filtre ayarları';
 $string['filteruploadedfiles'] = 'Gönderilen dosyaları filtrele';
 $string['frontpage'] = 'Giriş Sayfası';
-$string['generalsettings'] = 'Genel Ayarlar';
+$string['generalsettings'] = 'Genel ayarlar';
 $string['globalsquoteswarning'] = '<p><strong>Güvenlik Uyarısı</strong>: Moodle\'ın düzgün bir şekilde çalışması için <br />şu anki PHP ayarlarınızda bazı değişikliklerin yapılması gerekiyor.</p><p><code>register_globals=off</code> ve/veya <code>magic_quotes_gpc=on</code> olarak <em>ayarlamalısınız</em>.<br />Mümkünse, sunucu güvenliğini üst düzeyde tutmak için <code>register_globals=off</code> olarak ayar yapmanız önerilir.<br />Aynı zamanda, <code>magic_quotes_gpc=on</code> olarak ayarlamanız tavsiye edilir.</p><p>Bu ayarları, <code>php.ini</code> dosyasını, Apache/IIS ayar dosyasını veya <code>.htaccess</code> dosyasını düzenleyerek yapabilirsiniz.</p>';
 $string['helpadminseesall'] = 'Yöneticiler tüm olayları mı yoksa sadece kendisine ait olayları mı görsün?';
 $string['helpcalendarsettings'] = 'Tarih/saat ve takvim ayarlarını yapılandırın';
@@ -174,7 +174,7 @@ $string['helpupcomingmaxevents'] = 'Varsayılan olarak en fazla kaç tane yakla�
 $string['helpweekenddays'] = 'Hangi günler \"Hafta sonu\" olarak değerlendirilecek ve farklı bir renkte görünecek?';
 $string['htmleditor'] = 'HTML Düzenleyici';
 $string['http'] = 'HTTP';
-$string['httpsecurity'] = 'HTTP Güvenliği';
+$string['httpsecurity'] = 'HTTP güvenliği';
 $string['iconvrecommended'] = 'Sitenizde latin olmayan dilleri kullanıyorsanız isteğe bağlı ICONV kütüphanesinin kurulması site performansını arttırmak için şiddetle tavsiye edilir.';
 $string['importtimezones'] = 'Zaman dilimleri listesinin tamamını güncelle';
 $string['importtimezonescount'] = '$a->source \'dan $a->count kayıt çıkartıldı';
@@ -190,10 +190,12 @@ $string['langimportsuccess'] = 'Dil paketi başarıyla güncellendi';
 $string['langpackremoved'] = 'Dil paketinin kaldırılması tamamlandı';
 $string['langpacks'] = 'Dil paketleri';
 $string['langpackupdated'] = 'Dil paketi $a başarıyla güncellendi';
+$string['languagesettings'] = 'Dil ayarları';
 $string['langupdatecomplete'] = 'Dil paketi güncellemesi tamamlandı';
 $string['latexpreamble'] = 'LaTeX önsözü';
 $string['latexsettings'] = 'LaTeX göstericisi ayarları';
 $string['location'] = 'Bölge';
+$string['locationsettings'] = 'Bölge ayarları';
 $string['log'] = 'Kayıtlar';
 $string['mail'] = 'E-Posta';
 $string['maintfileopenerror'] = 'Bakım dosyalarını açarken hata!';
@@ -212,7 +214,7 @@ $string['mediapluginswf'] = '.SWF filtresini etkinleştir';
 $string['mediapluginswfnote'] = 'Varsayılan güvenlik önlemi olarak normal kullanıcıların sayfaya swf flash dosyalarını gömmelerine izin verilmemesi tavsiye edilir.';
 $string['mediapluginwmv'] = '.WMV filtresini etkinleştir';
 $string['misc'] = 'Çeşitli';
-$string['modulesecurity'] = 'Modül Güvenliği';
+$string['modulesecurity'] = 'Modül güvenliği';
 $string['mustenablestats'] = 'Bu sitede istatsitikler etkinleştirilmemiş';
 $string['mymoodle'] = 'Kişisel Moodle';
 $string['mysql416bypassed'] = 'Siteniz SADECE iso-8859-1 (latin) dillerini kullanıyorsa şimdiki kurulu  MySQL 4.1.12 (veya yüksek) veritabanını kullanmaya devam edebilirsiniz.';
@@ -248,7 +250,7 @@ $string['sitemaintenancemode'] = 'Bakım modu';
 $string['sitemaintenanceoff'] = 'Bakım modu pasifleştirildi ve site şu anda tekrar normal çalışıyor';
 $string['sitemaintenanceon'] = 'Siteniz şu anda bakım modunda (sadece yöneticiler giriş yapabilir ve siteyi kullanabilir)';
 $string['sitemaintenancewarning'] = 'Siteniz şu anda bakım modunda (sadece yöneticiler giriş yapabilir). Bu siteyi normal haline döndürmek için <a href=\"maintenance.php\">bakım modunu pasifleştirin</a>.';
-$string['sitepolicies'] = 'Site Politikaları';
+$string['sitepolicies'] = 'Site politikaları';
 $string['stats'] = 'İstatistikler';
 $string['stickyblocks'] = 'Sabit bloklar';
 $string['stickyblockscourseview'] = 'Kurs sayfası';
@@ -256,6 +258,7 @@ $string['stickyblockspagetype'] = 'Yapılandırılacak sayfa tipi';
 $string['systempaths'] = 'Sistem Yolları';
 $string['tabselectedtofront'] = 'Sekmeleri kullanan tablolarda, seçili hücre ön tarafa yerleştirilsin mi?';
 $string['themeselector'] = 'Tema Seçimi';
+$string['themesettings'] = 'Tema ayarları';
 $string['therewereerrors'] = 'Verinizde hatalar var';
 $string['timezoneforced'] = 'Bu site yöneticisi tarafından zorunlu tutuldu';
 $string['timezoneisforcedto'] = 'Bütün kullanıcıları kullanmaya zorunlu tut';
@@ -270,8 +273,8 @@ $string['updatelangs'] = 'Tüm Dil Paketlerini Güncelle';
 $string['updatetimezones'] = 'Zaman Dilimleri';
 $string['upgradeforumread'] = 'Moodle 1.5 sürümünde forum mesajlarını izleme özelliği eklendi.<br />Bu işlevselliği kullanmak için <a href=\"$a\">tablolarınızı güncellemeniz gerekiyor</a>.';
 $string['upgradelogs'] = 'Tam işlevsellik için, eski kayıt dosyalarınız güncellenmeli. <a href=\"$a\">Daha fazla bilgi</a>';
-$string['upgradesettings'] = 'Yeni Ayarlar';
-$string['upgradesettingsintro'] = 'Aşağıda gösterilen ayarlar son Moodle güncelleştirme sırasında eklendi. Gerekli değişikliklikleri yaptıktan sonra sayfanın altındaki Değişiklikleri Kaydet butonuna basın.';
+$string['upgradesettings'] = 'Yeni ayarlar';
+$string['upgradesettingsintro'] = 'Aşağıda gösterilen ayarlar son Moodle güncelleştirme sırasında eklendi. Gerekli değişikliklikleri yaptıktan sonra sayfanın altındaki &quot;Değişiklikleri kaydet&quot; butonuna basın.';
 $string['upgradesure'] = 'Moodle dosyalarınız değişti ve otomatik olarak sunucunuzu şu sürüme terfi etmek üzeresiniz:<br /><br />
 <strong>$a</strong> <br /><br />
 Bunu yaptığınızda tekrar geri dönemezsiniz.<br /><br />Bu sunucuyu bu sürüme terfi etmek istediğinizden emin misiniz?<br /><br />';
@@ -280,7 +283,7 @@ $string['upgradinglogs'] = 'Loglar güncelleniyor';
 $string['upwards'] = 'yukarısı';
 $string['useraccountupdated'] = 'Kullanıcı güncellendi';
 $string['userlist'] = 'Kullanıcılara göz at';
-$string['userpolicies'] = 'Kullanıcı Politikaları';
+$string['userpolicies'] = 'Kullanıcı politikaları';
 $string['userrenamed'] = 'Kullanıcı yeniden adlandırıldı';
 $string['users'] = 'Kullanıcılar';
 $string['userscreated'] = 'Kullanıcı oluşturuldu';

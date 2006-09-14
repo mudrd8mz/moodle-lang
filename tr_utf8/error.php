@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006081000)
+      // error.php - created with Moodle 1.7 dev (2006091400)
 
 
 $string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
@@ -40,6 +40,7 @@ $string['missingrequiredfield'] = 'Bazı gerekli alanlar eksik';
 $string['modulemissingcode'] = 'Bu eylemi gerçekleştirecek gerekli kod $a modülü için eksik';
 $string['modulerequirementsnotmet'] = '\"$a->modulename\" ($a->moduleversion) modülü kurulamadı. Bu modül daha yeni bir Moodle sürümü gerektirmektedir (şu anda kullandığınız: $a->currentmoodle, gereken: $a->requiremoodle).';
 $string['mustbeteacher'] = 'Bu sayfaya bakabilmek için eğitimci olmalısınız';
+$string['nocontext'] = 'Üzgünüz, bu kursun geçerli bir bağlamı yok';
 $string['noinstances'] = '$a bu kursta kullanılmadı!';
 $string['nonmeaningfulcontent'] = 'Anlamsız içerik';
 $string['noparticipatorycms'] = 'Üzgünüz, rapor edilecek kurs modüllerinin katılımcısı değilsiniz.';
