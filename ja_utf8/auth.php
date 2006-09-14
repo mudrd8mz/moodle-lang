@@ -56,8 +56,8 @@ $string['auth_imaptype'] = 'IMAPサーバタイプです。IMAPサーバは異�
 $string['auth_ldap_bind_dn'] = 'ユーザ検索にbindユーザを利用したい場合は、ここに明示してください。例 \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_pw'] = 'bindユーザ用のパスワード';
 $string['auth_ldap_bind_settings'] = 'Bind設定';
-$string['auth_ldap_contexts'] = 'ユーザが配置されているコンテキスト一覧です。異なるコンテキストは「;」で分けてください。例 \'ou=users,o=org; ou=others,o=org\'';
-$string['auth_ldap_create_context'] = 'ユーザ作成をメールによる認証で行う場合、ユーザが作成されるコンテキストを特定してください。セキュリティの観点から、このコンテキストは各ユーザごとに異なるものでなければなりません。Moodleが自動的にコンテキストからユーザを探しますので、ldap_context-vaiableをこのコンテキストに追加する必要はありません。<br /><b>注意!</b> ユーザ作成を動作させるため、auth/ldap/lib.phpファイルのauth_user_create() 関数を修正してください。';
+$string['auth_ldap_contexts'] = 'ユーザが配置されているコンテクスト一覧です。異なるコンテクストは「;」で分けてください。例 \'ou=users,o=org; ou=others,o=org\'';
+$string['auth_ldap_create_context'] = 'ユーザ作成をメールによる認証で行う場合、ユーザが作成されるコンテクストを特定してください。セキュリティの観点から、このコンテクストは各ユーザごとに異なるものでなければなりません。Moodleが自動的にコンテクストからユーザを探しますので、ldap_context-vaiableをこのコンテクストに追加する必要はありません。<br /><b>注意!</b> ユーザ作成を動作させるため、auth/ldap/lib.phpファイルのauth_user_create() 関数を修正してください。';
 $string['auth_ldap_creators'] = 'メンバーが新しいコースの作成を許されているグループのリストです。複数のグループは「;」で分けられています。通常は\'cn=teachers,ou=staff,o=myorg\'のようになります。';
 $string['auth_ldap_expiration_desc'] = 'パスワードチェックの有効期限を無効にする場合、またはLDAPがLDAPサーバから直接passwordexpirationを参照する場合は、「No」を選択してください。';
 $string['auth_ldap_expiration_warning_desc'] = 'パスワードの有効期限切れを警告するまでの日数を入力してください。';
@@ -71,7 +71,7 @@ $string['auth_ldap_objectclass'] = '任意: ldap_user_typeのname/searchユー�
 $string['auth_ldap_opt_deref'] = '検索時にエイリアスがどのように扱われるか決定してください。次の値から選択してください:  「No」 ( LDAP_DEREF_NEVER ) または 「Yes」 ( LDAP_DEREF_ALWAYS )';
 $string['auth_ldap_passwdexpire_settings'] = 'LDAPパスワード有効期限設定';
 $string['auth_ldap_preventpassindb'] = 'MoodleのDBへのパスワード保存を防ぐには、「Yes」を選択してください。';
-$string['auth_ldap_search_sub'] = 'サブコンテキストからユーザを検索する。';
+$string['auth_ldap_search_sub'] = 'サブコンテクストからユーザを検索する。';
 $string['auth_ldap_server_settings'] = 'LDAPサーバ設定';
 $string['auth_ldap_update_userinfo'] = 'LDAPよりMoodleの情報 ( 名、姓、住所等 ) を更新します。「データマッピング」設定を指定してください。';
 $string['auth_ldap_user_attribute'] = '任意: name/searchユーザに使用される属性です。通常は「cn」です。';

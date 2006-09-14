@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006091212)
+      // admin.php - created with Moodle 1.7 dev (2006091400)
 
 
 $string['accounts'] = 'アカウント';
@@ -26,9 +26,11 @@ $string['calendarsettings'] = 'カレンダー';
 $string['change'] = '変更';
 $string['changesitelang'] = 'サイト言語の変更';
 $string['componentinstalled'] = 'コンポーネントがインストールされました。';
+$string['configallowassign'] = '左側のロールをそれぞれのカラムで割り当てます。';
 $string['configallowcoursethemes'] = 'この設定を「Yes」にした場合、コースに独自のテーマを設定することができます。コーステーマは、他のすべてのテーマ ( サイト、ユーザ、セッションテーマ ) を上書きします。';
 $string['configallowemailaddresses'] = '新しいメールアドレスを特定ドメインのみに制限したい場合は、この欄にスペースで区切って入力してください。他のドメインはすべて拒否されます。例 <strong>ourcollege.edu.au .gov.au</strong>';
 $string['configallowobjectembed'] = 'デフォルトのセキュリティ対策として、通常のユーザはマルチメディア ( Flash等 ) をEMBEDおよびOBJECTタグでHTMLに埋め込むことは許可されていません ( メディアプラグインフィルタを使用して安全に埋め込むことは可能です )。これらのタグの使用を許可したい場合は「Yes」を選択してください。';
+$string['configallowoverride'] = '左側のロールをそれぞれのカラムでオーバーライドします。';
 $string['configallowunenroll'] = 'この設定を「Yes」にした場合、学生はいつでも好きなときにコースから登録抹消することができます。「No」に設定した場合、学生は登録抹消することはできず、参加に関するすべてを教師および管理者がコントロールします。';
 $string['configallowuserblockhiding'] = 'サイト全体においてユーザにブロックの表示/非表示を許可しますか? 折りたたみ可能なブロックの状態を記憶するため、この機能はJavaスクリプトとクッキーを使用します。また、この設定はユーザ自身の使用にのみ影響します。';
 $string['configallowusermailcharset'] = 'この設定を「Yes」にした場合、サイトの全ユーザは自分のメール文字コードを指定することができます。';
@@ -45,6 +47,7 @@ $string['configdbsessions'] = 'この設定を「Yes」にした場合、現在�
 $string['configdebug'] = 'この設定を「Yes」にした場合、PHPのerror_reportingが増加し、より多くの警告が表示されるようになります。これは、開発者のみに便利な設定です。';
 $string['configdefaultallowedmodules'] = '上位カテゴリに分類される<b>コースが作成される場合</b>、デフォルトでどのモジュールを許可しますか?';
 $string['configdefaultrequestedcategory'] = 'リクエストされたコースが認証された場合、コースが設置されるデフォルトカテゴリです。';
+$string['configdefaultuserroleid'] = 'すべてのログインユーザには、それぞれのユーザに与えられているロールに加えて、あなたがここで指定した権限のあるロールがサイトレベルで与えられます。ここでの設定は、ユーザに与えられているロールと衝突することはなく、ユーザがサイトレベルで確実に有益なことを行うことができるようにします ( 例 フォーラムディスカッション、リソースの閲覧等 )。';
 $string['configdeleteunconfirmed'] = 'メールによる認証を利用している場合、この値はユーザからの返答を受け付ける期間を指します。この期間終了後、古い未承認のアカウントは削除されます。';
 $string['configdenyemailaddresses'] = '特定ドメインから新しいメールアドレスを拒否したい場合は、この欄にスペースで区切って入力してください。他のドメインはすべて認められます。例  <strong>hotmail.com yahoo.co.uk</strong>';
 $string['configdigestmailtime'] = 'メール送信する選択をしたユーザに、投稿内容を要約したメールが毎日送信されます。ここでは1日の内で何時に要約メールを送信するか設定します ( 次のcronがここで設定した時間の後に実行されます )。';
@@ -90,6 +93,7 @@ $string['configmymoodleredirect'] = 'この設定は、管理者以外のユー�
 $string['confignoreplyaddress'] = 'Moodleでは、メールがユーザに送信される場合があります ( 例 フォーラムの投稿 )。ここで設定するメールアドレスは、「From」に使用され、受信者が直接送信者に返信できないようにします ( 例 ユーザが個人のメールアドレスを隠す設定を行っている場合 )。';
 $string['confignotifyloginfailures'] = 'ログイン失敗が記録された場合、通知メールを送信することができます。誰が通知メールを受け取りますか?';
 $string['confignotifyloginthreshold'] = 'ログイン失敗の通知 ( notifyloginfailures ) が有効の場合、同一ユーザまたはIPアドレスで何回ログインに失敗すると通知メールを送信しますか?';
+$string['confignotloggedinroleid'] = 'サイトにログインしていないユーザは、サイトのコンテクストで、このロールが割り当てられているかのように扱われます。ほとんどの場合、あなたがここで割り当てたいロールは「ゲスト」で十分ですが、権限を減らしたロールまたはさらに制限されたロールを作成することもできます。フォーラムへの投稿等は、ユーザが適切にログインする必要があります。';
 $string['configopentogoogle'] = 'この設定を「Yes」にした場合、Googleはあなたのサイトにゲストとして入ることができます。さらにGoogleが自動的に記録したデータを元に、他の人がゲストとしてあなたのサイトにアクセスできます。これは、すでにゲストアクセスを許可しているコースのみに、透過アクセスを提供します。';
 $string['configpathtoclam'] = 'clam AVのパス。おそらく /usr/bin/clamscan または /usr/bin/clamdscan のようになります。clam AVを正常に動作させるため、clam AVのパスを設定してください。';
 $string['configpathtodu'] = 'duのパス。おそらく /usr/bin/du のようになります。duのパスを設定した場合、ディレクトリコンテンツを表示するページの表示速度は、多くのファイルを含んだディレクトリに関して、はるかに速くなります。';
@@ -161,6 +165,7 @@ $string['debugnotice'] = 'E_NOTICE: 通知情報を表示する';
 $string['debugparse'] = 'E_PARSE: 構文エラーを表示する';
 $string['debugstrict'] = 'E_STRICT: マイナーエラーも含めてすべての情報を表示する';
 $string['debugwarning'] = 'E_WARNING: 深刻な警告のみ表示する';
+$string['defaultuserroleid'] = 'すべてのユーザのデフォルトロール';
 $string['density'] = '密度';
 $string['download'] = 'ダウンロード';
 $string['edithelpdocs'] = 'ヘルプドキュメントの編集';
@@ -190,6 +195,7 @@ $string['helpstartofweek'] = '週の始めは何曜日ですか?';
 $string['helpupcominglookahead'] = 'デフォルトで何日前のイベントを直近イベントとして表示しますか?';
 $string['helpupcomingmaxevents'] = '直近イベントを最大何件ユーザに表示しますか?';
 $string['helpweekenddays'] = '何曜日を「週末」として別の色で表示しますか?';
+$string['hiddenuserfields'] = 'ユーザフィールドを隠す';
 $string['htmleditor'] = 'HTMLエディタ';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTPセキュリティ';
@@ -243,6 +249,7 @@ $string['nolangupdateneeded'] = 'すべての言語パックは最新です。�
 $string['nonewsettings'] = 'このアップグレードで、新しい設定は追加されませんでした。';
 $string['nonexistentbookmark'] = 'あなたがリクエストしたブックマークは、登録されていません。';
 $string['notifications'] = '通知';
+$string['notloggedinroleid'] = 'ビジターのロール';
 $string['optionalmaintenancemessage'] = '任意のメンテナンスメッセージ';
 $string['order1'] = '1番目';
 $string['order2'] = '2番目';

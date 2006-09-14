@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006091212)
+      // moodle.php - created with Moodle 1.7 dev (2006091400)
 
 
 $string['action'] = '操作';
@@ -318,7 +318,7 @@ $string['default'] = 'デフォルト';
 $string['defaultcoursefullname'] = 'コースフルネーム 101';
 $string['defaultcourseshortname'] = 'CF101';
 $string['defaultcoursestudent'] = '学生';
-$string['defaultcoursestudentdescription'] = '通常、学生はコース内でより少ない権限があります。';
+$string['defaultcoursestudentdescription'] = '通常、学生にはコース内でより少ない権限があります。';
 $string['defaultcoursestudents'] = '学生';
 $string['defaultcoursesummary'] = 'このコースに関して説明した、簡単で興味深い文章をここに入力してください。';
 $string['defaultcourseteacher'] = '教師';
