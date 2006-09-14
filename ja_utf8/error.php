@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006082300)
+      // error.php - created with Moodle 1.7 dev (2006091212)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -40,6 +40,7 @@ $string['missingrequiredfield'] = 'いくつかの必須入力フィールドに
 $string['modulemissingcode'] = 'この機能を実行するためのコードがモジュール $a にありません。';
 $string['modulerequirementsnotmet'] = 'モジュール「 $a->modulename 」 ($a->moduleversion) をインストールできませんでした。このモジュールをインストールするためには新しいバージョンのMoodleをインストールする必要があります。(現在、あなたは $a->currentmoodle を使用しています。 $a->requiremoodle が必要です。)';
 $string['mustbeteacher'] = 'このページは教師のみ閲覧可能です。';
+$string['nocontext'] = '申し訳ございません、そのコースは有効なコンテクストではありません。';
 $string['noinstances'] = 'このコースに $a のインスタンスがありません!';
 $string['nonmeaningfulcontent'] = '意味の無いコンテンツです。';
 $string['noparticipatorycms'] = '申し訳ございません、レポートするための参加者がいるコースモジュールはありません。';
