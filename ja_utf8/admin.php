@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006090600)
+      // admin.php - created with Moodle 1.7 dev (2006091212)
 
 
 $string['accounts'] = 'アカウント';
@@ -153,7 +153,14 @@ $string['dbmigratewarning'] = 'この処理を始める前に、Moodleデータ�
 $string['dbmigratewarning2'] = '<b>警告: あなたはデータベース移行処理を開始しようとしています。すべてのMoodleデータベースをバックアップしているか、確実に確認してください。</b>';
 $string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">このデータベースは廃止され、新しいUTF8データベースに移行されました。このMoodleに新しいデータベースを使用するため、config.phpを編集してください。</font>';
 $string['dbmigrationdupfailed'] = 'データベース重複エラー:<font color=\"#ff0000\"><pre>$a</pre></font>';
-$string['debugging'] = 'デバッギング';
+$string['debugall'] = 'E_ALL: すべての妥当なフィードバックを表示する';
+$string['debugerror'] = 'E_ERROR: 致命的なエラーのみ表示する';
+$string['debugging'] = 'デバッグ';
+$string['debugnone'] = 'デバッグ情報を表示しない';
+$string['debugnotice'] = 'E_NOTICE: 通知情報を表示する';
+$string['debugparse'] = 'E_PARSE: 構文エラーを表示する';
+$string['debugstrict'] = 'E_STRICT: マイナーエラーも含めてすべての情報を表示する';
+$string['debugwarning'] = 'E_WARNING: 深刻な警告のみ表示する';
 $string['density'] = '密度';
 $string['download'] = 'ダウンロード';
 $string['edithelpdocs'] = 'ヘルプドキュメントの編集';
