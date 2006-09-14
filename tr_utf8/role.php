@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006090600)
+      // role.php - created with Moodle 1.7 dev (2006091400)
 
 
+$string['addrole'] = 'Yeni rol ekle';
 $string['allow'] = 'İzin ver';
+$string['allowassign'] = 'Rol ataması izni';
+$string['allowoverride'] = 'Rolün üstüne yazma izni';
 $string['assignroles'] = 'Rolleri ata';
 $string['blog:create'] = 'Yeni blog kayıtları oluştur';
 $string['blog:manageentries'] = 'Kayıtları düzelt ve yönet';
@@ -47,6 +50,7 @@ $string['legacy:editingteacher'] = 'DEVRALINAN ROL: Eğitimci (düzenleyen)';
 $string['legacy:guest'] = 'DEVRALINAN ROL: Konuk';
 $string['legacy:student'] = 'DEVRALINAN ROL: Öğrenci';
 $string['legacy:teacher'] = 'DEVRALINAN ROL: Eğitimci (düzenlemeyen)';
+$string['manageroles'] = 'Rolleri yönet';
 $string['nocapabilitiesincontext'] = 'Bu bağlamda yetki yok';
 $string['overrideroles'] = 'Rollerin üstüne yaz';
 $string['permissions'] = 'İzinler';
@@ -61,6 +65,7 @@ $string['role:assign'] = 'Kullanıcılara rol ata';
 $string['role:manage'] = 'Rolleri oluştur ve yönet';
 $string['role:override'] = 'Diğerleri için izinlerin üstüne yaz';
 $string['role:unassignself'] = 'Kendi rolünü kaldır';
+$string['roles'] = 'Roller';
 $string['roletoassign'] = 'Atanacak rol';
 $string['site:accessallgroups'] = 'Tüm gruplara eriş';
 $string['site:backup'] = 'Kursları yedekle';
