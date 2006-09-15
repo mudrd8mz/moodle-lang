@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.5.2 + (2005060223)
+      // grades.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['addcategory'] = 'Dodaj kategorię';
@@ -13,6 +13,7 @@ $string['categories'] = 'Kategorie';
 $string['category'] = 'Kategoria';
 $string['choosecategory'] = 'Wybierz kategorię';
 $string['creatinggradebooksettings'] = 'Tworzenie ustawień dziennika ocen';
+$string['curveto'] = 'Zagnij do';
 $string['deletecategory'] = 'Usuń kategorię';
 $string['displaylettergrade'] = 'Pokazuj stopnie';
 $string['displaypercent'] = 'Pokazuj procenty';
@@ -37,7 +38,7 @@ $string['gradeexceptions'] = 'Wyjątki przy ocenianiu';
 $string['gradeexceptionshelp'] = 'Pomoc do wyjątki przy ocenianiu';
 $string['gradehelp'] = 'Pomoc do ocen';
 $string['gradeitem'] = 'Ocena';
-$string['gradeitemaddusers'] = 'Wyklucz z listy ocenianych ';
+$string['gradeitemaddusers'] = 'Wyklucz z listy ocenianych';
 $string['gradeitemmembersselected'] = 'Wykluczeni z listy ocenianych';
 $string['gradeitemnonmembers'] = 'Lista ocenianych';
 $string['gradeitemremovemembers'] = 'Dołącz do listy ocenianych';
@@ -75,6 +76,7 @@ $string['nolettergrade'] = 'Brak nazwy oceny dla';
 $string['nomode'] = 'Bez trybu';
 $string['nonnumericweight'] = 'Otrzymano nienumeryczną wartość';
 $string['nonweightedpct'] = 'Nieważony %%';
+$string['notteachererror'] = 'Tej opcji może używać tylko nauczyciel';
 $string['pctoftotalgrade'] = '%% w całości oceny';
 $string['percent'] = 'procent';
 $string['percentascending'] = 'Sortuj wg procentów rosnąco';

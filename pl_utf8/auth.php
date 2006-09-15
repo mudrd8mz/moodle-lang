@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // auth.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['alternatelogin'] = 'Jeżeli wprowadzisz tutaj adres URL, to będzie używany jako strona logowania do tego serwisu. Strona powinna zawierać formularz o właściwości action ustawionej na <strong>\'$a\'</strong> i zwracać pola <strong>username</strong> i <strong>password</strong>.
@@ -46,7 +46,7 @@ $string['auth_fcpasswd'] = 'Hasło do powyższgo konta.';
 $string['auth_fctitle'] = 'Używaj serwera FirstClass';
 $string['auth_fcuserid'] = 'ID użytkownika dla konta FirstClass z prawami Subadministratora.';
 $string['auth_fieldlock'] = 'Zablokowane wartość';
-$string['auth_fieldlock_expl'] = '<p><b>Zablokowana wartość:</b>Jeżeli włączona, to będzie zapobiegać użytkownikom Moodla i administratorom edycje bespośrednio tego pola. Używaj tej opcji jeżeli zachowujecsz te dane w zewnętrznym systemie autoryzacji. ';
+$string['auth_fieldlock_expl'] = '<p><b>Zablokowana wartość:</b>Jeżeli włączona, to będzie zapobiegać użytkownikom Moodla i administratorom edycje bespośrednio tego pola. Używaj tej opcji jeżeli zachowujecsz te dane w zewnętrznym systemie autoryzacji.';
 $string['auth_fieldlocks'] = 'Zablokuj dane użytkownika';
 $string['auth_fieldlocks_help'] = '<p>Możesz zablokować pola z danymi użytkownika. Jest to użyteczne gdy dane są utrzymywane ręcznie przez administratora przez edycje profila użytkownika lub uaktualniane/przesyłane przez użycie funkcjonalości\"prześlij użytkowników\". Jeżeli zablokujesz pola wymagane prze Moodle, upewnij się że dostarczasz tych danych podczas tworzenia konta użytkownika ; albo konta będą nie zdatne do użytku.</p><p>Uważaj ustawiając blokady, \'zablokowanie pustych\' może powodować problemy.';
 $string['auth_imapdescription'] = 'Metoda ta korzysta z serwera IMAP w celu sprawdzenia czy podana nazwa użytkownika i hasło są poprawne.';
@@ -62,7 +62,7 @@ $string['auth_ldap_create_context'] = 'Jeżeli włączysz opcję tworzenia użyt
 $string['auth_ldap_creators'] = 'Lista grup, których członkowie mogą tworzyć nowe kursy. Oddziel kolejne grupy symbolem \';\'. Przykładowa lista: \'cn=teachers,ou=staff,o=myorg\'';
 $string['auth_ldap_expiration_desc'] = 'Wybierz NIE do wyłączenia sprawdzania ważności hasła lub czytania przez LDAP (passwordexpiration time) czasu ważności hasła';
 $string['auth_ldap_expiration_warning_desc'] = 'Liczba dni przed wygaśnięciem hasła kiedy jest wyświetlane ostrzeżenie.';
-$string['auth_ldap_expireattr_desc'] = 'Opcjonalnie: Unieważnia atrybut LDAP (passwordExpiration Time) który przechowuje czas ważności hasła, ';
+$string['auth_ldap_expireattr_desc'] = 'Opcjonalnie: Unieważnia atrybut LDAP (passwordExpiration Time) który przechowuje czas ważności hasła,';
 $string['auth_ldap_graceattr_desc'] = 'Opcjonalnie: Unieważnij atrybut gracelogin (jak często uzytkownik może odmawiać zmiany wygasłego hasła)';
 $string['auth_ldap_gracelogins_desc'] = 'Włącza wspierania gracelogin w LDAP. Po wygaśnięciu hasła użytkownik może się zalogować  dopóki licznik nie zejdzie do zera Włączając tę funkcję zostanie wyświetlony komunikat jeśli hasło wygaśnie.';
 $string['auth_ldap_host_url'] = 'Określ host LDAP za pomocą adresu URL, np. \'ldap://ldap.myorg.com/\' lub \'ldaps://ldap.myorg.com/\'';
@@ -104,8 +104,28 @@ $string['auth_pop3mailbox'] = 'Nazwa skrzynki pocztowej, z którą mam próbowa�
 $string['auth_pop3port'] = 'Port serwera (najczęściej 110)';
 $string['auth_pop3title'] = 'Użyj serwera POP3';
 $string['auth_pop3type'] = 'Typ serwera. Jeżeli Twój serwer wykorzystuje certyfikaty bezpieczeństwa, wybierz pop3cert.';
+$string['auth_radiusdescription'] = 'Ta metoda używa serwera <a href=\"http://en.wikipedia.org/wiki/RADIUS\" target=\"_blank\">RADIUS</a>  aby sprawdzić, czy podana nazwa użytkownika I hasło są poprawne';
+$string['auth_radiushost'] = 'Adres serwera RADIUS';
+$string['auth_radiusnasport'] = 'Port użwany do połączenia';
+$string['auth_radiussecret'] = 'Wspólny sekret';
+$string['auth_radiustitle'] = 'Użyj serwera RADIUS';
+$string['auth_shib_convert_data'] = 'Modyfikacja danych API';
+$string['auth_shib_convert_data_description'] = 'Możesz używać tego API aby dalej modyfikować dane dostarczone przez Shibboleth. <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">Przeczytaj</a>  w którym są dalsze instrukcje';
+$string['auth_shib_convert_data_warning'] = 'Ten plik nie istnieje albo serwer sieci nie może go odczytać';
+$string['auth_shib_instructions'] = 'Użyj aby dostać się przez Shibboleth, jeśli twoja instytucja go używa. Jeśli nie, uzyj normalnego pokazanego tu loginu.';
+$string['auth_shib_instructions_help'] = 'Tutaj nalezy zamieścić odpowidnie instrukcje dla użytkowników, tłumaczące Shibboleth. Zostaną one zamieszczone na stronie logowania w sekcji instrukcje. Instrukcja musi zawierać link do\"<b>$a</b>\", na który użytkownicy klikają, gdy chcą się zalogować';
+$string['auth_shib_only'] = 'Tylko Shibboleth';
+$string['auth_shib_only_description'] = 'Sprawdź tę opcję, jeśli należy wprowadzić potwierdzenie Shibboleth';
+$string['auth_shib_username_description'] = 'Nazwa serwera sieci w  środowisku Shibboleth, który będzie używany jako nazwa Moodle';
+$string['auth_shibboleth_login'] = 'Login Shibboleth';
+$string['auth_shibboleth_manual_login'] = 'Login manualny';
 $string['auth_shibbolethdescription'] = 'Używając tej metody można tworzyć i autoryzować użytkowników poprzez <a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth</a>. <br> W celu zapoznania się jak ustawić Twój Moodle za pomocą Shibboleth <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">czytaj tutaj</a>.';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
+$string['auth_updatelocal'] = 'Lokalne uaktualnienie.';
+$string['auth_updatelocal_expl'] = '<p><b>Lokalne uaktualnienie:</b> Jeśli zostanie włączone, pole będzie się uaktualniać (z wejścia zewnętrznego) za każdym razem, kiedy użytkownik się zaloguje albo kiedy się synchronizuje. Pola wybrane do uaktualnień lokalnych powinny być zamknięte.';
+$string['auth_updateremote'] = 'Uaktualnienie zewnętrzne';
+$string['auth_updateremote_expl'] = '<p><b>Uaktualnienie zewnętrzne: </b>Jeśli zostanie włączone, autoryzacja zewnętrzna będzie uaktualniania kiedy uaktualnia się konto użytkownika. Aby to umożliwić, pola powinny być otwarte.';
+$string['auth_updateremote_ldap'] = '<p><b>Uwaga: </b>uaktualnienie zewnetrznętrznych danych LDAP wymaga, byś przypisał binddn I bindpw do użytkownika bind, który ma przywileje poprawiania kont użytkowników. Na razie nie zachowuje atrybutów wielowartościowych i podczas uaktualnienia będzie usuwał dodatkowe wartości </p>';
 $string['auth_user_create'] = 'Włącz opcję tworzenia użytkowników';
 $string['auth_user_creation'] = 'Nowi (anonimowi) użytkownicy mogą tworzyć konta użytkownika używając zewnętrznego źródła uwierzytelniania z potwierdzeniem pocztą elektroniczną. Jeżeli włączysz tę opcję, pamiętaj również o skonfigurowaniu związanych z modułami opcji tworzenia użytkowników.';
 $string['auth_usernameexists'] = 'Wybrana nazwa użytkownika już istnieje - proszę wybrać inną.';
@@ -124,9 +144,15 @@ $string['instructions'] = 'Instrukcje';
 $string['internal'] = 'Wewnętrzny';
 $string['locked'] = 'Zablokowano';
 $string['md5'] = 'Kodowanie MD5';
+$string['passwordhandling'] = 'Obsługa pola hasła';
 $string['plaintext'] = 'Zwykły tekst';
+$string['shib_no_attributes_error'] = 'Wydaje się, że masz dostęp do Shibboleth, ale Moodle nie otrzymał żadnych danych użytkownika. Proszę sprawdzić, czy do właściciela serwera, na którym działa Modle zostały dostarczone dane identyfikacji, albo poinformować administratora serwera.';
+$string['shib_not_all_attributes_error'] = 'Moodle potrzebuje pewnych atrybutów Shibboleth, które w twoim wypadku nie istnieją. Te atrybuty to: $a<br /> Prosimy poinformować administratora serwera albo dostarczyciela tożsamości.';
+$string['shib_not_set_up_error'] = 'Potwierdzenie Shibboleth nie zostało ustawione poprawnie, ponieważ nie ma na tej stronie zmiennych dla środowiska Shibboleth. Proszę <a href=\"README.txt\">przeczytać</a>, gdzie są dalsze instrukcje albo skontaktować się z zarządzającym siecią tego Modle.';
 $string['showguestlogin'] = 'Możesz ukryć bądź pokazać przycisk logowania jako gość';
 $string['stdchangepassword'] = 'Użyj standardowej strony zmiany hasła';
+$string['stdchangepassword_expl'] = 'Jeśli zewnętrzny system potwierdzający umożliwia zmiany hasła poprzez Moodle, ustaw to na TAK. To ustawienie nadpisuje „Zmień Hasło URL”';
+$string['stdchangepassword_explldap'] = 'UWAGA: zaleca się, aby używać LDAP na tunelu kodowanym SSL (ldaps://), jeśli serwer LDAP jest zdalny.';
 $string['unlocked'] = 'Odblokuj';
 $string['unlockedifempty'] = 'Odblokuj jeżeli puste';
 $string['update_never'] = 'Nigdy';

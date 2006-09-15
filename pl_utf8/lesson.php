@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // lesson.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['accesscontrol'] = 'Kontrola dostępu';
@@ -56,9 +56,11 @@ $string['correctresponse'] = 'popraw odpowiedź';
 $string['customscoring'] = 'Punktacja za pytanie';
 $string['deadline'] = 'Termin końcowy';
 $string['defaultessayresponse'] = 'Twój essej będzie oceniony przez prowadzącego';
+$string['deletedefaults'] = 'Usuń $a x lekcji domyślnie';
 $string['deletedpage'] = 'Usuń stronę';
 $string['deleting'] = 'Usuwanie';
 $string['deletingpage'] = 'Usuwanie strony: $a';
+$string['dependencyon'] = 'Podlegający';
 $string['description'] = 'Opis';
 $string['detailedstats'] = 'Usuń statystykę';
 $string['didnotanswerquestion'] = 'Nie ma odpowiedzi na te pytanie';
@@ -121,21 +123,28 @@ $string['lessoncloses'] = 'Lekcja zakończona';
 $string['lessondefault'] = 'Użyj ustawień tej lekcji jako domyślne.';
 $string['lessonformating'] = 'Formatuj lekcje';
 $string['lessonmenu'] = 'Menu lekcji';
+$string['lessonnotready'] = 'Ta lekcja nie jest gotowa do zabrania. Prosze skontaktować się ze swoim $a';
 $string['lessonopen'] = 'Lekcja rozpocznie się $a';
 $string['lessonopens'] = 'Lekcja rozpoczeta';
+$string['lessonpagelinkingbroken'] = 'Nie znaleziono strony startowej. Link do strony z lekcją musi być niepoprawny. Prosze skontaktować się z administratorem.';
 $string['lessonstats'] = 'Statystyka lekcji';
 $string['loginfail'] = 'Bład logowania, spróbuj ponownie';
 $string['lowscore'] = 'najniższa ocena';
 $string['lowtime'] = 'najkrótszy czas';
 $string['mainmenu'] = 'powróć do kursu';
+$string['manualgrading'] = 'Oceń eseje';
 $string['matchesanswer'] = 'Układ z odpowiedzią';
 $string['maxhighscores'] = 'Liczba pozycji na liście najlepiej ocenionych';
 $string['maximumnumberofanswersbranches'] = 'Maksymalna liczba odpowiedzi/przejść';
 $string['maximumnumberofattempts'] = 'Maksymalna liczba prób';
+$string['maximumnumberofattemptsreached'] = 'Osiągnieto maksymalny rozmiar próby - przejdź do następnej strony';
 $string['maxtime'] = 'Limit czasu (minuty)';
 $string['maxtimewarning'] = 'Zostało $a minut do końca lekcji';
+$string['mediaclose'] = 'Pokaż przycisk zamknij:';
 $string['mediafile'] = 'Wskocz do pliku lub strony We';
 $string['mediafilepopup'] = 'Kliknij tutaj w celu zobaczenia pliku medialnego tej lekcji';
+$string['mediaheight'] = 'Wysokość okna:';
+$string['mediawidth'] = 'szerokość:';
 $string['minimumnumberofquestions'] = 'Minimalna liczba pytań';
 $string['modattempts'] = 'Zmiana odpowiedzi';
 $string['modattemptsnoteacher'] = 'Tylko student może zmieniać pracę.';
@@ -152,6 +161,7 @@ $string['nextpage'] = 'Następna strona';
 $string['noanswer'] = 'Brak odpowiedzi';
 $string['noattemptrecordsfound'] = 'Brak prób: nie przyznano oceny';
 $string['nocommentyet'] = 'Brak komentarzy';
+$string['nocoursemods'] = 'Nie znaleziono aktywnośći';
 $string['nohighscores'] = 'brak punktów';
 $string['nooneansweredcorrectly'] = 'brak poprawnych odpowiedzi';
 $string['nooneansweredthisquestion'] = 'brak odpowiedzi na te pytanie';
@@ -168,8 +178,8 @@ $string['numberofcorrectmatches'] = 'Ilość poprawnych połączeń: $a';
 $string['numberofpagestoshow'] = 'Ilość stron (kart) do wyświetlenia';
 $string['numberofpagesviewed'] = 'Ilość obejrzanych strony: $a';
 $string['ongoing'] = 'Wyświetl stopnie';
-$string['ongoingcustom'] = 'Otrzymałeś dotąd $a->score punktów z $a->currenthigh ';
-$string['ongoingnormal'] = 'Odpowiedziałeś poprawnie na $a->correct z $a->viewed pytań ';
+$string['ongoingcustom'] = 'Otrzymałeś dotąd $a->score punktów z $a->currenthigh';
+$string['ongoingnormal'] = 'Odpowiedziałeś poprawnie na $a->correct z $a->viewed pytań';
 $string['or'] = 'lub';
 $string['ordered'] = 'Poukładane';
 $string['other'] = 'inne';

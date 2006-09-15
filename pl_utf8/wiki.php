@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6 development (2005072200)
+      // wiki.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['action'] = '--Działanie--';
@@ -44,7 +44,7 @@ $string['downloadaszip'] = 'Plik zip';
 $string['downloadtimes'] = 'Pobrano $a razy';
 $string['dwnlnofiles'] = 'Brak plików';
 $string['dwnlsection'] = 'Sekcja pobierania plików';
-$string['editform1'] = 'Nie przejmuj się formatowaniem na tym etapie. Może być ';
+$string['editform1'] = 'Nie przejmuj się formatowaniem na tym etapie. Może być';
 $string['editform2'] = 'Pisz sensownie i pamiętaj, że edytowanie jest logowane.';
 $string['editthispage'] = 'Edytuj tą stronę';
 $string['emptypage'] = 'Pusta strona';
@@ -130,8 +130,10 @@ $string['plaintext'] = 'Tekst';
 $string['preview'] = 'Podgląd';
 $string['readonly'] = 'Strony tylko do odczytu';
 $string['refs'] = 'Odwołania';
+$string['reloadlinkdescription'] = 'Odśwież stronę, aby nowa zawartość została pokazana.';
+$string['reloadlinktext'] = 'Odśwież stronę';
 $string['removenotice'] = 'Zauważ, że tylko strony do których nie odwołują się żadne inne będą tutaj wyświetlone. Ponieważ silnik wiki dokonuje tylko ograniczonego testowania czy do strony są jakieś odwołania, może więc nie wyświetlić wszystkich stron.<br />
-Jeśli jednak wpierw opróżnisz stronę, zostanie ona tutaj wyświetlona. Inne testy bazy danych są również przedstawione. ';
+Jeśli jednak wpierw opróżnisz stronę, zostanie ona tutaj wyświetlona. Inne testy bazy danych są również przedstawione.';
 $string['removepagecheck'] = 'Czy na pewno usunąć te strony?';
 $string['removepages'] = 'Usuń strony';
 $string['removeselectedpages'] = 'Usuń zaznaczone strony';
@@ -166,9 +168,9 @@ $string['uplerror'] = 'Niestety proces przesyłania plików nie zakończył się
 $string['uplinsect'] = 'Info przesyłania';
 $string['uplnewnam'] = 'Zapisz pod inną nazwą';
 $string['upload0'] = 'Użyj tego formularza do przesłania dowolnego pliku binarnego do wiki:';
-$string['uploadedon'] = 'Przesłany: ';
+$string['uploadedon'] = 'Przesłany:';
 $string['uploadpicturebutton'] = 'Prześlij';
-$string['uplok'] = 'Udało się przesłać Twój plik ';
+$string['uplok'] = 'Udało się przesłać Twój plik';
 $string['version'] = 'Wersja';
 $string['versionrangetoobig'] = 'Nie możesz usunąć wszystkich wersji tej strony! Ostatnia wersja powinna zostać.';
 $string['versions'] = 'Wersje';

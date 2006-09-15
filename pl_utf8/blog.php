@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // blog.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['addnewentry'] = 'Dodaj nowy wpis';
@@ -19,6 +19,7 @@ $string['disableblogs'] = 'Wyłącz całkowicie system blogów';
 $string['entrybody'] = 'Treść wpisu blogu';
 $string['entrybodyonlydesc'] = 'Opis wpisu';
 $string['entryerrornotyours'] = 'Ten wpis nie jest twój';
+$string['entrysaved'] = 'Wpis został zapisany';
 $string['entrytitle'] = 'Tytuł wpisu';
 $string['entryupdated'] = 'Uaktualniono wpis blogu';
 $string['groupblog'] = 'Blog grupy: $a';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // data.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['action'] = 'Akcja';
@@ -30,7 +30,7 @@ $string['confirmdeletefield'] = 'Czy napewno usunąć te pole?';
 $string['confirmdeleterecord'] = 'Napewno chcesz usunąć ten wpis?';
 $string['csstemplate'] = 'szablon CSS';
 $string['csvfile'] = 'plik CSV';
-$string['csvimport'] = 'import pliku CSV ';
+$string['csvimport'] = 'import pliku CSV';
 $string['date'] = 'data';
 $string['dateentered'] = 'wprowadzono datę';
 $string['defaultfielddelimiter'] = '(domyślnie jest przecinek)';
@@ -112,7 +112,7 @@ $string['nolisttemplate'] = 'Lista szablonów nie została jeszcze zdefioniowana
 $string['nomatch'] = 'Żaden wpis nie został znaleziony.';
 $string['nomaximum'] = 'Brak maksimum';
 $string['norecords'] = 'Brak wpisów w bazie danych';
-$string['nosingletemplate'] = 'Pojedynczy szablonc nie jeszcze jest określony ';
+$string['nosingletemplate'] = 'Pojedynczy szablonc nie jeszcze jest określony';
 $string['number'] = 'numer';
 $string['numberrssarticles'] = 'artykuły RSS';
 $string['numnotapproved'] = 'W ciągu';
@@ -145,6 +145,7 @@ $string['resizingimages'] = 'Zmienianie rozmiarów obrazu thumbnails...';
 $string['rssglobaldisabled'] = 'Wyłączone. Zobacz konfiguracje zmiennych na stronie.';
 $string['rsshowmany'] = '(liczba ostatnich wpisów które mają być pokazywane, 0 to wyłączone RSS)';
 $string['rsstemplate'] = 'Wzorzec RSS';
+$string['rsstitletemplate'] = 'Tytuł wzorca RSS';
 $string['save'] = 'Zapisz';
 $string['saveandadd'] = 'Zapisz i dodaj następny';
 $string['saveandview'] = 'Zapisz i pokaż';
@@ -163,7 +164,7 @@ $string['updatefield'] = 'Uaktualnij istniejące pola';
 $string['uploadfile'] = 'pobierz plik';
 $string['uploadrecords'] = 'Pobierz wpisy z pliku';
 $string['url'] = 'URL';
-$string['viewfromdate'] = 'Podgląd z ';
+$string['viewfromdate'] = 'Podgląd z';
 $string['viewtodate'] = 'Podgląd';
 
 ?>

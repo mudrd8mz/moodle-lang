@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // admin.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['adminseesallevents'] = 'Administratorzy widzą wszystkie zdarzenia';
@@ -17,8 +17,8 @@ $string['calendarsettings'] = 'Kalendarz';
 $string['change'] = 'zmiana';
 $string['changesitelang'] = 'zmień język witryny';
 $string['componentinstalled'] = 'zainstalowane komponenty';
-$string['configallowcoursethemes'] = 'Jeżeli jest wybrane TAK to umożliwiony jest wybór własnego  tematu dla kursu (wygląd strony). Tematy kursu unieważniają wybór ogólnego tematu (wygląd strony, użytkowników, albo tematów sesji ) ';
-$string['configallowemailaddresses'] = 'Jeżeli chcesz ograniczyć wszystkie nowe adresy e-mail do poszczególnej domeny (przy tworzeniu kont potwierdzanych e-mailem), to wprowadź tutaj listę tych domen oddzieloną spacjami. Wszystkie inne domeny będą odrzucane. np: <strong>ourcollege.edu.au .gov.au</strong> ';
+$string['configallowcoursethemes'] = 'Jeżeli jest wybrane TAK to umożliwiony jest wybór własnego  tematu dla kursu (wygląd strony). Tematy kursu unieważniają wybór ogólnego tematu (wygląd strony, użytkowników, albo tematów sesji )';
+$string['configallowemailaddresses'] = 'Jeżeli chcesz ograniczyć wszystkie nowe adresy e-mail do poszczególnej domeny (przy tworzeniu kont potwierdzanych e-mailem), to wprowadź tutaj listę tych domen oddzieloną spacjami. Wszystkie inne domeny będą odrzucane. np: <strong>ourcollege.edu.au .gov.au</strong>';
 $string['configallowobjectembed'] = 'W domyślnym ustawieniu zabezpieczeń, zwykli użytkownicy nie mają prawa ingerować w strukturę tekstu plików multimedialnych (takie jak Flash) używając oznaczonych zakładek  INGERUJ i ZANEGUJ w ich HTML (pomimo, że proces ten może być ciągle bezpiecznie przeprowadzany przy pomocy filtra nakładki multimedialnej). Jeśli chcesz uaktywnić te zakładki wówczas udostępnij tę opcję';
 $string['configallowunenroll'] = 'Jeżeli jest ustawione \'tak\', studenci mogą samodzielnie wypisywać się z kursów w dowolnym momencie. W przeciwnym wypadku wyłącznie prowadzący i administrotorzy będą mieli do tego prawo.';
 $string['configallowuserblockhiding'] = 'Czy chcesz zezwolić użytkownikom ukrywać/pokazywać bloki strony?Ta cecha wymaga użycia Javascript i plików coockies  to wpływa na stan bloków i są widzialne dla danego użytkownika';
@@ -41,6 +41,7 @@ $string['configdenyemailaddresses'] = 'Żeby odrzucać listy z poszczególnych a
 $string['configdigestmailtime'] = 'Dla tych którzy wybrali wysyłanie streszczenia codziennie mailem. Można ustawić o której godzinnie codziennie streszczenie będzie wysyłane.';
 $string['configdisplayloginfailures'] = 'Będzie wyświetlać informacje wybranego użytkownika o poprzednich nieudanych próbach logowania.';
 $string['configdocroot'] = 'Definiuje ścieżkę do dokumentacji moodle. Możesz zmienić to jeśli sobie życzysz mieć swoja dostosowaną dokumentację. Jeżeli to zrobisz upewnij sie że ścieżki są tego samego formatu co http://docs.moodle.org.';
+$string['configdoctonewwindow'] = 'Jeśli to aktywizujesz, linki do Moodle Docs zostaną pokazane w nowym oknie.';
 $string['configenablecourserequests'] = 'To pozwoli każdemu użytkownikowi stworzyć kurs na własne potrzeby';
 $string['configenablerssfeeds'] = 'Ta opcja zezwala na działanie RSS na całej stronie. Właściwie aby zauważyć jakiekolwiek zmiany należy zezwolić na RSS także w trybach indywidualnych – idź do ustawień Trybów pod Ustawienia Administratora';
 $string['configenablerssfeedsdisabled'] = 'To jest niemożliwe ponieważ wiadomości RSS są wyłączone na tej platformie. Aby to zmienić zmień ustawienia zmiennych w Konfiguracji Administracji.';
@@ -129,7 +130,7 @@ $string['configwarning'] = 'Postępuj rozważnie z tymi ustawieniami – wartoś
 $string['configzip'] = 'Wskazuje lokalizację Twoich spakowanych programów (dotyczy jedynie systemu Unix, ustawienie opcjonalne). Jeśli zostało określone, będzie wskazywało miejsce na serwerze dla zapisywania spakowanych archiwów. Jeśli pozostawisz to miejsce pustym, wówczas Moodle będzie stosował się do swoich wewnętrznych procedur';
 $string['confirmation'] = 'potwierdzenie';
 $string['confirminstall'] = 'Chcesz zainstlować pakiet językowy ($a), czy jesteś pewny?';
-$string['cronwarning'] = 'Skrypt konserwacyjny <a href=\"cron.php\">cron.php nie był uruchamiany przez ostatnie 24 godziny. ';
+$string['cronwarning'] = 'Skrypt konserwacyjny <a href=\"cron.php\">cron.php nie był uruchamiany przez ostatnie 24 godziny.';
 $string['dbmigrate'] = 'Przeniesienie Bazy Danych Moodle';
 $string['dbmigrateconnecerror'] = 'ie określono połaczenia z bazą danych';
 $string['dbmigrateencodingerror'] = 'Wyszczególniona baza danych ma kodowanie $a a nie wymagane UNICODE/UTF8.<br /> Prosze wskazać inną.';
@@ -166,7 +167,7 @@ $string['helpupcominglookahead'] = 'Na ile dni w przyszłość jest ustawiony ka
 $string['helpupcomingmaxevents'] = 'Ile (maksymalnie) nadchodzących wydarzeń jest domyślnie pokazywanych użytkownikom';
 $string['helpweekenddays'] = 'Które dni tygodnia są potraktowane jak \"weekend \" i pokazane różnym kolorem?';
 $string['iconvrecommended'] = 'Zainstalowanie opcjonalnej biblioteki ICONV jest mocno polecane aby poprawić działanie strony, szczególnie jeśli strona używa języków nie-łacińskich.';
-$string['importlangreminder'] = 'Proces migracji bazy danych zaczyna się. Będziesz musiał się <b>znowu zalogować</b> żeby uaktualnienie zadziałało. Zainstaluj pakiet językowy unicode jak najszybciej z Admin->Język->Narzędzia importu języków <b>potem</b> jak skończy się proces przeniesienia bazy danych. ';
+$string['importlangreminder'] = 'Proces migracji bazy danych zaczyna się. Będziesz musiał się <b>znowu zalogować</b> żeby uaktualnienie zadziałało. Zainstaluj pakiet językowy unicode jak najszybciej z Admin->Język->Narzędzia importu języków <b>potem</b> jak skończy się proces przeniesienia bazy danych.';
 $string['importtimezones'] = 'pobranie listy stref czasowych';
 $string['importtimezonescount'] = '$a->count wejść importowany z $a->source';
 $string['importtimezonesfailed'] = 'Żadne źródła nie zostały znalezione';
@@ -186,7 +187,7 @@ $string['maintfileopenerror'] = 'Bład otwarcia plików konserwacji';
 $string['maintinprogress'] = 'Proces konserwacji trwa...';
 $string['managelang'] = '<b>Zarządzaj</b>';
 $string['mbstringrecommended'] = 'Zainstalowanie opcjonalnej biblioteki MBSTRING jest mocno polecane aby poprawić działanie strony, szczególnie jeśli strona używa języków nie łacińskich.';
-$string['mediapluginavi'] = 'Włącz filtr .avi ';
+$string['mediapluginavi'] = 'Włącz filtr .avi';
 $string['mediapluginflv'] = 'Włącz filtr .flv';
 $string['mediapluginmov'] = 'Włącz filtr .mov';
 $string['mediapluginmp3'] = 'Włącz filtr .mp3';
@@ -195,6 +196,7 @@ $string['mediapluginram'] = 'Włącz filtr .ram';
 $string['mediapluginrm'] = 'Włącz filtr .rm';
 $string['mediapluginrpm'] = 'Włącz filtr .rpm';
 $string['mediapluginswf'] = 'Włącz filtr .swf';
+$string['mediapluginswfnote'] = 'Jako domyśle ustawienie bezpieczeństwa nie należy umożliwić zwykłym użytkownikom na dodawanie plików swf flash.';
 $string['mediapluginwmv'] = 'Włącz filtr .wmf';
 $string['mysql416bypassed'] = 'Jezeli Twoja strona używa ISO-8859-1 możesz nadal używać właśnie zainstalowanej  MySQL 4.1.12 (lub wyższej).';
 $string['mysql416required'] = 'MySQL 4.1.16 jest najniższą wersją polecaną dla Moodle 1.6 gwarantującą że wszystkie dane będą konwertowane do UTF8.';
@@ -203,9 +205,10 @@ $string['optionalmaintenancemessage'] = 'Opcjonalna wiadomość podczas konserwa
 $string['order1'] = 'Pierwszy';
 $string['order2'] = 'Drugi';
 $string['order3'] = 'Trzeci';
+$string['order4'] = 'Czwarty';
 $string['pathconvert'] = 'Ścieżka konwersji binarnej';
 $string['pathdvips'] = 'Ścieżka do dvips';
-$string['pathlatex'] = 'Ścieżka do latex ';
+$string['pathlatex'] = 'Ścieżka do latex';
 $string['pathtopgdump'] = 'Ścieżka do pg_dump';
 $string['pathtopgdumpdesc'] = 'Tego potrzeba tylko wtedy gdy w systemie jest więcej niż jeden pg_dump (np jeżeli masz zainstalowaną więcej niż jedną wersje postgresql)';
 $string['pathtopgdumpinvalid'] = 'Błędna scieżka do pg_dump - albo błędna scieżka albo nie można wykonać polecenia.';
@@ -214,6 +217,7 @@ $string['pathtopsqldesc'] = 'Tego potrzeba tylko wtedy gdy w systemie jest więc
 $string['pathtopsqlinvalid'] = 'Błędna scieżka do psql - albo błędna scieżka albo nie można wykonać polecenia.';
 $string['pgcluster'] = 'Klaster PostgreSQL';
 $string['pgclusterdescription'] = 'Parametry wersji/klastru do operacji z linii poleceń. Jeśli masz tylko jeden postgresql w systemie lub nie wiesz co z tym zrobić pozostaw puste.';
+$string['php50restricted'] = 'W PHP 5.0x jest sporo problemów, prosimy albo zainstalowac wersję 5.1x albo 4.3x lub 4.4.x';
 $string['pleaseregister'] = 'Proszę zarejestrować swoją stronę, wtedy przycisk zostanie usunięty';
 $string['releasenoteslink'] = 'Aby uzyskac informacje o bieżącej wersji proszę zobaczyć na strone  <a target=\"_new\" href=\"$a\">Bieżace informacje</a>';
 $string['remotelangnotavailable'] = 'Ponieważ Moodle nie może połączyć się download.moodle.org, to nie możemy zainstalować pakietu językowego. Prosze ściągnąć odpowiednie pliki zip z listy poniższej i przekopiowac do katalogu $a i rozpakować ręcznie.';
@@ -250,7 +254,7 @@ $string['upgradesure'] = 'Twoje pliki Moodle zostały zmienione, a Ty właśnie 
 <p>Czy chcesz teraz rozpocząć aktualizację tego serwera do tej wersji?</p>”';
 $string['upgradingdata'] = 'Uaktualnianie danych';
 $string['upgradinglogs'] = 'Uaktualnianie logów';
-$string['upwards'] = 'Do góry ';
+$string['upwards'] = 'Do góry';
 $string['useraccountupdated'] = 'użytkownik uaktualniony';
 $string['userrenamed'] = 'użytkownik usunięty';
 $string['userscreated'] = 'użytkownicy utworzeni';
