@@ -483,7 +483,7 @@ $string['uniform'] = '十进制数，来自统一的分布';
 $string['unit'] = '单位';
 $string['unknowntype'] = '行{$a}处不支持该类别的题目。该题目将被忽略';
 $string['unsupportedformulafunction'] = '不支持函数$a';
-$string['unusedcategorydeleted'] = '因为删除课程后，这些题目将不能再在此服务器使用，所以此类别已经被删除。';
+$string['unusedcategorydeleted'] = '因为删除课程后，此服务器不再使用这些题目，所以此类别已经被删除。';
 $string['updatesettings'] = '升级测试环境';
 $string['upgradesure'] = '<div style=\"color: red;\">测验模块将大幅改动测验表，但是升级功能还没有被充分测试。强烈建议您在此之前备份您的数据库中相应的表。</div>';
 $string['url'] = 'URL';
