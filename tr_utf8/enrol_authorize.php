@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006090300)
+      // enrol_authorize.php - created with Moodle 1.7 dev (2006091400)
 
 
 $string['adminacceptccs'] = 'Hangi kredi kartı tipleri kabul edilecek?';
@@ -46,6 +46,7 @@ $string['anreferer'] = 'Authorize.net hesabınızda URL referer ayarı yaptıysa
 $string['antestmode'] = 'İşlemleri deneme modunda çalıştır (para çekilmez)';
 $string['antrankey'] = 'Authorize.net: İşlem Anahtarı (Transaction Key)';
 $string['authcaptured'] = 'Yetki Verilmiş / Çekilmiş';
+$string['authorize:managepayments'] = 'Ödemeleri yönet';
 $string['authorizedpendingcapture'] = 'Yetki Verilmiş / Çekilmeyi Bekliyor';
 $string['avsa'] = 'Adres (cadde) uydu, posta kodu uymadı';
 $string['avsb'] = 'Adres bilgisi verilmedi';
