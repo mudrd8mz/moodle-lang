@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6.1+ (2006050512)
+      // scorm.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['advanced'] = 'Parametri';
@@ -13,8 +13,10 @@ $string['badmanifest'] = 'Ima grešaka u manifestu: vidite evidentirane greške'
 $string['browse'] = 'Pregled';
 $string['browsed'] = 'Pretraženo';
 $string['browsemode'] = 'Način pregledanja podataka';
+$string['browserepository'] = 'Pretraga repozitorijuma';
 $string['chooseapacket'] = 'Izaberite ili ažurirajte SCORM paket';
 $string['completed'] = 'Završeno';
+$string['confirmloosetracks'] = 'UPOZORENJE: Čini se da je došlo do promene paketa. Ako je promenjena struktura paketa, podaci o aktivnostima nekih korisnika se mogu izgubiti tokom procesa ažuriranja.';
 $string['coursepacket'] = 'Paket kursa';
 $string['coursestruct'] = 'Struktura kursa';
 $string['datadir'] = 'Greška datotečnog sistema: Nije moguće kreirati direktorijum za podatke kursa';
@@ -98,6 +100,8 @@ $string['review'] = 'Pregled';
 $string['reviewmode'] = 'Mod za pregledanje';
 $string['scoes'] = 'Objekti za učenje';
 $string['score'] = 'Rezultat';
+$string['scorm:view'] = 'Prikaz sadržaja';
+$string['scorm:viewgrades'] = 'Prikaz ocena';
 $string['scormcourse'] = 'SCORM kurs';
 $string['scrollbars'] = 'Dozvoliti skrolovanje prozora';
 $string['sided'] = 'Sa leve strane';

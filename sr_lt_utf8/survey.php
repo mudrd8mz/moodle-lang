@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.6 + (2006050506)
+      // survey.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['actual'] = 'Aktuelno';
@@ -199,6 +199,9 @@ $string['scaletimes5'] = 'Skoro nikad, Retko, Ponekad, Često, Skoro uvek';
 $string['seemoredetail'] = 'Kliknite ovde za više detelja';
 $string['selectedquestions'] = 'Odabrana pitanja iz skale, svi studenti';
 $string['summary'] = 'Rezime';
+$string['survey:download'] = 'Preuzimanje odgovora';
+$string['survey:participate'] = 'Odgovoriti na anketu';
+$string['survey:readresponses'] = 'Pregled odgovora';
 $string['surveycompleted'] = 'Završili ste popunjavanje ankete. Grafikon ispod prikazuje rezime Vaših rezultata upoređenih sa sa prosečnim odgovorima svih učesnika.';
 $string['surveyname'] = 'Naziv ankete';
 $string['surveysaved'] = 'Anketa je sačuvana';
