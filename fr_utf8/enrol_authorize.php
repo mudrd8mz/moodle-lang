@@ -48,6 +48,7 @@ $string['anreferer'] = 'Taper ici une URL (référenceur) si vous avez mis en pl
 $string['antestmode'] = 'Traiter les transactions en mode test (aucun montant ne sera prélevé)';
 $string['antrankey'] = 'Authorize.net : clef de transaction';
 $string['authcaptured'] = 'Autorisé / Saisi';
+$string['authorize:managepayments'] = 'Gérer les paiements';
 $string['authorizedpendingcapture'] = 'Autorisé / En attente de saisie';
 $string['avsa'] = 'L\'adresse (rue) correspond, mais pas le code postal';
 $string['avsb'] = 'L\'adresse n\'est pas renseignée';
