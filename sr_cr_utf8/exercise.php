@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.6.1+ (2006050512)
+      // exercise.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['absent'] = 'Одсутан';
@@ -39,7 +39,7 @@ $string['detailsofassessment'] = 'Детаљи оцењивања';
 $string['displayoffinalgrades'] = 'Приказ коначних оцена';
 $string['doubleupload'] = 'Упозорење: Ова пријава је вероватно послата два пута. Проверите на Администраторској страници две пријаве овог корисника, послате у кратком временском року. Обришите једну од пријава пре наставка рада.';
 $string['duedate'] = 'Рок за предају';
-$string['edit'] = 'Уредите';
+$string['edit'] = 'Уређивање';
 $string['editingassessmentelements'] = 'Уређивање елемената процењивања';
 $string['element'] = 'Елемент';
 $string['elementweight'] = 'Вредност елемента';
@@ -47,21 +47,22 @@ $string['enterpassword'] = 'Унесите лозинку';
 $string['entriessaved'] = 'Уноси су сачувани';
 $string['errorbanded'] = 'Грешка';
 $string['excellent'] = 'Одлично';
-$string['exerciseassessments'] = 'Процењивање вежби';
+$string['exercise:assess'] = 'Процењивање вежби';
+$string['exerciseassessments'] = 'Процене вежби';
 $string['exercisefeedback'] = 'Повратне информације за вежбу';
 $string['exercisesubmissions'] = 'Предата решења вежби';
 $string['fair'] = 'Довољан';
 $string['generalcomment'] = 'Општи коментар';
 $string['good'] = 'Добар';
-$string['gradeassessment'] = 'Изврши процену';
+$string['gradeassessment'] = 'Извршавање процене';
 $string['gradeforassessment'] = 'Оцена за процену';
 $string['gradeforstudentsassessment'] = 'Оцена за $а процену';
 $string['gradeforsubmission'] = 'Оцена за предато решење';
 $string['gradetable'] = 'Табела оцена';
 $string['gradinggrade'] = 'Оцењивање оцена';
-$string['gradingstrategy'] = 'Стратегија оцјењивања';
+$string['gradingstrategy'] = 'Стратегија оцењивања';
 $string['handlingofmultiplesubmissions'] = 'Обрада више предатих решења';
-$string['hidenamesfromstudents'] = 'Сакријте имена од студената';
+$string['hidenamesfromstudents'] = 'Сакривање имена од студената';
 $string['incorrect'] = 'Нетачно';
 $string['late'] = 'Касни';
 $string['lax'] = 'Слаб';

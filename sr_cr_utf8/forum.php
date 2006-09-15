@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6 + (2006050506)
+      // forum.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['addanewdiscussion'] = 'Додајте нову тему за дискусију';
@@ -49,6 +49,7 @@ $string['disallowsubscribe'] = 'Учлањивање није дозвољено
 $string['disallowsubscribeteacher'] = 'Учлањивање није дозвољено (осим предавачима)';
 $string['discussion'] = 'Дискусија';
 $string['discussionmoved'] = 'Ова дискусија је премештена на \'$a\'.';
+$string['discussionmovedpost'] = 'Ова дискусија је премештена <a href=\"$a->discusshref\">овде</a> у форуму <a href=\"$a->forumhref\">$a->forumname</a>';
 $string['discussionname'] = 'Назив дискусије';
 $string['discussions'] = 'Дискусије';
 $string['discussionsstartedby'] = 'Дискусију започео/ла $a';
@@ -68,6 +69,24 @@ $string['existingsubscribers'] = 'Тренутни чланови';
 $string['forcesubscribe'] = 'Обавезно учлањивање свих корисника';
 $string['forcesubscribeq'] = 'Морају ли сви корисници бити учлањени?';
 $string['forum'] = 'Форум';
+$string['forum:createattachment'] = 'Креирање прилога';
+$string['forum:deleteanypost'] = 'Брисање свих порука (у било које време)';
+$string['forum:deleteownpost'] = 'Брисање сопствених порука (у задатом року)';
+$string['forum:editanypost'] = 'Уређивање произвољних порука';
+$string['forum:managesubscriptions'] = 'Управљање чланствима';
+$string['forum:movediscussions'] = 'Премештање дискусија';
+$string['forum:rate'] = 'Оцењивање порука';
+$string['forum:replypost'] = 'Одговарање на поруке';
+$string['forum:splitdiscussions'] = 'Подела дискусија';
+$string['forum:startdiscussion'] = 'Започињање нових дискусија';
+$string['forum:throttlingapplies'] = 'Потискивање пријава';
+$string['forum:viewanyrating'] = 'Преглед произвољних оцена';
+$string['forum:viewdiscussion'] = 'Преглед дискусија';
+$string['forum:viewforum'] = 'Преглед форума';
+$string['forum:viewhiddentimedposts'] = 'Преглед скривених временски одређених порука';
+$string['forum:viewqandawithoutposting'] = 'Увек погледати поруке са често постављаним питањима';
+$string['forum:viewrating'] = 'Преглед оцена';
+$string['forum:viewsubscribers'] = 'Преглед чланова';
 $string['forumauthorhidden'] = 'Аутор (скривено)';
 $string['forumblockingalmosttoomanyposts'] = 'Приближавате се максималном могућем броју порука на овом форуму. Објавили сте $a->numposts порука у последњих $a->blockperiod а лимит је $a->blockafter порука.';
 $string['forumbodyhidden'] = 'Не можете погледати ову поруку, вероватно јер још нисте учествовали у дискусији.';
@@ -103,6 +122,7 @@ $string['modethreaded'] = 'Приказ одговора у низу';
 $string['modulename'] = 'Форум';
 $string['modulenameplural'] = 'Форуми';
 $string['more'] = 'још';
+$string['movedmarker'] = '(Премештено)';
 $string['movethisdiscussionto'] = 'Премести ову дискусију у ...';
 $string['namenews'] = 'Форум новости';
 $string['namesocial'] = 'Друштвени форум';

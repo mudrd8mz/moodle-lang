@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 + (2006050506)
+      // error.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['adminprimarynoedit'] = 'Подаци примарног администратора не могу бити мењани од стране других корисника';
@@ -43,6 +43,7 @@ $string['mustbeteacher'] = 'Морате бити предавач да бист
 $string['noinstances'] = 'Нема инстанци $а у овом курсу!';
 $string['nonmeaningfulcontent'] = 'Бесмислен садржај';
 $string['noparticipatorycms'] = 'Нажалост немате учествујућих модула курса о којима би се могао поднети извештај.';
+$string['nopermissions'] = 'Жао нам је, али тренутно немате дозволу да то радите ($a)';
 $string['notavailable'] = 'Тренутно није на располагању';
 $string['onlyadmins'] = 'Само администратори могу то да раде.';
 $string['onlyeditingteachers'] = 'Само предавачи могу то да раде.';
