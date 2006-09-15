@@ -1,15 +1,16 @@
-<?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.6 + (2006050506)
+﻿<?PHP // $Id$ 
+      // lesson.php - created with Moodle 1.6.2 (2006050520)
 
 
-$string['LOs'] = 'Objekti za učenje';
 $string['accesscontrol'] = 'Kontrola pristupa';
 $string['actionaftercorrectanswer'] = 'Akcija nakon tačnog odgovora';
+$string['actions'] = 'Akcije';
 $string['activitylink'] = 'Link do aktivnosti';
 $string['activitylinkname'] = 'Idi na: $a';
 $string['addabranchtable'] = 'Dodavanje tabele grananja';
 $string['addanendofbranch'] = 'Dodavanje kraja tabele grananja';
 $string['addaquestionpage'] = 'Dodavanje stranice sa pitanjem';
+$string['addaquestionpagehere'] = 'Dodavanje stranice sa pitanjem na ovo mesto';
 $string['addcluster'] = 'Dodavanje grupe pitanja';
 $string['addedabranchtable'] = 'Dodata je tabela grananja';
 $string['addedanendofbranch'] = 'Dodat je kraj tabele grananja';
@@ -25,6 +26,7 @@ $string['answersfornumerical'] = 'Odgovori za numerička pitanja treba da budu u
 $string['arrangebuttonshorizontally'] = 'Da li da dugmad u tabeli grananja budu postavljena horizontalno u modu za prikaz lekcije u formi slajdova koji se smenjuju?';
 $string['attempt'] = 'Pokušaj: $a';
 $string['attempts'] = 'Pokušaji';
+$string['attemptsdeleted'] = 'Obrisani pokušaji';
 $string['attemptsremaining'] = 'Ostalo Vam je još $a pokušaja';
 $string['available'] = 'Dostupno od';
 $string['averagescore'] = 'Prosečan broj bodova';
@@ -55,6 +57,7 @@ $string['continuetoanswer'] = 'Nastavite da biste promenili odgovore.';
 $string['correctanswerjump'] = 'Tačan odgovor vodi do';
 $string['correctanswerscore'] = 'Broj bodova koji se dobija za tačan odgovor';
 $string['correctresponse'] = 'Tačan odgovor';
+$string['credit'] = 'Bodovi';
 $string['customscoring'] = 'Bodovanje prilagođeno potrebama korisnika';
 $string['deadline'] = 'Krajnji rok';
 $string['defaultessayresponse'] = 'Vaš esej će pregledati predavač zadužen za ovaj kurs.';
@@ -117,6 +120,7 @@ $string['importppt'] = 'Uvoz PowerPoint slajdova';
 $string['importquestions'] = 'Uvoz pitanja';
 $string['insertedpage'] = 'Stranica je umetnuta';
 $string['jump'] = 'Prelaz';
+$string['jumps'] = 'Prelazi';
 $string['jumptsto'] = 'prelaz na';
 $string['leftduringtimed'] = 'Napustili ste lekciju koja je vremenski ograničena.<br />Pritisnite taster za nastavak da biste pogledali lekciju od početka.';
 $string['leftduringtimednoretake'] = 'Napustili ste lekciju koja je vremenski ograničena i nije Vam <br /> dozvoljeno da nastavite ili počnete lekciju iz početka.';
@@ -148,6 +152,7 @@ $string['mediafilepopup'] = 'Kliknite ovde za prikaz multimedijalne datoteke ove
 $string['mediaheight'] = 'visina prozora:';
 $string['mediawidth'] = 'širina prozora:';
 $string['minimumnumberofquestions'] = 'Minimalan broj pitanja';
+$string['missingname'] = 'Molimo unesite nadimak';
 $string['modattempts'] = 'Dozvolite studentima pregled';
 $string['modattemptsnoteacher'] = 'Studentski pregledi su u funkciji samo kad studenti pristupe lekciji.';
 $string['modulename'] = 'Lekcija';
@@ -164,6 +169,7 @@ $string['noanswer'] = 'Nema datih odgovora. Molimo vratite se nazad i dajte svoj
 $string['noattemptrecordsfound'] = 'Nema zabeleženih pokušaja: nije data nijedna ocena';
 $string['nocommentyet'] = 'Još nema komentara.';
 $string['nocoursemods'] = 'Nije pronađena nijedna aktivnost';
+$string['nocredit'] = 'Bez bodova';
 $string['noessayquestionsfound'] = 'U ovoj lekciji nisu pronađena pitanja koja zahtevaju odgovor u formi eseja.';
 $string['nohighscores'] = 'Nema najboljih rezultata';
 $string['nolessonattempts'] = 'Niko još nije pokušao da prođe kroz ovu lekciju.';
@@ -182,6 +188,7 @@ $string['numberofcorrectanswers'] = 'Broj tačnih odgovora: $a';
 $string['numberofcorrectmatches'] = 'Broj tačnih podudaranja: $a';
 $string['numberofpagestoshow'] = 'Broj stranica (kartica) koje treba prikazati';
 $string['numberofpagesviewed'] = 'Broj pregledanih stranica: $a';
+$string['numberofpagesviewednotice'] = 'Broj pitanja na koje je dat odgovor: $a->nquestions; (Trebalo bi ih biti bar: $a->minquestions)';
 $string['ongoing'] = 'Prikaz trenutnih rezultata tokom pregleda lekcije';
 $string['ongoingcustom'] = 'Do sada ste osvojili $a->score od maksimalno $a->currenthigh bodova.';
 $string['ongoingnormal'] = 'Tačno ste odgovorili na $a->correct od $a->viewed pitanja koja ste videli.';
@@ -209,6 +216,7 @@ $string['previewlesson'] = 'Pregled $a';
 $string['previouspage'] = 'Prethodna stranica';
 $string['progressbar'] = 'Traka sa prikazom napredovanja kroz lekciju';
 $string['progressbarteacherwarning'] = 'Traka sa prikazom napredovanja kroz lekciju se ne prikazuje za $a';
+$string['qtype'] = 'Vrsta stranice';
 $string['question'] = 'Pitanje';
 $string['questionoption'] = 'Pitanje';
 $string['questiontype'] = 'Vrsta pitanja';
@@ -273,7 +281,6 @@ $string['usepassword'] = 'Lekcija zaštićena lozinkom';
 $string['viewgrades'] = 'Prikaz ocena';
 $string['viewhighscores'] = 'Prikaz liste najboljih rezultata';
 $string['viewreports'] = 'Prikaz $a->attempts kompletnih pokušaja studenta $a->student';
-$string['waitpostscore'] = 'Molimo sačekajte dok se rezultat postavi na listu najboljih rezultata...';
 $string['welldone'] = 'Bravo!';
 $string['whatdofirst'] = 'Šta želite prvo da uradite?';
 $string['wronganswerjump'] = 'Stranica koja će se prikazati nakon pogrešnog odgovora';
@@ -284,8 +291,10 @@ $string['youhaveseen'] = 'Već ste videli više od jedne stranice ove lekcije.<b
 $string['youmadehighscore'] = 'Dospeli ste na listu $a najboljih rezultata.';
 $string['youranswer'] = 'Vaš odgovor';
 $string['yourcurrentgradeis'] = 'Vaša trenutna ocena je $a';
+$string['yourcurrentgradeisoutof'] = 'Vaša trenutna ocena je $a->grade od mogućih $a->total';
 $string['yourgradeisnow'] = 'Vaša ocena za ovu lekciju je promenjena u $a';
 $string['yourresponse'] = 'Vaš odgovor';
 $string['youshouldview'] = 'Trebalo bi da odgovorite na bar: $a';
 
 ?>
+

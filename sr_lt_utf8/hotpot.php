@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6 + (2006050506)
+      // hotpot.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['abandoned'] = 'Napušteno';
@@ -45,6 +45,7 @@ $string['filetype'] = 'Vrsta datoteke';
 $string['forceplugins'] = 'Obavezni multimedijalni dodaci';
 $string['giveup'] = 'Odustajanje';
 $string['hints'] = 'Pomoć';
+$string['hotpot:view'] = 'Koristiti test';
 $string['ignored'] = 'Ignorisano';
 $string['inprogress'] = 'U toku';
 $string['location'] = 'Lokacija datoteke';

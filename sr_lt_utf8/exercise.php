@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.6.1+ (2006050512)
+      // exercise.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['absent'] = 'Odsutan';
@@ -39,7 +39,7 @@ $string['detailsofassessment'] = 'Detalji ocenjivanja';
 $string['displayoffinalgrades'] = 'Prikaz konačnih ocena';
 $string['doubleupload'] = 'Upozorenje: Ova prijava je verovatno poslata dva puta. Proverite na Administratorskoj stranici dve prijave ovog korisnika, poslate u kratkom vremenskom roku. Obrišite jednu od prijava pre nastavka rada.';
 $string['duedate'] = 'Rok za predaju';
-$string['edit'] = 'Uredite';
+$string['edit'] = 'Uređivanje';
 $string['editingassessmentelements'] = 'Uređivanje elemenata procenjivanja';
 $string['element'] = 'Element';
 $string['elementweight'] = 'Vrednost elementa';
@@ -47,26 +47,27 @@ $string['enterpassword'] = 'Unesite lozinku';
 $string['entriessaved'] = 'Unosi su sačuvani';
 $string['errorbanded'] = 'Greška';
 $string['excellent'] = 'Odlično';
-$string['exerciseassessments'] = 'Procenjivanje vežbi';
+$string['exercise:assess'] = 'Procenjivanje vežbi';
+$string['exerciseassessments'] = 'Procene vežbi';
 $string['exercisefeedback'] = 'Povratne informacije za vežbu';
 $string['exercisesubmissions'] = 'Predata rešenja vežbi';
 $string['fair'] = 'Dovoljan';
 $string['generalcomment'] = 'Opšti komentar';
 $string['good'] = 'Dobar';
-$string['gradeassessment'] = 'Izvrši procenu';
+$string['gradeassessment'] = 'Izvršavanje procene';
 $string['gradeforassessment'] = 'Ocena za procenu';
 $string['gradeforstudentsassessment'] = 'Ocena za $a procenu';
 $string['gradeforsubmission'] = 'Ocena za predato rešenje';
 $string['gradetable'] = 'Tabela ocena';
 $string['gradinggrade'] = 'Ocenjivanje ocena';
-$string['gradingstrategy'] = 'Strategija ocjenjivanja';
+$string['gradingstrategy'] = 'Strategija ocenjivanja';
 $string['handlingofmultiplesubmissions'] = 'Obrada više predatih rešenja';
-$string['hidenamesfromstudents'] = 'Sakrijte imena od studenata';
+$string['hidenamesfromstudents'] = 'Sakrivanje imena od studenata';
 $string['incorrect'] = 'Netačno';
 $string['late'] = 'Kasni';
 $string['lax'] = 'Slab';
 $string['leaguetable'] = 'Zajednička tabela predatih radova';
-$string['mail1'] = 'Vaše rešenje zadatka \'$a\' je procenio/la';
+$string['mail1'] = 'Vaše rešenje zadatka \'$a\' je ocenio/la';
 $string['mail2'] = 'Komentari i ocena mogu se pogledati u zadatku-vežbi \'$a\'';
 $string['mail3'] = 'Možete pogledati u Vašem zadatku-vežbi';
 $string['mail6'] = 'Vaša procena zadatka \'$a\' je pregledana';
@@ -119,7 +120,7 @@ $string['reasonforadjustment'] = 'Opšti komentar/Razlog za prilagođavanje';
 $string['reassess'] = 'Ponovno ocenjivanje';
 $string['regradestudentassessments'] = 'Ponovno ocenjivanje studentskih procena';
 $string['resubmissionfor'] = 'Ponovna predaja za $a';
-$string['resubmitnote'] = '* znači da $a ima dozvolu za ponovnu predaju rešenja.<br />Ova oznaka može se dati bilo kom predatom rešenju ponovnim procenjivanjem i klikom <br />na  <b>Dozvoli $a da ponovo preda rešenje</b> dugme. <br />Student može ponovo da preda svoje rešenje kada je ova oznaka prisutna na <b>bilo kom</b> od njegovih/njenih predatih rešenja.';
+$string['resubmitnote'] = '* znači da $a ima dozvolu za ponovnu predaju rešenja.<br />Ova oznaka može se dati bilo kom predatom rešenju ponovnim ocenjivanjem i klikom <br />na  <b>Dozvoli $a da ponovo preda rešenje</b> dugme. <br />Student može ponovo da preda svoje rešenje kada je ova oznaka prisutna na <b>bilo kom</b> od njegovih/njenih predatih rešenja.';
 $string['rubric'] = 'Rubrika';
 $string['savedok'] = 'Uredno sačuvano';
 $string['saveentries'] = 'Sačuvaj unose';

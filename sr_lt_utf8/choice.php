@@ -1,18 +1,22 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.6 + (2006050506)
+      // choice.php - created with Moodle 1.6.2 (2006050520)
 
 
-$string['addmorechoices'] = 'Dodaj još izbora';
-$string['allowupdate'] = 'Dopusti da izbor bude obnovljen';
+$string['addmorechoices'] = 'Dodavanje još izbora';
+$string['allowupdate'] = 'Dozvoliti ažuriranje izbora';
 $string['answered'] = 'Odgovoreno';
 $string['choice'] = 'Izbor $a';
+$string['choice:choose'] = 'Beleženje izbora';
+$string['choice:deleteresponses'] = 'Brisanje odgovora';
+$string['choice:downloadresponses'] = 'Preuzimanje odgovora';
+$string['choice:readresponses'] = 'Čitanje odgovora';
 $string['choiceclose'] = 'Do';
 $string['choicename'] = 'Naziv izbora';
-$string['choiceopen'] = 'Otvaranje';
+$string['choiceopen'] = 'Od';
 $string['choicetext'] = 'Tekst izbora';
-$string['displayhorizontal'] = 'Prikaz horizontalno';
+$string['displayhorizontal'] = 'Prikazati horizontalno';
 $string['displaymode'] = 'Način prikaza';
-$string['displayvertical'] = 'Prikaz vertikalno';
+$string['displayvertical'] = 'Prikazati vertikalno';
 $string['full'] = '(Potpun)';
 $string['havetologin'] = 'Morate se prijaviti na sistem pre potvrđivanja svog izbora';
 $string['limit'] = 'Ograničenje';
@@ -20,7 +24,7 @@ $string['limitanswers'] = 'Ograničavanje broja dozvoljenih odgovora';
 $string['modulename'] = 'Izbor';
 $string['modulenameplural'] = 'Izbori';
 $string['mustchooseone'] = 'Morate izabrati odgovor pre nego što ga sačuvate. Ništa nije sačuvano.';
-$string['notanswered'] = 'Još neodgovoreno';
+$string['notanswered'] = 'Još nisu odgovorili';
 $string['notopenyet'] = 'Nažalost, ova aktivnost nije dostupna do $a';
 $string['privacy'] = 'Poverljivost rezultata';
 $string['publish'] = 'Objava rezultata';
@@ -33,11 +37,11 @@ $string['publishnot'] = 'Bez objave rezultata studentima';
 $string['responses'] = 'Odgovori';
 $string['responsesto'] = 'Odgovori za $a';
 $string['savemychoice'] = 'Sačuvaj moj izbor';
-$string['showunanswered'] = 'Prikaz kolone za neodgovoreno';
+$string['showunanswered'] = 'Prikaz kolone za one koji još nisu odgovorili';
 $string['spaceleft'] = 'razmak je dozvoljen';
 $string['spacesleft'] = 'razmaci su dozvoljeni';
 $string['taken'] = 'Odgovoreno';
-$string['timerestrict'] = 'Ograničavanje odgovaranje na ovaj vremenski period';
+$string['timerestrict'] = 'Ograničavanje mogućnosti odgovaranja na ovaj vremenski period';
 $string['viewallresponses'] = 'Pregled $a odgovora';
 $string['yourselection'] = 'Vaš izbor';
 

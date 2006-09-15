@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6.1+ (2006050512)
+      // enrol_authorize.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['adminacceptccs'] = 'Koji tipovi kreditnih kartica se prihvataju?';
+$string['adminaccepts'] = 'Izaberite dozvoljene načine plaćanja i njihove tipove';
 $string['adminauthorizeccapture'] = 'Pregled porudžbine i podešavanja zakazanog prihvatanja';
 $string['adminauthorizeemail'] = 'Podešavanja slanja elektronske pošte';
 $string['adminauthorizesettings'] = 'Podešavanja vezana za Authorize.net';
@@ -78,12 +79,27 @@ $string['costdefaultdesc'] = '<strong>U podešavanjima kursa, unesite -1</strong
 $string['cutofftime'] = 'Vreme prekida transakcije. Kada je poslednja transakcija preuzeta za dogovor?';
 $string['delete'] = 'Uništiti';
 $string['description'] = 'Authorize.net modul Vam dozvoljava da postavite kurseve koji se plaćaju preko CC davalaca usluga. Ako je cena bilo kog kursa 0, od studenata se ne traži da plate za pristup kursu. Postoje dva načina da se postavi cena kursa (1) cena na nivou sajta, podrazumevana za svaki kurs (2) ili podešavanje svakog pojedinačnog kursa. Cena kursa ima prednost nad podrazumevanom cenom na nivou sajta.<br /><br /><b>Napomena:</b> Ako postavite lozinku za upis na kurs, studenti će recimo moći da se upišu koristeći samo tu lozinku. To je korisno ako imate dve grupe studenata na istom kursu - one koji plaćaju njegovo pohađanje i one za koje je on besplatan.';
+$string['echeckabacode'] = 'Bankovni ABA broj';
+$string['echeckaccnum'] = 'Broj bankovnog računa';
+$string['echeckacctype'] = 'Broj bankovnog računa';
+$string['echeckbankname'] = 'Naziv banke';
+$string['echeckbusinesschecking'] = 'Provera poslovanja';
+$string['echeckchecking'] = 'Provera';
+$string['echeckfirslasttname'] = 'Vlasnik bankovnog računa';
+$string['echecksavings'] = 'Ušteđevina';
 $string['enrolname'] = 'Authorize.net gateway za plaćanje';
 $string['expired'] = 'Isteklo';
 $string['howmuch'] = 'Koliko?';
 $string['httpsrequired'] = 'Žao nam je, ali Vaš zahtev trenutno ne može biti procesiran. Konfiguracija ovog sajta izgleda nije pravilno izvršena.<br /><br />Molimo ne unosite broj Vaše kreditne kartice ukoliko ne vidite žuti katanac na dnu stranice Vašeg web čitača. Kada se ovaj simbol pojavi, to znači da stranica šifrira sve podatke koji se razmenjuju između klijenta i servera. Tako da su informacije zaštićene tokom transakcija između dva računara, te broj vaše kreditne kartice ne može biti ukraden prilikom upotrebe na sajtu.';
+$string['invalidaba'] = 'Pogrešan ABA broj';
+$string['invalidaccnum'] = 'Pogrešan broj računa';
+$string['invalidacctype'] = 'Pogrešan tip računa';
 $string['logindesc'] = 'Ova opcija mora biti uključena. <br /><br />Molimo proverite da li ste uključili <a href=\"$a->url\">loginhttps</a> u Administracija >> Promenljive >> Bezbednost.<br /><br />Uključivanjem ove opcije postići ćete to da Moodle koristi sigurnu https konekciju samo za stranica za pristup sistemu i uplate.';
+$string['methodcc'] = 'Kreditna kartica';
+$string['methodecheck'] = 'eCheck (ACH)';
+$string['missingaba'] = 'Nedostaje ABA broj';
 $string['missingaddress'] = 'Nedostaje adresa';
+$string['missingbankname'] = 'Nedostaje naziv banke';
 $string['missingcc'] = 'Nedostaje broj kreditne kartice';
 $string['missingccexpire'] = 'Nedostaje datum isticanja kreditne kartice';
 $string['missingcctype'] = 'Nedostaje tip kreditne kartice';
@@ -95,6 +111,7 @@ $string['noreturns'] = 'Bez povraćaja novca!';
 $string['notsettled'] = 'Nije utvrđeno';
 $string['orderid'] = 'Identifikator porudžbine';
 $string['paymentmanagement'] = 'Upravljanje plaćanjem';
+$string['paymentmethod'] = 'Način plaćanja';
 $string['paymentpending'] = 'Vaša uplata za ovaj kurs, pod rednim brojem $a->orderid, čeka na prihvatanje. Pogledajte <a href=\'$a->url\'>Detalji porudžbine</a>.';
 $string['pendingordersemail'] = 'Dragi administratore,
 
@@ -122,6 +139,8 @@ $string['reason11'] = 'Predat je duplikat transakcije.';
 $string['reason13'] = 'Trgovački identifikator korisničkog imena nije ispravan ili taj nalog nije aktivan.';
 $string['reason16'] = 'Transakcija nije pronađena.';
 $string['reason17'] = 'Trgovac ne prihvata ovaj tip kreditne kartice.';
+$string['reason245'] = 'Ovaj eCheck tip nije dozvoljen kad se koristi forma za plaćanje podržana mrežnim prolazom.';
+$string['reason246'] = 'Ovaj eCheck tip nije dozvoljen.';
 $string['reason27'] = 'Transakcija je rezultovala AVS neslaganjem. Adresa koja je data se ne slaže sa adresom za slanje računa vlasnika kartice.';
 $string['reason28'] = 'Trgovac ne prihvata ovaj tip kreditne kartice.';
 $string['reason30'] = 'Konfiguracija sa procesorom nije validna. Pozovite davaoca trgovinskih usluga.';
@@ -135,6 +154,7 @@ $string['reason50'] = 'Transakcija čeka na dogovor i ne može biti refundirana.
 $string['reason51'] = 'Suma svih kredita za ovu transakciju veća je od vrednosti originalne transakcije.';
 $string['reason54'] = 'Referencirana transakcija ne ispunjava uslove za izdavanje kredita.';
 $string['reason55'] = 'Suma kredita za referenciranu transakciju bi prešla originalni debitni iznos.';
+$string['reason56'] = 'Ovaj trgovac prihvata samo eCheck (ACH) transakcije; transakcije kreditnim karticama nisu podržane.';
 $string['refund'] = 'Refundiranje';
 $string['refunded'] = 'Refundirano';
 $string['returns'] = 'Povraćaji';
@@ -149,6 +169,8 @@ $string['testmode'] = '[REŽIM ZA TESTIRANJE]';
 $string['testwarning'] = 'Prihvatanje/Ništa/Kredit izgleda radi u režimu za testiranje, ali nijedan zapis nije ažuriran ili umetnut u bazu podataka.';
 $string['transid'] = 'Identifikator transakcije';
 $string['unenrolstudent'] = 'Ispis studenta?';
+$string['usingccmethod'] = 'Greška pri korišćenju opcije <a href=\"$a->url\"><strong>Kreditna kartica</strong></a>';
+$string['usingecheckmethod'] = 'Greška pri korišćenju opcije <a href=\"$a->url\"><strong>eCheck</strong></a>';
 $string['void'] = 'Ništa';
 $string['voidyes'] = 'Transakcija će biti otkazana. Da li ste sigurni da to želite?';
 $string['welcometocoursesemail'] = 'Poštovani polazniče,

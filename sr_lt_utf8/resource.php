@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6.1+ (2006050512)
+      // resource.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['addresource'] = 'Dodavanje resursa';
@@ -10,8 +10,8 @@ $string['chooseafile'] = 'Izbor ili dodavanje datoteke';
 $string['chooseparameter'] = 'Izbor parametra';
 $string['configallowlocalfiles'] = 'Kada kreirate novi datotečni resurs, dozvolite umetanje linkova na lokalni datotečni sistem, npr. CD-ROM ili čvrsti disk. Ovo bi moglo biti korisno u učionici gde svi studenti imaju pristup zajedničkom mrežnom disku ili kod potrebe za pristupom većim datotekama koje su na CD mediju. Korišćenje ove opcije može zahtevati promenu sigurnosnih podešavanja Vašeg web čitača.';
 $string['configdefaulturl'] = 'Ova vrednost se koristi za prethodno popunjavanje URL forme kad se kreira novi resurs baziran na URL adresi.';
-$string['configfilterexternalpages'] = 'Ukoliko omogućite ovo podešavanje, ono će uticati na to da svi spoljašnji resursi (web stranice, učitane HTML datoteke) budu procesirani pomoću trenutno odabranih filtera sajta (kao što je npr. automatsko linkovanje pojmova iz rečnika). Uključivanje ove opcije može izazvati značajno usporavanje stranica Vašeg kursa - koristite ovu opciju sa oprezom i jedino ako Vam je zaista potrebna.';
-$string['configframesize'] = 'Kada se učitana web stranica ili datoteka prikaže unutar okvira, ovo će biti veličina (u pikselima) gornjeg okvira (koji sadrži navigaciju).';
+$string['configfilterexternalpages'] = 'Ukoliko omogućite ovo podešavanje, ono će uticati na to da svi spoljašnji resursi (Web stranice, učitane HTML datoteke) budu procesirani pomoću trenutno odabranih filtera sajta (kao što je npr. automatsko linkovanje pojmova iz rečnika). Uključivanje ove opcije može izazvati značajno usporavanje stranica Vašeg kursa - koristite ovu opciju sa oprezom i jedino ako Vam je zaista potrebna.';
+$string['configframesize'] = 'Kada se učitana Web stranica ili datoteka prikaže unutar okvira, ovo će biti veličina (u pikselima) gornjeg okvira (koji sadrži navigaciju).';
 $string['configparametersettings'] = 'Ovo podešavanje zadaje standardne vrednosti za opciju \"Parametri\" koja se nalazi na obrascu za postavljanje novih resursa u kurs. Nakon prvog korišćenja, ono postaje i standardno svojstvo za individualne korisnike.';
 $string['configpopup'] = 'Kad se dodaje novi resurs koji je moguće prikazati u iskačućem prozoru, da li bi ova opcija trebala biti omogućena kao podrazumevana?';
 $string['configpopupdirectories'] = 'Da li bi trebalo da iskačući prozori po podrazumevanom podešavanju prikazuju linkove direktorijuma?';
@@ -24,7 +24,7 @@ $string['configpopupstatus'] = 'Da li bi trebalo da iskačući prozori po podraz
 $string['configpopuptoolbar'] = 'Da li bi trebalo da iskačući prozori po podrazumevanom podešavanju imaju paletu alata?';
 $string['configpopupwidth'] = 'Koja bi širina trebala biti podrazumevana za nove iskačuće prozore?';
 $string['configsecretphrase'] = 'Ova tajna fraza se koristi da bi se kreirala šifriranu vrednost koda koja da bi mogla biti poslata nekim resursima kao parametar. Šifrirana vrednost je napravljena od md5 vrednosti current_users IP adrese povezane sa Vašom tajnom frazom, tj. code = md5(IP.secretphrase). Ovo omogućava ciljnom resursu da verifikuje konekciju radi dodatne sigurnosti.';
-$string['configwebsearch'] = 'Kad dodajete URL poput web stranice ili linka na neki spoljašnji izvor informacija, ova lokacija je ponuđena kao sajt pretraživača za pomoć korisniku u potrazi za željenim URL-om.';
+$string['configwebsearch'] = 'Kad dodajete URL poput Web stranice ili linka na neki spoljašnji izvor informacija, ova lokacija je ponuđena kao sajt pretraživača za pomoć korisniku u potrazi za željenim URL-om.';
 $string['configwindowsettings'] = 'Ovo podešavanje postavlja standardnu vrednost za opciju \"Prozor\" koja se nalazi na obrascu za postavljanje novih resursa u kurs. Nakon prvog korišćenja, ista postaje i standardno svojstvo za individualne korisnike.';
 $string['deploy'] = 'Iskoristi';
 $string['deployall'] = 'Iskoristi sve';
@@ -36,9 +36,9 @@ $string['emptyfolder'] = 'Prazan direktorijum';
 $string['encryptedcode'] = 'Šifrirani kod';
 $string['example'] = 'Primer';
 $string['exampleurl'] = 'http://www.primer.com/direktorijum/datoteka.html';
-$string['fetchclienterror'] = 'Došlo je do greške u Vašem web čitaču prilikom pokušaja učitavanja web stranice (verovatno pogrešan URL).';
-$string['fetcherror'] = 'Došlo je do greške prilikom pokušaja učitavanja web stranice.';
-$string['fetchservererror'] = 'Došlo je do greške kada je udaljeni server pokušao da učita web stranicu (verovatno programska greška).';
+$string['fetchclienterror'] = 'Došlo je do greške u Vašem Web čitaču prilikom pokušaja učitavanja Web stranice (verovatno pogrešan URL).';
+$string['fetcherror'] = 'Došlo je do greške prilikom pokušaja učitavanja Web stranice.';
+$string['fetchservererror'] = 'Došlo je do greške kada je udaljeni server pokušao da učita Web stranicu (verovatno programska greška).';
 $string['filename'] = 'Ime datoteke';
 $string['filtername'] = 'Automatsko linkovanje naziva resursa';
 $string['frameifpossible'] = 'Postavite resurs u okvir da bi navigacija ostala vidljiva.';
@@ -48,7 +48,7 @@ $string['imspackageloaded'] = 'Paket je učitan';
 $string['localfile'] = 'Lokalna datoteka';
 $string['localfilechoose'] = 'Izaberite lokalnu datoteku (CD-ROM)';
 $string['localfilehelp'] = 'Pomoć vezana za lokalne datoteke kao resurse';
-$string['localfileinfo'] = '<p>Izaberite lokalnu datoteku Vašeg računara. Ova datoteka neće biti dodata web sajtu, ali će <em>Moodle</em> dotičnu datoteku potražiti na računaru onoga koji posmatra resurs.</p>
+$string['localfileinfo'] = '<p>Izaberite lokalnu datoteku Vašeg računara. Ova datoteka neće biti dodata Web sajtu, ali će <em>Moodle</em> dotičnu datoteku potražiti na računaru onoga koji posmatra resurs.</p>
 <p>Ovo je naročito korisno kada kao resurs koristite velike multimedijalne datoteke smeštene na standardnom CD-u koji distribuirate svim učesnicima kursa. Svaki učesnik će moći da izabere svoju sopstvenu lokalnu putanju do takve datoteke tako što će podesiti <a href=\"$a\" target=\"_blank\">uređivanjem svog korisničkog profila</a>.</p>';
 $string['localfilepath'] = 'Da biste podesili sopstvenu lokalnu putanju ka ovom resursu, izaberite datoteku sa diska (obično CD-a) na Vašem računaru gde se resurs nalazi. Datoteka neće biti učitana, ali će informacija o izabranom disku biti memorisana i korišćena za lokalne datoteke resursa.';
 $string['localfileselect'] = 'Izaberite putanju do ove datoteke.';
@@ -90,6 +90,7 @@ $string['preview'] = 'Prikaz';
 $string['previous'] = 'Prethodno';
 $string['redeploy'] = 'Ponovo iskoristi';
 $string['repository'] = 'IMS repozitorijum';
+$string['resource:view'] = 'Prikaz resursa';
 $string['resourcetype'] = 'Tip resursa';
 $string['resourcetype1'] = 'Referenca';
 $string['resourcetype2'] = 'Web stranica';
@@ -101,13 +102,13 @@ $string['resourcetype7'] = 'Program';
 $string['resourcetype8'] = 'Tekst nalik na Wiki';
 $string['resourcetype9'] = 'Direktorijum';
 $string['resourcetypedirectory'] = 'Direktorijum';
-$string['resourcetypefile'] = 'Link ka datoteci ili web sajtu';
+$string['resourcetypefile'] = 'Link ka datoteci ili Web sajtu';
 $string['resourcetypehtml'] = 'Web stranica';
 $string['resourcetypeims'] = 'IMS paket';
 $string['resourcetypelabel'] = 'Natpis';
 $string['resourcetyperepository'] = 'Link ka objektu u repozitorijumu';
 $string['resourcetypetext'] = 'Tekstualna stranica';
-$string['searchweb'] = 'Traži web stranicu';
+$string['searchweb'] = 'Traži Web stranicu';
 $string['serverurl'] = 'URL servera ($a->wwwroot)';
 $string['showcourseblocks'] = 'Prikaz blokova kursa';
 $string['skipsubmenus'] = 'Preskoči stranice podmenija';
