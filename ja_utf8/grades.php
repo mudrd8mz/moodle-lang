@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.7 dev (2006090600)
+      // grades.php - created with Moodle 1.7 dev (2006091500)
 
 
 $string['addcategory'] = 'カテゴリの追加';
@@ -21,7 +21,7 @@ $string['displaypoints'] = '評点を表示する';
 $string['displayweighted'] = '比重評点を表示する';
 $string['dropped'] = '除外';
 $string['dropxlowest'] = '下位X件の除外';
-$string['dropxlowestwarning'] = '注意: 「下位X件の除外」を使用する場合、カテゴリ内のすべての項目は同じ点数の値を持つとみなされます。もし、各項目の点数の値が異なる場合、結果は保証されません。';
+$string['dropxlowestwarning'] = '注意: 「下位X件の除外」を使用する場合、カテゴリ内のすべての項目は同じ評点の値を持つとみなされます。もし、各項目の評点の値が異なる場合、結果は保証されません。';
 $string['errorgradevaluenonnumeric'] = '低いまたは高い評点が数値ではありません:';
 $string['errornocategorizedid'] = 'カテゴリなしIDを取得できませんでした!';
 $string['errornocourse'] = 'コース情報を取得できませんでした。';
@@ -29,7 +29,7 @@ $string['errorreprintheadersnonnumeric'] = 'ヘッダの再表示の値が数値
 $string['exceptions'] = '例外';
 $string['excluded'] = '除外';
 $string['extracredit'] = '自己申告';
-$string['extracreditwarning'] = '注意: カテゴリ内のすべての項目を自己申告にすることにより、評定の計算から項目を効果的に除外することができます。これにより合計点数は計算されません。';
+$string['extracreditwarning'] = '注意: カテゴリ内のすべての項目を自己申告にすることにより、評定の計算から項目を効果的に除外することができます。これにより合計評点は計算されません。';
 $string['forstudents'] = '学生に対して';
 $string['gradebook'] = '評定表';
 $string['gradebookhiddenerror'] = '現在、評定表は学生から隠されています。';
@@ -70,7 +70,7 @@ $string['mode'] = '最頻値';
 $string['no'] = 'No';
 $string['nocategories'] = 'このコースに評定カテゴリは追加されなかったか、見つかりませんでした。';
 $string['nocategoryview'] = 'カテゴリがありません。';
-$string['nogradeletters'] = '評定文字ガ設定されていません。';
+$string['nogradeletters'] = '評定文字が設定されていません。';
 $string['nogradesreturned'] = '評定がありません。';
 $string['nolettergrade'] = '評定文字がありません:';
 $string['nomode'] = 'NA';
@@ -82,9 +82,9 @@ $string['percent'] = 'パーセント';
 $string['percentascending'] = 'パーセントの昇順で並び替え';
 $string['percentdescending'] = 'パーセントの降順で並び替え';
 $string['percentshort'] = '%%';
-$string['points'] = '点数';
-$string['pointsascending'] = '点数の昇順で並び替え';
-$string['pointsdescending'] = '点数の降順で並び替え';
+$string['points'] = '評点';
+$string['pointsascending'] = '評点の昇順で並び替え';
+$string['pointsdescending'] = '評点の降順で並び替え';
 $string['preferences'] = 'オプション';
 $string['rawpct'] = '実%%';
 $string['reprintheaders'] = 'ヘッダの再表示';
