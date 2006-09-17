@@ -11,6 +11,7 @@ $string['cannotunzipfile'] = 'Décompression du fichier ZIP impossible.';
 $string['cannotsavemd5file'] = 'Enregistrement du fichier md5 impossible.';
 $string['cmunknown'] = 'Ce module de cours n\'a pas pu être trouvé';
 $string['componentisuptodate'] = 'Le composant est à jour.';
+$string['couldnotassignrole'] = 'Une erreur inconnue, mais sérieuse, est survenue lors de l\'attribution d\'un rôle à vous-même';
 $string['coursegroupunknown'] = 'Cours correspondant au groupe $a non indiqué';
 $string['confirmsesskeybad'] = 'Désolé, votre identifiant de session n\'a pas pu être confirmé pour exécuter cette action. Cette sécurité vous protège contre l\'exécution accidentelle ou malfaisante en votre nom de fonctions essentielles. Veuillez vérifier que vous avez vraiment voulu effectuer cette action.';
 $string['downloadedfilecheckfailed'] = 'La vérification du fichier téléchargé à échoué.';
