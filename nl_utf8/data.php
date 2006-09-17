@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006090600)
+      // data.php - created with Moodle 1.7 dev (2006091212)
 
 
 $string['action'] = 'Actie';
@@ -47,7 +47,7 @@ $string['defaultsortfield'] = 'Standaard sorteerveld';
 $string['deletecomment'] = 'Weet je zeker dat je deze commentaar wil verwijderen?';
 $string['deleted'] = 'verwijderd';
 $string['deletefield'] = 'Verwijder een bestaand veld';
-$string['deletewarning'] = 'Ben je zeker dat je dit sjabloon wil verwijderen?';
+$string['deletewarning'] = 'Ben je zeker dat je deze sjabloonset wil verwijderen?';
 $string['descending'] = 'Aflopend';
 $string['download'] = 'Download';
 $string['editcomment'] = 'Bewerk commentaar';
@@ -70,7 +70,7 @@ $string['fieldenclosure'] = 'Veldinsluiting';
 $string['fieldheight'] = 'Hoogte';
 $string['fieldheightlistview'] = 'Hoogte in lijstscherm';
 $string['fieldheightsingleview'] = 'Hoogte in scherm per lijn';
-$string['fieldmappings'] = 'Veldlayout';
+$string['fieldmappings'] = 'Veldverwijzingen';
 $string['fieldname'] = 'Veldnaam';
 $string['fieldoptions'] = 'Opties (Eén per lijn)';
 $string['fields'] = 'Velden';
@@ -90,7 +90,7 @@ $string['headerjstemplate'] = 'Definieerd eigen Javascript voor de andere sjablo
 $string['headerlisttemplate'] = 'Definieer de interface voor het bladeren door meerdere items';
 $string['headerrsstemplate'] = 'Definieer hoe items verschijnen in RSS-feeds';
 $string['headersingletemplate'] = 'Definieer de interface voor het bladeren per item';
-$string['importsuccess'] = 'Het sjabloon is met succes toegepast';
+$string['importsuccess'] = 'De sjabloonset is met succes toegepast';
 $string['insufficiententries'] = 'meer items nodig om deze databank te kunnen bekijken';
 $string['intro'] = 'Inleiding';
 $string['invalidfieldname'] = 'Kies een andere naam voor dit veld';
@@ -148,8 +148,8 @@ $string['pagesize'] = 'Items per pagina';
 $string['participants'] = 'Deelnemers';
 $string['picture'] = 'Afbeelding';
 $string['pleaseaddsome'] = 'Kies instellingen hieronder of <a href=\"$a\"> kies een voorgedefinieerd sjabloon</a> om te starten.';
-$string['presets'] = 'Instellingen';
-$string['presetwarning'] = 'Bewaren als sjabloon zal dit sjabloon publiceren  vor alle gebruikers van deze site. Alle gebruikers zullen dit kunnen gebruiken voor hun databases.';
+$string['presets'] = 'Sjabloonsets';
+$string['presetwarning'] = 'Bewaren als sjabloonset zal dit sjabloon publiceren  vor alle gebruikers van deze site. Alle gebruikers zullen dit kunnen gebruiken voor hun databases.';
 $string['radiobutton'] = 'Keuzeknoppen';
 $string['rate'] = 'Beoordeel';
 $string['rating'] = 'Beoordeling';
@@ -177,9 +177,9 @@ $string['rsstitletemplate'] = 'RSS titelsjabloon';
 $string['save'] = 'Bewaar';
 $string['saveandadd'] = 'Bewaar en voeg nog één toe';
 $string['saveandview'] = 'Bewaar en bekijk';
-$string['saveaspreset'] = 'Bewaar als sjabloon';
+$string['saveaspreset'] = 'Bewaar als sjabloonset';
 $string['savesettings'] = 'Bewaar instellingen';
-$string['savesuccess'] = 'Bewaren gelukt. Je sjabloon zal nu voor de hele site beschikbaar zijn.';
+$string['savesuccess'] = 'Bewaren gelukt. Je sjabloonset zal nu voor de hele site beschikbaar zijn.';
 $string['savetemplate'] = 'Bewaar sjabloon';
 $string['sendinratings'] = 'Stuur mijn laatste beoordelingen in';
 $string['single'] = 'Itemweergave';
@@ -195,7 +195,7 @@ $string['updatefield'] = 'Update een bestaand veld';
 $string['uploadfile'] = 'Upload bestand';
 $string['uploadrecords'] = 'Upload records uit een bestand';
 $string['url'] = 'URL';
-$string['usestandard'] = 'gebruik een sjabloon';
+$string['usestandard'] = 'gebruik een sjabloonset';
 $string['viewfromdate'] = 'Zichtbaar vanaf';
 $string['viewtodate'] = 'Zichtbaar voor';
 

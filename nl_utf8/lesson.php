@@ -1,14 +1,16 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006090600)
+      // lesson.php - created with Moodle 1.7 dev (2006091212)
 
 
 $string['accesscontrol'] = 'Toegangscontrole';
 $string['actionaftercorrectanswer'] = 'Actie na juist antwoord';
+$string['actions'] = 'Acties';
 $string['activitylink'] = 'Link naar een activiteit';
 $string['activitylinkname'] = 'Ga naar: $a';
 $string['addabranchtable'] = 'Voeg een vertakkingstabel toe';
 $string['addanendofbranch'] = 'Voeg het einde van een tak toe';
 $string['addaquestionpage'] = 'Voeg een vragenpagina toe';
+$string['addaquestionpagehere'] = 'Voeg hier een vragenpagina toe';
 $string['addcluster'] = 'Voeg een cluster toe';
 $string['addedabranchtable'] = 'Vertakkingstabel toegevoegd';
 $string['addedanendofbranch'] = 'Einde van een tak toegevoegd';
@@ -118,6 +120,7 @@ $string['importppt'] = 'Importeer Powerpoint';
 $string['importquestions'] = 'Importeer vragen';
 $string['insertedpage'] = 'Pagina ingevoegd';
 $string['jump'] = 'Spring';
+$string['jumps'] = 'Verspringen';
 $string['jumptsto'] = 'spring naar';
 $string['leftduringtimed'] = 'Je bent weggegaan tijdens een getimede les. <br />Klik op ga verder om de les te hervatten.';
 $string['leftduringtimednoretake'] = 'Je bent weggegaan tijdens een getimede les.  <br />Je mag niet verder werken.';
@@ -213,6 +216,7 @@ $string['previewlesson'] = 'Voorbeeld van $a';
 $string['previouspage'] = 'Vorige pagina';
 $string['progressbar'] = 'Vorderingsbalk';
 $string['progressbarteacherwarning'] = 'Vorderingsbalk niet tonen voor $a';
+$string['qtype'] = 'Paginatype';
 $string['question'] = 'Vraag';
 $string['questionoption'] = 'Vraagoptie';
 $string['questiontype'] = 'Vraagtype';

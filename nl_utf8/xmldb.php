@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 dev (2006090300)
+      // xmldb.php - created with Moodle 1.7 dev (2006091212)
 
 
 $string['aftertable'] = 'Tabel resultaat:';
@@ -71,17 +71,25 @@ $string['reservedwords'] = 'Gereserveerde woorden';
 $string['revert'] = 'Maak ongedaan';
 $string['revert_changes'] = 'Maak wijzigingen ongedaan';
 $string['save'] = 'Bewaar';
+$string['selectaction'] = 'Kies actie';
 $string['selectdb'] = 'Kies databank';
+$string['selectfieldkeyindex'] = 'Selecteer veld/sleutel/index:';
+$string['selectonefieldkeyindex'] = 'Selecteer één veld/sleutel/index uit de lijst op de PHP-code te zien';
+$string['selecttable'] = 'Selecteer tabel:';
 $string['sentences'] = 'Zinnen';
 $string['statements'] = 'Stellingen';
 $string['statementtable'] = 'Stellingentabel:';
 $string['statementtype'] = 'Stellingtype:';
 $string['table'] = 'Tabel';
 $string['tables'] = 'Tabellen';
+$string['test'] = 'Test';
 $string['textincorrectlength'] = 'Foute lengte voor tekstveld';
 $string['up'] = 'Omhoog';
+$string['view'] = 'Bekijk';
 $string['view_reserved_words'] = 'Bekijk gereserveerde woorden';
-$string['view_structure_sql'] = 'Bekijk struktuur SQL';
+$string['view_structure_php'] = 'Bekijk PHP-structuur';
+$string['view_structure_sql'] = 'Bekijk SQL-struktuur';
+$string['view_table_php'] = 'Bekijk tabel PHP';
 $string['view_table_sql'] = 'Bekijk tabel SQL';
 $string['viewedited'] = 'Bekijk bewerkt';
 $string['vieworiginal'] = 'Bekijk origineel';

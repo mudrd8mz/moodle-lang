@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006090300)
+      // role.php - created with Moodle 1.7 dev (2006091212)
 
 
 $string['allow'] = 'Toelaten';
@@ -20,11 +20,19 @@ $string['course:activityvisibility'] = 'Tonen/verbergen van activiteiten';
 $string['course:create'] = 'Cursussen aanmaken';
 $string['course:delete'] = 'Cursussen verwijderen';
 $string['course:manageactivities'] = 'Activiteiten beheren';
+$string['course:managefiles'] = 'Bestanden beheren';
+$string['course:managegrades'] = 'Cijfers beheren';
 $string['course:managegroups'] = 'Groepen beheren';
+$string['course:managequestions'] = 'Vragen beheren';
 $string['course:managescales'] = 'Schalen beheren';
+$string['course:reset'] = 'Cursus naar standaardinstellingen';
+$string['course:sectionvisibility'] = 'Zichtbaarheid van secties beheren';
+$string['course:setcurrentsection'] = 'Huidige sectie instellen';
 $string['course:update'] = 'Cursusinstellingen wijzigen';
 $string['course:view'] = 'Cursussen bekijken';
+$string['course:viewcoursegrades'] = 'Cijfers bekijken';
 $string['course:viewhiddenactivities'] = 'Verborgen activiteiten bekijken';
+$string['course:viewhiddensections'] = 'Verborgen secties zien';
 $string['course:viewparticipants'] = 'Deelnemers bekijken';
 $string['course:viewscales'] = 'Schalen bekijken';
 $string['course:visibility'] = 'Cursussen verbergen/tonen';
@@ -45,20 +53,32 @@ $string['permissions'] = 'Rechten';
 $string['potentialusers'] = '$a mogelijke gebruikers';
 $string['prevent'] = 'Voorkom';
 $string['prohibit'] = 'Verbied';
+$string['question:export'] = 'Vragen exporteren';
+$string['question:import'] = 'Vragen importeren';
+$string['question:manage'] = 'Vragen beheren';
+$string['question:managecategory'] = 'Vraagcategorieën beheren';
 $string['role:assign'] = 'Toewijzen van rollen aan gebruikers';
 $string['role:manage'] = 'Aanmaken en beheren van rollen';
+$string['role:override'] = 'Rechten voor anderen overschrijven';
 $string['roletoassign'] = 'Aan te wijzen rol';
 $string['site:accessallgroups'] = 'Toegang voor alle groepen';
 $string['site:backup'] = 'Cursussen backuppen';
 $string['site:config'] = 'Site configuratie wijzigen';
 $string['site:doanything'] = 'Toelaten alles te doen';
+$string['site:doclinks'] = 'Links naar documentatie buiten deze site tonen';
 $string['site:import'] = 'Importeren van andere cursussen in een cursus';
 $string['site:manageblocks'] = 'Beheer blokken op site niveau';
 $string['site:restore'] = 'Cursussen terugzetten';
+$string['site:trustcontent'] = 'Inhoud als veilig beschouwen';
 $string['site:viewfullnames'] = 'Altijd volledige namen van gebruikers zien';
+$string['site:viewreports'] = 'Rapporten bekijken';
 $string['user:create'] = 'Gebruikers aanmaken';
 $string['user:delete'] = 'Gebruikers verwijderen';
+$string['user:readuserblogs'] = 'Blogs van alle gebrukers bekijken';
+$string['user:readuserposts'] = 'Berichten van alle gebruikers bekijken';
 $string['user:update'] = 'Gebruikersprofielen updaten';
 $string['user:viewdetails'] = 'Gebruikersprofielen bekijken';
+$string['user:viewuseractivitiesreport'] = 'Activiteitenrapporten van gebruikers bekijken';
+$string['user:viewusergrades'] = 'Cijfers van gebruikers bekijken';
 
 ?>
