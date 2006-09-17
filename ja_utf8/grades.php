@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.7 dev (2006091600)
+      // grades.php - created with Moodle 1.7 dev (2006091701)
 
 
 $string['addcategory'] = 'カテゴリの追加';
@@ -28,8 +28,8 @@ $string['errornocourse'] = 'コース情報を取得できませんでした。'
 $string['errorreprintheadersnonnumeric'] = 'ヘッダの再表示の値が数値ではありません:';
 $string['exceptions'] = '例外';
 $string['excluded'] = '除外';
-$string['extracredit'] = '自己申告';
-$string['extracreditwarning'] = '注意: カテゴリ内のすべての項目を自己申告にすることにより、評定の計算から項目を効果的に除外することができます。これにより合計評点は計算されません。';
+$string['extracredit'] = 'エクストラクレジット';
+$string['extracreditwarning'] = '注意: カテゴリ内のすべての項目をエクストラクレジットにすることにより、評定の計算から項目を効果的に除外することができます。これにより合計評点は計算されません。';
 $string['forstudents'] = '学生に対して';
 $string['gradebook'] = '評定表';
 $string['gradebookhiddenerror'] = '現在、評定表は学生から隠されています。';
