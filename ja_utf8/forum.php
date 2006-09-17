@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006090600)
+      // forum.php - created with Moodle 1.7 dev (2006091600)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -196,7 +196,7 @@ $string['repliesmany'] = '返信数: $a 件';
 $string['repliesone'] = '返信数: $a 件';
 $string['reply'] = '返信';
 $string['replyforum'] = 'フォーラムに返信';
-$string['resetforums'] = 'これらのタイプのフォーラムからすべての投稿を削除する';
+$string['resetforums'] = '下記タイプのフォーラムからすべての投稿を削除する';
 $string['rsssubscriberssdiscussions'] = '$a 件のディスカッションに関してRSSフィードを表示';
 $string['rsssubscriberssposts'] = '$a 件の投稿に関してRSSフィードを表示';
 $string['search'] = '検索';
