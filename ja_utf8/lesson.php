@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006091212)
+      // lesson.php - created with Moodle 1.7 dev (2006091700)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -74,7 +74,7 @@ $string['displayhighscores'] = 'ハイスコアを表示する';
 $string['displayinleftmenu'] = '左メニューに表示しますか?';
 $string['displayleftif'] = '$a が次の評点より高い場合のみ表示:';
 $string['displayleftmenu'] = '左メニューを表示する';
-$string['displayofgrade'] = '評点を表示 ( 学生のみ )';
+$string['displayofgrade'] = '評点を表示する ( 学生のみ )';
 $string['displayreview'] = 'レビューボタンを表示する';
 $string['displayscorewithessays'] = '自動評定によるあなたの評点は、$a->tempmaxgrade 点中 $a->score 点です。<br />作文問題 $a->essayquestions は評定され、後日あなたの最終評点に追加されます。<br /><br />作文問題を除くあなたの現在の評点は、$a->grade 点中 $a->score 点です。';
 $string['displayscorewithoutessays'] = 'あなたの評点は、 $a->score ( $a->grade 点中 )です。';
@@ -98,7 +98,7 @@ $string['essayemailmessage'] = '<p>作文問題:<blockquote>$a->question</blockq
 <p>あなたの解答:<blockquote><em>$a->response</em></blockquote></p>
 <p>$a->teacher のコメント:<blockquote><em>$a->comment</em></blockquote></p>
 <p>この作文問題の評点は $a->earned /$a->outof です。</p>
-<p>あなたのレッスンの評点は $a->newgrade&#37; に変更されました。</p>';
+<p>あなたのレッスンの評点は $a->newgrade%% に変更されました。</p>';
 $string['essayemailsubject'] = '$a 問題に対するあなたの評点';
 $string['essays'] = '作文問題';
 $string['essayscore'] = '作文問題の評点';
@@ -176,7 +176,7 @@ $string['nobranchtablefound'] = 'ブランチテーブルが見つかりませ�
 $string['nocommentyet'] = 'コメントはありません。';
 $string['nocoursemods'] = '活動が見つかりません。';
 $string['nocredit'] = '未承認';
-$string['noessayquestionsfound'] = 'このレッスンには作文問題はありません。';
+$string['noessayquestionsfound'] = 'このレッスンに作文問題はありません。';
 $string['nohighscores'] = 'ハイスコアはありません。';
 $string['nolessonattempts'] = 'このレッスンは受験されていません。';
 $string['nooneansweredcorrectly'] = '正答者はいません。';
@@ -284,7 +284,7 @@ $string['useeditor'] = 'エディタを使用';
 $string['usemaximum'] = '最大評点を使用';
 $string['usemean'] = '評点平均を使用';
 $string['usepassword'] = 'レッスンをパスワードで保護する';
-$string['viewgrades'] = '評点を表示';
+$string['viewgrades'] = '評点を表示する';
 $string['viewhighscores'] = 'ハイスコアリストを表示';
 $string['viewreports'] = '$a->student の $a->attempts 件の受験を表示';
 $string['welldone'] = 'よくできました!';
