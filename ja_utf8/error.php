@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006091212)
+      // error.php - created with Moodle 1.7 dev (2006091700)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -14,6 +14,7 @@ $string['cannotunzipfile'] = 'ZIPファイルを解凍できません。';
 $string['cmunknown'] = 'このコースモジュールがありません。';
 $string['componentisuptodate'] = 'コンポーネントは最新です。';
 $string['confirmsesskeybad'] = '申し訳ございません、あなたのセッションキーは、このアクションを実行するための確認をできませんでした。このセキュリティ機能は、あなたのユーザ名で重要な機能が不測または悪意により実行されることを防ぎます。本当にこの機能を実行したいか確認してください。';
+$string['couldnotassignrole'] = 'あなたにロールを割り当てている最中に、深刻ですが不明なエラーが発生しました。';
 $string['coursegroupunknown'] = 'コースに関連するグループ $a が指定されていません。';
 $string['downloadedfilecheckfailed'] = 'ダウンロードファイルのチェックが失敗しました。';
 $string['errorcleaningdirectory'] = 'ディレクトリ「 $a 」のクリーニングにエラーが発生しました。';
