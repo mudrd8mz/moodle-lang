@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006091700)
+      // lesson.php - created with Moodle 1.7 dev (2006091702)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -70,6 +70,7 @@ $string['description'] = '説明';
 $string['detailedstats'] = '統計詳細';
 $string['didnotanswerquestion'] = 'この問題に答えていません。';
 $string['didnotreceivecredit'] = '承認なし';
+$string['displaydefaultfeedback'] = 'デフォルトフィードバックを表示する';
 $string['displayhighscores'] = 'ハイスコアを表示する';
 $string['displayinleftmenu'] = '左メニューに表示しますか?';
 $string['displayleftif'] = '$a が次の評点より高い場合のみ表示:';
