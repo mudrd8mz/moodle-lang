@@ -69,6 +69,7 @@ $string['description'] = 'Description';
 $string['detailedstats'] = 'Statistiques détaillées';
 $string['didnotanswerquestion'] = 'N\'a pas répondu à cette question';
 $string['didnotreceivecredit'] = 'N\'a pas reçu de point';
+$string['displaydefaultfeedback'] = 'Afficher le feedback par défaut';
 $string['displayhighscores'] = 'Afficher les meilleurs résultats';
 $string['displayinleftmenu'] = 'Afficher dans le menu à gauche ?';
 $string['displayleftif'] = 'et ne l\'afficher que si $a a une note plus haute que ';
