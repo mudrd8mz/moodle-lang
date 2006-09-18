@@ -2,29 +2,29 @@
 
 $string['all'] = 'TOUT';
 $string['exception'] = 'Exception';
-$string['fail'] = 'Échec';
+$string['fail'] = 'Ã‰chec';
 $string['ignorethisfile'] = 'Relancer les tests en ignorant ce fichier de test.';
 $string['ignorefile'] = 'Ignorer les tests de ce fichier';
-$string['moodleunittests'] = 'Tests Moodle unit : $a';
+$string['moodleunittests'] = 'Tests MoodleÂ : $a';
 $string['notice'] = 'Remarque';
 $string['onlytest'] = 'Ne lancer que les tests de';
-$string['pass'] = 'Passé';
-$string['pathdoesnotexist'] = 'Le chemin « $a » n\'existe pas.';
+$string['pass'] = 'PassÃ©';
+$string['pathdoesnotexist'] = 'Le chemin Â«Â $aÂ Â» n\'existe pas.';
 $string['retest'] = 'Relancer les tests';
 $string['retestonlythisfile'] = 'Relancer uniquement ce fichier de test.';
 $string['runall'] = 'Lancer les tests de tous les fichiers de test.';
-$string['runat'] = 'Lancer à $a. ';
+$string['runat'] = 'Lancer Ã  $a. ';
 $string['runonlyfile'] = 'Ne lancer que les tests de ce fichier';
 $string['runonlyfolder'] = 'Ne lancer que les tests de ce dossier';
 $string['runtests'] = 'Lancer les tests';
-$string['rununittests'] = 'Lancer les tests unit';
-$string['showpasses'] = 'Afficher les tests passés ainsi que les échecs.';
+$string['rununittests'] = 'Lancer les tests';
+$string['showpasses'] = 'Afficher les tests passÃ©s ainsi que les Ã©checs.';
 $string['showsearch'] = 'Afficher la recherche des fichiers de test.';
-$string['stacktrace'] = 'Trace de la pile :';
-$string['summary'] = '{$a->run}/{$a->total} tests terminés : <strong>{$a->passes}</strong> tests passés, <strong>{$a->fails}</strong> échecs et <strong>{$a->exceptions}</strong> exceptions.';
-$string['thorough'] = 'Lancer un test exhaustif (peut être lent).';
-$string['unittests'] = 'Test unit';
-$string['uncaughtexception'] = 'Exception non traitée [{$a->getMessage()}] dans [{$a->getFile()}:{$a->getLine()}] : TESTS INTERROMPUS.';
+$string['stacktrace'] = 'Trace de la pileÂ :';
+$string['summary'] = '{$a->run}/{$a->total} tests terminÃ©sÂ : <strong>{$a->passes}</strong> tests passÃ©s, <strong>{$a->fails}</strong> Ã©checs et <strong>{$a->exceptions}</strong> exceptions.';
+$string['thorough'] = 'Lancer un test exhaustif (peut Ãªtre lent).';
+$string['unittests'] = 'Tests';
+$string['uncaughtexception'] = 'Exception non traitÃ©e [{$a->getMessage()}] dans [{$a->getFile()}:{$a->getLine()}]Â : TESTS INTERROMPUS.';
 $string['version'] = 'Utilise <a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> version $a. ';
 
 ?>
