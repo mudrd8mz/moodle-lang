@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // enrol_database.php - created with Moodle 1.7 dev (2006091901)
 
 
 $string['autocreate'] = '무들에 없는 과정에 등록을 하면 과정이 자동적으로 생성될 수 있습니다.';
@@ -8,12 +8,12 @@ $string['category'] = '자동 설정 과목 분야';
 $string['course_fullname'] = '과정 명칭이 저장되는 항목 이름';
 $string['course_id'] = '과정 아이디가 저장되는 항목 이름. 이 항목의 값은 무들의 과정 테이블에서 \"enrol_db_l_coursefield\" 항목의 값과 연결시키는데 사용됩니다.';
 $string['course_shortname'] = '과정의 간단한 이름이 저장되는 항목 이름';
-$string['course_table'] = '과정에 대한 세부 사항 (간단한 이름, 전체이름, 아이디 등)을 찾을 수 있는 테이블의 이름 ';
-$string['description'] = '당신은 당신의 등록을 제어하기 위해 외부 데이터베이스 (어떠한 종류던지)사용할수 있습니다. 당신의 외부 데이터베이스는 한 분야의 코스 아이디를 가지고 있고 사용자 아이디를 가지고 있다고 가정합시다. 이것들은 당신이 ***고른 지방의 코스와 사용자 표에 대하여 비교합니다. ';
+$string['course_table'] = '과정에 대한 세부 사항 (간단한 이름, 전체이름, 아이디 등)을 찾을 수 있는 테이블의 이름';
+$string['description'] = '당신은 등록을 제어하기 위해 외부 데이터베이스 (거의 모든 종류)를 사용할 수 있습니다. 이 때 당신의 외부 데이터베이스는 배움터 아이디와 사용자 아이디 필드를 가지고 있다고 가정합니다. 이들은 여기에서 선택된 해당 항목과 비교됩니다.';
 $string['enrolname'] = '외부 데이터베이스';
 $string['general_options'] = '일반적인 선택사항';
 $string['host'] = '데이터베이스 서버 호스트 이름';
-$string['local_coursefield'] = '원격데이터베이스에 있는 아이디 번호등의 항목과 연결시킬때 사용하는 과목테이블의 항목 이름';
+$string['local_coursefield'] = '원격데이터베이스에 있는 아이디 번호등의 항목과 연결시킬때 사용하는 배움터 테이블의 필드명';
 $string['local_fields_mapping'] = '무들(로컬) 데이터베이스 항목';
 $string['name'] = '사용할 특별한 데이터베이스';
 $string['pass'] = '서버에 접속하기 위한 암호';

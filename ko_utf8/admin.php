@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006091400)
+      // admin.php - created with Moodle 1.7 dev (2006091901)
 
 
 $string['accounts'] = '계정';
-$string['adminseesallevents'] = '관리자가 모든 이벤트를 봄';
+$string['adminseesallevents'] = '관리자가 모든 일정을 봄';
 $string['adminseesownevents'] = '관리자는 다른 사용자들과 같음';
 $string['allowrenames'] = '이름 변경 허용';
 $string['antivirus'] = '바이러스 방역';
@@ -26,28 +26,28 @@ $string['calendarsettings'] = '일정표';
 $string['change'] = '변경';
 $string['changesitelang'] = '사이트의 언어 변경';
 $string['componentinstalled'] = '구성요소가 설치되었음';
-$string['configallowassign'] = '왼쪽의 역할에 대해 각 칼럼의 역할기능을 허용';
+$string['configallowassign'] = '왼쪽의 역할에 대해 각 칼럼의 역할을 허용';
 $string['configallowcoursethemes'] = '이것을 활성화하면, 각 배움터는 나름대로 독특한 테마로 설정될 수 있다. 배움터 테마는 모든 다른 테마(사이트, 사용자, 또는 세션 테마)선택보다 우선하여 적용된다';
 $string['configallowemailaddresses'] = '만약 당신이 특별한 도메인의 이메일 주소만 허용하고자 한다면, 그 목록들을 한 칸씩 띄어 적어 놓아라. 그 외 모든 다른 도메인들은 거부된다. ( 예: <strong>sun.ac.kr moodle.org</strong> )';
 $string['configallowobjectembed'] = '기본 보안 규정에 따라, 일반 사용자들은 멀티미디어 파일 (예:플래시,동영상,mp3)을 EMBED, OBJECT 등의 명령어나 태그를 사용해서 올릴수 없다. (비록 안전한 미디어 파일일지라도) 운영자가 허락 옵션을 켜야만 파일을 올릴수 있다.';
-$string['configallowoverride'] = '왼쪽의 역할에 대해 각 칼럼의 역할기능을 능가할 수 있도록 허용';
+$string['configallowoverride'] = '왼쪽의 역할에 대해 각 칼럼의 역할을 박탈할 수 있도록 허용';
 $string['configallowunenroll'] = '만약 이것이 \"예\"로 설정된다면, 학생들은 스스로 배움터에서 언제든지 탈퇴할 수 있다. 반면에 \"아니오\"로 설정하면 선생님과 관리자에 의해서만 학생의 배움터 탈퇴여부가 결정되게 된다.';
 $string['configallowuserblockhiding'] = '사용자들이 스스로 이 사이트의 블록을 숨기거나 볼 수 있도록 허용하겠는가? 이 기능은 각각의 분리된 블록을 기억하기 위해 자바스크립트와 쿠키를 사용하며 사용자들 화면 보기에만 영향을 미친다.';
 $string['configallowusermailcharset'] = '이 기능을 활성화시키면, 모든 사용자는 이메일에 자신만의 문자셋을 이용할 수 있다.';
 $string['configallowuserthemes'] = '이것을 활성화하면, 사용자들은 자신만의 테마를 사용할 수 있게 된다. 사용자 테마는 기존의 싸이트 테마(과정 주제가 아닌)보다 우선적으로 적용된다.';
-$string['configallusersaresitestudents'] = '이 사이트의 첫페이지의 활동에 대하여 모든 사용자는 학생으로 간주되도록 할 것인가? 만약 당신이 \"예\"라고 설정한다면 승인된 사용자 누구라도 다른 과정에 손쉽게 학생으로 참여할 수 있도록 허용된다. 만얀 당신이 \"아니오\"라고 한다면 사용자는 활동의 첫페이지의 특정 과정에만 참여하도록 제한될 것이다. 오직 관리자와 특별히 임명된 교사만 첫페이지에서 교사로써 활동할 수 있다.';
-$string['configautologinguests'] = '어떤 과정에 방문객이 접속했을 때 그들이 손님자격을 가지고 자동적으로 로그인이 되게 할 것인가?';
+$string['configallusersaresitestudents'] = '이 사이트의 대문화면의 활동에 대하여 모든 사용자가 학생으로 간주되도록 할 것인가? 만약 당신이 \"예\"라고 설정한다면 승인된 사용자 누구라도 다른 과정에 손쉽게 학생으로 참여할 수 있도록 허용된다. 만얀 당신이 \"아니오\"라고 한다면 사용자는 대문화면 활동의 특정 과정에만 참여하도록 제한될 것이다. 오직 관리자와 특별히 임명된 교사만 대문화면에서 교사로써 활동할 수 있다.';
+$string['configautologinguests'] = '어떤 배움터에 방문객이 접속했을 때 그들이 손님자격을 가지고 자동적으로 로그인이 되게 할 것인가?';
 $string['configbloglevel'] = '본 설정은 이 사이트에 있는 사용자의 블로그를 어느 수준까지 보게할 것인가를 지정하는 것이다. 블로그에 게제된 유형 혹은 내용을 지정하는 것이 아니라 Viewer의 최대 내용을 지정한다는 점에 유의하시기 바란다. 여러분이 사용하길 꺼려하면 블로그를 비활성화 시킬 수 있다.';
-$string['configcachetext'] = '큰 싸이트나 본문 여과를 사용하는 싸이트라면 이 설정값을 적절히 줌으로서 처리 속도를 빠르게 할 수 있다. 문서는 여기에서 지정된 시간동안 메모리에 저장된다. 실제로 이 값을 너무 작게 설정하면 다소 처리 속도가 늦게 되며, 또 너무 큰 값을 설정해도 입력된 내용(예를 들어, 새로운 링크)을 갱신하는데 시간이 오래 걸릴 것이다.';
+$string['configcachetext'] = '큰 싸이트나 문서 필터를 사용하는 싸이트라면 이 설정값을 적절히 줌으로서 처리 속도를 빠르게 할 수 있다. 문서는 여기에서 지정된 시간동안 메모리에 저장된다. 실제로 이 값을 너무 작게 설정하면 다소 처리 속도가 늦게 되며, 또 너무 큰 값을 설정해도 입력된 내용(예를 들어, 새로운 링크)을 갱신하는데 시간이 오래 걸릴 것이다.';
 $string['configclamactlikevirus'] = '바이러스 파일로 처리';
 $string['configclamdonothing'] = '정상적인 파일로 처리';
 $string['configclamfailureonupload'] = '만약 당신이 업로드 된 파일을 검사하도록 지정했는데, 잘 못 설정되거나 알려지지 않은 이유 때문에 오류가 발생한다면, 어떻게 될까? 이 때 만약 \'바이러스 파일로 처리하기\'를 선택한다면 그들은 격리 구역으로 가거나 삭제 될것이다. 만약 \'정상적인 파일로 처리\'를 선택하면 그 파일은 일반적인 저장고로 이동할 것이다. 어쨌든 관리자는 이에 대한 경고를 받게 된다. 만약 당신이 \'바이러스 파일로 처리\'를 선택했는데, 어떤 이유에서건 실행 오류를 만나게 된다면(대개는 불가능한 경로를 설정했기 때문에 생긴다)업로드 된 모든 파일은 격리된 구역으로 옮겨지거나 삭제 된다. 이 설정을 할 때는 매우 조심하라.';
 $string['configcountry'] = '만약 당신이 여기에 국가를 지정한다면, 설정된 국가는 새로운 사용자계정의 기본값으로 설정된다. 사용자들이 스스로 국가(언어)를 설정하도록 하고 싶으면, 설정하지 말고 이 상태로 놓아 두어라.';
-$string['configdbsessions'] = '이를 켜 놓으면, 현재 세션의 정보를 저장하기 위해서 데이타 베이스를 사용할 것이다. 이것은 큰 사이트나 많은 서버를 포함한 사이트에서 특히 유용하게 쓰일 수 있다. 대부분의 사이트에서는 이를 막아 놓아, 서버 디스크에 세션 정보를 기록하도록 한다. 만일 지금 이 옵션을 바꾸게 되면, 현재 접속된 모든 사용자(당신도 물론!)의 접속이 끊어져 로그아웃될 것이다.';
+$string['configdbsessions'] = '이를 켜 놓으면, 현재 세션의 정보를 저장하기 위해서 데이타 베이스를 사용할 것이다. 이것은 큰 사이트나 많은 서버로 구성된 사이트에서 특히 유용하게 쓰일 수 있다. 대부분의 사이트에서는 이를 막아 놓아, 서버 디스크에 세션 정보를 기록하도록 한다. 만일 지금 이 옵션을 바꾸게 되면, 현재 접속된 모든 사용자(당신도 물론!)의 접속이 끊어져 로그아웃될 것이다.';
 $string['configdebug'] = '이것을 \"예\"로 두면 지속적인 경고를 위해서 PHP 에러 보고가 증가할 것이다. 개발자에게나 유용한 기능이다.';
 $string['configdefaultallowedmodules'] = '특정 범주안에서 <b>하위 교육과정이 만들어질 때</b> 어떤 모듈들을 기본적으로 제공하겠는가?';
 $string['configdefaultrequestedcategory'] = '승인된 교육과정이 들어갈 기본 범주의 설정';
-$string['configdefaultuserroleid'] = '이곳에서 지정한 역할로 등록된 모든 사용자들에게 사이트 수준에서 역할이 부여된다. 또한 다른 역할도 부여할 수 있다. 기본 역할은 손님이다. 이것이 다른 역할과 충돌하지 않게 하는 것을 유념하고, 모든 사용자가 사이트 수준에서 무언가 유용한 일(포럼의 토론 및 자료 읽기 등)을 할 수 있도록 하여라.';
+$string['configdefaultuserroleid'] = '이곳에서 지정한 역할로 등록된 모든 사용자들에게 사이트 수준의 역할이 부여된다. 또한 다른 역할도 부여할 수 있다. 기본 역할은 손님이다. 이것이 다른 역할과 충돌하지 않게 하는 것을 유념하고, 모든 사용자가 사이트 수준에서 무언가 유용한 일(포럼의 토론 및 자료 읽기 등)을 할 수 있도록 설정하라.';
 $string['configdeleteunconfirmed'] = '만약 당신이 이메일 인증제를 사용한다면, 여기에 설정된 기간내에 사용자들이 확인 응답을 해야한다. 이 기간이 끝나면 예전의 확인되지 않은 계정은 삭제된다.';
 $string['configdenyemailaddresses'] = '같은 방법으로 여기에 있는 특별한 도메인 리스트의 이메일 주소를 허용하지 않는다. 그 외 모든 다른 도메인들은 허락된다. 예: <strong>hanmail.net yahoo.co.uk<strong/>';
 $string['configdigestmailtime'] = '미리 메일을 전송해 달라고 요청을 한 사람들에게 매일 요약을 보낼 것이다. 이 설정은 메일 발송 시간, 날짜 등을 정하는 것이다. (cron 은 여기에 지정된 시간 이후에 작동하여 이 메일을 발송할 것이다)';
@@ -58,14 +58,14 @@ $string['configenablecourserequests'] = '이 기능을 켜 놓으면 어느 누�
 $string['configenablerssfeeds'] = '이 스위치는 무들에서 자동으로 작성한 자료를 RSS 방식으로 송출할 수 있게 한다. 당신이 개인적 모듈안에서 RSS 급송 장치를 가능하게 할 필요가 있다면, 실질적으로 어떤 변화가 있는지 살펴 보고 안되면 관리자 환경설정 아래 있는 모듈 설정에서 조정하라.';
 $string['configenablerssfeedsdisabled'] = '만일 사이트 전체의 RSS 송출기능을 막아놓으면, 이 기능은 이용할 수 없다. 이를 가능하게 하려면 관리자 환경설정 아래 있는 변수 설정으로 가서 우선 사이트 전체의 설정을 바꾸어야 한다.';
 $string['configenablestats'] = '여기서 \'예\'를 선택하면 무들의 일정관리 기능은 여러 기록과 통계를 수합할 것이다. 사이트의 부하에 따라 시간이 좀 더 걸릴 수도 있다. 이 기능을 설정할 경우, 여러분의 배움터는 물론 사이트 전체에 관련된 여러 그래프와 통계를 볼 수 있다.';
-$string['configenrolmentplugins'] = '사용하고자 하는 출석 플러그인을 선택하라. 또 원활하게 작동하도록 설정하는 것을 잊지 말아라.<br /><br />어느 플러그인이 활성화 되어 있는지 명시되어야 한다.<strong>하나의</strong> 플러그인이 <em>자동(interactive)</em> 등록에 필요한 기본 플로그인으로 설정될 수 있다. 자동 등록을 비활성화 하기 위해서는 필요한 배움터에서 \"등록가능\" 을 \"아니오\"로 하면 된다.';
+$string['configenrolmentplugins'] = '사용하고자 하는 출석 플러그인을 선택하라. 또 원활하게 작동하도록 설정하는 것을 잊지 말아라.<br /><br />어느 플러그인이 활성화되어 있는지 명시되어야 한다.<strong>하나의</strong> 플러그인이 <em>자동(interactive)</em> 등록에 필요한 기본 플로그인으로 설정될 수 있다. 자동 등록을 비활성화 하기 위해서는 필요한 배움터에서 \"등록가능\"을 \"아니오\"로 하면 된다.';
 $string['configerrorlevel'] = '당신이 알고싶은 PHP경고 수준을 선택하라. 대부분 보통(Normal)이 가장 좋은 선택이다.';
 $string['configextendedusernamechars'] = '이 설정을 \"예\"로 놓으면 학생들은 사용자 ID에 어떤 문자도 쓸 수 있다.(그들의 실제적 이름과는 관계가 없음을 주목하라) 기본 설정은 \"아니오\" 로서 사용자 ID에 영문자와 숫자를 조합한 것만이 허용된다.';
 $string['configfilterall'] = '이 설정은 필터를 통해 머릿말, 제목, 주소창 등등에 포함된 모든 문자열을 검토한다. 대개 다국어 여과장치를 쓸 때에 유용하지만, 사이트에 추가적인 부하가 생기는 것이 문제일 수 있다.';
 $string['configfiltermatchoneperpage'] = '이 자동 링크 필터는 <b>한 페이지내</b>의 텍스트에 나온 한 단어에만 자동 링크를 걸고 나머지 단어들은 무시한다.';
 $string['configfiltermatchonepertext'] = '이 자동 링크 필터는 <b>한 문서</b>(예: 자원 블록 등)중 첫번째 단어에 자동 링크를 시키고 나머지 것들은 모두 무시한다. 이 설정은 페이지별 필터 설정이 \"예\"이면 무시된다.';
 $string['configfilteruploadedfiles'] = '이 기능을 켜 놓으면 업로드된 모든 웹문서를 화면에 표시하기 전에 검색하나 그 외의 파일은 필터하지 않는다.';
-$string['configforcelogin'] = '일반적으로 이 싸이트의 첫페이지와 배움터 목록은 로그인 하지 않아도 사람들이 볼 수 있다. 하지만 로그인 하지 않고는 아무 것도 할 수 없게 하려면 이 설정을 \"예\"로 해 두어라.';
+$string['configforcelogin'] = '일반적으로 이 싸이트의 대문화면과 배움터 목록은 로그인 하지 않아도 사람들이 볼 수 있다. 하지만 로그인 하지 않고는 아무 것도 할 수 없게 하려면 이 설정을 \"예\"로 해 두어라.';
 $string['configforceloginforprofiles'] = '이 기능은 손님계정이 아닌 실 ID로 로그인 해야만 다른 사람의 신상명세를 볼 수 있게 조정하는 것이다. 기본적으로 이 기능은 \"아니오\"로 해 놓았는데, 이러면 잠재적 학생들이 각 과정 선생님에 대한 신상명세를 살펴볼 수 있게 할 수 있으나 반면 웹 서치 엔진이 그 내용을 누출할 수도 있다.';
 $string['configframename'] = '만약 여러분이 웹 프레임 안에 무들을 통합하려고 한다면 프레임의 이름을 적어 넣어라. 그렇지 않으면 기본값은 _top으로 설정된다.';
 $string['configfullnamedisplay'] = '이것은 전체 이름을 표시하는 방법을 정의하는 것이다. 대부분의 한 개 언어만 쓰는 싸이트에서는 기본값인 \"성+이름\"으로 충분히 효과를 볼 수 있지만, 다양한 언어팩을 쓰는 경우 특히 성이나 이름이 매우 긴 경우에는 이름을 보이지 않게 하거나 성을 보이지 않게 설정할 수도 있다.';
@@ -80,7 +80,7 @@ $string['configintrotimezones'] = '이 페이지에서는 세계 표준시간대
 $string['configlang'] = '전체 사이트를 위한 기본 언어를 선택해라. 사용자들은 후에 이 설정에 대해 개별적으로 바꿀 수도 있다.';
 $string['configlangcache'] = '언어 메뉴의 임시 저장. 많은 메모리가 절약되고 처리 속도가 빨라질 것이다. 만약 이것을 설정한다면. 당신이 언어를 추가하거나 삭제한 후, 메뉴는 수 분 이내에 업데이트 될 것이다.';
 $string['configlangdir'] = '대부분 언어들은 왼쪽에서 오른쪽으로 인쇄되나, 아라비아어나 헤브리아어 같은 일부 언어들은 오른족에서 왼쪽으로 인쇄된다.';
-$string['configlanglist'] = '사용자들이 Moodle에 설치된 언어팩이면 어떤 언어든지 선택할 수 있도록 가급적 이 곳을 빈칸을 남겨두어라. 그러나, 사용자들이 선택하는 언어 목록을 짧게 하고 싶으면 해당하는 언어코드를 콤마로 분리하여 작성하여 넣으면 된다.
+$string['configlanglist'] = '사용자들이 무들에 설치된 언어팩이면 어떤 언어든지 선택할 수 있도록 가급적 이 곳을 빈칸을 남겨두어라. 그러나, 사용자들이 선택하는 언어 목록을 짧게 하고 싶으면 해당하는 언어코드를 쉼표로 분리하여 작성하여 넣으면 된다.
 예시: ko,en,fr,it';
 $string['configlangmenu'] = '사이트 전체에 걸쳐 사용될 언어 선택 목록을 보이게 할 것인지 아닌지를 설정하는 것이다. 이 설정은 사용자들이 개별적으로 자신의 신상명세에서 선택한 언어에는 영향을 미치지 않는다.';
 $string['configlocale'] = '사이트 전체의 로케일을 선택해라. 이것은 날짜나 요일, 시간표시 같은 언어팩 고유의 특성에 영향을 줄 것이다.(그럼에도 불구하고 일정표의 요일은 영향받지 않는다) 여기에 지정한 로케일은 서버에서 지원하도록 해야 한다.(예: Linux에서 한글 로케일은 ko_KR.UTF-8) 대부분의 경우 이 부분은 공백으로 두는 편이 낫다.';
@@ -95,15 +95,15 @@ $string['configmessaging'] = '사이트 사용자들 간에 내부 메세지 시
 $string['configmymoodleredirect'] = '이 설정은 관리자가 아닌 사람이 로그인 할 때 강제적으로 /my 경로로 가게하고 /my 경로에 새로운 환경을 구성하도록 만든다.';
 $string['confignoreplyaddress'] = '이메일은 때때로 사용자 자신에게 보내진다. 여기에 적은 이메일 주소는 발신자가 일일이 수신자로부터 답신을 받을 수 없는 경우에 사용되는 관리용 발신 전용의 주소이다. 
 (예를 들어 사용자가 자신의 이메일을 공개하지 않은 경우)';
-$string['confignotifyloginfailures'] = '만약 로그인 실패가 기록된다면, 이메일을 통해 통보될 것입니다. 누가 이런 통보를 보겠는가?';
+$string['confignotifyloginfailures'] = '만약 로그인 실패가 기록된다면, 이메일을 통해 통보될 것이다. 누가 이런 통보를 보겠는가?';
 $string['confignotifyloginthreshold'] = '로그인실패에 대한 경고를 받는다면, 한사람 또는 한 IP주소에 의한 로그인실패 횟수가 얼마나 되야 경고할 가치가 있는가?';
 $string['confignotloggedinroleid'] = '사이트에 등록하지 않은 사용자들은 사이트의 관점에서 이 역할을 부여했다고 가정하는 것이다. 손님계정은 언제나 당연히 인정하는 것이지만 그외에도 그 역할을 좀더 확대하거나 축소하길 원할 수도 있다. 게시물을 올린다던가 하는 일들은 여전히 정식으로 사용자가 등록을 해야만 가능하게 해 두어야 할 것이다.';
 $string['configopentogoogle'] = '만약 여러분이 이 절정을 \"예\"로 놓으면 구글은 이 사이트에 손님계정으로 들어올 수 있게 된다. 또한, 구글서치를 통해서 들어오는 사람들도 자동적으로 손님 계정으로 로그인 될 것이다. 또 이미 손님계정의 방문을 허락한 곳이라면 구글은 아무 제한없이 투명하게 접속시킨다는 점을 유의하라.';
-$string['configpathtoclam'] = 'clam AV의 경로. 아마 리눅스 계열에서는 /usr/bin/clamscan 나 /usr/bin/clamdscan 가 될 것이다. clam AV를 실행하기 위해 경로를 정확히 지정해야 한다.';
+$string['configpathtoclam'] = 'clam AV(오픈소스 바이러스 검색프로그램)의 경로. 아마 리눅스 계열에서는 /usr/bin/clamscan 나 /usr/bin/clamdscan 가 될 것이다. clam AV를 실행하기 위해 경로를 정확히 지정해야 한다.';
 $string['configpathtodu'] = 'du의 경로. 대개 /usr/bin/du 가 된다. 만약 이를 설정해 놓는다면, 이 경로에 있는 내용들이 다른 많은 파일들이 들어있는 경로보다 빠르게 출력될 것이다.';
 $string['configperfdebug'] = '이 기능을 활성화시키면, 표준테마의 경우 맨 아랫단에 성능에 대한 정보가 나타날 것이다.';
 $string['configprotectusernames'] = '기본적으로 forget_password.php는 사용자 ID나 이메일 주소를 추측할 수 없게 아무런 단서도 표시하지 않는다.';
-$string['configproxyhost'] = '서버가 인터넷에 접속하기위해 프록시 컴퓨터를 사용해야한다면, proxy hostname과 port를 이곳에 써 넣어라. 아니면 비워 두어라.';
+$string['configproxyhost'] = '서버가 인터넷에 접속하기위해 프록시 컴퓨터를 사용해야한다면, proxy 호스트명과 포트를 이곳에 써 넣어라. 아니면 비워 두어라.';
 $string['configquarantinedir'] = '만약 clam AV가 감염된 파일을 격리된 디렉토리로 이동시키길 원한다면, 그 경로를 여기에 적어 주어라. 그 경로는 반드시 웹서버에 의해 \"기록가능\"해야만 한다. 
 만약에 이 곳을 비워두거나 기록될 수 없거나 존재하지 않는 디렉토리를 입력한다면, 감염된 파일은 삭제될 것이다. 경로명을 쓸 때 마지막 슬래쉬는 포함시키면 안된다.';
 $string['configrequestedstudentname'] = '배움터에서 학생을 지칭하는 용어';
@@ -111,14 +111,14 @@ $string['configrequestedstudentsname'] = '배움터에서 학생들을 지칭하
 $string['configrequestedteachername'] = '배움터에서 교사를 지칭하는 용어';
 $string['configrequestedteachersname'] = '배움터에서 교사들을 지칭하는 용어';
 $string['configrestrictbydefault'] = '윗단계 범주에서 설정된 모듈이 새로운 교육과정의 기본 모듈이 되도록 제한할 것인가?';
-$string['configrestrictmodulesfor'] = '교육과정에 몇몇의 활동 모듈 세팅을 사용안함으로 설정해 놓을 것인가? 이 설정은 오로지 교사에게만 적용되고, 관리자는 여전히 배움터에 어떠한 활동이라도 첨삭할 수 있음에 유의하라.';
+$string['configrestrictmodulesfor'] = '교육과정에 몇몇의 활동 모듈 설정을 사용안함으로 설정해 놓을 것인가? 이 설정은 오로지 교사에게만 적용되고, 관리자는 여전히 배움터에 어떠한 활동이라도 첨삭할 수 있음에 유의하라.';
 $string['configrunclamonupload'] = '업로드된 파일에 대해 clam AV로 바이러스 검색을 하겠는가? 이를 위해서는 clam 프로그램의 정확한 경로가 필요할 것이다.
 (clam AV는 http://www.clamav.net/로부터 공짜로 제공되는 바이러스 스캐너이다.)';
 $string['configsectioninterface'] = '인터페이스';
 $string['configsectionmail'] = '메일';
 $string['configsectionmaintenance'] = '유지보수';
 $string['configsectionmisc'] = '기타';
-$string['configsectionoperatingsystem'] = '작동시스템';
+$string['configsectionoperatingsystem'] = '운영체제';
 $string['configsectionpermissions'] = '승인';
 $string['configsectionrequestedcourse'] = '교육과정 개설 요구';
 $string['configsectionsecurity'] = '보안';
@@ -129,7 +129,6 @@ $string['configsessioncookie'] = '이 셋팅은 무들세션을 위해 사용하
 $string['configsessioncookiepath'] = '브라우저가 무들 쿠키를 전송하는 위치를 변경하려면 이 곳에 특정 디렉토리를 설정하면 된다. 그냥 두면 기본값인 \'/\'로 설정된다.';
 $string['configsessiontimeout'] = '사이트에 로그인한 사람이 오랫동안 아무 일도 안하고 시간을 허비한다면, 일정 시간 후에 자동적으로 로그아웃 된다(세션 종료). 이 변수는 이 시간의 길이를 규정한다.';
 $string['configshowblocksonmodpages'] = '어떤 활동 모듈은 화면에 블록이 설정될 수 있도록 지원한다. 만약 이 설정을 \"예\"로 놓으면, 교사들은 사이드 블록을 추가시킬 수 있을 것이다. \"아니오\"로 놓으면, 아예 사이드 블록 설정 기능을 보여주지 않는다.';
-$string['configshowsiteparticipantslist'] = '사이트의 모든 선생님들과 학생들은 사이트 참가자 목록에 기록될 것이다. 이 목록을 볼 수 있는 사람은 누구인가?';
 $string['configsitemailcharset'] = '이 사이트에서 생성되는 모든 이메일은 여기에서 지정하는 문자셋으로 보내질 것이다. 하지만 아래의 설정을 \"예\"로 해 놓으면 개개인이 자신의 문자셋을 선택하여 이용할 수도 있다.';
 $string['configsitepolicy'] = '만약 당신이 모든 사용자가 반드시 봐야되는 그리고 이 사이트를 사용하기 전에 동의해야하는 사이트 정책을 가지고 있다면 이곳에 URL을 적어라. 그렇지 않으면, 이 공간을 비워둬라. 그 URL은 어떠한 곳도 지정할 수 있다. - 편리한 장소는 그 사이트 파일들 중 하나의 파일을 지정하면 된다. 
  예: http://yoursite/file.php/1/policy.html';
@@ -207,7 +206,7 @@ $string['helpweekenddays'] = '주중 어느 날이 \"주말\"로 취급되어져
 $string['hiddenuserfields'] = '사용자 항목 감춤';
 $string['htmleditor'] = '웹 편집기';
 $string['http'] = 'HTTP';
-$string['httpsecurity'] = '보안 접속';
+$string['httpsecurity'] = 'HTTP 보안';
 $string['iconvrecommended'] = '당신의 사이트가 라틴언어계열이 아닌 언어를 지원하는 경우, 사이트의 성능을 향상시키기 위해서는 ICONV라이브러리를 설치할 것을 권장합니다.';
 $string['importlangreminder'] = '데이터베이스 마이그레이션 프로세스가 시작되었습니다. 업그레이드 효과가 나타나기 위해서는 <b>다시 로그인</b>을 해야 합니다. 데이터베이스 마이그레이션 과정이 끝나면 관리->언어->언어팩 가져오기 도구로부터 유니코드 언어팩을 설치하십시요.';
 $string['importtimezones'] = '표준시 목록의 업데이트가 완료되었습니다.';
@@ -216,7 +215,7 @@ $string['importtimezonesfailed'] = '소스를 찾을 수 없습니다.(안좋은
 $string['incompatibleblocks'] = '호환되지 않는 블럭';
 $string['install'] = '선택한 언어팩 설치';
 $string['installedlangs'] = '설치된 언어팩';
-$string['invalidsection'] = '잘못된 마당';
+$string['invalidsection'] = '잘못된 영역';
 $string['invaliduserchangeme'] = '\"changeme\"라는 사용자 이름은 예약되어 있습니다. 이 이름으로 계정을 만들 수 없습니다.';
 $string['lang16notify'] = '무들 1.6과 그 상위판은 여러분이 아래에 연결된  download.moodle.org를 통해 직접 언어팩을 설치하고 업데이트 할 수 있도록 허용합니다.';
 $string['langedit'] = '언어팩 편집';
@@ -288,7 +287,7 @@ $string['sessionhandling'] = '세션 처리';
 $string['simpletest'] = '항목 점검';
 $string['sitelangchanged'] = '사이트의 언어설정이 성공적으로 변경되었습니다.';
 $string['sitemaintenance'] = '이 사이트는 점검 중이며 현재 사용하실 수 없습니다.';
-$string['sitemaintenancemode'] = '점검 및 유지보수';
+$string['sitemaintenancemode'] = '점검 및 유지보수 중';
 $string['sitemaintenanceoff'] = '점검이 끝나고, 다시 일반적인 작동 상태가 되었습니다.';
 $string['sitemaintenanceon'] = '이 사이트는 현재 점검중입니다(관리자만 이 사이트를 사용하거나 로그인 할 수 있습니다).';
 $string['sitemaintenancewarning'] = '현재 유지 점검 상태에 있습니다(관리자만 로그인 할 수 있습니다.) 일반 작업으로 되돌리시려면 <a href=\"maintenance.php\">정상 작동</a>모드를 사용하십사오.';
@@ -319,8 +318,8 @@ $string['upgradeforumreadinfo'] = '읽거나 읽지 않은 포럼의 게시물�
 $string['upgradelogs'] = '원활한 작동을 위해서 당신의 오래된 로그(경과기록)은 업그레이드가 되어야 합니다. <a href=\"$a\">추가 정보</a>';
 $string['upgradelogsinfo'] = '최근에 바뀐 로그 기록이 저장되었습니다. 이전의 활동 기록을 보려면, 오래된 기록들은 갱신되어야 합니다. 사이트에 따라 시간이 길어질 수 있으며(몇시간이 걸릴 수도 있습니다.) 데이터베이스의 규모에 따라 좀 더 시간이 걸릴 수도 있습니다. 일단 이것을 진행시키면 꼭 끝을 보아야 합니다.(윈도우 브라우저 창을 유지시키는 것 만으로 할 수 있습니다.) 걱정마십시오 - 당신의 사이트는 로그를 업그레이드 하는 동안 다른사람이 이용하는데 불편없이 잘 운영이 될 것입니다.<br /><br />이제부터 경과기록(로그)를 갱신할까요?';
 $string['upgradesettings'] = '새로운 설정';
-$string['upgradesettingsintro'] = '아래에 보이는 설정은 무들 판올림과정에서 새로 추가된 것입니다. 기본 설정에서 변경사항이 있으면 이를 고친 후 화면 하단에 있는 \"설정 저장\"을 누르기 바랍니다.';
-$string['upgradesure'] = '무들의 파일들이 갱신되었고  당신의 서버를<br /><br />
+$string['upgradesettingsintro'] = '아래의 설정이 지난 무들 업그레이드 동안 추가되었습니다. 기본 설정에 필요한 변경을 한 다음, 이 페이지 하단에 있는 \"설정저장\"을 클릭하시오.';
+$string['upgradesure'] = '무들의 파일이 갱신되었고  당신의 서버를<br /><br />
  <strong>$a</strong> <br /><br />
 버전으로 자동 업그레이드할 준비가 되었습니다. 일단 이 과정을 시작하면 되돌이킬 수 없습니다.<br /><br />확실히 이 서버를 새 버전으로 업그레이드 하시겠습니까?';
 $string['upgradingdata'] = '데이터 갱신';
