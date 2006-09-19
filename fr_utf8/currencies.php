@@ -126,6 +126,7 @@ $string['SDP'] = 'Livre soudanaise';
 $string['SEK'] = 'Couronne suédoise';
 $string['SGD'] = 'Dollar de Singapour';
 $string['SHP'] = 'Livre de Sainte-Hélène';
+$string['SKK'] = 'Couronne slovaque';
 $string['SLL'] = 'Leone de Sierra Leone';
 $string['SOS'] = 'Schilling somalien';
 $string['SRG'] = 'Florin du Suriname';
