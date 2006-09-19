@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006091400)
+      // role.php - created with Moodle 1.7 dev (2006091901)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -51,6 +51,7 @@ $string['legacy:editingteacher'] = 'レガシーロール: 教師 ( 編集権限
 $string['legacy:guest'] = 'レガシーロール: ゲスト';
 $string['legacy:student'] = 'レガシーロール: 学生';
 $string['legacy:teacher'] = 'レガシーロール: 教師 ( 編集権限なし )';
+$string['listallroles'] = 'すべてのロールを表示 ...';
 $string['manageroles'] = 'ロールの管理';
 $string['nocapabilitiesincontext'] = 'このコンテクストで利用できる機能はありません。';
 $string['overrideroles'] = 'ロールのオーバーライド';
@@ -63,13 +64,18 @@ $string['question:export'] = '問題をエクスポートする';
 $string['question:import'] = '問題をインポートする';
 $string['question:manage'] = '問題を管理する';
 $string['question:managecategory'] = '問題カテゴリを管理する';
+$string['risks'] = 'リスク';
 $string['role:assign'] = 'ユーザにロールを割り当てる';
 $string['role:manage'] = 'ロールを作成および管理する';
 $string['role:override'] = '他のパーミッションをオーバーライドする';
 $string['role:unassignself'] = '自分のロールを解除する';
+$string['roledescription'] = 'ロール説明';
+$string['rolename'] = 'ロール名';
 $string['roles'] = 'ロール';
+$string['roleshortname'] = 'ロール省略名 (ASCII)';
 $string['roletoassign'] = '割り当てるロール';
 $string['roletooverride'] = 'オーバーライドするロール';
+$string['selectrole'] = 'ロールを選択';
 $string['site:accessallgroups'] = 'すべてのグループにアクセスする';
 $string['site:backup'] = 'コースをバックアップする';
 $string['site:config'] = 'サイト設定を変更する';

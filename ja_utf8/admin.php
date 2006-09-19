@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006091500)
+      // admin.php - created with Moodle 1.7 dev (2006091901)
 
 
 $string['accounts'] = 'アカウント';
@@ -26,7 +26,7 @@ $string['calendarsettings'] = 'カレンダー';
 $string['change'] = '変更';
 $string['changesitelang'] = 'サイト言語の変更';
 $string['componentinstalled'] = 'コンポーネントがインストールされました。';
-$string['configallowassign'] = '左側のロールをそれぞれのカラムで割り当てます。';
+$string['configallowassign'] = '左側のロールに、それぞれのカラムのロールを割り当てます。';
 $string['configallowcoursethemes'] = 'この設定を「Yes」にした場合、コースに独自のテーマを設定することができます。コーステーマは、他のすべてのテーマ ( サイト、ユーザ、セッションテーマ ) を上書きします。';
 $string['configallowemailaddresses'] = '新しいメールアドレスを特定ドメインのみに制限したい場合は、この欄にスペースで区切って入力してください。他のドメインはすべて拒否されます。例 <strong>ourcollege.edu.au .gov.au</strong>';
 $string['configallowobjectembed'] = 'デフォルトのセキュリティ対策として、通常のユーザはマルチメディア ( Flash等 ) をEMBEDおよびOBJECTタグでHTMLに埋め込むことは許可されていません ( メディアプラグインフィルタを使用して安全に埋め込むことは可能です )。これらのタグの使用を許可したい場合は「Yes」を選択してください。';
@@ -123,7 +123,6 @@ $string['configsessioncookie'] = 'ここではMoodleのセッションで使用�
 $string['configsessioncookiepath'] = 'ブラウザが送信するMoodleクッキーの場所を変更したい場合、ここでウェブサイトのサブディレクトリを指定することができます。変更しない場合、デフォルトの「/」をお使いください。';
 $string['configsessiontimeout'] = 'このサイトにログインして長時間何もしない ( ページを更新しない ) 場合、自動的にログアウト ( セッションを終了 ) させます。この変数には、ログアウトさせるまでの時間を設定します。';
 $string['configshowblocksonmodpages'] = 'いくつかの活動モジュールでは、ページにブロックを表示することができます。この設定を「Yes」に設定した場合、教師はサイドブロックをページに追加することができます。「No」にした場合、この機能は表示されません。';
-$string['configshowsiteparticipantslist'] = 'すべての学生および教師が参加者リストに表示されます。誰がこの参加者リストを閲覧することができますか?';
 $string['configsitemailcharset'] = 'あなたのサイトで生成されたすべてのメールは、ここで指定した文字コードで送信されます。次の設定で「Yes」が選択されている場合、ユーザは自分の文字コードを指定することができます。';
 $string['configsitepolicy'] = 'このサイトを使用する前に、すべてのユーザがサイト使用許諾に同意する必要がある場合は、サイト使用許諾のURLを指定してください。同意する必要が無い場合は空白のままにしてください。URLは自由に指定することができます - 便利な場所はサイトファイルの中です。<br />
 例 http://yoursite/file.php/1/policy.html';
