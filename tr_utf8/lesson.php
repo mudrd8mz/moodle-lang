@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006091212)
+      // lesson.php - created with Moodle 1.7 dev (2006091901)
 
 
 $string['accesscontrol'] = 'Erişim kontrolü';
@@ -70,6 +70,7 @@ $string['description'] = 'Açıklama';
 $string['detailedstats'] = 'Ayrıntılı istatistikler';
 $string['didnotanswerquestion'] = 'Bu soruyu yanıtlamadı.';
 $string['didnotreceivecredit'] = 'Krediyi almadı';
+$string['displaydefaultfeedback'] = 'Varsayılan geribildirimi göster';
 $string['displayhighscores'] = 'Yüksek notları göster';
 $string['displayinleftmenu'] = 'Sol menüde göster';
 $string['displayleftif'] = 've sadece $a bundan yüksek nota sahipse göster:';
@@ -126,7 +127,7 @@ $string['importquestions'] = 'Soruları al';
 $string['insertedpage'] = 'Sayfa eklendi';
 $string['jump'] = 'Git';
 $string['jumps'] = 'Gider';
-$string['jumptsto'] = 'gider';
+$string['jumpsto'] = 'Gider: <em>$a</em>';
 $string['leftduringtimed'] = 'Zamanlı bir dersin süresini aştınız.<br />Dersi tekrar başlatmak için Devam Et butonuna tıklayın.';
 $string['leftduringtimednoretake'] = 'Zamanlı bir dersin süresini aştınız.<br />Dersi tekrar alamaz veya derse devam edemezsiniz.';
 $string['lessonclosed'] = 'Bu ders $a tarihinde kapandı.';

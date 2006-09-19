@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006091400)
+      // error.php - created with Moodle 1.7 dev (2006091901)
 
 
 $string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
@@ -14,6 +14,7 @@ $string['cannotunzipfile'] = 'Dosya arşivi açılamadı.';
 $string['cmunknown'] = 'Bu kurs modülü bulunamadı';
 $string['componentisuptodate'] = 'Bileşen günceldir.';
 $string['confirmsesskeybad'] = 'Üzgünüz, oturum anahtarınız bu eylemi gerçekleştirmek için onaylanamadı. Bu güvenlik özelliği, sizin adınıza yapılacak olan önemli işlevlerin yanlışlıkla ya da kasten kullanılmasını engellemek içindir. Lütfen bu işlevi gerçekten yapmak istediğinizden emin olun.';
+$string['couldnotassignrole'] = 'Size rol atanmaya çalışılırken ciddi ama belirlenemeyen bir hata oluştu';
 $string['coursegroupunknown'] = 'Grup $a ile ilgili kurs belirtilmemiş';
 $string['downloadedfilecheckfailed'] = 'İndirilmiş dosya kontrol hatası';
 $string['errorcleaningdirectory'] = '\"$a\" dizinini temizlerken hata oluştu';

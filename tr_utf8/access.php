@@ -1,11 +1,13 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.6 Beta 5 (2006050503)
+      // access.php - created with Moodle 1.7 dev (2006091901)
 
 
 $string['access'] = 'Erişilebilirlik';
 $string['accesshelp'] = 'Erişilebilirlik yardımı';
 $string['accesskey'] = 'Erişim kısayolu, $a';
 $string['accessstatement'] = 'Erişilebilirlik ifadesi';
+$string['activitynext'] = 'Sonraki etkinlik';
+$string['activityprev'] = 'Önceki etkinlik';
 $string['breadcrumb'] = 'Yol haritası';
 $string['monthnext'] = 'Sonraki ay';
 $string['monthprev'] = 'Önceki ay';

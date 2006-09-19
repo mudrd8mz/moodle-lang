@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006091400)
+      // admin.php - created with Moodle 1.7 dev (2006091901)
 
 
 $string['accounts'] = 'Hesaplar';
@@ -115,7 +115,6 @@ $string['configsessioncookie'] = 'Bu seçenek Moodle oturumları için kullanıl
 $string['configsessioncookiepath'] = 'Tarayıcıların Moodle çerezlerini (cookie) nereye kaydedeciğini değiştirmeye ihtiyaç duyuyorsanız, web sitenizin bir alt dizini belirtebilirsiniz. Diğer durumda geçerli \'/\' iyi bir seçenektir.';
 $string['configsessiontimeout'] = 'Bu siteye giriş yapan kullanıcılar uzun süre işlem yapmazlarsa (sayfaları gezinmezse) ne kadar süre içinde oturum sona erecek?';
 $string['configshowblocksonmodpages'] = 'Bazı etkinlik modülleri kendi sayfalarında blokları desteklemektedir. Bunu etkinleştirirseniz, eğitimciler bu sayfalara yan tarafta görünen blokları ekleyebilecektir. Diğer durumda bu özelliğe izin verilmeyecektir.';
-$string['configshowsiteparticipantslist'] = 'Sitedeki bütün öğrenci ve eğitimciler, site katılımcı listesinde gösterilecek. Bu site katılımcı listesini kimler görebilir?';
 $string['configsitemailcharset'] = 'Siteniz tarafından oluşturulan bütün emailler burada belirttiğiniz karakter setinde gönderilecektir. Bir sonraki ayarı etkinleştirirseniz her bireysel kullanıcı kendininkini ayarlayabilecektir.';
 $string['configsitepolicy'] = 'Kullanıcıların bu siteyi kullanmaya başlamadan önce görmesi ve kabul etmesi gereken bir site kullanım sözleşmesi varsa buraya adresi belirtin, diğer durumda boş bırakın. Adres herhangi bir yeri gösterebilir ama Site Dosyalarının bulunduğu yerden bir dosya daha uygun olur. Örnek: http://yoursite/file.php/1/policy.html';
 $string['configslasharguments'] = 'Dosyalar (yüklenen dosyalar, resimler gibi) bir betik tarafından sunulurken \'/\' (slashlar) kullanılabilir (ikinci seçenek). Bu yöntem, web tarayıcıları ve proxy(vekil) sunucular tarafından  çok kolay bir şekilde dosyaların önbelleklenmesine olanak sağlar. Maalesef, bazı PHP sunucuları bu yönteme izin vermemektedir. Yüklenmiş dosyaları indirirken veya resimleri görüntülerken (kullanıcı profindeki resimler gibi) sorunlarla karşılaşıyorsanız, bunu ilk seçenekle değiştirin.';
@@ -169,6 +168,8 @@ $string['environmentrequireversion'] = 'sürüm $a->needed gerekli ve şu anda $
 $string['environmentxmlerror'] = 'Ortam verisini okurken hata ($a->error_code)';
 $string['errors'] = 'Hatalar';
 $string['filterall'] = 'Tüm ifadeleri filtrele';
+$string['filtermatchoneperpage'] = 'Eşleşeni her sayfada bir kez filtrele';
+$string['filtermatchonepertext'] = 'Eşleşenin her metinde bir kez filtrele';
 $string['filtersettings'] = 'Filtre ayarları';
 $string['filteruploadedfiles'] = 'Gönderilen dosyaları filtrele';
 $string['frontpage'] = 'Giriş Sayfası';

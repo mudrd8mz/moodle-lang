@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006091212)
+      // moodle.php - created with Moodle 1.7 dev (2006091901)
 
 
 $string['action'] = 'Eylem';
@@ -1150,8 +1150,7 @@ $string['siteerrors'] = 'Site hataları';
 $string['sitefiles'] = 'Site dosyaları';
 $string['sitelogs'] = 'Site kayıtları';
 $string['sitenews'] = 'Site haberleri';
-$string['sitepartlist0'] = 'Site katılımcı listesini görebilmeniz için site eğitimcisi olmanız gerekiyor';
-$string['sitepartlist1'] = 'Site katılımcı listesini görebilmeniz için eğitimci olmanız gerekiyor';
+$string['sitepartlist'] = 'Katılımcı listesini görmek için gerekli izinlere hakkınız yok';
 $string['sites'] = 'Siteler';
 $string['sitesection'] = 'Konu bölümünü dahil et';
 $string['sitesettings'] = 'Site ayarları';
