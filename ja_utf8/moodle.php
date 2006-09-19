@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006091500)
+      // moodle.php - created with Moodle 1.7 dev (2006091702)
 
 
 $string['action'] = '操作';
@@ -193,7 +193,7 @@ $string['chooselogs'] = '表示したいログを選択してください';
 $string['choosereportfilter'] = 'レポートのフィルタを選択してください。';
 $string['choosetheme'] = 'テーマの選択';
 $string['chooseuser'] = 'ユーザを選択してください。';
-$string['city'] = '都道府県';
+$string['city'] = '住所';
 $string['clambroken'] = '管理者がアップロードファイルに対するウイルスチェックの設定を行っていますが、設定が間違っています。<br />あなたのファイルは正常にアップロードされませんでした。管理者宛に、対応するようにメールが送信されました。';
 $string['clamdeletedfile'] = 'ファイルが削除されました。';
 $string['clamdeletedfilefailed'] = 'ファイルが削除されませんでした。';
@@ -700,7 +700,7 @@ $string['listfiles'] = '$a のファイルリスト';
 $string['listofallpeople'] = '全員を表示する';
 $string['livelogs'] = 'ライブログ';
 $string['locale'] = 'ja_JP.UTF-8';
-$string['location'] = 'ロケーション';
+$string['location'] = '住所';
 $string['log_excel_date_format'] = 'yyyy/mm/dd h:mm';
 $string['loggedinas'] = 'あなたは $a としてログインしています。';
 $string['loggedinasguest'] = 'あなたは現在ゲストログインしています。';
@@ -788,7 +788,7 @@ $string['mins'] = '分';
 $string['minutes'] = '分';
 $string['miscellaneous'] = 'その他';
 $string['missingcategory'] = 'カテゴリを選んでください。';
-$string['missingcity'] = '都道府県が入力されていません。';
+$string['missingcity'] = '住所が入力されていません。';
 $string['missingcountry'] = '国が選択されていません。';
 $string['missingdescription'] = '自己紹介が入力されていません。';
 $string['missingemail'] = 'メールアドレスが入力されていません。';
@@ -1155,8 +1155,6 @@ $string['siteerrors'] = 'サイトエラー';
 $string['sitefiles'] = 'サイトファイル';
 $string['sitelogs'] = 'サイトログ';
 $string['sitenews'] = 'サイトニュース';
-$string['sitepartlist0'] = 'サイト教師のみ参加者リストを閲覧することができます。';
-$string['sitepartlist1'] = '教師のみ参加者リストを閲覧することができます。';
 $string['sites'] = 'サイト';
 $string['sitesection'] = 'トピックセクションを表示する';
 $string['sitesettings'] = 'サイト設定';
