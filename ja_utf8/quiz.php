@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006090600)
+      // quiz.php - created with Moodle 1.7 dev (2006091901)
 
 
 $string['1day'] = '1日';
@@ -87,7 +87,6 @@ $string['closebeforeopen'] = '小テストを更新できませんでした。�
 $string['closepreview'] = 'プレビューを閉じる';
 $string['closereview'] = 'レビューを閉じる';
 $string['comment'] = 'コメント';
-$string['commentary'] = '解説';
 $string['commentorgrade'] = 'コメントの作成または評定の上書き';
 $string['comments'] = 'コメント';
 $string['completedon'] = '完了日時';
@@ -211,6 +210,7 @@ $string['functiontakesnoargs'] = '関数 $a には引数はありません。';
 $string['functiontakesonearg'] = '関数 $a は厳密に1つの引数を持つ必要があります。';
 $string['functiontakesoneortwoargs'] = '関数 $a は1つまたは2つの引数を持つ必要があります。';
 $string['functiontakestwoargs'] = '関数 $a は厳密に2つの引数を持つ必要があります。';
+$string['generalfeedback'] = '全般に対するフィードバック';
 $string['generatevalue'] = '下記の範囲で新しい値を生成する';
 $string['geometric'] = '幾何平均値';
 $string['gift'] = 'GIFTフォーマット';
