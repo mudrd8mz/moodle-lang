@@ -1,11 +1,13 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.7 dev (2006060900)
+      // access.php - created with Moodle 1.7 dev (2006091807)
 
 
 $string['access'] = 'アクセシビリティ';
 $string['accesshelp'] = 'アクセシビリティ・ヘルプ';
 $string['accesskey'] = 'アクセスキー $a';
 $string['accessstatement'] = 'アクセシビリティ説明';
+$string['activitynext'] = '次の活動';
+$string['activityprev'] = '前の活動';
 $string['breadcrumb'] = 'ブレッドクラム';
 $string['monthnext'] = '来月';
 $string['monthprev'] = '前月';
