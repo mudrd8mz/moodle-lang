@@ -1105,7 +1105,6 @@ $string['selectamodule'] = 'Veuillez choisir un module d\'activité';
 $string['selectednowmove'] = '$a fichiers sélectionnés pour déplacement. Allez maintenant vers la destination désirée et cliquez sur «&nbsp;Déplacer les fichiers ici&nbsp;»';
 $string['selectnos'] = 'Sélectionner tous les «&nbsp;Non&nbsp;»';
 $string['selectperiod'] = 'Sélectionner une période';
-$string['selectrole'] = 'Sélectionner un rôle';
 $string['senddetails'] = 'Envoyer un nouveau mot de passe par courriel';
 $string['separateandconnected'] = 'Appropriation du savoir liée ou détachée';
 $string['serverlocaltime'] = 'Heure locale du serveur';
