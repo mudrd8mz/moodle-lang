@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.7 dev (2006091701)
+      // grades.php - created with Moodle 1.7 dev (2006091901)
 
 
 $string['addcategory'] = 'カテゴリの追加';
@@ -21,7 +21,7 @@ $string['displaypoints'] = '評点を表示する';
 $string['displayweighted'] = '比重評点を表示する';
 $string['dropped'] = '除外';
 $string['dropxlowest'] = '下位X件の除外';
-$string['dropxlowestwarning'] = '注意: 「下位X件の除外」を使用する場合、カテゴリ内のすべての項目は同じ最大評点を持つとみなされます。カテゴリ内のそれぞれの項目の最大評点が異なる場合、結果は保証されません。';
+$string['dropxlowestwarning'] = '注意: 「下位X件の除外」を使用する場合、カテゴリ内のすべての評定項目は同じ最大評点を持つとみなされます。カテゴリ内のそれぞれの評定項目の最大評点が異なる場合、結果は保証されません。';
 $string['errorgradevaluenonnumeric'] = '低いまたは高い評点が数値ではありません:';
 $string['errornocategorizedid'] = 'カテゴリなしIDを取得できませんでした!';
 $string['errornocourse'] = 'コース情報を取得できませんでした。';
