@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006091600)
+      // forum.php - created with Moodle 1.7 dev (2006091901)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -75,11 +75,11 @@ $string['forum:deleteownpost'] = '自分の投稿を削除する ( 期限内 )';
 $string['forum:editanypost'] = 'どの投稿でも編集する';
 $string['forum:managesubscriptions'] = 'メール購読を管理する';
 $string['forum:movediscussions'] = 'ディスカッションを移動する';
+$string['forum:nothrottling'] = '利用を制限しない';
 $string['forum:rate'] = '投稿を評価する';
 $string['forum:replypost'] = '投稿に返信する';
 $string['forum:splitdiscussions'] = 'ディスカッションを分割する';
 $string['forum:startdiscussion'] = '新しいディスカッションを開始する';
-$string['forum:throttlingapplies'] = '利用を制限する';
 $string['forum:viewanyrating'] = 'どの評価でも表示する';
 $string['forum:viewdiscussion'] = 'ディスカッションを表示する';
 $string['forum:viewforum'] = 'フォーラムを表示する';
