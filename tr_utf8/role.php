@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006091400)
+      // role.php - created with Moodle 1.7 dev (2006091901)
 
 
 $string['addrole'] = 'Yeni rol ekle';
@@ -27,6 +27,7 @@ $string['course:manageactivities'] = 'Etkinlikleri yönet';
 $string['course:managefiles'] = 'Dosyaları yönet';
 $string['course:managegrades'] = 'Notları yönet';
 $string['course:managegroups'] = 'Grupları yönet';
+$string['course:managemetacourse'] = 'Metakursları yönet';
 $string['course:managequestions'] = 'Soruları yönet';
 $string['course:managescales'] = 'Ölçekleri yönet';
 $string['course:reset'] = 'Kursu temizle';
@@ -51,7 +52,10 @@ $string['legacy:editingteacher'] = 'DEVRALINAN ROL: Eğitimci (düzenleyen)';
 $string['legacy:guest'] = 'DEVRALINAN ROL: Konuk';
 $string['legacy:student'] = 'DEVRALINAN ROL: Öğrenci';
 $string['legacy:teacher'] = 'DEVRALINAN ROL: Eğitimci (düzenlemeyen)';
+$string['listallroles'] = 'Tüm rolleri listele...';
 $string['manageroles'] = 'Rolleri yönet';
+$string['metaassignerror'] = 'Metakurs yönetim yetkisi gerekli olduğundan dolayı \"$a\" kullanıcısına bu rol atanamadı.';
+$string['metaunassignerror'] = '\"$a\" kullanısının rolü otomatikmen yeniden atandı, lütfen bunun yerine alt kurstaki rolü kaldırın.';
 $string['nocapabilitiesincontext'] = 'Bu bağlamda yetki yok';
 $string['overrideroles'] = 'Rollerin üstüne yaz';
 $string['overrides'] = 'Tekrar tanımlanan';
@@ -63,13 +67,18 @@ $string['question:export'] = 'Soruları dışa çıkart';
 $string['question:import'] = 'Soruları içe al';
 $string['question:manage'] = 'Soruları yönet';
 $string['question:managecategory'] = 'Soru kategorilerini yönet';
+$string['risks'] = 'Riskler';
 $string['role:assign'] = 'Kullanıcılara rol ata';
 $string['role:manage'] = 'Rolleri oluştur ve yönet';
 $string['role:override'] = 'Diğerleri için izinlerin üstüne yaz';
 $string['role:unassignself'] = 'Kendi rolünü kaldır';
+$string['roledescription'] = 'Rol açıklaması';
+$string['rolename'] = 'Rol adı';
 $string['roles'] = 'Roller';
+$string['roleshortname'] = 'Rolün kısa adı (ASCII)';
 $string['roletoassign'] = 'Atanacak rol';
 $string['roletooverride'] = 'Tekrar tanımlanacak rol';
+$string['selectrole'] = 'Bir rol seçin';
 $string['site:accessallgroups'] = 'Tüm gruplara eriş';
 $string['site:backup'] = 'Kursları yedekle';
 $string['site:config'] = 'Site yapılandırmasını değiştir';
@@ -78,7 +87,7 @@ $string['site:doclinks'] = 'Site dışı belgelere bağlantıları göster';
 $string['site:import'] = 'Bir kursu başka bir kursa yükle';
 $string['site:manageblocks'] = 'Site seviyesindeki blokları yönet';
 $string['site:restore'] = 'Kursları geri yükle';
-$string['site:trustcontent'] = 'İçeriğin güvenilir olduğuna itimat et';
+$string['site:trustcontent'] = 'Gönderilen içeriğe güven';
 $string['site:viewfullnames'] = 'Kullanıcıların tam isimlerini gör';
 $string['site:viewreports'] = 'Raporlara bak';
 $string['user:create'] = 'Kullanıcı oluştur';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006082800)
+      // quiz.php - created with Moodle 1.7 dev (2006091901)
 
 
 $string['1day'] = '1 Gün';
@@ -87,7 +87,6 @@ $string['closebeforeopen'] = 'Sınav güncellenemedi. Açılma tarihinden önce 
 $string['closepreview'] = 'Önizlemeyi kapat';
 $string['closereview'] = 'İncelemeyi kapat';
 $string['comment'] = 'Yorum';
-$string['commentary'] = 'Anlatım';
 $string['commentorgrade'] = 'Yorum yap veya tekrar notlandır';
 $string['comments'] = 'Yorumlar';
 $string['completedon'] = 'Tamamlama';
@@ -210,6 +209,7 @@ $string['functiontakesnoargs'] = '$a fonksiyonu hiçbir parametre almaz';
 $string['functiontakesonearg'] = '$a fonksiyonu sadece bir parametre almalıdır';
 $string['functiontakesoneortwoargs'] = '$a fonksiyonu bir veya iki parametre almalıdır';
 $string['functiontakestwoargs'] = '$a fonksiyonu sadece iki parametre almalıdır';
+$string['generalfeedback'] = 'Genel geribildirim';
 $string['generatevalue'] = 'Aşağıdakiler arasında yeni bir değer oluştur';
 $string['geometric'] = 'Geometrik';
 $string['gift'] = 'GIFT biçimi';
