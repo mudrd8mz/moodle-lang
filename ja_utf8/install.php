@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.7 dev (2006071800)
+      // install.php - created with Moodle 1.7 dev (2006091901)
 
 
 $string['admindirerror'] = '設定されたadminディレクトリが間違っています。';
@@ -20,7 +20,7 @@ $string['configfilenotwritten'] = 'インストールスクリプトは、自動
 $string['configfilewritten'] = 'config.phpが正常に作成されました。';
 $string['configurationcomplete'] = '設定が完了しました。';
 $string['configurationcompletehead'] = '設定が完了しました。';
-$string['configurationcompletesub'] = 'Moodleは、Moodleインストレーションのルートへの設定内容保存を試みました。';
+$string['configurationcompletesub'] = 'Moodleは、Moodleインストレーションルートへの設定内容の保存を試みました。';
 $string['database'] = 'データベース';
 $string['databasecreationsettings'] = 'ほとんどのMoodleデータが保存されるデータベース設定を行ってください。このデータベースはインストーラーにより、下記の設定が指定された形で自動的に作成されます。<br />
 <br /> <br />
@@ -85,7 +85,7 @@ Moodleが、アップロードされたファイルを保存する場所が必�
 $string['dirroot'] = 'Moodleディレクトリ';
 $string['dirrooterror'] = '「Moodleディレクトリ」設定が間違っているようです - インストール済みMoodleが見つかりませんでした。下記の値がリセットされました。';
 $string['download'] = 'ダウンロード';
-$string['downloadlanguagebutton'] = '「 $a 」言語パックをダウンロードする。';
+$string['downloadlanguagebutton'] = '「 $a 」言語パックをダウンロードする';
 $string['downloadlanguagehead'] = '言語パックのダウンロード';
 $string['downloadlanguagenotneeded'] = 'デフォルトの言語パック「 $a 」でインストール処理を続けることができます。';
 $string['downloadlanguagesub'] = 'あなたは、この言語パックをダウンロードして、インストール処理を継続することができます。<br /><br />言語パックのダウンロードを無効にしている場合、インストール処理は英語で継続されます。 ( インストール処理が完了した後、他の言語パックをダウンロードして、インストールすることができます。 )';
