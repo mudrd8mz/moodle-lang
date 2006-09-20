@@ -115,6 +115,7 @@ $string['SDP'] = 'スーダン・ポンド';
 $string['SEK'] = 'スウェーデン・クローネ';
 $string['SGD'] = 'シンガポール・ドル';
 $string['SHP'] = 'セントヘレナ・ポンド';
+$string['SKK'] = 'スロバキア・コルナ';
 $string['SLL'] = 'シエラレオネ・レオーネ';
 $string['SOS'] = 'ソマリア・シリング';
 $string['SRG'] = 'スリナム・ギルダー';
