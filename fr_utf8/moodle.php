@@ -141,7 +141,7 @@ $string['backupkeephelp'] = 'Combien de sauvegardes de chaque cours désirez-vou
 $string['backuplogdetailed'] = 'Rapport détaillé des exécutions';
 $string['backuploglaststatus'] = 'Rapport de la dernière exécution';
 $string['backuplogshelp'] = 'Une fois cette option activée, les historiques des cours seront inclus dans les sauvegardes automatiques';
-$string['backupmetacoursehelp'] = 'si cette option est activée, les informations des méta-cours (inscriptions héritées) seront incluses dans les sauvegardes automatiques';
+$string['backupmetacoursehelp'] = 'Si cette option est activée, les informations des méta-cours (inscriptions héritées) seront incluses dans les sauvegardes automatiques';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['backupnoneusersinfo'] = 'Remarque&nbsp;: vous avez choisi de ne sauvegarder aucun utilisateur. En conséquence, les sauvegardes de tous les modules ont été placées en mode «&nbsp;sans les données des utilisateurs&nbsp;». Veuillez noter que les modules Exercice et Atelier ne sont pas compatibles avec ce type de sauvegarde. Ils ont donc été totalement exclus de la sauvegarde.';
 $string['backupnonisowarning'] = 'Attention&nbsp;! Cette sauvegarde provient d\'une version non Unicode de Moodle (antérieure à la version 1.6). Si elle contient des textes en caractères non ISO-8859-1, ceux-ci pourront être ENDOMMAGÉS si vous la restaurez dans cette version Unicode de Moodle. Veuillez consulter la <a href=\"http://docs.moodle.org/fr/FAQ_de_sauvegarde\">FAQ de sauvegarde</a> pour plus d\'informations sur la façon de restaurer correctement cette sauvegarde.';
