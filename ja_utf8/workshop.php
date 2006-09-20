@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.7 dev (2006090300)
+      // workshop.php - created with Moodle 1.7 dev (2006091901)
 
 
 $string['absent'] = '欠席';
@@ -84,7 +84,7 @@ $string['editacomment'] = 'コメントの編集';
 $string['editingassessmentelements'] = '評価要素の編集';
 $string['editsubmission'] = '提出課題の編集';
 $string['element'] = '要素';
-$string['elementweight'] = '要素の比重';
+$string['elementweight'] = '要素の加重';
 $string['enterpassword'] = 'パスワード入力';
 $string['errorbanded'] = '減点評価';
 $string['errortable'] = 'エラーテーブル';
@@ -300,17 +300,17 @@ $string['view'] = '表示';
 $string['viewassessment'] = '評価を表示';
 $string['viewassessmentofteacher'] = '$a 件の評価を表示する';
 $string['viewotherassessments'] = '他の評価を表示する';
-$string['warningonamendingelements'] = '警告：評価が登録されています。<br />要素数、評価尺度タイプ、要素の比重を変更しないでください。';
-$string['weight'] = '比重';
+$string['warningonamendingelements'] = '警告：評価が登録されています。<br />要素数、評価尺度タイプ、要素の加重を変更しないでください。';
+$string['weight'] = '加重';
 $string['weightederrorcount'] = '加重エラーカウント： $a';
-$string['weightforbias'] = 'バイアスに対する比重';
-$string['weightforgradingofassessments'] = '評価の評定に対する比重';
-$string['weightforpeerassessments'] = '相互評価に対する比重';
-$string['weightforreliability'] = '信頼性に対する比重';
-$string['weightforteacherassessments'] = '教師の評価に対する比重';
-$string['weights'] = '比重';
-$string['weightsusedforfinalgrade'] = '最終評点に使用する比重';
-$string['weightsusedforsubmissions'] = '提出課題に使用する比重';
+$string['weightforbias'] = 'バイアスに対する加重';
+$string['weightforgradingofassessments'] = '評価の評定に対する加重';
+$string['weightforpeerassessments'] = '相互評価に対する加重';
+$string['weightforreliability'] = '信頼性に対する加重';
+$string['weightforteacherassessments'] = '教師の評価に対する加重';
+$string['weights'] = '加重';
+$string['weightsusedforfinalgrade'] = '最終評点に使用する加重';
+$string['weightsusedforsubmissions'] = '提出課題に使用する加重';
 $string['workshopagreedassessments'] = 'ワークショップ同意評価';
 $string['workshopassessments'] = 'ワークショップ評価';
 $string['workshopcomments'] = 'ワークショップコメント';

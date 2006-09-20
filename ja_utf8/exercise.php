@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.7 dev (2006082800)
+      // exercise.php - created with Moodle 1.7 dev (2006091901)
 
 
 $string['absent'] = '欠席';
@@ -41,7 +41,7 @@ $string['duedate'] = '締切日';
 $string['edit'] = '編集';
 $string['editingassessmentelements'] = '評価要素の編集';
 $string['element'] = '要素';
-$string['elementweight'] = '要素の比重';
+$string['elementweight'] = '要素の加重';
 $string['enterpassword'] = 'パスワードを入力してください。';
 $string['entriessaved'] = 'エントリが保存されました';
 $string['errorbanded'] = '減点評価';
@@ -123,7 +123,7 @@ $string['rubric'] = 'ルーブリック';
 $string['savedok'] = '正常に保存しました。';
 $string['saveentries'] = 'エントリを保存する';
 $string['savemyassessment'] = '私の評価を保存する';
-$string['saveweights'] = '比重を保存する';
+$string['saveweights'] = '加重を保存する';
 $string['scale10'] = '10点中の評点';
 $string['scale100'] = '100点中の評点';
 $string['scale20'] = '20点中の評点';
@@ -169,13 +169,13 @@ $string['verypoor'] = '非常に悪い';
 $string['verystrict'] = '非常に厳しい';
 $string['view'] = '表示';
 $string['viewteacherassessment'] = '$a の評価を表示';
-$string['warningonamendingelements'] = '警告: 実行された評価が存在します。<br />要素数、評価基準、要素の比重を変更しないでください。';
-$string['weightederrorcount'] = '比重エラーカウント: $a';
-$string['weightforgradingofassessments'] = '評価の評定に対する比重';
-$string['weightforteacherassessments'] = '$a の評価に対する比重';
-$string['weights'] = '比重';
-$string['weightssaved'] = '比重が保存されました。';
-$string['weightsusedforoverallgrade'] = '総合評価に使用される比重';
+$string['warningonamendingelements'] = '警告: 実行された評価が存在します。<br />要素数、評価基準、要素の加重を変更しないでください。';
+$string['weightederrorcount'] = '加重エラーカウント: $a';
+$string['weightforgradingofassessments'] = '評価の評定に対する加重';
+$string['weightforteacherassessments'] = '$a の評価に対する加重';
+$string['weights'] = '加重';
+$string['weightssaved'] = '加重が保存されました。';
+$string['weightsusedforoverallgrade'] = '総合評価に使用される加重';
 $string['wrongpassword'] = 'エクササイズのパスワードが違います。';
 $string['yourassessment'] = 'あなたの評価';
 $string['yourfeedbackgoeshere'] = 'あなたのフィードバックはここに表示されます。';
