@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006091901)
+      // moodle.php - created with Moodle 1.7 dev (2006092000)
 
 
 $string['action'] = '操作';
@@ -1160,7 +1160,7 @@ $string['siteerrors'] = 'サイトエラー';
 $string['sitefiles'] = 'サイトファイル';
 $string['sitelogs'] = 'サイトログ';
 $string['sitenews'] = 'サイトニュース';
-$string['sitepartlist'] = 'あなたには参加者リストを閲覧するために必要なパーミッションがありません。';
+$string['sitepartlist'] = 'あなたには、参加者リストを閲覧するために必要なパーミッションがありません。';
 $string['sites'] = 'サイト';
 $string['sitesection'] = 'トピックセクションを表示する';
 $string['sitesettings'] = 'サイト設定';

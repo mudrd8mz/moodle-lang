@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.7 dev (2006091901)
+      // grades.php - created with Moodle 1.7 dev (2006092000)
 
 
 $string['addcategory'] = 'カテゴリの追加';
@@ -19,10 +19,10 @@ $string['displaylettergrade'] = '評定文字を表示する';
 $string['displaypercent'] = 'パーセントを表示する';
 $string['displaypoints'] = '評点を表示する';
 $string['displayweighted'] = '加重評点を表示する';
-$string['dropped'] = '除外';
+$string['dropped'] = '件除外';
 $string['dropxlowest'] = '下位X件の除外';
 $string['dropxlowestwarning'] = '注意: 「下位X件の除外」を使用する場合、カテゴリ内のすべての評定項目は同じ最大評点を持つとみなされます。カテゴリ内のそれぞれの評定項目の最大評点が異なる場合、結果は保証されません。';
-$string['errorgradevaluenonnumeric'] = '低いまたは高い評点が数値ではありません:';
+$string['errorgradevaluenonnumeric'] = '上限または下限の評点が数値ではありません:';
 $string['errornocategorizedid'] = 'カテゴリなしIDを取得できませんでした!';
 $string['errornocourse'] = 'コース情報を取得できませんでした。';
 $string['errorreprintheadersnonnumeric'] = 'ヘッダの再表示の値が数値ではありません:';
@@ -58,7 +58,7 @@ $string['incorrectcourseid'] = 'コースIDが間違っています。';
 $string['item'] = '項目';
 $string['items'] = '項目';
 $string['lettergrade'] = '評定文字';
-$string['lettergradenonnumber'] = '低い/高い評点は数値ではありません:';
+$string['lettergradenonnumber'] = '上限または下限の評点が数値ではありません:';
 $string['letters'] = '文字';
 $string['lowest'] = '下位';
 $string['lowgradeletter'] = '下限';
