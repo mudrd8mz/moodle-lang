@@ -24,6 +24,7 @@ $string['potentialusers'] = '$a utilisateurs potentiels';
 $string['prevent'] = 'Empêcher';
 $string['prohibit'] = 'Interdire';
 $string['risks'] = 'Risques';
+$string['roleassignments'] = 'Attributions du rôle';
 $string['roledescription'] = 'Description du rôle';
 $string['rolename'] = 'Nom du rôle';
 $string['roleshortname'] = 'Nom abrégé du rôle (ASCII)';
