@@ -67,7 +67,6 @@ $string['existingsubscribers'] = 'Abonnés actuels';
 $string['forcesubscribe'] = 'Abonner tout le monde';
 $string['forcesubscribeq'] = 'Abonner tout le monde ?';
 $string['forum'] = 'Forum';
-$string['forum:viewforum'] = 'Afficher un forum';
 $string['forum:viewdiscussion'] = 'Voir les discussions';
 $string['forum:viewhiddentimedposts'] = 'Voir les messages cacher en attente de publication';
 $string['forum:startdiscussion'] = 'Commencer une discussion';
