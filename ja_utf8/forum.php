@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006092000)
+      // forum.php - created with Moodle 1.7 dev (2006092100)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -82,7 +82,6 @@ $string['forum:splitdiscussions'] = 'ディスカッションを分割する';
 $string['forum:startdiscussion'] = '新しいディスカッションを開始する';
 $string['forum:viewanyrating'] = 'どの評価でも表示する';
 $string['forum:viewdiscussion'] = 'ディスカッションを表示する';
-$string['forum:viewforum'] = 'フォーラムを表示する';
 $string['forum:viewhiddentimedposts'] = '非表示の時間制限投稿を表示する';
 $string['forum:viewqandawithoutposting'] = 'Q and A投稿を常に表示する';
 $string['forum:viewrating'] = '評価を表示する';
