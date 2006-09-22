@@ -20,7 +20,7 @@ $string['assessments'] = 'Hodnocení';
 $string['atthisstageyou'] = 'Dokončili jste hodnocení své práce.<br />
 Na jeho základě nyní můžete svou práci upravit.<br />
 Pokud tak učiníte, nezapomeňte aktualizovat také své hodnocení.<br /> 
-Pro opakované hodnocení použijte níže odkaz "Přehodnotit".';
+Pro opakované hodnocení použijte níže odkaz \"Přehodnotit\".';
 $string['awaitingassessmentbythe'] = '$a zatím hodnocení nezadal';
 $string['clearlateflag'] = 'Smazat příznak Zpožděno';
 $string['comment'] = 'Komentář';
