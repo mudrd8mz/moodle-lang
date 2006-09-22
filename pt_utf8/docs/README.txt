@@ -44,5 +44,3 @@ faça o seguinte:
     MENOS IMPORTANTE
 
  3) Por favor nunca traduza credits.html - este muda continuamente.
-
-
