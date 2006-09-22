@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006092000)
+      // moodle.php - created with Moodle 1.7 dev (2006092100)
 
 
 $string['action'] = '操作';
@@ -678,7 +678,6 @@ $string['includenoneusers'] = 'ユーザを含まない';
 $string['includeuserfiles'] = 'ユーザファイルを含む';
 $string['info'] = '情報';
 $string['institution'] = '所属組織';
-$string['instudentview'] = ': 学生モード使用中';
 $string['invalidemail'] = '不正なメールアドレスです。';
 $string['invalidlogin'] = '不正なログインです、再度ログインしてください。';
 $string['ip_address'] = 'IPアドレス';
@@ -1239,13 +1238,13 @@ $string['stringsnotset'] = '下記の文字は $a で定義されていません
 $string['studentnotallowed'] = '申し訳ございません、このコースには「 $a 」で入ることはできません。';
 $string['students'] = '学生';
 $string['studentsandteachers'] = '学生と教師';
-$string['studentviewoff'] = '学生モードの終了';
-$string['studentviewon'] = '学生モードの開始';
 $string['subcategories'] = 'サブカテゴリ';
 $string['success'] = '成功';
 $string['summary'] = '要約';
 $string['summaryof'] = '$a の要約';
 $string['supplyinfo'] = 'あなた自身の情報を入力してください。';
+$string['switchrolereturn'] = '通常のロールに戻る';
+$string['switchroleto'] = 'ロールの変更 ...';
 $string['tag'] = 'タグ';
 $string['tagmanagement'] = 'タグの追加/削除 ...';
 $string['tags'] = 'タグ';
