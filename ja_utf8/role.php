@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006091901)
+      // role.php - created with Moodle 1.7 dev (2006092100)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -44,6 +44,12 @@ $string['course:visibility'] = 'コースを表示/非表示する';
 $string['currentcontext'] = 'コンテクスト';
 $string['currentrole'] = 'ロール';
 $string['defineroles'] = 'ロールの定義';
+$string['deleterolesure'] = '<p>本当にロール「$a->name ( $a->shortname )」を削除してもよろしいですか?</p><p>現在、このロールは $a->count 名のユーザに割り当てられています。</p>';
+$string['editrole'] = 'ロールの編集';
+$string['errorbadrolename'] = 'ロール名が正しくありません。';
+$string['errorbadroleshortname'] = 'ロール名が正しくありません。';
+$string['errorexistsrolename'] = 'ロール名がすでに登録されています。';
+$string['errorexistsroleshortname'] = 'ロール名がすでに登録されています。';
 $string['existingusers'] = '割り当て済みユーザ: $a';
 $string['inherit'] = '継承';
 $string['legacy:admin'] = 'レガシーロール: 管理者';
@@ -72,10 +78,8 @@ $string['role:assign'] = 'ユーザにロールを割り当てる';
 $string['role:manage'] = 'ロールを作成および管理する';
 $string['role:override'] = '他のパーミッションをオーバーライドする';
 $string['role:unassignself'] = '自分のロールを解除する';
-$string['roledescription'] = 'ロール説明';
-$string['rolename'] = 'ロール名';
+$string['roleassignments'] = 'ロールの割り当て';
 $string['roles'] = 'ロール';
-$string['roleshortname'] = 'ロール省略名 (ASCII)';
 $string['roletoassign'] = '割り当てるロール';
 $string['roletooverride'] = 'オーバーライドするロール';
 $string['selectrole'] = 'ロールを選択';
@@ -98,5 +102,6 @@ $string['user:update'] = 'ユーザプロフィールを更新する';
 $string['user:viewdetails'] = 'ユーザプロフィールを表示する';
 $string['user:viewuseractivitiesreport'] = 'ユーザの活動レポートを表示する';
 $string['user:viewusergrades'] = 'ユーザの評定を表示する';
+$string['viewrole'] = 'ロール詳細を表示する';
 
 ?>
