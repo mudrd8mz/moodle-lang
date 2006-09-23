@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006092000)
+      // admin.php - created with Moodle 1.7 dev (2006092302)
 
 
 $string['accounts'] = 'アカウント';
@@ -178,15 +178,13 @@ $string['dbmigratewarning2'] = '<b>警告: あなたはデータベース移行�
 $string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">このデータベースは廃止され、新しいUTF8データベースに移行されました。このMoodleに新しいデータベースを使用するため、config.phpを編集してください。</font>';
 $string['dbmigrationdupfailed'] = 'データベース重複エラー:<font color=\"#ff0000\"><pre>$a</pre></font>';
 $string['dbsessions'] = 'セッション情報にデータベースを使用する';
-$string['debug'] = 'デバッグ通知';
-$string['debugall'] = 'E_ALL: すべての妥当なフィードバックを表示する';
-$string['debugerror'] = 'E_ERROR: 致命的なエラーのみ表示する';
+$string['debug'] = 'デバッグメッセージ';
+$string['debugall'] = 'ALL: すべての妥当なPHPデバッグメッセージを表示する';
+$string['debugdeveloper'] = 'DEVELOPER: 開発者のための特別Moodleデバッグメッセージ';
 $string['debugging'] = 'デバッグ';
-$string['debugnone'] = 'デバッグ情報を表示しない';
-$string['debugnotice'] = 'E_NOTICE: 通知情報を表示する';
-$string['debugparse'] = 'E_PARSE: 構文エラーを表示する';
-$string['debugstrict'] = 'E_STRICT: マイナーエラーも含めてすべての情報を表示する';
-$string['debugwarning'] = 'E_WARNING: 深刻な警告のみ表示する';
+$string['debugminimal'] = 'MINIMAL: 致命的なエラーのみ表示する';
+$string['debugnone'] = 'NONE: デバッグ情報を表示しない';
+$string['debugnormal'] = 'NORMAL: エラー、警告および注意を表示する';
 $string['defaultallowedmodules'] = 'デフォルトで許可するモジュール';
 $string['defaultcourseroleid'] = 'コースユーザのデフォルトロール';
 $string['defaultrequestcategory'] = 'コースリクエストのデフォルトカテゴリ';
