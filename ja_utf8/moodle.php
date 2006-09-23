@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006092201)
+      // moodle.php - created with Moodle 1.7 dev (2006092302)
 
 
 $string['action'] = '操作';
@@ -1189,28 +1189,27 @@ $string['statsmodegeneral'] = '概要閲覧';
 $string['statsnodata'] = 'このコースおよび期間の組み合わせデータはありません。';
 $string['statsnodatauser'] = 'このコース、ユーザおよび期間の組み合わせデータはありません。';
 $string['statsoff'] = '統計は現在利用できません。';
+$string['statsreads'] = '表示';
 $string['statsreport1'] = 'ログイン';
 $string['statsreport10'] = 'ユーザ活動';
 $string['statsreport11'] = '最も活発なコース';
 $string['statsreport12'] = '最も活発なコース ( 加重 )';
 $string['statsreport13'] = '最も参加者の多いコース ( 登録 )';
 $string['statsreport14'] = '最も参加者の多いコース ( 表示/投稿 )';
-$string['statsreport2'] = '閲覧 ( 教師および学生 )';
-$string['statsreport3'] = '投稿 ( 教師および学生 )';
-$string['statsreport4'] = 'すべての活動 ( 教師および学生 )';
-$string['statsreport5'] = 'すべての学生の活動 ( 閲覧および投稿 )';
-$string['statsreport6'] = 'すべての教師の活動 ( 閲覧および投稿 )';
+$string['statsreport2'] = '閲覧 ( すべてのロール )';
+$string['statsreport3'] = '投稿 ( すべてのロール )';
+$string['statsreport4'] = 'すべての活動 ( すべてのロール )';
+$string['statsreport5'] = 'すべての活動 ( 閲覧および投稿 )';
 $string['statsreport7'] = 'ユーザ活動 ( 閲覧および投稿 )';
 $string['statsreport8'] = 'すべてのユーザの活動';
 $string['statsreport9'] = 'ログイン ( サイトコース )';
-$string['statsreportactivity'] = 'すべての活動 ( 教師および学生 )';
+$string['statsreportactivity'] = 'すべての活動 ( すべてのロール )';
+$string['statsreportactivitybyrole'] = 'すべての活動 ( 表示および投稿 )';
 $string['statsreportforuser'] = ':';
 $string['statsreportlogins'] = 'ログイン';
-$string['statsreportreads'] = '閲覧 ( 教師および学生 )';
-$string['statsreportstudentactivity'] = 'すべての学生の活動 ( 閲覧および投稿 )';
-$string['statsreportteacheractivity'] = 'すべての教師の活動 ( 閲覧および投稿 )';
+$string['statsreportreads'] = '閲覧 ( すべてのロール )';
 $string['statsreporttype'] = 'レポートタイプ';
-$string['statsreportwrites'] = '投稿 ( 教師および学生 )';
+$string['statsreportwrites'] = '投稿 ( すべてのロール )';
 $string['statsstudentactivity'] = '学生の活動';
 $string['statsstudentreads'] = '学生の閲覧';
 $string['statsstudentwrites'] = '学生の投稿';
@@ -1223,6 +1222,7 @@ $string['statsuseractivity'] = 'すべての活動';
 $string['statsuserlogins'] = 'ログイン';
 $string['statsuserreads'] = '閲覧';
 $string['statsuserwrites'] = '投稿';
+$string['statswrites'] = '投稿';
 $string['status'] = '状態';
 $string['strftimedate'] = '%%Y年 %%m月 %%d日';
 $string['strftimedateshort'] = '%%m/%%d';
