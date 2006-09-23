@@ -68,7 +68,7 @@ style ol {margin-left:40px;}
 	    export CVS_RSH=ssh <em>(sh 혹은 bash 등을 사용할 경우)</em></div>  
       <p>그 다음에는 아래와 같은 명령으로 무들의 최신 개발 버전을 점검할 수 있습니다. </p>
        <div class="commandline">cvs -z3 -d:ext:<span class="style1">myusername</span>@cvs.sourceforge.net:/cvsroot/moodle co moodle</div>      
-      <p>다른 모듈을 점검할 때도 비슷합니다.</p>
+      <p>다른 CVS 모듈을 점검할 때도 비슷합니다.</p>
        <div class="commandline">cvs -z3 -d:ext:myusername@cvs.sourceforge.net:/cvsroot/moodle co contrib</div>      
       <p>다만, 처음 CVS 명령을 실행할 때는 현재 설치되어 운영되고 있는 무들 디렉토리에서는 하지 마십시오. 대신 새로운 디렉토리에서 시작하기 바랍니다.</p>
       <p>여러분이 <a target="_top" href="http://sourceforge.net/account/editsshkeys.php">인증키</a>를 설정하지 않은 경우 CVS를 접속할 때마다 <strong><font color="#990000">mypassword</font></strong>를 묻는 프롬프트가 뜬다는 것을 유념하여 주시기 바랍니다.</p>
@@ -95,9 +95,9 @@ update -dP</div>
     </blockquote>
         <ol>
           <li><a target="_top" href="http://www.tortoisecvs.org/">tortoisecvs.org</a>에서 TortoiseCVS를 내려받아 설치하고, 재부팅합니다.</li>
-          <li>무들을 내려받을 새 폴더를 생성해 놓거나 준비해 둡니다.</li>
+          <li>무들을 내려받을 폴더를 찾아 놓거나 새 폴더를 만들어 둡니다.</li>
           <li>준비한 폴더에 대고 오른쪽 마우스 클릭을 하여 메뉴의 &quot;<strong>CVS Checkout</strong>&quot; 을 실행합니다. 그러면 다이알로그 박스를 볼 수 있습니다.</li>
-          <li>박스에 있는 문서를 복사해서 CVSROOT 필드에 붙여 넣습니다.(사용자명도 함께!)
+          <li>박스에 있는 문서를 복사해서 CVSROOT 필드에 붙여 넣습니다.(사용자명을 이용!)
             <pre> :ext:<font color="#990000">myusername</font>@cvs.sourceforge.net:/cvsroot/moodle</pre>
           </li>
           <li>무들의 최근 개발판을 얻기 위해 &quot;Module&quot; 필드 아래에 &quot;<strong>moodle</strong>&quot;을 적거나, 다른 부수적인 (공헌) 디렉토리를 가져오기 위해   
@@ -114,7 +114,7 @@ update -dP</div>
           </li>
         </ol>
     <blockquote>
-      <p>파일을 수정하고 나면(아이콘이 파란색에서 빨간색으로 변할 것입니다), 다음과 같이 CVS 서버에 확인을 할 수 있습니다.</p>
+      <p>파일을 수정하고 나면(아이콘이 파란색에서 빨간색으로 변할 것입니다), 다음과 같이 해서 CVS 서버에 올릴 수 있습니다.</p>
     </blockquote>
         <ol>
           <li>여러분의 무들 폴더(혹은 어떤 파일이나) 위에서 마우스의 오른쪽 버튼을 클릭하여 &quot;<strong>CVS Commit...</strong>&quot;을 선택합니다.</li>
@@ -124,7 +124,7 @@ update -dP</div>
         </ol>
 <br />
   </blockquote>
-  <h2><a name="n4" id="n4"></a>4. 가지에서의 작업(Working with Branches)</h2>
+  <h2><a name="n4" id="n4"></a>4. 가지(Branches)에서의 작업</h2>
   <blockquote>
     <p>아래의 다이아그램은 시간에 따라 <strong>moodle</strong>의 모듈들이 어떻게 다른 판으로 변천해 왔는지를 보여주는 것입니다.</p>
     <p align="center"><img src="pix/cvstree.png" width="500" height="200" /></p>
@@ -140,7 +140,7 @@ update -dP</div>
 <br />
     <h3><a name="n4.1" id="n4.1"></a>4.1 개발을 위한 본줄기(Trunk development)</h3>
     <blockquote>
-      <p>CVS의 본 줄기(핵심코드)는 무들 개발판 입니다. CVS에서 이는 <span class="style4">HEAD</span> 혹은 기본 가지(default branch)라고도 알려져 있습니다.</p>
+      <p>CVS의 본 줄기(핵심코드)는 무들 개발판입니다. CVS에서 이는 <span class="style4">HEAD</span> 혹은 기본 가지(default branch)라고도 알려져 있습니다.</p>
       <p>무들의 개발자들은 가능한한 이들이 안정성을 가지도록 노력하고 있지만, 간혹 새로운 코드들은 버그나 약간의 불안정성을 보이는 경우가 있습니다.</p>
       <p>언제든 제품이 충분한 기능을 발휘하게 되면 배포를 결정합니다. 이 때에는 본줄기는 <strong>MOODLE_XX_BETA</strong>라는 태그를 갖게되며(이 경우 언제든 다시 마음을 바꿀 수 있습니다), 소위 <span class="style1">MOODLE_XX_STABLE</span>라는 배포를 위한 새로운 가지를 치게 됩니다.</p>
       <p>이 시점에서 베타판이 배포되게 됩니다. 이 베타판은 CVS를 이용하지 않는 점검자들을 위한 것이며 최종 기능을 점검하고 버그를 색출하기 위한 것입니다.</p>
@@ -177,7 +177,7 @@ update -dP</div>
           </li>
         </ol>
       <p><br />
-        마지막으로, 안정 가지에 있는 무들의 모든 version.php 안의 <em>$version</em> 수치는 가능하다고 하더라도(정말 필요하다면 마지막 숫자만) 전혀 바뀌어서는 안된다. 그 까닭은 어떤 사람이 안정판에서 바로 다음의 안정판으로 업그레이드할 때에 본 줄기에서 있었을 지도 모를 데이터베이스의 업그레이드를 놓칠 수도 있기 때문이다.</p>
+        마지막으로, 안정 가지에 있는 무들의 모든 version.php 안의 <em>$version</em> 숫자는 가능하다고 하더라도(정말 필요하다면 마지막 숫자만) 절대 바뀌어서는 안된다. 그 까닭은 어떤 사람이 안정판에서 바로 다음의 안정판으로 업그레이드할 때에 본 줄기에서 있었을 지도 모를 데이터베이스의 업그레이드를 놓칠 수도 있기 때문이다.</p>
     </blockquote>
 <br />
     <h3><a name="n4.3" id="n4.3"></a>4.3 큰 변화를 위한 기능 가지(Feature branches)</h3>
@@ -191,7 +191,7 @@ update -dP</div>
             <div class="commandline">cvs tag -R MOODLE_XX_WIDGET_PRE</div></li>
           <li><span class="style1"><strong>MOODLE_XX_WIDGET</strong></span>라 불리는 자신의 가지를 만든다. <br /><br />
             <div class="commandline">cvs tag -Rb <span class="style1">MOODLE_XX_WIDGET</span></div></li>
-          <li>기능이 충분히 안정화되었다고 생각될 때까지 그 가지에서 작업한다. 필요하다면 인증을 한다.	  <br /><br />
+          <li>기능이 충분히 안정화되었다고 생각될 때까지 그 가지에서 작업한다. 필요하다면 commit을 한다.	  <br /><br />
             <div class="commandline">cvs commit</div></li>
           <li>준비가 되면, 전체 가지를 본 가지에 병합을 하고, 충돌을 고치고 본 가지에 commit 한 후, 기능 가지를 폐기한다.
 		  <br />
@@ -205,7 +205,7 @@ update -dP</div>
 </blockquote>
 <br />
 <blockquote>
-  <p align="center">Good luck, be careful and have fun!</p>
+  <p align="center">행운을 빕니다, 아무쪼록 조심하고 잘 지내시기 바랍니다!</p>
 </blockquote>
 <br />
 <p align="center"><font size="1"><a href="." target="_top">Moodle Documentation</a></font></p>
