@@ -190,6 +190,7 @@ $string['defaultcourseroleid'] = 'コースユーザのデフォルトロール'
 $string['defaultrequestcategory'] = 'コースリクエストのデフォルトカテゴリ';
 $string['defaultuserroleid'] = 'すべてのユーザのデフォルトロール';
 $string['deleteunconfirmed'] = '未認証のユーザを削除する日数';
+$string['deleteuser'] = 'ユーザを削除する';
 $string['density'] = '密度';
 $string['denyemailaddresses'] = '拒否されたメールアドレスのドメイン';
 $string['digestmailtime'] = '要約メールを送信する時間 ( 時 )';
