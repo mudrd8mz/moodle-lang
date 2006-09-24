@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7 dev (2006090300)
+      // glossary.php - created with Moodle 1.7 dev (2006092302)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -29,20 +29,20 @@ $string['categories'] = 'カテゴリ';
 $string['category'] = 'カテゴリ';
 $string['categorydeleted'] = 'カテゴリが削除されました。';
 $string['categoryview'] = 'カテゴリ順';
-$string['cnfallowcomments'] = '用語集のエントリへのコメントをデフォルトで許可する。';
-$string['cnfallowdupentries'] = '重複エントリを許可する。';
-$string['cnfapprovalstatus'] = '学生による投稿をデフォルトで承認する。';
-$string['cnfcasesensitive'] = 'エントリがリンクされる場合、大文字小文字を区別する。';
+$string['cnfallowcomments'] = '用語集のエントリへのコメントをデフォルトで許可します。';
+$string['cnfallowdupentries'] = '重複エントリを許可します。';
+$string['cnfapprovalstatus'] = '学生による投稿をデフォルトで承認します。';
+$string['cnfcasesensitive'] = 'エントリがリンクされる場合、大文字小文字を区別します。';
 $string['cnfdefaulthook'] = '用語集が表示される時のデフォルトセクションを選択してください。';
 $string['cnfdefaultmode'] = '用語集が最初に表示される時のデフォルトフレームを選択してください。';
-$string['cnffullmatch'] = 'エントリがリンクされる場合、ターゲットテキストと文字の大小 ( 大文字・小文字 ) を合わせる。';
-$string['cnflinkentry'] = 'デフォルトでエントリを自動的にリンクさせる。';
-$string['cnflinkglossaries'] = 'デフォルトで用語集を自動的にリンクさせる。';
+$string['cnffullmatch'] = 'エントリがリンクされる場合、ターゲットテキストと文字の大小 ( 大文字・小文字 ) を合わせます。';
+$string['cnflinkentry'] = 'デフォルトでエントリを自動的にリンクさせます。';
+$string['cnflinkglossaries'] = 'デフォルトで用語集を自動的にリンクさせます。';
 $string['cnfrelatedview'] = 'オートリンクおよびエントリ表示に使用する表示フォーマットを選択してください。';
 $string['cnfshowgroup'] = 'グループ区切りを表示するかどうか指定してください。';
 $string['cnfsortkey'] = 'デフォルトの並び替えキーを選択してください。';
 $string['cnfsortorder'] = 'デフォルトの並び替え順を選択してください。';
-$string['cnfstudentcanpost'] = '学生のエントリ投稿をデフォルトで許可する。';
+$string['cnfstudentcanpost'] = '学生のエントリ投稿をデフォルトで許可します。';
 $string['comment'] = 'コメント';
 $string['commentdeleted'] = 'コメントが削除されました。';
 $string['comments'] = 'コメント';
@@ -50,7 +50,7 @@ $string['commentson'] = 'コメント';
 $string['commentupdated'] = 'コメントが更新されました。';
 $string['concept'] = '用語';
 $string['concepts'] = '用語';
-$string['configenablerssfeeds'] = 'ここでは、すべての用語集に関するRSSフィードを有効にします。さらに、手動で各用語集のRSSフィード設定を有効にする必要があります。';
+$string['configenablerssfeeds'] = 'すべての用語集に関するRSSフィードを有効にします。さらに、手動で各用語集のRSSフィード設定を有効にする必要があります。';
 $string['currentglossary'] = '現在の用語集';
 $string['dateview'] = '日付順';
 $string['defaultapproval'] = 'デフォルトで承認する';
