@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.7 dev (2006071800)
+      // wiki.php - created with Moodle 1.7 dev (2006092409)
 
 
 $string['action'] = '-- アクション --';
@@ -177,6 +177,8 @@ $string['versionstodelete'] = '削除するバージョン';
 $string['viewpage'] = 'ページの表示';
 $string['viewsmfor'] = 'サイトマップの表示:';
 $string['wantedpages'] = '執筆が望まれているページ';
+$string['wiki:manage'] = 'Wiki設定を管理する';
+$string['wiki:participate'] = 'Wikiページを編集する';
 $string['wikidefaultpagename'] = 'Wikiインデックス';
 $string['wikiexport'] = 'ページのエクスポート';
 $string['wikiexportcomment'] = 'エクスポートに関する設定を行ってください。';

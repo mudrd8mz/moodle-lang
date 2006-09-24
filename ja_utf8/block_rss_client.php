@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.7 dev (2006090600)
+      // block_rss_client.php - created with Moodle 1.7 dev (2006092409)
 
 
 $string['addfeed'] = 'ニュースフィードURLを追加:';
 $string['addheadlineblock'] = 'RSSヘッドラインブロックの追加';
 $string['addnew'] = 'RSSの追加';
+$string['blockname'] = 'RSSクライアント';
 $string['choosefeedlabel'] = 'このブロックで使用するフィードを選択してください:';
 $string['clientchannellink'] = 'ソースサイト ...';
 $string['clientnumentries'] = 'ブロックに表示するRSSリンク数';
@@ -22,7 +23,7 @@ $string['feed'] = 'ニュースフィード';
 $string['feedadded'] = 'ニュースフィードが追加されました。';
 $string['feeddeleted'] = 'ニュースフィードが削除されました。';
 $string['feeds'] = 'ニュースフィード';
-$string['feedsaddedit'] = 'フィードの追加/編集';
+$string['feedsaddedit'] = 'フィードを追加/編集する';
 $string['feedsconfigurenewinstance'] = 'RSSフィードの表示設定をするには、ここをクリックしてください。';
 $string['feedstitle'] = 'リモートRSSフィード';
 $string['feedupdated'] = 'ニュースフィードが更新されました。';
@@ -31,6 +32,10 @@ $string['managefeeds'] = 'すべてのフィードの管理';
 $string['nofeeds'] = 'このサイトで設定されたRSSフィードはありません。';
 $string['pickfeed'] = 'ニュースフィードを取得';
 $string['remotenewsfeed'] = 'リモートニュースフィード';
+$string['rss_client:createprivatefeeds'] = 'プライベートRSSフィードを作成する';
+$string['rss_client:createsharedfeeds'] = '共有RSSフィードを作成する';
+$string['rss_client:manageanyfeeds'] = 'すべてのRSSフィードを管理する';
+$string['rss_client:manageownfeeds'] = '自分のRSSフィードを管理する';
 $string['seeallfeeds'] = 'すべてのフィードを表示';
 $string['sharedfeed'] = '共有フィード';
 $string['shownumentrieslabel'] = 'ブロックに表示する最大エントリ数';

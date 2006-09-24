@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006091901)
+      // quiz.php - created with Moodle 1.7 dev (2006092409)
 
 
 $string['1day'] = '1日';
@@ -374,6 +374,13 @@ $string['questionsperpage'] = '1ページあたりの問題数';
 $string['questiontext'] = '問題テキスト';
 $string['questiontype'] = '問題タイプ $a';
 $string['questiontypesetupoptions'] = '問題タイプのオプション設定';
+$string['quiz:attempt'] = '小テストを受験する';
+$string['quiz:deleteattempts'] = '小テスト受験結果を削除する';
+$string['quiz:grade'] = '小テストを評定する';
+$string['quiz:manage'] = '小テストを管理する';
+$string['quiz:preview'] = '小テストをプレビューする';
+$string['quiz:view'] = '小テスト情報を表示する';
+$string['quiz:viewreports'] = '小テストレポートを表示する';
 $string['quizavailable'] = '小テストは $a まで利用できます。';
 $string['quizclose'] = '小テスト終了';
 $string['quizclosed'] = 'この小テストは $a に終了しました。';

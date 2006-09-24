@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006090300)
+      // data.php - created with Moodle 1.7 dev (2006092409)
 
 
 $string['action'] = '操作';
@@ -40,7 +40,9 @@ $string['data:managecomments'] = 'コメントを管理する';
 $string['data:manageentries'] = 'エントリを管理する';
 $string['data:managetemplates'] = 'テンプレートを管理する';
 $string['data:rate'] = 'エントリを評価する';
-$string['data:readentry'] = 'エントリを表示する';
+$string['data:readentry'] = 'エントリを読む';
+$string['data:viewentry'] = 'エントリを表示する';
+$string['data:viewrating'] = '評価を表示する';
 $string['data:writeentry'] = 'エントリを追加する';
 $string['date'] = '日付';
 $string['dateentered'] = '入力日時';

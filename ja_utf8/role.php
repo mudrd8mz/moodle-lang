@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006092100)
+      // role.php - created with Moodle 1.7 dev (2006092409)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -34,10 +34,13 @@ $string['course:reset'] = 'コースをリセットする';
 $string['course:sectionvisibility'] = 'セクションの視認性をコントロールする';
 $string['course:setcurrentsection'] = '最新のトピックを設定する';
 $string['course:update'] = 'コース設定を更新する';
+$string['course:useremail'] = 'メールアドレスを有効/無効にできる';
 $string['course:view'] = 'コースを表示する';
 $string['course:viewcoursegrades'] = 'コース評定を表示する';
 $string['course:viewhiddenactivities'] = '非表示の活動を表示する';
+$string['course:viewhiddencourses'] = '非表示のコースを表示する';
 $string['course:viewhiddensections'] = '非表示のセクションを表示する';
+$string['course:viewhiddenuserfields'] = '非表示のユーザフィールドを表示する';
 $string['course:viewparticipants'] = '参加者を表示する';
 $string['course:viewscales'] = '尺度を表示する';
 $string['course:visibility'] = 'コースを表示/非表示する';
@@ -77,29 +80,37 @@ $string['risks'] = 'リスク';
 $string['role:assign'] = 'ユーザにロールを割り当てる';
 $string['role:manage'] = 'ロールを作成および管理する';
 $string['role:override'] = '他のパーミッションをオーバーライドする';
+$string['role:switchroles'] = '他のロールに変更する';
 $string['role:unassignself'] = '自分のロールを解除する';
+$string['role:viewhiddenassigns'] = '非表示のロール割り当てを表示する';
 $string['roleassignments'] = 'ロールの割り当て';
 $string['roles'] = 'ロール';
 $string['roletoassign'] = '割り当てるロール';
 $string['roletooverride'] = 'オーバーライドするロール';
 $string['selectrole'] = 'ロールを選択';
 $string['site:accessallgroups'] = 'すべてのグループにアクセスする';
+$string['site:approvecourse'] = 'コース作成を承認する';
 $string['site:backup'] = 'コースをバックアップする';
 $string['site:config'] = 'サイト設定を変更する';
 $string['site:doanything'] = 'すべての動作を許可する';
 $string['site:doclinks'] = 'サイト外ドキュメントのリンクを表示する';
 $string['site:import'] = 'コースに他のコースをインポートする';
 $string['site:manageblocks'] = 'サイトレベルのブロックを管理する';
+$string['site:readallmessages'] = 'サイトのすべてのメッセージを読む';
 $string['site:restore'] = 'コースをリストアする';
 $string['site:trustcontent'] = 'コンテンツが安全だと信頼する';
+$string['site:uploadusers'] = 'ファイルからユーザをアップロードする';
 $string['site:viewfullnames'] = 'ユーザのフルネームを常に表示する';
+$string['site:viewparticipants'] = '参加者を表示する';
 $string['site:viewreports'] = 'レポートを表示する';
 $string['user:create'] = 'ユーザを作成する';
 $string['user:delete'] = 'ユーザを削除する';
+$string['user:editprofile'] = 'ユーザプロフィールを編集する';
 $string['user:readuserblogs'] = 'すべてのユーザブログを表示する';
 $string['user:readuserposts'] = 'すべてのユーザ投稿を表示する';
 $string['user:update'] = 'ユーザプロフィールを更新する';
 $string['user:viewdetails'] = 'ユーザプロフィールを表示する';
+$string['user:viewhiddendetails'] = '非表示のユーザ詳細を表示する';
 $string['user:viewuseractivitiesreport'] = 'ユーザの活動レポートを表示する';
 $string['user:viewusergrades'] = 'ユーザの評定を表示する';
 $string['viewrole'] = 'ロール詳細を表示する';

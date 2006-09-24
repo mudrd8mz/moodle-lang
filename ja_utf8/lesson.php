@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006091702)
+      // lesson.php - created with Moodle 1.7 dev (2006092409)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -130,6 +130,8 @@ $string['jumps'] = 'ジャンプ';
 $string['jumpsto'] = '<em>$a</em> にジャンプする';
 $string['leftduringtimed'] = 'あなたは制限時間のあるレッスンを途中で終了しました。<br />レッスンを再スタートするためにクリックしてください。';
 $string['leftduringtimednoretake'] = 'あなたは制限時間のあるレッスンを途中で終了しました。<br />レッスンの再受験、継続はできません。';
+$string['lesson:edit'] = 'レッスン活動を編集する';
+$string['lesson:manage'] = 'レッスン活動を管理する';
 $string['lessonclosed'] = 'このレッスンは $a に終了します。';
 $string['lessoncloses'] = 'レッスン終了';
 $string['lessondefault'] = 'この設定をデフォルトにする';
