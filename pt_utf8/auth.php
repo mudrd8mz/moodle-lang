@@ -1,7 +1,14 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.3 development (2004042600)
+      // auth.php - created with Moodle 1.6.2 (2006050521)
 
 
+$string['alternateloginurl'] = 'URL alternativa para autenticação';
+$string['auth_cas_language'] = 'Língua escolhida';
+$string['auth_cas_logincas'] = 'Acesso por ligação segura';
+$string['auth_cas_text'] = 'Ligação segura';
+$string['auth_changepasswordhelp'] = 'Modificar palavra chave de ajuda';
+$string['auth_changepasswordurl'] = 'Modificar URL da palavra chave';
+$string['auth_common_settings'] = 'Configurações habituais';
 $string['auth_dbdescription'] = 'Este método usa uma tabela numa base de dados externa para verificar se um nome de utilizador e palavra chave são válidos. Se for uma conta nova, a informação de outros campos pode ser também transferida para Moodle.';
 $string['auth_dbextrafields'] = '<p>Estes campos são optativos. Pode optar por preencher previamente alguns dos campos do utilizador em Moodle com informação dos campos da <b>base de dados externa</b> que especificar aqui.</p><p>Se deixar estes campos em branco, nada será transferido de LDAP e os valores por omissão do Moodle serão usados.</p><p>De qualquer forma o utilizador poderá editar todos estes campos mais tarde depois de entrar no servidor.';
 $string['auth_dbfieldpass'] = 'Nome do campo que contem as palavras chave';
@@ -16,6 +23,12 @@ $string['auth_dbtype'] = 'O tipo de base de dados (veja <a href=\"../lib/adodb/r
 $string['auth_dbuser'] = 'Nome de utilizador para aceder à base de dados';
 $string['auth_emaildescription'] = 'Confirmação via correio electrónico é o método de autenticação padrão. Quando o utilizador se inscrever, após ter escolhido o nome de utilizador e palavra chave, será-lhe enviada uma mensagem de confirmação para o seu endereço de correio electrónico. Essa mensagem contem um apontador seguro para uma página onde o utilizador pode confirmar a sua conta. Quando o utilizador entrar no futuro o seu nome de utilizador e palavra chave serão conferidos na base de dados do Moodle.';
 $string['auth_emailtitle'] = 'Autenticação baseada no correio electrónico';
+$string['auth_fcpasswd'] = 'Palavra chave para a conta acima.';
+$string['auth_fieldlock'] = 'Bloquear valor';
+$string['auth_fieldlock_expl'] = '<p><b>Bloquear valor:</b> Quando estiver activo, evitará que utilizadores e administradores do Moodle editem o campo directamente. Use esta opção se esse dado estiver a ser mantido pelo sistema externo de autenticação.</p>';
+$string['auth_fieldlocks'] = 'Bloquear campos de utilizador';
+$string['auth_fieldlocks_help'] = '<p>Pode bloquear campos de dados dosutilizadores. Isso será útil em sítios onde os dados do utilizador  são inseridos manualmente pelos administradores, ou
+enviados usando o programa de envio de dados de utilizadores. Se bloquear dados necssários em Moodle, verifique que esses dados sejam sempre fornecidos quando uma nova conta de utilizador for criada, para evitar que a conta seja inutilizável.</p><p>Considere a possibilidade de usar o modo \'Desbloqueada enquanto vazia\' para evitar esse problema.</p>';
 $string['auth_imapdescription'] = 'Este método usa um servidor de IMAP para verificar se um nome de utilizador e palavra chave são válidos.';
 $string['auth_imaphost'] = 'Endereço do servidor de IMAP. Use o NÚMERO IP e não o nome no DNS.';
 $string['auth_imapport'] = 'Número da porta do servidor IMAP. Geralmente esta é 143 ou 993.';
@@ -29,7 +42,7 @@ $string['auth_ldap_creators'] = 'Lista de grupos cujos membros tém permissões 
 $string['auth_ldap_host_url'] = 'Especifique o servidor de LDAP na forma de uma
 URL completa, como \'ldap://ldap.myorg.com/\' ou \'ldaps://ldap.myorg.com/\'';
 $string['auth_ldap_memberattribute'] = 'Especifica o atributo de utilizador membro, quando os utilizadores pertencem a um grupo. Geralmente \'member\'';
-$string['auth_ldap_search_sub'] = 'Escreva &lt;&gt; 0; se quiser procurar utilizadores nos sub-contextos.';
+$string['auth_ldap_search_sub'] = 'Escreva <> 0; se quiser procurar utilizadores nos sub-contextos.';
 $string['auth_ldap_update_userinfo'] = 'Actualizar informação de utilizador (nome, apelido, endereço...) de LDAP para Moodle. Para informação sobre a correspondência, consulte /auth/ldap/attr_mappings.php';
 $string['auth_ldap_user_attribute'] = 'O atributo usado para nomear/procurar utilizadores. Geralmente \'cn\'.';
 $string['auth_ldap_version'] = 'A versão do protocolo LDAP que o seu servidor estiver a usar.';
@@ -57,7 +70,7 @@ $string['authenticationoptions'] = 'Opções de autenticação';
 $string['authinstructions'] = 'Aqui pode incluir instruções para os seus utilizadores, para que saibam que tipo de nome de utilizador e palavra chave deverão usar. O texto que escreva aqui aparecerá na página de entrada. Se deixar este campo em branco, não será dadas nenhumas instruções.';
 $string['changepassword'] = 'Mude o endereço da palavra chave';
 $string['changepasswordhelp'] = 'Aqui pode especificar um local onde os utilizadores podem recuperar ou alterar a sua palavra chave e nome de usuário caso se esqueçam dela. Isto será fornecido aos utilizadores como um botão na página de entrada a servidor e na sua página de utilizador. Se deixar este espaço em branco o botão não aparecerá.';
-$string['chooseauthmethod'] = 'Escolha um método de autenticação: ';
+$string['chooseauthmethod'] = 'Escolha um método de autenticação:';
 $string['guestloginbutton'] = 'Botão de entrada como visitante';
 $string['instructions'] = 'Instruções';
 $string['md5'] = 'Criptografia MD5';
