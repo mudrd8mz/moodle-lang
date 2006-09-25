@@ -77,8 +77,14 @@ $string['maxbytes'] = 'Taille maximale des fichiers déposés';
 $string['messaging'] = 'Activation du système de messagerie';
 $string['allowobjectembed'] = 'Autoriser les balises EMBED et OBJECT';
 
-#$string['enabletrusttext'] = '';
-#$string['configenabletrusttext'] = '';
+$string['enabletrusttext'] = '';
+$string['configenabletrusttext'] = '';
+
+$string['riskmanagetrust'] = 'Les utilisateurs pourraient modifier les réglages de confiance d\'autres utilisateurs';
+$string['riskconfig'] = 'Les utilisateurs pourraient modifier la configuration et le comportement du site';
+$string['riskxss'] = 'Les utilisateurs pourraient déposer des fichiers ou écrire des textes permettant le « cross-site scripting » (XSS)';
+$string['riskpersonal'] = 'Les utilisateurs pourraient avoir accès aux informations personnelles d\'autres utilisateurs';
+$string['riskspam'] = 'Les utilisateurs pourraient envoyer du spam à des utilisateurs du site ou d\'autres personnes';
 
 $string['maxeditingtime'] = 'Durée maximale de modification des messages';
 $string['fullnamedisplay'] = 'Format d\'affichage des noms';
