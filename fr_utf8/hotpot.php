@@ -4,6 +4,11 @@ $string['modulename'] = 'Test Hot Potatoes';
 $string['modulenameplural'] = 'Tests Hot Potatoes';
 
 // for mod.html
+$string['hotpot:attempt'] = 'Répondre à un test';
+$string['hotpot:viewreport'] = 'Afficher les rapports';
+$string['hotpot:grade'] = 'Modifier les notes';
+$string['hotpot:deleteattempt'] = 'Supprimer des tentatives';
+
 $string['textsourcequiz'] = 'Tirer du test';
 $string['textsourcefilename'] = 'Utiliser le nom du fichier';
 $string['textsourcefilepath'] = 'Utiliser le chemin du fichier';

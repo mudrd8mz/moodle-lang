@@ -3,6 +3,7 @@
 $string['addfeed'] = 'Ajouter l\'URL d\'un fil RSS : ';
 $string['addheadlineblock'] = 'Ajouter un bloc manchette RSS';
 $string['addnew'] = 'Ajouter nouveau';
+$string['blockname'] = 'Client RSS';
 $string['choosefeedlabel'] = 'Choisir le fil RSS que vous désirez rendre disponibles dans ce bloc :';
 $string['clientchannellink'] = 'Site d\'origine...';
 $string['clientnumentries'] = 'Nombre par défaut d\'articles RSS à afficher par bloc';
@@ -37,5 +38,10 @@ $string['timeout'] = 'blockrsstimeout';
 $string['timeoutdesc'] = 'Durée de vie en cache d\'un fil RSS (en minutes).';
 $string['updatefeed'] = 'Modifier l\'URL d\'un fil URL : ';
 $string['validatefeed'] = 'Valider le fil';
+
+$string['rss_client:createprivatefeeds'] = 'Créer des fils RSS privés';
+$string['rss_client:createsharedfeeds'] = 'Créer des fils RSS partagés';
+$string['rss_client:manageownfeeds'] = 'Gérer ses propres fils RSS';
+$string['rss_client:manageanyfeeds'] = 'Gérer tous les fils RSS';
 
 ?>
