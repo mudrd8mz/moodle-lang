@@ -313,6 +313,7 @@ $string['debugminimal'] = 'Minimal : n\'afficher que les erreurs fatales';
 $string['debugnormal'] = 'Normal : afficher les erreurs, avertissements et notices';
 $string['debugall'] = 'Tout : afficher tous les messages de débogage raisonnables de PHP';
 $string['debugdeveloper'] = 'Développeur : afficher en plus les messages de débogage de Moodle pour développeurs';
+$string['deleteuser'] = 'Supprimer l\'utilisateur';
 $string['density'] = 'Densité';
 $string['download'] = 'Télécharger';
 $string['editlang'] = '<b>Modifier</b>';
