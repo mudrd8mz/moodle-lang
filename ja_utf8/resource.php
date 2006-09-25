@@ -1,14 +1,17 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 dev (2006090400)
+      // resource.php - created with Moodle 1.7 dev (2006092410)
 
 
 $string['addresource'] = 'リソースを追加する';
+$string['affectedresources'] = '影響を受けるリソース';
 $string['back'] = '戻る';
 $string['browserepository'] = 'リポジトリの表示';
 $string['choose'] = '選択';
 $string['chooseafile'] = 'ファイルを選択またはアップロードする';
 $string['chooseparameter'] = 'パラメータを選択';
 $string['configallowlocalfiles'] = '新しいリソースを登録する場合、CDドライブやハードディスクのようなローカルファイルシステムへのリンクを許可します。この設定は、教室ですべての学生が共通のネットワークドライブやCDに保存されているファイルにアクセスするときに便利です。この機能を使用するには、ブラウザのセキュリティ設定の変更が必要な場合もあります。';
+$string['configautofilerenamesettings'] = 'ファイルマネージャーでリネームされた場合、ファイルおよびディレクトリに対する参照を自動的に更新します。';
+$string['configblockdeletingfilesettings'] = 'リソースにより参照されているファイルおよびディレクトリの削除をブロックします。htmlより参照されているイメージおよび他のファイルは保護されませんので注意してください。';
 $string['configdefaulturl'] = 'ここでは新しいURLベースのリソースを作成する場合、前もって入力されるURLを設定します。';
 $string['configfilterexternalpages'] = 'この設定により、すべての外部リソース ( ウェブページ、アップロードしたHTMLファイル ) に対して、現在設定されているフィルタ  ( 例えば用語集オートリンク ) が適用されます。「Yes」を選択することで、コースページの動作が著しく遅くなる恐れがあります。本当に必要がある場合のみ注意して使用してください。';
 $string['configframesize'] = 'フレーム内にウェブページやアップロードしたファイルが表示される場合の ( ナビゲーションを含む ) トップフレームサイズ ( ピクセル ) です。';
@@ -74,7 +77,7 @@ $string['next'] = '次へ';
 $string['notallowedlocalfileaccess'] = '現在、ローカルファイルへのアクセスは停止されています。このリソースは利用できません。';
 $string['notdeployed'] = '未配置';
 $string['note'] = '注意';
-$string['notefile'] = 'さらにファイルをアップロード ( このリストに表示されます ) する場合、<a href=$a >File Manager</a> を利用してください。';
+$string['notefile'] = 'さらにファイルをアップロード ( このリストに表示されます ) する場合、<a href=$a >ファイルマネージャー</a> を利用してください。';
 $string['notypechosen'] = 'タイプを選択してください。「戻る」ボタンを押して再度入力してください。';
 $string['packagechanged'] = 'IMS学習者情報パッケージが変更されました。';
 $string['packagenotdeplyed'] = 'このIMS学習者情報パッケージは配置されません。';
@@ -116,5 +119,7 @@ $string['upbutton'] = 'UP';
 $string['variablename'] = '変数名';
 $string['viewims'] = 'IMS学習者情報パッケージの表示';
 $string['vol'] = 'Vol';
+$string['warningblockingdelete'] = '警告: 削除処理は既存のリソースによりブロックされています。あなたのリソースを最初に更新するか、リソースモジュールの管理画面で、このセーフティーメカニズムを無効にしてください。';
+$string['warningdisabledrename'] = '警告: リソースにおける参照の自動リネームは無効にされています。必要に応じて、影響を受けるリソースを手動で更新してください。自動リネームは、リソースモジュールの管理画面で有効にすることができます。';
 
 ?>

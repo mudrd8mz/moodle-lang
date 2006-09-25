@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.7 dev (2006092409)
+      // wiki.php - created with Moodle 1.7 dev (2006092410)
 
 
 $string['action'] = '-- アクション --';
@@ -94,6 +94,7 @@ $string['linkok'] = 'OK';
 $string['linkschecked'] = 'チェック済みリンク';
 $string['listall'] = 'すべてを表示';
 $string['listcandidates'] = '候補一覧';
+$string['lockcancelled'] = 'あなたの編集ロックは他の人にオーバーライドされ、現在このページはその人編集されています。あなたの変更内容を保持したい場合、「キャンセル」ボタンをクリックする前に、すべてを選択してコピーしてください。その後、再編集を試みてください。';
 $string['meta'] = 'メタデータ';
 $string['moduledirectory'] = 'モジュールディクショナリ';
 $string['modulename'] = 'Wiki';
@@ -116,10 +117,13 @@ $string['optional'] = 'オプション';
 $string['orphanedpage'] = '迷子ページ';
 $string['orphanedpages'] = '迷子ページ';
 $string['otherwikis'] = '他のWiki';
+$string['overridebutton'] = 'ロックをオーバーライドする';
+$string['overrideinfo'] = 'あなたは、このユーザのロックをオーバーライドすることができますが、オーバーライドすることにより、変更内容が失われます! 気をつけて処理を続けてください。';
 $string['ownerunknown'] = '不明';
 $string['pageactions'] = 'ページアクション';
 $string['pageindex'] = 'ページインデックス';
 $string['pageinfo'] = 'ページ情報';
+$string['pagelocked'] = '<p><strong>このページは $a->name.さんによって編集されました。</strong>編集作業は、 $a->since に開始され、$a->seen 現在も開かれています。</p><p>あなたが編集を始める前に、現在の編集作業の終了を待ってください。</p>';
 $string['pagename'] = 'ページ名';
 $string['pagenamechoice'] = '- または -';
 $string['pageslinkingto'] = 'このページにリンクしているページ';
@@ -178,6 +182,7 @@ $string['viewpage'] = 'ページの表示';
 $string['viewsmfor'] = 'サイトマップの表示:';
 $string['wantedpages'] = '執筆が望まれているページ';
 $string['wiki:manage'] = 'Wiki設定を管理する';
+$string['wiki:overridelock'] = 'ロックページをオーバーライドする';
 $string['wiki:participate'] = 'Wikiページを編集する';
 $string['wikidefaultpagename'] = 'Wikiインデックス';
 $string['wikiexport'] = 'ページのエクスポート';

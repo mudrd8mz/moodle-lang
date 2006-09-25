@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006092409)
+      // role.php - created with Moodle 1.7 dev (2006092410)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -98,7 +98,7 @@ $string['site:import'] = 'コースに他のコースをインポートする';
 $string['site:manageblocks'] = 'サイトレベルのブロックを管理する';
 $string['site:readallmessages'] = 'サイトのすべてのメッセージを読む';
 $string['site:restore'] = 'コースをリストアする';
-$string['site:trustcontent'] = 'コンテンツが安全だと信頼する';
+$string['site:trustcontent'] = '送信されたコンテンツを信頼する';
 $string['site:uploadusers'] = 'ファイルからユーザをアップロードする';
 $string['site:viewfullnames'] = 'ユーザのフルネームを常に表示する';
 $string['site:viewparticipants'] = '参加者を表示する';

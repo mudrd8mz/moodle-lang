@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.7 dev (2006060400)
+      // enrol_imsenterprise.php - created with Moodle 1.7 dev (2006092410)
 
 
 $string['aftersaving...'] = 'あなたの設定を保存した後、';
@@ -18,6 +18,7 @@ $string['filelockedmail'] = 'あなたが使用しているIMSファイルベー
 $string['filelockedmailsubject'] = 'インポートエラー: ユーザ登録ファイル';
 $string['fixcasepersonalnames'] = '個人名をタイトル文字にする';
 $string['fixcaseusernames'] = 'ユーザ名を小文字に変更する';
+$string['imsrolesdescription'] = 'IMSエンタープライズには、8種類の異なるロールが指定されています。ロールを無視する場合も含めて、Moodleにこれらのロールを割り当ててください。';
 $string['location'] = 'ファイルロケーション';
 $string['logtolocation'] = 'ログファイルの出力場所 ( 空白はログなし )';
 $string['mailadmins'] = '管理者にメール通知する';
