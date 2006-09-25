@@ -55,6 +55,7 @@ $string['site:readallmessages'] = 'Lire tous les messages sur le site';
 $string['site:viewfullnames'] = 'Toujours voir les noms complets des utilisateurs';
 $string['site:trustcontent'] = 'Se fier aux contenus déposés';
 $string['site:doclinks'] = 'Afficher les liens vers les documents externes';
+$string['site:uploadusers'] = 'Importer de nouveaux utilisateurs à partir d\'un fichier';
 $string['site:viewreports'] = 'Afficher les rapports';
 $string['site:viewparticipants'] = 'Voir les participants';
 $string['user:create'] = 'Créer des utilisateurs';
