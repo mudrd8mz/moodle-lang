@@ -212,7 +212,7 @@
 
 <ol class="normaltext">
 
-<li class="spaced">Ne vous basez pas sur l'option « register_globals ». <strong>Toutes</strong> les variables doivent être correctement initialisées dans <strong>tous</strong> les fichiers de code. La provenance du nom de la variable doit être évidente.</li>
+<li class="spaced">Ne vous basez pas sur l'option «&nbsp;register_globals&nbsp;». <strong>Toutes</strong> les variables doivent être correctement initialisées dans <strong>tous</strong> les fichiers de code. La provenance du nom de la variable doit être évidente.</li>
 
 <li class="spaced">Initialisez tous les tableaux et tous les objets, même lorsqu'ils sont vides. <code>$a = array()</code> ou <code>$obj = new stdClass();</code>.</li>
 
@@ -228,7 +228,7 @@
 
 <li class="spaced">Groupez chaque fois que cela est possible vos <code>required_param()</code>, <code>optional_param()</code> et les autres initialisations de variables initialisation au début de chaque fichier, de sorte qu'elles soient faciles à trouver.</li>
 
-<li class="spaced">Utilisez le mécanisme « sesskey » pour protéger vos routines de traitement de formulaires d'éventuelles attaques. Un exemple simple&nbsp;: lorsque le formulaire est généré, ajoutez <code><input type="hidden" name="sesskey" value="<?php echo sesskey(); ?>" /></code>. Lors du traitement du formulaire, vérifiez avec <code>if (!confirm_sesskey()) {error('Bad Session Key');}</code>.</li>
+<li class="spaced">Utilisez le mécanisme «&nbsp;sesskey&nbsp;» pour protéger vos routines de traitement de formulaires d'éventuelles attaques. Un exemple simple&nbsp;: lorsque le formulaire est généré, ajoutez <code><input type="hidden" name="sesskey" value="<?php echo sesskey(); ?>" /></code>. Lors du traitement du formulaire, vérifiez avec <code>if (!confirm_sesskey()) {error('Bad Session Key');}</code>.</li>
 
 <li class="spaced">Tous les noms de fichiers doivent être nettoyés par la fonction <code>clean_filename()</code>, pour autant que cela n'ait pas encore été fait par une utilisation adéquate de <code>required_param()</code> ou de <code>optional_param()</code>.</li>
 

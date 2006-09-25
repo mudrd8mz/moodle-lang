@@ -198,7 +198,7 @@ $string['mappingwarning'] = 'Les anciens champs qui ne sont pas mis en correspon
 $string['blank'] = 'Vide';
 
 $string['presetwarning'] = 'L\'enregistrement en tant que préréglage publie ce modèle sur tout le site. Tous les utilisateurs pourront l\'utiliser dans leurs bases de données.';
-$string['deletewarning'] = 'Vouslez-vous vraiment supprimer ce préréglage ?';
+$string['deletewarning'] = 'Vouslez-vous vraiment supprimer ce préréglage&nbsp;?';
 $string['importsuccess'] = 'Le préréglage a été mis en place correctement.';
 $string['addentries'] = 'Ajouter des fiches';
 $string['todatabase'] = 'à cette base de données.';

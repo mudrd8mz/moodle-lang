@@ -5,18 +5,18 @@ $string['attachfile'] = 'Joindre fichier';
 $string['attachfiletoassignment'] = 'Joindre un(des) fichier(s) au devoir';
 $string['backtoassignment'] = 'Retour au devoir';
 $string['backtofeedback'] = 'Retour au feedback';
-$string['choosereviewfile'] = 'Choisir un fichier à déposer comme retour du devoir :';
+$string['choosereviewfile'] = 'Choisir un fichier à déposer comme retour du devoir&nbsp;:';
 $string['allowresubmit'] = 'Permettre plusieurs remises d\'un devoir';
 $string['assignment:view'] = 'Afficher un devoir';
 $string['assignment:grade'] = 'Noter un devoir';
 $string['assignment:submit'] = 'Remettre un devoir';
 $string['assignmentdetails'] = 'Détails du devoir';
-$string['assignmentmail'] = '$a->teacher a écrit un feedback concernant votre devoir « $a->assignment »
+$string['assignmentmail'] = '$a->teacher a écrit un feedback concernant votre devoir «&nbsp;$a->assignment&nbsp;»
 
 Vous pouvez le consulter en annexe à votre devoir :
 
 $a->url';
-$string['assignmentmailhtml'] = '$a->teacher a écrit un feedback concernant votre devoir rendu « <em>$a->assignment</em> »<br /><br />
+$string['assignmentmailhtml'] = '$a->teacher a écrit un feedback concernant votre devoir rendu «&nbsp;<em>$a->assignment</em>&nbsp;»<br /><br />
 
 Vous pouvez le consulter en annexe à <a href=\'$a->url\'>votre devoir</a>.';
 $string['assignmentname'] = 'Nom du devoir';
@@ -26,9 +26,9 @@ $string['comment'] = 'Commentaire';
 $string['commentinline'] = 'Commentaire dans le texte';
 $string['configitemstocount'] = 'Nature des éléments à compter comme devoirs remis dans les devoirs en ligne.';
 $string['configmaxbytes'] = 'Taille maximale par défaut de tous les devoirs du site (sujet aux limites des cours et autres réglages locaux)';
-$string['deletecheckfile'] = 'Voulez-vous vraiment supprimer ce fichier ?';
+$string['deletecheckfile'] = 'Voulez-vous vraiment supprimer ce fichier&nbsp;?';
 $string['deleteednotification'] = 'Le fichier a été supprimé.';
-$string['deletefail'] = 'Le fichier suivant n\'a pas été supprimé :';
+$string['deletefail'] = 'Le fichier suivant n\'a pas été supprimé&nbsp;:';
 $string['description'] = 'Description';
 $string['duedate'] = 'À rendre jusqu\'au';
 $string['duedateno'] = 'Pas de date de retour';
@@ -36,12 +36,12 @@ $string['early'] = 'En avance de $a';
 $string['editmysubmission'] = 'Modifier mon devoir';
 $string['emailstudents'] = 'Envoyer aux étudiants les alertes par courriel';
 $string['emailteachers'] = 'Envoyer aux enseignants les alertes par courriel';
-$string['emailteachermail'] = '$a->username a modifié son travail remis pour le devoir « $a->assignment ».
+$string['emailteachermail'] = '$a->username a modifié son travail remis pour le devoir «&nbsp;$a->assignment&nbsp;».
 
 Ce travail est disponible ici :
 
 $a->url';
-$string['emailteachermailhtml'] = '$a->username a modifié son travail remis pour le devoir « <em>$a->assignment</em> »<br /><br />Le travail remis est <a href=\"$a->url\">disponible sur le site web</a>.';
+$string['emailteachermailhtml'] = '$a->username a modifié son travail remis pour le devoir «&nbsp;<em>$a->assignment</em>&nbsp;»<br /><br />Le travail remis est <a href=\"$a->url\">disponible sur le site web</a>.';
 $string['emptysubmission'] = 'Vous n\'avez encore rien remis';
 $string['existingfiledeleted'] = 'Le fichier $a a été supprimé';
 $string['failedupdatefeedback'] = 'Impossible d\'enregistrer le feedback pour $a';
@@ -61,11 +61,11 @@ $string['maximumgrade'] = 'Note maximale';
 $string['maximumsize'] = 'Taille maximale';
 $string['modulename'] = 'Devoir';
 $string['modulenameplural'] = 'Devoirs';
-$string['namedeletefile'] = 'Vous allez supprimer ce fichier :';
+$string['namedeletefile'] = 'Vous allez supprimer ce fichier&nbsp;:';
 $string['newsubmissions'] = 'Devoirs rendus';
 $string['noassignments'] = 'Il n\'y a pas encore de devoir';
 $string['noattempts'] = 'Personne n\'a encore fait ce devoir';
-$string['nofilesforsubmit'] = 'Aucun fichier n\'est à remettre. En avez-vous vraiment déposé ?';
+$string['nofilesforsubmit'] = 'Aucun fichier n\'est à remettre. En avez-vous vraiment déposé&nbsp;?';
 $string['notgradedyet'] = 'Pas encore noté';
 $string['notsubmittedyet'] = 'Pas encore rendu';
 $string['onceassignmentsent'] = 'Une fois le devoir validé pour être noté, vous ne pourrez plus ni supprimer, ni joindre aucun fichier.';
@@ -74,17 +74,17 @@ $string['pagesize'] = 'Documents affichés par page';
 $string['preventlate'] = 'Empêcher les remises en retard';
 $string['quickgrade'] = 'Permettre évaluation rapide';
 $string['removelink'] = 'Retirer';
-$string['responsefile'] = 'Fichier en retour :';
+$string['responsefile'] = 'Fichier en retour&nbsp;:';
 $string['responsesfromteacher'] = 'Fichiers déposés par l\'enseignant';
 $string['saveallfeedback'] = 'Enregistrer tous mes feedbacks';
 $string['sendformarking'] = 'Valider pour notation';
-$string['step1'] = 'Étape 1 : ';
-$string['step2'] = 'Étape 2 : ';
+$string['step1'] = 'Étape 1&nbsp;: ';
+$string['step2'] = 'Étape 2&nbsp;: ';
 $string['submissionstatusblank'] = 'Vide';
 $string['submissionstatusdraft'] = 'Brouillon';
 $string['submissionstatusmarked'] = 'Noté';
 $string['submissionstatusreturned'] = 'Retourné';
-$string['submissionstatus'] = 'Statut du devoir :';
+$string['submissionstatus'] = 'Statut du devoir&nbsp;:';
 $string['submissionstatussubmitted'] = 'Remis';
 $string['submission'] = 'Devoir rendu';
 $string['submissionfeedback'] = 'Feedback du devoir';
@@ -104,8 +104,8 @@ $string['uploaderror'] = 'Une erreur est survenue lors de l\'enregistrement du f
 $string['uploadfailnoupdate'] = 'Le fichier a été correctement déposé, mais il n\'a pas été possible de mettre à jour votre devoir !';
 $string['uploadfiletoobig'] = 'Désolé, la taille de ce fichier est trop grande (taille maximale: $a octets)';
 $string['uploadnofilefound'] = 'Aucun fichier n\'a été trouvé. En avez-vous vraiment choisi un à déposer ?';
-$string['uploadnotregistered'] = '« $a » a été correctement déposé, mais votre devoir n\'a pu être enregistré !';
-$string['uploadsuccess'] = '« $a » a été correctement déposé';
+$string['uploadnotregistered'] = '«&nbsp;$a&nbsp;» a été correctement déposé, mais votre devoir n\'a pu être enregistré !';
+$string['uploadsuccess'] = '«&nbsp;$a&nbsp;» a été correctement déposé';
 $string['uploadsuccessresponse'] = 'Le fichier en retour a été déposé avec succès.';
 $string['viewfeedback'] = 'Afficher les notes et feedbacks des devoirs';
 $string['viewsubmissions'] = 'Afficher les $a devoirs rendus';
