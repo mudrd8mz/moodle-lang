@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006091901)
+      // admin.php - created with Moodle 1.7 dev (2006092410)
 
 
 $string['accounts'] = 'Hesaplar';
@@ -168,20 +168,19 @@ $string['dbmigratewarning2'] = '<b>Uyarı: Veritabanı çevirim işlemine başla
 $string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">Bu veritabanı UTF8 karakter kodlamasına çevrildi. Lütfen config.php dosyanızı düzenleyerek bu yeni veritabanını kullanın.</font>';
 $string['dbmigrationdupfailed'] = 'Veritabanı kopyalama bu hatayla son buldu:<font color=\"#ff0000\"><pre>$a</pre></font>';
 $string['dbsessions'] = 'Oturum bilgisi için veritabanı kullan';
-$string['debug'] = 'Hata ayıklama uyarıları';
-$string['debugall'] = 'E_ALL: Tüm uygun geribildirimleri göster';
-$string['debugerror'] = 'E_ERROR: Sadece sistemi engelleyen hataları göster';
+$string['debug'] = 'Hata ayıklama mesajları';
+$string['debugall'] = 'TÜMÜ: Tüm uygun geribildirimleri göster';
+$string['debugdeveloper'] = 'GELİŞTİRİCİ: Geliştiriciler için ek hata ayıklama mesajları';
 $string['debugging'] = 'Hata ayıklama';
-$string['debugnone'] = 'Herhangi hata ayıklama uyarısı gösterme';
-$string['debugnotice'] = 'E_NOTICE: Bilgi veren uyarıları göster';
-$string['debugparse'] = 'E_PARSE: Sözdizimsel hataları göster';
-$string['debugstrict'] = 'E_STRICT: Tümüyle herşeyi göster, hatta çok ufak hataları da';
-$string['debugwarning'] = 'E_WARNING: Sadece ciddi uyarıları göster';
+$string['debugminimal'] = 'EN AZ: Sadece ölümcül hataları göster';
+$string['debugnone'] = 'HİÇBİRİ: Herhangi hata ayıklama uyarısı gösterme';
+$string['debugnormal'] = 'NORMAL: Hataları, uyarıları ve bildirimleri göster';
 $string['defaultallowedmodules'] = 'İzin verilen modüller';
 $string['defaultcourseroleid'] = 'Bir kurstaki varsayılan kullanıcı rolü';
 $string['defaultrequestcategory'] = 'Kurs istekleri için varsayılan kategori';
 $string['defaultuserroleid'] = 'Tüm kullanıcılar için varsayılan rol';
 $string['deleteunconfirmed'] = 'Onay vermemiş kullanıcıları x gün sonra sil';
+$string['deleteuser'] = 'Kullanıcı sil';
 $string['density'] = 'Yoğunluk';
 $string['denyemailaddresses'] = 'Reddedilen eposta alan adları';
 $string['digestmailtime'] = 'Özet eposta gönderimi için saat';
@@ -337,6 +336,11 @@ $string['remotelangnotavailable'] = 'download.moodle.org adresine bağlantı kur
 $string['renameerrors'] = 'Yeniden adlandırmada hata';
 $string['restrictbydefault'] = 'Varsayılan modül sınırlaması';
 $string['restrictmodulesfor'] = 'Modülleri sınırla';
+$string['riskconfig'] = 'Kullanıcılar, site yapılandırmasını ve davranışını değiştirebilir';
+$string['riskmanagetrust'] = 'Kullanıcılar, diğer kullanıcıların güvenilirlik ayarlarını değiştirebilir';
+$string['riskpersonal'] = 'Kullanıcılar, diğer kullanıcıların özel bilgilerine erişebilir';
+$string['riskspam'] = 'Kullanıcılar, site kullanıcılarına veya diğerlerine spam gönderebilir';
+$string['riskxss'] = 'Kullanıcılar, cross-site scripting (XSS) izni verilerek dosya ve metin ekleyebilirler';
 $string['runclamavonupload'] = 'Yüklenen dosyalarla ClamAV kullan';
 $string['savechanges'] = 'Değişiklikleri Kaydet';
 $string['secureforms'] = 'Ek form güvenliği kullan';

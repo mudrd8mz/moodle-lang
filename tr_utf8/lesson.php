@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006091901)
+      // lesson.php - created with Moodle 1.7 dev (2006092410)
 
 
 $string['accesscontrol'] = 'Erişim kontrolü';
@@ -130,6 +130,8 @@ $string['jumps'] = 'Gider';
 $string['jumpsto'] = 'Gider: <em>$a</em>';
 $string['leftduringtimed'] = 'Zamanlı bir dersin süresini aştınız.<br />Dersi tekrar başlatmak için Devam Et butonuna tıklayın.';
 $string['leftduringtimednoretake'] = 'Zamanlı bir dersin süresini aştınız.<br />Dersi tekrar alamaz veya derse devam edemezsiniz.';
+$string['lesson:edit'] = 'Ders etkinliğini düzenle';
+$string['lesson:manage'] = 'Ders etkinliğini yönet';
 $string['lessonclosed'] = 'Bu ders $a tarihinde kapandı.';
 $string['lessoncloses'] = 'Ders kapanacak';
 $string['lessondefault'] = 'Bu dersin ayarlarını varsayılan olarak kullan';

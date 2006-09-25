@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.6 development (2005101200)
+      // lams.php - created with Moodle 1.7 dev (2006092410)
 
 
 $string['createSequence'] = 'Yeni sahne oluştur';
@@ -7,6 +7,8 @@ $string['editSequence'] = 'Seçili sahneyi düzenle';
 $string['error'] = 'Üzgünüz, bilinmeyen bir hata oluştu.';
 $string['introduction'] = 'Tanıtım';
 $string['lams'] = '-- LAMS - Öğrenme Etkinliği Yönetim Sistemi --';
+$string['lams:manage'] = 'LAMS etkinliklerini yönet';
+$string['lams:participate'] = 'LAMS etkinliklerine katıl';
 $string['lamsoutline'] = 'LAMS Taslağı';
 $string['lesson'] = 'öğrenme oturumu';
 $string['modulename'] = 'LAMS';

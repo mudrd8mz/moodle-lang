@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006091901)
+      // moodle.php - created with Moodle 1.7 dev (2006092410)
 
 
 $string['action'] = 'Eylem';
@@ -1184,26 +1184,25 @@ $string['statsmodegeneral'] = 'Genel görünüm';
 $string['statsnodata'] = 'Kursun birleşimi ve zaman periyodu için erişilebilir veri yok.';
 $string['statsnodatauser'] = 'Kursun birleşimi, kullanıcı ve zaman periyodu için erişilebilir veri yok.';
 $string['statsoff'] = 'İstatistikler şu anda etkinleştirilmemiş';
+$string['statsreads'] = 'Bakmalar';
 $string['statsreport1'] = 'Girişler';
 $string['statsreport10'] = 'Kullanıcı etkinliği';
 $string['statsreport11'] = 'En etkin kurslar';
 $string['statsreport12'] = 'En etkin kurslar (ağırlıklı)';
-$string['statsreport13'] = 'Katılımcısı en çok olan kurslar (ders kayıtları)';
-$string['statsreport14'] = 'Katılımcısı en çok olan kurslar (bakmalar/gönderiler)';
-$string['statsreport2'] = 'Bakmalar (eğitimci ve öğrenci)';
-$string['statsreport3'] = 'Gönderiler (eğitimci ve öğrenci)';
-$string['statsreport4'] = 'Tüm etkinlikler (eğitimci ve öğrenci)';
-$string['statsreport5'] = 'Tüm öğrenci etkinliği (bakma ve gönderiler)';
-$string['statsreport6'] = 'Tüm eğitimci etkinliği (bakma ve gönderiler)';
+$string['statsreport13'] = 'En çok olan katılımcısı olan kurslar (ders kayıtları)';
+$string['statsreport14'] = 'En çok olan katılımcısı olan kurslar (bakmalar/gönderiler)';
+$string['statsreport2'] = 'Bakmalar (tüm roller)';
+$string['statsreport3'] = 'Gönderiler (tüm roller)';
+$string['statsreport4'] = 'Tüm etkinlikler (tüm roller)';
+$string['statsreport5'] = 'Tüm etkinlikler (bakma ve gönderiler)';
 $string['statsreport7'] = 'Kullanıcı etkinliği (bakma ve gönderiler)';
 $string['statsreport8'] = 'Tüm Kullanıcı etkinliği';
 $string['statsreport9'] = 'Girişler (site geneli)';
-$string['statsreportactivity'] = 'Tüm etkinlik (eğitimci ve öğrenci)';
+$string['statsreportactivity'] = 'Tüm etkinlik (tüm roller)';
+$string['statsreportactivitybyrole'] = 'Tüm etkinlik (bakma ve gönderiler)';
 $string['statsreportforuser'] = ':';
 $string['statsreportlogins'] = 'Girişler';
 $string['statsreportreads'] = 'Bakmalar (eğitimci ve öğrenci)';
-$string['statsreportstudentactivity'] = 'Tüm öğrenci etkinliği (bakma ve gönderiler)';
-$string['statsreportteacheractivity'] = 'Tüm eğitimci etkinliği (bakma ve gönderiler)';
 $string['statsreporttype'] = 'Rapor tipi';
 $string['statsreportwrites'] = 'Gönderiler (eğitimci ve öğrenci)';
 $string['statsstudentactivity'] = 'Öğrenci etkinliği';
@@ -1218,6 +1217,7 @@ $string['statsuseractivity'] = 'Tüm etkinlik';
 $string['statsuserlogins'] = 'Girişleri';
 $string['statsuserreads'] = 'Görmeleri';
 $string['statsuserwrites'] = 'Gönderileri';
+$string['statswrites'] = 'Gönderiler';
 $string['status'] = 'Durum';
 $string['strftimedate'] = '%%d %%B %%Y';
 $string['strftimedateshort'] = '%%d %%B';
@@ -1241,8 +1241,10 @@ $string['success'] = 'Başarılı';
 $string['summary'] = 'Özet';
 $string['summaryof'] = '$a özeti';
 $string['supplyinfo'] = 'Lütfen kendiniz hakkında biraz bilgi verin';
+$string['switchrolereturn'] = 'Normal rolüme dön';
+$string['switchroleto'] = 'Rol değiştir';
 $string['tag'] = 'Etiket';
-$string['tagmanagement'] = 'Etiket ekle/sil ...';
+$string['tagmanagement'] = 'Etiket ekle/sil';
 $string['tags'] = 'Etiketler';
 $string['teacheronly'] = 'sadece $a için';
 $string['teacherroles'] = '$a rolleri';

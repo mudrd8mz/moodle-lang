@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006091901)
+      // error.php - created with Moodle 1.7 dev (2006092410)
 
 
 $string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
@@ -11,6 +11,8 @@ $string['cannotfindcomponent'] = 'Bileşen bulunamadı.';
 $string['cannotsavemd5file'] = 'Md5 dosyadı kaydedilemedi.';
 $string['cannotsavezipfile'] = 'ZIP dosyası kaydedilemedi.';
 $string['cannotunzipfile'] = 'Dosya arşivi açılamadı.';
+$string['cantunenrollfrommetacourse'] = 'Bu meta kurstan kaydınızı silemezsiniz.';
+$string['cantunenrollinthisrole'] = 'Şimdiki rolünüzle kurstan kaydınızı silemezsiniz.';
 $string['cmunknown'] = 'Bu kurs modülü bulunamadı';
 $string['componentisuptodate'] = 'Bileşen günceldir.';
 $string['confirmsesskeybad'] = 'Üzgünüz, oturum anahtarınız bu eylemi gerçekleştirmek için onaylanamadı. Bu güvenlik özelliği, sizin adınıza yapılacak olan önemli işlevlerin yanlışlıkla ya da kasten kullanılmasını engellemek içindir. Lütfen bu işlevi gerçekten yapmak istediğinizden emin olun.';

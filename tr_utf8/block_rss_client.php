@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.7 dev (2006091212)
+      // block_rss_client.php - created with Moodle 1.7 dev (2006092410)
 
 
 $string['addfeed'] = 'Haber içeriği URL:';
 $string['addheadlineblock'] = 'RSS başlık bloğu ekle';
 $string['addnew'] = 'Yeni Ekle';
+$string['blockname'] = 'RSS İstemcisi';
 $string['choosefeedlabel'] = 'Bu blokta hangi içeriklerin etkin olacağını seçin:';
 $string['clientchannellink'] = 'Kaynak site...';
 $string['clientnumentries'] = 'Her bir içerikte görünen varsayılan kayıt sayısı';
@@ -31,6 +32,10 @@ $string['managefeeds'] = 'Tüm içeriklerimi yönet';
 $string['nofeeds'] = 'Bu site için tanımlanmış hiç RSS içeriği yok';
 $string['pickfeed'] = 'Bir haber içeriği seç';
 $string['remotenewsfeed'] = 'Haber İçerikleri';
+$string['rss_client:createprivatefeeds'] = 'Gizli RSS içerikleri oluştur';
+$string['rss_client:createsharedfeeds'] = 'Paylaşılan RSS içerikleri oluştur';
+$string['rss_client:manageanyfeeds'] = 'Tüm RSS içeriklerini yönet';
+$string['rss_client:manageownfeeds'] = 'Kendine ait RSS içeriklerini yönet';
 $string['seeallfeeds'] = 'Tüm içeriklere bak';
 $string['sharedfeed'] = 'Paylaşılan içerik';
 $string['shownumentrieslabel'] = 'Her bir blokta görünen max kayıt sayısı';

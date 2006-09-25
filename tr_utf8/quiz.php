@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006091901)
+      // quiz.php - created with Moodle 1.7 dev (2006092410)
 
 
 $string['1day'] = '1 Gün';
@@ -365,6 +365,13 @@ $string['questionsperpage'] = 'Her sayfadaki max soru sayısı';
 $string['questiontext'] = 'Soru metni';
 $string['questiontype'] = 'Soru tipi $a';
 $string['questiontypesetupoptions'] = 'Soru tipleri için seçenekleri ayarla';
+$string['quiz:attempt'] = 'Sınavları uygula';
+$string['quiz:deleteattempts'] = 'Sınav uygulamalarını sil';
+$string['quiz:grade'] = 'Uygulamalara gözat';
+$string['quiz:manage'] = 'Uygulamaları yönet';
+$string['quiz:preview'] = 'Uygulamalara gözat';
+$string['quiz:view'] = 'Sınav bilgisine bak';
+$string['quiz:viewreports'] = 'Sınav raporlarına bak';
 $string['quizavailable'] = 'Sınav şu tarihe kadar açıktır: $a';
 $string['quizclose'] = 'Sınavı kapat';
 $string['quizclosed'] = 'Bu sınav $a tarihinde kapandı';

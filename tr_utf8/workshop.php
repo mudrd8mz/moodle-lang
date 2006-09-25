@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.6.1 (2006050510)
+      // workshop.php - created with Moodle 1.7 dev (2006092410)
 
 
 $string['absent'] = 'Yok';
@@ -306,6 +306,8 @@ $string['weightforteacherassessments'] = 'Eğitimci değerlendirmeleri için ağ
 $string['weights'] = 'Ağırlıklar';
 $string['weightsusedforfinalgrade'] = 'Final Notu için kullanılan Ağırlık';
 $string['weightsusedforsubmissions'] = 'Sunumlar için kullanılan Ağırlık';
+$string['workshop:manage'] = 'Ayarları yönet';
+$string['workshop:participate'] = 'Çalıştaya katıl';
 $string['workshopagreedassessments'] = 'Çalıştayda Kabul Edilen Değerlendirmeler';
 $string['workshopassessments'] = 'Çalıştay Değerlendirmeleri';
 $string['workshopcomments'] = 'Çalıştay Yorumları';

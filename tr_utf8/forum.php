@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006081000)
+      // forum.php - created with Moodle 1.7 dev (2006092410)
 
 
 $string['addanewdiscussion'] = 'Yeni tartışma konusu ekle';
@@ -46,6 +46,7 @@ $string['disallowsubscribe'] = 'Abonelik izni yok';
 $string['disallowsubscribeteacher'] = 'Abonelik izni yok (eğitimciler hariç)';
 $string['discussion'] = 'Tartışma';
 $string['discussionmoved'] = 'Bu tartışma \'$a\'a taşındı.';
+$string['discussionmovedpost'] = '<a href=\"$a->forumhref\">$a->forumname</a> forumundaki bu konu <a href=\"$a->discusshref\">buraya</a> taşındı';
 $string['discussionname'] = 'Tartışma adı';
 $string['discussions'] = 'Tartışmalar';
 $string['discussionsstartedby'] = '$a tarafından başlatılan tartışmalar';
@@ -71,13 +72,13 @@ $string['forum:deleteownpost'] = 'Mesajları sil (son süreye kadar)';
 $string['forum:editanypost'] = 'Mesajları düzenle';
 $string['forum:managesubscriptions'] = 'Abonelikleri yönet';
 $string['forum:movediscussions'] = 'Tartışmaları taşı';
+$string['forum:nothrottling'] = 'Kısma yok';
 $string['forum:rate'] = 'Mesajları derecelendir';
 $string['forum:replypost'] = 'Mesajlara cevap ver';
 $string['forum:splitdiscussions'] = 'Tartışmaları ayır';
 $string['forum:startdiscussion'] = 'Yeni tartışma başlat';
 $string['forum:viewanyrating'] = 'Derecelendirmelere bak';
 $string['forum:viewdiscussion'] = 'Tartışmalara bak';
-$string['forum:viewforum'] = 'Foruma bak';
 $string['forum:viewhiddentimedposts'] = 'Gizli zamanlı mesajlara bak';
 $string['forum:viewqandawithoutposting'] = 'Herzaman Soru ve Cevaplara bak';
 $string['forum:viewrating'] = 'Derecelendirmelere bak';
@@ -90,6 +91,8 @@ $string['forumname'] = 'Forum adı';
 $string['forumposts'] = 'Forum mesajları';
 $string['forums'] = 'Forumlar';
 $string['forumsubjecthidden'] = 'Konu (gizli)';
+$string['forumtracked'] = 'İzlenen okunmamış mesajlar';
+$string['forumtrackednot'] = 'İzlenmeyen okunmamış mesajlar';
 $string['forumtype'] = 'Forum türü';
 $string['generalforum'] = 'Genel amaçlı standart forum';
 $string['generalforums'] = 'Genel forumlar';
@@ -135,6 +138,7 @@ $string['nosubscribers'] = 'Bu forumun henüz bir abonesi yoktur';
 $string['nothingnew'] = '$a için yeni bir şey yok';
 $string['notingroup'] = 'Üzgünüz, bu forumu görebilmeniz için üyesi olmalısınız.';
 $string['notrackforum'] = 'Okunmamış mesajları İZLEME';
+$string['noviewdiscussionspermission'] = 'Bu forumdaki tartışmaları görmek için yeterli izne sahip değilsiniz';
 $string['nowallsubscribed'] = '$a\'daki bütün forumlara abone olundu.';
 $string['nowallunsubscribed'] = '$a\'daki hiçbir foruma abone olunmadı.';
 $string['nownotsubscribed'] = '$a->name, \'$a->forum\' başlıklı forumun kopyasını e-postayla ALMAYACAKTIR.';
