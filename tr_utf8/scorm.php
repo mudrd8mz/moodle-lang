@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 dev (2006081000)
+      // scorm.php - created with Moodle 1.7 dev (2006092410)
 
 
 $string['advanced'] = 'Parametreler';
@@ -100,8 +100,9 @@ $string['review'] = 'Önizleme';
 $string['reviewmode'] = 'Önizleme Modu';
 $string['scoes'] = 'Öğrenme Nesneleri';
 $string['score'] = 'Puan';
-$string['scorm:view'] = 'İçeriğe bak';
-$string['scorm:viewgrades'] = 'Notlara bak';
+$string['scorm:savetrack'] = 'İzlemeleri kaydet';
+$string['scorm:viewreport'] = 'Raporlara bak';
+$string['scorm:viewscores'] = 'Notlara bak';
 $string['scormcourse'] = 'Öğrenme Kursu';
 $string['scrollbars'] = 'Kaydırma çubuğuna izin ver';
 $string['sided'] = 'Sol tarafta';

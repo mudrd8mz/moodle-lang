@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6 Beta 5 (2006050503)
+      // wiki.php - created with Moodle 1.7 dev (2006092410)
 
 
 $string['action'] = '-- Eylem --';
@@ -166,6 +166,8 @@ $string['versionstodelete'] = 'Silinecek sürüm(ler)';
 $string['viewpage'] = 'Sayfaya Bak';
 $string['viewsmfor'] = 'Site haritasına bak:';
 $string['wantedpages'] = 'İstenen Sayfalar';
+$string['wiki:manage'] = 'Wiki ayarlarını yönet';
+$string['wiki:participate'] = 'Wiki sayfalarını düzenle';
 $string['wikidefaultpagename'] = 'WikiBaşlangıç';
 $string['wikiexport'] = 'Sayfaları çıkar';
 $string['wikilinkoptions'] = 'Otomatik-linkleme seçenekleri';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006091901)
+      // role.php - created with Moodle 1.7 dev (2006092410)
 
 
 $string['addrole'] = 'Yeni rol ekle';
@@ -34,16 +34,25 @@ $string['course:reset'] = 'Kursu temizle';
 $string['course:sectionvisibility'] = 'Bölüm gizliliğini değiştir';
 $string['course:setcurrentsection'] = 'Şimdiki bölümü ayarla';
 $string['course:update'] = 'Kurs ayarlarını güncelle';
+$string['course:useremail'] = 'E-posta adresini etkinleştirip pasifleştirebilir';
 $string['course:view'] = 'Kurslara bak';
 $string['course:viewcoursegrades'] = 'Kurs notlarına bak';
 $string['course:viewhiddenactivities'] = 'Gizli etkinliklere bak';
+$string['course:viewhiddencourses'] = 'Gizli kurslara bak';
 $string['course:viewhiddensections'] = 'Gizli bölümlere bak';
+$string['course:viewhiddenuserfields'] = 'Gizli kullanıcı bilgilerine bak';
 $string['course:viewparticipants'] = 'Katılımcılara bak';
 $string['course:viewscales'] = 'Ölçeklere bak';
 $string['course:visibility'] = 'Kursları gizle/göster';
 $string['currentcontext'] = 'Geçerli bağlam';
 $string['currentrole'] = 'Geçerli rol';
 $string['defineroles'] = 'Rolleri tanımla';
+$string['deleterolesure'] = '<p>\"$a->name ($a->shortname)\" rolünü silmek istediğinizden emin misiniz?</p><p>Şu anda bu role $a->count kullanıcı atanmış durumda.</p>';
+$string['editrole'] = 'Rolü düzenle';
+$string['errorbadrolename'] = 'Hatalı rol adı';
+$string['errorbadroleshortname'] = 'Hatalı rol adı';
+$string['errorexistsrolename'] = 'Rol adı zaten var';
+$string['errorexistsroleshortname'] = 'Rol adı zaten var';
 $string['existingusers'] = '$a mevcut kullanıcı';
 $string['inherit'] = 'Devral';
 $string['legacy:admin'] = 'DEVRALINAN ROL: Yönetici';
@@ -52,7 +61,7 @@ $string['legacy:editingteacher'] = 'DEVRALINAN ROL: Eğitimci (düzenleyen)';
 $string['legacy:guest'] = 'DEVRALINAN ROL: Konuk';
 $string['legacy:student'] = 'DEVRALINAN ROL: Öğrenci';
 $string['legacy:teacher'] = 'DEVRALINAN ROL: Eğitimci (düzenlemeyen)';
-$string['listallroles'] = 'Tüm rolleri listele...';
+$string['listallroles'] = 'Tüm rolleri listele';
 $string['manageroles'] = 'Rolleri yönet';
 $string['metaassignerror'] = 'Metakurs yönetim yetkisi gerekli olduğundan dolayı \"$a\" kullanıcısına bu rol atanamadı.';
 $string['metaunassignerror'] = '\"$a\" kullanısının rolü otomatikmen yeniden atandı, lütfen bunun yerine alt kurstaki rolü kaldırın.';
@@ -71,32 +80,39 @@ $string['risks'] = 'Riskler';
 $string['role:assign'] = 'Kullanıcılara rol ata';
 $string['role:manage'] = 'Rolleri oluştur ve yönet';
 $string['role:override'] = 'Diğerleri için izinlerin üstüne yaz';
+$string['role:switchroles'] = 'Diğer rollere geçiş yap';
 $string['role:unassignself'] = 'Kendi rolünü kaldır';
-$string['roledescription'] = 'Rol açıklaması';
-$string['rolename'] = 'Rol adı';
+$string['role:viewhiddenassigns'] = 'Gizli rol atamalarına bak';
+$string['roleassignments'] = 'Rol atamaları';
 $string['roles'] = 'Roller';
-$string['roleshortname'] = 'Rolün kısa adı (ASCII)';
 $string['roletoassign'] = 'Atanacak rol';
 $string['roletooverride'] = 'Tekrar tanımlanacak rol';
 $string['selectrole'] = 'Bir rol seçin';
 $string['site:accessallgroups'] = 'Tüm gruplara eriş';
+$string['site:approvecourse'] = 'Kurs oluşturmayı onayla';
 $string['site:backup'] = 'Kursları yedekle';
 $string['site:config'] = 'Site yapılandırmasını değiştir';
 $string['site:doanything'] = 'Her şeyi yapmasına izin ver';
 $string['site:doclinks'] = 'Site dışı belgelere bağlantıları göster';
 $string['site:import'] = 'Bir kursu başka bir kursa yükle';
 $string['site:manageblocks'] = 'Site seviyesindeki blokları yönet';
+$string['site:readallmessages'] = 'Sitedeki tüm mesajları oku';
 $string['site:restore'] = 'Kursları geri yükle';
 $string['site:trustcontent'] = 'Gönderilen içeriğe güven';
+$string['site:uploadusers'] = 'Dosyadan yeni kullanıcı yükle';
 $string['site:viewfullnames'] = 'Kullanıcıların tam isimlerini gör';
+$string['site:viewparticipants'] = 'Katılımcılara bak';
 $string['site:viewreports'] = 'Raporlara bak';
 $string['user:create'] = 'Kullanıcı oluştur';
 $string['user:delete'] = 'Kullanıcı sil';
+$string['user:editprofile'] = 'Kullanıcı profilini düzenle';
 $string['user:readuserblogs'] = 'Tüm kullanıcı bloglarına bak';
 $string['user:readuserposts'] = 'Tüm kullanıcı mesajlarına bak';
 $string['user:update'] = 'Kullanıcı profillerini güncelle';
 $string['user:viewdetails'] = 'Kullanıcı profillerine bak';
+$string['user:viewhiddendetails'] = 'Kullanıcıların ayrıntılı gizli bilgilerine bak';
 $string['user:viewuseractivitiesreport'] = 'Kullanıcı etkinlik raporlarına bak';
 $string['user:viewusergrades'] = 'Kullanıcı notlarına bak';
+$string['viewrole'] = 'Rol ayrıntılarına bak';
 
 ?>
