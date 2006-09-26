@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 dev (2006092410)
+      // resource.php - created with Moodle 1.7 dev (2006092600)
 
 
 $string['addresource'] = 'リソースを追加する';
@@ -119,7 +119,7 @@ $string['upbutton'] = 'UP';
 $string['variablename'] = '変数名';
 $string['viewims'] = 'IMS学習者情報パッケージの表示';
 $string['vol'] = 'Vol';
-$string['warningblockingdelete'] = '警告: 削除処理は既存のリソースによりブロックされています。あなたのリソースを最初に更新するか、リソースモジュールの管理画面で、このセーフティーメカニズムを無効にしてください。';
-$string['warningdisabledrename'] = '警告: リソースにおける参照の自動リネームは無効にされています。必要に応じて、影響を受けるリソースを手動で更新してください。自動リネームは、リソースモジュールの管理画面で有効にすることができます。';
+$string['warningblockingdelete'] = '警告: 削除処理は既存のリソースによりブロックされています。あなたのリソースを最初に更新するか、管理者に依頼して、リソースモジュールの管理画面で、このセーフティーメカニズムを無効にしてください。';
+$string['warningdisabledrename'] = '警告: リソースにおける参照の自動リネームは無効にされています。必要に応じて、影響を受けるリソースを手動で更新してください。自動リネームは、管理者がリソースモジュールの管理画面で有効にすることもできます。';
 
 ?>
