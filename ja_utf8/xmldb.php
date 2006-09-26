@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 dev (2006092410)
+      // xmldb.php - created with Moodle 1.7 dev (2006092600)
 
 
 $string['aftertable'] = '次のテーブルの後:';
@@ -57,7 +57,7 @@ $string['missingfieldsinsentence'] = 'センテンスのフィールドが見つ
 $string['missingvaluesinsentence'] = 'センテンスの値が見つかりません。';
 $string['mustselectonefield'] = 'フィールドに関連した処理を見るには、フィールドを選択してください!';
 $string['mustselectoneindex'] = 'インデックスに関連した処理を見るには、インデックスを選択してください!';
-$string['mustselectonekey'] = 'キーに関連した処理を見るには、フィールドを選択してください!';
+$string['mustselectonekey'] = 'キーに関連した処理を見るには、キーを選択してください!';
 $string['new_statement'] = '新しいステートメント';
 $string['new_table_from_mysql'] = 'MySQLから新しいテーブル';
 $string['newfield'] = '新しいフィールド';
