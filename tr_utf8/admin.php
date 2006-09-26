@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006092410)
+      // admin.php - created with Moodle 1.7 dev (2006092600)
 
 
 $string['accounts'] = 'Hesaplar';
@@ -200,6 +200,7 @@ $string['editstrings'] = 'İfadeleri düzenle';
 $string['enablecourserequests'] = 'Kurs isteklerini etkinleştir';
 $string['enablerssfeeds'] = 'RSS içeriklerini etkinleştir';
 $string['enablestats'] = 'İstatistikleri etkinleştir';
+$string['enabletrusttext'] = 'Güvenli İçeriği Etkinleştir';
 $string['environment'] = 'Ortam';
 $string['environmenterrortodo'] = 'Bu Moodle sürümünü kurmaya başlamadan önce yukarıda bulunan bütün ortam sorunlarını (hatalarını) çözmeniz gerekiyor!';
 $string['environmentrecommendinstall'] = 'yüklenmesi/etkinleştirilmesi tavsiye edilir';
@@ -390,6 +391,7 @@ $string['unbookmarkthispage'] = 'yer imlerinden kaldır';
 $string['unicodeupgradenotice'] = 'Moodle 1.6\'da bütün dilleri UNICODE çevirdik. Bu sitede güncellemeyi tamamlamak ve veritabanınızdaki bütün verileri UNICODE çevirmek için <a href=\"utfdbmigrate.php\">Çevirme Betiğini Şimdi Çalıştırın</a>!';
 $string['uninstall'] = 'Seçili dili kaldır';
 $string['uninstallconfirm'] = 'Dil Paketini ($a) tamamen kaldırmak üzeresiniz, emin misiniz?';
+$string['unsupported'] = 'Desteklenmez';
 $string['updateaccounts'] = 'Var olan hesapları güncelle';
 $string['updatecomponent'] = 'Bileşen Güncelle';
 $string['updatelangs'] = 'Tüm dil paketlerini güncelle';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.7 dev (2006092410)
+      // wiki.php - created with Moodle 1.7 dev (2006092600)
 
 
 $string['action'] = '-- Eylem --';
@@ -92,6 +92,7 @@ $string['linkok'] = 'TAMAM';
 $string['linkschecked'] = 'Bağlantılar kontrol edildi';
 $string['listall'] = 'Tümünü listele';
 $string['listcandidates'] = 'Adayları göster';
+$string['lockcancelled'] = 'Başka birisi şu anda bu sayfayı dezenlediğinden dolayı düzenleme kilidiniz geçersiz kılındı. Değişikliklerinizi saklamak istiyorsanız lütfen İptal\'e basmadan önce metni seçin ve kopyalayın; daha sonra yeniden düzenlemeyi deneyin.';
 $string['meta'] = 'Meta verisi';
 $string['moduledirectory'] = 'Modül Dizini';
 $string['modulename'] = 'Wiki';
@@ -112,10 +113,13 @@ $string['optional'] = 'İsteğe bağlı';
 $string['orphanedpage'] = 'Yalnız sayfa';
 $string['orphanedpages'] = 'Yalnız sayfalar';
 $string['otherwikis'] = 'Diğer Wikiler';
+$string['overridebutton'] = 'Kilidi geçersiz kıl';
+$string['overrideinfo'] = 'Bu kullanıcının kilidini geçersiz kılabilirsiniz; ancak bunu yapmanız kullanıcının yaptığı değişiklikleri kaybetmesine sebep olacaktır! Lütfen dikkatli olun.';
 $string['ownerunknown'] = 'bilinmiyor';
 $string['pageactions'] = 'Sayfa eylemleri';
 $string['pageindex'] = 'Sayfa Dizini';
 $string['pageinfo'] = 'Sayfa bilgisi';
+$string['pagelocked'] = '<p><strong>Bu sayfa şu anda $a->name tarafından düzenleniyor.</strong>Düzenmeye $a->since tarihinde başladı ve pencere $a->seen hala açık.</p><p>Bu sayfayı düzenlemeye başlamadan önce bu kişiyi beklemek durumundasınız.</p>';
 $string['pagename'] = 'Sayfa adı';
 $string['pagenamechoice'] = '- veya -';
 $string['pageslinkingto'] = 'Bu sayfaya baglantılar';
@@ -126,6 +130,8 @@ $string['plaintext'] = 'Düz Yazı';
 $string['preview'] = 'Önizleme';
 $string['readonly'] = 'Sadece okunabilir sayfa';
 $string['refs'] = 'Referanslar';
+$string['reloadlinkdescription'] = 'Sayfayı yeniden yükler ve böylece yeni içerik gösterilir.';
+$string['reloadlinktext'] = 'Bu sayfayı yeniden yükle';
 $string['removepagecheck'] = 'Bu sayfaları silmek istediğinizden emin misiniz?';
 $string['removepages'] = 'Sayfaları sil';
 $string['removeselectedpages'] = 'Seçili sayfaları sil';
@@ -167,6 +173,7 @@ $string['viewpage'] = 'Sayfaya Bak';
 $string['viewsmfor'] = 'Site haritasına bak:';
 $string['wantedpages'] = 'İstenen Sayfalar';
 $string['wiki:manage'] = 'Wiki ayarlarını yönet';
+$string['wiki:overridelock'] = 'Kilidi geçersiz kıl';
 $string['wiki:participate'] = 'Wiki sayfalarını düzenle';
 $string['wikidefaultpagename'] = 'WikiBaşlangıç';
 $string['wikiexport'] = 'Sayfaları çıkar';

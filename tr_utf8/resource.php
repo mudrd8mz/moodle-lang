@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 dev (2006081000)
+      // resource.php - created with Moodle 1.7 dev (2006092600)
 
 
 $string['addresource'] = 'Kaynak ekle';
+$string['affectedresources'] = 'Etkilenen kaynaklar';
 $string['back'] = 'Geri';
 $string['browserepository'] = 'Ambara gözat';
 $string['choose'] = 'Seç';

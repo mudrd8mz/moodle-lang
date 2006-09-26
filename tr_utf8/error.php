@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006092410)
+      // error.php - created with Moodle 1.7 dev (2006092600)
 
 
 $string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
@@ -37,6 +37,7 @@ $string['invalidcourse'] = 'Geçersiz kurs';
 $string['invalidfieldname'] = '\"$a\" geçerli bir alan adı değil';
 $string['invalidfiletype'] = '\"$a\" geçerli bir dosya tipi değil';
 $string['invalidmd5'] = 'Geçersiz md5';
+$string['invalidrole'] = 'Geçersiz rol';
 $string['invalidxmlfile'] = '\"$a\" geçerli bir XML dosyası değil';
 $string['missingfield'] = '\"$a\" alanı eksik';
 $string['missingrequiredfield'] = 'Bazı gerekli alanlar eksik';
