@@ -14,6 +14,7 @@ $string['createnewusers'] = 'Créer des comptes utilisateur pour les utilisateur
 $string['deleteusers'] = 'Supprimer les comptes utilisateurs comme spécifié dans les données IMS';
 $string['fixcaseusernames'] = 'Mettre les noms d\'utilisateur en minuscules';
 $string['fixcasepersonalnames'] = 'Mettre en majuscules les initiales des noms réels';
+$string['imsrolesdescription'] = 'La spécification IMS Enterprise inclut 8 types de rôles distincts. Veuillez choisir comment vous désirez que ces rôles soient attribués dans Moodle, y compris ceux que vous désirez ignorer.';
 $string['truncatecoursecodes'] = 'Tronquer les codes de cours à cette longueur';
 $string['createnewcourses'] = 'Créer de nouveaux cours (cachés) si inexistants dans Moodle';
 $string['createnewcategories'] = 'Créer de nouvelles catégories de cours (cachées) si inexistantes dans Moodle';
