@@ -35,6 +35,7 @@ $string['invalidcourse'] = 'Cours non valide';
 $string['invalidfieldname'] = '«&nbsp;$a&nbsp;» n\'est pas un nom de champ valide';
 $string['invalidfiletype'] = '«&nbsp;$a&nbsp;» n\'est pas un type de fichier valide';
 $string['invalidmd5'] = 'Code md5 non valide';
+$string['invalidrole'] = 'Rôle non valide';
 $string['invalidxmlfile'] = '«&nbsp;$a&nbsp;» n\'est pas un fichier XML valide';
 $string['missingfield'] = 'Le champ «&nbsp;$a&nbsp;» est manquant';
 $string['missingrequiredfield'] = 'Un champ obligatoire n\'est pas renseigné';
