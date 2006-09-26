@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006092100)
+      // forum.php - created with Moodle 1.7 dev (2006092410)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -170,7 +170,7 @@ $string['postrating1'] = '主に分離認識の傾向がある';
 $string['postrating2'] = '分離認識と関連認識を同等に持っている';
 $string['postrating3'] = '主に関連認識の傾向がある';
 $string['posts'] = '投稿';
-$string['posttoforum'] = 'フォーラムに投稿';
+$string['posttoforum'] = 'フォーラムに投稿する';
 $string['postupdated'] = '投稿が更新されました。';
 $string['potentialsubscribers'] = '潜在的メール購読ユーザ';
 $string['processingdigest'] = '$a のメールダイジェストを処理中';
