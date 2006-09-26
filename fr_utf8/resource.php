@@ -1,12 +1,15 @@
 <?php // $Id$ 
 
 $string['addresource'] = 'Ajouter une ressource';
+$string['affectedresources'] = 'Ressources touchées';
 $string['back'] = 'Retour';
 $string['browserepository'] = 'Consulter le répertoire';
 $string['choose'] = 'Choisir';
 $string['chooseafile'] = 'Choisir ou déposer un fichier';
 $string['chooseparameter'] = 'Choisir un paramètre';
 $string['configallowlocalfiles'] = 'Lors de la création d\'une nouvelle ressource de type fichier, permettre des liens vers les fichiers disponibles sur un système de fichiers local, par exemple sur un CD ou sur un disque dur. Cela peut être utile dans une classe où tous les étudiants ont accès a un volume réseau commun ou si des fichiers sur un CD sont nécessaires. Il est possible que l\'utilisation de cette fonctionnalité requière une modification des réglages de sécurité de votre navigateur.';
+$string['configautofilerenamesettings'] = 'Mettre à jour automatiquement les références vers d\'autres fichiers et dossiers lors d\'un changement de nom dans la gestion des fichiers.';
+$string['configblockdeletingfilesettings'] = 'Empêcher la suppression de fichiers et dossiers référencés par des ressources. Veuillez noter que les images et autres fichiers référencés dans le code HTML ne sont pas protégés par ce réglage.';
 $string['configdefaulturl'] = 'Ce champ permet de pré-remplir le champ de l\'URL qui apparaît lors de la création d\'une ressource de type URL.';
 $string['configfilterexternalpages'] = 'L\'activation de ce réglage permettra le filtrage des ressources externes (pages web, fichiers HTML déposés) par les filtres définis dans le site (comme les liens des glossaires). Lorsque ce réglage est actif, l\'affichage de vos pages sera ralenti de façon sensible. À utiliser avec précaution.';
 $string['configframesize'] = 'Quand une page web ou un fichier est affiché dans un cadre (frame), cette valeur indique (en pixels) la taille du cadre contenant la navigation (en haut de la fenêtre).';
@@ -105,6 +108,8 @@ $string['upbutton'] = 'Niveau supérieur';
 $string['variablename'] = 'Nom de la variable';
 $string['viewims'] = 'Visualiser le contenu du fichier IMS';
 $string['vol'] = 'Vol';
+$string['warningblockingdelete'] = 'Attention&nbsp;: la suppression est bloquée par une ressource existante. Veuillez d\'abord mettre à jour vos ressources. L\'administrateur peut désactiver globalement ce mécanisme de sécurité dans la configuration des ressources.';
+$string['warningdisabledrename'] = 'Attention&nbsp;: le renommage automatique des références dans les ressources est désactivé. Veuillez modifier manuellement les ressources affectées au besoin. Le renommage automatique des ressources peut être activé par l\'administrateur dans la configuration des ressources.';
 
 // The following strings are to be deleted after 1.4 release
 $string['resourcetype1'] = 'Référence';
