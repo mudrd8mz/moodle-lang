@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 dev (2006091212)
+      // xmldb.php - created with Moodle 1.7 dev (2006092601)
 
 
 $string['aftertable'] = '다음 표 :';
@@ -9,14 +9,14 @@ $string['binaryincorrectlength'] = '바이너리 필드의 길이가 바르지 �
 $string['cannotuseidfield'] = '\"id\"필드에 입력할 수 없음. 자동 숫자 컬럼임';
 $string['change'] = '변경';
 $string['charincorrectlength'] = '문자 필드의 길이가 바르지 않음';
-$string['confirmdeletefield'] = '이 필드를 지우는 것이 확실합니까?';
-$string['confirmdeleteindex'] = '이 인덱스를 지우는 것이 확실합니까?';
-$string['confirmdeletekey'] = '이 키를 지우는 것이 확실합니까?';
-$string['confirmdeletesentence'] = '이 내용을 지우는 것이 확실합니까?';
-$string['confirmdeletestatement'] = '선언문과 모든 내용을 지우는 것이 확실합니까?';
-$string['confirmdeletetable'] = '이 테이블을 지우는 것이 확실합니까?';
-$string['confirmdeletexmlfile'] = '이 파일을 지우는 것이 확실합니까?';
-$string['confirmrevertchanges'] = '그동안 작업했던 내용을 버리고 되돌이키는 것이 확실합니까?';
+$string['confirmdeletefield'] = '필드 삭제 확인 :';
+$string['confirmdeleteindex'] = '인덱스 삭제 확인 :';
+$string['confirmdeletekey'] = '키 삭제 확인 :';
+$string['confirmdeletesentence'] = '내용 삭제 확인 :';
+$string['confirmdeletestatement'] = '선언문 및 관련 내용 삭제 확인 :';
+$string['confirmdeletetable'] = '테이블 삭제 확인 :';
+$string['confirmdeletexmlfile'] = '파일 삭제 확인 :';
+$string['confirmrevertchanges'] = '원상 복구 확인 :';
 $string['create'] = '생성';
 $string['createtable'] = '테이블 생성';
 $string['defaultincorrect'] = '기준이 잘못됨';
@@ -56,6 +56,9 @@ $string['load'] = '올림';
 $string['main_view'] = '주 화면';
 $string['missingfieldsinsentence'] = '문장내 없는 필드';
 $string['missingvaluesinsentence'] = '문장내 없는 값';
+$string['mustselectonefield'] = '필드와 관련된 작동을 보기 위해서는 하나의 필드를 선택해야만 합니다.';
+$string['mustselectoneindex'] = '인덱스와 관련된 작동을 보기 위해서는 하나의 인덱스를 선택해야만 합니다.';
+$string['mustselectonekey'] = '키와 관련된 작동을 보기 위해서는 하나의 키를 선택해야만 합니다.';
 $string['new_statement'] = '새로운 선언문';
 $string['new_table_from_mysql'] = 'MySQL의 새 테이블';
 $string['newfield'] = '새 필드';
@@ -75,7 +78,8 @@ $string['save'] = '저장';
 $string['selectaction'] = '작동 선택';
 $string['selectdb'] = '데이터베이스 선택';
 $string['selectfieldkeyindex'] = '필드/키/인덱스 선택';
-$string['selectonefieldkeyindex'] = 'PHP코드를 보시려면 목록에서 하나의 필드/키/인덱스를 선택하세요.';
+$string['selectonecommand'] = 'PHP코드를 보려면 목록에서 하나의 작동을 선택하세요.';
+$string['selectonefieldkeyindex'] = 'PHP코드를 보려면 목록에서 하나의 필드/키/인덱스를 선택하세요.';
 $string['selecttable'] = '데이블 선택 :';
 $string['sentences'] = '문장';
 $string['statements'] = '선언문';
