@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 dev (2006092600)
+      // scorm.php - created with Moodle 1.7 dev (2006092601)
 
 
 $string['advanced'] = '詳細設定';
@@ -8,13 +8,13 @@ $string['attempt'] = '受験';
 $string['attempts'] = '受験';
 $string['attr_error'] = 'タグ $a->tag のアトリビュート ($a->attr) に不適切な値が設定されています。';
 $string['autocontinue'] = '自動継続';
-$string['averageattempt'] = '平均受験回数';
+$string['averageattempt'] = '平均評点';
 $string['badmanifest'] = 'マニフェストエラー: エラーログをご覧ください。';
 $string['browse'] = 'プレビュー';
 $string['browsed'] = '閲覧済み';
 $string['browsemode'] = 'プレビューモード';
 $string['browserepository'] = 'リポジトリの閲覧';
-$string['chooseapacket'] = 'SCORMパッケージの選択または更新';
+$string['chooseapacket'] = 'パッケージの選択または更新';
 $string['completed'] = '完了';
 $string['confirmloosetracks'] = '警告: パッケージが変更/修正されたようです。パッケージ構造が変更された場合、更新処理中にユーザのトラックが失われる可能性があります。';
 $string['coursepacket'] = 'コースパッケージ';
@@ -47,7 +47,7 @@ $string['hidden'] = '隠す';
 $string['hidebrowse'] = 'プレビューモードを無効にする';
 $string['hidenav'] = 'ナビゲーションボタンを隠す';
 $string['hidetoc'] = 'コース構造表示 ( TOC )';
-$string['highestattempt'] = '最高の受験';
+$string['highestattempt'] = '最高評点';
 $string['identifier'] = '問題識別子';
 $string['iframe'] = '現在のウィンドウ';
 $string['iframedisplay'] = 'パッケージを現在のウィンドウで開く';
@@ -121,11 +121,11 @@ $string['trackingloose'] = '警告: SCORMデータのトラッキングデータ
 $string['type'] = 'タイプ';
 $string['validateascorm'] = 'パッケージの確認';
 $string['validation'] = '確認結果';
-$string['validationtype'] = 'ここではSCORMマニフェストファイルを確認するDOMXMLライブラリを設定します。分からない場合は、このままにしてください。';
+$string['validationtype'] = 'ここでは、SCORMマニフェストファイルを確認するDOMXMLライブラリを設定します。分からない場合は、このままにしてください。';
 $string['value'] = '値';
 $string['versionwarning'] = 'マニフェストファイルのバージョンが1.3より古いため、$a->tag タグに警告があります。';
 $string['viewallreports'] = '$a 件の受験レポートを表示する';
-$string['whatgrade'] = '受験評点';
+$string['whatgrade'] = '評定方法';
 $string['width'] = '幅';
 $string['window'] = 'ウィンドウ設定';
 
