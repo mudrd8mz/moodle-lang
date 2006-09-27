@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.7 dev (2006091901)
+      // exercise.php - created with Moodle 1.7 dev (2006092601)
 
 
 $string['absent'] = '欠席';
@@ -156,7 +156,7 @@ $string['theexercise'] = 'エクササイズ';
 $string['theexerciseandthesubmissionby'] = '$a によるエクササイズおよび提出課題';
 $string['thegradeis'] = '評点';
 $string['thereisfeedbackfromthe'] = '$a のフィードバックがあります';
-$string['thisisaresubmission'] = 'これは、$a による最提出課題です。<br />前の提出課題に対するあなたの評価が表示されています。<br />新しい提出課題を確認した後、評価を修正してページ下部<br />にあるボタンの1つをクリックしてください。';
+$string['thisisaresubmission'] = 'これは、$a による再提出課題です。<br />前の提出課題に対するあなたの評価が表示されています。<br />新しい提出課題を確認した後、評価を修正してページ下部<br />にあるボタンの1つをクリックしてください。';
 $string['title'] = 'タイトル';
 $string['typeofscale'] = '評価基準';
 $string['unassessed'] = '未評価 $a 件';
@@ -178,7 +178,7 @@ $string['weightssaved'] = '加重が保存されました。';
 $string['weightsusedforoverallgrade'] = '総合評価に使用される加重';
 $string['wrongpassword'] = 'エクササイズのパスワードが違います。';
 $string['yourassessment'] = 'あなたの評価';
-$string['yourfeedbackgoeshere'] = 'あなたのフィードバックはここに表示されます。';
+$string['yourfeedbackgoeshere'] = 'あなたのフィードバックは、ここに表示されます。';
 $string['yoursubmission'] = 'あなたの提出課題';
 
 ?>

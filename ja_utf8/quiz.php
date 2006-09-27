@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006092409)
+      // quiz.php - created with Moodle 1.7 dev (2006092601)
 
 
 $string['1day'] = '1日';
@@ -404,9 +404,9 @@ $string['recurse'] = 'サブカテゴリを含む';
 $string['regrade'] = 'すべての受験を再評定する';
 $string['regradecomplete'] = 'すべての受験が再評定されました。';
 $string['regradecount'] = '$a->attempt 中 $a->changed の評点が変更されました。';
-$string['regradedisplayexplanation'] = '最評定により変更された受験結果は、ハイパーリンクとして問題レビューウィンドウに表示されます。';
-$string['regradingquestion'] = '「 $a 」の最評定';
-$string['regradingquiz'] = '問題「 $a 」の最評定';
+$string['regradedisplayexplanation'] = '再評定により変更された受験結果は、ハイパーリンクとして問題レビューウィンドウに表示されます。';
+$string['regradingquestion'] = '「 $a 」の再評定';
+$string['regradingquiz'] = '問題「 $a 」の再評定';
 $string['relative'] = '相対度数';
 $string['remove'] = '削除';
 $string['rename'] = 'リネーム';
