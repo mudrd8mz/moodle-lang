@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.7 dev (2006092410)
+      // wiki.php - created with Moodle 1.7 dev (2006092601)
 
 
 $string['action'] = '-- アクション --';
@@ -106,6 +106,7 @@ $string['noadministrationaction'] = '管理者権限がありません。';
 $string['nocandidatestoremove'] = '削除候補ページがありません。ページ全部を表示するには「 $a 」をクリックしてください。';
 $string['nochangestorevert'] = '前の状態に戻す変更はありません。';
 $string['nohtml'] = 'HTMLなし';
+$string['nojslockwarning'] = 'あなたのブラウザでJavaスクリプトが無効にされているため、他の人がこのページを編集することが可能です。他の人がこのページを編集した場合、あなたの変更内容を保存することはできません。編集をすぐに完了するか、ブラウザのJavaスクリプトを有効にして、このページをリロードしてください。';
 $string['nolinksfound'] = 'ページにリンクは見つかりませんでした。';
 $string['noregexp'] = 'ストリングを訂正してください ( * や regex は使用できません )。最良の方法は攻撃者の「IPアドレスまたはホスト名」を使用することですが、ポート番号を含めないでください  ( すべてのhttpアクセスに関して記述する必要がありますので、設定数を増やすことになります )。';
 $string['notadministratewiki'] = 'このwikiの管理を許可されていません!';
@@ -148,6 +149,7 @@ $string['revertpagescheck'] = '本当に次の変更を元に戻してもよろ�
 $string['revertthe'] = 'バージョンを戻す、影響のあるページだけ削除';
 $string['safehtml'] = 'セーフHTML';
 $string['save'] = '保存';
+$string['savenolock'] = '編集ロックされていないため、あなたはこのページを保存することはできません。これは、ブラウザのJavaスクリプトが無効にされている、または他のユーザがあなたのロックをオーバーライドした場合に発生します。<br/><br/>ブラウザの戻るボタンをクリックして前のページに戻った後、変更したテキストをコピーして、編集を再度試みてください。';
 $string['searchwiki'] = 'Wikiの検索';
 $string['setpageflags'] = 'ページフラグの設定';
 $string['showversions'] = 'バージョンを表示:';
