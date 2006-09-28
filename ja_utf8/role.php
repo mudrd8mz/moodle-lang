@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006092410)
+      // role.php - created with Moodle 1.7 dev (2006092800)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -28,7 +28,6 @@ $string['course:managefiles'] = 'ファイルを管理する';
 $string['course:managegrades'] = '評定を管理する';
 $string['course:managegroups'] = 'グループを管理する';
 $string['course:managemetacourse'] = 'メタコースを管理する';
-$string['course:managequestions'] = '問題を管理する';
 $string['course:managescales'] = '尺度を管理する';
 $string['course:reset'] = 'コースをリセットする';
 $string['course:sectionvisibility'] = 'セクションの視認性をコントロールする';
@@ -46,6 +45,7 @@ $string['course:viewscales'] = '尺度を表示する';
 $string['course:visibility'] = 'コースを表示/非表示する';
 $string['currentcontext'] = 'コンテクスト';
 $string['currentrole'] = 'ロール';
+$string['defaultrole'] = 'デフォルトロール';
 $string['defineroles'] = 'ロールの定義';
 $string['deleterolesure'] = '<p>本当にロール「$a->name ( $a->shortname )」を削除してもよろしいですか?</p><p>現在、このロールは $a->count 名のユーザに割り当てられています。</p>';
 $string['editrole'] = 'ロールの編集';
@@ -114,5 +114,6 @@ $string['user:viewhiddendetails'] = '非表示のユーザ詳細を表示する'
 $string['user:viewuseractivitiesreport'] = 'ユーザの活動レポートを表示する';
 $string['user:viewusergrades'] = 'ユーザの評定を表示する';
 $string['viewrole'] = 'ロール詳細を表示する';
+$string['xuserswiththerole'] = 'ロール「 $a->role 」のユーザ数: $a->number';
 
 ?>

@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006092410)
+      // admin.php - created with Moodle 1.7 dev (2006092800)
 
 
 $string['accounts'] = 'アカウント';
+$string['adminseesall'] = '管理者がすべてを閲覧する';
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示';
 $string['adminseesownevents'] = '管理者は他のユーザと同じ';
 $string['allowcoursethemes'] = 'コーステーマを許可する';
@@ -30,6 +31,7 @@ $string['bookmarkalreadyexists'] = 'すでにこのページをブックマー�
 $string['bookmarkdeleted'] = 'ブックマークが削除されました。';
 $string['bookmarkthispage'] = 'このページをブックマークする';
 $string['cachetext'] = 'テキストキャッシュ保存時間';
+$string['calendar_weekend'] = '週末日';
 $string['calendarsettings'] = 'カレンダー';
 $string['change'] = '変更';
 $string['changesitelang'] = 'サイト言語の変更';
@@ -104,8 +106,10 @@ $string['configlocale'] = 'サイト全体に適用されるロケールを選�
 $string['configloginhttps'] = 'この設定を有効にした場合、Moodleはログインページのみでセキュアhttps接続 ( セキュアログイン ) を使用します。その後、一般的な速度を保つため、通常のhttp URLに戻ります。警告: この設定を行うにはウェブサーバでhttpsを使用できるようにする必要があります。もし、httpsが使用できない状態でこの設定を行った場合、あなたのサイトに入ることができなくなります。';
 $string['configloglifetime'] = 'ここではユーザの活動に関するログの保持期間を設定します。指定した値より古いログは自動的に削除されます。可能な限り長い間ログを保持する方が良いのですが、アクセス件数が多く、サーバのパフォーマンスに問題がある場合は、短い期間に設定してください。';
 $string['configlongtimenosee'] = '学生が長期間ログインしていない場合、自動的にコースから削除されます。この値は削除期限を決定します。';
+$string['configlookahead'] = '直近イベント日';
 $string['configmaxbytes'] = 'ここではサイト全体でアップロードできるファイルの最大サイズを設定します。この設定はPHP設定のpost_max_sizeおよびupload_max_filesize、同様にApache設定のLimitRequestBodyに制限されます。maxbytesは、コースレベルまたはモジュールレベルで選択できるサイズの範囲を制限します。';
 $string['configmaxeditingtime'] = 'ここではフォーラムの投稿や用語集のコメント等を編集可能な時間を設定します。通常30分が適切な値です。';
+$string['configmaxevents'] = '直近イベント数';
 $string['configmessaging'] = 'サイトのユーザ間でメッセージシステムを利用できるようにしますか?';
 $string['configmymoodleredirect'] = 'この設定は、管理者以外のユーザをログイン後、 /my に強制的にリダイレクトし、トップレベルのサイト・ブレッドクラムを /my に置き換えます。';
 $string['confignoreplyaddress'] = 'Moodleでは、メールがユーザに送信される場合があります ( 例 フォーラムの投稿 )。ここで設定するメールアドレスは、「From」に使用され、受信者が直接送信者に返信できないようにします ( 例 ユーザが個人のメールアドレスを隠す設定を行っている場合 )。';
@@ -149,6 +153,7 @@ $string['configsitepolicy'] = 'このサイトを使用する前に、すべて�
 $string['configslasharguments'] = 'ファイル ( イメージ、アップロード等 ) は、スラッシュを使ってプログラムに受け渡されます。この方法により、簡単にブラウザ内やプロクシにイメージを一時保存させることが可能です。いくつかのPHPサーバではこの方法が取れない場合があります。もしファイルやイメージ ( 例 ユーザの顔写真等 ) のアップロードに問題がある場合は、最初のオプションを選択してください。';
 $string['configsmtphosts'] = 'Moodleでメールを送信するときに使用する1つ以上のローカルSMTPサーバを入力してください ( 例 mail.a.com またはmail.a.com;mail.b.com )。空白にした場合、Moodleは、デフォルトのPHPメール送信機能を使用します。';
 $string['configsmtpuser'] = '上記でSMTPサーバを設定して、なおかつ認証が必要な場合は、ユーザ名とパスワードを設定してください。';
+$string['configstartwday'] = '週の始め';
 $string['configstatsfirstrun'] = 'ここでは、cronジョブが<b>最初の</b>統計処理を行う場合に、どのくらい過去にさかのぼるか指定します。トラフィックが多く、共有ホスティングを利用している場合、あまりにも過去にさかのぼるのは良い考えではありません。統計処理は長時間を必要とし、非常にリソースに負荷をかけます。( この設定では、 1ヵ月 = 28日ですので注意してください。 グラフおよびレポートの生成には、1ヶ月= 1カレンダー月が利用されます。 )';
 $string['configstatsmaxruntime'] = '統計処理は、コンピュータに大きな負荷がかかる場合があります。このオプションと次のオプションの組み合わせで、「いつ」および「どのくらい」稼動させるか設定してください。';
 $string['configstatsruntimestart'] = '何時にcronジョブの統計処理を<b>開始</b>させますか?';
