@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 1.7 dev (2006071800)
+      // simpletest.php - created with Moodle 1.7 dev (2006092800)
 
 
 $string['all'] = '모두';
