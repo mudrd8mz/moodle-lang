@@ -403,7 +403,7 @@ $string['therewereerrors'] = 'あなたのデータにエラーがあります�
 $string['timezone'] = 'デフォルトタイムゾーン';
 $string['timezoneforced'] = 'サイト管理者によって強制されています。';
 $string['timezoneisforcedto'] = 'ユーザに使用を強制';
-$string['timezonenotforced'] = 'ユーザが独自のタイムゾーンを使用';
+$string['timezonenotforced'] = 'ユーザは独自のタイムゾーンを使用できる';
 $string['unbookmarkthispage'] = 'このページをブックマーク解除する';
 $string['unicodeupgradenotice'] = 'Moodle1.6で、私たちはすべての言語をユニコードに移行しました。このサイトのアップグレードを完了するには、移行スクリプトを使用して、データベースのすべてのデータをユニコードにコンバートする必要があります。<a href=\"utfdbmigrate.php\">移行スクリプトを実行するには、ここをクリックしてください</a>!';
 $string['uninstall'] = '選択された言語パックをアンインストールする';
