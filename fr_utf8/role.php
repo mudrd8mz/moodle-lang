@@ -36,6 +36,7 @@ $string['roles'] = 'Rôles';
 $string['roletooverride'] = 'Rôle à court-circuiter';
 $string['selectrole'] = 'Sélectionner un rôle';
 $string['viewrole'] = 'Afficher les détails du rôle';
+$string['xuserswiththerole'] = 'Utilisateurs ayant le rôle «&nbsp;$a->role&nbsp;»&nbsp;: $a->number';
 
 $string['legacy:guest'] = 'ANCIEN RÔLE&nbsp;: Invité';
 $string['legacy:student'] = 'ANCIEN RÔLE&nbsp;: Étudiant';
