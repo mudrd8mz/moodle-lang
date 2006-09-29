@@ -9,6 +9,7 @@ $string['capability'] = 'Capacité';
 $string['capabilities'] = 'Capacités';
 $string['currentrole'] = 'Rôle actuel';
 $string['currentcontext'] = 'Contexte actuel';
+$string['defaultrole'] = 'Rôle par défaut';
 $string['defineroles'] = 'Definir les rôles';
 $string['deleterolesure'] = '<p>Voubvlez-vous vraiment supprimer le rôle «&nbsp;$a->name ($a->shortname)&nbsp;»&nbsp;?</p><p>Ce rôle est actuellement attribué à $a->count utilisateurs.</p>';
 $string['editrole'] = 'Modifier rôle';
