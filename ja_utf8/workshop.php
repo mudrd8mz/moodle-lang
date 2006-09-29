@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.7 dev (2006092409)
+      // workshop.php - created with Moodle 1.7 dev (2006092800)
 
 
 $string['absent'] = '欠席';
@@ -12,7 +12,7 @@ $string['ago'] = '$a 前';
 $string['agrade'] = '評価<br />評点';
 $string['agreetothisassessment'] = 'この評価に同意する';
 $string['allgradeshaveamaximumof'] = 'すべての評点の最大:  $a';
-$string['allowresubmit'] = '課題の再提出を許可';
+$string['allowresubmit'] = '課題の再提出を許可する';
 $string['allsubmissions'] = 'すべての提出課題';
 $string['alreadyinphase'] = 'すでにフェーズ $a に達しています。';
 $string['amendassessmentelements'] = '評価要素を更新する';
@@ -292,7 +292,7 @@ $string['ungradedassessments'] = '$a 未評定評価';
 $string['ungradedassessmentsofstudentsubmissions'] = '$a 学生の提出課題の未評定評価';
 $string['ungradedassessmentsofteachersubmissions'] = '$a 教師の提出課題の未評定評価';
 $string['uploadsuccess'] = '正常にアップロードされました。';
-$string['usepassword'] = 'パスワードを使用';
+$string['usepassword'] = 'パスワードを使用する';
 $string['verylax'] = '非常に甘い';
 $string['verypoor'] = '非常に悪い';
 $string['verystrict'] = '非常に厳しい';
