@@ -26,6 +26,7 @@ $string['editlang'] = '<b>Editar</b>';
 $string['editstrings'] = 'Editar frases';
 $string['environment'] = 'Ambiente';
 $string['filteruploadedfiles'] = 'Filtrar ficheiros enviados';
+$string['lang16notify'] = 'A partir da versão 1.6, Moodle permite instalar e actualizar pacotes linguísticos directamente do servidor download.moodle.org, usando o apontador que se segue';
 $string['langimport'] = 'Importação de pacotes linguísticos';
 $string['langimportsuccess'] = 'Pacote linguístico actualizado com sucesso';
 $string['langpackremoved'] = 'O pacote linguístico foi desinstalado';
