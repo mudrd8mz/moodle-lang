@@ -1,15 +1,17 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 dev (2006092601)
+      // scorm.php - created with Moodle 1.7 dev (2006092800)
 
 
 $string['advanced'] = '詳細設定';
 $string['asset'] = 'アセット';
+$string['assetlaunched'] = 'アセット - 閲覧済み';
 $string['attempt'] = '受験';
 $string['attempts'] = '受験';
 $string['attr_error'] = 'タグ $a->tag のアトリビュート ($a->attr) に不適切な値が設定されています。';
 $string['autocontinue'] = '自動継続';
 $string['averageattempt'] = '平均評点';
 $string['badmanifest'] = 'マニフェストエラー: エラーログをご覧ください。';
+$string['badpackage'] = 'パッケージに問題があります。確認して再度お試しください。';
 $string['browse'] = 'プレビュー';
 $string['browsed'] = '閲覧済み';
 $string['browsemode'] = 'プレビューモード';
@@ -45,7 +47,9 @@ $string['gradesum'] = '評点の合計';
 $string['height'] = '高さ';
 $string['hidden'] = '隠す';
 $string['hidebrowse'] = 'プレビューモードを無効にする';
+$string['hideexit'] = 'コースから抜けるボタンを隠す';
 $string['hidenav'] = 'ナビゲーションボタンを隠す';
+$string['hidereview'] = 'レビューボタンを隠す';
 $string['hidetoc'] = 'コース構造の表示 ( TOC )';
 $string['highestattempt'] = '最高評点';
 $string['identifier'] = '問題識別子';
@@ -53,7 +57,8 @@ $string['iframe'] = '現在のウィンドウ';
 $string['iframedisplay'] = 'パッケージを現在のウィンドウで開く';
 $string['incomplete'] = '不完全';
 $string['interactions'] = '相互作用';
-$string['lastaccess'] = '最後のアクセス';
+$string['last'] = '最新アクセス日時';
+$string['lastaccess'] = '最新のアクセス';
 $string['lastattempt'] = '最新の受験';
 $string['location'] = 'ロケーションバーを表示する';
 $string['max'] = '最大評点';
@@ -106,18 +111,22 @@ $string['scorm:viewscores'] = '評点を表示する';
 $string['scormcourse'] = '学習コース';
 $string['scrollbars'] = 'ウィンドウのスクロールを許可する';
 $string['sided'] = '左側';
+$string['skipview'] = '学生はコンテンツ構造ページをスキップする';
 $string['stagesize'] = 'ステージサイズ';
+$string['started'] = '開始日時';
 $string['status'] = 'ステータス';
 $string['statusbar'] = 'ステータスバーを表示する';
 $string['student_response'] = 'レスポンス';
+$string['suspended'] = '停止';
 $string['syntax'] = '構文エラー';
-$string['tag_error'] = 'コンテンツに不明なタグ($a->tag) があります:  $a->value';
+$string['tag_error'] = 'コンテンツに不明なタグ ( $a->tag ) があります:  $a->value';
 $string['time'] = '時間';
+$string['title'] = 'タイトル';
 $string['too_many_attributes'] = 'タグ $a->tag のアトリビュートが多すぎます。';
 $string['too_many_children'] = 'タグ $a->tag の子タグが多すぎます。';
 $string['toolbar'] = 'ツールバーを表示する';
 $string['totaltime'] = '時間';
-$string['trackingloose'] = '警告: SCORMデータのトラッキングデータは消滅します!';
+$string['trackingloose'] = '警告: このパッケージのトラッキングデータは消滅します!';
 $string['type'] = 'タイプ';
 $string['validateascorm'] = 'パッケージの確認';
 $string['validation'] = '確認結果';
@@ -125,7 +134,7 @@ $string['validationtype'] = 'ここでは、SCORMマニフェストファイル�
 $string['value'] = '値';
 $string['versionwarning'] = 'マニフェストファイルのバージョンが1.3より古いため、$a->tag タグに警告があります。';
 $string['viewallreports'] = '$a 件の受験レポートを表示する';
-$string['whatgrade'] = '評定方法';
+$string['whatgrade'] = '複数回受験時の評点';
 $string['width'] = '幅';
 $string['window'] = 'ウィンドウ設定';
 
