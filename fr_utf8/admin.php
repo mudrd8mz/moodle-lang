@@ -162,6 +162,11 @@ $string['longtimenosee'] = 'Désinscrire les utilisateurs des cours après';
 $string['deleteunconfirmed'] = 'Supprimer les utilisateurs non confirmés après';
 $string['loglifetime'] = 'Conserver les historiques durant';
 
+$string['adminseesall'] = 'Les administrateurs voient tout';
+$string['configstartwday'] = 'Début de la semaine';
+$string['calendar_weekend'] = 'Jours du week-end';
+$string['configlookahead'] = 'Jours à anticiper';
+$string['configmaxevents'] = 'Nombre d\'événements à anticiper';
 // end {added with admin cleanup}
 
 
