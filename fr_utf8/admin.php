@@ -346,7 +346,7 @@ $string['helpupcomingmaxevents'] = 'Par défaut, quel est le nombre maximum d\'�
 $string['helpweekenddays'] = 'Quel jours sont traités comme jours du «&nbsp;week-end&nbsp;» et affichés d\'une couleur différente&nbsp;?';
 $string['iconvrecommended'] = 'Bien que la bibliothèque ICONV soit facultative, il est vivement recommandé de l\'installer sur le serveur pour de meilleures performance, notamment si votre site supporte des caractères non latins.';
 $string['importlangreminder'] = 'Le processus de migration de la base de données commence. Il vous sera nécessaire de <b>vous connecter à nouveau</b> pour que la mise à jour prenne effet. Veuillez installer le paquetage de langue en encodage Unicode aussitôt que possible en suivant Administration -> Langue -> Utilitaire d\'importation de langue <b>après</b> que le processus de migration de la base de données est terminé. ';
-$string['importtimezones'] = 'Mise à jour complète de la liste des fuseaux horaires';
+$string['importtimezones'] = 'Mise à jour des fuseaux horaires';
 $string['importtimezonescount'] = '$a->count entrées importées depuis $a->source';
 $string['importtimezonesfailed'] = 'Aucune source de données trouvée&nbsp;!';
 $string['incompatibleblocks'] = 'Blocs incompatibles';
@@ -423,7 +423,7 @@ $string['uninstallconfirm'] = 'Vous êtes sur le point de supprimer totalement l
 $string['unsupported'] = 'Non supporté';
 $string['updatecomponent'] = 'Mise à jour du composant';
 $string['updatelangs'] = 'Mettre à jour toutes les langues installées';
-$string['updatetimezones'] = 'Mettre à jour les fuseaux horaires';
+$string['updatetimezones'] = 'Fuseaux horaires';
 $string['upgradeforumread'] = 'Moodle 1.5 possède une nouvelle fonctionnalité permettant de signaler quels messages des forums ont été lus.<br />Pour profiter de cette fonctionnalité, les tables de la base de données <a href=\"$a\">doivent être mises à jour</a>.';
 $string['upgradeforumreadinfo'] = 'Moodle 1.5 possède une nouvelle fonctionnalité permettant de signaler quels messages des forums ont été lus. Pour profiter de cette fonctionnalité, les tables de la base de données doivent être complétées avec le statut de lecture pour les messages existants. Suivant la taille de votre site, cette mise à jour peut prendre beaucoup de temps (quelques heures) et risque de surcharger la base de données. Nous vous conseillons donc de l\'effectuer lors d\'une période creuse. Durant cette mise à jour, votre site continuera à fonctionner et les utilisateurs n\'en seront pas affectés. Une fois l\'opération démarrée, vous devez la laisser se terminer (en laissant ouverte la fenêtre du navigateur). Si par inadvertence vous interrompez le processus, par exemple en fermant la fenêtre, vous pourrez le recommencer sans dommage.<br /><br />Voulez-vous commencer maintenant cette opération&nbsp;?';
 $string['upgradelogs'] = 'Pour profiter de toutes les fonctionnalités, les historiques (logs) doivent être mis à jour. <a href=\"$a\">Plus d\'informations</a>';
