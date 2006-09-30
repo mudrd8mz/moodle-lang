@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 dev (2006091901)
+      // assignment.php - created with Moodle 1.7 dev (2006092800)
 
 
 $string['allowmultiple'] = '여러 파일을 허용함';
@@ -8,21 +8,20 @@ $string['assignment:grade'] = '과제 점수';
 $string['assignment:submit'] = '과제 제출';
 $string['assignment:view'] = '과제 보기';
 $string['assignmentdetails'] = '과제 세부사항';
-$string['assignmentmail'] = '$a->teacher 선생님께서 당신이 제출한 \'$a->assignment\' 과제에 대한 의견을 달아놓으셨습니다.
-
+$string['assignmentmail'] = '$a->teacher 선생님이 제출된 \'$a->assignment\' 과제에 대한 의견을 달아놓으셨습니다.<br />
 과제에 대한 평은 다음에서 볼 수 있습니다: $a->url';
-$string['assignmentmailhtml'] = '$a->teacher 선생님께서 제출한 \'<i>$a->assignment</i>\' 과제에 대한 의견을 달아놓으셨습니다. <br /><br />
-<a href=\"$a->url\">제출한 과제</a>에 꼬리가 붙어있을 것입니다.';
+$string['assignmentmailhtml'] = '$a->teacher 선생님이 제출된 \'<i>$a->assignment</i>\' 과제에 대한 의견을 달아놓으셨습니다. <br /><br />
+<a href=\"$a->url\">제출된 과제</a>에 꼬리말이 붙어있을 것입니다.';
 $string['assignmentname'] = '과제명';
 $string['assignmenttype'] = '과제 형태';
 $string['attachfile'] = '파일 첨부';
 $string['attachfiletoassignment'] = '과제로 파일을 첨부함';
-$string['availabledate'] = '가능한 형태';
+$string['availabledate'] = '다음 이후에 가능';
 $string['backtoassignment'] = '과제로 되돌아 감';
-$string['backtofeedback'] = '평가항목으로 되돌아 감';
+$string['backtofeedback'] = '피드백으로 되돌아 감';
 $string['choosereviewfile'] = '평가 받을 과제를 올리기 위해 선택함';
 $string['comment'] = '평';
-$string['commentinline'] = '즉시 처리된 평';
+$string['commentinline'] = '즉석 평';
 $string['configitemstocount'] = '온라인 과제를 제출한 학생들의 계수 항목 특성';
 $string['configmaxbytes'] = '이 사이트에 있는 모든 과제의 기본 최대 크기';
 $string['deletecheckfile'] = '이 파일을 지우는게 확실합니까?';
@@ -31,7 +30,7 @@ $string['deletefail'] = '다음 파일은 삭제되지 않았습니다.';
 $string['description'] = '설명';
 $string['duedate'] = '만기일';
 $string['duedateno'] = '기한이 없습니다.';
-$string['early'] = '$a 일찍 체줄함';
+$string['early'] = '$a 일찍 제출함';
 $string['editmysubmission'] = '제출물 편집';
 $string['emailstudents'] = '학생에게 이메일로 알림';
 $string['emailteachermail'] = '$a->username 은 \'$a->assignment\'에 대한 과제 제출을 갱신했습니다. 이것은 $a->url 에서 볼 수 있습니다.';
@@ -41,8 +40,8 @@ $string['emailteachers'] = '선생님들께 알림';
 $string['emptysubmission'] = '아무것도 제출되지 않았습니다.';
 $string['existingfiledeleted'] = '제출되었던 파일 $a 이 지워졌습니다.';
 $string['failedupdatefeedback'] = '$a 가 제출한 과제에 대한 평을 갱신하는데 실패함';
-$string['feedback'] = '피드백';
-$string['feedbackfromteacher'] = '$a 로부터의 피드백';
+$string['feedback'] = '과제평';
+$string['feedbackfromteacher'] = '$a 의 의견';
 $string['feedbackupdated'] = '$a 명의 과제에 대한 의견을 갱신함';
 $string['graded'] = '채점됨';
 $string['guestnosubmit'] = '죄송합니다. 손님은 과제를 제출할 수 없습니다. 답안을 제출하려면 로그인하거나 사용자 등록을 하시기 바랍니다.';
@@ -72,20 +71,20 @@ $string['pagesize'] = '한 쪽당 보이는 제출물';
 $string['preventlate'] = '제출 기한 엄수';
 $string['quickgrade'] = '신속 채점 허용';
 $string['removelink'] = '링크제거';
-$string['responsefile'] = '응답 파일';
+$string['responsefile'] = '응답 파일 :';
 $string['responsesfromteacher'] = '선생님이 올린 평';
 $string['saveallfeedback'] = '내 의견을 모두 저장';
 $string['sendformarking'] = '채점을 위한 제출';
-$string['step1'] = '1단계';
-$string['step2'] = '2단계';
+$string['step1'] = '1단계 :';
+$string['step2'] = '2단계 :';
 $string['submission'] = '제출';
 $string['submissionfeedback'] = '과제에 대한 의견';
 $string['submissions'] = '제출된 과제들';
 $string['submissionsaved'] = '변경 사항이 저장되었습니다';
 $string['submissionsnotgraded'] = '$a 제출된 것이 채점되지 않음';
-$string['submissionstatus'] = '체출 상황';
+$string['submissionstatus'] = '제출 상황 :';
 $string['submissionstatusblank'] = '비었음';
-$string['submissionstatusdraft'] = '낙제';
+$string['submissionstatusdraft'] = '초안';
 $string['submissionstatusmarked'] = '채점됨';
 $string['submissionstatusreturned'] = '반송';
 $string['submissionstatussubmitted'] = '제출됨';
@@ -100,13 +99,13 @@ $string['uploadbadname'] = '파일이름에 알 수 없는 문자가 포함되�
 $string['uploadedfiles'] = '올려진 파일들';
 $string['uploaderror'] = '서버에 파일을 저장하던 중 오류 발생';
 $string['uploadfailnoupdate'] = '파일이 성공적으로 전송되었지만 제출 상황을 갱신할 수는 없음';
-$string['uploadfiletoobig'] = '파일용량이 너무 큽니다 ($a bytes 까지)';
+$string['uploadfiletoobig'] = '파일용량이 너무 큽니다.(최대 $a 바이트까지)';
 $string['uploadnofilefound'] = '파일을 찾을 수 없음 - 업로드할 파일을 선택하셨습니까?';
-$string['uploadnotregistered'] = '\'$a\' 는 전송 되었지만 제출된 과제는 등록되지 않음';
-$string['uploadsuccess'] = '\'$a\' 가 성공적으로 업로드됨';
-$string['uploadsuccessresponse'] = '응답파일이 성공적으로 올려짐';
+$string['uploadnotregistered'] = '\'$a\'는 전송되었지만, 제출된 과제는 등록되지 않았습니다!';
+$string['uploadsuccess'] = '\'$a\' 올리기 성공';
+$string['uploadsuccessresponse'] = '응답파일 올리기 성공';
 $string['viewfeedback'] = '과제 점수와 피드백 보기';
-$string['viewsubmissions'] = '내가 제출한  $a 개의 과제 보기';
+$string['viewsubmissions'] = '제출된  $a 개의 과제 보기';
 $string['yoursubmission'] = '과제 제출';
 
 ?>

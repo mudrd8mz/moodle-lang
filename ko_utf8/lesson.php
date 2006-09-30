@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006091901)
+      // lesson.php - created with Moodle 1.7 dev (2006092600)
 
 
 $string['accesscontrol'] = '접근 제한';
@@ -133,6 +133,8 @@ $string['jumpsto'] = '$a 로 건너 뜀';
 $string['leftduringtimed'] = '당신은 규정된 학습시간에 자리를 비웠습니다.<br />
 학습을 다시 시작하려면 계속 버튼을 눌러주세요.';
 $string['leftduringtimednoretake'] = '당신은 규정된 학습시간에 자리를 비웠기 때문에<br />재학습을 하거나 계속할 수 없습니다.';
+$string['lesson:edit'] = '학습활동 편집';
+$string['lesson:manage'] = '학습활동 관리';
 $string['lessonclosed'] = '이 학습은 $a 에 종료되었습니다.';
 $string['lessoncloses'] = '학습 종료';
 $string['lessondefault'] = '이 환경 설정을 기본틀로 씀';
@@ -255,7 +257,7 @@ $string['secondpluswrong'] = '정확하지 않습니다. 다시 하시겠습니�
 $string['showanunansweredpage'] = '답하지 않은 쪽 보기';
 $string['showanunseenpage'] = '보지 않은 쪽 보기';
 $string['singleanswer'] = '단답';
-$string['skip'] = '진행(navigation) 생략';
+$string['skip'] = '진행 뛰어넘기';
 $string['slideshow'] = '슬라이드쇼';
 $string['slideshowbgcolor'] = '슬라이드쇼 배경';
 $string['slideshowheight'] = '슬라이드쇼 높이';

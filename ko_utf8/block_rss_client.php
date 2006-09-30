@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.7 dev (2006091212)
+      // block_rss_client.php - created with Moodle 1.7 dev (2006092600)
 
 
 $string['addfeed'] = '새로운 취재원 주소 추가하기';
 $string['addheadlineblock'] = 'RSS 헤드라인 블록 추가하기';
 $string['addnew'] = '새로 추가';
+$string['blockname'] = 'RSS 구독자';
 $string['choosefeedlabel'] = '이 블록에서 사용하고 싶은 취재원을 선택하시오';
 $string['clientchannellink'] = '소스 사이트';
 $string['clientnumentries'] = '한 취재원이 보여줄 기본 기사 수';
@@ -31,6 +32,10 @@ $string['managefeeds'] = '내 취재원 관리하기';
 $string['nofeeds'] = '이 사이트에 대한 정의된 RSS 취재원이 없습니다';
 $string['pickfeed'] = '새로운 feed 선택';
 $string['remotenewsfeed'] = '원격 뉴스 취재원';
+$string['rss_client:createprivatefeeds'] = '개인 RSS취재원 생성';
+$string['rss_client:createsharedfeeds'] = '공유 RSS취재원 생성';
+$string['rss_client:manageanyfeeds'] = '모든 RSS취재원 관리';
+$string['rss_client:manageownfeeds'] = '자신의 RSS취재원 관리';
 $string['seeallfeeds'] = '모든 취재원 보기';
 $string['sharedfeed'] = '공유 취재원';
 $string['shownumentrieslabel'] = '한 블럭에 보여줄  최대 숫자';

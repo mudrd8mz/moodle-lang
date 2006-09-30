@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.7 dev (2006081000)
+      // choice.php - created with Moodle 1.7 dev (2006092601)
 
 
 $string['addmorechoices'] = '선택사항을 더 추가하시오';
@@ -21,8 +21,8 @@ $string['full'] = '가득참';
 $string['havetologin'] = '설문 응답을 제출하기 전에 로그인해야 합니다.';
 $string['limit'] = '제한';
 $string['limitanswers'] = '허락된 반응의 제한';
-$string['modulename'] = '간편 설문';
-$string['modulenameplural'] = '간편 설문';
+$string['modulename'] = '간편설문';
+$string['modulenameplural'] = '간편설문';
 $string['mustchooseone'] = '저장하기전에 답을 선택하여야 합니다. 저장되지 않았습니다.';
 $string['notanswered'] = '아직 답을 제출하지 않았습니다';
 $string['notopenyet'] = '죄송합니다만, 이 활동은 $a까지는 이용할 수 없습니다.';

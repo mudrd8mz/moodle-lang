@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006081700)
+      // data.php - created with Moodle 1.7 dev (2006092800)
 
 
 $string['action'] = '행동';
@@ -29,7 +29,7 @@ $string['comments'] = '코멘트';
 $string['commentsaved'] = '코멘트가 저장됨';
 $string['commentsn'] = '$a 커멘트';
 $string['configenablerssfeeds'] = '이 스위치는 모든 데이터베이스에게 RSS feed를 사용가능하게 합니다. 각각의 데이터베이스에 대하여 수동으로  feed를 켤 수 있습니다.';
-$string['confirmdeletefield'] = '파일을 삭제할려고 합니다. 확실합니까?';
+$string['confirmdeletefield'] = '파일을 삭제하려고 합니다. 확실합니까?';
 $string['confirmdeleterecord'] = '이 게시물을 삭제하려고 하는 것이 확실합니까?';
 $string['csstemplate'] = 'CSS 템플릿';
 $string['csvfile'] = 'CSV 파일';
@@ -41,6 +41,8 @@ $string['data:manageentries'] = '입력내용 관리';
 $string['data:managetemplates'] = '템플릿 관리';
 $string['data:rate'] = '입력내용 평가';
 $string['data:readentry'] = '입력내용 보기';
+$string['data:viewentry'] = '입력사항 보기';
+$string['data:viewrating'] = '등급 보기';
 $string['data:writeentry'] = '내용 쓰기';
 $string['date'] = '일자';
 $string['dateentered'] = '입력일자';
@@ -94,12 +96,12 @@ $string['headeraddtemplate'] = '게시물을 편집할 때 인터페이스 정�
 $string['headercsstemplate'] = '다른 템플릿을 위한 로컬 CSS  스타일 정의';
 $string['headerjstemplate'] = '다른 템플릿을 위한 Java 스크립트 정의';
 $string['headerlisttemplate'] = '다중 게시물을 위한 보기 인터페이스 정의';
-$string['headerrsstemplate'] = 'RSS  feed 에서 게시물의 모양 정의';
+$string['headerrsstemplate'] = 'RSS 취재원 게시물의 모양 정의';
 $string['headersingletemplate'] = '단일 게시물에 대한 보기 인터페이스 정의';
-$string['importsuccess'] = '설정이 성공적으로 적용됨새로';
-$string['insufficiententries'] = '이 데이터베이스를 보기 위해서는 더 게시물이 필요함';
+$string['importsuccess'] = '설정이 성공적으로 적용됨';
+$string['insufficiententries'] = '이 데이터베이스를 보기 위해서는 입력항목이 더 필요함';
 $string['intro'] = '소개';
-$string['invalidfieldname'] = '이 항목에 대한 다른 이름을 선택하시오.';
+$string['invalidfieldname'] = '이 필드에 대한 다른 이름을 선택하시오.';
 $string['invalidurl'] = '당신이 입력한 URL은 맞지 않습니다.';
 $string['jstemplate'] = '자바스크립트 템플릿';
 $string['latitude'] = '위도';
@@ -119,7 +121,7 @@ $string['menuchoose'] = '선택...';
 $string['modulename'] = '데이터베이스';
 $string['modulenameplural'] = '데이터베이스';
 $string['more'] = '더 이상';
-$string['moreurl'] = '더 이상 URL';
+$string['moreurl'] = 'URL 더';
 $string['multientry'] = '반복되는 게시물';
 $string['multimenu'] = '메뉴(다중 선택)';
 $string['multipletags'] = '다중 범주가 발견되었습니다. 템플릿이 저장되지 않았습니다.';
