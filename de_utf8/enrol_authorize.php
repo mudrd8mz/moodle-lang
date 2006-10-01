@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6 development (2006032001)
+      // enrol_authorize.php - created with Moodle 1.7 dev (2006082900)
 
 
+$string['adminacceptccs'] = 'Welche Kreditkartentypen sollen akzeptiert werden?';
 $string['adminauthorizeccapture'] = 'Orderreview & Auto-Capture Einstellungen';
 $string['adminauthorizeemail'] = 'E-Mailversand-Einstellungen';
 $string['adminauthorizesettings'] = 'Authorize.net Einstellungen';
@@ -9,17 +10,12 @@ $string['adminauthorizewide'] = 'Seitenweite Einstellungen';
 $string['adminavs'] = 'Klicken Sie die Funktion an wenn Sie das Adress Verification System (AVS) im Authorize Account aktiviert haben. Damit sind Eintragungen in Adressfeldern wie Strasse, Staat, Country und ZiP beim Ausfüllen des Zahlungsvorgangs erforderlich.';
 $string['admincronsetup'] = 'Die cron.php Datei wurde in den letzten 24 Stunden nicht ausgelöst.<br />Der Cron-Prozess ist erforderlich, um das Autocapture Feature zu nutzen.<br />Cron Setup oder deaktivieren Sie an_review wieder.<br />Wenn Sie autocapture deaktivieren werden Transaktionen deaktiviert, die nicht innerhalb von 30 Tagen manuell bestätigt werden.<br />Prüfen Sie an_review und geben Sie \'0\' im Feld an_capture_day<br />wenn Sie innerhalb von 30 Tagen  Zahlungen manuell akzeptieren/zurückweisen wollen.';
 $string['adminemailexpired'] = 'Versendet <b>$a</b> Tage vor Ende der Bearbeitungsfrist für offene Zahlungsvorgänge Warn-E-Mails an Admins. (0=E-Mail versenden deaktivieren, default=2, max=5)<br />Die Einstellung ist hilfreich wenn manuelles Capturing aktiviert ist (an_review=checked, an_capture_day=0).';
-$string['adminhelpcapture'] = 'Sie müssen Zahlungen nicht manuell akzeptieren oder zurückweisen. Mit Hilfe von Autocapture können Sie verhindern, dass Zahlungsvorgänge widerrufen werden. Was ist zu tun?
-- Cron setup vornehmen.
-- an_review prüfen
-- Eintrag eines Wertes zwischen 1 und 29 in das Feld an_capture_day Feld. Kartenzahlungen werden angenommen und die Teilnehmer/innen in die Kurse eingetragen bis Sie innerhalb der Frist den Vorgang bearbeitet haben.';
+$string['adminemailexpiredsort'] = 'Wenn die zu bearbeitenden Zahlungsvorgänge an den/die Trainer/in per E-Mail gesandt wird, welches Kriterium ist relevant?';
+$string['adminemailexpiredsortcount'] = 'Zahl der Zahlungsvorgänge';
+$string['adminemailexpiredsortsum'] = 'Gesamtbetrag der Zahlungen';
+$string['adminemailexpiredteacher'] = 'Trainer/innen können Zahlungsvorgänge abwickeln und werden benachrichtigt wenn eine bestimmte Anzahl von Zahlungsvorgängen angefallen sind wenn Siedie Manuelle Abwicklung (oben) aktiviert haben. Die Benachrichtigung erfolgt per E-Mail.';
+$string['adminemailexpsetting'] = '(0=disable sending email, default=2, max=5)<br />(E-Maileinstellungen bei manueller Abwicklung: cron=enabled, an_review=checked, an_capture_day=0, an_emailexpired=1-5)';
 $string['adminhelpcapturetitle'] = 'Tag für automatische Zahlung';
-$string['adminhelpreview'] = 'Wie kann ich manuell Zahlungen annehmen/zurückweisen?
-- an_review prüfen.
-- \'0\' im Feld an_capture_day eintragen.
-
-Wie werden Teilnehmer/innen sofort nach Eingabe der Kartendaten in den Kurs eingetragen?
-- Deaktivieren Sie an_review.';
 $string['adminhelpreviewtitle'] = 'Order Rückblick';
 $string['adminneworder'] = 'An den Admin,
 
@@ -78,6 +74,7 @@ $string['ccvv'] = 'Kreditkarten Überprüfung';
 $string['ccvvhelp'] = 'Schauen Sie auf der Kartenrückseite nach (letzte drei Zeichen)';
 $string['choosemethod'] = 'Wenn Sie den Zugangsschlüssel kennen, tragen Sie ihn hier ein. Im anderen Fall müssen Sie erst die Kursgebühren entrichten.';
 $string['chooseone'] = 'Füllen Sie eines oder beide Felder aus';
+$string['costdefaultdesc'] = 'Geben Sie bei den Kurseinstellungen den <strong>Wert -1 </strong> ein, um die Grundeinstellung zu verwenden.';
 $string['cutofftime'] = 'Transaktionsende. Wannn soll die letze Zahlung zur Abwicklung aufgenommen werden?';
 $string['delete'] = 'Löschen';
 $string['description'] = 'Das Authorize.net Modul erlaubt Kursgebühren über Kreditkarten abzurechnen. Wenn der Betrag für einen Kurs auf \'0\' gesetzt wird, wird die Gebührenabfrage nicht gestartet. Sie können hier einen seitenweit gültigen Betrag einsetzen, der als Grundbetrag für jeden Kurs voreingestellt ist. Diese Einstellung kann in den Kurseinstellungen überschrieben werden.';
@@ -96,6 +93,7 @@ $string['missingcctype'] = 'Kartentyp fehlt';
 $string['missingcvv'] = 'Prüfnummer fehlt';
 $string['missingzip'] = 'PostCode fehlt';
 $string['nameoncard'] = 'Name auf den die Karte ausgestellt ist';
+$string['new'] = 'Neu';
 $string['noreturns'] = 'Kein Zurück!';
 $string['notsettled'] = 'Nicht bearbeitet';
 $string['orderid'] = 'Order ID';
@@ -110,6 +108,15 @@ Dies ist ein Warnhinweis, weil Sie autocapture nicht eingerichtet haben. Die Zah
 Die offenen Zahlungen können unter $a->url bearbeitet werden.
 
 Unter $a->enrolurl kann autcapture eingerichtet werden, damit Sie künftig diese E-Mial nicht mehr erhalten.';
+$string['pendingordersemailteacher'] = 'Guten Tag,
+
+$a->pending Zahlungsvorgänge im Wert von $a->currency $a->sumcost für Kurs \"$a->course\"
+müssen innerhalb von $a->days Tagen als Zahlung akzeptiert werden.
+
+Sie müssen innerhalb dieses Zeitraums manuell die Zahlung akzeptieren oder zurückweisen.
+
+$a->url';
+$string['pendingorderssubject'] = 'HINWEIS: $a->course, $a->pending Zahlung(en) müssen innerhalb von $a->days Tag(en) bearbeitet werden.';
 $string['reason11'] = 'Eine Transaktion wurde doppelt beantragt';
 $string['reason13'] = 'Die Händler Login ID ist ungültig oder der Account ist inaktiv';
 $string['reason16'] = 'Die Transaktion wurde nicht gefunden.';
@@ -143,6 +150,23 @@ $string['transid'] = 'Transaktions-ID';
 $string['unenrolstudent'] = 'Teilnehmer/in aus Kurs austragen?';
 $string['void'] = 'Gültig';
 $string['voidyes'] = 'Ihre Transaktion wird abgebrochen. Sind Sie sicher?';
+$string['welcometocoursesemail'] = 'Liebe/r Teilnehmer/in,
+
+vielen Dank für Ihre Zahlung. Sie sind nun als Teilnehmer/in im Kurs 
+
+$a->courses
+
+eingetragen.
+Bearbeiten Sie im Kursraum bitte zunächst Ihr persönliches Profil:
+
+$a->profileurl.
+
+Die Details Ihrer Gebührenzahlung finden Sie unter: 
+$a->paymenturl.
+
+Wir wünschen Ihnen ein erfolgreiches Training.
+
+Ihre Kursverwaltung.';
 $string['youcantdo'] = 'Sie können diese Aktion nicht ausführen: $a->action';
 $string['zipcode'] = 'Zip Code/Postleitzahl';
 

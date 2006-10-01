@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // lesson.php - created with Moodle 1.7 dev (2006082900)
 
 
 $string['accesscontrol'] = 'Zugriffskonrolle';
@@ -40,7 +40,7 @@ $string['classstats'] = 'Kurs-Statistik';
 $string['clicktopost'] = 'Klicken Sie hier, um Ihre Bewertung auf der Bestenliste zu veröffentlichen.';
 $string['clusterjump'] = 'Noch nicht gesehene Frage in einem Cluster';
 $string['clustertitle'] = 'Cluster';
-$string['collapsed'] = 'Gescheitert';
+$string['collapsed'] = 'Zusammengeklappt';
 $string['comments'] = 'Ihre Anmerkungen';
 $string['commentswithname'] = '$a->firstname {$a->lastname}\'s Anmerkungen';
 $string['completed'] = 'Vollständig';
@@ -57,7 +57,6 @@ $string['correctresponse'] = 'Rückmeldung bei richtiger Antwort';
 $string['customscoring'] = 'Normale Bewertung (Punktzahl)';
 $string['deadline'] = 'Abgabezeitpunkt';
 $string['defaultessayresponse'] = 'Ihr Text wird von dem/der Trainer/in bewertet.';
-$string['deleteattempts'] = 'Zurücksetzen der Versuche für diese Lektion (user id)';
 $string['deletedefaults'] = '$a x Lektionen-Vorgaben gelöscht';
 $string['deletedpage'] = 'Gelöschte Seite';
 $string['deleting'] = 'Lösche';
@@ -93,12 +92,12 @@ $string['eolstudentoutoftimenoanswers'] = 'Sie haben keine Fragen bearbeitet. Si
 $string['essay'] = 'Text';
 $string['essayemailsubject'] = 'Ihre Bewertung für $a Frage';
 $string['essays'] = 'Texte';
-$string['essayscore'] = 'Punkte fürText';
+$string['essayscore'] = 'Punkte für Textfragen';
 $string['fileformat'] = 'Dateiformat';
 $string['firstanswershould'] = 'Die richtige Antwort sollte an der ersten Stelle stehen und zur nächsten Seite führen.';
 $string['firstwrong'] = 'Ihre Antwort ist falsch. Sie erhalten leider keinen Punkt für diese Antwort. Wollen Sie die Antwort erraten? Sie erhalten dann jedoch keinen Punkt für die Beantwortung.';
 $string['flowcontrol'] = 'Ablaufkontrolle';
-$string['full'] = 'Ausgedehnt';
+$string['full'] = 'Erweitert';
 $string['general'] = 'Generell';
 $string['grade'] = 'Bewertung';
 $string['gradebetterthan'] = 'Bewertung besser als (%%)';
@@ -128,7 +127,7 @@ $string['lessonmenu'] = 'Lektionenmenü';
 $string['lessonnotready'] = 'Diese Lektion kann noch nicht bearbeitet werden.  Nehmen Sie bitte mit $a Kontakt auf.';
 $string['lessonopen'] = 'Diese Lektion startet am $a.';
 $string['lessonopens'] = 'Lektion verfügbar';
-$string['lessonpagelinkingbroken'] = 'Die erste Seite wurde nicht gefunden. Die Verlinkung der Seite weist einen Fehler auf. Nehmen Sie mit dem Admin Kontakt auf. ';
+$string['lessonpagelinkingbroken'] = 'Die erste Seite wurde nicht gefunden. Die Verlinkung der Seite weist einen Fehler auf. Nehmen Sie mit dem Admin Kontakt auf.';
 $string['lessonstats'] = 'Lektionen-Statistik';
 $string['loginfail'] = 'Der Login ist gescheitert. Bitte versuchen Sie es noch einmal.';
 $string['lowscore'] = 'Niedrige Bewertung';

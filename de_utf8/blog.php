@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 (2006050506)
+      // blog.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['addnewentry'] = 'Neuen Eintrag hinzufügen';
@@ -19,11 +19,11 @@ $string['disableblogs'] = 'Blog-System komplett deaktivieren';
 $string['entrybody'] = 'Blogeintrag';
 $string['entrybodyonlydesc'] = 'Beschreibung';
 $string['entryerrornotyours'] = 'Dies ist nicht Ihr eigener Eintrag';
-$string['entrysaved'] = 'Ihr Eintrag wurde gespeichert';
+$string['entrysaved'] = 'Ihr Eintrag wurde gespeichert.';
 $string['entrytitle'] = 'Titel des Eintrags';
 $string['entryupdated'] = 'Eintrag aktualisiert';
 $string['groupblog'] = 'Gruppenblog: $a';
-$string['groupblogs'] = 'Nutzer/innen können nur Blogs anderer Gruppenmitglieder sehen';
+$string['groupblogs'] = 'Nutzer/innen können nur Blogs anderer Gruppenmitglieder sehen.';
 $string['intro'] = 'Der RSS-Feed wurde automatisch von einem oder mehreren Blogs erstellt.';
 $string['noentriesyet'] = 'Keine sichtbaren Einträge hier';
 $string['noguestpost'] = 'Gäste können in Blogs keine Beiträge veröffentlichen.';
@@ -39,7 +39,7 @@ $string['publishto'] = 'Veröffentlichen bis';
 $string['publishtonoone'] = 'Sie selbst (Entwurf)';
 $string['publishtosite'] = 'Jede/r auf dieser Site';
 $string['publishtoworld'] = 'Jede/r (öffentlich)';
-$string['settingsupdatederror'] = 'Es ist ein Fehler aufgetreten. Die Voreinstellungen konnten nicht aktualisiert werden. ';
+$string['settingsupdatederror'] = 'Es ist ein Fehler aufgetreten. Die Voreinstellungen konnten nicht aktualisiert werden.';
 $string['siteblog'] = 'Site-Blog: $a';
 $string['siteblogs'] = 'Alle Nutzer/innen dieses Moodles können alle Blog-Einträge sehen';
 $string['tagdatelastused'] = 'Tag an dem das Schlagwort zuletzt gebraucht wurde';
@@ -49,7 +49,7 @@ $string['timewithin'] = 'Anzeige der Schlagwörtern, die an so vielen Tagen gebr
 $string['updateentrywithid'] = 'Eintrag aktualisieren';
 $string['userblog'] = 'Nutzer/innen-Blog: $a';
 $string['viewcourseentries'] = 'Kurseinträge anzeigen';
-$string['viewmyentries'] = 'Eigene Einträge anzeigen';
+$string['viewmyentries'] = 'Meine eigenen Einträge anzeigen';
 $string['viewsiteentries'] = 'Site-Einträge anzeigen';
 $string['worldblogs'] = 'Einträge sind weltweit erreichbar und damit öffentlich';
 

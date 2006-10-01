@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006082900)
+      // quiz.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['1day'] = '1 Tag';
@@ -272,6 +272,7 @@ $string['link'] = 'Link';
 $string['listitems'] = 'Liste der Elemente des Tests';
 $string['literal'] = 'Schreibweise';
 $string['loguniform'] = 'logarithmische Verteilung der Werte';
+$string['lowmarkslimit'] = 'Nicht auswerten wenn der Wert niedriger ist als:';
 $string['makecopy'] = 'Als neue Frage abspeichern';
 $string['managetypes'] = 'Fragentypen und Server verwalten';
 $string['manualgrading'] = 'Bewertung';

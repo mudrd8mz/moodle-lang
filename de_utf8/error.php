@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006082900)
+      // error.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['adminprimarynoedit'] = 'Der Hauptadmin kann nicht von anderen bearbeitet werden';
-$string['cannotcreatelangdir'] = 'Das Verzeichnis lang kann nicht angelegt werden.';
-$string['cannotcreatetempdir'] = 'Das Verzeichnis temp kann nicht angelegt werden.';
+$string['cannotcreatelangdir'] = 'lang-Verzeichnis kann nicht angelegt werden.';
+$string['cannotcreatetempdir'] = 'Temporäres Verzeichnis kann nicht angelegt werden.';
 $string['cannotdownloadcomponents'] = 'Komponenten können nicht heruntergeladen werden.';
 $string['cannotdownloadzipfile'] = 'ZIP-Datei kann nicht heruntergeladen werden.';
 $string['cannotfindcomponent'] = 'Komponente wurde nicht gefunden.';
@@ -13,7 +13,7 @@ $string['cannotsavezipfile'] = 'ZIP-Datei konnte nicht gespeichert werden';
 $string['cannotunzipfile'] = 'Datei konnte nicht entpackt werden.';
 $string['cmunknown'] = 'Das Kursmodul wurde nicht gefunden.';
 $string['componentisuptodate'] = 'Die Komponente ist nicht aktuell.';
-$string['confirmsesskeybad'] = 'Sorry. Der Session Key für diese Aktion konnte nicht bestätigt werden. Dieses Sicherheitsfeature schützt Sie vor der nicht beabsichtigten Ausführung wichtiger Funktionen oder der Ausführung von Aktionen durch Dritte in Ihrem Namen. Bitte überzeugen sie sich, dass Sie diese Aktion wirklich ausführen wollen.';
+$string['confirmsesskeybad'] = 'Sorry. Der session key für diese Aktion konnte nicht bestätigt werden. Dieses Sicherheitsfeature schützt Sie vor der nicht beabsichtigten Ausführung wichtiger Funktionen oder der Ausführung von Aktionen durch Dritte in Ihrem Namen. Bitte überzeugen sie sich, dass Sie diese Aktion wirklich ausführen wollen.';
 $string['coursegroupunknown'] = 'Es wurde kein Kurs für Gruppe $a festgelegt';
 $string['downloadedfilecheckfailed'] = 'Prüfung der heruntergeladenen Datei ist gescheitert';
 $string['errorcleaningdirectory'] = 'Fehler beim Bereinigen des Verzeichnisses \"$a\"';
@@ -28,8 +28,8 @@ $string['filenotfound'] = 'Entschuldigung, die angeforderte Datei wurde nicht ge
 $string['forumblockingtoomanyposts'] = 'Sie haben die Höchstzahl der zulässigen Beiträge für dieses Forum erreicht.';
 $string['groupalready'] = 'Teilnehmer/in gehört bereits zur Gruppe $a';
 $string['groupunknown'] = 'Die Gruppe $a gehört nicht zum ausgewählten Kurs';
-$string['guestnoeditprofile'] = 'Der Gast-Benutzer kann nicht sein Profil verändern.';
-$string['guestnoeditprofileother'] = 'Der Profil des Gast-Benutzers kann nicht verändert werden.';
+$string['guestnoeditprofile'] = 'Gast-Nutzer/innen können ihr Profil nicht bearbeiten.';
+$string['guestnoeditprofileother'] = 'Das Profil für Gast-Nutzer/in kann nicht bearbeitet werden.';
 $string['invalidcourse'] = 'Ungültiger Kurs';
 $string['invalidfieldname'] = '\"$a\" ist ein ungültiger Feldname';
 $string['invalidfiletype'] = '\"$a\" ist ein unzulässiger Dateityp';

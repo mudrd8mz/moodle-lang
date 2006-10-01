@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // appointment.php - created with Moodle 1.4.3 (2004083130)
+      // appointment.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['allowresubmit'] = 'Wiederholung zulassen';
@@ -26,7 +26,7 @@ $string['submissionfeedback'] = 'Feedback zur Arbeit';
 $string['submissions'] = 'Arbeit';
 $string['submitappointment'] = 'Formular zum Vorschlag eines Termins';
 $string['submitted'] = 'Eingereicht';
-$string['timeend'] = 'Ende des Termins';
+$string['timeend'] = 'Beginn des Termins';
 $string['timestart'] = 'Anfang des Termins';
 $string['typeoffline'] = 'Offline Aktivität';
 $string['typeuploadsingle'] = 'Eine einzelne Datei hochladen';
