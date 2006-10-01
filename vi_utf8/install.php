@@ -131,6 +131,6 @@ $string['sessionautostarthelp'] = '<p>Moodle yêu cầu hỗ trợ session và s
 
 <p>Sessions có thể được cho phép trong file php.ini ... tìm kiếm tham số session.auto_start.</p>';
 $string['wwwroot'] = 'Địa chỉ web';
-$string['wwwrooterror'] = ' Địa chỉ web không xuất hiện hợp lệ - Các file cài đặt Moodle không xuất hiện ở đó.';
+$string['wwwrooterror'] = ' Địa chỉ web không hợp lệ - Các file cài đặt Moodle không xuất hiện ở đó.';
 
 ?>
