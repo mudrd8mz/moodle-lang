@@ -366,9 +366,9 @@ vào dòng địa chỉ ở trên đỉnh của của sổ trình duyệt web.
 Nếu bạn cần trợ giúp, vui lòng liên lạc lại với quản trị viên của site,
 $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: xác nhận mật khẩu thay đổi';
-$string['emailpasswordconfirmsent'] = 'Một email nên được gửi tới địa chỉ của bạn ở <b>$a</b>.
-<br />Nó chứa các hướng dẫn dễ dùng để xác nhận và hoàn thành việc thay đổi mật khẩu này.
-Nếu bạn gặp khó khăn vui lóng liên lạc lại với nhà quản trị Site.';
+$string['emailpasswordconfirmsent'] = 'Một email đã được gửi tới địa chỉ của bạn ở <b>$a</b>.
+<br />Nó chứa các hướng dẫn dễ dùng để xác nhận và hoàn thành việc thay đổi mật khẩu.
+Nếu bạn gặp khó khăn vui lóng liên lạc với quản trị Site.';
 $string['emailpasswordsent'] = 'Cám ơn bạn đã xác nhận việc thay đổi mật khẩu.
 Một email chứa mật khẩu mới của bạn vừa được gửi tới địa chỉ của bạn ở <br /><b>$a->email</b>.<br />
 Mật khẩu mới được tự động tạo ra - bạn có muốn
@@ -1100,12 +1100,12 @@ $string['weekshow'] = 'Hiện tuần này tới $a';
 $string['welcometocourse'] = 'Chào mừng bạn đến với $a';
 $string['welcometocoursetext'] = 'Chào mừng bạn đến với $a->coursename!
 
-Nếu bạn chưa làm nó, bạn nên soạn thảo trang hồ sơ cá nhân của bạn 
+Nếu bạn chưa hoàn thành các chi tiết hồ sơ cá nhân, bạn nên soạn thảo trang hồ sơ cá nhân của bạn 
 trong khóa học để chúng tôi có thể biết nhiều hơn về bạn:
 
   $a->profileurl';
-$string['whattocallzip'] = 'What do you want to call the zip file?';
-$string['withchosenfiles'] = 'với lựa chọn các file';
+$string['whattocallzip'] = 'Bạn muốn đặt tên cho file zip như thế nào?';
+$string['withchosenfiles'] = 'với các file được lựa chọn';
 $string['withoutuserdata'] = 'không bao gồm dữ liệu người dùng';
 $string['withselectedusers'] = 'Với những người dùng được chọn';
 $string['withuserdata'] = 'với dữ liệu người dùng';
@@ -1134,6 +1134,6 @@ $string['youaregoingtorestorefrom'] = 'Bạn sắp bắt đầu khôi phục quy
 $string['yourlastlogin'] = 'Đăng nhập cuối cùng của bạn là';
 $string['yourself'] = 'chính mình';
 $string['yourteacher'] = '$a của bạn';
-$string['zippingbackup'] = 'Zipping backup';
+$string['zippingbackup'] = 'Đóng gói sao lưu';
 
 ?>

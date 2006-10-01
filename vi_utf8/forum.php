@@ -27,7 +27,7 @@ $string['couldnotupdate'] = ' Không thể cập nhật bài viết của bạn 
 $string['delete'] = 'Xoá';
 $string['deleteddiscussion'] = ' Chủ đề thảo luận bị xóa';
 $string['deletedpost'] = ' bài viết bị xóa ';
-$string['deletesure'] = 'Bạn có chắc chắn muốn xóa bài viết đó ?';
+$string['deletesure'] = 'Bạn chắc chắn muốn xóa bài viết đó ?';
 $string['digestmailheader'] = ' Đây là sự tóm tắt các bài viết mới hàng ngày từ  $a-> sitename các diễn đàn. Để thay đổi email diễn đàn đẹp hơn, đi tới $a->userprefs.';
 $string['digestmailprefs'] = ' Hồ sơ cá nhân ';
 $string['digestmailsubject'] = '$a: Phân loại diễn đàn';
@@ -93,7 +93,7 @@ $string['openmode1'] = ' Không có các cuộc thảo luận nhưng có các ph
 $string['openmode2'] = ' Có các cuộc thảo luận và các phúc đáp';
 $string['parent'] = ' Xem bài được phúc đáp ';
 $string['parentofthispost'] = ' Nguồn gốc của bài viết này';
-$string['postadded'] = ' Bài viết của bạn được gửi thành công.<p>Bạn có $a để chỉnh sửa nó nếu bạn muốn thay đổi nó.';
+$string['postadded'] = ' Bài viết của bạn được gửi thành công.<p>Bạn có $a để chỉnh sửa nếu bạn muốn thay đổi nội dung.';
 $string['postincontext'] = 'Nhìn bài viết này trong ngữ cảnh';
 $string['postmailinfo'] = ' Đây là một bản copy của phúc đáp được gửi lên trên  $a website.
 
