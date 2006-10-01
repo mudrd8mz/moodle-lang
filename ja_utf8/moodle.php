@@ -571,7 +571,7 @@ $string['gd1'] = 'GD 1.xインストール済';
 $string['gd2'] = 'GD 2.xインストール済';
 $string['gdneed'] = 'このグラフを表示するためにはGDのインストールが必要です。';
 $string['gdnot'] = 'GD未インストール';
-$string['gettheselogs'] = 'ログを取得';
+$string['gettheselogs'] = 'これらのログを取得する';
 $string['go'] = 'Go';
 $string['gpl'] = 'Copyright (C) 1999 onwards Martin Dougiamas (http://moodle.com)
 
