@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006092800)
+      // moodle.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['action'] = '操作';
@@ -1353,7 +1353,7 @@ $string['usernotconfirmed'] = '$a を確認できませんでした。';
 $string['userprofilefor'] = '$a のプロフィール';
 $string['users'] = 'ユーザ';
 $string['usersnew'] = '新しいユーザ';
-$string['usersnoaccesssince'] = '一定期間以上活動していないユーザを表示';
+$string['usersnoaccesssince'] = '次の期間以上活動していない';
 $string['userzones'] = 'ユーザゾーン';
 $string['usethiscourse'] = 'このコースを使用する';
 $string['usingexistingcourse'] = '既存のコースを使用する';
