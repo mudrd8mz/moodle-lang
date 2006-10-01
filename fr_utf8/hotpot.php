@@ -65,6 +65,10 @@ $string['enterafilename'] = 'Veuillez saisir un nom de fichier';
 $string['copytoclipboard'] = 'Copier dans le presse-papier';
 $string['copiedtoclipboard'] = 'Le contenu de cette page a été copié dans le presse-papier';
   	   	 
+// lib.php (calendar events)
+$string['hotpotcloses'] = 'Le test Hot Potatoes se termine';
+$string['hotpotopens'] = 'Le test Hot Potatoes s\'ouvre';
+
   	 // lib.php (status)
 $string['noactivity'] = 'Aucune activité';
 $string['inprogress'] = 'En cours';
