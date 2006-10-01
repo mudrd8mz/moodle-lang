@@ -68,6 +68,7 @@ $string['noassignments'] = '課題はまだありません。';
 $string['noattempts'] = 'この課題はまだ提出されていません。';
 $string['nofiles'] = 'ファイルが提出されていません。';
 $string['nofilesyet'] = 'まだファイルが提出されていません。';
+$string['notavailableyet'] = '申し訳ございません、この課題はまだ利用できません。<br />課題のインストラクションは、下記の開始日時以降、ここに表示されます。';
 $string['notes'] = 'メモ';
 $string['notesempty'] = 'エントリなし';
 $string['notesupdateerror'] = 'メモの更新中にエラーが発生しました。';
