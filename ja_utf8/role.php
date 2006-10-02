@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006092800)
+      // role.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -21,6 +21,7 @@ $string['category:delete'] = 'カテゴリを削除する';
 $string['category:update'] = 'カテゴリを更新する';
 $string['category:visibility'] = '非表示のカテゴリを表示する';
 $string['course:activityvisibility'] = '活動を表示/非表示する';
+$string['course:bulkmessaging'] = '多くのユーザにメッセージを送信する';
 $string['course:create'] = 'コースを作成する';
 $string['course:delete'] = 'コースを削除する';
 $string['course:manageactivities'] = '活動を管理する';
@@ -28,12 +29,12 @@ $string['course:managefiles'] = 'ファイルを管理する';
 $string['course:managegrades'] = '評定を管理する';
 $string['course:managegroups'] = 'グループを管理する';
 $string['course:managemetacourse'] = 'メタコースを管理する';
-$string['course:managescales'] = '尺度を管理する';
+$string['course:managescales'] = '評価尺度を管理する';
 $string['course:reset'] = 'コースをリセットする';
 $string['course:sectionvisibility'] = 'セクションの視認性をコントロールする';
 $string['course:setcurrentsection'] = '最新のトピックを設定する';
 $string['course:update'] = 'コース設定を更新する';
-$string['course:useremail'] = 'メールアドレスを有効/無効にできる';
+$string['course:useremail'] = 'メールアドレスを有効/無効にする';
 $string['course:view'] = 'コースを表示する';
 $string['course:viewcoursegrades'] = 'コース評定を表示する';
 $string['course:viewhiddenactivities'] = '非表示の活動を表示する';
@@ -88,6 +89,7 @@ $string['roles'] = 'ロール';
 $string['roletoassign'] = '割り当てるロール';
 $string['roletooverride'] = 'オーバーライドするロール';
 $string['selectrole'] = 'ロールを選択';
+$string['showallroles'] = 'すべてのロールを表示する';
 $string['site:accessallgroups'] = 'すべてのグループにアクセスする';
 $string['site:approvecourse'] = 'コース作成を承認する';
 $string['site:backup'] = 'コースをバックアップする';
@@ -106,6 +108,7 @@ $string['site:viewreports'] = 'レポートを表示する';
 $string['user:create'] = 'ユーザを作成する';
 $string['user:delete'] = 'ユーザを削除する';
 $string['user:editprofile'] = 'ユーザプロフィールを編集する';
+$string['user:loginas'] = '別のユーザとしてログインする';
 $string['user:readuserblogs'] = 'すべてのユーザブログを表示する';
 $string['user:readuserposts'] = 'すべてのユーザ投稿を表示する';
 $string['user:update'] = 'ユーザプロフィールを更新する';
