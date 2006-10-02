@@ -1,6 +1,9 @@
 <?php // $Id$
 
 // begin {added with admin cleanup}
+$string['search'] = 'Recherche';
+$string['searchresults'] = 'Résultats';
+$string['noresults'] = 'Aucun résultat trouvé.';
 $string['accounts'] = 'Comptes';
 $string['appearance'] = 'Apparence';
 $string['server'] = 'Serveur';
