@@ -1,7 +1,7 @@
 <?php // $Id$ 
 
 $string['allowdeleting'] = 'Permettre la suppression';
-$string['allowmaxfiles'] = 'Nombre max de fichiers déposés';
+$string['allowmaxfiles'] = 'Nombre maximal de fichiers déposés';
 $string['allownotes'] = 'Permettre les notes';
 $string['allowmultiple'] = 'Permettre plusieurs fichiers'; // Legacy, to delete in 1.7dev
 $string['allowresubmit'] = 'Permettre plusieurs remises d\'un devoir';
