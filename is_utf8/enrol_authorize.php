@@ -3,6 +3,7 @@
 
 
 $string['adminacceptccs'] = 'Hvaða tegundir korta eru heimilaðar';
+$string['adminauthorizesettings'] = 'Authorize.net stillingar';
 $string['amount'] = 'Upphæfð';
 $string['anlogin'] = 'Authorize.net notendanafn';
 $string['anpassword'] = 'Authorize.net lykilorð';

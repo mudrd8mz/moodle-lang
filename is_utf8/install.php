@@ -10,6 +10,7 @@ $string['chooselanguagesub'] = 'Veldu tungumál sem þú vilt nota við uppsetni
 $string['compatibilitysettings'] = 'Athuga stillingar á PHP ...';
 $string['compatibilitysettingshead'] = 'Stillingar á PHP athugaðar';
 $string['compatibilitysettingssub'] = 'Vefþjóninn verður að standast allar þessar prófanir til þess að tryggja að Moodle keyri án vandkvæða';
+$string['configfilenotwritten'] = 'Uppsetningarforritið gat ekki myndað config.php skránna sem hefur að geyma stillingar vefsins. Líklegast vegna þess að skrifheimild vantar á Moodle skráarsafnið. Þú getur leyst þetta með að búa til skránna config.php í rót vefins og afritað eftirfarandi kóða í hana.';
 $string['configfilewritten'] = 'config.php skráin hefur verið mynduð';
 $string['configurationcompletesub'] = 'Moodle gerði tilraun til þess að vista uppsetningarskránna í rót Moodle skráarsafnins.';
 $string['database'] = 'Gagnagrunnur';
@@ -51,6 +52,7 @@ $string['dbhost'] = 'Vefþjónn';
 $string['dbpass'] = 'Lykilorð';
 $string['dbprefix'] = 'fortáknun taflna';
 $string['dbtype'] = 'Tegund';
+$string['dbwrongencoding'] = 'Kótun á uppgefnum gagnagrunni er af tegund ($a) sem ekki er mælt með. Betri kostur er að notast gagnagrunn með Unicode (UTF-8) kótun. Þú getur engu að síður haldið uppsetningunni áfram með því haka við \"Sleppa prófun á gagnagrunni\" hér að neðan, en mátt þá eiga von á vandamálum síðar.';
 $string['directorysettingshead'] = 'Vinsamlegast staðfestu staðsetningu á þessari Moodle uppsetningu';
 $string['dirroot'] = 'Moodle skráarsafnið';
 $string['dirrooterror'] = 'Ekki tókst að finna Moodle uppsetningu í uppgefnu Moodle skráarsafni. Gildið hér að neðan hefur verið endursett.';
@@ -58,7 +60,7 @@ $string['download'] = 'Sækja';
 $string['downloadlanguagebutton'] = 'Sækja \"$a\" tungumálapakkann';
 $string['downloadlanguagehead'] = 'Sækja tungumálapakka';
 $string['downloadlanguagenotneeded'] = 'Þú getur haldið áfram með uppsetninguna með sjálfgefnum tungumálapakka, \"$a\".';
-$string['downloadlanguagesub'] = 'Núna hefur þú kost á því að sækja tungumálapakka og halda uppsetningunni áfram á því tungumáli.<br /><br />
+$string['downloadlanguagesub'] = 'Nú hefur þú kost á því að sækja tungumálapakka og halda uppsetningunni áfram á því tungumáli.<br /><br />
 Ef þú getur ekki sótt tungumálapakkann þá heldur uppsetningarferlið áfram á ensku. Eftir að uppsetningu lýkur getur þú sótt og sett upp önnur tungumál.';
 $string['fail'] = 'Ekki staðið';
 $string['gdversion'] = 'GD útgáfa';
@@ -80,6 +82,7 @@ $string['phpversionhelp'] = '<p>Moodle requires a PHP version of at least 4.3.0 
 (Ef þú notar útgáfu 5.0.x gætir þú hugsanlega breytt yfir í 4.4.x)</p>';
 $string['safemode'] = 'Safe Mode';
 $string['safemodeerror'] = 'Moodle getur átt í vandræðum ef \"Save mode\" stillingin er virkjuð';
+$string['welcomep10'] = '$a->installername ($a->installerversion)';
 $string['welcomep70'] = 'Smelltu á \"Áfram\" hnappinn hér að neðan til þess að halda áfram uppsetningunni á <strong>Moodle</strong>.';
 $string['wwwroot'] = 'Vefslóð';
 

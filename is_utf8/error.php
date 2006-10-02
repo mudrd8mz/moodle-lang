@@ -35,6 +35,7 @@ $string['invalidmd5'] = 'Ótækt md5';
 $string['invalidxmlfile'] = '\"$a\" er ekki gild XML skrá';
 $string['missingfield'] = 'Reitur \"$a\" er auður';
 $string['missingrequiredfield'] = 'Einhverjir reitir eru enn óútfylltir';
+$string['modulemissingcode'] = '$a inniheldur ekki þann kóða sem þarf til þess að framkvæma þessa aðgerð';
 $string['modulerequirementsnotmet'] = 'Ekki var hægt að setja upp \"$a->modulename\" ($a->moduleversion) eininguna. Einingin krefst nýrri útgáfu af Moodle (núverandi útgáfa er $a->currentmoodle, en þú þarft að setja upp útgáfu $a->requiremoodle).';
 $string['mustbeteacher'] = 'Einungis kennarar geta birt þessa síðu';
 $string['noinstances'] = 'Það eru engin tilfelli af $a í þessum áfanga!';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6 Beta 5 (2006050504)
+      // forum.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['addanewdiscussion'] = 'Nú umræða';
@@ -42,7 +42,7 @@ $string['deletesure'] = 'Viltu örugglega eyða þessu innleggi?';
 $string['deletesureplural'] = 'Viltu örugglega eyða þessu innleggi og öllum svörum? ($a innlegg)';
 $string['digestmailheader'] = 'Hér er daglegt yfirlit yfir ný innlegg í umræðum vefsins: $a->sitename . Veldu $a->userprefs ef þú vilt breyta stillingum þínum.';
 $string['digestmailprefs'] = 'Notendaupplýsingar';
-$string['digestmailsubject'] = 'Yfirlit yfir umræður í: $a ';
+$string['digestmailsubject'] = 'Yfirlit yfir umræður í: $a';
 $string['digestsentusers'] = 'Samantekt send til $a notenda.';
 $string['disallowsubscribe'] = 'Áskriftir eru ekki heimilaðar';
 $string['disallowsubscribeteacher'] = 'Áskriftir eru ekki heimilaðar (nema kennurum)';
@@ -58,7 +58,7 @@ $string['displayperiod'] = 'Birta tímabil';
 $string['displaystart'] = 'Birta upphaf';
 $string['eachuserforum'] = 'Hver þátttakandi hefur eina umræðu';
 $string['edit'] = 'Breyta';
-$string['editedby'] = ' $a->name breytti þann - $a->date';
+$string['editedby'] = '$a->name breytti þann - $a->date';
 $string['editing'] = 'Breyti';
 $string['emptymessage'] = 'Eitthvað var athugavert við sendinguna. Ef til vill vantaði allan texta eða viðhengið var of stórt. Breytingar hafa EKKI verið vistaðar.';
 $string['everyonecanchoose'] = 'Öllum er heimil áskrift að þessari umræðu';
@@ -79,7 +79,7 @@ $string['forumtype'] = 'Tegund umræðu';
 $string['generalforum'] = 'Almenn umræða';
 $string['generalforums'] = 'Almennar umræður';
 $string['inforum'] = 'í $a';
-$string['intronews'] = 'Almenntar fréttir og tilkynningar';
+$string['intronews'] = 'Almennar fréttir og tilkynningar';
 $string['introsocial'] = 'Opin umræða um hvaðeina sem þig langar að ræða um';
 $string['introteacher'] = 'Lokaður vettvangur, einungis ætlaður kennurum';
 $string['lastpost'] = 'Síðustu umræður';
@@ -94,7 +94,7 @@ $string['markunreadbutton'] = 'Merkja<br />ólesið';
 $string['maxattachmentsize'] = 'Hámarksstærð viðhengis';
 $string['maxtimehaspassed'] = 'Því miður, tíminn til að breyta innlegginu ($a) er runninn út!';
 $string['message'] = 'Skilaboð';
-$string['missingsearchterms'] = 'Eftirfarandi leitarorð birtist/birtast einungis sem hluti af HTML kóða þessa innleggs: ';
+$string['missingsearchterms'] = 'Eftirfarandi leitarorð birtist/birtast einungis sem hluti af HTML kóða þessa innleggs:';
 $string['modeflatnewestfirst'] = 'Birta svör sem einfalda lista, nýjustu fyrst.';
 $string['modeflatoldestfirst'] = 'Birta svör sem einfalda lista, elstu fyrst';
 $string['modenested'] = 'Birta svör á undirskipupu sniði';
@@ -114,7 +114,7 @@ $string['noguesttracking'] = 'Því miður, þessi aðgerð er ekki heimil fyrir
 $string['nomorepostscontaining'] = 'Ekki fundust fleiri innlegg sem innihéldu \'$a\'';
 $string['nonews'] = 'Engar fréttir';
 $string['noposts'] = 'Engar umræður';
-$string['nopostscontaining'] = 'Engin innlegg fundust sem innihéldu \'$a\' ';
+$string['nopostscontaining'] = 'Engin innlegg fundust sem innihéldu \'$a\'';
 $string['noquestions'] = 'Það eru engar spurningar í þessari umræðu';
 $string['nosubscribers'] = 'Það eru engir áskrifendur að þessari umræðu';
 $string['nothingnew'] = 'Ekkert nýtt fyrir $a';
@@ -138,12 +138,12 @@ $string['parent'] = 'Fyrirrennari';
 $string['parentofthispost'] = 'Foreldri þessa innleggs';
 $string['postadded'] = 'Innlegg þitt hefur verið móttekið.<p>þú hefur $a til að gera á því breytingar</p>';
 $string['postincontext'] = 'Sýna þetta innlegg í samhengi';
-$string['postmailinfo'] = 'This is a copy of a message posted on the $a website.
-To add your reply via the website, click on this link:';
+$string['postmailinfo'] = 'Þetta er afrit af innleggi sem sent var á $a vefinn.
+Smelltu á krækjuna til að svara þessu innleggi á vefnum.';
 $string['postmailnow'] = '<p>Þetta innlegg verður nú þegar sent öllum áskrifendum umræðunnar í tölvupósti.</p>';
-$string['postrating1'] = 'Shows mostly SEPARATE knowing';
-$string['postrating2'] = 'Equally separate and connected';
-$string['postrating3'] = 'Shows mostly CONNECTED knowing';
+$string['postrating1'] = 'Sýnir aðallega aðgreinda þekkingu';
+$string['postrating2'] = 'Jöfn aðgreind og tengd þekking';
+$string['postrating3'] = 'Sýnir aðallega tengda þekkingu';
 $string['posts'] = 'Innlegg';
 $string['posttoforum'] = 'Innlegg í umræðu';
 $string['postupdated'] = 'Innleggið hefur verið uppfært';
@@ -187,9 +187,9 @@ $string['searcholderposts'] = 'Leita í eldri umræðum...';
 $string['searchphrase'] = 'Þessi texti verður að birtast í heild sinni';
 $string['searchresults'] = 'Niðurstöður leitar';
 $string['searchsubject'] = 'Þessi orð eiga að vera í umræðutitli';
-$string['searchuser'] = 'Höfundurinn skal heita';
-$string['searchuserid'] = 'ID tala höfundar er';
-$string['searchwhichforums'] = 'Veldu í hvaða umræðum skal leita';
+$string['searchuser'] = 'Nafn höfundar';
+$string['searchuserid'] = 'Auðkennitala höfundar';
+$string['searchwhichforums'] = 'Í hvaða umræðum skal leita';
 $string['searchwords'] = 'Þessi orð geta birst hvar sem er í innlegginu';
 $string['seeallposts'] = 'Sjá öll innlegg frá þessum notanda';
 $string['sendinratings'] = 'Send in my latest ratings';

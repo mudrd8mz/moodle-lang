@@ -104,6 +104,7 @@ $string['configsmtpuser'] = 'Ef skilgreindur var SMTP póstþjónn hér að ofan
 $string['configstatsmaxruntime'] = 'Úrvinnsla tölfræðilegra upplýsinga getur verið mjög krefjandi fyrir vefþjóna. Þessi reitur og sá sem á eftir kemur ákvarðar hvenær þessi vinnsla er keyrð og hversu lengi.';
 $string['configstatsruntimestart'] = 'Hvenær dags á að gangsetja cron-vinnsluna sem sér um tölfræðilega úrvinnslu úr leiðarbókum vefsins?';
 $string['configteacherassignteachers'] = 'Á að heimila almennum kennurum að bæta kennurum við eigin áfanga? Ef valið er \'nei\' er það einungis á valdi áfangastjóra og kerfisstjóra að skilgreina kennara.';
+$string['configthemelist'] = 'Skildu þennan reit óútfylltan ef þú vilt heimila notkun á öllum þemum. Ef þú vilt takmarka notkun á þemum við fyrirfram ákveðin þemu getur þú skráð nöfn þeirra hér og aðskilið með kommum (ath. engin bil!). Til dæmis: standard, orangewhite.';
 $string['configunzip'] = 'Gefðu upp staðsetninguna á afþjöppunarhugbúnaðinum (aðeins Unix, valkvæmt). Hugbúnaður sá sem hér er tilgreindur verður þá notaður til þess að afþjappa .zip skrám á vefþjóninum. Ef reiturinn er skilinn auður notast Moodle við sjálfgefið afþjöppunarforrit.';
 $string['configvariables'] = 'Breytur';
 $string['configwarning'] = 'Hafðu varann á þegar þú breytir þessum gildum - röng gildi geta haft vandamál í för með sér.';
@@ -186,6 +187,7 @@ $string['pathtopsql'] = 'Slóð að psql';
 $string['pathtopsqldesc'] = 'Þetta er einungis nauðynlegt ef fleiri en eitt psql er til staðar (t.d. ef fleiri en ein útgáfa af postgresql er uppsett)';
 $string['pathtopsqlinvalid'] = 'Ótæk slóð að psql - annað hvort er slóðin röng eða ekki er vísað á keyrsluskrá';
 $string['pgcluster'] = 'PostgreSQL klasi';
+$string['php50restricted'] = 'PHP 5.0.x inniheldur villur, vinsamlegast upfærðu í útgáfu 5.1.x eða niður í útgáfu 4.3.x eða 4.4.x';
 $string['pleaseregister'] = 'Vinsamlegast skráðu vefinn til að losna við þennan hnapp';
 $string['releasenoteslink'] = 'Allar frekari upplýsingar um þessa útgáfu af Moodle má finna <a target=\"_new\" href=\"$a\">hér</a>';
 $string['remotelangnotavailable'] = 'Þar sem Moodle getur ekki tengst download.moodle.org vefnum er sjálfvirk innsetning á tungumáli ekki möguleg. Vinsamlegast sæktu viðkomandi zip skrá(r) af listanum hér að neðan. Afritaðu skránar yfir í $a skráarsafnið og afþjappaðu.';
@@ -194,6 +196,7 @@ $string['sitemaintenance'] = 'Vefurinn er ekki opinn þessa stundina þar sem un
 $string['sitemaintenancemode'] = 'Uppfærsluhamur';
 $string['sitemaintenanceoff'] = 'Vefurinn er ekki lengur í uppfærsluham.';
 $string['sitemaintenanceon'] = 'Vefurinn er í uppfærsluham (einungis kerfisstjórar geta skráð sig inn og notað vefinn).';
+$string['sitemaintenancewarning'] = 'Vefurinn er í uppfærsluham (einungis kerfisstjórar geta skráð sig inn). <a href=\"maintenance.php\">Smelltu hér</a> til að færa vefinn úr uppfærsluham.';
 $string['stickyblocks'] = 'Fastar blokkir';
 $string['stickyblockscourseview'] = 'Áfangasíða';
 $string['stickyblocksduplicatenotice'] = 'Ef blokk sem hér er bætt við er þegar til staðar á einhverri síðu verða til tvær samskonar blokkir á viðkomandi síðu. <br /> Í slíkum tilfellum er ekki hægt að sýsla með föstu blokkina.';

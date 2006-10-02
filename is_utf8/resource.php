@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // resource.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['addresource'] = 'Nýtt efni';
@@ -43,6 +43,7 @@ $string['imspackageloaded'] = 'Efnispakka hefur verið hlaðið inn';
 $string['localfile'] = 'Staðvær skrá';
 $string['localfilechoose'] = 'Veldu staðværa skrá (CD-ROM)';
 $string['localfilehelp'] = 'Hjálp við að birta staðværar skrár';
+$string['localfileinfo'] = '<p>Veldu staðværa skrá sem vistuð er á tölvunni þinni. Skráin verður ekki færð yfir á vefþjónin, en Moodle mun leita eftir sömu skrá á tölvu notenda.</p><p>Þessi aðgerð kemur helst að notum þegar um stórar skrár er að ræða sem vistaðar eru á geisladiskum sem þú dreifir til allra nemenda. Hver nemandi getur valið eigin slóð að slíkum skrám með því að  <a href=\"$a\" target=\"_blank\">breyta notendaskráningu sinni</a>.</p>';
 $string['localfileselect'] = 'Velja þessa slóð';
 $string['maindirectory'] = 'Megin skráarsafn';
 $string['modulename'] = 'Aðfang';
