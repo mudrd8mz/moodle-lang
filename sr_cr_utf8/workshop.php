@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.6.1+ (2006050512)
+      // workshop.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['absent'] = 'Одсутан';
@@ -306,6 +306,8 @@ $string['weightforteacherassessments'] = 'Тежинска вредност пр
 $string['weights'] = 'Тежинске вредности';
 $string['weightsusedforfinalgrade'] = 'Тежинске вредности коришћене за коначну оцену';
 $string['weightsusedforsubmissions'] = 'Тежинске вредности коришћене за предата решења';
+$string['workshop:manage'] = 'Управљање подешавањима';
+$string['workshop:participate'] = 'Учествовање у радионици';
 $string['workshopagreedassessments'] = 'Потврђене процене радионице';
 $string['workshopassessments'] = 'Процене радионице';
 $string['workshopcomments'] = 'Коментари радионице';

@@ -1,11 +1,13 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.6.1+ (2006050512)
+      // access.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['access'] = 'Приступачност';
 $string['accesshelp'] = 'Помоћ за приступ';
 $string['accesskey'] = 'Приступна лозинка, $a';
 $string['accessstatement'] = 'Изјава о приступачности';
+$string['activitynext'] = 'Следећа активност';
+$string['activityprev'] = 'Претходна активност';
 $string['breadcrumb'] = 'Навигациона путања';
 $string['monthnext'] = 'Следећи месец';
 $string['monthprev'] = 'Претходни месец';

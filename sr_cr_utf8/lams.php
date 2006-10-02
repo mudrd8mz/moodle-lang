@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.6 + (2006050506)
+      // lams.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['createSequence'] = 'Креирање новог редоследа';
@@ -7,6 +7,8 @@ $string['editSequence'] = 'Уређивање изабраног редосле�
 $string['error'] = 'Жао нам је, дошло је до непознате грешке.';
 $string['introduction'] = 'Увод';
 $string['lams'] = '-- LAMS -- Систем за управљање активностима за учење';
+$string['lams:manage'] = 'Управљање LAMS активностима';
+$string['lams:participate'] = 'Учествовање у LAMS активностима';
 $string['lamsoutline'] = 'LAMS преглед';
 $string['lesson'] = 'сесија учења';
 $string['modulename'] = 'LAMS';

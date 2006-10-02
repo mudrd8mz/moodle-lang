@@ -45,6 +45,7 @@ $string['anreferer'] = 'Дефинишите URL за преусмеравање
 $string['antestmode'] = 'Покретање транскација искључиво у тест моду (неће доћи до подизања новца)';
 $string['antrankey'] = 'Authorize.net: Кључ за трансакцију';
 $string['authcaptured'] = 'Ауторизовано/Прихваћено';
+$string['authorize:managepayments'] = 'Управљење уплатама';
 $string['authorizedpendingcapture'] = 'Ауторизовано/Чека на прихватање';
 $string['avsa'] = 'Адреса (улица) се уклапа, али не и поштански број';
 $string['avsb'] = 'Нису дате информације о адреси';
