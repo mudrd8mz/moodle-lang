@@ -1,6 +1,7 @@
 <?php // $Id$
 
 // begin {added with admin cleanup}
+$string['autologinguests'] = 'Connecter automatiquement les invités';
 $string['search'] = 'Recherche';
 $string['searchresults'] = 'Résultats';
 $string['noresults'] = 'Aucun résultat trouvé.';
