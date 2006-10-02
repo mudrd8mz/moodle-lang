@@ -36,6 +36,7 @@ $string['roletoassign'] = 'Rôle à attribuer';
 $string['roles'] = 'Rôles';
 $string['roletooverride'] = 'Rôle à court-circuiter';
 $string['selectrole'] = 'Sélectionner un rôle';
+$string['showallroles'] = 'Afficher tous les rôles';
 $string['viewrole'] = 'Afficher les détails du rôle';
 $string['xuserswiththerole'] = 'Utilisateurs ayant le rôle «&nbsp;$a->role&nbsp;»&nbsp;: $a->number';
 
