@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.6.1+ (2006050512)
+      // block_rss_client.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['addfeed'] = 'Dodavanje URL-a izvora vesti';
 $string['addheadlineblock'] = 'Dodavanje RSS bloka sa naslovima';
 $string['addnew'] = 'Dodajte novi';
+$string['blockname'] = 'RSS klijent';
 $string['choosefeedlabel'] = 'Izaberite izvore vesti čije korišćenje želite da omogućite u ovom bloku:';
 $string['clientchannellink'] = 'Izvorni sajt...';
 $string['clientnumentries'] = 'Podrazumevani broj stavki za prikaz po izvoru vesti.';
@@ -31,7 +32,12 @@ $string['managefeeds'] = 'Upravljanje svim mojim izvorima vesti';
 $string['nofeeds'] = 'Nema RSS izvora vesti definisanih za ovaj sajt.';
 $string['pickfeed'] = 'Uzimanje izvora vesti.';
 $string['remotenewsfeed'] = 'Udaljeni izvor vesti';
+$string['rss_client:createprivatefeeds'] = 'Kreiranje privatnih RSS izvora';
+$string['rss_client:createsharedfeeds'] = 'Kreiranje deljenih RSS izvora';
+$string['rss_client:manageanyfeeds'] = 'Upravljanje proizvoljnim RSS izvorima';
+$string['rss_client:manageownfeeds'] = 'Upravljanje sopstvenim RSS izvorima';
 $string['seeallfeeds'] = 'Prikaz svih izvora vesti';
+$string['sharedfeed'] = 'Deljeni izvor';
 $string['shownumentrieslabel'] = 'Maksimalan broj stavki za prikaz po bloku.';
 $string['submitters'] = 'Ko ima dozvolu da definiše nove RSS izvore vesti? Definisani izvori vesti su raspoloživi svakoj stranici Vašeg sajta.';
 $string['timeout'] = 'blockrsstimeout';

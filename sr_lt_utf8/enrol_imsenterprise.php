@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6 + (2006050506)
+      // enrol_imsenterprise.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['aftersaving...'] = 'Jednom kad ste sačuvali svoja podešavanja, možda ćete poželeti da';
@@ -18,6 +18,7 @@ $string['filelockedmail'] = 'Tekstualnu datoteku korišćenu za IMS-bazirane upi
 $string['filelockedmailsubject'] = 'Važna greška: Datoteka upisa';
 $string['fixcasepersonalnames'] = 'Sva lična imena čuvati zapisana velikim početnim slovima';
 $string['fixcaseusernames'] = 'Sva korisnička imena čuvati zapisana malim slovima';
+$string['imsrolesdescription'] = 'IMS Enterprise specifikacija obuhvata 8 različitih tipova uloga. Molimo izaberite kako želite da se one  dodeljuju u okviru ovog Moodle sajta, kao i da li bi neke od njih trebale biti ignorisane.';
 $string['location'] = 'Lokacija datoteke';
 $string['logtolocation'] = 'Lokacija za datoteku sa zapisima o korišćenju (prazno ako se ne kreiraju takvi zapisi)';
 $string['mailadmins'] = 'Obavestiti administratora e-poštom';

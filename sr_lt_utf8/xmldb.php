@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // xmldb.php - created with Moodle 1.6.2 (2006050520)
 
 
@@ -19,7 +19,6 @@ $string['confirmdeletexmlfile'] = 'Da li ste potpuno sigurni da želite da obri�
 $string['confirmrevertchanges'] = 'Da li ste potpuno sigurni da želite da poništite promene načinjene tokom:';
 $string['create'] = 'Kreiranje';
 $string['createtable'] = 'Kreiranje tabele';
-$string['defaultincorrect'] = " ";
 $string['delete'] = 'Brisanje';
 $string['delete_field'] = 'Brisanje polja';
 $string['delete_index'] = 'Brisanje indeksa';
@@ -56,6 +55,9 @@ $string['load'] = 'Učitavanje';
 $string['main_view'] = 'Glavni prikaz';
 $string['missingfieldsinsentence'] = 'Nedostaju polja u rečenici';
 $string['missingvaluesinsentence'] = 'Nedostaju vrednosti u rečenici';
+$string['mustselectonefield'] = 'Morate odabrati jedno polje da biste videli akcije koje se odnose na polja!';
+$string['mustselectoneindex'] = 'Morate odabrati jedan indeks da biste videli akcije koje se odnose na indekse!';
+$string['mustselectonekey'] = 'Morate odabrati jedan ključ da biste videli akcije koje se odnose na ključeve!';
 $string['new_statement'] = 'Nova izjava';
 $string['new_table_from_mysql'] = 'Nova tabela iz MySQL-a';
 $string['newfield'] = 'Novo polje';
@@ -75,6 +77,7 @@ $string['save'] = 'Sačuvati';
 $string['selectaction'] = 'Izaberite akciju:';
 $string['selectdb'] = 'Izaberite bazu podataka:';
 $string['selectfieldkeyindex'] = 'Izaberite polje/ključ/indeks:';
+$string['selectonecommand'] = 'Molimo odaberite jednu akciju sa navedenog spiska da biste videli odgovarajući PHP kod';
 $string['selectonefieldkeyindex'] = 'Molimo izaberite jedno polje/ključ/indeks iz liste da biste videli PHP kod';
 $string['selecttable'] = 'Izaberite tabelu:';
 $string['sentences'] = 'Rečenice';
@@ -102,4 +105,3 @@ $string['wrongnumberoffieldsorvalues'] = 'Netačan broj polja ili vrednosti u re
 $string['wrongreservedwords'] = 'Trenutno korišćene rezervisane reči<br />(primetite da nazivi tabela nizu važni ukoliko koristite $CFG->prefix)';
 
 ?>
-

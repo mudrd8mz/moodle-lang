@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6.1+ (2006050512)
+      // wiki.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['action'] = '-- Akcija --';
@@ -94,6 +94,7 @@ $string['linkok'] = 'U redu';
 $string['linkschecked'] = 'Linkovi su provereni';
 $string['listall'] = 'Prikaži sve';
 $string['listcandidates'] = 'Spisak kandidata';
+$string['lockcancelled'] = 'Vaše zaključavanje je prepisano i neko drugi sad uređuje ovu stranicu. Ako želite da sačuvate svoje promene, molimo označite ih i kopirajte pre nego što kliknete na opciju za odustajanje od promena; a onda pokušajte ponovo sa uređivanjem.';
 $string['meta'] = 'Meta podaci';
 $string['moduledirectory'] = 'Direktorijum modula';
 $string['modulename'] = 'Wiki';
@@ -105,6 +106,7 @@ $string['noadministrationaction'] = 'Nema akcije date od administratora.';
 $string['nocandidatestoremove'] = 'Nema stranica koje su kandidati za premeštanje, izaberite \'$a\' da biste prikazali sve stranice.';
 $string['nochangestorevert'] = 'Bez promena koje se mogu poništiti.';
 $string['nohtml'] = 'Bez HTML-a';
+$string['nojslockwarning'] = 'Pošto je Javascript isključen u Vašem čitaču, može se dogoditi da neko drugi u isto vreme kad i Vi može da uređuje ovu stranicu. Ako do toga dođe, nećete moći da da sačuvate svoje promene. Molimo pokušajte da ih načinite što je brže moguće, ili da omogućite Javascript i ponovo učitate stranicu.';
 $string['nolinksfound'] = 'Nije pronađen nijedan link na stranici.';
 $string['noregexp'] = 'Ovo mora biti precizno navedena potpuna reč (ne možete koristiti * ili regularni izraz), najbolje je da koristite IP adrese ili ime servera napadača, ali ne navodite broj porta (zato što se povećava sa svakim http pristupom).';
 $string['notadministratewiki'] = 'Nije Vam dopušteno da administrirate ovaj wiki!';
@@ -116,10 +118,13 @@ $string['optional'] = 'Opciono';
 $string['orphanedpage'] = 'Preostala stranica';
 $string['orphanedpages'] = 'Preostale stranice';
 $string['otherwikis'] = 'Drugi wikiji';
+$string['overridebutton'] = 'Prepisati zaključavanje';
+$string['overrideinfo'] = 'Možete da prepišete zaključavanje ovog korisnika, ali time ćete postići to da on(a) izgubi svoje promene! Molimo vodite računa o tome.';
 $string['ownerunknown'] = 'nepoznat';
 $string['pageactions'] = 'Akcije stranice';
 $string['pageindex'] = 'Indeks stranice';
 $string['pageinfo'] = 'Informacija o stranici';
+$string['pagelocked'] = '<p><strong>Ovu stranicu uređuje korisnik $a->name.</strong> Taj korisnik je počeo sa unošenjem promena u $a->since i još nije završio sesiju.</p><p>Morate sačekati da je završi pre nego što počnete uređivanje ove stranice.</p>';
 $string['pagename'] = 'Naziv stranice';
 $string['pagenamechoice'] = '- ili -';
 $string['pageslinkingto'] = 'Stranice povezane sa ovom';
@@ -144,6 +149,7 @@ $string['revertpagescheck'] = 'Da li stvarno želite da poništite sledeće prom
 $string['revertthe'] = 'Snižavanje verzije, ali uz uklanjanje samo one koja je oštećena';
 $string['safehtml'] = 'Bezbedan HTML';
 $string['save'] = 'Sačuvaj';
+$string['savenolock'] = 'Ne možete sačuvati ovu stranicu jer je niste zaključali za uređivanje. To je obično slučaj kad nije omogućen Javascript u Vašem čitaču, ili kad neki drugi korisnik prepiše Vaše zaključavanje.<br/><br/>Možete se vratiti na prethodni ekran korišćenjem dugmeta za povratak Vašeg čitača i kopirati sve promene koje ste uneli, a onda pokušati ponovo sa uređivanjem.';
 $string['searchwiki'] = 'Pretraži Wiki';
 $string['setpageflags'] = 'Postavi oznake stranice';
 $string['showversions'] = 'Prikazi verzija:';
@@ -177,6 +183,9 @@ $string['versionstodelete'] = 'Verzija(e) za brisanje';
 $string['viewpage'] = 'Prikaži stranicu';
 $string['viewsmfor'] = 'Prikaži mapu sajta za';
 $string['wantedpages'] = 'Tražene stranice';
+$string['wiki:manage'] = 'Upravljenje wiki podešavanjima';
+$string['wiki:overridelock'] = 'Prepisivanje zaključanih stranica';
+$string['wiki:participate'] = 'Uređivanje wiki stranica';
 $string['wikidefaultpagename'] = 'Wiki indeks';
 $string['wikiexport'] = 'Izvezi stranice';
 $string['wikiexportcomment'] = 'Ovde možete konfigurisati izvoz prema sopstvenim potrebama.';
