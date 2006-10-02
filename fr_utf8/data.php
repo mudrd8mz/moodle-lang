@@ -37,6 +37,7 @@ $string['data:approve'] = 'Approuver des fiches';
 $string['data:manageentries'] = 'Gérer les fiches';
 $string['data:managecomments'] = 'Gérer les commentaires';
 $string['data:managetemplates'] = 'Gérer les modèles';
+$string['data:viewalluserpresets'] = 'Voir les préréglages de tous les utilisateurs';
 $string['data:viewrating'] = 'Voir les évaluations';
 $string['data:viewentry'] = 'Voir les articles';
 $string['date'] = 'Date';
@@ -197,7 +198,8 @@ $string['fieldmappings'] = 'Correspondances des champs';
 $string['mappingwarning'] = 'Les anciens champs qui ne sont pas mis en correspondance avec un nouveau champ seront perdus, ainsi que toutes les données qu\'ils contiennent.';
 $string['blank'] = 'Vide';
 
-$string['presetwarning'] = 'L\'enregistrement en tant que préréglage publie ce modèle sur tout le site. Tous les utilisateurs pourront l\'utiliser dans leurs bases de données.';
+$string['presetwarning'] = 'L\'enregistrement en tant que préréglage publie ce modèle sur tout le site. Tous les utilisateurs pourront l\'utiliser dans leurs bases de données.'; // Legacy, to delete for 1.7
+$string['presetinfo'] = 'L\'enregistrement en tant que préréglage publiera ce modèle. D\'autres utilisateurs pourront l\'utiliser dans leurs bases de données.';
 $string['deletewarning'] = 'Vouslez-vous vraiment supprimer ce préréglage&nbsp;?';
 $string['importsuccess'] = 'Le préréglage a été mis en place correctement.';
 $string['addentries'] = 'Ajouter des fiches';
