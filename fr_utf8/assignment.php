@@ -61,6 +61,7 @@ $string['helpoffline'] = '<p>Cette option est utile pour une tâche à effectuer
 $string['helponline'] = '<p>Ce type de devoir permet de demander à l\'étudiant d\'écrire un texte à l\'aide d\'outils d\'édition habituels. Les enseignants peuvent noter les travaux en ligne, ajouter des commentaires dans le texte ou y effectuer des modifications.</p> <p>(Si vous connaissez bien les versions antérieures de Moodle, vous observerez que ce type de devoir offre la même fonction que l\'ancien module <i>Journal</i>.)</p>';
 $string['helpupload'] = '<p>Ce type de devoir permet à chaque participant de déposer un ou plusieurs fichiers de n\'importe quel type.</p><p>Ces fichiers peuvent être par exemple des documents PDF ou Word, ou des images, un site web compressé ou n\'importe quoi d\'autre.</p><p>Ce type de devoir vous permet également de déposer plusieurs fichiers de différents types, comme retour de devoir.</p>'; // ATTENTION, to modify in 1.7dev
 $string['helpuploadsingle'] = '<p>Ce type de devoir permet à chaque participant de déposer un fichier de n\'importe quel type.</p> <p>Ce peut être par exemple un document PDF ou Word, ou une image, un site web compressé ou n\'importe quoi d\'autre.</p>';
+$string['hideintro'] = 'Cacher la description avant la date de disponibilité';
 $string['late'] = 'En retard de $a';
 $string['markingsubmitnotification'] = 'Le fichier a été remis correctement pour être noté.'; // Legacy, to delete in 1.7dev
 $string['maximumgrade'] = 'Note maximale';
