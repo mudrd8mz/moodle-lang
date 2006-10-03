@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 dev (2006092600)
+      // resource.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['addresource'] = 'Kaynak ekle';
@@ -9,6 +9,9 @@ $string['browserepository'] = 'Ambara gözat';
 $string['choose'] = 'Seç';
 $string['chooseafile'] = 'Seç veya bir dosya yükle';
 $string['chooseparameter'] = 'Parametre seç';
+$string['configautofilerenamesettings'] = 'Dosya yöneticisinde isim değiştirildiğinde dosyalara ve klasörlere bağlantıları otomatikmen güncelle.';
+$string['configblockdeletingfilesettings'] = 'Kaynaklar tarafından bağlantıları olan dosya ve klasörlerin silinmesini engelle. Lütfen, HTML dosyalarındaki resim ve diğer dosya bağlantılarının korunmayacığını dikkate alın.';
+$string['configdefaulturl'] = 'URL-temelli yeni bir kaynak oluşturulduğunda bu değer URL adresini önceden dolduracaktır.';
 $string['configpopupdirectories'] = 'Açılır pencereler dizin bağlantılarını gösterecek mi?';
 $string['configpopupheight'] = 'Yeni açılır pencereler için varsayılan yükseklik ne olsun?';
 $string['configpopuplocation'] = 'Açılır pencereler adres çubuğunu gösterecek mi?';
@@ -28,6 +31,7 @@ $string['emptyfolder'] = 'Boş klasör';
 $string['encryptedcode'] = 'Şifrelenmiş kod';
 $string['example'] = 'Örnek';
 $string['exampleurl'] = 'http://www.ornek.com/ornekdizin/dosya.html';
+$string['fetchclienterror'] = 'Web sayfasını isterken web istemcinizde bir hata meydana geldi (muhtemelen yanlış URL).';
 $string['fetcherror'] = 'Web sayfası alınırken bir hata bulundu';
 $string['fetchservererror'] = 'Uzaktaki sunucudan bir web sayfası alınırken bir hata bulundu (muhtemelen program hatası)';
 $string['filename'] = 'Dosya adı';
@@ -104,5 +108,7 @@ $string['upbutton'] = 'Yukarı';
 $string['variablename'] = 'Değişken adı';
 $string['viewims'] = 'IMS İçerik Paketine bak';
 $string['vol'] = 'Cilt';
+$string['warningblockingdelete'] = 'Uyarı: Silme işlemi mevcut bir kaynak tarafından engelleniyor. İlk önce kaynağınızı güncelleyin ya da yöneticinizden Kaynak Yapılandırmasından bu güvenlik  mekanizmasını kaldırmasını isteyin.';
+$string['warningdisabledrename'] = 'Uyarı: Kaynaklardaki bağlantıların isimlerini otomatik değiştirme etkin değil. Gerek duyuyorsanız kaynakların isimlerini elle güncelleyin. Yönetici, Kaynak Yapılandırmasından otomatik isim değiştirmeyi etkinleştirebilir.';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.7 dev (2006092600)
+      // wiki.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['action'] = '-- Eylem --';
@@ -104,6 +104,7 @@ $string['noadministrationaction'] = 'Yönetim eylemi yok.';
 $string['nocandidatestoremove'] = 'Silinecek aday sayfası yok, tüm sayfaları göstermek için \'$a\' seçin.';
 $string['nochangestorevert'] = 'Geri çevrilecek bir şey yok.';
 $string['nohtml'] = 'HTML yok';
+$string['nojslockwarning'] = 'Tarayıcınızın Javascript desteği etkinleştirilmediği  için başka birisi bu sayfayı düzenleyebilir. Bu olursa, değişikliklerinizi kaydedemezsiniz. Lütfen değişiklikleri hızlı bir şekilde yapmaya çalışın ya da Javascripti açıp bu sayfayı yeniden yükleyin.';
 $string['nolinksfound'] = 'Bu sayfada bağlantı yok';
 $string['notadministratewiki'] = 'Bu wikiyi yönetme izniniz yok!';
 $string['nothingtostrip'] = 'Bu sürümden daha fazla sayfa yok';
@@ -140,6 +141,7 @@ $string['revertpages'] = 'Toplu değişiklikleri geri al';
 $string['revertpagescheck'] = 'Aşağıdaki değişiklikleri geri almak istediğinizden emin misiniz?';
 $string['safehtml'] = 'Güvenli HTML';
 $string['save'] = 'Kaydet';
+$string['savenolock'] = 'Mevcut bir düzenleme kilidiniz olmadığından dolayı sayfayı kaydemezsiniz. Bu sadece tarayıcınızın javascript desteği kapalıysa veya başka bir kullanıcı sizin kilidinizi geçersiz kılarsa olur. <br /><br />Tarayıcınızın geri tuşuna basarak önceki ekrana dönebilir ve yapılan değişiklikleri kopyala/yapıştır yapıp tekrar düzenlemeye çalışabilirsiniz.';
 $string['searchwiki'] = 'Wiki Ara';
 $string['setpageflags'] = 'Sayfa bayraklarını ayarla';
 $string['showversions'] = 'Sürümleri göster:';

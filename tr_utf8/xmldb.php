@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 dev (2006092600)
+      // xmldb.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['aftertable'] = 'Tablodan Sonra:';
@@ -57,7 +57,7 @@ $string['missingfieldsinsentence'] = 'Tümcede alanlar eksik';
 $string['missingvaluesinsentence'] = 'Tümcede değerler eksik';
 $string['mustselectonefield'] = 'Alan ilişkili eylemleri görmek için bir alan seçmelisiniz!';
 $string['mustselectoneindex'] = 'Index ilişkili eylemleri görmek için bir index seçmelisiniz!';
-$string['mustselectonekey'] = 'Anahtar ilişkili eylemleri görmek için bir alan seçmelisiniz!';
+$string['mustselectonekey'] = 'Anahtar ilişkili eylemleri görmek için bir anahtar seçmelisiniz!';
 $string['new_statement'] = 'Yeni Tümce';
 $string['new_table_from_mysql'] = 'MySQL\'den Yeni Tablo';
 $string['newfield'] = 'Yeni Alan';
