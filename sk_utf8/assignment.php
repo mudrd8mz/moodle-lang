@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6 development (2005053000)
+      // assignment.php - created with Moodle 1.6.2+ (2006050521)
 
 
+$string['allowmultiple'] = 'Povoliť viacero súborov';
 $string['allowresubmit'] = 'Povoliť opätovné odovzdanie zadania';
 $string['assignmentdetails'] = 'Podrobnosti zadania';
 $string['assignmentmail'] = '$a->teacher poslal komentár na Vami vypracované zadanie \'$a->assignment\'
@@ -16,17 +17,26 @@ Nájdete ho pripojený k Vášmu
 <a href=\"$a->url\">vypracovanému zadaniu</a>.';
 $string['assignmentname'] = 'Názov zadania';
 $string['assignmenttype'] = 'Typ zadania';
+$string['attachfile'] = 'Pripojiť súbor';
+$string['attachfiletoassignment'] = 'Pripojiť súbor(y) k zadaniu';
 $string['availabledate'] = 'Dostupné od';
+$string['backtoassignment'] = 'Naspäť k zadaniu';
+$string['backtofeedback'] = 'Naspäť k hodnoteniu';
+$string['choosereviewfile'] = 'Vyberte súbor na nahranie na server:';
 $string['comment'] = 'Komentár';
 $string['commentinline'] = 'Vložený komentár';
+$string['configitemstocount'] = 'Jednotky, v ktorých bude udávaný rozsah odovzdaných prác u zadaní typu \'online text\'.';
 $string['configmaxbytes'] = 'Maximálna veľkosť zadania pre všetky vypracované zadania na stránke (s ohľadom na obmedzenia kurzu a ostatné miestne nastavenia)';
+$string['deletecheckfile'] = 'Ste si úplne istý(á), že chcete vymazať tento súbor?';
+$string['deleteednotification'] = 'Súbor bol vymazaný.';
+$string['deletefail'] = 'Nasledovný súbor nebol vymazaný:';
 $string['description'] = 'Popis';
 $string['duedate'] = 'Dátum, do ktorého treba zaslať vypracované zadanie';
 $string['duedateno'] = 'Bez uzávierky zasielania vypracovaných zadaní';
 $string['early'] = '$a včas';
 $string['editmysubmission'] = 'Upraviť moje vypracované zadanie';
-$string['emailteachermail'] = '	
-$a->username aktualizoval zaslanie vypracovaného zadania pre \'$a->assignment\'
+$string['emailstudents'] = 'Email študentom';
+$string['emailteachermail'] = '$a->username aktualizoval zaslanie vypracovaného zadania pre \'$a->assignment\'
 
 Je dostupné tu:
 
@@ -39,31 +49,58 @@ $string['failedupdatefeedback'] = 'Nepodarilo sa aktualizovať komentár na vypr
 $string['feedback'] = 'Komentár';
 $string['feedbackfromteacher'] = 'Komentár od $a';
 $string['feedbackupdated'] = 'Komentár na vypracované zadania bol aktualizovaný pre $a ľudí';
-$string['helpoffline'] = '	<p>Túto voľbu je vhodné použiť, ak vypracovávate zadanie mimo prostredia Moodle. Môže to byť kdekoľvek na webe alebo systémom tvárou-v-tvár.</p><p>Študenti si môžu prezrieť popis zadania, ale nemôžu preniesť žiadne súbory ani čokoľvek iné. Systém známkovania funguje normálne a študenti budú oboznámení so svojimi známkami.</p>';
+$string['graded'] = 'Hodnotené';
+$string['guestnosubmit'] = 'Ľutujem, ale hostia nemôžu odovzdávať zadania. Prosím, prihláste/zaregistrujte sa.';
+$string['guestnoupload'] = 'Ľutujem, ale hostia nemôžu nahrávať súbory';
+$string['helpoffline'] = '<p>Túto voľbu je vhodné použiť, ak vypracovávate zadanie mimo prostredia Moodle. Môže to byť kdekoľvek na webe alebo systémom tvárou-v-tvár.</p><p>Študenti si môžu prezrieť popis zadania, ale nemôžu preniesť žiadne súbory ani čokoľvek iné. Systém známkovania funguje normálne a študenti budú oboznámení so svojimi známkami.</p>';
 $string['helponline'] = '<p>Tento typ zadania vyžaduje od študentov, aby si upravili text využitím štandardných nástrojov na to určených. Učitelia ich môžu známkovať hneď (online) a môžu k tomu dokonca pridávať rôzne komentáre, alebo zmeny.</p>
  <p>(Ak máte skúsenosti so staršími verziami Moodle, tento Typ zadania má rovnaké možnosti a funkcie ako mal modul Písomná práca.)</p>';
+$string['helpupload'] = '<p>Tento typ zadania dovoľuje každému študentovi nahrať jeden alebo viacero súborov ľubovoľného typu.</p> 
+   <p>Môžu to byť textové dokumenty, obrázky, pakované web stránky, alebo hocičo, čo ich požiadate vložiť.</p>
+   <p>Tiež to dovolí učiteľovi vložiť jeden alebo viacero súborov ako odpoveď.</p>';
 $string['helpuploadsingle'] = '<p>Tento typ zadania povoľuje každému účastníkovi preniesť si jeden súbor akéhokoľvek typu.</p> <p>Toto môže byť dokument textového editoru Word, obrázok, zozipovaná wwww stránka alebo čokoľvek iné, čo nariadite študentom, aby Vám odoslali.</p>';
 $string['late'] = '$a neskoro';
+$string['markingsubmitnotification'] = 'Súbor bol úspešne zaslaný na hodnotenie.';
 $string['maximumgrade'] = 'Maximálna známka';
 $string['maximumsize'] = 'Maximálna veľkosť';
 $string['modulename'] = 'Zadanie';
 $string['modulenameplural'] = 'Zadania';
+$string['namedeletefile'] = 'Chystáte sa vymazať tento súbor:';
 $string['newsubmissions'] = 'Zadania odovzdané';
 $string['noassignments'] = 'Ešte nie sú žiadne zadania';
 $string['noattempts'] = 'Ešte nikto sa nepokúsil vypracovať toto zadanie';
+$string['nofilesforsubmit'] = 'Žiaden súbor nebol nájdený na zaslanie - ste si istý(á), že ste nejaký vložili?';
 $string['notgradedyet'] = 'Ešte neoznámkované';
 $string['notsubmittedyet'] = 'Ešte neodovzdané';
+$string['onceassignmentsent'] = 'Ak je zadanie poslané na hodnotenie, už sa nebude dať súbor vymazať alebo pripojiť nový.';
 $string['overwritewarning'] = 'Upozornenie: Opätovné odovzdanie zadania NAHRADÍ Vašu predchádzajúcu verziu (pôvodné zadanie bude odstránené)';
-$string['preventlate'] = 'Predchádzať neskorým odovzdávaniam zadaní ';
+$string['pagesize'] = 'Počet hodnotení na strane';
+$string['preventlate'] = 'Predchádzať neskorým odovzdávaniam zadaní';
+$string['quickgrade'] = 'Dovoliť rýchle hodnotenie';
+$string['removelink'] = 'Vymazať';
+$string['responsefile'] = 'Súbor odozvy:';
+$string['responsesfromteacher'] = 'Odpovede (súbory) nahrané učiteľom';
 $string['saveallfeedback'] = 'Uložiť všetky moje komentáre';
+$string['sendformarking'] = 'Poslať na hodnotenie';
+$string['step1'] = 'Krok 1:';
+$string['step2'] = 'Krok 2:';
 $string['submission'] = 'Odovzdané zadanie';
 $string['submissionfeedback'] = 'Komentár na odovzdanú úlohu';
 $string['submissions'] = 'Odovzdané zadania';
 $string['submissionsaved'] = 'Vaše zmeny boli uložené';
+$string['submissionsnotgraded'] = '$a zadaní nehodnotených';
+$string['submissionstatus'] = 'Stav odoslania zadania:';
+$string['submissionstatusblank'] = 'Prázdne';
+$string['submissionstatusdraft'] = 'Pracovná verzia';
+$string['submissionstatusmarked'] = 'Ohodnotené';
+$string['submissionstatusreturned'] = 'Vrátené';
+$string['submissionstatussubmitted'] = 'Zaslané';
 $string['submitassignment'] = 'Odovzdajte Vaše zadanie prostredníctvom tohto formulára';
+$string['submitformarking'] = 'Poslať zadanie na hodnotenie';
 $string['submitted'] = 'Zadanie bolo odovzdané';
-$string['typeoffline'] = 'Činnosť offline ';
+$string['typeoffline'] = 'Činnosť offline';
 $string['typeonline'] = 'Online text';
+$string['typeupload'] = 'Pokročilé prenášanie súborov';
 $string['typeuploadsingle'] = 'Preniesť jeden súbor';
 $string['uploadbadname'] = 'Tento názov súboru obsahoval zvláštne znaky a nemohol byť prenesený';
 $string['uploadedfiles'] = 'prenesené súbory';
@@ -73,6 +110,7 @@ $string['uploadfiletoobig'] = 'Prepáčte, ale tento súbor je priveľký (limit
 $string['uploadnofilefound'] = 'Súbor nebol nájdený. Určite ste vybrali súbor na prenesenie?';
 $string['uploadnotregistered'] = '\'$a\' bol prenesený v poriadku, ale nebol nájdený záznam o odovzdaní zadania!';
 $string['uploadsuccess'] = '\'$a\' bol prenesený úspešne';
+$string['uploadsuccessresponse'] = 'Súbor s odpoveďou úspešne nahraný';
 $string['viewfeedback'] = 'Zobraziť hodnotenie odovzdaného zadania a komentáre k nemu';
 $string['viewsubmissions'] = 'Zobraziť $a odovzdaných zadaní';
 $string['yoursubmission'] = 'Vaše zadanie';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 development (2005060201)
+      // glossary.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['addcomment'] = 'Pridať komentár';
@@ -25,7 +25,7 @@ $string['cantinsertcat'] = 'Nemožno vložiť kategóriu';
 $string['cantinsertrec'] = 'Nemožno vložiť záznam';
 $string['cantinsertrel'] = 'Nemožno vložiť prepojenie kategória-položka';
 $string['casesensitive'] = 'Táto položka rozlišuje používanie veľkých a malých písmen';
-$string['categories'] = 'Kategórie ';
+$string['categories'] = 'Kategórie';
 $string['category'] = 'Kategória';
 $string['categorydeleted'] = 'Kategória bola odstránená';
 $string['categoryview'] = 'Prechádzať podľa kategórie';
@@ -35,13 +35,13 @@ $string['cnfapprovalstatus'] = 'Určte implicitný stav schvaľovania položiek 
 $string['cnfcasesensitive'] = 'Určte, či sa bude u prepájaných položiek implicitne zohľadňovať používanie veľkých a malých písmen';
 $string['cnfdefaulthook'] = 'Vyberte východiskový výber pre prvé zobrazenie slovníku';
 $string['cnfdefaultmode'] = 'Vyberte východiskový rámec pre prvé zobrazenie slovníku.';
-$string['cnffullmatch'] = 'Určte, či má u automatického prepájania implicitne odpovedať celá položka cieľovému textu ';
+$string['cnffullmatch'] = 'Určte, či má u automatického prepájania implicitne odpovedať celá položka cieľovému textu';
 $string['cnflinkentry'] = 'Určte, či má byť položka implicitne automaticky prepájaná';
 $string['cnflinkglossaries'] = 'Určte, či má byť slovník implicitne automaticky prepojený';
 $string['cnfrelatedview'] = 'Vyberte spôsob zobrazovania automatického prepájania a prehliadania položiek (záznamov)slovníku.';
 $string['cnfshowgroup'] = 'Určte, či mjú byť zobrazované oddeľovače skupín alebo nie.';
 $string['cnfsortkey'] = 'Vyber východiskový kľúč pre triedenie';
-$string['cnfsortorder'] = 'Vybrať východiskový postup pri triedení ';
+$string['cnfsortorder'] = 'Vybrať východiskový postup pri triedení';
 $string['cnfstudentcanpost'] = 'Určte, či môžu študenti implicitne pridávať nové položky do slovníka alebo nie';
 $string['comment'] = 'Komentár';
 $string['commentdeleted'] = 'Komentár bol odstránený.';
@@ -80,7 +80,7 @@ $string['entbypage'] = 'Počet položiek na stránke';
 $string['entries'] = 'Položky';
 $string['entrieswithoutcategory'] = 'Položky bez kategórie';
 $string['entry'] = 'Položka';
-$string['entryalreadyexist'] = 'Položka už existuje ';
+$string['entryalreadyexist'] = 'Položka už existuje';
 $string['entryapproved'] = 'Položka bola schválená';
 $string['entrydeleted'] = 'Položka bola odstránená';
 $string['entryexported'] = 'Položka bola úspešne exportovaná';
@@ -99,8 +99,8 @@ $string['explainimport'] = 'Musíte určiť súbor, ktorý sa má importovať a 
 <p>Vložte znovu Vašu požiadavku a skontrolujte si výsledky importu.</p>';
 $string['explainspecial'] = 'Ukazuje položky, ktoré nezačínajú písmenom';
 $string['exportedentry'] = 'Exportované položky';
-$string['exportedfile'] = 'Exportovaný súbor';
 $string['exportentries'] = 'Exportovať položky';
+$string['exportfile'] = 'Exportovať položky do súboru';
 $string['exportglossary'] = 'Exportovať slovník';
 $string['exporttomainglossary'] = 'Exportovať do hlavného slovníka';
 $string['filetoimport'] = 'Importovať zo súboru';
@@ -110,7 +110,6 @@ $string['fullmatch'] = 'Vyhľadať iba celé slová';
 $string['globalglossary'] = 'Všeobecný slovník';
 $string['glossaryleveldefaultsettings'] = 'Východiskové nastavenie pre slovník';
 $string['glossarytype'] = 'Typ slovníku';
-$string['glosssaryexported'] = 'Slovník bol exportovaný.';
 $string['importcategories'] = 'Importovať kategórie';
 $string['importedcategories'] = 'Importované kategórie';
 $string['importedentries'] = 'Importované položky';
@@ -153,8 +152,8 @@ $string['secondaryglossary'] = 'Vedľajší slovník';
 $string['sendinratings'] = 'Odoslať moje najnovšie hodnotenia';
 $string['showall'] = 'Zobraziť  \'VŠETKY\' prepojenia';
 $string['showalphabet'] = 'Zobraziť abecedu';
-$string['showspecial'] = 'Zobraziť prepojenie \'Špeciálnych\'  znakov ';
-$string['sortby'] = 'Triediť podľa ';
+$string['showspecial'] = 'Zobraziť prepojenie \'Špeciálnych\'  znakov';
+$string['sortby'] = 'Triediť podľa';
 $string['sortbycreation'] = 'Podľa dátumu vytvorenia';
 $string['sortbylastupdate'] = 'Podľa dátumu poslednej aktualizácie';
 $string['sortchronogically'] = 'Triediť chronologicky';

@@ -1,27 +1,72 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 development (2005060201)
+      // error.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['adminprimarynoedit'] = 'Ostatní administrátori nemôžu upravovať údaje hlavného administrátora';
-$string['confirmsesskeybad'] = 'Ľutujeme, ale klúču Vášho sedenia (session) nebolo povolené vykonať túto akciu. Toto bezpečnostné opatrenie zabraňuje náhodnému alebo zákernému spúšťaniu dôležitých funkcií pod Vašim menom. Prosím, uistite sa, že skutočne chcete spustiť túto funkciu.';
+$string['cannotcreatelangdir'] = 'Nie je možné vytvoriť adresár pre jazykové súbory.';
+$string['cannotcreatetempdir'] = 'Nie je možné vytvoriť dočasný adresár.';
+$string['cannotdownloadcomponents'] = 'Nie je možné stiahnuť komponenty.';
+$string['cannotdownloadzipfile'] = 'Nie je možné stiahnuť súbor ZIP.';
+$string['cannotfindcomponent'] = 'Komponent nenájdený.';
+$string['cannotsavemd5file'] = 'Nie je možné uložiť súbor MD5.';
+$string['cannotsavezipfile'] = 'Nie je možné uložiť súbor ZIP.';
+$string['cannotunzipfile'] = 'Nie je možné dekomprimovať súbor.';
+$string['cmunknown'] = 'Tento modul kurzu nebol nájdený';
+$string['componentisuptodate'] = 'Komponent je aktuálny.';
+$string['confirmsesskeybad'] = 'Ľutujeme, ale kľúču Vášho sedenia (session) nebolo povolené vykonať túto akciu. Toto bezpečnostné opatrenie zabraňuje náhodnému alebo zákernému spúšťaniu dôležitých funkcií pod Vašim menom. Prosím, uistite sa, že skutočne chcete spustiť túto funkciu.';
 $string['coursegroupunknown'] = 'Nebol určený kurz zodpovedajúci skupine $a';
+$string['downloadedfilecheckfailed'] = 'Kontrola stiahnutého súboru dopadla negatívne';
+$string['errorcleaningdirectory'] = 'Chyba pri vymazávaní adresára \"$a\"';
+$string['errorcopyingfiles'] = 'Chyba pri kopírovaní súborov';
+$string['errorcreatingdirectory'] = 'Chyba pri vytváraní adresára \"$a\"';
+$string['errorcreatingfile'] = 'Chyba pri vytváraní súboru \"$a\"';
 $string['erroronline'] = 'Chyba na riadku $a';
+$string['errorreadingfile'] = 'Chyba pri čítaní súboru\"$a\"';
+$string['errorunzippingfiles'] = 'Chyba pri odzipovaní súborov';
 $string['fieldrequired'] = '\"$a\" je povinné pole';
 $string['filenotfound'] = 'Ľutujeme, požadovaný súbor sa nenašiel';
+$string['forumblockingtoomanyposts'] = 'Prekročili ste limit vložených príspevkov pre toto fórum.';
 $string['groupalready'] = 'Používateľ už je členom skupiny $a';
 $string['groupunknown'] = 'Skupina $a nebola priradená k určenému kurzu';
+$string['guestnoeditprofile'] = 'Užívateľ \"host\" nemôže upravovať svoj profil';
+$string['guestnoeditprofileother'] = 'Profil užívateľa \"host\" nie je možné upravovať';
+$string['invalidcourse'] = 'Neplatný kurz';
 $string['invalidfieldname'] = '\"$a\" nie je platný názov poľa';
+$string['invalidfiletype'] = '\"$a\" nie je platný typ súboru';
+$string['invalidmd5'] = 'Neplatný MD5 hash';
+$string['invalidxmlfile'] = '\"$a\" není platný XML soubor';
 $string['missingfield'] = 'Chýba pole \"$a\"';
+$string['missingrequiredfield'] = 'Chýba niektoré z povinných polí';
+$string['modulemissingcode'] = 'Modul $a nemá k dispozícii kód potrebný pre vykonanie tejto operácie.';
 $string['modulerequirementsnotmet'] = 'Modul \"$a->modulename\" ($a->moduleversion) nemohol byť nainštalovaný. Vyžaduje novšiu verziu Moodle (používate verziu $a->currentmoodle, potrebujete $a->requiremoodle).';
+$string['mustbeteacher'] = 'Prístup na túto stránku je povolený iba učiteľom';
+$string['noinstances'] = 'V tomto kurze sa nevyskytuje žiadná inštancia $a!';
+$string['nonmeaningfulcontent'] = 'Nesmyselný obsah';
+$string['noparticipatorycms'] = 'Pre váš účet nie sú dostupné žiadne moduly kurzu, u ktorých je možné viesť záznamy v protokoloch.';
 $string['notavailable'] = 'Momentálne nie je dostupné';
+$string['onlyadmins'] = 'Túto operáciu sú oprávnení vykonať iba administrátori.';
+$string['onlyeditingteachers'] = 'Túto operáciu sú oprávnení vykonať iba učitelia s právom úprav.';
 $string['onlyeditown'] = 'Môžete upravovať len vlastné údaje';
+$string['pagenotexist'] = 'Neočakávaná chyba (požadovaná stránka neexistuje).';
+$string['pleasereport'] = 'Ak môžete, pošlite nám prosím správu s opisom operácie, ktorú ste sa pokúšali vykonať a ktorá viedla k chybe:';
+$string['pluginrequirementsnotmet'] = 'Zásuvný modul \"$a->pluginname\" ($a->pluginversion) sa nepodarilo nainštalovať -- vyžaduje vyššiu verziu Moodle (používate verziu $a->currentmoodle, potrebujete verziu $a->requiremoodle).';
 $string['processingstops'] = 'Tu sa ukončilo spracovávanie. Zostávajúce záznamy boli ignorované.';
+$string['remotedownloadnotallowed'] = 'Nahrávanie komponentov na server nie je povolené (direktíva allow_url_fopen je v stave \'vypnuté\').<br /><br />Musíte súbor stiahnuť <a href=\"$a->url\">$a->url</a> ručne, skopírovat ho na serveri do umiestnenia \"$a->dest\" a tam ho dekomprimovať.';
 $string['restricteduser'] = 'Ľutujeme, ale súčasnému účtu \"$a\" nebolo dovolené toto previesť.';
+$string['sendmessage'] = 'Odoslať správu';
 $string['sessionerroruser'] = 'Boli ste príliš dlho nečinný a Vaše prihlásenie sa stalo neplatným. Prosím prihláste sa znovu.';
+$string['sessionerroruser2'] = 'Objavila sa chyba na serveri, která ovplyvňuje vaše prihlásenie. Prosím, prihláste sa znova alebo reštartujte váš prohliadač.';
 $string['sessionipnomatch'] = 'Ľutujeme, ale Vaše IP číslo sa od Vášho prvého prihlásenia zmenilo. Toto bezpečnostné opatrenie zabraňuje útočníkom vydávať sa za prihláseného používateľa. Bežným používateľom by sa táto správa nemala zobraziť - kontaktujte Vášho administrátora a požiadajte ho o pomoc.';
+$string['statscatchupmode'] = 'Prebieha spracovanie štatistík. Doteraz boli spracované štatistiky za $a->daysdone dní, ešte ostáva $a->dayspending dní. Skúste neskôr!';
 $string['unknowncourse'] = 'Neznámy kurz s názvom \"$a\"';
+$string['unknownuseraction'] = 'Nerozumiem tejto inštrukcii';
 $string['usernotaddederror'] = 'Používateľ \"$a\" nebol pridaný - neznáma chyba';
 $string['usernotaddedregistered'] = 'Používateľ \"$a\" nebol pridaný - už sa zaregistroval';
 $string['usernotavailable'] = 'Informácie o tomto používateľovi Vám nie sú dostupné.';
+$string['usernotrenamedexists'] = 'Užívateľ nebol premenovaný -- nové užívateľské meno už používa niekto iný.';
+$string['usernotrenamedmissing'] = 'Užívateľ nebol premenovaný -- pôvodné užívateľské meno nebolo nájdené.';
+$string['wrongdestpath'] = 'Chybné cieľové umiestnenie';
+$string['wrongsourcebase'] = 'Chybné URL zdrojového serveru';
+$string['wrongzipfilename'] = 'Chybné meno súboru ZIP';
 
 ?>

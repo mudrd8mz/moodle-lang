@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6 development (2005052400)
+      // wiki.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['action'] = '-- Akcia --';
@@ -50,7 +50,7 @@ $string['editthispage'] = 'Upraviť túto stránku';
 $string['emptypage'] = 'Prázdna stránka';
 $string['errorbinandtxt'] = 'Chyba v príznaku: Stránka typu BIN i TXT';
 $string['errorhtml'] = 'Stránka je typu HTML';
-$string['errornotype'] = 'Chyba v príznaku: Ani BIN, ani TXT ';
+$string['errornotype'] = 'Chyba v príznaku: Ani BIN, ani TXT';
 $string['errororreason'] = 'Chyba alebo dôvod';
 $string['errorroandwr'] = 'Chyba v príznaku: Stránka je Prepisovateľná a Iba pre čítanie';
 $string['errorsize'] = 'Veľkosť stránky je viac ako 64k';
@@ -116,7 +116,7 @@ $string['optional'] = 'Voliteľné';
 $string['orphanedpage'] = 'Osamotená stránka';
 $string['orphanedpages'] = 'Osamotené stránky';
 $string['otherwikis'] = 'Ďalší wiki';
-$string['ownerunknown'] = 'neznámy ';
+$string['ownerunknown'] = 'neznámy';
 $string['pageactions'] = 'Akcia stránky';
 $string['pageindex'] = 'Obsah stránok';
 $string['pageinfo'] = 'Informácie o stránke';
@@ -130,6 +130,8 @@ $string['plaintext'] = 'Čistý text';
 $string['preview'] = 'Náhľad';
 $string['readonly'] = 'Stránka iba na čítanie';
 $string['refs'] = 'Odkazy';
+$string['reloadlinkdescription'] = 'Znova načita stránku, tak aby sa zobrazil novo vložený obsah.';
+$string['reloadlinktext'] = 'Znova načítať stránku';
 $string['removenotice'] = 'Všimnite si, že tu sú uvedené iba stránky, na ktoré nevedie žiadny odkaz. Mechanizmus wiki sám o sebe prevádza iba obmedzené testy odkazovaných stránok, takže tu môžu niektoré chýbať.<br />Ak ste stránku vyprázdnili, bude tu uvedená tiež. Mimo toho je v databáze prevedená celá rada ďalších diagnostík.';
 $string['removepagecheck'] = 'Ste si istý, že chcete odstrániť tieto stránky?';
 $string['removepages'] = 'Odstrániť stránky';
@@ -144,6 +146,7 @@ $string['safehtml'] = 'Bezpečné HTML';
 $string['save'] = 'Uložiť';
 $string['searchwiki'] = 'Prehľadať wiki';
 $string['setpageflags'] = 'Nastaviť príznaky';
+$string['showversions'] = 'Ukázať verzie:';
 $string['sitemap'] = 'MapaStránok';
 $string['smfor'] = 'MapaStránok pre';
 $string['status'] = 'Stav';

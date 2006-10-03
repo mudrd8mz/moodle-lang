@@ -1,0 +1,50 @@
+<p align="center"><b>Položky hodnotenia</b></p>
+
+<p>
+Pre ľahkosť bodovania by malo mať Hodnotenie Cvičenia rozumný počet &quot;Položiek hodnotenia&quot;. Každá položka by mala pokryť určitý aspekt hodnotenia. Hodnotenie bude mať typicky niečo medzi 5 až 15 položkami hodnotenia pre komentáre a bodovanie, skutočné číslo závisí od veľkosti a komplexnosti zadania. Zadanie len s jednou položkou je povolené a má podobnú stratégiu hodnotenia ako štandardné Zadanie Moodle.
+</p>
+
+<p>Typ položiek závisí od bodovacej stratégie zadania.</p>
+
+<ol>
+<li>
+<b>Nebodované:</b> V tomto type zadania sa vyučujúci nezaujíma o kvantitatívne hodnotenie od študentov. Študenti komentujú časti práce ale nebodujú ich. Učiteľ však môže hodnotiť komentáre študentov. Tieto &quot;bodovacie body&quot; tvoria základ konečného hodnotenia študentov. Pokiaľ vyučujúci neboduje študentské hodnotenia, tak zadanie nemá žiadne výsledné bodovanie.
+</li>
+
+<li><b>Nahromadený:</b> Toto je predvolený typ bodovania. V tomto type zadania pozostáva bodovanie každého hodnotenia z istého počtu &quot;prvkov hodnotenia&quot;. Každý prvok by mal pokryť určitý aspekt zadania. Typicky má zadanie 5 až 15 prvkov na komentovanie a bodovanie, skutočné číslo závisí od veľkosti a komplexnosti zadania. Zadanie cvičenia len s jedným prvkom je povolené a má podobnú stratégiu hodnotenia ako štandardné Zadanie Moodle.
+</li>
+
+<p>Prvky majú tieto tri nasledujúce vlastnosti:</p>
+<ol>
+<li>
+POPIS prvku hodnotenia. Tento by mal jasne uvádzať aký aspekt zadania je odhadovaný. Ak je hodnotenie kvalitatívne je nápomocné poskytnúť detaily toho, čo je považované za veľmi presné, uspokojivé a veľmi nedbalé.
+</li>
+
+<li>
+<p>
+Typ STUPNICE hodnotenia prvku. Je istý počet predom definovaných typov. Tieto sú od jednoduchého typu Áno/Nie, cez viacbodové stupnice po plnú percentuálnu stupnicu. Každý prvok má vlastnú stupnicu, ktorá by mala byť vybraná tak, aby sedela s počtom možných variácií pre daný prvok. Brte na vedomie, že stupnica neurčuje dôležitosť prvku pri vypočítavaní celkového bodovania, dvojbodová stupnica má ten istý &quot;vplyv&quot; ako stobodová stupnica, ak majú spomínané prvky tú istú váhu.
+</p>
+
+<p>Pokiaľ sú v kurze nastavené vlastné stupnice, môžu byť použité.
+Berte však na vedomie, že tento typ stupnice je použotý ako viacbodová stupnica a budú zobrazené len prvé a posledné položky stupnice. Napríklad, pokiaľ je v kurze vytvorená vlastná stupnica &quot;Veľmi mokro, Mokro, Vlhko, Sucho&quot;, môže byť použitá a bude zobrazená ako štvorbodová stupnica označená &quot;Veľmi mokro&quot; na jednom konci a &quot;Sucho&quot; na konci druhom.
+</p>
+</li>
+
+<li>VÁHA položky/prvku hodnotenie. Predvolene majú prvky rovnakú dôležitosť pri výpočte celkového bodovania zadania. To môže byť zmenené priradením váhy väčšej ako 1 dôležitejším prvkom a menej ako 1 menej dôležitým prvkom. Zmena váhy neovplyvňuje maximálne bodovanie, jeho hodnota je udaná parametrom Maximálnej známky.
+Changing the weights does NOT effect the maximum grade, that value is fixed by the Maximum Grade parameter zadania. Váhy môžu mať negatívne hodnoty, je to experimantálna vlastnosť.
+</li>
+</ol>
+<br />
+
+<li>
+<b>Množstvo chýb:</b> V tomto type zadania sú riešenia hodnotené skupinou stupníc typu Áno/Nie. Hodnotenie je určné &quot;hodnotiacou tabuľkou&quot; ktorá udáva vzťah medzi počtom &quot;chýb&quot; a narvhovaným hodnotením. Napríklad, zadanie môže mať šesť významných položiek, ktoré by mali byť prítomné, hodnotiaca tabuľka udá navrhované bodovanie, pokiaľ sú všetky prítomné, jedno chýba, keď dve chýbajú, atď. Individuálnym položkám môžu byť, ak treba, pridelené váhové faktory ak sú niektoré položky dôležitejšie ako ostatné. Počet &quot;chýb&quot; je vážený súčet nepritomných položiek. Predvolene má každá položka váhu 1. Hodnotiaca tabuľka bude pravdepodobne nelineárna, napr. môžu byť navrhované bodovania 90%, 70%, 50%, 40%, 30%, 20%, 10%, 0%, 0%, 0% pre zadanie s 10 položkami. Hodnotiaci môže upraviť navrhované bodovanie až do 20% oboma smermi pre udelenie finálneho bodovania.
+</li>
+
+<li>
+<b>Kritérium:</b> Je to najjednoduchší typ odhadu na bodovanie (aj keď nie nevyhnutne najjednoduchší na konfiguráciu). Riešenia sú hodnotené podľa skupiny kritériálnych výrazov. Hodnotiaci vyberá výraz, ktorý je najvhodnejší pre danú časť práce. Bodovanie je určené &quot;Tabuľkou kritérií&quot;, ktorá navrhuje bodovanie za každé kritérium. Napríklad zadanie môže byť nastavené na, napríklad, 5 kritériálnych výrazov a hodnotiaci si musí vybrať jedno z nich pre každé z ich hodnotení. Ako pri hodotení podľa množstva chýb, hodnotiaci môže upraviť navrhované bodovanie až do 20% pre udelenie finálneho bodovania.
+</li>
+
+<li>
+<b>Oddiel</b> Je podobný kriteriálnemu hodnoteniu, ale má viacero skupín kritérií. Každá skupina pokrývajúca určitú &quot;Kategóriu&quot; môže mať až 5 výrazov. Skupinám sú pridelené individuálne váhy a bodovanie je váženou kombináciou výsledkov zo všetkých skupín. Pri tomto type hodnotenia <b>nie sú</b> žiadne možnosti úprav.
+</li>
+</ol>

@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
+<?php // $Id$ 
       // exercise.php - created with Moodle 1.6 development (2005060201)
-
 
 $string['absent'] = 'Chýba';
 $string['accumulative'] = 'Nahromadený';
@@ -57,11 +56,11 @@ $string['fair'] = 'Uspokojivý';
 $string['generalcomment'] = 'Obecný komentár';
 $string['good'] = 'Dobrý';
 $string['gradeassessment'] = 'Bodové ohodnotenie';
-$string['gradeforassessment'] = 'Body za hodnotenie';
-$string['gradeforstudentsassessment'] = 'Body za hodnotenie študentov $a';
-$string['gradeforsubmission'] = 'Body za odovzdané riešenie úlohy';
+$string['gradeforassessment'] = 'Body za samohodnotenie';
+$string['gradeforstudentsassessment'] = 'Body za samohodnotenie študentov $a';
+$string['gradeforsubmission'] = 'Obsahuje body za odovzdané riešenie úlohy';
 $string['gradetable'] = 'Bodová tabuľka';
-$string['gradinggrade'] = 'Body za bodovanie';
+$string['gradinggrade'] = 'Body za samohodnotenie';
 $string['gradingstrategy'] = 'Bodovacia stratégia';
 $string['handlingofmultiplesubmissions'] = 'Spracovanie viacerých riešení';
 $string['hidenamesfromstudents'] = 'Skryť mená pred študentmi';
@@ -77,7 +76,7 @@ $string['mail7'] = 'Komentáre, ktoré uviedol $a, je možné vidieť v Zadaní 
 $string['managingassignment'] = 'Správa cvičení';
 $string['maximum'] = 'Maximum';
 $string['maximumgradeforstudentassessments'] = 'Najvyšší možný počet bodov za hodnotenie študentov: $a';
-$string['maximumgradeforsubmissions'] = 'Najvyšší možný počet bodov za  odovzdané riešenia: $a';
+$string['maximumgradeforsubmissions'] = 'Najvyšší možný počet bodov za odovzdané riešenia: $a';
 $string['maximumsize'] = 'Najväčšia možná veľkosť';
 $string['mean'] = 'Priemer';
 $string['minimum'] = 'Minimum';
@@ -90,9 +89,9 @@ $string['nosubmissions'] = 'Žiadne odovzdané riešenia';
 $string['notassessedyet'] = 'Doposiaľ nehodnotené';
 $string['notavailable'] = 'Nie je k dispozícii';
 $string['noteonassessmentelements'] = 'Všimnite si, že bodovanie je rozdelené do niekoľkých \"Položiek hodnotenia\".<br />
-Týmto sa dosiahne to, že bodovanie je ľahšie a celistvejšie. Ako učiteľ musíte pridať tieto <br />položky ešte pred sprístupnením úlohy študentom. To urobíte tak, <br />že kliknete na úlohu v kurze - budete vyzvaní k pridaniu <br />týchto položiek hodnotenia. Ich počet môžete meniť na obrazovke Upraviť úlohu, <br />položky samotné môžu byť upravené na stránke \"Správa zadaných úloh\".';
-$string['noteongradinggrade'] = 'Tieto body sú merítkom toho, ako dobre Vaše hodnotenie súhlasí s hodnotením <br />Vašej práce, ktoré vypracoval $a. Čím vyšší je počet bodov, tým sú si hodnotenia bližšie.';
-$string['noteonstudentassessments'] = '{Body od študenta/Body za bodovanie}';
+Týmto sa dosiahne to, že bodovanie je ľahšie a celistvejšie. Ako učiteľ musíte pridať tieto položky ešte pred sprístupnením úlohy študentom. To urobíte tak, že kliknete na úlohu v kurze - budete vyzvaní k pridaniu týchto položiek hodnotenia. Ich počet môžete meniť na obrazovke Upraviť úlohu, položky samotné môžu byť upravené na stránke \"Správa zadaných úloh\".';
+$string['noteongradinggrade'] = 'Tieto body sú merítkom toho, ako dobre Vaše hodnotenie súhlasí s hodnotením Vašej práce, ktoré vypracoval $a. Čím vyšší je počet bodov, tým sú si hodnotenia bližšie.';
+$string['noteonstudentassessments'] = '{Bodovanie študenta učiteľom / Body za samohodnotenie}';
 $string['notgraded'] = 'Nebodované';
 $string['notitlegiven'] = 'Názov neuvedený';
 $string['numberofassessmentelements'] = 'Počet komentárov, položiek hodnotenia, bodov, kritérií alebo kategórií v oddieli';
@@ -106,19 +105,18 @@ $string['overallgrade'] = 'Celkový počet bodov';
 $string['passwordprotectedexercise'] = 'Cvičenie chránené heslom  ';
 $string['phase'] = 'Fáza';
 $string['phase1'] = 'Nastavenie cvičenia';
-$string['phase1short'] = 'Nastaviť';
+$string['phase1short'] = 'Fáza 1'; // upravil Slapo
 $string['phase2'] = 'Povoliť hodnotenie a odovzdávanie zadaní pre $a';
-$string['phase2short'] = 'Otvoriť';
+$string['phase2short'] = 'Fáza 2'; // upravil Slapo
 $string['phase3'] = 'Ukázať celkový počet bodov v ligovej tabuľke';
-$string['phase3short'] = 'Zobraziť';
+$string['phase3short'] = 'Fáza 3'; // upravil Slapo
 $string['pleasegradetheassessment'] = 'Prosím, obodujte hodnotenie tejto časti práce - prácu vypracoval $a';
 $string['pleasemakeyourownassessment'] = 'Prosím, vykonajte vlastné hodnotenie riešenia, ktoré vypracoval $a.<br />
 Všimnite si, že forma hodnotenia je spočiatku zobrazovaná spolu s hodnotením študentov.<br />
-Mali by ste vložiť, podľa Vášho uváženia, potrebné návrhy na zmeny a potom kliknúť na jedno <br />z tlačidiel v spodnej časti stránky.';
+Mali by ste vložiť, podľa Vášho uváženia, potrebné návrhy na zmeny a potom kliknúť na jedno z tlačidiel v spodnej časti stránky.';
 $string['pleasesubmityourwork'] = 'Prosím, odovzdajte Vašu prácu s použitím tohto formulára';
-$string['pleaseusethisform'] = 'Prosím, vyplňte tento formulár, ak ste <br />dokončili inštrukcie v cvičení uvedenom nižšie.';
-$string['pleaseviewtheexercise'] = 'Prosím, zobrazte si cvičenie uvedené nižšie, kliknutím na jeho názov.<br />
-Postupujte podľa inštrukcií v tomto cvičení. <br />Ak si myslíte, že ste cvičenie <br />úspešne dokončili, kliknite na odkaz Hodnotiť (alebo Prehodnotiť) v <br />dolnej časti stránky. Ak vykonáte toto hodnotenie, <br />dostanete inštrukcie, ako ďalej postupovať pri odovzdávaní vypracovanej úlohy.';
+$string['pleaseusethisform'] = 'Prosím, vyplňte tento formulár, ak ste dokončili inštrukcie v cvičení uvedenom nižšie.';
+$string['pleaseviewtheexercise'] = 'Prosím, zobrazte si Cvičenie uvedené nižšie, kliknutím na jeho názov.<br />Postupujte podľa inštrukcií v tomto cvičení. Ak si myslíte, že ste Cvičenie úspešne dokončili, kliknite na odkaz Hodnotiť (alebo Prehodnotiť) v dolnej časti stránky. Ak vykonáte toto hodnotenie, dostanete inštrukcie, ako ďalej postupovať pri odovzdávaní vypracovanej úlohy.';
 $string['poor'] = 'Slabý';
 $string['present'] = 'Obsahuje';
 $string['reasonforadjustment'] = 'Dôvod úpravy';
@@ -126,7 +124,7 @@ $string['reassess'] = 'Prehodnotiť';
 $string['regradestudentassessments'] = 'Prebodovať hodnotenie študentov';
 $string['resubmissionfor'] = 'Znovuodovzdanie používateľom $a';
 $string['resubmitnote'] = '* znamená, že $a má povolené opakované zaslanie riešenia úlohy.<br />
-Toto označenie môže byť pridelené akejkoľvek odovzdanej úlohe jej prehodnotením a kliknutím <br />na tlačidlo <b>Povoliť pre $a znovuodovzdanie</b>.<br />
+Toto označenie môže byť pridelené akejkoľvek odovzdanej úlohe jej prehodnotením a kliknutím na tlačidlo <b>Povoliť pre $a znovuodovzdanie</b>.<br />
 Študent môže znovuodovzdať úlohu, ak je toto označenie prítomné na <b>ktorejkoľvek</b> z jeho odovzdaných úloh.';
 $string['rubric'] = 'Oddiel';
 $string['savedok'] = 'Uložené v poriadku';
@@ -175,6 +173,7 @@ $string['unassessed'] = '$a nehodnotených';
 $string['ungradedstudentassessments'] = '$a nebodovaných študentských hodnotení';
 $string['usemaximum'] = 'Použiť maximum';
 $string['usemean'] = 'Použiť priemer';
+$string['useadd'] = 'Použiť súčet';
 $string['usepassword'] = 'Použiť heslo';
 $string['verylax'] = 'Veľmi nedbalý';
 $string['verypoor'] = 'Veľmi slabý';
@@ -193,5 +192,4 @@ $string['wrongpassword'] = 'Nesprávne heslo k tomuto cvičeniu';
 $string['yourassessment'] = 'Vaše hodnotenie';
 $string['yourfeedbackgoeshere'] = 'Vaše vyjadrenie od učiteľa bude TU';
 $string['yoursubmission'] = 'Vaše odovzdané úlohy';
-
 ?>

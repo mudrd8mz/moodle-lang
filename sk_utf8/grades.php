@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6 development (2005052400)
+      // grades.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['addcategory'] = 'Pridať kategóriu';
@@ -13,6 +13,7 @@ $string['categories'] = 'Kategórie';
 $string['category'] = 'Kategória';
 $string['choosecategory'] = 'Vyberte si kategóriu';
 $string['creatinggradebooksettings'] = 'Vytvára sa nastavenie klasifikácie';
+$string['curveto'] = 'Prepočítať na';
 $string['deletecategory'] = 'Vymazať kategóriu';
 $string['displaylettergrade'] = 'Zobraziť výpis známok';
 $string['displaypercent'] = 'Zobraziť percentá';
@@ -28,7 +29,7 @@ $string['errorreprintheadersnonnumeric'] = 'Hodnota nečíselného typu pre znov
 $string['exceptions'] = 'Výnimky';
 $string['excluded'] = 'Vyňatý';
 $string['extracredit'] = 'Kredit naviac';
-$string['extracreditwarning'] = 'Poznámka: Nastavenie všetkých položiek pre kategóriu na kredit naviac, efektívne odstráni všetky tieto položky z výpočtu známok. Tu nebude teda žiaden celkový počet bodov ';
+$string['extracreditwarning'] = 'Poznámka: Nastavenie všetkých položiek pre kategóriu na kredit naviac, efektívne odstráni všetky tieto položky z výpočtu známok. Tu nebude teda žiaden celkový počet bodov';
 $string['forstudents'] = 'Pre študentov';
 $string['gradebook'] = 'Klasifikácia';
 $string['gradebookhiddenerror'] = 'Systém klasifikácie je momentálne nastavený tak, že pred študentmi je všetko skryté.';
@@ -67,7 +68,7 @@ $string['median'] = 'Prostredná hodnota (medián)';
 $string['min'] = 'Najnižší';
 $string['mode'] = 'Režim (mód)';
 $string['no'] = 'Nie';
-$string['nocategories'] = 'Kategórie známkovania nemohli byť pridané alebo nájdené pre tento kurz ';
+$string['nocategories'] = 'Kategórie známkovania nemohli byť pridané alebo nájdené pre tento kurz';
 $string['nocategoryview'] = 'Žiadna kategória na prezretie podľa';
 $string['nogradeletters'] = 'Nenastavené výpisy známok';
 $string['nogradesreturned'] = 'Žiadne známky vrátené';
@@ -75,6 +76,7 @@ $string['nolettergrade'] = 'Žiaden výpis známok pre';
 $string['nomode'] = 'NA';
 $string['nonnumericweight'] = 'Prijatá hodnota nečíselného typu pre';
 $string['nonweightedpct'] = 'nevážené %%';
+$string['notteachererror'] = 'Prístup k týmto údajom majú iba učitelia';
 $string['pctoftotalgrade'] = '%% z celkovej známky';
 $string['percent'] = 'Percento';
 $string['percentascending'] = 'Zotriediť podľa percent vzostupne';
