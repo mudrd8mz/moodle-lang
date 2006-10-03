@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 dev (2006092600)
+      // resource.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['addresource'] = 'リソースを追加する';
@@ -101,7 +101,7 @@ $string['resourcetype4'] = 'プレインテキスト';
 $string['resourcetype5'] = 'ウェブリンク';
 $string['resourcetype6'] = 'HTMLテキスト';
 $string['resourcetype7'] = 'プログラム';
-$string['resourcetype8'] = 'Wiki-likeテキスト';
+$string['resourcetype8'] = 'Wikiライクテキスト';
 $string['resourcetype9'] = 'ディレクトリ';
 $string['resourcetypedirectory'] = 'ディレクトリの表示';
 $string['resourcetypefile'] = 'ファイルまたはウェブサイトにリンク';
