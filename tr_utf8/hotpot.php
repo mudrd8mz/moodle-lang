@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.7 dev (2006092410)
+      // hotpot.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['abandoned'] = 'Vazgeçildi';
@@ -48,6 +48,8 @@ $string['hotpot:deleteattempt'] = 'Sınav uygulamalarını sil';
 $string['hotpot:grade'] = 'Notları düzenle';
 $string['hotpot:view'] = 'Sınavı kullan';
 $string['hotpot:viewreport'] = 'Raporlara bak';
+$string['hotpotcloses'] = 'Hot Potatoes sınavı kapanacak';
+$string['hotpotopens'] = 'Hot Potatoes sınavı açılacak';
 $string['ignored'] = 'Yoksayıldı';
 $string['inprogress'] = 'işlemde';
 $string['location'] = 'Dosya yeri';

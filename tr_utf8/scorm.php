@@ -1,22 +1,24 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 dev (2006092410)
+      // scorm.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['advanced'] = 'Parametreler';
 $string['asset'] = 'Varlık';
+$string['assetlaunched'] = 'Varlık - Bakıldı';
 $string['attempt'] = 'uygulama';
 $string['attempts'] = 'uygulama';
 $string['attr_error'] = '$a->tag etiketinde ($a->attr) özelliği için hatalı değer.';
 $string['autocontinue'] = 'Otomatik Devam Et';
 $string['averageattempt'] = 'Uygulama ortalaması';
 $string['badmanifest'] = 'Manifest hatası: hata kayıtlarına bakın';
+$string['badpackage'] = 'Pakette bazı sorunlar var. Paketi kontrol edin ve yeniden deneyin.';
 $string['browse'] = 'Önizleme';
 $string['browsed'] = 'Gözatıldı';
 $string['browsemode'] = 'Önizleme Modu';
 $string['browserepository'] = 'Depoya gözat';
 $string['chooseapacket'] = 'Seç veya bir paketi güncelle';
 $string['completed'] = 'Tamamlandı';
-$string['confirmloosetracks'] = 'UYARI: Paket değiştirilmiş/güncellenmiş görünüyor. Paket yapısı değiştirilden kullanıcı izlemeleri güncelleme sırasında kaybolabilir.';
+$string['confirmloosetracks'] = 'UYARI: Paket değiştirilmiş veya güncellenmiş görünüyor. Paket yapısı değiştirildiyse bazı kullanıcı izlemeleri güncelleme sırasında kaybolabilir.';
 $string['coursepacket'] = 'Kurs paketi';
 $string['coursestruct'] = 'Kurs yapısı';
 $string['datadir'] = 'Dosya sistemi hatası: Kurs veri klasörü oluşturulamadı.';
@@ -45,7 +47,9 @@ $string['gradesum'] = 'Notları topla';
 $string['height'] = 'Yükseklik';
 $string['hidden'] = 'Gizli';
 $string['hidebrowse'] = 'Önizleme modunu pasifleştir';
+$string['hideexit'] = 'Çıkış linkini gizle';
 $string['hidenav'] = 'Gezinme düğmelerini gizle';
+$string['hidereview'] = 'Önizleme düğmesini gizle';
 $string['hidetoc'] = 'Kurs yapısı görünümü (İçindekiler)';
 $string['highestattempt'] = 'En yüksek uygulama';
 $string['identifier'] = 'Soru Tanımlayıcısı';
@@ -53,6 +57,7 @@ $string['iframe'] = 'Şimdiki pencere';
 $string['iframedisplay'] = 'Paketi şu anki pencerede aç';
 $string['incomplete'] = 'Tamamlanmadı';
 $string['interactions'] = 'Etkileşimler';
+$string['last'] = 'Son erişim tarihi';
 $string['lastaccess'] = 'Son erişim';
 $string['lastattempt'] = 'Son uygulama';
 $string['location'] = 'Adres çubuğunu göster';
@@ -106,13 +111,17 @@ $string['scorm:viewscores'] = 'Notlara bak';
 $string['scormcourse'] = 'Öğrenme Kursu';
 $string['scrollbars'] = 'Kaydırma çubuğuna izin ver';
 $string['sided'] = 'Sol tarafta';
+$string['skipview'] = 'Öğrenci içerik yapısı atlaması sayfası';
 $string['stagesize'] = 'Sahne boyutu';
+$string['started'] = 'Başlama tarihi';
 $string['status'] = 'Durum';
 $string['statusbar'] = 'Durum çubuğunu göster';
 $string['student_response'] = 'Verilen yanıt';
+$string['suspended'] = 'Durduruldu';
 $string['syntax'] = 'Yazım hatası';
 $string['tag_error'] = 'Bu içerikte bilinmeyen bir etiket ($a->tag) var: $a->value';
 $string['time'] = 'Zaman';
+$string['title'] = 'Başlık';
 $string['too_many_attributes'] = '$a->tag etiketinin çok fazla özelliği var';
 $string['too_many_children'] = '$a->tag etiketinin çok fazla yavrusu var';
 $string['toolbar'] = 'Araç çubuğunu göster';
