@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006092410)
+      // moodle.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['action'] = 'Eylem';
@@ -281,18 +281,23 @@ $string['createfolder'] = '$a içinde bir dizin oluştur';
 $string['createuserandpass'] = 'Giriş yapmak için kullanıcı adı ve şifre oluşturun';
 $string['createziparchive'] = 'Zip arşivi oluştur';
 $string['creatingblocks'] = 'Bloklar oluşturuluyor';
+$string['creatingblocksroles'] = 'Blok seviyesindeki rol atamaları ve üstüne yazma izinleri oluşturuluyor';
 $string['creatingcategoriesandquestions'] = 'Kategoriler ve sorular oluşturuluyor';
 $string['creatingcoursemodules'] = 'Kurs modülleri oluşturuluyor';
+$string['creatingcourseroles'] = 'Kurs seviyesindeki rol atamaları ve üstüne yazma izinleri oluşturuluyor';
 $string['creatingevents'] = 'Olaylar oluşturuluyor';
 $string['creatinggradebook'] = 'Not defteri oluşturuluyor';
 $string['creatinggroups'] = 'Gruplar oluşturuluyor';
 $string['creatinglogentries'] = 'Log kayıtları oluşturuluyor';
 $string['creatingmessagesinfo'] = 'Mesaj bilgileri oluşturuluyor';
 $string['creatingmetacoursedata'] = 'Metakurs bilgisi oluşturuluyor';
+$string['creatingmodroles'] = 'Modül seviyesindeki rol atamaları ve üstüne yazma izinleri oluşturuluyor';
 $string['creatingnewcourse'] = 'Yeni kurs oluşturuluyor';
+$string['creatingrolesdefinitions'] = 'Rol tanımlamaları oluşturuluyor';
 $string['creatingscales'] = 'Ölçek oluşturuluyor';
 $string['creatingsections'] = 'Bölümler oluşturuluyor';
 $string['creatingtemporarystructures'] = 'Geçici yapılar oluşturuluyor';
+$string['creatinguserroles'] = 'Kullanıcı seviyesindeki rol atamaları ve üstüne yazma izinleri oluşturuluyor';
 $string['creatingusers'] = 'Kullanıcılar oluşturuluyor';
 $string['creatingxmlfile'] = 'XML dosyası oluşturuluyor';
 $string['currency'] = 'Para birimi';
@@ -576,10 +581,12 @@ $string['gdneed'] = 'Bu grafiği görebilmeniz için GD kurulu olmalı';
 $string['gdnot'] = 'GD kurulu değil';
 $string['gettheselogs'] = 'Bu kayıtları getir';
 $string['go'] = 'Git';
-$string['gpl'] = 'Telif Hakkı (C) 1999-2006 Martin Dougiamas (http://moodle.com)
+$string['gpl'] = 'Telif Hakkı (C) 1999\'dan itibaren Martin Dougiamas (http://moodle.com)
 
 Bu program GNU Genel Kamu Lisansı (GPL) ile yazılmıştır.
-http://www.gnu.org/copyleft/gpl.html';
+
+Bütün ayrıntılar için Moodle Lisans sayfasına bakınız:
+http://docs.moodle.org/en/License';
 $string['grade'] = 'Not';
 $string['grades'] = 'Notlar';
 $string['group'] = 'Grup';
@@ -1077,6 +1084,7 @@ $string['restrictmodules'] = 'Etkinlik modülleri sınırlandırılsın mı?';
 $string['returningtosite'] = 'Kayıtlı Kullanıcılar';
 $string['revert'] = 'Geri al';
 $string['role'] = 'Ünvan';
+$string['rolemappings'] = 'Rol eşleştirmeleri';
 $string['roles'] = 'Roller';
 $string['rss'] = 'RSS';
 $string['rssarticles'] = 'RSS madde sayısı';
@@ -1171,6 +1179,7 @@ $string['socialheadline'] = 'Sosyal forum - son konular';
 $string['someallowguest'] = 'Bazı kurslara konuk olarak erişebilirsiniz';
 $string['someerrorswerefound'] = 'Bazı bilgiler girilmemiş veya yanlış. Ayrıntılar için aşağıya bakınız.';
 $string['sortby'] = 'Sırala';
+$string['sourcerole'] = 'Kaynak rol';
 $string['specifyname'] = 'Bir isim belirtmelisiniz.';
 $string['starpending'] = '([*] = onay bekleyen kurs)';
 $string['startdate'] = 'Kursun başlama tarihi';
@@ -1246,6 +1255,7 @@ $string['switchroleto'] = 'Rol değiştir';
 $string['tag'] = 'Etiket';
 $string['tagmanagement'] = 'Etiket ekle/sil';
 $string['tags'] = 'Etiketler';
+$string['targetrole'] = 'Hedef rol';
 $string['teacheronly'] = 'sadece $a için';
 $string['teacherroles'] = '$a rolleri';
 $string['teachers'] = 'Eğitimciler';
@@ -1342,7 +1352,7 @@ $string['usernotconfirmed'] = '$a onaylanmadı';
 $string['userprofilefor'] = 'Kullanıcı profili: $a';
 $string['users'] = 'Kullanıcılar';
 $string['usersnew'] = 'Yeni kullanıcılar';
-$string['usersnoaccesssince'] = 'Bu günden fazla etkin olmayan kullanıcıları göster';
+$string['usersnoaccesssince'] = 'Bu günden fazla etkin olmayanlar';
 $string['userzones'] = 'Kullanıcı bölgeleri';
 $string['usethiscourse'] = 'Bu kursu kullan';
 $string['usingexistingcourse'] = 'Var olan kurs kullanılıyor';

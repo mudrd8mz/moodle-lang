@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006092410)
+      // data.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['action'] = 'Eylem';
@@ -41,6 +41,7 @@ $string['data:manageentries'] = 'Kayıtları yönet';
 $string['data:managetemplates'] = 'Şablonları yönet';
 $string['data:rate'] = 'Kayıtları derecelendir';
 $string['data:readentry'] = 'Kayıtları oku';
+$string['data:viewalluserpresets'] = 'Tüm kullanıcıların öntanımlı ayarlarına bak';
 $string['data:viewentry'] = 'Kayıtlara bak';
 $string['data:viewrating'] = 'Derecelendirmelere bak';
 $string['data:writeentry'] = 'Kayıtları yaz';
@@ -157,8 +158,8 @@ $string['pagesize'] = 'Her sayfadaki kayıt';
 $string['participants'] = 'Katılımcılar';
 $string['picture'] = 'Resim';
 $string['pleaseaddsome'] = 'Lütfen alttan bir şeyler oluşturun veya başlamak için <a href=\"$a\">önceden tanımlı bir ayar seçin</a>.';
+$string['presetinfo'] = 'Ayar olarak kaydetme bu şablonu yayınlar. Diğer kullanıcılar bunu kendi veritabanlarında kullanabilirler.';
 $string['presets'] = 'Ayarlar';
-$string['presetwarning'] = 'Ayar olarak kaydetme, bu şablonu tüm sitede yayınlar. Tüm kullanıcılar bunu kendi veritabanlarında kullanabilirler.';
 $string['radiobutton'] = 'Tek seçimlik butonlar';
 $string['rate'] = 'Derecelendir';
 $string['rating'] = 'Derecelendirme';

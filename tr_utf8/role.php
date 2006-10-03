@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006092410)
+      // role.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['addrole'] = 'Yeni rol ekle';
@@ -21,6 +21,7 @@ $string['category:delete'] = 'Kategorileri sil';
 $string['category:update'] = 'Kategorileri güncelle';
 $string['category:visibility'] = 'Gizli kategorilere bak';
 $string['course:activityvisibility'] = 'Etkinlikleri gizle/göster';
+$string['course:bulkmessaging'] = 'Birçok kişiye mesaj gönder';
 $string['course:create'] = 'Kursları oluştur';
 $string['course:delete'] = 'Kursları sil';
 $string['course:manageactivities'] = 'Etkinlikleri yönet';
@@ -28,13 +29,12 @@ $string['course:managefiles'] = 'Dosyaları yönet';
 $string['course:managegrades'] = 'Notları yönet';
 $string['course:managegroups'] = 'Grupları yönet';
 $string['course:managemetacourse'] = 'Metakursları yönet';
-$string['course:managequestions'] = 'Soruları yönet';
 $string['course:managescales'] = 'Ölçekleri yönet';
 $string['course:reset'] = 'Kursu temizle';
 $string['course:sectionvisibility'] = 'Bölüm gizliliğini değiştir';
 $string['course:setcurrentsection'] = 'Şimdiki bölümü ayarla';
 $string['course:update'] = 'Kurs ayarlarını güncelle';
-$string['course:useremail'] = 'E-posta adresini etkinleştirip pasifleştirebilir';
+$string['course:useremail'] = 'E-posta adreslerini etkinleştir/pasifleştir';
 $string['course:view'] = 'Kurslara bak';
 $string['course:viewcoursegrades'] = 'Kurs notlarına bak';
 $string['course:viewhiddenactivities'] = 'Gizli etkinliklere bak';
@@ -46,6 +46,7 @@ $string['course:viewscales'] = 'Ölçeklere bak';
 $string['course:visibility'] = 'Kursları gizle/göster';
 $string['currentcontext'] = 'Geçerli bağlam';
 $string['currentrole'] = 'Geçerli rol';
+$string['defaultrole'] = 'Varsayılan rol';
 $string['defineroles'] = 'Rolleri tanımla';
 $string['deleterolesure'] = '<p>\"$a->name ($a->shortname)\" rolünü silmek istediğinizden emin misiniz?</p><p>Şu anda bu role $a->count kullanıcı atanmış durumda.</p>';
 $string['editrole'] = 'Rolü düzenle';
@@ -88,6 +89,7 @@ $string['roles'] = 'Roller';
 $string['roletoassign'] = 'Atanacak rol';
 $string['roletooverride'] = 'Tekrar tanımlanacak rol';
 $string['selectrole'] = 'Bir rol seçin';
+$string['showallroles'] = 'Tüm rolleri göster';
 $string['site:accessallgroups'] = 'Tüm gruplara eriş';
 $string['site:approvecourse'] = 'Kurs oluşturmayı onayla';
 $string['site:backup'] = 'Kursları yedekle';
@@ -106,6 +108,7 @@ $string['site:viewreports'] = 'Raporlara bak';
 $string['user:create'] = 'Kullanıcı oluştur';
 $string['user:delete'] = 'Kullanıcı sil';
 $string['user:editprofile'] = 'Kullanıcı profilini düzenle';
+$string['user:loginas'] = 'Diğer kullanıcılar gibi giriş yap';
 $string['user:readuserblogs'] = 'Tüm kullanıcı bloglarına bak';
 $string['user:readuserposts'] = 'Tüm kullanıcı mesajlarına bak';
 $string['user:update'] = 'Kullanıcı profillerini güncelle';
@@ -114,5 +117,6 @@ $string['user:viewhiddendetails'] = 'Kullanıcıların ayrıntılı gizli bilgil
 $string['user:viewuseractivitiesreport'] = 'Kullanıcı etkinlik raporlarına bak';
 $string['user:viewusergrades'] = 'Kullanıcı notlarına bak';
 $string['viewrole'] = 'Rol ayrıntılarına bak';
+$string['xuserswiththerole'] = '\"$a->role\" rolündeki kullanıcılar: $a->number';
 
 ?>
