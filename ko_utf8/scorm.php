@@ -1,15 +1,17 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 dev (2006081000)
+      // scorm.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['advanced'] = '고급설정';
 $string['asset'] = '자산';
+$string['assetlaunched'] = '자산 - 보았음';
 $string['attempt'] = '시도';
 $string['attempts'] = '시도들';
 $string['attr_error'] = '$a->tag 태그에서 잘못된 속성 ($a->attr) 값';
 $string['autocontinue'] = '자동 진행';
 $string['averageattempt'] = '평균시도들';
-$string['badmanifest'] = '명시 오류 : 오류 목록을 보라';
+$string['badmanifest'] = '명시 오류 : 오류 기록을 보라';
+$string['badpackage'] = '주어진 패키지에 문제가 있습니다. 점검하고 다시 시도하십시오.';
 $string['browse'] = '미리보기';
 $string['browsed'] = '보여진';
 $string['browsemode'] = '미리보기 모드';
@@ -45,7 +47,9 @@ $string['gradesum'] = '점수 합산';
 $string['height'] = '높이';
 $string['hidden'] = '감춰짐';
 $string['hidebrowse'] = '미리보기 모드 버튼을 숨깁니다';
-$string['hidenav'] = '탐색버튼 감추기';
+$string['hideexit'] = '나가기 링크 감춤';
+$string['hidenav'] = '탐색단추 감춤';
+$string['hidereview'] = '검토단추 감춤';
 $string['hidetoc'] = '활성화된 윈도우 창으로부터 교육과정의 구조를 숨깁니다';
 $string['highestattempt'] = '최고 시도';
 $string['identifier'] = '질문 식별자';
@@ -53,6 +57,7 @@ $string['iframe'] = '현재창';
 $string['iframedisplay'] = '현재창에 표시';
 $string['incomplete'] = '미완성됨';
 $string['interactions'] = '상호작용';
+$string['last'] = '마지막 접속일';
 $string['lastaccess'] = '마지막 접속';
 $string['lastattempt'] = '마지막 시도';
 $string['location'] = '위치 표시 보임';
@@ -100,18 +105,23 @@ $string['review'] = '재검토';
 $string['reviewmode'] = '재검토 모드';
 $string['scoes'] = '학습개체들';
 $string['score'] = '점수';
-$string['scorm:view'] = '내용 보기';
-$string['scorm:viewgrades'] = '등급 보기';
+$string['scorm:savetrack'] = '추적 저장';
+$string['scorm:viewreport'] = '보고서 보기';
+$string['scorm:viewscores'] = '점수 보기';
 $string['scormcourse'] = 'SCORM 과정';
 $string['scrollbars'] = '스크롤 허용';
 $string['sided'] = '왼쪽에';
+$string['skipview'] = '학생들은 내용 구조 쪽을 생략함';
 $string['stagesize'] = '프레임/윈도우 크기';
+$string['started'] = '시작일';
 $string['status'] = '상태';
 $string['statusbar'] = '상태막대 보임';
 $string['student_response'] = '반응';
+$string['suspended'] = '보류됨';
 $string['syntax'] = '문법 오류';
 $string['tag_error'] = '$a->value 컨텐츠에 알려지지 않은 태그($a->tag)';
 $string['time'] = '시간';
+$string['title'] = '제목';
 $string['too_many_attributes'] = '$a->tag 태그는 너무 많은 속성을 가지고 있다.';
 $string['too_many_children'] = '$a->tag 태그는 너무 많은 하부 조직을 가지고 있다.';
 $string['toolbar'] = '도구막대 보임';
