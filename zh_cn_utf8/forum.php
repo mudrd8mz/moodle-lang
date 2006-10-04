@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6.1+ (2006050512)
+      // forum.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['addanewdiscussion'] = '添加一个新讨论话题';
@@ -40,7 +40,7 @@ $string['deleteddiscussion'] = '讨论话题已被删除';
 $string['deletedpost'] = '贴子已删除';
 $string['deletedposts'] = '那些帖子已删除';
 $string['deletesure'] = '您确定要删除该贴吗?';
-$string['deletesureplural'] = '您确定要删除这个帖子及其回复么?({$a}个帖子)';
+$string['deletesureplural'] = '您确定要删除这个帖子及其回复吗？({$a}个帖子)';
 $string['digestmailheader'] = '这是{$a->sitename}论坛的每日新帖摘要。要修改您的关于论坛的偏好，请访问{$a->userprefs}。';
 $string['digestmailprefs'] = '您的用户信息';
 $string['digestmailsubject'] = '$a: 论坛摘要';
@@ -48,7 +48,7 @@ $string['digestsentusers'] = '已经成功地给{$a}位用户发送了E-mail摘�
 $string['disallowsubscribe'] = '不允许订阅';
 $string['disallowsubscribeteacher'] = '不允许订阅(教师除外)';
 $string['discussion'] = '话题';
-$string['discussionmoved'] = '该讨论已被移到$a';
+$string['discussionmoved'] = '该讨论已被移到“$a”。';
 $string['discussionname'] = '话题名称';
 $string['discussions'] = '话题';
 $string['discussionsstartedby'] = '由{$a}发起的话题';
@@ -59,7 +59,7 @@ $string['displayperiod'] = '可视时段';
 $string['displaystart'] = '开始时间';
 $string['eachuserforum'] = '每个人发表一个话题';
 $string['edit'] = '编辑';
-$string['editedby'] = '由{$a->name}修改 - $a->date';
+$string['editedby'] = '由{$a->name}修改 - 原提交是$a->date';
 $string['editing'] = '正在编辑';
 $string['emptymessage'] = '您的贴子有点错误。大概是您没有填写内容，或附件太大。您的更改<b>没有</b>保存。';
 $string['everyonecanchoose'] = '每个人均可选择订阅';
@@ -69,7 +69,7 @@ $string['forcesubscribe'] = '强制每个人都订阅';
 $string['forcesubscribeq'] = '强制每个人都订阅吗?';
 $string['forum'] = '讨论区';
 $string['forumauthorhidden'] = '作者(隐藏)';
-$string['forumblockingalmosttoomanyposts'] = '您已经达到发帖的极限。在过去的$a->blockperiod里，您已经发表了$a->numposts个帖子。这个极限是$a->blockafter个帖子。';
+$string['forumblockingalmosttoomanyposts'] = '您已经达到发帖的极限。在过去的{$a->blockperiod}里，您已经发表了{$a->numposts}个帖子。这个极限是{$a->blockafter}个帖子。';
 $string['forumbodyhidden'] = '您不能看到这些内容，可能因为您还没有登陆到讨论中';
 $string['forumintro'] = '讨论区简介';
 $string['forumname'] = '讨论区名称';
@@ -121,8 +121,8 @@ $string['nosubscribers'] = '尚无人订阅此讨论区';
 $string['nothingnew'] = '{$a}中没有什么新东西';
 $string['notingroup'] = '对不起, 您需要是一个组的成员才能浏览这个论坛。';
 $string['notrackforum'] = '不跟踪未读消息';
-$string['nowallsubscribed'] = '已订阅{$a}中的所有课程';
-$string['nowallunsubscribed'] = '已退订{$a}中的所有课程';
+$string['nowallsubscribed'] = '已订阅{$a}中的所有讨论区';
+$string['nowallunsubscribed'] = '已退订{$a}中的所有讨论区';
 $string['nownotsubscribed'] = '{$a->name}将<b>不</b>再收到含有“{$a->forum}”帖子复件的电子邮件。';
 $string['nownottracking'] = '{$a->name}不再跟踪“{$a->forum}”了。';
 $string['nowsubscribed'] = '{$a->name}将收到含有“{$a->forum}”帖子复件的电子邮件。';
@@ -133,8 +133,8 @@ $string['oldertopics'] = '旧些的话题';
 $string['openmode0'] = '不能发起新话题，也不能回贴';
 $string['openmode1'] = '不能发起新话题，但允许回复';
 $string['openmode2'] = '发起新话题和回贴均允许';
-$string['overviewnumpostssince'] = '从上次登录以来{$a}个帖子';
-$string['overviewnumunread'] = '共{$a}个未阅读';
+$string['overviewnumpostssince'] = '个新帖子，自从上次登录以来';
+$string['overviewnumunread'] = '个未阅读';
 $string['parent'] = '显示父帖子';
 $string['parentofthispost'] = '该贴的父贴';
 $string['postadded'] = '<p>您的贴子已经成功发表。</p>
