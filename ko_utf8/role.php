@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006092800)
+      // role.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['addrole'] = '새 역할 첨가';
@@ -21,6 +21,7 @@ $string['category:delete'] = '범주 삭제';
 $string['category:update'] = '범주 갱신';
 $string['category:visibility'] = '숨겨진 범주 보기';
 $string['course:activityvisibility'] = '활동 감추기/보기';
+$string['course:bulkmessaging'] = '여러 사람에게 쪽글 발송';
 $string['course:create'] = '배움터 생성';
 $string['course:delete'] = '배움터 삭제';
 $string['course:manageactivities'] = '활동 관리';
@@ -88,6 +89,7 @@ $string['roles'] = '역할들';
 $string['roletoassign'] = '부여할 역할';
 $string['roletooverride'] = '박탈할 역활';
 $string['selectrole'] = '역할 선택';
+$string['showallroles'] = '모든 역할 보이기';
 $string['site:accessallgroups'] = '모든 모듬에 접속 기능';
 $string['site:approvecourse'] = '배움터 만들기 승인';
 $string['site:backup'] = '배움터 백업';
@@ -106,6 +108,7 @@ $string['site:viewreports'] = '보고서 보기';
 $string['user:create'] = '사용자 생성';
 $string['user:delete'] = '사용자 삭제';
 $string['user:editprofile'] = '사용자 신상명세 편집';
+$string['user:loginas'] = '다른 사용자로 로그인';
 $string['user:readuserblogs'] = '사용자 블로그 보기';
 $string['user:readuserposts'] = '모든 게시물 보기';
 $string['user:update'] = '사용자 명세를 갱신';

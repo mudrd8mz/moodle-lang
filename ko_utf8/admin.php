@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006092800)
+      // admin.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['accounts'] = '계정';
@@ -17,6 +17,7 @@ $string['antivirus'] = '바이러스 방역';
 $string['appearance'] = '겉모습';
 $string['aspellpath'] = 'aspell의 경로';
 $string['authentication'] = '인증';
+$string['autologinguests'] = '손님 자동 로그인';
 $string['availablelangs'] = '사용가능한 언어팩';
 $string['backgroundcolour'] = '투명 색상';
 $string['backups'] = '백업';
@@ -43,7 +44,7 @@ $string['configallowassign'] = '왼쪽의 역할에 대해 각 칼럼의 역할�
 $string['configallowcoursethemes'] = '이것을 활성화하면, 각 배움터는 나름대로 독특한 테마로 설정될 수 있다. 배움터 테마는 모든 다른 테마(사이트, 사용자, 또는 세션 테마)선택보다 우선하여 적용된다';
 $string['configallowemailaddresses'] = '만약 당신이 특별한 도메인의 이메일 주소만 허용하고자 한다면, 그 목록들을 한 칸씩 띄어 적어 놓아라. 그 외 모든 다른 도메인들은 거부된다. ( 예: <strong>sun.ac.kr moodle.org</strong> )';
 $string['configallowobjectembed'] = '기본 보안 규정에 따라, 일반 사용자들은 멀티미디어 파일 (예:플래시,동영상,mp3)을 EMBED, OBJECT 등의 명령어나 태그를 사용해서 올릴수 없다. (비록 안전한 미디어 파일일지라도) 운영자가 허락 옵션을 켜야만 파일을 올릴수 있다.';
-$string['configallowoverride'] = '왼쪽의 역할에 대해 각 칼럼의 역할을 박탈할 수 있도록 허용';
+$string['configallowoverride'] = '왼쪽의 역할이 각 칼럼의 역할을 박탈할 수 있도록 허용';
 $string['configallowunenroll'] = '만약 이것이 \"예\"로 설정된다면, 학생들은 스스로 배움터에서 언제든지 탈퇴할 수 있다. 반면에 \"아니오\"로 설정하면 선생님과 관리자에 의해서만 학생의 배움터 탈퇴여부가 결정되게 된다.';
 $string['configallowuserblockhiding'] = '사용자들이 스스로 이 사이트의 블록을 숨기거나 볼 수 있도록 허용하겠는가? 이 기능은 각각의 분리된 블록을 기억하기 위해 자바스크립트와 쿠키를 사용하며 사용자들 화면 보기에만 영향을 미친다.';
 $string['configallowusermailcharset'] = '이 기능을 활성화시키면, 모든 사용자는 이메일에 자신만의 문자셋을 이용할 수 있다.';
@@ -97,6 +98,7 @@ $string['configintro'] = '이 관리 화면에서 무들 서버가 원할히 작
 $string['configintroadmin'] = '이 화면을 통해 이 사이트 전반을 완벽하게 통제할 수 있는 주관리자 계정을 설정하여야 한다. 실제 사용할 수 있는 이메일 주소와 함께 안전한 사용자 ID 그리고 암호를 입력하는 것을 잊지 말아라. 나중에 또 다른 관리자 계정을 추가할 수도 있다.';
 $string['configintrosite'] = '이 화면에서는 이 사이트의 명칭과 대문화면에 대한 설정을 할 수 있다. 여러분은 언제라도 다시 홈 페이지의 관리 > 환경설정 > 사이트 설정 항목을 통해 이 곳으로 돌아와 이 설정들을 바꿀 수 있다.';
 $string['configintrotimezones'] = '이 페이지에서는 세계 표준시간대(일광 절약 시간제 - 서머타임제를 포함한)에 대한 새로운 정보를 찾을 수 있으며, 이 정보를 데이터 베이스에 업데이트 할 수 있다. 이런 위치들은 $a 순서로 점검 될 것이다. 이 과정은 일반적으로 안전하여 설치 과정을 멈추게 할 수 없다. 당신의 표준시간대를 지금 업데이트 하길 원하는가?';
+$string['configiplookup'] = '여러 기록에서 (34.12.222.93 같은) IP주소를 클릭할 때 IP가 어디에 속해 있는지를 추측할 수 있는 정보를 볼 수 있다. 또 다른 방법으로 그러한 내용을 살펴볼 수 있는 플러그인이 있지만 각 방법 나름대로 일장 일단이 존재한다.';
 $string['configlang'] = '전체 사이트를 위한 기본 언어를 선택해라. 사용자들은 후에 이 설정에 대해 개별적으로 바꿀 수도 있다.';
 $string['configlangcache'] = '언어 메뉴의 임시 저장. 많은 메모리가 절약되고 처리 속도가 빨라질 것이다. 만약 이것을 설정한다면. 당신이 언어를 추가하거나 삭제한 후, 메뉴는 수 분 이내에 업데이트 될 것이다.';
 $string['configlangdir'] = '대부분 언어들은 왼쪽에서 오른쪽으로 인쇄되나, 아라비아어나 헤브리아어 같은 일부 언어들은 오른족에서 왼쪽으로 인쇄된다.';
@@ -273,6 +275,7 @@ $string['install'] = '선택한 언어팩 설치';
 $string['installedlangs'] = '설치된 언어팩';
 $string['invalidsection'] = '잘못된 영역';
 $string['invaliduserchangeme'] = '\"changeme\"라는 사용자 이름은 예약되어 있습니다. 이 이름으로 계정을 만들 수 없습니다.';
+$string['iplookup'] = 'IP주소 검색';
 $string['lang'] = '기본 언어';
 $string['lang16notify'] = '무들 1.6과 그 상위판은 여러분이 아래에 연결된  download.moodle.org를 통해 직접 언어팩을 설치하고 업데이트 할 수 있도록 허용합니다.';
 $string['langcache'] = '언어 목록 기억';
@@ -325,6 +328,7 @@ $string['nolangupdateneeded'] = '모든 언어팩이 최신판임. 업데이트�
 $string['nonewsettings'] = '이번 판올림과정에서 새로운 설정이 추가되지 않았음';
 $string['nonexistentbookmark'] = '요청한 곳을 찾을 수 없습니다.';
 $string['noreplyaddress'] = '답할 수 없는 이메일 주소';
+$string['noresults'] = '검색 결과 없음.';
 $string['notifications'] = '알림 설정';
 $string['notifyloginfailures'] = '로그인실패 통지받을 사람';
 $string['notifyloginthreshold'] = '이메일 알림을 위한 문턱값';
@@ -370,6 +374,8 @@ $string['riskspam'] = '사용자가 타인에게 스팸메일을 보낼 수 있�
 $string['riskxss'] = '사용자가 XSS를 허용하는 문서나 파일을 첨가할 수 있음';
 $string['runclamavonupload'] = '올려진 파일에 대해 clam AV 사용';
 $string['savechanges'] = '변경사항 저장';
+$string['search'] = '검색';
+$string['searchresults'] = '검색 결과';
 $string['secureforms'] = '추가적인 보안 형식 사용';
 $string['security'] = '보안';
 $string['server'] = '서버';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006092601)
+      // moodle.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['action'] = '동작';
@@ -280,18 +280,23 @@ $string['createfolder'] = '$a 안에 새 폴더 만들기';
 $string['createuserandpass'] = '새로운 아이디와 비밀번호 생성하기';
 $string['createziparchive'] = '압축 파일 만들기';
 $string['creatingblocks'] = '블럭만들기';
+$string['creatingblocksroles'] = '블록 수준의 역할 부여 및 박탈권 생성';
 $string['creatingcategoriesandquestions'] = '범주와 문항 만들기';
 $string['creatingcoursemodules'] = '배움터 모듈 만들기';
+$string['creatingcourseroles'] = '배움터 수준의 역할 부여 및 박탈권 생성';
 $string['creatingevents'] = '일정 만들기';
 $string['creatinggradebook'] = '성적표 만들기';
 $string['creatinggroups'] = '모듬 만들기';
 $string['creatinglogentries'] = '로그 목록 만들기';
 $string['creatingmessagesinfo'] = '메시지 정보 만들기';
 $string['creatingmetacoursedata'] = '메타코스 정보 만들기';
+$string['creatingmodroles'] = '모듈 수준의 역할 부여 및 박탈권 생성';
 $string['creatingnewcourse'] = '새로운 배움터 생성';
+$string['creatingrolesdefinitions'] = '역할 정의 생성';
 $string['creatingscales'] = '척도 만들기';
 $string['creatingsections'] = '마당 만들기';
 $string['creatingtemporarystructures'] = '임시 구조 만들기';
+$string['creatinguserroles'] = '사용자 수준의 역할 부여 및 박탈권 생성';
 $string['creatingusers'] = '사용자 새로 만들기';
 $string['creatingxmlfile'] = 'XML파일 만들기';
 $string['currency'] = '화폐단위';
@@ -1069,6 +1074,7 @@ $string['restrictmodules'] = '활동 모듈을 제한할까요?';
 $string['returningtosite'] = '이 웹사이트로 돌아갈까요?';
 $string['revert'] = '되돌림';
 $string['role'] = '역할';
+$string['rolemappings'] = '역할 배치';
 $string['roles'] = '역할들';
 $string['rss'] = 'RSS';
 $string['rssarticles'] = 'RSS로 배포할 최근 문서의 수';
@@ -1166,6 +1172,7 @@ $string['socialheadline'] = '사회적 포럼-최근의 글들';
 $string['someallowguest'] = '어떤 배움터는 손님의 접속을 허용할 수 있습니다.';
 $string['someerrorswerefound'] = '정보가 없거나 부정확합니다. 자세한 내용은 다음을 보세요.';
 $string['sortby'] = '정렬';
+$string['sourcerole'] = '원래 역할';
 $string['specifyname'] = '반드시 이름을 기입해야 합니다.';
 $string['starpending'] = '([*] 교육과정 개설이 승인 대기중입니다.)';
 $string['startdate'] = '배움터 시작일';
@@ -1241,6 +1248,7 @@ $string['switchroleto'] = '역할을 바꿈...';
 $string['tag'] = '덧글';
 $string['tagmanagement'] = '덧글 추가 삭제';
 $string['tags'] = '덧글들';
+$string['targetrole'] = '변경될 역할';
 $string['teacheronly'] = '오직 $a 를 위한';
 $string['teacherroles'] = '$a 역할';
 $string['teachers'] = '선생님';

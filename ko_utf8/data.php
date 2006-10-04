@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006092800)
+      // data.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['action'] = '행동';
@@ -41,6 +41,7 @@ $string['data:manageentries'] = '입력내용 관리';
 $string['data:managetemplates'] = '템플릿 관리';
 $string['data:rate'] = '입력내용 평가';
 $string['data:readentry'] = '입력내용 보기';
+$string['data:viewalluserpresets'] = '모든 사람의 기본 설정을 봄';
 $string['data:viewentry'] = '입력사항 보기';
 $string['data:viewrating'] = '등급 보기';
 $string['data:writeentry'] = '내용 쓰기';
@@ -157,8 +158,8 @@ $string['pagesize'] = '페이지당 게시물';
 $string['participants'] = '참가자';
 $string['picture'] = '그림';
 $string['pleaseaddsome'] = '시작하기 위해서는 아래에 새로운 설정을 하던지 아니면 미리 <a href=\"$a\">설정한 기본값</a>에서 선택하십시오.';
+$string['presetinfo'] = '초기설정으로 저장한 내용이 이 템플릿으로 공개될 것입니다. 다른 사용자들은 이 설정을 자신의 데이터베이스에서 사용할 수 있다.';
 $string['presets'] = '초기설정들';
-$string['presetwarning'] = '이 탬플릿을 초기값으로 저장하게 되면 사이트 전반에 영향을 미칩니다. 모든 사용자들은 자신들의 데이터베이스에서 쓸 수 있습니다.';
 $string['radiobutton'] = '라디오버튼';
 $string['rate'] = '등급주기';
 $string['rating'] = '등급주기';
