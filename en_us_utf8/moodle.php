@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005021000)
+      // moodle.php - created with Moodle 1.7 dev (2006100401)
 
 
 $string['adminhelpenrolments'] = 'Choose internal or external ways to control enrollments';
@@ -10,8 +10,11 @@ $string['assignstudentsnote'] = 'Note: it may not be necessary to use this page,
 $string['assignstudentspass'] = 'All you may need to do is notify your students of the enrollment key for this course, which is currently set to: \'$a\'';
 $string['backupmetacoursehelp'] = 'If enabled, then metacourse info (inherited enrollments) will be included in automated backups';
 $string['chooseenrolmethod'] = 'Primary method of enrollment';
+$string['enrolenddaterror'] = 'Enrollment end date cannot be earlier than start date';
+$string['enrollfirst'] = 'You have to enroll in one of the courses before you can use the site activities';
 $string['enrolme'] = 'Enroll me in this course';
 $string['enrolmentconfirmation'] = 'You are about to enroll yourself as a member of this course.<br />Are you sure you wish to do this?';
+$string['enrolmentend'] = 'Enrollment Ends';
 $string['enrolmentkey'] = 'Enrollment key';
 $string['enrolmentkeyfrom'] = 'This course requires an \'enrollment key\' - a one-time<br />
 password that you should have received from $a';
@@ -19,8 +22,28 @@ $string['enrolmentkeyhint'] = 'That enrollment key was incorrect, please try aga
 (Here\'s a hint - it starts with \'$a\')';
 $string['enrolmentnew'] = 'New enrollment in $a';
 $string['enrolmentnointernal'] = 'Manual enrollments are currently not enabled';
+$string['enrolmentplugins'] = 'Enrollment Plugins';
 $string['enrolments'] = 'Enrollments';
+$string['enrolmentstart'] = 'Enrollment Started';
 $string['enrolperiod'] = 'Enrollment duration';
+$string['expirynotify'] = 'Enrollment Expiration Notification';
+$string['expirynotifyemail'] = 'The following students in this course are expiring after exactly $a->threshold days:
+
+$a->current
+
+The following students in this course are expiring in less than $a->threshold days:
+
+$a->past
+
+
+You may go to the following page to extend their enrollment period:
+$a->extendurl';
+$string['expirynotifystudentsemail'] = 'Dear $a->studentstr:
+
+This is a notification that your enrollment in the course $a->course will expire in $a->threshold days.
+
+Please contact your $a->teacherstr for any further enquiries.';
+$string['extendenrol'] = 'Extend enrollment';
 $string['frontpagedescription'] = 'Front page description';
 $string['importmetacoursenote'] = 'Use this form to add courses to your meta course (this will import the enrollments)';
 $string['lastname'] = 'Last name';
@@ -49,6 +72,7 @@ $string['metaalreadyhasenrolments'] = 'This course already has normal enrollment
 $string['normalfilter'] = 'Normal filter';
 $string['recentactivity'] = 'Recent activity';
 $string['requireskey'] = 'This course requires an enrollment key';
+$string['statsreport13'] = 'Most participatory courses (enrollments)';
 $string['strftimedate'] = '%%B %%d %%Y';
 $string['strftimedateshort'] = '%%B %%d';
 $string['strftimedatetime'] = '%%B %%d %%Y, %%I:%%M %%p';
