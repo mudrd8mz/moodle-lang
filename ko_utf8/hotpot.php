@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.7 dev (2006092800)
+      // hotpot.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['abandoned'] = '실패';
@@ -26,16 +26,16 @@ $string['displaycoursenext'] = '교육과정의 다음 페이지 보이기';
 $string['displayhotpotnext'] = '다음 쟁점퀴즈 보이기';
 $string['displayindexnext'] = '다음 쟁점퀴즈 색인 보이기';
 $string['enterafilename'] = '화일 이름을 입력하시오';
-$string['error_couldnotopenfolder'] = '&quot;$a&quot 폴더에 접근할수 없습니다.';
+$string['error_couldnotopenfolder'] = '\"$a\" 폴더에 접근할수 없습니다.';
 $string['error_couldnotopensourcefile'] = '\"$a\" 파일을 열수가 없습니다';
-$string['error_couldnotopentemplate'] = '&quot;$a&quot; 형식의 템플릿을 열수 없습니다.';
+$string['error_couldnotopentemplate'] = '\"$a\" 형식의 템플릿을 열수 없습니다.';
 $string['error_invalidquiztype'] = '퀴즈 형태가 빠졌거나 유효하지 않습니다.';
 $string['error_nocourseorfilename'] = 'XML 트리를 만들수 없습니다 : 교육과정이나 파일 이름이 사라졌습니다';
 $string['error_nofeedbackurlformmail'] = '스크립트 입력창에다 URL 주소를 입력해 주세요.';
 $string['error_nofeedbackurlwebpage'] = '웹페이지에 URL 주소를 입력해 주세요';
 $string['error_nofilename'] = '파일 이름을 입력해 주세요';
 $string['error_noquizzesfound'] = '발견된 쟁점퀴즈가 없습니다.';
-$string['error_notfileorfolder'] = '&quot;$a&quot;은 파일이나 폴더가 아닙니다.';
+$string['error_notfileorfolder'] = '\"$a\"은 파일이나 폴더가 아닙니다.';
 $string['feedbackformmail'] = '피드백 서식';
 $string['feedbackmoodleforum'] = '무들 포럼';
 $string['feedbackmoodlemessaging'] = '무들 쪽글';
@@ -50,12 +50,14 @@ $string['hotpot:deleteattempt'] = '시도 삭제';
 $string['hotpot:grade'] = '등급 수정';
 $string['hotpot:view'] = '퀴즈 이용';
 $string['hotpot:viewreport'] = '보고서 보기';
+$string['hotpotcloses'] = '쟁점퀴즈 종료';
+$string['hotpotopens'] = '쟁점퀴즈 시작';
 $string['ignored'] = '무시됨';
 $string['inprogress'] = '진행중';
 $string['location'] = '화일 장소';
 $string['modulename'] = '쟁점퀴즈';
 $string['modulenameplural'] = '쟁점퀴즈';
-$string['navigation'] = '향해';
+$string['navigation'] = '항해';
 $string['navigation_bar'] = '무들 네비게이션 창';
 $string['navigation_buttons'] = '쟁점퀴즈 단추';
 $string['navigation_frame'] = '무들 네비게이션 프레임';
