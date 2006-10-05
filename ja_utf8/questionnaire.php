@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // questionnaire.php - created with Moodle 1.7 dev (2006090400)
+      // questionnaire.php - created with Moodle 1.7 dev (2006100401)
 
 
 $string['addaline'] = '答えの行を追加する';
@@ -43,10 +43,10 @@ $string['modulenameplural'] = 'アンケート';
 $string['mustcomplete'] = '<b>アンケート結果を保存するためには<i>今</i>このアンケートを完了させる必要があります。別の機会に回答することはできません。</b><br /><br />';
 $string['myresponsedated'] = 'あなたの回答日: $a';
 $string['myresponses'] = 'あなたのすべての回答';
-$string['myresponsetitle'] = 'あなたの回答内容: $a';
+$string['myresponsetitle'] = 'あなたの回答内容 $a 件';
 $string['myresults'] = 'マイ リザルト';
 $string['name'] = 'アンケート名';
-$string['navigateirs'] = '個々の回答者の回答内容ナビゲート';
+$string['navigateirs'] = '個別の回答内容';
 $string['newfield'] = 'フィールドの保存/追加';
 $string['next'] = '次へ';
 $string['nextpage'] = '次のページ';
