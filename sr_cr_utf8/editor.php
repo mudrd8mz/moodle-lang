@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6.1+ (2006050512)
+      // editor.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['LOs'] = 'Објекти за учење';
@@ -29,7 +29,7 @@ $string['contents'] = 'Само садржај';
 $string['copy'] = 'Копирај изабрано';
 $string['createanchor'] = 'Креирај ослонац';
 $string['createfolder'] = 'Направи директоријум';
-$string['createlink'] = 'Додај Web линк';
+$string['createlink'] = 'Додај веб линк';
 $string['cut'] = 'Исеци изабрано';
 $string['cutpastemozilla'] = 'Нажалост не можете тренутно да користите уобичајете скраћенице са тастатуре (чак ни Paste дугме) за убацивање текста у овај едитор. То је последица сигурносне опције уграђене у неке верзије Mozilla и Fиrefox читача.<br /><br />Постоје три начина да ипак урадите оно што желите:<br /> (1) Уместо CTRL-v, користите SHIFT-Insert <br /> (2) Користите Edit->Paste мени Вашег web читача <br /> (3) Промените својства у Вашем web читачу уређивањем user.js датотеке. <br /><br />Кликните на дугме ”Потврди” испод за детаљнију помоћ, или на дугме ”Одустани” за повратак на едитор';
 $string['delete'] = 'Обриши';
@@ -119,7 +119,7 @@ $string['type'] = 'Тип';
 $string['underline'] = 'Подвучено';
 $string['undo'] = 'Поништи последњу акцију';
 $string['unorderedlist'] = 'Листа по ставкама';
-$string['upload'] = 'Учитавање';
+$string['upload'] = 'Постављање';
 $string['vertical'] = 'Вертикално';
 $string['width'] = 'Ширина';
 $string['wordclean'] = 'Обриши Word HTML';

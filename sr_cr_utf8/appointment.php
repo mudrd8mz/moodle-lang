@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // appointment.php - created with Moodle 1.6 + (2006050506)
+      // appointment.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['allowresubmit'] = 'Дозволити поновно предавање';
@@ -20,7 +20,7 @@ $string['modulenameplural'] = 'Састанци';
 $string['newsubmissions'] = 'Предати састанци';
 $string['notgradedyet'] = 'Још није оцењен';
 $string['notsubmittedyet'] = 'Још није предат';
-$string['overwritewarning'] = 'Упозорење: поновно ажурирање ће заменити Ваш тренутно предати састанак';
+$string['overwritewarning'] = 'Упозорење: поновно постављање ће заменити Ваш тренутно предати састанак';
 $string['saveallfeedback'] = 'Сними све моје повратне информације';
 $string['submissionfeedback'] = 'Повратне информације о предатом састанку';
 $string['submissions'] = 'Предати састанци';
@@ -29,15 +29,15 @@ $string['submitted'] = 'Предато';
 $string['timeend'] = 'Крај састанка';
 $string['timestart'] = 'Почетак састанка';
 $string['typeoffline'] = 'Активност ван мреже';
-$string['typeuploadsingle'] = 'Учитајте једну датотеку';
-$string['uploadbadname'] = 'Ова датотека садржи необичне знакове у свом називу, те не може бити учитана';
-$string['uploadedfiles'] = 'Учитане датотеке';
+$string['typeuploadsingle'] = 'Поставите једну датотеку';
+$string['uploadbadname'] = 'Ова датотека садржи необичне знакове у свом називу, те не може бити постављена';
+$string['uploadedfiles'] = 'Постављене датотеке';
 $string['uploaderror'] = 'Дошло је до грешке при покушају снимања датотеке на сервер';
-$string['uploadfailnoupdate'] = 'Датотека је уредно учитана али не можете ажурирати свој предати састанак!';
+$string['uploadfailnoupdate'] = 'Датотека је уредно постављена али не можете ажурирати свој предати састанак!';
 $string['uploadfiletoobig'] = 'Жао нам је, али датотека је превелика (лимит је $а бајта)';
-$string['uploadnofilefound'] = 'Датотека није пронађена - да ли сте сигурни да сте изабрали датотеку за учитавање?';
-$string['uploadnotregistered'] = '\'$a\' је уредно учитана али предати састанак није регистрован!';
-$string['uploadsuccess'] = 'Учитавање \'$a\' је успело';
+$string['uploadnofilefound'] = 'Датотека није пронађена - да ли сте сигурни да сте изабрали датотеку за постављање?';
+$string['uploadnotregistered'] = '\'$a\' је уредно постављена али предати састанак није регистрован!';
+$string['uploadsuccess'] = 'Постављање \'$a\' је успело';
 $string['viewfeedback'] = 'Преглед оцена и повратних информација састанка';
 $string['viewsubmissions'] = 'Преглед $a предатих састанакa';
 $string['yoursubmission'] = 'Ваш предати састанак';

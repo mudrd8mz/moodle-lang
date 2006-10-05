@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // webquest.php - created with Moodle 1.6.1+ (2006050512)
+      // webquest.php - created with Moodle 1.6.2 (2006050520)
 
 
-$string['modulename'] = 'Web претрага';
-$string['modulenameplural'] = 'Web претраге';
+$string['modulename'] = 'Веб претрага';
+$string['modulenameplural'] = 'Веб претраге';
 
 ?>
