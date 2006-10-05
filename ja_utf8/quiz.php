@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006092601)
+      // quiz.php - created with Moodle 1.7 dev (2006100401)
 
 
 $string['1day'] = '1日';
@@ -351,6 +351,7 @@ $string['penaltyscheme'] = 'ペナルティを適用する';
 $string['percentcorrect'] = '正答率';
 $string['pleaseclose'] = 'あなたのリクエストは処理されました。このウィンドウを閉じてください。';
 $string['popup'] = '小テストを「セキュア」ウィンドウに表示する';
+$string['popupblockerwarning'] = 'これからテストはセキュアモードで表示されますので、あなたは新しいセキュアウィンドウを開く必要があります。現在使用中のポップアップブロッカーを解除してください。ありがとうございます。';
 $string['popupnotice'] = '学生は、この小テストをセキュアウィンドウで見ます。';
 $string['preview'] = 'プレビュー';
 $string['previewquestion'] = '問題のプレビュー';
