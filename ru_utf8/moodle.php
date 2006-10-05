@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6 (2006050506)
+      // moodle.php - created with Moodle 1.6 + (2006050506)
 
 
 $string['action'] = 'Действие';
@@ -783,6 +783,7 @@ $string['potentialcreators'] = 'Потенциальные создатели к
 $string['potentialstudents'] = 'Потенциальные студенты';
 $string['potentialteachers'] = 'Потенциальные учителя';
 $string['preferredlanguage'] = 'Предпочитаемый язык';
+$string['preferredtheme'] = 'Предпочитаемая тема';
 $string['preview'] = 'Предварительный просмотр';
 $string['previeworchoose'] = 'Просмотр или выбор темы';
 $string['previous'] = 'Предыдущий';
@@ -960,7 +961,7 @@ $string['textformat'] = 'Текст';
 $string['thanks'] = 'Спасибо';
 $string['theme'] = 'Тема оформления';
 $string['themes'] = 'Темы';
-$string['themesaved'] = 'Новая тема была добавлена';
+$string['themesaved'] = 'Новая тема была выбрана';
 $string['thischarset'] = 'windows-1251';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Русский';
