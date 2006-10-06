@@ -164,7 +164,7 @@ $string['postmailinfo'] = 'Ceci est une copie du message posté sur le site $a.
 Pour y répondre sur le site, cliquer sur ce lien :';
 $string['postmailnow'] = '<p>Ce message sera envoyé immédiatement à tous les participants abonnés à ce forum.</p>';
 $string['postrating1'] = 'Message plutôt détaché';
-$string['postrating2'] = 'Message équilibré, détaché et lié';
+$string['postrating2'] = 'Message à la fois détaché et lié';
 $string['postrating3'] = 'Message plutôt lié';
 $string['posts'] = 'Messages';
 $string['posttoforum'] = 'Écrire dans le forum';
