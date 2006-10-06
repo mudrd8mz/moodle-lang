@@ -389,7 +389,6 @@ $string['quiz:preview'] = 'Prévisualiser les tests';
 $string['quiz:grade'] = 'Évaluer manuellement les tests';
 $string['quiz:viewreports'] = 'Voir les rapports des tests';
 $string['quiz:deleteattempts'] = 'Supprimer les tentatives de tests';
-$string['quiz:grade'] = 'Évaluer les tests';
 $string['random'] = 'Question aléatoire';
 $string['randomcreate'] = 'Créer des questions aléatoires';
 $string['randomsamatch'] = 'Question aléatoire à réponse courte';
