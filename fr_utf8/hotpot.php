@@ -111,6 +111,8 @@ $string['reportbutton'] = 'Générer le rapport';
 $string['thiscourse'] = 'Ce cours';
 $string['allmycourses'] = 'Tous mes cours';
 
+$string['allusers'] = 'Tous les utilisateurs';
+
 $string['attemptsall'] = 'Toutes les tentatives';
 $string['attemptsbest'] = 'Meilleure tentative';
 $string['attemptsfirst'] = 'Première tentative';
