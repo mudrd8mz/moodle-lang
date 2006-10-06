@@ -349,6 +349,7 @@ $string['penaltyscheme'] = 'Appliquer les pénalités';
 $string['percentcorrect'] = 'Pourcentage de réponses correctes';
 $string['pleaseclose'] = 'Votre requête a été traitée. Vous pouvez maintenant fermer cette fenêtre';
 $string['popup'] = 'Afficher le test dans une fenêtre «&nbsp;sécurisée&nbsp;»';
+$string['popupblockerwarning'] = 'Cette section du test est en mode sécurisé, ce qui nécessite de faire le test dans une fenêtre sécurisée. Veuillez désactivez le blocage des fenêtres surgissantes.';
 $string['popupnotice'] = 'Pour les étudiants, l\'affichage de ce test se fera dans une fenêtre «&nbsp;sécurisée&nbsp;»';
 $string['preview'] = 'Prévisualisation';
 $string['previewquestion'] = 'Prévisualiser la question';
