@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 dev (2006092800)
+      // scorm.php - created with Moodle 1.7 dev (2006100401)
 
 
 $string['advanced'] = '詳細設定';
@@ -106,6 +106,7 @@ $string['reviewmode'] = 'レビューモード';
 $string['scoes'] = '学習オブジェクト';
 $string['score'] = '評点';
 $string['scorm:savetrack'] = 'トラックを保存する';
+$string['scorm:skipview'] = 'オーバービューをスキップする';
 $string['scorm:viewreport'] = 'レポートを表示する';
 $string['scorm:viewscores'] = '評点を表示する';
 $string['scormcourse'] = '学習コース';

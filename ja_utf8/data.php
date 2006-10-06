@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006092801)
+      // data.php - created with Moodle 1.7 dev (2006100401)
 
 
 $string['action'] = '操作';
@@ -39,6 +39,7 @@ $string['data:comment'] = 'コメントを追加する';
 $string['data:managecomments'] = 'コメントを管理する';
 $string['data:manageentries'] = 'エントリを管理する';
 $string['data:managetemplates'] = 'テンプレートを管理する';
+$string['data:manageuserpresets'] = 'すべてのテンプレートプリセットを管理する';
 $string['data:rate'] = 'エントリを評価する';
 $string['data:readentry'] = 'エントリを読む';
 $string['data:viewalluserpresets'] = 'すべてのユーザのプリセットを表示する';
