@@ -37,6 +37,7 @@ $string['data:approve'] = 'Approuver des fiches';
 $string['data:manageentries'] = 'Gérer les fiches';
 $string['data:managecomments'] = 'Gérer les commentaires';
 $string['data:managetemplates'] = 'Gérer les modèles';
+$string['data:manageuserpresets'] = 'Gérer tous les préréglages';
 $string['data:viewalluserpresets'] = 'Voir les préréglages de tous les utilisateurs';
 $string['data:viewrating'] = 'Voir les évaluations';
 $string['data:viewentry'] = 'Voir les articles';
