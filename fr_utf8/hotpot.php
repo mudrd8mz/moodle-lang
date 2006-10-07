@@ -108,8 +108,8 @@ $string['reportformat'] = 'Format';
 
 $string['reportbutton'] = 'Générer le rapport';
 
-$string['thiscourse'] = 'Ce cours';
-$string['allmycourses'] = 'Tous mes cours';
+$string['thiscourse'] = 'Ce cours';  // Legacy, to delete after release 1.7
+$string['allmycourses'] = 'Tous mes cours';  // Legacy, to delete after release 1.7
 
 $string['allusers'] = 'Tous les utilisateurs';
 
