@@ -4,7 +4,6 @@
 
 $string['abandoned'] = '放棄';
 $string['addquizchain'] = 'クイズチェーンを追加する';
-$string['allmycourses'] = 'すべてのコース';
 $string['allusers'] = 'すべてのユーザ';
 $string['alwaysopen'] = '常に利用可能';
 $string['attemptsall'] = 'すべての受験';
@@ -63,7 +62,7 @@ $string['navigation_bar'] = 'Moodleナビケーションバー';
 $string['navigation_buttons'] = 'Hot Potatoesクイズボタン';
 $string['navigation_frame'] = 'Moodleナビケーションフレーム';
 $string['navigation_give_up'] = 'ギブアップボタン';
-$string['navigation_iframe'] = '埋め込み&lt;IFRAME&gt;';
+$string['navigation_iframe'] = '埋め込み &lt;IFRAME&gt;';
 $string['navigation_none'] = 'なし';
 $string['neverclosed'] = '終了なし';
 $string['noactivity'] = '活動なし';
@@ -146,7 +145,6 @@ $string['textsourcefilename'] = 'ファイル名を使用する';
 $string['textsourcefilepath'] = 'ファイルパスを使用する';
 $string['textsourcequiz'] = 'クイズより取得する';
 $string['textsourcespecific'] = 'テキストを指定する';
-$string['thiscourse'] = 'このコース';
 $string['timedout'] = 'タイムアウト';
 $string['updatequizchain'] = 'クイズチェーンを更新する';
 $string['weighting'] = 'ウェイト';
