@@ -34,7 +34,7 @@ $string['deletesubmissionwarning'] = 'Upozorenje: ima $a procena vezanih za ovaj
 Vrlo je preporučljivo da se ovaj predlog NE briše.';
 $string['deleting'] = 'Briše se';
 $string['description'] = 'Opis';
-$string['descriptionofexercise'] = 'U zadatku tipa vežbe opis vežbe ili onoga što $a treba da uradi stavlja se u Word dokument ili HTML datoteku. Ta datoteka se učitava u vežbu pre nego što se zadatak stavi na raspolaganje korisniku $a. Moguće je kreirati i niz varijanti iste vežbe ili zadatka, ponovo u vidu Word dokumenata ili HTML datoteka, i učitati ih u vežbu pre njenog otvaranja za $a.';
+$string['descriptionofexercise'] = 'U zadatku tipa vežbe opis vežbe ili onoga što $a treba da uradi stavlja se u Word dokument ili HTML datoteku. Ta datoteka se postavlja u vežbu pre nego što se zadatak stavi na raspolaganje korisniku $a. Moguće je kreirati i niz varijanti iste vežbe ili zadatka, ponovo u vidu Word dokumenata ili HTML datoteka, i postaviti ih u vežbu pre njenog otvaranja za $a.';
 $string['detailsofassessment'] = 'Detalji ocenjivanja';
 $string['displayoffinalgrades'] = 'Prikaz konačnih ocena';
 $string['doubleupload'] = 'Upozorenje: Ova prijava je verovatno poslata dva puta. Proverite na Administratorskoj stranici dve prijave ovog korisnika, poslate u kratkom vremenskom roku. Obrišite jednu od prijava pre nastavka rada.';

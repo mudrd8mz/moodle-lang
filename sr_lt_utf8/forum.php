@@ -161,9 +161,9 @@ $string['parent'] = 'Prikaži nadređenu poruku';
 $string['parentofthispost'] = 'Poruka nadređena ovoj poruci';
 $string['postadded'] = 'Vaša poruka je uspešno dodata.<P>Imate $a za promenu sadržaja iste, pod uslovom da to želite.';
 $string['postincontext'] = 'Pogledajte poruku u kontekstu';
-$string['postmailinfo'] = 'Ovo je kopija poruke s foruma na $a.
+$string['postmailinfo'] = 'Ovo je kopija poruke s foruma na Web sajtu $a.
 
-Kako biste odgovorili na poruku putem web interfejsa, kliknite na ovaj link:';
+Kako biste odgovorili na poruku putem Web interfejsa, kliknite na ovaj link:';
 $string['postmailnow'] = '<p>Ova poruka će biti odmah poslata svim članovima foruma.</p>';
 $string['postrating1'] = 'Uglavnom odvojeno znanje';
 $string['postrating2'] = 'Odvojeno i povezano';

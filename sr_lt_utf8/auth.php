@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6.1+ (2006050512)
+      // auth.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['alternatelogin'] = 'Ako ovde unesete URL, biće korišćen kao stranica za prijavu na ovaj sajt. Stranica bi trebala sadržati formu sa akcijskom opcijom podešenom na <strong>\'$a\'</strong> i vraćanjem polja <strong>username</strong> i <strong>password</strong>.<br />Budite oprezni da ne biste slučajno uneli pogrešan URL i time sami sebi onemogućili pristup sajtu.<br />Ostavite ovo podešavanje prazno da biste koristili podrazumevanu stranicu za pristup sistemu.';
 $string['alternateloginurl'] = 'Alternativni URL za prijavu na sistem';
 $string['auth_cas_baseuri'] = 'URI servera (ništa ako nije podešen baseUri)<br />Na primer, ako CAS server odgovara domenu host.domaine.fr/CAS/ onda je <br />cas_baseuri = CAS/';
-$string['auth_cas_create_user'] = 'Uključite ovo podešavanje ako želite da ubacite CAS-autentikovane korisnike u Moodle bazu podataka. Ako to ne želite, samo korisnici koji već postoje u Moodle bazi podataka će moći da pristupe sistemu.';
-$string['auth_cas_enabled'] = 'Uključite ovo podešavanje ako želite da koristite CAS autentikaciju.';
+$string['auth_cas_create_user'] = 'Uključite ovo podešavanje ako želite da ubacite korisnike za koje je izvršena CAS provera identiteta u Moodle bazu podataka. Ako to ne želite, samo korisnici koji već postoje u Moodle bazi podataka će moći da pristupe sistemu.';
+$string['auth_cas_enabled'] = 'Uključite ovo podešavanje ako želite da koristite CAS proveru identiteta.';
 $string['auth_cas_hostname'] = 'Naziv domaćina CAS servera <br />npr. host.domain.fr';
 $string['auth_cas_invalidcaslogin'] = 'Nažalost, Vaša prijava nije uspela - niste mogli biti autorizovani';
 $string['auth_cas_language'] = 'Odabrani jezik';
@@ -15,7 +15,7 @@ $string['auth_cas_port'] = 'Port CAS servera';
 $string['auth_cas_server_settings'] = 'Konfiguracija CAS servera';
 $string['auth_cas_text'] = 'Sigurna veza';
 $string['auth_cas_version'] = 'CAS verzija';
-$string['auth_casdescription'] = 'Ovaj način koristi CAS server (Central Authentication Service) za autentikaciju korisnika u Single Sign On okruženje (SSO). Možete koristiti i jednostavnu LDAP autentikaciju. Ako su dato korisničko ime i lozinka validni prema CAS-u, Moodle kreira novi korisnički unos u svojoj bazi podataka, po potrebi preuzimajući atribute korisnika iz LDAP-a. Pri sledećim pristupima vrši se samo provera korisničkog imena i lozinke.';
+$string['auth_casdescription'] = 'Ovaj način koristi CAS server (Central Authentication Service) za proveru identiteta korisnika u Single Sign On okruženje (SSO). Možete koristiti i jednostavnu LDAP proveru identiteta. Ako su dato korisničko ime i lozinka validni prema CAS-u, Moodle kreira novi korisnički unos u svojoj bazi podataka, po potrebi preuzimajući atribute korisnika iz LDAP-a. Pri sledećim pristupima vrši se samo provera korisničkog imena i lozinke.';
 $string['auth_castitle'] = 'Koristiti CAS server (SSO)';
 $string['auth_changepasswordhelp'] = 'Promena pomoći za lozinku';
 $string['auth_changepasswordhelp_expl'] = 'Prikaz pomoći za slučaj izgubljene lozinke korisnicima koji su izgubili svoju $a lozinku. To će biti prikazano ili isto kao ili umesto <strong>URL-a za promenu lozinke</strong> ili interne promene Moodle lozinke.';
@@ -30,13 +30,13 @@ $string['auth_dbfielduser'] = 'Ime polja koje sadrži korisnička imena';
 $string['auth_dbhost'] = 'Računar domaćin servera baze podataka.';
 $string['auth_dbname'] = 'Naziv baze podataka';
 $string['auth_dbpass'] = 'Lozinka koja odgovara gore navedenom korisničkom imenu';
-$string['auth_dbpasstype'] = '<p>Zadajte format koje koristi polje za lozinku. MD5 šifrovanje je korisno prilikom povezivanja na ostale često korišćene mrežne aplikacije kao što je PostNuke.</p> <p> Upotrebite opciju \'interno\' ako želite da spoljašnja baza podataka vodi računa o korisničkim imenima i adresama e-pošte, ali da sam Moodle bude nadležan za lozinke. Ako koristite opciju \'interno\', <i>morate</i> obezbediti pristup popunjenom polju za adrese e-pošte u spoljašnjoj bazi podataka, i morate redovno izvršavati auth/db/cron.php. Moodle će slati e-poruke novim korisnicima sa njihovim privremenim lozinkama.</p>';
+$string['auth_dbpasstype'] = '<p>Zadajte format koje koristi polje za lozinku. MD5 šifrovanje je korisno prilikom povezivanja na ostale često korišćene Web aplikacije kao što je PostNuke.</p> <p> Upotrebite opciju \'interno\' ako želite da spoljašnja baza podataka vodi računa o korisničkim imenima i adresama e-pošte, ali da sam Moodle bude nadležan za lozinke. Ako koristite opciju \'interno\', <i>morate</i> obezbediti pristup popunjenom polju za adrese e-pošte u spoljašnjoj bazi podataka, i morate redovno izvršavati auth/db/cron.php. Moodle će slati e-poruke novim korisnicima sa njihovim privremenim lozinkama.</p>';
 $string['auth_dbtable'] = 'Ime tabele u bazi podataka';
 $string['auth_dbtitle'] = 'Koristiti spoljašnju bazu podataka';
 $string['auth_dbtype'] = 'Tip baze podataka (Pogledajte <a href=\"../lib/adodb/readme.htm#drivers\">ADOdb dokumentaciju</a> za detalje)';
 $string['auth_dbuser'] = 'Korisničko ime sa pristupom čitanju korisničke baze';
-$string['auth_emaildescription'] = 'Potvrđivanje putem e-pošte je uobičajen način provere. Nakon što se korisnik prijavi i izabere svoje novo ime i lozinku, e-pošta se šalje na adresu tog korisnika. U e-pošti se nalazi sigurnosni link prema stranici gde novi korisnik potvrđuje svoj nalog. Pri svakom narednom pristup uneti podaci se samo upoređuju sa onima koji su sačuvani u Moodle bazi podataka.';
-$string['auth_emailtitle'] = 'Provera putem e-pošte';
+$string['auth_emaildescription'] = 'Potvrđivanje putem e-pošte je uobičajen način provere identiteta. Nakon što se korisnik prijavi i izabere svoje novo ime i lozinku, e-pošta se šalje na adresu tog korisnika. U e-pošti se nalazi sigurnosni link prema stranici gde novi korisnik potvrđuje svoj nalog. Pri svakom narednom pristup uneti podaci se samo upoređuju sa onima koji su sačuvani u Moodle bazi podataka.';
+$string['auth_emailtitle'] = 'Provera identiteta putem e-pošte';
 $string['auth_fccreators'] = 'Lista grupa čijim saradnicima je dozvoljeno da kreiraju nove kurseve. Odvojite spojene grupe sa \';\'. Imena moraju biti napisana upravo onako kao na FirstClass serveru. Sistem vodi računa o velikim i malim slovima.';
 $string['auth_fcdescription'] = 'Ova metoda koristi FirstClass server za proveru da li su dodeljeno korisničko ime i lozinka ispravni.';
 $string['auth_fcfppport'] = 'Serverski port (3333 je najčešći)';
@@ -47,12 +47,12 @@ $string['auth_fcuserid'] = 'Korisnik FirstClass naloga sa kompletnim privilegija
 $string['auth_fieldlock'] = 'Zaključavanje vrednosti';
 $string['auth_fieldlock_expl'] = '<p><b>Zaključavanje vrednosti:</b> Ako je omogućeno, sprečiće Moodle korisnike i administratore da direktno uređuju polje. Koristite ovu opciju ako održavate ove podatke u eksternom autentikacionom sistemu. </p>';
 $string['auth_fieldlocks'] = 'Zaključavanje korisničkih polja';
-$string['auth_fieldlocks_help'] = '<p>Možete zaključati polja sa korisničkim podacima. To je korisno za sajtove na kojima korisničke podatke ručno održavaju administratori uređivanjem korisničkih zapisa u bazi podataka ili učitavanjem podataka korišćenjem mogućnosti za učitavanje korisnika iz drugih izvora. Ako zaključavate polja koja su neophodna za rad Moodle sistema, proverite da li ste omogućili korišćenje tih podataka pri kreiranju korisničkih naloga &emdash; jer se u suprotnom nalozi neće moći koristiti.</p><p>Razmotrite podešavanje moda za taključavanje na \'Otključano ako je prazno\' da biste izbegli taj problem.</p>';
+$string['auth_fieldlocks_help'] = '<p>Možete zaključati polja sa korisničkim podacima. To je korisno za sajtove na kojima korisničke podatke ručno održavaju administratori uređivanjem korisničkih zapisa u bazi podataka ili postavljanjem podataka korišćenjem mogućnosti za postavljanje korisnika iz drugih izvora. Ako zaključavate polja koja su neophodna za rad Moodle sistema, proverite da li ste omogućili korišćenje tih podataka pri kreiranju korisničkih naloga &emdash; jer se u suprotnom nalozi neće moći koristiti.</p><p>Razmotrite podešavanje moda za taključavanje na \'Otključano ako je prazno\' da biste izbegli taj problem.</p>';
 $string['auth_imapdescription'] = 'Ovaj metod koristi IMAP server da proveri da li su dodeljeno korisničko ime i lozinka ispravni.';
 $string['auth_imaphost'] = 'IMAP adresa servera. Koristite IP broj, a ne DNS nazive.';
 $string['auth_imapport'] = 'Broj porta IMAP servera. Obično je 143 ili 993.';
 $string['auth_imaptitle'] = 'Koristiti IMAP server';
-$string['auth_imaptype'] = 'Tip IMAP servera. IMAP serveri mogu imati različite tipove provere.';
+$string['auth_imaptype'] = 'Tip IMAP servera. IMAP serveri mogu imati različite tipove provere identiteta.';
 $string['auth_ldap_bind_dn'] = 'Ako želite da koristite bind-korisnika za pretragu korisnika, odredite to ovde. Nešto nalik na \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_pw'] = 'Lozinka za bind-korisnika.';
 $string['auth_ldap_bind_settings'] = 'Bind podešavanja';
@@ -79,7 +79,7 @@ $string['auth_ldap_user_attribute'] = 'Atribut koji se koristi za ime/pretragu k
 $string['auth_ldap_user_settings'] = 'Podešavanja pretrage korisnika';
 $string['auth_ldap_user_type'] = 'Izaberite kako se korisnik čuva u LDAP. Ovo podešavanje takođe određuje kako će funkcionisati istek upisa, poček unosa i kreiranje korisnika.';
 $string['auth_ldap_version'] = 'Verzija LDAP protokola koju Vaš server koristi.';
-$string['auth_ldapdescription'] = 'Ovaj metod služi za proveru od strane spoljašnjeg LDAP servera.
+$string['auth_ldapdescription'] = 'Ovaj metod služi za proveru identiteta od strane spoljašnjeg LDAP servera.
 Ako su dodeljeno korisničko ime i lozinka ispravni, Moodle kreira novu instancu korisnika u svojoj bazi podataka.
 Ovaj modul može čitati korisničke atribute sa LDAP-a i postaviti tražena polja u Moodle. Za sledeće upise samo se proveravaju korisničko ime i lozinka.';
 $string['auth_ldapextrafields'] = 'Ova polja nisu obavezna. Možete izabrati da ispunite neka Moodle korisnička polja sa informacijama iz <b>LDAP polja</b> koja ovde odredite. <br />Ako polja ostavite prazna, onda se ništa neće prebaciti sa LDAP-a, tako da će biti korišćene podrazumevane Moodle vrednosti.<br />U svakom slučaju, korisnici mogu da uređuju ova polja nakon pristupa sistemu.';
@@ -91,16 +91,16 @@ $string['auth_nntpdescription'] = 'Ovaj metod koristi NNTP server za proveru isp
 $string['auth_nntphost'] = 'NNTP adrese servera. Koristite IP broj, a ne DNS nazive.';
 $string['auth_nntpport'] = 'Serverski port (119 je najčešći)';
 $string['auth_nntptitle'] = 'Koristiti NNTP server.';
-$string['auth_nonedescription'] = 'Korisnici se mogu upisati i odmah napraviti važeće naloge, bez provere od strane spoljašnjeg servera i bez potvrde putem e-pošte.
+$string['auth_nonedescription'] = 'Korisnici se mogu upisati i odmah napraviti važeće naloge, bez provere identiteta od strane spoljašnjeg servera i bez potvrde putem e-pošte.
 Budite oprezni kad koristite ovu opciju - mislite na sigurnost i administrativne probleme koji njome mogu biti prouzrokovani!';
-$string['auth_nonetitle'] = 'Nema provere';
-$string['auth_pamdescription'] = 'Ovaj metod koristi PAM za pristup korisničkom imenu na domaćem serveru. Morate instalirati <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM autentikaciju</a> da biste koristili ovaj modul.';
+$string['auth_nonetitle'] = 'Nema provere identiteta';
+$string['auth_pamdescription'] = 'Ovaj metod koristi PAM za pristup korisničkom imenu na domaćem serveru. Morate instalirati <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM proveru identiteta</a> da biste koristili ovaj modul.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
 $string['auth_passwordisexpired'] = 'Vaša lozinka je istekla. Želite li sad da je promenite?';
 $string['auth_passwordwillexpire'] = 'Vaša lozinka će isteći za $a dana. Želite li sad da je promenite?';
 $string['auth_pop3description'] = 'Ovaj metod koristi POP3 server za proveru ispravnosti korisničkih imena i lozinki.';
 $string['auth_pop3host'] = 'POP3 adresa servera. Koristite IP broj, a ne DNS naziv.';
-$string['auth_pop3mailbox'] = 'Naziv mailboxa s kojim treba uspostaviti vezu. (obično INBOX)';
+$string['auth_pop3mailbox'] = 'Naziv mailbox-a s kojim treba uspostaviti vezu. (obično INBOX)';
 $string['auth_pop3port'] = 'Port na serveru (najčešće je to 110, a port 995 je čest za SSL)';
 $string['auth_pop3title'] = 'Koristiti POP3 server';
 $string['auth_pop3type'] = 'Tip servera. Ako Vaš server koristi sigurnosne sertifikate, izaberite pop3cert.';
@@ -111,15 +111,15 @@ $string['auth_radiussecret'] = 'Javna tajna';
 $string['auth_radiustitle'] = 'Koristiti RADIUS server';
 $string['auth_shib_convert_data'] = 'API za modifikacije podataka';
 $string['auth_shib_convert_data_description'] = 'Možete da koristite ovaj API za dalje modifikacije podataka koje omogućava Shibboleth. Pročitajte <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> za dalja uputstva.';
-$string['auth_shib_convert_data_warning'] = 'Datoteka ne postoji ili je proces web servera ne može čitati!';
+$string['auth_shib_convert_data_warning'] = 'Datoteka ne postoji ili je proces Web servera ne može čitati!';
 $string['auth_shib_instructions'] = 'Koristite <a href=\"$a\">Shibboleth pristup sistemu</a> da biste dobili pristup preko Shibboleth-a, ako ga Vaša institucija podržava.<br />U suprotnom, koristite normalnu pristupnu formu prikazanu ovde.';
 $string['auth_shib_instructions_help'] = 'Ovde biste trebali postaviti sopstvena uputstva da biste Vašim korisnicima objasnili Shibboleth. Ona će biti prikazana na pristupnoj stranici u odeljku sa uputstvima. Uputstva moraju sadržati link do \"<b>$a</b>\" na koji će korisnici kliknuti kad budu želeli da da pristupe sistemu.';
 $string['auth_shib_only'] = 'Samo Shibboleth';
-$string['auth_shib_only_description'] = 'Potvrdite ovu opciju ako će se primenjivati Shibboleth autentikacija';
-$string['auth_shib_username_description'] = 'Naziv web servera promenljive Shibboleth okruženja koja će se koristiti kao Moodle korisničko ime';
+$string['auth_shib_only_description'] = 'Potvrdite ovu opciju ako će se primenjivati Shibboleth provera identiteta';
+$string['auth_shib_username_description'] = 'Naziv Web servera promenljive Shibboleth okruženja koja će se koristiti kao Moodle korisničko ime';
 $string['auth_shibboleth_login'] = 'Shibboleth pristup sistemu';
 $string['auth_shibboleth_manual_login'] = 'Ručni pristup sistemu';
-$string['auth_shibbolethdescription'] = 'Korišćenjem ovog metoda korisnici se kreiraju i autentikuju pomoću <a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth-a</a>.<br>Obavezno pročitajte <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">UPUTSTVO</a> za podešavanje Vašeg Moodle sajta sa Shibboleth-om';
+$string['auth_shibbolethdescription'] = 'Korišćenjem ovog metoda korisnici se kreiraju i proverava im se identitet pomoću <a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth-a</a>.<br>Obavezno pročitajte <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">UPUTSTVO</a> za podešavanje Vašeg Moodle sajta sa Shibboleth-om';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_updatelocal'] = 'Ažuriranje lokalnih podataka';
 $string['auth_updatelocal_expl'] = '<p><b>Ažuriranje lokalnih podataka:</b> Ako je omogućeno, polje će biti ažurirano (koristi se eksterni auth) svaki put kada korisnik pristupi sistemu ili dođe do korisničke sinhronizacije. Polja za koja je podešeno lokalno ažuriranje bi trebala biti zaključana.</p>';
@@ -127,14 +127,14 @@ $string['auth_updateremote'] = 'Ažuriranje eksternih podataka';
 $string['auth_updateremote_expl'] = '<p><b>Ažuriranje eksternih podataka:</b> Ako je omogućeno, eksterni auth će biti ažuriran pri ažuriranju zapisa o korisnicima. Polja bi trebala biti otključana da bi se dozvolile promene.</p>';
 $string['auth_updateremote_ldap'] = '<p><b>Napomene:</b> Ažuriranje eksternih LDAP podataka zahteva da podesite povezivanje binddn i bindpw za bind-korisnika sa privilegijama korigovanja svih korisničkih zapisa. Ovo trenutno ne čuva viševrednosne atribute i ukloniće dodatne vrednosti nadogradnje.</p>';
 $string['auth_user_create'] = 'Omogućiti kreiranje korisnika';
-$string['auth_user_creation'] = 'Novi (anonimni) korisnici mogu napraviti korisničke naloge na spoljašnjem autentikacionom izvoru i izvršiti potvrdu putem e-pošte. Ako omogućite ovu opciju, konfigurišite i specifične opcije modula koje služe za kreiranje korisnika.';
+$string['auth_user_creation'] = 'Novi (anonimni) korisnici mogu napraviti korisničke naloge na spoljašnjem izvoru za proveru identiteta i izvršiti potvrdu putem e-pošte. Ako omogućite ovu opciju, konfigurišite i specifične opcije modula koje služe za kreiranje korisnika.';
 $string['auth_usernameexists'] = 'Odabrano korisničko ime već postoji. Molimo izaberite drugo korisničko ime.';
-$string['authenticationoptions'] = 'Opcije za proveru';
+$string['authenticationoptions'] = 'Opcije za proveru identiteta';
 $string['authinstructions'] = 'Ovde možete dati instrukcije Vašim korisnicima, tako da znaju koje korisničko ime i lozinku treba da koriste. Tekst koji ovde napišete biće prikazan na stranici za pristup sistemu. Ako polje ostavite prazno, onda instrukcije neće biti prikazane.';
 $string['changepassword'] = 'URL za promenu lozinke';
 $string['changepasswordhelp'] = 'Ovde možete zadati lokaciju na kojoj Vaši korisnici mogu obnoviti ili promeniti svoje korisničko ime/lozinku, u slučaju da su je zaboravili.
 Ova opcija se može ponuditi korisnicima u vidu dugmeta na stranici za pristup sistemu i njihovoj korisničkoj strani. Ako ostavite prazno polje, dugme neće biti prikazano.';
-$string['chooseauthmethod'] = 'Izaberite način provere';
+$string['chooseauthmethod'] = 'Izaberite način provere identiteta';
 $string['createpasswordifneeded'] = 'Kreiranje lozinke ako je to potrebno';
 $string['forcechangepassword'] = 'Obavezna promena lozinke';
 $string['forcechangepassword_help'] = 'Obavezna promena lozinke za sve korisnike pri njihovom sledećem pristupu Moodle sistemu';
@@ -147,12 +147,12 @@ $string['locked'] = 'Zaključano';
 $string['md5'] = 'MD5 kodiranje';
 $string['passwordhandling'] = 'Upravljenje poljem lozinke';
 $string['plaintext'] = 'Običan tekst';
-$string['shib_no_attributes_error'] = 'Čini se da ste autentikovani Shibboleth-om, ali Moodle nije dobio nikakve atribute korisnika. Molimo proverite da li Vaš davalac identiteta izdaje neophodne atribute ($a) za davaoca usluga na kom Moodle radi ili informišite webmastera ovog servera.';
+$string['shib_no_attributes_error'] = 'Čini se da Vam je identitet proveren Shibboleth-om, ali Moodle nije dobio nikakve atribute korisnika. Molimo proverite da li Vaš davalac identiteta izdaje neophodne atribute ($a) za davaoca usluga na kom Moodle radi ili informišite webmastera ovog servera.';
 $string['shib_not_all_attributes_error'] = 'Moodle-u su neophodni izvesni Shibboleth atributi, koji u Vašem slučaju nisu prisutni. Potrebni atributi su: $a<br />Molimo kontaktirajte webmastera ovog servera ili svog davaoca identiteta.';
-$string['shib_not_set_up_error'] = 'Shibboleth autentikacija izgleda nije dobro podešena, jer nema prisutnih varijabli Shibboleth okruženja za ovu stranicu. Molimo pogledajte <a href=\"README.txt\">README</a> za dalja uputstva za podešavanje Shibboleth autentikacije ili kontaktirajte webmastera ove Moodle instalacije.';
+$string['shib_not_set_up_error'] = 'Shibboleth provera identiteta izgleda nije dobro podešena, jer nema prisutnih varijabli Shibboleth okruženja za ovu stranicu. Molimo pogledajte <a href=\"README.txt\">README</a> za dalja uputstva za podešavanje Shibboleth autentikacije ili kontaktirajte webmastera ove Moodle instalacije.';
 $string['showguestlogin'] = 'Možete sakriti ili prikazati dugme za prijavu gostiju na prijavnoj stranici.';
 $string['stdchangepassword'] = 'Upotreba standardne stranice za promenu lozinke';
-$string['stdchangepassword_expl'] = 'Ako spoljašnji autentikacioni sistem dozvoljava promenu lozinke iz Moodle sistema, uključte ga. Ovo podešavanje zaobilazi \'URL za promenu lozinke\'.';
+$string['stdchangepassword_expl'] = 'Ako spoljašnji sistem za proveru identiteta dozvoljava promenu lozinke iz Moodle sistema, uključite ga. Ovo podešavanje zaobilazi \'URL za promenu lozinke\'.';
 $string['stdchangepassword_explldap'] = 'Napomena: Preporučuje se da koristite LDAP pre nego SSL šifrovanje tunela (ldaps://) ako je LDAP server udaljen.';
 $string['unlocked'] = 'Otključano';
 $string['unlockedifempty'] = 'Otključano ako je prazno';

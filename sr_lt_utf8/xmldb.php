@@ -19,6 +19,7 @@ $string['confirmdeletexmlfile'] = 'Da li ste potpuno sigurni da želite da obri�
 $string['confirmrevertchanges'] = 'Da li ste potpuno sigurni da želite da poništite promene načinjene tokom:';
 $string['create'] = 'Kreiranje';
 $string['createtable'] = 'Kreiranje tabele';
+$string['defaultincorrect'] = ' ';
 $string['delete'] = 'Brisanje';
 $string['delete_field'] = 'Brisanje polja';
 $string['delete_index'] = 'Brisanje indeksa';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6.1+ (2006050512)
+      // editor.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['LOs'] = 'Objekti za učenje';
@@ -119,7 +119,7 @@ $string['type'] = 'Tip';
 $string['underline'] = 'Podvučeno';
 $string['undo'] = 'Poništi poslednju akciju';
 $string['unorderedlist'] = 'Lista po stavkama';
-$string['upload'] = 'Učitavanje';
+$string['upload'] = 'Postavljanje';
 $string['vertical'] = 'Vertikalno';
 $string['width'] = 'Širina';
 $string['wordclean'] = 'Obriši Word HTML';
