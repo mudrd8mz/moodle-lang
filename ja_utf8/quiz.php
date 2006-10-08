@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006100401)
+      // quiz.php - created with Moodle 1.7 dev (2006100601)
 
 
 $string['1day'] = '1日';
@@ -105,7 +105,7 @@ $string['correctanswerformula'] = '正解の公式';
 $string['correctanswerlength'] = '有効数字';
 $string['correctanswers'] = '正解';
 $string['correctanswershows'] = '正解の表示';
-$string['corrresp'] = '正答';
+$string['corrresp'] = '正解';
 $string['countdown'] = 'カウントダウン';
 $string['countdownfinished'] = 'この小テストは終了します。あなたの解答を送信してください。';
 $string['countdowntenminutes'] = '小テストは10分後に終了します。';
@@ -348,7 +348,7 @@ $string['passworderror'] = 'パスワードが間違っています。';
 $string['penalty'] = 'ペナルティ';
 $string['penaltyfactor'] = 'ペナルティ要素';
 $string['penaltyscheme'] = 'ペナルティを適用する';
-$string['percentcorrect'] = '正答率';
+$string['percentcorrect'] = '正解率';
 $string['pleaseclose'] = 'あなたのリクエストは処理されました。このウィンドウを閉じてください。';
 $string['popup'] = '小テストを「セキュア」ウィンドウに表示する';
 $string['popupblockerwarning'] = 'これからテストはセキュアモードで表示されますので、あなたは新しいセキュアウィンドウを開く必要があります。現在使用中のポップアップブロッカーを解除してください。ありがとうございます。';
