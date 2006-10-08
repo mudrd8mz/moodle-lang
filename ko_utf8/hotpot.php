@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.7 dev (2006092801)
+      // hotpot.php - created with Moodle 1.7 dev (2006100601)
 
 
 $string['abandoned'] = '실패';
 $string['addquizchain'] = '퀴즈 체인 더하기';
-$string['allmycourses'] = '나의 모든 코스들';
+$string['allusers'] = '모든 사용자';
 $string['alwaysopen'] = '언제나 열림';
-$string['attemptsall'] = '모든 시도들';
+$string['attemptsall'] = '모든 시도';
 $string['attemptsbest'] = '최고의 시도';
 $string['attemptsfirst'] = '첫번째 시도';
 $string['attemptslast'] = '마지막 시도';
@@ -47,16 +47,16 @@ $string['giveup'] = '포기';
 $string['hints'] = '힌트';
 $string['hotpot:attempt'] = '퀴즈 시도';
 $string['hotpot:deleteattempt'] = '시도 삭제';
-$string['hotpot:grade'] = '등급 수정';
+$string['hotpot:grade'] = '성적 수정';
 $string['hotpot:view'] = '퀴즈 이용';
 $string['hotpot:viewreport'] = '보고서 보기';
-$string['hotpotcloses'] = '쟁점퀴즈 종료';
-$string['hotpotopens'] = '쟁점퀴즈 시작';
+$string['hotpotcloses'] = '쟁점퀴즈 닫기';
+$string['hotpotopens'] = '쟁점퀴즈 열기';
 $string['ignored'] = '무시됨';
 $string['inprogress'] = '진행중';
 $string['location'] = '화일 장소';
 $string['modulename'] = '쟁점퀴즈';
-$string['modulenameplural'] = '쟁점퀴즈';
+$string['modulenameplural'] = '쟁점퀴즈모음';
 $string['navigation'] = '항해';
 $string['navigation_bar'] = '무들 네비게이션 창';
 $string['navigation_buttons'] = '쟁점퀴즈 단추';
@@ -145,7 +145,6 @@ $string['textsourcefilename'] = '파일 이름 이용';
 $string['textsourcefilepath'] = '파일 경로 이용';
 $string['textsourcequiz'] = '퀴즈로부터 얻기';
 $string['textsourcespecific'] = '특정 문서';
-$string['thiscourse'] = '이 배움터';
 $string['timedout'] = '시간 종료';
 $string['updatequizchain'] = '퀴즈 체인 갱신';
 $string['weighting'] = '부가되는것';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 dev (2006092801)
+      // scorm.php - created with Moodle 1.7 dev (2006100601)
 
 
 $string['advanced'] = '고급설정';
@@ -65,8 +65,8 @@ $string['max'] = '최고 점수';
 $string['maximumattempts'] = '시도 횟수';
 $string['menubar'] = '목차 표시 보임';
 $string['min'] = '최하 점수';
-$string['missing_attribute'] = '잘못된 특성$a->attr in tag $a->tag';
-$string['missing_tag'] = '잘못된 표 $a->tag';
+$string['missing_attribute'] = '$a->tag 의 빠진 속성 $a->attr';
+$string['missing_tag'] = '빠진 태그 $a->tag';
 $string['mode'] = '모드';
 $string['modulename'] = 'Scorm/AICC';
 $string['modulenameplural'] = 'Scorms';
@@ -76,9 +76,9 @@ $string['no_attributes'] = '$a->tag 태그는 속성을 가져야 한다.';
 $string['no_children'] = '$a->tag 태그는 하부조직을 가져야한다.';
 $string['noactivity'] = '보고 할 것이 없습니다.';
 $string['nolimit'] = '무제한 시도';
-$string['nomanifest'] = '명시가 발견되지 않음';
+$string['nomanifest'] = '선언이 없음';
 $string['noprerequisites'] = '죄송합니다 당신은 필요한 배움터에 도달할수 없습니다.';
-$string['noreports'] = '보여줄 기록이 없음';
+$string['noreports'] = '보고사항 없음';
 $string['normal'] = '보통';
 $string['noscriptnoscorm'] = '당신의 브라우저는 자바스크립트를 지원하지 않거나 자바스크립트 지원이 비활성화 되어 있습니다. 트랙이 저장되지 않을 것입니다.';
 $string['not_corr_type'] = '$a->tag 태그에는 부적당한 형태';
@@ -94,7 +94,7 @@ $string['php5'] = 'PHP 5';
 $string['popup'] = '새로운 윈도우 창에서 현재SCO를 열어라';
 $string['popupmenu'] = '드롭다운메뉴에서';
 $string['popupopen'] = '새창으로 띄움';
-$string['position_error'] = '$a->tag 태그는 $a->parent 태그의 하부조직이 될수 없다.';
+$string['position_error'] = '$a->tag 태그는 $a->parent 태그의 하부조직이 될 수 없다.';
 $string['prev'] = '이전';
 $string['raw'] = '원 점수';
 $string['regular'] = '보통 명시';
@@ -106,6 +106,7 @@ $string['reviewmode'] = '재검토 모드';
 $string['scoes'] = '학습개체들';
 $string['score'] = '점수';
 $string['scorm:savetrack'] = '추적 저장';
+$string['scorm:skipview'] = '개요보기 생략';
 $string['scorm:viewreport'] = '보고서 보기';
 $string['scorm:viewscores'] = '점수 보기';
 $string['scormcourse'] = 'SCORM 과정';
@@ -119,7 +120,7 @@ $string['statusbar'] = '상태막대 보임';
 $string['student_response'] = '반응';
 $string['suspended'] = '보류됨';
 $string['syntax'] = '문법 오류';
-$string['tag_error'] = '$a->value 컨텐츠에 알려지지 않은 태그($a->tag)';
+$string['tag_error'] = '$a->value 내용속에 알려지지 않은 태그($a->tag)';
 $string['time'] = '시간';
 $string['title'] = '제목';
 $string['too_many_attributes'] = '$a->tag 태그는 너무 많은 속성을 가지고 있다.';
