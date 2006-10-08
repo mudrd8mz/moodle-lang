@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006100401)
+      // moodle.php - created with Moodle 1.7 dev (2006100601)
 
 
 $string['action'] = '操作';
@@ -1084,7 +1084,8 @@ $string['resetinfo'] = 'このページでは、活動および他の設定を�
 $string['resetstartdate'] = '開講日のリセット';
 $string['resettodefaults'] = '初期値に戻す';
 $string['resortcoursesbyname'] = 'コース名で並び替える';
-$string['resources'] = '資料';
+$string['resource'] = 'リソース';
+$string['resources'] = 'リソース';
 $string['restore'] = 'リストア';
 $string['restorecancelled'] = 'リストアがキャンセルされました。';
 $string['restorecoursenow'] = 'このコースをリストアする!';
