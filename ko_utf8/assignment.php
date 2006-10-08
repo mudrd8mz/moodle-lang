@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 dev (2006092801)
+      // assignment.php - created with Moodle 1.7 dev (2006100601)
 
 
 $string['allowdeleting'] = '삭제 허용';
@@ -76,6 +76,7 @@ $string['pagesize'] = '한 쪽당 보이는 제출물';
 $string['preventlate'] = '제출 기한 엄수';
 $string['quickgrade'] = '신속 채점 허용';
 $string['responsefiles'] = '반응 파일';
+$string['reviewed'] = '검토했음';
 $string['saveallfeedback'] = '내 의견을 모두 저장';
 $string['sendformarking'] = '채점을 위한 제출';
 $string['submission'] = '제출';

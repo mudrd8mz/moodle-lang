@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006092801)
+      // admin.php - created with Moodle 1.7 dev (2006100401)
 
 
 $string['accounts'] = '계정';
@@ -17,7 +17,7 @@ $string['antivirus'] = '바이러스 방역';
 $string['appearance'] = '겉모습';
 $string['aspellpath'] = 'aspell의 경로';
 $string['authentication'] = '인증';
-$string['autologinguests'] = '손님 자동 로그인';
+$string['autologinguests'] = '자동 로그인 손님들';
 $string['availablelangs'] = '사용가능한 언어팩';
 $string['backgroundcolour'] = '투명 색상';
 $string['backups'] = '백업';
