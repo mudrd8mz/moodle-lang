@@ -1068,6 +1068,7 @@ $string['resetinfo'] = '이 페이지는 배움터에서 활동들과 다른 설
 $string['resetstartdate'] = '시작날짜 초기화';
 $string['resettodefaults'] = '기본값으로 초기화';
 $string['resortcoursesbyname'] = '이름순으로 재분류';
+$string['resource'] = '자료';
 $string['resources'] = '참고자료';
 $string['restore'] = '복구';
 $string['restorecancelled'] = '취소된 것 복구하기';
