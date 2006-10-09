@@ -886,9 +886,9 @@ $a->link
 「 $a->sitename 」の管理者よりご挨拶でした。
 $a->signoff';
 $string['newpicture'] = '新しい写真';
-$string['newsitem'] = '件のニュースアイテムを表示';
-$string['newsitems'] = '件のニュースアイテムを表示';
-$string['newsitemsnumber'] = 'ニュースアイテムの表示数';
+$string['newsitem'] = '件のニュースアイテムを表示する';
+$string['newsitems'] = '件のニュースアイテムを表示する';
+$string['newsitemsnumber'] = 'ニュースアイテムの表示件数';
 $string['newuser'] = '新規ユーザ';
 $string['newusernewpasswordsubj'] = '新規ユーザアカウント';
 $string['newusernewpasswordtext'] = 'こんにちは $a->lastname さん
@@ -1157,14 +1157,14 @@ $string['showallcourses'] = 'すべてのコースを表示';
 $string['showalltopics'] = 'すべてのトピックを表示';
 $string['showallusers'] = 'すべてのユーザを表示';
 $string['showallweeks'] = 'すべての週を表示';
-$string['showgrades'] = '評定を表示';
+$string['showgrades'] = '評定を表示する';
 $string['showlistofcourses'] = 'コース一覧を表示';
 $string['showonly'] = '表示限定';
 $string['showonlytopic'] = 'トピック $a のみ表示';
 $string['showonlyweek'] = '第 $a 週のみ表示';
 $string['showperpage'] = '1ページあたりの表示数: $a';
 $string['showrecent'] = '最新の活動を表示';
-$string['showreports'] = '活動レポートを表示';
+$string['showreports'] = '活動レポートを表示する';
 $string['showsettings'] = '設定を表示する';
 $string['showtheselogs'] = 'これらのログを表示';
 $string['since'] = '対象範囲';

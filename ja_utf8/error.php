@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006092410)
+      // error.php - created with Moodle 1.7 dev (2006100601)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -19,13 +19,13 @@ $string['confirmsesskeybad'] = '申し訳ございません、あなたのセッ
 $string['couldnotassignrole'] = 'あなたにロールを割り当てている最中に、深刻ですが不明なエラーが発生しました。';
 $string['coursegroupunknown'] = 'コースに関連するグループ $a が指定されていません。';
 $string['downloadedfilecheckfailed'] = 'ダウンロードファイルのチェックが失敗しました。';
-$string['errorcleaningdirectory'] = 'ディレクトリ「 $a 」のクリーニングにエラーが発生しました。';
-$string['errorcopyingfiles'] = 'ファイルのコピーにエラーが発生しました。';
-$string['errorcreatingdirectory'] = 'ディレクトリ「 $a 」の作成にエラーが発生しました。';
-$string['errorcreatingfile'] = 'ファイル「 $a 」の作成にエラーが発生しました。';
+$string['errorcleaningdirectory'] = 'ディレクトリ「 $a 」のクリーニング中にエラーが発生しました。';
+$string['errorcopyingfiles'] = 'ファイルのコピー中にエラーが発生しました。';
+$string['errorcreatingdirectory'] = 'ディレクトリ「 $a 」の作成中にエラーが発生しました。';
+$string['errorcreatingfile'] = 'ファイル「 $a 」の作成中にエラーが発生しました。';
 $string['erroronline'] = '$a 行にエラーがあります。';
-$string['errorreadingfile'] = 'ファイル「 $a 」の読み取りにエラーが発生しました。';
-$string['errorunzippingfiles'] = 'ファイルの解凍処理にエラーが発生しました。';
+$string['errorreadingfile'] = 'ファイル「 $a 」の読み取り中にエラーが発生しました。';
+$string['errorunzippingfiles'] = 'ファイルの解凍処理中にエラーが発生しました。';
 $string['fieldrequired'] = '「 $a 」 は必須項目です。';
 $string['filenotfound'] = '申し訳ございません、ファイルが見つかりませんでした。';
 $string['forumblockingtoomanyposts'] = 'このフォーラムに設定されている登録期限を超えています。';
@@ -56,7 +56,7 @@ $string['onlyeditown'] = '他の人の情報は編集できません。';
 $string['pagenotexist'] = '異常なエラー ( 存在しないページへのアクセス ) が発生しました。';
 $string['pleasereport'] = 'あなたに時間がある場合、エラーが発生したとき、あなたが何を試みたのか私たちにお教えください。';
 $string['pluginrequirementsnotmet'] = 'プラグイン 「 $a->pluginname 」 ($a->pluginversion) がインストールされませんでした。インストールするには、新しいバージョンのMoodleが必要です ( 現在使用しているバージョン: $a->currentmoodle  インストールに必要なバージョン: $a->requiremoodle )。';
-$string['processingstops'] = 'プロセスが停止しました。残りのレコードは無視されます。';
+$string['processingstops'] = 'プロセスがここで停止しました。残りのレコードは無視されます。';
 $string['remotedownloadnotallowed'] = 'あなたのサーバーにコンポーネントをダウンロードすることができません ( allow_url_fopen が無効 )。<br /><br /><a href=\"$a->url\">$a->url</a> ファイルを手動でダウンロードして、サーバの「 $a->dest 」にコピーした後、解凍してください。';
 $string['restricteduser'] = '申し訳ございません、あなたのアカウント「 $a 」では、この処理を行うことができません。';
 $string['sendmessage'] = 'メッセージを送信する';
