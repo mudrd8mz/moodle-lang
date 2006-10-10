@@ -242,7 +242,7 @@ $string['timezonenotforced'] = '用户可以选择自己的时区';
 $string['unicodeupgradenotice'] = '在 Moodle 1.6 中，我们已经将所有的语言迁移到 Unicode 编码。要完成这个站点的升级您需要使用迁移脚本将您的数据库中的数据全部转换为 Unicode。<a href=\"utfdbmigrate.php\">点击这里以启动迁移脚本</a>！';
 $string['uninstall'] = '卸载选择的语言包';
 $string['uninstallconfirm'] = '您准备要完全卸载语言包{$a}，您确定吗？';
-$string['updateaccounts'] = '更新已经存在的帐户';
+$string['updateaccounts'] = '更新已有帐户';
 $string['updatecomponent'] = '更新组件';
 $string['updatelangs'] = '更新所有本地语言包';
 $string['upgradeforumread'] = '在Moodle 1.5中增加了一项新的功能，它可以跟踪论坛帖子是否已经阅读。<br />为了使用这个功能，您需要<a href=\"$a\">升级您的表格</a>。';
