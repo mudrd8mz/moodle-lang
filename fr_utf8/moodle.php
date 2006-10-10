@@ -1063,6 +1063,7 @@ $string['resetinfo'] = 'Cette page vous permet de retirer du cours les données 
 $string['resetstartdate'] = 'Réinitialiser la date de début';
 $string['resettodefaults'] = 'Retour aux réglages par défaut';
 $string['resortcoursesbyname'] = 'Trier les cours par nom';
+$string['resource'] = 'Ressource';
 $string['resources'] = 'Ressources';
 $string['restore'] = 'Restauration';
 $string['restorecancelled'] = 'Restauration annulée';
