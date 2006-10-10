@@ -196,6 +196,7 @@ $string['repliesone'] = '$a réponse';
 $string['reply'] = 'Répondre';
 $string['replyforum'] = 'Répondre au forum';
 $string['resetforums'] = 'Supprimer tous les messages des forums de ce type';
+$string['resetsubscriptions'] = 'Supprimer tous les abonnements aux forums';
 $string['rsssubscriberssdiscussions'] = 'Affichage du flux RSS des discussions du forum «&nbsp;$a&nbsp;»';
 $string['rsssubscriberssposts'] = 'Affichage du flux RSS des messages du forum «&nbsp;$a&nbsp;»';
 $string['searchforumintro'] = 'Veuillez saisir les termes à rechercher dans l\'un ou plusieurs des champs ci-dessous&nbsp;:';
