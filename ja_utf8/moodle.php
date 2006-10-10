@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006100601)
+      // moodle.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['action'] = '操作';
@@ -1306,8 +1306,8 @@ $string['undecided'] = '未決定';
 $string['unenrol'] = '登録抹消';
 $string['unenrolallstudents'] = 'すべての学生の登録抹消';
 $string['unenrolallstudentssure'] = '本当にすべての学生をこのコースから完全に登録抹消してもよろしいですか?';
-$string['unenrolme'] = '$a から登録を抹消';
-$string['unenrolsure'] = '$a をコースから登録抹消してもよろしいですか?';
+$string['unenrolme'] = '$a から私を登録抹消する';
+$string['unenrolsure'] = '本当に $a をこのコースから登録抹消してもよろしいですか?';
 $string['unfinished'] = '未了';
 $string['unknowncategory'] = '無名のカテゴリ';
 $string['unlimited'] = '無制限';
