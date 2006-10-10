@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006092200)
+      // forum.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -127,7 +127,6 @@ $string['movedmarker'] = '옮겨짐';
 $string['movethisdiscussionto'] = '이 토론 옮기기 ...';
 $string['namenews'] = '뉴스 포럼';
 $string['namesocial'] = '사회적 포럼';
-$string['nameteacher'] = '교사 포럼';
 $string['newforumposts'] = '새로운 게시물';
 $string['nodiscussions'] = '아직 토론 주제가 게시되지 않았습니다.';
 $string['noguestpost'] = '죄송합니다. 손님 계정으로는 글을 올릴 수 없습니다.';
@@ -197,6 +196,7 @@ $string['repliesone'] = '올라온 답글 $a';
 $string['reply'] = '답글';
 $string['replyforum'] = '포럼에 답글 쓰기';
 $string['resetforums'] = '이 형식의 포럼에서 모든 게시물 삭제';
+$string['resetsubscriptions'] = '포럼 구독 삭제';
 $string['rsssubscriberssdiscussions'] = '$a 토론글에 대해 RSS로 내보냄 표시';
 $string['rsssubscriberssposts'] = '$a 게시글에 대해 RSS로 내보냄 표시';
 $string['search'] = '검색';
