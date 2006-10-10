@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6.1+ (2006050512)
+      // moodle.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['action'] = '动作';
@@ -379,9 +379,7 @@ $string['emailactive'] = 'E-mail已激活';
 $string['emailagain'] = 'E-mail (重复)';
 $string['emailcharset'] = 'E-mail字符集';
 $string['emailconfirm'] = '确认您的帐号';
-$string['emailconfirmation'] = '{$a->firstname}：
-
-您好! 
+$string['emailconfirmation'] = '{$a->firstname}，您好：
 
 刚才您用您的电子邮箱地址在“{$a->sitename}上”申请了一个新帐号。
 
@@ -389,14 +387,10 @@ $string['emailconfirmation'] = '{$a->firstname}：
 
   $a->link
 
-在多数的邮件软件中，这个地址应该显示为蓝色的链接。如果不是这样，请将以上地址复制粘贴到网页浏览器(比如IE或netscape等)的地址栏，打开这个网页。
-致
+在多数的邮件软件中，这个地址应该显示为蓝色的链接，可以直接点击。如果不是这样，请将以上地址复制粘贴到网页浏览器窗口上部的地址栏中，打开这个网页。
 
-敬礼! 
 
-“{$a->sitename}”管理员
-
-$a->admin';
+如果您需要帮助，请联系网站管理员{$a->admin}。';
 $string['emailconfirmationsubject'] = '$a: 帐号确认';
 $string['emailconfirmsent'] = '<p>一封邮件已经发送到您的地址 <b>$a</b>。</p>
 <p>这封邮件简要说明了您如何完成注册。</p>
@@ -419,26 +413,26 @@ $string['emailmustbereal'] = '注意: 的E-mail地址必须是真实的';
 $string['emailnotallowed'] = '不允许使用如下域名的电子邮件: ($a)';
 $string['emailnotfound'] = '数据库中未找到此email地址';
 $string['emailonlyallowed'] = '此电子邮件不在允许的域名中: ($a)';
-$string['emailpasswordconfirmation'] = '{$a->firstname}:
+$string['emailpasswordconfirmation'] = '{$a->firstname}，您好:
 
-您好! 
+有人(一般情况下是您自己)为您在“{$a->sitename}”上的帐号申请了新的密码。
 
-有人(一般情况下是您自己)为您在‘{$a->sitename}’上的帐号申请了新的密码。
-
-如果您要确认这个行为并通过电子邮件获取新密码，请点击以下链接: 
+如果您确认这是您做的，并想通过电子邮件获取新密码，请点击以下链接: 
 
     $a->link
 
-在多数邮件软件(如outlook)中该链接应该显现为蓝色的链接，您只需点击它。如果它不能正常工作，那么请您复制该地址，然后粘贴到网页浏览器的地址栏中，按回车键，就可以到达。
+在多数的邮件软件中，这个地址应该显示为蓝色的链接，可以直接点击。如果不是这样，请将以上地址复制粘贴到网页浏览器窗口上部的地址栏中，打开这个网页。
 
 如果您需要帮助，请联系网站管理员{$a->admin}。';
 $string['emailpasswordconfirmationsubject'] = '$a: 确认更改密码';
+$string['emailpasswordconfirmmaybesent'] = '<p>如果您提供了正确的用户名或email地址，那么一封email会发送给您。</p>
+<p>它指导您如何确认和完成对密码的改变，这个过程很简单。如果您还是遇到了困难，请联系网站管理员。</p>';
 $string['emailpasswordconfirmsent'] = '一封E-mail已经发送到您的邮箱<b>$a</b>。
 
 <br />其中有关于如何确认并完成本次密码更改的简单说明。
 如果您还是有困难，请联系网站管理员。';
 $string['emailpasswordsent'] = '谢谢您对更改密码做了确认。
-一封包含着新密码的邮件已经发送到您的邮箱<br /><b>$a->E-mail</b>中。<br />
+一封包含着新密码的邮件已经发送到您的邮箱<br /><b>$a->email</b>中。<br />
 这个新密码是自动生成的――您最好<a href=\"$a->link\">修改<a>一个更容易记住的密码。';
 $string['enable'] = '使用';
 $string['encryptedcode'] = '加密代码';
@@ -842,18 +836,23 @@ $string['newaccount'] = '新帐号';
 $string['newcourse'] = '新课程';
 $string['newpassword'] = '新密码';
 $string['newpasswordfromlost'] = '<strong>注意：</strong>您的<strong>当前密码</strong>  将在两封email的<strong>第二</strong>封里发送给您。这是恢复丢失密码流程的一部分。在从此屏幕继续之前，请确认您收到了替换的密码。';
-$string['newpasswordtext'] = '{$a->lastname}{$a->firstname}: 
-您好!  
-您在‘{$a->sitename}’上的帐号密码已被重设，这是您新的临时密码。
+$string['newpasswordtext'] = '{$a->lastname}{$a->firstname}，您好：
+
+您在“{$a->sitename}”上的帐号密码已被重设，这是为您新生成的临时密码。
+
 现在您的登录信息是: 
  用户名: $a->username
  密码: $a->newpassword
+
 请到这里更改您的密码: 
    $a->link
-在多数的邮件软件中，这个地址应该显示为蓝色的链接。如果不是这样，请将以上地址复制粘贴到网页浏览器(比如IE或Netscape等)的地址栏，打开这个网页。
+
+在多数的邮件软件中，这个地址应该显示为蓝色的链接，可以直接点击。如果不是这样，请将以上地址复制粘贴到网页浏览器窗口上部的地址栏中，打开这个网页。
+
 致
 敬礼! 
-‘{$a->sitename}’管理员
+
+“{$a->sitename}”管理员
 $a->signoff';
 $string['newpicture'] = '新照片';
 $string['newsitem'] = '新闻条目';
@@ -886,6 +885,7 @@ $string['nopotentialadmins'] = '没有候选网站管理员';
 $string['nopotentialcreators'] = '没有候选课程管理员';
 $string['nopotentialstudents'] = '没有候选的学生';
 $string['nopotentialteachers'] = '没有候选教师';
+$string['norecentactivity'] = '最近没有活动';
 $string['noreplybouncemessage'] = '您把回复信发到了一个不支持回复的电子邮件地址上。如果您想要回复论坛中的帖子，清使用论坛{$a}来回复。
 
 下面是您信件的内容:';
