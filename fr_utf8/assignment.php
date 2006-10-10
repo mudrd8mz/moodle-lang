@@ -89,6 +89,7 @@ $string['quickgrade'] = 'Permettre évaluation rapide';
 $string['removelink'] = 'Retirer'; // Legacy, to delete in 1.7dev
 $string['responsefile'] = 'Fichier en retour&nbsp;:'; // Legacy, to delete in 1.7dev
 $string['responsefiles'] = 'Fichiers en retour';
+$string['reviewed'] = 'Relu';
 $string['responsesfromteacher'] = 'Fichiers déposés par l\'enseignant'; // Legacy, to delete in 1.7dev
 $string['saveallfeedback'] = 'Enregistrer tous mes feedbacks';
 $string['sendformarking'] = 'Valider pour notation';
