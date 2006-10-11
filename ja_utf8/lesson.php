@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 beta (2006101000)
+      // lesson.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -173,7 +173,7 @@ $string['multipleanswer'] = '複数解答';
 $string['nameapproved'] = '名前が承認されました。';
 $string['namereject'] = '申し訳ございません、あなたの名前はフィルタにより拒否されました。<br />別の名前をお使いください。';
 $string['nextpage'] = '次のページ';
-$string['noanswer'] = '解答がありません。戻って解答を送信してください。';
+$string['noanswer'] = '解答されていません。戻って解答を送信してください。';
 $string['noattemptrecordsfound'] = '受験レコードが見つかりません: 評定なし';
 $string['nobranchtablefound'] = 'ブランチテーブルが見つかりません。';
 $string['nocommentyet'] = 'コメントはありません。';
@@ -213,10 +213,10 @@ $string['pages'] = 'ページ';
 $string['pagetitle'] = 'ページタイトル';
 $string['password'] = 'パスワード';
 $string['passwordprotectedlesson'] = '$a はパスワードで保護されたレッスンです。';
-$string['pleasecheckoneanswer'] = '答えを選択して、このボタンをクリックしてください';
-$string['pleasecheckoneormoreanswers'] = '1つ以上の答えを選択して、このボタンをクリックしてください';
-$string['pleaseenteryouranswerinthebox'] = '答えを入力して、このボタンをクリックしてください';
-$string['pleasematchtheabovepairs'] = '答えを選択して、このボタンをクリックしてください';
+$string['pleasecheckoneanswer'] = '答えを選択して、このボタンをクリックしてください。';
+$string['pleasecheckoneormoreanswers'] = '1つ以上の答えを選択して、このボタンをクリックしてください。';
+$string['pleaseenteryouranswerinthebox'] = '答えを入力して、このボタンをクリックしてください。';
+$string['pleasematchtheabovepairs'] = '答えを選択して、このボタンをクリックしてください。';
 $string['pointsearned'] = '獲得点数';
 $string['postsuccess'] = '正常に投稿されました。';
 $string['practice'] = '練習レッスン';
