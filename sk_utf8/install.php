@@ -155,6 +155,7 @@ $string['safemodehelp'] = '<p>Moodle môže mať viacero problémov, ak je zapnu
 $string['sessionautostart'] = 'Autoštart sekcie';
 $string['sessionautostarterror'] = 'Toto by malo byť vypnuté';
 $string['sessionautostarthelp'] = '<p>Moodle vyžaduje podporu sekcií a nebude bez nich fungovať.</p>';
+$string['skipdbencodingtest'] = 'Preskočiť test kódovania DB';
 $string['welcomep10'] = '$a->installername ($a->installerversion)';
 $string['welcomep20'] = 'Podarilo so vám úspešne nainštalovať a spustiť balíček <strong>$a->packname $a->packversion</strong>. Gratulujeme!';
 $string['welcomep30'] = '<strong>$a->installername</strong> obsahuje aplikácia k vytvoreniu prostreda, v ktorom bude prevádzkovaný váš <strong>Moodle</strong>. Menovite sa jedná o:';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.6 development (2005060201)
+      // calendar.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['calendar'] = 'Kalendár';
@@ -30,15 +30,16 @@ $string['eventendtime'] = 'Končí';
 $string['eventinstanttime'] = 'Čas';
 $string['eventkind'] = 'Typ udalosti';
 $string['eventname'] = 'Meno';
+$string['eventnone'] = 'Žiadne udelosti';
 $string['eventrepeat'] = 'Opakovania';
-$string['eventsfor'] = 'Udalosti pre $a ';
+$string['eventsfor'] = 'Udalosti pre $a';
 $string['eventstarttime'] = 'Začína';
-$string['eventtime'] = 'Čas ';
+$string['eventtime'] = 'Čas';
 $string['eventview'] = 'Detaily udalosti';
 $string['expired'] = 'Vypršala';
 $string['explain_lookahead'] = 'Toto nastaví (maximálny) počet dní, v ktorých sa v budúcnosti má začať udalosť, aby bola zobrazená ako nadchádzajúca udalosť. Udalosti, ktoré presiahnu túto hranicu, nebudú nikdy zobrazované ako nadchádzajúce. Berte prosím na vedomie, že <strong>neexistuje žiadna garancia</strong>, že všetky udalosti začaté v tomto časovom rozpätí budú zobrazené; ak sa ich v kalendári nachádza príliš veľa (viac ako máte nastavené v \"Maximum nadchádzajúcich udalostí\"), potom tie s najneskorším dátumom začatia nebudú zobrazené.';
 $string['explain_maxevents'] = 'Toto nastaví maximálny počet nadchádzajúcich udalostí, ktoré môžu byť zobrazené. V prípade, že si tu vyberiete možnosť zobrazovania veľkého počtu udalostí, je pravdepodobné, že ich zoznam bude veľmi dlhý a budú Vám zaberať veľa miesta na monitore.';
-$string['explain_persistflt'] = 'Ak je táto možnosť povolená, potom si Moodle zapamätá Vaše posledné nastavenia filtrovania udalostí a automaticky ich obnoví zakaždým, keď sa prihlásite. ';
+$string['explain_persistflt'] = 'Ak je táto možnosť povolená, potom si Moodle zapamätá Vaše posledné nastavenia filtrovania udalostí a automaticky ich obnoví zakaždým, keď sa prihlásite.';
 $string['explain_startwday'] = 'Týždne v kalendári budú začínať tým dňom, ktorý si tu vyberiete.';
 $string['explain_timeformat'] = 'Môžete si vybrať 12 alebo 24 hodinový časový formát. Ak si vyberiete \"východiskové\" nastavenie, potom sa bude automaticky zobrazovať časový formát podľa jazyka, ktorý používate na tejto stránke.';
 $string['fri'] = 'Pia';
@@ -75,7 +76,7 @@ $string['sunday'] = 'Nedeľa';
 $string['thu'] = 'Štv';
 $string['thursday'] = 'Štvrtok';
 $string['timeformat_12'] = '12 hodinový časový formát (am/pm)';
-$string['timeformat_24'] = '24hodinový časový formát ';
+$string['timeformat_24'] = '24hodinový časový formát';
 $string['today'] = 'Dnes';
 $string['tomorrow'] = 'Zajtra';
 $string['tt_deleteevent'] = 'Odstrániť udalosť';

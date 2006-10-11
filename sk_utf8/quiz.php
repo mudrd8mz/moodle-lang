@@ -348,6 +348,7 @@ $string['penaltyscheme'] = 'Použiť trestné body';
 $string['percentcorrect'] = 'Správne vyjadrenie percenta';
 $string['pleaseclose'] = 'Vaša požiadavka bola spracovaná. Teraz už môžete zavrieť toto okno.';
 $string['popup'] = 'Zobraziť test v \"bezpečnom\" okne';
+$string['popupblockerwarning'] = 'Táto časť testu je v bezpečnom móde, takže potrebujete urobiť test v bezpečnom okne. Prosím vypnite blokovanie vyskakovacích oknien. Ďakujeme.';
 $string['popupnotice'] = 'Študenti budú vidieť test v \"bezpečnom\" okne';
 $string['preview'] = 'Náhľad';
 $string['previewquestion'] = 'Náhľad otázky';
