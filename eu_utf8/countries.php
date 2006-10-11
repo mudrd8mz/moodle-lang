@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // countries.php - created with Moodle 1.6 (2006050506)
+      // countries.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['AD'] = 'Andorra';
@@ -42,6 +42,7 @@ $string['CC'] = 'Cocos (Keeling) Uharteak';
 $string['CF'] = 'Afrika Erdiko Errepublika';
 $string['CG'] = 'Kongo';
 $string['CH'] = 'Suitza';
+$string['CI'] = 'Cote D\'Ivoire';
 $string['CK'] = 'Cook Uharteak';
 $string['CL'] = 'Txile';
 $string['CM'] = 'Kamerun';
@@ -67,9 +68,10 @@ $string['EH'] = 'Euskal Herria';
 $string['ER'] = 'Eritrea';
 $string['ES'] = 'Espainia';
 $string['ET'] = 'Etiopia';
-$string['FI'] = 'Finlandia ';
+$string['FI'] = 'Finlandia';
 $string['FJ'] = 'Fiji';
 $string['FK'] = 'Falkland Uharteak (Malvinak)';
+$string['FM'] = 'Micronesia; Estatu Batuak';
 $string['FO'] = 'Faroe Uharteak';
 $string['FR'] = 'Frantzia';
 $string['FX'] = 'Frantzia; Metropolia';
@@ -77,8 +79,10 @@ $string['GA'] = 'Gabon';
 $string['GB'] = 'Erresuma Batua';
 $string['GD'] = 'Grenada';
 $string['GE'] = 'Georgia';
+$string['GF'] = 'French Guiana';
 $string['GH'] = 'Ghana';
 $string['GI'] = 'Gibraltar';
+$string['GL'] = 'Greenland';
 $string['GM'] = 'Gambia';
 $string['GN'] = 'Ginea';
 $string['GP'] = 'Guadalupe';
@@ -151,7 +155,7 @@ $string['NE'] = 'Niger';
 $string['NF'] = 'Norfolk Irla';
 $string['NG'] = 'Nigeria';
 $string['NI'] = 'Nikaragua';
-$string['NL'] = 'Holanda ';
+$string['NL'] = 'Holanda';
 $string['NO'] = 'Norvegia';
 $string['NP'] = 'Nepal';
 $string['NR'] = 'Nauru';
@@ -215,12 +219,13 @@ $string['UG'] = 'Uganda';
 $string['US'] = 'Ameriketako Estatu Batuak';
 $string['UY'] = 'Uruguai';
 $string['UZ'] = 'Uzbekistan';
-$string['VA'] = ' Vatikano Hiriko Estatua';
+$string['VA'] = 'Vatikano Hiriko Estatua';
 $string['VE'] = 'Venezuela';
 $string['VG'] = 'Virgin Uharteak (Britaniarrak)';
 $string['VI'] = 'Virgin Uharteak (AEB)';
 $string['VN'] = 'Vietnam';
 $string['VU'] = 'Vanuatu';
+$string['WA'] = 'Gales';
 $string['WS'] = 'Samoa';
 $string['YE'] = 'Yemen';
 $string['YT'] = 'Mayotte';
