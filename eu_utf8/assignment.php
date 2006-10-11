@@ -1,20 +1,26 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.5.3+ (2005060230)
+      // assignment.php - created with Moodle 1.6.1 (2006050510)
 
 
+$string['allowmultiple'] = 'Fitxategi anitzak baimendu';
 $string['allowresubmit'] = 'Berbidalketa baimendu';
 $string['assignmentdetails'] = 'Zereginaren xehetasunak';
 $string['assignmentmail'] = '$a->teacher(e)k erantzun egin dio zure bidalketari ondorengo zereginean: \'$a->assignment\'.
 
-Egin zenuen bidalketarekin batera ikus dezakezu erantzuna.';
-$string['assignmentmailhtml'] = '$a->teacher(e)k erantzun egin dio zure bidalketari ondorengo zereginean: \'<i>$a->assignment</i>\'<br /><br />
+Egin zenuen bidalketarekin batera ikus dezakezu erantzuna: $a->url';
+$string['assignmentmailhtml'] = '$a->teacher(e)k erantzun egin dio zure bidalketari ondorengo zereginean: \'<i>$a->assignment</i>\'<br /><br/>
 
-Egin zenuen bidalketarekin batera ikus dezakezu erantzuna.';
+Egin zenuen <a href=\"$a->url\">bidalketarekin batera ikus dezakezu erantzuna</a>.';
 $string['assignmentname'] = 'Zereginaren izena';
 $string['assignmenttype'] = 'Zeregin-mota';
+$string['attachfile'] = 'Fitxategia erantsi';
+$string['attachfiletoassignment'] = 'Zereginari fitxategia(k) erantsi';
 $string['availabledate'] = 'Noiztik aurrera eskuragarri';
+$string['backtoassignment'] = 'Zereginera itzuli';
 $string['comment'] = 'Iruzkina';
 $string['commentinline'] = 'Lerro arteko iruzkina';
+$string['configitemstocount'] = 'Ikasleek on line eginkizunetako bidalketetan kontuan hartu behar diren itemen izaera';
+$string['configmaxbytes'] = 'Guneko eginkizun guztietarako berezko gehienezko tamaina (ikastaroaren mugen eta zerbitzariaren beste aldagai batzuen araberakoa)';
 $string['description'] = 'Deskribapena';
 $string['duedate'] = 'Entregatze-data';
 $string['duedateno'] = 'Entregatze-datarik ez';
@@ -22,7 +28,8 @@ $string['early'] = '$a goiz';
 $string['editmysubmission'] = 'Editatu neure bidalketa';
 $string['emailteachermail'] = '$a->username(e)k bidalketa eguneratu du ondorengo zereginean: \'$a->assignment\'.
 
-Hemen ikusgai:';
+Hemen ikusgai:
+$a->url';
 $string['emailteachermailhtml'] = '$a->username(e)k bidalketa eguneratu du ondorengo zereginean: \'$a->assignment\'</i><br /><br />
 Web-gune honetan ikusgai: <a href=\"$a->url\">sakatu hemen</a>.';
 $string['emailteachers'] = 'Abisuak bidali tutoreei e-postaz';
@@ -32,7 +39,12 @@ $string['failedupdatefeedback'] = 'Bidalketei erantzunaren eguneraketak huts egi
 $string['feedback'] = 'Erantzuna';
 $string['feedbackfromteacher'] = '$aren erantzuna';
 $string['feedbackupdated'] = 'Bidalketei erantzuna $a pertsonentzat eguneratu da';
+$string['graded'] = 'Kalifikatua';
+$string['guestnosubmit'] = 'Barkatu, bisitariek ezin dute eginkizunik bidali. Zure erantzuna bidali ahal izateko, zure datuak bidali behar dituzu edo erregistratu.';
 $string['guestnoupload'] = 'Barkatu, bisitariek ezin dute ezer igo.';
+$string['helpoffline'] = '<p>Baliagarria da hau eginkizuna Moodle-tik kanpo, interneteko guneren batean edota aurrez aurre egiten denean.</p><p>Ikasleek eginkizunaren deskribapena ikus dezakete baina ezin dute inolako fitxategirik igo zerbitzarira. Kalifikazioek normal funtzionatzen dute eta ikasleek izandako kalifikazioaren inguruko jakinarazpenak jasoko dituzte.</p>';
+$string['helponline'] = '<p>Eginkizun-mota honetan erabiltzaileek testu bat editatu bharko dute ohiko edizio-trenak erabilita. Irakasleek online kalifikatu ahal izango dituzte eta baita iruzkinak edota aldaketak gaineratu ere.</p><p>(Moodleren aurreko bertsioak ezagutzen badituzu, Egunerokoa moduluak eginten zuen gauza bera egiten du eginkizun-mota honek)</p>';
+$string['helpuploadsingle'] = '<p>Eginkizun-mota honetan parte hartzaileek edozein motatako fitxategi bakarra igo beharko dute.</p><p>Word-en egindako dokumentua, irudia, web-gune konprimitua izan daiteke edo bidaltzeko esaten zaien beste edozer.</p>';
 $string['late'] = '$a berandu';
 $string['maximumgrade'] = 'Gehienezko kalifikazioa';
 $string['maximumsize'] = 'Gehienezko tamaina';
@@ -52,6 +64,7 @@ $string['submission'] = 'Bidalketa';
 $string['submissionfeedback'] = 'Bidalketari erantzuna';
 $string['submissions'] = 'Bidalketak';
 $string['submissionsaved'] = 'Aldaketak gordeta';
+$string['submissionsnotgraded'] = '$a bidalketa kalifikatu gabe';
 $string['submitassignment'] = 'Zure zeregina formulario hau erabiliz bidali ezazu';
 $string['submitted'] = 'Bidalita';
 $string['typeoffline'] = 'Lineaz kanpoko zereginak';

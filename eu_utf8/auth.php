@@ -1,7 +1,17 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.4.1 (2004083101)
+      // auth.php - created with Moodle 1.6 (2006050506)
 
 
+$string['auth_cas_language'] = 'Aukeratutako hizkuntza';
+$string['auth_cas_logincas'] = 'Konexio ziurreko sarbidea';
+$string['auth_cas_port'] = 'CAS zerbitzariaren portua';
+$string['auth_cas_server_settings'] = 'CAS zerbitzariaren ezarpenak';
+$string['auth_cas_text'] = 'Konexio ziurra';
+$string['auth_cas_version'] = 'CAS bertsioa';
+$string['auth_castitle'] = 'CAS zerbitzaria erabili (SSO)';
+$string['auth_changepasswordhelp'] = 'Pasahitza aldatzeko laguntza';
+$string['auth_changepasswordurl'] = 'URL pasahitzaren aldaketa';
+$string['auth_common_settings'] = 'Ezarpen komunak';
 $string['auth_dbdescription'] = 'Metodo honek kanpoko datu-base taula bat erabiltzen du emandako erabiltzaile izen eta pasahitz bat baliozkoa den egiaztatzeko.  kontua berria bada, beste eremuetako informazioa ere zeharka kopiatu daiteke Moddlen.';
 $string['auth_dbextrafields'] = 'Eremu hauek aukerazkoak dira.  Moddle erabiltzaileen eremu batzuk hemen zehaztutako <B>kanpoko datu-base eremuetatik</B> aurrez betetzea erabaki dezakezu. <P>Hutsik uzten badituzu, lehenetsitako balioak erabiliko dira.<P>Edozein kasutan, erabiltzaileek eremu guztiak editazeko aukera izango dute behin saioa hasita.';
 $string['auth_dbfieldpass'] = 'Pasahitzak dituen eremuaren izena';
@@ -15,14 +25,15 @@ $string['auth_dbtitle'] = 'Kanpoko datu-base bat erabili';
 $string['auth_dbtype'] = 'Datu-base mota (Ikus <A HREF=../lib/adodb/readme.htm#drivers>ADOdb documentation</A> xehetasun gahiagorako)';
 $string['auth_dbuser'] = 'Datu-basean irakurtzeko baimena duen erabiltzaile izena';
 $string['auth_emaildescription'] = 'ePostaz berrestea da lehenetsitako autentifikazio metodoa.  Erabiltzaileak izena ematen duenean, bere izen eta pasahitza aukeratuz, konfirmazio ePosta mezu bat bidaltzen zaio erabiltzailearen ePostara.  ePosta Mezu honek, erabiltzaileei kontua berresteko aukera emango dien orri batera lotura zihur bat du. Hurrengoetan saioa hasteko izen eta pasahitza Moodle datu-basean dauden balioekin konparatzea nahikoa da.';
-$string['auth_emailtitle'] = 'E-posta bitarteko autentifikazioa';
+$string['auth_emailtitle'] = 'E-posta bidezko autentifikazioa';
 $string['auth_imapdescription'] = 'Metodo honek IMAP zerbitzari bat erabiltzen du emandako erabiltzaile izen eta pasahitza baliozkoak diren egiaztatzeko.';
 $string['auth_imaphost'] = 'IMAP zerbitzariaren helbidea. IP helbidea erabili ezazu, ez DNS izena.';
 $string['auth_imapport'] = 'IMAP zerbitzariaren kaia zenbakia. 143 edo 993 izan ohi da.';
 $string['auth_imaptitle'] = 'IMAP zerbitzari bat erabili';
 $string['auth_imaptype'] = 'IMAP zerbitzari mota.  IMAP zerbitzariak autentifikazio eta negoziazio mota ezberdinak izan ditzazkete.';
 $string['auth_ldap_bind_dn'] = 'Erabiltzaileak bilatzeko bind-user erabili nahi baduzu, hemen zehaztu. Honen antzeko zerbait: \'cn=ldapuser,ou=public,o=org\'';
-$string['auth_ldap_bind_pw'] = 'bind-user erabiltzaile pasahitza.';
+$string['auth_ldap_bind_pw'] = 'Bind-user erabiltzaile pasahitza.';
+$string['auth_ldap_bind_settings'] = 'Bind-erako ezarpenak';
 $string['auth_ldap_contexts'] = 'Erabiltzaileak kokatzen diren testuinguru zerrenda. Testuinguruak \';\' erabiliz banatu. Adibidez: \'ou=users,o=org; ou=others,o=org\'';
 $string['auth_ldap_host_url'] = 'LDAP ostatua URL bidez zehaztu, adibidez \'ldap://ldap.zerbitzaria.com/\' edo \'ldaps://ldap.zerbitzaria.com/\' ';
 $string['auth_ldap_search_sub'] = '<> 0 balioa jarri erabiltzaileak azpi-testuinguruneetan bilatu nahi badituzu.';
@@ -56,5 +67,9 @@ $string['instructions'] = 'Argibideak';
 $string['md5'] = 'MD5 enkriptazioa';
 $string['plaintext'] = 'Testu arrunta';
 $string['showguestlogin'] = 'Bisitariek saioa hasteko botoia bistaratu edo ezkutatu dezakezu saio hasiera pantailan.';
+$string['update_never'] = 'Inoiz ez';
+$string['update_oncreate'] = 'Sortzean';
+$string['update_onlogin'] = 'Sarrera bakoitzean';
+$string['update_onupdate'] = 'Eguneratzean';
 
 ?>

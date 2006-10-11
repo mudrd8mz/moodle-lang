@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.4.1 (2004083101)
+      // calendar.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['calendar'] = 'Egutegia';
@@ -21,15 +21,16 @@ $string['errorbeforecoursestart'] = 'Ezin ekitaldia ikusi ikastaroa hasteko data
 $string['errorinvaliddate'] = 'Data ezegokia';
 $string['errorinvalidminutes'] = 'Iraupena minututan eman 1 eta 999 arteko zenbaki bat aukeratuz.';
 $string['errorinvalidrepeats'] = 'Ekitaldi kopurua eman 1 eta 99 arteko zenbaki bat aukeratuz.';
-$string['errornodescription'] = 'Deskripzioa naihatezkoa da';
-$string['errornoeventname'] = 'Izena naihatezkoa da';
+$string['errornodescription'] = 'Deskribapena beharrezkoa da';
+$string['errornoeventname'] = 'Izena beharrezkoa da';
 $string['eventdate'] = 'Data';
-$string['eventdescription'] = 'Deskripzioa';
+$string['eventdescription'] = 'Deskribapena';
 $string['eventduration'] = 'Iraupena';
 $string['eventendtime'] = 'Amaiera-ordua';
 $string['eventinstanttime'] = 'Ordua';
 $string['eventkind'] = 'Ekitaldi-mota';
 $string['eventname'] = 'Izena';
+$string['eventnone'] = 'Ez dago ekitaldirik';
 $string['eventrepeat'] = 'Errepikatu';
 $string['eventsfor'] = '$a-(e)rako ekitaldiak';
 $string['eventstarttime'] = 'Hasiera-ordua';

@@ -1,15 +1,22 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.4.1 (2004083101)
+      // choice.php - created with Moodle 1.6.1 (2006050510)
 
 
+$string['addmorechoices'] = 'Aukera gehiago gehitu';
 $string['allowupdate'] = 'Baimendu inkestaren eguneratzea';
 $string['answered'] = 'Erantzunda';
-$string['choice'] = '$a. aukera';
+$string['choice'] = '$a aukera';
 $string['choiceclose'] = 'Noiz arte';
 $string['choicename'] = 'Inkestaren izena';
 $string['choiceopen'] = 'Zabaldu';
 $string['choicetext'] = 'Inkesta-testua';
+$string['displayhorizontal'] = 'Horizontalean erakutsi';
+$string['displaymode'] = 'Erakusteko modua';
+$string['displayvertical'] = 'Bertikalean erakutsi';
+$string['full'] = '(Beteta)';
 $string['havetologin'] = 'Saioa hasi behar duzu zure erantzuna bidali ahal izateko.';
+$string['limit'] = 'Muga';
+$string['limitanswers'] = 'Onar daitekeen erantzunen kopurua  mugatu';
 $string['modulename'] = 'Inkesta';
 $string['modulenameplural'] = 'Inkestak';
 $string['mustchooseone'] = 'Erantzunen bat aukeratu behar duzu gorde aurretik. Ezer ez da gorde orain arte.';
@@ -24,10 +31,14 @@ $string['publishanonymous'] = 'Emaitzak anonimoki argitaratu. Ez erakutsi ikasle
 $string['publishnames'] = 'Emaitza osoak argitaratu, izenak eta egindako aukerak erakutsiz.';
 $string['publishnot'] = 'Ez argitaratu emaitzak ikasleei';
 $string['responses'] = 'Erantzunak';
-$string['responsesto'] = 'Erantzunak';
+$string['responsesto'] = 'Erantzunak $a-rentzat';
 $string['savemychoice'] = 'Nire inkesta gorde';
 $string['showunanswered'] = 'Erakutsi erantzun gabekoen zutabea';
+$string['spaceleft'] = 'espazio erabilgarria';
+$string['spacesleft'] = 'espazio erabilgarriak';
+$string['taken'] = 'Hartuta';
 $string['timerestrict'] = 'Mugatu erantzuteko denbora';
-$string['viewallresponses'] = 'Ikusi erantzunak';
+$string['viewallresponses'] = 'Ikusi $a erantzun';
+$string['yourselection'] = 'Zure aukera';
 
 ?>

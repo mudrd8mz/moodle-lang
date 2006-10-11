@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 (2006050506)
+      // blog.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['addnewentry'] = 'Sarrera berria gehitu';
@@ -17,10 +17,10 @@ $string['courseblog'] = 'Ikastaroaren bloga: $a';
 $string['courseblogs'] = 'Erabiltzaileek beren ikastaro bereko pertsonen blogak baino ezin dituzte ikusi';
 $string['disableblogs'] = 'Blog-sistema desgaitu';
 $string['entrybody'] = 'Blog-sarreraren gorputza';
-$string['entrybodyonlydesc'] = 'Deskkribapena idatzi';
+$string['entrybodyonlydesc'] = 'Deskribapena idatzi';
 $string['entryerrornotyours'] = 'Sarrera hau ez da zurea';
 $string['entrysaved'] = 'Zure sarrera gorde da';
-$string['entrytitle'] = 'Sarreraren izenburua';
+$string['entrytitle'] = 'Izenburua idatzi';
 $string['entryupdated'] = 'Blog sarrera eguneratuta';
 $string['groupblog'] = 'Taldearen bloga: $a';
 $string['groupblogs'] = 'Erabiltzaileek beren talde bereko pertsonen blogak baino ezin dituzte ikusi';
@@ -41,10 +41,10 @@ $string['publishtosite'] = 'Gune honetako guztientzat';
 $string['publishtoworld'] = 'Mundu osoarentzat';
 $string['settingsupdatederror'] = 'Errorea gertatu da: blog aukera berriak ezin izan dira eguneratu';
 $string['siteblog'] = 'Gunearen bloga: $a';
-$string['siteblogs'] = 'Erabiltzaile guztiek blog sarrera guztiak ikusi ahal dituzte';
+$string['siteblogs'] = 'Erabiltzaile guztiek blog-sarrera guztiak ikusi ahal dituzte';
 $string['tagdatelastused'] = 'Etiketa hau erabili zen azken eguna';
 $string['tagsort'] = 'Zeren arabera ordeantu etiketak';
-$string['tagtext'] = 'Etiketaren testua ';
+$string['tagtext'] = 'Etiketaren testua';
 $string['timewithin'] = 'Egun hauetan erabilitako etiketak erakutsi';
 $string['updateentrywithid'] = 'Sarrera eguneratzen';
 $string['userblog'] = 'Erabiltzailearen bloga: $a';
