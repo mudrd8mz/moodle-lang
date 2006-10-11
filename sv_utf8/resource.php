@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005041101)
+      // resource.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['addresource'] = 'Lägg till resurs';
+$string['back'] = 'Tillbaka';
+$string['browserepository'] = 'Bläddra i arkivet';
+$string['choose'] = 'Välj';
 $string['chooseafile'] = 'Välj eller ladda upp en fil';
 $string['chooseparameter'] = 'Välj parameter';
 $string['configallowlocalfiles'] = 'När Du skapar en ny fil som resurs så kan Du tillåta länkar till filer på en lokal filhanterare som t.ex. en CD eller en hårddisk. Detta kan vara användbart i ett klassrum där alla studenter/elever/deltagare/lärande har tillgång till en gemensam nätverkskälla eller där filer på en CD måste vara tillgängliga. Användning av den här egenskapen kan kräva att Du ändrar på säkerhetsinställningarna på Din webbläsare.';
@@ -15,18 +18,21 @@ $string['configpopupdirectories'] = 'Ska \'popup\'-fönster som förinställt st
 $string['configpopupheight'] = 'Vilken höjd ska vara det förinställda standardvalet på hödjen för nya \'popup\'-fönster?';
 $string['configpopuplocation'] = 'Ska det förinställda standardvalet vara att nya \'popup\'-fönster visar \'location\'-raden?';
 $string['configpopupmenubar'] = 'Ska det förinställda standardvalet vara att nya \'popup\'-fönster visar menyraden?';
-$string['configpopupresizable'] = 'Ska det förinställda standardvalet vara att man kan ändra storleken på nya \'popup\'-fönster ';
-$string['configpopupscrollbars'] = 'Ska det förinställda standardvalet vara att man kan \'skrolla\' nya \'popup\'-fönster ';
+$string['configpopupresizable'] = 'Ska det förinställda standardvalet vara att man kan ändra storleken på nya \'popup\'-fönster';
+$string['configpopupscrollbars'] = 'Ska det förinställda standardvalet vara att man kan \'skrolla\' nya \'popup\'-fönster';
 $string['configpopupstatus'] = 'Ska det förinställda standardvalet vara att nya \'popup\'-fönster visar statusraden?';
 $string['configpopuptoolbar'] = 'Ska det förinställda standardvalet vara att nya \'popup\'-fönster  visar verktygsraden?';
-$string['configpopupwidth'] = 'Vilket ska det förinställda standardvalet för bredden på nya \'popup\'-fönster vara? ';
+$string['configpopupwidth'] = 'Vilket ska det förinställda standardvalet för bredden på nya \'popup\'-fönster vara?';
 $string['configsecretphrase'] = 'Den här hemliga frasen används för att skapa det krypterade kodvärde som kan skickas till vissa resurser som en parameter. Den krypterade koden skapas av ett md5-värde av current_users (den aktuelle användarens) IP-adress konkatenerad med Din hemliga fras. t ex code = md5(IP.secretphrase). Detta gör det möjligt för målresursen att verifiera uppkopplingen som en extra säkerhetsåtgärd.';
-$string['configwebsearch'] = 'När Du lägger till en URL som en webbsida eller en webblänk så erbjuds användaren denna plats som en webbsajt. Detta för att hjälpa användaren att hitta det denne söker. ';
+$string['configwebsearch'] = 'När Du lägger till en URL som en webbsida eller en webblänk så erbjuds användaren denna plats som en webbsajt. Detta för att hjälpa användaren att hitta det denne söker.';
 $string['configwindowsettings'] = 'Detta ställer in standardvärdet för rutan för inställningar i Windows när Du lägger till nya resurser. Efter det att Du har gjort detta en första gång så blir detta en individuell inställning för varje användare.';
+$string['deploy'] = 'Lägg ut';
+$string['deployall'] = 'Lägg ut alla';
 $string['directlink'] = 'Direktlänk till den här filen';
 $string['directoryinfo'] = 'Alla filer i den valda katalogen kommer att visas.';
 $string['display'] = 'Visa';
 $string['editingaresource'] = 'Redigera en resurs';
+$string['emptyfolder'] = 'Töm katalog';
 $string['encryptedcode'] = 'Krypterad kod';
 $string['example'] = 'Exempel';
 $string['exampleurl'] = 'http://www.example.com/somedirectory/somefile.html';
@@ -39,15 +45,19 @@ $string['frameifpossible'] = 'Placera en resurs i en ram för att webbplatsens
 navigation ska fortsätta att vara synlig';
 $string['fulltext'] = 'Full text';
 $string['htmlfragment'] = 'HTML-fragment';
+$string['imspackageloaded'] = 'Paketet har laddats upp';
 $string['localfile'] = 'Lokal fil';
 $string['localfilechoose'] = 'Välj en lokal fil (CD-ROM)';
 $string['localfilehelp'] = 'Hjälp till att visa lokala filer';
 $string['localfileinfo'] = '<p>Välj en lokal fil på Din dator. Filen kommer inte att laddas upp till webbplatsen men Moodle kommer att söka efter samma fil varje gång någon visar den här resursen.</p><p>Det här är framförallt användbart när Du har stora mediafiler lagrade på CD-ROM/DVD som Du vill distribuera till alla deltagare. Varje deltagare kan välja sin egen sökväg till sådana filer. genom att <a href=\"$a\" target=\"_blank\">redigera sin användarprofil</a></p>';
-$string['localfilepath'] = 'För att ställa in Din egen lokala sökväg, så kan Du välja vilken fil som helst från källan (vanligtvis en CD-ROM/DVD). Filen kommer inte att laddas upp men informationen om källan kommer att lagras och användas för alla lokala filresurser. ';
+$string['localfilepath'] = 'För att ställa in Din egen lokala sökväg, så kan Du välja vilken fil som helst från källan (vanligtvis en CD-ROM/DVD). Filen kommer inte att laddas upp men informationen om källan kommer att lagras och användas för alla lokala filresurser.';
 $string['localfileselect'] = 'Välj den här sökvägen för filer';
 $string['maindirectory'] = 'HTML fragment';
 $string['modulename'] = 'Resurs';
 $string['modulenameplural'] = 'Resurser';
+$string['navigationbuttons'] = 'Knappar för navigation';
+$string['navigationmenu'] = 'Sidomeny för navigation';
+$string['navigationup'] = 'Knapp uppåt';
 $string['neverseen'] = 'Aldrig sedd';
 $string['newdirectories'] = 'Visa länkarna till biblioteket';
 $string['newfullscreen'] = 'Visa helskärm';
@@ -61,17 +71,25 @@ $string['newtoolbar'] = 'Visa verktygsraden';
 $string['newwidth'] = 'Fönstrets aktuella vidd (i pixlar)';
 $string['newwindow'] = 'Nytt fönster';
 $string['newwindowopen'] = 'Visa den här resursen i ett nytt \'pop-up\'-fönster';
+$string['next'] = 'Nästa';
 $string['notallowedlocalfileaccess'] = 'Tillgången till lokala filer är f.n. avaktiverad så den här resursen är inte tillgänglig.';
+$string['notdeployed'] = 'Inte utlagd';
 $string['note'] = 'OBS';
 $string['notefile'] = 'För att ladda upp fler filer till kursen (så att de uppträder i denna lista) använd <A HREF=$a >Filhanteraren</A>.';
 $string['notypechosen'] = 'Du måste välja typ.  Använd tillbakaknappen för att gå tillbaka och försöka igen.';
-$string['pagedisplay'] = 'Visa den här resursen i det aktuella fönstret ';
+$string['packagechanged'] = 'Det här IMS-paketet med innehåll har ändrats';
+$string['packagenotdeplyed'] = 'Det här IMS-paketet med innehåll har inte lagts ut';
+$string['pagedisplay'] = 'Visa den här resursen i det aktuella fönstret';
 $string['pagewindow'] = 'Samma fönster';
 $string['pan'] = 'Pan';
 $string['parameter'] = 'Parameter';
 $string['parameters'] = 'Parametrar';
 $string['popupresource'] = 'Den här resursen bör dyka upp i ett snabbfönster.';
 $string['popupresourcelink'] = 'Om den inte gjorde det, klicka här: $a';
+$string['preview'] = 'Förhandsgranska';
+$string['previous'] = 'Föregående';
+$string['redeploy'] = 'Lägg ut igen';
+$string['repository'] = 'IMS arkiv';
 $string['resourcetype'] = 'Typ av resurs';
 $string['resourcetype1'] = 'Referens';
 $string['resourcetype2'] = 'Webbsida';
@@ -85,11 +103,18 @@ $string['resourcetype9'] = 'Katalog';
 $string['resourcetypedirectory'] = 'Visa en katalog';
 $string['resourcetypefile'] = 'Länk till  fil eller  webbplats';
 $string['resourcetypehtml'] = 'Utforma en webbsida';
+$string['resourcetypeims'] = 'Lägg ut ett IMS-paket med innehåll';
 $string['resourcetypelabel'] = 'Infoga en etikett';
+$string['resourcetyperepository'] = 'Länk till ett arkiverat objekt';
 $string['resourcetypetext'] = 'Utforma en textsida';
 $string['searchweb'] = 'Sök en webbsida';
 $string['serverurl'] = 'URL till servern ($a->wwwroot)';
+$string['showcourseblocks'] = 'Visa kursblocken';
+$string['skipsubmenus'] = 'Hoppa över sidor i undermenyer';
+$string['tableofcontents'] = 'Innehållsförteckning';
+$string['upbutton'] = 'Upp';
 $string['variablename'] = 'Namn på variabel';
+$string['viewims'] = 'Visa IMS-paket med innehåll';
 $string['vol'] = 'Vol';
 
 ?>

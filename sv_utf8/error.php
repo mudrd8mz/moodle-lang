@@ -1,27 +1,72 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.5 ALPHA (2005042400)
+      // error.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['adminprimarynoedit'] = 'Ingen kan redigera huvudadministratören';
+$string['cannotcreatelangdir'] = 'Det går inte att skapa en lang-katalog';
+$string['cannotcreatetempdir'] = 'Det går inte att skapa en temp-katalog';
+$string['cannotdownloadcomponents'] = 'Det går inte att ladda ner komponenter';
+$string['cannotdownloadzipfile'] = 'Det går inte att ladda ner ZIP-fil.';
+$string['cannotfindcomponent'] = 'Det går inte att hitta komponent';
+$string['cannotsavemd5file'] = 'Det går inte att spara md5-fil';
+$string['cannotsavezipfile'] = 'Det går inte att spara ZIP-fil';
+$string['cannotunzipfile'] = 'Det går inte att packa upp fil';
+$string['cmunknown'] = 'Det gick inte att hitta den här kursmodulen';
+$string['componentisuptodate'] = 'Komponenten är av en aktuell version';
 $string['confirmsesskeybad'] = 'Beklagar, men det gick inte att bekräfta Din nyckel för sessionen vilket är nödvändigt för att fullfölja den här handlingen. Det här är en säkerhetsåtgärd för att förebygga att viktiga funktioner utförs på felaktiga eller illasinnade sätt i Ditt namn. Var snäll och kontrollera noga att Du verkligen vill fullfölja detta.';
 $string['coursegroupunknown'] = 'Den kurs som hör till grupp $a har inte angivits';
+$string['downloadedfilecheckfailed'] = 'Det gick inte att kontrollera den nedladdade filen';
+$string['errorcleaningdirectory'] = 'Fel i samband med rensning av katalogen \"$a\"';
+$string['errorcopyingfiles'] = 'Fel i samband med kopiering av filer';
+$string['errorcreatingdirectory'] = 'Fel i samband med skapandet av katalogen  \"$a\"';
+$string['errorcreatingfile'] = 'Fel i samband med skapandet av filen  \"$a\"';
 $string['erroronline'] = 'Fel på rad $a';
+$string['errorreadingfile'] = 'Fel i samband med läsningen av filen  \"$a\"';
+$string['errorunzippingfiles'] = 'Fel i samband med att filer skulle packas upp';
 $string['fieldrequired'] = '\'$a\' är ett obligatoriskt fält';
 $string['filenotfound'] = 'Den efterfrågade filen kan tyvärr inte skapas';
+$string['forumblockingtoomanyposts'] = 'Du har överskridit det maximalt tillåtna antalet inlägg som gäller för det här forumet.';
 $string['groupalready'] = 'Användaren tillhör redan grupp $a';
 $string['groupunknown'] = 'Grupp $a är inte kopplad till den angivna kursen';
+$string['guestnoeditprofile'] = 'Gästanvändare kan inte redigera sin profil';
+$string['guestnoeditprofileother'] = 'Gästanvändarens profil går inte att redigera';
+$string['invalidcourse'] = 'Ogiltig kurs';
 $string['invalidfieldname'] = '\'$a\' är inte ett giltigt fältnamn';
-$string['missingfield'] = 'Fältet ';
-$string['modulerequirementsnotmet'] = 'Det gick inte att installera modulen \"$a->modulename\" ($a->moduleversion). Den kräver en nyare version av Moodle (f.n. använder Du $a->currentmoodle, Du behöver $a->requiremoodle). ';
+$string['invalidfiletype'] = '\'$a\' är inte en giltig filtyp';
+$string['invalidmd5'] = 'Ogiltig md5';
+$string['invalidxmlfile'] = '\'$a\' är inte en giltig XML-fil';
+$string['missingfield'] = 'Fältet';
+$string['missingrequiredfield'] = 'Det saknas några obligatoriska fält';
+$string['modulemissingcode'] = 'Modulen $a saknar den kod som behövs för den här  funktionen.';
+$string['modulerequirementsnotmet'] = 'Det gick inte att installera modulen \"$a->modulename\" ($a->moduleversion). Den kräver en nyare version av Moodle (f.n. använder Du $a->currentmoodle, Du behöver $a->requiremoodle).';
+$string['mustbeteacher'] = 'Du måste vara (distans)lärare för få tillgång till den här sidan.';
+$string['noinstances'] = 'Det finns inga instanser av $a i den här kursen!';
+$string['nonmeaningfulcontent'] = 'Inget meningsfullt innehåll';
+$string['noparticipatorycms'] = 'Du har tyvärr inga deltagande kursmoduler att rapportera om.';
 $string['notavailable'] = 'Detta är inte tillgängligt f.n.';
+$string['onlyadmins'] = 'Det är bara administratörer som kan göra detta.';
+$string['onlyeditingteachers'] = 'Det är bara lärare som kan göra det.';
 $string['onlyeditown'] = 'Du kan bara redigera Din egen information.';
+$string['pagenotexist'] = 'Ett ovanligt fel inträffade (försök att nå en sida som inte finns).';
+$string['pleasereport'] = 'Om Du har tid, var då snäll och låt oss få veta när felet uppträdde.';
+$string['pluginrequirementsnotmet'] = 'Det gick inte att installera \"$a->pluginname\" ($a->pluginversion). Den kräver en nyare version av Moodle. Du använder f.n. $a->currentmoodle och Du behöver $a->requiremoodle .';
 $string['processingstops'] = 'Processandet upphör här.  De återstående posterna har inte ändrats.';
-$string['restricteduser'] = 'Ditt nuvarande konto \"$a\" tillåter tyvärr inte detta. ';
+$string['remotedownloadnotallowed'] = 'De är inte tillåtet att ladda upp komponenter till Din server (allow_url_fopen är avaktiverad). Du måste ladda ner filen <a href=\"$a->url\">$a->url</a> manuellt, kopiera den till \"$a->dest\" på Din server och packa upp den där.';
+$string['restricteduser'] = 'Ditt nuvarande konto \"$a\" tillåter tyvärr inte detta.';
+$string['sendmessage'] = 'Skicka meddelande';
 $string['sessionerroruser'] = 'Tiden för Din session har tagit slut eller stötte på ett fel. Var snäll och logga in igen.';
+$string['sessionerroruser2'] = 'Ett fel på servernivå som påverkar Din session för inloggning har upptäckts. Var snäll och logga in igen och starta om Din webbläsare.';
 $string['sessionipnomatch'] = 'Beklagar, men Ditt IP-nummer tycks ha ändrats sedan Du först loggade in. Det här är en säkerhetsåtgärd för att förebygga att \'crackers\' stjäl Din identitet medan Du är inloggad på den här webbplatsen. Vanliga användare bör inte få se detta meddelande - var snäll och be administratören för Din webbplats om hjälp.';
+$string['statscatchupmode'] = 'Statistiken håller f.n på att uppdateras. Hittills har $a->daysdone dagar behandlats och  $a->dayspending återstår att behandla. Du kan snart komma tillbaka och kontrollera detta igen!';
 $string['unknowncourse'] = 'Okänd kurs som kallas \"$a\"';
+$string['unknownuseraction'] = 'Jag förstår tyvärr inte denna handling från användarens sida.';
 $string['usernotaddederror'] = 'Användaren \"$a\" har inte lagts till, detta p.g. a. ett okänt fel.';
-$string['usernotaddedregistered'] = 'Användaren \"$a\" har inte lagts till, denne/a är redan registrerad';
+$string['usernotaddedregistered'] = 'Användaren \"$a\" har inte lagts till eftersom denne/a redan är registrerad';
 $string['usernotavailable'] = 'Detaljerna kring denne användare är inte tillgängliga för Dig.';
+$string['usernotrenamedexists'] = 'Användarnamnet har inte ändrats eftersom det angivna namnet redan används.';
+$string['usernotrenamedmissing'] = 'Användarnamnet har inte ändrats eftersom det inte gick att hitta det gamla namnet.';
+$string['wrongdestpath'] = 'Fel sökväg';
+$string['wrongsourcebase'] = 'Fel bas-URL till källan';
+$string['wrongzipfilename'] = 'Fel namn på ZIP-filen';
 
 ?>

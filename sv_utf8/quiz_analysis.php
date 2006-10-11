@@ -1,30 +1,32 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.5 Beta (2005052300)
+      // quiz_analysis.php - created with Moodle 1.6.1 (2006050510)
 
 
-$string['analysisoptions'] = 'Alternativ för analys';
-$string['analysistitle'] = 'Tabell över analys av komponenter';
-$string['attemptsall'] = 'alla försök';
-$string['attemptselection'] = 'Försök att analysera räknat per användare';
-$string['attemptsfirst'] = 'första försöket';
-$string['attemptshighest'] = 'högsta betyget/omdömet';
-$string['attemptslast'] = 'sista  försöket';
+$string['analysis'] = 'Analys av komponent';
+$string['analysisdownload'] = 'Nedladdning av analys';
+$string['analysisoptions'] = 'Alternativ f&ouml;r analys';
+$string['analysistitle'] = 'Tabell &ouml;ver analys av komponenter';
+$string['attemptsall'] = 'alla f&ouml;rs&ouml;k';
+$string['attemptselection'] = 'F&ouml;rs&ouml;k att analysera r&auml;knat per anv&auml;ndare';
+$string['attemptsfirst'] = 'f&ouml;rsta f&ouml;rs&ouml;ket';
+$string['attemptshighest'] = 'h&ouml;gsta betyget/omd&ouml;met';
+$string['attemptslast'] = 'sista  f&ouml;rs&ouml;ket';
 $string['dicsindextitle'] = 'Disc.<br/>Index';
 $string['disccoefftitle'] = 'Disc.<br/>Coeff.';
 $string['downloadooo'] = 'Nedladdad i OpenOffice-format';
 $string['facilitytitle'] = '%% Korrekt<br />facilitet';
-$string['lowmarkslimit'] = 'Analysera inte om resultatet är lägre än:';
-$string['pagesize'] = 'Frågor per sida';
-$string['qcounttitle'] = 'Frågor räkna';
+$string['lowmarkslimit'] = 'Analysera inte om resultatet &auml;r l&auml;gre &auml;n:';
+$string['pagesize'] = 'Fr&aring;gor per sida';
+$string['qcounttitle'] = 'Fr&aring;gor r&auml;kna';
 $string['qidtitle'] = 'F#';
-$string['qnametitle'] = 'Namn på fråga';
-$string['qtexttitle'] = 'Text till fråga';
-$string['qtypetitle'] = 'Frågetyp';
+$string['qnametitle'] = 'Namn p&aring; fr&aring;ga';
+$string['qtexttitle'] = 'Text till fr&aring;ga';
+$string['qtypetitle'] = 'Fr&aring;getyp';
 $string['quizreportdir'] = 'test_rapporter';
 $string['rcounttitle'] = 'R.<br />Counts';
-$string['reportanalysis'] = 'Rapport angående analys av komponenter';
+$string['reportanalysis'] = 'Rapport ang&aring;ende analys av komponenter';
 $string['responsestitle'] = 'Svarets text';
-$string['rfractiontitle'] = 'parcial<br />tillgodoräknande';
+$string['rfractiontitle'] = 'partial<br />tillgodor&auml;knande';
 $string['rpercenttitle'] = 'R.%%';
 $string['stddevtitle'] = 'SD';
 

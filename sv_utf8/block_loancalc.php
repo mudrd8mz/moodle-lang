@@ -2,13 +2,13 @@
       // block_loancalc.php - created with Moodle 1.6 development (2005090100)
 
 
-$string['amountofloan'] = 'Lånesumma';
+$string['amountofloan'] = 'L&aring;nesumma';
 $string['fortnightly'] = 'Per fjorton dagar';
-$string['interestrate'] = 'Ränta';
-$string['loancalc'] = 'Lånekalkylator';
-$string['loanterm'] = 'Lånets löptid (år)';
-$string['monthly'] = 'Månadsvis';
-$string['repaymentamount'] = 'Summa att återbetala';
+$string['interestrate'] = 'R&auml;nta';
+$string['loancalc'] = 'L&aring;nekalkylator';
+$string['loanterm'] = 'L&aring;nets l&ouml;ptid (&aring;r)';
+$string['monthly'] = 'M&aring;nadsvis';
+$string['repaymentamount'] = 'Summa att &aring;terbetala';
 $string['repaymentfreq'] = 'Återbetalas per';
 $string['weekly'] = 'Veckovis';
 

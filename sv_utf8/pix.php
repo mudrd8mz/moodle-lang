@@ -3,24 +3,24 @@
 
 
 $string['angry'] = 'arg';
-$string['approve'] = 'håller med';
+$string['approve'] = 'h&aring;ller med';
 $string['biggrin'] = 'stort leende';
-$string['blackeye'] = 'blåöga';
+$string['blackeye'] = 'bl&aring;&ouml;ga';
 $string['blush'] = 'rodnar';
 $string['clown'] = 'pajas';
 $string['cool'] = 'lugn';
-$string['dead'] = 'död';
+$string['dead'] = 'd&ouml;d';
 $string['evil'] = 'ond';
 $string['kiss'] = 'kyss';
-$string['mixed'] = 'blandade känslor';
+$string['mixed'] = 'blandade k&auml;nslor';
 $string['sad'] = 'ledsen';
 $string['shy'] = 'blyg';
-$string['sleepy'] = 'sömnig';
+$string['sleepy'] = 's&ouml;mnig';
 $string['smiley'] = 'leende';
-$string['surprise'] = 'överraskad';
+$string['surprise'] = '&ouml;verraskad';
 $string['thoughtful'] = 'tankfull';
-$string['tongueout'] = 'räcker ut tungan';
-$string['wideeyes'] = 'stora ögon';
+$string['tongueout'] = 'r&auml;cker ut tungan';
+$string['wideeyes'] = 'stora &ouml;gon';
 $string['wink'] = 'blinkning';
 
 ?>

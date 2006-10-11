@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.5 ALPHA (2005051500)
+      // editor.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['about'] = 'Om den här redigeraren';
@@ -26,7 +26,7 @@ $string['closeafterreplace'] = 'Stäng efter att ha ersatt';
 $string['cols'] = 'Kolumner';
 $string['copy'] = 'Kopiera urvalet';
 $string['createanchor'] = 'Skapa ankare';
-$string['createfolder'] = 'Skapa en mapp ';
+$string['createfolder'] = 'Skapa en mapp';
 $string['createlink'] = 'Infoga  en webblänk';
 $string['cut'] = 'Klipp ut urvalet';
 $string['cutpastemozilla'] = 'Tyvärr så kan Du f.n. inte använda de vanliga genvägarna (tangentbordskommandona)(eller ens knappen \"Klistra in\") för att klistra in med den här online redigeraren. Det beror på en funktion för säkerhet som är inbyggd i vissa versioner av Mozilla och Firefox webbläsare. Det finns några kända knep som Du kan använda<br />1. Istället för Ctrl-v, kan Du använda Shift+Insert<br />2. Använd menyalternativet Redigera->Klistra in i Din webbläsare.<br />3. Ändra inställningarna i Din webbläsare genom att redigera filen user.js.<br /><br />Klicka på knappen \"OK\" här nedan för mer hjälp eller på \"Avbryt\" för att återgå till redigeraren.';
@@ -72,7 +72,7 @@ $string['linkurl'] = 'URL';
 $string['matchcase'] = 'Matcha stor/liten bokstav';
 $string['middle'] = 'Mitten';
 $string['minimize'] = 'Minimera redigerare';
-$string['move'] = 'Flytta ';
+$string['move'] = 'Flytta';
 $string['nolink'] = 'Förhindra automatisk länkning';
 $string['normal'] = 'Normal';
 $string['notimage'] = 'Vald fil är inte en bild. Var snäll och välj en bild!';
@@ -108,7 +108,7 @@ $string['spacing'] = 'Radavstånd';
 $string['strikethrough'] = 'Genomstruken';
 $string['subscript'] = 'Nedsänkt skrift';
 $string['superscript'] = 'Upphöjd skrift';
-$string['textindicator'] = 'Aktuell stil ';
+$string['textindicator'] = 'Aktuell stil';
 $string['textmode'] = 'Du är i \'TEXT MODE\'.  Använd [<>] knappen för att gå tillbaka till \'WYSIWYG MODE\'.';
 $string['texttop'] = 'Längst upp på sidan';
 $string['top'] = 'Upp';

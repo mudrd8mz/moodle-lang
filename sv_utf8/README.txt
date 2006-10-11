@@ -1,26 +1,58 @@
-ï»¿Swedish Language pack by Anders Berggren andersbe@ikt-pedagogen.se
-___________________________________________________________________________________________
+﻿Swedish Language pack by Anders Berggren andersb@ikt-pedagogen.se
+
+
+////////////////////////////////////////////////////////////////////////
 
 
 Creative Commons statement
 
-Du fÃ¥r anvÃ¤nda den hÃ¤r Ã¶versÃ¤ttningen fritt under fÃ¶rutsÃ¤ttning 
-att nedanstÃ¥ende information finns med.
 
-Set Lonnert pÃ¥bÃ¶rjade det hÃ¤r arbetet. Sedan hÃ¶sten 2003 har 
-Anders Berggren, IKT-Pedagogen underhÃ¥llit Ã¶versÃ¤ttningen.
+2006-09-25
 
-Slut Creative Commons
+
+Du faar anvaenda den haer oeversaettningen fritt under foerutsaettning 
+
+att nedanstaaende information finns med i varje spraakpaket.
+
+
+Set Lonnert paaboerjade det haer arbetet. 
+Sedan hoesten 2003 och hittills t.o.m. hoesten 2006 har 
+
+Anders Berggren, IKT-Pedagogen, http://iktpeda.se, underhaallit den.
+
+Arbetet med detta sker ideellt. Du faar ta oeversaettningen i bruk 
+i befintligt skick. Oeversaettaren tar inget ansvar foer eventuella
+fel eller oklarheter som kan leda till feltolkningar. Du anvaender 
+m.a.o. oeversaettningen paa eget ansvar. 
+
+
+Slut Creative Commons statement
+///////////////////////////////////////////////////////////////////////
+
+__________________________________________________________________________________________
+
+
+Logg foer redigering och komplettering av spraakpaketet foer svenska i Moodle 1.6 2006-06-25
+Denna oeversaettning taecker standardinnehaallet i Moodle 1.6 och hela paketet aer kodat enligt UTF-8. 
+Om Du vill anvaenda moduler som inte ingaar som standard i Moodle saa faar du ladda ner dessa moduler 
+separat. Det aer oklart om de alla aer kodade enligt UTF-8.  
+
+
+
 ___________________________________________________________________________________________
+
 
 Log fÃ¶r redigering och komplettering av sprÃ¥kpaketet fÃ¶r svenska i Moodle 1.4.3+
 version 7.0 2005-03-22 
-Anders Berggren andersbe@ikt-pedagogen.se
 
-Alla strÃ¤ngar i programfilerna fr.o.m. 2005-03-22 Ã¤r Ã¶versatta. NÃ¥gra 
+Anders Berggren andersb@ikt-pedagogen.se
+
+Alla strÃ¤ngar i programfilerna fr.o.m. 2005-03-22 Ã¤r Ã¶versatta. 
+NÃ¥gra 
 enstaka hjÃ¤lpfiler Ã¤r fortfarande pÃ¥ engelska liksom katalogen "docs".
  
-StÃ¶rre delen av katalogen 'docs' som innehÃ¥ller det som kallas 
+StÃ¶rre delen av katalogen 
+'docs' som innehÃ¥ller det som kallas 
 'Dokumentation' innehÃ¥ller information om sÃ¥dant man kan gÃ¶ra men som 
 Ã¤ndÃ¥ krÃ¤ver god behÃ¤rskning av engelska. DÃ¤rfÃ¶r har jag ingen hÃ¶g prio-
 ritet nÃ¤r det gÃ¤ller att Ã¶versÃ¤tta detta.

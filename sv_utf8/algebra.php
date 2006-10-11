@@ -2,6 +2,6 @@
       // algebra.php - created with Moodle 1.4.2+ (2004083126)
 
 
-$string['filtername'] = 'Notation för algebra';
+$string['filtername'] = 'Notation f&ouml;r algebra';
 
 ?>

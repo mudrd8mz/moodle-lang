@@ -1,32 +1,31 @@
 <?php // $Id$
-      // Names of the documentation files
-      // Files with a definition "-" are treated as spacers
+      // Namn p&aring; filerna i dokumentationen
+      // Filer med en definition "-" behandlas som tomt utrymme
 
-$string['-about'] = "About Moodle";
-$string['intro.html'] = "Introduction";
-$string['background.html'] = "Background";
-$string['philosophy.html'] = "Philosophy";
-$string['licence.html'] = "License";
-$string['features.html'] = "Features";
-$string['release.html'] = "Release Notes";
-$string['future.html'] = "Future";
-$string['credits.html'] = "Credits";
+$string['-about'] = "Om Moodle";
+$string['intro.html'] = "Introduktion";
+$string['background.html'] = "Bakgrund";
+$string['philosophy.html'] = "Filosofi";
+$string['licence.html'] = "Licens";
+$string['features.html'] = "Egenskaper";
+$string['release.html'] = "Noteringar om versionen";
+$string['future.html'] = "Framtid";
+$string['credits.html'] = "Tack till";
 
 $string['-installation'] = "Administration";
 $string['install.html'] = "Installation";
 $string['faq.html'] = "Installation FAQ";
 $string['installamp.html'] = "Apache, MySQL, PHP";
-$string['upgrade.html'] = "Upgrading";
+$string['upgrade.html'] = "Att uppgradera";
 
-$string['-usage'] = "Using Moodle";
-$string['teacher.html'] = "Teacher Manual";
-$string['other.html'] = "Other Docs";
+$string['-usage'] = "Att anv&auml;nda Moodle";
+$string['teacher.html'] = "Manual f&ouml;r l&auml;rare";
+$string['other.html'] = "Andra dokument";
 
-$string['-development'] = "Development";
-$string['developer.html'] = "Developer Manual";
-$string['coding.html'] = "Coding Guide";
-$string['cvs.html'] = "Using CVS";
-$string['translation.html'] = "Translation";
-
+$string['-development'] = "Utveckling";
+$string['developer.html'] = "Manual f&ouml;r utvecklare";
+$string['coding.html'] = "Guide f&ouml;r kodning";
+$string['cvs.html'] = "Att anv&auml;nda CVS";
+$string['translation.html'] = "Övers&auml;ttning";
 
 ?>

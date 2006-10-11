@@ -3,7 +3,7 @@
 
 
 $string['ADP'] = 'Andorranska pesetas';
-$string['AED'] = 'Förenade Arabemiraten dirham';
+$string['AED'] = 'F&ouml;renade Arabemiraten dirham';
 $string['ALL'] = 'Albanska lek';
 $string['ATS'] = 'Österrikiska schilling';
 $string['AUD'] = 'Australiensiska dollar';
@@ -25,7 +25,7 @@ $string['EGP'] = 'Egyptiska pund';
 $string['ESP'] = 'Spanska pesetas';
 $string['EUR'] = 'Euro';
 $string['FIM'] = 'Finska mark';
-$string['FKP'] = 'Falklandsöarna pund';
+$string['FKP'] = 'Falklands&ouml;arna pund';
 $string['FRF'] = 'Franska franc';
 $string['GBP'] = 'Brittiska pund';
 $string['GRD'] = 'Grekiska drakmer';
@@ -35,7 +35,7 @@ $string['ILS'] = 'Israeliska shekel';
 $string['INR'] = 'Indiska rupees';
 $string['IQD'] = 'Irakiska dinarer';
 $string['IRR'] = 'Iranska rial';
-$string['ISK'] = 'Isländska kronor';
+$string['ISK'] = 'Isl&auml;ndska kronor';
 $string['ITL'] = 'Italienska lire';
 $string['JMD'] = 'Jamaikanska dollar';
 $string['JOD'] = 'Jordanska dinarer';
