@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 beta (2006101000)
+      // moodle.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['action'] = '操作';
@@ -404,7 +404,7 @@ $string['emailactive'] = 'メール有効化';
 $string['emailagain'] = 'メールアドレス ( もう一度 )';
 $string['emailcharset'] = 'メール文字コード';
 $string['emailconfirm'] = 'アカウントの確定';
-$string['emailconfirmation'] = 'こんにちは $a->lastname さん
+$string['emailconfirmation'] = 'こんにちは $a->firstname さん
 
 「 $a->sitename 」であなたのメールアドレスによる新しいアカウントの作成が依頼されました。
 
@@ -416,7 +416,7 @@ $a->link
 
 動作しない場合は、コピー&ペーストを使ってブラウザのアドレス欄にアドレスを入力してください。
 
-お分かりにならない場合は、 サイト管理者　$a->admin にご連絡ください。';
+お分かりにならない場合は、サイト管理者 $a->admin にご連絡ください。';
 $string['emailconfirmationsubject'] = '$a: アカウントの確定';
 $string['emailconfirmsent'] = '<p>メールが <b>$a</b> 宛に送信されました。
 <p>メールには登録の確定を簡単に行うための説明が記述されています。
@@ -439,7 +439,7 @@ $string['emailmustbereal'] = '注意：メールアドレスは実際に使え�
 $string['emailnotallowed'] = 'これらのドメインのメールアドレスは許可されていません ( $a )';
 $string['emailnotfound'] = 'データベース内にメールアドレスが見つかりませんでした。';
 $string['emailonlyallowed'] = 'このメールアドレスは許可されているメールアドレスに入っていません ( $a )';
-$string['emailpasswordconfirmation'] = 'こんにちは $a->lastname さん
+$string['emailpasswordconfirmation'] = 'こんにちは $a->firstname さん
 
 誰か ( おそらくあなた ) が、「 $a->sitename 」 のアカウントで新しいパスワード作成の請求を行いました。
 
@@ -870,7 +870,7 @@ $string['newaccount'] = '新しいアカウント';
 $string['newcourse'] = '新しいコース';
 $string['newpassword'] = '新しいパスワード';
 $string['newpasswordfromlost'] = '<strong>注意:</strong> 喪失パスワードリカバリ処理の一部として送信される2通のメールの<strong>2番目の</strong>メールで、あなたの<strong>現在のパスワード</strong>が送信されます。この画面を続ける前に、あなたの新しいパスワードが記載されたメールを受信したことをよく確かめてください。';
-$string['newpasswordtext'] = 'こんにちは $a->lastname さん
+$string['newpasswordtext'] = 'こんにちは $a->firstname さん
 
 「 $a->sitename 」のパスワードリセットおよび仮パスワードの作成が完了しました。
 
@@ -891,7 +891,7 @@ $string['newsitems'] = '件のニュースアイテムを表示する';
 $string['newsitemsnumber'] = 'ニュースアイテムの表示件数';
 $string['newuser'] = '新規ユーザ';
 $string['newusernewpasswordsubj'] = '新規ユーザアカウント';
-$string['newusernewpasswordtext'] = 'こんにちは $a->lastname さん
+$string['newusernewpasswordtext'] = 'こんにちは $a->firstname さん
 
 あなたの新しいアカウントが「 $a->sitename 」に作成され、新しい一時的なパスワードが発行されました。
 
