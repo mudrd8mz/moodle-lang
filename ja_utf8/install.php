@@ -65,13 +65,12 @@ $string['databasesettingssub_mysql'] = '<b>タイプ:</b> MySQL<br />
 <b>パスワード:</b> データベースのパスワード<br />
 <b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 ( 任意 )';
 $string['databasesettingssub_oci8po'] = '<b>タイプ:</b> Oracle<br />
-<b>ホスト:</b> 使用されませんので空白でも大丈夫です<br />
+<b>ホスト:</b> 使用されませんので空白にしてください。<br />
 <b>データベース名:</b>tnsnames.oraのコネクション名<br />
 <b>ユーザ名:</b> データベースのユーザ名<br />
 <b>パスワード:</b> データベースのパスワード<br />
-<b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 ( 必須、最大2cc )';
-$string['databasesettingssub_odbc_mssql'] = '<b>タイプ:</b> SQL*Server (over ODBC) <br />
-<b>実験的!</b><br />
+<b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 ( 必須、最大2cc. )';
+$string['databasesettingssub_odbc_mssql'] = '<b>タイプ:</b> SQL*Server (over ODBC) <b><font color=\"red\">実験的! ( 運用環境には使用しないでください。 )</font></b><br />
 <b>ホスト:</b>ODBCコントロールパネルのDSN名<br />
 <b>データベース名:</b> 例 moodle<br />
 <b>ユーザ名:</b> データベースのユーザ名<br />
@@ -92,6 +91,8 @@ $string['dbpass'] = 'パスワード';
 $string['dbprefix'] = 'テーブル接頭辞';
 $string['dbtype'] = 'タイプ';
 $string['dbwrongencoding'] = '選択したデータベースは、非推奨のエンコーディング ( $a ) で動作しています。代わりにユニコード ( UTF-8 ) でエンコードされたデータベースの使用をお勧めします。下記の「DBエンコーディングテストをスキップ」をチェックすることで、このテストをバイパスできますが、将来的に問題が発生する恐れがあります。';
+$string['dbwronghostserver'] = '上記説明の「ホスト」ルールに従ってください。';
+$string['dbwrongnlslang'] = 'あなたのウェブサーバのNLS_LANG環境変数には、AL32UTF8文字セットを使用してください。OCI8を適切に設定するには、PHPドキュメンテーションをご覧ください。';
 $string['dbwrongprefix'] = '上記説明の接頭辞に従ってください。';
 $string['directorysettings'] = '<p>このMoodleのインストール先を確認してください。</p>
 
@@ -174,11 +175,15 @@ $string['memorylimithelp'] = '<p>現在、サーバのPHPメモリー制限が $
 <p>しかし、この設定が<b>すべての</b>PHPページの動作を妨げる場合もあります。ページ閲覧時にエラーが表示される場合は、.htaccessファイルを削除してください。</p>
 </ol>';
 $string['mssql'] = 'SQL*Server (mssql)';
+$string['mssqlextensionisnotpresentinphp'] = 'PHPのMSSQL extensionが適切に設定されていないため、SQL*Serverと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['mysql'] = 'MySQL (mysql)';
-$string['mysqlextensionisnotpresentinphp'] = 'MySQLと通信できるようにPHPのMySQL extension設定が正しく設定されていません。php.iniを確認するか、PHPを再度コンパイルしてください。';
+$string['mysqlextensionisnotpresentinphp'] = 'PHPのMySQL extensionが適切に設定されていないため、MySQLと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['oci8po'] = 'Oracle (oci8po)';
+$string['ociextensionisnotpresentinphp'] = 'PHPのOCI8 extensionが適切に設定されていないため、Oracleと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['odbc_mssql'] = 'SQL*Server over ODBC (odbc_mssql)';
+$string['odbcextensionisnotpresentinphp'] = 'PHPのODBC extensionが適切に設定されていないため、SQL*Serverと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['pass'] = 'パス';
+$string['pgsqlextensionisnotpresentinphp'] = 'PHPのPGSQL extensionが適切に設定されていないため、PostgreSQLと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['phpversion'] = 'PHPバージョン';
 $string['phpversionerror'] = 'PHPバージョンは少なくとも 4.3.0 または 5.1.0 をお使いください ( 5.0.x には既知の多数の問題があります )。';
 $string['phpversionhelp'] = '<p>Moodleには、少なくとも 4.3.0 または 5.1.0 のPHPバージョンが必要です ( 5.0.x には既知の多数の問題があります )。</p>
