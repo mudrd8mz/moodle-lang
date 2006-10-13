@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6.2+ (2006050521)
+      // forum.php - created with Moodle 1.6.3 (2006050530)
 
 
 $string['addanewdiscussion'] = '添加一个新讨论话题';
@@ -176,6 +176,7 @@ $string['repliesone'] = '迄今有{$a}个回贴';
 $string['reply'] = '回复';
 $string['replyforum'] = '回复到论坛';
 $string['resetforums'] = '从这些讨论中删除所有的贴';
+$string['resetsubscriptions'] = '删除对讨论区的订阅';
 $string['rsssubscriberssdiscussions'] = '显示话题“{$a}”的RSS种子';
 $string['rsssubscriberssposts'] = '显示帖子“{$a}”的RSS种子';
 $string['search'] = '搜索';

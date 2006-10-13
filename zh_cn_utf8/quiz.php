@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6.2+ (2006050521)
+      // quiz.php - created with Moodle 1.6.3 (2006050530)
 
 
 $string['1day'] = '一天';
@@ -339,6 +339,7 @@ $string['penaltyscheme'] = '使用罚分';
 $string['percentcorrect'] = '分数纠正';
 $string['pleaseclose'] = '您的请求已经被处理，现在可以关闭这个窗口了';
 $string['popup'] = '在“安全”窗口中测验';
+$string['popupblockerwarning'] = '此测试在安全模式下运行，这意味着你需要在一个安全的窗口里答题。请关闭阻拦弹出窗口的程序，谢谢。';
 $string['popupnotice'] = '学生将会在一个安全窗口中看到此测验';
 $string['preview'] = '预览';
 $string['previewquestion'] = '预览问题';
