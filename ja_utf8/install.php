@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.7 dev (2006091901)
+      // install.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['admindirerror'] = '設定されたadminディレクトリが間違っています。';
@@ -26,32 +26,63 @@ $string['databasecreationsettings'] = 'ほとんどのMoodleデータが保存�
 <br /> <br />
 <b>タイプ:</b> インストーラーにより「mysql」に固定されます。<br />
 <b>ホスト:</b> インストーラーにより「localhost」に固定されます。<br />
-<b>データベース名:</b> データベース名、例 moodle<br />
+<b>データベース名:</b> 例 moodle<br />
 <b>ユーザ名:</b> インストーラーにより「root」に固定されます。<br />
 <b>パスワード:</b> あなたのデータベースパスワードです。<br />
 <b>テーブル接頭辞:</b> すべてのテーブル名に使用される任意の接頭辞です。';
 $string['databasecreationsettingshead'] = 'ほとんどのMoodleデータが保存されるデータベース設定を行ってください。このデータベースはインストーラーにより、下記の設定が指定された形で自動的に作成されます。';
 $string['databasecreationsettingssub'] = '<b>タイプ:</b> インストーラーにより「mysql」に修正されました。<br />
 <b>ホスト:</b> インストーラーにより「localhost」に修正されました。<br />
-<b>データベース名:</b> データベース名、例 moodle<br />
+<b>データベース名:</b> 例 moodle<br />
 <b>ユーザ名:</b> インストーラーにより「root」に修正されました。<br />
 <b>パスワード:</b> あなたのデータベースパスワードです。<br />
 <b>テーブル接頭辞:</b> すべてのテーブル名に使用される任意の接頭辞です。';
-$string['databasesettings'] = 'ほとんどのMoodleデータが保存されるデータベースの設定を行います。このデータベースは、アクセスするためのユーザ名およびパスワードと共にすでに作成されている必要があります。<br/>
+$string['databasesettings'] = 'ほとんどのMoodleデータが保存されるデータベース設定を行います。このデータベースは、アクセスするためのユーザ名およびパスワードと共にすでに作成されている必要があります。<br/>
 <br /> <br />
 <b>タイプ:</b> mysql または postgres7<br />
 <b>ホスト:</b> 例 localhost または db.isp.com<br />
-<b>データベース名:</b> 例:moodle<br />
+<b>データベース名:</b> 例 moodle<br />
 <b>ユーザ名:</b> データベースのユーザ名<br />
 <b>パスワード:</b> データベースのパスワード<br />
-<b>テーブル接頭辞:</b> すべてのテーブル名にオプションで使用する接頭辞';
-$string['databasesettingshead'] = 'ほとんどのMoodleデータが保存されるデータベースの設定を行います。このデータベースは、アクセスするためのユーザ名およびパスワードと共にすでに作成されている必要があります。';
+<b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 ( 任意 )';
+$string['databasesettingshead'] = 'ほとんどのMoodleデータが保存されるデータベース設定を行います。このデータベースは、アクセスするためのユーザ名およびパスワードと共にすでに作成されている必要があります。';
 $string['databasesettingssub'] = '<b>タイプ:</b> mysql または postgres7<br />
 <b>ホスト:</b> 例 localhost または db.isp.com<br />
-<b>データベース名:</b> 例:moodle<br />
+<b>データベース名:</b> 例 moodle<br />
 <b>ユーザ名:</b> データベースのユーザ名<br />
 <b>パスワード:</b> データベースのパスワード<br />
-<b>テーブル接頭辞:</b> すべてのテーブル名にオプションで使用する接頭辞';
+<b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 ( 任意 )';
+$string['databasesettingssub_mssql'] = '<b>タイプ:</b> SQL*Server<br />
+<b>ホスト:</b> 例 localhost または db.isp.com<br />
+<b>データベース名:</b> 例 moodle<br />
+<b>ユーザ名:</b> データベースのユーザ名<br />
+<b>パスワード:</b> データベースのパスワード<br />
+<b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 ( 必須 )';
+$string['databasesettingssub_mysql'] = '<b>タイプ:</b> MySQL<br />
+<b>ホスト:</b> 例 localhost または db.isp.com<br />
+<b>データベース名:</b> 例 moodle<br />
+<b>ユーザ名:</b> データベースのユーザ名<br />
+<b>パスワード:</b> データベースのパスワード<br />
+<b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 ( 任意 )';
+$string['databasesettingssub_oci8po'] = '<b>タイプ:</b> Oracle<br />
+<b>ホスト:</b> 使用されませんので空白でも大丈夫です<br />
+<b>データベース名:</b>tnsnames.oraのコネクション名<br />
+<b>ユーザ名:</b> データベースのユーザ名<br />
+<b>パスワード:</b> データベースのパスワード<br />
+<b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 ( 必須、最大2cc )';
+$string['databasesettingssub_odbc_mssql'] = '<b>タイプ:</b> SQL*Server (over ODBC) <br />
+<b>実験的!</b><br />
+<b>ホスト:</b>ODBCコントロールパネルのDSN名<br />
+<b>データベース名:</b> 例 moodle<br />
+<b>ユーザ名:</b> データベースのユーザ名<br />
+<b>パスワード:</b> データベースのパスワード<br />
+<b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 ( 必須 )';
+$string['databasesettingssub_postgres7'] = '<b>タイプ:</b> PostgreSQL<br />
+<b>ホスト:</b> 例 localhost または db.isp.com<br />
+<b>データベース名:</b> 例 moodle<br />
+<b>ユーザ名:</b> データベースのユーザ名<br />
+<b>パスワード:</b> データベースのパスワード<br />
+<b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 ( 必須 )';
 $string['dataroot'] = 'データディレクトリ';
 $string['datarooterror'] = 'あなたが指定した「データディレクトリ」が見つからないか、作成されませんでした。パスを訂正するか、ディレクトリを手動で作成してください。';
 $string['dbconnectionerror'] = 'あなたが指定したデータベースに接続できませんでした。データベース設定を確認してください。';
@@ -61,6 +92,7 @@ $string['dbpass'] = 'パスワード';
 $string['dbprefix'] = 'テーブル接頭辞';
 $string['dbtype'] = 'タイプ';
 $string['dbwrongencoding'] = '選択したデータベースは、非推奨のエンコーディング ( $a ) で動作しています。代わりにユニコード ( UTF-8 ) でエンコードされたデータベースの使用をお勧めします。下記の「DBエンコーディングテストをスキップ」をチェックすることで、このテストをバイパスできますが、将来的に問題が発生する恐れがあります。';
+$string['dbwrongprefix'] = '上記説明の接頭辞に従ってください。';
 $string['directorysettings'] = '<p>このMoodleのインストール先を確認してください。</p>
 
 <p><b>ウェブアドレス:</b>
@@ -141,7 +173,11 @@ $string['memorylimithelp'] = '<p>現在、サーバのPHPメモリー制限が $
 <p><blockquote>php_value memory_limit 16M</blockquote></p>
 <p>しかし、この設定が<b>すべての</b>PHPページの動作を妨げる場合もあります。ページ閲覧時にエラーが表示される場合は、.htaccessファイルを削除してください。</p>
 </ol>';
+$string['mssql'] = 'SQL*Server (mssql)';
+$string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'MySQLと通信できるようにPHPのMySQL extension設定が正しく設定されていません。php.iniを確認するか、PHPを再度コンパイルしてください。';
+$string['oci8po'] = 'Oracle (oci8po)';
+$string['odbc_mssql'] = 'SQL*Server over ODBC (odbc_mssql)';
 $string['pass'] = 'パス';
 $string['phpversion'] = 'PHPバージョン';
 $string['phpversionerror'] = 'PHPバージョンは少なくとも 4.3.0 または 5.1.0 をお使いください ( 5.0.x には既知の多数の問題があります )。';
@@ -149,6 +185,7 @@ $string['phpversionhelp'] = '<p>Moodleには、少なくとも 4.3.0 または 5
 <p>現在、バージョン $a が動作しています。</p>
 <p>PHPをアップグレードするか、新しいバージョンがインストールされているホストに移動してください!<br/>
 ( 5.0.x の場合、バージョン 4.4.x にダウングレードすることもできます。 )</p>';
+$string['postgres7'] = 'PostgreSQL (postgres7)';
 $string['safemode'] = 'セーフモード';
 $string['safemodeerror'] = 'セーフモードが有効の場合、Moodleに問題が発生する場合があります。';
 $string['safemodehelp'] = '<p>セーフモードが有効にされている場合、Moodleには様々な問題が発生する場合があります。 特に新しいファイルを作成することができません。</p>
