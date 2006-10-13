@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.7 dev (2006081000)
+      // choice.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['addmorechoices'] = '選択肢の追加';
@@ -7,33 +7,33 @@ $string['allowupdate'] = '投票内容の更新を許可する';
 $string['answered'] = '投票済み';
 $string['choice'] = '選択肢';
 $string['choice:choose'] = '投票を記録する';
-$string['choice:deleteresponses'] = '投票を削除する';
-$string['choice:downloadresponses'] = '投票をダウンロードする';
-$string['choice:readresponses'] = '投票を表示する';
+$string['choice:deleteresponses'] = '投票結果を削除する';
+$string['choice:downloadresponses'] = '投票結果をダウンロードする';
+$string['choice:readresponses'] = '投票結果を表示する';
 $string['choiceclose'] = '終了日時';
 $string['choicename'] = '投票名';
 $string['choiceopen'] = '開始日時';
 $string['choicetext'] = '説明文';
-$string['displayhorizontal'] = '水平に表示';
+$string['displayhorizontal'] = '水平に表示する';
 $string['displaymode'] = '表示モード';
-$string['displayvertical'] = '垂直に表示';
+$string['displayvertical'] = '垂直に表示する';
 $string['full'] = '( 制限なし )';
-$string['havetologin'] = '投票を行う前にログインしてください。';
-$string['limit'] = '投票可能回数';
-$string['limitanswers'] = '投票可能回数を制限する';
+$string['havetologin'] = '投票する前にログインしてください。';
+$string['limit'] = '投票制限数';
+$string['limitanswers'] = '投票可能数を制限する';
 $string['modulename'] = '投票';
 $string['modulenameplural'] = '投票';
-$string['mustchooseone'] = '保存する前に答えを選択する必要があります。保存処理は行われませんでした。';
+$string['mustchooseone'] = '保存する前に答えを選択する必要があります。投票内容は保存されませんでした。';
 $string['notanswered'] = '未投票';
 $string['notopenyet'] = '申し訳ございません、この活動は $a まで利用できません。';
-$string['privacy'] = 'プライバシー';
-$string['publish'] = '結果の公開';
-$string['publishafteranswer'] = '投票後に学生に結果を表示する';
-$string['publishafterclose'] = '投票が終了した後に学生に結果を表示する';
-$string['publishalways'] = '常に学生に結果を表示する';
-$string['publishanonymous'] = '結果を匿名で公開する、学生の氏名を表示しない';
-$string['publishnames'] = '結果をすべて公開する、学生の氏名と投票内容を表示する';
-$string['publishnot'] = '学生に結果を公開しない';
+$string['privacy'] = '投票結果のプライバシー';
+$string['publish'] = '投票結果の公開';
+$string['publishafteranswer'] = '投票した後、学生に投票結果を表示する';
+$string['publishafterclose'] = 'この投票が終了した後、学生に投票結果を表示する';
+$string['publishalways'] = '常に学生に投票結果を表示する';
+$string['publishanonymous'] = '投票結果を匿名で公開する、学生の氏名を表示しない';
+$string['publishnames'] = '投票結果をすべて公開する、学生の氏名および投票内容を表示する';
+$string['publishnot'] = '学生に投票結果を公開しない';
 $string['responses'] = '投票結果';
 $string['responsesto'] = '$a へ投票する';
 $string['savemychoice'] = '投票する';
