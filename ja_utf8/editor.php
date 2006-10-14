@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.7 dev (2006060400)
+      // editor.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['about'] = 'エディタに関して';
@@ -24,7 +24,7 @@ $string['chooseicon'] = '挿入するアイコンの選択';
 $string['close'] = '閉じる';
 $string['closeafterreplace'] = '置換後に閉じる';
 $string['cols'] = 'Cols';
-$string['copy'] = '選択したものをコピー';
+$string['copy'] = '選択したものをコピーする';
 $string['createanchor'] = 'アンカーの作成';
 $string['createfolder'] = 'フォルダの作成';
 $string['createlink'] = 'リンクの挿入';

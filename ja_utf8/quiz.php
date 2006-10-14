@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006100601)
+      // quiz.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['1day'] = '1日';
@@ -17,7 +17,7 @@ $string['addquestionstoquiz'] = '現在の小テストに問題を追加';
 $string['addrandom'] = '$a のランダム問題を追加する';
 $string['addrandom1'] = '<< 追加';
 $string['addrandom2'] = 'ランダム問題';
-$string['addselectedtoquiz'] = '選択したものを小テストに追加';
+$string['addselectedtoquiz'] = '選択したものを小テストに追加する';
 $string['addtoquiz'] = '小テストに追加';
 $string['affectedstudents'] = '影響を受ける $a';
 $string['aiken'] = 'Aikenフォーマット';
@@ -131,7 +131,7 @@ $string['deleteattemptcheck'] = '本当にこれらの受験内容を削除し�
 $string['deletequestioncheck'] = '「 $a 」を本当に削除してもよろしいですか?';
 $string['deletequestionscheck'] = '本当に次の問題を削除してもよろしいですか?
 <div>$a</div>';
-$string['deleteselected'] = '選択したものを削除';
+$string['deleteselected'] = '選択したものを削除する';
 $string['description'] = '説明';
 $string['discrimination'] = '識別指数';
 $string['displayoptions'] = '表示オプション';
