@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006100401)
+      // admin.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['accounts'] = '계정';
@@ -236,6 +236,8 @@ $string['environmentrequireinstall'] = '설치하거나 활성화할 것을 권�
 $string['environmentrequireversion'] = '$a->needed 버전을 사용하여야 하는데 현재 $a->current 을 사용하고 있습니다.';
 $string['environmentxmlerror'] = '환경 설정 데이터 불러들이기 오류 ($a->error_code)';
 $string['errors'] = '오류들';
+$string['errorsetting'] = '설정을 저장할 수 없음:';
+$string['errorwithsettings'] = '오류때문에 설정을 바꿀 수 없음:';
 $string['extendedusernamechars'] = '사용자 아이디에 확장 문자 허용';
 $string['filterall'] = '모든 문자열을 필터링';
 $string['filtermatchoneperpage'] = '한 페이지에 한 번만 필터 적용';
@@ -449,5 +451,6 @@ $string['users'] = '사용자';
 $string['userscreated'] = '사용자들이 생성됨';
 $string['usersrenamed'] = '사용자명이 변경됨';
 $string['usersupdated'] = '사용자들이 갱신됨';
+$string['validateerror'] = '이 값은 유효하지 않음:';
 
 ?>
