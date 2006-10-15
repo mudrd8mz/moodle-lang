@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6.2 (2006050520)
+      // chat.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['beep'] = 'звучни сигнал';
@@ -33,9 +33,9 @@ $string['generalconfig'] = 'Општа конфигурација';
 $string['helpchatting'] = 'Помоћ при разговору';
 $string['idle'] = 'Неактиван';
 $string['messagebeepseveryone'] = 'Учесник $a сигнализира свима!';
-$string['messagebeepsyou'] = 'Учесник $a Вам је управо послао звучни сигнал!';
-$string['messageenter'] = 'Учесник $a је управо ушао у причаоницу';
-$string['messageexit'] = 'Учесник $a је напустио причаоницу';
+$string['messagebeepsyou'] = 'Учесник $a Вам управо шаље звучни сигнал!';
+$string['messageenter'] = 'Учесник $a управо улази у причаоницу';
+$string['messageexit'] = 'Учесник $a управо напушта причаоницу';
 $string['messages'] = 'Поруке';
 $string['methoddaemon'] = 'IRC server daemon';
 $string['methodnormal'] = 'Нормалан режим';
