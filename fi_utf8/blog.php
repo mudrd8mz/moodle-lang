@@ -1,5 +1,5 @@
-<?php // $Id$
-      // blog.php - created with Moodle 1.6.1+ (2006050511)
+<?PHP // $Id$ 
+      // blog.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['addnewentry'] = 'Lisää uusi merkintä';
@@ -7,6 +7,7 @@ $string['addotags'] = 'Lisää virallinen tunniste';
 $string['addptags'] = 'Lisää oma tunniste';
 $string['blockmenutitle'] = 'Blogi valikko';
 $string['blocktagstitle'] = 'Blogi tunnisteet';
+$string['blocktitle'] = 'Blogitunnisteet lohkon otsikko';
 $string['blog'] = 'Blogi';
 $string['blogdeleteconfirm'] = 'Poista tämä blogi?';
 $string['blogpreferences'] = 'Blogin asetukset';
@@ -15,6 +16,8 @@ $string['blogtags'] = 'Blogi tunnisteet';
 $string['courseblog'] = 'Kurssiblogi: $a';
 $string['courseblogs'] = 'Käyttäjät voivat nähdä vain kurssikavereidensa blogit';
 $string['disableblogs'] = 'Poista blogit kokonaan käytöstä';
+$string['emptybody'] = 'Blogimerkinnän teksti ei voi olla tyhjä';
+$string['emptytitle'] = 'Blogimerkinnän otsikko ei voi olla tyhjä';
 $string['entrybody'] = 'Blogimerkinnän teksti';
 $string['entrybodyonlydesc'] = 'Blogimerkinnän kuvaus';
 $string['entryerrornotyours'] = 'Tämä merkintä ei ole sinun';
