@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.7 dev (2006082900)
+      // hotpot.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['abandoned'] = 'abgebrochen';
 $string['addquizchain'] = 'Testverbindung herstellen';
-$string['allmycourses'] = 'Alle meine Kurse';
+$string['allusers'] = 'Alle Nutzer/innen';
 $string['alwaysopen'] = 'Immer offen';
 $string['attemptsall'] = 'Alle Versuche';
 $string['attemptsbest'] = 'BesterVersuch';
@@ -45,7 +45,13 @@ $string['filetype'] = 'Dateityp';
 $string['forceplugins'] = 'Erforderlicher Media Plugin';
 $string['giveup'] = 'Aufhören/abbrechen';
 $string['hints'] = 'Hinweise';
+$string['hotpot:attempt'] = 'Einen Test ausprobieren';
+$string['hotpot:deleteattempt'] = 'Test-Probedaten löschen';
+$string['hotpot:grade'] = 'Bewertungen verändern';
 $string['hotpot:view'] = 'Test verwenden';
+$string['hotpot:viewreport'] = 'Berichte ansehen';
+$string['hotpotcloses'] = 'Hot Potatoes Test wird beendet';
+$string['hotpotopens'] = 'Hot Potatoes Test wird gestartet';
 $string['ignored'] = 'ignoriert';
 $string['inprogress'] = 'in Bearbeitung';
 $string['location'] = 'Dateispeicherort';
@@ -56,7 +62,7 @@ $string['navigation_bar'] = 'Moodle-Navigation';
 $string['navigation_buttons'] = 'Hot Potatoe Test Buttons';
 $string['navigation_frame'] = 'Moodle-Navigationsframe';
 $string['navigation_give_up'] = 'Ein einzelner \"Abbrechen\" Button';
-$string['navigation_iframe'] = 'Eingebetter <FRAME>';
+$string['navigation_iframe'] = 'Eingebetteter <FRAME>';
 $string['navigation_none'] = 'Keine';
 $string['neverclosed'] = 'Nie beenden';
 $string['noactivity'] = 'Keine Aktivität';
@@ -139,7 +145,6 @@ $string['textsourcefilename'] = 'Dateinamen angeben';
 $string['textsourcefilepath'] = 'Dateipfad angeben';
 $string['textsourcequiz'] = 'Vom Test übernehmen';
 $string['textsourcespecific'] = 'Spezifischer Text';
-$string['thiscourse'] = 'dieser Kurs';
 $string['timedout'] = 'Zeit abgelaufen';
 $string['updatequizchain'] = 'Testverbindung aktualisieren';
 $string['weighting'] = 'Gewichtung';

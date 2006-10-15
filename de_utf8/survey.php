@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.7 dev (2006082900)
+      // survey.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['actual'] = 'Tatsächlich';
@@ -27,7 +27,7 @@ $string['attls16'] = 'Man kann meine Art, Sachverhalte zu durchdenken, als handl
 $string['attls16short'] = 'handlungsorientiert';
 $string['attls17'] = 'Wenn ich ein Problem löse, verlasse ich mich lieber auf logische Begründungen als auf meine persönliche Einschätzung.';
 $string['attls17short'] = 'Ich lege höchsten Wert auf Logik';
-$string['attls18'] = 'In Ansichten und Meinungen, die sich von meinen unterscheiden, gewinnen ich Einsicht durch mein Einfühlungsvermögen.';
+$string['attls18'] = 'In Ansichten und Meinungen, die sich von meinen unterscheiden, gewinne ich Einsicht durch mein Einfühlungsvermögen.';
 $string['attls18short'] = 'Einsicht durch Empathie';
 $string['attls19'] = 'Wenn ich auf Leute stoße, deren Meinungen mir fremd scheinen, bemühe ich mich, mich in diese Person \'hinein zu versetzen\', um zu verstehen, warum sie solche Ansichten hat.';
 $string['attls19short'] = 'Anstrengungen machen, sich hinein zu versetzen';
@@ -48,10 +48,10 @@ $string['attls7'] = 'Ich finde, dass ich meine eigene Position stärken kann, in
 $string['attls7short'] = 'Sich stärken durch diskutieren';
 $string['attls8'] = 'Ich möchte immer gerne wissen, warum andere Menschen sagen und glauben, was sie tun.';
 $string['attls8short'] = 'Wissen, warum Menschen etwas tun';
-$string['attls9'] = 'Ich ertappe mich oft dabei, mit den Autor/innen von Büchern zu argumentieren, die ich lese, und ich versuche, logisch abzuleiten, warum sie Unrecht haben.';
-$string['attls9short'] = 'Mit Autor/innen argumentieren';
-$string['attlsintro'] = 'Mit diesem Fragebogen möchten wir mehr über Ihre Einstellungen in Bezug auf Denken und Lernen erfahren. <br />Es gibt keine \'richtigen\' oder \'falschen\' Antworten; wir sind nur an Ihrer Meinung interessiert. <br />Wir versichern Ihnen, dass Ihre Antworten vertraulich behandelt werden und keine Auswirkung auf die Beurteilung ihres Lernerfolgs im Kurs haben.';
-$string['attlsm1'] = 'Einstellung gegenüber Denken und Lernen';
+$string['attls9'] = 'Ich ertappe mich oft dabei, mit den Autoren/innen von Büchern zu argumentieren, die ich lese, und ich versuche, logisch abzuleiten, warum sie Unrecht haben.';
+$string['attls9short'] = 'Mit Autoren/innen argumentieren';
+$string['attlsintro'] = 'Mit diesem Fragebogen möchten wir mehr über Ihre Einstellungen in Bezug auf Denken und Lernen erfahren. <br />Es gibt keine \'richtigen\' oder \'falschen\' Antworten; wir sind nur an Ihrer Meinung interessiert. <br />Wir versichern Ihnen, dass Ihre Antworten vertraulich behandelt werden und keine Auswirkung auf die Beurteilung Ihres Lernerfolgs im Kurs haben.';
+$string['attlsm1'] = 'Einstellungen gegenüber Denken und Lernen';
 $string['attlsm2'] = 'Gebundenes Lernen';
 $string['attlsm3'] = 'Abgelöstes Lernen';
 $string['attlsmintro'] = 'In einer Diskussion verhalte ich mich so:';
@@ -59,7 +59,7 @@ $string['attlsname'] = 'ATTLS (20 Punkte Version)';
 $string['ciq1'] = 'Wann haben Sie sich in diesem Kurs als Lernende/r am meisten engagiert?';
 $string['ciq1short'] = 'Stark beteiligt';
 $string['ciq2'] = 'Wann hatten Sie als Lernende/r zu diesem Kurs die meiste Distanz?';
-$string['ciq2short'] = 'stark distanziert';
+$string['ciq2short'] = 'Stark distanziert';
 $string['ciq3'] = 'Welche Aktivität im Forum fanden Sie besonders bestätigend oder hilfreich?';
 $string['ciq3short'] = 'Hilfreiche Momente';
 $string['ciq4'] = 'Welche Aktivität im Forum fanden Sie besonders merkwürdig oder verwirrend?';
@@ -120,7 +120,7 @@ $string['colles9'] = 'Ich erkläre anderen Teilnehmer/innen meine Ideen.';
 $string['colles9short'] = 'Ich erkläre meine Ideen';
 $string['collesaintro'] = 'Diese Umfrage soll uns herausfinden helfen, wie gut dieser Kurs Sie in Ihrem Lernen unterstützt hat. <br />
 Jede der folgenden 24 Aussagen fragt nach Ihren Erfahrungen als Teilnehmer/in bei der Bearbeitung dieses Moduls. <br />
-Es gibt keine \'richtigen\' oder \'falschen\' Antworten; wir sind nur an Ihrer Meinung interessiert. Wir versichern Ihnen, dass Ihre Antworten mit größtmöglicher Vertraulichkeit behandelt werden und keinen Einfluss auf die Beurteilung Ihres Lernerfolgs haben werden.';
+Es gibt keine \'richtigen\' oder \'falschen\' Antworten; wir sind nur an Ihrer Meinung interessiert. Wir versichern Ihnen, dass Ihre Antworten mit größtmöglicher Vertraulichkeit behandelt werden und keinen Einfluss auf die Beurteilung Ihres Lernerfolgs haben werden.<br>Herzlichen Dank!';
 $string['collesaname'] = 'COLLES (tatsächlich)';
 $string['collesapintro'] = 'Diese Umfrage soll uns herausfinden helfen, wie gut dieser Kurs Sie in Ihrem Lernen unterstützt hat. <br > Bei jeder der folgenden 24 Aussagen vergleichen Sie bitte Ihre <b>bevorzugten (idealen) Lernweisen</b> mit Ihren <b>tatsächlichen</b> Erfahrungen in diesem Modul.<br />
 Es gibt keine \'richtigen\' oder \'falschen\' Antworten; wir sind nur an Ihrer Meinung interessiert. Wir versichern Ihnen, dass Ihre Antworten mit größtmöglicher Vertraulichkeit behandelt werden und keinen Einfluss auf die Beurteilung Ihres Lernerfolgs haben werden. <br />
@@ -140,7 +140,7 @@ $string['collesm6'] = 'Interpretation';
 $string['collesm6short'] = 'Interpretation';
 $string['collesmintro'] = 'In Bezug auf diesen Online-Kurs denke ich folgendes:';
 $string['collespintro'] = 'Diese Umfrage soll uns herausfinden helfen, wie gut dieser Kurs Sie in Ihrem Lernen unterstützt hat.  <br />
-Jede der folgenden 24 Aussagen fragt nach Ihren <b>bevorzugten (idealen)<b/> Lernweisen. <br />
+Jede der folgenden 24 Aussagen fragt nach Ihren <b>bevorzugten (idealen)</b> Lernweisen. <br />
 Es gibt keine \'richtigen\' oder \'falschen\' Antworten; wir sind nur an Ihrer Meinung interessiert. Wir versichern Ihnen, dass Ihre Antworten mit größtmöglicher Vertraulichkeit behandelt werden und keinen Einfluss auf die Beurteilung Ihres Lernerfolgs haben werden. <br />
 Wir werden Ihre Antworten sorgfältig durchdenken und daraus Schlüsse für die künftige Online-Präsentation dieses Themenbereichs ziehen. <br /> Herzlichen Dank!';
 $string['collespname'] = 'COLLES (bevorzugt)';
@@ -187,7 +187,7 @@ $string['surveycompleted'] = 'Sie haben die Umfrage beendet. Das folgende Diagra
 $string['surveyname'] = 'Name der Umfrage';
 $string['surveysaved'] = 'Umfrage gespeichert';
 $string['surveytype'] = 'Typ der Umfrage';
-$string['thanksforanswers'] = 'Danke, dass Sie sich an dieser Umfrage beteiligt haben$a';
+$string['thanksforanswers'] = 'Danke $a, dass Sie sich an dieser Umfrage beteiligt haben.';
 $string['time'] = 'Zeit';
 $string['viewsurveyresponses'] = 'Zeige $a Antworten zur Umfrage';
 

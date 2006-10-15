@@ -1,15 +1,17 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 dev (2006082900)
+      // scorm.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['advanced'] = 'Weitere Einstellungen';
 $string['asset'] = 'Asset';
+$string['assetlaunched'] = 'Asset gesehen';
 $string['attempt'] = 'Versuch';
 $string['attempts'] = 'Versuche';
 $string['attr_error'] = 'Falscher Wert für Attribut ($a->attr) in Tag $a->tag';
 $string['autocontinue'] = 'Automatische Fortsetzung';
 $string['averageattempt'] = 'Durchschnittlicher Versuch';
 $string['badmanifest'] = 'Einige  Fehler  in manifest: siehe Fehlerprotokoll';
+$string['badpackage'] = 'In dem von Ihnen genutzten Paket sind einige Probleme aufgetreten. Prüfen Sie das Paket und versuchen Sie es dann noch einmal.';
 $string['browse'] = 'Vorschau';
 $string['browsed'] = 'Durchsucht';
 $string['browsemode'] = 'Vorschaumodus';
@@ -45,7 +47,9 @@ $string['gradesum'] = 'Summe der Bewertungen';
 $string['height'] = 'Höhe';
 $string['hidden'] = 'Verborgen';
 $string['hidebrowse'] = 'Vorschaubutton verbergen';
+$string['hideexit'] = '\'Beenden\'-Link verbergen';
 $string['hidenav'] = 'Navigationsbuttons verbergen';
+$string['hidereview'] = '\'Rückblick\'-Link verbergen';
 $string['hidetoc'] = 'Kursstruktur (Inhaltsverzeichnis) im Playerfenster verbergen';
 $string['highestattempt'] = 'Bester Versuch';
 $string['identifier'] = 'Fragenerkennung (Question indentifier)';
@@ -53,6 +57,7 @@ $string['iframe'] = 'Jetziges Fenster';
 $string['iframedisplay'] = 'Paket in derzeitigem Fenster anzeigen';
 $string['incomplete'] = 'Unvollständig';
 $string['interactions'] = 'Interaktionen';
+$string['last'] = 'Letzter Versuch am';
 $string['lastaccess'] = 'Letzter Versuch';
 $string['lastattempt'] = 'Letzter Versuch';
 $string['location'] = 'Adresse anzeigen';
@@ -100,18 +105,24 @@ $string['review'] = 'Rückblick';
 $string['reviewmode'] = 'Rückblick-Modus';
 $string['scoes'] = 'Scoes';
 $string['score'] = 'Bewertung';
-$string['scorm:view'] = 'Inhalt ansehen';
-$string['scorm:viewgrades'] = 'Bewertungen ansehen';
+$string['scorm:savetrack'] = 'Trackingdaten speichern';
+$string['scorm:skipview'] = 'Übersicht überspringen';
+$string['scorm:viewreport'] = 'Berichte anzeigen';
+$string['scorm:viewscores'] = 'Bewertungen anzeigen';
 $string['scormcourse'] = 'SCORM Kurs';
 $string['scrollbars'] = 'Scrollfunktion im Fenster bereitstellen';
 $string['sided'] = 'Auf der linken Seite';
+$string['skipview'] = 'Teilnehmer/innen  überspringen die Übersicht';
 $string['stagesize'] = 'Frame/Fenster Größe';
+$string['started'] = 'Begonnen am';
 $string['status'] = 'Status';
 $string['statusbar'] = 'Statusanzeige';
 $string['student_response'] = 'Antwort';
+$string['suspended'] = 'Ausgeschlossen';
 $string['syntax'] = 'Schreibfehler';
 $string['tag_error'] = 'Unbekannter Tag ($a->tag) mit dem Inhalt: $a->value';
 $string['time'] = 'Zeit';
+$string['title'] = 'Titel';
 $string['too_many_attributes'] = 'Tag $a->tag hat zu viele Attribute';
 $string['too_many_children'] = 'Tag $a->tag hat zu viele Kinder/children';
 $string['toolbar'] = 'Toolbar anzeigen';

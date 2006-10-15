@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // enrol_manual.php - created with Moodle 1.6 development (2006032001)
+      // enrol_manual.php - created with Moodle 1.6.2+ (2006050521)
 
 
-$string['description'] = 'Dies ist die Grundeinstellung für die Anmeldungen. Dabei können zwei Formen der Eintragung von Teilnehmer/innen in Kurse genutzt werden.
+$string['description'] = 'Das ist das Standardverfahren für Kurs-Anmeldungen. Dabei können zwei Formen der Anmeldung von Teilnehmer/innen in Kurse genutzt werden.
 <ul>
-<li>Trainer/innen oder Admins wählen im Administrationsmenü des Kurses  unter \"Teilnehmer/innen\" aus der Liste der Nutzer/innen die Teilnehmer/innen des Kurses aus.</li>
-<li>Für den Kurs wird ein Zugangsschlüssel in den \"Einstellungen\" definiert. Jede/r der/die diesen Zugangsschlüssel kennt, kann sich selber als Teilnehmner/in in den Kurs eintragen.';
+<li>Trainer/innen oder Admins klicken im Administrationsblock des Kurses den Teilnehmer-Link und wählen aus der Liste der Nutzer/innen des Systems die Teilnehmer/innen des Kurses aus.</li>
+<li>Der/die Trainer/in definiert einen Zugangsschlüssel in den Kurseinstellungen. Jeder, der diesen Zugangsschlüssel kennt, kann sich als Teilnehmner/in in den Kurs einschreiben.';
 $string['enrolname'] = 'Interne Anmeldung';
 
 ?>

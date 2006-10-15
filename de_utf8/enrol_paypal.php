@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // enrol_paypal.php - created with Moodle 1.5 ALPHA (2005051500)
+      // enrol_paypal.php - created with Moodle 1.6.2+ (2006050521)
 
 
-$string['business'] = 'E-Mail Adresse Ihres geschäftlichen Paypal-Accounts';
-$string['costorkey'] = 'Wählen Sie eine der folgenden Methode zur Eintragung.';
-$string['description'] = 'Das Paypal-Modul ermöglicht es Ihnen, Kurse anzulegen, für die Gebühren erhoben werden. Wenn die Kursgebühren auf \'0\' gesetzt werden, werden die Teilnehmer/innen nicht aufgefordert vor dem Kurszugang zu bezahlen.<br />Es kann eine Gebührenvoreinstellung für alle Kurse vorgenommen werden. Die Einstellungen für den einzelnen Kurs überschreibt die Voreinstellung.';
+$string['business'] = 'E-Mail Adresse Ihres Paypal-Kontos';
+$string['costorkey'] = 'Wählen Sie eines der folgenden Kurs-Anmeldeverfahren.';
+$string['description'] = 'Das Paypal-Anmeldeverfahren ermöglicht es Ihnen, gebührenpflichtige Kurse anzulegen und die Kursgebühren über Paypal abzurechnen. Wenn die Kursgebühren eines Kurses auf \'0\' gesetzt werden, dann erhalten die Teilnehmer/innen keine Zahlungsaufforderung bei der Einschreibung in den Kurs.<br />Sie können eine Gebührenvoreinstellung vornehmen, die für alle Kurse als Standardgebühr übernommen wird. Diese Standardgebühr kann in den Kurseinstellungen für jeden Kurs individuell überschrieben werden.';
 $string['enrolname'] = 'Paypal';
-$string['sendpaymentbutton'] = 'Bezahlung über das Bezahlsystem Paypal';
+$string['sendpaymentbutton'] = 'Zahlung über Paypal';
 
 ?>

@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // block_online_users.php - created with Moodle 1.4.3 (2004083130)
+      // block_online_users.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['blockname'] = 'Zur Zeit online';
-$string['configtimetosee'] = 'Dauer (in Minuten), die benötigt wird, um einen Nutzer als zur Zeit online, zu erkennen';
+$string['configtimetosee'] = 'Anzahl von Minuten, nach denen inaktive Nutzer/innen nicht mehr als online betrachtet werden';
 $string['periodnminutes'] = 'In den letzten $a Minuten';
 
 ?>

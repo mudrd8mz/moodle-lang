@@ -1,20 +1,22 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.6 development (2005111101)
+      // lams.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['createSequence'] = 'Neue Sequenz erstellen';
 $string['editSequence'] = 'Ausgewählte Sequenz bearbeiten';
-$string['error'] = 'Sorry, ein unbekannter Fehler ist aufgetreten.';
-$string['introduction'] = 'Einführung';
+$string['error'] = 'Entschuldigung, ein unbekannter Fehler ist aufgetreten.';
+$string['introduction'] = 'Einleitung';
 $string['lams'] = '-- LAMS - Learning Activity Management System --';
-$string['lamsoutline'] = 'LAMS Rahmen';
-$string['lesson'] = 'Lern-Sitzung';
+$string['lams:manage'] = 'LAMS-Aktivitäten verwalten';
+$string['lams:participate'] = 'An LAMS-Aktivitäten teilnehmen';
+$string['lamsoutline'] = 'LAMS-Rahmen';
+$string['lesson'] = 'Lernsitzung';
 $string['modulename'] = 'LAMS';
 $string['modulenameplural'] = 'LAMS';
 $string['notsetup'] = 'NOT_SET_UP';
-$string['openauthor'] = 'LAMS Autorenumgebung  öffnen';
-$string['openlearner'] = 'LMS Teilnehmerzugang öffnen';
-$string['openmonitor'] = 'LAMS Monitor öffnen';
+$string['openauthor'] = 'LAMS-Autorenumgebung  öffnen';
+$string['openlearner'] = 'LAMS-Teilnehmerzugang öffnen';
+$string['openmonitor'] = 'LAMS-Monitor öffnen';
 $string['refreshSequenceList'] = 'Liste der Sequenzen aktualisieren';
 $string['selectExistingSequence'] = 'Eine bestehene Lernsequenz auswählen oder eine neue Lernsequenz anlegen.';
 $string['sequence'] = 'Lernsequenz auswählen';

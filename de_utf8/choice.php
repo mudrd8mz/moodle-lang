@@ -1,47 +1,47 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.7 dev (2006082900)
+      // choice.php - created with Moodle 1.7 dev (2006092801)
 
 
 $string['addmorechoices'] = 'Weitere Abstimmungen hinzufügen';
-$string['allowupdate'] = 'Abstimmung kann aktualisiert werden';
+$string['allowupdate'] = 'Abstimmung kann bearbeitet werden';
 $string['answered'] = 'Beantwortet';
-$string['choice'] = 'Abstimmung  $a';
+$string['choice'] = 'Antwort  $a';
 $string['choice:choose'] = 'Abstimmung aufzeichnen';
-$string['choice:deleteresponses'] = 'Antworten löschen';
-$string['choice:downloadresponses'] = 'Antworten downloaden';
-$string['choice:readresponses'] = 'Antworten einsehen';
+$string['choice:deleteresponses'] = 'Stimmabgaben löschen';
+$string['choice:downloadresponses'] = 'Stimmabgaben herunterladen';
+$string['choice:readresponses'] = 'Stimmabgaben ansehen';
 $string['choiceclose'] = 'Abstimmungsende (Datum, Uhrzeit)';
-$string['choicename'] = 'Abstimmung';
+$string['choicename'] = 'Name der Abstimmung';
 $string['choiceopen'] = 'Abstimmungsbeginn (Datum, Uhrzeit)';
-$string['choicetext'] = 'Beschreibung';
+$string['choicetext'] = 'Fragestellung';
 $string['displayhorizontal'] = 'Horizontal anzeigen';
 $string['displaymode'] = 'Anzeigemodus';
 $string['displayvertical'] = 'Vertikal anzeigen';
 $string['full'] = '(Vollständig)';
 $string['havetologin'] = 'Sie müssen sich erst anmelden, bevor Sie sich an der Abstimmung beteiligen können.';
-$string['limit'] = 'Begrenzung';
-$string['limitanswers'] = 'Begrenzung der Zahl der Antworten zulassen';
+$string['limit'] = 'Limit';
+$string['limitanswers'] = 'Limit für die Zahl der Stimmabgaben';
 $string['modulename'] = 'Abstimmung';
 $string['modulenameplural'] = 'Abstimmungen';
-$string['mustchooseone'] = 'Sie müssen zuerst eine Antwort auswählen bevor Sie speichern. Es wurde noch nicht gespeichert.';
+$string['mustchooseone'] = 'Sie müssen zuerst eine Antwort auswählen, bevor Sie speichern. Es wurde noch nichts gespeichert.';
 $string['notanswered'] = 'Noch nicht beantwortet';
-$string['notopenyet'] = 'Sorry, diese Aktivität ist erst ab $a verfügbar.';
-$string['privacy'] = 'Veröffentlichung der Ergebnisse';
+$string['notopenyet'] = 'Entschuldigung, diese Aktivität ist erst ab $a verfügbar.';
+$string['privacy'] = 'Anonymität';
 $string['publish'] = 'Ergebnisse veröffentlichen';
-$string['publishafteranswer'] = 'Ergebnisse den anderen Teilnehmer/innen nach der Abstimmung anzeigen';
-$string['publishafterclose'] = 'Ergebnisse anderen Teilnehmer/innen erst anzeigen, nachdem die Abstimmung abgeschlossen ist';
-$string['publishalways'] = 'Ergebnisse der anderen Teilnehmer/innen immer zeigen';
-$string['publishanonymous'] = 'Anonyme Ergebnisse veröffentlichen, Namen der Teilnehmer nicht zeigen';
-$string['publishnames'] = 'Ergebnisse vollständig veröffentlichen, Namen und deren Wahl anzeigen';
+$string['publishafteranswer'] = 'Nach der eigenen Stimmabgabe';
+$string['publishafterclose'] = 'Nach Abstimmungsende';
+$string['publishalways'] = 'Ergebnisse immer zeigen';
+$string['publishanonymous'] = 'Anonyme Ergebnisse';
+$string['publishnames'] = 'Vollständige Ergebnisse (mit Namen und Stimme)';
 $string['publishnot'] = 'Keine Ergebnisse veröffentlichen';
 $string['responses'] = 'Antworten';
 $string['responsesto'] = 'Antworten zu  $a';
 $string['savemychoice'] = 'Meine Abstimmung speichern';
-$string['showunanswered'] = 'Zeige Spalte mit TN, die noch nicht geantwortet haben';
+$string['showunanswered'] = 'Spalte für Teilnehmer/innen ohne Stimmabgabe';
 $string['spaceleft'] = 'Platz verfügbar';
 $string['spacesleft'] = 'Plätze verfügbar';
 $string['taken'] = 'Eingetragen';
-$string['timerestrict'] = 'Antworten nur in dieser Periode anzeigen';
+$string['timerestrict'] = 'Abstimmung auf einen Zeitraum beschränken';
 $string['viewallresponses'] = 'Zeige $a Antworten';
 $string['yourselection'] = 'Ihre Auswahl';
 

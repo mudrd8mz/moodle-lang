@@ -1,13 +1,13 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.6.1 (2006050510)
+      // quiz_analysis.php - created with Moodle 1.6.2+ (2006050521)
 
 
-$string['analysis'] = 'Fragenalayse';
+$string['analysis'] = 'Fragenanalyse';
 $string['analysisdownload'] = 'Analyse downloaden';
 $string['analysisoptions'] = 'Auswertungsoptionen';
 $string['analysistitle'] = 'Tabelle mit Fragenanalyse';
 $string['attemptsall'] = 'alle Versuche';
-$string['attemptselection'] = 'Versuche, die pro Nutzer/in analysiert werden';
+$string['attemptselection'] = 'Wie viele Versuche pro Nutzer/in analysieren:';
 $string['attemptsfirst'] = 'erster Versuch';
 $string['attemptshighest'] = 'Höchstbewertung';
 $string['attemptslast'] = 'letzter Versuch';
@@ -15,7 +15,7 @@ $string['dicsindextitle'] = 'Disc.<br />Index';
 $string['disccoefftitle'] = 'Disc<br />Koeff.';
 $string['downloadooo'] = 'Download im OpenOffice-Format';
 $string['facilitytitle'] = '%% korrekt<br />Schwierigkeit';
-$string['lowmarkslimit'] = 'Nicht auswerten wenn der Wert niedriger ist als';
+$string['lowmarkslimit'] = 'Nicht auswerten, wenn der Wert niedriger ist als';
 $string['pagesize'] = 'Fragen pro Seite:';
 $string['qcounttitle'] = 'Fragen gezählt';
 $string['qidtitle'] = 'Fragen#';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // enrol_imsenterprise.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['aftersaving...'] = 'Nachdem Sie die Einstellungen gespeichert haben, sollten Sie folgendes tun';
@@ -18,6 +18,7 @@ $string['filelockedmail'] = 'Die Textdatei ($a), die für die IMS-Datei-basierte
 $string['filelockedmailsubject'] = 'Wichtiger Fehler: Anmeldedatei';
 $string['fixcasepersonalnames'] = 'Namen in Groß-/Kleinschreibung ändern';
 $string['fixcaseusernames'] = 'Nutzername in Kleinbuchstaben umwandeln';
+$string['imsrolesdescription'] = 'Die IMS Enterprise Spezifikation umfasst acht verschiedene Rollen. Legen Sie bittefest wie diese in Moodle angewandt werden sollen und welche ggfs. ignoriert werden sollen.';
 $string['location'] = 'Dateiort';
 $string['logtolocation'] = 'Speicherort für Logdatei (leer lassen, um keine Logs zu erstellen)';
 $string['mailadmins'] = 'Admin per E-Mail benachrichtigen';

@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // timezones.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005041101)
+      // timezones.php - created with Moodle 1.6.2+ (2006050521)
 
 
-$string['africa/abidjan'] = 'AfriKa/Abidjan';
+$string['africa/abidjan'] = 'Afrika/Abidjan';
 $string['africa/accra'] = 'Afrika/Accra';
 $string['africa/addis_ababa'] = 'Afrika/Addis_Ababa';
 $string['africa/algiers'] = 'Afrika/Algiers';
@@ -304,11 +304,11 @@ $string['europe/luxembourg'] = 'Europa/Luxemburg';
 $string['europe/madrid'] = 'Europa/Madrid';
 $string['europe/malta'] = 'Europa/Malta';
 $string['europe/minsk'] = 'Europa/Minsk';
-$string['europe/monaco'] = 'Europa/Monako';
+$string['europe/monaco'] = 'Europa/Monaco';
 $string['europe/moscow'] = 'Europa/Moskau';
 $string['europe/oslo'] = 'Europa/Oslo';
 $string['europe/paris'] = 'Europa/Paris';
-$string['europe/prague'] = 'Europa/Prage';
+$string['europe/prague'] = 'Europa/Prag';
 $string['europe/riga'] = 'Europa/Riga';
 $string['europe/rome'] = 'Europa/Rom';
 $string['europe/samara'] = 'Europa/Samara';
@@ -323,7 +323,7 @@ $string['europe/vienna'] = 'Europa/Wien';
 $string['europe/vilnius'] = 'Europa/Vilnius';
 $string['europe/warsaw'] = 'Europa/Warschau';
 $string['europe/zaporozhye'] = 'Europa/Zaporozhye';
-$string['europe/zurich'] = 'Europa/Zurich';
+$string['europe/zurich'] = 'Europa/Zürich';
 $string['indian/antananarivo'] = 'Indien/Antananarivo';
 $string['indian/chagos'] = 'Indien/Chagos';
 $string['indian/christmas'] = 'Indien/Christmas';

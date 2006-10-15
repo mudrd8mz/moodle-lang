@@ -1,17 +1,17 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // dialogue.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['addmynewentries'] = 'Meine neuen Einträge hinzufügen.';
 $string['addmynewentry'] = 'Meinen neuen Eintrag hinzufügen.';
 $string['addsubject'] = 'Betreff eingeben';
 $string['allowmultiple'] = 'Sie können mehr als einen Dialog mit der gleichen Person führen';
-$string['allowstudentdialogues'] = 'Dialoge zwischen Teilnehmer/innen sind erlaubt';
+$string['allowstudentdialogues'] = 'Dialoge zwischen Teilnehmer/innen erlauben';
 $string['close'] = 'Schließen';
-$string['closed'] = 'geschlossen';
+$string['closed'] = 'Geschlossen';
 $string['closeddialogues'] = 'Geschlossene Dialoge';
 $string['confirmclosure'] = 'Sie wollen diesen Dialog mit $a schließen. Geschlossene Dialoge können nicht wieder bearbeitet werden. Wenn Sie einen Dialog schließen, können Sie ihn weiterhin ansehen, aber nichts mehr hinzufügen. Sie müssen einen neuen Dialog beginnen, wenn Sie weiter mit dieser Person den Dialog führen wollen.<br /><br /> Sind Sie sicher, dass Sie diesen Dialog beenden möchten ?';
-$string['deleteafter'] = 'Geschlossenen Dialoge nach (Tagen) löschen';
+$string['deleteafter'] = 'Geschlossene Dialoge löschen nach (Tagen)';
 $string['dialogueclosed'] = 'Der Dialog wurde geschlossen.';
 $string['dialogueintro'] = 'Zusammenfassung';
 $string['dialoguemail'] = '$a->userfrom hat einen neuen Beitrag im Dialog \'$a->dialogue\' geschrieben.
@@ -22,11 +22,11 @@ Sie können diesen Beitrag ansehen unter <a href=\"$a->url\">dialogue</a>.';
 $string['dialoguename'] = 'Link (Kursseite)';
 $string['dialogueopened'] = 'Dialog mit $a begonnen.';
 $string['dialoguewith'] = 'Dialog mit $a';
-$string['everybody'] = 'Jedermann';
+$string['everybody'] = 'Jeder';
 $string['furtherinformation'] = 'Weitere Informationen zum Dialog';
 $string['lastentry'] = 'Letzter Eintrag';
-$string['maildefault'] = 'Standard E-Mail';
-$string['mailnotification'] = 'E-Mailbenachrichtigung';
+$string['maildefault'] = 'Standard-E-Mail';
+$string['mailnotification'] = 'E-Mail-Benachrichtigung';
 $string['modulename'] = 'Dialog';
 $string['modulenameplural'] = 'Dialoge';
 $string['namehascloseddialogue'] = '$a hat den Dialog beendet.';
@@ -35,7 +35,7 @@ $string['newentry'] = 'Neuer Eintrag';
 $string['noavailablepeople'] = 'Hier ist niemand anwesend, mit dem ein Dialog geführt werden kann.';
 $string['nopersonchosen'] = 'Keine Person ausgewählt';
 $string['nosubject'] = 'Kein Betreff eingegeben';
-$string['notavailable'] = 'Dialoge stehen für Gast-Nutzer nicht zur Verfügung. ';
+$string['notavailable'] = 'Dialoge stehen für Gast-Nutzer nicht zur Verfügung.';
 $string['notextentered'] = 'Keinen Text eingegeben';
 $string['notstarted'] = 'Sie haben den Dialog noch nicht gestartet.';
 $string['notyetseen'] = 'Noch nicht gesehen';
@@ -57,7 +57,7 @@ $string['pane2one'] = 'Ein Dialog erwartet eine Antwort von der anderen Person.'
 $string['pane3'] = '$a geschlossene(r) Dialog(e)';
 $string['pane3one'] = 'Ein geschlossener Dialog';
 $string['seen'] = 'Gesehen $a vorher';
-$string['sendmailmessages'] = 'E-Mailmitteilung(en) zu meinen Einträgen schicken';
+$string['sendmailmessages'] = 'E-Mail-Mitteilung(en) zu meinen Einträgen schicken';
 $string['status'] = 'Status';
 $string['studenttostudent'] = 'Nur unter Teilnehmer/innen';
 $string['subject'] = 'Betreff';

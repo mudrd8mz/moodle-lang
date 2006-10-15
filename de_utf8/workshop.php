@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.6 development (2005090100)
+      // workshop.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['absent'] = 'Abwesend';
@@ -109,9 +109,9 @@ $string['gradeforsubmission'] = 'Bewertung für abgegebene Arbeiten';
 $string['gradegiventoassessment'] = 'Bewertung(en) die Assessment bekommen hat';
 $string['gradeofsubmission'] = 'Bewertung der Einreichung: $a';
 $string['grades'] = 'Bewertungen';
-$string['gradesforassessmentsare'] = 'Bewertungen für Assessments sind außerhalb von $a ';
+$string['gradesforassessmentsare'] = 'Bewertungen für Assessments sind außerhalb von $a';
 $string['gradesforstudentsassessment'] = 'Bewertungen für $a`s Assessment';
-$string['gradesforsubmissionsare'] = 'Bewertungen für Beiträge sind außerhalb von $a ';
+$string['gradesforsubmissionsare'] = 'Bewertungen für Beiträge sind außerhalb von $a';
 $string['gradetable'] = 'Bewertungstabelle';
 $string['gradingallassessments'] = 'Alle Assessments bewerten';
 $string['gradinggrade'] = 'Gesamtbewertung';
@@ -121,7 +121,7 @@ $string['hidenamesfromstudents'] = 'Namen von $a verbergen';
 $string['includeteachersgrade'] = 'Bewertung des/der Trainer/in einbeziehen';
 $string['incorrect'] = 'Falsch';
 $string['info'] = 'Info';
-$string['invaliddates'] = 'Das eingegebene Datum ist nicht gültig.<br />Verwenden Sie den Zurückbutton Ihres Browsers, um ein richtiges Datum einzugeben. ';
+$string['invaliddates'] = 'Das eingegebene Datum ist nicht gültig.<br />Verwenden Sie den Zurückbutton Ihres Browsers, um ein richtiges Datum einzugeben.';
 $string['iteration'] = 'Wiederholung $a abgeschlossen';
 $string['lastname'] = 'Nachname';
 $string['lax'] = 'Lax/locker';
@@ -158,7 +158,7 @@ $string['noassessmentsdone'] = 'Keine Bewertung durchgeführt';
 $string['noattachments'] = 'Keine Anhänge';
 $string['nosubmission'] = 'Keine Arbeit eingereicht';
 $string['nosubmissionsavailableforassessment'] = 'Keine Beiträge für die Bewertung vorhanden';
-$string['notallowed'] = 'Für diese Seite haben Sie zur Zeit keine Berechtigung ';
+$string['notallowed'] = 'Für diese Seite haben Sie zur Zeit keine Berechtigung';
 $string['notavailable'] = 'Nicht verfügbar';
 $string['notenoughexamplessubmitted'] = 'Nicht genügend Beispiele zur Verfügung gestellt';
 $string['noteonassessmentelements'] = 'Beachten Sie, dass das Assessment in mehrere \'Assessmentkriterien\' aufgeteilt ist.<br />
@@ -175,7 +175,7 @@ $string['numberofassessmentelements'] = 'Anzahl der Bewertungskriterien';
 $string['numberofassessments'] = 'Anzahl der Assessments';
 $string['numberofassessmentschanged'] = 'Zahl der veränderten Assessments: $a';
 $string['numberofassessmentsdropped'] = 'Zahl der herausgefallenen Assessments: $a';
-$string['numberofassessmentsofstudentsubmissions'] = 'Anzahl Peer-Assessments ';
+$string['numberofassessmentsofstudentsubmissions'] = 'Anzahl Peer-Assessments';
 $string['numberofassessmentsofteachersexamples'] = 'Anzahl der Assessments von Beispielen des Kursleiters';
 $string['numberofassessmentsweighted'] = 'Anzahl von Assessments (gewichtet): $a';
 $string['numberofattachments'] = 'Anzahl der erwarteten Anhänge der Beiträge';
@@ -309,6 +309,8 @@ $string['weightforteacherassessments'] = 'Gewichtung für Trainer/innenbewertung
 $string['weights'] = 'Gewichtungen';
 $string['weightsusedforfinalgrade'] = 'Gewichtung, die für die Endnote verwendet wird';
 $string['weightsusedforsubmissions'] = 'Gewichtung, die für die Beiträge verwenden wird';
+$string['workshop:manage'] = 'Einstellungen verwalten';
+$string['workshop:participate'] = 'Am Workshop teilnehmen';
 $string['workshopagreedassessments'] = 'Bewertungen, denen zugestimmt wurde';
 $string['workshopassessments'] = 'Bewertungen des Workshop';
 $string['workshopcomments'] = 'Kommentare des Workshop';

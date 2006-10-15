@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // label.php - created with Moodle 1.4.3 (2004083130)
+      // label.php - created with Moodle 1.6.2+ (2006050521)
 
 
-$string['labeltext'] = 'Inhalt für Textfeld auf Kursseite';
+$string['labeltext'] = 'Erläuterungstext auf Kursseite';
 $string['modulename'] = 'Erläuterung';
 $string['modulenameplural'] = 'Erläuterungen';
 
