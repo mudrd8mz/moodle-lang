@@ -1,15 +1,17 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 dev (2006083003)
+      // scorm.php - created with Moodle 1.7 dev (2006100401)
 
 
 $string['advanced'] = 'Geavanceerd';
-$string['asset'] = 'Bezit';
+$string['asset'] = 'Set';
+$string['assetlaunched'] = 'Set - bekeken';
 $string['attempt'] = 'Poging';
 $string['attempts'] = 'Pogingen';
 $string['attr_error'] = 'Foute waarde voor attribuut ($a->attr) in tag $a->tag.';
 $string['autocontinue'] = 'Ga automatisch verder';
 $string['averageattempt'] = 'Gemiddelde van pogingen';
 $string['badmanifest'] = 'Enkele belangrijke fouten: zie foutenlogboek';
+$string['badpackage'] = 'Er zijn problemen met dit pakket. Controleer het en probeer nogmaals';
 $string['browse'] = 'Voorproeven';
 $string['browsed'] = 'Voorgeproefd';
 $string['browsemode'] = 'Voorproef-modus';
@@ -45,7 +47,9 @@ $string['gradesum'] = 'Totaalcijfer';
 $string['height'] = 'Hoogte';
 $string['hidden'] = 'Verborgen';
 $string['hidebrowse'] = 'Verberg voorbeeldknop';
+$string['hideexit'] = 'Verberg de uitgang-link';
 $string['hidenav'] = 'Verberg navigatieknoppen';
+$string['hidereview'] = 'Verberg de knop voor herzien';
 $string['hidetoc'] = 'Verberg cursusstructuur';
 $string['highestattempt'] = 'Beste poging';
 $string['identifier'] = 'Vraagidentificatie';
@@ -53,7 +57,8 @@ $string['iframe'] = 'Huidig venster';
 $string['iframedisplay'] = 'Open het pakket in het huidige venster';
 $string['incomplete'] = 'Onvolledig';
 $string['interactions'] = 'Interacties';
-$string['lastaccess'] = 'Laatste toegang';
+$string['last'] = 'Laatst bekeken op';
+$string['lastaccess'] = 'Laatst bekeken';
 $string['lastattempt'] = 'Laatste poging';
 $string['location'] = 'Toon locatiebalk';
 $string['max'] = 'Max score';
@@ -100,18 +105,22 @@ $string['review'] = 'Herzien';
 $string['reviewmode'] = 'Herzien modus';
 $string['scoes'] = 'Scoes';
 $string['score'] = 'Score';
-$string['scorm:view'] = 'Bekijk inhoud';
-$string['scorm:viewgrades'] = 'Bekijk cijfers';
+$string['scorm:savetrack'] = 'Bewaar spoor';
+$string['scorm:viewreport'] = 'Bekijk rapporten';
+$string['scorm:viewscores'] = 'Bekijk resultaten';
 $string['scormcourse'] = 'SCORM/AICC-cursus';
 $string['scrollbars'] = 'Laat rollen door het venster toe';
 $string['sided'] = 'Aan de linkerkant';
+$string['skipview'] = 'Leerlingen slaan inhoudspagina over';
 $string['stagesize'] = 'Frame- / venstergrootte';
+$string['started'] = 'Gestart op';
 $string['status'] = 'Status';
 $string['statusbar'] = 'Toon statusbalk';
 $string['student_response'] = 'Antwoord';
 $string['syntax'] = 'Syntaxisfout';
 $string['tag_error'] = 'Onbekende tag ($a->tag) met deze inhoud: $a->value';
 $string['time'] = 'Tijd';
+$string['title'] = 'Titel';
 $string['too_many_attributes'] = 'Tag $a->tag heeft te veel attributen';
 $string['too_many_children'] = 'Tag $a->tag heeft teveel children';
 $string['toolbar'] = 'Toon knoppenbalk';

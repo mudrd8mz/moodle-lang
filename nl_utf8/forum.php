@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006082100)
+      // forum.php - created with Moodle 1.7 dev (2006100401)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -81,7 +81,6 @@ $string['forum:splitdiscussions'] = 'Discussies splitsen';
 $string['forum:startdiscussion'] = 'Nieuwe discussies starten';
 $string['forum:viewanyrating'] = 'Alle beoordelingen bekijken';
 $string['forum:viewdiscussion'] = 'Discussies bekijken';
-$string['forum:viewforum'] = 'Forum bekijken';
 $string['forum:viewhiddentimedposts'] = 'Verborgen berichten bekijken';
 $string['forum:viewqandawithoutposting'] = 'Altijd Vraag en Antwoord berichten bekijken';
 $string['forum:viewrating'] = 'Beoordelingen bekijken';
@@ -94,6 +93,8 @@ $string['forumname'] = 'Naam van het forum';
 $string['forumposts'] = 'Forumberichten';
 $string['forums'] = 'Forums';
 $string['forumsubjecthidden'] = 'Onderwerp (verborgen)';
+$string['forumtracked'] = 'Opvolgen ongelezen post ingeschakeld';
+$string['forumtrackednot'] = 'Opvolgen ongelezen post uitgeschakeld';
 $string['forumtype'] = 'Soort forum';
 $string['generalforum'] = 'Standaardforum voor algemeen gebruik';
 $string['generalforums'] = 'Algemene forums';
@@ -140,6 +141,7 @@ $string['nosubscribers'] = 'Er is nog niemand lid van dit forum';
 $string['nothingnew'] = 'Niets nieuw voor $a';
 $string['notingroup'] = 'Sorry, je moet bij een groep horen om dit forum te kunnen zien.';
 $string['notrackforum'] = 'Schakel opvolgen van ongelezen berichten uit';
+$string['noviewdiscussionspermission'] = 'Je mag de discussies in dit forum niet zien';
 $string['nowallsubscribed'] = 'Je krijgt mail van alle forums in $a';
 $string['nowallunsubscribed'] = 'Je krijgt van geen enkel forum in $a mail';
 $string['nownotsubscribed'] = '$a->name zal via e-mail GEEN bijdragen aan \'$a->forum\' ontvangen.';

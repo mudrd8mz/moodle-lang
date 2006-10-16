@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // enrol_imsenterprise.php - created with Moodle 1.7 dev (2006100401)
 
 
 $string['aftersaving...'] = 'Als je instellingen bewaard zijn, wil je misschien';
@@ -18,6 +18,7 @@ $string['filelockedmail'] = 'Het tekstbestand dat je gebruikt voor je IMS-bestan
 $string['filelockedmailsubject'] = 'Belangrijke fout: Aanmeldingsbestand';
 $string['fixcasepersonalnames'] = 'Begin namen met Hoofdletters';
 $string['fixcaseusernames'] = 'Wijzig gebruikersnamen naar kleine letters';
+$string['imsrolesdescription'] = 'De IMS Enterprise specificatie bevat 8 verschillende rollen. Geef aan hoe je ze in Moodle wil toewijzen en eventueel welke genegeerd mogen worden.';
 $string['location'] = 'Bestandslocatie';
 $string['logtolocation'] = 'Locatie logbestand (niets invullen voor geen logbestand)';
 $string['mailadmins'] = 'Verwittig beheerder via e-mail';

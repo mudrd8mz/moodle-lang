@@ -1,14 +1,17 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 dev (2006082100)
+      // resource.php - created with Moodle 1.7 dev (2006100401)
 
 
 $string['addresource'] = 'Bron toevoegen';
+$string['affectedresources'] = 'Bronnen waarop van toepassing';
 $string['back'] = 'Terug';
 $string['browserepository'] = 'Zoek in IMS-bibliotheek';
 $string['choose'] = 'Kies';
 $string['chooseafile'] = 'Kies of upload een bestand';
 $string['chooseparameter'] = 'Kies parameter';
 $string['configallowlocalfiles'] = 'Laat toe om bij het maken van een nieuwe bron links te maken naar een lokaal bestandssysteem zoals een CD-ROM station of een harde schijf. Dit kan nuttig zijn in klassituaties waar alle leerlingen toegang hebben tot gedeelde netwerkschijven of wanneer bestanden op een CD gebruikt moeten worden. Om deze functie te kunnen gebruiken kan het nodig zijn de beveiligingsinstellingen van de browser te wijzigen.';
+$string['configautofilerenamesettings'] = 'Automatisch verwijzingen naar bestanden en mappen aanpassen wanneer hernoemd via bestandsbeheer.';
+$string['configblockdeletingfilesettings'] = 'Bestanden en mappen die door bronnen in gebruik zijn beschermen tegen verwijderen. Merk op dat afbeeldingen en andere bestanden, gelinkt vanuit html-pagina\'s niet beschermd zijn.';
 $string['configdefaulturl'] = 'Deze waarde wordt gebruikt om een deel van de URL in te vullen wanneer er een nieuwe URL-gebaseerde bron gemaakt wordt.';
 $string['configfilterexternalpages'] = 'Door deze instelling in te schakelen zullen alle externe bronnen (webpagina\'s, geüploade HTML-pagina\'s) verwerkt worden door de sitefilters (zoals de autolinks van de woordenlijst bijvoorbeeld). Door deze optie in te schakelen kan je site behoorlijk vertragen - gebruik dit voorzichtig en alleen als je het echt nodig hebt';
 $string['configframesize'] = 'Als een webpagina of een geüpload bestand binnen een frame wordt weergegeven, dan is deze waarde de hoogte (in pixels) van het bovenste frame (dat de navigatie bevat).';
@@ -116,5 +119,7 @@ $string['upbutton'] = 'Omhoog';
 $string['variablename'] = 'Variable naam';
 $string['viewims'] = 'Toon IMS-pakket';
 $string['vol'] = 'Vol';
+$string['warningblockingdelete'] = 'Waarschuwing: Beschermd tegen verwijderen - in gebruik door een bron. Wijzig eerst je bronnen of vraag de beheerder dit beveiligingsmechnisme uit te schakelen in het configuratiescherm voor bronnen.';
+$string['warningdisabledrename'] = 'Waarschuwing: Het automatisch hernoemen van verwijzingen in bronnen is uitgeschakeld. Wijzig de verwijzingen manueel indien nodig. Je kunt de beheerder vragen om het automatisch hernoemen van verwijzingen in te schakelen in het configuratiescherm voor bronnen.';
 
 ?>

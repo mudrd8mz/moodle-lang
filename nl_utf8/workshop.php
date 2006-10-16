@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005041900)
+      // workshop.php - created with Moodle 1.7 dev (2006100401)
 
 
 $string['absent'] = 'Afwezig';
@@ -157,7 +157,7 @@ $string['noassessments'] = 'Geen beoordelingen';
 $string['noassessmentsdone'] = 'Geen evaluaties gemaakt';
 $string['noattachments'] = 'Geen bijlagen';
 $string['nosubmission'] = 'Geen inzending';
-$string['nosubmissionsavailableforassessment'] = 'Er zijn geen inzendingen beschikbaar ';
+$string['nosubmissionsavailableforassessment'] = 'Er zijn geen inzendingen beschikbaar';
 $string['notallowed'] = 'Je bent op dit ogenblik niet toegelaten op deze pagina';
 $string['notavailable'] = 'Niet beschikbaar';
 $string['notenoughexamplessubmitted'] = 'Niet genoeg voorbeelden ingestuurd.';
@@ -306,6 +306,8 @@ $string['weightforteacherassessments'] = 'Beoordelingsgewicht voor de beoordelin
 $string['weights'] = 'Beoordelingsgewichten';
 $string['weightsusedforfinalgrade'] = 'Beoordelingsgewichten gebruikt voor de eindbeoordeling';
 $string['weightsusedforsubmissions'] = 'Beoordelingsgewichten gebruik voor inzendingen';
+$string['workshop:manage'] = 'Instellingen beheren';
+$string['workshop:participate'] = 'Deelnemen aan een workshop';
 $string['workshopagreedassessments'] = 'Workshop Bevestigde Beoordelingen';
 $string['workshopassessments'] = 'Workshop Beoordelingen';
 $string['workshopcomments'] = 'Workshop Opmerkingen';

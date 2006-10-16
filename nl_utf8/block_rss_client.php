@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.7 dev (2006091212)
+      // block_rss_client.php - created with Moodle 1.7 dev (2006100401)
 
 
 $string['addfeed'] = 'Voeg een URL voor een RSS-feed toe';
 $string['addheadlineblock'] = 'Voeg RSS-hoofdpuntenblok toe';
 $string['addnew'] = 'Voeg nieuw blok toe';
+$string['blockname'] = 'RSS-client';
 $string['choosefeedlabel'] = 'Kies de RSS-feeds die je met dit blok wil publiceren';
 $string['clientchannellink'] = 'Bron site...';
 $string['clientnumentries'] = 'Aantal te tonen RSS-links per blok.';
@@ -31,6 +32,10 @@ $string['managefeeds'] = 'Beheer al mijn nieuws-feeds';
 $string['nofeeds'] = 'Er zijn geen RSS-feeds gedefinieerd voor deze site';
 $string['pickfeed'] = 'Kies een RSS nieuws-feed';
 $string['remotenewsfeed'] = 'In het nieuws';
+$string['rss_client:createprivatefeeds'] = 'Maak private RSS-feeds';
+$string['rss_client:createsharedfeeds'] = 'Maak gedeelde RSS-feeds';
+$string['rss_client:manageanyfeeds'] = 'Beheer alle RSS-feeds';
+$string['rss_client:manageownfeeds'] = 'Beheer eigen RSS-feeds';
 $string['seeallfeeds'] = 'Bekijk alle RSS-feeds';
 $string['sharedfeed'] = 'Gedeelde RSS-feed';
 $string['shownumentrieslabel'] = 'Maximum aantal items per blok.';

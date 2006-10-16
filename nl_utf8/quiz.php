@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006083003)
+      // quiz.php - created with Moodle 1.7 dev (2006100401)
 
 
 $string['1day'] = '1 dag';
@@ -89,7 +89,6 @@ $string['closebeforeopen'] = 'Kon de test niet aanpassen. De datum die je ingege
 $string['closepreview'] = 'Sluit voorbeeld';
 $string['closereview'] = 'Sluit nalezen';
 $string['comment'] = 'Commentaar';
-$string['commentary'] = 'Commentaar';
 $string['commentorgrade'] = 'Geef commentaar of verander cijfer';
 $string['comments'] = 'Commentaren';
 $string['completedon'] = 'Afgewerkt op';
@@ -216,6 +215,7 @@ $string['functiontakesnoargs'] = 'De functie $a neemt geen argumenten aan';
 $string['functiontakesonearg'] = 'De functie $a moet juist één argument hebben';
 $string['functiontakesoneortwoargs'] = 'De functie $a moet één of twee argumenten hebben';
 $string['functiontakestwoargs'] = 'De functie $a moet juist twee argumenten hebben';
+$string['generalfeedback'] = 'Algemene feedback';
 $string['generatevalue'] = 'Genereer een nieuwe waarde tussen';
 $string['geometric'] = 'Geometrisch';
 $string['gift'] = 'GIFT-opmaak';
@@ -383,6 +383,13 @@ $string['questionsperpage'] = 'Maximum aantal vragen per pagina';
 $string['questiontext'] = 'Vraag tekst';
 $string['questiontype'] = 'Vraagtype $a';
 $string['questiontypesetupoptions'] = 'Instellingen voor vraagtypes';
+$string['quiz:attempt'] = 'Pogingen voor test';
+$string['quiz:deleteattempts'] = 'Verwijder pogingen voor test';
+$string['quiz:grade'] = 'Testen bekijken';
+$string['quiz:manage'] = 'Testen beheren';
+$string['quiz:preview'] = 'Testen bekijken';
+$string['quiz:view'] = 'Testinformatie bekijken';
+$string['quiz:viewreports'] = 'Testresultaten bekijken';
 $string['quizavailable'] = 'De test is beschikbaar tot: $a';
 $string['quizclose'] = 'Sluit de test';
 $string['quizclosed'] = 'Deze test  wordt op $a gesloten';

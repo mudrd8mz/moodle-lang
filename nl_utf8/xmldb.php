@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 dev (2006091212)
+      // xmldb.php - created with Moodle 1.7 dev (2006100401)
 
 
 $string['aftertable'] = 'Tabel resultaat:';
@@ -55,6 +55,9 @@ $string['load'] = 'Laden';
 $string['main_view'] = 'Hoofdscherm';
 $string['missingfieldsinsentence'] = 'Ontbrekende bestanden in zin';
 $string['missingvaluesinsentence'] = 'Ontbrekende waarden in zin';
+$string['mustselectonefield'] = 'Je moet één veld selecteren om de gerelateerde acties te kunnen zien!';
+$string['mustselectoneindex'] = 'Je moet één index selecteren om de gerelateerde acties te kunnen zien!';
+$string['mustselectonekey'] = 'Je moet één sleutel selecteren om de gerelateerde acties te kunnen zien!';
 $string['new_statement'] = 'Nieuwe stelling';
 $string['new_table_from_mysql'] = 'Nieuwe tabel van MySQL';
 $string['newfield'] = 'Nieuw veld';
@@ -74,6 +77,7 @@ $string['save'] = 'Bewaar';
 $string['selectaction'] = 'Kies actie';
 $string['selectdb'] = 'Kies databank';
 $string['selectfieldkeyindex'] = 'Selecteer veld/sleutel/index:';
+$string['selectonecommand'] = 'Kies één actie uit de lijst om de PHP-code zien';
 $string['selectonefieldkeyindex'] = 'Selecteer één veld/sleutel/index uit de lijst op de PHP-code te zien';
 $string['selecttable'] = 'Selecteer tabel:';
 $string['sentences'] = 'Zinnen';

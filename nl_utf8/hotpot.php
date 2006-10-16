@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.7 dev (2006082100)
+      // hotpot.php - created with Moodle 1.7 dev (2006100401)
 
 
 $string['abandoned'] = 'verlaten';
@@ -45,7 +45,13 @@ $string['filetype'] = 'Bestandstype';
 $string['forceplugins'] = 'Verplicht mediaplugins';
 $string['giveup'] = 'Geef op';
 $string['hints'] = 'hints';
+$string['hotpot:attempt'] = 'Test afleggen';
+$string['hotpot:deleteattempt'] = 'Afgelegde testen verwijderen';
+$string['hotpot:grade'] = 'Cijfers wijzigen';
 $string['hotpot:view'] = 'Testen gebruiken';
+$string['hotpot:viewreport'] = 'Rapporten zien';
+$string['hotpotcloses'] = 'Hot Potatoes-test sluit';
+$string['hotpotopens'] = 'Hot Potatoes-test opent';
 $string['ignored'] = 'genegeerd';
 $string['inprogress'] = 'lopend';
 $string['location'] = 'Bestandslocatie';
@@ -55,8 +61,8 @@ $string['navigation'] = 'navigatie';
 $string['navigation_bar'] = 'Moodle-navigatiebalk';
 $string['navigation_buttons'] = 'Knoppen van Hot Potatoes-test';
 $string['navigation_frame'] = 'Moodle-navigatieframe';
-$string['navigation_give_up'] = 'Een enkele &quot;Geef op&quot; knop';
-$string['navigation_iframe'] = 'Ingebed &lt;IFRAME&gt;';
+$string['navigation_give_up'] = 'Een enkele \"Geef op\" knop';
+$string['navigation_iframe'] = 'Ingebed <IFRAME>';
 $string['navigation_none'] = 'Geen';
 $string['neverclosed'] = 'Nooit gesloten';
 $string['noactivity'] = 'Geen activiteit';

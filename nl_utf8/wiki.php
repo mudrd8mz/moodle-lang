@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.7 dev (2006071800)
+      // wiki.php - created with Moodle 1.7 dev (2006100401)
 
 
 $string['action'] = '- - Acties - -';
@@ -94,6 +94,7 @@ $string['linkok'] = 'OK';
 $string['linkschecked'] = 'Links gecontroleerd';
 $string['listall'] = 'Toon alles';
 $string['listcandidates'] = 'Toon kandidaten';
+$string['lockcancelled'] = 'Je bewerkenslot is door iemand anders, die nu de pagina aan het bewerken is, genegeerd. Als je je wijzigingen wil behouden, selecteer en kopiëer ze dan voor je op Annuleren klikt. Probeer dan opnieuw de pagina te bewerken.';
 $string['meta'] = 'Metadata';
 $string['moduledirectory'] = 'Modulemap';
 $string['modulename'] = 'Wiki';
@@ -105,6 +106,7 @@ $string['noadministrationaction'] = 'Geen beheersactie gegeven';
 $string['nocandidatestoremove'] = 'Geen kandidaatpagina\'s om te verwijderen. Kies \'$a\'om alle pagina\'s te tonen';
 $string['nochangestorevert'] = 'Er zijn geen wijzigingen om terug te draaien';
 $string['nohtml'] = 'Geen HTML';
+$string['nojslockwarning'] = 'Omdat Javascript is uitgeschakeld in je browser, is het mogelijk dat iemand anders gelijktijdig deze pagina bewerkt. Als dat gebeurt, is het niet mogelijk je wijzigingen te bewaren. Probeer je wijzigingen snel te maken of schakel javascript in en herlaad deze pagina.';
 $string['nolinksfound'] = 'Geen links gevonden op de pagina';
 $string['noregexp'] = 'Dit moet een vaste waarde zijn (je kunt geen * of regex gebruiken), gebruik best het IP-adres of computernaam van de aanvaller, maar dan zonder het poortnummer (omdat dat kan wijzigen bij elke http-toegang).';
 $string['notadministratewiki'] = 'Je hebt onvoldoende rechten om deze wiki te beheren!';
@@ -116,10 +118,13 @@ $string['optional'] = 'Optioneel';
 $string['orphanedpage'] = 'Ongelinkte pagina';
 $string['orphanedpages'] = 'Ongelinkte pagina\'s';
 $string['otherwikis'] = 'Andere Wiki\'s';
+$string['overridebutton'] = 'Negeren geblokkeerd';
+$string['overrideinfo'] = 'Je kunt dit gebruikersslot negeren, maar door dit te doen zal die gebruiker zijn wijzigingen verliezen! Wees voorzichtig.';
 $string['ownerunknown'] = 'onbekend';
 $string['pageactions'] = 'Pagina-activiteiten';
 $string['pageindex'] = 'Indexpagina';
 $string['pageinfo'] = 'Pagina-informatie';
+$string['pagelocked'] = '<p><strong>Deze pagina wordt bewerkt door $a->name.</strong>Deze gebruiker begon de pagina te bewerken om $a->since en had het bewerkvenster nog steeds open om $a->seen.</p><p>Je moet wachten tot deze gebruiker het venster sluit, voor je deze pagina kunt bewerken.</p>';
 $string['pagename'] = 'Paginanaam';
 $string['pagenamechoice'] = '- of -';
 $string['pageslinkingto'] = 'Pagina\'s gelinkt aan deze pagina';
@@ -144,6 +149,7 @@ $string['revertpagescheck'] = 'Wil je echt de volgende wijzigingen terugdraaien:
 $string['revertthe'] = 'Duiken in vorige versies, maar verwijder alleen die versie waarover het gaat';
 $string['safehtml'] = 'Veilige HTML';
 $string['save'] = 'Bewaar';
+$string['savenolock'] = 'Je kunt deze pagina niet bewaren omdat je geen bewerkslot hebt. Dit kan gebeuren als Javascript is uitgeschakeld of wanneer een andere gebruiker je slot heeft genegeerd. <br /><br />. Je kunt terugkeren naar het vorige scherm met de Terug-knop van je browser. Selecteer en kopiëer de tekst of de wijzigingen die je gemaakt hebt en probeer dan opnieuw te bewerken.';
 $string['searchwiki'] = 'Zoeken in Wiki';
 $string['setpageflags'] = 'Zet paginavlaggen';
 $string['showversions'] = 'Toon versies:';
@@ -177,6 +183,9 @@ $string['versionstodelete'] = 'Te verwijderen versie(s)';
 $string['viewpage'] = 'Bekijk pagina';
 $string['viewsmfor'] = 'Bekijk de kaart van de site voor';
 $string['wantedpages'] = 'Te maken pagina\'s';
+$string['wiki:manage'] = 'Beheer wiki instellingen';
+$string['wiki:overridelock'] = 'Negeer geblokkeerde pagina\'s';
+$string['wiki:participate'] = 'Bewerk wiki pagina\'s';
 $string['wikidefaultpagename'] = 'StartPagina';
 $string['wikiexport'] = 'Exporteer pagina\'s';
 $string['wikiexportcomment'] = 'Hier kun je het exporteren configureren';

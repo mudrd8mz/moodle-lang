@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006082100)
+      // error.php - created with Moodle 1.7 dev (2006100401)
 
 
 $string['adminprimarynoedit'] = 'Het profiel van de beheerder met het kleinste gebruikersnummer kan door de andere beheerders niet gewijzigd worden';
@@ -11,9 +11,12 @@ $string['cannotfindcomponent'] = 'Kan component niet vinden.';
 $string['cannotsavemd5file'] = 'Kan md5-bestand niet bewaren.';
 $string['cannotsavezipfile'] = 'Kan ZIP-bestand niet bewaren.';
 $string['cannotunzipfile'] = 'Kan bestand niet unzippen';
+$string['cantunenrollfrommetacourse'] = 'Je kunt je uit deze koepelcursus niet afmelden';
+$string['cantunenrollinthisrole'] = 'Je kunt je door de beperkingen van je huidige rol niet afmelden uit deze cursus';
 $string['cmunknown'] = 'Kan deze cursusmodule niet vinden';
 $string['componentisuptodate'] = 'Component niet up-to-date';
 $string['confirmsesskeybad'] = 'Je sessiesleutel om deze actie uit te voeren kon niet bevestigd worden. Deze beveiligingsfunctie verhindert dat er per ongeluk of met verkeerde bedoelingen belangrijke functies in jouw naam uitgevoerd kunnen worden. Bedenk goed of je deze opdracht wel echt wou uitvoeren.';
+$string['couldnotassignrole'] = 'Er gebeurde een ernstige maar niet gespecifieerde fout tijdens het proberen toewijzen van een rol aan jou.';
 $string['coursegroupunknown'] = 'De cursus die met groep $a overeenkomt is niet gespecifieerd';
 $string['downloadedfilecheckfailed'] = 'Controle van het gedownloade bestand mislukt';
 $string['errorcleaningdirectory'] = 'Fout bij het opkuisen van map \"$a\"';
@@ -34,12 +37,14 @@ $string['invalidcourse'] = 'Ongeldige cursus';
 $string['invalidfieldname'] = '\"$a\" is geen geldige veldnaam';
 $string['invalidfiletype'] = '\"$a\" is geen geldig bestandstype';
 $string['invalidmd5'] = 'Ongeldig md5';
+$string['invalidrole'] = 'Ongeldige rol';
 $string['invalidxmlfile'] = '\"$a\" is geen geldig XML-bestand';
 $string['missingfield'] = 'Veld \"$a\" ontbreekt';
 $string['missingrequiredfield'] = 'Vereist veld ontbreekt';
 $string['modulemissingcode'] = 'De code die nodig is om deze functie uit te voeren ontbreekt in module $a.';
 $string['modulerequirementsnotmet'] = 'De module \"$a->modulename\" ($a->moduleversion) kon niet geïnstalleerd worden. Een nieuwere versie van Moodle is vereist (je gebruikt nu $a->currentmoodle en je hebt $a->requiremoodle nodig).';
 $string['mustbeteacher'] = 'Je moet leraar zijn om deze pagina te mogen bekijken.';
+$string['nocontext'] = 'Sorry, maar deze cursus is geen geldige omgeving';
 $string['noinstances'] = 'Er is niets te vinden van $a in deze cursus!';
 $string['nonmeaningfulcontent'] = 'Geen zinnige inhoud';
 $string['noparticipatorycms'] = 'Sorry, maar je hebt geen vereiste cursusmodules om over te rapporteren';
