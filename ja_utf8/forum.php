@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 beta (2006101000)
+      // forum.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -127,6 +127,7 @@ $string['movedmarker'] = '( 移動済み )';
 $string['movethisdiscussionto'] = 'このディスカッションを移動 ...';
 $string['namenews'] = 'ニュースフォーラム';
 $string['namesocial'] = '一般フォーラム';
+$string['nameteacher'] = '教師用フォーラム';
 $string['newforumposts'] = '新しい投稿';
 $string['nodiscussions'] = 'まだこのフォーラムには、ディスカッショントピックがありません。';
 $string['noguestpost'] = '申し訳ございません、ゲストは投稿できません。';
