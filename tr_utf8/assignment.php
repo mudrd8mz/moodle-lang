@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 dev (2006092801)
+      // assignment.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['allowdeleting'] = 'Silme izni';
@@ -53,9 +53,10 @@ $string['helpoffline'] = '<p>Bu ödev türü, site dışı bir ödev verdiğiniz
 $string['helponline'] = '<p>Bu ödev türünde normal yazı editörü kullanılarak kullanıcılardan ödev isteyebilirsiniz.</p>
 <p>Eğitimciler ödevleri düzenleyerek ve ödevlere satıriçi yorum ekleyerek ödevi çevrimiçi notlandırabilirler.</p>
 <p>(Bu uzaktan eğitim programının eski sürümünü kullanıyorsanız, bu ödev türünün eski Yazı ödevi ile aynı olduğunu göreceksiniz.)</p>';
-$string['helpupload'] = '<p>Bu ödev türü, her bir katılımcının bir veya birden fazla dosya göndermesine olanak sağlar.</p>
-<p>Word belgesi, resim, ziplenmiş web sayfası veya öğrencilerden ne tür bir dosya göndermelerini istediyseniz.</p>
-<p>Bu tür aynı zamanda herhangi bir dosya tipinde birden fazla yanıt yüklemenize olanak sağlar.</p>';
+$string['helpupload'] = '<p>Bu ödev türü, her bir katılımcının bir veya birden fazla dosya göndermesine olanak sağlar. Word belgesi, resim, ziplenmiş web sayfası veya öğrencilerden ne tür bir dosya göndermelerini istediyseniz.</p>
+<p>Bu tür aynı zamanda herhangi bir dosya tipinde birden fazla yanıt yüklemenize olanak sağlar. Her bir katılımcının farklı dosya türünde çalışabilmesi için kullanılan yanıt dosyaları ödevden önce de yüklenebilir.</p>
+<p>Katılımcılar gönderilen dosyalarla ilgili ilerleme durumunu veya metin bilgilerini açıklamak için notlar girebilir.</p>
+<p>Bu ödev türü katılımcı tarafından elle bitirilmeli. İstediğiniz zaman bu ödevin şu anki durumunu görebilirsiniz, bitirilmeyen ödevler \'Taslak\' olarak gösterilir. Notlandırılmamış herhangi bir ödevi taslak durumuna çevirebilirsiniz.</p>';
 $string['helpuploadsingle'] = '<p>Bu ödev türü, tüm katılımcıların herhangi bir tipte bir dosya göndermelerine olanak sağlar.</p>
 <p>Word belgesi, resim dosyası, zip veya öğrencilerden ne tür bir dosya göndermelerini istediyseniz.</p>';
 $string['hideintro'] = 'Açıklamayı sadece erişilebildiğinde göster';
@@ -81,6 +82,7 @@ $string['pagesize'] = 'Her sayfada görünen gönderi';
 $string['preventlate'] = 'Geç kalan gönderileri engelle';
 $string['quickgrade'] = 'Hızlı notlandırma izni';
 $string['responsefiles'] = 'Yanıt dosyaları';
+$string['reviewed'] = 'Gözden geçirildi';
 $string['saveallfeedback'] = 'Tüm geribildirimlerimi kaydet';
 $string['sendformarking'] = 'İşaretleme için gönder';
 $string['submission'] = 'Gönderi';

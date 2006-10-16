@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.7 dev (2006092801)
+      // hotpot.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['abandoned'] = 'Vazgeçildi';
 $string['addquizchain'] = 'Zincirleme sınav ekle';
-$string['allmycourses'] = 'tüm kurslarım';
+$string['allusers'] = 'Tüm kullanıcılar';
 $string['alwaysopen'] = 'Her zaman açık';
 $string['attemptsall'] = 'Bütün uygulamalar';
 $string['attemptsbest'] = 'En iyi uygulama';
@@ -139,7 +139,6 @@ $string['textsourcefilename'] = 'Dosya adı kullan';
 $string['textsourcefilepath'] = 'Dosya yolu kullan';
 $string['textsourcequiz'] = 'Sınavdan getir';
 $string['textsourcespecific'] = 'Belirli metin';
-$string['thiscourse'] = 'Bu kurs';
 $string['timedout'] = 'Süresi doldu';
 $string['updatequizchain'] = 'Zincirleme sınav güncelle';
 $string['weighting'] = 'Ağırlık';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006092410)
+      // forum.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['addanewdiscussion'] = 'Yeni tartışma konusu ekle';
@@ -123,7 +123,6 @@ $string['movedmarker'] = '(Taşındı)';
 $string['movethisdiscussionto'] = 'Bu tartışmayı taşı...';
 $string['namenews'] = 'Haber forumu';
 $string['namesocial'] = 'Sosyal forum';
-$string['nameteacher'] = 'Eğitmen forumu';
 $string['newforumposts'] = 'Yeni forum mesajı';
 $string['nodiscussions'] = 'Bu forumda henüz bir tartışma konusu yoktur';
 $string['noguestpost'] = 'Ziyaretçiler mesaj gönderemezler';
@@ -194,6 +193,7 @@ $string['repliesone'] = 'Şimdiye kadar $a yanıt';
 $string['reply'] = 'Yanıtla';
 $string['replyforum'] = 'Forumu yanıtla';
 $string['resetforums'] = 'Bu forum tipindeki bütün mesajları sil';
+$string['resetsubscriptions'] = 'Forum aboneliklerini sil';
 $string['rsssubscriberssdiscussions'] = '\'$a\' tartışmalarını RSS olarak göster';
 $string['rsssubscriberssposts'] = '\'$a\' mesajlarını RSS olarak göster';
 $string['search'] = 'Ara';

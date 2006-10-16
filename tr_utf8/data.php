@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006092801)
+      // data.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['action'] = 'Eylem';
@@ -39,9 +39,10 @@ $string['data:comment'] = 'Yorum yaz';
 $string['data:managecomments'] = 'Yorumları yönet';
 $string['data:manageentries'] = 'Kayıtları yönet';
 $string['data:managetemplates'] = 'Şablonları yönet';
+$string['data:manageuserpresets'] = 'Tüm şablon ayarları yönet';
 $string['data:rate'] = 'Kayıtları derecelendir';
 $string['data:readentry'] = 'Kayıtları oku';
-$string['data:viewalluserpresets'] = 'Tüm kullanıcıların öntanımlı ayarlarına bak';
+$string['data:viewalluserpresets'] = 'Tüm kullanıcıların ayarlarına bak';
 $string['data:viewentry'] = 'Kayıtlara bak';
 $string['data:viewrating'] = 'Derecelendirmelere bak';
 $string['data:writeentry'] = 'Kayıtları yaz';

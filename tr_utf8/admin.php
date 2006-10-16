@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006100601)
+      // admin.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['accounts'] = 'Hesaplar';
@@ -58,7 +58,7 @@ $string['configclamdonothing'] = 'Dosya SAĞLAM olarak muamele görsün';
 $string['configclamfailureonupload'] = 'Clam\'ı yüklenen dosyaları taraması için yapılandırdıysanız, fakat yol yanlış belirtilir veya programın çalışması sırasında bilinmeyen bir sebepten dolayı hata oluşursa nasıl davranılacak? \'Dosya VİRÜSLÜ olarak muamele görsün\'ü seçerseniz dosya karantina klasörüne taşınır ya da silinir. \'Dosya SAĞLAM olarak muamele görsün\'ü seçerseniz dosya normal şekilde yüklenir. Aynı zamanda yöneticilere clam programında hata oluştuğu bildirilir. \'Dosya VİRÜSLÜ olarak muamele görsün\'ü seçer ve bazı sebeplerden dolayı clamın çalışması hata ile sonuçlanırsa (genellikle pathtoclam yolu yanlış girilirse olur), TÜM dosyalar belirtilen karantina klasörüne taşınır ya da silinir. Bu ayarı değiştirirken DİKKATLİ olun.';
 $string['configcountry'] = 'Buradan bir ülke seçerseniz, yeni kullanıcılar için bu ülke varsayılan olarak seçili olacaktır. Ülke seçmeyi zorunlu tutmak istiyorsanız, bu seçeneği ayarlamayın.';
 $string['configcoursesperpage'] = 'Kurs listesinde her bir sayfada görünecek kurs sayısını girin';
-$string['configdbsessions'] = 'Etkinse, kullanıcı oturumlarını saklamak için veritabanı kullanılacaktır. Bu, özellikle çok büyük/yoğun siteler veya küme sunuculardan (cluster) oluşan siteler için kullanışlıdır. Çoğu site bu ayarı muhtemelen kapalı tutuyor, bu durumda veritabanı yerine sunucu diski kullanılır. Bu ayarı şimdi değiştirmeniz şu anda oturumu açık olan tüm kullanıcıların (siz de dahil) çıkış yapmasına neden olacaktır.';
+$string['configdbsessions'] = 'Etkinse, kullanıcı oturumlarını saklamak için veritabanı kullanılacaktır. Bu, özellikle çok büyük/yoğun siteler veya küme sunuculardan (cluster) oluşan siteler için kullanışlıdır. Çoğu site bu ayarı muhtemelen kapalı tutuyor, bu durumda veritabanı yerine sunucu diski kullanılır. Bu ayarı şimdi değiştirmeniz şu anda oturumu açık olan tüm kullanıcıların (siz de dahil) çıkış yapmasına neden olacaktır. MySQL kullanıyorsanız lütfen, my.cnf (veya my.ini) dosyasındaki \'max_allowed_packet\' ayarın en az 4M olduğundan emin olun.';
 $string['configdebug'] = 'Bu seçeneği açık tutarsanız PHP\'deki error_reporting metodu daha fazla uyarı mesajı gösterecektir. Bu, sadece geliştiriciler için kullanışlıdır.';
 $string['configdefaultallowedmodules'] = 'Yukarıdaki kategoriye alınacak kurslar için, <b>Kurs oluşturulduğunda</b> hangi modüllere izin verilmesini istiyorsunuz?';
 $string['configdefaultcourseroleid'] = 'Kullanıcılar bir kursa kaydolduğunda otomatik olarak bu rol kullanılacaktır.';
@@ -223,6 +223,8 @@ $string['environmentrequireinstall'] = 'yüklenmesi/etkinleştirilmesi gerekli';
 $string['environmentrequireversion'] = 'sürüm $a->needed gerekli ve şu anda $a->current çalışıyor';
 $string['environmentxmlerror'] = 'Ortam verisini okurken hata ($a->error_code)';
 $string['errors'] = 'Hatalar';
+$string['errorsetting'] = 'Ayar kaydedilemedi:';
+$string['errorwithsettings'] = 'Bazı ayarlar bir hata yüzünden değişmedi:';
 $string['extendedusernamechars'] = 'Kullanıcı adlarında extra karakterlere izin ver';
 $string['filterall'] = 'Tüm ifadeleri filtrele';
 $string['filtermatchoneperpage'] = 'Eşleşeni her sayfada bir kez filtrele';
@@ -340,6 +342,7 @@ $string['pathtopsqlinvalid'] = 'Geçersiz psql yolu. Ya yol yanlış ya da dosya
 $string['pathtounzip'] = 'Unzip yolu';
 $string['pathtozip'] = 'Zip yolu';
 $string['perfdebug'] = 'Performans bilgisi';
+$string['pgcluster'] = 'PostgreSQL Cluster';
 $string['pgclusterdescription'] = 'Komut satırı işlemleri için PostgreSQL sürüm/küme parametresi. Sisteminizde birden fazla postgresql varsa veya ne yaptığınızı bilmiyorsanız bunu boş bırakın.';
 $string['php50restricted'] = 'PHP 5.0.x sürümünde çok fazla hata var. Lütfen sürümü, 5.1.x\'e yükseltin ya da 4.3.x veya 4.4.x sürümüne düşürün.';
 $string['pleaseregister'] = 'Bunu silmek için sitenizi kaydettirin';
@@ -433,5 +436,6 @@ $string['users'] = 'Kullanıcılar';
 $string['userscreated'] = 'Kullanıcı oluşturuldu';
 $string['usersrenamed'] = 'Kullanıcılar yeniden adlandırıldı';
 $string['usersupdated'] = 'Kullanıcılar güncellendi';
+$string['validateerror'] = 'Bu değer geçerli değildi:';
 
 ?>

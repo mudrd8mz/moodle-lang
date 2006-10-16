@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 Beta 5 (2006050503)
+      // install.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['admindirerror'] = 'Belirtilen yönetici dizini hatalı';
@@ -56,6 +56,36 @@ $string['databasesettingssub'] = '<b>Tipi:</b> mysql veya postgres7<br />
 <b>Kullanıcı:</b> veritabanı kullanıcısı<br />
 <b>Şifre:</b> kullanıcı şifresi<br />
 <b>Tablo öneki:</b> tüm tablo isimleri için isteğe bağlı önek';
+$string['databasesettingssub_mssql'] = '<b>Tipi:</b> SQL*Server<br />
+<b>Sunucu:</b> ör: localhost veya db.iss.com<br />
+<b>Adı:</b> veritabanı adı, ör: moodle<br />
+<b>Kullanıcı:</b> veritabanı kullanıcısı<br />
+<b>Şifre:</b> kullanıcı şifresi<br />
+<b>Tablo öneki:</b> tüm tablo isimleri için ön ek (gerekli)';
+$string['databasesettingssub_mysql'] = '<b>Tipi:</b> MySQL<br />
+<b>Sunucu:</b> ör: localhost veya db.iss.com<br />
+<b>Adı:</b> veritabanı adı, ör: moodle<br />
+<b>Kullanıcı:</b> veritabanı kullanıcısı<br />
+<b>Şifre:</b> kullanıcı şifresi<br />
+<b>Tablo öneki:</b> tüm tablo isimleri için ön ek (isteğe bağlı)';
+$string['databasesettingssub_oci8po'] = '<b>Tipi:</b> Oracle<br />
+<b>Sunucu:</b> kullanılmaz, boş bırakılmalı<br />
+<b>Adı:</b> tnsnames.ora bağlantısına verilen ad<br />
+<b>Kullanıcı:</b> veritabanı kullanıcısı<br />
+<b>Şifre:</b> kullanıcı şifresi<br />
+<b>Tablo öneki:</b> tüm tablo isimleri için ön ek (gerekli, en fazla 2karakter)';
+$string['databasesettingssub_odbc_mssql'] = '<b>Tipi:</b> SQL*Server (ODBC üzerinden) <b><font color=\"red\">Deneysel! (gerçek kullanım için değil)</font></b><br />
+<b>Sunucu:</b> ODBC denetim öğesi DSN adı<br />
+<b>Adı:</b> veritabanı adı, ör: moodle<br />
+<b>Kullanıcı:</b> veritabanı kullanıcısı<br />
+<b>Şifre:</b> kullanıcı şifresi<br />
+<b>Tablo öneki:</b> tüm tablo isimleri için ön ek (gerekli)';
+$string['databasesettingssub_postgres7'] = '<b>Tipi:</b> PostgreSQL<br />
+<b>Sunucu:</b> ör: localhost veya db.iss.com<br />
+<b>Adı:</b> veritabanı adı, ör: moodle<br />
+<b>Kullanıcı:</b> veritabanı kullanıcısı<br />
+<b>Şifre:</b> kullanıcı şifresi<br />
+<b>Tablo öneki:</b> tüm tablo isimleri için ön ek (gerekli)';
 $string['dataroot'] = 'Veri Dizini';
 $string['datarooterror'] = 'Belirtilen \'Veri Dizini\' bulunamadı veya oluşturulamadı. Dizin yolunu düzenleyin veya bu dizini kendiniz oluşturun.';
 $string['dbconnectionerror'] = 'Belirtiğiniz veritabanına bağlantı kuramadık. Lütfen veritabanı ayarlarını kontrol edin.';
@@ -65,6 +95,9 @@ $string['dbpass'] = 'Şifre';
 $string['dbprefix'] = 'Tablo öneki';
 $string['dbtype'] = 'Tipi';
 $string['dbwrongencoding'] = 'Seçili veritabanı tavsiye edilmeyen dil kodlamasında ($a) çalışıyor. Bunun yerine bir Unicode (UTF-8) kodlamasını kullanmanız daha iyi. Yine de aşağıdaki \'Veritabanı Dil Kodlama Testini Atla\' kutucuğunu seçerek bu kısmı geçebilirsiniz, ancak ilerde sorunlar yaşabilirsiniz.';
+$string['dbwronghostserver'] = 'Yukarıda tanımlandığı gibi \"Sunucu\" kurallarına uymalısınız.';
+$string['dbwrongnlslang'] = 'Web sunucunuzdaki NLS_LANG ortam değişkeni AL32UTF8 karakter setini kullanmalı. OCI8\'i düzgün bir şekilde yapılandırmak için PHP belgelerine bakın.';
+$string['dbwrongprefix'] = 'Yukarıda tanımlandığı gibi \"Tablo öneki\" kurallarına uymalısınız.';
 $string['directorysettings'] = '<p>Lütfen, Bu Moodle kurulumu için yolları onaylayın.</p>
 
 <p><b>Web Adresi:</b>
@@ -169,13 +202,22 @@ için yapmasını isteyin.</li>
 (sayfanız altına baktığınızda bazı hatalar göreceksiniz)
 Böyle bir durumda .htaccess dosyasını silmeniz gerekiyor.</p></li>
 </ol>';
-$string['mysqlextensionisnotpresentinphp'] = 'PHP, büyük ihtimal MySQL uzantısıyla birlikte yapılandırılmamış. Bu yüzden MySQL ile bağlantı kurulamıyor. php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin.';
+$string['mssql'] = 'SQL*Server (mssql)';
+$string['mssqlextensionisnotpresentinphp'] = 'PHP, SQL*Server ile iletişim kurabilmek için düzgün bir şekilde yapılandırılmamış. Lütfen php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin.';
+$string['mysql'] = 'MySQL (mysql)';
+$string['mysqlextensionisnotpresentinphp'] = 'PHP, MySQL ile iletişim kurabilmek için mysql uzantısı düzgün bir şekilde yapılandırılmamış. Lütfen php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin.';
+$string['oci8po'] = 'Oracle (oci8po)';
+$string['ociextensionisnotpresentinphp'] = 'PHP, Oracle ile iletişim kurabilmek için oci8 uzantısı düzgün bir şekilde yapılandırılmamış. Lütfen php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin.';
+$string['odbc_mssql'] = 'SQL*Server ODBC üzerinden (odbc_mssql)';
+$string['odbcextensionisnotpresentinphp'] = 'PHP, SQL*Server ile iletişim kurabilmek için odbc uzantısı düzgün bir şekilde yapılandırılmamış. Lütfen php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin.';
 $string['pass'] = 'Geçti';
+$string['pgsqlextensionisnotpresentinphp'] = 'PHP, PostgreSQL ile iletişim kurabilmek için pgsql uzantısı düzgün bir şekilde yapılandırılmamış. Lütfen php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin.';
 $string['phpversion'] = 'PHP sürümü';
 $string['phpversionerror'] = 'PHP sürümü en az 4.3.0 veya 5.1.0 olmalı (5.0.x sürümünde çok fazla hata var)';
 $string['phpversionhelp'] = '<p>Moodle, PHP sürümünün en az 4.3.0 veya 5.1.0 olmasını gerektirir (5.0.x sürümünde çok fazla hata var).</p>
 <p>Şu anda çalışan sürüm: $a</p>
 <p>PHP\'yi güncellemeli veya PHP\'nin yeni sürümünü kullananan bir hostinge taşınmalısınız!</p>';
+$string['postgres7'] = 'PostgreSQL (postgres7)';
 $string['safemode'] = 'Safe Mode';
 $string['safemodeerror'] = 'Moodle, safe mode\'ın açık olması durumunda bazı sorunlar çıkartabilir';
 $string['safemodehelp'] = '<p>Moodle, safe mode\'un açık olması durumunda bazı sorunlar çıkartabilir. Moodle tarafından en azından bazı dosyaların oluşturulması gerekiyor, ama bu mod yeni dosyaların oluşturulmasına izin vermiyor.</p>
