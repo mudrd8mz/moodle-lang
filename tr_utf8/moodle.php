@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006092801)
+      // moodle.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['action'] = 'Eylem';
@@ -533,6 +533,8 @@ $string['findmorecourses'] = 'Daha fazla kurs bul...';
 $string['firstdayofweek'] = '1';
 $string['firstname'] = 'Ad';
 $string['firsttime'] = 'Buraya ilk defa mı geliyorsunuz?';
+$string['folderclosed'] = 'Kapalı klasör';
+$string['folderopened'] = 'Açık klasör';
 $string['followingoptional'] = 'Aşağıdakiler isteğe bağlıdır';
 $string['followingrequired'] = 'Aşağıdakiler zorunludur';
 $string['force'] = 'Zorunluluk';
@@ -1073,6 +1075,7 @@ $string['resetinfo'] = 'Bu sayfa etkinlikleri ve diğer ayarları alıkoyarak bi
 $string['resetstartdate'] = 'Temizleme başlangıç tarihi';
 $string['resettodefaults'] = 'Varsayılanlara ayarla';
 $string['resortcoursesbyname'] = 'Kursları ada göre tekrar sırala';
+$string['resource'] = 'Kaynak';
 $string['resources'] = 'Kaynaklar';
 $string['restore'] = 'Geri yükle';
 $string['restorecancelled'] = 'Geri yükleme iptal edildi';
@@ -1380,7 +1383,7 @@ $a->action';
 $string['virusfoundsubject'] = '$a: Virüs bulundu!';
 $string['virusfounduser'] = 'Yüklediğiniz dosya ($a->filename) virüs kontrolünden geçirildi ve virüslü olduğu algılandı. Dosya yükleme BAŞARISIZ.';
 $string['virusplaceholder'] = 'Yüklenen dosyada virüs olduğu algılandı. Dosya silindi veya taşındı ayrıca kullanıcı bilgilendirildi.';
-$string['visibletostudents'] = '$a\'e görünür';
+$string['visible'] = 'Görünür';
 $string['warningdeleteresource'] = 'Dikkat: $a kaynağı başka bir yerde kullanılıyor. Kaynağı güncellemek ister misiniz?';
 $string['webpage'] = 'Web sayfası';
 $string['week'] = 'Hafta';

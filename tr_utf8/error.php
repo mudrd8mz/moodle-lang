@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006092600)
+      // error.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
@@ -64,6 +64,7 @@ $string['sessionerroruser'] = 'Oturumunuz zaman aşımına uğradı. Lütfen tek
 $string['sessionerroruser2'] = 'Giriş oturumunuzu etkileyen bir sunucu hatası algılandı. Lütfen yeniden giriş yapınız ya da tarayıcınızı yeniden başlatınız.';
 $string['sessionipnomatch'] = 'Üzgünüz, IP numaranız ilk girdiğinizden farklıdır. Bu güvenlik özelliği, siteye giriş yaptığınızda crackerların kimlik bilgilerinizi çalmalarını engellemek içindir. Normal kullanıcıların bu mesajı görmemeleri gerekir - lütfen yardım için site yöneticisine başvurun.';
 $string['statscatchupmode'] = 'İstatistikler şu anda işleme modunda. Şu ana kadar $a->daysdone gün işlendi ve $a->dayspending gün de beklemede. Daha sonra tekrar kontrol edin!';
+$string['unicodeupgradeerror'] = 'Üzgünüz, veritabanınız Unicode değil. Moodle\'ın bu sürümü veritabanınızı Unicode\'a çeviremedi. Lütfen öncelikle Moodle 1.7.x sürümüne geçin ve Yönetim sayfasından Unicode dönüştürmeyi gerçekleştirin. Bu işlem bittikten sonra, Moodle $a sürümüne geçebilirsiniz.';
 $string['unknowncourse'] = '\"$a\" adlı kurs bilinmiyor';
 $string['unknownuseraction'] = 'Üzgünüm, bu kullanıcı eylemini anlamıyorum.';
 $string['usernotaddederror'] = '\"$a\" kullanıcısı eklenmedi - bilinmeyen hata';
