@@ -1399,6 +1399,7 @@ $string['virusfoundsubject'] = '$a: ウイルスが見つかりました!';
 $string['virusfounduser'] = 'あなたがアップロードしたファイル $a->filename は、ウイルスチェッカーによりスキャンされ、ウイルスに感染していることが発見されました!　あなたのファイルは正常にアップロードされませんでした。';
 $string['virusplaceholder'] = 'アップロードファイルにウイルスが見つかりました。感染したファイルは移動または削除され、ユーザに感染が通知されました。';
 $string['visible'] = '可視性';
+$string['visibletostudents'] = '$a に表示する';
 $string['warningdeleteresource'] = '警告: $a はりソースに参照されています。本当にリソースを更新してもよろしいですか?';
 $string['webpage'] = 'ウェブページ';
 $string['week'] = '週';
