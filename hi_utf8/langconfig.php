@@ -17,5 +17,5 @@ $string['strftimerecentfull'] = '%%a, %%d %%b %%Y, %%I:%%M %%p';
 $string['strftimetime'] = '%%I:%%M %%p';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
-$string['thislanguage'] = 'हिन्दी';
+$string['thislanguage'] = 'िहन्दी';
 ?>
