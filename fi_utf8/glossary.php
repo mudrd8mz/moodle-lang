@@ -1,5 +1,5 @@
-<?php // $Id$
-      // glossary.php - created with Moodle 1.6.1+ (2006050511)
+<?PHP // $Id$ 
+      // glossary.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['addcomment'] = 'Lisää kommentti';
@@ -105,6 +105,17 @@ $string['fillfields'] = 'Käsite ja määritelmä ovat pakollisia kenttiä.';
 $string['filtername'] = 'Sanaston automaattinen linkitys';
 $string['fullmatch'] = 'Vain täydet sanat';
 $string['globalglossary'] = 'Yleinen sanasto';
+$string['glossary:approve'] = 'Tietueiden hyväksyminen';
+$string['glossary:comment'] = 'Kommenttien luonti';
+$string['glossary:export'] = 'Tietueiden vienti';
+$string['glossary:import'] = 'Tietueiden tuonti';
+$string['glossary:managecategories'] = 'Kategorioiden hallinta';
+$string['glossary:managecomments'] = 'Kommenttien hallinta';
+$string['glossary:manageentries'] = 'Tietueiden hallinta';
+$string['glossary:rate'] = 'Tietueiden arviointi';
+$string['glossary:view'] = 'Sanaston katselu';
+$string['glossary:viewrating'] = 'Arvioinnin katselu';
+$string['glossary:write'] = 'Tietueiden luonti';
 $string['glossaryleveldefaultsettings'] = 'Sanastojen oletusasetukset';
 $string['glossarytype'] = 'Sanaston tyyppi';
 $string['importcategories'] = 'Tuo kategorioita';

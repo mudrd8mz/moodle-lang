@@ -1,5 +1,5 @@
-<?php // $Id$
-      // survey.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005032600)
+<?PHP // $Id$ 
+      // survey.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['actual'] = 'Toteutunut';
@@ -157,7 +157,7 @@ Jokainen seuraavasta 24 kysymyksestä kysyy sinun  odotuksistasi tältä kurssil
 Ei ole olemassa oikeata tai vääriä vastauksia, tahdomme sinun mielipiteesi asioista. Muista että vastaukset käsitellään luottamuksellisesti, eivätkä ne vaikuta arvosteluun.
 
 Vastaamalla huolellisesti ja ajatuksella autat meitä parantamaan tätä kurssia tulevaisuudessa.';
-$string['collespname'] = 'COLLES haluttu (preferred) ';
+$string['collespname'] = 'COLLES haluttu (preferred)';
 $string['done'] = 'Tehty';
 $string['download'] = 'Lataa';
 $string['downloadexcel'] = 'Lataa tiedot Excel-taulukkona';
@@ -191,9 +191,12 @@ $string['savednotes'] = 'Muistiinpanosi tallennettiin';
 $string['scaleagree5'] = 'Vahvasti eri mieltä, Jotakuinkin eri mieltä, Ei samaa tai eri mieltä, Jotakuinkin samaa mieltä, Vahvasti samaa mieltä';
 $string['scales'] = 'Asteikot';
 $string['scaletimes5'] = 'Ei koskaan, Harvoin, Joskus, Usein, Miltei aina';
-$string['seemoredetail'] = 'Napsauta tästä nähdäksesi lisätietoja ';
+$string['seemoredetail'] = 'Napsauta tästä nähdäksesi lisätietoja';
 $string['selectedquestions'] = 'Valitut kysymykset, kaikki opiskelijat';
 $string['summary'] = 'Yhteenveto';
+$string['survey:download'] = 'Palautteiden lataaminen';
+$string['survey:participate'] = 'Palautteen antaminen';
+$string['survey:readresponses'] = 'Palautteiden lukeminen';
 $string['surveycompleted'] = 'Olet vastannut tähän kyselyyn. Alla olevasta kuvasta näet yhteenvedon vastauksistasi verrattuna kurssin keskiarvoon.';
 $string['surveyname'] = 'Kyselyn nimi';
 $string['surveysaved'] = 'Kysely tallennettu';

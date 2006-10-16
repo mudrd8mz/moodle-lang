@@ -1,5 +1,5 @@
-<?php // $Id$
-      // exercise.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005030501)
+<?PHP // $Id$ 
+      // exercise.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['absent'] = 'Puuttuva';
@@ -46,6 +46,7 @@ $string['enterpassword'] = 'Anna salasana';
 $string['entriessaved'] = 'Tietueet tallennettu';
 $string['errorbanded'] = 'Virheistä vähentävä';
 $string['excellent'] = 'Erinomainen';
+$string['exercise:assess'] = 'Oppimistehtävän arviointi';
 $string['exerciseassessments'] = 'Oppimistehtävän arvioinnit';
 $string['exercisefeedback'] = 'Oppimistehtävän palaute';
 $string['exercisesubmissions'] = 'Oppimistehtävän palautukset';
@@ -65,7 +66,7 @@ $string['incorrect'] = 'Virheellinen';
 $string['late'] = 'Myöhässä';
 $string['lax'] = 'Rento';
 $string['leaguetable'] = 'Palautetut työt';
-$string['mail1'] = 'Palautuksesi \'$a\' on arvosteltu ';
+$string['mail1'] = 'Palautuksesi \'$a\' on arvosteltu';
 $string['mail2'] = 'Kommentit ja arvosana näkyvät oppimistehtävän arvioinnissa $a';
 $string['mail3'] = 'Voit nähdä sen oppimistehtävän arvioinnissasi';
 $string['mail6'] = 'Arviosi tehtävästä \'$a\' on arvosteltu';
@@ -107,7 +108,7 @@ $string['phase2short'] = 'Avoin';
 $string['phase3'] = 'Näytä kokonaisarvosanat ja palautukset vertailutaulukkona';
 $string['phase3short'] = 'Asettelu';
 $string['pleasegradetheassessment'] = 'Arvostele $a:n työn arviointi';
-$string['pleasemakeyourownassessment'] = 'Tee oma arviosi teoksesta $a:sta. <br /> Huomaa, että arviokaavake on alkujaan näytetty oppilaiden arvioiden kanssa.<br /> Tee kaikki muutosehdotukset, joita oletat tarvitsevasi ja sen jälkeen napsauta yhteen <br /> napeista, jotka ovat sivun alareunassa. ';
+$string['pleasemakeyourownassessment'] = 'Tee oma arviosi teoksesta $a:sta. <br /> Huomaa, että arviokaavake on alkujaan näytetty oppilaiden arvioiden kanssa.<br /> Tee kaikki muutosehdotukset, joita oletat tarvitsevasi ja sen jälkeen napsauta yhteen <br /> napeista, jotka ovat sivun alareunassa.';
 $string['pleasesubmityourwork'] = 'Palauta työsi käyttäen tätä lomaketta';
 $string['pleaseusethisform'] = 'Täytä tämän lomakkeen tiedot, kun olet <br />lukenut alla olevan oppimistehtävän ohjeet.';
 $string['pleaseviewtheexercise'] = 'Katso oppimistehtävää napsauttamalla sen otsikkoa.

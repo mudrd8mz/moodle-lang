@@ -1,5 +1,5 @@
-<?php	//$Id$      
-	// wiki.php - created with Moodle 1.6.1+ (2006050512)
+<?PHP // $Id$ 
+      // wiki.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['action'] = '-- Toiminto --';
@@ -94,6 +94,7 @@ $string['linkok'] = 'OK';
 $string['linkschecked'] = 'Linkit tarkastettu';
 $string['listall'] = 'Listaa kaikki';
 $string['listcandidates'] = 'Listaa ehdokkaat';
+$string['lockcancelled'] = 'Muokkaus lukkosi on ohitettu ja joku toinen muokkaa sivua parhaillaan. JOs haluat pitää muutoksesi kopioi muutokset leikepöydälle ennen kuin napsautat peruuta-painiketta. Kokeile sivun muokkausta tämän jälkee uudelleen.';
 $string['meta'] = 'Meta tiedot';
 $string['moduledirectory'] = 'Moduuli hakemisto';
 $string['modulename'] = 'Wiki';
@@ -116,6 +117,8 @@ $string['optional'] = 'Valinnainen';
 $string['orphanedpage'] = 'Orposivu';
 $string['orphanedpages'] = 'Orposivut';
 $string['otherwikis'] = 'Muut wikit';
+$string['overridebutton'] = 'Ohita lukko';
+$string['overrideinfo'] = 'Voit ohittaa käyttäjien muokkaus lukot, mutta tällöin käyttäjät menettävät tekemänsä muutokset.';
 $string['ownerunknown'] = 'tuntematon';
 $string['pageactions'] = 'Sivun toiminnot';
 $string['pageindex'] = 'Sivun sisältö';
@@ -177,6 +180,9 @@ $string['versionstodelete'] = 'Poistettava(t) versio(t)';
 $string['viewpage'] = 'Katso sivua';
 $string['viewsmfor'] = 'Katso sivukarttaa';
 $string['wantedpages'] = 'Halutut sivut';
+$string['wiki:manage'] = 'Wikin asetusten hallinta';
+$string['wiki:overridelock'] = 'Wikin lukkojen ohitus';
+$string['wiki:participate'] = 'Wikin sivujen muokkaus';
 $string['wikidefaultpagename'] = 'Wikin sisältö';
 $string['wikiexport'] = 'Vie sivuja';
 $string['wikiexportcomment'] = 'Tässä voit määritellä vientiasetukset';

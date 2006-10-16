@@ -1,12 +1,15 @@
-<?php // $Id$
-      // lesson.php - created with Moodle 1.6.1+ (2006050512)
+<?PHP // $Id$ 
+      // lesson.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['accesscontrol'] = 'Saatavuus';
 $string['actionaftercorrectanswer'] = 'Toiminto oikean vastauksen jälkeen';
+$string['actions'] = 'Toiminnot';
+$string['activitylink'] = 'Linkitä aktiviteettiin';
 $string['addabranchtable'] = 'Lisää haara';
 $string['addanendofbranch'] = 'Päätä haara';
 $string['addaquestionpage'] = 'Lisää kysymyssivu';
+$string['addaquestionpagehere'] = 'Lisää kysymyssivu tähän';
 $string['addcluster'] = 'Lisää ryhmä';
 $string['addedabranchtable'] = 'Lisätty haara';
 $string['addedanendofbranch'] = 'Haara päätetty';
@@ -14,12 +17,17 @@ $string['addedaquestionpage'] = 'Lisätty Kysymyssivu';
 $string['addedcluster'] = 'Lisätty ryhmä';
 $string['addedendofcluster'] = 'Ryhmä päätetty';
 $string['addendofcluster'] = 'Päätä ryhmä';
+$string['addpage'] = 'Lisää sivu';
+$string['anchortitle'] = 'Pääsisällön alku';
+$string['and'] = 'JA';
 $string['answer'] = 'Vastaus';
 $string['answeredcorrectly'] = 'vastasi oikein.';
 $string['answersfornumerical'] = 'Numeeristen kysymysten vastauksia pitäisi verrata minimi- ja maksimiarvoihin. Tälle välille osuva arvo katsotaan oikeaksi vastaukseksi.';
 $string['arrangebuttonshorizontally'] = 'Järjestä haarapainikkeet horisontaalisesti diashowtilassa?';
 $string['attempt'] = 'Yritys: $a';
 $string['attempts'] = 'Yritykset';
+$string['attemptsdeleted'] = 'Poistetut yritykset';
+$string['attemptsremaining'] = 'Sinulla on $a yritys(tä) jäljellä.';
 $string['available'] = 'Tehtävissä';
 $string['averagescore'] = 'Pisteiden keskiarvo';
 $string['averagetime'] = 'Ajan keskiarvo';
@@ -36,7 +44,6 @@ $string['clicktopost'] = 'Napsauta tässä lähettääksesi arvosanasi Parhaat T
 $string['clusterjump'] = 'Kysymys, jota ei ole nähty ryhmässä';
 $string['clustertitle'] = 'Ryhmä';
 $string['comments'] = 'Kommenttisi';
-$string['commentswithname'] = 'a$->firstname {a$->lastname} :n kommentit';
 $string['completed'] = 'Suoritettu';
 $string['confirmdeletionofthispage'] = 'Vahvista tämän sivun poistaminen';
 $string['congratulations'] = 'Onnittelut - oppitunnin loppu saavutettu';
@@ -98,7 +105,6 @@ $string['importppt'] = 'Tuo PowerPoint-esitys';
 $string['importquestions'] = 'Tuo kysymykset';
 $string['insertedpage'] = 'Lisätty sivu';
 $string['jump'] = 'Siirry';
-$string['jumptsto'] = 'Siirtyy';
 $string['leftduringtimed'] = 'Olet lähtenyt ajastetun oppitunnin aikana.<br>Ole hyvä ja napsauta \"jatka\" aloittaaksesi oppitunnin uudelleen.';
 $string['leftduringtimednoretake'] = 'Olet lähtenyt ajastetun oppitunnin aikana, etkä<br> saa aloittaa uudelleen tai jatkaa oppituntia.';
 $string['lessonclosed'] = 'Tämä oppitunti on suljettu $a:ssa';
@@ -224,26 +230,21 @@ $string['topscorestitle'] = 'Parhaat $a->maxhighscores tulosta oppitunnilla: $a-
 $string['unseenpageinbranch'] = 'Katsomaton kysymys haarassa';
 $string['updatedpage'] = 'Sivu päivitetty';
 $string['updatefailed'] = 'Päivitys epäonnistui';
-$string['updatesuccess'] = 'Päivitys onnistui';
 $string['useeditor'] = 'Käytä editoria';
 $string['usemaximum'] = 'Valitse korkein';
 $string['usemean'] = 'Käytä keskiarvoa';
 $string['usepassword'] = 'salasanasuojattu oppitunti';
 $string['viewgrades'] = 'Katsele arvosanoja';
 $string['viewhighscores'] = 'Näytä parhaat tulokset..';
-$string['waitpostscore'] = 'Odota, tuloksia lähetetään';
 $string['welldone'] = 'Hyvin tehty!';
 $string['whatdofirst'] = 'Mitä haluaisit tehdä ensimmäiseksi?';
 $string['wronganswerjump'] = 'Väärä vastaus hyppy';
 $string['wronganswerscore'] = 'Väärä vastaus tulos';
 $string['wrongresponse'] = 'Väärä vaste';
-$string['youhavereceived'] = 'Sait tästä kysymyksestä $a->score pistettä a$-outof pisteestä.';
 $string['youhaveseen'] = 'Olet aikaisemmin aloittanut tämän oppitunnin.<br />Haluatko jatkaa sivulta, jolle viimeksi jäit?';
 $string['youmadehighscore'] = 'Selvisit TOP $a :iin parhaat tulokset listalla.';
 $string['youranswer'] = 'Vastauksesi';
 $string['yourcurrentgradeis'] = 'Nykyinen arvosanasi on $a';
-$string['yourgradeisnow'] = 'Arvosanasi tunnista on muutettu $a :iksi';
-$string['yourresponse'] = 'Vastauksesi';
 $string['youshouldview'] = 'Sinun pitäisi katsoa ainakin $a sivua';
 
 ?>

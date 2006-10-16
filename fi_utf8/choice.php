@@ -1,11 +1,15 @@
-<?php // $Id$
-      // choice.php - created with Moodle 1.5.2 + (2005060222)
+<?PHP // $Id$ 
+      // choice.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['addmorechoices'] = 'Lisää lisää vaihtoehtoja';
 $string['allowupdate'] = 'Salli monivalinnan päivitys';
 $string['answered'] = 'Vastattu';
 $string['choice'] = 'Monivalinta $a';
+$string['choice:choose'] = 'Valinnan tallentaminen';
+$string['choice:deleteresponses'] = 'Vastausten poisto';
+$string['choice:downloadresponses'] = 'Vastausten lataus';
+$string['choice:readresponses'] = 'Vastusten tarkastelu';
 $string['choiceclose'] = 'Saakka';
 $string['choicename'] = 'Valinnan nimi';
 $string['choiceopen'] = 'Avoinna';
@@ -14,7 +18,7 @@ $string['displayhorizontal'] = 'Näytä leveyssuunnassa';
 $string['displaymode'] = 'Näyttötila';
 $string['displayvertical'] = 'Näytä pystysuunnassa';
 $string['full'] = '(Täysi)';
-$string['havetologin'] = 'Sinun pitää kirjautua ennen kun voit ottaa osaa monivalintaan ';
+$string['havetologin'] = 'Sinun pitää kirjautua ennen kun voit ottaa osaa monivalintaan';
 $string['limit'] = 'Raja';
 $string['limitanswers'] = 'Rajoita sallittujen vastausten määrää';
 $string['modulename'] = 'Monivalinta';

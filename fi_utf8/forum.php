@@ -1,5 +1,5 @@
-<?php // $Id$
-      // forum.php - created with Moodle 1.6.1+ (2006050511)
+<?PHP // $Id$ 
+      // forum.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['addanewdiscussion'] = 'Lisää uusi keskustelu';
@@ -59,6 +59,20 @@ $string['existingsubscribers'] = 'Nykyiset tilaajat';
 $string['forcesubscribe'] = 'Pakota kaikki tilaajiksi';
 $string['forcesubscribeq'] = 'Pakota kaikki tilaajiksi?';
 $string['forum'] = 'Keskustelualue';
+$string['forum:createattachment'] = 'Liitetiedoston luonti';
+$string['forum:deleteanypost'] = 'Viestin poisto';
+$string['forum:deleteownpost'] = 'Oman viestin poisto';
+$string['forum:editanypost'] = 'Viestien muokkaus';
+$string['forum:managesubscriptions'] = 'Tilausten hallinta';
+$string['forum:movediscussions'] = 'Keskusteluiden siirto';
+$string['forum:rate'] = 'Viestien arviointi';
+$string['forum:replypost'] = 'Viestiin vastaaminen';
+$string['forum:splitdiscussions'] = 'Keskustelujen jakaminen';
+$string['forum:startdiscussion'] = 'Uuden keskustelun luominen';
+$string['forum:viewanyrating'] = 'Kaikkien arviointien katselu';
+$string['forum:viewdiscussion'] = 'Keskustelujen katselu';
+$string['forum:viewrating'] = 'Arviointien katselu';
+$string['forum:viewsubscribers'] = 'Tilaajien tarkastelu';
 $string['forumauthorhidden'] = 'Kirjoittaja (piilotettu)';
 $string['forumintro'] = 'Keskustelualueen johdanto';
 $string['forumname'] = 'Keskustelualueen nimi';
@@ -95,7 +109,6 @@ $string['more'] = 'lisää';
 $string['movethisdiscussionto'] = 'Siirrä tämä keskustelu ...';
 $string['namenews'] = 'Uutiset';
 $string['namesocial'] = 'Yleinen keskustelu';
-$string['nameteacher'] = 'Opettajien keskustelualue';
 $string['newforumposts'] = 'Keskustelualueen uudet viestit';
 $string['nodiscussions'] = 'Tällä keskustelualueella ei ole vielä keskusteluja';
 $string['noguestpost'] = 'Vieraat eivät voi kirjoittaa keskustelualueelle';
