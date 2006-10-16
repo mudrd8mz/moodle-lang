@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.7 dev (2006100401)
+      // hotpot.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['abandoned'] = 'verlaten';
 $string['addquizchain'] = 'Voeg een ketting testen toe';
-$string['allmycourses'] = 'al mijn cursussen';
+$string['allusers'] = 'Alle gebruikers';
 $string['alwaysopen'] = 'Altijd open';
 $string['attemptsall'] = 'Alle pogingen';
 $string['attemptsbest'] = 'Beste poging';
@@ -145,7 +145,6 @@ $string['textsourcefilename'] = 'Gebruik bestandsnaam';
 $string['textsourcefilepath'] = 'Gebruik bestandspad';
 $string['textsourcequiz'] = 'Haal uit test';
 $string['textsourcespecific'] = 'Specifieke test';
-$string['thiscourse'] = 'deze cursus';
 $string['timedout'] = 'Gepauzeerd';
 $string['updatequizchain'] = 'Update vragenketting';
 $string['weighting'] = 'weging';

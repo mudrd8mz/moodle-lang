@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006100401)
+      // quiz.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['1day'] = '1 dag';
@@ -360,6 +360,7 @@ $string['penaltyscheme'] = 'Gebruik strafpunten';
 $string['percentcorrect'] = 'Percentage juist';
 $string['pleaseclose'] = 'Je vraag is verwerkt. Je mag dit venster nu sluiten.';
 $string['popup'] = 'Toon de test in een \"veilig\" venster';
+$string['popupblockerwarning'] = 'Dit deel van de test gebeurt in een beveiligd venster. Zet je popup blocker af.';
 $string['popupnotice'] = 'Leerlingen zien de test in een veilig venster';
 $string['preview'] = 'Controleer test';
 $string['previewquestion'] = 'Weergave van een vraag testen';

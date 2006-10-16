@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 dev (2006100401)
+      // assignment.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['allowdeleting'] = 'Verwijderen toestaan';
@@ -79,6 +79,7 @@ $string['pagesize'] = 'Aantal te tonen inzendingen per pagina';
 $string['preventlate'] = 'Blokkeer te laat insturen';
 $string['quickgrade'] = 'Snel verbeteren';
 $string['responsefiles'] = 'Ingestuurde bestanden';
+$string['reviewed'] = 'Nagekeken';
 $string['saveallfeedback'] = 'Bewaar al mijn feedback';
 $string['sendformarking'] = 'Insturen';
 $string['submission'] = 'Ingestuurde opdracht';

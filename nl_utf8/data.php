@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006100401)
+      // data.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['action'] = 'Actie';
@@ -39,7 +39,8 @@ $string['data:comment'] = 'Schrijf commentaar';
 $string['data:managecomments'] = 'Beheer commentaren';
 $string['data:manageentries'] = 'Beheer items';
 $string['data:managetemplates'] = 'Beheer sjablonen';
-$string['data:rate'] = 'Beoordeel items';
+$string['data:manageuserpresets'] = 'Alle sjabloonsets beheren';
+$string['data:rate'] = 'Items beoordelen';
 $string['data:readentry'] = 'Lees items';
 $string['data:viewalluserpresets'] = 'Bekijk sjabloonsets';
 $string['data:viewentry'] = 'Bekijk items';

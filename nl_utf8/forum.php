@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006100401)
+      // forum.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -126,7 +126,6 @@ $string['movedmarker'] = '(Verplaatst)';
 $string['movethisdiscussionto'] = 'Verplaats deze discussie naar ...';
 $string['namenews'] = 'Nieuwsforum';
 $string['namesocial'] = 'Sociaal forum';
-$string['nameteacher'] = 'Forum voor leraren';
 $string['newforumposts'] = 'Nieuwe forumberichten';
 $string['nodiscussions'] = 'Er zijn nog geen discussies in dit forum';
 $string['noguestpost'] = 'Sorry, gasten mogen geen berichten posten';
@@ -197,6 +196,7 @@ $string['repliesone'] = '$a antwoord tot nu toe';
 $string['reply'] = 'Antwoord';
 $string['replyforum'] = 'Antwoord op het forum';
 $string['resetforums'] = 'Verwijder alle berichten van deze forumtypes';
+$string['resetsubscriptions'] = 'Verwijder alle leden';
 $string['rsssubscriberssdiscussions'] = 'Met deze link kun je inschrijven op het \'$a\' forum RSS-discussiekanaal';
 $string['rsssubscriberssposts'] = 'Met deze link kun je inschrijven op het \'$a\' forum RSS-postkanaal';
 $string['search'] = 'Zoek';

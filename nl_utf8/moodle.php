@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 dev (2006100401)
+      // moodle.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['action'] = 'Actie';
@@ -529,6 +529,8 @@ $string['findmorecourses'] = 'Vind meer cursussen...';
 $string['firstdayofweek'] = '0';
 $string['firstname'] = 'Voornaam';
 $string['firsttime'] = 'Is dit de eerste keer dat je hier bent?';
+$string['folderclosed'] = 'Gesloten map';
+$string['folderopened'] = 'Geopende map';
 $string['followingoptional'] = 'De volgende velden zijn niet verplicht';
 $string['followingrequired'] = 'De volgende velden zijn verplicht';
 $string['force'] = 'Verplicht';
@@ -1071,6 +1073,7 @@ $string['resetinfo'] = 'Met deze pagina kun je de gebruikersgegevens uit een cur
 $string['resetstartdate'] = 'Standaardwaarde datum';
 $string['resettodefaults'] = 'Herstel standaardinstellingen';
 $string['resortcoursesbyname'] = 'Hersorteer de cursussen op naam';
+$string['resource'] = 'Bron';
 $string['resources'] = 'Bronnen';
 $string['restore'] = 'Terugzetten';
 $string['restorecancelled'] = 'Backup terugzetten geannuleerd';
@@ -1378,7 +1381,7 @@ $a->action';
 $string['virusfoundsubject'] = '$a: Virus gevonden!';
 $string['virusfounduser'] = 'Het bestand $a->filename dat je geüpload hebt is door een virusscanner gecontroleerd en is geïnfecteerd! Je bestandsupload is mislukt.';
 $string['virusplaceholder'] = 'Dit geüploade bestand bevat een virus en is verplaatst of verwijderd. De gebruiker is verwittigd.';
-$string['visibletostudents'] = 'Zichtbaar voor $a';
+$string['visible'] = 'Zichtbaar';
 $string['warningdeleteresource'] = 'Waarschuwing: Er is naar $a verwezen vanuit een bron. Wil je de bron aanpassen?';
 $string['webpage'] = 'Website';
 $string['week'] = 'Week';

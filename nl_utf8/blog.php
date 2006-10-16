@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.7 dev (2006052400)
+      // blog.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['addnewentry'] = 'Voeg een nieuw item toe';
@@ -16,6 +16,8 @@ $string['blogtags'] = 'Bloglabels';
 $string['courseblog'] = 'Cursusblog: $a';
 $string['courseblogs'] = 'Gebruikers kunnen enkel blogs zien van andere gebruikers van de cursus';
 $string['disableblogs'] = 'Schakel blogs volledig uit';
+$string['emptybody'] = 'Het tekstveld van een blog mag niet leeg zijn';
+$string['emptytitle'] = 'De titel van een blog mag niet leeg zijn';
 $string['entrybody'] = 'Blog tekstveld';
 $string['entrybodyonlydesc'] = 'Beschrijving van deze tekst';
 $string['entryerrornotyours'] = 'Deze tekst is niet van jouw';

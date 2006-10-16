@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006100401)
+      // error.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['adminprimarynoedit'] = 'Het profiel van de beheerder met het kleinste gebruikersnummer kan door de andere beheerders niet gewijzigd worden';
@@ -64,6 +64,8 @@ $string['sessionerroruser'] = 'Je sessie bleef te lang zonder activiteit. Je moe
 $string['sessionerroruser2'] = 'Er is een serverfout gevonden die je loginsessie verknoeide. Meld je opnieuw aan of herstart je browser.';
 $string['sessionipnomatch'] = 'Sorry, maar je IP-adres is gewijzigd sinds je aangemeld bent. Deze beveiligingsmethode voorkomt dat crackers je identiteit stelen terwijl je aangemeld bent op deze site. Gewone gebruikers zouden deze melding niet mogen zien - vraag je sitebeheerder om hulp.';
 $string['statscatchupmode'] = 'De statistiekfunctie is nu wat achterstand aan het inhalen. Tot nu zijn al $a->daysdone dagen verwerkt en zijn er nog $a->dayspending dagen te doen. Kom later eens terug kijken!';
+$string['unicodeupgradeerror'] = 'Sorry, maar je databank is nog niet in Unicode en deze versie van Moodle kan je databank niet naar Unicode migreren.
+Upgrade eerst naar Moodle 1.7.x en doe de Unicode migratie vanuit de Beheerpagina. Daarna zou je moeten kunnen upgraden naar Moodle $a';
 $string['unknowncourse'] = 'Onbekende cursus \"$a\"';
 $string['unknownuseraction'] = 'Sorry, Moodle begrijpt niet wat je wil';
 $string['usernotaddederror'] = 'Gebruiker \"$a\" niet toegevoegd - onbekende fout';

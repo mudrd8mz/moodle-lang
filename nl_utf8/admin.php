@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006100401)
+      // admin.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['accounts'] = 'Accounts';
@@ -228,6 +228,8 @@ $string['environmentrequireinstall'] = 'moet geïnstalleerd/ingeschakeld zijn';
 $string['environmentrequireversion'] = 'versie $a->needed is vereist en je gebruikt nu versie $a->current';
 $string['environmentxmlerror'] = 'Fout bij het lezen van de omgevingsdata ($&->error_code)';
 $string['errors'] = 'Fouten';
+$string['errorsetting'] = 'Kon instelling niet bewaren';
+$string['errorwithsettings'] = 'Sommige instellingen zijn door een fout niet gewijzigd.';
 $string['extendedusernamechars'] = 'Uitgebreide tekenset in gebruikersnamen toestaan';
 $string['filterall'] = 'Filter alle strings';
 $string['filtermatchoneperpage'] = 'Filter maakt één koppeling per pagina';
@@ -442,5 +444,6 @@ $string['users'] = 'Gebruikers';
 $string['userscreated'] = 'Gebruikers gecreëerd';
 $string['usersrenamed'] = 'Gebruikers hernoemd';
 $string['usersupdated'] = 'Gebruikers geüpdatet';
+$string['validateerror'] = 'Deze waarde is niet geldig';
 
 ?>

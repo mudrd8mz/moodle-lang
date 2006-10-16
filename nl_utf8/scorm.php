@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 dev (2006100401)
+      // scorm.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['advanced'] = 'Geavanceerd';
@@ -106,6 +106,7 @@ $string['reviewmode'] = 'Herzien modus';
 $string['scoes'] = 'Scoes';
 $string['score'] = 'Score';
 $string['scorm:savetrack'] = 'Bewaar spoor';
+$string['scorm:skipview'] = 'Overzicht overslaan';
 $string['scorm:viewreport'] = 'Bekijk rapporten';
 $string['scorm:viewscores'] = 'Bekijk resultaten';
 $string['scormcourse'] = 'SCORM/AICC-cursus';
