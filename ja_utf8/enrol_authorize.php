@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006091500)
+      // enrol_authorize.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
@@ -14,7 +14,7 @@ $string['adminemailexpired'] = 'この設定は「マニュアルキャプチャ
 $string['adminemailexpiredsort'] = '保留オーダー失効時に教師にメール通知する場合、どれが重要ですか?';
 $string['adminemailexpiredsortcount'] = 'オーダー数';
 $string['adminemailexpiredsortsum'] = '合計金額';
-$string['adminemailexpiredteacher'] = 'マニュアルキャプチャを有効 ( 上記参照 ) にして、教師が支払いを管理できると、教師に保留オーダーの失効をメール通知することができます。ここでは各コースの教師に、何件の保留オーダーが失効したかメール通知されます。';
+$string['adminemailexpiredteacher'] = 'マニュアルキャプチャを有効 ( 上記参照 ) にして、教師が支払いを管理できると、教師に保留オーダーの失効をメール通知することもできます。ここでは、各コースの教師に、何件の保留オーダーが失効したかメール通知されます。';
 $string['adminemailexpsetting'] = '( 0 = メール送信を停止する、デフォルト = 2、最大 = 5 )<br />( メール送信のためのマニュアルキャプチャ設定: cron = 有効、an_review = チェック、an_capture_day = 0、an_emailexpired = 1-5 )';
 $string['adminhelpcapturetitle'] = 'スケジュールキャプチャ';
 $string['adminhelpreviewtitle'] = 'オーダーレビュー';
@@ -28,12 +28,12 @@ $string['adminneworder'] = '新しい保留オーダーが入りました:
 
 スケジュールキャプチャ有効?: $a->acstatus
 
-スケジュールキャプチャが有効にされている場合、クレジットカード情報は $a->captureon 日で取得され、学生はコース登録されます。そうでない場合、$a->expireon 日で期限切れとなり、この日以降はカード情報の取得ができなくなります。
+スケジュールキャプチャが有効にされている場合、クレジットカード情報は $a->captureon 日で取得され、学生がコース登録されます。そうでない場合、$a->expireon 日で期限切れとなり、この日以降はカード情報の取得ができなくなります。
 
-下記のリンクで、学生がコース登録するための支払いを受領/拒否することもできます:
+下記のリンクで、学生がコース登録するための支払いをすぐに受領/拒否することもできます:
 $a->url';
-$string['adminnewordersubject'] = '$a->course: 新しい保留オーダー ( $a->orderid )';
-$string['adminpendingorders'] = 'あなたはスケジュールキャプチャ機能を停止しています。<br />あなたがチェックしない場合、ステータス「認証完了 / キャプチャ保留」の合計 $a->count　件のトランザクションがキャンセルされます。<br />支払いを受領/拒否するには <a href=\'$a->url\'>支払い管理</a>ページにアクセスしてください。';
+$string['adminnewordersubject'] = '$a->course; 新しい保留オーダー: $a->orderid';
+$string['adminpendingorders'] = 'あなたはスケジュールキャプチャ機能を停止しています。<br />あなたがチェックしない場合、ステータス「認証完了 / キャプチャ保留」の合計 $a->count 件のトランザクションがキャンセルされます。<br />支払いを受領/拒否するには <a href=\'$a->url\'>支払い管理</a>ページにアクセスしてください。';
 $string['adminreview'] = 'クレジットカード処理手続きの前に注文を検査する。';
 $string['adminteachermanagepay'] = '教師がコースの支払いを管理できる。';
 $string['amount'] = '金額';
@@ -42,6 +42,7 @@ $string['anpassword'] = 'Authorize.net: パスワード';
 $string['anreferer'] = '必要な場合は、リファラURLを設定してください。これは、ウェブリクエストの「Referer: URL」ヘッダを送信します。';
 $string['antestmode'] = 'Authorize.net: テストトランザクション ( 料金は引き落とされません )';
 $string['antrankey'] = 'Authorize.net: トランザクションキー';
+$string['approvedreview'] = '検査承認';
 $string['authcaptured'] = '認証完了 / キャプチャ完了';
 $string['authorize:managepayments'] = '支払いを管理する';
 $string['authorizedpendingcapture'] = '認証完了 / キャプチャ保留';
@@ -52,7 +53,7 @@ $string['avsg'] = '米国以外のカード発行銀行';
 $string['avsn'] = '住所および郵便番号が合致しません。';
 $string['avsp'] = '住所確認システムを使用できません。';
 $string['avsr'] = 'リトライ - システム利用不可またはタイムアウト';
-$string['avsresult'] = '<b>AVS結果:</b> $a';
+$string['avsresult'] = 'AVS結果: $a';
 $string['avss'] = '発行人よりサービスがサポートされていません。';
 $string['avsu'] = '住所情報を利用できません。';
 $string['avsw'] = '9桁の郵便番号は合致しますが、住所が合致しません。';
@@ -74,10 +75,10 @@ $string['ccvv'] = 'CV2';
 $string['ccvvhelp'] = 'カードの裏面 ( 3桁の数字 ) をご覧ください。';
 $string['choosemethod'] = 'コースの登録キーを知っている場合は、入力してください。そうでない場合は、このコースに受講料を支払う必要があります。';
 $string['chooseone'] = '次の2つのフィールドの1つまたは両方に入力してください。パスワードは表示されません。';
-$string['costdefaultdesc'] = 'このデフォルト費用を使用するには、<strong>コース設定で「費用」に -1 を設定してください</strong>。';
+$string['costdefaultdesc'] = 'このデフォルト費用を使用するには、<strong>コース設定でコース費用フィールドに -1 を設定</strong>してください。';
 $string['cutofftime'] = 'トランザクションのカットオフ時間です。確定するため、何時に最終のトランザクションを取得しますか?';
 $string['delete'] = '無効化';
-$string['description'] = 'Authorize.netモジュールでは、受講料支払いが必要なコースを作成することができます。コースの受講料がゼロの場合、学生には受講登録の支払いは求められません。サイト全体の利用料をデフォルトとしてここで設定して、コースごとに受講料を設定することができます。コース受講料を設定した場合、コース受講料はサイト利用料に優先します。<b>注意:</b> コース設定で登録キーを指定した場合、学生は登録キーを使用した受講登録のオプションも持つことになります。これは、支払い要、支払い不要の学生が混在している場合に便利です。';
+$string['description'] = 'Authorize.netモジュールでは、支払いプロバイダを通して、受講料支払いが必要なコースを作成することができます。コースの受講料がゼロの場合、学生には受講登録費用は請求されません。コース費用を設定するには、(1) サイト全体のデフォルトとしてのサイト費用 または (2) 各コースで個々に設定できるコース費用 の2つの方法があります。コース費用は、サイト費用をオーバーライドします。<br /><br /><b>メモ:</b> コース設定で登録キーを指定した場合、学生は登録キーを使用した受講登録のオプションも持つことになります。これは、支払い要、支払い不要の学生が混在している場合に便利です。';
 $string['echeckabacode'] = '銀行ABA番号';
 $string['echeckaccnum'] = '銀行口座番号';
 $string['echeckacctype'] = '銀行口座種別';
@@ -151,16 +152,19 @@ $string['refund'] = '払い戻し';
 $string['refunded'] = '払い戻し完了';
 $string['returns'] = '返金';
 $string['reviewday'] = '教師または管理者が、<b>$a</b> 日以内に注文を検査しない場合を除いて、自動的にクレジットカード情報を取得します。CRONを有効にする必要があります。( 0日 = スケジュールキャプチャを無効にする = 教師、管理者が手動で検査を行う。スケジュールキャプチャを無効にすると、30日以内にトランザクションを検査しない場合、トランザクションはキャンセルされます。 )';
+$string['reviewfailed'] = '検査失敗';
 $string['reviewnotify'] = 'あなたの支払いが確認されました。数日中に先生からメールが送信されますのでお待ちください。';
 $string['sendpaymentbutton'] = '支払いの送信';
 $string['settled'] = '確定済み';
 $string['settlementdate'] = '確定年月日';
-$string['subvoidyes'] = '返金済みトランザクション $a->transid はキャンセルされ、$a->amount があなたの口座に振り込まれます。本当によろしいですか?';
+$string['subvoidyes'] = '返金済みトランザクション ( $a->transid ) はキャンセルされ、$a->amount があなたの口座に振り込まれます。本当によろしいですか?';
 $string['tested'] = 'テスト済み';
 $string['testmode'] = '[ テストモード ]';
-$string['testwarning'] = 'キャプチャー/取り消し/クレジットはテストモードで動作しているようです。データベースのレコードは更新およびインサートされませんでした。';
+$string['testwarning'] = 'キャプチャー/取り消し/払い戻し はテストモードで動作しているようです。レコードは、データベースを更新またはインサートされませんでした。';
 $string['transid'] = 'トランザクションID';
+$string['underreview'] = '検査中';
 $string['unenrolstudent'] = '学生を登録抹消しますか?';
+$string['uploadcsv'] = 'CSVファイルをアップロードする';
 $string['usingccmethod'] = '<a href=\"$a->url\"><strong>クレジットカード</strong></a>を使用して登録する。';
 $string['usingecheckmethod'] = '<a href=\"$a->url\"><strong>eCheck</strong></a>を使用して登録する。';
 $string['void'] = '取り消し';
