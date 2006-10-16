@@ -1376,7 +1376,8 @@ $a->action';
 $string['virusfoundsubject'] = '$a&nbsp;: Virus détecté&nbsp;!';
 $string['virusfounduser'] = 'Le fichier que vous avez déposé, $a->filename, a été inspecté par un anti-virus et un virus y a été découvert ! Votre fichier n\'a donc pas été déposé.';
 $string['virusplaceholder'] = 'Un virus a été détecté dans ce fichier déposé. Il a été déplacé ou détruit, et l\'utilisateur en a été informé.';
-$string['visibletostudents'] = 'Visible pour les étudiants';
+$string['visible'] = 'Visible';
+$string['visibletostudents'] = 'Visible pour les étudiants'; // Legacy, to delete for 1.7
 $string['warningdeleteresource'] = 'Attention&nbsp;! $a est référencé dans une ressource. Voulez-vous mettre à jour la ressource&nbsp;?';
 $string['webpage'] = 'Page Web';
 $string['week'] = 'Semaine';
