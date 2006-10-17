@@ -1,5 +1,5 @@
-<?php // $Id$
-      // install.php - created with Moodle 1.5.2 + (2005060222)
+<?PHP // $Id$ 
+      // install.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['admindirerror'] = 'Ylläpitohakemisto on määritetty väärin';
@@ -7,12 +7,22 @@ $string['admindirname'] = 'Ylläpitohakemisto';
 $string['admindirsetting'] = 'Jotkut webpalvelut käyttävät /admin hakemistoa ylläpitotarkoituksiin tms. Valitettavasti tämä on ristiriidassa Moodlen ylläpitosivujen normaalin paikan kanssa. Voit korjata tämän nimeämällä asennuksesi ylläpitohakemiston uudelleen, ja laittamalla uuden nimen tähän. Esimerkiksi: 
 <br /> <br /><b>moodleadmin</b><br /> <br />
 Tämä korjaa ylläpito linkit Moodlessa.';
+$string['admindirsettinghead'] = 'Asetetaan ylläpitohakemisto';
+$string['admindirsettingsub'] = 'Jotkut sivustot käyttävät /admin-hakemistoa omiin tarkoituksiinsa. Tämä on ristiriidassa moodlen /admin-kansion kanssa.
+Voit kosrja tämän nimeämällä moodlen admin-kansion uudeleen antamalla nimen tähän <br />
+Esim moodleadmin';
 $string['caution'] = 'Varoitus';
 $string['chooselanguage'] = 'Valitse kieli';
+$string['chooselanguagehead'] = 'Valitse kieli';
+$string['chooselanguagesub'] = 'Valitse kieli asennuohjelmaa varten. Voit valita muita kieliä käyttöösi myöhemmin.';
 $string['compatibilitysettings'] = 'Tarkistetaan PHP:n asetukset';
+$string['compatibilitysettingshead'] = 'Tarkistetaan PHP:n asetukset';
+$string['compatibilitysettingssub'] = 'Palvelimesi pitää läpäistä kaikki testit jotta moodle toimisi oikein.';
 $string['configfilenotwritten'] = 'Asennus ei pystynyt luomaan automaattisesti config.php tiedostoa, joka olisi sisältänyt valitsemasi asetukset, todennäköisesti koska Moodlen hakemisto on kirjoitussuojattu. Voit manuaalisesti kopioida seuraavan koodin tiedostoon nimeltä config.php Moodlen päähakemiston sisällä.';
 $string['configfilewritten'] = 'config.php on luotu.';
 $string['configurationcomplete'] = 'Asetukset suoritettu';
+$string['configurationcompletehead'] = 'Asetukset suoritettu';
+$string['configurationcompletesub'] = 'Moodle yritti tallentaa asetustiedostoa \"config.php\" moodlen asennuskansioon.';
 $string['database'] = 'Tietokanta';
 $string['databasecreationsettings'] = 'Nyt sinun täytyy asettaa asetukset tietokannalle, johon suurin osa Moodlen tiedoista tallennetaan. Moodle4Windows-asennusohjelma luo tietokannan automaattisesti käyttäen asetuksia, jotka on kerrottu alla.<br />
  <br /> <br />
@@ -22,14 +32,58 @@ $string['databasecreationsettings'] = 'Nyt sinun täytyy asettaa asetukset tieto
 <b>User:</b>asennusohjelma asettaa oletuskäyttäjäksi \"root\"-käyttäjän <br />
 <b>Password:</b> salasanasi tietokantaan<br />
 <b>Tables Prefix:</b> valinnanvarainen etuliite kaikille taulukoille tietokannassasi';
+$string['databasecreationsettingshead'] = 'Määrittele tietokanta-asetusten avulla minne moodle tallentaa tietonsa. Tietokanta luodaan seuraavien asetusten avulla automaattisesti.l';
+$string['databasecreationsettingssub'] = '<b>Tyyppi:</b> Asennusohjelman lukitsema \"mysql\" <br />
+<b>Palvelin:</b> Asennusohjelman lukitsema \"localhost\" <br />
+<b>Nimi:</b> tietokannan nimi, esim. moodle<br />
+<b>Käyttäjä:</b> Asennusohjelman lukitsema \"root\" <br />
+<b>Salasana:</b> Tietokannan salasana<br />
+<b>Talukon etuliite:</b> Etuliite kaikille tietokannan tauluille';
 $string['databasesettings'] = 'Nyt sinun täytyy valita tietokanta missä suurin osa Moodlen tiedoista säilytetään. Tämän tietokannan täytyy jo valmiiksi olla luotu, kuten myös käyttäjänimen ja salasanan, joilla siihen päästään. .<br />
 <br /> <br />
 <b>Tyyppi:</b> mysql or postgres7<br />
-<b>Isäntä:</b> localhost or db.isp.com<br />
+<b>Palvelin:</b> localhost or db.isp.com<br />
 <b>Nimi:</b> tietokannan nimi, eg moodle<br />
 <b>Käyttäjä:</b> tietokantasi käyttäjänimi<br />
 <b>Salasana:</b> tietokantasi salasana<br />
-<b>Taulukon etuliite:</b> omavalintainen etuliite jota käytetään kaikissa taulukoissa ';
+<b>Taulukon etuliite:</b> omavalintainen etuliite jota käytetään kaikissa taulukoissa';
+$string['databasesettingshead'] = 'Määrittele tietokanta-asetusten avulla minne moodle tallentaa tietonsa. Tietokannan pitää olla jo luotuna.';
+$string['databasesettingssub'] = '<b>Tyyppi:</b> mysql tai postgres7<br />
+<b>Host:</b> esim localhost tai db.isp.com<br />
+<b>Nimi:</b> Tietokannan nimi, eg moodle<br />
+<b>Käyttäjä:</b> your database username<br />
+<b>Salasana:</b> your database password<br />
+<b>Taulukon etuliite:</b> omavalintainen etuliite jota käytetään kaikissa taulukoissa';
+$string['databasesettingssub_mssql'] = '<b>Tyyppi:</b> SQLServer <br />
+<b>Host:</b> esim localhost tai db.isp.com<br />
+<b>Nimi:</b> Tietokannan nimi, eg moodle<br />
+<b>Käyttäjä:</b> your database username<br />
+<b>Salasana:</b> your database password<br />
+<b>Taulukon etuliite:</b> pakollinen etuliite jota käytetään kaikissa taulukoissa';
+$string['databasesettingssub_mysql'] = '<b>Tyyppi:</b> mysql<br />
+<b>Host:</b> esim localhost tai db.isp.com<br />
+<b>Nimi:</b> Tietokannan nimi, eg moodle<br />
+<b>Käyttäjä:</b> your database username<br />
+<b>Salasana:</b> your database password<br />
+<b>Taulukon etuliite:</b> omavalintainen etuliite jota käytetään kaikissa taulukoissa';
+$string['databasesettingssub_oci8po'] = '<b>Tyyppi:</b>Oracle<br />
+<b>Host:</b> ei käytössä jätä tyhjäksi<br />
+<b>Nimi:</b> tnsnames.ora yhteyden nimi<br />
+<b>Käyttäjä:</b> your database username<br />
+<b>Salasana:</b> your database password<br />
+<b>Taulukon etuliite:</b>  etuliite jota käytetään kaikissa taulukoissa (max 2 merkkiä)';
+$string['databasesettingssub_odbc_mssql'] = '<b>Tyyppi:</b> SQLServer via ODBC <br />
+<b>Host:</b>Tietolahteen (DSN) nimi ODBC kontrollipaneelissa<br />
+<b>Nimi:</b> Tietokannan nimi, eg moodle<br />
+<b>Käyttäjä:</b> your database username<br />
+<b>Salasana:</b> your database password<br />
+<b>Taulukon etuliite:</b> pakollinen etuliite jota käytetään kaikissa taulukoissa';
+$string['databasesettingssub_postgres7'] = '<b>Tyyppi:</b> PostgreSQL <br />
+<b>Host:</b> esim localhost tai db.isp.com<br />
+<b>Nimi:</b> Tietokannan nimi, eg moodle<br />
+<b>Käyttäjä:</b> your database username<br />
+<b>Salasana:</b> your database password<br />
+<b>Taulukon etuliite:</b> pakollinen etuliite jota käytetään kaikissa taulukoissa';
 $string['dataroot'] = 'Datahakemisto';
 $string['datarooterror'] = '\"Datahakemistoa\", jonka määrittelit, ei voitu löytää, eikä luoda. Joko korjaa polku, tai luo hakemisto manuaalisesti.';
 $string['dbconnectionerror'] = 'Emme pystyneet kytkeytymään tietokantaan, jonka määrittelit. Tarkista tietokanta asetuksesi.';
@@ -38,10 +92,23 @@ $string['dbhost'] = 'Palvelin';
 $string['dbpass'] = 'Salasana';
 $string['dbprefix'] = 'Taulukon etumerkki';
 $string['dbtype'] = 'Tyyppi';
-$string['directorysettings'] = '<p>Varmista tämän Moodle asennuksen paikka.</p>
+$string['dbwrongencoding'] = 'Valittu tietokanta ei käytä suositeltavaa UTF-8 (UNICODE) merkistöä jota olsi parempi käyttää. Voit ohittaa tämän testin valitsemalla \"Ohita tietokannan merkitö testi\" asetuksen.';
+$string['dbwronghostserver'] = 'Sinun pitää seurata Palvelin sääntöjä jotka selitetty ylempänä.';
+$string['dbwrongprefix'] = 'Sinun pitää seurata Taulun etuliite sääntöjä jotka selitetty ylempänä.';
+$string['directorysettings'] = '<p>Vahvista tämän Moodle asennuksen sijainti.</p>
 
 <p><b>Web-osoite:</b>
-Täsmennä koko Web osoite, johon Moodlella on pääsy.
+Määritä koko Web osoite, josta Moodlea käytetään.
+Jos websivustoosi päästään monen URL:n kautta, valitse kaikkein luonnollisin vaihtoehto, se jota oppilaasikin käyttäisivät. Älä sisällytä kenoviivaa.</p>
+
+<p><b>Moodle hakemisto:</b>
+Määritä koko hakemistopolku tähän asennukseen. Varmista, että isot/pienet kirjaimet ovat oikein.</p>
+
+<p><b>Data hakemisto:</b>
+Tarvitset paikan, jonne Moodle voi tallentaa ladatut tiedostot. Tämän hakemiston pitäisi olla luettavissa ja kirjoitettavissa web palvelin käyttäjän taholta (usein \"nobody\" tai \"apache\"), mutta sen ei pitäisi olla käytettävissä suoraan web:in kautta.</p>';
+$string['directorysettingshead'] = 'Vahvista tämän Moodle asennuksen sijainti';
+$string['directorysettingssub'] = '<p><b>Web-osoite:</b>
+Määritä koko Web osoite, josta Moodlea käytetään.
 Jos websivustoosi päästään monen URL:n kautta, valitse kaikkein luonnollisin vaihtoehto, se jota oppilaasikin käyttäisivät. Älä sisällytä kenoviivaa.</p>
 
 <p><b>Moodle hakemisto:</b>
@@ -51,7 +118,12 @@ Määritä koko hakemistopolku tähän asennukseen. Varmista, että isot/pienet 
 Tarvitset paikan, jonne Moodle voi tallentaa ladatut tiedostot. Tämän hakemiston pitäisi olla luettavissa ja kirjoitettavissa web palvelin käyttäjän taholta (usein \"nobody\" tai \"apache\"), mutta sen ei pitäisi olla käytettävissä suoraan web:in kautta.</p>';
 $string['dirroot'] = 'Moodle hakemisto';
 $string['dirrooterror'] = '\"Moodle hakemisto\" asetus näyttäisi olevan väärin - emme voi löytää Moodle asennusta sieltä. Arvo alapuolella on nollattu.';
-$string['download'] = 'Lataus';
+$string['download'] = 'Lataa';
+$string['downloadlanguagebutton'] = 'Lataa \"$a\"  kielipaketti';
+$string['downloadlanguagehead'] = 'Lataa kielipaketti';
+$string['downloadlanguagenotneeded'] = 'Voit jatkaa asennusta oletuskielellä, \"$a\"';
+$string['environmenthead'] = 'Ympäristön tarkistus';
+$string['environmentsub'] = 'Asennusohjelma tarkistaa että järjestelmäsi vastaa moodlen vaatimuksia';
 $string['fail'] = 'Virhe';
 $string['fileuploads'] = 'Tiedostojen lähettäminen';
 $string['fileuploadserror'] = 'Tämän pitäisi olla päällä';
@@ -69,8 +141,8 @@ $string['gdversionhelp'] = '<p>Palvelimellasi ei näyttäisi olevan GD:tä asenn
 <p>Lisätäksesi GD:n PHP:hen Unix:in alaisena, käännä PHP käyttäen --with-gd parametria.</p>
 
 <p>Windowsin alaisena voit yleensä muokata php.ini:ä ja olla kommentoimatta rivivertailua libgd.dll.</p>';
-$string['installation'] = 'asennus';
-$string['magicquotesruntime'] = 'Magic quotes ajoaika';
+$string['globalsquotes'] = 'Globaalien muuttujien turvaton käsittely';
+$string['installation'] = 'Asennus';
 $string['magicquotesruntimeerror'] = 'Tämän pitäisi olla poissa päältä';
 $string['magicquotesruntimehelp'] = '<p>Magic quotes ajoajan pitäisi olla pois päältä, jotta Moodle voi toimia kunnolla.</p>
 
@@ -79,7 +151,7 @@ $string['magicquotesruntimehelp'] = '<p>Magic quotes ajoajan pitäisi olla pois 
 
 <p>Jos sinulla ei ole pääsyä php.ini:isi, saatat pystyä asettamaan seuraavan rivin tiedostoon nimeltä .htaccess Moodlen hakemiston sisällä:
 <blockquote>php_value magic_quotes_runtime Off</blockquote>
-</p> ';
+</p>';
 $string['memorylimit'] = 'Muistiraja';
 $string['memorylimiterror'] = 'PHP muistiraja on asetettu aika alas... Se saattaa aiheuttaa ongelmia myöhemmin.';
 $string['memorylimithelp'] = '<p>PHP muistiraja palvelimellesi on tällä hetkellä asetettu $a:han.</p>
@@ -96,7 +168,7 @@ Tämä sallii Moodlen asettaa muistirajan itse.</li>
 <p><blockquote>php_value memory_limit 16M</blockquote></p>
 <p>Kuitenkin, joillain palvelimilla tämä estää  <b>kaikkia</b> PHP sivuja toimimasta (näet virheet, kun katsot sivuja), joten sinun täytyy poistaa .htaccess tiedosto.</p></li>
 </ol>';
-$string['mysqlextensionisnotpresentinphp'] = 'PHP:tä ei ole kunnolla valittu asetukseksi MySQL laajennuksen kanssa, jotta se voisi kommunikoida MySQL:n kanssa. Tarkista php.ini tiedostosi tai käännä PHP uudelleen.';
+$string['mysqlextensionisnotpresentinphp'] = 'PHP:tä ei ole asennettu MySQL laajennuksen kanssa, jotta se voisi kommunikoida MySQL:n kanssa. Tarkista php.ini tiedostosi tai käännä PHP uudelleen.';
 $string['pass'] = 'Tarkastettu';
 $string['phpversion'] = 'PHP versio';
 $string['phpversionerror'] = 'PHP version täytyy olla vähintään 4.1.0';
@@ -114,6 +186,8 @@ $string['sessionautostarterror'] = 'Tämän pitäisi olla pois päältä';
 $string['sessionautostarthelp'] = '<p>Moodle vaatii istuntotukea, eikä toimi ilman sitä.</p>
 
 <p>istunto voidaan mahdollistaa php.ini tiedostossa... Etsi istuntoa varten.auto_start parameter.</p>';
+$string['skipdbencodingtest'] = 'Ohita tietokannan merkistö testi';
+$string['welcomep70'] = 'Klikkaa \"Seuraava\"-painiketta jatkaaksesi moodlen asennusta';
 $string['wwwroot'] = 'Web-osoite';
 $string['wwwrooterror'] = 'Web-osoite ei näyttäisi olevan voimassa- tämä Moodle asennus ei näyttäisi olevan siellä.';
 
