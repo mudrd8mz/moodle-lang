@@ -74,6 +74,7 @@ $string['categorydeleted'] = 'カテゴリ「 $a 」が削除されました。'
 $string['categoryinfo'] = 'カテゴリ情報';
 $string['categorymove'] = 'カテゴリ $a->name には $a->count の問題があります。他のカテゴリを選んでください。';
 $string['categorymoveto'] = 'このカテゴリに移動する';
+$string['categorynamecantbeblank'] = 'カテゴリ名を入力してください。';
 $string['categorynoedit'] = 'あなたは、カテゴリ「 $a 」における編集権限がありません。';
 $string['categoryupdated'] = 'カテゴリが正常に更新されました。';
 $string['changessaved'] = '評定の変更が保存されました。';
