@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.7 dev (2006100601)
+      // calendar.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['calendar'] = 'カレンダー';
@@ -37,10 +37,10 @@ $string['eventstarttime'] = '開始日時';
 $string['eventtime'] = '時間';
 $string['eventview'] = 'イベント詳細';
 $string['expired'] = '期間終了';
-$string['explain_lookahead'] = 'ここではイベントが直近のイベントとして表示されるための最大日数を設定します。この範囲より後に開催されるイベントは、直近イベントとして表示されません。すべてのイベントがこのスケジュールどおりに開始されることは<strong>保証されません</strong>; もし数多く ( 「直近イベントの最大表示件数」以上 ) のイベントが登録されている場合は、時間が遅いイベントが表示されません。';
-$string['explain_maxevents'] = 'ここでは直近イベントの最大表示件数を設定します。ここで大きな数を設定した場合は、直近のイベントを大量に表示するための画面スペースが必要になります。';
+$string['explain_lookahead'] = 'ここでは、イベントが直近のイベントとして表示されるための最大日数を設定します。この範囲より後に開催されるイベントは、直近イベントとして表示されません。すべてのイベントがこのスケジュールどおりに開始されることは<strong>保証されません</strong>; もし数多く ( 「直近イベントの最大表示件数」以上 ) のイベントが登録されている場合は、時間が遅いイベントが表示されません。';
+$string['explain_maxevents'] = 'ここでは、直近イベントの最大表示件数を設定します。ここで大きな数を設定した場合は、直近のイベントを大量に表示するための画面スペースが必要になります。';
 $string['explain_persistflt'] = 'この設定を行った場合、Moodleはあなたの最新のイベントフィルタ設定を記憶します。また、あなたがログインするたびに最新のイベントを自動的に表示します。';
-$string['explain_startwday'] = 'ここではすべての月間カレンダーの表示方法を設定します。あなたが慣れ親しんだ表示になるように設定してください。';
+$string['explain_startwday'] = 'ここでは、すべての月間カレンダーの表示方法を設定します。あなたが慣れ親しんだ表示になるように設定してください。';
 $string['explain_timeformat'] = '時間の表示は12時間表示または24時間表示を選択することができます。デフォルトを選択した場合は、使用言語に合わせてフォーマットが自動的に選択されます。';
 $string['fri'] = '金';
 $string['friday'] = '金曜日';
@@ -81,14 +81,14 @@ $string['today'] = '今日';
 $string['tomorrow'] = '明日';
 $string['tt_deleteevent'] = 'イベントの削除';
 $string['tt_editevent'] = 'イベントの編集';
-$string['tt_hidecourse'] = 'コースイベントは表示中です (  クリックで非表示  )';
-$string['tt_hideglobal'] = '全体のイベントは表示中です (  クリックで非表示  )';
-$string['tt_hidegroups'] = 'グループイベントは表示中です (  クリックで非表示  )';
-$string['tt_hideuser'] = 'ユーザイベントは表示中です (  クリックで非表示  )';
-$string['tt_showcourse'] = 'コースイベントは非表示中です(  クリックで表示  )';
-$string['tt_showglobal'] = '全体のイベントは非表示中です (  クリックで表示  )';
-$string['tt_showgroups'] = 'グループイベントは非表示中です (  クリックで表示  )';
-$string['tt_showuser'] = 'ユーザイベントは非表示中です (  クリックで表示  )';
+$string['tt_hidecourse'] = 'コースイベントは表示中です( クリックで非表示 )';
+$string['tt_hideglobal'] = '全体のイベントは表示中です( クリックで非表示 )';
+$string['tt_hidegroups'] = 'グループイベントは表示中です( クリックで非表示 )';
+$string['tt_hideuser'] = 'ユーザイベントは表示中です( クリックで非表示 )';
+$string['tt_showcourse'] = 'コースイベントは非表示中です( クリックで表示 )';
+$string['tt_showglobal'] = '全体のイベントは非表示中です( クリックで表示 )';
+$string['tt_showgroups'] = 'グループイベントは非表示中です( クリックで表示 )';
+$string['tt_showuser'] = 'ユーザイベントは非表示中です( クリックで表示 )';
 $string['tue'] = '火';
 $string['tuesday'] = '火曜日';
 $string['typecourse'] = 'コースイベント';
@@ -100,6 +100,6 @@ $string['userevents'] = 'ユーザイベント';
 $string['wed'] = '水';
 $string['wednesday'] = '水曜日';
 $string['yesterday'] = '昨日';
-$string['youcandeleteallrepeats'] = 'このイベントは繰り返しイベントの一部です。あなたはこのイベントのみを削除することもできますし、一度に $a 件すべてのイベントを削除することもできます。';
+$string['youcandeleteallrepeats'] = 'このイベントは繰り返しイベントの一部です。あなたはこのイベントのみ削除することもできますし、一度に $a 件すべてのイベントを削除することもできます。';
 
 ?>
