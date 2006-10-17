@@ -1,5 +1,5 @@
-<?php // $Id$
-      // auth.php - created with Moodle 1.6.1+ (2006050512)
+<?PHP // $Id$ 
+      // auth.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['alternatelogin'] = 'Jos kirjoitat tähän URL:n, sitä käytetään kirjautumissivuna tälle sivustolle. Sivun pitäisi sisältää lomake, jonak ominaisuudet on asetettu <strong>\'$a\'</strong> ja joko antaa paluukentät <strong>käyttäjänimi</strong> and <strong>salasana</strong>.<br />
@@ -23,6 +23,8 @@ $string['auth_cas_text'] = 'Suojattu yhteys';
 $string['auth_cas_version'] = 'CAS:in versio';
 $string['auth_casdescription'] = 'Tässä menetelmässä käytetään CAS-palvelinta (Central Authentication Service) käyttäjien varmennukseen käyttämällä yhden kirjautumisen ympäristöä, Single Sign On environment (SSO). Voit myös käyttää yksinkertaista LDAP-varmistusta. Jos annettu käyttäjänimi ja salasana ovat kelvollisia CAS:n mukaan Moodle luo uuden käyttäjätiedon tietokantaan ottaen käyttäjätiedot LDAP:stä, jos se  on tarpeen. Seuraavilla kirjautumiskerroilla vain käyttäjänimi ja salasana tarkistetaan.';
 $string['auth_castitle'] = 'Käytä CAS-palvelinta (SSO)';
+$string['auth_changepasswordhelp'] = 'Salasanan vaihto-ohjeet';
+$string['auth_changepasswordurl'] = 'Salasanan vaihto URL-osoite';
 $string['auth_common_settings'] = 'Yleiset asetukset';
 $string['auth_data_mapping'] = 'Tietojen yhdistäminen';
 $string['auth_dbdescription'] = 'Tämä moduli tarkistaa ulkoisen tietokannan taulusta käyttäjätunnuksen ja salasanan. Jos käyttäjätunnus on uusi, myös muita tietoja voidaan kopioda Moodleen.';
@@ -143,12 +145,13 @@ $string['forcechangepasswordfirst_help'] = 'Pakota käyttäjät vaihtamaan salas
 $string['guestloginbutton'] = 'Kirjaudu vieraana-painike';
 $string['infilefield'] = 'Salasana on tiedostossa';
 $string['instructions'] = 'Ohjeet';
+$string['internal'] = 'Sisäinen';
 $string['locked'] = 'Lukittu';
 $string['md5'] = 'MD5-salaus';
 $string['passwordhandling'] = 'Salasanakentän käsittely';
 $string['plaintext'] = 'Selväkielinen teksti';
 $string['showguestlogin'] = 'Voit näyttää tai piilottaa Kirjaudu vieraana-painikkeen kirjautumissivulla.';
-$string['stdchangepassword'] = 'Käytä norminmukaista Vaihda salasana Sivua';
+$string['stdchangepassword'] = 'Käytä tavalllista Vaihda salasana sivua';
 $string['stdchangepassword_expl'] = 'Jos ulkoinen oikeuksien tarkistaminen sallii salasanojen vaihdot Moodlen kautta, vaihda tämä muotoon kyllä. Tämä asetus syrjäyttää \"Vaihda salasana URL\".';
 $string['stdchangepassword_explldap'] = 'HUOMAUTUS: On suositeltavaa, että käytetään ennemmin LDAP kuin SSL salakirjoitettua tunnelia (ldaps://)jos LDAP palvelin on etäkäytössä.';
 $string['unlocked'] = 'Lukitsematon';

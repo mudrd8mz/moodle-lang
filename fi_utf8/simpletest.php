@@ -19,7 +19,10 @@ $string['runat'] = 'Suorita testi klo $a';
 $string['runonlyfile'] = 'Suorita testit tastä tiedostosta';
 $string['runonlyfolder'] = 'Suorita testit tastä hakemistosta';
 $string['runtests'] = 'Suorita testit';
+$string['rununittests'] = 'Suorita testit';
 $string['showpasses'] = 'Näytä myös onnistuneet testit';
 $string['showsearch'] = 'Näytä testitiedostojen haku';
+$string['thorough'] = 'Suorita perusteelliset testit (vie aikaa)';
+$string['unittests'] = 'Testit';
 
 ?>
