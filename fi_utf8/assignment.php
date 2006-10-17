@@ -25,10 +25,12 @@ $string['assignmenttype'] = 'Tehtävän tyyppi';
 $string['availabledate'] = 'Tarjoaa';
 $string['comment'] = 'Kommentoi';
 $string['commentinline'] = 'Kommentoi ja muokkaa vastausta';
+$string['configitemstocount'] = 'Kohteiden tyyppit, jotka lasketaan opiskelijalle tehtävissä.';
 $string['configmaxbytes'] = 'Oletusasetus sivuston tehtävien maksimikoolle (alisteinen kurssien omille rajoituksille ja muille paikallisille asetuksille)';
+$string['confirmdeletefile'] = 'Oletko varma että haluat poistaa tiedoston?<br /><strong>$a</strong>';
 $string['deletefilefailed'] = 'Tiedoston poistaminen epäonnistui';
 $string['description'] = 'Kuvaus';
-$string['draft'] = 'Kesken';
+$string['draft'] = 'Keskeneräinen';
 $string['duedate'] = 'Palautettava viimeistään';
 $string['duedateno'] = 'Ei palautuspäivämäärää';
 $string['early'] = '$a ajoissa';
@@ -56,6 +58,10 @@ $string['helpoffline'] = '<p>Tämä on hyödyllistä kun tehtävä suoritetaan M
 <p>Oppilaat voivat nähdä tehtävän kuvailun, mutta eivät voi palauttaa tiedostoja tai muutakaan. Arvostelu tapahtuu normaalisti ja oppilaat saavat ilmoituksen arvosanoistaan.</p>';
 $string['helponline'] = '<p>Tässä tehtävätyypissä käyttäjät muokkaavat valittua tekstiä käyttäen normaaleja tekstinkäsittelytyökaluja. Opettajat voivat arvostella heidät verkossa, ja jopa lisätä kommenttejaan tai muuttaa töitä.</p>
 <p>(Jos olet perehtynyt Moodlen aikaisempiin versioihin, tämä tehtävätyyppi on samanlainen kuin aikaisempi Muistio-moduuli.';
+$string['helpupload'] = '<p>Tämä tehtävätyyppi antaa jokaisen osallistujan lähettää yhden tai useampia tiedostoja. Tiedostot voivat olla tekstinkäsittely dokumentteja, kuvia, zip-paketteja tai mitä tahansa heiltä pyydät.</p>
+<p>Tehtävätyyppi mahdollistaa myös usen palautetiedoston lähettämisen. Palautetiedostot voidaan lähettää ennen kun tehtävä on avattu, jolloin jokaiselle osallistujalle voidaan antaa oma tiedosto työstettäväksi.</p>
+<p>Osallistujat voivat myös jättää kommentteja omista tiedostoistaan.<7p>
+<p>Osallistujan pitää lopuksi hyväksyä tehvän palutuksensa valmiiksi. Siihen asti kesken olevat tehtävät ovat merkittynä keskeneräisiksi.</p>';
 $string['helpuploadsingle'] = '<p>Tämän tyyppisessä tehtävässä kaikki osanottajat voivat palauttaa yhden tiedoston, joka voi olla mitä tahansa tyyppiä.</p>
 <p>Se saattaa olla tekstidokumentti, kuva, zip-pakattu verkkosivu tai mitä tahansa pyydätkin heiltä.</p>';
 $string['hideintro'] = 'Piilota kuvaus kunnes tehtävä on avoinna';
@@ -69,7 +75,10 @@ $string['noassignments'] = 'Ei vielä tehtäviä';
 $string['noattempts'] = 'Tätä tehtävää ei ole vielä koitettu ratkoa';
 $string['nofiles'] = 'Tiedostoja ei palautettu';
 $string['nofilesyet'] = 'Ei palautettuja tiedostoja vielä';
+$string['notavailableyet'] = 'Tämä tehtävä ei ole vielä avoinna.<rb /> Tehtävän ohjeet näytetään alla olevana ajankohtana.';
 $string['notes'] = 'Muistiinpanot';
+$string['notesempty'] = 'Ei kohteita';
+$string['notesupdateerror'] = 'Virhe päivitettäessä muitiinpanoja';
 $string['notgradedyet'] = 'Ei vielä arvioitu';
 $string['notsubmittedyet'] = 'Ei vielä palautettu';
 $string['onceassignmentsent'] = 'Kun tehtävä on palautettu merkittäväksi, et voi enää poistaa tai lisätä tiedostoja.';
@@ -93,6 +102,7 @@ $string['typeoffline'] = 'Offline-tehtävä';
 $string['typeonline'] = 'Verkkoteksti';
 $string['typeupload'] = 'Tiedostojen lähetys';
 $string['typeuploadsingle'] = 'Lähetä yksi tiedosto';
+$string['unfinalize'] = 'Palauta keskeneräiseksi';
 $string['uploadbadname'] = 'Tiedostonimessä on tuntemattomia merkkejä. Tiedostoa ei voida lähettää.';
 $string['uploadedfiles'] = 'lähetetyt tiedostot';
 $string['uploaderror'] = 'Tiedoston tallentamisessa palvelimelle tapahtui virhe.';
