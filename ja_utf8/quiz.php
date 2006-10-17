@@ -103,6 +103,7 @@ $string['copyingquestion'] = '問題のコピー';
 $string['correct'] = '正解';
 $string['correctanswer'] = '正解';
 $string['correctanswerformula'] = '正解の公式';
+$string['correctansweris'] = '正解: $a';
 $string['correctanswerlength'] = '有効数字';
 $string['correctanswers'] = '正解';
 $string['correctanswershows'] = '正解の表示';
