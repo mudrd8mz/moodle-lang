@@ -269,6 +269,7 @@ $string['lang'] = 'Varsayılan dil';
 $string['lang16notify'] = 'Moodle 1.6 ve yukarı sürümleri dil paketlerini direkt olarak download.moodle.org sitesinden aşağıdaki linki tıklayarak indirip kurmanıza izin verir';
 $string['langcache'] = 'Dil menüsünü önbellekle';
 $string['langedit'] = 'Dil düzenleme';
+$string['langimport'] = 'Dil yükleme aracı';
 $string['langimportsuccess'] = 'Dil paketi başarıyla güncellendi';
 $string['langlist'] = 'Dil menüsündeki diller';
 $string['langmenu'] = 'Dil menüsünü göster';

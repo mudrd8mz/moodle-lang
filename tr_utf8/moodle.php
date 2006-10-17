@@ -1384,6 +1384,7 @@ $string['virusfoundsubject'] = '$a: Virüs bulundu!';
 $string['virusfounduser'] = 'Yüklediğiniz dosya ($a->filename) virüs kontrolünden geçirildi ve virüslü olduğu algılandı. Dosya yükleme BAŞARISIZ.';
 $string['virusplaceholder'] = 'Yüklenen dosyada virüs olduğu algılandı. Dosya silindi veya taşındı ayrıca kullanıcı bilgilendirildi.';
 $string['visible'] = 'Görünür';
+$string['visibletostudents'] = '$a\'e görünür';
 $string['warningdeleteresource'] = 'Dikkat: $a kaynağı başka bir yerde kullanılıyor. Kaynağı güncellemek ister misiniz?';
 $string['webpage'] = 'Web sayfası';
 $string['week'] = 'Hafta';

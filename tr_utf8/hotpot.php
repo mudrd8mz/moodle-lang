@@ -4,6 +4,7 @@
 
 $string['abandoned'] = 'Vazgeçildi';
 $string['addquizchain'] = 'Zincirleme sınav ekle';
+$string['allmycourses'] = 'Tüm kurslarım';
 $string['allusers'] = 'Tüm kullanıcılar';
 $string['alwaysopen'] = 'Her zaman açık';
 $string['attemptsall'] = 'Bütün uygulamalar';
@@ -139,6 +140,7 @@ $string['textsourcefilename'] = 'Dosya adı kullan';
 $string['textsourcefilepath'] = 'Dosya yolu kullan';
 $string['textsourcequiz'] = 'Sınavdan getir';
 $string['textsourcespecific'] = 'Belirli metin';
+$string['thiscourse'] = 'Bu kurs';
 $string['timedout'] = 'Süresi doldu';
 $string['updatequizchain'] = 'Zincirleme sınav güncelle';
 $string['weighting'] = 'Ağırlık';

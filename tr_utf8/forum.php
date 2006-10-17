@@ -123,6 +123,7 @@ $string['movedmarker'] = '(Taşındı)';
 $string['movethisdiscussionto'] = 'Bu tartışmayı taşı...';
 $string['namenews'] = 'Haber forumu';
 $string['namesocial'] = 'Sosyal forum';
+$string['nameteacher'] = 'Eğitimci forumu';
 $string['newforumposts'] = 'Yeni forum mesajı';
 $string['nodiscussions'] = 'Bu forumda henüz bir tartışma konusu yoktur';
 $string['noguestpost'] = 'Ziyaretçiler mesaj gönderemezler';
