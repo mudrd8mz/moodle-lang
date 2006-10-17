@@ -273,6 +273,7 @@ $string['lang'] = 'デフォルト言語';
 $string['lang16notify'] = 'Moodle1.6以上のバージョンでは、下記のリンクでmoodle.orgより言語パックのインストールおよびアップデートを行うことができます。';
 $string['langcache'] = '言語メニューをキャッシュする';
 $string['langedit'] = '言語の編集';
+$string['langimport'] = '言語インポートユーティリティ';
 $string['langimportsuccess'] = '言語パックが正常に更新されました。';
 $string['langlist'] = '言語メニューの言語';
 $string['langmenu'] = '言語メニューを表示する';
