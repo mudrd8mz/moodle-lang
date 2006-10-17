@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 dev (2006100601)
+      // assignment.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -75,7 +75,7 @@ $string['notesempty'] = 'エントリなし';
 $string['notesupdateerror'] = 'メモの更新中にエラーが発生しました。';
 $string['notgradedyet'] = '未評価';
 $string['notsubmittedyet'] = '未提出';
-$string['onceassignmentsent'] = '採点のため課題を提出すると、あなたはファイルを削除または添付することができません。';
+$string['onceassignmentsent'] = '採点のため課題を提出すると、あなたはファイルを削除または添付することができません。本当に続けてもよろしいですか?';
 $string['overwritewarning'] = '注意: 再度アップロードすることにより現在の提出課題は置き換えられます。';
 $string['pagesize'] = '1ページあたりの提出課題数';
 $string['preventlate'] = '提出期限後の課題提出を許可しない';
