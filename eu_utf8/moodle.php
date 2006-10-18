@@ -169,6 +169,7 @@ $string['checkingsections'] = 'Atalak egiaztatu';
 $string['checklanguage'] = 'Hizkuntza egiaztatu';
 $string['checknone'] = 'Ez egiaztatu ezer';
 $string['childcoursenotfound'] = 'Bigarren mailako ikastarorik ez da aurkitu!';
+$string['childcourses'] = 'Bigarren mailako ikastaroak';
 $string['choose'] = 'Aukeratu';
 $string['choosecourse'] = 'Ikastaroa aukeratu';
 $string['chooseenrolmethod'] = 'Izena emateko modu lehenetsia';
