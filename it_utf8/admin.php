@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 beta (2006101000)
+      // admin.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['accounts'] = 'Profili';
@@ -250,6 +250,8 @@ $string['environmentrequireinstall'] = 'è necessaria l\'installazione/abilitazi
 $string['environmentrequireversion'] = 'È necessaria la versione $a->needed e la vostra versione attuale è $a->current';
 $string['environmentxmlerror'] = 'Errore durante la lettura dei dati dell\'ambiente ($a->error_code)';
 $string['errors'] = 'Errori';
+$string['errorsetting'] = 'Non è possibile salvare l\'impostazione:';
+$string['errorwithsettings'] = 'Alcune impostazioni non saranno cambiate a causa di un errore:';
 $string['extendedusernamechars'] = 'Permetti l\'uso di caratteri speciali negli username';
 $string['filterall'] = 'Filtra tutte le stringhe';
 $string['filtermatchoneperpage'] = 'Filtra occorrenze una volta per pagina';
@@ -294,6 +296,7 @@ $string['lang'] = 'Lingua di default';
 $string['lang16notify'] = 'Moodle 1.6 e successivi permette di installare e aggiornare i language pack direttamente da download.moodle.org seguendo il collegamento qui sotto.';
 $string['langcache'] = 'Cache del menu delle lingue';
 $string['langedit'] = 'Modifica lingua';
+$string['langimport'] = 'Utilità di importazione della lingua';
 $string['langimportsuccess'] = 'Language Pack aggiornato correttamente';
 $string['langlist'] = 'Lingue sul menu delle lingue';
 $string['langmenu'] = 'Mostra il menu delle lingue';
@@ -464,5 +467,6 @@ $string['users'] = 'Utenti';
 $string['userscreated'] = 'Utenti creati';
 $string['usersrenamed'] = 'Utenti rinominati';
 $string['usersupdated'] = 'Utenti aggiornati';
+$string['validateerror'] = 'Questo valore non era valido:';
 
 ?>

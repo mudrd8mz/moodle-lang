@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006082800)
+      // error.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['adminprimarynoedit'] = 'L\'amministratore principale non può essere modificato dagli altri';
@@ -11,9 +11,12 @@ $string['cannotfindcomponent'] = 'Non è possibile trovare il componente.';
 $string['cannotsavemd5file'] = 'Non è possibile salvare il file md5.';
 $string['cannotsavezipfile'] = 'Non è possibile salvare il file compresso.';
 $string['cannotunzipfile'] = 'Non è possibile scompattare il file.';
+$string['cantunenrollfrommetacourse'] = 'Non è possibile disiscrivervi da questo metacorso (iscrizioni ereditate).';
+$string['cantunenrollinthisrole'] = 'Non è possibile disiscrivervi da questo corso mentre siete nel ruolo attuale';
 $string['cmunknown'] = 'Non è possibile trovare questo modulo.';
 $string['componentisuptodate'] = 'Componente aggiornato.';
 $string['confirmsesskeybad'] = 'Spiacente, ma la vostra chiave di sessione non può essere confermata per completare questa operazione. Questa caratteristica di sicurezza previene l\'esecuzione accidentale o maligna di funzioni importanti effettuate a vostro nome. Assicuratevi di voler eseguire realmente questa funzione.';
+$string['couldnotassignrole'] = 'Si è verificato un problema non specificato ma serio mentre si tentava di assegnarvi un ruolo';
 $string['coursegroupunknown'] = 'Il corso corrisponde a un gruppo $a non specificato';
 $string['downloadedfilecheckfailed'] = 'Controllo file scaricato fallito.';
 $string['errorcleaningdirectory'] = 'Si è verificato un errore svuotando la cartella \"$a\"';
@@ -34,12 +37,14 @@ $string['invalidcourse'] = 'Corso non valido';
 $string['invalidfieldname'] = '\"$a\" non è nome di campo valido';
 $string['invalidfiletype'] = '\"$a\" non è un tipo di file valido';
 $string['invalidmd5'] = 'MD5 non valido';
+$string['invalidrole'] = 'Ruolo non valido';
 $string['invalidxmlfile'] = '\"$a\" non è file XML valido';
 $string['missingfield'] = 'Manca il campo \"$a\"';
 $string['missingrequiredfield'] = 'Mancano alcuni campi richiesti';
 $string['modulemissingcode'] = 'Nel modulo $a manca il codice necessario per eseguire questa funzione';
 $string['modulerequirementsnotmet'] = 'Il modulo \"$a->modulename\" ($a->moduleversion) non può essere installato. Richiede una versione più aggiornata di Moodle (attualmente state usando $a->currentmoodle, mentre servirebbe $a->requiremoodle).';
 $string['mustbeteacher'] = 'Bisogna essere docenti per visualizzare questa pagina';
+$string['nocontext'] = 'Spiacente, ma quel corso non è un contesto valido';
 $string['noinstances'] = 'Non ci sono istanze di $a in questo corso!';
 $string['nonmeaningfulcontent'] = 'Contenuto senza significato';
 $string['noparticipatorycms'] = 'Spiacente, ma il rapporto di partecipazione dei moduli del corso non è attivato.';
@@ -59,6 +64,7 @@ $string['sessionerroruser'] = 'La sessione è scaduta o è stato rilevato un err
 $string['sessionerroruser2'] = 'È stato rilevato un errore su server che ha compromesso la vostra sessione di autenticazione. Vi preghiamo di autenticarvi nuovamente o di far ripartire il browser.';
 $string['sessionipnomatch'] = 'Spiacente, ma il vostro IP sembra essere cambiato da quando vi siete autenticati. Questa caratteristica previene il furto della vostra identità  da parte di hackers mentre siete collegati a questo sito. Gli utenti non dovrebbero vedere questo messaggio - chiedere aiuto all\'amministratore del sito.';
 $string['statscatchupmode'] = 'Le statistiche sono attualmente in modalità  di raccolta dati. Sono già  stati elaborati $a->daysdone giorno(i) e $a->dayspending lo devono ancora essere. Ricontrollate presto!';
+$string['unicodeupgradeerror'] = 'Spiacente, ma la vostra base di dati non è ancora in  Unicode, e questa versioen di Moodle non è in grado di migrare la vostra base di dati in Unicode. Si prega di aggiornare a Moodle 1.7.x prima ed effettuare la migrazione a Unicode dalla pagina di Amministrazione. Fatto questo vi sarà possibile migrare a Moodle $a';
 $string['unknowncourse'] = 'Il corso chiamato \"$a\" risulta sconosciuto';
 $string['unknownuseraction'] = 'Spiacente, non si riesce a capire questa azione dell\'utente';
 $string['usernotaddederror'] = 'L\'utente \"$a\" non è stato aggiunto - errore sconosciuto';

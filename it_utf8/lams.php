@@ -1,12 +1,15 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.6 development (2006022400)
+      // lams.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['createSequence'] = 'Creare una nuova sequenza';
 $string['editSequence'] = 'Modificare la sequenza selezionata';
-$string['error'] = 'Spiacente, &egrave; occorso un errore sconosciuto.';
+$string['error'] = 'Spiacente, è occorso un errore sconosciuto.';
 $string['introduction'] = 'Introduzione';
-$string['lams'] = '-- LAMS - Sistema di Gestione Attivit&agrave; di Apprendimento';
+$string['lams'] = '-- LAMS - Learning Activity Management System -- 
+(Sistema di Gestione Attività di Apprendimento)';
+$string['lams:manage'] = 'Gestione attività LAMS';
+$string['lams:participate'] = 'Pertecipare alle attività LAMS';
 $string['lamsoutline'] = 'Schema LAMS';
 $string['lesson'] = 'Sessione di apprendimento';
 $string['modulename'] = 'LAMS';
@@ -22,9 +25,9 @@ $string['serverid'] = 'Inserire l\'identificativo (ID) del server ricevuta da <a
 $string['serverkey'] = 'Inserire la chiave del server ricevuta da <a href=http://www.lamsinternational.com target=_blank>LAMS international</a>.';
 $string['serverurl'] = 'Inserire l\'indirizzo (URL) di base utilizzato per accedere al server LAMS. Per esempio http://localhost:8080/lams';
 $string['useSequence'] = 'Utilizzare una sequenza selezionata';
-$string['visibletostudents'] = 'Mostrare l\'attivit&agrave; agli studenti';
-$string['wikistartederror'] = 'Wiki ha gi&agrave; elementi - non &egrave; possibile modificare.';
+$string['visibletostudents'] = 'Mostrare l\'attività agli studenti';
+$string['wikistartederror'] = 'Wiki ha già elementi - non è possibile modificare.';
 $string['workspace'] = 'Selezionare Ambiente di lavoro';
-$string['wrongversionrange'] = '$a non &egrave; un intervallo corretto!';
+$string['wrongversionrange'] = '$a non è un intervallo corretto!';
 
 ?>

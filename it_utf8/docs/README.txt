@@ -4,7 +4,7 @@ Documentazione di Moodle
 Se vuoi tradurre quest documentazione in un altra lingua,
 vorrei darti alcuni suggerimenti:
 
- 1) non includere la versione inglese dei file in questa directory perch 
+ 1) non includere la versione inglese dei file in questa directory perchŽ 
     verranno usati automaticamente comunque se mandaco nel tuo pacchetto
     della lingua.
 
@@ -44,5 +44,3 @@ vorrei darti alcuni suggerimenti:
     MENO IMPORTANTE
 
  3) Per favore non traducete credits.html - cambia troppo spesso.
-
-

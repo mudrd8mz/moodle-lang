@@ -1,15 +1,16 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004101900)
+      // dialogue.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['addmynewentries'] = 'Aggiungi i miei nuovi messaggi';
 $string['addmynewentry'] = 'Aggiungi il mio nuovo messaggio';
 $string['addsubject'] = 'Aggiungi argomento';
-$string['allowmultiple'] = 'Permetti pi&ugrave; di un dialogo con la stessa persona';
+$string['allowmultiple'] = 'Permetti più di un dialogo con la stessa persona';
 $string['allowstudentdialogues'] = 'Permetti dialoghi studente-studente';
 $string['close'] = 'Termina';
 $string['closed'] = 'Terminato';
-$string['confirmclosure'] = 'Stai per terminare un dialogo con $a. Una volta terminato il dialogo non pu&ograve; essere riiniziato. Se termini questo dialogo potrai visualizzarlo ma non potrai pi&ugrave; aggiungere niente, e dovrai iniziare un altro dialogo per continuare a \"parlare\" con questa persona.<br /><br />Sei sicuro di voler terminare questo dialogo? ';
+$string['closeddialogues'] = 'Dialoghi terminati';
+$string['confirmclosure'] = 'Stai per terminare un dialogo con $a. Una volta terminato il dialogo non può essere riiniziato. Se termini questo dialogo potrai visualizzarlo ma non potrai più aggiungere niente, e dovrai iniziare un altro dialogo per continuare a \"parlare\" con questa persona.<br /><br />Sei sicuro di voler terminare questo dialogo?';
 $string['deleteafter'] = 'Cancella i dialoghi terminati dopo (Giorni)';
 $string['dialogueclosed'] = 'Dialogo terminato';
 $string['dialogueintro'] = 'Introduzione dialogo';
@@ -33,10 +34,11 @@ $string['modulenameplural'] = 'Dialoghi';
 $string['namehascloseddialogue'] = '$a ha chiuso il dialogo';
 $string['newdialogueentries'] = 'Nuovi messaggi nel dialogo';
 $string['newentry'] = 'Nuovo messaggio';
-$string['noavailablepeople'] = 'Non c\'&egrave; nessuno disponibile a un dialogo';
+$string['noavailablepeople'] = 'Non c\'è nessuno disponibile a un dialogo';
 $string['nopersonchosen'] = 'Nessuna persona scelta';
-$string['nosubject'] = 'Non &egrave; stato inserito un argomento';
-$string['notextentered'] = 'Non &egrave; stato inserito il testo';
+$string['nosubject'] = 'Non è stato inserito un argomento';
+$string['notavailable'] = 'I dialoghi non sono disponibili agli utenti ospiti';
+$string['notextentered'] = 'Non è stato inserito il testo';
 $string['notstarted'] = 'Non hai ancora iniziato questo dialogo';
 $string['notyetseen'] = 'Non ancora visto';
 $string['numberofentries'] = 'Numero di messaggi';
@@ -47,7 +49,8 @@ $string['onyouwrote'] = 'Su $a tu scrissi';
 $string['open'] = 'Inizia';
 $string['openadialoguewith'] = 'Inizia un dialogo con';
 $string['opendialogue'] = 'Inizia dialogo';
-$string['opendialogueentries'] = 'Inizia ';
+$string['opendialogueentries'] = 'Inizia';
+$string['opendialogues'] = 'Dialoghi aperti';
 $string['pane0'] = 'Inizia un dialogo';
 $string['pane1'] = '$a dialoghi attendono una replica da te';
 $string['pane1one'] = '1 dialogo attende una replica da te';

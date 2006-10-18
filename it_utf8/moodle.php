@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 beta (2006101000)
+      // moodle.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['action'] = 'Azione';
@@ -1396,6 +1396,7 @@ $a->action';
 $string['virusfoundsubject'] = '$a: trovato virus!';
 $string['virusfounduser'] = 'Il file che hai caricato, $a->filename, è stato analizzato dall\'antivirus e ed è stata rilevata un ainfezione. Il caricamento del file non è andato a buon fine.';
 $string['virusplaceholder'] = 'Questo file è stato caricato con un virus, pertanto è stato spostato altrove o cancellato. L\'utente è stato informato.';
+$string['visible'] = 'Visibile';
 $string['visibletostudents'] = 'Visibile da $a';
 $string['warningdeleteresource'] = 'Attenzione: $a è collegato a una risorsa. Si vuole aggiornare la risorsa?';
 $string['webpage'] = 'Pagina web';
