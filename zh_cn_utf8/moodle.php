@@ -143,16 +143,16 @@ $string['backupusershelp'] = '选择是否包含所有用户还是只要各个�
 $string['backupversion'] = '备份版本';
 $string['blockconfiga'] = '配置版块$a';
 $string['blockconfigbad'] = '由于版块未配置正确，无法显示其配置界面。';
-$string['blockdeleteconfirm'] = '您选择完全删除版块“$a“。这将删除数据库中与此版块相连的全部数据，您确定要继续么?';
-$string['blockdeletefiles'] = '与板块“$a->block”相关联的所有数据都已经被删除了。要完成删除(并防止版块重新自动安装)，您应当从服务器上删除如下目录:{$a->directory}。';
+$string['blockdeleteconfirm'] = '您选择完全删除版块“{$a}”。这将删除数据库中与此版块相连的全部数据，您确定要继续么?';
+$string['blockdeletefiles'] = '与板块“{$a->block}”相关联的所有数据都已经被删除了。要完成删除(并防止版块重新自动安装)，您应当从服务器上删除如下目录:{$a->directory}。';
 $string['blocks'] = '版块';
 $string['blocksaddedit'] = '添加/修改版块';
 $string['blockseditoff'] = '版块编辑关';
 $string['blocksediton'] = '版块编辑开';
 $string['blocksetup'] = '设定版块表格';
-$string['blocksuccess'] = '$a表格已经正确设置了';
+$string['blocksuccess'] = '{$a}表格已经正确设置了';
 $string['bycourseorder'] = '按课程顺序';
-$string['byname'] = '按$a';
+$string['byname'] = '按{$a}';
 $string['bypassed'] = '忽视';
 $string['cachecontrols'] = '缓存控制';
 $string['cancel'] = '取消';
@@ -187,9 +187,9 @@ $string['city'] = '市/县';
 $string['clambroken'] = '您的管理员激活了对上传文件的病毒检查，但有些地方配置错误了。<br />您上传文件的操作并未成功。系统已经给管理员发信通知他们修复这个错误。<br />您可以稍后重新上传这个文件。';
 $string['clamdeletedfile'] = '文件已经被删除了';
 $string['clamdeletedfilefailed'] = '无法删除文件';
-$string['clamemailsubject'] = '$a :: Clam AV 通知';
+$string['clamemailsubject'] = '{$a} :: Clam AV 通知';
 $string['clamfailed'] = 'Clam AV运行失败。返回的错误信息是{$a}。下面是Clam的输出:';
-$string['clamlost'] = 'Moodle已经被配置为运行clam对上传的文件进行检查，但提供给Clam AV的路径 $a 是非法的。';
+$string['clamlost'] = 'Moodle已经被配置为运行clam对上传的文件进行检查，但提供给Clam AV的路径 {$a} 是非法的。';
 $string['clamlostandactinglikevirus'] = '此外，moodle当前的配置是，如果clam的运行失败了，系统将会以对待病毒的方式来对待所有文件。这意味着在错误被修复前，学生们不能上传任何文件。';
 $string['clammovedfile'] = '文件已经被移动到您指定的隔离目录中，新的位置是{$a}。';
 $string['clammovedfilebasic'] = '文件已经被移动到一个隔离目录中了。';
@@ -221,7 +221,7 @@ $string['costdefault'] = '缺省费用';
 $string['counteditems'] = '$a->count$a->items';
 $string['country'] = '国家和地区';
 $string['course'] = '课程';
-$string['courseapprovedemail'] = '您申请的课程 {$a->name} 已经嗯被批准了，你现在已经是该课程的 {$a->teacher}。要访问您的新课程，请点击 $a->url。';
+$string['courseapprovedemail'] = '您申请的课程 {$a->name} 已经嗯被批准了，你现在已经是该课程的 {$a->teacher}。要访问您的新课程，请点击 {$a->url}。';
 $string['courseapprovedfailed'] = '保存待批准课程失败';
 $string['courseapprovedsubject'] = '你的课程已经通过';
 $string['courseavailable'] = '该课程允许学生学习';
@@ -290,9 +290,9 @@ $string['databasechecking'] = '把数据库从{$a->oldversion}版升级到{$a->n
 $string['databaseperformance'] = '数据库选项';
 $string['databasesetup'] = '正在安装数据库';
 $string['databasesuccess'] = '数据库升级成功';
-$string['databaseupgradebackups'] = '现在的备份版本是$a';
-$string['databaseupgradeblocks'] = '现在的版块版本是$a';
-$string['databaseupgradelocal'] = '现在的本地数据库版本是$a';
+$string['databaseupgradebackups'] = '现在的备份版本是{$a}';
+$string['databaseupgradeblocks'] = '现在的版块版本是{$a}';
+$string['databaseupgradelocal'] = '现在的本地数据库版本是{$a}';
 $string['databaseupgrades'] = '升级数据库';
 $string['date'] = '日期';
 $string['datechanged'] = '日期已变更';
@@ -320,11 +320,11 @@ $string['deletecompletely'] = '彻底删除';
 $string['deletecourse'] = '删除一个课程';
 $string['deletecoursecheck'] = '您真的确定要彻底删除该课程及其所有文件资料吗?';
 $string['deleted'] = '已经删除';
-$string['deletedactivity'] = '已经删除$a';
+$string['deletedactivity'] = '已经删除{$a}';
 $string['deletedcourse'] = '{$a}已经被彻底删除';
 $string['deletednot'] = '无法删除{$a}!';
 $string['deleteselected'] = '删除选定的项';
-$string['deletingcourse'] = '正在删除$a';
+$string['deletingcourse'] = '正在删除{$a}';
 $string['deletingexistingcoursedata'] = '删除已存在的课程数据';
 $string['deletingolddata'] = '删除旧数据';
 $string['department'] = '系部';
@@ -334,7 +334,7 @@ $string['detailedless'] = '少些细节';
 $string['detailedmore'] = '多些细节';
 $string['directorypaths'] = '字典路径';
 $string['disable'] = '禁用';
-$string['displayingfirst'] = '只显示第一个$a->count $a->things';
+$string['displayingfirst'] = '只显示第一个{$a->count $a->things}';
 $string['displayingrecords'] = '显示{$a}条记录';
 $string['displayingusers'] = '从{$a->start}到{$a->end}显示用户';
 $string['documentation'] = '帮助文档';
@@ -344,7 +344,7 @@ $string['downloadexcel'] = '以Excel文件格式下载';
 $string['downloadtext'] = '以纯文本格式下载';
 $string['doyouagree'] = '您已经阅读并理解了这些条件吗?';
 $string['duplicate'] = '复制';
-$string['duplicatinga'] = '正在复制: $a';
+$string['duplicatinga'] = '正在复制: {$a}';
 $string['duplicatingain'] = '复制{$a->in}中的{$a->what}';
 $string['edhelpaspellpath'] = '要在编辑器中使用拼写检查功能，您必须在服务器上安装<strong>aspell 0.50</strong>或其更高版本，并且还要正确地指定aspell程序的路径。在Unix/Linux系统上通常是<strong>/usr/bin/aspell</strong>，当然也可能是其它地方。';
 $string['edhelpbgcolor'] = '定义可编辑区域的背景颜色。<br />可以使用如下合法的值: #ffffff 或 white';
@@ -353,11 +353,11 @@ $string['edhelpenablespelling'] = '激活或关闭拼写检查。当激活时，
 $string['edhelpfontfamily'] = '字体属性是一系列具体的或通用字体名称的列表。字体名称必须以逗号分隔。';
 $string['edhelpfontlist'] = '定义在编辑器的下拉菜单中使用的字体。';
 $string['edhelpfontsize'] = '缺省的字号设定了字体的大小。<br />合法的值如下: medium、large、smaller、lager、10pt、11px。';
-$string['edit'] = '编辑$a';
+$string['edit'] = '编辑{$a}';
 $string['editcoursesettings'] = '编辑课程设定';
 $string['editfiles'] = '编辑文件';
 $string['editgroupprofile'] = '编辑组';
-$string['editinga'] = '正在编辑一个$a';
+$string['editinga'] = '正在编辑一个{$a}';
 $string['editingteachershort'] = '编辑器';
 $string['editlock'] = '不能修改这个值!';
 $string['editmyprofile'] = '编辑个人资料';
@@ -385,14 +385,14 @@ $string['emailconfirmation'] = '{$a->firstname}，您好：
 
 如果要确认您的新帐号，请点击以下链接： 
 
-  $a->link
+{$a->link}
 
 在多数的邮件软件中，这个地址应该显示为蓝色的链接，可以直接点击。如果不是这样，请将以上地址复制粘贴到网页浏览器窗口上部的地址栏中，打开这个网页。
 
 
 如果您需要帮助，请联系网站管理员{$a->admin}。';
-$string['emailconfirmationsubject'] = '$a: 帐号确认';
-$string['emailconfirmsent'] = '<p>一封邮件已经发送到您的地址 <b>$a</b>。</p>
+$string['emailconfirmationsubject'] = '{$a}: 帐号确认';
+$string['emailconfirmsent'] = '<p>一封邮件已经发送到您的地址 <b>{$a}</b>。</p>
 <p>这封邮件简要说明了您如何完成注册。</p>
 <p>如果您还遇到什么困难，请和站点管理员联系。</p>';
 $string['emaildigest'] = 'E-mail摘要类型';
@@ -410,21 +410,21 @@ $string['emailenableclick'] = '点击此处重新向此地址发送邮件';
 $string['emailexists'] = '这个电子邮件地址已经注册过了。';
 $string['emailformat'] = 'E-mail格式';
 $string['emailmustbereal'] = '注意: 的E-mail地址必须是真实的';
-$string['emailnotallowed'] = '不允许使用如下域名的电子邮件: ($a)';
+$string['emailnotallowed'] = '不允许使用如下域名的电子邮件: ({$a})';
 $string['emailnotfound'] = '数据库中未找到此email地址';
-$string['emailonlyallowed'] = '此电子邮件不在允许的域名中: ($a)';
+$string['emailonlyallowed'] = '此电子邮件不在允许的域名中: ({$a})';
 $string['emailpasswordconfirmation'] = '{$a->firstname}，您好:
 
 有人(一般情况下是您自己)为您在“{$a->sitename}”上的帐号申请了新的密码。
 
 如果您确认这是您做的，并想通过电子邮件获取新密码，请点击以下链接: 
 
-    $a->link
+{$a->link}
 
 在多数的邮件软件中，这个地址应该显示为蓝色的链接，可以直接点击。如果不是这样，请将以上地址复制粘贴到网页浏览器窗口上部的地址栏中，打开这个网页。
 
 如果您需要帮助，请联系网站管理员{$a->admin}。';
-$string['emailpasswordconfirmationsubject'] = '$a: 确认更改密码';
+$string['emailpasswordconfirmationsubject'] = '{$a}: 确认更改密码';
 $string['emailpasswordconfirmmaybesent'] = '<p>如果您提供了正确的用户名或email地址，那么一封email会发送给您。</p>
 <p>它指导您如何确认和完成对密码的改变，这个过程很简单。如果您还是遇到了困难，请联系网站管理员。</p>';
 $string['emailpasswordconfirmsent'] = '一封E-mail已经发送到您的邮箱<b>$a</b>。
