@@ -1,7 +1,5 @@
-<?PHP // $Id:
-
-
-      // resource.php - created with Moodle 1.6.1+ (2006050512)
+<?PHP // $Id$ 
+      // resource.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['addresource'] = 'Lisää aineisto';
@@ -87,6 +85,7 @@ $string['popupresourcelink'] = 'Jos et vielä napsannut, napsauta tässä: $a';
 $string['preview'] = 'Esikatselu';
 $string['previous'] = 'Edellinen';
 $string['repository'] = 'IMS varasto';
+$string['resource:view'] = 'Katso aineistoa';
 $string['resourcetype'] = 'Aineiston tyyppi';
 $string['resourcetype1'] = 'Referenssi';
 $string['resourcetype2'] = 'Websivu';
