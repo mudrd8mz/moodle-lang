@@ -1,4 +1,6 @@
-<?PHP // $Id$ 
+<?PHP // $Id:
+
+
       // assignment.php - created with Moodle 1.7 beta (2006101000)
 
 
@@ -25,7 +27,7 @@ $string['assignmenttype'] = 'Tehtävän tyyppi';
 $string['availabledate'] = 'Tarjoaa';
 $string['comment'] = 'Kommentoi';
 $string['commentinline'] = 'Kommentoi ja muokkaa vastausta';
-$string['configitemstocount'] = 'Kohteiden tyyppit, jotka lasketaan opiskelijalle tehtävissä.';
+$string['configitemstocount'] = 'Kohteiden tyypit, jotka lasketaan opiskelijalle tehtävissä.';
 $string['configmaxbytes'] = 'Oletusasetus sivuston tehtävien maksimikoolle (alisteinen kurssien omille rajoituksille ja muille paikallisille asetuksille)';
 $string['confirmdeletefile'] = 'Oletko varma että haluat poistaa tiedoston?<br /><strong>$a</strong>';
 $string['deletefilefailed'] = 'Tiedoston poistaminen epäonnistui';
@@ -61,7 +63,7 @@ $string['helponline'] = '<p>Tässä tehtävätyypissä käyttäjät muokkaavat v
 $string['helpupload'] = '<p>Tämä tehtävätyyppi antaa jokaisen osallistujan lähettää yhden tai useampia tiedostoja. Tiedostot voivat olla tekstinkäsittely dokumentteja, kuvia, zip-paketteja tai mitä tahansa heiltä pyydät.</p>
 <p>Tehtävätyyppi mahdollistaa myös usen palautetiedoston lähettämisen. Palautetiedostot voidaan lähettää ennen kun tehtävä on avattu, jolloin jokaiselle osallistujalle voidaan antaa oma tiedosto työstettäväksi.</p>
 <p>Osallistujat voivat myös jättää kommentteja omista tiedostoistaan.<7p>
-<p>Osallistujan pitää lopuksi hyväksyä tehvän palutuksensa valmiiksi. Siihen asti kesken olevat tehtävät ovat merkittynä keskeneräisiksi.</p>';
+<p>Osallistujan pitää lopuksi hyväksyä tehtävän palautuksensa valmiiksi. Siihen asti kesken olevat tehtävät ovat merkittynä keskeneräisiksi.</p>';
 $string['helpuploadsingle'] = '<p>Tämän tyyppisessä tehtävässä kaikki osanottajat voivat palauttaa yhden tiedoston, joka voi olla mitä tahansa tyyppiä.</p>
 <p>Se saattaa olla tekstidokumentti, kuva, zip-pakattu verkkosivu tai mitä tahansa pyydätkin heiltä.</p>';
 $string['hideintro'] = 'Piilota kuvaus kunnes tehtävä on avoinna';
@@ -78,7 +80,7 @@ $string['nofilesyet'] = 'Ei palautettuja tiedostoja vielä';
 $string['notavailableyet'] = 'Tämä tehtävä ei ole vielä avoinna.<rb /> Tehtävän ohjeet näytetään alla olevana ajankohtana.';
 $string['notes'] = 'Muistiinpanot';
 $string['notesempty'] = 'Ei kohteita';
-$string['notesupdateerror'] = 'Virhe päivitettäessä muitiinpanoja';
+$string['notesupdateerror'] = 'Virhe päivitettäessä muistiinpanoja';
 $string['notgradedyet'] = 'Ei vielä arvioitu';
 $string['notsubmittedyet'] = 'Ei vielä palautettu';
 $string['onceassignmentsent'] = 'Kun tehtävä on palautettu merkittäväksi, et voi enää poistaa tai lisätä tiedostoja.';

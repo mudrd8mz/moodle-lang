@@ -1,4 +1,6 @@
-<?php // $Id$
+<?PHP // $Id:
+
+
       // attendance.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004112900)
 
 
@@ -11,7 +13,7 @@ $string['auto'] = 'Automaattinen';
 $string['autoattend'] = 'Määrittele läsnäolo automaattisesti tapahtumalokien pohjalta';
 $string['autoattendmulti'] = 'Määrittele läsnäolo kaikkiin listoihin automaattisesti tapahtumalokien pohjalta';
 $string['autoattendshort'] = 'Automaattisesti lokeista';
-$string['choosedays'] = 'Viikottainen läsnäolo';
+$string['choosedays'] = 'Viikoittainen läsnäolo';
 $string['dayofroll'] = 'Päiväys, jolta lista laaditaan';
 $string['defaultautoattend'] = 'Määrittele oletuksena läsnäolo tapahtumalokien pohjalta';
 $string['defaultdynamicsection'] = 'Siirrä oletuksena läsnäololistat oikealle viikolle';

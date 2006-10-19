@@ -1,4 +1,6 @@
-<?PHP // $Id$ 
+<?PHP // $Id:
+
+
       // moodle.php - created with Moodle 1.6.1+ (2006050512)
 
 
@@ -96,7 +98,7 @@ $string['allownot'] = 'Älä salli';
 $string['allparticipants'] = 'Kaikki osallistujat';
 $string['allteachers'] = 'Kaikki opettajat';
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,Å,Ä,Ö';
-$string['alphanumerical'] = 'Voi sisältää ainostaan kirjaimia tai numeroita';
+$string['alphanumerical'] = 'Voi sisältää ainoastaan kirjaimia tai numeroita';
 $string['alreadyconfirmed'] = 'Rekisteröinti on jo aiemmin vahvistettu.';
 $string['always'] = 'Aina';
 $string['answer'] = 'Vastaus';
@@ -457,7 +459,7 @@ $string['enrolmentkeyhint'] = 'Tarjottu \'avain\' ei kelpaa, yritä uudelleen<br
 $string['enrolmentnew'] = 'Uusi rekisteröityminen kurssille $a';
 $string['enrolmentnewuser'] = '$a->user on rekisteröitynyt kurssille \"$a->course\"';
 $string['enrolmentnointernal'] = 'Rekisteröityminen ei ole tällä hetkellä sallittua';
-$string['enrolmentnotyet'] = 'Pahus, et voi päästä kursille ennen <br /> $a';
+$string['enrolmentnotyet'] = 'Pahus, et voi päästä kurssille ennen <br /> $a';
 $string['enrolmentplugins'] = 'Rekisteröitymislaajennukset';
 $string['enrolments'] = 'Rekisteröityminen';
 $string['enrolmentstart'] = 'Rekisteröityminen aloitettu';
@@ -675,9 +677,9 @@ $string['jumpto'] = 'Siirry...';
 $string['keep'] = 'Pidä';
 $string['keepsearching'] = 'Jatka etsintää';
 $string['langltr'] = 'Kirjoitussuunta vasemmalta oikealle';
-$string['langrtl'] = 'Kirjoitussuunta oikealta vasemmmalle';
+$string['langrtl'] = 'Kirjoitussuunta oikealta vasemmalle';
 $string['language'] = 'Kieli';
-$string['languagegood'] = 'Tämä kielipaketti on ajantasalla! :-)';
+$string['languagegood'] = 'Tämä kielipaketti on ajan tasalla! :-)';
 $string['lastaccess'] = 'Viimeksi käytetty';
 $string['lastedited'] = 'Viimeksi muokattu';
 $string['lastlogin'] = 'Viimeisin kirjautuminen';
@@ -686,7 +688,7 @@ $string['lastname'] = 'Sukunimi';
 $string['lastyear'] = 'Viime vuosi';
 $string['latestlanguagepack'] = 'Tarkista moodle.org-sivuilta uusin kielipaketti';
 $string['latestnews'] = 'Viimeisimmät uutiset';
-$string['leavetokeep'] = 'Jätä tyhjäksi säilyttääksi nykyisen salasanasi.';
+$string['leavetokeep'] = 'Jätä tyhjäksi säilyttääksesi nykyisen salasanasi.';
 $string['license'] = 'GPL';
 $string['liketologin'] = 'Haluatko kirjautua sisään nyt täydellä käyttäjätilillä?';
 $string['list'] = 'Lista';
@@ -1330,7 +1332,7 @@ $string['writinggroupsinfo'] = 'Kirjoitetaan ryhmien tietoja';
 $string['writingheader'] = 'Kirjoitetaan otsikkoa';
 $string['writingloginfo'] = 'Kirjoitetaan lokitietoja';
 $string['writingmessagesinfo'] = 'Kirjoitetaan viestien tietoja';
-$string['writingmoduleinfo'] = 'Kirjoitetaan modulitietoja';
+$string['writingmoduleinfo'] = 'Kirjoitetaan moduulitietoja';
 $string['writingscalesinfo'] = 'Kirjoitetaan asteikkotietoja';
 $string['writinguserinfo'] = 'Kirjoitetaan käyttäjätietoja';
 $string['wrongpassword'] = 'Väärä salasana';

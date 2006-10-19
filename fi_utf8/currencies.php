@@ -1,4 +1,6 @@
-<?PHP // $Id$ 
+<?PHP // $Id:
+
+
       // currencies.php - created with Moodle 1.7 beta (2006101000)
 
 

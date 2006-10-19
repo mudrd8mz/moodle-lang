@@ -1,4 +1,6 @@
-<?php 	//$Id$      
+<?PHP // $Id:
+
+
 	// scorm.php - created with Moodle 1.6.1+ (2006050512)
 
 

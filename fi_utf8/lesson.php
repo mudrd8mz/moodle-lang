@@ -1,4 +1,6 @@
-<?PHP // $Id$ 
+<?PHP // $Id:
+
+
       // lesson.php - created with Moodle 1.7 beta (2006101000)
 
 
@@ -34,7 +36,7 @@ $string['averagetime'] = 'Ajan keskiarvo';
 $string['branchtable'] = 'Haara';
 $string['cancel'] = 'Peruuta';
 $string['canretake'] = '$a voi aloittaa uudelleen';
-$string['casesensitive'] = 'Kirjainkoko merkityksellinen (case sensitive)';
+$string['casesensitive'] = 'Kirjainkoko merkityksellinen';
 $string['checkbranchtable'] = 'Tarkista  haara';
 $string['checkedthisone'] = 'tarkasti tämän.';
 $string['checknavigation'] = 'Tarkista navigointi';
@@ -120,7 +122,7 @@ $string['lowscore'] = 'Matalat pisteet';
 $string['lowtime'] = 'Huono aika';
 $string['mainmenu'] = 'Päävalikko';
 $string['matchesanswer'] = 'Sopii yhteen vastausten kanssa';
-$string['maxhighscores'] = 'Pararhaiden tulosten määrä';
+$string['maxhighscores'] = 'Parhaiden tulosten määrä';
 $string['maximumnumberofanswersbranches'] = 'Vastausten/haarojen maksimimäärä';
 $string['maximumnumberofattempts'] = 'Vastausyritysten maksimimäärä';
 $string['maxtime'] = 'Aika raja (minuuteissa)';
@@ -130,7 +132,7 @@ $string['modattempts'] = 'Salli oppilaiden esikatselu';
 $string['modattemptsnoteacher'] = 'Vain oppilaat voivat esikatsella';
 $string['modulename'] = 'Oppitunti';
 $string['modulenameplural'] = 'Oppitunnit';
-$string['movedpage'] = 'Siirrety sivu';
+$string['movedpage'] = 'Siirretty sivu';
 $string['movepagehere'] = 'Siirrä sivu tähän';
 $string['moving'] = 'Siirretään sivu $a';
 $string['multianswer'] = 'Monivastaus';
@@ -192,7 +194,7 @@ $string['report'] = 'Raportti';
 $string['response'] = 'Palaute';
 $string['returnmainmenu'] = 'Palaa päävalikkoon';
 $string['returntocourse'] = 'Palaa kurssiin';
-$string['reviewlesson'] = 'Esikatesele tuntia';
+$string['reviewlesson'] = 'Esikatsele tuntia';
 $string['reviewquestionback'] = 'Kyllä, haluaisin yrittää uudelleen';
 $string['reviewquestioncontinue'] = 'Ei, haluan vain siirtyä seuraavaan kysymykseen';
 $string['sanitycheckfailed'] = 'Tarkistus epäonnistui: tämä yritys on poistettu';

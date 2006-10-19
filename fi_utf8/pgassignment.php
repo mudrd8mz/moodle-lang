@@ -1,4 +1,6 @@
-<?php // $Id$
+<?PHP // $Id:
+
+
       // pgassignment.php - created with Moodle 1.0.9 development (2003050400)
 
 
@@ -20,7 +22,7 @@ $string['assignmentawaitinggrading'] = "Tehtävä odottaa arviointia (Määräai
 $string['assignmenthasbeengraded'] = "Tehtävä on arvioitu";
 $string['assignmentsgivento'] = "\$a :lle arvioitavaksi annetut tehtävät";
 $string['averagegrade'] = "Arviointien keskiarvo on \$a";
-$string['awaitingregrading'] = "Odottaa uudeleenarviointia (on iteration \$a)";
+$string['awaitingregrading'] = "Odottaa uudelleenarviointia (on iteration \$a)";
 $string['beforedeadline'] = "\$a ennen määräaikaa";
 $string['biasgrade'] = "Arvioiden poikkeama";
 $string['breakdownoffinalgrade'] = "Lopullisten arvioiden erittely";

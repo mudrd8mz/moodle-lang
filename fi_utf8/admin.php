@@ -1,4 +1,6 @@
-<?PHP // $Id$ 
+<?PHP // $Id:
+
+
       // admin.php - created with Moodle 1.7 beta (2006101000)
 
 
@@ -10,7 +12,7 @@ $string['allowcoursethemes'] = 'Salli kurssien teemat';
 $string['allowemailaddresses'] = 'Sallitut emailtoimialueet';
 $string['allowobjectembed'] = 'Salli EMBED ja OBJECT merkinnät';
 $string['allowrenames'] = 'Salli uudelleen nimeäminen';
-$string['allowuserblockhiding'] = 'Salli käyttäjien piiloittaa lohkoja';
+$string['allowuserblockhiding'] = 'Salli käyttäjien piilottaa lohkoja';
 $string['allowusermailcharset'] = 'Salli käyttäjän valita merkistö';
 $string['allowuserthemes'] = 'Salli käyttäjien teemat';
 $string['antivirus'] = 'Antivirus';
@@ -40,7 +42,7 @@ $string['clamfailureonupload'] = 'ClamAV virheen sattuessa';
 $string['cleanup'] = 'Puhdista';
 $string['componentinstalled'] = 'Komponentti asennettu';
 $string['confeditorhidebuttons'] = 'Valitse napit, jotka pitäisivät piilottaa HTML:editorissa.';
-$string['configallowassign'] = 'Salli vasemma puolen roolien jakaa roolit kussakin sarakkeessa';
+$string['configallowassign'] = 'Salli vasemman puolen roolien jakaa roolit kussakin sarakkeessa';
 $string['configallowcoursethemes'] = 'Tämä asetus sallii kurssien käyttää omia teemojaan.';
 $string['configallowemailaddresses'] = 'Jos haluat rajoittaa uudet sallitut sähköpostiosoitteet tiettyihin verkkoalueisiin, niin kirjoita niistä lista välilyönnein erotettuna. Kaikki muut verkkoalueet hylätään. Esim: <strong>meidan.koulu.fi joku.muu.com .fi .org</strong>';
 $string['configallowobjectembed'] = 'Turvallisuuden tähden eivät tavalliset käyttäjät oletusarvoisesti saa sisällyttää HTML-teksteihinsä multimediaa (kuten Flash-animaatioita) käyttämällä  EMBED- ja OBJECT-merkintöjä (vaikka näin voidaan tehdä turvallisesti, jos käytetään medialaajennus-suodatinta). Laita tämä asetus päälle , jos haluat sallia näiden merkintöjen käytön.';
@@ -73,19 +75,19 @@ $string['configdocroot'] = 'Määrittelee polun Moodle Docsiin. Voit muuttaa tä
 $string['configdoctonewwindow'] = 'Jos valitset tämän, silloin linkit Moodle Docsiin näytetään uudessa ikkunassa.';
 $string['configeditorfontlist'] = 'Valitse fontit, joiden pitäisi ilmestyä HTML-editorin valikkoon.';
 $string['configenablecourserequests'] = 'Tässä voit antaa kaikille käyttäjille mahdollisuuden toivoa uuden kurssin luomista.';
-$string['configenablerssfeeds'] = 'Tämä asetus antaa mahdollisuuden RSS-syötteisiin kaikkialla sivustolla. Jotta asetus tulisi voimaan on yksittäisissä moduuleissa myös aktivoitava RSS-syötteet - tämä tapahtuu Moduulit-asetuksista Ylläpidon asetusten alla.';
-$string['configenablerssfeedsdisabled'] = 'Ei ole mahdollista, koska RSS-syötteet on otettu pois käytöstä koko sivustolla. Ottaaksesi ne käyttöön, mene Asetukset-kohtaan Ylläpidon asetusten alla.';
+$string['configenablerssfeeds'] = 'Tämä asetus antaa mahdollisuuden RSS-syötteisiin kaikkialla sivustolla. Jotta asetus tulisi voimaan on yksittäisissä moduuleissa myös aktivoitava RSS-syötteet - tämä tapahtuu moduulin asetuksista .';
+$string['configenablerssfeedsdisabled'] = 'Ei ole mahdollista, koska RSS-syötteet on otettu pois käytöstä koko sivustolla. Ottaaksesi ne käyttöön, pitää sinun muuttaa sivuston asetuksia.';
 $string['configenablestats'] = 'Jos valitset \'kyllä\' tässä, Moodlen cronjob käsittelee lokeja ja kerää joitakin tilastoja. Riippuen liikenteen määrästä sivustolla tämä voi ottaa hetken. Jos  mahdollistat tämän, voit nähdä joitakin mielenkiintoisia kaavioita ja tilastoja kustakin teidän kursseistanne tai sivustostanne.';
-$string['configenabletrusttext'] = 'Oletusarvoisesti Moodle puhdistaa perusteellisesti tektin joka tulee käyttäjiltä poistaakseen mahdolliset komennot, scriptit, upotetut objektit yms. jotka voisivat olla turvallisuusriskijä. Luotettu sisältö on tapa määritellä käyttäjiä joidenka tekemiä sisältöjä ei suodateta.
-Käyttääksesi tätä järjestelmää, ota tämä asetus käyttöön ja liitä sitten \"Luotetut sisällöt\" kyky jaluamaasi rooliin ja tämä rooli haluammillesi henkilöille.';
+$string['configenabletrusttext'] = 'Oletusarvoisesti Moodle puhdistaa perusteellisesti tektin joka tulee käyttäjiltä poistaakseen mahdolliset komennot, scriptit, upotetut objektit yms. jotka voisivat olla turvallisuusriskijä. Luotettu sisältö on tapa määritellä käyttäjiä joiden tekemiä sisältöjä ei suodateta.
+Käyttääksesi tätä järjestelmää, ota tämä asetus käyttöön ja liitä sitten \"Luotetut sisällöt\" kyky jaluamaasi rooliin ja tämä rooli haluamillesi henkilöille.';
 $string['configenrolmentplugins'] = 'Valitse kurssirekisteröinnin laajennukset, joita haluat käyttää. Älä unohda konfiguroida asetuksia kunnolla.
 Käyttääksesi vain laajennuksia kurssirekisteröinteihin, aseta kurssin asetuksista \"Kurssille rekisteröityminen\" arvoon \"ei\".';
 $string['configerrorlevel'] = 'Valitse kuinka paljon PHP-varoituksia haluat näytettävän. Normaali on yleensä paras vaihtoehto.';
 $string['configextendedusernamechars'] = 'Tätä asetusta käyttämällä voit antaa oppilaille oikeuden käyttää käyttäjänimissään mitä tahansa merkkejä (tämä ei kuitenkaan koske heidän oikeita nimiään). Oletusarvo asetukselle on \"false\", joka rajoittaa käytettävissä olevat merkit aakkosnumeerisiin merkkeihin.';
 $string['configfilterall'] = 'Suodata kaikki merkkijonot, mukaan lukien otsikot, navikaatiopalkki, jne. Tämä on hyödyllistä lähinnä käytettäessä monikielistä suodatinta, muuten tämä vain kuormittaa palvelinta turhaan, tuottamatta merkittävää hyötyä.';
 $string['configfiltermatchoneperpage'] = 'Suodattimet tekevät vain  yhden linkin ensimmäistä yhteensopivaa tekstiesimerkkiä varten, joka on löytynyt kokonaisella sivulla. Kaikista muista ollaan välittämättä.';
-$string['configfiltermatchonepertext'] = 'Suodattimet tekevät vain  yhden linkin ensimmäistä yhteensopivaa tekstiesimerkkiä varten, joka on löytynyt kyseisestä  kohteesta (sesurrssista tai lohkosta yms). Kaikista muista ollaan välittämättä.
-Tätä asetusta ei huomioida jos \"Soudatin osuu karran sivussa\" asetus on päällä.';
+$string['configfiltermatchonepertext'] = 'Suodattimet tekevät vain  yhden linkin ensimmäistä yhteensopivaa tekstiesimerkkiä varten, joka on löytynyt kyseisestä  kohteesta (kurssista tai lohkosta yms). Kaikista muista ollaan välittämättä.
+Tätä asetusta ei huomioida jos \"Soudatin osuu kerran sivussa\" asetus on päällä.';
 $string['configfilteruploadedfiles'] = 'Tämän asetuksen valinta käskee Moodlen käsitellä kaikki palvelimelle kopioidut HTML- ja tekstitiedostot suodattimilla ennen kuin ne näytetään .';
 $string['configforcelogin'] = 'Yleensä sivuston etusivu ja kurssilista (muttei kurssien sisältö) on kaikkien sivustolle saapuneiden nähtävillä ilman sisäänkirjautumista. Jos haluat, että käyttäjien on kirjauduttava sisään ennen kuin he voivat tehdä MITÄÄN sivustolla, laita tämä asetus päälle.';
 $string['configforceloginforprofiles'] = 'Ota tämä asetus käyttöön, jos haluat että käyttäjät kirjautuvat sisään (eivät siis ole vieraita) ennen kuin he voivat nähdä käyttäjäprofiilisivuja. Oletusarvoisesti tämä ei ole päällä (asetus \"Ei\"), jotta mahdolliset tulevat oppilaat voivat lukea jokaisen kurssin opettajista, mutta tämä tarkoittaa myös sitä että hakukoneet näkevät sivut.';
@@ -94,7 +96,7 @@ $string['configfrontpage'] = 'Yläpuolella valitut kohteet näytetään sivuston
 $string['configfrontpageloggedin'] = 'Yläpuolella valitut kohteet näytetään sivuston etusivulla, kun käyttäjä kirjautunut.';
 $string['configfullnamedisplay'] = 'Tämä määrittää kuinka nimet näytetään silloin, kun nimet näytetään kokonaisuudessaan. Useimmille vain yhtä kieltä käyttäville sivuilla toimii asetus \"Etunimet + Sukunimet\", mutta voit myös kätkeä sukunimet kokonaan, tai antaa valitun kielipaketin päättää muodosta (eri kielissä on eri tapoja).';
 $string['configgdversion'] = 'Määritä mikä GD:n versio on asennettuna. Oletusarvona on havaittu versio. Älä muuta, ellet tiedä mitä olet tekemässä.';
-$string['confighiddenuserfields'] = 'Valitse käyttäja tiedot jotka haluat piilottaa muilta muilta käyttäjiltä kuin kurssin opettaja/ylläpitäjiltä. Tämä lisää opiskelijan yksityisyyttä. Valitaksesi monia kohtia käytä CTRL-näppäintä.';
+$string['confighiddenuserfields'] = 'Valitse käyttäjätiedot jotka haluat piilottaa muilta muilta käyttäjiltä kuin kurssin opettaja/ylläpitäjiltä. Tämä lisää opiskelijan yksityisyyttä. Valitaksesi monia kohtia käytä CTRL-näppäintä.';
 $string['confightmleditor'] = 'Määritä haluatko sallia upotetun HTML-tekstieditorin. Jos päätät sallia sen, editori tulee käyttöön vain, jos käyttäjällä on yhteensopiva selain. Käyttäjät voivat myös valita olla käyttämättä editoria.';
 $string['configidnumber'] = 'Tämä asetus määrittää (a) kysytäänkö käyttäjiltä ollenkaan ID:tä, (b) käyttäjiltä kysytään ID-numeroa, mutta he voivat jättää kentän tyhjäksi, (c) käyttäjiltä kysytään ID-numeroa, eivätkä he voi jättää kohtaa tyhjäksi. Jos ID-numero annetaan, se näytetään käyttäjän profiilissa.';
 $string['configintro'] = 'Tällä sivulla voit määritellä useita asetuksia, jotta Moodle toimisi oikein palvelimellasi. Älä turhaan kanna huolta näistä - oletusarvot toimivat yleensä hyvin ja voit aina myöhemmin palata tälle sivulle ja muuttaa näitä asetuksia.';
@@ -182,8 +184,8 @@ $string['datarootsecuritywarning'] = 'Sivustonne asetukset eivät saata olla tur
 $string['dbmigrate'] = 'Tietokannan muunto';
 $string['dbmigrateconnecerror'] = 'Ei voinut yhdistää tietokantaan, joka on määritelty.';
 $string['dbmigrateencodingerror'] = 'Määritellyllä tietokannalla on koodaus, $a, vaadittu koodaus on UNICODE/UTF8.<br? /> ole hyvä ja määrittele toinen kanta.';
-$string['dbmigratepostgres'] = 'Nähtävästi käytät  PostgreSQLia tietokantapalvelimena. Jatkaakseen muuttoprosessia, tee uusi tietokanta käsin \"UNICODE:n\" tai \"UTF8:n\" koodaattuna . 
-Ole hyvä ja kirjoita uuden tietokantayhteyden tiedot alaspuolelle jatkaaksesi:';
+$string['dbmigratepostgres'] = 'Nähtävästi käytät  PostgreSQLia tietokantapalvelimena. Jatkaakseen muuttoprosessia, tee uusi tietokanta käsin \"UNICODE:n\" tai \"UTF8:n\" koodattuna . 
+Ole hyvä ja kirjoita uuden tietokantayhteyden tiedot ala puolelle jatkaaksesi:';
 $string['dbmigratewarning'] = 'Olkaa hyvä varmista, että olet varmistanut moodle-tietokannan ennen tämän toiminnon aloittamista. Jos olet epävarma, siitä miten tehdä se  otta yhteyttä järjestelmäylläpitoonne.  Moodlen sivusto asetetaan  huoltotilaan, sen jälkeen kun aloitat muuttoprosessin';
 $string['dbmigratewarning2'] = '<B>-Varoitus: Tulet pian aloittamaan tietokantamuuttoprosessin. Ole hyvä ja varmista, että koko Moodlen tietokanta on varmuuskopioitu.</b>';
 $string['dbmigrationdeprecateddb'] = '<font-color=\"#ff0000\">Tämä tietokanta ei ole enää käytössä. Tiedot on  siirretty uuteen UTF8:n tietokantaan. Ole hyvä ja muokkaa config.php:ianne käyttäkääksesi uutta tietokantaa tämän  moodlen kanssa.</font>';
@@ -204,7 +206,7 @@ $string['deleteunconfirmed'] = 'Poista vahvistamattomat tunnukset';
 $string['deleteuser'] = 'Poista käyttäjä';
 $string['density'] = 'Tiheys';
 $string['denyemailaddresses'] = 'Estetyt emailtoimialueet';
-$string['digestmailtime'] = 'Keräity posti lähetetään';
+$string['digestmailtime'] = 'Keräilty posti lähetetään';
 $string['displayloginfailures'] = 'Näytä kirjautumisvirheet';
 $string['docroot'] = 'Moodle Docs ohjeen sijainti';
 $string['doctonewwindow'] = 'Avaa uudessa ikkunassa';
@@ -216,7 +218,7 @@ $string['editorfontfamily'] = 'Kirjasinperhe';
 $string['editorfontlist'] = 'Kirjasinlista';
 $string['editorfontsize'] = 'Kirjasimen koko';
 $string['editorhidebuttons'] = 'Piilotetut painikkeet';
-$string['editorkillword'] = 'Wordmuotoilujen suodatin';
+$string['editorkillword'] = 'Word-muotoilujen suodatin';
 $string['editstrings'] = 'Muokkaa merkkijonoja';
 $string['enablecourserequests'] = 'Salli kurssien anominen';
 $string['enablerssfeeds'] = 'Salli RSS-syötteet';
@@ -225,9 +227,9 @@ $string['enabletrusttext'] = 'Salli Luotettu sisältö';
 $string['environment'] = 'Ympäristö';
 $string['environmenterrortodo'] = 'Sinun pitää ratkaista kaikki käyttöympäristön ongelmat ennen kuin voit asentaa tämän version Moodlesta.';
 $string['environmentrecommendinstall'] = 'suositellaa asennettavaksi/käyttöönotettavaksi';
-$string['environmentrecommendversion'] = 'pitäsi käyttää varsiota $a->needed mutta käytössä on versio $a->current';
+$string['environmentrecommendversion'] = 'pitäisi käyttää versiota $a->needed mutta käytössä on versio $a->current';
 $string['environmentrequireinstall'] = 'vaaditaan asennettavaksi/käyttöönotettavaksi';
-$string['environmentrequireversion'] = 'versio $a->needed vaaditaan mja käytössä on versio $a->current';
+$string['environmentrequireversion'] = 'versio $a->needed vaaditaan ja käytössä on versio $a->current';
 $string['environmentxmlerror'] = 'Virhe luettaessa ympäristötietoja ($a->error_code)';
 $string['errors'] = 'Virheitä';
 $string['errorsetting'] = 'Muutoksia ei voitu tallentaa:';
@@ -235,7 +237,7 @@ $string['errorwithsettings'] = 'Seuraavia asetuksia ei muutettu virheen vuoksi:'
 $string['extendedusernamechars'] = 'Salli erikoismerkit käyttäjätunnuksissa';
 $string['filterall'] = 'Suodata kaikki merkkijonot';
 $string['filtermatchoneperpage'] = 'Suodatin osuu kerran sivulla';
-$string['filtermatchonepertext'] = 'Suodatin osuu kerran kohtessa';
+$string['filtermatchonepertext'] = 'Suodatin osuu kerran kohteessa';
 $string['filtersettings'] = 'Suodatinasetukset';
 $string['filteruploadedfiles'] = 'Suodata lähetettyjä tiedostoja';
 $string['forcelogin'] = 'Vaadi käyttäjiä kirjautumaan';
@@ -247,7 +249,7 @@ $string['frontpageloggedin'] = 'Etusivun kohteet kun on kirjauduttu sisään';
 $string['fullnamedisplay'] = 'Kokonimen muoto';
 $string['gdversion'] = 'GD-versio';
 $string['generalsettings'] = 'Yleisasetukset';
-$string['globalsquoteswarning'] = '<p><strong>Tietoturva varoitus</strong>: Moodlen kunnollinen toiminta vaatii<br />että teet muutoksia nykyisiin PHP-asetuksiisi<p/><p>Sinun <em>pitää</em> asettaa <code>register_globals=off</code> ja/tai <code>magic_quotes_gpc=on</code>. <br />Jos mahdollista, aseta<code>register_globals=off</code>. Parantaaksesi palvelimen yleistä<br />turvallisuutta, myöskin asetusta <code>magic_quotes_gpc=on</code> suositellaan.<p/><p>Nämä asetukset muutetaan muokkamalla <code>php.ini</code> tiedostoa, Apache/IIS <br />asetuksia tai <code>.htaccess</code> tiedostoa.</p>';
+$string['globalsquoteswarning'] = '<p><strong>Tietoturva varoitus</strong>: Moodlen kunnollinen toiminta vaatii<br />että teet muutoksia nykyisiin PHP-asetuksiisi<p/><p>Sinun <em>pitää</em> asettaa <code>register_globals=off</code> ja/tai <code>magic_quotes_gpc=on</code>. <br />Jos mahdollista, aseta<code>register_globals=off</code>. Parantaaksesi palvelimen yleistä<br />turvallisuutta, myöskin asetusta <code>magic_quotes_gpc=on</code> suositellaan.<p/><p>Nämä asetukset muutetaan muokkaamalla <code>php.ini</code> tiedostoa, Apache/IIS <br />asetuksia tai <code>.htaccess</code> tiedostoa.</p>';
 $string['helpadminseesall'] = 'Näkevätkö ylläpitäjät kaikki kalenterimerkinnät, vaiko vain heitä itseään koskevat?';
 $string['helpcalendarsettings'] = 'Aseta erinäisiä Moodlen kalenteriin ja päivämääriin/kellonaikoihin liittyviä asetuksia';
 $string['helpforcetimezone'] = 'Voit antaa käyttäjien valita aikavyöhykkeensä otse, tai voit valita aikavyöhykkeen, joka koskee kaikkia.';
@@ -260,12 +262,12 @@ $string['hiddenuserfields'] = 'Piilota käyttäjätietokentät';
 $string['htmleditor'] = 'HTML-editori';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTP-tietoturva';
-$string['iconvrecommended'] = 'Valinnaisen ICONV-kirjaston asentamista suositellaan  erityisesti silloin jos sivustolla kytetn useita eri kieli.';
+$string['iconvrecommended'] = 'Valinnaisen ICONV-kirjaston asentamista suositellaan  erityisesti silloin jos sivustolla käytetäänuseita eri kieliä.';
 $string['importlangreminder'] = 'Tietokantamuuntoprosessi on käynnissä. Kirjaudu sisään uudeleen ja asenna unicode-kielipaketit  ylläpitotyökalujen avulla heti kun tietokantojen muunto valmis.';
 $string['importtimezones'] = 'Päivitä lista kaikista aikavyöhykkeistä';
 $string['importtimezonescount'] = '$a->count merkintää tuotu $a->source';
 $string['importtimezonesfailed'] = 'Lähteitä ei löytynyt! (Huono juttu)';
-$string['includemoduleuserdata'] = 'Otamukaan moduulien käyttäjädata.';
+$string['includemoduleuserdata'] = 'Ota mukaan moduulien käyttäjädata.';
 $string['incompatibleblocks'] = 'Yhteensopimattomia lohkoja';
 $string['install'] = 'Asenna valitut käännöspaketit';
 $string['installedlangs'] = 'Asennetut käännöspaketit';
@@ -286,7 +288,7 @@ $string['languagesettings'] = 'Kieliasetukset';
 $string['langupdatecomplete'] = 'Kielipaketin päivitys suoritettu';
 $string['latexpreamble'] = 'Latex esikomennot';
 $string['latexsettings'] = 'LaTeX piirtoasetukset';
-$string['localetext'] = 'Sivuston maaasetus';
+$string['localetext'] = 'Sivuston maa-asetus';
 $string['location'] = 'Sijainti';
 $string['locationsettings'] = 'Sijaintiasetukset';
 $string['log'] = 'Lokit';
@@ -309,17 +311,17 @@ $string['mediapluginram'] = 'Käytä .ram suodinta';
 $string['mediapluginrm'] = 'Käytä .rm suodinta';
 $string['mediapluginrpm'] = 'Käytä .rpm suodinta';
 $string['mediapluginswf'] = 'Käytä .swf suodinta';
-$string['mediapluginswfnote'] = 'Oletusarvoisena turvatoimenpiteena normaalien käyttäjien ei pitäisi antaa upottaa swf- tai flash-tiedostoja.';
+$string['mediapluginswfnote'] = 'Oletusarvoisena turvatoimenpiteenä normaalien käyttäjien ei pitäisi antaa upottaa swf- tai flash-tiedostoja.';
 $string['mediapluginwmv'] = 'Käytä .wmv suodatusta';
 $string['messaging'] = 'Kaytä viestijärjestelmää';
 $string['misc'] = 'Muut';
 $string['modulesecurity'] = 'Moodlen turvallisuus';
 $string['mustenablestats'] = 'Sivustolla ei ole otettu käyttöön tietojentilastointia';
 $string['mymoodle'] = 'Minun Moodleni';
-$string['mymoodleredirect'] = 'Pakoita käyttäjät käyttämään Minun Moodleni';
+$string['mymoodleredirect'] = 'Pakota käyttäjät käyttämään Minun Moodleni';
 $string['mysql416bypassed'] = 'Kuitenkin jos teidän sivustonne käyttää vain iso-8859-1 merkistöä, te voitte jatkaa nykyisen mySQL 4.1.12 käyttöä.';
 $string['mysql416required'] = 'MySQL 4.1.16 on  vähimmäisversio joka vaaditaan Moodle1.6:lle, jotta takaa, että kaikki data voidaan muuntaa UTF-8:ksi tulevaisuudessa';
-$string['nobookmarksforuser'] = 'Sinulla ei ole suosikeita';
+$string['nobookmarksforuser'] = 'Sinulla ei ole suosikkeja';
 $string['nolangupdateneeded'] = 'Kaikki käännöspaketit ovat ajan tasalla, päivtystä ei tarvita';
 $string['nonewsettings'] = 'Päivityksessä ei tullut uusia asetuksia';
 $string['nonexistentbookmark'] = 'Haluttua suosikkia ei ole';
@@ -338,11 +340,11 @@ $string['order4'] = 'Neljäs';
 $string['pathconvert'] = '<i>convert</i> ohjelman sijainti';
 $string['pathdvips'] = '<i>dvips</i>ohjelman sijainti';
 $string['pathlatex'] = '<i>latex</i>  ohjelman sijainti';
-$string['pathtoclam'] = 'calmav-ohjelman sijainti';
+$string['pathtoclam'] = 'clamav-ohjelman sijainti';
 $string['pathtodu'] = 'su-ohjelman sijainti';
 $string['pathtopgdump'] = 'pg_dump ohjelman sijainti';
-$string['pathtopgdumpdesc'] = 'Tätä tarvitaa vain jos järjestelmössä on useita pg_dump työkaluja  asennettuna.';
-$string['pathtopgdumpinvalid'] = 'Virhellinen pg_dump ohjelman sijanti';
+$string['pathtopgdumpdesc'] = 'Tätä tarvitaan vain jos järjestelmässä on useita pg_dump työkaluja  asennettuna.';
+$string['pathtopgdumpinvalid'] = 'Virheellinen pg_dump ohjelman sijainti';
 $string['pathtopsql'] = 'Psql-ohjelman sijainti';
 $string['pathtopsqldesc'] = 'Tätä tarvitaan vain jos järjestelmässä on useita postgresql asennuksia.';
 $string['pathtopsqlinvalid'] = 'Polku psql on väärin';
@@ -350,7 +352,7 @@ $string['pathtounzip'] = 'Unzip-ohjelman sijainti';
 $string['pathtozip'] = 'zip-ohjelman sijainti';
 $string['perfdebug'] = 'Suorituskykytiedot';
 $string['pgcluster'] = 'Postgresql ryväs';
-$string['pgclusterdescription'] = 'Potgresql versio/ryväs parametri komentorivi toimintoihin. Jos järjestelmässä on vain yksi postgresql-palvelin tai olet epävarma asetuksesta jätä se tyhjäksi.';
+$string['pgclusterdescription'] = 'Postgresql versio/ryväs parametri komentorivi toimintoihin. Jos järjestelmässä on vain yksi postgresql-palvelin tai olet epävarma asetuksesta jätä se tyhjäksi.';
 $string['php50restricted'] = 'PHP 5.0.x versiossa on tunnettuja ongelmia, päivitä versioon 5.1.x tai palaa versioihin 4.3.x - 4.4.x';
 $string['pleaseregister'] = 'Ole hyvä ja rekisteröi sivustosi ja tämä painike poistuu';
 $string['plugins'] = 'Moduulit';
@@ -377,7 +379,7 @@ $string['security'] = 'Tietoturva';
 $string['server'] = 'Palvelin';
 $string['sessioncookie'] = 'Evästeen etuliite';
 $string['sessioncookiepath'] = 'Evästeen polku';
-$string['sessionhandling'] = 'Instunnonhallinta';
+$string['sessionhandling'] = 'Istunnonhallinta';
 $string['sessiontimeout'] = 'Aikaraja';
 $string['showblocksonmodpages'] = 'Näytä lohkoja moduulisivuilla';
 $string['simpletest'] = 'Testit';
@@ -388,8 +390,8 @@ $string['sitemaintenancemode'] = 'Huoltotila';
 $string['sitemaintenanceoff'] = 'Huoltotila on kytketty pois ja sivusto toimii taas normaalisti';
 $string['sitemaintenanceon'] = 'Sivustosi on parhaimmillaan huoltotilassa (vain ylläpitäjät voivat kirjautua sisään tai käyttää sivustoa).';
 $string['sitemaintenancewarning'] = 'Sivustosi on parhaimmillaan huoltotilassa (vain ylläpitäjät voivat kirjautua sisään). Palauttaaksesi sivuston takaisin normaaliin tilaan <a href=\"maintenance.php\">kytke ylläpitotila pois päältä</a>.';
-$string['sitepolicies'] = 'SIvuston käyttöohdot';
-$string['sitepolicy'] = 'Siviston käyttöehdon osoite';
+$string['sitepolicies'] = 'Sivuston käyttöehdot';
+$string['sitepolicy'] = 'Sivuston käyttöehdon osoite';
 $string['sitesectionhelp'] = 'Valittaessa aihealue näytetään sivuston etusivulla.';
 $string['slasharguments'] = 'Käytä \'/\'-eroteltuja argumentteja';
 $string['smtphosts'] = 'SMTP palvelin';
@@ -402,7 +404,7 @@ $string['statsruntimestart'] = 'Suorita';
 $string['statsuserthreshold'] = 'Käyttäjäraja';
 $string['stickyblocks'] = 'Pysyvät lohkot';
 $string['stickyblockscourseview'] = 'Kurssi sivu';
-$string['stickyblocksduplicatenotice'] = 'Jos joku lohkoista jonka lisäät,on ennestään jollakin sivulla, näkyy lohko kahtena.<br? /> , Aikaisempi varsio lohkosta pysyy käyttäjän muokattavissa.';
+$string['stickyblocksduplicatenotice'] = 'Jos joku lohkoista jonka lisäät,on ennestään jollakin sivulla, näkyy lohko kahtena.<br? /> , Aikaisempi versio lohkosta pysyy käyttäjän muokattavissa.';
 $string['stickyblockspagetype'] = 'Sivu jota määritellään';
 $string['systempaths'] = 'Järjestelmän polut';
 $string['tabselectedtofront'] = 'Taulukoissa, joissa on välilehtiä, pitäisikö se rivi, jolla on sen hetkinen valittu merkintä tuoda eteen?';
@@ -425,13 +427,13 @@ $string['updatecomponent'] = 'Päivitä komponentti';
 $string['updatelangs'] = 'Päivitä kaikki paikalliset käännöspaketit';
 $string['updatetimezones'] = 'Päivitä aikavyöhykkeet';
 $string['upgradeforumread'] = 'Moodle 1.5een on lisätty uusi ominaisuus, jolla voidaan seurata luettuja ja lukemattomia viestejä keskustelupalstoilla. .<br />Käyttääksesi tätä ominaisuutta sinun pitää <a href=\"$a\">päivittää taulukkosi</a>.';
-$string['upgradeforumreadinfo'] = 'Moodle 1.5een on lisätty uusi ominaisuus, jolla voidaan seurata luettuja ja lukemattomia viestejä keskustelupalstoilla. Käyttääksesi tätä ominaisuutta sinun pitää päivittää taulukkosi kaikella seurantatiedolla, joka liittyy olemassa oleviin viesteihin. Riippuen sivustosi koosta tähän voi mennä kauan (tunteja) ja olla varsin vaativaa tietokannallesi, joten päivittäminen on parasta tehdä hiljaisena aikana. Päivitys ei kuitenkaan vaikuta sivustosi toimintaan, eikä sillä ole vaikutuksia käyttäjiisi. Kun aloitat päivityksen, anna sen tulla valmiiksi, äläkä siis sulje sel<br /><br />Do you want to start the upgrading process now?aimen ikkunaa. Jos kuitenkin pysäytät päivityksen sulkemalla selainikkunan, älä huolehdi, päivityksen voi aloittaa uudelleen. <br /><br />Haluatko aloittaa päivityksen nyt?';
+$string['upgradeforumreadinfo'] = 'Moodle 1.5een on lisätty uusi ominaisuus, jolla voidaan seurata luettuja ja lukemattomia viestejä keskustelupalstoilla. Käyttääksesi tätä ominaisuutta sinun pitää päivittää taulukkosi kaikella seurantatiedolla, joka liittyy olemassa oleviin viesteihin. Riippuen sivustosi koosta tähän voi mennä kauan (tunteja) ja olla varsin vaativaa tietokannallesi, joten päivittäminen on parasta tehdä hiljaisena aikana. Päivitys ei kuitenkaan vaikuta sivustosi toimintaan, eikä sillä ole vaikutuksia käyttäjiisi. Kun aloitat päivityksen, anna sen tulla valmiiksi, äläkä siis sulje selaimen ikkunaa. Jos kuitenkin pysäytät päivityksen sulkemalla selainikkunan, älä huolehdi, päivityksen voi aloittaa uudelleen. <br /><br />Haluatko aloittaa päivityksen nyt?';
 $string['upgradelogs'] = 'Tapahtumalokien sisällöt pitää päivittää uuteen muotoon. <a href=\"$a\">Lisätietoja</a>';
 $string['upgradelogsinfo'] = 'Tapahtumalokien tallennuksessa on tapahtunut muutoksia. Jotta voisit tarkastella lokeja uudella tavalla, vanhat lokimerkinnät pitää päivittää uuteen muotoon. Tämä tapahtuu automaattisesti eikä häiritse sivustosi muuta käyttöä. Riippuen sivustosi koosta tähän saattaa kuitenkin mennä aikaa jopa useita tunteja. Kun aloitat päivityksen, pitää se antaa mennä loppuun asti keskeyttämättä.
 <br /><br />
 Haluatko päivittää lokit nyt?';
 $string['upgradesettings'] = 'Uudet asetukset';
-$string['upgradesettingsintro'] = 'Alla olevat asetukset lisättiin Moodlen päivityksen aikana. Tee haluamasi muutokset oletusarvoihin  ja talleenna tekemäsi muutokset.';
+$string['upgradesettingsintro'] = 'Alla olevat asetukset lisättiin Moodlen päivityksen aikana. Tee haluamasi muutokset oletusarvoihin  ja tallenna tekemäsi muutokset.';
 $string['upgradesure'] = 'Moodlen asennustiedostot ovat muuttuneet, järjestelmä tullaan päivittämään uuteen versioon automaattisesti. Uusi version on:
  <p><b>$a</b></p>
 <p>Kun aloitat päivittämisen et voi enää palata takaisin aiempaan versioon.</p>

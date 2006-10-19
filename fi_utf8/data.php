@@ -1,4 +1,6 @@
-<?PHP // $Id$ 
+<?PHP // $Id:
+
+
       // data.php - created with Moodle 1.7 beta (2006101000)
 
 
@@ -33,7 +35,7 @@ $string['confirmdeletefield'] = 'Haluatko poistaa tämän kentän?';
 $string['confirmdeleterecord'] = 'Haluatko poistaa tämän tietueen?';
 $string['csstemplate'] = 'CSS-pohja';
 $string['csvfile'] = 'CSV-tiedosto';
-$string['csvimport'] = 'CSV-tuoti';
+$string['csvimport'] = 'CSV-tuonti';
 $string['data:approve'] = 'Tietueiden hyväksyminen';
 $string['data:comment'] = 'Kommenttien lisäys';
 $string['data:managecomments'] = 'Kommenttien hallinta';
@@ -43,7 +45,7 @@ $string['data:manageuserpresets'] = 'Kaikkien mallien hallinta';
 $string['data:rate'] = 'Tietueiden arviointi';
 $string['data:readentry'] = 'Tietueiden luku';
 $string['data:viewalluserpresets'] = 'Kaikkien käyttäjien mallien tarkastelu';
-$string['data:viewentry'] = 'Tietueden karselu';
+$string['data:viewentry'] = 'Tietueiden katselu';
 $string['data:viewrating'] = 'Arviointien katselu';
 $string['data:writeentry'] = 'Tietueiden lisäys';
 $string['date'] = 'Päiväys';

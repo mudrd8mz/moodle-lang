@@ -1,13 +1,15 @@
-<?PHP // $Id$ 
+<?PHP // $Id:
+
+
       // error.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['adminprimarynoedit'] = 'Muut eivät voi muokata pääasiallista ylläpitäjää';
 $string['cannotcreatelangdir'] = 'Kielihakemistoa ei voitu luoda';
 $string['cannotcreatetempdir'] = 'Temp-hakemistoa ei voitu luoda';
-$string['cannotdownloadcomponents'] = 'Komponetteja ei voitu ladata';
+$string['cannotdownloadcomponents'] = 'Komponentteja ei voitu ladata';
 $string['cannotdownloadzipfile'] = 'ZIP-tiedostoa ei voitu ladata';
-$string['cannotfindcomponent'] = 'Komponettia ei löytynyt';
+$string['cannotfindcomponent'] = 'Komponenttia ei löytynyt';
 $string['cannotsavemd5file'] = 'MD5-tiedostoa ei voitu tallentaa';
 $string['cannotsavezipfile'] = 'Zip-tiedosta ei voitu tallentaa';
 $string['cannotunzipfile'] = 'Zip-tiedoa ei voitu purkaa';
@@ -21,7 +23,7 @@ $string['downloadedfilecheckfailed'] = 'Ladatun tiedoston tarkistus epäonnistui
 $string['errorcleaningdirectory'] = 'Hakemiston puhdistamisessa tapahtui virhe: $a';
 $string['errorcopyingfiles'] = 'Tiedostojen kopioinnissa tapahtui virhe';
 $string['errorcreatingdirectory'] = 'Hakemiston luonnissa tapahtui virhe: $a';
-$string['errorcreatingfile'] = 'Tiedoston luonnissa tapahtu virhe: $a';
+$string['errorcreatingfile'] = 'Tiedoston luonnissa tapahtui virhe: $a';
 $string['erroronline'] = 'Virhe rivillä $a';
 $string['errorreadingfile'] = 'Tiedoston lukemisessa tapahtui virhe: $a';
 $string['errorunzippingfiles'] = 'Virhe tiedoston purkamisessa';
@@ -38,7 +40,7 @@ $string['notavailable'] = 'Ominaisuus ei ole tällä hetkellä käytettävissä.
 $string['onlyeditown'] = 'Voit muokata vain omia tietojasi.';
 $string['processingstops'] = 'Käsittely loppuu tähän. Jäljelle jääneet merkinnät jätetään huomiotta.';
 $string['restricteduser'] = 'Käyttäjätiliäsi \"$a\" on rajoitettu toiminnon osalta.';
-$string['sessionerroruser'] = 'Istuntosi on auljettu aikarajan takia. Ole hyvä ja irjaudu uudestaan.';
+$string['sessionerroruser'] = 'Istuntosi on suljettu aikarajan takia. Ole hyvä ja irjaudu uudestaan.';
 $string['sessionipnomatch'] = 'Valitettavasti IP numerosi näyttää muuttuneen siitä, kun aluksi kirjauduit sisään. Tämä turvatoiminto estää hakkereita varastamasta identiteettiäsi sillä välin kun olet rekisteröityneenä tällä sivulla. Normaalien käyttäjien ei pitäisi nähdä tätä viestiä - pyydä sivuston hallinnolta apua.';
 $string['unknowncourse'] = 'Tuntematon kurssi nimeltään \"$a\"';
 $string['usernotaddederror'] = 'Käyttäjää \"$a\" ei lisätty - tuntematon virhe';

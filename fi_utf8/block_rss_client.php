@@ -1,4 +1,6 @@
-<?PHP // $Id$ 
+<?PHP // $Id:
+
+
       // block_rss_client.php - created with Moodle 1.7 beta (2006101000)
 
 
@@ -14,7 +16,7 @@ $string['clientshowimagelabel'] = 'Näytä kuvat jos saatavilla';
 $string['configblock'] = 'Määritä lohkon asetukset';
 $string['couldnotfindfeed'] = 'Tällä tunnuksella ei löytynyt syötettä';
 $string['customtitlelabel'] = 'Oma otsikko (Jätä tyhjäksi käyttääksesi syötteen omaa otsikkoa)';
-$string['deletefeedconfirm'] = 'Oletko varma etää haluat poistaa tämän syötteen?';
+$string['deletefeedconfirm'] = 'Oletko varma että haluat poistaa tämän syötteen?';
 $string['displaydescriptionlabel'] = 'Näytä jokaisen linkin kuvaus?';
 $string['editfeeds'] = 'Muokkaa, tilaa tai peru tilaus RSS-syötteitä.';
 $string['editnewsfeeds'] = 'Muokkaa RSS-syötteitä';

@@ -1,7 +1,9 @@
-<?php // $Id$
+<?PHP // $Id:
+
+
       // algebra.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004101900)
 
 
-$string['filtername'] = 'Matemaatiset kaavat';
+$string['filtername'] = 'Matemaattiset kaavat';
 
 ?>

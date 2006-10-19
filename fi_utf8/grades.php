@@ -1,4 +1,6 @@
-<?php // $Id$
+<?PHP // $Id:
+
+
       // grades.php - created with Moodle 1.6.1+ (2006050511)
 
 
@@ -112,8 +114,8 @@ $string['useweighted'] = 'Käytä painotusta';
 $string['viewbygroup'] = 'Ryhmä';
 $string['viewgrades'] = 'Näytä arvosanat';
 $string['weight'] = 'Painotus';
-$string['weightedascending'] = 'Lajittele nousevasti painotetun prosenti mukaan';
-$string['weighteddescending'] = 'Lajittele laskevasti painotetun prosenttin mukaan';
+$string['weightedascending'] = 'Lajittele nousevasti painotetun prosentti mukaan';
+$string['weighteddescending'] = 'Lajittele laskevasti painotetun prosentin mukaan';
 $string['weightedpct'] = 'painotettu %%';
 $string['weightedpctcontribution'] = 'painotettu %%-jakauma';
 $string['writinggradebookinfo'] = 'Kirjoitetaan arviointikirjan asetuksia';

@@ -1,4 +1,6 @@
-<?PHP // $Id$ 
+<?PHP // $Id:
+
+
       // exercise.php - created with Moodle 1.7 beta (2006101000)
 
 
@@ -119,7 +121,7 @@ $string['reasonforadjustment'] = 'Tarkennuksen syy';
 $string['reassess'] = 'Uudelleen arviointi';
 $string['regradestudentassessments'] = 'Arvostele oppilas arviot uudelleen';
 $string['resubmissionfor'] = '$a:n palautus uudelleen';
-$string['resubmitnote'] = '* tarkoitaa, että a$:lla on lupa palauttaa tämä uudelleen.<br />Tämä asetus voidaan antaa mille tahansa palautukselle arvioimalla se uudelleen ja napsauta <br /><b>Salli $a:n uudelleenpalautukset</b>-painiketta. <br /Opiskelija voi palauttaa uudelleen, mikäli tämä asetus on <b>jossakin</b> heidän palautuksistaan.';
+$string['resubmitnote'] = '* tarkoittaa, että a$:lla on lupa palauttaa tämä uudelleen.<br />Tämä asetus voidaan antaa mille tahansa palautukselle arvioimalla se uudelleen ja napsauta <br /><b>Salli $a:n uudelleenpalautukset</b>-painiketta. <br /Opiskelija voi palauttaa uudelleen, mikäli tämä asetus on <b>jossakin</b> heidän palautuksistaan.';
 $string['rubric'] = 'Otsikko';
 $string['savedok'] = 'Tallennettu';
 $string['saveentries'] = 'Tallenna tietueet';

@@ -1,7 +1,9 @@
-<?PHP // $Id$ 
-      // emailprotect.php - created with Moodle 1.7 beta (2006101000)
+<?PHP // $Id:
 
 
-$string['filtername'] = 'Sähköpostiosotteiden suojaus';
+     // emailprotect.php - created with Moodle 1.7 beta (2006101000)
+
+
+$string['filtername'] = 'Sähköpostiosoitteiden suojaus';
 
 ?>
