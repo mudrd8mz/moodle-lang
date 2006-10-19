@@ -1,14 +1,20 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6 development (2005101200)
+      // editor.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['about'] = 'Bu editor hakkında';
+$string['absbottom'] = 'Satıraltı';
 $string['address'] = 'Adres';
 $string['alertnoselectedtext'] = 'Öncelikle yazı seçmelisiniz!';
 $string['alignment'] = 'Hizalama';
 $string['alternatetext'] = 'Görünecek yazı';
+$string['anchorhelp'] = 'Bu sadece bir çapa oluşturur: Hala elle bir link oluşturmanız gerekiyor.';
+$string['anchorname'] = 'Sıçrama adı';
+$string['anchors'] = 'Sıçramalar';
+$string['baseline'] = 'Satır hizası';
 $string['bold'] = 'Kalın';
 $string['borderthickness'] = 'Çerçeve kalınlığı';
+$string['bottom'] = 'Alt';
 $string['browse'] = 'Gözat';
 $string['cancel'] = 'İptal';
 $string['cellpadding'] = 'Hücreye olan uzaklık';
@@ -19,9 +25,11 @@ $string['close'] = 'Kapat';
 $string['closeafterreplace'] = 'Değiştirdikten sonra kapat';
 $string['cols'] = 'Sütun';
 $string['copy'] = 'Seçili olanı kopyala';
+$string['createanchor'] = 'Sıçrama oluştur';
 $string['createfolder'] = 'Klasör oluştur';
 $string['createlink'] = 'Web Bağlantısı Ekle';
 $string['cut'] = 'Seçili olanı kes';
+$string['cutpastemozilla'] = 'Maalesef, şu anda bu çevrimiçi editöre metni yapıştırmak için normal klavye kısayollarını (Yapıştır butonunu bile) kullanamazsınız. Bu, Mozilla ve Firefox tarayıcılarının bazı sürümlerinin güvenlik özelliğinden kaynaklanır.<br /><br />Deneyebileceğiniz üç yöntem var:<br />(1) CTRL-v yerine SHIFT-Insert kullanın<br />Tarayıcınızın Düzenle->Yapıştır menüsünü kullanın<br />(3) user.js dosyasını düzenleyerek tarayıcınızın seçeneklerini değiştirin.<br /><br />Daha fazla yardım için TAMAM tuşuna veya editöre geri dönmek için İptal tuşuna basın.';
 $string['delete'] = 'Sil';
 $string['filebrowser'] = 'Dosya Gözatıcısı';
 $string['findwhat'] = 'Bul';
@@ -56,11 +64,13 @@ $string['linkproperties'] = 'Link özellikleri';
 $string['linktarget'] = 'Hedef';
 $string['linktargetblank'] = 'Yeni pencere';
 $string['linktargetnone'] = 'Hiçbiri';
+$string['linktargetother'] = 'Diğer';
 $string['linktargetself'] = 'Aynı frame';
 $string['linktargettop'] = 'Aynı pencere';
 $string['linktitle'] = 'Başlık';
 $string['linkurl'] = 'URL';
 $string['matchcase'] = 'BÜYÜK/küçük harf duyarlı';
+$string['middle'] = 'Orta';
 $string['minimize'] = 'Editörü küçült';
 $string['move'] = 'Taşı';
 $string['nolink'] = 'Otomatik linklemeyi engelle';
@@ -76,6 +86,7 @@ $string['path'] = 'Yol';
 $string['percent'] = 'Yüzde';
 $string['pixels'] = 'Pixel';
 $string['popupeditor'] = 'Editörü Büyüt';
+$string['preformatted'] = 'Önceden-biçimlenmiş';
 $string['preview'] = 'Önizleme';
 $string['properties'] = 'Özellikler';
 $string['redo'] = 'Son işlemi geri al';
@@ -99,6 +110,7 @@ $string['subscript'] = 'Üst simge';
 $string['superscript'] = 'Alt simge';
 $string['textindicator'] = 'Şimdiki sitil';
 $string['textmode'] = 'DÜZYAZI MODU\'ndasınız. WYSIWYG(Ne görürsen onu elde edersin) MODU\'na geri dönmek için [<>] butonunu kullanın';
+$string['texttop'] = 'Metinüstü';
 $string['top'] = 'Üst';
 $string['type'] = 'Tipi';
 $string['underline'] = 'Altıçizgili';
