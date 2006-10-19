@@ -52,7 +52,13 @@ $string['databasesettingssub'] = '<b>タイプ:</b> mysql または postgres7<br
 <b>ユーザ名:</b> データベースのユーザ名<br />
 <b>パスワード:</b> データベースのパスワード<br />
 <b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 ( 任意 )';
-$string['databasesettingssub_mssql'] = '<b>タイプ:</b> SQL*Server<br />
+$string['databasesettingssub_mssql'] = '<b>タイプ:</b> SQL*Server (　非UTF-8　)<b><font color=\"red\">実験用! ( 運用環境には使用しないでください。 )</font></b><br />
+<b>ホスト:</b> 例 localhost または db.isp.com<br />
+<b>データベース名:</b> 例 moodle<br />
+<b>ユーザ名:</b> データベースのユーザ名<br />
+<b>パスワード:</b> データベースのパスワード<br />
+<b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 ( 必須 )';
+$string['databasesettingssub_mssql_n'] = '<b>タイプ:</b> SQL*Server (　UTF-8　)<b><font color=\"red\">実験用! ( 運用環境には使用しないでください。 )</font></b><br />
 <b>ホスト:</b> 例 localhost または db.isp.com<br />
 <b>データベース名:</b> 例 moodle<br />
 <b>ユーザ名:</b> データベースのユーザ名<br />
@@ -70,7 +76,7 @@ $string['databasesettingssub_oci8po'] = '<b>タイプ:</b> Oracle<br />
 <b>ユーザ名:</b> データベースのユーザ名<br />
 <b>パスワード:</b> データベースのパスワード<br />
 <b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 ( 必須、最大2cc. )';
-$string['databasesettingssub_odbc_mssql'] = '<b>タイプ:</b> SQL*Server (over ODBC) <b><font color=\"red\">実験的! ( 運用環境には使用しないでください。 )</font></b><br />
+$string['databasesettingssub_odbc_mssql'] = '<b>タイプ:</b> SQL*Server ( ODBC経由 ) <b><font color=\"red\">実験用! ( 運用環境には使用しないでください。 )</font></b><br />
 <b>ホスト:</b>ODBCコントロールパネルのDSN名<br />
 <b>データベース名:</b> 例 moodle<br />
 <b>ユーザ名:</b> データベースのユーザ名<br />
@@ -175,6 +181,7 @@ $string['memorylimithelp'] = '<p>現在、サーバのPHPメモリー制限が $
 <p>しかし、この設定が<b>すべての</b>PHPページの動作を妨げる場合もあります。ページ閲覧時にエラーが表示される場合は、.htaccessファイルを削除してください。</p>
 </ol>';
 $string['mssql'] = 'SQL*Server (mssql)';
+$string['mssql_n'] = 'SQL*Server UTF-8サポート (mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'PHPのMSSQL extensionが適切に設定されていないため、SQL*Serverと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHPのMySQL extensionが適切に設定されていないため、MySQLと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
