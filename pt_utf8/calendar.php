@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.4 development (2004062600)
+      // calendar.php - created with Moodle 1.6.2 (2006050521)
 
 
 $string['calendar'] = 'Calendário';
@@ -30,6 +30,7 @@ $string['eventendtime'] = 'Hora do fim';
 $string['eventinstanttime'] = 'Tempo';
 $string['eventkind'] = 'Tipo de evento';
 $string['eventname'] = 'Nome';
+$string['eventnone'] = 'Sem eventos';
 $string['eventrepeat'] = 'Repete-se';
 $string['eventsfor'] = '$a eventos';
 $string['eventstarttime'] = 'Hora de início';
@@ -38,6 +39,7 @@ $string['eventview'] = 'Detalhes do evento';
 $string['expired'] = 'Expirou';
 $string['explain_lookahead'] = 'Esta preferência define o número (máximo) de dias no  futuro em que deverá começar um evento para que seja apresentado entre os próximos eventos. Eventos que começem mais tarde nunca serão apresentados na lista de próximos eventos. Por favor repare que <strong>não existe garantia</strong> garantia de que todos o eventos a começar nesse intervalo seja apresentados; se houver demasiados eventos (mais do que o \"Número máximo de eventos\") os eventos mais distantes não serão apresentados.';
 $string['explain_maxevents'] = 'Esta preferência limita o número máximo de próximos eventos que poderão ser apresentados na lista de próximos eventos. Se escolher aqui um número muito grande, é possível que a lista completa ocupe demasiado espaço no seu ecran.';
+$string['explain_persistflt'] = 'Se isto for activado, o Moodle vai-lhe recordar a ultima configuração do filtro de eventos e automaticamente aplicá-la cada vez que se autenticar';
 $string['explain_startwday'] = 'Esta preferência configura a forma como serão apresentados os calendários mensais. Use-a para fazer com que o calendário apareça numa forma que lhe seja mais familiar.';
 $string['explain_timeformat'] = 'Esta preferência controla a forma como as horas são apresentadas no calendário. Pode escolher entre formato de 12 ou 24 horas. Se escolher o valor por \"omissão\", o formato será definido automaticamente de acordo com a língua que usar no seu sítio.';
 $string['fri'] = 'Sex';
@@ -55,10 +57,13 @@ $string['noupcomingevents'] = 'Não há eventos próximos';
 $string['oneevent'] = '1 evento';
 $string['pref_lookahead'] = 'Visão prévia de próximos eventos';
 $string['pref_maxevents'] = 'Número máximo de próximos eventos';
+$string['pref_persistflt'] = 'Relembrar configuração do filtro';
 $string['pref_startwday'] = 'Primeiro dia da semana';
 $string['pref_timeformat'] = 'Formato do horário';
 $string['preferences'] = 'Preferências';
 $string['preferences_available'] = 'As suas preferências pessoais';
+$string['repeateditall'] = 'Aplicar alterações a todos os $a eventos nesta série de eventos repetidos';
+$string['repeateditthis'] = 'Aplicar as altrações unicamente a este evento';
 $string['repeatnone'] = 'Sem repetições';
 $string['repeatweeksl'] = 'Repete-se semanalmente, num total de';
 $string['repeatweeksr'] = 'eventos';
@@ -95,5 +100,6 @@ $string['userevents'] = 'Eventos do utilizador';
 $string['wed'] = 'Qua';
 $string['wednesday'] = 'Quarta';
 $string['yesterday'] = 'Ontem';
+$string['youcandeleteallrepeats'] = 'Este evento faz parte de uma série de eventos com repetição. Pode apagar este evento unicamente, ou todos os $a eventos nessa série.';
 
 ?>
