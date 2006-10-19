@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.5 unstable development (2004083000)
+      // dialogue.php - created with Moodle 1.6.2 (2006050521)
 
 
 $string['addmynewentries'] = 'Adicionar minhas novas entradas';
@@ -9,6 +9,7 @@ $string['allowmultiple'] = 'Permitir mais do que um diálogo com a mesma pessoa'
 $string['allowstudentdialogues'] = 'Permitir diálogos entre alunos';
 $string['close'] = 'Fechar';
 $string['closed'] = 'Fechado';
+$string['closeddialogues'] = 'Diálogos fechados';
 $string['confirmclosure'] = 'Esta pronto a fechar um diálogo com $a. Os diálogos fechados já não podem ser abertos novamente. Se fechar este diálogo poderá vê-lo mas não adicionar nada mais, e terá que iniciar um novo diálogo para continuar a \"dialogar\" com esta pessoa.<br /><br />Tem a certeza que quer fechar este diálogo?';
 $string['deleteafter'] = 'Apagar diálogos fechados,  após (dias)';
 $string['dialogueclosed'] = 'Diálogo fechado';
@@ -19,7 +20,7 @@ Poderá vê-la em anexo no fim da sua entrada no diálogo:
 
 $a->url';
 $string['dialoguemailhtml'] = '$a->userfrom enviou uma nova entrada no seu diálogo para `<i>$a->dialogue</i>\'<br /><br />
-Poderá vê-la em anexo no fim do seu <a href=\"$a->url\">diálogo</a>. ';
+Poderá vê-la em anexo no fim do seu <a href=\"$a->url\">diálogo</a>.';
 $string['dialoguename'] = 'Nome do diálogo';
 $string['dialogueopened'] = 'Diálogo aberto com $a';
 $string['dialoguewith'] = 'Diálogo com $a';
@@ -36,6 +37,7 @@ $string['newentry'] = 'Nova entrada';
 $string['noavailablepeople'] = 'Não niguém disponível com quem  dialogar.';
 $string['nopersonchosen'] = 'Não foi seleccionado ninguém';
 $string['nosubject'] = 'Não foi escrito o assunto';
+$string['notavailable'] = 'Os diálogos não estão disponíveis para os visitantes';
 $string['notextentered'] = 'Não foi escrito nenhum texto';
 $string['notstarted'] = 'Ainda não iniciou este diálogo';
 $string['notyetseen'] = 'Ainda sem ver';
@@ -48,6 +50,7 @@ $string['open'] = 'Aberto';
 $string['openadialoguewith'] = 'Abrir um diálogo com';
 $string['opendialogue'] = 'Abrir diálogo';
 $string['opendialogueentries'] = 'Abrir entradas de diálogo';
+$string['opendialogues'] = 'Diálogos abertos';
 $string['pane0'] = 'Abrir um diálogo';
 $string['pane1'] = '$a Diálogos a espera das suas respostas';
 $string['pane1one'] = '1 Diálogo a espera da sua resposta';
