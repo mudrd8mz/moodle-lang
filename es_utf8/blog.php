@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.7 dev (2006052400)
+      // blog.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['addnewentry'] = 'Agregar una nueva entrada';
@@ -16,6 +16,8 @@ $string['blogtags'] = 'Marcas del Blog';
 $string['courseblog'] = 'Blog del curso: $a';
 $string['courseblogs'] = 'Los usuarios sólo pueden ver los blogs de las personas que comparten un curso';
 $string['disableblogs'] = 'Deshabilitar por completo el sistema blog';
+$string['emptybody'] = 'El cuerpo de la entrada del blog no puede estar vacío';
+$string['emptytitle'] = 'El título de la entrada del blog no puede estar vacío';
 $string['entrybody'] = 'Cuerpo de entrada del blog';
 $string['entrybodyonlydesc'] = 'Escriba la descripción';
 $string['entryerrornotyours'] = 'Esta entrada no es suya';

@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005042100)
+      // block_rss_client.php - created with Moodle 1.6.2 (2006050520)
 
 
 $string['addfeed'] = 'Añadir una URL de canal de noticias:';
 $string['addheadlineblock'] = 'Añadir un bloque de cabecera RSS';
 $string['addnew'] = 'Añadir nuevo';
+$string['blockname'] = 'Cliente RSS';
 $string['choosefeedlabel'] = 'Seleccione los canales que desea estén disponibles en este bloque:';
 $string['clientchannellink'] = 'Sitio fuente...';
 $string['clientnumentries'] = 'El número de entradas por defecto a mostrar por canal.';
@@ -31,7 +32,12 @@ $string['managefeeds'] = 'Gestionar todos mis canales';
 $string['nofeeds'] = 'No hay canales RSS definidos para este sitio.';
 $string['pickfeed'] = 'Seleccionar un canal de noticias';
 $string['remotenewsfeed'] = 'Canal de noticias remoto';
+$string['rss_client:createprivatefeeds'] = 'Crear canales RSS privados';
+$string['rss_client:createsharedfeeds'] = 'Crear canales RSS compartidos';
+$string['rss_client:manageanyfeeds'] = 'Gestionar cualquier canal RSS';
+$string['rss_client:manageownfeeds'] = 'Gestionar canales RSS propios';
 $string['seeallfeeds'] = 'Ver todos los canales';
+$string['sharedfeed'] = 'Canal compartido';
 $string['shownumentrieslabel'] = 'Número máximo de entradas a mostrar por bloque.';
 $string['submitters'] = '¿Quién puede definir canales RSS de noticias? Los canales definidos estarán disponibles en cualquier página de su sitio.';
 $string['timeout'] = 'blockrsstimeout';
