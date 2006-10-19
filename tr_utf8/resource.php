@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 dev (2006092801)
+      // resource.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['addresource'] = 'Kaynak ekle';
@@ -9,9 +9,13 @@ $string['browserepository'] = 'Ambara gözat';
 $string['choose'] = 'Seç';
 $string['chooseafile'] = 'Seç veya bir dosya yükle';
 $string['chooseparameter'] = 'Parametre seç';
+$string['configallowlocalfiles'] = 'Yeni bir kaynak dosya oluştururken, CD sürücü veya ana disk gibi yerel dosya sistemindeki dosyalara bağlantılara izin ver. Bir sınıfta tüm öğrencilerin genel bir ağ sürücüne erişmesi gerekiyorsa veya CD\'de erişilmesi gereken dosyalar varsa bu kullanışlı olabilir. Bu özelliğin kullanımı, tarayıcınızın güvenlik ayarları değişimi gerektirebilir.';
 $string['configautofilerenamesettings'] = 'Dosya yöneticisinde isim değiştirildiğinde dosyalara ve klasörlere bağlantıları otomatikmen güncelle.';
 $string['configblockdeletingfilesettings'] = 'Kaynaklar tarafından bağlantıları olan dosya ve klasörlerin silinmesini engelle. Lütfen, HTML dosyalarındaki resim ve diğer dosya bağlantılarının korunmayacığını dikkate alın.';
 $string['configdefaulturl'] = 'URL-temelli yeni bir kaynak oluşturulduğunda bu değer URL adresini önceden dolduracaktır.';
+$string['configfilterexternalpages'] = 'Bu ayarın etkinleştirilmesiyle şu anda tanımlanmış site filtreleri (örneğin sözlük otomatik-linkleme) tarafından tüm harici kaynakların (web sayfaları, yüklenen HTML dosyaları gibi) işlenmesine sebep olur. Bu ayarın açık yapılması kurs sayfalarının ciddi anlamda yavaşlamasına sebep olabilir. Bunu dikkatli bir şekilde ve gerçekten gereksinim duyuyorsanız kullanın.';
+$string['configframesize'] = 'Bir web sayfası veya yüklenmiş dosya bir çerçeve içinde gösterildiğinde bu değer, gezinmeyi içeren üst çerçevenin pixel olarak boyutunu ayarlar.';
+$string['configpopup'] = 'Yeni kaynak eklenirken bu kaynak yeni bir açılır pencerede gösterilebilir. Bu seçenek varsayılan olarak etkinleştirilsin mi?';
 $string['configpopupdirectories'] = 'Açılır pencereler dizin bağlantılarını gösterecek mi?';
 $string['configpopupheight'] = 'Yeni açılır pencereler için varsayılan yükseklik ne olsun?';
 $string['configpopuplocation'] = 'Açılır pencereler adres çubuğunu gösterecek mi?';
@@ -43,6 +47,8 @@ $string['imspackageloaded'] = 'Paket yüklendi';
 $string['localfile'] = 'Yerel dosya';
 $string['localfilechoose'] = 'Yerel bir dosya seçin (CD-ROM)';
 $string['localfilehelp'] = 'Yerel dosyaları gösterirken yardım et';
+$string['localfileinfo'] = '<p>Bilgisayarınızdan yerel bir dosya seçin. Dosya web sitesine yüklenmeyecek ama diğer kişiler bu kaynağa bakarken bilgisayarlarındaki aynı konuma bakılacaktır.</p><p>Tüm katılımcılara dağıtmak istediğiniz standart bir CD üzerinde büyük çoklu-ortam dosyaları varsa bu çok kullanışlıdır. Her bir katılımcı bunun gibi dosyaları <a href=\"$a\" target=\"_blank\">kullanıcı profilini düzenleyerek</a> kendi yerel konumunu seçebilir.</p>';
+$string['localfilepath'] = 'Bu kaynağa yerel konumu ayarlamak için dosyanın bulunduğu bilgisayar sürücüsünden (genellikle CD_ROM) herhangi bir dosya seçin. Dosya yüklenmeyecek fakat disk bilgisi kaydedilecek ve yerel dosya kaynakları için kullanılacak.';
 $string['localfileselect'] = 'Bu dosya yolunu seç.';
 $string['maindirectory'] = 'Ana dosya dizini';
 $string['modulename'] = 'Kaynak';
