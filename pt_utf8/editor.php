@@ -1,13 +1,16 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.4 development (2004062600)
+      // editor.php - created with Moodle 1.6.2 (2006050521)
 
 
 $string['about'] = 'Acerca deste editor';
 $string['absbottom'] = 'FundoAbsoluto';
-$string['middle'] = 'MeioAbsoluto';
 $string['address'] = 'Morada';
+$string['alertnoselectedtext'] = 'Primeiro deverá seleccionar algum texto!';
 $string['alignment'] = 'Alinhamento';
 $string['alternatetext'] = 'Texto alternativo';
+$string['anchorhelp'] = 'Isto apenas introduz um rótulo. Ainda terá que criar um apontador manualmente.';
+$string['anchorname'] = 'Nome do rótulo';
+$string['anchors'] = 'Rótulos';
 $string['baseline'] = 'Linha de base';
 $string['bold'] = 'Negrito';
 $string['borderthickness'] = 'Espessura da borda';
@@ -19,14 +22,23 @@ $string['cellspacing'] = 'Espaço entre células';
 $string['choosechar'] = 'Escolha Caracter';
 $string['chooseicon'] = 'Escolha ícone a inserir';
 $string['close'] = 'Fechar';
+$string['closeafterreplace'] = 'Fechar após substituir';
 $string['cols'] = 'Colunas';
 $string['copy'] = 'Copiar selecção';
+$string['createanchor'] = 'Criar rótulo';
 $string['createfolder'] = 'Criar pasta';
 $string['createlink'] = 'Inserir apontador Web';
 $string['cut'] = 'Cortar selecção';
+$string['cutpastemozilla'] = 'Infelizmente, não pode de momento utilizar atalhos de teclado (nem sequer o botão de Colar) para colar texto no editor. Isto deve-se a uma questão de segurança construída em algumas versões dos navegadores Mozilla e Firefox.<br /><br />Pode experimentar 3 situações para contornar isso: <br
+/>(1) Em vez de CTRL-V, utilize SHIFT-Insert <br /> (2) Utilize no menu  do navegador Editar->Colar <br />(3) Mude as preferências no navegador editando o ficheiro user.js<br /><br />Clique no botão OK por baixo para mais ajudas, ou Cancelar
+para voltar ao editor\'';
 $string['delete'] = 'Apagar';
 $string['filebrowser'] = 'Navegador de Ficheiros';
+$string['findwhat'] = 'Encontrar';
+$string['fontname'] = 'Nome da fonte';
+$string['fontsize'] = 'Tamanho da fonte';
 $string['forecolor'] = 'Cor da fonte';
+$string['formatblock'] = 'Formatar';
 $string['fullscreen'] = 'Editro de ecran completo';
 $string['heading'] = 'Cabeçalho';
 $string['height'] = 'Altura';
@@ -42,6 +54,7 @@ $string['insertlink'] = 'Inserir apontador';
 $string['insertsmile'] = 'Inserir risonho';
 $string['inserttable'] = 'Inserir tabela';
 $string['italic'] = 'Itálica';
+$string['itemsreplaced'] = 'Items substituidos';
 $string['justifycenter'] = 'Centrar';
 $string['justifyfull'] = 'Preencher linha';
 $string['justifyleft'] = 'Alinhar à esquerda';
@@ -58,13 +71,16 @@ $string['linktargetself'] = 'No mesmo frame';
 $string['linktargettop'] = 'Na mesma janela';
 $string['linktitle'] = 'Título';
 $string['linkurl'] = 'URL';
+$string['matchcase'] = 'Distinguir maiúsculas e minúsculas';
 $string['middle'] = 'Meio';
 $string['minimize'] = 'Minimizar o editor';
 $string['move'] = 'Mover';
+$string['nolink'] = 'Não criar apontadores automaticamente';
 $string['normal'] = 'Normal';
 $string['notimage'] = 'O ficheiro seleccionado não é uma imagem. Por favor seleccione uma imagem!';
 $string['notset'] = 'Não seleccionado';
 $string['ok'] = 'OK';
+$string['options'] = 'Opções';
 $string['orderedlist'] = 'Lista ordenada';
 $string['outdent'] = 'Diminuir identação';
 $string['paste'] = 'Colar do clipboard';
@@ -76,11 +92,16 @@ $string['preformatted'] = 'pré-formatado';
 $string['preview'] = 'vista prévio';
 $string['properties'] = 'Propriedades';
 $string['redo'] = 'Refazer a sua última acção';
+$string['regularexpressions'] = 'Usar expressões regulares';
 $string['removelink'] = 'Apagar link';
 $string['rename'] = 'Renomear';
+$string['replaceall'] = 'Substituir todos';
+$string['replacewith'] = 'Substituir';
 $string['right'] = 'Direita';
 $string['righttoleft'] = 'Direcção de direita para esquerda';
 $string['rows'] = 'Linhas';
+$string['searchandreplace'] = 'Encontrar e substituir';
+$string['searchnotfound'] = 'Texto procurado não encontrado!';
 $string['selectcolor'] = 'Seleccionar cor';
 $string['selection'] = 'Selecção';
 $string['showhelp'] = 'Ajuda no uso do editor';
