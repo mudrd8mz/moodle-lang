@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 dev (2006092410)
+      // quiz.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['1day'] = '1 Gün';
@@ -74,6 +74,7 @@ $string['categorydeleted'] = '\'$a\' kategorisi silindi';
 $string['categoryinfo'] = 'Kategori bilgisi';
 $string['categorymove'] = '\'$a->name\' kategorisinde $a->count soru var. Taşınacak başka bir kategori seçiniz.';
 $string['categorymoveto'] = 'Bu kategoriye taşı';
+$string['categorynamecantbeblank'] = 'Kategori adı boş olamaz.';
 $string['categorynoedit'] = '$a\' kategorinde düzenleme hakkına sahip değilsiniz.';
 $string['categoryupdated'] = 'Kategori başarıyla güncellendi';
 $string['changessaved'] = 'Not değişiklikleri kaydedildi';
@@ -102,6 +103,7 @@ $string['copyingquestion'] = 'Bir soru kopyalanıyor';
 $string['correct'] = 'Doğru';
 $string['correctanswer'] = 'Doğru yanıt';
 $string['correctanswerformula'] = 'Doğru Yanıt Formülü';
+$string['correctansweris'] = 'Doğru yanıt: $a';
 $string['correctanswerlength'] = 'Ondalık Basamak Sayısı';
 $string['correctanswers'] = 'Doğru yanıtlar';
 $string['correctanswershows'] = 'Doğru cevap gösterimi';
@@ -342,6 +344,7 @@ $string['penaltyscheme'] = 'Cezaları uygula';
 $string['percentcorrect'] = 'Doğruluk Yüzdesi';
 $string['pleaseclose'] = 'İsteğiniz işleme alındı. Şu anda pencereyi kapatabilirsiniz.';
 $string['popup'] = 'Sınavı güvenli bir pencerede göster';
+$string['popupblockerwarning'] = 'Testin bu bölümü güvenli moddadır ve sınavı güvenli bir pencerede yapmanız gerekir. Lütfen açılır pencere engelleyicini kapatınız. Teşekkür ederiz.';
 $string['popupnotice'] = 'Öğrenciler bu sınavı güvenli bir pencerede görecekler';
 $string['preview'] = 'Önizleme';
 $string['previewquestion'] = 'Soruyu önizleme';
