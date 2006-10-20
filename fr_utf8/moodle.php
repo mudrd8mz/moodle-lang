@@ -1426,6 +1426,7 @@ $string['yahooid'] = 'Identifiant Yahoo';
 $string['yes'] = 'Oui';
 $string['youareabouttocreatezip'] = 'Vous allez créer un fichier compacté (zip) contenant';
 $string['youaregoingtorestorefrom'] = 'Vous allez restaurer depuis';
+$string['youneedtoenrol'] = 'Vous devez vous inscrire à ce cours pour effectuer cette action.';
 $string['yourlastlogin'] = 'Votre dernière connexion';
 $string['yourself'] = 'vous';
 $string['yourteacher'] = 'votre $a';
