@@ -72,6 +72,7 @@ $string['categorydeleted'] = 'La catégorie «&nbsp;$a&nbsp;» a été supprimé
 $string['categoryinfo'] = 'Information sur la catégorie';
 $string['categorymove'] = 'La catégorie «&nbsp;$a->name&nbsp;» contient $a->count questions (certaines d\'entre elles peuvent être d\'anciennes questions cachées utilisées dans des tests existants).<br />Veuillez choisir une autre catégorie dans laquelle les déplacer.';
 $string['categorymoveto'] = 'Les déplacer dans cette catégorie';
+$string['categorynamecantbeblank'] = 'Le nom de la catégorie ne peut pas être vide.';
 $string['categorynoedit'] = 'Vous n\'avez pas les autorisations nécessaires pour modifier la catégorie «&nbsp;$a&nbsp;».';
 $string['categoryupdated'] = 'La catégorie a été modifiée';
 $string['changessaved'] = 'Modifications enregistrées';
