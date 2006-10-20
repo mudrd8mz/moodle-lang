@@ -698,6 +698,7 @@ $string['keep'] = 'Conserver';
 $string['keepsearching'] = 'Continuer à chercher';
 $string['langltr'] = 'La langue est écrite de gauche à droite';
 $string['langrtl'] = 'La langue est écrite de droite à gauche';
+$string['langimport'] = 'Utilitaire d\'importation de langues';  // To delete for version 1.7 (legacy)
 $string['language'] = 'Langue';
 $string['languagegood'] = 'Le paquetage de cette langue est à jour ! :-)';
 $string['lastaccess'] = 'Dernier accès';
