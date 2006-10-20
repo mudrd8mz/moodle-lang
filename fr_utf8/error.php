@@ -62,6 +62,7 @@ $string['sessionerroruser'] = 'Votre session est échue. Veuillez vous connecter
 $string['sessionerroruser2'] = 'Une erreur du serveur affectant votre session de connexion a été détectée. Veuillez vous connecter à nouveau ou relancer votre navigateur.';
 $string['sessionipnomatch'] = 'Désolé, votre adresse IP semble avoir changé depuis votre première connexion. Ce réglage de sécurité empêche des pirates d\'usurper votre identité lorsque vous êtes connecté sur ce site. Les utilisateurs ne devraient en principe pas rencontrer ce message. Veuillez demander de l\'aide à l\'administrateur de ce site.';
 $string['statscatchupmode'] = 'Les statistiques sont en cours de traitement. Jusqu\'ici, $a->daysdone jour(s) ont été traités. Il en reste $a->dayspending à traiter. Veuillez patienter et revenir plus tard&nbsp;!';
+$string['unicodeupgradeerror'] = 'Désolé, votre base de données n\'est pas encore en Unicode, et cette version de Moodle n\'est pas capable d\'effectuer la migration de la base de données vers Unicode. Veuillez effectuer d\'abord la mise à jour à Moodle 1.7.x, puis la migration Unicode sur la page d\'administration. Ensuite seulement, vous pourrez effectuer la mise à jour à Moodle $a';
 $string['unknowncourse'] = 'Le cours «&nbsp;$a&nbsp;» est inconnu';
 $string['unknownuseraction'] = 'Dséolé, je ne comprends pas ce que vous voulez faire.';
 $string['usernotaddederror'] = 'L\'utilisateur «&nbsp;$a&nbsp;» n\'a pas été ajouté : erreur inconnue';
