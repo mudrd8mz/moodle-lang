@@ -18,6 +18,7 @@ $string['emptybody'] = 'Le texte d\'un article de blog ne peut pas être vide';
 $string['emptytitle'] = 'Le titre d\'un article de blog ne peut pas être vide';
 $string['entrybody'] = 'Corps de l\'article du blog';
 $string['entrybodyonlydesc'] = 'Description de l\'article';
+$string['entrydeleted'] = 'L\'article du blog a été supprimé';
 $string['entryerrornotyours'] = 'Cet article n\'est pas vôtre';
 $string['entrytitle'] = 'Titre de l\'article';
 $string['entrysaved'] = 'L\'article a été enregistré';
