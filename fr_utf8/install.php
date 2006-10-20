@@ -58,13 +58,19 @@ $string['databasesettingssub_postgres7'] = '<strong>Type&nbsp;:</strong> Postgre
 <strong>Utilisateur&nbsp;:</strong> le nom d\'utilisateur de la base de données<br />
 <strong>Mot de passe&nbsp;:</strong> le mot de passe de la base de données<br />
 <strong>Préfixe des tables&nbsp;:</strong> le préfixe à utiliser pour les noms de toutes les tables (requis)';
-$string['databasesettingssub_mssql'] = '<strong>Type&nbsp;:</strong> SQL*Server<br />
+$string['databasesettingssub_mssql'] = '<strong>Type&nbsp;:</strong> SQL*Server (sans UTF-8) <strong><font color=\"red\">Expérimental&nbsp;! (ne pas utiliser en production)</font></strong><br />
 <strong>Serveur hôte&nbsp;:</strong> le plus souvent «&nbsp;localhost&nbsp;» ou par exemple «&nbsp;db.isp.com&nbsp;»<br />
 <strong>Nom&nbsp;:</strong> nom de la base de données, par exemple «&nbsp;moodle&nbsp;»<br />
 <strong>Utilisateur&nbsp;:</strong> le nom d\'utilisateur de la base de données<br />
 <strong>Mot de passe&nbsp;:</strong> le mot de passe de la base de données<br />
 <strong>Préfixe des tables&nbsp;:</strong> le préfixe à utiliser pour les noms de toutes les tables (requis)';
-$string['databasesettingssub_odbc_mssql'] = '<strong>Type&nbsp;:</strong> SQL*Server (via ODBC)<strong> <font color=\"red\">Experimental&nbsp;! (ne pas utiliser en production)</font></strong><br />
+$string['databasesettingssub_mssql_n'] = '<strong>Type&nbsp;:</strong> SQL*Server (UTF-8 activé)<br />
+<strong>Serveur hôte&nbsp;:</strong> le plus souvent «&nbsp;localhost&nbsp;» ou par exemple «&nbsp;db.isp.com&nbsp;»<br />
+<strong>Nom&nbsp;:</strong> nom de la base de données, par exemple «&nbsp;moodle&nbsp;»<br />
+<strong>Utilisateur&nbsp;:</strong> le nom d\'utilisateur de la base de données<br />
+<strong>Mot de passe&nbsp;:</strong> le mot de passe de la base de données<br />
+<strong>Préfixe des tables&nbsp;:</strong> le préfixe à utiliser pour les noms de toutes les tables (requis)';
+$string['databasesettingssub_odbc_mssql'] = '<strong>Type&nbsp;:</strong> SQL*Server (via ODBC) <strong><font color=\"red\">Expérimental&nbsp;! (ne pas utiliser en production)</font></strong><br />
 <strong>Serveur hôte&nbsp;:</strong> Nom du DSN dans le panneau de contrôle ODBC<br />
 <strong>Nom&nbsp;:</strong> nom de la base de données, par exemple «&nbsp;moodle&nbsp;»<br />
 <strong>Utilisateur&nbsp;:</strong> le nom d\'utilisateur de la base de données<br />
@@ -130,6 +136,7 @@ $string['memorylimithelp'] = '<p>La limite de mémoire de PHP sur votre serveur 
 <li>sur certains serveurs, vous pouvez créer dans le dossier principal de Moodle un fichier «&nbsp;.htaccess&nbsp;» contenant cette ligne : <p><blockquote>php_value memory_limit 16M</blockquote></p><p>Cependant, sur certains serveur, cela empêchera le fonctionnement correct de <strong>tous</strong> les fichiers PHP (vous verrez s\'afficher des erreurs lors de la consultation de pages). Dans ce cas, vous devrez supprimer le fichier «&nbsp;.htaccess&nbsp;».</li>
 </ol>';
 $string['mssql'] = 'SQL*Server (mssql)';
+$string['mssql_n'] = 'SQL*Server avec support de UTF-8 (mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'La configuration de l\'extension MSSQL de PHP n\'a pas été effectuée correctement. De ce fait, PHP ne peut communiquer avec SQL*Server. Veuillez vérifier votre fichier «&nbsp;php.ini&nbsp;» ou recompiler PHP.';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'La configuration de l\'extension MySQL de PHP n\'a pas été effectuée correctement. De ce fait, PHP ne peut communiquer avec MySQL. Veuillez contrôler votre fichier «&nbsp;php.ini&nbsp;» ou recompiler PHP.';
