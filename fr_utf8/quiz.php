@@ -102,6 +102,7 @@ $string['copyingquestion'] = 'Copie d\'une question';
 $string['correct'] = 'Correct';
 $string['correctanswer'] = 'Bonne réponse';
 $string['correctanswerformula'] = 'Formule de la bonne réponse';
+$string['correctansweris'] = 'Bonne réponse&nbsp;: $a';
 $string['correctanswerlength'] = 'Chiffres significatifs';
 $string['correctanswers'] = 'Bonnes réponses';
 $string['correctanswershows'] = 'La bonne réponse affiche';
