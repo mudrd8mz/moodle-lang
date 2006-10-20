@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.7 dev (2006081000)
+      // exercise.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['absent'] = 'Yok';
@@ -35,6 +35,7 @@ $string['deleting'] = 'Siliniyor';
 $string['description'] = 'Açıklama';
 $string['detailsofassessment'] = 'Değerlendirme Ayrıntıları';
 $string['displayoffinalgrades'] = 'Final Notlarının Gösterimi';
+$string['doubleupload'] = 'Uyarı: Bu gönderi muhtemelen iki kez gönderilmiş. Yönetim sayfasına gidin ve bu kullanıcıdan kısa süre içinde gelen iki gönderiyi kontrol edin. İşleme başlamadan önce bu gönderilerin birini silin.';
 $string['duedate'] = 'Son Tarih';
 $string['edit'] = 'Düzenle';
 $string['editingassessmentelements'] = 'Değerlendirme Ögeleri Düzenleniyor';
@@ -64,7 +65,7 @@ $string['late'] = 'Geç';
 $string['lax'] = 'Gevşek';
 $string['leaguetable'] = 'Gönderilmiş Çalışmanın Not Çizelgesi';
 $string['mail1'] = '\'$a\' isimli ödevinizi değerlendiren:';
-$string['mail2'] = 'Yorumlar ve not \'$a\' Alıştırma Değerlendirmesinde görülebilir.';
+$string['mail2'] = 'Yorumlar ve not, \'$a\' Alıştırma Değerlendirmesinde görülebilir.';
 $string['mail3'] = 'Alıştırma Değerlendirmesinde görebilirsiniz.';
 $string['mail6'] = 'Ödev değerlendirmeniz \'$a\', gözden geçirildi.';
 $string['mail7'] = '$a tarafından yapılan yorumlar Alıştırma Ödevinde görülebilir.';
