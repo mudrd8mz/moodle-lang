@@ -8,14 +8,14 @@ $string['adminauthorizesettings'] = 'Réglages Authorize.net';
 $string['adminauthorizewide'] = 'Réglages globaux';
 $string['adminavs'] = 'Cochez cette option si vous avez activé Address Verification System (AVS) dans votre compte authorize.net. Lorsque l\'utilisateur remplit le formulaire de paiement, il lui sera alors demandé de saisir les champs de l\'adresse, par exemple la rue, le code postal, le pays, etc.';
 $string['admincronsetup'] = 'Le script de maintenance cron.php n\'a pas été lancé depuis plus de 24 heures.<br />Ce script doit être activé si vous voulez utiliser la saisie programmée.<br />Veuillez <b>activer</b> le plugin Authorize.net et régler le cron, ou décocher la variable an_review.<br />Si vous désactivez la saisie programmée, les transactions seront annulées à moins que vous ne les approuviez dans les 30 jours.<br />Cochez la variable an_review et inscrivez «&nbsp;0&nbsp;» dans le champ de la variable an_capture_day<br />si vous voulez accepter ou refuser manuellement les paiements durant 30 jours.';
+$string['adminemailexpired'] = 'Ce réglage est utile si vous avez choisi la saisie manuelle. Les administrateurs sont avertis par courriel <b>$a</b> jours avant l\'échéance des commandes en attente de traitement.';
 $string['adminemailexpiredsort'] = 'Lorsque le nombre de commandes en suspens est envoyé par courriel aux enseignants, quelle est le paramètre important&nbsp;?';
-$string['adminemailexpiredsortcount'] = 'Le nombre de commandes';
-$string['adminemailexpiredsortsum'] = 'Le total des montants';
+$string['adminemailexpiredsortcount'] = 'Nombre de commandes';
+$string['adminemailexpiredsortsum'] = 'Montant total';
+$string['adminemailexpiredteacher'] = 'Si vous avez activé la saisie manuelle (voir ci-dessus) et si les enseignants peuvent gérer les paiements, ceux-ci peuvent être en outre avertis des commandes en suspens en voie d\'expiration. Un message leur sera envoyé par courriel contenant le nombre de commandes en suspens.';
+$string['adminemailexpsetting'] = '(0 = désactiver l\'envoi par courriel, par défaut = 2, max = 5)<br />(Réglage de saisie automatique requis pour l\'envoi des courriels&nbsp;: cron = activé, an_review = coché, an_capture_day = 0, an_emailexpired = 1-5)';
 $string['adminhelpcapturetitle'] = 'Jour de saisie programmée';
 $string['adminhelpreviewtitle'] = 'Contrôle de commande';
-$string['adminemailexpired'] = 'Ce réglage est utile si vous avez choisi la saisie manuelle. Les administrateurs sont avertis par courriel <b>$a</b> jours avant l\'échéance des commandes en attente de traitement.';
-$string['adminemailexpiredteacher'] = 'Si vous avez activé la saisie manuelle (voir ci-dessus) et si les enseignants peuvent gérer les paiements, ceux-ci peuvent être en outre avertis des commandes en suspend en voie d\'expiration. Un message leur sera envoyé par courriel contenant le nombre de commandes en suspens.';
-$string['adminemailexpsetting'] = '(0 = désactiver l\'envoi par courriel, par défaut = 2, max = 5)<br />(Réglage de saisie automatique requis pour l\'envoi des courriels&nbsp;: cron = activé, an_review = coché, an_capture_day = 0, an_emailexpired = 1-5)';
 $string['adminneworder'] = 'Cher administrateur,
   	 
 Vous avez reçu un nouvel ordre en attente :
@@ -28,17 +28,16 @@ Vous avez reçu un nouvel ordre en attente :
 
     SAISE PROGRAMÉE ACTIVE ? $a->acstatus
 
-Si la saisie programmée est actovie, les infos de carte de crédit seront
-saisies le $a->captureon et l\'étudiant sera inscrit au cours. Dans le cas
-contraire, ces données arriveront à échéance le $a->expireon et ne pourront
-plus être saisies après cette date.
+Si la saisie programmée est activée, il est prévu que les infos de carte de
+crédit seront saisies le $a->captureon et que l\'étudiant sera inscrit au
+cours. Dans le cas contraire, ces données arriveront à échéance le
+$a->expireon et ne pourront plus être saisies après cette date.
 
-Vous pouvez immédiatement accepter ou refuser le paiement pour l\'inscription
-de l\'étudiant en cliquant sur le lien ci-dessous.
-
+Vous pouvez aussi accepter ou refuser le paiement afin d\'inscrire
+immédiatement l\'étudiant en cliquant sur le lien ci-dessous.
 $a->url';
-$string['adminnewordersubject'] = '$a->course : nouvel ordre en attente de traitement ($a->orderid)';
-$string['adminpendingorders'] = 'Vous avez désactivé la saisie programmée.<br />Un total de $a->count transactions dont le statut est «&nbsp;Autorisé / En attente de saisie&nbsp;» seront annulées, à moins que vous ne les approuviez.<br />Pour accepter ou refuser des paiements, visitez la page <a href=\'$a->url\'>Gestion des paiements</a>.';
+$string['adminnewordersubject'] = '$a->course, nouvel ordre en attente de traitement : $a->orderid';
+$string['adminpendingorders'] = 'Vous avez désactivé la saisie programmée.<br />Un total de $a->count transactions dont le statut est «&nbsp;Autorisé / En attente de saisie&nbsp;» seront annulées après échéance, à moins que vous ne les approuviez entre-temps.<br />Pour accepter ou refuser des paiements, visitez la page <a href=\'$a->url\'>Gestion des paiements</a>.';
 $string['adminreview'] = 'Contrôle de la commande avant envoi des données de la carte de crédit.';
 $string['adminteachermanagepay'] = 'Les enseignants peuvent gérer les paiements du cours.';
 $string['amount'] = 'Montant';
@@ -47,6 +46,7 @@ $string['anpassword'] = 'Authorize.net&nbsp;: mot de passe';
 $string['anreferer'] = 'Taper ici une URL (référenceur) si vous avez mis en place cette fonctionnalité dans votre compte authorize.net. Ceci enverra une entête «&nbsp;Referer: URL&nbsp;» incluse dans la requête web';
 $string['antestmode'] = 'Traiter les transactions en mode test (aucun montant ne sera prélevé)';
 $string['antrankey'] = 'Authorize.net&nbsp;: clef de transaction';
+$string['approvedreview'] = 'Contrôle approuvé';
 $string['authcaptured'] = 'Autorisé / Saisi';
 $string['authorize:managepayments'] = 'Gérer les paiements';
 $string['authorizedpendingcapture'] = 'Autorisé / En attente de saisie';
@@ -57,7 +57,7 @@ $string['avsg'] = 'Carte provenant d\'une banque non-U.S.';
 $string['avsn'] = 'Ni l\'adresse (rue), ni le code postal ne correspondent';
 $string['avsp'] = 'Le système de vérification d\'adresse (AVS) ne peut pas fonctionner';
 $string['avsr'] = 'Veuillez essayer à nouveau, le système n\'est actuellement pas disponible';
-$string['avsresult'] = '<b>Résultat AVS</b>&nbsp;: $a';
+$string['avsresult'] = ' Résultat AVS&nbsp;: $a';
 $string['avss'] = 'Ce service n\'est pas supporté par la banque';
 $string['avsu'] = 'Les informations d\'adresse ne sont pas disponibles';
 $string['avsw'] = 'Le code postal à 9 chiffres correspond, mais pas l\'adresse (rue)';
@@ -79,10 +79,10 @@ $string['ccvv'] = 'Code vérification';
 $string['ccvvhelp'] = 'Au verso de votre carte (les 3 derniers chiffres)';
 $string['choosemethod'] = 'Tapez la clef d\'inscription à ce cours&nbsp;; si vous n\'avez pas cette clef, ce cours vous sera accessible contre paiement.';
 $string['chooseone'] = 'Veuillez remplir l\'un des deux champs ci-dessous ou tous les deux. Le mot de passe n\'est pas affiché.';
-$string['costdefaultdesc'] = 'Pour utiliser ce prix par défaut, <strong> tapez -1 dans les paramètres du cours</strong>.';
+$string['costdefaultdesc'] = 'Pour utiliser ce prix par défaut, <strong>tapez -1 dans le champ du coût</strong> des paramètres du cours.';
 $string['cutofftime'] = 'Date butoir de transaction. Quand la dernière transaction doit-elle être traitée pour règlement&nbsp;?';
 $string['delete'] = 'Détruire';
-$string['description'] = 'Le module Authorize.net permet de mettre en place des cours payant par carte de crédit. Si le prix d\'un cours est nul, les étudiants peuvent s\'y inscrire sans payer. Le prix des cours peut être fixé de 2 manières. (1) Un prix défini globalement, que vous fixez ici, est le prix par défaut pour tous les cours du site. (2) Le prix de chaque cours peut être fixé individuellement. S\'il est défini, le prix spécifique d\'un cours remplace le prix par défaut.<br /><br /><b>Remarque&nbsp;:</b> si vous indiquez une clef d\'inscription dans les réglages du cours, les étudiants auront également la possibilité de s\'y inscrire avec cette clef. Ceci est utile si vous avez un mélange d\'étudiants payant et non payant.';
+$string['description'] = 'Le module Authorize.net permet de mettre en place des cours payants via des fournisseurs de paiement. Si le prix d\'un cours est de zéro, les étudiants peuvent s\'y inscrire sans payer. Le prix des cours peut être fixé de 2 manières. (1) Un prix défini globalement, que vous fixez ici, est le prix par défaut pour tous les cours du site. (2) Le prix de chaque cours peut être fixé individuellement. S\'il est défini, le prix spécifique d\'un cours remplace le prix par défaut.<br /><br /><b>Remarque&nbsp;:</b> si vous indiquez une clef d\'inscription dans les réglages du cours, les étudiants auront également la possibilité de s\'y inscrire avec cette clef. Ceci est utile si vous avez un mélange d\'étudiants payant et non payant.';
 $string['echeckabacode'] = 'Numéro bancaire ABA';
 $string['echeckaccnum'] = 'Numéro de compte bancaire';
 $string['echeckacctype'] = 'Type de compte bancaire';
@@ -173,16 +173,19 @@ $string['refund'] = 'Remboursement';
 $string['refunded'] = 'Remboursé';
 $string['returns'] = 'Retour';
 $string['reviewday'] = 'Saisir les données de la carte de crédit automatiquement, à moins qu\'un enseignant ou un administrateur ne contrôle la commande dans les <b>$a</b> jours. LE CRON DOIT ÊTRE ACTIF.<br />(0 jour signifie que la saisie programmée sera désactivée. Un contrôle par un enseignant ou administrateur est alors nécessaire. Dans ce cas, la transaction sera annulée si elle n\'est pas contrôlée dans les 30 jours)';
+$string['reviewfailed'] = 'Échec du contrôle';
 $string['reviewnotify'] = 'Votre paiement va être contrôlé. Votre enseignant vous contactera par courriel dans quelques jours.';
 $string['sendpaymentbutton'] = 'Envoyer paiement';
 $string['settled'] = 'Réglé';
 $string['settlementdate'] = 'Date de réglement';
-$string['subvoidyes'] = 'La transaction remboursée $a->transid sera annulée et votre compte sera crédité de $a->amount. Voulez-vous continuer&nbsp;?';
+$string['subvoidyes'] = 'La transaction remboursée $a->transid sera annulée et votre compte sera ainsi crédité de $a->amount. Voulez-vous continuer&nbsp;?';
 $string['tested'] = 'Testé';
 $string['testmode'] = '[MODE TEST]';
 $string['testwarning'] = 'Les opérations de saisie/annulation/crédit semblent fonctionner correctement en mode test. Aucun enregistrement n\'a cependant été mis à jour ni inséré dans la base de données.';
 $string['transid'] = 'No de transaction';
+$string['underreview'] = 'En cours de contrôle';
 $string['unenrolstudent'] = 'Désinscrire l\'étudiant&nbsp;?';
+$string['uploadcsv'] = 'Déposer un fichier CSV';
 $string['usingccmethod'] = 'S\'inscrire par <a href=\"$a->url\"><strong>carte de crédit</strong></a>';
 $string['usingecheckmethod'] = 'S\'inscrire par <a href=\"$a->url\"><strong>eCheck</strong></a>';
 $string['void'] = 'Nul';
