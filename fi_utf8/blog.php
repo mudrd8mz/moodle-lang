@@ -1,6 +1,4 @@
-<?PHP // $Id:
-
-
+<?PHP // $Id$ 
       // blog.php - created with Moodle 1.7 beta (2006101000)
 
 
@@ -55,5 +53,6 @@ $string['userblog'] = 'Käyttäjän blogi: $a';
 $string['viewcourseentries'] = 'Kurssimerkinnnät';
 $string['viewmyentries'] = 'Omat merkinnät';
 $string['viewsiteentries'] = 'Sivuston merkinnät';
+$string['worldblogs'] = 'Kuka tahansa voi lukea merkinnät jotka ovat avoinna kaikille internet käyttäjille';
 
 ?>

@@ -1,6 +1,4 @@
-<?PHP // $Id:
-
-
+<?PHP // $Id$ 
       // chat.php - created with Moodle 1.7 beta (2006101000)
 
 
@@ -46,6 +44,7 @@ $string['neverdeletemessages'] = 'Älä koskaan poista viestejä';
 $string['nextsession'] = 'Seuraava istunto';
 $string['noguests'] = 'Tämä chat ei ole avoinna vieraille';
 $string['nomessages'] = 'Ei viestejä';
+$string['normalstream'] = 'Virta';
 $string['noscheduledsession'] = 'Seuraavaa istuntoa ei määritelty';
 $string['repeatdaily'] = 'Joka päivä samaan aikaan';
 $string['repeatnone'] = 'Ei toistoja - julkaise vain määritetyllä  ajalla';

@@ -1,6 +1,4 @@
-<?PHP // $Id:
-
-
+<?PHP // $Id$ 
       // data.php - created with Moodle 1.7 beta (2006101000)
 
 
@@ -63,6 +61,7 @@ $string['download'] = 'Lataa';
 $string['edit'] = 'Muokkaa';
 $string['editcomment'] = 'Muokkaa kommenttia';
 $string['editentry'] = 'Muokkaa tietuetta';
+$string['emptyadd'] = 'Malli on tyhjä, luodaan peruslomake...';
 $string['emptyaddform'] = 'Et täyttänyt tietueen kenttiä!';
 $string['entries'] = 'Tietueet';
 $string['entry'] = 'Tietue';
@@ -77,6 +76,7 @@ $string['fieldallowautolink'] = 'Salli linkitys';
 $string['fielddeleted'] = 'Kenttä poistettu';
 $string['fielddelimiter'] = 'Kenttä erotin';
 $string['fielddescription'] = 'Kentän kuvaus';
+$string['fieldenclosure'] = 'Kentän rajat';
 $string['fieldheight'] = 'Korkeus';
 $string['fieldheightlistview'] = 'Korkeus listanäkymässä';
 $string['fieldheightsingleview'] = 'Korkeus yksittäisnäkymässä';
@@ -90,13 +90,26 @@ $string['fieldwidthsingleview'] = 'Leveys yksittäisnäkymässä';
 $string['file'] = 'Tiedosto';
 $string['filtername'] = 'Tietokannan linkitys';
 $string['footer'] = 'Alatunniste';
+$string['forcelinkname'] = 'Pakotettu nimi linkille';
 $string['fromfile'] = 'zip-tiedostosta';
 $string['header'] = 'Otsikko';
 $string['headeraddtemplate'] = 'Määrittää tietueiden muokkauksessa käytettävän käyttölliitymän';
+$string['headercsstemplate'] = 'Määrittää paikalliset CSS-tyylit muille malleille';
+$string['headerjstemplate'] = 'Määrittää javascriptin muille malleille';
+$string['headerlisttemplate'] = 'Määrittää selailutavan useille tietueille';
+$string['headerrsstemplate'] = 'Määrittää kohteiden ulkoasun RSS-syötteissä';
+$string['headersingletemplate'] = 'Määrittää selailutavan yhdelle tietueelle';
+$string['insufficiententries'] = 'tietuetta tarvitaan lisää jotta tietokantaa voidaan katsella';
 $string['intro'] = 'Johdanto';
 $string['invalidfieldname'] = 'Valitse tälle kentälle toinen nimi';
+$string['invalidurl'] = 'URL-osoite onka onnoit ei ole toimiva';
+$string['jstemplate'] = 'Javascriptmalli';
+$string['latitude'] = 'Leveysaste';
+$string['latlong'] = 'Leveysaste/Pituusaste';
+$string['latlongotherfields'] = 'Muute kentät';
 $string['list'] = 'Näytä lista';
 $string['listtemplate'] = 'Listapohja';
+$string['longitude'] = 'Pituusaste';
 $string['maxentries'] = 'Tietueiden maksimi määrä';
 $string['maxsize'] = 'Maksimi koko';
 $string['menu'] = 'Valikko';
@@ -104,10 +117,12 @@ $string['menuchoose'] = 'Valitse...';
 $string['modulename'] = 'Tietokanta';
 $string['modulenameplural'] = 'Tietokannat';
 $string['more'] = 'Lisää';
+$string['multientry'] = 'Toistuva tietue';
 $string['multimenu'] = 'Valikko (monivalinta)';
 $string['namecheckbox'] = 'Checkbox kenttä';
 $string['namedate'] = 'Päiväyskenttä';
 $string['namefile'] = 'Tiedostokenttä';
+$string['namelatlong'] = 'Leveysaste/Pituusaste kenttä';
 $string['namemenu'] = 'Valikkokenttä';
 $string['namemultimenu'] = 'Monivalintakenttä';
 $string['namenumber'] = 'Numerokenttä';
@@ -133,6 +148,18 @@ $string['pagesize'] = 'Tietuetta sivulle';
 $string['participants'] = 'Osallistujat';
 $string['picture'] = 'Kuva';
 $string['radiobutton'] = 'Radio painikkeet';
+$string['rate'] = 'Arvioi';
+$string['rating'] = 'Arvio';
+$string['ratingeveryone'] = 'Kaikki voivat arvioida tietueita';
+$string['ratingno'] = 'Ei arviointeja';
+$string['ratingonlyteachers'] = 'Vain $a voi arvioida tietueita';
+$string['ratingpublic'] = '$a voi nähdä kaikkien arvioinnit';
+$string['ratingpublicnot'] = '$a voi nähdä vain omat arvioinnit';
+$string['ratings'] = 'Arvioinnit';
+$string['ratingssaved'] = 'Arviointi tallennettu';
+$string['ratingsuse'] = 'Käytä arvioita';
+$string['recordapproved'] = 'Tietue hyväksytty';
+$string['recorddeleted'] = 'Tietue poistettu';
 $string['requireapproval'] = 'Vaadi hyväksyntä?';
 
 ?>

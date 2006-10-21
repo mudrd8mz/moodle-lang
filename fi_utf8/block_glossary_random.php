@@ -1,7 +1,5 @@
-<?PHP // $Id:
-
-
-      // block_glossary_random.php - created with Moodle 1.6.1+ (2006050511)
+<?PHP // $Id$ 
+      // block_glossary_random.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['addentry'] = 'Lisää suosikki sanontasi!';
@@ -24,5 +22,6 @@ $string['title'] = 'Otsikko';
 $string['type'] = 'Miten uusi tietue valitaan';
 $string['typehelp'] = '<b>Viimeiseksi muokattu tietue</b> näyttää aina viimeiseksi muokatun tietueen, and <b>Satunnainen tietue</b> valitsee tietueen aina satunnaisesti.<b>Seuraava tietue </b> valitsee aina seuraavan tietueen järjetyksessä. Voit käyttää tätä vaikkapa \"Päivän vihje\"-tyyppisiin toimintoihin.';
 $string['viewglossary'] = 'Lisää ...';
+$string['whichfooter'] = 'Voit näyttää linkit niihin sanaston toimintoihin jotka ovat aktiivisena lohkoon liitetyssä sanastossa.';
 
 ?>

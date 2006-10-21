@@ -1,6 +1,4 @@
-<?PHP // $Id:
-
-
+<?PHP // $Id$ 
       // block_rss_client.php - created with Moodle 1.7 beta (2006101000)
 
 
@@ -37,9 +35,12 @@ $string['remotenewsfeed'] = 'Ulkoiset syötteet';
 $string['rss_client:createprivatefeeds'] = 'Luo yksityinen RSS-syöte';
 $string['rss_client:createsharedfeeds'] = 'Luo jaettu RSS-syöte';
 $string['rss_client:manageanyfeeds'] = 'RRS-syötteiden hallinta';
-$string['rss_client:manageownfeeds'] = 'Omien RSS_syötteiden hallinta';
+$string['rss_client:manageownfeeds'] = 'Omien RSS-syötteiden hallinta';
+$string['seeallfeeds'] = 'Kaikki syötteet';
 $string['sharedfeed'] = 'Jaettu syöte';
 $string['shownumentrieslabel'] = 'Uutisten lukumäärä lohkoa kohden';
+$string['submitters'] = 'Kuka voi määritellä uusia RSS-syötteitä? Syötteet ovat käytettävissä sivuston kaikilla sivuilla.';
+$string['timeoutdesc'] = 'Kauanko RSS-syötettä pidetään välimuistissa';
 $string['updatefeed'] = 'Päivitä uutislähteen osoite:';
 $string['validatefeed'] = 'Tarkista syöte';
 

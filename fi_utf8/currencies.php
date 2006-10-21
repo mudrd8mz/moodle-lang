@@ -1,6 +1,4 @@
-<?PHP // $Id:
-
-
+<?PHP // $Id$ 
       // currencies.php - created with Moodle 1.7 beta (2006101000)
 
 
@@ -27,6 +25,7 @@ $string['BUK'] = 'Burman kyat';
 $string['BWP'] = 'Botswanan pula';
 $string['BZD'] = 'Belizen dollari';
 $string['CAD'] = 'Kanadan dollari';
+$string['CDZ'] = 'Zairen uusi zaire';
 $string['CHF'] = 'Sveitsin frangi';
 $string['CLF'] = 'Chilen unidades de fomento';
 $string['CLP'] = 'Chilen peso';
