@@ -1,7 +1,5 @@
-<?PHP // $Id:
-
-
-	// scorm.php - created with Moodle 1.6.1+ (2006050512)
+<?PHP // $Id$ 
+      // scorm.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['advanced'] = 'Asetukset';
@@ -14,6 +12,7 @@ $string['badmanifest'] = 'Manifest virheitä, katso virheloki';
 $string['browse'] = 'Selaa';
 $string['browsed'] = 'Selattu';
 $string['browsemode'] = 'Selaustapa';
+$string['browserepository'] = 'Selaa varastoa';
 $string['chooseapacket'] = 'Valitse tai päivitä SCORM-paketti';
 $string['completed'] = 'Suoritettu';
 $string['coursepacket'] = 'Kurssipaketti';
@@ -43,13 +42,16 @@ $string['gradesum'] = 'Yhteistulos';
 $string['height'] = 'Korkeus';
 $string['hidden'] = 'Piilotettu';
 $string['hidebrowse'] = 'Poista esikatselu käytöstä';
+$string['hideexit'] = 'Piilota poistu-linkki';
 $string['hidenav'] = 'Piilota navigointipainikkeet';
+$string['hidereview'] = 'Piilota esikatselu-painike';
 $string['hidetoc'] = 'Kurssin rakennenäkymä';
 $string['highestattempt'] = 'Korkein yritys';
 $string['identifier'] = 'Kysymyksen tunniste';
 $string['iframe'] = 'Nykyinen ikkuna';
 $string['iframedisplay'] = 'AVaa paketti nykyisessä ikkunassa';
 $string['incomplete'] = 'Kesken';
+$string['last'] = 'Viimeksi';
 $string['lastaccess'] = 'Viimeisin käynti';
 $string['lastattempt'] = 'Viimeisin yritys';
 $string['location'] = 'Näytä sijaintirivi';
@@ -93,16 +95,23 @@ $string['review'] = 'Esikatsele';
 $string['reviewmode'] = 'Esikatselutila';
 $string['scoes'] = 'Sisältö objektit';
 $string['score'] = 'Tulos';
+$string['scorm:savetrack'] = 'Jälkien tallennus';
+$string['scorm:skipview'] = 'Yhteenvedon ohitus';
+$string['scorm:viewreport'] = 'Raporttien katselu';
+$string['scorm:viewscores'] = 'Tulosten katselu';
 $string['scormcourse'] = 'SCORM-kurssi';
 $string['scrollbars'] = 'Salli ikkunan vieritys';
 $string['sided'] = 'Vasemalla puolella';
 $string['stagesize'] = 'Kehyksen/ikkunan koko';
+$string['started'] = 'Aloitettu';
 $string['status'] = 'Tila';
 $string['statusbar'] = 'Näytä tilarivi';
 $string['student_response'] = 'Vastaus';
+$string['suspended'] = 'Keskytetty';
 $string['syntax'] = 'Muoto virhe';
 $string['tag_error'] = 'Tuntematon merkintä ($a->tag) sisällössä: $a->value';
 $string['time'] = 'Aika';
+$string['title'] = 'Otsikko';
 $string['too_many_attributes'] = 'Merkinnällä $a->tag on liikaa atribuutteja';
 $string['too_many_children'] = 'Merkinnällä $a->tag on liikaa lapsia';
 $string['toolbar'] = 'Näytä työkalurivi';
@@ -115,6 +124,7 @@ $string['validationtype'] = 'Valitse DOMXML-kirjasto jota käytetään SCORM-man
 $string['value'] = 'Arvo';
 $string['versionwarning'] = 'Manifestin versio on vanhempi kuin 1.3, varoitus merkinnästä $a->tag.';
 $string['viewallreports'] = 'Näytä raportit $a yrityksestä';
+$string['whatgrade'] = 'Arvioidut yritykset';
 $string['width'] = 'Leveys';
 $string['window'] = 'Ikkuna';
 
