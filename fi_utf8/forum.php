@@ -1,6 +1,4 @@
-<?PHP // $Id:
-
-
+<?PHP // $Id$ 
       // forum.php - created with Moodle 1.7 beta (2006101000)
 
 
@@ -17,6 +15,9 @@ $string['allsubscribe'] = 'Tilaa kaikki keskustelualueet';
 $string['allunsubscribe'] = 'Poista kaikki tilaukset';
 $string['anyfile'] = 'Mikä tahansa tiedosto';
 $string['attachment'] = 'Liite';
+$string['blockafter'] = 'Postitusraja estolle';
+$string['blockperiod'] = 'Estoaika';
+$string['blockperioddisabled'] = 'Älä estä';
 $string['bynameondate'] = '$a->name - $a->date';
 $string['configcleanreadtime'] = 'Kellonaika, jolloin päivittäin poistetaan vanhat viestit ´luettu´ taulukosta.';
 $string['configdisplaymode'] = 'Oletusasetus keskustelujen näyttämiselle, jos sellaista ei ole asetettu.';
@@ -43,6 +44,8 @@ $string['digestmailheader'] = 'Tässä on tämän päivän kerätyt viestit kesk
 $string['digestmailprefs'] = 'asetuksesi';
 $string['digestmailsubject'] = '$a: kerätyt keskustelut';
 $string['digestsentusers'] = 'Kerätty email lähetetty $a käyttäjälle';
+$string['disallowsubscribe'] = 'Tilauksia ei sallita';
+$string['disallowsubscribeteacher'] = 'Tilauksia ei sallita (muuta kuin opettajille)';
 $string['discussion'] = 'Keskustelu';
 $string['discussionmoved'] = 'Tämä keskustelu on siirretty paikkaan \'$a\'';
 $string['discussionname'] = 'Keskustelun nimi';
@@ -50,6 +53,9 @@ $string['discussions'] = 'Keskustelut';
 $string['discussionsstartedby'] = 'Keskustelun on aloittanut $a';
 $string['discussionsstartedbyrecent'] = 'Viimeisimmän keskustelun aloittaja $a';
 $string['discussthistopic'] = 'Keskustele aiheesta';
+$string['displayend'] = 'loppuu';
+$string['displayperiod'] = 'Keskustelualue on avoinna';
+$string['displaystart'] = 'alkaa';
 $string['eachuserforum'] = 'Jokainen avaa uuden keskustelun';
 $string['edit'] = 'Muokkaa';
 $string['editedby'] = 'Muokannut $a->name - $a->date';
@@ -81,6 +87,8 @@ $string['forumname'] = 'Keskustelualueen nimi';
 $string['forumposts'] = 'Keskustelualueen viestit';
 $string['forums'] = 'Keskustelualueet';
 $string['forumsubjecthidden'] = 'Otsikko (piilotettu)';
+$string['forumtracked'] = 'Uudet viestejä seurataan';
+$string['forumtrackednot'] = 'Uusia viestejä ei seurata';
 $string['forumtype'] = 'Keskustelualueen tyyppi';
 $string['generalforum'] = 'Keskustelualue yleiseen käyttöön';
 $string['generalforums'] = 'Yleiset keskustelualueet';
@@ -108,6 +116,7 @@ $string['modethreaded'] = 'Näytä vastaukset säikeittäin';
 $string['modulename'] = 'Keskustelualue';
 $string['modulenameplural'] = 'Keskustelualueet';
 $string['more'] = 'lisää';
+$string['movedmarker'] = '(Siirretty)';
 $string['movethisdiscussionto'] = 'Siirrä tämä keskustelu ...';
 $string['namenews'] = 'Uutiset';
 $string['namesocial'] = 'Yleinen keskustelu';
@@ -143,6 +152,7 @@ $string['postadded'] = '<p>Viestisi on lisätty.</p><p>Sinulla $a aikaa muokata 
 $string['postincontext'] = 'Katso tätä viestiä asiayhteydessään';
 $string['postmailinfo'] = 'Tämä on kopio viestistä sivustolla $a.
 Lisätäksesi vastauksen viestiin suoraan sivustolle, napsauta seuraavaa linkkiä:';
+$string['postmailnow'] = '<p>Viesti lähetetään heti kaikille tilaajille</p>';
 $string['postrating1'] = 'Suurimmaksi osaksi eristyvää osaamista';
 $string['postrating2'] = 'Yhtäläisesti eristynyt ja sosiaalinen';
 $string['postrating3'] = 'Suurimmaksi osaksi sosiaalista osaamista';
@@ -175,6 +185,8 @@ $string['repliesmany'] = '$a vastausta tähän mennessä';
 $string['repliesone'] = '$a vastaus tähän mennessä';
 $string['reply'] = 'Vastaa';
 $string['replyforum'] = 'Vastaa keskustelualueelle';
+$string['resetforums'] = 'Poista kaikki viestit tämän tyyppisiltä keskustelualuita';
+$string['resetsubscriptions'] = 'Poista keskustelualueen tilaukset';
 $string['rsssubscriberssdiscussions'] = 'Näytä alueen \"$a\" keskusteluiden RSS-syöte';
 $string['rsssubscriberssposts'] = 'Näytä alueen \"$a\" viestien RSS-syöte';
 $string['search'] = 'Etsi';
@@ -208,6 +220,8 @@ $string['subscribestart'] = 'Lähetä kopiot viesteistä tälle keskustelualueel
 $string['subscribestop'] = 'En halua kopioita viesteistä tälle keskustelualueelle';
 $string['subscription'] = 'Tilaus';
 $string['subscriptions'] = 'Tilaukset';
+$string['thisforumisthrottled'] = 'Kuskustelualueelle lähettävien viestien määrää on rajoitettu. Voit lähettää $a->blockafter viestiä $a->blockperiod';
+$string['timestartenderror'] = 'Loppuu aika ei voi olla ennen alkaa aikaa';
 $string['trackforum'] = 'Seuraa lukemattomia viestejä';
 $string['tracking'] = 'Seuraa';
 $string['trackingoff'] = 'Pois päältä';
@@ -221,6 +235,7 @@ $string['unreadpostsone'] = '1 lukematon viesti';
 $string['unsubscribe'] = 'Peru tämän keskustelualueen tilaus';
 $string['unsubscribed'] = 'Tilaamaton';
 $string['unsubscribeshort'] = 'Peru tilaus';
+$string['warnafter'] = 'Postitusraja varoitukselle';
 $string['yesforever'] = 'Kyllä, pysyvästi';
 $string['yesinitially'] = 'Kyllä, aluksi';
 $string['youratedthis'] = 'Arvioit tämän';
