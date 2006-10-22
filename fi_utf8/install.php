@@ -1,6 +1,4 @@
-<?PHP // $Id:
-
-
+<?PHP // $Id$ 
       // install.php - created with Moodle 1.7 beta (2006101000)
 
 
@@ -11,7 +9,7 @@ $string['admindirsetting'] = 'Jotkut webpalvelut käyttävät /admin hakemistoa 
 Tämä korjaa ylläpito linkit Moodlessa.';
 $string['admindirsettinghead'] = 'Asetetaan ylläpitohakemisto';
 $string['admindirsettingsub'] = 'Jotkut sivustot käyttävät /admin-hakemistoa omiin tarkoituksiinsa. Tämä on ristiriidassa moodlen /admin-kansion kanssa.
-Voit kosrja tämän nimeämällä moodlen admin-kansion uudelleen antamalla nimen tähän <br />
+Voit korjata tämän nimeämällä moodlen admin-kansion uudelleen antamalla nimen tähän <br />
 Esim moodleadmin';
 $string['caution'] = 'Varoitus';
 $string['chooselanguage'] = 'Valitse kieli';
@@ -20,13 +18,13 @@ $string['chooselanguagesub'] = 'Valitse kieli asennusohjelmaa varten. Voit valit
 $string['compatibilitysettings'] = 'Tarkistetaan PHP:n asetukset';
 $string['compatibilitysettingshead'] = 'Tarkistetaan PHP:n asetukset';
 $string['compatibilitysettingssub'] = 'Palvelimesi pitää läpäistä kaikki testit jotta moodle toimisi oikein.';
-$string['configfilenotwritten'] = 'Asennus ei pystynyt luomaan automaattisesti config.php tiedostoa, joka olisi sisältänyt valitsemasi asetukset, todennäköisesti koska Moodlen hakemisto on kirjoitussuojattu. Voit manuaalisesti kopioida seuraavan koodin tiedostoon nimeltä config.php Moodlen päähakemiston sisällä.';
+$string['configfilenotwritten'] = 'Asennus ei pystynyt luomaan automaattisesti config.php tiedostoa, joka olisi sisältänyt valitsemasi asetukset. Todennäköisesti koska Moodlen hakemisto on kirjoitussuojattu. Voit  kopioida seuraavan koodin tiedostoon nimeltä config.php  ja tallentaa tiedostin Moodlen päähakemiston sisälle.';
 $string['configfilewritten'] = 'config.php on luotu.';
 $string['configurationcomplete'] = 'Asetukset suoritettu';
 $string['configurationcompletehead'] = 'Asetukset suoritettu';
 $string['configurationcompletesub'] = 'Moodle yritti tallentaa asetustiedostoa \"config.php\" moodlen asennuskansioon.';
 $string['database'] = 'Tietokanta';
-$string['databasecreationsettings'] = 'Nyt sinun täytyy asettaa asetukset tietokannalle, johon suurin osa Moodlen tiedoista tallennetaan. Moodle4Windows-asennusohjelma luo tietokannan automaattisesti käyttäen asetuksia, jotka on kerrottu alla.<br />
+$string['databasecreationsettings'] = 'Nyt sinun täytyy asettaa asetukset tietokannalle, johon suurin osa Moodlen tiedoista tallennetaan. <br />
  <br /> <br />
 <b>Type:</b> asennusohjelma asettaa asetusarvoksi \"mysql\"<br />
 <b>Host:</b> asennusohjelma asettaa asetusarvoksi \"localhost\"<br />
