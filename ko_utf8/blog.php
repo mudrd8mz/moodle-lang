@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.7 dev (2006100601)
+      // blog.php - created with Moodle 1.8 dev (2006102200)
 
 
 $string['addnewentry'] = '새 게시물 추가';
@@ -26,7 +26,7 @@ $string['entrytitle'] = '게시물 제목';
 $string['entryupdated'] = '블로그 게시물이 갱신되었습니다.';
 $string['groupblog'] = '모둠 블로그: $a';
 $string['groupblogs'] = '사용자는 모듬의 전용 블로그만을 볼 수 있습니다.';
-$string['intro'] = '이 RSS취재는 한개 이상의 블로그에 의해 자동으로 생성됩니다.';
+$string['intro'] = '이 RSS 알리미는 한개 이상의 블로그에 의해 자동으로 생성됩니다.';
 $string['noentriesyet'] = '볼수있는 게시물이 없습니다.';
 $string['noguestpost'] = '손님들은 블로그를 게시할 수 없습니다';
 $string['norighttodeletetag'] = '이 범주 $a 를 삭제할 권한이 없습니다.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.7 dev (2006092601)
+      // choice.php - created with Moodle 1.8 dev (2006102200)
 
 
 $string['addmorechoices'] = '선택사항을 더 추가하시오';
@@ -37,11 +37,11 @@ $string['publishnot'] = '학생들에게 결과를 공개하지 않습니다.';
 $string['responses'] = '응답';
 $string['responsesto'] = '$a 에 응답하다';
 $string['savemychoice'] = '나의 선택을 컴퓨터에 저장합니다';
-$string['showunanswered'] = '응답이 없는 항목을 보여라';
+$string['showunanswered'] = '응답 없는 항목을 보임';
 $string['spaceleft'] = '이용가능한 공간';
 $string['spacesleft'] = '이용가능한 공간들';
 $string['taken'] = '선택';
-$string['timerestrict'] = '이 기간중에 답하는 것을 제한합니다.';
+$string['timerestrict'] = '이 기간중에 답하도록 제한합니다.';
 $string['viewallresponses'] = '$a 에대한 학생들의 응답 보고 피드백 쓰기';
 $string['yourselection'] = '당신의 선택';
 

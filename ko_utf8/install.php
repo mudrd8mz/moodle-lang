@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.8 dev (2006101001)
+      // install.php - created with Moodle 1.8 dev (2006102200)
 
 
 $string['admindirerror'] = '지정한 관리 디렉토리가 적절치 않습니다';
@@ -29,14 +29,14 @@ $string['databasecreationsettings'] = '지금 당신은 모든 무들 데이터�
 <b>이름:</b> 데이터베이스 이름, 예: moodle<br />
 <b>사용자:</b> 설치프로그램에 의해 \"root\" 로 고정됨 <br />
 <b>암호:</b> 데이터베이스 암호 <br />
-<b>테이블 접두어:</b> 모든 테이블에 사용되는 선택적 접두어';
+<b>테이블 접두어:</b> 모든 테이블에 사용할 선택적 접두어';
 $string['databasecreationsettingshead'] = '대부분의 무들 데이터가 저장될 데이터베이스를 설정해야 합니다. 설치프로그램에 의해 자동으로 아래에 명시된 설정대로 데이터베이스가 생성될 것입니다.';
 $string['databasecreationsettingssub'] = '<b>종류:</b> 설치프로그램에 의해 \"mysql\" 로 고정됨 <br />
 <b>호스트:</b>설치프로그램에 의해 \"localhost\"로 고정됨<br />
 <b>이름:</b>데이터베이스이름, 예:moodle<br />
 <b>사용자:</b> 설치프로그램에 의해 \"root\" 로 고정됨 <br />
 <b>암호:</b> 데이터베이스 암호 <br />
-<b>테이블 첨두어:</b> 모든 테이블에 사용되는 선택적 접두어';
+<b>테이블 첨두어:</b> 모든 테이블에 사용할 선택적 접두어';
 $string['databasesettings'] = '지금 대부분의 무들 정보가 저장될 데이터베이스를 설정할 필요가 있습니다. 이 데이터베이스는 미리 생성되어 있어야 하며, 데이터베이스에 접근하기위한 사용자명과 비밀번호가 등록되어 있어야만 합니다.<br />
 <br /> <br />
 <b>종류:</b> mysql 또는 postgres7<br />
@@ -44,44 +44,50 @@ $string['databasesettings'] = '지금 대부분의 무들 정보가 저장될 �
 <b>이름:</b> 데이터베이스 이름, 예:moodle<br />
 <b>사용자:</b> 데이터베이스 사용자명<br />
 <b>암호:</b> 데이터베이스 암호<br />
-<b>테이블 접두어:</b> 모든 테이블에 사용되는 선택적 접두어';
+<b>테이블 접두어:</b> 모든 테이블에 사용할 선택적 접두어';
 $string['databasesettingshead'] = '모든 무들데이터가 저장되는 데이터베이스를 설정할 필요가 있습니다. 이 데이터베이스는 이미 만들어졌으며 이에 접근할 수 있는 사용자명과 암호가 등록되어 있어야만 합니다.';
 $string['databasesettingssub'] = '<b>종류:</b> mysql 또는 postgres7<br />
 <b>호스트:</b>예: localhost 또는 db.isp.com <br />
 <b>이름:</b> 데이터베이스 이름, 예:moodle<br />
 <b>사용자:</b> 데이터베이스 사용자명<br />
 <b>암호:</b> 데이터베이스 암호<br />
-<b>테이블 접두어:</b> 모든 테이블에 사용되는 선택적 접두어';
-$string['databasesettingssub_mssql'] = '<b>종류:</b> SQL*Server<br />
+<b>테이블 접두어:</b> 모든 테이블에 사용할 선택적 접두어';
+$string['databasesettingssub_mssql'] = '<b>종류:</b> SQL*Server (non UTF-8) <b><font color=\"red\">실험적임! (현재 운영되고 있는 사이트에서는 쓰지 마시오.)</font></b><br />
 <b>호스트:</b>예: localhost 또는 db.isp.com <br />
 <b>이름:</b> 데이터베이스 이름, 예:moodle<br />
 <b>사용자:</b> 데이터베이스 사용자명<br />
 <b>암호:</b> 데이터베이스 암호<br />
-<b>테이블 접두어:</b> 모든 테이블에 사용되는 접두어';
+<b>테이블 접두어:</b> 모든 테이블에 사용할 접두어 (필수)';
+$string['databasesettingssub_mssql_n'] = '<b>종류:</b> SQL*Server (UTF-8 설정)<br />
+<b>호스트:</b>예: localhost 또는 db.isp.com <br />
+<b>이름:</b> 데이터베이스 이름, 예:moodle<br />
+<b>사용자:</b> 데이터베이스 사용자명<br />
+<b>암호:</b> 데이터베이스 암호<br />
+<b>테이블 접두어:</b> 모든 테이블에 사용할 접두어(필수)';
 $string['databasesettingssub_mysql'] = '<b>종류:</b> MySQL<br />
 <b>호스트:</b>예: localhost 또는 db.isp.com <br />
 <b>이름:</b> 데이터베이스 이름, 예:moodle<br />
 <b>사용자:</b> 데이터베이스 사용자명<br />
 <b>암호:</b> 데이터베이스 암호<br />
-<b>테이블 접두어:</b> 모든 테이블에 사용되는 접두어(선택적)';
+<b>테이블 접두어:</b> 모든 테이블에 사용할 접두어(선택사항)';
 $string['databasesettingssub_oci8po'] = '<b>종류:</b>  Oracle<br />
-<b>호스트:</b> 사용되지 않음, 공백으로 둠<br />
+<b>호스트:</b> 사용되지 않음, 공백이어야 함<br />
 <b>이름:</b> tnsnames.ora 접속에 쓰는 이름<br />
 <b>사용자:</b> 데이터베이스 사용자명<br />
 <b>암호:</b> 데이터베이스 암호<br />
-<b>테이블 접두어:</b> 모든 테이블에 사용되는 접두어(mandatory, 2cc max)';
+<b>테이블 접두어:</b> 모든 테이블에 사용할 접두어(필수, 2cc. max)';
 $string['databasesettingssub_odbc_mssql'] = '<b>종류:</b> SQL*Server (over ODBC) <b>Experimental!</b><br />
 <b>호스트:</b>ODBC조절패널의 DSN에서 부여한 이름<br />
 <b>이름:</b> 데이터베이스 이름, 예:moodle<br />
 <b>사용자:</b> 데이터베이스 사용자명<br />
 <b>암호:</b> 데이터베이스 암호<br />
-<b>테이블 접두어:</b> 모든 테이블에 사용되는 접두어(mandatory)';
+<b>테이블 접두어:</b> 모든 테이블에 사용할 접두어(필수)';
 $string['databasesettingssub_postgres7'] = '<b>종류:</b>  PostgreSQL<br />
 <b>호스트:</b>예: localhost 또는 db.isp.com <br />
 <b>이름:</b> 데이터베이스 이름, 예:moodle<br />
 <b>사용자:</b> 데이터베이스 사용자명<br />
 <b>암호:</b> 데이터베이스 암호<br />
-<b>테이블 접두어:</b> 모든 테이블에 사용되는 접두어 (mandatory)';
+<b>테이블 접두어:</b> 모든 테이블에 사용할 접두어 (필수)';
 $string['dataroot'] = '데이타 경로';
 $string['datarooterror'] = '당신이 지정한 \'데이타 경로\'가 없거나 생성되지 않았습니다. 정확한 경로를 적거나 수동으로 그 디렉토리를 생성해 놓으시오.';
 $string['dbconnectionerror'] = '지정한 데이터베이스에 연결할 수 없습니다. 데이타베이스의 설정을 점검하시오.';
@@ -91,9 +97,9 @@ $string['dbpass'] = '비밀번호';
 $string['dbprefix'] = '접두어';
 $string['dbtype'] = '형태';
 $string['dbwrongencoding'] = '선택된 데이터베이스는 바람직하지 않은 엔코딩 방법($a)에 의해 동작하고 있습니다. 유니코드 UTF-8로 인코딩 되는 데이터베이스를 사용하는 것이 좋습니다. 아래의\"DB 엔코딩 테스트 건너뛰기\"를 선택하여 이 테스트를 건너뛸 수 있지만 추후에 문제가 야기될 수 있습니다.';
-$string['dbwronghostserver'] = '이미 설명한 \"Host\"의 규칙을 따라야만 합니다.';
-$string['dbwrongnlslang'] = '웹서버의 NLS_LANG 환경 변수들은 AL32UTF8 문자셋으로 작성되어야만 합니다. OCI8을 제대로 설정하기 위해서는 PHP문서를 참고하십시오.';
-$string['dbwrongprefix'] = '위에 설명한 대로 접두사 붙이는 규칙을 따라야만 합니다.';
+$string['dbwronghostserver'] = '이미 설명한 \"호스트\"의 규칙을 따라야만 합니다.';
+$string['dbwrongnlslang'] = '웹서버의 NLS_LANG 환경 변수들은 AL32UTF8 문자셋으로 작성되어야만 합니다. OCI8을 적절하게 설정하기 위한 PHP 문서를 보십시요.';
+$string['dbwrongprefix'] = '위에 설명한 대로 \"테이블 접두어\" 규칙을 따라야만 합니다.';
 $string['directorysettings'] = '<p>무들을 설치할 위치를 확인하세요.</p>
 <p><b>웹주소:</b>
 무들이 접근할 전체 웹 주소를 명기하세요. 만약 당신의 웹 사이트가 복합적인 URLs를 경유하여 접근가능하다면 학생들이 사용할 가장 자연스러운 것을 선택하세요. 마지막에 슬레시를 넣지 마세요.</p>
@@ -173,24 +179,25 @@ $string['memorylimithelp'] = '<p>현재 서버의 PHP 메모리 사용량은 $a 
 <li>또 도저히 php.ini 안에 있는 값을 바꿀 수가 없다면 무들 디렉토리에 아래와 같은 내용을 포함하는 .htaccess 를 넣어두면 됩니다.
 <P><blockquote>php_value memory_limit 16M<blockquote></p>
 <p>그러나 어떤 서버에서는 이러한 기능이 모든 PHP페이지에 적용되어 버릴 수도 있게 되는 데 (당신이 페이지를 살펴보았을때 문제를 찾을 것이다) 이 때에는 .htaccess 를 제거해야 하고 다른 방안을 찾아봐야 할 것입니다.</p></li></ol>';
-$string['mssql'] = 'SQL*Server (mssql)';
-$string['mssqlextensionisnotpresentinphp'] = 'SQL*서버와 연동할 수 있는 MSSQL확장자에 대한 PHP가 적절하게 설정되지 못했습니다. php.ini 파일을 점검해 보거나 PHP를 재컴파일 하세요.';
+$string['mssql'] = 'SQL* 서버 (mssql)';
+$string['mssql_n'] = 'UTF-8을 지원하는 SQL* 서버 (mssql_n)';
+$string['mssqlextensionisnotpresentinphp'] = 'MSSQL확장자를 이용해 SQL*서버와 연동할 수 있도록 적절하게 설정되지 못했습니다. php.ini 파일을 점검해 보거나 PHP를 다시 컴파일 하십시오.';
 $string['mysql'] = 'MySQL (mysql)';
-$string['mysqlextensionisnotpresentinphp'] = 'MySQL과 연동할 수 있는 MySQL확장자에 대한 PHP가 적절하게 설정되지 못했습니다. php.ini 파일을 점검해 보거나 PHP를 재컴파일 하세요.';
+$string['mysqlextensionisnotpresentinphp'] = 'MySQL확장자를 이용해 서버와 연동할 수 있도록 적절하게 설정되지 못했습니다. php.ini 파일을 점검해 보거나 PHP를 다시 컴파일 하십시오.';
 $string['oci8po'] = 'Oracle (oci8po)';
-$string['ociextensionisnotpresentinphp'] = '오라클과 연동할 수 있는 OCI8확장자에 대한 PHP가 적절하게 설정되지 못했습니다. php.ini 파일을 점검해 보거나 PHP를 재컴파일 하세요.';
-$string['odbc_mssql'] = 'SQL*Server over ODBC (odbc_mssql)';
-$string['odbcextensionisnotpresentinphp'] = 'SQL*서버와 연동할 수 있는 ODBC확장자에 대한 PHP가 적절하게 설정되지 못했습니다. php.ini 파일을 점검해 보거나 PHP를 재컴파일 하세요.';
+$string['ociextensionisnotpresentinphp'] = 'OCI8 익스텐션으로 PHP가 오라클서버와 통신하도록 적절히 설정되지 않았습니다. php.ini 파일을 점검하거나 PHP를 다시 컴파일 하십시오.';
+$string['odbc_mssql'] = 'ODBC를 통한 SQL*Server (odbc_mssql)';
+$string['odbcextensionisnotpresentinphp'] = 'ODBC 익스텐션으로 PHP가 SQL*서버와 통신하도록 적절히 설정되지 않았습니다. php.ini 파일을 점검하거나 PHP를 다시 컴파일 하십시오.';
 $string['pass'] = '통과';
-$string['pgsqlextensionisnotpresentinphp'] = 'PostgreSQL과 연동할 수 있는 PGSQL확장자에 대한 PHP가 적절하게 설정되지 못했습니다. php.ini 파일을 점검해 보거나 PHP를 재컴파일 하세요.';
+$string['pgsqlextensionisnotpresentinphp'] = 'PGSQL 익스텐션으로 PHP가 PostgreSQL 서버와 통신하도록 적절히 설정되지 않았습니다. php.ini 파일을 점검하거나 PHP를 다시 컴파일 하십시오.';
 $string['phpversion'] = 'php버젼';
 $string['phpversionerror'] = 'php 버젼은 최소한 4.3.0 혹은 5.1.0. 이상 이어야합니다.(5.0.x는 버그가 있다고 알려져 있습니다)';
 $string['phpversionhelp'] = '<p>무들은 적어도 PHP4.3.0 혹은 5.1.0. 이상 이어야합니다.(5.0.x는 버그가 있다고 알려져 있습니다)</p>
 <p>현재 구동되고 있는 PHP버전은 $a 입니다.</p>
 <p>PHP를 업그레이드 하시거나 새버전을 제공하는 웹호스팅 업체로 이전하기를 권합니다!<br />(만일 5.0.x버전을 사용 중이라면 4.4.x 버전으로 다운그레이드 할 수 있습니다)</p>';
 $string['postgres7'] = 'PostgreSQL (postgres7)';
-$string['safemode'] = 'Safe Mode';
-$string['safemodeerror'] = '아마 Safe Mode가 작동되어서 문제가 생겼을 것입니다.';
+$string['safemode'] = '안전모드';
+$string['safemodeerror'] = '아마 안전모드(Safe Mode)가 작동되어서 문제가 생겼을 것입니다.';
 $string['safemodehelp'] = '<p>무들은 safe mode on 상태에서는 작동이 원활하지 않을 텐데, 아마 그 중 하나가 새로운 파일을 못 만들게 하는 문제일 것입니다.</p>
 <p>Safe mode는 일단의 보안 편집증적인 웹호스트에서 이를 켜 놓을 것인데, 무들 사이트를 원활히 운용하기 위해서는 새로운 웹호스트를 찾아보시는 편이 나을 겁니다.</p>
 <p>원한다면 설치는 계속할 수는 있는데, 나중에 문제에 봉착할 것이라는 점을 염두에 두기 바랍니다.</p>';

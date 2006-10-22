@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006091500)
+      // enrol_authorize.php - created with Moodle 1.8 dev (2006102200)
 
 
 $string['adminacceptccs'] = '어떤 유형의 카드가 가능합니까?';
@@ -42,6 +42,7 @@ $string['anpassword'] = 'Authorize.net: 비밀번호';
 $string['anreferer'] = '만약 당신이 authorize.net 계정에서 참조 주소를 설정했다면 여기에 그 주소를 넣으시오. 이렇게 하면 인터넷의 요청에 의해 \"Referer: URL\"가 내부적으로 보내지게 될 것입니다.';
 $string['antestmode'] = '테스트 모드로만 이용하실수 있습니다. (no money will be drawn)';
 $string['antrankey'] = 'Authorize.net: 거래키';
+$string['approvedreview'] = '승인된 검토';
 $string['authcaptured'] = '승인/징수됨';
 $string['authorize:managepayments'] = '지불 관리';
 $string['authorizedpendingcapture'] = '승인/징수 처리중';
@@ -159,6 +160,7 @@ $string['refund'] = '환불';
 $string['refunded'] = '환불됨';
 $string['returns'] = '반환';
 $string['reviewday'] = '<b>$a</b>일 내에 선생님이나 관리자가 수강신청을 검토하지 않는 한, 자동적으로 신용카드에서 징수합니다. cron이 반드시 활성화 되어 있어야 합니다.<br />(0일 이란 자동징수 불가능을 의미하며 따라서 교사나 관리자가 수강신청을 수동으로 검토해야 합니다. 만일 교사나 관리자가 수동으로 접수하기로 하고 30일 이내에 검토하지 않으면 거래는 취소될 것입니다)';
+$string['reviewfailed'] = '검토 실패';
 $string['reviewnotify'] = '결제가 확인되었습니다. 선생님으로부터 며칠안으로 이메일이 갈것입니다.';
 $string['sendpaymentbutton'] = '지불하기';
 $string['settled'] = '결제됨';
@@ -168,7 +170,9 @@ $string['tested'] = '테스트 됨';
 $string['testmode'] = '[테스트 모드]';
 $string['testwarning'] = '징수/무효/신용 이 데스트모드에서는 동작하는 것처럼 보입니다. 그러나 아무런 기록도 데이터베이스에 갱신되거나 삽입되지 않았습니다.';
 $string['transid'] = '거래아이디';
+$string['underreview'] = '검토 중';
 $string['unenrolstudent'] = '학생 등록취소';
+$string['uploadcsv'] = 'CSV 파일 올리기';
 $string['usingccmethod'] = '<a href=\"$a->url\"><strong>신용 카드 </strong></a>를 이용한 등록';
 $string['usingecheckmethod'] = '<a href=\"$a->url\"><strong>eCheck</strong></a>를 이용한 등록';
 $string['void'] = '무효';

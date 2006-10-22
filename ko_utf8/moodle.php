@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006101001)
+      // moodle.php - created with Moodle 1.8 dev (2006102200)
 
 
 $string['action'] = '동작';
@@ -104,7 +104,7 @@ $string['allownone'] = '아무도 허용하지 않음';
 $string['allownot'] = '허락하지 않기';
 $string['allparticipants'] = '모든 참가자';
 $string['allteachers'] = '모든 교사';
-$string['alphabet'] = 'ㄱ,ㄴ,ㄷ,ㄹ,ㅁ,ㅂ,ㅅ,ㅇ,ㅊ,ㅋ,ㅊ,ㅌ,ㅍ,ㅎ';
+$string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['alphanumerical'] = '알파벳 문자나 숫자만 포함될 수 있습니다.';
 $string['alreadyconfirmed'] = '이미 등록이 완료되었습니다.';
 $string['always'] = '항상';
@@ -128,17 +128,20 @@ $string['availability'] = '활용도';
 $string['availablecourses'] = '이용할 수 있는 배움터';
 $string['backtoparticipants'] = '참여자 목록으로 돌아가기';
 $string['backup'] = '백업';
-$string['backupactivehelp'] = '자동 백업을 할 것인지의 여부';
+$string['backupactivehelp'] = '자동 백업을 할 것인지의 여부를 선택합니다.';
 $string['backupcancelled'] = '백업 취소';
 $string['backupcoursefileshelp'] = '이 항목을 \"예\"로 해 놓으면, 자동으로 배움터 파일을 백업에 포함시킵니다.';
 $string['backupdate'] = '백업 날짜';
+$string['backupdatenew'] = ' $a->TAG 는 현재 $a->weekday, $a->mday $a->month $a->year 입니다.<br />';
+$string['backupdateold'] = '$a->TAG 는 $a->weekday, $a->mday $a->month $a->year 였습니다.';
+$string['backupdaterecordtype'] = '<br />$a->recordtype - $a->recordname<br />';
 $string['backupdetails'] = '백업 상세보기';
 $string['backupexecuteathelp'] = '자동 백업 시작 시각 선택';
 $string['backupfailed'] = '배움터 중 일부가 저장되지 않았습니다.';
 $string['backupfilename'] = '백업';
 $string['backupfinished'] = '백업이 성공적으로 수행되었습니다.';
 $string['backupincludemoduleshelp'] = '배움터 모듈, 사용자 데이터 등을 포함하여 백업하고 싶으면 선택하세요.';
-$string['backupincludemoduleuserdatahelp'] = '자동 백업에서 사용자 데이터를 포함시킬지의 여부';
+$string['backupincludemoduleuserdatahelp'] = '자동 백업에서 사용자 데이터를 포함시킬지의 여부를 선택합니다.';
 $string['backupkeephelp'] = '배움터를 백업할 때 오래된 백업파일을 몇 개까지 서버에 보관할까요? (오래된 것은 자동으로 삭제됩니다.)';
 $string['backuplogdetailed'] = '자세한 실행기록';
 $string['backuploglaststatus'] = '지난 실행기록';
@@ -203,8 +206,8 @@ $string['clamdeletedfile'] = '파일이 삭제 되었습니다';
 $string['clamdeletedfilefailed'] = '파일을 삭제할 수 없습니다';
 $string['clamemailsubject'] = '$a :: Clam AV 알림';
 $string['clamfailed'] = 'Clam AV의 실행이 되지 않았습니다. 오류 메세지는 $a 였습니다. 다음은 Clam가 보낸 내용입니다 :';
-$string['clamlost'] = 'Moodle은 calm이 업로드한 파일을 검색할 수 있도록 설정되었습니다만, Clam AV, $a 에게 배정된 경로가 부정확합니다.';
-$string['clamlostandactinglikevirus'] = '추가로, 무들은 clam 실행이 실패할 경우, 파일이 바이러스로 취급되도록 설정되었습니다. 이는 당신이 이것을 교정하기 전까지는 어떠한 학생도 파일을 성공적으로 올릴 수 없다는 것을 뜻합니다.';
+$string['clamlost'] = '무들은 업로드한 파일에 대해 Clam을 실행하도록 설정되었습니다만, Clam AV, $a 에게 배정된 경로가 부정확합니다.';
+$string['clamlostandactinglikevirus'] = '추가로, clam 실행이 실패할 경우, 무들은 파일을 바이러스로 취급하도록 설정되었습니다. 이는 당신이 이것을 교정하기 전까지는 어떠한 학생도 파일을 성공적으로 올릴 수 없다는 것을 뜻합니다.';
 $string['clammovedfile'] = '이 파일은 지정된 격리 장소로 옮겨졌습니다. 새로운 장소는 $a입니다.';
 $string['clammovedfilebasic'] = '이 파일은 격리된 디렉토리로 옮겨졌습니다.';
 $string['clamquarantinedirfailed'] = '지정된 격리 디렉토리 $a로 파일을 옮길 수 없습니다.
@@ -238,7 +241,7 @@ $string['counteditems'] = '$a->count $a->items';
 $string['country'] = '국가';
 $string['course'] = '배움터';
 $string['courseapprovedemail'] = '요청한 교육과정 $a->name을 개설할 수 있도록 승인되었으며 $a->teacher 이 되었습니다. 새 배움터로 접속하려면 $a->url 로 가십시오.';
-$string['courseapprovedfailed'] = '교육과정 개설승인이 나지않았습니다!';
+$string['courseapprovedfailed'] = '승인사항 저장에 실패하였습니다!';
 $string['courseapprovedsubject'] = '당신의 교육과정이 승인되었습니다!';
 $string['courseavailable'] = '이 배움터는 학생들이 이용할 수 있습니다.';
 $string['courseavailablenot'] = '이 배움터는 학생들이 이용할 수 없습니다.';
@@ -376,7 +379,7 @@ $string['edhelpaspellpath'] = '맞춤법검사 기능을 이용하기위해, <st
 $string['edhelpbgcolor'] = '편집범위의 배경색을 결정합니다.<br />유효값은 예를들어 #ffffff 또는 white입니다.';
 $string['edhelpcleanword'] = '이 설정은 특정-워드 형태의 필터링을 가능하게 하거나, 불가능하게 합니다.';
 $string['edhelpenablespelling'] = '맞춤법검사를 가능하거나 불가능하게 합니다. 가능하게할경우, <strong>aspell</strong>이 서버에 설치되어 있어야만 합니다';
-$string['edhelpfontfamily'] = '폰트-패밀리 속성은 폰트 패밀리 명칭이나, 일반적 문자의 패밀리 명칭을 모아 놓은 리스트 입니다. 패밀리 명칭은 컴마로 구분되어야 합니다.';
+$string['edhelpfontfamily'] = '폰트-패밀리 속성은 폰트 패밀리 명칭이나, 일반적 문자의 패밀리 명칭을 모아 놓은 목록입니다. 패밀리 명칭은 쉼표로 구분되어야 합니다.';
 $string['edhelpfontlist'] = '편집기의 펼침 메뉴에 사용될 문자를 정의합니다.';
 $string['edhelpfontsize'] = '기본글꼴 크기는 문자의 크기를 결정합니다.<br />유효한 값은 medium, large, smaller, larger, 10pt,11px 등입니다.';
 $string['edit'] = '$a 고치기';
@@ -530,8 +533,8 @@ $string['findmorecourses'] = '더 많은 코스보기...';
 $string['firstdayofweek'] = '1';
 $string['firstname'] = '성';
 $string['firsttime'] = '이곳에 처음 오셨나요?';
-$string['folderclosed'] = '폐쇄된 경로';
-$string['folderopened'] = '개방된 경로';
+$string['folderclosed'] = '닫힌 경로';
+$string['folderopened'] = '열린 경로';
 $string['followingoptional'] = '아래의 항목은 선택사항입니다.';
 $string['followingrequired'] = '아래의 항목은 필수사항입니다.';
 $string['force'] = '필수';
@@ -563,7 +566,7 @@ $string['frontpagecategorycombo'] = '합쳐진 목록';
 $string['frontpagecategorynames'] = '범주 목록 보기';
 $string['frontpagecourselist'] = '코스 목록 보기';
 $string['frontpagedescription'] = '초기 화면 설명';
-$string['frontpagedescriptionhelp'] = '대문화면에 표시할 사이트의 설명';
+$string['frontpagedescriptionhelp'] = '사이트에 대한 설명이 대문화면에 표시될 것 입니다.';
 $string['frontpageformat'] = '대문화면 형식';
 $string['frontpageformatloggedin'] = '로그인 했을 때의 대문화면';
 $string['frontpagenews'] = '새소식 보기';
@@ -656,7 +659,7 @@ $string['hours'] = '시간';
 $string['howtomakethemes'] = '새로운 테마를 만드는 법';
 $string['htmleditor'] = 'HTML 편집기 사용 (최신 브라우저에서 가능)';
 $string['htmleditoravailable'] = 'HTML 편집기 사용 가능';
-$string['htmleditordisabled'] = '사용자 정보에서 HTML편집기를 사용 불가로 설정하셨습니다.';
+$string['htmleditordisabled'] = '신상명세에서 HTML편집기를 사용 불가로 설정하셨습니다.';
 $string['htmleditordisabledadmin'] = '관리자가 HTML편집기를 사용할 수 없도록 설정하였습니다.';
 $string['htmleditordisabledbrowser'] = '편집기가 웹 브라우져와 호환되지 않아 사용할 수 없습니다.';
 $string['htmlfilesonly'] = 'HTML 파일만';
@@ -726,12 +729,12 @@ $string['loginas'] = '..로 로그인';
 $string['loginaspasswordexplain'] = '<p>본 기능을 이용하여 특수한 \"loginas password\"를 입력해야 합니다.<br />잘 모르겠으면 서버 관리자에게 문의하시기 바랍니다.</p>';
 $string['loginguest'] = '손님으로 로그인';
 $string['loginsite'] = '사이트에 로그인';
-$string['loginsteps'] = '안녕하세요! 이 웹사이트를 충분히 이용하시려면 새로운 계정을 만들어야 합니다. 각각의 배움터는 참여키가 필요할 수 있습니다.
+$string['loginsteps'] = '안녕하세요! 이 웹사이트를 충분히 이용하시려면 새로운 계정을 만들어야 합니다. 어떤 배움터는 등록키가 필요할 수도 있습니다.
    <ol>
    <li> <a href=\"$a\">새로운 계정 만들기</a>를 클릭하여 양식을 채워넣습니다.</li>
    <li> 입력한 이메일 주소로 확인 메일이 즉시 전송됩니다.</li>
    <li>이메일을 읽고, 포함된 웹링크를 클릭합니다.</li>
-   <li>당신의 계정이 등록 확인되고 로그인할 수 있습니다.</li>
+   <li>당신의 계정이 등록 확인되면 로그인 할 수 있습니다.</li>
    <li>이제 참여하고 싶은 배움터를 선택합니다.</li>
    <li>만약 등록키를 입력하는 칸이 있다면 선생님이 알려주신 번호를 넣으시면 됩니다.</li>
    <li>등록이 완료되면 배움터를 충분히 이용할 수 있습니다.</li>
@@ -1250,7 +1253,7 @@ $string['summary'] = '요약';
 $string['summaryof'] = '$a 의 요약';
 $string['supplyinfo'] = '당신에 대한 정보를 써 주세요.';
 $string['switchrolereturn'] = '평소의 역활로 돌아감';
-$string['switchroleto'] = '역할을 바꿈...';
+$string['switchroleto'] = '다음으로 역할 바꾸기';
 $string['tag'] = '덧글';
 $string['tagmanagement'] = '덧글 추가 삭제';
 $string['tags'] = '덧글들';
@@ -1293,7 +1296,7 @@ $string['undecided'] = '결정 않됨';
 $string['unenrol'] = '제명';
 $string['unenrolallstudents'] = '모든 학생을 제명시킴';
 $string['unenrolallstudentssure'] = '이 코스의 모든학생을 제명시키겠습니까?';
-$string['unenrolme'] = '$a 로부터 제명시켜주십시오';
+$string['unenrolme'] = '$a 로부터 탈퇴';
 $string['unenrolsure'] = '$a 에서 탈퇴하는 것이 확실합니까?';
 $string['unfinished'] = '미완성';
 $string['unknowncategory'] = '등록되지 않은 범주';
@@ -1301,7 +1304,7 @@ $string['unlimited'] = '제한없음';
 $string['unpacking'] = '압축풀기 $a';
 $string['unsafepassword'] = '안전하지 않은 비밀번호- 다른 것으로 입력하세요.';
 $string['untilcomplete'] = '완료될 때까지';
-$string['unusedaccounts'] = '$a 일이상 사용하지 않으면 자동적으로 제명 처리됩니다.';
+$string['unusedaccounts'] = '$a 일 이상 사용하지 않으면 자동적으로 제명 처리됩니다.';
 $string['unzip'] = '압축풀기';
 $string['unzippingbackup'] = '백업 압축풀기';
 $string['up'] = '위';
@@ -1379,7 +1382,8 @@ $string['virusfounduser'] = '당신이 올린 파일, $a->filename 이 바이러
 당신의 파일 올림은 성공적이지 못하였음.';
 $string['virusplaceholder'] = '올려진 자료가 바이러스를 포함하고 있음이 발견되어 옮겨졌거나 지워졌고 사용자에게 통보되었음.';
 $string['visible'] = '볼 수 있음';
-$string['warningdeleteresource'] = '주의: $a 가 어딴 자료에서 참조되었습니다. 그 자원을 갱신하고자 하십니까?';
+$string['visibletostudents'] = '$a 가 볼 수 있음';
+$string['warningdeleteresource'] = '주의: $a 은 다른 자료에서 참조되었습니다. 그 자료를 갱신하고자 하십니까?';
 $string['webpage'] = '웹 페이지';
 $string['week'] = '주';
 $string['weekhide'] = '$a 에서 이 주를 감추기';
@@ -1419,6 +1423,7 @@ $string['yahooid'] = '야후 아이디';
 $string['yes'] = '예';
 $string['youareabouttocreatezip'] = 'zip 파일을 생성하려고 합니다.';
 $string['youaregoingtorestorefrom'] = '복구 과정을 시작하려고 합니다.';
+$string['youneedtoenrol'] = '그 활동을 하려면 이 배움터에 등록을 해야 합니다.';
 $string['yourlastlogin'] = '마지막 로그인';
 $string['yourself'] = '당신자신';
 $string['yourteacher'] = '당신의 $a';

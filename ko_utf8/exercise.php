@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.7 dev (2006100601)
+      // exercise.php - created with Moodle 1.8 dev (2006102200)
 
 
 $string['absent'] = '결석';
@@ -18,7 +18,7 @@ $string['assessmentform'] = '평가 양식';
 $string['assessmentmadebythe'] = '$a 가 만든 평가';
 $string['assessmentofthissubmission'] = '이 제출물의 평가';
 $string['assessments'] = '평가';
-$string['atthisstageyou'] = '이 단계에서는 평가에 대한 부분을 완성합니다.<br />평가의 관점에서 여러분의 작업을 수정하려고 할 수도 있습니다.<br />만약 그렇다면 여러분의 평가에 관한 것도 수정해야 한다는 점을 명심하기 바랍니다.<br /> 여러분들은 밑에 주어진 재평가(Re-assess) 링크를 클릭함으로서 이를 수행할 수 있습니다.';
+$string['atthisstageyou'] = '이 단계에서는 평가에 대한 부분을 완성합니다.<br />평가에 관한한 여러분들은 작업을 수정하고 싶어할 수도 있습니다.<br />만약 그럴 경우 여러분의 평가에 관한 것도 수정해야 한다는 점을 명심하기 바랍니다.<br /> 여러분들은 밑에 주어진 재평가 링크를 클릭함으로서 이를 수행할 수 있습니다.';
 $string['awaitingassessmentbythe'] = '$a 의 평가를 기다림';
 $string['clearlateflag'] = '늦음 표시 지우기';
 $string['comment'] = '댓글';
@@ -58,7 +58,7 @@ $string['gradeforassessment'] = '자평에 대한 점수';
 $string['gradeforstudentsassessment'] = '$a 평가에 대한 점수';
 $string['gradeforsubmission'] = '제출물에 대한 점수';
 $string['gradetable'] = '성적표';
-$string['gradinggrade'] = '자평에 대한 채점';
+$string['gradinggrade'] = '평가에 대한 채점';
 $string['gradingstrategy'] = '채점 전략';
 $string['handlingofmultiplesubmissions'] = '여러 제출물의 처리';
 $string['hidenamesfromstudents'] = '학생 이름 감추기';

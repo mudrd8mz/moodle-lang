@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.7 dev (2006100601)
+      // workshop.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['absent'] = '결석';
@@ -133,7 +133,7 @@ $string['loadingforteacherassessments'] = '$a평가를 불러오기';
 $string['mail1'] = '당신의 \'$a\'과제는 다음 사람에 의해 평가되었습니다';
 $string['mail10'] = '워크샵과제에서 당신은 그것을 평가할 수 있습니다';
 $string['mail2'] = '의견과 성적은 워크샵과제 \'$a\'에서 볼 수 있습니다';
-$string['mail3'] = '당신은 워크샵과제에서 그것을 볼수있습니다';
+$string['mail3'] = '당신은 워크샵과제에서 그것을 볼 수 있습니다';
 $string['mail4'] = '\'$a\'과제에  다음 사람의 의견이 추가되었습니다';
 $string['mail5'] = '워크샵과제 \'$a\'에서 새로운 의견을 볼 수 있습니다';
 $string['mail6'] = '과제에 대한 당신의 평가 \'$a\'가 검토되었습니다.';
@@ -202,7 +202,7 @@ $string['phase0'] = '비활동적인';
 $string['phase0short'] = '비활동적인';
 $string['phase1'] = '과제 설정';
 $string['phase1short'] = '설정';
-$string['phase2'] = '$a라는 제출을 받아들이다';
+$string['phase2'] = '$a라는 제출을 허용';
 $string['phase2short'] = '제출';
 $string['phase3'] = '$a 제출 및 평가 허용';
 $string['phase3short'] = '둘다';
@@ -210,7 +210,7 @@ $string['phase4'] = '$a 평가 허용';
 $string['phase4short'] = '평가';
 $string['phase5'] = '최종 성적 보여주기';
 $string['phase5short'] = '성적 보여주기';
-$string['pleaseassesstheseexamplesfromtheteacher'] = '$a 의 이 예시들을 평가해주십시오.';
+$string['pleaseassesstheseexamplesfromtheteacher'] = '$a 의 이 예시들을 평가해 주십시오.';
 $string['pleaseassessthesestudentsubmissions'] = '이 $a 제출에 대한 평가를 해주십시오';
 $string['pleaseassessyoursubmissions'] = '당신이 제출한 것들을 평가해주십시오';
 $string['poor'] = '형편없는';

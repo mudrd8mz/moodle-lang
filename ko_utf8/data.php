@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 dev (2006100601)
+      // data.php - created with Moodle 1.8 dev (2006102200)
 
 
 $string['action'] = '행동';
@@ -28,7 +28,7 @@ $string['commentempty'] = '코멘트가 없음';
 $string['comments'] = '코멘트';
 $string['commentsaved'] = '코멘트가 저장됨';
 $string['commentsn'] = '$a 커멘트';
-$string['configenablerssfeeds'] = '이 스위치는 모든 데이터베이스의 RSS취재를 사용가능하게 합니다. 각각의 데이터베이스에 대하여 수동으로 송출기능을 켤 수도 있습니다.';
+$string['configenablerssfeeds'] = '이 스위치는 모든 데이터베이스의 RSS 알리미를 사용가능하게 합니다. 각각의 데이터베이스에 대하여 수동으로 송출기능을 켤 수도 있습니다.';
 $string['confirmdeletefield'] = '파일을 삭제하려고 합니다. 확실합니까?';
 $string['confirmdeleterecord'] = '이 게시물을 삭제하려고 하는 것이 확실합니까?';
 $string['csstemplate'] = 'CSS 템플릿';
@@ -55,7 +55,7 @@ $string['delete'] = '삭제';
 $string['deletecomment'] = '이 코멘트를 삭제하기를 원하십니까?';
 $string['deleted'] = '삭제됨';
 $string['deletefield'] = '기존의 항목 삭제';
-$string['deletewarning'] = '정말 이 기존설정값을 삭제합니까?';
+$string['deletewarning'] = '정말 이 기존 설정값을 삭제합니까?';
 $string['descending'] = '내림차순';
 $string['download'] = '내려받음';
 $string['edit'] = '편집';
@@ -96,9 +96,9 @@ $string['fromfile'] = 'zip파일로 부터';
 $string['header'] = '머릿말';
 $string['headeraddtemplate'] = '게시물을 편집할 때 인터페이스 정의';
 $string['headercsstemplate'] = '다른 템플릿을 위한 로컬 CSS스타일 정의';
-$string['headerjstemplate'] = '다른 템플릿을 위한 Java스크립트 정의';
+$string['headerjstemplate'] = '다른 템플릿을 위한 자바스크립트 정의';
 $string['headerlisttemplate'] = '다중 게시물을 위한 보기 인터페이스 정의';
-$string['headerrsstemplate'] = 'RSS 취재원 게시물의 모양 정의';
+$string['headerrsstemplate'] = 'RSS 알리미 게시물의 모양 정의';
 $string['headersingletemplate'] = '단일 게시물에 대한 보기 인터페이스 정의';
 $string['importsuccess'] = '초기설정이 성공적으로 적용됨';
 $string['insufficiententries'] = '이 데이터베이스를 보기 위해서는 입력항목이 더 필요함';
@@ -159,7 +159,7 @@ $string['pagesize'] = '한 화면당 게시물 수';
 $string['participants'] = '참가자';
 $string['picture'] = '그림';
 $string['pleaseaddsome'] = '시작하기 위해서는 아래에 새로운 설정을 하던지 아니면 미리 <a href=\"$a\">설정한 기본값</a>에서 선택하십시오.';
-$string['presetinfo'] = '초기설정으로 저장한 내용이 이 템플릿으로 공개될 것입니다. 다른 사용자들은 이 설정을 자신의 데이터베이스에서 사용할 수 있다.';
+$string['presetinfo'] = '초기설정으로 저장한 내용이 이 템플릿으로 공개될 것입니다. 다른 사용자들은 이 설정을 자신의 데이터베이스에서 사용할 수 있습니다.';
 $string['presets'] = '초기설정들';
 $string['radiobutton'] = '라디오버튼';
 $string['rate'] = '순위';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.7 dev (2006092600)
+      // enrol_imsenterprise.php - created with Moodle 1.8 dev (2006102200)
 
 
 $string['aftersaving...'] = '설정을 저장하고 나서 할 일은...';
@@ -18,7 +18,7 @@ $string['filelockedmail'] = 'IMS 파일기반 등록($a)을 할 때 사용하는
 $string['filelockedmailsubject'] = '중대 오류: 등록 파일';
 $string['fixcasepersonalnames'] = '개인 이름의 첫문자를 대문자로 변경';
 $string['fixcaseusernames'] = '사용자 이름을 소문자로 변경';
-$string['imsrolesdescription'] = 'IMS Enterprise 명세서에는 8가지 다른 역할 유형이 있다. 여기에서 무들에 어떤 역할을 포함시키고 어떤 역할을 포함시킬지를 선택하기 바란다.';
+$string['imsrolesdescription'] = 'IMS 엔터프라이즈 규격에는 8가지 다른 역할 유형이 있다. 여기에서 무들에 어떤 역할을 포함시키고 어떤 역할을 포함시킬지를 선택하기 바란다.';
 $string['location'] = '파일 위치';
 $string['logtolocation'] = '로그 파일 출력 위치 (기록하지 않을때는 공백)';
 $string['mailadmins'] = '이메일로 관리자에게 알림';

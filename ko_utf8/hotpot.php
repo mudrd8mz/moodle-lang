@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.7 dev (2006100601)
+      // hotpot.php - created with Moodle 1.8 dev (2006102200)
 
 
 $string['abandoned'] = '실패';
 $string['addquizchain'] = '퀴즈 체인 더하기';
+$string['allmycourses'] = '내 배움터들';
 $string['allusers'] = '모든 사용자';
 $string['alwaysopen'] = '언제나 열림';
 $string['attemptsall'] = '모든 시도';
@@ -21,16 +22,16 @@ $string['copiedtoclipboard'] = '이 페이지의 내용을 클립보드에 복�
 $string['copytoclipboard'] = '클립보드에 복사';
 $string['correct'] = '정답';
 $string['deleteabandoned'] = '실패한것 지우기';
-$string['deleteabandonedcheck'] = '$a의 실패한 시도들을 지우기 원합니까?';
+$string['deleteabandonedcheck'] = '$a의 취소한 시도들을 지우기 원합니까?';
 $string['displaycoursenext'] = '교육과정의 다음 페이지 보이기';
 $string['displayhotpotnext'] = '다음 쟁점퀴즈 보이기';
 $string['displayindexnext'] = '다음 쟁점퀴즈 색인 보이기';
 $string['enterafilename'] = '화일 이름을 입력하시오';
-$string['error_couldnotopenfolder'] = '\"$a\" 폴더에 접근할수 없습니다.';
-$string['error_couldnotopensourcefile'] = '\"$a\" 파일을 열수가 없습니다';
-$string['error_couldnotopentemplate'] = '\"$a\" 형식의 템플릿을 열수 없습니다.';
+$string['error_couldnotopenfolder'] = '\"$a\" 폴더에 접근할 수 없습니다.';
+$string['error_couldnotopensourcefile'] = '\"$a\" 파일을 열 수가 없습니다';
+$string['error_couldnotopentemplate'] = '\"$a\" 형식의 템플릿을 열 수 없습니다.';
 $string['error_invalidquiztype'] = '퀴즈 형태가 빠졌거나 유효하지 않습니다.';
-$string['error_nocourseorfilename'] = 'XML 트리를 만들수 없습니다 : 교육과정이나 파일 이름이 사라졌습니다';
+$string['error_nocourseorfilename'] = 'XML 트리를 만들수 없습니다: 교육과정이나 파일 이름이 사라졌습니다';
 $string['error_nofeedbackurlformmail'] = '스크립트 입력창에다 URL 주소를 입력해 주세요.';
 $string['error_nofeedbackurlwebpage'] = '웹페이지에 URL 주소를 입력해 주세요';
 $string['error_nofilename'] = '파일 이름을 입력해 주세요';
@@ -56,7 +57,7 @@ $string['ignored'] = '무시됨';
 $string['inprogress'] = '진행중';
 $string['location'] = '화일 장소';
 $string['modulename'] = '쟁점퀴즈';
-$string['modulenameplural'] = '쟁점퀴즈모음';
+$string['modulenameplural'] = '쟁점퀴즈';
 $string['navigation'] = '항해';
 $string['navigation_bar'] = '무들 네비게이션 창';
 $string['navigation_buttons'] = '쟁점퀴즈 단추';
@@ -145,8 +146,9 @@ $string['textsourcefilename'] = '파일 이름 이용';
 $string['textsourcefilepath'] = '파일 경로 이용';
 $string['textsourcequiz'] = '퀴즈로부터 얻기';
 $string['textsourcespecific'] = '특정 문서';
+$string['thiscourse'] = '이 배움터';
 $string['timedout'] = '시간 종료';
-$string['updatequizchain'] = '퀴즈 체인 갱신';
+$string['updatequizchain'] = '퀴즈 묶음 갱신';
 $string['weighting'] = '부가되는것';
 $string['wrong'] = '틀림';
 

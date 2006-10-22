@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006092600)
+      // lesson.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['accesscontrol'] = '접근 제한';
@@ -34,7 +34,7 @@ $string['averagescore'] = '평균 점수';
 $string['averagetime'] = '평균 시간';
 $string['branchtable'] = '갈래표';
 $string['cancel'] = '취소';
-$string['canretake'] = '$a 은 다시 풀 수 있음';
+$string['canretake'] = '$a의 재이수 가능';
 $string['casesensitive'] = '대소문자 구별';
 $string['checkbranchtable'] = '갈래표 점검';
 $string['checkedthisone'] = '이미 점검하였음';
