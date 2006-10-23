@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 beta (2006101000)
+      // data.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['action'] = 'Azione';
@@ -17,7 +17,7 @@ $string['autogenallforms'] = 'Imposta automaticamente i modelli di visualizzazio
 $string['autolinkurl'] = 'Collega automaticamente la URL';
 $string['availablefromdate'] = 'E\' possibile inserire record nel Database a partire dal';
 $string['availabletags'] = 'Tag disponibili';
-$string['availabletodate'] = 'disponibile fino al';
+$string['availabletodate'] = 'E\' possibile inserire record nel Database fino al';
 $string['blank'] = 'Vuoto';
 $string['bynameondate'] = 'di <strong>$a->name - $a->date</strong>';
 $string['cancel'] = 'Annulla';
@@ -105,7 +105,7 @@ $string['insufficiententries'] = 'é necessario inserire un maggior numero di re
 $string['intro'] = 'Introduzione';
 $string['invalidfieldname'] = 'Si prega di scegliere un nome diverso per questo campo';
 $string['invalidurl'] = 'L\'indirizzo (URL) inserito non è valido';
-$string['jstemplate'] = 'Modello: Javascript';
+$string['jstemplate'] = 'Javascript';
 $string['latitude'] = 'Latitudine';
 $string['latlong'] = 'Latitudine/Longitudine';
 $string['latlongdownloadallhint'] = 'Link per scaricare tutti i record in formato KML';
@@ -166,15 +166,15 @@ $string['rate'] = 'Valuta';
 $string['rating'] = 'Valutazione';
 $string['ratingeveryone'] = 'Tutti possono valutare gli iserimenti di record';
 $string['ratingno'] = 'Nessuna valutazione';
-$string['ratingonlyteachers'] = 'Solo $a può valutare gli inserimenti di record';
-$string['ratingpublic'] = '$a può visualizzare le valutazioni di tutti gli altri';
-$string['ratingpublicnot'] = '$a può visualizzare solo le proprie valutazioni';
+$string['ratingonlyteachers'] = 'Solo <strong>$a</strong> può valutare gli inserimenti di record';
+$string['ratingpublic'] = '<strong>$a</strong> può visualizzare le valutazioni di tutti gli altri';
+$string['ratingpublicnot'] = '<strong>$a</strong> può visualizzare solo le proprie valutazioni';
 $string['ratings'] = 'Valutazioni';
 $string['ratingssaved'] = 'Valutazioni salvate';
 $string['ratingsuse'] = 'Utilizza le valutazioni';
 $string['recordapproved'] = 'Record approvati';
 $string['recorddeleted'] = 'Il record è stato eliminato';
-$string['recordsnotsaved'] = 'Nessun record è stato salvato salvato. Prima di ritentare, per favore controllate il formato del file usato per il caricamento.';
+$string['recordsnotsaved'] = 'Nessun record è stato salvato. Prima di provare nuovamente, per favore controllate il formato del file usato per il caricamento.';
 $string['recordssaved'] = 'record salvati';
 $string['requireapproval'] = 'E\' necessaria l\'approvazione dei record inseriti';
 $string['requiredentries'] = 'Numero minimo di record da inserire';
@@ -207,7 +207,7 @@ $string['uploadfile'] = 'Carica un file';
 $string['uploadrecords'] = 'Carica i record da un file';
 $string['url'] = 'URL';
 $string['usestandard'] = 'Utilizza una preimpostazione';
-$string['viewfromdate'] = 'Il Database  è visualizzabile a partire dal';
-$string['viewtodate'] = 'ed è visualizzabile fino al';
+$string['viewfromdate'] = 'Il Database é visualizzabile a partire dal';
+$string['viewtodate'] = 'Il Database é visualizzabile fino al';
 
 ?>
