@@ -1,6 +1,4 @@
-<?PHP // $Id:
-
-
+<?PHP // $Id$ 
       // assignment.php - created with Moodle 1.7 beta (2006101000)
 
 
@@ -55,9 +53,9 @@ $string['feedbackupdated'] = 'Vastausten palautteet päivitetty $a oppilaalle';
 $string['graded'] = 'Avosteltu';
 $string['guestnosubmit'] = 'Pahus, vieraat eivät voi palauttaa tehtäviä. Sinun pitää kirjaantua tunnuksellasi ennen kuin voit tehdä tämän';
 $string['guestnoupload'] = 'Valitan, vieraat eivät saa lähettää tiedostoja palvelimelle';
-$string['helpoffline'] = '<p>Tämä on hyödyllistä kun tehtävä suoritetaan Moodlen ulkopuolella. Kyseessä saattaa olla tehtävä jossain muualla verkossa tai tapaaminen.</p>
+$string['helpoffline'] = '<p>Hyödyllinen kun tehtävä suoritetaan Moodlen ulkopuolella. Kyseessä saattaa olla esim tehtävä jossain muualla verkossa, esitelmä tai tapaaminen.</p>
 
-<p>Oppilaat voivat nähdä tehtävän kuvailun, mutta eivät voi palauttaa tiedostoja tai muutakaan. Arvostelu tapahtuu normaalisti ja oppilaat saavat ilmoituksen arvosanoistaan.</p>';
+<p>Oppilaat voivat nähdä tehtävän kuvauksen, mutta eivät voi palauttaa tiedostoja tai muutakaan. Arvostelu tapahtuu normaalisti ja oppilaat saavat ilmoituksen arvosanoistaan.</p>';
 $string['helponline'] = '<p>Tässä tehtävätyypissä käyttäjät muokkaavat valittua tekstiä käyttäen normaaleja tekstinkäsittelytyökaluja. Opettajat voivat arvostella heidät verkossa, ja jopa lisätä kommenttejaan tai muuttaa töitä.</p>
 <p>(Jos olet perehtynyt Moodlen aikaisempiin versioihin, tämä tehtävätyyppi on samanlainen kuin aikaisempi Muistio-moduuli.';
 $string['helpupload'] = '<p>Tämä tehtävätyyppi antaa jokaisen osallistujan lähettää yhden tai useampia tiedostoja. Tiedostot voivat olla tekstinkäsittely dokumentteja, kuvia, zip-paketteja tai mitä tahansa heiltä pyydät.</p>

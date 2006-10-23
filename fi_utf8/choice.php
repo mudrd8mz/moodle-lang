@@ -1,14 +1,12 @@
-<?PHP // $Id:
-
-
+<?PHP // $Id$ 
       // choice.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['addmorechoices'] = 'Lisää lisää vaihtoehtoja';
-$string['allowupdate'] = 'Salli monivalinnan päivitys';
+$string['allowupdate'] = 'Salli valinnan päivitys';
 $string['answered'] = 'Vastattu';
-$string['choice'] = 'Monivalinta $a';
-$string['choice:choose'] = 'Valinnan tallentaminen';
+$string['choice'] = 'Vaihtoehto $a';
+$string['choice:choose'] = 'Vaihtoehdon valitseminen';
 $string['choice:deleteresponses'] = 'Vastausten poisto';
 $string['choice:downloadresponses'] = 'Vastausten lataus';
 $string['choice:readresponses'] = 'Vastusten tarkastelu';
@@ -23,9 +21,9 @@ $string['full'] = '(Täysi)';
 $string['havetologin'] = 'Sinun pitää kirjautua ennen kun voit ottaa osaa monivalintaan';
 $string['limit'] = 'Raja';
 $string['limitanswers'] = 'Rajoita sallittujen vastausten määrää';
-$string['modulename'] = 'Monivalinta';
-$string['modulenameplural'] = 'Monivalinnat';
-$string['mustchooseone'] = 'Sinun pitää valita vastaus ennen tallennusta. Tallennusta ei tehty.';
+$string['modulename'] = 'Valinta';
+$string['modulenameplural'] = 'Valinnat';
+$string['mustchooseone'] = 'Sinun pitää valita vaihtoehto ennen tallennusta. Tallennusta ei tehty.';
 $string['notanswered'] = 'Vastaamatta';
 $string['notopenyet'] = 'Pahus, tämä aktiviteetti ei ole saatavilla ennen kuin $a';
 $string['privacy'] = 'Tulosten suojaus';
