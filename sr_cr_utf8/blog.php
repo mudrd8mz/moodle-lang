@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6.1+ (2006050512)
+      // blog.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['addnewentry'] = 'Додавање новог уноса';
@@ -16,6 +16,8 @@ $string['blogtags'] = 'Ознаке блога';
 $string['courseblog'] = 'Блог курса: $a';
 $string['courseblogs'] = 'Корисници могу да виде само блогове људи с којима деле курс';
 $string['disableblogs'] = 'Потпуно онемогућити коришћење блог система';
+$string['emptybody'] = 'Тело блог уноса не може остати непопуњено';
+$string['emptytitle'] = 'Наслов блог уноса не може остати непопуњен';
 $string['entrybody'] = 'Тело блог уноса';
 $string['entrybodyonlydesc'] = 'Опис уноса';
 $string['entryerrornotyours'] = 'Овај унос није Ваш';

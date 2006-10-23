@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6.2 (2006050520)
+      // enrol_authorize.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['adminacceptccs'] = 'Који типови кредитних картица се прихватају?';
@@ -44,6 +44,7 @@ $string['anpassword'] = 'Authorize.net: Лозинка';
 $string['anreferer'] = 'Дефинишите URL за преусмеравање ако сте то подесили на свом authorize.net налогу. То ће послати линију \"Преусмеравање: URL\" у оквиру веб захтева.';
 $string['antestmode'] = 'Покретање транскација искључиво у тест моду (неће доћи до подизања новца)';
 $string['antrankey'] = 'Authorize.net: Кључ за трансакцију';
+$string['approvedreview'] = 'Одобрени преглед';
 $string['authcaptured'] = 'Ауторизовано/Прихваћено';
 $string['authorize:managepayments'] = 'Управљење уплатама';
 $string['authorizedpendingcapture'] = 'Ауторизовано/Чека на прихватање';
@@ -160,6 +161,7 @@ $string['refund'] = 'Рефундирање';
 $string['refunded'] = 'Рефундирано';
 $string['returns'] = 'Повраћаји';
 $string['reviewday'] = 'Прихватити кредитну картицу аутоматски уколико предавач или администратор не прегледају поруџбину у року од <b>$a</b> дана. CRON МОРА БИТИ ОМОГУЋЕН.<br />(0 дана значи да ће бити онемогућена заказана прихватања, као и да ће предавач или администратор ручно прегледати поруџбину. Трансакција ће бити отказана ако онемогућите заказано прихватање или ако не прегледате поруџбину у року од 30 дана.)';
+$string['reviewfailed'] = 'Преглед није успео';
 $string['reviewnotify'] = 'Ваша уплата ће бити прегледана. Очекујте е-поруку од Вашег предавача у року од неколико дана.';
 $string['sendpaymentbutton'] = 'Слање уплате';
 $string['settled'] = 'Договорено';
@@ -169,7 +171,9 @@ $string['tested'] = 'Тестирано';
 $string['testmode'] = '[РЕЖИМ ЗА ТЕСТИРАЊЕ]';
 $string['testwarning'] = 'Прихватање/Ништа/Кредит изгледа ради у режиму за тестирање, али ниједан запис није ажуриран или уметнут у базу података.';
 $string['transid'] = 'Идентификатор трансакције';
+$string['underreview'] = 'У процесу прегледа';
 $string['unenrolstudent'] = 'Испис студента?';
+$string['uploadcsv'] = 'Постављање CSV датотеке';
 $string['usingccmethod'] = 'Грешка при коришћењу опције <a href=\"$a->url\"><strong>Кредитна картица</strong></a>';
 $string['usingecheckmethod'] = 'Грешка при коришћењу опције <a href=\"$a->url\"><strong>eCheck</strong></a>';
 $string['void'] = 'Ништа';

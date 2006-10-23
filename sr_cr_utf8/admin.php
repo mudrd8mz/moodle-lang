@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6.2 (2006050520)
+      // admin.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['accounts'] = 'Налози';
@@ -227,6 +227,8 @@ $string['environmentrequireinstall'] = 'је неопходно инсталир
 $string['environmentrequireversion'] = 'неопходна верзија је $a->needed а Ви тренутно користите верзију $a->current';
 $string['environmentxmlerror'] = 'Грешка у читању података окружења ($a->error_code)';
 $string['errors'] = 'Грешке';
+$string['errorsetting'] = 'Није могуће сачувати подешавање';
+$string['errorwithsettings'] = 'Нека подешавања нису сачувана услед појаве грешке.';
 $string['extendedusernamechars'] = 'Дозволити проширени избор карактера у корисничким именима';
 $string['filterall'] = 'Филтрирај све стрингове';
 $string['filtermatchoneperpage'] = 'Поклапање филтера једном по страници';
@@ -442,5 +444,6 @@ $string['users'] = 'Корисници';
 $string['userscreated'] = 'Корисници су креирани';
 $string['usersrenamed'] = 'Корисници су преименовани';
 $string['usersupdated'] = 'Корисници су ажурирани';
+$string['validateerror'] = 'Ова вредност није валидна:';
 
 ?>

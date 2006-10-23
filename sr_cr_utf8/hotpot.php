@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6.2 (2006050520)
+      // hotpot.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['abandoned'] = 'Напуштено';
 $string['addquizchain'] = 'Додавање тока теста';
 $string['allmycourses'] = 'Сви моји курсеви';
+$string['allusers'] = 'Сви корисници';
 $string['alwaysopen'] = 'Увек отворено';
 $string['attemptsall'] = 'Сви покушаји';
 $string['attemptsbest'] = 'Најбољи покушај';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6.2 (2006050520)
+      // forum.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['addanewdiscussion'] = 'Додајте нову тему за дискусију';
@@ -198,6 +198,7 @@ $string['repliesone'] = '$a одговор до сада';
 $string['reply'] = 'Одговор';
 $string['replyforum'] = 'Одговорити на форум';
 $string['resetforums'] = 'Уклањање свих поруке са ових типова форума';
+$string['resetsubscriptions'] = 'Уклањање пријава на форум';
 $string['rsssubscriberssdiscussions'] = 'Приказ RSS поља за \'$а\' дискусије';
 $string['rsssubscriberssposts'] = 'Приказ RSS поља за \'$а\' поруке';
 $string['search'] = 'Претрага';

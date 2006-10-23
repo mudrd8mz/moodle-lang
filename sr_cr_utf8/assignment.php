@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6.2 (2006050520)
+      // assignment.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['allowdeleting'] = 'Дозволити брисање';
@@ -82,6 +82,7 @@ $string['pagesize'] = 'Предатих решења по страни';
 $string['preventlate'] = 'Забрани прекасне предаје решења';
 $string['quickgrade'] = 'Дозволи брзо оцењивање';
 $string['responsefiles'] = 'Датотеке са одговорима';
+$string['reviewed'] = 'Прегледано';
 $string['saveallfeedback'] = 'Сачувај све моје повратне информације';
 $string['sendformarking'] = 'Пошаљи на оцењивање';
 $string['submission'] = 'Решење';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6.2 (2006050520)
+      // quiz.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['1day'] = '1 дан';
@@ -75,6 +75,7 @@ $string['categorydeleted'] = 'Категорија \'$а\' је обрисана
 $string['categoryinfo'] = 'Информације о категорији';
 $string['categorymove'] = 'Категорија \'$a->name\' садржи $a->count питања.  (нека од њих могу бити стара, скривена или питања која се и даље користе у постојећим тестовима).<br /> Одаберите другу категорију у коју ћете их преместити.';
 $string['categorymoveto'] = 'Премести их у ову категорију';
+$string['categorynamecantbeblank'] = 'Назив категорије не може остати непопуњен.';
 $string['categorynoedit'] = 'Немате овлашћења за мењање категорије \'$a\'.';
 $string['categoryupdated'] = 'Категорија је успешно измењена';
 $string['changessaved'] = 'Промене у оцењивању су сачуване';
@@ -103,6 +104,7 @@ $string['copyingquestion'] = 'Копирање питања';
 $string['correct'] = 'Тачно';
 $string['correctanswer'] = 'Тачан одговор';
 $string['correctanswerformula'] = 'Формула тачних одговора';
+$string['correctansweris'] = 'Тачан одговор: $a';
 $string['correctanswerlength'] = 'Значајне цифре';
 $string['correctanswers'] = 'Тачни одговори';
 $string['correctanswershows'] = 'Приказ тачних одговора';
