@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // countries.php - created with Moodle 1.6.1+ (2006050512)
+      // countries.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['AD'] = 'Andora';
@@ -183,6 +183,7 @@ $string['PY'] = 'Paragvaj';
 $string['QA'] = 'Katar';
 $string['RE'] = 'Reunion';
 $string['RO'] = 'Rumunija';
+$string['RS'] = 'Srbija';
 $string['RU'] = 'Ruska Federacija';
 $string['RW'] = 'Ruanda';
 $string['SA'] = 'Saudijska Arabija';
@@ -199,7 +200,6 @@ $string['SL'] = 'Sijera Leone';
 $string['SM'] = 'San Marino';
 $string['SN'] = 'Senegal';
 $string['SO'] = 'Somalija';
-$string['SP'] = 'Srbija';
 $string['SR'] = 'Surinam';
 $string['ST'] = 'Sao Tome i Principe';
 $string['SV'] = 'El Salvador';

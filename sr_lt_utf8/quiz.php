@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6.2 (2006050520)
+      // quiz.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['1day'] = '1 dan';
@@ -75,6 +75,7 @@ $string['categorydeleted'] = 'Kategorija \'$a\' je obrisana';
 $string['categoryinfo'] = 'Informacije o kategoriji';
 $string['categorymove'] = 'Kategorija \'$a->name\' sadrži $a->count pitanja.  (neka od njih mogu biti stara, skrivena ili pitanja koja se i dalje koriste u postojećim testovima).<br /> Odaberite drugu kategoriju u koju ćete ih premestiti.';
 $string['categorymoveto'] = 'Premesti ih u ovu kategoriju';
+$string['categorynamecantbeblank'] = 'Naziv kategorije ne može ostati nepopunjen.';
 $string['categorynoedit'] = 'Nemate ovlašćenja za menjanje kategorije \'$a\'.';
 $string['categoryupdated'] = 'Kategorija je uspešno izmenjena';
 $string['changessaved'] = 'Promene u ocenjivanju su sačuvane';
@@ -103,6 +104,7 @@ $string['copyingquestion'] = 'Kopiranje pitanja';
 $string['correct'] = 'Tačno';
 $string['correctanswer'] = 'Tačan odgovor';
 $string['correctanswerformula'] = 'Formula tačnih odgovora';
+$string['correctansweris'] = 'Tačan odgovor: $a';
 $string['correctanswerlength'] = 'Značajne cifre';
 $string['correctanswers'] = 'Tačni odgovori';
 $string['correctanswershows'] = 'Prikaz tačnih odgovora';
@@ -310,7 +312,7 @@ $string['noattempts'] = 'Nije bilo pokušaja da se reši ovaj test';
 $string['noattemptstoshow'] = 'Nema pokušaja za prikaz';
 $string['nocategory'] = 'Pogrešna ili nespecificirana kategorija';
 $string['nocommentsyet'] = 'Još nema komentara';
-$string['noconnection'] = 'Trenutno nije uspostavljena veza sa Web servisom koji može da obradi ovo pitanje. Molimo kontaktirajte svog administratora';
+$string['noconnection'] = 'Trenutno nije uspostavljena veza sa veb servisom koji može da obradi ovo pitanje. Molimo kontaktirajte svog administratora';
 $string['nodataset'] = 'ništa - nije džoker znak';
 $string['noessayquestionsfound'] = 'Nisu pronađena pitanja koja se ručno ocenjuju';
 $string['nomatchinganswer'] = 'Morate navesti tačan odgovor za pitanje \'$a\'.';

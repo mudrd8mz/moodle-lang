@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6.2 (2006050520)
+      // assignment.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['allowdeleting'] = 'Dozvoliti brisanje';
@@ -40,7 +40,7 @@ Rešenje je dostupno na sledećoj adresi:
 
 $a->url';
 $string['emailteachermailhtml'] = '$a->username je ažurirao/la svoje rešenje zadatka <i>\'$a->assignment\'</i><br /><br />
-Rešenje je <a href=\"$a->url\">dostupno na Web sajtu</a>.';
+Rešenje je <a href=\"$a->url\">dostupno na veb sajtu</a>.';
 $string['emailteachers'] = 'Slanje upozorenja predavačima elektronskom poštom';
 $string['emptysubmission'] = 'Još uvek niste ništa predali';
 $string['existingfiledeleted'] = 'Postojeća datoteka je obrisana: $a';
@@ -51,14 +51,14 @@ $string['feedbackupdated'] = 'Povratne informacije su ažurirane za $a korisnika
 $string['graded'] = 'Ocenjeno';
 $string['guestnosubmit'] = 'Žao nam je, ali gostima nije dozvoljeno da predaju svoja rešenja zadatka. Morate se registrovati/prijaviti kao standardni korisnik da biste predali svoje rešenje';
 $string['guestnoupload'] = 'Žao nam je, ali gostima nije dozvoljeno da postavljaju datoteke';
-$string['helpoffline'] = '<p>Ova vrsta zadatka je korisna kada se radi izvan Moodle-a. To može biti negde drugde na Webu ili u učionici.</p><p>Studenti mogu da vide opis zadatka, ali ne mogu da postavljaju datoteke ili bilo šta drugo. Ocenjivanje funkcioniše potpuno normalno, i studenti će dobiti obaveštenje o svojim ocenama.</p>';
+$string['helpoffline'] = '<p>Ova vrsta zadatka je korisna kada se radi izvan Moodle-a. To može biti negde drugde na vebu ili u učionici.</p><p>Studenti mogu da vide opis zadatka, ali ne mogu da postavljaju datoteke ili bilo šta drugo. Ocenjivanje funkcioniše potpuno normalno, i studenti će dobiti obaveštenje o svojim ocenama.</p>';
 $string['helponline'] = '<p>Ova vrsta zadatka traži od korisnika da napiše tekst koristeći običan tekst-editor. Predavači mogu ne samo da ocenjuju zadatke <i>online</i>,već i da dodaju svoje komentare unutar samog zadatka ili da ga menjaju.</p>
 <p>(Ukoliko ste upoznati sa starijim verzijama Moodle sistema, setićete se da ovaj tip zadatka ima istu namenu koju je ranije imao stari modul Žurnal (Journal).)</p>';
-$string['helpupload'] = '<p>Ova vrsta zadatka omogućava svakom studentu postavljanje jedne ili više datoteka (bilo kog formata).</p> <p>Datoteke mogu biti MS Word dokumenti, slike, arhivirani Web sajtovi ili bilo šta drugo što im je traženo da predaju kao rešenje zadatka.</p>
+$string['helpupload'] = '<p>Ova vrsta zadatka omogućava svakom studentu postavljanje jedne ili više datoteka (bilo kog formata).</p> <p>Datoteke mogu biti MS Word dokumenti, slike, arhivirani veb sajtovi ili bilo šta drugo što im je traženo da predaju kao rešenje zadatka.</p>
 <p>Ova vrsta zadatka dozvoljava i postavljanje više datoteka sa odgovorima na rezultate studenata. One mogu biti postavljene i pre predaje rešenja, što se može iskoristiti za prezentovanje različitih radnih datoteka svakom studentu, koje im mogu poslužiti kao smernice za rad ili početni materijal.</p>
 <p>Učesnici mogu i da unose svoje beleške opisujući predate datoteke, svoje napredovanje u rešavanju zadatka ili bilo kakve druge tekstualne informacije.</p>
 <p>Predaju zadatka ovog tipa učesnik mora ručno završiti. Možete pogledati trenutni status studenta u bilo kom momentu, pri čemu su nezavršeni zadaci označeni rečju Nacrt. Možete vratiti svaki neocenjeni zadatak u stanje nacrta.</p>';
-$string['helpuploadsingle'] = '<p>Ova vrsta zadatka omogućava svakom studentu postavljanje jedne datoteke (bilo kog tipa).</p> <p>Datoteka može biti MS Word dokument, slika, arhivirani Web sajt ili bilo šta drugo što im je traženo da predaju kao rešenje zadatka.</p>';
+$string['helpuploadsingle'] = '<p>Ova vrsta zadatka omogućava svakom studentu postavljanje jedne datoteke (bilo kog tipa).</p> <p>Datoteka može biti MS Word dokument, slika, arhivirani veb sajt ili bilo šta drugo što im je traženo da predaju kao rešenje zadatka.</p>';
 $string['hideintro'] = 'Sakrivanje opisa pre dana kada zadatak postaje dostupan';
 $string['late'] = '$a kasnije';
 $string['maximumgrade'] = 'Maksimalna ocena';
@@ -82,6 +82,7 @@ $string['pagesize'] = 'Predatih rešenja po strani';
 $string['preventlate'] = 'Zabrani prekasne predaje rešenja';
 $string['quickgrade'] = 'Dozvoli brzo ocenjivanje';
 $string['responsefiles'] = 'Datoteke sa odgovorima';
+$string['reviewed'] = 'Pregledano';
 $string['saveallfeedback'] = 'Sačuvaj sve moje povratne informacije';
 $string['sendformarking'] = 'Pošalji na ocenjivanje';
 $string['submission'] = 'Rešenje';

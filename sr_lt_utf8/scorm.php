@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6.2 (2006050520)
+      // scorm.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['advanced'] = 'Parametri';
@@ -106,6 +106,7 @@ $string['reviewmode'] = 'Mod za pregledanje';
 $string['scoes'] = 'Objekti za učenje';
 $string['score'] = 'Rezultat';
 $string['scorm:savetrack'] = 'Čuvanje rezultata praćenja';
+$string['scorm:skipview'] = 'Preskakanje pregleda';
 $string['scorm:viewreport'] = 'Pregled izveštaja';
 $string['scorm:viewscores'] = 'Pregled rezultata';
 $string['scormcourse'] = 'SCORM kurs';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6.2 (2006050520)
+      // data.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['action'] = 'Akcija';
@@ -39,6 +39,7 @@ $string['data:comment'] = 'Pisanje komentara';
 $string['data:managecomments'] = 'Upravljanje komentarima';
 $string['data:manageentries'] = 'Upravljanje unosima';
 $string['data:managetemplates'] = 'Upravljanje šablonima';
+$string['data:manageuserpresets'] = 'Upravljanje svim šablonima skupova podešavanja';
 $string['data:rate'] = 'Ocenjivanje unosa';
 $string['data:readentry'] = 'Čitanje unosa';
 $string['data:viewalluserpresets'] = 'Pregled postojećih skupova podešavanje svih korisnika';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6.2 (2006050520)
+      // forum.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['addanewdiscussion'] = 'Dodajte novu temu za diskusiju';
@@ -161,9 +161,9 @@ $string['parent'] = 'Prikaži nadređenu poruku';
 $string['parentofthispost'] = 'Poruka nadređena ovoj poruci';
 $string['postadded'] = 'Vaša poruka je uspešno dodata.<P>Imate $a za promenu sadržaja iste, pod uslovom da to želite.';
 $string['postincontext'] = 'Pogledajte poruku u kontekstu';
-$string['postmailinfo'] = 'Ovo je kopija poruke s foruma na Web sajtu $a.
+$string['postmailinfo'] = 'Ovo je kopija poruke s foruma na veb sajtu $a.
 
-Kako biste odgovorili na poruku putem Web interfejsa, kliknite na ovaj link:';
+Kako biste odgovorili na poruku putem veb interfejsa, kliknite na ovaj link:';
 $string['postmailnow'] = '<p>Ova poruka će biti odmah poslata svim članovima foruma.</p>';
 $string['postrating1'] = 'Uglavnom odvojeno znanje';
 $string['postrating2'] = 'Odvojeno i povezano';
@@ -198,6 +198,7 @@ $string['repliesone'] = '$a odgovor do sada';
 $string['reply'] = 'Odgovor';
 $string['replyforum'] = 'Odgovoriti na forum';
 $string['resetforums'] = 'Uklanjanje svih poruke sa ovih tipova foruma';
+$string['resetsubscriptions'] = 'Uklanjanje prijava na forum';
 $string['rsssubscriberssdiscussions'] = 'Prikaz RSS polja za \'$a\' diskusije';
 $string['rsssubscriberssposts'] = 'Prikaz RSS polja za \'$a\' poruke';
 $string['search'] = 'Pretraga';

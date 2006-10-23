@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6.2 (2006050520)
+      // admin.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['accounts'] = 'Nalozi';
@@ -85,14 +85,14 @@ $string['configfiltermatchoneperpage'] = 'Filteri za automatsko linkovanje će g
 $string['configfiltermatchonepertext'] = 'Filteri za automatsko linkovanje će generisati samo jedan link ka prvoj odgovarajućoj pojavi teksta pronađenoj u svakoj od stavki teksta (npr. resursu, bloku) na stranici. Sve ostale pojave se ignorišu. Ovo podešavanje se ne uzima u obzir ako je podešavanje za jednu pojavu po stranici postavljeno na <i>da</i>.';
 $string['configfilteruploadedfiles'] = 'Procesiranje svih postavljenih HTML i tekstualnih datoteka filterima pre njihovog prikazivanja, procesiranje samo postavljenih HTML datoteka ili bez procesiranja.';
 $string['configforcelogin'] = 'Pod normalnim okolnostima, ljudi će moći da vide naslovnu stranu sajta i spisak kurseva (ali ne i same kurseve) bez prethodnog prijavljivanja. Ukoliko želite da primorate ljude da se prijave pre nego što vide BILO ŠTA na sajtu, onda bi trebalo da omogućite ovo podešavanje.';
-$string['configforceloginforprofiles'] = 'Omogućite ovo podešavanje kako bi se primorali korisnike da se prijave sa pravim nalozima (ne kao gosti) pre nego što vide stranice sa korisničkim profilima. Ova opcija je obično onemogućena (podrazumevana vrednost je \"netačno\") kako bi potencijalni studenti mogli da pročitaju nešto više o predavačima svakog kursa. Ovo, u isto vreme znači, da će ove strane moći da vide i Web pretraživači.';
-$string['configframename'] = 'Ako stavljate Moodle unutar Web okvira, zadajte ime tog okvira ovde. U suprotnom, ova vrednost će biti \"_top\"';
+$string['configforceloginforprofiles'] = 'Omogućite ovo podešavanje kako bi se primorali korisnike da se prijave sa pravim nalozima (ne kao gosti) pre nego što vide stranice sa korisničkim profilima. Ova opcija je obično onemogućena (podrazumevana vrednost je \"netačno\") kako bi potencijalni studenti mogli da pročitaju nešto više o predavačima svakog kursa. Ovo, u isto vreme znači, da će ove strane moći da vide i veb pretraživači.';
+$string['configframename'] = 'Ako stavljate Moodle unutar veb okvira, zadajte ime tog okvira ovde. U suprotnom, ova vrednost će biti \"_top\"';
 $string['configfrontpage'] = 'Stavke odabrane ispod biće prikazane na početnoj stranici sajta.';
 $string['configfrontpageloggedin'] = 'Stavke odabrane ispod biće prikazane na početnoj stranici sajta kada je korisnik prijavljen na sistem.';
 $string['configfullnamedisplay'] = 'Ovo definiše način na koji će biti prikazano ime i prezime. Za većinu monojezičnih sajtova najefikasnije podešavanje je podrazumevano \"Ime + Prezime\", ali možete da izaberete da potpuno sakrijete prezimena, ili da to prepustite trenutno izabranom jeziku (neki jezici imaju različite konvencije).';
 $string['configgdversion'] = 'Označite instaliranu verziju GD modula. Verzija koja je prikazana kao podrazumevana je prepoznata tokom instalacije Moodle-a. Nemojte je menjati, osim ako stvarno znate šta radite.';
 $string['confighiddenuserfields'] = 'Izaberite koja polja sa korisničkim informacijama želite da sakrijete od drugih korisnika koji nisu predavači kursa ili administratori. To će povećati privatnost korisnika. Držite CTRL taster pritisnutim da biste izabrali više polja.';
-$string['confightmleditor'] = 'Odaberite da li ćete omogućite korišćenje HTML editora. Čak i ukoliko omogućite upotrebu, editor će se pojaviti samo ako korisnik ima odgovarajuću kompatibilnu verziju Web čitača. Korisnik može da izabere i da ne koristi editor.';
+$string['confightmleditor'] = 'Odaberite da li ćete omogućite korišćenje HTML editora. Čak i ukoliko omogućite upotrebu, editor će se pojaviti samo ako korisnik ima odgovarajuću kompatibilnu verziju veb čitača. Korisnik može da izabere i da ne koristi editor.';
 $string['configidnumber'] = 'Ova postavka određuje (a) hoće li korisnici uopšte biti pitani za ID broj, (b) hoće li korisnici biti pitani za ID broj, ali će navedeno polje moći ostaviti prazno ili (c) hoće li korisnicima unos u polje ID broj biti obavezan. Ako je ID broj unet, isti se prikazuje u njihovom profilu.';
 $string['configintro'] = 'Na ovoj strani možete specifikovati brojne konfiguracione promenljive koje će pomoći da Moodle pravilno funkcioniše na Vašem serveru. Ne brinite previše o tome - podrazumevane vrednosti obično su potpuno adekvatne. Kasnije se možete vratiti na ovu stranu i promeniti podešavanja prema potrebi.';
 $string['configintroadmin'] = 'Na ovoj strani bi trebalo da konfigurišite Vaš glavni administratorski nalog koji će imati potpunu kontrolu nad čitavim sajtom. Uverite se da ste nalogu dodelili bezbedno korisničko ime i lozinku, kao i ispravnu elektronsku adresu. Kasnije možete kreirati dodatne administratorske naloge.';
@@ -105,7 +105,7 @@ $string['configlangdir'] = 'U većini jezika tekst se piše sa leve na desnu str
 $string['configlanglist'] = 'Ostavite ovu opciju praznom ako želite dati Vašim korisnicima pravo na odabir BILO KOG jezičkog paketa instaliranog na nivou Moodle sistema. Međutim, možete skratiti padajući jezički meni unošenjem željenih jezičkih kodova odvojenih zarezima. Primer: en,sr,de,fr,it';
 $string['configlangmenu'] = 'Odaberite želite li prikazati padajući meni za odabir jezika interfejsa na početnoj stranici, stranici za prijavljivanje na sistem, itd. Ovo podešavanje ne onemogućava korisnike u odabiru željenog jezika u njihovom ličnom profilu.';
 $string['configlocale'] = 'Odaberite lokalna podešavanja na nivou celog sajta, što će uticati na oblik prikaza i jezik na kojem se ispisuju datumi. Neophodno je da u okviru Vašeg operativnog sistema imate instaliranu podršku za  odgovarajući jezik (npr. eng_US ili sr). Ako ne znate šta biste odabrali, ostavite ovo polje praznim.';
-$string['configloginhttps'] = 'Ukoliko uključite ovu opciju Moodle će koristiti bezbednu https konekciju samo za stranicu za pristup sajtu, a nakon toga će se vratiti na normalni http URL, povećavajući time brzinu rada. OPREZ: ovo podešavanje ZAHTEVA da https bude eksplicitno omogućen na Web serveru - ako nije MOŽETE DOĆI U SITUACIJU DA SAMI SEBI ONEMOGUĆITE PRISTUP SAJTU.';
+$string['configloginhttps'] = 'Ukoliko uključite ovu opciju Moodle će koristiti bezbednu https konekciju samo za stranicu za pristup sajtu, a nakon toga će se vratiti na normalni http URL, povećavajući time brzinu rada. OPREZ: ovo podešavanje ZAHTEVA da https bude eksplicitno omogućen na veb serveru - ako nije MOŽETE DOĆI U SITUACIJU DA SAMI SEBI ONEMOGUĆITE PRISTUP SAJTU.';
 $string['configloglifetime'] = 'Ovo podešavanje određuje koliko dugo želite da čuvate izveštaje o aktivnostima korisnika. Izveštaji koji su stariji biće automatski obrisani. Najbolje je da izveštaje čuvate što je moguće duže, u slučaju da Vam zatrebaju, ali ukoliko imate jako opterećen server i ukoliko iskusite probleme sa njegovim performansama možete skratiti vremenski period njihovog čuvanja.';
 $string['configlongtimenosee'] = 'Ako studenti nisu pristupili sistemu tokom relativno dugog vremenskog perioda, onda se automatski ispisuju sa kurseva. Ovaj parametar određuje to vremensko ograničenje.';
 $string['configlookahead'] = 'Dana unapred za praćenje';
@@ -125,7 +125,7 @@ $string['configperfdebug'] = 'Ako ovo uključite, informacije o performansama bi
 $string['configprotectusernames'] = 'Po podrazumevanim podešavanjima forget_password.php ne prikazuje nikakvu pomoć za pogađanje korisničkih imena ili adresa elektronske pošte.';
 $string['configproxyhost'] = 'Ukoliko <b>server</b> mora da koristi proksi računar (npr. \"zaštitni zid\") za pristup Internetu, unesite ovde njegovu adresu i port. U suprotnom ostavite ovo polje prazno.';
 $string['configproxyport'] = 'Ako ovaj server mora da koristi proxy računar, navedite ovde proxy port.';
-$string['configquarantinedir'] = 'Ukoliko želite da Clam AV premesti inficirane datoteke u karantin, upišite putanju do direktorijuma predviđenog za karantin. Web serveru mora biti dozvoljen upis u ovaj direktorijum. Ako ostavite ovo polje prazno ili unesete direktorijum koji ne postoji ili se u njega ne može upisivati, inficirane datoteke biće obrisane. Nemojte navoditi krajnje kose crte.';
+$string['configquarantinedir'] = 'Ukoliko želite da Clam AV premesti inficirane datoteke u karantin, upišite putanju do direktorijuma predviđenog za karantin. Veb serveru mora biti dozvoljen upis u ovaj direktorijum. Ako ostavite ovo polje prazno ili unesete direktorijum koji ne postoji ili se u njega ne može upisivati, inficirane datoteke biće obrisane. Nemojte navoditi krajnje kose crte.';
 $string['configrequestedstudentname'] = 'Reč za studenta koja se koristi u zahtevanim kursevima';
 $string['configrequestedstudentsname'] = 'Reč za studente koja se koristi u zahtevanim kursevima';
 $string['configrequestedteachername'] = 'Reč za predavača koja se koristi u zahtevanim kursevima';
@@ -144,14 +144,14 @@ $string['configsectionrequestedcourse'] = 'Zahtev za kursom';
 $string['configsectionsecurity'] = 'Bezbednost';
 $string['configsectionstats'] = 'Statistika';
 $string['configsectionuser'] = 'Korisnik';
-$string['configsecureforms'] = 'Moodle može da koristi dodatni nivo bezbednosti kada prima podatke iz Web formi. Ukoliko je to omogućeno, onda se HTTP_REFERER promenljiva Web čitača upoređuje sa tekućom adresom forme. U veoma malom broju slučajeva to može prouzrokavati probleme ako korisnik upotrebljava \"zaštitni zid\" (npr. Zonealarm) konfigurisan tako da uklanja HTTP_REFERER promenljivu iz web saobraćaja. Posledica toga je tzv. \"zaglavljivanje u formi\". Ukoliko Vaši korisnici imaju problema, na primer, sa stranicom za prijavu, možda ćete želeti da onemogućite ovo podešavanje, iako će to Vaš sajt učiniti daleko osetljivijim na hakerske napade razbijanja lozinki grubom silom. Ukoliko ste u dilemi, omogućite ovu opciju.';
-$string['configsessioncookie'] = 'Ovo podešavanje prilagođava ime \"kolačića\" za Moodle sesije. Podešavanje je opciono i korisno je samo da bi se izbegla mešanje \"kolačića\", u situaciji kada je u okviru istog Web sajta pokrenuto više od jedne kopije Moodlea.';
-$string['configsessioncookiepath'] = 'Ako treba da promenite lokaciju na koju Moodle šalje \"kolačiće\", možete promeniti ovo podešavanje tako da specificira neki od poddirektorijuma na Vašem Web sajtu. U suprotnom, podrazumevana vrednost \'/\' bi trebala biti sasvim prihvatljiva.';
+$string['configsecureforms'] = 'Moodle može da koristi dodatni nivo bezbednosti kada prima podatke iz veb formi. Ukoliko je to omogućeno, onda se HTTP_REFERER promenljiva veb čitača upoređuje sa tekućom adresom forme. U veoma malom broju slučajeva to može prouzrokavati probleme ako korisnik upotrebljava \"zaštitni zid\" (npr. Zonealarm) konfigurisan tako da uklanja HTTP_REFERER promenljivu iz web saobraćaja. Posledica toga je tzv. \"zaglavljivanje u formi\". Ukoliko Vaši korisnici imaju problema, na primer, sa stranicom za prijavu, možda ćete želeti da onemogućite ovo podešavanje, iako će to Vaš sajt učiniti daleko osetljivijim na hakerske napade razbijanja lozinki grubom silom. Ukoliko ste u dilemi, omogućite ovu opciju.';
+$string['configsessioncookie'] = 'Ovo podešavanje prilagođava ime \"kolačića\" za Moodle sesije. Podešavanje je opciono i korisno je samo da bi se izbegla mešanje \"kolačića\", u situaciji kada je u okviru istog veb sajta pokrenuto više od jedne kopije Moodlea.';
+$string['configsessioncookiepath'] = 'Ako treba da promenite lokaciju na koju Moodle šalje \"kolačiće\", možete promeniti ovo podešavanje tako da specificira neki od poddirektorijuma na Vašem veb sajtu. U suprotnom, podrazumevana vrednost \'/\' bi trebala biti sasvim prihvatljiva.';
 $string['configsessiontimeout'] = 'Ukoliko su korisnici koji su prijavljeni na sajt, neaktivni duži vremenski period (ne učitavaju stranice), biće automatski odjavljeni (njihove sesije biće završene). Ova promenljiva određuje koliki bi trebao biti taj vremenski period.';
 $string['configshowblocksonmodpages'] = 'Pojedini moduli aktivnosti imaju podršku za blokove na svojim stranicama. Ako uključite ovu opciju, predavači će biti u mogućnosti da dodaju blokove na te stranice, u suprotnom ih interfejs neće prikazivati.';
 $string['configsitemailcharset'] = 'Sve poruke e-pošte koje se generišu na Vašem sajtu biće poslate u kodnom rasporedu koji ovde specificirate. U svakom slučaju, svaki pojedinačni korisnik će moći da podesi da li je ova opcija omogućena ili nije.';
 $string['configsitepolicy'] = 'Ukoliko imate posebna pravila i uputstva za korišćenje sajta koja korisnici moraju da pročitaju  i da ih prihvate onda navedite URL strane na kojoj se nalaze pravila. U suprotnom ostavite ovo polje prazno. URL strane može biti bilo koji - pogodno mesto može biti i datoteka na samom sajtu tj. http://yoursite/file.php/1/policy.html';
-$string['configslasharguments'] = 'Datoteke (slike i sl.) su dostupne korišćenjem tzv. slash argumenata (druga opcija u padajućoj listi). Ovaj način omogućava da datoteke budu lakše keširane u Web čitaču, proksi serverima itd. Nažalost, neki PHP serveri ne omogućuju korišćenje ovog metoda, tako da ukoliko imate problema da vidite postavljene datoteke ili slike izaberite prvu opciju iz padajuće liste.';
+$string['configslasharguments'] = 'Datoteke (slike i sl.) su dostupne korišćenjem tzv. slash argumenata (druga opcija u padajućoj listi). Ovaj način omogućava da datoteke budu lakše keširane u veb čitaču, proksi serverima itd. Nažalost, neki PHP serveri ne omogućuju korišćenje ovog metoda, tako da ukoliko imate problema da vidite postavljene datoteke ili slike izaberite prvu opciju iz padajuće liste.';
 $string['configsmtphosts'] = 'Navedite punu adresu jednog ili više lokalnih SMTP servera koji će biti korišćeni za slanje elektronske pošte (npr. mail.a.com ili mail.a.com;mail.b.com). Ukoliko polje ostavite prazno Moodle će za slanje elektronske pošte koristiti pofrazumevani PHP metod.';
 $string['configsmtpuser'] = 'Ako ste prethodno naveli SMTP server i ako on traži proveru identiteta unesite korisničko ime i lozinku';
 $string['configstartwday'] = 'Dan kojim počinje radna nedelja';
@@ -176,7 +176,7 @@ $string['courserequests'] = 'Zahtev za pokretanje kursa';
 $string['courses'] = 'Kursevi';
 $string['coursesperpage'] = 'Kurseva po stranici';
 $string['cronwarning'] = '<a href=\"cron.php\">cron.php skript za održavanje</a> nije pokretan u poslednjih bar 24 sata.';
-$string['datarootsecuritywarning'] = 'Konfiguracija Vašeg sajta možda nije bezbedna. Molimo proverite da se Vašem direktorijumu podataka ($a) ne može direktno pristupiti preko Weba.';
+$string['datarootsecuritywarning'] = 'Konfiguracija Vašeg sajta možda nije bezbedna. Molimo proverite da se Vašem direktorijumu podataka ($a) ne može direktno pristupiti preko veba.';
 $string['dbmigrate'] = 'Migracija Moodle baze podataka';
 $string['dbmigrateconnecerror'] = 'Nije moguće uspostaviti vezu sa specificiranom bazom podataka.';
 $string['dbmigrateencodingerror'] = 'Specificirana baza podataka ima kodiranje $a, a ne neophodno UNICODE/UTF8.<br />Molimo navedite drugu bazu.';
@@ -227,6 +227,8 @@ $string['environmentrequireinstall'] = 'je neophodno instalirati/omogućiti';
 $string['environmentrequireversion'] = 'neophodna verzija je $a->needed a Vi trenutno koristite verziju $a->current';
 $string['environmentxmlerror'] = 'Greška u čitanju podataka okruženja ($a->error_code)';
 $string['errors'] = 'Greške';
+$string['errorsetting'] = 'Nije moguće sačuvati podešavanje';
+$string['errorwithsettings'] = 'Neka podešavanja nisu sačuvana usled pojave greške.';
 $string['extendedusernamechars'] = 'Dozvoliti prošireni izbor karaktera u korisničkim imenima';
 $string['filterall'] = 'Filtriraj sve stringove';
 $string['filtermatchoneperpage'] = 'Poklapanje filtera jednom po stranici';
@@ -442,5 +444,6 @@ $string['users'] = 'Korisnici';
 $string['userscreated'] = 'Korisnici su kreirani';
 $string['usersrenamed'] = 'Korisnici su preimenovani';
 $string['usersupdated'] = 'Korisnici su ažurirani';
+$string['validateerror'] = 'Ova vrednost nije validna:';
 
 ?>

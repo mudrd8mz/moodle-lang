@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // currencies.php - created with Moodle 1.6.2 (2006050520)
+      // currencies.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['ADF'] = 'Andorski franak';
@@ -40,7 +40,6 @@ $string['CLP'] = 'Čileanski pezos';
 $string['CNY'] = 'Kineski renminbi';
 $string['COP'] = 'Kolumbijski pezos';
 $string['CRC'] = 'Kostarikanski kolon';
-$string['CSD'] = 'Srpski dinar';
 $string['CUP'] = 'Kubanski pezos';
 $string['CVE'] = 'Kape Verdanski eskudo';
 $string['CYP'] = 'Kiparska funta';
@@ -127,6 +126,7 @@ $string['PLN'] = 'Poljski zloti';
 $string['PYG'] = 'Paragvajski gvarani';
 $string['QAR'] = 'Katarski rial';
 $string['ROL'] = 'Rumunski lej';
+$string['RSD'] = 'Srpski dinar';
 $string['RUB'] = 'Ruska rublja';
 $string['RWF'] = 'Ruandski franak';
 $string['SAR'] = 'Saudijski rijal';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6.2 (2006050520)
+      // enrol_authorize.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['adminacceptccs'] = 'Koji tipovi kreditnih kartica se prihvataju?';
@@ -41,9 +41,10 @@ $string['adminteachermanagepay'] = 'Predavači mogu upravljati plaćanjem kursa.
 $string['amount'] = 'Iznos';
 $string['anlogin'] = 'Authorize.net: Korisničko ime';
 $string['anpassword'] = 'Authorize.net: Lozinka';
-$string['anreferer'] = 'Definišite URL za preusmeravanje ako ste to podesili na svom authorize.net nalogu. To će poslati liniju \"Preusmeravanje: URL\" u okviru Web zahteva.';
+$string['anreferer'] = 'Definišite URL za preusmeravanje ako ste to podesili na svom authorize.net nalogu. To će poslati liniju \"Preusmeravanje: URL\" u okviru veb zahteva.';
 $string['antestmode'] = 'Pokretanje transkacija isključivo u test modu (neće doći do podizanja novca)';
 $string['antrankey'] = 'Authorize.net: Ključ za transakciju';
+$string['approvedreview'] = 'Odobreni pregled';
 $string['authcaptured'] = 'Autorizovano/Prihvaćeno';
 $string['authorize:managepayments'] = 'Upravljenje uplatama';
 $string['authorizedpendingcapture'] = 'Autorizovano/Čeka na prihvatanje';
@@ -160,6 +161,7 @@ $string['refund'] = 'Refundiranje';
 $string['refunded'] = 'Refundirano';
 $string['returns'] = 'Povraćaji';
 $string['reviewday'] = 'Prihvatiti kreditnu karticu automatski ukoliko predavač ili administrator ne pregledaju porudžbinu u roku od <b>$a</b> dana. CRON MORA BITI OMOGUĆEN.<br />(0 dana znači da će biti onemogućena zakazana prihvatanja, kao i da će predavač ili administrator ručno pregledati porudžbinu. Transakcija će biti otkazana ako onemogućite zakazano prihvatanje ili ako ne pregledate porudžbinu u roku od 30 dana.)';
+$string['reviewfailed'] = 'Pregled nije uspeo';
 $string['reviewnotify'] = 'Vaša uplata će biti pregledana. Očekujte e-poruku od Vašeg predavača u roku od nekoliko dana.';
 $string['sendpaymentbutton'] = 'Slanje uplate';
 $string['settled'] = 'Dogovoreno';
@@ -169,7 +171,9 @@ $string['tested'] = 'Testirano';
 $string['testmode'] = '[REŽIM ZA TESTIRANJE]';
 $string['testwarning'] = 'Prihvatanje/Ništa/Kredit izgleda radi u režimu za testiranje, ali nijedan zapis nije ažuriran ili umetnut u bazu podataka.';
 $string['transid'] = 'Identifikator transakcije';
+$string['underreview'] = 'U procesu pregleda';
 $string['unenrolstudent'] = 'Ispis studenta?';
+$string['uploadcsv'] = 'Postavljanje CSV datoteke';
 $string['usingccmethod'] = 'Greška pri korišćenju opcije <a href=\"$a->url\"><strong>Kreditna kartica</strong></a>';
 $string['usingecheckmethod'] = 'Greška pri korišćenju opcije <a href=\"$a->url\"><strong>eCheck</strong></a>';
 $string['void'] = 'Ništa';

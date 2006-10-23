@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6.2 (2006050520)
+      // error.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['adminprimarynoedit'] = 'Podaci primarnog administratora ne mogu biti menjani od strane drugih korisnika';
@@ -64,6 +64,7 @@ $string['sessionerroruser'] = 'Vaša sesija je istekla. Molimo prijavite se na s
 $string['sessionerroruser2'] = 'Došlo je do greške koja utiče na Vašu tekuću sesiju. Molimo pristupite sistemu ponovo ili ponovo pokrenite svoj web čitač.';
 $string['sessionipnomatch'] = 'Nažalost, ali izgleda da se Vaš IP broj promenio od kada ste se prijavili na sistem. Ova sigurnosna opcija sprečava krakere da ukradu Vaš indentitet dok ste prijavljeni na ovaj sajt. Normalni korisnici ne bi trebalo da vide ovu poruku - molimo Vas da tražite pomoć od administratora sajta.';
 $string['statscatchupmode'] = 'Statistika je trenutno u modu za sustizanje obrade padataka. Do sada je procesirano $a->daysdone dana, a još $a->dayspending dana čeka na obradu. Vratite se nešto kasnije!';
+$string['unicodeupgradeerror'] = 'Žao nam je, ali Vaša baza podataka nije u Unicode formatu, a ova vezija Moodlea ne može da je prebaci u Unicode bazu podataka. Molimo prvo uradite nadogradnju sistema do Moodle 1.7.x verzije i uradite Unicode migraciju sa administratorske stranice. Nakon što to uradite moći ćete da pređete na Moodle $a';
 $string['unknowncourse'] = 'Ne postoji kurs pod nazivom \"$a\"';
 $string['unknownuseraction'] = 'Žao nam je, ali sistem nije razumeo ovu akciju korisnika.';
 $string['usernotaddederror'] = 'Korisnik \"$a\" nije dodat - nepoznata greška';
