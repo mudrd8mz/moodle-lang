@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2006101001)
+      // admin.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['accounts'] = 'Profili';
@@ -133,7 +133,6 @@ $string['configmaxeditingtime'] = 'Questo parametro specifica il tempo complessi
 $string['configmaxevents'] = 'Eventi da anticipare';
 $string['configmessaging'] = 'Attivare il sistema di messaggistica interna?';
 $string['configmymoodleredirect'] = 'Questa impostazione obbliga la ridirezione a /my all\'accesso per i non amministratori e sostituisce collegamento alla pagina principale del sito con /my';
-
 $string['confignoreplyaddress'] = 'Le mail a volte sono spedite a nome di un utente (per esempio, i messaggi dei forum). L\'indirizzo mail qui specificato sarà  utilizzato come l\'indirizzo \"Da\" cui proviene il messaggio,nei casi in cui il ricevente non è in grado di replicare direttamente all\'utente (per esempio, quando un utente decide di mantenere il suo indirizzo privato).';
 $string['confignotifyloginfailures'] = 'Se sono stati registrati accessi falliti, una mail di notifica può essere spedita. Chi deve ricevere queste notifiche?';
 $string['confignotifyloginthreshold'] = 'Se la notifica sugli accessi falliti è attiva, dopo quanti tentativi falliti per utente o per indirizzo IP la notifica deve essere inviata?';
@@ -296,12 +295,11 @@ $string['lang'] = 'Lingua di default';
 $string['lang16notify'] = 'Moodle 1.6 e successivi permette di installare e aggiornare i language pack direttamente da download.moodle.org seguendo il collegamento qui sotto.';
 $string['langcache'] = 'Cache del menu delle lingue';
 $string['langedit'] = 'Modifica lingua';
-$string['langimport'] = 'Utilità di importazione della lingua';
 $string['langimportsuccess'] = 'Language Pack aggiornato correttamente';
 $string['langlist'] = 'Lingue sul menu delle lingue';
 $string['langmenu'] = 'Mostra il menu delle lingue';
 $string['langpackremoved'] = 'Disinstallazione Language Pack completata';
-$string['langpacks'] = 'Language packs';
+$string['langpacks'] = 'Language pack';
 $string['langpackupdated'] = 'Language Pack $a aggiornato';
 $string['languagesettings'] = 'Impostazioni lingua';
 $string['langupdatecomplete'] = 'Aggiornamento Language Pack completato';
@@ -401,7 +399,7 @@ $string['sessioncookiepath'] = 'Percorso cookie';
 $string['sessionhandling'] = 'Gestione sessione';
 $string['sessiontimeout'] = 'Tempo massimo';
 $string['showblocksonmodpages'] = 'Mostra i blocchi sulle pagine di modulo';
-$string['simpletest'] = 'Tests';
+$string['simpletest'] = 'Test';
 $string['sitelangchanged'] = 'L\'impostazione della lingua del sito è stata cambiata correttamente';
 $string['sitemailcharset'] = 'Set di caratteri';
 $string['sitemaintenance'] = 'Il sito è sottoposto a mantenimento e non è attualmente disponibile';
@@ -460,7 +458,7 @@ $string['upgradinglogs'] = 'Aggiornamento logs';
 $string['upwards'] = 'avanzamenti';
 $string['usehtmleditor'] = 'Usa l\'editor HTML';
 $string['useraccountupdated'] = 'Utente aggiornato';
-$string['userlist'] = 'Naviga lista degli utenti';
+$string['userlist'] = 'Elenco utenti';
 $string['userpolicies'] = 'Politiche utente';
 $string['userrenamed'] = 'Utente rinominato';
 $string['users'] = 'Utenti';
