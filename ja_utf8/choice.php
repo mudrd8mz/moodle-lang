@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8 dev (2006101001)
+      // choice.php - created with Moodle 1.8 dev (2006102200)
 
 
 $string['addmorechoices'] = '選択肢の追加';
@@ -24,6 +24,8 @@ $string['limitanswers'] = '投票可能数を制限する';
 $string['modulename'] = '投票';
 $string['modulenameplural'] = '投票';
 $string['mustchooseone'] = '保存する前に答えを選択する必要があります。投票内容は保存されませんでした。';
+$string['noguestchoose'] = '申し訳ございません、ゲストは投票できません。';
+$string['noresultsviewable'] = '現在、投票結果は閲覧できません。';
 $string['notanswered'] = '未投票';
 $string['notopenyet'] = '申し訳ございません、この活動は $a まで利用できません。';
 $string['privacy'] = '投票結果のプライバシー';
