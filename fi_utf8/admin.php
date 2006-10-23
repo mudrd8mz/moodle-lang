@@ -1,6 +1,4 @@
-<?PHP // $Id:
-
-
+<?PHP // $Id$ 
       // admin.php - created with Moodle 1.7 beta (2006101000)
 
 
@@ -63,7 +61,7 @@ $string['configcoursesperpage'] = 'Kurssien lukumäärä sivua kohden kurssilist
 $string['configdbsessions'] = 'Jos tämä asetus on päällä, niin auki olevista istunnoista tallennetaan tietoja tietokantaan. Tästä on hyötyä erityisesti laajoilla, runsaasti käytetyillä tai palvelinklustereille asennetuilla sivustoilla. Useimmilla sivustoilla tämä asetus pitäisi jättää pois päältä, jolloin tallennetukseen palvelimen kovalevyä. Huomio, että tämän asetuksen muuttaminen kirjaa ulos kaikki sen hetkiset käyttäjät (mukaan lukien sinut).';
 $string['configdebug'] = 'Jos tämä asetus on päällä, niin PHPn virheiden ilmoittaminen asetetaan tasolle, jolla enemmän virheitä näytetään. Tämä asetus on käytännöllinen vain kehittäjille.';
 $string['configdefaultallowedmodules'] = 'Mitkä moduulit haluat sallia oletuksena niille kursseille, jotka kuuluvat tähän kategoriaan, <b>kun nuo kurssit luodaan</b>?';
-$string['configdefaultcourseroleid'] = 'Kyttjt, jotka liityvät kurssille, annetaan automaattisesti tämä rooli.';
+$string['configdefaultcourseroleid'] = 'Käyttäjille, jotka liityvät kurssille, annetaan automaattisesti tämä rooli.';
 $string['configdefaultrequestcategory'] = 'Kurssit, joita käyttäjät pyysivät, sijaitsevat automaattisesti tässä kategoriassa';
 $string['configdefaultrequestedcategory'] = 'Toivottujen kurssien oletuskategoria, johon ne sijoitetaan jos kurssi hyväksytään.';
 $string['configdefaultuserroleid'] = 'Kaikille sisäänkirjaudutuille käyttäjille annetaan tässä määriteltyjen roolin kyvyt sivustolle, , niiden roolien lisäksi jota muualla on saatettu antaa. Oletus rooli on vierasrooli. Huomatkaa, että tämä ei ole ristiriidassa muiden roolien kanssa, se vain takaa, että kaikki käyttäjät voivat tehdä jotakin hyödyllistä sivustolla (lukea keskusteluja, resursseja jne).';
@@ -418,7 +416,7 @@ $string['timezoneforced'] = 'Tämän on valinnut sivuston ylläpitäjä';
 $string['timezoneisforcedto'] = 'Pakota kaikki käyttäjät käyttämään';
 $string['timezonenotforced'] = 'Käyttäjät voivat oman aikavyöhykkeensä';
 $string['unbookmarkthispage'] = 'Poista suosikeista';
-$string['unicodeupgradenotice'] = 'Moodlen version 1.6 yhteydessä kaikki kielipaketit käänettiin Unicode-merstön mukaisiksi. Viimeistelläksesi päivityksen pitää kaikki tietokannan data kääntää Unikoodiin päivitystyökalun avulla. <a href=\"utfdbmigrate.php\">Klikkaa tästä ajaaksesi päivitystyökalu nyt</a>!';
+$string['unicodeupgradenotice'] = 'Moodlen version 1.6 yhteydessä kaikki kielipaketit käänettiin Unicode-merkistön mukaisiksi. Viimeistelläksesi päivityksen pitää kaikki tietokannan data kääntää Unikoodiin päivitystyökalun avulla. <a href=\"utfdbmigrate.php\">Klikkaa tästä ajaaksesi päivitystyökalu nyt</a>!';
 $string['uninstall'] = 'Poista valittu käännöspaketti';
 $string['uninstallconfirm'] = 'Olet poistamassa käännöspakettia $a, oletko aivan varma?';
 $string['unsupported'] = 'Ei tuettu';
@@ -434,7 +432,7 @@ $string['upgradelogsinfo'] = 'Tapahtumalokien tallennuksessa on tapahtunut muuto
 Haluatko päivittää lokit nyt?';
 $string['upgradesettings'] = 'Uudet asetukset';
 $string['upgradesettingsintro'] = 'Alla olevat asetukset lisättiin Moodlen päivityksen aikana. Tee haluamasi muutokset oletusarvoihin  ja tallenna tekemäsi muutokset.';
-$string['upgradesure'] = 'Moodlen asennustiedostot ovat muuttuneet, järjestelmä tullaan päivittämään uuteen versioon automaattisesti. Uusi version on:
+$string['upgradesure'] = 'Moodlen asennustiedostot ovat muuttuneet, järjestelmä tullaan päivittämään uuteen versioon automaattisesti. Uusi versio on:
  <p><b>$a</b></p>
 <p>Kun aloitat päivittämisen et voi enää palata takaisin aiempaan versioon.</p>
 <p>Oletko varma että haluat päivittää palvelimen?</p>';
