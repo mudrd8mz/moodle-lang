@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006101001)
+      // moodle.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['action'] = 'Azione';
@@ -14,7 +14,7 @@ $string['activitymodule'] = 'Modulo attività';
 $string['activityreport'] = 'Rapporto delle attività';
 $string['activityreports'] = 'Rapporti delle attività';
 $string['activityselect'] = 'Seleziona questa attività per spostarla da qualche parte';
-$string['activitysince'] = 'Attività  dal $a';
+$string['activitysince'] = 'Attività  successive a $a';
 $string['activityweighted'] = 'Attività per utente';
 $string['add'] = 'Aggiungi';
 $string['addactivity'] = 'Aggiungi un\'attività ...';
@@ -31,7 +31,7 @@ $string['addinganewto'] = 'Aggiungi $a->what a $a->to';
 $string['addingdatatoexisting'] = 'Aggiungi a dati esistenti';
 $string['addnewcategory'] = 'Creazione nuova categoria';
 $string['addnewcourse'] = 'Creazione nuovo corso';
-$string['addnewuser'] = 'Creazione nuovo utente';
+$string['addnewuser'] = 'Nuovo utente';
 $string['addnousersrecip'] = 'Aggiungere gli utenti che non hanno mai esaminato questa $a alla lista dei destinatari';
 $string['addresource'] = 'Aggiungi una risorsa...';
 $string['address'] = 'Indirizzo';
@@ -132,6 +132,9 @@ $string['backupactivehelp'] = 'Scegli se automatizzare o meno i backup';
 $string['backupcancelled'] = 'Copia di sicurezza annullata';
 $string['backupcoursefileshelp'] = 'Se abilitato i file del corso saranno inclusi nella copia di sicurezza automatica';
 $string['backupdate'] = 'Data copia di sicurezza';
+$string['backupdatenew'] = '$a->TAG ora è $a->weekday, $a->mday $a->month $a->year<br />';
+$string['backupdateold'] = '$a->TAG era $a->weekday, $a->mday $a->month $a->year';
+$string['backupdaterecordtype'] = '<br />$a->recordtype - $a->recordname<br />';
 $string['backupdetails'] = 'Dettagli copia di sicurezza';
 $string['backupexecuteathelp'] = 'Scegli a che ora devono essere effettuati i backup automatici';
 $string['backupfailed'] = 'Alcuni dei vostri corsi non sono stati salvati!';
@@ -844,13 +847,13 @@ $string['move'] = 'Muovi';
 $string['movecategoryto'] = 'Muovi categoria in:';
 $string['movecourseto'] = 'Muovi corso in:';
 $string['movedown'] = 'Muovi in basso';
-$string['movefilestohere'] = 'Trasferisci i files qui';
+$string['movefilestohere'] = 'Muovi i files qui';
 $string['movefull'] = 'Muovi $a in questo posto';
 $string['movehere'] = 'Muovi qui';
 $string['moveleft'] = 'Muovi a sinistra';
 $string['moveright'] = 'Muovi a destra';
 $string['moveselectedcoursesto'] = 'Muovi i corsi selezionati in...';
-$string['movetoanotherfolder'] = 'Trasferisci in un\'altra cartella';
+$string['movetoanotherfolder'] = 'Muovi in un\'altra cartella';
 $string['moveup'] = 'Muovi in alto';
 $string['msnid'] = 'MSN ID';
 $string['mustchangepassword'] = 'La nuova password deve essere diversa da quella che hai scelto';
@@ -1270,7 +1273,7 @@ $string['supplyinfo'] = 'Compilare con le tue informazioni';
 $string['switchrolereturn'] = 'Ritorna al mio ruolo normale';
 $string['switchroleto'] = 'Cambia ruolo in ...';
 $string['tag'] = 'Tag';
-$string['tagmanagement'] = 'Aggiungi/cancella tag...';
+$string['tagmanagement'] = 'Gestione tag';
 $string['tags'] = 'Tag';
 $string['targetrole'] = 'Ruolo finale';
 $string['teacheronly'] = 'solo per $a';
