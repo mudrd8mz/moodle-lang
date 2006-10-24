@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.7 dev (2006092601)
+      // exercise.php - created with Moodle 1.8 dev (2006102200)
 
 
 $string['absent'] = '欠席';
@@ -161,8 +161,8 @@ $string['title'] = 'タイトル';
 $string['typeofscale'] = '評価基準';
 $string['unassessed'] = '未評価 $a 件';
 $string['ungradedstudentassessments'] = '未評定の学生評価　$a';
-$string['usemaximum'] = '最高評点を使用';
-$string['usemean'] = '評点平均を使用';
+$string['usemaximum'] = '最高評点を使用する';
+$string['usemean'] = '評点平均を使用する';
 $string['usepassword'] = 'パスワードを使用する';
 $string['verylax'] = '非常に甘い';
 $string['verypoor'] = '非常に悪い';
