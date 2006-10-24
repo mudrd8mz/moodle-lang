@@ -1382,6 +1382,7 @@ $string['virusfoundsubject'] = '$a: Virus gevonden!';
 $string['virusfounduser'] = 'Het bestand $a->filename dat je geüpload hebt is door een virusscanner gecontroleerd en is geïnfecteerd! Je bestandsupload is mislukt.';
 $string['virusplaceholder'] = 'Dit geüploade bestand bevat een virus en is verplaatst of verwijderd. De gebruiker is verwittigd.';
 $string['visible'] = 'Zichtbaar';
+$string['visibletostudents'] = 'Zichtbaar voor $a';
 $string['warningdeleteresource'] = 'Waarschuwing: Er is naar $a verwezen vanuit een bron. Wil je de bron aanpassen?';
 $string['webpage'] = 'Website';
 $string['week'] = 'Week';

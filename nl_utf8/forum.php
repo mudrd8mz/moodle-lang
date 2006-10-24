@@ -126,6 +126,7 @@ $string['movedmarker'] = '(Verplaatst)';
 $string['movethisdiscussionto'] = 'Verplaats deze discussie naar ...';
 $string['namenews'] = 'Nieuwsforum';
 $string['namesocial'] = 'Sociaal forum';
+$string['nameteacher'] = 'Forum voor leraren';
 $string['newforumposts'] = 'Nieuwe forumberichten';
 $string['nodiscussions'] = 'Er zijn nog geen discussies in dit forum';
 $string['noguestpost'] = 'Sorry, gasten mogen geen berichten posten';
