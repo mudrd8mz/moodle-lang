@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8 dev (2006101001)
+      // auth.php - created with Moodle 1.8 dev (2006102400)
 
 
 $string['alternatelogin'] = 'ここにURLを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong> フィールドおよび <strong>password</strong> フィールドをMoodleに渡してください。<br />間違ったURLを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合、空白のままにしてください。';
@@ -16,7 +16,7 @@ $string['auth_cas_server_settings'] = 'CASサーバ設定';
 $string['auth_cas_text'] = 'セキュアコネクション';
 $string['auth_cas_version'] = 'CASのバージョン';
 $string['auth_casdescription'] = 'この方法は、単一ログイン環境 (Single Sign On environment: SSO) にて、CASサーバ (Central Authentication Service) をユーザ認証に使用します。シンプルLDAP認証を使用することもできます。ユーザ名とパスワードがCASで認証された場合、Moodleは新しいユーザエントリをデータベースに作成します。また、必要であれば、LDAPよりユーザ属性を取得します。次回からはユーザ名とパスワードのみ確認されます。';
-$string['auth_castitle'] = 'CASサーバ ( SSO ) を使用';
+$string['auth_castitle'] = 'CASサーバ ( SSO ) を使用する';
 $string['auth_changepasswordhelp'] = 'パスワードヘルプの変更';
 $string['auth_changepasswordhelp_expl'] = 'ユーザが $a パスワードを忘れた場合、パスワード喪失ヘルプを表示します。これは、<strong>パスワード変更URL</strong>またはMoodle内部のパスワード変更画面と同時に、または代わりに表示されます。';
 $string['auth_changepasswordurl'] = 'パスワードURLの変更';
@@ -32,7 +32,7 @@ $string['auth_dbname'] = 'データベース名';
 $string['auth_dbpass'] = '上記ユーザ名に合致するパスワード';
 $string['auth_dbpasstype'] = 'パスワードフィールドで使用するフォーマットを特定してください。MD5暗号化はPostNukeのような他の一般的なウェブアプリケーションへの接続に便利です。';
 $string['auth_dbtable'] = 'データベースのテーブル名';
-$string['auth_dbtitle'] = '外部データベースを使用';
+$string['auth_dbtitle'] = '外部データベースを使用する';
 $string['auth_dbtype'] = 'データベースタイプ ( 詳細は<a href=../lib/adodb/readme.htm#drivers>ADOdb documentation</a>をご覧ください )';
 $string['auth_dbuser'] = 'データベースアクセス用のユーザ名';
 $string['auth_emaildescription'] = 'メールによるアカウント確定はデフォルトの認証方法です。ユーザが新しいユーザ名とパスワードを選択してサインアップした場合、アカウント確定用メールがユーザのメールアドレスに送信されます。このメールにはユーザがアカウントを確定するためのリンクが記入されています。アカウント確定後のログインではMoodleデータベースに保存されているユーザ名とパスワードのみを確認します。';
@@ -41,8 +41,8 @@ $string['auth_fccreators'] = 'メンバーがコースの作成を許可され�
 $string['auth_fcdescription'] = 'ここでは、ユーザ名とパスワードが正しいかチェックするためにFisrtClassサーバを使用します。';
 $string['auth_fcfppport'] = 'サーバポート ( 3333が最も一般的 )';
 $string['auth_fchost'] = 'FirstClassサーバアドレス。IPアドレスまたはDNS名を使用してください。';
-$string['auth_fcpasswd'] = '上記アカウントのパスワード。';
-$string['auth_fctitle'] = 'FirstClassサーバを使用';
+$string['auth_fcpasswd'] = '上記アカウントのパスワード';
+$string['auth_fctitle'] = 'FirstClassサーバを使用する';
 $string['auth_fcuserid'] = '権限「Subadministrator」を持ったFirstClassアカウントのユーザID。';
 $string['auth_fieldlock'] = '値をロックする';
 $string['auth_fieldlock_expl'] = '<p><b>値をロックする:</b> このオプションを有効にした場合、Moodleユーザおよび管理者はフィールドを直接編集するのを防止します。外部認証システムでデータをメンテナンスしている場合にこのオプションを使用してください。</p>';
@@ -51,7 +51,7 @@ $string['auth_fieldlocks_help'] = '<p>ここでは、ユーザフィールドを
 $string['auth_imapdescription'] = 'ユーザ名とパスワードを確認するためにIMAPサーバを使用します。';
 $string['auth_imaphost'] = 'IMAPサーバアドレスです。IPアドレスではなくドメイン名を使用してください。';
 $string['auth_imapport'] = 'IMAPサーバポート番号です。通常は143または993です。';
-$string['auth_imaptitle'] = 'IMAPサーバを使用';
+$string['auth_imaptitle'] = 'IMAPサーバを使用する';
 $string['auth_imaptype'] = 'IMAPサーバタイプです。IMAPサーバは異なる認証およびネゴシエーションを利用することが可能です。';
 $string['auth_ldap_bind_dn'] = 'ユーザ検索にbindユーザを利用したい場合は、ここに明示してください。例 \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_pw'] = 'bindユーザ用のパスワード';
@@ -80,14 +80,14 @@ $string['auth_ldap_user_type'] = 'ユーザがどのようにLDAPに保存され
 $string['auth_ldap_version'] = 'サーバで使用しているLDAPプロトコルのバージョン';
 $string['auth_ldapdescription'] = '外部のLDAPサーバに対して認証を行います。ユーザ名とパスワードが正しい場合、Moodleは新しいユーザをデータベースに作成します。このモジュールはユーザ属性をLDAPから取得してMoodleのフィールドに入力します。認証後のログインでは、ユーザ名とパスワードのみ確認されます。';
 $string['auth_ldapextrafields'] = 'これらのフィールドは任意項目です。<b>LDAPフィールド</b>より事前に入力されたMoodleユーザフィールドを選択することも可能です。<p>空白の場合、LDAPよりデータの転送は行われず、Moodleの初期値が使用されます</p><p>どちらの場合でも、ユーザはログイン後にすべてのフィールドを編集可能です。</p>';
-$string['auth_ldaptitle'] = 'LDAPサーバを使用';
+$string['auth_ldaptitle'] = 'LDAPサーバを使用する';
 $string['auth_manualdescription'] = 'この方法では、ユーザによるユーザアカウント作成機能を停止します。すべてのアカウント作成は、管理者により手動で行う必要があります。';
 $string['auth_manualtitle'] = '手動アカウント作成のみ';
 $string['auth_multiplehosts'] = '複数のホストまたはアドレスを設定できます ( 例 host1.com;host2.com;host3.com ) または ( 例 xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx )';
 $string['auth_nntpdescription'] = 'ユーザ名とパスワードを確認するためにNNTPサーバを使用します。';
 $string['auth_nntphost'] = 'NNTPサーバアドレスです。IPアドレスではなくドメイン名を使用してください。';
 $string['auth_nntpport'] = 'サーバポート ( 119が最も一般的です )';
-$string['auth_nntptitle'] = 'NNTPサーバを使用';
+$string['auth_nntptitle'] = 'NNTPサーバを使用する';
 $string['auth_nonedescription'] = 'ユーザはログインして外部サーバおよびメールによる認証なしにアカウントを直ちに作成できます。このオプションを使用するときは十分に注意してください - セキュリティーおよび管理上の問題が発生するかもしれないことを考えてください。';
 $string['auth_nonetitle'] = '認証なし';
 $string['auth_pamdescription'] = 'この方式では、サーバのネイティブユーザ名にアクセスする手段としてPAMを使用します。このモジュールを使用するためには、<a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Authentication</a>がインストールされている必要があります。';
@@ -98,13 +98,13 @@ $string['auth_pop3description'] = 'ユーザ名とパスワードを確認する
 $string['auth_pop3host'] = 'POP3サーバアドレスです。IPアドレスではなくドメイン名を使用してください。';
 $string['auth_pop3mailbox'] = '接続を試みるメールボックス名 ( 通常は受信ボックス )';
 $string['auth_pop3port'] = 'サーバポート ( 110は最も一般的、995は一般的なSSL用です。 )';
-$string['auth_pop3title'] = 'POP3サーバを使用';
+$string['auth_pop3title'] = 'POP3サーバを使用する';
 $string['auth_pop3type'] = 'サーバタイプです。もし認証が必要な場合はpop3certを選択してください。';
 $string['auth_radiusdescription'] = 'このメソッドでは、与えられたユーザ名およびパスワードが有効かチェックするため <a href=\"http://en.wikipedia.org/wiki/RADIUS\" target=\"_blank\">RADIUS</a> サーバを使用します。';
 $string['auth_radiushost'] = 'RADIUSサーバのアドレス';
 $string['auth_radiusnasport'] = '接続に使用するポート';
 $string['auth_radiussecret'] = '共有鍵';
-$string['auth_radiustitle'] = 'RADIUSサーバを使用';
+$string['auth_radiustitle'] = 'RADIUSサーバを使用する';
 $string['auth_shib_convert_data'] = 'データ修正API';
 $string['auth_shib_convert_data_description'] = 'Shibbolethから提供されるデータを修正したい場合にこのAPIを使うことができます。詳細は、<a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> をご覧ください。';
 $string['auth_shib_convert_data_warning'] = 'ファイルが存在しないか、ウェブプロセスで読み取れません!';
@@ -141,12 +141,12 @@ $string['internal'] = '内部';
 $string['locked'] = 'ロックする';
 $string['md5'] = 'MD5暗号化';
 $string['passwordhandling'] = 'パスワードフィールドの取り扱い';
-$string['plaintext'] = 'テキスト';
+$string['plaintext'] = 'プレインテキスト';
 $string['shib_no_attributes_error'] = 'あなたはShibbolethによる認証を行ったようですが、Moodleはユーザ属性を受信していません。Moodleが稼動しているプロバイダへ必要な属性 ( $a ) を発行するアイデンティティ・プロバイダを確認するか、このサーバの管理者に連絡してください。';
 $string['shib_not_all_attributes_error'] = 'あなたの場合、存在していないShibboleth属性をMoodleは必要とします。属性は次のとおりです: $a<br/>このサーバの管理者またはアイデンティティ・プロバイダにご連絡ください。';
 $string['shib_not_set_up_error'] = 'Shibboleth環境変数がこのページに存在していないため、Shibboleth認証が正しく設定されていないようです。Shibboleth認証の設定に関する更なる情報は、<a href=\"README.txt\">README</a>を参照、またはこのMoodleをインストールした管理者に連絡してください。';
 $string['showguestlogin'] = 'ログインページのゲストログインボタンを表示／非表示にできます。';
-$string['stdchangepassword'] = '標準パスワード変更ページを使用';
+$string['stdchangepassword'] = '標準パスワード変更ページを使用する';
 $string['stdchangepassword_expl'] = '外部認証システムがMoodleにパスワードの変更を許可する場合、この設定を「Yes」にしてください。この設定は、「Change Password URL」をオーバーライドします。';
 $string['stdchangepassword_explldap'] = '注意: LDAPサーバがリモートの場合、SSL暗号化トンネル ( ldaps:// ) の使用をお勧めします。';
 $string['unlocked'] = 'ロックしない';
