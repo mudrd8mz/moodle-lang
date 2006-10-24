@@ -35,7 +35,7 @@ $string['auth_dbfielduser'] = '사용자 아이디를 포함하는 필드명';
 $string['auth_dbhost'] = '데이타베이스 서버를 구동하는 컴퓨터';
 $string['auth_dbname'] = '데이터베이스 자체의 이름';
 $string['auth_dbpass'] = '사용자 아이디와 연결되는 비밀번호';
-$string['auth_dbpasstype'] = '<p>비밀번호 필드의 포멧을 구체적으로 적어라. PostNuke와 같은 웹 프로그램으로 연결하기 위해서는 MD5 암호화를 사용하는 것이 유용하다.</p> <p>만일 사용자 아이디나 이메일주소는 외부 데이터베이스를 사용하지만, 암호는 무들이 관리할 때에는 \'internal\'을 사용하라. 이때 <i>반드시</i> 외부 디비의 이메일주소 필드를 확보해야 하고, auth/db/cron.php 를 주기적으로 실행시켜야만 한다. 무들은 임시 비밀번호로 새 사용자에게 이메일을 발송할 것이다.</p>';
+$string['auth_dbpasstype'] = '<p>비밀번호 필드의 포멧을 구체적으로 적어라. PostNuke와 같은 웹 프로그램으로 연결하기 위해서는 MD5 암호화를 사용하는 것이 유용하다.</p> <p>만일 사용자 아이디나 이메일주소는 외부 데이터베이스를 사용하지만, 암호는 무들이 관리할 때에는 \'internal\'을 사용하라. 이때 <i>반드시</i> 외부 디비의 이메일주소 필드를 확보해야 하고, auth/db/auth_db_sync_users.php 를 주기적으로 실행시켜야만 한다. 무들은 임시 비밀번호로 새 사용자에게 이메일을 발송할 것이다.</p>';
 $string['auth_dbtable'] = '데이타베이스의 테이블명';
 $string['auth_dbtitle'] = '외부 데이타베이스 사용';
 $string['auth_dbtype'] = '데이타베이스 유형(자세히 알고 싶으면 <a href=\"../lib/adodb/readme.htm#drivers\">ADOdb 문서</a>)를 참조하라)';

@@ -29,7 +29,7 @@ $string['auth_dbfielduser'] = 'Ime polja, ki vsebuje uporabniška imena';
 $string['auth_dbhost'] = 'Računalnik na katerem teče strežnik podatkovne zbirke.';
 $string['auth_dbname'] = 'Samo ime podatkovne zbirke';
 $string['auth_dbpass'] = 'Geslo, ki ustreza gornjemu uporabniškemu imenu';
-$string['auth_dbpasstype'] = '<p>Opredelite zapis, ki ga uporablja polje z geslom. Kodiranje MD5 je uporabno za povezovanje z drugimi pogostimi spletnimi aplikacijami, kot je PostNuke.</p> <p>Uporabite \'interno\', če želite, da zunanja podatkovna zbirka upravlja uporabniška imena in elektronske naslove, Moodle pa naj upravlja gesla. Če uporabite \'interno\', potem <i>morate</i> zagotoviti izpolnjeno polje z elektronskim naslovom v zunanji podatkovni zbirki in morate redno izvajati auth/db/cron.php. Moodle bo poslal elektronsko sporočilo novim uporabnikom z začasnim geslom.</p>';
+$string['auth_dbpasstype'] = '<p>Opredelite zapis, ki ga uporablja polje z geslom. Kodiranje MD5 je uporabno za povezovanje z drugimi pogostimi spletnimi aplikacijami, kot je PostNuke.</p> <p>Uporabite \'interno\', če želite, da zunanja podatkovna zbirka upravlja uporabniška imena in elektronske naslove, Moodle pa naj upravlja gesla. Če uporabite \'interno\', potem <i>morate</i> zagotoviti izpolnjeno polje z elektronskim naslovom v zunanji podatkovni zbirki in morate redno izvajati auth/db/auth_db_sync_users.php. Moodle bo poslal elektronsko sporočilo novim uporabnikom z začasnim geslom.</p>';
 $string['auth_dbtable'] = 'Ime tabele v podatkovni zbirki';
 $string['auth_dbtitle'] = 'Uporabi zunanjo podatkovno zbirko';
 $string['auth_dbtype'] = 'Vrsta podatkovne zbirke (Poglej si  <a href=\"../lib/adodb/readme.htm#drivers\">dokumentacijo ADOdb</A> za podrobnosti)';
