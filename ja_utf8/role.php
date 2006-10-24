@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006092801)
+      // role.php - created with Moodle 1.8 dev (2006102400)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -116,7 +116,7 @@ $string['user:viewdetails'] = 'ユーザプロフィールを表示する';
 $string['user:viewhiddendetails'] = '非表示のユーザ詳細を表示する';
 $string['user:viewuseractivitiesreport'] = 'ユーザの活動レポートを表示する';
 $string['user:viewusergrades'] = 'ユーザの評定を表示する';
-$string['viewrole'] = 'ロール詳細を表示する';
+$string['viewrole'] = 'ロール詳細の表示';
 $string['xuserswiththerole'] = 'ロール「 $a->role 」のユーザ数: $a->number';
 
 ?>
