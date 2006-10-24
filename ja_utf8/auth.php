@@ -30,7 +30,7 @@ $string['auth_dbfielduser'] = 'ユーザ名を含んだフィールド名';
 $string['auth_dbhost'] = 'データベースサーバが稼動しているコンピュータ';
 $string['auth_dbname'] = 'データベース名';
 $string['auth_dbpass'] = '上記ユーザ名に合致するパスワード';
-$string['auth_dbpasstype'] = 'パスワードフィールドで使用するフォーマットを特定してください。MD5暗号化はPostNukeのような他の一般的なウェブアプリケーションへの接続に便利です。';
+$string['auth_dbpasstype'] = '<p>パスワードフィールドで使用するフォーマットを指定してください。MD5暗号化はPostNukeのような他の一般的なウェブアプリケーションへの接続に有用です。</p><p>外部データベースでユーザ名およびメールアドレスを管理したい場合、「内部」を使用してください。パスワードに関しては、Moodleが管理します。「内部」を使用する場合、外部データベースでメールアドレスフィールドを提供して、定期的に auth/db/auth_db_sync_users.php を実行してください。Moodleが、新しいユーザに仮パスワードをメール送信します。</p>';
 $string['auth_dbtable'] = 'データベースのテーブル名';
 $string['auth_dbtitle'] = '外部データベースを使用する';
 $string['auth_dbtype'] = 'データベースタイプ ( 詳細は<a href=../lib/adodb/readme.htm#drivers>ADOdb documentation</a>をご覧ください )';
