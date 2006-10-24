@@ -30,7 +30,7 @@ $string['auth_dbfielduser'] = 'Název pole, které obsahuje uživatelské jména
 $string['auth_dbhost'] = 'Počítač hostující databázi';
 $string['auth_dbname'] = 'Název databáze';
 $string['auth_dbpass'] = 'Heslo k tomuto uživatelskému jménu';
-$string['auth_dbpasstype'] = 'Určete formát pole s heslem. Šifrování MD5 je vhodné při připojování k dalším webovým aplikacím, jako je například PostNuke.</p><p>Možnost \'Interní\' vyberte v případě, že chcete externí databázi svěřit správu uživatelských jmen a e-mailových adres, a Moodlu správu hesel. Použijete-li možnost \'Interní\', pole s e-mailovými adresami <i>musí</i> být v externí databázi vyplněno a je nutné pravidelně spouštět skript auth/db/auth_db_sync_users.php. Moodle zašle novým uživatelům e-mail obsahující dočasné heslo.</p>';
+$string['auth_dbpasstype'] = 'Určete formát pole s heslem. Šifrování MD5 je vhodné při připojování k dalším webovým aplikacím, jako je například PostNuke.</p><p>Možnost \'Interní\' vyberte v případě, že chcete externí databázi svěřit správu uživatelských jmen a e-mailových adres, a Moodlu správu hesel. Použijete-li možnost \'Interní\', pole s e-mailovými adresami <i>musí</i> být v externí databázi vyplněno a je nutné pravidelně spouštět skript admin/cron.php. Moodle zašle novým uživatelům e-mail obsahující dočasné heslo.</p>';
 $string['auth_dbtable'] = 'Název tabulky v databázi';
 $string['auth_dbtitle'] = 'Používat externí databázi';
 $string['auth_dbtype'] = 'Typ databáze (Viz <a href=\"../lib/adodb/readme.htm#drivers\">dokumentaci k ADOdb</a>)';

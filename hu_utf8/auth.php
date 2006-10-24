@@ -30,7 +30,7 @@ $string['auth_dbfielduser'] = 'A felhasználónevet tartalmazó mező neve';
 $string['auth_dbhost'] = 'Az adatbázisszervert futtató számítógép';
 $string['auth_dbname'] = 'Az adatbázis neve';
 $string['auth_dbpass'] = 'A fenti felhasználónévnek megfelelő jelszó';
-$string['auth_dbpasstype'] = '<p>Adja meg a jelszómező formátumát. Az MD5 titkosítás hasznos olyan elterjedt webalkalmazások esetén, mint a PostNuke.</p><p>Használja az \'belső\'-t (internal), ha a külső adatbázissal kívánja kezelni a felhasználói neveket és az e-mail címeket, de a Moodle-lal kezeli a jelszavakat. Ez esetben a külső adatbázisban meg <i>kell</i> adnia egy kitöltött e-mail címmezőt és rendszeresen le kell futtatnia az auth/db/auth_db_sync_users.php kódot. A Moodle e-mailt küld az ideiglenes jelszóval rendelkező új felhasználók részére.</p>';
+$string['auth_dbpasstype'] = '<p>Adja meg a jelszómező formátumát. Az MD5 titkosítás hasznos olyan elterjedt webalkalmazások esetén, mint a PostNuke.</p><p>Használja az \'belső\'-t (internal), ha a külső adatbázissal kívánja kezelni a felhasználói neveket és az e-mail címeket, de a Moodle-lal kezeli a jelszavakat. Ez esetben a külső adatbázisban meg <i>kell</i> adnia egy kitöltött e-mail címmezőt és rendszeresen le kell futtatnia az admin/cron.php kódot. A Moodle e-mailt küld az ideiglenes jelszóval rendelkező új felhasználók részére.</p>';
 $string['auth_dbtable'] = 'A tábla neve az adatbázisban';
 $string['auth_dbtitle'] = 'Külső adatbázis használata';
 $string['auth_dbtype'] = 'Az adatbázis típusával kapcsolatos részletek (lásd a <a href=\"../lib/adodb/readme.htm#drivers\">ADOdb dokumentációt</a>.)';
