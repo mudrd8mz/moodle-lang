@@ -91,6 +91,7 @@ $string['preview'] = 'Visualització prèvia';
 $string['previous'] = 'Anterior';
 $string['redeploy'] = 'Torna a desplegar';
 $string['repository'] = 'Repositori IMS';
+$string['resource:view'] = 'Veure recurs';
 $string['resourcetype'] = 'Tipus de recurs';
 $string['resourcetype1'] = 'Referència';
 $string['resourcetype2'] = 'Pàgina web';

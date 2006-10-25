@@ -6,9 +6,9 @@ $string['allowdeleting'] = 'Permet suprimir';
 $string['allowmaxfiles'] = 'Nombre màxim de fitxers';
 $string['allownotes'] = 'Permet notes';
 $string['allowresubmit'] = 'Permet tornar a trametre';
-$string['assignment:grade'] = 'Qualifica la tasca';
-$string['assignment:submit'] = 'Tramet la tasca';
-$string['assignment:view'] = 'Visualitza la tasca';
+$string['assignment:grade'] = 'Qualificar tasca';
+$string['assignment:submit'] = 'Trametre tasca';
+$string['assignment:view'] = 'Veure tasca';
 $string['assignmentdetails'] = 'Detalls de la tasca';
 $string['assignmentmail'] = '$a->teacher ha posat certa retroacció sobre la vostra tramesa corresponent a la tasca \'$a->assignment\'
 

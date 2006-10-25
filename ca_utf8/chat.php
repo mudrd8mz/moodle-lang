@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // chat.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['beep'] = 'bip';
+$string['chat:chat'] = 'Parlar en un xat';
+$string['chat:deletelog'] = 'Suprimir registres de xat';
+$string['chat:readlog'] = 'Llegir registres de xat';
 $string['chatintro'] = 'Text de presentació';
 $string['chatname'] = 'Nom d\'aquesta sala de xat';
 $string['chatreport'] = 'Sessions de xat';

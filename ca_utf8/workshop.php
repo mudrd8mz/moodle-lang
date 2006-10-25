@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // workshop.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['absent'] = 'Absent';
@@ -137,9 +137,9 @@ $string['mail3'] = 'Ho podeu veure en la vostra tasca del taller';
 $string['mail4'] = 'S\'ha afegit un comentari a la tasca \'$a\':';
 $string['mail5'] = 'El nou comentari es pot veure en la tasca del taller \'$a\'';
 $string['mail6'] = 'La vostra avaluació de la tasca \'$a\' ha estat revisada';
-$string['mail7'] = 'Els comentaris del $a es poden veure en la tasca del taller ';
+$string['mail7'] = 'Els comentaris del $a es poden veure en la tasca del taller';
 $string['mail8'] = 'La tasca $a és una part revisada del treball.';
-$string['mail9'] = 'Si us plau, avalueu-lo a la tasca del taller $a ';
+$string['mail9'] = 'Si us plau, avalueu-lo a la tasca del taller $a';
 $string['managingassignment'] = 'S\'està gestionant la tasca';
 $string['maximum'] = 'Màxim';
 $string['maximumsize'] = 'Mida màxima';
@@ -148,7 +148,7 @@ $string['minimum'] = 'Mínim';
 $string['modulename'] = 'Taller';
 $string['modulenameplural'] = 'Tallers';
 $string['movingtophase'] = 'S\'està passant a la fase $a';
-$string['namesnotshowntostudents'] = 'Noms no mostrats a $a ';
+$string['namesnotshowntostudents'] = 'Noms no mostrats a $a';
 $string['newassessments'] = 'Noves avaluacions';
 $string['newattachment'] = 'Nou fitxer adjunt';
 $string['newgradings'] = 'Noves qualificacions';
@@ -170,7 +170,7 @@ $string['notsubmittedyet'] = 'Encara no s\'ha fet cap tramesa';
 $string['nowork'] = 'El període de trameses ha acabat.<br />No heu tramès el vostre treball.';
 $string['numberofassessmentelements'] = 'Nombre de comentaris, elements d\'avaluació, escales de qualificació, declaracions de criteris o categories d\'una rúbrica';
 $string['numberofassessments'] = 'Nombre d\'avaluacions';
-$string['numberofassessmentschanged'] = 'Nombre d\'avaluacions canviades: $a ';
+$string['numberofassessmentschanged'] = 'Nombre d\'avaluacions canviades: $a';
 $string['numberofassessmentsdropped'] = 'Nombre d\'avaluacions omeses: $a';
 $string['numberofassessmentsofstudentsubmissions'] = 'Nombre d\'avaluacions de les trameses dels estudiants';
 $string['numberofassessmentsofteachersexamples'] = 'Nombre d\'avaluacions dels exemples del professor';
@@ -178,7 +178,7 @@ $string['numberofassessmentsweighted'] = 'Nombre d\'avaluacions (ponderades): $a
 $string['numberofattachments'] = 'Nombre de fitxers adjunts que s\'esperen en les trameses';
 $string['numberofentries'] = 'Nombre d\'entrades';
 $string['numberofnegativeresponses'] = 'Nombre de respostes negatives';
-$string['numberofsubmissions'] = 'Nombre de trameses: $a ';
+$string['numberofsubmissions'] = 'Nombre de trameses: $a';
 $string['ograde'] = 'Qualificació<br />total';
 $string['on'] = 'en $a';
 $string['openassignment'] = 'Tasca oberta';
@@ -207,7 +207,7 @@ $string['phase4short'] = 'Avaluacions';
 $string['phase5'] = 'Càlcul de les qualificacions finals';
 $string['phase5short'] = 'Càlcul';
 $string['pleaseassesstheseexamplesfromtheteacher'] = 'Si us plau, avalueu aquests exemples del $a';
-$string['pleaseassessthesestudentsubmissions'] = 'Si us plau, avalueu aquestes trameses dels $a ';
+$string['pleaseassessthesestudentsubmissions'] = 'Si us plau, avalueu aquestes trameses dels $a';
 $string['pleaseassessyoursubmissions'] = 'Si us plau, avalueu les vostres trameses';
 $string['poor'] = 'Pobre';
 $string['present'] = 'Present';
@@ -306,6 +306,8 @@ $string['weightforteacherassessments'] = 'Pes per a les avaluacions del professo
 $string['weights'] = 'Pesos';
 $string['weightsusedforfinalgrade'] = 'Pesos emprats per a la qualificació final';
 $string['weightsusedforsubmissions'] = 'Pesos emprats per a les trameses';
+$string['workshop:manage'] = 'Gestionar paràmetres';
+$string['workshop:participate'] = 'Participar en tallers';
 $string['workshopagreedassessments'] = 'Avaluacions acceptades del taller';
 $string['workshopassessments'] = 'Avaluacions del taller';
 $string['workshopcomments'] = 'Comentaris del taller';
@@ -313,7 +315,7 @@ $string['workshopfeedback'] = 'Retroacció del taller';
 $string['workshopsubmissions'] = 'Trameses del taller';
 $string['wrongpassword'] = 'La contrasenya és incorrecta';
 $string['yourassessments'] = 'Les avaluacions obtingudes dels iguals';
-$string['yourassessmentsofexamplesfromtheteacher'] = 'Les vostres avaluacions dels exemples de $a ';
+$string['yourassessmentsofexamplesfromtheteacher'] = 'Les vostres avaluacions dels exemples de $a';
 $string['yourfeedbackgoeshere'] = 'La vostra retroacció va aquí';
 $string['yoursubmissions'] = 'Les vostres trameses';
 

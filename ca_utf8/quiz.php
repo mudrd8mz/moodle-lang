@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6.1+ (2006050511)
+      // quiz.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['1day'] = 'Un dia';
@@ -350,12 +350,21 @@ $string['questiondeleted'] = 'Aquesta pregunta ha estat suprimida. Consulteu el 
 $string['questioninuse'] = 'La pregunta \'$a->questionname\' s\'està utilitzant actualment en:<br />$a->quiznames<br />Només se suprimirà la pregunta en la llista de categories, no en els qüestionaris que la utilitzen.';
 $string['questionname'] = 'Títol de la pregunta';
 $string['questionnametoolong'] = 'El títol de la pregunta és massa llarg a partir de la línia $a (màxim 255 caràcters). S\'ha truncat.';
+$string['questionno'] = 'Pregunta $a';
 $string['questions'] = 'Preguntes';
 $string['questionsinclhidden'] = 'Preguntes (incloses les ocultes)';
 $string['questionsinuse'] = '(* Les preguntes marcades amb un asterisc s\'estan utilitzant en alguns qüestionaris. Aquestes preguntes només se suprimiran en la llista de categories, no en els qüestionaris que les utilitzen.)';
 $string['questionsperpage'] = 'Preguntes per pàgina';
+$string['questiontext'] = 'Text de la pregunta';
 $string['questiontype'] = 'Tipus de pregunta $a';
 $string['questiontypesetupoptions'] = 'Opcions de configuració dels tipus de pregunta:';
+$string['quiz:attempt'] = 'Contestar qüestionaris';
+$string['quiz:deleteattempts'] = 'Suprimir intents';
+$string['quiz:grade'] = 'Qualificar qüestionaris manualment';
+$string['quiz:manage'] = 'Gestionar qüestionaris';
+$string['quiz:preview'] = 'Visualització prèvia de qüestionaris';
+$string['quiz:view'] = 'Veure informació del qüestionari';
+$string['quiz:viewreports'] = 'Veure informes del qüestionari';
 $string['quizavailable'] = 'El qüestionari està disponible fins: $a';
 $string['quizclose'] = 'Tanca el qüestionari';
 $string['quizclosed'] = 'Aquest qüestionari es va tancar el $a';
@@ -363,6 +372,7 @@ $string['quizcloses'] = 'El qüestionari es tanca';
 $string['quiznotavailable'] = 'Aquest qüestionari estarà disponible a partir de: $a';
 $string['quizopen'] = 'Obre el qüestionari';
 $string['quizopens'] = 'S\'obre el qüestionari';
+$string['quizsettings'] = 'Paràmetres del qüestionari';
 $string['quiztimelimit'] = 'Temps màxim: $a';
 $string['quiztimer'] = 'Comptador';
 $string['random'] = 'Pregunta aleatòria';

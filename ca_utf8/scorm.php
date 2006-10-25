@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6 development (2006031000)
+      // scorm.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['advanced'] = 'Avançat';
@@ -73,13 +73,13 @@ $string['nomanifest'] = 'No s\'ha trobat el manifest';
 $string['noprerequisites'] = 'No compliu prou prerequisits per accedir a aquest objecte d\'aprenentatge';
 $string['noreports'] = 'Cap informe per visualitzar';
 $string['normal'] = 'Normal';
-$string['noscriptnoscorm'] = 'El vostre navegador no pot executar javascript o el teniu inhabilitat. No es podrà seguir el vostre rastre. ';
+$string['noscriptnoscorm'] = 'El vostre navegador no pot executar javascript o el teniu inhabilitat. No es podrà seguir el vostre rastre.';
 $string['not_corr_type'] = 'El tipus de l\'etiqueta $a->tag no coincideix';
 $string['notattempted'] = 'No intentat';
 $string['objectives'] = 'Objectius';
 $string['organization'] = 'Organització';
 $string['organizations'] = 'Organitzacions';
-$string['othertracks'] = 'Altres rastre';
+$string['othertracks'] = 'Altres rastres';
 $string['packagedir'] = 'S\'ha produït un error del sistema de fitxers: no es pot crear el directori del paquet';
 $string['packagefile'] = 'No s\'ha especificat el fitxer del paquet';
 $string['passed'] = 'S\'ha passat';
@@ -98,6 +98,10 @@ $string['review'] = 'Revisa';
 $string['reviewmode'] = 'Mode de revisió';
 $string['scoes'] = 'SCO';
 $string['score'] = 'Puntuació';
+$string['scorm:savetrack'] = 'Deixar rastres';
+$string['scorm:skipview'] = 'Ometre resum';
+$string['scorm:viewreport'] = 'Veure informes';
+$string['scorm:viewscores'] = 'Veure puntuacions';
 $string['scormcourse'] = 'Curs SCORM';
 $string['scrollbars'] = 'Permet el desplaçament de la finestra';
 $string['sided'] = 'A la banda esquerra';
@@ -112,7 +116,7 @@ $string['too_many_attributes'] = 'L\'etiqueta $a->tag té massa atributs';
 $string['too_many_children'] = 'L\'etiqueta $a->tag té massa fills';
 $string['toolbar'] = 'Mostra la barra d\'eines';
 $string['totaltime'] = 'Temps';
-$string['trackingloose'] = 'ATENCIÓ: les dades de seguiment d\'aquest paquet SCORM es perdran.';
+$string['trackingloose'] = 'ATENCIÓ: les dades de seguiment d\'aquest paquet es perdran.';
 $string['type'] = 'Tipus';
 $string['validateascorm'] = 'Valida un paquet';
 $string['validation'] = 'Resultat de la validació';

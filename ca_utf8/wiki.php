@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6.1+ (2006050511)
+      // wiki.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['action'] = '-- Acció --';
@@ -94,6 +94,7 @@ $string['linkok'] = 'OK';
 $string['linkschecked'] = 'S\'han comprovat els enllaços';
 $string['listall'] = 'Llista tot';
 $string['listcandidates'] = 'Llista candidats';
+$string['lockcancelled'] = 'Algú no ha fet cas del vostre blocatge d\'edició i ara està editant aquesta pàgina. Si voleu conservar els vostres canvis, seleccioneu i copieu el text abans de fer clic en Cancel·la. Després, intenteu editar de nou la pàgina.';
 $string['meta'] = 'Metadades';
 $string['moduledirectory'] = 'Directori de mòduls';
 $string['modulename'] = 'Wiki';
@@ -105,6 +106,7 @@ $string['noadministrationaction'] = 'Falta l\'acció d\'administració.';
 $string['nocandidatestoremove'] = 'No hi ha pàgines candidates per suprimir. Trieu \'$a\' per mostrar totes les pàgines.';
 $string['nochangestorevert'] = 'No hi ha canvis per desfer.';
 $string['nohtml'] = 'Sense HTML';
+$string['nojslockwarning'] = 'Teniu el Javascript inhabilitat al vostre navegador i és possible que algú altre pugui editar aquesta pàgina. Si passa això, no podreu desar els vostres canvis. Procureu editar ràpidament o activeu el Javascript i refresqueu aquesta pàgina.';
 $string['nolinksfound'] = 'No s\'han trobat enllaços en aquesta pàgina.';
 $string['noregexp'] = 'Ha de ser una cadena fixa (no podeu usar * o expressions regulars). Millor que useu l\'adreça IP o el nom de l\'ordinador atacant, però no inclogueu el número del port (perquè s\'incrementa en cada accés http).';
 $string['notadministratewiki'] = 'No us és permès d\'administrar aquest wiki!';
@@ -116,6 +118,7 @@ $string['optional'] = 'opcional';
 $string['orphanedpage'] = 'Pàgina òrfena';
 $string['orphanedpages'] = 'Pàgines òrfenes';
 $string['otherwikis'] = 'Altres wikis';
+$string['overridebutton'] = 'Deixa de banda el blocatge';
 $string['ownerunknown'] = 'desconegut/da';
 $string['pageactions'] = 'Accions de pàgina';
 $string['pageindex'] = 'Índex de pàgines';
@@ -177,6 +180,9 @@ $string['versionstodelete'] = 'Versions per suprimir';
 $string['viewpage'] = 'Visualitza la pàgina';
 $string['viewsmfor'] = 'Visualitza mapa del lloc';
 $string['wantedpages'] = 'Pàgines desitjades';
+$string['wiki:manage'] = 'Gestionar paràmetres del wiki';
+$string['wiki:overridelock'] = 'No fer cas del blocatge de pàgines';
+$string['wiki:participate'] = 'Editar pàgines wiki';
 $string['wikidefaultpagename'] = 'WikiIndex';
 $string['wikiexport'] = 'Exporta pàgines';
 $string['wikiexportcomment'] = 'Aquí podeu configurar l\'exportació com desitgeu.';

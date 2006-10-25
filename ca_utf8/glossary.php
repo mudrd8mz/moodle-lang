@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // glossary.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['addcomment'] = 'Afegeix un comentari';
@@ -105,6 +105,17 @@ $string['fillfields'] = 'El concepte i la definició són camps obligatoris.';
 $string['filtername'] = 'Enllaços automàtics a glossaris';
 $string['fullmatch'] = 'Enllaça només paraules completes';
 $string['globalglossary'] = 'Glossari global';
+$string['glossary:approve'] = 'Aprovar entrades pendents';
+$string['glossary:comment'] = 'Crear comentaris';
+$string['glossary:export'] = 'Exportar entrades';
+$string['glossary:import'] = 'Importar entrades';
+$string['glossary:managecategories'] = 'Gestionar categories';
+$string['glossary:managecomments'] = 'Gestionar comentaris';
+$string['glossary:manageentries'] = 'Gestionar entrades';
+$string['glossary:rate'] = 'Valorar entrades';
+$string['glossary:view'] = 'Veure glossari';
+$string['glossary:viewrating'] = 'Veure valoracions';
+$string['glossary:write'] = 'Crear entrades noves';
 $string['glossaryleveldefaultsettings'] = 'Paràmetres per defecte al nivell de glossari';
 $string['glossarytype'] = 'Tipus de glossari';
 $string['importcategories'] = 'Importa categories';

@@ -1,11 +1,15 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.5 ALPHA (2005042400)
+      // choice.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['addmorechoices'] = 'Afegeix més opcions';
 $string['allowupdate'] = 'Permet actualitzar la consulta';
 $string['answered'] = 'Contestades';
 $string['choice'] = 'Opció $a';
+$string['choice:choose'] = 'Respondre una consulta';
+$string['choice:deleteresponses'] = 'Suprimir respostes';
+$string['choice:downloadresponses'] = 'Baixar respostes';
+$string['choice:readresponses'] = 'Llegir respostes';
 $string['choiceclose'] = 'Fins';
 $string['choicename'] = 'Títol de la consulta';
 $string['choiceopen'] = 'Oberta';
@@ -20,12 +24,14 @@ $string['limitanswers'] = 'Limita el nombre de respostes permeses';
 $string['modulename'] = 'Consulta';
 $string['modulenameplural'] = 'Consultes';
 $string['mustchooseone'] = 'Heu de triar una resposta abans de desar. No s\'ha desat res.';
+$string['noguestchoose'] = 'Els usuaris visitants no poden respondre una consulta';
+$string['noresultsviewable'] = 'A hores d\'ara no es poden veure els resultats';
 $string['notanswered'] = 'No contestada encara';
 $string['notopenyet'] = 'Aquesta activitat no està disponible fins el $a';
 $string['privacy'] = 'Confidencialitat dels resultats';
 $string['publish'] = 'Publica els resultats';
 $string['publishafteranswer'] = 'Mostra els resultats als estudiants després que contestin';
-$string['publishafterclose'] = 'Mostre els resultats als estudiants quan es tanqui la consulta';
+$string['publishafterclose'] = 'Mostra els resultats als estudiants quan es tanqui la consulta';
 $string['publishalways'] = 'Mostra sempre els resultats als estudiants';
 $string['publishanonymous'] = 'Publica els resultats anònimament, sense mostrar els noms dels estudiants';
 $string['publishnames'] = 'Publica els resultats complets, amb els noms dels estudiants i les seves respostes';
