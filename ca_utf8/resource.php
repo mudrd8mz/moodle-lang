@@ -1,14 +1,17 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // resource.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['addresource'] = 'Afegeix un recurs';
+$string['affectedresources'] = 'Recursos afectats';
 $string['back'] = 'Enrere';
 $string['browserepository'] = 'Explora el repositori';
 $string['choose'] = 'Tria';
 $string['chooseafile'] = 'Tria o penja un fitxer';
 $string['chooseparameter'] = 'Trieu un paràmetre';
 $string['configallowlocalfiles'] = 'Quan creeu un nou recurs de tipus fitxer, són permesos els enllaços a fitxers d\'un sistema local com ara un CD-ROM o un disc dur? Això pot ser útil en una aula on tots els estudiants tenen accés a un CD-ROM o a dispositius en xarxa comuns. La utilització d\'aquesta característica pot requerir canvis en els paràmetres de seguretat dels navegadors.';
+$string['configautofilerenamesettings'] = 'Actualitza automàticament les referències a fitxers i directoris quan se\'ls canviï el nom en l\'administrador de fitxers.';
+$string['configblockdeletingfilesettings'] = 'Bloca la supressió de fitxers i directoris utilitzats en recursos. Teniu en compte, però, que les imatges i altres fitxers utilitzats dins d\'una pàgina HTML no seran protegits.';
 $string['configdefaulturl'] = 'Aquest valor s\'utilitza per omplir per defecte el camp URL quan s\'està creant un nou recurs basat en URL.';
 $string['configfilterexternalpages'] = 'Si habiliteu aquest paràmetre, tots els recursos externs (pàgines web, fitxers HTML penjats) seran processats pels filtres definits en aquest lloc (p. e. s\'hi podran afegir enllaços automàtics a un glossari). Activar aquesta opció pot alentir significativament les pàgines dels cursos; utilitzeu-la amb precaució i només si realment la necessiteu.';
 $string['configframesize'] = 'Quan una pàgina web o un fitxer penjat es visualitzen dins d\'un marc, aquest valor és la mida (en píxels) del marc superior (el que conté la navegació).';
@@ -113,5 +116,7 @@ $string['tableofcontents'] = 'Taula de continguts';
 $string['upbutton'] = 'Amunt';
 $string['variablename'] = 'Nom de variable';
 $string['viewims'] = 'Visualitza paquet IMS CP';
+$string['warningblockingdelete'] = 'Avís: l\'operació de supressió ha estat blocada per un recurs existent. Actualitzeu primer aquest recurs o demaneu a l\'administrador que inhabiliti aquest mecanisme de seguretat en la configuració global del mòdul Recurs.';
+$string['warningdisabledrename'] = 'Avís: el canvi automàtic del nom de fitxers o directoris en recursos està inhabilitat. Haureu d\'actualitzar manualment els recursos afectats. L\'administrador pot habilitar el canvi automàtic en la configuració global del mòdul Recurs.';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // error.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['adminprimarynoedit'] = 'L\'administrador primari no pot ser editat per altres usuaris';
@@ -11,9 +11,12 @@ $string['cannotfindcomponent'] = 'No s\'ha pogut trobar un component';
 $string['cannotsavemd5file'] = 'No s\'ha pogut desar el fitxer md5';
 $string['cannotsavezipfile'] = 'No s\'ha pogut desar el fitxer zip';
 $string['cannotunzipfile'] = 'No s\'ha pogut descomprimir el fitxer';
+$string['cantunenrollfrommetacourse'] = 'No podeu cancel·lar la vostra inscripció en aquest metacurs.';
+$string['cantunenrollinthisrole'] = 'No podeu cancel·lar la vostra inscripció en aquest curs mentre romangueu en el rol actual.';
 $string['cmunknown'] = 'No s\'ha pogut trobar aquest mòdul de curs';
 $string['componentisuptodate'] = 'El component està al dia';
 $string['confirmsesskeybad'] = 'No s\'ha pogut confirmar la vostra clau de sessió per portar a terme aquesta acció. Aquesta característica de seguretat impedeix que s\'executin funcions importants en el vostre nom de manera accidental o fraudulenta. Si us plau confirmeu que volíeu realment executar aquesta funció.';
+$string['couldnotassignrole'] = 'S\'ha produït un error greu sense especificar mentre se us intentava assignar un rol';
 $string['coursegroupunknown'] = 'No s\'ha especificat el curs corresponent al grup $a';
 $string['downloadedfilecheckfailed'] = 'Ha fallat la comprovació del fitxer baixat';
 $string['errorcleaningdirectory'] = 'S\'ha produït un error en netejar el directori \"$a\"';
@@ -34,15 +37,18 @@ $string['invalidcourse'] = 'El curs no és vàlid';
 $string['invalidfieldname'] = '\"$a\" no és un nom vàlid per a un camp';
 $string['invalidfiletype'] = '\"$a\" no és un tipus de fitxer vàlid';
 $string['invalidmd5'] = 'El md5 no és vàlid';
+$string['invalidrole'] = 'El rol no és vàlid';
 $string['invalidxmlfile'] = '\"$a\" no és un fitxer XML vàlid';
 $string['missingfield'] = 'Falta el camp \"$a\"';
 $string['missingrequiredfield'] = 'Falta algun camp necessari';
 $string['modulemissingcode'] = 'El mòdul $a no inclou el codi necessari per a la realització d\'aquesta funció';
 $string['modulerequirementsnotmet'] = 'El mòdul \"$a->modulename\" ($a->moduleversion) no s\'ha pogut instal·lar. Requereix una versió més nova de Moodle (esteu utilitzant la $a->currentmoodle i necessiteu la  $a->requiremoodle).';
 $string['mustbeteacher'] = 'Cal ser professor/a per veure aquesta pàgina';
+$string['nocontext'] = 'Aquest curs no és un context vàlid';
 $string['noinstances'] = 'No hi ha instància de $a en aquest curs.';
 $string['nonmeaningfulcontent'] = 'Contingut no significatiu';
 $string['noparticipatorycms'] = 'No teniu mòduls participatius dels qual es pugui informar.';
+$string['nopermissions'] = 'Actualment no teniu permisos per a fer això ($a)';
 $string['notavailable'] = 'Això no està disponible actualment';
 $string['onlyadmins'] = 'Això només poden fer-ho els administradors';
 $string['onlyeditingteachers'] = 'Això només pot fer-ho el professorat que tingui permisos d\'edició';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6.1+ (2006050511)
+      // enrol_imsenterprise.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['aftersaving...'] = 'Després de desar els paràmetres, potser voldreu';
@@ -18,6 +18,7 @@ $string['filelockedmail'] = 'El procés del cron no pot suprimir el fitxer que e
 $string['filelockedmailsubject'] = 'Error important: fitxer d\'inscripcions';
 $string['fixcasepersonalnames'] = 'Canvia a majúscules les inicials dels noms de persones';
 $string['fixcaseusernames'] = 'Canvia a minúscules els noms d\'usuari';
+$string['imsrolesdescription'] = 'L\'especificació IMS Enterprise inclou vuit tipus de rol distints. Trieu com voleu que s\'assignin en Moodle i si preferiu ignorar-ne algun.';
 $string['location'] = 'Ubicació del fitxer';
 $string['logtolocation'] = 'Ubicació del fitxer de registre (en blanc si no voleu registre)';
 $string['mailadmins'] = 'Notifica a l\'administrador per correu electrònic';
@@ -26,9 +27,9 @@ $string['miscsettings'] = 'Miscel·lània';
 $string['processphoto'] = 'Afegeix la foto de l\'usuari al perfil';
 $string['processphotowarning'] = 'Avís: el processament d\'imatges probablement afegirà una càrrega significativa al vostre servidor. Se us recomana no activar aquesta opció si espereu que es processi un gran nombre d\'estudiants.';
 $string['restricttarget'] = 'Processa les dades només si s\'especifica l\'objectiu següent';
-$string['sourcedidfallback'] = 'Utilitza el &quot;sourcedid&quot; com a userid si el camp &quot;userid&quot; no hi és';
+$string['sourcedidfallback'] = 'Utilitza el \"sourcedid\" com a userid si el camp \"userid\" no hi és';
 $string['truncatecoursecodes'] = 'Trunca els codis de curs a aquesta longitud';
-$string['usecapitafix'] = 'Activeu aquest quadre si esteu utilitzant &quot;Capita&quot; (el seu format XML és lleugerament erroni)';
+$string['usecapitafix'] = 'Activeu aquest quadre si esteu utilitzant \"Capita\" (el seu format XML és lleugerament erroni)';
 $string['usersettings'] = 'Opcions de les dades d\'usuari';
 $string['zeroisnotruncation'] = '0 indica no truncar';
 

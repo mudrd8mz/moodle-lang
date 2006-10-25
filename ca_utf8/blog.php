@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.7 dev (2006090600)
+      // blog.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['addnewentry'] = 'Afegeix una nova entrada';
@@ -16,6 +16,8 @@ $string['blogtags'] = 'Etiquetes de bitàcoles';
 $string['courseblog'] = 'Bitàcola de curs: $a';
 $string['courseblogs'] = 'Bitàcoles amb l\'accés restringit als membres del curs';
 $string['disableblogs'] = 'Inhabilita completament el sistema de bitàcoles';
+$string['emptybody'] = 'No es pot deixar buit el cos d\'una entrada de bitàcola';
+$string['emptytitle'] = 'No es pot deixar buit el títol d\'una entrada de bitàcola';
 $string['entrybody'] = 'Text de l\'entrada';
 $string['entrybodyonlydesc'] = 'Descripció de l\'entrada';
 $string['entryerrornotyours'] = 'Aquesta entrada no és vostra';

@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.5 Beta (2005052300)
+      // block_rss_client.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['addfeed'] = 'Afegeix un URL d\'alimentació de notícies:';
 $string['addheadlineblock'] = 'Afegeix un bloc de titulars RSS';
 $string['addnew'] = 'Afegeix';
+$string['blockname'] = 'Client RSS';
 $string['choosefeedlabel'] = 'Trieu les alimentacions que voleu incloure en aquest bloc:';
 $string['clientchannellink'] = 'Lloc origen...';
 $string['clientnumentries'] = 'Nombre d\'entrades de cada alimentació que es mostren per defecte.';
@@ -28,10 +29,15 @@ $string['feedstitle'] = 'Alimentacions RSS remotes';
 $string['feedupdated'] = 'S\'ha actualitzat una alimentació de notícies';
 $string['findmorefeeds'] = 'Cerca més alimentacions RSS';
 $string['managefeeds'] = 'Gestiona les meves alimentacions';
-$string['nofeeds'] = 'No hi ha alimentacions RSS definides en aquest lloc ';
+$string['nofeeds'] = 'No hi ha alimentacions RSS definides en aquest lloc';
 $string['pickfeed'] = 'Tria una alimentació de notícies';
 $string['remotenewsfeed'] = 'Alimentació de notícies remotes';
+$string['rss_client:createprivatefeeds'] = 'Crea alimentacions RSS privades';
+$string['rss_client:createsharedfeeds'] = 'Crea alimentacions RSS compartides';
+$string['rss_client:manageanyfeeds'] = 'Gestiona qualsevol alimentació RSS';
+$string['rss_client:manageownfeeds'] = 'Gestiona alimentacions RSS pròpies';
 $string['seeallfeeds'] = 'Mostra totes les alimentacions';
+$string['sharedfeed'] = 'Alimentació compartida';
 $string['shownumentrieslabel'] = 'Nombre màxim d\'entrades que es pot visualitzar en un bloc';
 $string['submitters'] = 'Qui pot definir noves alimentacions RSS? Les alimentacions ja definides estan disponibles per a qualsevol pàgina del lloc.';
 $string['timeout'] = 'Temps d\'espera RSS';
