@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6.1+ (2006050512)
+      // admin.php - created with Moodle 1.6.3 (2006050530)
 
 
 $string['adminseesallevents'] = 'Správci vidí všechny události';
@@ -85,6 +85,7 @@ $string['configopentogoogle'] = 'Dovolit vyhledávači Google indexovat obsah ku
 $string['configpathtoclam'] = 'Cesta ke Clam AV. Pravděpodobně /usr/bin/clamscan nebo /usr/bin/clamdscan. Jestliže chcete provádět antivirovou kontrolou, je nutné tento údaj zadat.';
 $string['configpathtodu'] = 'Cesta k programu du (disk usage). Pravděpodobně něco jako /usr/bin/du. Zadáním této cesty se urychlí generování stránek, které zobrazují obsah adresáře s mnoha soubory.';
 $string['configperfdebug'] = 'Vypisování údajů o výkonu vašeho serveru v zápatí standardního motivu stránek.';
+$string['configprotectusernames'] = 'Ve výchozím nastavení skript forget_password.php nezobrazuje žádnou nápovědu, která by usnadnila uhodnutí uživatelských jmen nebo adres.';
 $string['configproxyhost'] = 'Nastavení proxy serveru -- jestliže <b>server</b> nemá přímý přístup do internetu, zadejte adresu a port proxy serveru. (Přístup k internetu je potřeba pouze pro funkci IP-Atlas.)';
 $string['configquarantinedir'] = 'Jestliže chcete přesouvat podezřelé soubory do karantény, zadejte zde název složky. Web server musí mít možnost zápisu do této složky. Jestliže nezadáte žádnou cestu, nebo cestu chybnou, soubory budou smazány. Cestu neukončujte lomítkem.';
 $string['configrequestedstudentname'] = 'Slovo označující jednoho studenta v požadovaných kurzech';
@@ -129,6 +130,7 @@ $string['configzip'] = 'Umístění programu zip (pouze pro Unix, volitelné). P
 $string['confirmation'] = 'Potvrzení';
 $string['confirminstall'] = 'Chcete opravdu nainstalovat jazykový balíček $a?';
 $string['cronwarning'] = 'Skript <a href=\"cron.php\">cron.php</a>, který má na starosti běžnou údržbu serveru, nebyl během posledních 24 hodin spuštěn.';
+$string['datarootsecuritywarning'] = 'Bezpečnostní varování - zkontrolujte si, že datový adresář ($a) není přímo dostupný přes webové rozhraní.';
 $string['dbmigrate'] = 'Migrace databáze Moodlu';
 $string['dbmigrateconnecerror'] = 'Nelze se připojit k určené databázi.';
 $string['dbmigrateencodingerror'] = 'Zvolená databáze používá kódování $a namísto požadovaného UNICODE/UTF8.<br />Vyberte prosím jinou databázi.';
@@ -137,6 +139,7 @@ $string['dbmigratewarning'] = 'Před spuštěním tohoto procesu bezpodmínečn�
 $string['dbmigratewarning2'] = '<b>Upozornění: Hodláte spustit proces migrace databáze. Ujistěte se prosím pečlivě, že máte k dispozici zálohu celé vaší současné databáze Moodlu.</b>';
 $string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">Proběhla migrace této databáze na novou databázi UTF8. Upravte soubor config.php a zadejte v něm údaje pro používání nové databáze. Původní databázi již nepoužívajte.</font>';
 $string['dbmigrationdupfailed'] = 'Duplikace databáze selhala a vrátila následující chybu:<font color=\"#ff0000\"><pre>$a</pre></font>';
+$string['density'] = 'Hustota';
 $string['download'] = 'Download';
 $string['edithelpdocs'] = 'Upravit nápovědu a dokumentaci';
 $string['editlang'] = '<b>Úpravy</b>';
