@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.7 dev (2006081000)
+      // choice.php - created with Moodle 1.8 dev (2006102400)
 
 
 $string['addmorechoices'] = 'Daha fazla seçenek ekle';
@@ -24,6 +24,8 @@ $string['limitanswers'] = 'İzin verilen yanıt sayısını sınırla';
 $string['modulename'] = 'Anket';
 $string['modulenameplural'] = 'Anketler';
 $string['mustchooseone'] = 'Kaydetmeden önce bir cevap seçmelisiniz. Hiçbir şey kaydedilmedi.';
+$string['noguestchoose'] = 'Üzgünüz, konukların anketleri cevaplamasına izin verilmemektedir.';
+$string['noresultsviewable'] = 'Sonuçlar şu anda görüntülenmemektedir.';
 $string['notanswered'] = 'Henüz yanıtlanmadı';
 $string['notopenyet'] = 'Üzgünüz, bu etkinliğe $a tarihine kadar ulaşılamaz';
 $string['privacy'] = 'Sonuç gizliliği';

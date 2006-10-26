@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.7 dev (2006100601)
+      // auth.php - created with Moodle 1.8 dev (2006102400)
 
 
 $string['alternatelogin'] = 'Buraya bir URL girerseniz, sitenin giriş adresi olarak bu sayfa kullanılacaktır. Bu sayfa, eylemin <strong>\'$a\'</strong> olarak ayarlandığı, kullanıcı adı(<strong>username</strong>) ve şifre(<strong>password</strong>) alanlarını döndüren bir formdan oluşmalıdır.<br />Yanlış adres girmeniz durumunda kendi kendinizi bile site dışı bir yere kilitleyebilirsiniz.<br />Varsayılan giriş sayfasını kullanmak için burayı boş bırakın.';
@@ -30,7 +30,7 @@ $string['auth_dbfielduser'] = 'Kullanıcı adını içeren alan adı';
 $string['auth_dbhost'] = 'Veritabanı sunucusu';
 $string['auth_dbname'] = 'Veritabanının adı';
 $string['auth_dbpass'] = 'Yukarıdaki kullanıcıya ait şifre';
-$string['auth_dbpasstype'] = 'Şifre alanının kullandığı biçimi belirtin. MD5 şifrelemesi diğer web uygulamalarına bağlanılırken kullanılan genel bir algoritmadır.';
+$string['auth_dbpasstype'] = '<p>Şifre alanında kullanılan biçimi belirtin. MD5 şifrelemesi diğer web uygulamalarına bağlanılırken kullanılan genel bir algoritmadır.</p><p>Kullanıcı adlarının ve e-posta adreslerinin harici veritabanı tarafından, şifrelerin ise Moodle tarafından yönetilmesini istiyorsanız \'dahili\' yi seçin. \'Dahili\' kullanılacaksa, harici veritabanından çekilen e-posta alanı veri ilişkilendirmesi ile <i>sağlanmalı</i> ve admin/cron.php belirli aralıklarla çalıştırılmalıdır. Bu sayede, geçici bir şifre kullanıcının e-posta adresine gönderilecektir.</p>';
 $string['auth_dbtable'] = 'Tablo adı';
 $string['auth_dbtitle'] = 'Harici veritabanı kullan';
 $string['auth_dbtype'] = 'Veritabanı tipi (Ayrıntılar için <a href=\"../lib/adodb/readme.htm#drivers\">ADOdb belgelerine</a> bakın)';

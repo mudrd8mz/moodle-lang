@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006101001)
+      // moodle.php - created with Moodle 1.8 dev (2006102400)
 
 
 $string['action'] = 'Eylem';
@@ -132,7 +132,7 @@ $string['backupactivehelp'] = 'Otomatik yedeklemelerin yapılıp yapılmayacağ�
 $string['backupcancelled'] = 'Yedekleme İptal Edildi';
 $string['backupcoursefileshelp'] = 'Etkinleştirilirse kurs dosyaları otomatik yedeklemeye dahil edilecek';
 $string['backupdate'] = 'Yedekleme Tarihi';
-$string['backupdatenew'] = '&nbsp; $a->TAG şimdi $a->weekday, $a->mday $a->month $a->year<br />';
+$string['backupdatenew'] = '$a->TAG şimdi $a->weekday, $a->mday $a->month $a->year<br />';
 $string['backupdateold'] = '$a->TAG, $a->weekday, $a->mday $a->month $a->year idi';
 $string['backupdaterecordtype'] = '<br />$a->recordtype - $a->recordname<br />';
 $string['backupdetails'] = 'Yedekleme Ayrıntıları';
@@ -1431,6 +1431,7 @@ $string['yahooid'] = 'Yahoo ID';
 $string['yes'] = 'Evet';
 $string['youareabouttocreatezip'] = 'Aşağıdakileri içeren bir zip dosyası oluşturmak üzeresiniz';
 $string['youaregoingtorestorefrom'] = 'Bu dosya için geri yükleme yapmak üzeresiniz';
+$string['youneedtoenrol'] = 'Bu eylemi gerçekleştirmek için bu kursa kaydolmanız gerekiyor.';
 $string['yourlastlogin'] = 'Son giriş tarihiniz';
 $string['yourself'] = 'kendiniz';
 $string['yourteacher'] = 'eğitimciniz $a';
