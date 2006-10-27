@@ -59,7 +59,7 @@ the steps:
 <li>Read your email, and click on the web link it contains.</li>
 <li>Your account will be confirmed and you will be logged in.</li>
 <li>Now, select the course you want to participate in.</li>
-<li>If you are prompted for a \"enrollment key\" - use the one
+<li>If you are prompted for an \"enrollment key\" - use the one
 that your teacher has given you. This will \"enroll\" you in the
 course.</li>
 <li>You can now access the full course. From now on you will only need
