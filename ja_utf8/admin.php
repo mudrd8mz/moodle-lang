@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2006101001)
+      // admin.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['accounts'] = 'アカウント';
@@ -72,6 +72,7 @@ $string['configdisplayloginfailures'] = 'ここで選択したユーザに前回
 $string['configdocroot'] = 'Moodle Docsのパスを定義します。独自のオンラインドキュメントを使用したい場合、この設定を変更することができます。設定を変更する場合、ドキュメンテーションのパスが、http://docs.moodle.orgと同じフォーマットであることを確認してください。';
 $string['configdoctonewwindow'] = 'この設定を有効にした場合、新しいウィンドウにMoodle Docsの内容が表示されます。';
 $string['configeditorfontlist'] = 'エディタのドロップダウンリストに表示されるフォントを選択してください。';
+$string['configenableajax'] = 'この設定を有効にした場合、ユーザがプロフィールページでAJAX機能を無効にすることができます。この設定を有効にしない場合、すべてのユーザのAJAX機能は無効にされます。';
 $string['configenablecourserequests'] = 'すべてのユーザにコース作成のリクエストを許可します。';
 $string['configenablerssfeeds'] = 'ここでは、サイト全体からのRSSフィードを有効にします。実際に更新された情報を見たい場合、各モジュールのRSSフィード設定も有効にする必要があります - 管理ページにあるモジュール管理を確認してください。';
 $string['configenablerssfeedsdisabled'] = 'サイトすべてにおいてRSSフィードが利用不可にされているため、利用できません。管理メニュー内の詳細設定でRSSフィードを利用可にすることができます。';
@@ -215,6 +216,7 @@ $string['editorfontsize'] = 'フォントサイズ';
 $string['editorhidebuttons'] = 'ボタンの非表示';
 $string['editorkillword'] = 'ワードフォーマットフィルタ';
 $string['editstrings'] = '翻訳ストリングの編集';
+$string['enableajax'] = 'AJAXを有効にする';
 $string['enablecourserequests'] = 'コースリクエストを有効にする';
 $string['enablerssfeeds'] = 'RSSフィードを有効にする';
 $string['enablestats'] = '統計を有効にする';
@@ -222,7 +224,7 @@ $string['enabletrusttext'] = 'コンテンツ信頼を有効にする';
 $string['environment'] = '動作環境';
 $string['environmenterrortodo'] = 'このバージョンのMoodleをインストールする前に、発見された動作環境の問題 ( エラー ) を解消してください!';
 $string['environmentrecommendinstall'] = 'インストールおよびEnabledを推奨します。';
-$string['environmentrecommendversion'] = 'バージョン $a->needed以上を推奨します。あなたは現在 $a->current を使用しています。';
+$string['environmentrecommendversion'] = 'バージョン $a->needed 以上を推奨します。あなたは現在 $a->current を使用しています。';
 $string['environmentrequireinstall'] = 'インストールおよびEnabledが必須です。';
 $string['environmentrequireversion'] = 'バージョン $a->needed以上が必須です。あなたは現在 $a->current を使用しています。';
 $string['environmentxmlerror'] = '環境データ ( $a->error_code ) の読み込み中にエラーが発生しました。';
@@ -273,7 +275,6 @@ $string['lang'] = 'デフォルト言語';
 $string['lang16notify'] = 'Moodle1.6以上のバージョンでは、下記のリンクでmoodle.orgより言語パックのインストールおよびアップデートを行うことができます。';
 $string['langcache'] = '言語メニューをキャッシュする';
 $string['langedit'] = '言語の編集';
-$string['langimport'] = '言語インポートユーティリティ';
 $string['langimportsuccess'] = '言語パックが正常に更新されました。';
 $string['langlist'] = '言語メニューの言語';
 $string['langmenu'] = '言語メニューを表示する';
