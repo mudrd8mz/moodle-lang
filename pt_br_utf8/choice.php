@@ -42,4 +42,3 @@ $string['viewallresponses'] = 'Ver $a respostas';
 $string['yourselection'] = 'A sua escolha';
 
 ?>
-
