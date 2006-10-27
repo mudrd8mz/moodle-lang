@@ -92,6 +92,7 @@ $string['configfrontpage'] = '上記で選択したアイテムは、サイト�
 $string['configfrontpageloggedin'] = '上記で選択したアイテムは、ユーザのログイン時にサイトフロントページに表示されます。';
 $string['configfullnamedisplay'] = 'ここでは、名前がどのように表示されるか設定します。単一言語を使用したほとんどのサイトでは「名 + 姓」を使用した方が良いでしょう。しかし、名字を隠したり、言語設定に添った形 ( いくつかの言語では異なる並び ) の並びにすることも可能です。';
 $string['configgdversion'] = 'サーバにGDがインストールされている場合、そのバージョンを選択してください。初期値として表示されているバージョンは自動的に検知されたものです。分からない場合はそのままにしてください。';
+$string['configgradebookroles'] = 'どのロールを評定しますか?';
 $string['confighiddenuserfields'] = 'コース教師/管理者以外のユーザに隠したいユーザ情報フィールドを選択してください。この設定によりユーザのプライバシーを強化することができます。複数のフィールドは、CTRLキーを押したままで選択してください。';
 $string['confightmleditor'] = '内蔵れたHTMLテキストエディタ使用を許可するかどうか選択してください。「許可する」を選択した場合、互換性のあるブラウザが使われる場合のみ、このエディタが表示されます。ユーザはエディタを使用しない選択もできます。';
 $string['configidnumber'] = 'このオプションでは次の内容を設定します。(a)ユーザがユーザIDの入力を求められない、(b)ユーザがユーザIDを空白にすることができる、または(c)ユーザはユーザIDの入力を求められ、空白にできない。ユーザIDが入力されたときはプロファイルに表示される。';
@@ -247,6 +248,8 @@ $string['fullnamedisplay'] = 'フルネームフォーマット';
 $string['gdversion'] = 'GDバージョン';
 $string['generalsettings'] = '一般設定';
 $string['globalsquoteswarning'] = '<p><strong>セキュリティ警告</strong>: Moodleを適切に動作させるため、<br />現在のPHP設定を変更する必要があります。<p/><p><code>register_globals=off</code> および/または <code>magic_quotes_gpc=on</code> の<em>設定を行って</em>ください。<br />可能でしたら、一般的なサーバセキュリティを改善するため、<code>register_globals=off</code> の設定を行ってください。<br />また、<code>magic_quotes_gpc=on</code> の設定も推奨いたします。<p/><p>これらの設定は、<code>php.ini</code>、Apache/IIS <br />設定、または <code>.htaccess</code> ファイルの設定により管理されます。</p>';
+$string['gradebook'] = '評定表';
+$string['gradebookroles'] = 'ロールの評定';
 $string['helpadminseesall'] = '管理者はすべてのカレンダーイベントを閲覧または自分自身のイベントとすることができますか?';
 $string['helpcalendarsettings'] = 'Moodleのカレンダーおよび日付/時間に関する様々な設定を行います。';
 $string['helpforcetimezone'] = 'ユーザに独自のタイムゾーンを選択させることができます。または、すべてのユーザにタイムゾーンを強制します。';
