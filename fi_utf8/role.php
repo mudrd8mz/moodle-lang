@@ -1,7 +1,5 @@
-<?PHP // $Id:
-
-
-      // role.php - created with Moodle 1.7 beta (2006101000)
+<?PHP // $Id$ 
+      // role.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['addrole'] = 'Lisää rooli';
@@ -106,12 +104,12 @@ $string['site:viewparticipants'] = 'Osallistujien tarkastelu';
 $string['site:viewreports'] = 'Rapottien tarkastelu';
 $string['user:create'] = 'Käyttäjien luonti';
 $string['user:delete'] = 'Käyttäjien poisto';
-$string['user:editprofile'] = 'Käyttäjäprofiilin muokkaus';
+$string['user:editprofile'] = 'Käyttäjätietojen muokkaus';
 $string['user:loginas'] = 'Toisena käyttäjänä kirjautuminen';
 $string['user:readuserblogs'] = 'Käyttäjän blogien katselu';
 $string['user:readuserposts'] = 'Käyttäjän viestien katselu';
-$string['user:update'] = 'Käyttäjäprofiilin muokkaus';
-$string['user:viewdetails'] = 'Käyttäjäprofiilin katselu';
+$string['user:update'] = 'Käyttäjätietojen muokkaus';
+$string['user:viewdetails'] = 'Käyttäjätietojen katselu';
 $string['user:viewhiddendetails'] = 'Käyttäjän piilotettujen tietojen katselu';
 $string['user:viewuseractivitiesreport'] = 'Käyttäjän aktiivisuuden katselu';
 $string['user:viewusergrades'] = 'Käyttäjän arvosanojen katselu';

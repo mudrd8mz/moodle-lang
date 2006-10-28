@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 beta (2006101000)
+      // moodle.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['action'] = 'Tapahtuma';
@@ -152,7 +152,7 @@ $string['backuporiginalname'] = 'Varmuuskopion nimi';
 $string['backupsavetohelp'] = 'Koko polku hakemistoon, johon haluat tallentaa varmuuskopiotiedostot.<br /> (Jätä tämä tyhjäksi jos haluat tallentaa kurssin oletushakemistoon.)';
 $string['backupschedulehelp'] = 'Valise päivät jolloin automaattinen varmuuskopiointi suoritetaan';
 $string['backuptakealook'] = 'Ole hyvä ja katso varmuuskopioinnin lokitiedostot paikasta: $a';
-$string['backupuserfileshelp'] = 'Valitse, haluatko sisällyttää käyttäjätiedostot (omat kuvat) automaattiseen varmuuskopiointiin';
+$string['backupuserfileshelp'] = 'Valitse, haluatko sisällyttää käyttäjän tiedostot (omat kuvat) automaattiseen varmuuskopiointiin';
 $string['backupusershelp'] = 'Haluatko varmuuskopioida kaikki käyttäjät vai vain tarvittavat käyttäjät kurssia kohden';
 $string['backupversion'] = 'Varmuuskopion versio';
 $string['block'] = 'Lohko';
@@ -385,7 +385,7 @@ $string['edhelpfontsize'] = 'Määritä kirjasimen oletus koko.<br /> Sallittuja
 $string['edit'] = 'Muokkaa $a';
 $string['editcoursesettings'] = 'Muokkaa kurssin asetuksia';
 $string['editfiles'] = 'Muokkaa tiedostoja';
-$string['editgroupprofile'] = 'Muokkaa ryhmän profiilia';
+$string['editgroupprofile'] = 'Muokkaa ryhmän tietoja';
 $string['editinga'] = 'Muokataan $a';
 $string['editingteachershort'] = 'Muokkaaja';
 $string['editlock'] = 'Tätä arvoa ei voi muokata';
@@ -667,7 +667,7 @@ $string['hours'] = 'tuntia';
 $string['howtomakethemes'] = 'Kuinka tehdä uusi teemoja';
 $string['htmleditor'] = 'Käytä Richtext HTML-editoria. (Toimii vain IE 5.5 tai uudemmassa)';
 $string['htmleditoravailable'] = 'Richtext HTML-editori on käytettävissä';
-$string['htmleditordisabled'] = 'Olet poistanut Richtext HTML-editorin käytön käyttäjäprofiilissasi.';
+$string['htmleditordisabled'] = 'Olet poistanut Richtext HTML-editorin käytön käyttäjätiedoissasi.';
 $string['htmleditordisabledadmin'] = 'Pääkäyttäjä on estänyt Richtext HTML-editorin käytön';
 $string['htmleditordisabledbrowser'] = 'Richtext HTML-Editori ei ole saatavilla, koska selaimesi ei ole IE 5.5 tai uudempi.';
 $string['htmlfilesonly'] = 'Vain HTML tiedostoja';
@@ -1013,7 +1013,7 @@ $string['preview'] = 'Esikatsele';
 $string['previewhtml'] = 'HTML esikatselu';
 $string['previeworchoose'] = 'Esikatsele tai valitse teema';
 $string['previous'] = 'Edellinen';
-$string['profile'] = 'Profiili';
+$string['profile'] = 'Käyttäjätiedot';
 $string['publicdirectory'] = 'Julkinen hakemisto';
 $string['publicdirectory0'] = 'Älä julkaise tätä sivua';
 $string['publicdirectory1'] = 'Julkaise vain sivun nimi';
@@ -1297,7 +1297,7 @@ $string['update'] = 'Päivitä';
 $string['updated'] = 'Päivitetty $a';
 $string['updatemymoodleoff'] = 'Normaali tila';
 $string['updatemymoodleon'] = 'Muokkaa tätä sivua';
-$string['updatemyprofile'] = 'Päivitä profiilini';
+$string['updatemyprofile'] = 'Tallenna tiedot';
 $string['updatesevery'] = 'Päivitä joka $a sekunti';
 $string['updatethis'] = 'Päivitä tämä $a';
 $string['updatethiscourse'] = 'Päivitä tämä kurssi';
@@ -1366,7 +1366,6 @@ $a->action';
 $string['virusfoundsubject'] = '$a : Viruksen saastuttama!';
 $string['virusfounduser'] = 'Tiedosto $a, jonka lähetit, on viruksen saastuttama. Tiedoston lähetys ei onnistunut.';
 $string['virusplaceholder'] = 'Lähetetty tiedosto oli viruksen saastuttama ja tiedosto on eristetty tai tuhottu. Käyttäjälle on ilmoitettu asiasta.';
-$string['visibletostudents'] = 'Näkyvissä';
 $string['webpage'] = 'Web-sivu';
 $string['week'] = 'Viikko';
 $string['weekhide'] = 'Piilota tämä viikko';
@@ -1375,7 +1374,7 @@ $string['weekshow'] = 'Näytä tämä viikko';
 $string['welcometocourse'] = 'Tervetuloa kurssille $a';
 $string['welcometocoursetext'] = 'Tervetuloa kurssille $a->coursename!
 
-Ensimmäiseksi sinun kannattaa muokata profiiliasi jotta muut voivat tutustua sinuun:
+Ensimmäiseksi sinun kannattaa muokata käyttäjätietojasi jotta muut voivat tutustua sinuun:
 
   $a->profileurl';
 $string['whattocallzip'] = 'Miksi haluat kutsuttavan zip-tiedostoa?';

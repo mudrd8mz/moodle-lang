@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 beta (2006101000)
+      // resource.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['addresource'] = 'Lisää aineisto';
@@ -52,7 +52,7 @@ $string['localfilechoose'] = 'Valitse paikallinen tiedosto (CD-ROM)';
 $string['localfilehelp'] = 'Apua paikallisten tiedostojen näyttämiseen';
 $string['localfileinfo'] = '<p>Valitse paikallinen tiedosto tietokoneeltasi. Tiedostoa ei kopioida verkkosivustolle, vaan Moodle etsii vastaavaa tiedostoa kaikkien tätä aineistoa käyttävien omilta koneilta.</p>
 
-<p>Tämä on käytännöllistä esimerkiksi silloin, kun olet jakanut osanottajille materiaalia, esim. isokokoisia mediatiedostoja, samansisältöisillä CD-ROM-levyillä. Jokainen osallistuja voi valita itse hakemistopolun koneellaan näihin tiedostoihin <a href=\"$a\" target=\"_blank\">muokkaamalla käyttäjäprofiiliaan</a>.</p>';
+<p>Tämä on käytännöllistä esimerkiksi silloin, kun olet jakanut osanottajille materiaalia, esim. isokokoisia mediatiedostoja, samansisältöisillä CD-ROM-levyillä. Jokainen osallistuja voi valita itse hakemistopolun koneellaan näihin tiedostoihin <a href=\"$a\" target=\"_blank\">muokkaamalla käyttäjäasetuksiaan</a>.</p>';
 $string['localfilepath'] = 'Asettaaksesi oman hakemistopolkusi aineiston paikallisiin tiedostoihin, valitse mikä tahansa tiedosto asemalta, jolla aineisto sijaitsee (yleensä CD-ROM-asema). Tiedostoa ei kopioida verkkosivustolle, mutta käytetty polku tallennetaan ja sitä käytetään muidenkin paikallisia tiedostoja käyttävien aineistojen kanssa.';
 $string['localfileselect'] = 'Valitse tämä hakemistopolku.';
 $string['maindirectory'] = 'Tiedostojen hakemisto';

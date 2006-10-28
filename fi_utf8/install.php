@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.7 beta (2006101000)
+      // install.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['admindirerror'] = 'Ylläpitohakemisto on määritetty väärin';
@@ -129,7 +129,7 @@ $string['fileuploads'] = 'Tiedostojen lähettäminen';
 $string['fileuploadserror'] = 'Tämän pitäisi olla päällä';
 $string['fileuploadshelp'] = '<p>Tiedostojen lähettäminen ei näyttäisi olevan käytössä palvelimellasi.</p>
 
-<p>Moodle voidaan silti asentaa, mutta ilman tätä kykyä, et pysty lataamaan kurssitiedostoja tai uuden käyttäjän profiili kuvia.</p>
+<p>Moodle voidaan silti asentaa, mutta ilman tätä et pysty lataamaan kurssitiedostoja tai vaihtamaan käyttäjän kuvaa.</p>
 
 <p>Mahdollistaaksesi tiedostojen latauksen sinun (tai systeemisi ylläpitäjän) täytyy muokata varusohjelmien php.ini tiedosto systeemiisi ja muuttaa asetus <b>file_uploads</b> to \'1\'.</p>';
 $string['gdversion'] = 'GD versio';

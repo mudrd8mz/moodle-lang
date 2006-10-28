@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 beta (2006101000)
+      // forum.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['addanewdiscussion'] = 'Lisää uusi keskustelu';
@@ -65,7 +65,7 @@ $string['everyonecanchoose'] = 'Kaikki voivat tilata tämän keskustelualueen';
 $string['everyoneissubscribed'] = 'Kaikki tilaavat tämän keskustelualueen';
 $string['existingsubscribers'] = 'Nykyiset tilaajat';
 $string['forcesubscribe'] = 'Pakota kaikki tilaajiksi';
-$string['forcesubscribeq'] = 'Pakota kaikki tilaajiksi?';
+$string['forcesubscribeq'] = 'Pakota kaikki tilaajiksi';
 $string['forum'] = 'Keskustelualue';
 $string['forum:createattachment'] = 'Liitetiedoston luonti';
 $string['forum:deleteanypost'] = 'Viestin poisto';
@@ -87,7 +87,7 @@ $string['forumname'] = 'Keskustelualueen nimi';
 $string['forumposts'] = 'Keskustelualueen viestit';
 $string['forums'] = 'Keskustelualueet';
 $string['forumsubjecthidden'] = 'Otsikko (piilotettu)';
-$string['forumtracked'] = 'Uudet viestejä seurataan';
+$string['forumtracked'] = 'Uusia viestejä seurataan';
 $string['forumtrackednot'] = 'Uusia viestejä ei seurata';
 $string['forumtype'] = 'Keskustelualueen tyyppi';
 $string['generalforum'] = 'Keskustelualue yleiseen käyttöön';
@@ -227,7 +227,7 @@ $string['tracking'] = 'Seuraa';
 $string['trackingoff'] = 'Pois päältä';
 $string['trackingon'] = 'Päällä';
 $string['trackingoptional'] = 'Valinnanvarainen';
-$string['trackingtype'] = 'Lue seuranta tältä keskustelualueelta?';
+$string['trackingtype'] = 'Luettujen viestien seuranta';
 $string['unread'] = 'Lukematon';
 $string['unreadposts'] = 'Lukemattomia viestejä';
 $string['unreadpostsnumber'] = '$a lukematonta viestiä';

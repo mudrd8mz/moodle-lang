@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 beta (2006101000)
+      // admin.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['accounts'] = 'Käyttäjät';
@@ -88,7 +88,7 @@ $string['configfiltermatchonepertext'] = 'Suodattimet tekevät vain  yhden linki
 Tätä asetusta ei huomioida jos \"Soudatin osuu kerran sivussa\" asetus on päällä.';
 $string['configfilteruploadedfiles'] = 'Tämän asetuksen valinta käskee Moodlen käsitellä kaikki palvelimelle kopioidut HTML- ja tekstitiedostot suodattimilla ennen kuin ne näytetään .';
 $string['configforcelogin'] = 'Yleensä sivuston etusivu ja kurssilista (muttei kurssien sisältö) on kaikkien sivustolle saapuneiden nähtävillä ilman sisäänkirjautumista. Jos haluat, että käyttäjien on kirjauduttava sisään ennen kuin he voivat tehdä MITÄÄN sivustolla, laita tämä asetus päälle.';
-$string['configforceloginforprofiles'] = 'Ota tämä asetus käyttöön, jos haluat että käyttäjät kirjautuvat sisään (eivät siis ole vieraita) ennen kuin he voivat nähdä käyttäjäprofiilisivuja. Oletusarvoisesti tämä ei ole päällä (asetus \"Ei\"), jotta mahdolliset tulevat oppilaat voivat lukea jokaisen kurssin opettajista, mutta tämä tarkoittaa myös sitä että hakukoneet näkevät sivut.';
+$string['configforceloginforprofiles'] = 'Ota tämä asetus käyttöön, jos haluat että käyttäjät kirjautuvat sisään (eivät siis ole vieraita) ennen kuin he voivat nähdä käyttäjätietoja. Oletusarvoisesti tämä ei ole päällä (asetus \"Ei\"), jotta mahdolliset tulevat oppilaat voivat lukea jokaisen kurssin opettajista, mutta tämä tarkoittaa myös sitä että hakukoneet näkevät sivut.';
 $string['configframename'] = 'Jos sijoitat Moodlen kehykseen verkkosivulla, kirjoita kyseisen kehyksen nimi tähän. Muuten tämän kohdan voi jättää ennalleen (\'_top\').';
 $string['configfrontpage'] = 'Yläpuolella valitut kohteet näytetään sivuston etusivulla.';
 $string['configfrontpageloggedin'] = 'Yläpuolella valitut kohteet näytetään sivuston etusivulla, kun käyttäjä kirjautunut.';
@@ -96,7 +96,7 @@ $string['configfullnamedisplay'] = 'Tämä määrittää kuinka nimet näytetä�
 $string['configgdversion'] = 'Määritä mikä GD:n versio on asennettuna. Oletusarvona on havaittu versio. Älä muuta, ellet tiedä mitä olet tekemässä.';
 $string['confighiddenuserfields'] = 'Valitse käyttäjätiedot jotka haluat piilottaa muilta muilta käyttäjiltä kuin kurssin opettaja/ylläpitäjiltä. Tämä lisää opiskelijan yksityisyyttä. Valitaksesi monia kohtia käytä CTRL-näppäintä.';
 $string['confightmleditor'] = 'Määritä haluatko sallia upotetun HTML-tekstieditorin. Jos päätät sallia sen, editori tulee käyttöön vain, jos käyttäjällä on yhteensopiva selain. Käyttäjät voivat myös valita olla käyttämättä editoria.';
-$string['configidnumber'] = 'Tämä asetus määrittää (a) kysytäänkö käyttäjiltä ollenkaan ID:tä, (b) käyttäjiltä kysytään ID-numeroa, mutta he voivat jättää kentän tyhjäksi, (c) käyttäjiltä kysytään ID-numeroa, eivätkä he voi jättää kohtaa tyhjäksi. Jos ID-numero annetaan, se näytetään käyttäjän profiilissa.';
+$string['configidnumber'] = 'Tämä asetus määrittää (a) kysytäänkö käyttäjiltä ollenkaan ID:tä, (b) käyttäjiltä kysytään ID-numeroa, mutta he voivat jättää kentän tyhjäksi, (c) käyttäjiltä kysytään ID-numeroa, eivätkä he voi jättää kohtaa tyhjäksi. Jos ID-numero annetaan, se näytetään käyttäjätiedoissa.';
 $string['configintro'] = 'Tällä sivulla voit määritellä useita asetuksia, jotta Moodle toimisi oikein palvelimellasi. Älä turhaan kanna huolta näistä - oletusarvot toimivat yleensä hyvin ja voit aina myöhemmin palata tälle sivulle ja muuttaa näitä asetuksia.';
 $string['configintroadmin'] = 'Tällä sivulla sinun pitää määritellä pääasiallinen ylläpitäjä sivustollesi, jolla on täydet valtuudet koko sivustolla. Huolehdi siitä että käyttäjänimi ja salasana ovat turvallisia ja että sähköpostiosoite on toimiva. Voit luoda lisää ylläpitäjäkäyttäjiä myöhemmin.';
 $string['configintrosite'] = 'Tällä sivulla määritellään etusivu ja uuden sivuston nimi. Voit palata tälle sivulle myöhemmin käyttämällä ´Sivuston asetukset´-linkkiä kotisivulla.';
@@ -106,7 +106,7 @@ $string['configlang'] = 'Valitse oletuskieli koko sivustolle. Käyttäjät voiva
 $string['configlangcache'] = 'Talleta kielivalikko välimuistiin. Säästää runsaasti muistia ja prosessointitehoa. Jos otat asetuksen käyttöön, kielien lisäämisen tai poistamisen jälkeen kielivalikon päivittyminen kestää muutaman minuutin.';
 $string['configlangdir'] = 'Useimmat kielet kirjoitetaan vasemmalta oikealle, mutta jotkin, kuten arabia ja hebrea, kirjoitetaan oikealta vasemmalle.';
 $string['configlanglist'] = 'Jätä tämä tyhjäksi antaaksesi käyttäjien kaikista Moodleen asentamistasi kielistä. Voit lyhentää kielivalikkoa kirjoittamalla halutut kielet tähän pilkulla erottuina. Esimerkki: fi,en,es_es,fr,it';
-$string['configlangmenu'] = 'Valitse näytetäänkö kielivalikko kotisivulla, kirjautumissivulla, jne. Tämä ei vaikuta käyttäjien kykyyn valita haluamansa kielen profiileissaan.';
+$string['configlangmenu'] = 'Valitse näytetäänkö kielivalikko kotisivulla, kirjautumissivulla, jne. Tämä ei vaikuta käyttäjien kykyyn valita haluamansa kielen käyttäjätiedossaa.';
 $string['configlocale'] = 'Valitse koko sivustoa koskeva maa-asetus, joka vaikuttaa päivämäärien moutoon ja kieleen. Maa-asetuksen vaatimien tietojen täytyy olla asennettuna (esim.  fi_FI tai en_US). Jos et osaa valita, jätä tyhjäksi.';
 $string['configloginhttps'] = 'Kun tämä asetus on asetettu päälle, Moodle käyttää suojattua https-yhteyttä vain kirjautumissivulle (mahdollistaen turvallisen kirjautumisen) ja tämän jälkeen palaa käyttämään tavallista http:tä lisänopeuden saavuttamiseksi. HUOMIOI: tätä asetusta käytettäessä https:n TÄYTYY olla valittuna palvelimen asetuksissa - jos näin ei ole, SAATAT LUKITA ITSESI SIVUSTOLTASI.';
 $string['configloglifetime'] = 'Tässä määritellään kuinka kauan haluat säilyttää lokitiedostoja käyttäjien toimista. Tätä asetusta vanhemmat lokitiedostot poistetaan automaattisesti. On parasta säilyttää lokitiedostot mahdollisimman kauan, koska saatat tarvita niitä. Mutta jos palvelimesi liikenne on erittäin vilkasta ja sillä esiintyy suorituskykyyn liittyviä ongelmia,  kannatta ehkä laskea lokien säilytysaikaa.';
@@ -164,7 +164,7 @@ $string['configstatsruntimestart'] = 'Mihin aikaan cronjob, joka tekee tilastoti
 $string['configstatsuserthreshold'] = 'Jos asetat tähän luvun ei kursseja joilla on  vähemmän käyttäjiä huomioida tilastoissa';
 $string['configteacherassignteachers'] = 'Pitäisikö tavallisten opettajien olla mahdollista lisätä muita opettajia kursseilleen? Jos tähän asetetaan ´Ei´ vain kurssit luoneet ja ylläpitäjät voivat lisätä opettajia.';
 $string['configthemelist'] = 'Jätä tyhjäksi salliaksesi minkä tahansa käyvän teeman käyttö. Jos haluat lyhentää teema-valikkoa, voit määrittää tähän pilkulla erotellun listan sallituista teemoista (älä käytä välilyöntiä!). Esim: standard,orangewhite.';
-$string['configtimezone'] = 'Voit määrittää oletusaikavyöhykkeen tähän. Tämä on vain OLETUSaikavyöhyke ajan näyttämiseksi, jokainen käyttäjä voi määrittää oman aikavyöhykkeensä omassa profiilissaan. Jos kirjoitat tähän \"Server time\", käyttää Moodle palvelimen käyttöjärjestelmän  ilmoittamaa aikaa, kun taas käyttäjäprofiilissa asetus \"Server time\" hakee aikavyöhykkeen nyt määriteltävästä asetuksesta.';
+$string['configtimezone'] = 'Voit määrittää oletusaikavyöhykkeen tähän. Tämä on vain OLETUSaikavyöhyke ajan näyttämiseksi, jokainen käyttäjä voi määrittää oman aikavyöhykkeensä omassa profiilissaan. Jos kirjoitat tähän \"Server time\", käyttää Moodle palvelimen käyttöjärjestelmän  ilmoittamaa aikaa, kun taas käyttäjätiedoissa \"Server time\" hakee aikavyöhykkeen nyt määriteltävästä asetuksesta.';
 $string['configunzip'] = 'Määritä tähän unzip-ohjelmasi polku (vain Unix, vapaaehtoinen). Jos polku määritellään, unzip-ohjelmalla puretaan tarvittaessa palvelimella olevat zip-pakatut tiedostot. Jos jätät tyhjäksi, Moodle käyttää sisäisiä aliohjelmiaan.';
 $string['configvariables'] = 'Asetukset';
 $string['configwarning'] = 'Ole varovainen muuttaessasi näitä asetuksia, väärät arvot voivat aiheuttaa ongelmia.';
