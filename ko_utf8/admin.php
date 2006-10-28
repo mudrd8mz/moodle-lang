@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2006102200)
+      // admin.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['accounts'] = '계정';
@@ -72,6 +72,7 @@ $string['configdisplayloginfailures'] = '이것은 이전에 로그인을 실패
 $string['configdocroot'] = '무들 도움말 문서의 경로를 정의한다. 만일 당신이 나름대로의 사용자 온라인 문서를 갖고자할 경우에는 이를 바꿀 수 있다. 그러나 문서 경로가 http://docs.moodle.org 과 같은 형식을 사용하도록 하라.';
 $string['configdoctonewwindow'] = '만일 이 기능을 \"예\"로 놓으면 무들 문서창이 새 창으로 뜬다.';
 $string['configeditorfontlist'] = '편집기의 펼침 목록에 나타날 글꼴을 선택하세요.';
+$string['configenableajax'] = '만일 AJAX 기능을 활성화하면 사용자는 자신들의 신상명세에서 이를 비활성화 할 수 있으나 비활성화하면 모든 사람이 AJAX 기능을 쓸 수 없게 된다.';
 $string['configenablecourserequests'] = '이 기능을 켜 놓으면 어느 누구던 배움터를 요청하여 만들 수 있다.';
 $string['configenablerssfeeds'] = '이 스위치는 무들에서 자동으로 작성한 자료를 RSS 방식으로 송출할 수 있게 한다. 당신이 개인적 모듈안에서 RSS 급송 장치를 가능하게 할 필요가 있다면, 실질적으로 어떤 변화가 있는지 살펴 보고 안되면 관리자 환경설정 아래 있는 모듈 설정에서 조정하라.';
 $string['configenablerssfeedsdisabled'] = '만일 사이트 전체의 RSS 송출기능을 막아놓으면, 이 기능은 이용할 수 없다. 이를 가능하게 하려면 관리자 환경설정 아래 있는 변수 설정으로 가서 우선 사이트 전체의 설정을 바꾸어야 한다.';
@@ -91,6 +92,7 @@ $string['configfrontpage'] = '위에서 선택된 항목은 사이트 대문화�
 $string['configfrontpageloggedin'] = '위에서 선택된 항목은 사용자가 로그인할 때 사이트 대문화면에 표시될 것입니다.';
 $string['configfullnamedisplay'] = '이것은 전체 이름을 표시하는 방법을 정의하는 것이다. 대부분의 한 개 언어만 쓰는 싸이트에서는 기본값인 \"성+이름\"으로 충분히 효과를 볼 수 있지만, 다양한 언어팩을 쓰는 경우 특히 성이나 이름이 매우 긴 경우에는 이름을 보이지 않게 하거나 성을 보이지 않게 설정할 수도 있다.';
 $string['configgdversion'] = '표시된 GD 버전이 설치되어 있다. 여기에 표시된 버전은 자동으로 검출된 것이다. 정확한 내용을 알지 못한다면 가급적 바꾸지 말기 바란다.';
+$string['configgradebookroles'] = '어떤 역할을 등급화 할까요?';
 $string['confighiddenuserfields'] = '교사와 관리자 이외의 사람들에게는 보이게 하고 싶지 않은 사용자 정보를 선택하라. 이렇게 하면 학생들의 프라이버시를 증진시킬 수 있다. 여러 항목을 선택할 때는 CTRL키를 누른채 항목들을 선택하면 된다.';
 $string['confightmleditor'] = '사이트 전반에 걸쳐 내장된 HTML텍스트의 편집기를 사용할 수 있게 할 것인가를 정하는 옵션이다. 여기서 사용을 허용하더라도 사용자 입장에서는 웹브라우저의 기능에 따라 사용가능 여부가 결정될 것이다. 사용자도 스스로 사용여부를 선택할 수 있다.';
 $string['configidnumber'] = '이 옵션은 다음의 셋 중에 하나를 선택해야 한다. (1)사용자 ID번호를 전혀 요구하지 않는다. (2)사용자 ID번호는 요구하나 빈칸을 허용한다. (3)사용자 ID번호를 요구하고 빈 칸을 허용하지 않는다. 만일 사용자 ID번호가 입력되면, 신상명세에 표시된다.';
@@ -224,6 +226,7 @@ $string['editorfontsize'] = '글꼴 크기';
 $string['editorhidebuttons'] = '감춰진 버튼';
 $string['editorkillword'] = '워드 형식 필터';
 $string['editstrings'] = '문자열 편집';
+$string['enableajax'] = 'AJAX 활성화';
 $string['enablecourserequests'] = '배움터 요청 가능';
 $string['enablerssfeeds'] = 'RSS 알리미 활성화';
 $string['enablestats'] = '통계 활성화';
@@ -254,6 +257,8 @@ $string['fullnamedisplay'] = '전체 이름';
 $string['gdversion'] = 'GD 버전';
 $string['generalsettings'] = '일반 설정';
 $string['globalsquoteswarning'] = '<p><strong>보안 경고</strong>: 무들을 적절하게 작동시키기 위해<br />현재의 PHP 설정을 바꾸어 주어야만 합니다.<p/><p>먼저 <code>register_globals=off</code> 그리고 <code>magic_quotes_gpc=on</code> 으로 <em>설정되어 있어야만</em> 합니다.<br />만일 가능하다면  서버의 일반적인 보안기능을 증진시키기 위하여 <code>register_globals=off</code> 도 설정하고 <code>magic_quotes_gpc=on</code>도 해 주십시오.<p/><p>이러한 설정은 <code>php.ini</code>를 수정하여 바꿀 수도 있고, Apache/IIS 의 설정 혹은  <code>.htaccess</code> 파일을 수정해도 바꿀 수 있습니다.</p>';
+$string['gradebook'] = '성적 기록부';
+$string['gradebookroles'] = '성적 관리 역할';
 $string['helpadminseesall'] = '관리자가 모든 일정을 볼 수 있거나 그렇지 않으면 그 이벤트들 스스로 적용됩니까?';
 $string['helpcalendarsettings'] = '다양한 일정 목록과 날짜/시간과 관련된 내용을 설정합니다.';
 $string['helpforcetimezone'] = '모든 사용자들이 각자 그들의 표준시간대를 선택할 수 있게 하거나, 모든 사람들에게 지정한 시간대를 쓰도록 강요할 수 있습니다.';
@@ -282,7 +287,6 @@ $string['lang'] = '초기 설정 언어';
 $string['lang16notify'] = '무들 1.6과 그 상위판은 여러분이 아래에 연결된  download.moodle.org를 통해 직접 언어팩을 설치하고 업데이트 할 수 있도록 허용합니다.';
 $string['langcache'] = '저장된 언어 메뉴';
 $string['langedit'] = '언어팩 편집';
-$string['langimport'] = '언어팩 관리';
 $string['langimportsuccess'] = '언어팩 갱신 성공';
 $string['langlist'] = '언어 목록의 언어들';
 $string['langmenu'] = '언어 목록';
