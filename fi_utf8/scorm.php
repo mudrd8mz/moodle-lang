@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 beta (2006101000)
+      // scorm.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['advanced'] = 'Asetukset';
@@ -19,7 +19,7 @@ $string['coursepacket'] = 'Kurssipaketti';
 $string['coursestruct'] = 'Kurssin rakenne';
 $string['datadir'] = 'Tiedoston luonti virhe: Kurssin datahakemistoa ei voi luoda';
 $string['directories'] = 'Näytä linkit kansioihin';
-$string['display'] = 'Näyttä paketti';
+$string['display'] = 'Näytä paketti';
 $string['domxml'] = 'DOMXML ulkoinen kirjasto';
 $string['element'] = 'Elementti';
 $string['entercourse'] = 'Liity SCORM-kurssille';

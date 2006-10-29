@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 beta (2006101000)
+      // error.php - created with Moodle 1.7 beta + (2006101001)
 
 
 $string['adminprimarynoedit'] = 'Muut eivät voi muokata pääasiallista ylläpitäjää';
@@ -31,8 +31,8 @@ $string['filenotfound'] = 'Pahus, pyydettyä tiedosta ei löydy';
 $string['forumblockingtoomanyposts'] = 'Olet ylittänyt postitusrajan tällä keskustelualueella.';
 $string['groupalready'] = 'Käyttäjä kuuluu jo ryhmään $a';
 $string['groupunknown'] = 'Ryhmä $a ei kuulu  kurssille';
-$string['guestnoeditprofile'] = 'Vieraat eivät voi muokata profiiliaan';
-$string['guestnoeditprofileother'] = 'Vieraan profiilia ei voi muokata';
+$string['guestnoeditprofile'] = 'Vieraat eivät voi muokata käyttäjätietojaan';
+$string['guestnoeditprofileother'] = 'Vieraan käyttäjätietoja ei voi muokata';
 $string['invalidcourse'] = 'Virheellinen kurssi';
 $string['invalidfieldname'] = '\"$a\" ei ole kelvollinen kentän nimi';
 $string['invalidfiletype'] = '\"$a\" ei ole kelvollinen tiedostotyyppi';
