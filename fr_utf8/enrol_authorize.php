@@ -49,6 +49,7 @@ $string['antrankey'] = 'Authorize.net&nbsp;: clef de transaction';
 $string['approvedreview'] = 'Contrôle approuvé';
 $string['authcaptured'] = 'Autorisé / Saisi';
 $string['authorize:managepayments'] = 'Gérer les paiements';
+$string['authorize:uploadcsv'] = 'Télécharger un fichier CSV';
 $string['authorizedpendingcapture'] = 'Autorisé / En attente de saisie';
 $string['avsa'] = 'L\'adresse (rue) correspond, mais pas le code postal';
 $string['avsb'] = 'L\'adresse n\'est pas renseignée';
