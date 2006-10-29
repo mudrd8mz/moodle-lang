@@ -180,9 +180,9 @@ $string['configmaxevents'] = 'Nombre d\'événements à anticiper';
 
 $string['gradebook'] = 'Carnet de notes';
 $string['gradebookroles'] = 'Rôles notés';
-$string['configgradebookroles'] = 'Quels rôles peuvent être notés&nbsp;?';
+$string['configgradebookroles'] = 'Ce réglage permet de configurer les rôles apparaissant dans le carnet de notes. Pour être cités dans le carnet de notes d\'un cours, les utilisateurs doivent avoir au moins l\'un de ces rôles dans ce cours.';
 $string['enableajax'] = 'Activer AJAX';
-$string['configenableajax'] = 'Si vous activez AJAX, les fonctionnalités AJAX pourront être désactivées par les utilisateurs dans leur profil. Dans le cas contraire, AJAX sera désactivé pour tout le monde.';
+$string['configenableajax'] = 'Ce réglage permet de contrôler l\'utilisation d\'AJAX (interface client/serveur avancée utilisant le JavaScript) sur tout le site. Lorsque ce réglage est activé, les utilisateurs ont le choix de désactiver AJAX dans leur profil.';
 $string['adminseesallevents'] = 'Les administrateurs voient tous les événements';
 $string['adminseesownevents'] = 'Les administrateurs sont comme tous les autres utilisateurs';
 $string['allowrenames'] = 'Permettre de changer les noms';
