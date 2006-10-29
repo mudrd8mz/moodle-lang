@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006101001)
+      // moodle.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['action'] = '操作';
@@ -960,6 +960,7 @@ $string['notavailable'] = '利用できません。';
 $string['noteachersyet'] = 'このコースにはまだ教師が登録されていません。';
 $string['notenrollable'] = '現在このコースには登録できません。';
 $string['notenrolled'] = '$a はこのコースに登録されていません。';
+$string['notenrolledprofile'] = 'コースに登録されていないため、このユーザのプロフィールは閲覧できません。';
 $string['noteuserschangednonetocourse'] = '注意:ユーザデータをリストアする場合、コースユーザをリストアする必要があります。あなたの設定が変更されました。';
 $string['nothingnew'] = '最終ログインより更新されたものはありません。';
 $string['nothingtodisplay'] = '表示するデータはありません。';
