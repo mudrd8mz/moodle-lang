@@ -937,6 +937,7 @@ $string['notavailable'] = 'Non disponible';
 $string['noteachersyet'] = 'Pas encore d\'enseignant dans ce cours';
 $string['notenrollable'] = 'Vous n\'avez actuellement pas le droit de vous inscrire à ce cours.';
 $string['notenrolled'] = '$a n\'est pas inscrit à ce cours.';
+$string['notenrolledprofile'] = 'Ce profil n\'est pas accessible, car cet utilisateur n\'est pas inscrit à ce cours.';
 $string['noteuserschangednonetocourse'] = 'Remarque&nbsp;: les utilisateurs du cours doivent être restaurés lors de la restauration de données utilisateur (fichiers ou messages, dans les activités). Ce paramètre a été modifié pour vous.';
 $string['nothingnew'] = 'Rien de nouveau depuis votre dernière visite';
 $string['nothingtodisplay'] = 'Rien à afficher';
