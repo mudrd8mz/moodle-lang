@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006102200)
+      // moodle.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['action'] = '동작';
@@ -934,6 +934,7 @@ $string['notavailable'] = '사용 가능하지 않음';
 $string['noteachersyet'] = '아직 배움터 교사가 없음';
 $string['notenrollable'] = '지금은 교육과정에 등록할수 없습니다';
 $string['notenrolled'] = '$a 는 이 배움터에 등록되지 않았음';
+$string['notenrolledprofile'] = '이 사용자는 배움터의 구성원이 아니므로 신상명세를 볼 수 없습니다.';
 $string['noteuserschangednonetocourse'] = '주의: 사용자 데이터(활동, 파일, 메시지 등)를 복구할 때는 배움터의 사용자가 먼저 복구되어 있어야 합니다. 이 설정은 변경되었습니다.';
 $string['nothingnew'] = '지난번에 비해 바뀐 내용이 없음';
 $string['nothingtodisplay'] = '보여줄게 없음';
