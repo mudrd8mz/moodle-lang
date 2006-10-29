@@ -178,7 +178,8 @@ $string['configlookahead'] = 'Jours à anticiper';
 $string['configmaxevents'] = 'Nombre d\'événements à anticiper';
 // end {added with admin cleanup}
 
-
+$string['enableajax'] = 'Activer AJAX';
+$string['configenableajax'] = 'Si vous activez AJAX, les fonctionnalités AJAX pourront être désactivées par les utilisateurs dans leur profil. Dans le cas contraire, AJAX sera désactivé pour tout le monde.';
 $string['adminseesallevents'] = 'Les administrateurs voient tous les événements';
 $string['adminseesownevents'] = 'Les administrateurs sont comme tous les autres utilisateurs';
 $string['allowrenames'] = 'Permettre de changer les noms';
