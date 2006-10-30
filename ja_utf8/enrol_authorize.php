@@ -4,7 +4,7 @@
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
 $string['adminaccepts'] = '許可する支払方法およびタイプを選択してください。';
-$string['adminauthcode'] = 'インターネットから直接ユーザのクレジットカードをキャプチャできない場合、顧客の銀行から電話で認証コードを取得してください。';
+$string['adminauthcode'] = '直接ユーザのクレジットカードをインターネット経由でキャプチャできない場合、顧客の銀行から電話で認証コードを取得してください。';
 $string['adminauthorizeccapture'] = 'オーダーレビュー&スケジュールキャプチャ設定';
 $string['adminauthorizeemail'] = 'メール送信設定';
 $string['adminauthorizesettings'] = 'Authorize.net 設定';
