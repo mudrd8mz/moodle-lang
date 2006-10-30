@@ -4,6 +4,7 @@
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
 $string['adminaccepts'] = '許可する支払方法およびタイプを選択してください。';
+$string['adminauthcode'] = 'インターネットから直接ユーザのクレジットカードをキャプチャできない場合、顧客の銀行から電話で認証コードを取得してください。';
 $string['adminauthorizeccapture'] = 'オーダーレビュー&スケジュールキャプチャ設定';
 $string['adminauthorizeemail'] = 'メール送信設定';
 $string['adminauthorizesettings'] = 'Authorize.net 設定';
@@ -45,6 +46,7 @@ $string['antestmode'] = 'Authorize.net: テストトランザクション ( 料�
 $string['antrankey'] = 'Authorize.net: トランザクションキー';
 $string['approvedreview'] = '検査承認';
 $string['authcaptured'] = '認証完了 / キャプチャ完了';
+$string['authcode'] = '認証コード';
 $string['authorize:managepayments'] = '支払いを管理する';
 $string['authorize:uploadcsv'] = 'CVSファイルをアップロードする';
 $string['authorizedpendingcapture'] = '認証完了 / キャプチャ保留';
@@ -91,6 +93,7 @@ $string['echeckfirslasttname'] = '銀行口座名義';
 $string['echecksavings'] = '普通口座';
 $string['enrolname'] = 'Authorize.netペイメントゲートウェイ';
 $string['expired'] = '期限切れ';
+$string['haveauthcode'] = '私はすでに認証コードを持っています';
 $string['howmuch'] = 'いくらですか?';
 $string['httpsrequired'] = '申し訳ございません、あなたのリクエストは現在処理することができません。このサイトの設定は正常に行われませんでした。
 <br /><br />
@@ -105,6 +108,7 @@ $string['missingaba'] = 'ABA番号を入力してください。';
 $string['missingaddress'] = '住所を入力してください。';
 $string['missingbankname'] = '銀行名を入力してください。';
 $string['missingcc'] = 'カード番号を入力してください。';
+$string['missingccauthcode'] = '認証コードを入力してください。';
 $string['missingccexpire'] = '有効期限を入力してください。';
 $string['missingcctype'] = 'カードタイプを入力してください。';
 $string['missingcvv'] = '郵便番号を入力してください。';
