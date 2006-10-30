@@ -215,7 +215,7 @@ $string['clamunknownerror'] = 'Clam ha segnalato un errore sconosciuto.';
 $string['cleaningtempdata'] = 'Cancellazione dati temporanei';
 $string['clicktochange'] = 'Clicca per cambiare';
 $string['closewindow'] = 'Chiudi questa finestra';
-$string['comparelanguage'] = 'Confronta ed modifica la lingua corrente';
+$string['comparelanguage'] = 'Confronta e modifica la lingua in uso';
 $string['complete'] = 'Completo';
 $string['completereport'] = 'Report completo';
 $string['configuration'] = 'Configurazione';
@@ -1267,8 +1267,8 @@ $string['studentviewoff'] = 'Disattiva vista studente';
 $string['studentviewon'] = 'Attiva vista studente';
 $string['subcategories'] = 'Sottocategorie';
 $string['success'] = 'Operazione eseguita con successo';
-$string['summary'] = 'Introduzione';
-$string['summaryof'] = 'Introduzione di $a';
+$string['summary'] = 'Riassunto';
+$string['summaryof'] = 'Riassunto di $a';
 $string['supplyinfo'] = 'Compilare con le tue informazioni';
 $string['switchrolereturn'] = 'Ritorna al mio ruolo normale';
 $string['switchroleto'] = 'Cambia ruolo in ...';
@@ -1385,7 +1385,7 @@ $string['virusfoundlater'] = 'Un file caricato il $a->date nel corso $a->course 
 
 $a->action
 
-Se questo file è in lavoro che hai inviato, è preferibile inviarlo nuovamente.';
+Se questo file è un lavoro che hai inviato, è preferibile inviarlo nuovamente.';
 $string['virusfoundlateradmin'] = 'Amministratore attenzione! Un file caricato il $a->date nel corso $a->course di nome $a->filename contiene un virus. Questo è il resoconto di ciò che eè accaduto al tuo file:
 
 $a->action
