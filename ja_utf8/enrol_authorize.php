@@ -36,6 +36,7 @@ $string['adminnewordersubject'] = '$a->course; 新しい保留オーダー: $a->
 $string['adminpendingorders'] = 'あなたはスケジュールキャプチャ機能を停止しています。<br />あなたがチェックしない場合、ステータス「認証完了 / キャプチャ保留」の合計 $a->count 件のトランザクションがキャンセルされます。<br />支払いを受領/拒否するには <a href=\'$a->url\'>支払い管理</a>ページにアクセスしてください。';
 $string['adminreview'] = 'クレジットカード処理手続きの前に注文を検査する。';
 $string['adminteachermanagepay'] = '教師がコースの支払いを管理できる。';
+$string['allpendingorders'] = 'すべての保留オーダー';
 $string['amount'] = '金額';
 $string['anlogin'] = 'Authorize.net: ログイン名';
 $string['anpassword'] = 'Authorize.net: パスワード';
