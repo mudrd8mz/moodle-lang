@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006102400)
+      // moodle.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['action'] = 'Eylem';
@@ -810,7 +810,7 @@ $string['missingshortname'] = 'Kısa ad eksik';
 $string['missingshortsitename'] = 'Kısa site adı eksik';
 $string['missingsitedescription'] = 'Site açıklaması eksik';
 $string['missingsitename'] = 'Site adı eksik';
-$string['missingstrings'] = 'Eksik ifadeleri kontrol et';
+$string['missingstrings'] = 'Çevrilmeyen cümleleri veya ifadeleri kontrol et';
 $string['missingstudent'] = 'Bir şeyler seçmelisiniz';
 $string['missingsummary'] = 'Özet eksik';
 $string['missingteacher'] = 'Bir şeyler seçmelisiniz';
@@ -942,6 +942,7 @@ $string['notavailable'] = 'Ulaşılamaz';
 $string['noteachersyet'] = 'Bu kursta henüz bir eğitimci yoktur';
 $string['notenrollable'] = 'Bu kursa şu anda kayıt olunamaz.';
 $string['notenrolled'] = '$a bu kursa kaydolmadı.';
+$string['notenrolledprofile'] = 'Bu kullanıcı, bu kursa kayıtlı olmadığı için kullanıcı profiline ulaşılamaz.';
 $string['noteuserschangednonetocourse'] = 'Dikkat: Kullanıcı verisini geri yüklerken kurs kullanıcılarının da geri yüklenmesi gerekiyor (etkinlikler, dosyalar, mesajlardaki). Bu ayar sizin için değiştirildi.';
 $string['nothingnew'] = 'Son girişinizden beri yeni bir şey yok';
 $string['nothingtodisplay'] = 'Gösterilecek bir şey yok';

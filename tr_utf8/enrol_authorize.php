@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 dev (2006101001)
+      // enrol_authorize.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['adminacceptccs'] = 'Hangi kredi kartı tipleri kabul edilecek?';
 $string['adminaccepts'] = 'İzin verilen ödeme yöntemlerini ve tiplerini seçin';
+$string['adminauthcode'] = 'Kullanıcının kredi kartı direk olarak internetten alış-veriş yapmaya uygun değilse, kullanıcının bankasından telefonla yetki kodu al.';
 $string['adminauthorizeccapture'] = 'Siparişi İnceleme ve Zamanlanmış-Çekme Ayarları';
 $string['adminauthorizeemail'] = 'E-Posta Gönderme Ayarları';
 $string['adminauthorizesettings'] = 'Authorize.net Ayarları';
@@ -39,6 +40,7 @@ $string['adminnewordersubject'] = '$a->course; Bekleyen Yeni Sipariş: $a->order
 $string['adminpendingorders'] = 'Zamanlanmış-çekme özelliğini etkinleştirmediniz.<br />PROVİZYON durumundaki toplam $a->count işlemi kontrol etmezseniz iptal edilecek. <br />Ödemeleri kabul etmek/reddetmek için <a href=\'$a->url\'>Ödeme Yönetimi</a> sayfasına gidin.';
 $string['adminreview'] = 'Kredi kartından çekmeden önce siparişi incele.';
 $string['adminteachermanagepay'] = 'Eğitimciler kurs ödemelerini yönetebilir.';
+$string['allpendingorders'] = 'Tüm Bekleyen Siparişler';
 $string['amount'] = 'Miktar';
 $string['anlogin'] = 'Authorize.net: Kullanıcı adı';
 $string['anpassword'] = 'Authorize.net: Şifre';
@@ -47,7 +49,9 @@ $string['antestmode'] = 'İşlemleri deneme modunda çalıştır (para çekilmez
 $string['antrankey'] = 'Authorize.net: İşlem Anahtarı (Transaction Key)';
 $string['approvedreview'] = 'İnceleme Onaylandı';
 $string['authcaptured'] = 'Yetki Verilmiş / Çekilmiş';
+$string['authcode'] = 'Yetki Kodu';
 $string['authorize:managepayments'] = 'Ödemeleri yönet';
+$string['authorize:uploadcsv'] = 'CSV dosyası yükle';
 $string['authorizedpendingcapture'] = 'Yetki Verilmiş / Çekilmeyi Bekliyor';
 $string['avsa'] = 'Adres (cadde) uydu, posta kodu uymadı';
 $string['avsb'] = 'Adres bilgisi verilmedi';
@@ -92,6 +96,7 @@ $string['echeckfirslasttname'] = 'Banka Hesap Sahibi';
 $string['echecksavings'] = 'Tasarruf';
 $string['enrolname'] = 'Authorize.net Ödeme Sağlayıcısı';
 $string['expired'] = 'Süresi Dolmuş';
+$string['haveauthcode'] = 'Zaten bir yetki kodum var';
 $string['howmuch'] = 'Ne kadar?';
 $string['httpsrequired'] = 'Üzgünüz, isteğinizi şu anda yerine getiremiyoruz. Bu sitenin ayarı doğru yapılandırılmamış.<br /><br />Tarayıcınızın alt tarafında sarı bir kilit görmüyorsanız kredi kartı numaranızı girmeyiniz. Bu, sizinle sunucu arasında gidip gelen verinin şifrelendiği anlamına gelir. Böylece 2 bilgisayar arasında akan bilgi korunmuş olur ve kredi kartı numaranız internet üzerinden yakalanamaz.';
 $string['invalidaba'] = 'Geçersiz ABA numarası';
@@ -104,6 +109,7 @@ $string['missingaba'] = 'ABA numarası eksik';
 $string['missingaddress'] = 'Adres eksik';
 $string['missingbankname'] = 'Banka adı eksik';
 $string['missingcc'] = 'Kart no eksik';
+$string['missingccauthcode'] = 'Yetki kodu eksik';
 $string['missingccexpire'] = 'Son kullanma tarihi eksik';
 $string['missingcctype'] = 'Kart tipi eksik';
 $string['missingcvv'] = 'Onay no eksik';

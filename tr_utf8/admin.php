@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2006101001)
+      // admin.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['accounts'] = 'Hesaplar';
@@ -72,7 +72,9 @@ $string['configdisplayloginfailures'] = 'Bu, seçilen kullanıcının önceden y
 $string['configdocroot'] = 'Moodle Belgelerinin yolunu tanımlar. Kendi çevrimiçi belgeleriniz varsa isterseniz bunu değiştirebilirsiniz. Ancak, bunu yaptığınızda belge yollarının bu sayfadakiyle aynı formatta olduğundan emin olun: http://docs.moodle.org';
 $string['configdoctonewwindow'] = 'Bunu etkinleştirirseniz, Moodle Belgeleri bağlantıları yeni bir pencerede gösterilecektir.';
 $string['configeditorfontlist'] = 'Editör menüsünde görünecek fontları seçin.';
+$string['configenableajax'] = 'Bu ayar, gelişmiş istemci/sunucu arayüzü için kullanılan AJAX denetimini site geneli kontrol etmenize olanak sağlar. Bu ayarı etkinleştirirseniz, kullanıcılar kendi profillerinde bunu ayarlayıp ayarlayamama seçeneğine de sahip olacaklardır. Aksi durumda, AJAX herkes için kapalı olacaktır.';
 $string['configenablecourserequests'] = 'Bu herhangi bir kullanıcının kurs oluşturma isteğine izin verir.';
+$string['configenablerecordcache'] = 'Bunu etkinleştirirseniz, bellekteki bazı bilgiler, veritabanından alınırken önbellekleme yapılacaktır. Bu, veritabanınızın daha iyi iş çıkaracağı anlamına gelir; ancak diğer taraftan da, web sunucunuzun bellek gereksinimi biraz arttırılacaktır. Genel olarak, sunucunuzun belleği düşük değilse bunu etkinleştirmenizi öneririz. Bazı işlemler, yazılım geliştiricinin performansı arttırmak istediği durumlarda bu ayarı hükümsüz kılmayı seçebilir.';
 $string['configenablerssfeeds'] = 'Bu ayar sitenin tamamı için RSS içeriklerini etkinleştirir. Aynı zamanda her bir modül için RSS etkinliğini de etkinleştirmelisiniz. Bunun için şu yolu takip edin: Yönetim - Yapılandırma - Modüller';
 $string['configenablerssfeedsdisabled'] = 'RSS içeriği tüm sitede pasifleştirildiği için buna erişilemez. Etkinleştirmek için Yönetim/Yapılandırma ayarlarından Değişkenler bölümüne gidin.';
 $string['configenablestats'] = '\'Evet\'i seçerseniz cronjob, kayıtları(loglar) ve gerekli bazı istatistikleri işleme alır. Sitenizin trafiğine bağlı olarak bu biraz zaman alabilir. Bunu etkinleştirirseniz her bir kursunuz hakkında ya da site bazında bazı ilginç grafikler ve istatistikler görebilirsiniz.';
@@ -91,6 +93,7 @@ $string['configfrontpage'] = 'Yukarıda seçilen ögeler sitenin başlangıç sa
 $string['configfrontpageloggedin'] = 'Yukarıda seçilen ögeler kullanıcı giriş yaptığında sitenin başlangıç sayfasında gösterilecektir.';
 $string['configfullnamedisplay'] = 'Bu, bir ismin tamamının nasıl gösterilmesi gerektiğini belirtir. Tek-dil kullanan çoğu site için en iyi ayar \"Ad + Soyad\" şeklindedir. Ama isterseniz tamamen soyadları gizleyebilir ya da geçerli dildeki ayarı kullanabilirsiniz. Bazı diller farklı geleneklere sahiptir.';
 $string['configgdversion'] = 'Kurulu olan GD sürümünü seçiniz. Varsayılan olarak seçilen otomatik olarak algılanmıştır. Ne yaptığınızı bilmiyorsanız burayı değiştirmeyiniz.';
+$string['configgradebookroles'] = 'Bu ayar, not defterinde kimlerin görüneceğini kontrol etmenize olanak sağlar. Kullanıcıların belirtilen kursun not defterinde görünebilmesi için bu rollerden en az birine sahip olması gerekmektedir.';
 $string['confighiddenuserfields'] = 'Diğer kullanıcılardan, kurs yöneticileri ve eğitimcileri hariç, hangi kullanıcı bilgilerinin gizli kalması gerekiyor? Bu ayar öğrenci gizliliğini arttırır. Birden fazla alan seçmek için CTRL tuşuna basılı tutun.';
 $string['confightmleditor'] = 'Gömülü HTML metin editörünün kullanımına izin verilip verilmeyeceğini seçin. Siz bunu etkinleştirseniz bile, bu editör ancak, kullanıcı, uyumlu bir web tarayıcısı kullandığında görünür. Aynı zamanda kullanıcıların editörü kullanıp kullanmayacağına dair seçenek de mevcuttur.';
 $string['configidnumber'] = 'Şunları seçebilirsiniz: (a) Kullanıcılara hiç bir zaman ID no sorulmaz, (b) Kullanıcılara ID no sorulur ve bunu boş bırakmasına izin verilir, (c) Kullanıcılara ID no sorulur ama bunu boş bırakamaz. Belirtilirse Kullanıcının ID Numarası profilinde gösterilir.';
@@ -211,8 +214,10 @@ $string['editorfontlist'] = 'Font listesi';
 $string['editorfontsize'] = 'Font boyutu';
 $string['editorhidebuttons'] = 'Gizli butonlar';
 $string['editorkillword'] = 'Word biçim filtresi';
-$string['editstrings'] = 'İfadeleri düzenle';
+$string['editstrings'] = 'Cümleleri veya ifadeleri düzenle';
+$string['enableajax'] = 'AJAX etkin';
 $string['enablecourserequests'] = 'Kurs isteklerini etkinleştir';
+$string['enablerecordcache'] = 'Kayıt önbellekleme etkin';
 $string['enablerssfeeds'] = 'RSS içeriklerini etkinleştir';
 $string['enablestats'] = 'İstatistikleri etkinleştir';
 $string['enabletrusttext'] = 'Güvenli İçeriği Etkinleştir';
@@ -242,6 +247,8 @@ $string['fullnamedisplay'] = 'Tam Ad Biçimi';
 $string['gdversion'] = 'GD sürümü';
 $string['generalsettings'] = 'Genel ayarlar';
 $string['globalsquoteswarning'] = '<p><strong>Güvenlik Uyarısı</strong>: Moodle\'ın düzgün bir şekilde çalışması için <br />şu anki PHP ayarlarınızda bazı değişikliklerin yapılması gerekiyor.</p><p><code>register_globals=off</code> ve/veya <code>magic_quotes_gpc=on</code> olarak <em>ayarlamalısınız</em>.<br />Mümkünse, sunucu güvenliğini üst düzeyde tutmak için <code>register_globals=off</code> olarak ayar yapmanız önerilir.<br />Aynı zamanda, <code>magic_quotes_gpc=on</code> olarak ayarlamanız tavsiye edilir.</p><p>Bu ayarları, <code>php.ini</code> dosyasını, Apache/IIS ayar dosyasını veya <code>.htaccess</code> dosyasını düzenleyerek yapabilirsiniz.</p>';
+$string['gradebook'] = 'Not defteri';
+$string['gradebookroles'] = 'Notlandırılan roller';
 $string['helpadminseesall'] = 'Yöneticiler tüm olayları mı yoksa sadece kendisine ait olayları mı görsün?';
 $string['helpcalendarsettings'] = 'Tarih/saat ve takvim ayarlarını yapılandırın';
 $string['helpforcetimezone'] = 'Kullanıcıların bireysel olarak zaman dilimlerini seçmelerine izin verebilir ya da herkesin aynı zaman dilimini kullanmasını zorunlu tutabilirsiniz.';
@@ -344,6 +351,7 @@ $string['pathtopsqlinvalid'] = 'Geçersiz psql yolu. Ya yol yanlış ya da dosya
 $string['pathtounzip'] = 'Unzip yolu';
 $string['pathtozip'] = 'Zip yolu';
 $string['perfdebug'] = 'Performans bilgisi';
+$string['performance'] = 'Performans';
 $string['pgcluster'] = 'PostgreSQL Cluster';
 $string['pgclusterdescription'] = 'Komut satırı işlemleri için PostgreSQL sürüm/küme parametresi. Sisteminizde birden fazla postgresql varsa veya ne yaptığınızı bilmiyorsanız bunu boş bırakın.';
 $string['php50restricted'] = 'PHP 5.0.x sürümünde çok fazla hata var. Lütfen sürümü, 5.1.x\'e yükseltin ya da 4.3.x veya 4.4.x sürümüne düşürün.';
