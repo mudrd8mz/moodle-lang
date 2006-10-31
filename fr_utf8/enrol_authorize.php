@@ -18,7 +18,7 @@ $string['adminhelpcapturetitle'] = 'Jour de saisie programmée';
 $string['adminhelpreviewtitle'] = 'Contrôle de commande';
 $string['adminneworder'] = 'Cher administrateur,
   	 
-Vous avez reçu un nouvel ordre en attente :
+Vous avez reçu une nouvelle commande en attente :
 
     No de commande : $a->orderid
     No de transaction : $a->transid
@@ -36,10 +36,11 @@ $a->expireon et ne pourront plus être saisies après cette date.
 Vous pouvez aussi accepter ou refuser le paiement afin d\'inscrire
 immédiatement l\'étudiant en cliquant sur le lien ci-dessous.
 $a->url';
-$string['adminnewordersubject'] = '$a->course, nouvel ordre en attente de traitement : $a->orderid';
+$string['adminnewordersubject'] = '$a->course, nouvelle commande en attente de traitement : $a->orderid';
 $string['adminpendingorders'] = 'Vous avez désactivé la saisie programmée.<br />Un total de $a->count transactions dont le statut est «&nbsp;Autorisé / En attente de saisie&nbsp;» seront annulées après échéance, à moins que vous ne les approuviez entre-temps.<br />Pour accepter ou refuser des paiements, visitez la page <a href=\'$a->url\'>Gestion des paiements</a>.';
 $string['adminreview'] = 'Contrôle de la commande avant envoi des données de la carte de crédit.';
 $string['adminteachermanagepay'] = 'Les enseignants peuvent gérer les paiements du cours.';
+$string['allpendingorders'] = 'Toutes les commandes en attente';
 $string['amount'] = 'Montant';
 $string['anlogin'] = 'Authorize.net&nbsp;: nom d\'utilisateur';
 $string['anpassword'] = 'Authorize.net&nbsp;: mot de passe';
@@ -114,7 +115,7 @@ $string['nameoncard'] = 'Nom sur la carte';
 $string['new'] = 'Nouveau';
 $string['noreturns'] = 'Pas de retour&nbsp;!';
 $string['notsettled'] = 'Non réglé';
-$string['orderid'] = 'No d\'ordre';
+$string['orderid'] = 'No de commande';
 $string['paymentmanagement'] = 'Gestion des paiements';
 $string['paymentmethod'] = 'Méthode de paiement';
 $string['paymentpending'] = 'Votre paiement pour ce cours est en attente de traitement. Son numéro de commande est $a->orderid. Voir les <a href=\'$a->url\'>détails de la commande</a>.';
