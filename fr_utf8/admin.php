@@ -1,6 +1,10 @@
 <?php // $Id$
 
 // begin {added with admin cleanup}
+$string['experimental'] = 'Expérimental';
+$string['enableglobalsearch'] = 'Activer la recherche globale';
+$string['configenableglobalsearch'] = 'Ce réglage active le moteur de recherche plein texte global des ressources et activités, qui n\'est pas compatible avec PHP 4.';
+$string['enableajax'] = 'Activer AJAX';
 $string['autologinguests'] = 'Connecter automatiquement les invités';
 $string['search'] = 'Recherche';
 $string['searchresults'] = 'Résultats';
