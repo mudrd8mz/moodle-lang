@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.7 dev (2006092000)
+      // grades.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['addcategory'] = 'カテゴリの追加';
@@ -54,7 +54,7 @@ $string['hidecategory'] = '隠す';
 $string['highgradeascending'] = '高評点の昇順で並び替え';
 $string['highgradedescending'] = '高評点の降順で並び替え';
 $string['highgradeletter'] = '上限';
-$string['incorrectcourseid'] = 'コースIDが間違っています。';
+$string['incorrectcourseid'] = 'コースIDが正しくありません。';
 $string['item'] = '項目';
 $string['items'] = '項目';
 $string['lettergrade'] = '評定文字';

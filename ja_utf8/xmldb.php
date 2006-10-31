@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 dev (2006092600)
+      // xmldb.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['aftertable'] = '次のテーブルの後:';
@@ -19,6 +19,7 @@ $string['confirmdeletexmlfile'] = '本当にファイルを完全に削除して
 $string['confirmrevertchanges'] = '本当に変更を元に戻してもよろしいですか:';
 $string['create'] = '作成';
 $string['createtable'] = 'テーブルの作成:';
+$string['defaultincorrect'] = 'デフォルトが正しくありません。';
 $string['delete'] = '削除';
 $string['delete_field'] = 'フィールドの削除';
 $string['delete_index'] = 'インデックスの削除';

@@ -1,7 +1,7 @@
 MOODLE JAPANESE TRANSLATION
 ----------------------------------------------------------------------
 STARTED                       : November  21, 2002
-LAST MODIFIED                 : October   31, 2006
+LAST MODIFIED                 : November   1, 2006
 ----------------------------------------------------------------------
 
 Mitsuhiro Yoshida ( http://mitstek.com/ )
@@ -25,6 +25,10 @@ Paul Tsuchido Shew ( http://shew.jp/ )
 Haruhiko Okumura ( http://oku.edu.mie-u.ac.jp/~okumura/ )
  Translation brushup
 
+Hiroto Kagotani ( http://www.infsys.cne.okayama-u.ac.jp/~kagotani/ )
+ Translation: a part of /lang/ja_utf8/help/*
+ Translation brushup
+
 Tatsuya Aoyagi
  Translation: /lang/ja_utf8/questionnaire.php
  Translation: /lang/ja_utf8/help/questionnaire
@@ -34,10 +38,6 @@ Tatsuya Aoyagi
 Masataka Nakaue ( http://ldt.stanford.edu/~mnakauye/ )
  Translation: /lang/ja_utf8/book.php
  Translation: /lang/ja_utf8/help/book
-
-Hiroto Kagotani ( http://www.infsys.cne.okayama-u.ac.jp/~kagotani/ )
- Translation: /lang/ja_utf8/help/*
- Translation brushup
 
 Thomas N. Robb ( http://www.kyoto-su.ac.jp/~trobb/ )
  Translation brushup
