@@ -8,6 +8,8 @@ $string['adminauthorizeemail'] = 'Réglages d\'envoi de courriel';
 $string['adminauthorizesettings'] = 'Réglages Authorize.net';
 $string['adminauthorizewide'] = 'Réglages globaux';
 $string['adminavs'] = 'Cochez cette option si vous avez activé Address Verification System (AVS) dans votre compte authorize.net. Lorsque l\'utilisateur remplit le formulaire de paiement, il lui sera alors demandé de saisir les champs de l\'adresse, par exemple la rue, le code postal, le pays, etc.';
+$string['adminconfighttps'] = 'Veuillez vous assurez que l\'option <a href=\"$a->url\">loginhttps</a> est activée pour utiliser cette méthode.';
+$string['adminconfighttpsgo'] = 'Passer sur une <a href=\"$a->url\">page sécurisée</a> pour configurer cette méthode.';
 $string['admincronsetup'] = 'Le script de maintenance cron.php n\'a pas été lancé depuis plus de 24 heures.<br />Ce script doit être activé si vous voulez utiliser la saisie programmée.<br />Veuillez <b>activer</b> le plugin Authorize.net et régler le cron, ou décocher la variable an_review.<br />Si vous désactivez la saisie programmée, les transactions seront annulées à moins que vous ne les approuviez dans les 30 jours.<br />Cochez la variable an_review et inscrivez «&nbsp;0&nbsp;» dans le champ de la variable an_capture_day<br />si vous voulez accepter ou refuser manuellement les paiements durant 30 jours.';
 $string['adminemailexpired'] = 'Ce réglage est utile si vous avez choisi la saisie manuelle. Les administrateurs sont avertis par courriel <b>$a</b> jours avant l\'échéance des commandes en attente de traitement.';
 $string['adminemailexpiredsort'] = 'Lorsque le nombre de commandes en suspens est envoyé par courriel aux enseignants, quelle est le paramètre important&nbsp;?';
