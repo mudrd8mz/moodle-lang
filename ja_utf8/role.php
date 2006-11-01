@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 dev (2006102400)
+      // role.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['addrole'] = '新しいロールを追加する';

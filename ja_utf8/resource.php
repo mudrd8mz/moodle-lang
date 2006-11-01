@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8 dev (2006101001)
+      // resource.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['addresource'] = 'リソースを追加する';

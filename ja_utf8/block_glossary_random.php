@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_glossary_random.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005033100)
+      // block_glossary_random.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['addentry'] = 'お気に入りの引用を追加!';

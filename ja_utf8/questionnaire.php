@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // questionnaire.php - created with Moodle 1.7 dev (2006100401)
+      // questionnaire.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['addaline'] = '答えの行を追加する';

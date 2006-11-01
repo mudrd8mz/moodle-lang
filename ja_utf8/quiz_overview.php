@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 1.7 dev (2006060900)
+      // quiz_overview.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['allattempts'] = 'すべての受験を表示する';

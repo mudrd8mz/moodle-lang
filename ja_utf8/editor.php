@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 dev (2006101001)
+      // editor.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['about'] = 'エディタに関して';

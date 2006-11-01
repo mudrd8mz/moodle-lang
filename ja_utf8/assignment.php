@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.8 dev (2006101001)
+      // assignment.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['allowdeleting'] = '削除を許可する';

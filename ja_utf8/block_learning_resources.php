@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_learning_resources.php - created with Moodle 1.7 dev (2006092302)
+      // block_learning_resources.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['actions'] = '操作';

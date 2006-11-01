@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.6 development (2006031400)
+      // enrol_database.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['autocreate'] = 'まだMoodleに作成されていないコースへの登録ユーザがある場合、コースを自動的に作成します。';

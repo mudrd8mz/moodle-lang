@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 dev (2006101001)
+      // quiz.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['1day'] = '1日';
@@ -172,7 +172,7 @@ $string['event1'] = '自動保存';
 $string['event2'] = '保存';
 $string['event3'] = '評定';
 $string['event5'] = '確認';
-$string['event6'] = '閉じる&評定';
+$string['event6'] = '閉じる&amp;評定';
 $string['event7'] = '送信';
 $string['event8'] = '閉じる';
 $string['event9'] = '手動評定';

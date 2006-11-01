@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_course_list.php - created with Moodle 1.7 dev (2006100401)
+      // block_course_list.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['allcourses'] = '管理者はすべてのコースを閲覧可';

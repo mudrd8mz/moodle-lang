@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.8 dev (2006102200)
+      // exercise.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['absent'] = '欠席';

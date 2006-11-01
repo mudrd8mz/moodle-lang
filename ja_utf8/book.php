@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // book.php - created with Moodle 1.7 beta (2006101000)
+      // book.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['addafter'] = '章の追加';

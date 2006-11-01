@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // my.php - created with Moodle 1.7 dev (2006052400)
+      // my.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['mymoodle'] = 'マイコースのオーバービュー';

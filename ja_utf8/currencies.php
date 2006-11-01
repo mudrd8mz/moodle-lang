@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // currencies.php - created with Moodle 1.7 dev (2006091901)
+      // currencies.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['AED'] = 'アラブ首長国連邦・ディルハム';

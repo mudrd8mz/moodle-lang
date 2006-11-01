@@ -153,6 +153,7 @@ $string['configsessioncookie'] = 'ここでは、Moodleのセッションで使�
 $string['configsessioncookiepath'] = 'ブラウザが送信するMoodleクッキーの場所を変更したい場合、ここでウェブサイトのサブディレクトリを指定することができます。変更しない場合、デフォルトの「/」をお使いください。';
 $string['configsessiontimeout'] = 'このサイトにログインして長時間何もしない ( ページを更新しない ) 場合、自動的にログアウト ( セッションを終了 ) させます。この変数には、ログアウトさせるまでの時間を設定します。';
 $string['configshowblocksonmodpages'] = 'いくつかの活動モジュールでは、ページにブロックを表示することができます。この設定を有効にした場合、教師はサイドブロックをページに追加することができます。「No」にした場合、この機能は表示されません。';
+$string['configshowsiteparticipantslist'] = 'すべての学生および教師が参加者リストに表示されます。誰がこの参加者リストを閲覧することができますか?';
 $string['configsitemailcharset'] = 'あなたのサイトで生成されたすべてのメールは、ここで指定した文字コードで送信されます。次の設定が有効にされた場合、ユーザは自分の文字コードを指定することができます。';
 $string['configsitepolicy'] = 'このサイトを使用する前に、すべてのユーザがサイト使用許諾に同意する必要がある場合、サイト使用許諾ページのURLを指定してください。同意する必要が無い場合、空白のままにしてください。URLは自由に指定することができます - 便利な場所は、サイトファイルの中です。<br />
 例 http://yoursite/file.php/1/policy.html';
@@ -412,6 +413,7 @@ $string['statsuserthreshold'] = 'ユーザ閾値';
 $string['stickyblocks'] = 'スティッキーブロック';
 $string['stickyblockscourseview'] = 'コースページ';
 $string['stickyblocksduplicatenotice'] = 'あなたがここで追加するブロックが、すでにページに存在する場合、重複することになります。<br />固定されたブロックのみ編集不可で、重複したブロックは編集することができます。';
+$string['stickyblocksmymoodle'] = 'マイ moodle';
 $string['stickyblockspagetype'] = '設定するページタイプ';
 $string['systempaths'] = 'システムパス';
 $string['tabselectedtofront'] = 'タブ付きテーブルで、現在選択されているタブを最前部に表示します。';

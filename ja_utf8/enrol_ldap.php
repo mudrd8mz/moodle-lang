@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.7 dev (2006082800)
+      // enrol_ldap.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['description'] = '<p>ユーザ登録をコントロールするために、LDAPサーバを使用することができます。LDAPの使用は、あなたのLDAPツリーがコースに登録されているグループを含んでいること、それぞれのグループ/コース内に学生に対応したメンバー登録があることを前提とします。</p>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.6 Beta 2 (2006040500)
+      // dialogue.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['addmynewentries'] = '新しいエントリを追加';
@@ -10,7 +10,7 @@ $string['allowstudentdialogues'] = '学生 - 学生のダイアログを許可�
 $string['close'] = '閉じる';
 $string['closed'] = '閉鎖中';
 $string['closeddialogues'] = '閉鎖中のダイアログ';
-$string['confirmclosure'] = '$a とのダイアログを閉じようとしています。終了したダイアログは再開することはできません。このダイアログを閉じた場合、閲覧することは可能ですが追加することはできません。この人と計測して\"会話\"を行う場合、再度ダイアログを開始する必要があります。<br /><br />本当にこのダイアログを閉じてもよろしいですか?';
+$string['confirmclosure'] = '$a とのダイアログを閉じようとしています。終了したダイアログは再開することはできません。このダイアログを閉じた場合、閲覧することは可能ですが追加することはできません。この人と継続して「会話」する場合、再度ダイアログを開始する必要があります。<br /><br />本当にこのダイアログを閉じてもよろしいですか?';
 $string['deleteafter'] = '終了したダイアログを削除する ( ○日後 )';
 $string['dialogueclosed'] = 'ダイアログが閉じられました';
 $string['dialogueintro'] = 'ダイアログイントロダクション';
@@ -20,7 +20,7 @@ $string['dialoguemail'] = '$a->userfrom が新しいエントリをあなたの�
 
 $a->url';
 $string['dialoguemailhtml'] = 'a->userfrom があなたのダイアログエントリ \'<i>$a->dialogue</i>\' に新しいエントリを投稿しました。<br /><br />
-あなたの<a href=\"$a->url\">ダイアログ</a>でご覧になれます。 ';
+あなたの<a href=\"$a->url\">ダイアログ</a>でご覧になれます。';
 $string['dialoguename'] = 'ダイアログ名';
 $string['dialogueopened'] = '$a により開かれたダイアログ';
 $string['dialoguewith'] = '$a とのダイアログ';

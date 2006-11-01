@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8 dev (2006102200)
+      // choice.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['addmorechoices'] = '選択肢の追加';

@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // mimetypes.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // mimetypes.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['application/msword'] = 'Word文書';
 $string['application/pdf'] = 'PDF文書';
-$string['application/vnd.ms-excel'] = 'Excelスプレッドシート ';
+$string['application/vnd.ms-excel'] = 'Excelスプレッドシート';
 $string['application/vnd.ms-powerpoint'] = 'Powerpointプレゼンテーション';
 $string['application/zip'] = 'ZIP書庫';
 $string['audio/mp3'] = 'MP3オーディオファイル';

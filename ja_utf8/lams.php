@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.7 dev (2006092409)
+      // lams.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['createSequence'] = '新しいシーケンスの作成';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_course_summary.php - created with Moodle 1.7 dev (2006082800)
+      // block_course_summary.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['coursesummary'] = 'コース要約';

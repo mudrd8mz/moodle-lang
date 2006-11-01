@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_manual.php - created with Moodle 1.6 development (2006031000)
+      // enrol_manual.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['description'] = 'これは、ユーザ登録のデフォルトのユーザ登録方法です。学生をコースに登録する2つの方法があります。

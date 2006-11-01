@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_responses.php - created with Moodle 1.6 development (2006032200)
+      // quiz_responses.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['pagesize'] = '1ページあたりの受験数:';

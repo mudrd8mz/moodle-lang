@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.7 dev (2006082300)
+      // message.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['addcontact'] = 'コンタクトリストに追加';

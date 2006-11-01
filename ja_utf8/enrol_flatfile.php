@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_flatfile.php - created with Moodle 1.7 dev (2006091212)
+      // enrol_flatfile.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['description'] = 'この方法では、あなたが指定した場所に置いた特別にフォーマットされたテキストファイルを繰り返しチェックします。ファイルはカンマ区切りのファイルで、1行あたり4個または6個のフィールドを持ちます:

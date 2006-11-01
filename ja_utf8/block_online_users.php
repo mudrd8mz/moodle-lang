@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_online_users.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004112900)
+      // block_online_users.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['blockname'] = 'オンラインユーザ';

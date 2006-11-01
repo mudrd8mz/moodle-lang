@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.7 dev (2006092410)
+      // enrol_imsenterprise.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['aftersaving...'] = 'あなたの設定を保存した後、';

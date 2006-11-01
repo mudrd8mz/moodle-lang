@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.8 dev (2006101001)
+      // install.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['admindirerror'] = '設定されたadminディレクトリが間違っています。';
