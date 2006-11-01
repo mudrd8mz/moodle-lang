@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 dev (2006092801)
+      // xmldb.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['aftertable'] = 'Tablodan Sonra:';
@@ -19,6 +19,7 @@ $string['confirmdeletexmlfile'] = 'Dosyayı tamamen silmek istediğinizden emin 
 $string['confirmrevertchanges'] = 'Daha önceden yapılan değişiklikleri geri almak istediğinizden emin misiniz:';
 $string['create'] = 'Oluştur';
 $string['createtable'] = 'Tablo Oluştur';
+$string['defaultincorrect'] = 'Geçersiz varsayılan';
 $string['delete'] = 'Sil';
 $string['delete_field'] = 'Alanı Sil';
 $string['delete_index'] = 'İndeksi Sil';
