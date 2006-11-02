@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // tex.php - created with Moodle 1.2 (2004032000)
+      // tex.php - created with Moodle 1.6.3 (2006050530)
 
 
-$string['filtername'] = 'Skriv med TeX';
+$string['filtername'] = 'TeX-notasjon';
 
 ?>
