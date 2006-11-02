@@ -1,16 +1,19 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 dev (2006102200)
+      // enrol_authorize.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['adminacceptccs'] = '어떤 유형의 카드가 가능합니까?';
 $string['adminaccepts'] = '허용되는 지불 방법 및 유형 선택';
+$string['adminauthcode'] = '만일 사용자의 신용카드로 인터넷 상에서 직접 수납하지 못하면, 거래자의 은행으로부터 전화를 통해서 인증코드를 획득하라.';
 $string['adminauthorizeccapture'] = '수강신청 검토 및 자동 징수 설정';
 $string['adminauthorizeemail'] = '이메일 보내기 설정';
 $string['adminauthorizesettings'] = 'Authorize.net 설정';
 $string['adminauthorizewide'] = '사이트 전역 설정';
 $string['adminavs'] = '인증 기관 계정에서 주소 확인 시스템(AVS)을 활성화하기 위해서는 이것을 체크하시오. 이것은 사용자가 지불양식을 작성할때 동, 시, 국가 및 우편번호 등의 주소 항목을 입력하도록 요구합니다.';
+$string['adminconfighttps'] = '관리 &gt;&gt; 변수 &gt;&gt; 보안 &gt;&gt; HTTP 보안 으로 가서 \"<a href=\"$a->url\">loginhttps를 활성화</a>\"해 놓은 것을 잊지말기 바랍니다.';
+$string['adminconfighttpsgo'] = '이 플러그인을 설정하기 위해서는 <a href=\"$a->url\">보안 화면</a>으로 가라.';
 $string['admincronsetup'] = 'cron.php 유지 스크립트가 최소 24시간 동안 작동하고 있지 않습니다. <br/>자동 징수 기능을 사용하기 위해서는 Cron이 활성화되어야 합니다. <br/>cron을 적절하게 설정하거나 an_review를 체크해제 하십시요. <br/> 만일 자동 징수 기능을 비활성화하고 30일 이전에 검토를 하지 않으면 거래는 취소됩니다. <br/> 만일 수동으로 30일 이내에 지불을 승인하거나 거절하기를 원한다면 <br/> an_review를 체크하고 an_capture_day 항목에 \'0\'을 입력하시오.';
-$string['adminemailexpired'] = '이 기능은 수동 수납 때 유용합니다. 유보된 수강신청이 파기되기 <b>$a</b>일 전에 관리자에게 통지합니다.';
+$string['adminemailexpired'] = '이 기능은 \'수동 수납\' 때 유용합니다. 유보된 수강신청이 파기되기 <b>$a</b>일 전에 관리자에게 통지합니다.';
 $string['adminemailexpiredsort'] = '담당 교사에게 파기될 수강신청에 대한 이메밀을 보내게 될 때, 어느 사항이 중요합니까?';
 $string['adminemailexpiredsortcount'] = '수강신청 수';
 $string['adminemailexpiredsortsum'] = '총 합계';
@@ -32,10 +35,11 @@ $string['adminneworder'] = '관리자님께,
 만일 자동 징수가 활성화되어 있다면, 신용카드로부터 $a->captureon 에 징수될 것이며 학생은 배움터에 등록될 수 있을 것입니다. 그렇지 않으면  $a->expireon 에 실효될 것이고 이 날 이후로는 징수될 수 없습니다.
 
 당신은 $a->url 에서 학생들 등록시키기 위하여 지불을 승인하거나 거부할 수 있습니다.';
-$string['adminnewordersubject'] = '$a->course: 새로운 미결된 수강신청($a->orderid)';
+$string['adminnewordersubject'] = '$a->course;새로운 미결된 수강신청:$a->orderid';
 $string['adminpendingorders'] = '당신은 자동 징수 기능을 비활성화 하였습니다. <br/> 총금액은 $a->count 이고 AN_STATUS_AUTH 상태의 거래가 당신이 체크를 하지 않으면 취소될 것입니다. <br />지불을 승인/거절하기 위해서는<a href=\'$a->url\'> 지불 관리 </a> 페이지로 가십시요.';
 $string['adminreview'] = '신용카드를 처리하기 전에 주문을 검토하시오.';
 $string['adminteachermanagepay'] = '교사는 자신의 배움터에 대한 지불을 관리할 수 있습니다.';
+$string['allpendingorders'] = '유보된 모든 주문';
 $string['amount'] = '금액';
 $string['anlogin'] = 'Authorize.net: 접속 이름';
 $string['anpassword'] = 'Authorize.net: 비밀번호';
@@ -44,7 +48,9 @@ $string['antestmode'] = '테스트 모드로만 이용하실수 있습니다. (n
 $string['antrankey'] = 'Authorize.net: 거래키';
 $string['approvedreview'] = '승인된 검토';
 $string['authcaptured'] = '승인/징수됨';
+$string['authcode'] = '인증 코드';
 $string['authorize:managepayments'] = '지불 관리';
+$string['authorize:uploadcsv'] = 'CSV 파일 올리기';
 $string['authorizedpendingcapture'] = '승인/징수 처리중';
 $string['avsa'] = '주소(거리)이름은 일치하지만 우편번호는 일치하지 않습니다.';
 $string['avsb'] = '주소 정보가 제공되지 않았습니다.';
@@ -89,6 +95,7 @@ $string['echeckfirslasttname'] = '예금주';
 $string['echecksavings'] = '저축';
 $string['enrolname'] = 'Authorize.net 신용카드 게이트웨이';
 $string['expired'] = '파기됨';
+$string['haveauthcode'] = '이미 인증코드를 확보함';
 $string['howmuch'] = '얼마나?';
 $string['httpsrequired'] = '저희는 당신이 요구가 신속하게 처리되지 못한 점에 대해  죄송하게 생각합니다. 이 사이트의 설정이 현재 제대로 작동되지 않았습니다. 
 <br /><br />
@@ -106,6 +113,7 @@ $string['missingaba'] = 'ABA 코드 누락';
 $string['missingaddress'] = '주소 누락';
 $string['missingbankname'] = '은행명 누락';
 $string['missingcc'] = '카드번호  누락';
+$string['missingccauthcode'] = '인증코드 누락';
 $string['missingccexpire'] = '만료일  누락';
 $string['missingcctype'] = '카드종류 누락';
 $string['missingcvv'] = '입증 번호 누락';

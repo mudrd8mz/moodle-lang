@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.8 dev (2006101001)
+      // workshop.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['absent'] = '결석';
@@ -34,7 +34,7 @@ $string['assessmentofresubmission'] = '이것은 수정된 업무의 평가입�
 $string['assessmentofthissubmission'] = '이 제출에 대한 평가';
 $string['assessments'] = '평가';
 $string['assessmentsareok'] = '평가에 동의';
-$string['assessmentsby'] = '$a 가 한 평가';
+$string['assessmentsby'] = '$a 의 평가';
 $string['assessmentsdone'] = '평가완료';
 $string['assessmentsexcluded'] = '$a 를 제외한 평가의 수';
 $string['assessmentsmustbeagreed'] = '평가는 동의되어야 합니다 .';
