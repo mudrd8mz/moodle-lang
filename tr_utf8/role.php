@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006092801)
+      // role.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['addrole'] = 'Yeni rol ekle';
 $string['allow'] = 'İzin ver';
 $string['allowassign'] = 'Rol ataması izni';
-$string['allowoverride'] = 'Rolün üstüne yazma izni';
+$string['allowoverride'] = 'Eski rolü geçersiz kılma izni';
 $string['assignroles'] = 'Rolleri ata';
 $string['blog:create'] = 'Yeni blog kayıtları oluştur';
 $string['blog:manageentries'] = 'Kayıtları düzelt ve yönet';
@@ -36,7 +36,7 @@ $string['course:setcurrentsection'] = 'Şimdiki bölümü ayarla';
 $string['course:update'] = 'Kurs ayarlarını güncelle';
 $string['course:useremail'] = 'E-posta adreslerini etkinleştir/pasifleştir';
 $string['course:view'] = 'Kurslara bak';
-$string['course:viewcoursegrades'] = 'Kurs notlarına bak';
+$string['course:viewcoursegrades'] = 'Kurs başarı notlarına bak';
 $string['course:viewhiddenactivities'] = 'Gizli etkinliklere bak';
 $string['course:viewhiddencourses'] = 'Gizli kurslara bak';
 $string['course:viewhiddensections'] = 'Gizli bölümlere bak';
@@ -68,7 +68,7 @@ $string['metaassignerror'] = 'Metakurs yönetim yetkisi gerekli olduğundan dola
 $string['metaunassignerror'] = '\"$a\" kullanısının rolü otomatikmen yeniden atandı, lütfen bunun yerine alt kurstaki rolü kaldırın.';
 $string['nocapabilitiesincontext'] = 'Bu bağlamda yetki yok';
 $string['overrideroles'] = 'Rollerin üstüne yaz';
-$string['overrides'] = 'Tekrar tanımlanan';
+$string['overrides'] = 'Eskisini geçersiz kıl';
 $string['permissions'] = 'İzinler';
 $string['potentialusers'] = '$a olası kullanıcı';
 $string['prevent'] = 'Engelle';
@@ -80,7 +80,7 @@ $string['question:managecategory'] = 'Soru kategorilerini yönet';
 $string['risks'] = 'Riskler';
 $string['role:assign'] = 'Kullanıcılara rol ata';
 $string['role:manage'] = 'Rolleri oluştur ve yönet';
-$string['role:override'] = 'Diğerleri için izinlerin üstüne yaz';
+$string['role:override'] = 'Diğerleri için eski izinleri geçersiz kıl';
 $string['role:switchroles'] = 'Diğer rollere geçiş yap';
 $string['role:unassignself'] = 'Kendi rolünü kaldır';
 $string['role:viewhiddenassigns'] = 'Gizli rol atamalarına bak';
