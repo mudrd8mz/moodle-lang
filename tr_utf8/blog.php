@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8 dev (2006101001)
+      // blog.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['addnewentry'] = 'Yeni kayıt ekle';
@@ -14,17 +14,19 @@ $string['blogpreferences'] = 'Blog seçenekleri';
 $string['blogs'] = 'Bloglar';
 $string['blogtags'] = 'Blog Etiketleri';
 $string['courseblog'] = 'Kurs blogu: $a';
+$string['courseblogs'] = 'Kullanıcılar, sadece kursta paylaşıma açılan kullanıcı bloglarını görebilir';
 $string['disableblogs'] = 'Blog sistemini tamamen kapat';
 $string['emptybody'] = 'Blog metni boş olamaz';
 $string['emptytitle'] = 'Blog başlığı boş olamaz';
 $string['entrybody'] = 'Blog metni';
 $string['entrybodyonlydesc'] = 'Açıklama';
-$string['entryerrornotyours'] = 'Bu size ait değil';
+$string['entryerrornotyours'] = 'Bu kayıt size ait değil';
 $string['entrysaved'] = 'Girdiniz kaydedildi';
-$string['entrytitle'] = 'Başlık';
+$string['entrytitle'] = 'Kayıt başlığı';
 $string['entryupdated'] = 'Blog güncellendi';
 $string['groupblog'] = 'Grup blogu: $a';
-$string['intro'] = 'Bu RSS içeriği bir veya birden fazla blogdan oluşturuldu.';
+$string['groupblogs'] = 'Kullanıcılar, sadece grupta paylaşıma açılan kullanıcı bloglarını görebilir';
+$string['intro'] = 'Bu RSS içeriği bir veya birden fazla blogdan otomatik olarak oluşturuldu.';
 $string['noentriesyet'] = 'Burada görünen kayıt yok';
 $string['noguestpost'] = 'Konuklar blog gönderemezler!';
 $string['norighttodeletetag'] = 'Bu etiketi silme hakkınız yok - $a';
@@ -33,13 +35,13 @@ $string['numberofentries'] = 'Kayıtlar: $a';
 $string['numberoftags'] = 'Gösterilecek etiket sayısı';
 $string['otags'] = 'Resmi etiketler';
 $string['pagesize'] = 'Her sayfadaki blog sayısı';
-$string['personalblogs'] = 'Kullanıcılar sadece kendi bloglarını görebilirler';
+$string['personalblogs'] = 'Kullanıcılar sadece kendi bloglarını görebilir';
 $string['ptags'] = 'Kullanıcı tanımlı etiketler';
 $string['publishto'] = 'Yayınla';
 $string['publishtonoone'] = 'Kendiniz (taslak)';
 $string['publishtosite'] = 'Bu sitedeki herkese';
 $string['publishtoworld'] = 'Bu dünyadaki herkese';
-$string['settingsupdatederror'] = 'Bir hata oluştu, blog seçenekleri ayarları kaydedilemedi';
+$string['settingsupdatederror'] = 'Bir hata oluştu, blog seçenekleri ayarları güncellenemedi';
 $string['siteblog'] = 'Site blogu: $a';
 $string['siteblogs'] = 'Tüm site kullanıcıları tüm blog kayıtlarını görebilir';
 $string['tagdatelastused'] = 'En son kullanım tarihi';
@@ -51,5 +53,6 @@ $string['userblog'] = 'Kullanıcı blogu: $a';
 $string['viewcourseentries'] = 'Kurs kayıtlarına bak';
 $string['viewmyentries'] = 'Kayıtlarıma bak';
 $string['viewsiteentries'] = 'Site kayıtlarına bak';
+$string['worldblogs'] = 'Tüm dünyaya açık olarak ayarlanmış blogları görebilir';
 
 ?>
