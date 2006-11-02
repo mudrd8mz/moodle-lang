@@ -10,6 +10,8 @@ $string['adminauthorizeemail'] = 'E-Posta Gönderme Ayarları';
 $string['adminauthorizesettings'] = 'Authorize.net Ayarları';
 $string['adminauthorizewide'] = 'Site Geneli Ayarları';
 $string['adminavs'] = 'Authorize.net hesabınızda AVS\'yi (Adres Doğrulama Sistemi) etkinleştirdiyseniz bunu seçin. Kullanıcı ödeme formunu doldururken cadde, ülke, posta kodu gibi adres alanları istenir.';
+$string['adminconfighttps'] = 'Bu eklentiyi kullanmak için lütfen,<br />Yönetim &gt;&gt; Değişkenler &gt;&gt; Güvenlik &gt;&gt; HTTP güvenliği içindeki \"<a href=\"$a->url\">loginhttps</a>\" ayarını AÇIK yapın.';
+$string['adminconfighttpsgo'] = 'Bu eklentiyi yapılandırmak için <a href=\"$a->url\">güvenli sayfaya</a> geçin.';
 $string['admincronsetup'] = 'Cron.php bakım betiği son 24 saattir çalışmıyor. <br />Zamanlanmış-çekme özelliğini kullanmak istiyorsanız cron etkin olmalı.<br />\'Authorize.net eklentisini\' <b>etkinleştirin</b> ve <b>cronu</b> düzgün ayarlayın; ya da an_review\'i tekrar <b>seçili durumdan kaldırın.</b><br />Zamanlanmış-çekmeyi etkinleştirmezseniz ve 30 gün içinde işlemleri incelemezseniz işlem iptal edilir.<br />Ödemeleri 30 gün içinde <b>elle</b> kabul etmek veya iptal etmek istiyorsanız <b>an_review\'i seçin</b> ve <b>an_capture_day alanına \'0\'</b> girin.';
 $string['adminemailexpired'] = 'Bu \'Elle-Çekme\' için kullanışlıdır. Yöneticiler, onay bekleyen siparişlerin süresi dolmadan <b>$a</b> gün önce bilgilendirilir.';
 $string['adminemailexpiredsort'] = 'Süresi dolacak siparişlerin sayısı emaille eğitimcilere gönderilirken hangisi önemli?';
