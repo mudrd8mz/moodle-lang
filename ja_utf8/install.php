@@ -37,7 +37,7 @@ $string['databasecreationsettingssub'] = '<b>タイプ:</b> インストーラ�
 <b>ユーザ名:</b> インストーラーにより「root」に修正されました。<br />
 <b>パスワード:</b> あなたのデータベースパスワードです。<br />
 <b>テーブル接頭辞:</b> すべてのテーブル名に使用される任意の接頭辞です。';
-$string['databasesettings'] = 'ほとんどのMoodleデータが保存されるデータベース設定を行います。このデータベースは、アクセスするためのユーザ名およびパスワードと共にすでに作成されている必要があります。<br/>
+$string['databasesettings'] = 'ほとんどのMoodleデータが保存されるデータベース設定を行います。このデータベースは、アクセスするためのユーザ名およびパスワードとともにすでに作成されている必要があります。<br/>
 <br /> <br />
 <b>タイプ:</b> mysql または postgres7<br />
 <b>ホスト:</b> 例 localhost または db.isp.com<br />
@@ -45,7 +45,7 @@ $string['databasesettings'] = 'ほとんどのMoodleデータが保存される�
 <b>ユーザ名:</b> データベースのユーザ名<br />
 <b>パスワード:</b> データベースのパスワード<br />
 <b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 ( 任意 )';
-$string['databasesettingshead'] = 'ほとんどのMoodleデータが保存されるデータベース設定を行います。このデータベースは、アクセスするためのユーザ名およびパスワードと共にすでに作成されている必要があります。';
+$string['databasesettingshead'] = 'ほとんどのMoodleデータが保存されるデータベース設定を行います。このデータベースは、アクセスするためのユーザ名およびパスワードとともにすでに作成されている必要があります。';
 $string['databasesettingssub'] = '<b>タイプ:</b> mysql または postgres7<br />
 <b>ホスト:</b> 例 localhost または db.isp.com<br />
 <b>データベース名:</b> 例 moodle<br />
