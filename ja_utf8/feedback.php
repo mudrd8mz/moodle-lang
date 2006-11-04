@@ -2,8 +2,11 @@
       // feedback.php - created with Moodle 1.8 dev (2006102600)
 
 
+$string['all_old_values_will_be_deleted'] = '現在の質問およびすべてのユーザの回答内容が削除されます。';
+$string['all_related_values_will_be_deleted'] = 'この質問に関する、すべてのユーザの回答内容も削除されます。';
 $string['analysis'] = '分析';
 $string['anonymous'] = '匿名';
+$string['anonymous_edit'] = 'ユーザ名を記録する';
 $string['anonymous_entries'] = '匿名エントリ';
 $string['are_you_sure_to_delete_this_entry'] = '本当にこのエントリを削除してもよろしいですか?';
 $string['are_you_sure_to_delete_this_item'] = '本当にこの要素を削除してもよろしいですか?';
@@ -35,6 +38,8 @@ $string['modulenameplural'] = 'フィードバック活動';
 $string['move_item'] = 'この質問を移動する';
 $string['movedown_item'] = 'この質問を下げる';
 $string['moveup_item'] = 'この質問を上げる';
+$string['multiple_submit'] = '複数回答<br /><small>匿名のフィードバックの場合、すべてのユーザが制限なしで回答することができます。<br/>ユーザ名が記録されるフィードバックの場合、ユーザが再度回答することができます。</small>';
+$string['non_anonymous'] = 'ユーザ名が記録され、回答とともに表示されます。';
 $string['page'] = 'ページ';
 $string['page_after_submit'] = '回答送信後のページ';
 $string['pagebreak'] = 'ページブレーク';
@@ -45,9 +50,9 @@ $string['public'] = '公開';
 $string['publish_stats_on_students'] = '学生に分析を表示する';
 $string['question'] = '質問';
 $string['questions'] = '質問';
-$string['radio_values'] = 'レスポンス';
+$string['radio_values'] = '回答内容';
 $string['required'] = '必須';
-$string['responses'] = 'レスポンス';
+$string['responses'] = '回答内容';
 $string['save_as_new_template'] = '新しいテンプレートとして保存する';
 $string['save_entries'] = 'あなたの回答を送信する';
 $string['save_item'] = '質問を保存する';
@@ -55,8 +60,8 @@ $string['saving_failed'] = '保存に失敗しました。';
 $string['separator_decimal'] = '.';
 $string['separator_thousand'] = ',';
 $string['show_all'] = 'すべてを表示する';
-$string['show_entries'] = 'レスポンスを表示する';
-$string['show_entry'] = 'レスポンスを表示する';
+$string['show_entries'] = '回答内容を表示する';
+$string['show_entry'] = '回答内容を表示する';
 $string['start'] = '開始';
 $string['stop'] = '終了';
 $string['template'] = 'テンプレート';
