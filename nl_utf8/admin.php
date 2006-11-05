@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2006102400)
+      // admin.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['accounts'] = 'Accounts';
@@ -73,7 +73,10 @@ $string['configdisplayloginfailures'] = 'Dit zal informatie tonen over mislukte 
 $string['configdocroot'] = 'Bepaalt het pad naar Moodle Docs. Je kunt dit wijzigen als je je eigen aangepaste on line documentatie wil. Als je dat wil doen, moet je er wel voor zorgen dat de vorm van het pad er naartoe dezelfde is als http://docs.moodle.org';
 $string['configdoctonewwindow'] = 'Als je dit aanzet zullen links naar Moodle Docs geopend worden in een nieuw venster';
 $string['configeditorfontlist'] = 'Kies de lettertypes die in het dropdownmenu van de editor zouden moeten verschijnen';
+$string['configenableajax'] = 'Met deze instelling kun je het gebruik van AJAX (een geavanceerde op Javascript gebaseerde client/serverinterface) controleren voor de hele site. Met deze instelling aan kunnen gebruikers nog steeds kiezen via hun profiel of ze AJAX willen gebruiken, anders is AJAX voor iedereen uitgeschakeld';
 $string['configenablecourserequests'] = 'Hiermee kan elke gebruiker aanvragen om een nieuwe cursus aan te maken.';
+$string['configenableglobalsearch'] = 'Deze instelling maakt het globaal zoeken van tekst mogelijk in bronnen en activiteiten. Deze functie is niet comptibel met PHP4';
+$string['configenablerecordcache'] = 'Als je deze instelling hoger dan 0 zet, dan zal er caching in het servergeheugen gebeuren om informatie uit de databank te halen. Dit betekent dat opzoeken in de databank wat sneller zal gaan, maar ook dat de geheugeneisen van je webserver verhoogt zullen worden. We raden waarden aan rond de 50 als je server eerder weinig geheugen heeft. Sommige processen zullen deze instelling negeren als de ontwikkelaar van het proces zeker weet dat dit de prestaties ten goede komt.';
 $string['configenablerssfeeds'] = 'Met deze instelling maak je RSS-feeds mogelijk voor heel de site. Om ze echt te kunnen gebruiken, moet je de RSS-feeds nog inschakelen voor elke module afzonderlijk - ga naar \'Beheer van de modules\' onder Beheer, Configuratie.';
 $string['configenablerssfeedsdisabled'] = 'Dit is niet beschikbaar omdat RSS voor heel de site is uitgeschakeld. Om RSS in te schakelen ga je naar Configureer variablen onder Beheer Configuratie.';
 $string['configenablestats'] = 'Als je hier \'ja\' kiest, zal de cron van Moodle de logbestanden verwerken en statistieken aanmaken. Afhankelijk van de hoeveelheid verkeer op je site, kan dit wel even duren. Als je dit inschakelt kun je interessante grafieken en statistieken zien over elke cursus of over de hele site.';
@@ -92,6 +95,7 @@ $string['configfrontpage'] = 'De hierboven gekozen items zullen op de startpagin
 $string['configfrontpageloggedin'] = 'De hierboven gekozen items zullen op de startpagina van de site getoond worden, wanneer een gebruiker aangemeld is.';
 $string['configfullnamedisplay'] = 'Deze instelling bepaalt hoe de volledige namen getoond worden. Voor de meeste eentalige sites is de beste instelling de standaardinstelling, nl \"voornaam + achternaam\", maar je kunt ervoor kiezen de achternaam te verbergen of de gekozen taalinstelling te volgen (sommige talen gebruiken een andere volgorde).';
 $string['configgdversion'] = 'Geef aan welke versie van GD geïnstalleerd is. De versie die standaard getoond wordt is automatisch gevonden. Verander dit niet tenzij je echt weet wat je doet.';
+$string['configgradebookroles'] = 'Deze instelling bepaalt wie er in de cijferlijsten verschijnt. Gebruikers moeten minstens één van deze rollen hebben om in de cijferlijsten voor die cursus te verschijnen.';
 $string['confighiddenuserfields'] = 'Kies welke velden van de gebruikersinformatie je wil verbergen voor andere gebruikers dan leraren en beheerders. Hierdoor kun je de privacy van je gebruikers vergroten. Gebruik de Ctrl-toets om meerdere velden te selecteren.';
 $string['confightmleditor'] = 'Kies of je het gebruik van de ingebouwde HTML-teksteditor wilt toestaan. Zelfs als je het toestaat zal deze editor alleen verschijnen als de gebruiker een geschikte browser gebruikt (IE 5.5 of later). Gebruikers kunnen er ook voor kiezen de editor niet te gebruiken.';
 $string['configidnumber'] = 'Deze optie specificeert of (a) de gebruikers helemaal niet worden gevraagd om een leerlingnummer, (b) gebruikers wel worden gevraagd om een leerlingnummer maar dit leeg kunnen laten of (c) gebruikers worden gevraagd om het leerlingnummer en dit niet leeg kunnen laten. Als het leerlingnummer wordt opgegeven dan wordt dit getoond in het profiel.';
@@ -151,6 +155,7 @@ $string['configsessioncookie'] = 'Met deze instelling kun je de naam van de cook
 $string['configsessioncookiepath'] = 'Als het nodig is dat je de standaardlocatie naar waar browsers de Moodle cookies sturen wijzigt, dan kun je hier een subdirectory van je website instellen. Normaal gezien is de standaard \'/\' goed.';
 $string['configsessiontimeout'] = 'Als mensen die ingelogd zijn op deze site voor een lange tijd niets doen (ze laden geen nieuwe pagina\'s) worden ze automatisch uitgelogd (hun sessie is beëindigd). Deze variabele geeft aan hoe lang deze tijd moet zijn.';
 $string['configshowblocksonmodpages'] = 'Sommige modules ondersteunen blokken op hun pagina\'s. Als je dit inschakelt, dan kunnen leraren blokken aan de zijkant van deze pagina\'s zetten, anders toont de interface deze functie niet.';
+$string['configshowsiteparticipantslist'] = 'Al deze site leerlingen en site leraren zullen op de site deelnemerslijst getoond worden. Wie heeft het recht om deze lijs te zien?';
 $string['configsitemailcharset'] = 'Alle e-mails die door je site gegenereerd worden, zullen in de tekenset die je hier specifieerd verstuurd worden. Elke gebruiker kan deze instelling wijzigen als voor de volgende instelling ja gekozen wordt.';
 $string['configsitepolicy'] = 'Als je een overeenkomst hebt voor het gebruik van de site die alle gebruikers moeten zien voor ze deze site gebruiken, geef dan hier een de URL naar die pagina op, anders laat je dit veld leeg. De URL kan naar gelijk waar verwijzen - een voor de hand liggende plaats zou een bestand tussen de sitebestanden zijn, bijvoorbeeld http://jouwsite/file.php/1/overeenkomst.html';
 $string['configslasharguments'] = 'Bestanden (afbeeldingen, uploads en dergelijke) worden via een script aangeleverd dat gebruik maakt van \'slash arguments\' (hier de tweede optie). Deze methode zorgt ervoor dat bestanden makkelijker in webbrowsers, proxyservers en dergelijke kunnen worden gecachet. Helaas staan sommige PHP-servers deze methode niet toe. Dus kies de eerste optie als je problemen hebt met het bekijken van geüploade bestanden of afbeeldingen (bijvoorbeeld afbeeldingen van gebruikers).';
@@ -216,7 +221,10 @@ $string['editorfontsize'] = 'Lettertypegrootte';
 $string['editorhidebuttons'] = 'Verborgen knoppen';
 $string['editorkillword'] = 'Word-document opschonen';
 $string['editstrings'] = 'Bewerk strings';
+$string['enableajax'] = 'AJAX inschakelen';
 $string['enablecourserequests'] = 'Cursusaanvragen inschakelen';
+$string['enableglobalsearch'] = 'Globaal zoeken inschakelen';
+$string['enablerecordcache'] = 'Record cache inschakelen';
 $string['enablerssfeeds'] = 'RSS-feeds inschakelen';
 $string['enablestats'] = 'Statistieken inschakelen';
 $string['enabletrusttext'] = 'Vertrouwde Inhoud inschakelen';
@@ -230,6 +238,7 @@ $string['environmentxmlerror'] = 'Fout bij het lezen van de omgevingsdata ($&->e
 $string['errors'] = 'Fouten';
 $string['errorsetting'] = 'Kon instelling niet bewaren';
 $string['errorwithsettings'] = 'Sommige instellingen zijn door een fout niet gewijzigd.';
+$string['experimental'] = 'Experimenteel';
 $string['extendedusernamechars'] = 'Uitgebreide tekenset in gebruikersnamen toestaan';
 $string['filterall'] = 'Filter alle strings';
 $string['filtermatchoneperpage'] = 'Filter maakt één koppeling per pagina';
@@ -246,6 +255,8 @@ $string['fullnamedisplay'] = 'Volledige naam opmaak';
 $string['gdversion'] = 'GD-versie';
 $string['generalsettings'] = 'Algemene instellingen';
 $string['globalsquoteswarning'] = '<p><strong>Beveiligingswaarschuwing</strong>: om Moodle goed te laten werken, is het nodig<br />dat je enkele wijzigingen aanbrengt aan je huidige instellingen voor PHP.<p/><p>Je <em>moet</em>  <code>register_globals=off</code> en/of <code>magic_quotes_gpc=on</code> instellen. <br />Indien mogelijk, zet je best <code>register_globals=off</code> om de algemene beveiliging van<br />de server te verhogen, het instellen van <code>magic_quotes_gpc=on</code> wordt ook aangeraden.<p/><p>Deze instellingen worden gemaakt door <code>php.ini</code> te bewerken, de configuratie van Apache/IIS <br />of een <code>.htaccess</code> bestand.</p>';
+$string['gradebook'] = 'Cijferlijst';
+$string['gradebookroles'] = 'Rollen in cijferlijst';
 $string['helpadminseesall'] = 'Zien beheerders alle gebeurtenissen in de kalender of alleen diegene die ze zelf nodig hebben?';
 $string['helpcalendarsettings'] = 'Configureer de kalender en datum/tijd-gerelateerde instellingen van Moodle';
 $string['helpforcetimezone'] = 'Je kunt je gebruikers elk hun eigen tijdzone laten kiezen of een tijdzone opleggen voor iedereen.';
@@ -349,6 +360,7 @@ $string['pathtopsqlinvalid'] = 'Ongeldig pad naar psql - ofwel verkeerd pad ofwe
 $string['pathtounzip'] = 'Pad naar unzip';
 $string['pathtozip'] = 'Pad naar zip';
 $string['perfdebug'] = 'Performantie-informatie';
+$string['performance'] = 'Prestaties';
 $string['pgcluster'] = 'PostgreSQL Cluster';
 $string['pgclusterdescription'] = '<pre>PostgeSQL versie/cluster parameter voor operaties via commandprompt. Als je slechts één PostgreSQL op je systeem hebt of je weet niet wat dit is, laat dit veld dan leeg.</pre>';
 $string['php50restricted'] = 'PHP 5.0.x heeft een heel aantal bekende problemen. Upgrade naar 5.1.x of downgrade naar 4.3.x of 4.4.x';
@@ -403,6 +415,7 @@ $string['statsuserthreshold'] = 'Gebruikermarge';
 $string['stickyblocks'] = 'Permanent blok';
 $string['stickyblockscourseview'] = 'Cursuspagina';
 $string['stickyblocksduplicatenotice'] = 'Als je hier een blok toevoegd dat al op een bepaalde pagina staat, krijg je er twee.<br />Alleen het vastgezette blok zul je niet kunnen bewerken, het tweede zul je wel kunnen bewerken.';
+$string['stickyblocksmymoodle'] = 'Mijn Moodle';
 $string['stickyblockspagetype'] = 'Te configureren paginatype';
 $string['systempaths'] = 'Systeempaden';
 $string['tabselectedtofront'] = 'Moet bij tabellen met tabs de nu geselecteerde tab vooraan gezet worden?';

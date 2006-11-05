@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006102400)
+      // moodle.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['action'] = 'Actie';
@@ -132,7 +132,7 @@ $string['backupactivehelp'] = 'Automatische backups gebruiken?';
 $string['backupcancelled'] = 'Backup geannuleerd';
 $string['backupcoursefileshelp'] = 'Selecteer als je de bestanden van de cursus in de backup wil';
 $string['backupdate'] = 'Datum backup';
-$string['backupdatenew'] = '&nbsp; $a->TAG is nu $a->weekday, $a->mday $a->month $a->year<br />';
+$string['backupdatenew'] = '$a->TAG is nu $a->weekday, $a->mday $a->month $a->year<br />';
 $string['backupdateold'] = '$a->TAG was $a->weekday, $a->mday $a->month $a->year';
 $string['backupdaterecordtype'] = '<br />$a->recordtype - $a->recordname<br />';
 $string['backupdetails'] = 'Details van de backup';
@@ -258,6 +258,7 @@ $string['courseimportnotaught'] = 'Het lijkt er op dat je geen leraar bent met h
 $string['courseinfo'] = 'Cursusinformatie';
 $string['coursemessage'] = 'Bericht voor de gebruikers van de cursus';
 $string['coursenotaccessible'] = 'Deze cursus is niet publiek toegankelijk';
+$string['courseoverview'] = 'Cursusoverzicht';
 $string['coursereject'] = 'Verwerp een cursusaanvraag';
 $string['courserejected'] = 'De cursusaanvraag is niet goedgekeurd en de aanvrager is daarvan op de hoogte gebracht.';
 $string['courserejectemail'] = 'Sorry, maar je aanvraag voor een nieuwe cursus, is niet goedgekeurd. De opgegeven reden is:
@@ -943,6 +944,7 @@ $string['notavailable'] = 'Niet beschikbaar';
 $string['noteachersyet'] = 'Er zijn nog geen leraren voor deze cursus';
 $string['notenrollable'] = 'Je kunt je nu niet aanmelden in deze cursus';
 $string['notenrolled'] = '$a is geen lid van deze cursus.';
+$string['notenrolledprofile'] = 'Dit profiel kan niet bekeken worden omdat de gebruiker niet aangemeld is in deze cursus.';
 $string['noteuserschangednonetocourse'] = 'Let op: de gebruikers van een cursus moeten worden hersteld op het moment dat je gebruikersdata aan het terugzetten bent. Deze instelling is voor je veranderd.';
 $string['nothingnew'] = 'Niets nieuws sinds je laatste log in';
 $string['nothingtodisplay'] = 'Er is niets om te tonen';
@@ -1012,6 +1014,7 @@ $string['periodending'] = 'Periode eindigt ($a)';
 $string['personalprofile'] = 'Persoonlijk profiel';
 $string['phone'] = 'Telefoon';
 $string['phpinfo'] = 'PHP-info';
+$string['pleaseclose'] = 'Sluit dit venster.';
 $string['pluginsetup'] = 'Installeren van plugintabellen';
 $string['policyagree'] = 'Je moet akkoord gaan met deze overeenkomst voor je verder kunt gaan met het gebruiken van deze site. Ga je akkoord?';
 $string['policyagreement'] = 'Overeenkomst voor  het gebruik van deze site';
@@ -1173,6 +1176,8 @@ $string['sitefiles'] = 'Sitebestanden';
 $string['sitelogs'] = 'Sitestatistieken';
 $string['sitenews'] = 'Sitenieuws';
 $string['sitepartlist'] = 'Je hebt onvoldoende rechten om de deelnemerslijst te zien';
+$string['sitepartlist0'] = 'Je moet een leraar van de site zijn om de deelnemerslijst te kunnen zien';
+$string['sitepartlist1'] = 'Je moet een leraar zijn om de deelnemerslijst van de site te kunnen zien';
 $string['sites'] = 'Sites';
 $string['sitesection'] = 'Voeg een onderwerpsectie toe';
 $string['sitesettings'] = 'Site-instellingen';
