@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2006101001)
+      // admin.php - created with Moodle 1.8 dev (2006102400)
 
 
 $string['accounts'] = 'Accounts';
@@ -275,6 +275,7 @@ $string['lang'] = 'Standaardtaal';
 $string['lang16notify'] = 'Vanaf Moodle 1.6 kun je rechtstreeks van download.moodle.org taalpakketten installeren en updaten door op onderstaande link te klikken';
 $string['langcache'] = 'Cache taalmenu';
 $string['langedit'] = 'Taal bewerken';
+$string['langimport'] = 'Taalpakkettenbeheer';
 $string['langimportsuccess'] = 'Taalpakket geüpgraded';
 $string['langlist'] = 'Talen in taalmenu';
 $string['langmenu'] = 'Toon taalmenu';

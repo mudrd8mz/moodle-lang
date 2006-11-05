@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 dev (2006101001)
+      // quiz.php - created with Moodle 1.8 dev (2006102400)
 
 
 $string['1day'] = '1 dag';
@@ -76,6 +76,7 @@ $string['categorydeleted'] = 'Categorie \'$a\' is verwijderd';
 $string['categoryinfo'] = 'Info over de categorie';
 $string['categorymove'] = 'De categorie \'$a->name\' bevat $a->count vragen. Kies alsjeblieft een categorie om deze vragen naar te verplaatsen';
 $string['categorymoveto'] = 'Verplaats ze naar deze categorie';
+$string['categorynamecantbeblank'] = 'Het veld voor de categorienaam mag niet leeg zijn';
 $string['categorynoedit'] = 'Je hebt geen recht om categorie \'$a\' te bewerken.';
 $string['categoryupdated'] = 'De categorie is met succes geüpdatet';
 $string['changessaved'] = 'Wijzigingen aan cijfers bewaard';
@@ -104,6 +105,7 @@ $string['copyingquestion'] = 'Vraag kopiëren';
 $string['correct'] = 'Juist';
 $string['correctanswer'] = 'Juist  antwoord';
 $string['correctanswerformula'] = 'Juiste antwoordformule';
+$string['correctansweris'] = 'Juist antwoord: $a';
 $string['correctanswerlength'] = 'Aantal beduidende cijfers';
 $string['correctanswers'] = 'Juiste antwoorden';
 $string['correctanswershows'] = 'Juist antwoord toont';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006101001)
+      // moodle.php - created with Moodle 1.8 dev (2006102400)
 
 
 $string['action'] = 'Actie';
@@ -132,6 +132,9 @@ $string['backupactivehelp'] = 'Automatische backups gebruiken?';
 $string['backupcancelled'] = 'Backup geannuleerd';
 $string['backupcoursefileshelp'] = 'Selecteer als je de bestanden van de cursus in de backup wil';
 $string['backupdate'] = 'Datum backup';
+$string['backupdatenew'] = '&nbsp; $a->TAG is nu $a->weekday, $a->mday $a->month $a->year<br />';
+$string['backupdateold'] = '$a->TAG was $a->weekday, $a->mday $a->month $a->year';
+$string['backupdaterecordtype'] = '<br />$a->recordtype - $a->recordname<br />';
 $string['backupdetails'] = 'Details van de backup';
 $string['backupexecuteathelp'] = 'Starttijd automatische backups';
 $string['backupfailed'] = 'Sommige cursussen zijn niet bewaard!';
@@ -281,19 +284,23 @@ $string['createfolder'] = 'Maak een map in $a';
 $string['createuserandpass'] = 'Maak een nieuwe gebruikersnaam en een nieuw wachtwoord aan om mee in te loggen';
 $string['createziparchive'] = 'Maak een ZIP-archief';
 $string['creatingblocks'] = 'Blokken maken';
+$string['creatingblocksroles'] = 'Roltoewijzingen en overschrijvingen aan het maken op blokniveau.';
 $string['creatingcategoriesandquestions'] = 'Categorieën en vragen maken';
 $string['creatingcoursemodules'] = 'Cursusmodules maken';
+$string['creatingcourseroles'] = 'Roltoewijzingen en overschrijvingen aan het maken op cursusniveau.';
 $string['creatingevents'] = 'Gebeurtenissen maken';
 $string['creatinggradebook'] = 'Puntenboek maken';
 $string['creatinggroups'] = 'Groepen maken';
 $string['creatinglogentries'] = 'Loginvoer maken';
 $string['creatingmessagesinfo'] = 'Informatie voor berichten maken';
 $string['creatingmetacoursedata'] = 'Overgeërfde aanmeldingen maken';
+$string['creatingmodroles'] = 'Roltoewijzingen en overschrijvingen aan het maken op moduleniveau.';
 $string['creatingnewcourse'] = 'Nieuwe cursus maken';
 $string['creatingrolesdefinitions'] = 'Roldefinities maken';
 $string['creatingscales'] = 'Schalen maken';
 $string['creatingsections'] = 'Secties maken';
 $string['creatingtemporarystructures'] = 'Tijdelijke structuren maken';
+$string['creatinguserroles'] = 'Roltoewijzingen en overschrijvingen aan het maken op gebruikersniveau.';
 $string['creatingusers'] = 'Gebruikers maken';
 $string['creatingxmlfile'] = 'XML-bestand maken';
 $string['currency'] = 'Munteenheid';
@@ -1426,6 +1433,7 @@ $string['yahooid'] = 'Yahoo ID';
 $string['yes'] = 'Ja';
 $string['youareabouttocreatezip'] = 'Je staat op het punt een ZIP-bestand te maken met daarin';
 $string['youaregoingtorestorefrom'] = 'Je gaat een reservekopie terugzetten van';
+$string['youneedtoenrol'] = 'Om die actie te kunnen doen, moet je aangemeld zijn in deze cursus.';
 $string['yourlastlogin'] = 'Je laatste log in was';
 $string['yourself'] = 'Jezelf';
 $string['yourteacher'] = 'Jouw $a';

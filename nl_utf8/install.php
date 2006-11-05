@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.8 dev (2006101001)
+      // install.php - created with Moodle 1.8 dev (2006102400)
 
 
 $string['admindirerror'] = 'De admin-map die je opgeeft is niet juist';
@@ -50,7 +50,13 @@ $string['databasesettingssub'] = '<b>Type:</b> mysql of postgres7<br />
 <b>Gebruiker:</b> de gebruikersnaam voor jouw database<br />
 <b>Wachtwoord:</b> het wachtwoord voor je databank<br />
 <b>Tabelvoorvoegsel:</b> een voorvoegsel dat je wil gebruiken voor alle tabelnamen';
-$string['databasesettingssub_mssql'] = '<b>Type:</b> SQL*Server<br />
+$string['databasesettingssub_mssql'] = '<b>Type:</b> SQL*Server (geen UTF-8)<b><font color=\"red\">Experimenteel! (niet voor gebruik op productiemachine)</font></b><br />
+<b>Host:</b> vb localhost of db.isp.com<br />
+<b>Naam:</b> database naam, vb moodle<br />
+<b>Gebruiker:</b> de gebruikersnaam voor jouw database<br />
+<b>Wachtwoord:</b> het wachtwoord voor je databank<br />
+<b>Tabelvoorvoegsel:</b>voorvoegsel voor alle tabelnamen (verplicht)';
+$string['databasesettingssub_mssql_n'] = '<b>Type:</b> SQL*Server (UTF-8 ingeschakeld)<br />
 <b>Host:</b> vb localhost of db.isp.com<br />
 <b>Naam:</b> database naam, vb moodle<br />
 <b>Gebruiker:</b> de gebruikersnaam voor jouw database<br />
@@ -168,6 +174,7 @@ Hierdoor kan Moodle zelf zijn geheugenlimiet instellen.
 <p>Opgelet: op sommige servers zal dit verhinderen dat <b>alle</b> PHP-bestanden uitgevoerd worden. (je zult foutmeldingen zien wanneer je naar php-pagina\'s kijkt) Je zult dan het .htaccess-bestand moeten verwijderen.</li>
 </ol>';
 $string['mssql'] = 'SQL*Server (mssql)';
+$string['mssql_n'] = 'SQL*Server met UTF-8 ingeschakeld (mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'PHP is niet juist geconfigureerd met de MSSQL-extentie en kan niet communiceren met SQL*Server. Controleer je php.ini-bestand of hercompileer PHP';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP is niet goed geconfigureerd met de MySQL-extentie om met MySQL te communiceren. Controleer je php.ini-bestand of hercompileer PHP.';

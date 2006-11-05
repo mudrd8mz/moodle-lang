@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8 dev (2006101001)
+      // hotpot.php - created with Moodle 1.8 dev (2006102400)
 
 
 $string['abandoned'] = 'verlaten';
 $string['addquizchain'] = 'Voeg een ketting testen toe';
+$string['allmycourses'] = 'Al mijn cursussen';
 $string['allusers'] = 'Alle gebruikers';
 $string['alwaysopen'] = 'Altijd open';
 $string['attemptsall'] = 'Alle pogingen';
@@ -62,7 +63,7 @@ $string['navigation_bar'] = 'Moodle-navigatiebalk';
 $string['navigation_buttons'] = 'Knoppen van Hot Potatoes-test';
 $string['navigation_frame'] = 'Moodle-navigatieframe';
 $string['navigation_give_up'] = 'Een enkele \"Geef op\" knop';
-$string['navigation_iframe'] = 'Ingebed &lt;IFRAME&gt;';
+$string['navigation_iframe'] = 'Ingebed <IFRAME>';
 $string['navigation_none'] = 'Geen';
 $string['neverclosed'] = 'Nooit gesloten';
 $string['noactivity'] = 'Geen activiteit';
@@ -145,6 +146,7 @@ $string['textsourcefilename'] = 'Gebruik bestandsnaam';
 $string['textsourcefilepath'] = 'Gebruik bestandspad';
 $string['textsourcequiz'] = 'Haal uit test';
 $string['textsourcespecific'] = 'Specifieke test';
+$string['thiscourse'] = 'Deze cursus';
 $string['timedout'] = 'Gepauzeerd';
 $string['updatequizchain'] = 'Update vragenketting';
 $string['weighting'] = 'weging';

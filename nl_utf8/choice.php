@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.7 dev (2006082100)
+      // choice.php - created with Moodle 1.8 dev (2006102400)
 
 
 $string['addmorechoices'] = 'Voeg meer keuzes toe';
@@ -24,6 +24,8 @@ $string['limitanswers'] = 'Beperk het aantal toegelaten antwoorden';
 $string['modulename'] = 'Keuze';
 $string['modulenameplural'] = 'Keuzes';
 $string['mustchooseone'] = 'Je moet een antwoord kiezen voor je kunt bewaren. Er is niets bewaard.';
+$string['noguestchoose'] = 'Sorry, gasten mogen geen keuze ingeven.';
+$string['noresultsviewable'] = 'De resultaten zijn nu niet zichtbaar.';
 $string['notanswered'] = 'Nog niet beantwoord';
 $string['notopenyet'] = 'Deze activiteit is niet beschikbaar tot $a';
 $string['privacy'] = 'Privacy van de resultaten';
