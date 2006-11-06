@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 dev (2006101001)
+      // editor.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['about'] = 'Bu editor hakkında';
@@ -31,9 +31,10 @@ $string['createlink'] = 'Web Bağlantısı Ekle';
 $string['cut'] = 'Seçili olanı kes';
 $string['cutpastemozilla'] = 'Maalesef, şu anda bu çevrimiçi editöre metni yapıştırmak için normal klavye kısayollarını (Yapıştır butonunu bile) kullanamazsınız. Bu, Mozilla ve Firefox tarayıcılarının bazı sürümlerinin güvenlik özelliğinden kaynaklanır.<br /><br />Deneyebileceğiniz üç yöntem var:<br />(1) CTRL-v yerine SHIFT-Insert kullanın<br />Tarayıcınızın Düzenle->Yapıştır menüsünü kullanın<br />(3) user.js dosyasını düzenleyerek tarayıcınızın seçeneklerini değiştirin.<br /><br />Daha fazla yardım için TAMAM tuşuna veya editöre geri dönmek için İptal tuşuna basın.';
 $string['delete'] = 'Sil';
+$string['enterurlfirst'] = 'Öncelikle bir URL girmeniz gerekiyor';
 $string['filebrowser'] = 'Dosya Gözatıcısı';
 $string['findwhat'] = 'Bul';
-$string['fontname'] = 'Font adı';
+$string['fontname'] = 'Yazı tipi';
 $string['fontsize'] = 'Font boyutu';
 $string['forecolor'] = 'Font rengi';
 $string['formatblock'] = 'Biçim';
@@ -73,6 +74,7 @@ $string['matchcase'] = 'BÜYÜK/küçük harf duyarlı';
 $string['middle'] = 'Orta';
 $string['minimize'] = 'Editörü küçült';
 $string['move'] = 'Taşı';
+$string['mustenterurl'] = 'URL girmelisiniz';
 $string['nolink'] = 'Otomatik linklemeyi engelle';
 $string['normal'] = 'Normal';
 $string['notimage'] = 'Seçilen dosya bir resim değil. Lütfen bir resim seçiniz!';
@@ -85,6 +87,7 @@ $string['paste'] = 'Panodan yapıştır';
 $string['path'] = 'Yol';
 $string['percent'] = 'Yüzde';
 $string['pixels'] = 'Pixel';
+$string['pleaseenteralt'] = 'Lütfen alternatif metni girin';
 $string['popupeditor'] = 'Editörü Büyüt';
 $string['preformatted'] = 'Önceden-biçimlenmiş';
 $string['preview'] = 'Önizleme';
@@ -101,15 +104,15 @@ $string['rows'] = 'Satır';
 $string['searchandreplace'] = 'Bul ve Değiştir';
 $string['searchnotfound'] = 'Aranan ifade bulunamadı!';
 $string['selectcolor'] = 'Renk seç';
-$string['selection'] = 'Seçili olanı';
-$string['showhelp'] = 'Editörü kullanırken yardım et';
+$string['selection'] = 'Seçim';
+$string['showhelp'] = 'Editör kullanma yardımı';
 $string['size'] = 'Boyut';
 $string['spacing'] = 'Boşluk';
 $string['strikethrough'] = 'Üstü çigili';
 $string['subscript'] = 'Üst simge';
 $string['superscript'] = 'Alt simge';
 $string['textindicator'] = 'Şimdiki sitil';
-$string['textmode'] = 'DÜZYAZI MODU\'ndasınız. WYSIWYG(Ne görürsen onu elde edersin) MODU\'na geri dönmek için [<>] butonunu kullanın';
+$string['textmode'] = 'DÜZYAZI MODU\'ndasınız. WYSIWYG (Ne görürsen onu elde edersin) MODU\'na geri dönmek için [<>] butonunu kullanın.';
 $string['texttop'] = 'Metinüstü';
 $string['top'] = 'Üst';
 $string['type'] = 'Tipi';
