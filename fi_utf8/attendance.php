@@ -1,7 +1,5 @@
-<?PHP // $Id:
-
-
-      // attendance.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004112900)
+<?PHP // $Id$ 
+      // attendance.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['absentlong'] = 'Puuttuva';
@@ -47,7 +45,7 @@ $string['norolls'] = 'Tällä kurssilla ei ole läsnäololistoja';
 $string['notes'] = 'Poikkeavat tiedot';
 $string['notesfor'] = 'Poikkeavat tiedot :';
 $string['noviews'] = 'Valitettavasti tunnuksellesi ei ole tietoja.';
-$string['of'] = ' / ';
+$string['of'] = '/';
 $string['pages'] = 'Sivut';
 $string['presentlong'] = 'Nykyinen';
 $string['presentshort'] = 'N';

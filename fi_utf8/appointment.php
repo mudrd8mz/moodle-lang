@@ -1,7 +1,5 @@
-<?PHP // $Id:
-
-
-      // appointment.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004112900)
+<?PHP // $Id$ 
+      // appointment.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['allowresubmit'] = 'Salli uudelleenlähetys';
@@ -31,7 +29,7 @@ $string['submitted'] = 'Lähetetty';
 $string['timeend'] = 'Tapaamisen loppu';
 $string['timestart'] = 'Tapaamisen alku';
 $string['typeoffline'] = 'Offline aktiviteetti';
-$string['typeuploadsingle'] = 'Lähetä yksitiedosto';
+$string['typeuploadsingle'] = 'Lähetä yksi tiedosto';
 $string['uploadbadname'] = 'Tiedostonimi sisältää outoja merkkejä eikä sitä voitu vastaanottaa';
 $string['uploadedfiles'] = 'lähetetyt tiedostot';
 $string['uploaderror'] = 'Tiedoston tallentamisessa tapahtui virhe';

@@ -1,7 +1,5 @@
-<?PHP // $Id:
-
-
-      // workshop.php - created with Moodle 1.7 beta (2006101000)
+<?PHP // $Id$ 
+      // workshop.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['absent'] = 'Poissa';

@@ -1,7 +1,5 @@
-<?PHP // $Id:
-
-
-      // block_quiz_results.php - created with Moodle 1.6.1+ (2006050511)
+<?PHP // $Id$ 
+      // block_quiz_results.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['bestgrade'] = 'Ylin arvosana';

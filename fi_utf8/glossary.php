@@ -1,7 +1,5 @@
-<?PHP // $Id:
-
-
-      // glossary.php - created with Moodle 1.7 beta (2006101000)
+<?PHP // $Id$ 
+      // glossary.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['addcomment'] = 'Lisää kommentti';
@@ -52,7 +50,7 @@ $string['commentson'] = 'Kommentit tähän';
 $string['commentupdated'] = 'Kommentti on päivitetty.';
 $string['concept'] = 'Käsite';
 $string['concepts'] = 'Käsitteet';
-$string['configenablerssfeeds'] = 'Tämä mahdollistaa RSS syötteiden lähettämisen kaikista sanastoista. Sinun pitää vielä erikseen kytkeä syötteet päälle jokaisesta sanastosta.';
+$string['configenablerssfeeds'] = 'Tämä mahdollistaa RSS-syötteiden lähettämisen kaikista sanastoista. Sinun pitää vielä erikseen kytkeä syötteet päälle jokaisesta sanastosta.';
 $string['currentglossary'] = 'Nykyinen sanasto';
 $string['dateview'] = 'Selaa päivämäärien mukaan';
 $string['defaultapproval'] = 'Oletustila hyväksymiselle';

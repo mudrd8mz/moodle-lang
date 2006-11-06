@@ -1,7 +1,5 @@
-<?PHP // $Id:
-
-
-      // survey.php - created with Moodle 1.7 beta (2006101000)
+<?PHP // $Id$ 
+      // survey.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['actual'] = 'Toteutunut';
@@ -124,7 +122,7 @@ $string['colles9'] = 'Selitän ideani muille opiskelijoille';
 $string['colles9short'] = 'Selitän ideani';
 $string['collesaintro'] = 'Tämän kyselyn tarkoituksena on selvittää, kuinka hyvin tämä online-kurssi on auttanut sinua oppimaan.
 
-Jokainen seuravista 24 kysymyksestä koskee sinun kokemuksiasi tällä kursilla.
+Jokainen seuraavista 24 kysymyksestä koskee sinun kokemuksiasi tällä kurssilla.
 
 Ei ole olemassa oikeata tai vääriä vastauksia, tahdomme sinun mielipiteesi asioista. Muista että vastaukset käsitellään luottamuksellisesti, eivätkä ne vaikuta arvosteluun.
 
@@ -134,7 +132,7 @@ Kiitokset avustasi.';
 $string['collesaname'] = 'COLLES toteutunut (actual)';
 $string['collesapintro'] = 'Tämän kyselyn tarkoituksena on selvittää kuinka hyvin tämä online-kurssi on auttanut sinua oppimaan.
 
-Jokainen seuravista 24 kysymyksestä pyytää sina vertaamaan <i>ideaalia</i> ja <i>toteutunutta</i> tilannetta kurssilla.
+Jokainen seuraavista 24 kysymyksestä pyytää sinua vertaamaan <i>ideaalia</i> ja <i>toteutunutta</i> tilannetta kurssilla.
 
 Ei ole olemassa oikeata tai vääriä vastauksia, tahdomme sinun mielipiteesi asioista. Muista, että vastaukset käsitellään luottamuksellisesti, eivätkä ne vaikuta arvosteluun.
 
@@ -153,7 +151,7 @@ $string['collesm5short'] = 'Vertaistuki';
 $string['collesm6'] = 'Tulkinta';
 $string['collesm6short'] = 'Tulkinta';
 $string['collesmintro'] = 'Tällä kurssilla ...';
-$string['collespintro'] = 'Tämän kyselyn tarkoituksena on selvittää, mitä asiaoita arvostat online-oppimisympäristössä.
+$string['collespintro'] = 'Tämän kyselyn tarkoituksena on selvittää, mitä asioita arvostat online-oppimisympäristössä.
 
 Jokainen seuraavasta 24 kysymyksestä kysyy sinun  odotuksistasi tältä kurssilta.
 Ei ole olemassa oikeata tai vääriä vastauksia, tahdomme sinun mielipiteesi asioista. Muista että vastaukset käsitellään luottamuksellisesti, eivätkä ne vaikuta arvosteluun.

@@ -1,7 +1,5 @@
-<?PHP // $Id:
-
-
-      // auth.php - created with Moodle 1.7 beta (2006101000)
+<?PHP // $Id$ 
+      // auth.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['alternatelogin'] = 'Jos kirjoitat tähän URL:n, sitä käytetään kirjautumissivuna tälle sivustolle. Sivun pitäisi sisältää lomake, jonak ominaisuudet on asetettu <strong>\'$a\'</strong> ja joko antaa paluukentät <strong>käyttäjänimi</strong> and <strong>salasana</strong>.<br />

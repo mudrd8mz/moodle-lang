@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 beta + (2006101001)
+      // forum.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['addanewdiscussion'] = 'Lisää uusi keskustelu';
@@ -40,7 +40,7 @@ $string['deletedpost'] = 'Viesti on poistettu';
 $string['deletedposts'] = 'Nuo viestit on poistettu';
 $string['deletesure'] = 'Oletko varma, että haluat poistaa tämän viestin?';
 $string['deletesureplural'] = 'Oletko varma, että haluat poistaa tämän viestin ja kaikki vastaukset ($a viestiä)?';
-$string['digestmailheader'] = 'Tässä on tämän päivän kerätyt viestit keskustelualueilta $a->sitename. Vaihtaaksesi postitus asetuksia, käy ositteessa $a->userprefs.';
+$string['digestmailheader'] = 'Tässä on tämän päivän kerätyt viestit keskustelualueilta $a->sitename. Vaihtaaksesi postitus asetuksia, käy osoitteessa $a->userprefs.';
 $string['digestmailprefs'] = 'asetuksesi';
 $string['digestmailsubject'] = '$a: kerätyt keskustelut';
 $string['digestsentusers'] = 'Kerätty email lähetetty $a käyttäjälle';
@@ -166,7 +166,7 @@ $string['prune'] = 'Jaa';
 $string['prunedpost'] = 'Uusi keskustelu on luotu tästä viestistä';
 $string['pruneheading'] = 'Jaa keskustelu ja siirrä tämä viesti uuteen keskusteluun';
 $string['qandaforum'] = 'Kysymys/Vastaus alue';
-$string['qandanotify'] = 'Tämä kysymys/Vastaus-alue, jotta näkisit muiden vastukset kysymyksiin, pitää sinun ensin lähettää oma vastauksesi';
+$string['qandanotify'] = 'Tämä kysymys/vastaus-alue, jotta näkisit muiden vastukset kysymyksiin, pitää sinun ensin lähettää oma vastauksesi';
 $string['rate'] = 'Arvio';
 $string['rating'] = 'Arviointi';
 $string['ratingeveryone'] = 'Kaikki voivat arvioida';

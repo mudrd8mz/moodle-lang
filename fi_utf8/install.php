@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.7 beta + (2006101001)
+      // install.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['admindirerror'] = 'Ylläpitohakemisto on määritetty väärin';
@@ -187,7 +187,7 @@ $string['sessionautostarthelp'] = '<p>Moodle vaatii istuntotukea, eikä toimi il
 
 <p>istunto voidaan mahdollistaa php.ini tiedostossa... Etsi istuntoa varten.auto_start parameter.</p>';
 $string['skipdbencodingtest'] = 'Ohita tietokannan merkistö testi';
-$string['welcomep70'] = 'Klikkaa \"Seuraava\"-painiketta jatkaaksesi moodlen asennusta';
+$string['welcomep70'] = 'Napsauta \"Seuraava\"-painiketta jatkaaksesi moodlen asennusta';
 $string['wwwroot'] = 'Web-osoite';
 $string['wwwrooterror'] = 'Web-osoite ei näyttäisi olevan voimassa- tämä Moodle asennus ei näyttäisi olevan siellä.';
 

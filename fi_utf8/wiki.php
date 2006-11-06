@@ -1,7 +1,5 @@
-<?PHP // $Id:
-
-
-      // wiki.php - created with Moodle 1.7 beta (2006101000)
+<?PHP // $Id$ 
+      // wiki.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['action'] = '-- Toiminto --';
@@ -96,7 +94,7 @@ $string['linkok'] = 'OK';
 $string['linkschecked'] = 'Linkit tarkastettu';
 $string['listall'] = 'Listaa kaikki';
 $string['listcandidates'] = 'Listaa ehdokkaat';
-$string['lockcancelled'] = 'Muokkaus lukkosi on ohitettu ja joku toinen muokkaa sivua parhaillaan. JOs haluat pitää muutoksesi kopioi muutokset leikepöydälle ennen kuin napsautat peruuta-painiketta. Kokeile sivun muokkausta tämän jälkee uudelleen.';
+$string['lockcancelled'] = 'Muokkaus lukkosi on ohitettu ja joku toinen muokkaa sivua parhaillaan. JOs haluat pitää muutoksesi kopioi muutokset leikepöydälle ennen kuin napsautat peruuta-painiketta. Kokeile sivun muokkausta tämän jälkeen uudelleen.';
 $string['meta'] = 'Meta tiedot';
 $string['moduledirectory'] = 'Moduuli hakemisto';
 $string['modulename'] = 'Wiki';

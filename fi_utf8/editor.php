@@ -1,7 +1,5 @@
-<?PHP // $Id:
-
-
-      // editor.php - created with Moodle 1.5.2 + (2005060222)
+<?PHP // $Id$ 
+      // editor.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['about'] = 'Tietoja editorista';
@@ -117,7 +115,7 @@ $string['strikethrough'] = 'Yliviivattu';
 $string['subscript'] = 'Alaindeksi';
 $string['superscript'] = 'Yläindeksi';
 $string['textindicator'] = 'Nykyinen tyyli';
-$string['textmode'] = 'Olet tekstitilassa.  Käytä [<>] painiketta palataksesi takaisin WYSIWYG -tilaan.';
+$string['textmode'] = 'Olet tekstitilassa.  Käytä [<>] painiketta palataksesi takaisin WYSIWYG-tilaan.';
 $string['texttop'] = 'Texttop';
 $string['top'] = 'Ylös';
 $string['type'] = 'Tyyppi';

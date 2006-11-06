@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 beta + (2006101001)
+      // resource.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['addresource'] = 'Lisää aineisto';
@@ -9,13 +9,13 @@ $string['choose'] = 'Valitse';
 $string['chooseafile'] = 'Valitse tai lähetä tiedosto';
 $string['chooseparameter'] = 'Valitse parametri';
 $string['configallowlocalfiles'] = 'Kun luodaan uutta tiedostoaineistoa, annetaanko luoda linkkejä paikallisiin tiedostoihin, jotka ovat esimerkiksi CD:llä tai kiintolevyllä. Tästä voi olla hyötyä luokkatilassa, jossa kaikilla oppilailla on pääsy yhteiseen verkkoasemaan tai jos on tarpeen käyttää CD:llä olevia tiedostoja. Tämän asetuksen käyttö voi vaatia muutoksia selaimesi turvallisuusasetuksiin.';
-$string['configautofilerenamesettings'] = 'Päivitä viittaukset automaatisesti jos tiedosto tai kansio nimetään uudelleen.';
-$string['configblockdeletingfilesettings'] = 'Estä viittattujen tiedostojen ja kansioiden poisto';
-$string['configdefaulturl'] = 'Tätä käytetään esimerkkiosoitteena, kun lisätään uusia URL-osoiteen sisältäviä aineistoja.';
+$string['configautofilerenamesettings'] = 'Päivitä viittaukset automaattisesti jos tiedosto tai kansio nimetään uudelleen.';
+$string['configblockdeletingfilesettings'] = 'Estä viitattujen tiedostojen ja kansioiden poisto';
+$string['configdefaulturl'] = 'Tätä käytetään esimerkkiosoitteena, kun lisätään uusia URL-osoitteen sisältäviä aineistoja.';
 $string['configfilterexternalpages'] = 'Tämä asetus aiheuttaa kaikkien ulkoisten aineistoiden suodattamisen sivuston suotimien läpi. Tämän toiminnon kytkeminen päälle hidastaa sivustoa, käytä sitä vain, jos ei ole muuta mahdollisuutta.';
 $string['configframesize'] = 'Kun WWW-sivu tai palvelimelle tallennettu tiedosto on osa kehystä, tämä arvo on yläkehyksen koko pikseleinä (sisältää navigointipalkit).';
 $string['configparametersettings'] = 'Tässä voit määritellä oletusarvot asetuksille joita käytetään uusia resursseja lisätessä. Tämän jälkeen oletusasetukset määräytyvät käyttäjän asetusten mukaan.';
-$string['configpopup'] = 'Jos uusi aineisto on mahdollista näyttää ponnahdusikkunassa, otetetaanko ponnahdusikkuna käyttöön?';
+$string['configpopup'] = 'Jos uusi aineisto on mahdollista näyttää ponnahdusikkunassa, otetaanko ponnahdusikkuna käyttöön?';
 $string['configpopupdirectories'] = 'Näytetäänkö ponnahdusikkunoissa hakemistolinkit?';
 $string['configpopupheight'] = 'Ponnahdusikkunoiden korkeus?';
 $string['configpopuplocation'] = 'Näytetäänkö ponnahdusikkunoissa sijainti?';
@@ -26,7 +26,7 @@ $string['configpopupstatus'] = 'Näytetäänkö ponnahdusikkunoissa tilarivi?';
 $string['configpopuptoolbar'] = 'Näytetäänkö ponnahdusikkunoissa työkalurivi?';
 $string['configpopupwidth'] = 'Ponnahdusikkunoiden leveys?';
 $string['configsecretphrase'] = 'Tämä määrittää salasanan jota käytetään lähettyjen tietojen salaamiseen.';
-$string['configwebsearch'] = 'Kun lisätää WWW-sivun tai -linkin osoite, tätä osoitetta tarjotaan käyttäjälle etsimisen helpottamiseksi (esimerkiksi sopivan hakukoneen URL).';
+$string['configwebsearch'] = 'Kun lisätään WWW-sivun tai -linkin osoite, tätä osoitetta tarjotaan käyttäjälle etsimisen helpottamiseksi (esimerkiksi sopivan hakukoneen URL).';
 $string['configwindowsettings'] = 'Tässä määritetään oletus arvot Ikkunan asetuksille kun uusia resursseja lisätään ensikerran. Tämän jälkeen oletusasetukset määräytyvät käyttäjän asetusten mukaan.';
 $string['deploy'] = 'Sijoita';
 $string['deployall'] = 'Sijoita kaikki';

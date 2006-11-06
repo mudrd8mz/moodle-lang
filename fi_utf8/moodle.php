@@ -145,12 +145,12 @@ $string['backuploglaststatus'] = 'Viimeisin suoritusloki';
 $string['backuplogshelp'] = 'Jos asetus on päällä, kurssin tapahtumalokit tulevat mukaan varmuuskopioihin.';
 $string['backupmetacoursehelp'] = 'Jos asetus on päällä, metakurssin tiedot (perityt kurssi-ilmoittautumiset) tulevat mukaan varmuuskopioihin';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
-$string['backupnoneusersinfo'] = 'Huomaa: Et ole valinnut käyttäjiä varmuuskopioitavaksi, täten kaikki moduulivarmuuskopiot on muutettu \"Ilman käyttäjien tiedostoja\" muotoon. Huomaa, että oppimistehtävä ja työryhmä moduulit eivät ole yhteensopivia tämän tyyppisen varmuuskopioinnin kanssa ja kyseisiä moduleita ei varmuuskopioida.';
+$string['backupnoneusersinfo'] = 'Huomaa: Et ole valinnut käyttäjiä varmuuskopioitavaksi, täten kaikki moduulivarmuuskopiot on muutettu \"Ilman käyttäjien tiedostoja\" muotoon. Huomaa, että oppimistehtävä ja työryhmä moduulit eivät ole yhteensopivia tämän tyyppisen varmuuskopioinnin kanssa ja kyseisiä moduuleita ei varmuuskopioida.';
 $string['backupnonisowarning'] = 'Varoitus: Tämä varmuuskopio on ei unikoodatusta moodlesta (< v.1.6). Jos tiedostossa ISO-8859-1 merkistön ulkopuolisia merkkejä ne voivat korruptoitua jos palautat varmuuskopion.
 Saat lisätietoa ongelmasta sivulta <a href=\"http://docs.moodle.org/en/Backup_FAQ\">Backup FAQ</a>.';
 $string['backuporiginalname'] = 'Varmuuskopion nimi';
 $string['backupsavetohelp'] = 'Koko polku hakemistoon, johon haluat tallentaa varmuuskopiotiedostot.<br /> (Jätä tämä tyhjäksi jos haluat tallentaa kurssin oletushakemistoon.)';
-$string['backupschedulehelp'] = 'Valise päivät jolloin automaattinen varmuuskopiointi suoritetaan';
+$string['backupschedulehelp'] = 'Valitse päivät jolloin automaattinen varmuuskopiointi suoritetaan';
 $string['backuptakealook'] = 'Ole hyvä ja katso varmuuskopioinnin lokitiedostot paikasta: $a';
 $string['backupuserfileshelp'] = 'Valitse, haluatko sisällyttää käyttäjän tiedostot (omat kuvat) automaattiseen varmuuskopiointiin';
 $string['backupusershelp'] = 'Haluatko varmuuskopioida kaikki käyttäjät vai vain tarvittavat käyttäjät kurssia kohden';
@@ -208,7 +208,7 @@ $string['clamlost'] = 'Moodle on konfiguroitu tarkistamaan lähetetyt tiedostot 
 $string['clamlostandactinglikevirus'] = 'Lisäksi, Moodle on määritelty hylkäämään tarkistamatta jääneet tiedostot. Tämä tarkoittaa sitä ettei tiedostoja voida lähettää ennen kuin ongelma on korjattu.';
 $string['clammovedfile'] = 'Tiedosto on siirretty karanteenihakemistoon. Tiedoston uusi sijainti on $a.';
 $string['clammovedfilebasic'] = 'Tiedosto on siirretty karanteenihakemistoon.';
-$string['clamquarantinedirfailed'] = 'Tiedostoa ei voitu siirtää karanteenihakemistoon $a. Ongelma pitää korjata koska tässä tapauksessa kaikki saatuneet tiedostot poistetaan.';
+$string['clamquarantinedirfailed'] = 'Tiedostoa ei voitu siirtää karanteenihakemistoon $a. Ongelma pitää korjata koska muuten  kaikki saastuneet tiedostot poistetaan.';
 $string['clamunknownerror'] = 'Tuntematon virhe Clam AV-ohjelmiston käytössä.';
 $string['cleaningtempdata'] = 'Puhdistetaan väliaikaiset tiedot';
 $string['clicktochange'] = 'Napsauta muokataksesi';
@@ -238,7 +238,7 @@ $string['counteditems'] = '$a->items ($a->count)';
 $string['country'] = 'Maa';
 $string['course'] = 'Kurssi';
 $string['courseapprovedemail'] = 'Pyytämäsi kurssi , $a->name, on hyväksytty ja sinusta kurssin $->teacher. 
-Löydät kurssisi seuraavaasta osoitteesta $a->url';
+Löydät kurssisi seuraavasta osoitteesta $a->url';
 $string['courseapprovedfailed'] = 'Kurssin hyväksymisessä tapahtui virhe.';
 $string['courseapprovedsubject'] = 'Kurssisi on hyväksytty!';
 $string['courseavailable'] = 'Tämä kurssi on avoinna opiskelijoille';
@@ -331,7 +331,7 @@ $string['default'] = 'Oletus';
 $string['defaultcoursefullname'] = 'Kurssin koko nimi';
 $string['defaultcourseshortname'] = 'KK101';
 $string['defaultcoursestudent'] = 'Opiskelija';
-$string['defaultcoursestudentdescription'] = 'Käyttäjilla on yleensä vähemmän oikeuksia kursseilla';
+$string['defaultcoursestudentdescription'] = 'Käyttäjillä on yleensä vähemmän oikeuksia kursseilla';
 $string['defaultcoursestudents'] = 'Opiskelijat';
 $string['defaultcoursesummary'] = 'Kirjoita lyhytsanainen ja kiinnostava kuvaus kurssista tähän.';
 $string['defaultcourseteacher'] = 'Opettaja';
@@ -515,15 +515,15 @@ $->past
 Voit pidetää rekisteröitymisjaksoa seuraavalla sivulla $a->extendurl';
 $string['expirynotifystudents'] = 'Ilmoita käyttäjille';
 $string['expirynotifystudentsemail'] = 'Hyvä opiskelija.
-Rekiteröitymisesi kurssille $->course vanhenee $a->threshold päivässä.
+Rekisteröitymisesi kurssille $->course vanhenee $a->threshold päivässä.
 
 Kysy kurssin ohjaajilta lisätietoja';
 $string['expirythreshold'] = 'Raja-arvo';
 $string['explanation'] = 'Selitys';
 $string['extendenrol'] = 'Jatkettu rekisteröityminen';
 $string['extendperiod'] = 'Jatkettu jakso';
-$string['failedloginattempts'] = '$a->attempts epäonnistunutta kirjautumisyritysta viime käyntisi jälkeen.';
-$string['failedloginattemptsall'] = '$a->attempts epäonnistunutta kirjautumisyritysta $a->accounts tunnukselle.';
+$string['failedloginattempts'] = '$a->attempts epäonnistunutta kirjautumista viime käyntisi jälkeen.';
+$string['failedloginattemptsall'] = '$a->attempts epäonnistunutta kirjautumista $a->accounts tunnukselle.';
 $string['feedback'] = 'Palaute';
 $string['file'] = 'Tiedosto';
 $string['filemissing'] = '$a puuttuu';
@@ -625,7 +625,7 @@ $string['groupsnone'] = 'Ei ryhmiä';
 $string['groupsseparate'] = 'Erilliset ryhmät';
 $string['groupsvisible'] = 'Näkyvät ryhmät';
 $string['guest'] = 'Vieras';
-$string['guestdescription'] = 'Vierailla on vähän oikeuksia eivätkä he saa kirjoitta minnekkään.';
+$string['guestdescription'] = 'Vierailla on vähän oikeuksia eivätkä he saa kirjoitta minnekään.';
 $string['guestskey'] = 'Salli vieraat, joilla on avain';
 $string['guestsno'] = 'Älä salli vieraita';
 $string['guestsnotallowed'] = '\'$a\' ei salli vieraiden liittyä.';
@@ -905,7 +905,7 @@ $string['nomorecourses'] = 'Muita haun ehdot täyttäviä kursseja ei löytynyt'
 $string['nomoreidnumber'] = 'Ei käytetä tunnistenumeroa ristiriitojen välttämiseksi';
 $string['none'] = 'Ei yhtään';
 $string['noneditingteacher'] = 'Vieraileva opettaja';
-$string['noneditingteacherdescription'] = 'Vierailevat  opettajat voivat arvioida opiskelijoita mutteivät muuttaa kurssin aktiviteettejä.';
+$string['noneditingteacherdescription'] = 'Vierailevat  opettajat voivat arvioida opiskelijoita mutteivät muuttaa kurssin aktiviteetteja.';
 $string['nopendingcourses'] = 'Hyväksymistä odottavia kurssianomuksia ei löytynyt';
 $string['nopotentialadmins'] = 'Ei mahdollisia ylläpitäjiä';
 $string['nopotentialcreators'] = 'Ei mahdollisia kurssiylläpitäjiä';

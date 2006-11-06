@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.7 beta (2006101000)
+      // block_rss_client.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['addfeed'] = 'Lisää uutislähteen osoite:';

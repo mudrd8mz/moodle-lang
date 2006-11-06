@@ -1,14 +1,12 @@
-<?PHP // $Id:
-
-
-      // xmldb.php - created with Moodle 1.7 beta (2006101000)
+<?PHP // $Id$ 
+      // xmldb.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['aftertable'] = 'Taulun jälkeen:';
 $string['back'] = 'Takaisin';
 $string['backtomainview'] = 'Takaisin päävalikkoon';
 $string['binaryincorrectlength'] = 'Virheellinen pituus binäärisarakkeelle';
-$string['cannotuseidfield'] = 'Id-kentää ei voutu lisätä. Se on automaatisesti numeroitu sarake.';
+$string['cannotuseidfield'] = 'Id-kenttää ei voitu lisätä. Se on automaattisesti numeroitu sarake.';
 $string['change'] = 'Muuta';
 $string['charincorrectlength'] = 'Virheellinen pituus merkkisarakkeelle';
 $string['confirmdeletefield'] = 'Oletko aivan varma että haluat poistaa kentän:';
@@ -52,7 +50,7 @@ $string['incorrectfieldname'] = 'Epäkelpo nimi';
 $string['indexes'] = 'Indeksit';
 $string['integerincorrectlength'] = 'Virheellinen pituus kokonaislukukentälle';
 $string['keys'] = 'Avaimet';
-$string['listreservedwords'] = 'Varatut sanat<br/>(käytetää pitämään <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> päivitettynä)';
+$string['listreservedwords'] = 'Varatut sanat<br/>(käytetään pitämään <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> päivitettynä)';
 $string['load'] = 'Lataa';
 $string['main_view'] = 'Päänäkymä';
 $string['missingfieldsinsentence'] = 'Lauseesta puuttuu kenttiä';

@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 beta + (2006101001)
+      // scorm.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['advanced'] = 'Asetukset';
 $string['attempt'] = 'yritys';
 $string['attempts'] = 'yritystä';
-$string['attr_error'] = 'Virheelinen arvo atribuutille ($a->attr) merkinnässä  $a->tag';
+$string['attr_error'] = 'Virheellinen arvo atribuutille ($a->attr) merkinnässä  $a->tag';
 $string['autocontinue'] = 'Jatka automaattisesti';
 $string['averageattempt'] = 'Yritysten keskiarvo';
 $string['badmanifest'] = 'Manifest virheitä, katso virheloki';

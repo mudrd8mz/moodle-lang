@@ -1,7 +1,5 @@
-<?PHP // $Id:
-
-
-      // grades.php - created with Moodle 1.6.1+ (2006050511)
+<?PHP // $Id$ 
+      // grades.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['addcategory'] = 'Lisää kategoria';
@@ -23,7 +21,7 @@ $string['displayweighted'] = 'Naytä painotetut arvosanat';
 $string['dropped'] = 'Tiputettu';
 $string['dropxlowest'] = 'Tiputa X alinta';
 $string['dropxlowestwarning'] = 'Huomioi: Jos käytät ´Tiputa X alinta´-asetusta, arvostelu olettaa että kaikkien pisteiden arvo on sama. Jos pisteiden arvo vaihtelee, voivat tulokset olla vääriä';
-$string['errorgradevaluenonnumeric'] = 'Saatiin ei-numeerinen arvo matalalle tai korkealle arvosanalle seuravalle';
+$string['errorgradevaluenonnumeric'] = 'Saatiin ei-numeerinen arvo matalalle tai korkealle arvosanalle seuraavaa kohdetta varten:';
 $string['errornocategorizedid'] = 'Ei saatu kategorioimatonta id:tä!';
 $string['errornocourse'] = 'Ei voitu noutaa kurssitietoja';
 $string['exceptions'] = 'Poikkeukset';
@@ -75,6 +73,7 @@ $string['nogradesreturned'] = 'Ei tuotu arvosanoja';
 $string['nolettergrade'] = 'Ei arvosanamerkintää seuraavalle';
 $string['nonnumericweight'] = 'Saatiin ei-numeerinen arvo seuraavalle';
 $string['nonweightedpct'] = 'Painottamaton %%';
+$string['notteachererror'] = 'Vain opettajat voivat käyttää tätä toimintoa';
 $string['pctoftotalgrade'] = 'prosenttia kokonaisarvosanasta';
 $string['percent'] = 'Prosentti';
 $string['percentascending'] = 'Lajittele nousevasti prosentin mukaan';
