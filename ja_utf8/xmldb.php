@@ -51,7 +51,7 @@ $string['incorrectfieldname'] = 'フィールド名が正しくありません�
 $string['indexes'] = 'インデックス';
 $string['integerincorrectlength'] = 'integerフィールドの長さが正しくありません。';
 $string['keys'] = 'キー';
-$string['listreservedwords'] = '予約語一覧<br/>( <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> を更新するため使用されます。)';
+$string['listreservedwords'] = '予約語一覧<br/>(<a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> を更新するため使用されます。)';
 $string['load'] = 'ロード';
 $string['main_view'] = 'メインビュー';
 $string['missingfieldsinsentence'] = 'センテンスのフィールドが見つかりません。';
@@ -103,6 +103,6 @@ $string['viewphpcode'] = 'PHPコードの表示';
 $string['viewsqlcode'] = 'SQLコードの表示';
 $string['wronglengthforenum'] = 'enumフィールドの長さが正しくありません。';
 $string['wrongnumberoffieldsorvalues'] = 'センテンスのフィールド数または値が正しくありません。';
-$string['wrongreservedwords'] = '現在使用されている予約語<br />( $CFG->prefixを使用する場合、テーブル名は重要ではありません。)';
+$string['wrongreservedwords'] = '現在使用されている予約語<br />($CFG->prefixを使用する場合、テーブル名は重要ではありません。)';
 
 ?>

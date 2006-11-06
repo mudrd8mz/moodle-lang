@@ -6,6 +6,6 @@ $string['configcontent'] = 'コンテンツ';
 $string['configtitle'] = 'ブロックタイトル';
 $string['html'] = 'HTML';
 $string['leaveblanktohide'] = '空白でタイトルを非表示';
-$string['newhtmlblock'] = '( 新しいHTMLブロック )';
+$string['newhtmlblock'] = '(新しいHTMLブロック)';
 
 ?>

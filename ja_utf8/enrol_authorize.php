@@ -9,7 +9,7 @@ $string['adminauthorizeccapture'] = 'オーダーレビュー&スケジュール
 $string['adminauthorizeemail'] = 'メール送信設定';
 $string['adminauthorizesettings'] = 'Authorize.net 設定';
 $string['adminauthorizewide'] = 'サイト全体の設定';
-$string['adminavs'] = 'あなたのauthorize.netアカウントで住所確認システム ( AVS:Address Verification System ) を有効にした場合は、ここをチェックしてください。この設定により、ユーザが支払いフォームに入力するときに、市町村、県、国および郵便番号の入力が求められます。';
+$string['adminavs'] = 'あなたのauthorize.netアカウントで住所確認システム (AVS:Address Verification System) を有効にした場合は、ここをチェックしてください。この設定により、ユーザが支払いフォームに入力するときに、市町村、県、国および郵便番号の入力が求められます。';
 $string['adminconfighttps'] = 'このプラグインを使用するには、管理 &gt;&gt; セキュリティ &gt;&gt; HTTPセキュリティで <a href=\"$a->url\">「ログインにHTTPSを使用する」をチェック</a>していることを確認してください。';
 $string['adminconfighttpsgo'] = 'このプラグインを設定するには、<a href=\"$a->url\">セキュアページ</a>に移動してください。';
 $string['admincronsetup'] = 'cron.phpメンテナンススクリプトが少なくとも24時間稼動していません。<br />スケジュールキャプチャ機能を使用したい場合、Cronを有効にする必要があります。<br />Authorize.netプラグインを<b>有効</b>および適切に<b>cronを設定</b>、または <b>an_review</b> のチェックを外してください。<br />スケジュールキャプチャを無効にすると、30日以内にトランザクションを検査しない場合、トランザクションはキャンセルされます。<br />30日以内に<b>手動で</b>支払いを受領/拒否したい場合、<b>an_review</b> をチェックして、<br /><b>an_capture_day</b>フィールドにゼロを入力してください。';
@@ -17,8 +17,8 @@ $string['adminemailexpired'] = 'この設定は「マニュアルキャプチャ
 $string['adminemailexpiredsort'] = '保留オーダー失効時に教師にメール通知する場合、どれが重要ですか?';
 $string['adminemailexpiredsortcount'] = 'オーダー数';
 $string['adminemailexpiredsortsum'] = '合計金額';
-$string['adminemailexpiredteacher'] = 'マニュアルキャプチャを有効 ( 上記参照 ) にして、教師が支払いを管理できると、教師に保留オーダーの失効をメール通知することもできます。ここでは、各コースの教師に、何件の保留オーダーが失効したかメール通知されます。';
-$string['adminemailexpsetting'] = '( 0 = メール送信を停止する、デフォルト = 2、最大 = 5 )<br />( メール送信のためのマニュアルキャプチャ設定: cron = 有効、an_review = チェック、an_capture_day = 0、an_emailexpired = 1-5 )';
+$string['adminemailexpiredteacher'] = 'マニュアルキャプチャを有効 (上記参照) にして、教師が支払いを管理できると、教師に保留オーダーの失効をメール通知することもできます。ここでは、各コースの教師に、何件の保留オーダーが失効したかメール通知されます。';
+$string['adminemailexpsetting'] = '(0 = メール送信を停止する、デフォルト = 2、最大 = 5)<br />(メール送信のためのマニュアルキャプチャ設定: cron = 有効、an_review = チェック、an_capture_day = 0、an_emailexpired = 1-5)';
 $string['adminhelpcapturetitle'] = 'スケジュールキャプチャ';
 $string['adminhelpreviewtitle'] = 'オーダーレビュー';
 $string['adminneworder'] = '新しい保留オーダーが入りました:
@@ -44,7 +44,7 @@ $string['amount'] = '金額';
 $string['anlogin'] = 'Authorize.net: ログイン名';
 $string['anpassword'] = 'Authorize.net: パスワード';
 $string['anreferer'] = '必要な場合は、リファラURLを設定してください。これは、ウェブリクエストの「Referer: URL」ヘッダを送信します。';
-$string['antestmode'] = 'Authorize.net: テストトランザクション ( 料金は引き落とされません )';
+$string['antestmode'] = 'Authorize.net: テストトランザクション (料金は引き落とされません)';
 $string['antrankey'] = 'Authorize.net: トランザクションキー';
 $string['approvedreview'] = '検査承認';
 $string['authcaptured'] = '認証完了 / キャプチャ完了';
@@ -78,7 +78,7 @@ $string['ccinvalid'] = 'クレジットカードが間違っています。';
 $string['ccno'] = 'クレジットカード番号';
 $string['cctype'] = 'クレジットカードタイプ';
 $string['ccvv'] = 'CV2';
-$string['ccvvhelp'] = 'カードの裏面 ( 3桁の数字 ) をご覧ください。';
+$string['ccvvhelp'] = 'カードの裏面 (3桁の数字) をご覧ください。';
 $string['choosemethod'] = 'コースの登録キーを知っている場合は、入力してください。そうでない場合は、このコースに受講料を支払う必要があります。';
 $string['chooseone'] = '次の2つのフィールドの1つまたは両方に入力してください。パスワードは表示されません。';
 $string['costdefaultdesc'] = 'このデフォルト費用を使用するには、<strong>コース設定でコース費用フィールドに -1 を設定</strong>してください。';
@@ -132,7 +132,7 @@ $a->url
 
 スケジュールキャプチャを有効にすると、あなたは警告メッセージを受信しなくなります。設定は次のページへ:
 $a->enrolurl';
-$string['pendingordersemailteacher'] = 'あなたが支払いを $a->days 日以内に受領しない場合、コース「 $a->course 」の $a->pending トランザクション ( $a->currency $a->sumcost ) は失効します。
+$string['pendingordersemailteacher'] = 'あなたが支払いを $a->days 日以内に受領しない場合、コース「 $a->course 」の $a->pending トランザクション ($a->currency $a->sumcost) は失効します。
 
 管理者がスケジュールキャプチャを有効にしていないため、あなたは支払いを手動で受領または拒否する必要があります。';
 $string['pendingorderssubject'] = '警告: $a->pending 件のオーダーが $a->days 日で失効します。';
@@ -159,13 +159,13 @@ $string['reason56'] = 'このマーチャントアカウントでは、eCheck (A
 $string['refund'] = '払い戻し';
 $string['refunded'] = '払い戻し完了';
 $string['returns'] = '返金';
-$string['reviewday'] = '教師または管理者が、<b>$a</b> 日以内に注文を検査しない場合を除いて、自動的にクレジットカード情報を取得します。CRONを有効にする必要があります。( 0日 = スケジュールキャプチャを無効にする = 教師、管理者が手動で検査を行う。スケジュールキャプチャを無効にすると、30日以内にトランザクションを検査しない場合、トランザクションはキャンセルされます。 )';
+$string['reviewday'] = '教師または管理者が、<b>$a</b> 日以内に注文を検査しない場合を除いて、自動的にクレジットカード情報を取得します。CRONを有効にする必要があります。(0日 = スケジュールキャプチャを無効にする = 教師、管理者が手動で検査を行う。スケジュールキャプチャを無効にすると、30日以内にトランザクションを検査しない場合、トランザクションはキャンセルされます。)';
 $string['reviewfailed'] = '検査失敗';
 $string['reviewnotify'] = 'あなたの支払いが確認されました。数日中に先生からメールが送信されますのでお待ちください。';
 $string['sendpaymentbutton'] = '支払いの送信';
 $string['settled'] = '確定済み';
 $string['settlementdate'] = '確定年月日';
-$string['subvoidyes'] = '返金済みトランザクション ( $a->transid ) はキャンセルされ、$a->amount があなたの口座に振り込まれます。本当によろしいですか?';
+$string['subvoidyes'] = '返金済みトランザクション ($a->transid) はキャンセルされ、$a->amount があなたの口座に振り込まれます。本当によろしいですか?';
 $string['tested'] = 'テスト済み';
 $string['testmode'] = '[ テストモード ]';
 $string['testwarning'] = 'キャプチャー/取り消し/払い戻し はテストモードで動作しているようです。レコードは、データベースを更新またはインサートされませんでした。';

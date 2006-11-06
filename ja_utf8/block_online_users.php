@@ -3,7 +3,7 @@
 
 
 $string['blockname'] = 'オンラインユーザ';
-$string['configtimetosee'] = 'オンラインユーザとして検出する時間 ( 分 )';
+$string['configtimetosee'] = 'オンラインユーザとして検出する時間 (分)';
 $string['periodnminutes'] = '$a 分';
 
 ?>
