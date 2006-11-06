@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 beta + (2006101001)
+      // admin.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['accounts'] = 'Käyttäjät';
@@ -218,8 +218,11 @@ $string['editorfontsize'] = 'Kirjasimen koko';
 $string['editorhidebuttons'] = 'Piilotetut painikkeet';
 $string['editorkillword'] = 'Word-muotoilujen suodatin';
 $string['editstrings'] = 'Muokkaa merkkijonoja';
+$string['enableajax'] = 'Mahdollista AJAX';
 $string['enablecourserequests'] = 'Salli kurssien anominen';
-$string['enablerssfeeds'] = 'Salli RSS-syötteet';
+$string['enableglobalsearch'] = 'Mahdollista yleinen haku';
+$string['enablerecordcache'] = 'Mahdollista tietule-välimuisti';
+$string['enablerssfeeds'] = 'Mahdollista RSS-syötteet';
 $string['enablestats'] = 'Mahdollista tilastot';
 $string['enabletrusttext'] = 'Salli Luotettu sisältö';
 $string['environment'] = 'Ympäristö';
@@ -232,6 +235,7 @@ $string['environmentxmlerror'] = 'Virhe luettaessa ympäristötietoja ($a->error
 $string['errors'] = 'Virheitä';
 $string['errorsetting'] = 'Muutoksia ei voitu tallentaa:';
 $string['errorwithsettings'] = 'Seuraavia asetuksia ei muutettu virheen vuoksi:';
+$string['experimental'] = 'Testausvaiheessa';
 $string['extendedusernamechars'] = 'Salli erikoismerkit käyttäjätunnuksissa';
 $string['filterall'] = 'Suodata kaikki merkkijonot';
 $string['filtermatchoneperpage'] = 'Suodatin osuu kerran sivulla';
@@ -248,6 +252,8 @@ $string['fullnamedisplay'] = 'Kokonimen muoto';
 $string['gdversion'] = 'GD-versio';
 $string['generalsettings'] = 'Yleisasetukset';
 $string['globalsquoteswarning'] = '<p><strong>Tietoturva varoitus</strong>: Moodlen kunnollinen toiminta vaatii<br />että teet muutoksia nykyisiin PHP-asetuksiisi<p/><p>Sinun <em>pitää</em> asettaa <code>register_globals=off</code> ja/tai <code>magic_quotes_gpc=on</code>. <br />Jos mahdollista, aseta<code>register_globals=off</code>. Parantaaksesi palvelimen yleistä<br />turvallisuutta, myöskin asetusta <code>magic_quotes_gpc=on</code> suositellaan.<p/><p>Nämä asetukset muutetaan muokkaamalla <code>php.ini</code> tiedostoa, Apache/IIS <br />asetuksia tai <code>.htaccess</code> tiedostoa.</p>';
+$string['gradebook'] = 'Arviointikirja';
+$string['gradebookroles'] = 'Avioitavat roolit';
 $string['helpadminseesall'] = 'Näkevätkö ylläpitäjät kaikki kalenterimerkinnät, vaiko vain heitä itseään koskevat?';
 $string['helpcalendarsettings'] = 'Aseta erinäisiä Moodlen kalenteriin ja päivämääriin/kellonaikoihin liittyviä asetuksia';
 $string['helpforcetimezone'] = 'Voit antaa käyttäjien valita aikavyöhykkeensä otse, tai voit valita aikavyöhykkeen, joka koskee kaikkia.';
@@ -276,6 +282,7 @@ $string['lang'] = 'Oletus kieli';
 $string['lang16notify'] = 'Moodlen versio 1.6 tai uudempi mahdollistaa kielipakettien asennuksen ja päivityksen suoraan download.moodle.org sivustolta seuraavien linkkien avulla';
 $string['langcache'] = 'Puskuroi kielivalikko';
 $string['langedit'] = 'Kielen muokkaus';
+$string['langimport'] = 'Kielipakettien tuontityökalu';
 $string['langimportsuccess'] = 'Kielipaketti päivitetty';
 $string['langlist'] = 'Kielivalikon kielet';
 $string['langmenu'] = 'Näytä kielivalikko';
@@ -349,6 +356,7 @@ $string['pathtopsqlinvalid'] = 'Polku psql on väärin';
 $string['pathtounzip'] = 'Unzip-ohjelman sijainti';
 $string['pathtozip'] = 'zip-ohjelman sijainti';
 $string['perfdebug'] = 'Suorituskykytiedot';
+$string['performance'] = 'Suorituskyky';
 $string['pgcluster'] = 'Postgresql ryväs';
 $string['pgclusterdescription'] = 'Postgresql versio/ryväs parametri komentorivi toimintoihin. Jos järjestelmässä on vain yksi postgresql-palvelin tai olet epävarma asetuksesta jätä se tyhjäksi.';
 $string['php50restricted'] = 'PHP 5.0.x versiossa on tunnettuja ongelmia, päivitä versioon 5.1.x tai palaa versioihin 4.3.x - 4.4.x';

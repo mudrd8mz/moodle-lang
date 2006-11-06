@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.7 beta (2006101000)
+      // choice.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['addmorechoices'] = 'Lisää lisää vaihtoehtoja';
@@ -24,6 +24,8 @@ $string['limitanswers'] = 'Rajoita vastausten määrää';
 $string['modulename'] = 'Valinta';
 $string['modulenameplural'] = 'Valinnat';
 $string['mustchooseone'] = 'Sinun pitää valita vaihtoehto ennen tallennusta. Tallennusta ei tehty.';
+$string['noguestchoose'] = 'Vieraat eivät voi vastata kyselyihin';
+$string['noresultsviewable'] = 'Tulokset eivät ole juuri nyt nähtävillä';
 $string['notanswered'] = 'Vastaamatta';
 $string['notopenyet'] = 'Pahus, tämä aktiviteetti ei ole saatavilla ennen kuin $a';
 $string['privacy'] = 'Tulosten suojaus';

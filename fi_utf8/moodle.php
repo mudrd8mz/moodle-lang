@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 beta + (2006101001)
+      // moodle.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['action'] = 'Tapahtuma';
@@ -789,7 +789,7 @@ $string['messageselectadd'] = 'Lisää / lähetä viesti';
 $string['metaaddcourse'] = 'Lisää tämä kurssi';
 $string['metaalreadycourses'] = 'Valitut kurssit';
 $string['metaalreadyhascourses'] = 'Tällä metakurssilla on jo alikursseja.';
-$string['metaalreadyhasenrolments'] = 'Tälle kurssille on jo tavallisia rekiteröitymisiä.';
+$string['metaalreadyhasenrolments'] = 'Tälle kurssille on jo rekisteröidytty.';
 $string['metaalreadyinmeta'] = 'Tämä kurssi on jo osa metakurssia.';
 $string['metaassigncourses'] = 'Valitse kurssit';
 $string['metacourse'] = 'Metakurssi';

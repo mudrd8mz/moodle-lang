@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 beta (2006101000)
+      // assignment.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['allowdeleting'] = 'Salli muutokset';
@@ -87,14 +87,17 @@ $string['pagesize'] = 'Näytettävien tehtävien määrä sivua kohden';
 $string['preventlate'] = 'Estä myöhästyneet palautukset';
 $string['quickgrade'] = 'Salli nopea arviointi';
 $string['responsefiles'] = 'Palaute tiedostot';
+$string['reviewed'] = 'Arvioinut';
 $string['saveallfeedback'] = 'Tallenna palaute';
 $string['sendformarking'] = 'Lähetä merkittäväksi';
 $string['submission'] = 'Palautus';
+$string['submissiondraft'] = 'Keskeneräinen palautus';
 $string['submissionfeedback'] = 'Palaute tehtävästä';
 $string['submissions'] = 'Palautukset';
 $string['submissionsaved'] = 'Muutokset tallennettu';
 $string['submissionsnotgraded'] = '$a tehtävää arvioimatta';
 $string['submitassignment'] = 'Palauta tehtäväsi käyttäen tätä lomaketta';
+$string['submitedformarking'] = 'Tehtävä on jo merkitty arvioiduksi eikä sitä voi muuttaa.';
 $string['submitformarking'] = 'Palauta tehtävä merkittäväksi';
 $string['submitted'] = 'Palautettu';
 $string['submittedfiles'] = 'Palautetut tiedostot';

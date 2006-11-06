@@ -1,7 +1,5 @@
-<?PHP // $Id:
-
-
-      // quiz.php - created with Moodle 1.6.1+ (2006050512)
+<?PHP // $Id$ 
+      // quiz.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['1day'] = '1 päivä';
@@ -50,13 +48,21 @@ $string['attempts'] = 'Yritykset';
 $string['attemptsallowed'] = 'Montako yritystä sallittu?';
 $string['attemptselection'] = 'Valitse käyttäjien kohdalla tilastoinnissa käytettävät yritykset:';
 $string['attemptsexist'] = 'Tätä tenttiä on jo yritetty';
+$string['attemptsonly'] = 'Näytä vain vastanneet opiskelijat';
 $string['attemptsunlimited'] = 'Rajattomasti yrityksiä';
 $string['back'] = 'Takaisin esikatseluun';
+$string['backtoquestionlist'] = 'Takaisin kysymyslistaan';
 $string['backtoquiz'] = 'Takaisin tenttien muokkaukseen';
 $string['bestgrade'] = 'Paras arviointi';
 $string['blackboard'] = 'Blackboard';
+$string['bothattempts'] = 'Näytä vastanneet ja vastaamatta olevat opiskelijat';
 $string['calculated'] = 'Lasku';
 $string['calculatedquestion'] = 'Laskutehtävää ei ole tuettu rivillä $a. Kysymystä ei huomioida.';
+$string['cannotcreatepath'] = 'Polkua ei voi luoda ($a)';
+$string['cannotinsert'] = 'Kysymystä ei voitu sijoittaa';
+$string['cannotopen'] = 'Vientitiedostoa ei voitu luoda ($a)';
+$string['cannotread'] = 'Tuontitiedostoa ei voitu lukea tai tiedosto on tyhjä';
+$string['cannotwrite'] = 'Vientitiedostoa ei voitu kirjoittaa';
 $string['caseno'] = 'Ei, kirjainkoolla ei ole merkitystä';
 $string['casesensitive'] = 'Kirjainkokoon merkitys';
 $string['caseyes'] = 'Kyllä, kirjainkoon pitää täsmätä';
@@ -67,8 +73,10 @@ $string['categorydeleted'] = 'Kategoria \'$a\' poistettu';
 $string['categoryinfo'] = 'Kategorian tiedot';
 $string['categorymove'] = 'Kategoria \'$a->name\' sisältää \'$a->count\' kysymystä. Ole hyvä ja valitse joku toinen kategoria, johon siirrät ne.';
 $string['categorymoveto'] = 'Siirrä valitut tähän kategoriaan.';
+$string['categorynamecantbeblank'] = 'Kategorian nimi ei voi olla tyhjä';
 $string['categorynoedit'] = 'Sinulla ei ole muokkausoikeutta kategoria {$a}ssa.';
 $string['categoryupdated'] = 'Kategoria päivitettiin onnistuneesti';
+$string['changessaved'] = 'Aviointi tallennettu';
 $string['checkanswer'] = 'Tarkista';
 $string['choice'] = 'Valitse';
 $string['choices'] = 'Vaihtoehdot';
@@ -90,6 +98,7 @@ $string['copyingquestion'] = 'Kysymystä kopioidaan';
 $string['correct'] = 'Oikein';
 $string['correctanswer'] = 'Oikea vastaus';
 $string['correctanswerformula'] = 'Oikea ratkaisukaava';
+$string['correctansweris'] = 'Oikea vastaus: $a';
 $string['correctanswerlength'] = 'Merkitsevät arvot';
 $string['correctanswers'] = 'Oikeat vastaukset';
 $string['correctanswershows'] = 'Näytä oikea vastaus';
