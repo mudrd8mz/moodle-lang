@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 beta + (2006101003)
+      // moodle.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['action'] = 'Azione';
@@ -257,6 +257,7 @@ $string['courseimportnotaught'] = 'Non essendo un docente con abilità di modifi
 $string['courseinfo'] = 'Informazioni sul corso';
 $string['coursemessage'] = 'Messaggio utenti corso';
 $string['coursenotaccessible'] = 'Questo corso non è abilitato all\'accesso pubblico';
+$string['courseoverview'] = 'Introduzione corso';
 $string['coursereject'] = 'Rifiuta una richiesta di corso';
 $string['courserejected'] = 'Il corso è stato rifiutato e ne stata data notifica al richiedente';
 $string['courserejectemail'] = 'Spiacente, ma la richiesta di creazione del corso è stata rifiutata. Qui trovate la motivazione:
@@ -955,6 +956,7 @@ $string['notavailable'] = 'Non disponibile';
 $string['noteachersyet'] = 'Non ci sono ancora docenti in questo corso';
 $string['notenrollable'] = 'In questo momento non è possibile iscriversi al corso.';
 $string['notenrolled'] = '$a non è registrato in questo corso.';
+$string['notenrolledprofile'] = 'Questo profilo non è disponibile perché questo utente non è iscritto a questo corso.';
 $string['noteuserschangednonetocourse'] = 'Nota: devono essere recuperati gli studenti del corso quando vengono recuperati i dati degli utenti. Questa configurazione é stata cambiata per te.';
 $string['nothingnew'] = 'Nessuna novità dal tuo ultimo login';
 $string['nothingtodisplay'] = 'Non c\'è niente da visualizzare';
@@ -1026,6 +1028,7 @@ $string['periodending'] = 'Termine periodo ($a)';
 $string['personalprofile'] = 'Profilo personale';
 $string['phone'] = 'Telefono';
 $string['phpinfo'] = 'Informazioni PHP';
+$string['pleaseclose'] = 'Si prega ora di chiudere questa finestra.';
 $string['pluginsetup'] = 'Impostazione tabelle plugin';
 $string['policyagree'] = 'Per continuare ad usare questo sito, è necessario accettare le condizioni riportate.';
 $string['policyagreement'] = 'Condizioni di utilizzo del sito';
@@ -1184,6 +1187,8 @@ $string['sitefiles'] = 'File del sito';
 $string['sitelogs'] = 'Logs del sito';
 $string['sitenews'] = 'News del sito';
 $string['sitepartlist'] = 'Non hai il permesso necessario per vedere la lista dei partecipanti';
+$string['sitepartlist0'] = 'Bisogna essere il docente del sito per poter vedere la lista dei partecipanti del sito';
+$string['sitepartlist1'] = 'Bisogna essere un docente per poter vedere la lista dei partecipanti del sito';
 $string['sites'] = 'Siti';
 $string['sitesection'] = 'Includi una sezione';
 $string['sitesettings'] = 'Impostazioni sito';
@@ -1443,6 +1448,7 @@ $string['yahooid'] = 'Yahoo ID';
 $string['yes'] = 'Sì';
 $string['youareabouttocreatezip'] = 'Stai per creare un file compresso contenete';
 $string['youaregoingtorestorefrom'] = 'Stai per recuperare da:';
+$string['youneedtoenrol'] = 'Per effettuare questa operazione bisogna essere iscritti a questo corso.';
 $string['yourlastlogin'] = 'Il tuo ultimo login è stato:';
 $string['yourself'] = 'Te stesso';
 $string['yourteacher'] = 'Vostro $a';
