@@ -16,5 +16,6 @@ $string['err_alphanumeric'] = 'Vous ne devez saisir que des chiffres ou des lett
 $string['err_nopunctuation'] = 'Vous ne devez saisir aucune ponctuation dans ce champ.';
 $string['err_nonzero'] = 'Vous ne devez pas saisir de nombre commençant par 0 dans ce champ.';
 $string['err_numeric'] = 'Vous devez saisir un nombre dans ce champ.';
+$string['general'] = 'Réglages généraux';
 
 ?>
