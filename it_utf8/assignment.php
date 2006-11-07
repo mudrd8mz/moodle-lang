@@ -1,14 +1,20 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6 development (2006032200)
+      // assignment.php - created with Moodle 1.8 dev (2006102600)
 
 
+$string['allowdeleting'] = 'Permettere rimozione';
+$string['allowmaxfiles'] = 'Numero massimo di file inviati';
+$string['allownotes'] = 'Permettere note';
 $string['allowresubmit'] = 'Possibilità  di consegnare più volte';
+$string['assignment:grade'] = 'Valuta compito';
+$string['assignment:submit'] = 'Sottometti compito';
+$string['assignment:view'] = 'Visualizza compito';
 $string['assignmentdetails'] = 'Dettaglio compiti';
 $string['assignmentmail'] = '$a->teacher ha corretto il tuo compito per l\'esercizio \'$a->assignment\'.
 
 Puoi vedere la valutazione associata al tuo compito:
 
-$a->url ';
+$a->url';
 $string['assignmentmailhtml'] = '$a->teacher ha corretto il tuo compito per l\'esercizio \'<i>$a->assignment\'</i>.<br /><br />
 Puoi vedere la valutazione associata al tuo <a href=\"$a->url\">compito</a>';
 $string['assignmentname'] = 'Titolo del compito';
@@ -18,11 +24,15 @@ $string['comment'] = 'Commento';
 $string['commentinline'] = 'Commento in linea';
 $string['configitemstocount'] = 'Natura degli item da contare per le consegne degli studenti nei compiti on-line.';
 $string['configmaxbytes'] = 'Dimensione massima del compito inviato per tutti i compiti del sito (modificabile da limiti del corso e altre impostazioni locali)';
+$string['confirmdeletefile'] = 'Sei assolutamente sicuro di voler rimuovere questo file?<br/><strong>$a</strong>';
+$string['deletefilefailed'] = 'Rimozione del file fallita';
 $string['description'] = 'Descrizione';
+$string['draft'] = 'Bozza';
 $string['duedate'] = 'Data di scadenza';
 $string['duedateno'] = 'Senza scadenza';
 $string['early'] = '$a anticipo';
 $string['editmysubmission'] = 'Modifica il mio compito';
+$string['emailstudents'] = 'Notifica avvisi agli studenti';
 $string['emailteachermail'] = '$a->username ha consegnato il suo compito per \'$a->assignment\'
 
 Il compito è disponibile al link:
@@ -44,6 +54,7 @@ $string['helpoffline'] = '<p>Questo è utile quando il compito è compilato al d
 $string['helponline'] = '<p>Questo tipo di compito chiede agli utenti di redigere un testo, utilizzando i normali strumenti di modifica. I docenti possono valutarli online, e anche aggiungere dei commenti in linea o modifiche.</p>
 <p>(Se hai familiarità  con le vecchie versioni di Moodle, questo tipo di compito permette di fare le stesse cose del vecchio modulo Diario).</p>';
 $string['helpuploadsingle'] = '<p>Questo tipo di compito permette a tutti i partecipanti di inviare un file, di qualunque tipo.</p><p>Questo potrebbe essere un documento di testo, o un\'immagine, un sito web compresso, o qualunque cosa venga richiesto loro di sottomettere.</p>';
+$string['hideintro'] = 'Nascondere la descrizione prima della data di apertura';
 $string['late'] = '$a ritardo';
 $string['maximumgrade'] = 'Voto massimo';
 $string['maximumsize'] = 'Dimensione massima';

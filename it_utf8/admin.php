@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 beta + (2006101003)
+      // admin.php - created with Moodle 1.7 beta 2 (2006101004)
 
 
 $string['accounts'] = 'Profili';
@@ -173,6 +173,7 @@ $string['configsessioncookie'] = 'Questa impostazione personalizza il nome del c
 $string['configsessioncookiepath'] = 'Se è necessario modificare dove i browser inviano i cookie di Moodle, si può modificare questa impostazione specificando la sottodirectory del vostro server web. Altrimenti lo standard \'/\' può andare bene.';
 $string['configsessiontimeout'] = 'Se le persone loggate in questo sito sono inattive da molto tempo (senza caricare pagine) viene automaticamente terminata la loro sessione. Questa variabile specifica la durata della sessione.';
 $string['configshowblocksonmodpages'] = 'Alcuni moduli supportano l\'inserimento di blocchi sulle loro pagine. Se l\'opzione viene attivata darete la possibiltà  ai docenti di attivare i blocchi; in caso contrario, l\'opzione non verrà  visualizzata.';
+$string['configshowsiteparticipantslist'] = 'Tutti gli studenti di questo sito e i docenti del sito saranno mostrati nella lista dei partecipanti. Chi è abilitato a visualizzare la lista dei partecipanti di questo sito?';
 $string['configsitemailcharset'] = 'Tutte le email generate dal vostro sito saranno inviate utilizzando il set di caratteri impostato qui. Comunque ogni utente può personalizzarlo se è abilitata la prossima impostazione.';
 $string['configsitepolicy'] = 'Se si dispone di una politica del sito (modalità  di utilizzo) che tutti gli utenti devono leggere e sottoscrivere prima di utilizzare il sito, specificarne qui l\'indirizzo (URL), altrimenti lasciare in bianco. L\'URL può puntare ad un\'indirizzo qualsiasi, ma si consiglia di riferirlo ad un file presente sul sito. Per esempio, http://tuosito/file.php/1/policy.html';
 $string['configslasharguments'] = 'I files (immagini, uploads ecc) vengono distribuiti mediante uno script che utilizza gli \'slash arguments\' (la seconda opzione a fianco). 
@@ -379,7 +380,7 @@ $string['pathtopsqlinvalid'] = 'Percorso non valido per pgsql - percorso errato 
 $string['pathtounzip'] = 'Percorso per unzip';
 $string['pathtozip'] = 'Percorso per zip';
 $string['perfdebug'] = 'Informazioni sulle prestazioni';
-$string['performance'] = 'Performance';
+$string['performance'] = 'Prestazioni';
 $string['pgcluster'] = 'Cluster PostgreSQL';
 $string['pgclusterdescription'] = '<pre>Parametro per le operazioni a linea di comando della versione/cluster di PostgreSQL. Se avete solo un postgresql sul vostro sistema o non siete sicuri di cosa sia questo, lasciatelo vuoto.</pre>';
 $string['php50restricted'] = 'PHP 5.0.x ha diversi problemi conosciuti, si prega di aggiornare alla versione 5.1.x o tornare alle versioni 4.3.x o 4.4.x';
@@ -434,6 +435,7 @@ $string['statsuserthreshold'] = 'Soglia utenti';
 $string['stickyblocks'] = 'Blocchi \"pinzati\"';
 $string['stickyblockscourseview'] = 'Pagina del Corso';
 $string['stickyblocksduplicatenotice'] = 'Se un blocco aggiunto qui esiste già  in una particolare pagina, risulterà  duplicato.<br />Solo i blocchi \"pinzati\" non saranno modificabili, il duplicato continuerà  ad essere modificabile.';
+$string['stickyblocksmymoodle'] = 'Moodle Mio';
 $string['stickyblockspagetype'] = 'Tipo di pagina da configurare';
 $string['systempaths'] = 'Percorsi di sistema';
 $string['tabselectedtofront'] = 'Nelle tabelle con etichetta, si deve posizionare davanti la riga con il tag corrente selezionato?';

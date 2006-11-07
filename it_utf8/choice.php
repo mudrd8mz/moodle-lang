@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8 dev (2006101001)
+      // choice.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['addmorechoices'] = 'Aggiungi più scelte';
@@ -24,6 +24,8 @@ $string['limitanswers'] = 'Limita il numero delle risposte consentite';
 $string['modulename'] = 'Scelta';
 $string['modulenameplural'] = 'Scelte';
 $string['mustchooseone'] = 'Bisogna scegliere una risposta prima di salvare. Non è stato salvato nulla.';
+$string['noguestchoose'] = 'Spiacenti, gli ospiti non possono effettuare le Scelte.';
+$string['noresultsviewable'] = 'I risultati non sono attualmente visualizzabili.';
 $string['notanswered'] = 'Ancora nessuna risposta';
 $string['notopenyet'] = 'Spiacente, questa attività  non è disponibile fino al $a';
 $string['privacy'] = 'Privacy dei risultati';

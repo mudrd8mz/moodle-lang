@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.5 ALPHA (2005050600)
+      // editor.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['about'] = 'Info su questo editor';
@@ -29,8 +29,9 @@ $string['createanchor'] = 'Crea ancora';
 $string['createfolder'] = 'Crea cartella';
 $string['createlink'] = 'Inserisci collegamento web';
 $string['cut'] = 'Taglia selezione';
-$string['cutpastemozilla'] = 'Sfortunatamente, non &egrave; possibile utilizzare le normali scorciatoie da tastiera (o anche il pulsante Incolla) per Incollare testo in questo editor in linea. Questo perch&egrave; una specifica di sicurezza che  &egrave; inclusa in alcune versioni di Mozilla e di Firefox.<br /></br>Ci sono tre alternative conosciute che &egrave; possibile provare:<br />(1) Invece di CTRL-v, utilizzare SHIFT-Ins(erisci)<br />(2) Utilizzare il menu Modifica->Incolla del browser<br />(3) Cambiare le impostazioni del browser modificando il file user.js.<br /><br />Cliccare il pulsante OK per ulteriore aiuto, o Cancella per tornare all\'editor.';
+$string['cutpastemozilla'] = 'Sfortunatamente, non è possibile utilizzare le normali scorciatoie da tastiera (o anche il pulsante Incolla) per Incollare testo in questo editor in linea. Questo perchè una specifica di sicurezza che  è inclusa in alcune versioni di Mozilla e di Firefox.<br /></br>Ci sono tre alternative conosciute che è possibile provare:<br />(1) Invece di CTRL-v, utilizzare SHIFT-Ins(erisci)<br />(2) Utilizzare il menu Modifica->Incolla del browser<br />(3) Cambiare le impostazioni del browser modificando il file user.js.<br /><br />Cliccare il pulsante OK per ulteriore aiuto, o Cancella per tornare all\'editor.';
 $string['delete'] = 'Cancella';
+$string['enterurlfirst'] = 'È necessario inserire l\'indirizzo prima';
 $string['filebrowser'] = 'Gestione file';
 $string['findwhat'] = 'Trova';
 $string['fontname'] = 'Nome del carattere';
@@ -60,7 +61,7 @@ $string['justifyright'] = 'Destra';
 $string['layout'] = 'Schema';
 $string['left'] = 'Sinistra';
 $string['lefttoright'] = 'Direzione da sinistra a destra';
-$string['linkproperties'] = 'Propriet&agrave;  collegamento';
+$string['linkproperties'] = 'Proprietà  collegamento';
 $string['linktarget'] = 'destinazione';
 $string['linktargetblank'] = 'Nuova finestra';
 $string['linktargetnone'] = 'Niente';
@@ -73,7 +74,8 @@ $string['matchcase'] = 'Match case';
 $string['middle'] = 'Centro';
 $string['minimize'] = 'Minimizza editor';
 $string['move'] = 'Muovi';
-$string['nolink'] = 'Previeni auto-collegamenti';
+$string['mustenterurl'] = 'Si deve inserire l\'indirizzo';
+$string['nolink'] = 'Prevenire auto-collegamenti';
 $string['normal'] = 'Normale';
 $string['notimage'] = 'Il file selezionato non é un immagine. Prego scegliere un immagine!';
 $string['notset'] = 'Non impostato';
@@ -85,10 +87,11 @@ $string['paste'] = 'Incolla dagli appunti';
 $string['path'] = 'Percorso';
 $string['percent'] = 'Percentuale';
 $string['pixels'] = 'Punti';
+$string['pleaseenteralt'] = 'Si prega di inserire il testo alternativo';
 $string['popupeditor'] = 'Editor in nuova finestra';
 $string['preformatted'] = 'Preformattato';
 $string['preview'] = 'Anteprima';
-$string['properties'] = 'Propriet&agrave; ';
+$string['properties'] = 'Proprietà ';
 $string['redo'] = 'Ripeti ultima azione';
 $string['regularexpressions'] = 'Utilizza espressioni regolari';
 $string['removelink'] = 'Elimina collegamento';

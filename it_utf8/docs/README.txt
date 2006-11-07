@@ -1,16 +1,16 @@
 Documentazione di Moodle
 ------------------------
 
-Se vuoi tradurre quest documentazione in un altra lingua,
+Se vuoi tradurre questa documentazione in un altra lingua,
 vorrei darti alcuni suggerimenti:
 
- 1) non includere la versione inglese dei file in questa directory perchŽ 
+ 1) non includere la versione inglese dei file in questa directory perché 
     verranno usati automaticamente comunque se mandaco nel tuo pacchetto
     della lingua.
 
- 2) traduci seguendo quest'ordine (partendo dai pi importanti):
+ 2) traduci seguendo quest'ordine (partendo dai più importanti):
   
-    PIU' IMPORTANTE
+    PIÙ IMPORTANTE
     |-------------------
     |
     |   - files.php
