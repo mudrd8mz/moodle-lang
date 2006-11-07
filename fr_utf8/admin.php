@@ -424,6 +424,8 @@ $string['timezoneforced'] = 'Ce réglage est imposé par l\'administrateur du si
 $string['timezoneisforcedto'] = 'Imposer à tous les utilisateurs l\'utilisation du fuseau horaire';
 $string['timezonenotforced'] = 'Les utilisateurs peuvent choisir leur fuseau horaire';
 $string['unbookmarkthispage'] = 'Supprimer le marque-page de cette page';
+$string['unicoderecommended'] = 'La migration de la base de données vers UTF-8 est recommandée. Les nouvelles installations devraient être effectuées dans des bases de données supportant unicode.';
+$string['unicoderequired'] = 'Une base de données supportant Unicode est requise pour l\'installation ou la mise à jour. Veuillez vous assurer que la base de données a été migrée en unicode avant d\'effectuer la mise à jour vers cette version.';
 $string['unicodeupgradenotice'] = 'Dans la version 1.6 de Moodle, toutes les langues sont en encodage Unicode. Pour finir la mise à jour de ce site, il est nécessaire de convertir tout le contenu de votre base de données en encodage Unicode à l\'aide de notre script de migration. <a href=\"utfdbmigrate.php\">Cliquez ici pour lancer le script de migration maintenant</a>&nbsp;!';
 $string['uninstall'] = 'Désinstaller les langues sélectionnées';
 $string['uninstallconfirm'] = 'Vous êtes sur le point de supprimer totalement la langue $a. Voulez-vous continuer&nbsp;?';
