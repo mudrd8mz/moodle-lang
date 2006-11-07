@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6 (2006050506)
+      // hotpot.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['abandoned'] = 'Bertan behera utzita';
@@ -38,7 +38,7 @@ $string['error_noquizzesfound'] = 'Ez da Hot Potatoes motako galdetegirik aurkit
 $string['error_notfileorfolder'] = '\"$a\" ez da ez fitxategia ezta direktorioa ere';
 $string['feedbackformmail'] = 'Feedback-erako formularioa';
 $string['feedbackmoodleforum'] = 'Moodle-ren foroa';
-$string['feedbackmoodlemessaging'] = 'Moodl-ren mezularitza';
+$string['feedbackmoodlemessaging'] = 'Moodle-ren mezularitza';
 $string['feedbacknone'] = 'Ez';
 $string['feedbackwebpage'] = 'Web orria';
 $string['filetype'] = 'Fitxategi-mota';
@@ -50,12 +50,12 @@ $string['inprogress'] = 'Ari da';
 $string['location'] = 'Filtxategiaren kokalekua';
 $string['modulename'] = 'Hot Potatoes motako ariketa';
 $string['modulenameplural'] = 'Hot Potatoes motako ariketak';
-$string['navigation'] = 'Nagegazioa';
+$string['navigation'] = 'Nabigazioa';
 $string['navigation_bar'] = 'Moodle-ren nabigazio-barra';
 $string['navigation_buttons'] = 'Hot Potatoes galdetegien botoiak';
 $string['navigation_frame'] = 'Moodle-ren nabigazio-markoa';
 $string['navigation_give_up'] = '\"Utzi\" botoi bakarra';
-$string['navigation_iframe'] = '&lt;IFRAME&gt; txertatuta';
+$string['navigation_iframe'] = '<IFRAME>> txertatuta';
 $string['navigation_none'] = 'Bat ere ez';
 $string['neverclosed'] = 'Inoiz ez itxita';
 $string['noactivity'] = 'Ez dago aktibitaterik';
@@ -106,7 +106,7 @@ $string['reporthotpotscore'] = 'Hotpot puntuazioa';
 $string['reportlegend'] = 'Leienda';
 $string['reportlogindate'] = 'Sarrera-data';
 $string['reportlogintime'] = 'Sarrera-ordua';
-$string['reportlogofftime'] = 'irteera-ordua';
+$string['reportlogofftime'] = 'Irteera-ordua';
 $string['reportmaxscore'] = 'Gehienezko puntuazioa';
 $string['reportnottried'] = 'Saiakerarik ez';
 $string['reportnottriedsymbol'] = '-';
