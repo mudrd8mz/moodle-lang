@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 beta (2006101000)
+      // moodle.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['action'] = 'Azione';
@@ -654,7 +654,7 @@ $string['helpsummaries'] = 'Informazioni sulle introduzioni';
 $string['helptext'] = 'Come scrivere del testo';
 $string['helpwiki'] = 'Come scrivere del testo Wiki';
 $string['helpwriting'] = 'Scrivi con attenzione';
-$string['hiddensections'] = 'Argomenti nascosto';
+$string['hiddensections'] = 'Argomenti nascosti';
 $string['hiddensectionscollapsed'] = 'Le sezioni nascoste sono mostrate in modo compatto';
 $string['hiddensectionsinvisible'] = 'Le sezioni nascoste sono completamente invisibili';
 $string['hide'] = 'Nascondi';
