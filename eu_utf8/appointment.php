@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // appointment.php - created with Moodle 1.6 (2006050506)
+      // appointment.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['allowresubmit'] = 'Berbidalketa baimendu';
@@ -7,7 +7,7 @@ $string['appointmentdetails'] = 'Hitzorduaren zehaztapenak';
 $string['appointmentlocation'] = 'Hitzordua non';
 $string['appointmentname'] = 'Hitzorduaren izena';
 $string['date'] = 'Hitzorduaren data';
-$string['description'] = 'Deskripzioa';
+$string['description'] = 'Deskribapena';
 $string['early'] = '$a goiz';
 $string['failedupdatefeedback'] = '$a ikaslearentzako bidalketaren iruzkinak eguneratzean errorea';
 $string['feedback'] = 'Erantzuna';
