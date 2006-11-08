@@ -1,4 +1,4 @@
-<?php
+<?php // $Id$
 
 $string['groupings'] = 'Groupements';
 $string['grouping'] = 'Groupement';
