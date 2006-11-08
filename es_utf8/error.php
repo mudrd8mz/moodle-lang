@@ -51,7 +51,7 @@ $string['onlyeditown'] = 'Sólo puede editar su propia información';
 $string['pagenotexist'] = 'Ha ocurrido un error no usual (se ha intentado acceder a una página que no existe).';
 $string['pleasereport'] = 'Si tiene tiempo, por favor háganos saber qué estaba intentando hacer cuando tuvo lugar el error:';
 $string['pluginrequirementsnotmet'] = 'No se ha podido instalar el plugin \"$a->pluginname\" ($a->pluginversion). Necesita una nueva versión de Moodle (actualmente usted está usando $a->currentmoodle, y necesita $a->requiremoodle).';
-$string['processingstops'] = 'El procesamiento acaba aquí. Se ignoran los demás registros.';
+$string['processingstops'] = 'El procesamiento acaba aquí. Se pasan por alto los demás registros.';
 $string['remotedownloadnotallowed'] = 'No está permitido descargar los componentes a su servidor (allow_url_fopen está deshabilitado).<br /><br />Debe descargar el archivo <a href=\"$a->url\">$a->url</a> manualmente, y copiarlo a \"$a->dest\" ';
 $string['restricteduser'] = 'Lo sentimos, su cuenta \"$a\" no puede hacer esto.';
 $string['sendmessage'] = 'Enviar mensaje';
