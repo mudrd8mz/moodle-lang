@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.5 Beta (2005052300)
+      // workshop.php - created with Moodle 1.7 (2006101007)
 
 
 $string['absent'] = 'Ausente';
@@ -130,16 +130,16 @@ $string['listassessments'] = 'Listar las Evaluaciones';
 $string['listofallsubmissions'] = 'Listar todos los Envíos';
 $string['liststudentsassessments'] = 'Listar las Evaluaciones del Estudiante';
 $string['loadingforteacherassessments'] = 'Peso de las Evaluaciones del $a';
-$string['mail1'] = 'Su tarea \'$a\' ha sido evaluada por ';
-$string['mail10'] = 'Puede evaluarla en su tarea de Taller ';
+$string['mail1'] = 'Su tarea \'$a\' ha sido evaluada por';
+$string['mail10'] = 'Puede evaluarla en su tarea de Taller';
 $string['mail2'] = 'Los comentarios y la calificación pueden verse en la Tarea de Taller \'$a\'';
 $string['mail3'] = 'Puede verlo en su Tarea de Taller';
 $string['mail4'] = '\'$a\' ha agregado un comentario a su tarea';
 $string['mail5'] = 'El nuevo comentario puede verse en la Tarea de Taller \'$a\'';
 $string['mail6'] = 'Su evaluación de la tarea \'$a\' ha sido revisada';
 $string['mail7'] = 'Los comentarios realizados por \'$a\' pueden verse en su Tarea de Taller';
-$string['mail8'] = 'La tarea $a es un trabajo revisado. ';
-$string['mail9'] = 'Por favor, evalúela en la tarea de taller $a ';
+$string['mail8'] = 'La tarea $a es un trabajo revisado.';
+$string['mail9'] = 'Por favor, evalúela en la tarea de taller $a';
 $string['managingassignment'] = 'Administrar Tarea';
 $string['maximum'] = 'Máximo';
 $string['maximumsize'] = 'Tamaño Máximo';
@@ -161,7 +161,7 @@ $string['nosubmissionsavailableforassessment'] = 'No hay Envíos disponibles par
 $string['notallowed'] = 'No está permitido entrar a esta página en este momento';
 $string['notavailable'] = 'No disponible';
 $string['notenoughexamplessubmitted'] = 'No se han enviado suficientes ejemplos.';
-$string['noteonassessmentelements'] = 'Advierta que la calificación está desglosada en una serie de \'Elementos de Evaluación\'.<br />Esto hace que sea más sencilla y consistente. Como profesor usted debe añadir estos<br />\'elementos de evaluación\' antes de plantear la tarea a los estudiantes. Esto se consigue<br />haciendo clic en la tarea dentro del curso; de no haber elementos se le pedirá<br />que los añada. Puede cambiar el número de elementos usando la pantalla \'Editar Tarea\';<br />los elementos en sí pueden ser rectificados en la pantalla \"Administrar Tarea\". ';
+$string['noteonassessmentelements'] = 'Advierta que la calificación está desglosada en una serie de \'Elementos de Evaluación\'.<br />Esto hace que sea más sencilla y consistente. Como profesor usted debe añadir estos<br />\'elementos de evaluación\' antes de plantear la tarea a los estudiantes. Esto se consigue<br />haciendo clic en la tarea dentro del curso; de no haber elementos se le pedirá<br />que los añada. Puede cambiar el número de elementos usando la pantalla \'Editar Tarea\';<br />los elementos en sí pueden ser rectificados en la pantalla \"Administrar Tarea\".';
 $string['noteonstudentassessments'] = '{Calificación del estudiante / Calificación de calificaciones de la evaluación}';
 $string['notgraded'] = 'No Calificado';
 $string['notitle'] = 'Sin título';
@@ -270,7 +270,7 @@ $string['submitted'] = 'Enviado';
 $string['submittedby'] = 'Enviado por';
 $string['suggestedgrade'] = 'Calificación sugerida';
 $string['tassmnt'] = 'Eval<br />Profesor';
-$string['teacherassessments'] = 'Evaluaciones de $a ';
+$string['teacherassessments'] = 'Evaluaciones de $a';
 $string['teachergradeforassessment'] = '$a calificación para la evaluación';
 $string['teacherscomment'] = 'Comentario del Profesor';
 $string['teachersgrade'] = 'Calificación del Profesor';
@@ -306,6 +306,8 @@ $string['weightforteacherassessments'] = 'Peso de las Evaluaciones del Profesor'
 $string['weights'] = 'Pesos';
 $string['weightsusedforfinalgrade'] = 'Pesos usados para la Calificación Final';
 $string['weightsusedforsubmissions'] = 'Pesos usados para los Envíos';
+$string['workshop:manage'] = 'Gestionar ajustes';
+$string['workshop:participate'] = 'Participar en';
 $string['workshopagreedassessments'] = 'Evaluaciones Consensuadas del Taller';
 $string['workshopassessments'] = 'Evaluaciones del Taller';
 $string['workshopcomments'] = 'Comentarios del Taller';

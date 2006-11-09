@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.6 (2006050506)
+      // choice.php - created with Moodle 1.7 (2006101007)
 
 
 $string['addmorechoices'] = 'Añadir más opciones';
@@ -24,6 +24,8 @@ $string['limitanswers'] = 'Limitar el número de respuestas permitidas';
 $string['modulename'] = 'Consulta';
 $string['modulenameplural'] = 'Consultas';
 $string['mustchooseone'] = 'Debe elegir una respuesta antes de guardar. No se ha guardado nada.';
+$string['noguestchoose'] = 'Lo sentimos, los invitados no pueden responder encuestas.';
+$string['noresultsviewable'] = 'Los resultados no pueden verse en este momento.';
 $string['notanswered'] = 'No contestada aún';
 $string['notopenyet'] = 'Lo sentimos, esta actividad no estará disponible hasta $a';
 $string['privacy'] = 'Privacidad de los resultados';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 (2006050506)
+      // error.php - created with Moodle 1.7 (2006101007)
 
 
 $string['adminprimarynoedit'] = 'El administrador primario no puede ser editado por otros';
@@ -11,9 +11,12 @@ $string['cannotfindcomponent'] = 'No se puede encontrar el componente.';
 $string['cannotsavemd5file'] = 'No se puede guardar el archivo md5.';
 $string['cannotsavezipfile'] = 'No se puede guardar el archivo ZIP.';
 $string['cannotunzipfile'] = 'No se puede descomprimir el archivo.';
+$string['cantunenrollfrommetacourse'] = 'No se puede dar de baja de este metacurso.';
+$string['cantunenrollinthisrole'] = 'No puede darse de baja de este curso mientras tenga su rol actual.';
 $string['cmunknown'] = 'No se ha podido encontrar este módulo';
 $string['componentisuptodate'] = 'El componente está actualizado.';
 $string['confirmsesskeybad'] = 'Lo sentimos, pero su clave de sesión no ha podido ser confirmada para llevar a cabo esta acción. Esta característica de seguridad previene contra la ejecución en su nombre (accidental o maliciosa) de funciones importantes. Por favor, asegúrese de que realmente deseaba ejecutar esta función.';
+$string['couldnotassignrole'] = 'Al intentar asignarle un rol, ha ocurrido un error grave no especificado';
 $string['coursegroupunknown'] = 'No se ha especificado el curso correspondiente al grupo $a';
 $string['downloadedfilecheckfailed'] = 'Ha fallado la comprobación del archivo descargado.';
 $string['errorcleaningdirectory'] = 'Error al limpiar el directorio  \"$a\"';
@@ -34,12 +37,14 @@ $string['invalidcourse'] = 'Curso no válido';
 $string['invalidfieldname'] = '\"$a\" no es un nombre válido';
 $string['invalidfiletype'] = '\"$a\" no es un tipo de archivo válido';
 $string['invalidmd5'] = 'md5 no válido';
+$string['invalidrole'] = 'Rol no válido';
 $string['invalidxmlfile'] = '\"$a\" no es un archivo XML válido';
 $string['missingfield'] = 'Falta el campo \"$a\"';
 $string['missingrequiredfield'] = 'Falta algún campo necesario';
 $string['modulemissingcode'] = 'El módulo $a carece del código necesario para llevar a cabo esta función';
 $string['modulerequirementsnotmet'] = 'El módulo \"$a->modulename\" ($a->moduleversion) no se puede instalar debido a que requiere una versión más nueva de Moodle (esta versión es la $a->currentmoodle, y el módulo requiere la $a->requiremoodle).';
 $string['mustbeteacher'] = 'Sólo los profesores pueden ver esta página';
+$string['nocontext'] = 'Lo sentimos, ese curso no es un contexto válido';
 $string['noinstances'] = 'En este curso no aparece $a.';
 $string['nonmeaningfulcontent'] = 'No contenido significativo';
 $string['noparticipatorycms'] = 'Lo sentimos, no dispone de módulos de participación en cursos sobre los que informar.';
@@ -52,7 +57,7 @@ $string['pagenotexist'] = 'Ha ocurrido un error no usual (se ha intentado accede
 $string['pleasereport'] = 'Si tiene tiempo, por favor háganos saber qué estaba intentando hacer cuando tuvo lugar el error:';
 $string['pluginrequirementsnotmet'] = 'No se ha podido instalar el plugin \"$a->pluginname\" ($a->pluginversion). Necesita una nueva versión de Moodle (actualmente usted está usando $a->currentmoodle, y necesita $a->requiremoodle).';
 $string['processingstops'] = 'El procesamiento acaba aquí. Se pasan por alto los demás registros.';
-$string['remotedownloadnotallowed'] = 'No está permitido descargar los componentes a su servidor (allow_url_fopen está deshabilitado).<br /><br />Debe descargar el archivo <a href=\"$a->url\">$a->url</a> manualmente, y copiarlo a \"$a->dest\" ';
+$string['remotedownloadnotallowed'] = 'No está permitido descargar los componentes a su servidor (allow_url_fopen está deshabilitado).<br /><br />Debe descargar el archivo <a href=\"$a->url\">$a->url</a> manualmente, y copiarlo a \"$a->dest\"';
 $string['restricteduser'] = 'Lo sentimos, su cuenta \"$a\" no puede hacer esto.';
 $string['sendmessage'] = 'Enviar mensaje';
 $string['sessionerroruser'] = 'Su sesión ha excedido el tiempo límite. Por favor, ingrese de nuevo.';
