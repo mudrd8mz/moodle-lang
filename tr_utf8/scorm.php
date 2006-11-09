@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 dev (2006092801)
+      // scorm.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['advanced'] = 'Parametreler';
@@ -8,7 +8,7 @@ $string['assetlaunched'] = 'Varlık - Bakıldı';
 $string['attempt'] = 'uygulama';
 $string['attempts'] = 'uygulama';
 $string['attr_error'] = '$a->tag etiketinde ($a->attr) özelliği için hatalı değer.';
-$string['autocontinue'] = 'Otomatik Devam Et';
+$string['autocontinue'] = 'Otomatik devam et';
 $string['averageattempt'] = 'Uygulama ortalaması';
 $string['badmanifest'] = 'Manifest hatası: hata kayıtlarına bakın';
 $string['badpackage'] = 'Pakette bazı sorunlar var. Paketi kontrol edin ve yeniden deneyin.';
@@ -106,6 +106,7 @@ $string['reviewmode'] = 'Önizleme Modu';
 $string['scoes'] = 'Öğrenme Nesneleri';
 $string['score'] = 'Puan';
 $string['scorm:savetrack'] = 'İzlemeleri kaydet';
+$string['scorm:skipview'] = 'Gözgeçirmeyi atla';
 $string['scorm:viewreport'] = 'Raporlara bak';
 $string['scorm:viewscores'] = 'Notlara bak';
 $string['scormcourse'] = 'Öğrenme Kursu';
