@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 dev (2006102200)
+      // data.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['action'] = '행동';
@@ -80,7 +80,7 @@ $string['fieldenclosure'] = '항목';
 $string['fieldheight'] = '항목 높이';
 $string['fieldheightlistview'] = '목록보기에서 높이';
 $string['fieldheightsingleview'] = '하나보기에서 높이';
-$string['fieldmappings'] = 'Field Mappings';
+$string['fieldmappings'] = '항목 배치';
 $string['fieldname'] = '항목 이름';
 $string['fieldoptions'] = '옵션(한줄에 하나)';
 $string['fields'] = '항목들';

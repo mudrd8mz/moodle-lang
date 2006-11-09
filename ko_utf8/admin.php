@@ -436,6 +436,8 @@ $string['timezoneforced'] = '사이트 관리자에 의해 지정되어 있습�
 $string['timezoneisforcedto'] = '모든 사용자가 강제로 사용해야 합니다.';
 $string['timezonenotforced'] = '나름대로의 표준 시간대를 사용할 수 있습니다.';
 $string['unbookmarkthispage'] = '갈무리 지정 해제';
+$string['unicoderecommended'] = '모든 자료를 유니코드(UTF-8)로 저장해야 합니다. 새 설정은 기본 문자코드가 유니코드로 저장되어 있다고 가정하고 작동이 됩니다. 만일 업그레이드 중이라면 반드시 UTF-8 변환과정을 수행하여야만 합니다.(관리화면 참조)';
+$string['unicoderequired'] = '여러분의 모든 자료가 유니코드(UTF-8)로 저장되야 합니다. 새 설정은 기본 문자코드가 유니코드로 저장되어 있다고 가정하고 작동이 됩니다. 만일 업그레이드 중이라면 반드시 UTF-8 변환과정을 수행하여야만 합니다.(관리화면 참조)';
 $string['unicodeupgradenotice'] = '무들 1.6에서는 모든 언어가 유니코드로 바뀌었습니다. 이사이트의 업그레이드를 마치기 위해서는 다음의 변환 스크립트를 사용하여 데이터베이스의 모든 데이터를 변환하여야 합니다.  <a href=\"utfdbmigrate.php\">변환스크립트를 사용하기 위해서는 여기를 클릭하세요</a>';
 $string['uninstall'] = '선택된 언어팩의 제거';
 $string['uninstallconfirm'] = '언어팩 $a 삭제 요청을 하였습니다. 제거하시겠습니까?';

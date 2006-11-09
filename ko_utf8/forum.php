@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 dev (2006102200)
+      // forum.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -75,11 +75,11 @@ $string['forum:deleteownpost'] = '자신의 게시물 삭제(시한 내)';
 $string['forum:editanypost'] = '게시물 편집';
 $string['forum:managesubscriptions'] = '구독 관리';
 $string['forum:movediscussions'] = '토론내용 이전';
-$string['forum:nothrottling'] = '통제 없음';
 $string['forum:rate'] = '게시물 등위 산출';
 $string['forum:replypost'] = '게시물에 답장';
 $string['forum:splitdiscussions'] = '토론주제 분리';
 $string['forum:startdiscussion'] = '새로운 토론 시작';
+$string['forum:throttlingapplies'] = '제한 적용';
 $string['forum:viewanyrating'] = '등위 보기';
 $string['forum:viewdiscussion'] = '토론 보기';
 $string['forum:viewhiddentimedposts'] = '숨겨진 제한된 게시물 보기';
