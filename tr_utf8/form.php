@@ -14,6 +14,7 @@ $string['err_numeric'] = 'Buraya bir sayı girmelisiniz.';
 $string['err_rangelength'] = 'Buraya {$a->format[0]} ile {$a->format[1]} karakter arasında girmelisiniz.';
 $string['err_required'] = 'Buraya bir değer girmelisiniz.';
 $string['general'] = 'Genel Ayarlar';
+$string['modstandardels'] = 'Genel Modül Ayarları';
 $string['nomethodforaddinghelpbutton'] = '$a->name (sınıf $a->classname) form ögesi için yardım butonu ekleme metodu yok.';
 $string['nonexistentformelements'] = 'Var olmayan form ögelerine yardım butonları eklenmeye çalışılıyor: $a';
 $string['requiredelement'] = 'Gerekli alan.';
