@@ -1,0 +1,71 @@
+<?PHP // $Id$ 
+      // group.php - created with Moodle 1.8 dev (2006102600)
+
+
+$string['addexistinggroupstogrouping'] = '기존 모둠을 모둠무리에 추가';
+$string['addgroupstogrouping'] = '모둠을 모둠무리에 추가';
+$string['adduserstogroup'] = '사용자를 모둠에 추가';
+$string['cancel'] = '취소';
+$string['createautomaticgrouping'] = '자동 모둠무리 생성';
+$string['creategroup'] = '모둠 생성';
+$string['creategrouping'] = '모둠무리 생성';
+$string['creategroupinselectedgrouping'] = '지정한 모둠무리에 모둠 생성';
+$string['defaultgroupdescription'] = '기본 모둠 설명';
+$string['defaultgroupingname'] = '모둠무리';
+$string['defaultgroupname'] = '모둠';
+$string['defaultgroupprefix'] = '모둠';
+$string['deletegrouping'] = '모둠무리 삭제';
+$string['deleteselectedgroup'] = '선택한 모둠 삭제';
+$string['displaygrouping'] = '모둠무리 보이기';
+$string['distributealphabetically'] = '성을 기준으로 모둠을 나눔';
+$string['distributeevenly'] = 'leftover 학생을 나눔';
+$string['editgroupingpermissions'] = '모둠무리 권한 편집';
+$string['editgroupingsettings'] = '모둠무리 설정';
+$string['editgroupsettings'] = '모둠 설정';
+$string['enrolmentkey'] = '등록키';
+$string['group'] = '모둠';
+$string['groupdescription'] = '모둠 설명';
+$string['groupfor'] = '모둠에 대하여';
+$string['groupinfo'] = '선택한 모둠의 정보';
+$string['groupinfomembers'] = '선택한 구성원의 정보';
+$string['groupinfopeople'] = '선택한 사람의 정보';
+$string['grouping'] = '모둠무리';
+$string['groupingdescription'] = '모둠무리 설명';
+$string['groupingname'] = '모둠무리 이름';
+$string['groupings'] = '모둠무리들';
+$string['groupmembers'] = '모둠 구성원';
+$string['groupmemberssee'] = '모둠 구성원 보기';
+$string['groupmembersselected'] = '선택한 모둠의 구성원';
+$string['groupmode'] = '모둠 모드';
+$string['groupmodeforce'] = '강제 모둠 모드';
+$string['groupmy'] = '내 모둠';
+$string['groupname'] = '모둠 이름';
+$string['groupnotamember'] = '죄송합니다, 당신은 그 모둠의 구성원이 아닙니다.';
+$string['groups'] = '모둠들';
+$string['groupsinselectedgrouping'] = '선택된 모둠무리의 모둠';
+$string['groupsnone'] = '모둠 없음';
+$string['groupsseparate'] = '분리된 모둠';
+$string['groupsvisible'] = '개방된 모둠';
+$string['hidepicture'] = '사진 감춤';
+$string['javascriptrequired'] = '이 화면에서는 자바스크립트를 활성화시켜야 합니다.';
+$string['membersofselectedgroup'] = '선택된 모둠의 구성원';
+$string['newpicture'] = '새로운 사진';
+$string['numberofgroups'] = '모둠의 수';
+$string['numberofstudents'] = '학생 수';
+$string['prefixforgroupnames'] = '모둠 이름을 위한 접두어';
+$string['printerfriendly'] = '모둠무리의 인쇄용 화면';
+$string['removegroupfromselectedgrouping'] = '선택한 모둠무리에서 모둠 제거';
+$string['removeselectedusers'] = '선택한 사용자 제명';
+$string['save'] = '저장';
+$string['selectnumberineachgroup'] = '각 모둠의 수 선택';
+$string['selectnumberofgroups'] = '모둠의 수 선택';
+$string['showusersalreadyingroup'] = '모둠무리에 있는 모둠 구성원 보기';
+$string['teachersgroupmark'] = '교사는 자신이 속할 수 없는 모둠의 활동을 표시할 수 없을 것입니다.';
+$string['teachersgroupview'] = '교사는 자신이 속할 수 없는 모둠의 활동을 볼 수 없을 것입니다.';
+$string['teachersoverride'] = '어떤 모둠에도 속하지 않은 교사는 모든 모둠의 활동을 보거나 표시할 수 없을 것 입니다.';
+$string['usestudentsonlyfromselectedgroup'] = '현재 선택된 모듬에서만 학생을 활용할 수 있습니다.';
+$string['viewallgroupsactivities'] = '학생들은 모든 모둠의 활동을 볼 수는 있지만 참여할 수는 없을 것입니다.';
+$string['viewallgroupsmembers'] = '학생들은 다른 모둠의 구성원들을 볼 수 있을 것입니다.';
+$string['viewowngroup'] = '학생들은 속해있는 모든 모둠의 구성원을 볼 수 있을 것입니다.';
+
+?>
