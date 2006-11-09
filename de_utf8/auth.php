@@ -1,14 +1,14 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.7 dev (2006092801)
+      // auth.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['alternatelogin'] = 'Wenn Sie hier eine URL eingeben, wird diese als alternative Login-Seite  verwandt. Die Seite sollte ein Aktionsfeld (Button)auf <strong>\'$a\'</strong> enthalten und Eingabefelder für den <strong>Anmeldenamen</strong> und das <strong>Passwort</strong>.<br />Seien Sie sorgfältig bei der Eingabe der URL. Mit einer falschen URL schließen Sie sich selber vom Zugriff zur Seite aus.<br />Lassen Sie das Feld leer, um die Standardanmeldeseite zu verwenden.';
 $string['alternateloginurl'] = 'Alternative Login-URL';
-$string['auth_cas_baseuri'] = 'URI desServers (kein Eintrag wenn es keine baseUri gibt)<br />Zum Beispiel, wenn der CAS Server an host.domaine.fr/CAS/ dann<br />cas_baseuri = CAS/';
+$string['auth_cas_baseuri'] = 'URI des Servers (kein Eintrag, falls es keine baseUri gibt)<br />z.B., wenn der CAS Server an host.domaine.fr/CAS/ dann<br />cas_baseuri = CAS/';
 $string['auth_cas_create_user'] = 'Aktivieren Sie die Einstellung, um CAS authentifizierte Nutzer/innen in die Moodle-Datenbank einzufügen. Wenn nicht, können sich nur die Nutzer/innen einloggen, die in der Moodle-Datenbank eingetragen sind.';
 $string['auth_cas_enabled'] = 'Aktivieren Sie die Funktion, um die CAS Authentifizierung zu verwenden';
 $string['auth_cas_hostname'] = 'Hostname des CAS-Servers <br />z.B.: host.domain.fr';
-$string['auth_cas_invalidcaslogin'] = 'Sorry, Ihr Login ist gescheitert - Ihr Zugang konnte nicht bestätigt werden.';
+$string['auth_cas_invalidcaslogin'] = 'Entschuldigung, Ihr Login ist gescheitert - Ihr Zugang konnte nicht bestätigt werden.';
 $string['auth_cas_language'] = 'Ausgewählte Sprache';
 $string['auth_cas_logincas'] = 'Sicherer Zugang';
 $string['auth_cas_port'] = 'Port des CAS-Servers';
@@ -20,7 +20,7 @@ $string['auth_castitle'] = 'CAS-Server (SSO)';
 $string['auth_changepasswordhelp'] = 'Hilfe für Passwortänderung';
 $string['auth_changepasswordhelp_expl'] = 'Nutzer/innen Hilfe für vergessene $a Passwörter anzeigen. Diese wird neben oder statt der <strong>URL zur Passwortänderung</strong> oder der Moodle internen Passwortänderung angezeigt.';
 $string['auth_changepasswordurl'] = 'URL zur Passwortänderung';
-$string['auth_changepasswordurl_expl'] = 'Tragen Sie hier eine URL ein unter der Nutzer/innen ein neues Passwort anfordern können. Wenn Sie diese Option nutzen, sollten Sie die Standardeinstellung zur Passwortänderung auf \"Nein\" setzen.';
+$string['auth_changepasswordurl_expl'] = 'Tragen Sie hier eine URL ein, unter der Nutzer/innen ein neues Passwort anfordern können. Wenn Sie diese Option nutzen, sollten Sie die Standardeinstellung zur Passwortänderung auf \"Nein\" setzen.';
 $string['auth_common_settings'] = 'Gemeinsame Einstellungen';
 $string['auth_data_mapping'] = 'Data mapping';
 $string['auth_dbdescription'] = 'Diese Methode benutzt eine externe Datenbank-Tabelle, um die Gültigkeit eines angegebenen Nutzernamens und Kennwort zu überprüfen, Wenn der Zugang neu ist, werden die Informationen der übrigen Felder ebenso zu Moodle hinüberkopiert.';
@@ -30,8 +30,8 @@ $string['auth_dbfieldpass'] = 'Name des Feldes, das das Passwort enthält';
 $string['auth_dbfielduser'] = 'Name des Feldes, das den Nutzernamen enthält';
 $string['auth_dbhost'] = 'Der Computer, der die Datenbank bereitstellt';
 $string['auth_dbname'] = 'Name der Datenbank';
-$string['auth_dbpass'] = 'Das Passwort, das zum Nutzernamen gehört';
-$string['auth_dbpasstype'] = 'Spezifizieren Sie das Format, das das Passwortfeld benutzt. MD5-Verschlüsselung ist nützlich dafür, mit anderen üblichen Netzanwendungen Verbindung aufzunehmen wie z.B. PostNuke';
+$string['auth_dbpass'] = 'Passwort, das zum Nutzernamen gehört';
+$string['auth_dbpasstype'] = 'Spezifizieren Sie das Format, das das Passwortfeld benutzt. MD5-Verschlüsselung ist nützlich dafür, mit anderen üblichen Netzanwendungen Verbindung aufzunehmen, wie z.B. PostNuke';
 $string['auth_dbtable'] = 'Name der Datenbank-Tabelle';
 $string['auth_dbtitle'] = 'Externe Datenbank';
 $string['auth_dbtype'] = 'Der Datenbank-Typ (Siehe <a href=\"../lib/adodb/readme.htm#drivers\">ADOdb Anleitung</a> für Einzelheiten)';
@@ -133,9 +133,9 @@ $string['changepasswordhelp'] = 'Hier können Sie eine Adresse angeben, unter de
 $string['chooseauthmethod'] = 'Authentifizierungsmethode';
 $string['createpasswordifneeded'] = 'Passwort anlegen, falls erforderlich';
 $string['forcechangepassword'] = 'Verbindliche Änderung des Passwortes';
-$string['forcechangepassword_help'] = 'Nutzer werden aufgefordert Ihr Passwort beim nächsten Login zu ändern';
-$string['forcechangepasswordfirst_help'] = 'Nutzer werden aufgefordert Ihr Passwort beim ersten Login zu ändern';
-$string['guestloginbutton'] = 'Schaltfläche für das Gast-Login';
+$string['forcechangepassword_help'] = 'Nutzer werden aufgefordert, Ihr Passwort beim nächsten Login zu ändern';
+$string['forcechangepasswordfirst_help'] = 'Nutzer werden aufgefordert, Ihr Passwort beim ersten Login zu ändern';
+$string['guestloginbutton'] = 'Taste für das Gast-Login';
 $string['infilefield'] = 'Erforderliches Feld in Datei';
 $string['instructions'] = 'Anweisungen';
 $string['internal'] = 'Intern';
@@ -153,8 +153,8 @@ $string['stdchangepassword_explldap'] = 'Anmerkung: Es wird empfohlen LDAP über
 $string['unlocked'] = 'Bearbeitbar';
 $string['unlockedifempty'] = 'Bearbeitbar wenn Feld leer';
 $string['update_never'] = 'Nie';
-$string['update_oncreate'] = 'In Bearbeitung';
+$string['update_oncreate'] = 'Beim Anlegen';
 $string['update_onlogin'] = 'Bei jedem Login';
-$string['update_onupdate'] = 'Bei Update';
+$string['update_onupdate'] = 'Bei der Aktualisierung';
 
 ?>

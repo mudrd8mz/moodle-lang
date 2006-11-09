@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6.2+ (2006050521)
+      // hotpot.php - created with Moodle 1.7 beta (2006101000)
 
 
 $string['abandoned'] = 'abgebrochen';
 $string['addquizchain'] = 'Testverbindung herstellen';
+$string['allmycourses'] = 'Alle meine Kurse';
 $string['allusers'] = 'Alle Nutzer/innen';
 $string['alwaysopen'] = 'Immer offen';
 $string['attemptsall'] = 'Alle Versuche';
@@ -145,6 +146,7 @@ $string['textsourcefilename'] = 'Dateinamen angeben';
 $string['textsourcefilepath'] = 'Dateipfad angeben';
 $string['textsourcequiz'] = 'Vom Test übernehmen';
 $string['textsourcespecific'] = 'Spezifischer Text';
+$string['thiscourse'] = 'Dieser Kurs';
 $string['timedout'] = 'Zeit abgelaufen';
 $string['updatequizchain'] = 'Testverbindung aktualisieren';
 $string['weighting'] = 'Gewichtung';

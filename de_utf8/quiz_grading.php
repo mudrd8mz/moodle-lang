@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // quiz_grading.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // quiz_grading.php - created with Moodle 1.6.2+ (2006050521)
 
 
-$string['essayonly'] = 'Die manuelle Bewertung steht nur für Textfragen zur Verfügung.';
+$string['essayonly'] = 'Die manuelle Bewertung steht nur für Freitext-Fragen zur Verfügung.';
 $string['grading'] = 'Manuelle Bewertung';
 
 ?>

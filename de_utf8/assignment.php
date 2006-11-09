@@ -4,7 +4,7 @@
 
 $string['allowdeleting'] = 'Löschen erlauben';
 $string['allowmaxfiles'] = 'Maximale Anzahl hochgeladener Dateien';
-$string['allownotes'] = 'Bemerkungen erlauben';
+$string['allownotes'] = 'Anmerkungen zulassen';
 $string['allowresubmit'] = 'Erneutes Einreichen erlauben';
 $string['assignment:grade'] = 'Aufgabe bewerten';
 $string['assignment:submit'] = 'Aufgabe übermitteln';
@@ -20,7 +20,7 @@ Sie finden ihn im Anhang Ihrer
 <a href=\"$a->url\">eingereichten Aufgabe</a>:.';
 $string['assignmentname'] = 'Link (Kursseite)';
 $string['assignmenttype'] = 'Aufgabentyp';
-$string['availabledate'] = 'Verfügbar von';
+$string['availabledate'] = 'Verfügbar ab';
 $string['comment'] = 'Kommentar';
 $string['commentinline'] = 'eingearbeiteter Kommentar';
 $string['configitemstocount'] = 'Werte, die bei den Online-Aufgaben der Teilnehmer/innen ausgezählt werden sollen (z.B. Wortzahl, Zeichenzahl)';
@@ -41,7 +41,7 @@ Sie ist hier abgelegt:
 $a->url';
 $string['emailteachermailhtml'] = '$a->username hat die Aufgabe <i>\'$a->assignment\'</i> überarbeitet und neu hochgeladen. <br /><br />
 Sie ist auf der Webseite <a href=\"$a->url\"> verfügbar.</a>.';
-$string['emailteachers'] = 'E-Mail-Nachrichten für Trainer/innen';
+$string['emailteachers'] = 'E-Mail-Benachrichtung an Trainer/innen';
 $string['emptysubmission'] = 'Sie haben noch nichts eingereicht.';
 $string['existingfiledeleted'] = 'Die vorhandene Datei wurde gelöscht: $a';
 $string['failedupdatefeedback'] = 'Keine Aktualisierung der Rückmeldung für Benutzer $a';
@@ -53,9 +53,9 @@ $string['guestnosubmit'] = 'Gäste dürfen keine Aufgaben bearbeiten. Sie müsse
 $string['guestnoupload'] = 'Gäste dürfen keine Dateien hochladen.';
 $string['helpoffline'] = '<p>Dieser Aufgabentyp ist nützlich, wenn die Erledigung der Aufgabe außerhalb von Moodle erfolgt.</p> <p>Die Teilnehmer/innen sehen die Aufgabenbeschreibung, sie können jedoch keine Lösungsdatei hochladen. Die Bewertung erfolgt in dieser Aufgabe und die Teilnehmer/inenn können auch die Bewertung hier einsehen.</p>';
 $string['helponline'] = '<p>Dieser Aufgabentyp fordert die Teilnehmer/innen auf, ihre Lösung im Editorfenster einzutragen. Der/die Trainer/in kann die Lösung online bewerten und im Textfenster direkt Kommentare eintragen oder Veränderungen vornehmen.</p> <p>In früheren Moodle-Versionen wurde diese Funktion vom Journal-Modul wahrgenommen.</p>';
-$string['helpupload'] = '<p>Dieser Typ von Aufgabe ermöglicht jedem/r Teilnehmer/in eine oder mehrere Dateien als Lösung hochzuladen. </p>
-<p>Dies kann ein beliebiger Dateityp sein (z.B. Eine Textdatei, ein Bild eine Zip-Datei). Geben Sie in der Aufgabenstellung genau an, welche Art von Lösungsdatei verwandt werden soll.</p>
-<p>DIe TN können mehr als eine Datei hochladen.</p>';
+$string['helpupload'] = '<p>Dieser Typ von Aufgabe ermöglicht jedem/r Teilnehmer/in, eine oder mehrere Dateien als Lösung hochzuladen. </p>
+<p>Dies kann ein beliebiger Dateityp sein (z.B. eine Textdatei, ein Bild, eine Zip-Datei). Geben Sie in der Aufgabenbeschreibung genau an, welche Art von Lösungsdatei Sie erwarten.</p>
+<p>Außerdem ist es möglich, mehrere Antwortdateien hochzuladen. Antwortdateien können auch schon hochgeladen werden, bevor die Teilnehmer/innen die Aufgabe bearbeiten. Auf diese Weise können Sie jedem/r Teilnehmer/in unterschiedliche Dateien zur Bearbeitung zur Verfügung stellen. </p> <p>Die Teilnehmer/innen können außerdem Kommentare zu ihrer Aufgabenbearbeitung schreiben und dabei die hochgeladenen Dateien beschreiben, Hinweise zum Stand ihrer Bearbeitung geben, Fragen stellen und vieles mehr.</p><p>Diese Art der Aufgabenbearbeitung muss von den Teilnehmer/inne/n manuell beendet werden. Sie können sich jeder Zeit den Stand der Bearbeitung ansehen. Aufgabenbearbeitungen, die noch nicht fertig sind, werden als \"Entwurf\" gekennzeichnet. Sie können jede Lösung, die Sie noch nicht bewertet haben, wieder in einen Entwurf verwandeln.';
 $string['helpuploadsingle'] = '<p>Diese Aufgabenart ermöglicht den Upload einer beliebigen Datei für jede/n Teilnehmer/in.</p><p>Dies kann eine Text-, eine Bild-, eine Zip-Datei oder eine Datei in einem Format sein, das Sie in der Aufgabenstellung definiert haben.</p>';
 $string['hideintro'] = 'Beschreibung vor dem Veröffentlichungszeitpunkt verbergen';
 $string['late'] = '$a spät';
@@ -68,14 +68,14 @@ $string['noassignments'] = 'Es gibt derzeit keine  Aufgaben';
 $string['noattempts'] = 'Bisher wurden keine Arbeiten eingereicht.';
 $string['nofiles'] = 'Keine Dateien wurde abgegeben.';
 $string['nofilesyet'] = 'Bisher wurden keine Dateien abgegeben.';
-$string['notavailableyet'] = 'Entschuldigung, diese Aufgabe ist noch nicht erreichbar.<br />Anweisungen zur Aufgabe werden ab dem unten angegebenen Termin hier angezeigt.';
-$string['notes'] = 'Bemerkungen';
+$string['notavailableyet'] = 'Entschuldigung, diese Aufgabe steht noch nicht zur Verfügung.<br />Anweisungen zur Aufgabe werden ab dem unten angegebenen Termin hier angezeigt.';
+$string['notes'] = 'Kommentare';
 $string['notesempty'] = 'Kein Eintrag';
-$string['notesupdateerror'] = 'Fehler beim Aktualisieren der Bemerkungen';
+$string['notesupdateerror'] = 'Fehler beim Aktualisieren der Kommentare';
 $string['notgradedyet'] = 'Noch nicht bewertet';
 $string['notsubmittedyet'] = 'Noch nichts eingereicht';
-$string['onceassignmentsent'] = 'Wenn Sie eine Aufgabe für die Bewertung abgesandt haben, können Sie keine Dateien mehr hinzufügen oder löschen.';
-$string['overwritewarning'] = 'Achtung: Erneutes Hochladen ersetzt Ihren gegenwärtigen Eintrag!';
+$string['onceassignmentsent'] = 'Wenn Sie eine Aufgabe für die Bewertung abgesandt haben, können Sie keine Dateien mehr hinzufügen oder löschen. Möchten Sie fortfahren?';
+$string['overwritewarning'] = 'Achtung: Erneutes Hochladen ERSETZT Ihren gegenwärtigen Eintrag!';
 $string['pagesize'] = 'Zahl der abgegebenen Aufgaben pro Seite';
 $string['preventlate'] = 'Verhindert verspätete Abgaben';
 $string['quickgrade'] = 'Schnelle Bewertung zulassen';
@@ -108,7 +108,7 @@ $string['uploadnofilefound'] = 'Es wurde keine Datei gefunden. Sind Sie sicher, 
 $string['uploadnotregistered'] = '\'$a\' wurde korrekt hochgeladen, aber der Eintrag wurde nicht registriert!';
 $string['uploadsuccess'] = '\'$a\' wurde erfolgreich hochgeladen.';
 $string['viewfeedback'] = 'Aufgabenbewertung und Rückmeldung anzeigen';
-$string['viewsubmissions'] = '$a eingereichte Aufgabe(n) ansehen, bewerten und kommentieren';
+$string['viewsubmissions'] = '$a eingereichte Aufgabe(n) ansehen';
 $string['yoursubmission'] = 'Ihre eingereichten Aufgaben';
 
 ?>

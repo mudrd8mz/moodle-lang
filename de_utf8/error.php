@@ -1,24 +1,24 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 dev (2006092801)
+      // error.php - created with Moodle 1.6.2+ (2006050521)
 
 
 $string['adminprimarynoedit'] = 'Der Hauptadmin kann nicht von anderen bearbeitet werden';
 $string['cannotcreatelangdir'] = 'Das Verzeichnis \"lang\" kann nicht angelegt werden.';
-$string['cannotcreatetempdir'] = 'Temporäres Verzeichnis kann nicht angelegt werden.';
+$string['cannotcreatetempdir'] = 'Das temporäre Verzeichnis kann nicht angelegt werden.';
 $string['cannotdownloadcomponents'] = 'Komponenten können nicht heruntergeladen werden.';
 $string['cannotdownloadzipfile'] = 'ZIP-Datei kann nicht heruntergeladen werden.';
 $string['cannotfindcomponent'] = 'Komponente wurde nicht gefunden.';
-$string['cannotsavemd5file'] = 'md5-Datei konnte nicht gespeichert werden.';
-$string['cannotsavezipfile'] = 'ZIP-Datei konnte nicht gespeichert werden';
-$string['cannotunzipfile'] = 'Datei konnte nicht entpackt werden.';
+$string['cannotsavemd5file'] = 'Die md5-Datei konnte nicht gespeichert werden.';
+$string['cannotsavezipfile'] = 'Die ZIP-Datei konnte nicht gespeichert werden';
+$string['cannotunzipfile'] = 'Die Datei konnte nicht entpackt werden.';
 $string['cantunenrollfrommetacourse'] = 'Sie können keine Teilnehmer/innen aus diesen Metakurs entfernen.';
 $string['cantunenrollinthisrole'] = 'Sie können in Ihrer derzeitigen Rolle keine Teilnehmer/innen aus diesem Kurs entfernen.';
 $string['cmunknown'] = 'Das Kursmodul wurde nicht gefunden.';
 $string['componentisuptodate'] = 'Die Komponente ist nicht aktuell.';
 $string['confirmsesskeybad'] = 'Entschuldigung, der \"session key\" für diese Aktion konnte nicht bestätigt werden. Dieses Sicherheitsfeature schützt Sie vor der nicht beabsichtigten Ausführung wichtiger Funktionen oder der Ausführung von Aktionen durch Dritte in Ihrem Namen. Bitte überzeugen Sie sich, dass Sie diese Aktion wirklich ausführen wollen.';
 $string['couldnotassignrole'] = 'Ein ernster, nicht näher bezeichneter Fehler ist aufgetreten, während Sie sich eine Rolle zuweisen wollten.';
-$string['coursegroupunknown'] = 'Es wurde kein Kurs für Gruppe $a festgelegt';
-$string['downloadedfilecheckfailed'] = 'Prüfung der heruntergeladenen Datei ist gescheitert';
+$string['coursegroupunknown'] = 'Es wurde kein Kurs für die Gruppe $a festgelegt';
+$string['downloadedfilecheckfailed'] = 'PDie rüfung der heruntergeladenen Datei ist gescheitert';
 $string['errorcleaningdirectory'] = 'Fehler beim Bereinigen des Verzeichnisses \"$a\"';
 $string['errorcopyingfiles'] = 'Fehler beim Kopieren der Dateien';
 $string['errorcreatingdirectory'] = 'Fehler beim Erstellen des Verzeichnisses \"$a\"';
@@ -64,6 +64,7 @@ $string['sessionerroruser'] = 'Die Zeitdauer für Ihre Sitzung wurde überschrit
 $string['sessionerroruser2'] = 'Ein Serverfehler ist aufgetreten. Er betrifft Ihre Login-Session. Loggen Sie sich bitte neu ein und starten Sie Ihren Browser noch einmal.';
 $string['sessionipnomatch'] = 'Entschuldigung, Ihre IP-Adresse scheint sich seit Ihrem letzten Login geändert zu haben. Dieses Sicherheitsfeature schützt Sie vor dem Diebstahl Ihrer Identität durch Hacker, während Sie auf der Seite arbeiten. Normale Nutzer sehen diese Mitteilung nicht - bitten Sie den Administrator um Hilfe.';
 $string['statscatchupmode'] = 'Die Statistiken befinden sich im sog. Catchup-Modus. Bisher sind $a->daysdone Tage verarbeitet und $a->dayspending Tage werden noch bearbeitet. Überprüfen Sie es später noch einmal.';
+$string['unicodeupgradeerror'] = 'Entschuldigung, aber Ihre Datenbank ist nicht in Unicode formatiert. Diese Moodle-Version kann Ihre Datenbank nicht nach Unicode umsetzen. Bitte aktualisieren Sie zuerst auf Moodle 1.7.x und führen Sie dort die Umsetzung durch. Danach sollten Sie problemlos auf Moodle $a umsteigen können.';
 $string['unknowncourse'] = 'Unbekannter Kursname \"$a\"';
 $string['unknownuseraction'] = 'Entschuldigung, dieser Nutzeraktion wurde nicht verstanden.';
 $string['usernotaddederror'] = 'Nutzer \"$a\" wurde nicht hinzugefügt - unbekannter Fehler';

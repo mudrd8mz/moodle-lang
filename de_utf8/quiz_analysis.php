@@ -2,32 +2,32 @@
       // quiz_analysis.php - created with Moodle 1.6.2+ (2006050521)
 
 
-$string['analysis'] = 'Fragenanalyse';
+$string['analysis'] = 'Ergebnisanalyse';
 $string['analysisdownload'] = 'Analyse downloaden';
 $string['analysisoptions'] = 'Auswertungsoptionen';
-$string['analysistitle'] = 'Tabelle mit Fragenanalyse';
-$string['attemptsall'] = 'alle Versuche';
-$string['attemptselection'] = 'Wie viele Versuche pro Nutzer/in analysieren:';
-$string['attemptsfirst'] = 'erster Versuch';
-$string['attemptshighest'] = 'Höchstbewertung';
-$string['attemptslast'] = 'letzter Versuch';
-$string['dicsindextitle'] = 'Disc.<br />Index';
-$string['disccoefftitle'] = 'Disc<br />Koeff.';
+$string['analysistitle'] = 'Statistische Analyse der Ergebnisse';
+$string['attemptsall'] = 'Alle Versuche';
+$string['attemptselection'] = 'Welche Versuche pro Nutzer/in analysieren:';
+$string['attemptsfirst'] = 'Ersten Versuch';
+$string['attemptshighest'] = 'Besten Versuch';
+$string['attemptslast'] = 'Letzten Versuch';
+$string['dicsindextitle'] = 'DI';
+$string['disccoefftitle'] = 'DC';
 $string['downloadooo'] = 'Download im OpenOffice-Format';
-$string['facilitytitle'] = '%% korrekt<br />Schwierigkeit';
-$string['lowmarkslimit'] = 'Nicht auswerten, wenn der Wert niedriger ist als';
+$string['facilitytitle'] = 'Richtig <br />%%';
+$string['lowmarkslimit'] = 'Nicht auswerten, wenn der Wert niedriger ist als:';
 $string['pagesize'] = 'Fragen pro Seite:';
 $string['qcounttitle'] = 'Fragen gezählt';
-$string['qidtitle'] = 'Fragen#';
+$string['qidtitle'] = 'Frage-Nr.';
 $string['qnametitle'] = 'Fragenname';
-$string['qtexttitle'] = 'Fragetext';
+$string['qtexttitle'] = 'Frage';
 $string['qtypetitle'] = 'Fragentyp';
 $string['quizreportdir'] = 'quiz_reports';
-$string['rcounttitle'] = 'Antworten <br />gezählt';
-$string['reportanalysis'] = 'Fragenanalyse';
-$string['responsestitle'] = 'Antworttexte';
-$string['rfractiontitle'] = 'Teil-<br />Kredit';
-$string['rpercenttitle'] = 'Antworten %%';
-$string['stddevtitle'] = 'Standardabweichung';
+$string['rcounttitle'] = 'Antworten <br />absolut';
+$string['reportanalysis'] = 'Ergebnisanalyse-Bericht';
+$string['responsestitle'] = 'Antwort';
+$string['rfractiontitle'] = 'Punkte';
+$string['rpercenttitle'] = 'Antworten<br /> %%';
+$string['stddevtitle'] = 'SD';
 
 ?>

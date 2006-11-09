@@ -50,9 +50,9 @@ $string['tagtext'] = 'Schlagworttext';
 $string['timewithin'] = 'Anzeige der Schlagwörter, die an so vielen Tagen gebraucht wurden';
 $string['updateentrywithid'] = 'Eintrag aktualisieren';
 $string['userblog'] = 'Nutzer-Blog: $a';
-$string['viewcourseentries'] = 'Kurseinträge anzeigen';
-$string['viewmyentries'] = 'Meine eigenen Einträge anzeigen';
-$string['viewsiteentries'] = 'Einträge der Website anzeigen';
+$string['viewcourseentries'] = 'Zeige Kurseinträge';
+$string['viewmyentries'] = 'Zeige meine Einträge';
+$string['viewsiteentries'] = 'Zeige alle Einträge';
 $string['worldblogs'] = 'Einträge sind weltweit erreichbar und damit öffentlich.';
 
 ?>
