@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8 dev (2006101001)
+      // error.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
@@ -28,7 +28,7 @@ $string['errorreadingfile'] = '\"$a\" dosyasını okurken hata oluştu';
 $string['errorunzippingfiles'] = 'Zipli dosyaları açarken hata oluştu';
 $string['fieldrequired'] = '\"$a\" doldurulması gerekli bir alandır';
 $string['filenotfound'] = 'Üzgünüz, aranan dosya bulunamadı';
-$string['forumblockingtoomanyposts'] = 'Bu forum için mesaj gönderme aralığını aştınız.';
+$string['forumblockingtoomanyposts'] = 'Bu forum için mesaj gönderme sınırını aştınız.';
 $string['groupalready'] = 'Kullanıcı $a grubuna zaten kayıtlı';
 $string['groupunknown'] = '$a grubu belirtilen kursla ilişkili değil';
 $string['guestnoeditprofile'] = 'Konuk kullanıcı kendi profilini düzenleyemez';
