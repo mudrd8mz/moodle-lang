@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 beta + (2006101001)
+      // forum.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addanewdiscussion'] = 'Afegeix un nou tema de debat';
@@ -75,11 +75,11 @@ $string['forum:deleteownpost'] = 'Suprimir missatges propis (dins del termini)';
 $string['forum:editanypost'] = 'Editar qualsevol missatge';
 $string['forum:managesubscriptions'] = 'Gestionar subscripcions';
 $string['forum:movediscussions'] = 'Traslladar debats';
-$string['forum:nothrottling'] = 'Sense límit de missatges';
 $string['forum:rate'] = 'Valorar missatges';
 $string['forum:replypost'] = 'Contestar missatges';
 $string['forum:splitdiscussions'] = 'Partir debats';
 $string['forum:startdiscussion'] = 'Començar nous debats';
+$string['forum:throttlingapplies'] = 'S\'hi apliquen límits';
 $string['forum:viewanyrating'] = 'Veure totes les valoracions';
 $string['forum:viewdiscussion'] = 'Veure debats';
 $string['forum:viewhiddentimedposts'] = 'Veure missatges programats ocults';
