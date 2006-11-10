@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 beta + (2006101001)
+      // moodle.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['action'] = 'Acció';
@@ -258,6 +258,7 @@ $string['courseimportnotaught'] = 'No sou professor/a amb permisos d\'ecició en
 $string['courseinfo'] = 'Informació del curs';
 $string['coursemessage'] = 'Missatge als usuaris del curs';
 $string['coursenotaccessible'] = 'Aquest curs no permet accés públic';
+$string['courseoverview'] = 'Resum del curs';
 $string['coursereject'] = 'Denegació d\'una sol·licitud de curs';
 $string['courserejected'] = 'S\'ha denegat el curs i s\'ha tramès la notificació a la persona sol·licitant';
 $string['courserejectemail'] = 'S\'ha denegat el curs que havíeu sol·licitat. Raó:
@@ -957,6 +958,7 @@ $string['notavailable'] = 'No disponible';
 $string['noteachersyet'] = 'Encara no hi ha cap professor en aquest curs';
 $string['notenrollable'] = 'Aquest curs no permet inscripcions a hores d\'ara.';
 $string['notenrolled'] = '$a no està inscrit en aquest curs.';
+$string['notenrolledprofile'] = 'El perfil no està disponible perquè aquest usuari no està inscrit en aquest curs.';
 $string['noteuserschangednonetocourse'] = 'Nota: els usuaris d\'un curs s\'han de restaurar quan es restauren les dades d\'usuaris. Aquest paràmetre s\'ha canviat automàticament.';
 $string['nothingnew'] = 'Cap novetat des de l\'última entrada';
 $string['nothingtodisplay'] = 'No hi ha res per visualitzar';
@@ -1026,6 +1028,7 @@ $string['periodending'] = 'Fi del període ($a)';
 $string['personalprofile'] = 'Perfil personal';
 $string['phone'] = 'Telèfon';
 $string['phpinfo'] = 'informació PHP';
+$string['pleaseclose'] = 'Tanqueu aquesta finestra.';
 $string['pluginsetup'] = 'S\'estan configurant les taules de connectors';
 $string['policyagree'] = 'Heu d\'acceptar la normativa abans d\'entrar en aquest lloc. Hi esteu d\'acord?';
 $string['policyagreement'] = 'Normativa d\'ús del lloc';
@@ -1185,6 +1188,8 @@ $string['sitefiles'] = 'Fitxers del lloc';
 $string['sitelogs'] = 'Registres del lloc';
 $string['sitenews'] = 'Notícies del lloc';
 $string['sitepartlist'] = 'No teniu els permisos necessaris per a veure la llista de participants';
+$string['sitepartlist0'] = 'Per a veure la llista de participants del lloc cal ser membre del professorat del lloc.';
+$string['sitepartlist1'] = 'Per a veure la llista de participants del lloc cal ser membre del professorat.';
 $string['sites'] = 'Llocs';
 $string['sitesection'] = 'Inclou una secció de tema';
 $string['sitesettings'] = 'Paràmetres del lloc';
@@ -1401,6 +1406,7 @@ $string['virusfoundsubject'] = '$a: s\'ha trobat un virus';
 $string['virusfounduser'] = 'El fitxer que heu penjat, $a->filename, ha estat escanejat i sembla que conté un virus. El fitxer NO s\'ha penjat.';
 $string['virusplaceholder'] = 'S\'ha trobat un virus en aquest fitxer, el qual ha estat mogut o suprimit. S\'ha enviat una notificació a l\'usuari.';
 $string['visible'] = 'Visible';
+$string['visibletostudents'] = 'Visible per a $a';
 $string['warningdeleteresource'] = 'Avís: hi ha una referència a $a en un recurs. Voleu actualitzar aquest recurs?';
 $string['webpage'] = 'Pàgina web';
 $string['week'] = 'Setmana';

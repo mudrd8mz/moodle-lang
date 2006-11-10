@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005041101)
+      // editor.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['about'] = 'Referent a aquest editor';
@@ -29,7 +29,9 @@ $string['createanchor'] = 'Crea àncora';
 $string['createfolder'] = 'Crea una carpeta';
 $string['createlink'] = 'Insereix un enllaç web';
 $string['cut'] = 'Talla la selecció';
+$string['cutpastemozilla'] = 'Malauradament, a hores d\'ara no podeu utilitzar les dreceres normals del teclat (ni tan sols el botó Enganxa) per a enganxar text dins d\'aquest editor en línia. Això es deu a una característica de seguretat que hi ha en algunes versions dels navegadors Mozilla i Firefox.<br /><br />Hi ha tres maneres conegudes de fer-ho que podeu provar:<br /> (1) En compte de CTRL-v, utilitzeu SHIFT-Insert <br /> (2) Utilitzeu el menú Edició->Enganxa del vostre navegador<br /> (3) Canvieu les preferències del vostre navegador editant el fitxer user.js. <br /><br />Feu clic en el botó D\'acord més avall per obtenir més ajuda, o Cancel·la per tornar a l\'editor';
 $string['delete'] = 'Suprimeix';
+$string['enterurlfirst'] = 'Primer heu d\'introduir un URL';
 $string['filebrowser'] = 'Explorador de fitxers';
 $string['findwhat'] = 'Cerca';
 $string['fontname'] = 'Nom de la font';
@@ -72,6 +74,7 @@ $string['matchcase'] = 'Majúscules/minúscules';
 $string['middle'] = 'Centre';
 $string['minimize'] = 'Minimitza l\'editor';
 $string['move'] = 'Mou';
+$string['mustenterurl'] = 'Heu d\'introduir l\'URL';
 $string['nolink'] = 'Impedir enllaços automàtics';
 $string['normal'] = 'Normal';
 $string['notimage'] = 'El fitxer seleccionat no és una imatge. Si us plau trieu-ne un altre.';
@@ -84,6 +87,7 @@ $string['paste'] = 'Enganxa des del porta-retalls';
 $string['path'] = 'Camí';
 $string['percent'] = 'Percentatge';
 $string['pixels'] = 'Píxels';
+$string['pleaseenteralt'] = 'introduïu el text alternatiu';
 $string['popupeditor'] = 'Amplia l\'editor';
 $string['preformatted'] = 'Preformatat';
 $string['preview'] = 'Visualització prèvia';

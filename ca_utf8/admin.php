@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 beta + (2006101001)
+      // admin.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['accounts'] = 'Comptes';
@@ -72,7 +72,10 @@ $string['configdisplayloginfailures'] = 'Aquest paràmetre permet que usuaris se
 $string['configdocroot'] = 'Defineix el camí de Moodle Docs. Podeu canviar-lo si teniu la vostra documentació personalitzada en línia. Però, si ho feu, assegureu-vos que els camins dins la vostra documentació segueixen el mateix format que en http://docs.moodle.org.';
 $string['configdoctonewwindow'] = 'Si habiliteu aquesta opció, els enllaços a la documentació de Moodle s\'obriran en una finestra nova.';
 $string['configeditorfontlist'] = 'Seleccioneu els tipus de lletra que haurien d\'aparèixer en la llista desplegable de l\'editor.';
+$string['configenableajax'] = 'Aquest paràmetre us permet controlar l\'ús d\'AJAX (interfícies avançades client-servidor mitjançant Javascript) arreu del lloc. Si habiliteu aquest paràmetre, els usuaris podran triar en el seu perfil si utilitzen AJAX o no. Si no habiliteu el paràmetre, l\'AJAX restarà inhabilitat per a tothom.';
 $string['configenablecourserequests'] = 'Això permetrà que qualsevol usuari sol·liciti la creació d\'un curs.';
+$string['configenableglobalsearch'] = 'Aquest paràmetre habilita la cerca global de text en recursos i activitats. No és compatible amb PHP 4.';
+$string['configenablerecordcache'] = 'Si habiliteu aquest paràmetre, part de la informació que es recupera de la base de dades en desarà en una memòria cau. Això implica que l\'accés a les dades serà una mica més ràpid, però d\'altra banda els requeriments de memòria del servidor web augmentaran lleugerament. En general es recomana habilitar aquest paràmetre, tret que el servidor tingui poca memòria. Alguns processos poden no fer cas d\'aquest paràmetre si el desenvolupador està segur que així millorarà el rendiment.';
 $string['configenablerssfeeds'] = 'Aquest commutador habilita l\'RSS per a tot el lloc. Per a utilitzar realment l\'RSS, l\'haureu d\'activar també en cada mòdul. Aneu als paràmetres dels mòduls en Administració > Configuració.';
 $string['configenablerssfeedsdisabled'] = 'No està disponible perquè l\'RSS està inhabilitat per a tot el lloc. Per habilitar-lo, aneu a la pantalla de variables en Administració > Configuració.';
 $string['configenablestats'] = 'Si trieu \'sí\', la tasca del cron de Moodle processarà els registres i recollirà algunes estadístiques. Això pot durar una estona, segons el tràfic del lloc. Si habiliteu aquesta opció podreu veure algunes gràfiques i estadístiques interessants referents a cada curs i al lloc complet.';
@@ -91,6 +94,7 @@ $string['configfrontpage'] = 'Els elements marcats a dalt es visualitzaran a la 
 $string['configfrontpageloggedin'] = 'Els elements marcats a dalt es visualitzaran a la primera plana del lloc només si l\'usuari ha entrat.';
 $string['configfullnamedisplay'] = 'Aquest paràmetre defineix el format dels noms quan es visualitzen complets. En la majoria de llocs el valor per defecte és el més adequat: \"Nom + Cognoms\". Però si voleu podeu ocultar els cognoms, o deixar que el paquet d\'idioma decideixi el format (alguns idiomes tenen convencions diferents).';
 $string['configgdversion'] = 'Indiqueu la versió instal·lada de GD. La versió que es mostra per defecte és la que s\'ha detectat automàticament. No la canvieu si no esteu segur del que feu.';
+$string['configgradebookroles'] = 'Aquest paràmetre us permet controlar qui apareix al butlletí de qualificacions. Els usuaris que tinguin assignat almenys un d\'aquests rols en un curs, apareixeran al butlletí de qualificacions d\'aquest curs.';
 $string['confighiddenuserfields'] = 'Seleccioneu quins camps d\'informació de l\'usuari voleu ocultar als usuaris que no siguin professors o administradors. Això protegirà la intimitat de l\'estudiantat. Utilitzeu la tecla CTRL per seleccionar múltiples camps.';
 $string['confightmleditor'] = 'Trieu si voleu permetre l\'ús de l\'editor HTML integrat. Encara que decidiu permetre\'n l\'ús, aquest editor només apareixerà si l\'usuari fa servir un navegador web compatible. Els usuaris també poden triar no usar-lo.';
 $string['configidnumber'] = 'Aquesta opció especifica si: a) no es demana cap número d\'identificació als usuaris; b) es demana un número d\'identificació als usuaris però poden deixar-lo en blanc o c) es demana un número d\'identificació als usuaris i no poden deixar-lo en blanc. Si l\'usuari ha donat un número d\'identificació, aquest número es mostra al seu perfil.';
@@ -149,6 +153,7 @@ $string['configsessioncookie'] = 'Aquest paràmetre personalitza el nom de la ga
 $string['configsessioncookiepath'] = 'Si necessiteu canviar el lloc on els navegadors envien les galetes de Moodle, podeu especificar un subdirectori del vostre web en aquest paràmetre. Si no, deixeu el directori \'/\' per defecte.';
 $string['configsessiontimeout'] = 'Si els usuaris que entren en aquest lloc estan inactius durant molt temps (no carreguen pàgines) se\'ls farà sortir automàticament (s\'acabarà la seva sessió). Aquesta variable especifica després de quant temps passa això.';
 $string['configshowblocksonmodpages'] = 'Alguns mòduls d\'activitat permeten l\'ús de blocs en les seves pàgines. Si activeu aquest paràmetre, els professors podran afegir blocs laterals en aqueixes pàgines. Si no, la interfície no els oferirà aquesta possibilitat.';
+$string['configshowsiteparticipantslist'] = 'Tots l\'estudiantat d\'aquest lloc i tot el professorat d\'aquest lloc apareixerà a la llista de participants del lloc. A qui se li permet veure la llista de participants del lloc?';
 $string['configsitemailcharset'] = 'Tots els correus que generi aquest servidor s\'enviaran en el joc de caràcters que especifiqueu aquí. De totes maneres, cada usuari podrà triar el joc de caràcters dels seus correus si habiliteu el paràmetre següent.';
 $string['configsitepolicy'] = 'Si teniu unes normes del lloc que tots els usuaris han de veure i signar abans d\'usar el lloc, especifiqueu-ne aquí l\'URL. Si no, deixeu el camp en blanc. L\'URL pot ser una adreça qualsevol, p. ex. l\'adreça d\'un fitxer dels fitxers del lloc, p. ex. http://elvostrelloc/file.php/1/normes.html';
 $string['configslasharguments'] = 'Els fitxers (imatges, etc.) són servits per mitjà d\'un programa que utilitza \"arguments en barra\" (la segona opció aquí). Aquest mètode permet que els fitxers s\'emmagatzemin més fàcilment a la memòria cau dels navegadors, servidors intermediaris, etc. Malauradament alguns servidors PHP no permeten aquest mètode, de manera que si teniu problemes per a veure els fitxers penjats o imatges (p. ex. les imatges dels usuaris), deixeu aquesta variable en la primera opció.';
@@ -214,7 +219,10 @@ $string['editorfontsize'] = 'Mida de font';
 $string['editorhidebuttons'] = 'Botons ocults';
 $string['editorkillword'] = 'Filtre format Word';
 $string['editstrings'] = 'Edita cadenes';
+$string['enableajax'] = 'Habilita AJAX';
 $string['enablecourserequests'] = 'Habilita sol·licituds de cursos';
+$string['enableglobalsearch'] = 'Habilita cerca global';
+$string['enablerecordcache'] = 'Habilita memòria cau de registres';
 $string['enablerssfeeds'] = 'Habilita alimentacions RSS';
 $string['enablestats'] = 'Habilita estadístiques';
 $string['enabletrusttext'] = 'Habilita Contingut de Confiança';
@@ -228,6 +236,7 @@ $string['environmentxmlerror'] = 'S\'ha produït un error en llegir les dades de
 $string['errors'] = 'Errors';
 $string['errorsetting'] = 'No s\'ha pogut desar el paràmetre:';
 $string['errorwithsettings'] = 'Alguns paràmetres no s\'han canviat a causa d\'un error:';
+$string['experimental'] = 'Experimental';
 $string['extendedusernamechars'] = 'Permet caràcters estesos en els noms d\'usuari';
 $string['filterall'] = 'Filtra totes les cadenes';
 $string['filtermatchoneperpage'] = 'El filtre processa una coincidència per pàgina';
@@ -244,6 +253,8 @@ $string['fullnamedisplay'] = 'Format del nom complet';
 $string['gdversion'] = 'Versió GD';
 $string['generalsettings'] = 'Paràmetres generals';
 $string['globalsquoteswarning'] = '<p><strong>Avís de seguretat</strong>: per operar adequadament, Moodle necessita <br />que feu certs canvis en els paràmetres actuals del PHP.<p/><p><em>Cal</em> que definiu <code>register_globals=off</code> i/o <code>magic_quotes_gpc=on</code>. <br />Si és possible, heu de definir <code>register_globals=off</code> per millorar la seguretat <br />general del servidor. També s\'aconsella definir <code>magic_quotes_gpc=on</code>.<p/><p>Aquests paràmetres es defineixen en el fitxer <code>php.ini</code>, en la configuració d\'Apache/IIS <br />o en el fitxer <code>.htaccess</code>.</p>';
+$string['gradebook'] = 'Butlletí de qualificacions';
+$string['gradebookroles'] = 'Rols qualificats';
 $string['helpadminseesall'] = 'Veuen els administradors tots els esdeveniments o només aquells que se\'ls hi apliquin?';
 $string['helpcalendarsettings'] = 'Configureu diversos aspectes de Moodle relatius al calendari i a les dates i horaris.';
 $string['helpforcetimezone'] = 'Podeu permetre que els usuaris seleccionen individualment la seva zona horària, o imposar una zona horària a tothom.';
@@ -272,6 +283,7 @@ $string['lang'] = 'Idioma per defecte';
 $string['lang16notify'] = 'Moodle 1.6 i posteriors us permeten instal·lar i actualitzar els paquets d\'idioma directament des de download.moodle.org seguint l\'enllaç d\'aquí baix';
 $string['langcache'] = 'Memòria cau del menú d\'idioma';
 $string['langedit'] = 'Edició d\'idioma';
+$string['langimport'] = 'Utilitat d\'importació d\'idiomes';
 $string['langimportsuccess'] = 'El paquet d\'idioma s\'ha actualitzat amb èxit';
 $string['langlist'] = 'Idiomes al menú d\'idioma';
 $string['langmenu'] = 'Mostra el meú d\'idioma';
@@ -345,6 +357,7 @@ $string['pathtopsqlinvalid'] = 'El camí de psql no és vàlid. El fitxer no es 
 $string['pathtounzip'] = 'Camí d\'unzip';
 $string['pathtozip'] = 'Camí de zip';
 $string['perfdebug'] = 'Informació d\'execució';
+$string['performance'] = 'Execució';
 $string['pgcluster'] = 'Grup PostgreSQL';
 $string['pgclusterdescription'] = '<pre>Paràmetre de grup/versió PostgreSQL
 per a operacions de línia de comandament.
@@ -403,6 +416,7 @@ $string['statsuserthreshold'] = 'Llindar d\'usuari';
 $string['stickyblocks'] = 'Blocs fixos';
 $string['stickyblockscourseview'] = 'Pàgina de curs';
 $string['stickyblocksduplicatenotice'] = 'Si qualsevol bloc que afegiu aquí ja és present en una pàgina, en resultarà un duplicat.<br />Només el bloc fix serà no editable. El duplicat sí que es podrà editar.';
+$string['stickyblocksmymoodle'] = 'El meu Moodle';
 $string['stickyblockspagetype'] = 'Tipus de pàgina a configurar';
 $string['systempaths'] = 'Camins del sistema';
 $string['tabselectedtofront'] = 'En taules amb tabulacions, la fila amb l\'etiqueta seleccionada s\'hauria de posar davant';
@@ -416,6 +430,8 @@ $string['timezoneforced'] = 'Imposada per l\'administrador del lloc';
 $string['timezoneisforcedto'] = 'Imposa a tots els usuaris';
 $string['timezonenotforced'] = 'Els usuaris poden triar la seva zona horària';
 $string['unbookmarkthispage'] = 'Suprimeix aquest favorit';
+$string['unicoderecommended'] = 'Es recomana emmagatzemar totes les dades en Unicode (UTF-8). Les noves instal·lacions s\'haurien de realitzar en bases de dades que tinguin definit com a Unicode el conjunt de caràcters per defecte. Si esteu fent una actualització, hauríeu de passar el procés de migració a UTF-8 (vg. la pàgina d\'Administració).';
+$string['unicoderequired'] = 'Es requereix emmagatzemar totes les dades en format Unicode (UTF-8). Les noves instal·lacions s\'han de realitzar en bases de dades que tinguin definit com a Unicode el conjunt de caràcters per defecte. Si esteu fent una actualització, hauríeu de passar el procés de migració a UTF-8 (vg. la pàgina d\'Administració).';
 $string['unicodeupgradenotice'] = 'En Moodle 1.6 hem migrat tots els idiomes a Unicode. Per completar l\'actualització d\'aquest lloc necessiteu convertir a Unicode totes les dades de la base de dades utilitzant el guió de migració. <a href=\"utfdbmigrate.php\">Feu clic aquí per executar el guió de migració ara</a>.';
 $string['uninstall'] = 'Desinstal·la el paquet d\'idioma seleccionat';
 $string['uninstallconfirm'] = 'Esteu a punt de desinstal·lar completament el paquet d\'idioma $a. N\'esteu segur?';
