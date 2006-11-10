@@ -1,15 +1,17 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6 (2006050506)
+      // scorm.php - created with Moodle 1.7 (2006101007)
 
 
 $string['advanced'] = 'Avanzada';
 $string['asset'] = 'Recurso';
+$string['assetlaunched'] = 'Recurso - Visto';
 $string['attempt'] = 'intento';
 $string['attempts'] = 'intentos';
 $string['attr_error'] = 'Valor incorrecto para el atributo ($a->attr) en la marca $a->tag.';
 $string['autocontinue'] = 'Continuación automática';
 $string['averageattempt'] = 'Intentos promedio';
 $string['badmanifest'] = 'Errores de manifiesto: ver registro de errores';
+$string['badpackage'] = 'Hay problemas con el paquete. Compruébelo e inténtelo de nuevo.';
 $string['browse'] = 'Vista previa';
 $string['browsed'] = 'Navegado';
 $string['browsemode'] = 'Modo Navegación';
@@ -45,7 +47,9 @@ $string['gradesum'] = 'Calificaciones sumadas';
 $string['height'] = 'Altura';
 $string['hidden'] = 'Oculto';
 $string['hidebrowse'] = 'Ocultar botón de previsualización';
+$string['hideexit'] = 'Ocultar enlace de salida';
 $string['hidenav'] = 'Ocultar botones de navegación';
+$string['hidereview'] = 'Ocultar botón de revisión';
 $string['hidetoc'] = 'Ocultar estructura del curso';
 $string['highestattempt'] = 'Intento más alto';
 $string['identifier'] = 'Identificador de preguntas';
@@ -53,6 +57,7 @@ $string['iframe'] = 'Ventana actual';
 $string['iframedisplay'] = 'Abrir paquete en la ventana actual';
 $string['incomplete'] = 'Incompleto';
 $string['interactions'] = 'Interacciones';
+$string['last'] = 'Último acceso en';
 $string['lastaccess'] = 'Último acceso';
 $string['lastattempt'] = 'Último intento';
 $string['location'] = 'Mostrar la barra de ubicación';
@@ -100,18 +105,23 @@ $string['review'] = 'Revisión';
 $string['reviewmode'] = 'Modo Revisión';
 $string['scoes'] = 'Scoes';
 $string['score'] = 'Puntuación';
-$string['scorm:view'] = 'Ver contenido';
-$string['scorm:viewgrades'] = 'Ver calificaciones';
+$string['scorm:savetrack'] = 'Guardar pistas';
+$string['scorm:skipview'] = 'Pasar por alto revisión';
+$string['scorm:viewreport'] = 'Ver informes';
+$string['scorm:viewscores'] = 'Ver puntuaciones';
 $string['scormcourse'] = 'Curso de Aprendizaje';
 $string['scrollbars'] = 'Permitir desplazamiento de la ventana';
 $string['sided'] = 'A la izquierda';
 $string['stagesize'] = 'Tamaño de marco/ventana';
+$string['started'] = 'Comenzado en';
 $string['status'] = 'Estatus';
 $string['statusbar'] = 'Mostrar la barra de estado';
 $string['student_response'] = 'Respuesta';
+$string['suspended'] = 'Suspendido';
 $string['syntax'] = 'Error de sintaxis';
 $string['tag_error'] = 'Marca desconocida ($a->tag) con este contenido: $a->value';
 $string['time'] = 'Hora';
+$string['title'] = 'Título';
 $string['too_many_attributes'] = 'La marca $a->tag tiene demasiados atributos';
 $string['too_many_children'] = 'La marca $a->tag tiene demasiados hijos';
 $string['toolbar'] = 'Mostrar la barra de herramientas';

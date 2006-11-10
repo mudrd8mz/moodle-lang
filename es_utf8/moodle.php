@@ -285,19 +285,23 @@ $string['createfolder'] = 'Crear un directorio en $a';
 $string['createuserandpass'] = 'Crear un nuevo usuario y contraseña para acceder al sistema';
 $string['createziparchive'] = 'Crear archivo zip';
 $string['creatingblocks'] = 'Creando bloques';
+$string['creatingblocksroles'] = 'Creando asignaciones y anulaciones de rol en nivel de bloque';
 $string['creatingcategoriesandquestions'] = 'Creando categorías y preguntas';
 $string['creatingcoursemodules'] = 'Creando módulos de curso';
+$string['creatingcourseroles'] = 'Creando asignaciones y anulaciones de rol en nivel de curso';
 $string['creatingevents'] = 'Creando eventos';
 $string['creatinggradebook'] = 'Creando libro de calificaciones';
 $string['creatinggroups'] = 'Creando grupos';
 $string['creatinglogentries'] = 'Creando entradas de registro';
 $string['creatingmessagesinfo'] = 'Creando información sobre mensajes';
 $string['creatingmetacoursedata'] = 'Creando información sobre metacurso';
+$string['creatingmodroles'] = 'Creando asignaciones y anulaciones de rol en nivel de módulo';
 $string['creatingnewcourse'] = 'Creando nuevo curso';
 $string['creatingrolesdefinitions'] = 'Creando definiciones de papeles';
 $string['creatingscales'] = 'Creando escalas';
 $string['creatingsections'] = 'Creando secciones';
 $string['creatingtemporarystructures'] = 'Creando estructuras temporales';
+$string['creatinguserroles'] = 'Creando asignaciones y anulaciones de rol en nivel de usuario';
 $string['creatingusers'] = 'Creando usuarios';
 $string['creatingxmlfile'] = 'Creando el archivo XML';
 $string['currency'] = 'Moneda';
@@ -461,6 +465,9 @@ ventana de direcciones de su navegador.
 Si necesita ayuda adicional, póngase en contacto con el
 administrador, $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: confirmación de cambio de contraseña';
+$string['emailpasswordconfirmmaybesent'] = '<p>Si ha suministrado un nombre de usuario o dirección correctos, se le debería haber enviado un email.</p>
+<p>Contiene instrucciones sencillas para confirmar y completar el cambio de contraseña.
+Si sigue teniendo dificultades, contacte por favor con el administrador del sitio.</p>';
 $string['emailpasswordconfirmsent'] = 'Hemos enviado un correo a su dirección <b>$a</b>.
 <p>Este mensaje contiene instrucciones sencillas para completar y confirmar el cambio de contraseña.
 Si tuviera alguna dificultad, contacte con el Administrador.</p>';
@@ -1121,6 +1128,7 @@ $string['restrictmodules'] = '¿Restringir módulos de actividad?';
 $string['returningtosite'] = 'Usuarios registrados';
 $string['revert'] = 'Revertir';
 $string['role'] = 'Papel';
+$string['rolemappings'] = 'Mapeos de rol';
 $string['roles'] = 'Papeles';
 $string['rss'] = 'RSS';
 $string['rssarticles'] = 'Número de artículos recientes RSS';
@@ -1217,6 +1225,7 @@ $string['socialheadline'] = 'Foro social, últimos temas';
 $string['someallowguest'] = 'Algunos cursos permiten el acceso de invitados';
 $string['someerrorswerefound'] = 'Falta alguna información o es incorrecta. Abajo aparecen más detalles.';
 $string['sortby'] = 'Ordenar por';
+$string['sourcerole'] = 'Rol fuente';
 $string['specifyname'] = 'Debe especificar un nombre.';
 $string['starpending'] = '([*] = curso pendiente de aprobación)';
 $string['startdate'] = 'Fecha de inicio del curso';

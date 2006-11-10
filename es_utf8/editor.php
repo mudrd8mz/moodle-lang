@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005042100)
+      // editor.php - created with Moodle 1.7 (2006101007)
 
 
 $string['about'] = 'Acerca de este editor';
@@ -19,7 +19,7 @@ $string['browse'] = 'Buscar';
 $string['cancel'] = 'Cancelar';
 $string['cellpadding'] = 'Separación entre Columnas';
 $string['cellspacing'] = 'Espacio entre Columnas';
-$string['choosechar'] = 'Seleccione carácter ';
+$string['choosechar'] = 'Seleccione carácter';
 $string['chooseicon'] = 'Seleccione un icono para insertar';
 $string['close'] = 'Cerrar';
 $string['closeafterreplace'] = 'Cerrar después de reemplazar';
@@ -31,6 +31,7 @@ $string['createlink'] = 'Insertar enlace';
 $string['cut'] = 'Cortar selección';
 $string['cutpastemozilla'] = 'Desafortunadamente, no puede usar los atajos normales del teclado (ni tampoco el botón Pegar) para pegar texto en este editor. Esto se debe a cierta característica de seguridad incorporada a algunas versiones de los navegadores Mozilla y Firefox.<br /><br />Puede intentar una de estas tres cosas: <br /> (1) En lugar de CTRL-v, use MAYÚSCULAS-Insert <br /> (2) Use el menú Edición->Pegar de su navegador <br /> (3) Modifique las preferencias en su navegador editando el archivo user.js. <br /><br />Haga clic en el botón OK de abajo si desea más ayuda, o en Cancelar para regresar al editor.';
 $string['delete'] = 'Eliminar';
+$string['enterurlfirst'] = 'Debe introducir antes una URL';
 $string['filebrowser'] = 'Navegador de archivos';
 $string['findwhat'] = 'Encontrar';
 $string['fontname'] = 'Nombre de fuente';
@@ -73,6 +74,7 @@ $string['matchcase'] = 'Coincidir mayúsculas';
 $string['middle'] = 'Centrado';
 $string['minimize'] = 'Minimizar editor';
 $string['move'] = 'Mover';
+$string['mustenterurl'] = 'Debe introducir la URL';
 $string['nolink'] = 'Anular enlace a glosario';
 $string['normal'] = 'Normal';
 $string['notimage'] = 'El archivo seleccionado no es una imagen. Por favor, seleccione una imagen!';
@@ -85,6 +87,7 @@ $string['paste'] = 'Pegar desde el portapapeles';
 $string['path'] = 'Ruta';
 $string['percent'] = 'Porcentaje';
 $string['pixels'] = 'Píxeles';
+$string['pleaseenteralt'] = 'Por favor, escriba el texto alternativo';
 $string['popupeditor'] = 'Agrandar el editor';
 $string['preformatted'] = 'Preformateado';
 $string['preview'] = 'Previsualizar';

@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6 (2006050506)
+      // hotpot.php - created with Moodle 1.7 (2006101007)
 
 
 $string['abandoned'] = 'Abandonado';
 $string['addquizchain'] = 'Agregar cadena de preguntas';
-$string['allmycourses'] = 'Todos mis cursos';
+$string['allusers'] = 'Todos los usuarios';
 $string['alwaysopen'] = 'Siempre abierto';
 $string['attemptsall'] = 'Todos los intentos';
 $string['attemptsbest'] = 'Mejor intento';
@@ -45,7 +45,13 @@ $string['filetype'] = 'Tipo de archivo';
 $string['forceplugins'] = 'Forzar plugins multimedia';
 $string['giveup'] = 'Abandonar';
 $string['hints'] = 'Ayudas';
+$string['hotpot:attempt'] = 'Contestar un cuestionario';
+$string['hotpot:deleteattempt'] = 'Eliminar intentos de contestar el cuestionario';
+$string['hotpot:grade'] = 'Modificar calificaciones';
 $string['hotpot:view'] = 'Usar cuestionario';
+$string['hotpot:viewreport'] = 'Ver informes';
+$string['hotpotcloses'] = 'Apertura de Hot Potatoes';
+$string['hotpotopens'] = 'Cierre de Hot Potatoes';
 $string['ignored'] = 'Ignorado';
 $string['inprogress'] = 'En progreso';
 $string['location'] = 'Localización del archivo';
@@ -55,8 +61,8 @@ $string['navigation'] = 'Navegación';
 $string['navigation_bar'] = 'Barra de navegación de Moodle';
 $string['navigation_buttons'] = 'Botones de Hot Potatoes';
 $string['navigation_frame'] = 'Marco de navegación de Moodle';
-$string['navigation_give_up'] = 'Solamente un botón de \"Abandonar\" ';
-$string['navigation_iframe'] = '&lt;IFRAME&gt; embebido';
+$string['navigation_give_up'] = 'Solamente un botón de \"Abandonar\"';
+$string['navigation_iframe'] = '<IFRAME> embebido';
 $string['navigation_none'] = 'Ninguna';
 $string['neverclosed'] = 'Nunca cerrado';
 $string['noactivity'] = 'No hay actividad';
@@ -139,7 +145,6 @@ $string['textsourcefilename'] = 'Usar nombre de archivo';
 $string['textsourcefilepath'] = 'Usar ruta de archivo';
 $string['textsourcequiz'] = 'Obtener de cuestionario';
 $string['textsourcespecific'] = 'Texto específico';
-$string['thiscourse'] = 'Este curso';
 $string['timedout'] = 'Tiempo límite';
 $string['updatequizchain'] = 'Actualizar cadena  de cuestionarios';
 $string['weighting'] = 'Ponderación';
