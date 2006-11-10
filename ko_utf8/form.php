@@ -14,6 +14,7 @@ $string['err_numeric'] = '숫자만 입력하라.';
 $string['err_rangelength'] = '{$a->format[0]} 에서 {$a->format[1]} 글자의 문자만 입력하라.';
 $string['err_required'] = '적당한 값을 입력하라.';
 $string['general'] = '일반 설정';
+$string['modstandardels'] = '일반 모듈 설정';
 $string['nomethodforaddinghelpbutton'] = '양식 요소 $a->name (학급 $a->classname)에 도움말 단추를 추가할 방법이 없습니다.';
 $string['nonexistentformelements'] = '존재하지 않는 양식 요소 $a 에 도움말 단추를 추가하려 함';
 $string['requiredelement'] = '필수 항목';

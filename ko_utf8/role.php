@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006092801)
+      // role.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['addrole'] = '새 역할 첨가';
 $string['allow'] = '허용';
 $string['allowassign'] = '역할 부여 허용';
-$string['allowoverride'] = '역할 박탈 허용';
+$string['allowoverride'] = '역할 위임 허용';
 $string['assignroles'] = '부여 현황';
 $string['blog:create'] = '블로그 새로 만들기';
 $string['blog:manageentries'] = '입력내용 관리';
@@ -67,8 +67,8 @@ $string['manageroles'] = '역할 관리';
 $string['metaassignerror'] = '메타코스의 관리능력이 주어지지 않았기 때문에 사용자 \"$a\" 에게 이 역할을 부여할 수 없습니다.';
 $string['metaunassignerror'] = '사용자 \"$a\"의 역할이 자동적으로 재부여되었기 때문에 그 하위 배움터에 있는 역할은 해임해주기 바랍니다.';
 $string['nocapabilitiesincontext'] = '이 분야에서는 아무 권한이 없음';
-$string['overrideroles'] = '역할 박탈';
-$string['overrides'] = '박탈현황';
+$string['overrideroles'] = '역할 위임';
+$string['overrides'] = '위임 현황';
 $string['permissions'] = '권한';
 $string['potentialusers'] = '$a 잠재적 사용자';
 $string['prevent'] = '방지';
@@ -78,16 +78,16 @@ $string['question:import'] = '문항 가져음';
 $string['question:manage'] = '문항 관리';
 $string['question:managecategory'] = '문항 범주 관리';
 $string['risks'] = '위험부담';
-$string['role:assign'] = '사용자에게 역할을 부여함';
-$string['role:manage'] = '역할을 생성하고 관리함';
-$string['role:override'] = '다른 사람의 권한 박탈';
+$string['role:assign'] = '사용자에게 역할 부여';
+$string['role:manage'] = '역할을 생성하고 관리';
+$string['role:override'] = '다른 사람에게 권한 위임';
 $string['role:switchroles'] = '다른 역할과 맞바꿈';
 $string['role:unassignself'] = '자신의 역할에서 사임함';
 $string['role:viewhiddenassigns'] = '감춰진 역할부여 보기';
 $string['roleassignments'] = '역할 부여';
 $string['roles'] = '역할들';
-$string['roletoassign'] = '부여할 역할';
-$string['roletooverride'] = '박탈할 역활';
+$string['roletoassign'] = '부여자 역할';
+$string['roletooverride'] = '위임자 역활';
 $string['selectrole'] = '역할 선택';
 $string['showallroles'] = '모든 역할 보이기';
 $string['site:accessallgroups'] = '모든 모듬에 접속 기능';
