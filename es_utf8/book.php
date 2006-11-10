@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // book.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004093001)
+      // book.php - created with Moodle 1.7 (2006101007)
 
 
 $string['addafter'] = 'Agregar un nuevo capítulo';
@@ -15,8 +15,7 @@ $string['editingchapter'] = 'Editando capítulo';
 $string['faq'] = 'FAQ Libro';
 $string['fileordir'] = 'Archivo o directorio';
 $string['import'] = 'Importar';
-$string['importinfo'] = 'Importar el archivo HTML seleccionado o un directorio,<br />los capítulos se ordenan alfabéticamente por nombre.
-                            <br /><h3>ESTA ES UNA NUEVA CARACTERÍSTICA EXPERIMENTAL ;-)</h3>';
+$string['importinfo'] = 'Importar el archivo HTML seleccionado o un directorio,<br />los capítulos se ordenan alfabéticamente por nombre.<br />Los archivos con la denominación \'sub_*.*\' se importan siempre como secciones.';
 $string['importing'] = 'Importando';
 $string['importingchapters'] = 'Importando capítulos al libro';
 $string['maindirectory'] = 'Directorio principal';
