@@ -426,7 +426,7 @@ $string['emailconfirmationsubject'] = '$a: tunnuksen vahvistaminen';
 $string['emailconfirmsent'] = '<p>Vahvistusviesti on lähetetty osoitteesi <b>$a</b></p>
    <p>Se sisältää ohjeet, kuinka voit vahvistaa käyttäjätunnuksesi.</p>
    <p>Jos vahvistuksessa on ongelmia, ota yhteyttä ylläpitäjään.</p>';
-$string['emaildigest'] = 'Postin keräilytyyppi';
+$string['emaildigest'] = 'Postin keräilytapa';
 $string['emaildigestcomplete'] = 'Täysi (Posti päivässä , täydet viestit)';
 $string['emaildigestoff'] = 'Ei keräilyä (Posti per viesti)';
 $string['emaildigestsubjects'] = 'Otsikot (Posti päivässä, vain otsikot)';
