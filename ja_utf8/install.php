@@ -2,7 +2,7 @@
       // install.php - created with Moodle 1.8 dev (2006102600)
 
 
-$string['admindirerror'] = '設定されたadminディレクトリが間違っています。';
+$string['admindirerror'] = '設定されたadminディレクトリが正しくありません。';
 $string['admindirname'] = 'Adminディレクトリ';
 $string['admindirsetting'] = 'まれに、コントロールパネルまたはその他の管理ツールにアクセスするためのURLとして/adminディレクトリを使用しているウェブホストがあります。残念ながら、これはMoodle管理ページの標準的なロケーションと衝突します。インストールするときにadminディレクトリをリネームすることが可能です。ここに新しいディレクトリ名を入力してください。例: <br/> <br /><b>moodleadmin</b><br /> <br />
 これはMoodleのadminリンクを変更します。';
@@ -216,6 +216,6 @@ $string['welcomep50'] = 'このパッケージ内のすべてのアプリケー�
 $string['welcomep60'] = '次からのページは、あなたのコンピュータに <strong>Moodle</strong> を簡単に設定およびセットアップする手順にしたがって進みます。デフォルトの設定を使用することも、必要に応じて任意で設定を変更することもできます。';
 $string['welcomep70'] = '<strong>Moodle</strong>のセットアップを続けるには「次へ」ボタンをクリックしてください。';
 $string['wwwroot'] = 'ウェブアドレス';
-$string['wwwrooterror'] = '「ウェブアドレス」が間違っています - インストール済みMoodleはそこに表示されません。下記の値はリセットされました。';
+$string['wwwrooterror'] = '「ウェブアドレス」が正しくありません - インストール済みMoodleはそこに表示されません。下記の値はリセットされました。';
 
 ?>

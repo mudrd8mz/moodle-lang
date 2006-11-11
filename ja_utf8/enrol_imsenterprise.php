@@ -29,7 +29,7 @@ $string['processphotowarning'] = '警告: イメージ処理は、サーバー�
 $string['restricttarget'] = '次のターゲットが指定されている場合のみ処理する';
 $string['sourcedidfallback'] = '「userid」が見つからない場合、ユーザIDに「sourcedid」を使用する';
 $string['truncatecoursecodes'] = 'この長さにコースコードを切り詰める';
-$string['usecapitafix'] = '「Capita」を使用している場合、チェックしてください (XMLフォーマットが若干間違っています)';
+$string['usecapitafix'] = '「Capita」を使用している場合、チェックしてください (XMLフォーマットが少しだけ正しくありません)';
 $string['usersettings'] = 'ユーザデータオプション';
 $string['zeroisnotruncation'] = '表示 0、トランケーション なし';
 

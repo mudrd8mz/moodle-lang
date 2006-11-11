@@ -104,7 +104,7 @@ $string['textfield'] = '短文回答';
 $string['textfield_size'] = 'テキストフィールド幅';
 $string['this_feedback_is_already_submitted'] = 'あなたは、すでにこのフィードバックを完了しています。';
 $string['update_item'] = '質問の変更を保存する';
-$string['use_one_line_for_each_value'] = '<br>1行に1つの回答を入力してください!';
+$string['use_one_line_for_each_value'] = '<br />1行に1つの回答を入力してください!';
 $string['use_this_template'] = 'このテンプレートを使用する';
 $string['using_templates'] = 'テンプレートを使用する';
 
