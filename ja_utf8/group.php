@@ -2,6 +2,7 @@
       // group.php - created with Moodle 1.8 dev (2006102600)
 
 
+$string['addexistinggroupstogrouping'] = '既存のグループをグルーピングに追加する';
 $string['addgroupstogrouping'] = 'グループをグルーピングに追加する';
 $string['adduserstogroup'] = 'ユーザをグループに追加する';
 $string['cancel'] = 'キャンセル';
@@ -31,22 +32,31 @@ $string['groupingname'] = 'グルーピング名';
 $string['groupings'] = 'グルーピング';
 $string['groupmembers'] = 'グループメンバー';
 $string['groupmemberssee'] = 'グループメンバーを表示する';
+$string['groupmembersselected'] = '選択されたグループのメンバー';
 $string['groupmode'] = 'グループモード';
 $string['groupmodeforce'] = 'グループモードを強制する';
 $string['groupmy'] = 'マイグループ';
 $string['groupname'] = 'グループ名';
 $string['groupnotamember'] = '申し訳ございません、あなたはそのグループのメンバーではありません。';
 $string['groups'] = 'グループ';
+$string['groupsinselectedgrouping'] = '選択されたグルーピングのグループ';
 $string['groupsnone'] = 'グループなし';
 $string['groupsseparate'] = '分離グループ';
 $string['groupsvisible'] = '可視グループ';
 $string['hidepicture'] = '写真を隠す';
+$string['javascriptrequired'] = 'このページでは、Javaスクリプトを有効にする必要があります。';
 $string['membersofselectedgroup'] = '選択したグループのメンバー';
+$string['newpicture'] = '新しい写真';
 $string['numberofgroups'] = 'グループ数';
 $string['numberofstudents'] = '学生数';
 $string['prefixforgroupnames'] = 'グループ名の接頭辞';
 $string['removegroupfromselectedgrouping'] = '選択したグルーピングからグループを削除する';
 $string['removeselectedusers'] = '選択したユーザを削除する';
 $string['save'] = '保存';
+$string['teachersgroupview'] = '教師は自分が属していないグループの活動を閲覧できない';
+$string['teachersoverride'] = '教師は自分が属していないグループの活動を閲覧および評定できる (上記をオーバーライド)';
+$string['viewallgroupsactivities'] = '学生はすべてのグループの活動を閲覧のみできる';
+$string['viewallgroupsmembers'] = '学生はすべてのグループのメンバーを閲覧できる';
+$string['viewowngroup'] = '学生は自分が属しているすべてのグループのメンバーを閲覧できる';
 
 ?>
