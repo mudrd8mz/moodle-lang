@@ -3,7 +3,7 @@
 <div id="Main">
 
 <div class="article">
-<p>본 절은 'Markdown을 이용한 문서 작성(Enhancing Text With Markdown)'에서 언급한 기본적인 정보를 좀더 확장한 것으로서, Markdown 문법을 좀 더 차원높게 활용하고 싶어하는 분들을 위해 제공되는 것입니다. 만일 아래의 리스트를 보고 잘 모른다던가, 별 필요를 느끼지 않는 분들은 그냥 편하게 이 부분을 건너 뛰시고 나중에 필요할 때 다시 와서 읽어 보셔도 됩니다.</p>
+<p>본 절은 '마크다운을 이용한 문서 작성(Enhancing Text With Markdown)'에서 언급한 기본적인 정보를 좀더 확장한 것으로서, 마크다운 문법을 좀 더 차원높게 활용하고 싶어하는 분들을 위해 제공되는 것입니다. 만일 아래의 리스트를 보고 잘 모른다던가, 별 필요를 느끼지 않는 분들은 그냥 편하게 이 부분을 건너 뛰시고 나중에 필요할 때 다시 와서 읽어 보셔도 됩니다.</p>
 
 <ul>
 
@@ -11,7 +11,7 @@
 <li><a href="#hr">가로 막대</a></li>
 <li><a href="#image_links">그림의 링크</a></li>
 <li><a href="#embedded">HTML과 함께 쓰기</a></li>
-<li><a href="#preformatted">Pre-formatted Code</a></li>
+<li><a href="#preformatted">미리 정의된 코드들</a></li>
 <li><a href="#special_char">특수 문자 표현하기</a></li>
 <li><a href="#further">참고</a></li>
 </ul>
@@ -25,7 +25,7 @@
 가실 때에는<br /> 
 말없이 고이 보내드리우리다<br />
 <br />
-영변(寧邊)에 약산(藥山)<br />
+영변(寧邊)에 약산(藥山)<br />
 진달래꽃<br />
 아름따다 가실 길에 뿌리우리다.</code></strong></p>
 
@@ -35,7 +35,7 @@
 가실 때에는 
 말없이 고이 보내드리우리다
 
-영변(寧邊)에 약산(藥山)
+영변(寧邊)에 약산(藥山)
 진달래꽃
 아름따다 가실 길에 뿌리우리다.
 </p>
@@ -46,7 +46,7 @@
 가실 때에는<br /> 
 말없이 고이 보내드리우리다<br />
 <br />
-영변(寧邊)에 약산(藥山)<br />
+영변(寧邊)에 약산(藥山)<br />
 진달래꽃<br />
 아름따다 가실 길에 뿌리우리다.</p>
 
@@ -80,22 +80,22 @@
 
 <p>위는 표준 웹링크와 이미지 입니다. 링크 문서에 이미지를 합치면 아래와 같이 표시할 수 있습니다.</p>
 
-<p><strong><code>[![the google logo][logo]][google]</code></strong></p>
+<p><strong><code>[![구글 로고][logo]][google]</code></strong></p>
 
 <p>위의 줄들은 문장의 어디에서건 다음처럼 링크 정의와 함께 결합시킬 수 있습니다.</p>
 
 <p><strong><code>[logo]: http://www.google.com/images/logo.gif</code></strong><br />
-<strong><code>[google]: http://www.google.com/ "click to visit Google.com"</code></strong></p>
+<strong><code>[google]: http://www.google.com/ "Google.com을 방문하려면 클릭하세요"</code></strong></p>
 
 <p>다음은 이들을 결합한 클릭가능한 그림 링크의 화면에 표시된 예입니다.</p>
 
-<p><a href="http://www.google.com/" title="click to visit Google.com"><img src="http://www.google.com/images/logo.gif" alt="the google logo" /></a></p>
+<p><a href="http://www.google.com/" title="Google.com을 방문하려면 클릭하세요"><img src="http://www.google.com/images/logo.gif" alt="구글 로고" /></a></p>
 
 <p>이러한 기능은 작은 'thumbnail' 이미지에 좀 더 큰 그림을 링크시켜 불러오는데 유용하게 쓰일 수 있습니다.</p>
 
 <h2><a id="embedded">HTML과 함께 쓰기</a></h2>
 
-<p>이미 여러분이 HTML 문법에 익숙하다면 위키의 Markdown 문법이 사용하기 까다롭다고 생각할 때가 있을 수 있습니다. 다행이 Markdown은 이런 경우에 대비하여 Markdown 문법체계 안에서 HTML을 직접 쓸 수 있는 방도를 마련해 두었습니다.</p>
+<p>이미 여러분이 HTML 문법에 익숙하다면 위키의 마크다운 문법이 사용하기 까다롭다고 생각할 때가 있을 수 있습니다. 다행이 마크다운은 이런 경우에 대비하여 마크다운 문법체계 안에서 HTML을 직접 쓸 수 있는 방도를 마련해 두었습니다.</p>
 
 <p><strong><code>* &lt;small&gt;작은 문자들&lt;/small&gt;</code></strong><br />
 
@@ -106,31 +106,30 @@
 <li><big>큰 글자들</big> </li>
 </ul>
 
-<p>여기서 주목할 점은 HTML 태그가 Martkdown의 특수목록(bullet lists)과 병존한다는 점입니다. 
- This frees you from the mundane task of writing complex HTML for basic formatting features such as paragraphs and lists while still allowing you to access the full power of HTML in specific situations.</p>
+<p>여기서 주목할 점은 HTML 태그가 마크다운의 무순 목록(bullet lists)과 병존한다는 점입니다. 이는 특별한 경우, 여러분이 막강한 HTML 기능을 이용할 수 있게 함으로서 문장이나 목록과 같은 기본 기능에 대해 복잡한 HTML문서 작성을 평범한 일로 만들 수 있게 할 것입니다.</p>
 
-<h2><a id="preformatted">Displaying HTML or Preformatted Text</a></h2>
+<h2><a id="preformatted">HTML의 표시 또는 미리 정의된 문서</a></h2>
 
-<p>If, unlike in the section above, you wish the HTML you enter to be displayed exactly as you typed it, rather than processed as HTML then you can start each line with four space characters.</p>
+<p>만일 위에 언급한 것과는 달리, 여러분이 의도하는 바대로 화면에 표시하기 위하여 HTML을 사용하길 원한다고 해도 HTML로 구동하기 보다는 다음과 같이 매 줄을 네개의 공백문자로 시작할 수도 있습니다.</p>
 
 <pre><code>&lt;p&gt;A paragraph in &lt;b&gt;HTML&lt;/b&gt; displayed as code&lt;/p&gt;
 </code></pre>
 
-<p>This also works for displaying computer code:</p>
+<p>이는 컴퓨터 코드를 표시하기 위해 다음과 같이 작동할 것입니다.</p>
 
 <pre><code>print "Command-line arguments: (@ARGV)\n";
 </code></pre>
 
-<p>As this formatting is often used for computer program listings and other text which may plausibly contain the characters that Markdown uses to indicate different types of formatting, Markdown's formatting is switched off for these lines:</p>
+<p>이러한 형식은 컴퓨터 프로그램이나 다른 프로그램 문서에서 자주 사용되고 있기 때문에 이러한 "코드"가 나타나는 줄에서는 마크다운의 기능을 끄게 된다.</p>
 
-<pre><code>Normally this word would be **bold**.
+<pre><code>일반적으로 이러한 단어들은 **굵은** 글자로 표시됩니다.
 </code></pre>
 
-<p>To include such characters within normal text, see the section below.</p>
+<p>그러한 문자들을 일반 문서에 포함시키기 위해서는 다음 절을 참고하기 바랍니다.</p>
 
 <h2><a id="special_char">특수 문자 표현하기</a></h2>
 
-<p>만일 여러분이 Markdown 문법체제 하에서 다른 용도로 이미 쓰고 있는 특수 문자를 표현하기를 원하시면, 표시될 문자 앞에 백슬래쉬(\)를 넣은 후 그 특수 문자를 쓰면 됩니다. 백슬래쉬는 보통 이스케이프문자로도 잘 알려 있지요. 이 경우 바르게만 입력된다면, 백슬래쉬는 표시되지 않고 그 뒤에 바로 나오는 문자가 표시되게 됩니다.</p>
+<p>만일 여러분이 마크다운 문법체제 하에서 이미 다른 용도로 쓰고 있는 특수 문자를 표현하기 원하면, 표시될 문자 앞에 백슬래쉬(\)를 넣은 후 그 특수 문자를 쓰면 됩니다. 백슬래쉬는 보통 이스케이프문자로도 잘 알려 있지요. 이 경우 바르게만 입력된다면, 백슬래쉬는 표시되지 않고 그 뒤에 바로 나오는 문자가 표시되게 됩니다.</p>
 
 <p>백슬래쉬를 써서 <strong><code>\*별표이지, 강조가 아닙니다\*</code></strong> 를 입력하면</p>
 <p><strong><code>*별표이지, 강조가 아닙니다*</code></strong> 처럼 나오지 않고</p>
@@ -140,5 +139,5 @@
 
 <h2><a id="further">참고</a></h2>
 
-<p>Markdown 체제는 무들에서만 독특한 것이 아니고, 상당수 웹 출판 방식으로 확대되고 있습니다. <a href="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a>를 방문하시면 좀 더 자세한 내용을 살펴볼 수 있습니다.</p>
+<p>마크다운 체제는 무들에서만 독특한 것이 아니고, 상당수 웹 출판 방식으로 확대되고 있습니다. <a href="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a>를 방문하시면 좀 더 자세한 내용을 살펴볼 수 있습니다.</p>
 </div></div>
