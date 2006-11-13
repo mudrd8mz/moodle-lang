@@ -112,6 +112,7 @@ $string['answer'] = 'Yanıt';
 $string['approve'] = 'Onayla';
 $string['areyousuretorestorethis'] = 'Devam etmek istiyor musunuz?';
 $string['areyousuretorestorethisinfo'] = 'Daha sonra bu işlemde bu yedeklemeyi varolan bir kursa ekleme veya tamamen yeni bir kurs oluşturma seçeneğine sahipsiniz.';
+$string['asc'] = 'Artan';
 $string['assessment'] = 'Değerlendirme';
 $string['assignadmins'] = 'Yönetici belirle';
 $string['assigncreators'] = 'Kurs açıcı belirle';
@@ -226,7 +227,7 @@ $string['confirmednot'] = 'Kaydınız henüz onaylanmadı!';
 $string['continue'] = 'Devam';
 $string['continuetocourse'] = 'Kursa girmek için burayı tıklayın';
 $string['convertingwikitomarkdown'] = 'Wiki, Markdown\'a çevriliyor';
-$string['cookiesenabled'] = 'Tarayıcınızın oturum desteği (cookie) etkin olmalıdır';
+$string['cookiesenabled'] = 'Oturum desteği etkin olmalıdır';
 $string['cookiesnotenabled'] = 'Maalesef tarayıcı programınızın oturum desteği etkin değil';
 $string['copy'] = 'kopyala';
 $string['copyasnoun'] = 'kopya';
@@ -357,6 +358,7 @@ $string['deletingcourse'] = '$a siliniyor';
 $string['deletingexistingcoursedata'] = 'Mevcut kurs verileri siliniyor';
 $string['deletingolddata'] = 'Eski veri siliniyor';
 $string['department'] = 'Bölüm';
+$string['desc'] = 'Azalan';
 $string['description'] = 'Açıklama';
 $string['deselectall'] = 'Tümünü temizle';
 $string['detailedless'] = 'Daha az ayrıntılı';
@@ -474,8 +476,7 @@ $string['enrolme'] = 'Beni bu kursa kaydet';
 $string['enrolmentconfirmation'] = 'Bu kursa kendi kendinizi kaydetmek üzeresiniz. <br />Bunu yapmak istediğinizden emin misiniz?';
 $string['enrolmentend'] = 'Kayıt Bitişi';
 $string['enrolmentkey'] = 'Kayıt anahtarı';
-$string['enrolmentkeyfrom'] = 'Bu kurs kaydı için bir defalığına kullanacağınız özel bir \'Kayıt Anahtarı\' gerekmektedir.<br />
-Eğer bu anahtarı bilmiyorsanız bu kişiden isteyebilirsiniz: $a';
+$string['enrolmentkeyfrom'] = 'Bu kurs kaydı için bir defalığına kullanacağınız özel bir \'Kayıt Anahtarı\' gerekmektedir.<br />Eğer bu anahtarı bilmiyorsanız bu kişiden isteyebilirsiniz: $a';
 $string['enrolmentkeyhint'] = 'Bu kayıt anahtarı yanlıştır, lütfen tekrar deneyin<br />(İpucu - \'$a\' ile başlıyor)';
 $string['enrolmentnew'] = '$a kursuna yeni kayıt';
 $string['enrolmentnewuser'] = '$a->user, \"$a->course\" kursuna kaydoldu';
@@ -731,15 +732,15 @@ $string['loginas'] = 'Farklı giriş yap';
 $string['loginaspasswordexplain'] = '<p>Bu özelliği kullanmak için \"farklı şifreyle giriş\" anahtarını girmelisiniz.<br />Bilmiyorsanız, sunucu yöneticisine sorabilirsiniz.</p>';
 $string['loginguest'] = 'Konuk olarak giriş';
 $string['loginsite'] = 'Siteye giriş';
-$string['loginsteps'] = 'Merhaba! Bu sitedeki kurslara tam erişim için bir kaç dakikanızı ayırarak hesap açmanız gerekmektedir. Kurslardan bazılarının sadece kayıt için bir defalığına kullanılacak ve sonradan gerekmeyecek \"Kayıt Anahtarı\" olabilir. Şu adımları izleyin:
+$string['loginsteps'] = 'Merhaba! Bu sitedeki kurslara tam erişim için bir kaç dakikanızı ayırarak hesap açmanız gerekmektedir. Kurslardan bazılarının sadece ders kaydı için bir defalığına kullanılacak ve sonradan gerekmeyecek \"Kayıt Anahtarı\" olabilir. Şu adımları izleyin:
 <ol>
-<li>Bilgilerinizi <A HREF=\"$a\">Yeni Hesap</A> formuyla girin.</li>
+<li>Bilgilerinizi <a href=\"$a\">Yeni Hesap</a> formuyla girin.</li>
 <li>E-posta adresinize hemen bir mesaj gönderilecek.</li>
 <li>Mesajınızı okuyun ve içerdiği web bağlantısını tıklayın.</li>
 <li>Hesabınız onaylanacak ve giriş yapabileceksiniz.</li>
 <li>Şimdi, katılmak istediğiniz kursu seçin.</li>
-<li>Bir \"Kayıt Anahtarı\" istenirse, eğitimcinizin size verdiği anahtarı kullanın. Bu sizin kursa \"kaydınızı\" yapacaktır.</li>
-<li>Artık kursa tamamen erişebilirsiniz. Bundan sonra gereken tek şey kaydolduğunuz kursa erişmek için bu sayfadaki formdan kullanıcı adınız ve şifrenizle giriş yapmaktır.</li>
+<li>Sizden bir \"Kayıt Anahtarı\" istenirse, eğitimcinizin size verdiği anahtarı kullanın. Bu, sizin kursa \"kaydınızı\" yapacaktır.</li>
+<li>Artık kursa tamamen erişebilirsiniz. Bundan sonra kayıtlı olduğunuz kurslara erişmek için yapmanız gereken tek şey, bu sayfadaki formdan kullanıcı adınız ve şifrenizle giriş yapmaktır.</li>
 </ol>';
 $string['loginstepsnone'] = 'Merhaba!
 <p>Kurslara tam erişim için yeni bir hesap açmanız gerekmektedir.</p>
@@ -1360,6 +1361,7 @@ $string['usernameemailmatch'] = 'Kullanıcı adı ve email adresi aynı kullanı
 $string['usernameexists'] = 'Bu kullanıcı adı var, başka bir tane seçiniz';
 $string['usernamenotfound'] = 'Kullanıcı adı veritabanında bulunamadı';
 $string['usernotconfirmed'] = '$a onaylanmadı';
+$string['userpic'] = 'Kullanıcı resmi';
 $string['userprofilefor'] = 'Kullanıcı profili: $a';
 $string['users'] = 'Kullanıcı(lar)';
 $string['usersnew'] = 'Yeni kullanıcılar';
