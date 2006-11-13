@@ -1354,6 +1354,7 @@ $string['usernameemailmatch'] = 'Le nom d\'utilisateur et l\'adresse de courriel
 $string['usernameexists'] = 'Ce nom d\'utilisateur existe déjà, veuillez en choisir un autre';
 $string['usernamenotfound'] = 'Ce nom d\'utilisateur n\'a pas été trouvé dans la base de données';
 $string['usernotconfirmed'] = 'L\'utilisateur $a n\'a pas pu être confirmé';
+$string['userpic'] = 'Image de l\'utilisateur';
 $string['userprofilefor'] = 'Profil de l\'utilisateur $a';
 $string['users'] = 'Utilisateurs';
 $string['usersnew'] = 'Nouveaux utilisateurs';
