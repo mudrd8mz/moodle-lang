@@ -2,6 +2,7 @@
       // blog.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
+
 $string['addnewentry'] = 'Új üzenet hozzáadása';
 $string['addotags'] = 'Hivatalos címkék hozzáadása';
 $string['addptags'] = 'Felhasználói címkék hozzáadása';
@@ -16,6 +17,9 @@ $string['blogtags'] = 'Blogcímkék';
 $string['courseblog'] = '$a kurzusblog';
 $string['courseblogs'] = 'A felhasználók csak a kurzusban részt vevők számára írhatnak naplóüzeneteket';
 $string['disableblogs'] = 'A blogrendszer teljes kikapcsolása';
+$string['emptybody'] = "A blogüzenet törzse nem lehet üres";
+$string['emptytitle'] = "A blogüzenet címe nem lehet üres";
+$string['entrysaved'] = "Az üzenetet elmentette";
 $string['entrybody'] = 'Blogüzenet törzsrésze';
 $string['entrybodyonlydesc'] = 'Üzenet leírása';
 $string['entryerrornotyours'] = 'Ez nem az Ön üzenete';
@@ -26,6 +30,7 @@ $string['groupblogs'] = 'A felhasználók csak a csoport résztvevői számára 
 $string['intro'] = 'Az RSS-üzenet egy vagy több blogból automatikusan állt elő';
 $string['noentriesyet'] = 'Nincsenek látható üzenetek';
 $string['noguestpost'] = 'Vendégek nem írhatnak naplóüzeneteket';
+$string['norighttodeletetag'] = "Ezt az elemet Ön nem törölheti: \$a";
 $string['notallowedtoedit'] = 'Ezt az üzenetet Ön nem szerkesztheti';
 $string['numberofentries'] = '$a üzenet';
 $string['numberoftags'] = 'Megjelenítendő címkék száma';

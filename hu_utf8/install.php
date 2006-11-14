@@ -2,6 +2,7 @@
       // install.php - created with Moodle 1.6 Beta 3 (2006042401)
 
 
+
 $string['admindirerror'] = 'A megadott rendszergazdakönyvtár hibás';
 $string['admindirname'] = 'Rendszergazdakönyvtár';
 $string['admindirsetting'] = 'Nagyon kevés kiszolgálónál használatos az /admin mint a vezérlőpanel vagy egyéb elérésére szolgáló külön URL. Sajnos ez ütközik a Moodle rendszergazdai oldalainak szokásos helyével. Ha telepítésében átnevezi a könyvtárat és az új nevet ide helyezi, a hiba megoldódik. Például: <br /> <br /><b>moodleadmin</b><br /> <br />
@@ -54,6 +55,42 @@ $string['databasesettingssub'] = '<strong>Típus:</strong> mysql vagy postgres7<
 <strong>Felhasználó:</strong>az Ön adatbázishoz használt azonosítója<br />
 <strong>Jelszó:</strong> az Ön adatbázishoz használt jelszava<br />
 <strong>Táblázat előtagja:</strong> opcionális előtag az összes táblanévhez';
+$string['databasesettingssub_mssql'] = "<b>Típus:</b> SQL*Server (nem UTF-8) <b><font color=\"red\">Kísérleti! (élesben nem használandó)</font></b><br />
+       <b>Gazdagép:</b> pl. localhost vagy db.isp.com<br />
+       <b>Név:</b> adatbázis neve, pl. moodle<br />
+       <b>Felhasználó:</b> az Ön adatbázis-felhasználói neve<br />
+       <b>Jelszó:</b> az Ön adatbázis-jelszava<br />
+       <b>Táblázati előtag:</b> minden táblázatnévhez használandó előtag (kötelező)";
+$string['databasesettingssub_mssql_n'] = "<b>Típus:</b> SQL*Server (UTF-8-at használ)<br />
+       <b>Gazdagép:</b> pl. localhost vagy db.isp.com<br />
+       <b>Név:</b> adatbázis neve, pl. moodle<br />
+       <b>Felhasználó:</b> az Ön adatbázis-felhasználói neve<br />
+       <b>Jelszó:</b> az Ön adatbázis-jelszava<br />
+       <b>Táblázati előtag:</b> minden táblázatnévhez használandó előtag (kötelező)";
+$string['databasesettingssub_mysql'] = "<b>Típus:</b> MySQL<br />
+       <b>Gazdagép:</b> pl. localhost vagy db.isp.com<br />
+       <b>Név:</b> adatbázis neve, pl. moodle<br />
+       <b>Felhasználó:</b> az Ön adatbázis-felhasználói neve<br />
+       <b>Jelszó:</b> az Ön adatbázis-jelszava<br />
+       <b>Táblázati előtag:</b> minden táblázatnévhez használandó előtag (választható)";
+$string['databasesettingssub_oci8po'] = "<b>Típus:</b> Oracle<br />
+       <b>Gazdagép:</b> pl. localhost vagy db.isp.com<br />
+       <b>Név:</b> adatbázis neve, pl. moodle<br />
+       <b>Felhasználó:</b> az Ön adatbázis-felhasználói neve<br />
+       <b>Jelszó:</b> az Ön adatbázis-jelszava<br />
+       <b>Táblázati előtag:</b> minden táblázatnévhez használandó előtag (kötelező, max. 2 cc)";
+$string['databasesettingssub_odbc_mssql'] = "<b>Típus:</b> SQL*Server (over ODBC) <b><font color=\"red\">Kísérleti! (élesben nem használandó)</font></b><br />
+       <b>Gazdagép:</b> az ODBC kezelőpaneljében megadott DSN neve<br />
+       <b>Név:</b> adatbázis neve, pl. moodle<br />
+       <b>Felhasználó:</b> az Ön adatbázis-felhasználói neve<br />
+       <b>Kelszó:</b> az Ön adatbázis-jelszava<br />
+       <b>Táblázati előtag:</b> minden táblázatnévhez használandó előtag (kötelező)";
+$string['databasesettingssub_postgres7'] = "<b>Típus:</b> PostgreSQL<br />
+       <b>Gazdagép:</b> pl. localhost vagy db.isp.com<br />
+       <b>Név:</b> adatbázis neve, pl. moodle<br />
+       <b>Felhasználó:</b> az Ön adatbázis-felhasználói neve<br />
+       <b>Jelszó:</b> az Ön adatbázis-jelszava<br />
+       <b>Táblázati előtag:</b> minden táblázatnévhez használandó előtag (kötelező)";
 $string['dataroot'] = 'Adatkönyvtár';
 $string['datarooterror'] = 'A megadott \'Adatkönyvtár\' nem létezik vagy nem sikerült létrehozni. Módosítsa az útvonalat vagy hozza létre a könyvtárat.';
 $string['dbconnectionerror'] = 'Nem sikerült a megadott adatbázishoz csatlakozni. Ellenőrizze adatbázisának beállításait.';
@@ -63,6 +100,9 @@ $string['dbpass'] = 'Jelszó';
 $string['dbprefix'] = 'Táblázat előtagja';
 $string['dbtype'] = 'Típus';
 $string['dbwrongencoding'] = 'A kiválasztott adatbázis egy nem ajánlott kódolást használ ($a). Helyette ajánlatos unikódos (UTF-8) adatbázist használni. Egyébként ezt a tesztet átugorhatja, ha bejelöli alább az \"Adatbázis kódolásának ellenőrzése\" négyzetet, bár így a későbbiekben gondjai támadhatnak.';
+$string['dbwronghostserver'] = "A fentiek szerinti \"Gazdagép\" beállítási szabályait tartsa be.";
+$string['dbwrongnlslang'] = "Webszerverében az NLS_LANG környezetváltozónak az AL32UTF8 karakterkészletet kell használni. Az OCI8 megfelelő beálításával kapcsolatban lásd a PHP dokumentációját.";
+$string['dbwrongprefix'] = "A fentiek szerinti \"Táblázati előtag\" beállítási szabályait tartsa be.";
 $string['directorysettings'] = '<p>Hagyja jóvá a Moodle telepítésének helyét.</p>
 
 <p><b>Webcím:</b>
@@ -143,6 +183,16 @@ beállítást pl. 16M-ra. Ha nem éri el az állományt, kérje meg a rendszerad
 (az oldalak hibát jeleznek), ezért el kell távolítania a .htaccess állományt.</p></li>
 </ol>';
 $string['mysqlextensionisnotpresentinphp'] = 'A PHP nincs jól beállítva a MySQL kiterjesztéshez, így nem tud ele kommunikálni. Ellenőrizze a php.ini fájlt vagy fordítsa újra a PHP-t.';
+$string['mssql'] = "SQL*Server (mssql)";
+$string['mssql_n'] = "SQL*Server UTF-8 támogatással (mssql_n)";
+$string['mssqlextensionisnotpresentinphp'] = "A PHP nincs megfelelően beállítva az MSSQL-bővítéshez, egy nem tud kommunikálni az SQL*Serverrel.  Ellenőrizze a php.ini állományt vagy fordítsa le újra a PHP-t.";
+$string['mysql'] = "MySQL (mysql)";
+$string['oci8po'] = "Oracle (oci8po)";
+$string['ociextensionisnotpresentinphp'] = "A PHP nincs megfelelően beállítva az OCI8 bővítéshez, egy nem tud kommunikálni az Oracle-lal. Ellenőrizze a php.ini állományt vagy fordítsa le újra a PHP-t.";
+$string['odbc_mssql'] = "SQL*Server over ODBC (odbc_mssql)";
+$string['odbcextensionisnotpresentinphp'] = "A PHP nincs megfelelően beállítva az ODBC-bővítéshez, egy nem tud kommunikálni az SQL*Serverrel.  Ellenőrizze a php.ini állományt vagy fordítsa le újra a PHP-t.";
+$string['pgsqlextensionisnotpresentinphp'] = "A PHP nincs megfelelően beállítva az PGSQL-bővítéshez, egy nem tud kommunikálni a PostgreSQL-lel.  Ellenőrizze a php.ini állományt vagy fordítsa le újra a PHP-t.";
+$string['postgres7'] = "PostgreSQL (postgres7)";
 $string['pass'] = 'Rendben';
 $string['phpversion'] = 'PHP-verzió';
 $string['phpversionerror'] = 'A PHP-verzió legalább 4.1.0 legyen';

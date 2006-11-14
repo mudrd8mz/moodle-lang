@@ -47,6 +47,7 @@ $string['enterpassword'] = 'Jelszó megadása';
 $string['entriessaved'] = 'Mentett tétel';
 $string['errorbanded'] = 'Hibán alapuló';
 $string['excellent'] = 'Kiváló';
+$string['exercise:assess'] = "Gyakorlatok értékelése";
 $string['exerciseassessments'] = 'Gyakorlatok értékelései';
 $string['exercisefeedback'] = 'Gyakorlatok visszajelzése';
 $string['exercisesubmissions'] = 'Gyakorlatok leadása';

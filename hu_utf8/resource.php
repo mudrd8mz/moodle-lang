@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
       // resource.php - created with Moodle 1.6 Beta 3 (2006042401)
 
-
+$string['affectedresources'] = "Érintett tananyagok";
 $string['addresource'] = 'Tananyag hozzáadása';
 $string['back'] = 'Vissza';
 $string['browserepository'] = 'Adattár böngészése';
@@ -9,6 +9,8 @@ $string['choose'] = 'Választás';
 $string['chooseafile'] = 'Állomány kiválasztása vagy feltöltése';
 $string['chooseparameter'] = 'Paraméter kiválasztása';
 $string['configallowlocalfiles'] = 'Új állományforrás létrehozása során hozzon létre ugrópontokat a helyi rendszeren, például CD-meghajtón vagy merevlemezen lévő állományokhoz. Ez hasznosnak bizonyulhat olyankor, amikor minden tanuló azonos hálózati meghajtóhoz fér hozzá, vagy ha CD-n lévő állományokat kell elérni. Ennek használatához esetleg módosítani kell a böngésző biztonsági beállításain.';
+$string['configautofilerenamesettings'] = "A fájlkezelőben történő átnevezés során automatikusan frissíti az állományokra és könyvtárakra való hivatkozásokat.";
+$string['configblockdeletingfilesettings'] = "A tananyagokban hivatkozott állományok és könyvtárak egyszerre való törlése. Ne feledje, hogy a html-ből hivatkozott képek és más állományok nincsenek védve.";
 $string['configdefaulturl'] = 'Ez az érték új URL-alapú tananyag létrehozásakor az URL-űrlap előre kitöltésére szolgál.';
 $string['configfilterexternalpages'] = 'Ezzel a beállítással minden külső forrás (honlap, feltöltött HTML-fájl) a megadott honlapszűrőkkel (például automatikus fogalomtár-kapcsolással) lesz feldolgozva. Ha bekapcsolja, kurzusoldalai számottevően lelassulhatnak - használja körültekintéssel és csak szükség esetén. ';
 $string['configframesize'] = 'Ha egy weboldal vagy egy feltöltött állomány keretben jelenik meg, ez az érték a felső (navigálást tartalmazó) keret (képpontban megadott) mérete.';
@@ -89,6 +91,7 @@ $string['preview'] = 'Nyomtatási kép';
 $string['previous'] = 'Előző';
 $string['redeploy'] = 'Újbóli használat';
 $string['repository'] = 'IMS-adattár';
+$string['resource:view'] = "Tananyag megtekintése";
 $string['resourcetype'] = 'Tananyag típusa';
 $string['resourcetype1'] = 'Hivatkozás';
 $string['resourcetype2'] = 'Weboldal';
@@ -115,5 +118,7 @@ $string['upbutton'] = 'Fel';
 $string['variablename'] = 'Változó neve';
 $string['viewims'] = 'IMS-csomag megtekintése';
 $string['vol'] = 'Kötet';
+$string['warningblockingdelete'] = "Figyelem: a törlést a meglévő tananyag nem engedi. Vagy frissítse előbb a tananyagait, vagy kérje meg a rendszergazdát, hogy kapcsolja ki ezt a biztonsági funkciót a globális tananyagkonfigurációban.";
+$string['warningdisabledrename'] = "Figyelem: a tananyagokban lévő hivatkozások automatikus átnevezése ki van kapcsolva. Ha szükséges, frissítse kézzel az érintett tananyagokat. A rendszergazda bekapcsolhatja az automatikus átnevezést a globális tananyagkonfigurációban.";
 
 ?>

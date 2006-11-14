@@ -18,6 +18,7 @@ $string['filelockedmail'] = 'Az IMS-állomány alapú beiratkozáshoz ($a) haszn
 $string['filelockedmailsubject'] = 'Fontos hiba. Beiratkozási fájl';
 $string['fixcasepersonalnames'] = 'Személynevek cím betűjének megfelelő átalakítása';
 $string['fixcaseusernames'] = 'Felhasználónevek kisbetűsre módosítása';
+$string['imsrolesdescription'] = "Az IMS üzleti specifikációja 8 különféle szerepet foglal magában. Válassza ki, miként szeretné ezeket a Moodle-hoz hozzárendelni, és azt is, melyiket szeretné figyelmen kívül hagyni.";
 $string['location'] = 'Fájl helye';
 $string['logtolocation'] = 'Naplófájl kimeneti helye (üres, ha nincs naplózás)';
 $string['mailadmins'] = 'Rendszergazda értesítése e-mailben';

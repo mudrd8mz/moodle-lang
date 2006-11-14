@@ -2,9 +2,11 @@
       // hotpot.php - created with Moodle 1.6 Beta 3 (2006041100)
 
 
+
 $string['abandoned'] = 'Felhagyott vele';
 $string['addquizchain'] = 'Tesztsor beszúrása';
 $string['allmycourses'] = 'Minden kurzusom';
+$string['allusers'] = "Minden felhasználó";
 $string['alwaysopen'] = 'Mindig nyitva';
 $string['attemptsall'] = 'Minden próbálkozás';
 $string['attemptsbest'] = 'Legjobb próbálkozás';
@@ -45,6 +47,13 @@ $string['filetype'] = 'Állomány típusa';
 $string['forceplugins'] = 'Média-segédprogramok használata';
 $string['giveup'] = 'Felad';
 $string['hints'] = 'Tippek';
+$string['hotpot:attempt'] = "Próbálkozás egy teszttel";
+$string['hotpot:deleteattempt'] = "Próbálkozások törlése";
+$string['hotpot:grade'] = "Pontok módosítása";
+$string['hotpot:view'] = "Teszt használata";
+$string['hotpot:viewreport'] = "jelentések megtekintése";
+$string['hotpotcloses'] = "A Hot Potatoes teszt bezárása";
+$string['hotpotopens'] = "A Hot Potatoes teszt megnyitása";
 $string['ignored'] = 'Kihagyva';
 $string['inprogress'] = 'Folyamatban';
 $string['location'] = 'Állomány helye';

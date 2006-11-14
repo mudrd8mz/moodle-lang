@@ -3,6 +3,7 @@
 
 
 $string['analysis'] = 'Tételes elemzés';
+$string['analysisdownload'] = "Elemzés letöltése";
 $string['analysisoptions'] = 'Elemzési lehetőségek';
 $string['analysistitle'] = 'Tételes elemzési táblázat';
 $string['attemptsall'] = 'minden próbálkozás';
