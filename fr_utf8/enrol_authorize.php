@@ -117,6 +117,7 @@ $string['missingccexpire'] = 'La date d\'échéance n\'est pas renseignée';
 $string['missingcctype'] = 'Le type de carte n\'est pas renseigné';
 $string['missingcvv'] = 'Le numéro de vérification n\'est pas renseigné';
 $string['missingzip'] = 'Le code postal n\'est pas renseigné';
+$string['mypaymentsonly'] = 'N\'afficher que mes paiements';
 $string['nameoncard'] = 'Nom sur la carte';
 $string['new'] = 'Nouveau';
 $string['noreturns'] = 'Pas de retour&nbsp;!';
