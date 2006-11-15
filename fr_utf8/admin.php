@@ -56,6 +56,10 @@ $string['configclamdonothing'] = 'Ne pas traiter les fichiers';
 $string['configclamfailureonupload'] = 'Si vous avez configuré clam pour l\'inspection des fichiers déposés et que la configuration n\'est pas correcte ou que clam ne peut être lancé pour une autre raison, quel doit être le comportement ? Si vous indiquez « Traiter les fichiers comme des virus », ils seront déplacés vers un dossier de quarantaine ou détruits. Si vous indiquez « Ne pas traiter les fichiers », les fichiers seront déposés vers leur dossier de destination, sans être inspectés. Dans tous les cas, les administrateurs seront avertis que clam n\'a pas fonctionné. En outre, si vous indiquez « Traiter les fichiers comme des virus » et que clam ne peut pas fonctionner (d\'habitude parce que le chemin « pathtoclam » n\'set pas correct), TOUS les fichiers déposés seront déplacés vers le dossier de quarantaine ou détruits. Soyez prudent avec ce réglage !';
 $string['configcountry'] = 'Si vous choisissez un pays ici, il sera sélectionné par défaut lors de la création de nouveaux comptes. Si vous souhaitez forcer les utilisateurs à choisir un pays, laissez ce champ vide.';
 $string['configcoursesperpage'] = 'Saisissez un nombre de cours à afficher par page dans la liste des cours.';
+$string['configcronclionly'] = 'Lorsque ce réglage est activé, le script de cron ne peut être lancé que depuis un terminal, plutôt que par l\'intermédiaire d\'un navigateur web. Ce réglage ne tient pas compte du mot de passe de cron indiqué ci-dessous.';
+$string['configcronremotepassword'] = 'Si un mot de passe est spédifié dans ce champ, le script de cron ne pourra être lancé depuis un navigateur web qu\'en fournissant ce mot de passe, suivant la syntaxe d\'URL&nbsp;:<pre>
+http://site.exemple.fr/admin/cron.php?password=lemotdepasse
+</pre>Si le champ n\'est pas renseigné, aucun mot de passe n\'est nécessaire.';
 $string['configdbsessions'] = 'Enregistrer les informations sur les sessions en cours dans la base de données. Ce réglage est surtout utile pour les sites avec de nombreux utilisateurs ou ceux qui sont construits sur des clusters de serveurs. La plupart des sites peuvent laisser cette option désactivée, et ces informations seront stockées sur le disque du serveur. Attention ! si vous changez ce réglage, tous les utilisateurs seront immédiatement déconnectés, vous y compris&nbsp;! Si vous utilisez une base de données MySQL, assurez-vous que la variable «&nbsp;max_allowed_packe&nbsp;» dans <em>my.cnf</em> (ou <em>my.ini</em>) ait au moins une valeur de 4M.';
 $string['configdebug'] = 'Si vous activez cette option, le paramètre PHP « error_reporting » sera augmenté afin que les avertissements soient affichés. Ceci est utile essentiellement pour les développeurs.';
 $string['configdefaultallowedmodules'] = 'Pour les cours de la catégorie ci-dessus, quels modules voulez-vous autoriser <b>lorsque le cours est créé</b>&nbsp;?';
@@ -177,6 +181,10 @@ $string['courseoverview'] = 'Vue d\'ensemble cours';
 $string['courserequests'] = 'Demandes de cours';
 $string['courses'] = 'Cours';
 $string['coursesperpage'] = 'Cours par page';
+$string['cronclionly'] = 'Exécution du cron uniquement en mode terminal';
+$string['cronerrorclionly'] = 'Désolé, l\'accès à cette page depuis le web a étél désactivé par l\'administrateur';
+$string['cronerrorpassword'] = 'Désolé, vus n\'avez pas fourni un mot de passe valable pour accéder à cette page';
+$string['cronremotepassword'] = 'Mot de passe pour lancer le cron à distance';
 $string['cronwarning'] = 'Le <a href=\"cron.php\">script de maintenance cron.php</a> n\'a pas été lancé depuis au moins 24 heures.';
 $string['cronwarning2'] = 'Le <a href=\"cron.php\">script de maintenance cron.php</a> n\'a pas été lancé depuis au moins 24 heures.<br />Voir $a pour de plus amples informations sur l\'automatisation de cette opération.';
 $string['datarootsecuritywarning'] = 'La configuration de votre site semble ne pas être sûre. Veuillez vous assurer que le dossier des données de Moodle ($a) ne soit pas directement accessible depuis le web.';
