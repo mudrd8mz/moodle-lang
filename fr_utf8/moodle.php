@@ -644,6 +644,7 @@ $string['helpsummaries'] = 'À propos de ces résumés';
 $string['helptext'] = 'Comment rédiger un texte';
 $string['helpwiki'] = 'Comment rédiger un texte de genre wiki';
 $string['helpwriting'] = 'Écrire soigneusement';
+$string['hiddenassign'] = 'Attribution cachée';
 $string['hiddensections'] = 'Sections cachées';
 $string['hiddensectionscollapsed'] = 'Sections cachées affichées sous forme condensée';
 $string['hiddensectionsinvisible'] = 'Sections cachées invisibles';
