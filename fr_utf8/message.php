@@ -59,8 +59,8 @@ $string['timenosee'] = 'Minutes depuis ma dernière présence en ligne';
 $string['timesent'] = 'Heure d\'envoi';
 $string['unblockcontact'] = 'Débloquer ce contact';
 $string['unreadmessages'] = '$a messages non lus';
-$string['userisblockingyou'] = 'Cet utisateur vous a retiré le droit de lui envoyer des messages';
-$string['userisblockingyounoncontact'] = 'Cet utisateur n\'accepte de messages que de personnes de sa liste de contacts, dans laquelle vous ne figurez pas actuellement.';
+$string['userisblockingyou'] = 'Cet utilisateur vous a retiré le droit de lui envoyer des messages';
+$string['userisblockingyounoncontact'] = 'Cet utilisateur n\'accepte de messages que de personnes de sa liste de contacts, dans laquelle vous ne figurez pas actuellement.';
 $string['userssearchresults'] = 'Résultats de recherche&nbsp;: $a utilisateur(s) trouvé(s)';
 
 ?>
