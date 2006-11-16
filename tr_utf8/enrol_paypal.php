@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // enrol_paypal.php - created with Moodle 1.5 ALPHA (2005043000)
+      // enrol_paypal.php - created with Moodle 1.8 dev (2006102600)
 
 
-$string['business'] = 'Paypal hesabınızda kullandığınız email adresi';
+$string['business'] = 'PayPal hesabınızda kullandığınız email adresi';
 $string['costorkey'] = 'Lütfen, aşağıdaki kayıt yöntemlerinden birini seçiniz.';
-$string['description'] = 'Paypal modülü ücretli kurslar ayarlamanıza olanak verir. Bir kursun ücreti sıfır ise öğrencilere ödeme yapmaları için bir istekte bulunulmaz. Sitenin geneli için ayarlayabileceğiniz varsayılan bir tutar vardır ve her bir dersin ücretini tek tek de ayarlayabilirsiniz. Kurs ücreti ayarlanırsa site genelindeki ücret yoksayılır.';
-$string['enrolname'] = 'Paypal';
-$string['sendpaymentbutton'] = 'Ödemeyi Paypal ile yap';
+$string['description'] = 'PayPal modülü ücretli kurslar ayarlamanıza olanak sağlar. Bir kursun ücreti sıfır ise öğrencilere ödeme yapmaları için bir istekte bulunulmaz. Sitenin geneli için ayarlayabileceğiniz varsayılan bir tutar vardır ve her bir dersin ücretini tek tek de ayarlayabilirsiniz. Kurs ücreti ayarlanırsa site genelindeki ücret yoksayılır. Burada ayarlanan genel ücreti kullanmak için kurs ayarlarında ücret alanına -1 yazın.';
+$string['enrolname'] = 'PayPal';
+$string['sendpaymentbutton'] = 'Ödemeyi PayPal ile yap';
 
 ?>
