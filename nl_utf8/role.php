@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 dev (2006100401)
+      // role.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
@@ -55,7 +55,7 @@ $string['errorbadroleshortname'] = 'Verkeerde rolnaam';
 $string['errorexistsrolename'] = 'Rolnaam bestaat al';
 $string['errorexistsroleshortname'] = 'Rolnaam bestaat al';
 $string['existingusers'] = '$a bestaande gebruikers';
-$string['inherit'] = 'Erf';
+$string['inherit'] = 'Overerven';
 $string['legacy:admin'] = 'PRE 1.7 ROL: Beheerder';
 $string['legacy:coursecreator'] = 'PRE 1.7 ROL: Cursusaanmaker';
 $string['legacy:editingteacher'] = 'PRE 1.7 ROL: Leraar (bewerken)';
@@ -66,13 +66,13 @@ $string['listallroles'] = 'Toon alle rollen';
 $string['manageroles'] = 'Beheer rollen';
 $string['metaassignerror'] = 'Kan deze rol niet toewijzen aan gebruiker \"$a\" omdat de mogelijkheid om koepelcursussen te beheren nodig is.';
 $string['metaunassignerror'] = 'De rol van gebruiker \"$a\" was automatisch gewijzigd.  Pas de rol aan in de erfcursus';
-$string['nocapabilitiesincontext'] = 'Geen rechten in deze context';
-$string['overrideroles'] = 'Rollen negeren';
-$string['overrides'] = 'Negeren';
+$string['nocapabilitiesincontext'] = 'Geen mogelijkheden beschikbaar  in deze context';
+$string['overrideroles'] = 'Rollen overschrijven';
+$string['overrides'] = 'Overschrijven';
 $string['permissions'] = 'Rechten';
 $string['potentialusers'] = '$a mogelijke gebruikers';
-$string['prevent'] = 'Voorkom';
-$string['prohibit'] = 'Verbied';
+$string['prevent'] = 'Verwijder';
+$string['prohibit'] = 'Blokkeer';
 $string['question:export'] = 'Vragen exporteren';
 $string['question:import'] = 'Vragen importeren';
 $string['question:manage'] = 'Vragen beheren';
@@ -81,13 +81,13 @@ $string['risks'] = 'Gevaren';
 $string['role:assign'] = 'Toewijzen van rollen aan gebruikers';
 $string['role:manage'] = 'Aanmaken en beheren van rollen';
 $string['role:override'] = 'Rechten voor anderen overschrijven';
-$string['role:switchroles'] = 'Schakel naar andere rollen';
+$string['role:switchroles'] = 'Schakel over naar andere rollen';
 $string['role:unassignself'] = 'EIgen rollen niet meer toewijzen';
-$string['role:viewhiddenassigns'] = 'Verbeorgen roltoewijzingen zien';
+$string['role:viewhiddenassigns'] = 'Verborgen roltoewijzingen zien';
 $string['roleassignments'] = 'Roltoewijzingen';
 $string['roles'] = 'Rollen';
-$string['roletoassign'] = 'Aan te wijzen rol';
-$string['roletooverride'] = 'Te negeren rol';
+$string['roletoassign'] = 'Toe te wijzen rol';
+$string['roletooverride'] = 'Te overschrijven rol';
 $string['selectrole'] = 'Kies een rol';
 $string['showallroles'] = 'Toon alle rollen';
 $string['site:accessallgroups'] = 'Toegang voor alle groepen';
