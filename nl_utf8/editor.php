@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.5 + (2005060201)
+      // editor.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['about'] = 'Info';
@@ -31,9 +31,10 @@ $string['createlink'] = 'Weblink invoegen';
 $string['cut'] = 'Knippen';
 $string['cutpastemozilla'] = 'Jammer genoeg kun je de normale toetsenbordcombinatie (of zelfs de knop <i>plakken</i>) niet gebruiken om tekst te plakken in deze editor. Dit is het gevolg van een beveiligingsfunctie die ingebouwd is in sommige versies van Mozilla en Firefoxbrowsers.<br /><br />Er zijn drie bekende manieren om dit te omzeilen:<br />(1) Gebruik SHIFT-Insert in de plaats van CTRL-v <br />(2)Gebruik het Bewerken -> Plakken menu in je browser<br />(3) Wijzig de voorkeursinstellingen van je browser door het bestand user.js te wijzigen.<br /><br />Klik op de OK-knop voor meer hulp of op Negeren om naar de editor terug te keren.';
 $string['delete'] = 'Verwijder';
+$string['enterurlfirst'] = 'Je moet eerst een URL ingeven';
 $string['filebrowser'] = 'Bladeren in bestanden';
 $string['findwhat'] = 'Zoek';
-$string['fontname'] = 'Naam lettertype ';
+$string['fontname'] = 'Naam lettertype';
 $string['fontsize'] = 'Grootte lettertype';
 $string['forecolor'] = 'Tekstkleur';
 $string['formatblock'] = 'Opmaak';
@@ -73,6 +74,7 @@ $string['matchcase'] = 'Hoofdlettergevoelig';
 $string['middle'] = 'Midden';
 $string['minimize'] = 'Verklein editor';
 $string['move'] = 'Verplaats';
+$string['mustenterurl'] = 'Je moet de URL ingeven';
 $string['nolink'] = 'Voorkom het linken aan een woordenlijst';
 $string['normal'] = 'Standaard';
 $string['notimage'] = 'Het geselecteerde bestand is geen afbeelding. Kies een afbeelding.';
@@ -85,6 +87,7 @@ $string['paste'] = 'Plakken van klembord';
 $string['path'] = 'Pad';
 $string['percent'] = 'Procent';
 $string['pixels'] = 'Pixels';
+$string['pleaseenteralt'] = 'Zet hier een vervangende tekst';
 $string['popupeditor'] = 'Vergroot editor';
 $string['preformatted'] = 'Vaste opmaak (pre)';
 $string['preview'] = 'Voorbeeld';
@@ -102,7 +105,7 @@ $string['searchandreplace'] = 'Zoek  en vervang';
 $string['searchnotfound'] = 'Niet gevonden!';
 $string['selectcolor'] = 'Kies kleur';
 $string['selection'] = 'Selectie';
-$string['showhelp'] = 'Help ';
+$string['showhelp'] = 'Help';
 $string['size'] = 'Grootte';
 $string['spacing'] = 'Afstanden';
 $string['strikethrough'] = 'Doorhalen';
