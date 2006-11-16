@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7+ (2006101007)
+      // admin.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['accounts'] = 'Comptes';
@@ -58,6 +58,10 @@ $string['configclamdonothing'] = 'Dóna els fitxers per bons';
 $string['configclamfailureonupload'] = 'Si heu configurat el clam per escanejar els fitxers que es pengin, però està configurat incorrectament o no es pot executar per alguna raó desconeguda, com s\'hauria de comportar? Si trieu \"Tracta els fitxers com a virus\", tots els fitxers es mouran a l\'àrea de quarantena, o seran suprimits. Si trieu \"Dóna els fitxers per bons\", els fitxers es mouran al seu directori de destinació com és normal.';
 $string['configcountry'] = 'Si definiu un país aquí, llavors aquest país quedarà seleccionat per defecte en els nous comptes d\'usuari. Si voleu que els usuaris triïn obligatòriament un país, no n\'especifiqueu cap aquí.';
 $string['configcoursesperpage'] = 'Introduïu el nombre de cursos per pàgina per a les llistes de cursos.';
+$string['configcronclionly'] = 'Si habiliteu aquest paràmetre, la seqüència del cron només podrà executar-se des de la línia d\'ordres i no via web. Farà que s\'ignori la contrasenya del cron més avall.';
+$string['configcronremotepassword'] = 'La seqüència cron.php no es podrà executar des d\'una interfície web sense proporcionar aquesta contrasenya en un URL d\'aquesta forma:<pre>
+http://www.exemple.com/admin.cron.php?password=sesamobret
+</pre>Si deixeu la contrasenya en blanc no caldrà utilitzar-ne cap.';
 $string['configdbsessions'] = 'Si habiliteu aquest paràmetre, la base de dades emmagatzemarà la informació de les sessions dels usuaris. Això és especialment útil en llocs amb molts usuaris o en llocs que funcionen en clústers de servidors. Per a la majoria de llocs problema és millor no habilitar-lo i utilitzar el disc del servidor en lloc de la base de dades. Teniu en compte que si canvieu ara aquest paràmetre tancareu les sessions de tots els usuaris (la vostra inclosa).';
 $string['configdebug'] = 'Si activeu aquest paràmetre s\'incrementarà l\'error_reporting del PHP, de manera que es visualitzaran més avisos. Útil només per a desenvolupadors.';
 $string['configdefaultallowedmodules'] = 'En els cursos d\'aquesta categoria, quins mòduls voleu permetre per defecte <b>quan es crea un curs nou</b>?';
@@ -179,6 +183,10 @@ $string['courseoverview'] = 'Resum del curs';
 $string['courserequests'] = 'Sol·licituds de cursos';
 $string['courses'] = 'Cursos';
 $string['coursesperpage'] = 'Cursos per pàgina';
+$string['cronclionly'] = 'Execució del cron només des de la línia d\'ordres';
+$string['cronerrorclionly'] = 'L\'administrador ha inhabilitat l\'accés a aquesta pàgina per Internet.';
+$string['cronerrorpassword'] = 'No heu proporcionat una contrasenya vàlida per a accedir a aquesta pàgina';
+$string['cronremotepassword'] = 'Contrasenya d\'accés remot al cron';
 $string['cronwarning'] = 'La <a href=\"cron.php\">seqüència de manteniment cron.php</a> no s\'ha executat en les darreres 24 hores com a mínim.';
 $string['datarootsecuritywarning'] = 'La configuració d\'aquest lloc podria no ser segura. Cercioreu-vos que el directori de dades ($a) no és accessible directament via web.';
 $string['dbmigrate'] = 'Migració de la base de dades de Moodle';

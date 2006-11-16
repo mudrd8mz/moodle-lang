@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7+ (2006101007)
+      // moodle.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['action'] = 'Acció';
@@ -112,6 +112,7 @@ $string['answer'] = 'Resposta';
 $string['approve'] = 'Aprova';
 $string['areyousuretorestorethis'] = 'Voleu continuar?';
 $string['areyousuretorestorethisinfo'] = 'Més endavant tindreu l\'opció d\'afegir aquesta còpia de seguretat a un curs existent o crear un curs completament nou.';
+$string['asc'] = 'Ascendent';
 $string['assessment'] = 'Avaluació';
 $string['assignadmins'] = 'Assigna administradors';
 $string['assigncreators'] = 'Assigna creadors de cursos';
@@ -357,6 +358,7 @@ $string['deletingcourse'] = 'S\'està suprimint $a';
 $string['deletingexistingcoursedata'] = 'S\'estan suprimint les dades existents del curs';
 $string['deletingolddata'] = 'S\'estan suprimint dades antigues';
 $string['department'] = 'Departament';
+$string['desc'] = 'Descendent';
 $string['description'] = 'Descripció';
 $string['deselectall'] = 'Desselecciona tot';
 $string['detailedless'] = 'Menys detallat';
@@ -663,6 +665,7 @@ $string['helpsummaries'] = 'Sobre aquests resums';
 $string['helptext'] = 'Com escriure text';
 $string['helpwiki'] = 'Com escriure text tipus wiki';
 $string['helpwriting'] = 'Escriviu amb cura';
+$string['hiddenassign'] = 'Assignació oculta';
 $string['hiddensections'] = 'Temes ocults';
 $string['hiddensectionscollapsed'] = 'Els temes ocults es mostren en format reduït';
 $string['hiddensectionsinvisible'] = 'Els temes ocults són completament invisibles';
@@ -1375,6 +1378,7 @@ $string['usernameemailmatch'] = 'El nom d\'usuari i l\'adreça de correu no corr
 $string['usernameexists'] = 'Aquest nom d\'usuari ja existeix, trieu-ne un altre';
 $string['usernamenotfound'] = 'No s\'ha trobat el nom d\'usuari en la base de dades';
 $string['usernotconfirmed'] = 'No s\'ha pogut confirmar $a';
+$string['userpic'] = 'Imatge de l\'usuari';
 $string['userprofilefor'] = 'Perfil d\'usuari per a $a';
 $string['users'] = 'Usuaris';
 $string['usersnew'] = 'Nous usuaris';

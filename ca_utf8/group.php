@@ -1,0 +1,71 @@
+<?PHP // $Id$ 
+      // group.php - created with Moodle 1.8 dev (2006102600)
+
+
+$string['addexistinggroupstogrouping'] = 'Afegeix els grups existents a l\'agrupament';
+$string['addgroupstogrouping'] = 'Afegeix grups a l\'agrupament';
+$string['adduserstogroup'] = 'Afegeix usuaris al grup';
+$string['cancel'] = 'Cancel·la';
+$string['createautomaticgrouping'] = 'Crea agrupament automàtic';
+$string['creategroup'] = 'Crea grup';
+$string['creategrouping'] = 'Crea agrupament';
+$string['creategroupinselectedgrouping'] = 'Crea grup en l\'agrupament seleccionat';
+$string['defaultgroupdescription'] = 'Descripció de grup per defecte';
+$string['defaultgroupingname'] = 'Agrupament';
+$string['defaultgroupname'] = 'Grup';
+$string['defaultgroupprefix'] = 'Grup';
+$string['deletegrouping'] = 'Suprimeix agrupament';
+$string['deleteselectedgroup'] = 'Suprimeix grup seleccionat';
+$string['displaygrouping'] = 'Mostra agrupament';
+$string['distributealphabetically'] = 'Distribueix en grups alfabèticament per cognoms';
+$string['distributeevenly'] = 'Distribueix uniformement els estudiants que restin';
+$string['editgroupingpermissions'] = 'Edita permissos d\'agrupament';
+$string['editgroupingsettings'] = 'Edita paràmetres d\'agrupament';
+$string['editgroupsettings'] = 'Edita paràmetres del grup';
+$string['enrolmentkey'] = 'Clau d\'inscripció';
+$string['group'] = 'Grup';
+$string['groupdescription'] = 'Descripció del grup';
+$string['groupfor'] = 'per al grup';
+$string['groupinfo'] = 'Informació sobre el grup seleccionat';
+$string['groupinfomembers'] = 'Informació sobre els membres seleccionats';
+$string['groupinfopeople'] = 'Informació sobre les persones seleccionades';
+$string['grouping'] = 'Agrupament';
+$string['groupingdescription'] = 'Descripció de l\'agrupament';
+$string['groupingname'] = 'Nom de l\'agrupament';
+$string['groupings'] = 'Agrupaments';
+$string['groupmembers'] = 'Membres del grup';
+$string['groupmemberssee'] = 'Visualitza membres del grup';
+$string['groupmembersselected'] = 'Membres del grup seleccionat';
+$string['groupmode'] = 'Mode de grup';
+$string['groupmodeforce'] = 'Imposa el mode de grup';
+$string['groupmy'] = 'El meu grup';
+$string['groupname'] = 'Nom del grup';
+$string['groupnotamember'] = 'No sou membre d\'aquest grup';
+$string['groups'] = 'Grups';
+$string['groupsinselectedgrouping'] = 'Grups de l\'agrupament seleccionat';
+$string['groupsnone'] = 'Sense grups';
+$string['groupsseparate'] = 'Grups separats';
+$string['groupsvisible'] = 'Grups visibles';
+$string['hidepicture'] = 'Oculta la imatge';
+$string['javascriptrequired'] = 'Aquesta pàgina requereix Javascript';
+$string['membersofselectedgroup'] = 'Membres del grup seleccionat';
+$string['newpicture'] = 'Nova imatge';
+$string['numberofgroups'] = 'Nombre de grups';
+$string['numberofstudents'] = 'Nombre d\'estudiants';
+$string['prefixforgroupnames'] = 'Prefix dels noms dels grups';
+$string['printerfriendly'] = 'Visualització per a imprimir de l\'agrupament';
+$string['removegroupfromselectedgrouping'] = 'Suprimeix grup de l\'agrupament seleccionat';
+$string['removeselectedusers'] = 'Suprimeix els usuaris seleccionats';
+$string['save'] = 'Desa';
+$string['selectnumberineachgroup'] = 'Selecciona nombre d\'estudiants per grup';
+$string['selectnumberofgroups'] = 'Selecciona nombre de grups';
+$string['showusersalreadyingroup'] = 'Mostra usuaris que ja són en un grup de l\'agrupament';
+$string['teachersgroupmark'] = 'El professorat no pot puntuar activitats de grups als quals no pertany';
+$string['teachersgroupview'] = 'El professorat no pot veure activitats de grups als quals no pertany';
+$string['teachersoverride'] = 'El professorat que no formi part de cap grup pot veure i puntuar les activitats de tots els grups (ignora els anteriors)';
+$string['usestudentsonlyfromselectedgroup'] = 'Utilitza només estudiants del grup seleccionat actualment';
+$string['viewallgroupsactivities'] = 'Els estudiants poden veure les activitats de tots els grups però no participar-hi';
+$string['viewallgroupsmembers'] = 'Els estudiants poden veure els membres de tots els grups';
+$string['viewowngroup'] = 'Els estudiants poden veure els membres dels grups als quals pertanyen';
+
+?>
