@@ -178,6 +178,7 @@ $string['configzip'] = 'Zip programının yerini belirtin (Sadece Unix için, is
 $string['confirmation'] = 'Onay';
 $string['confirminstall'] = 'Dil paketini ($a) kurmak üzereseniz, emin misiniz?';
 $string['country'] = 'Varsayılan ülke';
+$string['coursemanager'] = 'Kurs yöneticileri';
 $string['coursemgmt'] = 'Kurs ekle/düzenle';
 $string['courseoverview'] = 'Kursa gözat';
 $string['courserequests'] = 'Kurs İstekleri';
