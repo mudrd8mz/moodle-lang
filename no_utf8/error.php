@@ -1,19 +1,73 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.2 (2004032000)
+      // error.php - created with Moodle 1.6.3 (2006050530)
 
 
-$string['coursegroupunknown'] = 'Klasse til gruppe $a er ikke spesifisert';
+$string['adminprimarynoedit'] = 'Hovedadministratoren kan ikke redigeres av andre';
+$string['cannotcreatelangdir'] = 'Kan ikke opprette mappen \'lang\'.';
+$string['cannotcreatetempdir'] = 'Kan ikke opprette mappen \'temp';
+$string['cannotdownloadcomponents'] = 'Kan ikke laste ned komponentene.';
+$string['cannotdownloadzipfile'] = 'Kan ikke laste ned ZIP-fil.';
+$string['cannotfindcomponent'] = 'Kan ikke finne komponenten.';
+$string['cannotsavemd5file'] = 'Kan ikke lagre md5-fil.';
+$string['cannotsavezipfile'] = 'Kan ikke lagre ZIP-fil.';
+$string['cannotunzipfile'] = 'Kan ikke pakke opp (unzip) filen.';
+$string['cmunknown'] = 'Kan ikke finne denne kursmodulen.';
+$string['componentisuptodate'] = 'Komponenten er ajourført.';
+$string['confirmsesskeybad'] = 'Beklager, sesjonsnøkkelen din kunne ikke aksepteres for utførelse av denne handlingen. Denne sikkerhetssperren forhindrer tilfeldig eller ondsinnet utførelse av viktige funksjoner i ditt navn. Forsikr deg om at du virkelig ønsker å utføre denne funksjonen.';
+$string['coursegroupunknown'] = 'Kurs som korresponderer til gruppe $a er ikke spesifisert';
+$string['downloadedfilecheckfailed'] = 'Sjekk av nedlastet fil feilet.';
+$string['errorcleaningdirectory'] = 'Feil ved tømming av mappe \"$a\"';
+$string['errorcopyingfiles'] = 'Feil under kopiering av filene';
+$string['errorcreatingdirectory'] = 'Feil ved oppretting av mappen \"$a\"';
+$string['errorcreatingfile'] = 'Feil ved oppretting av filen \"$a\".';
 $string['erroronline'] = 'Feil på linje $a';
+$string['errorreadingfile'] = 'Feil under lesning av fil \"$a\"';
+$string['errorunzippingfiles'] = 'Feil ved utpakking av filer';
 $string['fieldrequired'] = '\"$a\" er et obligatorisk felt';
+$string['filenotfound'] = 'Beklager, det var ikke mulig å finne filen';
+$string['forumblockingtoomanyposts'] = 'Du har overskredet grensen for innlegg som er satt for dette forum.';
 $string['groupalready'] = 'Brukeren tilhører allerede gruppen $a';
 $string['groupunknown'] = 'Gruppe $a er ikke tilordnet spesifisert klasse';
+$string['guestnoeditprofile'] = 'En gjest kan ikke editere profilen sin';
+$string['guestnoeditprofileother'] = 'Gjesteprofilen kan ikke editeres';
+$string['invalidcourse'] = 'Ugyldig kurs';
 $string['invalidfieldname'] = '\"$a\" er ikke et gyldig navn';
+$string['invalidfiletype'] = '\"$a\" er ikke en gyldig filtype';
+$string['invalidmd5'] = 'Ugyldig md5';
+$string['invalidxmlfile'] = '\"$a\" er ikke en gyldig XML-fil';
 $string['missingfield'] = 'Feltet \"$a\" mangler';
+$string['missingrequiredfield'] = 'Noen påkrevde felt mangler';
+$string['modulemissingcode'] = 'Modul $a mangler koden som er nødvendig for å utføre denne funksjonen';
 $string['modulerequirementsnotmet'] = 'Modulen \"$a->modulename\" ($a->moduleversion) ble ikke installert. Den krever en nyere versjon av Moodle. (Nå bruker du $a->currentmoodle, du trenger $a->requiremoodle).';
+$string['mustbeteacher'] = 'Du må være lærer for å kunne slå opp denne siden';
+$string['noinstances'] = 'Det er ingen forekomster av $a i dette kurset!';
+$string['nonmeaningfulcontent'] = 'Ikke meningfullt innhold';
+$string['noparticipatorycms'] = 'Beklager, men ingen moduler i kurs du deltar i krever rapport fra deg.';
 $string['notavailable'] = 'Det er ikke tilgjengelig enda';
+$string['onlyadmins'] = 'Kun administratorer kan gjøre det.';
+$string['onlyeditingteachers'] = 'Bare lærere med administratorrettigheter kan gjøre det.';
+$string['onlyeditown'] = 'Du kan bare redigere din egen informasjon';
+$string['pagenotexist'] = 'En uvanlig feil oppsto (forsøkte å nå en side som ikke eksisterer).';
+$string['pleasereport'] = 'Hvis du har tid, vær vennlig å la oss få vite hva du forsøkte å gjøre da feilen oppsto.';
+$string['pluginrequirementsnotmet'] = 'Plugin \"$a->pluginname\" ($a->pluginversion) kunne ikke installeres. Det krever en nyere versjon av Moodle (du bruker nå $a->currentmoodle, og du trenger $a->requiredmoodle).';
+$string['processingstops'] = 'Prosesseringen stopper her. Gjenværende poster blir ignorert.';
+$string['remotedownloadnotallowed'] = 'Nedlasting av komponenter til din tjenermaskin er ikke tillatt (allow_url_fopen er satt til ulovlig). <br /> <br />Du må laste ned
+<a href=\"$a->url\">$a->url</a>-filen manuelt, kopiere den til \"$a->dest\" på tjeneren og pakke den ut der.';
 $string['restricteduser'] = 'Beklager, men din brukerkonto \"$a\" har ikke tilgang til å gjøre det.';
+$string['sendmessage'] = 'Send melding';
+$string['sessionerroruser'] = 'Du har vært inaktiv for lenge. Logg inn på nytt.';
+$string['sessionerroruser2'] = 'En feil på tjenermaskinen som påvirker din innlogging ble oppdaget. Vær vennlig å logge inn igjen eller restart nettleseren din.';
+$string['sessionipnomatch'] = 'Beklager, men IP-nummeret ditt ser ut til å ha forandret seg siden du logget inn. Denne sikkerhetsforanstaltningen skal hindre nettbanditter i å stjele identiteten din mens du er logget inn på denne nettsida. Normale brukere skal normalt ikke se denne meldinga. Be administrator om hjelp.';
+$string['statscatchupmode'] = 'Statistikken er nå i innhentingsmodus. Så langt er $a->daysdone dag(er) prosessert og $a->dayspending gjenstår. Sjekk tilbake snart!';
 $string['unknowncourse'] = 'Ingen klasse med navnet \"$a\"';
+$string['unknownuseraction'] = 'Beklager men jeg forsto ikke denne brukerhandlingen.';
 $string['usernotaddederror'] = 'Bruker \"$a\" ble ikke lagt til - ukjent feil';
 $string['usernotaddedregistered'] = 'Bruker \"$a\" ble ikke lagt til - allerede registrert';
+$string['usernotavailable'] = 'Detaljene til denne brukeren er ikke tilgjengelige for deg.';
+$string['usernotrenamedexists'] = 'Brukernavn ble ikke endret -- dette brukernavnet er allerede i bruk.';
+$string['usernotrenamedmissing'] = 'Brukernavn ble ikke endret -- kunne ikke finne det gamle brukernavnet.';
+$string['wrongdestpath'] = 'Gal resultatmappe';
+$string['wrongsourcebase'] = 'Galt ZIP-filnavn.';
+$string['wrongzipfilename'] = 'Galt ZIP-filnavn.';
 
 ?>
