@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.2 (2004032000)
+      // dialogue.php - created with Moodle 1.6.3 (2006050530)
 
 
 $string['addmynewentries'] = 'Legg til mine nye innlegg';
@@ -9,6 +9,7 @@ $string['allowmultiple'] = 'Tillat mer enn en dialog med samme person';
 $string['allowstudentdialogues'] = 'Tillat dialoger student-til-student';
 $string['close'] = 'Avslutt';
 $string['closed'] = 'Avsluttet';
+$string['closeddialogues'] = 'Lukkede dialoger';
 $string['confirmclosure'] = 'Du holder på å avslutte en dialog med $a. Avsluttede dialoger kan ikke gjenåpnes. Hvis du avslutter denne dialogen kan du se den, men ikke legge noe til den. Om du vil fortsette å kommunisere med denne personen må du starte en ny dialog. Er du sikker på at du vil avslutte denne dialogen?';
 $string['deleteafter'] = 'Slett avsluttede dialoger etter (antall dager)';
 $string['dialogueclosed'] = 'Dialogen er avsluttet';
@@ -27,6 +28,7 @@ $string['everybody'] = 'Alle';
 $string['furtherinformation'] = 'Mer informasjon';
 $string['lastentry'] = 'Siste innlegg';
 $string['maildefault'] = 'Standardvalg for e-post';
+$string['mailnotification'] = 'Varsel pr epost';
 $string['modulename'] = 'Dialog';
 $string['modulenameplural'] = 'Dialoger';
 $string['namehascloseddialogue'] = '$a har avsluttet dialogen';
@@ -35,6 +37,7 @@ $string['newentry'] = 'Nytt innlegg';
 $string['noavailablepeople'] = 'Det er ingen brukere tilgjengelig å ha dialog med.';
 $string['nopersonchosen'] = 'Ingen person valgt';
 $string['nosubject'] = 'Ingen emne skrevet inn';
+$string['notavailable'] = 'Dialoger er ikke tilgjengelig for gjester';
 $string['notextentered'] = 'Ingen tekst skrevet inn';
 $string['notstarted'] = 'Du har ikke startet denne dialogen enda';
 $string['notyetseen'] = 'Ikke lest enda';
@@ -47,6 +50,7 @@ $string['open'] = 'Åpne';
 $string['openadialoguewith'] = 'Start en dialog med';
 $string['opendialogue'] = 'Start dialog';
 $string['opendialogueentries'] = 'Åpne dialoginnlegg';
+$string['opendialogues'] = 'Åpne dialoger';
 $string['pane0'] = 'Start en dialog';
 $string['pane1'] = '$a dialoger venter på svar fra deg';
 $string['pane1one'] = '1 dialog venter på svar fra deg';
