@@ -7,8 +7,7 @@ Es werden folgende Dateiformate unterstützt:<br /></p>
 <ul>
 <p>GIFT ist das umfangreichste Format für den Import von
 Fragen aus einer Textdatei. Es unterstützt
-Multiple-Choice-, Richtig/Falsch-, Kurzantwort-Fragen, Numerische Fragen und
-Zuordnungsfragen sowie die Benutzung von Unterstrichen ( _____
+Multiple-Choice-, Wahr-Falsch- und Kurzantwort-Fragen, Numerische Fragen, Zuordnungsfragen sowie die Benutzung von Unterstrichen ( _____
 )  für das Lückentext-Format. Sie können
 verschiedene Fragetypen in einer Textdatei mischen. Außerdem unterstützt das Format
 Kommentare, Rückmeldungen, Fragentitel und gewichtete Bewertungen. Hier einige
@@ -45,7 +44,7 @@ ANSWER: A<br />
 "help.php?file=formataiken.html&amp;module=quiz">Weitere
 Informationen zum Aiken-Format</a></p>
 </ul>
-<p><b>Fehlendes-Wort-Format</b></p>
+<p><b>Lückentext-Format</b></p>
 <ul>
 <p>Dieses Format unterstützt nur Multiple-Choice-Fragen.
 Jede Antwort wird mit einer Tilde(~) getrennt, der korrekten
@@ -58,14 +57,14 @@ eine bestimmte Weise bleiben wir das unser ganzes
 Leben lang.<br /></pre>
 <p align="right"><a href=
 "help.php?file=formatmissingword.html&amp;module=quiz">Weitere
-Informationen zum Fehlendes-Wort-Format</a></p>
+Informationen zum Lückentext-Format</a></p>
 </ul>
 <p><b>AON</b></p>
 <ul>
-<p>Dieses Format ähnelt dem Fehlendes-Wort-Format,
-außer dass beim Import je vier Kurzantwort-Fragen in
+<p>Dieses Format ähnelt dem Lückentext-Format,
+mit dem Unterschied, dass beim Import je vier Kurzantwort-Fragen in
 Zuordnungsfragen umgewandelt werden.</p>
-<p>Zusätzlich werden beim Import die Antworten von
+<p>Zusätzlich werden beim Import die Antworten innerhalb der
 Multiple-Choice-Fragen zufällig gemischt.</p>
 <p>Dieses Format wurde nach einer Organisation benannt, die die
 Entwicklung von vielen Fragemöglichkeiten finanziell
@@ -73,26 +72,25 @@ unterstützt hat.</p>
 </ul>
 <p><b>Blackboard</b></p>
 <ul>
-<p>Dieses Modul kann Fragen im Blackboard Export Format
+<p>Dieses Modul kann Fragen im Blackboard-Export-Format
 importieren. Es basiert auf  XML-Funktionen innerhalb von
 PHP.</p>
 <p align="right"><a href=
 "help.php?file=formatblackboard.html&amp;module=quiz">Weitere
 Informationen zum Blackboard-Format</a></p>
 </ul>
-<p><b>Course Test Manager (CTM)</b></p>
+<p><b>Course-Test-Manager (CTM)</b></p>
 <ul>
-<p>Dieses Modul kann Fragen importieren, die in einer Course Test
-Manager Datenbank gespeichert wurden. Es versucht, auf verschiedenen
-Wegen auf die Daten der Fragendatenbank, die sich in einer
-Microsoft Acces Datenbank befinden, zuzugreifen - abhängig
+<p>Dieses Modul kann Fragen importieren, die in einer Course-Test-Manager-Datenbank gespeichert wurden. Es versucht, auf verschiedenen
+Wegen auf die Daten der Fragendatenbank zuzugreifen, die sich in einer
+Microsoft-Access-Datenbank befinden - abhängig
 davon, ob Moodle auf einem Windows- oder Linux-Webserver
 läuft.</p>
 <p>Unter Windows können Sie die Access-Datenbank ganz normal
 wie jedes andere Importformat hochladen.</p>
 <p>Unter Linux müssen Sie einen Windows-Rechner im selben
-Netzwerk wie die Course Text Manager Datenbank und eine Software
-namens ODBC Socket Server installieren, die mit Hilfe von XML die
+Netzwerk wie die Course-Text-Manager-Datenbank und eine Software
+namens "ODBC Socket Server" installieren, die mit Hilfe von XML die
 Daten an das Moodle-System auf dem Linux-Server
 übergibt.</p>
 <p>Bitte lesen Sie die weiteren Informationen zum CTM-Format, bevor
@@ -114,5 +112,4 @@ importiert werden soll.</p>
 Informationen zum Anpassen von Formaten</a></p>
 </ul>
 <p>Weitere Formate sind in Vorbereitung wie z.B. WebCT, IMS QTI
-oder welches Format auch immer von Moodle-Nutzern beigesteuert
-wird.<br /></p>
+oder welches Format auch immer die Moodle-Nutzern beisteuern werden.<br /></p>

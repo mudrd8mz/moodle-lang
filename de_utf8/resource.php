@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6.2+ (2006050521)
+      // resource.php - created with Moodle 1.6.3 (2006050530)
 
 
 $string['addresource'] = 'Arbeitsmaterial hinzufügen';
@@ -80,8 +80,8 @@ $string['notdeployed'] = 'Nicht genutzt';
 $string['note'] = 'Anmerkung';
 $string['notefile'] = 'Um mehr als eine Datei für diesen Kurs hochzuladen (damit diese in der Liste erscheinen), benutzen Sie bitte den <a href=\"$a\">Datei-Manager</a>.';
 $string['notypechosen'] = 'Sie müssen einen Typ auswählen. Verwenden Sie den Zurück-Knopf und probieren Sie es erneut.';
-$string['packagechanged'] = 'Dieses IMS-Contentpaket hat gewechselt';
-$string['packagenotdeplyed'] = 'Dieses IMS-Contentpaket wird nicht verwendet';
+$string['packagechanged'] = 'Dieses IMS-Content-Paket hat gewechselt';
+$string['packagenotdeplyed'] = 'Dieses IMS-Content-Paket wird nicht verwendet';
 $string['pagedisplay'] = 'Arbeitsmaterial im aktuellen Fenster anzeigen';
 $string['pagewindow'] = 'Gleiches Fenster';
 $string['pan'] = 'Pan';
@@ -104,13 +104,13 @@ $string['resourcetype6'] = 'HTML-Text';
 $string['resourcetype7'] = 'Programm';
 $string['resourcetype8'] = 'Wiki-Text';
 $string['resourcetype9'] = 'Verzeichnis';
-$string['resourcetypedirectory'] = 'Verzeichnis anzeigen';
-$string['resourcetypefile'] = 'Link auf eine Datei oder Webseite';
-$string['resourcetypehtml'] = 'Textseite erstellen (mit Editor)';
-$string['resourcetypeims'] = 'IMS-Contentpaket verwenden';
-$string['resourcetypelabel'] = 'Überschrift/Text  einfügen';
-$string['resourcetyperepository'] = 'Link auf ein Bibliotheksobjekt';
-$string['resourcetypetext'] = 'Textseite erstellen (ohne Editor)';
+$string['resourcetypedirectory'] = 'Link auf Verzeichnis';
+$string['resourcetypefile'] = 'Link auf Datei oder Webseite';
+$string['resourcetypehtml'] = 'Textseite (mit Editor)';
+$string['resourcetypeims'] = 'IMS-Content-Paket';
+$string['resourcetypelabel'] = 'Text oder Überschrift';
+$string['resourcetyperepository'] = 'Link auf Bibliotheksobjekt';
+$string['resourcetypetext'] = 'Textseite (ohne Editor)';
 $string['searchweb'] = 'Webseite suchen';
 $string['serverurl'] = 'Server-URL ($a->wwwroot)';
 $string['showcourseblocks'] = 'Kursblöcke anzeigen';
@@ -118,7 +118,7 @@ $string['skipsubmenus'] = 'Untermenü-Seiten überspringen';
 $string['tableofcontents'] = 'Inhaltsverzeichnis';
 $string['upbutton'] = 'Aufwärts';
 $string['variablename'] = 'Name der Variablen';
-$string['viewims'] = 'IMS -Contentpaket anzeigen';
+$string['viewims'] = 'IMS-Content-Paket anzeigen';
 $string['vol'] = 'Vol';
 $string['warningblockingdelete'] = 'Warnung: Das Löschen ist nicht möglich, da noch eine  Ressource vorhanden ist. Überarbeiten Sie zunächst diese Ressourcen oder fragen Sie die Administration, ob sie diese Sicherheitseinstellung in den Einstellungen für die Arbeitsmaterialien deaktiviert.';
 $string['warningdisabledrename'] = 'Warnung: Die automatische Umbenennung der Verlinkungen in den Arbeitsmaterialien ist deaktiviert. Aktualisieren Sie die betroffenen Arbeitsmaterialien einzeln oder fragen Sie die Administration, ob sie die generellen Einstellungen ändert.';

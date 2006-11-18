@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 beta (2006101000)
+      // forum.php - created with Moodle 1.6.3 (2006050530)
 
 
 $string['addanewdiscussion'] = 'Ein neues Diskussionsthema hinzufügen';
@@ -105,7 +105,7 @@ $string['introsocial'] = 'Ein offenes Forum ohne Themeneinschränkung';
 $string['introteacher'] = 'Ein Forum ausschließlich für Anmerkungen und Diskussionen der Trainer/innen';
 $string['lastpost'] = 'Letzter Beitrag';
 $string['learningforums'] = 'Lernforen';
-$string['mailnow'] = 'Beiträge jetzt per E-Mail versenden';
+$string['mailnow'] = 'Sofort per E-Mail versenden';
 $string['markalldread'] = 'Alle Beiträge dieser Diskussion als gelesen markieren.';
 $string['markallread'] = 'Alle Beiträge in diesem Forum als gelesen markieren.';
 $string['markread'] = 'Als gelesen markieren';
