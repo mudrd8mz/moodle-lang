@@ -126,7 +126,7 @@ web-user des Servers haben. (üblicherweise \'nobody\' or \'apache\'), aber es s
 $string['dirroot'] = 'Moodle-Verzeichnis';
 $string['dirrooterror'] = 'Die Einstellungen für das Moodle-Verzeichnis sind nicht korrekt.  Es wurde keine Moodle-Installation gefunden. Die anderen Werte wurden gelöscht.';
 $string['download'] = 'Herunterladen';
-$string['downloadlanguagebutton'] = 'Download des \"$a\" Sprachpakets';
+$string['downloadlanguagebutton'] = 'Download des $a Sprachpakets';
 $string['downloadlanguagehead'] = 'Download der Sprachpakete';
 $string['downloadlanguagenotneeded'] = 'Sie können die Installation mit dem Sprachpaket \"$a\" fortsetzen.';
 $string['downloadlanguagesub'] = 'Sie haben nun die Möglichkeit, ein Sprachpaket herunterzuladen und den Installationsprozess mit dieser Sprache fortzusetzen. <br /><br /> Falls sie keinen Download durchführen können, wird die Installation auf Englisch fortgeführt. (Wenn die Installation abgeschlossen ist, haben Sie die Option weitere Sprachpakete herunterzuladen.)';
