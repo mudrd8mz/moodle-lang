@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 dev (2006050501)
+      // forum.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['addanewdiscussion'] = 'Magdagdag ng bagong paksang pag-uusapan';
@@ -23,7 +23,7 @@ $string['cannotviewpostyet'] = 'Hindi mo pa mababasa ang mga tanong ng ibang mag
 $string['configcleanreadtime'] = 'Oras sa isang araw para malinis ang mga lumang ipinaskil mula sa \'read\' na teybol.';
 $string['configdisplaymode'] = 'Ang default na moda ng displey para sa usapan kung walang itinakda.';
 $string['configenablerssfeeds'] = 'Bubuhayin ng swits na ito ang posibilidad ng RSS feed para sa lahat ng talakayan.  Kakailanganin mo pa ring buhayin ang feed ng mano-mano sa mga kaayusan ng bawat talakayan.';
-$string['configlongpost'] = 'Ang anumang ipinaskil na lampas sa habang ito (dikasama ang HTML) ay itinuturing na mahaba. Ang mga ipinaskil na idinispley sa harapang pahina ng site, pahinang pangkurso na nasa panlipunang anyo, o mga pagkakakilanlan ng tagagamit ay pinaikli sa isang natural na pútol sa pagitan ng forum_shortpost at forum_longpost na mga halaga. 	';
+$string['configlongpost'] = 'Ang anumang ipinaskil na lampas sa habang ito (dikasama ang HTML) ay itinuturing na mahaba. Ang mga ipinaskil na idinispley sa harapang pahina ng site, pahinang pangkurso na nasa panlipunang anyo, o mga pagkakakilanlan ng tagagamit ay pinaikli sa isang natural na pútol sa pagitan ng forum_shortpost at forum_longpost na mga halaga.';
 $string['configmanydiscussions'] = 'Maksimum na bilang ng usapan na ipapakita sa isang talakayan bawat pahina';
 $string['configmaxbytes'] = 'Default na maksimum na laki para sa lahat ng kalakip sa talakayan sa site (alinsunod sa limitasyon sa kurso at iba pang lokal na kaayusan)';
 $string['configoldpostdays'] = 'Bilang ng araw na lumipas para ituring na nabasa na ang alinmang ipinaskil';
@@ -59,7 +59,7 @@ $string['displayperiod'] = 'Ipakita ang Panahon';
 $string['displaystart'] = 'Ipakita ang simula';
 $string['eachuserforum'] = 'Ang bawat tao ay magpapaskil ng isang panimulang pag-uusapan';
 $string['edit'] = 'Iedit';
-$string['editedby'] = 'Inedit ni $a->name - $a->date';
+$string['editedby'] = 'Inedit ni $a->name - orihinal na ipinasa $a->date';
 $string['editing'] = 'Nag-eedit';
 $string['emptymessage'] = 'Nagkaproblema ang ipinaskil mo.  Marahil ay naiwan mo itong blangko, o ang kalakip ay masyadong malaki.   HINDI naisilid ang mga pagbabago mo.';
 $string['everyonecanchoose'] = 'Lahat ay maaaring sumali';
@@ -103,7 +103,7 @@ $string['modethreaded'] = 'Ipakita ang mga tugon sa anyong nakathread';
 $string['modulename'] = 'Talakayan';
 $string['modulenameplural'] = 'Mga Talakayan';
 $string['more'] = 'marami pa';
-$string['movethisdiscussionto'] = 'Ilipat ang usapang ito sa ... ';
+$string['movethisdiscussionto'] = 'Ilipat ang usapang ito sa ...';
 $string['namenews'] = 'Balita';
 $string['namesocial'] = 'Tambayan';
 $string['nameteacher'] = 'Talakayan ng guro';
@@ -112,10 +112,10 @@ $string['nodiscussions'] = 'Wala pang pag-uusapang paksa sa talakayang ito';
 $string['noguestpost'] = 'Paumanhin, pero hindi pinapahintulutang magpaskil ang mga bisita.';
 $string['noguestsubscribe'] = 'Paumanhin, nguni\'t ang mga bisita ay hindi pinapahintulutang sumali upang makatanggap ng ipinaskil sa talakayan sa pamamagitan ng email.';
 $string['noguesttracking'] = 'Paumanhin, nguni\'t hindi pinapahintulutan ang bisita na magtakda ng mga opsiyon sa pagsubaybay.';
-$string['nomorepostscontaining'] = 'Wala nang matagpuang ipinaskil na naglalaman ng \'$a\' ';
+$string['nomorepostscontaining'] = 'Wala nang matagpuang ipinaskil na naglalaman ng \'$a\'';
 $string['nonews'] = 'Wala pang balita na ipinapaskil';
 $string['noposts'] = 'Walang ipinaskil';
-$string['nopostscontaining'] = 'Walang natagpuang ipinaskil na naglalaman ng \'$a\' ';
+$string['nopostscontaining'] = 'Walang natagpuang ipinaskil na naglalaman ng \'$a\'';
 $string['noquestions'] = 'Wala pang tanong sa talakayang ito';
 $string['nosubscribers'] = 'Wala pang kasali sa talakayang ito';
 $string['nothingnew'] = 'Walang bago para sa $a';
@@ -175,7 +175,7 @@ $string['repliesmany'] = '$a tugon sa kasalukuyan';
 $string['repliesone'] = '$a tugon sa kasalukuyan';
 $string['reply'] = 'Tumugon';
 $string['replyforum'] = 'Tumugon sa talakayan';
-$string['resetforums'] = 'Tanggalin ang lahat ng ipinaskil sa mga ganitong uri ng talakayan ';
+$string['resetforums'] = 'Tanggalin ang lahat ng ipinaskil sa mga ganitong uri ng talakayan';
 $string['rsssubscriberssdiscussions'] = 'Ipakita ang RSS feed para sa  \'$a\' usapan';
 $string['rsssubscriberssposts'] = 'Ipakita ang RSS feed para sa \'$a\' ipinaskil';
 $string['search'] = 'Hanapin';
@@ -209,7 +209,7 @@ $string['subscribestart'] = 'Padalhan mo ako ng email na kopya ng mga ipinaskil 
 $string['subscribestop'] = 'Huwag mo akong padalhan ng email na kopya ng mga ipinaskil sa talakayang ito';
 $string['subscription'] = 'Sinalihan';
 $string['subscriptions'] = 'Mga sinalihan';
-$string['thisforumisthrottled'] = 'Ang talakayang ito ay may limitasyon sa bilang ng maipapaskil sa talakayan, sa loob ng isang takdang panahon - ito ay kasalukuyang nakatakda sa $a->blockafter pagpapaskil sa loob ng $a->blockperiod 	';
+$string['thisforumisthrottled'] = 'Ang talakayang ito ay may limitasyon sa bilang ng maipapaskil sa talakayan, sa loob ng isang takdang panahon - ito ay kasalukuyang nakatakda sa $a->blockafter pagpapaskil sa loob ng $a->blockperiod';
 $string['timestartenderror'] = 'Ang katapusang petsa na ipapakita ay hindi dapat mas maaga sa umpisang petsa';
 $string['trackforum'] = 'Subaybayan ang mga dipanabasang mensahe';
 $string['tracking'] = 'Subaybayan';

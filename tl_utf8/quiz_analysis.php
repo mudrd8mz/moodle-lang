@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.7 dev (2006050501)
+      // quiz_analysis.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['analysis'] = 'Pagsusuri ng aytem';
+$string['analysisdownload'] = 'Pag-ahon ng pagsusuri';
 $string['analysisoptions'] = 'Mga opsiyon ng pagsusuri';
 $string['analysistitle'] = 'Manghad ng Pagsusuri ng Aytem';
 $string['attemptsall'] = 'lahat ng pagkuha';

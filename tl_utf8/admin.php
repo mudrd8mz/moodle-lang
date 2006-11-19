@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 dev (2006050501)
+      // admin.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['adminseesallevents'] = 'Nakikita ng mga Administrador ang lahat ng okasyon';
@@ -41,6 +41,7 @@ $string['configdenyemailaddresses'] = 'Upang mahadlangan ang mga email adress mu
 $string['configdigestmailtime'] = 'Ang mga taong pinili na padalhan sila ng tinipong sipi ng mga email ay padadalhan nang arawan.  Kinokontrol ng kaayusang ito kung anong oras sa isang araw ipadadala ang sulat (ang susunod na cron na tatakbo pagkatapos ng oras na ito ang magpapadala nito).';
 $string['configdisplayloginfailures'] = 'Magpapakita ito ng impormasyon sa ilang piling tagagamit tungkol sa mga nakaraang bigong lagda.';
 $string['configdocroot'] = 'Itinatakda ang landas patungo sa mga Dokyu ng Moodle.  Maaari mo itong baguhin kung nais mong magkaroon ng sarili mong pasadyang dokumentasyon na online. Magkagayunman, kapag ginawa mo iyan, tiyakin mo na ang mga landas sa iyong dokumentasyon ay sumusunod sa anyo ng http://docs.moodle.org.';
+$string['configdoctonewwindow'] = 'Kapag binuhay mo ito, ang mga link sa Moodle Dokyu ay ipapakita sa isang bagong bintana.';
 $string['configenablecourserequests'] = 'Pahihintulutan nito na humiling ang sinumang tagagamit na   likhain ang isang bagong kurso.';
 $string['configenablerssfeeds'] = 'Nabubuhay sa swits na ito ang RSS feed sa buong site.  Upang makakita ng pagbabago, kailangan mong ring buhayin ang RSS feed sa indibidwal na modyul - pumunta sa mga kaayusan ng Modyul sa loob ng Kaayusang Pang-admin.';
 $string['configenablerssfeedsdisabled'] = 'Hindi ito magagamit dahil ang RSS feed ay pinatay sa kabuuan ng Site.  Para mabuhay ang mga ito, tumungo sa kaayusan ng mga Baryabol sa loob ng Kaayusang Pang-admin.';
@@ -110,8 +111,7 @@ $string['configsessioncookie'] = 'Ginagawang pasadya ng kaayusang ito ang pangal
 $string['configsessioncookiepath'] = 'Kung kailangan mong baguhin ang pook na pinagdadalhan ng Moodle cookie ng mga browser, puwede mong baguhin ang kaayusang ito sa pamamagitan ng pagtakda sa isang subbugsok ng web site mo.  Kung hindi ay okey na ang umiiral na \'/\' .';
 $string['configsessiontimeout'] = 'Kung ang mga taong nakalog sa site na ito ay walang ginagawa sa mahabang panahon (hindi nagkakarga ng pahina), sila ay kusang palalabasin (tatapusin ang sesyon nila).  Itinatakda ng baryabol na ito kung gaano katagal bago sila sipain.';
 $string['configshowblocksonmodpages'] = 'Sinusuportahan ng ilang modyul ng aktibidad ang paggamit ng bloke sa mga pahina nila.  Kapag binuhay mo ito, maaaring maglagay ng mga panggilid na bloke ang mga guro sa mga pahinang iyon, kundi ay hindi ipapakita ng interpeys ang katangiang ito.';
-$string['configshowsiteparticipantslist'] = 'Lahat ng mag-aaral at gurò ng site na ito ay ililista sa listahan ng kalahok sa site.  Sino ang pahihintulutang makakita ng listahang ito ng kalahok sa site?';
-$string['configsitemailcharset'] = 'Lahat ng email na lilikhain ng site mo ay ipadadala na may charset na itinakda rito.  Magkagayunman, maaari itong baguhin ng bawat indibidwal na tagagamit kung pagaganahin ang susunod na kaayusan. ';
+$string['configsitemailcharset'] = 'Lahat ng email na lilikhain ng site mo ay ipadadala na may charset na itinakda rito.  Magkagayunman, maaari itong baguhin ng bawat indibidwal na tagagamit kung pagaganahin ang susunod na kaayusan.';
 $string['configsitepolicy'] = 'Kung may patakaran kang pang-site na dapat makita ng lahat ng tagagamit at sang-ayunan nila bago nila magamit ang site na ito, ilagay ang URL nito dito, kung hindi iwan na itong blangko.  Maaaring tumuro ang URL saanman - ang isang maalwang pook ay ang isang sako sa lagayan ng sako sa site.  hal. http://sitemo/file.php/1/patakaran.html';
 $string['configslasharguments'] = 'Ang mga sako (larawan, inahon atbp.) ay ipinapakita sa pamamagitan ng script na gumagamit ng \'slash na argumento\' (ang ikalawang opsiyon dito).  Ginagawa ng paraang ito na maging madali ang pag-cache ng mga sako sa mga web browser, proxy server atbp.  Kaya lamang, may ilang PHP server na hindi pinapahintulutan ang paraang ito, kaya\'t kung nagkakaproblema kayo sa pagtingin sa mga naahon na mga sako o larawan (hal mga larawan ng mga tagagamit), itakda ang baryabol na ito sa unang opsiyon';
 $string['configsmtphosts'] = 'Ibigay ang buong pangalan ng isa o mahigit pang lokal na SMTP server na dapat gamitin ng Moodle upang makapagpadala ng liham (hal \'liham.a.com\' o \'liham.a.com;liham.b.com\').  Kung pabayaan mo itong blangko, gagamitin ng Moodle ang umiiral na paraang PHP sa pagpapadala ng liham.';
@@ -126,10 +126,10 @@ $string['configtimezone'] = 'Maaari mong itakda ang umiiral na timezone dito.  U
 $string['configunzip'] = 'Isulat ang lokasyon ng unzip program mo (pang-Unix lamang, opsiyonal). Kung itinakda, gagamitin ito sa paglalabas ng laman ng mga zip archive sa server. Kung pabayaan mo itong blangko, gagamitin ng Moodle ang mga internal na routine.';
 $string['configvariables'] = 'Mga Baryabol';
 $string['configwarning'] = 'Mag-ingat sa pagbabago ng mga kaayusang ito - ang dikilalang halaga ay maaaring magdulot ng problema.';
-$string['configzip'] = 'Isulat ang lokasyon ng zip program mo (pang-Unix lamang, opsiyonal).  Kung itinakda, gagamitin ito sa paglikha ng zip archive sa server.  Kung pabayaan mo itong blangko, gagamitin ng Moodle ang mga internal na routine.';
+$string['configzip'] = 'Isulat ang lokasyon ng zip program mo (pang-Unix lamang, opsiyonal).  Kung itinakda, gagamitin ito sa paglikha ng arkibong zip sa server.  Kung pabayaan mo itong blangko, gagamitin ng Moodle ang mga internal na routine.';
 $string['confirmation'] = 'Kumpirmasyon';
 $string['confirminstall'] = 'Iiluluklok mo ang pakete ng wika ($a), ito ba talaga ang gusto mo?';
-$string['cronwarning'] = 'Ang <a href=\"cron.php\">pangmentinang iskrip na cron.php</a> ay hindi pa pinatatakbo sa loob ng 24 na oras. ';
+$string['cronwarning'] = 'Ang <a href=\"cron.php\">pangmentinang iskrip na cron.php</a> ay hindi pa pinatatakbo sa loob ng 24 na oras.';
 $string['dbmigrate'] = 'Pagsasalin ng Datosang Moodle';
 $string['dbmigrateconnecerror'] = 'Hindi makakonekta sa itinakdang datosan.';
 $string['dbmigrateencodingerror'] = 'Ang itinakdang datosan ay may encoding na $a sa halip na UNICODE/UTF8.<br />Magtakda po ng iba.';
@@ -177,6 +177,7 @@ $string['install'] = 'Iluklok ang piniling pakete ng wika';
 $string['installedlangs'] = 'Mga nakaluklok na pakete ng wika';
 $string['invaliduserchangeme'] = 'Nakareserba ang \"changeme\" na bansag -- hindi ka maaaring lumikha ng akawnt sa pamamagitan nito.';
 $string['lang16notify'] = 'Pinapahintulutan ng Moodle 1.6 o mas bago ang pagluluklok at paggawang bago ng mga pakete ng wika nang direkta mula sa download.moodle.org sa pamamagitan ng pagsunod sa link sa ibaba';
+$string['langedit'] = 'Pag-eedit ng wika';
 $string['langimport'] = 'Kagamitan sa pag-angkat ng wika';
 $string['langimportsuccess'] = 'Matagumpay na nagawang bago ang pakete ng wika';
 $string['langpackremoved'] = 'Natanggal na ang pakete ng wika';
@@ -235,7 +236,6 @@ $string['sitemaintenancewarning'] = 'Ang site mo ay kasalukuyang nasa moda na pa
 $string['stickyblocks'] = 'Idinidikit na bloke';
 $string['stickyblockscourseview'] = 'Pangkursong pahina';
 $string['stickyblocksduplicatenotice'] = 'Kapag nagdagdag ka rito ng bloke na nasa isang partikular na pahina na, magreresulta ito sa isang kadoble. <br /> Tanging ang idinikit na bloke ang hindi maieedit, ang kadoble ay maeedit pa rin.';
-$string['stickyblocksmymoodle'] = 'Aking moodle';
 $string['stickyblockspagetype'] = 'Uri ng pahina na isasaayos';
 $string['tabselectedtofront'] = 'Sa mga teybol na may tab, dapat bang ilagay sa unahan ang hilig na may kasalukuyang piniling tag';
 $string['therewereerrors'] = 'May mga error sa datos mo';

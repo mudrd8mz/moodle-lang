@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006060400)
+      // enrol_authorize.php - created with Moodle 1.7 dev (2006060900)
 
 
 $string['adminacceptccs'] = 'Aling uri ng credit card ang tatanggapin?';
@@ -12,6 +12,10 @@ $string['admincronsetup'] = 'Hindi pinatakbo ang pangmentinang iskrip na cron.ph
 <br />Tsekan ang <b>an_review</b> at ipasok ang <b>\'0\' sa an_capture_day</b> na pitak<br />kung nais mong tumanggap/tumanggi sa mga bayad nang <b>mano-mano</b> sa loob ng 30 araw.';
 $string['adminemailexpired'] = 'Ito ay kapakipakinabang para sa \'Mano-manong-Pagcapture\'.
 Patatalastasan ang mga admin b>$a</b> araw bago mapasó ang mga nakabimbing order.';
+$string['adminemailexpiredsort'] = 'Kapag ang bilang ng mapapasong order na nakabimbin ay ipinadala sa mga guro sa pamamagitan ng email, alin ang mahalaga?';
+$string['adminemailexpiredsortcount'] = 'Bilang ng mga order';
+$string['adminemailexpiredsortsum'] = 'Kabuuan ng mga halaga';
+$string['adminemailexpiredteacher'] = 'Kapag binuhay mo ang mano-manong pag-capture (tingnan ang nasa itaas) at maaaring pamahalaan ng mga guro ang bayaran, maaari ring patalastasan ang mga guro ng mga nakabimbing order na mapapasó.  Magpapadala ito ng email sa bawat guro ng kurso hinggil sa kung ilang nakabimbin na order ang mapapasó.';
 $string['adminemailexpsetting'] = '(0=patayin ang pagpapadala ng email, umiiral=2, maks=5)<br />
 (Kaayusan ng mano-manong pag-capture para sa pagpapadala ng email:  cron=buhay, an_review=may tsek, an_capture_day=0, an_emailexpired=1-5)';
 $string['adminhelpcapturetitle'] = 'Araw ng Scheduled-Capture';
@@ -104,7 +108,7 @@ $string['paymentmanagement'] = 'Pamamahala ng Pagbabayad';
 $string['paymentpending'] = 'Nakabimbin ang pagbabayad mo sa kursong ito na may bilang ng order na $a->orderid.  Tingnan ang <a href=\'$a->url\'>Mga Detalye ng Order</a>.';
 $string['pendingordersemail'] = 'Mahal naming admin,
 
-Mapapasó ang $a->pending transaksiyon maliban na lamang kung tanggapin mo ang bayad sa loob ng  $a->days araw.
+Mapapasó ang $a->pending transaksiyon para sa \"$a->course\" maliban na lamang kung tanggapin mo ang bayad sa loob ng  $a->days araw.
 
 Babalang mensahe ito, dahil hindi mo binuhay ang 
 scheduled-capture. Ibig sabihin ay kailangan mong tanggapin o tanggihan ang bayad ng mano-mano.
@@ -114,6 +118,14 @@ $a->url
 
 Para mabuhay ang scheduled-capture, alalaong baga\'y hindi ka na makakatanggap ng mga babalang email, tumungo sa:
 $a->enrolurl';
+$string['pendingordersemailteacher'] = 'Mahal naming guro,
+
+Ang $a->pending transaksiyon na may halagang $a->currency $a->sumcost para sa kursong \"$a->course\" ay mapapasó maliban na lamang kung tanggapin mo ang bayad sa loob ng  $a->days araw.
+
+Kailangan mong tanggapin o tanggihan ang bayad ng mano-mano dahil hindi binuhay ng admin ang scheduled-capture.
+
+$a->url';
+$string['pendingorderssubject'] = 'BABALA:  Ang $a->course, $a->pending order ay mapapasó sa loob ng $a->days araw.';
 $string['reason11'] = 'May kaparehong transaksiyon ang ipinasa.';
 $string['reason13'] = 'Ditanggap ang Login ID ng tagalako o di na aktibo ang akawnt.';
 $string['reason16'] = 'Hindi natagpuan ang transaksiyon.';
@@ -147,6 +159,17 @@ $string['testwarning'] = 'Mukhang gumagana ang Capture/Void/Credit sa modang pag
 $string['transid'] = 'ID ng Transaksiyon';
 $string['unenrolstudent'] = 'Alisin sa pagkakaenrol ang mag-aaral?';
 $string['voidyes'] = 'Kakanselahin ang transaksiyon.  Talaga bang nais mo itong gawin?';
+$string['welcometocoursesemail'] = 'Mahal naming mag-aaral,
+
+Salamat sa inyong bayad.  Nag-enrol ka sa mga kursong ito:
+
+$a->courses
+
+Maaari mong iedit ang pagkakakilanlan mo:
+$a->profileurl
+
+Maaari mong makita ang mga detalye hinggil sa bayarin mo:
+$a->paymenturl';
 $string['youcantdo'] = 'Hindi mo puwedeng gawin ang aksiyong ito:  $a->action';
 
 ?>
