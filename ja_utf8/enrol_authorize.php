@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 dev (2006102600)
+      // enrol_authorize.php - created with Moodle 1.8 dev (2006112000)
 
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
@@ -124,6 +124,11 @@ $string['orderid'] = '注文ID';
 $string['paymentmanagement'] = '支払い管理';
 $string['paymentmethod'] = '支払方法';
 $string['paymentpending'] = 'このコースに関するあなたの支払いは保留中です。注文番号は、 $a->orderid です。詳細は、<a href=\'$a->url\'>注文詳細</a>をご覧ください。';
+$string['pendingecheckemail'] = '現在 $a->count の保留echeckがあります。ユーザを登録するには、CSVファイルをアップロードしてください。
+
+次のリンクをクリックして、ヘルプファイルをご覧ください:
+$a->url';
+$string['pendingechecksubject'] = '$a->course: 保留eCheck($a->count)';
 $string['pendingordersemail'] = '支払いを受領しない場合、トランザクション $a->pending は、$a->days 日で期限が切れます。
 
 あなたがスケジュールキャプチャを有効にしていないため、これは警告メッセージです。手動で支払いを受け付けるか、拒否する必要があります。
