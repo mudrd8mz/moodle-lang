@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6 (2006050506)
+      // hotpot.php - created with Moodle 1.6.3 (2006050530)
 
 
 $string['abandoned'] = 'ยกเลิก';
 $string['addquizchain'] = 'เพิ่มห่วงคำถาม';
 $string['allmycourses'] = 'รายวิชาทั้งหมด';
+$string['allusers'] = 'สมาชิกทั้งหมด';
 $string['alwaysopen'] = 'ตลอดเวลา';
 $string['attemptsall'] = 'คะแนนทุกครั้ง';
 $string['attemptsbest'] = 'คะแนนที่ดีที่สุด';
@@ -21,7 +22,7 @@ $string['copiedtoclipboard'] = 'เนื้อหาในหน้านี้
 $string['copytoclipboard'] = 'ทำสำเนาไว้ในคลิปบอร์ด';
 $string['correct'] = 'ถูกต้อง';
 $string['deleteabandoned'] = 'ลบข้อที่ทำการยกเลิก';
-$string['deleteabandonedcheck'] = 'คุณต้องลบการทำแบบทดสอบที่ถูกยกเลิกทั้งหมด $a ครั้งหรือไม่   ';
+$string['deleteabandonedcheck'] = 'คุณต้องลบการทำแบบทดสอบที่ถูกยกเลิกทั้งหมด $a ครั้งหรือไม่';
 $string['displaycoursenext'] = 'ต่อไปแสดงหน้ารายวิชา';
 $string['displayhotpotnext'] = 'ต่อไปแสดงหน้าคำถาม Hot Potatoes';
 $string['displayindexnext'] = 'ต่อไปแสดงหน้าสารบาญ Hotpot';
@@ -45,13 +46,15 @@ $string['filetype'] = 'ประเภทไฟล์';
 $string['forceplugins'] = 'บังคับการใช้งานปลั๊กอินมีเดีย';
 $string['giveup'] = 'ยกเลิก';
 $string['hints'] = 'คำใบ้';
+$string['hotpotcloses'] = 'ปิดการใช้งานแบบทดสอบ Hot Potatoes';
+$string['hotpotopens'] = 'เปิดการใช้งานแบบทดสอบ Hot Potatoes';
 $string['ignored'] = 'ไม่สนใจ';
 $string['inprogress'] = 'กำลังทำการ';
 $string['location'] = 'ที่ตั้งของไฟล์';
 $string['modulename'] = 'Hot Pot';
 $string['modulenameplural'] = 'HotPot';
 $string['navigation'] = 'Navigation';
-$string['navigation_bar'] = 'แถบ navigaion ';
+$string['navigation_bar'] = 'แถบ navigaion';
 $string['navigation_buttons'] = 'ปุ่มคำถาม hot potatoes';
 $string['navigation_frame'] = 'เฟรม navigation';
 $string['navigation_give_up'] = 'ปุ่ม  \"ยกเลิก\"';

@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.6 (2006050506)
+      // quiz_analysis.php - created with Moodle 1.6.3 (2006050530)
 
 
 $string['analysis'] = 'การวิเคราะห์ข้อสอบ';
+$string['analysisdownload'] = 'วิเคราะห์การดาวน์โหลด';
 $string['analysisoptions'] = 'ตัวเลือกการวิเคราะห์';
 $string['analysistitle'] = 'ตารางวิเคราะห์ข้อสอบ';
 $string['attemptsall'] = 'ทุกครั้ง';
@@ -17,7 +18,7 @@ $string['facilitytitle'] = '%% ที่ถูกต้อง';
 $string['lowmarkslimit'] = 'ไม่ต้องวิเคราะห์คะแนนที่น้อยกว่า';
 $string['pagesize'] = 'คำถามต่อหน้า';
 $string['qcounttitle'] = 'จำนวนคำถาม';
-$string['qidtitle'] = 'ข้อที่ ';
+$string['qidtitle'] = 'ข้อที่';
 $string['qnametitle'] = 'ชื่อคำถาม';
 $string['qtexttitle'] = 'โจทย์';
 $string['qtypetitle'] = 'ประเภทคำถาม';
@@ -27,6 +28,6 @@ $string['reportanalysis'] = 'รายงานการวิเคราะห
 $string['responsestitle'] = 'คำตอบ';
 $string['rfractiontitle'] = 'เครดิตครึ่งเดียว';
 $string['rpercenttitle'] = 'R.%%';
-$string['stddevtitle'] = ' SD ';
+$string['stddevtitle'] = 'SD';
 
 ?>

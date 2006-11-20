@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6 (2006050506)
+      // grades.php - created with Moodle 1.6.3 (2006050530)
 
 
 $string['addcategory'] = 'เพิ่มประเภท';
@@ -76,18 +76,21 @@ $string['nolettergrade'] = 'ไม่มีคะแนนสำหรับ';
 $string['nomode'] = 'NA';
 $string['nonnumericweight'] = 'ได้รับค่าที่ไม่เป็นตัวเลขสำหรับ';
 $string['nonweightedpct'] = 'ไม่มีน้ำหนัก%%';
-$string['pctoftotalgrade'] = ' %%  จากคะแนนทั้งหมด';
+$string['notteachererror'] = 'ท่านต้องเป็นอาจารยถึงจะใช้งานฟังก์ชันนี้ได้';
+$string['pctoftotalgrade'] = '%%  จากคะแนนทั้งหมด';
 $string['percent'] = 'เปอร์เซ็นต์';
-$string['percentshort'] = ' %% ';
+$string['percentascending'] = 'เรียงตามเปอร์เซ็นต์จากมากไปน้อย';
+$string['percentdescending'] = 'เรียงตามเปอร์เซ็นต์จากน้อยไปมาก';
+$string['percentshort'] = '%%';
 $string['points'] = 'คะแนน';
 $string['pointsascending'] = 'เรียงตามคะแนนจากมากไปน้อย';
 $string['pointsdescending'] = 'เรียงตามคะแนนจากน้อยไปมาก';
 $string['preferences'] = 'ค่าที่ต้องการ';
-$string['rawpct'] = 'คะแนนดิบ %% ';
+$string['rawpct'] = 'คะแนนดิบ %%';
 $string['reprintheaders'] = 'พิมพ์หัวข้อประเภทซ้ำทุกกี่แถว';
 $string['savechanges'] = 'บันทึกการเปลี่ยนแปลง';
 $string['savepreferences'] = 'บันทึกค่าที่ต้องการ';
-$string['scaledpct'] = 'สเกล  %% ';
+$string['scaledpct'] = 'สเกล  %%';
 $string['setcategories'] = 'กำหนดประเภท';
 $string['setcategorieserror'] = 'คุณต้องกำหนดประเภทสำหรับรายวิชาก่อนที่จะให้น้ำหนักได้';
 $string['setgradeletters'] = 'กำหนดตัวอักษร';
