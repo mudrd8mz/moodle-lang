@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 1.8 dev (2006102600)
+      // feedback.php - created with Moodle 1.8 dev (2006112000)
 
 
 $string['add_item'] = '質問を追加する';
@@ -58,7 +58,7 @@ $string['line_values'] = '評定';
 $string['mapcourse'] = 'コースにマップする';
 $string['mapcourseinfo'] = 'このフィードバックは、フィードバックブロックを使用してサイト全体で利用可能です。フィードバックをコースにマップすることにより、このフィードバックを利用できるコースを制限することができます。コースを検索して、このフィードバックをマップしてください。';
 $string['mapcoursenone'] = 'マップされたコースはありません。このフィードバックは、すべてのコースで利用できます。';
-$string['mapcourses'] = 'コースにフィードバックをマップする';
+$string['mapcourses'] = 'フィードバックをコースにマップする';
 $string['mappedcourses'] = 'マップ済みコース';
 $string['max_args_exceeded'] = '最大6つの引数を処理することができます。引数が多すぎます:';
 $string['modulename'] = 'フィードバック';
@@ -101,6 +101,7 @@ $string['save_entries'] = 'あなたの回答を送信する';
 $string['save_item'] = '質問を保存する';
 $string['saving_failed'] = '保存に失敗しました。';
 $string['saving_failed_because_missing_items'] = '<strong>すべての</strong>必須回答の質問に回答してください (赤い＊の質問)。';
+$string['search_course'] = 'コースを検索する';
 $string['selected_dump'] = '選択された $SESSION 変数のインデックスは下記にダンプされます:';
 $string['separator_decimal'] = '.';
 $string['separator_thousand'] = ',';
