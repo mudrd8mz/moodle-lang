@@ -29,7 +29,7 @@ Vous avez reçu une nouvelle commande en attente :
     Cours : $a->course
     Montant : $a->amount
 
-    SAISE PROGRAMÉE ACTIVE ? $a->acstatus
+    SAISIE PROGRAMMÉE ACTIVE ? $a->acstatus
 
 Si la saisie programmée est activée, il est prévu que les infos de carte de
 crédit seront saisies le $a->captureon et que l\'étudiant sera inscrit au
@@ -126,6 +126,13 @@ $string['orderid'] = 'No de commande';
 $string['paymentmanagement'] = 'Gestion des paiements';
 $string['paymentmethod'] = 'Méthode de paiement';
 $string['paymentpending'] = 'Votre paiement pour ce cours est en attente de traitement. Son numéro de commande est $a->orderid. Voir les <a href=\'$a->url\'>détails de la commande</a>.';
+$string['pendingecheckemail'] = 'Cher administrateur,
+
+Il y a actuellement $a->count eChecks en attente. Vous devez déposer un fichier CSV afin d\'inscrire les étudiants.
+
+Veuillez cliquer sur le lien ci-dessous et lire le fichier d\'aide sur la page affichée :
+$a->url';
+$string['pendingechecksubject'] = '$a->course : eChecks en attente ($a->count)';
 $string['pendingordersemail'] = 'Cher administrateur,
   	 
 $a->pending transactions pour le cours $a->course arriveront à échéance
