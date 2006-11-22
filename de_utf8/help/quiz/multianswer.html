@@ -1,39 +1,37 @@
 <p align="center"><b>Lückentext (Cloze)</b></p>
-<p>Dieser sehr flexible Fragentyp ist identisch mit einem beliebten
+<p>Dieser sehr vielseitige Fragentyp ähnelt einem beliebten
 Format, das als Cloze-Format bekannt ist. </p>
-<p>Die Fragen bestehen aus einer Textpassage (im Moodle-Format), in der
-verschiedene Antworten verschiedenster Fragetypen (Multiple-Choice-Fragen,
-numerische Antworten und Fragen mit kurzen Antworten) eingebaut
-sind.
+<p>Die Fragen bestehen aus einer Textpassage (im Moodle-Format), die
+verschiedene Antworten verschiedener Fragetypen (Multiple-Choice-Fragen,
+numerische Antworten und Fragen mit kurzen Antworten) enthalten kann.
 </p>
-<p>Es gibt zur Zeit keine graphische Oberfläche, um diese Fragen
+<p>Es gibt zur Zeit keine grafische Oberfläche, um diese Fragen
 zu erstellen, Sie müssen den Fragentyp mit Hilfe des Textfeldes
 erstellen oder Sie importieren Fragen aus externen Dateien. </p>
-<p>Hier ist ein Beispiel eines Eingabetextes, der solch eine Frage
-spezifiziert:
+<p>Hier ist ein Beispiel eines Eingabetextes für eine solche Frage:
 </p>
 <form action="">
   <center><textarea rows="15" cols="60" wrap="virtual">Dieser
 Fragentext enth&auml;lt eine Antwort genau hier {1:MULTICHOICE:Falsche
 Antwort#Feedback f&uuml;r diese falsche Antwort~Eine weitere falsche
 Antwort#Feedback f&uuml;r diese andere falsche Antwort~=Richtige
-Antwort#Feedback f&uuml;r richtige Antwort~%50%halbrichtige
-Antwort#Feedbach f&uuml;r halbrichtige Antwort} und direkt danach
+Antwort#Feedback f&uuml;r richtige Antwort~%50% halbrichtige
+Antwort#Feedback f&uuml;r halbrichtige Antwort} und direkt danach
 m&uuml;ssen Sie mit dieser Frage mit kurzer Antwort umgehen
 {1:SHORTANSWER:Falsche Antwort#Feedback für diese falsche
 Antwort~=Richtige Antwort#Feedback für richtige
-Antwort~%50%halbrichtige Antwort#Feedback f&uuml;r halbrichtige
+Antwort~%50% halbrichtige Antwort#Feedback f&uuml;r halbrichtige
 Antwort} und zum Schlu&szlig; eine Dezimalzahl
 {2:NUMERICAL:=23.8:0.1#Feedback f&uuml;r richtige Antwort
 23.8~%50%23.8:2#Feedback f&uuml;r halbrichtige Antwort in der N&auml;he
 der richtigen Antwort}. Beachten Sie, dass Adressen wie www.moodle.org
-und smileys :-) gewohnt funktionieren: a) Wie gut ist es?
+und Smileys :-) wie gewohnt funktionieren: a) Ist das gut?
 {:MULTICHOICE:=Ja#Richtig~Nein#Wir
 haben eine unterschiedliche Meinung}
 b) Welche Bewertung w&uuml;rden Sie abgeben? {3:NUMERICAL:=3:2}
 Viel Gl&uuml;ck! </textarea></center>
 </form>
-<p>Dieses Beispiel wird f&uuml;r Teilnehmer/Innen so aussehen: <br />
+<p>Dieses Beispiel wird f&uuml;r Teilnehmer/innen so aussehen: <br />
 </p>
 <form action="">
   <table align="center" width="90%" class="generalbox" border="0"
@@ -66,16 +64,16 @@ Schlu&szlig; eine Dezimalzahl <input name="q4ma3" value="" type="text"
 .<br />
               <br />
 Beachten Sie, dass Adressen wie <a href="http://www.moodle.org"
- target="newpage">www.moodle.org</a> und smileys <img alt=":-)"
- width="15" height="15" src="smiley.gif" /> gewohnt funktionieren:<br />
-a) Wie gut ist es?
+ target="newpage">www.moodle.org</a> und Smileys <img alt=":-)"
+ width="15" height="15" src="smiley.gif" /> wie gewohnt funktionieren:<br />
+a) Ist das gut?
               <select name="q4ma4">
               <option>  </option>
               <option value="13">Ja</option>
               <option value="14">Nein</option>
               </select>
               <br />
-b) Welche Bewertung w&uuml;rde Sie abgeben ? <input name="q4ma5"
+b) Welche Bewertung w&uuml;rden Sie abgeben ? <input name="q4ma5"
  value="" type="text" size="8"> <br />
               <br />
 Viel Gl&uuml;ck!</p>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.7 beta (2006101000)
+      // install.php - created with Moodle 1.6.3 (2006050530)
 
 
 $string['admindirerror'] = 'Das angegebene Admin-Verzeichnis ist falsch.';
@@ -171,7 +171,7 @@ $string['memorylimithelp'] = '<p>Die PHP-Einstellung memory_limit für Ihren Ser
 <p>Wir empfehlen die Einstellung zu erhöhen. Empfohlen werden 16M oder mehr. Dies können Sie auf verschiedene Arten machen:</p>
 <ol>
 <li>Wenn Sie PHP neu kompilieren können, nehmen Sie die Einstellung <i>--enable-memory-limit</i>. Dann kann Moodle die Einstellung selber vornehmen.
-<li>Wenn Sie Zugriff auf die Datei php.ini haben, können Sie die Einstellung <b>memory_limit</b> selber auf z.B. 16M anpassen. Wenn Sie selber keinen Zugriff haben, fragen Sie den/die Administrator/in, dies für Sie zu tun.
+<li>Wenn Sie Zugriff auf die Datei php.ini haben, können Sie die Einstellung <b>memory_limit</b> selber auf z.B. 16M anpassen. Wenn Sie selber keinen Zugriff haben, fragen Sie den Server-Admin, dies für Sie zu tun.
 <li>Auf einigen PHP-Servern können Sie eine .htaccess-Datei im Moodle-Verzeichnis einrichten. Tragen Sie darin die folgende Zeile ein: <p><blockquote>php_value memory_limit 16M</blockquote></p>
 <p>Achtung: auf einigen Servern hindert diese Einstellung <b>alle</b> PHP-Seiten und Sie erhalten Fehlermeldungen. Entfernen Sie dann den Eintrag in der .htaccess-Datei wieder.</p></li>
 </ol>';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6.2+ (2006050521)
+      // auth.php - created with Moodle 1.6.3 (2006050530)
 
 
 $string['alternatelogin'] = 'Wenn Sie hier eine URL eingeben, wird diese als alternative Login-Seite  verwandt. Die Seite sollte ein Aktionsfeld (Button)auf <strong>\'$a\'</strong> enthalten und Eingabefelder für den <strong>Anmeldenamen</strong> und das <strong>Passwort</strong>.<br />Seien Sie sorgfältig bei der Eingabe der URL. Mit einer falschen URL schließen Sie sich selber vom Zugriff zur Seite aus.<br />Lassen Sie das Feld leer, um die Standardanmeldeseite zu verwenden.';
@@ -48,7 +48,7 @@ $string['auth_fcuserid'] = 'Nutzer-ID auf dem Referenz-Server mit der bevorzugte
 $string['auth_fieldlock'] = 'Sperrwert';
 $string['auth_fieldlock_expl'] = '<p><b>Sperrwert:</b> Wenn Sie die Funktion aktivieren, verhindert Moodle die Bearbeitung des Feldes durch Nutzer und Admins. Dies ist sinnvoll, wenn die Daten in einer externen Datenbank gepflegt werden. </p>';
 $string['auth_fieldlocks'] = 'Nutzerdatenfelder sperren';
-$string['auth_fieldlocks_help'] = '<p>Sie könenn Datenfelder der Nutzer sperren. Dies ist u.U. sinnvoll wenn die Nutzerdaten von der Administration gepflegt werden, manuell angelegt oder im Bulkupload (Hochladen über Textdatei) hochgeladen werden. Wenn Sie Felder sperren, die von Moodle benötigt werden, müssen Sie sicher stellen, dass diese beim Anlegen der Nutzerzugänge unbrauchbar(?) sind.</p><p>Achten Sie darauf, dass die Einstellung auf \"Bearbeitbar wenn Feld leer\" gesetzt ist, um Probleme zu vermeiden.</p>';
+$string['auth_fieldlocks_help'] = '<p>Sie können Datenfelder der Nutzer sperren. Dies ist u.U. sinnvoll wenn die Nutzerdaten von der Administration gepflegt werden, manuell angelegt oder im Bulkupload (Hochladen über Textdatei) hochgeladen werden. Wenn Sie Felder sperren, die von Moodle benötigt werden, müssen Sie sicher stellen, dass diese beim Anlegen der Nutzerzugänge unbrauchbar(?) sind.</p><p>Achten Sie darauf, dass die Einstellung auf \"Bearbeitbar wenn Feld leer\" gesetzt ist, um Probleme zu vermeiden.</p>';
 $string['auth_imapdescription'] = 'Diese Methode verwendet einen IMAP-Server, um zu prüfen, ob der angegebener Nutzername und das Passwort gültig sind.';
 $string['auth_imaphost'] = 'IMAP Server-Adresse. Benutzen Sie die IP, nicht den DNS-Namen';
 $string['auth_imapport'] = 'IMAP Serverport-Nummer. Normalerweise ist das 143 oder 993.';
@@ -89,7 +89,7 @@ $string['auth_nntpdescription'] = 'Diese Methode verwendet einen NNTP-Server, um
 $string['auth_nntphost'] = 'NNTP Server-Adresse. Benutzen Sie die IP, nicht den DNS-Namen.';
 $string['auth_nntpport'] = 'NNTP Serverport-Nummer. Normalerweise ist das 119.';
 $string['auth_nntptitle'] = 'NNTP-Server';
-$string['auth_nonedescription'] = 'Nutzer können sich anmelden und gültige Nutzer-Accounts erstellen ohne Authentifizierung durch einen externen Server und ohne E-Mail-Bestätigung. Verwenden Sie diese Option vorsichtig, denken Sie an mögliche Sicherheits- und Administrationsprobleme.';
+$string['auth_nonedescription'] = 'Nutzer können sich anmelden und gültige Nutzer-Accounts erstellen, und zwar ohne Authentifizierung durch einen externen Server und ohne E-Mail-Bestätigung. Verwenden Sie diese Option vorsichtig, denken Sie an mögliche Sicherheits- und Administrationsprobleme.';
 $string['auth_nonetitle'] = 'Keine Authentifizierung';
 $string['auth_pamdescription'] = 'Diese Methode verwendet PAM um auf die richtigen Nutzernamen auf dem Server zuzugreifen. Sie müssen hierzu <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Authentication</a> installieren, um das Modul zu nutzen.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';

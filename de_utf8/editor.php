@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6.2+ (2006050521)
+      // editor.php - created with Moodle 1.6.3 (2006050530)
 
 
 $string['about'] = 'Über diesen Editor';
@@ -31,6 +31,7 @@ $string['createlink'] = 'Link einfügen';
 $string['cut'] = 'Auswahl ausschneiden';
 $string['cutpastemozilla'] = 'Leider können Sie mit diesem Editor die gewohnten Tastatur-Shortcuts zum Einfügen von Texten nicht nutzen. Hintergrund ist eine Sicherheitsfunktion in einigen Versionen von Mozilla und Firefox.<br /><br />Sie haben drei Möglichkeiten, die Sie probieren können: <br /> (1) An Stelle von Strg-V verwenden Sie SHIFT-Einfg <br /> (2) Nutzen Sie das Menü mit Bearbeiten -> Einfügen <br /> (3) Verändern Sie die Einstellungen des Browsers in der Datei user.js. <br /><br />Mit dem \"OK\"-Button finden Sie weitere Informationen, mit dem Button \"Abbrechen\" gehen Sie zum Editor zurück.';
 $string['delete'] = 'Löschen';
+$string['enterurlfirst'] = 'Sie müssen zuerst eine URL eingeben';
 $string['filebrowser'] = 'Dateibrowser';
 $string['findwhat'] = 'Finden';
 $string['fontname'] = 'Schriftname';
@@ -73,6 +74,7 @@ $string['matchcase'] = 'Groß-/Kleinschreibung vergleichen';
 $string['middle'] = 'Mitte';
 $string['minimize'] = 'Fenster verkleinern';
 $string['move'] = 'Bewegen';
+$string['mustenterurl'] = 'Sie müssen eine URL eingeben';
 $string['nolink'] = 'Keine automatische Verlinkung';
 $string['normal'] = 'Normal';
 $string['notimage'] = 'Die ausgewählte Datei ist kein Bild. Bitte wählen Sie eine Bilddatei aus.';
@@ -85,6 +87,7 @@ $string['paste'] = 'Einfügen aus der Zwischenablage';
 $string['path'] = 'Pfad';
 $string['percent'] = 'Prozent';
 $string['pixels'] = 'Pixel';
+$string['pleaseenteralt'] = 'Bitte tragen Sie einen alternativen Text ein';
 $string['popupeditor'] = 'Editor vergrößern';
 $string['preformatted'] = 'Vorformatiert';
 $string['preview'] = 'Vorschau';

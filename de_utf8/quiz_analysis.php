@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.6.2+ (2006050521)
+      // quiz_analysis.php - created with Moodle 1.6.3 (2006050530)
 
 
 $string['analysis'] = 'Ergebnisanalyse';
@@ -13,7 +13,7 @@ $string['attemptshighest'] = 'Besten Versuch';
 $string['attemptslast'] = 'Letzten Versuch';
 $string['dicsindextitle'] = 'DI';
 $string['disccoefftitle'] = 'DC';
-$string['downloadooo'] = 'Download im OpenOffice-Format';
+$string['downloadooo'] = 'Download im Open-Office-Format';
 $string['facilitytitle'] = 'Richtig <br />%%';
 $string['lowmarkslimit'] = 'Nicht auswerten, wenn der Wert niedriger ist als:';
 $string['pagesize'] = 'Fragen pro Seite:';

@@ -37,7 +37,7 @@ $string['addresource'] = 'Arbeitsmaterial anlegen...';
 $string['address'] = 'Adresse';
 $string['addstudent'] = 'Teilnehmer/in hinzufügen';
 $string['addteacher'] = 'Trainer/in anlegen';
-$string['admin'] = 'Administration';
+$string['admin'] = 'Admin';
 $string['adminbookmarks'] = 'Administratorlesezeichen';
 $string['adminhelpaddnewuser'] = 'Neuen Nutzerzugang manuell anlegen';
 $string['adminhelpassignadmins'] = 'Administrator/innen haben vollen Zugriff auf die Seite.';
@@ -430,7 +430,7 @@ $string['emailconfirmationsubject'] = '$a: Zugangsbestätigung';
 $string['emailconfirmsent'] = '<p>Um sicherzugehen, dass sich niemand unberechtigt über die von Ihnen angegebene E-Mail anmeldet, wird eine automatische Benachrichtigung an diese Adresse <b>$a</b> gesendet. Je nach Netzlast trifft sie sofort oder auch etwas später bei Ihnen ein.</p> 
 <p>Die Benachrichtigung enthält eine Anleitung, wie Sie Ihre Registrierung bestätigen. 
 Danach sind Sie auf dieser Moodle-Seite registriert und können sofort loslegen.</p>
-<p>Bei Problemen wenden Sie sich bitte an den/die Administrator/in der Seite.</p>';
+<p>Bei Problemen wenden Sie sich bitte an die Administrator/innen der Seite.</p>';
 $string['emaildigest'] = 'Forenbeiträge zusammenfassen';
 $string['emaildigestcomplete'] = 'Ja, täglich eine E-Mail mit den vollständigen Forenbeiträgen senden';
 $string['emaildigestoff'] = 'Nein, Forenbeiträge einzeln als E-Mail senden';
@@ -448,7 +448,7 @@ $string['emailformat'] = 'E-Mail-Format';
 $string['emailmustbereal'] = 'Anmerkung: Geben Sie eine gültige E-Mail-Adresse an. Sie erhalten per E-Mail eine Bestätigung Ihrer Anmeldung.';
 $string['emailnotallowed'] = 'E-Mail-Adressen aus den Domänen $a sind nicht erlaubt.';
 $string['emailnotfound'] = 'Die E-Mail-Adresse wurde nicht in der Datenbank gefunden.';
-$string['emailonlyallowed'] = 'Diese E-Mail-Adresse ($a) kann nicht verwendet werden. Bitte wenden Sie sich bei Fragen an den/die Administrator/in.';
+$string['emailonlyallowed'] = 'Diese E-Mail-Adresse ($a) kann nicht verwendet werden. Bitte wenden Sie sich bei Fragen an die Administrator/innen.';
 $string['emailpasswordconfirmation'] = 'Guten Tag, $a->firstname $a->lastname,
 
 jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihren Zugang auf \'$a->sitename\' angefordert.
@@ -460,7 +460,7 @@ um dies zu bestätigen und ein neues Kennwort zu erhalten, welches Ihnen per E-M
 
 Hinweis: In den meisten E-Mail-Programmen erscheint dieser Link blau, so dass Sie diesen anklicken können. Wenn dies nicht funktioniert, kopieren Sie bitte die komplette Adresse in die obere Zeile des Browser-Fensters.
 
-Bei Problemen wenden Sie sich bitte an den/die Administrator/in $a->admin der Seite.
+Bei Problemen wenden Sie sich bitte an die Administrator/innen $a->admin der Seite.
 
 Viel Erfolg!
 <p>
@@ -741,7 +741,7 @@ $string['login'] = 'Login';
 $string['login_failure_logs'] = 'Login-Fehler Logdaten';
 $string['loginalready'] = 'Sie sind bereits angemeldet.';
 $string['loginas'] = 'Login als';
-$string['loginaspasswordexplain'] = '<p>Sie müssen das spezielle \'Login als\'-Passwort für diese Funktion verwenden. <br />Wenn Ihnen dieses Passwort nicht bekannt ist, wenden Sie sich an den/die Administrator/in Ihrer Moodle-Seite.</p>';
+$string['loginaspasswordexplain'] = '<p>Sie müssen das spezielle \'Login als\'-Passwort für diese Funktion verwenden. <br />Wenn Ihnen dieses Passwort nicht bekannt ist, wenden Sie sich an die Administrator/innen Ihrer Moodle-Seite.</p>';
 $string['loginguest'] = 'Als Gast anmelden';
 $string['loginsite'] = 'Login';
 $string['loginsteps'] = 'Guten Tag!
@@ -797,7 +797,7 @@ $string['memberincourse'] = 'Kursteilnehmer/innen';
 $string['messagebody'] = 'Mitteilungstext';
 $string['messagedselectedusers'] = 'Die ausgewählten Nutzer/innen wurden benachrichtigt, und die Empfängerliste wurde zurückgesetzt.';
 $string['messagedselectedusersfailed'] = 'Beim Versenden der Mitteilung ist ein Problem aufgetreten. Es kann sein, dass einzelne Empfänger/innen die Nachricht erhalten haben.';
-$string['messageselect'] = 'Wählen Sie diese/n Nutzer/in als E-Mail-Empfänger aus.';
+$string['messageselect'] = 'Wählen Sie diese Nutzer/in zum E-Mail-Versand aus.';
 $string['messageselectadd'] = 'Mitteilung hinzufügen/senden';
 $string['metaaddcourse'] = 'Diesen Kurs mit Metakurs verbinden';
 $string['metaalreadycourses'] = 'Kurse wurden bereits mit Metakurs verbunden';
@@ -831,9 +831,9 @@ $string['missingshortsitename'] = 'Kurzbezeichnung der Website fehlt';
 $string['missingsitedescription'] = 'Beschreibung der Website fehlt';
 $string['missingsitename'] = 'Name der Website fehlt';
 $string['missingstrings'] = 'Fehlende Texte suchen';
-$string['missingstudent'] = 'Sie müssen eine Teilnehmerin/einen Teilnehmer auswählen';
+$string['missingstudent'] = 'Sie müssen eine Person auswählen';
 $string['missingsummary'] = 'Zusammenfassung fehlt';
-$string['missingteacher'] = 'Sie müssen eine Trainerin/einen Trainer auswählen';
+$string['missingteacher'] = 'Sie müssen eine Person auswählen';
 $string['missingurl'] = 'URL fehlt';
 $string['missingusername'] = 'Anmeldename fehlt';
 $string['modified'] = 'Geändert';
@@ -893,7 +893,7 @@ $a->link
 
 Hinweis: In den meisten E-Mail-Programmen erscheint dieser Link blau, so dass Sie diesen anklicken können. Wenn dies nicht funktioniert, kopieren Sie bitte die komplette Adresse in die obere Zeile des Browser-Fensters.
 
-Bei Problemen wenden Sie sich bitte an den/die Administrator/in $a->signoff der Seite.
+Bei Problemen wenden Sie sich bitte an die Administrator/innen der Seite.
 
 Viel Erfolg!
 
@@ -919,7 +919,7 @@ ein.
 
 Hinweis: In den meisten E-Mail-Programmen erscheint dieser Link blau, so dass Sie diesen anklicken können. Wenn dies nicht funktioniert, kopieren Sie bitte die komplette Adresse in die obere Zeile des Browser-Fensters.
 
-Bei Problemen wenden Sie sich bitte an den/die Administrator/in $a->signoff der Seite.
+Bei Problemen wenden Sie sich bitte an die Administrator/innen der Seite.
 
 Viel Erfolg!
 
@@ -932,7 +932,7 @@ $string['nochange'] = 'Keine Änderung';
 $string['nocoursesfound'] = 'Keine Kurse mit dem Begriff \'$a\' gefunden';
 $string['nocoursesyet'] = 'Keine Kurse in diesem Kursbereich';
 $string['nodstpresets'] = 'Die Sommerzeitumstellung wurde nicht aktiviert.';
-$string['noexistingadmins'] = 'Keine Administrator/innen vorhanden. Dies ist ein schwerwiegender Fehler - diese Nachricht sollten Sie besser niemals sehen.';
+$string['noexistingadmins'] = 'Es sind keine Administrator/innen vorhanden. Dies ist ein schwerwiegender Fehler - diese Mitteilung sollten Sie besser niemals gesehen haben.';
 $string['noexistingcreators'] = 'Keine Kursverwalter/innen vorhanden';
 $string['noexistingstudents'] = 'Keine Teilnehmer/innen vorhanden';
 $string['noexistingteachers'] = 'Keine Trainer/innen vorhanden';
@@ -968,7 +968,7 @@ $string['notavailable'] = 'Nicht verfügbar';
 $string['noteachersyet'] = 'Dieser Kurs hat noch keine/n Trainer/in.';
 $string['notenrollable'] = 'Derzeit können Sie sich nicht in diesen Kurs einschreiben.';
 $string['notenrolled'] = '$a ist nicht in diesen Kurs eingeschrieben.';
-$string['notenrolledprofile'] = 'Dieses Profil ist nicht verfügbar, weil die Teilnehmerin/der Teilnehmer bisher den Kurs nicht betreten hat.';
+$string['notenrolledprofile'] = 'Dieses Profil ist nicht verfügbar, weil die Person bisher den Kurs nicht betreten hat.';
 $string['noteuserschangednonetocourse'] = 'Hinweis: Teilnehmer/innen müssen bei der Wiederherstellung von Nutzerdaten wiederhergestellt werden. Diese Einstellung wurde für Sie geändert.';
 $string['nothingnew'] = 'Nichts Neues seit Ihrem letzten Login';
 $string['nothingtodisplay'] = 'Nichts anzuzeigen';
@@ -1033,7 +1033,7 @@ $string['paymentinstant'] = 'Klicken Sie auf den Button, um die Teilnahmegebühr
 $string['paymentpending'] = '(<small><b><u>$a</u></b>in Bearbeitung</small>)';
 $string['paymentrequired'] = 'Dieser Kurs ist gebührenpflichtig. Bitte bezahlen Sie die Teilnahmegebühr, um im Kurs eingeschrieben zu werden.';
 $string['payments'] = 'Zahlungen';
-$string['paymentsorry'] = 'Vielen Dank für Ihre Zahlung. Der Zahlvorgang wurde jedoch noch nicht vollständig abgeschlossen. Sie sind noch nicht als Teilnehmer/in im Kurs \"$a->fullname\" eingeschrieben. Bitte versuchen Sie es in einigen Minuten noch einmal. Wenn weiterhin Probleme auftauchen, wenden Sie sich bitte an den/die Trainer/in $a->teacher oder den /die Administrator/in.';
+$string['paymentsorry'] = 'Vielen Dank für Ihre Zahlung. Der Zahlvorgang wurde jedoch noch nicht vollständig abgeschlossen. Sie sind noch nicht als Teilnehmer/in im Kurs \"$a->fullname\" eingeschrieben. Bitte versuchen Sie es in einigen Minuten noch einmal. Wenn weiterhin Probleme auftauchen, wenden Sie sich bitte an die Trainer/innen ($a->teacher) oder die Administrator/innen.';
 $string['paymentthanks'] = 'Vielen Dank für Ihre Zahlung. Sie sind nun im Kurs \"$a\" eingeschrieben.';
 $string['people'] = 'Personen';
 $string['periodending'] = 'Ende des Zeitraums ($a)';
@@ -1252,7 +1252,6 @@ $string['statsreport2'] = 'Zugriffe (Trainer/innen und Teilnehmer/innen)';
 $string['statsreport3'] = 'Beiträge (Trainer/innen und Teilnehmer/innen)';
 $string['statsreport4'] = 'Alle Aktivitäten (Trainer/innen und Teilnehmer/innen)';
 $string['statsreport5'] = 'Alle Aktivitäten der Teilnehmer/innen (Zugriffe und Beiträge)';
-$string['statsreport6'] = 'Alle Aktivitäten der Trainer/innen (Zugriffe und Beiträge)';
 $string['statsreport7'] = 'Aktivitäten der Nutzer/innen (Zugriffe und Beiträge)';
 $string['statsreport8'] = 'Alle Aktivitäten der Nutzer/innen';
 $string['statsreport9'] = 'Logins (Website)';
@@ -1261,8 +1260,6 @@ $string['statsreportactivitybyrole'] = 'Alle Aktivitäten (lesend und schreibend
 $string['statsreportforuser'] = 'für';
 $string['statsreportlogins'] = 'Logins';
 $string['statsreportreads'] = 'Zugriffe (Trainer/innen und Teilnehmer/innen)';
-$string['statsreportstudentactivity'] = 'Alle Aktivitäten der Teilnehmer/innen (Zugriffe und Beiträge)';
-$string['statsreportteacheractivity'] = 'Alle Aktivitäten der Trainer/innen (Zugriffe und Beiträge)';
 $string['statsreporttype'] = 'Berichtsform';
 $string['statsreportwrites'] = 'Beiträge (Trainer/innen und Teilnehmer/innen)';
 $string['statsstudentactivity'] = 'Aktivitäten der Teilnehmer/innen';
@@ -1395,7 +1392,7 @@ $string['uploadthisfile'] = 'Diese Datei hochladen';
 $string['uploadusers'] = 'Nutzer/innen hochladen';
 $string['usedinnplaces'] = 'An $a Stellen verwendet';
 $string['usemessageform'] = 'oder verwenden Sie das untenstehende Formular, um eine Mitteilung an die ausgewählten Teilnehmer/innen zu versenden';
-$string['user'] = 'Nutzer/in';
+$string['user'] = 'Nutzer';
 $string['userconfirmed'] = '$a bestätigt';
 $string['userdata'] = 'Nutzerdaten';
 $string['userdeleted'] = 'Dieser Nutzerzugang wurde gelöscht';
@@ -1410,7 +1407,7 @@ $string['usernotconfirmed'] = '$a konnte nicht bestätigt werden.';
 $string['userprofilefor'] = 'Nutzerprofil von $a';
 $string['users'] = 'Nutzer/innen';
 $string['usersnew'] = 'Neue Nutzer/innen';
-$string['usersnoaccesssince'] = 'Nutzer/innen anzeigen, die nicht mehr aktiv waren seit mehr als';
+$string['usersnoaccesssince'] = 'Nutzer/innen anzeigen, deren Inaktivität länger währt als';
 $string['userzones'] = 'Nutzerzonen';
 $string['usethiscourse'] = 'Diesen Kurs verwenden';
 $string['usingexistingcourse'] = 'Verwende vorhandenen Kurs';
@@ -1422,15 +1419,15 @@ $string['virusfound'] = 'Achtung! Clam-AV hat einen Virus in der Datei von Nutze
 $string['virusfoundlater'] = 'Die Datei mit dem Namen $a->filename, hochgeladen am $a->date im Kurs $a->course, kann einen Virus enthalten. Hier ist eine Information, was mit der Datei passiert ist:<br />
 $a->action
 Falls es sich um eine wichtige Datei handelt, die Ihr/e Trainer/in erhalten sollte, müssen Sie die Datei evtl. erneut hochladen.';
-$string['virusfoundlateradmin'] = 'Achtung Administration! Die Datei mit dem Namen $a->filename, hochgeladen am $a->date im Kurs $a->course von $a->user, kann einen Virus enthalten. Hier ist eine Information, was mit der Datei passiert ist:<br />
+$string['virusfoundlateradmin'] = 'Achtung!! Die Datei mit dem Namen $a->filename, hochgeladen am $a->date im Kurs $a->course von $a->user, kann einen Virus enthalten. Hier ist eine Information, was mit der Datei passiert ist:<br />
 $a->action
-Die/der Nutzer/in wurde ebenfalls benachrichtigt.';
-$string['virusfoundlateradminnolog'] = 'Achtung Administration! Eine Datei mit dem Namen $a->filename kann einen Virus enthalten.
-Moodle konnte nicht zurückverfolgen, welche/r Nutzer/in diese Datei hochgeladen hat. Hier ist eine  Information, was mit der Datei passiert ist:<br />
+Eine Nutzerbenachrichtigung wurde ebenfalls versandt.';
+$string['virusfoundlateradminnolog'] = 'Achtung!! Eine Datei mit dem Namen $a->filename kann einen Virus enthalten.
+Moodle konnte nicht zurückverfolgen, wer diese Datei hochgeladen hat. Hier ist eine  Information, was mit der Datei passiert ist:<br />
 $a->action';
 $string['virusfoundsubject'] = '$a: Virus gefunden!';
 $string['virusfounduser'] = 'Die von Ihnen hochgeladene Datei $a->filename wurde von einem Virenschutzprogramm geprüft und scheint infiziert zu sein. Das Hochladen der Datei war nicht erfolgreich.';
-$string['virusplaceholder'] = 'Die hochgeladene Datei ist virenverdächtig. Sie wurde verschoben oder gelöscht. Der/die Nutzer/in wurde benachrichtigt.';
+$string['virusplaceholder'] = 'Die hochgeladene Datei ist virenverdächtig. Sie wurde verschoben oder gelöscht. Eine Nutzerbenachrichtigung wurde versandt.';
 $string['visible'] = 'Sichtbar';
 $string['visibletostudents'] = 'Sichtbar für $a';
 $string['warningdeleteresource'] = 'Hinweis: Auf $a wird in einem Arbeitsmaterial Bezug genommen. Wollen Sie das Arbeitsmaterial aktualisieren?';
