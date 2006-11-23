@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 dev (2006102600)
+      // quiz.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['1day'] = '1日';
@@ -172,7 +172,7 @@ $string['event1'] = '自動保存';
 $string['event2'] = '保存';
 $string['event3'] = '評定';
 $string['event5'] = '確認';
-$string['event6'] = '閉じる&amp;評定';
+$string['event6'] = '閉じる&評定';
 $string['event7'] = '送信';
 $string['event8'] = '閉じる';
 $string['event9'] = '手動評定';
@@ -380,6 +380,7 @@ $string['questiontypesetupoptions'] = '問題タイプのオプション設定';
 $string['quiz:attempt'] = '小テストを受験する';
 $string['quiz:deleteattempts'] = '小テスト受験結果を削除する';
 $string['quiz:grade'] = '小テストを評定する';
+$string['quiz:ignoretimelimits'] = '制限時間のある小テストを無視する';
 $string['quiz:manage'] = '小テストを管理する';
 $string['quiz:preview'] = '小テストをプレビューする';
 $string['quiz:view'] = '小テスト情報を表示する';
