@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.6 development (2005101200)
+      // admin.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['adminseesallevents'] = 'Administratorer kan se alle begivenheder';
@@ -15,7 +15,7 @@ $string['calendarsettings'] = 'Kalender';
 $string['change'] = 'ret';
 $string['configallowcoursethemes'] = 'Hvis du acceptere dette kan man vælge tema for hvert kursus. Kursustemaet bliver brugt lige meget hvad der ellers er valgt som tema (sitewide, bruger eller sessionstemaer)';
 $string['configallowemailaddresses'] = 'Hvis du ønsker at begrænse alle nye email-adresser til bestemte domæner, så skriv dem her adskilt af mellemrum. Alle e-mails fra andre domæner vil blive afvist. f.eks. <strong>skolenavn.dk adsl.dk</strong>';
-$string['configallowobjectembed'] = 'Af sikkerhedsfgrunde kan almindelige brugere normalt ikke indlejre multimediefiler (som flash) vha. EMBED og OBJECT tags i deres HTML (det kan dog gøres sikkert vha. multimedieplugin filtre) Hvis du ønsker at tillade disse tags så aktiver denne indstilling. ';
+$string['configallowobjectembed'] = 'Af sikkerhedsfgrunde kan almindelige brugere normalt ikke indlejre multimediefiler (som flash) vha. EMBED og OBJECT tags i deres HTML (det kan dog gøres sikkert vha. multimedieplugin filtre) Hvis du ønsker at tillade disse tags så aktiver denne indstilling.';
 $string['configallowunenroll'] = 'Hvis denne er sat til \'ja\' kan studerende når som helst framelde dem selv fra et kursus. I modsat fald kan de kun frameldes hvis læreren eller administratoren gør det.';
 $string['configallowuserblockhiding'] = 'Ønsker du at tillade brugere at kunne maksimere eller minimere blokke på siden? Denne funktion bruger javascript og cookies for at huske tilstanden af hver blok der kan minimeres, og påvirker kun hvordan brugeren ser siden.';
 $string['configallowuserthemes'] = 'Hvis du tillader dette kan brugere selv vælge hvilket tema de vil bruge. Brugertemaet bliver brugt selvom der er valgt et andet på siden. (dog ikke hvis der er valgt et andet tema på kurset)';
@@ -33,7 +33,7 @@ $string['configdefaultrequestedcategory'] = 'Hvilken kategori skal godkendte kur
 $string['configdeleteunconfirmed'] = 'Hvis du bruger emailautorisering er dette, den periode som siden venter på svar fra en bruger. Hvis der ikke er modtaget svar inden for den fastlagte periode vil uautoriserede brugere blive slettet.';
 $string['configdenyemailaddresses'] = 'For at forbyde emailadresser fra visse domæner kan de skrives her. Alle andre domæner er således OK. For at forbyde hotmail og yahoo adresser kan f.eks. skrives <strong>hotmail.com yahoo.com</strong>';
 $string['configdigestmailtime'] = 'Folk som har valgt at få tilsendt akkumulerede emails vil højst få én email om dagen. Denne indstilling er til at kontrollere på hvilken tidspunkt af dagen den vil blive sendt. (det næste cronjob efter det tidspunkt vil mailen blive afsendt)';
-$string['configdisplayloginfailures'] = 'Dette vil vise information til udvalgte brugere om mislykkede loginforsøg.';
+$string['configdisplayloginfailures'] = 'Dette vil vise information til udvalgte brugere om mislykkede forsøg på login.';
 $string['configenablecourserequests'] = 'Dette vil tillade alle brugere kan ønske at et kursus bliver oprettet.';
 $string['configenablerssfeeds'] = 'Denne indstilling vil muliggøre RSS-feeds fra hele sitet. For rent faktisk at se ændringer skal hvert modul\'s RSS-feed også aktiveres. Det gøres i modulindstillinger under Administrator konfiguration.';
 $string['configenablerssfeedsdisabled'] = 'Dette er ikke muligt fordi RSS-feed er deaktiveret for hele sitet. Det skal først aktiveres under indstilling af variabler på administrationssiden.';
@@ -50,14 +50,14 @@ $string['configframename'] = 'Hvis du indlejrer Moodle i htmlframes skal du skri
 $string['configfullnamedisplay'] = 'Dette definere hvordan en brugers fulde navne skal vises. For de fleste ensprogede sites vil den mest effekttive indstilling være \"Fornavn + Efternavn\". Man kan vælge at skjule fornavnet helt eller lade det være op til sprogpakken. (nogle sprog har forskellige opsætninger)';
 $string['configgdversion'] = 'Indikere hvilken version af GD der er installeret. Versionen der vises er den der er blevet autodetekteret. Pas på med at ændre indstillingen med mindre du virkelig ved hvad du med at gøre.';
 $string['confighiddenuserfields'] = 'Vælg hvilken brugerinformations felter du ønsker at skjule fra andre brugere (undtagen undervisere på kurser og administratorer). Dette vil gøre elever mere anonyme. Hold CTRL nede for at vælge flere felter.';
-$string['confightmleditor'] = 'Vælg om indlejret HTML WYSIWYG editor skal benyttes.  Det er ikke alle browsere der kan vise editoren. ';
+$string['confightmleditor'] = 'Vælg om indlejret HTML WYSIWYG editor skal benyttes.  Det er ikke alle browsere der kan vise editoren.';
 $string['configidnumber'] = 'Denne indstilling angiver om: <br />
 (a) Brugere bliver ikke spurgt om et IDnummer.
 (b) Brugere kan angive et IDnummer men kan også lade være.
 (c) Brugere skal angive et IDnummer.
 Hvis brugeren har skrevet et IDnummer bliver det vist i deres profil.';
 $string['configintro'] = 'På denne side kan du specificere et antal konfigurationsvariabler for at hjælpe Moodle fungere på din server. Som regel fungere standardværdierne fint og du kan altid ændre på dem senere.';
-$string['configintroadmin'] = 'På denne side skal du konfigurere din administratorkonto med hvilken du vil have fuld kontrol over sitet. Vær sikker på at bruge et sikkert brugernavn og password samt en brugbar emailadresse. Du kan lave flere administratorkontoer senere.';
+$string['configintroadmin'] = 'På denne side skal du konfigurere din administratorkonto med hvilken du vil have fuld kontrol over sitet. Vær sikker på at bruge et sikkert brugernavn og adgangskode samt en brugbar emailadresse. Du kan lave flere administratorkontoer senere.';
 $string['configintrosite'] = 'På denne side kan du konfigurere forsiden og navnet på sitet. Du kan komme tilbage hertil senere og ændre disse indstillinger til enhver tid ved at bruge \'Site konfiguration\' linket på administratormenuen.';
 $string['configintrotimezones'] = 'Denne side vil søge efter nye informationer om verdens tidszoner (inklusiv sommmertidsregler) og opdatere den lokale database med disse informationer. Disse lokationer vil bliver kontrolleret i denne rækkefølge: $a Denne procedure er generalt meget sikker og kan ikke ødelægge en normal installation. Ønsker du at opdatere tidszonerne nu?';
 $string['configlang'] = 'Vælg et standardsprog for hele sitet. Brugere kan vælge alternative sprog senere.';
@@ -81,7 +81,7 @@ $string['configpathtoclam'] = 'Stien til clam Antivirus, sandsynligvis noget i s
 $string['configpathtodu'] = 'Stien til du. Ofte noget i stil med /usr/bin/du. Hvis du skriver stien vil sider der viser indholdet af biblioteker blive en del hurtigere hvis der er mange filer.';
 $string['configperfdebug'] = 'Hvis du aktivere dette vil parsetiden blive vist i bunden af siden i standard temaet.';
 $string['configproxyhost'] = 'Hvis denne server skal bruge en proxy computer (f.eks. en firewall) for at komme på Internettet, så skriv proxy hostnavn og port her.';
-$string['configquarantinedir'] = 'Hvis du ønsker at clam Antivirus skal flytte inficerede filer til et karantæne bibliotek skal det skrives her. Det skal være skrivbart for webserveren. Hvis du lader dette felt være blankt, eller skriver en sti der ikke findes eller ikke kan skrives til vil inficerede filer blive slettet. Der skal ikke nogen skråstreg i slutningen af stien. ';
+$string['configquarantinedir'] = 'Hvis du ønsker at clam Antivirus skal flytte inficerede filer til et karantæne bibliotek skal det skrives her. Det skal være skrivbart for webserveren. Hvis du lader dette felt være blankt, eller skriver en sti der ikke findes eller ikke kan skrives til vil inficerede filer blive slettet. Der skal ikke nogen skråstreg i slutningen af stien.';
 $string['configrequestedstudentname'] = 'Ord for elev brugt i ønskede kurser.';
 $string['configrequestedstudentsname'] = 'Ord for elever brugt i ønskede kurser.';
 $string['configrequestedteachername'] = 'Ord for underviser brugt i ønskede kurser.';
@@ -101,12 +101,12 @@ $string['configsectionstats'] = 'Statistik';
 $string['configsectionuser'] = 'Bruger';
 $string['configsecureforms'] = 'Moodle kan tilføje et ekstra niveau af sikkerhed, når man skriver data til den. Hvis dette er aktivt så bliver browserens HTTP_REFERER variabel sammenholdt med det der bliver sendt til moodle vha. forms. Dette kan i få tilfælde give problemer hvis der er en firewall imellem f.eks. zonealarm kan være konfigureret til at fjerne HTTP_REFERER fra HTTP trafikken, eller proxier kan også lave det samme. Symptomerne er at man bliver hængene i form. Hvis brugerne har den type problemer med loginsiden så kan du slå det fra. Det gør dog sitet mere sårbart for \'Brute force\' angreb. Hvis du er i tvivl så lad denne indstilling være slået til.';
 $string['configsessioncookie'] = 'Denne indstilling angiver navnet på den cookie der bliver brugt til Moodle sessioner. Den er valgfri, og kun brugbar hvis der er flere kopier af moodle der kører på samme server.';
-$string['configsessiontimeout'] = 'Hvis brugere er inaktive på siden i lang tid (uden af skifte sider) så bliver de automatisk logget ud. (deres session slutter). Denne variabel specificere hvor lang tid der skal gå før de bliver logget ud.';
-$string['configshowblocksonmodpages'] = 'Nogle aktivitetsmoduler understøtter blokke på deres sider. Hvis du aktivere disse kan underviseren tilføje sideblokke til disse sider.';
+$string['configsessiontimeout'] = 'Hvis brugere er inaktive på siden i lang tid (uden af skifte sider) så bliver de automatisk logget ud. (deres session slutter). Denne variabel specificerer hvor lang tid der skal gå før de bliver logget ud.';
+$string['configshowblocksonmodpages'] = 'Nogle aktivitetsmoduler understøtter blokke på deres sider. Hvis du aktiverer disse kan underviseren tilføje sideblokke til disse sider.';
 $string['configshowsiteparticipantslist'] = 'Alle studerende og undervisere bliver listet i deltagerlisten. Hvem skal kunne se deltagerlisten for hele sitet.';
 $string['configsitepolicy'] = 'Hvis der er nogle regler som brugerne skal læse og acceptere før de kan bruge sitet skal linket URL\'en angives her, i modsat fald kan den være blank. URL\'en kan pege hvorhen det skal være - et bekvemt sted kunne være en uploadetfil som f.eks. http://yoursite/file.php/1/policy.html';
 $string['configslasharguments'] = 'Filer (billeder, uploads mv) bliver sendt via et script vha. \'skråstregsargumenter\' (den anden mulighed her). Denne metode tillader at filer lettere bliver cached i webbrowsere, proxyservere mm. Desværre tillader nogle PHPservere ikke altid denne metode så hvis du har problemer med at se uploadede filer og billeder (f.eks. brugerbilleder),  så sæt denne indstilling til den første mulighed.';
-$string['configsmtphosts'] = 'Angiv fuld navn til en eller flere STMP servere som Moodle skal bruge til at sende mail (f.eks. mail.a.com, mail.b.com etc.) Hvis du intet angiver vil Moodle bruge PHP default metoden til at sende mail.';
+$string['configsmtphosts'] = 'Angiv fuldt navn til en eller flere STMP servere som Moodle skal bruge til at sende mail (f.eks. mail.a.com, mail.b.com etc.) Hvis du intet angiver vil Moodle bruge PHP default metoden til at sende mail.';
 $string['configsmtpuser'] = 'Hvis du har angivet en STMP server herover, og serveren kræver brugernavn og password, så indtast det her.';
 $string['configstatsfirstrun'] = 'Dette angiver hvor langt tilbage logfiler skal bahandles <b>første gang</b> cronjobbet ønsker at generere statistikken. Hvis der en del trafik og siden befinder sig på en delt server, er det ikke en god ide at gå for langt tilbage, da det godt kan tage en del tid og er ret resourcekrævende. (ifm. denne indstilling er 1 måned=28 dage. I grafer og rapporter er 1måned = 1 kalendermåned.)';
 $string['configstatsmaxruntime'] = 'Statistikbehandling kan være ret resourcekrævende, så brug en kombination af dette felt og det næste, for at angive hvornår det skal gøres og hvor længe det skal gøres for.';
