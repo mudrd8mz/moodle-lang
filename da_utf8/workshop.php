@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005033100)
+      // workshop.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['absent'] = 'Fraværende';
@@ -31,7 +31,7 @@ $string['assessmentnotyetagreed'] = 'Vurdering er ikke endnu ikke accepteret';
 $string['assessmentnotyetgraded'] = 'Vurdering endnu ikke bedømt';
 $string['assessmentof'] = 'Vurdering af $a';
 $string['assessmentofresubmission'] = 'Dette er en vurdering af en revideret aflevering. <br />Denne formular er udfyldt med den forrige karakter og kommentarer. <br />Du kan så ændre vurderingen og karakteren så det passer med den nye aflevering.';
-$string['assessmentofthissubmission'] = 'Vurdering af dette indlæg ';
+$string['assessmentofthissubmission'] = 'Vurdering af dette indlæg';
 $string['assessments'] = 'Vurderinger';
 $string['assessmentsareok'] = 'Vurdering er OK';
 $string['assessmentsby'] = 'Vurderet af $a';
@@ -116,7 +116,7 @@ $string['gradetable'] = 'Karakter tabel';
 $string['gradingallassessments'] = 'Bedøm alle vurderinger';
 $string['gradinggrade'] = 'Bedøm karakter';
 $string['gradingstrategy'] = 'Karakter strategi';
-$string['hidegradesbeforeagreement'] = 'Gem karakter før der er enighed';
+$string['hidegradesbeforeagreement'] = 'Skjul karakter før der er enighed';
 $string['hidenamesfromstudents'] = 'Skjul navne fra $a';
 $string['includeteachersgrade'] = 'Inkluder lærerens karakter';
 $string['incorrect'] = 'Forkert';
@@ -167,6 +167,7 @@ $string['noteonstudentassessments'] = '{Karakter fra elev / Vurdér karakter for
 $string['notgraded'] = 'Ikke bedømt';
 $string['notitle'] = 'Ingen titel';
 $string['notitlegiven'] = 'Der er ikke angivet nogen titel';
+$string['notsubmittedyet'] = 'Der er ikke afleveret noget endnu';
 $string['nowork'] = 'Afleveringsperioden er afsluttet<br />Du har ikke afleveret noget.';
 $string['numberofassessmentelements'] = 'Antal kommentarer, Vurderings elementer, karakterskala eller Kriterier';
 $string['numberofassessments'] = 'Antal vurderinger';
@@ -306,6 +307,8 @@ $string['weightforteacherassessments'] = 'Vægt for lærerens vurdering';
 $string['weights'] = 'Vægtninger';
 $string['weightsusedforfinalgrade'] = 'Vægtning til brug for endelig karakter';
 $string['weightsusedforsubmissions'] = 'Vægtning til brug for afleveringer';
+$string['workshop:manage'] = 'Indstillinger';
+$string['workshop:participate'] = 'Deltag i projekt';
 $string['workshopagreedassessments'] = 'Aftalt projekt vurderinger';
 $string['workshopassessments'] = 'Projekt vurderinger';
 $string['workshopcomments'] = 'Projekt kommentarer';
