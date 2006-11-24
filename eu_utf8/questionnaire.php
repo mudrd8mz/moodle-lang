@@ -1,48 +1,9 @@
-<?php
-$string['alreadyfilled'] = "Inkesta aurreko batean bete duzu. Eskerrik asko.";
-$string['closed'] = 'Inkesta egun honetan itxi zen: $a. Eskerrik asko.';
-$string['closedate'] = 'Ixteko eguna erabili';
-$string['createcontent'] = 'Eduki berria definitu';
-$string['createnew'] = 'Inkesta berria egin';
-$string['inuse'] = 'Erabiltzen ari da';
-$string['modulename'] = 'Galdeketa-inkesta';
-$string['modulenameplural'] = 'Galdeketa-inkestak';
-$string['mustcomplete'] = "<b>Inkesta hau <i>orain</i> bete behar duzu emaitzak gorde daitezen. "
-                         ."Beranduago ezingo duzu bete.</b><br><br>\n";
-$string['noneinuse'] = 'Oraindik ez da edukirik definitu.';
-$string['noresponses'] = 'Ez dago erantzunik';
-$string['notavail'] = "Inkesta hau ez dago indarrean oraindik. Beranduago saia zaitez, mesedez.";
-$string['noteligible'] = "Ezin duzu inkesta hau bete.";
-$string['notopen'] = 'Inkesta hau data honetan irekiko da: $a.';
-$string['notused'] = 'Ez erabilia';
-$string['opendate'] = 'Irekitzeko eguna erabili';
-$string['private'] = 'Pribatua';
-$string['public'] = 'Publikoa';
-$string['qmanage'] = 'Inkestak kudeatu';
-$string['qmanagetitle'] = 'phpESPren bidez kudeatutako analisia';
-$string['qtype'] = "Mota";
-$string['qtypeonce'] = 'behin bakarrik erantzun';
-$string['qtypeunlimited'] = 'nahi haina erantzun';
-$string['questionnaireid'] = "Inkestaren edukia";
-$string['questiontypes'] = 'Galdera motak';
-$string['realm']= 'Inkesta mota';
-$string['respondenteligible'] = "Inkesta erantzun ahal izango dutenak";
-$string['respondenteligibleall'] = 'guztiak';
-$string['respondenteligiblestudents'] = 'ikasleak soilik';
-$string['respondenteligibleteachers'] = 'irakasleak soilik';
-$string['respondents'] = 'Erantzun dezaketenak';
-$string['respondenttype'] = "Erantzun dezaketenen motak";
-$string['respondenttypeanonymous'] = 'izenik gabekoa';
-$string['respondenttypefullname'] = 'izen osoa';
-$string['resume'] = 'Inkesta gorde/berriz hartu';
-$string['selectexisting'] = 'daudenak aukeratu';
-$string['submitsurvey'] = 'Inkesta bidali';
-$string['template'] = 'Txantiloia';
-$string['templatenotviewable'] = 'Txantiloiak ez dira eskuragarri.';
-$string['type'] = 'Mota';
-$string['unknown'] = 'Ezezaguna';
-$string['usepublic'] = 'Publikoa erabili';
-$string['usetemplate'] = 'Daudenak erabili';
-$string['usingsurvey'] = ' $a erabiltzen.';
-$string['viewresponses'] = ' $a erantzunak erabiltzen';
+<?PHP // $Id$ 
+      // questionnaire.php - created with Moodle 1.4.1 (2004083101)
+
+
+$string['alreadyfilled'] = 'Hausnarketa burutu duzu. Eskerrik asko.';
+$string['modulename'] = 'Hausnarketa';
+$string['modulenameplural'] = 'Hausnarketa';
+
 ?>

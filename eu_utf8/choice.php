@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.6.1 (2006050510)
+      // choice.php - created with Moodle 1.6 (2006050506)
 
 
 $string['addmorechoices'] = 'Aukera gehiago gehitu';
@@ -17,8 +17,8 @@ $string['full'] = '(Beteta)';
 $string['havetologin'] = 'Saioa hasi behar duzu zure erantzuna bidali ahal izateko.';
 $string['limit'] = 'Muga';
 $string['limitanswers'] = 'Onar daitekeen erantzunen kopurua  mugatu';
-$string['modulename'] = 'Inkesta xumea';
-$string['modulenameplural'] = 'Inkesta xumeak';
+$string['modulename'] = 'Inkesta';
+$string['modulenameplural'] = 'Inkestak';
 $string['mustchooseone'] = 'Erantzunen bat aukeratu behar duzu gorde aurretik. Ezer ez da gorde orain arte.';
 $string['notanswered'] = 'Oraindik erantzun gabe';
 $string['notopenyet'] = 'Barkatu, baina jarduera hau ez dago erabiltzeko moduan $a arte.';
@@ -31,7 +31,7 @@ $string['publishanonymous'] = 'Emaitzak anonimoki argitaratu. Ez erakutsi ikasle
 $string['publishnames'] = 'Emaitza osoak argitaratu, izenak eta egindako aukerak erakutsiz.';
 $string['publishnot'] = 'Ez argitaratu emaitzak ikasleei';
 $string['responses'] = 'Erantzunak';
-$string['responsesto'] = 'Erantzunak $a-rentzat';
+$string['responsesto'] = 'Erantzunak';
 $string['savemychoice'] = 'Nire inkesta gorde';
 $string['showunanswered'] = 'Erakutsi erantzun gabekoen zutabea';
 $string['spaceleft'] = 'espazio erabilgarria';

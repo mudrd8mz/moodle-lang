@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.6 (2006050506)
+      // lesson.php - created with Moodle 1.6 Beta 5 (2006050500)
 
 
 $string['accesscontrol'] = 'Sarbide-kontrola';
@@ -72,7 +72,7 @@ $string['displayleftif'] = 'Erakutsi soilik $a (r)en puntuazioa ondorengoa baino
 $string['displayleftmenu'] = 'Ezker aldeko menua erakutsi';
 $string['displayofgrade'] = 'Kalifikazioa erakutsi (ikasleentzat soilik)';
 $string['displayreview'] = '\'Berrikusi\' botoia erakutsi';
-$string['displayscorewithessays'] = 'Automatikoki kalifikatutako galderetan hau da zure puntuazioa: $a->score posible zen gehienezko puntuazio honetatik: $a->tempmaxgrade.<br> $a->essayquestions galdera(k) beranduago kalifikatuko dira eta zure azken emaitzari erantsiko zaizkio aurrerago.<br><br>Oraingoz, eta entsegu-galdera(k) kontuan hartu gabe, zure emaitza $a->score (e)koa da $a->grade (e)tik ';
+$string['displayscorewithessays'] = 'Automatikoki kalifikatutako galderetan hau da zure puntuazioa: $a->score posible zen gehienezko puntuazio honetatik: $a->tempmaxgrade.<br> $a->essayquestions galdera(k) beranduago kalifikatuko dira eta zure emaitzari erantsiko zaizkio<br>a su calificación final en una fecha posterior.<br><br>Oraingoz, eta entsegu-galdera(k) kontuan hartu gabe, zure emaitza $a->score (e)koa da $a->grade (e)tik ';
 $string['displayscorewithoutessays'] = 'Zure puntuazioa hau da: $a->score (gehienezkoa hau zen: $a->grade).';
 $string['editlesson'] = '$a editatu';
 $string['editlessonsettings'] = 'Ikasgai honen ezarpenak editatu';
