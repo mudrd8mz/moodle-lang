@@ -12,7 +12,7 @@ $string['feedbackupdated'] = 'Aktualizovány reakce k $a poznámkám';
 $string['journalmail'] = '$a->teacher reagoval(a) na vas zapis do poznamek \'$a->journal\'.
 
 Reakci si muzete precist na adrese: $a->url';
-$string['journalmailhtml'] = '$a->teacher reagoval(a) na váš zápis do poznámek \'<i>$a->journal</i>\'<br /><br />.Reakci si můžete přečíst na stránce s vaší <a href=\"$a->url\">poznámkou</a>.';
+$string['journalmailhtml'] = '$a->teacher reagoval(a) na váš zápis do poznámek \'<i>$a->journal</i>\'.<br /><br />Reakci si můžete přečíst na stránce s vaší <a href=\"$a->url\">poznámkou</a>.';
 $string['journalname'] = 'Název poznámek';
 $string['journalquestion'] = 'Téma poznámek';
 $string['journalrating1'] = 'Nedostatečné';
