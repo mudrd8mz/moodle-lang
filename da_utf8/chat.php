@@ -1,13 +1,18 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005033100)
+      // chat.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['beep'] = 'bip';
+$string['chat:chat'] = 'Chat';
+$string['chat:deletelog'] = 'Slet chat logs';
+$string['chat:readlog'] = 'Læs chat logs';
 $string['chatintro'] = 'Introduktions tekst';
 $string['chatname'] = 'Navn på dette chat rum';
 $string['chatreport'] = 'Chat sessioner';
-$string['chattime'] = 'Næste chat tid';
+$string['chattime'] = 'Næste planlagte chat tid';
 $string['configmethod'] = 'Den normale chatmetode fungere ved at alle klienter jævnligt kontakter serveren for at checke for ændringer. Det kræver ingen konfiguration og fungere overalt, det belaster dog webserveren en hel del hvis der er mange deltagere. Man kan i stedet bruge en server service som fungere som bindeled til klienterne. Det kræver at man har shelladgang til web-serveren, men det belaster serveren mindre og får chatten til at \'flyde\' bedre.';
+$string['confignormalupdatemode'] = 'Chatrum opdateringer sker normalt ved at klienten poller serveren med jævne mellemrum vha. <em>KeepAlive</em> teknikken i HTTP 1.1 
+Denne metode er ret belastene for serveren. En mere advanceret metodeer at benytte <em>Stream</em> metoden til at sende opdateringer til brugeren. Streammetoden er mindre krævende og skaleres bedre til flere brugere, men det kan tænkes at den ikke understøttes af din webserver.';
 $string['configoldping'] = 'Hvor lang tid skal der gå fra man sidst har hørt fra en bruger til man må formode at de er gået?';
 $string['configrefreshroom'] = 'Hvor ofte skal chatrummet blive opdateret? (i sekunder) Lavere værdi får det til at virke mere realtime, men vil belaste webserveren mere, når mange mennesker chatter samtidigt';
 $string['configrefreshuserlist'] = 'Hvor tit skal brugerlisten opdateres? (i sekunder)';
@@ -41,6 +46,9 @@ $string['neverdeletemessages'] = 'Slet aldrig beskeder';
 $string['nextsession'] = 'Næste planlagte session';
 $string['noguests'] = 'Denne chat er ikke åben for gæster';
 $string['nomessages'] = 'Ingen beskeder endnu';
+$string['normalkeepalive'] = 'Polling';
+$string['normalstream'] = 'Stream';
+$string['noscheduledsession'] = 'Ingen planlagte chatsessioner';
 $string['repeatdaily'] = 'Samme tid hver dag';
 $string['repeatnone'] = 'Ingen gentagelser - brug den kun angivne tid';
 $string['repeattimes'] = 'Gentag sessioner';
@@ -49,7 +57,7 @@ $string['savemessages'] = 'Gem forrige sessioner';
 $string['seesession'] = 'Se denne session';
 $string['sessions'] = 'Chat sessioner';
 $string['strftimemessage'] = '%%H:%%M';
-$string['studentseereports'] = 'Alle kan se forrige sessioner';
+$string['studentseereports'] = 'Elever kan se gemte sessioner';
 $string['viewreport'] = 'Se forrige sessioner';
 
 ?>
