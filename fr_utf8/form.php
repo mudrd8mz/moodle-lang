@@ -18,5 +18,7 @@ $string['err_nonzero'] = 'Vous ne devez pas saisir de nombre commençant par 0 d
 $string['err_numeric'] = 'Vous devez saisir un nombre dans ce champ.';
 $string['general'] = 'Réglages généraux';
 $string['modstandardels'] = 'Réglages communs aux modules';
+$string['miscellaneoussettings'] = 'Réglages divers';
+$string['addfields'] = 'Ajouter $a champs au formulaire';
 
 ?>
