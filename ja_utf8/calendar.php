@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 dev (2006102600)
+      // calendar.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['calendar'] = 'カレンダー';
 $string['calendarheading'] = '$a カレンダー';
 $string['clickhide'] = '非表示';
 $string['clickshow'] = '表示';
+$string['commontasks'] = 'オプション';
 $string['confirmeventdelete'] = '本当にこのイベントを削除してもよろしいですか?';
 $string['courseevents'] = 'コースイベント';
 $string['dayview'] = '1日分表示';
@@ -32,7 +33,9 @@ $string['eventkind'] = 'イベントの種類';
 $string['eventname'] = '名称';
 $string['eventnone'] = 'イベントなし';
 $string['eventrepeat'] = '繰り返し';
+$string['eventsall'] = 'すべてのイベント';
 $string['eventsfor'] = '$a イベント';
+$string['eventsrelatedtocourses'] = 'コースに関連したイベント';
 $string['eventstarttime'] = '開始日時';
 $string['eventtime'] = '時間';
 $string['eventview'] = 'イベント詳細';
@@ -42,16 +45,24 @@ $string['explain_maxevents'] = 'ここでは、直近イベントの最大表示
 $string['explain_persistflt'] = 'この設定を行った場合、Moodleはあなたの最新のイベントフィルタ設定を記憶します。また、あなたがログインするたびに最新のイベントを自動的に表示します。';
 $string['explain_startwday'] = 'ここでは、すべての月間カレンダーの表示方法を設定します。あなたが慣れ親しんだ表示になるように設定してください。';
 $string['explain_timeformat'] = '時間の表示は12時間表示または24時間表示を選択することができます。デフォルトを選択した場合は、使用言語に合わせてフォーマットが自動的に選択されます。';
+$string['export'] = 'エクスポート';
+$string['exportbutton'] = 'エクスポート';
+$string['exportcalendar'] = 'カレンダーをエクスポートする';
+$string['for'] = '対象';
 $string['fri'] = '金';
 $string['friday'] = '金曜日';
+$string['generateurlbutton'] = 'カレンダーのURLを取得する';
 $string['globalevents'] = '全体のイベント';
 $string['gotocalendar'] = 'カレンダーへ移動';
 $string['groupevents'] = 'グループイベント';
 $string['hidden'] = '非表示中';
+$string['iwanttoexport'] = 'エクスポート';
 $string['manyevents'] = '$a イベント';
 $string['mon'] = '月';
 $string['monday'] = '月曜日';
 $string['monthlyview'] = '月表示';
+$string['monthnext'] = '来月';
+$string['monththis'] = '当月';
 $string['newevent'] = '新しいイベント';
 $string['noupcomingevents'] = '直近のイベントはありません';
 $string['oneevent'] = '1 イベント';
@@ -99,6 +110,8 @@ $string['upcomingevents'] = '直近イベント';
 $string['userevents'] = 'ユーザイベント';
 $string['wed'] = '水';
 $string['wednesday'] = '水曜日';
+$string['weeknext'] = '来週';
+$string['weekthis'] = '今週';
 $string['yesterday'] = '昨日';
 $string['youcandeleteallrepeats'] = 'このイベントは繰り返しイベントの一部です。あなたはこのイベントのみ削除することもできますし、一度に $a 件すべてのイベントを削除することもできます。';
 
