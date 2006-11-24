@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 dev (2006102600)
+      // enrol_authorize.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['adminacceptccs'] = '어떤 유형의 카드가 가능합니까?';
@@ -127,6 +127,11 @@ $string['orderid'] = '수강신청 아이디';
 $string['paymentmanagement'] = '지불 관리';
 $string['paymentmethod'] = '지불 방법';
 $string['paymentpending'] = '이 과정의 수강신청번호 $a->orderid 에 대한 당신의 지불사항은 보류중입니다. <a href=\'$a->url\'> 수강신청 세부사항 </a> 을 참고하십시요.';
+$string['pendingecheckemail'] = '관리자님께,
+
+여기에 유보되었던 $a->count 의 전자결제가 있으니 사용자 등록을 하기 위해서는 csv파일을 업로드하셔야만 합니다.
+$a->url 을 클릭하셔서 안내문을 참고하시기 바랍니다.';
+$string['pendingechecksubject'] = '$a->course: 유보된 전자결재eChecks($a->count)';
 $string['pendingordersemail'] = '관리자님께,
 
 $a->days 일 이내로 지불을 승인하지 않으면 \"$a->course\" 에 대한 $a->pending 거래가 파기될 것입니다.

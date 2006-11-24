@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 dev (2006102200)
+      // quiz.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['1day'] = '하루';
@@ -380,6 +380,7 @@ $string['questiontypesetupoptions'] = '질문 유형들을 위한 옵션을 설�
 $string['quiz:attempt'] = '퀴즈 시도';
 $string['quiz:deleteattempts'] = '퀴즈 시도 삭제';
 $string['quiz:grade'] = '퀴즈 미리보기';
+$string['quiz:ignoretimelimits'] = '시간 제한 무시';
 $string['quiz:manage'] = '퀴즈 관리';
 $string['quiz:preview'] = '퀴즈 미리보기';
 $string['quiz:view'] = '퀴즈 정보 보기';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2006102600)
+      // admin.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['accounts'] = '계정';
@@ -57,7 +57,11 @@ $string['configclamactlikevirus'] = '바이러스 파일로 처리';
 $string['configclamdonothing'] = '정상적인 파일로 처리';
 $string['configclamfailureonupload'] = '만약 당신이 업로드 된 파일을 검사하도록 지정했는데, 잘 못 설정되거나 알려지지 않은 이유 때문에 오류가 발생한다면, 어떻게 될까? 이 때 만약 \'바이러스 파일로 처리하기\'를 선택한다면 그들은 격리 구역으로 가거나 삭제 될것이다. 만약 \'정상적인 파일로 처리\'를 선택하면 그 파일은 일반적인 저장고로 이동할 것이다. 어쨌든 관리자는 이에 대한 경고를 받게 된다. 만약 당신이 \'바이러스 파일로 처리\'를 선택했는데, 어떤 이유에서건 실행 오류를 만나게 된다면(대개는 불가능한 경로를 설정했기 때문에 생긴다)업로드 된 모든 파일은 격리된 구역으로 옮겨지거나 삭제 된다. 이 설정을 할 때는 매우 조심하라.';
 $string['configcountry'] = '만약 당신이 여기에 국가를 지정한다면, 설정된 국가는 새로운 사용자계정의 기본값으로 설정된다. 사용자들이 스스로 국가(언어)를 설정하도록 하고 싶으면, 설정하지 말고 이 상태로 놓아 두어라.';
+$string['configcoursemanager'] = '이 설정은 배움터 설명에 표시되는 사람들을 설정할 수 있게 한다. 사용자가 배움터 설명에 나오기 위해서는 이 중 하나의 역할이 되어야 한다.';
 $string['configcoursesperpage'] = '배움터 목록에서 페이지당 표시될 배움터의 수를 입력하세요.';
+$string['configcronclionly'] = '이것이 설정되면 크론 스크립트는 웹 대신 명령어 줄에서만 실행될 수 있다. 이것은 아래의 크론 암호설정에 우선한다.';
+$string['configcronremotepassword'] = '이것은 cron.php가 다음을 URL에서 제공하는 양식을 이용하여 암호가 제공되지 않으면 웹에서 구동될 수 없다는 것을 의미한다.<pre> http://site.example.com/admin.cron.php?password=opensesame
+ </pre> 여기를 비워놓으면 암호를 요구하지 않는다.';
 $string['configdbsessions'] = '이를 켜 놓으면, 현재 세션의 정보를 저장하기 위해서 데이타 베이스를 사용할 것이다. 이것은 큰 사이트나 많은 서버로 구성된 사이트에서 특히 유용하게 쓰일 수 있다. 대부분의 사이트에서는 이를 막아 놓아, 서버 디스크에 세션 정보를 기록하도록 한다. 만일 지금 이 옵션을 바꾸게 되면, 현재 접속된 모든 사용자(당신도 물론!)의 접속이 끊어져 로그아웃될 것이다.';
 $string['configdebug'] = '이것을 \"예\"로 두면 지속적인 경고를 위해서 PHP 에러 보고가 증가할 것이다. 개발자에게나 유용한 기능이다.';
 $string['configdefaultallowedmodules'] = '특정 범주안에서 <b>하위 교육과정이 만들어질 때</b> 어떤 모듈들을 기본적으로 제공하겠는가?';
@@ -184,11 +188,16 @@ $string['configzip'] = '당신의 zip 프로그램의 위치(유닉스만,선택
 $string['confirmation'] = '확정';
 $string['confirminstall'] = '언어팩 ($a) 설치를 선택하셨습니다. 설치할까요?';
 $string['country'] = '기본 국가';
+$string['coursemanager'] = '배움터 관리자들';
 $string['coursemgmt'] = '추가/편집';
 $string['courseoverview'] = '배움터 개요';
 $string['courserequests'] = '배움터 개설 요청';
 $string['courses'] = '배움터';
 $string['coursesperpage'] = '한 쪽당 배움터 수';
+$string['cronclionly'] = '명령어 줄에서만 크론이 실행됨';
+$string['cronerrorclionly'] = '죄송합니다. 이 화면은 관리자에 의하여 인터넷 접속을 금하도록 설정되었습니다.';
+$string['cronerrorpassword'] = '죄송합니다. 이 화면에 접속하려면 적절한 암호가 있어야 합니다.';
+$string['cronremotepassword'] = '원격 접속을 위한 크론 비밀번호';
 $string['cronwarning'] = '<a href=\"cron.php\">cron.php 관리 스크립트</a>가 최소 24시간 동안 작동 되지 않았습니다.';
 $string['datarootsecuritywarning'] = '사이트가 안전해 보이지 않습니다. 데이터경로 ($a)를 직접 웹으로 접속할 수 없도록 조치하시기 바랍니다.';
 $string['dbmigrate'] = '무들 데이터베이스 변경';

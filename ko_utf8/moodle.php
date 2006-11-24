@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006102600)
+      // moodle.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['action'] = '동작';
@@ -646,6 +646,7 @@ $string['helpsummaries'] = '요약에 대해';
 $string['helptext'] = '텍스트를 쓰는 방법';
 $string['helpwiki'] = 'Wiki 텍스트를 쓰는 방법';
 $string['helpwriting'] = '주의깊게 쓰세요';
+$string['hiddenassign'] = '감춰진 과제';
 $string['hiddensections'] = '감춰진 구역들';
 $string['hiddensectionscollapsed'] = '감춰진 구역들은 제목만 보여짐';
 $string['hiddensectionsinvisible'] = '감춰진 구역은 완전히 볼수 없음';
