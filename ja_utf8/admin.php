@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2006102600)
+      // admin.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['accounts'] = 'アカウント';
@@ -339,7 +339,7 @@ $string['mymoodleredirect'] = 'ユーザにマイ Moodleを強制する';
 $string['mysql416bypassed'] = 'あなたのサイトがiso-8859-1 (ラテン) 言語のみ使用している場合、現在インストールされている MySQL 4.1.12 (またはそれ以上) を使用することができます。';
 $string['mysql416required'] = 'Moodle1.6では、将来すべてのデータをUTF-8に変換するため、MySQL 4.1.16が要求される最低限のバージョンです。';
 $string['nobookmarksforuser'] = 'ブックマークはありません。';
-$string['nolangupdateneeded'] = 'すべての言語パックは最新です。アップデートは必要ありません。';
+$string['nolangupdateneeded'] = 'すべての言語パックは最新版です。アップデートは必要ありません。';
 $string['nonewsettings'] = 'このアップグレードで、新しい設定は追加されませんでした。';
 $string['nonexistentbookmark'] = 'あなたがリクエストしたブックマークは登録されていません。';
 $string['noreplyaddress'] = 'No-replyアドレス';
