@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005033100)
+      // exercise.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['absent'] = 'Fraværende';
@@ -11,14 +11,14 @@ $string['amendassessmentelements'] = 'Ændre vurderingselementer';
 $string['amendtitle'] = 'Ændre titlen';
 $string['analysis'] = 'Analyse';
 $string['assess'] = 'Vurdere';
-$string['assessed'] = 'Vurdered ';
+$string['assessed'] = 'Vurdered';
 $string['assessment'] = 'Vurdering';
 $string['assessmentby'] = 'Vurderet af $a';
 $string['assessmentform'] = 'Vurderings skema';
 $string['assessmentmadebythe'] = 'Vurdering lavet af: $a';
-$string['assessmentofthissubmission'] = 'Vurdering af dette indlæg ';
+$string['assessmentofthissubmission'] = 'Vurdering af dette indlæg';
 $string['assessments'] = 'Vurderinger';
-$string['atthisstageyou'] = 'På dette tidspunkt er din opgave blevet vurderet<br />Hvis du vil ændrer på noget efter vurderingen, så husk at få revurderet din opgave<br /> Det kan du gøre ved at trykke på \'Revurder\' nedenfor. ';
+$string['atthisstageyou'] = 'På dette tidspunkt er din opgave blevet vurderet<br />Hvis du vil ændrer på noget efter vurderingen, så husk at få revurderet din opgave<br /> Det kan du gøre ved at trykke på \'Revurder\' nedenfor.';
 $string['awaitingassessmentbythe'] = 'Venter på vurdering af $a';
 $string['clearlateflag'] = 'Fjern \"For sent\" markeringen';
 $string['comment'] = 'Kommentar';
@@ -46,6 +46,7 @@ $string['enterpassword'] = 'Skriv password';
 $string['entriessaved'] = 'Indlæg gemt';
 $string['errorbanded'] = 'Fejlbehæftet';
 $string['excellent'] = 'Udmærket';
+$string['exercise:assess'] = 'Evaluer opgave';
 $string['exerciseassessments'] = 'Opgave vurdering';
 $string['exercisefeedback'] = 'Tilbagemelding på opgave';
 $string['exercisesubmissions'] = 'Afleveringer';
@@ -77,7 +78,7 @@ $string['maximumgradeforsubmissions'] = 'Maksimal karakter for afleveringer: $a'
 $string['maximumsize'] = 'Maksimum størrelse';
 $string['mean'] = 'Gennemsnit';
 $string['minimum'] = 'Minimum';
-$string['modulename'] = 'Arbejdsopgave';
+$string['modulename'] = 'Øvelse';
 $string['modulenameplural'] = 'Arbejdsopgaver';
 $string['movingtophase'] = 'Går til fase $a';
 $string['multiplesubmissions'] = 'Flere afleveringer';
@@ -110,7 +111,7 @@ $string['phase3'] = 'Stop $a vurderinger og aflevering';
 $string['phase3short'] = 'Lukket';
 $string['pleasegradetheassessment'] = 'Bedøm denne vurdering af denne aflevering af $a';
 $string['pleasemakeyourownassessment'] = 'Prøv at lave din egen bedømmelse af det du har afleveret fra $a.<br />
-Læg mærke til at vurderingsskemaet som standard bliver vist med den studerendes vurdering. <br />Du kan ændre på vurderingen hvis det er nødvendigt og så klikke på en<br />af knapperne i bunden af siden. ';
+Læg mærke til at vurderingsskemaet som standard bliver vist med den studerendes vurdering. <br />Du kan ændre på vurderingen hvis det er nødvendigt og så klikke på en<br />af knapperne i bunden af siden.';
 $string['pleasesubmityourwork'] = 'Aflever venligst dit arbejde ved hjælp af denne formuler.';
 $string['pleaseusethisform'] = 'Udfyld venligst denne formular når du har<br /> udført opgaven som beskrevet nedenfor.';
 $string['pleaseviewtheexercise'] = 'Du kan se opgavens indhold nedenfor ved at klikke på opgavens title.<br />Du skal så følge instruktionerne i opgaven. <br />Når du er tilfreds med resultatet<br /> skal du trykke på \'Vurder\' eller \'Revurder\' linket til <br />højre for titlen. Når du er færdig med vurderingen vil<br /> du få at vide hvad der så skal ske.';
@@ -120,7 +121,7 @@ $string['reasonforadjustment'] = 'Årsag til ændring';
 $string['reassess'] = 'Revurder';
 $string['regradestudentassessments'] = 'Ombedøm student vurderinger';
 $string['resubmissionfor'] = 'Ny aflevering for $a';
-$string['resubmitnote'] = '* betyder at $a kan aflever igen senere. <br /> Denne mulighed kan gives til enhver aflevering ved at revurdere det og trykke på<br /> <b>\'Tillad flere afleveringer\'</b> knappen<br />Eleven kan så aflevere opgaven igen. Så længe denne mulig er til stede kan eleven aflevere <b>enhver</b> opgave igen. ';
+$string['resubmitnote'] = '* betyder at $a kan aflever igen senere. <br /> Denne mulighed kan gives til enhver aflevering ved at revurdere det og trykke på<br /> <b>\'Tillad flere afleveringer\'</b> knappen<br />Eleven kan så aflevere opgaven igen. Så længe denne mulig er til stede kan eleven aflevere <b>enhver</b> opgave igen.';
 $string['rubric'] = 'Rubrik';
 $string['savedok'] = 'Gemt OK';
 $string['saveentries'] = 'Gem indlæg';
