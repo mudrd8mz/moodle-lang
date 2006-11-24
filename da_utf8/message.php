@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005033100)
+      // message.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['addcontact'] = 'Tilføj kontakt';
+$string['addsomecontacts'] = 'For at sende en besked til nogen, eller for at tilføje en genvej til dem på denne side, kan du bruge <a href=\"$a\">søge siden</a> ovenover.';
+$string['addsomecontactsincoming'] = 'Disse er fra personer der ikke er i din kontaktliste. Hvis du vil tilføje dem til dine kontakter kan du trykke på \"Tilføj kontaktperson\" ikonen ud for deres navn.';
 $string['ago'] = '$a siden';
 $string['allmine'] = 'Alle beskeder til mig eller fra mig';
 $string['allstudents'] = 'Alle beskeder mellem elever i kurset';
@@ -11,6 +13,8 @@ $string['backupmessageshelp'] = 'Hvis aktiveret vil beskeder blive inkluderet i 
 $string['beepnewmessage'] = 'Bip når der kommer en ny besked';
 $string['blockcontact'] = 'Bloker kontakt';
 $string['blockedmessages'] = '$a besked(er) til/fra blokerede brugere';
+$string['blocknoncontacts'] = 'Blokér alle beskeder fra personer der ikke er i min kontaktliste.';
+$string['contactlistempty'] = 'Din kontaktliste er tom';
 $string['contacts'] = 'Kontekster';
 $string['context'] = 'sammenhæng';
 $string['deletemessagesdays'] = 'Antal dage før gamle beskeder automatisk bliver slettet';
@@ -58,6 +62,7 @@ $string['timesent'] = 'Tid sendt';
 $string['unblockcontact'] = 'Fjern blokering for kontakt';
 $string['unreadmessages'] = '$a ulæste beskeder';
 $string['userisblockingyou'] = 'Denne bruger har blokeret for beskeder til dem.';
+$string['userisblockingyounoncontact'] = 'Denne bruger acceptere kun beskeder fra personer der er på hans/hendes kontaktliste og det er du ikke på nuværende tidspunkt.';
 $string['userssearchresults'] = 'Søge resultat: $a brugere fundet';
 
 ?>
