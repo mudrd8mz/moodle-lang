@@ -2,9 +2,25 @@
       // admin.php - created with Moodle 1.8 dev (2006102600)
 
 
+$string['accounts'] = 'Konti';
+$string['adminseesall'] = 'Admins kan se alt';
 $string['adminseesallevents'] = 'Administratorer kan se alle begivenheder';
 $string['adminseesownevents'] = 'Administratorer er som andre brugere';
+$string['allowcoursethemes'] = 'Tillad kursus temaer';
+$string['allowemailaddresses'] = 'Tilladte email domæner';
+$string['allowobjectembed'] = 'Tillad EMBED og OBJECT tags';
+$string['allowrenames'] = 'Tillad omdøbninger';
+$string['allowuserblockhiding'] = 'Tillad brugere at skjule blokke';
+$string['allowusermailcharset'] = 'Tillad brugere at vælge karaktersæt';
+$string['allowuserthemes'] = 'Tillad brugertemaer';
+$string['antivirus'] = 'Antivirus';
+$string['appearance'] = 'Udseende';
+$string['aspellpath'] = 'Sti til aspell';
+$string['authentication'] = 'Autorisering';
+$string['autologinguests'] = 'Automatisk gæstelogin';
+$string['availablelangs'] = 'Tilgængelige sprogpakker';
 $string['backgroundcolour'] = 'Transparent farve';
+$string['backups'] = 'Backups';
 $string['badwordsconfig'] = 'Angiv en liste af censurerede ord adskilt af komma.';
 $string['badwordsdefault'] = 'Hvis denne liste er tom, så benyttes den standardlisten fra oversættelsen.';
 $string['badwordslist'] = 'Liste over censurerede ord.';
