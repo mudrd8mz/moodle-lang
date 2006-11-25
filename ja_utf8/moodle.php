@@ -539,6 +539,7 @@ $string['findmorecourses'] = 'さらにコースを探す ...';
 $string['firstdayofweek'] = '0';
 $string['firstname'] = '名';
 $string['firsttime'] = 'はじめての方ですか?';
+$string['folder'] = 'フォルダ';
 $string['folderclosed'] = 'クローズフォルダ';
 $string['folderopened'] = 'オープンフォルダ';
 $string['followingoptional'] = '下記は任意入力項目です';
