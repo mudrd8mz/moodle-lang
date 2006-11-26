@@ -530,6 +530,7 @@ $string['firstdayofweek'] = '1';
 $string['firstname'] = 'Prénom';
 $string['firsttime'] = 'Première visite sur ce site ?';
 $string['fix'] = 'Correction';
+$string['folder'] = 'Dossier';
 $string['folderclosed'] = 'Dossier fermé';
 $string['folderopened'] = 'Dossier ouvert';
 $string['followingoptional'] = 'Les éléments suivants sont facultatifs';
