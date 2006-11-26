@@ -112,6 +112,7 @@ $string['scorm:viewscores'] = 'Ver puntuaciones';
 $string['scormcourse'] = 'Curso de Aprendizaje';
 $string['scrollbars'] = 'Permitir desplazamiento de la ventana';
 $string['sided'] = 'A la izquierda';
+$string['skipview'] = 'Pasar por alto al estudiante la página de estructura de contenidos';
 $string['stagesize'] = 'Tamaño de marco/ventana';
 $string['started'] = 'Comenzado en';
 $string['status'] = 'Estatus';

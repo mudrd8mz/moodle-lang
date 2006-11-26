@@ -1,14 +1,17 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 (2006050506)
+      // resource.php - created with Moodle 1.7 (2006101007)
 
 
 $string['addresource'] = 'Agregar recurso';
+$string['affectedresources'] = 'Recursos afectados';
 $string['back'] = 'Atrás';
 $string['browserepository'] = 'Revisar repositorio';
 $string['choose'] = 'Seleccionar';
 $string['chooseafile'] = 'Elija o suba un archivo';
 $string['chooseparameter'] = 'Elegir parámetro';
 $string['configallowlocalfiles'] = 'Cuando se crea un nuevo recurso de archivo, permita enlaces a archivos en un sistema local de archivos tal como un CD o un disco duro. Esto puede ser muy útil cuando todos los estudiantes de una clase tienen acceso en red a un disco común o cuando se necesita acceder a archivos almacenados en un CD. El uso de esta característica puede exigir cambios en los controles de seguridad de su navegador.';
+$string['configautofilerenamesettings'] = 'Actualizar automáticamente las referencias a archivos y directorios cuando sean renombrados en el gestor de archivos.';
+$string['configblockdeletingfilesettings'] = 'Eliminación de bloques de archivos y directorios a que se refieren los recursos. Por favor, advierta que las imágenes y otros archivos referenciados desde html no están protegidos.';
 $string['configdefaulturl'] = 'Este valor se usa como pre-relleno cuando se crea un nuevo recurso basado en URL.';
 $string['configfilterexternalpages'] = 'Activar esta variable ocasionará que todos los recursos externos (páginas web, archivos HTML cargados) se procesen según los filtros definidos en el sitio (como el glosario, los enlaces automáticos, etc.). Esto puede hacer que el rendimiento del sistema disminuya considerablemente --úselo con cuidado, sólo si es necesario.';
 $string['configframesize'] = 'Cuando se muestra una página web o un archivo cargado dentro de un marco (frame), este valor es el tamaño en píxeles del marco superior (top) que contiene el navegador.';
@@ -84,7 +87,7 @@ $string['pagewindow'] = 'La misma ventana';
 $string['pan'] = 'Pan';
 $string['parameter'] = 'Parámetro';
 $string['parameters'] = 'Parámetros';
-$string['popupresource'] = 'Este recurso debe aparecer en una ventana ';
+$string['popupresource'] = 'Este recurso debe aparecer en una ventana';
 $string['popupresourcelink'] = 'Si no, haga clic aquí: $a';
 $string['preview'] = 'Previsualizar';
 $string['previous'] = 'Anterior';
@@ -117,5 +120,7 @@ $string['upbutton'] = 'Arriba';
 $string['variablename'] = 'Nombre de la variable';
 $string['viewims'] = 'Ver Paquete IMS CP';
 $string['vol'] = 'Vol';
+$string['warningblockingdelete'] = 'ATENCIÓN: La operación de borrado está bloqueada por un recurso existente. Puede actualizar en primer lugar sus recursos, o pedir al administrador que desactive este mecanismo de seguridad en la configuración global de los recursos.';
+$string['warningdisabledrename'] = 'ATENCIÓN: El renombrado automático de las referencias en los recursos está desactivado. Por favor, actualice manualmente los recursos afectados si fuera necesario. El administrador puede asimismo activar el renombrado automático en la configuración global de los recursos.';
 
 ?>
