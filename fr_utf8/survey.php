@@ -201,6 +201,7 @@ $string['survey:participate'] = 'Répondre aux consultations';
 $string['survey:readresponses'] = 'Voir les réponses';
 $string['survey:download'] = 'Télécharger les réponses';
 $string['surveycompleted'] = 'Vous avez complètement répondu à cette consultation. Le graphique ci-dessous montre un résumé de vos résultats comparés aux moyennes de la classe.';
+$string['surveygraph'] = 'Graphique de la consultation';
 $string['surveyname'] = 'Nom de la consultation';
 $string['surveysaved'] = 'Consultation enregistrée';
 $string['surveytype'] = 'Type de consultation';
