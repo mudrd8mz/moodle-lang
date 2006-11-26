@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8 dev (2006102600)
+      // survey.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['actual'] = '実体験';
@@ -203,6 +203,7 @@ $string['survey:download'] = '調査をダウンロードする';
 $string['survey:participate'] = '調査に回答する';
 $string['survey:readresponses'] = '回答を表示する';
 $string['surveycompleted'] = '調査が終了しました。下のグラフはクラスの平均とあなたの結果を比較したものです。';
+$string['surveygraph'] = '調査グラフ';
 $string['surveyname'] = '調査名';
 $string['surveysaved'] = '調査が保存されました。';
 $string['surveytype'] = '調査タイプ';
