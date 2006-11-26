@@ -133,8 +133,8 @@ $string['backupactivehelp'] = 'Vælg om der skal foretages automatisk backup';
 $string['backupcancelled'] = 'Backup annulleret';
 $string['backupcoursefileshelp'] = 'Vælg hvis du ønsker at inkludere kursusfiler i backuppen';
 $string['backupdate'] = 'Backup dato';
-$string['backupdatenew'] = '&nbsp;$a->TAG er nu $a->weekday, $a->mday $a->month $a->year<br />';
-$string['backupdateold'] = '&nbsp;$a->TAG var $a->weekday, $a->mday $a->month $a->year<br />';
+$string['backupdatenew'] = ' $a->TAG er nu $a->weekday, $a->mday $a->month $a->year<br />';
+$string['backupdateold'] = ' $a->TAG var $a->weekday, $a->mday $a->month $a->year<br />';
 $string['backupdaterecordtype'] = '<br />$a->recordtype - $a->recordname<br />';
 $string['backupdetails'] = 'Backup detaljer';
 $string['backupexecuteathelp'] = 'Vælg tidspunktet hvor automatisk backup skal foretages';
@@ -1181,8 +1181,7 @@ $string['weekshow'] = 'Vis denne uge til $a';
 $string['welcometocourse'] = 'Velkommen til $a';
 $string['welcometocoursetext'] = 'Velkommen til $a->coursename!
 
-En af de første ting du bør gøre, er at skrive i din brugerprofil i kurset, så vi kan læse lidt om, hvad du er for én:
-  $a->profileurl';
+En af de første ting du bør gøre, er at udfylde feltet \"Beskrivelse\" i din brugerprofil, for at præsentere dig overfor andre, så de kan se lidt om dig:  $a->profileurl';
 $string['whattocallzip'] = 'Hvad ønsker du at kalde zipfilen';
 $string['withchosenfiles'] = 'Med valgte filer';
 $string['withoutuserdata'] = 'uden brugerdata';
