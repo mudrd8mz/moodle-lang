@@ -1035,6 +1035,7 @@ $string['publicdirectory'] = 'Publication sur le site Moodle';
 $string['publicdirectory0'] = 'Merci de ne pas publier ce site';
 $string['publicdirectory1'] = 'Publier uniquement le nom de ce site';
 $string['publicdirectory2'] = 'Publier le nom de ce site avec un lien';
+$string['publicdirectorytitle'] = 'Voir la liste actuelles des sites';
 $string['publicsitefileswarning'] = 'Remarque&nbsp;: les fichiers déposés ici sont accessibles par tout le monde';
 $string['question'] = 'Consultation';
 $string['readinginfofrombackup'] = 'Lecture des informations de la sauvegarde';
