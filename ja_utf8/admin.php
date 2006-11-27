@@ -2,6 +2,7 @@
       // admin.php - created with Moodle 1.8 dev (2006112200)
 
 
+$string['accessdenied'] = 'アクセスが拒否されました。';
 $string['accounts'] = 'アカウント';
 $string['adminseesall'] = '管理者がすべてを閲覧する';
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示';
