@@ -1,5 +1,6 @@
 <?php // $Id$
 
+$string['accessdenied'] = 'Accès refusé';
 $string['accounts'] = 'Comptes';
 $string['adminseesall'] = 'Les administrateurs voient tout';
 $string['adminseesallevents'] = 'Les administrateurs voient tous les événements';
