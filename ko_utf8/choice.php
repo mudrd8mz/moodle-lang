@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8 dev (2006102200)
+      // choice.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['addmorechoices'] = '선택사항을 더 추가하시오';
@@ -17,6 +17,7 @@ $string['choicetext'] = '설문 내용';
 $string['displayhorizontal'] = '수평으로 배치하시오';
 $string['displaymode'] = '화면 배치';
 $string['displayvertical'] = '수직으로 배치하시오';
+$string['fillinatleastoneoption'] = '최소 두 개 이상의  답안을 제시할 필요가 있습니다.';
 $string['full'] = '가득참';
 $string['havetologin'] = '설문 응답을 제출하기 전에 로그인해야 합니다.';
 $string['limit'] = '제한';

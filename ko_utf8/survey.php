@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.7 dev (2006081000)
+      // survey.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['actual'] = '실적';
@@ -193,6 +193,7 @@ $string['survey:download'] = '설문응답을 내려받음';
 $string['survey:participate'] = '설문에 응답';
 $string['survey:readresponses'] = '응답을 봄';
 $string['surveycompleted'] = '당신은 이미 이것을 끝마쳤습니다. 밑에 보이는 그래프는 평균 점수에 관한 당신의 결과를 요약적으로 보여주는 것 입니다.';
+$string['surveygraph'] = '조사 도표';
 $string['surveyname'] = '조사 이름';
 $string['surveysaved'] = '조사가 저장되었음';
 $string['surveytype'] = '조사 유형';

@@ -2,6 +2,7 @@
       // admin.php - created with Moodle 1.8 dev (2006112200)
 
 
+$string['accessdenied'] = '접속 거부됨';
 $string['accounts'] = '계정';
 $string['adminseesall'] = '관리자는 모든 것을 봄';
 $string['adminseesallevents'] = '관리자가 모든 일정을 봄';
@@ -392,10 +393,15 @@ $string['renameerrors'] = '이름변경 오류';
 $string['restrictbydefault'] = '초기 설정으로 모듈 제한';
 $string['restrictmodulesfor'] = '다음에 대하여 모듈 제한';
 $string['riskconfig'] = '사용자가 사이트의 설정과 작동을 변경할 수 있음';
+$string['riskconfigshort'] = '위험한 설정';
 $string['riskmanagetrust'] = '사용자가 다른 사용자의 신임 설정을 변경할 수 있음';
+$string['riskmanagetrustshort'] = '신뢰 관리';
 $string['riskpersonal'] = '사용자가 다른 사용자의 개인 정보에 접근할 수 있음';
+$string['riskpersonalshort'] = '개인신상 노출 위험';
 $string['riskspam'] = '사용자가 타인에게 스팸메일을 보낼 수 있음';
+$string['riskspamshort'] = '스팸에 노출 위험';
 $string['riskxss'] = '사용자가 XSS를 허용하는 문서나 파일을 첨가할 수 있음';
+$string['riskxssshort'] = 'XSS 실행 노출 위험';
 $string['runclamavonupload'] = '올려진 파일에 대해 clam AV 사용';
 $string['savechanges'] = '변경사항 저장';
 $string['search'] = '검색';
