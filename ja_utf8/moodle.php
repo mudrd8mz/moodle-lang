@@ -924,6 +924,7 @@ $a->sitename で作業を始めるには $a->link にログインしてくださ
 $a->signoff';
 $string['newusers'] = '新規ユーザ';
 $string['next'] = '次へ';
+$string['nextsection'] = '次のセクション';
 $string['no'] = 'No';
 $string['nobody'] = 'なし';
 $string['nochange'] = '変更なし';
@@ -1055,6 +1056,7 @@ $string['preview'] = 'プレビュー';
 $string['previewhtml'] = 'HTMLフォーマットプレビュー';
 $string['previeworchoose'] = 'テーマを選択またはプレビューしてください。';
 $string['previous'] = '前へ';
+$string['previoussection'] = '前のセクション';
 $string['profile'] = 'プロフィール';
 $string['publicdirectory'] = 'パブリックディレクトリ';
 $string['publicdirectory0'] = 'このサイトを公開しないでください';
