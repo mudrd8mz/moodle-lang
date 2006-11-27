@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005042100)
+      // block_rss_client.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addfeed'] = 'Albiste-kanal baten URLa erantsi:';
 $string['addheadlineblock'] = 'RSS goialdeko blokea erantsi';
 $string['addnew'] = 'Berria erantsi';
+$string['blockname'] = 'RSS jarioa';
 $string['choosefeedlabel'] = 'Bloke honetan eskuragarri izatea nahi dituzun kanalak aukeratu:';
 $string['clientchannellink'] = 'Iturria...';
 $string['clientnumentries'] = 'Kanaleko erakutsi behar den lehenetsitako sarrera-kopurua.';

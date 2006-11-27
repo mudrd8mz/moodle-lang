@@ -1,11 +1,15 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.6 (2006050506)
+      // choice.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addmorechoices'] = 'Aukera gehiago gehitu';
 $string['allowupdate'] = 'Baimendu inkestaren eguneratzea';
 $string['answered'] = 'Erantzunda';
 $string['choice'] = '$a aukera';
+$string['choice:choose'] = 'Inkestari erantzun';
+$string['choice:deleteresponses'] = 'Erantzunak ezabatu';
+$string['choice:downloadresponses'] = 'Erantzunak jaitsi';
+$string['choice:readresponses'] = 'Erantzunak irakurri';
 $string['choiceclose'] = 'Noiz arte';
 $string['choicename'] = 'Inkestaren izena';
 $string['choiceopen'] = 'Zabaldu';
@@ -17,8 +21,8 @@ $string['full'] = '(Beteta)';
 $string['havetologin'] = 'Saioa hasi behar duzu zure erantzuna bidali ahal izateko.';
 $string['limit'] = 'Muga';
 $string['limitanswers'] = 'Onar daitekeen erantzunen kopurua  mugatu';
-$string['modulename'] = 'Inkesta';
-$string['modulenameplural'] = 'Inkestak';
+$string['modulename'] = 'Inkesta xumea';
+$string['modulenameplural'] = 'Inkesta xumeak';
 $string['mustchooseone'] = 'Erantzunen bat aukeratu behar duzu gorde aurretik. Ezer ez da gorde orain arte.';
 $string['notanswered'] = 'Oraindik erantzun gabe';
 $string['notopenyet'] = 'Barkatu, baina jarduera hau ez dago erabiltzeko moduan $a arte.';
@@ -31,7 +35,7 @@ $string['publishanonymous'] = 'Emaitzak anonimoki argitaratu. Ez erakutsi ikasle
 $string['publishnames'] = 'Emaitza osoak argitaratu, izenak eta egindako aukerak erakutsiz.';
 $string['publishnot'] = 'Ez argitaratu emaitzak ikasleei';
 $string['responses'] = 'Erantzunak';
-$string['responsesto'] = 'Erantzunak';
+$string['responsesto'] = 'Erantzunak $a-rentzat';
 $string['savemychoice'] = 'Nire inkesta gorde';
 $string['showunanswered'] = 'Erakutsi erantzun gabekoen zutabea';
 $string['spaceleft'] = 'espazio erabilgarria';

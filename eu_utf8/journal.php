@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // journal.php - created with Moodle 1.5 (2005060201)
+      // journal.php - created with Moodle 1.6.1 (2006050510)
 
 
 $string['alwaysopen'] = 'Beti zabalik';
 $string['blankentry'] = 'Sarrera zurian';
 $string['daysavailable'] = 'Noiz arte zabalik?';
-$string['editingended'] = 'Edizio epea bukatu da';
-$string['editingends'] = 'Edizio epearen bukaera';
+$string['editingended'] = 'Edizio-epea amaitu da';
+$string['editingends'] = 'Edizio-epearen amaiera';
 $string['entries'] = 'Sarrerak';
 $string['feedbackupdated'] = 'Sarreren erantzunak eguneratu dira';
 $string['journalmail'] = '$a->teacher-(e)k erantzun egin dio zure sarrerari ondorengo egunkarian: \'$a->journal\'
