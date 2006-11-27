@@ -1,0 +1,215 @@
+<?php
+
+# $Id$
+
+// Written by James Flemer
+// For eGrad2000.com
+// <jflemer@alum.rpi.edu>
+
+?>
+
+<a name="top"></a>
+<table bgcolor="#ffffff" border=2 width="98%"><tr><td>
+<p align="center"><b>Galdeketa editatzen</b></p>
+<ul>
+	<li><a href="#new">Inkesta berria sortzen</a></li>
+	<li><a href="#types">Erantzun moten adibideak</a></li>
+	<li><a href="#analysis">Analisi gurutzatua</a></li>
+	<li><a href="#tabulation">Tabulazio gurutzatua</a></li>
+</ul>
+
+<hr>
+
+<ul>
+<li><h3><a name="new">Inkesta berria sortzen</a></h3>
+	<ol>
+	<li><b>Galderen etiketak :</b>
+		<p>Zure galderaren  <strong>galdera</strong> kutxan testua idatzi (adibidez, <em>Zein da zure gustuko kolorea?</em>). Nahi izanez gero, galdera honen <b>eremuaren izena </b> idatz dezakezu. Zuriz uzten baduzu eremua automatikoki sortuko da.</p>
+
+		<p>Erabiltzaileak galderari hala beharrez erantzuna ematea nahi baduzu, dagokion eremuan <b>bai</b> aukera ezazu.</p>
+
+		<p>Galdera honetarako<b> erantzun mota </b>aukeratu. [Ereduak ikusteko <a
+		href="#types">hemen</a> klikatu.] Mota desberdinek beren konportamendua aldatzeko parametro desberdinak izan ditzakete,
+ beheko atala kontsultatu <b>luzera</b> eta <b>zehaztasun</b> atalak aztertzeko.</p>
+
+		<table border="0">
+		  <tr>
+		    <th align="left">Mota</th>
+		    <th align="left">Luzera</th>
+		    <th align="left">Zehaztasuna</th>
+		  </tr>
+		  <tr><td colspan="3"><hr size="0" noshadow="true"></td></tr>
+		  <tr>
+		    <td>Bai/Ez</td>
+		    <td>n/a</td><td>n/a</td></tr>
+		  <tr>
+		    <td>Testua</td>
+		    <td>luzera</td>
+		    <td>gehienezko luzeera </td>
+		  </tr>
+		  <tr>
+		    <td>Iruzkina</td>
+		  <td>zutabeak</td>
+		  <td>lerroak</td>
+		  </tr>
+		  <tr><td>Radio</td><td>n/a</td><td>n/a</td></tr>
+		  <tr><td>Checkboxes</td>
+		  <td>gutxien #</td>
+		  <td>gehien # <em>(oraindik garatu gabea)</em></td>
+		  </tr>
+		  <tr><td>Dropdown</td><td>n/a</td><td>n/a</td></tr>
+		  <tr><td>Rate</td><td>1..N</td>
+		  <td>"N/A" erabili </td>
+		  </tr>
+		  <tr>
+		    <td>Data</td>
+		    <td>n/a</td><td>n/a</td></tr>
+		  <tr>
+		    <td>Zenbakia</td>
+		    <td>luzera</td>
+		    <td>zehaztasuna</td>
+		  </tr>
+		</table>
+
+		<p>Erantzun ezberdinak dauzkan galdera mota aukeratzen baduzu, formularioaren behealdean lerroko erantzun bakarra bete. Lerro gehiago behar izanez gero, <b>Erantzuteko lerro bat erantsi </b>estekan klikatu. [Erantzun desberdinak dauzkaten galderak hauek dira: Check Boxes, Dropdown Box,
+		Radio Buttons, Rate.] Check boxes eta radio
+		buttons kasuetan, <tt>&quot;!other&quot;</tt>
+		testua idatz dezakezu lerro batean aukera berria ager dadin. </p>
+
+		<p>Galdera gehiago sortzeko <b>Galdera berria </b> botoia sakatu. Editatu/Ikusi dauden galderak formularioaren goialdean dauden galdera zenbakietan klikatuz.<p>
+
+	</li>
+	<li><b>Ordenaren tabulazioa :</b>
+		<p>Tabulazio honekin  galderen ordena alda daiteke, baita galderak ezabatu eta atal-etenak erantsi. Atal-etenak zure inkesta orritan banatzen du, bereziki interesgarria dena inkesta luzeen kasuan.</p>
+	</li>
+	<li><b>Aurrebista tabulazioa :</b>
+		<p>Zure inkestaren aurrebista erakusten du. Edonoiz tabulazio hau erabil dezakezu zure inkestaren itxura aztertzeko. Zerbait aldatu nahi bazenu,
+		tabulazio egokira joan eta dagozkion aldaketak egin. zure inkestarekin pozik zaudenean,		<b>Bukatu</b> tabulazioan edo orriaren behaldeko botoian klikatu.</p>
+
+		<p><b>Hurrengo orria </b> eta <b>Inkesta bidali </b>
+		botoiak ez daude indarrean aurrebistan.</p>
+	</li>
+	</ol>
+
+	<p><a href="#top">Gorta jo</a></p>
+</li>
+<li>
+  <h3><a name="types">Erantzun motak </h3>
+	<ul>
+	<li>Bai/Ez<br>
+		<input type="radio" name="bool">
+		Bai<br>
+		<input type="radio" name="bool">
+		Ez</li>
+	<li>Lerro bakarreko testua <br>
+		<input type="text" size=30>
+	</li>
+	<li>Iruzkina<br>
+		<textarea cols="40" rows="4"></textarea>
+	</li>
+	<li>Radio Botoiak <br>
+		<input type="radio" name="radio">
+		1. aukera <br>
+		<input type="radio" name="radio">
+		2. aukera <br>
+	</li>
+	<li>Check Boxes<br>
+		<input type="checkbox">
+		1. aukera <br>
+		<input type="checkbox">
+		2. aukera <br>
+	</li>
+	<li>Dropdown Box<br>
+		<select>
+			<option></option>
+			<option>Option 1</option>
+			<option>Option 2</option>
+		</select>
+	</li>
+	<li>Rate (eskala 1..N)
+	  <blockquote>
+		<table border="0" cellspacing="1" cellpadding="0">
+			<tr>
+				<td></td>
+				<td width="40" align="center" bgcolor="#eeeeee">1</td>
+				<td width="40" align="center" bgcolor="#dddddd">2</td>
+				<td width="40" align="center" bgcolor="#eeeeee">3</td>
+				<td width="40" align="center" bgcolor="#dddddd">4</td>
+				<td width="40" align="center" bgcolor="#eeeeee">5</td>
+				<td width="40" align="center" bgcolor="#dddddd">N/A</td>
+			</tr>
+			<tr>
+				<td>1 aukera </td>
+				<td width="40" align="center" bgcolor="#eeeeee"><input type="radio" name="118_124" value="1"></td>
+				<td width="40" align="center" bgcolor="#dddddd"><input type="radio" name="118_124" value="2"></td>
+				<td width="40" align="center" bgcolor="#eeeeee"><input type="radio" name="118_124" value="3"></td>
+				<td width="40" align="center" bgcolor="#dddddd"><input type="radio" name="118_124" value="4"></td>
+				<td width="40" align="center" bgcolor="#eeeeee"><input type="radio" name="118_124" value="5"></td>
+				<td width="40" align="center" bgcolor="#dddddd"><input type="radio" name="118_124" value="N/A"></td>
+			</tr>
+			<tr>
+				<td> 2 aukera</td>
+				<td width="40" align="center" bgcolor="#eeeeee"><input type="radio" name="118_125" value="1"></td>
+				<td width="40" align="center" bgcolor="#dddddd"><input type="radio" name="118_125" value="2"></td>
+				<td width="40" align="center" bgcolor="#eeeeee"><input type="radio" name="118_125" value="3"></td>
+				<td width="40" align="center" bgcolor="#dddddd"><input type="radio" name="118_125" value="4"></td>
+				<td width="40" align="center" bgcolor="#eeeeee"><input type="radio" name="118_125" value="5"></td>
+				<td width="40" align="center" bgcolor="#dddddd"><input type="radio" name="118_125" value="N/A"></td>
+			</tr>
+			<tr>
+				<td> 3 aukera</td>
+				<td width="40" align="center" bgcolor="#eeeeee"><input type="radio" name="118_126" value="1"></td>
+				<td width="40" align="center" bgcolor="#dddddd"><input type="radio" name="118_126" value="2"></td>
+				<td width="40" align="center" bgcolor="#eeeeee"><input type="radio" name="118_126" value="3"></td>
+				<td width="40" align="center" bgcolor="#dddddd"><input type="radio" name="118_126" value="4"></td>
+				<td width="40" align="center" bgcolor="#eeeeee"><input type="radio" name="118_126" value="5"></td>
+				<td width="40" align="center" bgcolor="#dddddd"><input type="radio" name="118_126" value="N/A"></td>
+			</tr>
+		</table>
+	</blockquote>
+	</li>
+	<li>Data<br>
+	<input type="text" name="date" size="10"> 
+	<em>(ad. 4/21/2002)</em>
+	</li>
+	<li>Zenbakia<br>
+	<input type="text" name="numeric" size="10">
+	</li>
+	</ul>
+	<p><a href="#top">Gora jo </a></p>
+</li>
+
+<li>
+  <h3><a name="analysis">Analisi gurutzatua</h3>
+	Inkesta baten emaitzen analisia gurutzatzeko galderaren ezker aldeko radio botoi egokian nahi duzun galdera aukeratu. Ondoren, galderaren aukera bat edo gehiago hartu behar duzu galderaren azpiko checkbox-aren bidez. Horrek aukeratutako irizpideen araberako emaitzak erakutsiko dizkizu. Oraingoz, analisi gurutzatua galdera bakarrekin baino ezin da egin.
+	<p><img src="<?php echo($ESPCONFIG['image_url']);?>cross_analysis.jpg" width="700" height="262"><br>
+	<br>
+	Honek ondorengo emaitza sortuko du:<br>
+	<br>
+	<img src="<?php echo($ESPCONFIG['image_url']);?>cross_analysis_result.jpg" width="700" height="284"><br>
+	<br>
+	Ondoriozko emaitzak galderaren aukera &quot;Bai&quot; izan zeneko erantzun guztiak erakusten ditu.
+	<p><a href="#top">Gora jo </a></p>
+</li>
+<li>
+  <h3><a name="tabulation">Tabulazio gurutzatua </h3>
+	Tabulazio gurutzatuak bi galderen aukeraketan oinarritzen den emaitza erakusten du. Hori lortzeko tabulazio gurutzatua osatuko duten zutabe eta lerroetan zer galderen aukerak egongo diren erabaki behar da. Lerroaren hautaketa galderaren eskuin aldean dagoen lauki gorriko radio
+	botoiaz egiten da; zutabearena, aldiz, lauki urdineko radio botoiaz aukeratzen da.
+	<p><img src="<?php echo($ESPCONFIG['image_url']);?>cross_tabulate.jpg" width="700" height="273"></p>
+	<p>Beheko adibidean 1. eta 4. galderak aukeratu ditugu tabulazioa gurutzatzeko. 1 lerroko hautaketa eta 4 zutabekoa da. Emaitza hauxe da:<br>
+	<br>
+	<img src="<?php echo($ESPCONFIG['image_url']);?>cross_tabulate_result1.jpg" width="700" height="187"><br>
+	Nahi izanez gero, tabulazio bera egin daiteke 4. galdera lerroan eta 1.a zutabean jarrita. Hona hemen emaitza:<br>
+	<br>
+	<img src="<?php echo($ESPCONFIG['image_url']);?>cross_tabulate2.jpg" width="700" height="271"><br>
+	<br>
+	Honek denak emaitza sorta hau ematen du:<br>
+	<br>
+	<img src="<?php echo($ESPCONFIG['image_url']);?>cross_tabulate_result2.jpg" width="700" height="274"> </p>
+<p><a href="#top">Gora jo </a></p>
+</li>
+</ul>
+
+</td>
+</tr>
+</table>
