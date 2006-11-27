@@ -1,14 +1,26 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 dev (2006102600)
+      // group.php - created with Moodle 1.8 dev (2006112200)
 
 
+$string['addexistinggroupstogrouping'] = 'Mevcut grupları gruplamaya ekle';
+$string['addgroupstogrouping'] = 'Grupları gruplamaya ekle';
 $string['adduserstogroup'] = 'Kullanıcıları gruba ekle';
 $string['cancel'] = 'İptal';
+$string['createautomaticgrouping'] = 'Otomatik gruplama oluştur';
 $string['creategroup'] = 'Grup oluştur';
+$string['creategrouping'] = 'Gruplama oluştur';
+$string['creategroupinselectedgrouping'] = 'Seçili gruplamada grup oluştur';
 $string['defaultgroupdescription'] = 'Varsayılan grup açıklaması';
+$string['defaultgroupingname'] = 'Gruplama';
 $string['defaultgroupname'] = 'Grup';
 $string['defaultgroupprefix'] = 'Grup';
+$string['deletegrouping'] = 'Gruplamayı sil';
 $string['deleteselectedgroup'] = 'Seçili grubu sil';
+$string['displaygrouping'] = 'Gruplamayı göster';
+$string['distributealphabetically'] = 'Grupları soyada göre alfabetik dağıt';
+$string['distributeevenly'] = 'Artan öğrencileri eşit dağıt';
+$string['editgroupingpermissions'] = 'Gruplama yetkilerini düzenle';
+$string['editgroupingsettings'] = 'Gruplama ayarlarını düzenle';
 $string['editgroupsettings'] = 'Grup ayarlarını düzenle';
 $string['enrolmentkey'] = 'Kayıt anahtarı';
 $string['group'] = 'Grup';
@@ -17,6 +29,10 @@ $string['groupfor'] = 'grup için';
 $string['groupinfo'] = 'Seçili grup hakkında bilgi';
 $string['groupinfomembers'] = 'Seçili üyeler hakkında bilgi';
 $string['groupinfopeople'] = 'Seçili kişiler hakkında bilgi';
+$string['grouping'] = 'Gruplama';
+$string['groupingdescription'] = 'Gruplama açıklaması';
+$string['groupingname'] = 'Gruplama adı';
+$string['groupings'] = 'Gruplamalar';
 $string['groupmembers'] = 'Grup üyeleri';
 $string['groupmemberssee'] = 'Grup üyelerine bak';
 $string['groupmembersselected'] = 'Seçili grubun üyeleri';
@@ -26,6 +42,8 @@ $string['groupmy'] = 'Grubum';
 $string['groupname'] = 'Grup adı';
 $string['groupnotamember'] = 'Üzgünüz, bu grubun üyesi değilsiniz';
 $string['groups'] = 'Gruplar';
+$string['groupsinselectedgrouping'] = 'Seçili gruplamadaki gruplar';
+$string['groupsnone'] = 'Grup yok';
 $string['groupsseparate'] = 'Ayrı gruplar';
 $string['groupsvisible'] = 'Görünür gruplar';
 $string['hidepicture'] = 'Resmi gizle';
@@ -35,7 +53,19 @@ $string['newpicture'] = 'Yeni resim';
 $string['numberofgroups'] = 'Grup sayısı';
 $string['numberofstudents'] = 'Öğrenci sayısı';
 $string['prefixforgroupnames'] = 'Grup adları için önek';
+$string['printerfriendly'] = 'Gruplamanın yazıcı-dostu görünümü';
+$string['removegroupfromselectedgrouping'] = 'Grubu seçili gruplamadan sil';
 $string['removeselectedusers'] = 'Seçili kullanıcıları sil';
 $string['save'] = 'Kaydet';
+$string['selectnumberineachgroup'] = 'Her bir gruptaki sayı';
+$string['selectnumberofgroups'] = 'Grup sayısını seçin';
+$string['showusersalreadyingroup'] = 'Gruplamada zaten bir grupta olan öğrencileri göster';
+$string['teachersgroupmark'] = 'Eğitimciler, abonesi olmadıkları gruplardaki etkinlikleri işaretleyemez';
+$string['teachersgroupview'] = 'Eğitimciler, abonesi olmadıkları gruplardaki etkinlikleri göremez';
+$string['teachersoverride'] = 'Hiçbir gruba abone olmayan eğitimciler, bütün grupları görebilir ve grup etkinliklerini işaretleyebilir (yukarıdakini hükümsüz kılar)';
+$string['usestudentsonlyfromselectedgroup'] = 'Sadece şu an seçili gruptan öğrencileri kullan';
+$string['viewallgroupsactivities'] = 'Öğrenciler görebilir, ama bütün gruplardaki etkinliklere dağıtılamaz';
+$string['viewallgroupsmembers'] = 'Öğrenciler, bütün grupların üyelerini görebilir';
+$string['viewowngroup'] = 'Öğrenciler, abonesi oldukları herhangi bir grubun üyelerini görebilir';
 
 ?>
