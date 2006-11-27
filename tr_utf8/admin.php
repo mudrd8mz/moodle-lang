@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2006102600)
+      // admin.php - created with Moodle 1.8 dev (2006112200)
 
 
+$string['accessdenied'] = 'Erişim engellendi';
 $string['accounts'] = 'Hesaplar';
 $string['adminseesall'] = 'Yöneticiler Hepsini Görür';
 $string['adminseesallevents'] = 'Yöneticiler bütün olayları görür';
@@ -382,10 +383,15 @@ $string['renameerrors'] = 'Yeniden adlandırmada hata';
 $string['restrictbydefault'] = 'Varsayılan modül sınırlaması';
 $string['restrictmodulesfor'] = 'Modülleri sınırla';
 $string['riskconfig'] = 'Kullanıcılar, site yapılandırmasını ve davranışını değiştirebilir';
+$string['riskconfigshort'] = 'Yapılandırma riski';
 $string['riskmanagetrust'] = 'Kullanıcılar, diğer kullanıcıların güvenilirlik ayarlarını değiştirebilir';
+$string['riskmanagetrustshort'] = 'Güvenilirlik yönetimi';
 $string['riskpersonal'] = 'Kullanıcılar, diğer kullanıcıların özel bilgilerine erişebilir';
-$string['riskspam'] = 'Kullanıcılar, site kullanıcılarına veya diğerlerine spam gönderebilir';
+$string['riskpersonalshort'] = 'Gizlilik riski';
+$string['riskspam'] = 'Kullanıcılar, site kullanıcılarına veya diğer kişilere toplu mesaj gönderebilir';
+$string['riskspamshort'] = 'Toplu mesaj riski';
 $string['riskxss'] = 'Kullanıcılar, cross-site scripting (XSS) izni verilerek dosya ve metin ekleyebilirler';
+$string['riskxssshort'] = 'XSS riski';
 $string['runclamavonupload'] = 'Yüklenen dosyalarla ClamAV kullan';
 $string['savechanges'] = 'Değişiklikleri Kaydet';
 $string['search'] = 'Ara';
@@ -450,7 +456,7 @@ $string['upgradeforumreadinfo'] = 'Moodle 1.5\'e forum mesajlarını okundu/okun
 $string['upgradelogs'] = 'Tam işlevsellik için, eski kayıt dosyalarınız güncellenmeli. <a href=\"$a\">Daha fazla bilgi</a>';
 $string['upgradelogsinfo'] = 'Kayıtların(loglar) kaydedilme biçiminde bazı değişiklikler yapıldı. Etkinlik seviyesindeki eski kayıtları görebilmeniz için güncellenmesi gerekiyor. Sitenize bağlı olarak bu işlem biraz uzun (bir kaç saat) sürebilir ve büyük sitelerde veritabanına oldukça fazla yük getirebilir. İşleme başladığınızda işlemin bitmesine izin verin (tarayıcı pencerenizi açık bırakarak). Kaygılanmanıza gerek yok - kayıtlar güncellenirken siteniz diğer kullanıcılar için çalışacaktır.<br /><br />Kayıtları(loglar) şimdi güncellemek istiyor musunuz?';
 $string['upgradesettings'] = 'Yeni ayarlar';
-$string['upgradesettingsintro'] = 'Aşağıda gösterilen ayarlar son Moodle güncelleştirme sırasında eklendi. Gerekli değişikliklikleri yaptıktan sonra sayfanın altındaki \"Değişiklikleri kaydet\" butonuna basın.';
+$string['upgradesettingsintro'] = 'Aşağıda gösterilen ayarlar son Moodle güncelleştirmesi sırasında eklendi. Gerekli değişikliklikleri yaptıktan sonra sayfanın altındaki \"Değişiklikleri kaydet\" butonuna basın.';
 $string['upgradesure'] = 'Moodle dosyalarınız değişti ve otomatik olarak sunucunuzu şu sürüme terfi etmek üzeresiniz: <br /><br /><strong>$a</strong><br /><br />Bunu yaptığınızda tekrar geri dönemezsiniz.<br /><br />Bu sunucuyu bu sürüme terfi etmek istediğinizden emin misiniz?';
 $string['upgradingdata'] = 'Veri güncelleniyor';
 $string['upgradinglogs'] = 'Loglar güncelleniyor';

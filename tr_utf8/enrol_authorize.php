@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 dev (2006102600)
+      // enrol_authorize.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['adminacceptccs'] = 'Hangi kredi kartı tipleri kabul edilecek?';
@@ -125,6 +125,13 @@ $string['orderid'] = 'Sipariş ID';
 $string['paymentmanagement'] = 'Ödeme Yönetimi';
 $string['paymentmethod'] = 'Ödeme Yöntemi';
 $string['paymentpending'] = '$a->orderid numaralı ödemeniz bu kurs için onay bekliyor. <a href=\'$a->url\'>Sipariş Ayrıntılarına</a> bakabilirsiniz.';
+$string['pendingecheckemail'] = 'Sayın yönetici,
+
+Şu anda $a->count bekleyen eÇek var ve kullanıcıları kaydettirmek için csv dosyası yüklemeniz gerekmektedir.
+
+Bağlantıyı tıklayın ve sayfada görünen yardım dosyasını okuyun:
+$a->url';
+$string['pendingechecksubject'] = '$a->course: Bekleyen eÇekler($a->count)';
 $string['pendingordersemail'] = 'Değerli yönetici,
 
 $a->days gün içinde \"$a->course\" kursu için onay bekleyen $a->pending işlemi kabul etmezseniz süresi dolacak ve iptal edilecek.

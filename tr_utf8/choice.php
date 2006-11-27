@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8 dev (2006102400)
+      // choice.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['addmorechoices'] = 'Daha fazla seçenek ekle';
@@ -17,6 +17,7 @@ $string['choicetext'] = 'Anket metni';
 $string['displayhorizontal'] = 'Yatay görüntüle';
 $string['displaymode'] = 'Görünüm modu';
 $string['displayvertical'] = 'Dikey görüntüle';
+$string['fillinatleastoneoption'] = 'En az iki yanıt vermeniz gerekiyor.';
 $string['full'] = '(Tam)';
 $string['havetologin'] = 'Anketi göndermeden önce giriş yapmalısınız';
 $string['limit'] = 'Sınır';

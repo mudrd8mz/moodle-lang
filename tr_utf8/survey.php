@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.7 dev (2006081000)
+      // survey.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['actual'] = 'Gerçek';
@@ -203,6 +203,7 @@ $string['survey:download'] = 'Yanıtları indir';
 $string['survey:participate'] = 'Anketi yanıtla';
 $string['survey:readresponses'] = 'Yanıtlara bak';
 $string['surveycompleted'] = 'Bu anketi tamamladınız.  Aşağıdaki grafikte sınıf ortalamasına göre özet sonucunuz gösterilmektedir.';
+$string['surveygraph'] = 'Anket grafiği';
 $string['surveyname'] = 'Anket adı';
 $string['surveysaved'] = 'Anket kaydedildi';
 $string['surveytype'] = 'Anket türü';

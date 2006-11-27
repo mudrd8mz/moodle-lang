@@ -1,11 +1,13 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.6 development (2006030901)
+      // calendar.php - created with Moodle 1.8 dev (2006112200)
 
 
+$string['advancedoptions'] = 'Gelişmiş ayarlar';
 $string['calendar'] = 'Takvim';
 $string['calendarheading'] = '$a Takvimi';
-$string['clickhide'] = 'gizlemek için tıkla';
-$string['clickshow'] = 'göstermek için tıkla';
+$string['clickhide'] = 'gizle';
+$string['clickshow'] = 'göster';
+$string['commontasks'] = 'Seçenekler';
 $string['confirmeventdelete'] = 'Bu olayı silmek istediğinizden emin misiniz?';
 $string['courseevents'] = 'Ders olayları';
 $string['dayview'] = 'Günlük Görünüm';
@@ -32,26 +34,35 @@ $string['eventkind'] = 'Olay tipi';
 $string['eventname'] = 'İsim';
 $string['eventnone'] = 'Olay yok';
 $string['eventrepeat'] = 'Tekrarlama';
+$string['eventsall'] = 'Tüm olaylar';
 $string['eventsfor'] = '$a olayları';
+$string['eventsrelatedtocourses'] = 'Kursla ilgili olaylar';
 $string['eventstarttime'] = 'Başlangıç tarihi';
 $string['eventtime'] = 'Zaman';
 $string['eventview'] = 'Olay Ayrıntıları';
 $string['expired'] = 'Süresi doldu';
-$string['explain_lookahead'] = 'Gelecek bir olayın gösterilmesinde maksimum gün sayısını ayarlar. Bundan sonra olan olaylar gösterilmez. Lütfen dikkat; bu zaman çerçevesindeki tüm olayların gösterilmesinin <strong>garantisi yoktur.</strong> Eğer çok fazla sayıda (Gelecek Maksimum Olay sayısından daha fazla)olay varsa en sondaki olaylar gösterilmez. ';
+$string['explain_lookahead'] = 'Gelecek bir olayın gösterilmesinde maksimum gün sayısını ayarlar. Bundan sonra olan olaylar gösterilmez. Lütfen dikkat; bu zaman çerçevesindeki tüm olayların gösterilmesinin <strong>garantisi yoktur.</strong> Eğer çok fazla sayıda (Gelecek Maksimum Olay sayısından daha fazla)olay varsa en sondaki olaylar gösterilmez.';
 $string['explain_maxevents'] = 'Yaklaşan olayların görüntülenme sayısı sınırını ayarlayabilirsiniz. Büyük bir sayı girerseniz yaklaşan olaylar ekranınızda çok yer kaplayabilir.';
 $string['explain_persistflt'] = 'Bu ayarın etkin olması durumunda, son filtreleme ayarlarınız hatırlanacak ve her giriş yaptığınızda bu ayarlara dönülecektir.';
 $string['explain_startwday'] = 'Burada seçtiğiniz gün, haftanın ilk günü olarak görünecektir.';
 $string['explain_timeformat'] = 'Saatin 12 veya 24 şeklinde görünmesini ayarlayabilirsiniz. Varsayılanı seçerseniz siteyi kullandığınız dilin ayarlarına göre saat biçimi belirecektir.';
+$string['export'] = 'Dışa ver';
+$string['exportbutton'] = 'Dışa ver';
+$string['exportcalendar'] = 'Takvimi dışa ver';
 $string['fri'] = 'Cum';
 $string['friday'] = 'Cuma';
+$string['generateurlbutton'] = 'Takvim URL getir';
 $string['globalevents'] = 'Genel olaylar';
 $string['gotocalendar'] = 'Takvime git';
 $string['groupevents'] = 'Grup olayları';
 $string['hidden'] = 'gizli';
+$string['iwanttoexport'] = 'Dışa ver';
 $string['manyevents'] = '$a olayları';
 $string['mon'] = 'Pzt';
 $string['monday'] = 'Pazartesi';
 $string['monthlyview'] = 'Aylık Görünüm';
+$string['monthnext'] = 'Sonraki ay';
+$string['monththis'] = 'Bu ay';
 $string['newevent'] = 'Yeni Olay';
 $string['noupcomingevents'] = 'Yakın zamanda olay yok';
 $string['oneevent'] = '1 olay';
@@ -62,6 +73,8 @@ $string['pref_startwday'] = 'Haftanın ilk günü';
 $string['pref_timeformat'] = 'Zaman gösterim biçimi';
 $string['preferences'] = 'Seçenekler';
 $string['preferences_available'] = 'Kişisel tercihleriniz';
+$string['quickdownloadcalendar'] = 'Hızlı indir / takvime abone ol';
+$string['recentupcoming'] = 'Şu an ve sonraki 60 gün';
 $string['repeateditall'] = 'Bu tekrarlanan seride değişiklikleri tüm $a olaylarına uygula';
 $string['repeateditthis'] = 'Değişiklikleri sadece bu olaya uygula';
 $string['repeatnone'] = 'Tekrar yok';
@@ -96,9 +109,12 @@ $string['typegroup'] = 'Grup olayı';
 $string['typesite'] = 'Site olayı';
 $string['typeuser'] = 'Kullanıcı olayı';
 $string['upcomingevents'] = 'Yaklaşan Olaylar';
+$string['urlforical'] = 'iCalendar dışa verimi için URL, takvime abonelik için kullanılır';
 $string['userevents'] = 'Kullanıcı olayları';
 $string['wed'] = 'Çrş';
 $string['wednesday'] = 'Çarşamba';
+$string['weeknext'] = 'Sonraki hafta';
+$string['weekthis'] = 'Bu hafta';
 $string['yesterday'] = 'Dün';
 $string['youcandeleteallrepeats'] = 'Bu durum bir tekrarlanan olay serisinin parçasıdır. Sadece bu olayı silebilirsiniz, veya serideki tüm $a olayları bir seferde silersiniz.';
 

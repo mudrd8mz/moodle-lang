@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006102600)
+      // moodle.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['action'] = 'Eylem';
@@ -260,6 +260,7 @@ $string['courseinfo'] = 'Kurs bilgisi';
 $string['coursemessage'] = 'Kurs kullanıcılarına mesaj';
 $string['coursenotaccessible'] = 'Bu kurs herkesin erişimine açık değildir';
 $string['courseoverview'] = 'Kursa gözat';
+$string['courseoverviewgraph'] = 'Kursa gözatma grafiği';
 $string['coursereject'] = 'Kurs isteğini reddet';
 $string['courserejected'] = 'Kurs reddedildi ve isteyen kişi bilgilendirildi.';
 $string['courserejectemail'] = 'Üzgünüz, istediğiniz kurs onaylanmadı. Reddedilme sebebi:
@@ -538,6 +539,7 @@ $string['findmorecourses'] = 'Daha fazla kurs bul...';
 $string['firstdayofweek'] = '1';
 $string['firstname'] = 'Ad';
 $string['firsttime'] = 'Buraya ilk defa mı geliyorsunuz?';
+$string['folder'] = 'Klasör';
 $string['folderclosed'] = 'Kapalı klasör';
 $string['folderopened'] = 'Açık klasör';
 $string['followingoptional'] = 'Aşağıdakiler isteğe bağlıdır';
@@ -671,6 +673,7 @@ $string['htmlformat'] = 'Şık HTML biçimi';
 $string['icqnumber'] = 'ICQ numarası';
 $string['idnumber'] = 'ID numarası';
 $string['idnumbercourse'] = 'Kursun ID numarası';
+$string['imagealt'] = 'Resim açıklaması';
 $string['import'] = 'Al';
 $string['importactivities'] = 'Etkinlikleri başka kurstan al';
 $string['importdata'] = 'Kurs verisi al';
@@ -903,6 +906,7 @@ Bu bağlantıyı tıkladığınızda yeni sayfada site açılacaktır. Açılmı
 $a->signoff';
 $string['newusers'] = 'Yeni kullanıcılar';
 $string['next'] = 'Sonraki';
+$string['nextsection'] = 'Sonraki bölüm';
 $string['no'] = 'Hayır';
 $string['nobody'] = 'Hiçkimse';
 $string['nochange'] = 'Değişiklik yok';
@@ -1016,6 +1020,7 @@ $string['periodending'] = 'Bitiş süresi ($a)';
 $string['personalprofile'] = 'Kişisel profil';
 $string['phone'] = 'Telefon';
 $string['phpinfo'] = 'PHP bilgisi';
+$string['pictureof'] = '$a resmi';
 $string['pleaseclose'] = 'Bu pencereyi şimdi kapat.';
 $string['pluginsetup'] = 'Eklenti tabloları ayarlanıyor';
 $string['policyagree'] = 'Bu siteyi kullanmaya devam etmek için bu sözleşmeyi kabul etmelisiniz. Kabul ediyor musunuz?';
@@ -1035,11 +1040,13 @@ $string['preview'] = 'Önizleme';
 $string['previewhtml'] = 'HTML Biçimi Önizlemesi';
 $string['previeworchoose'] = 'İzle veya bir tema seç';
 $string['previous'] = 'Önceki';
+$string['previoussection'] = 'Önceki bölüm';
 $string['profile'] = 'Profil';
 $string['publicdirectory'] = 'Halka açık dizin';
 $string['publicdirectory0'] = 'Lütfen bu siteyi yayınlama';
 $string['publicdirectory1'] = 'Sadece site adını yayınla';
 $string['publicdirectory2'] = 'Siteyi bağlantısıyla birlikte yayınla';
+$string['publicdirectorytitle'] = 'Şu anki site listesine bakın';
 $string['publicsitefileswarning'] = 'Not: Buradaki dosyalara herkes erişebilir';
 $string['question'] = 'Soru';
 $string['readinginfofrombackup'] = 'Yedeklemeden bilgi okunuyor';
@@ -1115,6 +1122,9 @@ $string['scalesstandard'] = 'Standart ölçekler';
 $string['scalestip'] = 'Kişisel ölçek oluşturmak için kurs yönetim menüsündeki \'Ölçekler...\' bağlantısnı kullanın.';
 $string['schedule'] = 'Zamanlama';
 $string['scheduledbackupstatus'] = 'Zamanlanmış yedekleme durumu';
+$string['screenreaderno'] = 'Hayır';
+$string['screenreaderuse'] = 'Ekran okuyucu';
+$string['screenreaderyes'] = 'Evet';
 $string['screenshot'] = 'Ekran görüntüsü';
 $string['search'] = 'Ara';
 $string['searchagain'] = 'Tekrar ara';
@@ -1199,6 +1209,7 @@ $string['startdate'] = 'Kursun başlama tarihi';
 $string['startsignup'] = 'Yeni hesap oluştur';
 $string['state'] = 'Eyalet';
 $string['statistics'] = 'İstatistikler';
+$string['statisticsgraph'] = 'İstatistik grafiği';
 $string['stats'] = 'İstatistikler';
 $string['statslogins'] = 'Girişler';
 $string['statsmodedetailed'] = 'Ayrıntılı (kullanıcı) görünümü';
