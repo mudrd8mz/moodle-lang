@@ -559,6 +559,7 @@ $string['formattopicsajax'] = 'Thématique - AJAX';
 $string['formatweeks'] = 'Hebdomadaire';
 $string['formatweekscss'] = 'Hebdomadaire - CSS, sans table';
 $string['formatwiki'] = 'Format de genre wiki';
+$string['framesetinfo'] = 'Ce jeu de cadres contient&nbsp;:';
 $string['from'] = 'De';
 $string['frontpagecategorycombo'] = 'Liste combinée';
 $string['frontpagecategorynames'] = 'Liste des catégories de cours';
