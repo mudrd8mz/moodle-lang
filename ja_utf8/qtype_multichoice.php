@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.8 dev (2006102600)
+      // qtype_multichoice.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['answerhowmany'] = '単一または複数解答?';
@@ -7,6 +7,7 @@ $string['answersingleno'] = '複数解答を許可';
 $string['answersingleyes'] = '単一の解答のみ';
 $string['choiceno'] = '選択肢 $a';
 $string['choices'] = '利用可能な選択肢';
+$string['clozeaid'] = 'テキストを入力してください。';
 $string['editingmultichoice'] = '多肢選択問題の編集';
 $string['feedback'] = 'フィードバック';
 $string['fillouttwochoices'] = '2つ以上の選択肢を入力してください。空白の選択肢は使用されません。';
