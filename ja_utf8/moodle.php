@@ -568,6 +568,7 @@ $string['formattopicsajax'] = 'トピックフォーマット - AJAX';
 $string['formatweeks'] = 'ウィークリーフォーマット';
 $string['formatweekscss'] = 'ウィークリーフォーマット - CSS (テーブルなし)';
 $string['formatwiki'] = 'Wikiライクフォーマット';
+$string['framesetinfo'] = 'このフレームセットのドキュメント:';
 $string['from'] = 'From';
 $string['frontpagecategorycombo'] = 'コンボリスト';
 $string['frontpagecategorynames'] = 'カテゴリ一覧';
