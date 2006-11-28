@@ -451,9 +451,9 @@ Dans la plupart des logiciels de messagerie, cette adresse devrait apparaître c
 
 Si vous avez besoin d\'aide, veuillez contacter l\'administrateur du site, $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a : confirmation du changement de mot de passe';
-$string['emailpasswordconfirmmaybesent'] = '<p>Si vous avez fourni un nom d\'utilisateur ou une adresse de courriel corrects, une message vous a été envoyé par courriel.</p> <p>Ce message contient de simples instructions pour confirmer et terminer cette procédure de modification de mot de passe. Si vous n\'arrivez toujours pas à vous connecter, veuillez contacter l\'administrateur du site.</p>';
+$string['emailpasswordconfirmmaybesent'] = '<p>Si vous avez fourni un nom d\'utilisateur ou une adresse de courriel corrects, un message vous a été envoyé par courriel.</p> <p>Ce message contient de simples instructions pour confirmer et terminer cette procédure de modification de mot de passe. Si vous n\'arrivez toujours pas à vous connecter, veuillez contacter l\'administrateur du site.</p>';
 $string['emailpasswordconfirmsent'] = '<p>Un message a été envoyé à votre adresse de courriel <strong>$a</strong>.</p><p>Ce message décrit la marche à suivre pour confirmer et terminer le changement de mot de passe.</p><p>En cas de difficulté, veuillez contacter l\'administrateur du site.</p>';
-$string['emailpasswordsent'] = '<p>Merci pour votre confirmation de changement de mot de passe.</p><p>Un message avec votre nouveau mot de passe a été envoyé à votre adresse <strong>$a->email</strong>.</p><p>Le nouveau mot de passe a été généré automatiquement. Vous pouvez <a href=\"$a->link\">le modifier</a> pour le rendre plus facile mémoriser.</p>';
+$string['emailpasswordsent'] = '<p>Merci pour votre confirmation de changement de mot de passe.</p><p>Un message avec votre nouveau mot de passe a été envoyé à votre adresse <strong>$a->email</strong>.</p><p>Le nouveau mot de passe a été généré automatiquement. Vous pouvez <a href=\"$a->link\">le modifier</a> pour le rendre plus facile à mémoriser.</p>';
 $string['enable'] = 'Activer';
 $string['encryptedcode'] = 'Code chiffré';
 $string['enroldate'] = 'Intervalle de temps';
