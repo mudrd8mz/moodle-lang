@@ -106,6 +106,7 @@ $string['invalidaba'] = 'Numéro ABA non valide';
 $string['invalidaccnum'] = 'Numéro de compte non valide';
 $string['invalidacctype'] = 'Type de compte non valide';
 $string['logindesc'] = 'Cette option doit impérativement être activée&nbsp;!<br /><br />Veuillez vous assurer que l\'option «&nbsp;<a href=\"$a->url\">loginhttps</a>&nbsp;» soit activée dans les paramètres de l\'administration, section Sécurité.<br /><br />L\'activation de cette option permettra à Moodle d\'utiliser une connexion sécurisée pour l\'affichage et le traitement des pages de connexion et de paiement.';
+$string['logininfo'] = 'Le nom d\'utilisateur, le mot de passe et la clef de transaction ne sont pas affichés pour des raisons de sécurité. Vous n\'avez pas besoin de les saisir à nouveau si vous avez déjà une fois configuré ces champs. Les champs configurés sont indiqués par un texte en vert. Si c\'est la permière fois que vous renseignez un de ces champs, le nom d\'utilisateur (*) est requis et vous devez saisir <strong>soit</strong> la clef de transaction (#1), <strong>soit</strong> le mot de passe (#2) dans le champ approprié. Nous vous recommandons de saisir la clef de transaction, pour plus de sécurité. Si vous voulez supprimer le mot de passe actuel, cocher la case appropriée.';
 $string['methodcc'] = 'Carte de crédit';
 $string['methodecheck'] = 'eCheck (ACH)';
 $string['missingaba'] = 'Le numéro ABA n\'est pas renseigné';
