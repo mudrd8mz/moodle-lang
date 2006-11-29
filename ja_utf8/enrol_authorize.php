@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 dev (2006112000)
+      // enrol_authorize.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
@@ -104,6 +104,7 @@ $string['invalidaba'] = 'ABA番号が正しくありません。';
 $string['invalidaccnum'] = '口座番号が正しくありません。';
 $string['invalidacctype'] = '講座種別が正しくありません。';
 $string['logindesc'] = 'このオプションは「ON」にする必要があります。<br /><br />管理 >> 詳細設定 >> セキュリティ で <a href=\"$a->url\">loginhttps が「Yes」になっていること</a>を確認してください。 <br /><br />この設定を「Yes」にすることで、Moodleはログインおよび支払いページでセキュアhttps接続を使用します。';
+$string['logininfo'] = 'ログイン名、パスワードおよびトランザクションキーは、セキュリティ対策のため表示されません。あなたが、これらのフィールドに以前入力したことがある場合、再度入力する必要はありません。入力済みの場合、フィールドの近くに緑色のテキストが表示されます。これらのフィールドを入力するのが初めての場合、ログイン名 (*) は必須入力です。また、適切な入力欄にトランザクションキー (#1) <strong>または</strong> パスワード (#2)を入力してください。更なるセキュリティ対策のため、トランザクションキーの入力をお勧めします。現在のパスワードを削除したい場合、チェックボックスをチェックしてください。';
 $string['methodcc'] = 'クレジットカード';
 $string['methodecheck'] = 'eCheck (ACH)';
 $string['missingaba'] = 'ABA番号を入力してください。';
