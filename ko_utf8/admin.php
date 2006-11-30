@@ -405,6 +405,7 @@ $string['riskxssshort'] = 'XSS 실행 노출 위험';
 $string['runclamavonupload'] = '올려진 파일에 대해 clam AV 사용';
 $string['savechanges'] = '변경사항 저장';
 $string['search'] = '검색';
+$string['searchinsettings'] = '설정 검색';
 $string['searchresults'] = '검색 결과';
 $string['secureforms'] = '추가적인 보안 형식 사용';
 $string['security'] = '보안';

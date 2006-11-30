@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.7 dev (2006090300)
+      // qtype_multichoice.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['answerhowmany'] = '단답 혹은 다답';
@@ -7,6 +7,7 @@ $string['answersingleno'] = '다답 허용';
 $string['answersingleyes'] = '단답만';
 $string['choiceno'] = '$a 번 선택';
 $string['choices'] = '가능한 선택';
+$string['clozeaid'] = '빠진 단어 채우기';
 $string['editingmultichoice'] = '선다형 문항 편집';
 $string['feedback'] = '피드백';
 $string['fillouttwochoices'] = '최소한 답안은 둘 이상 작성해야 합니다. 나머지 빈 칸은 사용되지 않습니다.';
