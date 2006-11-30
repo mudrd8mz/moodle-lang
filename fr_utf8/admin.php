@@ -395,6 +395,7 @@ $string['riskxssshort'] = 'Risque XSS';
 $string['runclamavonupload'] = 'Vérifier les fichiers déposés avec clam AV';
 $string['savechanges'] = 'Enregistrer les modifications';
 $string['search'] = 'Recherche';
+$string['searchinsettings'] = 'Recherche dans les paramètres';
 $string['searchresults'] = 'Résultats';
 $string['secureforms'] = 'Utiliser une meilleure sécurité pour les formulaires';
 $string['security'] = 'Sécurité';
