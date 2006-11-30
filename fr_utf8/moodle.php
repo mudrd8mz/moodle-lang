@@ -399,6 +399,7 @@ $string['editorfontlist'] = 'Liste des polices';
 $string['editorfontsize'] = 'Corps par défaut';
 $string['editorresettodefaults'] = 'Rétablir les valeurs par défaut de l\'éditeur';
 $string['editorsettings'] = 'Éditeur WYSIWYG';
+$string['editorshortcutkeys'] = 'Raccourcis clavier éditeur';
 $string['editsummary'] = 'Modifier le résumé';
 $string['editthisactivity'] = 'Modifier cette activité';
 $string['editthiscategory'] = 'Modifier cette catégorie de cours';
