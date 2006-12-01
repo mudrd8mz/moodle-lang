@@ -555,6 +555,7 @@ $string['forcepasswordchangenotice'] = '続けるにはパスワードを変更�
 $string['forcetheme'] = 'テーマの強制';
 $string['forgotaccount'] = 'パスワードを忘れました?';
 $string['forgotten'] = 'ユーザ名またはパスワードを忘れましたか?';
+$string['forgotteninvalidurl'] = 'パスワードリセットのURLが正しくありません。';
 $string['format'] = 'フォーマット';
 $string['formathtml'] = 'HTMLフォーマット';
 $string['formatlams'] = 'LAMSコースフォーマット';
