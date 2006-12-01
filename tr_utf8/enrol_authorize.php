@@ -105,6 +105,7 @@ $string['invalidaba'] = 'Geçersiz ABA numarası';
 $string['invalidaccnum'] = 'Geçersiz hesap numarası';
 $string['invalidacctype'] = 'Geçersiz hesap tipi';
 $string['logindesc'] = 'Bu seçenek AÇIK olmalı.<br /><br /><a href=\"$a->url\">Loginhttps</a> seçeneğini Değişkenler/Güvenlik bölümünden ayarlayabilirsiniz.<br /><br />Bu seçenek aktif ise sadece giriş ve ödeme sayfaları için güvenli bağlantı (https) kullanılacaktır.';
+$string['logininfo'] = 'Kullanıcı adı, şifre ve işlem anahtarı güvenlik önleminden dolayı gösterilmez. Bu alanları daha önceden yapılandırdıysanız tekrar girmenize gerek yok. Bu alanlar daha önceden yapılandırıldıysa kutucuğun yanında yeşil bir metin görürsünüz. Bu alanları ilk kez giriyorsanız, kullanıcı adı (*) gereklidir; ayrıca <strong>ya</strong> işlem anahtarını (#1) <strong>ya da</strong> şifreyi (#2)  ilgili kutucuğa girmeniz gerekiyor. Güvenlik önleminden dolayı kayıt anahtarını girmenizi tavsiye ediyoruz. Şimdiki şifreyi silmek istiyorsanız seçme kutucuğuna tık atın.';
 $string['methodcc'] = 'Kredi Kartı';
 $string['methodecheck'] = 'E-Çek (ACH)';
 $string['missingaba'] = 'ABA numarası eksik';

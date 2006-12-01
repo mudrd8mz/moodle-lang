@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6 development (2005101200)
+      // grades.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['addcategory'] = 'Kategori Ekle';
@@ -14,15 +14,15 @@ $string['category'] = 'Kategori';
 $string['choosecategory'] = 'Kategori Seç';
 $string['creatinggradebooksettings'] = 'Notdefteri ayarları oluşturuluyor';
 $string['curveto'] = 'Çan Eğrisi';
-$string['deletecategory'] = 'Kategoriyi Sil';
+$string['deletecategory'] = 'Kategori Sil';
 $string['displaylettergrade'] = 'Harfli Notları Göster';
 $string['displaypercent'] = 'Yüzdeleri Göster';
 $string['displaypoints'] = 'Notları Göster';
 $string['displayweighted'] = 'Ağırlıklı Notları Göster';
 $string['dropped'] = 'Yoksayıldı';
 $string['dropxlowest'] = 'Endüşük X Yoksay';
-$string['dropxlowestwarning'] = 'NOT: En düşük X sayıda öğrenciyi yoksayı kullanırsanız, notlandırma, kategorideki tüm ögeleri aynı puan değerinde varsayar. Eğer puan değerleri farklıysa sonuçlar belirsiz olabilir. ';
-$string['errorgradevaluenonnumeric'] = 'Düşük veya yüksek not için sayısal olmayan değer alındı ';
+$string['dropxlowestwarning'] = 'NOT: En düşük X sayıda öğrenciyi yoksayı kullanırsanız, notlandırma, kategorideki tüm ögeleri aynı puan değerinde varsayar. Eğer puan değerleri farklıysa sonuçlar belirsiz olabilir.';
+$string['errorgradevaluenonnumeric'] = 'Düşük veya yüksek not için sayısal olmayan değer alındı';
 $string['errornocategorizedid'] = 'Kategorilendirilmemiş id alınamadı!';
 $string['errornocourse'] = 'Kurs bilgisi alınamadı';
 $string['errorreprintheadersnonnumeric'] = 'Başlıkların tekrar yazılması için sayısal olmayan değer alındı';
@@ -74,7 +74,7 @@ $string['nogradeletters'] = 'Not harfi ayarlanmadı';
 $string['nogradesreturned'] = 'Hiç not yok';
 $string['nolettergrade'] = 'Harf notu yok';
 $string['nomode'] = 'YOK';
-$string['nonnumericweight'] = 'Sayısal olmayan değer alındı ';
+$string['nonnumericweight'] = 'Sayısal olmayan değer alındı';
 $string['nonweightedpct'] = 'Ağırlıksız %%';
 $string['notteachererror'] = 'Bu özelliği kullanmak için eğitimci olmalısınız.';
 $string['pctoftotalgrade'] = 'toplam notların %%';
@@ -92,7 +92,7 @@ $string['savechanges'] = 'Değişiklikleri Kaydet';
 $string['savepreferences'] = 'Seçenekleri Kaydet';
 $string['scaledpct'] = 'Oran %%';
 $string['setcategories'] = 'Kategorileri Ayarla';
-$string['setcategorieserror'] = 'Ağırlık vermeden önce kursunuzun kategorisini belirlemeniz gerekir.  ';
+$string['setcategorieserror'] = 'Ağırlık vermeden önce kursunuzun kategorisini belirlemeniz gerekir.';
 $string['setgradeletters'] = 'Not Harflerini Ayarla';
 $string['setpreferences'] = 'Seçenekleri Ayarla';
 $string['setting'] = 'Ayar';
@@ -123,5 +123,6 @@ $string['weightedpct'] = 'Ağırlıklı %%';
 $string['weightedpctcontribution'] = 'Ağırlıklı %% katılım';
 $string['writinggradebookinfo'] = 'Not Defteri ayarları yazılıyor';
 $string['yes'] = 'Evet';
+$string['yourgrade'] = 'Notunuz';
 
 ?>

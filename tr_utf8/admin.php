@@ -395,6 +395,7 @@ $string['riskxssshort'] = 'XSS riski';
 $string['runclamavonupload'] = 'Yüklenen dosyalarla ClamAV kullan';
 $string['savechanges'] = 'Değişiklikleri Kaydet';
 $string['search'] = 'Ara';
+$string['searchinsettings'] = 'Ayarlarda ara';
 $string['searchresults'] = 'Arama Sonuçları';
 $string['secureforms'] = 'Ek form güvenliği kullan';
 $string['security'] = 'Güvenlik';

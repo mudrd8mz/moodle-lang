@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.7 dev (2006082800)
+      // qtype_multichoice.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['answerhowmany'] = 'Bir veya birden fazla yanıt?';
@@ -7,6 +7,7 @@ $string['answersingleno'] = 'Birden fazla yanıt';
 $string['answersingleyes'] = 'Sadece bir yanıt';
 $string['choiceno'] = 'Seçenek $a';
 $string['choices'] = 'Mevcut seçenekler';
+$string['clozeaid'] = 'Eksik kelimeyi gir';
 $string['editingmultichoice'] = 'Çoktan Seçmeli soru düzenleniyor';
 $string['feedback'] = 'Geribildirim';
 $string['fillouttwochoices'] = 'En az 2 seçenek doldurmalısınız. Boş bırakılanlar kullanılmaz.';
