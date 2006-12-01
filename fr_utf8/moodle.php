@@ -546,6 +546,7 @@ $string['forcepasswordchangenotice'] = 'Vous devez changer votre mot de passe po
 $string['forcetheme'] = 'Imposer le thème';
 $string['forgotaccount'] = 'Mot de passe perdu&nbsp;?';
 $string['forgotten'] = 'Vous avez oublié votre nom d\'utilisateur et/ou votre mot de passe&nbsp;?';
+$string['forgotteninvalidurl'] = 'URL de récupération de mot de passe non valable';
 $string['format'] = 'Format';
 $string['formathtml'] = 'Format HTML';
 $string['formatlams'] = 'LAMS';
