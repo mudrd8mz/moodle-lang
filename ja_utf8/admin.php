@@ -397,6 +397,7 @@ $string['riskxssshort'] = 'XSSリスク';
 $string['runclamavonupload'] = 'アップロードファイルにclam AVを使用する';
 $string['savechanges'] = '変更を保存する';
 $string['search'] = '検索';
+$string['searchinsettings'] = '設定検索';
 $string['searchresults'] = '検索結果';
 $string['secureforms'] = '追加的なフォームセキュリティを使用する';
 $string['security'] = 'セキュリティ';
