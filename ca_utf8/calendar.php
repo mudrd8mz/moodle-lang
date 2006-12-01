@@ -1,11 +1,13 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.6 development (2006031000)
+      // calendar.php - created with Moodle 1.8 dev (2006112200)
 
 
+$string['advancedoptions'] = 'Opcions avançades';
 $string['calendar'] = 'Calendari';
 $string['calendarheading'] = 'Calendari $a';
 $string['clickhide'] = 'feu clic per ocultar';
 $string['clickshow'] = 'feu clic per mostrar';
+$string['commontasks'] = 'Opcions';
 $string['confirmeventdelete'] = 'Esteu segur que voleu suprimir aquest esdeveniment?';
 $string['courseevents'] = 'Esdeveniments del curs';
 $string['dayview'] = 'Visualització del dia';
@@ -32,7 +34,9 @@ $string['eventkind'] = 'Tipus d\'esdeveniment';
 $string['eventname'] = 'Nom';
 $string['eventnone'] = 'No hi ha esdeveniments';
 $string['eventrepeat'] = 'Es repeteix';
+$string['eventsall'] = 'Tots els esdeveniments';
 $string['eventsfor'] = 'Esdeveniments $a';
+$string['eventsrelatedtocourses'] = 'Esdeveniments relacionats amb els cursos';
 $string['eventstarttime'] = 'Data d\'inici';
 $string['eventtime'] = 'Hora';
 $string['eventview'] = 'Informació sobre l\'esdeveniment';
@@ -42,16 +46,24 @@ $string['explain_maxevents'] = 'Aquesta preferència defineix el nombre màxim d
 $string['explain_persistflt'] = 'Si habiliteu aquesta opció, Moodle recordarà els darrers paràmetres de filtre i els tornarà a utilitzar automàticament la pròxima vegada que entreu.';
 $string['explain_startwday'] = 'Aquesta preferència configura el mode de visualització de tots els calendaris mensuals. Useu-la per visualitzar-los al vostre gust.';
 $string['explain_timeformat'] = 'Podeu triar de veure l\'hora en format de 12 o 24 hores. Si trieu \"per defecte\", aleshores el format es determinarà automàticament segons les convencions de l\'idioma del lloc.';
+$string['export'] = 'Exportació';
+$string['exportbutton'] = 'Exporta';
+$string['exportcalendar'] = 'Exporta calendari';
+$string['for'] = 'per a';
 $string['fri'] = 'dv';
 $string['friday'] = 'divendres';
+$string['generateurlbutton'] = 'Genera URL del calendari';
 $string['globalevents'] = 'Esdeveniments globals';
 $string['gotocalendar'] = 'Vés al calendari';
 $string['groupevents'] = 'Esdeveniments de grup';
 $string['hidden'] = 'ocult';
+$string['iwanttoexport'] = 'Exporta';
 $string['manyevents'] = '$a esdeveniments';
 $string['mon'] = 'dl';
 $string['monday'] = 'dilluns';
 $string['monthlyview'] = 'Visualització del mes';
+$string['monthnext'] = 'Més pròxim';
+$string['monththis'] = 'Aquest mes';
 $string['newevent'] = 'Nou esdeveniment';
 $string['noupcomingevents'] = 'No hi ha esdeveniments pròxims.';
 $string['oneevent'] = 'un esdeveniment';
@@ -62,6 +74,8 @@ $string['pref_startwday'] = 'Primer dia de la setmana';
 $string['pref_timeformat'] = 'Format de visualització de l\'hora';
 $string['preferences'] = 'Preferències';
 $string['preferences_available'] = 'Preferències personals';
+$string['quickdownloadcalendar'] = 'Baixa subscripció al calendari';
+$string['recentupcoming'] = 'Recents i dos mesos pròxims';
 $string['repeateditall'] = 'Aplica els canvis a tots els $a esdeveniments d\'aquesta sèrie';
 $string['repeateditthis'] = 'Aplica els canvis només a aquest esdeveniment';
 $string['repeatnone'] = 'No es repeteix';
@@ -96,9 +110,12 @@ $string['typegroup'] = 'Esdeveniment de grup';
 $string['typesite'] = 'Esdeveniment del lloc';
 $string['typeuser'] = 'Esdeveniment de l\'usuari';
 $string['upcomingevents'] = 'Esdeveniments pròxims';
+$string['urlforical'] = 'URL per a subscriure\'s al calendari en format iCal';
 $string['userevents'] = 'Esdeveniments de l\'usuari';
 $string['wed'] = 'dc';
 $string['wednesday'] = 'dimecres';
+$string['weeknext'] = 'Setmana pròxima';
+$string['weekthis'] = 'Aquesta setmana';
 $string['yesterday'] = 'Ahir';
 $string['youcandeleteallrepeats'] = 'Aquest esdeveniment és part d\'una sèrie d\'esdeveniments que es repeteixen. Podeu suprimir només aquest esdeveniment, o tots els $a de la sèrie alhora.';
 

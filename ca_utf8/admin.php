@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2006102600)
+      // admin.php - created with Moodle 1.8 dev (2006112200)
 
 
+$string['accessdenied'] = 'Accés denegat';
 $string['accounts'] = 'Comptes';
 $string['adminseesall'] = 'Els administradors ho veuen tot';
 $string['adminseesallevents'] = 'Els administradors veuen tots els esdeveniments';
@@ -178,6 +179,7 @@ $string['configzip'] = 'Indiqueu la ubicació del vostre programa de compressió
 $string['confirmation'] = 'Confirmació';
 $string['confirminstall'] = 'Esteu a punt d\'instal·lar el paquet d\'idioma ($a). N\'esteu segur?';
 $string['country'] = 'País per defecte';
+$string['coursemanager'] = 'Administradors de curs';
 $string['coursemgmt'] = 'Afegeix/edita cursos';
 $string['courseoverview'] = 'Resum del curs';
 $string['courserequests'] = 'Sol·licituds de cursos';
@@ -392,7 +394,8 @@ $string['riskxss'] = 'Els usuaris podrien afegir textos i fitxers que permetessi
 $string['runclamavonupload'] = 'Utilitza clam AV en els fitxers que es pengin';
 $string['savechanges'] = 'Desa els canvis';
 $string['search'] = 'Cerca';
-$string['searchresults'] = 'Resultats de la recerca';
+$string['searchinsettings'] = 'Cerca en paràmetres';
+$string['searchresults'] = 'Resultats de la cerca';
 $string['secureforms'] = 'Utilitza seguretat addicional als fomularis';
 $string['security'] = 'Seguretat';
 $string['server'] = 'Servidor';
