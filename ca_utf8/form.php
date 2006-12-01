@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8 dev (2006102600)
+      // form.php - created with Moodle 1.8 dev (2006112200)
 
 
+$string['addfields'] = 'Afegeix $a camps al formulari';
 $string['denotesreq'] = '$a denota un camp requerit.';
 $string['err_alphanumeric'] = 'Només s\'hi admeten lletres o nombres.';
 $string['err_email'] = 'Heu d\'introduir una adreça de correu vàlida.';
@@ -14,6 +15,7 @@ $string['err_numeric'] = 'Heu d\'introduir un nombre.';
 $string['err_rangelength'] = 'Heu d\'introduir una cadena entre {$a->format[0]} i {$a->format[1]} caràcters.';
 $string['err_required'] = 'Heu d\'introduir un valor.';
 $string['general'] = 'Paràmetres generals';
+$string['miscellaneoussettings'] = 'Paràmetres diversos';
 $string['modstandardels'] = 'Paràmetres comuns de mòduls';
 $string['nomethodforaddinghelpbutton'] = 'No hi ha cap mètode per a afegir un botó d\'ajuda a l\'element del formulari $a->name (classe $a->classname)';
 $string['nonexistentformelements'] = 'S\'està intentant afegir botons d\'ajuda a elements del formulari inexistents: $a';

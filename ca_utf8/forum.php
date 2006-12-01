@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7+ (2006101007)
+      // forum.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['addanewdiscussion'] = 'Afegeix un nou tema de debat';
@@ -127,6 +127,7 @@ $string['movedmarker'] = '(traslladat)';
 $string['movethisdiscussionto'] = 'Trasllada aquest debat a...';
 $string['namenews'] = 'Fòrum de notícies';
 $string['namesocial'] = 'Fòrum social';
+$string['nameteacher'] = 'Fòrum del professorat';
 $string['newforumposts'] = 'Nous missatges dels fòrums';
 $string['nodiscussions'] = 'Encara no hi ha cap tema de debat en aquest fòrum';
 $string['noguestpost'] = 'Els visitants no poden enviar missatges.';

@@ -259,7 +259,8 @@ $string['courseimportnotaught'] = 'No sou professor/a amb permisos d\'ecició en
 $string['courseinfo'] = 'Informació del curs';
 $string['coursemessage'] = 'Missatge als usuaris del curs';
 $string['coursenotaccessible'] = 'Aquest curs no permet accés públic';
-$string['courseoverview'] = 'Resum del curs';
+$string['courseoverview'] = 'Resum de cursos';
+$string['courseoverviewgraph'] = 'Gràfica resum de cursos';
 $string['coursereject'] = 'Denegació d\'una sol·licitud de curs';
 $string['courserejected'] = 'S\'ha denegat el curs i s\'ha tramès la notificació a la persona sol·licitant';
 $string['courserejectemail'] = 'S\'ha denegat el curs que havíeu sol·licitat. Raó:
@@ -599,22 +600,6 @@ $string['gdneed'] = 'GD ha d\'estar instal·lada per veure aquesta imatge';
 $string['gdnot'] = 'GD no està instal·lada';
 $string['gettheselogs'] = 'Obté aquests registres';
 $string['go'] = 'Endavant';
-$string['gpl'] = 'Copyright (C) 2001-2002  Martin Dougiamas  (http://dougiamas.com)
-This program is free software; you can redistribute it and/or modify
-
-it under the terms of the GNU General Public License as published by
-
-the Free Software Foundation; either version 2 of the License, or
-
-(at your option) any later version.
-This program is distributed in the hope that it will be useful,
-
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-
-GNU General Public License for more details:
-http://www.gnu.org/copyleft/gpl.html';
 $string['grade'] = 'Qualificació';
 $string['grades'] = 'Qualificacions';
 $string['group'] = 'Grup';
@@ -1140,6 +1125,9 @@ $string['scalesstandard'] = 'Escales estàndard';
 $string['scalestip'] = 'Per tal de crear escales personalitzades, utilitzeu l\'enllaç \'Escales...\' del menú d\'administració del curs.';
 $string['schedule'] = 'Planificació';
 $string['scheduledbackupstatus'] = 'Estat de la còpia de seguretat programada';
+$string['screenreaderno'] = 'No';
+$string['screenreaderuse'] = 'Lector de pantalla';
+$string['screenreaderyes'] = 'Sí';
 $string['screenshot'] = 'Instantània de pantalla';
 $string['search'] = 'Cerca';
 $string['searchagain'] = 'Torna a cercar';

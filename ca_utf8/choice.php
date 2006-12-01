@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.7 beta + (2006101001)
+      // choice.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['addmorechoices'] = 'Afegeix més opcions';
@@ -17,6 +17,7 @@ $string['choicetext'] = 'Text de la consulta';
 $string['displayhorizontal'] = 'En horitzontal';
 $string['displaymode'] = 'Mode de visualització';
 $string['displayvertical'] = 'En vertical';
+$string['fillinatleastoneoption'] = 'Heu de proporcionar almenys dues possibles respostes';
 $string['full'] = '(Complet)';
 $string['havetologin'] = 'Abans de trametre una resposta heu d\'entrar amb el vostre nom d\'usuari i contrasenya.';
 $string['limit'] = 'Límit';
