@@ -1134,6 +1134,7 @@ $string['secondstotime345600'] = '4 jours';
 $string['secondstotime432000'] = '5 jours';
 $string['secondstotime518400'] = '6 jours';
 $string['secondstotime604800'] = '1 semaine';
+$string['secretalreadyused'] = 'Le lien de confirmation du changement de mot de passe a déjà été utilisé. Le mot de passe n\'a pas été modifié.';
 $string['secs'] = 'secs';
 $string['section'] = 'Section';
 $string['sections'] = 'Sections';
