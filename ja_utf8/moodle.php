@@ -1161,6 +1161,7 @@ $string['secondstotime432000'] = '5日間';
 $string['secondstotime518400'] = '6日間';
 $string['secondstotime604800'] = '1週間';
 $string['secondstotime86400'] = '1日間';
+$string['secretalreadyused'] = 'パスワード変更の確認リンクは、すでに使用されています。パスワードは、変更されませんでした。';
 $string['secs'] = '秒';
 $string['section'] = 'セクション';
 $string['sections'] = 'セクション';
