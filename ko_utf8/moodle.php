@@ -553,6 +553,7 @@ $string['forcepasswordchangenotice'] = '계속 진행하기 위해서는 당신�
 $string['forcetheme'] = '지정된 테마';
 $string['forgotaccount'] = '비밀번호를 잊으셨습니까?';
 $string['forgotten'] = '사용자 아이디나 비밀번호를 잊으셨습니까?';
+$string['forgotteninvalidurl'] = '비밀번호 불일치';
 $string['format'] = '형식';
 $string['formathtml'] = 'HTML 형식';
 $string['formatlams'] = 'LAMS 형식';

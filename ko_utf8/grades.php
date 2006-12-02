@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.7 dev (2006081700)
+      // grades.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['addcategory'] = '범주 추가';
@@ -123,5 +123,6 @@ $string['weightedpct'] = '가중된 백분룔';
 $string['weightedpctcontribution'] = '가중된 백분률의 기여도';
 $string['writinggradebookinfo'] = '성적표 쓰기 설정';
 $string['yes'] = '예';
+$string['yourgrade'] = '당신의 성적';
 
 ?>
