@@ -121,5 +121,6 @@ $string['weightedpct'] = '%% pondéré';
 $string['weightedpctcontribution'] = 'contribution en %% pondérée';
 $string['writinggradebookinfo'] = 'Écriture des réglages du carnet de notes';
 $string['yes'] = 'Oui';
+$string['yourgrade'] = 'Votre note';
 
 ?>
