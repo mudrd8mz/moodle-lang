@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // install.php - created with Moodle 1.7 (2006101007)
 
 
 $string['admindirerror'] = 'El directorio especificado para admin es incorrecto';
@@ -53,7 +53,43 @@ $string['databasesettingssub'] = '<b>Tipo:</b> mysql o postgres7<br />
 <b>Servidor:</b> p.ej.: localhost o db.tudominio.com<br />
 <b>Usuario:</b> el usuario propietario de tu base de datos<br />
 <b>Contraseña:</b> la contraseña del usuario de la base de datos<br />
-<b>Prefijo de tablas:</b>  prefijo opcional para utilizar en todas las tablas';
+<b>Prefijo de tablas:</b>  prefijo opcional a usar en los nombres de las tablas';
+$string['databasesettingssub_mssql'] = '<b>Tipo:</b> SQL*Server (no UTF-8) <b><font color=\"red\">Experimental! (no usar en modo de producción)</font></b><br />
+<b>Servidor:</b> eg localhost o db.isp.com<br />
+<b>Nombre:</b> nombre de la base de datos, eg moodle<br />
+<b>Usuario:</b> usuario de la base de datos<br />
+<b>Contraseña:</b> contraseña de la base de datos<br />
+<b>Prefijo de tablas:</b> prefijo a usar en los nombres de las tablas (obligatorio)';
+$string['databasesettingssub_mssql_n'] = '<b>Tipo:</b> SQL*Server (UTF-8 habilitado)<br />
+<b>Servidor:</b> eg localhost o db.isp.com<br />
+<b>Nombre:</b> nombre de la base de datos, eg moodle<br />
+<b>Usuario:</b> usuario de la base de datos<br />
+<b>Contraseña:</b> contraseña de la base de datos<br />
+<b>Prefijo de tablas:</b> prefijo a usar en los nombres de las tablas (obligatorio)';
+$string['databasesettingssub_mysql'] = '<b>Tipo:</b> MySQL<br />
+<b>Servidor:</b> eg localhost o db.isp.com<br />
+<b>Nombre:</b> nombre de la base de datos, eg moodle<br />
+<b>Usuario:</b> usuario de la base de datos<br />
+<b>Contraseña:</b> contraseña de la base de datos<br />
+<b>Prefijo de tablas:</b> prefijo a usar en los nombres de las tablas (opcional)';
+$string['databasesettingssub_oci8po'] = '<b>Tipo:</b> Oracle<br />
+<b>Servidor:</b> no usado, puede dejarse en blanco<br />
+<b>Nombre:</b> nombre de la conexión tnsnames.ora<br />
+<b>Usuario:</b> usuario de la base de datos<br />
+<b>Contraseña:</b> contraseña de la base de datos<br />
+<b>Prefijo de tablas:</b> prefijo para usar con todas las tablas (obligatorio, máx. 2cc.)';
+$string['databasesettingssub_odbc_mssql'] = '<b>Tipo:</b> SQL*Server (sobre ODBC) <b><font color=\"red\">Experimental! (no usar en modo de producción)</font></b><br />
+<b>Servidor:</b> nombre del DSN en el panel de control ODBC<br />
+<b>Nombre:</b> nombre de la base de datos, eg moodle<br />
+<b>Usuario:</b> usuario de la base de datos<br />
+<b>Contraseña:</b> contraseña de la base de datos<br />
+<b>Prefijo de tablas:</b> prefijo para usar con todas las tablas (obligatorio)';
+$string['databasesettingssub_postgres7'] = '<b>Tipo:</b> PostgreSQL<br />
+<b>Servidor:</b> eg localhost o db.isp.com<br />
+<b>Nombre:</b> nombre de la base de datos, eg moodle<br />
+<b>Usuario:</b> usuario de la base de datos<br />
+<b>Contraseña:</b> contraseña de la base de datos<br />
+<b>Prefijo de tablas:</b> prefijo para usar con todas las tablas (obligatorio)';
 $string['dataroot'] = 'Directorio de Datos';
 $string['datarooterror'] = 'El \'Directorio de Datos\' no pudo ser encontrado o creado. Corrija la ruta o cree el directorio manualmente.';
 $string['dbconnectionerror'] = 'Error de conexión con la base de datos. Por favor, compruebe los ajustes de la base de datos.';
@@ -63,14 +99,19 @@ $string['dbpass'] = 'Contraseña';
 $string['dbprefix'] = 'Prefijo de tablas';
 $string['dbtype'] = 'Tipo';
 $string['dbwrongencoding'] = 'La base de datos seleccionada está ejecutándose bajo una codificación no recomendada ($a). Convendría usar en su lugar una base de datos con codificación Unicode (UTF-8). En cualquier caso, usted puede pasar por alto esta prueba seleccionando \"Pasar por alto la prueba de codificación BD\", si bien tal vez tenga problemas en el futuro.';
-$string['directorysettings'] = ' <p><b>WWW:</b>
+$string['dbwronghostserver'] = 'Debe seguir las reglas \"Host\" tal como se explicó más arriba.';
+$string['dbwrongnlslang'] = 'La variable contextual NLS_LANG de su servidor web debe usar el conjunto de caracteres AL32UTF8. Revise la documentación PHP para ver cómo se configura adecuadamente OCI8.';
+$string['dbwrongprefix'] = 'Debe seguir las reglas \"Prefijo de Tablas\" como se explicó más arriba.';
+$string['directorysettings'] = '<p>Por favor, confirme las direcciones de la instalación de Moodle.</p>
+
+<p><b>Dirección web:</b>
 Necesita decir a Moodle dónde está localizado. Especifique la dirección web completa en la que se ha instalado Moodle. Si su sitio web es accesible a través de varias URLs, seleccione la que resulte de acceso más natural a sus estudiantes. No incluya la última barra</p>
-<p><b>Directorio:</b>
+<p><b>Directorio de Moodle:</b>
 Especifique la ruta OS completa a esta misma ubicación
 Asegúrese de que escribe correctamente mayúsculas y minúsculas</p>
-<p><b>Datos:</b>
+<p><b>Directorio de datos:</b>
 Usted necesita un lugar en el que Moodle pueda guardar los archivos subidos. Este directorio debe ser legible Y ESCRIBIBLE por el usuario del servidor web (normalmente \'nobody\' o \'apache\'), pero no debería ser directamente accesible desde la web.</p>';
-$string['directorysettingshead'] = 'Por favor confirme las siguientes localizaciones de su instalación';
+$string['directorysettingshead'] = 'Por favor, confirme las siguientes direcciones de la instalación de Moodle';
 $string['directorysettingssub'] = '<b>Dirección Web:</b>
 Especifique la dirección web completa en la que se accederá a Moodle.
 Si su sitio es accesible desde diferentes URLs entonces elija
@@ -150,13 +191,23 @@ a, digamos, 16M. Si no lo tiene, pida a su administrador que lo haga por usted.<
 <p>Sin embargo, en algunos servidores esto hace que <b>todas</b> las páginas PHP dejen de funcionar
 (podrá ver los errores cuando mire las páginas) de modo que tendrá que eliminar el archivo .htaccess.</p></li>
 </ol>';
+$string['mssql'] = 'SQL*Server (mssql)';
+$string['mssql_n'] = 'SQL*Server con UTF-8 (mssql_n)';
+$string['mssqlextensionisnotpresentinphp'] = 'PHP no se ha configurado adecuadamente con la extensión MSSQL de modo que pueda comunicarse con el SQL*Server. Por favor, compruebe el archivo php.ini o vuelva a compilar PHP.';
+$string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP no ha sido adecuadamente configurado con la extensión MySQL de modo que pueda comunicarse con MySQL. Por favor, compruebe el archivo php.ini o recompile PHP.';
+$string['oci8po'] = 'Oracle (oci8po)';
+$string['ociextensionisnotpresentinphp'] = 'PHP no ha sido adecuadamente configurado con la extensión OCI8 de modo que pueda comunicarse con Oracle. Por favor, compruebe el archivo php.ini o vuelva a compilar PHP.';
+$string['odbc_mssql'] = 'SQL*Server over ODBC (odbc_mssql)';
+$string['odbcextensionisnotpresentinphp'] = 'PHP no ha sido adecuadamente configurado con la extensión ODBC de modo que pueda comunicarse con SQL*Server. Por favor, compruebe el archivo php.ini o vuelva a compilar PHP.';
 $string['pass'] = 'Correcto';
+$string['pgsqlextensionisnotpresentinphp'] = 'PHP no ha sido adecuadamente configurado con la extensión PGSQL de modo que pueda comunicarse con PostgreSQL. Por favor, compruebe el archivo php.ini o vuelva a compilar PHP.';
 $string['phpversion'] = 'Versión PHP';
 $string['phpversionerror'] = 'La versión PHP debe ser 4.1.0 o superior';
 $string['phpversionhelp'] = '<p>Moodle requiere una versión de PHP 4.1.0 o superior.</p>
 <p>Su versión es $a</p>
 <p>Debe actualizar PHP o acudir a otro servidor con una versión más reciente de PHP</p>';
+$string['postgres7'] = 'PostgreSQL (postgres7)';
 $string['safemode'] = 'Safe Mode';
 $string['safemodeerror'] = 'Moodle puede tener problemas con \'safe mode\' activado';
 $string['safemodehelp'] = '<p>Moodle puede tener varios problemas con \'safe mode\' activado, y probablemente no pueda crear nuevos archivos.</p>
@@ -181,11 +232,11 @@ $string['welcomep50'] = 'El uso de todas las aplicaciones del paquete está gobe
     licencias. El programa <strong>$a->installername</strong> es 
     <a href=\"http://www.opensource.org/docs/definition_plain.html\">código abierto</a> y se distribuye 
     bajo licencia <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a>.';
-$string['welcomep60'] = 'Las siguientes páginas le guiarán a traves de algunos sencillos pasos para configurar
+$string['welcomep60'] = 'Las siguientes páginas le guiarán a través de algunos sencillos pasos para configurar
     y ajustar <strong>Moodle</strong> en su ordenador. Puede utilizar los valores por defecto sugeridos o,
     de forma opcional, modificarlos para que se ajusten a sus necesidades.';
 $string['welcomep70'] = 'Pulse en el botón \"Siguiente\" para continuar con la configuración de <strong>Moodle</strong>.';
 $string['wwwroot'] = 'Dirección Web';
-$string['wwwrooterror'] = 'La \'Dirección Web\' parece incorrecto. No se pudo encontrar una instalación de Moodle. El valor ha sido cambiado por el original.';
+$string['wwwrooterror'] = 'La \'Dirección Web\' parece incorrecta. No se pudo encontrar una instalación de Moodle. El valor ha sido cambiado por el original.';
 
 ?>
