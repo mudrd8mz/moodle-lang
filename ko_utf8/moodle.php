@@ -1141,6 +1141,7 @@ $string['secondstotime432000'] = '5 일';
 $string['secondstotime518400'] = '6 일';
 $string['secondstotime604800'] = '1 주일';
 $string['secondstotime86400'] = '하루';
+$string['secretalreadyused'] = '이미 비밀번호 변경 확인이 되었고, 그 후 비밀번호는 변경되지 않았습니다.';
 $string['secs'] = '초';
 $string['section'] = '마당';
 $string['sections'] = '마당';
