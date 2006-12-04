@@ -1,14 +1,17 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6.1+ (2006050511)
+      // resource.php - created with Moodle 1.7 (2006101007)
 
 
 $string['addresource'] = 'Gehitu baliabidea';
+$string['affectedresources'] = 'Eragindako baliabideak';
 $string['back'] = 'Atzera';
 $string['browserepository'] = 'Arakatu biltegia';
 $string['choose'] = 'Aukeratu';
 $string['chooseafile'] = 'Aukeratu edo igo fitxategi bat';
 $string['chooseparameter'] = 'Aukeratu parametroa';
 $string['configallowlocalfiles'] = 'Fitxategi-baliabidea sortzean, baimendu estekak sistema lokaleko fitxategietara; adibidez, CD edo disko gogorra. Hau lagungarri gerta daiteke ikasle guztiek intranet edo sare lokala izanez gero. Kasu horretan, agian, erabiltzaileak arakatzailearen segurtasun-arauak aldatu beharko ditu.';
+$string['configautofilerenamesettings'] = 'Fitxategien antolatzailean fitxategi edo direktorio  baten izena aldatuz gero, automatikoki eguneratu berari dagozkion erreferentziak.';
+$string['configblockdeletingfilesettings'] = 'Baliabideek erreferentziatutako artxibo eta direktorien blokeko ezabaketa. Ohar zaitez html bidez lotutako artxibo eta irudiak ez daudela babestuta.';
 $string['configdefaulturl'] = 'URLn oinarritutako baliabideak sortzean aurrez osatuko den balioa da hau.';
 $string['configfilterexternalpages'] = 'Ezarpen honen bidez kanpoko baliabideak (web orrialdeak, igotako artxiboak)lekuko iragazkien bidez prozesatuak izango dira (adibidez, glosategiko autoestekak). Aukera hau indarrean jarriz gero, zure ikastaroko orrialdeak nabarmen mantsoago ibil daitezke, kontuz erabili eta soilik beharrezkoa bada.';
 $string['configframesize'] = 'Web orrialde edo fitxategiren bat marko baten barruan azalduz gero, balio hau (pixeletan)  nabigazio-markoaren neurria da.';
@@ -90,6 +93,7 @@ $string['preview'] = 'Aurreikusi';
 $string['previous'] = 'Aurrekoa';
 $string['redeploy'] = 'Berriro zabaldu';
 $string['repository'] = 'IMS biltegia';
+$string['resource:view'] = 'Ikusi baliabidea';
 $string['resourcetype'] = 'Baliabide-mota';
 $string['resourcetype1'] = 'Erreferentzia';
 $string['resourcetype2'] = 'Web-orria';
@@ -116,5 +120,7 @@ $string['upbutton'] = 'Gora';
 $string['variablename'] = 'Aldagaiaren izena';
 $string['viewims'] = 'Ikusi IMS Eduki Paketea';
 $string['vol'] = 'Bolumena';
+$string['warningblockingdelete'] = 'Kontuz! Indarrean dagoen baliabide batek ezabatze ekintza galerazten du. Lehenik eguneratu baliabidea edo esan administrariari babes mekanismoa hau desgaitzeko Baliabideen konfigurazio orokorrean.';
+$string['warningdisabledrename'] = 'Kontuz! Baliabideen berrizendatze automatikoa ez dago gaituta. Mesedez, eguneratu eskuz eragindako baliabidea, behar izanez gero. Administrariak Baliabideen konfigurazio orokorrean berrizendatze automatikoa gaitu dezake.';
 
 ?>

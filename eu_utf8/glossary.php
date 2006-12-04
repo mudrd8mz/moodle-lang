@@ -105,6 +105,7 @@ $string['fillfields'] = 'Kontzeptua eta azalpena derrigorrezko datuak dira';
 $string['filtername'] = 'Auto-estekatutako glosategia';
 $string['fullmatch'] = 'Hitz osoak bakarrik bilatu';
 $string['globalglossary'] = 'Glosategi orokorra';
+$string['glossary:approve'] = 'Onartzeko dauden sarrerak onartu';
 $string['glossary:comment'] = 'Iruzkinak sortu';
 $string['glossary:export'] = 'Sarrerak esportatu';
 $string['glossary:import'] = 'Sarrerak inportatu';

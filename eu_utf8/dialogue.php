@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004092700)
+      // dialogue.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addmynewentries'] = 'Nire sarrera berriak erantsi';
@@ -9,18 +9,19 @@ $string['allowmultiple'] = 'Solaskide berarekin elkarrizketa bat baino gehiago a
 $string['allowstudentdialogues'] = 'Ikasleen arteko elkarrizketak ahalbidetu';
 $string['close'] = 'Itxi';
 $string['closed'] = 'Itxita';
-$string['confirmclosure'] = ' $a (e)kin duzun elkarrizketa itxiko duzu. Itxitako elkarrizketak ezin dira berriro ireki. Elkarrizketa ixten baduzu kontsultatu ahal izango duzu, baina ez berriro ireki, eta solaskide berarekin beste elkarrizketa ireki beharko duzu. Itxi nahi duzula ziur al zaude?';
-$string['deleteafter'] = 'Honen ondoren elkarrizketak itxi (Egun)';
-$string['dialogueclosed'] = 'Elkarrizketa itxia';
+$string['closeddialogues'] = 'Elkarrizketa itxiak';
+$string['confirmclosure'] = '$a (r)ekin duzun elkarrizketa itxiko duzu. Itxitako elkarrizketak ezin dira berriro ireki. Elkarrizketa ixten baduzu kontsultatu ahal izango duzu, baina ez berriro ireki, eta solaskide berarekin beste elkarrizketa bat ireki beharko duzu. Itxi nahi duzula ziur al zaude?';
+$string['deleteafter'] = 'Elkarrizketa itxiak ondorengo egunen buruan ezabatu';
+$string['dialogueclosed'] = 'Elkarrizketa itxita';
 $string['dialogueintro'] = 'Elkarrizketaren sarrera';
 $string['dialoguemail'] = '$a->userfrom (e)k zure mezuari erantzun dio elkarrizketa honetan: \'$a->dialogue\'
 Elkarrizketa osoa hemen ikus dezakezu:
     $a->url';
-$string['dialoguemailhtml'] = ' $a->userfrom erabiltzaileak zure mezua erantzun du elkarrizketa honetan: \'<i>$a->dialogue</i>\'<br /><br />
+$string['dialoguemailhtml'] = '$a->userfrom erabiltzaileak zure mezua erantzun du elkarrizketa honetan: \'<i>$a->dialogue</i>\'<br /><br />
 Eranskina <a href=\"$a->url\">hemen</a> ikus dezakezu.';
 $string['dialoguename'] = 'Elkarrizketaren izenburua';
-$string['dialogueopened'] = ' $a (r)ekin irekitako elkarrizketa';
-$string['dialoguewith'] = ' $a (r)ekin elkarrizketa';
+$string['dialogueopened'] = '$a (r)ekin irekitako elkarrizketa';
+$string['dialoguewith'] = '$a (r)ekin elkarrizketa';
 $string['everybody'] = 'Guztiak';
 $string['furtherinformation'] = 'Informazio osagarria';
 $string['lastentry'] = 'Azken interbentzioa';
@@ -34,18 +35,20 @@ $string['newentry'] = 'Interbentzio berria';
 $string['noavailablepeople'] = 'Ez dago inor elkarrizketan parte hartzeko.';
 $string['nopersonchosen'] = 'Ez da solaskiderik aukeratu';
 $string['nosubject'] = 'Ez da gairik aukeratu';
+$string['notavailable'] = 'Gonbidatuek ezin dituzte elkarrizketak ikusi';
 $string['notextentered'] = 'Ez da testurik erantsi';
 $string['notstarted'] = 'Zuk ez duzu elkarrizketarik oraindik hasi';
 $string['notyetseen'] = 'Oraindik ez dute irakurri';
 $string['numberofentries'] = 'Interbentzio-kopurura';
 $string['numberofentriesadded'] = 'Erantsitako interbentzio-kopurua: $a';
-$string['of'] = 'Norena: ';
-$string['onwrote'] = ' $a idatzi zuen';
-$string['onyouwrote'] = ' $a zuk idatzi zenuan';
+$string['of'] = 'Norena:';
+$string['onwrote'] = '$a idatzi zuen';
+$string['onyouwrote'] = '$a zuk idatzi zenuen';
 $string['open'] = 'Irekita';
 $string['openadialoguewith'] = 'Pertsona honekin elkarrizketa hasi';
 $string['opendialogue'] = 'Elkarrizketa hasi';
 $string['opendialogueentries'] = 'Elkarrizketa-sarrerak hasi';
+$string['opendialogues'] = 'Elkarrizketak hasi';
 $string['pane0'] = 'Elkarrizketa hasi';
 $string['pane1'] = '$a elkarrizketa zure erantzunaren zain dago';
 $string['pane1one'] = 'Elkarrizketa bat zure erantzunaren zain dago';

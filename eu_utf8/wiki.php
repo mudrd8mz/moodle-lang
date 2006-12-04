@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6.1 (2006050510)
+      // wiki.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['action'] = '-- Ekintza --';
@@ -175,6 +175,8 @@ $string['versionstodelete'] = 'Ezabatzeko bertsioa(k)';
 $string['viewpage'] = 'Orrial ikusi';
 $string['viewsmfor'] = 'Gunearen mapa ikusi honentzat';
 $string['wantedpages'] = 'Eskatutako orriak';
+$string['wiki:manage'] = 'Wikiaren ezarpenak kudeatu';
+$string['wiki:participate'] = 'Wiki-orriak editatu';
 $string['wikidefaultpagename'] = 'Lehenengo orria';
 $string['wikiexport'] = 'Orrialdeak esportatu';
 $string['wikiexportcomment'] = 'Hemen esportazioa zure beharren arabara doitu ahal duzu.';

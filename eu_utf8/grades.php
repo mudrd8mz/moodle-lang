@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.5.2 (2005060220)
+      // grades.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addcategory'] = 'Kategoria erantsi';
@@ -66,7 +66,7 @@ $string['max'] = 'Altuena';
 $string['maxgrade'] = 'Gehien. Kal.';
 $string['median'] = 'Ertaina';
 $string['min'] = 'Baxuena';
-$string['mode'] = 'Moda';
+$string['mode'] = 'Modua';
 $string['no'] = 'Ez';
 $string['nocategories'] = 'Ikasgai honetako kalifikazio-kategoriak ez dira erantsi edo aurkitu';
 $string['nocategoryview'] = 'Ikusteko kategoriarik ez';

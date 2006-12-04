@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.7+ (2006101007)
+      // survey.php - created with Moodle 1.7 (2006101007)
 
 
 $string['actual'] = 'Benetakoa';
@@ -198,9 +198,9 @@ $string['scaletimes5'] = 'Ia inoiz ez,Oso gutxitan,Batzuetan,Sarritan,Ia beti';
 $string['seemoredetail'] = 'Klik egin hemen xehetasun gehiago ikusteko';
 $string['selectedquestions'] = 'Eskala batetik aukeratutako galderak, ikasle guztiak';
 $string['summary'] = 'Laburpena';
-$string['survey:download'] = 'Erantzunak jaitsi';
-$string['survey:participate'] = 'Hausnarketari erantzun';
-$string['survey:readresponses'] = 'Erantzunak ikusi';
+$string['survey:download'] = 'Jaitsi erantzunak';
+$string['survey:participate'] = 'Erantzun hausnarketa';
+$string['survey:readresponses'] = 'Ikusi erantzunak';
 $string['surveycompleted'] = 'Hausnarketa hau bukatu duzu. Beheko grafikoak zure erantzunen eta klasearen erantzunen batez bestekoen arteko konparaketa da.';
 $string['surveyname'] = 'Hausnarketaren izena';
 $string['surveysaved'] = 'Hausnarketa gordeta';

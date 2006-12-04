@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.4.1 (2004083101)
+      // workshop.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['absent'] = 'Ez dago';
@@ -9,7 +9,7 @@ $string['addacomment'] = 'Gehitu iruzkina';
 $string['addcomment'] = 'Iruzkina erantsi';
 $string['afterdeadline'] = 'Data honen ostean: $a';
 $string['ago'] = 'duela $a';
-$string['agrade'] = 'Kalif.<br />Ebal.';
+$string['agrade'] = 'Kalif.<br />Ebal';
 $string['agreetothisassessment'] = 'Ados ebaluazio honekin';
 $string['allgradeshaveamaximumof'] = 'Nota guztien gehienezko maila: $a';
 $string['allowresubmit'] = 'Berbidalketak ahal dira';
@@ -44,16 +44,16 @@ $string['assessmentwasagreedon'] = 'Ebaluazioa onartu zeneko data:  $a';
 $string['assessor'] = 'Ebaluatzailea';
 $string['assessthisassessment'] = 'Ebaluazio hau kalifikatu';
 $string['assessthissubmission'] = 'Ebaluatu bidalketa hau';
+$string['assignmentnotinthecorrectphase'] = 'Zeregina ez dago urrats egokian';
 $string['assmnts'] = 'Ebaluazioak';
 $string['attachment'] = 'Eranskina';
 $string['attachments'] = 'Eranskinak';
-$string['assignmentnotinthecorrectphase'] = 'Zeregina ez dago urrats egokian';
 $string['authorofsubmission'] = 'Bidalketa nork bidalia';
 $string['automaticgradeforassessment'] = 'Ebaluazio honen kalifikazio automatikoa';
 $string['averageerror'] = 'Errore-tartea';
 $string['awaitinggradingbyteacher'] = 'Honek nota jartzeko zain: $a';
 $string['beforedeadline'] = 'Data honen aurretik: $a';
-$string['by'] = 'Nork bidalia: ';
+$string['by'] = 'Nork bidalia:';
 $string['calculationoffinalgrades'] = 'Azkeneko noten kalkulua';
 $string['clearlateflag'] = 'Atzeratutako flag-a garbitu';
 $string['closeassignment'] = 'Zeregina amaitutzat eman';
@@ -306,7 +306,9 @@ $string['weightforteacherassessments'] = 'Irakaslearen ebaluazioen pisua';
 $string['weights'] = 'Pisuak';
 $string['weightsusedforfinalgrade'] = 'Azken notarako erabili diren pisuak';
 $string['weightsusedforsubmissions'] = 'Bidalketetarako erabili diren pisuak';
-$string['workshopagreedassessments'] = 'Tailerreko ebaluazio adostuak ';
+$string['workshop:manage'] = 'Ezarpenak kudeatu';
+$string['workshop:participate'] = 'Tailerrean parte hartu';
+$string['workshopagreedassessments'] = 'Tailerreko ebaluazio adostuak';
 $string['workshopassessments'] = 'Tailerreko ebaluazioak';
 $string['workshopcomments'] = 'Tailerreko iruzkinak';
 $string['workshopfeedback'] = 'Tailerrera bidalitako feed-backa';

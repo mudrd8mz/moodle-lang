@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6.1+ (2006050511)
+      // editor.php - created with Moodle 1.7 (2006101007)
 
 
 $string['about'] = 'Editore honi buruz';
@@ -32,6 +32,7 @@ $string['cut'] = 'Ebaki hautatutakoa';
 $string['cutpastemozilla'] = 'Tamalez,linea bidezko editore honetan ezin dituzu teklatuko lasterbideak (ezta itsatsi botoia ere) erabili. Mozilla eta Firefox nabigatzaileek segurtasun-neurriak dituztelako gertatzen da.
 Badaude 3 zeharbide saiatzeko, nahi izanez gero: Ctrl-v ordez, erabili Shift-Insert. Erabili zure nabigatzaileko Editatu->Itsatsi botoiak. Aldatu zure nabigatzailearen aukerak; horretarako, editatu user.js artxiboa. Laguntza gehiago behar izanez gero, klikatu OK botoia edo UTZI editorera itzultzeko.';
 $string['delete'] = 'Ezabatu';
+$string['enterurlfirst'] = 'Lehenik URL-a jarri behar duzu';
 $string['filebrowser'] = 'Artxibo nabigatzailea';
 $string['findwhat'] = 'Bilatu';
 $string['fontname'] = 'Letra-tipoaren izena';
@@ -74,6 +75,7 @@ $string['matchcase'] = 'Larria';
 $string['middle'] = 'Erdian';
 $string['minimize'] = 'Editorea minimizatu';
 $string['move'] = 'Mugitu';
+$string['mustenterurl'] = 'URL-a jarri behar duzu';
 $string['nolink'] = 'Eragotzi estekatze automatikoa';
 $string['normal'] = 'Normala';
 $string['notimage'] = 'Hautatutako artxiboa ez da irudi bat. Mesedez, hautatu irudia!';
@@ -86,6 +88,7 @@ $string['paste'] = 'Erantsi arbeletik';
 $string['path'] = 'Bidea';
 $string['percent'] = 'Ehunekoa';
 $string['pixels'] = 'Pixelak';
+$string['pleaseenteralt'] = 'Sartu ordezko testua';
 $string['popupeditor'] = 'Zabaldu editorea';
 $string['preformatted'] = 'Aurreformateatua';
 $string['preview'] = 'Aurrebista';
