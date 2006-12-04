@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.6 (2006050506)
+      // qtype_multichoice.php - created with Moodle 1.7 (2006101007)
 
 
 $string['answerhowmany'] = '¿Una o varias respuestas?';
@@ -7,6 +7,7 @@ $string['answersingleno'] = 'Se permiten varias respuestas';
 $string['answersingleyes'] = 'Sólo una respuesta';
 $string['choiceno'] = 'Elegir $a';
 $string['choices'] = 'Opciones disponibles';
+$string['clozeaid'] = 'Escribir palabra perdida';
 $string['editingmultichoice'] = 'Editando una pregunta de opción múltiple';
 $string['feedback'] = 'Retroalimentación';
 $string['fillouttwochoices'] = 'Debe rellenar al menos dos opciones. Las que deje en blanco no se usarán.';

@@ -4,6 +4,7 @@
 
 $string['abandoned'] = 'Abandonado';
 $string['addquizchain'] = 'Agregar cadena de preguntas';
+$string['allmycourses'] = 'Todos mis cursos';
 $string['allusers'] = 'Todos los usuarios';
 $string['alwaysopen'] = 'Siempre abierto';
 $string['attemptsall'] = 'Todos los intentos';
@@ -145,6 +146,7 @@ $string['textsourcefilename'] = 'Usar nombre de archivo';
 $string['textsourcefilepath'] = 'Usar ruta de archivo';
 $string['textsourcequiz'] = 'Obtener de cuestionario';
 $string['textsourcespecific'] = 'Texto específico';
+$string['thiscourse'] = 'Este curso';
 $string['timedout'] = 'Tiempo límite';
 $string['updatequizchain'] = 'Actualizar cadena  de cuestionarios';
 $string['weighting'] = 'Ponderación';
