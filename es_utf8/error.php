@@ -64,6 +64,7 @@ $string['sessionerroruser'] = 'Su sesión ha excedido el tiempo límite. Por fav
 $string['sessionerroruser2'] = 'Se ha detectado un error del servidor que afecta a su sesión de acceso. Por favor, acceda de nuevo o reinicie su navegador.';
 $string['sessionipnomatch'] = 'Lo sentimos, pero su número IP parece haber cambiado desde su primer acceso. Esta norma de seguridad previene que los crackers roben su identidad mientras usted está dentro de este sitio. Los usuarios normales no deberían ver este mensaje, así que por favor pida ayuda al administrador del sitio.';
 $string['statscatchupmode'] = 'La estadística está en este momento en modo \'catchup\'. Hasta el momento se ha(n) procesado $a->daysdone día(s) y $a->dayspending están pendientes de procesamiento. Por favor, vuelva a comprobarlo más tarde.';
+$string['unicodeupgradeerror'] = 'Lo sentimos, su base de datos aún no está en Unicode, y esta versión de Moodle no puede migrar su base de datos a Unicode. Por favor, actualícese a Moodle 1.7.x y lleve a cabo la migración Unicode desde la página de Administración. Una vez lo haya hecho, podrá migrar a Moodle $a';
 $string['unknowncourse'] = 'No existe un curso llamado \"$a\"';
 $string['unknownuseraction'] = 'Lo sentimos, no podemos entender esta acción del usuario.';
 $string['usernotaddederror'] = 'No se agregó el usuario \"$a\" - error desconocido';

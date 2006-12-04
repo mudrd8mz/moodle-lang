@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.5.2 (2005060220)
+      // grades.php - created with Moodle 1.7 (2006101007)
 
 
 $string['addcategory'] = 'Añadir categoría';
@@ -68,7 +68,7 @@ $string['median'] = 'Mediana';
 $string['min'] = 'Más baja';
 $string['mode'] = 'Moda';
 $string['no'] = 'No';
-$string['nocategories'] = 'No se han añadido o no se han encontrado las categorías de calificación para este curso ';
+$string['nocategories'] = 'No se han añadido o no se han encontrado las categorías de calificación para este curso';
 $string['nocategoryview'] = 'No categoría para ver por';
 $string['nogradeletters'] = 'No se han ajustado las letras de calificación';
 $string['nogradesreturned'] = 'No se han devuelto calificaciones';
@@ -123,5 +123,6 @@ $string['weightedpct'] = '%% ponderado';
 $string['weightedpctcontribution'] = 'contribución %% ponderado';
 $string['writinggradebookinfo'] = 'Escribiendo ajustes del libro de calificaciones';
 $string['yes'] = 'Sí';
+$string['yourgrade'] = 'Su calificación';
 
 ?>

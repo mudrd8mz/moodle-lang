@@ -17,6 +17,7 @@ $string['choicetext'] = 'Pregunta a responder';
 $string['displayhorizontal'] = 'Mostrar horizontalmente';
 $string['displaymode'] = 'Modo Mostrar';
 $string['displayvertical'] = 'Mostrar verticalmente';
+$string['fillinatleastoneoption'] = 'Necesita proporcionar al menos dos respuestas.';
 $string['full'] = '(Lleno)';
 $string['havetologin'] = 'Debe entrar antes de remitir su elección';
 $string['limit'] = 'Límite';

@@ -1,11 +1,13 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // calendar.php - created with Moodle 1.7 (2006101007)
 
 
+$string['advancedoptions'] = 'Opciones avanzadas';
 $string['calendar'] = 'Calendario';
 $string['calendarheading'] = '$a Calendario';
 $string['clickhide'] = 'clic para ocultar';
 $string['clickshow'] = 'clic para mostrar';
+$string['commontasks'] = 'Opciones';
 $string['confirmeventdelete'] = '¿Está seguro de que desea eliminar este evento?';
 $string['courseevents'] = 'Eventos de curso';
 $string['dayview'] = 'Vista de Día';
@@ -32,7 +34,9 @@ $string['eventkind'] = 'Tipo de evento';
 $string['eventname'] = 'Nombre';
 $string['eventnone'] = 'No hay eventos';
 $string['eventrepeat'] = 'Repeticiones';
+$string['eventsall'] = 'Todos los eventos';
 $string['eventsfor'] = '$a eventos';
+$string['eventsrelatedtocourses'] = 'Eventos referidos a los cursos';
 $string['eventstarttime'] = 'Hora de comienzo';
 $string['eventtime'] = 'Hora';
 $string['eventview'] = 'Detalles del evento';
@@ -42,16 +46,24 @@ $string['explain_maxevents'] = 'Esta preferencia establece el número máximo de
 $string['explain_persistflt'] = 'Si está habilitado, Moodle recordará los últimos ajustes de filtro de evento y los restaurará automáticamente cada vez que acceda.';
 $string['explain_startwday'] = 'Esta preferencia configura la forma en que se muestran todos los calendarios mensuales. Utilícela para acomodarla a su conveniencia.';
 $string['explain_timeformat'] = 'Esta preferencia controla cómo aparecen las horas en el calendario. Puede elegir entre los formatos de 12 y 24 horas. Si elige la opción \"por defecto\", entonces el formato se seleccionará automáticamente de acuerdo con el idioma que usted utilice en el sitio.';
+$string['export'] = 'Exportar';
+$string['exportbutton'] = 'Exportar';
+$string['exportcalendar'] = 'Exportar calendario';
+$string['for'] = 'para';
 $string['fri'] = 'Vie';
 $string['friday'] = 'Viernes';
+$string['generateurlbutton'] = 'Obtener URL del calendario';
 $string['globalevents'] = 'Eventos globales';
 $string['gotocalendar'] = 'Ir al calendario';
 $string['groupevents'] = 'Eventos de grupo';
 $string['hidden'] = 'ocultos';
+$string['iwanttoexport'] = 'Exportar';
 $string['manyevents'] = '$a eventos';
 $string['mon'] = 'Lun';
 $string['monday'] = 'Lunes';
 $string['monthlyview'] = 'Vista de Mes';
+$string['monthnext'] = 'Mes próximo';
+$string['monththis'] = 'Este mes';
 $string['newevent'] = 'Nuevo evento';
 $string['noupcomingevents'] = 'No hay eventos próximos';
 $string['oneevent'] = '1 evento';
@@ -62,6 +74,8 @@ $string['pref_startwday'] = 'Primer día de la semana';
 $string['pref_timeformat'] = 'Formato de hora';
 $string['preferences'] = 'Preferencias';
 $string['preferences_available'] = 'Sus preferencias personales';
+$string['quickdownloadcalendar'] = 'Descarga rápida / suscribirse al calendario';
+$string['recentupcoming'] = '60 días recientes y próximos';
 $string['repeateditall'] = 'Aplicar los cambios a todos los eventos $a de la serie';
 $string['repeateditthis'] = 'Aplicar los cambios sólo a este evento';
 $string['repeatnone'] = 'No repeticiones';
@@ -96,9 +110,12 @@ $string['typegroup'] = 'Evento de grupo';
 $string['typesite'] = 'Evento de sitio';
 $string['typeuser'] = 'Evento de usuario';
 $string['upcomingevents'] = 'Eventos próximos';
+$string['urlforical'] = 'URL para exportar a iCalendar, para suscribirse al calendario';
 $string['userevents'] = 'Eventos de usuario';
 $string['wed'] = 'Mié';
 $string['wednesday'] = 'Miércoles';
+$string['weeknext'] = 'Semana próxima';
+$string['weekthis'] = 'Esta semana';
 $string['yesterday'] = 'Ayer';
 $string['youcandeleteallrepeats'] = 'Este evento es parte de una serie de eventos repetidos. Puede eliminar sólo este evento, o todos los eventos $a de la serie de una vez.';
 

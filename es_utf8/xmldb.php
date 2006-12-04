@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.6 (2006050506)
+      // xmldb.php - created with Moodle 1.7 (2006101007)
 
 
 $string['aftertable'] = 'Después de la tabla:';
@@ -19,6 +19,7 @@ $string['confirmdeletexmlfile'] = '¿Está totalmente seguro de eliminar el arch
 $string['confirmrevertchanges'] = '¿Está totalmente seguro de que quiere revertir los cambios realizados sobre:';
 $string['create'] = 'Crear';
 $string['createtable'] = 'Crear tabla:';
+$string['defaultincorrect'] = 'Valor por defecto incorrecto';
 $string['delete'] = 'Eliminar';
 $string['delete_field'] = 'Eliminar campo';
 $string['delete_index'] = 'Eliminar índice';
@@ -42,6 +43,7 @@ $string['enumvaluesincorrect'] = 'Valores incorrectos del campo enum';
 $string['field'] = 'Campo';
 $string['fieldnameempty'] = 'Nombre del campo vacío';
 $string['fields'] = 'Campos';
+$string['filenotwriteable'] = 'Archivo no escribible';
 $string['floatincorrectdecimals'] = 'Número incorrecto de decimales del campo float';
 $string['floatincorrectlength'] = 'Longitud incorrecta del campo float';
 $string['gotolastused'] = 'Ir al último archivo usado';
@@ -54,6 +56,9 @@ $string['load'] = 'Cargar';
 $string['main_view'] = 'Vista principal';
 $string['missingfieldsinsentence'] = 'Campos ausentes en la frase';
 $string['missingvaluesinsentence'] = 'Valores ausentes en la frase';
+$string['mustselectonefield'] = 'Debe seleccionar un campo para ver las acciones relacionadas con el campo.';
+$string['mustselectoneindex'] = 'Debe seleccionar un índice para ver las acciones relacionadas con el índice.';
+$string['mustselectonekey'] = 'Debe seleccionar una clave para ver las acciones relacionadas con la clave.';
 $string['new_statement'] = 'Nueva declaración';
 $string['new_table_from_mysql'] = 'Nueva tabla desde MySQL';
 $string['newfield'] = 'Nuevo campo';
@@ -70,18 +75,27 @@ $string['reservedwords'] = 'Palabras reservadas';
 $string['revert'] = 'Revertir';
 $string['revert_changes'] = 'Revertir cambios';
 $string['save'] = 'Guardar';
+$string['selectaction'] = 'Seleccionar acción:';
 $string['selectdb'] = 'Seleccionar base de datos:';
+$string['selectfieldkeyindex'] = 'Seleccionar Campo/Clave/Índice:';
+$string['selectonecommand'] = 'Por favor, seleccione una acción de la lista para ver el código PHP';
+$string['selectonefieldkeyindex'] = 'Por favor, seleccione un Campo/Clave/Índice de la lista para ver el código PHP';
+$string['selecttable'] = 'Seleccionar tabla:';
 $string['sentences'] = 'Frases';
 $string['statements'] = 'Declaraciones';
 $string['statementtable'] = 'Tabla de declaraciones:';
 $string['statementtype'] = 'Tipo de declaración:';
 $string['table'] = 'Tabla';
 $string['tables'] = 'Tablas';
+$string['test'] = 'Test';
 $string['textincorrectlength'] = 'Longitud incorrecta del campo de texto';
 $string['unload'] = 'Descargar';
 $string['up'] = 'Arriba';
+$string['view'] = 'Ver';
 $string['view_reserved_words'] = 'Ver palabras reservadas';
+$string['view_structure_php'] = 'Ver estructura PHP';
 $string['view_structure_sql'] = 'Ver estructura SQL';
+$string['view_table_php'] = 'Ver tabla PHP';
 $string['view_table_sql'] = 'Ver tabla SQL';
 $string['viewedited'] = 'Ver edición';
 $string['vieworiginal'] = 'Ver original';

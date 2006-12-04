@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.6 (2006050506)
+      // survey.php - created with Moodle 1.7 (2006101007)
 
 
 $string['actual'] = 'Real';
@@ -189,11 +189,12 @@ $string['survey:download'] = 'Descargar respuestas';
 $string['survey:participate'] = 'Responder a la encuesta';
 $string['survey:readresponses'] = 'Ver respuestas';
 $string['surveycompleted'] = 'Usted ha completado la encuesta. La gráfica siguiente muestra sus resultados comparados con el promedio de la clase.';
+$string['surveygraph'] = 'Gráfico de la encuesta';
 $string['surveyname'] = 'Nombre de la encuesta';
 $string['surveysaved'] = 'Encuesta guardada';
 $string['surveytype'] = 'Tipo de encuesta';
 $string['thanksforanswers'] = 'Gracias por responder a esta encuesta, $a';
 $string['time'] = 'Tiempo';
-$string['viewsurveyresponses'] = 'Ver las respuestas a la encuesta $a ';
+$string['viewsurveyresponses'] = 'Ver las respuestas a la encuesta $a';
 
 ?>
