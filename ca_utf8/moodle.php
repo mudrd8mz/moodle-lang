@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006112200)
+      // moodle.php - created with Moodle 1.8 dev (2006120400)
 
 
 $string['action'] = 'Acció';
@@ -1142,6 +1142,7 @@ $string['secondstotime432000'] = 'cinc dies';
 $string['secondstotime518400'] = 'sis dies';
 $string['secondstotime604800'] = 'una setmana';
 $string['secondstotime86400'] = 'un dia';
+$string['secretalreadyused'] = 'La contrasenya no s\'ha canviat. Aquest enllaç de confirmació del canvi de contrasenya ja havia estat usat abans.';
 $string['secs'] = 'segons';
 $string['section'] = 'Secció';
 $string['sections'] = 'Seccions';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6 development (2005101200)
+      // grades.php - created with Moodle 1.8 dev (2006120400)
 
 
 $string['addcategory'] = 'Afegeix categoria';
@@ -123,5 +123,6 @@ $string['weightedpct'] = '%% ponderat';
 $string['weightedpctcontribution'] = '%% ponderat de la contribució';
 $string['writinggradebookinfo'] = 'S\'estan escrivint els paràmetres del butlletí de qualificacions';
 $string['yes'] = 'Sí';
+$string['yourgrade'] = 'La vostra qualificació';
 
 ?>
