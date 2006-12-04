@@ -2,6 +2,7 @@
       // calendar.php - created with Moodle 1.8 dev (2006112200)
 
 
+$string['advancedoptions'] = '高度なオプション';
 $string['calendar'] = 'カレンダー';
 $string['calendarheading'] = '$a カレンダー';
 $string['clickhide'] = '非表示';
@@ -73,6 +74,8 @@ $string['pref_startwday'] = '週の初め';
 $string['pref_timeformat'] = '時間フォーマット';
 $string['preferences'] = '設定';
 $string['preferences_available'] = '個人設定';
+$string['quickdownloadcalendar'] = 'クイックダウンロード / カレンダーを購読する';
+$string['recentupcoming'] = '最近および次の60日';
 $string['repeateditall'] = '変更内容をすべての $a 繰り返しイベントに適用する。';
 $string['repeateditthis'] = '変更内容をこのイベントのみに適用する。';
 $string['repeatnone'] = '繰り返しなし';
@@ -107,6 +110,7 @@ $string['typegroup'] = 'グループイベント';
 $string['typesite'] = 'サイトイベント';
 $string['typeuser'] = 'ユーザイベント';
 $string['upcomingevents'] = '直近イベント';
+$string['urlforical'] = 'iCalendarエクスポートおよびカレンダー購読のためのURL';
 $string['userevents'] = 'ユーザイベント';
 $string['wed'] = '水';
 $string['wednesday'] = '水曜日';
