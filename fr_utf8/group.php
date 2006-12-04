@@ -1,5 +1,8 @@
 <?php // $Id$
 
+$string['groupmember'] = 'Membre du groupe';
+$string['groupmemberdesc'] = 'Rôle par défaut pour un membre d\'un groupe.';
+
 $string['groupings'] = 'Groupements';
 $string['grouping'] = 'Groupement';
 $string['groups'] = 'Groupes';
@@ -22,7 +25,7 @@ $string['addexistinggroupstogrouping'] = 'Ajouter des groupes existants au group
 $string['addgroupstogrouping'] = 'Ajouter des groupes au groupement';
 
 $string['removeselectedusers'] = 'Retirer les utilisateurs sélectionnés';
-$string['adduserstogroup'] = 'Ajouter des utilisateurs au groupe';
+$string['adduserstogroup'] = 'Ajouter/retirer des utilisateurs au groupe';
 
 $string['groupingname'] = 'Nom du groupement';
 $string['defaultgroupingname'] = 'Groupement';
@@ -52,9 +55,10 @@ $string['displaygrouping'] = 'Affichage du groupement';
 $string['addgroupstogrouping'] = 'Ajouter des groupes au groupement';
 $string['showusersalreadyingroup'] = 'Afficher les utilisateurs déjà dans un groupe du groupement';
 
-$string ['save'] = 'Enregistrer';
+$string['save'] = 'Enregistrer';
 $string['cancel'] = 'Annuler';
 
+$string['return'] = 'Retour';
 
 $string['groupfor'] = 'pour le groupe';
 $string['groupinfo'] = 'Information sur le groupe sélectionné';
