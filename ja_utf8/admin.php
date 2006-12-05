@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2006112200)
+      // admin.php - created with Moodle 1.8 dev (2006120400)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -340,7 +340,7 @@ $string['mymoodleredirect'] = 'ユーザにマイ Moodleを強制する';
 $string['mysql416bypassed'] = 'あなたのサイトがiso-8859-1 (ラテン) 言語のみ使用している場合、現在インストールされている MySQL 4.1.12 (またはそれ以上) を使用することができます。';
 $string['mysql416required'] = 'Moodle1.6では、将来すべてのデータをUTF-8に変換するため、MySQL 4.1.16が要求される最低限のバージョンです。';
 $string['nobookmarksforuser'] = 'ブックマークはありません。';
-$string['nolangupdateneeded'] = 'すべての言語パックは最新版です。アップデートは必要ありません。';
+$string['nolangupdateneeded'] = 'すべての言語パックは最新版です。アップデートの必要はありません。';
 $string['nonewsettings'] = 'このアップグレードで、新しい設定は追加されませんでした。';
 $string['nonexistentbookmark'] = 'あなたがリクエストしたブックマークは登録されていません。';
 $string['noreplyaddress'] = 'No-replyアドレス';
@@ -460,8 +460,8 @@ $string['upgradelogs'] = '正常に動作させるためには、古いログの
 $string['upgradelogsinfo'] = 'ログの保存方法に変更点があります。全活動ベースのログを閲覧することができるようにするには、古いログをアップグレードする必要があります。サイトによってはアップグレード作業に長時間(例 数時間)を要し、規模が大きなサイトではデータベースに負担がかかります。処理を開始した場合は終了するまでそのまま(ブラウザを開いたまま)にしてください。心配する必要はありません - ログが更新された後に、あなたのサイトは正常に動作します。<br/><br/>本当にログをアップグレードしてもよろしいですか?';
 $string['upgradesettings'] = '新しい設定';
 $string['upgradesettingsintro'] = '下記に表示されている設定は、あなたの前回のMoodleアップグレードで追加されました。変更した内容を必要に応じてデフォルトに戻し、このページ下部にある「設定を保存する」をクリックしてください。';
-$string['upgradesure'] = 'Moodleファイルが更新されました。あなたは、自動的にMoodleをこのバージョンにアップグレードしようとしています: <br /><br /><strong>$a</strong> <br /><br />
-一旦、この作業を行うと元に戻すことはできません。<br /><br />本当にMoodleをこのバージョンにアップグレードしてもよろしいですか?';
+$string['upgradesure'] = 'あなたのMoodleファイルが更新されました。そして、自動的にMoodleをこのバージョンにアップグレードしようとしています: <br /><br /><strong>$a</strong> <br /><br />
+一旦、この作業を行うと元に戻すことはできません。<br /><br />本当にこのサーバのMoodleをこのバージョンにアップグレードしてもよろしいですか?';
 $string['upgradingdata'] = 'データのアップグレード';
 $string['upgradinglogs'] = 'ログのアップグレード';
 $string['upwards'] = '以上';
