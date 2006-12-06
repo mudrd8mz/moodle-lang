@@ -1,0 +1,71 @@
+<?PHP // $Id$ 
+      // group.php - created with Moodle 1.7 (2006101007)
+
+
+$string['addexistinggroupstogrouping'] = 'Agregar grupos existentes al agrupamiento';
+$string['addgroupstogrouping'] = 'Agregar grupos al agrupamiento';
+$string['adduserstogroup'] = 'Agregar usuarios al grupo';
+$string['cancel'] = 'Cancelar';
+$string['createautomaticgrouping'] = 'Crear agrupamiento automático';
+$string['creategroup'] = 'Crear grupo';
+$string['creategrouping'] = 'Crear agrupamiento';
+$string['creategroupinselectedgrouping'] = 'Crear grupo en agrupamiento seleccionado';
+$string['defaultgroupdescription'] = 'Descripción por defecto del grupo';
+$string['defaultgroupingname'] = 'Agrupamiento';
+$string['defaultgroupname'] = 'Grupo';
+$string['defaultgroupprefix'] = 'Grupo';
+$string['deletegrouping'] = 'Eliminar agrupamiento';
+$string['deleteselectedgroup'] = 'Eliminar grupo seleccionado';
+$string['displaygrouping'] = 'Mostrar agrupamiento';
+$string['distributealphabetically'] = 'Distribuir en grupos alfabéticamente por apellido';
+$string['distributeevenly'] = 'Distribuir equitativamente a los estudiantes sobrantes';
+$string['editgroupingpermissions'] = 'Editar permisos de agrupamiento';
+$string['editgroupingsettings'] = 'Editar ajustes de agrupamiento';
+$string['editgroupsettings'] = 'Editar ajustes de grupo';
+$string['enrolmentkey'] = 'Clave de matriculación';
+$string['group'] = 'Grupo';
+$string['groupdescription'] = 'Descripción del grupo';
+$string['groupfor'] = 'para el grupo';
+$string['groupinfo'] = 'Información sobre el grupo seleccionado';
+$string['groupinfomembers'] = 'Información sobre los miembros seleccionados';
+$string['groupinfopeople'] = 'Información sobre las personas seleccionadas';
+$string['grouping'] = 'Agrupamiento';
+$string['groupingdescription'] = 'Descripción del agrupamiento';
+$string['groupingname'] = 'Nombre del agrupamiento';
+$string['groupings'] = 'Agrupamientos';
+$string['groupmembers'] = 'Miembros del grupo';
+$string['groupmemberssee'] = 'Ver los integrantes del grupo';
+$string['groupmembersselected'] = 'Miembros del grupo seleccionado';
+$string['groupmode'] = 'Modo de grupo';
+$string['groupmodeforce'] = 'Forzar el modo de grupo';
+$string['groupmy'] = 'Mi grupo';
+$string['groupname'] = 'Nombre del grupo';
+$string['groupnotamember'] = 'Lo sentimos, usted no es miembro de ese grupo';
+$string['groups'] = 'Grupos';
+$string['groupsinselectedgrouping'] = 'Grupos en el agrupamiento seleccionado';
+$string['groupsnone'] = 'No hay grupos';
+$string['groupsseparate'] = 'Grupos separados';
+$string['groupsvisible'] = 'Grupos visibles';
+$string['hidepicture'] = 'Ocultar imagen';
+$string['javascriptrequired'] = 'Esta página requiere que Javascript esté activado.';
+$string['membersofselectedgroup'] = 'Miembros del grupo seleccionado';
+$string['newpicture'] = 'Nueva imagen';
+$string['numberofgroups'] = 'Número de grupos';
+$string['numberofstudents'] = 'Número de estudiantes';
+$string['prefixforgroupnames'] = 'Prefijo de los nombres del grupo';
+$string['printerfriendly'] = 'Mostrar agrupamiento en formato para imprimir';
+$string['removegroupfromselectedgrouping'] = 'Eliminar grupo del agrupamiento seleccionado';
+$string['removeselectedusers'] = 'Eliminar usuarios seleccionados';
+$string['save'] = 'Guardar';
+$string['selectnumberineachgroup'] = 'Seleccionar número en cada grupo';
+$string['selectnumberofgroups'] = 'Seleccionar número de grupos';
+$string['showusersalreadyingroup'] = 'Mostrar usuarios que ya están en un grupo en el agrupamiento';
+$string['teachersgroupmark'] = 'Los profesores no pueden asignar actividades a los grupos a los que no pertenecen';
+$string['teachersgroupview'] = 'Los profesores no pueden ver las actividades de los grupos a los que no pertenecen';
+$string['teachersoverride'] = 'Los profesores que no pertenecen a ningún grupo pueden ver y asignar actividades a todos los grupos (anula lo anterior)';
+$string['usestudentsonlyfromselectedgroup'] = 'Usar sólo estudiantes del grupo actualmente seleccionado';
+$string['viewallgroupsactivities'] = 'Los estudiantes pueden ver, pero no contribuir a las actividades de todos los grupos';
+$string['viewallgroupsmembers'] = 'Los estudiantes pueden ver a los miembros de todos los grupos';
+$string['viewowngroup'] = 'Los estudiantes pueden ver a los miembros de cualesquiera grupos a los que pertenecen';
+
+?>

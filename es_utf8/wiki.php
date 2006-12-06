@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6 (2006050506)
+      // wiki.php - created with Moodle 1.7 (2006101007)
 
 
 $string['action'] = '-- Acción --';
@@ -94,6 +94,7 @@ $string['linkok'] = 'OK';
 $string['linkschecked'] = 'Enlaces comprobados';
 $string['listall'] = 'Listar todo';
 $string['listcandidates'] = 'Listar candidatos';
+$string['lockcancelled'] = 'Su clave de edición ha sido anulada, y alguien está ahora editando esta página. Si desea conservar sus cambios, por favor selecciónelos y cópielos antes de hacer clic en Cancelar; intente a continuación editar de nuevo.';
 $string['meta'] = 'Meta datos';
 $string['moduledirectory'] = 'Directorio de módulos';
 $string['modulename'] = 'Wiki';
@@ -105,6 +106,7 @@ $string['noadministrationaction'] = 'No se ha realizado ninguna acción de admin
 $string['nocandidatestoremove'] = 'No hay páginas para eliminar: seleccione \'$a\' para mostrar todas las páginas.';
 $string['nochangestorevert'] = 'No hay cambios que eliminar.';
 $string['nohtml'] = 'No HTML';
+$string['nojslockwarning'] = 'Debido a que Javascript está deshabilitado en su navegador, es posible que alguien más pueda editar esta página. Si eso ocurre, usted no podrá guardar sus cambios. Por favor, intente realizar sus cambios rápidamente, o active Javascript y vuelva a cargar esta página.';
 $string['nolinksfound'] = 'No se han encontrado enlaces en la página.';
 $string['noregexp'] = 'Ésta debe ser una cadena fija (no puede utilizar * o regex); como mucho utilice la dirección IP o el nombre de servidor de los atacantes, pero no incluya el número de puerto (debido a que se incrementa con cada acceso http).';
 $string['notadministratewiki'] = 'Usted no tiene permiso para administrar este wiki.';
@@ -116,10 +118,13 @@ $string['optional'] = 'Opcional';
 $string['orphanedpage'] = 'Página huérfana';
 $string['orphanedpages'] = 'Páginas huérfanas';
 $string['otherwikis'] = 'Otros Wikis';
+$string['overridebutton'] = 'Pasar por alto bloqueo';
+$string['overrideinfo'] = 'Usted puede pasar por alto este bloqueo de usuario, pero si lo hace puede ocasionar que pierdan sus cambios. Por favor, tenga cuidado.';
 $string['ownerunknown'] = 'desconocido';
 $string['pageactions'] = 'Acciones de página';
 $string['pageindex'] = 'Índice de la página';
 $string['pageinfo'] = 'Información de la página';
+$string['pagelocked'] = '<p><strong>Esta página está siendo editada por $a->name.</strong> La edición comenzó a las $a->since y la ventana está aún abierta $a->seen.</p><p>Tiene que esperar a que la edición actual finalice antes de poder editar la página.</p>';
 $string['pagename'] = 'Nombre de la página';
 $string['pagenamechoice'] = '- o -';
 $string['pageslinkingto'] = 'Páginas con enlaces a esta página';
@@ -144,6 +149,7 @@ $string['revertpagescheck'] = 'Realmente desea eliminar los siguientes cambios:'
 $string['revertthe'] = 'Depurar sólo el afectado';
 $string['safehtml'] = 'HTML seguro';
 $string['save'] = 'Guardar';
+$string['savenolock'] = 'No puede guardar la página porque no tiene una clave de edición. Esto puede deberse a que su navegador tiene desactivado Javascript, o a que otro usuario ha anulado su clave.<br/><br/>Puede volver a la pantalla anterior usando el botón \'Ir a la página anterior\' del navegador y copiar el texto de los cambios que haya realizado, e intentar editar la página de nuevo.';
 $string['searchwiki'] = 'Buscar Wiki';
 $string['setpageflags'] = 'Fijar flags de página';
 $string['showversions'] = 'Mostrar versiones:';
@@ -177,6 +183,9 @@ $string['versionstodelete'] = 'Versión(es) a eliminar';
 $string['viewpage'] = 'Ver página';
 $string['viewsmfor'] = 'Ver mapa del sitio para';
 $string['wantedpages'] = 'Páginas deseadas';
+$string['wiki:manage'] = 'Gestionar ajustes wiki';
+$string['wiki:overridelock'] = 'Pasar por alto bloqueados';
+$string['wiki:participate'] = 'Editar páginas wiki';
 $string['wikidefaultpagename'] = 'Primera Página';
 $string['wikiexport'] = 'Exportar páginas';
 $string['wikiexportcomment'] = 'Aquí puede configurar la exportación de acuerdo con sus necesidades.';
