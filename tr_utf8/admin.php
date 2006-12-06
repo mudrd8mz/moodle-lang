@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2006112200)
+      // admin.php - created with Moodle 1.8 dev (2006120400)
 
 
 $string['accessdenied'] = 'Erişim engellendi';
@@ -14,6 +14,7 @@ $string['allowrenames'] = 'Yeniden adlandırabilir';
 $string['allowuserblockhiding'] = 'Kullanıcıların blokları gizleme izni';
 $string['allowusermailcharset'] = 'Kullanıcıların kendi karakter setini ayarlama izni';
 $string['allowuserthemes'] = 'Kullanıcı teması izni';
+$string['allowvisiblecoursesinhiddencategories'] = 'Gizli kategorilerdeki kursların görünürlüğü';
 $string['antivirus'] = 'Anti-Virus';
 $string['appearance'] = 'Görünüm';
 $string['aspellpath'] = 'Aspell yolu';
@@ -50,6 +51,7 @@ $string['configallowunenroll'] = 'Bu seçenek \'Evet\' olarak ayarlıysa öğren
 $string['configallowuserblockhiding'] = 'Bu sitenin tamamında kullanıcıların blokları  gizleyip/göstermesine izin vermek istiyor musunuz? Bu özellik, herbir açılır/kapanır bloğun durumunu takip etmek için Javascript ve çerezleri kullanır. Ayrıca, sadece kullanıcının kendi görünümünü etkiler.';
 $string['configallowusermailcharset'] = 'Bunun etkinleştirilmesiyle her kullanıcının emaili için kendi karakter setini ayarlamasına olanak verilir.';
 $string['configallowuserthemes'] = 'Etkinleştirirseniz, kullanıcıların kendi temalarını ayarlamalarına izin verilir. Kullanıcı temaları site temasını yok sayar (fakat kurs temasını değil).';
+$string['configallowvisiblecoursesinhiddencategories'] = 'Gizli kategorilerdeki kursları normal şekilde göster';
 $string['configallusersaresitestudents'] = 'TÜM kullanıcılar, sitenin giriş sayfasındaki bütün etkinlikler için öğrenci olarak düşünülecek mi? Cevabınız \'Evet\' ise, hesabı onaylanmış herhangi bir kullanıcının bu etkinliklere öğrenci olarak katılmasına izin verilecektir. Şayet \'Hayır\' ise, en az bir kursa kayıtlı olan kullanıcılar giriş sayfası etkinliklerine katılabilecektir. Sadece yöneticiler ve özel olarak atanmış eğitimciler, giriş sayfasındaki bu etkinliklerde eğitimci olarak rol alabilirler.';
 $string['configautologinguests'] = 'Kurslara konuk erişimiyle girildiğinde ziyaretçiler konuk olarak giriş yapabilsin mi?';
 $string['configbloglevel'] = 'Bu ayar, bu sitede görülebilen kullanıcı bloklarının seviyesini sınırlamanıza izin verir. Bu ayarın, göndereni veya blog mesajlarını değil, İZLEYİCİNİN maksimum seviyesini ayarladığını dikkate alın. İstemiyorsanız, bloglar tamamen kapatılabilir.';
