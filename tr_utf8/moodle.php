@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006112200)
+      // moodle.php - created with Moodle 1.8 dev (2006120400)
 
 
 $string['action'] = 'Eylem';
@@ -460,8 +460,7 @@ Bir çok mail programı yukarıdaki linki tıklanabilir olarak göstermektedir. 
 Yardıma ihtiyacınız olursa site yöneticisiyle iletişim kurun:
 $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: Şifre değişim onayı';
-$string['emailpasswordconfirmmaybesent'] = '<p>Geçerli bir kullanıcı adı veya adres belirttiyseniz size bir e-posta gönderilmiş olmalı.</p>
-<p>Bu e-posta, şifre değişimini onaylamanız ve tamamlamanız için basit yönergeleri içermektedir. Zorluk yaşarsanız, lütfen site yöneticisiyle ilerişim kurun.</p>';
+$string['emailpasswordconfirmmaybesent'] = '<p>Geçerli bir kullanıcı adı veya adres belirttiyseniz size şu anda bir e-posta gönderdik.</p><p>Bu e-posta, şifre değişimini onaylayıp işlemi tamamlamanız için basit yönergeleri içermektedir. Zorluk yaşarsanız, lütfen site yöneticisiyle iletişim kurun.</p>';
 $string['emailpasswordconfirmsent'] = 'E-posta adresinize (<b>$a</b>) bir mesaj gönderildi.<br />Bu mesaj, şifre değişimini tamamlamanız için basit yönergeleri içermektedir.
 Bu işlemleri yaparken zorluk yaşarsanız site yöneticisiyle iletişim kurabilirsiniz.';
 $string['emailpasswordsent'] = 'Şifre değişimini onayladığınız için teşekkür ederiz. Bu e-posta adresinize <b>$a->email</b> yeni şifrenizi içeren bir mesaj gönderildi. Yeni şifreniz otomatik olarak oluşturulmuştur ve isterseniz bunu hatırlaması daha kolay bir şifreyle <a href=\"$a->link\">değiştirebilirsiniz</a>.';
@@ -1003,7 +1002,7 @@ $string['passwordchanged'] = 'Şifre değiştirildi';
 $string['passwordconfirmchange'] = 'Şifre değişimini onaylayın';
 $string['passwordextlink'] = 'Aşağıdaki link unutulan şifrenizi kurtarmak için sağlanmıştır. Bu, sizi Moodle dışına götürecek.';
 $string['passwordforgotten'] = 'Unutulan şifre';
-$string['passwordforgotteninstructions'] = 'Ayrıntılılarınız öncelikle kullanıcı veritabanında bulunmalı. Moodle kullanıcı adınızı <strong>ya da</strong> kayıtlı email adresinizi ilgili alana giriniz. İkisini birden girmenize gerek yok.';
+$string['passwordforgotteninstructions'] = 'Bilgileriniz öncelikle kullanıcı veritabanında bulunmalı. Lütfen, kullanıcı adınızı <strong>ya da</strong> kayıtlı email adresinizi ilgili alana giriniz. İkisini birden girmenize gerek yok.';
 $string['passwordnohelp'] = 'Unutulan şifrenizi bulmanız için yardım mevcut değil. Lütfen Moodle yöneticinizle iletişim kurun.';
 $string['passwordrecovery'] = 'Evet, giriş yardımı istiyorum';
 $string['passwordsdiffer'] = 'Bu şifreler uyuşmuyor';
@@ -1144,6 +1143,7 @@ $string['secondstotime432000'] = '5 gün';
 $string['secondstotime518400'] = '6 gün';
 $string['secondstotime604800'] = '1 hafta';
 $string['secondstotime86400'] = '1 gün';
+$string['secretalreadyused'] = 'Şifre değişimi onaylama bağlantısı daha önceden kullanılmış; şifre değiştirilmedi.';
 $string['secs'] = 'sn';
 $string['section'] = 'Bölüm';
 $string['sections'] = 'Bölümler';

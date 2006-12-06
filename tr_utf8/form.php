@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8 dev (2006112200)
+      // form.php - created with Moodle 1.8 dev (2006120400)
 
 
 $string['addfields'] = 'Forma $a alan ekle';
@@ -19,6 +19,6 @@ $string['miscellaneoussettings'] = 'Çeşitli Ayarlar';
 $string['modstandardels'] = 'Genel Modül Ayarları';
 $string['nomethodforaddinghelpbutton'] = '$a->name (sınıf $a->classname) form ögesi için yardım butonu ekleme metodu yok.';
 $string['nonexistentformelements'] = 'Var olmayan form ögelerine yardım butonları eklenmeye çalışılıyor: $a';
-$string['requiredelement'] = 'Gerekli alan.';
+$string['requiredelement'] = 'Gerekli alan';
 
 ?>
