@@ -430,6 +430,7 @@ $string['statsuserthreshold'] = 'Seuil utilisateurs';
 $string['stickyblocks'] = 'Blocs fixes';
 $string['stickyblockscourseview'] = 'Page de cours';
 $string['stickyblocksduplicatenotice'] = 'Si l\'un des blocs que vous ajoutez ici existe déjà sur une page, il y aura alors un doublon.<br />Seul celui qui est fixe ne sera pas modifiable. Le doublon pourra encore être modifié.';
+$string['stickyblocksmymoodle'] = 'Mon Moodle';
 $string['stickyblockspagetype'] = 'Type de page à configurer';
 $string['systempaths'] = 'Chemins système';
 $string['tabselectedtofront'] = 'Dans les tables avec onglets, la rangée contenant l\'onglet sélectionné doit-elle être ramenée au premier plan&nbsp;?';
