@@ -1,6 +1,7 @@
 <?php // $Id$
 
 $string['addfields'] = 'Ajouter $a champs au formulaire';
+$string['day'] = 'Jour';
 $string['denotesreq'] = '$a indique que le champ doit être renseigné.';
 $string['err_alphanumeric'] = 'Vous ne devez saisir que des chiffres ou des lettres dans ce champ.';
 $string['err_email'] = 'Vous devez indiquer une adresse de courriel valable dans ce champ.';
@@ -14,10 +15,14 @@ $string['err_numeric'] = 'Vous devez spécifier un nombre dans ce champ.';
 $string['err_rangelength'] = 'Vous devez taper entre {$a->format[0]} et {$a->format[1]} caractères dans ce champ.';
 $string['err_required'] = 'Vous devez remplir ce champ.';
 $string['general'] = 'Réglages généraux';
+$string['hour'] = 'Heure';
+$string['minute'] = 'Minute';
 $string['miscellaneoussettings'] = 'Réglages divers';
 $string['modstandardels'] = 'Réglages communs aux modules';
+$string['month'] = 'Mois';
 $string['nomethodforaddinghelpbutton'] = 'Il n\'y a pas de méthode pour ajouter un bouton d\'aide sur un élément $a->name (classe $a->classname) de formulaire';
 $string['nonexistentformelements'] = 'Tentative d\'ajout de bouton d\'aide à des éléments non existants&nbsp;: $a';
 $string['requiredelement'] = 'Champ requis';
+$string['year'] = 'Année';
 
 ?>
