@@ -1,15 +1,19 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6 (2006050506)
+      // enrol_authorize.php - created with Moodle 1.7 (2006101007)
 
 
 $string['adminacceptccs'] = '¿Qué tarjetas de crédito se aceptan?';
+$string['adminaccepts'] = 'Seleccione los métodos de pago y sus tipos';
+$string['adminauthcode'] = 'Si la tarjeta de crédito de un usuario no puede ser capturada directamente en internet, obtenga el código de autorización por teléfono del banco del cliente.';
 $string['adminauthorizeccapture'] = 'Ajustes Revisar Orden y Auto-Capturar';
 $string['adminauthorizeemail'] = 'Ajustes Enviar Email';
 $string['adminauthorizesettings'] = 'Ajustes Authorize.net';
 $string['adminauthorizewide'] = 'Ajustes Todo el Sitio';
 $string['adminavs'] = 'Compruebe esto si tiene activado el Sistema de Verificación de Direcciones (AVS, Address Verification System) en su cuenta authorize.net. Este sistema requiere campos de dirección tales como calle, estado, país y código postal cuando el usuario rellena el formulario de pago.';
+$string['adminconfighttps'] = 'Por favor, asegúrese de que tiene \"<a href=\"$a->url\">el loginhttps ON</a>\" para usar este \'plugin\'<br />en Admin >> Variables >> Seguridad >> Seguridad HTTP.';
+$string['adminconfighttpsgo'] = 'Vaya a la <a href=\"$a->url\">página segura</a> para configurar este \'plugin\'.';
 $string['admincronsetup'] = 'El script de mantenimiento cron.php no ha sido ejecutado durante al menos 24 horas. <br />El cron debe estar habilitado si quiere usar la característica de captura programada.<br /><b>Active adecuadamente el</b> \'Authorize.net plugin\' y <b>setup cron</b>; o bien el <b>uncheck an_review</b> de nuevo.<br />Si desactiva la captura programada, las transacciones serán canceladas a menos que las revise dentro de los próximos 30 días.<br />Compruebe<b>an_review</b> y escriba <b>\'0\' en el campo an_capture_day</b> <br />si desea aceptar o denegar  <b>manualmente</b> los pagos en los próximos 30 días.';
-$string['adminemailexpired'] = 'Enviar un email de advertencia a los administradores <b>$a</b> días ';
+$string['adminemailexpired'] = 'Enviar un email de advertencia a los administradores <b>$a</b> días';
 $string['adminemailexpiredsort'] = 'Cuando el número de órdenes a expirar pendientes se envían a los profesores por email, ¿cuál es importante?';
 $string['adminemailexpiredsortcount'] = 'El número de órdenes';
 $string['adminemailexpiredsortsum'] = 'La cantidad total';
@@ -38,13 +42,18 @@ $string['adminnewordersubject'] = '$a->course: Nueva Orden Pendiente($a->orderid
 $string['adminpendingorders'] = 'Ha deshabilitado la captura programada.<br />Un total de $a->count transacciones con estatus de AN_STATUS_AUTH serán canceladas a menos que lo marque.<br />Para aceptar o rechazar pagos, vaya a la página <a href=\'$a->url\'>Gestión de pagos</a>.';
 $string['adminreview'] = 'Revisar el orden antes de capturar la tarjeta de crédito.';
 $string['adminteachermanagepay'] = 'Los profesores pueden gestionar los pagos del curso.';
+$string['allpendingorders'] = 'Todas las órdenes pendientes';
 $string['amount'] = 'Cantidad';
 $string['anlogin'] = 'Authorize.net: Usuario';
 $string['anpassword'] = 'Authorize.net: Contraseña (no requerida)';
 $string['anreferer'] = 'Escriba aquí la referencia URL en el caso de que usted la ajuste en su cuenta authorize.net, que enviará una cabecera \"Referer: URL\" en la petición web.';
-$string['antestmode'] = 'Authorize.net:';
-$string['antrankey'] = 'Authorize.net:';
+$string['antestmode'] = 'Ejecutar transacciones sólo en modo test (no se girará dinero)';
+$string['antrankey'] = 'Authorize.net: Clave de transacción';
+$string['approvedreview'] = 'Revisión aprobada';
 $string['authcaptured'] = 'Autorizado / Capturado';
+$string['authcode'] = 'Código de autorización';
+$string['authorize:managepayments'] = 'Gestionar pagos';
+$string['authorize:uploadcsv'] = 'Subir archivo CSV';
 $string['authorizedpendingcapture'] = 'Autorizado / Pendiente de Captura';
 $string['avsa'] = 'La dirección (calle) es correcta, pero el código postal no';
 $string['avsb'] = 'Falta información sobre la dirección';
@@ -79,28 +88,55 @@ $string['costdefaultdesc'] = '<strong>En los ajustes del curso, escriba -1</stro
 $string['cutofftime'] = 'Tiempo límite para la transacción. ¿Cuándo será captada la última transacción para liquidación?';
 $string['delete'] = 'Destruir';
 $string['description'] = 'El módulo Authorize.net le permite ajustar cursos de pago vía proveedores CC. Si el costo de cualquier curso es cero, no se pedirá a los estudiantes que paguen. Existe un costo del sitio que usted ajusta aquí por defecto para todo el sitio y además un ajuste por curso que puede efectuar para cada curso individualmente. El costo del curso pasa por alto el costo del sitio.';
+$string['echeckabacode'] = 'Número ABA Banco';
+$string['echeckaccnum'] = 'Número de Cuenta Banco';
+$string['echeckacctype'] = 'Tipo de Cuenta Banco';
+$string['echeckbankname'] = 'Nombre del Banco';
+$string['echeckbusinesschecking'] = 'Cheque de Negocios';
+$string['echeckchecking'] = 'Cheque';
+$string['echeckfirslasttname'] = 'Propietario Cuenta Banco';
+$string['echecksavings'] = 'Descuentos';
 $string['enrolname'] = 'Puerta de tarjeta de crédito Authorize.net:';
 $string['expired'] = 'Caducado';
+$string['haveauthcode'] = 'Ya dispongo de un código de autorización';
 $string['howmuch'] = '¿Cuánto?';
 $string['httpsrequired'] = 'Lamentamos comunicarle que su solicitud no puede procesarse en este momento. La configuración de este sitio no se ha podido realizar correctamente.
 <br /><br />
 Por favor, no escriba su número de tarjeta de crédito a menos que vea un candado amarillo en la parte inferior del navegador. Ello significa transferidos entre cliente y servidor son encriptados, con el fin de proteger la información durante la transacción entre dos ordenadores y que el número de su tarjeta no puede ser capturado en internet.';
+$string['invalidaba'] = 'Número ABA no válido';
+$string['invalidaccnum'] = 'Número de cuenta no válido';
+$string['invalidacctype'] = 'Tipo de cuenta no válido';
 $string['logindesc'] = 'Puede seleccionar la opción <a href=\"$a->url\">loginhttps</a> en la sección Variables/Seguridad.
 <br /><br />
 Si la selecciona, Moodle usará una conexión https segura únicamente en la página de acceso y pago.';
+$string['logininfo'] = 'Debido a precauciones de seguridad, no se muestran el nombre de usuario, la contraseña ni la clave de transacción. No es preciso entrar de nuevo si usted ha configurado estos campos con anterioridad. Puede ver un texto en verde a la izquierda de la caja si algún campo está ya configurado. Si accede a estos campos por vez primera, es necesario el nombre de usuario (*) y usted deberá escribir <strong>o bien</strong> la clave de transacción (#1) <strong>o bien</strong> la contraseña (#2) en la casilla adecuada. Le recomendamos que escriba la clave de transacción debido a razones de seguridad. Si desea eliminar la contraseña actual, marque la casilla correspondiente.';
+$string['methodcc'] = 'Tarjeta de crédito';
+$string['methodecheck'] = 'eCheque (ACH)';
+$string['missingaba'] = 'Falta número ABA';
 $string['missingaddress'] = 'Falta la dirección';
+$string['missingbankname'] = 'Falta nombre de banco';
 $string['missingcc'] = 'Falta el número de tarjeta de crédito';
+$string['missingccauthcode'] = 'Falta código de autorización';
 $string['missingccexpire'] = 'Falta la fecha de caducidad';
 $string['missingcctype'] = 'Falta el tipo de tarjeta de crédito';
 $string['missingcvv'] = 'Falta el número de verificación';
 $string['missingzip'] = 'Falta el código postal';
+$string['mypaymentsonly'] = 'Mostrar sólo mis pagos';
 $string['nameoncard'] = 'Nombre que figura en la tarjeta';
 $string['new'] = 'Nuevo';
 $string['noreturns'] = '¡No devolución!';
 $string['notsettled'] = 'No liquidado';
 $string['orderid'] = 'ID Orden';
 $string['paymentmanagement'] = 'Gestión del pago';
-$string['paymentpending'] = 'El pago de este curso está pendiente con este número de orden $a->orderid.';
+$string['paymentmethod'] = 'Método de pago';
+$string['paymentpending'] = 'El pago de este curso está pendiente con este número de orden $a->orderid. Vea <a href=\'$a->url\'>Detalles de la orden</a>.';
+$string['pendingecheckemail'] = 'Estimado gestor,
+
+En este momento hay $a->count echeques pendientes y usted debe subir un archivo csv para obtener los usuarios matriculados.
+
+Haga clic en el enlace de abajo y lea el fichero de ayuda en la página:
+$a->url';
+$string['pendingechecksubject'] = '$a->course: eCheques pendientes($a->count)';
 $string['pendingordersemail'] = 'Estimado administrador,
 
 $a->pending transacciones expirarán a menos que usted acepte el pago dentro de los próximos $a->days días.
@@ -126,6 +162,8 @@ $string['reason11'] = 'Se ha enviado una transacción duplicada';
 $string['reason13'] = 'La ID del login del proveedor no es válida o la cuenta está inactiva.';
 $string['reason16'] = 'La transacción no se ha encontrado.';
 $string['reason17'] = 'El proveedor no acepta este tipo de tarjeta de crédito.';
+$string['reason245'] = 'Este tipo de eCheque no se admite cuando se usa el formulario de pago hospedado en la puerta de pago.';
+$string['reason246'] = 'No se admite este tipo de eCheque';
 $string['reason27'] = 'La transacción ha resultado en una discrepancia AVS. La dirección no se corresponde con la dirección de facturación del propietario de la tarjeta.';
 $string['reason28'] = 'El proveedor no acepta este tipo de tarjeta de crédito.';
 $string['reason30'] = 'La configuración con el procesador no es válida. Contacte con el proveedor de servicios mercantiles.';
@@ -139,10 +177,12 @@ $string['reason50'] = 'Esta transacción está esperando su liquidación y no pu
 $string['reason51'] = 'La suma de todos los créditos contra esta transacción es mayor que la cantidad de la transacción original.';
 $string['reason54'] = 'La transacción referenciada no cumple los criterios para emitir un crédito.';
 $string['reason55'] = 'La suma de los créditos contra la transacción referenciada excedería la cantidad de débito original.';
+$string['reason56'] = 'Este proveedor acepta sólo transacciones mediante eCheque (ACH); no se aceptan transaciones mediante tarjeta de crédito.';
 $string['refund'] = 'Reembolso';
 $string['refunded'] = 'Reembolsado';
 $string['returns'] = 'Devoluciones';
 $string['reviewday'] = 'Capturar la tarjeta de crédito automáticamente a menos que un profesor o administrador revise la orden antes de <b>$a</b>días. EL CRON DEBE ESTAR ACTIVADO.<br />(0 días significa que se desactivará la auto-captura, y que el profesor o administrador revisarán la orden manualmente. La transacción será cancelada si usted desactiva la auto-captura, o si no la revisa antes de 30 días).';
+$string['reviewfailed'] = 'Revisión fallida';
 $string['reviewnotify'] = 'Su pago será revisado. En unos días recibirá un email de su profesor.';
 $string['sendpaymentbutton'] = 'Enviar pago';
 $string['settled'] = 'Liquidado';
@@ -152,7 +192,11 @@ $string['tested'] = 'Probado';
 $string['testmode'] = '[MODO TEST]';
 $string['testwarning'] = 'Captura/Cancelación/Crédito parece funcionar en modo prueba, pero no se ha actualizado o insertado ningún registro en la base de datos.';
 $string['transid'] = 'ID Transacción';
+$string['underreview'] = 'En revisión';
 $string['unenrolstudent'] = '¿Dar de baja al estudiante?';
+$string['uploadcsv'] = 'Suboir archivo CSV';
+$string['usingccmethod'] = 'Matricularse usando <a href=\"$a->url\"><strong>Tarjeta de crédito</strong></a>';
+$string['usingecheckmethod'] = 'Matricularse usando <a href=\"$a->url\"><strong>eCheque</strong></a>';
 $string['void'] = 'Cancelación';
 $string['voidyes'] = 'La transacción será cancelada. ¿Está seguro?';
 $string['welcometocoursesemail'] = 'Estimado estudiante,

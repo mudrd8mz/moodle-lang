@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // enrol_imsenterprise.php - created with Moodle 1.7 (2006101007)
 
 
 $string['aftersaving...'] = 'Una vez que haya guardado sus ajustes, quizás quiera';
@@ -18,6 +18,7 @@ $string['filelockedmail'] = 'El texto que usted está utilizando para las matric
 $string['filelockedmailsubject'] = 'Error importante. Archivo de matriculación';
 $string['fixcasepersonalnames'] = 'Cambie los nombres personales a Mayúsculas';
 $string['fixcaseusernames'] = 'Cambie los nombres de usuario a minúsculas';
+$string['imsrolesdescription'] = 'La especificación IMS Enterprise incluye 8 distintos tipos de rol. Por favor, seleccione cómo quiere que se le asignen en Moodle, incluyendo si alguno debe ser omitido.';
 $string['location'] = 'Ubicación del archivo';
 $string['logtolocation'] = 'Ubicación del archivo \'log\' de salida (déjelo en blanco si no hay registro)';
 $string['mailadmins'] = 'Notificar al administrador por email';
