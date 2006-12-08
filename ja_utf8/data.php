@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 dev (2006102600)
+      // data.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['action'] = '操作';
@@ -92,7 +92,7 @@ $string['file'] = 'ファイル';
 $string['filtername'] = 'データベースオートリンク';
 $string['footer'] = 'フッタ';
 $string['forcelinkname'] = '強制リンク名';
-$string['fromfile'] = 'ZIPファイルから';
+$string['fromfile'] = 'ZIPファイルからインポートする';
 $string['header'] = 'ヘッダ';
 $string['headeraddtemplate'] = 'エントリ編集用のインターフェース定義';
 $string['headercsstemplate'] = '他のテンプレート用のローカルCSSスタイル定義';
