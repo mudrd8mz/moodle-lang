@@ -1,14 +1,17 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.7 dev (2006050501)
+      // chat.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['beep'] = 'bip';
+$string['chat:chat'] = 'Magsalita sa isang huntahan';
+$string['chat:deletelog'] = 'Burahin ang mga log ng huntahan';
+$string['chat:readlog'] = 'Basahin ang mga log ng huntahan';
 $string['chatintro'] = 'Panimulang teksto';
 $string['chatname'] = 'Pangalan ng silid-huntahan na ito';
 $string['chatreport'] = 'Sesyon ng Huntahan';
 $string['chattime'] = 'Susunod na oras ng huntahan';
 $string['configmethod'] = 'Ang normal na paraan ng huntahan ay regular na kinokontak ng mga kliyente ang server para sa mga pagbabago.  Hindi nito kailangang isaayos at gumagana sa lahat ng lugar, nguni\'t makapagpapabigat ito sa trabaho ng server kung maraming naghuhuntahan.  Ang paggamit ng server daemon ay nangangailangan ng shell access sa Unix, subali\'t nagreresulta ito sa isang mabilis at nai-scale na kapaligirang panghuntahan.';
-$string['confignormalupdatemode'] = 'Ang mga pagbabago sa sa Silid-huntahan ay karaniwang napapasinop sa pamamagitan ng katangiang <em>Keep-Alive</em> ng HTTP 1.1, pero mabigat pa rin ito para sa server. Ang higit na abanteng paraan ay gumamit ng estratehiyang <em>Stream</em> para makapagbigay ng mga pagbabago sa mga tagagamit.  Nag-i-scale nang mas mahusay ang <em>Stream</em> (tulad ng paraang chatd) pero maaring hindi ito suportado ng server ninyo. ';
+$string['confignormalupdatemode'] = 'Ang mga pagbabago sa sa Silid-huntahan ay karaniwang napapasinop sa pamamagitan ng katangiang <em>Keep-Alive</em> ng HTTP 1.1, pero mabigat pa rin ito para sa server. Ang higit na abanteng paraan ay gumamit ng estratehiyang <em>Stream</em> para makapagbigay ng mga pagbabago sa mga tagagamit.  Nag-i-scale nang mas mahusay ang <em>Stream</em> (tulad ng paraang chatd) pero maaring hindi ito suportado ng server ninyo.';
 $string['configoldping'] = 'Ano ang maksimum na oras na kailangang lumipas bago namin maramdaman na ang isang tagagamit ay di na konektado (sa segundo)?  Pantaas na limitasyon lamang ito, dahil kadalasan ay nararamdaman kaagad ang pagdiskonek nang madali.  Ang mas mababang halaga ay mas matrabaho para sa iyong server.  Kung ginagamit mo ang normal na paraan, <strong>huwag kailanman</strong> itatakda ito nang mas mababa sa 2 * chat_refresh_room.';
 $string['configrefreshroom'] = 'Gaano kalimit sasariwain ang mismong silid-huntahan? (sa segundo).  Mukhang mabilis ang silid-huntahan kapag itinakda ito na mababa, nguni\'t maaaring magpabigat ito sa trabaho ng web server mo kung marami ang naghuhuntahan.  Kung ginagamit mo ang pagbabagong <em>Stream</em>, maaari kang gumamit ng mas mataas na kalimitan ng pagsariwa -- tangkain mo ang 2.';
 $string['configrefreshuserlist'] = 'Gaano kalimit dapat sariwain ang listahan ng mga tagagamit? (sa segundo)';

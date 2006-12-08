@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.7 dev (2006050501)
+      // blog.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['addnewentry'] = 'Magdagdag ng bagong talâ';
@@ -15,6 +15,8 @@ $string['blogtags'] = 'Mga tag ng blog';
 $string['courseblog'] = 'Blog sa kurso: $a';
 $string['courseblogs'] = 'Tanging mga blog para sa mga taong magkakasama sa isang kurso ang makikita ng mga tagagamit.';
 $string['disableblogs'] = 'Patayin nang lubusan ang sistemang blog';
+$string['emptybody'] = 'Hindi puwedeng blangko ang katawan ng talâ sa blog';
+$string['emptytitle'] = 'Hindi puwedeng blangko ang pamagat ng talâ sa blog';
 $string['entrybody'] = 'Katawan ng talâ sa blog';
 $string['entrybodyonlydesc'] = 'Deskripsiyon ng talâ';
 $string['entryerrornotyours'] = 'Hindi iyo ang talang ito';
