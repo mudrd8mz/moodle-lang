@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 dev (2006102600)
+      // editor.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['about'] = 'Bu editor hakkında';
@@ -58,6 +58,7 @@ $string['justifycenter'] = 'Ortala';
 $string['justifyfull'] = 'Her iki yana yasla';
 $string['justifyleft'] = 'Sola hizala';
 $string['justifyright'] = 'Sağa hizala';
+$string['lang'] = 'Dil';
 $string['layout'] = 'Yerleşim';
 $string['left'] = 'Sol';
 $string['lefttoright'] = 'Yön soldan sağa doğru';
@@ -74,6 +75,7 @@ $string['matchcase'] = 'BÜYÜK/küçük harf duyarlı';
 $string['middle'] = 'Orta';
 $string['minimize'] = 'Editörü küçült';
 $string['move'] = 'Taşı';
+$string['multi'] = 'Çoklu';
 $string['mustenterurl'] = 'URL girmelisiniz';
 $string['nolink'] = 'Otomatik linklemeyi engelle';
 $string['normal'] = 'Normal';

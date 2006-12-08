@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2006120400)
+      // admin.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['accessdenied'] = 'Erişim engellendi';
@@ -51,7 +51,6 @@ $string['configallowunenroll'] = 'Bu seçenek \'Evet\' olarak ayarlıysa öğren
 $string['configallowuserblockhiding'] = 'Bu sitenin tamamında kullanıcıların blokları  gizleyip/göstermesine izin vermek istiyor musunuz? Bu özellik, herbir açılır/kapanır bloğun durumunu takip etmek için Javascript ve çerezleri kullanır. Ayrıca, sadece kullanıcının kendi görünümünü etkiler.';
 $string['configallowusermailcharset'] = 'Bunun etkinleştirilmesiyle her kullanıcının emaili için kendi karakter setini ayarlamasına olanak verilir.';
 $string['configallowuserthemes'] = 'Etkinleştirirseniz, kullanıcıların kendi temalarını ayarlamalarına izin verilir. Kullanıcı temaları site temasını yok sayar (fakat kurs temasını değil).';
-$string['configallowvisiblecoursesinhiddencategories'] = 'Gizli kategorilerdeki kursları normal şekilde göster';
 $string['configallusersaresitestudents'] = 'TÜM kullanıcılar, sitenin giriş sayfasındaki bütün etkinlikler için öğrenci olarak düşünülecek mi? Cevabınız \'Evet\' ise, hesabı onaylanmış herhangi bir kullanıcının bu etkinliklere öğrenci olarak katılmasına izin verilecektir. Şayet \'Hayır\' ise, en az bir kursa kayıtlı olan kullanıcılar giriş sayfası etkinliklerine katılabilecektir. Sadece yöneticiler ve özel olarak atanmış eğitimciler, giriş sayfasındaki bu etkinliklerde eğitimci olarak rol alabilirler.';
 $string['configautologinguests'] = 'Kurslara konuk erişimiyle girildiğinde ziyaretçiler konuk olarak giriş yapabilsin mi?';
 $string['configbloglevel'] = 'Bu ayar, bu sitede görülebilen kullanıcı bloklarının seviyesini sınırlamanıza izin verir. Bu ayarın, göndereni veya blog mesajlarını değil, İZLEYİCİNİN maksimum seviyesini ayarladığını dikkate alın. İstemiyorsanız, bloglar tamamen kapatılabilir.';
@@ -176,6 +175,7 @@ $string['configthemelist'] = 'Kullanılan geçerli temalara izin vermek istiyors
 $string['configtimezone'] = 'Buradan varsayılan bölgesel zamanı ayarlayabilirsiniz. Bu, tarihlerin gösterimi için VARSAYILAN bölgesel zamandır. Ayrıca her kullanıcı bu ayarı kendi profilinden değiştirebilir. Buradaki \"Sunucu zamanı\" Moodle\'ın geçerli işletim sistemi ayarı olacaktır, fakat kullanıcı profilindeki \"Sunucu zamanı\" kullanıcının geçerli bölgesel zamanı olacaktır. Günün zamanına bağımlı olan crontab bu bölgesel zamanı kullanacaktır.';
 $string['configunzip'] = 'Unzip programının yerini belirtin (Sadece Unix için, isteğe bağlıdır). Belirtilirse, sunucuda zip arşivini açmak için bu kullanılacaktır. Boş bırakırsanız, zip arşivini açmak için dahili işlemler kullanılacaktır.';
 $string['configvariables'] = 'Değişkenler';
+$string['configvisiblecourses'] = 'Gizli kategorilerdeki kursları normal şekilde göster';
 $string['configwarning'] = 'Bu ayarları değiştirirken dikkatli olun. Bilmediğiniz değerleri girmeniz sorunlara sebep olabilir.';
 $string['configzip'] = 'Zip programının yerini belirtin (Sadece Unix için, isteğe bağlıdır). Belirtilirse, sunucuda zip arşivi oluşturmak için bu kullanılacaktır. Boş bırakırsanız, zip arşivi oluşturmak için dahili işlemler kullanılacaktır.';
 $string['confirmation'] = 'Onay';
