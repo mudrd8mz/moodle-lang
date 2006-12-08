@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 dev (2006112200)
+      // editor.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['about'] = 'エディタに関して';
@@ -58,6 +58,7 @@ $string['justifycenter'] = '中央寄せ';
 $string['justifyfull'] = '均等';
 $string['justifyleft'] = '左寄せ';
 $string['justifyright'] = '右寄せ';
+$string['lang'] = '言語';
 $string['layout'] = 'レイアウト';
 $string['left'] = 'Left';
 $string['lefttoright'] = '左→右';
@@ -74,6 +75,7 @@ $string['matchcase'] = '大文字・小文字を区別する';
 $string['middle'] = 'Middle';
 $string['minimize'] = 'エディタを最小化する';
 $string['move'] = '移動';
+$string['multi'] = '多言語';
 $string['mustenterurl'] = 'URLを入力してください。';
 $string['nolink'] = '用語集リンクを抑える';
 $string['normal'] = 'ノーマル';
