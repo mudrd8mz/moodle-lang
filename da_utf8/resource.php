@@ -106,12 +106,18 @@ $string['resourcetype9'] = 'Bibliotek';
 $string['resourcetypedirectory'] = 'Vis et bibliotek';
 $string['resourcetypefile'] = 'Fil eller URL';
 $string['resourcetypehtml'] = 'Lav en webside';
+$string['resourcetypeims'] = 'Tilføj en IMS Content Package';
 $string['resourcetypelabel'] = 'Etikette';
+$string['resourcetyperepository'] = 'Link til et repository object';
 $string['resourcetypetext'] = 'Tekstside';
 $string['searchweb'] = 'Søg';
 $string['serverurl'] = 'Server URL ($a->wwwroot)';
 $string['showcourseblocks'] = 'Vis kursusblokkene';
+$string['skipsubmenus'] = 'Udelad undermenu-sider';
+$string['tableofcontents'] = 'Indholdsfortegnelse';
+$string['upbutton'] = 'Op';
 $string['variablename'] = 'Variabel navn';
+$string['viewims'] = 'Gennemse IMS Content Package';
 $string['vol'] = 'vol';
 
 ?>

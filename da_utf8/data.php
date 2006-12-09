@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6.2+ (2006050521)
+      // data.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['add'] = 'Tilføj post';
@@ -8,6 +8,7 @@ $string['addcomment'] = 'Tilføj kommentar';
 $string['addtemplate'] = 'Tilføj skabelon';
 $string['allowcomments'] = 'Tillad kommentarer?';
 $string['allowratings'] = 'Tillad bedømmelse af poster?';
+$string['approve'] = 'Godkend';
 $string['ascending'] = 'Stigende';
 $string['atmaxentry'] = 'Der kan ikke tilføjes flere poster, maksimum er nået!';
 $string['autolinkurl'] = 'Autolink URL\'en';
@@ -20,6 +21,7 @@ $string['commentempty'] = 'Kommentaren var tom';
 $string['comments'] = 'Kommentarer';
 $string['commentsaved'] = 'Kommentar gemt';
 $string['commentsn'] = '$a kommentar(er)';
+$string['configenablerssfeeds'] = 'Aktiver RSS. Kræver at RSS også er aktiveret i indstillingerne for hver database.';
 $string['confirmdeletefield'] = 'Du er ved at slette dette felt, vil du fortsætte?';
 $string['confirmdeleterecord'] = 'Er du sikker på at du vil slette denne post';
 $string['csstemplate'] = 'CSS skabelon';
