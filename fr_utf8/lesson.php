@@ -39,6 +39,7 @@ $string['checkedthisone'] = 'ont coché cette option.';
 $string['checknavigation'] = 'Vérifier la navigation';
 $string['checkquestion'] = 'Vérifier la question';
 $string['classstats'] = 'Statistique de classe';
+$string['clicktodownload'] = 'Cliquer sur le lien ci-dessous pour télécharger le fichier.';
 $string['clicktopost'] = 'Cliquer ici pour envoyer votre note dans la liste des Meilleures résultats.';
 $string['clusterjump'] = 'Question non vue à l\'intérieur d\'un groupe';
 $string['clustertitle'] = 'Groupe';
