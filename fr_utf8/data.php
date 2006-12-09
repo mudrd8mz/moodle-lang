@@ -86,7 +86,7 @@ $string['file'] = 'Fichier';
 $string['filtername'] = 'Liens automatiques des bases de données';
 $string['footer'] = 'Pied de page';
 $string['forcelinkname'] = 'Nom imposé pour le lien';
-$string['fromfile'] = 'à partir d\'un fichier zip';
+$string['fromfile'] = 'Importer d\'un fichier zip';
 $string['header'] = 'Entête';
 $string['headeraddtemplate'] = 'Définit l\'interface présentée lors de l\'ajout de nouvelles fiches';
 $string['headercsstemplate'] = 'Définit les styles CSS des autres modèles';
@@ -200,7 +200,7 @@ $string['updatefield'] = 'Modifier un champ existant';
 $string['uploadfile'] = 'Déposer un fichier';
 $string['uploadrecords'] = 'Importer des fiches à partir d\'un fichier';
 $string['url'] = 'URL';
-$string['usestandard'] = 'utiliser un préréglage';
+$string['usestandard'] = 'Utiliser un préréglage';
 $string['viewfromdate'] = 'Consultable du';
 $string['viewtodate'] = 'Consultable jusqu\'au';
 
