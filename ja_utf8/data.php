@@ -19,6 +19,7 @@ $string['availablefromdate'] = '利用開始日時';
 $string['availabletags'] = '利用可能なタグ';
 $string['availabletodate'] = '利用終了日時';
 $string['blank'] = 'ブランク';
+$string['buttons'] = 'ボタン';
 $string['bynameondate'] = '$a->date - $a->name の投稿';
 $string['cancel'] = 'キャンセル';
 $string['checkbox'] = 'チェックボックス';
