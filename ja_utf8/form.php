@@ -4,7 +4,7 @@
 
 $string['addfields'] = '$a フィールドをフォームに追加する';
 $string['day'] = '日';
-$string['denotesreq'] = '$a は必須入力フィールドを意味します。';
+$string['denotesreq'] = '$a は必須入力フィールドです。';
 $string['err_alphanumeric'] = 'ここには文字または数字のみ入力してください。';
 $string['err_email'] = 'ここには有効なメールアドレスを入力してください。';
 $string['err_lettersonly'] = 'ここには文字のみ入力してください。';
