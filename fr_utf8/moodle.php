@@ -250,6 +250,7 @@ $string['coursecategory'] = 'Catégorie de cours';
 $string['coursecreators'] = 'Responsable de cours';
 $string['coursecreatorsdescription'] = 'Les responsables des cours peuvent créer de nouveaux cours et y enseigner.';
 $string['coursefiles'] = 'Fichiers du cours';
+$string['courseformatdata'] = 'Données du format de cours';
 $string['courseformats'] = 'Formats de cours';
 $string['coursegrades'] = 'Notes du cours';
 $string['coursehidden'] = 'Ce cours n\'est actuellement pas disponible pour les étudiants';
