@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006112200)
+      // moodle.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['action'] = '操作';
@@ -251,6 +251,7 @@ $string['coursecategory'] = 'コースカテゴリ';
 $string['coursecreators'] = 'コース作成者';
 $string['coursecreatorsdescription'] = 'コース作成者は、新しいコースの作成およびコース内での教育を行うことができます。';
 $string['coursefiles'] = 'コースファイル';
+$string['courseformatdata'] = 'コースフォーマットデータ';
 $string['courseformats'] = 'コースフォーマット';
 $string['coursegrades'] = 'コース評定';
 $string['coursehidden'] = '現在、学生はこのコースを利用できません。';
