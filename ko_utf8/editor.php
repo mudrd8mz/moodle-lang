@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 dev (2006102600)
+      // editor.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['about'] = '편집기에 대하여';
@@ -60,6 +60,7 @@ $string['justifycenter'] = '중앙 정렬';
 $string['justifyfull'] = '양쪽 정렬';
 $string['justifyleft'] = '왼쪽 정렬';
 $string['justifyright'] = '오른쪽 정렬';
+$string['lang'] = '언어';
 $string['layout'] = '지면배치';
 $string['left'] = '문단을 왼쪽에 정렬';
 $string['lefttoright'] = '왼쪽에서 오른쪽으로';
@@ -76,6 +77,7 @@ $string['matchcase'] = '대소문자맞추기';
 $string['middle'] = '중앙';
 $string['minimize'] = '편집창 축소';
 $string['move'] = '이동';
+$string['multi'] = '다중';
 $string['mustenterurl'] = 'URL을 입력해야만 합니다.';
 $string['nolink'] = '자동 링크 막기';
 $string['normal'] = '보통';

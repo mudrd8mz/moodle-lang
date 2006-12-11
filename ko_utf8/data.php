@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 dev (2006102600)
+      // data.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['action'] = '행동';
@@ -19,10 +19,12 @@ $string['availablefromdate'] = '부터 사용가능';
 $string['availabletags'] = '사용가능한 범주';
 $string['availabletodate'] = '까지 사용가능';
 $string['blank'] = '공백';
+$string['buttons'] = '단추';
 $string['bynameondate'] = '$a->date 에 $a->name 에 의해';
 $string['cancel'] = '취소';
 $string['checkbox'] = '체크박스';
 $string['chooseorupload'] = '파일 선택';
+$string['columns'] = '행';
 $string['commentdeleted'] = '코멘트가 삭제됨';
 $string['commentempty'] = '코멘트가 없음';
 $string['comments'] = '코멘트';
@@ -61,6 +63,8 @@ $string['download'] = '내려받음';
 $string['edit'] = '편집';
 $string['editcomment'] = '코멘트 편집';
 $string['editentry'] = '게시물 편집';
+$string['editordisable'] = '편집 불가';
+$string['editorenable'] = '편집 가능';
 $string['emptyadd'] = '이 추가 템플릿은 비어 있습니다. 기본 템플릿을 생성합니다.';
 $string['emptyaddform'] = '어떤 항목도 기입하지 않았습니다!';
 $string['entries'] = '입력 내용';
@@ -181,6 +185,7 @@ $string['requiredentries'] = '필요한 게시물';
 $string['requiredentriestoview'] = '보기전에 입력이 필요합니다.';
 $string['resettemplate'] = '템플릿 초기상태';
 $string['resizingimages'] = '영상보기 크기 조정';
+$string['rows'] = '열';
 $string['rssglobaldisabled'] = '비활성화됨. 사이트 설정 변수를 확인하세요.';
 $string['rsshowmany'] = '(보여질 최근 게시물의 수, RSS를 비활성화 하기위해서는 0을 입력하세요)';
 $string['rsstemplate'] = 'RSS 템플릿';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2006112200)
+      // admin.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -14,6 +14,7 @@ $string['allowrenames'] = '이름 변경 허용';
 $string['allowuserblockhiding'] = '사용자에게 블록감추기 허용';
 $string['allowusermailcharset'] = '사용자에게 문자세트 선택 허용';
 $string['allowuserthemes'] = '사용자 테마 허용';
+$string['allowvisiblecoursesinhiddencategories'] = '숨겨진 범주에서 배움터 볼 수 있게 허용';
 $string['antivirus'] = '바이러스 방역';
 $string['appearance'] = '겉모습';
 $string['aspellpath'] = 'aspell 경로';
@@ -184,6 +185,7 @@ $string['configunzip'] = 'unzip 프로그램의 위치(유닉스만,선택사항
 만약 여기에 그 경로를 적어넣으면 서버상에서 압축된 zip 문서를 푸는데 사용된다.
 만약 여기를 비워둔다면, 무들은 내부 루틴을 사용할 것이다.';
 $string['configvariables'] = '변수';
+$string['configvisiblecourses'] = '숨겨진 범주의 배움터 표시';
 $string['configwarning'] = '함부로 이 설정값을 변경하지 마시오 - 잘못된 값이 문제를 일으킬 수 있습니다.';
 $string['configzip'] = '당신의 zip 프로그램의 위치(유닉스만,선택사항)를 적어라. 만약 지정되면, 이것은 서버상에서 zip 문서를 생성시킬 것이다. 만약 당신이 이 칸을 비워둔다면, 무들은 내부 루틴을 사용할 것이다.';
 $string['confirmation'] = '확정';

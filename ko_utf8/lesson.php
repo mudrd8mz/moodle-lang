@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8 dev (2006101001)
+      // lesson.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['accesscontrol'] = '접근 제한';
@@ -41,7 +41,8 @@ $string['checkedthisone'] = '이미 점검하였음';
 $string['checknavigation'] = '진행 점검';
 $string['checkquestion'] = '문항 점검';
 $string['classstats'] = '학급 통계';
-$string['clicktopost'] = '고득점 목록에 점수를 입력하려면 여기를 클릭하시오';
+$string['clicktodownload'] = '파일을 내려받으려면 다음의 링크를 클릭하시오.';
+$string['clicktopost'] = '고득점 목록에 점수를 입력하려면 여기를 클릭하시오.';
 $string['clusterjump'] = '질문묶음에서 보지 않은 문항';
 $string['clustertitle'] = '질문묶음';
 $string['collapsed'] = '제목 펼침';
