@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006112200)
+      // moodle.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['action'] = '동작';
@@ -252,6 +252,7 @@ $string['coursecategory'] = '배움터 범주';
 $string['coursecreators'] = '배움터 생성자';
 $string['coursecreatorsdescription'] = '배움터 생성자는 새로운 과정을 개설할 수 있고 그 안에서 가르칠 수 있습니다.';
 $string['coursefiles'] = '배움터 파일들';
+$string['courseformatdata'] = '배움터 유형 자료';
 $string['courseformats'] = '배움터 유형';
 $string['coursegrades'] = '배움터 등급';
 $string['coursehidden'] = '아직 학생들이 이 배움터를 사용할 수는 없습니다.';
