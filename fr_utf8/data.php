@@ -82,6 +82,7 @@ $string['fieldmappings'] = 'Correspondances des champs';
 $string['fieldname'] = 'Nom du champ';
 $string['fieldoptions'] = 'Options (par ligne)';
 $string['fields'] = 'Champs';
+$string['fieldids'] = 'Identifiants de champs';
 $string['fieldupdated'] = 'Champ modifié';
 $string['fieldwidth'] = 'Largeur';
 $string['fieldwidthlistview'] = 'Largeur en affichage liste';
