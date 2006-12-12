@@ -336,7 +336,7 @@ $string['misc'] = 'Divers';
 $string['modulesecurity'] = 'Sécurité modules';
 $string['multilangforceold'] = 'Imposer l\'ancienne syntaxe du filtre multilingue&nbsp;: &lt;span&gt; sans class=\"multilang\" et &lt;lang&gt;';
 $string['multilangupgrade'] = 'Mise à jour de la syntaxe multilingue';
-$string['multilangupgradeinfo'] = 'La syntaxe du filtre multilingue a été modifiée à partir de la version 1.8&nbsp;: la balise &lt;lang&gt; n\'est plus supportée.<br /><br />Exemple&nbsp;: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"es\" class=\"multilang\">Hola!&lt;/span&gt;<br /><br /><strong>Do you want to upgrade the syntax in all existing texts now?</strong>';
+$string['multilangupgradeinfo'] = 'La syntaxe du filtre multilingue a été modifiée à partir de la version 1.8&nbsp;: la balise &lt;lang&gt; n\'est plus supportée.<br /><br />Exemple&nbsp;: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"fr\" class=\"multilang\">Bonjour !&lt;/span&gt;<br /><br /><strong>Voulez-vous mettre à jour maintenant la syntaxe multilingue dans tous les textes existants&nbsp;?</strong>';
 $string['multilangupgradenotice'] = 'Votre site utilise vraisemblablement l\'ancienne syntaxe du filtre multilingue. La <a href=\"multilangupgrade.php\">mise à jour de la syntaxe multilingue</a> est recommandée.';
 $string['mustenablestats'] = 'Les statistiques n\'ont pas encore été activées sur ce site.';
 $string['mymoodle'] = 'Mon Moodle';
