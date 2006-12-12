@@ -84,6 +84,7 @@ $string['fieldenclosure'] = 'フィールド囲み文字';
 $string['fieldheight'] = '高さ';
 $string['fieldheightlistview'] = '一覧表示の高さ';
 $string['fieldheightsingleview'] = '個別表示の高さ';
+$string['fieldids'] = 'フィールドid';
 $string['fieldmappings'] = 'フィールドマッピング';
 $string['fieldname'] = 'フィールド名';
 $string['fieldoptions'] = 'オプション (1行あたり1つ)';
