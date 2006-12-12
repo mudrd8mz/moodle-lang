@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2006120400)
+      // admin.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -336,6 +336,10 @@ $string['mediapluginwmv'] = '.wmvフィルタを有効にする';
 $string['messaging'] = 'メッセージングシステムを有効にする';
 $string['misc'] = 'その他';
 $string['modulesecurity'] = 'モジュールセキュリティ';
+$string['multilangforceold'] = '古いmultilangシンタックスを強制する: class=\"multilang\" および &lt;lang&gt; を使用せず &lt;span&gt; を使用する';
+$string['multilangupgrade'] = 'multilangアップグレード';
+$string['multilangupgradeinfo'] = 'multilangフィルタシンタックスはMoodle 1.8で変更され、 &lt;lang&gt; タグは今後サポートされません。<br /><br />例: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"es\" class=\"multilang\">Hola!&lt;/span&gt;<br /><br /><strong>既存のすべてのテキストに関するシンタックスをアップグレードしてもよろしいですか?</strong>';
+$string['multilangupgradenotice'] = 'あなたのサイトは、恐らく古いmultilangシンタックスを使用しています。<a href=\"multilangupgrade.php\">multilangアップグレード</a>をお勧めします。';
 $string['mustenablestats'] = 'このサイトでは、統計が有効にされていません。';
 $string['mymoodle'] = 'マイ Moodle';
 $string['mymoodleredirect'] = 'ユーザにマイ Moodleを強制する';
