@@ -10,6 +10,7 @@ $string['addentries'] = 'エントリの追加';
 $string['addtemplate'] = 'エントリ追加用テンプレート';
 $string['allowcomments'] = 'コメントを許可しますか?';
 $string['allowratings'] = '投稿の評価を許可しますか?';
+$string['alttext'] = '代替テキスト';
 $string['approve'] = '承認';
 $string['ascending'] = '昇順';
 $string['atmaxentry'] = 'あなたは、許可された最大数のエントリを入力しました!';
