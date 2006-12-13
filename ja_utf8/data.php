@@ -26,6 +26,7 @@ $string['cancel'] = 'キャンセル';
 $string['checkbox'] = 'チェックボックス';
 $string['chooseorupload'] = 'ファイルを選択';
 $string['columns'] = 'カラム';
+$string['comment'] = 'コメント';
 $string['commentdeleted'] = 'コメントが削除されました。';
 $string['commentempty'] = 'コメントが空です。';
 $string['comments'] = 'コメント';
