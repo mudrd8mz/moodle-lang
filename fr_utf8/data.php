@@ -8,6 +8,7 @@ $string['addentries'] = 'Ajouter des fiches';
 $string['addtemplate'] = 'Modèle nouvelle fiche';
 $string['allowcomments'] = 'Permettre les commentaires&nbsp;?';
 $string['allowratings'] = 'Permettre l\'évaluation des fiches&nbsp;?';
+$string['alttext'] = 'Texte alternatif';
 $string['ascending'] = 'Ascendant';
 $string['atmaxentry'] = 'Vous avez ajouté le nombre maximum de fiches permises&nbsp;!';
 $string['autogenallforms'] = 'Générer tous les modèles par défaut';
