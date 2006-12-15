@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.7 dev (2006050501)
+      // editor.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['about'] = 'Hinggil sa editor na ito';
@@ -23,8 +23,9 @@ $string['createanchor'] = 'Lumikha ng sinipete';
 $string['createfolder'] = 'Lumikha ng bugsok';
 $string['createlink'] = 'Magsingit ng Web Link';
 $string['cut'] = 'Gupitin ang pinilì';
-$string['cutpastemozilla'] = 'Ikinalulungkot namin, nguni\'t hindi mo magagamit sa kasalukuyan ang mga normal na shortcut sa keyboard (ni ang buton na Paste) para sa Pagpaste ng teksto sa online na editor na ito.  Dahil ito sa isang katangiang panseguridad na bahagi ng ilang bersiyon ng Mozilla at Firefox na browser.<br /><br />May tatlong kilalang solusyon na maaari mong tangkaing gamitin:  <br /> (1) Sa halip na CTRL-v, gamitin ang SHIFT-Insert<br /> (2) Gamitin ang Edit->Paste na menu sa iyong browser <br /> (3) Palitan ang mga preference sa iyong browser sa pamamagitan ng pag-edit sa user.js na sako.  <br /><br />Iklik ang OK na buton sa ibaba para sa karagdagang tulong, o Balewalain upang makabalik sa editor';
+$string['cutpastemozilla'] = 'Ikinalulungkot namin, nguni\'t hindi mo magagamit sa kasalukuyan ang mga normal na shortcut sa keyboard (ni ang buton na Paste) para sa pag-paste ng teksto sa online na editor na ito.  Dahil ito sa isang katangiang panseguridad na bahagi ng ilang bersiyon ng Mozilla at Firefox na browser.<br /><br />May tatlong kilalang solusyon na maaari mong tangkaing gamitin:  <br /> (1) Sa halip na CTRL-v, gamitin ang SHIFT-Insert<br /> (2) Gamitin ang Edit->Paste na menu sa iyong browser <br /> (3) Palitan ang mga preference sa iyong browser sa pamamagitan ng pag-edit sa user.js na sako.  <br /><br />Iklik ang OK na buton sa ibaba para sa karagdagang tulong, o Balewalain upang makabalik sa editor';
 $string['delete'] = 'Burahin';
+$string['enterurlfirst'] = 'Kailangan mo munang magpasok ng URL';
 $string['filebrowser'] = 'Pantingin ng Sako';
 $string['findwhat'] = 'Hanapin';
 $string['fontname'] = 'Pangalan ng font';
@@ -32,6 +33,7 @@ $string['fontsize'] = 'Laki ng font';
 $string['forecolor'] = 'Kulay ng Font';
 $string['formatblock'] = 'Anyo';
 $string['fullscreen'] = 'Buong-iskrin na editor';
+$string['heading'] = 'Talaulo';
 $string['height'] = 'Taas';
 $string['hilitecolor'] = 'Kulay ng Likuran';
 $string['horizontal'] = 'Pahiga';
@@ -62,7 +64,8 @@ $string['matchcase'] = 'Itugma ang laki ng titik';
 $string['middle'] = 'Gitna';
 $string['minimize'] = 'Paliitin ang editor';
 $string['move'] = 'Ilipat';
-$string['nolink'] = 'Pigilin ang paglink sa talahulugan';
+$string['mustenterurl'] = 'Kailangan mong ipasok ang URL';
+$string['nolink'] = 'Pigilin ang kusang paglink';
 $string['notimage'] = 'Ang piniling sako ay hindi larawan.  Pumilì po ng larawan!';
 $string['notset'] = 'Hindi nakatakda';
 $string['options'] = 'Mga opsiyon';
@@ -72,6 +75,7 @@ $string['paste'] = 'Idikit mula sa clipboard';
 $string['path'] = 'Landas';
 $string['percent'] = 'Bahagdan';
 $string['pixels'] = 'Mga Piksel';
+$string['pleaseenteralt'] = 'Pakipasok po ang kahaliling teksto';
 $string['popupeditor'] = 'Palakihin ang Editor';
 $string['preview'] = 'Silipin';
 $string['properties'] = 'Mga Katangian';
@@ -85,7 +89,7 @@ $string['right'] = 'Kanan';
 $string['righttoleft'] = 'Direksiyon mula kanan pakaliwa';
 $string['rows'] = 'Hilig';
 $string['searchandreplace'] = 'Hanapin at palitan';
-$string['searchnotfound'] = 'Hindi matagpuan ang string!';
+$string['searchnotfound'] = 'HINDI MATAGPUAN ang string!';
 $string['selectcolor'] = 'Pumili ng kulay';
 $string['selection'] = 'Pinilì';
 $string['showhelp'] = 'Tulong sa paggamit ng editor';

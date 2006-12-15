@@ -246,6 +246,7 @@ $string['coursecategory'] = 'Kategoriya ng kurso';
 $string['coursecreators'] = 'Mga tagalikha ng kurso';
 $string['coursecreatorsdescription'] = 'Ang mga tagalikha ng kurso ay makakalikha ng mga bagong kurso at makapagtuturo sa mga ito.';
 $string['coursefiles'] = 'Mga sako ng kurso';
+$string['courseformatdata'] = 'Datos ng anyo ng kurso';
 $string['courseformats'] = 'Mga anyo ng kurso';
 $string['coursegrades'] = 'Mga marka sa kurso';
 $string['coursehidden'] = 'Hindi magagamit ng mga mag-aaral ang kursong ito sa kasalukuyan';

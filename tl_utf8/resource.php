@@ -1,16 +1,19 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 dev (2006050501)
+      // resource.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['addresource'] = 'Magdagdag ng rekurso';
+$string['affectedresources'] = 'Apektadong rekurso';
 $string['back'] = 'Bumalik';
 $string['browserepository'] = 'Tingnan ang imbakan';
 $string['choose'] = 'Piliin';
 $string['chooseafile'] = 'Pumilì o mag-ahon ng sako';
 $string['chooseparameter'] = 'Pumilì ng parameter';
 $string['configallowlocalfiles'] = 'Kapag lumilikha ng bagong sako na rekurso, pinahihintulutan ang mga link sa mga sako na nasa isang lokal na sistema ng sako tulad ng sa CD drive o sa hard drive.  Kapakipakinabang  ito sa isang silid aralan kung saan ang mga mag-aaral ay makakapasok sa isang pinagsasaluhang network na drive o sa isang sako sa CD na kailangang pasukin.  Ang paggamit ng katangiang ito ay maaaring mangailangan ng pagbabago sa kaayusang pangseguridad ng browser ninyo.';
+$string['configautofilerenamesettings'] = 'Kusang baguhin ang mga pagsangguni sa mga sako at bugsok, kapag binago ang pangalan sa tagapamahala ng sako.';
+$string['configblockdeletingfilesettings'] = 'Harangin ang pagbura sa mga sako at bugsok na sinasangguni ng mga rekurso.  Tandaan na ang mga larawan at iba pang sako na sinasangguni mula sa html ay hindi protektado.';
 $string['configdefaulturl'] = 'Nakalagay na ang halagang ito sa URL form kapag lumilikha ng bagong rekurso na nakabatay sa URL.';
-$string['configfilterexternalpages'] = 'Ang pagbuhay ng kaayusang ito ay magbubunga ng pagproseso sa lahat ng panlabas na rekurso (pahinang pangweb, inahon na sakong HTML) ng kasalukuyang itinakdang pansalâ ng site (tulad ng kusang-paglink ng talahulugan, bilang halimbawa).  Kapag binuhay mo ang opsiyong ito maaaring magpabagal ito nang labis sa iyong mga pahina ng kurso - mag-ingat sa paggamit at gamitin kung kinakailangan mo lamang talaga ito.';
+$string['configfilterexternalpages'] = 'Ang pagbuhay ng kaayusang ito ay magbubunga ng pagproseso sa lahat ng panlabas na rekurso (pahinang pangweb, inahon na sakong HTML) ng kasalukuyang itinakdang pansalâ ng site (tulad ng kusang-paglink ng talahulugan, halimbawa).  Kapag binuhay mo ang opsiyong ito maaaring magpabagal ito nang labis sa iyong mga pahina ng kurso - mag-ingat sa paggamit at gamitin kung kinakailangan mo lamang talaga ito.';
 $string['configframesize'] = 'Kapag idinispley ang isang pahinang pangweb o inahon na sako sa loob ng isang kuwadro, ang halagang ito ang laki (sa piksel) ng kuwadro na nasa tuktok (na naglalaman ng nabigasyon).';
 $string['configparametersettings'] = 'Itinatakda nito ang umiiral na halaga para sa kuwadro ng porma kung saan isinasaayos ang Parameter, kapag nagdadagdag ka ng bagong rekurso.  Pagkatapos ng unang pagkakataon, ang magiging halaga nito ay kung ano ang ibigin ng indibidwal na tagagamit.';
 $string['configpopup'] = 'Kapag nagdadagdag ka ng bagong rekurso na puwedeng ipakita sa isang popup na bintana, gagawin bang umiiral na buhay ang opsiyong ito?';
@@ -47,7 +50,7 @@ $string['imspackageloaded'] = 'Naikarga na ang Pakete';
 $string['localfile'] = 'Lokal na sako';
 $string['localfilechoose'] = 'Pumilì ng isang lokal na sako (CD-ROM)';
 $string['localfilehelp'] = 'Tulong sa pagpapakita ng mga lokal na sako';
-$string['localfileinfo'] = '<p>Pumilì ng lokal na sako sa iyong kompyuter. Hindi iaahon ang sako sa web site, nguni\'t hahanapin ng Moodle ang parehong sako sa kompyuter ng sinumang tumitingin sa rekursong ito.</p><p>Kapakipakinabang ito kapag may malalaki kang media sako na nakaimbak sa isang istandard na CD-ROM na ipinamamahagi mo sa lahat ng kalahok.  Maaaring pumilì ang bawat kalahok ng kanilang lokal na landas para sa sako na ganito, sa pamamagitan ng   <a href=\"$a\" target=\"_blank\">ineedit ang kanilang pagkakakilanlan ng   tagagamit</a>.</p>';
+$string['localfileinfo'] = '<p>Pumilì ng lokal na sako sa iyong kompyuter. Hindi iaahon ang sako sa web site, nguni\'t hahanapin ng Moodle ang parehong sako sa kompyuter ng sinumang tumitingin sa rekursong ito.</p><p>Kapakipakinabang ito kapag may malalaki kang media sako na nakaimbak sa isang istandard na CD-ROM na ipinamamahagi mo sa lahat ng kalahok.  Maaaring pumilì ang bawat kalahok ng kanilang lokal na landas para sa sako na ganito, sa pamamagitan ng   <a href=\"$a\" target=\"_blank\">ineedit ang kanilang pagkakakilanlan ng tagagamit</a>.</p>';
 $string['localfilepath'] = 'Para maitakda ang sarili mong lokal na landas para sa rekursong ito, piliin ang alinmang sako sa drive (kadalasan ay CD_ROM) sa kompyuter mo kung saan naroroon ang rekurso.  Hindi iaahon ang sako pero ang impormasyon hinggil sa drive ay iiimbak at gagamitin para sa alinmang lokal na rekursong sako';
 $string['localfileselect'] = 'Piliin ang landas ng sako na ito';
 $string['maindirectory'] = 'Punong bugsok ng mga sako';
@@ -86,6 +89,7 @@ $string['preview'] = 'Silipin';
 $string['previous'] = 'Nakaraan';
 $string['redeploy'] = 'Muling Ilatag';
 $string['repository'] = 'Imbakan ng IMS';
+$string['resource:view'] = 'Tingnan ang rekurso';
 $string['resourcetype'] = 'Uri ng rekurso';
 $string['resourcetype1'] = 'Sanggunian';
 $string['resourcetype2'] = 'Pahinang Pangweb';
@@ -109,5 +113,7 @@ $string['tableofcontents'] = 'Nilalaman';
 $string['upbutton'] = 'Taas';
 $string['variablename'] = 'Pangalan ng baryabol';
 $string['viewims'] = 'Tingnan ang Pakete ng Nilalamang IMS';
+$string['warningblockingdelete'] = 'Babala: Hinarang ng rekurso ang pagbubura.  Puwede mong gawin ang alin sa dalawa, gawin munang bago ang mga rekurso mo, o hilingin sa iyong administrador na patayin ang mekanismong pangkaligtasan na ito sa pangkalahatang kaayusan ng Rekurso.';
+$string['warningdisabledrename'] = 'Babala: Pinatay ang kusang pagbabago ng pangalan ng mga sanggunian sa mga rekurso.  Pakibago ang mga apektadong rekurso nang mano-mano kung kinakailangan.  Maaari ring buhayin ng administrador ang kusang pagbabago ng pangalan sa pangkalahatang kaayusan ng Rekurso.';
 
 ?>
