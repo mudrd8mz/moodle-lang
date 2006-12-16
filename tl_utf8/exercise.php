@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.7 dev (2006050501)
+      // exercise.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['absent'] = 'Walâ';
@@ -34,7 +34,7 @@ $string['deletesubmissionwarning'] = 'Babalâ: may $a na pagtatasa na iniugnay s
     Mahigpit na iminumungkahi na HUWAG burahin ang ipinasang ito.';
 $string['deleting'] = 'Binubura';
 $string['description'] = 'Deskripsiyon';
-$string['descriptionofexercise'] = 'Sa Ehersisyong Takdang-aralin, ang deskripsiyon ng ehersisyo o gawain ng $a ay inilalagay sa isang Word na dokumento o sakong HTML.  Ang sako na ito ay inahon sa ehersisyo bago buksan ang takdang-aralin sa $a.  Maaari ring lumikha ng isang set ng variant ng ehersisyong ito o gawain, gayundin ay sa mga dokumentong Word o sakong HTML, at iaahon ito sa ehersisyo bago buksan ito sa $a.';
+$string['descriptionofexercise'] = 'Sa Ehersisyong Takdang-aralin, ang deskripsiyon ng ehersisyo o gawain ng $a ay inilalagay sa isang Word na dokumento o sakong HTML.  Ang sako na ito ay inahon sa ehersisyo bago buksan ang takdang-aralin sa $a.  Maaari ring lumikha ng isang set ng iba-ibang bersiyon ng ehersisyong ito o gawain, gayundin ay sa mga dokumentong Word o sakong HTML, at iaahon ito sa ehersisyo bago buksan ito sa $a.';
 $string['detailsofassessment'] = 'Mga detalye ng Pagtatasa';
 $string['displayoffinalgrades'] = 'Pagpapakita ng mga Huling Marka';
 $string['doubleupload'] = 'Babalâ: malamang ay naipadala ang ipinasang ito ng dalawang beses.  Pumunta sa pahina ng Administrasyon, maghanap ng dalawang ipinasa ng tagagamit na ito sa loob ng maikling panahon.  Burahin ang isa sa mga ipinasang ito bago magpatuloy.';
@@ -45,11 +45,11 @@ $string['element'] = 'Elemento';
 $string['elementweight'] = 'Timbang ng Elemento';
 $string['enterpassword'] = 'Ipasok ang Kontrasenyas';
 $string['entriessaved'] = 'Isinilid ang mga Talâ';
-$string['errorbanded'] = 'Error Banded';
 $string['excellent'] = 'Napakagaling';
+$string['exercise:assess'] = 'Tasahin ang mga ehersisyo';
 $string['exerciseassessments'] = 'Pagtatasa ng Ehersisyo';
-$string['exercisefeedback'] = 'Puna ng Ehersisyo';
-$string['exercisesubmissions'] = 'Mga Ipinasa ng Ehersisyo';
+$string['exercisefeedback'] = 'Puna sa Ehersisyo';
+$string['exercisesubmissions'] = 'Mga Ipinasa na Ehersisyo';
 $string['fair'] = 'Katamtaman';
 $string['generalcomment'] = 'Pangkalahatang opinyon';
 $string['good'] = 'Magaling';
@@ -69,14 +69,13 @@ $string['leaguetable'] = 'Panligang Manghad ng Ipinasang Gawa';
 $string['mail1'] = 'Natasa na ang takdang-aralin mo na \'$a\' ni';
 $string['mail2'] = 'Ang mga opinyon at marka ay makikita sa Takdang-aralin na Ehersisyo na  \'$a\'';
 $string['mail3'] = 'Makikita mo ito sa iyong Takdang-aralin na Ehersisyo';
-$string['mail6'] = 'Narebyu na ang pagtatasa mo ng takdang aralin na \'$a\' ';
-$string['mail7'] = 'Ang mga opinyon na ibinigay ng $a ay makikita sa Takdang-aralin na Ehersisyo ';
+$string['mail6'] = 'Narebyu na ang pagtatasa mo ng takdang aralin na \'$a\'';
+$string['mail7'] = 'Ang mga opinyon na ibinigay ng $a ay makikita sa Takdang-aralin na Ehersisyo';
 $string['managingassignment'] = 'Pinamamahalaan ang Ehersisyo';
 $string['maximum'] = 'Maksimum';
 $string['maximumgradeforstudentassessments'] = 'Maksimum na Marka para sa Pagtatasa ng mga Mag-aaral: $a';
 $string['maximumgradeforsubmissions'] = 'Maksimum na Marka para sa mga Ipinasa: $a';
 $string['maximumsize'] = 'Maksimum na Laki';
-$string['mean'] = 'Mean';
 $string['minimum'] = 'Minimum';
 $string['modulename'] = 'Ehersisyo';
 $string['modulenameplural'] = 'Mga ehersisyo';
@@ -93,8 +92,8 @@ bago ibigay ang takdang-aralin sa mga mag-aaral. Ginagawa ito<br />
 sa pamamagitan ng pagklik sa takdang-aralin sa kurso; kung walang elemento,<br />
 hihilingan kang idagdag ang mga ito.  Maaari mong baguhin ang bilang ng mga elemento<br />
 sa pamamagitan ng iskrin na Iedit ang Takdang-Aralin, ang mga elemento<br />
-mismo ay maaaring mabago sa pamamagitan ng iskrin na \"Pamamahala ng Takdang-aralin\". ';
-$string['noteongradinggrade'] = 'Ang marka na ito ay sukat ng kung gaano umaayon ang pagtatasa mo sa naging pagtatasa ng <br />ng gawa mo ni $a.  Mas umaayon mas mataas ang marka.';
+mismo ay maaaring mabago sa pamamagitan ng iskrin na \"Pamamahala ng Takdang-aralin\".';
+$string['noteongradinggrade'] = 'Ang marka na ito ay sukat ng kung gaano umaayon ang pagtatasa mo sa naging pagtatasa <br />ni $a sa gawa mo .  Mas umaayon mas mataas ang marka.';
 $string['noteonstudentassessments'] = '{Marka mula Mag-aaral / Marka ng Pagmamarka para sa Pagtatasa}';
 $string['notgraded'] = 'Hindi Namarkahan';
 $string['notitlegiven'] = 'Walang Pamagat na Ibinigay';
@@ -174,7 +173,7 @@ $string['verypoor'] = 'Napakahina';
 $string['verystrict'] = 'Napakaistrikto';
 $string['view'] = 'Tingnan';
 $string['viewteacherassessment'] = 'Tingnan ang $a Pagtatasa';
-$string['warningonamendingelements'] = 'Babalâ: May mga ipinasnga pagtatasa. <br />HUWAG babaguhin ang bilang ng elemento, uri ng iskala o mga timbang ng elemento.';
+$string['warningonamendingelements'] = 'Babalâ: May mga ipinasa nang pagtatasa. <br />HUWAG babaguhin ang bilang ng elemento, uri ng iskala o mga timbang ng elemento.';
 $string['weightederrorcount'] = 'May-timbang na Bilang ng Error Count: $a';
 $string['weightforgradingofassessments'] = 'Timbang para sa Pagmamarka ng mga Pagtatasa';
 $string['weightforteacherassessments'] = 'Timbang para sa $a Pagtatasa';

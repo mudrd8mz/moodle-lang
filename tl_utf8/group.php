@@ -1,0 +1,71 @@
+<?PHP // $Id$ 
+      // group.php - created with Moodle 1.8 dev (2006112200)
+
+
+$string['addexistinggroupstogrouping'] = 'Idagdag ang kasalukuyang pangkat sa pangkatan';
+$string['addgroupstogrouping'] = 'Idagdag ang mga pangkat sa pangkatan';
+$string['adduserstogroup'] = 'Idagdag ang mga tagagamit sa pangkat';
+$string['cancel'] = 'Balewalain';
+$string['createautomaticgrouping'] = 'Lumikha ng kusang pangkatan';
+$string['creategroup'] = 'Likhain ang pangkat';
+$string['creategrouping'] = 'Likhain ang pangkatan';
+$string['creategroupinselectedgrouping'] = 'Likhain ang pangkat sa piniling pangkatan';
+$string['defaultgroupdescription'] = 'Umiiral na deskripsiyon ng pangkat';
+$string['defaultgroupingname'] = 'Pangkatan';
+$string['defaultgroupname'] = 'Pangkat';
+$string['defaultgroupprefix'] = 'Pangkat';
+$string['deletegrouping'] = 'Burahin ang pangkatan';
+$string['deleteselectedgroup'] = 'Burahin ang piniling pangkat';
+$string['displaygrouping'] = 'Ipakita ang pangkatan';
+$string['distributealphabetically'] = 'Ipamahagi sa mga pangkat nang alinsunod sa titik ng apelyido';
+$string['distributeevenly'] = 'Ipamahagi ang labis na mag-aaral nang pantay-pantay';
+$string['editgroupingpermissions'] = 'Iedit ang mga pahintulot ng pangkatan';
+$string['editgroupingsettings'] = 'Iedit ang kaayusan ng pangkatan';
+$string['editgroupsettings'] = 'Iedit ang kaayusan ng pangkat';
+$string['enrolmentkey'] = 'Susi sa pag-eenrol';
+$string['group'] = 'Pangkat';
+$string['groupdescription'] = 'Deskripsiyon ng pangkat';
+$string['groupfor'] = 'para sa pangkat';
+$string['groupinfo'] = 'Impo hinggil sa piniling pangkat';
+$string['groupinfomembers'] = 'Impo hinggil sa piniling kasapi';
+$string['groupinfopeople'] = 'Impo hinggil sa piniling tao';
+$string['grouping'] = 'Pangkatan';
+$string['groupingdescription'] = 'Deskripsiyon ng pangkatan';
+$string['groupingname'] = 'Pangalan ng pangkatan';
+$string['groupings'] = 'Mga pangkatan';
+$string['groupmembers'] = 'Mga kasapi ng pangkat';
+$string['groupmemberssee'] = 'Tingnan ang mga kasapi ng pangkat';
+$string['groupmembersselected'] = 'Mga kasapi ng piniling pangkat';
+$string['groupmode'] = 'Modang pampangkat';
+$string['groupmodeforce'] = 'Ipilit ang modang pampangkat';
+$string['groupmy'] = 'Aking pangkat';
+$string['groupname'] = 'Pangalan ng pangkat';
+$string['groupnotamember'] = 'Paumanhin nguni\'t hindi ka kasapi ng pangkat na iyan';
+$string['groups'] = 'Mga pangkat';
+$string['groupsinselectedgrouping'] = 'Mga pangkat sa piniling pangkatan';
+$string['groupsnone'] = 'Walang pangkat';
+$string['groupsseparate'] = 'Hiwalay na pangkat';
+$string['groupsvisible'] = 'Nakikitang pangkat';
+$string['hidepicture'] = 'Itago ang larawan';
+$string['javascriptrequired'] = 'Kailangan ng Javascript ng pahinang ito para gumana.';
+$string['membersofselectedgroup'] = 'Mga kasapi ng piniling pangkat';
+$string['newpicture'] = 'Bagong larawan';
+$string['numberofgroups'] = 'Bilang ng pangkat';
+$string['numberofstudents'] = 'Bilang ng mag-aaral';
+$string['prefixforgroupnames'] = 'Unlapi para sa mga pangalan ng pangkat';
+$string['printerfriendly'] = 'Pang-imprentang displey ng pangkatan';
+$string['removegroupfromselectedgrouping'] = 'Alisin ang pangkat sa piniling pangkatan';
+$string['removeselectedusers'] = 'Alisin ang mga piniling tagagamit';
+$string['save'] = 'Isilid';
+$string['selectnumberineachgroup'] = 'Piliin ang bilang sa bawat pangkat';
+$string['selectnumberofgroups'] = 'Piliin ang bilang ng pangkat';
+$string['showusersalreadyingroup'] = 'Ipakita ang mga tagagamit na nasa isang pangkat sa pangkatan';
+$string['teachersgroupmark'] = 'Hindi maaaring markahan ng mga guro ang mga pangkat na hindi sila kasali';
+$string['teachersgroupview'] = 'Hindi maaaring tingnan ng mga guro ang mga aktibidad ng pangkat na hindi sila kasali';
+$string['teachersoverride'] = 'Ang mga guro na walang pangkat ay maaaring tingnan at markahan ang mga aktibidad ng lahat ng pangkat (nananaig sa nasa itaas)';
+$string['usestudentsonlyfromselectedgroup'] = 'Tanging mga mag-aaral mula sa kasalukuyang piniling pangkat ang gamitin';
+$string['viewallgroupsactivities'] = 'Maaaring tingnan ng mga mag-aaral ang mga aktibidad ng lahat ng pangkat pero hindi sila maaring mag-ambag sa gawain';
+$string['viewallgroupsmembers'] = 'Maaaring tingnan ng mga mag-aaral ang mga kasapi ng lahat ng pangkat';
+$string['viewowngroup'] = 'Maaaring tingnan ng mga mag-aaral ang mga kasapi ng alinmang pangkat na kasapi rin sila';
+
+?>
