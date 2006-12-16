@@ -336,9 +336,9 @@ $string['mediapluginwmv'] = '.wmvフィルタを有効にする';
 $string['messaging'] = 'メッセージングシステムを有効にする';
 $string['misc'] = 'その他';
 $string['modulesecurity'] = 'モジュールセキュリティ';
-$string['multilangforceold'] = '古いmultilangシンタックスを強制する: class=\"multilang\" および &lt;lang&gt; を使用せず &lt;span&gt; を使用する';
+$string['multilangforceold'] = '古いmultilangシンタックスを強制する: class=\"multilang\" および <lang> を使用せず <span> を使用する';
 $string['multilangupgrade'] = 'multilangアップグレード';
-$string['multilangupgradeinfo'] = 'multilangフィルタシンタックスはMoodle 1.8で変更され、 &lt;lang&gt; タグは今後サポートされません。<br /><br />例: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"es\" class=\"multilang\">Hola!&lt;/span&gt;<br /><br /><strong>既存のすべてのテキストに関するシンタックスをアップグレードしてもよろしいですか?</strong>';
+$string['multilangupgradeinfo'] = 'multilangフィルタシンタックスはMoodle 1.8で変更され、 <lang> タグは今後サポートされません。<br /><br />例: <span lang=\"en\" class=\"multilang\">Hello!</span><span lang=\"es\" class=\"multilang\">Hola!</span><br /><br /><strong>既存のすべてのテキストに関するシンタックスをアップグレードしてもよろしいですか?</strong>';
 $string['multilangupgradenotice'] = 'あなたのサイトは、恐らく古いmultilangシンタックスを使用しています。<a href=\"multilangupgrade.php\">multilangアップグレード</a>をお勧めします。';
 $string['mustenablestats'] = 'このサイトでは、統計が有効にされていません。';
 $string['mymoodle'] = 'マイ Moodle';
@@ -467,7 +467,9 @@ $string['upgradelogsinfo'] = 'ログの保存方法に変更点があります�
 $string['upgradesettings'] = '新しい設定';
 $string['upgradesettingsintro'] = '下記に表示されている設定は、あなたの前回のMoodleアップグレードで追加されました。変更した内容を必要に応じてデフォルトに戻し、このページ下部にある「設定を保存する」をクリックしてください。';
 $string['upgradesure'] = 'あなたのMoodleファイルが更新されました。そして、自動的にMoodleをこのバージョンにアップグレードしようとしています: <br /><br /><strong>$a</strong> <br /><br />
-一旦、この作業を行うと元に戻すことはできません。<br /><br />本当にこのサーバのMoodleをこのバージョンにアップグレードしてもよろしいですか?';
+一旦、この処理をすると元に戻すことはできません。<br /><br />
+この処理には、長時間がかかりますので注意してください。<br /><br />
+本当にこのサーバのMoodleをこのバージョンにアップグレードしてもよろしいですか?';
 $string['upgradingdata'] = 'データのアップグレード';
 $string['upgradinglogs'] = 'ログのアップグレード';
 $string['upwards'] = '以上';
