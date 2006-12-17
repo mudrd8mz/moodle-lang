@@ -159,7 +159,7 @@ Moodle GD olmadan da çalışır, ancak yukarıda bahsedilen özelliklerden yara
 
 <p>Unix altında PHP\'ye GD desteğini sağlamak için, PHP\'yi --with-gd parametresiyle derleyin.</p>
 
-<p>Windows altında php.ini dosyasını düzenler ve libgd.dll\'yi referans eden satırdaki yorumları kaldırırsınız.</p>';
+<p>Windows altında php.ini dosyasını düzenler ve php_gd2.dll\'yi referans eden satırdaki yorumları kaldırırsınız.</p>';
 $string['globalsquotes'] = 'Güvensiz Global Değişkenler';
 $string['globalsquoteserror'] = 'PHP ayarlarınızı düzeltin. register_globals\'ı kapalı ve/veya magic_quotes_gpc açık tutun.';
 $string['globalsquoteshelp'] = '<p>Pasifleştirilmiş Magic Quotes GPC ve etkinleştirilmiş Register Globals\'ın bir arada kullanımı tavsiye edilmez.</p>

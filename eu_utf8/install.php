@@ -107,7 +107,7 @@ $string['gdversionhelp'] = '<p>Zure zerbitzariak GDa instalaturik ez daukala dir
 
 <p>UNIX ingurunean GD PHPri eransteko, PHP konpilatu --with-gd parametroa erabiliz.</p>
 
-<p>Windows ingurunean, php.ini edita dezakezu, libgd.dll-ri dagozkion iruzkinen lerroa kenduz.</p>';
+<p>Windows ingurunean, php.ini edita dezakezu, php_gd2.dll-ri dagozkion iruzkinen lerroa kenduz.</p>';
 $string['globalsquotes'] = 'Ezarpen orokorren erabilera ez segurua';
 $string['globalsquoteserror'] = 'PHP ezarpenak zehaztu: register_globals indargabetu edo/eta magic_quotes_gpc ezarri';
 $string['globalsquoteshelp'] = '<p>Ez da aholkatzen Magic Quotes GPC indargabetzea eta Register Globals ezartzea batera.</p>

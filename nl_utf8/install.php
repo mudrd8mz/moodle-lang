@@ -141,7 +141,7 @@ $string['gdversionerror'] = 'De GD-bibliotheek moet geïnstalleerd zijn om afbee
 $string['gdversionhelp'] = '<p>Blijkbaar is GD niet geïnstalleerd op je server.</p>
 <p>PHP heeft de GD-bibliotheek nodig om afbeeldingen te kunnen maken (zoals de grafieken van de logbestanden) en te verwerken (zoals de profielbestanden van de gebruikers). Moodle zal werken zonder GD - alleen deze mogelijkheden zullen het niet doen.</p>
 <p>Om GD toe te voegen aan PHP op een Unixmachine moet je PHP compileren met de --with-gd parameter.</p>
-<p>Onder Windows kun je gewoonlijk php.ini bewerken en de commentaartekens voor de lijn met libgd.dll verwijderen.</p>';
+<p>Onder Windows kun je gewoonlijk php.ini bewerken en de commentaartekens voor de lijn met php_gd2.dll verwijderen.</p>';
 $string['globalsquotes'] = 'Inveilige behandeling van globals';
 $string['globalsquoteserror'] = 'Zet je PHP instellingen juist: schakel register_globals uit en/of schakel magic_quotes_gpc in';
 $string['globalsquoteshelp'] = '<p>De combinatie van uitgeschakelde Magic Quotes GPC en ingeschakelde Register Globals tegelijk wordt sterk afgeraden.</p>

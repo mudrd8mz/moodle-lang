@@ -104,7 +104,7 @@ $string['gdversionerror'] = 'A library GD';
 $string['gdversionhelp'] = '<p>Parece que o seu servidor não tem o GD instalado.</p>
 <p>GD é uma library de PHP necessária à elaboração de imagens como os fotos do perfil do usuário e os gráficos de estatísticas. O Moodle funciona sem o GD mas a elaboração de imagens não será possível.</p>
 <p>Para adicionar o GD ao PHP em Unix, compile o PHP usando o parâmetro --with-gd .</p>
-<p>Em Windows edite php.ini and cancele o comentário à linha que se refere a libgd.dll.</p>';
+<p>Em Windows edite php.ini and cancele o comentário à linha que se refere a php_gd2.dll.</p>';
 $string['globalsquotes'] = 'Tratamento de Globais sem Segurança';
 $string['globalsquoteserror'] = 'Corrija a configuração do seu PHP: desabilitar register_globals e/ou habilitar magic_quotes_gpc';
 $string['globalsquoteshelp'] = '<p>Não é aconselhável habilitar Register Globals e desabilitar Magic Quotes GPC ao mesmo tempo.</p>

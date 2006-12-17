@@ -143,7 +143,7 @@ $string['gdversionhelp'] = '<p>Sembla que el vostre servidor no té instal·lat 
 
 <p>Per afegir GD al PHP en Unix, compileu el PHP amb el paràmetre --with-gd.</p>
 
-<p>En Windows generalment es pot editar el fitxer php.ini i treure el comentari de la línia que porti la referència a libgd.dll.</p>';
+<p>En Windows generalment es pot editar el fitxer php.ini i treure el comentari de la línia que porti la referència a php_gd2.dll.</p>';
 $string['globalsquotes'] = 'Gestió insegura dels globals';
 $string['globalsquoteserror'] = 'Arregleu els paràmetres del vostre PHP: inhabiliteu register_globals i/o habiliteu magic_quotes_gpc';
 $string['globalsquoteshelp'] = '<p>No s\'aconsella tenir inhabilitat Magic Quotes GPC i tenir alhora habilitat Register Globals.</p>

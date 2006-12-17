@@ -150,7 +150,7 @@ $string['gdversionhelp'] = '<p>Su servidor parece no tener el GD instalado.</p>
 
 <p>Para agregar GD a PHP en entorno Unix, compile PHP usando el parámetro --with-gd.</p>
 
-<p>En un entorno Windows, puede editar php.ini y quitar los comentarios de la línea referida a libgd.dll.</p>';
+<p>En un entorno Windows, puede editar php.ini y quitar los comentarios de la línea referida a php_gd2.dll.</p>';
 $string['globalsquotes'] = 'Manejo Inseguro de Ajustes Globales';
 $string['globalsquoteserror'] = 'Fije sus ajustes PHP: deshabilite register_globals y/o habilite magic_quotes_gpc';
 $string['globalsquoteshelp'] = '<p>No se recomienda la combinación simultánea de Magic Quotes GPC desactivado y Register Globals activado.</p>

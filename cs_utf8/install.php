@@ -108,7 +108,7 @@ $string['gdversionhelp'] = '<p>Na vašem serveru zřejmě není nainstalována k
 
 <p>V Unixu můžete přidat GD do PHP tak, že zkompilujte PHP s parametrem --with-gd.</p>
 
-<p>Ve Windows stačí většinou upravit php.ini a odkomentovat řádek odkazující na libgd.dll.</p>';
+<p>Ve Windows stačí většinou upravit php.ini a odkomentovat řádek odkazující na php_gd2.dll.</p>';
 $string['globalsquotes'] = 'Nezabezpečené zacházení s globálními proměnnými';
 $string['globalsquoteserror'] = 'Upravte nastavení PHP: zakažte register_globals a/nebo povolte magic_quotes_gpc';
 $string['globalsquoteshelp'] = '<p>Vaše nastavení PHP nepovoluje Magic Quotes GPC a zároveň povoluje Register Globals. Tato kombinace není doporučována.</p>
