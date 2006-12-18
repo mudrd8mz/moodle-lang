@@ -313,6 +313,7 @@ $string['log'] = 'Historiques';
 $string['loginhttps'] = 'Utiliser HTTPS pour les connexions';
 $string['loglifetime'] = 'Conserver les historiques durant';
 $string['longtimenosee'] = 'Désinscrire les utilisateurs des cours après';
+$string['longtimewarning'] = '<b>Veuillez prendre note que ce processus peut prendre beaucoup de temps.</b>';
 $string['mail'] = 'Courriel';
 $string['maintfileopenerror'] = 'Erreur lors de l\'ouverture des fichiers de maintenance&nbsp;!';
 $string['maintinprogress'] = 'Opérations de maintenance en cours...';
