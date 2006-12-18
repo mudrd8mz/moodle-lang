@@ -315,6 +315,7 @@ $string['log'] = 'ログ';
 $string['loginhttps'] = 'ログインにHTTPSを使用する';
 $string['loglifetime'] = 'ログの保存期間';
 $string['longtimenosee'] = 'コースからユーザを登録抹消する日数';
+$string['longtimewarning'] = '<b>この処理には、長時間がかかりますので注意してください。</b>';
 $string['mail'] = 'Eメール';
 $string['maintfileopenerror'] = 'メンテナンスファイルのオープン中にエラーが発生しました！';
 $string['maintinprogress'] = 'メンテナンス処理中です ...';
