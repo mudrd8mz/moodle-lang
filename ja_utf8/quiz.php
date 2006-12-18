@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 dev (2006112200)
+      // quiz.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['1day'] = '1日';
@@ -515,6 +515,7 @@ $string['toomanyrandom'] = '要求されたランダム問題数は、このカ�
 $string['top'] = 'トップ';
 $string['true'] = '○';
 $string['truefalse'] = '○/×問題';
+$string['truefalseimporterror'] = '<b>警告</b>: ○/×問題「 $a->questiontext 」が適切にインポートされませんでした。答えが○か×か明確ではありません。答えが「 $a->answer 」であるとの仮定をもとに問題がインポートされました。この仮定が正しくない場合、問題を編集してください。';
 $string['type'] = '問題タイプ';
 $string['unfinished'] = '未了';
 $string['ungraded'] = '未評定';
