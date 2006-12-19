@@ -6,6 +6,7 @@ $string['addfields'] = '$a フィールドをフォームに追加する';
 $string['advancedelement'] = '拡張要素';
 $string['day'] = '日';
 $string['denotesreq'] = '$a は必須入力フィールドです。';
+$string['display'] = '表示';
 $string['err_alphanumeric'] = 'ここには文字または数字のみ入力してください。';
 $string['err_email'] = 'ここには有効なメールアドレスを入力してください。';
 $string['err_lettersonly'] = 'ここには文字のみ入力してください。';
@@ -26,7 +27,9 @@ $string['month'] = '月';
 $string['nomethodforaddinghelpbutton'] = 'フォームエレメント $a->name (クラス$a->classname) にヘルプボタンを追加する方法がありません。';
 $string['nonexistentformelements'] = '存在しないフォームエレメント $a にヘルプボタンを追加しようとしています。';
 $string['requiredelement'] = '必須入力フィールド';
+$string['security'] = 'セキュリティ';
 $string['showadvanced'] = '拡張要素を表示する';
+$string['timing'] = 'タイミング';
 $string['year'] = '年';
 
 ?>
