@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.6.1+ (2006050511)
+      // calendar.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['calendar'] = 'Egutegia';
@@ -11,7 +11,7 @@ $string['courseevents'] = 'Ikastaroko ekitaldiak';
 $string['dayview'] = 'Eguneko ikuspegia';
 $string['daywithnoevents'] = 'Ekitaldirik ez egun honetan';
 $string['default'] = 'Lehenetsia';
-$string['deleteevent'] = 'Ezabatu ekitaldia';
+$string['deleteevent'] = 'Ekitaldia ezabatu';
 $string['detailedmonthview'] = 'Hileko ikuspegi xehatua';
 $string['durationminutes'] = 'Iraupena minututan';
 $string['durationnone'] = 'Iraupenik ez';
@@ -21,10 +21,10 @@ $string['errorbeforecoursestart'] = 'Ezin da ikusi ekitaldia ikastaroaren hasier
 $string['errorinvaliddate'] = 'Data ezegokia';
 $string['errorinvalidminutes'] = 'Iraupena minututan eman, horretarako 1-999 tarteko zenbaki bat aukeratu.';
 $string['errorinvalidrepeats'] = 'Ekitaldi kopurua eman, horretarako 1-99 tarteko zenbaki bat aukeratu.';
-$string['errornodescription'] = 'Deskripzioa beharrezkoa da';
+$string['errornodescription'] = 'Deskribapena beharrezkoa da';
 $string['errornoeventname'] = 'Izena beharrezkoa da';
 $string['eventdate'] = 'Data';
-$string['eventdescription'] = 'Deskripzioa';
+$string['eventdescription'] = 'Deskribapena';
 $string['eventduration'] = 'Iraupena';
 $string['eventendtime'] = 'Amaiera-ordua';
 $string['eventinstanttime'] = 'Ordua';
@@ -53,7 +53,7 @@ $string['mon'] = 'Al';
 $string['monday'] = 'Astelehena';
 $string['monthlyview'] = 'Hileko ikuspegia';
 $string['newevent'] = 'Ekitaldi berria';
-$string['noupcomingevents'] = 'Ez dago \"datozen ekitaldiak\"';
+$string['noupcomingevents'] = 'Ez dago ekitaldirik laster';
 $string['oneevent'] = 'Ekitaldi 1';
 $string['pref_lookahead'] = 'Datozen ekitaldiei begira';
 $string['pref_maxevents'] = 'Datozen ekitaldien gehienezko kopurua';
