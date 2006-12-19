@@ -2,6 +2,9 @@
 
 $string['groupmember'] = 'Membre du groupe';
 $string['groupmemberdesc'] = 'Rôle par défaut pour un membre d\'un groupe.';
+$string['notingrouping'] = '[Dans aucun groupe]';
+
+$string['errornotingrouping'] = 'Désolé, vous ne pouvez pas créer de groupe dans $a';
 
 $string['groupings'] = 'Groupements';
 $string['grouping'] = 'Groupement';
