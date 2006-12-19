@@ -516,6 +516,7 @@ $string['toomanyrandom'] = 'Le nombre de questions aléatoires demandées est pl
 $string['top'] = 'Catégorie racine';
 $string['true'] = 'Vrai';
 $string['truefalse'] = 'Vrai/Faux';
+$string['truefalseimporterror'] = '<b>Attention</b>&nbsp;! La question Vrai/Faux «&nbsp;$a->questiontext&nbsp;» n\'a pas pu être importée correctement. Il n\'a pas pu être déterminé si la bonne réponse est Vrai ou Faux. La question a été importée en présumant que la bonne réponse est «&nbsp;$a->answer&nbsp;». Si cela n\'est pas correct, vous devrez modifier manuellement la question.';
 $string['type'] = 'Type';
 $string['unfinished'] = 'ouvert';
 $string['ungraded'] = 'Pas notée';
