@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.7 dev (2006050501)
+      // survey.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['actual'] = 'Aktuwal';
@@ -199,7 +199,11 @@ $string['scaletimes5'] = 'Halos Dikailanman,Madalang,Minsan,Kalimitan,Halos Pala
 $string['seemoredetail'] = 'Iklik ito upang makakita ng mas maraming detalye';
 $string['selectedquestions'] = 'Mga piniling tanong mula sa isang iskala, lahat ng mag-aaral';
 $string['summary'] = 'Buod';
+$string['survey:download'] = 'Ilusong ang mga tugon';
+$string['survey:participate'] = 'Tumugon sa sarbey';
+$string['survey:readresponses'] = 'tingnan ang mga tugon';
 $string['surveycompleted'] = 'Nakumpleto mo na ang sarbey na ito.  Ipinakikita ng talaguhitan sa ibaba ang buod ng mga resulta mo kung ihahambing sa mga katamtaman ng klase.';
+$string['surveygraph'] = 'Talaguhitan ng sarbey';
 $string['surveyname'] = 'Pangalan ng sarbey';
 $string['surveysaved'] = 'Naisilid na ang sarbey';
 $string['surveytype'] = 'Uri ng sarbey';

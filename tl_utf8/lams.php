@@ -1,11 +1,13 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.7 dev (2006050500)
+      // lams.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['createSequence'] = 'Lumikha ng bagong sunud-sunod';
 $string['editSequence'] = 'Iedit ang piniling sunud-sunod';
 $string['error'] = 'Paumanhin, may hindi malamang error na naganap.';
 $string['introduction'] = 'Panimula';
+$string['lams:manage'] = 'Pamahalaan ang aktibidad na LAMS';
+$string['lams:participate'] = 'Lumahok sa aktibidad na LAMS';
 $string['lamsoutline'] = 'Balangkas ng LAMS';
 $string['lesson'] = 'sesyon ng pag-aaral';
 $string['openauthor'] = 'Buksan ang LAMS Author';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.7 dev (2006050501)
+      // workshop.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['absent'] = 'Walâ';
@@ -15,8 +15,8 @@ $string['allgradeshaveamaximumof'] = 'Ang lahat ng Marka ay may Maksimum na: $a'
 $string['allowresubmit'] = 'Pahintulutan ang muling pagpapasa';
 $string['allsubmissions'] = 'Lahat ng ipinasa';
 $string['alreadyinphase'] = 'Nasa Hakbang $a na';
-$string['amendassessmentelements'] = 'Baguhin ang mga Elemento ng Pagtatasa';
-$string['amendtitle'] = 'Baguhin ang Pamagat';
+$string['amendassessmentelements'] = 'Susugan ang mga Elemento ng Pagtatasa';
+$string['amendtitle'] = 'Susugan ang Pamagat';
 $string['analysis'] = 'Pagsusuri';
 $string['analysisofassessments'] = 'Pagsusuri ng mga Pagtatasa';
 $string['assess'] = 'Tasahin';
@@ -30,7 +30,7 @@ $string['assessmentgrade'] = 'Marka ng Pagtatasa: $a';
 $string['assessmentnotyetagreed'] = 'Pagtatasang hindi pa sinasang-ayunan';
 $string['assessmentnotyetgraded'] = 'Pagtatasang hindi pa namamarkahan';
 $string['assessmentof'] = 'Pagtatasa ng $a';
-$string['assessmentofresubmission'] = 'Ito ay isang Pagtatasa ng isang binagong gawa. <br />Pinunan na ang pormang ito ng mga nauna mong marka at opinyon. <br />Pakibago ang mga ito matapos mong matingnan ang binagong gawa.';
+$string['assessmentofresubmission'] = 'Ito ay isang Pagtatasa ng isang binagong gawa. <br />Pinunan na ang pormang ito ng mga nauna mong marka at opinyon. <br />Susugan po ang mga ito matapos mong matingnan ang binagong gawa.';
 $string['assessmentofthissubmission'] = 'Pagtatasa ng ipinasang ito';
 $string['assessments'] = 'Mga Pagtatasa';
 $string['assessmentsareok'] = 'OK ang mga Pagtatasa';
@@ -108,7 +108,7 @@ $string['gradegiventoassessment'] = 'Markang ibinigay sa Pagtatasa';
 $string['gradeofsubmission'] = 'Marka ng Pagtatasa: $a';
 $string['grades'] = 'Mga Marka';
 $string['gradesforassessmentsare'] = 'Ang mga Marka para sa mga Pagtatasa ay ayon sa pinakamataas na bilang na $a';
-$string['gradesforstudentsassessment'] = 'Mga Marka para sa mga Pagtatasa ng $a ';
+$string['gradesforstudentsassessment'] = 'Mga Marka para sa mga Pagtatasa ng $a';
 $string['gradesforsubmissionsare'] = 'Ang mga Marka para sa mga Ipinasa ay ayon sa pinakamataas na bilang na $a';
 $string['gradetable'] = 'Manghad ng mga Marka';
 $string['gradingallassessments'] = 'Minamarkahan ang lahat ng Pagtatasa';
@@ -120,7 +120,7 @@ $string['includeteachersgrade'] = 'Isama ang Markang ibinigay ng Gurò';
 $string['incorrect'] = 'Mali';
 $string['info'] = 'Impo';
 $string['invaliddates'] = 'Hindi posible ang mga petsang ipinasok ninyo.<br />Gamitin ang buton na Back ng browser upang makabalik sa porma at maiwasto ang mga petsa.';
-$string['iteration'] = 'Nakumpleto na ang pag-uulit na $a ';
+$string['iteration'] = 'Nakumpleto na ang pag-uulit na $a';
 $string['lastname'] = 'Apelyido';
 $string['lax'] = 'Maluwag';
 $string['leaguetable'] = 'Panligang Manghad ng Ipinasang Gawa';
@@ -135,7 +135,7 @@ $string['mail3'] = 'Makikita mo ito sa iyong Takdang-Araling Pangpandayan';
 $string['mail4'] = 'May opinyon na idinagdag sa takdang aralin na \'$a\' ng';
 $string['mail5'] = 'Ang bagong opinyon ay makikita sa Takdang-Araling Pangpandayan na \'$a\'.';
 $string['mail6'] = 'Narebyu na ang pagtatasa mo sa takdang aralin na \'$a\'.';
-$string['mail7'] = 'Ang mga opinyong ibinigay ng $a ay makikita sa Takdang-Araling Pangpandayan ';
+$string['mail7'] = 'Ang mga opinyong ibinigay ng $a ay makikita sa Takdang-Araling Pangpandayan';
 $string['mail8'] = 'Ang takdang-aralin  na $a ay isang binagong gawa.';
 $string['mail9'] = 'Pakitasa ito sa takdang-araling pangpandayan \'$a\'.';
 $string['managingassignment'] = 'Pamamahala ng Pandayan';
@@ -164,7 +164,7 @@ bago ibigay ang takdang-aralin sa mga mag-aaral.  Ginagawa ito<br />
 sa pamamagitan ng pagklik sa takdang-aralin sa kurso; kung walang elemento,<br />
 hihilingan kang idagdag ang mga ito.  Maaari mong baguhin ang bilang ng mga elemento<br />
 sa pamamagitan ng iskrin na Iedit ang Takdang-Aralin, ang mga elemento<br />
-mismo ay maaaring mabago sa pamamagitan ng iskrin na \"Pamamahala ng Pagtatasa\". ';
+mismo ay maaaring susugan sa pamamagitan ng iskrin na \"Pamamahala ng Pagtatasa\".';
 $string['noteonstudentassessments'] = '{Marka mula Mag-aaral / Marka ng Pagmamarka para sa Pagtatasa}';
 $string['notgraded'] = 'Hindi Minarkahan';
 $string['notitle'] = 'Walang Pamagat';
@@ -307,6 +307,8 @@ $string['weightforteacherassessments'] = 'Timbang para sa mga Pagtatasa ng Gurò
 $string['weights'] = 'Mga Timbang';
 $string['weightsusedforfinalgrade'] = 'Mga Timbang na ginamit sa Huling Marka';
 $string['weightsusedforsubmissions'] = 'Mga Timbang na ginamit sa mga Ipinasa';
+$string['workshop:manage'] = 'Pamahalaan ang mga kaayusan';
+$string['workshop:participate'] = 'Lumahok sa pandayan';
 $string['workshopagreedassessments'] = 'Pinagkasunduang Pagtatasa na Pangpandayan';
 $string['workshopassessments'] = 'Mga Pagtatasa na Pangpandayan';
 $string['workshopcomments'] = 'Mga Opinyon na Pangpandayan';

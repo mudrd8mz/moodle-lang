@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.7 dev (2006050501)
+      // message.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['addcontact'] = 'Magdagdag ng kontak';
 $string['addsomecontacts'] = 'Para makapagpadala ng mensahe sa isang tao, o upang makapagdagdag ng shorcut para sa kanila sa pahinang ito, gamitin ang <a href=\"$a\">tab na panghanap</a> sa itaas.';
-$string['addsomecontactsincoming'] = 'Ang mga mensaheng ito ay mula sa mga taong wala sa listahan mo ng kontak.  Upang maidagdag ang mga taong ito sa iyong kontak, iklik lamang ang \"Magdagdag ng kontak\"na ikon, katabi ng pangalan nila.';
+$string['addsomecontactsincoming'] = 'Ang mga mensaheng ito ay mula sa mga taong wala sa listahan mo ng kontak.  Upang maidagdag ang mga taong ito sa iyong kontak, iklik lamang ang \"Magdagdag ng kontak\" na ikon, katabi ng pangalan nila.';
 $string['ago'] = '$ ang lumipas';
 $string['allmine'] = 'Lahat ng mensahe para sa akin o mula sa akin';
 $string['allstudents'] = 'Lahat ng mensahe sa pagitan ng mga mag-aaral sa kurso';
@@ -22,7 +22,7 @@ $string['discussion'] = 'Diskusyon';
 $string['emailmessages'] = 'Iemail ang mga mensahe kapag offline ako';
 $string['emailtagline'] = 'Ang email na ito ay kopya ng mensahe na ipinadala sa iyo sa \"$a\"';
 $string['emptysearchstring'] = 'Kailangan mong maghanap ng isang bagay';
-$string['formorethan'] = 'Para sa mahigit sa ';
+$string['formorethan'] = 'Para sa mahigit sa';
 $string['includeblockedusers'] = 'Isama ang mga hinadlangan na tagagamit';
 $string['incomingcontacts'] = 'Dumarating na mga kontak ($a)';
 $string['keywords'] = 'Mga susingsalita';

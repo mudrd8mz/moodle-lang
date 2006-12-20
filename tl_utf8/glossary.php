@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7 dev (2006050501)
+      // glossary.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['addcomment'] = 'Magdagdag ng opinyon';
@@ -105,6 +105,17 @@ $string['fillfields'] = 'Ang konsepto at depinisyon ay mga kinakailangang pitak.
 $string['filtername'] = 'Kusang Paglink ng Talahulugan';
 $string['fullmatch'] = 'Tanging mga buong pangalan ang itugma';
 $string['globalglossary'] = 'Pangkalahatang talahulugan';
+$string['glossary:approve'] = 'Aprubahan ang mga di pa naaaprubahang talâ';
+$string['glossary:comment'] = 'Lumikha ng mga opinyon';
+$string['glossary:export'] = 'Iluwas ang mga talâ';
+$string['glossary:import'] = 'Angkatin ang mga talâ';
+$string['glossary:managecategories'] = 'Pamahalaan ang mga kategoriya';
+$string['glossary:managecomments'] = 'Pamahalaan ang mga opinyon';
+$string['glossary:manageentries'] = 'Pamahalaan ang mga talâ';
+$string['glossary:rate'] = 'Reytingan ang mga talâ';
+$string['glossary:view'] = 'Tingnan ang talasalitaan';
+$string['glossary:viewrating'] = 'Tingnan ang mga reyting';
+$string['glossary:write'] = 'Lumikha ng mga bagong talâ';
 $string['glossaryleveldefaultsettings'] = 'Umiiral na Kaayusan ng Antas Talahulugan';
 $string['glossarytype'] = 'Uri ng talahulugan';
 $string['importcategories'] = 'Angkatin ang mga kategoriya';
@@ -129,7 +140,7 @@ $string['noentry'] = 'Walang natagpuang talâ.';
 $string['notcategorised'] = 'Walang kategoriya';
 $string['numberofentries'] = 'Bilang ng talâ';
 $string['onebyline'] = '(isa sa bawat linya)';
-$string['printerfriendly'] = 'Maalwan-para-sa-printer na bersiyon';
+$string['printerfriendly'] = 'Pang-printer na bersiyon';
 $string['printviewnotallowed'] = 'Hindi pinahihintulutan ang pang-imprentang tanaw';
 $string['question'] = 'Tanong';
 $string['rate'] = 'Reyt';

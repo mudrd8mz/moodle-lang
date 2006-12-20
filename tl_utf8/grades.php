@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.7 dev (2006050501)
+      // grades.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['addcategory'] = 'Magdagdag ng Kategoriya';
@@ -58,7 +58,7 @@ $string['incorrectcourseid'] = 'Malî ang ID ng Kurso';
 $string['item'] = 'Aytem';
 $string['items'] = 'Mga Aytem';
 $string['lettergrade'] = 'Titik na Marka';
-$string['lettergradenonnumber'] = 'Ang Mababa at/o Mataas na marka ay di-bilang para sa ';
+$string['lettergradenonnumber'] = 'Ang Mababa at/o Mataas na marka ay di-bilang para sa';
 $string['letters'] = 'Mga Titik';
 $string['lowest'] = 'Pinakamababa';
 $string['lowgradeletter'] = 'Mababa';
@@ -66,14 +66,14 @@ $string['max'] = 'Pinakamataas';
 $string['maxgrade'] = 'Maks na Marka';
 $string['median'] = 'Median';
 $string['min'] = 'Pinakamababa';
-$string['mode'] = 'Mode';
+$string['mode'] = 'Moda';
 $string['no'] = 'Hindi';
 $string['nocategories'] = 'Hindi maidagdag o walang makitang kategoriya ng marka para sa kursong ito';
-$string['nocategoryview'] = 'Walang kategoriya na tatanawin ayon sa ';
+$string['nocategoryview'] = 'Walang kategoriya na tatanawin ayon sa';
 $string['nogradeletters'] = 'Walang itinakdang titik ng marka';
 $string['nogradesreturned'] = 'Walang ibinalik na marka';
-$string['nolettergrade'] = 'Walang titik na marka para sa ';
-$string['nonnumericweight'] = 'Nakatanggap ng hindi numerong halaga para sa ';
+$string['nolettergrade'] = 'Walang titik na marka para sa';
+$string['nonnumericweight'] = 'Nakatanggap ng hindi numerong halaga para sa';
 $string['nonweightedpct'] = 'walang-timbang %%';
 $string['notteachererror'] = 'Dapat ay guro ka para magamit ang katangiang ito.';
 $string['pctoftotalgrade'] = '%% ng kabuuang marka';
@@ -120,5 +120,6 @@ $string['weightedpct'] = 'may-timbang %%';
 $string['weightedpctcontribution'] = 'may-timbang %% na kontribusyon';
 $string['writinggradebookinfo'] = 'Isinusulat ang mga kaayusan ng Markahan';
 $string['yes'] = 'Oo';
+$string['yourgrade'] = 'Ang iyong marka';
 
 ?>
