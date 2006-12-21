@@ -374,6 +374,7 @@ $string['documentation'] = 'Moodleドキュメンテーション';
 $string['donotask'] = '問合せしない';
 $string['down'] = '下へ';
 $string['downloadexcel'] = 'Excel形式でダウンロードする';
+$string['downloadods'] = 'ODSフォーマットでダウンロードする';
 $string['downloadtext'] = 'テキスト形式でダウンロードする';
 $string['doyouagree'] = 'これらの要件を読んで理解できましたか?';
 $string['duplicate'] = '複写';
