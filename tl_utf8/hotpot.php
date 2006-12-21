@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.7 dev (2006050501)
+      // hotpot.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['abandoned'] = 'inabandona';
 $string['addquizchain'] = 'Magdadag ng kadena ng tanong';
 $string['allmycourses'] = 'lahat ng kurso ko';
+$string['allusers'] = 'Lahat ng tagagamit';
 $string['alwaysopen'] = 'Palaging bukás';
 $string['attemptsall'] = 'Lahat ng pagkuha';
 $string['attemptsbest'] = 'Pinakamahusay na pagkuha';
@@ -15,7 +16,7 @@ $string['checks'] = 'mga tsek';
 $string['clickreporting'] = 'Pahintulutan ang pag-ulat ng klik';
 $string['clues'] = 'mga himaton';
 $string['completed'] = 'Nakumpleto na';
-$string['configexcelencodings'] = 'Listahan ng mga encoding, na pinaghihiwalay ng mga kuwit, na magagamit para maipilit ang isang takdang encoding sa mga halaga sa ulat, para sa mga program na spreadsheet.  Halimbawa, kailangan ng Microsoft Excel ng \"SJIS\" na encoding para sa Nihonggo.';
+$string['configexcelencodings'] = 'Listahan ng mga encoding, na pinaghihiwalay ng mga kuwit, na magagamit para maipilit ang isang takdang encoding sa mga halaga sa ulat, para sa mga program na spreadsheet.  Halimbawa, kailangan ng Microsoft Excel ng &quot;SJIS&quot; na encoding para sa Nihonggo.';
 $string['configshowtimes'] = 'Dapat bang ipakita sa mga listahan at ulat ang oras na naubos sa pagproseso ng mga rekord?  Kailangan lamang ito kung gusto mong malaman kung bakit bumabagal ang server mo.';
 $string['copiedtoclipboard'] = 'Ang nilalaman ng pahinang ito ay kinopya sa clipboard';
 $string['copytoclipboard'] = 'Kopyahin sa Clipboard';
@@ -26,7 +27,7 @@ $string['displaycoursenext'] = 'Ipakita ang pahinang Pangkurso sa susunod';
 $string['displayhotpotnext'] = 'Ipakita ang pagsusulit na Hot Potatoes sa susunod';
 $string['displayindexnext'] = 'Ipakita ang indeks na HotPot sa susunod';
 $string['enterafilename'] = 'Magpasok ng ngalan ng sako';
-$string['error_couldnotopenfolder'] = 'Hindi mapasok ang bugsok na \"$a\" ';
+$string['error_couldnotopenfolder'] = 'Hindi mapasok ang bugsok na \"$a\"';
 $string['error_couldnotopensourcefile'] = 'Hindi mabuksan ang source file na \"$a\"';
 $string['error_couldnotopentemplate'] = 'Hindi mabuksan ang padron para sa anyong \"$a\"';
 $string['error_invalidquiztype'] = 'Ang uri ng pagsusulit ay nawawala o ditanggap';
@@ -45,17 +46,23 @@ $string['filetype'] = 'Uri ng sako';
 $string['forceplugins'] = 'Ipilit ang mga media plugin';
 $string['giveup'] = 'Sirit';
 $string['hints'] = 'mga hint';
+$string['hotpot:attempt'] = 'Kumuha ng pagsusulit';
+$string['hotpot:deleteattempt'] = 'Burahin ang pagkuha ng pagsusulit';
+$string['hotpot:grade'] = 'Baguhin ang mga marka';
+$string['hotpot:view'] = 'Gamitin ang pagsusulit';
+$string['hotpot:viewreport'] = 'Tingnan ang mga ulat';
+$string['hotpotcloses'] = 'Pagsasara ng pagsusulit na Hot Potatoes';
+$string['hotpotopens'] = 'Pagbubukas ng pagsusulit na Hot Potatoes';
 $string['ignored'] = 'Binalewala';
 $string['inprogress'] = 'Kasalukuyang ginagawa';
 $string['location'] = 'Lokasyon ng sako';
-$string['modulename'] = 'Hot Potatoes Quiz';
 $string['modulenameplural'] = 'Mga Hot Potatoes Quiz';
 $string['navigation'] = 'Nabigasyon';
 $string['navigation_bar'] = 'Bar na pangnabigasyon ng Moodle';
 $string['navigation_buttons'] = 'Mga buton ng Hot Potatoes Quiz';
 $string['navigation_frame'] = 'kuwadro na pangnabigasyon ng Moodle';
 $string['navigation_give_up'] = 'Iisang \"Sirit\" na buton';
-$string['navigation_iframe'] = 'Nakaembed na &lt;IFRAME&gt;';
+$string['navigation_iframe'] = 'Nakaembed na <IFRAME>';
 $string['navigation_none'] = 'Walâ';
 $string['neverclosed'] = 'Hindi kailanman naisara';
 $string['noactivity'] = 'Walang aktibidad';

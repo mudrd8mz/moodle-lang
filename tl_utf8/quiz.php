@@ -505,6 +505,7 @@ $string['toomanyrandom'] = 'Ang bilang ng mga kinakailangang random na tanong ay
 $string['top'] = 'Tuktok';
 $string['true'] = 'Tama';
 $string['truefalse'] = 'Tama/Mali';
+$string['truefalseimporterror'] = '<b>Babala</b>: Hindi naangkat ng wasto ang Tama/Mali na tanong na \'$a->questiontext\'.  Hindi malinaw kung ang wastong sagot ay Tama o Mali.  Ang tanong na ito ay inangkat na inaakala na ang sagot ay \'$a->answer\'.  Kung hindi ito wasto ay kailangan mong editin ang tanong.';
 $string['type'] = 'Uri';
 $string['unfinished'] = 'bukás';
 $string['ungraded'] = 'Di pa namamarkahan';

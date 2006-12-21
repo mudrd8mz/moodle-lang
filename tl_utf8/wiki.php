@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.7 dev (2006050501)
+      // wiki.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['action'] = '-- Aksiyon --';
@@ -44,7 +44,7 @@ $string['downloadtimes'] = 'Inilusong ng $a ulit';
 $string['dwnlnofiles'] = 'Wala pang sako na naahon.';
 $string['dwnlsection'] = 'Seksiyon na Makakapaglusong';
 $string['editform1'] = 'Huwag kayong masyadong mag-alala tungkol sa anyo, maaari naman itong paunlarin mamaya.';
-$string['editform2'] = 'Magsulat nang makabuluhan, at tandaan na ang lahat ng pag-eedit ay inilalog.';
+$string['editform2'] = 'Magsulat nang makabuluhan, at tandaan na ang lahat ng pag-eedit ay inila-log.';
 $string['editthispage'] = 'Iedit ang pahinang ito';
 $string['emptypage'] = 'Blangkong pahina';
 $string['errorbinandtxt'] = 'Error ng watawat: Pahina ay uring BIN at TXT';
@@ -85,6 +85,7 @@ $string['linkdead'] = 'PATAY';
 $string['linkschecked'] = 'Natsek na ang mga link';
 $string['listall'] = 'Ilista lahat';
 $string['listcandidates'] = 'Ilista ang mga kandidato';
+$string['lockcancelled'] = 'Ang kandado mo sa pag-eedit ay pinanaigan, at may iba nang nag-eedit ng pahinang ito sa ngayon.  Kung nais mong mapanatili ang mga pagbabago mo, pakipilì at pakikopya ang mga ito bago iklik ang Balewalain; pagkatapos ay tangkain muling mag-edit.';
 $string['meta'] = 'Meta datos';
 $string['moduledirectory'] = 'Bugsok ng Modyul';
 $string['modulenameplural'] = 'Mga Wiki';
@@ -95,6 +96,7 @@ $string['noadministrationaction'] = 'Walang ibinigay na aksiyon ng administrasyo
 $string['nocandidatestoremove'] = 'Walang maaalis na kandidato, piliin ang \'$a\' para maipakita ang lahat ng pahina.';
 $string['nochangestorevert'] = 'Walang pagbabago na ipapanumbalik.';
 $string['nohtml'] = 'Walang HTML';
+$string['nojslockwarning'] = 'Dahil patay ang Javascript sa browser mo, posibleng may ibang tao na makapag-edit ng pahinang ito.  Kapag nangyari ito, hindi mo maisisilid ang mga pagbabago mong ginawa.  Pakibilisan po ang pag-eedit, o buhayin ang Javascript at ikarga muli ang pahina.';
 $string['nolinksfound'] = 'Walang link na natagpuan sa pahina.';
 $string['noregexp'] = 'Dapat ay isa itong fixed string (hindi ka puwedeng gumamit ng * o regex), ang pinakamahusay na magagawa ay gamitin ang IP address o host name ng umaatake, subali\'t huwag isama ang port number (dahil tumataas ito sa bawat http access).';
 $string['notadministratewiki'] = 'Hindi ka pinahihintulutang pamahalaan ang wiki na ito!';
@@ -105,10 +107,14 @@ $string['optional'] = 'Opsiyonal';
 $string['orphanedpage'] = 'Naulilang pahina';
 $string['orphanedpages'] = 'Mga naulilang pahina';
 $string['otherwikis'] = 'Iba pang Wiki';
+$string['overridebutton'] = 'Panaigan ang kandado';
+$string['overrideinfo'] = 'Puwede mong panaigan ang kandado ng tagagamit na ito, nguni\'t kapag ginawa mo ito ay maaaring mawala ang mga pagbabagong ginawa ng tagagamit!  Mag-ingat po.';
 $string['ownerunknown'] = 'dikilala';
 $string['pageactions'] = 'Mga aksiyon sa pahina';
 $string['pageindex'] = 'Indeks ng pahina';
 $string['pageinfo'] = 'Impormasyon sa pahina';
+$string['pagelocked'] = '<p><strong>Ang pahinang ito ay ineedit ni $a->name.</strong> Sinimulan nilang mag-edit noong  $a->since at bukas pa rin ang bintana nila hanggang $a->seen.</p><p>Kailangan mo munang hintayin silang makatapos bago mo maedit ang pahinang ito.
+</p>';
 $string['pagename'] = 'Pangalan ng pahina';
 $string['pagenamechoice'] = '- o -';
 $string['pageslinkingto'] = 'Mga pahinang nakalink sa pahinang ito';
@@ -119,6 +125,8 @@ $string['plaintext'] = 'Payak na Teksto';
 $string['preview'] = 'Silipin';
 $string['readonly'] = 'Pahina babasahin lamang';
 $string['refs'] = 'Mga sanggunian';
+$string['reloadlinkdescription'] = 'Ikakarga muli ang pahina, upang maipakita ang bagong nilalaman.';
+$string['reloadlinktext'] = 'Ikarga muli ang pahina';
 $string['removenotice'] = 'Tandaan na ang mga di sinangguniang pahina lamang ang ililista rito.  At dahil limitadong pagsubok lamang ang ginagawa ng ewiki engine kapag ang pahina ay sinanggunian, maaari nitong malampasan ang ilan sa mga ito.<br />Magkagayonman, kung tatanggalan mo muna ng laman ang isang pahina, malilista rin ito rito.  Gumagawa rin ng iba\'t-ibang uri ng database diagnostic.';
 $string['removepagecheck'] = 'Talaga bang nais mong burahin ang mga pahinang ito?';
 $string['removepages'] = 'Alisin ang mga pahina';
@@ -131,6 +139,7 @@ $string['revertpagescheck'] = 'Talaga bang nais mong ipanumbalik ang mga sumusun
 $string['revertthe'] = 'Pabulusok ang bersiyon, pero burahin lamang ang apektado';
 $string['safehtml'] = 'Ligtas na HTML';
 $string['save'] = 'Isilid';
+$string['savenolock'] = 'Hindi mo puwedeng isilid ang pahina dahil wala kang kandado sa pag-eedit.  Mangyayari ito kung patay ang Javascript mo, o may ibang tagagamit na pinanaigan ang kandado mo..<br/><br/>Puwede kang bumalik sa nakaraang iskrin sa pamamagitan ng butong Back ng browser mo, kopyahin ang mga teksto na binago mo, tapos ay tangkain muling mag-edit.';
 $string['searchwiki'] = 'Maghanap sa Wiki';
 $string['setpageflags'] = 'Itakda ang mga watawat ng pahina';
 $string['showversions'] = 'Ipakita ang mga bersiyon:';
@@ -163,6 +172,9 @@ $string['versionstodelete'] = '(Mga) bersiyon na buburahin';
 $string['viewpage'] = 'Tingnan ang Pahina';
 $string['viewsmfor'] = 'Tingnan ang sitemap para sa';
 $string['wantedpages'] = 'Ninanais na mga pahina';
+$string['wiki:manage'] = 'Pamahalaan ang mga kaayusan ng wiki';
+$string['wiki:overridelock'] = 'Panaigan ang mga nakakandadong pahina';
+$string['wiki:participate'] = 'Iedit ang mga pahina ng wiki';
 $string['wikidefaultpagename'] = 'WikiIndeks';
 $string['wikiexport'] = 'Iluwas ang mga pahina';
 $string['wikiexportcomment'] = 'Dito ay maisasaayos mo ang pagluwas, alinsunod sa pangangailangan mo.';

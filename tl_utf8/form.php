@@ -6,6 +6,7 @@ $string['addfields'] = 'Idagdag ang $a pitak sa porma';
 $string['advancedelement'] = 'Abanteng Elemento';
 $string['day'] = 'Araw';
 $string['denotesreq'] = '$a ay nangangahulugan na kinakailangang pitak.';
+$string['display'] = 'Displey';
 $string['err_alphanumeric'] = 'Tanging titik o bilang lamang ang ipasok ninyo dito.';
 $string['err_email'] = 'Kailangan mong magpasok ng tanggap na email address dito.';
 $string['err_lettersonly'] = 'anging titik lamang ang ipasok ninyo dito.';
@@ -26,6 +27,7 @@ $string['month'] = 'Buwan';
 $string['nomethodforaddinghelpbutton'] = 'Walang paraan para sa pagdaragdag ng tulong na buton sa elemento ng porma na $a->name (class $a->classname)';
 $string['nonexistentformelements'] = 'Nagtatangkang magdagdag ng tulong na buton sa elemento ng porma na wala naman: $a';
 $string['requiredelement'] = 'Kinakailangang pitak';
+$string['security'] = 'Seguridad';
 $string['showadvanced'] = 'Ilantad ang Abante';
 $string['year'] = 'Taon';
 

@@ -316,6 +316,7 @@ $string['log'] = 'Mga Log';
 $string['loginhttps'] = 'Gumamit ng HTTPS para sa paglagda';
 $string['loglifetime'] = 'Panatilihin ang mga log sa loob ng';
 $string['longtimenosee'] = 'Alisin ang mga tagagamit sa mga kurso pagkatapos ng';
+$string['longtimewarning'] = '<b>Tandaan po na ang prosesong ito ay maaaring magtagal ng labis.</b>';
 $string['maintfileopenerror'] = 'Nagka-error sa pagbubukas ng mga sako na pangmentina!';
 $string['maintinprogress'] = 'Ang pagmementina ay kasalukuyang isinasagawa...';
 $string['managelang'] = '<b>Pamahaláan</b>';
