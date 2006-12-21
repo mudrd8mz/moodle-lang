@@ -3,8 +3,10 @@
 
 
 $string['addfields'] = 'Forma $a alan ekle';
+$string['advancedelement'] = 'Gelişmiş Öğe';
 $string['day'] = 'Gün';
 $string['denotesreq'] = '$a gerekli alanları gösterir.';
+$string['display'] = 'Göster';
 $string['err_alphanumeric'] = 'Buraya sadece harfleri veya rakamları girmelisiniz.';
 $string['err_email'] = 'Buraya geçerli bir e-posta adresi girmelisiniz.';
 $string['err_lettersonly'] = 'Buraya sadece harfleri girmelisiniz.';
@@ -16,6 +18,7 @@ $string['err_numeric'] = 'Buraya bir sayı girmelisiniz.';
 $string['err_rangelength'] = 'Buraya {$a->format[0]} ile {$a->format[1]} karakter arasında girmelisiniz.';
 $string['err_required'] = 'Buraya bir değer girmelisiniz.';
 $string['general'] = 'Genel Ayarlar';
+$string['hideadvanced'] = 'Gelişmişi Gizle';
 $string['hour'] = 'Saat';
 $string['minute'] = 'Dakika';
 $string['miscellaneoussettings'] = 'Çeşitli Ayarlar';
@@ -24,6 +27,9 @@ $string['month'] = 'Ay';
 $string['nomethodforaddinghelpbutton'] = '$a->name (sınıf $a->classname) form ögesi için yardım butonu ekleme metodu yok.';
 $string['nonexistentformelements'] = 'Var olmayan form ögelerine yardım butonları eklenmeye çalışılıyor: $a';
 $string['requiredelement'] = 'Gerekli alan';
+$string['security'] = 'Güvenlik';
+$string['showadvanced'] = 'Gelişmişi Göster';
+$string['timing'] = 'Süre';
 $string['year'] = 'Yıl';
 
 ?>

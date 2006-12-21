@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006120400)
+      // moodle.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['action'] = 'Eylem';
@@ -252,6 +252,7 @@ $string['coursecategory'] = 'Kurs kategorisi';
 $string['coursecreators'] = 'Kurs açıcı';
 $string['coursecreatorsdescription'] = 'Yeni kurs oluşturabilir ve bu kurslarda eğitim verebilirler.';
 $string['coursefiles'] = 'Kurs dosyaları';
+$string['courseformatdata'] = 'Kurs biçimi verisi';
 $string['courseformats'] = 'Kurs biçimleri';
 $string['coursegrades'] = 'Kurs notları';
 $string['coursehidden'] = 'Bu kurs şu anda öğrencilere açık değildir';
@@ -373,8 +374,9 @@ $string['displayonpage'] = 'Sayfada göster';
 $string['documentation'] = 'Moodle Belgeleri';
 $string['donotask'] = 'Sorma';
 $string['down'] = 'Aşağı';
-$string['downloadexcel'] = 'Excel formatında indir';
-$string['downloadtext'] = 'Text formatında indir';
+$string['downloadexcel'] = 'Excel biçiminde indir';
+$string['downloadods'] = 'ODS biçiminde indir';
+$string['downloadtext'] = 'Text  biçiminde indir';
 $string['doyouagree'] = 'Şartları okuyup kabul ediyor musunuz?';
 $string['duplicate'] = 'Kopyasını çıkar';
 $string['duplicatinga'] = 'Kopyası çıkartılıyor: $a';

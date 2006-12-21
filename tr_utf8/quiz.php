@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 dev (2006112200)
+      // quiz.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['1day'] = '1 Gün';
@@ -505,6 +505,7 @@ $string['toomanyrandom'] = 'Gereken rastgele soruların sayısı bu kategorinin 
 $string['top'] = 'Üst';
 $string['true'] = 'Doğru';
 $string['truefalse'] = 'Doğru/Yanlış';
+$string['truefalseimporterror'] = '<b>Uyarı</b>: \'$a->questiontext\' doğru/yanlış sorusu düzgün bir şekilde alınamadı. Cevabın doğru veya yanlış olduğu açık değildi. Sorunun doğru cevabının \'$a->answer\' olduğu varsayılarak alınmıştır. Bu, doğru değilse soruyu düzenlemeniz gerekiyor.';
 $string['type'] = 'Tipi';
 $string['unfinished'] = 'bitmemiş';
 $string['ungraded'] = 'Notlandırılmadı';

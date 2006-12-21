@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 dev (2006102600)
+      // glossary.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['addcomment'] = 'Yorum ekle';
@@ -89,6 +89,9 @@ $string['entryleveldefaultsettings'] = 'Kayıt Seviyesindeki Ayarlar';
 $string['entrysaved'] = 'Bu girdi kaydedildi';
 $string['entryupdated'] = 'Bu girdi güncellendi';
 $string['entryusedynalink'] = 'Bu kayıt otomatikmen linklensin';
+$string['errcannoteditothers'] = 'Diğer kişilerin kayıtlarını düzenleyemezsiniz.';
+$string['errconceptalreadyexists'] = 'Bu kavram zaten var. Bu sözlükte aynı kaydın tekrar girilmesine izin verilmemektedir.';
+$string['erredittimeexpired'] = 'Bu kayıt için düzenleme süresi geçti.';
 $string['explainaddentry'] = 'Şu anki sözlüğe yeni bir kayıt ekleyin.<br />Kavram ve Tanım gerekli alanlardır.';
 $string['explainall'] = 'Kayıtların HEPSİNİ bir sayfada gösterir';
 $string['explainalphabet'] = 'Sözlüğe bu dizini kullanarak gözatın';
@@ -124,6 +127,7 @@ $string['importedentries'] = 'Alınan kayıtlar';
 $string['importentries'] = 'Kayıtları al';
 $string['isglobal'] = 'Genel sözlük';
 $string['linkcategory'] = 'Bu kategoriyi otomatik linkle';
+$string['linking'] = 'Otomatik-linkle';
 $string['mainglossary'] = 'Ana sözlük';
 $string['maxtimehaspassed'] = 'Üzgünüz, bu yorumu tekrar düzenlemek için maximum süre ($a) geçti!';
 $string['modulename'] = 'Sözlük';

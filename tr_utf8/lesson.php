@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006092410)
+      // lesson.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['accesscontrol'] = 'Erişim kontrolü';
@@ -41,6 +41,7 @@ $string['checkedthisone'] = 'bu seçildi.';
 $string['checknavigation'] = 'Dolaşımı kontol et';
 $string['checkquestion'] = 'Soruyu kontrol et';
 $string['classstats'] = 'Sınıf istatistikleri';
+$string['clicktodownload'] = 'Dosyayı indirmek için aşağıdaki bağlantıyı tıklayınız.';
 $string['clicktopost'] = 'Notunu yüksek notlar listesine göndermek için burayı tıkla';
 $string['clusterjump'] = 'Küme içindeki bakılmamış soru';
 $string['clustertitle'] = 'Küme';
