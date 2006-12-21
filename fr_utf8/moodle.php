@@ -371,6 +371,7 @@ $string['documentation'] = 'Documentation de Moodle';
 $string['donotask'] = 'Ne pas demander';
 $string['down'] = 'Vers le bas';
 $string['downloadexcel'] = 'Télécharger en format Excel';
+$string['downloadods'] = 'Télécharger en format ODS';
 $string['downloadtext'] = 'Télécharger en format texte';
 $string['doyouagree'] = 'Avez-vous lu et compris ces conditions ?';
 $string['duplicate'] = 'Dupliquer';
