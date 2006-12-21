@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8 dev (2006112200)
+      // survey.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['actual'] = '実体験';
@@ -165,9 +165,9 @@ $string['collespintro'] = 'この調査の目的は、あなたがオンライ�
 $string['collespname'] = 'COLLES (要望)';
 $string['done'] = '完了';
 $string['download'] = 'ダウンロード';
-$string['downloadexcel'] = 'Excel形式でダウンロードする';
+$string['downloadexcel'] = 'Excelフォーマットでダウンロードする';
 $string['downloadinfo'] = 'Excel、SPSS等で分析するために、調査の実データをダウンロードすることが可能です。';
-$string['downloadtext'] = 'テキスト形式でダウンロードする';
+$string['downloadtext'] = 'テキストフォーマットでダウンロードする';
 $string['editingasurvey'] = '調査を編集する';
 $string['guestsnotallowed'] = 'ゲストは調査へ参加できません';
 $string['helpsurveys'] = '他のタイプの調査に協力する';
