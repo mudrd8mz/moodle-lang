@@ -222,6 +222,7 @@ $string['gradeboundary'] = 'Limite de note';
 $string['gradeessays'] = 'Noter les compositions';
 $string['gradehighest'] = 'Note la plus haute';
 $string['grademethod'] = 'Méthode de notation';
+$string['gradesofar'] = '$a->method&nbsp;: $a->mygrade / $a->quizgrade.';
 $string['gradingdetails'] = 'Points pour cet envoi&nbsp;: $a->raw/$a->max. ';
 $string['gradingdetailsadjustment'] = 'Tenant compte des pénalités précédente, cela donne <strong>$a->cur/$a->max</strong>. ';
 $string['gradingdetailspenalty'] = 'Cet envoi a reçu une pénalité de $a. ';
@@ -544,7 +545,7 @@ $string['wronguse'] = 'Vous ne pouvez pas utiliser cette page ainsi';
 $string['xhtml'] = 'Format XHTML';
 $string['xml'] = 'Format XML Moodle';
 $string['xmltypeunsupported'] = 'L\'importation xml est impossible pour le type de question $a';
-$string['yourfinalgradeis'] = 'Votre note finale pour ce test est $a';
+$string['yourfinalgradeis'] = 'Votre note finale pour ce test est $a.';
 $string['zerosignificantfiguresnotallowed'] = 'La bonne réponse ne peut pas n\'avoir aucun chiffre significatif&nbsp;!';
 
 ?>
