@@ -530,8 +530,8 @@ $string['upgradesure'] = '<div style=\"color: red;\">小テストモジュール
 $string['url'] = 'URL';
 $string['usedcategorymoved'] = 'このカテゴリは公開され、他のコースで使用されているため、維持したままサイトレベルに移動されました。';
 $string['validate'] = '確認';
-$string['viewallanswers'] = '$a 件の受験結果を表示';
-$string['viewallreports'] = '$a 件の受験レポートを表示';
+$string['viewallanswers'] = '$a 件の受験結果を表示する';
+$string['viewallreports'] = '$a 件の受験レポートを表示する';
 $string['warningmissingtype'] = '<b>この問題タイプは、あなたのMoodleにまだインストールされていません。<br />あなたのMoodle管理者に連絡してください。</b>';
 $string['warningsdetected'] = '$a の警告が見つかりました。';
 $string['webct'] = 'WebCTフォーマット';
