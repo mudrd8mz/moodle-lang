@@ -68,7 +68,7 @@ $string['deleting'] = '削除中';
 $string['deletingpage'] = 'ページの削除: $a';
 $string['dependencyon'] = '依存対象';
 $string['description'] = '説明';
-$string['detailedstats'] = '精密な統計';
+$string['detailedstats'] = '詳細統計';
 $string['didnotanswerquestion'] = 'この問題に答えていません。';
 $string['didnotreceivecredit'] = '承認なし';
 $string['displaydefaultfeedback'] = 'デフォルトフィードバックを表示する';
@@ -100,7 +100,7 @@ $string['essayemailmessage'] = '<p>作文問題:<blockquote>$a->question</blockq
 <p>あなたの解答:<blockquote><em>$a->response</em></blockquote></p>
 <p>$a->teacher のコメント:<blockquote><em>$a->comment</em></blockquote></p>
 <p>この作文問題の評点は $a->earned /$a->outof です。</p>
-<p>あなたのレッスンの評点は $a->newgrade&#37; に変更されました。</p>';
+<p>あなたのレッスンの評点は $a->newgrade&#37 に変更されました。</p>';
 $string['essayemailsubject'] = '$a 問題に対するあなたの評点';
 $string['essays'] = '作文問題';
 $string['essayscore'] = '作文問題の評点';
@@ -111,7 +111,7 @@ $string['flowcontrol'] = 'フローコントロール';
 $string['full'] = '広げる';
 $string['general'] = '一般設定';
 $string['grade'] = '評点';
-$string['gradebetterthan'] = '評点が上 (&#37;)';
+$string['gradebetterthan'] = '評点が上 (&#37)';
 $string['gradebetterthanerror'] = '$a パーセントより多い評点が与えられています。';
 $string['gradeessay'] = '作文問題の評定 (評定未了: $a->notgradedcount 件、送信未了 $a->notsentcount 件)';
 $string['gradeis'] = '評点は $a です';
