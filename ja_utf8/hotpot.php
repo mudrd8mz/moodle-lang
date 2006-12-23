@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8 dev (2006102600)
+      // hotpot.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['abandoned'] = '放棄';
@@ -97,7 +97,7 @@ $string['reportclicknumber'] = 'クリック';
 $string['reportclicktime'] = 'クリック時間';
 $string['reportclicktype'] = 'クリックタイプ';
 $string['reportclues'] = 'クルー';
-$string['reportcontent'] = 'レポート内容';
+$string['reportcontent'] = 'コンテンツ';
 $string['reportcorrectsymbol'] = 'O';
 $string['reportcoursename'] = 'コース名';
 $string['reportencoding'] = 'エンコーディング';
