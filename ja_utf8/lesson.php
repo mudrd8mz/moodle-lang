@@ -100,7 +100,7 @@ $string['essayemailmessage'] = '<p>作文問題:<blockquote>$a->question</blockq
 <p>あなたの解答:<blockquote><em>$a->response</em></blockquote></p>
 <p>$a->teacher のコメント:<blockquote><em>$a->comment</em></blockquote></p>
 <p>この作文問題の評点は $a->earned /$a->outof です。</p>
-<p>あなたのレッスンの評点は $a->newgrade&#37 に変更されました。</p>';
+<p>あなたのレッスンの評点は $a->newgrade&#37; に変更されました。</p>';
 $string['essayemailsubject'] = '$a 問題に対するあなたの評点';
 $string['essays'] = '作文問題';
 $string['essayscore'] = '作文問題の評点';
@@ -111,7 +111,7 @@ $string['flowcontrol'] = 'フローコントロール';
 $string['full'] = '広げる';
 $string['general'] = '一般設定';
 $string['grade'] = '評点';
-$string['gradebetterthan'] = '評点が上 (&#37)';
+$string['gradebetterthan'] = '評点が上 (&#37;)';
 $string['gradebetterthanerror'] = '$a パーセントより多い評点が与えられています。';
 $string['gradeessay'] = '作文問題の評定 (評定未了: $a->notgradedcount 件、送信未了 $a->notsentcount 件)';
 $string['gradeis'] = '評点は $a です';
