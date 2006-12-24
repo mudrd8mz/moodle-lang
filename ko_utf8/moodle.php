@@ -375,6 +375,7 @@ $string['documentation'] = '무들 문서';
 $string['donotask'] = '묻지마세요';
 $string['down'] = '아래';
 $string['downloadexcel'] = '엑셀 양식으로 내려 받기';
+$string['downloadods'] = 'ODS 양식으로 내려 받기';
 $string['downloadtext'] = '텍스트 양식으로 내려 받기';
 $string['doyouagree'] = '이러한 조건을 읽고 이해하였습니까?';
 $string['duplicate'] = '복사';

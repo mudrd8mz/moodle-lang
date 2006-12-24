@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 dev (2006112200)
+      // quiz.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['1day'] = '하루';
@@ -223,6 +223,7 @@ $string['gradeboundary'] = '등급 경계';
 $string['gradeessays'] = '논술 채점';
 $string['gradehighest'] = '최고 점수';
 $string['grademethod'] = '채점 방법';
+$string['gradesofar'] = '$a->method: $a->mygrade / $a->quizgrade.';
 $string['gradingdetails'] = '득점 : $a->raw/$a->max.';
 $string['gradingdetailsadjustment'] = '감점 적용 후 : <strong>$a->cur/$a->max</strong>.';
 $string['gradingdetailspenalty'] = '이번 제출은 $a 의 감점이 있습니다.';
@@ -515,6 +516,7 @@ $string['toomanyrandom'] = '카테고리에 저장된 질문보다 랜덤형식�
 $string['top'] = '위';
 $string['true'] = '진실';
 $string['truefalse'] = 'OX문제';
+$string['truefalseimporterror'] = '<b>경고</b>: 진위형문항 \'$a->questiontext\'는 제대로 가져올 수 없었습니다. 어느 답안이 참이고 거짓인지를 명확히 알 수 없습니다. 일단 \'$a->answer\'을 정답으로 가정하고 가져오기는 했지만 이것이 바르지 않다면 문항을 다시 수정해야 할 필요가 있을 것입니다.';
 $string['type'] = '유형';
 $string['unfinished'] = '열기';
 $string['ungraded'] = '채점 안됨';
