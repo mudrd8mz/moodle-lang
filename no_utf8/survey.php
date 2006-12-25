@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.2 (2004032000)
+      // survey.php - created with Moodle 1.6.3 (2006050530)
 
 
 $string['actual'] = 'Faktisk';
@@ -59,25 +59,30 @@ $string['attlsm3'] = 'Separat læring';
 $string['attlsmintro'] = 'I diskusjon...';
 $string['attlsname'] = '20 avmerkingsspørsmål om tenking og læring';
 $string['ciq1'] = 'Hvilket øyeblikk i klassen lærte du <b>mest</b>?';
+$string['ciq1short'] = 'Mest engasjert';
 $string['ciq2'] = 'Hvilket øyeblikk i klassen lærte du <b>minst</b>?';
+$string['ciq2short'] = 'Mest distansert';
 $string['ciq3'] = 'Hva i foraene finner du mest positivt eller hjelpsomt?';
-$string['ciq4'] = 'Hva i foraene finner du merkeligst eller mest forvirrende?';
+$string['ciq3short'] = 'Hjelpsomt øyeblikk';
+$string['ciq4'] = 'Hvilken handling fra noen i fora finner du merkeligst eller mest forvirrende?';
+$string['ciq4short'] = 'Forvirrende øyeblikk';
 $string['ciq5'] = 'Hva overrasket deg mest?';
-$string['ciqintro'] = 'Tenk på nylige hendelser i klassen og svar på spørsmålene nedenfor.';
-$string['ciqname'] = '5 åpne spørsmål om viktige øyeblikk i klassen';
+$string['ciq5short'] = 'Overraskende øyeblikk';
+$string['ciqintro'] = 'Tenk på nylige hendelser i dette kurset og svar på spørsmålene nedenfor.';
+$string['ciqname'] = 'Kritiske hendelser';
 $string['clicktocontinue'] = 'Klikk her for å fortsette';
 $string['clicktocontinuecheck'] = 'Klikk her for å lagre og fortsette';
-$string['colles1'] = 'Læringen min fokuserer på temaer som interesserer meg.';
-$string['colles10'] = 'Jeg ber andre studenter om å forklare deres idéer.';
+$string['colles1'] = 'læringen min fokuserer på tema som interesserer meg.';
+$string['colles10'] = 'Jeg ber andre studenter om å forklare sine idéer.';
 $string['colles10short'] = 'Jeg ber om forklaringer';
-$string['colles11'] = 'Andre studenter ber meg om å forklare mine idéer.';
+$string['colles11'] = 'andre studenter ber meg om å forklare mine idéer.';
 $string['colles11short'] = 'Jeg blir bedt om å forklare';
 $string['colles12'] = 'Andre studenter gir tilbakemelding på mine idéer.';
 $string['colles12short'] = 'Studenter gir meg tilbakemelding';
-$string['colles13'] = 'Læreren stimulerer tenkingen min.';
-$string['colles13short'] = 'Lærer stimulerer tenking';
-$string['colles14'] = 'Læreren oppmuntrer meg til å delta.';
-$string['colles14short'] = 'Lærer oppmuntrer meg';
+$string['colles13'] = 'læreren stimulerer tenkingen min.';
+$string['colles13short'] = 'lærer stimulerer tenking';
+$string['colles14'] = 'læreren oppmuntrer meg til å delta.';
+$string['colles14short'] = 'lærer oppmuntrer meg';
 $string['colles15'] = 'Læreren har gode diskusjoner';
 $string['colles15short'] = 'Lærer har gode diskusjoner';
 $string['colles16'] = 'Læreren reflekterer kritisk over seg selv.';
@@ -115,26 +120,26 @@ $string['colles8'] = 'Jeg tenker kritisk på idéene i stoffet jeg leser.';
 $string['colles8short'] = 'Kritisk til det jeg leser';
 $string['colles9'] = 'Jeg forklarer mine idéer til andre studenter.';
 $string['colles9short'] = 'Jeg forklarer idéer';
-$string['collesaintro'] = 'Meningen med denne undersøkelsen er å hjelpe oss å forstå hvor bra nettpresentasjonen av denne klassen ga deg mulighet til å lære. 
+$string['collesaintro'] = 'Meningen med denne undersøkelsen er å hjelpe oss til å forstå hvor godt nettpresentasjonen av denne enheten hjalp deg å lære. 
 
-Hver av de 24 påstandene under spør etter dine erfaringer med denne klassen.
+Hver av de 24 påstandene under spør etter dine erfaringer i denne enheten.
 
-Det er ingen \'riktige\' eller \'gale\' svar; vi er bare interessert i din mening. Dine svar vil bli behandlet konfidensielt og vil ikke påvirke resultatet ditt i klassen.
+Det er ingen \'riktige\' eller \'gale\' svar; vi er bare interessert i din mening. Dine svar vil bli behandlet konfidensielt og vil ikke påvirke vurderingen av deg.
 
-Dine nøye gjennomtenkte svar vil hjelpe oss å forbedre måten denne klassen blir presentert på nett i framtiden.
+Dine nøye gjennomtenkte svar vil hjelpe oss til å forbedre måten denne enheten blir presentert på nett i framtiden.
 
 Tusen takk.';
 $string['collesaname'] = '26 spørsmål om faktiske forhold i klassen';
-$string['collesapintro'] = 'Meningen med denne undersøkelsen er å hjelpe oss å forstå hvor bra nettpresentasjonen av denne klassen ga deg mulighet til å lære. 
+$string['collesapintro'] = 'Meningen med denne undersøkelsen er å hjelpe oss å forstå hvor godt nettpresentasjonen av denne enheten hjalp deg å lære. 
 
-Hver av de 24 påstandene under ber deg sammenligne dine <b>ønskede</b> (ideelle) og <b>faktiske</b> erfaringer i dette kurset.
+Hver av de 24 påstandene under ber deg sammenligne dine <b>ønskede</b> (ideelle) og <b>faktiske</b> erfaringer i denne enheten.
 
-Det er ingen \'riktige\' eller \'gale\' svar; vi er bare interessert i din mening. Dine svar vil bli behandlet konfidensielt og vil ikke påvirke resultatet ditt i klassen.
+Det er ingen \'riktige\' eller \'gale\' svar; vi er bare interessert i din mening. Dine svar vil bli behandlet konfidensielt og vil ikke påvirke resultatet ditt.
 
-Dine nøye gjennomtenkte svar vil hjelpe oss å forbedre måten denne klassen blir presentert på nett i framtiden.
+Dine nøye gjennomtenkte svar vil hjelpe oss med å forbedre måten denne enheten blir presentert på nett i framtiden.
 
 Tusen takk.';
-$string['collesapname'] = '26 spørsmål om ønskede og faktiske forhold i klassen';
+$string['collesapname'] = '26 spørsmål om ønskede og faktiske forhold';
 $string['collesm1'] = 'Relevans';
 $string['collesm1short'] = 'Relevans';
 $string['collesm2'] = 'Reflekterende tenking';
@@ -145,23 +150,23 @@ $string['collesm4'] = 'Lærerstøtte';
 $string['collesm4short'] = 'Lærerstøtte';
 $string['collesm5'] = 'Støtte fra medstudenter';
 $string['collesm5short'] = 'Støtte medstudenter';
-$string['collesm6'] = 'Forståelse';
-$string['collesm6short'] = 'Forståelse';
-$string['collesmintro'] = 'I klassen min...';
+$string['collesm6'] = 'Tolkning';
+$string['collesm6short'] = 'Tolkning';
+$string['collesmintro'] = 'I denne nettenheten ...';
 $string['collespintro'] = 'Meningen med denne undersøkelsen er å hjelpe oss å forstå hva du finner verdifullt i læring over Internett.
 
 Hver av de 24 påstandene under spør etter dine <b>foretrukne</b> (ideelle) erfaringer i denne klassen.
 
-Det er ingen \'riktige\' eller \'gale\' svar; vi er bare interessert i din mening. Svarene vil bli behandlet konfidensielt og vil ikke påvirke dine resultater i klassen.
+Det er ingen \'riktige\' eller \'gale\' svar; vi er bare interessert i din mening. Svarene vil bli behandlet konfidensielt og vil ikke påvirke dine resultater.
 
 Dine nøye gjennomtenkte svar vil hjelpe oss i å forbedre denne klassen på nett i framtiden.
 
 Tusen takk.';
-$string['collespname'] = '26 spørsmål om ønskede forhold i klassen';
+$string['collespname'] = '26 spørsmål om ønskede forhold i kurset';
 $string['done'] = 'Ferdig';
 $string['download'] = 'Last ned';
 $string['downloadexcel'] = 'Last ned data som Excel-regneark';
-$string['downloadinfo'] = 'Du kan laste ned de komplette dataene fra denne undersøkelsen for bruk i Excel, SPSS eller lignende.';
+$string['downloadinfo'] = 'Du kan laste ned komplett data-sett fra denne undersøkelsen for bruk i Excel, SPSS eller lignende.';
 $string['downloadtext'] = 'Last ned data som ren tekst-fil';
 $string['editingasurvey'] = 'Redigerer en undersøkelse';
 $string['guestsnotallowed'] = 'Gjester kan ikke svare på denne undersøkelsen';
@@ -170,22 +175,22 @@ $string['howlong'] = 'Hvor lang tid tok det å svare på denne undersøkelsen?';
 $string['howlongoptions'] = 'under 1 minutt,1-2 minutter,2-3 minutter,3-4 minutter,4-5 minutter,5-10 minutter,mer enn 10 minutter';
 $string['ifoundthat'] = 'Faktum:';
 $string['introtext'] = 'Introduksjonstekst';
-$string['ipreferthat'] = 'Ønske:';
+$string['ipreferthat'] = 'Jeg foretrekker at';
 $string['modulename'] = 'Undersøkelse';
 $string['modulenameplural'] = 'Undersøkelser';
 $string['name'] = 'Navn';
 $string['newsurveyresponses'] = 'Nye besvarelser';
 $string['nobodyyet'] = 'Ingen har svart på denne undersøkelsen enda';
 $string['notdone'] = 'Ikke ferdig enda';
-$string['notes'] = 'Dine egne analyser og notater';
+$string['notes'] = 'Dine private analyser og notater';
 $string['othercomments'] = 'Har du noen andre kommentarer?';
-$string['peoplecompleted'] = '$a personer har svart på denne undersøkelsen så langt';
+$string['peoplecompleted'] = '$a personer har besvart denne undersøkelsen så langt';
 $string['preferred'] = 'Foretrukket';
-$string['preferredclass'] = 'Klasse foretrukket';
+$string['preferredclass'] = 'Kurs foretrukket';
 $string['preferredstudent'] = '$a foretrukket';
 $string['question'] = 'Spørsmål';
 $string['questions'] = 'Spørsmål';
-$string['questionsnotanswered'] = 'Noen av flere valg-spørsmålene er ikke besvart.';
+$string['questionsnotanswered'] = 'Noen av flervalgs-spørsmålene er ikke besvart.';
 $string['report'] = 'Rapport fra undersøkelse';
 $string['savednotes'] = 'Dine notater ble lagret';
 $string['scaleagree5'] = 'Svært uenig,Litt uenig,Verken eller,Litt enig,Svært enig';
