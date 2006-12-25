@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.2 (2004032000)
+      // auth.php - created with Moodle 1.6.3 (2006050530)
 
 
+$string['auth_common_settings'] = 'Vanlige instillinger';
 $string['auth_dbdescription'] = 'Denne metoden bruker en ekstern database for å kontrollere om et gittt brukernavn og passord er gyldig. Hvis kontoen er ny, kan oplysninger fra andre felter også kopieres inn til Moodle.';
 $string['auth_dbextrafields'] = 'Disse feltene er valgfrie. Du kan velge å forhåndsutfylle noen brukerfelter i Moodle fra <b>den eksterne databasen</b> som du skriver her.<p> Hvis du ikke skriver noe her, vil standardverdierne bli brukt.<p> I alle tilfeller vil brukeren være i stand til å endre disse feltene når de er innlogget.';
 $string['auth_dbfieldpass'] = 'Navn på feltet som inneholder passord';
@@ -16,6 +17,8 @@ $string['auth_dbtype'] = 'Typen database (Se <a href=\"../lib/adodb/readme.htm#d
 $string['auth_dbuser'] = 'Brukernavn med lesetilgang til databasen';
 $string['auth_emaildescription'] = 'E-postbekreftelse er standard autentiseringsmetode. Når brukerne registrerer seg og velger brukernavn og passord, vil en e-post om bekreftelse bli sendt til brukerens e-postadresse. Denne e-posten inneholder en sikker link til en side der brukeren kan bekrefte registreringen. Fremtidige innlogginger kontrolleres kun ved sammenligning av brukernavn og tilhørende passord som ligger i Moodle-databasen.';
 $string['auth_emailtitle'] = 'E-postbasert autentisering';
+$string['auth_fccreators'] = 'Liste over grupper hvis medlemmer kan opprette nye kurs. Skille flere grupper med \';\'. Navn må staves nøyaktig slik det er stavet på FirstClass-tjeneren. Systemet skiller mellom store og små bokstaver.';
+$string['auth_fcfppport'] = 'Tjenerport (3333 er den vanligste)';
 $string['auth_imapdescription'] = 'Denne metoden bruker en IMAP-server for å sjekke om et gitt brukernevn og passord er gyldig.';
 $string['auth_imaphost'] = 'IMAP-serveradressen. Bruk IP-nummeret, ikke DNS-navn.';
 $string['auth_imapport'] = 'IMAP-serverens portnummer. Vanligvis er dette 143 eller 993.';
@@ -28,7 +31,7 @@ $string['auth_ldap_create_context'] = 'Hvis du lar brukere registrere seg med e-
 $string['auth_ldap_creators'] = 'Liste over grupper der medlemmene tillates å opprette nye klassesider. Separer flere grupper med \';\'. (Vanligvis f.eks. \'cn=teachers,ou=staff,o=myorg\')';
 $string['auth_ldap_host_url'] = 'Angi LDAP-vert i URL-form, f.eks. \'ldap://ldap.myorg.com/\' eller \'ldaps://ldap.myorg.com/\'';
 $string['auth_ldap_memberattribute'] = 'Spesifiser atributt for medlemmer i en gruppe, f.eks. \'medlem\'';
-$string['auth_ldap_search_sub'] = 'Sett verdi &lt;&gt; 0 hvis du vil søke etter brukere fra underemner.';
+$string['auth_ldap_search_sub'] = 'Sett verdi <> 0 hvis du vil søke etter brukere fra underemner.';
 $string['auth_ldap_update_userinfo'] = 'Oppdater brukerinfo (fornavn, etternavn, adresse...) fra LDAP til Moodle. Se /auth/ldap/attr_mappings.php for informasjon';
 $string['auth_ldap_user_attribute'] = 'Atributten for å navngi og søke etter brukere (vanligvis \'cn\').';
 $string['auth_ldapdescription'] = 'Denne metoden krever godkjenning opp mot en ekstern LDAP-server. Hvis det gitte brukernavnet/passordet er gyldig oppretter Moodle en ny bruger i databasen. Denne modulen kan lese brugerinfo fra LDAP og forhåndsutfylle ønskede felter i Moodle. For senere innlogging blir kun brukernavn og passord kontrollert.';
@@ -61,5 +64,9 @@ $string['instructions'] = 'Instruksjoner';
 $string['md5'] = 'MD5-kryptering';
 $string['plaintext'] = 'Ren tekst';
 $string['showguestlogin'] = 'Du kan skjule eller vise logg inn-knappen for gjester på innloggingssiden.';
+$string['update_never'] = 'Aldri';
+$string['update_oncreate'] = 'Ved oppretting';
+$string['update_onlogin'] = 'Ved hver innlogging';
+$string['update_onupdate'] = 'Ved oppdatering';
 
 ?>
