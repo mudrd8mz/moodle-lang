@@ -3,9 +3,9 @@
 
 
 $string['mymoodle'] = 'Oversikt over mine kurs';
-$string['nocourses'] = 'Ingen kursinformasjon å vise';
+$string['nocourses'] = 'Ingen kursinformasjon å vise.';
 $string['noguest'] = 'Siden \'Kursoversikt\' er ikke tilgjengelig for gjester';
 $string['pinblocks'] = 'Konfigurer stiftede bokser for min moodle';
-$string['pinblocksexplan'] = 'Alle innstillinger for bokser som du konfigurerer her, vil være synlige (men ikke editerbare) for alle brukere av Moodle på deres \'Min moodle\' oversiktsside.';
+$string['pinblocksexplan'] = 'Alle innstillinger for bokser du konfigurerer her, vil være synlige (men ikke editerbare) for alle brukere av Moodle på deres \'Min moodle\' oversiktsside.';
 
 ?>
