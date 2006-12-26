@@ -3,9 +3,9 @@
 
 
 $string['allattempts'] = '显示所有试答';
-$string['allstudents'] = '显示所有$a';
-$string['attemptsonly'] = '只显示$a试答';
-$string['noattemptsonly'] = '不显示$a试答';
+$string['allstudents'] = '显示所有{$a}';
+$string['attemptsonly'] = '只显示{$a}试答';
+$string['noattemptsonly'] = '不显示{$a}试答';
 $string['overview'] = '概览';
 $string['overviewdownload'] = '下载概览';
 
