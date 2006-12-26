@@ -1,11 +1,15 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.6 development (2005101200)
+      // choice.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addmorechoices'] = 'Tilføj flere valgmuligheder';
 $string['allowupdate'] = 'Tillad spørgsmålet at blive opdateret';
 $string['answered'] = 'Besvaret';
-$string['choice'] = 'Spørgsmål $a';
+$string['choice'] = 'Valg';
+$string['choice:choose'] = 'Vælg et svar';
+$string['choice:deleteresponses'] = 'Slet svar';
+$string['choice:downloadresponses'] = 'Download svar';
+$string['choice:readresponses'] = 'Læs svar';
 $string['choiceclose'] = 'Indtil';
 $string['choicename'] = 'Spørgsmål navn';
 $string['choiceopen'] = 'Åben';
@@ -20,6 +24,8 @@ $string['limitanswers'] = 'Begræns antallet af svar';
 $string['modulename'] = 'Spørgsmål';
 $string['modulenameplural'] = 'Spørgsmål';
 $string['mustchooseone'] = 'Du skal vælge et svar før du gemmer. Der blev ikke gemt noget.';
+$string['noguestchoose'] = 'Desværre, gæster kan ikke vælge.';
+$string['noresultsviewable'] = 'Resultaterne er ikke tilgængelige på nuværende tidspunkt.';
 $string['notanswered'] = 'Ikke besvaret endnu';
 $string['notopenyet'] = 'Denne aktivitet er ikke tilgængelig indtil $a';
 $string['privacy'] = 'Vis ikke resultater';

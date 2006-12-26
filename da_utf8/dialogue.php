@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005033100)
+      // dialogue.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addmynewentries'] = 'Tilføj mine nye indlæg';
@@ -9,6 +9,7 @@ $string['allowmultiple'] = 'Tillad mere end en dialog med den samme person';
 $string['allowstudentdialogues'] = 'Tillad elev til elev dialoger.';
 $string['close'] = 'Luk';
 $string['closed'] = 'Lukket';
+$string['closeddialogues'] = 'Lukkede dialoger';
 $string['confirmclosure'] = 'Du er ved at lukke en dialog med $a. Lukkede dialoger kan ikke genåbnes. Hvis du lukker dialogen kan du kun se indholdet men ikke tilføje mere til den, og du bliver nødt til at starte en ny dialog hvis du vil fortsætte. <br /><br />Er du sikker på at du ønsker at lukke denne dialog?';
 $string['deleteafter'] = 'Slet lukkede dialoger efter (Dage)';
 $string['dialogueclosed'] = 'Dialogen er lukket';
@@ -35,6 +36,7 @@ $string['newentry'] = 'Ny besked';
 $string['noavailablepeople'] = 'Der er ikke andre at snakke med';
 $string['nopersonchosen'] = 'Der er ikke valg nogen person';
 $string['nosubject'] = 'Der mangler et emne';
+$string['notavailable'] = 'Dialoger kan ikke ses af gæster';
 $string['notextentered'] = 'Tekst mangler';
 $string['notstarted'] = 'Du er ikke begyndt på denne dialog endnu';
 $string['notyetseen'] = 'Ikke set endnu';
@@ -47,6 +49,7 @@ $string['open'] = 'Start';
 $string['openadialoguewith'] = 'Start dialog med';
 $string['opendialogue'] = 'Start dialog';
 $string['opendialogueentries'] = 'Åben dialog indlæg';
+$string['opendialogues'] = 'Åbne dialoger';
 $string['pane0'] = 'Åben en dialog';
 $string['pane1'] = '$a dialoger venter på svar fra dig';
 $string['pane1one'] = '1 dialog venter på svar fra dig';

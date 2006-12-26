@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 dev (2006102600)
+      // forum.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addanewdiscussion'] = 'Tilføj en ny tråd';
@@ -124,7 +124,7 @@ $string['modulenameplural'] = 'Fora';
 $string['more'] = 'mere';
 $string['movedmarker'] = '(flyttet)';
 $string['movethisdiscussionto'] = 'Flyt diskussionen til ...';
-$string['namenews'] = 'Nyheds forum';
+$string['namenews'] = 'Nyhedsforum';
 $string['namesocial'] = 'Social forum';
 $string['nameteacher'] = 'Lærer forum';
 $string['newforumposts'] = 'Nyt indlæg';

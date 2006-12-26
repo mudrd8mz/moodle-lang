@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6 development (2005101200)
+      // editor.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['about'] = 'Om denne editor';
@@ -31,6 +31,7 @@ $string['createlink'] = 'Indsæt weblink';
 $string['cut'] = 'Klip markeret tekst';
 $string['cutpastemozilla'] = 'Du kan desværre ikke benytte de almindelige genvejstaster til at kopiere tekst ind i denne online editor. Dette skyldes en sikkerhedsfunktion der der i nogle versioner af Mozilla og Firefox browsere.<br /><br />Der er tre måder du kan prøve at omgå det på:<br /> (1) Istedet for CTRL-v, benyt SHIFT-insert<br /> (2) Brug Edit->Paste menuen i browseren.<br /> (3) Ret konfigurationen i browseren ved at ret i user.js filen.<br /><br />Tryk på OK knappen nedenfor for mere hjælp, eller Cancel for at returnere til editoren.';
 $string['delete'] = 'Slet';
+$string['enterurlfirst'] = 'Du skal skrive en URL først';
 $string['filebrowser'] = 'Fil-browser';
 $string['findwhat'] = 'Find';
 $string['fontname'] = 'Fontnavn';
@@ -73,6 +74,7 @@ $string['matchcase'] = 'Samme case';
 $string['middle'] = 'Midten';
 $string['minimize'] = 'Minimer editor';
 $string['move'] = 'Flyt';
+$string['mustenterurl'] = 'Du skal først skrive en URL';
 $string['nolink'] = 'Forebyg automatisk linkning';
 $string['normal'] = 'Normal';
 $string['notimage'] = 'Valgte fil er ikke et billede. Vælg venligst et billede!';
@@ -85,6 +87,7 @@ $string['paste'] = 'Indsæt fra udklipsholder';
 $string['path'] = 'Sti';
 $string['percent'] = 'Procent';
 $string['pixels'] = 'Pixels';
+$string['pleaseenteralt'] = 'Skriv venligst en alternativ tekst';
 $string['popupeditor'] = 'Forstør editor';
 $string['preformatted'] = 'Preformateret';
 $string['preview'] = 'Se resultat';

@@ -27,7 +27,7 @@ $string['configmaxbytes'] = 'Generel maksimum filstørrelse for alle afleverings
 $string['confirmdeletefile'] = 'Er du helt sikker på, at du vil slette denne fil?<br /><strong>$a</strong>';
 $string['deletefilefailed'] = 'Det lykkedes ikke at slette filen';
 $string['description'] = 'Beskrivelse';
-$string['draft'] = 'Kladde';
+$string['draft'] = 'Påbegyndt';
 $string['duedate'] = 'Afleveringsdato';
 $string['duedateno'] = 'Ingen afleveringsfrist';
 $string['early'] = '$a for tidlig';
@@ -50,6 +50,12 @@ $string['guestnosubmit'] = 'Beklager! Gæster kan ikke aflevere en opgave. Du sk
 $string['guestnoupload'] = 'Desværre, gæster kan ikke uploade.';
 $string['helpoffline'] = '<p>Denne er brugbar når selve opgaven udføres udenfor Moodle. Det kunne være et andet sted på nettet, eller i klassen. - Eller den kan bruges hvis man vil have at besvarelsen skal lægges i et forum.</p><p>Eleverne kan se en beskrivelse af opgaven, men kan ikke uploade filer eller ligenene. Pointgivning fungerer normalt, og elever vil få besked når deres indsats er blevet vurderet.</p>';
 $string['helponline'] = '<p>Denne opgave kræver at eleverne skriver noget tekst. Underviseren kan vurdere dem online og tilmed rette eller kommentere i selve teksten.</p><p>(Hvis du kender tidligere versioner af Moodle, er denne opgavetype den samme som den der førhen hed Journal)</p>';
+$string['helpupload'] = '<p>Denne type opgave tillader alle deltagere at uploade en eller flere filer af vilkårligt format.
+Det kan være et word eller pdf dokument, billeder, zip/rar fil eller en hvilken som helst fil du beder om at de skal aflevere.</p>
+<p>Denne type gør det også muligt at uploade ændrede filer som svar. Der kan også uploades svarfiler eller opgavemateriale på forhånd, så hver elev kan arbejde med individuelle opgavematerialer.</p>
+<p>
+Deltagere kan også tilføje notater angående afleverede filer, det kan også være statusnoter eller andre tekstinformationer eller svar.</p>
+<p>Afleveringer af denne type opgaver skal færdigmeldes af deltageren. Du kan følge med i afleveringen af opgaverne ved til enhver tid at følge deres status. Opgaver der ikke er fældigmeldt er markeret som \"Påbegyndt\". Du kan ændre status på alle opgaver der ikke er vurderet fra \"Afleveret\" tilbage til \"Påbegyndt\".</p>';
 $string['helpuploadsingle'] = '<p>Denne type opgave tillader deltagere at uploade en enkelt fil af vilkårlig type.</p> <p>Det kan være et worddokument, et billede, et zippet website, eller hvad underviseren nu beder eleverne om at aflevere.</p>';
 $string['hideintro'] = 'Skjul beskrivelse indtil dato for tilgængelighed.';
 $string['late'] = '$a for sent';
@@ -90,7 +96,9 @@ $string['submitted'] = 'Afleveret';
 $string['submittedfiles'] = 'Afleverede filer';
 $string['typeoffline'] = 'Offline aktivitet';
 $string['typeonline'] = 'Online tekst';
+$string['typeupload'] = 'Advanceret aflevering af filer';
 $string['typeuploadsingle'] = 'Upload en enkelt fil';
+$string['unfinalize'] = 'Gå tilbage til: Påbegyndt';
 $string['uploadbadname'] = 'Dette filnavn indeholdt ugyldige tegn og kunne ikke uploades.';
 $string['uploadedfiles'] = 'uploadede filer';
 $string['uploaderror'] = 'Fejl mens filen blev gemt på serveren';

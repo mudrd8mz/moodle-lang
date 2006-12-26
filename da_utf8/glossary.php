@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 dev (2006102600)
+      // glossary.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addcomment'] = 'Tilføj kommentar';
@@ -29,15 +29,15 @@ $string['categories'] = 'Kategorier';
 $string['category'] = 'Kategori';
 $string['categorydeleted'] = 'Kategori slettet!';
 $string['categoryview'] = 'Vis efter kategori';
-$string['cnfallowcomments'] = 'Definer om et opslagsværk skal kunne kommenteres som standard.';
+$string['cnfallowcomments'] = 'Skal et opslagsværk som standard kunne kommenteres?';
 $string['cnfallowdupentries'] = 'Definer om et opslagsværk tillader flere ens opslagsord.';
-$string['cnfapprovalstatus'] = 'Definere hvilken status et nyt opslagsord skal have hvis det er tilføjet af en studerende.';
+$string['cnfapprovalstatus'] = 'Skal opslagsord tilføjet af studerende som standard godkendes automatisk (uden lærermedvirken)?';
 $string['cnfcasesensitive'] = 'Definere om et opslagsord, når det er linket, skal være afhængig af bogstavstørrelsen.';
 $string['cnfdefaulthook'] = 'Vælg de ting der normalt skal vises når et ordbogsopslag vises første gang.';
 $string['cnfdefaultmode'] = 'Vælg den ramme/frame der skal vises når ordbogen vises første gang.';
 $string['cnffullmatch'] = 'Definere om et opslagsord, når det er linket, skal matche bogstavstørrelsen på den tekst der linkes fra.';
-$string['cnflinkentry'] = 'Definere om et opslagsord automatisk skal linkes.';
-$string['cnflinkglossaries'] = 'Definere om et opslagsværk automatisk skal linkes.';
+$string['cnflinkentry'] = 'Skal opslagsord autolinkes som standard?';
+$string['cnflinkglossaries'] = 'Skal opslagsværker autolinkes som standard?';
 $string['cnfrelatedview'] = 'Vælg det normale format til brug for automatisk linkning.';
 $string['cnfshowgroup'] = 'Angiv om gruppeadskillelse skal vises eller ej.';
 $string['cnfsortkey'] = 'Vælg standard sorterings felt';
@@ -50,7 +50,7 @@ $string['commentson'] = 'Kommentarer til';
 $string['commentupdated'] = 'Kommentaren er blevet opdateret';
 $string['concept'] = 'Opslagsord';
 $string['concepts'] = 'Opslagsord';
-$string['configenablerssfeeds'] = 'Denne mulighed vil gøre det muligt at generere RSS feed for alle opslagsværker. Du skal stadig slå det til for hvert opslagsværk.';
+$string['configenablerssfeeds'] = 'Skal RSS-feed være muligt for alle opslagsværker? Du skal stadig slå det til for hvert opslagsværk.';
 $string['currentglossary'] = 'Nuværende ordbog';
 $string['dateview'] = 'Vis efter dato';
 $string['defaultapproval'] = 'Opslagsord godkendes automatisk (uden lærermedvirken)';
@@ -62,10 +62,10 @@ $string['deletingnoneemptycategory'] = 'Ved sletning af denne kategori vil de op
 $string['descending'] = '(faldene)';
 $string['destination'] = 'Destination';
 $string['displayformat'] = 'Vis format';
-$string['displayformatcontinuous'] = 'Kontinuerlig med forfatter';
-$string['displayformatdictionary'] = 'Simple, ordbogsstil';
-$string['displayformatencyclopedia'] = 'Opslagsværk';
-$string['displayformatentrylist'] = 'Indgangsliste';
+$string['displayformatcontinuous'] = 'Kontinuerlig uden forfatter';
+$string['displayformatdictionary'] = 'Simpelt ordbogsformat';
+$string['displayformatencyclopedia'] = 'Leksikon';
+$string['displayformatentrylist'] = 'Ordliste';
 $string['displayformatfaq'] = 'FAQ';
 $string['displayformatfullwithauthor'] = 'Fuldt med forfatter (forumagtig)';
 $string['displayformatfullwithoutauthor'] = 'Fuldt men uden forfatter';
@@ -76,7 +76,7 @@ $string['editalways'] = 'Ret altid';
 $string['editcategories'] = 'Ret kategorier';
 $string['editentry'] = 'Ret opslagsord';
 $string['editingcomment'] = 'Ret kommentar';
-$string['entbypage'] = 'Opslagsord pr. side';
+$string['entbypage'] = 'Antal opslagsord pr. side';
 $string['entries'] = 'Opslagsord';
 $string['entrieswithoutcategory'] = 'Ukategoriseret opslagsord';
 $string['entry'] = 'opslagsord';

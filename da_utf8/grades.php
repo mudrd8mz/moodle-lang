@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005033100)
+      // grades.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addcategory'] = 'Tilføj kategori';
 $string['addcategoryerror'] = 'Kan ikke tilføje kategori';
 $string['addexceptionerror'] = 'Der opstod en fejl i forbindelse med en tilføjelse af en undtagelse for brugerid:gradeitem';
-$string['allgrades'] = 'Kategorier med vurderinger ';
+$string['allgrades'] = 'Kategorier med vurderinger';
 $string['allstudents'] = 'Alle elever';
 $string['average'] = 'Gennemsnit';
 $string['bonuspoints'] = 'Bonuspoints';
@@ -49,6 +49,7 @@ $string['gradeletternote'] = 'For at slette et karakterbogstav skal du bare slet
 $string['gradepreferenceshelp'] = 'Karakter indstillingshjælp';
 $string['grades'] = 'Karakterer';
 $string['gradeweighthelp'] = 'Karaktervægtnings hjælp';
+$string['hideadvanced'] = 'Skjul advancerede funktioner';
 $string['hidecategory'] = 'Skjult';
 $string['highgradeascending'] = 'Sorter efter højeste karakter stigende';
 $string['highgradedescending'] = 'Sorter efter højeste karakter faldene';
@@ -75,6 +76,7 @@ $string['nolettergrade'] = 'Ingen bogstavkaraktere for';
 $string['nomode'] = 'N/A';
 $string['nonnumericweight'] = 'Modtog en ikke-numerisk værdi for';
 $string['nonweightedpct'] = 'Ikke vægtet %%';
+$string['notteachererror'] = 'Du skal være underviser for at benytte denne funktion';
 $string['pctoftotalgrade'] = '%% af total karakter';
 $string['percent'] = 'Procent';
 $string['percentascending'] = 'Sorter stigende efter procenter';

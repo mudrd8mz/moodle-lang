@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8 dev (2006102600)
+      // resource.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addresource'] = 'Tilføj materiale';
@@ -11,6 +11,7 @@ $string['chooseafile'] = 'Vælg eller upload en fil';
 $string['chooseparameter'] = 'Vælg parametre';
 $string['configallowlocalfiles'] = 'Når du laver en ny resourcefil, så er det en god ide at tillade links til filer på det lokale filsystem såsom CDROM drev, netværksdrev eller på harddisken. Det kan være brugbart i et klasseværelse hvor alle elever har mappet det samme netværksdrev eller hvor filerne ligger på en udleveret CD. Brug af denne feature kan kræve nogle ændringer af browserens sikkerhedsindstillinger.';
 $string['configautofilerenamesettings'] = 'Opdater automatisk referencer og biblioteker hvis de bliver omdøbt med filemanageren.';
+$string['configblockdeletingfilesettings'] = 'Blokslætning af filer og bilioteker der bliver brugt af resourcer. Vær opmærksom på at billeder ller andre filer der bliver refereret til via HTML links ikke er beskyttet.';
 $string['configdefaulturl'] = 'Denne værdi bruges til at indsætte i URL formen når en ny URL-baseret ressource laves.';
 $string['configfilterexternalpages'] = 'Hvis du bruger denne indstilling vil alle eksterne ressourcer (websider, uploaded HTMLfiler) blive behandlet af det nuværende sidefiltre (såsom ordbogs autolinks, for eksempel). Brugen af denne indstilling kan forårsage at sidevisningen bliver betydeligt langsommere. Brug den med omtanke og når det virkeligt er nødvendigt.';
 $string['configframesize'] = 'Når en webside eller en uploadet fil vises i en frame, så angiver denne værdi højden på topbaren (den øverste frame som indeholder navigationen)';
@@ -119,5 +120,7 @@ $string['upbutton'] = 'Op';
 $string['variablename'] = 'Variabel navn';
 $string['viewims'] = 'Gennemse IMS Content Package';
 $string['vol'] = 'vol';
+$string['warningblockingdelete'] = 'ADVARSEL: Det kan ikke lade sig gøre at slette denne fil da den bliver brugt af en resource. Du kan enten ændre eller slette resourcen først, eller bede sitets administrator om at deaktivere beskyttelsesmekanismen i de globale resourceindstillinger.';
+$string['warningdisabledrename'] = 'ADVARSEL: Den automatiske omdøbning af referancer i resourcer er deaktiveret. Du kan omdøbe referencerne manuelt hvis det er nødvendigt. Administratoren kan også aktivere en automatisk omdøbning i de globale indstillingerne for resourcer.';
 
 ?>

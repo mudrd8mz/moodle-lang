@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 development (2005101200)
+      // auth.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['alternatelogin'] = 'Her kan du skrive en URL der vil blive brugt som loginside for dette site. Siden bør indeholde en form hvis action er sat til <strong>\'$a\'</strong> og returnere 2 felter <strong>username</strong> og <strong>password</strong>.<br />Pas på ikke at skrive en forkert URL da du kan risikere at ikke at kunne logge ind igen. <br />Lad denne være blank for bruge den almindelige loginside.';
@@ -10,12 +10,12 @@ $string['auth_cas_enabled'] = 'Aktiver denne indstilling hvis du ønsker at beny
 $string['auth_cas_hostname'] = 'Værtsnavn for CAS server<br />F.eks: host.domain.dk';
 $string['auth_cas_invalidcaslogin'] = 'Desværre, du kan ikke logges ind - da du ikke kunne blive godkendt.';
 $string['auth_cas_language'] = 'Vælg sprog';
-$string['auth_cas_logincas'] = 'Benyt sikker forbindelse ';
+$string['auth_cas_logincas'] = 'Benyt sikker forbindelse';
 $string['auth_cas_port'] = 'CAS serverens port';
 $string['auth_cas_server_settings'] = 'CAS serverens konfiguration';
 $string['auth_cas_text'] = 'Sikker forbindelse';
 $string['auth_cas_version'] = 'Version af CAS';
-$string['auth_casdescription'] = 'Denne metode benytter en CAS server (Central Authentication Service) til at autorisere brugere i et SSO (Single Sign On) miljø. Du kan også benytte en simpel LDAP autorisering. Hvis det givne brugernavn og password er korrekte i forhold til CAS så opretter Moodle en brugerprofil til den bruger i  databasen. Moodle kan efterfølgende overføre nogle eller alle brugerens informationer fra LDAP hvis det kan lade sig gøre. Efterfølgende er det kun brugernavn og password der bliver kontrolleret.  ';
+$string['auth_casdescription'] = 'Denne metode benytter en CAS server (Central Authentication Service) til at autorisere brugere i et SSO (Single Sign On) miljø. Du kan også benytte en simpel LDAP autorisering. Hvis det givne brugernavn og password er korrekte i forhold til CAS så opretter Moodle en brugerprofil til den bruger i  databasen. Moodle kan efterfølgende overføre nogle eller alle brugerens informationer fra LDAP hvis det kan lade sig gøre. Efterfølgende er det kun brugernavn og password der bliver kontrolleret.';
 $string['auth_castitle'] = 'Benyt en CAS server (SSO)';
 $string['auth_changepasswordhelp'] = 'Hjælp til skift af password';
 $string['auth_changepasswordhelp_expl'] = 'Vis hjælp til skift af password til brugere som har glemt deres $a password. Dette vil blive vist enten sammen med eller i stedet for <strong>URL til skift af password</strong> eller Moodle\'s interne skift af password.';
@@ -64,7 +64,7 @@ $string['auth_ldap_expiration_warning_desc'] = 'Hvor mange dage før at et passw
 $string['auth_ldap_expireattr_desc'] = 'Valgfrit: overskriver ldap-attribut der gemmer password-udløbs tid.';
 $string['auth_ldap_graceattr_desc'] = 'Valgfrit: Overskriver gracelogin attribut.';
 $string['auth_ldap_gracelogins_desc'] = 'Aktivere LDAP gracelogin understøttelse. Efter at kodeordet er udløbet kan brugeren logge ind indtil gracelogin-tælleren er 0. Hvis denne indstilling er aktiveret vil en gracelogin besked blive vist hvis kodeordet er udløbet.';
-$string['auth_ldap_host_url'] = 'Angiv LDAP host i URL-form f.eks. \'ldap://ldap.myorg.com/\' eller \'ldaps://ldap.myorg.com/\' ';
+$string['auth_ldap_host_url'] = 'Angiv LDAP host i URL-form f.eks. \'ldap://ldap.myorg.com/\' eller \'ldaps://ldap.myorg.com/\'';
 $string['auth_ldap_login_settings'] = 'Login indstilling';
 $string['auth_ldap_memberattribute'] = 'Angiv bruger attribut, når en bruger tilhører en gruppe. Normalt \'member\'';
 $string['auth_ldap_objectclass'] = 'Valgfrit: Overskriver objectClass brugt til name/search brugere på ldap_user_type. Du behøver normalt ikke at ændre det.';
@@ -102,6 +102,11 @@ $string['auth_pop3mailbox'] = 'Navnet på den postbox som der skal forbindes til
 $string['auth_pop3port'] = 'Server port (110 er mest almindelig)';
 $string['auth_pop3title'] = 'Brug en POP3 server';
 $string['auth_pop3type'] = 'Server type. Hvis din server anvender certifikat sikkerhed, så vælg pop3cert.';
+$string['auth_radiusdescription'] = 'Denne metode benytter en <a href=\"http://en.wikipedia.org/wiki/RADIUS\" target=\"_blank\">RADIUS</a> server til at validere brugernavn og password.';
+$string['auth_radiushost'] = 'Adressen på RADIUS server';
+$string['auth_radiusnasport'] = 'Forbind til port';
+$string['auth_radiussecret'] = 'Delt nøgleord';
+$string['auth_radiustitle'] = 'Benyt en RADIUS server';
 $string['auth_shib_convert_data'] = 'Datamanipulerings API';
 $string['auth_shib_convert_data_description'] = 'Du kan benytte dette API til yderligere at ændre data fra Shibboleth. Læs evt a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> for yderligere information.';
 $string['auth_shib_convert_data_warning'] = 'Filen eksistere ikke eller kan ikke læses af webserverens process.';
@@ -127,14 +132,14 @@ $string['authinstructions'] = 'Her kan du komme med anvisninger til dine brugere
 $string['changepassword'] = 'Lav password URL om';
 $string['changepasswordhelp'] = 'Her kan du angive et sted, hvor dine brugere kan finde eller ændre deres username/password, hvis de har glemt det. Brugerne vil få vist en knap på login siden. Hvis du ikke skriver noget her, vil knappen ikke blive vist.';
 $string['chooseauthmethod'] = 'Vælg en godkendelses metode';
-$string['createchangepassword'] = 'Hvis mangler - tving skift';
-$string['createpassword'] = 'Opret hvis det mangler';
+$string['createpasswordifneeded'] = 'Generér password hvis det er nødvendigt';
 $string['forcechangepassword'] = 'Gennemtving skift af passwords';
 $string['forcechangepassword_help'] = 'Tving brugere til at skifte passwords næste gang de logger ind.';
 $string['forcechangepasswordfirst_help'] = 'Tving brugere til at skifte password første gang de logger ind på Moodle';
 $string['guestloginbutton'] = 'Gæste login knap';
 $string['infilefield'] = 'Nødvendige felter i filen';
 $string['instructions'] = 'Instruktioner';
+$string['internal'] = 'Internt';
 $string['locked'] = 'Låst';
 $string['md5'] = 'MD5 kryptering';
 $string['passwordhandling'] = 'Behandling af passwordfelter';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005033100)
+      // survey.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['actual'] = 'Aktuel';
@@ -23,17 +23,17 @@ $string['attls14'] = 'Jeg fokuserer på svagheder i andres argumenter i stedet f
 $string['attls14short'] = 'fokuserer på svagheder';
 $string['attls15'] = 'Jeg sætter mig i andres sted, når jeg diskuterer kontroversielle emner med dem, for at forstå hvorfor de tænker, som de gør';
 $string['attls15short'] = 'sætter mig i andres sted';
-$string['attls16'] = 'Måden, jeg analyserer udsagn, kan sammenlignes med at \'slæbe folk for retten\', fordi jeg overvejer alle facts. ';
+$string['attls16'] = 'Måden, jeg analyserer udsagn, kan sammenlignes med at \'slæbe folk for retten\', fordi jeg overvejer alle facts.';
 $string['attls16short'] = 'slæbe for retten';
 $string['attls17'] = 'Jeg værdsætter at bruge logik og fornuft, førend mine egne overvejelser, når jeg løser problemer.';
 $string['attls17short'] = 'jeg værdsætter logik';
 $string['attls18'] = 'Jeg kan opnå indsigt i meninger, som der er forskellige fra mine gennem indlevelse.';
 $string['attls18short'] = 'indsigt gennem indlevelse';
-$string['attls19'] = 'Når jeg møder mennesker med meninger fremmede for mig, gør jeg et forsøg på at nå ind til vedkommende, for at få et indblik i deres meninger ';
+$string['attls19'] = 'Når jeg møder mennesker med meninger fremmede for mig, gør jeg et forsøg på at nå ind til vedkommende, for at få et indblik i deres meninger';
 $string['attls19short'] = 'prøver at nå ind til';
 $string['attls1short'] = 'fokuserer på kvaliteten i argumenterne';
 $string['attls2'] = 'Jeg kan li\' at spille \'djævelens advokat\' - argumentere med det modsatte af andres meninger';
-$string['attls20'] = 'Jeg bruger tid på at finde ud af, hvad der er galt. F.eks. så bruger jeg tid på at finde dårlig argumentation i ting jeg læser. ';
+$string['attls20'] = 'Jeg bruger tid på at finde ud af, hvad der er galt. F.eks. så bruger jeg tid på at finde dårlig argumentation i ting jeg læser.';
 $string['attls20short'] = 'Hvad er der galt?';
 $string['attls2short'] = 'spiller djævelens advokat';
 $string['attls3'] = 'Jeg vil gerne vide, hvor folk kommer fra, hvad der har fået dem til at føle det, de gør.';
@@ -199,6 +199,9 @@ $string['scaletimes5'] = 'Næsten aldrig,Sjældent,Nogle gange,Ofte,Næsten alti
 $string['seemoredetail'] = 'Klik her for detaljer';
 $string['selectedquestions'] = 'Udvalgte spørgsmål, alle studenterende';
 $string['summary'] = 'Opsummering';
+$string['survey:download'] = 'Download svar';
+$string['survey:participate'] = 'Deltag i undersøgelse';
+$string['survey:readresponses'] = 'Vis tilbagemeldinger';
 $string['surveycompleted'] = 'Du er færdig med undersøgelsen.  Grafen nedenunder viser dine svar i forhold til klassens gennemsnit';
 $string['surveyname'] = 'Undersøgelse navn';
 $string['surveysaved'] = 'Undersøgelse gemt';
