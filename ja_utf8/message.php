@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8 dev (2006102600)
+      // message.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['addcontact'] = 'コンタクトリストに追加';
@@ -34,6 +34,7 @@ $string['messages'] = 'メッセージ';
 $string['messaging'] = 'メッセージ';
 $string['mycontacts'] = 'マイ コンタクト';
 $string['newsearch'] = '新しい検索';
+$string['noframesjs'] = 'フレームおよびJavaスクリプトなしのバージョン';
 $string['nomessages'] = '未読メッセージはありません。';
 $string['nomessagesfound'] = 'メッセージが見つかりませんでした。';
 $string['nosearchresults'] = '該当データが見つかりませんでした。';
@@ -46,6 +47,7 @@ $string['onlymycourses'] = 'マイ コース内のみ';
 $string['onlytome'] = '受信メッセージ';
 $string['pagerefreshes'] = 'このページは $a 秒ごとに自動更新されます。';
 $string['readmessages'] = '既読メッセージ $a';
+$string['refresh'] = 'リフレッシュ';
 $string['removecontact'] = 'コンタクトリストから削除';
 $string['savemysettings'] = '私の設定を保存する';
 $string['search'] = '検索';
