@@ -2,7 +2,7 @@
       // form.php - created with Moodle 1.8 dev (2006120700)
 
 
-$string['addfields'] = '$a フィールドをフォームに追加する';
+$string['addfields'] = 'フィールド $a 個をフォームに追加する';
 $string['advancedelement'] = '拡張要素';
 $string['day'] = '日';
 $string['denotesreq'] = '$a は必須入力フィールドです。';
