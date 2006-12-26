@@ -1,5 +1,5 @@
-<?PHP // $Id$
-
+<?PHP // $Id$ 
+      // message.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['addcontact'] = '연락 추가';
@@ -34,6 +34,7 @@ $string['messages'] = '메세지';
 $string['messaging'] = '메세지';
 $string['mycontacts'] = '나의 연락';
 $string['newsearch'] = '새로운 검색';
+$string['noframesjs'] = '프레임 및 자바코드가 없는 판';
 $string['nomessages'] = '대기중인 메세지 없음';
 $string['nomessagesfound'] = '발견된 메세지 없음';
 $string['nosearchresults'] = '검색 결과 없음';
@@ -46,6 +47,7 @@ $string['onlymycourses'] = '내 코스에서 만';
 $string['onlytome'] = '나에게 온 메세지';
 $string['pagerefreshes'] = '이 페이지는 일정 간격으로 자동으로 새로고침 됩니다';
 $string['readmessages'] = '$a 메세지 읽기';
+$string['refresh'] = '갱신';
 $string['removecontact'] = '연락 제거';
 $string['savemysettings'] = '내 설정 저장';
 $string['search'] = '검색';
@@ -58,11 +60,12 @@ $string['settingssaved'] = '당신의 설정이 저장되었습니다';
 $string['showmessagewindow'] = '새 메세지가 올 때마다 자동으로 윈도우에 메세지 표시
 (이 사이트에 팝업이 차단되지 않도록 당신의 브라우저를 설정할 필요가 있습니다)';
 $string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
-$string['timenosee'] = '온라인에 마지막으로 ';
+$string['timenosee'] = '온라인에 마지막으로';
 $string['timesent'] = '작업 시간';
 $string['unblockcontact'] = '차단되지 않은 연락';
 $string['unreadmessages'] = '$a 읽지않은 메세지';
 $string['userisblockingyou'] = '이 사용자는 당신이 타인에게 메세지를 발송하는 것을 차단 했습니다';
 $string['userisblockingyounoncontact'] = '이 사용자는 연락처에 있는 사람들에게만 메세지를 받습니다, 당신은 현재 연락처에 있지 않습니다.';
 $string['userssearchresults'] = '검색 결과: $a 사용자 발견';
+
 ?>
