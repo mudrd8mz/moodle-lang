@@ -5,6 +5,10 @@ Differenti tipi di domanda possono essere mischiati in un unico file di testo, e
 Un esempio di file di domande si trova al seguente link:
 <a href="mod/quiz/format/gift/examples.txt">gift/examples.txt</a>.</p>
 
+<h3>Elementi fondamentali</h3>
+
+<p>Ogni singola domanda nel file GIFT non deve contenere alcuna riga vuota. Ogni domanda va delimitata da almeno una riga vuota. Se è necessario rappresentare una riga vuota nella domanda, bisogna inserire l'elemento <b>\n</b>. Commenti possono essere inseriti ovunque sia necessario ma devono iniziare con due barre (<b>//</b>) all'inizio della riga.</p>
+
 <h3>TIPI DI DOMANDE</h3>
 <p><u>Risposta multipla:</u><br />
 Per le domande a risposta multipla, le risposte errate sono precedute dal carattere tilde (~), mentre le risposte giuste sono precedute dal segno uguale (=).</p>
@@ -166,14 +170,26 @@ Per il testo della domanda (solamente) si pu&ograve; specificare opzionalmente u
         = \      # Giusto! \ la barra rovesciata (backslash) non &egrave; un carattere di controllo. MA,
                    &egrave; usata per aggirare i caratteri di controllo.}</pre>
     <p>Quando la domanda &egrave; elaborata la barra rovesciata &egrave; eliminata e non &egrave; salvata in Moodle.</p>
+<h3>Definizione delle Categorie</h3>
+
+<p>Nel file GIFT è possibile cambiare la categoria nella quale le domande vanno aggiunte. La categoria può essere modificata nel file quante volte si vuole. Tutte le domande dopo l'elemento di modifica, fino al prossimo elemento, sono aggiunte alla categoria specificata. Fino al primo elemento di modifica sarà utilizzata la categoria specificata nel pannello di importazione. Da osservare che perché tutto questo funzioni, deve essere marcato il box <b>da file:</b> sul pannello di importazione.</p>
+
+<p>Per inserire un elemento di modifica della categoria includere una riga come questa (con una riga vuota prima e una dopo):
+
+<pre>
+$CATEGORY: tom/dick/harry
+</pre>
+
+o semplicemente
+
+<pre>
+$CATEGORY: miacategoria
+</pre>
+
+...il primo esempio specifica un path di categorie nidificate. In questo caso le domande andranno in <i>harry</i>. Le categorie, se già non esistono, saranno create.</p>
+
 <p><u>Altre opzioni:</u><br />
-    Le domande a risposta breve possono essere rese sensibili alla presenza delle maiuscole cambiando &quot;0&quot; in &quot;1&quot; nella seguente riga:<br />
-    <tt>$question-&gt;usecase = 0;  // Ignora le maiuscole</tt></p>
-    <p>Altre opzioni sono disponibili attraverso l'editing del filtro di importazione <b>gift/format.php</b>. </p>
+Le domande a risposta breve possono essere rese sensibili alla presenza delle maiuscole cambiando "0" in "1" nella seguente riga:
+<br />
+    <tt>$question->usecase = 0; // Ignora le maiuscole</tt></p>
 <p></p>
-<h3>RINGRAZIAMENTI</h3>
-    <p>Questo programma filtro &egrave; stato scritto attraverso la collaborazione di numerosi membri della comunit&agrave; Moodle.
-	Si &egrave; basato in origine sul formato a &quot;parola mancante&quot;, che comprendeva codice scritto da Martin Dougiamas e Thomas Robb.
-	Paul Tsuchido Shew ha scritto questo filtro a Dicembre 2003 incorporando i suggerimenti della comunit&agrave; per realizzare un formato di domande sempre pi&ugrave; robusto. 
-    Il nome &egrave; l'acronimo di &quot;General Import Format Technology&quot; o qualcosa del genere, ma &egrave; troppo lungo per un semplice filtro come questo, cos&igrave; usiamo solo GIFT.</p>
-    <p><font size="-1">Il filtro GIFT e la documentazione di Paul Tsuchido Shew http://ac.shew.jp. Ultimo aggiornamneto 27 Feb 2004.</font></p>

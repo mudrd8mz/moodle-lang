@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 beta 2 (2006101004)
+      // admin.php - created with Moodle 1.7+ (2006101009)
 
 
+$string['accessdenied'] = 'Accesso vietato';
 $string['accounts'] = 'Profili';
 $string['adminseesall'] = 'Gli amministratori visualizzano tutto';
 $string['adminseesallevents'] = 'Gli Amministratori  visualizzano tutti gli eventi';
@@ -42,7 +43,7 @@ $string['componentinstalled'] = 'Componente installato';
 $string['confeditorhidebuttons'] = 'Seleziona i pulsanti che non vanno mostrati nell\'editor HTML';
 $string['configallowassign'] = 'Permetti ai ruoli sulla sinistra di assegnare i ruoli in ogni colonna';
 $string['configallowcoursethemes'] = 'Se abilitato, sarà  possibile impostare un tema personalizzato in ogni corso. Il tema del corso sovrascriverà  ogni altra scelta (sito, utenti, sessioni di sistema).';
-$string['configallowemailaddresses'] = 'Se si desidera restringere tutti i nuovi indirizzi e-mail ad un particolare dominio, farne un\'elenco qui, separato da spazi. Tutti gli altri dominii verranno rifiutati: <strong>Per esempio, miosito.it, unito.it</strong>';
+$string['configallowemailaddresses'] = 'Se si desidera restringere tutti i nuovi indirizzi e-mail ad un particolare dominio, farne un elenco qui, separato da spazi. Tutti gli altri dominii verranno rifiutati: <strong>Per esempio, miosito.it, unito.it</strong>';
 $string['configallowobjectembed'] = 'Come misura di sicurezza standard, agli utenti normali non è permesso includere oggetti multimediali (come Flash) utilizzando esplicitamente i tag EMBED e OBJECT nei testi HTML (rimane la possibilità  per loro di utilizzare il filtro mediaplugins). Se si vuole permettere l\'utilizzo di questi tag allora abilitare questa opzione.';
 $string['configallowoverride'] = 'Permetti ai ruoli sulla sinistra di sostituire i ruoli in ogni colonna';
 $string['configallowunenroll'] = 'Se impostato su \"Si\", gli studenti saranno autorizzati a revocarsi autonomamente da un corso in qualunque momento. In caso contrario non verranno autorizzati a farlo, demandando a docenti e amministratori questa possibilità .';
@@ -50,15 +51,15 @@ $string['configallowuserblockhiding'] = 'Si desidera permettere agli utenti di m
 $string['configallowusermailcharset'] = 'Abilitando questa opzione, ogni utente sarà in grado di definire il proprio set di caratteri per le email.';
 $string['configallowuserthemes'] = 'Se abilitato, ogni utente potrà  ad impostare un proprio tema personale. I temi personali dell\'utente sovrascrivono i temi del sito. (ma non i temi di un corso).';
 $string['configallusersaresitestudents'] = 'Ai fini delle attività poste sulla pagina principale del sito, tutti gli utenti devono essere considerati studenti? Se si risponde \"Si\" allora ogni account utente confermato sarà  abilitato a partecipare come studente a queste attività . Se si risponde \"No\", allora solo gli utenti che sono anche studenti iscritti almeno ad un corso saranno abilitati a partecipare a queste attività  presenti nella pagina principale. Solo gli amministratori e i docenti speciali assegnati potranno comportarsi come docenti per queste attività  della pagina principale.';
-$string['configautologinguests'] = 'Abilitare automaticamente i vistatori occasionali a visitare i corsi (aperti agli ospiti) con accesso Ospite?';
+$string['configautologinguests'] = 'Abilitare automaticamente i visitatori occasionali a visitare i corsi (aperti agli ospiti) con accesso Ospite?';
 $string['configbloglevel'] = 'Questa impostazione permette di restringere il livello al quale i blog degli utenti possono essere visualizzati in questo sito. Notare che loro specificano il contesto massimo del VISITATORE non colui che scrive il messaggio o il tipo di messaggio del blog. I blog possono essere disabilitati completamente se non li volete completamente.';
-$string['configcachetext'] = 'Per siti molto ampi o siti che utilizzano filtri di testo, queste impostazioni possono davvero velocizzare molto la navigazione. Le copie dei testi saranno mantenute nella loro forma originaria per il tempo specificato qui. Impostazioni con valori di spazio molto ridotto potrebbero provocare un rallentamento generale, mentre Impostazioni con valori di spazio troppo ampii potrebbe portare a tempi troppo lunghi nel refresh dei testi principali (in caso di nuovi collegamenti, per esempio)';
+$string['configcachetext'] = 'Per siti molto ampi o siti che utilizzano filtri di testo, queste impostazioni possono davvero velocizzare molto la navigazione. Le copie dei testi saranno mantenute nella loro forma originaria per il tempo specificato qui. Impostazioni con valori di spazio molto ridotto potrebbero provocare un rallentamento generale, mentre Impostazioni con valori di spazio troppo ampi potrebbe portare a tempi troppo lunghi nel refresh dei testi principali (in caso di nuovi collegamenti, per esempio)';
 $string['configclamactlikevirus'] = 'Tratta i files come virus';
 $string['configclamdonothing'] = 'Tratta i files come OK';
 $string['configclamfailureonupload'] = 'Se avete configurato Clam antivirus per esaminare i files trasferiti, ma la configurazione non è corretta o non riesce a funzionare per un certo motivo sconosciuto, come dovrebbe comportarsi?  Se scegliete \'Tratta i files come virus\', i files saranno spostati nell\'area di quarantena o cancellati. Se scegliete \'Tratta i files come OK\', i files verranno trasferiti nella directory di destinazione e trattati come normali.
 In ogni caso, gli Amministratori verranno avvisati se Clam antivirus dovesse fallire.
 
-Se scegliete \'Tratta i files come virus\' e per qualche motivo Clam antivirus dovesse fallire (solitamente perchè lo avete inserito in un pathtoclam non valido), TUTTI i files trasferiti saranno spostati nell\'area di quarantena o cancellati. Si consiglia di impostare questa variabile con molta attenzione!';
+Se scegliete \'Tratta i files come virus\' e per qualche motivo Clam antivirus dovesse fallire (solitamente perché lo avete inserito in un pathtoclam non valido), TUTTI i files trasferiti saranno spostati nell\'area di quarantena o cancellati. Si consiglia di impostare questa variabile con molta attenzione!';
 $string['configcountry'] = 'Se scegliete uno Stato qui, questo verrà  proposto di default. Per obbligare un utente a scegliere il proprio stato, lasciatelo in bianco.';
 $string['configcoursesperpage'] = 'Numero di corsi da mostrare per pagina in un elenco dei corsi';
 $string['configdbsessions'] = 'Se attivata, questa opzione utilizzerà  il database per memorizzare le informazioni sulle sessioni correnti. Ciò è particolarmente utile per siti molto grandi o con molto traffico o per siti costruiti su cluster di servers. Per la maggior parte dei siti questa impostazione dovrebbe probabilmente essere lasciata su disabled in modo da utilizzare il disco del server. Attenzione: cambiare questa impostazione provocherà  il log-out dal sito di tutti gli utenti collegati, voi compresi.';
@@ -80,8 +81,8 @@ $string['configenablecourserequests'] = 'Questa impostazione permette a qualunqu
 $string['configenableglobalsearch'] = 'Questa impostazione abilita la ricerca globale di testo nelle risorse e nelle attività. Non è compatibile con PHP 4.';
 $string['configenablerecordcache'] = 'Se si abilita questa impostazione, sarà effettuato del caching in memoria durante la ricerca di informazioni da un database. Questo significa che la velocità di funzionamento del database sarà maggiore, ma nello stesso tempo, i requisiti di memoria del web server aumenteranno leggermente. Generalmente si consiglia di abilitare questa impostazione salvo nel caso in cui il server abbia poca memoria. Alcuni processi possono decidere di non tener conto di questa impostazione quando il programmatore è sicuro di un miglioramento delle prestazioni.';
 $string['configenablerssfeeds'] = 'Questa impostazione attiva l\'alimentatore RSS (RSS Feeds) nel sito. Per visualizzare i cambiamenti bisognerà  attivare l\'alimentatore RSS anche nei moduli individuali: per farlo, andate in \'configurazione moduli\' nel pannello di Amministrazione.';
-$string['configenablerssfeedsdisabled'] = 'Non è attiva poichè l\'alimentatore RSS è disabilitato in tutto il sito. Per attivarlo, andate in \'configura variabili\' nel pannello di Amministrazione.';
-$string['configenablestats'] = 'Se qui viene scelto \'Si\'. All\'esecuzione del cron Moodle elaborerà  i log e genererà  alcune statistiche. La durata di questa operazione dipende dal traffico del vostro sito. Se viene abititata questa impostazione sarete in grado di visualizzare alcuni grafici interessanti su ogni corso, o su tutto il sito.';
+$string['configenablerssfeedsdisabled'] = 'Non è attiva poiché l\'alimentatore RSS è disabilitato in tutto il sito. Per attivarlo, andate in \'configura variabili\' nel pannello di Amministrazione.';
+$string['configenablestats'] = 'Se qui viene scelto \'Si\'. All\'esecuzione del cron Moodle elaborerà  i log e genererà  alcune statistiche. La durata di questa operazione dipende dal traffico del vostro sito. Se viene abilitata questa impostazione sarete in grado di visualizzare alcuni grafici interessanti su ogni corso, o su tutto il sito.';
 $string['configenabletrusttext'] = 'Per default Moodle pulisce sempre attentamente testi che provengono dagli utenti e rimuove ogni possibile script malevolo, e altro che potrebbe mettere a rischio la sicurezza. Il sistema di Contenuto Affidabile è un modo per dare a utenti particolari, degni di fiducia, la possibilità di includere qualche possibilità avanzata nei loro contenuti senza alcuna interferenza. Per attivare tale sistema, bisogna prima abilitare questa impostazione, e poi attribuire il permesso di Contenuto Affidabile a un ruolo specifico di Moodle. I testi creati o caricati da tali utenti saranno marcati come \"affidabili\" e non saranno alterati prima della visualizzazione.';
 $string['configenrolmentplugins'] = 'Si prega di selezionare il plugin di iscrizione che si vuole utilizzare. Non dimenticatevi di configurare l\'impostazione correttamente.<br /><br />Bisogna indicare quali plugin sono abilitati e qual\'è <strong>quello</strong> preimpostato come standard per l\'iscrizione <em>interattiva</em>. Per disabilitare l\'iscrizione interattiva, impostare \"Iscrivibile\" a \"No\" nei corsi richiesti.';
 $string['configerrorlevel'] = 'Scegliete il numero di messaggi di errore di PHP che si desidera visualizzare. \'Normale\' è solitamente l\'opzione migliore.';
@@ -101,7 +102,7 @@ $string['configfrontpageloggedin'] = 'Gli item selezionati saranno mostrati sull
 $string['configfullnamedisplay'] = 'Definisce la modalità  di piena visualizzazione dei nomi. Per la maggior parte dei siti \'mono-linguistici\' la scelta più efficiente è quella predefinita \'nome+cognome\', ma si potrebbe per esempio voler nascondere i cognomi, oppure lasciar decidere alle impostazioni del pacchetto linguistico in uso. (alcune lingue hanno convenzioni differenti).';
 $string['configgdversion'] = 'Indica quale versione della libreria grafica GD (GD library) è installata. La versione mostrata è quella che è stata riconosciuta automaticamente dal sistema. Non modificare questo valore fino a quando non sapete davvero cosa state facendo!';
 $string['configgradebookroles'] = 'Questa impostazione permette di controllare i ruoli che saranno presenti nel Registro Valutazioni. Un utente deve possedere uno almeno di questi ruoli per comparire nel registro di un corso.';
-$string['confighiddenuserfields'] = 'Selezionare quali campi con le informazioni degli utenti si vogliono nascondere agli altri utenti che non sono docenti/amministratori. Questo aumenterà la privacy degli studenti. Tenere premunto il tasto CTRL per selezioni multiple di campi.';
+$string['confighiddenuserfields'] = 'Selezionare quali campi con le informazioni degli utenti si vogliono nascondere agli altri utenti che non sono docenti/amministratori. Questo aumenterà la privacy degli studenti. Tenere premuto il tasto CTRL per selezioni multiple di campi.';
 $string['confightmleditor'] = 'Scegliete se permettere o meno l\'utilizzo dell\'editor HTML integrato. Anche se si sceglie di permetterlo, l\'utente lo visualizzerà  solo se utilizza un web browser compatibile con esso. L\'utente può in ogni caso decidere di non utilizzarlo.';
 $string['configidnumber'] = 'Questa opzione specifica se:
 a) all\'utente non viene richiesto un numero ID in assoluto.
@@ -172,13 +173,13 @@ $string['configsecureforms'] = 'Moodle può utilizzare un livello aggiuntivo di 
 $string['configsessioncookie'] = 'Questa impostazione personalizza il nome del cookie usato per le sessioni di Moodle. Questa impostazione è opzionale ed è utile solo se più di una copia di Moodle viene eseguita sullo stesso sito web.';
 $string['configsessioncookiepath'] = 'Se è necessario modificare dove i browser inviano i cookie di Moodle, si può modificare questa impostazione specificando la sottodirectory del vostro server web. Altrimenti lo standard \'/\' può andare bene.';
 $string['configsessiontimeout'] = 'Se le persone loggate in questo sito sono inattive da molto tempo (senza caricare pagine) viene automaticamente terminata la loro sessione. Questa variabile specifica la durata della sessione.';
-$string['configshowblocksonmodpages'] = 'Alcuni moduli supportano l\'inserimento di blocchi sulle loro pagine. Se l\'opzione viene attivata darete la possibiltà  ai docenti di attivare i blocchi; in caso contrario, l\'opzione non verrà  visualizzata.';
+$string['configshowblocksonmodpages'] = 'Alcuni moduli supportano l\'inserimento di blocchi sulle loro pagine. Se l\'opzione viene attivata darete la possibilità  ai docenti di attivare i blocchi; in caso contrario, l\'opzione non verrà  visualizzata.';
 $string['configshowsiteparticipantslist'] = 'Tutti gli studenti di questo sito e i docenti del sito saranno mostrati nella lista dei partecipanti. Chi è abilitato a visualizzare la lista dei partecipanti di questo sito?';
 $string['configsitemailcharset'] = 'Tutte le email generate dal vostro sito saranno inviate utilizzando il set di caratteri impostato qui. Comunque ogni utente può personalizzarlo se è abilitata la prossima impostazione.';
-$string['configsitepolicy'] = 'Se si dispone di una politica del sito (modalità  di utilizzo) che tutti gli utenti devono leggere e sottoscrivere prima di utilizzare il sito, specificarne qui l\'indirizzo (URL), altrimenti lasciare in bianco. L\'URL può puntare ad un\'indirizzo qualsiasi, ma si consiglia di riferirlo ad un file presente sul sito. Per esempio, http://tuosito/file.php/1/policy.html';
+$string['configsitepolicy'] = 'Se si dispone di una politica del sito (modalità  di utilizzo) che tutti gli utenti devono leggere e sottoscrivere prima di utilizzare il sito, specificarne qui l\'indirizzo (URL), altrimenti lasciare in bianco. L\'URL può puntare ad un indirizzo qualsiasi, ma si consiglia di riferirlo ad un file presente sul sito. Per esempio, http://tuosito/file.php/1/policy.html';
 $string['configslasharguments'] = 'I files (immagini, uploads ecc) vengono distribuiti mediante uno script che utilizza gli \'slash arguments\' (la seconda opzione a fianco). 
 Questo metodo permette una migliore gestione dei files nella cache del browser o del proxy server.
-Sfortunantamente alcuni server PHP non autorizzano questo metodo, perciò se avete problemi nel visualizzare files e/o immagini trasferiti (ad esempio le immagini del profilo utente), impostate la variabile con la prima opzione.';
+Sfortunatamente alcuni server PHP non autorizzano questo metodo, perciò se avete problemi nel visualizzare files e/o immagini trasferiti (ad esempio le immagini del profilo utente), impostate la variabile con la prima opzione.';
 $string['configsmtphosts'] = 'Impostare il nome intero di uno o più servers locali SMTP che Moodle dovrebbe usare (per esempio \'mail.a.com\' oppure \'mail.a.com;mail.b.com\'). Se lasciato in bianco, Moodle utilizzerà  il metodo di spedizione della posta predefinito in PHP.';
 $string['configsmtpuser'] = 'Se avete specificato un server SMTP che richiede l\'autenticazione, indicate qui l\'username e la password relativi.';
 $string['configstartwday'] = 'Inizio settimana';
@@ -187,9 +188,9 @@ $string['configstatsmaxruntime'] = 'L\'elaborazione delle statistiche può esser
 $string['configstatsruntimestart'] = 'A che ora il cron deve far <b>iniziare</b> l\'elaborazione delle statistiche?';
 $string['configstatsuserthreshold'] = 'Se inserite un valore, numerico, diverso da zero qui, per la classifica dei corsi, i corsi con meno di questo numero di utenti iscritti (studenti+docenti) saranno ignorati';
 $string['configteacherassignteachers'] = 'Possono i docenti assegnare altri docenti ai corsi in cui insegnano? Se \'No\', gli unici che possono assegnare docenti sono i creatori di corsi e gli amministratori.';
-$string['configthemelist'] = 'Lasciate in bianco se volete permettere l\'utilizzo di un qualunque tema valido. Se desiderate invece abbreviare il menu dei temi, specificate un\'elenco di temi disponibili, separato da virgole. Per esempio: standard,orangewhite.';
+$string['configthemelist'] = 'Lasciate in bianco se volete permettere l\'utilizzo di un qualunque tema valido. Se desiderate invece abbreviare il menu dei temi, specificate un elenco di temi disponibili, separato da virgole. Per esempio: standard, orangewhite.';
 $string['configtimezone'] = 'Qui potete impostare il fuso orario standard. Questo è l\'unico fuso orario standard per la visualizzazione delle date - ogni utente può scegliere la propria impostazione nel suo profilo. Impostando \"Server time\", si farà  coincidere l\'ora con quella impostata nel sistema operativo del server, mentre impostandolo nel profilo utente corrisponderà  a impostarlo a questo valore.';
-$string['configunzip'] = 'Indica il percorso del programma Unzip di decompressione dati (Solo per Unix). Se specificato, questo programma si occuperà  di spacchettare i files compressi lato server. Se lasciato in bianco, Moodle utilizzerà  le proprie routine interne.';
+$string['configunzip'] = 'Indica il percorso del programma Unzip di decompressione dati (Solo per Unix). Se specificato, questo programma si occuperà  di spacchettare i files compressi lato server. Se lasciato in bianco, Moodle utilizzerà le proprie routine interne.';
 $string['configvariables'] = 'Variabili';
 $string['configwarning'] = 'Fate attenzione a modificare queste impostazioni, valori anomali potrebbero causare problemi.';
 $string['configzip'] = 'Indica il percorso del programma Zip di compressione dati (Solo per Unix).
@@ -207,7 +208,7 @@ $string['datarootsecuritywarning'] = 'La configurazione del tuo sito potrebbe no
 $string['dbmigrate'] = 'Migrazione base di dati Moodle';
 $string['dbmigrateconnecerror'] = 'Non è possibile connettersi alla base dati specificata.';
 $string['dbmigrateencodingerror'] = 'La base dati specificata è codificata come $a e non come richiesto (UNICODE/UTF8).<br /> Si prega di indicarne un\'altra.';
-$string['dbmigratepostgres'] = 'Sembra che si stia utilizzando PostgreSQL come server della base dati. Per proseguire il processo di migrazione è necessario creare manualmente una nuova base daticon codifica \"UNICODE\" (PostgreSQL 7) o \"UTF8\" (PostgreSQL 8) per salvare i dati migrati. Si prega di inserire qui sotto le impostazioni della nuova base dati per continuare:';
+$string['dbmigratepostgres'] = 'Sembra che si stia utilizzando PostgreSQL come server della base dati. Per proseguire il processo di migrazione è necessario creare manualmente una nuova base dati con codifica \"UNICODE\" (PostgreSQL 7) o \"UTF8\" (PostgreSQL 8) per salvare i dati migrati. Si prega di inserire qui sotto le impostazioni della nuova base dati per continuare:';
 $string['dbmigratewarning'] = 'Accertarsi di aver effettuato una copia di sicurezza della vostra base di dati di Moodle prima di iniziare questa procedura. Se non siete sicuri di come fare, contattate il vostro amministratore di sistema. Il vostro sito di Moodle verrà messo in modalità di mantenimento dopo l\'inizio del processo di migrazione.';
 $string['dbmigratewarning2'] = '<b>Attenzione: State per iniziare il processo di migrazione della base di dati. Siate certi che sulla vostra base di dati di Moodle sia stata effettuata una copia di sicurezza completa.</b>';
 $string['dbmigrationdeprecateddb'] = '<strong>Questa base dati è stata migrata in una nuova base dati UTF8 e è deprecata. Si prega di modificare il file config.php e utilizzare la nuova base dati per questo moodle.</strong>';
@@ -280,7 +281,7 @@ $string['gradebook'] = 'Registro Valutazioni';
 $string['gradebookroles'] = 'Ruoli nel registro';
 $string['helpadminseesall'] = 'Gli amministratori visualizzano tutti gli eventi calendario o solo quelli a loro stessi collegati?';
 $string['helpcalendarsettings'] = 'Configura vari aspetti in Moodle relativi al calendario, alle date, alle durate.';
-$string['helpforcetimezone'] = 'Potete autorizzare gli utenti a selezionare individualmente il fuso orario, oppure impoore un fuso orario a tutti gli utenti.';
+$string['helpforcetimezone'] = 'Potete autorizzare gli utenti a selezionare individualmente il fuso orario, oppure imporre un fuso orario a tutti gli utenti.';
 $string['helpsitemaintenance'] = 'Per aggiornamenti e altro lavoro.';
 $string['helpstartofweek'] = 'Da quale giorno inizia la settimana nel calendario?';
 $string['helpupcominglookahead'] = 'Valore predefinito della frequenza con cui il calendario cerca eventi imminenti. (valore espresso in giorni futuri).';
@@ -291,7 +292,7 @@ $string['htmleditor'] = 'Editor HTML';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'Sicurezza HTTP';
 $string['iconvrecommended'] = 'Installare la libreria opzionale ICONV è caldamente consigliato per migliorare le prestazioni del sito, in particolare se il vostro sito supporta lingue non latine.';
-$string['importlangreminder'] = 'Il processo di migrazioen della base di dati sta per iniziare. Sarà necessario effettuare <b>nuovamente il login</b> perché l\'aggiornamento faccia effetto. Siete pregati di installare i language pack unicode il più presto possibile attraverso Amministrazione->Lingua->Utilità di Importazione Lingue <b>dopo</b> che il processo sia completato.';
+$string['importlangreminder'] = 'Il processo di migrazione della base di dati sta per iniziare. Sarà necessario effettuare <b>nuovamente il login</b> perché l\'aggiornamento faccia effetto. Siete pregati di installare i language pack unicode il più presto possibile attraverso Amministrazione->Lingua->Utilità di Importazione Lingue <b>dopo</b> che il processo sia completato.';
 $string['importtimezones'] = 'Aggiorna la lista completa dei fusi orari';
 $string['importtimezonescount'] = '$a->conta entries importate da $a->source';
 $string['importtimezonesfailed'] = 'Non è stata trovata sorgente! (brutte notizie)';
@@ -303,7 +304,7 @@ $string['invalidsection'] = 'Sezione non valida';
 $string['invaliduserchangeme'] = 'Il nome utente \"changeme\" è riservato - non è possibile creare utenti con quel nome utente.';
 $string['iplookup'] = 'Ricerca indirizzo IP';
 $string['lang'] = 'Lingua di default';
-$string['lang16notify'] = 'Moodle 1.6 e successivi permette di installare e aggiornare i language pack direttamente da download.moodle.org seguendo il collegamento qui sotto.';
+$string['lang16notify'] = 'Moodle 1.6 e le versioni successive permettono di installare e aggiornare i language pack direttamente da download.moodle.org seguendo il collegamento qui sotto.';
 $string['langcache'] = 'Cache del menu delle lingue';
 $string['langedit'] = 'Modifica lingua';
 $string['langimport'] = 'Utility di importazione lingua';
@@ -449,7 +450,9 @@ $string['timezoneforced'] = 'Questa viene resa obbligatoria dall\'amministratore
 $string['timezoneisforcedto'] = 'Obbligare tutti gli utenti all\'utilizzo';
 $string['timezonenotforced'] = 'Gli utentii possono scegliere il loro fuso orario';
 $string['unbookmarkthispage'] = 'Togli questa pagina dai segnalibri';
-$string['unicodeupgradenotice'] = 'In Moodle 1.6 tutte le lingue sono state convertite in Unicode. Per completarel\'aggiornamento di questo sito, è necessario convertire tutti i dati nella base di dati in Unicode utilizzando lo script di conversione. <a href=\"utfdbmigrate.php\">Cliccare qui per eseguire lo script di conversione ora</a>!';
+$string['unicoderecommended'] = 'E\' raccomandato che tutti i dati vengano memorizzati in formato Unicode (UTF-8). Le nuove installazioni dovrebbero essere effettuate in database che hanno il proprio set di caratteri default impostato come Unicode. Se si sta facendo un aggiornamento, bisogna eseguire il processo di migrazione UTF-8 (vedi pagina di Amministrazione).';
+$string['unicoderequired'] = 'E\' richiesto che tutti i dati vengano memorizzati in formato Unicode (UTF-8). Le nuove installazioni dovrebbero essere effettuate in database che hanno il proprio set di caratteri default impostato come Unicode. Se si sta facendo un aggiornamento, bisogna eseguire il processo di migrazione UTF-8 (vedi pagina di Amministrazione).';
+$string['unicodeupgradenotice'] = 'In Moodle 1.6 tutte le lingue sono state convertite in Unicode. Per completare l\'aggiornamento di questo sito, è necessario convertire tutti i dati nella base di dati in Unicode utilizzando lo script di conversione. <a href=\"utfdbmigrate.php\">Cliccare qui per eseguire lo script di conversione ora</a>!';
 $string['uninstall'] = 'Disinstalla il language pack selezionato';
 $string['uninstallconfirm'] = 'Si sta per disinstallare completamente il Language Pack $a, siete sicuri?';
 $string['unsupported'] = 'Non supportato';

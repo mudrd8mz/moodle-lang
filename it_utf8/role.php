@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 beta (2006101000)
+      // role.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['addrole'] = 'Aggiungi un nuovo ruolo';
@@ -48,7 +48,7 @@ $string['currentcontext'] = 'Contesto corrente';
 $string['currentrole'] = 'Ruolo corrente';
 $string['defaultrole'] = 'Ruolo default';
 $string['defineroles'] = 'Definisci ruoli';
-$string['deleterolesure'] = '<p> Sei sicuro di voler cancellare \"$a->name ($a->shortname)\"?</p><p>Attualmente questo ruolo è asseganto a $a->count utenti.</p>';
+$string['deleterolesure'] = '<p> Sei sicuro di voler cancellare \"$a->name ($a->shortname)\"?</p><p>Attualmente questo ruolo è assegnato a $a->count utenti.</p>';
 $string['editrole'] = 'Modifica ruolo';
 $string['errorbadrolename'] = 'Nome ruolo non corretto';
 $string['errorbadroleshortname'] = 'Nome ruolo non corretto';
@@ -60,11 +60,11 @@ $string['legacy:admin'] = 'RUOLO ORIGINARIO: Amministratore';
 $string['legacy:coursecreator'] = 'RUOLO ORIGINARIO: Creatore corsi';
 $string['legacy:editingteacher'] = 'RUOLO ORIGINARIO: Docente (editor)';
 $string['legacy:guest'] = 'RUOLO ORIGINARIO: Ospite';
-$string['legacy:student'] = 'RUOLO ORIGINARIO: studente';
+$string['legacy:student'] = 'RUOLO ORIGINARIO: Studente';
 $string['legacy:teacher'] = 'RUOLO ORIGINARIO: Docente (non editor)';
 $string['listallroles'] = 'Elenco di tutti i ruoli';
 $string['manageroles'] = 'Gestisci i ruoli';
-$string['metaassignerror'] = 'Non puoi asssegnare questo ruolo all\'utente \"$a\" perché è necessaria la possibilità di gestione dei metacorsi.';
+$string['metaassignerror'] = 'Non puoi assegnare questo ruolo all\'utente \"$a\" perché è necessaria la possibilità di gestione dei metacorsi.';
 $string['metaunassignerror'] = 'Il ruolo dell\'utente \"$a\" è stato riassegnato automaticamente. Se necessario disassegnare questo ruolo dai corsi dipendenti.';
 $string['nocapabilitiesincontext'] = 'Nessuna possibilità disponibile in questo contesto';
 $string['overrideroles'] = 'Sovrapponi ruoli';
@@ -120,4 +120,3 @@ $string['viewrole'] = 'Visualizza dettagli di ruolo';
 $string['xuserswiththerole'] = 'Utenti con il ruolo \"$a->role\": $a->number';
 
 ?>
-

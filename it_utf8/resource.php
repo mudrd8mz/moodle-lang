@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 beta + (2006101003)
+      // resource.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['addresource'] = 'Aggiungi una risorsa';
@@ -107,13 +107,13 @@ $string['resourcetype6'] = 'Testo HTML';
 $string['resourcetype7'] = 'Programma eseguibile';
 $string['resourcetype8'] = 'Testo simile a Wiki';
 $string['resourcetype9'] = 'Cartella';
-$string['resourcetypedirectory'] = 'Visualizza il contenuto di una cartella';
-$string['resourcetypefile'] = 'Collega un file o un sito';
-$string['resourcetypehtml'] = 'Componi una pagina web';
-$string['resourcetypeims'] = 'Inserisci un Pacchetto IMS';
-$string['resourcetypelabel'] = 'Inserisci un\'etichetta';
+$string['resourcetypedirectory'] = 'Cartella';
+$string['resourcetypefile'] = 'Link a file o sito web';
+$string['resourcetypehtml'] = 'Pagina web';
+$string['resourcetypeims'] = 'Pacchetto IMS';
+$string['resourcetypelabel'] = 'Etichetta';
 $string['resourcetyperepository'] = 'Collegamento ad un archivio di oggetti';
-$string['resourcetypetext'] = 'Componi una pagina di testo';
+$string['resourcetypetext'] = 'Pagina di testo';
 $string['searchweb'] = 'Cerca una pagina web';
 $string['serverurl'] = 'Indirizzo del server (<strong>$a->wwwroot</strong>)';
 $string['showcourseblocks'] = 'visualizza i blocchi laterali presenti nella home page del corso';
@@ -124,5 +124,6 @@ $string['variablename'] = 'Nome della variabile';
 $string['viewims'] = 'Visualizza pacchetto IMS';
 $string['vol'] = 'Volume';
 $string['warningblockingdelete'] = 'Attenzione: l\'eliminazione è stata bloccata poichè esistono risorse che usano questi file. E\' necessario eliminare da queste risorse i riferimenti a file che volete eliminare oppure chiedere al Amministratore di disattivare il meccanismo di controllo nella configurazioen del sistema.';
+$string['warningdisabledrename'] = 'Attenzione: Il rename automatico dei riferimenti alle risorse è disabilitato. Se necessario, aggiornare manualmente le risorse interessate. L\'Amministratore può anche abilitare il rename automatico nella configurazione globale delle Risorse.';
 
 ?>

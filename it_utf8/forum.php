@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 dev (2006102600)
+      // forum.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
@@ -122,7 +122,7 @@ $string['modenested'] = 'Mostra le repliche in formato nidificato';
 $string['modethreaded'] = 'Mostra le repliche in formato per oggetto';
 $string['modulename'] = 'Forum';
 $string['modulenameplural'] = 'Forum';
-$string['more'] = 'altri';
+$string['more'] = 'altro';
 $string['movedmarker'] = 'Spostato';
 $string['movethisdiscussionto'] = 'Sposta la discussione in...';
 $string['namenews'] = 'Forum News';
@@ -135,6 +135,8 @@ $string['noguestsubscribe'] = 'Spiacenti, agli ospiti non è concesso iscriversi
 $string['noguesttracking'] = 'Spiacenti, agli ospiti non è concesso impostare opzioni di tracciamento.';
 $string['nomorepostscontaining'] = 'Non sono stati trovati altri messaggi contenenti \'$a\'';
 $string['nonews'] = 'Nessuna News è stata ancora spedita';
+$string['nopostdiscussion'] = 'Spiacente, non puoi scrivere in questa discussione';
+$string['nopostforum'] = 'Spiacente, non puoi scrivere in questo forum';
 $string['noposts'] = 'Nessun messaggio';
 $string['nopostscontaining'] = 'Nessun messaggio contenente \'$a\' è stato trovato';
 $string['noquestions'] = 'Non ci sono ancora domande in questo forum';
@@ -201,14 +203,14 @@ $string['resetsubscriptions'] = 'Cancella le iscrizioni al forum';
 $string['rsssubscriberssdiscussions'] = 'Mostra l\'RSS per \'$a\' discussioni';
 $string['rsssubscriberssposts'] = 'Mostra l\'RSS per \'$a\' messaggi';
 $string['search'] = 'Cerca';
-$string['searchdatefrom'] = 'Messaggi devono essere più nuovi di questo';
-$string['searchdateto'] = 'Messaggi devono essere più vecchi di questo';
+$string['searchdatefrom'] = 'i messaggi devono essere più recenti di';
+$string['searchdateto'] = 'i messaggi devono essere più vecchi di';
 $string['searchforumintro'] = 'Si prega di inserire i termini di ricerca in uno o più dei seguenti campi:';
 $string['searchforums'] = 'Cerca nei forum';
-$string['searchfullwords'] = 'Queste parole dovrebbero apparire come parole intere';
-$string['searchnotwords'] = 'Queste parole NON DOVREBBERO essere incluse';
+$string['searchfullwords'] = 'Queste parole devono apparire come parole intere';
+$string['searchnotwords'] = 'Queste parole non devono essere incluse';
 $string['searcholderposts'] = 'Cerca vecchi messaggi...';
-$string['searchphrase'] = 'Questa frase esatta deve apparire nel messaggio';
+$string['searchphrase'] = 'Nel messaggio deve apparire esattamente questa frase';
 $string['searchresults'] = 'Risultati delle ricerche';
 $string['searchsubject'] = 'Queste parole devono apparire nel soggetto';
 $string['searchuser'] = 'Questo nome deve corrispondere all\'autore';

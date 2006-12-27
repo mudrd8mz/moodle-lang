@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7 beta (2006101000)
+      // quiz.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['1day'] = '1 giorno';
@@ -204,8 +204,9 @@ $string['finishattempt'] = 'Invia tutto e termina';
 $string['forceregeneration'] = 'Forza rigenerazione';
 $string['formatnotfound'] = 'Formato di importazione/esportazione $a non trovato';
 $string['formatnotimplemented'] = 'Questo formato non è stato correttamente implementato, si prega di inviare una segnalazione di bug';
-$string['fractionsaddwrong'] = 'I voti positivi che hai scelto non assommano al 100%% ma solo al $a%%.<br />Vuoi tornare indietro e correggere?';
+$string['fractionsaddwrong'] = 'I voti positivi che hai scelto non assommano al 100%% ma al $a%%.<br />Vuoi tornare indietro e correggere?';
 $string['fractionsnomax'] = 'Una delle risposte deve essere 100%%, perchè sia<br />possibile una votazione piena per questa domanda.<br />Vuoi tornare indietro e correggere?';
+$string['fromfile'] = 'da file';
 $string['functiontakesatleasttwo'] = 'La funzione $a deve avere come minimo due argomenti';
 $string['functiontakesnoargs'] = 'La funzione $a non ha argomenti';
 $string['functiontakesonearg'] = 'La funzione $a deve avere un solo argomento';
@@ -233,13 +234,14 @@ $string['illegalformulasyntax'] = 'Sintassi della formula che inizia con \'$a\' 
 $string['imagedisplay'] = 'Immagine da mostrare';
 $string['imagemissing'] = 'Immagine non disponibile alla linea $a. Il nome del file sarà ignorato';
 $string['import'] = 'Importa';
+$string['importcategory'] = 'importa categoria';
 $string['importerror'] = 'Errore durante il processo di importazione';
-$string['importfilearea'] = 'Importazione da file già in corso...';
-$string['importfileupload'] = 'Caricamento dell\'importazione da file...';
+$string['importfilearea'] = 'Importazione da file già nei files del corso...';
+$string['importfileupload'] = 'Caricamento del file da importare';
 $string['importfromthisfile'] = 'Importazione da questo file';
 $string['importingquestions'] = 'Importazione di $a domande da file';
 $string['importmax10error'] = 'C\'è un errore nella domanda. Non puoi avere più di dieci risposte';
-$string['importmaxerror'] = 'Cè un errore nella domanda. Ci sono troppe risposte.';
+$string['importmaxerror'] = 'C\'è un errore nella domanda. Ci sono troppe risposte.';
 $string['importminerror'] = 'C\'è un errore nella domanda. Non ci sono abbastanza risposte per questo tipo di domanda';
 $string['importquestions'] = 'Importa domande da file';
 $string['incorrect'] = 'Sbagliato';
@@ -365,7 +367,7 @@ $string['qti2'] = 'Formato IMS QTI 2.0';
 $string['question'] = 'Domanda';
 $string['questioncats'] = 'Categorie di domande';
 $string['questiondeleted'] = 'La domanda è stata cancellata. Contattare il docente';
-$string['questioninuse'] = 'La domanda \'$a->questionname\' è attualmente usata in: <br />$a->quiznames<br />La domanda non sarà  cancellata da tali quiz ma solamante dalla categoria.';
+$string['questioninuse'] = 'La domanda \'$a->questionname\' è attualmente usata in: <br />$a->quiznames<br />La domanda non sarà  cancellata da tali quiz ma solamente dalla categoria.';
 $string['questionname'] = 'Nome della domanda';
 $string['questionnametoolong'] = 'Nome domanda troppo lungo alla linea $a (255 caratteri max). Sarà  troncata.';
 $string['questionno'] = 'Domanda $a';
@@ -511,6 +513,7 @@ $string['toomanyrandom'] = 'Il numero di domande casuali richieste è maggiore d
 $string['top'] = 'Top';
 $string['true'] = 'Vero';
 $string['truefalse'] = 'Vero/Falso';
+$string['truefalseimporterror'] = '<b>Attenzione</b>: La domanda Vero/Falso \'$a->questiontext\' potrebbe non essere importata correttamente. Non è chiaro se la risposta corretta è Vero o Falso. La domanda è stata importata assumendo che la risposta sia \'$a->answer\'. Se questo non è corretto, la domanda deve essere modificata.';
 $string['type'] = 'Tipo';
 $string['unfinished'] = 'aperto';
 $string['ungraded'] = 'Non valutato';
@@ -518,7 +521,7 @@ $string['uniform'] = 'decimali, da una distribuzione uniforme';
 $string['unit'] = 'Unità';
 $string['unknowntype'] = 'Tipo di domanda non supportato alla linea $a. La domanda sarà ignorata';
 $string['unsupportedformulafunction'] = 'La funzione $a non è supportata';
-$string['unusedcategorydeleted'] = 'Questa categoria è stata soppressa perchè, dopo la cancellazione del corso, le domande in essa presenti non erano più utilizzate da nessuno.';
+$string['unusedcategorydeleted'] = 'Questa categoria è stata soppressa perché, dopo la cancellazione del corso, le domande in essa presenti non erano più utilizzate da nessuno.';
 $string['updatesettings'] = 'Aggiorna impostazioni quiz';
 $string['upgradesure'] = '<div style=\"color: red;\">In particolare il modulo quiz  eseguirà  cambiamenti importanti sulle tabelle dei quiz e questo aggiornamento software non è stato ancora sufficientemente testato. Si raccomanda di fare un backup delle tabelle prima di procedere.</div>';
 $string['url'] = 'URL';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 beta + (2006101002)
+      // lesson.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['accesscontrol'] = 'Controllo accesso';
@@ -41,6 +41,7 @@ $string['checkedthisone'] = 'scelto.';
 $string['checknavigation'] = 'Controlla navigazione';
 $string['checkquestion'] = 'Controlla domanda';
 $string['classstats'] = 'Statistiche della classe';
+$string['clicktodownload'] = 'Clicca sul link che segue per scaricare il file.';
 $string['clicktopost'] = 'Clicca qui per inserire il tuo voto nella lista dei migliori.';
 $string['clusterjump'] = 'Domanda non vista di un gruppo';
 $string['clustertitle'] = 'Gruppo';
@@ -259,7 +260,7 @@ $string['startlesson'] = 'Inizio lezione';
 $string['studentattemptlesson'] = 'Tentativo numero $a->attempt di $a->lastname, $a->firstname';
 $string['studentname'] = 'Nome $a';
 $string['studentoneminwarning'] = 'Attenzione: hai un minuto o meno per terminare la lezione.';
-$string['studentoutoftime'] = 'Attenzione: hai superato il tempo previsto per questa lezione. La tua ultima risposta non conta perchè è stata data dopo lo scadere del tempo. Clicca su Continua per terminare la lezione.';
+$string['studentoutoftime'] = 'Attenzione: hai superato il tempo previsto per questa lezione. La tua ultima risposta non conta perché è stata data dopo lo scadere del tempo. Clicca su Continua per terminare la lezione.';
 $string['studentresponse'] = 'Risposta di {$a}';
 $string['submitname'] = 'Immetti il nome';
 $string['teacherjumpwarning'] = 'In questa lezione si sta utilizzando un salto a $a->cluster o un salto a $a->unseen.  Sarà invece utilizzato il salto alla Pagina seguente. Fare Login come uno studente per verificare questi salti.';

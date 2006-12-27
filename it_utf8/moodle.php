@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006102600)
+      // moodle.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['action'] = 'Azione';
@@ -25,7 +25,7 @@ $string['addedrecip'] = 'Aggiunto $a nuovo destinatario';
 $string['addedrecips'] = 'Aggiunto $a nuovi destinatari';
 $string['addedtogroup'] = 'Aggiunto al gruppo $';
 $string['addedtogroupnot'] = 'Non aggiunto al gruppo $a';
-$string['addedtogroupnotenrolled'] = 'Non aggiunto al gruppo $a, perchè non iscritto al corso';
+$string['addedtogroupnotenrolled'] = 'Non aggiunto al gruppo $a, perché non iscritto al corso';
 $string['addinganew'] = 'Creazione $a';
 $string['addinganewto'] = 'Aggiungi $a->what a $a->to';
 $string['addingdatatoexisting'] = 'Aggiungi a dati esistenti';
@@ -148,7 +148,7 @@ $string['backuploglaststatus'] = 'Ultimo log';
 $string['backuplogshelp'] = 'Se abilitato, i log del corso saranno inclusi nelle copie di sicurezza automatiche';
 $string['backupmetacoursehelp'] = 'Se abilitato, allora le informazioni del metacorso (iscrizioni ereditate) saranno incluse nei backup automatici';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
-$string['backupnoneusersinfo'] = 'Avvertimento: Hai selezionato di \"non\" effettuare la copia di sicurezza degli utenti, cosi le impostazioni tutte le copie di sicurezza dei moduli sono state cambiate nella modalità  \"senza i dati utente\". Nota che i moduli esercizio e workshop non sono compatibili con questo tipo di copia di sicurezza e sono stati disabilitatti completamente.';
+$string['backupnoneusersinfo'] = 'Avvertimento: Hai selezionato di \"non\" effettuare la copia di sicurezza degli utenti, cosi le impostazioni tutte le copie di sicurezza dei moduli sono state cambiate nella modalità  \"senza i dati utente\". Nota che i moduli esercizio e workshop non sono compatibili con questo tipo di copia di sicurezza e sono stati disabilitati completamente.';
 $string['backupnonisowarning'] = 'Attenzione: questo backup proviene da una versione di Moodle (pre 1.6) non-Unicode. Se il backup contiene qualche testo non-ISO-8859-1, questo potrebbe essere ALTERATO se ne viene fatto il ripristino sulla presente versione Unicode di Moodle. Leggere <a href=\"http://docs.moodle.org/en/Backup_FAQ\">Backup FAQ</a> per maggiori informazioni su come ripristinare correttamente questo backup.';
 $string['backuporiginalname'] = 'Nome copia di sicurezza';
 $string['backupsavetohelp'] = 'Percorso completo della directory dove vuoi salvare i file di sicurezza<br />(lascia vuoto per salvarli nella directory standard)';
@@ -207,10 +207,10 @@ $string['clamdeletedfilefailed'] = 'Il file non può essere cancellato';
 $string['clamemailsubject'] = '$a :: Notifica Clam AV';
 $string['clamfailed'] = 'Clam AV ha avuto problemi durante l\'esecuzione. Il messaggio d\'errore era: $a. Qui trovate l\'output di Clam:';
 $string['clamlost'] = 'Moodle è configurato per eseguire Clam all\'invio dei file, ma il percorso fornito per Clam AV, $a, non è corretto.';
-$string['clamlostandactinglikevirus'] = 'In aggiunta, Moodle è impostato in modo che se Clam ha problemi durante l\'esecuzione, i file siano trattati come virus. Questo essenzialmente significa che nessuno studente può inviare file correttamente finchè questo non è corretto.';
+$string['clamlostandactinglikevirus'] = 'In aggiunta, Moodle è impostato in modo che se Clam ha problemi durante l\'esecuzione, i file siano trattati come virus. Questo essenzialmente significa che nessuno studente può inviare file correttamente finché questo non è corretto.';
 $string['clammovedfile'] = 'Il file è stato spostato nella cartella di quarantena specificata, la nuova locazione è $a';
 $string['clammovedfilebasic'] = 'Il file è stato spostato in una cartella di quarantena.';
-$string['clamquarantinedirfailed'] = 'Non è possibile spostare il file nella cartelladi quarante specificata, $a. E\' necessario correggere l\'impostazione in modo che i file infetti vengano cancellati.';
+$string['clamquarantinedirfailed'] = 'Non è possibile spostare il file nella cartella di quarantena specificata, $a. E\' necessario correggere l\'impostazione in modo che i file infetti vengano cancellati.';
 $string['clamunknownerror'] = 'Clam ha segnalato un errore sconosciuto.';
 $string['cleaningtempdata'] = 'Cancellazione dati temporanei';
 $string['clicktochange'] = 'Clicca per cambiare';
@@ -331,7 +331,7 @@ $string['default'] = 'Default';
 $string['defaultcoursefullname'] = 'Nome completo corso 101';
 $string['defaultcourseshortname'] = 'NCC101';
 $string['defaultcoursestudent'] = 'Studente';
-$string['defaultcoursestudentdescription'] = 'Gli studenti normlmente, all\'interno di un corso, hanno meno privilegi.';
+$string['defaultcoursestudentdescription'] = 'Gli studenti normalmente, all\'interno di un corso, hanno meno privilegi.';
 $string['defaultcoursestudents'] = 'Studenti';
 $string['defaultcoursesummary'] = 'Scrivi un conciso ed interessante paragrafo che spieghi le caratteristiche di questo corso.';
 $string['defaultcourseteacher'] = 'Docente';
@@ -378,7 +378,7 @@ $string['duplicatingain'] = 'Duplicazione di $a->what in $a->in';
 $string['edhelpaspellpath'] = 'Per usare il controllo ortografico nell\'editor HTML, è necessario installare <strong>aspell 0.50</strong> o una versione successiva sul vostro server. Inoltre è necessario specificare il percorso di accesso alle librerie aspell nella configurazione di Moodle. Su sistemi Unix/Linux, in genere il percorso è <strong>/usr/bin/aspell</strong>.';
 $string['edhelpbgcolor'] = 'Imposta il colore di sfondo dell\'area di edit.<br /> Valori possibili sono per esempio: #ffffff o white';
 $string['edhelpcleanword'] = 'Questa impostazione abilita o disabilita il filtro del formato Word.';
-$string['edhelpenablespelling'] = 'Abilita o disabilta il controllo ortografico. Quando abilitato <strong>aspell</strong> deve essere installato sul server.';
+$string['edhelpenablespelling'] = 'Abilita o disabilita il controllo ortografico. Quando abilitato <strong>aspell</strong> deve essere installato sul server.';
 $string['edhelpfontfamily'] = 'La proprietà font-family è una lista di nomi di font e/o font generici (es. serif). I nomi devono essere separati da virgole.';
 $string['edhelpfontlist'] = 'Definisce i font utilizzati nel menu a discesa dell\'editor.';
 $string['edhelpfontsize'] = 'font-size imposta la dimensione standard per i font.<br />Valori possibili sono per esempio: medium, large, smaller, larger, 10pt, 11px.';
@@ -422,8 +422,8 @@ Se avete bisogno di aiuto, contattare l\'amministratore del sito,
 $a->admin';
 $string['emailconfirmationsubject'] = '$a: conferma iscrizione';
 $string['emailconfirmsent'] = '<p>Una email è stata inviata al tuo indirizzo <b>$a</b></p>
-<p> Essa contiene le semplici istruzioni per completare la tua registrazione.</p>
-<p> Se continui ad avere difficoltà contatta l\'amministratore del sito.</p>';
+<p>Contiene semplici istruzioni per completare la tua registrazione.</p>
+<p>Se hai qualche difficoltà contatta l\'amministratore del sito.</p>';
 $string['emaildigest'] = 'Tipo di raccolta email';
 $string['emaildigestcomplete'] = 'Completa (giornalmente invia i messaggi completi)';
 $string['emaildigestoff'] = 'Nessuna raccolta (ogni messaggio viene spedito via mail)';
@@ -498,7 +498,7 @@ $string['enteremailaddress'] = 'Digita il tuo email per cancellare la tua passwo
 $string['entries'] = 'Elementi';
 $string['error'] = 'Errore';
 $string['errortoomanylogins'] = 'Spiacente hai superato il numero ti tentativi di login permessi. Fai ripartire il tuo browser.';
-$string['errorwhenconfirming'] = 'La tua iscrizione non é stata ancora confermata a causa di un errore. Se clicchi sul link';
+$string['errorwhenconfirming'] = 'La tua iscrizione non è stata ancora confermata a causa di un errore. Se hai cliccato sul link di una email per arrivare qui, assicurati che la riga nella tua email non era spezzata o andava accapo. Potresti dover utilizzare Copia e Incolla per ricostruire il link corretto.';
 $string['everybody'] = 'Tutti';
 $string['executeat'] = 'Esegui alle';
 $string['existing'] = 'Esistente';
@@ -510,7 +510,7 @@ $string['existingcreators'] = 'Creatori di corsi esistenti';
 $string['existingstudents'] = 'Studenti iscritti';
 $string['existingteachers'] = 'Docenti esistenti';
 $string['expirynotify'] = 'Notifica scadenza iscrizione';
-$string['expirynotifyemail'] = 'Gli studenti qui elencati saranno disiscritti da questo corso tra esattamente $a->threshold giorni:
+$string['expirynotifyemail'] = 'Gli studenti qui elencati saranno disinscritti da questo corso tra esattamente $a->threshold giorni:
 
 $a->current
 
@@ -554,8 +554,9 @@ $string['forcepasswordchange'] = 'Forza il cambiamento della password';
 $string['forcepasswordchangehelp'] = 'Chiede al utente di cambiare la password al prossimo accesso';
 $string['forcepasswordchangenotice'] = 'È necessario cambiare la password per procedere.';
 $string['forcetheme'] = 'Tema obbligato';
-$string['forgotaccount'] = 'Dimenticato la password?';
-$string['forgotten'] = 'Dimenticato il tuo username o la password?';
+$string['forgotaccount'] = 'Dimenticata la password?';
+$string['forgotten'] = 'Dimenticati il tuo username o la password?';
+$string['forgotteninvalidurl'] = 'URL non valido per il reset della password';
 $string['format'] = 'Formato';
 $string['formathtml'] = 'Formato HTML';
 $string['formatlams'] = 'Formato LAMS';
@@ -738,7 +739,7 @@ $string['login'] = 'Login';
 $string['login_failure_logs'] = 'Log accessi falliti';
 $string['loginalready'] = 'Sei già collegato';
 $string['loginas'] = 'Login come';
-$string['loginaspasswordexplain'] = '<p>È necessario impostare la speciale \"password login come\" per utilizzare questa caratteristica.<br />Se non la conoscete, chiedete al vostro amministatore del server.</p>';
+$string['loginaspasswordexplain'] = '<p>È necessario impostare la speciale \"password login come\" per utilizzare questa caratteristica.<br />Se non la conoscete, chiedete al vostro amministratore del server.</p>';
 $string['loginguest'] = 'Login come ospite';
 $string['loginsite'] = 'Login al sito';
 $string['loginsteps'] = 'Salve! Per un pieno accesso ai corsi hai bisogno di un minuto per creare un nuovo account per te su questo sito.
@@ -1067,8 +1068,8 @@ $string['registrationcontactno'] = 'No, non desidero un contact form nel sito';
 $string['registrationcontactyes'] = 'Si, desidero un form affinchè un Moodlers mi possa contattare';
 $string['registrationemail'] = 'Notifica via email';
 $string['registrationinfo'] = '<p>Questa pagina ti permette di registrare il tuo sito Moodle presso moodle.org. La registrazione é gratuita. Il vantaggio che ottieni registrandoti sarà che verrai aggiunto a un mailing list a basso traffico per i messaggi importanti come i problemi di sicurezza e le nuove versioni di Moodle.</p>
-<p>Le tue informazioni saranno mantenute private, e non saranno mai vendute o passate a qualcun\'altro. L\'unica ragione per raccogliere queste informazioni é per motivi di supporto e per aiutarci a costruire una statistica della comunità di Moodle in generale.</p>
-<p>Se tu vuoi, puoi permettere al nome del tuo sito, stato e URL di essre aggiunto alla lista pubblica dei siti di Moodle.</p>
+<p>Le tue informazioni saranno mantenute private, e non saranno mai vendute o passate a qualcun altro. L\'unica ragione per raccogliere queste informazioni é per motivi di supporto e per aiutarci a costruire una statistica della comunità di Moodle in generale.</p>
+<p>Se tu vuoi, puoi permettere al nome del tuo sito, stato e URL di essere aggiunto alla lista pubblica dei siti di Moodle.</p>
 <p>Tutte le nuove registrazioni sono verificate manualmente prima di essere aggiunte alla lista, ma una volta aggiunta puoi aggiornare la tua registrazione (e aggiungerti alla lista pubblica) quando vuoi rispedendo questo form.</p>';
 $string['registrationno'] = 'No, non voglio ricevere email';
 $string['registrationsend'] = 'Manda le informazioni di registrazione a moodle.org';
@@ -1318,9 +1319,9 @@ $string['turneditingon'] = 'Attiva modifica';
 $string['undecided'] = 'Indeciso';
 $string['unenrol'] = 'Disiscrivi';
 $string['unenrolallstudents'] = 'Disiscrivi tutti gli studenti';
-$string['unenrolallstudentssure'] = 'Sei sicuro di voler disiscrivere completamente tutti gli studenti?';
+$string['unenrolallstudentssure'] = 'Sei sicuro di voler disinscrivere completamente tutti gli studenti?';
 $string['unenrolme'] = 'Disiscrivimi da $a';
-$string['unenrolsure'] = 'Sei sicuro di volerti disiscrivere $a da questo corso?';
+$string['unenrolsure'] = 'Sei sicuro di volerti disinscrivere $a da questo corso?';
 $string['unfinished'] = 'Non terminato';
 $string['unknowncategory'] = 'Categoria sconosciuta';
 $string['unlimited'] = 'Illimitato';
@@ -1385,13 +1386,13 @@ $string['version'] = 'Versione';
 $string['view'] = 'Vista';
 $string['views'] = 'Viste';
 $string['viewsolution'] = 'visualizza soluzione';
-$string['virusfound'] = 'Amministratore attenzione! Clam AV ha individuato un vorus in un file caricato da $a->user nel corso $a->course. Di seguito l\'output di clamscan:';
+$string['virusfound'] = 'Amministratore attenzione! Clam AV ha individuato un virus in un file caricato da $a->user nel corso $a->course. Di seguito l\'output di clamscan:';
 $string['virusfoundlater'] = 'Un file caricato il $a->date nel corso $a->course di nome $a->filename contiene un virus. Questo è il resoconto di ciò che eè accaduto al tuo file:
 
 $a->action
 
 Se questo file è un lavoro che hai inviato, è preferibile inviarlo nuovamente.';
-$string['virusfoundlateradmin'] = 'Amministratore attenzione! Un file caricato il $a->date nel corso $a->course di nome $a->filename contiene un virus. Questo è il resoconto di ciò che eè accaduto al tuo file:
+$string['virusfoundlateradmin'] = 'Amministratore attenzione! Un file caricato il $a->date nel corso $a->course di nome $a->filename contiene un virus. Questo è il resoconto di ciò che è accaduto al tuo file:
 
 $a->action
 
@@ -1402,7 +1403,7 @@ Di seguito viene riportato cosa è avvenuto al file:
 
 $a->action';
 $string['virusfoundsubject'] = '$a: trovato virus!';
-$string['virusfounduser'] = 'Il file che hai caricato, $a->filename, è stato analizzato dall\'antivirus e ed è stata rilevata un ainfezione. Il caricamento del file non è andato a buon fine.';
+$string['virusfounduser'] = 'Il file che hai caricato, $a->filename, è stato analizzato dall\'antivirus e ed è stata rilevata un\'infezione. Il caricamento del file non è andato a buon fine.';
 $string['virusplaceholder'] = 'Questo file è stato caricato con un virus, pertanto è stato spostato altrove o cancellato. L\'utente è stato informato.';
 $string['visible'] = 'Visibile';
 $string['visibletostudents'] = 'Visibile da $a';
