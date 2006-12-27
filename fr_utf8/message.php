@@ -31,6 +31,7 @@ $string['messagehistory'] = 'Historique du message';
 $string['messages'] = 'Messages';
 $string['messaging'] = 'Messagerie';
 $string['mycontacts'] = 'Mes contacts';
+$string['newonlymsg'] = 'N\'afficher que les nouveaux';
 $string['newsearch'] = 'Nouvelle recherche';
 $string['noframesjs'] = 'Version sans cadres ni JavaScript';
 $string['nosearchresults'] = 'Cette recherche n\'a délivré aucun résultat';
