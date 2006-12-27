@@ -2,7 +2,7 @@
       // message.php - created with Moodle 1.8 dev (2006120700)
 
 
-$string['addcontact'] = 'コンタクトリストに追加';
+$string['addcontact'] = 'コンタクトリストに追加する';
 $string['addsomecontacts'] = '誰かにメッセージを送信する場合や、このページにショートカットを作成する場合は、上にある<a href=\"$a\">検索タブ</a>を使用してください。';
 $string['addsomecontactsincoming'] = 'これらのメッセージは、あなたのコンタクトリストに登録されていない人から受信しています。コンタクトに人を追加したい場合は、名前の隣にある「コンタクトリストに追加」アイコンをクリックしてください。';
 $string['ago'] = '$a 前';
@@ -33,6 +33,7 @@ $string['messagehistory'] = 'メッセージ履歴';
 $string['messages'] = 'メッセージ';
 $string['messaging'] = 'メッセージ';
 $string['mycontacts'] = 'マイ コンタクト';
+$string['newonlymsg'] = '新しいメッセージのみ表示する';
 $string['newsearch'] = '新しい検索';
 $string['noframesjs'] = 'フレームおよびJavaスクリプトなしのバージョン';
 $string['nomessages'] = '未読メッセージはありません。';
@@ -48,7 +49,7 @@ $string['onlytome'] = '受信メッセージ';
 $string['pagerefreshes'] = 'このページは $a 秒ごとに自動更新されます。';
 $string['readmessages'] = '既読メッセージ $a';
 $string['refresh'] = 'リフレッシュ';
-$string['removecontact'] = 'コンタクトリストから削除';
+$string['removecontact'] = 'コンタクトリストから削除する';
 $string['savemysettings'] = '私の設定を保存する';
 $string['search'] = '検索';
 $string['searchforperson'] = '人の検索';
@@ -62,9 +63,9 @@ $string['strftimedaydatetime'] = '%%Y/%%m/%%d (%%a) %%I:%%M %%p';
 $string['timenosee'] = 'オンライン表示期間 (分)';
 $string['timesent'] = '送信回数';
 $string['unblockcontact'] = 'コンタクトの拒否解除';
-$string['unreadmessages'] = '未読メッセージ $a';
+$string['unreadmessages'] = '未読メッセージ $a 件';
 $string['userisblockingyou'] = 'このユーザはメッセージの送信を禁止されています。';
 $string['userisblockingyounoncontact'] = 'このユーザはコンタクトリストに登録されたユーザからのみメッセージを受信します。あなたは現在コンタクトリストに登録されていません。';
-$string['userssearchresults'] = '検索結果: $a 件のユーザが見つかりました。';
+$string['userssearchresults'] = '検索結果: $a 名のユーザが見つかりました。';
 
 ?>
