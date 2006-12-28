@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8 dev (2006102600)
+      // blog.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['addnewentry'] = '新しいエントリの追加';
@@ -15,6 +15,7 @@ $string['blogs'] = 'ブログ';
 $string['blogtags'] = 'ブログタグ';
 $string['courseblog'] = 'コースブログ: $a';
 $string['courseblogs'] = 'ユーザはコースを共有しているユーザのブログのみ読むことができる';
+$string['deleteotagswarn'] = '本当にこれらのタグをすべての投稿ブログおよびシステムから削除してもよろしいですか';
 $string['disableblogs'] = 'ブログシステムを完全に無効にする';
 $string['emptybody'] = 'ブログエントリ本文を入力してください。';
 $string['emptytitle'] = 'ブログエントリタイトルを入力してください。';
@@ -45,6 +46,7 @@ $string['settingsupdatederror'] = 'エラーが発生したため、ブログ設
 $string['siteblog'] = 'サイトブログ: $a';
 $string['siteblogs'] = 'すべてのサイトユーザはすべてのブログを読むことができる';
 $string['tagdatelastused'] = '日付タグは使用されています。';
+$string['tags'] = 'タグ';
 $string['tagsort'] = 'タグの並び替え';
 $string['tagtext'] = 'タグテキスト';
 $string['timewithin'] = '指定した期間に使用されたタグを表示';

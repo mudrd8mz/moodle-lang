@@ -1302,6 +1302,7 @@ $string['supplyinfo'] = 'あなた自身の情報を入力してください。'
 $string['switchrolereturn'] = '通常のロールに戻る';
 $string['switchroleto'] = 'ロールの変更 ...';
 $string['tag'] = 'タグ';
+$string['tagalready'] = 'このタグはすでに登録されています。';
 $string['tagmanagement'] = 'タグの追加/削除 ...';
 $string['tags'] = 'タグ';
 $string['targetrole'] = 'ターゲットロール';
