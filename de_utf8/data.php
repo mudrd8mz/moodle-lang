@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6.2+ (2006050521)
+      // data.php - created with Moodle 1.7 (2006101007)
 
 
 $string['action'] = 'Aktion';
@@ -9,7 +9,7 @@ $string['addcomment'] = 'Kommentar hinzufügen';
 $string['addentries'] = 'Einträge hinzufügen';
 $string['addtemplate'] = 'Vorlage für neue Einträge';
 $string['allowcomments'] = 'Kommentare zulassen?';
-$string['allowratings'] = 'Beiträge bewerten zulassen?';
+$string['allowratings'] = 'Bewertung von Beiträgen';
 $string['approve'] = 'Zulassen';
 $string['ascending'] = 'Aufsteigend';
 $string['atmaxentry'] = 'Sie haben die Höchstzahl zulässiger Einträge erreicht.';
@@ -171,7 +171,7 @@ $string['ratingpublic'] = '$a können  Bewertungen von allen sehen';
 $string['ratingpublicnot'] = '$a können nur die eigenen Bewertungen sehen';
 $string['ratings'] = 'Bewertungen';
 $string['ratingssaved'] = 'Bewertungen gespeichert';
-$string['ratingsuse'] = 'Bewertungen verwenden';
+$string['ratingsuse'] = 'Bewertung einschalten';
 $string['recordapproved'] = 'Datensatz wurde angenommen';
 $string['recorddeleted'] = 'Datensatz gelöscht';
 $string['recordsnotsaved'] = 'Kein Datensatz wurde gespeichert. Prüfen Sie bitte das Format der hochgeladenen Datei.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6.2+ (2006050521)
+      // scorm.php - created with Moodle 1.6.3 (2006050530)
 
 
 $string['advanced'] = 'Weitere Einstellungen';
@@ -32,7 +32,7 @@ $string['errorlogs'] = 'Fehlerprotokoll';
 $string['exit'] = 'SCORM-Kurs beenden';
 $string['expcoll'] = 'Entfalten/Zusammensetzen';
 $string['failed'] = 'Fehlgeschlagen';
-$string['firstaccess'] = 'Erster Versuch';
+$string['firstaccess'] = 'Erster Zugang';
 $string['firstattempt'] = 'Erster Versuch';
 $string['found'] = 'Manifest gefunden';
 $string['frameheight'] = 'Diese Einstellung definiert die Höhe des SCO-Frames';
@@ -112,7 +112,7 @@ $string['scorm:viewscores'] = 'Bewertungen anzeigen';
 $string['scormcourse'] = 'SCORM Kurs';
 $string['scrollbars'] = 'Scrollfunktion im Fenster bereitstellen';
 $string['sided'] = 'Auf der linken Seite';
-$string['skipview'] = 'Teilnehmer/innen  überspringen die Übersicht';
+$string['skipview'] = 'Teilnehmer/innen überspringen die Übersicht';
 $string['stagesize'] = 'Frame/Fenster Größe';
 $string['started'] = 'Begonnen am';
 $string['status'] = 'Status';

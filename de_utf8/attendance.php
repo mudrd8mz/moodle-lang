@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // attendance.php - created with Moodle 1.6.2+ (2006050521)
+      // attendance.php - created with Moodle 1.7 (2006101007)
 
 
 $string['absentlong'] = 'Abwesenheit';
@@ -8,12 +8,12 @@ $string['addingmultiple'] = 'Verschiedene Anwesenheitsgründe hinzufügen';
 $string['addmultiple'] = 'V';
 $string['allmodulename'] = 'Alle Anwesenheitsgründe';
 $string['auto'] = 'selbst';
-$string['autoattend'] = 'Die Anwesenheit automatisch ermitteln, auf der Grundlage der Einträge über die Aktivitäten des/der Teilnehmer/in.';
-$string['autoattendmulti'] = 'Die Abwesenheit automatisch ermitteln für alle Listen, auf der Grundlage der Einträge über die Aktivitäten des/der Teilnehmer/in.';
+$string['autoattend'] = 'Die Anwesenheit automatisch ermitteln, auf der Grundlage der Einträge über die Nutzeraktivitäten.';
+$string['autoattendmulti'] = 'Die Abwesenheit automatisch ermitteln für alle Listen, auf der Grundlage der Einträge über die Nutzeraktivitäten.';
 $string['autoattendshort'] = 'Automatisch von den Log-Dateien';
 $string['choosedays'] = 'Tage der Woche, an denen die Anwesenheit ermittelt wird';
 $string['dayofroll'] = 'Datum, für welches diese Gründe gelten';
-$string['defaultautoattend'] = 'Standardmäßig wird die Anwesenheit aus den Einträgen über die Aktivität des Teilnehmers ermittelt.';
+$string['defaultautoattend'] = 'Standardmäßig wird die Anwesenheit aus den Einträgen über die Nutzeraktivitäten ermittelt.';
 $string['defaultdynamicsection'] = 'Soll die Anwesenheitsliste der richtigen Woche zugeordnet werden (Voreinstellung)';
 $string['defaultgrade'] = 'Soll die Anwesenheitsliste bewertbar sein (Voreinstellung)';
 $string['defaulthoursinclass'] = 'Wieviele Stunden sollen standardmäßig für die Anwesenheit eingestellt werden';
@@ -38,7 +38,7 @@ $string['hoursinclass'] = 'Anzahl der Stunden im Zeitraum';
 $string['hoursineachclass'] = 'Anzahl der Stunden in jedem Zeitraum';
 $string['hoursinfullreport'] = 'Die maximale Anzahl der Anwesenheitsstunden, die auf einer Seite der Auswertung angezeigt werden soll.';
 $string['maxgradeshort'] = 'Maximale Bewertung';
-$string['maxgradevalue'] = 'höchste Bewertung für volle Anwesenheit';
+$string['maxgradevalue'] = 'Höchste Bewertung für volle Anwesenheit';
 $string['modulename'] = 'Anwesenheit';
 $string['modulenameplural'] = 'Anwesenheitsliste';
 $string['monday'] = 'Mo';
@@ -55,7 +55,7 @@ $string['startafterend'] = 'Das Startdatum liegt nach dem Enddatum des Kurses';
 $string['startmulti'] = 'Datum';
 $string['sunday'] = 'So';
 $string['takeroll'] = 'Liste für diesen Tag erzeugen ?';
-$string['tardiesperabsence'] = 'Wieviele Einträge über Unpünktlichkeit werden zusammengefasst zu einem Abwesenheitstag';
+$string['tardiesperabsence'] = 'Wie viele Einträge über Unpünktlichkeit werden zusammengefasst zu einem Abwesenheitstag';
 $string['tardylong'] = 'Unpünktlich';
 $string['tardyshort'] = 'U';
 $string['teacheredit'] = 'Anwesenheitsliste erstellen';

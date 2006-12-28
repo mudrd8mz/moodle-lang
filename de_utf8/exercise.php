@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.6.2+ (2006050521)
+      // exercise.php - created with Moodle 1.7 (2006101007)
 
 
 $string['absent'] = 'Fehlen';
@@ -55,13 +55,13 @@ $string['generalcomment'] = 'Allgemeiner Kommentar';
 $string['good'] = 'Gut';
 $string['gradeassessment'] = 'Notenbewertung';
 $string['gradeforassessment'] = 'Note für die Bewertung';
-$string['gradeforstudentsassessment'] = 'Höchtbewertung für Selbsteinschätzung';
+$string['gradeforstudentsassessment'] = 'Höchstbewertung für Selbsteinschätzung';
 $string['gradeforsubmission'] = 'Höchstbewertung für die Arbeit';
 $string['gradetable'] = 'Bewertungstabelle';
 $string['gradinggrade'] = 'Noten der Bewertung';
 $string['gradingstrategy'] = 'Bewertungsstrategie';
 $string['handlingofmultiplesubmissions'] = 'Bearbeitung mehrerer eingereichter Arbeiten';
-$string['hidenamesfromstudents'] = 'Namen der Teilnehmer/innen verbergen';
+$string['hidenamesfromstudents'] = 'Teilnehmernamen  verbergen';
 $string['incorrect'] = 'Falsch';
 $string['late'] = 'Spät';
 $string['lax'] = 'Locker';

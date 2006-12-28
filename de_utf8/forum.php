@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6.3 (2006050530)
+      // forum.php - created with Moodle 1.7+ (2006101008)
 
 
 $string['addanewdiscussion'] = 'Ein neues Diskussionsthema hinzufügen';
@@ -127,6 +127,7 @@ $string['movedmarker'] = '(Bewegt)';
 $string['movethisdiscussionto'] = 'Diese Diskussion verschieben nach ...';
 $string['namenews'] = 'Nachrichtenforum';
 $string['namesocial'] = 'Soziales Forum';
+$string['nameteacher'] = 'Trainerforum';
 $string['newforumposts'] = 'Neue Forenbeiträge';
 $string['nodiscussions'] = 'Es befindet sich noch kein Diskussionsthema in diesem Forum.';
 $string['noguestpost'] = 'Entschuldigung, Gäste dürfen hier nicht mitdiskutieren. Bitte melden Sie sich an.';
@@ -134,6 +135,8 @@ $string['noguestsubscribe'] = 'Entschuldigung, Gäste können sich nicht eintrag
 $string['noguesttracking'] = 'Entschuldigung, Gäste dürfen Markierungsoptionen nicht bearbeiten.';
 $string['nomorepostscontaining'] = 'Es wurden keine weiteren Beiträge mit \'$a\' gefunden.';
 $string['nonews'] = 'Es wurden bisher keine Neuigkeiten gepostet.';
+$string['nopostdiscussion'] = 'In dieser Diskussion können Sie keine Beiträge veröffentlichen';
+$string['nopostforum'] = 'In diesem Forum können Sie keine Beiträge veröffentlichen';
 $string['noposts'] = 'Keine Beiträge';
 $string['nopostscontaining'] = 'Es wurden keine in \'$a\' enthaltenen Beiträge gefunden.';
 $string['noquestions'] = 'Derzeit gibt es noch keine Beiträge in diesem Forum.';

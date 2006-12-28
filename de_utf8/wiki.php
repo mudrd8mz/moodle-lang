@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6.2+ (2006050521)
+      // wiki.php - created with Moodle 1.7 (2006101007)
 
 
 $string['action'] = '-- Aktion --';
@@ -11,7 +11,7 @@ $string['allowstrippages'] = 'Ältere Versionen löschen';
 $string['attachments'] = 'Seitenergänzungen';
 $string['author'] = 'Autor/in';
 $string['authorfieldpattern'] = 'Anzeigeoption für Autor/in';
-$string['authorfieldpatternerror'] = 'Geben Sie bitte eine Autorin/einen Autor an.';
+$string['authorfieldpatternerror'] = 'Geben Sie bitte eine Autor/in an.';
 $string['backlinks'] = 'Link zur Herkunftsseite';
 $string['binimgtoolarge'] = 'Bilddatei ist zu groß!';
 $string['binnoimg'] = 'Dieses Dateiformat kann nicht verarbeitet werden!';
@@ -149,7 +149,7 @@ $string['revertpagescheck'] = 'Wollen Sie diese Veränderungen wirklich rückgä
 $string['revertthe'] = 'In die Tiefe der Seitenversionen gehen und nur die veränderten löschen';
 $string['safehtml'] = 'Sicheres HTML';
 $string['save'] = 'Speichern';
-$string['savenolock'] = 'Sie können die Seite nicht speichern, weil Sie keine Seitenblockierung haben. Dies kann passieren, wenn in Ihrem Browser JavaScript deaktiviert wurde oder falls ein/e andere/r Nutzer/in Ihre Seitenblockierung übergangen hat.<br/><br/>Sie können über den Zurück-Button Ihres Browsers zur vorherigen Seite zurückkehren und die von Ihnen gemachten Änderungen kopieren. Danach versuchen Sie bitte die Bearbeitung erneut.';
+$string['savenolock'] = 'Sie können die Seite nicht speichern, weil Sie keine Seitenblockierung haben. Dies kann passieren, wenn in Ihrem Browser JavaScript deaktiviert wurde oder falls andere Nutzer/innen Ihre Seitenblockierung übergangen haben.<br/><br/>Sie können über den Zurück-Button Ihres Browsers zur vorherigen Seite zurückkehren und die von Ihnen gemachten Änderungen kopieren. Danach versuchen Sie bitte die Bearbeitung erneut.';
 $string['searchwiki'] = 'Wiki durchsuchen';
 $string['setpageflags'] = 'Seiteneinstellungen setzen';
 $string['showversions'] = 'Versionen anzeigen:';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6.3 (2006050530)
+      // resource.php - created with Moodle 1.7 (2006101007)
 
 
 $string['addresource'] = 'Arbeitsmaterial hinzufügen';
@@ -16,8 +16,8 @@ $string['configdefaulturl'] = 'Wenn Sie eine neue URL-basierte Ressource anlegen
 $string['configfilterexternalpages'] = 'Diese Option wendet den eingestellten Filter (Wörterbuch, Autolinks, etc.) auch für alle externen Quellen (Webseiten und hochgeladene HTML-Seiten) an. Wenn Sie diese Option aktivieren, werden Ihre Kursseiten wesentlich langsamer laufen. Nutzen Sie diese Option daher nur, wenn Sie sie wirklich benötigen.';
 $string['configframesize'] = 'Wenn eine Webseite oder eine hochgeladene Datei in einem Frame angezeigt wird, so gibt dieser Wert die Größe des Top-Frames, der die Navigation beinhaltet, in Pixeln an.';
 $string['configparametersettings'] = 'Stellen Sie die Anfangswerte für die Parameter im Formular zur Bereitstellung neuer Arbeitsmaterialien ein. Nach dem ersten Öffnen kann diese individuell angepasst werden.';
-$string['configpopup'] = 'Soll neues Arbeitsmaterial in einem Popup-Fenster angezeigt werden, falls dies möglich ist (Grundeinstellung)?';
-$string['configpopupdirectories'] = 'Sollen von Popup-Fenstern Verzeichnislinks angezeigt werden? (Voreinstellung)';
+$string['configpopup'] = 'Soll neues Arbeitsmaterial in einem Popup-Fenster angezeigt werden, falls dies möglich ist (Voreinstellung)?';
+$string['configpopupdirectories'] = 'Sollen von Popup-Fenstern Verzeichnislinks angezeigt werden (Voreinstellung)?';
 $string['configpopupheight'] = 'Welche Höhe sollen Popup-Fenster haben (Voreinstellung)?';
 $string['configpopuplocation'] = 'Sollen Popup-Fenster das Adressmenü zeigen (Voreinstellung)?';
 $string['configpopupmenubar'] = 'Sollen Popup-Fenster das Menü zeigen (Voreinstellung)?';

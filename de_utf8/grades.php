@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6.2+ (2006050521)
+      // grades.php - created with Moodle 1.7 (2006101007)
 
 
 $string['addcategory'] = 'Kategorie hinzufügen';
@@ -45,7 +45,7 @@ $string['gradeitemremovemembers'] = 'Mit bewerten';
 $string['gradeitems'] = 'Lernaktivität';
 $string['gradeletter'] = 'Note';
 $string['gradeletterhelp'] = 'Hilfe zur Noten-Definition';
-$string['gradeletternote'] = 'Löschen Sie eines der drei Felder einer Zeile, <br />um eine Noten-Definition zu löschen.';
+$string['gradeletternote'] = 'Füllen Sie die letzte Zeile und speichern Sie, <br />um eine neue Leerzeile für eine weitere Note zu erhalten.';
 $string['gradepreferenceshelp'] = 'Hilfe für Grundeinstellungen';
 $string['grades'] = 'Bewertung';
 $string['gradeweighthelp'] = 'Hilfe zur Gewichtung der Bewertung';
@@ -71,7 +71,7 @@ $string['no'] = 'Nein';
 $string['nocategories'] = 'Kategorien konnten nicht angelegt oder nicht gefunden werden.';
 $string['nocategoryview'] = 'Keine Kategorie zum Anzeigen für';
 $string['nogradeletters'] = 'Keine Noten definiert';
-$string['nogradesreturned'] = 'Keine Bewertung gemeldet';
+$string['nogradesreturned'] = 'Keine Bewertung zum Anzeigen vorhanden';
 $string['nolettergrade'] = 'Keine Note für';
 $string['nomode'] = 'NA';
 $string['nonnumericweight'] = 'Nicht-numerischen Wert erhalten für';

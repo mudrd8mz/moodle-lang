@@ -1,16 +1,15 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6.2+ (2006050521)
+      // enrol_authorize.php - created with Moodle 1.7+ (2006101008)
 
 
 $string['adminacceptccs'] = 'Welche Kreditkartentypen sollen akzeptiert werden?';
 $string['adminaccepts'] = 'Zulässig Zahlungsverfahren und -typen auswählen';
-$string['adminauthcode'] = 'Falls eine Kreditkarte nicht direkt über das Internet bestätigt werden kann, besorgen Sie den Ermächtigungscode per Telefon von der Kundenbank.';
 $string['adminauthorizeccapture'] = 'Einstellungen für Zahlungsübersicht und Zahlungsabwicklung';
 $string['adminauthorizeemail'] = 'E-Mail-Einstellungen';
 $string['adminauthorizesettings'] = 'Authorize.net Einstellungen';
 $string['adminauthorizewide'] = 'Allgemeine Einstellungen';
 $string['adminavs'] = 'Wählen Sie diese Option aus, wenn Sie das Adress Verification System (AVS) in Ihrer authorize.net Anmeldung aktiviert haben. Damit sind Eintragungen in Adressfeldern wie Straße, Ort, PLZ, Land etc. beim Ausfüllen des Zahlungsformulars erforderlich.';
-$string['adminconfighttps'] = 'Bitte stellen Sie sicher, dass Sie die Einstellung \"<a href=\"$a->url\">loginhttps EIN</a>\" gewählt haben, um dieses Plugin zu nutzen.<br />Admin &gt;&gt; Variablen &gt;&gt; Sicherheit &gt;&gt; HTTP-Sicherheit';
+$string['adminconfighttps'] = 'Bitte stellen Sie sicher, dass Sie die Einstellung \"<a href=\"$a->url\">loginhttps EIN</a>\" gewählt haben, um dieses Plugin zu nutzen.<br />Admin >> Variablen >> Sicherheit >> HTTP-Sicherheit';
 $string['adminconfighttpsgo'] = 'Gehen Sie auf diese <a href=\"$a->url\">sichere Seite</a>, um dieses Plugin zu konfigurieren.';
 $string['admincronsetup'] = 'Die cron.php Datei wurde in den letzten 24 Stunden nicht ausgeführt.<br />Der Cron-Prozess muss richtig konfiguriert sein, um automatische Abwicklung zu nutzen.<br />Konfigurieren Sie den <b>Cron-Prozess</b> richtig oder deaktivieren Sie die Option <b>an_review</b> wieder.<br />Wenn Sie die automatische Abwicklung deaktivieren, werden Transaktionen zurückgewiesen, die Sie nicht innerhalb von 30 Tagen manuell bestätigen.<br />Wählen Sie die Option <b>an_review</b> aus und geben Sie \'0\' im Feld <b>an_capture_day</b>ein, wenn Sie innerhalb von 30 Tagen Zahlungen <b>manuell</b> akzeptieren/zurückweisen wollen.';
 $string['adminemailexpired'] = 'Versendet <b>$a</b> Tage vor Ende der Bearbeitungsfrist für offene Zahlungsvorgänge Warn-E-Mails an Admins. (0=E-Mail versenden deaktivieren, default=2, max=5)<br />Die Einstellung ist sinnvoll, wenn manuelle Abwicklung aktiviert wurde (an_review=checked, an_capture_day=0).';
@@ -50,7 +49,6 @@ $string['antestmode'] = 'Authorize.net: Transaktionen im Testmodus laufen lassen
 $string['antrankey'] = 'Authorize.net: Transaktionsschlüssel';
 $string['approvedreview'] = 'Überprüfung erfolgreich';
 $string['authcaptured'] = 'Bestätigte / Gezahlte';
-$string['authcode'] = 'Ermächtigungscode';
 $string['authorize:managepayments'] = 'Zahlungsmethoden verwalten';
 $string['authorize:uploadcsv'] = 'CSV-Datei hochladen';
 $string['authorizedpendingcapture'] = 'Bestätigte / Offene Zahlungen';
@@ -97,7 +95,6 @@ $string['echeckfirslasttname'] = 'Konteninhaber';
 $string['echecksavings'] = 'Sicherungen';
 $string['enrolname'] = 'Authorize.net Kreditkartenabrechnung';
 $string['expired'] = 'Abgelaufen';
-$string['haveauthcode'] = 'Ich habe bereits einen Ermächtigungscode';
 $string['howmuch'] = 'Wieviel?';
 $string['httpsrequired'] = 'Ihre Anfrage kann leider zur Zeit nicht bearbeitet werden. Die Konfiguration der Seite weist einen Fehler auf. <br /><br />
 Warten Sie mit der Eingabe Ihrer Kreditkartennummer solange, bis Sie ein gelbes Schloß in der Fußzeile des Browsers sehen können. Wenn das Symbol erscheint, werden alle Daten zwischen Ihrem Rechner und dem Server verschlüsselt gesendet. Damit wird die Datenübertragung geschützt, und Ihre Kreditkartendaten können nicht in falsche Hände geraten.';
@@ -107,25 +104,32 @@ $string['invalidacctype'] = 'UngültigerKontentyp';
 $string['logindesc'] = 'Diese Option MUSS aktiviert sein. Stellen Sie sicher, dass die Einstellung <a href=\"$a->url\">loginhttps</a> unter Administration >> Variablen konfigurieren >> Sicherheit aktiviert ist.
 <br /><br />
 Wenn diese Option aktiviert ist, verwendet Moodle für die Login- und Zahlungsvorgänge eine sichere HTTPS-Verbindung.';
+$string['logininfo'] = 'Anmeldename, Passwort und Transaktionsschlüssel werden während der Sicherheitsabfrage nicht angezeigt. Es besteht keine Notwendigkeit, die Daten noch einmal einzugeben, wenn Sie diese Felder bereits konfiguriert haben. <br />Sie werden einen grünen Text links von der Box sehen, falls die Felder bereits konfiguriert sind.Wenn Sie zum ersten Mal in diese Felder eintragen, wird der Anmeldename (*) benötigt und Sie müssen <strong>entweder</strong> den Transaktionsschlüssel (#1) <strong>oder</strong> das Passwort in das Bestätigungsfeld eingeben. Wir empfehlen die Eingabe des Transaktionsschlüssel für Sicherheitsabfragen. Falls Sie das aktuelle Passwort löschen möchten, markieren Sie die Checkbox.';
 $string['methodcc'] = 'Kreditkarte';
 $string['methodecheck'] = 'eCheck (ACH)';
 $string['missingaba'] = 'Fehlende ABA-Nummer';
 $string['missingaddress'] = 'Adresse fehlt';
 $string['missingbankname'] = 'Fehlender Bankname';
 $string['missingcc'] = 'Kartennummer fehlt';
-$string['missingccauthcode'] = 'Fehlender Ermächtigungscode';
 $string['missingccexpire'] = 'Gültigkeitsdatum fehlt';
 $string['missingcctype'] = 'Kartentyp fehlt';
 $string['missingcvv'] = 'Prüfnummer fehlt';
 $string['missingzip'] = 'PLZ fehlt';
+$string['mypaymentsonly'] = 'Nur meine Zahlungsvorgänge anzeigen';
 $string['nameoncard'] = 'Karteninhaber';
 $string['new'] = 'Neu';
-$string['noreturns'] = 'Kein Zurück!';
+$string['noreturns'] = 'Kein Rückgabe!';
 $string['notsettled'] = 'Nicht bearbeitet';
 $string['orderid'] = 'ID-Nummer der Zahlung';
 $string['paymentmanagement'] = 'Zahlungsmanagement';
 $string['paymentmethod'] = 'Zahlungsverfahren';
 $string['paymentpending'] = 'Ihre Zahlung für diesen Kurs wird unter der ID-Nummer $a->orderid  bearbeitet.';
+$string['pendingecheckemail'] = 'Guten Tag,
+
+zur Zeit gibt es $a->count wartende eChecks. Laden Sie die Nutzer/innen mittels CSV-Datei ins System hoch. 
+
+Weitere Informationen finden Sie in der Hilfedatei auf der folgenden Seite $a->url.';
+$string['pendingechecksubject'] = '$a->course: Wartende eChecks($a->count)';
 $string['pendingordersemail'] = 'Guten Tag,
 
 $a->pending Transaktionen für den Kurs $a->course werden zurückgewiesen, wenn Sie sie nicht innerhalb von $a->days Tagen bearbeiten.

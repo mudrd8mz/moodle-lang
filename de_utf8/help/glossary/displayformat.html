@@ -1,46 +1,33 @@
-<p align="center"><b>Formate des Glossars<br></b></p>
-<p>Diese Einstellung bestimmt die Art, wie jeder Eintrag
-innerhalb des Glossars angezeigt wird. Die herk&ouml;mmlichen
-Formate sind:</p>
+<p align="center"><b>Anzeigeformat<br></b></p>
+<p>Diese Einstellung bestimmt die Art, wie Einträge im Glossar angezeigt werden. Folgende 
+Formate sind verfügbar:</p>
 <blockquote>
 <dl>
-<dt><b>Einfaches W&ouml;rterbuch:</b></dt>
-<dd>Sieht wie ein konventionelles W&ouml;rterbuch mit einzelnen
-Eintr&auml;ge aus. Autor/innen werden nicht angezeigt und
-Anh&auml;nge sind als Links dargestellt.</dd>
-<dt><b>Fortlaufend:</b></dt>
-<dd>Zeigt die Eintr&auml;ge einen nach dem anderen ohne irgend
-eine Art der Trennung au&szlig;er dem 'Bearbeiten Symbole'.</dd>
-<dt><b>Komplett mit Autor/in:</b></dt>
-<dd>Eine Anzeigeformat, welches wie ein Forum aussieht und die
-Angaben des/der Autors/in enth&auml;lt. Anh&auml;nge sind als
-Links dargestellt.</dd>
-<dt><b>Komplett ohne Autor/in:</b></dt>
-<dd>Eine Anzeigeformat, welches wie ein Forum aussieht und nicht
-die Angaben der/s Autorin/s enth&auml;lt. Anh&auml;nge sind als
-Links dargestellt.</dd>
-<dt><b>Enzyklop&auml;die:</b></dt>
-<dd>Genau wie 'Komplett mit Autor/in', allerdings werden
-angeh&auml;ngte Bilder angezeigt.</dd>
+<dt><b>Wörterbuch (mit Synonymen):</b></dt>
+<dd>Sieht wie ein konventionelles Wörterbuch mit einzelnen
+Einträgen aus. Begriff und Erläuterung werden in einem Absatz angezeigt, mit Angabe von synonymen Begriffen. Autor/innen werden nicht angezeigt, Anhänge werden als Links angezeigt.</dd>
+<dt><b>Wörterbuch (ohne Synonyme)</b></dt>
+<dd>Zeigt die Einträge fortlaufend mit Begriff und Erläuterung, ohne Angabe synonymer Begriffe.</dd>
+<dt><b>Vollständig mit Autor/in:</b></dt>
+<dd>Einträge werden wie Forenbeiträge angezeigt mit Angabe der Autor/innen, Anhänge werden als Links angezeigt.</dd>
+<dt><b>Vollständig ohne Autor/in:</b></dt>
+<dd>Einträge werden wie Forenbeiträge angezeigt ohne Angabe der Autor/innen, Anhänge werden als Links angezeigt.</dd>
+<dt><b>Enzyklopädie:</b></dt>
+<dd>Analog zu 'Vollständig mit Autor/in', mit dem Unterschied, dass
+angehängte Bilder angezeigt werden.</dd>
 <dt><b>FAQ</b>:</dt>
-<dd>Hilfreich um eine Liste h&auml;ufig gestellter Fragen
+<dd>Hilfreich um eine Liste häufig gestellter Fragen
 (Frequently Asked Questions) anzuzeigen. Die Worte FRAGE und
-ANTWORT sind dem Eintrag automatisch angeh&auml;ngt.</dd>
-</dl>
+ANTWORT werden im Eintrag automatisch hinzugefügt.</dd>
+<dt><b>Liste</b>:</dt>
+<dd>Alphabetische Auflistung der Einträge ohne Erläuterung. Die Einträge werden als Links angezeigt, die zur zugehörigen Erläuterung des jeweiligen Begriffs führen.</dd></dl>
 </blockquote>
 <hr>
-<p>Moodle Administratoren k&ouml;nnen neue Formate wie folgt
-erstellen:</p>
+<p>Moodle Administrator/innen können neue Formate wie folgt erstellen (siehe auch <b>mod/glossary/formats/README.txt</b>):</p>
 <ol>
-<li>Schauen Sie in mod/glossary/formats. Sie sollten f&uuml;r
-jedes existierende Format eine nummerierte Datei sehen.</li>
-<li>Kopieren Sie eine dieser Dateien und benennen Sie sie mit
-einer anderen Nummer N (Beachten Sie, dass 0 und 1 reserviert
-sind).</li>
+<li>Schauen Sie in mod/glossary/formats. In diesem Verzeichnis gibt es für jedes Format ein Unterverzeichnis, das die zugehörige Format-Datei enthält.</li>
+<li>Legen Sie in mod/glossary/formats ein neues Verzeichnis <i>IhrFormatName</i> für Ihr Format an und kopieren Sie eine der existierenden Format-Dateien dort hinein.</li>
 <li>Bearbeiten Sie diese Datei, um Ihr eigenes Format zu
-erstellen (ein wenig PHP Kenntniss ist erforderlich).</li>
-<li>Zum Schlu&szlig; f&uuml;gen Sie einen neuen Eintrag, namens
-<b>diplayformatN</b>, in jedem
-Sprachenpaket hinzu, das Sie benutzen und geben ihm einen kurzen
-aber aussagekr&auml;ftigen Namen.</li>
+erstellen (PHP-Kenntnisse sind erforderlich).</li>
+<li>Fügen Sie einen neuen Eintrag <b>displayformat<i>IhrFormatName</i></b> in der Datei glossary.php in jedem Sprachpaket, das Sie benutzen, hinzu und geben ihm einen kurzen, aussagekräftigen Namen.</li>
 </ol>
