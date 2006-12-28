@@ -1281,6 +1281,7 @@ $string['supplyinfo'] = 'Merci de fournir ces quelques informations';
 $string['switchrolereturn'] = 'Retour à mon rôle normal';
 $string['switchroleto'] = 'Prendre le rôle...';
 $string['tag'] = 'Balise';
+$string['tagalready'] = 'Cette balise existe déjà';
 $string['tagmanagement'] = 'Ajouter/supprimer des balises...';
 $string['tags'] = 'Balises';
 $string['targetrole'] = 'Rôle cible';
