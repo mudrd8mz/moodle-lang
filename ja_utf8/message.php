@@ -48,7 +48,6 @@ $string['onlymycourses'] = 'マイ コース内のみ';
 $string['onlytome'] = '受信メッセージ';
 $string['pagerefreshes'] = 'このページは $a 秒ごとに自動更新されます。';
 $string['readmessages'] = '既読メッセージ $a';
-$string['refresh'] = 'リフレッシュ';
 $string['removecontact'] = 'コンタクトリストから削除する';
 $string['savemysettings'] = '私の設定を保存する';
 $string['search'] = '検索';
