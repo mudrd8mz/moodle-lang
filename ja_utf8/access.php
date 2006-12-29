@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.8 dev (2006102600)
+      // access.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['access'] = 'アクセシビリティ';
@@ -18,8 +18,8 @@ $string['skipblock'] = 'ブロックをスキップ';
 $string['skipnavigation'] = 'ナビゲーションをスキップ';
 $string['tabledata'] = 'データテーブル $a';
 $string['tablelayout'] = 'レイアウトテーブル $a';
-$string['tocontent'] = 'メインコンテンツへ移動';
-$string['tonavigation'] = 'ナビゲーションへ移動';
+$string['tocontent'] = 'メインコンテンツへ移動する';
+$string['tonavigation'] = 'ナビゲーションへ移動する';
 $string['youarehere'] = '現在地';
 
 ?>

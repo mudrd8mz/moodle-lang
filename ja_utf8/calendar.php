@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 dev (2006112200)
+      // calendar.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['advancedoptions'] = '高度なオプション';
@@ -54,7 +54,7 @@ $string['fri'] = '金';
 $string['friday'] = '金曜日';
 $string['generateurlbutton'] = 'カレンダーのURLを取得する';
 $string['globalevents'] = '全体のイベント';
-$string['gotocalendar'] = 'カレンダーへ移動';
+$string['gotocalendar'] = 'カレンダーへ移動する';
 $string['groupevents'] = 'グループイベント';
 $string['hidden'] = '非表示中';
 $string['iwanttoexport'] = 'エクスポート';
