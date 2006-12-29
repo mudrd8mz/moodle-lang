@@ -49,7 +49,6 @@ $string['GHC'] = 'Cedi ghanéen';
 $string['GIP'] = 'Livre de Gibraltar';
 $string['GMD'] = 'Dalasi gambien';
 $string['GNF'] = 'Nouveau franc guinéen';
-$string['GNS'] = 'Syli guinéen';
 $string['GTQ'] = 'Quetzal guatémaltèque';
 $string['GWP'] = 'Peso de Guinée-Bissau';
 $string['GYD'] = 'Dollar de Guyana';
