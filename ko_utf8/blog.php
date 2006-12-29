@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8 dev (2006102200)
+      // blog.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['addnewentry'] = '새 게시물 추가';
@@ -15,6 +15,7 @@ $string['blogs'] = '블로그들';
 $string['blogtags'] = '블로그 범주들';
 $string['courseblog'] = '배움터 블로그 :$a';
 $string['courseblogs'] = '배움터를 공유한 사람에게만 블로그가 보여짐';
+$string['deleteotagswarn'] = '정말로 이 모든 범주를 블로그와 시스템에서 삭제하겠습니까?';
 $string['disableblogs'] = '블로그 시스템 비 활성화';
 $string['emptybody'] = '블로그 게시 내용은 비어있을 수 없음';
 $string['emptytitle'] = '블로그의 제목은 비어있을 수 없음';
@@ -45,6 +46,7 @@ $string['settingsupdatederror'] = '오류발생. 블로그 사용자 설정을 �
 $string['siteblog'] = '사이트 블로그: $a';
 $string['siteblogs'] = '모든 사이트 사용자가 블로그 게시물을 볼수 있습니다.';
 $string['tagdatelastused'] = '범주가 사용된 마지막 날';
+$string['tags'] = '태그들';
 $string['tagsort'] = '범주 정렬';
 $string['tagtext'] = '범주문장';
 $string['timewithin'] = '최근 사용한 범주 표시';

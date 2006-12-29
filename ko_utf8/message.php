@@ -33,6 +33,7 @@ $string['messagehistory'] = '메세지 기록';
 $string['messages'] = '메세지';
 $string['messaging'] = '메세지';
 $string['mycontacts'] = '나의 연락';
+$string['newonlymsg'] = '변경사항 보기';
 $string['newsearch'] = '새로운 검색';
 $string['noframesjs'] = '프레임 및 자바코드가 없는 판';
 $string['nomessages'] = '대기중인 메세지 없음';
