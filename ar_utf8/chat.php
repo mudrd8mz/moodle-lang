@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // chat.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['beep'] = 'نغمة';
+$string['chat:chat'] = 'شارك في المحاثة';
+$string['chat:deletelog'] = 'حذف سجلات المحادثة';
+$string['chat:readlog'] = 'قراءة سجلات المحادثة';
 $string['chatintro'] = 'نص المقدمة';
 $string['chatname'] = 'أسم غرفة المحادثة الحاليه';
 $string['chatreport'] = 'جلسة المحادثة';
@@ -28,19 +31,21 @@ $string['explainmethodnormal'] = 'هذه الاعدادات مهمة <strong>ف�
 $string['generalconfig'] = 'إعدادات عامة';
 $string['helpchatting'] = 'مساعدة للمحادثة';
 $string['idle'] = 'خامل';
-$string['messagebeepseveryone'] = ' $a  إرسال نغمة للجميع!';
-$string['messagebeepsyou'] = ' $a  أرسل نغمة لك!';
-$string['messageenter'] = ' $a  دخل غرفة محادثة';
-$string['messageexit'] = ' $a  خرج من غرفة محادثة';
+$string['messagebeepseveryone'] = '$a  إرسال نغمة للجميع!';
+$string['messagebeepsyou'] = '$a  أرسل نغمة لك!';
+$string['messageenter'] = '$a  دخل غرفة محادثة';
+$string['messageexit'] = '$a  خرج من غرفة محادثة';
 $string['messages'] = 'رسائل';
 $string['methoddaemon'] = 'خادم ديمون للمحادثة';
 $string['methodnormal'] = 'الطريقة الاعتيادية';
 $string['modulename'] = 'محادثة';
 $string['modulenameplural'] = 'محادثات';
 $string['neverdeletemessages'] = 'لاتمسح الرسائل أبداً';
-$string['nextsession'] = 'الجلسة المجدوله التالية ';
+$string['nextsession'] = 'الجلسة المجدوله التالية';
 $string['noguests'] = 'المحادثة غير متاحة للزوار';
 $string['nomessages'] = 'لا توجد رسائل بعد';
+$string['normalkeepalive'] = 'البقاء نشط';
+$string['normalstream'] = 'تزويد';
 $string['noscheduledsession'] = 'لا يوجد الجلسة مجدوله';
 $string['repeatdaily'] = 'في نفس الموعد كل يوم';
 $string['repeatnone'] = 'لا تكرار- قم بنشر الموعد المحدد فقط';

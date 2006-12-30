@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // grades.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['addcategory'] = 'أضف فئة';
@@ -23,6 +23,7 @@ $string['dropped'] = 'حذف';
 $string['errornocourse'] = 'لم الحصول على معلومات المنهج الدراسي';
 $string['exceptions'] = 'إستتثناءات';
 $string['excluded'] = 'استبعد';
+$string['extracredit'] = 'نقاط إضافية';
 $string['forstudents'] = 'للطلاب';
 $string['gradebook'] = 'سجل درجات';
 $string['gradecategoryhelp'] = 'مساعدة فئة الدرجة';
@@ -50,6 +51,7 @@ $string['lowest'] = 'الأدنى';
 $string['lowgradeletter'] = 'دنئ';
 $string['max'] = 'أعلى';
 $string['maxgrade'] = 'الدرجة القصوى';
+$string['median'] = 'متوسط';
 $string['min'] = 'الأدنى';
 $string['mode'] = 'وضع';
 $string['no'] = 'لا';
@@ -104,5 +106,6 @@ $string['weightedpct'] = 'النسبة المئوية للوزن';
 $string['weightedpctcontribution'] = 'توزيع النسبة المئوية للوزن';
 $string['writinggradebookinfo'] = 'إعدادات كتابة سجل الدرجات';
 $string['yes'] = 'نعم';
+$string['yourgrade'] = 'الدرجة التي حصلت عليها';
 
 ?>

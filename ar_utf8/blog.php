@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // blog.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['addnewentry'] = 'أضف مدخل جديد';
@@ -17,17 +17,20 @@ $string['courseblog'] = 'بلوق مقرر دراسي: $a';
 $string['entrybody'] = 'متن مدخل بلوق';
 $string['entrybodyonlydesc'] = 'وصف مدخل';
 $string['entryerrornotyours'] = 'هذا المدخل ليس خاص بك';
+$string['entrysaved'] = 'تم حفظ مشاركتك';
 $string['entrytitle'] = 'عنوان مدخل';
 $string['entryupdated'] = 'تم تحديث مدخل بلوق';
 $string['groupblog'] = 'مجموعة بلوق: $a';
 $string['intro'] = 'تم أنشاء هذه التغذية الاخبارية آلياص من بلوق واحد أو أكثر';
 $string['noentriesyet'] = 'لا يوجد مدلات مرئية هناء';
 $string['noguestpost'] = 'لا يستطيع الزائر القيام بوضع بلوقات';
+$string['norighttodeletetag'] = 'انت لست مخول بحذف هذا - $a';
 $string['notallowedtoedit'] = 'غير مسموح لك القيام بتحرير/تعديل هذا المدخل';
 $string['numberofentries'] = 'مدخلات: ش';
 $string['numberoftags'] = 'عدد العلامات التي ستعرض';
 $string['otags'] = 'علامات رسمية';
 $string['pagesize'] = 'عدد مدخلات بلوق في كل صفحة';
+$string['personalblogs'] = 'يستطيع المستخدمون مشاهدة البولوق الخاص بهم فقط';
 $string['ptags'] = 'علامات المستخدم المعرفة';
 $string['publishto'] = 'انشر إلى';
 $string['publishtonoone'] = 'أنت (مسودة)';
@@ -35,6 +38,7 @@ $string['publishtosite'] = 'أي أحد في هذا الموقع';
 $string['publishtoworld'] = 'أي أحد في العالم';
 $string['settingsupdatederror'] = 'لقد حدث خطاء ما، لا يمكن تحديث إعدادات تفضيلات بلوق';
 $string['siteblog'] = 'بلوق الموقع: $a';
+$string['siteblogs'] = 'يستطيع جمية المستخدمون مشاهدة كل مدخلات البولوق';
 $string['tagdatelastused'] = 'أرخ العلامة المستخدة مؤخرا';
 $string['tagsort'] = 'رتب العلامة المعروضة بي';
 $string['tagtext'] = 'نص العلامة';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // dialogue.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['addmynewentries'] = 'اضف مدخلاتي الجديدة';
@@ -9,6 +9,7 @@ $string['allowmultiple'] = 'السماح لأكثر من حوار مع نفس ا
 $string['allowstudentdialogues'] = 'السماح بحوارات طالب -  لطالب';
 $string['close'] = 'اغلاق';
 $string['closed'] = 'مغلق';
+$string['closeddialogues'] = 'اغلق الحوار';
 $string['confirmclosure'] = 'أنت على وشك أن تغلق حوارًا مع  $a. الحوارات المغلقة لا يمكن إعادت فتحها ثانياً . إذا أغلقت هذا الحوار يمكنك أن تشاهده لكنّ لن تستطيع الاضافة علية, و سيجب عليك أن تبدأ حوار آخر للإستمرار& quot، والتحدث\"، هذا الشّخص . .</ br /><br>هل أنت متأكّد أنّك تريد إغلاق هذا الحوار ؟';
 $string['deleteafter'] = 'احذف الحوارات المغلقة بعد (ايام)';
 $string['dialogueclosed'] = 'حوار مغلق';
@@ -49,14 +50,15 @@ $string['open'] = 'مفتوح';
 $string['openadialoguewith'] = 'افتح حوار مع';
 $string['opendialogue'] = 'افتح حوار';
 $string['opendialogueentries'] = 'مدخلات الحوار المفتوح';
+$string['opendialogues'] = 'افتح حوارات';
 $string['pane0'] = 'افتح حوار';
-$string['pane1'] = ' $a حوارات تنظر الردود منك';
+$string['pane1'] = '$a حوارات تنظر الردود منك';
 $string['pane1one'] = '1 حوار ينتظر الرد منك';
-$string['pane2'] = ' $a حوارات تنتظر الردودمن شخص اخر ';
+$string['pane2'] = '$a حوارات تنتظر الردودمن شخص اخر';
 $string['pane2one'] = '1 حوار ينتظر الرد من الشخص الاخر';
 $string['pane3'] = '$a حوارات مغلقة';
 $string['pane3one'] = '1 حوار مغلق';
-$string['seen'] = 'شوهد $a قبل ';
+$string['seen'] = 'شوهد $a قبل';
 $string['sendmailmessages'] = 'ارسال رسائل بريد تحتوى على موادي الجديدة';
 $string['status'] = 'الحالة';
 $string['studenttostudent'] = 'طالب - لطالب';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // block_rss_client.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['addfeed'] = 'أضف عنوان تغذية الاخبار.';
@@ -32,8 +32,10 @@ $string['nofeeds'] = 'لا توجد ت تغذيات إخبارية معرفة ل
 $string['pickfeed'] = 'انتقي مغذى اخبار.';
 $string['remotenewsfeed'] = 'مغذي أخبار البعيد.';
 $string['seeallfeeds'] = 'شاهد كل التغذيات';
+$string['sharedfeed'] = 'تغذية مشتركة';
 $string['shownumentrieslabel'] = 'الحد الاقصى لعدد المدخلات المغروضة في كل كتلة';
 $string['submitters'] = 'لمن سيسمح بتعريف الاخبار الجديدة؟ التغذيات المعرف ستكون متاحة لاي صفحة في موقعك.';
+$string['timeout'] = 'انتهى وقت كتلة التغذيات الاخبارية';
 $string['timeoutdesc'] = 'الوقت بالدقائق للفترة التي ستبقى خدمة تغذية الاخبار في الذاكرة المخفية.';
 $string['updatefeed'] = 'حدث عنوان مغذى الاخبار.';
 $string['validatefeed'] = 'تثبت من التغذية.';

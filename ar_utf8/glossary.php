@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // glossary.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['addcomment'] = 'أضف تعليق';
@@ -16,7 +16,7 @@ $string['answer'] = 'أجب';
 $string['approve'] = 'تصديق على';
 $string['areyousuredelete'] = 'هل انت متأكيد من حذف هذه مصطلح؟';
 $string['areyousuredeletecomment'] = 'هل انت متأكيد من حذف هذه التعليق؟';
-$string['areyousureexport'] = 'هل أنت متأكد للقيام بتصدير هذا المصطلح إلى.......... ';
+$string['areyousureexport'] = 'هل أنت متأكد للقيام بتصدير هذا المصطلح إلى..........';
 $string['ascending'] = 'تصاعدي';
 $string['attachment'] = 'ملحق';
 $string['authorview'] = 'استعرض حسب الكاتب';
@@ -92,11 +92,12 @@ $string['entryusedynalink'] = 'يجب ربط هذا المصطلح آليا';
 $string['explainaddentry'] = 'أضف مصطلح جديدة إلى المسرد الحالي.<br /> تعبئة حقلي المفهوم و التعريف إجباري';
 $string['explainall'] = 'أعرض جميع المصطلاحات في صفحة واحدة';
 $string['explainalphabet'] = 'استعرض المسرد باستخدام الفهرست';
-$string['explainexport'] = 'لقد تم إنشاء ملف.<br /> قم بتنزيلة واحتفظ به في مكان أمن. تسطيع استيراده إلى هذا المقرر الدراسي أو غيره متى شئت ';
+$string['explainexport'] = 'لقد تم إنشاء ملف.<br /> قم بتنزيلة واحتفظ به في مكان أمن. تسطيع استيراده إلى هذا المقرر الدراسي أو غيره متى شئت';
 $string['explainimport'] = 'يجب عليك تحديدالملف المستورد وتعريف معايير عملية الإستيراد.<br /> سلم طلبك وقم بمراجعة النتائج.';
 $string['explainspecial'] = 'اعرض المصطلاحات التى لا تنتم إلى حرف';
+$string['exportedentry'] = 'مصطلح مصدر';
 $string['exportentries'] = 'صدر المصطلاحات';
-$string['exportfile'] = 'تصدير المدخلات إلى ملف';
+$string['exportfile'] = 'تصدير المصطلاحات إلى ملف';
 $string['exportglossary'] = 'صدر المسرد';
 $string['exporttomainglossary'] = 'صدر إلى مسرد رئيس';
 $string['filetoimport'] = 'الملف المراد استيراده';
@@ -104,6 +105,17 @@ $string['fillfields'] = 'حقول المفهوم والتعريف اجبارية
 $string['filtername'] = 'الربط الآلي للمسرد';
 $string['fullmatch'] = 'قارن كل الكلمات فقط';
 $string['globalglossary'] = 'مسرد شامل';
+$string['glossary:approve'] = 'الموافقة على المصطلاحات التي لم يوافق عليها بعد';
+$string['glossary:comment'] = 'انشاء تعليقات';
+$string['glossary:export'] = 'تصدير المصطلاحات';
+$string['glossary:import'] = 'استيراد المصطلاحات';
+$string['glossary:managecategories'] = 'إدارة الفئات';
+$string['glossary:managecomments'] = 'إدارة التعليقات';
+$string['glossary:manageentries'] = 'إدارة المصطلاحات';
+$string['glossary:rate'] = 'تقييم المصطلاحات';
+$string['glossary:view'] = 'معانية المسرد';
+$string['glossary:viewrating'] = 'معانية التقييم';
+$string['glossary:write'] = 'انشائ مصطلاحات جديدة';
 $string['glossaryleveldefaultsettings'] = 'الإعداد الإفتراضي للمسرد';
 $string['glossarytype'] = 'نوع المسرد';
 $string['importcategories'] = 'استورد الفئات';
@@ -113,7 +125,7 @@ $string['importentries'] = 'استورد المصطلاحات';
 $string['isglobal'] = 'هل هذا المسرد عام';
 $string['linkcategory'] = 'اربط هذا المصطلح آليا';
 $string['mainglossary'] = 'مسرد رئيس';
-$string['maxtimehaspassed'] = 'عذراَ، انتهى الوقت الاقصى لتحرير ($a) هذا التعليق ';
+$string['maxtimehaspassed'] = 'عذراَ، انتهى الوقت الاقصى لتحرير ($a) هذا التعليق';
 $string['modulename'] = 'مسرد';
 $string['modulenameplural'] = 'مسردات';
 $string['newentries'] = 'مصطلاحات مسرد جديد';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // exercise.php - created with Moodle 1.8 dev (2006101001)
 
 
 $string['absent'] = 'غائب';
@@ -46,8 +46,9 @@ $string['enterpassword'] = 'أدخل كلمة المرور';
 $string['entriessaved'] = 'تم حفظ المواد';
 $string['errorbanded'] = 'توحيد الخطاء';
 $string['excellent'] = 'ممتاز';
+$string['exercise:assess'] = 'قييم التمارين';
 $string['exerciseassessments'] = 'تمرين التقييمات';
-$string['exercisefeedback'] = 'تعليق على التمريم';
+$string['exercisefeedback'] = 'تعليق على التمرين';
 $string['exercisesubmissions'] = 'تسليمات التمرين';
 $string['fair'] = 'عادل';
 $string['generalcomment'] = 'تعليق عام';
@@ -124,7 +125,7 @@ $string['regradestudentassessments'] = 'أعد تقييم تقييمات الط�
 $string['resubmissionfor'] = 'إعادة تسليم لـ $a';
 $string['resubmitnote'] = '*هذا يعني أنه قد سمح لـ $a القيام بإعادة التسليم . <br />  يمكن تعيين هذا المؤشر لأى إعادة تقييم وذلك بالنقر علي <br /> رابط <b>السماح لـ $a القيام بإعادة التسليم </ b> الزّرّ . <br /> يستطيع الطّالب القيام بإعادة التسليم عندما يكون المؤشرظاهراً على<b>أيّ</ b> من تسليماته .';
 $string['rubric'] = 'قاعدة';
-$string['savedok'] = 'تم الحفظ ';
+$string['savedok'] = 'تم الحفظ';
 $string['saveentries'] = 'حفظ المواد';
 $string['savemyassessment'] = 'احفظ تقييمي';
 $string['saveweights'] = 'حفظ الأوزان';
@@ -145,7 +146,7 @@ $string['studentallowedtoresubmit'] = '$a سمح له بإعادة التسلي�
 $string['studentassessments'] = '$a تقييمات';
 $string['studentnotallowed'] = '$a لم سمح له بإعادة التسليم';
 $string['studentsubmissions'] = '$a تسليمات';
-$string['studentsubmissionsforassessment'] = ' $a تسليمات الطالب للتقييم';
+$string['studentsubmissionsforassessment'] = '$a تسليمات الطالب للتقييم';
 $string['submission'] = 'تسليم';
 $string['submissions'] = 'تسليمات';
 $string['submissionsnowclosed'] = 'التسليم مغلق الان - موعد التسليم قد انتهاء';
@@ -153,19 +154,19 @@ $string['submitexercisedescription'] = 'سلم وصف التمرين';
 $string['submitted'] = 'تم تسليمة';
 $string['submittedby'] = 'تم تسليمة بواسطة';
 $string['suggestedgrade'] = 'الدرجة المقترحة';
-$string['teacherassessment'] = ' $a تقييم';
-$string['teacherassessmenttable'] = ' $a جدول التقييم ';
+$string['teacherassessment'] = '$a تقييم';
+$string['teacherassessmenttable'] = '$a جدول التقييم';
 $string['teacherscomment'] = 'تعليقات المدرس';
 $string['theexercise'] = 'التمرين';
-$string['theexerciseandthesubmissionby'] = ' $a التمرين والتسليم بواسطة';
-$string['thegradeis'] = ' $a الدرجة هي';
-$string['thereisfeedbackfromthe'] = ' $a يوجد تعليق من';
+$string['theexerciseandthesubmissionby'] = '$a التمرين والتسليم بواسطة';
+$string['thegradeis'] = '$a الدرجة هي';
+$string['thereisfeedbackfromthe'] = '$a يوجد تعليق من';
 $string['thisisaresubmission'] = 'إعادة التسليم هذه بواسطة a . 
 <br />  تم اظهار تقييمك للتسليمهم $ السّابق. <br /> بعد النّظر في التسليم الجديد, من فضلك صحّح هذا التّقييم <br /> وذلك بالنقر على أحد الأزرار في أسفل الصّفحة .';
 $string['title'] = 'عنوان';
 $string['typeofscale'] = 'نوع القياس';
 $string['unassessed'] = '$a لم يقييم';
-$string['ungradedstudentassessments'] = ' $a لم يتم رصد درجات لتقييمات الطالب';
+$string['ungradedstudentassessments'] = '$a لم يتم رصد درجات لتقييمات الطالب';
 $string['usemaximum'] = 'استخدم الاقصى';
 $string['usemean'] = 'استخدم المتوسط';
 $string['usepassword'] = 'استخدم كلمة مرور';

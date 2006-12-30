@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6 development (2005052400)
+      // editor.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['about'] = 'حول هذا المحرر';
@@ -13,7 +13,7 @@ $string['anchorname'] = 'اسم المثبت';
 $string['anchors'] = 'مثبتات';
 $string['baseline'] = 'اساس';
 $string['bold'] = 'داكن';
-$string['borderthickness'] = 'ُسمك الاطار ';
+$string['borderthickness'] = 'ُسمك الاطار';
 $string['bottom'] = 'سفلي';
 $string['browse'] = 'استعرض';
 $string['cancel'] = 'إلغاء';
@@ -31,6 +31,7 @@ $string['createlink'] = 'أدراج رابط ويب';
 $string['cut'] = 'قص المختار';
 $string['cutpastemozilla'] = 'للأسف، لا تستطيع حاليا أستخدام اختصارات مفاتيح الوحة (لو زر اللصق) للصق لانص في هذا المحرر مباشرة. وهذا عائد لان خاصية الأمان المضمنه في بعض غصدارات كل من المتصف موزالا وفير فوكس.<br /><br /> يوجد ثلاثة حلول يمكنك استخدامها: (1) عوضا عن استخدام CTRL-v، استخدم SHIFT-Insert <br />  (2) استخدم لصق من قائمة تحرير الخاصة بالمتصفح <br /> (3) قم بتغير التفضيلات في متصفحك وذلك من خلال تحرير ملف user.js  <br /><br /> أنقر رز موافق لمزيد من المساعدة أو زر إلغاء للعودة إلى المحرر.';
 $string['delete'] = 'أحذف';
+$string['enterurlfirst'] = 'يجب عليلك إدخل العنوان أولاً';
 $string['filebrowser'] = 'مستعرض الملف';
 $string['findwhat'] = 'أبحث';
 $string['fontname'] = 'أسم الخط';
@@ -57,6 +58,7 @@ $string['justifycenter'] = 'ضبط التوسيط';
 $string['justifyfull'] = 'ضبط كامل';
 $string['justifyleft'] = 'ضبط اليسار';
 $string['justifyright'] = 'ضبط اليمين';
+$string['lang'] = 'لغة';
 $string['layout'] = 'تخطيط';
 $string['left'] = 'يسار';
 $string['lefttoright'] = 'اتجاه النص من اليسار إلى اليمين';
@@ -73,6 +75,8 @@ $string['matchcase'] = 'طابق الحالة';
 $string['middle'] = 'وسط';
 $string['minimize'] = 'تصغير المحرر';
 $string['move'] = 'حرك';
+$string['multi'] = 'متعدد';
+$string['mustenterurl'] = 'يجب ادخال العنوان';
 $string['nolink'] = 'لا تسمح بالربط الآلي';
 $string['normal'] = 'عادي';
 $string['notimage'] = 'الملف المختار ليس صورة. الرجاء إختيار صورة';
@@ -85,6 +89,7 @@ $string['paste'] = 'انسخ من الحافظة';
 $string['path'] = 'مسار';
 $string['percent'] = 'نسبه';
 $string['pixels'] = 'بكسل';
+$string['pleaseenteralt'] = 'الرجاء إدخال نص بديل';
 $string['popupeditor'] = 'تكبير المحرر';
 $string['preformatted'] = 'منسق سابقاً';
 $string['preview'] = 'معاينة';

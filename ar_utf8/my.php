@@ -1,9 +1,11 @@
 <?PHP // $Id$ 
-      // my.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // my.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['mymoodle'] = 'مودل الخاص بي';
 $string['nocourses'] = 'لا يوجد معلومات لمقرر دراسي ليتم اظهرها';
 $string['noguest'] = 'صفحة مودل الخاص بي غير متاحة للزوار';
+$string['pinblocks'] = 'إعاداد الكتل الخاصة بمودل الخاص بي';
+$string['pinblocksexplan'] = 'أى إعدادات خاصة بالكتل تقوم بتعريفها هنا ستكون ظاهره (وغير مسموح بتحريرها) لكل المستخدمين لمودل في مودل الخاص بهم.';
 
 ?>

@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // error.php - created with Moodle 1.8 dev (2006101001)
 
 
-$string['adminprimarynoedit'] = 'لايمكن للأخرين تحرير المدير الرئيسي ';
+$string['adminprimarynoedit'] = 'لايمكن للأخرين تحرير المدير الرئيسي';
 $string['cannotcreatelangdir'] = 'لم يتم أنشاء دليل اللغة';
 $string['cannotcreatetempdir'] = 'لم يتم أنشاء الدليل المؤقت';
 $string['cannotdownloadcomponents'] = 'لم يتم تنزيل بعض العناصر';
@@ -20,7 +20,7 @@ $string['erroronline'] = 'خطاء في سطر $a';
 $string['errorreadingfile'] = 'خطاء في قراءة ملف \"$a\"';
 $string['errorunzippingfiles'] = 'خطاء في فك الملفات المضغوطة';
 $string['fieldrequired'] = '\"$a\" حقل مطلوب';
-$string['filenotfound'] = 'عذراً، لم يتم العثور على  الملف المطلوب ';
+$string['filenotfound'] = 'عذراً، لم يتم العثور على  الملف المطلوب';
 $string['groupalready'] = 'المستخدم ينتمي للمجموعة $a';
 $string['groupunknown'] = 'المجموعة $a  لا يرتبط بأي منهج دراسي محدد';
 $string['invalidfieldname'] = '\"$a\" اسم الحقل غير صحيح';
