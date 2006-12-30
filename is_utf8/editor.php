@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6.1 (2006050510)
+      // editor.php - created with Moodle 1.7 beta 2 (2006101003)
 
 
 $string['about'] = 'Um þennan ritil';
 $string['absbottom'] = 'Absbottom';
 $string['address'] = 'Slóð';
 $string['alertnoselectedtext'] = 'Þú verður að velja texta fyrst!';
-$string['alignment'] = 'Jöfnun';
+$string['alignment'] = 'Textajöfnun';
 $string['alternatetext'] = 'Alternate text';
 $string['anchorhelp'] = 'Þessi aðgerð býr einungis til bókamerki. Þú verður samt sem áður að búa til krækjuna handvirkt.';
 $string['anchorname'] = 'Heiti á bókamerki';
@@ -20,15 +20,16 @@ $string['cancel'] = 'Hætta við';
 $string['cellpadding'] = 'Cellpadding';
 $string['cellspacing'] = 'Cellspacing';
 $string['choosechar'] = 'Veldu tákn';
-$string['chooseicon'] = 'Choose an icon to insert';
+$string['chooseicon'] = 'Veldu tákn';
 $string['close'] = 'Loka';
 $string['closeafterreplace'] = 'Loka eftir skipti';
 $string['cols'] = 'Dálkar';
 $string['copy'] = 'Afrita val';
 $string['createanchor'] = 'Búa til bókamerki';
-$string['createfolder'] = 'Mynda möppu';
+$string['createfolder'] = 'Búa til möppu';
 $string['createlink'] = 'Búa til krækju';
-$string['cut'] = 'Klippa valið';
+$string['cut'] = 'Klippa valinn texta';
+$string['cutpastemozilla'] = 'Í öryggisskyni er því miður er ekki hægt að nota hefðbunda flýtilykla til að líma texta í þennan ritil.<br /><br />Þú getur hinsvegar gert eitt af eftirfarandi:<br /> (1) Í stað CTRL - v er hægt að nota SHIFT-Insert<br /> (2)Notaðu Edit->Paste skipunina í valseðli vefskoðarans<br /> (3) Breyttu sjálfgefnum eigindum vefskoðarans með því að breyta user.js skránni.<br /><br />Smelltu á OK hnappinn hér fyrir neðan fyrir frekari hjálp, eða Cancel til að snúa aftur í ritilinn.';
 $string['delete'] = 'Eyða';
 $string['filebrowser'] = 'Skráarskoðari';
 $string['findwhat'] = 'Finna';
@@ -36,6 +37,7 @@ $string['fontname'] = 'Leturgerð';
 $string['fontsize'] = 'Leturstærð';
 $string['forecolor'] = 'Litur á letri';
 $string['formatblock'] = 'Snið';
+$string['fullscreen'] = 'Heilskjár';
 $string['heading'] = 'Fyrirsögn';
 $string['height'] = 'Hæð';
 $string['hilitecolor'] = 'Bakgrunnslitur';
@@ -44,7 +46,7 @@ $string['horizontalrule'] = 'Lárétt reglustika';
 $string['htmlmode'] = 'Toggle HTML Source';
 $string['imageurl'] = 'URL myndar';
 $string['indent'] = 'Auka inndrátt';
-$string['insertchar'] = 'Insert Special Character';
+$string['insertchar'] = 'Setja inn sértákn';
 $string['insertimage'] = 'Ný mynd';
 $string['insertlink'] = 'Ný krækja';
 $string['insertsmile'] = 'Broskarl';
@@ -66,6 +68,7 @@ $string['linktargetself'] = 'Sami rammi';
 $string['linktargettop'] = 'Sami gluggi';
 $string['linktitle'] = 'Titill';
 $string['linkurl'] = 'URL';
+$string['matchcase'] = 'Stafstaða skiptir máli';
 $string['middle'] = 'Miðja';
 $string['minimize'] = 'Minnka ritil';
 $string['move'] = 'Færa';
@@ -86,6 +89,7 @@ $string['preformatted'] = 'Forsniðið';
 $string['preview'] = 'Forskoða';
 $string['properties'] = 'Eiginleikar';
 $string['redo'] = 'Endurtaka síðustu aðgerð';
+$string['regularexpressions'] = 'Nota reglulegar segðir';
 $string['removelink'] = 'Fjarlægja krækju';
 $string['rename'] = 'Endurnefna';
 $string['replaceall'] = 'Skipta um allt';

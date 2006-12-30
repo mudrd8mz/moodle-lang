@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.6 Beta 5 (2006050505)
+      // block_rss_client.php - created with Moodle 1.7 beta 2 (2006101003)
 
 
 $string['addfeed'] = 'Slóð að nýju fréttaskeyti:';
@@ -31,6 +31,8 @@ $string['managefeeds'] = 'Skeytin mín';
 $string['nofeeds'] = 'Það eru engin RSS skeyti skilgreind fyrir þennan vef.';
 $string['pickfeed'] = 'Veldu fréttaskeyti';
 $string['remotenewsfeed'] = 'RSS fréttaskeyti';
+$string['rss_client:manageanyfeeds'] = 'Sýsla með alla RSS strauma';
+$string['rss_client:manageownfeeds'] = 'Sýsla með eigin RSS strauma';
 $string['seeallfeeds'] = 'Sjá öll skeyti';
 $string['shownumentrieslabel'] = 'Hámarksfjöldi atriða í hverri blokk';
 $string['submitters'] = 'Hver hefur heimild til að skilgreina RSS fréttaskeytið Skilgreind fréttaskeyti eru aðgengileg af öllum síðum vefsins.';

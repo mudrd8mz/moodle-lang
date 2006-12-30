@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6.1 (2006050510)
+      // blog.php - created with Moodle 1.7 beta 2 (2006101003)
 
 
 $string['addnewentry'] = 'Ný færsla';
@@ -13,6 +13,8 @@ $string['blogtags'] = 'Tög';
 $string['courseblog'] = 'Blogg fyrir áfangann: $a';
 $string['courseblogs'] = 'Notendur geta einungis séð blogg nemenda sem eru í sama áfanga';
 $string['disableblogs'] = 'Gera bloggkerfi óvirkt';
+$string['emptybody'] = 'Þú verður að fylla út meginmál bloggfærslunnar';
+$string['emptytitle'] = 'Þú verður að skrá titil';
 $string['entrybody'] = 'Meginmál bloggs';
 $string['entrybodyonlydesc'] = 'Lýsing á færslu';
 $string['entryerrornotyours'] = 'Þetta er ekki þín færsla';
@@ -36,6 +38,7 @@ $string['publishto'] = 'Birta';
 $string['publishtonoone'] = 'sjálfum þér (drög)';
 $string['publishtosite'] = 'öllum skráðum notendum vefsins';
 $string['publishtoworld'] = 'öllum í heiminum';
+$string['settingsupdatederror'] = 'Villa kom upp. Ekki var hægt að uppfæra stillingar á bloggi.';
 $string['siteblog'] = 'Vefblogg: $a';
 $string['siteblogs'] = 'Allir notendur þessa vefs geta séð allar bloggfærslurnar';
 $string['tagdatelastused'] = 'Dagsetningartag var síðast notað';
@@ -47,5 +50,6 @@ $string['userblog'] = 'Blogg: $a';
 $string['viewcourseentries'] = 'Birta færslur í áfanga';
 $string['viewmyentries'] = 'Birta mínar færslur';
 $string['viewsiteentries'] = 'Birta allar færslur á vefnum';
+$string['worldblogs'] = 'Færslur sem eru aðgengilegar öllum eru opnar öllum heiminum.';
 
 ?>

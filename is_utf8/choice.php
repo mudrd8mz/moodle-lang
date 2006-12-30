@@ -1,11 +1,14 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // choice.php - created with Moodle 1.7 beta 2 (2006101003)
 
 
 $string['addmorechoices'] = 'Bæta við valmöguleikum';
 $string['allowupdate'] = 'Leyfa uppfærslu á spurningum';
 $string['answered'] = 'Svarað';
 $string['choice'] = 'Valkostur $a';
+$string['choice:deleteresponses'] = 'Eyða svörum';
+$string['choice:downloadresponses'] = 'Sækja svör';
+$string['choice:readresponses'] = 'Lesa svör';
 $string['choiceclose'] = 'Þangað til';
 $string['choicename'] = 'Spurning';
 $string['choiceopen'] = 'Opið';
@@ -20,6 +23,8 @@ $string['limitanswers'] = 'Takmarka fjölda svara';
 $string['modulename'] = 'Spurning';
 $string['modulenameplural'] = 'Spurningar';
 $string['mustchooseone'] = 'Þú verður að velja svar áður en þú vistar. Ekkert var vistað.';
+$string['noguestchoose'] = 'Því miður, gestum er ekki heimil þátttaka.';
+$string['noresultsviewable'] = 'Niðurstöður eru ekki aðgengilegar sem stendur.';
 $string['notanswered'] = 'Ósvarað';
 $string['notopenyet'] = 'Því miður, þessi aðgerð verður ekki virk fyrr en $a';
 $string['privacy'] = 'Ekki birta niðurstöður';

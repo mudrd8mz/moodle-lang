@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // quiz_regrade.php - created with Moodle 1.6 Beta 5 (2006050504)
+      // quiz_regrade.php - created with Moodle 1.7 beta 2 (2006101003)
 
 
-$string['regrade'] = 'Endurmeta';
+$string['regrade'] = 'Endurreikna';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6.1 (2006050510)
+      // chat.php - created with Moodle 1.7 beta 2 (2006101003)
 
 
 $string['beep'] = 'bjalla';
@@ -35,6 +35,7 @@ $string['neverdeletemessages'] = 'Aldrei eyða skilaboðum';
 $string['nextsession'] = 'Next scheduled session';
 $string['noguests'] = 'Spjallið er ekki opið gestum';
 $string['nomessages'] = 'Engin skilaboð enn';
+$string['normalstream'] = 'Streyma';
 $string['repeatdaily'] = 'Sama tíma á hverjum degi';
 $string['repeatnone'] = 'Engar endurtekningar - birta eingöngu uppgefinn tíma';
 $string['repeattimes'] = 'Endurtaka lotur';

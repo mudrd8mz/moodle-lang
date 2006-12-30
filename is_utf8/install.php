@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6.1 (2006050510)
+      // install.php - created with Moodle 1.7 beta 2 (2006101003)
 
 
 $string['admindirerror'] = 'Uppgefið \'admin\' skráarsafn er rangt';
@@ -12,6 +12,8 @@ $string['compatibilitysettingshead'] = 'Stillingar á PHP athugaðar';
 $string['compatibilitysettingssub'] = 'Vefþjóninn verður að standast allar þessar prófanir til þess að tryggja að Moodle keyri án vandkvæða';
 $string['configfilenotwritten'] = 'Uppsetningarforritið gat ekki myndað config.php skránna sem hefur að geyma stillingar vefsins. Líklegast vegna þess að skrifheimild vantar á Moodle skráarsafnið. Þú getur leyst þetta með að búa til skránna config.php í rót vefins og afritað eftirfarandi kóða í hana.';
 $string['configfilewritten'] = 'config.php skráin hefur verið mynduð';
+$string['configurationcomplete'] = 'Stillingu lokið';
+$string['configurationcompletehead'] = 'Stillingu lokið';
 $string['configurationcompletesub'] = 'Moodle gerði tilraun til þess að vista uppsetningarskránna í rót Moodle skráarsafnins.';
 $string['database'] = 'Gagnagrunnur';
 $string['databasecreationsettings'] = 'Nú er komið að því að setja upp gagnagrunninn þar sem flest gögn sem tilheyra Moodle eru hýst. Uppsetningarforritið skilgreinir gagnagrunninn með neðangreindum stillingum:
@@ -53,7 +55,25 @@ $string['dbpass'] = 'Lykilorð';
 $string['dbprefix'] = 'fortáknun taflna';
 $string['dbtype'] = 'Tegund';
 $string['dbwrongencoding'] = 'Kótun á uppgefnum gagnagrunni er af tegund ($a) sem ekki er mælt með. Betri kostur er að notast gagnagrunn með Unicode (UTF-8) kótun. Þú getur engu að síður haldið uppsetningunni áfram með því haka við \"Sleppa prófun á gagnagrunni\" hér að neðan, en mátt þá eiga von á vandamálum síðar.';
+$string['directorysettings'] = '<p><b>Vefslóð:</b>
+Gefðu upp fulla vefslóð að Moodle. Ef Moodle er aðgengilegt af fleiri en einni slóð skaltu skrá þá slóð sem líklegast er að nemendur muni nota. Ekki hafa skástrik í endanum.</p>
+
+<p><b>Moodle skráarsafnið:</b>
+Gefðu upp slóðina að skráarsafninu þar sem Moodle er vistað.</p>
+
+<p><b>Gagnamappa:</b>
+Moodle þarf á að halda skráarsafni þar sem gögn eru vistuð. Athugaðu að vefþjónninn verður að hafa bæði les- OG SKRIFHEIMILD á þetta skráarsafn (venjulega \'nobody\' eða \'apache\'). Skráarsafnið á hins vegar ekki að vera aðgengilegt beint í gegnum vefinn.</p>';
 $string['directorysettingshead'] = 'Vinsamlegast staðfestu staðsetningu á þessari Moodle uppsetningu';
+$string['directorysettingssub'] = '<b>Vefslóð:</b>
+Gefðu upp fulla vefslóð að Moodle. Ef Moodle er aðgengilegt af fleiri en einni slóð skaltu skrá þá slóð sem líklegast er að nemendur muni nota. Ekki hafa skástrik í endanum.
+<br />
+<br />
+<b>Moodle skráarsafnið:
+Gefðu upp slóðina að skráarsafninu þar sem Moodle er vistað.</p>
+<br />
+<br />
+<b>Gagnamappa:</b>
+Moodle þarf á að halda skráarsafni þar sem gögn eru vistuð. Athugaðu að vefþjónninn verður að hafa bæði les- OG SKRIFHEIMILD á þetta skráarsafn (venjulega \'nobody\' eða \'apache\'). Skráarsafnið á hins vegar ekki að vera aðgengilegt beint í gegnum vefinn.';
 $string['dirroot'] = 'Moodle skráarsafnið';
 $string['dirrooterror'] = 'Ekki tókst að finna Moodle uppsetningu í uppgefnu Moodle skráarsafni. Gildið hér að neðan hefur verið endursett.';
 $string['download'] = 'Sækja';
@@ -68,6 +88,9 @@ $string['gdversionerror'] = 'GD forritasafnið á að vera til staðar til að h
 $string['installation'] = 'Uppsetning';
 $string['langdownloaderror'] = 'Því miður tókst ekki að setja upp tungumálið $a. Uppsetning heldur áfram á ensku.';
 $string['langdownloadok'] = 'Tungumálið $a hefur verið sótt og sett upp. Innsetningarferlið heldur nú áfram á því máli.';
+$string['mssql'] = 'SQL *vefþjónn (mssql)';
+$string['mysql'] = 'MySQL (mysql)';
+$string['oci8po'] = 'Oracle (oci8po)';
 $string['pass'] = 'Staðið';
 $string['phpversion'] = 'PHP útgáfa';
 $string['phpversionerror'] = 'PHP útgáfan má ekki vera eldri en 4.1.0';
@@ -80,6 +103,7 @@ $string['phpversionhelp'] = '<p>Moodle requires a PHP version of at least 4.3.0 
 <p>Þú er með útgáfu $a</p>
 <p>Þú verður að uppfæra PHP eða velja vefþjónustu sem býður upp á nýrri útgáfu af PHP!<br/>
 (Ef þú notar útgáfu 5.0.x gætir þú hugsanlega breytt yfir í 4.4.x)</p>';
+$string['postgres7'] = 'PostgreSQL (postgres7)';
 $string['safemode'] = 'Safe Mode';
 $string['safemodeerror'] = 'Moodle getur átt í vandræðum ef \"Save mode\" stillingin er virkjuð';
 $string['welcomep10'] = '$a->installername ($a->installerversion)';

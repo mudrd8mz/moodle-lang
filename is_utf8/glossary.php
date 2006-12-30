@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6.1 (2006050510)
+      // glossary.php - created with Moodle 1.7 beta 2 (2006101003)
 
 
 $string['addcomment'] = 'Skrá athugasemd';
@@ -105,6 +105,17 @@ $string['fillfields'] = 'Það verður að gefa upp hugtak og skilgreiningu hugt
 $string['filtername'] = 'Sjálfvirkt tenging við efni';
 $string['fullmatch'] = 'Bera einungis saman heil orð';
 $string['globalglossary'] = 'Altækt safn';
+$string['glossary:approve'] = 'Samþykkja ósamþykktar færslur';
+$string['glossary:comment'] = 'Skrá athugasemdir';
+$string['glossary:export'] = 'Flytja út færslur';
+$string['glossary:import'] = 'Flytja inn færslur';
+$string['glossary:managecategories'] = 'Sýsla með flokka';
+$string['glossary:managecomments'] = 'Sýsla með athugasemdir';
+$string['glossary:manageentries'] = 'Sýsla með færslur';
+$string['glossary:rate'] = 'Meta færslur';
+$string['glossary:view'] = 'Skoða safn';
+$string['glossary:viewrating'] = 'Skoða mat';
+$string['glossary:write'] = 'Skrá nýja færslu';
 $string['glossaryleveldefaultsettings'] = 'Sjálfgefnar stillingar í safni';
 $string['glossarytype'] = 'Tegund safns';
 $string['importcategories'] = 'Flytja inn flokka';

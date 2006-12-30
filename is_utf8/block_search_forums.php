@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // block_search_forums.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // block_search_forums.php - created with Moodle 1.7 beta 2 (2006101003)
 
 
-$string['advancedsearch'] = 'Ítarleit';
+$string['advancedsearch'] = 'Nákvæm leit';
 $string['blocktitle'] = 'Leita í umræðum';
 
 ?>

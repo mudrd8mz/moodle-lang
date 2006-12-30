@@ -1,14 +1,17 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6.1 (2006050510)
+      // resource.php - created with Moodle 1.7 beta 2 (2006101003)
 
 
 $string['addresource'] = 'Nýtt efni';
+$string['affectedresources'] = 'Hefur áhrif á eftirfarandi aðföng';
 $string['back'] = 'Til baka';
 $string['browserepository'] = 'Sýsla í námsgagnasafni';
 $string['choose'] = 'Velja';
 $string['chooseafile'] = 'Veldu eða sæktu skrá';
 $string['chooseparameter'] = 'Veldu breytu';
 $string['configallowlocalfiles'] = 'Leyfa staðsetningu skráa á staðbundnum tölvukerfum, s.s. geisladiski eða hörðum diski tölvu. Þetta getur verið gagnlegt t.d. við aðstæður þar sem allir nemendur hafa aðgang að sameiginlegu drifi eða þar sem nauðsynlegt er að bjóða upp á aðgengi að gögnum á geisladiski. Nauðsynlegt getur verið að breyta öryggisstillingum í netvafra ef þessi möguleiki er virkjaður.';
+$string['configautofilerenamesettings'] = 'Uppfæra vísanir í skrár og skráarsöfn sjálfvirkt þegar nöfnum þeirra er breytt í skráarstjóra.';
+$string['configblockdeletingfilesettings'] = 'Koma í veg fyrir að eytt sé skrám og skráarsöfnum sem vísað er í úr aðföngum. Athugið að myndir og aðrar skrár sem vísað er í úr HTML eru ekki verndaðar á þennan hátt.';
 $string['configdefaulturl'] = 'Þetta er sjálfgefið gildi sem notað er þegar birta á slóð að vefsíðu.';
 $string['configframesize'] = 'Þegar vefsíða eða gögn eru birt innan ramma þá er þetta gildið sem ákvarðar stærð rammans efst á síðunni sem inniheldur Moodle hnappastikuna.';
 $string['configpopup'] = 'Á sjálgefið að birta nýtt efni í sprettiglugga ef það er mögulegt?';
@@ -35,7 +38,7 @@ $string['fetchclienterror'] = 'Villa kom upp þegar reynt var að opna vefsíðu
 $string['fetcherror'] = 'Villa kom upp þegar reynt var að opna vefinn.';
 $string['fetchservererror'] = 'Villa kom upp á vefþjóni þegar reynt var að sækja vefsíðuna (hugsanlega villa í forriti).';
 $string['filename'] = 'Skráarheiti';
-$string['filtername'] = 'Sjálfvirk vísun í vefi';
+$string['filtername'] = 'Sjálfvirk tenging við orð í texta';
 $string['frameifpossible'] = 'Birta efni í ramma til að Moodle notendaviðmótið verði áfram sýnilegt';
 $string['fulltext'] = 'Texti';
 $string['htmlfragment'] = 'HTML kóði';
@@ -68,22 +71,22 @@ $string['next'] = 'Næst';
 $string['notallowedlocalfileaccess'] = 'Aðgengi að staðværum skrám er lokað.';
 $string['notdeployed'] = 'Ekki í notkun';
 $string['note'] = 'Athugasemd';
-$string['notefile'] = 'To upload more files into the course (so they appear in this list) use the 
-<A HREF=$a >File Manager</A>.';
+$string['notefile'] = 'Notaður <A HREF=$a >skráarstjórann</A> til þess að sækja fleiri skrár í áfangann (þær munu þá birtast í þessum lista).';
 $string['notypechosen'] = 'Þú verður að velja tegund. Notaðu ,,Til baka\" hnappinn og veldu aftur.';
 $string['packagechanged'] = 'Þessum IMS efnispakka hefur verið breytt';
 $string['packagenotdeplyed'] = 'Þessi IMS efnispakki er ekki í notkun';
 $string['pagedisplay'] = 'Birta efni í núverandi glugga';
 $string['pagewindow'] = 'Sami gluggi';
 $string['pan'] = 'Hliðra';
-$string['parameter'] = 'Mörk';
-$string['parameters'] = 'Mörk';
+$string['parameter'] = 'Færibreyta';
+$string['parameters'] = 'Færibreytur';
 $string['popupresource'] = 'Þetta efni átti að birtast í sprettiglugga (popup)';
 $string['popupresourcelink'] = 'ef ekki, smelltu þá hér: $a';
 $string['preview'] = 'Forskoða';
 $string['previous'] = 'Fyrra';
 $string['redeploy'] = 'Útfæra aftur';
 $string['repository'] = 'IMS námsgagnasafn';
+$string['resource:view'] = 'Skoðaðu aðfang';
 $string['resourcetype'] = 'Tegund efnis';
 $string['resourcetype1'] = 'Heimild';
 $string['resourcetype2'] = 'Vefsíða';
@@ -92,7 +95,7 @@ $string['resourcetype4'] = 'Texti';
 $string['resourcetype5'] = 'Vefslóð';
 $string['resourcetype6'] = 'HTML texti';
 $string['resourcetype7'] = 'Hugbúnaður';
-$string['resourcetype8'] = 'Wiki texti';
+$string['resourcetype8'] = 'Texti á Wiki sniði';
 $string['resourcetype9'] = 'Skráarsafn';
 $string['resourcetypedirectory'] = 'Birta skráarsafn';
 $string['resourcetypefile'] = 'Vísun í skrá eða vef';

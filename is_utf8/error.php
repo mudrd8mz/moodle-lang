@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6.1 (2006050510)
+      // error.php - created with Moodle 1.7 beta 2 (2006101003)
 
 
 $string['adminprimarynoedit'] = 'Almennir notendur geta ekki breytt upplýsingum um kerfisstjóra';
@@ -11,8 +11,11 @@ $string['cannotfindcomponent'] = 'Finn ekki viðbótareiningu';
 $string['cannotsavemd5file'] = 'Get ekki vistað md5 skrá';
 $string['cannotsavezipfile'] = 'Get ekki vistað ZIP skrá';
 $string['cannotunzipfile'] = 'Get ekki afþjappað skrá';
+$string['cantunenrollfrommetacourse'] = 'Þú getur ekki skráð þig úr þessum lýsiáfanga';
+$string['cantunenrollinthisrole'] = 'Þú getur ekki skráð þig úr áfanga á meðan þú ert í núverandi hlutverki.';
 $string['confirmsesskeybad'] = 'Því miður tókst ekki að staðfesta lotulykilinn (session key) þinn við framkvæmd þessarar aðgerðar. Þessi öryggisráðstöfun kemur í veg fyrir að forritsk
 óði sé keyrður fyrir misgáning eða af illum ásetningi. Vinsamlegast gakktu úr skugga um að keyrsla þessa kóða sé nauðsynleg.';
+$string['couldnotassignrole'] = 'Alvarleg en ótilgreind villa átti sér stað þegar reynt var að úthluta þér hlutverki.';
 $string['coursegroupunknown'] = 'Enginn áfangi tengist hópnum $a';
 $string['errorcleaningdirectory'] = 'Villa við hreinsun skráarsafnsins \"$a\"';
 $string['errorcopyingfiles'] = 'Villa við afritun skráar';
@@ -32,6 +35,7 @@ $string['invalidcourse'] = 'Ótækur áfangi';
 $string['invalidfieldname'] = '\"$a\" er ekki gilt nafn á skrá';
 $string['invalidfiletype'] = '\"$a\" er ekki gild skráartegund';
 $string['invalidmd5'] = 'Ótækt md5';
+$string['invalidrole'] = 'Ótækt hlutverk';
 $string['invalidxmlfile'] = '\"$a\" er ekki gild XML skrá';
 $string['missingfield'] = 'Reitur \"$a\" er auður';
 $string['missingrequiredfield'] = 'Einhverjir reitir eru enn óútfylltir';
@@ -40,6 +44,7 @@ $string['modulerequirementsnotmet'] = 'Ekki var hægt að setja upp \"$a->module
 $string['mustbeteacher'] = 'Einungis kennarar geta birt þessa síðu';
 $string['noinstances'] = 'Það eru engin tilfelli af $a í þessum áfanga!';
 $string['nonmeaningfulcontent'] = 'Óskiljanlegt innihald';
+$string['nopermissions'] = 'Því miður, þú hefur ekki heimild til að gera það ($a)';
 $string['notavailable'] = 'Ekki aðgengilegt á þessari stundu';
 $string['onlyadmins'] = 'Einungis kerfisstjórar geta framkvæmt þetta';
 $string['onlyeditingteachers'] = 'Einungis kennarar með ritheimild geta framkvæmt þetta';

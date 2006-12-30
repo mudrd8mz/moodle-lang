@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6 Beta 5 (2006050504)
+      // wiki.php - created with Moodle 1.7 beta 2 (2006101003)
 
 
 $string['action'] = '-- Aðgerð --';
@@ -50,10 +50,10 @@ $string['emptypage'] = 'Auð síða';
 $string['errorbinandtxt'] = 'Flag error: Page of type BIN and TXT';
 $string['errorhtml'] = 'HTML síða';
 $string['errornotype'] = 'Flag error: Neither BIN nor TXT';
-$string['errororreason'] = 'Error or reason';
+$string['errororreason'] = 'Villuboð eða ástæða';
 $string['errorroandwr'] = 'Flag error: Page is Writeable and Read only';
 $string['errorsize'] = 'Síðustærð yfir 64k';
-$string['errversionsave'] = 'Sorry, while you edited this page someone else did already save a changed version. Please go back to the previous screen and copy your changes to your computers clipboard to insert it again after you reload the edit screen.';
+$string['errversionsave'] = 'Því miður vistaði annar notandi þessa síðu með breytingum á meðan þú vannst í henni. Vinsamlegast farðu til baka og afritaðu breytingarnar þínar þannig að þú getir sett þær aftur inn eftir að þú eftur endurhlaðið síðunni.';
 $string['ewikiacceptbinary'] = 'Leyfa tvíundarskrár';
 $string['ewikiprinttitle'] = 'Prenta nafn Wiki á hverja síðu';
 $string['export'] = 'Flytja út';
@@ -104,6 +104,7 @@ $string['noadministrationaction'] = 'Engin skipun gefin.';
 $string['nocandidatestoremove'] = 'Engar síður fundust til að eyða, veldur \'$a\' til þess að birta allar síður.';
 $string['nochangestorevert'] = 'Engar breytingar til að afturkalla';
 $string['nohtml'] = 'Ekki HTML';
+$string['nojslockwarning'] = 'Javascript er ekki virkjað í vefskoðaranum þínum og því er hugsanlegt að einhver annar notandi gæti breytt þessari síðu á sama tíma og þú. Ef það á sér stað munt þú ekki geta vistað þínar breytingar. Vinsamlegast vertu snögg(ur) að framkvæma þær breytingar sem þú vilt gera eða virkjaðu javascript og kallaðu þessa síðu aftur fram.';
 $string['nolinksfound'] = 'Engir tenglar fundust á síðu';
 $string['noregexp'] = 'This must be a fixed string (you cannot use * or regex), at best use the attackers` IP address or host name, but do not include the port number (because it increased with every http access).';
 $string['notadministratewiki'] = 'Þú hefur ekki heimild til að ritstýra þessu Wiki !';
@@ -129,6 +130,8 @@ $string['plaintext'] = 'Hreinn texti';
 $string['preview'] = 'Forskoðun';
 $string['readonly'] = 'Read only page';
 $string['refs'] = 'Heimildir';
+$string['reloadlinkdescription'] = 'Endurhleður síðunni þannig að breytingar verða sýnilegar.';
+$string['reloadlinktext'] = 'Endurhlaða þessa síðu';
 $string['removenotice'] = 'Note that only unreferenced pages will be listed here. And because the ewiki engine itself does only limited testing if a page is referenced it may miss some of them here.<br>If you however empty a page first, it will get listed here too. Various other database diagnostics are made as well.';
 $string['removepagecheck'] = 'Ert\'u viss um að þú viljir eyða þessum síðum?';
 $string['removepages'] = 'Eyða síðum';
@@ -174,6 +177,8 @@ $string['versionstodelete'] = 'Útgáfur sem á að eyða';
 $string['viewpage'] = 'Skoða síðu';
 $string['viewsmfor'] = 'Skoða vefkort fyrir';
 $string['wantedpages'] = 'Vantar síður';
+$string['wiki:manage'] = 'Sýsla með stillingar á wiki';
+$string['wiki:participate'] = 'Breyta wiki síðum';
 $string['wikidefaultpagename'] = 'WikiIndex';
 $string['wikiexport'] = 'Flytja út síður';
 $string['wikiexportcomment'] = 'Hér er hægt að skilgreina útflutning wiki vefsins';
