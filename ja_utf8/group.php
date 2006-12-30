@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 dev (2006102600)
+      // group.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['addexistinggroupstogrouping'] = '既存のグループをグルーピングに追加する';
@@ -17,12 +17,15 @@ $string['defaultgroupprefix'] = 'グループ';
 $string['deletegrouping'] = 'グルーピングを削除する';
 $string['deleteselectedgroup'] = '選択したグループを削除する';
 $string['displaygrouping'] = 'グルーピングを表示する';
+$string['distributealphabetically'] = '姓のアルファベット順にグループに割り当てる';
+$string['distributeevenly'] = '残りの学生を均一に割り当てる';
 $string['editgroupingpermissions'] = 'グルーピングパーミッションを編集する';
 $string['editgroupingsettings'] = 'グルーピング設定を編集する';
 $string['editgroupsettings'] = 'グループ設定を編集する';
 $string['enrolmentkey'] = '登録キー';
 $string['group'] = 'グループ';
 $string['groupdescription'] = 'グループ説明';
+$string['groupfor'] = 'グループ';
 $string['groupinfo'] = '選択したグループの情報';
 $string['groupinfomembers'] = '選択したメンバーの情報';
 $string['groupinfopeople'] = '選択した人の情報';
@@ -50,13 +53,19 @@ $string['newpicture'] = '新しい写真';
 $string['numberofgroups'] = 'グループ数';
 $string['numberofstudents'] = '学生数';
 $string['prefixforgroupnames'] = 'グループ名の接頭辞';
+$string['printerfriendly'] = 'グルーピングのプリンタフレンドリ表示';
 $string['removegroupfromselectedgrouping'] = '選択したグルーピングからグループを削除する';
 $string['removeselectedusers'] = '選択したユーザを削除する';
 $string['save'] = '保存';
-$string['teachersgroupview'] = '教師は自分が属していないグループの活動を閲覧できない';
-$string['teachersoverride'] = '教師は自分が属していないグループの活動を閲覧および評定できる (上記をオーバーライド)';
-$string['viewallgroupsactivities'] = '学生はすべてのグループの活動を閲覧のみできる';
-$string['viewallgroupsmembers'] = '学生はすべてのグループのメンバーを閲覧できる';
-$string['viewowngroup'] = '学生は自分が属しているすべてのグループのメンバーを閲覧できる';
+$string['selectnumberineachgroup'] = '各グループの学生数を選択する';
+$string['selectnumberofgroups'] = 'グループ数を選択する';
+$string['showusersalreadyingroup'] = 'すでにグルーピングのグループに登録されているユーザを表示する。';
+$string['teachersgroupmark'] = '教師は自分が属していないグループの活動を評定できない。';
+$string['teachersgroupview'] = '教師は自分が属していないグループの活動を閲覧できない。';
+$string['teachersoverride'] = '教師は自分が属していないグループの活動を閲覧および評定できる (上記をオーバーライド)。';
+$string['usestudentsonlyfromselectedgroup'] = '現在選択されているグループの学生のみ使用する。';
+$string['viewallgroupsactivities'] = '学生はすべてのグループの活動を閲覧のみできる。';
+$string['viewallgroupsmembers'] = '学生はすべてのグループのメンバーを閲覧できる。';
+$string['viewowngroup'] = '学生は自分が属しているすべてのグループのメンバーを閲覧できる。';
 
 ?>
