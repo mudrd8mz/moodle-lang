@@ -1,0 +1,68 @@
+<?PHP // $Id$ 
+      // message.php - created with Moodle 1.5.3+ (2005060230)
+
+
+$string['addcontact'] = 'Tāpiri Hoapā';
+$string['addsomecontacts'] = 'Hei tuku karere ki tētahi, hei tāpiri pokatata rānei mōna ki runga i tēnei whārangi, whakamahia te ripa <a href=\"$a\">search tab</a> o runga ake nei.';
+$string['addsomecontactsincoming'] = 'I ahu mai ēnei karere i ngā tāngata kāore e whai wāhi ana ki tō rārangi hoapā. Hei tāpiri i a rātou ki ō hoapā, pāwhiritia te ata \"Tāpiri Hoapā\" kei te taha o ō rātou ingoa.';
+$string['ago'] = '$a i mua';
+$string['allmine'] = 'Ngā karere katoa ki ahau, mai i ahau rānei';
+$string['allstudents'] = 'Ngā karere katoa i waenganui i ngā ākonga o te pū akoranga';
+$string['allusers'] = 'Ngā karere katoa mai i ngā kaiwhakamahi katoa';
+$string['backupmessageshelp'] = 'Ki te whakahohea, ka whakaurungia ngā karere inamata ki ngā pūrua aunoa o te PAE';
+$string['beepnewmessage'] = 'Tīoro mai, inā puta mai he karere hōu (tērā pea ka hiahia i tētahi monomai pūtirotiro e āhei ana ki te whakapāoho i ngā oro, pēnei ake i te Quicktime).';
+$string['blockcontact'] = 'Pare Hoapā';
+$string['blockedmessages'] = '$a (te) karere ki/mai i ngā kaiwhakamahi kua parea';
+$string['blocknoncontacts'] = 'Kaupare ngā karere hōu katoa mēnā kāore te kaituku mai i runga i taku rārangi hoapā';
+$string['contactlistempty'] = 'Karekau he hoapā i roto i tō rārangi hoapā i tēnei wā';
+$string['contacts'] = 'Ngā Hoapā';
+$string['context'] = 'horopaki';
+$string['deletemessagesdays'] = 'Tau o ngā rangi ka mukua aunoa ai ngā karere tawhito';
+$string['discussion'] = 'Whakawhiti Kōrero';
+$string['emailmessages'] = 'Ngā karere īmēra inā tuimotu kē ahau';
+$string['emailtagline'] = 'He tārua tēnei īmēra o tētahi karere i tukuna atu ai ki a koe ki \"$a\"';
+$string['emptysearchstring'] = 'Me rapu mō tētahi mea';
+$string['formorethan'] = 'Kia nui atu i';
+$string['includeblockedusers'] = 'Whakauru i ngā kaiwhakamahi kua pare';
+$string['incomingcontacts'] = 'Ngā Hoapā Taumai ($a)';
+$string['keywords'] = 'Ngā Kupumatua';
+$string['keywordssearchresults'] = 'Ngā Hua Rapu: E $a ngā karere i kitea';
+$string['maxmessages'] = 'Tau mōrahi o ngā karere hei whakaatu i te hītori matapaki';
+$string['message'] = 'Karere  ';
+$string['messagehistory'] = 'Hītori Karere';
+$string['messages'] = 'Ngā Karere';
+$string['messaging'] = 'Whakakarere';
+$string['mycontacts'] = 'Aku Hoapā';
+$string['newsearch'] = 'Rapunga Hōu';
+$string['nomessages'] = 'Kāore he karere e tatari ana';
+$string['nomessagesfound'] = 'Kāore he karere i kitea';
+$string['nosearchresults'] = 'Karekau he hua i puta i tō rapu';
+$string['offline'] = 'Tuimotu';
+$string['offlinecontacts'] = 'Hoapā Tuimotu ($a)';
+$string['online'] = 'Tuihono';
+$string['onlinecontacts'] = 'Hoapā Tuihono ($a)';
+$string['onlyfromme'] = 'Ngā karere mai i a au anake';
+$string['onlymycourses'] = 'I roto i aku akoranga anake';
+$string['onlytome'] = 'Ngā karere ki a au anake';
+$string['pagerefreshes'] = 'Ka tāmata aunoa ai tēnei whārangi i ia $a hekona';
+$string['readmessages'] = '$a pānui karere';
+$string['removecontact'] = 'Tango Hoapā';
+$string['savemysettings'] = 'Tiaki aku tautuhinga';
+$string['search'] = 'Rapu  ';
+$string['searchforperson'] = 'Rapu Tētahi Tangata';
+$string['searchmessages'] = 'Rapu Ngā Karere';
+$string['sendmessage'] = 'Tuku Karere';
+$string['sendmessageto'] = 'Tuku karere ki a $a';
+$string['settings'] = 'Ngā Tautuhinga';
+$string['settingssaved'] = 'Kua tiakina ō tautuhinga';
+$string['showmessagewindow'] = 'Whakaatu aunoatia te matapihi Karere inā tae mai he karere hōu (me whakarite tō pūtirotiro kia kore ai ngā pahū-ake e parea i tēnei pae)';
+$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
+$string['timenosee'] = 'Ngā mēneti mai i te wā i noho tuihono ai ahau';
+$string['timesent'] = 'Wā Tuku';
+$string['unblockcontact'] = 'Whakawātea Hoapā';
+$string['unreadmessages'] = '$a ngā karere kāore anō kia pānui';
+$string['userisblockingyou'] = 'E parea atu ana ō karere e tēnei kaiwhakamahi';
+$string['userisblockingyounoncontact'] = 'E whakaae ana tēnei kaiwhakamahi ki ngā karere mai i tana rārangi hoapā anake, ā, i tēnei wā, kāore koe e whai wāhi ana ki taua rārangi.';
+$string['userssearchresults'] = 'Ngā Hua Rapu: E $a ngā kaiwhakamahi i kitea';
+
+?>

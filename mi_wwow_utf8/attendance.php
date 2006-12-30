@@ -1,0 +1,72 @@
+<?PHP // $Id$ 
+      // attendance.php - created with Moodle 1.5.3+ (2005060230)
+
+
+$string['absentlong'] = 'I Ngaro';
+$string['absentshort'] = 'Ng';
+$string['addingmultiple'] = 'Tāpiri Ngā Rārangi Kaitatū Maha';
+$string['addmultiple'] = 'Tāpiri Ngā Rārangi Kaitatū Maha';
+$string['allmodulename'] = 'Ngā Rārangi Kaitatū Katoa';
+$string['auto'] = 'aunoa';
+$string['autoattend'] = 'Whakamahia aunoa te rārangi kaitatū i runga anō i ngā rangitaki mahi mō ngā kaiwhakamahi';
+$string['autoattendmulti'] = 'Whakamahia aunoa te rārangi kaitatū mō ngā rārangi katoa i runga anō i ngā rangitaki mahi mō ngā kaiwhakamahi';
+$string['autoattendshort'] = 'Aunoa Mai i Ngā Rangitaki';
+$string['choosedays'] = 'Ngā rā o ia wiki hei whakamahi rārangi kaitatū';
+$string['dayofroll'] = 'Rā hei whakamahi rārangi kaitatū';
+$string['defaultautoattend'] = 'Mehemea ka mahi taunoatia te rārangi kaitatū i runga anō i ngā rangitaki hohe mō ngā kaiwhakamahi';
+$string['defaultdynamicsection'] = 'Mēnā ka nuku taunoatia ngā rārangi kaitatū ki te wiki tika';
+$string['defaultgrade'] = 'Mehemea ka māka taunoatia ngā rārangi kaitatū';
+$string['defaulthoursinclass'] = 'E hia haora i te rārangi kaitatū taunoa';
+$string['defaultmaxgrade'] = 'Ko te māka mōrahi taunoa mō te tatū mai katoa';
+$string['defaultstudentstatus'] = 'Te tūnga tatū ākonga taunoa i ngā rārangi kaitatū hōu';
+$string['downloadexcelfull'] = 'Tikiake Ripakaute Excel Katoa ';
+$string['downloadexceltotals'] = 'Tikiake Ripakaute Excel Whakarāpopoto ';
+$string['downloadtextfull'] = 'Tikiake Pūrongo Kuputuhi Katoa';
+$string['downloadtexttotals'] = 'Tikiake Pūrongo Kuputuhi Whakarāpopoto';
+$string['dynamicsection'] = 'Mai i tēnei rā, whakaritea te wiki mō te tatū mai';
+$string['dynamicsectionmulti'] = 'Raua aunoatia ngā rārangi kaitatū ki ō rātou wāhanga wiki';
+$string['dynsectionshort'] = 'I nukuhia ki te wāhanga';
+$string['endbeforestart'] = 'Kei mua te rā whakamutunga i te rā tīmatanga';
+$string['endmulti'] = 'Rā mō te rārangi kaitatū whakamutunga';
+$string['for'] = 'mō';
+$string['friday'] = 'Me';
+$string['gradeshort'] = 'Kua Mākahia';
+$string['gradevalue'] = 'Mahia kia taea tēnei rārangi te māka';
+$string['gradevaluemulti'] = 'Mahia kia taea ēnei rārangi te māka';
+$string['hoursinclass'] = 'Ngā hāora i te wā karaehe';
+$string['hoursineachclass'] = 'Ngā hāora i ia wā karaehe';
+$string['hoursinfullreport'] = 'Te mōrahi o ngā hāora tatū mai me whakaatu ki te whārangi kotahi o te pūrongo';
+$string['maxgradeshort'] = 'Māka Mōrahi';
+$string['maxgradevalue'] = 'Te uara māka mōrahi mō te tatū katoa mai';
+$string['modulename'] = 'Tatū Mai';
+$string['modulenameplural'] = 'Rārangi Kaitatū Mai';
+$string['monday'] = 'Hi';
+$string['norolls'] = 'Kāore he rārangi kaitatū i tēnei pū akoranga';
+$string['notes'] = 'Take o te Kore Tatū Mai';
+$string['notesfor'] = 'Take o te Kore Tatū Mai Mō';
+$string['noviews'] = 'Kāore he raraunga mō tō pūkete i konei';
+$string['of'] = 'o';
+$string['pages'] = 'Ngā Whārangi';
+$string['presentlong'] = 'Whakaatu';
+$string['presentshort'] = 'Whakaatu';
+$string['saturday'] = 'Ho';
+$string['startafterend'] = 'Hei muri te mutunga o te pū akoranga i te rā tīmata';
+$string['startmulti'] = 'Te rā mō te rārangi kaitatū tuatahi';
+$string['sunday'] = 'Ta';
+$string['takeroll'] = 'Mahia te rārangi i tēnei rangi?';
+$string['tardiesperabsence'] = 'E hia ngā takaroanga mō tētahi ngaronga i te karaehe';
+$string['tardylong'] = 'Takaroa';
+$string['tardyshort'] = 'T';
+$string['teacheredit'] = 'Mahia te rārangi kaitatū';
+$string['thursday'] = 'Pa';
+$string['tuesday'] = 'Tū';
+$string['viewall'] = 'Tiro Ngā Rārangi Kaitatū Katoa';
+$string['viewmulti'] = 'Tiro Pūrongo hei Whārangi Maha';
+$string['viewone'] = 'Tiro Ngā Whārangi Katoa o te Pūrongo';
+$string['viewsection'] = 'Tiro Ngā Rārangi Kaitatū Katoa Mai i Tēnei Wāhanga';
+$string['viewtable'] = 'Tiro Pūrongo hei Ripanga Kotahi';
+$string['viewweek'] = 'Tiro Ngā Rārangi Kaitatū Katoa Mai i Te Maramataka Wiki';
+$string['wednesday'] = 'Ap';
+$string['weekmodulename'] = 'Ngā Rārangi Kaitatū Katoa Mai i Tērā Wiki';
+
+?>

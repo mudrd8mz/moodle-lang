@@ -1,0 +1,72 @@
+<?PHP // $Id$ 
+      // error.php - created with Moodle 1.6.2+ (2006050521)
+
+
+$string['adminprimarynoedit'] = 'Kāore e taea te kaiwhakahaere matua te whakarerekē e ētahi atu';
+$string['cannotcreatelangdir'] = 'Kāore i taea te whaiaronga reo.';
+$string['cannotcreatetempdir'] = 'Kāore i taea te whaiaronga rangitaki.';
+$string['cannotdownloadcomponents'] = 'Kāore i taea ngā wae te tikiake.';
+$string['cannotdownloadzipfile'] = 'Kāore i taea te kōnae KŌTUI te tikiake.';
+$string['cannotfindcomponent'] = 'Kāore i taea te wae te kite.';
+$string['cannotsavemd5file'] = 'Kāore i taea te kōnae md5 te tiaki.';
+$string['cannotsavezipfile'] = 'Kāore i taea te kōnae KŌTUI te tiaki.';
+$string['cannotunzipfile'] = 'Kāore i taea te kōnae te whewhera.';
+$string['cmunknown'] = 'Kāore i taea te kite i tēnei kōwai kōhi';
+$string['componentisuptodate'] = 'Tika tonu te wae ki te rā';
+$string['confirmsesskeybad'] = 'Kāore e taea tō kī wātū te whakaū hei tutuki i tēnei mahi. Parea ai e tēnei āhuatanga haumaru ngā mahinga tūkino ki ngā mea hira i raro i tō ingoa. Me āta whakaaro mēnā e tino hiahia ana koe ki te mahi i tēnei mahi.';
+$string['coursegroupunknown'] = 'Kāore te akoranga e here ana ki te rōpū $a i whakapūtāhia';
+$string['downloadedfilecheckfailed'] = 'I rahua te takinga o te kōnae i tikina ake';
+$string['errorcleaningdirectory'] = 'Hapa i te whakapainga o te whaiaronga \"$a\"';
+$string['errorcopyingfiles'] = 'Hapa i te tāruatanga o ngā kōnae';
+$string['errorcreatingdirectory'] = 'Hapa i te waihangatanga o te whaiaronga \"$a\"';
+$string['errorcreatingfile'] = 'Hapa i te waihangatanga o te kōnae \"$a\"';
+$string['erroronline'] = 'Hapa i te rārangi $a';
+$string['errorreadingfile'] = 'Hapa i te pānuitanga o te kōnae \"$a\"';
+$string['errorunzippingfiles'] = 'Hapa i te whewheratanga o ngā kōnae';
+$string['fieldrequired'] = 'ko te $a tētahi āpure e hiahiatia ana';
+$string['filenotfound'] = 'Kāore i kitea i te kōnae e hiahiatia ana';
+$string['forumblockingtoomanyposts'] = 'Kua hipa koe i te mōrahi o ngā whakairinga mō tēnei huinga.';
+$string['groupalready'] = 'Nā te rōpū $a kē te kaiwhakamahi';
+$string['groupunknown'] = 'Kāore te rōpū $a i te here ki te akoranga i whakapūtāhia';
+$string['guestnoeditprofile'] = 'Kāore e taea e te kaiwhakamahi manuhiri tāna kōtaha te whakarerekē';
+$string['guestnoeditprofileother'] = 'Kāore e taea te kōtaha kaiwhakamahi manuhiri te whakarerekē';
+$string['invalidcourse'] = 'Kōhi muhu';
+$string['invalidfieldname'] = 'Kāore te $a i te momo ingoa āpure whaimana';
+$string['invalidfiletype'] = 'Kāore te $a i te momo kōnae whaimana';
+$string['invalidmd5'] = 'md5 muhu';
+$string['invalidxmlfile'] = 'Kāore te $a i te kōnae XML whaimana';
+$string['missingfield'] = 'Kei te ngaro te āpure \"$a\"';
+$string['missingrequiredfield'] = 'E ngaro ana tētahi āpure e hiahiatia ana';
+$string['modulemissingcode'] = 'E ngaro ana te waehere o kōwae $a e hiahiatia ana hei mahi i tēnei pūmahi';
+$string['modulerequirementsnotmet'] = 'Kāore i taea te tāuta i te kōwae \"$a->modulename\" ($A->moduleversion). E hiahiatia ana tētahi putanga hōu atu o Moodle (i tēnei wā kei te whakamahi te $a->currentmoodle, e hiahiatia ana te $a->requiremoodle).';
+$string['mustbeteacher'] = 'Me kaiako koe hei tiro i tēnei whārangi';
+$string['noinstances'] = 'Kāore kau he tauira o te $a i rō tēnei kōhi!';
+$string['nonmeaningfulcontent'] = 'Ihirangi kikokore';
+$string['noparticipatorycms'] = 'E hoa, kāore kau he kōwae kōhi uru whānui āu hei whakaputa pūrongo.';
+$string['notavailable'] = 'Kāore tēnā i te wātea i tēnei wā';
+$string['onlyadmins'] = 'Mā ngā kaiwhakahaere anake taua mahi.';
+$string['onlyeditingteachers'] = 'Ka taea e ngā kaiako whakarerekē anake tērā te mahi';
+$string['onlyeditown'] = 'Ko te whakarerekē i ō ake mōhiohio anake te wāhi e āhei ana koe';
+$string['pagenotexist'] = 'I puta mai tētahi hapa rerekē (i tarai ki te tae atu ki tētahi whārangi kāore i te tīari)';
+$string['pleasereport'] = 'Inā whai wā koe, whakamōhiotia mai koa i te aha koe i te putanga mai o te hapa:';
+$string['pluginrequirementsnotmet'] = 'Kāore i taea te monomai \"$a->pluginname\" te tāuta. Me whiwhi tētahi putanga hōu ake o Moodle. (Kei te whakmahi koe i te $a->currentmoodle i tēnei wā, me whiwhi $a->requiremoodle kē).';
+$string['processingstops'] = 'Ka oti te tukanga i konei. Ka waiho ngā pūkete e toe ana.';
+$string['remotedownloadnotallowed'] = 'Kāore e taea ngā wae o tō tūmau te tikiake (kua monokia te allow_url_fopen). <br /><br />Me tikiake-ā-ringa te kōnae <a href=\"$a->url\">$a->url</a>, tāruatia ki \"$a->dest\", ā, whewherahia i reira';
+$string['restricteduser'] = 'Taihoa koa, kāore he āheitanga tā tō pūkete o nāianei \"$a\" hei mahi i tērā.';
+$string['sendmessage'] = 'Tuku Karere';
+$string['sessionerroruser'] = 'Kua pau te wā ki tō wātū. Takiuru mai anō koa.';
+$string['sessionerroruser2'] = 'I kitea tētahi hapa tūmau e pā nei ki tō wātū takiuru. Takiuru mai anō koa, tīmata anō rānei i tō pūtiro.';
+$string['sessionipnomatch'] = 'Aroha mai, engari te āhua nei kua huri tō tau IP i te wā i takiuru tuatahi koe. He āhuatanga haumaru tēnei kia kore ngā kaitūkino e tahae i tō kairitetanga i a koe takiuru ana ki tēnei pae. Ko te tikanga ka kore ngā kaiwhakamahi pūnoa e kite i tēnei karere - pātai atu koe ki te kaiwhakahaere pae mō te āwhina.';
+$string['statscatchupmode'] = 'Kei te whakatata mai a Tatauranga. Kua tukatukahia (ngā) rā e $a->daysdone, ā, e whanga mai ana (ngā) rā e $a->dayspending. Hoki wawe mai anō';
+$string['unknowncourse'] = 'Akoranga kāore i te mōhiotia ko \"$a\" tana ingoa';
+$string['unknownuseraction'] = 'E hoa, kāore au i te mārama atu ki tēnei mahi kaiwhakamahi.';
+$string['usernotaddederror'] = 'Kaiwhakamahi \"$a\" kāore i tāpirihia - hapa kāore i te mōhiotia';
+$string['usernotaddedregistered'] = 'Kaiwhakamahi \"$a\" kāore i tāpirihia - kua rēhita kētia';
+$string['usernotavailable'] = 'Kāore ngā taipitopito mō tēnei kaiwhakamahi i te wātea ki a koe.';
+$string['usernotrenamedexists'] = 'Kāore i whakaingoatia anō te kaiwhakamahi -- kei te whakamahia kē taua ingoakaiwhakamahi hōu.';
+$string['usernotrenamedmissing'] = 'Kāore i whakaingoatia anō te kaiwhakamahi -- kāore i taea te ingoakaiwhakamahi tawhito te kite.';
+$string['wrongdestpath'] = 'Ehara tēnei ara ūnga i te tika';
+$string['wrongsourcebase'] = 'Ehara tēnei tumu URL pūtake i te tika';
+$string['wrongzipfilename'] = 'Ehara tēnei ingoakōnae ZIP i te tika';
+
+?>
