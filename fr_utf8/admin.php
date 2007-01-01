@@ -66,6 +66,7 @@ http://site.exemple.fr/admin/cron.php?password=lemotdepasse
 </pre>Si le champ n\'est pas renseigné, aucun mot de passe n\'est nécessaire.';
 $string['configdbsessions'] = 'Enregistrer les informations sur les sessions en cours dans la base de données. Ce réglage est surtout utile pour les sites avec de nombreux utilisateurs ou ceux qui sont construits sur des clusters de serveurs. La plupart des sites peuvent laisser cette option désactivée, et ces informations seront stockées sur le disque du serveur. Attention ! si vous changez ce réglage, tous les utilisateurs seront immédiatement déconnectés, vous y compris&nbsp;! Si vous utilisez une base de données MySQL, assurez-vous que la variable «&nbsp;max_allowed_packe&nbsp;» dans <em>my.cnf</em> (ou <em>my.ini</em>) ait au moins une valeur de 4M.';
 $string['configdebug'] = 'Si vous activez cette option, le paramètre PHP « error_reporting » sera augmenté afin que les avertissements soient affichés. Ceci est utile essentiellement pour les développeurs.';
+$string['configdebugdisplay'] = 'Une fois ce réglage activé, les rapports d\'erreur seront affichés la page HTML. C\'est pratique, mais cela rend non conforme le XHTML, le JS, les cookies et les entêtes HTTP en général. Si le réglage est désactivé, les rapports sont écrités dans les historiques du serveur, permettant un meilleur débogage. Le réglage error_log de PHP contrôle dans quel fichier les rapports sont écrits.';
 $string['configdefaultallowedmodules'] = 'Pour les cours de la catégorie ci-dessus, quels modules voulez-vous autoriser <b>lorsque le cours est créé</b>&nbsp;?';
 $string['configdefaultcourseroleid'] = 'Les utilisateurs s\'inscrivant dans un cours auront automatiquement ce rôle.';
 $string['configdefaultrequestcategory'] = 'Les cours demandés par les utilisateurs seront automatiquement classés dans cette catégorie.';
@@ -205,6 +206,7 @@ $string['dbsessions'] = 'Stocker les informations de session dans la base de don
 $string['debug'] = 'Messages de débogage';
 $string['debugall'] = 'Tout&nbsp;: afficher tous les messages de débogage raisonnables de PHP';
 $string['debugdeveloper'] = 'Développeur&nbsp;: afficher en plus les messages de débogage de Moodle pour développeurs';
+$string['debugdisplay'] = 'Afficher les informations de débogage';
 $string['debugging'] = 'Débogage';
 $string['debugminimal'] = 'Minimal&nbsp;: n\'afficher que les erreurs fatales';
 $string['debugnone'] = 'Aucun : n\'afficher aucune erreur, ni avertissement';
