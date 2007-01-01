@@ -188,7 +188,7 @@ $string['courserequests'] = 'Demandes de cours';
 $string['courses'] = 'Cours';
 $string['coursesperpage'] = 'Cours par page';
 $string['cronclionly'] = 'Exécution du cron uniquement en mode terminal';
-$string['cronerrorclionly'] = 'Désolé, l\'accès à cette page depuis le web a étél désactivé par l\'administrateur';
+$string['cronerrorclionly'] = 'Désolé, l\'accès à cette page depuis le web a été désactivé par l\'administrateur';
 $string['cronerrorpassword'] = 'Désolé, vus n\'avez pas fourni un mot de passe valable pour accéder à cette page';
 $string['cronremotepassword'] = 'Mot de passe pour lancer le cron à distance';
 $string['cronwarning'] = 'Le <a href=\"cron.php\">script de maintenance cron.php</a> n\'a pas été lancé depuis au moins 24 heures.';
