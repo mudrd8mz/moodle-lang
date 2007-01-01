@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.7 dev (2006050500)
+      // block_rss_client.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['addfeed'] = 'Magdagdag ng URL ng balitang feed:';
 $string['addheadlineblock'] = 'Magdagdag ng RSS na ulo ng balita na bloke';
 $string['addnew'] = 'Magdagdag ng Bago';
+$string['blockname'] = 'Kliyenteng RSS';
 $string['choosefeedlabel'] = 'Piliin ang mga feed na gusto mong gamitin ng bloke na ito:';
 $string['clientchannellink'] = 'Pagmumulang site...';
 $string['clientnumentries'] = 'Ang umiiral na bilang ng talâ na ipapakita bawat feed.';
@@ -31,7 +32,12 @@ $string['managefeeds'] = 'Pamahalaan ang lahat ng aking feed';
 $string['nofeeds'] = 'Walang RSS feed na itinakda para sa site na ito.';
 $string['pickfeed'] = 'Pumilì ng balitang feed';
 $string['remotenewsfeed'] = 'Balitang Feed mula sa Malayo';
+$string['rss_client:createprivatefeeds'] = 'Lumikha ng mga pribadong RSS feed';
+$string['rss_client:createsharedfeeds'] = 'Lumikha ng pinagsasaluhang RSS feed';
+$string['rss_client:manageanyfeeds'] = 'Pamahalaan ang anumang RSS feed';
+$string['rss_client:manageownfeeds'] = 'Pamahalaan ang sariling RSS feed';
 $string['seeallfeeds'] = 'Tingnan ang lahat ng feed';
+$string['sharedfeed'] = 'Pinagsasaluhang feed';
 $string['shownumentrieslabel'] = 'Maks na bilang ng talâ na ipapakita bawat bloke';
 $string['submitters'] = 'Sino ang puwedeng magtakda ng bagong rss feed?  Ang mga itinakdang feed ay magagamit ng alinmang pahina sa iyong site.';
 $string['timeoutdesc'] = 'Oras sa minuto para manatili ang RSS feed sa cache.';
