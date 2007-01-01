@@ -8,7 +8,7 @@ VRAIMENT ce que vous faites.
 La modification de ces fichiers pourrait rendre
 vos cours inutilisables.
 
-Ce dossier contient les fichiers déposé dans votre
+Ce dossier contient les fichiers déposés dans votre
 cours (dans les différents modules), notamment par
 les étudiants. Ce sont par exemple les devoirs
 rendus ou les annexes des messages des forums.
