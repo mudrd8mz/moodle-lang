@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6.3 (2006050530)
+      // enrol_imsenterprise.php - created with Moodle 1.7+ (2006101008)
 
 
 $string['aftersaving...'] = 'Nachdem Sie die Einstellungen gespeichert haben, können Sie folgendes tun:';
@@ -14,7 +14,7 @@ $string['deleteusers'] = 'Nutzerzugänge löschen, wenn in IMS-Daten definiert';
 $string['description'] = 'Mit diesem Verfahren wird eine speziell formatierte Textdatei an einem festgelegten Ort regelmäßig geprüft und verarbeitet. Die Datei muss folgende Struktur mit Personendaten, Gruppen und XML-Elemente zur Zugehörigkeit enthalten: <a href=\'../help.php?module=enrol/imsenterprise&file=formatoverview.html\' target=\'_blank\'>IMS Enterprise Spezifikationen</a>.';
 $string['doitnow'] = 'IMS Enterprise Import jetzt durchführen';
 $string['enrolname'] = 'IMS-Datei';
-$string['filelockedmail'] = 'Die Textdatei ($a), die für das IMS-Datei-basierte Kurs-Anmeldeverfahren genutzt wird, konnte vom Cron-Prozess nicht gelöscht werden. Das bedeutet normallerweise, dass die Dateirechte fehlerhaft sind. Bitte prüfen Sie die Rechte, damit Moodle die Datei löschen kann. Andernfalls wird der Vorgang immer wiederholt.';
+$string['filelockedmail'] = 'Die Textdatei ($a), die für das IMS-Datei-basierte Kurs-Anmeldeverfahren genutzt wird, konnte vom Cron-Prozess nicht gelöscht werden. Das bedeutet normalerweise, dass die Dateirechte fehlerhaft sind. Bitte prüfen Sie die Rechte, damit Moodle die Datei löschen kann. Andernfalls wird der Vorgang immer wiederholt.';
 $string['filelockedmailsubject'] = 'Wichtiger Fehler: Anmeldedatei';
 $string['fixcasepersonalnames'] = 'Namen in Groß-/Kleinschreibung ändern';
 $string['fixcaseusernames'] = 'Nutzernamen in Kleinbuchstaben umwandeln';

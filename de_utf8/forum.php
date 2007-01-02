@@ -2,9 +2,9 @@
       // forum.php - created with Moodle 1.7+ (2006101008)
 
 
-$string['addanewdiscussion'] = 'Ein neues Diskussionsthema hinzufügen';
-$string['addanewquestion'] = 'Eine neue Frage hinzufügen';
-$string['addanewtopic'] = 'Ein neues Thema hinzufügen';
+$string['addanewdiscussion'] = 'Neues Diskussionsthema hinzufügen';
+$string['addanewquestion'] = 'Neue Frage hinzufügen';
+$string['addanewtopic'] = 'Neues Thema hinzufügen';
 $string['advancedsearch'] = 'Erweiterte Suche';
 $string['allforums'] = 'Alle Foren';
 $string['allowchoice'] = 'Alle dürfen auswählen';
@@ -233,7 +233,7 @@ $string['subscribestart'] = 'Beiträge per E-Mail an mich senden';
 $string['subscribestop'] = 'Keine Beiträge als E-Mail an mich senden';
 $string['subscription'] = 'Anmeldung';
 $string['subscriptions'] = 'Anmeldungen';
-$string['thisforumisthrottled'] = 'Für dieses Forum ist eine Höchstzahl von Beiträgen innerhalb eines bestimmten Zeitraums festgelegt worden. Dies gilt nach $a->blockafter Beitrag/Beiträgen innerhalb von $a->blockperiod';
+$string['thisforumisthrottled'] = 'Für dieses Forum ist eine Höchstzahl von Beiträgen innerhalb eines bestimmten Zeitraums festgelegt worden. Dies gilt nach $a->blockafter Beiträgen innerhalb von $a->blockperiod';
 $string['timestartenderror'] = 'Der Endtermin kann nicht vor dem Starttermin liegen.';
 $string['trackforum'] = 'Ungelesene Mitteilungen verfolgen/markieren';
 $string['tracking'] = 'Markieren?';

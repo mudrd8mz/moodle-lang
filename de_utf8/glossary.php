@@ -172,8 +172,8 @@ $string['totalentries'] = 'Gesamtzahl der Einträge';
 $string['usedynalink'] = 'Automatische Verlinkung der Einträge';
 $string['waitingapproval'] = 'Einträge zur Prüfung';
 $string['warningstudentcapost'] = '(gilt nur, wenn dieses Glossar kein Hauptglossar ist)';
-$string['withauthor'] = 'Einträge mit Autor/innennennung';
-$string['withoutauthor'] = 'Einträge ohne Autor/innennennung';
+$string['withauthor'] = 'Einträge mit Autorennennung';
+$string['withoutauthor'] = 'Einträge ohne Autorennennung';
 $string['writtenby'] = 'von';
 $string['youarenottheauthor'] = 'Sie sind nicht Autor/in dieses Kommentars und deshalb nicht berechtigt, diesen Kommentar zu bearbeiten.';
 

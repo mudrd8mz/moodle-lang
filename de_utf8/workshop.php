@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.7 (2006101007)
+      // workshop.php - created with Moodle 1.7+ (2006101008)
 
 
 $string['absent'] = 'Abwesend';
@@ -30,7 +30,7 @@ $string['assessmentgrade'] = 'Assessment-Bewertung: $a';
 $string['assessmentnotyetagreed'] = 'Assessment noch nicht zugestimmt';
 $string['assessmentnotyetgraded'] = 'Assessment noch nicht beurteilt';
 $string['assessmentof'] = 'Bewertung von $a';
-$string['assessmentofresubmission'] = 'Dies ist ein Assessment einer wiederholt eingereichten Arbeit. <br /> Das Formular gibt die Kommentare und Bewertungen einer früheren Arbeit wieder. <br /> Bitte berichtigen Sie diese nach der Korrektur der neuen Arbeit.';
+$string['assessmentofresubmission'] = 'Dies ist ein Assessment einer wiederholt eingereichten Arbeit. <br />Das Formular gibt die Kommentare und Bewertungen einer früheren Arbeit wieder. <br />Bitte berichtigen Sie diese Einträge nach der Korrektur der neuen Arbeit.';
 $string['assessmentofthissubmission'] = 'Bewertungen dieser Lösung';
 $string['assessments'] = 'Bewertungen';
 $string['assessmentsareok'] = 'Assessment-Bewertungen sind OK';
@@ -162,8 +162,7 @@ $string['notallowed'] = 'Für diese Seite haben Sie zur Zeit keine Berechtigung'
 $string['notavailable'] = 'Nicht verfügbar';
 $string['notenoughexamplessubmitted'] = 'Nicht genügend Beispiele zur Verfügung gestellt';
 $string['noteonassessmentelements'] = 'Beachten Sie, dass das Assessment in mehrere \'Assessmentkriterien\' aufgeteilt ist.<br />
-Dies macht die Bewertung einfacher und plausibler. Als Trainer/in müssen Sie diese<br />
-Kriterien hinzufügen, bevor Sie die Aufgabe dem/der Teilnehmer/in zugänglich machen. Dies geschieht durch das <br />Klicken auf die Aufgabe im Kurs. Sofern keine Kriterien vorhanden sind, werden Sie gebeten<br /> diese hinzuzufügen. Sie können die Anzahl der Kriterien ändern, indem Sie die Seite der Aufgabenbearbeitung benutzen.<br />
+Dies macht die Bewertung einfacher und plausibler. Als Trainer/in müssen Sie diese <br />Kriterien hinzufügen, bevor Sie die Aufgabe den Teilnehmer/innen zugänglich machen. Dies geschieht durch das <br />Klicken auf die Aufgabe im Kurs. Sofern keine Kriterien vorhanden sind, werden Sie gebeten <br />diese hinzuzufügen. Sie können die Anzahl der Kriterien ändern, indem Sie die Seite der Aufgabenbearbeitung benutzen.<br />
 Die Kriterien selbst können über die Seite \"Aufgabenverwaltung\" bearbeitet werden.';
 $string['noteonstudentassessments'] = '{Teilnehmerbeurteilung / Grading Grade for Assessment}';
 $string['notgraded'] = 'Nicht bewertet';
@@ -249,7 +248,7 @@ $string['showgrades'] = 'Bewertungen anzeigen';
 $string['showsubmission'] = 'Beiträge anzeigen: $a';
 $string['specimenassessmentform'] = 'Bewertungskriterien (Übersicht)';
 $string['standarddeviation'] = 'Standardabweichung des Elements $a:';
-$string['standarddeviationnote'] = 'Elemente mit einer Standardabweichung von Null oder sehr kleinen Werten können die Analyse verzerren.<br /> Dieses Element wurde von der Analyse ausgeschlossen.';
+$string['standarddeviationnote'] = 'Elemente mit einer Standardabweichung von Null oder sehr kleinen Werten können die Analyse verzerren.<br />Dieses Element wurde von der Analyse ausgeschlossen.';
 $string['standarddeviationofelement'] = 'Standardabweichung des Elements $a:';
 $string['strict'] = 'strict/streng';
 $string['studentassessments'] = '$a Assessments';
@@ -298,7 +297,7 @@ $string['view'] = 'Ansicht';
 $string['viewassessment'] = 'Assessment anzeigen';
 $string['viewassessmentofteacher'] = 'Assessment anzeigen von $a';
 $string['viewotherassessments'] = 'Andere Assessments anzeigen';
-$string['warningonamendingelements'] = 'WARNUNG: Es existieren eingereichte Assessments<br />Ändern Sie nicht die Anzahl der Kriterien, den Skalentyp oder die Kriteriengewichtung';
+$string['warningonamendingelements'] = 'WARNUNG: Es existieren eingereichte Assessments<br />Ändern Sie auf keinen Fall die Anzahl der Kriterien, den Skalentyp oder die Kriteriengewichtung';
 $string['weight'] = 'Gewichtung';
 $string['weightederrorcount'] = 'Durchnittsfehlerzahl: $a';
 $string['weightforbias'] = 'Gewichtung für Abweichung';
@@ -318,7 +317,7 @@ $string['workshopfeedback'] = 'Anmerkungen zum Workshop';
 $string['workshopsubmissions'] = 'Ausführungen zum Workshop';
 $string['wrongpassword'] = 'Falsches Passwort für diesen Workshop';
 $string['yourassessments'] = 'Ihre Assessmentbewertungen';
-$string['yourassessmentsofexamplesfromtheteacher'] = 'Ihre Assessment z.B. von $a';
+$string['yourassessmentsofexamplesfromtheteacher'] = 'Ihre Assessments z.B. von $a';
 $string['yourfeedbackgoeshere'] = 'Ihr Feedback beginnt hier';
 $string['yoursubmissions'] = 'Ihre eingereichten Lösungen';
 

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.6.2+ (2006050521)
+      // calendar.php - created with Moodle 1.7+ (2006101008)
 
 
 $string['calendar'] = 'Kalender';
@@ -20,9 +20,9 @@ $string['editevent'] = 'Termin bearbeiten';
 $string['errorbeforecoursestart'] = 'Der angegebene Termin liegt vor dem Beginn des Kurses. Bitte korrigieren Sie den Eintrag.';
 $string['errorinvaliddate'] = 'Ungültiges Datum';
 $string['errorinvalidminutes'] = 'Geben Sie die Dauer in Minuten ein (Zahl zwischen 1 und 999)';
-$string['errorinvalidrepeats'] = 'Geben Sie die Zahl der Veranstaltungen ein (Zahl zwischen 1 und 99';
-$string['errornodescription'] = 'Eine Beschreibung für den Termin ist erforderlich.';
-$string['errornoeventname'] = 'Eine Bezeichnung für den Termin ist erforderlich.';
+$string['errorinvalidrepeats'] = 'Geben Sie die Zahl der Veranstaltungen ein (Zahl zwischen 1 und 99)';
+$string['errornodescription'] = 'Eine Beschreibung für den Termin ist erforderlich';
+$string['errornoeventname'] = 'Eine Bezeichnung für den Termin ist erforderlich';
 $string['eventdate'] = 'Datum';
 $string['eventdescription'] = 'Beschreibung';
 $string['eventduration'] = 'Dauer';
@@ -41,7 +41,7 @@ $string['explain_lookahead'] = 'Mit dieser Einstellung legen Sie fest, wie weit 
 $string['explain_maxevents'] = 'Diese Einstellung legt die Höchstzahl künftiger Termine fest, die angezeigt werden sollen. Wenn Sie hier eine große Zahl eingeben, wird die Anzeige der Termine möglicherweise viel Platz auf Ihrem Bildschirm beanspruchen.';
 $string['explain_persistflt'] = 'Wenn Sie diese Einstellung aktivieren, prüft Moodle bei jedem Login die Filtereinstellungen für Termine und aktualisiert sie.';
 $string['explain_startwday'] = 'Diese Einstellung legt die Art der Monatsdarstellung des Kalenders fest.';
-$string['explain_timeformat'] = 'Mit dieser Einstellung wählen Sie das Format der Zeitanzeige (12- oder 24-Stunden-Anzeige). Die Default-Einstellung übernimmt das Format der Zeitanzeige aus der Sprachversion, die Sie für Ihre Seite gewählt haben.';
+$string['explain_timeformat'] = 'Mit dieser Einstellung wählen Sie das Format der Zeitanzeige (12- oder 24-Stunden-Anzeige). Die Standardeinstellung übernimmt das Format der Zeitanzeige aus der Sprachversion, die Sie für Ihre Seite gewählt haben.';
 $string['fri'] = 'Fr';
 $string['friday'] = 'Freitag';
 $string['globalevents'] = 'Allgemeine Termine';

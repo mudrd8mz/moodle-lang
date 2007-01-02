@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 (2006101007)
+      // data.php - created with Moodle 1.7+ (2006101008)
 
 
 $string['action'] = 'Aktion';
@@ -66,7 +66,7 @@ $string['emptyaddform'] = 'Sie haben keine Einträge vorgenommen!';
 $string['entries'] = 'Einträge';
 $string['entry'] = 'Eintrag';
 $string['entrysaved'] = 'Ihr Datenbankeintrag wurde abgespeichert';
-$string['errormustbeteacher'] = 'Diese Seite können Sie nur als Trainer/in bearbeiten!';
+$string['errormustbeteacher'] = 'Diese Seite können nur Trainer/in benutzen!';
 $string['example'] = 'Datenbankmodul-Beispiel';
 $string['export'] = 'Export';
 $string['exportaszip'] = 'Exportieren als ZIP';

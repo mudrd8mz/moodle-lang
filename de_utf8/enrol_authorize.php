@@ -13,7 +13,7 @@ $string['adminconfighttps'] = 'Bitte stellen Sie sicher, dass Sie die Einstellun
 $string['adminconfighttpsgo'] = 'Gehen Sie auf diese <a href=\"$a->url\">sichere Seite</a>, um dieses Plugin zu konfigurieren.';
 $string['admincronsetup'] = 'Die cron.php Datei wurde in den letzten 24 Stunden nicht ausgeführt.<br />Der Cron-Prozess muss richtig konfiguriert sein, um automatische Abwicklung zu nutzen.<br />Konfigurieren Sie den <b>Cron-Prozess</b> richtig oder deaktivieren Sie die Option <b>an_review</b> wieder.<br />Wenn Sie die automatische Abwicklung deaktivieren, werden Transaktionen zurückgewiesen, die Sie nicht innerhalb von 30 Tagen manuell bestätigen.<br />Wählen Sie die Option <b>an_review</b> aus und geben Sie \'0\' im Feld <b>an_capture_day</b>ein, wenn Sie innerhalb von 30 Tagen Zahlungen <b>manuell</b> akzeptieren/zurückweisen wollen.';
 $string['adminemailexpired'] = 'Versendet <b>$a</b> Tage vor Ende der Bearbeitungsfrist für offene Zahlungsvorgänge Warn-E-Mails an Admins. (0=E-Mail versenden deaktivieren, default=2, max=5)<br />Die Einstellung ist sinnvoll, wenn manuelle Abwicklung aktiviert wurde (an_review=checked, an_capture_day=0).';
-$string['adminemailexpiredsort'] = 'Wenn die zu bearbeitenden Zahlungsvorgänge an den/die Trainer/in per E-Mail gesendet werden, welches Kriterium ist relevant?';
+$string['adminemailexpiredsort'] = 'Wenn die zu bearbeitenden Zahlungsvorgänge an die Trainer/innen per E-Mail gesendet werden, welches Kriterium ist relevant?';
 $string['adminemailexpiredsortcount'] = 'Zahl der Zahlungsvorgänge';
 $string['adminemailexpiredsortsum'] = 'Gesamtbetrag der Zahlungen';
 $string['adminemailexpiredteacher'] = 'Wenn Sie manuelle Abwicklung aktiviert haben (siehe oben) und Trainer/innen Zahlungsvorgänge abwickeln können, dann können die Trainer/innen per E-Mail benachrichtigt werden, wenn die Bearbeitungsfrist für offene Zahlungsvorgänge abläuft.';
@@ -32,7 +32,7 @@ Betrag: $a->amount
 
 Automatische Zahlungsabwicklung aktiviert?: $a->acstatus
 
-Wenn die automatische Zahlungsabwicklung aktiviert wurde, wird die Kreditkarte zum $a->captureon angenommen, und der/die Nutzer/in wird in den Kurs eingeschrieben. Andernfalls wird die Karte zum $a->expireon zurückgewiesen und kann danach nicht mehr akzeptiert werden.
+Wenn die automatische Zahlungsabwicklung aktiviert wurde, wird die Kreditkarte zum $a->captureon angenommen und die Einschreibung erfolgt. Andernfalls wird die Karte zum $a->expireon zurückgewiesen und kann danach nicht mehr akzeptiert werden.
 
 Sie können die Zahlung unmittelbar annehmen / zurückweisen, indem Sie diesem Link folgen: 
 $a->url';
@@ -64,14 +64,14 @@ $string['avss'] = 'Service wird vom Aussteller der Karte nicht unterstützt';
 $string['avsu'] = 'Adressinformation nicht verfügbar';
 $string['avsw'] = 'PLZ stimmt überein, Adresse (Straße) nicht';
 $string['avsx'] = 'Adresse (Straße) und PLZ stimmen überein';
-$string['avsy'] = 'Adresse (Strasse) und PLZ stimmen überein';
+$string['avsy'] = 'Adresse (Straße) und PLZ stimmen überein';
 $string['avsz'] = 'PLZ stimmt überein, Adresse (Straße) nicht';
 $string['canbecredit'] = 'Kann erstattet werden an $a->upto';
 $string['cancelled'] = 'Zurückgewiesen';
 $string['capture'] = 'Zahlungen';
 $string['capturedpendingsettle'] = 'Bestätigte / Offene Zahlungen';
 $string['capturedsettled'] = 'Bestätigt/ gezahlt';
-$string['captureyes'] = 'Die Kreditkarte wird angenommen und der/die Teilnehmer/in in den Kurs eingeschrieben. Sind Sie sicher?';
+$string['captureyes'] = 'Die Kreditkarte wird angenommen und die Einschreibung soll erfolgen. Bist du sicher?';
 $string['ccexpire'] = 'Gültig bis';
 $string['ccexpired'] = 'Die Kreditkarte ist abgelaufen.';
 $string['ccinvalid'] = 'Ungültige Kreditkartennummer';
@@ -97,10 +97,10 @@ $string['enrolname'] = 'Authorize.net Kreditkartenabrechnung';
 $string['expired'] = 'Abgelaufen';
 $string['howmuch'] = 'Wieviel?';
 $string['httpsrequired'] = 'Ihre Anfrage kann leider zur Zeit nicht bearbeitet werden. Die Konfiguration der Seite weist einen Fehler auf. <br /><br />
-Warten Sie mit der Eingabe Ihrer Kreditkartennummer solange, bis Sie ein gelbes Schloß in der Fußzeile des Browsers sehen können. Wenn das Symbol erscheint, werden alle Daten zwischen Ihrem Rechner und dem Server verschlüsselt gesendet. Damit wird die Datenübertragung geschützt, und Ihre Kreditkartendaten können nicht in falsche Hände geraten.';
+Warten Sie mit der Eingabe Ihrer Kreditkartennummer solange, bis Sie ein gelbes Schloß in der Fußzeile des Browsers sehen können. Wenn das Symbol erscheint, werden alle Daten zwischen Ihrem Rechner und dem Server verschlüsselt gesendet. Damit wird die Datenübertragung geschützt und Ihre Kreditkartendaten können nicht in falsche Hände geraten.';
 $string['invalidaba'] = 'Ungültige ABA Nummer';
 $string['invalidaccnum'] = 'Ungültige Kontonummer';
-$string['invalidacctype'] = 'UngültigerKontentyp';
+$string['invalidacctype'] = 'Ungültiger Kontentyp';
 $string['logindesc'] = 'Diese Option MUSS aktiviert sein. Stellen Sie sicher, dass die Einstellung <a href=\"$a->url\">loginhttps</a> unter Administration >> Variablen konfigurieren >> Sicherheit aktiviert ist.
 <br /><br />
 Wenn diese Option aktiviert ist, verwendet Moodle für die Login- und Zahlungsvorgänge eine sichere HTTPS-Verbindung.';
@@ -123,13 +123,13 @@ $string['notsettled'] = 'Nicht bearbeitet';
 $string['orderid'] = 'ID-Nummer der Zahlung';
 $string['paymentmanagement'] = 'Zahlungsmanagement';
 $string['paymentmethod'] = 'Zahlungsverfahren';
-$string['paymentpending'] = 'Ihre Zahlung für diesen Kurs wird unter der ID-Nummer $a->orderid  bearbeitet.';
+$string['paymentpending'] = 'Ihre Zahlung für diesen Kurs wird unter der ID-Nummer $a->orderid bearbeitet.';
 $string['pendingecheckemail'] = 'Guten Tag,
 
 zur Zeit gibt es $a->count wartende eChecks. Laden Sie die Nutzer/innen mittels CSV-Datei ins System hoch. 
 
 Weitere Informationen finden Sie in der Hilfedatei auf der folgenden Seite $a->url.';
-$string['pendingechecksubject'] = '$a->course: Wartende eChecks($a->count)';
+$string['pendingechecksubject'] = '$a->course: Wartende eChecks ($a->count)';
 $string['pendingordersemail'] = 'Guten Tag,
 
 $a->pending Transaktionen für den Kurs $a->course werden zurückgewiesen, wenn Sie sie nicht innerhalb von $a->days Tagen bearbeiten.
@@ -147,7 +147,7 @@ Sie müssen innerhalb dieses Zeitraums die Zahlungen manuell akzeptieren oder zu
 Die Zahlungen können unter $a->url bearbeitet werden.';
 $string['pendingorderssubject'] = 'Warnhinweis: $a->course, $a->pending Zahlung(en) werden zurückgewiesen, wenn sie nicht innerhalb von $a->days Tag(en) bearbeitet werden.';
 $string['reason11'] = 'Eine Transaktion wurde doppelt beantragt.';
-$string['reason13'] = 'Die Anbieter-Login-ID ist ungültig, oder das Konto ist inaktiv.';
+$string['reason13'] = 'Die Anbieter-Login-ID ist ungültig oder das Konto ist inaktiv.';
 $string['reason16'] = 'Die Transaktion wurde nicht gefunden.';
 $string['reason17'] = 'Der Anbieter akzeptiert diesen Kreditkartentyp nicht.';
 $string['reason245'] = 'Dieser eChecktyp ist hier nicht zulässig.';
@@ -159,7 +159,7 @@ $string['reason39'] = 'Der eingetragene Währungscode ist ungültig, wird nicht 
 $string['reason43'] = 'Der Anbieter ist nicht richtig an das Abrechnungssystem angebunden. Bitte nehmen Sie mit dem Anbieter Kontakt auf.';
 $string['reason44'] = 'Die Transaktion wurde abgelehnt. Fehler: Kartencode-Filter';
 $string['reason45'] = 'Die Transaktion wurde abgelehnt. Fehler: Kartencode/Adressprüfung-Filter';
-$string['reason47'] = 'Der angeforderte Betrag sollte nicht höher sein, als der ursprünglich geforderte Betrag.';
+$string['reason47'] = 'Der angeforderte Betrag sollte nicht höher sein als der ursprünglich geforderte Betrag.';
 $string['reason5'] = 'Geben Sie bitte einen gültigen Betrag ein.';
 $string['reason50'] = 'Die Transaktion wartet auf Bestätigung und kann nicht rückgängig gemacht werden.';
 $string['reason51'] = 'Die Summe alle Kredite der Transaktion übersteigt die ursprüngliche Transaktionssumme.';
@@ -169,9 +169,9 @@ $string['reason56'] = 'Dieser Händler akzeptiert nur eCheck (ACH) Tarnsaktionen
 $string['refund'] = 'Rückzahlung';
 $string['refunded'] = 'Zurückgezahlt';
 $string['returns'] = 'Rückläufe';
-$string['reviewday'] = 'Kreditkarte wird automatisch belastet, wenn der/die Trainer/in oder Administrator/in die Zahlung nicht innerhalb von <b>$a </b> Tagen prüft. Der Cron-Prozess muss hierfür aktiv sein.<br />Wert 0 Tage = automatische Zahlungsabwicklung deaktivieren, d.h. Trainer/in oder Administrator/in muss Zahlungsvorgang manuell bearbeiten. Die Transaktion wird zurückgewiesen, wenn Sie die automatische Zahlungsabwicklung deaktivieren oder den Zahlung nicht innerhalb von 30 Tagen manuell bearbeiten.';
+$string['reviewday'] = 'Kreditkarte wird automatisch belastet, wenn die Trainer/innen oder die Administrator/innen die Zahlung nicht innerhalb von <b>$a </b> Tagen prüfen. Der Cron-Prozess muss hierfür aktiv sein.<br />Wert 0 Tage = automatische Zahlungsabwicklung deaktivieren, d.h. Zahlungsvorgang manuell bearbeiten. Die Transaktion wird zurückgewiesen, wenn Sie die automatische Zahlungsabwicklung deaktivieren oder die Zahlung nicht innerhalb von 30 Tagen manuell bearbeiten.';
 $string['reviewfailed'] = 'Überprüfung fehlgeschlagen';
-$string['reviewnotify'] = 'Ihre Zahlung wird geprüft. Sie erhalten in einigen Tagen eine E-Mail-Benachrichtigung von Ihrer/m Trainer/in.';
+$string['reviewnotify'] = 'Ihre Zahlung wird geprüft. Sie erhalten in einigen Tagen eine E-Mail-Benachrichtigung von Ihrer Trainer/in.';
 $string['sendpaymentbutton'] = 'Zahlung ausführen';
 $string['settled'] = 'Erledigt';
 $string['settlementdate'] = 'Erledigungstermin';
@@ -183,11 +183,11 @@ $string['transid'] = 'ID-Nummer der Transaktion';
 $string['underreview'] = 'Überprüfung läuft';
 $string['unenrolstudent'] = 'Teilnehmer/in aus Kurs löschen?';
 $string['uploadcsv'] = 'Eine CSV-Datei hochladen';
-$string['usingccmethod'] = 'Eintragung verwendet <a href=\"$a->url\"><strong>Kreditkarte</strong></a>';
-$string['usingecheckmethod'] = 'Eintragung verwendet <a href=\"$a->url\"><strong>eCheck</strong></a>';
+$string['usingccmethod'] = 'Eintragung verwendet <a href=\"$a->url\"><strong> Kreditkarte</strong></a>';
+$string['usingecheckmethod'] = 'Eintragung verwendet <a href=\"$a->url\"><strong> eCheck</strong></a>';
 $string['void'] = 'Gültig';
 $string['voidyes'] = 'Ihre Transaktion wird abgebrochen. Sind Sie sicher?';
-$string['welcometocoursesemail'] = 'Liebe/r Teilnehmer/in,
+$string['welcometocoursesemail'] = 'Liebe Teilnehmerin, lieber Teilnehmer,
 
 vielen Dank für Ihre Zahlung. Sie sind nun als Teilnehmer/in im Kurs 
 
@@ -201,9 +201,7 @@ $a->profileurl.
 Die Details Ihrer Gebührenzahlung finden Sie unter: 
 $a->paymenturl.
 
-Wir wünschen Ihnen ein erfolgreiches Training!
-
-Ihre Kursverwaltung';
+Viel Erfolg!';
 $string['youcantdo'] = 'Sie können diese Aktion nicht ausführen: $a->action';
 $string['zipcode'] = 'PLZ';
 

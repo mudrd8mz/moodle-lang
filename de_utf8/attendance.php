@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // attendance.php - created with Moodle 1.7 (2006101007)
+      // attendance.php - created with Moodle 1.7+ (2006101008)
 
 
 $string['absentlong'] = 'Abwesenheit';
@@ -21,7 +21,7 @@ $string['defaultmaxgrade'] = 'Welche maximale Bewertung soll standardmäßig fü
 volle Anwesenheit eingestellt werden.';
 $string['defaultstudentstatus'] = 'Der voreingestellte Anwesenheitsstatus auf neu eingerichteten Anwesenheitslisten';
 $string['downloadexcelfull'] = 'Als Excel-Tabelle herunterladen';
-$string['downloadexceltotals'] = 'Zusammenfassung in Excel- Tabelle herunterladen';
+$string['downloadexceltotals'] = 'Zusammenfassung als Excel- Tabelle herunterladen';
 $string['downloadtextfull'] = 'Als Text-Datei herunterladen';
 $string['downloadtexttotals'] = 'Zusammenfassung als Text herunterladen';
 $string['dynamicsection'] = 'Die Anwesenheit für diese Woche wird festgelegt durch dieses Datum';

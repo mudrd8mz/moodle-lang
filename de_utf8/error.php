@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6.2+ (2006050521)
+      // error.php - created with Moodle 1.7+ (2006101008)
 
 
 $string['adminprimarynoedit'] = 'Der Hauptadmin kann nicht von anderen bearbeitet werden';
@@ -18,7 +18,7 @@ $string['componentisuptodate'] = 'Die Komponente ist nicht aktuell.';
 $string['confirmsesskeybad'] = 'Entschuldigung, der \"session key\" für diese Aktion konnte nicht bestätigt werden. Dieses Sicherheitsfeature schützt Sie vor der nicht beabsichtigten Ausführung wichtiger Funktionen oder der Ausführung von Aktionen durch Dritte in Ihrem Namen. Bitte überzeugen Sie sich, dass Sie diese Aktion wirklich ausführen wollen.';
 $string['couldnotassignrole'] = 'Ein ernster, nicht näher bezeichneter Fehler ist aufgetreten, während Sie sich eine Rolle zuweisen wollten.';
 $string['coursegroupunknown'] = 'Es wurde kein Kurs für die Gruppe $a festgelegt';
-$string['downloadedfilecheckfailed'] = 'PDie rüfung der heruntergeladenen Datei ist gescheitert';
+$string['downloadedfilecheckfailed'] = 'Die Prüfung der heruntergeladenen Datei ist gescheitert';
 $string['errorcleaningdirectory'] = 'Fehler beim Bereinigen des Verzeichnisses \"$a\"';
 $string['errorcopyingfiles'] = 'Fehler beim Kopieren der Dateien';
 $string['errorcreatingdirectory'] = 'Fehler beim Erstellen des Verzeichnisses \"$a\"';
@@ -42,7 +42,7 @@ $string['invalidxmlfile'] = '\"$a\" ist eine ungültige XML-Datei.';
 $string['missingfield'] = 'Feld \"$a\" fehlt.';
 $string['missingrequiredfield'] = 'Einige erforderliche Felder sind nicht ausgefüllt.';
 $string['modulemissingcode'] = 'Im Modul $a fehlt der Code, um diese Funktion auszuführen.';
-$string['modulerequirementsnotmet'] = 'Modul \"$a->modulename\" ($a->moduleversion) konnte nicht installiert werden. Es erfordert eine aktuellere Version von Moodle (Sie verwenden zur Zeit $a->currentmoodle. Benötigt wird $a->requiremoodle).';
+$string['modulerequirementsnotmet'] = 'Modul \"$a->modulename\" ($a->moduleversion) konnte nicht installiert werden. Es erfordert eine aktuellere Version von Moodle (Sie verwenden zur Zeit $a->currentmoodle - benötigt wird aber $a->requiremoodle).';
 $string['mustbeteacher'] = 'Diese Seite können Sie nur als Trainer/in ansehen.';
 $string['nocontext'] = 'Entschuldigung, aber dieser Kurs hat keine gültigen Zusammenhänge.';
 $string['noinstances'] = 'Es gibt keine Instanzen von $a in diesem Kurs!';
@@ -55,18 +55,17 @@ $string['onlyeditingteachers'] = 'Diese Funktion können nur Trainer/innen mit B
 $string['onlyeditown'] = 'Sie können nur eigene Informationen bearbeiten.';
 $string['pagenotexist'] = 'Ein unerwarteter  Fehler ist aufgetreten (Versuch, eine nicht existierende Seite zu erreichen).';
 $string['pleasereport'] = 'Wenn Sie etwas Zeit haben, informieren Sie uns bitte darüber, was Sie versucht haben, bevor der Fehler auftrat.';
-$string['pluginrequirementsnotmet'] = 'Das Plugin \"$a->pluginname\" ($a->pluginversion) konnte nicht installiert werden. Es erfordert eine neuere Version von Moodle (Sie verwenden zur Zeit Version $a->currentmoodle, benötigt wird Version $a->requiremoodle).';
+$string['pluginrequirementsnotmet'] = 'Das Plugin \"$a->pluginname\" ($a->pluginversion) konnte nicht installiert werden. Es erfordert eine neuere Version von Moodle (Sie verwenden zur Zeit Version $a->currentmoodle - benötigt wird aber Version $a->requiremoodle).';
 $string['processingstops'] = 'Der Prozess wurde an dieser Stelle gestoppt. Verbleibende Schritte wurden nicht mehr durchgeführt.';
-$string['remotedownloadnotallowed'] = 'Der Download von Komponenten auf Ihren Server ist nicht erlaubt (allow_url_fopen ist deaktiviert). <br /><br /> Die Datei <a href=\"$a->url\">$a->url</a> muss manuell heruntergeladen werden. Kopieren Sie die Datei nach \"$a->dest\" auf Ihrem Server und entpacken Sie sie dort.';
+$string['remotedownloadnotallowed'] = 'Der Download von Komponenten auf Ihren Server ist nicht erlaubt (allow_url_fopen ist deaktiviert). <br /><br /> Die Datei <a href=\"$a->url\">$a->url</a> muss manuell heruntergeladen werden. Kopieren Sie die Datei nach \"$a->dest\" auf Ihren Server und entpacken Sie sie dort.';
 $string['restricteduser'] = 'Entschuldigung, Sie sind gegenwärtig nicht zu dieser Aktion berechtigt.';
 $string['sendmessage'] = 'Mitteilung senden';
 $string['sessionerroruser'] = 'Die Zeitdauer für Ihre Sitzung wurde überschritten oder ein anderer Fehler ist eingetreten. Loggen Sie sich bitte neu ein.';
-$string['sessionerroruser2'] = 'Ein Serverfehler ist aufgetreten. Er betrifft Ihre Login-Session. Loggen Sie sich bitte neu ein und starten Sie Ihren Browser noch einmal.';
-$string['sessionipnomatch'] = 'Entschuldigung, Ihre IP-Adresse scheint sich seit Ihrem letzten Login geändert zu haben. Dieses Sicherheitsfeature schützt Sie vor dem Diebstahl Ihrer Identität durch Hacker, während Sie auf der Seite arbeiten. Normale Nutzer sehen diese Mitteilung nicht - bitten Sie den Administrator um Hilfe.';
-$string['statscatchupmode'] = 'Die Statistiken befinden sich im sog. Catchup-Modus. Bisher sind $a->daysdone Tage verarbeitet und $a->dayspending Tage werden noch bearbeitet. Überprüfen Sie es später noch einmal.';
-$string['unicodeupgradeerror'] = 'Entschuldigung, aber Ihre Datenbank ist nicht in Unicode formatiert. Diese Moodle-Version kann Ihre Datenbank nicht nach Unicode umsetzen. Bitte aktualisieren Sie zuerst auf Moodle 1.7.x und führen Sie dort die Umsetzung durch. Danach sollten Sie problemlos auf Moodle $a umsteigen können.';
+$string['sessionerroruser2'] = 'Ein Serverfehler ist aufgetreten. Er betrifft Ihre Login-Session. Loggen Sie sich bitte neu ein oder starten Sie Ihren Browser noch einmal.';
+$string['sessionipnomatch'] = 'Entschuldigung, Ihre IP-Adresse scheint sich seit Ihrem letzten Login geändert zu haben. Dieses Sicherheitsfeature schützt Sie vor dem Diebstahl Ihrer Identität durch Hacker, während Sie auf der Seite arbeiten. Normale Nutzer sollten diese Mitteilung nicht sehen - bitten Sie den Administrator um Hilfe.';
+$string['statscatchupmode'] = 'Die Statistiken befinden sich im sog. Catchup-Modus. Bisher sind $a->daysdone Tage verarbeitet und $a->dayspending Tage werden noch bearbeitet. Prüfen Sie es später noch einmal.';
 $string['unknowncourse'] = 'Unbekannter Kursname \"$a\"';
-$string['unknownuseraction'] = 'Entschuldigung, dieser Nutzeraktion wurde nicht verstanden.';
+$string['unknownuseraction'] = 'Entschuldigung, diese Nutzeraktion wurde nicht verstanden.';
 $string['usernotaddederror'] = 'Nutzer \"$a\" wurde nicht hinzugefügt - unbekannter Fehler';
 $string['usernotaddedregistered'] = 'Nutzer \"$a\" wurde nicht hinzugefügt - er/sie war bereits registriert.';
 $string['usernotavailable'] = 'Sie können die Details für diese/n Nutzer/in nicht einsehen.';

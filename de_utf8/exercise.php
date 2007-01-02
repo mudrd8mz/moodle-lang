@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.7 (2006101007)
+      // exercise.php - created with Moodle 1.7+ (2006101008)
 
 
 $string['absent'] = 'Fehlen';
@@ -118,7 +118,7 @@ $string['reasonforadjustment'] = 'Bewertungsgründe';
 $string['reassess'] = 'Erneut bewerten';
 $string['regradestudentassessments'] = 'Teilnehmerbewertung erneut benoten';
 $string['resubmissionfor'] = 'Erneut eingereichte Arbeit von $a';
-$string['resubmitnote'] = '* bedeutet, dass $a die Möglichkeit hat, seine Arbeit wiederholt einzureichen. <br /> Diese Option kann für jede erneut eingereichte Arbeit aktiviert werden, indem der Knopf <b>Erneut einreichen </b> geklickt wird.<br /> Der Teilnehmende kann dann jede Arbeit wiederholt einreichen.';
+$string['resubmitnote'] = '* bedeutet, dass $a die Möglichkeit hat, seine Arbeit wiederholt einzureichen. <br /> Diese Option kann für jede erneut eingereichte Arbeit aktiviert werden, indem der Knopf <b>Erneut einreichen </b> geklickt wird.<br /> Teilnehmer/innen können dann jede Arbeit wiederholt einreichen.';
 $string['rubric'] = 'Rubrik';
 $string['savedok'] = 'Sicherung OK';
 $string['saveentries'] = 'Einträge sichern';
@@ -156,7 +156,7 @@ $string['theexercise'] = 'Übung';
 $string['theexerciseandthesubmissionby'] = 'Übung und eingereichte Arbeit von $a';
 $string['thegradeis'] = 'Die Bewertung ist $a';
 $string['thereisfeedbackfromthe'] = 'Hier ist die Rückmeldung von';
-$string['thisisaresubmission'] = 'Dies Arbeit wurde erneut eingereicht von $a.<br /> Ihre Bewertungen der früheren Arbeit wird angezeigt.<br />Bewerten Sie die neue Arbeit unter Verwendung des Formulars und klicken Sie dann auf einen der Knöpfe unten auf der Seite.';
+$string['thisisaresubmission'] = 'Diese Arbeit wurde erneut eingereicht von $a.<br /> Ihre Bewertung der früheren Arbeit wird angezeigt.<br />Bewerten Sie die neue Arbeit unter Verwendung des Formulars und klicken Sie dann auf einen der Knöpfe unten auf der Seite.';
 $string['title'] = 'Link (Kursseite)';
 $string['typeofscale'] = 'Art der Bewertungsskala';
 $string['unassessed'] = '$a unbewertet';

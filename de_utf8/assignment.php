@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 (2006101007)
+      // assignment.php - created with Moodle 1.7+ (2006101008)
 
 
 $string['allowdeleting'] = 'Löschen erlauben';
@@ -55,8 +55,8 @@ $string['helpoffline'] = '<p>Dieser Aufgabentyp ist nützlich, wenn die Erledigu
 $string['helponline'] = '<p>Dieser Aufgabentyp fordert die Teilnehmer/innen auf, ihre Lösung im Editorfenster einzutragen. Die Trainer/innen können die Lösung online bewerten und im Textfenster direkt Kommentare eintragen oder Veränderungen vornehmen.</p> <p>In früheren Moodle-Versionen wurde diese Funktion vom Journal-Modul wahrgenommen.</p>';
 $string['helpupload'] = '<p>Dieser Aufgabentyp ermöglicht es den Teilnehmenden, eine oder mehrere Dateien als Lösung hochzuladen. </p>
 <p>Dies kann ein beliebiger Dateityp sein (z.B. eine Text-, Bild- oder eine Zip-Datei). Geben Sie in der Aufgabenbeschreibung genau an, welche Art von Lösungsdatei Sie erwarten.</p>
-<p>Außerdem ist es möglich, mehrere Antwortdateien hochzuladen. Antwortdateien können auch schon hochgeladen werden, bevor die Teilnehmer/innen die Aufgabe bearbeiten. Auf diese Weise können Sie allen  unterschiedliche Dateien zur Bearbeitung zur Verfügung stellen. </p> <p>Die Teilnehmer/innen können außerdem Kommentare zu ihrer Aufgabenbearbeitung schreiben und dabei die hochgeladenen Dateien beschreiben, Hinweise zum Stand ihrer Bearbeitung geben, Fragen stellen und vieles mehr.</p><p>Diese Art der Aufgabenbearbeitung muss von den Teilnehmenden manuell beendet werden. Sie können sich jederzeit den Stand der Bearbeitung ansehen. Aufgabenbearbeitungen, die noch nicht fertig sind, werden als \"Entwurf\" gekennzeichnet. Sie können jede Lösung, die Sie noch nicht bewertet haben, wieder in einen Entwurf verwandeln.';
-$string['helpuploadsingle'] = '<p>Diese Aufgabenart ermöglicht allen Teilnehmenden den Upload einer einzelnen Datei beliebigen Typs.</p><p>Dies kann eine Text-, Bild-, ZIP- oder eine Datei in jedem anderen Format sein, das Sie in der Aufgabenstellung beschrieben haben.</p>';
+<p>Außerdem ist es möglich, mehrere Antwortdateien hochzuladen. Antwortdateien können auch schon hochgeladen werden, bevor die Teilnehmer/innen die Aufgabe bearbeiten. Auf diese Weise können Sie allen  unterschiedliche Dateien zur Bearbeitung zur Verfügung stellen. </p> <p>Die Teilnehmer/innen können außerdem Kommentare zu ihrer Aufgabenbearbeitung verfassen und dabei die hochgeladenen Dateien beschreiben, Hinweise zum Stand ihrer Bearbeitung geben, Fragen stellen und vieles mehr.</p><p>Diese Art der Aufgabenbearbeitung muss von den Teilnehmer/innen manuell beendet werden. Sie können sich jederzeit den Stand der Bearbeitung ansehen. Aufgabenbearbeitungen, die noch nicht fertig sind, werden als \"Entwurf\" gekennzeichnet. Sie können jede Lösung, die Sie noch nicht bewertet haben, wieder in einen Entwurf verwandeln.';
+$string['helpuploadsingle'] = '<p>Diese Aufgabenart ermöglicht allen Teilnehmer/innen den Upload einer einzelnen Datei beliebigen Typs.</p><p>Dies kann eine Text-, Bild-, ZIP- oder eine Datei in jedem anderen Format sein, das Sie in der Aufgabenstellung beschrieben haben.</p>';
 $string['hideintro'] = 'Beschreibung vor dem Veröffentlichungszeitpunkt verbergen';
 $string['late'] = '$a spät';
 $string['maximumgrade'] = 'Höchste Bewertung';
@@ -89,8 +89,8 @@ $string['submissionfeedback'] = 'Feedback zu den eingereichten Aufgaben';
 $string['submissions'] = 'Eingereichte Aufgaben';
 $string['submissionsaved'] = 'Ihre Veränderungen wurden gespeichert';
 $string['submissionsnotgraded'] = '$a nicht bewertete Aufgaben';
-$string['submitassignment'] = 'Tragen Sie Ihre Aufgabe unter Verwendung dieses Formulars ein.';
-$string['submitedformarking'] = 'Die Lösung der Aufgabe wurde jetzt zur Bewertung abgegeben und kann nicht mehr überarbeitet werden.';
+$string['submitassignment'] = 'Tragen Sie Ihre Aufgabe unter Verwendung dieses Formulars ein';
+$string['submitedformarking'] = 'Die Lösung der Aufgabe wurde jetzt zur Bewertung abgegeben und kann nicht mehr überarbeitet werden';
 $string['submitformarking'] = 'Aufgabe zur Bewertung abgeben';
 $string['submitted'] = 'Eingereicht';
 $string['submittedfiles'] = 'Eingereichte Dateien';
@@ -102,9 +102,9 @@ $string['unfinalize'] = 'Status in \'Entwurf\' ändern';
 $string['uploadbadname'] = 'Dieser Dateiname enthält unzulässige Zeichen und kann nicht hochgeladen werden.';
 $string['uploadedfiles'] = 'hochgeladene Dateien';
 $string['uploaderror'] = 'Beim Hochladen der Datei trat ein Fehler auf.';
-$string['uploadfailnoupdate'] = 'Die Datei wurde korrekt hochgeladen, aber Ihr Eintrag kann nicht aktualisiert werden!';
-$string['uploadfiletoobig'] = 'Entschuldigung, aber diese Datei ist zu groß (die Begrenzung liegt bei $a Bytes).';
-$string['uploadnofilefound'] = 'Es wurde keine Datei gefunden. Sind Sie sicher, dass Sie eine für das Hochladen ausgewählt haben?';
+$string['uploadfailnoupdate'] = 'Die Datei wurde korrekt hochgeladen, aber Ihr Eintrag konnte nicht aktualisiert werden!';
+$string['uploadfiletoobig'] = 'Entschuldigung, aber diese Datei ist zu groß (max. $a Bytes).';
+$string['uploadnofilefound'] = 'Es wurde keine Datei gefunden. Sind Sie sicher, dass Sie eine Datei zum Hochladen ausgewählt haben?';
 $string['uploadnotregistered'] = '\'$a\' wurde korrekt hochgeladen, aber der Eintrag wurde nicht registriert!';
 $string['uploadsuccess'] = '\'$a\' wurde erfolgreich hochgeladen.';
 $string['viewfeedback'] = 'Aufgabenbewertung und Rückmeldung anzeigen';

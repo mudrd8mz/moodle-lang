@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.6.2+ (2006050521)
+      // block_rss_client.php - created with Moodle 1.7+ (2006101008)
 
 
 $string['addfeed'] = 'URL für Newsfeed hinzufügen';
@@ -16,7 +16,7 @@ $string['couldnotfindfeed'] = 'Feed konnte mit id nicht gefunden werden';
 $string['customtitlelabel'] = 'Titel (wenn das Feld leer ist, wird der Titel der Quelle verwendet)';
 $string['deletefeedconfirm'] = 'Sind Sie sicher, dass Sie den Feed löschen wollen?';
 $string['displaydescriptionlabel'] = 'Anzeige der Beschreibung für jeden Link?';
-$string['editfeeds'] = 'Bearbeiten, Eintragen oder Austragen von RSS-/Atom-Newsfeeds';
+$string['editfeeds'] = 'Bearbeiten, Eintragen oder Austragen von RSS/Atom-Newsfeeds';
 $string['editnewsfeeds'] = 'Neue Feeds bearbeiten';
 $string['editrssblock'] = 'RSS-Überschriftenblock bearbeiten';
 $string['feed'] = 'Feed';

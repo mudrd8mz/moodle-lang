@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6.3 (2006050530)
+      // install.php - created with Moodle 1.7+ (2006101008)
 
 
 $string['admindirerror'] = 'Das angegebene Admin-Verzeichnis ist falsch.';
@@ -17,11 +17,11 @@ $string['chooselanguagesub'] = 'Wählen Sie eine Sprache, die Sie während der I
 $string['compatibilitysettings'] = 'Prüfung Ihrer PHP-Einstellungen ...';
 $string['compatibilitysettingshead'] = 'Prüfung Ihrer PHP-Einstellungen ...';
 $string['compatibilitysettingssub'] = 'Alle Tests sollten vom Server bestätigt werden, damit Moodle später reibungslos laufen kann.';
-$string['configfilenotwritten'] = 'Das Installationsscript kann die Datei config.php, welche die gewählten Einstellungen enthält, nicht automatisch erstellen. Der web-user hat keine Schreibrechte für das Moodle-Verzeichnis. Sie können den folgenden Code manuell in der Datei config.php speichern und diese dann ins Moodle- Hauptverzeichnis kopieren.';
+$string['configfilenotwritten'] = 'Das Installationsscript kann die Datei config.php, welche die gewählten Einstellungen enthält, nicht automatisch erstellen. Der web-user hat keine Schreibrechte für das Moodle-Verzeichnis. Sie können den folgenden Code manuell in der Datei config.php speichern und diese dann ins Hauptverzeichnis Ihrer Moodle-Installation kopieren.';
 $string['configfilewritten'] = 'Die Datei config.php wurde erfolgreich erstellt';
 $string['configurationcomplete'] = 'Die Konfiguration ist abgeschlossen.';
 $string['configurationcompletehead'] = 'Die Konfiguration ist abgeschlossen.';
-$string['configurationcompletesub'] = 'Moodle speichert Ihre Konfigurationseinstellungen nun im root-Verzeichnis Ihrer Moodle-Installation.';
+$string['configurationcompletesub'] = 'Moodle speichert Ihre Konfigurationseinstellungen nun im Hauptverzeichnis Ihrer Moodle-Installation.';
 $string['database'] = 'Datenbank';
 $string['databasecreationsettings'] = 'Sie müssen die Datenbankeinstellungen für die Speicherung der Moodle-Daten konfigurieren. Die Datenbank wird automatisch vom Moodle4Windows-Installationsprozess mit den unten festgelegten Einstellungen angelegt:
 <br />
@@ -98,7 +98,8 @@ $string['dbhost'] = 'Name des Datenbankservers';
 $string['dbpass'] = 'Passwort';
 $string['dbprefix'] = 'Prefix für alle Tabellen';
 $string['dbtype'] = 'Datenbankart';
-$string['dbwrongencoding'] = 'Die ausgewählte Datenbank läuft unter einem nicht empfohlenen Zeichensatz. Es wäre besser, wenn Sie eine Unicode (UTF-8) basierte Datenbank verwenden würden. Sie haben die Möglichkeit diesen Schritt zu überspringen. Vermutlch wird dies später bei der Nutzung aber zu Problemen führen.';
+$string['dbwrongencoding'] = 'Die ausgewählte Datenbank läuft unter einem nicht empfohlenen Zeichensatz. Es wäre besser, wenn Sie eine Unicode (UTF-8) basierte Datenbank verwenden würden. Sie haben die Möglichkeit diesen Schritt zu überspringen. Vermutlch wird dies später bei der Nutzung aber zu Problemen führen.
+Die ausgewählte Datenbank läuft unter einem nicht empfohlenen Zeichensatz. Es wäre besser, wenn Sie eine Unicode (UTF-8) basierte Datenbank verwenden würden. Sie haben die Möglichkeit diesen Schritt zu überspringen. Vermutlich wird dies später bei der Nutzung aber zu Problemen führen.';
 $string['dbwronghostserver'] = 'Sie müssen den oben genannten \"Host\"-Regeln folgen.';
 $string['dbwrongnlslang'] = 'Die Umgebungsvariable NLS_LANG Ihres Webservers muss den Zeichensatz AL32UTF8 benutzen. Lesen Sie in der PHP-Dokumentation nach, wie Sie OCI8 richtig einstellen.';
 $string['dbwrongprefix'] = 'Sie müssen den oben genannten \"Tabellen-Prefix\"- Regeln folgen.';
@@ -135,17 +136,13 @@ $string['environmentsub'] = 'Es wird geprüft, ob die verschiedenen Komponenten 
 $string['fail'] = 'Fehlgeschlagen';
 $string['fileuploads'] = 'Dateien hochladen';
 $string['fileuploadserror'] = 'Dies sollte auf \'on\' stehen';
-$string['fileuploadshelp'] = '<p>Dateien hochladen ist auf diesem Server abgestellt.</p>
-
-<p>Moodle kann installiert werden. Es ist aber nicht möglich, Dateien für Kurse oder Bilder in den Profilen hochzuladen.</p>
-
-<p>Um das Hochladen von Dateien zu ermöglichen, müssen Sie oder der Adminstrator des Servers die Datei php.ini anpassen und die Einstellungen für<b>file_uploads</b> ändern auf \'1\'.</p>';
+$string['fileuploadshelp'] = '<p>Dateien hochladen ist auf diesem Server abgestellt.</p> <p>Moodle kann installiert werden. Es ist aber nicht möglich, Dateien für Kurse oder Bilder in den Profilen hochzuladen.</p> <p>Um das Hochladen von Dateien zu ermöglichen, müssen Sie oder der Administrator des Servers die Datei php.ini anpassen und die Einstellungen für<b>file_uploads</b> ändern auf \'1\'.</p>';
 $string['gdversion'] = 'GD-Version';
 $string['gdversionerror'] = 'Die GD-Bibliothek sollte verfügbar sein, um Bilder zu erzeugen und anzuzeigen.';
 $string['gdversionhelp'] = '<p>Auf Ihrem Server ist vermutlich GD nicht installiert. </p>
 <p>GD ist eine Bibliothek, die von PHP benötigt wird, um damit Bilder von Moodle angezeigt werden können, z.B. Nutzer-Bilder oder grafische Darstellungen der Log-Daten. Moodle arbeitet auch ohne GD. Die o.g. Funktionen stehen Ihnen dann jedoch nicht zur Verfügung.</p>
 <p> Wenn Sie GD unter UNIX zu PHP hinzufügen wollen, kompilieren Sie PHP unter Verwendung des Parameters   with-gd </p>
-<p>Unter Windows können Sie die Datei php.ini bearbeiten und die Zeile php_gd2.dll auskommentieren.</p>';
+<p>Unter Windows können Sie die Datei php.ini bearbeiten und die Zeile libgd.dll auskommentieren.</p>';
 $string['globalsquotes'] = 'Unsichere Einstellung von Globalparametern';
 $string['globalsquoteserror'] = 'Prüfen Sie die PHP-Einstellungen: deaktivieren Sie register_globals und/oder aktivieren Sie magic_quotes_gpc';
 $string['globalsquoteshelp'] = '<p>Die Kombination von deaktivierten Magic Quotes GPC und aktivierten Register Globals zur gleichen Zeit sind nicht empfehlenswert.</p>
@@ -199,7 +196,7 @@ $string['safemodehelp'] = '<p>Moodle kann beim Betrieb im Safe Mode verschiedene
 <p>Safe Mode ist zumeist nur auf einigen öffentlichen Webservern eingestellt. Suchen Sie sich einen Anbieter, der auf diese Einstellung verzichtet oder bitten Sie Ihren Dienstleister, dass Sie auf einen Server \'umziehen\' können, der diese Einstellung nicht verwendet.</p>
 <p>Sie können versuchen, die Installation fortzusetzen. Sie müssen aber später mit Problemen rechnen. </p>';
 $string['sessionautostart'] = 'Session Auto Start';
-$string['sessionautostarterror'] = 'Diese Option sollte abgeschaltet sein.';
+$string['sessionautostarterror'] = 'Diese Option sollte abgeschaltet sein';
 $string['sessionautostarthelp'] = '<p>Moodle benötigt den Session Support und kann ohne diese Einstellung nicht funktionieren.</p>
 <p>Sessions sind durch Einstellungen in der Datei php.ini möglich. Bitte suchen Sie nach der Einstellung für session.auto_start </p>';
 $string['skipdbencodingtest'] = 'Prüfung der Datenbank-Verschlüsselung überspringen';

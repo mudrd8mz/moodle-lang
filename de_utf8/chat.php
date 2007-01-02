@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.7 dev (2006092801)
+      // chat.php - created with Moodle 1.7+ (2006101008)
 
 
 $string['beep'] = 'Signal';
@@ -30,7 +30,7 @@ $string['explaingeneralconfig'] = 'Diese Einstellungen sind <strong>immer</stron
 $string['explainmethoddaemon'] = 'Diese Einstellungen sind <strong>nur erforderlich </strong>, wenn Sie die Chatmethode \"Chat Server Daemon\" gewählt haben';
 $string['explainmethodnormal'] = 'Diese Einstellungen sind <strong>nur erforderlich</strong>, wenn Sie die \"Standardmethode\" ausgewählt haben.';
 $string['generalconfig'] = 'Grundeinstellungen';
-$string['helpchatting'] = 'Hife beim Chatten';
+$string['helpchatting'] = 'Hilfe beim Chatten';
 $string['idle'] = 'Leerlauf';
 $string['messagebeepseveryone'] = '$a piepst jeden an!';
 $string['messagebeepsyou'] = '$a hat Sie angepiepst!';
@@ -43,7 +43,7 @@ $string['modulename'] = 'Chat';
 $string['modulenameplural'] = 'Chats';
 $string['neverdeletemessages'] = 'Mitteilungen nie löschen';
 $string['nextsession'] = 'Nächste geplante Sitzung';
-$string['noguests'] = 'Der Chat ist für Gäste nicht zugänglich.';
+$string['noguests'] = 'Der Chat ist für Gäste nicht zugänglich';
 $string['nomessages'] = 'Bisher keine Nachrichten';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.7 (2006101007)
+      // auth.php - created with Moodle 1.7+ (2006101008)
 
 
 $string['alternatelogin'] = 'Wenn Sie hier eine URL eingeben, wird diese als alternative Login-Seite  verwandt. Die Seite sollte ein Aktionsfeld (Button)auf <strong>\'$a\'</strong> enthalten und Eingabefelder für den <strong>Anmeldenamen</strong> und das <strong>Passwort</strong>.<br />Seien Sie sorgfältig bei der Eingabe der URL. Mit einer falschen URL schließen Sie sich selber vom Zugriff zur Seite aus.<br />Lassen Sie das Feld leer, um die Standardanmeldeseite zu verwenden.';
@@ -68,21 +68,21 @@ $string['auth_ldap_gracelogins_desc'] = 'Aktiviert LDAP gracelogin Unterstützun
 $string['auth_ldap_host_url'] = 'Geben Sie einen LDAP Server in URL-Form an wie \'ldap://ldap.myorg.de/\' oder \'ldaps://ldap.myorg.de/\'';
 $string['auth_ldap_login_settings'] = 'Login-Einstellungen';
 $string['auth_ldap_memberattribute'] = 'Geben Sie die Mitgliedsoptionen an, wenn Nutzer/innen zu einer Gruppe gehören. Normalerweise \'member\'';
-$string['auth_ldap_objectclass'] = 'Filter für die Suche nach Nutzernamen. Normalerweise tragen Sie ein objectClass=posixAccount . Defaults to objectClass=* what will return all objects from LDAP.';
+$string['auth_ldap_objectclass'] = 'Filter für die Suche nach Nutzernamen. Normalerweise tragen Sie ein: objectClass=posixAccount . Defaults to objectClass=* what will return all objects from LDAP.';
 $string['auth_ldap_opt_deref'] = 'Legt fest wie Aliasbezeichnungen bei der Suche behandelt werden. Wählen Sie einen der folgenden Werte: \"No\" (LDAP_DEREF_NEVER) or \"Yes\" (LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_passwdexpire_settings'] = 'LDAP Passwortablaufeinstellung';
 $string['auth_ldap_preventpassindb'] = 'Wählen Sie ja, um Passwörter <b>nicht</b> in der Moodle-Datenbank zu speichern';
-$string['auth_ldap_search_sub'] = 'Nutzer/innen in Unterumgebungen suchen';
+$string['auth_ldap_search_sub'] = 'Nutzer/innen in Teilumgebungen suchen';
 $string['auth_ldap_server_settings'] = 'LDAP Server-Einstellungen';
 $string['auth_ldap_update_userinfo'] = 'Nutzerdaten (Vorname, Name, Adresse...) von LDAP zu Moodle aktualisieren. Weitere Informationen in /auth/ldap/attr_mappings.php';
 $string['auth_ldap_user_attribute'] = 'Verwendete Eigenschaften, um Nutzer zu benennen/suchen. Normalerweise \'cn\'.';
 $string['auth_ldap_user_settings'] = 'Einstellung zur Nutzerüberprüfung (user lookup settings)';
-$string['auth_ldap_user_type'] = 'Auswahl wie Nutzer in LDAP hinterlegt werden. Die Einstellungen legen fest wie der Login-Ablauf, grace Logins und Nutzererstellung ablaufen.';
+$string['auth_ldap_user_type'] = 'Auswahl, wie Nutzer in LDAP hinterlegt werden. Die Einstellungen legen fest wie der Login-Ablauf, grace Logins und Nutzererstellung ablaufen.';
 $string['auth_ldap_version'] = 'Diese Version des LDAP Protokolls nutzt Ihr Server.';
-$string['auth_ldapdescription'] = 'Diese Methode bietet Authentifizierung gegenüber einem externen LDAP-Server. Wenn der vergebene Nutzername und Passwort gültig sind, erstellt Moodle einen neuen Nutzereintrag in seiner Datenbank. Diese Modul kann Nutzereinträge aus LDAP                                  lesen und gewünschte Felder in Moodle vorbelegen. Für die folgenden Zugänge                                  werden nur Benutzername und Passwort überprüft.';
-$string['auth_ldapextrafields'] = 'Diese Felder sind optional. Sie können einige Moodle Nutzer-Felder mit Daten aus <b>LDAP-Feldern</b>, die Sie hier spezifizieren, vorbelegen. <p>Wenn Sie diese Felder leer lassen, wird nichts von LDAP transferiert und die Moodle Voreinstellungen werden verwendet.</p><p>In jedem Fall können Nutzer diese Felder editieren, nachdem Sie sich angemeldet haben.</p>';
+$string['auth_ldapdescription'] = 'Diese Methode bietet die Authentifizierung gegenüber einem externen LDAP-Server. Wenn der vergebene Nutzername und Passwort gültig sind, erstellt Moodle einen neuen Nutzereintrag in seiner Datenbank. Dieses Modul kann Nutzereinträge aus LDAP                                  lesen und gewünschte Felder in Moodle vorbelegen. Für die folgenden Zugänge werden nur Benutzername und Passwort überprüft.';
+$string['auth_ldapextrafields'] = 'Diese Felder sind optional. Sie können einige Moodle Nutzer-Felder mit Daten aus <b>LDAP-Feldern</b> vorbelegen, die Sie hier spezifizieren. <p>Wenn Sie diese Felder leer lassen, wird nichts von LDAP transferiert und die Moodle Voreinstellungen werden verwendet.</p><p>In jedem Fall können Nutzer diese Felder editieren, nachdem sie sich angemeldet haben.</p>';
 $string['auth_ldaptitle'] = 'LDAP-Server';
-$string['auth_manualdescription'] = 'Diese Methode verhindert, dass Nutzer Ihre eigenen Zugänge anlegen können. Jeder Zugang muss manuell vom Administrator selbst eingerichtet werden.';
+$string['auth_manualdescription'] = 'Diese Methode verhindert, dass Nutzer ihre eigenen Zugänge anlegen können. Jeder Zugang muss manuell vom Administrator selbst eingerichtet werden.';
 $string['auth_manualtitle'] = 'Nur manuelle Zugänge';
 $string['auth_multiplehosts'] = 'Mehrere Hosts können angegeben werden (z.B. host1.com;host2.com;host3.com)';
 $string['auth_nntpdescription'] = 'Diese Methode verwendet einen NNTP-Server, um zu prüfen, ob der angegebener Nutzername und das Passwort gültig sind.';
@@ -125,16 +125,16 @@ $string['auth_updateremote_expl'] = '<p><b>Update externer Daten:</b> Wenn aktiv
 $string['auth_updateremote_ldap'] = '<p><b>Anmerkung:</b> Das Update externer LDAP-Daten erfordert die Einstellung binddn und bindpw für einen Bind-user mit Schreibrechten für alle Nutzerdatensätze. It currently does not preserve multi-valued attributes, and will remove extra values on update. </p>';
 $string['auth_user_create'] = 'Nutzer-Erstellung aktivieren';
 $string['auth_user_creation'] = 'Neue (anonyme) Nutzer können Nutzer-Accounts erstellen außerhalb der Authentifizierungsquelle und per E-Mail bestätigen. Sofern Sie dies aktivieren, achten Sie darauf, ebenso modulspezifische Optionen für die Modulerstellung zu konfigurieren.';
-$string['auth_usernameexists'] = 'Der ausgewählte Nutzername existiert bereits. Bitte wählen Sie einen neuen.';
+$string['auth_usernameexists'] = 'Der ausgewählte Anwendername existiert bereits - bitte wählen Sie einen anderen.';
 $string['authenticationoptions'] = 'Authentifizierungsoptionen';
-$string['authinstructions'] = 'Hier können Sie Ihren Nutzern Anweisungen geben, welche Nutzernamen und Passwort sie verwenden sollen. Der eingegebene Text erscheint auf der Anmeldeseite. Wenn Sie nichts eingeben, werden keine Anweisungen angezeigt.';
+$string['authinstructions'] = 'Hier können Sie Ihren Nutzern Anweisungen geben, welche Nutzernamen und Passworte sie verwenden sollen. Der eingegebene Text erscheint auf der Anmeldeseite. Wenn Sie nichts eingeben, werden keine Anweisungen angezeigt.';
 $string['changepassword'] = 'Passwort-URL ändern';
-$string['changepasswordhelp'] = 'Hier können Sie eine Adresse angeben, unter der die Nutzer ihren Nutzernamen/Passwort ändern können, sofern Sie dies vergessen haben. Diese Option wird den Nutzern als Schaltfläche auf der Anmeldungsseite angeboten. Wenn Sie dieses Feld leer lassen, wird er nicht angezeigt.';
+$string['changepasswordhelp'] = 'Hier können Sie eine Adresse angeben, unter der die Nutzer ihren Nutzernamen/Passwort ändern können, sofern sie dies vergessen haben. Diese Option wird den Nutzern als Schaltfläche auf der Anmeldungsseite angeboten. Wenn Sie dieses Feld leer lassen, wird die Option nicht angeboten.';
 $string['chooseauthmethod'] = 'Authentifizierungsmethode';
 $string['createpasswordifneeded'] = 'Passwort anlegen, falls erforderlich';
 $string['forcechangepassword'] = 'Verbindliche Änderung des Passwortes';
-$string['forcechangepassword_help'] = 'Nutzer werden aufgefordert, Ihr Passwort beim nächsten Login zu ändern';
-$string['forcechangepasswordfirst_help'] = 'Nutzer werden aufgefordert, Ihr Passwort beim ersten Login zu ändern';
+$string['forcechangepassword_help'] = 'Nutzer werden aufgefordert, ihr Passwort beim nächsten Login zu ändern';
+$string['forcechangepasswordfirst_help'] = 'Nutzer werden aufgefordert, ihr Passwort beim ersten Login zu ändern';
 $string['guestloginbutton'] = 'Taste für das Gast-Login';
 $string['infilefield'] = 'Erforderliches Feld in Datei';
 $string['instructions'] = 'Anweisungen';
@@ -143,13 +143,13 @@ $string['locked'] = 'Gesperrt';
 $string['md5'] = 'MD5-Verschlüsselung';
 $string['passwordhandling'] = 'Nutzung des Passwortfeldes';
 $string['plaintext'] = 'Reiner Text';
-$string['shib_no_attributes_error'] = 'Sie versuchen vermutlich die Shibboleth Authentifizierung zu verwenden. Moodle hat jedoch keine Attribute für die Nutzer/innen erhalten. Prüfen Sie bitte, ob der Identity Provider die erforderlichen Attribute ($a) dem Moodle-Serviceprovider zur Verfügung stellt oder informieren Sie den Webmaster des Servers.';
-$string['shib_not_all_attributes_error'] = 'Moodle benötigt einige Shibboleth-Attribute die derzeitnicht bereitgestellt werden. Es handelt sich um die Attribute: $a<br />Benachrichtigen Sie bitte den Webmaster des Servers oder Ihren Identity Provider.';
+$string['shib_no_attributes_error'] = 'Sie versuchen vermutlich, die Shibboleth Authentifizierung zu verwenden. Moodle hat jedoch keine Attribute für die Nutzer/innen erhalten. Prüfen Sie bitte, ob der Identity Provider die erforderlichen Attribute ($a) dem Moodle-Serviceprovider zur Verfügung stellt oder informieren Sie den Webmaster des Servers.';
+$string['shib_not_all_attributes_error'] = 'Moodle benötigt einige Shibboleth-Attribute, die derzeit nicht bereitgestellt werden. Es handelt sich um die Attribute: $a<br />Benachrichtigen Sie bitte den Webmaster des Servers oder Ihren Identity Provider.';
 $string['shib_not_set_up_error'] = 'Die Shibboleth-Authentifizierung scheint nicht richtig eingerichtet zu sein. Beachten Sie die <a href=\"README.txt\">README-Datei</a> mit weiteren Informationen zur Einrichtung der Shibboleth-Authentifizierung.';
 $string['showguestlogin'] = 'Sie können die Gast-Login Schaltfläche auf der Anmeldeseite anzeigen oder verbergen.';
 $string['stdchangepassword'] = 'Standardseite zur Passwortänderung nutzen';
 $string['stdchangepassword_expl'] = 'Stellen Sie Ja ein, wenn das externe Authentifizierungssystem eine Änderung des Passwortes durch Moodle zulässt. Die Einstellungen überschreiben \'Passwort-URL ändern\'';
-$string['stdchangepassword_explldap'] = 'Anmerkung: Es wird empfohlen LDAP über einen SSL verschlüsselten Tunnel (ldaps://) zu nutzen wenn der LDAP Server remote verwendet wird.';
+$string['stdchangepassword_explldap'] = 'Anmerkung: Es wird empfohlen LDAP über einen SSL verschlüsselten Tunnel (ldaps://) zu nutzen, wenn der LDAP Server remote verwendet wird.';
 $string['unlocked'] = 'Bearbeitbar';
 $string['unlockedifempty'] = 'Bearbeitbar wenn Feld leer';
 $string['update_never'] = 'Nie';
