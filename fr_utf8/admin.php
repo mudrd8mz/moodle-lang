@@ -204,8 +204,8 @@ $string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">Cette base de donn
 $string['dbmigrationdupfailed'] = 'La duplication de la base de données a échoué. L\'erreur est vraisemblablement&nbsp;: <font color=\"#ff0000\"><pre>$a</pre></font>';
 $string['dbsessions'] = 'Stocker les informations de session dans la base de données';
 $string['debug'] = 'Messages de débogage';
-$string['debugall'] = 'Tout&nbsp;: afficher tous les messages de débogage raisonnables de PHP';
-$string['debugdeveloper'] = 'Développeur&nbsp;: afficher tous les messages de débogage de Moodle pour développeurs';
+$string['debugall'] = 'Tout&nbsp;: afficher tous les messages de débogage de PHP';
+$string['debugdeveloper'] = 'Développeur&nbsp;: afficher tous les messages de débogage de Moodle';
 $string['debugdisplay'] = 'Afficher les informations de débogage';
 $string['debugging'] = 'Débogage';
 $string['debugminimal'] = 'Minimal&nbsp;: n\'afficher que les erreurs fatales';
