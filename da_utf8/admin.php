@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // admin.php - created with Moodle 1.7+ (2006101007)
 
 
@@ -415,7 +415,7 @@ $string['statsfirstrun'] = 'Maksimal kørselsinterval';
 $string['statsmaxruntime'] = 'Maksimal kørselstid';
 $string['statsruntimestart'] = 'Start ved';
 $string['statsuserthreshold'] = 'Bruger minimum';
-$string['stickyblocks'] = 'Klæbrige blokke';
+$string['stickyblocks'] = 'Faste blokke';
 $string['stickyblockscourseview'] = 'Kursus side';
 $string['stickyblocksduplicatenotice'] = 'Hvis en blok du tilføjer her allerede er tilføjet på en side vil det resultere i dubletter. <br />Kun den angivne blok vil ikke være til at rette, dubletten vil stadig kunne rettes.';
 $string['stickyblocksmymoodle'] = 'Min Moodle';
