@@ -1,21 +1,9 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.0.8 dev (2002122301)
+      // choice.php - created with Moodle 1.7+ (2006101008)
+      // local modifications from http://17.moodle.de
 
 
-$string['answered'] = "Beantwortet";
-$string['choice'] = "Wahl  \$a";
-$string['choicename'] = "Wahlname";
-$string['choicetext'] = "Wahltext";
-$string['modulename'] = "Wahl ";
-$string['modulenameplural'] = "Wahlen ";
-$string['notanswered'] = "Noch nicht beantwortet";
-$string['publish'] = "Ergebnisse veröffentlichen";
-$string['publishanonymous'] = "Anonyme Ergebnisse veröffentlichen, Namen der Teilnehmer nicht zeigen";
-$string['publishnames'] = "Ergebnisse vollständig veröffentlichen, Namen und deren Wahl anzeigen";
-$string['publishnot'] = "Keine Ergebnisse den Teilnehmern veröffentlichen";
-$string['responses'] = "Antworten ";
-$string['responsesto'] = "Antworten zu  \$a";
-$string['savemychoice'] = "Meine Wahl speichern";
-$string['viewallresponses'] = "Zeige \$a Antworten";
+$string['havetologin'] = 'Du musst dich erst anmelden, bevor du dich an der Abstimmung beteiligen kannst.';
+$string['mustchooseone'] = 'Du musst zuerst eine Antwort auswählen, bevor du speichern kannst. Es wurde noch nichts gespeichert.';
 
 ?>

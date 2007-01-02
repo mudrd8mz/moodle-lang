@@ -1,4 +1,3 @@
 Personal form of German.
 
-Adapted from "de" translation by Franz Horvath
-Now by C.Borowski
+New translation by Ralf Krause and Ralf Hilgenstock. 2007
