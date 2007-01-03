@@ -131,8 +131,7 @@ $string['delay1'] = '最初と2回目の受験の待ち時間';
 $string['delay2'] = '2回目以降の受験の待ち時間';
 $string['deleteattemptcheck'] = '本当にこれらの受験内容を削除してもよろしいですか?';
 $string['deletequestioncheck'] = '「 $a 」を本当に削除してもよろしいですか?';
-$string['deletequestionscheck'] = '本当に次の問題を削除してもよろしいですか?
-<div>$a</div>';
+$string['deletequestionscheck'] = '本当に次の問題を削除してもよろしいですか?<br /><br />$a';
 $string['deleteselected'] = '選択したものを削除する';
 $string['description'] = '説明';
 $string['discrimination'] = '識別指数';
