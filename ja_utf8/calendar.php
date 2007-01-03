@@ -45,7 +45,7 @@ $string['explain_lookahead'] = 'ここでは、イベントが直近のイベン
 $string['explain_maxevents'] = 'ここでは、直近イベントの最大表示件数を設定します。ここで大きな数を設定した場合は、直近のイベントを大量に表示するための画面スペースが必要になります。';
 $string['explain_persistflt'] = 'この設定を行った場合、Moodleはあなたの最新のイベントフィルタ設定を記憶します。また、あなたがログインするたびに最新のイベントを自動的に表示します。';
 $string['explain_startwday'] = 'ここでは、すべての月間カレンダーの表示方法を設定します。あなたが慣れ親しんだ表示になるように設定してください。';
-$string['explain_timeformat'] = '時間の表示は12時間表示または24時間表示を選択することができます。デフォルトを選択した場合は、使用言語に合わせてフォーマットが自動的に選択されます。';
+$string['explain_timeformat'] = '12時間表示または24時間表示を時間の表示方法として選択することができます。デフォルトを選択した場合、使用言語に合わせてフォーマットが自動的に選択されます。';
 $string['export'] = 'エクスポート';
 $string['exportbutton'] = 'エクスポート';
 $string['exportcalendar'] = 'カレンダーをエクスポートする';
@@ -57,6 +57,7 @@ $string['globalevents'] = '全体のイベント';
 $string['gotocalendar'] = 'カレンダーへ移動する';
 $string['groupevents'] = 'グループイベント';
 $string['hidden'] = '非表示中';
+$string['ical'] = 'iCal';
 $string['iwanttoexport'] = 'エクスポート';
 $string['manyevents'] = '$a イベント';
 $string['mon'] = '月';
@@ -117,6 +118,6 @@ $string['wednesday'] = '水曜日';
 $string['weeknext'] = '来週';
 $string['weekthis'] = '今週';
 $string['yesterday'] = '昨日';
-$string['youcandeleteallrepeats'] = 'このイベントは繰り返しイベントの一部です。あなたはこのイベントのみ削除することもできますし、一度に $a 件すべてのイベントを削除することもできます。';
+$string['youcandeleteallrepeats'] = 'このイベントは繰り返しイベントの一部です。あなたはこのイベントのみ削除することもできます。また、一度に $a 件すべてのイベントを削除することもできます。';
 
 ?>
