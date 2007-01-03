@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 dev (2006112200)
+      // calendar.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['advancedoptions'] = 'Gelişmiş ayarlar';
@@ -49,6 +49,7 @@ $string['explain_timeformat'] = 'Saatin 12 veya 24 şeklinde görünmesini ayarl
 $string['export'] = 'Dışa ver';
 $string['exportbutton'] = 'Dışa ver';
 $string['exportcalendar'] = 'Takvimi dışa ver';
+$string['for'] = 'için';
 $string['fri'] = 'Cum';
 $string['friday'] = 'Cuma';
 $string['generateurlbutton'] = 'Takvim URL getir';
@@ -56,6 +57,7 @@ $string['globalevents'] = 'Genel olaylar';
 $string['gotocalendar'] = 'Takvime git';
 $string['groupevents'] = 'Grup olayları';
 $string['hidden'] = 'gizli';
+$string['ical'] = 'iCal';
 $string['iwanttoexport'] = 'Dışa ver';
 $string['manyevents'] = '$a olayları';
 $string['mon'] = 'Pzt';

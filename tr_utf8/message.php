@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.6 development (2005101200)
+      // message.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['addcontact'] = 'Kişi ekle';
@@ -33,8 +33,10 @@ $string['messagehistory'] = 'Mesaj Geçmişi';
 $string['messages'] = 'Mesajlar';
 $string['messaging'] = 'Mesajlaşma';
 $string['mycontacts'] = 'Kişiler';
+$string['newonlymsg'] = 'Sadece yenileri göster';
 $string['newsearch'] = 'Yeni arama';
-$string['nomessages'] = 'Bekleyen mesaj yok';
+$string['noframesjs'] = 'JavaScript ve çerçevesiz sürüm';
+$string['nomessages'] = 'Yeni mesaj yok';
 $string['nomessagesfound'] = 'Mesaj yok';
 $string['nosearchresults'] = 'Aramanızla ilgili sonuç yok';
 $string['offline'] = 'Çevrimdışı';

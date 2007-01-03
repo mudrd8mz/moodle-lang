@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8 dev (2006102600)
+      // blog.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['addnewentry'] = 'Yeni kayıt ekle';
@@ -15,6 +15,7 @@ $string['blogs'] = 'Bloglar';
 $string['blogtags'] = 'Blog Etiketleri';
 $string['courseblog'] = 'Kurs blogu: $a';
 $string['courseblogs'] = 'Kullanıcılar, sadece kursta paylaşıma açılan kullanıcı bloglarını görebilir';
+$string['deleteotagswarn'] = 'Bu etiketleri bütün blog mesajlarından<br />ve sistemden kaldırmak istediğinizden emin misiniz?';
 $string['disableblogs'] = 'Blog sistemini tamamen kapat';
 $string['emptybody'] = 'Blog metni boş olamaz';
 $string['emptytitle'] = 'Blog başlığı boş olamaz';
@@ -45,6 +46,7 @@ $string['settingsupdatederror'] = 'Bir hata oluştu, blog seçenekleri ayarları
 $string['siteblog'] = 'Site blogu: $a';
 $string['siteblogs'] = 'Tüm site kullanıcıları tüm blog kayıtlarını görebilir';
 $string['tagdatelastused'] = 'En son kullanım tarihi';
+$string['tags'] = 'Etiketler';
 $string['tagsort'] = 'Etiket görünümünü sırala';
 $string['tagtext'] = 'Etiket metni';
 $string['timewithin'] = 'Şu gün içinde kullanılan etiketleri göster';

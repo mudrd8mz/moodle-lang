@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 dev (2006112200)
+      // group.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['addexistinggroupstogrouping'] = 'Mevcut grupları gruplamaya ekle';
 $string['addgroupstogrouping'] = 'Grupları gruplamaya ekle';
-$string['adduserstogroup'] = 'Kullanıcıları gruba ekle';
+$string['adduserstogroup'] = 'Kullanıcıları gruba ekle/sil';
 $string['cancel'] = 'İptal';
 $string['createautomaticgrouping'] = 'Otomatik gruplama oluştur';
 $string['creategroup'] = 'Grup oluştur';
@@ -23,6 +23,7 @@ $string['editgroupingpermissions'] = 'Gruplama yetkilerini düzenle';
 $string['editgroupingsettings'] = 'Gruplama ayarlarını düzenle';
 $string['editgroupsettings'] = 'Grup ayarlarını düzenle';
 $string['enrolmentkey'] = 'Kayıt anahtarı';
+$string['errornotingrouping'] = 'Üzgünüz, $a içinde bir grup oluşturamazsınız.';
 $string['group'] = 'Grup';
 $string['groupdescription'] = 'Grup açıklaması';
 $string['groupfor'] = 'grup için';
@@ -33,6 +34,8 @@ $string['grouping'] = 'Gruplama';
 $string['groupingdescription'] = 'Gruplama açıklaması';
 $string['groupingname'] = 'Gruplama adı';
 $string['groupings'] = 'Gruplamalar';
+$string['groupmember'] = 'Grup Üyesi';
+$string['groupmemberdesc'] = 'Bir grubun bir üyesi için standart rol';
 $string['groupmembers'] = 'Grup üyeleri';
 $string['groupmemberssee'] = 'Grup üyelerine bak';
 $string['groupmembersselected'] = 'Seçili grubun üyeleri';
@@ -50,12 +53,14 @@ $string['hidepicture'] = 'Resmi gizle';
 $string['javascriptrequired'] = 'Bu sayfa, Javascriptin etkin olmasını gerektirir.';
 $string['membersofselectedgroup'] = 'Seçili grubun üyeleri';
 $string['newpicture'] = 'Yeni resim';
+$string['notingrouping'] = '[Gruplama içinde değil]';
 $string['numberofgroups'] = 'Grup sayısı';
 $string['numberofstudents'] = 'Öğrenci sayısı';
 $string['prefixforgroupnames'] = 'Grup adları için önek';
 $string['printerfriendly'] = 'Gruplamanın yazıcı-dostu görünümü';
 $string['removegroupfromselectedgrouping'] = 'Grubu seçili gruplamadan sil';
 $string['removeselectedusers'] = 'Seçili kullanıcıları sil';
+$string['return'] = 'Geri dön';
 $string['save'] = 'Kaydet';
 $string['selectnumberineachgroup'] = 'Her bir gruptaki sayı';
 $string['selectnumberofgroups'] = 'Grup sayısını seçin';
