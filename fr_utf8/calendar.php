@@ -53,6 +53,7 @@ $string['globalevents'] = 'Événements globaux';
 $string['groupevents'] = 'Événements de groupe';
 $string['gotocalendar'] = 'Aller au calendrier';
 $string['hidden'] = 'cachés';
+$string['ical'] = 'iCal';
 $string['iwanttoexport'] = 'Exporter';
 $string['manyevents'] = '$a événements ';
 $string['monthlyview'] = 'Vue mensuelle';
