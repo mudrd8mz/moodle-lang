@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2007010300)
+      // moodle.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['action'] = '操作';
@@ -420,7 +420,7 @@ $string['emailconfirmation'] = 'こんにちは $a->firstname さん
 
 「 $a->sitename 」であなたのメールアドレスによる新しいアカウントの作成が依頼されました。
 
-アカウントの確定を行うには、下記のウェブアドレスにアクセスしてください:
+あなたの新しいアカウントを確定するには、下記のウェブアドレスにアクセスしてください:
 
 $a->link
 
