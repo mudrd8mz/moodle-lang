@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // editor.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['about'] = 'Névjegy';
@@ -31,6 +31,7 @@ $string['createlink'] = 'Webes ugrópont létrehozása';
 $string['cut'] = 'Kivágás';
 $string['cutpastemozilla'] = 'A szokásos gyorsbillentyűket (vagy akár a Paste [Beillesztés] gombot) nem használhatja ezzel az online szerkesztővel szöveg beszúrására. Ennek oka egy biztonsági szűrő, melyet beépítettek a Mozilla és a Firefox böngészők némelyikébe.<br /><br />Három lehetőség közül választhat: <br /> (1) A CTRL-v helyett használja a SHIFT-Insert kombinációt <br /> (2) Használja a böngésző Szerkesztés->Beillesztés [Edit->Paste] menüjét<br /> (3) A user.js fájl szerkesztésével módosítsa a böngésző beállításait. <br /><br />Az alábbi OK gombra kattintva további segítséget kap, a Cancel-lel térhet vissza a szerkesztőhöz';
 $string['delete'] = 'Törlés';
+$string['enterurlfirst'] = 'Először az URL-t adja meg.';
 $string['filebrowser'] = 'Fájlkeresés';
 $string['findwhat'] = 'Keresés';
 $string['fontname'] = 'Betűtípus neve';
@@ -73,6 +74,7 @@ $string['matchcase'] = 'Kis-/nagybetű különbözik';
 $string['middle'] = 'Középre';
 $string['minimize'] = 'Szerkesztő kis méretben';
 $string['move'] = 'Áthelyezés';
+$string['mustenterurl'] = 'Adja meg az URL-t.';
 $string['nolink'] = 'Automatikus kapcsolás megakadályozása';
 $string['normal'] = 'Normál';
 $string['notimage'] = 'A kiválasztott állomány nem kép. Válasszon egy képet!';
@@ -85,6 +87,7 @@ $string['paste'] = 'Beillesztés a vágólapról';
 $string['path'] = 'Útvonal';
 $string['percent'] = 'Százalék';
 $string['pixels'] = 'Képpont';
+$string['pleaseenteralt'] = 'Adja meg az alternatív szöveget';
 $string['popupeditor'] = 'Szerkesztő nagyítása';
 $string['preformatted'] = 'Előre formázott';
 $string['preview'] = 'Nyomtatási kép';

@@ -1,0 +1,22 @@
+<p align="center"><strong>Használja ezeket a beállításokat, ha a rendeléseket a hitelkártya feldolgozása előtt
+ellenőrizni kívánja.</strong></p>
+<p>Szüntesse meg az 'an_review' mező bejelölését, ha a tanulókat a kurzusokba 
+közvetlenül kártyaszámuk megadása után íratja be.<br />
+Az 'an_review' mező bejelölése esetén a hitelkártyát a rendszer elfogadja, de nem terheli meg, és két lehetőség közül választhat:
+   'kézi terhelés' és 'ütemezett terhelés'.
+   <ul>
+      <li>Kézi terheléshez az an_capture_day mezőbe írjon '0'-t. 
+      Ha 30 napon belül nem vizsgálja felül, az ügyletet a rendszer törli.
+      Ne aggódjék! Az üzlet számunkra fontos. Az 'E-mail küldési beállításai' részben X nappal
+      a függőben lévő rendelés lejárata előtt értesítést kap, ha a CRON-t megfelelően állítja be.</li>
+      <li>Ütemezett terhelés esetén adjon meg egy 1 és 29 közötti számot az an_capture_day mezőhöz.
+      Ne feledje el a CRON-t BEKAPCSOLNI.
+      Megtörténik a kártya megterhelése és a felhasználó zökkenőmentesen an_capture_day 
+      napon belül beiratkozik a kurzusra. Ha szkeptikus, az új folyamatban lévő megrendelésről 
+      szóló e-mail beérkezése után elfogadhatja vagy elutasíthatja a fizetést.
+      A felhasználók üdvözlő üzenetet is kaphatnak, ha bejelöli az
+      enrol_mailstudents mezőt.</li>
+   </ul>
+</p>
+<p align="center"><strong>A Moodle 1.6 esetén a fizetések elfogadását/elutasítását/visszafizetését
+a fizetések kezelésére szolgáló oldalon hajthatja végre.</strong></p>

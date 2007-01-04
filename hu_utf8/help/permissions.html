@@ -1,0 +1,81 @@
+<p align="center"><b>Engedélyek</b></p>
+
+<p>
+Az engedélyek konkrét lehetőségekre módot adó beállítások.
+</p>
+
+<p>
+Ilyen lehetőség például az új viták indítása (fórumokban).
+</p>
+
+<p>
+Az ilyen lehetőségekhez az engedélyt négy érték közül választva adhatja meg:
+<dl>
+<dt>ÖRÖKÖL</dt>
+<dd>Általában ez az alapbeállítás. Olyan semleges beállítás, amely értelmében
+   "az a beállítás használandó, amellyel a felhasználó már rendelkezett".   
+   Ha valakihez szerepet rendel (pl. egy kurzusban), aki valamely lehetőséget illetően
+   ezzel az engedéllyel rendelkezik, akkor a ténylegesen rendelkezésére álló
+   engedély azonos lesz a magasabb szintű környezetben (pl. kategóriák vagy portál szintjén)
+   már meglévő engedélyeivel. Ha viszont egyik szinten sem kap a lehetőségre engedélyt,
+   akkor ennek használatára nem lesz módja.
+    </dd>
+
+<dt>ENGEDÉLYEZ</dt>
+<dd>Ezt választva engedélyezi a lehetőség használatát azok számára,
+    akiknek ezt a szerepet osztja ki. Az engedély az adott szerephez tartozó környezetre
+    és minden "alatta" lévő környezetre terjed ki. Ha pl. ez egy kurzushoz rendelt tanulói szerep,
+    akkor a tanulók a kurzushoz tartozó összes fórumban indíthatnak vitát, HACSAK
+    valamely fórumra nem érvényes valmilyen módosítás vagy új feladat, amely az adott
+    lehetőségre vonatkozóan megakadályozó vagy tiltó értékkel rendelkezik.</dd>
+
+<dt>MEGAKADÁLYOZ</dt>
+<dd>Ezt választva a lehetőség használatától megvonja az engedélyt, még akkor is,
+   ha ez a felhasználók számára egy magasabb környezetben engedélyezve volt.</dd>
+
+<dt>TILT</dt>
+<dd>Erre ritkán van szükség, de esetenként szükség lehet arra, hogy egy szerep
+   engedélyeit teljesen letiltsa úgy, hogy azokat egy alacsonyabb szinten NE lehessen
+   módosítani. Jó példa lehet erre, amikor egy rendszergazda valakit
+   az egész portálon való bármely fórumon belül el akar tiltani új viták indításától.   
+   Ilyen esetben létrehozhat egy "Tilt" beállítású szerepet, melyet portálkörnyezetben
+   rendelhet az adott felhasználóhoz.
+  </dd>
+
+</dl>
+</p>
+
+<p align="center"><b>Engedélyek közötti konfliktusok feloldása</b></p>
+
+<p> Az "alacsonyabb" környezetben megadott egedélyek rendszerint módosítják
+    a "magasabb" környezetben megadottakat (ez vonatkozik a módosításokra és a
+    hozzárendelt szerepekre is).  Kivételt képez a TILTÁS, amely alacsonyabb 
+    szinteken nem módosítható.
+</p>
+
+<p> Ha valaki azonos környezetben két szerepet kap, melyek egyike 
+    ENGEDÉLYEZ, a másik viszont MEGAKADÁLYOZ, melyikük lesz érvényes?  
+    Ilyenkor a Moodle döntéshez a környezetfát nézi végig.   </p>
+    
+<p> Például egy tanulóhoz egy kurzuson belül két szerep van hozzárendelve, melyek közül az
+    egyik engedélyezi új viták indítását, a másik nem. Ilyen esetben a döntéshez
+    ellenőrizni kell a kategóriák és a portál környezetét, ahol a döntéshez egy másik 
+    hozzárendelt engedélyt keresünk. Ha nincs ilyen, akkor az engedély alapbeállítás szerint 
+    MEGAKADÁLYOZ (mert a két beállítás érvényteleníti egymást, így nem marad engedély).
+</p>
+
+<p align="center"><b>Speciális kivételek</b></p>
+
+<p> A vendégek általában nem kapnak engedélyt tartalom beküldésére  
+    (pl. fórumba, naptári bejegyzésbe, blogba), még akkor sem, ha a 
+    lehetőséget erre megkapják.
+</p>
+
+
+<p>
+Lásd még:
+<a href="help.php?file=roles.html">Szerepek</a>,
+<a href="help.php?file=contexts.html">Környezetek</a>,
+<a href="help.php?file=assignroles.html">Szerepek hozzárendelése</a> és
+<a href="help.php?file=permissions.html">Engedélyek</a>.
+</p>
