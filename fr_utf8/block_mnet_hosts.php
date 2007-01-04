@@ -1,6 +1,6 @@
 <?php // $Id$
 
-$string['mnet_hosts'] = 'Serveurs du réseau';
+$string['mnet_hosts'] = 'Serveurs du rÃ©seau';
 $string['server'] = 'Serveur';
 
 ?>
