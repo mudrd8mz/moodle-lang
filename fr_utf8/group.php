@@ -1,49 +1,49 @@
 <?php // $Id$
 
 $string['groupmember'] = 'Membre du groupe';
-$string['groupmemberdesc'] = 'Rôle par défaut pour un membre d\'un groupe.';
+$string['groupmemberdesc'] = 'RÃ´le par dÃ©faut pour un membre d\'un groupe.';
 $string['notingrouping'] = '[Dans aucun groupe]';
 
-$string['errornotingrouping'] = 'Désolé, vous ne pouvez pas créer de groupe dans $a';
+$string['errornotingrouping'] = 'DÃ©solÃ©, vous ne pouvez pas crÃ©er de groupe dans $a';
 
 $string['groupings'] = 'Groupements';
 $string['grouping'] = 'Groupement';
 $string['groups'] = 'Groupes';
 $string['group'] = 'Groupe';
-$string['groupsinselectedgrouping'] = 'Groupes dans le groupement sélectionné';
-$string['membersofselectedgroup'] = 'Membres du groupe sélectionné';
+$string['groupsinselectedgrouping'] = 'Groupes dans le groupement sÃ©lectionnÃ©';
+$string['membersofselectedgroup'] = 'Membres du groupe sÃ©lectionnÃ©';
 
-$string['editgroupingsettings'] = 'Modifier les réglages du groupement';
+$string['editgroupingsettings'] = 'Modifier les rÃ©glages du groupement';
 $string['editgroupingpermissions'] = 'Modifier les autorisations du groupement';
 $string['deletegrouping'] = 'Supprimer groupement';
-$string['creategrouping'] = 'Créer groupement';
-$string['createautomaticgrouping'] = 'Créer groupement automatique';
+$string['creategrouping'] = 'CrÃ©er groupement';
+$string['createautomaticgrouping'] = 'CrÃ©er groupement automatique';
 $string['printerfriendly'] = 'Affichage pour impression du groupement';
 
-$string['editgroupsettings'] = 'Modifier les réglagles du groupe';
-$string['deleteselectedgroup'] = 'Supprimer le groupe sélectionné';
-$string['removegroupfromselectedgrouping'] = 'Retirer le groupe du groupement sélectionné';
-$string['creategroupinselectedgrouping'] = 'Créer un groupe dans le groupement sélectionné';
+$string['editgroupsettings'] = 'Modifier les rÃ©glagles du groupe';
+$string['deleteselectedgroup'] = 'Supprimer le groupe sÃ©lectionnÃ©';
+$string['removegroupfromselectedgrouping'] = 'Retirer le groupe du groupement sÃ©lectionnÃ©';
+$string['creategroupinselectedgrouping'] = 'CrÃ©er un groupe dans le groupement sÃ©lectionnÃ©';
 $string['addexistinggroupstogrouping'] = 'Ajouter des groupes existants au groupement';
 $string['addgroupstogrouping'] = 'Ajouter des groupes au groupement';
 
-$string['removeselectedusers'] = 'Retirer les utilisateurs sélectionnés';
+$string['removeselectedusers'] = 'Retirer les utilisateurs sÃ©lectionnÃ©s';
 $string['adduserstogroup'] = 'Ajouter/retirer des utilisateurs au groupe';
 
 $string['groupingname'] = 'Nom du groupement';
 $string['defaultgroupingname'] = 'Groupement';
 $string['groupingdescription'] = 'Description du groupement';
-$string['prefixforgroupnames'] = 'Préfixe des noms de groupe';
+$string['prefixforgroupnames'] = 'PrÃ©fixe des noms de groupe';
 $string['defaultgroupprefix'] = 'Groupe ';
-$string['distributealphabetically'] = 'Répartir alphabétiquement (nom de famille) dans les groupes';
-$string['usestudentsonlyfromselectedgroup'] = 'N\'utiliser que les étudiants du groupe sélectionné';
-$string['selectnumberineachgroup'] = 'Sélectionner un nombre de chaque groupe';
-$string['numberofstudents'] = 'Nombre d\'étudiants';
-$string['distributeevenly'] = 'Répartir équitablement les étudiants restants';
-$string['selectnumberofgroups'] = 'Sélectionner un nombre de groupes';
+$string['distributealphabetically'] = 'RÃ©partir alphabÃ©tiquement (nom de famille) dans les groupes';
+$string['usestudentsonlyfromselectedgroup'] = 'N\'utiliser que les Ã©tudiants du groupe sÃ©lectionnÃ©';
+$string['selectnumberineachgroup'] = 'SÃ©lectionner un nombre de chaque groupe';
+$string['numberofstudents'] = 'Nombre d\'Ã©tudiants';
+$string['distributeevenly'] = 'RÃ©partir Ã©quitablement les Ã©tudiants restants';
+$string['selectnumberofgroups'] = 'SÃ©lectionner un nombre de groupes';
 $string['numberofgroups'] = 'Nombre de groupes';
-$string['creategrouping'] = 'Créer un groupement';
-$string['creategroup'] = 'Créer un groupe';
+$string['creategrouping'] = 'CrÃ©er un groupement';
+$string['creategroup'] = 'CrÃ©er un groupe';
 
 $string['groupname'] = 'Nom du groupe';
 $string['defaultgroupname'] = 'Groupe';
@@ -52,11 +52,11 @@ $string['enrolmentkey'] = 'Clef d\'inscription';
 $string['hidepicture'] = 'Cacher l\'image';
 $string['newpicture'] = 'Nouvelle image';
 
-$string['defaultgroupdescription'] = 'Description du groupe par défaut';
+$string['defaultgroupdescription'] = 'Description du groupe par dÃ©faut';
 
 $string['displaygrouping'] = 'Affichage du groupement';
 $string['addgroupstogrouping'] = 'Ajouter des groupes au groupement';
-$string['showusersalreadyingroup'] = 'Afficher les utilisateurs déjà dans un groupe du groupement';
+$string['showusersalreadyingroup'] = 'Afficher les utilisateurs dÃ©jÃ  dans un groupe du groupement';
 
 $string['save'] = 'Enregistrer';
 $string['cancel'] = 'Annuler';
@@ -64,28 +64,28 @@ $string['cancel'] = 'Annuler';
 $string['return'] = 'Retour';
 
 $string['groupfor'] = 'pour le groupe';
-$string['groupinfo'] = 'Information sur le groupe sélectionné';
-$string['groupinfomembers'] = 'Information sur les membres sélectionnés';
-$string['groupinfopeople'] = 'Information sur les personnes sélectionnées';
+$string['groupinfo'] = 'Information sur le groupe sÃ©lectionnÃ©';
+$string['groupinfomembers'] = 'Information sur les membres sÃ©lectionnÃ©s';
+$string['groupinfopeople'] = 'Information sur les personnes sÃ©lectionnÃ©es';
 $string['groupmembers'] = 'Membres du groupe';
 $string['groupmemberssee'] = 'Voir les membres du groupe';
-$string['groupmembersselected'] = 'Membres du groupe sélectionné';
+$string['groupmembersselected'] = 'Membres du groupe sÃ©lectionnÃ©';
 
 $string['javascriptrequired'] = 'Cette page requiert l\'activation de Javascript.';
 
-$string['viewowngroup'] = 'Les étudiants peuvent voir les membres de tous groupes dont ils sont membres';
-$string['viewallgroupsmembers'] = 'Les étudiants peuvent voir les membres de tous les groupes';
-$string['viewallgroupsactivities'] = 'Les étudiants peuvent voir, mais ne peuvent pas participer aux activités de tous les groupes';
-$string['teachersgroupmark'] = 'Les enseignants ne peuvent pas noter les activités des groupes dont ils ne sont pas membres';
-$string['teachersgroupview'] = 'Les enseignants ne peuvent pas voir les activités des groupes dont ils ne sont pas membres';
-$string['teachersoverride'] = 'Les enseignant membres d\'aucun groupe peuvent voir et noter les activités de tous les groupes (priorité)';
+$string['viewowngroup'] = 'Les Ã©tudiants peuvent voir les membres de tous groupes dont ils sont membres';
+$string['viewallgroupsmembers'] = 'Les Ã©tudiants peuvent voir les membres de tous les groupes';
+$string['viewallgroupsactivities'] = 'Les Ã©tudiants peuvent voir, mais ne peuvent pas participer aux activitÃ©s de tous les groupes';
+$string['teachersgroupmark'] = 'Les enseignants ne peuvent pas noter les activitÃ©s des groupes dont ils ne sont pas membres';
+$string['teachersgroupview'] = 'Les enseignants ne peuvent pas voir les activitÃ©s des groupes dont ils ne sont pas membres';
+$string['teachersoverride'] = 'Les enseignant membres d\'aucun groupe peuvent voir et noter les activitÃ©s de tous les groupes (prioritÃ©)';
 
 $string['groupmode'] = 'Mode de groupe';
 $string['groupmodeforce'] = 'Imposer le mode de groupe';
 $string['groupmy'] = 'Mon groupe';
-$string['groupnotamember'] = 'Désolé, vous n\'êtes pas membre de ce groupe';
+$string['groupnotamember'] = 'DÃ©solÃ©, vous n\'Ãªtes pas membre de ce groupe';
 $string['groupsnone'] = 'Aucun groupe';
-$string['groupsseparate'] = 'Groupes séparés';
+$string['groupsseparate'] = 'Groupes sÃ©parÃ©s';
 $string['groupsvisible'] = 'Groupes visibles';
 
 ?>
