@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2007010300)
+      // admin.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -126,7 +126,7 @@ $string['configmaxbytes'] = 'ここでは、サイト全体でアップロード
 $string['configmaxeditingtime'] = 'ここでは、フォーラムの投稿や用語集のコメント等を編集可能な時間を設定します。通常30分が適切な値です。';
 $string['configmaxevents'] = '直近イベント数';
 $string['configmessaging'] = 'サイトのユーザ間でメッセージシステムを利用できるようにしますか?';
-$string['configmymoodleredirect'] = 'この設定は、管理者以外のユーザをログイン後、 /my に強制的にリダイレクトし、トップレベルのサイト・ブレッドクラムを /my に置き換えます。';
+$string['configmymoodleredirect'] = 'この設定では、管理者以外のユーザがログインした後、 /my へ強制的にリダイレクトします。また、トップレベルのサイト・ブレッドクラムを /my に置き換えます。';
 $string['confignoreplyaddress'] = 'Moodleでは、メールがユーザに送信される場合があります (例 フォーラムの投稿)。ここで設定するメールアドレスは、「From」に使用され、受信者が直接送信者に返信できないようにします (例 ユーザが個人のメールアドレスを隠す設定を行っている場合)。';
 $string['confignotifyloginfailures'] = 'ログイン失敗が記録された場合、メールで通知を送信することができます。誰が通知を受け取りますか?';
 $string['confignotifyloginthreshold'] = 'ログイン失敗の通知が有効の場合、同一ユーザまたはIPアドレスで何回ログインに失敗すると通知を送信しますか?';
@@ -341,9 +341,9 @@ $string['mediapluginwmv'] = '.wmvフィルタを有効にする';
 $string['messaging'] = 'メッセージングシステムを有効にする';
 $string['misc'] = 'その他';
 $string['modulesecurity'] = 'モジュールセキュリティ';
-$string['multilangforceold'] = '古いmultilangシンタックスを強制する: class=\"multilang\" なしの &lt;span&gt; および &lt;lang&gt;';
+$string['multilangforceold'] = '古いmultilangシンタックスを強制する: class=\"multilang\" なしの &lt;span&gt;  および &lt;lang&gt;';
 $string['multilangupgrade'] = 'multilangアップグレード';
-$string['multilangupgradeinfo'] = 'multilangフィルタシンタックスはMoodle 1.8で変更されました。今後、&lt;lang&gt; タグはサポートされません。<br /><br />例: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"es\" class=\"multilang\">Hola!&lt;/span&gt;<br /><br /><strong>既存のすべてのテキストに関するシンタックスをアップグレードしてもよろしいですか?</strong>';
+$string['multilangupgradeinfo'] = 'multilangフィルタシンタックスはMoodle 1.8で変更されました。今後、<lang> タグはサポートされません。<br /><br />例: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"es\" class=\"multilang\">Hola!&lt;/span&gt;<br /><br /><strong>既存のすべてのテキストに関するシンタックスをアップグレードしてもよろしいですか?</strong>';
 $string['multilangupgradenotice'] = 'あなたのサイトは、恐らく古いmultilangシンタックスを使用しています。<a href=\"multilangupgrade.php\">multilangアップグレード</a>をお勧めします。';
 $string['mustenablestats'] = 'このサイトでは、統計が有効にされていません。';
 $string['mymoodle'] = 'マイ Moodle';
