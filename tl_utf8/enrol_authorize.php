@@ -1,13 +1,17 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006060900)
+      // enrol_authorize.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['adminacceptccs'] = 'Aling uri ng credit card ang tatanggapin?';
+$string['adminaccepts'] = 'Piliin ang mga paraan ng pagbabayad na pahihintulutan at mga uri nito';
+$string['adminauthcode'] = 'Kung hindi ma-caputre ang credit card ng tagagamit nang direkta sa internet, kumuha ng authorization code sa pamamagitan ng telepono sa bangko ng kostumer.';
 $string['adminauthorizeccapture'] = 'Kaayusan ng Rebyu ng Order & Scheduled-Capture';
 $string['adminauthorizeemail'] = 'Kaayusan ng Pagpapadala ng Email';
 $string['adminauthorizesettings'] = 'Kaayusan ng Authorize.net';
 $string['adminauthorizewide'] = 'Kaayusan na Pangkalahatang-Site';
 $string['adminavs'] = 'Tsekan ito kung pinagana mo ang Address Verification System (AVS) sa iyong akawnt ng authorize.net.  Mangangailangan ito ng mga pitak para sa address tulad ng kalye, estado, bansa at zip kapag sinulatan na ng tagagamit ang porma para sa pagbabayad.';
+$string['adminconfighttps'] = 'Tiyakin po na \"<a href=\"$a->url\">ginawa ninyong naka-ON ang loginhttps </a>\" upang magamit ang plugin na ito <br />sa Admin >> Mga Baryabol >> Seguridad >> Seguridad ng HTTP.';
+$string['adminconfighttpsgo'] = 'Pumunta sa <a href=\"$a->url\">ligtas na pahina</a> upang maisaayos ang plugin na ito.';
 $string['admincronsetup'] = 'Hindi pinatakbo ang pangmentinang iskrip na cron.php sa loob ng 24 oras. <br />Kailangang gumagana ang cron kung nais mong gamitin ang katangiang scheduled-capture.<br /><b>Buhayin</b> ang \'Authorize.net plugin\'at <b>isaayos ang cron</b> nang wasto; o <b>tanggalin muli ang tsek ng an_review</b> .<br />Kapag pinatay mo ang scheduled-capture, ang mga transaksiyon ay kakanselahin maliban na lamang kung rebyuhin mo ito sa loob ng 30 araw.
 <br />Tsekan ang <b>an_review</b> at ipasok ang <b>\'0\' sa an_capture_day</b> na pitak<br />kung nais mong tumanggap/tumanggi sa mga bayad nang <b>mano-mano</b> sa loob ng 30 araw.';
 $string['adminemailexpired'] = 'Ito ay kapakipakinabang para sa \'Mano-manong-Pagcapture\'.
@@ -41,13 +45,17 @@ $string['adminnewordersubject'] = '$a->course: Bagong Nakabimbin na Order($a->or
 $string['adminpendingorders'] = 'Pinatay mo ang katangiang scheduled-capture.<br />Ang kabuuang $a->count transaksiyon na may estadong \'Pinahintulutan/Nakabimbin ang Pag-capture\' ay makakansela maliban na lamang kung tsekan mo ito.<br />Para matanggap/matanggihan ang mga bayad tumungo sa pahina para sa <a href=\'$a->url\'>Pamamahala ng Bayad</a>.';
 $string['adminreview'] = 'Rebyuhin ang order bago iproseso ang credit card.';
 $string['adminteachermanagepay'] = 'Puwedeng pamahalaan ng mga guro ang pagbabayad sa kurso.';
+$string['allpendingorders'] = 'Lahat ng Nakabimbin na Order';
 $string['amount'] = 'Halaga';
 $string['anlogin'] = 'Authorize.net: Pangalan na panglagda';
 $string['anpassword'] = 'Authorize.net: Kontrasenyas';
 $string['anreferer'] = 'Iteklado dito ang URL referer, kung isinaayos mo ito sa iyong authorize.net akawnt.  Ipapadala nito ang linya na \"Referer: URL\" na nakaembed sa web request.';
 $string['antestmode'] = 'Patakbuhin ang transaksiyon sa moda na pagsubok lamang (walang perang kukunin)';
 $string['antrankey'] = 'Authorize.net: Susi ng transaksiyon';
+$string['approvedreview'] = 'Inaprubahang Rebyu';
 $string['authcaptured'] = 'Pinahintulutan/Na-capture';
+$string['authorize:managepayments'] = 'Pamahalaan ang mga pagbabayad';
+$string['authorize:uploadcsv'] = 'Mag-ahon ng CSV na sako';
 $string['authorizedpendingcapture'] = 'Pinahintulutan/Nakabimbin ang Pagcapture';
 $string['avsa'] = 'Tugma ang address (kalye), hindi ang postal code';
 $string['avsb'] = 'Hindi ibinigay ang impormasyon ng address';
@@ -56,14 +64,14 @@ $string['avsg'] = 'Hindi pang-U.S na Bankong Nag-iisyu ng Card';
 $string['avsn'] = 'Hindi tugma ang address (kalye) ni ang postal code';
 $string['avsp'] = 'Hindi magagamit ang Address Verification System';
 $string['avsr'] = 'Ulitin - Hindi magamit ang sistema o nagtime-out ito';
-$string['avsresult'] = 'Resulta ng AVS:';
+$string['avsresult'] = 'Resulta ng AVS: $a';
 $string['avss'] = 'Hindi suportado ng nag-iisyu ang serbisyo';
 $string['avsu'] = 'Walang magamit na impormasyon ng address';
 $string['avsw'] = 'Tugma ang 9 na numerong postal code, hindi ang address (kalye)';
 $string['avsx'] = 'Tugma ang address (kalye) at 9 na numerong postal code';
 $string['avsy'] = 'Tugma ang address (kalye) at 5 numerong postal code';
 $string['avsz'] = 'Tugma ang 5 numerong postal code, hindi ang address (kalye)';
-$string['canbecredit'] = 'Puwedeng irefund sa $a->upto';
+$string['canbecredit'] = 'Puwedeng isauli ang hanggang $a->upto';
 $string['cancelled'] = 'Kinansela';
 $string['capture'] = 'I-capture';
 $string['capturedpendingsettle'] = 'Na-capture/Nakabimbin ang Pagtatapos ng Pagbabayad';
@@ -76,36 +84,59 @@ $string['ccno'] = 'Bilang ng Credit Card';
 $string['cctype'] = 'Uri ng Credit Card';
 $string['ccvv'] = 'Beripikasyon ng Card';
 $string['ccvvhelp'] = 'Tingnan ang likod ng card (huling 3 numero)';
-$string['choosemethod'] = 'Kung alam mo ang susi sa pag-enrol sa kurso, ipasok ito; kundi ay kailangan mong magbayad sa kursong ito.';
-$string['chooseone'] = 'Punan ang isa o pareho sa sumusunod na dalawang pitak';
+$string['choosemethod'] = 'Kung alam mo ang susi sa pag-enrol sa kurso, ipasok ito sa ibaba;<br />kundi ay kailangan mong magbayad sa kursong ito.';
+$string['chooseone'] = 'Punan ang isa o pareho sa sumusunod na dalawang pitak.  Hindi ipinapakita ang kontrasenyas.';
+$string['costdefaultdesc'] = '<strong>Sa kaayusan ng kurso, ipasok ang -1</strong> para magamit ang umiiral na halagang ito sa pitak ng halaga ng kurso.';
 $string['cutofftime'] = 'Oras ng Cut-Off ng Transaksiyon.  Kung kailan aayusin ang huling transaksiyon para matapos na ang pagbabayad.';
 $string['delete'] = 'Sirain';
-$string['description'] = 'Ang Authorize.net na modyul ay pinahihintulutan kang magsaayos ng may-bayad na kurso sa pamamagitan ng mga tagalako ng CC.  Kung ang halaga ng anumang kurso ay sero, ang mga mag-aaral ay hindi na sisingilin para makapasok.  May dalawang paraan ng pagsasaayos ng halaga ng kurso (1) pangbuong site na halaga na umiiral para sa buong site o (2) isang kaayusang pangkurso na itatakda mo para sa bawat kurso.  Nananaig ang halaga ng kurso sa halaga ng site.<br /><br /><b>Tandaan:</b> Kapag nagpasok ka ng susi sa pag-eenrol sa kaayusan ng kurso, ang mga mag-aaral ay may opsiyon ding mag-enrol sa pamamagitan ng susi. Kapakipakinabang ito kung magkahalo ang mag-aaral mong nagbabayad at walang bayad.';
+$string['description'] = 'Ang Authorize.net na modyul ay pinahihintulutan kang magsaayos ng may-bayad na kurso sa pamamagitan nagbibigay ng serbisyo ng pagbabayad.  Kung ang halaga ng anumang kurso ay sero, ang mga mag-aaral ay hindi na sisingilin para makapasok.  May dalawang paraan ng pagsasaayos ng halaga ng kurso (1) pangbuong site na halaga na umiiral para sa buong site o (2) isang kaayusang pangkurso na itatakda mo para sa bawat kurso.  Nananaig ang halaga ng kurso sa halaga ng site.<br /><br /><b>Tandaan:</b> Kapag nagpasok ka ng susi sa pag-eenrol sa kaayusan ng kurso, ang mga mag-aaral ay may opsiyon ding mag-enrol sa pamamagitan ng susi. Kapakipakinabang ito kung magkahalo ang mag-aaral mong nagbabayad at walang bayad.';
+$string['echeckabacode'] = 'Bilang na ABA ng Bangko';
+$string['echeckaccnum'] = 'Bilang ng Akawnt sa Bangko';
+$string['echeckacctype'] = 'Uri ng Akawnt sa Bangko';
+$string['echeckbankname'] = 'Ngalan ng Bangko';
+$string['echeckfirslasttname'] = 'May-ari ng Akawnt sa Bangko';
 $string['enrolname'] = 'Gateway ng Authorize.net Payment';
 $string['expired'] = 'Pasó na';
+$string['haveauthcode'] = 'May authorization code na ako';
 $string['howmuch'] = 'Magkano?';
 $string['httpsrequired'] = 'Ikinalulungkot naming ipaalam sa inyo na hindi puwedeng iproseso ang kahilingan mo sa kasalukuyan.   Hindi maisaayos ang kompigurasyon ng site na ito.
 <br /><br />
-Huwag pong ipapasok ang credit card number ninyo hangga\'t di kayo nakakakita ng dilaw na kandado sa ibaba ng browser.  Ang ibig sabihin nito, ay ieencrypt ang lahat ng datos na ipapadala sa pagitan ng client at server.  Kaya ang impormasyon sa panahon ng transaksiyon sa pagitan ng dalawang kompyuter ay protektado at ang credit card number ninyo ay hindi mananakaw sa internet.';
+Huwag pong ipapasok ang credit card number ninyo hangga\'t di kayo nakakakita ng dilaw na kandado sa ibaba ng browser.  Kapag lumitaw na ang simbolo, ibig sabihin ay ieencrypt ang lahat ng datos na ipapadala sa pagitan ng client at server.  Kaya ang impormasyon sa panahon ng transaksiyon sa pagitan ng dalawang kompyuter ay protektado at ang credit card number ninyo ay hindi mananakaw sa internet.';
+$string['invalidaba'] = 'Di tanggap na bilang ng ABA';
+$string['invalidaccnum'] = 'Di tanggap na bilang ng akawnt';
+$string['invalidacctype'] = 'Di tanggap na uri ng akawnt';
 $string['logindesc'] = 'Kailangang naka-ON ang opsiyong ito.
 <br /><br />
 Pakitiyak na binuhay mo ang 
 <a href=\"$a->url\">loginhttps BUHAY</a> sa Admin>>Baryabol>>Seguridad.
 <br /><br />
 Kapag binuhay ito ang Moodle ay gagamit ng ligtas na https na koneksiyon para lamang sa pahinang panglagda at pagbabayad.';
+$string['logininfo'] = 'Ang ngalan sa paglagda, kontrasenyas at susi sa transaksiyon ay hindi ipinapakita dahil sa seguridad.  Hindi mo na kailangan ipasok muli ang mga ito kung inayos muna ito noon.  Makakakita ka ng berdeng teksto sa kaliwa ng kahon kung ang ilang pitay ay naisaayos na.  Kung may ipinasok ka sa mga pitak na ito sa unang pagkakataon, kailangan ang ngalan sa paglagda (*) at kailangan mo ring ipasok ang <strong>alinman</strong> sa dalawa, ang susi sa transaksiyon (#1) <strong>o</strong> ang kontrasenyas (#2)sa angkop na kahon.  Iminumungkahi naming ipasok ninyo ang susi sa transaksiyon dahil sa usaping panseguridad.  Kung nais mong burahin ang kasalukuyang kontrasenyas, tsekan ang checkbok.';
+$string['missingaba'] = 'Nawawala ang bilang na ABA';
 $string['missingaddress'] = 'Nawawala ang address';
+$string['missingbankname'] = 'Nawawala ang ngalan ng bangko';
 $string['missingcc'] = 'Nawawala ang bilang ng card';
+$string['missingccauthcode'] = 'Nawawala ang authorization code';
 $string['missingccexpire'] = 'Nawawala ang petsa ng pagkapasó';
 $string['missingcctype'] = 'Nawawala ang uri ng card';
 $string['missingcvv'] = 'Nawawala ang numero na pamberipika';
 $string['missingzip'] = 'Nawawala ang postal code';
+$string['mypaymentsonly'] = 'Tanging ang mga pagbabayad ko ang ipakita';
 $string['nameoncard'] = 'Pangalan sa card';
 $string['new'] = 'Bago';
 $string['noreturns'] = 'Walang saulian!';
 $string['notsettled'] = 'Hindi pa tapos ang proseso ng pagbabayad';
 $string['orderid'] = 'ID ng Order';
 $string['paymentmanagement'] = 'Pamamahala ng Pagbabayad';
+$string['paymentmethod'] = 'Paraan ng Pagbabayad';
 $string['paymentpending'] = 'Nakabimbin ang pagbabayad mo sa kursong ito na may bilang ng order na $a->orderid.  Tingnan ang <a href=\'$a->url\'>Mga Detalye ng Order</a>.';
+$string['pendingecheckemail'] = 'Mahal naming tagapamahala,
+
+May nakabimbing $a->count echeck sa ngayon, at kailangan mong mag-ahon ng isang sakong csv para maienrol ang mga tagagamit.
+
+Iklik ang link at basahin ang sakong pantulong sa pahinang nakikita:
+$a->url';
+$string['pendingechecksubject'] = '$a->course: Nakabimbing eChecks($a->count)';
 $string['pendingordersemail'] = 'Mahal naming admin,
 
 Mapapasó ang $a->pending transaksiyon para sa \"$a->course\" maliban na lamang kung tanggapin mo ang bayad sa loob ng  $a->days araw.
@@ -130,6 +161,8 @@ $string['reason11'] = 'May kaparehong transaksiyon ang ipinasa.';
 $string['reason13'] = 'Ditanggap ang Login ID ng tagalako o di na aktibo ang akawnt.';
 $string['reason16'] = 'Hindi natagpuan ang transaksiyon.';
 $string['reason17'] = 'Hindi tumatanggap ang tagalako ng ganitong uri ng credit card.';
+$string['reason245'] = 'Hindi pinapahintulutan ang uri ng eCheck na ito, kapag ginagamit ang payment gateway hosted payment form.';
+$string['reason246'] = 'Hindi pinapahintulutan ang uri ng eCheck na ito.';
 $string['reason27'] = 'Nagbunga ng ditugmang AVS ang transaksiyon.
 Hindi tumutugma ang address sa address ng bill ng may-ari ng card.';
 $string['reason28'] = 'Hindi tumatanggap ang tagalako ng ganitong uri ng credit card.';
@@ -138,16 +171,18 @@ $string['reason39'] = 'Hindi tanggap ang ibinigay na code ng salapi, hindi supor
 $string['reason43'] = 'Hindi wasto ang pagsasaayos ng tagalako sa nagpoproseso.  Tawagan mo ang iyong Tagalako ng Serbisyo.';
 $string['reason44'] = 'Tinanggihan ang transaksiyong ito.  May error sa pansalâ ng Card Code!';
 $string['reason45'] = 'Tinanggihan ang transaksiyong ito.  May error sa pansalâ na Card Code/AVS!';
-$string['reason47'] = 'Ang sinisingil na halaga sa pagtatapos ng pagbabayad ay hindi puwedeng mas mataas sa orihinal na pinahintulutang halaga.';
+$string['reason47'] = 'Ang sinisingil na halaga sa pagtatapos ng pagbabayad ay hindi puwedeng mas mataas pa sa orihinal na pinahintulutang halaga.';
 $string['reason5'] = 'Kailangan ng tanggap na halaga.';
 $string['reason50'] = 'Ang transaksiyong ito ay naghihintay ng pagtatapos ng pagbabayad at hindi puwedeng isauli.';
 $string['reason51'] = 'Ang kabuuan ng lahat ng credit sa transaksiyon ito ay mas malaki kaysa sa orihinal na halaga ng transaksiyon.';
 $string['reason54'] = 'Ang pinagbatayang transaksiyon ay hindi umaayon sa mga panuntunan ng pag-isyu ng credit.';
 $string['reason55'] = 'Ang kabuuan ng credit sa pinagbatayang transaksiyon ay lalabis sa orihinal na halaga ng debit.';
+$string['reason56'] = 'Tanging transaksiyong eCheck (ACH) ang tinatanggap ng tagalakong ito; hindi tinatanggap ang transaksiyong credit card.';
 $string['refund'] = 'Isauli';
 $string['refunded'] = 'Isinauli';
 $string['returns'] = 'Mga Isinauli';
 $string['reviewday'] = 'Awtomatikong i-capture ang credit card maliban na lamang kapag nirebyu ng guro o administrador ang order sa loob ng <b>$a</b> araw.  KAILANGANG BUHAYIN ANG CRON.<br />(0 araw ay mangangahulugan na patayin ang scheduled-capture, gayundin ay rerebyuhin ito ng guro o admin nang mano-mano.  Ang transaksiyon ay kakanselahin kapag pinatay mo ang scheduled-capture o kapag hindi mo nirebyu ito sa loob ng 30 araw.)';
+$string['reviewfailed'] = 'Nabigo ang Rebyu';
 $string['reviewnotify'] = 'Rerebyuhin ang kabayaran mo.  Umasa ka na may email na ipapadala sa iyo ang guro mo sa loob ng ilang araw.';
 $string['sendpaymentbutton'] = 'Ipadala ang Bayad';
 $string['settled'] = 'Naayos na';
@@ -155,9 +190,13 @@ $string['settlementdate'] = 'Petsa ng pag-aayos';
 $string['subvoidyes'] = 'Ang isinauli na transaksiyon $a->transid ay kakanselahin at ike-credit ang $a->amount sa iyong akawnt. Talaga bang nais mo itong gawin?';
 $string['tested'] = 'Nasubok';
 $string['testmode'] = '[MODA NA PAGSUBOK]';
-$string['testwarning'] = 'Mukhang gumagana ang Capture/Void/Credit sa modang pagsubok, pero walang rekord na ginawang bago o isiningit sa datosan.';
+$string['testwarning'] = 'Mukhang gumagana ang Capture/Void/Pagsauli sa modang pagsubok, pero walang rekord na ginawang bago o isiningit sa datosan.';
 $string['transid'] = 'ID ng Transaksiyon';
+$string['underreview'] = 'Nirerebyu';
 $string['unenrolstudent'] = 'Alisin sa pagkakaenrol ang mag-aaral?';
+$string['uploadcsv'] = 'Mag-ahon ng sakong CSV';
+$string['usingccmethod'] = 'Mag-enrol sa pamamagitan ng  <a href=\"$a->url\"><strong>Credit Card</strong></a>';
+$string['usingecheckmethod'] = 'Mag-enrol sa pamamagitan ng a href=\"$a->url\"><strong>eCheck</strong></a>';
 $string['voidyes'] = 'Kakanselahin ang transaksiyon.  Talaga bang nais mo itong gawin?';
 $string['welcometocoursesemail'] = 'Mahal naming mag-aaral,
 
@@ -168,7 +207,7 @@ $a->courses
 Maaari mong iedit ang pagkakakilanlan mo:
 $a->profileurl
 
-Maaari mong makita ang mga detalye hinggil sa bayarin mo:
+Maaari mong makita ang mga detalye hinggil sa binayaran mo:
 $a->paymenturl';
 $string['youcantdo'] = 'Hindi mo puwedeng gawin ang aksiyong ito:  $a->action';
 

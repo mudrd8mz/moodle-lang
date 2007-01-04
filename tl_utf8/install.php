@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.7 dev (2006050501)
+      // install.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['admindirerror'] = 'Malî ang ibinigay na bugsok na pang-admin';
 $string['admindirname'] = 'Pang-Admin na Bugsok';
-$string['admindirsetting'] = '    Mayroong ilang webhost na ginagamit ang /admin bilang isang espesyal na URL para mapasok mo ang
+$string['admindirsetting'] = 'Mayroong ilang webhost na ginagamit ang /admin bilang isang espesyal na URL para mapasok mo ang
     kontrol panel o iba pa.  Nakakalungkot isipin pero sumasalungat ito sa 
     istandard na lokasyon ng mga pang-admin na pahina ng Moodle.  Maaayos ninyo ito sa pamamagitan ng
     pagpapalit ng pangalan ng pang-admin na bugsok sa iyong iniluklok, alalaong baga\'y ilagay ninyo
@@ -41,7 +41,7 @@ $string['databasecreationsettingssub'] = '<b>Uri:</b> ipinirmi ng pangluklok sa 
 <b>Tagagamit:</b> ipinirmi ng pangluklok sa \"root\"<br />
 <b>Kontrasenyas:</b> ang kontrasenyas ng datosan mo<br />
 <b>Unlapi ng Teybol:</b> opsiyonal na unlapi na gagamitin sa lahat ng pangalan ng teybol';
-$string['databasesettings'] = '    Ngayon naman ay kailangan mong isaayos ang datosan kung saan iimbakin
+$string['databasesettings'] = 'Ngayon naman ay kailangan mong isaayos ang datosan kung saan iimbakin
     ang karamihan sa datos ng Moodle.  Dapat ay nalikha na ang datosan na ito
     at may bansag at kontrasenyas na upang mapasok ito.<br />
     <br /> <br />
@@ -60,6 +60,42 @@ $string['databasesettingssub'] = '<b>Uri:</b> mysql o postgres7<br />
        <b>Tagagamit:</b> ang iyong bansag para sa datosan<br />
        <b>Kontrasenyas:</b> ang iyong kontrasenyas ng datosan<br />
        <b>Unlapi ng mga Teybol:</b> opsiyonal na unlapi na gagamitin sa lahat ng pangalan ng teybol';
+$string['databasesettingssub_mssql'] = '<b>Uri:</b> SQL*Server (hindi UTF-8) <b><font color=\"red\">Eksperimental! (hindi dapat gamitin sa produksiyon)</font></b><br />
+       <b>Host:</b> eg localhost o db.isp.com<br />
+       <b>Pangalan:</b> pangalan ng datosan, eg moodle<br />
+       <b>Tagagamit:</b> ang iyong bansag para sa datosan<br />
+       <b>Kontrasenyas:</b> ang iyong kontrasenyas ng datosan<br />
+       <b>Unlapi ng mga Teybol:</b> unlapi na gagamitin sa lahat ng pangalan ng teybol (kinakailangan)';
+$string['databasesettingssub_mssql_n'] = '<b>Uri:</b> SQL*Server (gumagana ang UTF-8)<br />
+       <b>Host:</b> eg localhost o db.isp.com<br />
+       <b>Pangalan:</b> pangalan ng datosan, eg moodle<br />
+       <b>Tagagamit:</b> ang iyong bansag para sa datosan<br />
+       <b>Kontrasenyas:</b> ang iyong kontrasenyas ng datosan<br />
+       <b>Unlapi ng mga Teybol:</b> unlapi na gagamitin sa lahat ng pangalan ng teybol (kinakailangan)';
+$string['databasesettingssub_mysql'] = '<b>Uri:</b> MySQL<br />
+       <b>Host:</b> eg localhost o db.isp.com<br />
+       <b>Pangalan:</b> pangalan ng datosan, eg moodle<br />
+       <b>Tagagamit:</b> ang iyong bansag para sa datosan<br />
+       <b>Kontrasenyas:</b> ang iyong kontrasenyas ng datosan<br />
+       <b>Unlapi ng mga Teybol:</b> unlapi na gagamitin sa lahat ng pangalan ng teybol (opsiyonal)';
+$string['databasesettingssub_oci8po'] = '<b>Uri:</b> Oracle<br />
+       <b>Host:</b> hindi ginagamit, dapat ay iwang blangko<br />
+       <b>Pangalan:</b> ibinigay na pangalan ng koneksiyong tnsnames.ora<br />
+       <b>Tagagamit:</b> ang iyong bansag para sa datosan<br />
+       <b>Kontrasenyas:</b> ang iyong kontrasenyas ng datosan<br />
+       <b>Unlapi ng mga Teybol:</b> unlapi na gagamitin sa lahat ng pangalan ng teybol (kinakailangan, 2cc. max)';
+$string['databasesettingssub_odbc_mssql'] = '<b>Uri:</b> SQL*Server (sa pamamgitan ng ODBC) <b><font color=\"red\">Eksperimental! (huwag gamitin sa produksiyon)</font></b><br />
+       <b>Host:</b> ibinigay na pangalan ng DSN sa OBDC control panel<br />
+       <b>Pangalan:</b> pangalan ng datosan, eg moodle<br />
+       <b>Tagagamit:</b> ang iyong bansag para sa datosan<br />
+       <b>Kontrasenyas:</b> ang iyong kontrasenyas ng datosan<br />
+       <b>Unlapi ng mga Teybol:</b> unlapi na gagamitin sa lahat ng pangalan ng teybol (kinakailangan)';
+$string['databasesettingssub_postgres7'] = '<b>Uri:</b> PostgreSQL<br />
+       <b>Host:</b> eg localhost o db.isp.com<br />
+       <b>Pangalan:</b> pangalan ng datosan, eg moodle<br />
+       <b>Tagagamit:</b> ang iyong bansag para sa datosan<br />
+       <b>Kontrasenyas:</b> ang iyong kontrasenyas ng datosan<br />
+       <b>Unlapi ng mga Teybol:</b> unlapi na gagamitin sa lahat ng pangalan ng teybol (kinakailangan)';
 $string['dataroot'] = 'Bugsok ng Datos';
 $string['datarooterror'] = 'Hindi matagpuan o malikha ang \'Bugsok ng Datos\' na ibinigay mo.  Alin sa dalawa, iwasto mo ang landas o lumikha ng bugsok nang mano-mano.';
 $string['dbconnectionerror'] = 'Hindi kami makakonekta sa ibinigay mong datosan.  Pakitsek ang kaayusan ng iyong datosan.';
@@ -68,6 +104,9 @@ $string['dbpass'] = 'Kontrasenyas';
 $string['dbprefix'] = 'Unlapi ng mga teybol';
 $string['dbtype'] = 'Uri';
 $string['dbwrongencoding'] = 'Ang piniling datosan ay gumagana alinsunod sa hindi iminumungkahing encoding ($a).  Mas makabubuti na gamitin ang isa sa mga inencode sa Unicode (UTF-8) na datosan.  Magkagayunman, maaari mong lagpasan ang pagsubok na ito sa pamamagitan ng pagpili sa tsek ng \"Lagpasan ang Pagsubok ng DB Encoding\" sa ibaba, pero maaari kang makaranas ng mga problema sa hinaharap.';
+$string['dbwronghostserver'] = 'Kailangan mong sundin ang mga patakaran ng \"Host\" tulad ng ipinaliwanag sa itaas.';
+$string['dbwrongnlslang'] = 'Kailangang gamitin ng pangkapaligirang baryabol na NLS_LANG sa inyong web server ang AL32UTF8 charset.  Tingnan ang dokumentasyon ng PHP hinggil sa kung paano aayusin ang katangiang OCI8.';
+$string['dbwrongprefix'] = 'Kailangan mong sundin ang mga patakaran ng \"Tables Prefix\" tulad ng ipinaliwanag sa itaas.';
 $string['directorysettings'] = '<p>Pakikumpirma ang mga lokasyon ng iluluklok na Moodle.</p>
 
 <p><b>Web Address:</b>
@@ -160,8 +199,7 @@ $string['magicquotesruntimehelp'] = '<p>Ang magic quotes runtime ay dapat patayi
 <p>Kung wala kang karapatang pasukin ang php.ini, baka maaari mong ilagay lang sumusunod na linya sa isang sako
    na tinatawag na .htaccess sa loob ng iyong bugsok ng Moodle:
    <blockquote>php_value magic_quotes_runtime Off</blockquote>
-</p>   
-   ';
+</p>';
 $string['memorylimiterror'] = 'Labis na mababa ang memory limit ng PHP ... maaaring magkaproblema ka mamaya.';
 $string['memorylimithelp'] = '<p>Ang memory limit ng PHP para sa server mo ay kasalukuyang nakatakda sa $a.</p>
 
@@ -182,8 +220,14 @@ $string['memorylimithelp'] = '<p>Ang memory limit ng PHP para sa server mo ay ka
     <p>Subali\'t sa ilang server ay pipigilin nito ang paggana ng <b>lahat</b> ng pahinang PHP 
     (makakakita ka ng mga error kapag tumingin ka sa mga pahina) kaya\'t kakailanganin mong tanggalin ang sakong .htaccess.</p></li>
 </ol>';
+$string['mssql_n'] = 'SQL*Server na may UTF-8 support (mssql_n)';
+$string['mssqlextensionisnotpresentinphp'] = 'Ang PHP ay hindi wastong naisaayos na may MSSQL extension para magawa nitong makipag-ugnayan sa SQL*Server.  Pakisuri po ang inyong sakong php.ini o muli ikompayl ang PHP.';
 $string['mysqlextensionisnotpresentinphp'] = 'Hindi isinaayos ang PHP na may MySQL extension para magawa nitong makipag-usap sa MySQL.  Pakitsek ang iyong sakong php.ini o muling ikompayl ang PHP.';
+$string['ociextensionisnotpresentinphp'] = 'Ang PHP ay hindi wastong naisaayos na may OCI8 extension para magawa nitong makipag-ugnayan sa Oracle.  Pakisuri po ang inyong sakong php.ini o muli ikompayl ang PHP.';
+$string['odbc_mssql'] = 'SQL*Server sa pamamagitan ng ODBC (odbc_mssql)';
+$string['odbcextensionisnotpresentinphp'] = 'Ang PHP ay hindi wastong naisaayos na may ODBC extension para magawa nitong makipag-ugnayan sa SQL*Server.  Pakisuri po ang inyong sakong php.ini o muli ikompayl ang PHP.';
 $string['pass'] = 'Pasado';
+$string['pgsqlextensionisnotpresentinphp'] = 'Ang PHP ay hindi wastong naisaayos na may PGSQL extension para magawa nitong makipag-ugnayan sa PostgreSQL.  Pakisuri po ang inyong sakong php.ini o muli ikompayl ang PHP.';
 $string['phpversion'] = 'Bersiyon ng PHP';
 $string['phpversionerror'] = 'Ang pinakamababang bersiyon ng PHP na puwedeng gamitin ay 4.3.0 o 5.1.0 (ang 5.0.x ay maraming problema)';
 $string['phpversionhelp'] = '<p>Kinakailangan ng Moodle ang isang bersiyon ng PHP na kahit man lamang 4.3.0. o 5.1.0 (ang 5.0.x ay maraming problema)</p>
