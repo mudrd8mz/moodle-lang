@@ -11,7 +11,7 @@ $string['hostsettings'] = 'Réglages hôte';
 $string['mnetpeers'] = 'Paires Réseau Moodle';
 $string['mnetservices'] = 'Services Réseau Moodle';
 $string['trustedhosts'] = 'Hôtes fiables';
-$string['trustedhostsexplain'] = 'Veuillez saisir une liste d\'adresses IP ou de réseaux, une par ligne. Voici quelques exemples&nbsp;:<br />'.
+$string['trustedhostsexplain'] = 'Veuillez saisir une liste d\'adresses IP ou de réseaux, une par ligne. Voici quelques exemples.<br />'.
 'Votre serveur local&nbsp;:<br />'.
 '127.0.0.1<br />'.
 'Votre serveur local (avec un bloc réseau):<br />'.
@@ -29,11 +29,11 @@ $string['keymismatch'] = 'La clef publique que vous détenez pour cet hôte est 
 $string['invalidurl'] = 'Paramètre URL invalide.';
 $string['expireyourkey'] = 'Supprimer cette clef';
 $string['deletekeycheck'] = 'Voulez-vous vraiment supprimer cette clef&nbsp;?';
-$string['expireyourkeyexplain'] = 'Moodle modifie automatiquement vos clef tous les 28 jours (par défaut), mais vous avez la possibilité de '.
-'périmer <em>manuallement</em> cette clef en tout temps. Une telle opération n\'est utile que si vous pensez que '.
+$string['expireyourkeyexplain'] = 'Moodle modifie automatiquement vos clefs tous les 28 jours (par défaut), mais vous avez la possibilité de '.
+'périmer <em>manuellement</em> cette clef en tout temps. Une telle opération n\'est utile que si vous pensez que '.
 'la clef a été compromise. Une clef de remplacement sera immédiatement générée automatiquement.<br />'.
 'La suppression de cette clef empêchera tous les autres serveurs Moodle de communiquer avec celui-ci jusqu\'à ce que '.
-'contactiez manuallement leurs administrateurs et leur fournissiez votre nouvelle clef.';
+'contactiez manuellement leurs administrateurs et leur fournissiez votre nouvelle clef.';
 $string['deleteoutoftime'] = 'Le temps de 60 secondes imparti pour la suppression de cette clef est échu. Veuillez recommencer.'; 
 $string['deletewrongkeyvalue'] = 'Une erreur est survenue. Aucune action n\'a été effectuée. Si vous n\'étiez pas en train de supprimer la clef SSL de votre serveur, il est possible '.
 'que vous ayez été la cible d\'une attaque.';
