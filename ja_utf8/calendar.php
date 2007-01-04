@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 dev (2006120700)
+      // calendar.php - created with Moodle 1.8 dev (2007010300)
 
 
 $string['advancedoptions'] = '高度なオプション';
@@ -9,6 +9,7 @@ $string['clickhide'] = '非表示';
 $string['clickshow'] = '表示';
 $string['commontasks'] = 'オプション';
 $string['confirmeventdelete'] = '本当にこのイベントを削除してもよろしいですか?';
+$string['courseevent'] = 'コースイベント';
 $string['courseevents'] = 'コースイベント';
 $string['dayview'] = '1日分表示';
 $string['daywithnoevents'] = 'イベントがありません。';
@@ -53,8 +54,10 @@ $string['for'] = '対象';
 $string['fri'] = '金';
 $string['friday'] = '金曜日';
 $string['generateurlbutton'] = 'カレンダーのURLを取得する';
+$string['globalevent'] = '全体のイベント';
 $string['globalevents'] = '全体のイベント';
 $string['gotocalendar'] = 'カレンダーへ移動する';
+$string['groupevent'] = 'グループイベント';
 $string['groupevents'] = 'グループイベント';
 $string['hidden'] = '非表示中';
 $string['ical'] = 'iCal';
@@ -112,6 +115,7 @@ $string['typesite'] = 'サイトイベント';
 $string['typeuser'] = 'ユーザイベント';
 $string['upcomingevents'] = '直近イベント';
 $string['urlforical'] = 'iCalendarエクスポートおよびカレンダー購読のためのURL';
+$string['userevent'] = 'ユーザイベント';
 $string['userevents'] = 'ユーザイベント';
 $string['wed'] = '水';
 $string['wednesday'] = '水曜日';
