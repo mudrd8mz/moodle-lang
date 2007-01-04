@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 dev (2006102600)
+      // role.php - created with Moodle 1.8 dev (2007010300)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -98,6 +98,8 @@ $string['site:doanything'] = 'すべての動作を許可する';
 $string['site:doclinks'] = 'サイト外ドキュメントのリンクを表示する';
 $string['site:import'] = 'コースに他のコースをインポートする';
 $string['site:manageblocks'] = 'サイトレベルのブロックを管理する';
+$string['site:mnetloginfromremote'] = 'リモートMoodleからログインする';
+$string['site:mnetlogintoremote'] = 'リモートMoodleを散策する';
 $string['site:readallmessages'] = 'サイトのすべてのメッセージを読む';
 $string['site:restore'] = 'コースをリストアする';
 $string['site:trustcontent'] = '送信されたコンテンツを信頼する';

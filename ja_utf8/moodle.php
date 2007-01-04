@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006120700)
+      // moodle.php - created with Moodle 1.8 dev (2007010300)
 
 
 $string['action'] = '操作';
@@ -122,6 +122,7 @@ $string['assignstudentsnote'] = '注意: 学生が自分でコースに登録す
 $string['assignstudentspass'] = '現在、このコースに設定されているコース登録キー「 $a 」を、あなたの学生に伝えてください。';
 $string['assignteachers'] = '教師の割り当て';
 $string['authentication'] = '認証オプション';
+$string['authenticationplugins'] = '認証プラグイン';
 $string['autosubscribe'] = 'フォーラムメール購読';
 $string['autosubscribeno'] = 'いいえ: フォーラムをメール購読しません';
 $string['autosubscribeyes'] = 'はい: 投稿した場合、フォーラムをメール購読します';
@@ -194,8 +195,9 @@ $string['checknone'] = 'チェックなし';
 $string['childcoursenotfound'] = '子コースが見つかりませんでした!';
 $string['childcourses'] = '子コース';
 $string['choose'] = '選択';
+$string['chooseauthmethod'] = '認証プラグインを選択してください';
 $string['choosecourse'] = 'コースを選択してください。';
-$string['chooseenrolmethod'] = 'デフォルトのユーザ登録方法';
+$string['chooseenrolmethod'] = 'ユーザ登録方法を選択してください';
 $string['chooselivelogs'] = 'または現在の活動を表示する';
 $string['chooselogs'] = '表示したいログを選択してください';
 $string['choosereportfilter'] = 'レポートのフィルタを選択してください。';
