@@ -1196,6 +1196,7 @@ $string['sizegb'] = 'Go';
 $string['sizekb'] = 'Ko';
 $string['sizemb'] = 'Mo';
 $string['skipped'] = 'Sauté';
+$string['skiptomaincontent'] = 'Passer directement au contenu principal';
 $string['skypeid'] = 'Identifiant Skype';
 $string['socialheadline'] = 'Forum public - derniers sujets';
 $string['someallowguest'] = 'Les invités peuvent accéder à<br />certains cours';
