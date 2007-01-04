@@ -2,42 +2,42 @@
 
 <p align="center"><b>Permissions</b></p>
 
-<p>Les permissions sont les réglages que vous accordez pour des capacités spécifiques.</p>
+<p>Les permissions sont les rÃ©glages que vous accordez pour des capacitÃ©s spÃ©cifiques.</p>
 
-<p>Par exemple, une capacité est « Commencer des discussions » (pour les forums).</p>
+<p>Par exemple, une capacitÃ© est Â«Â Commencer des discussionsÂ Â» (pour les forums).</p>
 
-<p>Pour chaque rôle, vous pouvez choisir comme permission pour une telle capacité l'une des quatre valeurs suivantes :</p>
+<p>Pour chaque rÃ´le, vous pouvez choisir comme permission pour une telle capacitÃ© l'une des quatre valeurs suivantesÂ :</p>
 
 <dl>
 
-<dt>Hériter</dt>
+<dt>HÃ©riter</dt>
 
-<dd>Ce réglage est habituellement le réglage par défaut. C'est un réglage neutre qui signifie « utiliser les réglages que l'utilisateur a déjà ». Si un rôle  qui a cette permission pour une capacité est attribué à quelqu'un, par exemple dans un cours, la permission que cette personne aura effectivement sera celle qu'elle avait déjà dans un contexte plus élevé, par exemple au niveau des catégories ou au niveau du site. Dans le cas extrême où une permission n\'est jamais attribué à aucun niveau, l'utilisateur n'aura alors aucune permission pour cette capacité.</dd>
+<dd>Ce rÃ©glage est habituellement le rÃ©glage par dÃ©faut. C'est un rÃ©glage neutre qui signifie Â«Â utiliser les rÃ©glages que l'utilisateur a dÃ©jÃ Â Â». Si un rÃ´le  qui a cette permission pour une capacitÃ© est attribuÃ© Ã  quelqu'un, par exemple dans un cours, la permission que cette personne aura effectivement sera celle qu'elle avait dÃ©jÃ  dans un contexte plus Ã©levÃ©, par exemple au niveau des catÃ©gories ou au niveau du site. Dans le cas extrÃªme oÃ¹ une permission n\'est jamais attribuÃ© Ã  aucun niveau, l'utilisateur n'aura alors aucune permission pour cette capacitÃ©.</dd>
 
 <dt>Autoriser</dt>
 
-<dd>En choisissant ce réglage, vous autorisez la capacité aux personnes ayant le rôle en question.  Cette permission est valable pour le contexte dans lequel ce rôle est attribué, plus tous les contextes inférieurs. Par exemple, si le rôle est un rôle d'étudiant dans un cours, les étudiants seront alors capable de « commencer des discussions » dans tous les forums de ce cours, À MOINS QUE l'un des forums contienne un court-circuit ou une autre permission avec la valeur Empêcher ou Interdire pour ce forum. Dans ce cas, les étudiants ne pourront pas commencer de discussions dans ce forum uniquement.</dd>
+<dd>En choisissant ce rÃ©glage, vous autorisez la capacitÃ© aux personnes ayant le rÃ´le en question.  Cette permission est valable pour le contexte dans lequel ce rÃ´le est attribuÃ©, plus tous les contextes infÃ©rieurs. Par exemple, si le rÃ´le est un rÃ´le d'Ã©tudiant dans un cours, les Ã©tudiants seront alors capable de Â«Â commencer des discussionsÂ Â» dans tous les forums de ce cours, Ã€ MOINS QUE l'un des forums contienne un court-circuit ou une autre permission avec la valeur EmpÃªcher ou Interdire pour ce forum. Dans ce cas, les Ã©tudiants ne pourront pas commencer de discussions dans ce forum uniquement.</dd>
 
-<dt>Empêcher</dt>
+<dt>EmpÃªcher</dt>
 
-<dd>En choisissant ce réglage, vous retirez une capacité aux utilisateurs, même si les utilisateurs ayant ce rôle l'avaient dans un contexte plus élevé.</dd>
+<dd>En choisissant ce rÃ©glage, vous retirez une capacitÃ© aux utilisateurs, mÃªme si les utilisateurs ayant ce rÃ´le l'avaient dans un contexte plus Ã©levÃ©.</dd>
 
 <dt>Interdire</dt>
 
-<dd>Ce choix est rarement nécessaire. Il permet de retirer une capacité à un rôle, de façon qu'il ne soit pas possible de l'autoriser dans un contexte inférieur. Par exemple, si un administrateur veut empêcher un utilisateur de commencer de nouvelles discussions dans tous les forums d'un site, il créera un rôle avec cette capacité réglée sur « Interdire » et attribuera ce rôle à l'utilisateur en question, dans le contexte du site.</dd>
+<dd>Ce choix est rarement nÃ©cessaire. Il permet de retirer une capacitÃ© Ã  un rÃ´le, de faÃ§on qu'il ne soit pas possible de l'autoriser dans un contexte infÃ©rieur. Par exemple, si un administrateur veut empÃªcher un utilisateur de commencer de nouvelles discussions dans tous les forums d'un site, il crÃ©era un rÃ´le avec cette capacitÃ© rÃ©glÃ©e sur Â«Â InterdireÂ Â» et attribuera ce rÃ´le Ã  l'utilisateur en question, dans le contexte du site.</dd>
 
 </dl>
 
-<p align="center"><b>Résolution des conflits de permissions</b></p>
+<p align="center"><b>RÃ©solution des conflits de permissions</b></p>
 
-<p>Les permissions d'un contexte inférieur auront en général priorité sur celles d'un contexte supérieur (ceci s'applique aux court-circuits et aux rôles attribués). L'exception est le réglage <b>Interdire</b>, qui ne peut être cour-circuité à des niveaux inférieurs.</p>
+<p>Les permissions d'un contexte infÃ©rieur auront en gÃ©nÃ©ral prioritÃ© sur celles d'un contexte supÃ©rieur (ceci s'applique aux court-circuits et aux rÃ´les attribuÃ©s). L'exception est le rÃ©glage <b>Interdire</b>, qui ne peut Ãªtre cour-circuitÃ© Ã  des niveaux infÃ©rieurs.</p>
 
-<p>Si deux rôles sont attribués à un utilisateur dans le même contexte, l'un avec le réglage <b>Autoriser</b> et l'autre avec le réglage <b>Interdire</b>, lequel des deux sera appliqué ? Dans un tel cas, Moodle recherchera dans l'arbre des contextes un indice de décision.</p>
+<p>Si deux rÃ´les sont attribuÃ©s Ã  un utilisateur dans le mÃªme contexte, l'un avec le rÃ©glage <b>Autoriser</b> et l'autre avec le rÃ©glage <b>Interdire</b>, lequel des deux sera appliquÃ©Â ? Dans un tel cas, Moodle recherchera dans l'arbre des contextes un indice de dÃ©cision.</p>
 
-<p>Par exemple, supposons qu'un étudiant ait deux rôles dans un cours, l'un lui permettant de commencer des discussions et l'autre le lui empêchant. Dans ce cas, Moodle contrôlera les contextes catégories et site, à la recherche de la définition d'une autre permission pour tomber sur une décision. S'il n'en trouve pas, la permission sera par défaut mise à <b>Empêcher</b> (parce que les deux réglages s'annulent et qu'il n'y a alors pas de permission).</p>
+<p>Par exemple, supposons qu'un Ã©tudiant ait deux rÃ´les dans un cours, l'un lui permettant de commencer des discussions et l'autre le lui empÃªchant. Dans ce cas, Moodle contrÃ´lera les contextes catÃ©gories et site, Ã  la recherche de la dÃ©finition d'une autre permission pour tomber sur une dÃ©cision. S'il n'en trouve pas, la permission sera par dÃ©faut mise Ã  <b>EmpÃªcher</b> (parce que les deux rÃ©glages s'annulent et qu'il n'y a alors pas de permission).</p>
 
-<p align="center"><b>Exceptions spéciales</b></p>
+<p align="center"><b>Exceptions spÃ©ciales</b></p>
 
-<p>Le compte utilisateur invité n'est pas autorisé à écrire du contenu (par exemple dans les forums, le calendrier, les blogs, etc.), même si on lui donne la capacité de le faire.</p>
+<p>Le compte utilisateur invitÃ© n'est pas autorisÃ© Ã  Ã©crire du contenu (par exemple dans les forums, le calendrier, les blogs, etc.), mÃªme si on lui donne la capacitÃ© de le faire.</p>
 
-<p>Voir aussi <a href="help.php?file=roles.html">Rôles</a>, <a href="help.php?file=contexts.html">Contextes</a>, <a href="help.php?file=assignroles.html">Attribuer des rôles</a> et <a href="help.php?file=overrides.html">Court-circuits</a>.</p>
+<p>Voir aussi <a href="help.php?file=roles.html">RÃ´les</a>, <a href="help.php?file=contexts.html">Contextes</a>, <a href="help.php?file=assignroles.html">Attribuer des rÃ´les</a> et <a href="help.php?file=overrides.html">Court-circuits</a>.</p>
