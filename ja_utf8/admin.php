@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2006120700)
+      // admin.php - created with Moodle 1.8 dev (2007010300)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -52,6 +52,7 @@ $string['configallowuserblockhiding'] = 'サイト全体においてユーザに
 $string['configallowusermailcharset'] = 'この設定を有効にした場合、サイトの全ユーザは自分のメール文字コードを指定することができます。';
 $string['configallowuserthemes'] = 'この設定を有効にした場合、ユーザは自分のテーマを設定することができます。サイトテーマは、ユーザテーマに上書きされます (コーステーマは上書きされません)。';
 $string['configallusersaresitestudents'] = 'サイトのフロントページにある活動で、すべてのユーザを学生と考えてもよろしいですか? 「Yes」の場合、承認されたユーザは学生として、これらの活動に参加することができます。答えが「No」の場合、少なくとも1つのコースに登録しているユーザのみフロントページの活動に参加することができます。';
+$string['configauthenticationplugins'] = 'あなたが使用したい認証プラグインを選択して、フェイルスルーの順に並び替えてください。自己登録は、「認証」カラムで選択されたプラグインで使用されます (通常、Emailベースの認証)。';
 $string['configautologinguests'] = '利用者がコースにゲストアクセスした場合、自動的にゲストとしてログインさせますか?';
 $string['configbloglevel'] = 'ここでは、どのユーザブログがこのサイトで閲覧可能か、アクセスレベルを制限することができます。ここで設定するのは、閲覧者の状態であり、投稿者やブログ投稿のタイプではないことに注意してください。不要な場合、ブログを完全に無効にすることもできます。';
 $string['configcachetext'] = '規模の大きなサイト、またはテキストフィルタを使用しているサイトでは、この設定で処理速度を上げることができます。テキストのコピーが、処理に適した形で、ここに指定した期間保持されます。この値を小さくしすぎると、処理速度を若干落とすことになります。しかし、大きすぎると、(例えば新しいリンクを) リフレッシュするまでのテキスト保持期間が長くなりすぎます。';
@@ -195,6 +196,7 @@ $string['cronerrorclionly'] = '申し訳ございません、このページへ�
 $string['cronerrorpassword'] = '申し訳ございません、あなたはこのページへアクセスするための有効なパスワードを提供していません。';
 $string['cronremotepassword'] = 'リモートアクセスのCronパスワード';
 $string['cronwarning'] = '<a href=\"cron.php\">cron.phpメンテナンススクリプト</a>が、少なくとも24時間稼動していません。';
+$string['curlrecommended'] = 'Moodleネットワーキング機能を有効にするため、Curlライブラリのインストールを強くお勧めします。';
 $string['datarootsecuritywarning'] = 'あなたのサイト設定は、安全ではない可能性があります。datarootディレクトリ ($a) が、ウェブから直接アクセスできないことを確認してください。';
 $string['dbmigrate'] = 'Moodleデータベース移行';
 $string['dbmigrateconnecerror'] = '指定されたデータベースに接続できませんでした。';
@@ -358,6 +360,7 @@ $string['notifications'] = '通知';
 $string['notifyloginfailures'] = 'ログイン失敗をメール通知する';
 $string['notifyloginthreshold'] = 'メール通知の閾値';
 $string['notloggedinroleid'] = 'ビジターのロール';
+$string['opensslrecommended'] = 'Moodleネットワーキング機能を有効にするため、OpenSSLライブラリのインストールを強くお勧めします。';
 $string['opentogoogle'] = 'Googleに公開する';
 $string['optionalmaintenancemessage'] = '任意のメンテナンスメッセージ';
 $string['order1'] = '1番目';
