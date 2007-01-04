@@ -2,7 +2,7 @@
 
 $string['groupmember'] = 'Membre du groupe';
 $string['groupmemberdesc'] = 'Rôle par défaut pour un membre d\'un groupe.';
-$string['notingrouping'] = '[Dans aucun groupe]';
+$string['notingrouping'] = '[Dans aucun groupement]';
 
 $string['errornotingrouping'] = 'Désolé, vous ne pouvez pas créer de groupe dans $a';
 
@@ -20,7 +20,7 @@ $string['creategrouping'] = 'Créer groupement';
 $string['createautomaticgrouping'] = 'Créer groupement automatique';
 $string['printerfriendly'] = 'Affichage pour impression du groupement';
 
-$string['editgroupsettings'] = 'Modifier les réglagles du groupe';
+$string['editgroupsettings'] = 'Modifier les réglages du groupe';
 $string['deleteselectedgroup'] = 'Supprimer le groupe sélectionné';
 $string['removegroupfromselectedgrouping'] = 'Retirer le groupe du groupement sélectionné';
 $string['creategroupinselectedgrouping'] = 'Créer un groupe dans le groupement sélectionné';
