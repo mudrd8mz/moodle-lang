@@ -9,7 +9,7 @@ $string['nocategoriesdefined'] = 'Aucune catégorie trouvée. Veuillez définir 
 $string['allcourses'] = '$a cours potentiels';
 $string['allowedcourses'] = '$a cours autorisés';
 $string['nocoursesdefined'] = 'Aucun cours trouvé. Veuillez définir de nouveaux cours <a href=\"$a\">ici</a>.';
-$string['allowedcourseslinktext'] = 'Modifiez les cours et catégories autorisés ici.';
+$string['allowedcourseslinktext'] = 'Modifier les cours et catégories autorisés';
 $string['mnet_enrol_name'] = 'Inscription via Réseau Moodle';
 $string['mnet_enrol_description'] = 'En publianz ce service, vous autorisez les administrateurs de $a à inscrire leurs étudiants à des cours sur votre Moodle.<br />
 <ul>
