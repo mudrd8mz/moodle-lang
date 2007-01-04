@@ -4,13 +4,13 @@ $string['description'] = 'Description';
 $string['mnet'] = 'Réseau Moodle';
 $string['net'] = 'Réseau';
 $string['requiresopenssl'] = 'La mise en réseau requiert l\'extension OpenSSL';
-$string['yourhost'] = 'Votre hôte';
-$string['yourpeers'] = 'Vos pairs';
+$string['yourhost'] = 'Votre serveur';
+$string['yourpeers'] = 'Vos serveurs affiliés';
 $string['settings'] = 'Réglages';
-$string['hostsettings'] = 'Réglages hôte';
+$string['hostsettings'] = 'Réglages serveur';
 $string['mnetpeers'] = 'Paires Réseau Moodle';
 $string['mnetservices'] = 'Services Réseau Moodle';
-$string['trustedhosts'] = 'Hôtes fiables';
+$string['trustedhosts'] = 'Serveurs fiables';
 $string['trustedhostsexplain'] = 'Veuillez saisir une liste d\'adresses IP ou de réseaux, une par ligne. Voici quelques exemples.<br />'.
 'Votre serveur local&nbsp;:<br />'.
 '127.0.0.1<br />'.
@@ -25,7 +25,7 @@ $string['trustedhostsexplain'] = 'Veuillez saisir une liste d\'adresses IP ou de
 'Le dernier exemple n\'est pas une configuration recommandée.';
 
 $string['currentkey'] = 'Clef publique actuelle';
-$string['keymismatch'] = 'La clef publique que vous détenez pour cet hôte est différente de la clef qu\'il utilise actuellement.';
+$string['keymismatch'] = 'La clef publique que vous détenez pour ce serveur est différente de la clef qu\'il utilise actuellement.';
 $string['invalidurl'] = 'Paramètre URL invalide.';
 $string['expireyourkey'] = 'Supprimer cette clef';
 $string['deletekeycheck'] = 'Voulez-vous vraiment supprimer cette clef&nbsp;?';
@@ -53,10 +53,10 @@ $string['forbidden-transport'] = 'La méthode de transport que vous tentez d\'ut
 $string['registerallhosts'] = 'Enregistrer tous les serveurs';
 $string['registerallhostsexplain'] = 'Vous pouvez choisir d\'enregistrer tous les serveurs tentant de se connecter à votre Moodle. Cela signifie qu\'un enregistrement apparaîtra dans votre liste de serveur '.
 'pour chaque site Moodle se connectant au vôtre et demandant votre clef publique.<br />'.
-'Vous avez la possibilité de configurer ci-dessous les services accessibles pour «&nbsp;Tous les hôtes&nbsp;», ce qui vous permettra de fournir '.
+'Vous avez la possibilité de configurer ci-dessous les services accessibles pour «&nbsp;Tous les serveurs&nbsp;», ce qui vous permettra de fournir '.
 'des services à tous les serveurs Moodle.';
 
-$string['enabled_for_all'] = '(Ce service a été activé pour tous les hôtes).';
+$string['enabled_for_all'] = '(Ce service a été activé pour tous les serveurs).';
 $string['nosuchfile'] = 'Le fichier/la fonction $a n\'existe pas.';
 $string['nosuchfunction'] = 'Impossible de localiser la fonction ou fonction interdite par RPC.';
 $string['nosuchmodule'] = 'La fonction n\'a pas été adressée correctement et n\'a pas pu être localisée.<br />Veuillez utiliser le format mod/modulename/lib/functionname.';
