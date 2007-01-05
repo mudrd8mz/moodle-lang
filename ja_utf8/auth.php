@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8 dev (2006102600)
+      // auth.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['alternatelogin'] = 'ここにURLを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong> フィールドおよび <strong>password</strong> フィールドをMoodleに渡してください。<br />間違ったURLを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合、空白のままにしてください。';
@@ -115,7 +115,7 @@ $string['auth_shib_only_description'] = 'Shibboleth認証を強制する場合�
 $string['auth_shib_username_description'] = 'Moodleユーザ名として使用されるShibbolethウェブサーバ環境のユーザ名';
 $string['auth_shibboleth_login'] = 'Shibbolethログイン';
 $string['auth_shibboleth_manual_login'] = '手動ログイン';
-$string['auth_shibbolethdescription'] = 'この方法を使用すると、ユーザは<a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth</a>を使用して作成および認証されます。<br>あなたが使用しているMoodleにShibbolethを設定するには、<a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> をご覧ください。';
+$string['auth_shibbolethdescription'] = 'この方法を使用すると、ユーザは<a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth</a>を使用して作成および認証されます。<br />あなたが使用しているMoodleにShibbolethを設定するには、<a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> をご覧ください。';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_updatelocal'] = 'ローカルデータの更新';
 $string['auth_updatelocal_expl'] = '<p><b>ローカルデータの更新:</b> この設定を「Yes」にした場合、このフィールドは(外部認証を通して)ログイン毎またはユーザの同期ごとに更新されます。更新されるローカルフィールドはロックする必要があります。</p>';
@@ -142,6 +142,8 @@ $string['locked'] = 'ロックする';
 $string['md5'] = 'MD5暗号化';
 $string['passwordhandling'] = 'パスワードフィールドの取り扱い';
 $string['plaintext'] = 'プレインテキスト';
+$string['selfregistration'] = '自己登録';
+$string['selfregistration_help'] = 'ユーザの自己登録を処理する認証プラグインを選択してください。';
 $string['shib_no_attributes_error'] = 'あなたはShibbolethによる認証を行ったようですが、Moodleはユーザ属性を受信していません。Moodleが稼動しているプロバイダへ必要な属性 ($a) を発行するアイデンティティ・プロバイダを確認するか、このサーバの管理者に連絡してください。';
 $string['shib_not_all_attributes_error'] = 'あなたの場合、存在していないShibboleth属性をMoodleは必要とします。属性は次のとおりです: $a<br/>このサーバの管理者またはアイデンティティ・プロバイダにご連絡ください。';
 $string['shib_not_set_up_error'] = 'Shibboleth環境変数がこのページに存在していないため、Shibboleth認証が正しく設定されていないようです。Shibboleth認証の設定に関する更なる情報は、<a href=\"README.txt\">README</a>を参照、またはこのMoodleをインストールした管理者に連絡してください。';
