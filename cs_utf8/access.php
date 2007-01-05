@@ -1,15 +1,19 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // access.php - created with Moodle 1.8 dev (2007010404)
+
 
 $string['access'] = 'Přístupnost';
 $string['accesshelp'] = 'Nápověda k přístupnosti';
 $string['accesskey'] = 'Zkratková klávesa, $a';
 $string['accessstatement'] = 'Prohlášení o přístupnosti';
-$string['breadcrumb'] = 'Breadcrumb trail';
+$string['activitynext'] = 'Další činnost';
+$string['activityprev'] = 'Předchozí činnost';
+$string['breadcrumb'] = 'Navigační lišta';
 $string['monthnext'] = 'Další měsíc';
 $string['monthprev'] = 'Předchozí měsíc';
 $string['showhideblock'] = 'Ukázat nebo skrýt blok';
 $string['sitemap'] = 'Mapa stránek';
+$string['skipa'] = 'Přeskočit: $a';
 $string['skipblock'] = 'Přeskočit blok';
 $string['skipnavigation'] = 'Přeskočit navigaci';
 $string['tabledata'] = 'Datová tabulka, $a';
