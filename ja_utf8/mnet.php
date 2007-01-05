@@ -1,8 +1,15 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8 dev (2007010300)
+      // mnet.php - created with Moodle 1.8 dev (2007010404)
 
 
+$string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
+$string['RPC_HTTPS_VERIFIED'] = 'HTTPS (署名)';
+$string['RPC_HTTP_PLAINTEXT'] = 'HTTP 暗号化なし';
+$string['RPC_HTTP_SELF_SIGNED'] = 'HTTP (自己署名)';
+$string['RPC_HTTP_VERIFIED'] = 'HTTP (署名)';
 $string['accesslevel'] = 'アクセスレベル';
+$string['addhost'] = 'ホストを追加する';
+$string['addnewhost'] = '新しいホストを追加する';
 $string['current_transport'] = '現在のトランスポート';
 $string['currentkey'] = '現在の公開鍵';
 $string['databaseerror'] = '詳細をデータベースに書き込めませんでした。';
@@ -39,6 +46,7 @@ $string['trustedhosts'] = '信頼できるホスト';
 $string['verifysignature-error'] = '署名認証に失敗しました。エラーが発生しました。';
 $string['verifysignature-invalid'] = '署名認証に失敗しました。このペイロード (データ本体) は、あなたが署名したものではないと思われます。';
 $string['version'] = 'バージョン';
+$string['warning'] = '警告';
 $string['wrong-ip'] = 'あなたのIPアドレスは、記録されているレコードと合致しません。';
 $string['yourhost'] = 'あなたのホスト';
 $string['yourpeers'] = 'あなたのピア';
