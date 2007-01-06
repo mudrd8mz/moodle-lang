@@ -914,6 +914,7 @@ Si vous avez besoin d\'aide, veuillez contacter l\'administrateur du site $a->si
 $a->signoff';
 $string['newusernewpasswordsubj'] = 'Nouveau compte utilisateur';
 $string['newusers'] = 'Nouveaux utilisateurs';
+$string['newwindow'] = 'nouvelle fenêtre';
 $string['next'] = 'Suivant';
 $string['nextsection'] = 'Section suivante';
 $string['no'] = 'Non';
