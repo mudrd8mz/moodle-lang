@@ -144,6 +144,8 @@ $string['locked'] = 'Verrouillé';
 $string['md5'] = 'Cryptage MD5';
 $string['passwordhandling'] = 'Traitement du champ Mot de passe';
 $string['plaintext'] = 'Texte en clair';
+$string['pluginnotenabled'] = 'La méthode d\'authentification $a n\'est pas activée.';
+$string['pluginnotinstalled'] = 'La méthode d\'authentification $a n\'est pas installée.';
 $string['selfregistration'] = 'Auto-enregistrement';
 $string['selfregistration_help'] = 'Choisir la méthode d\'authentification gérant l\'auto-enregistrement des utilisateurs.';
 $string['shib_not_set_up_error'] = 'L\'authentification Shibboleth ne semble pas être configurée correctement&nbsp;: aucune variable d\'environnement Shibboleth n\'est présente pour cette page. Veuillez consulter le fichier <a href=\"README.txt\">README</a> pour d\'autres instructions sur la façon de configurer l\'authentification Shibboleth ou contactez l\'administrateur de cette installation de Moodle.';
