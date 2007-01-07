@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 dev (2006120700)
+      // quiz.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['1day'] = '1日';
@@ -32,8 +32,8 @@ $string['analysistitle'] = 'アイテム分析テーブル';
 $string['answer'] = '答え';
 $string['answerhowmany'] = '単一または複数解答?';
 $string['answers'] = '正解';
-$string['answersingleno'] = '複数解答を許可';
-$string['answersingleyes'] = '単一の解答のみ';
+$string['answersingleno'] = '複数解答を許可する';
+$string['answersingleyes'] = '単一の解答のみ許可する';
 $string['answerswithacceptederrormarginmustbenumeric'] = '受入れるエラー範囲には数字を設定してください。';
 $string['answertoolong'] = '$a 行以降の解答が長すぎます (最大、半角255文字)';
 $string['aon'] = 'AONフォーマット';
