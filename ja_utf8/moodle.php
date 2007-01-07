@@ -934,7 +934,8 @@ $a->sitename で作業を始めるには $a->link にログインしてくださ
 
 「 $a->sitename 」の管理者よりご挨拶でした。
 $a->signoff';
-$string['newusers'] = '新規ユーザ';
+$string['newusers'] = '新しいユーザ';
+$string['newwindow'] = '新しいウィンドウ';
 $string['next'] = '次へ';
 $string['nextsection'] = '次のセクション';
 $string['no'] = 'No';
