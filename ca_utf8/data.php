@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7+ (2006101007)
+      // data.php - created with Moodle 1.8 dev (2006120400)
 
 
 $string['action'] = 'Acció';
@@ -17,7 +17,7 @@ $string['autogenallforms'] = 'Genera totes les plantilles per defecte';
 $string['autolinkurl'] = 'Enllaça l\'URL automàticament';
 $string['availablefromdate'] = 'Disponible des de';
 $string['availabletags'] = 'Etiquetes disponibles';
-$string['availabletodate'] = 'Disponible per a';
+$string['availabletodate'] = 'Disponible fins';
 $string['blank'] = 'Blanc';
 $string['bynameondate'] = 'per $a->name - $a->date';
 $string['cancel'] = 'Cancel·la';

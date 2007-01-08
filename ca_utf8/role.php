@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 beta + (2006101001)
+      // role.php - created with Moodle 1.8 dev (2006120400)
 
 
 $string['addrole'] = 'Afegeix un nou rol';
 $string['allow'] = 'Permet';
 $string['allowassign'] = 'Permet assignar rols';
-$string['allowoverride'] = 'Permet invalidar rols';
-$string['assignroles'] = 'Assigna rols';
+$string['allowoverride'] = 'Permet invalidacions de rol';
+$string['assignroles'] = 'Assignació de rols';
 $string['blog:create'] = 'Crear noves entrades de bitàcola';
 $string['blog:manageentries'] = 'Editar i gestionar entrades';
 $string['blog:manageofficialtags'] = 'Gestionar etiquetes oficials';
@@ -67,8 +67,8 @@ $string['manageroles'] = 'Gestiona rols';
 $string['metaassignerror'] = 'No es pot assignar aquest rol a l\'usuari \"$a\" perquè es necessita la capacitat de gestió de metacurs.';
 $string['metaunassignerror'] = 'El rol de l\'usuari \"$a\" s\'ha reassignat automàticament. Cancel·leu l\'assignació del rol en els cursos fills.';
 $string['nocapabilitiesincontext'] = 'No hi ha capacitats disponibles en aquest context';
-$string['overrideroles'] = 'Invalida rols';
-$string['overrides'] = 'Invalida';
+$string['overrideroles'] = 'Invalidacions de rol';
+$string['overrides'] = 'Invalidacions';
 $string['permissions'] = 'Permisos';
 $string['potentialusers'] = '$a usuaris potencials';
 $string['prevent'] = 'Impedeix';
