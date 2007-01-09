@@ -497,4 +497,4 @@ $string['usersrenamed'] = 'ユーザがリネームされました。';
 $string['usersupdated'] = 'ユーザが更新されました。';
 $string['validateerror'] = 'この値は有効ではありません:';
 
-\?\>
+?>
