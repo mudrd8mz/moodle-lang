@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6.1+ (2006050512)
+      // quiz.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['1day'] = '1 den';
@@ -74,6 +74,7 @@ $string['categorydeleted'] = 'Kategorie \'$a\' byla odstraněna';
 $string['categoryinfo'] = 'Informace o kategorii';
 $string['categorymove'] = 'Kategorie \'$a->name\' obsahuje $a->count úloh (některé z nich mohou být staré, skryté úlohy nadále používané v některém ze stávajících testů). <br />Vyberte prosím jinou kategorii, do níž chcete úlohy přesunout.';
 $string['categorymoveto'] = 'Přesunout vybrané úlohy do této kategorie';
+$string['categorynamecantbeblank'] = 'Název kategorie nesmí být prázdný';
 $string['categorynoedit'] = 'Nemáte oprávnění potřebná pro provádění úprav v kategorii \'$a\'.';
 $string['categoryupdated'] = 'Kategorie byla úspěšně aktualizována';
 $string['changessaved'] = 'Změny ve známkování uloženy';
@@ -143,7 +144,7 @@ $string['editcatquestions'] = 'Upravit kategorie úloh';
 $string['editdatasets'] = 'Upravit datové sady';
 $string['editingcalculated'] = 'Úprava vypočítávané úlohy';
 $string['editingdescription'] = 'Úprava popisu';
-$string['editingessay'] = 'Úprava úlohy s tvořenou odpovědí';
+$string['editingessay'] = 'Úprava úlohy s dlouhou tvořenou odpovědí';
 $string['editingmatch'] = 'Úprava přiřazovací úlohy';
 $string['editingmultianswer'] = 'Úprava doplňovací úlohy (cloze)';
 $string['editingmultichoice'] = 'Úprava úlohy s výběrem odpovědí';
@@ -151,7 +152,7 @@ $string['editingnumerical'] = 'Úprava numerické úlohy';
 $string['editingquestion'] = 'Úprava úlohy';
 $string['editingquiz'] = 'Úprava testu';
 $string['editingrandom'] = 'Úprava náhodně vybrané úlohy';
-$string['editingrandomsamatch'] = 'Úprava – přiřazování pro náhodně vybrané úlohy s krátkou tvořenou odpovědí';
+$string['editingrandomsamatch'] = 'Úprava – přiřazování generované z náhodně vybraných úlohy s krátkou tvořenou odpovědí';
 $string['editingrqp'] = '$a: úprava vzdálené úlohy (RQP)';
 $string['editingshortanswer'] = 'Úprava úlohy s krátkou tvořenou odpovědí';
 $string['editingtruefalse'] = 'Úprava úlohy pravda/nepravda';
@@ -162,7 +163,7 @@ $string['editquizquestions'] = 'Upravit kategorie testů';
 $string['errormissingquestion'] = 'Chyba – systém postrádá úlohu s id $a';
 $string['errornotnumbers'] = 'Chyba – odpovědi musejí být číselné';
 $string['errorsdetected'] = 'Počet zjištěných chyb: $a';
-$string['essay'] = 'Tvořená odpověď';
+$string['essay'] = 'Dlouhá tvořená odpověď';
 $string['essayquestions'] = 'Zadání';
 $string['event1'] = 'Autosave';
 $string['event2'] = 'Uložit';
@@ -208,7 +209,7 @@ $string['gift'] = 'Formát GIFT';
 $string['grade'] = 'Známka';
 $string['gradeall'] = 'Oznámkovat vše';
 $string['gradeaverage'] = 'Průměrná známka';
-$string['gradeessays'] = 'Oznámkovat tvořené odpovědi';
+$string['gradeessays'] = 'Oznámkovat dlouhé tvořené odpovědi';
 $string['gradehighest'] = 'Nejvyšší známka';
 $string['grademethod'] = 'Metoda známkování';
 $string['gradingdetails'] = 'Bodový zisk: $a->raw/$a->max.';
@@ -368,8 +369,8 @@ $string['quiztimelimit'] = 'Časový limit: $a';
 $string['quiztimer'] = 'Časomíra';
 $string['random'] = 'Náhodně vybraná úloha';
 $string['randomcreate'] = 'Vytvořit náhodně vybrané úlohy';
-$string['randomsamatch'] = 'Přiřazování pro náhodně vybrané úlohy s krátkou tvořenou odpovědí';
-$string['randomsamatchcreate'] = 'Vytvořit přiřazování pro náhodně vybrané úlohy s krátkou tvořenou odpovědí';
+$string['randomsamatch'] = 'Přiřazování z krátkých odpovědí';
+$string['randomsamatchcreate'] = 'Vytvořit přiřazování generované z náhodně vybraných úloh s krátkou tvořenou odpovědí';
 $string['randomsamatchintro'] = 'Ke každé z následujících úloh přiřaďte odpověď z nabídky.';
 $string['randomsamatchnumber'] = 'Počet úloh k výběru';
 $string['readytosend'] = 'Rozhodli jste se dokončit tento pokus. Chcete jej opravdu dokončit?';
