@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.5 ALPHA (2005042400)
+      // message.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['addcontact'] = 'Afegeix contacte';
@@ -33,7 +33,9 @@ $string['messagehistory'] = 'Històric de missatges';
 $string['messages'] = 'Missatges';
 $string['messaging'] = 'Missatgeria';
 $string['mycontacts'] = 'Els meus contactes';
+$string['newonlymsg'] = 'Mostra només nous';
 $string['newsearch'] = 'Nova cerca';
+$string['noframesjs'] = 'Versió sense marcs ni Javascript';
 $string['nomessages'] = 'No hi ha missatges pendents';
 $string['nomessagesfound'] = 'No s\'han trobat missatges';
 $string['nosearchresults'] = 'La cerca no ha tingut resultats';

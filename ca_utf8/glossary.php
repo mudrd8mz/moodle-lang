@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7 beta + (2006101001)
+      // glossary.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['addcomment'] = 'Afegeix un comentari';
@@ -89,6 +89,9 @@ $string['entryleveldefaultsettings'] = 'Paràmetres per defecte al nivell d\'ent
 $string['entrysaved'] = 'S\'ha desat aquesta entrada';
 $string['entryupdated'] = 'S\'ha actualitzat aquesta entrada';
 $string['entryusedynalink'] = 'Aquesta entrada s\'ha d\'enllaçar automàticament';
+$string['errcannoteditothers'] = 'No podeu editar les entrades d\'altres persones.';
+$string['errconceptalreadyexists'] = 'El concepte ja existeix. Aquest glossari no permet entrades duplicades.';
+$string['erredittimeexpired'] = 'El temps d\'edició d\'aquesta entrada ha vençut.';
 $string['explainaddentry'] = 'Afegiu una nova entrada al glossari actual.<br />El concepte i la definició són camps obligatoris.';
 $string['explainall'] = 'Visualitzeu TOTES les entrades en una pàgina';
 $string['explainalphabet'] = 'Navegueu pel glossari utilitzant aquest índex';
@@ -124,6 +127,7 @@ $string['importedentries'] = 'Entrades importades';
 $string['importentries'] = 'Importa entrades';
 $string['isglobal'] = 'Aquest glossari és global?';
 $string['linkcategory'] = 'Enllaça automàticament aquesta categoria';
+$string['linking'] = 'Enllaços automàtics';
 $string['mainglossary'] = 'Glossari principal';
 $string['maxtimehaspassed'] = 'El temps màxim per editar aquest comentari ($a) ja ha passat!';
 $string['modulename'] = 'Glossari';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 dev (2006120400)
+      // data.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['action'] = 'Acció';
@@ -10,6 +10,7 @@ $string['addentries'] = 'Afegeix entrades';
 $string['addtemplate'] = 'Plantilla d\'introducció';
 $string['allowcomments'] = 'Permeteu comentaris?';
 $string['allowratings'] = 'Permeteu valorar els missatges?';
+$string['alttext'] = 'Text alternatiu';
 $string['approve'] = 'Aprova';
 $string['ascending'] = 'Ascendent';
 $string['atmaxentry'] = 'Heu introduït el nombre màxim d\'entrades permès';
@@ -19,10 +20,13 @@ $string['availablefromdate'] = 'Disponible des de';
 $string['availabletags'] = 'Etiquetes disponibles';
 $string['availabletodate'] = 'Disponible fins';
 $string['blank'] = 'Blanc';
+$string['buttons'] = 'Botons';
 $string['bynameondate'] = 'per $a->name - $a->date';
 $string['cancel'] = 'Cancel·la';
 $string['checkbox'] = 'Quadre(s) de verificació';
 $string['chooseorupload'] = 'Tria un fitxer';
+$string['columns'] = 'columnes';
+$string['comment'] = 'Comentari';
 $string['commentdeleted'] = 'S\'ha suprimit el comentari.';
 $string['commentempty'] = 'El comentari és buit';
 $string['comments'] = 'Comentaris';
@@ -61,7 +65,9 @@ $string['download'] = 'Baixa';
 $string['edit'] = 'Edita';
 $string['editcomment'] = 'Edita comentari';
 $string['editentry'] = 'Edita entrada';
-$string['emptyadd'] = 'La plantilla d\'addició és buida. S\'està generant un formulari per defecte...';
+$string['editordisable'] = 'Inhabilita l\'editor';
+$string['editorenable'] = 'Habilita l\'editor';
+$string['emptyadd'] = 'La plantilla d\'afegir dades és buida. S\'està generant un formulari per defecte...';
 $string['emptyaddform'] = 'No heu emplenat cap camp';
 $string['entries'] = 'Entrades';
 $string['entry'] = 'Entrada';
@@ -80,6 +86,7 @@ $string['fieldenclosure'] = 'Tancament de camp:';
 $string['fieldheight'] = 'Alçada';
 $string['fieldheightlistview'] = 'Alçada en visualització de llistes';
 $string['fieldheightsingleview'] = 'Alçada en visualització d\'una entrada';
+$string['fieldids'] = 'ID dels camps';
 $string['fieldmappings'] = 'Mapatge de camps';
 $string['fieldname'] = 'Nom del camp';
 $string['fieldoptions'] = 'Opcions (separades per línies en blanc)';
@@ -181,6 +188,7 @@ $string['requiredentries'] = 'Entrades requerides';
 $string['requiredentriestoview'] = 'Entrades requerides per visualitzar';
 $string['resettemplate'] = 'Reinicia la plantilla';
 $string['resizingimages'] = 'S\'estan redimensionant les miniatures...';
+$string['rows'] = 'files';
 $string['rssglobaldisabled'] = 'Inhabilitat. Vegeu les variables de configuració del lloc.';
 $string['rsshowmany'] = '(número d\'entrades recents per mostrar; 0 per inhabilitar el RSS)';
 $string['rsstemplate'] = 'Plantilla RSS';

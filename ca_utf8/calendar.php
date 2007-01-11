@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 dev (2006112200)
+      // calendar.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['advancedoptions'] = 'Opcions avançades';
@@ -9,6 +9,7 @@ $string['clickhide'] = 'feu clic per ocultar';
 $string['clickshow'] = 'feu clic per mostrar';
 $string['commontasks'] = 'Opcions';
 $string['confirmeventdelete'] = 'Esteu segur que voleu suprimir aquest esdeveniment?';
+$string['courseevent'] = 'Esdeveniment de curs';
 $string['courseevents'] = 'Esdeveniments del curs';
 $string['dayview'] = 'Visualització del dia';
 $string['daywithnoevents'] = 'Aquest dia no té esdeveniments.';
@@ -53,10 +54,13 @@ $string['for'] = 'per a';
 $string['fri'] = 'dv';
 $string['friday'] = 'divendres';
 $string['generateurlbutton'] = 'Genera URL del calendari';
+$string['globalevent'] = 'Esdeveniment global';
 $string['globalevents'] = 'Esdeveniments globals';
 $string['gotocalendar'] = 'Vés al calendari';
+$string['groupevent'] = 'Esdeveniment de grup';
 $string['groupevents'] = 'Esdeveniments de grup';
 $string['hidden'] = 'ocult';
+$string['ical'] = 'iCal';
 $string['iwanttoexport'] = 'Exporta';
 $string['manyevents'] = '$a esdeveniments';
 $string['mon'] = 'dl';
@@ -111,6 +115,7 @@ $string['typesite'] = 'Esdeveniment del lloc';
 $string['typeuser'] = 'Esdeveniment de l\'usuari';
 $string['upcomingevents'] = 'Esdeveniments pròxims';
 $string['urlforical'] = 'URL per a subscriure\'s al calendari en format iCal';
+$string['userevent'] = 'Esdeveniment d\'usuari';
 $string['userevents'] = 'Esdeveniments de l\'usuari';
 $string['wed'] = 'dc';
 $string['wednesday'] = 'dimecres';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 dev (2006102600)
+      // group.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['addexistinggroupstogrouping'] = 'Afegeix els grups existents a l\'agrupament';
@@ -23,6 +23,7 @@ $string['editgroupingpermissions'] = 'Edita permissos d\'agrupament';
 $string['editgroupingsettings'] = 'Edita paràmetres d\'agrupament';
 $string['editgroupsettings'] = 'Edita paràmetres del grup';
 $string['enrolmentkey'] = 'Clau d\'inscripció';
+$string['errornotingrouping'] = 'No podeu crear un grup en $a';
 $string['group'] = 'Grup';
 $string['groupdescription'] = 'Descripció del grup';
 $string['groupfor'] = 'per al grup';
@@ -33,6 +34,8 @@ $string['grouping'] = 'Agrupament';
 $string['groupingdescription'] = 'Descripció de l\'agrupament';
 $string['groupingname'] = 'Nom de l\'agrupament';
 $string['groupings'] = 'Agrupaments';
+$string['groupmember'] = 'Membre del grup';
+$string['groupmemberdesc'] = 'Rol estàndard per a membres d\'un grup';
 $string['groupmembers'] = 'Membres del grup';
 $string['groupmemberssee'] = 'Visualitza membres del grup';
 $string['groupmembersselected'] = 'Membres del grup seleccionat';
@@ -50,12 +53,14 @@ $string['hidepicture'] = 'Oculta la imatge';
 $string['javascriptrequired'] = 'Aquesta pàgina requereix Javascript';
 $string['membersofselectedgroup'] = 'Membres del grup seleccionat';
 $string['newpicture'] = 'Nova imatge';
+$string['notingrouping'] = '[en cap agrupament]';
 $string['numberofgroups'] = 'Nombre de grups';
 $string['numberofstudents'] = 'Nombre d\'estudiants';
 $string['prefixforgroupnames'] = 'Prefix dels noms dels grups';
 $string['printerfriendly'] = 'Visualització per a imprimir de l\'agrupament';
 $string['removegroupfromselectedgrouping'] = 'Suprimeix grup de l\'agrupament seleccionat';
 $string['removeselectedusers'] = 'Suprimeix els usuaris seleccionats';
+$string['return'] = 'Torna';
 $string['save'] = 'Desa';
 $string['selectnumberineachgroup'] = 'Selecciona nombre d\'estudiants per grup';
 $string['selectnumberofgroups'] = 'Selecciona nombre de grups';

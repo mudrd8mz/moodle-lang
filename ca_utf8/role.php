@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 dev (2006120400)
+      // role.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['addrole'] = 'Afegeix un nou rol';
@@ -98,6 +98,8 @@ $string['site:doanything'] = 'Tot permès';
 $string['site:doclinks'] = 'Mostrar enllaços a documents fora del lloc';
 $string['site:import'] = 'Importar altres cursos en un curs';
 $string['site:manageblocks'] = 'Gestionar blocs al nivell del lloc';
+$string['site:mnetloginfromremote'] = 'Entrar des d\'un Moodle remot';
+$string['site:mnetlogintoremote'] = 'Anar a un Moodle remot';
 $string['site:readallmessages'] = 'Llegir tots els missatges del lloc';
 $string['site:restore'] = 'Restaurar cursos';
 $string['site:trustcontent'] = 'Confiar en continguts tramesos';

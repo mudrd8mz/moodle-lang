@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 development (2006031000)
+      // auth.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['alternatelogin'] = 'Si introduïu un URL aquí, s\'utilitzarà com a pàgina d\'entrada d\'aquest lloc. Aquesta pàgina hauria de contenir un formulari, amb la propietat \'action\' igual a <strong>$a</strong> i que retornés els camps <strong>username</strong> i <strong>password</strong>.<br />Tingueu cura de no escriure un URL incorrecte, ja que podríeu impedir l\'entrada dels usuaris en aquest lloc.<br />Si deixeu en blanc aquest paràmetre s\'utilitzarà la pàgina d\'entrada per defecte.';
@@ -24,7 +24,7 @@ $string['auth_changepasswordurl_expl'] = 'Especifiqueu l\'URL on cal enviar els 
 $string['auth_common_settings'] = 'Paràmetres comuns';
 $string['auth_data_mapping'] = 'Mapatge de dades';
 $string['auth_dbdescription'] = 'Aquest mètode utilitza una taula d\'una base de dades externa per comprovar si un nom d\'usuari i una contrasenya són vàlids. Si el compte és nou, aleshores també es pot copiar en Moodle informació d\'altres camps.';
-$string['auth_dbextrafields'] = 'Aquests camps són opcionals. Podeu triar d\'omplir alguns camps d\'usuari del Moodle amb informació dels <b>camps de la base de dades externa</b> especificats aquí. <p>Si els deixeu en blanc s\'utilitzaran valors per defecte.<p>En tot cas, l\'usuari podrà editar tots aquests camps quan es connecti.';
+$string['auth_dbextrafields'] = 'Aquests camps són opcionals. Podeu triar d\'emplenar alguns camps d\'usuari del Moodle amb informació dels <b>camps de la base de dades externa</b> especificats aquí. <p>Si els deixeu en blanc s\'utilitzaran valors per defecte.<p>En tot cas, l\'usuari podrà editar tots aquests camps quan es connecti.';
 $string['auth_dbfieldpass'] = 'Nom del camp que conté la contrasenya';
 $string['auth_dbfielduser'] = 'Nom del camp que conté el nom d\'usuari';
 $string['auth_dbhost'] = 'L\'ordinador que allotja el servidor de la base de dades.';
@@ -64,7 +64,7 @@ $string['auth_ldap_expiration_warning_desc'] = 'Nombre de dies abans que surti l
 $string['auth_ldap_expireattr_desc'] = 'Opcional: substitueix l\'atribut de l\'LDAP que emmagatzema la data de venciment de la contrasenya (passwordExpirationTime)';
 $string['auth_ldap_graceattr_desc'] = 'Opcional: susbstitueix l\'atribut gracelogin';
 $string['auth_ldap_gracelogins_desc'] = 'Fa que funcioni el gracelogin de l\'LDAP. Després que hagi vençut la contrasenya, l\'usuari pot seguir entrant fins que el compte del gracelogin és 0. Si habiliteu aquest paràmetre es visualitzarà un missatge d\'avís quan venci la contrasenya.';
-$string['auth_ldap_host_url'] = 'Especifiqueu l\'ordinador central LDAP en format URL, per exemple \'ldap://ldap.myorg.com/\' o \'ldaps://ldap.myorg.com/\' ';
+$string['auth_ldap_host_url'] = 'Especifiqueu l\'ordinador central LDAP en format URL, per exemple \'ldap://ldap.myorg.com/\' o \'ldaps://ldap.myorg.com/\'';
 $string['auth_ldap_login_settings'] = 'Paràmetres d\'entrada';
 $string['auth_ldap_memberattribute'] = 'Especifiqueu l\'atribut de membre de l\'usuari, quan els usuaris pertanyen a un grup. Generalment \'member\'';
 $string['auth_ldap_objectclass'] = 'Filtre utilitzat per nomenar/cercar usuaris. Generalment es defineix quelcom semblant a objectClass=posixAccount. Per defecte objectClass=*, que retorna tots els objectes de LDAP.';
@@ -131,7 +131,7 @@ $string['authenticationoptions'] = 'Opcions d\'autenticació';
 $string['authinstructions'] = 'Aquí podeu posar instruccions per als vostres usuaris, per tal que sàpiguen quin nom d\'usuari i quina contrasenya han d\'utilitzar. El text apareixerà a la pàgina d\'entrada. Si el deixeu en blanc no hi haurà instruccions.';
 $string['changepassword'] = 'URL per a canvi de contrasenya';
 $string['changepasswordhelp'] = 'Aquí podeu especificar una adreça en la qual els usuaris puguin recuperar o canviar la seua contrasenya si se n\'han oblidat. Aquesta opció apareixerà en forma de botó a la pàgina d\'entrada. Si la deixeu en blanc no apareixerà el botó.';
-$string['chooseauthmethod'] = 'Trieu un mètode d\'autenticació: ';
+$string['chooseauthmethod'] = 'Trieu un mètode d\'autenticació:';
 $string['createpasswordifneeded'] = 'Crea la contrasenya si cal';
 $string['forcechangepassword'] = 'Imposa canvi de contrasenya';
 $string['forcechangepassword_help'] = 'Obliga els usuaris a canviar la contrasenya la pròxima vegada que entrien en Moodle.';
@@ -144,6 +144,11 @@ $string['locked'] = 'Blocat';
 $string['md5'] = 'Xifratge MD5';
 $string['passwordhandling'] = 'Gestió del camp de contrasenya';
 $string['plaintext'] = 'Text net';
+$string['pluginnotenabled'] = 'El connector d\'autenticació \'$a\' no està habilitat.';
+$string['pluginnotinstalled'] = 'El connector d\'autenticació \'$a\' no està instal·lat.';
+$string['rpc_negotiation_timeout'] = 'Temps màxim negociació RPC';
+$string['selfregistration'] = 'Autoregistre';
+$string['selfregistration_help'] = 'Trieu quin connector gestionarà l\'autoregistre d\'usuaris.';
 $string['shib_no_attributes_error'] = 'Sembla que us heu autenticat via Shibboleth, però Moodle no ha rebut els vostres atributs d\'usuari. Comproveu que el vostre Proveïdor d\'Identitat ha alliberat els atributs ($a) necessaris al Proveïdor de Servei en el qual s\'està executant Moodle, o informeu l\'administrador d\'aquest servidor.';
 $string['shib_not_all_attributes_error'] = 'Moodle necessita certs atributs de Shibboleth que en el vostre cas no són presents. Els atributs són: $a<br />Contacteu amb l\'administrador d\'aquest servidor o amb el vostre Proveïdor d\'Identitat.';
 $string['shib_not_set_up_error'] = 'Sembla que l\'autenticació via Shibboleth no ha estat correctament configurada perquè no hi ha variables d\'entorn de Shibboleth presents per a aquesta pàgina. Consulteu les instruccions de configuració en el fitxer <a href=\"README.txt\">README</a> o contacteu amb l\'administrador d\'aquest Moodle.';

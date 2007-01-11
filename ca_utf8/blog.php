@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.7 beta + (2006101001)
+      // blog.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['addnewentry'] = 'Afegeix una nova entrada';
@@ -15,6 +15,7 @@ $string['blogs'] = 'Bitàcoles';
 $string['blogtags'] = 'Etiquetes de bitàcoles';
 $string['courseblog'] = 'Bitàcola de curs: $a';
 $string['courseblogs'] = 'Bitàcoles amb l\'accés restringit als membres del curs';
+$string['deleteotagswarn'] = 'Segur que voleu treure aquesta etiqueta o etiquetes<br />de totes les bitàcoles i suprimir-la del sistema?';
 $string['disableblogs'] = 'Inhabilita completament el sistema de bitàcoles';
 $string['emptybody'] = 'No es pot deixar buit el cos d\'una entrada de bitàcola';
 $string['emptytitle'] = 'No es pot deixar buit el títol d\'una entrada de bitàcola';
@@ -45,6 +46,7 @@ $string['settingsupdatederror'] = 'S\'ha produït un error. El paràmetre no s\'
 $string['siteblog'] = 'Bitàcola del lloc: $a';
 $string['siteblogs'] = 'Bitàcoles amb l\'accés restringit als usuaris del lloc';
 $string['tagdatelastused'] = 'Darrera utilització de l\'etiqueta';
+$string['tags'] = 'Etiquetes';
 $string['tagsort'] = 'Ordena la visualització de les etiquetes per';
 $string['tagtext'] = 'Text de l\'etiqueta';
 $string['timewithin'] = 'Mostra etiquetes utilitzades en aquest període';
