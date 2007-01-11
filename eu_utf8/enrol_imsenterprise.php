@@ -18,6 +18,7 @@ $string['filelockedmail'] = 'IMS fitxategian oinarritutako matrikulazioetarako e
 $string['filelockedmailsubject'] = 'Errore garrantzitsua. Matrikulazio-fitxategia';
 $string['fixcasepersonalnames'] = 'Aldatu izen pertsonalak letra larrira.';
 $string['fixcaseusernames'] = 'Aldatu erabiltzaileen izenak lerra xehera.';
+$string['imsrolesdescription'] = 'IMS Enterprise ezarpenak 8 rol ezberdin hartzen ditu bere baitan. Mesedez, aukeratu nola nahi duzun Moodle-n zuri ezartzea eta baita baten bat alde batera utzi behar den ere.';
 $string['location'] = 'Fitxategiaren kokapena';
 $string['logtolocation'] = 'Irteerako log fitxategiaren kokapena (utzi zuri ez badago erregistrorik)';
 $string['mailadmins'] = 'Administratzaileari e-mailez jakinarazi';
