@@ -134,6 +134,7 @@ $string['auth_user_creation'] = 'Les nouveaux utilisateurs (anonymes) peuvent cr
 $string['auth_usernameexists'] = 'Ce nom d\'utilisateur existe déjà. Veuillez en choisir un autre.';
 $string['authenticationoptions'] = 'Options d\'authentification';
 $string['authinstructions'] = 'Il vous est possible de fournir ici des instructions à vos utilisateurs afin qu\'ils sachent quels nom d\'utilisateur et mot de passe utiliser. Ce texte apparaîtra sur la page de connexion. Si vous laissez cette zone vide, aucune instruction ne sera affichée.';
+$string['auto_add_remote_users'] = 'Ajouter automatiquement les utilisateurs distants';
 $string['changepassword'] = 'URL de la page de changement du mot de passe';
 $string['changepasswordhelp'] = 'Vous pouvez indiquer dans cette zone l\'URL d\'une page sur laquelle vos utilisateurs pourront récupérer ou changer leurs nom d\'utilisateur et mot de passe s\'ils les ont oubliés. Cette URL sera disponible sous forme d\'un bouton sur la page de connexion. Si cette zone est vide, ce bouton ne sera pas affiché.';
 $string['chooseauthmethod'] = 'Choisir une méthode d\'authentification';
@@ -151,6 +152,7 @@ $string['passwordhandling'] = 'Traitement du champ Mot de passe';
 $string['plaintext'] = 'Texte en clair';
 $string['pluginnotenabled'] = 'La méthode d\'authentification $a n\'est pas activée.';
 $string['pluginnotinstalled'] = 'La méthode d\'authentification $a n\'est pas installée.';
+$string['rpc_negotiation_timeout'] = 'Délai de négociation RPC échu';
 $string['selfregistration'] = 'Auto-enregistrement';
 $string['selfregistration_help'] = 'Choisir la méthode d\'authentification gérant l\'auto-enregistrement des utilisateurs.';
 $string['shib_not_set_up_error'] = 'L\'authentification Shibboleth ne semble pas être configurée correctement&nbsp;: aucune variable d\'environnement Shibboleth n\'est présente pour cette page. Veuillez consulter le fichier <a href=\"README.txt\">README</a> pour d\'autres instructions sur la façon de configurer l\'authentification Shibboleth ou contactez l\'administrateur de cette installation de Moodle.';
