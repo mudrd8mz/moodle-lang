@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8 dev (2006120700)
+      // message.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['addcontact'] = 'コンタクトリストに追加する';
-$string['addsomecontacts'] = '誰かにメッセージを送信する場合や、このページにショートカットを作成する場合は、上にある<a href=\"$a\">検索タブ</a>を使用してください。';
-$string['addsomecontactsincoming'] = 'これらのメッセージは、あなたのコンタクトリストに登録されていない人から受信しています。コンタクトに人を追加したい場合は、名前の隣にある「コンタクトリストに追加」アイコンをクリックしてください。';
+$string['addsomecontacts'] = '誰かにメッセージを送信する場合や、このページにショートカットを作成する場合、上にある<a href=\"$a\">検索タブ</a>を使用してください。';
+$string['addsomecontactsincoming'] = 'これらのメッセージは、あなたのコンタクトリストに登録されていない人から受信しています。コンタクトに人を追加したい場合、名前の隣にある「コンタクトリストに追加」アイコンをクリックしてください。';
 $string['ago'] = '$a 前';
 $string['allmine'] = 'すべての送受信メッセージ';
 $string['allstudents'] = 'コースの学生間のすべてのメッセージ';

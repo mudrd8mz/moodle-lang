@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.8 dev (2006102600)
+      // install.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['admindirerror'] = '設定されたadminディレクトリが正しくありません。';
@@ -103,7 +103,7 @@ $string['dbwrongprefix'] = '上記説明の接頭辞に従ってください。'
 $string['directorysettings'] = '<p>このMoodleのインストール先を確認してください。</p>
 
 <p><b>ウェブアドレス:</b>
-Moodleにアクセスする完全なウェブアドレスを指定してください。複数のURLよりアクセス可能な場合は、学生が利用する最も自然なURLを選択してください。末尾にスラッシュを付けないでください。</p>
+Moodleにアクセスする完全なウェブアドレスを指定してください。複数のURLよりアクセス可能な場合、学生が利用する最も自然なURLを選択してください。末尾にスラッシュを付けないでください。</p>
 
 <p><b>Moodleディレクトリ:</b>
 インストール先の完全なディレクトリパスを指定してください。大文字/小文字が間違っていないか確認してください。</p>
@@ -112,7 +112,7 @@ Moodleにアクセスする完全なウェブアドレスを指定してくだ�
 Moodleが、アップロードされたファイルを保存する場所が必要です。 このディレクトリは、ウェブサーバのユーザ (通常は「nobody」または「apache」) が読み込みおよび書き込みできるようにしてください。しかし、ウェブから直接アクセスできないようにしてください。</p>';
 $string['directorysettingshead'] = 'Moodleのインストール先を確認してください。';
 $string['directorysettingssub'] = '<p><b>ウェブアドレス:</b>
-Moodleにアクセスする完全なウェブアドレスを指定してください。複数のURLよりアクセス可能な場合は、学生が利用する最も自然なURLを選択してください。末尾にスラッシュを付けないでください。</p>
+Moodleにアクセスする完全なウェブアドレスを指定してください。複数のURLよりアクセス可能な場合、学生が利用する最も自然なURLを選択してください。末尾にスラッシュを付けないでください。</p>
 <br />
 <br />
 <p><b>Moodleディレクトリ:</b>
@@ -134,7 +134,7 @@ $string['fail'] = '失敗';
 $string['fileuploads'] = 'ファイルアップロード';
 $string['fileuploadserror'] = 'これは有効にしてください。';
 $string['fileuploadshelp'] = '<p>あなたのサーバでは、ファイルのアップロードができないようです。</p>
-<p>Moodleのインストールは可能ですが、ファイルのアップロードができない場合は、コースファイルやユーザプロフィールのイメージをアップロードすることができません。</p>
+<p>Moodleのインストールは可能ですが、ファイルのアップロードができない場合、コースファイルやユーザプロフィールのイメージをアップロードすることができません。</p>
 <p>ファイルアップロードを可能にするには、あなた (またはシステム管理者) があなたのシステムのメインphp.iniファイルを編集して、<b>file_uploads</b> を \'1\'にする必要があります。</p>';
 $string['gdversion'] = 'GDバージョン';
 $string['gdversionerror'] = 'イメージの処理および作成を行うにはGDライブラリが必要です。';
@@ -164,7 +164,7 @@ $string['magicquotesruntimehelp'] = '<p>Moodleを正常に動作させるため�
 
 <p>通常はデフォルトで無効にされています ... php.iniの <b>magic_quotes_runtime</b> 設定を確認してください。</p>
 
-<p>php.iniファイルにアクセスできない場合は、Moodleディレクトリの.htaccessファイルに次の行を追加してください:
+<p>php.iniファイルにアクセスできない場合、Moodleディレクトリの.htaccessファイルに次の行を追加してください:
 <blockquote>php_value magic_quotes_runtime Off</blockquote>
 </p>';
 $string['memorylimit'] = 'Memory Limit';
@@ -173,12 +173,12 @@ $string['memorylimithelp'] = '<p>現在、サーバのPHPメモリー制限が $
 <p>この設定では、Moodleのメモリーに関わるトラブルが発生します。 特に多くのモジュールを使用したり、多くのユーザがMoodleを使用する場合に、トラブルが発生します。</p>
 <p>可能でしたら、PHPのメモリー制限上限を16M以上に設定されることをお勧めします。この設定を実現するために、いくつかの方法があります:
 <ol>
-<li>コンパイル可能な場合は、PHPを<i>--enable-memory-limit</i>オプションでコンパイルしてください。
+<li>コンパイル可能な場合、PHPを<i>--enable-memory-limit</i>オプションでコンパイルしてください。
 これにより、Moodle自身がメモリー制限を設定することが可能になります。
-<li>php.iniファイルにアクセスできる場合は、<b>memory_limit</b>設定を16Mのように変更することができます。php.iniファイルにアクセスできない場合は、管理者に変更を依頼してください。
+<li>php.iniファイルにアクセスできる場合、<b>memory_limit</b>設定を16Mのように変更することができます。php.iniファイルにアクセスできない場合、管理者に変更を依頼してください。
 <li>いくつかのPHPサーバでは、下記の行を含む.htaccessファイルをMoodleディレクトリに作成することができます:
 <p><blockquote>php_value memory_limit 16M</blockquote></p>
-<p>しかし、この設定が<b>すべての</b>PHPページの動作を妨げる場合もあります。ページ閲覧時にエラーが表示される場合は、.htaccessファイルを削除してください。</p>
+<p>しかし、この設定が<b>すべての</b>PHPページの動作を妨げる場合もあります。ページ閲覧時にエラーが表示される場合、.htaccessファイルを削除してください。</p>
 </ol>';
 $string['mssql'] = 'SQL*Server (mssql)';
 $string['mssql_n'] = 'SQL*Server UTF-8サポート (mssql_n)';

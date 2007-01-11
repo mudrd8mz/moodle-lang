@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.8 dev (2006102600)
+      // enrol_ldap.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['description'] = '<p>ユーザ登録をコントロールするために、LDAPサーバを使用することができます。LDAPの使用は、あなたのLDAPツリーがコースに登録されているグループを含んでいること、それぞれのグループ/コース内に学生に対応したメンバー登録があることを前提とします。</p>
@@ -12,7 +12,7 @@ $string['description'] = '<p>ユーザ登録をコントロールするために
 <p>このプラグインでは、新しいグループがLDAP内に作成されたときに、自動的に新しいコースを作成することもできます。</p>';
 $string['enrol_ldap_autocreate'] = 'Moodleに存在しないコースに登録された場合、自動的にコースを作成します。';
 $string['enrol_ldap_autocreation_settings'] = 'コース自動作成設定';
-$string['enrol_ldap_bind_dn'] = 'bindユーザをユーザ検索に使用したい場合は、ここで指定してください。「 cn=ldapuser,ou=public,o=org 」のようになります。';
+$string['enrol_ldap_bind_dn'] = 'bindユーザをユーザ検索に使用したい場合、ここで指定してください。「 cn=ldapuser,ou=public,o=org 」のようになります。';
 $string['enrol_ldap_bind_pw'] = 'bindユーザのパスワードです。';
 $string['enrol_ldap_category'] = '自動作成コースのカテゴリです。';
 $string['enrol_ldap_course_fullname'] = 'オプション: 「名称」を取得するLDAPフィールドです。';
