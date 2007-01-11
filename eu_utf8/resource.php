@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 (2006101007)
+      // resource.php - created with Moodle 1.7+ (2006101007)
 
 
-$string['addresource'] = 'Gehitu baliabidea';
+$string['addresource'] = 'Baliabidea gehitu';
 $string['affectedresources'] = 'Eragindako baliabideak';
 $string['back'] = 'Atzera';
-$string['browserepository'] = 'Arakatu biltegia';
+$string['browserepository'] = 'Biltegia arakatu';
 $string['choose'] = 'Aukeratu';
 $string['chooseafile'] = 'Aukeratu edo igo fitxategi bat';
 $string['chooseparameter'] = 'Aukeratu parametroa';
@@ -57,7 +57,7 @@ $string['localfileselect'] = 'Aukeratu fitxategi honen bide-izena.';
 $string['maindirectory'] = 'Direktorio nagusia';
 $string['modulename'] = 'Baliabidea';
 $string['modulenameplural'] = 'Baliabideak';
-$string['navigationbuttons'] = 'Nabigazioa botoiak';
+$string['navigationbuttons'] = 'Nabigazio-botoiak';
 $string['navigationmenu'] = 'Nabigazio menu-aldea';
 $string['navigationup'] = 'Gora botoia';
 $string['neverseen'] = 'Inoiz ez ikusia';

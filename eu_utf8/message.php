@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.6 (2006050506)
+      // message.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addcontact'] = 'Kontaktua gehitu';
-$string['addsomecontacts'] = 'Norbaiti mezua bidaltzeko, edo horri laster-marka sortzeko orri honetan, erabili goiko <a href=\"$a\">search tab</a>. ';
+$string['addsomecontacts'] = 'Norbaiti mezua bidaltzeko, edo horri laster-marka sortzeko orri honetan, erabili goiko <a href=\"$a\">search tab</a>.';
 $string['addsomecontactsincoming'] = 'Mezu hauek zure kontaktu-zerrendan ez dauden lagunenak dira. Horiek zure kontaktuetara gehitzeko,  sakatu izenaren ondoan dagoen \"Kontaktua gehitu\" ikonoa.';
 $string['ago'] = 'Orain dela $a';
 $string['allmine'] = 'Niri edo nik bidalitako mezu guztiak';
@@ -39,7 +39,7 @@ $string['nomessagesfound'] = 'Ez da mezurik aurkitu';
 $string['nosearchresults'] = 'Zure bilaketak du ezer topatu';
 $string['offline'] = 'Lineaz kanpo';
 $string['offlinecontacts'] = 'Lineaz kanpoko kontaktuak ($a)';
-$string['online'] = 'Online ';
+$string['online'] = 'Online';
 $string['onlinecontacts'] = 'Online kontaktuak ($a)';
 $string['onlyfromme'] = 'Neuk bidalitako mezuak bakarrik';
 $string['onlymycourses'] = 'Neure ikastaroetan bakarrik';
@@ -57,12 +57,12 @@ $string['settings'] = 'Ezarpenak';
 $string['settingssaved'] = 'Zure ezarpenak gordeta';
 $string['showmessagewindow'] = 'Mezuen leihoa erakutsi mezurik baldin badut. Horretarako nabigatzaileak popup leihoak zabaltzea onartu behar du webgune honetan!';
 $string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
-$string['timenosee'] = 'On line egon nintzen azkenengotik aurrerako minutuak';
+$string['timenosee'] = 'Online egon nintzen azkenengotik aurrerako minutuak';
 $string['timesent'] = 'Bidalketa-ordua';
 $string['unblockcontact'] = 'Desblokeatu kontaktuak';
 $string['unreadmessages'] = 'Irakurri gabeko $a mezu';
 $string['userisblockingyou'] = 'Erabaltzaile honek blokeatu egin zaitu eta ezin diozu mezurik bidali';
-$string['userisblockingyounoncontact'] = 'Erabiltzaile honen bere kontaktu-zerrendan daudenen mezuak bakarrik onartzen ditu eta zu, oraindik, ez zaude zerrenda horretan.';
+$string['userisblockingyounoncontact'] = 'Erabiltzaile honek bere kontaktu-zerrendan daudenen mezuak bakarrik onartzen ditu eta zu, oraindik, ez zaude zerrenda horretan.';
 $string['userssearchresults'] = 'Bilaketaren emaitza: $a erabiltzaile aurkitu dira';
 
 ?>

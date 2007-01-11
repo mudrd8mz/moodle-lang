@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // appointment.php - created with Moodle 1.6.1 (2006050510)
+      // appointment.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['allowresubmit'] = 'Berbidalketa baimendu';
@@ -33,7 +33,7 @@ $string['typeuploadsingle'] = 'Fitxategi bakarra igo';
 $string['uploadbadname'] = 'Fitxategi honen izenak karakter bereziak zituen eta ezin izan da igo';
 $string['uploadedfiles'] = 'Igotako fitxategiak';
 $string['uploaderror'] = 'Errorea gertatu da fitxategia zerbitzarian gordetzean';
-$string['uploadfailnoupdate'] = 'Fitxategia ondo igo da, baina ezin izan da bidalketa egneratu!';
+$string['uploadfailnoupdate'] = 'Fitxategia ondo igo da, baina ezin izan da bidalketa eguneratu!';
 $string['uploadfiletoobig'] = 'Barkatu, fitxategia handiegia da (muga $a bytekoa da)';
 $string['uploadnofilefound'] = 'Ez da fitxategirik aurkitu: ziur al zaude igotzeko bat aukeratu duzula?';
 $string['uploadnotregistered'] = '\'$a\' ongi igo da baina bidalketa ez da erregistratu!';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // install.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['admindirerror'] = 'Adminerako zehaztu den direktorioa ez da zuzena';
@@ -60,7 +60,7 @@ $string['dbpass'] = 'Pasahitza';
 $string['dbprefix'] = 'Taulen aurrizkia';
 $string['dbtype'] = 'Mota';
 $string['dbwrongencoding'] = 'Aukeratutako datu-basea aholkatzen ez den kodifikazio baten menpean egikaritzen ari da ($a). Horren ordez, Unicode (UTF-8) kodifikazioko datu-basea erabiltzea komenigarria da. Edozein kasutan, proba hau kontuan hartu nahi ez baduzu \"DBaren kodifikazio-proba kontuan ez izan\" aukera dezakezu, etorkizunean arazorik izan zenezakeen arren.';
-$string['directorysettings'] = ' <p><b>WWW:</b>
+$string['directorysettings'] = '<p><b>WWW:</b>
 Moodleri non dagoen kokaturik esan behar diozu. Moodle instalatu den interneteko helbide osoa zehaztu. Zure webgunera URL ezberdinetatik sartzea badago, zure ikasleek normalean erabiliko dutena idatzi. Azken barra ez jarri.</p>
 <p><b>Direktorioa:</b>
 Kokapen honetarako bide osoa zehaztu.
@@ -148,7 +148,9 @@ Horrek Moodlek berak memoria-muga ezartzea ahalbidetzen du.</li>
 <p>Hala ere, zerbitzari batzuetan horrek PHP orri <b>GUZTIEK</b> ez funtzionatzea ekar dezake
 (orriak ikustean erroreak ere ikusiko dituzu). Kasu horretan, .htaccess fitxategia ezabatu beharko duzu.</p></li>
 </ol>';
+$string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP ez da ongi ezarri MySQL luzapenarekin datu-basearekin komunikatzeko. Php.ini fitxategia aztertu edo PHP konpilatu, mesedez.';
+$string['oci8po'] = 'Oracle (oci8po)';
 $string['pass'] = 'Zuzena';
 $string['phpversion'] = 'PHP bertsioa';
 $string['phpversionerror'] = 'PHP bertsioak 4.1.0 edo geroagokoa izan behar du';

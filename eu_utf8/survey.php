@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.7 (2006101007)
+      // survey.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['actual'] = 'Benetakoa';
@@ -207,6 +207,6 @@ $string['surveysaved'] = 'Hausnarketa gordeta';
 $string['surveytype'] = 'Hausnarketa mota';
 $string['thanksforanswers'] = 'Eskerrik asko erantzuteagatik, $a';
 $string['time'] = 'Denbora';
-$string['viewsurveyresponses'] = 'Ikusi erantzunak';
+$string['viewsurveyresponses'] = 'Ikusi hausnarketaren $a erantzun';
 
 ?>

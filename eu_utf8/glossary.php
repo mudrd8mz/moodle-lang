@@ -2,9 +2,9 @@
       // glossary.php - created with Moodle 1.7+ (2006101007)
 
 
-$string['addcomment'] = 'Gehitu iruzkina';
-$string['addentry'] = 'Gehitu sarrera';
-$string['addingcomment'] = 'Gehitu iruzkina';
+$string['addcomment'] = 'Iruzkina gehitu';
+$string['addentry'] = 'Sarrera gehitu';
+$string['addingcomment'] = 'Iruzkina gehitu';
 $string['aliases'] = 'Hitz-gakoak';
 $string['allcategories'] = 'Kategoria guztiak';
 $string['allentries'] = 'Denak';
@@ -76,7 +76,7 @@ $string['editalways'] = 'Beti editatu';
 $string['editcategories'] = 'Kategoriak editatu';
 $string['editentry'] = 'Sarrera editatu';
 $string['editingcomment'] = 'Iruzkina editatu';
-$string['entbypage'] = 'Zenbat sarrera orrialdeko';
+$string['entbypage'] = 'Zenbat sarrera orriko';
 $string['entries'] = 'Sarrerak';
 $string['entrieswithoutcategory'] = 'Kategoriarik gabeko sarrerak';
 $string['entry'] = 'Sarrera';
@@ -90,7 +90,7 @@ $string['entrysaved'] = 'Sarrera gordeta';
 $string['entryupdated'] = 'Sarrera eguneratua';
 $string['entryusedynalink'] = 'Sarrera honek automatikoki estekatu';
 $string['explainaddentry'] = 'Sarrera gehitu glosategi honetara.<br>Kontzeptua eta azalpena derrigorrezko datuak dira.';
-$string['explainall'] = 'Erakutsi sarrera guztiak orrialde bakar batean';
+$string['explainall'] = 'Erakutsi sarrera guztiak orri bakar batean';
 $string['explainalphabet'] = 'Bilatu glosategian aurkibide hau erabiliz';
 $string['explainexport'] = 'Fitxategia sortu da.<br/>Behera kargatu eta gorde ondo. Beti izango duzu aukera hori inportatzeko, ikastaro honetan edo beste batean.';
 $string['explainimport'] = 'Inportatu beharreko fitxategia zehaztu behar duzu eta prozesuaren irizpidea definitu.<p> Bidali zure eskaera eta emaitzak berrikusi.</p>';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6.1 (2006050510)
+      // enrol_imsenterprise.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['aftersaving...'] = 'Zehaztasunak gordetakoan, agian nahiko duzu';

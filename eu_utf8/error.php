@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 (2006050506)
+      // error.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['adminprimarynoedit'] = 'Lehen mailako administradorea ezin dute besteek editatu.';
@@ -11,17 +11,20 @@ $string['cannotfindcomponent'] = 'Osagaia ezin da aurkitu.';
 $string['cannotsavemd5file'] = 'Md5 fitxategia ezin da gorde.';
 $string['cannotsavezipfile'] = 'ZIP fitxategia ezin da gorde.';
 $string['cannotunzipfile'] = 'Ezin da fitxategia deskonprimatu.';
+$string['cantunenrollfrommetacourse'] = 'Ezin duzu baja eman metaikastaro honetan.';
+$string['cantunenrollinthisrole'] = 'Ezin duzu ikastaro honetan baja eman oraingo rola duzun bitartean.';
 $string['cmunknown'] = 'Modulu hau ezin izan da aurkitu';
 $string['componentisuptodate'] = 'Osagaia eguneratu da.';
 $string['confirmsesskeybad'] = 'Sentitzen dugu, baina ekintza hau egiteko zure saio-pasahitza ezin izan da baieztatu. Segurtasun-ezaugarri honek zure izenean, ustekabean edo fede txarrez, eginkizun garrantzitsuen egikaritzea saihesten du. Eginkizun hori egikaritu nahi duzula ziur izan, mesedez.';
-$string['coursegroupunknown'] = ' $a taldeari dagokion ikastaroa ez da zehaztu';
+$string['couldnotassignrole'] = 'Zuri rol bat ezartzean zehaztu gabeko arazo larria gertatu da.';
+$string['coursegroupunknown'] = '$a taldeari dagokion ikastaroa ez da zehaztu';
 $string['downloadedfilecheckfailed'] = 'Jaitsitako fitxategiaren konprobazioak huts egin du.';
-$string['errorcleaningdirectory'] = ' \"$a\" direktorioa garbitzean errorea gertatu da.';
+$string['errorcleaningdirectory'] = '\"$a\" direktorioa garbitzean errorea gertatu da.';
 $string['errorcopyingfiles'] = 'Errorea fitxategiak kopiatzean';
 $string['errorcreatingdirectory'] = 'Errorea \"$a\" direktorioa sortzean.';
 $string['errorcreatingfile'] = 'Errorea \"$a\" fitxategia sortzean.';
 $string['erroronline'] = 'Errorea ondorengo lerroan: $a';
-$string['errorreadingfile'] = ' \"$a\" fitxategia irakurtzean errorea';
+$string['errorreadingfile'] = '\"$a\" fitxategia irakurtzean errorea';
 $string['errorunzippingfiles'] = 'Errorea fitxategiak deskonprimatzean';
 $string['fieldrequired'] = '\"$a\" derrigorrezko datua da';
 $string['filenotfound'] = 'Barkatu, baina eskatutako fitxategia ezin izan dugu aurkitu';
@@ -34,12 +37,14 @@ $string['invalidcourse'] = 'Ikastaro baliogabea';
 $string['invalidfieldname'] = '\"$a\"  ez da izen erabilgarria eremu honetarako';
 $string['invalidfiletype'] = '\"$a\" ez da fitxategi mota erabilgarria.';
 $string['invalidmd5'] = 'md5 ez da baliagarria';
+$string['invalidrole'] = 'Rol honek ez du balio';
 $string['invalidxmlfile'] = '\"$a\" ez da XML fitxategi baliagarria.';
 $string['missingfield'] = '\"$a\" eremua ez da aurkitzen';
 $string['missingrequiredfield'] = 'Beharrezko eremuren bat falta da.';
-$string['modulemissingcode'] = ' $a moduluak funtzio hau aurrera eramateko beharrezko kodea ez dauka.';
-$string['modulerequirementsnotmet'] = ' \"$a->modulename\" ($a->moduleversion) modulua ezin da instalatu Moodleren bertsio berriagoa eskatzen duelako (zure bertsioa $a->currentmoodle da, eta moduluak behar duena $a->requiremoodle da).';
+$string['modulemissingcode'] = '$a moduluak funtzio hau aurrera eramateko beharrezko kodea ez dauka.';
+$string['modulerequirementsnotmet'] = '\"$a->modulename\" ($a->moduleversion) modulua ezin da instalatu Moodleren bertsio berriagoa eskatzen duelako (zure bertsioa $a->currentmoodle da, eta moduluak behar duena $a->requiremoodle da).';
 $string['mustbeteacher'] = 'Orri hau irakasleek baino ezin dute ikusi';
+$string['nocontext'] = 'Barkatu, ikastaro hau ez da kontestu baliogarria';
 $string['noinstances'] = 'Ikastaro honetan ez da $a azaltzen.';
 $string['nonmeaningfulcontent'] = 'Edukin esaguratsurik ez.';
 $string['noparticipatorycms'] = 'Sentitzen dugu, baina ez duzu kurtsoez informatzeko partaidetza-modulurik.';
@@ -50,14 +55,14 @@ $string['onlyeditingteachers'] = 'Edizio-baimena duten irakasleek soilik egin de
 $string['onlyeditown'] = 'Zeure informazioa baino ezin duzu editatu';
 $string['pagenotexist'] = 'Ohiz kanpoko errorea gertatu da (ez dagoen orri batera sartzeko saiakera egon da).';
 $string['pleasereport'] = 'Denbora baduzu, errorea gertatu zenean zertan saiatzen ari zinen jakinaraz iezaguzu, mesedez:';
-$string['pluginrequirementsnotmet'] = ' \"$a->pluginname\" ($a->pluginversion) plugina ezin izan da instalatu. Moodleren bertsio berriagoa behar duzu (zure bertsioa $a->currentmoodle da, eta pluginak behar duena $a->requiremoodle da)';
+$string['pluginrequirementsnotmet'] = '\"$a->pluginname\" ($a->pluginversion) plugina ezin izan da instalatu. Moodleren bertsio berriagoa behar duzu (zure bertsioa $a->currentmoodle da, eta pluginak behar duena $a->requiremoodle da)';
 $string['processingstops'] = 'Prozesamendua hemen bukatu da. Gainontzeko erregistroak ez dira kontuan hartu.';
 $string['remotedownloadnotallowed'] = 'Osagaiak ezin dira zure zerbitzarira jaitsi (allow_url_fopen ez dago aktibatuta).<br /><br /><a href=\"$a->url\">$a->url</a> fitxategia eskuz jaitsi eta \"$a->dest\" kokapenean kopiatu behar duzu.';
 $string['restricteduser'] = 'Sentitzen dugu, baina zure kontuak, \"$a\" , ezin du holakorik egin.';
 $string['sendmessage'] = 'Mezua bidali';
 $string['sessionerroruser'] = 'Saioa amaitu da. Sar zaitez berriro, mesedez.';
 $string['sessionerroruser2'] = 'Zure saioari eragiten dion zerbitzari-errorea antzeman da. Berriz sartu edo nabigatzailea berriro abiatu, mesedez.';
-$string['sessionipnomatch'] = 'Sentitzen dugu, baina lehenengo sarreratik zure IPa aldatu dela dirudi. Ziurtasun neurri honen arrazoia crackerrek gune honetan zauden bitartean zure nortasuna ez lapurtzean datza. Erabiltzaile arruntek ez lukete mezu hau ikusi beharko. Beraz, gunearen administradoreari laguntza eskatu.';
+$string['sessionipnomatch'] = 'Sentitzen dugu, baina lehenengo sarreratik zure IPa aldatu dela dirudi. Ziurtasun neurri honen arrazoia crackerrek gune honetan zauden bitartean zure nortasuna ez lapurtzean datza. Erabiltzaile arruntek ez lukete mezu hau ikusi beharko. Beraz, gunearen kudeatzaileari laguntza eskatu.';
 $string['statscatchupmode'] = 'Estatista une honetan \'catchup\' moduan dago. Orain arte $a->daysdone egun prozesatu dira eta $a->dayspending prozesatzeko daude. Mesedez, beranduago berriz aztertu.';
 $string['unknowncourse'] = 'Ez dago \"$a\" izeneko ikastarorik';
 $string['unknownuseraction'] = 'Sentitzen dugu, baina erabiltzailearen ekintza hau ez dugu ulertzen.';

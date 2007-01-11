@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6.1 (2006050510)
+      // blog.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addnewentry'] = 'Sarrera berria gehitu';
@@ -7,7 +7,7 @@ $string['addotags'] = 'Etiketa ofizialak gehitu';
 $string['addptags'] = 'Erabiltzaileak zehaztutako etiketak gehitu';
 $string['blockmenutitle'] = 'Blog-menua';
 $string['blocktagstitle'] = 'Blog-etiketak';
-$string['blocktitle'] = 'Blog-etiketen bloke izenbua';
+$string['blocktitle'] = 'Blog-etiketen bloke izenburua';
 $string['blog'] = 'Bloga';
 $string['blogdeleteconfirm'] = 'Blog hau ezabatu?';
 $string['blogpreferences'] = 'Blog aukerak';
@@ -16,6 +16,8 @@ $string['blogtags'] = 'Blogaren etiketak';
 $string['courseblog'] = 'Ikastaroaren bloga: $a';
 $string['courseblogs'] = 'Erabiltzaileek beren ikastaro bereko pertsonen blogak baino ezin dituzte ikusi';
 $string['disableblogs'] = 'Blog-sistema desgaitu';
+$string['emptybody'] = 'Blog-sarreraren gorputza ezin da hutsik egon';
+$string['emptytitle'] = 'Blog-sarreraren izenburua ezin da hutsik egon';
 $string['entrybody'] = 'Blog-sarreraren gorputza';
 $string['entrybodyonlydesc'] = 'Deskribapena idatzi';
 $string['entryerrornotyours'] = 'Sarrera hau ez da zurea';

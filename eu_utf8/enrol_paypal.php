@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_paypal.php - created with Moodle 1.6 (2006050506)
+      // enrol_paypal.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['business'] = 'Zure Paypal kontuaren posta elektronikoko helbidea';

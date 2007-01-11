@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.7 (2006101007)
+      // editor.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['about'] = 'Editore honi buruz';
@@ -33,12 +33,12 @@ $string['cutpastemozilla'] = 'Tamalez,linea bidezko editore honetan ezin dituzu 
 Badaude 3 zeharbide saiatzeko, nahi izanez gero: Ctrl-v ordez, erabili Shift-Insert. Erabili zure nabigatzaileko Editatu->Itsatsi botoiak. Aldatu zure nabigatzailearen aukerak; horretarako, editatu user.js artxiboa. Laguntza gehiago behar izanez gero, klikatu OK botoia edo UTZI editorera itzultzeko.';
 $string['delete'] = 'Ezabatu';
 $string['enterurlfirst'] = 'Lehenik URL-a jarri behar duzu';
-$string['filebrowser'] = 'Artxibo nabigatzailea';
+$string['filebrowser'] = 'Fitxategi nabigatzailea';
 $string['findwhat'] = 'Bilatu';
 $string['fontname'] = 'Letra-tipoaren izena';
 $string['fontsize'] = 'Letra-tipoaren neurria';
 $string['forecolor'] = 'Letra-tipoaren kolorea';
-$string['formatblock'] = 'Formatoa';
+$string['formatblock'] = 'Formatua';
 $string['fullscreen'] = 'Pantaila osoko editorea';
 $string['heading'] = 'Izenburua';
 $string['height'] = 'Garaiera';
