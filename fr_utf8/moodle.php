@@ -948,6 +948,7 @@ $string['noreplyname'] = 'Merci de ne pas répondre à ce courriel';
 $string['noresults'] = 'Aucun résultat';
 $string['normal'] = 'Normale';
 $string['normalfilter'] = 'Moins de critères';
+$string['nosite'] = 'Impossible de trouver le cours de site';
 $string['nostatstodisplay'] = 'Il n\'y a pour le moment pas de statistique à afficher.';
 $string['nostudentsfound'] = 'Aucun $a trouvé';
 $string['nostudentsingroup'] = 'Il n\'y a pas encore d\'étudiant dans ce groupe';
