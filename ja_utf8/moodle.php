@@ -971,6 +971,7 @@ $string['noreplyname'] = 'このメールアドレス宛に返信しないでく
 $string['noresults'] = '該当データがありません。';
 $string['normal'] = '普通';
 $string['normalfilter'] = '通常検索';
+$string['nosite'] = 'サイトレベルのコースは見つかりませんでした。';
 $string['nostatstodisplay'] = '申し訳ございません、表示するデータがありません。';
 $string['nostudentsfound'] = '$a が見つかりませんでした。';
 $string['nostudentsingroup'] = 'このグループにはまだ学生がいません。';
