@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 dev (2007010404)
+      // glossary.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -58,7 +58,7 @@ $string['definition'] = '定義';
 $string['definitions'] = '定義';
 $string['deleteentry'] = 'エントリの削除';
 $string['deletingcomment'] = 'コメントを削除しています。';
-$string['deletingnoneemptycategory'] = '空でないカテゴリが削除された場合、関係するエントリも同時に削除されます。エントリを削除したい場合、手動で行ってください。';
+$string['deletingnoneemptycategory'] = '空でないカテゴリが削除された場合、関係するエントリも同時に削除されます。エントリを削除したい場合は、手動で行ってください。';
 $string['descending'] = '(降順)';
 $string['destination'] = 'インポート先';
 $string['displayformat'] = '表示フォーマット';

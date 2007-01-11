@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 dev (2007010404)
+      // enrol_authorize.php - created with Moodle 1.8 dev (2006112200)
 
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
@@ -9,7 +9,7 @@ $string['adminauthorizeccapture'] = 'オーダーレビュー&スケジュール
 $string['adminauthorizeemail'] = 'メール送信設定';
 $string['adminauthorizesettings'] = 'Authorize.net 設定';
 $string['adminauthorizewide'] = 'サイト全体の設定';
-$string['adminavs'] = 'あなたのauthorize.netアカウントで住所確認システム (AVS:Address Verification System) を有効にした場合、ここをチェックしてください。この設定により、ユーザが支払いフォームに入力するときに、市町村、県、国および郵便番号の入力が求められます。';
+$string['adminavs'] = 'あなたのauthorize.netアカウントで住所確認システム (AVS:Address Verification System) を有効にした場合は、ここをチェックしてください。この設定により、ユーザが支払いフォームに入力するときに、市町村、県、国および郵便番号の入力が求められます。';
 $string['adminconfighttps'] = 'このプラグインを使用するには、管理 >> セキュリティ >> HTTPセキュリティで <a href=\"$a->url\">「ログインにHTTPSを使用する」をチェック</a>していることを確認してください。';
 $string['adminconfighttpsgo'] = 'このプラグインを設定するには、<a href=\"$a->url\">セキュアページ</a>に移動してください。';
 $string['admincronsetup'] = 'cron.phpメンテナンススクリプトが少なくとも24時間稼動していません。<br />スケジュールキャプチャ機能を使用したい場合、Cronを有効にする必要があります。<br />Authorize.netプラグインを<b>有効</b>および適切に<b>cronを設定</b>、または <b>an_review</b> のチェックを外してください。<br />スケジュールキャプチャを無効にすると、30日以内にトランザクションを検査しない場合、トランザクションはキャンセルされます。<br />30日以内に<b>手動で</b>支払いを受領/拒否したい場合、<b>an_review</b> をチェックして、<br /><b>an_capture_day</b>フィールドにゼロを入力してください。';
@@ -43,7 +43,7 @@ $string['allpendingorders'] = 'すべての保留オーダー';
 $string['amount'] = '金額';
 $string['anlogin'] = 'Authorize.net: ログイン名';
 $string['anpassword'] = 'Authorize.net: パスワード';
-$string['anreferer'] = '必要な場合、リファラURLを設定してください。これは、ウェブリクエストの「Referer: URL」ヘッダを送信します。';
+$string['anreferer'] = '必要な場合は、リファラURLを設定してください。これは、ウェブリクエストの「Referer: URL」ヘッダを送信します。';
 $string['antestmode'] = 'Authorize.net: テストトランザクション (料金は引き落とされません)';
 $string['antrankey'] = 'Authorize.net: トランザクションキー';
 $string['approvedreview'] = '検査承認';
@@ -79,7 +79,7 @@ $string['ccno'] = 'クレジットカード番号';
 $string['cctype'] = 'クレジットカードタイプ';
 $string['ccvv'] = 'CV2';
 $string['ccvvhelp'] = 'カードの裏面 (3桁の数字) をご覧ください。';
-$string['choosemethod'] = 'コースの登録キーを知っている場合、入力してください。<br />そうでない場合、このコースに受講料を支払う必要があります。';
+$string['choosemethod'] = 'コースの登録キーを知っている場合は、入力してください。<br />そうでない場合は、このコースに受講料を支払う必要があります。';
 $string['chooseone'] = '次の2つのフィールドの1つまたは両方に入力してください。パスワードは表示されません。';
 $string['costdefaultdesc'] = 'このデフォルト費用を使用するには、<strong>コース設定でコース費用フィールドに -1 を設定</strong>してください。';
 $string['cutofftime'] = 'トランザクションのカットオフ時間です。確定するため、何時に最終のトランザクションを取得しますか?';
@@ -99,7 +99,7 @@ $string['haveauthcode'] = '私はすでに認証コードを持っています';
 $string['howmuch'] = 'いくらですか?';
 $string['httpsrequired'] = '申し訳ございません、あなたのリクエストは現在処理することができません。このサイトの設定は正常に行われませんでした。
 <br /><br />
-ブラウザの下部に黄色の鍵マークが表示されない場合、あなたのクレジットカード番号を入力しないでください。これはクライアントとサーバ間で送信されるすべてのデータが単に暗号化されることを意味します。ですから、2台のコンピュータ間のトランザクション情報は保護され、あなたのクレジットカード番号がインターネット上で盗まれることはありません。';
+ブラウザの下部に黄色の鍵マークが表示されない場合は、あなたのクレジットカード番号を入力しないでください。これはクライアントとサーバ間で送信されるすべてのデータが単に暗号化されることを意味します。ですから、2台のコンピュータ間のトランザクション情報は保護され、あなたのクレジットカード番号がインターネット上で盗まれることはありません。';
 $string['invalidaba'] = 'ABA番号が正しくありません。';
 $string['invalidaccnum'] = '口座番号が正しくありません。';
 $string['invalidacctype'] = '講座種別が正しくありません。';

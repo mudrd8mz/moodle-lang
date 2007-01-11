@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.8 dev (2007010404)
+      // wiki.php - created with Moodle 1.8 dev (2006102600)
 
 
 $string['action'] = '-- アクション --';
@@ -39,7 +39,7 @@ $string['diff'] = 'Diff';
 $string['differences'] = '$a->pagename におけるバージョン $a->new_ver と $a->old_ver の違い。';
 $string['disablecamel'] = 'キャメルケースリンクを無効にする';
 $string['disabledpage'] = 'このページは現在利用できません。';
-$string['doesnotexist'] = 'このページは存在していません。作成したい場合、編集ボタンをクリックしてください。';
+$string['doesnotexist'] = 'このページは存在していません。作成したい場合は、編集ボタンをクリックしてください。';
 $string['downloadaszip'] = 'ダウンロード可能なzip書庫';
 $string['downloadtimes'] = 'ダウンロード回数: $a 回';
 $string['dwnlnofiles'] = 'アップロードされたファイルはありません。';
@@ -172,7 +172,7 @@ $string['updatedwikipages'] = '更新Wikiページ';
 $string['uplerror'] = '申し訳ございません、ファイルのアップロード中にエラーが発生しました。';
 $string['uplinsect'] = 'アップロード先';
 $string['uplnewnam'] = '別名で保存する';
-$string['upload0'] = '任意のバイナリファイルをwikiにアップロードする場合、このフォームを使用してください。';
+$string['upload0'] = '任意のバイナリファイルをwikiにアップロードする場合は、このフォームを使用してください。';
 $string['uploadedon'] = 'アップロード先';
 $string['uploadpicturebutton'] = 'アップロード';
 $string['uplok'] = 'ファイルが正常にアップロードされました。';

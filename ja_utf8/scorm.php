@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.8 dev (2007010404)
+      // scorm.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['advanced'] = '詳細設定';
@@ -131,7 +131,7 @@ $string['trackingloose'] = '警告: このパッケージのトラッキング�
 $string['type'] = 'タイプ';
 $string['validateascorm'] = 'パッケージの確認';
 $string['validation'] = '確認結果';
-$string['validationtype'] = 'ここでは、SCORMマニフェストファイルを確認するDOMXMLライブラリを設定します。分からない場合、このままにしてください。';
+$string['validationtype'] = 'ここでは、SCORMマニフェストファイルを確認するDOMXMLライブラリを設定します。分からない場合は、このままにしてください。';
 $string['value'] = '値';
 $string['versionwarning'] = 'マニフェストファイルのバージョンが1.3より古いため、$a->tag タグに警告があります。';
 $string['viewallreports'] = '$a 件の受験レポートを表示する';

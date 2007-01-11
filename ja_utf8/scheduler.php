@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scheduler.php - created with Moodle 1.8 dev (2007010404)
+      // scheduler.php - created with Moodle 1.6 development (2005101200)
 
 
 $string['action'] = '操作';
@@ -46,7 +46,7 @@ $string['start'] = '開始時間';
 $string['startpast'] = '過去に面会予約時間枠を開始することはできません。';
 $string['starttime'] = '開始時間';
 $string['welcomebackstudent'] = '下記のテーブル内の太字が、あなたの面会予約時間を示します。現在の面会予約時間を利用可能な面会時間に変更することができます。';
-$string['welcomenewstudent'] = '下記のテーブルには、すべての利用可能な面会予約時間を表示しています。ラジオボタンをチェックして、忘れずに「面会予約を保存」をクリックしてください。後で内容を変更したい場合、このページに再度アクセスしてください。';
+$string['welcomenewstudent'] = '下記のテーブルには、すべての利用可能な面会予約時間を表示しています。ラジオボタンをチェックして、忘れずに「面会予約を保存」をクリックしてください。後で内容を変更したい場合は、このページに再度アクセスしてください。';
 $string['welcomenewteacher'] = '学生との面会予約時間枠を追加するには、下記のボタンをクリックしてください。';
 
 ?>
