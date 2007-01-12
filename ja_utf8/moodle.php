@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2007010404)
+      // moodle.php - created with Moodle 1.8 dev (2007011200)
 
 
 $string['action'] = '操作';
@@ -176,6 +176,7 @@ $string['byname'] = '$a 順';
 $string['bypassed'] = 'バイパス';
 $string['cachecontrols'] = 'キャッシュコントロール';
 $string['cancel'] = 'キャンセル';
+$string['cancelled'] = 'キャンセルされました。';
 $string['categories'] = 'コースカテゴリ';
 $string['category'] = 'カテゴリ';
 $string['categoryadded'] = '「 $a 」 が追加されました。';
