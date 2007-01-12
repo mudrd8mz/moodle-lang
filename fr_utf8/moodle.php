@@ -175,6 +175,7 @@ $string['byname'] = 'par $a';
 $string['bypassed'] = 'Court-circuité';
 $string['cachecontrols'] = 'Réglages du cache';
 $string['cancel'] = 'Annuler';
+$string['cancelled'] = 'Annulé';
 $string['categories'] = 'Catégories de cours';
 $string['category'] = 'Catégorie';
 $string['categoryadded'] = 'La catégorie «&nbsp;$a&nbsp;» a été ajoutée';
