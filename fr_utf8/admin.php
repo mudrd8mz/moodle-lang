@@ -408,6 +408,7 @@ $string['profiledeletecategory'] = 'Suppression d\'une catégorie';
 $string['profiledescription'] = 'Description du champ';
 $string['profileeditcategory'] = 'Modification de la catégorie $a';
 $string['profileeditfield'] = 'Modification du champ $a';
+$string['profilefield'] = 'Champ de profil';
 $string['profilefieldmaxlength'] = 'Longueur maximale';
 $string['profilefields'] = 'Champ du profil utilisateur';
 $string['profilefieldsize'] = 'Taille d\'affichage';
