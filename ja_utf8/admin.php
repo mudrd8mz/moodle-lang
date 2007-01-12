@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2007010404)
+      // admin.php - created with Moodle 1.8 dev (2007011200)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -347,9 +347,9 @@ $string['mediapluginwmv'] = '.wmvフィルタを有効にする';
 $string['messaging'] = 'メッセージングシステムを有効にする';
 $string['misc'] = 'その他';
 $string['modulesecurity'] = 'モジュールセキュリティ';
-$string['multilangforceold'] = '古いmultilangシンタックスを強制する: class=\"multilang\" なしの &lt;span&gt;  および &lt;lang&gt;';
+$string['multilangforceold'] = '古いmultilangシンタックスを強制する: class=\"multilang\" なしの <span>  および <lang>';
 $string['multilangupgrade'] = 'multilangアップグレード';
-$string['multilangupgradeinfo'] = 'multilangフィルタシンタックスはMoodle 1.8で変更されました。今後、&lt;lang&gt; タグはサポートされません。<br /><br />例: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"es\" class=\"multilang\">Hola!&lt;/span&gt;<br /><br /><strong>既存のすべてのテキストに関するシンタックスをアップグレードしてもよろしいですか?</strong>';
+$string['multilangupgradeinfo'] = 'multilangフィルタシンタックスはMoodle 1.8で変更されました。今後、<lang> タグはサポートされません。<br /><br />例: <span lang=\"en\" class=\"multilang\">Hello!</span><span lang=\"es\" class=\"multilang\">Hola!</span><br /><br /><strong>既存のすべてのテキストに関するシンタックスをアップグレードしてもよろしいですか?</strong>';
 $string['multilangupgradenotice'] = 'あなたのサイトは、恐らく古いmultilangシンタックスを使用しています。<a href=\"multilangupgrade.php\">multilangアップグレード</a>をお勧めします。';
 $string['mustenablestats'] = 'このサイトでは、統計が有効にされていません。';
 $string['mymoodle'] = 'マイ Moodle';
@@ -393,6 +393,17 @@ $string['pgclusterdescription'] = 'コマンドライン処理のためのPostgr
 $string['php50restricted'] = 'PHP 5.0.x には数多くの既知の問題があります。5.1.x にアップグレードするか、4.3.x または 4.4.x にダウングレードしてください。';
 $string['pleaseregister'] = 'このボタンを消すには、あなたのサイトを登録してください。';
 $string['plugins'] = 'モジュール';
+$string['profilecategory'] = 'カテゴリ';
+$string['profilecategorynamenotunique'] = 'このカテゴリ名はすでに使用されています。';
+$string['profilecommonsettings'] = '一般設定';
+$string['profilecreatecategory'] = '新しいプロフィールカテゴリを作成する';
+$string['profilecreatefield'] = '新しいプロフィールフィールドを作成する:';
+$string['profilecreatenewcategory'] = '新しいカテゴリの作成';
+$string['profiledefaultcategory'] = '他のフィールド';
+$string['profiledefaultdata'] = 'デフォルト値';
+$string['profilefieldmaxlength'] = '最大長';
+$string['profilefields'] = 'ユーザプロフィールフィールド';
+$string['profilefieldsize'] = '表示サイズ';
 $string['protectusernames'] = 'ユーザ名を保護する';
 $string['proxyhost'] = 'プロクシホスト';
 $string['proxyport'] = 'プロクシポート';
