@@ -1,7 +1,7 @@
 <?php // $Id$
 
-$string['addmoreanswerblanks'] = '{no} emplacements supplémenaires vides';
-$string['answerno'] = 'Réponse $a';
-$string['filloutoneanswer'] = 'Vous devez fournir au moins une réponse possible. Les réponses laissées vides ne seront pas utilisées. Le caractère «&nbsp;*&nbsp;» peut être utilisé comme jocker pour remplacer n\'importe quel caractère. La première réponse correspondante sera utilisée pour déterminer le score et le feedback.';
+$string['addmoreanswerblanks'] = '{no} emplacements supplÃ©mentaires vides';
+$string['answerno'] = 'RÃ©ponse $a';
+$string['filloutoneanswer'] = 'Vous devez fournir au moins une rÃ©ponse possible. Les rÃ©ponses laissÃ©es vides ne seront pas utilisÃ©es. Le caractÃ¨re Â«&nbsp;*&nbsp;Â» peut Ãªtre utilisÃ© comme jocker pour remplacer n\'importe quel caractÃ¨re. La premiÃ¨re rÃ©ponse correspondante sera utilisÃ©e pour dÃ©terminer le score et le feedback.';
 
 ?>

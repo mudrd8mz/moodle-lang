@@ -1,9 +1,9 @@
 <?php // $Id$
 
-$string['addmoreanswerblanks'] = '{no} emplacements supplémenaires vides';
-$string['answerno'] = 'Réponse $a';
-$string['unithdr'] = 'Unité $a';
-$string['addmoreunitblanks'] = '{no} emplacements pour plus d\'unités';
-$string['notenoughanswers'] = 'Vous devez fournir au moins une réponse.';
+$string['addmoreanswerblanks'] = '{no} emplacements supplÃ©mentaires vides';
+$string['answerno'] = 'RÃ©ponse $a';
+$string['unithdr'] = 'UnitÃ© $a';
+$string['addmoreunitblanks'] = '{no} emplacements pour plus d\'unitÃ©s';
+$string['notenoughanswers'] = 'Vous devez fournir au moins une rÃ©ponse.';
 
 ?>
