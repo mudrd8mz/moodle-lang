@@ -3,7 +3,6 @@
 $string['addfields'] = 'Ajouter $a champs au formulaire';
 $string['advancedelement'] = 'Élément avancé';
 $string['day'] = 'Jour';
-$string['denotesreq'] = '$a indique que le champ doit être renseigné.';
 $string['display'] = 'Affichage';
 $string['err_alphanumeric'] = 'Vous ne devez saisir que des chiffres ou des lettres dans ce champ.';
 $string['err_email'] = 'Vous devez indiquer une adresse de courriel valable dans ce champ.';
@@ -26,8 +25,10 @@ $string['month'] = 'Mois';
 $string['nomethodforaddinghelpbutton'] = 'Il n\'y a pas de méthode pour ajouter un bouton d\'aide sur un élément $a->name (classe $a->classname) de formulaire';
 $string['nonexistentformelements'] = 'Tentative d\'ajout de bouton d\'aide à des éléments non existants&nbsp;: $a';
 $string['requiredelement'] = 'Champ requis';
+$string['requiredfield'] = 'Ce champ est requis';
 $string['security'] = 'Sécurité';
 $string['showadvanced'] = 'Afficher éléments avancés';
+$string['somefieldsrequired'] = 'Ce formulaire comprend des champs requis';
 $string['timing'] = 'Durée';
 $string['year'] = 'Année';
 
