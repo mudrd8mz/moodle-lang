@@ -1,14 +1,14 @@
 <?php // $Id$
 
-$string['itemno'] = '…lÈment $a';
-$string['param'] = 'ParamËtre {<strong>$a</strong>}';
-$string['additem'] = 'Ajouter ÈlÈment';
-$string['itemtoadd'] = '…lÈment ‡ ajouter';
+$string['itemno'] = '√âl√©ment $a';
+$string['param'] = 'Param√®tre {<strong>$a</strong>}';
+$string['additem'] = 'Ajouter √©l√©ment';
+$string['itemtoadd'] = '√âl√©ment √† ajouter';
 $string['calclength'] = 'Chiffres significatifs';
 $string['calcdistribution'] = 'Distribution';
 $string['uniform'] = 'Uniforme';
 $string['loguniform'] = 'Log-uniforme';
-$string['generate'] = 'GÈnÈrer';
+$string['generate'] = 'G√©n√©rer';
 $string['calcmin'] = 'Minimum';
 $string['calcmax'] = 'Maximum';
 $string['minmax'] = 'Intervalle des valeurs';
