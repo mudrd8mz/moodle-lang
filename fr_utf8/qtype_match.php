@@ -1,7 +1,7 @@
 <?php // $Id$
 
-$string['addmoreqblanks'] = '{no} emplacements supplémenaires vides';
-$string['notenoughquestions'] = 'Vous devez fournir au moins $a paires de questions et réponses.';
-$string['nomatchinganswerforq'] = 'Vous devez indiquez une réponse pour cette question.';
+$string['addmoreqblanks'] = '{no} emplacements supplÃ©mentaires vides';
+$string['notenoughquestions'] = 'Vous devez fournir au moins $a paires de questions et rÃ©ponses.';
+$string['nomatchinganswerforq'] = 'Vous devez indiquez une rÃ©ponse pour cette question.';
 
 ?>
