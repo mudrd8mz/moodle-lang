@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6.3 (2006050530)
+      // blog.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['addnewentry'] = 'Vložit nový příspěvek';
@@ -15,10 +15,12 @@ $string['blogs'] = 'Blogy';
 $string['blogtags'] = 'Klíčová slova';
 $string['courseblog'] = 'Blog kurzu: $a';
 $string['courseblogs'] = 'Uživatelé smějí číst pouze blogy účastníků stejného kurzu';
+$string['deleteotagswarn'] = 'Jste si jistí, že chcete odebrat následující klíčová slova<br />ze všech příspěvků a odstranit je ze systému?';
 $string['disableblogs'] = 'Zcela deaktivovat blogovací systém';
+$string['emptybody'] = 'Text příspěvku nemůže být prázdný';
+$string['emptytitle'] = 'Titulek příspěvku nemůže být prázdný';
 $string['entrybody'] = 'Text příspěvku';
 $string['entrybodyonlydesc'] = 'Popis příspěvku';
-$string['entrydeleted'] = 'Příspěvek odstraněn';
 $string['entryerrornotyours'] = 'Tento příspěvek není váš';
 $string['entrysaved'] = 'Váš příspěvek byl uložen';
 $string['entrytitle'] = 'Titulek příspěvku';
@@ -44,6 +46,7 @@ $string['settingsupdatederror'] = 'Došlo k chybě, nastavení blogu nebylo mož
 $string['siteblog'] = 'Blog stránek: $a';
 $string['siteblogs'] = 'Všichni registrovaní uživatelé smějí číst všechny blogy';
 $string['tagdatelastused'] = 'Datum jako klíčové slovo bylo naposledy použito';
+$string['tags'] = 'Klíčová slova';
 $string['tagsort'] = 'Řadit klíčová slova podle';
 $string['tagtext'] = 'Klíčové slovo';
 $string['timewithin'] = 'Zobrazit klíčová slova použitá v poslední době (dny)';

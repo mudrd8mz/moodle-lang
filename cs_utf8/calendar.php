@@ -1,12 +1,15 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.6 + (2006050506)
+      // calendar.php - created with Moodle 1.8 dev (2007010404)
 
 
+$string['advancedoptions'] = 'Pokročilé možnosti';
 $string['calendar'] = 'Kalendář';
 $string['calendarheading'] = '$a kalendář';
 $string['clickhide'] = 'kliknutím skryjete';
 $string['clickshow'] = 'kliknutím zobrazíte';
+$string['commontasks'] = 'Možnosti';
 $string['confirmeventdelete'] = 'Jste si jisti, že chcete odstranit tuto událost?';
+$string['courseevent'] = 'Událost kurzu';
 $string['courseevents'] = 'Události kurzu';
 $string['dayview'] = 'Zobrazit den';
 $string['daywithnoevents'] = 'V tento den nejsou žádné události';
@@ -32,7 +35,9 @@ $string['eventkind'] = 'Typ události';
 $string['eventname'] = 'Název';
 $string['eventnone'] = 'Žádné události';
 $string['eventrepeat'] = 'Opakování';
+$string['eventsall'] = 'Všechny události';
 $string['eventsfor'] = '$a - události';
+$string['eventsrelatedtocourses'] = 'Události související s kurzem';
 $string['eventstarttime'] = 'Začíná';
 $string['eventtime'] = 'čas';
 $string['eventview'] = 'Podrobnosti události';
@@ -42,16 +47,27 @@ $string['explain_maxevents'] = 'Tímto nastavujete největší možný počet zo
 $string['explain_persistflt'] = 'Je-li povoleno, bude si Moodle pamatovat vaše poslední nastavení filtrování událostí a automaticky je obnoví při dalším přihlášení';
 $string['explain_startwday'] = 'Vyberte den, jímž má začínat týden v kalendáři.';
 $string['explain_timeformat'] = 'Můžete si zvolit, zda chcete čas zobrazovat ve 12-hodinovém formátu nebo 24-hodinovém formátu. Zvolíte-li \'výchozí\', použije se výchozí formátování aktuálně používaného jazyka.';
+$string['export'] = 'Exportovat';
+$string['exportbutton'] = 'Export';
+$string['exportcalendar'] = 'Exportovat kalendář';
+$string['for'] = 'pro';
 $string['fri'] = 'Pá';
 $string['friday'] = 'Pátek';
+$string['generateurlbutton'] = 'Získat URL kalendáře';
+$string['globalevent'] = 'Globální událost';
 $string['globalevents'] = 'Globální události';
 $string['gotocalendar'] = 'Jdi do kalendáře';
+$string['groupevent'] = 'Skupinová událost';
 $string['groupevents'] = 'Skupinové události';
 $string['hidden'] = 'skryto';
+$string['ical'] = 'iCal';
+$string['iwanttoexport'] = 'Exportovat';
 $string['manyevents'] = '$a událostí';
 $string['mon'] = 'Po';
 $string['monday'] = 'Pondělí';
 $string['monthlyview'] = 'Zobrazit měsíce';
+$string['monthnext'] = 'Další měsíc';
+$string['monththis'] = 'Tento měsíc';
 $string['newevent'] = 'Nová událost';
 $string['noupcomingevents'] = 'Žádné nadcházející události';
 $string['oneevent'] = '1 událost';
@@ -62,6 +78,8 @@ $string['pref_startwday'] = 'První den v týdnu';
 $string['pref_timeformat'] = 'Formát zobrazení času';
 $string['preferences'] = 'Nastavení';
 $string['preferences_available'] = 'Vaše osobní nastavení';
+$string['quickdownloadcalendar'] = 'Rychlé stáhnutí / odebírat události z kalendáře';
+$string['recentupcoming'] = 'Předchozích a následujících 60 dnů';
 $string['repeateditall'] = 'Použít změny na všechny události (celkem $a) v této opakující se sérii.';
 $string['repeateditthis'] = 'Použít změny pouze na tuto událost';
 $string['repeatnone'] = 'Bez opakování';
@@ -96,9 +114,13 @@ $string['typegroup'] = 'Skupinová událost';
 $string['typesite'] = 'Globální událost';
 $string['typeuser'] = 'Osobní událost';
 $string['upcomingevents'] = 'Nadcházející události';
+$string['urlforical'] = 'URL pro export ve formátu iCalendar a pro odebírání událostí z kalendáře';
+$string['userevent'] = 'Osobní událost';
 $string['userevents'] = 'Osobní události';
 $string['wed'] = 'St';
 $string['wednesday'] = 'Středa';
+$string['weeknext'] = 'Další týden';
+$string['weekthis'] = 'Tento týden';
 $string['yesterday'] = 'Včera';
 $string['youcandeleteallrepeats'] = 'Tato událost je součástí série opakujících se událostí. Můžete odstranit buď tuto událost, nebo všechny události (celkem $a) v sérii najednou.';
 

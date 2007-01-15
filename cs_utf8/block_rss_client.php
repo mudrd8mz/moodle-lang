@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.6 + (2006050506)
+      // block_rss_client.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['addfeed'] = 'Přidat nové zdrojové URL:';
 $string['addheadlineblock'] = 'Přidat RSS blok';
 $string['addnew'] = 'Přidat nový';
+$string['blockname'] = 'Čtečka RSS';
 $string['choosefeedlabel'] = 'Vyberte zdroje, které byste rádi zpřístupnili v tomto bloku';
 $string['clientchannellink'] = 'Zdrojové stránky...';
 $string['clientnumentries'] = 'Výchozí počet zobrazovaných položek z jednoho zdroje.';
@@ -31,7 +32,12 @@ $string['managefeeds'] = 'Správa všech mých zdrojů';
 $string['nofeeds'] = 'Tyto stránky nemají nadefinován žádný RSS zdroj';
 $string['pickfeed'] = 'Vyberte zdroj zpráv';
 $string['remotenewsfeed'] = 'Vzdálený RSS zdroj';
+$string['rss_client:createprivatefeeds'] = 'Vytvářet soukromé RSS zdroje';
+$string['rss_client:createsharedfeeds'] = 'Vytvářet sdílené RSS zdroje';
+$string['rss_client:manageanyfeeds'] = 'Spravovat všechny RSS zdroje';
+$string['rss_client:manageownfeeds'] = 'Spravovat vlastní RSS zdroje';
 $string['seeallfeeds'] = 'Zobrazit všechny zdroje';
+$string['sharedfeed'] = 'Sdílený zdroj';
 $string['shownumentrieslabel'] = 'Maximální počet položek v bloku';
 $string['submitters'] = 'Kdo bude oprávněn definovat nové RSS zdroje? Definované zdroje jsou dostupné na jakékoliv stránce ve vašem Moodlu';
 $string['timeout'] = 'blockrsstimeout';

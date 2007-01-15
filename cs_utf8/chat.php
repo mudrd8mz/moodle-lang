@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // chat.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['beep'] = 'prozvonit';
+$string['chat:chat'] = 'Přispívat do chatování';
+$string['chat:deletelog'] = 'Odstraňovat historii chatování';
+$string['chat:readlog'] = 'Číst historii chatování';
 $string['chatintro'] = 'Úvodní text';
 $string['chatname'] = 'Název této místnosti';
 $string['chatreport'] = 'Chatování';

@@ -1,9 +1,14 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6.3 (2006050530)
+      // assignment.php - created with Moodle 1.8 dev (2007010404)
 
 
-$string['allowmultiple'] = 'Povolit více souborů';
+$string['allowdeleting'] = 'Povolit odstraňování';
+$string['allowmaxfiles'] = 'Maximální počet nahraných souborů';
+$string['allownotes'] = 'Povolit poznámky';
 $string['allowresubmit'] = 'Umožnit znovuodevzdání';
+$string['assignment:grade'] = 'Známkovat úkoly';
+$string['assignment:submit'] = 'Odevzdávat úkoly';
+$string['assignment:view'] = 'Prohlížet úkoly';
 $string['assignmentdetails'] = 'Podrobnosti';
 $string['assignmentmail'] = '$a->teacher ohodnotil(a) vase vypracovani ukolu \'$a->assignment\'.
 
@@ -12,24 +17,19 @@ $a->url.';
 $string['assignmentmailhtml'] = '$a->teacher ohodnotil(a) vaše vypracování úkolu \'<i>$a->assignment</i>\'. <br /><br />Hodnocení naleznete u <a href=\"$a->url\">svého úkolu</a>.';
 $string['assignmentname'] = 'Název úkolu';
 $string['assignmenttype'] = 'Typ úkolu';
-$string['attachfile'] = 'Připojit soubor';
-$string['attachfiletoassignment'] = 'Připojit soubor(y) k úkolu';
 $string['availabledate'] = 'Datum zpřístupnění';
-$string['backtoassignment'] = 'Zpět k úkolu';
-$string['backtofeedback'] = 'Zpět k hodnocení';
-$string['choosereviewfile'] = 'Zvolte soubor, který bude nahrán jako revize úkolu:';
 $string['comment'] = 'Komentář';
 $string['commentinline'] = 'Komentovat v textu';
 $string['configitemstocount'] = 'Jednotky, v nichž bude udáván rozsah odevzdaných prací u úkolu typu \'online text\'.';
 $string['configmaxbytes'] = 'Výchozí maximální velikost odevzdávaného úkolu (může být upravena nastavením kurzu a dalšími lokálními proměnnými).';
-$string['deletecheckfile'] = 'Jste si úplně jisti, že chcete odstranit tento soubor?';
-$string['deleteednotification'] = 'Soubor byl odstraněn.';
-$string['deletefail'] = 'Následující soubor nebyl odstraněn:';
+$string['confirmdeletefile'] = 'Jste si úplně jistí, že chcete odstranit tento soubor?<br /><strong>$a</strong>';
+$string['deletefilefailed'] = 'Odstraňování souboru selhalo.';
 $string['description'] = 'Popis';
+$string['draft'] = 'Pracovní verze';
 $string['duedate'] = 'Termín odevzdání';
 $string['duedateno'] = 'Bez termínu odevzdání';
 $string['early'] = '$a před termínem';
-$string['editmysubmission'] = 'Upravit můj úkol';
+$string['editmysubmission'] = 'Upravit mé řešení úkolu';
 $string['emailstudents'] = 'Zaslat studentům upozornění';
 $string['emailteachermail'] = '$a->username upravil(a) sve vypracovani ukolu \'$a->assignment\'.
 
@@ -52,51 +52,52 @@ $string['helpoffline'] = '<p>Tento typ je užitečný, jestliže je pro splněn�
 $string['helponline'] = '<p>V tomto typu úkolu se od studentů očekává odevzdání libovolného textu s použitím editačních nástrojů Moodlu. Učitelé mohou odevzdaný text hodnotit online, a dokonce do něj přidávat komentáře či jej upravovat.</p>
 <p>Znáte-li starší verze Moodlu, plní tento typ úkolu stejnou funkci jako modul Poznámkový blok (angl. Journal).</p>';
 $string['helpupload'] = '<p>Tento typ úkolu umožňuje každému účastníkovi kurzu nahrát (angl. upload) jeden nebo několik souborů libovolného typu jako vypracování úkolu.</p><p>Soubory mohou být dokumenty Wordu, obrázky, ZIP archívy, zdrojové kódy programů, prostě cokoliv, co mají studenti za úkol odevzdat.</p>
-<p>Tento typ úkolu rovněž umožňuje odeslat více souborů jako reakci na odevzdané řešení.</p>';
+<p>Tento typ úkolu rovněž umožňuje učitelům připojovat soubory k hodnocení odevzdaných řešení úkoly. Tyto soubory lze k úkolu přikládat ještě před odevzdáváním úkolu. Tím můžete např. každému účastníkovi kurzu poskytnout individuální soubor, se kterým má pracovat.</p>
+<p>Řešitelé úkolu mohou k odevzdávaným souborům přikládat poznámky popisující např. obsah odevzdaných souborů, momentální stav řešení nebo jakoukoliv další textovou informaci.</p>
+<p>V tomto typu úkolu musí každý řešitel ručně označit odevzdané řešení jako finální a předat je tak k ohodnocení. Přesto můžete kdykoliv kontrolovat postup řešení - nedokončené úkoly se označují jako \"Pracovní verze\". Ještě neoznámkované úkoly, které již student odeslal k ohodnocení, můžete vrátit do stavu \"Pracovní verze\".';
 $string['helpuploadsingle'] = '<p>Tento typ úkolu umožňuje každému účastníkovi kurzu nahrát (angl. upload) jeden soubor libovolného typu jako vypracování úkolu.</p><p>Souborem může být dokument Wordu, obrázek, ZIP archív, zdrojový kód programu, prostě cokoliv, co mají studenti za úkol odevzdat.</p>';
+$string['hideintro'] = 'Skrýt popis před datem zpřístupnění úkolu';
 $string['late'] = '$a po termínu';
-$string['markingsubmitnotification'] = 'Soubor byl úspěšně odeslán k oznámkování.';
 $string['maximumgrade'] = 'Nejlepší známka';
 $string['maximumsize'] = 'Maximální velikost';
 $string['modulename'] = 'Úkol';
 $string['modulenameplural'] = 'Úkoly';
-$string['namedeletefile'] = 'Chystáte se odstranit soubor:';
 $string['newsubmissions'] = 'Odevzdané úkoly';
 $string['noassignments'] = 'Zatím nebyly odevzdány žádné úkoly';
 $string['noattempts'] = 'Tento úkol se zatím nikdo nepokusil odevzdat';
-$string['nofilesforsubmit'] = 'Nebyly nalezeny žádné soubory k odeslání - určitě jste nějaké nahráli?';
+$string['nofiles'] = 'Nebyly odeslány žádné vypracované úkoly';
+$string['nofilesyet'] = 'Zatím nebyly odeslány žádné vypracované úkoly';
+$string['notavailableyet'] = 'Je mi líto, tento úkol zatím není dostupný.<br />Pokyny k vypracování se zde budou zobrazovat až od data zpřístupnění, které je uvedeno dále.';
+$string['notes'] = 'Poznámky';
+$string['notesempty'] = 'Bez poznámek';
+$string['notesupdateerror'] = 'Chyba při aktualizaci poznámek';
 $string['notgradedyet'] = 'Zatím neudělena známka';
 $string['notsubmittedyet'] = 'Zatím neodevzdáno';
-$string['onceassignmentsent'] = 'Jakmile je řešení úkolu zasláno k oznámkování, nelze z něj odstraňovat ani k němu připojovat soubory.';
+$string['onceassignmentsent'] = 'Jakmile je řešení úkolu zasláno k oznámkování, nelze z něj odstraňovat ani k němu připojovat soubory. Přejete si pokračovat?';
 $string['overwritewarning'] = 'Upozornění: znovu odevzdaný úkol NAHRAZUJE dřívější verzi (předchozí verze bude odstraněna).';
 $string['pagesize'] = 'Počet úkolů na stránku';
 $string['preventlate'] = 'Zakázat odevzdávání po termínu';
 $string['quickgrade'] = 'Použít rychlé hodnocení';
-$string['removelink'] = 'Odebrat';
-$string['responsefile'] = 'Soubor s reakcí:';
-$string['responsesfromteacher'] = 'Reakce od vyučujícího';
+$string['responsefiles'] = 'Připojit k hodnocení soubor';
+$string['reviewed'] = 'Revidováno';
 $string['saveallfeedback'] = 'Uložit všechna má hodnocení';
 $string['sendformarking'] = 'Odeslat k oznámkování';
-$string['step1'] = 'Krok 1:';
-$string['step2'] = 'Krok 2:';
 $string['submission'] = 'Odevzdané úkoly';
+$string['submissiondraft'] = 'Pracovní verze řešení';
 $string['submissionfeedback'] = 'Hodnocení odevzdaného úkolu';
 $string['submissions'] = 'Odevzdané úkoly';
 $string['submissionsaved'] = 'Vaše změny byly uloženy';
 $string['submissionsnotgraded'] = 'Počet neznámkovaných úkolů: $a';
-$string['submissionstatus'] = 'Stav řešení:';
-$string['submissionstatusblank'] = 'Prázdný';
-$string['submissionstatusdraft'] = 'Hrubá verze';
-$string['submissionstatusmarked'] = 'Oznámkováno';
-$string['submissionstatusreturned'] = 'Vráceno';
-$string['submissionstatussubmitted'] = 'Odesláno';
 $string['submitassignment'] = 'Odevzdejte svůj úkol pomocí tohoto formuláře';
+$string['submitedformarking'] = 'Řešení bylo již odevzdáno k oznámkování a nemůže být nadále upravováno';
 $string['submitformarking'] = 'Odeslat řešení k oznámkování';
 $string['submitted'] = 'Odevzdáno';
+$string['submittedfiles'] = 'Odevzdané soubory';
 $string['typeoffline'] = 'Offline činnost';
 $string['typeonline'] = 'Online text';
 $string['typeupload'] = 'Pokročilé nahrávání souborů';
 $string['typeuploadsingle'] = 'Odevzdat soubor';
+$string['unfinalize'] = 'Vrátit do stavu pracovní verze';
 $string['uploadbadname'] = 'Název tohoto souboru obsahuje nepodporované znaky, soubor proto nemůže být odevzdán.';
 $string['uploadedfiles'] = 'odevzdaných souborů';
 $string['uploaderror'] = 'Vyskytla se chyba při ukládání souboru na server.';
@@ -105,7 +106,6 @@ $string['uploadfiletoobig'] = 'Je mi líto, ale tento soubor je příliš velký
 $string['uploadnofilefound'] = 'Soubor nenalezen! Určitě jste vybrali soubor k odevzdání?';
 $string['uploadnotregistered'] = '\'$a\' jsem načetl, ale odevzdání nebylo registrováno!';
 $string['uploadsuccess'] = '\'$a\' úspěšně odevzdán';
-$string['uploadsuccessresponse'] = 'Soubor s reakcí úspěšně nahrán.';
 $string['viewfeedback'] = 'Zobrazit hodnocení vypracovaného úkolu';
 $string['viewsubmissions'] = 'Zobrazit $a odevzdaných úkolů';
 $string['yoursubmission'] = 'Váš odevzdaný úkol';

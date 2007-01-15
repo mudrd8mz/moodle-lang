@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // auth.php - created with Moodle 1.8 dev (2007010404)
 
 
 $string['alternatelogin'] = 'Pokud sem vložíte URL, použije se jako přihlašovací stránka k této instalaci Moodlu. Tato vaše stránka by měla obsahovat formulář, který bude mít atribut \'action\' nastaven na <strong>\'$a\'</strong> a který vrací pole <strong>username</strong> a <strong>password</strong>.<br />Dbejte na to, abyste vložili platné URL! V opačném případě byste mohli všem včetně sebe zamezit v přístupu ke stránkám.<br />Chcete-li používat standardní přihlašovací stránku, nechejte toto pole prázdné.';
@@ -35,8 +35,8 @@ $string['auth_dbtable'] = 'Název tabulky v databázi';
 $string['auth_dbtitle'] = 'Používat externí databázi';
 $string['auth_dbtype'] = 'Typ databáze (Viz <a href=\"../lib/adodb/readme.htm#drivers\">dokumentaci k ADOdb</a>)';
 $string['auth_dbuser'] = 'Uživatelské jméno s právy číst externí databázi';
-$string['auth_emaildescription'] = 'Ověření na základě e-mailu je výchozí metoda ověřování. Při registraci si uživatel vybere vlastní uživatelské jméno a heslo. Poté je na jeho adresu odeslán e-mail obsahující zabezpečený odkaz na stránku, kde potvrdí zadané údaje. Při dalším přihlášení se již ověřuje pouze zadané uživatelské jméno a heslo proti údajům uloženým v databázi Moodlu.';
-$string['auth_emailtitle'] = 'Ověření na základě e-mailu';
+$string['auth_emaildescription'] = 'Registrace na základě e-mailu je výchozí metoda ověřování. Při registraci si uživatel vybere vlastní uživatelské jméno a heslo. Poté je na jeho adresu odeslán e-mail obsahující zabezpečený odkaz na stránku, kde potvrdí zadané údaje. Při dalším přihlášení se již ověřuje pouze zadané uživatelské jméno a heslo proti údajům uloženým v databázi Moodlu.';
+$string['auth_emailtitle'] = 'Registrace na základě e-mailu';
 $string['auth_fccreators'] = 'Seznam skupin, jejichž členové jsou oprávněni vytvářet nové kurzy. Skupiny oddělujte středníkem. Názvy musejí být zadány přesně jako na serveru FirstClass, rozlišují se malá/VELKÁ písmena.';
 $string['auth_fcdescription'] = 'Tato metoda používá k ověřování uživatelského jména a hesla server FirstClass.';
 $string['auth_fcfppport'] = 'Port na serveru (nejběžnější je 3333)';
@@ -57,14 +57,14 @@ $string['auth_ldap_bind_dn'] = 'Chcete-li používat nějaký účet (bind-user)
 $string['auth_ldap_bind_pw'] = 'Heslo pro bind-user';
 $string['auth_ldap_bind_settings'] = 'Nastavení bind';
 $string['auth_ldap_contexts'] = 'Seznam kontextů, ve kterých se nacházejí uživatelé. Jednotlivé kontexty oddělujte středníkem. Příklad: \'ou=uzivatele,o=naseskola; ou=dalsi,o=naseskola\'';
-$string['auth_ldap_create_context'] = 'Povolíte-li vytváření uživatelů metodou ověření na základě e-mailu, určete kontext, ve kterém budou noví uživatelé vytvářeni. Tento kontext by měl být z bezpečnostních důvodů odlišný od kontextu ostatních uživatelů. Není třeba přidávat tento kontext do proměnné auth_ldap_contexts, Moodle automaticky hledá uživatele i v tomto kontextu.<br /><b>Upozornění!</b>Má-li vytváření uživatelských účtů fungovat, musíte upravit funkci auth_user_create() v souboru auth/ldap/lib.php.';
+$string['auth_ldap_create_context'] = 'Povolíte-li registrování uživatelů na základě e-mailu, určete kontext, ve kterém budou noví uživatelé vytvářeni. Tento kontext by měl být z bezpečnostních důvodů odlišný od kontextu ostatních uživatelů. Není třeba přidávat tento kontext do proměnné auth_ldap_contexts, Moodle automaticky hledá uživatele i v tomto kontextu.<br /><b>Upozornění!</b>Má-li vytváření uživatelských účtů fungovat, musíte upravit funkci auth_user_create() v souboru auth/ldap/lib.php.';
 $string['auth_ldap_creators'] = 'Seznam skupin, jejichž členové jsou oprávněni vytvářet nové kurzy. Jednotlivé skupiny oddělujte středníkem. Příklad: \'cn=ucitele,ou=zamestnanci,o=naseskola\'';
 $string['auth_ldap_expiration_desc'] = 'Zvolte Ne, chcete-li zakázat ověřování vypršelých hesel nebo čtení \'passwordexpiration time\' přímo z LDAP';
 $string['auth_ldap_expiration_warning_desc'] = 'Kolik dní před vypršením hesla zobrazovat varování';
 $string['auth_ldap_expireattr_desc'] = 'Volitelné: přenastavuje hodnotu LDAP atributu, ve kterém je uložen čas vypršení hesla';
 $string['auth_ldap_graceattr_desc'] = 'Volitelné: přenastavuje hodnotu atributu \'gracelogin\'';
 $string['auth_ldap_gracelogins_desc'] = 'Povolit podporu LDAP gracelogin (tzv. přihlášení z milosti). Uživatelé se mohou přihlásit i po vypršení hesla, dokud jim počítadlo přihlášení z milosti neklesne na 0. Uživatelé jsou v případě vypršení hesla upozorňováni.';
-$string['auth_ldap_host_url'] = 'Zadejte URL serveru LDAP. Například \'ldap://ldap.naseskola.cz/\' nebo \'ldaps://ldap.naseskola.cz/\' ';
+$string['auth_ldap_host_url'] = 'Zadejte URL serveru LDAP. Například \'ldap://ldap.naseskola.cz/\' nebo \'ldaps://ldap.naseskola.cz/\'';
 $string['auth_ldap_login_settings'] = 'Nastavení přihlášení';
 $string['auth_ldap_memberattribute'] = 'Volitelné: přenastavuje název atributu člena skupiny (user member attribute), pokud uživatel patří do skupiny. Většinou \'member\'';
 $string['auth_ldap_objectclass'] = 'Volitelné: přenastavuje parametr objectClass použitý při pojmenovávání/vyhledávání uživatelů. Většinou nemusíte měnit.';
@@ -83,6 +83,10 @@ $string['auth_ldapextrafields'] = 'Tato pole jsou volitelná. Můžete vybrat, k
 $string['auth_ldaptitle'] = 'Používat server LDAP';
 $string['auth_manualdescription'] = 'Tato metoda neumožňuje uživatelům zakládat si vlastní účty. Všechny účty musejí být ručně vytvořeny správcem Moodlu.';
 $string['auth_manualtitle'] = 'Pouze ručně vytvářené účty';
+$string['auth_mnet_auto_add_remote_users'] = 'Je-li povoleno, vytvoří se automaticky místní účet pro vzdálené uživatele při prvním přihlášení.';
+$string['auth_mnet_rpc_negotiation_timeout'] = 'Časový limit v sekundách pro ověřování uživatelů pomocí XMLRPC přenosu.';
+$string['auth_mnetdescription'] = 'Uživatelé jsou ověřováni napříč různými Moodle servery zapojenými do tzv. sítě důvěry. Tato síť se definuje v nastavení Moodle Network.';
+$string['auth_mnettitle'] = 'Používat Moodle Network';
 $string['auth_multiplehosts'] = 'Můžete vložit i více hostitelů NEBO jejich adres (např. \'server1.cz;server2.cz;server3.com\' nebo \'xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx\')';
 $string['auth_nntpdescription'] = 'Tato metoda používá k ověření platnosti zadaného uživatelského jména a hesla server NNTP.';
 $string['auth_nntphost'] = 'Adresa serveru NNTP. Zadejte IP adresu, nikoliv doménové jméno!';
@@ -97,7 +101,7 @@ $string['auth_passwordwillexpire'] = 'Počet dnů do vypršení hesla: $a. Chcet
 $string['auth_pop3description'] = 'Tato metoda používá k ověření platnosti zadaného uživatelského jména a hesla server POP3.';
 $string['auth_pop3host'] = 'Adresa serveru POP3. Zadejte IP adresu, nikoliv doménové jméno!';
 $string['auth_pop3mailbox'] = 'Název poštovní složky (mailbox), s níž se má navázat spojení (většinou INBOX).';
-$string['auth_pop3port'] = 'Číslo portu serveru POP3 (většinou 110)';
+$string['auth_pop3port'] = 'Číslo portu serveru POP3 (většinou 110, popř. 996 při použití SSL)';
 $string['auth_pop3title'] = 'Používat server POP3';
 $string['auth_pop3type'] = 'Typ serveru. Pokud váš server používá zabezpečení pomocí certifikátů, zvolte pop3cert.';
 $string['auth_radiusdescription'] = 'Tato metoda používá k ověření platnosti zadaného uživatelského jména a hesla server <a href=\"http://en.wikipedia.org/wiki/RADIUS\" target=\"_blank\">RADIUS</a>.';
@@ -129,7 +133,7 @@ $string['authenticationoptions'] = 'Možnosti ověření';
 $string['authinstructions'] = 'Zde můžete zadat instrukce pro uživatele s vysvětlením, které uživatelské jméno a heslo mají použít. Tento text se objeví na přihlašovací stránce. Necháte-li toto pole prázdné, nebudou zobrazeny žádné instrukce.';
 $string['changepassword'] = 'URL ke změně hesla';
 $string['changepasswordhelp'] = 'Zde můžete určit URL, na kterém si uživatelé mohou obnovit či změnit své uživatelské jméno/heslo, pokud je zapomněli. URL bude uživatelům poskytnuto jako tlačitko na přihlašovací a osobní stránce. Necháte-li toto pole prázdné, nebude se tlačítko zobrazovat.';
-$string['chooseauthmethod'] = 'Vyberte si způsob ověření uživatelů: ';
+$string['chooseauthmethod'] = 'Vyberte si způsob ověření uživatelů:';
 $string['createpasswordifneeded'] = 'Vytvořit heslo, je-li to potřeba';
 $string['forcechangepassword'] = 'Vynutit změnu hesla';
 $string['forcechangepassword_help'] = 'Vynutit změnu hesla při příštím přihlášení do Moodlu.';
@@ -142,6 +146,10 @@ $string['locked'] = 'Uzamknuto';
 $string['md5'] = 'MD5 hash';
 $string['passwordhandling'] = 'Ukládat pole s heslem jako';
 $string['plaintext'] = 'Čistý text';
+$string['pluginnotenabled'] = 'Metoda ověřování uživatelů \'$a\' není povolena.';
+$string['pluginnotinstalled'] = 'Metoda ověřování uživatelů \'$a\' není nainstalována.';
+$string['selfregistration'] = 'Uživatelé se sami registrují pomocí';
+$string['selfregistration_help'] = 'Která metoda ověřování bude mít na starosti uživatele, kteří se registrují sami.';
 $string['shib_no_attributes_error'] = 'Vaše ověření prostřednictvím systému Shibboleth proběhlo zřejmě úspěšně, Moodle však neobdržel žádné údaje o uživateli. Ověřte prosím, zda váš poskytovatel identity (Identity Provider) předává potřebné údaje ($a) poskytovateli služeb (Service Provider), od něhož je přebírá Moodle, nebo informujte administrátora těchto stránek.';
 $string['shib_not_all_attributes_error'] = 'Moodle potřebuje znát některé údaje systému Shibboleth, které ovšem nejsou ve vašem případě k dispozici. Jedná se o následující údaje: $a<br />Obraťte se na administrátora těchto stránek nebo na vašeho poskytovatele identity.';
 $string['shib_not_set_up_error'] = 'Ověření prostřednictvím systému Shibboleth je zřejmě nesprávně nastaveno, protože pro tuto stránku nejsou k dispozici žádné programové proměnné systému Shibboleth. Nahlédněte prosím do souboru <a href=\"README.txt\">README</a> pro další pokyny k nastavení systému Shibboleth, nebo se obraťte na administrátora těchto stránek.';
