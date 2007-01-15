@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // message.php - created with Moodle 1.8 dev (2006102600)
+﻿<?PHP // $Id$ 
+      // message.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addcontact'] = 'Tilføj kontakt';
@@ -15,7 +15,7 @@ $string['blockcontact'] = 'Bloker kontakt';
 $string['blockedmessages'] = '$a besked(er) til/fra blokerede brugere';
 $string['blocknoncontacts'] = 'Blokér alle beskeder fra personer der ikke er i min kontaktliste.';
 $string['contactlistempty'] = 'Din kontaktliste er tom';
-$string['contacts'] = 'Kontekster';
+$string['contacts'] = 'Kontakter';
 $string['context'] = 'sammenhæng';
 $string['deletemessagesdays'] = 'Antal dage før gamle beskeder automatisk bliver slettet';
 $string['discussion'] = 'Diskussion';
@@ -29,7 +29,7 @@ $string['keywords'] = 'Nøgleord';
 $string['keywordssearchresults'] = 'Søge resultat: $a beskeder fundet';
 $string['maxmessages'] = 'Maksimalt antal beskeder der vises i diskussions-historikken';
 $string['message'] = 'Besked';
-$string['messagehistory'] = 'Besked historik';
+$string['messagehistory'] = 'Beskedhistorik';
 $string['messages'] = 'Beskeder';
 $string['messaging'] = 'Beskedsystem';
 $string['mycontacts'] = 'Mine kontakter';
@@ -61,7 +61,7 @@ $string['timenosee'] = 'Antal minutter siden du sidst var online på sitet';
 $string['timesent'] = 'Tid sendt';
 $string['unblockcontact'] = 'Fjern blokering for kontakt';
 $string['unreadmessages'] = '$a ulæste beskeder';
-$string['userisblockingyou'] = 'Denne bruger har blokeret for beskeder til dem.';
+$string['userisblockingyou'] = 'Denne bruger har blokeret for beskeder fra dig.';
 $string['userisblockingyounoncontact'] = 'Denne bruger acceptere kun beskeder fra personer der er på hans/hendes kontaktliste og det er du ikke på nuværende tidspunkt.';
 $string['userssearchresults'] = 'Søge resultat: $a brugere fundet';
 

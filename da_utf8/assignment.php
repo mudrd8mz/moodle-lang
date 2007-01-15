@@ -1,15 +1,15 @@
-<?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.8 dev (2006102600)
+﻿<?PHP // $Id$ 
+      // assignment.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['allowdeleting'] = 'Tillad sletning';
 $string['allowmaxfiles'] = 'Maksimale antal uploadede filer';
 $string['allownotes'] = 'Tillad noter';
-$string['allowresubmit'] = 'Tillad gentagelser';
+$string['allowresubmit'] = 'Tillad gentagne afleveringer';
 $string['assignment:grade'] = 'Bedøm opgaven';
 $string['assignment:submit'] = 'Aflever opgaven';
 $string['assignment:view'] = 'Vis opgaven';
-$string['assignmentdetails'] = 'Opgave detaljer';
+$string['assignmentdetails'] = 'Opgavedetaljer';
 $string['assignmentmail'] = '$a->teacher har kikket det du har afleveret igennem og kommenteret det \'$a->assignment\'
 
 Du kan se evt. kommentarer i slutningen af det du har afleveret på
@@ -96,7 +96,7 @@ $string['submitted'] = 'Afleveret';
 $string['submittedfiles'] = 'Afleverede filer';
 $string['typeoffline'] = 'Offline aktivitet';
 $string['typeonline'] = 'Online tekst';
-$string['typeupload'] = 'Advanceret aflevering af filer';
+$string['typeupload'] = 'Avanceret aflevering af filer';
 $string['typeuploadsingle'] = 'Upload en enkelt fil';
 $string['unfinalize'] = 'Gå tilbage til: Påbegyndt';
 $string['uploadbadname'] = 'Dette filnavn indeholdt ugyldige tegn og kunne ikke uploades.';

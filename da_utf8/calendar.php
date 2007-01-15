@@ -1,23 +1,23 @@
-<?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 dev (2006102600)
+﻿<?PHP // $Id$ 
+      // calendar.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['calendar'] = 'Kalender';
 $string['calendarheading'] = '$a Kalender';
-$string['clickhide'] = 'tryk for at skjule';
-$string['clickshow'] = 'tryk for at vise';
+$string['clickhide'] = 'klik for at skjule';
+$string['clickshow'] = 'klik for at vise';
 $string['confirmeventdelete'] = 'Er du sikker på at du vil slette denne begivenhed?';
 $string['courseevents'] = 'Kursusbegivenheder';
-$string['dayview'] = 'Dagvisning';
+$string['dayview'] = 'Dagsvisning';
 $string['daywithnoevents'] = 'Der er ingen begivenheder denne dag.';
 $string['default'] = 'Standard';
 $string['deleteevent'] = 'Slet begivenhed';
-$string['detailedmonthview'] = 'Detaljeret måneds visning';
+$string['detailedmonthview'] = 'Detaljeret månedsvisning';
 $string['durationminutes'] = 'Varighed i minutter';
 $string['durationnone'] = 'Uden varighed';
 $string['durationuntil'] = 'Indtil';
 $string['editevent'] = 'Ret begivenhed';
-$string['errorbeforecoursestart'] = 'Kan ikke placere begivenhed før kursus start.';
+$string['errorbeforecoursestart'] = 'Begivenheden kan ikke starte før kurset';
 $string['errorinvaliddate'] = 'Ugyldig dato';
 $string['errorinvalidminutes'] = 'Angiv varigheden i antal minutter, fra 1 min til 999 minutter.';
 $string['errorinvalidrepeats'] = 'Angiv antallet af begivenheder, fra 1 til 99.';
@@ -37,7 +37,7 @@ $string['eventstarttime'] = 'Starttid';
 $string['eventtime'] = 'Tid';
 $string['eventview'] = 'Begivenhedsdetaljer';
 $string['expired'] = 'Udløbet';
-$string['explain_lookahead'] = 'Denne indstilling sætter det (maksimale) antal dage der er til en begivenhed starter for at den bliver vist som kommende begivenhed. Begivenheder der starter senere vil ikke blive vist. Læg mærke til at <strong>der ikke er nogen garanti</strong> for at alle kommende begivenheder vil blive vist; hvis der er for mange (flere end \"Vis antal kommende begivenheder\" indstillingen) i så fald vi de begivenheder som er længst ude i fremtiden ikke blive vist.';
+$string['explain_lookahead'] = 'Denne indstilling sætter det (maksimale) antal dage der er til en begivenhed starter, for at den bliver vist som kommende begivenhed. Begivenheder der starter senere vil ikke blive vist. Læg mærke til at <strong>der ikke er nogen garanti</strong> for at alle kommende begivenheder vil blive vist; hvis der er for mange (flere end \"Vis antal kommende begivenheder\" indstillingen) vil de begivenheder, som er længst ude i fremtiden, ikke blive vist.';
 $string['explain_maxevents'] = 'Denne indstilling angiver det højeste antal kommende begivenheder der kan vises. Hvis du vælger et højt antal er det muligt at visningen af begivenheder vil fylde en hel del på skærmen.';
 $string['explain_persistflt'] = 'Hvis aktiveret vil Moodle huske din sidste indstilling for begivenhedsfilteret og automatisk genskabe den hver gang du logger ind.';
 $string['explain_startwday'] = 'Denne indstilling konfigurerer hvordan alle månedskalendere skal vises. Brug det til at vise kalenderen på den måde du er vant til.';

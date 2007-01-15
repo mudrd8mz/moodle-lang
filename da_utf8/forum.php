@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // forum.php - created with Moodle 1.7+ (2006101007)
 
 
@@ -29,7 +29,7 @@ $string['configmaxbytes'] = 'Generel maksimum filstørrelse for alle filer vedh�
 $string['configoldpostdays'] = 'Antal dage før enhver post bliver betragtet som læst';
 $string['configreplytouser'] = 'Når en forummail sendes ud skal den så indeholde brugerens e-mail adresse som afsender, så modtagere kan svare direkte til brugeren i stedet for at svare i forummet. Selv hvis denne mulighed er slået til kan brugeren stadig vælge at holde deres e-mail hemmelig.';
 $string['configshortpost'] = 'Enhver besked under denne længde (eksklusiv HTML) bliver betragtet som kort';
-$string['configtrackreadposts'] = 'Set til \'Ja\' hvis du ønsker at følge hvad hver bruger har læst.';
+$string['configtrackreadposts'] = 'Sættes til \'Ja\' hvis du ønsker at følge hvad hver bruger har læst.';
 $string['configusermarksread'] = 'Hvis \'ja\' skal brugeren selv markere posten som læst. Hvis \'nej\' bliver posten markeret læst hvis brugeren har kikket på den.';
 $string['couldnotadd'] = 'Kunne ikke tilføje dit indlæg pga. en ukendt fejl';
 $string['couldnotdeleteratings'] = 'Beklager, kan ikke slettes da andre allerede har ratet det.';
@@ -88,14 +88,14 @@ $string['forum:viewsubscribers'] = 'Vis abonnenter';
 $string['forumauthorhidden'] = 'Forfatter (skjult)';
 $string['forumblockingalmosttoomanyposts'] = 'Du nærmer dig begrænsningen af indlæg indenfor en periode. Du har skrevet $a->numposts gange indenfor de sidste $a->blockperiod min og begrænsningen er efter $a->blockafter indlæg, for at undgå spam.';
 $string['forumbodyhidden'] = 'Du kan ikke se dette indlæg, sansynligvis fordi du ikke selv har skrevet noget endnu.';
-$string['forumintro'] = 'Forum intro';
-$string['forumname'] = 'Forum navn';
-$string['forumposts'] = 'Forum poster';
+$string['forumintro'] = 'Forumintro';
+$string['forumname'] = 'Forumnavn';
+$string['forumposts'] = 'Forumindlæg';
 $string['forums'] = 'Fora';
 $string['forumsubjecthidden'] = 'Emne (skjult)';
 $string['forumtracked'] = 'Ulæste indlæg bliver mærket';
 $string['forumtrackednot'] = 'Ulæste indlæg bliver ikke mærket';
-$string['forumtype'] = 'Forum type';
+$string['forumtype'] = 'Forumtype';
 $string['generalforum'] = 'Standard forum til almindeligt brug';
 $string['generalforums'] = 'Standard fora';
 $string['inforum'] = 'i $a';

@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // blog.php - created with Moodle 1.7+ (2006101007)
 
 
@@ -18,7 +18,7 @@ $string['courseblogs'] = 'Brugere kan kun se weblogs for personer der er i samme
 $string['disableblogs'] = 'Deaktiver hele weblogsystemet';
 $string['emptybody'] = 'Indholdet af loggen må ikke være tom';
 $string['emptytitle'] = 'Titlen på loggen må ikke være tom';
-$string['entrybody'] = 'Logtekst';
+$string['entrybody'] = 'Blogtekst';
 $string['entrybodyonlydesc'] = 'Logbeskrivelse';
 $string['entryerrornotyours'] = 'Dette indlæg er ikke dit.';
 $string['entrysaved'] = 'Webloggen er gemt';
@@ -36,16 +36,16 @@ $string['numberoftags'] = 'Antal tags der vises';
 $string['otags'] = 'Officielle nøgleord';
 $string['pagesize'] = 'Antal logindlæg pr. side';
 $string['personalblogs'] = 'Brugere kan kun se deres egen weblog';
-$string['ptags'] = 'Brugeroprettede tags';
+$string['ptags'] = 'Brugeroprettede nøgleord';
 $string['publishto'] = 'Tilgængelig for';
 $string['publishtonoone'] = 'Dig selv (kladde)';
-$string['publishtosite'] = 'Alle på danskonline.dk';
+$string['publishtosite'] = 'Alle på her på sitet';
 $string['publishtoworld'] = 'Alle på Internettet';
 $string['settingsupdatederror'] = 'Der er opstået en fejl. Indstillingerne for webloggen kunne ikke opdateres.';
 $string['siteblog'] = 'Site weblog: $a';
 $string['siteblogs'] = 'Alle sitets brugere kan se alle weblogs';
-$string['tagdatelastused'] = 'Datotag blev brugt sidst';
-$string['tagsort'] = 'Sortér tags efter';
+$string['tagdatelastused'] = 'Nøgleord senest brugt';
+$string['tagsort'] = 'Sorter nøgleord efter';
 $string['tagtext'] = 'Tag tekst';
 $string['timewithin'] = 'Vis tags brugt indenfor de sidste antal dage';
 $string['updateentrywithid'] = 'Rediger log';

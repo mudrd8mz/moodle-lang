@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.8 dev (2006102600)
+﻿<?PHP // $Id$ 
+      // wiki.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['action'] = '-- Action --';
@@ -10,7 +10,7 @@ $string['allowsetpage'] = 'Tillad \'Set side attributter\'';
 $string['allowstrippages'] = 'Tillad \'Rens sider\'';
 $string['attachments'] = 'Denne side har vedhæftede filer';
 $string['author'] = 'Forfatter';
-$string['authorfieldpattern'] = 'Forfatter felt mønster';
+$string['authorfieldpattern'] = 'Forfatter feltmønster';
 $string['authorfieldpatternerror'] = 'Skriv venligst en forfatter';
 $string['backlinks'] = 'Referencelinks';
 $string['binimgtoolarge'] = 'Billedfilen er for stor';
@@ -19,7 +19,7 @@ $string['browse'] = 'Vis';
 $string['canceledit'] = 'Annuller';
 $string['cannotchangepage'] = 'Denne side kan ikke rettes';
 $string['changes'] = '$a ændringer';
-$string['changesfield'] = 'Indenfor hvor mange timer efter sidste ændring';
+$string['changesfield'] = 'Inden for hvor mange timer efter sidste ændring';
 $string['changesfielderror'] = 'Skriv venligst et korrekt antal timer';
 $string['checklinks'] = 'Kontroller links';
 $string['checklinkscheck'] = 'Er du sikker på at du vil kontrollere links på denne side:';
@@ -39,7 +39,7 @@ $string['diff'] = 'Diff';
 $string['differences'] = 'Difference mellem version $a->new_ver og $a->pagename';
 $string['disablecamel'] = 'Slå \'CamelCase\' linkning fra';
 $string['disabledpage'] = 'Denne side er ikke tilgængelig i øjeblikket';
-$string['doesnotexist'] = 'Denne side eksistere ikke endnu, tryk på Ret knappen hvis du ønsker at oprette den.';
+$string['doesnotexist'] = 'Denne side eksisterer ikke endnu, tryk på \"Ret\"-knappen hvis du ønsker at oprette den.';
 $string['downloadaszip'] = 'Download zipfil';
 $string['downloadtimes'] = 'Downloadet $a gange';
 $string['dwnlnofiles'] = 'Ingen filer uploadet endnu';
@@ -117,7 +117,7 @@ $string['offline'] = 'OFFLINE';
 $string['optional'] = 'Frivilligt';
 $string['orphanedpage'] = 'Efterladt side';
 $string['orphanedpages'] = 'Efterladte sider';
-$string['otherwikis'] = 'Andre wiki\'s';
+$string['otherwikis'] = 'Andre wikier';
 $string['overridebutton'] = 'Ophæv låsning';
 $string['overrideinfo'] = 'Du kan ophæve denne brugers låsning af siden, men det kan resultere i at vedkommende mister rettelserne.';
 $string['ownerunknown'] = 'ukendt';
@@ -150,7 +150,7 @@ $string['revertthe'] = 'Versions dykning, men slet kun den påvirkede.';
 $string['safehtml'] = 'Sikker HTML';
 $string['save'] = 'Gem';
 $string['savenolock'] = 'Du kan ikke gemme denne side da den ikke er låst for skrivning. Dette kan ske hvis javascript er slået fra i browseren, eller hvis der er en  anden bruger der har ophævet låsen på siden. <br/><br/>Du kan vende tilbage til forrige side ved at bruge browserens tilbage knap og kopiere teksten eller de ændringer du har lavet og forsige at rette siden igen og paste dine ændringer ind igen.';
-$string['searchwiki'] = 'Søg Wiki';
+$string['searchwiki'] = 'Søg i Wiki';
 $string['setpageflags'] = 'Set side attributter';
 $string['showversions'] = 'Vis versioner:';
 $string['sitemap'] = 'Sitemap';

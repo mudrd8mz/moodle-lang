@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // qtype_multichoice.php - created with Moodle 1.7+ (2006101007)
 
 

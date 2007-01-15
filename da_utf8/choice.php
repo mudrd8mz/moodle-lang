@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // choice.php - created with Moodle 1.7+ (2006101007)
 
 
@@ -17,7 +17,7 @@ $string['choicetext'] = 'Spørgsmål tekst';
 $string['displayhorizontal'] = 'Vis horisontalt';
 $string['displaymode'] = 'Layout';
 $string['displayvertical'] = 'Vis vertikalt';
-$string['full'] = '(fuld)';
+$string['full'] = '(Fuld)';
 $string['havetologin'] = 'Du bliver nødt til at logge på før du kan afgive dit valg.';
 $string['limit'] = 'Begrænset';
 $string['limitanswers'] = 'Begræns antallet af svar';
@@ -27,7 +27,7 @@ $string['mustchooseone'] = 'Du skal vælge et svar før du gemmer. Der blev ikke
 $string['noguestchoose'] = 'Desværre, gæster kan ikke vælge.';
 $string['noresultsviewable'] = 'Resultaterne er ikke tilgængelige på nuværende tidspunkt.';
 $string['notanswered'] = 'Ikke besvaret endnu';
-$string['notopenyet'] = 'Denne aktivitet er ikke tilgængelig indtil $a';
+$string['notopenyet'] = 'Denne aktivitet er ikke tilgængelig før $a';
 $string['privacy'] = 'Vis ikke resultater';
 $string['publish'] = 'Vis resultater';
 $string['publishafteranswer'] = 'Vis resultatet til eleven efter de har svaret.';
@@ -39,7 +39,7 @@ $string['publishnot'] = 'Vis ikke resultaterne til de studerende';
 $string['responses'] = 'Besvarelser';
 $string['responsesto'] = 'Besvarelser til $a';
 $string['savemychoice'] = 'Gem mit spørgsmål';
-$string['showunanswered'] = 'Vil kolonne for ubesvaret';
+$string['showunanswered'] = 'Vis kolonne for ubesvaret';
 $string['spaceleft'] = 'tilgængelig plads';
 $string['spacesleft'] = 'tilgængelig pladser';
 $string['taken'] = 'Taget';

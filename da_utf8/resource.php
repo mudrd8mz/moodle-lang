@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // resource.php - created with Moodle 1.7+ (2006101007)
 
 
@@ -108,7 +108,7 @@ $string['resourcetypedirectory'] = 'Vis et bibliotek';
 $string['resourcetypefile'] = 'Fil eller URL';
 $string['resourcetypehtml'] = 'Lav en webside';
 $string['resourcetypeims'] = 'Tilføj en IMS Content Package';
-$string['resourcetypelabel'] = 'Etikette';
+$string['resourcetypelabel'] = 'Etiket';
 $string['resourcetyperepository'] = 'Link til et repository object';
 $string['resourcetypetext'] = 'Tekstside';
 $string['searchweb'] = 'Søg';
