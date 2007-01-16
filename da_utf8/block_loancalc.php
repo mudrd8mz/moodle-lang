@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // block_loancalc.php - created with Moodle 1.6 development (2005101200)
 
 

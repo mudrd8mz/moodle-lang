@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // survey.php - created with Moodle 1.7+ (2006101007)
 
 

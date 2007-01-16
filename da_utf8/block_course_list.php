@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // block_course_list.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005033100)
 
 

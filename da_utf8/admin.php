@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // admin.php - created with Moodle 1.7+ (2006101007)
 
 

@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // calendar.php - created with Moodle 1.7+ (2006101007)
 
 
