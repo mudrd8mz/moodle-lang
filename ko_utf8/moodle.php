@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006120700)
+      // moodle.php - created with Moodle 1.8 dev (2007011200)
 
 
 $string['action'] = '동작';
@@ -108,6 +108,7 @@ $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['alphanumerical'] = '알파벳 문자나 숫자만 포함될 수 있습니다.';
 $string['alreadyconfirmed'] = '이미 등록이 완료되었습니다.';
 $string['always'] = '항상';
+$string['and'] = '$a->one 및 $a->two';
 $string['answer'] = '대답';
 $string['approve'] = '승인';
 $string['areyousuretorestorethis'] = '계속할까요?';
@@ -122,6 +123,7 @@ $string['assignstudentsnote'] = '주의: 만일 학생들 스스로 이 배움�
 $string['assignstudentspass'] = '이 배움터에 참여하려는 학생들에게 등록키를 알려줘야 할 것입니다. 현재의 등록키는 \'$a\'입니다.';
 $string['assignteachers'] = '선생님 권한부여';
 $string['authentication'] = '인증';
+$string['authenticationplugins'] = '인증 플러그인';
 $string['autosubscribe'] = '포럼 이메일 자동 구독';
 $string['autosubscribeno'] = '아니오: 포럼을 자동 구독하지 않겠습니다.';
 $string['autosubscribeyes'] = '예: 포럼에 글을 올리면, 그 포럼은 구독하겠습니다.';
@@ -174,6 +176,7 @@ $string['byname'] = '$a 순서로';
 $string['bypassed'] = '건너뜀';
 $string['cachecontrols'] = '캐시 제어';
 $string['cancel'] = '취소';
+$string['cancelled'] = '취소됨';
 $string['categories'] = '배움터 범주';
 $string['category'] = '범주';
 $string['categoryadded'] = '범주 \'$a\' 가 추가됨';
@@ -194,6 +197,7 @@ $string['checknone'] = '점검하지 않음';
 $string['childcoursenotfound'] = '하위 과정은 개설되지 않았습니다!';
 $string['childcourses'] = '하위 과정';
 $string['choose'] = '선택';
+$string['chooseauthmethod'] = '인증 방법 선택';
 $string['choosecourse'] = '배움터 선택하기';
 $string['chooseenrolmethod'] = '등록 플러그인 선택';
 $string['chooselivelogs'] = '또는 현재 활동 보기';
@@ -403,6 +407,7 @@ $string['editordefaultfont'] = '기본 글꼴';
 $string['editorenablespelling'] = '맞춤법검사 가능';
 $string['editorfontlist'] = '글꼴목록';
 $string['editorfontsize'] = '기본글꼴 크기';
+$string['editorhelptopics'] = '도움말 항목 편집기';
 $string['editorresettodefaults'] = '기본값으로 재설정';
 $string['editorsettings'] = '편집기 설정';
 $string['editorshortcutkeys'] = '편집 단축키';
@@ -907,6 +912,7 @@ $string['newusernewpasswordtext'] = '\'$a->sitename\'에 새 계정이 생성되
 \'$a->sitename\' 의 관리자가 환영인사 드립니다.
 $a->signoff';
 $string['newusers'] = '새로운 사용자들';
+$string['newwindow'] = '새 창';
 $string['next'] = '다음으로';
 $string['nextsection'] = '다음 마당';
 $string['no'] = '아니오';
@@ -940,6 +946,7 @@ $string['noreplyname'] = '이 이메일로 답장을 보내지 마십시오.';
 $string['noresults'] = '결과 없음';
 $string['normal'] = '일반';
 $string['normalfilter'] = '일반 검색';
+$string['nosite'] = '사이트 내에서는 배움터를 찾을 수 없음';
 $string['nostatstodisplay'] = '사용가능한 데이터가 없습니다. 죄송합니다.';
 $string['nostudentsfound'] = '$a 발견되지 않음';
 $string['nostudentsingroup'] = '이 모둠에는 아직 학생들이 없습니다.';
@@ -1203,6 +1210,7 @@ $string['sizegb'] = 'GB';
 $string['sizekb'] = 'KB';
 $string['sizemb'] = 'MB';
 $string['skipped'] = '생략';
+$string['skiptomaincontent'] = '주 내용으로 건너 뜀';
 $string['skypeid'] = 'Skype 아이디';
 $string['socialheadline'] = '사회적 포럼-최근의 글들';
 $string['someallowguest'] = '어떤 배움터는 손님의 접속을 허용할 수 있습니다.';

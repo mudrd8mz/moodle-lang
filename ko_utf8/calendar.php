@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 dev (2006112200)
+      // calendar.php - created with Moodle 1.8 dev (2007011200)
 
 
 $string['advancedoptions'] = '상세 설정';
@@ -9,6 +9,7 @@ $string['clickhide'] = '감추기';
 $string['clickshow'] = '보이기';
 $string['commontasks'] = '선택사항들';
 $string['confirmeventdelete'] = '이 일정을 삭제할까요?';
+$string['courseevent'] = '배움터 행사';
 $string['courseevents'] = '배움터 일정';
 $string['dayview'] = '날짜 보기';
 $string['daywithnoevents'] = '계획된 행사가 없습니다.';
@@ -54,10 +55,13 @@ $string['for'] = '동안';
 $string['fri'] = '금';
 $string['friday'] = '금요일';
 $string['generateurlbutton'] = '일정 URL 가져옴';
+$string['globalevent'] = '전체 행사';
 $string['globalevents'] = '너른 일정';
 $string['gotocalendar'] = '달력으로 가기';
+$string['groupevent'] = '모둠 행사';
 $string['groupevents'] = '모듬 일정';
 $string['hidden'] = '감추기';
+$string['ical'] = '아이칼';
 $string['iwanttoexport'] = '내보내기';
 $string['manyevents'] = '$a 일정';
 $string['mon'] = '월';
@@ -112,6 +116,7 @@ $string['typesite'] = '사이트 일정';
 $string['typeuser'] = '사용자 일정';
 $string['upcomingevents'] = '예정된 행사';
 $string['urlforical'] = '달력에 기재할 iCalendar 내보냄을 위한 URL';
+$string['userevent'] = '사용자 행사';
 $string['userevents'] = '사용자 일정';
 $string['wed'] = '수';
 $string['wednesday'] = '수요일';

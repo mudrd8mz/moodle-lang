@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 dev (2006102600)
+      // group.php - created with Moodle 1.8 dev (2007011200)
 
 
 $string['addexistinggroupstogrouping'] = '기존 모둠을 모둠무리에 추가';
@@ -23,6 +23,7 @@ $string['editgroupingpermissions'] = '모둠무리 권한 편집';
 $string['editgroupingsettings'] = '모둠무리 설정';
 $string['editgroupsettings'] = '모둠 설정';
 $string['enrolmentkey'] = '등록키';
+$string['errornotingrouping'] = '죄송합니다만 당신은 $a 에 모둠을 생성할 수 없습니다.';
 $string['group'] = '모둠';
 $string['groupdescription'] = '모둠 설명';
 $string['groupfor'] = '모둠에 대하여';
@@ -33,6 +34,8 @@ $string['grouping'] = '모둠무리';
 $string['groupingdescription'] = '모둠무리 설명';
 $string['groupingname'] = '모둠무리 이름';
 $string['groupings'] = '모둠무리들';
+$string['groupmember'] = '모둠 구성원';
+$string['groupmemberdesc'] = '모둠 구성원에 대한 기본 역할';
 $string['groupmembers'] = '모둠 구성원';
 $string['groupmemberssee'] = '모둠 구성원 보기';
 $string['groupmembersselected'] = '선택한 모둠의 구성원';
@@ -50,12 +53,14 @@ $string['hidepicture'] = '사진 감춤';
 $string['javascriptrequired'] = '이 화면에서는 자바스크립트를 활성화시켜야 합니다.';
 $string['membersofselectedgroup'] = '선택된 모둠의 구성원';
 $string['newpicture'] = '새로운 사진';
+$string['notingrouping'] = '[무리속에 들 수 없음]';
 $string['numberofgroups'] = '모둠의 수';
 $string['numberofstudents'] = '학생 수';
 $string['prefixforgroupnames'] = '모둠 이름을 위한 접두어';
 $string['printerfriendly'] = '모둠무리의 인쇄용 화면';
 $string['removegroupfromselectedgrouping'] = '선택한 모둠무리에서 모둠 제거';
 $string['removeselectedusers'] = '선택한 사용자 제명';
+$string['return'] = '되돌아 감';
 $string['save'] = '저장';
 $string['selectnumberineachgroup'] = '각 모둠의 수 선택';
 $string['selectnumberofgroups'] = '모둠의 수 선택';

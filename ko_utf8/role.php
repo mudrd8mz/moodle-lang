@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 dev (2006102600)
+      // role.php - created with Moodle 1.8 dev (2007011200)
 
 
 $string['addrole'] = '새 역할 첨가';
@@ -98,6 +98,8 @@ $string['site:doanything'] = '모든 일을 할 수 있도록 허용';
 $string['site:doclinks'] = '외부 문서 링크를 보여줌';
 $string['site:import'] = '다른 배움터를 가져옴';
 $string['site:manageblocks'] = '사이트 전역 블록 관리';
+$string['site:mnetloginfromremote'] = '원격 무들로부터 로그인';
+$string['site:mnetlogintoremote'] = '원격 무들로 접속함';
 $string['site:readallmessages'] = '사이트의 모든 쪽글 읽음';
 $string['site:restore'] = '배움터 복구';
 $string['site:trustcontent'] = '내용 안전성 신임';
