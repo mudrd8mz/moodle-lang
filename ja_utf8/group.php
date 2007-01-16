@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 dev (2006120700)
+      // group.php - created with Moodle 1.8 dev (2007011200)
 
 
 $string['addexistinggroupstogrouping'] = '既存のグループをグルーピングに追加する';
@@ -10,6 +10,7 @@ $string['createautomaticgrouping'] = '自動グルーピングを作成する';
 $string['creategroup'] = 'グループを作成する';
 $string['creategrouping'] = 'グルーピングを作成する';
 $string['creategroupinselectedgrouping'] = '選択したグルーピングにグループを作成する';
+$string['databaseupgradegroups'] = '現在のグループバージョン: $a';
 $string['defaultgroupdescription'] = 'デフォルトグループ説明';
 $string['defaultgroupingname'] = 'グルーピング';
 $string['defaultgroupname'] = 'グループ';
@@ -64,6 +65,8 @@ $string['return'] = '戻る';
 $string['save'] = '保存';
 $string['selectnumberineachgroup'] = '各グループの学生数を選択する';
 $string['selectnumberofgroups'] = 'グループ数を選択する';
+$string['showgroupsingrouping'] = 'グルーピングのグループを表示する';
+$string['showmembersforgroup'] = 'グループのメンバーを表示する';
 $string['showusersalreadyingroup'] = 'すでにグルーピングのグループに登録されているユーザを表示する。';
 $string['teachersgroupmark'] = '教師は自分が属していないグループの活動を評定できない。';
 $string['teachersgroupview'] = '教師は自分が属していないグループの活動を閲覧できない。';
