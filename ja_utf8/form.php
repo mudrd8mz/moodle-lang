@@ -29,7 +29,7 @@ $string['requiredelement'] = '必須入力フィールド';
 $string['requiredfield'] = 'これは必須入力フィールドです。';
 $string['security'] = 'セキュリティ';
 $string['showadvanced'] = '拡張要素を表示する';
-$string['somefieldsrequired'] = 'ここには必須入力フィールドがあります。';
+$string['somefieldsrequired'] = 'このフォームには、必須入力フィールドがあります。';
 $string['timing'] = 'タイミング';
 $string['year'] = '年';
 
