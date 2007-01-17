@@ -325,6 +325,7 @@ $string['databasesetup'] = 'データベース設定中';
 $string['databasesuccess'] = 'データベースのアップグレードが完了しました。';
 $string['databaseupgradebackups'] = '現在のバックアップバージョンは $a です。';
 $string['databaseupgradeblocks'] = '現在のブロックバージョンは $a です。';
+$string['databaseupgradegroups'] = '現在のグループバージョンは $a です。';
 $string['databaseupgradelocal'] = '現在のローカルデータベース・カスタマイズバージョンは $a です。';
 $string['databaseupgrades'] = 'データベースのアップグレード';
 $string['date'] = '日付';
