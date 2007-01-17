@@ -3,7 +3,7 @@
 
 
 $string['abandoned'] = 'Bertan behera utzita';
-$string['addquizchain'] = 'Galdera-sorta gehitu';
+$string['addquizchain'] = 'Galdetegi-sorta gehitu';
 $string['allusers'] = 'Erabiltzaile guztiak';
 $string['alwaysopen'] = 'Beti zabalik';
 $string['attemptsall'] = 'Saikera guztiak';
@@ -54,7 +54,7 @@ $string['hotpotcloses'] = 'Hot Potatoes galdetegia itxi';
 $string['hotpotopens'] = 'Hot Potatoes galdetegia ireki';
 $string['ignored'] = 'Alde batera utzi';
 $string['inprogress'] = 'Ari da';
-$string['location'] = 'Filtxategiaren kokalekua';
+$string['location'] = 'Fitxategiaren kokalekua';
 $string['modulename'] = 'Hot Potatoes motako ariketa';
 $string['modulenameplural'] = 'Hot Potatoes motako ariketak';
 $string['navigation'] = 'Nabigazioa';

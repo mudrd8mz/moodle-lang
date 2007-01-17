@@ -3,7 +3,7 @@
 
 
 $string['allowdeleting'] = 'Ezabatzen utzi';
-$string['allowmaxfiles'] = 'Igotako gehienezko fitxategi kopurua';
+$string['allowmaxfiles'] = 'Igotako gehienezko fitxategi-kopurua';
 $string['allownotes'] = 'Oharrak egiten utzi';
 $string['allowresubmit'] = 'Berbidalketa baimendu';
 $string['assignment:grade'] = 'Zeregina kalifikatu';
@@ -36,7 +36,7 @@ $string['emailteachermail'] = '$a->username(e)k bidalketa eguneratu du ondorengo
 
 Hemen ikusgai:
 $a->url';
-$string['emailteachermailhtml'] = '$a->username(e)k bidalketa eguneratu du ondorengo zereginean: \'$a->assignment\'</i><br /><br />
+$string['emailteachermailhtml'] = '$a->username(e)k bidalketa eguneratu du ondorengo zereginean: <i>\'$a->assignment\'</i><br/><br/>
 Web-gune honetan ikusgai: <a href=\"$a->url\">sakatu hemen</a>.';
 $string['emailteachers'] = 'Abisuak bidali tutoreei e-postaz';
 $string['emptysubmission'] = 'Ez duzu ezer bidali oraindik';
@@ -105,7 +105,7 @@ $string['uploadnofilefound'] = 'Ez da fitxategirik aurkitu - ziur baten bat auke
 $string['uploadnotregistered'] = '\'$a\' ongi igo da, baina bidalketa ez da erregistratu!';
 $string['uploadsuccess'] = '\'$a\' ongi igo da';
 $string['viewfeedback'] = 'Zereginen kalifikazioak eta erantzunak ikusi';
-$string['viewsubmissions'] = 'Bidalitako zereginak ikusi';
+$string['viewsubmissions'] = 'Bidalitako $a zeregin ikusi';
 $string['yoursubmission'] = 'Zure bidalketa';
 
 ?>
