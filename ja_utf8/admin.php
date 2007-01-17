@@ -356,6 +356,8 @@ $string['memcachedhosts'] = 'memcachedホスト';
 $string['memcachedpconn'] = 'memcachedが持続的接続を使用する';
 $string['messaging'] = 'メッセージングシステムを有効にする';
 $string['misc'] = 'その他';
+$string['mnetrestore_extusers'] = '<strong>注意:</strong> このバックアップファイルは、処理中にリストアされるMoodleネットワークユーザアカウントを含んでいます。';
+$string['mnetrestore_extusers_mismatch'] = '<strong>注意:</strong> このバックアップファイルは、他のMoodleで作成され、リストアできないMoodleネットワークユーザアカウントを含んでいます。この処理はサポートされていません。このバックアップファイルがこのMoodleでバックアップされたこと、または必要なすべてのMoodleネットワークホストが設定されていることをあなたが保証できる場合のみ、リストアを試みてください。';
 $string['modulesecurity'] = 'モジュールセキュリティ';
 $string['multilangforceold'] = '古いmultilangシンタックスを強制する: class=\"multilang\" なしの &lt;span&gt; および &lt;lang&gt;';
 $string['multilangupgrade'] = 'multilangアップグレード';
