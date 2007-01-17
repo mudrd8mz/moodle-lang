@@ -360,7 +360,7 @@ $string['modulesecurity'] = 'モジュールセキュリティ';
 $string['multilangforceold'] = '古いmultilangシンタックスを強制する: class=\"multilang\" なしの &lt;span&gt; および &lt;lang&gt;';
 $string['multilangupgrade'] = 'multilangアップグレード';
 $string['multilangupgradeinfo'] = 'multilangフィルタシンタックスはMoodle 1.8で変更されました。今後、&lt;lang&gt; タグはサポートされません。<br /><br />例: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"es\" class=\"multilang\">Hola!&lt;/span&gt;<br /><br /><strong>既存のすべてのテキストに関するシンタックスをアップグレードしてもよろしいですか?</strong>';
-$string['multilangupgradenotice'] = 'あなたのサイトは、恐らく古いmultilangシンタックスを使用しています。<a href=\"multilangupgrade.php\">multilangアップグレード</a>をお勧めします。';
+$string['multilangupgradenotice'] = 'あなたのサイトは、おそらく古いmultilangシンタックスを使用しています。<a href=\"multilangupgrade.php\">multilangアップグレード</a>をお勧めします。';
 $string['mustenablestats'] = 'このサイトでは、統計が有効にされていません。';
 $string['mymoodle'] = 'マイ Moodle';
 $string['mymoodleredirect'] = 'ユーザにマイ Moodleを強制する';
