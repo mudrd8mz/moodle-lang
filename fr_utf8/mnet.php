@@ -26,6 +26,7 @@ $string['description'] = 'Description';
 $string['enabled_for_all'] = '(Ce service a été activé pour tous les serveurs).';
 $string['enrollingincourse'] = 'Inscription au cours $a[0] sur le serveur $a[1]<br />';
 $string['enterausername'] = 'Veuillez saisir un ou plusieurs noms d\'utilisateurs, séparés par des virgules.';
+$string['expires'] = 'Valable jusqu\'au';
 $string['expireyourkey'] = 'Supprimer cette clef';
 $string['expireyourkeyexplain'] = 'Moodle modifie automatiquement vos clefs tous les 28 jours (par défaut), mais vous avez la possibilité de périmer <em>manuellement</em> cette clef en tout temps. Une telle opération n\'est utile que si vous pensez que la clef a été compromise. Une clef de remplacement sera immédiatement générée automatiquement.<br /> La suppression de cette clef empêchera tous les autres serveurs Moodle de communiquer avec celui-ci jusqu\'à ce que contactiez manuellement leurs administrateurs et leur fournissiez votre nouvelle clef.';
 $string['failedaclwrite'] = 'Échec d\'écriture dans la liste de contrôle d\'accès Réseau Moodle pour l\'utilisateur «&nbsp;$a&nbsp;».';
