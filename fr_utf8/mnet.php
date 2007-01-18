@@ -102,6 +102,7 @@ $string['notpermittedtojump'] = 'Vous n\'êtes pas autorisé à initier une sess
 $string['notpermittedtoland'] = 'Vous n\'êtes pas autorisé à initier une session à distance.';
 $string['off'] = 'Désactivé';
 $string['on'] = 'Activé';
+$string['otherenrolledusers'] = 'Autres utilisateurs inscrits';
 $string['permittedtransports'] = 'Transports autorisés';
 $string['phperror'] = 'Une erreur PHP interne a empêché l\'aboutissement de votre requête.';
 $string['postrequired'] = 'La fonction de suppression requiert une requête POST.';
