@@ -11,6 +11,7 @@ $string['correctanswershowsformat'] = '형식';
 $string['makecopynextpage'] = '다음 쪽(새 문제)';
 $string['mustbenumeric'] = '여기에는 숫자를 입력해야 합니다.';
 $string['mustnotbenumeric'] = '숫자는 안 됩니다.';
+$string['nextitemtoadd'] = '다음 \'추가할 문항\'';
 $string['nextpage'] = '다음 쪽';
 $string['tolerance'] = '허용오차';
 $string['youmustenteramultiplierhere'] = '지수를 넣어야만 합니다.';

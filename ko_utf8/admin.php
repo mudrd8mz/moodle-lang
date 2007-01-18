@@ -364,6 +364,8 @@ $string['memcachedhosts'] = '메모리 캐쉬 호스트';
 $string['memcachedpconn'] = '메모리 캐쉬 상시 연결 사용';
 $string['messaging'] = '내부 쪽글 발송 가능';
 $string['misc'] = '기타';
+$string['mnetrestore_extusers'] = '<strong>주의:</strong>이 백업파일에는 진행과정 중 복원될 수 있는 무들네트웍의 원격 사용자 계정 정보가 포함되어 있습니다.';
+$string['mnetrestore_extusers_mismatch'] = '<strong>주의:</strong> 이 백업파일은 현재와는 다른 무들 설정을 기반으로 작성되었고 복구에 실패할 지도 모르는 무들네트웍의 원격 사용자 계정 정보가 들어 있습니다. 만일 이것이 현재의 무들 설정을 기반으로 작성되었다고 확신을 하거나 필요한 모든 무들네트웍 설정이 완벽하다고 믿는다면, 복구를 시도할 수도 있을 것이다.';
 $string['modulesecurity'] = '모듈 보안';
 $string['multilangforceold'] = 'Force old multilang syntax: <span> without the class=\"multilang\" and <lang>';
 $string['multilangupgrade'] = '다중언어 판올림';

@@ -131,8 +131,8 @@ $string['auth_ldap_memberattribute'] = '선택 사항 : 사용자들이 한 그�
 $string['auth_ldap_memberattribute_key'] = '구성원 속성';
 $string['auth_ldap_noconnect'] = 'LDAP모듈이 $a 서버에 접속하지 못했습니다.';
 $string['auth_ldap_noconnect_all'] = 'LDAP모듈이 어느 $a 서버에도 접속하지 못했습니다.';
-$string['auth_ldap_noextension'] = '경고: PHP의 LDAP 모듈이 존재하지 않는 것 같음. 모듈이 바르게 설치되고 활성화되었는지를 점검하세요.';
-$string['auth_ldap_objectclass'] = '선택 사항 : ldap_user_type에서 이름이나 사용자 찾기에 사용되는 objectClass보다 우선이다. 보통은 변경시킬 필요가 없다.';
+$string['auth_ldap_noextension'] = '경고: PHP의 LDAP 모듈이 존재하지 않는 것 같음. 모듈이 바르게 설치되고 활성화되었는지를 점검하라.';
+$string['auth_ldap_objectclass'] = '선택 사항 : ldap_user_type에서 이름이나 사용자 찾기에 사용되는 objectClass보다 우선한다. 보통은 변경시킬 필요가 없다.';
 $string['auth_ldap_objectclass_key'] = '객체 클래스';
 $string['auth_ldap_opt_deref'] = 'Aliases가 탐색 동안에 어떻게 처리되야 할지 결정하라. 다음 중 하나를 선택하라.
 \"아니오\" (LDAP_DEREF_NEVER) 혹은 
@@ -162,6 +162,8 @@ $string['auth_ldaptitle'] = 'LDAP서버의 사용';
 $string['auth_manualdescription'] = '이 방법은 사용자들이 직접 자신의 계정을 만들 수 있는 모든 방법을 배제한다. 모든 계정들은 운영자에 의해 손수 만들어져야 한다.';
 $string['auth_manualtitle'] = '운영자가 직접 만든 계정';
 $string['auth_mnet_auto_add_remote_users'] = '예로 설정하여 두면, 원격 사용자가 처음 방문할 때에 사용자 기록이 자동으로 생성된다.';
+$string['auth_mnet_roamin'] = '이 호스트의 사용자들은 여러분의 사이트를 탐방할 수 있음';
+$string['auth_mnet_roamout'] = '여러분의 사용자는 이 호스트들을 탐방할 수 있음';
 $string['auth_mnet_rpc_negotiation_timeout'] = 'XMLRPC 계층을 통해 접속할 때의 인증에 허용되는 시간(초)';
 $string['auth_mnetdescription'] = '무들 네트웍 설정에 정의되어 있는 신뢰할만한 웹에 의해 인증된 사용자들';
 $string['auth_mnettitle'] = '무들 네트웍 인증';
@@ -206,11 +208,11 @@ $string['auth_radiustitle'] = 'RADIUS 서버 사용';
 $string['auth_shib_changepasswordurl'] = '암호 변경 URL';
 $string['auth_shib_convert_data'] = '자료 변경 API';
 $string['auth_shib_convert_data_description'] = '당신은 이 좀더 암호에 의해 제공된 데이터를 변경하기 위해 이 API를 사용할 수 있다. 좀 더 많은 규정을 위해
-<a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> 을 읽어보십시오.';
+<a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> 을 읽어보라.';
 $string['auth_shib_convert_data_warning'] = '웹서버 진행에 의해 파일이 존재하지 않거나 읽을 수 없다.';
-$string['auth_shib_instructions'] = '만약 당신의 규정이 그것을 지지한다면 암호에 접근하기 위해 <a href=\"$a\"> 암호 로그인 </a>을 사용하라.<br />그렇지 않으면 보여지는 지금에서부터 정상적인 로그인을 사용십시오.';
-$string['auth_shib_instructions_help'] = '여기에 당신은 암호를 설명하기 위한 당신의 사용자 관습 명령을 제공하여야 한다. 그것은 명령 섹션의 로그인 페이지에 보여질 것이다. 그것은 암호가 보호되는 고쳐쓰는 사용자의 공급원 링크를 \"<b>$a</b>\" 암호 사용자가 모듈에 로그인 할 수 있기 위해 포함하여야 한다. 만약 당신이 이 빈칸을 남겨둔다면, 표준 명령이 사용될 것이다 (특정 암호가 아니라)';
-$string['auth_shib_only'] = '단지 암호말';
+$string['auth_shib_instructions'] = '만약 여러분의 기관이 Shibboleth login을 지원한다면 <a href=\"$a\"> 암호 로그인 </a>을 사용하라.<br />그렇지 않으면 여기 있는 정상적인 로그인 형식을 사용하라.';
+$string['auth_shib_instructions_help'] = '여기에 Shibboleth를 설명하기 위한 당신의 주문 내용을 제공하여야 한다. 그것은 명령 섹션의 로그인 페이지에 보여질 것이다. 설명서에는 사용자가 로그인을 원할 때 클릭할 수 있는 \"<b>$a</b>\"링크를  포함하여야만 한다.';
+$string['auth_shib_only'] = '암호말만';
 $string['auth_shib_only_description'] = '만약 암호 확증이 강요된다면 이 옵션을 체크하십시오.';
 $string['auth_shib_username_description'] = '모듈 사용자 이름으로 사용되어야 하는 다양한 웹서버 암호 환경의 이름을 지어라.';
 $string['auth_shibboleth_login'] = '암호말 로그인';
