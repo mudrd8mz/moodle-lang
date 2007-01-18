@@ -5,6 +5,11 @@ $string['groupmemberdesc'] = 'Rôle par défaut pour un membre d\'un groupe.';
 $string['notingrouping'] = '[Dans aucun groupement]';
 
 $string['errornotingrouping'] = 'Désolé, vous ne pouvez pas créer de groupe dans $a';
+$string['errornotingroupingedit'] = 'Désolé, vous ne pouvez pas modifier le groupement $a';
+$string['errorinvalidgrouping'] = 'Groupement $a non valide';
+$string['errorinvalidgroup'] = 'Groupe $a non valide';
+$string['erroreditgrouping'] = 'Erreur lors de la création ou de la modification du groupement $a';
+$string['erroreditgroup'] = 'Erreur lors de la création ou de la modification du groupe $a';
 
 $string['groupings'] = 'Groupements';
 $string['grouping'] = 'Groupement';
