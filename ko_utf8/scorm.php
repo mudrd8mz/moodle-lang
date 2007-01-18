@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 dev (2006100601)
+      // scorm.php - created with Moodle 1.8 dev (2007011200)
 
 
 $string['advanced'] = '고급설정';
@@ -29,8 +29,11 @@ $string['domxml'] = 'DOMXML 외부 라이브러리';
 $string['element'] = '요소';
 $string['entercourse'] = 'SCORM 코스 입장하기';
 $string['errorlogs'] = '에러 로그';
+$string['everyday'] = '매일';
+$string['everytime'] = '매시간 사용됨';
 $string['exit'] = 'SCORM 코스 나가기';
 $string['expcoll'] = '확장/충돌';
+$string['external'] = '외부 패키지 시간 갱신';
 $string['failed'] = '실패함';
 $string['firstaccess'] = '첫번째 접속';
 $string['firstattempt'] = '처음 시도';
@@ -84,6 +87,7 @@ $string['noscriptnoscorm'] = '당신의 브라우저는 자바스크립트를 �
 $string['not_corr_type'] = '$a->tag 태그에는 부적당한 형태';
 $string['notattempted'] = '시도하지 않았음';
 $string['objectives'] = '목적';
+$string['onchanges'] = '바뀔 때 마다';
 $string['organization'] = '기구';
 $string['organizations'] = '조직들';
 $string['othertracks'] = '다른 흔적';
