@@ -20,6 +20,10 @@ $string['creategrouping'] = 'Créer groupement';
 $string['createautomaticgrouping'] = 'Créer groupement automatique';
 $string['printerfriendly'] = 'Affichage pour impression du groupement';
 
+$string['showgroupsingrouping'] = 'Afficher les groupes du groupement';
+$string['showmembersforgroup'] = 'Afficher les membres du groupe';
+$string['databaseupgradegroups'] = 'La version des groupes est maintenant $a';
+
 $string['editgroupsettings'] = 'Modifier les réglages du groupe';
 $string['deleteselectedgroup'] = 'Supprimer le groupe sélectionné';
 $string['removegroupfromselectedgrouping'] = 'Retirer le groupe du groupement sélectionné';
