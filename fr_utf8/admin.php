@@ -355,6 +355,8 @@ $string['memcachedhosts'] = 'Serveurs memcached';
 $string['memcachedpconn'] = 'Utiliser des connexions memcached persistentes';
 $string['messaging'] = 'Activation du système de messagerie';
 $string['misc'] = 'Divers';
+$string['mnetrestore_extusers'] = '<strong>Remarque&nbsp;:</strong> ce fichier de sauvegarde contient des comptes utilisateurs distants provenant d\'un réseau Moodle, qui seront restaurés au cours du processus.';
+$string['mnetrestore_extusers_mismatch'] = '<strong>Remarque&nbsp;:</strong> ce fichier de sauvegarde semble provenir d\'une installation de Moodle différente. Il contient des comptes utilisateurs distants provenant d\'un réseau Moodle dont la restauration pourrait échouer. Cette opération n\'est pas supportée. Si vous êtes vraiment certain que ce fichier a été créé sur ce Moodle, ou si vous pouvez vous assurer que tous les serveurs du réseau Moodle sont configurés correctement, vous pouvez malgré tout tenter la restauration.';
 $string['modulesecurity'] = 'Sécurité modules';
 $string['multilangforceold'] = 'Imposer l\'ancienne syntaxe du filtre multilingue&nbsp;: &lt;span&gt; sans class=\"multilang\" et &lt;lang&gt;';
 $string['multilangupgrade'] = 'Mise à jour de la syntaxe multilingue';
