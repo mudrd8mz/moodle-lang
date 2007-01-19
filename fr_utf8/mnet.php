@@ -9,7 +9,8 @@ $string['allow'] = 'Autoriser';
 $string['authfail_nosessionexists'] = 'Échec d\'autorisation&nbsp;: la session mnet n\'existe pas.';
 $string['authfail_sessiontimedout'] = 'Échec d\'autorisation&nbsp;: la session mnet est échue.';
 $string['authfail_usermismatch'] = 'Échec d\'autorisation&nbsp;: l\'utilisateur ne correspond pas.';
-$string['authmnetdisabled'] = 'L\'authentification par Réseau Moodle est désactivée.';
+$string['authmnetdisabled'] = 'La <em>méthode d\'authentification</em> Réseau Moodle est <strong>désactivée</strong>.';
+$string['authmnetautoadddisabled'] = 'L\'<em>ajout automatique d\'utilisateurs</em> de la méthode d\'authentification Réseau Moodle est <strong>désactivé</strong>.';
 $string['badcert'] = 'Ceci n\'est pas un certificat valide.';
 $string['couldnotgetcert'] = 'Aucun certificat n\'a été trouvé sur <br />$a. <br />Le serveur est peut-être éteint ou incorrectement configuré.';
 $string['couldnotmatchcert'] = 'Ceci ne correspond pas au certificat publié actuellement par le serveur web.';
@@ -70,6 +71,7 @@ $string['last_transport_help'] = 'Le transport utilisé lors de votre dernière 
 $string['mnet'] = 'Réseau Moodle';
 $string['mnet_concatenate_strings'] = 'Concaténer (jusqu\'à) 3 chaînes et retourner le résultat';
 $string['mnet_session_prohibited'] = 'Les utilisateurs de votre serveur ne sont actuellement pas autorisés à se connecter à $a.';
+$string['mnetdisabled'] = 'Le Réseau Moodle est <strong>désactivé</strong>.';
 $string['mnetlog'] = 'Historiques';
 $string['mnetpeers'] = 'Paires Réseau Moodle';
 $string['mnetservices'] = 'Services Réseau Moodle';
@@ -114,8 +116,8 @@ $string['reallydeleteserver'] = 'Voulez-vous vraiment supprimer le serveur';
 $string['receivedwarnings'] = 'Les avertissements suivants ont été notifiés';
 $string['recordnoexists'] = 'L\'enregistrement n\'existe pas.';
 $string['reenableserver'] = 'Non. Sélectionner cette option pour réactiver ce serveur.';
-$string['registerallhosts'] = 'Enregistrer tous les serveurs';
-$string['registerallhostsexplain'] = 'Vous pouvez choisir d\'enregistrer tous les serveurs tentant de se connecter à votre Moodle. Cela signifie qu\'un enregistrement apparaîtra dans votre liste de serveur pour chaque site Moodle se connectant au vôtre et demandant votre clef publique.<br /> Vous avez la possibilité de configurer ci-dessous les services accessibles pour «&nbsp;Tous les serveurs&nbsp;», ce qui vous permettra de fournir des services à tous les serveurs Moodle.';
+$string['registerallhosts'] = 'Enregistrer tous les serveurs (<em>mode hub</em>)';
+$string['registerallhostsexplain'] = 'Vous pouvez choisir d\'enregistrer automatiquement tous les serveurs tentant de se connecter à votre Moodle. Cela signifie qu\'un enregistrement apparaîtra dans votre liste de serveur pour chaque site Moodle se connectant au vôtre et demandant votre clef publique.<br /> Vous avez la possibilité de configurer ci-dessous les services accessibles pour «&nbsp;Tous les serveurs&nbsp;», ce qui vous permettra de fournir des services à tous les serveurs Moodle.';
 $string['remotecourses'] = 'Cours distants';
 $string['remotehost'] = 'Serveur distant';
 $string['remotehosts'] = 'Serveurs distants';
@@ -139,14 +141,16 @@ $string['showremote'] = 'Afficher les utilisateurs distants';
 $string['ssl_acl_allow'] = 'SSO ACL&nbsp;: permettre l\'utilisteur $a[0] de $a[1]';
 $string['ssl_acl_deny'] = 'SSO ACL&nbsp;:: interdire l\'utilisteur $a[0] de $a[1]';
 $string['ssoaccesscontrol'] = 'Contrôle d\'accès SSO';
+$string['ssoacldescr'] = 'Cette page vous permet d\'accorder ou de refuser l\'accès à certains utilisateurs de serveurs du Réseau Moodle. Elle est fonctionnelle quand vous offrez des services SSO à des utilisateurs distants. Pour contrôler la capacité de vos utilisateurs <em>locaux</em> d\'accéder à d\'autres serveurs du Réseau Moodle, utilisez le système de rôles pour leur donner la capacité <em>mnetcanroam</em>.';
+$string['ssoaclneeds'] = 'Pour que cette fonctionnalité soit active, vous devez activer le Réseau Moodle, ainsi que la méthode d\'authentification Réseau Moodle, avec l\'ajout automatique des utilisateurs.';
 $string['strict'] = 'Strict';
 $string['subscribe'] = 'S\'abonner';
 $string['system'] = 'Système';
 $string['testtrustedhosts'] = 'Tester une adresse IP';
 $string['testtrustedhostsexplain'] = 'Saisissez une adresse IP pour voir s\'il s\'agit d\'un serveur fiable.';
 $string['transport_help'] = 'Ces options sont réciproques. Vous ne pouvez donc imposer à un serveur distant l\'utilisation d\'un certificat SSL signé que si votre serveur possède également un certificat SSL.';
-$string['trustedhosts'] = 'Serveurs fiables';
-$string['trustedhostsexplain'] = 'Veuillez saisir une liste d\'adresses IP ou de réseaux, une par ligne. Voici quelques exemples.<br />
+$string['trustedhosts'] = 'Serveurs fiables pour XML-RPC';
+$string['trustedhostsexplain'] = '<p>Le mécanisme des serveurs fiables permet à certaines machines d\'effectuer des appels à n\'importe quel API Moodle via XML-RPC. Grâce à cette option <b>très dangereuse</b>, des scripts externes peuvent contrôler le comportement de Moodle. En cas de doute, désactivez-là.</p><p>Cette option <b>n\'est pas nécessaire</b> pour le fonctionnement d\'un Réseau Moodle.</p><p>Pour activer cette option, veuillez saisir une liste d\'adresses IP ou de réseaux, une par ligne. Voici quelques exemples.<br />
 Votre serveur local&nbsp;:<br />
 127.0.0.1<br />
 Votre serveur local (avec un bloc réseau):<br />
@@ -157,7 +161,7 @@ N\'importe quel serveur avec une adresse IP entre 192.168.0.1 et 192.168.0.255&n
 192.168.0.0/24<br />
 N\'importe quel serveur&nbsp;:<br />
 192.168.0.0/0<br />
-Le dernier exemple n\'est pas une configuration recommandée.';
+Le dernier exemple <b>n\'est pas</b> une configuration recommandée.';
 $string['unknownerror'] = 'Une erreur inconnue est survenue durant la négociation.';
 $string['usercannotchangepassword'] = 'Vous ne pouvez pas changer votre mot de passe ici, car vous êtes un utilisateur distant.';
 $string['userchangepasswordlink'] = '<br />Vous pourrez changer votre mot de passe chez votre fournisseur <a href=\"$a->wwwroot/login/change_password.php\">$a->description</a>.';
