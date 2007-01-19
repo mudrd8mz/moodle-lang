@@ -966,6 +966,7 @@ $string['nothingnew'] = 'Rien de nouveau depuis votre dernière visite';
 $string['nothingtodisplay'] = 'Rien à afficher';
 $string['noticenewerbackup'] = 'Ce fichier de sauvegarde a été créé avec la version $a->backuprelease ($a->backupversion) de Moodle, qui est plus récente que votre installation actuelle de Moodle $a->serverrelease ($a->serverversion). Ceci peut causer des incohérences, car la compatibilité des fichiers de sauvegarde ne peut dans ce cas pas être garantie.';
 $string['notifications'] = 'Notifications';
+$string['notify'] = 'Notifier';
 $string['notifyloginfailuresmessage'] = '$a->time, IP : $a->ip, Utilisateur : $a->info';
 $string['notifyloginfailuresmessageend'] = 'Vous pouvez consulter l\'historique de ces tentatives à l\'adresse $a/course/log.php?id=1&chooselog=1&modid=site_errors.';
 $string['notifyloginfailuresmessagestart'] = 'Voici une liste des tentatives de connexion au site $a depuis la dernière notification ';
@@ -1158,6 +1159,7 @@ $string['selectednowmove'] = '$a fichiers sélectionnés pour déplacement. Alle
 $string['selectnos'] = 'Sélectionner tous les «&nbsp;Non&nbsp;»';
 $string['selectperiod'] = 'Sélectionner une période';
 $string['senddetails'] = 'Envoyer un nouveau mot de passe par courriel';
+$string['separate'] = 'Séparer';
 $string['separateandconnected'] = 'Appropriation du savoir liée ou détachée';
 $string['serverlocaltime'] = 'Heure locale du serveur';
 $string['settings'] = 'Paramètres';
