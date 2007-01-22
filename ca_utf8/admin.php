@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2007010404)
+      // admin.php - created with Moodle 1.8 dev (2007011200)
 
 
 $string['accessdenied'] = 'Accés denegat';
@@ -34,6 +34,7 @@ $string['bookmarkalreadyexists'] = 'Ja havíeu afegit aquesta drecera.';
 $string['bookmarkdeleted'] = 'S\'ha suprimit la drecera.';
 $string['bookmarkthispage'] = 'Afegeix una drecera';
 $string['cachetext'] = 'Durada de la memòria cau de text';
+$string['cachetype'] = 'Tipus de memòria cau';
 $string['calendar_weekend'] = 'Dies de cap de setmana';
 $string['calendarsettings'] = 'Calendari';
 $string['change'] = 'Canvia';
@@ -85,7 +86,6 @@ $string['configeditorfontlist'] = 'Seleccioneu els tipus de lletra que haurien d
 $string['configenableajax'] = 'Aquest paràmetre us permet controlar l\'ús d\'AJAX (interfícies avançades client-servidor mitjançant Javascript) arreu del lloc. Si habiliteu aquest paràmetre, els usuaris podran triar en el seu perfil si utilitzen AJAX o no. Si no habiliteu el paràmetre, l\'AJAX restarà inhabilitat per a tothom.';
 $string['configenablecourserequests'] = 'Això permetrà que qualsevol usuari sol·liciti la creació d\'un curs.';
 $string['configenableglobalsearch'] = 'Aquest paràmetre habilita la cerca global de text en recursos i activitats. No és compatible amb PHP 4.';
-$string['configenablerecordcache'] = 'Si habiliteu aquest paràmetre, part de la informació que es recupera de la base de dades en desarà en una memòria cau. Això implica que l\'accés a les dades serà una mica més ràpid, però d\'altra banda els requeriments de memòria del servidor web augmentaran lleugerament. En general es recomana habilitar aquest paràmetre, tret que el servidor tingui poca memòria. Alguns processos poden no fer cas d\'aquest paràmetre si el desenvolupador està segur que així millorarà el rendiment.';
 $string['configenablerssfeeds'] = 'Aquest commutador habilita l\'RSS per a tot el lloc. Per a utilitzar realment l\'RSS, l\'haureu d\'activar també en cada mòdul. Aneu als paràmetres dels mòduls en Administració > Configuració.';
 $string['configenablerssfeedsdisabled'] = 'No està disponible perquè l\'RSS està inhabilitat per a tot el lloc. Per habilitar-lo, aneu a la pantalla de variables en Administració > Configuració.';
 $string['configenablestats'] = 'Si trieu \'sí\', la tasca del cron de Moodle processarà els registres i recollirà algunes estadístiques. Això pot durar una estona, segons el tràfic del lloc. Si habiliteu aquesta opció podreu veure algunes gràfiques i estadístiques interessants referents a cada curs i al lloc complet.';
@@ -93,7 +93,7 @@ $string['configenabletrusttext'] = 'Per defecte Moodle sempre netejarà a fons e
 $string['configenrolmentplugins'] = 'Trieu els connectors d\'inscripcions que vulgueu usar. No us descuideu de configurar els paràmetres correctament.<br /><br />Heu d\'indicar quins connectors cal habilitar i podeu definir <strong>un</strong> connector per defecte per a inscripcions <strong>interactives</strong>. Per inhabilitar les inscripcions interactives, poseu \"No\" en \"Permet inscripcions\" en els cursos que calgui.';
 $string['configerrorlevel'] = 'Trieu el nivell d\'avisos del PHP que voleu visualitzar. Generalment \'Normal\' és la millor opció.';
 $string['configextendedusernamechars'] = 'Habiliteu aquest paràmetre perquè els estudiants puguin usar qualsevol caràcter en el seu nom d\'usuari (no afecta els noms actuals). El valor per defecte és \"fals\", la qual cosa limita els noms d\'usuari a caràcters alfanumèrics.';
-$string['configfilterall'] = 'Filtra totes les cadenes, inclosos encapçalaments, títols, barres de navegació, etc. Útil sobretot amb el filtre multillenguatge. Si no, pot crear una càrrega extra al servidor sense guanyar res a canvi.';
+$string['configfilterall'] = 'Filtra totes les cadenes, inclosos encapçalaments, títols, barres de navegació, etc. Útil sobretot amb el filtre multilingüe. Si no, pot crear una càrrega extra al servidor sense guanyar res a canvi.';
 $string['configfiltermatchoneperpage'] = 'El filtres que creen enllaços automàtics generaran només un enllaç per pàgina, en el primer text que trobin, i ignoraran la resta.';
 $string['configfiltermatchonepertext'] = 'El filtres que creen enllaços automàtics generaran només un enllaç per cada element de text (p. ex. recurs, bloc) en el primer text que trobin, i ignoraran la resta. Aquest paràmetre s\'ignorarà si habiliteu el paràmetre \"per pàgina\".';
 $string['configfilteruploadedfiles'] = 'Habilitar aquest paràmetre fa que Moodle processi amb els filtres, abans de visualitzar-los, tots els fitxers de text i HTML que es pengin.';
@@ -274,7 +274,7 @@ $string['fullnamedisplay'] = 'Format del nom complet';
 $string['gdversion'] = 'Versió GD';
 $string['generalsettings'] = 'Paràmetres generals';
 $string['globalsquoteswarning'] = '<p><strong>Avís de seguretat</strong>: per operar adequadament, Moodle necessita <br />que feu certs canvis en els paràmetres actuals del PHP.<p/><p><em>Cal</em> que definiu <code>register_globals=off</code> i/o <code>magic_quotes_gpc=on</code>. <br />Si és possible, heu de definir <code>register_globals=off</code> per millorar la seguretat <br />general del servidor. També s\'aconsella definir <code>magic_quotes_gpc=on</code>.<p/><p>Aquests paràmetres es defineixen en el fitxer <code>php.ini</code>, en la configuració d\'Apache/IIS <br />o en el fitxer <code>.htaccess</code>.</p>';
-$string['gotofirst'] = 'Vés a la primera cadena no traduïda';
+$string['gotofirst'] = 'Primera cadena no traduïda';
 $string['gradebook'] = 'Butlletí de qualificacions';
 $string['gradebookroles'] = 'Rols qualificats';
 $string['helpadminseesall'] = 'Veuen els administradors tots els esdeveniments o només aquells que se\'ls hi apliquin?';
@@ -394,6 +394,11 @@ això, deixeu el paràmetre en blanc.</pre>';
 $string['php50restricted'] = 'PHP 5.0 té alguns problemes coneguts. Actualitzeu-vos si us plau a 5.1.x o torneu a 4.3.x o 4.4.x';
 $string['pleaseregister'] = 'Registreu si us plau el vostre lloc per eliminar aquest botó';
 $string['plugins'] = 'Mòduls';
+$string['profilecategory'] = 'Categoria';
+$string['profilecategoryname'] = 'Nom de la categoria (ha de ser únic)';
+$string['profilecategorynamenotunique'] = 'Aquest nom ja s\'està utilitzant per a una altra categoria';
+$string['profilecommonsettings'] = 'Paràmetres comuns';
+$string['profilevisibleprivate'] = 'Visible per a usuaris';
 $string['protectusernames'] = 'Protegeix els noms d\'usuari';
 $string['proxyhost'] = 'Ordinador intermediari';
 $string['proxyport'] = 'Port intermediari';
@@ -490,7 +495,7 @@ $string['upwards'] = 'cap amunt';
 $string['usehtmleditor'] = 'Utilitza l\'editor HTML';
 $string['useraccountupdated'] = 'S\'ha actualitzat l\'usuari';
 $string['userlist'] = 'Explora la llista d\'usuaris';
-$string['userpolicies'] = 'Normativa d\'usuaris';
+$string['userpolicies'] = 'Política d\'usuaris';
 $string['userrenamed'] = 'S\'ha canviat el nom de l\'usuari';
 $string['users'] = 'Usuaris';
 $string['userscreated'] = 'S\'han creat els usuaris';

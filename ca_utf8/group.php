@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 dev (2007010404)
+      // group.php - created with Moodle 1.8 dev (2007011200)
 
 
 $string['addexistinggroupstogrouping'] = 'Afegeix els grups existents a l\'agrupament';
@@ -10,6 +10,7 @@ $string['createautomaticgrouping'] = 'Crea agrupament automàtic';
 $string['creategroup'] = 'Crea grup';
 $string['creategrouping'] = 'Crea agrupament';
 $string['creategroupinselectedgrouping'] = 'Crea grup en l\'agrupament seleccionat';
+$string['databaseupgradegroups'] = 'La versió de grups és ara $a';
 $string['defaultgroupdescription'] = 'Descripció de grup per defecte';
 $string['defaultgroupingname'] = 'Agrupament';
 $string['defaultgroupname'] = 'Grup';
@@ -64,6 +65,8 @@ $string['return'] = 'Torna';
 $string['save'] = 'Desa';
 $string['selectnumberineachgroup'] = 'Selecciona nombre d\'estudiants per grup';
 $string['selectnumberofgroups'] = 'Selecciona nombre de grups';
+$string['showgroupsingrouping'] = 'Mostra grups de l\'agrupament';
+$string['showmembersforgroup'] = 'Mostra membres del grup';
 $string['showusersalreadyingroup'] = 'Mostra usuaris que ja són en un grup de l\'agrupament';
 $string['teachersgroupmark'] = 'El professorat no pot puntuar activitats de grups als quals no pertany';
 $string['teachersgroupview'] = 'El professorat no pot veure activitats de grups als quals no pertany';
