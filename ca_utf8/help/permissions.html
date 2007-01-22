@@ -5,7 +5,7 @@ Els permisos són les definicions de capacitats específiques que podeu atorgar.
 </p>
 
 <p>
-Per exemple, una capacitat és "Iniciar nous debats" (en fòrums).
+Per exemple, una capacitat és "Iniciar nous debats" (en els fòrums).
 </p>
 
 <p>
@@ -22,7 +22,7 @@ En cada rol, podeu donar al permís corresponent a aquesta capacitat un dels qua
 <dd>Amb aquest valor se suprimeix el permís per a aquesta capacitat, fins i tot en cas que als usuaris que tinguin assignat aquest rol se'ls hagi atorgat el permís en un context superior.</dd>
 
 <dt>PROHIBEIX</dt>
-<dd>Aquest valor només s'utilitza ocasionalment, quan es vol denegar completament el permís a un rol de manera que no es puguin definir excepcions en un nivell inferior. Un bon exemple d'això seria un cas en què l'administrador vol prohibir que cert usuari iniciï cap debat en cap fòrum del lloc. Llavors podria crear un rol amb el valor "Prohibeix" en aquesta capacitat i assignar-lo a l'usuari en el context del lloc.
+<dd>Aquest valor només s'utilitza ocasionalment, quan es vol denegar completament el permís a un rol de manera que no es puguin definir excepcions en un nivell inferior. Un bon exemple d'això seria un cas en què l'administrador vol prohibir que cert usuari iniciï cap debat en cap fòrum del lloc. Llavors podria crear un rol amb el valor "Prohibeix" en aquesta capacitat i assignar-lo a l'usuari en el context de tot el lloc.
   </dd>
 
 </dl>
@@ -30,7 +30,7 @@ En cada rol, podeu donar al permís corresponent a aquesta capacitat un dels qua
 
 <h1>Resolució de conflictes de permisos</h1>
 
-<p>Els contextos "inferiors" generalment tenen preferència sobre els contextos superiors, tant pel que fa als rols assignats com pel que fa a les excepcions. Tret del permís "Prohibeix" que no permet excepcions en nivells més baixos.
+<p>Els contextos "inferiors" generalment tenen preferència sobre els contextos superiors, tant pel que fa als rols assignats com pel que fa a les excepcions. Tret del permís "Prohibeix", que no permet excepcions en nivells més baixos.
 </p>
 
 <p>Si una persona té assignats dos rols en el mateix context, un amb "Permet" i l'altre amb "Impedeix", quin guanya? En aquest cas Moodle cercarà la jerarquia de contextos per decidir.</p>
@@ -40,13 +40,13 @@ En cada rol, podeu donar al permís corresponent a aquesta capacitat un dels qua
 
 <h1>Excepcions especials</h1>
 
-<p>Teniu en compte que a l'usuari visitant generalment se li impedirà enviar continguts (als fòrums, al calendari, a les bitàcoles) encara que se li atorguessin les capacitats corresponents.
+<p>Teniu en compte que al compte d'usuari visitant generalment se li impedirà posar continguts (en els fòrums, en el calendari, en les bitàcoles) encara que se li atorguessin les capacitats corresponents.
 </p>
 
 <p>
 Vegeu també:  
-<a href="help.php?file=roles.html">Rols</a>,
-<a href="help.php?file=contexts.html">Contextos</a>,
-<a href="help.php?file=assignroles.html">Assignació de rols</a> i
-<a href="help.php?file=overrides.html">Excepcions</a>.
+<a href="help.php?file=roles.html">rols</a>,
+<a href="help.php?file=contexts.html">contextos</a>,
+<a href="help.php?file=assignroles.html">assignació de rols</a> i
+<a href="help.php?file=overrides.html">excepcions</a>.
 </p>
