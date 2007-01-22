@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.2 (2004032000)
+      // glossary.php - created with Moodle 1.6.3 (2006050530)
 
 
 $string['addcomment'] = 'Legg til kommentar';
@@ -10,6 +10,7 @@ $string['allcategories'] = 'Alle kategorier';
 $string['allentries'] = 'ALLE';
 $string['allowcomments'] = 'Tillat kommentarer til oppføringer';
 $string['allowduplicatedentries'] = 'Tillat duplikate oppføringer';
+$string['allowprintview'] = 'Tillat utskriftsvisning';
 $string['allowratings'] = 'Tillat vurdering av oppføringer';
 $string['answer'] = 'Svar';
 $string['approve'] = 'Godkjenn';
@@ -27,7 +28,7 @@ $string['casesensitive'] = 'Store og små bokstaver må stemme i denne oppførin
 $string['categories'] = 'Kategorier';
 $string['category'] = 'Kategori';
 $string['categorydeleted'] = 'Kategori slettet';
-$string['categoryview'] = 'Sorter etter kategori ';
+$string['categoryview'] = 'Sorter etter kategori';
 $string['cnfallowcomments'] = 'Bestem om ordboken skal tillate kommentarer til oppføringer som standard';
 $string['cnfallowdupentries'] = 'Bestem om ordboken skal tillate duplikate oppføringer som standard';
 $string['cnfapprovalstatus'] = 'Bestem standard godkjenningsstatus for oppføringer lagt inn av studenter';
@@ -49,6 +50,7 @@ $string['commentson'] = 'Kommentar til';
 $string['commentupdated'] = 'Kommentaren er oppdatert.';
 $string['concept'] = 'Begrep';
 $string['concepts'] = 'Begreper';
+$string['configenablerssfeeds'] = 'Denne bryteren gjør det mulig å lage RSS-matninger av alle ordbøkene. Du vil allikevel måtte slå på slike matninger manuelt i innstillingene for hver enkelt ordbok.';
 $string['currentglossary'] = 'Gjeldende ordbok';
 $string['dateview'] = 'Sorter etter dato';
 $string['defaultapproval'] = 'Standard godkjenningstatus';
@@ -60,14 +62,14 @@ $string['deletingnoneemptycategory'] = 'Dersom du sletter denne kategorien vil d
 $string['descending'] = '(synkende)';
 $string['destination'] = 'Mål';
 $string['displayformat'] = 'Visningsformat';
-$string['displayformat2'] = 'Full med forfatter';
-$string['displayformat3'] = 'Leksikon';
-$string['displayformat4'] = 'OSS - Ofte stilte spørsmål';
-$string['displayformat5'] = 'Full uten forfatter';
-$string['displayformat6'] = 'Liste over oppføringer';
 $string['displayformatcontinuous'] = 'Kontinuerlig uten forfatter';
-$string['displayformatdefault'] = 'Enkel ordlistestil';
+$string['displayformatdictionary'] = 'Enkel ordboksstil';
+$string['displayformatencyclopedia'] = 'Encyclopaedia';
+$string['displayformatfaq'] = 'OSS';
+$string['displayformatfullwithauthor'] = 'Full, med forfatter';
+$string['displayformatfullwithoutauthor'] = 'Full, uten forfatter';
 $string['displayformats'] = 'Visningsformater';
+$string['displayformatssetup'] = 'Vis formatoppsett';
 $string['duplicateentry'] = 'Duplikatoppføring';
 $string['editcategories'] = 'Rediger kategorier';
 $string['editentry'] = 'Rediger oppføring';
@@ -87,20 +89,20 @@ $string['explainall'] = 'Vis ALLE oppføringene på en side';
 $string['explainalphabet'] = 'Bla gjennom ordboken med dette indekset';
 $string['explainexport'] = 'En fil er opprettet.<br /><small>(Se lenken nederst på siden, \'Eksportert fil\'.)</small><br />Last den ned og lagre den. Du kan importere den senere i denne klassen eller i andre klasser.
 
-Last den ned og ';
-$string['explainimport'] = '<b>Du må velge:</b><ul><li>Hvilken fil du vil importere (Klikk \'Bla gjennom...\')</li><li>Til hvilken ordliste den skal (Velg \'Mål\')</li><li>Skal kategorier også importeres (Sett en hake i boksen \'Importer kategorier\')</li><li>Velg det du ønsker nedenfor og klikk \'Lagre endringer\' for å se resultatet.</li></ul>';
+Last den ned og';
+$string['explainimport'] = '<b>Du må velge:</b><li>Hvilken fil du vil importere (Klikk \'Bla gjennom...\')<li>Til hvilken ordliste den skal (Velg \'Mål\')<li>Skal kategorier også importeres (Sett en hake i boksen \'Importer kategorier\')<li>Velg det du ønsker nedenfor og klikk \'Lagre endringer\' for å se resultatet.';
 $string['explainspecial'] = 'Vis oppføringer som starter med andre tegn enn bokstaver';
 $string['exportedentry'] = 'Eksportert oppføring';
-$string['exportedfile'] = 'Eksportert fil';
 $string['exportentries'] = 'Eksporter oppføringer';
+$string['exportfile'] = 'Eksporter oppføringer til fil';
 $string['exportglossary'] = 'Eksporter ordbok';
 $string['exporttomainglossary'] = 'Eksporter til hovedordbok';
 $string['filetoimport'] = 'Fil du vil importere';
 $string['fillfields'] = '\'Begrep\' og \'Definisjon\' er obligatoriske felter.';
 $string['filtername'] = 'Automatisk lenking i ordbok';
 $string['fullmatch'] = 'Bare hele ord blir lenket<br /><small>(når det lenkes automatisk)</small>';
+$string['globalglossary'] = 'GLobal ordbok';
 $string['glossarytype'] = 'Type ordbok';
-$string['glosssaryexported'] = 'Ordbok eksportert';
 $string['importcategories'] = 'Importer kategorier';
 $string['importedcategories'] = 'Importerte kategorier';
 $string['importedentries'] = 'Importerte oppføringer';
@@ -124,6 +126,7 @@ $string['notcategorised'] = 'Ikke kategorisert';
 $string['numberofentries'] = 'Antall oppføringer';
 $string['onebyline'] = '(en per linje)';
 $string['printerfriendly'] = 'Skrivervennlig versjon';
+$string['printviewnotallowed'] = 'Utskriftsvisning er ikke tillatt';
 $string['question'] = 'Spørsmål';
 $string['rate'] = 'Vurder';
 $string['rating'] = 'Vurdering';
@@ -153,6 +156,8 @@ $string['totalentries'] = 'Totalt antall oppføringer';
 $string['usedynalink'] = 'Lag lenker til ordbokoppføringer automatisk';
 $string['waitingapproval'] = 'Venter på godkjenning';
 $string['warningstudentcapost'] = '(Gjelder bare dersom ordboken ikke er hovedordboken)';
+$string['withauthor'] = 'Konsepter med forfatter';
+$string['withoutauthor'] = 'Konsepter uten forfatter';
 $string['writtenby'] = 'av';
 $string['youarenottheauthor'] = 'Du er ikke forfatteren av denne kommentaren, så du kan ikke redigere den.';
 

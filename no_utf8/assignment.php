@@ -38,6 +38,9 @@ $string['emailteachermail'] = '$a->username har oppdatert sin oppgaveinnlevering
 
 Den er tilgjengelig her: 
 $a->url';
+$string['emailteachermailhtml'] = '$a->username har oppdatert sin innlevering av oppgave 
+for <i>\'$a->assignment\'</i><br /><br />
+Den er <a href=\"$a->url\">tilgjengelig på nettstedet</a>.';
 $string['emailteachers'] = 'Epostvarsel til lærere';
 $string['emptysubmission'] = 'Du har ikke levert noenting ennå';
 $string['existingfiledeleted'] = 'Eksisterende fil er slettet: $a';
@@ -46,15 +49,25 @@ $string['feedback'] = 'Tilbakemelding';
 $string['feedbackfromteacher'] = 'Tilbakemelding fra $a';
 $string['feedbackupdated'] = 'Tilbakemelding oppdatert for $a personer';
 $string['graded'] = 'Karaktersatt';
+$string['guestnosubmit'] = 'Beklager, gjester har ikke lov til å levere inn oppgaver. Du må logge inn/registere deg før du kan levere inn besvarelsen ditt.';
 $string['guestnoupload'] = 'Beklager, gjester har ikke lov til å laste opp';
 $string['helpoffline'] = '<p>Dette er nyttig når oppgaven utføres uten Moodle. Det kan være et annet sted på nettet eller ansikt-til-ansikt.</p><p>Studenter kan se en beskrivelse av oppgaven, men de kan ikke laste opp filer eller annet. Karaktersetting fungerer vanligvis, og studenter vil få melding om sine karakterer.</p>';
+$string['helponline'] = '<p>Denne oppgavetypen spør brukerne om å editere en tekst, ved bruk av vanlige redigeringsverktøy. Lærerne kan karaktersette dem på nett, og til og med skrive noen kommentarlinjer eller endringer i teksten.</p><p>(Hvis du er vant til en eldre versjon av Moodle, gjør denne oppgavetypen det samme som den gamle Journal-modulen pleide å gjøre.)</p>';
+$string['helpupload'] = '<p>Denne oppgavetypen tillater hver deltaker å laste opp en eller flere filer av hvilken som helst type.</p>
+<p>Det kan være et Word-dokument, bilder, et komprimert nettsted,eller hva som helst du ber dem om å levere inn.</p>
+<p>Denne typen tillater deg å laste opp flere svarfiler av hvilken som helst type.</p>';
+$string['helpuploadsingle'] = '<p>Denne type innlevering lar hver deltaker laste opp en enkelt fil av hvilken som helst type.</p><p>Dette kan være et Word-dokument, et bilde, et komprimert nettsted, eller hva som helst du ellers måtte be dem om å levere inn.</p>';
 $string['late'] = '$a for sent';
+$string['markingsubmitnotification'] = 'Filen har blitt sendt til karaktersetting.';
 $string['maximumgrade'] = 'Maks karakter/poeng';
 $string['maximumsize'] = 'Maks filstørrelse';
 $string['modulename'] = 'Innlevering';
 $string['modulenameplural'] = 'Innlevering';
 $string['namedeletefile'] = 'Du holder på å slette denne filen:';
 $string['newsubmissions'] = 'Leverte oppgaver';
+$string['noassignments'] = 'Det er ingen oppgaver ennå';
+$string['noattempts'] = 'Det har ikke vært gjort noen forsøk på denne oppgaven ennå.';
+$string['nofilesforsubmit'] = 'Ingen filer ble funnet for innlevering - er du sikker på at du har lastet opp noen fil?';
 $string['notgradedyet'] = 'Ikke satt karakter enda';
 $string['notsubmittedyet'] = 'Ikke levert enda';
 $string['overwritewarning'] = 'Advarsel: Laster du opp på nytt vil du OVERSKRIVE din leverte oppgave';
@@ -62,14 +75,21 @@ $string['pagesize'] = 'Innleveringer vist pr side';
 $string['preventlate'] = 'Forhindre sene innleveringer';
 $string['quickgrade'] = 'Tillat rask karaktersetting';
 $string['removelink'] = 'Fjern';
+$string['responsefile'] = 'Svarfil:';
+$string['responsesfromteacher'] = 'Svar lastet opp av Lærer';
 $string['saveallfeedback'] = 'Lagre og send all(e) tilbakemelding(er)';
+$string['sendformarking'] = 'Send for karaktersetting';
 $string['step1'] = 'Trinn 1:';
 $string['step2'] = 'Trinn 2:';
 $string['submission'] = 'Innlevering';
 $string['submissionfeedback'] = 'Tilbakemelding';
 $string['submissions'] = 'Leveringer';
 $string['submissionsaved'] = 'Dine endringer er lagret';
+$string['submissionsnotgraded'] = '$a innleveringer ikke karaktersatt';
+$string['submissionstatus'] = 'Innleveringsstatus:';
+$string['submissionstatusblank'] = 'Tom';
 $string['submissionstatusdraft'] = 'Kladd';
+$string['submissionstatusmarked'] = 'Karaktersatt';
 $string['submissionstatusreturned'] = 'Returnert';
 $string['submissionstatussubmitted'] = 'Innlevert';
 $string['submitassignment'] = 'Lever din oppgave med nettskjemaet nedenfor';
