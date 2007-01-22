@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2007011200)
+      // moodle.php - created with Moodle 1.8 dev (2007012101)
 
 
 $string['action'] = '동작';
@@ -297,6 +297,7 @@ $string['creatingcoursemodules'] = '배움터 모듈 만들기';
 $string['creatingcourseroles'] = '배움터 수준의 역할부여 및 박탈권 생성';
 $string['creatingevents'] = '일정 만들기';
 $string['creatinggradebook'] = '성적표 만들기';
+$string['creatinggroupings'] = '모둠무리 만들기';
 $string['creatinggroups'] = '모듬 만들기';
 $string['creatinglogentries'] = '로그 목록 만들기';
 $string['creatingmessagesinfo'] = '메시지 정보 만들기';
@@ -1452,9 +1453,10 @@ $string['writingcoursedata'] = '코스 데이터 쓰기';
 $string['writingeventsinfo'] = '이벤트 정보 쓰기';
 $string['writinggeneralinfo'] = '일반적 정보 쓰기';
 $string['writinggradebookinfo'] = '성적표 정보 쓰기';
-$string['writinggroupsinfo'] = '그룹 정보 쓰기';
+$string['writinggroupingsinfo'] = '모둠무리 정보 쓰기';
+$string['writinggroupsinfo'] = '모둠 정보 쓰기';
 $string['writingheader'] = '머릿말 쓰기';
-$string['writingloginfo'] = '로그 정보 쓰기';
+$string['writingloginfo'] = '기록 정보 쓰기';
 $string['writingmessagesinfo'] = '로그 암호 쓰기';
 $string['writingmoduleinfo'] = '모듈 정보 쓰기';
 $string['writingscalesinfo'] = '점수 정보 쓰기';
