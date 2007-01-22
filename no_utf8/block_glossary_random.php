@@ -1,27 +1,27 @@
 <?PHP // $Id$ 
-      // block_glossary_random.php - created with Moodle 1.5.2 (2005060220)
+      // block_glossary_random.php - created with Moodle 1.6.3 (2006050530)
 
 
-$string['addentry'] = 'Legg til favrittsitatene dine';
-$string['askaddentry'] = 'When users can add entries to the glossary, show a link with this text';
-$string['askinvisible'] = 'When users cannot edit or view the glossary, show this text (without link)';
-$string['askviewglossary'] = 'When users can view the glossary but not add entries, show a link with this text';
-$string['blockname'] = 'Gloser på slump';
-$string['intro'] = 'Make sure you have at least one glossary with at least one entry added to this course. Then you can adjust the following settings';
-$string['invisible'] = '(to be continued)';
-$string['lastmodified'] = 'Last modified entry';
-$string['nextone'] = 'Neste';
-$string['noentriesyet'] = 'There are no entries yet in the chosen glossary.';
-$string['notyetconfigured'] = 'Please configure this block using the edit icon.';
-$string['notyetglossary'] = 'You need to have at least one glossary to choose.';
-$string['random'] = 'Random entry';
-$string['refresh'] = 'Days before a new entry is chosen';
-$string['select_glossary'] = 'Take entries from this glossary';
-$string['showconcept'] = 'Show concept (heading) for each entry';
+$string['addentry'] = 'Legg til favorittsitatene dine!';
+$string['askaddentry'] = 'Når brukere kan legge til elementer til ordboken, vis en lenke med denne teksten';
+$string['askinvisible'] = 'Når brukere ikke kan editere eller se ordboken, vis denne teksten (uten lenke)';
+$string['askviewglossary'] = 'Når brukere kan se ordboken men ikke editere elementer, vis en lenke med denne teksten';
+$string['blockname'] = 'Tilfeldig valgt element';
+$string['intro'] = 'Forsikre deg om at du har minst en ordbok med minst ett element lagt til dette kurset. Så kan du justere de følgende innstillinger';
+$string['invisible'] = '(fortsettelse følger)';
+$string['lastmodified'] = 'Sist modifiserte element';
+$string['nextone'] = 'Neste element';
+$string['noentriesyet'] = 'Det er ingen elementer ennå i den valte ordboken.';
+$string['notyetconfigured'] = 'Vær vennlig å konfigurere denne boksen ved hjelp av redigeringsikonet.';
+$string['notyetglossary'] = 'Du må ha minst en ordbok for å velge.';
+$string['random'] = 'Tilfeldig valgt element';
+$string['refresh'] = 'Dager før et nytt element velges';
+$string['select_glossary'] = 'Ta elementer fra denne ordboken';
+$string['showconcept'] = 'Vis begrep (overskrift) for hvert element';
 $string['title'] = 'Tittel';
-$string['type'] = 'How a new entry is chosen';
-$string['typehelp'] = '<b>Last modified entry</b> will always display the entry that was last modified, and <b>Random entry</b> will choose a new one at random every time.  The option <b>Next entry</b> will cycle through the entries in order.  This last option is especially useful when a number of days is also chosen, allowing you to make a <i>Quote of the week</i> or a <i>Tip of the day</i> that everyone sees.';
+$string['type'] = 'Hvordan et nytt element velges';
+$string['typehelp'] = '<b>Sist modifiserte element</b> vil alltid vise elementet som ble modifisert sist, og <b>Tilfeldig valgt element</b> vil velge et nytt element tilfeldig hver gang.  Valget <b>Neste element</b> vil løpe gjennom elementene i rekkefølge.  Dette siste valger er spesielt nyttig når et antall dager også velges. Det lar deg velge <i>Ukens sitat</i> eller <i>Dagens tips</i> som alle vil se.';
 $string['viewglossary'] = 'Flere sitat';
-$string['whichfooter'] = 'You can display links to actions of the glossary this block is associated with. The block will only display links to actions which are enabled for that glossary.';
+$string['whichfooter'] = 'Du kan vise lenker til handlinger i ordboken som denne boksen er assosiert med. Boksen vil bare vise lenker til handlinger som er slått på for denne ordboken.';
 
 ?>
