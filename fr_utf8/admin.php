@@ -516,6 +516,7 @@ $string['timezoneforced'] = 'Ce réglage est imposé par l\'administrateur du si
 $string['timezoneisforcedto'] = 'Imposer à tous les utilisateurs l\'utilisation du fuseau horaire';
 $string['timezonenotforced'] = 'Les utilisateurs peuvent choisir leur fuseau horaire';
 $string['tokenizerrecommended'] = 'L\'installation de l\'extension PHP Tokenizer est recommandée. Elle améliore les fonctionnalités du Réseau Moodle.';
+$string['unattendedoperation'] = 'Opération sans surveillance';
 $string['unbookmarkthispage'] = 'Supprimer le marque-page de cette page';
 $string['unicoderecommended'] = 'Il est recommandé de stocker toutes vos données en Unicode (UTF-8). Toute nouvelle installation de Moodle devrait être effectuée dans une base de données ayant comme jeu de caractères par défaut Unicode (UTF-8). Si vous effectuez une mise à jour de Moodle, veuillez procéder à la migration de votre base de données en Unicode (voir la page d\'administration).';
 $string['unicoderequired'] = 'Le stockage des données en format Unicode (UTF-8) est requis.  Toute nouvelle installation de Moodle doit être effectuée dans une base de données ayant comme jeu de caractères par défaut Unicode (UTF-8). Si vous effectuez une mise à jour de Moodle, veuillez procéder à la migration de votre base de données en Unicode (voir la page d\'administration).';
