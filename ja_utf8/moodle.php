@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2007011200)
+      // moodle.php - created with Moodle 1.8 dev (2007012101)
 
 
 $string['action'] = '操作';
@@ -737,6 +737,7 @@ $string['lastname'] = '姓';
 $string['lastyear'] = '昨年';
 $string['latestlanguagepack'] = 'moodle.orgで最新の言語パックをチェックする';
 $string['latestnews'] = '最新ニュース';
+$string['layouttable'] = 'レイアウトテーブル';
 $string['leavetokeep'] = '現在のパスワードを使う場合は空白にしてください。';
 $string['license'] = 'GPLライセンス';
 $string['liketologin'] = 'フルユーザアカウントでログインしますか?';
