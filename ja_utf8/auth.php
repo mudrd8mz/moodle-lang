@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8 dev (2007011200)
+      // auth.php - created with Moodle 1.8 dev (2007012101)
 
 
 $string['alternatelogin'] = 'ここにURLを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong> フィールドおよび <strong>password</strong> フィールドをMoodleに渡してください。<br />間違ったURLを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合、空白のままにしてください。';
@@ -114,7 +114,7 @@ $string['auth_ldap_expiration_key'] = '有効期限切れ';
 $string['auth_ldap_expiration_warning_desc'] = 'パスワードの有効期限切れを警告するまでの日数を入力してください。';
 $string['auth_ldap_expiration_warning_key'] = '有効期限切れを警告';
 $string['auth_ldap_expireattr_desc'] = 'オプション: ldap-attributeはパスワードの有効期限passwordExpirationTimeを保存します。';
-$string['auth_ldap_exprireattr_key'] = '有効期限切れ属性';
+$string['auth_ldap_expireattr_key'] = '有効期限切れ属性';
 $string['auth_ldap_graceattr_desc'] = '任意: 猶予ログイン属性をオーバーライドする';
 $string['auth_ldap_gracelogin_key'] = '猶予ログイン属性';
 $string['auth_ldap_gracelogins_desc'] = 'LDAPの猶予ログインサポートを有効にします。パスワードの有効期限が切れた後、猶予ログインカウントがゼロになるまでログインすることができます。この設定を「Yes」にすると、パスワードが期限切れになった場合に猶予ログインメッセージが表示されます。';
