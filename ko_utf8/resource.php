@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 dev (2006092601)
+      // resource.php - created with Moodle 1.8 dev (2007012101)
 
 
 $string['addresource'] = '자료 추가';
@@ -79,7 +79,7 @@ $string['notdeployed'] = '배포되지 않음';
 $string['note'] = '노트';
 $string['notefile'] = '더욱 많은 파일을 올리기 위해서는(이곳에 표시가 됨) <a href=\"$a\">파일 관리자</a>을 이용하시오.';
 $string['notypechosen'] = '유형을 선택해야 합니다. 뒤로가기 버튼을 클릭하신후 재 시도해 주시기 바랍니다.';
-$string['packagechanged'] = '이 IMX 컨텐츠 팩키지는 변경되었습니다.';
+$string['packagechanged'] = '이 IMS 컨텐츠 팩키지는 변경되었습니다.';
 $string['packagenotdeplyed'] = 'IMS 컨텐츠 팩키지가 배치되지 않았습니다.';
 $string['pagedisplay'] = '최근의 창 범위 내의 요소를 표시하십시오.';
 $string['pagewindow'] = '같은 윈도우';
@@ -91,17 +91,17 @@ $string['popupresourcelink'] = '활성화 되지 않으면 이곳을 클릭하�
 $string['preview'] = '미리보기';
 $string['previous'] = '이전';
 $string['redeploy'] = '다시 배포';
-$string['repository'] = 'IMS  저장소';
+$string['repository'] = 'IMS 저장소';
 $string['resource:view'] = '자원 보기';
 $string['resourcetype'] = '자료의 유형';
 $string['resourcetype1'] = '출처';
 $string['resourcetype2'] = '웹 페이지';
-$string['resourcetype3'] = '업로드 파일';
-$string['resourcetype4'] = '텍스트';
+$string['resourcetype3'] = '올린 파일';
+$string['resourcetype4'] = '일반 문서';
 $string['resourcetype5'] = '웹 링크';
-$string['resourcetype6'] = 'HTML 텍스트';
+$string['resourcetype6'] = 'HTML 문서';
 $string['resourcetype7'] = '프로그램';
-$string['resourcetype8'] = '위키 텍스트';
+$string['resourcetype8'] = '위키 문서';
 $string['resourcetype9'] = '디렉토리';
 $string['resourcetypedirectory'] = '디렉토리 표시하기';
 $string['resourcetypefile'] = '파일이나 웹 사이트로 링크(연결)하기';

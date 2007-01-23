@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2007011200)
+      // admin.php - created with Moodle 1.8 dev (2007012101)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -130,8 +130,8 @@ $string['configmaxbytes'] = '이것은 사이트전체에 걸쳐 올릴 수 있�
 $string['configmaxeditingtime'] = '이것은 사용자들이 게시한 여러 내용들을 수정할 수 있는 시간여유를 규정한다.
 일반적으로 30분이 적당하다.';
 $string['configmaxevents'] = '보일 최대 행사';
-$string['configmemcachedhosts'] = '메모리캐쉬용. memchace데몬이 구동되는 호스트의 목록을 쉼표로 구분하여 적는다. DNS 지연을 막으로면 IP주소를 사용하도록 한다. memcached는 호스트가 구동 중일 때 추가하거나 삭제할 경우 잘 작동하지 않는다.';
-$string['configmemcachedpconn'] = '메모리캐쉬용. 계속 연결을 사용. 주의해서 사용할 것 -- memcached 데몬을 재 가동시킨 후 아파치/PHP 를 작동불능으로 만들 수도 있다.';
+$string['configmemcachedhosts'] = '메모리캐쉬용. memchace데몬이 구동되는 호스트의 목록을 쉼표로 구분하여 적는다. DNS 지연을 막으려면 IP주소를 사용하도록 한다. memcached는 호스트가 구동 중일 때 추가하거나 삭제할 경우 잘 작동하지 않는다.';
+$string['configmemcachedpconn'] = '메모리캐쉬용. 계속 연결을 사용. 주의해서 사용할 것 -- memcached 데몬을 재 가동시킨 후 아파치/PHP 가 작동하지 않을 수도 있다.';
 $string['configmessaging'] = '사이트 사용자들 간에 내부 메세지 시스템을 이용할 수 있게 할까요?';
 $string['configmymoodleredirect'] = '이 설정은 관리자가 아닌 사람이 로그인 할 때 강제적으로 /my 경로로 가게하고 /my 경로에 새로운 환경을 구성하도록 만든다.';
 $string['confignonmetacoursesyncroleids'] = '기본적으로 하위 배움터의 모든 출석은 메타코스와 동기화된다. 여기에서 선택된 역할들은 동기화 과정에 포함되지 않는다.';
@@ -367,11 +367,11 @@ $string['misc'] = '기타';
 $string['mnetrestore_extusers'] = '<strong>주의:</strong>이 백업파일에는 진행과정 중 복원될 수 있는 무들네트웍의 원격 사용자 계정 정보가 포함되어 있습니다.';
 $string['mnetrestore_extusers_mismatch'] = '<strong>주의:</strong> 이 백업파일은 현재와는 다른 무들 설정을 기반으로 작성되었고 복구에 실패할 지도 모르는 무들네트웍의 원격 사용자 계정 정보가 들어 있습니다. 만일 이것이 현재의 무들 설정을 기반으로 작성되었다고 확신을 하거나 필요한 모든 무들네트웍 설정이 완벽하다고 믿는다면, 복구를 시도할 수도 있을 것이다.';
 $string['modulesecurity'] = '모듈 보안';
-$string['multilangforceold'] = 'Force old multilang syntax: <span> without the class=\"multilang\" and <lang>';
+$string['multilangforceold'] = '강제로 예전의 다중언어 문법 사용: <span> without the class=\"multilang\" and <lang>';
 $string['multilangupgrade'] = '다중언어 판올림';
 $string['multilangupgradeinfo'] = '1.8판 이후에는 다중언어 처리 문법이 바뀌어서 더 이상 <lang> 태그를 지원하지 않습니다. <br /><br />예: <span lang=\"en\" class=\"multilang\">Hello!</span><span lang=\"es\" class=\"multilang\">Hola!</span><br /><br />
 <strong>기존의 구문들을 새 다중언어 문법으로 판올림하겠습니까?</strong>';
-$string['multilangupgradenotice'] = '이사이트는 오래된 다중언어 문법을 사용하고 있는 듯 하므로 <a href=\"multilangupgrade.php\">다중언어 판올림</a>이 필요합니다.';
+$string['multilangupgradenotice'] = '이 사이트는 오래된 다중언어 문법을 사용하고 있는 듯 하므로 <a href=\"multilangupgrade.php\">다중언어 판올림</a>이 필요합니다.';
 $string['mustenablestats'] = '아직 통계수집을 하도록 설정하지 않았습니다.';
 $string['mymoodle'] = '내 공부방';
 $string['mymoodleredirect'] = '강제로 내 공부방으로 가게 함';
@@ -390,7 +390,7 @@ $string['notifyloginthreshold'] = '이메일 알림을 위한 문턱값';
 $string['notloggedinroleid'] = '방문자 역할';
 $string['opensslrecommended'] = '추가적인 OpenSSL 라이브러리를 설치할 것을 강력히 권고한다. 이는 무들 네트웍 기능을 가능하게 할 수 있다.';
 $string['opentogoogle'] = 'Google에 개방';
-$string['optionalmaintenancemessage'] = '유지보수 알림';
+$string['optionalmaintenancemessage'] = '추가 유지보수 알림글';
 $string['order1'] = '첫번째';
 $string['order2'] = '두번째';
 $string['order3'] = '세번째';
@@ -450,7 +450,7 @@ $string['profilerequired'] = '이 항목이 필요합니까?';
 $string['profileshortname'] = '짧은 이름(중복되지 않아야 함)';
 $string['profileshortnamenotunique'] = '이미 사용된 이름입니다.';
 $string['profilespecificsettings'] = '세부 설정';
-$string['profilevisible'] = '누가 이 항목을 보게할까요?';
+$string['profilevisible'] = '누가 이 항목을 볼 수 있게 할까요?';
 $string['profilevisibleall'] = '모든 이에게 공개';
 $string['profilevisiblenone'] = '숨김';
 $string['profilevisibleprivate'] = '사용자에게 공개';
@@ -467,8 +467,8 @@ $string['restrictbydefault'] = '초기 설정으로 모듈 제한';
 $string['restrictmodulesfor'] = '다음에 대하여 모듈 제한';
 $string['riskconfig'] = '사용자가 사이트의 설정과 작동을 변경할 수 있음';
 $string['riskconfigshort'] = '위험한 설정';
-$string['riskmanagetrust'] = '사용자가 다른 사용자의 신임 설정을 변경할 수 있음';
-$string['riskmanagetrustshort'] = '신뢰 관리';
+$string['riskmanagetrust'] = '사용자가 다른 사용자의 인증 설정을 변경할 수 있음';
+$string['riskmanagetrustshort'] = '인증 관리';
 $string['riskpersonal'] = '사용자가 다른 사용자의 개인 정보에 접근할 수 있음';
 $string['riskpersonalshort'] = '개인신상 노출 위험';
 $string['riskspam'] = '사용자가 타인에게 스팸메일을 보낼 수 있음';
@@ -492,7 +492,7 @@ $string['simpletest'] = '항목 점검';
 $string['sitelangchanged'] = '사이트의 언어설정이 성공적으로 변경되었습니다.';
 $string['sitemailcharset'] = '글꼴 모음';
 $string['sitemaintenance'] = '이 사이트는 점검 중이며 현재 사용할 수 없습니다.';
-$string['sitemaintenancemode'] = '점검 및 유지보수';
+$string['sitemaintenancemode'] = '유지 보수';
 $string['sitemaintenanceoff'] = '점검이 끝나고, 다시 일반적인 작동 상태가 되었습니다.';
 $string['sitemaintenanceon'] = '이 사이트는 현재 점검중입니다(관리자만 이 사이트를 사용하거나 로그인 할 수 있습니다).';
 $string['sitemaintenancewarning'] = '현재 유지 점검 상태에 있습니다(관리자만 로그인 할 수 있습니다.) 일반 작업으로 되돌리시려면 <a href=\"maintenance.php\">정상 작동</a>모드를 사용하십사오.';
@@ -526,6 +526,7 @@ $string['timezoneforced'] = '사이트 관리자에 의해 지정되어 있습�
 $string['timezoneisforcedto'] = '모든 사용자가 강제로 사용해야 합니다.';
 $string['timezonenotforced'] = '나름대로의 표준 시간대를 사용할 수 있습니다.';
 $string['tokenizerrecommended'] = '추가적인 PHP Tokenizer 확장 설치가 요구됩니다. -- 이는 무들 네트웍의 기능을 향상시킵니다.';
+$string['unattendedoperation'] = '부재 작동';
 $string['unbookmarkthispage'] = '갈무리 지정 해제';
 $string['unicoderecommended'] = '모든 자료를 유니코드(UTF-8)로 저장해야 합니다. 새 설정은 기본 문자코드가 유니코드로 저장되어 있다고 가정하고 작동이 됩니다. 만일 업그레이드 중이라면 반드시 UTF-8 변환과정을 수행하여야만 합니다.(관리화면 참조)';
 $string['unicoderequired'] = '여러분의 모든 자료가 유니코드(UTF-8)로 저장되야 합니다. 새 설정은 기본 문자코드가 유니코드로 저장되어 있다고 가정하고 작동이 됩니다. 만일 업그레이드 중이라면 반드시 UTF-8 변환과정을 수행하여야만 합니다.(관리화면 참조)';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 1.7 dev (2006092800)
+      // simpletest.php - created with Moodle 1.8 dev (2007012101)
 
 
 $string['all'] = '모두';
@@ -16,7 +16,7 @@ $string['retest'] = '점검 재 시도';
 $string['retestonlythisfile'] = '이 파일만 재 점검';
 $string['runall'] = '모든 파일에 대해 점검';
 $string['runat'] = '$ 에서 실행';
-$string['runonlyfile'] = '본 파일에 대해서만 점검 실행';
+$string['runonlyfile'] = '이 파일에 대해서만 점검 실행';
 $string['runonlyfolder'] = '본 폴더에 대해서만 점검 실행';
 $string['runtests'] = '점검 실행';
 $string['rununittests'] = '항목 점검 실행';

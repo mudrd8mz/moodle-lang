@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.8 dev (2006102600)
+      // workshop.php - created with Moodle 1.8 dev (2007012101)
 
 
 $string['absent'] = '결석';
@@ -139,14 +139,14 @@ $string['mail5'] = '워크샵과제 \'$a\'에서 새로운 의견을 볼 수 있
 $string['mail6'] = '과제에 대한 당신의 평가 \'$a\'가 검토되었습니다.';
 $string['mail7'] = '$a에 의해 주어진 평을 워크샵 과제에서 볼 수 있습니다.';
 $string['mail8'] = '$a 과제는 수정된 과제입니다.';
-$string['mail9'] = '\'$a\' 워크샵 과제에서 그것을 평가해 주십시오';
-$string['managingassignment'] = '워크샵 관리';
+$string['mail9'] = '\'$a\' 협동학습 과제에서 그것을 평가해 주십시오';
+$string['managingassignment'] = '협동학습 관리';
 $string['maximum'] = '최대';
 $string['maximumsize'] = '최대크기';
 $string['mean'] = '평균';
 $string['minimum'] = '최소';
 $string['modulename'] = '워크샵';
-$string['modulenameplural'] = '워크샵모음';
+$string['modulenameplural'] = '협동학습모음';
 $string['movingtophase'] = '$a 단계로 이동합니다';
 $string['namesnotshowntostudents'] = '$a 에게는 이름이 보이지 않습니다.';
 $string['newassessments'] = '새로운 평가';
@@ -245,7 +245,7 @@ $string['scaleyes'] = '예/아니요 척도';
 $string['select'] = '선택';
 $string['selfassessment'] = '자기평가';
 $string['sgrade'] = 'Sbmsn<br />성적';
-$string['showdescription'] = '워크샵 설명 보이기';
+$string['showdescription'] = '협동학습 설명 보이기';
 $string['showgrades'] = '성적 보이기';
 $string['showsubmission'] = '$a 제출 보이기';
 $string['specimenassessmentform'] = '평가 양식 견본';
@@ -311,14 +311,14 @@ $string['weights'] = '가중치';
 $string['weightsusedforfinalgrade'] = '기말성적의 가중치';
 $string['weightsusedforsubmissions'] = '제출물들에 대한 가중치';
 $string['workshop:manage'] = '설정 관리';
-$string['workshop:participate'] = '워크샵에 참가하기';
-$string['workshopagreedassessments'] = '워크샵에서 동의된 평가';
-$string['workshopassessments'] = '워크샵 평가';
-$string['workshopcomments'] = '워크샵 논평';
-$string['workshopfeedback'] = '워크샵 피드백';
-$string['workshopsubmissions'] = '워크샵 제출물';
-$string['wrongpassword'] = '워크샵에 틀린 암호';
-$string['yourassessments'] = '동료들의 일에 대한 평가';
+$string['workshop:participate'] = '협동학습에 참가하기';
+$string['workshopagreedassessments'] = '협동학습에서 동의된 평가';
+$string['workshopassessments'] = '힙동학습 평가';
+$string['workshopcomments'] = '협동학습 논평';
+$string['workshopfeedback'] = '협동학습 피드백';
+$string['workshopsubmissions'] = '협동학습 제출물';
+$string['wrongpassword'] = '틀린 협동학습 암호';
+$string['yourassessments'] = '동료들의 작업에 대한 평가';
 $string['yourassessmentsofexamplesfromtheteacher'] = '$a에서 당신 평가의 예';
 $string['yourfeedbackgoeshere'] = '당신의 반응은 여기로';
 $string['yoursubmissions'] = '당신의 제출물들';
