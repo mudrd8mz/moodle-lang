@@ -730,6 +730,7 @@ $string['lastname'] = 'Nom';
 $string['lastyear'] = 'Année passée';
 $string['latestlanguagepack'] = 'Chercher les derniers paquetages de langue sur moodle.org';
 $string['latestnews'] = 'Dernières nouvelles';
+$string['layouttable'] = 'Tableau pour mise en page';
 $string['leavetokeep'] = 'Laisser vide pour ne pas changer le mot de passe';
 $string['license'] = 'Licence GPL';
 $string['liketologin'] = 'Voulez-vous vous connecter avec un compte utilisateur&nbsp;?';
