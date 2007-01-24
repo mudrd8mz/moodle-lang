@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 dev (2006092601)
+      // xmldb.php - created with Moodle 1.8 dev (2007012400)
 
 
 $string['aftertable'] = '다음 표 :';
@@ -72,8 +72,8 @@ $string['numberincorrectdecimals'] = '숫자 필드에 적합하지 않은 십�
 $string['numberincorrectlength'] = '숫자 필드에 맞지 않는 길이';
 $string['reserved'] = '유보됨';
 $string['reservedwords'] = '유보된 단어들';
-$string['revert'] = '되돌이킴';
-$string['revert_changes'] = '변경 되돌이킴';
+$string['revert'] = '복구';
+$string['revert_changes'] = '변경 복구';
 $string['save'] = '저장';
 $string['selectaction'] = '작동 선택';
 $string['selectdb'] = '데이터베이스 선택';
