@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8 dev (2007011200)
+      // auth.php - created with Moodle 1.8 dev (2007012400)
 
 
 $string['alternatelogin'] = '여기에 URL을 입력해 놓으면, 그것은 이 사이트를 위한 로그인 페이지로 사용될 것이다. 그것은 <strong>\'$a\'</strong> 처럼 실행문을 가진 형태여야 하고 <strong>사용자ID</strong>  <strong>password</strong> 그리고 Return 필드를 포함하여야 한다. 
@@ -118,8 +118,8 @@ $string['auth_ldap_expiration_desc'] = '만료된 비밀번호 검색을 불가�
 $string['auth_ldap_expiration_key'] = '만료';
 $string['auth_ldap_expiration_warning_desc'] = '비밀번호 만료 전 경고할 날의 여유';
 $string['auth_ldap_expiration_warning_key'] = '만료 경고';
-$string['auth_ldap_expireattr_desc'] = '선택 사항 : 비밀번호 만료 시간이 저장되는 ldap속성보다 우선한다. passwordExpirationTime';
-$string['auth_ldap_exprireattr_key'] = '만료 속성';
+$string['auth_ldap_expireattr_desc'] = '선택 사항 : 저장되는 비밀번호 만료 시간이 ldap속성보다 우선한다.';
+$string['auth_ldap_expireattr_key'] = '만료 속성';
 $string['auth_ldap_graceattr_desc'] = '선택사항 : 유예기간 로그인 속성보다 우선함';
 $string['auth_ldap_gracelogin_key'] = '유예 로그인 속성';
 $string['auth_ldap_gracelogins_desc'] = 'LDAP 유예기간 로그인 지원이 가능하다. 비밀번호가 만기된 후에 사용자는 유예기간 로그인이 0이 되기 전까지 로그인 가능하다. 만약 이 설정을 \"예\"로 놓으면 비밀번호가 만료될 경우에 유예기간 로그인 메세지를 보여준다.';

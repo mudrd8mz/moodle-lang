@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8 dev (2007011200)
+      // mnet.php - created with Moodle 1.8 dev (2007012400)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (자동 서명)';
@@ -83,6 +83,7 @@ $string['keymismatch'] = '소지하고 있는 공개키는 최근 공개된 이 
 $string['last_connect_time'] = '최근 접속 시각';
 $string['last_connect_time_help'] = '이 호스트에 접속했던 가장 최근의 접속 시각';
 $string['last_transport_help'] = '이 호스트에 최종 접속할 때 사용한 접속 계층';
+$string['loginlinkmnetuser'] = '<br />무들 네트웍의 원격 사용자라면 <a href=\"$a\">여기에서 이메일 주소를 확인</a>할 수 있으며, 로그인 화면으로 되돌아 올 수 있다.<br />';
 $string['logs'] = '기록';
 $string['mnet'] = '무들 네트웍';
 $string['mnet_concatenate_strings'] = '3 문자열로 축약하여 결과 전송';
