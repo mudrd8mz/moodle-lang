@@ -74,6 +74,7 @@ $string['keymismatch'] = 'La clef publique que vous détenez pour ce serveur est
 $string['last_connect_time_help'] = 'La date de votre dernière connexion à ce serveur.';
 $string['last_connect_time'] = 'Dernière connexion';
 $string['last_transport_help'] = 'Le transport utilisé lors de votre dernière connexion à ce serveur.';
+$string['loginlinkmnetuser'] = '<br/>Si vous êtes un utilisateur distant du Réseau Moodle et pouvez <a href=\"$a\">confirmer ici votre adresse de courriel</a>, vous pouvez être redirigé vers votre page de connexion.<br />';
 $string['logs'] = 'Historiques';
 $string['mnet'] = 'Réseau Moodle';
 $string['mnet_concatenate_strings'] = 'Concaténer (jusqu\'à) 3 chaînes et retourner le résultat';
