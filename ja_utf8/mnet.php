@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8 dev (2007012101)
+      // mnet.php - created with Moodle 1.8 dev (2007012400)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
@@ -29,6 +29,7 @@ $string['databaseerror'] = '詳細をデータベースに書き込めません�
 $string['deleteaserver'] = 'サーバを削除する';
 $string['deletekeycheck'] = '本当にこのキーを削除してもよろしいですか?';
 $string['deleteuserrecord'] = 'SSO ACL: $a[1] からのユーザレコード $a[0] を削除します。';
+$string['deletewrongkeyvalue'] = 'エラーが発生しました。あなたがサーバのSSLキーを削除しようと試みているのでなければ、悪意のある攻撃を受けている可能性があります。SSLキーの処理は行われませんでした。';
 $string['deny'] = '拒否';
 $string['description'] = '説明';
 $string['editenrolments'] = '登録';
@@ -98,9 +99,11 @@ $string['nohostid'] = 'このページでは、整数のホストIDを入力し�
 $string['noipmatch'] = 'リモートマシンのIPアドレス <em>$a[0]</em> がレコードのIPアドレス <em>$a[1]</em> と合致しません。';
 $string['nolocaluser'] = 'リモートユーザのローカルレコードが存在しません。';
 $string['nomodifyacl'] = 'あなたはMNETアクセスコントロールリストの変更を許可されていません。';
+$string['nonmatchingcert'] = '証明書のサブジェクト: <br /><em>$a[0]</em><br />が次のホストの証明書と合致しません:<br /><em>$a[1]</em>.';
 $string['nopubkey'] = '公開鍵の検索時に問題が発生しました。<br />ホストがMoodleネットワーキングを許可していないか、公開鍵が有効ではありません。';
 $string['nosite'] = 'サイトレベルコースが見つかりませんでした。';
 $string['nosuchfile'] = 'ファイル/関数 $a が存在していません。';
+$string['nosuchfunction'] = 'RPCの機能が存在しないか、禁止されています。';
 $string['nosuchpublickey'] = '署名認証のための公開鍵を取得できません。';
 $string['nosuchservice'] = 'このホストではRPCサービスが動作していません。';
 $string['nosuchtransport'] = 'このIDのトランスポートはありません。';
