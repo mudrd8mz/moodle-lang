@@ -1391,6 +1391,7 @@ $string['userlist'] = 'Liste des utilisateurs';
 $string['username'] = 'Nom d\'utilisateur';
 $string['usernameemailmatch'] = 'Le nom d\'utilisateur et l\'adresse de courriel données ne correspondent pas au même utilisateur';
 $string['usernameexists'] = 'Ce nom d\'utilisateur existe déjà, veuillez en choisir un autre';
+$string['usernamelowercase'] = 'Seules les minuscules sont autorisées';
 $string['usernamenotfound'] = 'Ce nom d\'utilisateur n\'a pas été trouvé dans la base de données';
 $string['usernotconfirmed'] = 'L\'utilisateur $a n\'a pas pu être confirmé';
 $string['userpic'] = 'Image de l\'utilisateur';
