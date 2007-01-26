@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 dev (2006120700)
+      // group.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['addexistinggroupstogrouping'] = 'Mevcut grupları gruplamaya ekle';
@@ -10,6 +10,7 @@ $string['createautomaticgrouping'] = 'Otomatik gruplama oluştur';
 $string['creategroup'] = 'Grup oluştur';
 $string['creategrouping'] = 'Gruplama oluştur';
 $string['creategroupinselectedgrouping'] = 'Seçili gruplamada grup oluştur';
+$string['databaseupgradegroups'] = 'Grup sürümü şu anda $a';
 $string['defaultgroupdescription'] = 'Varsayılan grup açıklaması';
 $string['defaultgroupingname'] = 'Gruplama';
 $string['defaultgroupname'] = 'Grup';
@@ -23,7 +24,12 @@ $string['editgroupingpermissions'] = 'Gruplama yetkilerini düzenle';
 $string['editgroupingsettings'] = 'Gruplama ayarlarını düzenle';
 $string['editgroupsettings'] = 'Grup ayarlarını düzenle';
 $string['enrolmentkey'] = 'Kayıt anahtarı';
+$string['erroreditgroup'] = '$a grubunu oluştururken/güncellerken hata';
+$string['erroreditgrouping'] = '$a gruplamasını oluştururken/güncellerken hata';
+$string['errorinvalidgroup'] = 'Hata, geçersiz grup $a';
+$string['errorinvalidgrouping'] = 'Hata, geçersiz gruplama $a';
 $string['errornotingrouping'] = 'Üzgünüz, $a içinde bir grup oluşturamazsınız.';
+$string['errornotingroupingedit'] = 'Üzgünüz, $a gruplamasını düzenleyemezsiniz.';
 $string['group'] = 'Grup';
 $string['groupdescription'] = 'Grup açıklaması';
 $string['groupfor'] = 'grup için';
@@ -64,6 +70,8 @@ $string['return'] = 'Geri dön';
 $string['save'] = 'Kaydet';
 $string['selectnumberineachgroup'] = 'Her bir gruptaki sayı';
 $string['selectnumberofgroups'] = 'Grup sayısını seçin';
+$string['showgroupsingrouping'] = 'Gruplamadaki grupları göster';
+$string['showmembersforgroup'] = 'Grup için üyeleri göster';
 $string['showusersalreadyingroup'] = 'Gruplamada zaten bir grupta olan öğrencileri göster';
 $string['teachersgroupmark'] = 'Eğitimciler, abonesi olmadıkları gruplardaki etkinlikleri işaretleyemez';
 $string['teachersgroupview'] = 'Eğitimciler, abonesi olmadıkları gruplardaki etkinlikleri göremez';

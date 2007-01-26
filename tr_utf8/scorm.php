@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.8 dev (2006102600)
+      // scorm.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['advanced'] = 'Parametreler';
@@ -29,8 +29,11 @@ $string['domxml'] = 'DOMXML harici kütüphanesi';
 $string['element'] = 'Öge';
 $string['entercourse'] = 'Kursa gir';
 $string['errorlogs'] = 'Hata kayıtları';
+$string['everyday'] = 'Her gün';
+$string['everytime'] = 'Kullandığı her zaman';
 $string['exit'] = 'Kurstan çık';
 $string['expcoll'] = 'Genişlet/Daralt';
+$string['external'] = 'Harici paket zamanlamasını güncelle';
 $string['failed'] = 'Hata oluştu';
 $string['firstaccess'] = 'İlk erişim';
 $string['firstattempt'] = 'İlk uygulama';
@@ -84,6 +87,7 @@ $string['noscriptnoscorm'] = 'Tarayıcınız javascripti desteklemiyor veya etki
 $string['not_corr_type'] = '$a->tag etiketi için tip uyumsuzluğu';
 $string['notattempted'] = 'Uygulanmadı';
 $string['objectives'] = 'Amaçlar';
+$string['onchanges'] = 'Ne zaman değişirse';
 $string['organization'] = 'Düzenleme';
 $string['organizations'] = 'Düzenlemeler';
 $string['othertracks'] = 'Diğer İzlemeler';

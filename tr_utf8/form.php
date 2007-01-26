@@ -1,11 +1,10 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8 dev (2006120700)
+      // form.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['addfields'] = 'Forma $a alan ekle';
 $string['advancedelement'] = 'Gelişmiş Öğe';
 $string['day'] = 'Gün';
-$string['denotesreq'] = '$a gerekli alanları gösterir.';
 $string['display'] = 'Göster';
 $string['err_alphanumeric'] = 'Buraya sadece harfleri veya rakamları girmelisiniz.';
 $string['err_email'] = 'Buraya geçerli bir e-posta adresi girmelisiniz.';
@@ -17,7 +16,7 @@ $string['err_nopunctuation'] = 'Buraya noktalama işareti girmemelisiniz.';
 $string['err_numeric'] = 'Buraya bir sayı girmelisiniz.';
 $string['err_rangelength'] = 'Buraya {$a->format[0]} ile {$a->format[1]} karakter arasında girmelisiniz.';
 $string['err_required'] = 'Buraya bir değer girmelisiniz.';
-$string['general'] = 'Genel Ayarlar';
+$string['general'] = 'Genel';
 $string['hideadvanced'] = 'Gelişmişi Gizle';
 $string['hour'] = 'Saat';
 $string['minute'] = 'Dakika';
@@ -26,9 +25,12 @@ $string['modstandardels'] = 'Genel Modül Ayarları';
 $string['month'] = 'Ay';
 $string['nomethodforaddinghelpbutton'] = '$a->name (sınıf $a->classname) form ögesi için yardım butonu ekleme metodu yok.';
 $string['nonexistentformelements'] = 'Var olmayan form ögelerine yardım butonları eklenmeye çalışılıyor: $a';
+$string['optional'] = 'İsteğe bağlı';
 $string['requiredelement'] = 'Gerekli alan';
+$string['requiredfield'] = 'Bu gerekli bir alandır';
 $string['security'] = 'Güvenlik';
 $string['showadvanced'] = 'Gelişmişi Göster';
+$string['somefieldsrequired'] = 'Bu formda doldurulması gerekli alanlar var';
 $string['timing'] = 'Süre';
 $string['year'] = 'Yıl';
 
