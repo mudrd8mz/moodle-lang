@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2006120700)
+      // admin.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['accessdenied'] = 'Erişim engellendi';
@@ -34,10 +34,12 @@ $string['bookmarkalreadyexists'] = 'Bu sayfayı yer imi olarak zaten eklediniz.'
 $string['bookmarkdeleted'] = 'Yer imi silindi.';
 $string['bookmarkthispage'] = 'yer imlerine ekle';
 $string['cachetext'] = 'Metin önbellek ömrü';
+$string['cachetype'] = 'Önbellek tipi';
 $string['calendar_weekend'] = 'Haftasonu Günleri';
 $string['calendarsettings'] = 'Takvim';
 $string['change'] = 'değiştir';
 $string['changesitelang'] = 'Site dilini değiştir';
+$string['choosefiletoedit'] = 'Yukarıdaki kutudan düzenlenecek dosyayı seçin';
 $string['clamfailureonupload'] = 'ClamAV hata verdiğinde';
 $string['cleanup'] = 'Temizlik';
 $string['componentinstalled'] = 'Bileşen Kuruldu';
@@ -81,7 +83,6 @@ $string['configeditorfontlist'] = 'Editör menüsünde görünecek fontları se�
 $string['configenableajax'] = 'Bu ayar, gelişmiş istemci/sunucu arayüzü için kullanılan AJAX denetimini site geneli kontrol etmenize olanak sağlar. Bu ayarı etkinleştirirseniz, kullanıcılar kendi profillerinde bunu ayarlayıp ayarlayamama seçeneğine de sahip olacaklardır. Aksi durumda, AJAX herkes için kapalı olacaktır.';
 $string['configenablecourserequests'] = 'Bu herhangi bir kullanıcının kurs oluşturma isteğine izin verir.';
 $string['configenableglobalsearch'] = 'Bu ayar, kaynaklar ve etkinlikler içinde genel metin aramasını etkinleştirir ve PHP4 ile uyumlu değildir.';
-$string['configenablerecordcache'] = 'Bunu 0\'dan büyük bir sayı olarak ayarlarsanız, bellekteki bazı bilgiler veritabanından alınırken önbellekleme yapılacaktır. Bu, veritabanınızın daha iyi iş çıkaracağı anlamına gelir; ancak diğer taraftan da, web sunucunuzun bellek gereksinimi biraz arttırılacaktır. Genel olarak, sunucunuzun belleği düşük değilse bunu yaklaşık 50 olarak ayarlamanızı öneririz. Bazı işlemler, yazılım geliştiricinin performansı arttırmak istediği durumlarda bu ayarı hükümsüz kılmayı seçebilir.';
 $string['configenablerssfeeds'] = 'Bu ayar sitenin tamamı için RSS içeriklerini etkinleştirir. Aynı zamanda her bir modül için RSS etkinliğini de etkinleştirmelisiniz. Bunun için şu yolu takip edin: Yönetim - Yapılandırma - Modüller';
 $string['configenablerssfeedsdisabled'] = 'RSS içeriği tüm sitede pasifleştirildiği için buna erişilemez. Etkinleştirmek için Yönetim/Yapılandırma ayarlarından Değişkenler bölümüne gidin.';
 $string['configenablestats'] = '\'Evet\'i seçerseniz cronjob, kayıtları(loglar) ve gerekli bazı istatistikleri işleme alır. Sitenizin trafiğine bağlı olarak bu biraz zaman alabilir. Bunu etkinleştirirseniz her bir kursunuz hakkında ya da site bazında bazı ilginç grafikler ve istatistikler görebilirsiniz.';
@@ -223,6 +224,7 @@ $string['displayloginfailures'] = 'Giriş hatalarını göster';
 $string['docroot'] = 'Moodle Belgeleri yeri';
 $string['doctonewwindow'] = 'Yeni bir pencerede aç';
 $string['download'] = 'İndir';
+$string['editennotallowed'] = 'En_utf8 dil paketi bu sayfayla düzenlenemez, yerele geçin';
 $string['edithelpdocs'] = 'Yardım belgelerini düzenle';
 $string['editlang'] = '<b>Düzenle</b>';
 $string['editorbackgroundcolor'] = 'Arkaplan rengi';
@@ -251,6 +253,9 @@ $string['errorsetting'] = 'Ayar kaydedilemedi:';
 $string['errorwithsettings'] = 'Bazı ayarlar bir hata yüzünden değişmedi:';
 $string['experimental'] = 'Deneysel';
 $string['extendedusernamechars'] = 'Kullanıcı adlarında extra karakterlere izin ver';
+$string['filecreated'] = 'Yeni dosya oluşturuldu';
+$string['filestoredin'] = 'Dosyayı bu klasöre kaydet:';
+$string['filestoredinhelp'] = 'Dosyanın kaydedileceği yer';
 $string['filterall'] = 'Tüm ifadeleri filtrele';
 $string['filtermatchoneperpage'] = 'Eşleşeni her sayfada bir kez filtrele';
 $string['filtermatchonepertext'] = 'Eşleşeni her metinde bir kez filtrele';
@@ -266,6 +271,7 @@ $string['fullnamedisplay'] = 'Tam Ad Biçimi';
 $string['gdversion'] = 'GD sürümü';
 $string['generalsettings'] = 'Genel ayarlar';
 $string['globalsquoteswarning'] = '<p><strong>Güvenlik Uyarısı</strong>: Moodle\'ın düzgün bir şekilde çalışması için <br />şu anki PHP ayarlarınızda bazı değişikliklerin yapılması gerekiyor.</p><p><code>register_globals=off</code> ve/veya <code>magic_quotes_gpc=on</code> olarak <em>ayarlamalısınız</em>.<br />Mümkünse, sunucu güvenliğini üst düzeyde tutmak için <code>register_globals=off</code> olarak ayar yapmanız önerilir.<br />Aynı zamanda, <code>magic_quotes_gpc=on</code> olarak ayarlamanız tavsiye edilir.</p><p>Bu ayarları, <code>php.ini</code> dosyasını, Apache/IIS ayar dosyasını veya <code>.htaccess</code> dosyasını düzenleyerek yapabilirsiniz.</p>';
+$string['gotofirst'] = 'İlk eksik ifadeye git';
 $string['gradebook'] = 'Not defteri';
 $string['gradebookroles'] = 'Notlandırılan roller';
 $string['helpadminseesall'] = 'Yöneticiler tüm olayları mı yoksa sadece kendisine ait olayları mı görsün?';
@@ -336,9 +342,9 @@ $string['mediapluginwmv'] = '.WMV filtresini etkinleştir';
 $string['messaging'] = 'Mesajlaşma sistemini etkinleştir';
 $string['misc'] = 'Çeşitli';
 $string['modulesecurity'] = 'Modül güvenliği';
-$string['multilangforceold'] = 'Eski çokludil yazımını kullan: &lt;span&gt; class=\"multilang\" ve &lt;lang&gt; olmaksızın';
+$string['multilangforceold'] = 'Eski çokludil yazımını kullan: <span> class=\"multilang\" ve <lang> olmaksızın';
 $string['multilangupgrade'] = 'Çoklu dil güncellemesi';
-$string['multilangupgradeinfo'] = 'Çokludil filtresi yazım kuralı 1.8\'de değişmiştir; &lt;lang&gt; etiketi artık desteklenmemektedir.<br /><br />Örnek: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"tr\" class=\"multilang\">Merhaba!&lt;/span&gt;<br /><br /><strong>Şu anda bütün metinlerdeki yazımları güncellemek istiyor musunuz?</strong>';
+$string['multilangupgradeinfo'] = 'Çokludil filtresi yazım kuralı 1.8\'de değişmiştir; <lang> etiketi artık desteklenmemektedir.<br /><br />Örnek: <span lang=\"en\" class=\"multilang\">Hello!</span><span lang=\"tr\" class=\"multilang\">Merhaba!</span><br /><br /><strong>Şu anda bütün metinlerdeki yazımları güncellemek istiyor musunuz?</strong>';
 $string['multilangupgradenotice'] = 'Siteniz muhtemelen eski çokludil yazımını kullanıyor, a href=\"multilangupgrade.php\">çokludil güncellemesi</a> yapmanız tavsiye edilir.';
 $string['mustenablestats'] = 'Bu sitede istatistikler etkinleştirilmemiş';
 $string['mymoodle'] = 'Kişisel moodle';
@@ -355,6 +361,7 @@ $string['notifications'] = 'Bildirimler';
 $string['notifyloginfailures'] = 'Giriş hatalarını e-posta ile gönder';
 $string['notifyloginthreshold'] = 'Email bildirimleri için aralık';
 $string['notloggedinroleid'] = 'Konuklar için rol';
+$string['opensslrecommended'] = 'OpenSSL kütüphanesinin kurulması şiddetle tavsiye edilir. Bu, Moodle Ağının işlevsel çalışmasını mümkün kılar.';
 $string['opentogoogle'] = 'Google\'a aç';
 $string['optionalmaintenancemessage'] = 'İsteğe bağlı bakım mesajı';
 $string['order1'] = 'İlk';
@@ -381,6 +388,11 @@ $string['pgclusterdescription'] = 'Komut satırı işlemleri için PostgreSQL s�
 $string['php50restricted'] = 'PHP 5.0.x sürümünde çok fazla hata var. Lütfen sürümü, 5.1.x\'e yükseltin ya da 4.3.x veya 4.4.x sürümüne düşürün.';
 $string['pleaseregister'] = 'Bunu silmek için sitenizi kaydettirin';
 $string['plugins'] = 'Modüller';
+$string['profilecategory'] = 'Kategori';
+$string['profilecategoryname'] = 'Kategori adı (benzersiz olmalı)';
+$string['profilecategorynamenotunique'] = 'Bu kategori adı zaten kullanımda';
+$string['profilecommonsettings'] = 'genel ayarlar';
+$string['profilevisibleprivate'] = 'Kullanıcıya görünür';
 $string['protectusernames'] = 'Kullanıcıadlarını koru';
 $string['proxyhost'] = 'Vekil sunucu';
 $string['proxyport'] = 'Vekil sunucu portu';
@@ -438,6 +450,7 @@ $string['stickyblockscourseview'] = 'Kurs sayfası';
 $string['stickyblocksduplicatenotice'] = 'Belirli bir sayfada zaten var olan bloğu buraya eklerseniz aynısının kopyası oluşacaktır.<br />Sadece sabit blok düzenlenemez, ancak kopya blok düzenlenebilir.';
 $string['stickyblocksmymoodle'] = 'Kişisel moodle';
 $string['stickyblockspagetype'] = 'Yapılandırılacak sayfa tipi';
+$string['switchlang'] = 'Dil dizinine geç';
 $string['systempaths'] = 'Sistem yolları';
 $string['tabselectedtofront'] = 'Sekmeleri kullanan tablolarda, şimdiki seçili sekme ön tarafa yerleştirilsin mi?';
 $string['tabselectedtofronttext'] = 'Seçili sekmeyi öne getir';
