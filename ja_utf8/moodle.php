@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2007012101)
+      // moodle.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['action'] = '操作';
@@ -1412,6 +1412,7 @@ $string['userlist'] = 'ユーザ一覧';
 $string['username'] = 'ユーザ名';
 $string['usernameemailmatch'] = 'ユーザ名とメールアドレスが同じユーザに関連していません。';
 $string['usernameexists'] = 'このユーザ名はすでに使用されています　他のユーザ名を入力してください';
+$string['usernamelowercase'] = '小文字のみ使用できます。';
 $string['usernamenotfound'] = 'ユーザ名がデータベース内に見つかりませんでした。';
 $string['usernotconfirmed'] = '$a を確認できませんでした。';
 $string['userpic'] = 'ユーザ写真';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 dev (2007010404)
+      // quiz.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['1day'] = '1日';
@@ -258,12 +258,12 @@ $string['itemdefinition'] = '定義';
 $string['itemsource'] = '問題ソース';
 $string['itemsourceformat'] = '問題ソースフォーマット';
 $string['itemtypes'] = 'リモート問題タイプ';
-$string['keptcategory1'] = '同一カテゴリの再利用可能な定数群を使用';
-$string['keptcategory2'] = '同一カテゴリの再利用可能なファイル群を使用';
-$string['keptcategory3'] = '同一カテゴリの再利用可能なリンク群を使用';
-$string['keptlocal1'] = '同一質問のプライベート定数群を使用';
-$string['keptlocal2'] = '同一質問のプライベートファイル群を使用';
-$string['keptlocal3'] = '同一質問のプライベートリンク群を使用';
+$string['keptcategory1'] = '同一カテゴリの再利用可能な定数群を使用する';
+$string['keptcategory2'] = '同一カテゴリの再利用可能なファイル群を使用する';
+$string['keptcategory3'] = '同一カテゴリの再利用可能なリンク群を使用する';
+$string['keptlocal1'] = '同一質問のプライベート定数群を使用する';
+$string['keptlocal2'] = '同一質問のプライベートファイル群を使用する';
+$string['keptlocal3'] = '同一質問のプライベートリンク群を使用する';
 $string['lastanswer'] = 'あなたの直近の答えは';
 $string['learnwise'] = 'Learnwiseフォーマット';
 $string['link'] = 'リンク';
