@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 dev (2006120700)
+      // calendar.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['advancedoptions'] = 'Gelişmiş ayarlar';
@@ -9,6 +9,7 @@ $string['clickhide'] = 'gizle';
 $string['clickshow'] = 'göster';
 $string['commontasks'] = 'Seçenekler';
 $string['confirmeventdelete'] = 'Bu olayı silmek istediğinizden emin misiniz?';
+$string['courseevent'] = 'Kurs olayı';
 $string['courseevents'] = 'Ders olayları';
 $string['dayview'] = 'Günlük Görünüm';
 $string['daywithnoevents'] = 'Bugün bir olay yok.';
@@ -53,8 +54,10 @@ $string['for'] = 'için';
 $string['fri'] = 'Cum';
 $string['friday'] = 'Cuma';
 $string['generateurlbutton'] = 'Takvim URL getir';
+$string['globalevent'] = 'Genel olay';
 $string['globalevents'] = 'Genel olaylar';
 $string['gotocalendar'] = 'Takvime git';
+$string['groupevent'] = 'Grup olayı';
 $string['groupevents'] = 'Grup olayları';
 $string['hidden'] = 'gizli';
 $string['ical'] = 'iCal';
@@ -112,6 +115,7 @@ $string['typesite'] = 'Site olayı';
 $string['typeuser'] = 'Kullanıcı olayı';
 $string['upcomingevents'] = 'Yaklaşan Olaylar';
 $string['urlforical'] = 'iCalendar dışa verimi için URL, takvime abonelik için kullanılır';
+$string['userevent'] = 'Kullanıcı olayı';
 $string['userevents'] = 'Kullanıcı olayları';
 $string['wed'] = 'Çrş';
 $string['wednesday'] = 'Çarşamba';
