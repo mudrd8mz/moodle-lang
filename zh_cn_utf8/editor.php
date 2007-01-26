@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.5 ALPHA (2005050600)
+      // editor.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['about'] = '关于此编辑器';
@@ -31,6 +31,7 @@ $string['createlink'] = '插入链接';
 $string['cut'] = '剪切所选项';
 $string['cutpastemozilla'] = '很抱歉，您现在不能使用您所习惯的快捷键(甚至“粘贴”按钮)来粘贴文本到这个在线编辑器。这是一些版本的Mozilla和Firefox浏览器的内置安全特性引起的。<br /><br />您可以试试这三个已知的解决方法：<br /> (1) 用SHIFT+Insert来代替CTRL+v <br /> (2) 使用浏览器菜单里的Edit->Paste<br /> (3) 通过编辑user.js来改变浏览器的参数。<br /><br />点下面的“确定”键获得更多帮助，或者点“放弃”回到编辑器';
 $string['delete'] = '删除';
+$string['enterurlfirst'] = '您必须首先录入一个URL';
 $string['filebrowser'] = '文件浏览';
 $string['findwhat'] = '查找';
 $string['fontname'] = '字体名';
@@ -73,6 +74,7 @@ $string['matchcase'] = '匹配大小写';
 $string['middle'] = '中央';
 $string['minimize'] = '最小化编辑器';
 $string['move'] = '移动';
+$string['mustenterurl'] = '您必须录入URL';
 $string['nolink'] = '不自动处理链接';
 $string['normal'] = '常规';
 $string['notimage'] = '所选文件不是图片. 请选则一张图片!';
@@ -85,6 +87,7 @@ $string['paste'] = '粘贴';
 $string['path'] = '路径';
 $string['percent'] = '百分比';
 $string['pixels'] = '象素';
+$string['pleaseenteralt'] = '清录入替换的文本';
 $string['popupeditor'] = '在弹出的大窗口中打开编辑器';
 $string['preformatted'] = '默认段落字体';
 $string['preview'] = '预览';

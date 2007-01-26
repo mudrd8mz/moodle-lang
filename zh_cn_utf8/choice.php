@@ -1,11 +1,15 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.6 development (2005101200)
+      // choice.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addmorechoices'] = '更多选项';
 $string['allowupdate'] = '允许更新投票';
 $string['answered'] = '已答';
 $string['choice'] = '投票{$a}';
+$string['choice:choose'] = '记录投票';
+$string['choice:deleteresponses'] = '删除回复';
+$string['choice:downloadresponses'] = '下载回复';
+$string['choice:readresponses'] = '阅读回复';
 $string['choiceclose'] = '直到';
 $string['choicename'] = '投票名称';
 $string['choiceopen'] = '开启';
@@ -20,6 +24,8 @@ $string['limitanswers'] = '限制允许的最多次数';
 $string['modulename'] = '投票';
 $string['modulenameplural'] = '投票';
 $string['mustchooseone'] = '保存前必须先选择一个答案。没有数据被保存。';
+$string['noguestchoose'] = '对不起，访客们不允许投票';
+$string['noresultsviewable'] = '结果当前不可见';
 $string['notanswered'] = '未答';
 $string['notopenyet'] = '对于起，此活动在{$a}之后才可用';
 $string['privacy'] = '结果公开/保密';
@@ -30,8 +36,8 @@ $string['publishalways'] = '总是将结果显示给学生';
 $string['publishanonymous'] = '匿名公布结果，不显示学生姓名';
 $string['publishnames'] = '完全公开结果，显示学生姓名及其选择';
 $string['publishnot'] = '不向学生公布结果';
-$string['responses'] = '回答';
-$string['responsesto'] = '回答{$a}';
+$string['responses'] = '回复';
+$string['responsesto'] = '回复{$a}';
 $string['savemychoice'] = '保存我的选择';
 $string['showunanswered'] = '显示未回答的列';
 $string['spaceleft'] = '个可用空间';

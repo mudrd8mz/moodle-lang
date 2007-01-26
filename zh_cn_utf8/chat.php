@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // chat.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['beep'] = '呼叫';
+$string['chat:chat'] = '在聊天室里聊天';
+$string['chat:deletelog'] = '删除聊天日志';
+$string['chat:readlog'] = '阅读聊天日志';
 $string['chatintro'] = '简介文字';
 $string['chatname'] = '此聊天室名称';
 $string['chatreport'] = '聊天话题';
@@ -43,6 +46,7 @@ $string['nextsession'] = '下一个议定主题';
 $string['noguests'] = '此聊天室不对访客(guest)开放';
 $string['nomessages'] = '尚无消息';
 $string['normalkeepalive'] = '保持在线';
+$string['normalstream'] = '流';
 $string['noscheduledsession'] = '没有预定的主题';
 $string['repeatdaily'] = '每天的此刻';
 $string['repeatnone'] = '无回复';

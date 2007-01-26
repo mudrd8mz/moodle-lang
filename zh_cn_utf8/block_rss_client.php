@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.5 ALPHA (2005051500)
+      // block_rss_client.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addfeed'] = '添加新种子链接：';
 $string['addheadlineblock'] = '添加RSS标题块';
 $string['addnew'] = '添加新的';
+$string['blockname'] = 'RSS客户机';
 $string['choosefeedlabel'] = '显示您要显示在这个版块中的种子：';
 $string['clientchannellink'] = '源站点...';
 $string['clientnumentries'] = '缺省情况下每个种子显示多少条信息。';
@@ -31,7 +32,12 @@ $string['managefeeds'] = '管理我的全部种子';
 $string['nofeeds'] = '此站尚未添加RSS种子。';
 $string['pickfeed'] = '选择一个新闻种子';
 $string['remotenewsfeed'] = '远程新闻种子';
+$string['rss_client:createprivatefeeds'] = '产生私人的RSS种子';
+$string['rss_client:createsharedfeeds'] = '产生共享的RSS种子';
+$string['rss_client:manageanyfeeds'] = '管理任意的RSS种子';
+$string['rss_client:manageownfeeds'] = '管理自己的RSS种子';
 $string['seeallfeeds'] = '查看所有的种子';
+$string['sharedfeed'] = '共享种子';
 $string['shownumentrieslabel'] = '每个版块中最多显示几条。';
 $string['submitters'] = '允许谁定义新的RSS种子？已定义的种子可以在站点的任何页面显示。';
 $string['timeout'] = '读RSS种子超时';

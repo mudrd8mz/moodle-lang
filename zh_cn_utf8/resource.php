@@ -1,14 +1,17 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // resource.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addresource'] = '添加资源';
+$string['affectedresources'] = '受影响的资源';
 $string['back'] = '后退';
 $string['browserepository'] = '浏览仓库';
 $string['choose'] = '选择';
 $string['chooseafile'] = '选择或上传一个文件';
 $string['chooseparameter'] = '选择一个参数';
 $string['configallowlocalfiles'] = '允许在创建新文件资源时使用指向本地文件系统的链接，如光驱或者硬盘。这对于学生都在一个教室内访问网络驱动器或CD上的文件是很有用出的。是用这个功能可能要修改您的浏览器的安全设置。';
+$string['configautofilerenamesettings'] = '在文件管理器中重命名时自动更新文件索引和目录。';
+$string['configblockdeletingfilesettings'] = '版块删除由资源引用的文件和目录。请注意由不受保护的HTML引用的图像和其他文件。';
 $string['configdefaulturl'] = '当添加一个基于URL的资源时，该值用于预填URL表格.';
 $string['configfilterexternalpages'] = '使用该值将使所有外部资源(网页,上传的HTML文件) 按当前设定过滤(如词汇自动链接).使用此项将拖慢访问速度 - 当您确实需要时再谨慎的使用它.';
 $string['configframesize'] = '当页面或上传的文件显示在框架中时,该象素值设定顶层框架的大小';
@@ -90,6 +93,7 @@ $string['preview'] = '预览';
 $string['previous'] = '前面的';
 $string['redeploy'] = '重新部署';
 $string['repository'] = 'IMS仓库';
+$string['resource:view'] = '浏览资源';
 $string['resourcetype'] = '资源类型';
 $string['resourcetype1'] = '参考书目';
 $string['resourcetype2'] = '网页';
@@ -116,5 +120,7 @@ $string['upbutton'] = '向上';
 $string['variablename'] = '变量名';
 $string['viewims'] = '查看IMS包';
 $string['vol'] = '音量';
+$string['warningblockingdelete'] = '警告：存在的资源封锁了删除操作。首先机可以更新您的资源，或者请管理员使得全局资源配置中的安全机制无效。';
+$string['warningdisabledrename'] = '警告：在资源中引用地自动重命名是无效的。如果需要请手动更新受影响的资源。管理员也可以在全局资源配置中使得自感动重命名有效。';
 
 ?>

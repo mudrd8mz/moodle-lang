@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // workshop.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['absent'] = '缺席';
@@ -146,7 +146,7 @@ $string['maximumsize'] = '大小限制';
 $string['mean'] = '中间的';
 $string['minimum'] = '最小的';
 $string['modulename'] = '专题讨论';
-$string['modulenameplural'] = '专题讨论';
+$string['modulenameplural'] = '专题讨论（复数）';
 $string['movingtophase'] = '移动到区段{$a}';
 $string['namesnotshowntostudents'] = '名称没有显示给{$a}';
 $string['newassessments'] = '新的评价';
@@ -245,6 +245,7 @@ $string['scalepresent'] = '2 点有/无量表';
 $string['scaleyes'] = '2 点是/非量表';
 $string['select'] = '选择';
 $string['selfassessment'] = '自我评价';
+$string['sgrade'] = 'Sbmsn<br />成绩';
 $string['showdescription'] = '显示专题讨论注释';
 $string['showgrades'] = '显示得分';
 $string['showsubmission'] = '显示提交：{$a}';
@@ -310,6 +311,8 @@ $string['weightforteacherassessments'] = '教师评价的权重';
 $string['weights'] = '权重';
 $string['weightsusedforfinalgrade'] = '用于最后得分的权重';
 $string['weightsusedforsubmissions'] = '用于提交物的权重';
+$string['workshop:manage'] = '管理设置';
+$string['workshop:participate'] = '参与专题讨论作业';
 $string['workshopagreedassessments'] = '专题讨论同意的评价';
 $string['workshopassessments'] = '专题讨论的评价';
 $string['workshopcomments'] = '专题讨论的评论';

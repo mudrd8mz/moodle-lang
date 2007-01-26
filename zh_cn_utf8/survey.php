@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.5 ALPHA (2005042300)
+      // survey.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['actual'] = '实际的';
@@ -186,6 +186,9 @@ $string['scaletimes5'] = '几乎从不,不常,偶尔,经常,几乎总是';
 $string['seemoredetail'] = '点击这里看更多细节';
 $string['selectedquestions'] = '从一个量表中选出的问题，所有学生';
 $string['summary'] = '概要';
+$string['survey:download'] = '下载响应';
+$string['survey:participate'] = '对问卷调查作出响应';
+$string['survey:readresponses'] = '阅读响应';
 $string['surveycompleted'] = '您已经完成了该问卷。以下图表概要显示了您的结果与班级平均结果的比较。';
 $string['surveyname'] = '问卷名称';
 $string['surveysaved'] = '问卷已保存';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // exercise.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['absent'] = '无';
@@ -46,6 +46,7 @@ $string['enterpassword'] = '输入密码';
 $string['entriessaved'] = '项目已保存';
 $string['errorbanded'] = '多出错点选择';
 $string['excellent'] = '很好';
+$string['exercise:assess'] = '评定作业';
 $string['exerciseassessments'] = '作业评定';
 $string['exercisefeedback'] = '作业反馈';
 $string['exercisesubmissions'] = '作业文件';

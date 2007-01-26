@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // enrol_imsenterprise.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['aftersaving...'] = '一旦您保存了您的设置，您会希望';
@@ -18,6 +18,7 @@ $string['filelockedmail'] = '您在IMS文件基础上用的文本文件登陆($a
 $string['filelockedmailsubject'] = '重大错误：登陆文件';
 $string['fixcasepersonalnames'] = '在标题上更改个人姓名';
 $string['fixcaseusernames'] = '对低的情况更改个人姓名';
+$string['imsrolesdescription'] = 'IMS计划规范包括8个截然不同的角色类型。请您选择在Moodle中如何分配这些角色，包括应该忽略那些角色。';
 $string['location'] = '本地文件';
 $string['logtolocation'] = '日志文件输出到本地（空白表示没有日志文件）';
 $string['mailadmins'] = '电子邮件通知管理员';

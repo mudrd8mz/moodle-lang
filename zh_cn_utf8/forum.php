@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6.3 (2006050530)
+      // forum.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addanewdiscussion'] = '添加一个新讨论话题';
@@ -49,6 +49,7 @@ $string['disallowsubscribe'] = '不允许订阅';
 $string['disallowsubscribeteacher'] = '不允许订阅(教师除外)';
 $string['discussion'] = '话题';
 $string['discussionmoved'] = '该讨论已被移到“$a”。';
+$string['discussionmovedpost'] = '此话题已经移到</a>讨论区<a href=\"$a->forumhref\">$a->forumname</a>中<a href=\"$a->discusshref\">这里了';
 $string['discussionname'] = '话题名称';
 $string['discussions'] = '话题';
 $string['discussionsstartedby'] = '由{$a}发起的话题';
@@ -68,6 +69,23 @@ $string['existingsubscribers'] = '已存在的订阅者';
 $string['forcesubscribe'] = '强制每个人都订阅';
 $string['forcesubscribeq'] = '强制每个人都订阅吗?';
 $string['forum'] = '讨论区';
+$string['forum:createattachment'] = '产生附件';
+$string['forum:deleteanypost'] = '删除任何帖子（任何时间）';
+$string['forum:deleteownpost'] = '删除自己的帖子（在截止时间之内）';
+$string['forum:editanypost'] = '编辑任何帖子';
+$string['forum:managesubscriptions'] = '管理订阅';
+$string['forum:movediscussions'] = '移动话题';
+$string['forum:rate'] = '评价帖子';
+$string['forum:replypost'] = '回复帖子';
+$string['forum:splitdiscussions'] = '分割话题';
+$string['forum:startdiscussion'] = '开始新的话题';
+$string['forum:throttlingapplies'] = '调节申请';
+$string['forum:viewanyrating'] = '阅读任何评价';
+$string['forum:viewdiscussion'] = '阅读话题';
+$string['forum:viewhiddentimedposts'] = '阅读隐藏的定时帖子';
+$string['forum:viewqandawithoutposting'] = '始终看问题帖和答案帖';
+$string['forum:viewrating'] = '阅读评价';
+$string['forum:viewsubscribers'] = '看订阅者';
 $string['forumauthorhidden'] = '作者(隐藏)';
 $string['forumblockingalmosttoomanyposts'] = '您已经达到发帖的极限。在过去的{$a->blockperiod}里，您已经发表了{$a->numposts}个帖子。这个极限是{$a->blockafter}个帖子。';
 $string['forumbodyhidden'] = '您不能看到这些内容，可能因为您还没有登陆到讨论中';
@@ -76,6 +94,8 @@ $string['forumname'] = '讨论区名称';
 $string['forumposts'] = '讨论区帖子';
 $string['forums'] = '讨论区';
 $string['forumsubjecthidden'] = '主题(隐藏)';
+$string['forumtracked'] = '对未读帖子进行标记';
+$string['forumtrackednot'] = '对未读帖子不做标记';
 $string['forumtype'] = '讨论区类型';
 $string['generalforum'] = '一般用途的标准讨论区';
 $string['generalforums'] = '普通讨论区';
@@ -103,10 +123,10 @@ $string['modethreaded'] = '树状显示回贴标题';
 $string['modulename'] = '讨论区';
 $string['modulenameplural'] = '讨论区';
 $string['more'] = '更多';
+$string['movedmarker'] = '（移动）';
 $string['movethisdiscussionto'] = '将此论题移至...';
 $string['namenews'] = '新闻讨论区';
 $string['namesocial'] = '公众讨论区';
-$string['nameteacher'] = '教师讨论区';
 $string['newforumposts'] = '新贴子';
 $string['nodiscussions'] = '该讨论区尚无讨论话题';
 $string['noguestpost'] = '抱歉，访客不允许发贴';
@@ -114,6 +134,8 @@ $string['noguestsubscribe'] = '抱歉，系统不允许访客用email订阅讨�
 $string['noguesttracking'] = '对不起，访客不能设定跟踪选项。';
 $string['nomorepostscontaining'] = '未找到关键词是“{$a}”的帖子';
 $string['nonews'] = '尚无消息发布';
+$string['nopostdiscussion'] = '对不起，您不能在此话题发帖子';
+$string['nopostforum'] = '对不起，您不能在此论坛发贴子';
 $string['noposts'] = '没有贴子';
 $string['nopostscontaining'] = '找不到包含“{$a}”的贴子';
 $string['noquestions'] = '在此讨论区中尚无问题';
@@ -121,6 +143,7 @@ $string['nosubscribers'] = '尚无人订阅此讨论区';
 $string['nothingnew'] = '{$a}中没有什么新东西';
 $string['notingroup'] = '对不起, 您需要是一个组的成员才能浏览这个论坛。';
 $string['notrackforum'] = '不跟踪未读消息';
+$string['noviewdiscussionspermission'] = '没有许可您查看此论坛的话题';
 $string['nowallsubscribed'] = '已订阅{$a}中的所有讨论区';
 $string['nowallunsubscribed'] = '已退订{$a}中的所有讨论区';
 $string['nownotsubscribed'] = '{$a->name}将<b>不</b>再收到含有“{$a->forum}”帖子复件的电子邮件。';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // glossary.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addcomment'] = '添加评论';
@@ -105,6 +105,17 @@ $string['fillfields'] = '主名称和定义都是必须填写的项目。';
 $string['filtername'] = '词汇表自动链接';
 $string['fullmatch'] = '整词匹配';
 $string['globalglossary'] = '全局词汇表';
+$string['glossary:approve'] = '同意未经批准的词条';
+$string['glossary:comment'] = '产生注释';
+$string['glossary:export'] = '输出词条';
+$string['glossary:import'] = '输入词条';
+$string['glossary:managecategories'] = '管理类别';
+$string['glossary:managecomments'] = '管理注释';
+$string['glossary:manageentries'] = '管理词条';
+$string['glossary:rate'] = '评价词条';
+$string['glossary:view'] = '看词汇表';
+$string['glossary:viewrating'] = '看评价';
+$string['glossary:write'] = '产生新的词条';
 $string['glossaryleveldefaultsettings'] = '词汇表级缺省设置';
 $string['glossarytype'] = '词汇表类型';
 $string['importcategories'] = '导入类别';

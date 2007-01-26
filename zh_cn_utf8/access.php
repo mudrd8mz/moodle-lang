@@ -1,15 +1,19 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.6 Beta 4 (2006042800)
+      // access.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['access'] = '进入';
 $string['accesshelp'] = '进入帮助';
 $string['accesskey'] = '进入验证,{$a}';
 $string['accessstatement'] = '进入声明';
+$string['activitynext'] = '下一个活动';
+$string['activityprev'] = '前一个活动';
+$string['breadcrumb'] = '[面包屑踪迹]当前位置导航';
 $string['monthnext'] = '下月';
 $string['monthprev'] = '上月';
 $string['showhideblock'] = '显示或隐藏版块';
 $string['sitemap'] = '站点导航';
+$string['skipa'] = '跳过$a';
 $string['skipblock'] = '跳过版块';
 $string['skipnavigation'] = '跳过导航条';
 $string['tabledata'] = '数据表，{$a}';

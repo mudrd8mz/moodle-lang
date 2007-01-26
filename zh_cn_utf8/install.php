@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // install.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['admindirerror'] = '指定的管理目录不正确';
@@ -51,6 +51,42 @@ $string['databasesettingssub'] = '<b>类型：</b>mysql或postgres7<br />
 <b>用户：</b>访问数据库的用户名<br />
 <b>密码：</b>访问数据库的密码<br />
 <b>表格前缀：</b>在所有的表格名称前加上可选的前缀';
+$string['databasesettingssub_mssql'] = '<b>类型:</b> SQL*Server (非UTF-8) <b><font color=\"red\">实验的! (不是为了用在生产中)</font></b><br />
+<b>主机:</b> 例如，本地主机或者 db.isp.com<br />
+<b>名字:</b> 数据库名, 比如 moodle<br />
+<b>用户:</b> 您的数据库用户名<br />
+<b>密码:</b> 您的数据库密码<br />
+<b>表格前缀:</b> 前缀用于全部表格名 (强制的)';
+$string['databasesettingssub_mssql_n'] = '<b>类型:</b> SQL*Server (UTF-8 可以)<br />
+<b>主机:</b> 例如，本地主机或者db.isp.com<br />
+<b>名字:</b> 数据库名, 比如moodle<br />
+<b>用户:</b> 您的数据库用户名<br />
+<b>密码:</b> 您的数据库密码<br />
+<b>表格前缀:</b> 前缀用于全部表格名 (强制的)';
+$string['databasesettingssub_mysql'] = '<b>类型:</b> MySQL<br />
+<b>主机:</b> 例如，本地主机或者db.isp.com<br />
+<b>名字:</b> 数据库名, 比如moodle<br />
+<b>用户:</b> 您的数据库名<br />
+<b>密码:</b> 您的数据库密码<br />
+<b>表格前缀:</b> 前缀用于全部表格名（可选的）';
+$string['databasesettingssub_oci8po'] = '<b>类型:</b> Oracle<br />
+<b>主机:</b> 不用的, 必须留出空白<br />
+<b>名字:</b> 给出tnsnames.ora连接的名字<br />
+<b>用户:</b> 您的数据库名<br />
+<b>密码:</b> 您的数据库密码<br />
+<b>表格前缀:</b> 前缀用于全部表格名(强制的, 最大2cc.)';
+$string['databasesettingssub_odbc_mssql'] = '<b>类型:</b> SQL*Server (超过 ODBC) <b><font color=\"red\">实验的! (不是为了用在生产中)</font></b><br />
+<b>主机:</b> 给出ODBC控制面板中DSN的名字<br />
+<b>名字:</b> 数据库名, 比如moodle<br />
+<b>用户:</b> 您的数据库名<br />
+<b>密码:</b> 您的数据库密码<br />
+<b>表格前缀:</b> 前缀用于全部表格名(强制的)';
+$string['databasesettingssub_postgres7'] = '<b>类型:</b> PostgreSQL<br />
+<b>主机:</b> 例如，本地主机或者db.isp.com<br />
+<b>名字:</b> 数据库名, 比如moodle<br />
+<b>用户:</b> 您的数据库用户名<br />
+<b>密码:</b> 您的数据库密码<br />
+<b>表格前缀:</b> 前缀用于全部表格名(强制的)';
 $string['dataroot'] = '数据目录';
 $string['datarooterror'] = '找不到也无法创建您指定的“数据目录”，请更正路径或手工创建它。';
 $string['dbconnectionerror'] = '无法连接到您指定的数据库，请检查您的数据库设置。';
@@ -60,6 +96,9 @@ $string['dbpass'] = '密码';
 $string['dbprefix'] = '表格名称前缀';
 $string['dbtype'] = '类型';
 $string['dbwrongencoding'] = '您选择的数据库使用了字符集{$a}，我们推荐您使用一个Unicode (UTF-8)字符集的数据库。当然，您可以选择“跳过数据库字符集检查”来跳过这个环节，但您将来可能会遇到问题。';
+$string['dbwronghostserver'] = '正如上面解释的，您必须遵循“主机‘原则。';
+$string['dbwrongnlslang'] = '在您的网络服务器中的NLS——LANG环境变量必须用AL32UTF8 字符集。请查阅有关如何这正确配置OCI8的PHP文档';
+$string['dbwrongprefix'] = '正如上面解释的，您必须遵循“表格前缀‘原则。';
 $string['directorysettings'] = '<p>请确认安装Moodle的位置。</p>
 
 <p><b>Web地址:</b>
@@ -140,13 +179,23 @@ $string['memorylimithelp'] = '<p>您的服务器的PHP内存限制是${a}。</p>
 <blockquote>php_value memory_limit 16M</blockquote>
 <p>然而，在一些服务器上这会让<b>所有</b>PHP页面无法正常工作(在访问页面时会有错误)，因此您可能不得不删除.htaccess文件。</p></li>
 </ol>';
+$string['mssql'] = 'SQL*Server(mssql)';
+$string['mssql_n'] = '支持UTF-8的SQL*Server(mssql_n)';
+$string['mssqlextensionisnotpresentinphp'] = 'PHP对MSSQL扩展没有正确进行配置，以至于它可以和SQL*Server通信。请检查您的php.ini文件或者重新编译PHP。';
+$string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP的MySQL扩展并未安装正确，因此无法与MySQL通信。请检查您的php.ini文件或重新编译PHP。';
+$string['oci8po'] = 'Oracle (oci8po)';
+$string['ociextensionisnotpresentinphp'] = 'PHP对OCI8扩展没有正确进行配置，以至于它可以和Oracle通信。请检查您的php.ini文件或者重新编译PHP。';
+$string['odbc_mssql'] = '在ODBC上的SQL*Server(odbc_mssql)';
+$string['odbcextensionisnotpresentinphp'] = 'PHP对ODBC扩展没有正确进行配置，以至于它可以和SQL*Server通信。请检查您的php.ini文件或者重新编译PHP。';
 $string['pass'] = '通过';
+$string['pgsqlextensionisnotpresentinphp'] = 'PHP对PGSQL扩展没有正确进行配置，以至于它可以和PostgreSQL通信。请检查您的php.ini文件或者重新编译PHP。';
 $string['phpversion'] = 'PHP版本';
 $string['phpversionerror'] = 'PHP版本至少为4.1.0';
 $string['phpversionhelp'] = '<p>Moodle需要PHP 4.1.0以上的版本。</p>
 <p>您当前使用的是${a}</p>
 <p>您必须升级PHP或者转移到一个有新版PHP的服务器上!</p>';
+$string['postgres7'] = 'PostgreSQL (postgres7)';
 $string['safemode'] = '安全模式';
 $string['safemodeerror'] = '在安全模式下运行Moodle可能会有麻烦';
 $string['safemodehelp'] = '<p>在安全模式下运行Moodle可能会遇到一系列的问题，至少在会无法创建新文件。</p>

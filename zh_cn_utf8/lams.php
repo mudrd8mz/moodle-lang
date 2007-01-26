@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // lams.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['createSequence'] = '创建新的教学序列';
@@ -7,7 +7,9 @@ $string['editSequence'] = '编辑选中的序列';
 $string['error'] = '抱歉，发生了一个未知的错误。';
 $string['introduction'] = '介绍';
 $string['lams'] = '--LAMS --学习活动管理系统 --';
-$string['lamsoutline'] = ' LAMS 大纲';
+$string['lams:manage'] = '管理LAMS活动';
+$string['lams:participate'] = '参与LAMS活动';
+$string['lamsoutline'] = 'LAMS 大纲';
 $string['lesson'] = '学习会议';
 $string['modulename'] = 'LAMS';
 $string['modulenameplural'] = 'LAMS';

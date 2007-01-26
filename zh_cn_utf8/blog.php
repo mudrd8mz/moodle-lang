@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6.3 (2006050530)
+      // blog.php - created with Moodle 1.7+ (2006101007)
 
 
 $string['addnewentry'] = '增加新条目';
@@ -16,9 +16,10 @@ $string['blogtags'] = '博客分类';
 $string['courseblog'] = '课程博客：{$a}';
 $string['courseblogs'] = '用户只能浏览开放课程者的博客';
 $string['disableblogs'] = '完全禁止博客系统';
+$string['emptybody'] = '博客条目内容不可以为空';
+$string['emptytitle'] = '博客条目题目不可以为空';
 $string['entrybody'] = '博客条目内容';
 $string['entrybodyonlydesc'] = '条目描述';
-$string['entrydeleted'] = '博客条目已删除';
 $string['entryerrornotyours'] = '这不是您的条目';
 $string['entrysaved'] = '您的条目已经被保存';
 $string['entrytitle'] = '条目标题';
