@@ -490,10 +490,10 @@ $string['shufflewithin'] = '問題内部をシャッフルする';
 $string['significantfigures'] = '有効数字 $a 桁';
 $string['significantfiguresformat'] = '有効数字';
 $string['singleanswer'] = '1つの答えを選択してください。';
-$string['sortage'] = '作成日時で並び替え';
-$string['sortalpha'] = '問題名で並び替え';
-$string['sortsubmit'] = '問題の並び替え';
-$string['sorttypealpha'] = '問題タイプ・問題名で並び替え';
+$string['sortage'] = '作成日時で並び替える';
+$string['sortalpha'] = '問題名で並び替える';
+$string['sortsubmit'] = '問題を並び替える';
+$string['sorttypealpha'] = '問題タイプ・問題名で並び替える';
 $string['startagain'] = 'もう一度始める';
 $string['startedon'] = '開始日時';
 $string['subneterror'] = '申し訳ございません、この小テストは特定の場所からのみアクセス可能です。あなたのコンピュータは、この小テストを利用できるコンピュータではありません。';
@@ -542,8 +542,8 @@ $string['wronggrade'] = '誤評定 ($a 行目以降):';
 $string['wronguse'] = 'あなたは、このページをそのように使うことはできません。';
 $string['xhtml'] = 'XHTMLフォーマット';
 $string['xml'] = 'Moodle XMLフォーマット';
-$string['xmltypeunsupported'] = '問題タイプ $a は、xmlインポートでサポートされていません。';
+$string['xmltypeunsupported'] = '問題タイプ $a は、xmlインポートではサポートされていません。';
 $string['yourfinalgradeis'] = 'あなたの最終評点は $a です。';
-$string['zerosignificantfiguresnotallowed'] = '正解の有効数字には、ゼロを設定できません!';
+$string['zerosignificantfiguresnotallowed'] = '正解の有効数字にはゼロを設定できません!';
 
 ?>
