@@ -127,6 +127,7 @@ $string['movedmarker'] = '（移动）';
 $string['movethisdiscussionto'] = '将此论题移至...';
 $string['namenews'] = '新闻讨论区';
 $string['namesocial'] = '公众讨论区';
+$string['nameteacher'] = '教师讨论区';
 $string['newforumposts'] = '新贴子';
 $string['nodiscussions'] = '该讨论区尚无讨论话题';
 $string['noguestpost'] = '抱歉，访客不允许发贴';
