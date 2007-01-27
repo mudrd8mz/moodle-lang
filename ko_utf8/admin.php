@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2007012101)
+      // admin.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -328,7 +328,7 @@ $string['langimportsuccess'] = '언어팩 갱신 성공';
 $string['langlist'] = '언어 목록의 언어들';
 $string['langmenu'] = '언어 목록';
 $string['langpackremoved'] = '언어팩 제거 완료';
-$string['langpacks'] = '언어팩';
+$string['langpacks'] = '언어팩 설치';
 $string['langpackupdated'] = '언어팩 $a 설치 완료';
 $string['languagesettings'] = '언어 설정';
 $string['langupdatecomplete'] = '언어팩 업데이트 완료';

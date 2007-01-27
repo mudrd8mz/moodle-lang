@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2007012400)
+      // moodle.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['action'] = '동작';
@@ -896,8 +896,8 @@ $string['newpasswordtext'] = '$a->firstname 님 안녕하세요?
 $a->signoff';
 $string['newpicture'] = '새로운 사진';
 $string['newsitem'] = '새로운 항목';
-$string['newsitems'] = '새로운 항목들';
-$string['newsitemsnumber'] = '새로운 항목 보기';
+$string['newsitems'] = '새로운 소식';
+$string['newsitemsnumber'] = '볼 새 소식';
 $string['newuser'] = '새로운 사용자';
 $string['newusernewpasswordsubj'] = '새 사용자 계정';
 $string['newusernewpasswordtext'] = '\'$a->sitename\'에 새 계정이 생성되었고 임시암호가 발급되었습니다.
@@ -1392,6 +1392,7 @@ $string['userlist'] = '사용자 목록';
 $string['username'] = '사용자 아이디';
 $string['usernameemailmatch'] = '사용자 아이디와 이메일 주소는 다른 사용자와 같아서는 않됩니다.';
 $string['usernameexists'] = '이 아이디는 이미 사용중입니다. 다른 아이디를 사용하세요.';
+$string['usernamelowercase'] = '소문자만 허용됨';
 $string['usernamenotfound'] = '사용자 아이디가 데이터베이스에 없습니다.';
 $string['usernotconfirmed'] = '$a 를 확인 할 수 없습니다.';
 $string['userpic'] = '사용자 사진';
