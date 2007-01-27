@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 dev (2006101001)
+      // data.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['action'] = 'Actie';
@@ -10,6 +10,7 @@ $string['addentries'] = 'Items goedkeuren';
 $string['addtemplate'] = 'Item toevoegen';
 $string['allowcomments'] = 'Commentaar geven toelaten?';
 $string['allowratings'] = 'Berichten laten beoordelen?';
+$string['alttext'] = 'Alternatieve tekst';
 $string['approve'] = 'Goedkeuren';
 $string['ascending'] = 'Oplopend';
 $string['atmaxentry'] = 'Je hebt het maximum aantal items ingevoegd';
@@ -19,10 +20,13 @@ $string['availablefromdate'] = 'Beschikbaar van';
 $string['availabletags'] = 'Beschikbare tags';
 $string['availabletodate'] = 'Beschikbaar voor';
 $string['blank'] = 'Leeg';
+$string['buttons'] = 'Knoppen';
 $string['bynameondate'] = 'door $a->name - $a->date';
 $string['cancel'] = 'Annuleer';
 $string['checkbox'] = 'Keuzevakjes';
 $string['chooseorupload'] = 'Kies bestand';
+$string['columns'] = 'Kolommen';
+$string['comment'] = 'Commentaar';
 $string['commentdeleted'] = 'Commentaar verwijderd';
 $string['commentempty'] = 'Commentaar was leeg';
 $string['comments'] = 'Commentaren';
@@ -61,6 +65,8 @@ $string['download'] = 'Download';
 $string['edit'] = 'Bewerk';
 $string['editcomment'] = 'Bewerk commentaar';
 $string['editentry'] = 'Bewerk item';
+$string['editordisable'] = 'Editor uitschakelen';
+$string['editorenable'] = 'Editor inschakelen';
 $string['emptyadd'] = 'Het sjabloon voor toevoegen is leeg. Standaard formulier aan het genereren...';
 $string['emptyaddform'] = 'Je hebt geen velden ingevuld!';
 $string['entries'] = 'Items';
@@ -80,6 +86,7 @@ $string['fieldenclosure'] = 'Veldinsluiting';
 $string['fieldheight'] = 'Hoogte';
 $string['fieldheightlistview'] = 'Hoogte in lijstscherm';
 $string['fieldheightsingleview'] = 'Hoogte in scherm per lijn';
+$string['fieldids'] = 'Veld identiteit';
 $string['fieldmappings'] = 'Veldverwijzingen';
 $string['fieldname'] = 'Veldnaam';
 $string['fieldoptions'] = 'Opties (Eén per lijn)';
@@ -181,6 +188,7 @@ $string['requiredentries'] = 'Vereiste items';
 $string['requiredentriestoview'] = 'Items vereist voor bekijken';
 $string['resettemplate'] = 'Reset sjabloon';
 $string['resizingimages'] = 'Tumbnails van afbeeldingen herschalen';
+$string['rows'] = 'rijen';
 $string['rssglobaldisabled'] = 'Uitgeschakeld. Controleer de configuratievariablen van de site';
 $string['rsshowmany'] = '(aantal te tonen recente items, 0 om RSS uit te schakelen';
 $string['rsstemplate'] = 'RSS';

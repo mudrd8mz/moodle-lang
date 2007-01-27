@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6 development (2005101200)
+      // grades.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['addcategory'] = 'Voeg categorie toe';
@@ -123,5 +123,6 @@ $string['weightedpct'] = 'gewogen %%';
 $string['weightedpctcontribution'] = 'gewogen %% bijdrage';
 $string['writinggradebookinfo'] = 'Instelling puntenboek wegschrijven';
 $string['yes'] = 'Ja';
+$string['yourgrade'] = 'Jouw cijfer';
 
 ?>

@@ -1,12 +1,15 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.7 dev (2006082800)
+      // calendar.php - created with Moodle 1.8 dev (2007012500)
 
 
+$string['advancedoptions'] = 'Geavanceerde opties';
 $string['calendar'] = 'Kalender';
 $string['calendarheading'] = '$a Kalender';
 $string['clickhide'] = 'Verberg';
 $string['clickshow'] = 'Toon';
+$string['commontasks'] = 'Opties';
 $string['confirmeventdelete'] = 'Wil je deze activiteit echt wissen?';
+$string['courseevent'] = 'Cursusactiviteit';
 $string['courseevents'] = 'Cursusactiviteiten';
 $string['dayview'] = 'Per dag';
 $string['daywithnoevents'] = 'Vandaag geen activiteiten';
@@ -32,7 +35,9 @@ $string['eventkind'] = 'Soort activiteit';
 $string['eventname'] = 'Naam';
 $string['eventnone'] = 'Geen gebeurtenissen';
 $string['eventrepeat'] = 'Herhalingen';
+$string['eventsall'] = 'Alle activiteiten';
 $string['eventsfor'] = '$a activiteiten';
+$string['eventsrelatedtocourses'] = 'Activiteiten uit cursussen';
 $string['eventstarttime'] = 'Startuur';
 $string['eventtime'] = 'Uur';
 $string['eventview'] = 'Details';
@@ -42,16 +47,27 @@ $string['explain_maxevents'] = 'Deze instelling stelt het maximumaantal activite
 $string['explain_persistflt'] = 'Als deze optie ingeschakeld is, dan zal Moodle je laatste gebeurtenisfilter opslaan en die telkens wanneer je je aanmeldt automatisch gebruiken.';
 $string['explain_startwday'] = 'Een kalenderweek zal starten op de dag die je hier kiest.';
 $string['explain_timeformat'] = 'Je kunt kiezen of de tijd in 12- of 24-uurformaat wordt weergegeven. Als je voor de standaardinstelling kiest, dan zal het formaat automatisch gekozen worden volgens de taal die je gebruikt op je site.';
+$string['export'] = 'Exporteer';
+$string['exportbutton'] = 'Exporteer';
+$string['exportcalendar'] = 'Exporteer calender';
+$string['for'] = 'voor';
 $string['fri'] = 'Vr';
 $string['friday'] = 'Vrijdag';
+$string['generateurlbutton'] = 'Haal URL kalender';
+$string['globalevent'] = 'Site activiteit';
 $string['globalevents'] = 'Site';
 $string['gotocalendar'] = 'Bekijk de kalender';
+$string['groupevent'] = 'Groep';
 $string['groupevents'] = 'Groep';
 $string['hidden'] = 'verborgen';
+$string['ical'] = 'iCal';
+$string['iwanttoexport'] = 'Exporteer';
 $string['manyevents'] = '$a activiteiten';
 $string['mon'] = 'Ma';
 $string['monday'] = 'Maandag';
 $string['monthlyview'] = 'Per maand';
+$string['monthnext'] = 'Volgende maand';
+$string['monththis'] = 'Deze maand';
 $string['newevent'] = 'Nieuwe activiteit';
 $string['noupcomingevents'] = 'Er zijn geen activiteiten op komst';
 $string['oneevent'] = '1 activiteit';
@@ -62,6 +78,8 @@ $string['pref_startwday'] = 'Eerste dag van de week';
 $string['pref_timeformat'] = 'Tijdsweergave';
 $string['preferences'] = 'Voorkeuren';
 $string['preferences_available'] = 'Persoonlijke voorkeuren';
+$string['quickdownloadcalendar'] = 'Snel downloaden/schrijf in voor deze calender';
+$string['recentupcoming'] = 'Recent en volgende 60 dagen';
 $string['repeateditall'] = 'Pas de wijzigingen toe op alle $a gebeurtenissen in deze reeks herhalingen';
 $string['repeateditthis'] = 'Pas de wijzigingen alleen op deze gebeurtenis toe';
 $string['repeatnone'] = 'Geen herhalingen';
@@ -96,9 +114,13 @@ $string['typegroup'] = 'Groep';
 $string['typesite'] = 'Site';
 $string['typeuser'] = 'Persoonlijk';
 $string['upcomingevents'] = 'Binnenkort';
+$string['urlforical'] = 'URL voor iCalendar export, voor het inschrijven op de calender';
+$string['userevent'] = 'Persoonliljke activiteit';
 $string['userevents'] = 'Persoonlijk';
 $string['wed'] = 'Wo';
 $string['wednesday'] = 'Woensdag';
+$string['weeknext'] = 'Volgende week';
+$string['weekthis'] = 'Deze week';
 $string['yesterday'] = 'Gisteren';
 $string['youcandeleteallrepeats'] = 'Deze gebeurtenis is er één uit een herhalingsreeks. Je kunt alleen deze gebeurtenis of alle $a gebeurtenissen van deze reeks tegelijk verwijderen.';
 

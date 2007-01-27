@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8 dev (2006101001)
+      // blog.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['addnewentry'] = 'Voeg een nieuw item toe';
@@ -15,6 +15,7 @@ $string['blogs'] = 'Blogs';
 $string['blogtags'] = 'Blogtags';
 $string['courseblog'] = 'Cursusblog: $a';
 $string['courseblogs'] = 'Gebruikers kunnen enkel blogs zien van andere gebruikers van de cursus';
+$string['deleteotagswarn'] = 'Weet je zeker dat je deze tag(s) wil verwijderen<br /> uit alle geposte blogs en uit het systeem?';
 $string['disableblogs'] = 'Schakel blogs volledig uit';
 $string['emptybody'] = 'Het tekstveld van een blog mag niet leeg zijn';
 $string['emptytitle'] = 'De titel van een blog mag niet leeg zijn';
@@ -45,6 +46,7 @@ $string['settingsupdatederror'] = 'Er is een fout gebeurt: de voorkeursinstellin
 $string['siteblog'] = 'Siteblog: $a';
 $string['siteblogs'] = 'Alle site-gebruikers kunnen alle blogs zien';
 $string['tagdatelastused'] = 'Laatst gebruiker datumtag';
+$string['tags'] = 'Tags';
 $string['tagsort'] = 'Sorteer het tonen van tags op';
 $string['tagtext'] = 'Tag tekst';
 $string['timewithin'] = 'Toon tags gebruikt binnen zoveel dagen';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 dev (2006100401)
+      // lesson.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['accesscontrol'] = 'Toegangscontrole';
@@ -41,6 +41,7 @@ $string['checkedthisone'] = 'controleer deze.';
 $string['checknavigation'] = 'Controleer de navigatie';
 $string['checkquestion'] = 'Controleer de vraag';
 $string['classstats'] = 'Statistieken van de klas';
+$string['clicktodownload'] = 'Klik op de link om het bestand te downloaden';
 $string['clicktopost'] = 'Klik hier om je cijfer op de scorelijst te zetten';
 $string['clusterjump'] = 'Ongeziene vraag binnen een cluster';
 $string['clustertitle'] = 'Cluster';
@@ -95,7 +96,7 @@ $string['enterpassword'] = 'Geef het wachtwoord:';
 $string['eolstudentoutoftime'] = 'Opgelet: je tijd voor deze les is helemaal op. Wanneer je laatste antwoord verstuurd is nadat de tijd op was, dan telt dat niet meer mee.';
 $string['eolstudentoutoftimenoanswers'] = 'Je hebt geen enkele vraag beantwoord. Je hebt een 0 voor deze les';
 $string['essay'] = 'Open vraag';
-$string['essayemailmessage'] = '<p>Open vraag: <blockquote>$a->question</blockquote></p><p>Je antwoord: <blockquote><em>$a->response</em></blockquote></p><p>$a->teacher\'s comments:<blockquote><em>$a->comment</em></blockquote></p><p>Je hebt $a->earned punten gekregen op $a->outof voor deze open vraag.</p><p>Je cijfer voor deze les is gewijzigd naar $a->newgrade&#37;.</p>';
+$string['essayemailmessage'] = '<p>Open vraag: <blockquote>$a->question</blockquote></p><p>Je antwoord: <blockquote><em>$a->response</em></blockquote></p><p>$a->teacher\'s comments:<blockquote><em>$a->comment</em></blockquote></p><p>Je hebt $a->earned punten gekregen op $a->outof voor deze open vraag.</p><p>Je cijfer voor deze les is gewijzigd naar $a->newgrade%%.</p>';
 $string['essayemailsubject'] = 'Jouw cijfer voor $a vraag';
 $string['essays'] = 'Open vragen';
 $string['essayscore'] = 'Cijfer voor de open vragen';
@@ -138,10 +139,10 @@ $string['lessonopen'] = 'Deze les zal openen op $a.';
 $string['lessonopens'] = 'Les opent';
 $string['lessonpagelinkingbroken'] = 'Eerste pagina niet gevonden. Waarschijnlijk is de link naar de lespagina gebroken. Contacteer een beheerder';
 $string['lessonstats'] = 'Statistieken van de les';
+$string['linkedmedia'] = 'Gelinkte media';
 $string['loginfail'] = 'Login mislukt. Probeer nog eens...';
 $string['lowscore'] = 'Laagste score';
 $string['lowtime'] = 'kortste duur';
-$string['mainmenu'] = 'Hoofdmenu';
 $string['manualgrading'] = 'Beoordeel open vragen';
 $string['matchesanswer'] = 'Komt overeen met antwoord';
 $string['maxhighscores'] = 'Aantal getoonde hoogste cijfers';
@@ -234,7 +235,7 @@ $string['redisplaypage'] = 'Toon pagina opnieuw';
 $string['report'] = 'Rapport';
 $string['reports'] = 'Rapporten';
 $string['response'] = 'Respons';
-$string['returnmainmenu'] = 'Keer terug naar het hoofdmenu';
+$string['returnto'] = 'Keer terug naar $a';
 $string['returntocourse'] = 'Keer terug naar de cursuspagina';
 $string['review'] = 'Nalezen';
 $string['reviewlesson'] = 'Les nalezen';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7 dev (2006082100)
+      // glossary.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['addcomment'] = 'Voeg commentaar toe';
@@ -89,6 +89,9 @@ $string['entryleveldefaultsettings'] = 'Standaardinstellingen invoer';
 $string['entrysaved'] = 'Dit item is bewaard';
 $string['entryupdated'] = 'Dit item is geüpdatet';
 $string['entryusedynalink'] = 'Dit item wordt<br />automatisch gelinkt';
+$string['errcannoteditothers'] = 'Je kunt de items van anderen niet bewerken';
+$string['errconceptalreadyexists'] = 'Dit item bestaat al. In deze woordenlijst mogen geen dubbels voorkomen.';
+$string['erredittimeexpired'] = 'De bewerktijd voor dit item is voorbij.';
 $string['explainaddentry'] = 'Voeg een nieuwe invoer toe in deze woordenlijst<br />Zowel concept als definitie moeten ingevuld worden.';
 $string['explainall'] = 'Toon ALLE items op één pagina';
 $string['explainalphabet'] = 'Blader door de woordenlijst met deze index';
@@ -124,6 +127,7 @@ $string['importedentries'] = 'Geïmporteerde invoer';
 $string['importentries'] = 'Importeer invoer';
 $string['isglobal'] = 'Is dit een globale woordenlijst?';
 $string['linkcategory'] = 'Link deze categorie automatisch';
+$string['linking'] = 'Automatisch linken';
 $string['mainglossary'] = 'Hoofdwoordenlijst';
 $string['maxtimehaspassed'] = 'Sorry, maar de maximumtijd voor het bewerken van deze commentaar ($a) is voorbij!';
 $string['modulename'] = 'Woordenlijst';

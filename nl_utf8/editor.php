@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 dev (2006102600)
+      // editor.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['about'] = 'Info';
@@ -58,6 +58,7 @@ $string['justifycenter'] = 'Centreren';
 $string['justifyfull'] = 'Uitvullen';
 $string['justifyleft'] = 'Links uitlijnen';
 $string['justifyright'] = 'Rechts uitlijnen';
+$string['lang'] = 'Taal';
 $string['layout'] = 'Opmaak';
 $string['left'] = 'Links';
 $string['lefttoright'] = 'Richting van links naar rechts';
@@ -74,6 +75,7 @@ $string['matchcase'] = 'Hoofdlettergevoelig';
 $string['middle'] = 'Midden';
 $string['minimize'] = 'Verklein editor';
 $string['move'] = 'Verplaats';
+$string['multi'] = 'Meer';
 $string['mustenterurl'] = 'Je moet de URL ingeven';
 $string['nolink'] = 'Voorkom het linken aan een woordenlijst';
 $string['normal'] = 'Standaard';

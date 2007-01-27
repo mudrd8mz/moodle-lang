@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8 dev (2006102400)
+      // choice.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['addmorechoices'] = 'Voeg meer keuzes toe';
@@ -17,6 +17,7 @@ $string['choicetext'] = 'Keuzetekst';
 $string['displayhorizontal'] = 'Toon horizontaal';
 $string['displaymode'] = 'Hoe tonen?';
 $string['displayvertical'] = 'Toon verticaal';
+$string['fillinatleastoneoption'] = 'Je moet minstens twee mogelijke antwoorden geven';
 $string['full'] = '(volledig)';
 $string['havetologin'] = 'Je moet aangemeld zijn voor je je keuze kunt insturen';
 $string['limit'] = 'Beperk';
