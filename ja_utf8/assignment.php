@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.8 dev (2006102600)
+      // assignment.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -30,7 +30,7 @@ $string['draft'] = '下書き';
 $string['duedate'] = '終了日時';
 $string['duedateno'] = '提出期限なし';
 $string['early'] = '$a 早く提出';
-$string['editmysubmission'] = '提出課題を編集';
+$string['editmysubmission'] = '提出課題を編集する';
 $string['emailstudents'] = '学生にメール通知する';
 $string['emailteachermail'] = '$a->username が「 $a->assignment 」の提出課題を更新しました。
 
