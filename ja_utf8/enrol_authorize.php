@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 dev (2006112200)
+      // enrol_authorize.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
@@ -12,7 +12,7 @@ $string['adminauthorizewide'] = 'サイト全体の設定';
 $string['adminavs'] = 'あなたのauthorize.netアカウントで住所確認システム (AVS:Address Verification System) を有効にした場合は、ここをチェックしてください。この設定により、ユーザが支払いフォームに入力するときに、市町村、県、国および郵便番号の入力が求められます。';
 $string['adminconfighttps'] = 'このプラグインを使用するには、管理 >> セキュリティ >> HTTPセキュリティで <a href=\"$a->url\">「ログインにHTTPSを使用する」をチェック</a>していることを確認してください。';
 $string['adminconfighttpsgo'] = 'このプラグインを設定するには、<a href=\"$a->url\">セキュアページ</a>に移動してください。';
-$string['admincronsetup'] = 'cron.phpメンテナンススクリプトが少なくとも24時間稼動していません。<br />スケジュールキャプチャ機能を使用したい場合、Cronを有効にする必要があります。<br />Authorize.netプラグインを<b>有効</b>および適切に<b>cronを設定</b>、または <b>an_review</b> のチェックを外してください。<br />スケジュールキャプチャを無効にすると、30日以内にトランザクションを検査しない場合、トランザクションはキャンセルされます。<br />30日以内に<b>手動で</b>支払いを受領/拒否したい場合、<b>an_review</b> をチェックして、<br /><b>an_capture_day</b>フィールドにゼロを入力してください。';
+$string['admincronsetup'] = 'cron.phpメンテナンススクリプトが少なくとも24時間稼動していません。<br />スケジュールキャプチャ機能を使用したい場合、cronを有効にする必要があります。<br />Authorize.netプラグインを<b>有効</b>および適切に<b>cronを設定</b>、または <b>an_review</b> のチェックを外してください。<br />スケジュールキャプチャを無効にすると、30日以内にトランザクションを検査しない場合、トランザクションはキャンセルされます。<br />30日以内に<b>手動で</b>支払いを受領/拒否したい場合、<b>an_review</b> をチェックして、<br /><b>an_capture_day</b>フィールドにゼロを入力してください。';
 $string['adminemailexpired'] = 'この設定は「マニュアルキャプチャ」に便利です。<b>$a</b> 日で何件の保留オーダーが失効したか管理者に通知します。';
 $string['adminemailexpiredsort'] = '保留オーダー失効時に教師にメール通知する場合、どれが重要ですか?';
 $string['adminemailexpiredsortcount'] = 'オーダー数';

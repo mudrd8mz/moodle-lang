@@ -69,7 +69,7 @@ $string['configcronclionly'] = 'この設定を有効にした場合、ウェブ
 $string['configcronremotepassword'] = 'cronパスワードを設定した場合、下記の形式のURLを使用してcronパスワードを提供しない限り、ウェブブラウザからcron.phpを動作させることができません。<pre>
 http://site.example.com/admin.cron.php?password=opensesame
 </pre>空白の場合、パスワードは要求されません。';
-$string['configdbsessions'] = 'この設定を有効にした場合、現在のセッション情報はデータベースに保存されます。これは特に規模の大きい/アクセス数の多いサイト、またはクラスタサーバに構築されたサイトに向いています。ほとんどのサイトでは、セッションの保存をサーバディスクに行うよう、この設定を「No」のままにしてください。この設定を変更すると、 (あなたも含めて) 現在のユーザがログアウトされます。あなたがMySQLを使用している場合、my.cnf (またはmy.ini) の「max_allowed_packet」 を少なくとも4Mにしてください。';
+$string['configdbsessions'] = 'この設定を有効にした場合、現在のセッション情報はデータベースに保存されます。これは特に規模の大きい/アクセス数の多いサイト、またはクラスタサーバで構築されたサイトに向いています。ほとんどのサイトでは、この設定をサーバディスクにセッションを保存する「No」のままにしてください。この設定を変更すると、(あなたも含めて) 現在のユーザがログアウトされます。あなたがMySQLを使用している場合、my.cnf (またはmy.ini) の「max_allowed_packet」 を少なくとも4Mにしてください。';
 $string['configdebug'] = 'この設定を有効にした場合、PHPのerror_reportingが増加し、より多くの警告が表示されるようになります。これは、開発者のみに便利な設定です。';
 $string['configdebugdisplay'] = 'この設定を有効にした場合、エラー報告はHTMLページに表示されますが、一般的にXHTML、JS、cookiesおよびHTTPヘッダを壊します。この設定を無効にした場合、エラー報告はサーバログに記録され、デバッグしやすくなります。PHP設定のerror_logで、どのログを記録するかコントロールできます。';
 $string['configdefaultallowedmodules'] = '上位カテゴリに分類される<b>コースが作成される場合</b>、デフォルトでどのモジュールを許可しますか?';
@@ -199,10 +199,10 @@ $string['courseoverview'] = 'コース概要';
 $string['courserequests'] = 'コースリクエスト';
 $string['courses'] = 'コース';
 $string['coursesperpage'] = '1ページあたりのコース数';
-$string['cronclionly'] = 'コマンドラインのみでCronを実行する';
+$string['cronclionly'] = 'コマンドラインのみでcronを実行する';
 $string['cronerrorclionly'] = '申し訳ございません、このページへのインターネットアクセスは、管理者より無効にされています。';
 $string['cronerrorpassword'] = '申し訳ございません、あなたはこのページへアクセスするための有効なパスワードを提供していません。';
-$string['cronremotepassword'] = 'リモートアクセスのCronパスワード';
+$string['cronremotepassword'] = 'リモートアクセスのcronパスワード';
 $string['cronwarning'] = '<a href=\"cron.php\">cron.phpメンテナンススクリプト</a>が、少なくとも24時間稼動していません。';
 $string['curlrecommended'] = 'Moodleネットワーキング機能を有効にするため、Curlライブラリのインストールを強くお勧めします。';
 $string['datarootsecuritywarning'] = 'あなたのサイト設定は、安全ではない可能性があります。datarootディレクトリ ($a) が、ウェブから直接アクセスできないことを確認してください。';
