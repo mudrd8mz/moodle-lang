@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 dev (2007011200)
+      // group.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['addexistinggroupstogrouping'] = '既存のグループをグルーピングに追加する';
@@ -76,6 +76,7 @@ $string['showusersalreadyingroup'] = 'すでにグルーピングのグループ
 $string['teachersgroupmark'] = '教師は自分が属していないグループの活動を評定できない。';
 $string['teachersgroupview'] = '教師は自分が属していないグループの活動を閲覧できない。';
 $string['teachersoverride'] = '教師は自分が属していないグループの活動を閲覧および評定できる (上記をオーバーライド)。';
+$string['upgradeconfirm'] = '申し訳ございません、このアップグレードではMoodle 1.8 devで作成されたグループテーブルを削除する必要があります。本当に続けてもよろしいですか?';
 $string['usestudentsonlyfromselectedgroup'] = '現在選択されているグループの学生のみ使用する。';
 $string['viewallgroupsactivities'] = '学生はすべてのグループの活動を閲覧のみできる。';
 $string['viewallgroupsmembers'] = '学生はすべてのグループのメンバーを閲覧できる。';
