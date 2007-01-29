@@ -11,6 +11,8 @@ $string['errorinvalidgroup'] = 'Groupe $a non valide';
 $string['erroreditgrouping'] = 'Erreur lors de la création ou de la modification du groupement $a';
 $string['erroreditgroup'] = 'Erreur lors de la création ou de la modification du groupe $a';
 
+$string['upgradeconfirm'] = 'Désolé, les tables des groupes créées dans Moodle 1.8 dev doivent être suppprimées pour effectuer cette mise à jour. Voulez-vous continuer&nbsp;?';
+
 $string['groupings'] = 'Groupements';
 $string['grouping'] = 'Groupement';
 $string['groups'] = 'Groupes';
