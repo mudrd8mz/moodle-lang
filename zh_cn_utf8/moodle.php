@@ -334,9 +334,9 @@ $string['defaultcoursestudent'] = '学生';
 $string['defaultcoursestudentdescription'] = '学生们在课程中通常拥有较少的特权。';
 $string['defaultcoursestudents'] = '学生们';
 $string['defaultcoursesummary'] = '写一段简明有趣的文字介绍一下该课程';
-$string['defaultcourseteacher'] = '老师';
-$string['defaultcourseteacherdescription'] = '老师们可以在该课程中做任何事，包括改变活动和给学生打分。';
-$string['defaultcourseteachers'] = '老师们';
+$string['defaultcourseteacher'] = '教师';
+$string['defaultcourseteacherdescription'] = '教师可以在该课程中做任何事，包括改变活动和给学生打分。';
+$string['defaultcourseteachers'] = '教师们';
 $string['delete'] = '删除';
 $string['deleteall'] = '全部删除';
 $string['deletecategorycheck'] = '您确定要完全删除类别<b>“{$a}”</b>么?<br />此类别中的所有课程将会被移动到父类别或类别“五花八门”中。';
@@ -748,7 +748,7 @@ $string['loginsteps'] = '嗨，您好! 为了完全访问所有课程，您必�
 
    <li>然后，选择您想选修的课程。</li>
 
-   <li>如果系统提示要“选课密钥”，请用您的老师提供给您的密钥。这样才能注册到该课程中。</li>
+   <li>如果系统提示要“选课密钥”，请用您的教师提供给您的密钥。这样才能注册到该课程中。</li>
 
    <li>这时您可以完全访问课程。从此后您只需输入您个人的用户名和密码(在本页面的表单中)以登录并进入任一个您已注册的课程。</li>
 
@@ -766,7 +766,7 @@ $string['logtoomanyusers'] = '[<a href=\"{$a->url}\">更多</a>]';
 $string['lookback'] = '回顾';
 $string['mailadmins'] = '通知管理员';
 $string['mailstudents'] = '通知学生';
-$string['mailteachers'] = '通知老师';
+$string['mailteachers'] = '通知教师';
 $string['mainmenu'] = '主菜单';
 $string['makeafolder'] = '新建一个文件夹';
 $string['makeeditable'] = '如果您设置“{$a}”为Web服务器进程(例如apache)可写，那么您可以在此页中直接编辑该文件';
@@ -916,8 +916,8 @@ $string['noimagesyet'] = '您的课程尚未上载任何图片';
 $string['nomorecourses'] = '没有匹配的课程';
 $string['nomoreidnumber'] = '并未使用ID号避免冲突';
 $string['none'] = '无';
-$string['noneditingteacher'] = '未编辑的教师';
-$string['noneditingteacherdescription'] = '未编辑的教师们可以在课程中教授和给学生们打分，但是可能无法改变活动。';
+$string['noneditingteacher'] = '无编辑权教师';
+$string['noneditingteacherdescription'] = '无编辑权教师们可以在课程中教授和给学生们打分，但是可能无法改变活动。';
 $string['nopendingcourses'] = '没有待审批课程';
 $string['nopotentialadmins'] = '没有候选网站管理员';
 $string['nopotentialcreators'] = '没有候选课程管理员';
@@ -1220,15 +1220,15 @@ $string['statsreportactivity'] = '所有活动（全部角色们）';
 $string['statsreportactivitybyrole'] = '所有活动（视图和摘要）';
 $string['statsreportforuser'] = '为';
 $string['statsreportlogins'] = '登陆';
-$string['statsreportreads'] = '视图（老师和学生）';
+$string['statsreportreads'] = '视图（教师和学生）';
 $string['statsreporttype'] = '报告类型';
-$string['statsreportwrites'] = '摘要（老师和学生）';
+$string['statsreportwrites'] = '摘要（教师和学生）';
 $string['statsstudentactivity'] = '学生活动';
 $string['statsstudentreads'] = '学生视图';
 $string['statsstudentwrites'] = '学生摘要';
-$string['statsteacheractivity'] = '老师活动';
-$string['statsteacherreads'] = '老师视图';
-$string['statsteacherwrites'] = '老师摘要';
+$string['statsteacheractivity'] = '教师活动';
+$string['statsteacherreads'] = '教师视图';
+$string['statsteacherwrites'] = '教师摘要';
 $string['statstimeperiod'] = '统计周期——过去的：';
 $string['statsuniquelogins'] = '唯一登陆';
 $string['statsuseractivity'] = '所有活动';
@@ -1251,7 +1251,7 @@ $string['strftimetime'] = '%%H:%%M';
 $string['stringsnotset'] = '以下字串{$a}中没有定义';
 $string['studentnotallowed'] = '抱歉，您作为“{$a}”不能进入该课程';
 $string['students'] = '学生';
-$string['studentsandteachers'] = '学生和老师';
+$string['studentsandteachers'] = '学生和教师';
 $string['studentviewoff'] = '关闭学生视图';
 $string['studentviewon'] = '开启学生视图';
 $string['subcategories'] = '子类别';
@@ -1267,7 +1267,7 @@ $string['tags'] = '标签组';
 $string['targetrole'] = '标签角色';
 $string['teacheronly'] = '{$a}专用';
 $string['teacherroles'] = '{$a}项角色们';
-$string['teachers'] = '老师们';
+$string['teachers'] = '教师们';
 $string['textediting'] = '在编辑文本时';
 $string['texteditor'] = '使用标准网页形式';
 $string['textformat'] = '纯文本格式';
@@ -1374,7 +1374,7 @@ $string['virusfoundlater'] = '您于{$a->date}在课程{$a->course}中上传的�
 
 $a->action
 
-如果这个文件是提交给老师的，您需要重新提交一遍。';
+如果这个文件是提交给教师的，您需要重新提交一遍。';
 $string['virusfoundlateradmin'] = '管理员请注意! 一个由用户{$a->user}于{$a->date}上传到课程{$a->course}中的文件{$a->filename}有病毒。以下是关于此文件的汇总:
 
 $a->action
