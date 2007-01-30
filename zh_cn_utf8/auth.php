@@ -2,7 +2,7 @@
       // auth.php - created with Moodle 1.6 Beta 4 (2006042800)
 
 
-$string['alternatelogin'] = '如果您在此输入一个URL，它将被用于本站的登录。这个页面上应当有一个表单，表单的action一项应设定为<strong>“{$a}”</strong>，并且返回的字段中应当有<strong>username</strong>和<strong>password</strong>。<br />小心宾不要输入错误的URL，否则您可能会被锁在站点之外。<br />要使用缺省的登录页面请为此设置保留空白。';
+$string['alternatelogin'] = '如果您在此输入一个URL，它将被用于本站的登录。这个页面上应当有一个表单，表单的action一项应设定为<strong>“{$a}”</strong>，并且返回的字段中应当有<strong>username</strong>和<strong>password</strong>。<br />小心，不要输入错误的URL，否则您可能会被锁在站点之外。<br />要使用缺省的登录页面请为此设置保留空白。';
 $string['alternateloginurl'] = '换用其它登录链接';
 $string['auth_cas_baseuri'] = '服务器的URI<br />例如，如果CAS服务器位于 host.domaine.fr/CAS/ 那么<br />cas_baseuri = CAS/';
 $string['auth_cas_create_user'] = '如果您希望将CAS认证用户加入到Moodle数据库中，否则只有已经存在于Moodle数据库中的用户可以登录。';
