@@ -6,9 +6,9 @@ $string['allowdeleting'] = '允许删除';
 $string['allowmaxfiles'] = '上传文件的最大数量';
 $string['allownotes'] = '允许注释';
 $string['allowresubmit'] = '允许重交';
-$string['assignment:grade'] = '给任务打分';
-$string['assignment:submit'] = '提交任务';
-$string['assignment:view'] = '查看任务';
+$string['assignment:grade'] = '给作业打分';
+$string['assignment:submit'] = '提交作业';
+$string['assignment:view'] = '查看作业';
 $string['assignmentdetails'] = '布置作业细节';
 $string['assignmentmail'] = '{$a->teacher}已经在“{$a->assignment}”中为您提交的作业写了反馈意见。
 您可以在您交的作业后面看到反馈意见：
@@ -49,10 +49,10 @@ $string['guestnoupload'] = '抱歉，访客用户不允许提交作业';
 $string['helpoffline'] = '<p>如果学生在Moodle之外完成作业（比如在其它网站，或者与教师直接交流），那么可以使用这种类型的作业。</p><p> 学生可以看到作业的描述，但不能上传包括文件在内的任何信息。教师依然可以对作业评分，学生也会得到关于他们的分数的通知。</p>';
 $string['helponline'] = '<p>这种类型的作业让学生使用普通的编辑工具来编辑文本。教师可以对作业在线评分，甚至可以修改和嵌入点评到学生的答案里。</p>
 <p>（如果您熟悉旧版本的Moodle，那么这种类型的作业完成和旧的日志模块相同的工作。）</p>';
-$string['helpupload'] = '<p>此类任务允许每个参与者以任何格式上传一个或多个文件。这些文件可能是word处理的文档、图片、zipped的网页或者任何您要求提交的内容。</p>
-<p>此类任务也允许您上传多种响应文件。响应文件也可以是先前上交的，可以用于每个参与者的不同文件使用的。</p>
+$string['helpupload'] = '<p>此类作业允许每个参与者以任何格式上传一个或多个文件。这些文件可能是word处理的文档、图片、zipped的网页或者任何您要求提交的内容。</p>
+<p>此类作业也允许您上传多种响应文件。响应文件也可以是先前上交的，可以用于每个参与者的不同文件使用的。</p>
 <p>参与者们也可以录入注释来描述提交的文件，声明状态或任何其它文本信息。</p>
-<p>此类任务的提交必须是参与者手工定稿的。您可以在任何时间回顾当前的状态，未完成的任务会被标记为草稿。您可以把任何未打分的任务恢复成草稿的状态。</p>';
+<p>此类作业的提交必须是参与者手工定稿的。您可以在任何时间回顾当前的状态，未完成的作业会被标记为草稿。您可以把任何未打分的作业恢复成草稿的状态。</p>';
 $string['helpuploadsingle'] = '<p>这种类型的作业允许每个参与者上传任何类型的一个文件。</p> <p>可以是一个Word文档，一个图片，一个打包了的网站，或者任何您想让他们提交的。</p>';
 $string['hideintro'] = '在有效日期前隐藏的描述';
 $string['late'] = '$a 之后';
@@ -65,13 +65,13 @@ $string['noassignments'] = '尚无作业';
 $string['noattempts'] = '尚无人尝试做此作业';
 $string['nofiles'] = '无提交的文件';
 $string['nofilesyet'] = '无文件已经提交';
-$string['notavailableyet'] = '对不起，此任务已经无效了。<br />将在给出的日期下显示出任务指令。';
+$string['notavailableyet'] = '对不起，此作业已经无效了。<br />将在给出的日期下显示出作业指令。';
 $string['notes'] = '注释';
 $string['notesempty'] = '未登录';
 $string['notesupdateerror'] = '在更新注释时有错';
 $string['notgradedyet'] = '没有评分';
 $string['notsubmittedyet'] = '未交';
-$string['onceassignmentsent'] = '一旦发送了为打分的任务，您将不再能删除或粘贴文件（或多个文件）了。您确定要继续吗？';
+$string['onceassignmentsent'] = '一旦发送了为打分的作业，您将不再能删除或粘贴文件（或多个文件）了。您确定要继续吗？';
 $string['overwritewarning'] = '警告: 重新上载将覆盖您已交的作业';
 $string['pagesize'] = '每页显示作业数';
 $string['preventlate'] = '不允许迟交';
@@ -87,8 +87,8 @@ $string['submissions'] = '提交信息';
 $string['submissionsaved'] = '已经保存了您的修改';
 $string['submissionsnotgraded'] = '$a 个作业尚未评分';
 $string['submitassignment'] = '用此表单上交作业';
-$string['submitedformarking'] = '为打分的任务已经提交了，而且不能再更新了';
-$string['submitformarking'] = '为任务打分的最终提交';
+$string['submitedformarking'] = '为打分的作业已经提交了，而且不能再更新了';
+$string['submitformarking'] = '为作业打分的最终提交';
 $string['submitted'] = '已交';
 $string['submittedfiles'] = '提交的文件';
 $string['typeoffline'] = '离线活动项目';
