@@ -76,6 +76,7 @@ $string['showusersalreadyingroup'] = 'Gruplamada zaten bir grupta olan öğrenci
 $string['teachersgroupmark'] = 'Eğitimciler, abonesi olmadıkları gruplardaki etkinlikleri işaretleyemez';
 $string['teachersgroupview'] = 'Eğitimciler, abonesi olmadıkları gruplardaki etkinlikleri göremez';
 $string['teachersoverride'] = 'Hiçbir gruba abone olmayan eğitimciler, bütün grupları görebilir ve grup etkinliklerini işaretleyebilir (yukarıdakini hükümsüz kılar)';
+$string['upgradeconfirm'] = 'Üzgünüz, Moodle1.8-dev\'de oluşturulan grup tabloları bu güncellemede silinecek. Devam etmek istiyor musunuz?';
 $string['usestudentsonlyfromselectedgroup'] = 'Sadece şu an seçili gruptan öğrencileri kullan';
 $string['viewallgroupsactivities'] = 'Öğrenciler görebilir, ama bütün gruplardaki etkinliklere dağıtılamaz';
 $string['viewallgroupsmembers'] = 'Öğrenciler, bütün grupların üyelerini görebilir';
