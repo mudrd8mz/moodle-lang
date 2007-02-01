@@ -1,15 +1,25 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8 dev (2007012500)
+      // mnet.php - created with Moodle 1.8 dev (2007013100)
 
 
+$string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (kendinden-imzalı)';
+$string['RPC_HTTPS_VERIFIED'] = 'HTTPS (imzalı)';
+$string['RPC_HTTP_PLAINTEXT'] = 'HTTP şifresiz';
+$string['RPC_HTTP_SELF_SIGNED'] = 'HTTP (kendinden-imzalı)';
+$string['RPC_HTTP_VERIFIED'] = 'HTTP (imzalı)';
 $string['aboutyourhost'] = 'Sunucunuz hakkında';
 $string['accesslevel'] = 'Erişim Seviyesi';
 $string['addhost'] = 'Host ekle';
 $string['addnewhost'] = 'Yeni bir host ekle';
+$string['addtoacl'] = 'Erişim Kontrolüne ekle';
 $string['allow'] = 'İzin ver';
+$string['authfail_nosessionexists'] = 'Yetkilendirme hatası: mnet oturumu mevcut değil.';
+$string['authfail_sessiontimedout'] = 'Yetkilendirme hatası: mnet oturumu zaman aşımına uğradı.';
+$string['authfail_usermismatch'] = 'Yetkilendirme hatası: kullanıcı eşleşmiyor.';
 $string['authmnetautoadddisabled'] = 'Moodle Ağı Yetkilendirme eklentilerindeki <em>kullanıcıları otomatik-ekleme</em> <strong>etkin değil</strong>.';
 $string['authmnetdisabled'] = 'Moodle Ağı <em>Yetkilendirme eklentisi</em> <strong>etkin değil</strong>.';
 $string['badcert'] = 'Bu geçerli bir sertifika değil.';
+$string['couldnotgetcert'] = 'Burada sertifika bulunamadı: <br />$a<br />Host çalışmıyor veya hatalı yapılandırıldı.';
 $string['deny'] = 'Reddet';
 $string['enrolments'] = 'ders kayıtları';
 $string['expired'] = 'Bu anahtarın yok olma süresi';
@@ -30,9 +40,45 @@ $string['mnetservices'] = 'Hizmetler';
 $string['mnetsettings'] = 'Moodle ağı ayarları';
 $string['net'] = 'Ağ';
 $string['networksettings'] = 'Ağ ayarları';
+$string['off'] = 'Kapalı';
+$string['on'] = 'Açık';
+$string['otherenrolledusers'] = 'Diğer kayıtlı kullanıcılar';
+$string['postrequired'] = 'Silme işlevi POST isteği gerektirir.';
+$string['publickey'] = 'Açık anahtar';
+$string['reallydeleteserver'] = 'Sunucuyu silmek istediğinizden emin misiniz';
+$string['receivedwarnings'] = 'Aşağıdaki uyarılar alındı';
+$string['recordnoexists'] = 'Kayıt mevcut değil';
+$string['reenableserver'] = 'Hayır - bu sunucuyu tekrar etkinleştirmek için bunu seçin';
+$string['registerallhosts'] = 'Bütün hostları kaydet (<em>Merkez modu</em>)';
+$string['remotecourses'] = 'Uzak Kurslar';
 $string['remotehost'] = 'Uzak Merkez';
 $string['remotehosts'] = 'Uzak hostlar';
+$string['remotemoodles'] = 'Uzak Moodle\'lar';
+$string['requiresopenssl'] = 'Ağ, OpenSSL eklentisini gerektirir';
+$string['restore'] = 'Geri yükle';
+$string['reviewhostdetails'] = 'Host Ayrıntılarını İncele';
+$string['reviewhostservices'] = 'Host Hizmetlerini İncele';
+$string['selectaccesslevel'] = 'Lütfen listeden bir erişim seviyesi seçin.';
+$string['selectahost'] = 'Lütfen bir uzak Moodle hostu seçin.';
+$string['serviceswepublish'] = '$a\'a yayınladığımız hizmetler';
+$string['serviceswesubscribeto'] = '$a üzerinde abonesi olduğumuz hizmetler';
 $string['settings'] = 'Ayarlar';
+$string['showlocal'] = 'Yerel kullanıcıları göster';
+$string['showremote'] = 'Uzak kullanıcıları göster';
+$string['ssoaccesscontrol'] = 'SSO Erişim Kontrolü';
+$string['subscribe'] = 'Üye ol';
+$string['system'] = 'Sistem';
+$string['testtrustedhosts'] = 'Bir adresi test et';
+$string['trustedhosts'] = 'XML-RPC hostları';
+$string['unknownerror'] = 'Anlaşma sırasında bilinmeyen bir hata';
+$string['usercannotchangepassword'] = 'Uzak bir kullanıcı olduğunuz için şifrenizi değiştiremezsiniz.';
+$string['userchangepasswordlink'] = '<br /><a href=\"$a->wwwroot/login/change_password.php\">$a->description</a> sağlayıcısındaki şifrenizi değiştirebilirsiniz.';
+$string['validated_by'] = 'Ağ tarafından doğrulandı:  <code>$a</code>';
+$string['verifysignature-error'] = 'İmza doğrulamasında hata oluştu.';
+$string['version'] = 'sürüm';
+$string['warning'] = 'Uyarı';
+$string['wrong-ip'] = 'IP adresiniz, bizdeki kayıtlarla eşleşmiyor.';
+$string['yourhost'] = 'Hostunuz';
 $string['yourpeers'] = 'Eşleriniz';
 
 ?>

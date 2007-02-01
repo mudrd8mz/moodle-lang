@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 dev (2007012500)
+      // role.php - created with Moodle 1.8 dev (2007013100)
 
 
 $string['addrole'] = 'Yeni rol ekle';
@@ -62,6 +62,7 @@ $string['legacy:editingteacher'] = 'DEVRALINAN ROL: Eğitimci (düzenleyen)';
 $string['legacy:guest'] = 'DEVRALINAN ROL: Konuk';
 $string['legacy:student'] = 'DEVRALINAN ROL: Öğrenci';
 $string['legacy:teacher'] = 'DEVRALINAN ROL: Eğitimci (düzenlemeyen)';
+$string['legacy:user'] = 'DEVRALINAN ROL: Yetkili kullanıcı';
 $string['listallroles'] = 'Tüm rolleri listele';
 $string['manageroles'] = 'Rolleri yönet';
 $string['metaassignerror'] = 'Metakurs yönetim yetkisi gerekli olduğundan dolayı \"$a\" kullanıcısına bu rol atanamadı.';

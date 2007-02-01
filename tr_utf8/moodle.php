@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2007012500)
+      // moodle.php - created with Moodle 1.8 dev (2007013100)
 
 
 $string['action'] = 'Eylem';
@@ -122,6 +122,8 @@ $string['assignstudents'] = 'Öğrencileri kaydet';
 $string['assignstudentsnote'] = 'Not: Öğrenciler kendi kendilerini bu kursa kaydedebildiklerinden dolayı bu sayfayı kullanmanıza gerek yok.';
 $string['assignstudentspass'] = 'Öğrencilerinize kursun kayıt anahtarını bildirmeniz gerekiyor: \'$a\'';
 $string['assignteachers'] = 'Eğitimci belirle';
+$string['authenticateduser'] = 'Yetkili kullanıcı';
+$string['authenticateduserdescription'] = 'Giriş yapan tüm kullanıcılar.';
 $string['authentication'] = 'Kimlik Denetimi';
 $string['authenticationplugins'] = 'Yetkilendirme Eklentileri';
 $string['autosubscribe'] = 'Forum otomatik aboneği';
