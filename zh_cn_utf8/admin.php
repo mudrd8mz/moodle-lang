@@ -180,7 +180,7 @@ $string['courserequests'] = '课程申请';
 $string['courses'] = '课程';
 $string['coursesperpage'] = '每页课程数';
 $string['cronwarning'] = '<a href=\"cron.php\">cron.php维护脚本</a>已经有最少24个小时都没有运行过了。';
-$string['datarootsecuritywarning'] = '您的网站设置可能不安全。请确保您的数据根目录（$a）不时直接通过网页可访问的。';
+$string['datarootsecuritywarning'] = '您的网站设置可能不安全。请确保您的数据根目录（{$a}）不能直接通过网页访问。';
 $string['dbmigrate'] = 'Moodle数据库迁移';
 $string['dbmigrateconnecerror'] = '无法连接到指定的数据库';
 $string['dbmigrateencodingerror'] = '指定的数据库使用了UNICODE/UTF8之外的字符集{$a}。<br />请重新指定。';
