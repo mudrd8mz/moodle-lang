@@ -1,4 +1,4 @@
-<h2>Installing Moodle</h2>
+<h2>Moodle instalatu</h2>
 <p>This guide explains how to install Moodle for the first time.  It goes into some detail
    about some of the steps, in order to cover the wide variety of small differences between
    web server setups, so this document may look long and complicated.  Don't be put off by this 
@@ -7,15 +7,15 @@
 <p>Sections in this document:</p>
 <ol>
   <li><A HREF="#requirements">Requirements</A></li>
-  <li><A HREF="#downloading">Download</A></li>
-  <li><A HREF="#site">Site structure</A></li>
-  <li><A HREF="#data">Create a data directory</A></li>
-  <li><A HREF="#database">Create a database</A></li>
+  <li><A HREF="#downloading">Jaitsi</A></li>
+  <li><A HREF="#site">Gunearen egitura</A></li>
+  <li><A HREF="#data">Dat-basearen direktorioa sortu</A></li>
+  <li><A HREF="#database">Datu-basea sortu</A></li>
   <li><A HREF="#webserver">Check web server settings</A></li>
-  <li><A HREF="#config">Edit config.php</A></li>
+  <li><A HREF="#config">config.php editatu</A></li>
   <li><A HREF="#admin">Go to the admin page</A></li>
   <li><A HREF="#cron">Set up cron</A></li>
-  <li><A HREF="#course">Create a new course</A></li>
+  <li><A HREF="#course">Ikastaro berria sortu</A></li>
 </ol>
 <h3><A NAME="requirements"></A>1. Requirements</h3>
 <blockquote>
@@ -51,7 +51,7 @@
 
 </blockquote>
 <p>&nbsp;</p>
-<h3><A NAME="downloading"></A>2. Download</h3>
+<h3><A NAME="downloading"></A>2. Jaitsi</h3>
 <blockquote>
   <p>There are two ways to get Moodle, as a compressed package and via CVS. These 
     are explained in detail on the download page on <A HREF="http://moodle.com/">http://moodle.com/</A></p>
@@ -64,7 +64,7 @@
     directory, in which case the site will be simply <b>http://yourwebserver.com</b>.</p>
 </blockquote>
 <p>&nbsp;</p>
-<h3><A NAME="site"></A>3. Site structure</h3>
+<h3><A NAME="site"></A>3. Gunearen egitura</h3>
 <blockquote>
   <p>Here is a quick summary of the contents of the Moodle folder, to help get 
     you oriented:</p>
@@ -89,7 +89,7 @@
     <p>&nbsp;</p>
   </blockquote>
 </blockquote>
-<h3><A NAME="data"></A>4. Create a data directory</h3>
+<h3><A NAME="data"></A>4. Datu-basearaen direktorioa sortu</h3>
 <blockquote>
   <p>Moodle will also need some space on your hard disk to store uploaded files, 
     such as course documents and user pictures.</p>
@@ -115,7 +115,7 @@
 
 </blockquote>
 <p>&nbsp;</p>
-<h3><A NAME="database"></A>5. Create a database</h3>
+<h3><A NAME="database"></A>5. Datu-basea sortu</h3>
 <blockquote>
 <p>You need to create an empty database (eg "moodle") in your database system 
     along with a special user (eg "moodleuser") that has access to that database 
@@ -197,7 +197,7 @@ php_value post_max_size 2M
 
 </blockquote>
 <p>&nbsp;</p>
-<h3><A NAME="config"></A>7. Edit config.php</h3>
+<h3><A NAME="config"></A>7. config.php editatu</h3>
 <blockquote>
   <p>Now you can edit the configuration file, <strong>config.php</strong>, using a 
      text editor. This file is used by all other files in Moodle.</p>
@@ -338,7 +338,6 @@ php_value post_max_size 2M
   <blockquote>
     <pre>/opt/bin/php /web/moodle/admin/cron.php
 
-
 (Windows) C:\apache\php\php.exe C:\apache\htdocs\moodle\admin\cron.php
 
 </pre>
@@ -354,7 +353,7 @@ php_value post_max_size 2M
     Windows feature for "Scheduled Tasks".</p>
   </p>
 </blockquote>
-<h3><A NAME="course"></A>10. Create a new course</h3>
+<h3><A NAME="course"></A>10. Ikastaro berria sortu</h3>
 <blockquote>
   <p>Now that Moodle is running properly, you can create a course. </p>
   <p>Select &quot;Create a new course&quot; from the Admin page (or the admin 
