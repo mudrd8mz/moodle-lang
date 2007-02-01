@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 dev (2007011200)
+      // role.php - created with Moodle 1.8 dev (2007013100)
 
 
 $string['addrole'] = '새 역할 첨가';
@@ -56,12 +56,13 @@ $string['errorexistsrolename'] = '역할명이 이미 존재합니다.';
 $string['errorexistsroleshortname'] = '단축역할명이 이미 존재합니다.';
 $string['existingusers'] = '$a 기존 사용자';
 $string['inherit'] = '따름';
-$string['legacy:admin'] = '전통적 역할 : 관리자';
-$string['legacy:coursecreator'] = '전통적 역할 : 배움터 생성자';
-$string['legacy:editingteacher'] = '전통적 역할 : 교사(편집가능)';
-$string['legacy:guest'] = '전통적 역할 : 손님';
-$string['legacy:student'] = '전통적 역할 : 학생';
-$string['legacy:teacher'] = '전통적 역할 : 교사(편집기능 없음)';
+$string['legacy:admin'] = '규정된 역할 : 관리자';
+$string['legacy:coursecreator'] = '규정된 역할 : 배움터 생성자';
+$string['legacy:editingteacher'] = '규정된 역할 : 교사(편집가능)';
+$string['legacy:guest'] = '규정된 역할 : 손님';
+$string['legacy:student'] = '규정된 역할 : 학생';
+$string['legacy:teacher'] = '규정된 역할 : 교사(편집기능 없음)';
+$string['legacy:user'] = '규정된 역할 : 인증된 사용자';
 $string['listallroles'] = '모든 역할 열거';
 $string['manageroles'] = '역할 관리';
 $string['metaassignerror'] = '메타코스의 관리능력이 주어지지 않았기 때문에 사용자 \"$a\" 에게 이 역할을 부여할 수 없습니다.';
@@ -69,7 +70,7 @@ $string['metaunassignerror'] = '사용자 \"$a\"의 역할이 자동적으로 �
 $string['nocapabilitiesincontext'] = '이 분야에서는 아무 권한이 없음';
 $string['overrideroles'] = '역할 위임';
 $string['overrides'] = '위임 현황';
-$string['permissions'] = '권한';
+$string['permissions'] = '승인사항';
 $string['potentialusers'] = '$a 잠재적 사용자';
 $string['prevent'] = '방지';
 $string['prohibit'] = '금지';

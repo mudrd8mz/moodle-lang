@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2007012500)
+      // moodle.php - created with Moodle 1.8 dev (2007013100)
 
 
 $string['action'] = '동작';
@@ -122,6 +122,8 @@ $string['assignstudents'] = '소속된 학생들';
 $string['assignstudentsnote'] = '주의: 만일 학생들 스스로 이 배움터에 참여하는 것을 가능하게 해 놓았다면, 본 화면이 필요없을 수도 있습니다.';
 $string['assignstudentspass'] = '이 배움터에 참여하려는 학생들에게 등록키를 알려줘야 할 것입니다. 현재의 등록키는 \'$a\'입니다.';
 $string['assignteachers'] = '선생님 권한부여';
+$string['authenticateduser'] = '인증된 사용자';
+$string['authenticateduserdescription'] = '인증을 거친 사용자들';
 $string['authentication'] = '인증';
 $string['authenticationplugins'] = '인증 플러그인';
 $string['autosubscribe'] = '포럼 이메일 자동 구독';
