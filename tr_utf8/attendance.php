@@ -1,9 +1,12 @@
 <?PHP // $Id$ 
-      // attendance.php - created with Moodle 1.8 dev (2006102600)
+      // attendance.php - created with Moodle 1.8 dev (2007013100)
 
 
 $string['absentlong'] = 'Yok';
 $string['absentshort'] = 'Y';
+$string['addingmultiple'] = 'Çoklu Yoklama Çizelgesi Ekleniyor';
+$string['addmultiple'] = 'Çoklu Yoklama Çizelgesi Ekle';
+$string['allmodulename'] = 'Tüm Yoklama Çizelgeleri';
 $string['auto'] = 'otomatik';
 $string['autoattend'] = 'Yoklamayı kullanıcı etkinlik kayıtlarına göre otomatikmen al';
 $string['autoattendmulti'] = 'Bütün yoklamaları kullanıcı etkinlik kayıtlarına göre otomatikmen al';
@@ -13,34 +16,57 @@ $string['dayofroll'] = 'Yoklamanın alınacağı tarih';
 $string['defaultautoattend'] = 'Kullanıcı etkinlik kayıtlarına göre yoklamanın alınıp alınmayacağı';
 $string['defaultdynamicsection'] = 'Varsayılan olarak yoklamaların doğru haftaya taşınıp taşınmayacağı';
 $string['defaultgrade'] = 'Varsayılan olarak yoklamaların notlandırılıp notlandırılmayacağı';
+$string['defaulthoursinclass'] = 'Varsayılan bir yoklama çizelgesinde kaç tane saat olmalı';
 $string['defaultmaxgrade'] = 'Tam yoklama katılımı için en fazla not';
+$string['defaultstudentstatus'] = 'Yeni yoklamada varsayılan öğrenci katılım durumu';
 $string['downloadexcelfull'] = 'Excel Çalışma Yaprağının Tamamını İndir';
 $string['downloadexceltotals'] = 'Excel Çalışma Yaprağının Özetini İndir';
 $string['downloadtextfull'] = 'Metin Raporunun Tamamını İndir';
 $string['downloadtexttotals'] = 'Metin Raporunun Özetini İndir';
+$string['dynamicsection'] = 'Bu tarihe göre haftalık yoklamayı tanımlayın';
+$string['dynamicsectionmulti'] = 'Yoklamaları haftalık bölümlere otamatikman yerleştir';
 $string['dynsectionshort'] = 'Dinamik olarak bölüme taşındı';
 $string['endbeforestart'] = 'Bitiş tarihi, başlangıç tarihinden öncedir';
 $string['endmulti'] = 'Son yoklama için gün';
+$string['for'] = ':';
 $string['friday'] = 'Cum';
 $string['gradeshort'] = 'Notlandırıldı';
 $string['gradevalue'] = 'Bu yoklamayı notlandırılabilir yap';
 $string['gradevaluemulti'] = 'Bu yoklamaları notlandırılabilir yap';
+$string['hoursinclass'] = 'Ders sürecindeki saatlerin sayısı';
+$string['hoursineachclass'] = 'Herbir ders sürecindeki saatlerin sayısı';
+$string['hoursinfullreport'] = 'Tek bir rapor sayfasında gösterilecek yoklamanın en fazla saat sayısı';
 $string['maxgradeshort'] = 'En fazla not';
+$string['maxgradevalue'] = 'Tam kaılım için en yüksek not değeri';
 $string['modulename'] = 'Yoklama';
+$string['modulenameplural'] = 'Yoklama Çizelgeleri';
 $string['monday'] = 'Pzt';
+$string['norolls'] = 'Bu kursta hiç katılım çizelgesi yok';
 $string['notes'] = 'İstisnai bilgi';
 $string['notesfor'] = 'İstisnai bilgiler:';
 $string['noviews'] = 'Üzgünüz, buradaki hesabınız için veri yok';
+$string['of'] = '/';
 $string['pages'] = 'Sayfalar';
 $string['presentlong'] = 'Var';
 $string['presentshort'] = 'V';
 $string['saturday'] = 'Cmt';
+$string['startafterend'] = 'Başlangıç tarihi, kursun bitiş tarihinden sonradır';
+$string['startmulti'] = 'İlk yoklama için tarih';
 $string['sunday'] = 'Paz';
+$string['takeroll'] = 'Bu tarihte yoklama alınsın mı?';
+$string['tardiesperabsence'] = 'Bir kez gelmeyen için kaç tane geç kalındı sayılacak';
 $string['tardylong'] = 'Geç';
 $string['tardyshort'] = 'G';
 $string['teacheredit'] = 'Yoklama Al';
 $string['thursday'] = 'Prş';
 $string['tuesday'] = 'Sal';
+$string['viewall'] = 'Bütün Yoklama Çizelgelerine Bak';
+$string['viewmulti'] = 'Rapora sayfa sayfa bak';
+$string['viewone'] = 'Raporun bütün sayfalarına bak';
+$string['viewsection'] = 'Bu bölümdeki bütün yoklamalara bak';
+$string['viewtable'] = 'Rapora çizelge olarak bak';
+$string['viewweek'] = 'Takvim haftasındaki bütün yoklamalara bak';
 $string['wednesday'] = 'Çrş';
+$string['weekmodulename'] = 'Geçen haftanın bütün yoklamalarına bak';
 
 ?>
