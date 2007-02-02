@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6 + (2006050506)
+      // forum.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['addanewdiscussion'] = 'Přidat nové téma diskuse';
@@ -49,6 +49,7 @@ $string['disallowsubscribe'] = 'Odebírání e-mailem není povoleno.';
 $string['disallowsubscribeteacher'] = 'Odebírání e-mailem není povoleno (s výjimkou učitelů).';
 $string['discussion'] = 'Diskuse';
 $string['discussionmoved'] = 'Tato diskuse byla přesunuta do \'$a\'.';
+$string['discussionmovedpost'] = 'Diskuse byla přesunuta <a href=\"$a->discusshref\">na jiné místo</a> do fóra <a href=\"$a->forumhref\">$a->forumname</a>';
 $string['discussionname'] = 'Název diskuse';
 $string['discussions'] = 'Diskuse';
 $string['discussionsstartedby'] = 'Diskuse, které zahájil(a) $a';
@@ -68,6 +69,21 @@ $string['existingsubscribers'] = 'Stávající odběratelé';
 $string['forcesubscribe'] = 'Vnutit všem odebírání příspěvků e-mailem';
 $string['forcesubscribeq'] = 'Vnutit všem odebírání příspěvků e-mailem?';
 $string['forum'] = 'Fórum';
+$string['forum:createattachment'] = 'Vkládat přílohy';
+$string['forum:deleteanypost'] = 'Kdykoliv odstraňovat jakékoliv příspěvky';
+$string['forum:deleteownpost'] = 'Odstraňovat vlastní příspěvky (během nastaveného limitu)';
+$string['forum:editanypost'] = 'Upravovat libovolný příspěvek';
+$string['forum:managesubscriptions'] = 'Spravovat odebírání příspěvků';
+$string['forum:movediscussions'] = 'Přesouvat diskuse';
+$string['forum:rate'] = 'Hodnotit příspěvky';
+$string['forum:replypost'] = 'Odpovídat na příspěvky';
+$string['forum:splitdiscussions'] = 'Rozdělovat diskusi';
+$string['forum:startdiscussion'] = 'Začínat novou diskusi';
+$string['forum:viewanyrating'] = 'Vidět všechna hodnocení';
+$string['forum:viewdiscussion'] = 'Vidět diskuse';
+$string['forum:viewhiddentimedposts'] = 'Vidět časově omezené příspěvky';
+$string['forum:viewrating'] = 'Vidět hodnocení';
+$string['forum:viewsubscribers'] = 'Vidět odebíratele';
 $string['forumauthorhidden'] = 'Autor (nezveřejněno)';
 $string['forumblockingalmosttoomanyposts'] = 'Blížíte se limitu pro počet vložených příspěvků. Za poslední $a->blockperiod jste do fóra vložili $a->numposts příspěvků, limit je $a->blockafter.';
 $string['forumbodyhidden'] = 'Tento příspěvek si nemůžete prohlédnout -- zřejmě jste do diskuse ještě nevložili žádný příspěvek.';
@@ -189,7 +205,7 @@ $string['searchphrase'] = 'V příspěvku se musí vyskytovat přesně tato frá
 $string['searchresults'] = 'Výsledky hledání';
 $string['searchsubject'] = 'Tato slova by měla být v předmětu příspěvku';
 $string['searchuser'] = 'Toto jméno by se mělo shodovat s autorem';
-$string['searchuserid'] = 'Autorovo Moodle ID ';
+$string['searchuserid'] = 'Autorovo Moodle ID';
 $string['searchwhichforums'] = 'Která fóra se mají prohledat';
 $string['searchwords'] = 'Tato slova se mohou vyskytovat kdekoliv v příspěvku';
 $string['seeallposts'] = 'Zobrazit všechny příspěvky tohoto uživatele';

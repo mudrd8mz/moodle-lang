@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6 + (2006050506)
+      // editor.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['about'] = 'O tomto editoru';
@@ -31,6 +31,7 @@ $string['createlink'] = 'Vložit odkaz';
 $string['cut'] = 'Vyjmout výběr';
 $string['cutpastemozilla'] = 'Bohužel, pro vložení textu ze schránky momentálně nemůžete použít běžnou klávesovou zkratku či dokonce tlačítko Vložit. Toto chování je způsobeno bezpečnostním opatřením zabudovaným do některých verzí prohlížečů Mozilla a Firefox.<br /><br />Existují způsoby, jak toto chování obejít, takže vyzkoušejte:<br />(1) Místo CTRL+V zkuste zkratku SHIFT+Insert<br />(2) Použijte nabídku Úpravy->Vložit v menu vašeho prohlížeče<br />(3) Upravte si nastavení vašeho prohlížeče v souboru user.js<br />(4) V Linuxu zkuste vložit text pomocí nastaveného tlačítka myši<br /><br />Pro více informací klikněte na tlačítko OK, pro návrat do editoru stiskněte Cancel, Storno či Zrušit.';
 $string['delete'] = 'Odstranit';
+$string['enterurlfirst'] = 'Nejprve je třeba vložit URL';
 $string['filebrowser'] = 'Prohlížeč souborů';
 $string['findwhat'] = 'Najít';
 $string['fontname'] = 'Název písma';
@@ -57,6 +58,7 @@ $string['justifycenter'] = 'Zarovnat na střed';
 $string['justifyfull'] = 'Zarovnat do bloku';
 $string['justifyleft'] = 'Zarovnat vlevo';
 $string['justifyright'] = 'Zarovnat vpravo';
+$string['lang'] = 'Jazyk';
 $string['layout'] = 'Vzhled';
 $string['left'] = 'Vlevo';
 $string['lefttoright'] = 'Zleva doprava';
@@ -73,6 +75,8 @@ $string['matchcase'] = 'Rozlišovat velikost';
 $string['middle'] = 'Uprostřed (middle)';
 $string['minimize'] = 'Minimalizovat editor';
 $string['move'] = 'Přesunout';
+$string['multi'] = 'Více';
+$string['mustenterurl'] = 'Musíte vložit URL';
 $string['nolink'] = 'Zabránit automatickému vytváření odkazů';
 $string['normal'] = 'Normální';
 $string['notimage'] = 'Vybraný soubor není obrázek. Vyberte prosím jiný soubor.';
@@ -85,6 +89,7 @@ $string['paste'] = 'Vložit ze schránky';
 $string['path'] = 'Cesta';
 $string['percent'] = 'Procent';
 $string['pixels'] = 'Pixelů';
+$string['pleaseenteralt'] = 'Prosím, vložte alternativní text';
 $string['popupeditor'] = 'Zvětšit editor';
 $string['preformatted'] = 'Předformátovaný';
 $string['preview'] = 'Náhled';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6.1+ (2006050512)
+      // moodle.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['action'] = 'Akce';
@@ -172,8 +172,8 @@ $string['checkinginstances'] = 'Prověřuji instance';
 $string['checkingsections'] = 'Prověřuji sekce';
 $string['checklanguage'] = 'Prověřit jazyk';
 $string['checknone'] = 'Neprověřovat nic';
-$string['childcoursenotfound'] = 'Podřazený kurz nenalezen!';
-$string['childcourses'] = 'Podřazené kurzy';
+$string['childcoursenotfound'] = 'Asociovaný kurz nenalezen!';
+$string['childcourses'] = 'Asociované kurzy';
 $string['choose'] = 'Vybrat';
 $string['choosecourse'] = 'Vyberte kurz';
 $string['chooseenrolmethod'] = 'Primární metoda zápisů';
@@ -738,13 +738,13 @@ $string['messagedselectedusersfailed'] = 'Objevily se problémy při odesílán�
 $string['messageselect'] = 'Vybrat uživatele jako příjemce e-mailu';
 $string['messageselectadd'] = 'Přidat / poslat zprávu';
 $string['metaaddcourse'] = 'Přidat tento kurz';
-$string['metaalreadycourses'] = 'Kurzy jsou již přiřazeny';
+$string['metaalreadycourses'] = 'Již asociované kurzy';
 $string['metaalreadyhascourses'] = 'Tento metakurz již má podřízené kurzy.';
 $string['metaalreadyhasenrolments'] = 'Tento kurz již je v režimu normálních zápisů.';
 $string['metaalreadyinmeta'] = 'Tento kurz je již součástí nějakého metakurzu.';
-$string['metaassigncourses'] = 'Přiřadit kurzy';
+$string['metaassigncourses'] = 'Asociovat kurzy';
 $string['metacourse'] = 'Metakurz';
-$string['metanoalreadycourses'] = 'Již nejsou přiřazeny žádné kurzy';
+$string['metanoalreadycourses'] = 'Již nejsou asociovány žádné kurzy';
 $string['metanopotentialcourses'] = 'Žádný kurz není k dispozici';
 $string['metapotentialcourses'] = 'Kurzy k dispozici';
 $string['metaremovecourse'] = 'Odebrat tento kurz';
@@ -1157,7 +1157,6 @@ $string['statsreport2'] = 'Prohlížení (učitelé a studenti)';
 $string['statsreport3'] = 'Příspěvky (učitelé a studenti)';
 $string['statsreport4'] = 'Veškerá činnost (učitelé a studenti)';
 $string['statsreport5'] = 'Veškerá činnost studentů (prohlížení a příspěvky)';
-$string['statsreport6'] = 'Veškerá činnost učitelů (prohlížení a příspěvky)';
 $string['statsreport7'] = 'Činnost uživatelů (prohlížení a příspěvky)';
 $string['statsreport8'] = 'Veškerá činnost uživatelů';
 $string['statsreport9'] = 'Přihlášení (na stránky)';
@@ -1165,8 +1164,6 @@ $string['statsreportactivity'] = 'Veškerá činnost (učitelé a studenti)';
 $string['statsreportforuser'] = 'pro';
 $string['statsreportlogins'] = 'Přihlášení';
 $string['statsreportreads'] = 'Prohlížení (učitelé a studenti)';
-$string['statsreportstudentactivity'] = 'Veškerá činnost studentů (prohlížení a příspěvky)';
-$string['statsreportteacheractivity'] = 'Veškerá činnost učitelů (prohlížení a příspěvky)';
 $string['statsreporttype'] = 'Typ protokolu';
 $string['statsreportwrites'] = 'Příspěvky (učitelé a studenti)';
 $string['statsstudentactivity'] = 'Činnost studentů';
