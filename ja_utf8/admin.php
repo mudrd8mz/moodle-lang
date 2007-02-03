@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2007012500)
+      // admin.php - created with Moodle 1.8 Beta (2007020200)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -99,7 +99,7 @@ $string['configfiltermatchoneperpage'] = 'オートリンクフィルタは、�
 $string['configfiltermatchonepertext'] = 'オートリンクフィルタは、各アイテムのページテキスト (例 リソース、ブロック) で最初のテキストマッチングに該当した1つのリンクのみ生成します。この設定は、「1ページあたり1回フィルタマッチする」が<i>yes</i>の場合、無視されます。';
 $string['configfilteruploadedfiles'] = '「すべてのファイル」はアップロードしたすべてのHTMLおよびテキストファイル、「HTMLファイルのみ」はアップロードしたHTMLファイルのみ、表示する前にフィルタをかけます。「No」は全くフィルタをかけません。';
 $string['configforcelogin'] = '通常、サイトとコース一覧 (コースではなく) のフロントページはサイトにログインせずに閲覧することができます。すべての動作を行う前にログインを強制したい場合、この設定を有効にしてください。';
-$string['configforceloginforprofiles'] = 'この設定を有効にした場合、ユーザプロフィールページを閲覧するには実際のアカウントでログインする必要があります。デフォルトでは、無効にされますので、学生は事前に各コースの教師のプロフィールを閲覧することができます。これはサーチエンジンからもプロフィールページにアクセスできることを意味します。';
+$string['configforceloginforprofiles'] = 'この設定を有効にした場合、ユーザプロフィールページを閲覧するには実際のアカウントでログインする必要があります。デフォルトでこの設定は有効 (チェックした状態) にされます。';
 $string['configframename'] = 'Moodleをフレーム内で使用する場合、フレーム名を指定してください。フレームを使用しない場合は「_top」のままにしてください。';
 $string['configfrontpage'] = '上記で選択したアイテムは、サイトフロントページに表示されます。';
 $string['configfrontpageloggedin'] = '上記で選択したアイテムは、ユーザのログイン時にサイトフロントページに表示されます。';
@@ -176,6 +176,7 @@ $string['configsitemailcharset'] = 'あなたのサイトで生成されたす�
 $string['configsitepolicy'] = 'このサイトを使用する前に、すべてのユーザがサイト使用許諾に同意する必要がある場合、サイト使用許諾ページのURLを指定してください。同意する必要が無い場合、空白のままにしてください。URLは自由に指定することができます - 便利な場所は、サイトファイルの中です。<br />
 例 http://yoursite/file.php/1/policy.html';
 $string['configslasharguments'] = 'ファイル (イメージ、アップロード等) は、スラッシュを使ってプログラムに受け渡されます。この方法により、簡単にブラウザ内やプロクシにイメージを一時保存させることが可能です。いくつかのPHPサーバではこの方法が取れない場合があります。もしファイルやイメージ (例 ユーザの顔写真等) のアップロードに問題がある場合は、最初のオプションを選択してください。';
+$string['configsmartpix'] = 'この設定を有効にすると、PHPスクリプトが現在のテーマ、そしてすべてのテーマ、最後にMoodle/pixフォルダを検索して、アイコンを表示します。これはテーマ間の重複するイメージファイルを減らすことができますが、パフォーマンスにおいてわずかな負荷がかかります。';
 $string['configsmtphosts'] = 'Moodleでメールを送信するときに使用する1つ以上のローカルSMTPサーバを入力してください (例 mail.a.com またはmail.a.com;mail.b.com)。空白にした場合、Moodleは、デフォルトのPHPメール送信機能を使用します。';
 $string['configsmtpuser'] = '上記でSMTPサーバを設定して、なおかつ認証が必要な場合は、ユーザ名とパスワードを設定してください。';
 $string['configstartwday'] = '週の始め';
@@ -497,6 +498,7 @@ $string['sitepolicies'] = 'サイトポリシー';
 $string['sitepolicy'] = 'サイトポリシーURL';
 $string['sitesectionhelp'] = '選択した場合、トピックセクションがサイトフロントページに表示されます。';
 $string['slasharguments'] = 'スラッシュを使用する';
+$string['smartpix'] = 'スマートpixサーチ';
 $string['smtphosts'] = 'SMTPホスト';
 $string['smtppass'] = 'SMTPパスワード';
 $string['smtpuser'] = 'SMTPユーザ名';
