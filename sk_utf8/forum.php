@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6.2+ (2006050521)
+      // forum.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['addanewdiscussion'] = 'Pridať novú diskusnú tému';
@@ -49,6 +49,7 @@ $string['disallowsubscribe'] = 'Odoberanie e-mailom nie je povolené.';
 $string['disallowsubscribeteacher'] = 'Odoberanie e-mailom nie je povolené (s výnimkou učiteľov).';
 $string['discussion'] = 'Diskusia';
 $string['discussionmoved'] = 'Táto diskusia sa presunula do \'$a\'.';
+$string['discussionmovedpost'] = 'Táto diskusia bola presunutá <a href=\"$a->discusshref\">sem</a> do fóra <a href=\"$a->forumhref\">$a->forumname</a>';
 $string['discussionname'] = 'Názov diskusie';
 $string['discussions'] = 'Diskusie';
 $string['discussionsstartedby'] = 'Diskusiu začal(a) $a';
@@ -63,11 +64,15 @@ $string['editedby'] = 'Upravené: $a->name - $a->date';
 $string['editing'] = 'Úprava';
 $string['emptymessage'] = 'Vo Vašom príspevku sa vyskytla chyba. Možno ste  nevyplnili niektoré povinné údaje, alebo bola Vaša príloha príliš veľká. Vaše zmeny NEBOLI uložené.';
 $string['everyonecanchoose'] = 'Ktokoľvek si môže vybrať odoberanie príspevkov emailom';
-$string['everyoneissubscribed'] = 'Každý môže odoberať nové príspevky emailom';
+$string['everyoneissubscribed'] = 'Každý odoberá nové príspevky emailom';
 $string['existingsubscribers'] = 'Existujúci odberatelia';
 $string['forcesubscribe'] = 'Vnútiť každému odoberanie príspevkov emailom';
 $string['forcesubscribeq'] = 'Vnútiť každému odoberanie príspevkov emailom?';
 $string['forum'] = 'Fórum';
+$string['forum:createattachment'] = 'Vytvoriť prílohy';
+$string['forum:deleteanypost'] = 'Vymazať (kedykoľvek) ľubovoľný príspevok';
+$string['forum:deleteownpost'] = 'Vymazať vlastné príspevky (v rámci časového limitu)';
+$string['forum:editanypost'] = 'Upraviť ľubovoľný príspevok';
 $string['forumauthorhidden'] = 'Autor (nezverejnený)';
 $string['forumblockingalmosttoomanyposts'] = 'Blížíte sa k maximu počtu vložených príspevkov. Za posledných $a->blockperiod ste do fóra vložili $a->numposts príspevkov, limit je $a->blockafter.';
 $string['forumbodyhidden'] = 'Tento príspevok si nemôžete prezrieť -- asi ste do diskuse ešte nevložili žiadny príspevok.';
@@ -76,6 +81,8 @@ $string['forumname'] = 'Názov fóra';
 $string['forumposts'] = 'Príspevky vo fóre';
 $string['forums'] = 'Fóra';
 $string['forumsubjecthidden'] = 'Predmet  (nezverejnený)';
+$string['forumtracked'] = 'Neprečítané prípsevky sú sledované';
+$string['forumtrackednot'] = 'Neprečítané prípsevky nie sú sledované';
 $string['forumtype'] = 'Typ fóra';
 $string['generalforum'] = 'Štandardné fórum pre bežné použitie';
 $string['generalforums'] = 'Bežné fóra';
@@ -103,6 +110,7 @@ $string['modethreaded'] = 'Znázorniť hierarchiu odpovedí (iba osnovu)';
 $string['modulename'] = 'Fórum';
 $string['modulenameplural'] = 'Fóra';
 $string['more'] = 'viac';
+$string['movedmarker'] = '(Presunuté)';
 $string['movethisdiscussionto'] = 'Presunúť túto diskusiu do ...';
 $string['namenews'] = 'Fórum noviniek';
 $string['namesocial'] = 'Spoločenské fórum';
@@ -114,6 +122,8 @@ $string['noguestsubscribe'] = 'Prepáčte, ale hostia nemôžu odoberať nové p
 $string['noguesttracking'] = 'Prepáčte, ale hostia si nemôžu nastaviť označovanie neprečítaných príspevkov.';
 $string['nomorepostscontaining'] = 'Neboli nájdené žiadne ďalšie príspevky obsahujúce \'$a\'';
 $string['nonews'] = 'Žiadne novinky neboli publikované';
+$string['nopostdiscussion'] = 'V tejto diskusii nemôžete prispievať';
+$string['nopostforum'] = 'V tomto fóre nemôžete prispievať';
 $string['noposts'] = 'Bez príspevkov';
 $string['nopostscontaining'] = 'Neboli nájdené žiadne príspevky obsahujúce \'$a\'';
 $string['noquestions'] = 'Do tohto fóra zatiaľ nebola vložená žiadna otázka.';
@@ -121,6 +131,7 @@ $string['nosubscribers'] = 'V tomto fóre zatiaľ nikto neodoberá nové príspe
 $string['nothingnew'] = 'Žiadne nové správy';
 $string['notingroup'] = 'Prepáčte, ale na prehliadanie tohto fóra musíte byť členom skupiny.';
 $string['notrackforum'] = 'Neoznačovať neprečítané správy';
+$string['noviewdiscussionspermission'] = 'Nemáte oprávnenie prezerať diskusie v tomto fóre';
 $string['nowallsubscribed'] = 'Odoberanie príspevkov zo všetkých fór v kurze \'$a\' ZAPNUTÉ.';
 $string['nowallunsubscribed'] = 'Odoberanie príspevkov zo všetkých fór v kurze \'$a\' VYPNUTÉ.';
 $string['nownotsubscribed'] = '$a->name NEBUDE dostávať kópie príspevkov z  \'$a->forum\' emailom.';
@@ -176,6 +187,7 @@ $string['repliesone'] = '$a odpoveď zatiaľ';
 $string['reply'] = 'Odpovedať';
 $string['replyforum'] = 'Odpovedať do fóra';
 $string['resetforums'] = 'Odstrániť všetky príspevky z tohto typu fór.';
+$string['resetsubscriptions'] = 'Odstrániť odoberateľov fóra';
 $string['rsssubscriberssdiscussions'] = 'Zobraziť RSS kanál \'$a\' diskusií';
 $string['rsssubscriberssposts'] = 'Zobraziť RSS kanál \'$a\' príspevkov';
 $string['search'] = 'Hľadať';
