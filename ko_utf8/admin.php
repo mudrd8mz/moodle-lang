@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2007012500)
+      // admin.php - created with Moodle 1.8 Beta (2007020200)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -105,6 +105,7 @@ $string['configfrontpageloggedin'] = '위에서 선택된 항목은 사용자가
 $string['configfullnamedisplay'] = '이것은 전체 이름을 표시하는 방법을 정의하는 것이다. 대부분의 한 개 언어만 쓰는 싸이트에서는 기본값인 \"성+이름\"으로 충분히 효과를 볼 수 있지만, 다양한 언어팩을 쓰는 경우 특히 성이나 이름이 매우 긴 경우에는 이름을 보이지 않게 하거나 성을 보이지 않게 설정할 수도 있다.';
 $string['configgdversion'] = '표시된 GD 버전이 설치되어 있다. 여기에 표시된 버전은 자동으로 검출된 것이다. 정확한 내용을 알지 못한다면 가급적 바꾸지 말기 바란다.';
 $string['configgradebookroles'] = '이 설정은 성적표에 표시될 사람을 조정할 수 있게 한다. 사용자는 적어도 이 중 하나의 역할로 성적표에 기재될 필요가 있다.';
+$string['configguestroleid'] = '이 역할은 방문객에게 자동으로 부여되는 것이다. 키없는 손님 방문을 허용한 배움터에 방문객으로 참여한 비등록 사용자에게도 한시적으로 적용된다. moodle/legacy:guest 및 moodle/course:view 권한이 부여되어 있는지 확인하라.';
 $string['confighiddenuserfields'] = '교사와 관리자 이외의 사람들에게는 보이게 하고 싶지 않은 사용자 정보를 선택하라. 이렇게 하면 학생들의 프라이버시를 증진시킬 수 있다. 여러 항목을 선택할 때는 CTRL키를 누른채 항목들을 선택하면 된다.';
 $string['confightmleditor'] = '사이트 전반에 걸쳐 내장된 HTML텍스트의 편집기를 사용할 수 있게 할 것인가를 정하는 옵션이다. 여기서 사용을 허용하더라도 사용자 입장에서는 웹브라우저의 기능에 따라 사용가능 여부가 결정될 것이다. 사용자도 스스로 사용여부를 선택할 수 있다.';
 $string['configidnumber'] = '이 옵션은 다음의 셋 중에 하나를 선택해야 한다. (1)사용자 ID번호를 전혀 요구하지 않는다. (2)사용자 ID번호는 요구하나 빈칸을 허용한다. (3)사용자 ID번호를 요구하고 빈 칸을 허용하지 않는다. 만일 사용자 ID번호가 입력되면, 신상명세에 표시된다.';
@@ -180,6 +181,7 @@ $string['configsitemailcharset'] = '이 사이트에서 생성되는 모든 이�
 $string['configsitepolicy'] = '만약 당신이 모든 사용자가 반드시 봐야되는 그리고 이 사이트를 사용하기 전에 동의해야하는 사이트 정책을 가지고 있다면 이곳에 URL을 적어라. 그렇지 않으면, 이 공간을 비워둬라. 그 URL은 어떠한 곳도 지정할 수 있다. - 편리한 장소는 그 사이트 파일들 중 하나의 파일을 지정하면 된다. 
  예: http://yoursite/file.php/1/policy.html';
 $string['configslasharguments'] = '파일들은 슬래쉬 아규먼트를 사용하는 스크립트를 통해서 제공된다. 이 방법은 파일들이 웹 브라우저나 프록시 서버등에서 훨씬 쉽게 저장되도록 한다. 불행하게도, 어떤 PHP서버들은 이 방법을 허용하지 않는다. 그래서 만약 업로드된 파일들이나 이미지들을 보는데 문제가 있다면, 이 변수를 처음 옵션으로 설정하라.';
+$string['configsmartpix'] = '이를 켜 놓으면 아이콘들은 PHP 스크립트를 통해서 현재의 테마, 상위 테마, 그리고 무들의 /pix 를 검색하여 제공된다. 이는 테마안에 중복된 이미지가 있을 때 좋지만 다소 성능에 무리를 준다.';
 $string['configsmtphosts'] = '무들이 메일을 보낼때 사용하는 local SMTP 서버의 전체 이름을 적어라.(예 : \'mail.a.com\' 혹은 \'mail.a.com;mail.b.com\')
 만약 이곳을 빈칸으로 남겨두면 무들은 PHP 프로그램을 사용하여 메일을 발송할 것이다.';
 $string['configsmtpuser'] = '만약 위에서 SMTP 서버를 지정했고, 각 서버에 접속할 수 있는 인증을 요구한다면, 사용자 ID와 비밀번호를 이 곳에 입력하라.';
@@ -298,6 +300,7 @@ $string['globalsquoteswarning'] = '<p><strong>보안 경고</strong>: 무들을 
 $string['gotofirst'] = '빠진 첫번째 문자열로 가기';
 $string['gradebook'] = '성적 기록부';
 $string['gradebookroles'] = '성적 관리 역할';
+$string['guestroleid'] = '방문객을 위한 역할';
 $string['helpadminseesall'] = '관리자가 모든 일정을 볼 수 있거나 그렇지 않으면 그 이벤트들 스스로 적용됩니까?';
 $string['helpcalendarsettings'] = '다양한 일정 목록과 날짜/시간과 관련된 내용을 설정합니다.';
 $string['helpforcetimezone'] = '모든 사용자들이 각자 그들의 표준시간대를 선택할 수 있게 하거나, 모든 사람들에게 지정한 시간대를 쓰도록 강요할 수 있습니다.';
@@ -504,6 +507,7 @@ $string['sitepolicies'] = '사이트 정책';
 $string['sitepolicy'] = '사이트 정책 URL';
 $string['sitesectionhelp'] = '이것을 켜 놓으면, 토픽 영역이 사이트 대문화면에 보일 것입니다.';
 $string['slasharguments'] = '슬래쉬 인수 사용';
+$string['smartpix'] = '자동 아이콘 검색';
 $string['smtphosts'] = 'SMTP 호스트';
 $string['smtppass'] = 'SMTP 암호';
 $string['smtpuser'] = 'SMTP 사용자명';
