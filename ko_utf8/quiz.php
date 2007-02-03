@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 dev (2007012101)
+      // quiz.php - created with Moodle 1.8 Beta (2007020200)
 
 
 $string['1day'] = '하루';
@@ -117,7 +117,7 @@ $string['createmultiple'] = '여러 무작위 질문 추가';
 $string['createnewquestion'] = '새로운 질문 생성';
 $string['custom'] = '커스텀 포멧';
 $string['dataitemneed'] = '유효한 문제가 되려면 적어도 한 항목 이상의 답안을 첨가하여야 합니다.';
-$string['datasetdefinitions'] = '범주 $a를 위한 재사용가능한 문항 정의';
+$string['datasetdefinitions'] = '범주 $a를 위한 재사용 가능한 문항 정의';
 $string['datasetnumber'] = '번호';
 $string['daysavailable'] = '가능한 날';
 $string['decimaldigits'] = '소숫점 처리';
@@ -418,7 +418,7 @@ $string['relative'] = '비교';
 $string['remove'] = '삭제';
 $string['rename'] = '새이름';
 $string['renderingserverconnectfailed'] = '$a 서버는 RQP 요청을 처리하는데 실패하였습니다. URL이 정확한지 확인하십시오';
-$string['reordertool'] = '재주문 도구 보여주기';
+$string['reordertool'] = '재정렬 도구 보여주기';
 $string['repaginate'] = '각 페이지의 $a 질문들에 페이지수를 다시 달으십시오';
 $string['replace'] = '대체';
 $string['replacementoptions'] = '대체 옵션';
