@@ -1,8 +1,8 @@
 <!-- $Id$ -->
 
-<p align=center><strong>Importer des fichiers en format «&nbsp;GIFT&nbsp;»</strong></p>
+<p align=center><strong>Importer des fichiers en format « GIFT »</strong></p>
 
-<p>Le format GIFT est le format le plus exhaustif pour l'importation de questions dans le module de tests de Moodle. Il permet l'importation de questions à Choix multiples, Vrai/Faux, à Réponses courtes, d'Appariement et Numériques, ainsi que l'insertion de _____ pour le format «&nbsp;Mot manquant&nbsp;». Les différents types de questions peuvent être mélangés dans un seul fichier texte. Le format permet également l'insertion de commentaires, titres de questions, feedbacks et de coefficients.</p>
+<p>Le format GIFT est le format le plus exhaustif pour l'importation de questions dans le module de tests de Moodle. Il permet l'importation de questions à Choix multiples, Vrai/Faux, à Réponses courtes, d'Appariement et Numériques, ainsi que l'insertion de _____ pour le format « Mot manquant ». Les différents types de questions peuvent être mélangés dans un seul fichier texte. Le format permet également l'insertion de commentaires, titres de questions, feedbacks et de coefficients.</p>
 
 <h3>Types de questions</h3>
 
@@ -18,7 +18,7 @@
 
 <p>Tous les types de questions permettent ce format <strong>Mot manquant</strong>.</p>
 
-<p>Une ligne vide (deux retours de chariot) doit séparer les différentes questions. Les réponses peuvent être écrites sur des lignes séparées et même indentées, dans un souci de clarté&nbsp;:</p>
+<p>Une ligne vide (deux retours de chariot) doit séparer les différentes questions. Les réponses peuvent être écrites sur des lignes séparées et même indentées, dans un souci de clarté :</p>
 
 <pre>
      The American holiday of Thanksgiving is celebrated on the {
@@ -58,7 +58,7 @@
 
 <h4>Appariement</h4>
 
-<p>Les paires correspondantes doivent commencer par un signe égal (=) et sont séparées par le symbole «&nbsp;->&nbsp;» (sans les guillemets). Il doit y avoir au moins trois paires.</p>
+<p>Les paires correspondantes doivent commencer par un signe égal (=) et sont séparées par le symbole « -> » (sans les guillemets). Il doit y avoir au moins trois paires.</p>
 
 <pre>
      Matching Question. {
@@ -88,7 +88,7 @@ Les questions d'appariement ne permettent pas les feedbacks, ni les coefficients
      What is the value of pi (to 3 decimal places)? {#3.1415:0.0005}.
 </pre>
 
-<p>On peut aussi donner la réponse numérique sous la forme d'un intervalle de la façon suivante&nbsp;: {#<em>minimum</em>..<em>maximum</em>}.</p>
+<p>On peut aussi donner la réponse numérique sous la forme d'un intervalle de la façon suivante : {#<em>minimum</em>..<em>maximum</em>}.</p>
 
 <pre>
      Quelle est la valeur de pi (3 décimales) ? {#3.141..3.142}.
@@ -102,11 +102,11 @@ Les questions d'appariement ne permettent pas les feedbacks, ni les coefficients
      =%50%1822:2}
 </pre>
 
-<p>Comme l'interface de Moodle ne permet pas les réponses multiples pour les questions numériques, il n'y a aucun moyen de les voir, ni de les modifier autrement qu'en supprimant et en ré-important la question, ou en modifiant directement la base de données (DANGER&nbsp;!).</p>
+<p>Comme l'interface de Moodle ne permet pas les réponses multiples pour les questions numériques, il n'y a aucun moyen de les voir, ni de les modifier autrement qu'en supprimant et en ré-important la question, ou en modifiant directement la base de données (DANGER !).</p>
 
 <h3>Options</h3>
 
-<p>En plus de ces types de questions, les options suivantes sont offertes grâce à ce format&nbsp;: commentaires, nom de question, feedback et coefficients.</p>
+<p>En plus de ces types de questions, les options suivantes sont offertes grâce à ce format : commentaires, nom de question, feedback et coefficients.</p>
 
 <h4>Commentaires</h4>
 
@@ -145,10 +145,10 @@ Les questions d'appariement ne permettent pas les feedbacks, ni les coefficients
      =no one#excellent answer!
      =nobody#excellent answer!}
 
-     Grant is buried in Grant's tomb.{FALSE#No one is buried in Grant's tomb.}
+     Grant is buried in Grant's tomb.{FALSE#Wrong, no one is buried in Grant's tomb.#Right, well done.}
 </pre>
 
-<p>Pour les questions à choix multiples, le feedback n'est affiché que pour la réponse sélectionnée par l'étudiant. Pour la réponse courte, le feedback est affichée uniquement si l'étudiant a donné la réponse correcte correspondante. Pour les questions Vrai/Faux, le feedback n'apparaît que si la réponse donnée est incorrecte. Dans le dernier exemple ci-dessus, le feedback ne s'affichera donc que si l'étudiant a sélectionné VRAI comme réponse.</p>
+<p>Pour les questions à choix multiples, le feedback n'est affiché que pour la réponse sélectionnée par l'étudiant. Pour la réponse courte, le feedback est affichée uniquement si l'étudiant a donné la réponse correcte correspondante. Pour les questions Vrai/Faux, il peut y avoir une ou deux chaînes pour le feedback. La première est affichée si la réponse donnée est incorrecte, la deuxième si la réponse est fausse.</p>
 
 <h4>Coefficients (en %)</h4>
 
@@ -174,7 +174,7 @@ Les questions d'appariement ne permettent pas les feedbacks, ni les coefficients
 
 <p>Les deux derniers exemples sont une même question, une première foius comme question à choix multiples, la deuxième sous la forme de question à réponse courte.</p>
 
-<p><font size="-1">Il est possible de spécifier ainsi des coefficients non disponibles dans l'interface graphique (navigateur) de Moodle. De tels coefficients seront calculés correctement d'après les valeurs données dans le fichier importé) et apparaîtront normales aux étudiants faisant le test. Cependant ces coefficients n'apparaîtront pas corrects pour les enseignants lors de l'édition des questions dans Moodle. Si vous éditez de telles questions avec l'interface de Moodle et que vous modifiez le coefficient, celui-ci sera changé.</font></p>
+<p>Il est possible de spécifier ainsi des coefficients non disponibles dans l'interface graphique (navigateur) de Moodle. De tels coefficients seront calculés correctement d'après les valeurs données dans le fichier importé) et apparaîtront normales aux étudiants faisant le test. Cependant ces coefficients n'apparaîtront pas corrects pour les enseignants lors de l'édition des questions dans Moodle. Si vous éditez de telles questions avec l'interface de Moodle et que vous modifiez le coefficient, celui-ci sera changé.</p>
 
 <h4>Réponses multiples</h4>
 
@@ -202,18 +202,18 @@ Les questions d'appariement ne permettent pas les feedbacks, ni les coefficients
 
 <p>D'autres options sont disponibles en éditant le filtre d'importation <strong>gift/format.php</strong>.</p>
 
-<p>Les réponses courtes peuvent être rendues sensibles à la casse des caractères en remplaçant «&nbsp;0&nbsp;» par «&nbsp;1&nbsp;» dans la ligne suivante&nbsp;:</p>
+<p>Les réponses courtes peuvent être rendues sensibles à la casse des caractères en remplaçant « 0 » par « 1 » dans la ligne suivante :</p>
 
 <pre>     $question->usecase = 0;  // Ignore case</pre>
 
-<h3>Des erreurs&nbsp;?</h3>
+<h3>Des erreurs ?</h3>
 
 <p>L'encodage de votre fichier texte doit être le même que celui de votre installation Moodle.</p>
 
-<p>Un fichier contenant des exemples de questions est à disposition ici&nbsp;: <a href="../../../../mod/quiz/format/gift/examples.txt">gift/examples.txt</a>.</p>
+<p>Un fichier contenant des exemples de questions est à disposition ici : <a href="../../../../mod/quiz/format/gift/examples.txt">gift/examples.txt</a>.</p>
 
 <h3>Remerciements</h3>
 
-<p>Ce filtre d'importation a été écrit en collaboration avec de nombreux membres de la communauté Moodle. Il était basé à l'origine sur le format «&nbsp;mot manquant&nbsp;», qui comportait du code de Martin Dougiamas, Thomas Robb et d'autres personnes. Paul Tsuchido Shew a écrit ce filtre en décembre 2003, y incorporant les suggestions de la communauté, afin d'obtenir un format d'importation robuste. Le nom est un acronyme pour «&nbsp;General Import Format Technology&nbsp;» ou quelque chose comme ça. Comme c'est trop long, c'est juste GIFT&nbsp;!</p>
+<p>Ce filtre d'importation a été écrit en collaboration avec de nombreux membres de la communauté Moodle. Il était basé à l'origine sur le format « mot manquant », qui comportait du code de Martin Dougiamas, Thomas Robb et d'autres personnes. Paul Tsuchido Shew a écrit ce filtre en décembre 2003, y incorporant les suggestions de la communauté, afin d'obtenir un format d'importation robuste. Le nom est un acronyme pour « General Import Format Technology » ou quelque chose comme ça. Comme c'est trop long, c'est juste GIFT !</p>
 
 <p>GIFT documentation by Paul Tsuchido Shew, 13 Jan 2004, traduite par Nicolas Martignoni, 8 février 2004.</p>
