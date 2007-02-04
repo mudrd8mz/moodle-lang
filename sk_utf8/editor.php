@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6 development (2005060201)
+      // editor.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['about'] = 'O tomto editore';
@@ -27,10 +27,11 @@ $string['cols'] = 'Stĺpce';
 $string['copy'] = 'Kopírovať výber';
 $string['createanchor'] = 'Vytvoriť návestie';
 $string['createfolder'] = 'Vytvoriť priečinok';
-$string['createlink'] = 'Vložiť odkaz ';
+$string['createlink'] = 'Vložiť odkaz';
 $string['cut'] = 'Vybrať výber';
 $string['cutpastemozilla'] = 'Bohužiaľ, pre vloženie textu zo schránky momentálne nemôžete použiť bežnú klávesovú skratku či tlačidlo Vložiť. Toto správanie je spôsobené bezpečnostným opatrením zabudovaným do niektorých verzií prehliadačov Mozilla a Firefox.<br /><br />Existujú spôsoby, ako sa dá toto správanie obísť, skúste  vyskúšať toto:<br />(1) Miesto CTRL+v skúste skratku SHIFT+Insert<br />(2) Použite ponuku Úpravy->Vložiť v menu Vášho prehliadača<br />(3) Upravte si nastavenie Vášho prehliadača v súbore user.js<br /><br />Pre viac informácií kliknite na tlačidlo OK, pre návrat do editora stlačte Cancel, Storno či Zrušiť.';
 $string['delete'] = 'Odstrániť';
+$string['enterurlfirst'] = 'Najprv je treba vložiť URL';
 $string['filebrowser'] = 'Prehliadač súborov';
 $string['findwhat'] = 'Nájsť';
 $string['fontname'] = 'Názov fontu';
@@ -73,6 +74,7 @@ $string['matchcase'] = 'Citlivé na veľkosť písma';
 $string['middle'] = 'Uprostred (Middle)';
 $string['minimize'] = 'Minimalizovať editor';
 $string['move'] = 'Presunúť';
+$string['mustenterurl'] = 'Musíte vložiť URL';
 $string['nolink'] = 'Zabrániť automatickému vytváraniu odkazov';
 $string['normal'] = 'Normálny';
 $string['notimage'] = 'Vybraný súbor nie je obrázok. Prosím, vyberte si iný súbor!';
@@ -85,6 +87,7 @@ $string['paste'] = 'Vložiť zo schránky';
 $string['path'] = 'HTML cesta';
 $string['percent'] = 'Percent';
 $string['pixels'] = 'Pixelov';
+$string['pleaseenteralt'] = 'Prosím, vložte alternativny text';
 $string['popupeditor'] = 'Zväčšiť editor';
 $string['preformatted'] = 'Predformátovaný';
 $string['preview'] = 'Náhľad';
