@@ -2,36 +2,36 @@
 
 <p align=center><strong>Importer des fichiers en format « GIFT »</strong></p>
 
-<p>Le format GIFT est le format le plus exhaustif pour l'importation de questions dans le module de tests de Moodle. Il permet l'importation de questions à Choix multiples, Vrai/Faux, à Réponses courtes, d'Appariement et Numériques, ainsi que l'insertion de _____ pour le format « Mot manquant ». Les différents types de questions peuvent être mélangés dans un seul fichier texte. Le format permet également l'insertion de commentaires, titres de questions, feedbacks et de coefficients.</p>
+<p>Le format GIFT est le format le plus exhaustif pour l'importation de questions dans le module de tests de Moodle. Il permet l'importation de questions à Choix multiples, Vrai/Faux, à Réponses courtes, d'Appariement et Numériques, ainsi que l'insertion de _____  pour le format « Mot manquant ». Les différents types de questions peuvent être utilisés ensemble dans un seul fichier texte. Le format permet également l'insertion de commentaires, de titres de questions, de feedbacks et de coefficients.</p>
 
 <h3>Types de questions</h3>
 
-<h4>À Choix multiples</h4>
+<h4>Choix multiples</h4>
 
-<p>Pour les questions à choix multiples, les mauvaises réponses sont préfixées d'un tilde (~) et la réponse correcte d'un signe égal (=).</p>
+<p>Pour les questions à choix multiples, les réponses incorrectes sont préfixées d'un tilde (~) et la réponse correcte d'un signe égal (=).</p>
 
-<pre>     Who's buried in Grant's tomb?{~Grant ~Jefferson =no one}</pre>
+<pre>     Quel est le nom du héros du Comte de Monte-Cristo ?{~Jean Valjean ~Étienne Lantier =Edmond Dantès}</pre>
 
 <p>Le format <strong>Mot manquant</strong> insère automatiquement une ligne à compléter (comme cela _____) au milieu du texte. Pour obtenir ce résultat, placez les réponses là où vous voulez que la ligne apparaisse. Les signes _____ ne sont insérés que si les réponses sont placées avant la ponctuation finale.</p>
 
-<pre>     Grant is {~buried =entombed ~living} in Grant's tomb.</pre>
+<pre>     Le héros du Comte de Monte-Cristo s'appelle {~Jean =Edmond ~Philippe} Dantès.</pre>
 
 <p>Tous les types de questions permettent ce format <strong>Mot manquant</strong>.</p>
 
 <p>Une ligne vide (deux retours de chariot) doit séparer les différentes questions. Les réponses peuvent être écrites sur des lignes séparées et même indentées, dans un souci de clarté :</p>
 
 <pre>
-     The American holiday of Thanksgiving is celebrated on the {
-     ~second
-     ~third
-     =fourth
-     } Thursday of November.
+     L'histoire des Trois Mousquetaires se déroule au {
+     ~quinzième
+     ~seizième
+     =dix-septième
+     } siècle.
 
-     Japanese characters originally came from what country? {
-     ~India
-     =China
-     ~Korea
-     ~Egypt}
+     De quelle pays sont originaires les caractères japonais ? {
+     ~Inde
+     =Chine
+     ~Corée
+     ~Égypte}
 </pre>
 
 <h4>Réponse courte</h4>
@@ -39,9 +39,9 @@
 <p>Dans ce format, les réponses sont toutes préfixées d'un signe égal (=), indiquant que toutes sont correctes. Les réponses ne peuvent contenir de tilde.</p>
 
 <pre>
-     Who's buried in Grant's tomb?{=no one =nobody}
+     Quel est le nom du héros du Comte de Monte-Cristo ?{=Dantès =Edmond Dantès}
 
-     Two plus two equals {=four =4}.
+     Deux plus deux égale {=quatre =4 =IV =Quatre}.
 </pre>
 
 <p>S'il n'y a qu'une seule bonne Réponse courte, elle peut être écrite sans le signe égal, à moins qu'elle ne puisse être confondue avec une question Vrai/Faux.</p>
@@ -51,9 +51,9 @@
 <p>La réponse indique ici lequel des énoncés est vrai ou faux. La réponse s'écrit {TRUE} ou {FALSE}, ou de façon abrégée {T} ou {F}.</p>
 
 <pre>
-     Grant is buried in Grant's tomb.{F}
+     Étienne Lantier est le héros du Comte de Monte-Cristo.{F}
 
-     The sun rises in the east.{T}
+     Le Soleil se lève du côté Est.{T}
 </pre>
 
 <h4>Appariement</h4>
@@ -61,45 +61,45 @@
 <p>Les paires correspondantes doivent commencer par un signe égal (=) et sont séparées par le symbole « -> » (sans les guillemets). Il doit y avoir au moins trois paires.</p>
 
 <pre>
-     Matching Question. {
-     =subquestion1 -> subanswer1
-     =subquestion2 -> subanswer2
-     =subquestion3 -> subanswer3
+     Question d'appariement. {
+     =Terme 1 -> Correspondance 1
+     =Terme 2 -> Correspondance 2
+     =Terme 3 -> Correspondance 3
      }
 
-     Match the following countries with their corresponding capitals. {
+     Faites correspondre les pays ci-dessous avec leur capitale. {
      =Canada -> Ottawa
-     =Italy  -> Rome
-     =Japan  -> Tokyo
-     =India  -> New Delhi
+     =Italie -> Rome
+     =Japon  -> Tokyo
+     =Inde   -> New Delhi
      }
 </pre>
 
 <p>
-Les questions d'appariement ne permettent pas les feedbacks, ni les coefficients.</p>
+Les questions d'appariement ne permettent ni les feedbacks, ni les coefficients.</p>
 
 <h4>Numérique</h4>
 
 <p>La réponse d'une question numérique doit commencer par le signe dièze (#). Elle peut contenir une marge d'erreur, écrite immédiatement après la réponse correcte, séparée par un signe deux-points (:). Si par exemple la réponse est située entre 1.5 et 2.5, on écrira <strong>{#2:0.5}</strong>. Si aucune marge d'erreur n'est spécifiée, elle est assimilée à 0.</p>
 
 <pre>     
-     When was Ulysses S. Grant born? {#1822}
+     En quelle année est né Wolfgang Amadeus Mozart ? {#1756}
 
-     What is the value of pi (to 3 decimal places)? {#3.1415:0.0005}.
+     Quelle est la valeur de π (3 décimales) ? {#3.1415:0.0005}.
 </pre>
 
 <p>On peut aussi donner la réponse numérique sous la forme d'un intervalle de la façon suivante : {#<em>minimum</em>..<em>maximum</em>}.</p>
 
 <pre>
-     Quelle est la valeur de pi (3 décimales) ? {#3.141..3.142}.
+     Quelle est la valeur de π (3 décimales) ? {#3.141..3.142}.
 </pre>
 
 <p>L'interface graphique (navigateur) de Moodle ne permet pas les réponses numériques multiples, mais le code de Moodle les permet, tout comme le format GIFT. On peut ainsi spécifier différents intervalles numériques, ce qui est particulièrement utile en le combinant avec des coefficients. Si plusieurs réponses numériques sont utilisées, elles doivent être séparées par un signe égal (=), comme les réponses courtes.</p>
 
 <pre>
-     When was Ulysses S. Grant born? {#
-     =1822:0
-     =%50%1822:2}
+     En quelle année est né Wolfgang Amadeus Mozart ? {#
+     =1756:0
+     =%50%1756:2}
 </pre>
 
 <p>Comme l'interface de Moodle ne permet pas les réponses multiples pour les questions numériques, il n'y a aucun moyen de les voir, ni de les modifier autrement qu'en supprimant et en ré-important la question, ou en modifiant directement la base de données (DANGER !).</p>
@@ -113,8 +113,8 @@ Les questions d'appariement ne permettent pas les feedbacks, ni les coefficients
 <p>Les commentaires ne seront pas importés dans Moodle. Il servent à documenter les questions. Toutes les lignes de commentaire commencent par une double barre oblique (sans compter les espaces ou tabulations qui précèdent). Ces lignes seront simplement ignorées lors de l'importation.</p>
 
 <pre>
-     // Subheading: Numerical questions below
-     What's 2 plus 2? {#4}
+     // Sous-titre : voici une question numérique
+     Combien font 2 + 2 ? {#4}
 </pre>
 
 <h4>Nom de question</h4>
@@ -122,11 +122,11 @@ Les questions d'appariement ne permettent pas les feedbacks, ni les coefficients
 <p>Un nom de question peut être indiqué en le plaçant avant la question, entouré par des double deux-points.</p>
 
 <pre>     
-     ::Kanji Origins::Japanese characters originally
-     came from what country? {=China}
+     ::Origine des caractères Kanji::De quel pays sont originaires les
+     les caractères japonais Kanji ? {=Chine}
 
-     ::Thanksgiving Date::The American holiday of Thanksgiving is 
-     celebrated on the {~second ~third =fourth} Thursday of November.
+     ::Période des Trois Mousquetaires::L'histoire des Trois Mousquetaires
+      se déroule au {~quinzième ~seizième =dix-septième} siècle.
 </pre>
 
 <p>Si aucun nom de question n'est donné, la question elle-même est utilisée par défaut.</p>
@@ -136,16 +136,18 @@ Les questions d'appariement ne permettent pas les feedbacks, ni les coefficients
 <p>Un feedback peut être inclus avec chaque réponse. Il suffit de placer le feedback immédiatement après la réponse, séparé par un dièze (#).</p>
 
 <pre>
-     What's the answer to this multiple-choice question?{
-     ~wrong answer#feedback comment on the wrong answer
-     ~another wrong answer#feedback comment on this wrong answer
-     =right answer#Very good!}
+     Quelle est a réponse à cette question à choix multiples ?{
+     ~réponse fausse#Feedback pour la réponse fausse
+     ~autre réponse fausse#Autre feedback pour cette réponse fausse
+     =bonne réponse#Excellent !}
 
-     Who's buried in Grant's tomb?{
-     =no one#excellent answer!
-     =nobody#excellent answer!}
+     Quel est le nom du héros du Comte de Monte-Cristo ?{
+     =Dantès#Excellente réponse !
+     =Edmond Dantès#Excellente réponse !}
 
-     Grant is buried in Grant's tomb.{FALSE#Wrong, no one is buried in Grant's tomb.#Right, well done.}
+     Étienne Lantier est le héros du Comte de Monte-Cristo.{
+     FALSE#Faux, il s'agit de Edmond Dantès.
+     #En effet, c'est Edmond Dantès}
 </pre>
 
 <p>Pour les questions à choix multiples, le feedback n'est affiché que pour la réponse sélectionnée par l'étudiant. Pour la réponse courte, le feedback est affichée uniquement si l'étudiant a donné la réponse correcte correspondante. Pour les questions Vrai/Faux, il peut y avoir une ou deux chaînes pour le feedback. La première est affichée si la réponse donnée est incorrecte, la deuxième si la réponse est fausse.</p>
@@ -160,16 +162,16 @@ Les questions d'appariement ne permettent pas les feedbacks, ni les coefficients
      ~%50%Réponse valant la moitié des points
      =Réponse donnant tous les points}
 
-     ::Jesus' hometown::Jesus Christ was from {
-     ~Jerusalem#This was an important city, but the wrong answer.
-     ~%25%Bethlehem#He was born here, but not raised here.
-     ~%50%Galilee#You need to be more specific.
-     =Nazareth#Yes! That's right!}.
+     ::Résidence de Jésus::Jésus Christ résidait à {
+     ~Jérusalem#C'était une ville importante, mais de la mauvaise réponse.
+     ~%25%Bethléhem#Il y est né, mais n'y a pas grandi.
+     ~%50%Galilée#Soyez plus précis.
+     =Nazareth#Oui ! C'est cela !}.
 
-     ::Jesus' hometown:: Jesus Christ was from {
-     =Nazareth#Yes! That's right!
-     =%75%Nazereth#Right, but misspelled.
-     =%25%Bethlehem#He was born here, but not raised here.}
+     ::Résidence de Jésus:: Jésus Christ résidait à {
+     =Nazareth#Oui ! C'est cela !
+     =%75%Nazireth#Juste, mais mauvaise orthographe.
+     =%25%Bethléhem#Il y est né, mais n'y a pas grandi.}
 </pre>
 
 <p>Les deux derniers exemples sont une même question, une première foius comme question à choix multiples, la deuxième sous la forme de question à réponse courte.</p>
@@ -181,21 +183,21 @@ Les questions d'appariement ne permettent pas les feedbacks, ni les coefficients
 <p>L'option réponses multiples est utilisée pour des questions à choix multiples ou deux ou plusieurs réponses doivent être choisies afin d'obtenir tous les points. On active cette option en donnant aux diverses réponses des coefficients, aucune réponse ne donnant le total des points.</p>
 
 <pre>
-     What two people are entombed in Grant's tomb? {
-     ~No one
-     ~%50%Grant
-     ~%50%Grant's wife
-     ~Grant's father }
+     Les personnages suivants apparaissent dans les Trois mousquetaires ? {
+     ~L'abbé Faria
+     ~%50%Constance Bonacieux
+     ~%50%L'abbé d'Herblay
+     ~Le capitaine Némo}
 </pre>
 
 <p>On remarque qu'il n'y a aucun signe égal dans aucune réponse. Le total des coefficients ne doit pas excéder 100%, sans quoi une erreur surviendrait dans Moodle. Pour éviter que les étudiants obtiennent 100% en sélectionnant systématiquement toutes les réponses, il est conseillé d'inclure des coefficients négatifs pour les réponses fausses.</p>
 
 <pre>
-     What two people are entombed in Grant's tomb? {
-     ~%-50%No one
-     ~%50%Grant
-     ~%50%Grant's wife
-     ~%-50%Grant's father }
+     Les personnages suivants apparaissent dans les Trois mousquetaires ? {
+     ~%-50%L'abbé Faria
+     ~%50%Constance Bonacieux
+     ~%50%L'abbé d'Herblay
+     ~%-50%Le capitaine Némo}
 </pre>
 
 <h4>Autres options</h4>
