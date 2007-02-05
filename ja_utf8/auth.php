@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8 dev (2007012101)
+      // auth.php - created with Moodle 1.8 Beta (2007020200)
 
 
 $string['alternatelogin'] = 'ここにURLを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong> フィールドおよび <strong>password</strong> フィールドをMoodleに渡してください。<br />間違ったURLを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合、空白のままにしてください。';
@@ -73,7 +73,7 @@ $string['auth_fcconnfail'] = '接続に失敗しました。エラー番号: $a[
 $string['auth_fccreators'] = 'メンバーがコースの作成を許可されているグループの一覧です。複数のグループは「;」で分けてください。グループ名はFirstClassサーバと厳密に同じ名前にしてください。システムは、大文字と小文字を区別します。';
 $string['auth_fccreators_key'] = 'コース作成者';
 $string['auth_fcdescription'] = 'ここでは、ユーザ名とパスワードが正しいかチェックするためにFisrtClassサーバを使用します。';
-$string['auth_fcfppport'] = 'サーバポート (3333が最も一般的)';
+$string['auth_fcfppport'] = 'サーバポート (3333が最も一般的です)';
 $string['auth_fcfppport_key'] = 'ポート';
 $string['auth_fchost'] = 'FirstClassサーバアドレス。IPアドレスまたはDNS名を使用してください。';
 $string['auth_fchost_key'] = 'ホスト';
@@ -97,7 +97,7 @@ $string['auth_imaptitle'] = 'IMAPサーバを使用する';
 $string['auth_imaptype'] = 'IMAPサーバタイプです。IMAPサーバは異なる認証およびネゴシエーションを利用することが可能です。';
 $string['auth_imaptype_key'] = 'タイプ';
 $string['auth_ldap_auth_user_create_key'] = '外部にユーザを作成する';
-$string['auth_ldap_bind_dn'] = 'ユーザ検索にbindユーザを使用したい場合は、ここに明示してください。例 \'cn=ldapuser,ou=public,o=org\'';
+$string['auth_ldap_bind_dn'] = 'ユーザ検索にbindユーザを使用したい場合、ここで指定してください。例 \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_dn_key'] = '識別名';
 $string['auth_ldap_bind_pw'] = 'bindユーザ用のパスワード';
 $string['auth_ldap_bind_pw_key'] = 'パスワード';
@@ -129,10 +129,10 @@ $string['auth_ldap_noconnect_all'] = 'LDAPモジュールがすべてのサー�
 $string['auth_ldap_noextension'] = '警告: PHP LDAPモジュールが存在していないようです。インストールおよび有効にされているかどうか確認してください。';
 $string['auth_ldap_objectclass'] = '任意: ldap_user_typeのname/searchユーザで使用されるオブジェクトクラスをオーバーライドしてください。通常、この設定を変更する必要はありません。';
 $string['auth_ldap_objectclass_key'] = 'オブジェクトクラス';
-$string['auth_ldap_opt_deref'] = '検索時にエイリアスがどのように扱われるか決定してください。次の値から選択してください:  「No」 (LDAP_DEREF_NEVER) または 「Yes」 (LDAP_DEREF_ALWAYS)';
+$string['auth_ldap_opt_deref'] = '検索時、エイリアスをどのように扱うか次の値から選択してください: 「No」 (LDAP_DEREF_NEVER) または 「Yes」 (LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_opt_deref_key'] = 'エイリアスの修飾参照';
 $string['auth_ldap_passwdexpire_settings'] = 'LDAPパスワード有効期限設定';
-$string['auth_ldap_preventpassindb'] = 'MoodleのDBへのパスワード保存を防ぐには、「Yes」を選択してください。';
+$string['auth_ldap_preventpassindb'] = 'Moodleデータベースへのパスワード保存を防ぐには、「Yes」を選択してください。';
 $string['auth_ldap_preventpassindb_key'] = 'パスワードを隠す';
 $string['auth_ldap_search_sub'] = 'サブコンテクストからユーザを検索する。';
 $string['auth_ldap_search_sub_key'] = 'サブコンテクストを検索する';
