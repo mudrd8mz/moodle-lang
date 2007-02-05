@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8 Beta (2007020200)
+      // mnet.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
@@ -35,6 +35,7 @@ $string['deny'] = '拒否';
 $string['description'] = '説明';
 $string['editenrolments'] = '登録';
 $string['enabled_for_all'] = '(このサービスは、すべてのホストで有効にされています。)';
+$string['enrolcourseenrol_desc'] = 'Moodleネットワーク登録を使用して、このコースにユーザを登録/登録抹消します。リモートホストが許可している場合、他の登録方法でこのコースにユーザが登録されている可能性もあります。そのような登録ユーザは、「他の登録ユーザ」の下に一覧表示されます。';
 $string['enrolcourses_desc'] = 'このホストからリモート登録を提供されているコースです。';
 $string['enrollingincourse'] = 'ホスト $a[1] のコース $a[0] にユーザ登録する<br />';
 $string['enrolments'] = '登録';
@@ -127,6 +128,7 @@ $string['publish'] = '公開';
 $string['reallydeleteserver'] = '本当にサーバを削除してもよろしいですか?';
 $string['receivedwarnings'] = '次のエラーが発生しました。';
 $string['recordnoexists'] = 'レコードが存在しません。';
+$string['reenableserver'] = 'No - このサーバを再度有効にするため、このオプションを選択します。';
 $string['registerallhosts'] = 'すべてのホストを登録する(<em>ハブモード</em>)';
 $string['registerallhostsexplain'] = 'あなたのホストに自動接続を試みるすべてのホストを登録することができます。これは、あなたのホストに接続し公開鍵を要求するあらゆるMoodleサイトが、あなたのホスト一覧に表示されることを意味します。<br />サービスを設定するため、下記で「すべてのホストを登録する」を選択して、いくつかのサービスを有効にすることで、あらゆるMoodleサーバに対して無差別にサービスを提供することができます。';
 $string['remotecourses'] = 'リモートコース';
@@ -148,6 +150,7 @@ $string['ssl_acl_allow'] = 'SSO ACL: $a[1] からのユーザ $a[0] を許可し
 $string['ssl_acl_deny'] = 'SSO ACL: $a[1] からのユーザ $a[0] を拒否します。';
 $string['ssoaccesscontrol'] = 'SSOアクセスコントロール';
 $string['ssoacldescr'] = 'このページをリモートMoodleネットワークホストのユーザによるアクセスを許可/拒否するため使用してください。この機能は、あなたがリモートユーザにSSOサービスを提供するときに動作します。あなたのローカルユーザが他のMoodleネットーワークホストを散策できるような権限をコントロールする場合、ロールシステムにて、ユーザに「mnetcanroam」ケイパビリティを付与してください。';
+$string['ssoaclneeds'] = 'この機能を動作させるためには、Moodleネットーワキングを有効にしてください。さらにユーザを自動的に追加するには、Moodleネットワーク認証プラグインを有効にしてください。';
 $string['strict'] = '厳密';
 $string['subscribe'] = '登録';
 $string['system'] = 'システム';
