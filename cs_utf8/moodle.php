@@ -423,7 +423,9 @@ $a->link
 
 Ve vetsine e-mailovych programu by se vam tato adresa mela zobrazit jako odkaz, na ktery staci kliknout. Pokud tomu tak neni, zkopirujte si adresu do schranky a vlozte ji do adresniho radku ve svem webovem prohlizeci.
 
-Pokud narazite na problemy, obratte se na spravce techto stranek,
+Toto je automaticky generovany e-mail. Neni nutne na nej odpovidat jeho odesilateli.
+
+Pokud narazite na problemy, obratte se na spravce techto stranek: 
 $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: potvrzeni zmeny hesla';
 $string['emailpasswordconfirmsent'] = 'Na vaši adresu <b>$a</b> byl odeslán e-mail obsahující jednoduché pokyny k potvrzení a dokončení změny vašeho hesla. <br />Pokud narazíte na problémy, obraťte se na správce těchto stránek.';
