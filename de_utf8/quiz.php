@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7+ (2006101008)
+      // quiz.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['1day'] = '1 Tag';
@@ -227,6 +227,7 @@ $string['gradeboundary'] = 'Bewertungsgrenze';
 $string['gradeessays'] = 'Freitexte bewerten';
 $string['gradehighest'] = 'Bester Versuch';
 $string['grademethod'] = 'Bewertungsmethode';
+$string['gradesofar'] = '$a->method: $a->mygrade / $a->quizgrade.';
 $string['gradingdetails'] = 'Punkte: $a->raw/$a->max.';
 $string['gradingdetailsadjustment'] = 'Mit früheren Abzügen ergibt dies <strong>$a->cur/$a->max</strong>.';
 $string['gradingdetailspenalty'] = 'Die Arbeit berücksichtigt einen Abzug von $a.';
@@ -390,6 +391,7 @@ $string['questiontypesetupoptions'] = 'Setup-Optionen für Fragentypen';
 $string['quiz:attempt'] = 'Tests ausprobieren';
 $string['quiz:deleteattempts'] = 'Testversuche löschen';
 $string['quiz:grade'] = 'Tests manuell bewerten';
+$string['quiz:ignoretimelimits'] = 'Zeitgrenzen für Tests ignorieren';
 $string['quiz:manage'] = 'Tests verwalten';
 $string['quiz:preview'] = 'Test-Vorschau';
 $string['quiz:view'] = 'Test-Informationen ansehen';

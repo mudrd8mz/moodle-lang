@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 (2006101007)
+      // role.php - created with Moodle 1.8 Beta (2007020200)
 
 
 $string['addrole'] = 'Neue Rolle hinzufügen';
@@ -63,6 +63,7 @@ $string['legacy:editingteacher'] = 'Basisrolle: Trainer/in';
 $string['legacy:guest'] = 'Basisrolle: Gast';
 $string['legacy:student'] = 'Basisrolle: Teilnehmer/in';
 $string['legacy:teacher'] = 'Basisrolle: Trainer/in ohne Autorenrecht';
+$string['legacy:user'] = 'Basisrolle: Authentifizierte/r Nutzer/in';
 $string['listallroles'] = 'Alle Rollen auflisten';
 $string['manageroles'] = 'Rollen verwalten';
 $string['metaassignerror'] = 'Diese Rolle kann nicht an \"$a\" zugewiesen werden, weil die Fähigkeit \"Metakurse verwalten\" dafür notwendig ist.';
@@ -99,11 +100,13 @@ $string['site:doanything'] = 'Erlaubt alles auszuführen';
 $string['site:doclinks'] = 'Links zu systemfremden Dokumenten anzeigen';
 $string['site:import'] = 'Import anderer Kurse in den eigenen Kurs';
 $string['site:manageblocks'] = 'Systemweite Blöcke verwalten';
+$string['site:mnetloginfromremote'] = 'Von einem anderen Moodle einloggen';
+$string['site:mnetlogintoremote'] = 'Zu einem anderen Moodle verbinden';
 $string['site:readallmessages'] = 'Alle Nachrichten des Systems lesen';
 $string['site:restore'] = 'Kurse wiederherstellen';
 $string['site:trustcontent'] = 'Übermittelten Inhalten vertrauen';
 $string['site:uploadusers'] = 'Neue Nutzer/innen mittels Datei importieren';
-$string['site:viewfullnames'] = 'Immer vollständige Nautzernamen sehen';
+$string['site:viewfullnames'] = 'Immer vollständige Nutzernamen sehen';
 $string['site:viewparticipants'] = 'Teilnehmer/innen sehen';
 $string['site:viewreports'] = 'Berichte sehen';
 $string['user:create'] = 'Nutzer/innen anlegen';

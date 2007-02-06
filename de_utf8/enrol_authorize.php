@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7+ (2006101008)
+      // enrol_authorize.php - created with Moodle 1.8 Beta (2007020200)
 
 
 $string['adminacceptccs'] = 'Welche Kreditkartentypen sollen akzeptiert werden?';
 $string['adminaccepts'] = 'Zulässig Zahlungsverfahren und -typen auswählen';
+$string['adminauthcode'] = 'Wenn die Kreditkarte eines Nutzers nicht direkt über das Internet bestätigt werden kann, kann der Autorisierungscode telefonisch von der Bank des Nutzers erfragt werden.';
 $string['adminauthorizeccapture'] = 'Einstellungen für Zahlungsübersicht und Zahlungsabwicklung';
 $string['adminauthorizeemail'] = 'E-Mail-Einstellungen';
 $string['adminauthorizesettings'] = 'Authorize.net Einstellungen';
@@ -49,6 +50,7 @@ $string['antestmode'] = 'Authorize.net: Transaktionen im Testmodus laufen lassen
 $string['antrankey'] = 'Authorize.net: Transaktionsschlüssel';
 $string['approvedreview'] = 'Überprüfung erfolgreich';
 $string['authcaptured'] = 'Bestätigte / Gezahlte';
+$string['authcode'] = 'Authorisierungscode';
 $string['authorize:managepayments'] = 'Zahlungsmethoden verwalten';
 $string['authorize:uploadcsv'] = 'CSV-Datei hochladen';
 $string['authorizedpendingcapture'] = 'Bestätigte / Offene Zahlungen';
@@ -95,6 +97,7 @@ $string['echeckfirslasttname'] = 'Konteninhaber';
 $string['echecksavings'] = 'Sicherungen';
 $string['enrolname'] = 'Authorize.net Kreditkartenabrechnung';
 $string['expired'] = 'Abgelaufen';
+$string['haveauthcode'] = 'Ich habe bereits einen Autorisierungscode';
 $string['howmuch'] = 'Wieviel?';
 $string['httpsrequired'] = 'Ihre Anfrage kann leider zur Zeit nicht bearbeitet werden. Die Konfiguration der Seite weist einen Fehler auf. <br /><br />
 Warten Sie mit der Eingabe Ihrer Kreditkartennummer solange, bis Sie ein gelbes Schloß in der Fußzeile des Browsers sehen können. Wenn das Symbol erscheint, werden alle Daten zwischen Ihrem Rechner und dem Server verschlüsselt gesendet. Damit wird die Datenübertragung geschützt und Ihre Kreditkartendaten können nicht in falsche Hände geraten.';
@@ -111,6 +114,7 @@ $string['missingaba'] = 'Fehlende ABA-Nummer';
 $string['missingaddress'] = 'Adresse fehlt';
 $string['missingbankname'] = 'Fehlender Bankname';
 $string['missingcc'] = 'Kartennummer fehlt';
+$string['missingccauthcode'] = 'Fehlender Autorisierungscode';
 $string['missingccexpire'] = 'Gültigkeitsdatum fehlt';
 $string['missingcctype'] = 'Kartentyp fehlt';
 $string['missingcvv'] = 'Prüfnummer fehlt';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7+ (2006101008)
+      // data.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['action'] = 'Aktion';
@@ -10,19 +10,23 @@ $string['addentries'] = 'Einträge hinzufügen';
 $string['addtemplate'] = 'Vorlage für neue Einträge';
 $string['allowcomments'] = 'Kommentare zulassen?';
 $string['allowratings'] = 'Bewertung von Beiträgen';
+$string['alttext'] = 'Alternativer Text';
 $string['approve'] = 'Zulassen';
 $string['ascending'] = 'Aufsteigend';
-$string['atmaxentry'] = 'Sie haben die Höchstzahl zulässiger Einträge erreicht.';
+$string['atmaxentry'] = 'Sie haben die Höchstzahl zulässiger Einträge erreicht!';
 $string['autogenallforms'] = 'Alle Basisvorlagen anlegen';
 $string['autolinkurl'] = 'Automatische Verlinkung der URL';
 $string['availablefromdate'] = 'Verfügbar ab';
 $string['availabletags'] = 'Verfügbare Elemente';
 $string['availabletodate'] = 'Verfügbar bis';
 $string['blank'] = 'leer';
+$string['buttons'] = 'Buttons';
 $string['bynameondate'] = 'von $a->name - $a->date';
 $string['cancel'] = 'Abbrechen';
 $string['checkbox'] = 'Mehrfachauswahl';
 $string['chooseorupload'] = 'Datei wählen';
+$string['columns'] = 'Spalten';
+$string['comment'] = 'Kommentar';
 $string['commentdeleted'] = 'Kommentar gelöscht';
 $string['commentempty'] = 'Kommentar war leer';
 $string['comments'] = 'Kommentare';
@@ -61,6 +65,8 @@ $string['download'] = 'Herunterladen';
 $string['edit'] = 'Bearbeiten';
 $string['editcomment'] = 'Kommentar bearbeiten';
 $string['editentry'] = 'Eintrag bearbeiten';
+$string['editordisable'] = 'Editor ausschalten';
+$string['editorenable'] = 'Editor einschalten';
 $string['emptyadd'] = 'Eine Vorlage für das Eintragen neuer Daten ist noch nicht vorhanden. Es wird ein Basisformular erstellt...';
 $string['emptyaddform'] = 'Sie haben keine Einträge vorgenommen!';
 $string['entries'] = 'Einträge';
@@ -80,6 +86,7 @@ $string['fieldenclosure'] = 'Feldanhang';
 $string['fieldheight'] = 'Höhe';
 $string['fieldheightlistview'] = 'Höhe in Listenansicht';
 $string['fieldheightsingleview'] = 'Höhe in Einzelansicht';
+$string['fieldids'] = 'Feldnummern';
 $string['fieldmappings'] = 'Feldübersicht';
 $string['fieldname'] = 'Feldname';
 $string['fieldoptions'] = 'Optionen (eine pro Zeile)';
@@ -181,6 +188,7 @@ $string['requiredentries'] = 'Erforderliche Einträge';
 $string['requiredentriestoview'] = 'Einträge erforderlich, bevor Ansicht aller Daten möglich.';
 $string['resettemplate'] = 'Vorlage zurücksetzen';
 $string['resizingimages'] = 'Größe für Vorschaubilder ...';
+$string['rows'] = 'Zeilen';
 $string['rssglobaldisabled'] = 'Deaktiviert. Beachten Sie die Einstellungsseite für die Variablen.';
 $string['rsshowmany'] = '(Zahl der neuesten Einträge, die angezeigt werden sollen, 0 deaktiviert RSS)';
 $string['rsstemplate'] = 'Vorlage für RSS-Feed';

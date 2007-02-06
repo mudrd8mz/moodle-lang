@@ -1,12 +1,15 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.7+ (2006101008)
+      // calendar.php - created with Moodle 1.8 Beta (2007020200)
 
 
+$string['advancedoptions'] = 'Erweiterte Optionen';
 $string['calendar'] = 'Kalender';
 $string['calendarheading'] = '$a Kalender';
 $string['clickhide'] = 'Mit einem Klick verbergen';
 $string['clickshow'] = 'Mit einem Klick anzeigen';
+$string['commontasks'] = 'Optionen';
 $string['confirmeventdelete'] = 'Sind Sie sicher, dass Sie diesen Termin löschen wollen?';
+$string['courseevent'] = 'Kurstermin';
 $string['courseevents'] = 'Kurstermine';
 $string['dayview'] = 'Tagesansicht';
 $string['daywithnoevents'] = 'Es gibt heute keine Termine.';
@@ -32,7 +35,9 @@ $string['eventkind'] = 'Art des Termins';
 $string['eventname'] = 'Name';
 $string['eventnone'] = 'Keine Termine vorhanden';
 $string['eventrepeat'] = 'Wiederholungen';
+$string['eventsall'] = 'Alle Termine';
 $string['eventsfor'] = '$a Termine';
+$string['eventsrelatedtocourses'] = 'Kursverbundene Termine';
 $string['eventstarttime'] = 'Anfangszeit';
 $string['eventtime'] = 'Zeit';
 $string['eventview'] = 'Details zu den Terminen';
@@ -42,16 +47,27 @@ $string['explain_maxevents'] = 'Diese Einstellung legt die Höchstzahl künftige
 $string['explain_persistflt'] = 'Wenn Sie diese Einstellung aktivieren, prüft Moodle bei jedem Login die Filtereinstellungen für Termine und aktualisiert sie.';
 $string['explain_startwday'] = 'Diese Einstellung legt die Art der Monatsdarstellung des Kalenders fest.';
 $string['explain_timeformat'] = 'Mit dieser Einstellung wählen Sie das Format der Zeitanzeige (12- oder 24-Stunden-Anzeige). Die Standardeinstellung übernimmt das Format der Zeitanzeige aus der Sprachversion, die Sie für Ihre Seite gewählt haben.';
+$string['export'] = 'Export';
+$string['exportbutton'] = 'Export';
+$string['exportcalendar'] = 'Kalender exportieren';
+$string['for'] = 'für';
 $string['fri'] = 'Fr';
 $string['friday'] = 'Freitag';
+$string['generateurlbutton'] = 'Kalender-URL abfragen';
+$string['globalevent'] = 'Allgemeiner Termin';
 $string['globalevents'] = 'Allgemeine Termine';
 $string['gotocalendar'] = 'Zum Kalender';
+$string['groupevent'] = 'Gruppentermin';
 $string['groupevents'] = 'Gruppentermine';
 $string['hidden'] = 'verborgen';
+$string['ical'] = 'iCal';
+$string['iwanttoexport'] = 'Export';
 $string['manyevents'] = '$a Termine';
 $string['mon'] = 'Mo';
 $string['monday'] = 'Montag';
 $string['monthlyview'] = 'Monatsübersicht';
+$string['monthnext'] = 'Nächster Monat';
+$string['monththis'] = 'Dieser Monat';
 $string['newevent'] = 'Neuer Termin';
 $string['noupcomingevents'] = 'Es gibt keine weiteren Termine';
 $string['oneevent'] = '1 Termin';
@@ -62,6 +78,8 @@ $string['pref_startwday'] = 'Erster Tag der Woche';
 $string['pref_timeformat'] = 'Format der Zeitanzeige';
 $string['preferences'] = 'Einstellungen';
 $string['preferences_available'] = 'Ihre persönlichen Einstellungen';
+$string['quickdownloadcalendar'] = 'Schneller Download / Kalender-Abo';
+$string['recentupcoming'] = 'Vergangene und nachfolgende 60 Tage';
 $string['repeateditall'] = 'Veränderungen für alle $a Termine dieser Reihe bearbeiten';
 $string['repeateditthis'] = 'Veränderungen nur an diesem einen Termin vornehmen';
 $string['repeatnone'] = 'Keine Wiederholungen';
@@ -96,9 +114,13 @@ $string['typegroup'] = 'Termin meiner Gruppen';
 $string['typesite'] = 'Allgemeiner Termin';
 $string['typeuser'] = 'Persönlicher Termin';
 $string['upcomingevents'] = 'Bald aktuell ...';
+$string['urlforical'] = 'URL des iCal-Exports für ein Kalender-Abo';
+$string['userevent'] = 'Persönlicher Termin';
 $string['userevents'] = 'Persönliche Termine';
 $string['wed'] = 'Mi';
 $string['wednesday'] = 'Mittwoch';
+$string['weeknext'] = 'Nächste Woche';
+$string['weekthis'] = 'Diese Woche';
 $string['yesterday'] = 'Gestern';
 $string['youcandeleteallrepeats'] = 'Dieser Termin ist Teil einer ganzen Reihe von Terminen. Sie können diesen einzelnen Termin oder alle $a Termine dieser Reihe auf einmal löschen.';
 

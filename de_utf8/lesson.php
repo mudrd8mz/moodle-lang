@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7+ (2006101008)
+      // lesson.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['accesscontrol'] = 'Zugriffskontrolle';
@@ -143,10 +143,10 @@ $string['lessonopen'] = 'Diese Lektion ist ab $a verfügbar.';
 $string['lessonopens'] = 'Lektion verfügbar';
 $string['lessonpagelinkingbroken'] = 'Die erste Seite wurde nicht gefunden. Die Verlinkung der Seite weist einen Fehler auf. Nehmen Sie mit dem Admin Kontakt auf.';
 $string['lessonstats'] = 'Statistik';
+$string['linkedmedia'] = 'Verlinkte Medien';
 $string['loginfail'] = 'Der Login ist gescheitert. Bitte versuchen Sie es noch einmal.';
 $string['lowscore'] = 'Schlechteste Bewertung';
 $string['lowtime'] = 'Minimale Zeit';
-$string['mainmenu'] = 'Zur Kursseite';
 $string['manualgrading'] = 'Freitext-Bewertung';
 $string['matchesanswer'] = 'Zugeordnete Antwort';
 $string['maxhighscores'] = 'Länge der Bestenliste';
@@ -239,7 +239,7 @@ $string['redisplaypage'] = 'Seite erneut anzeigen';
 $string['report'] = 'Bericht';
 $string['reports'] = 'Ergebnisse';
 $string['response'] = 'Feedback';
-$string['returnmainmenu'] = 'Zurück zur Kursseite';
+$string['returnto'] = 'Zurückkehren zu $a';
 $string['returntocourse'] = 'Zurück zur Kursseite';
 $string['review'] = 'Rückschau';
 $string['reviewlesson'] = 'Zur Lektion';

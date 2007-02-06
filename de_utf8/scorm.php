@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6.3 (2006050530)
+      // scorm.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['advanced'] = 'Weitere Einstellungen';
@@ -29,8 +29,11 @@ $string['domxml'] = 'DOMXML externe Bibliothek';
 $string['element'] = 'Element';
 $string['entercourse'] = 'SCORM Kurs starten';
 $string['errorlogs'] = 'Fehlerprotokoll';
+$string['everyday'] = 'Jeden Tag';
+$string['everytime'] = 'Alle Nutzungszeiten';
 $string['exit'] = 'SCORM-Kurs beenden';
 $string['expcoll'] = 'Entfalten/Zusammensetzen';
+$string['external'] = 'Externe Paket-Zeitnahme benutzen';
 $string['failed'] = 'Fehlgeschlagen';
 $string['firstaccess'] = 'Erster Zugang';
 $string['firstattempt'] = 'Erster Versuch';
@@ -84,19 +87,20 @@ $string['noscriptnoscorm'] = 'Ihr Browser unterstützt Javascript nicht oder Jav
 $string['not_corr_type'] = 'Falsche Schreibweise im Tag $a->tag';
 $string['notattempted'] = 'Nicht versucht';
 $string['objectives'] = 'Ziele';
+$string['onchanges'] = 'Bei allen Änderungen';
 $string['organization'] = 'Organisation';
 $string['organizations'] = 'Organisationen';
 $string['othertracks'] = 'Andere Tracks';
-$string['packagedir'] = 'Dateisystemfehler: Verzeichnis für Paket kann nicht erstellt werden';
-$string['packagefile'] = 'Keine Paket Datei ausgewählt';
+$string['packagedir'] = 'Dateisystemfehler: Paketverzeichnis kann nicht erstellt werden';
+$string['packagefile'] = 'Keine Paketdatei ausgewählt';
 $string['passed'] = 'Abgeschlossen';
 $string['php5'] = 'PHP 5 (DOMXML native library)';
 $string['popup'] = 'Dieses Lernobjekt in einem neuen Fenster öffnen';
-$string['popupmenu'] = 'In einem Pop-up-Menü';
+$string['popupmenu'] = 'In einem Dropdown-Menü';
 $string['popupopen'] = 'Paket in neuem Fenster öffnen';
 $string['position_error'] = 'Der $a-tag Tag kann nicht Kind/Child des $a->parent Tag sein';
 $string['prev'] = 'Vorheriges';
-$string['raw'] = 'Rohpunktwet';
+$string['raw'] = 'Rohpunktwert';
 $string['regular'] = 'Reguläres Zeichen';
 $string['report'] = 'Bericht';
 $string['resizable'] = 'Fenstergröße anpassbar';

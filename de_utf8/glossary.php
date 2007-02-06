@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7+ (2006101008)
+      // glossary.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['addcomment'] = 'Kommentar einfügen';
@@ -53,7 +53,7 @@ $string['concepts'] = 'Begriffe';
 $string['configenablerssfeeds'] = 'RSS-Feeds für Glossare aktivieren.';
 $string['currentglossary'] = 'Aktuelles Glossar';
 $string['dateview'] = 'Anzeige nach Datum';
-$string['defaultapproval'] = 'Prüfung von Einträgen';
+$string['defaultapproval'] = 'Automatisches Zulassen von Einträgen';
 $string['definition'] = 'Definition';
 $string['definitions'] = 'Definitionen';
 $string['deleteentry'] = 'Eintrag löschen';
@@ -89,6 +89,9 @@ $string['entryleveldefaultsettings'] = 'Grundeinstellungen für Einträge';
 $string['entrysaved'] = 'Der Eintrag wurde gespeichert.';
 $string['entryupdated'] = 'Der Eintrag wurde geändert.';
 $string['entryusedynalink'] = 'Eintrag automatisch verlinken';
+$string['errcannoteditothers'] = 'Sie dürfen keine fremden Einträge bearbeiten.';
+$string['errconceptalreadyexists'] = 'Diesen Begriff gibt es bereits. In diesem Glossar sind keine Doppeleinträge möglich.';
+$string['erredittimeexpired'] = 'Die Bearbeitungszeit für diesen Eintrag wurde überschritten.';
 $string['explainaddentry'] = 'Fügt einen neuen Eintrag ins Glossar ein. <br /> Begriff und Definition sind Pflichtfelder.';
 $string['explainall'] = 'Zeigt alle Einträge des Glossars auf einer Seite';
 $string['explainalphabet'] = 'Sie können das Glossar unter Verwendung des Index durchsuchen.';
@@ -124,8 +127,9 @@ $string['importedentries'] = 'Importierte Einträge';
 $string['importentries'] = 'Einträge importieren';
 $string['isglobal'] = 'Globales Glossar';
 $string['linkcategory'] = 'Kategorie automatisch verlinken';
+$string['linking'] = 'Auto-Verlinkung';
 $string['mainglossary'] = 'Hauptglossar';
-$string['maxtimehaspassed'] = 'Entschuldigung, aber die maximale Zeit für die Bearbeitung des Kommentars ($a) wurde überschritten !';
+$string['maxtimehaspassed'] = 'Entschuldigung, aber die maximale Zeit für die Bearbeitung des Kommentars ($a) wurde überschritten!';
 $string['modulename'] = 'Glossar';
 $string['modulenameplural'] = 'Glossare';
 $string['newentries'] = 'Neue Einträge im Glossar';

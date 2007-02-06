@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6.3 (2006050530)
+      // editor.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['about'] = 'Über diesen Editor';
@@ -58,6 +58,7 @@ $string['justifycenter'] = 'Zentriert';
 $string['justifyfull'] = 'Blocksatz';
 $string['justifyleft'] = 'Linksbündig';
 $string['justifyright'] = 'Rechtsbündig';
+$string['lang'] = 'Sprache';
 $string['layout'] = 'Layout';
 $string['left'] = 'Links';
 $string['lefttoright'] = 'Schreibrichtung von links nach rechts';
@@ -74,6 +75,7 @@ $string['matchcase'] = 'Groß-/Kleinschreibung vergleichen';
 $string['middle'] = 'Mitte';
 $string['minimize'] = 'Fenster verkleinern';
 $string['move'] = 'Bewegen';
+$string['multi'] = 'Mehrfach';
 $string['mustenterurl'] = 'Sie müssen eine URL eingeben';
 $string['nolink'] = 'Keine automatische Verlinkung';
 $string['normal'] = 'Normal';
