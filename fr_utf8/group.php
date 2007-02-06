@@ -31,6 +31,9 @@ $string['showgroupsingrouping'] = 'Afficher les groupes du groupement';
 $string['showmembersforgroup'] = 'Afficher les membres du groupe';
 $string['databaseupgradegroups'] = 'La version des groupes est maintenant $a';
 
+$string['deletegroupingconfirm'] = 'Voulez-vous vraiment supprimer le groupement «&nbsp;$a&nbsp;»? (les groupes dans ce groupement ne seront pas supprimés.)';
+$string['deletegroupconfirm'] = 'Voulez-vous vraiment supprimer le groupe «&nbsp;$a&nbsp;»?';
+
 $string['editgroupsettings'] = 'Modifier les réglages du groupe';
 $string['deleteselectedgroup'] = 'Supprimer le groupe sélectionné';
 $string['removegroupfromselectedgrouping'] = 'Retirer le groupe du groupement sélectionné';
