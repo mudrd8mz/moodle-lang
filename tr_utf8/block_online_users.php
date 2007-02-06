@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // block_online_users.php - created with Moodle 1.6 development (2005081700)
+      // block_online_users.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['blockname'] = 'Çevrimiçi Kullanıcılar';
-$string['configtimetosee'] = 'Bir kullanıcının ne kadar süre hareketsiz kaldıktan sonra artık çevrimiçi sayılmayacağı süre (dk)';
+$string['configtimetosee'] = 'Bir kullanıcı, hiçbir etkinlik göstermediğinde kaç dakika sonra çevrimdışı sayılacak?';
 $string['periodnminutes'] = 'Son $a dakika';
 
 ?>

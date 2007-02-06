@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // webquest.php - created with Moodle 1.5 ALPHA (2005042300)
+      // webquest.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['modulename'] = 'WebAraştırması';

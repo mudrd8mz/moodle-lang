@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2007013100)
+      // admin.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['accessdenied'] = 'Erişim engellendi';
@@ -54,6 +54,7 @@ $string['configallowuserblockhiding'] = 'Bu sitenin tamamında kullanıcıların
 $string['configallowusermailcharset'] = 'Bunun etkinleştirilmesiyle her kullanıcının emaili için kendi karakter setini ayarlamasına olanak verilir.';
 $string['configallowuserthemes'] = 'Etkinleştirirseniz, kullanıcıların kendi temalarını ayarlamalarına izin verilir. Kullanıcı temaları site temasını yok sayar (fakat kurs temasını değil).';
 $string['configallusersaresitestudents'] = 'TÜM kullanıcılar, sitenin giriş sayfasındaki bütün etkinlikler için öğrenci olarak düşünülecek mi? Cevabınız \'Evet\' ise, hesabı onaylanmış herhangi bir kullanıcının bu etkinliklere öğrenci olarak katılmasına izin verilecektir. Şayet \'Hayır\' ise, en az bir kursa kayıtlı olan kullanıcılar giriş sayfası etkinliklerine katılabilecektir. Sadece yöneticiler ve özel olarak atanmış eğitimciler, giriş sayfasındaki bu etkinliklerde eğitimci olarak rol alabilirler.';
+$string['configauthenticationplugins'] = 'Lütfen kullanmak istediğiniz yetkilendirme eklentilerini seçiniz ve bu eklentileri sıraya koyunuz. Kendi kendine kayıt,  \'Kayıt\' sütununda seçilen eklentiye göre (genellikle \'email\') işleme alınacaktır.';
 $string['configautologinguests'] = 'Kurslara konuk erişimiyle girildiğinde ziyaretçiler konuk olarak giriş yapabilsin mi?';
 $string['configbloglevel'] = 'Bu ayar, bu sitede görülebilen kullanıcı bloklarının seviyesini sınırlamanıza izin verir. Bu ayarın, göndereni veya blog mesajlarını değil, İZLEYİCİNİN maksimum seviyesini ayarladığını dikkate alın. İstemiyorsanız, bloglar tamamen kapatılabilir.';
 $string['configcachetext'] = 'Daha büyük siteler veya içerik filtelerini kullanan siteler için bu ayar ciddi anlamda performansı arttırır. Metinlerin kopyaları burada belirtilen süre içinde işlenmiş biçimde tutulur. Bunu çok küçük tutarsanız bazı şeyler biraz yavaşlayabilir; çok büyük tutarsanız, yenilemenin daha uzun süreceğini belirtir (ör: yeni eklenen bağlantıların gecikmesi gibi).';
@@ -173,6 +174,7 @@ $string['configshowsiteparticipantslist'] = 'Site öğrenci ve eğitimcilerinin 
 $string['configsitemailcharset'] = 'Siteniz tarafından oluşturulan bütün emailler burada belirttiğiniz karakter setinde gönderilecektir. Bir sonraki ayarı etkinleştirirseniz her bireysel kullanıcı kendininkini ayarlayabilecektir.';
 $string['configsitepolicy'] = 'Kullanıcıların bu siteyi kullanmaya başlamadan önce görmesi ve kabul etmesi gereken bir site kullanım sözleşmesi varsa buraya adresi belirtin, diğer durumda boş bırakın. Adres herhangi bir yeri gösterebilir ama Site Dosyalarının bulunduğu yerden bir dosya daha uygun olur. Örnek: http://yoursite/file.php/1/policy.html';
 $string['configslasharguments'] = 'Dosyalar (yüklenen dosyalar, resimler gibi) bir betik tarafından sunulurken \'/\' (slashlar) kullanılabilir. Bu yöntem, web tarayıcıları ve proxy(vekil) sunucular tarafından  çok kolay bir şekilde dosyaların önbelleklenmesine olanak sağlar. Maalesef, bazı PHP sunucuları bu yönteme izin vermemektedir. Yüklenmiş dosyaları indirirken veya resimleri görüntülerken (kullanıcı profindeki resimler gibi) sorunlarla karşılaşıyorsanız bunu ayarlamayın.';
+$string['configsmartpix'] = 'Bunun seçilmesiyle, PHP betiği önce şu anki temayı, ardından bütün üst temaları, bunun ardından da Moodle /pix klasörüne göre arama yapacak ve simgeleri(ikon) buna göre gösterecektir.';
 $string['configsmtphosts'] = 'Moodle\'nin email göndermesi için bir veya birden fazla SMTP sunucu girebilirsiniz (ör: \'mail.a.com\' veya \'mail.a.com;mail.b.com\'). Bu seçeneği boş bırakırsanız PHP\'nin email gönderirken kullandığı varsayılan metot kullanılacaktır.';
 $string['configsmtpuser'] = 'Yukarıda bir SMTP sunucu belirttiyseniz ve bu sunucu yetki istiyorsa buraya sunucu için kullanıcı adı ve şifreyi giriniz.';
 $string['configstartwday'] = 'Hafta Başlangıcı';
@@ -359,6 +361,7 @@ $string['memcachedhosts'] = 'memcached hostları';
 $string['memcachedpconn'] = 'memcached kalıcı bağlantı kullan';
 $string['messaging'] = 'Mesajlaşma sistemini etkinleştir';
 $string['misc'] = 'Çeşitli';
+$string['mnetrestore_extusers'] = '<strong>Not:</strong> Bu yedekleme dosyası, işlemin bir parçası olarak geri yüklenen Uzak Moodle Ağı Kullanıcı Hesaplarını içerir.';
 $string['modulesecurity'] = 'Modül güvenliği';
 $string['multilangforceold'] = 'Eski çokludil yazımını kullan: <span> class=\"multilang\" ve <lang> olmaksızın';
 $string['multilangupgrade'] = 'Çoklu dil güncellemesi';
@@ -411,6 +414,7 @@ $string['profilecategory'] = 'Kategori';
 $string['profilecategoryname'] = 'Kategori adı (benzersiz olmalı)';
 $string['profilecategorynamenotunique'] = 'Bu kategori adı zaten kullanımda';
 $string['profilecommonsettings'] = 'Genel ayarlar';
+$string['profileconfirmcategorydeletion'] = 'Bu kategoride, yukarıdaki kategoriye (veya üst kategori ise aşağıdakine) taşınacak $a alan var.<br />Hala bu kategoriyi silmek istiyor musunuz?';
 $string['profileconfirmfielddeletion'] = 'Bu alan için silinecek $a kullanıcı kaydı var. <br />Bu alanı silmeyi hala istiyor musunuz?';
 $string['profilecreatecategory'] = 'Yeni bir profil kategorisi oluştur';
 $string['profilecreatefield'] = 'Yeni bir profil alanı oluştur:';
@@ -491,6 +495,7 @@ $string['sitepolicies'] = 'Site ilkeleri';
 $string['sitepolicy'] = 'Site politikası URL';
 $string['sitesectionhelp'] = 'Seçilirse, sitenin başlangıç sayfasında konu bölümü görünecektir.';
 $string['slasharguments'] = 'Slash parametrelerini kullan';
+$string['smartpix'] = 'Akıllı grafik araması';
 $string['smtphosts'] = 'SMTP alan adları';
 $string['smtppass'] = 'SMTP şifre';
 $string['smtpuser'] = 'SMTP kullanıcıadı';
