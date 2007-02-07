@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 dev (2006120700)
+      // editor.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['about'] = 'エディタに関して';
@@ -61,7 +61,7 @@ $string['justifyright'] = '右寄せ';
 $string['lang'] = '言語';
 $string['layout'] = 'レイアウト';
 $string['left'] = 'Left';
-$string['lefttoright'] = '左→右';
+$string['lefttoright'] = '左 >> 右';
 $string['linkproperties'] = 'リンク属性';
 $string['linktarget'] = 'ターゲット';
 $string['linktargetblank'] = '新しいウィンドウ';
@@ -101,7 +101,7 @@ $string['rename'] = 'リネーム';
 $string['replaceall'] = 'すべてを置換';
 $string['replacewith'] = '置換';
 $string['right'] = 'Right';
-$string['righttoleft'] = '右→左';
+$string['righttoleft'] = '右 >> 左';
 $string['rows'] = '列';
 $string['searchandreplace'] = '検索および置換';
 $string['searchnotfound'] = '検索ストリングが見つかりませんでした!';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 dev (2006120700)
+      // data.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['action'] = '操作';
@@ -208,7 +208,7 @@ $string['templates'] = 'テンプレート';
 $string['templatesaved'] = 'テンプレートが保存されました。';
 $string['text'] = 'テキスト';
 $string['textarea'] = 'テキストエリア';
-$string['todatabase'] = '→ データベース';
+$string['todatabase'] = '>> データベース';
 $string['type'] = 'フィールドタイプ';
 $string['updatefield'] = 'フィールドを更新します。';
 $string['uploadfile'] = 'ファイルのアップロード';

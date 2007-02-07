@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 dev (2007012500)
+      // quiz.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['1day'] = '1日';
@@ -171,7 +171,7 @@ $string['event1'] = '自動保存';
 $string['event2'] = '保存';
 $string['event3'] = '評定';
 $string['event5'] = '確認';
-$string['event6'] = '閉じる&amp;評定';
+$string['event6'] = '閉じる&評定';
 $string['event7'] = '送信';
 $string['event8'] = '閉じる';
 $string['event9'] = '手動評定';
@@ -509,6 +509,7 @@ $string['timelimitexeeded'] = '申し訳ございません! 小テストの制�
 $string['timestr'] = '%%y/%%m/%%d  %%H:%%M:%%S';
 $string['timesup'] = '時間終了!';
 $string['timetaken'] = '所要時間';
+$string['tofile'] = '>> ファイル';
 $string['tolerance'] = '許容誤差';
 $string['tolerancetype'] = '許容誤差タイプ';
 $string['toomanyrandom'] = '要求されたランダム問題数は、このカテゴリに含まれている数 ($a) より多くなっています!';

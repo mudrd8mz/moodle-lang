@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2007012500)
+      // moodle.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['action'] = '操作';
@@ -727,8 +727,8 @@ $string['jump'] = 'ジャンプ';
 $string['jumpto'] = 'ジャンプ ...';
 $string['keep'] = '保存';
 $string['keepsearching'] = '再度検索する';
-$string['langltr'] = '言語の向き 左→右';
-$string['langrtl'] = '言語の向き 右→左';
+$string['langltr'] = '言語の向き 左 >> 右';
+$string['langrtl'] = '言語の向き 右 >> 左';
 $string['language'] = '言語設定';
 $string['languagegood'] = 'この言語パックは最新版です! :-)';
 $string['lastaccess'] = '最終アクセス';
