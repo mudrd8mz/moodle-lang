@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.6.2 (2006050521)
+      // role.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['addrole'] = 'Adicionar novo papel atribuível';
 $string['allow'] = 'Permitir';
 $string['allowassign'] = 'Permitir atribuir papeis';
-$string['allowoverride'] = 'Permitir contrapor atribuições';
+$string['allowoverride'] = 'Permitir revogar atribuições';
 $string['assignroles'] = 'Atribuir papeis';
 $string['blog:create'] = 'Crear novos tópicos no blog';
 $string['blog:manageentries'] = 'Editar e gerir tópicos';
@@ -67,8 +67,8 @@ $string['manageroles'] = 'Gerir atribuições';
 $string['metaassignerror'] = 'Não se pode atribuir este papel ao utilizador \"$a\" porque precisa competência para gerir metadisciplina.';
 $string['metaunassignerror'] = 'O papel do utilizador \"$a\" foi reatribuido automaticamente; por favor mude melhor o papel atribuido nas disciplinas descendentes.';
 $string['nocapabilitiesincontext'] = 'Não existem competências disponíveis neste contexto';
-$string['overrideroles'] = 'Contrapor atribuições';
-$string['overrides'] = 'Contrapõe';
+$string['overrideroles'] = 'Revogar atribuições';
+$string['overrides'] = 'Revogações';
 $string['permissions'] = 'Permissões';
 $string['potentialusers'] = '$a utilizadores ptenciais';
 $string['prevent'] = 'Impedir';
@@ -80,14 +80,14 @@ $string['question:managecategory'] = 'Gerir categorias de perguntas';
 $string['risks'] = 'Riscos';
 $string['role:assign'] = 'Designar atribuições dos utilizadores';
 $string['role:manage'] = 'Criar e editar papeis atribuidos';
-$string['role:override'] = 'Contrapor permissões de outros';
+$string['role:override'] = 'Revogar permissões de outros';
 $string['role:switchroles'] = 'Mudar os papeis atribuidos';
 $string['role:unassignself'] = 'Mudar os papeis atribuido a si próprio';
 $string['role:viewhiddenassigns'] = 'Ver atribuições ocultas';
 $string['roleassignments'] = 'Atribuição de papeis';
 $string['roles'] = 'Atribuições';
 $string['roletoassign'] = 'Papel a atribuir';
-$string['roletooverride'] = 'Atribuições a contrapor';
+$string['roletooverride'] = 'Atribuições a revogar';
 $string['selectrole'] = 'Seleccione papel a atribuir';
 $string['showallroles'] = 'Mostrar papeis que podem ser atribuidos';
 $string['site:accessallgroups'] = 'Ter acesso a todos os grupos';
