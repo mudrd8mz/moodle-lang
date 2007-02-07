@@ -511,6 +511,7 @@ $string['timelimitexeeded'] = 'Désolé ! La limite de temps est échue !';
 $string['timestr'] = '%%H:%%M:%%S, le %%d.%%m.%%y';
 $string['timesup'] = 'Le chrono est enclenché !';
 $string['timetaken'] = 'Temps mis';
+$string['tofile'] = 'Vers le fichier';
 $string['tolerance'] = 'Tolerance';
 $string['tolerancetype'] = 'Type de tolerance';
 $string['toomanyrandom'] = 'Le nombre de questions aléatoires demandées est plus grand que le nombre de celles qui restent dans cette catégorie&nbsp;!';
