@@ -3,7 +3,7 @@
 
 
 $string['amountofloan'] = 'Valor do empréstimo';
-$string['fortnightly'] = 'Cada noite';
+$string['fortnightly'] = 'Quinzenal';
 $string['interestrate'] = 'Taxa de juros';
 $string['loancalc'] = 'Cálculadora de empréstimos';
 $string['loanterm'] = 'Praço do empréstimo (anos)';

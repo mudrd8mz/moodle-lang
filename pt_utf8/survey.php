@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.4 development (2004060100)
+      // survey.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['actual'] = 'Realidade';
@@ -152,7 +152,7 @@ $string['collesm5'] = 'Apoio dos Colegas';
 $string['collesm5short'] = 'Apoio dos Colegas';
 $string['collesm6'] = 'Interpretação';
 $string['collesm6short'] = 'Interpretação';
-$string['collesmintro'] = 'Nesta unidade em linha...';
+$string['collesmintro'] = 'Nesta unidade activa...';
 $string['collespintro'] = 'O objectivo deste inquérito é ajudar-nos a entender que tão útil tem sido o material nesta unidade para contribuir à sua aprendizagem.
 
 Cada uma das 24 afirmações em baixo refere-se à sua <b>preferência</b> (curso ideal) nesta unidade.

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6 (2006050506)
+      // grades.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['addcategory'] = 'Adicionar categoria';
@@ -76,7 +76,7 @@ $string['nolettergrade'] = 'Não há carta de notas';
 $string['nomode'] = 'NA';
 $string['nonnumericweight'] = 'Recebido valor não-numérico para';
 $string['nonweightedpct'] = 'Sem peso %%';
-$string['notteachererror'] = 'Tem que ser ';
+$string['notteachererror'] = 'Tem que ser';
 $string['pctoftotalgrade'] = '%% total de notas';
 $string['percent'] = 'Percentagem';
 $string['percentascending'] = 'Ordenar ascendentemente por percentagens';
@@ -103,14 +103,14 @@ $string['showhiddenitems'] = 'Mostrar items escondidos';
 $string['sort'] = 'ordenar';
 $string['sortbyfirstname'] = 'Ordenar pelo primeiro nome';
 $string['sortbylastname'] = 'Ordenar por Apelido';
-$string['standarddeviation'] = 'Desvio Standard';
+$string['standarddeviation'] = 'Desvio padrão';
 $string['stats'] = 'Estatisticas';
-$string['statslink'] = 'Estados';
+$string['statslink'] = 'Estatísticas';
 $string['student'] = 'Aluno';
 $string['total'] = 'Total';
 $string['totalweight100'] = 'O peso total é igual a 100';
 $string['totalweightnot100'] = 'O peso total não é igual a 100';
-$string['uncategorised'] = 'Incategorizado';
+$string['uncategorised'] = 'Não categorizado';
 $string['useadvanced'] = 'Utilizar aplicações avançadas';
 $string['usepercent'] = 'Utilizar percentagens';
 $string['useweighted'] = 'Utilizar pesos';

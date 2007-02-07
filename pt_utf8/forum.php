@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6.2 (2006050521)
+      // forum.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['addanewdiscussion'] = 'Começar um tema novo';
@@ -66,7 +66,7 @@ $string['everyonecanchoose'] = 'Todos podem decidir a sua inscrição';
 $string['everyoneissubscribed'] = 'Todos serão inscritos neste fórum';
 $string['existingsubscribers'] = 'Suscritores existentes';
 $string['forcesubscribe'] = 'Obriga a todos a estarem inscritos';
-$string['forcesubscribeq'] = 'Obrigar a todos a estar inscritos?';
+$string['forcesubscribeq'] = 'Obrigar a todos a estar subscritos?';
 $string['forum'] = 'Fórum';
 $string['forumauthorhidden'] = 'Autor (oculto)';
 $string['forumblockingalmosttoomanyposts'] = 'Esta a aproximar-se do número máximo de mensagens. Tem enviado $a->numposts mensagens no lapso de $a->blockperiod e o limite de mensagens é $a->blockafter';

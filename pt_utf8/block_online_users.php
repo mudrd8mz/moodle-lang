@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // block_online_users.php - created with Moodle 1.3 development (2004042600)
+      // block_online_users.php - created with Moodle 1.7.1+ (2006101010)
 
 
-$string['blockname'] = 'Utilizadores em linha';
-$string['configtimetosee'] = 'Número de minutos para que um utilizador seja detectado como actualmente em linha.';
+$string['blockname'] = 'Utilizadores activos';
+$string['configtimetosee'] = 'Número de minutos que determina o peródo de inactividade para que um utilizador deixe de ser considerado como activo.';
 $string['periodnminutes'] = 'nos últimos $a minutos';
 
 ?>
