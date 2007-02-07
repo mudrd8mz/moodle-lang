@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 dev (2007012500)
+      // group.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['addexistinggroupstogrouping'] = '既存のグループをグルーピングに追加する';
@@ -15,7 +15,9 @@ $string['defaultgroupdescription'] = 'デフォルトグループ説明';
 $string['defaultgroupingname'] = 'グルーピング';
 $string['defaultgroupname'] = 'グループ';
 $string['defaultgroupprefix'] = 'グループ';
+$string['deletegroupconfirm'] = '本当にグループ「 $a 」を削除してもよろしいですか?';
 $string['deletegrouping'] = 'グルーピングを削除する';
+$string['deletegroupingconfirm'] = '本当にグルーピング「 $a 」を削除してもよろしいですか? (グルーピング内のグループは削除されません。)';
 $string['deleteselectedgroup'] = '選択したグループを削除する';
 $string['displaygrouping'] = 'グルーピングを表示する';
 $string['distributealphabetically'] = '姓のアルファベット順にグループに割り当てる';
