@@ -143,6 +143,7 @@ $string['reviewhostservices'] = 'ホストサービスをレビューする';
 $string['selectaccesslevel'] = 'リストからアクセスレベルを選択してください。';
 $string['selectahost'] = 'リモートMoodleホストを選択してください。';
 $string['serviceswepublish'] = 'サービスが $a に公開されました。';
+$string['serviceswesubscribeto'] = '私たちが登録する $a のサービスです。';
 $string['settings'] = '設定';
 $string['showlocal'] = 'ローカルユーザを表示する';
 $string['showremote'] = 'リモートユーザを表示する';
@@ -162,13 +163,13 @@ $string['trustedhostsexplain'] = '<p>信頼できるホストメカニズムで�
 $string['unknownerror'] = 'ネゴシエーション中に不明なエラーが発生しました。';
 $string['usercannotchangepassword'] = 'あなたはリモートユーザのため、ここでパスワードを変更できません。';
 $string['userchangepasswordlink'] = '<br /><a href=\"$a->wwwroot/login/change_password.php\">$a->description</a> で、あなたのパスワードを変更することができます。';
-$string['usersareonline'] = '警告: 現在、そのサーバから $a 名のユーザがあなたのサイトにログインしています。';
-$string['validated_by'] = '次のネットワークで確認されました: <code>$a</code>';
+$string['usersareonline'] = '警告: 現在、このサーバから $a 名のユーザがあなたのサイトにログインしています。';
+$string['validated_by'] = '次のネットワークで認証されました: <code>$a</code>';
 $string['verifysignature-error'] = '署名認証に失敗しました。エラーが発生しました。';
 $string['verifysignature-invalid'] = '署名認証に失敗しました。このペイロード (データ本体) は、あなたが署名したものではないと思われます。';
 $string['version'] = 'バージョン';
 $string['warning'] = '警告';
-$string['wrong-ip'] = 'あなたのIPアドレスは、記録されているレコードと合致しません。';
+$string['wrong-ip'] = 'あなたのIPアドレスが、記録されているレコードと合致しません。';
 $string['yourhost'] = 'あなたのホスト';
 $string['yourpeers'] = 'あなたのピア';
 
