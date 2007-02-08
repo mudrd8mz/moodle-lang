@@ -66,7 +66,7 @@ $string['configcountry'] = 'ここで国を設定した場合、新規アカウ�
 $string['configcoursemanager'] = 'ここでは、誰がコース説明に表示されるか設定することができます。ユーザがコースのコース説明に表示されるには、これらの中から少なくとも１つのロールを割り当ててください。';
 $string['configcoursesperpage'] = 'コース一覧の1ページあたりに表示するコース数を入力してください。';
 $string['configcronclionly'] = 'この設定を有効にした場合、ウェブ経由の代わりに、cronスクリプトをコマンドラインのみで実行することができます。この設定は、下記のcronパスワード設定をオーバーライドします。';
-$string['configcronremotepassword'] = 'cronパスワードを設定した場合、下記の形式のURLを使用してcronパスワードを提供しない限り、ウェブブラウザからcron.phpを動作させることができません。<pre>
+$string['configcronremotepassword'] = 'cronパスワードを設定した場合、下記の形式のURLを使用してcronパスワードを提供しない限り、ウェブブラウザからcron.phpを動作させることはできません。<pre>
 http://site.example.com/admin.cron.php?password=opensesame
 </pre>空白の場合、パスワードは要求されません。';
 $string['configdbsessions'] = 'この設定を有効にした場合、現在のセッション情報はデータベースに保存されます。これは特に規模の大きい/アクセス数の多いサイト、またはクラスタサーバで構築されたサイトに向いています。ほとんどのサイトでは、この設定をサーバディスクにセッションを保存する「No」のままにしてください。この設定を変更すると、(あなたも含めて) 現在のユーザがログアウトされます。あなたがMySQLを使用している場合、my.cnf (またはmy.ini) の「max_allowed_packet」 を少なくとも4Mにしてください。';
