@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8 dev (2006120700)
+      // lesson.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -125,7 +125,7 @@ $string['hightime'] = '最長時間';
 $string['importcount'] = '$a の問題をインポート';
 $string['importppt'] = 'PowerPointをインポートする';
 $string['importquestions'] = '問題をインポートする';
-$string['insertedpage'] = 'ページが追加されました。';
+$string['insertedpage'] = 'ページが追加されました';
 $string['jump'] = 'ジャンプ';
 $string['jumps'] = 'ジャンプ';
 $string['jumpsto'] = '<em>$a</em> にジャンプする';
@@ -214,10 +214,10 @@ $string['pages'] = 'ページ';
 $string['pagetitle'] = 'ページタイトル';
 $string['password'] = 'パスワード';
 $string['passwordprotectedlesson'] = '$a はパスワードで保護されたレッスンです。';
-$string['pleasecheckoneanswer'] = '答えを選択して、このボタンをクリックしてください。';
-$string['pleasecheckoneormoreanswers'] = '1つ以上の答えを選択して、このボタンをクリックしてください。';
-$string['pleaseenteryouranswerinthebox'] = '答えを入力して、このボタンをクリックしてください。';
-$string['pleasematchtheabovepairs'] = '答えを選択して、このボタンをクリックしてください。';
+$string['pleasecheckoneanswer'] = '答えを選択してボタンをクリックしてください';
+$string['pleasecheckoneormoreanswers'] = '1つ以上の答えを選択してボタンをクリックしてください';
+$string['pleaseenteryouranswerinthebox'] = '答えを入力してボタンをクリックしてください';
+$string['pleasematchtheabovepairs'] = '答えを選択してボタンをクリックしてください';
 $string['pointsearned'] = '獲得点数';
 $string['postsuccess'] = '正常に投稿されました。';
 $string['practice'] = '練習レッスン';
@@ -263,11 +263,11 @@ $string['slideshowwidth'] = 'スライドショーの幅';
 $string['startlesson'] = 'レッスンの開始';
 $string['studentattemptlesson'] = '$a->lastname, $a->firstname さんの受験回数:  $a->attempt';
 $string['studentname'] = '$a の氏名';
-$string['studentoneminwarning'] = '警告: レッスンが終了するまで、残り時間1分またはそれ以下です。';
-$string['studentoutoftime'] = 'お知らせ: このレッスンの制限時間が終わりました。最後の解答は時間終了後に行われましたので計算から除外されます。「続ける」ボタンを押してレッスンを終了してください。';
+$string['studentoneminwarning'] = '警告: レッスンが終了するまでの残り時間が1分またはそれ以下です。';
+$string['studentoutoftime'] = 'お知らせ: このレッスンの制限時間が終わりました。あなたの最後の解答は、時間終了送信されましたので計算から除外されます。「続ける」ボタンをクリックしてレッスンを終了してください。';
 $string['studentresponse'] = '{$a} のレスポンス';
 $string['submitname'] = 'ニックネームの送信';
-$string['teacherjumpwarning'] = 'このレッスンでは、$a->cluster ジャンプまたは $a->unseen ジャンプが使用されています。代わりに次のページへのジャンプが使用されます。学生としてログインして、これらのジャンプを確認してください。';
+$string['teacherjumpwarning'] = 'このレッスンでは、$a->cluster ジャンプまたは $a->unseen ジャンプが使用されています。これらのジャンプの代わりに「次のページ」へのジャンプが使用されます。これらのジャンプを確認するには、学生としてログインしてください。';
 $string['teacherongoingwarning'] = '進行中の評点は学生のみに表示されます。進行中のスコアをテストするには、学生としてログインしてください。';
 $string['teachertimerwarning'] = 'タイマーは学生に対してのみ作動します。タイマーをテストするには、学生としてログインしてください。';
 $string['thatsthecorrectanswer'] = '正解です。';
