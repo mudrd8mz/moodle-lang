@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 dev (2007012500)
+      // group.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['addexistinggroupstogrouping'] = '기존 모둠을 모둠무리에 추가';
@@ -15,7 +15,9 @@ $string['defaultgroupdescription'] = '기본 모둠 설명';
 $string['defaultgroupingname'] = '모둠무리';
 $string['defaultgroupname'] = '모둠';
 $string['defaultgroupprefix'] = '모둠';
+$string['deletegroupconfirm'] = '정말 모둠 \'$a\'를 삭제하겠습니까?';
 $string['deletegrouping'] = '모둠무리 삭제';
+$string['deletegroupingconfirm'] = '정말 모둠무리 \'$a\'를 삭제하겠습니까? (무리 안에 있는 모둠은 삭제되지 않습니다)';
 $string['deleteselectedgroup'] = '선택한 모둠 삭제';
 $string['displaygrouping'] = '모둠무리 보이기';
 $string['distributealphabetically'] = '성을 기준으로 모둠을 나눔';
@@ -73,9 +75,9 @@ $string['selectnumberofgroups'] = '모둠의 수 선택';
 $string['showgroupsingrouping'] = '무리에 있는 모둠 보기';
 $string['showmembersforgroup'] = '모둠 구성원 보기';
 $string['showusersalreadyingroup'] = '모둠무리에 있는 모둠 구성원 보기';
-$string['teachersgroupmark'] = '교사는 자신이 속할 수 없는 모둠의 활동을 표시할 수 없을 것입니다.';
+$string['teachersgroupmark'] = '교사는 자신이 속하지 않은 모둠의 활동에 대해 채점할 수 없을 것입니다.';
 $string['teachersgroupview'] = '교사는 자신이 속할 수 없는 모둠의 활동을 볼 수 없을 것입니다.';
-$string['teachersoverride'] = '어떤 모둠에도 속하지 않은 교사는 모든 모둠의 활동을 보거나 표시할 수 없을 것 입니다.';
+$string['teachersoverride'] = '어떤 모둠에도 속하지 않은 교사는 모든 모둠의 활동을 보거나 채점할 수 없을 것 입니다.';
 $string['upgradeconfirm'] = '죄송합니다만 무들1.8개발판에서 생성된 모둠 테이블은 이 판올림 과정에서 삭제됩니다. 계속 하겠습니까?';
 $string['usestudentsonlyfromselectedgroup'] = '현재 선택된 모듬에서만 학생을 활용할 수 있습니다.';
 $string['viewallgroupsactivities'] = '학생들은 모든 모둠의 활동을 볼 수는 있지만 참여할 수는 없을 것입니다.';
