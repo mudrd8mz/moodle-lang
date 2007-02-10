@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2007012500)
+      // admin.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -484,8 +484,8 @@ $string['timezoneforced'] = 'Správce nepovolil změny';
 $string['timezoneisforcedto'] = 'Vnutit nastavení všem uživatelům';
 $string['timezonenotforced'] = 'Uživatelé si mohou vybrat časové pásmo';
 $string['tokenizerrecommended'] = 'Instalace volitelného rozšíření PHP Tokenizer je doporučována - zlepšuje možnosti Moodle Networking.';
-$string['unattendedoperation'] = 'Neočekávaná operace';
-$string['unbookmarkthispage'] = 'odstarnit záložku';
+$string['unattendedoperation'] = 'Bez obsluhy';
+$string['unbookmarkthispage'] = 'odstranit záložku';
 $string['unicoderecommended'] = 'Doporučujeme ukládání dat v kódování Unicode (UTF-8). Nové instalace by měly být založeny nad databází s výchozím kódováním Unicode. Pokud přecházíte z nižších verzí, měli byste podstoupit proces migrace na UTF-8 (viz stránku Správa).';
 $string['unicoderequired'] = 'Je nezbytné ukládání dat v kódování Unicode (UTF-8). Nové instalace musí být založeny nad databází s výchozím kódováním Unicode. Pokud přecházíte z nižších verzí, měli byste podstoupit proces migrace na UTF-8 (viz stránku Správa).';
 $string['unicodeupgradenotice'] = 'V Moodlu 1.6 jsou všechny jazykové balíčky převedeny do znakové sady Unicode. Pro dokončení aktualizace vašich stránek je nutné převést do kódování Unicode také všechna data v databázi -- to lze provést prostřednictvím migračního skriptu. <a href=\"utfdbmigrate.php\">Pro spuštění migračního skriptu klikněte sem</a>.';
