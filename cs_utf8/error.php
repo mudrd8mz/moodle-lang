@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 + (2006050506)
+      // error.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['adminprimarynoedit'] = 'Primární správce nemůže být ostatními upravován';
@@ -11,9 +11,12 @@ $string['cannotfindcomponent'] = 'Komponenta nenalezena.';
 $string['cannotsavemd5file'] = 'Nelze uložit soubor MD5.';
 $string['cannotsavezipfile'] = 'Nelze uložit soubor ZIP.';
 $string['cannotunzipfile'] = 'Nelze dekomprimovat soubor.';
+$string['cantunenrollfrommetacourse'] = 'Nemůžete se vyškrtnout z tohoto metakurzu.';
+$string['cantunenrollinthisrole'] = 'Nemůžete se vyškrtnout z tohoto kurzu, dokud máte stávající roli.';
 $string['cmunknown'] = 'Nenalezen tento modul kurzu';
 $string['componentisuptodate'] = 'Komponenta je aktuální.';
-$string['confirmsesskeybad'] = 'Je mi líto, ale klíči vašeho sezení (session) nebylo povoleno vykonat tuto akci. Toto bezpečnostní opatření zabraňuje nahodilému nebo zákeřnému spoustění důležitých funkcí pod vaším jménem. Prosím, ujistěte se, že opravdu chcete spustit tuto funkci. ';
+$string['confirmsesskeybad'] = 'Je mi líto, ale klíči vašeho sezení (session) nebylo povoleno vykonat tuto akci. Toto bezpečnostní opatření zabraňuje nahodilému nebo zákeřnému spoustění důležitých funkcí pod vaším jménem. Prosím, ujistěte se, že opravdu chcete spustit tuto funkci.';
+$string['couldnotassignrole'] = 'V průběhu přiřazování vaši role se objevila vážná, ale blíže neurčená chyba.';
 $string['coursegroupunknown'] = 'Nebyl určen kurz odpovídající skupině \"$a\"';
 $string['downloadedfilecheckfailed'] = 'Kontrola staženého souboru dopadla negativně';
 $string['errorcleaningdirectory'] = 'Chyba při čištění adresáře \"$a\"';
@@ -34,15 +37,18 @@ $string['invalidcourse'] = 'Neplatný kurz';
 $string['invalidfieldname'] = '\"$a\" není platný název pole';
 $string['invalidfiletype'] = '\"$a\" není platný typ souboru';
 $string['invalidmd5'] = 'Neplatný MD5 hash';
+$string['invalidrole'] = 'Neplatná role';
 $string['invalidxmlfile'] = '\"$a\" není platný XML soubor';
 $string['missingfield'] = 'Chybí pole \"$a\"';
 $string['missingrequiredfield'] = 'Chybí některé z povinných polí';
 $string['modulemissingcode'] = 'Modul $a nemá k dispozici kód potřebný pro vykonání této operace.';
 $string['modulerequirementsnotmet'] = 'Modul \"$a->modulename\" ($a->moduleversion) nemohl být nainstalován. Vyžaduje novější verzi Moodle (používáte verzi $a->currentmoodle, potřebujete $a->requiremoodle).';
 $string['mustbeteacher'] = 'Přístup na tuto stránku je povolen pouze učitelům';
+$string['nocontext'] = 'Je mi líto, tento kurz není platný kontext.';
 $string['noinstances'] = 'V tomto kurzu se nevyskytuje žádná instance $a!';
 $string['nonmeaningfulcontent'] = 'Nesmyslný obsah';
 $string['noparticipatorycms'] = 'Pro váš účet nejsou dostupné žádné moduly kurzy, u nichž lze vést záznamy v protokolech.';
+$string['nopermissions'] = 'Je mi líto, ale momentálně nemáte oprávnění vykonat tuto operaci ($a)';
 $string['notavailable'] = 'Prozatím není dostupné';
 $string['onlyadmins'] = 'Tuto operaci jsou oprávněni provést pouze správci.';
 $string['onlyeditingteachers'] = 'Tuto operaci jsou oprávněni provést pouze učitelé s právem editace.';
@@ -58,10 +64,11 @@ $string['sessionerroruser'] = 'Vaše přihlášení vypršelo. Prosím, přihlas
 $string['sessionerroruser2'] = 'Objevila se chyba na serveru, která ovlivňuje vaše přihlášení. Prosím, přihlaste se znovu nebo restartujte váš prohlížeč.';
 $string['sessionipnomatch'] = 'Je mi líto, ale vaše IP se v průběhu vašeho přihlášení změnila. Toto bezpečnostní opatření zabraňuje útočníkům vydávat se za přihlášeného uživatele. Běžným uživatelům by se tato zpráva neměla zobrazit - spojte se s vaším správcem a požádejte jej o pomoc.';
 $string['statscatchupmode'] = 'Probíhá zpracování statistik. Doposud byly zpracovány statistiky za $a->daysdone dnů, ke zpracování zůstává $a->dayspending dnů. Brzy na viděnou!';
-$string['unknowncourse'] = 'Neznámý kurz s názvem \'$a\'';
+$string['unicodeupgradeerror'] = 'Je mi líto. Vaše databáze dosud nepoužívá kódování Unicode a tato verze Moodlu není schopná migraci na Unicode provést. Prosím, proveďte nejprve upgrade na verzi 1.7.x a spusťte proces migrace na Unicode ze stránky Správy. Potom budete moci migrovat na Moodle $a';
+$string['unknowncourse'] = 'Neznámý kurz s názvem \"$a\"';
 $string['unknownuseraction'] = 'Této instrukci nerozumím';
-$string['usernotaddederror'] = 'Uživatel \'$a\' nebyl přidán - neznámá chyba';
-$string['usernotaddedregistered'] = 'Uživatel \'$a\' nebyl přidán - již registrován';
+$string['usernotaddederror'] = 'Uživatel \"$a\" nebyl přidán - neznámá chyba';
+$string['usernotaddedregistered'] = 'Uživatel \"$a\" nebyl přidán - již registrován';
 $string['usernotavailable'] = 'Informace o tomto uživateli vám nejsou dostupné.';
 $string['usernotrenamedexists'] = 'Uživatel nepřejmenován -- nové uživatelské jméno již používá někdo jiný.';
 $string['usernotrenamedmissing'] = 'Uživatel nepřejmenován -- původní uživatelské jméno nenalezeno.';

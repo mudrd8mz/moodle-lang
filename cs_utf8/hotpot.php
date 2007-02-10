@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6 + (2006050506)
+      // hotpot.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['abandoned'] = 'nedokončeno';
 $string['addquizchain'] = 'Přidat sadu testů';
 $string['allmycourses'] = 'všechny moje kurzy';
+$string['allusers'] = 'všichni uživatelé';
 $string['alwaysopen'] = 'Stále k dispozici';
 $string['attemptsall'] = 'všechny pokusy';
 $string['attemptsbest'] = 'nejlepší pokus';
@@ -55,7 +56,7 @@ $string['navigation_bar'] = 'Navigační lišta Moodlu';
 $string['navigation_buttons'] = 'Tlačítka testu Hot Potatoes';
 $string['navigation_frame'] = 'Navigační rám (frame) Moodlu';
 $string['navigation_give_up'] = 'Pouze tlačítko \"Vzdávám to\"';
-$string['navigation_iframe'] = 'Vnořený &lt;IFRAME&gt;';
+$string['navigation_iframe'] = 'Vnořený <IFRAME>';
 $string['navigation_none'] = 'Žádná';
 $string['neverclosed'] = 'Nikdy';
 $string['noactivity'] = 'Žádná činnost';

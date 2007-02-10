@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 + (2006050506)
+      // glossary.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['addcomment'] = 'Přidat komentář';
@@ -89,6 +89,9 @@ $string['entryleveldefaultsettings'] = 'Výchozí nastavení pro položky';
 $string['entrysaved'] = 'Položka byla uložena.';
 $string['entryupdated'] = 'Položka byla aktualizována.';
 $string['entryusedynalink'] = 'Tato položka by měla být automaticky propojována';
+$string['errcannoteditothers'] = 'Nemůžete upravovat položky jiných uživatelů';
+$string['errconceptalreadyexists'] = 'Tento pojem již ve slovníku existuje. Duplicitní položky jsou zde zakázány.';
+$string['erredittimeexpired'] = 'Čas pro úpravu této položky již vypršel.';
 $string['explainaddentry'] = 'Zde můžete přidat novou položku do slovníku.<br />Pojem a definice jsou povinná pole.';
 $string['explainall'] = 'Zobrazit VŠECHNY položky na jedné stránce';
 $string['explainalphabet'] = 'Procházet slovníkem pomocí tohoto rejstříku';
@@ -105,6 +108,17 @@ $string['fillfields'] = 'Pojem a definice jsou povinná pole.';
 $string['filtername'] = 'Automatické propojování slovníku';
 $string['fullmatch'] = 'Srovnávat pouze celá slova<br /><small>(při automatickém propojování)</small>';
 $string['globalglossary'] = 'Globální slovník';
+$string['glossary:approve'] = 'Schvalovat neschválené položky';
+$string['glossary:comment'] = 'Vytvářet komentáře';
+$string['glossary:export'] = 'Exportovat položky';
+$string['glossary:import'] = 'Importovat položky';
+$string['glossary:managecategories'] = 'Spravovat kategorie';
+$string['glossary:managecomments'] = 'Spravovat komentáře';
+$string['glossary:manageentries'] = 'Spravovat položky';
+$string['glossary:rate'] = 'Hodnotit položky';
+$string['glossary:view'] = 'Zobrazovat položky';
+$string['glossary:viewrating'] = 'Zobrazovat hodnocení';
+$string['glossary:write'] = 'Vytvářet nové položky';
 $string['glossaryleveldefaultsettings'] = 'Výchozí nastavení pro slovník';
 $string['glossarytype'] = 'Typ slovníku';
 $string['importcategories'] = 'Importovat kategorie';
@@ -113,6 +127,7 @@ $string['importedentries'] = 'Importované položky';
 $string['importentries'] = 'Importovat položky';
 $string['isglobal'] = 'Je tento slovník globální?';
 $string['linkcategory'] = 'Automaticky propojovat tuto kategorii';
+$string['linking'] = 'Automatické propojování';
 $string['mainglossary'] = 'Hlavní slovník';
 $string['maxtimehaspassed'] = 'Je mi líto, ale vypršela lhůta ($a) k úpravě tohoto komentáře!';
 $string['modulename'] = 'Slovník';

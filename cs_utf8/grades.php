@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6 + (2006050506)
+      // grades.php - created with Moodle 1.8 dev (2007012500)
 
 
 $string['addcategory'] = 'Přidat kategorii';
@@ -105,7 +105,7 @@ $string['sortbyfirstname'] = 'Třídit podle jména';
 $string['sortbylastname'] = 'Třídit podle příjmení';
 $string['standarddeviation'] = 'Standardní odchylka';
 $string['stats'] = 'Statistika';
-$string['statslink'] = 'Stat ';
+$string['statslink'] = 'Stat';
 $string['student'] = 'Student';
 $string['total'] = 'Celkem';
 $string['totalweight100'] = 'Celková váha je rovna 100';
@@ -120,8 +120,9 @@ $string['weight'] = 'váha';
 $string['weightedascending'] = 'Třídit podle vážených procent vzestupně';
 $string['weighteddescending'] = 'Třídit podle vážených procent sestupně';
 $string['weightedpct'] = 'vážená %%';
-$string['weightedpctcontribution'] = ' vážená ';
+$string['weightedpctcontribution'] = 'vážená';
 $string['writinggradebookinfo'] = 'Zapisuji nastavení klasifikace';
 $string['yes'] = 'Ano';
+$string['yourgrade'] = 'Vaše známka';
 
 ?>
