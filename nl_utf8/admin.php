@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2007012500)
+      // admin.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -108,6 +108,7 @@ $string['configfrontpageloggedin'] = 'De hierboven gekozen items zullen op de st
 $string['configfullnamedisplay'] = 'Deze instelling bepaalt hoe de volledige namen getoond worden. Voor de meeste eentalige sites is de beste instelling de standaardinstelling, nl \"voornaam + achternaam\", maar je kunt ervoor kiezen de achternaam te verbergen of de gekozen taalinstelling te volgen (sommige talen gebruiken een andere volgorde).';
 $string['configgdversion'] = 'Geef aan welke versie van GD geïnstalleerd is. De versie die standaard getoond wordt is automatisch gevonden. Verander dit niet tenzij je echt weet wat je doet.';
 $string['configgradebookroles'] = 'Deze instelling bepaalt wie er in de cijferlijsten verschijnt. Gebruikers moeten minstens één van deze rollen hebben om in de cijferlijsten voor die cursus te verschijnen.';
+$string['configguestroleid'] = 'Deze rol is automatisch toegewezen aan de gast gebruiker. Hij wordt ook toegewezen aan niet aangemelde gebruikers wanneer die een cursus binnengaan die gasten zonder wachtwoord toelaat. Controleer of de rol moodle/legacy:guest en moodle/course:view mogelijkheden heeft.';
 $string['confighiddenuserfields'] = 'Kies welke velden van de gebruikersinformatie je wil verbergen voor andere gebruikers dan leraren en beheerders. Hierdoor kun je de privacy van je gebruikers vergroten. Gebruik de Ctrl-toets om meerdere velden te selecteren.';
 $string['confightmleditor'] = 'Kies of je het gebruik van de ingebouwde HTML-teksteditor wilt toestaan. Zelfs als je het toestaat zal deze editor alleen verschijnen als de gebruiker een geschikte browser gebruikt (IE 5.5 of later). Gebruikers kunnen er ook voor kiezen de editor niet te gebruiken.';
 $string['configidnumber'] = 'Deze optie specificeert of (a) de gebruikers helemaal niet worden gevraagd om een leerlingnummer, (b) gebruikers wel worden gevraagd om een leerlingnummer maar dit leeg kunnen laten of (c) gebruikers worden gevraagd om het leerlingnummer en dit niet leeg kunnen laten. Als het leerlingnummer wordt opgegeven dan wordt dit getoond in het profiel.';
@@ -177,6 +178,8 @@ $string['configshowsiteparticipantslist'] = 'Al deze site leerlingen en site ler
 $string['configsitemailcharset'] = 'Alle e-mails die door je site gegenereerd worden, zullen in de tekenset die je hier specifieerd verstuurd worden. Elke gebruiker kan deze instelling wijzigen als voor de volgende instelling ja gekozen wordt.';
 $string['configsitepolicy'] = 'Als je een overeenkomst hebt voor het gebruik van de site die alle gebruikers moeten zien voor ze deze site gebruiken, geef dan hier een de URL naar die pagina op, anders laat je dit veld leeg. De URL kan naar gelijk waar verwijzen - een voor de hand liggende plaats zou een bestand tussen de sitebestanden zijn, bijvoorbeeld http://jouwsite/file.php/1/overeenkomst.html';
 $string['configslasharguments'] = 'Bestanden (afbeeldingen, uploads en dergelijke) worden via een script aangeleverd dat gebruik maakt van \'slash arguments\' (hier de tweede optie). Deze methode zorgt ervoor dat bestanden makkelijker in webbrowsers, proxyservers en dergelijke kunnen worden gecachet. Helaas staan sommige PHP-servers deze methode niet toe. Dus kies de eerste optie als je problemen hebt met het bekijken van geüploade bestanden of afbeeldingen (bijvoorbeeld afbeeldingen van gebruikers).';
+$string['configsmartpix'] = 'Met deze optie ingeschakeld worden icoontjes door een PHP-script dat het huidige thema doorzoekt, dan alle bovenliggende thema\'s en dan de Moodle/pix map. Hierdoor is het niet nodig de afbeeldingsbestanden te dupliceren over de verschillende thema\'s, maar het heeft een kleine performantiekost.
+configsmartpix';
 $string['configsmtphosts'] = 'Geef de volledige naam van één of meer lokale SMTP-servers die Moodle moet gebruiken om mail te versturen (bijvoorbeeld: \'mail.a.com\' of \'mail.a.com;mail.b.com\'). Als je dit veld leeg laat gebruikt Moodle de standaard PHP-methode voor het versturen van mail.';
 $string['configsmtpuser'] = 'Als je hierboven een SMTP-server hebt ingevuld en deze server authenticatie nodig heeft, vul hier dan de gebruikersnaam en het wachtwoord in.';
 $string['configstartwday'] = 'Begin van de week';
@@ -280,7 +283,11 @@ $string['forceloginforprofiles'] = 'Verplicht aanmelden voor profielen';
 $string['forcetimezone'] = 'Verplicht standaard tijdzone';
 $string['framename'] = 'Framenaam';
 $string['frontpage'] = 'Startpagina';
+$string['frontpagebackup'] = 'Backup voorpagina';
 $string['frontpageloggedin'] = 'Startpagina-items als aangemeld';
+$string['frontpagerestore'] = 'Restore voorpagina';
+$string['frontpageroles'] = 'Rollen voorpagina';
+$string['frontpagesettings'] = 'Instellingen voorpagina';
 $string['fullnamedisplay'] = 'Volledige naam opmaak';
 $string['gdversion'] = 'GD-versie';
 $string['generalsettings'] = 'Algemene instellingen';
@@ -288,6 +295,7 @@ $string['globalsquoteswarning'] = '<p><strong>Beveiligingswaarschuwing</strong>:
 $string['gotofirst'] = 'Ga naar de eerste ontbrekende string';
 $string['gradebook'] = 'Cijferlijst';
 $string['gradebookroles'] = 'Rollen in cijferlijst';
+$string['guestroleid'] = 'Rol voor gasten';
 $string['helpadminseesall'] = 'Zien beheerders alle gebeurtenissen in de kalender of alleen diegene die ze zelf nodig hebben?';
 $string['helpcalendarsettings'] = 'Configureer de kalender en datum/tijd-gerelateerde instellingen van Moodle';
 $string['helpforcetimezone'] = 'Je kunt je gebruikers elk hun eigen tijdzone laten kiezen of een tijdzone opleggen voor iedereen.';
@@ -495,6 +503,7 @@ $string['sitepolicies'] = 'Site reglement';
 $string['sitepolicy'] = 'URL voor site afspraken';
 $string['sitesectionhelp'] = 'Indien gekozen wordt er een onderwerpsectie getoond op de startpagina van de site';
 $string['slasharguments'] = 'Gebruik slash arguments';
+$string['smartpix'] = 'Slim afbeeldingen zoeken';
 $string['smtphosts'] = 'SMTP hosts';
 $string['smtppass'] = 'SMTP wachtwoord';
 $string['smtpuser'] = 'SMTP gebruikersnaam';
