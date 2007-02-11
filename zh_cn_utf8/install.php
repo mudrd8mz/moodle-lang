@@ -20,7 +20,7 @@ $string['configfilenotwritten'] = '安装脚本无法自动创建一个包含您
 $string['configfilewritten'] = '已经成功创建了config.php文件';
 $string['configurationcomplete'] = '配置完毕';
 $string['configurationcompletehead'] = '配置完毕';
-$string['configurationcompletesub'] = 'Moodle会尝试将配置存储在您的Moodle跟目录中。';
+$string['configurationcompletesub'] = 'Moodle会尝试将配置存储在您的Moodle根目录中。';
 $string['database'] = '数据库';
 $string['databasecreationsettings'] = '现在您需要配置数据库选项，Moodle的大部分数据都是存储在数据库中的。Moodle4Windows安装程序会根据下面的选项自动为您创建这个数据库。<br />
 <br /> <br />
