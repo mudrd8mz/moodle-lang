@@ -30,7 +30,7 @@
     <dd>
       <ul>
         <li>管理機能へのアタックを防止するための修正を施しました。</li>
-        <li>レッスン: レッスンを安全に非表示にできるようにしました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2733" target="_blank">#2733</a>)。</li>  
+        <li>レッスン: レッスンを安全に非表示にできるようにしました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2733" target="_blank">#2733</a>)。</li>
       </ul>
     </dd>
 
@@ -42,41 +42,39 @@
         <li>リリースノートの内容を関連するバグにリンクするようにしました。</li>
         <li>Web Accelerator、Mozilla等の先取りリクエストを拒否しました。</li>
       </ul>
-    </dd>    
+    </dd>
    <dt>パフォーマンスの改善</dt>
     <dd>
       <ul>
-     <li>Added option to cache the languages list. Saves around 10MB of memory and 40 includes. See config-dist.php for details on how to enable.</li>
-        <li>Major efficiency improvements for Postgres databases on insert. Also fixed many calls to insert_record() which discard the returned record id to not ask for the record id.</li>
+     <li>言語リストをキャッシュするオプションを追加しました。10MBのメモリを節約し、40言語を含むことができます。このオプションを有効にする方法および詳細は「config-dist.php」をご覧ください。</li>
+        <li>Postgresデータベースのインサートに関して、大きく効率の向上を図りました。同時に、レコードidを問い合わせしないためにレコードidの戻りが破棄されてしまう多くのinsert_record()コールを修正しました。</li>
       </ul>
     </dd>
 
     <dt>他のバグ修正</dt>
     <dd>
       <ul>
-    <li>HTML Editor: Fixes to some character encoding problems.</li>
-    <li>Quiz: fixes to export/import dropdown (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2963" target="_blank">#2963</a>)</li> 
-    <li>Quiz:  Don't throw a fatal error on unknown question, try to continue.</li> 
-    <li>Course Social Forum: Removed misleading link to unsubscribe (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2945" target="_blank">#2945</a>).</li>     
-    <li>Additional/updated translations.</li> 
-    <li>Forums and Groups: Allow students not in a group to post into a discussion which is also not in a group, even if the course is using groups.</li>
-    <li>Sitewide HTML Editor settings: Fixed <a href="http://moodle.org/mod/forum/discuss.php?d=21359" target="_blank">Can't save changes in editor configuration</a> form bug.</li>
-    <li>Cron: Removed some warnings.</li> 
-    <li>Choice: Choice shows a bad number of answers (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2452" target="_blank">#2452</a>).</li> 
-    <li>Better support for PHP5: Files uploads now use $_FILES rather than deprecated $HTTP_POST_FILES (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2828" target="_blank">#2828</a>)</li> 
-    <li>Backup/Restore: Manual links from lesson pages to resources are now preserved between backup/restore anywhere. (see <a href="http://moodle.org/mod/forum/discuss.php?d=21044" target="_blank">this discussion</a>)</li> 
-    <li>Some fixes for Postgres constraint naming.</li> 
-    <li>I18N support: Reset proper encoding    upon login (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2770" target="_blank">#2770</a>).</li> 
-    <li>I18N support: Fixed some instances of garbled characters when using utf-8 in HTML Editor (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2763" target="_blank">#2763</a>)</li> 
-    <li>Flash Media Player: Turn off the autoloading of sound files.</li> 
-    <li>Flash Media Player: Better handling of filenames files.</li> 
-    <li>Postgres: Fixed sequences out of sequence (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2742" target="_blank">#2742</a>).</li>   
-    <li>Backup: Fixed memory limit overrun in backup config page.</li>  
-    <li>Forums: Fixed error warnings when a teacher posts to a forum (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2723" target="_blank">#2723</a>).</li>  
+    <li>HTMLエディタ: 文字コードに関する問題を修正しました。</li>
+    <li>小テスト: エクスポート/インポートドロップダウンメニューを修正しました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2963" target="_blank">#2963</a>)。</li> 
+    <li>小テスト: 不明な問題に関する致命的なエラーを切り捨てずに、続けるようにしました。</li> 
+    <li>コースソーシャルフォーラム: メール購読解除に関する誤解されやすいリンクを取り除きました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2945" target="_blank">#2945</a>)。</li>     
+    <li>翻訳を追加および更新しました。</li> 
+    <li>フォーラムおよびグループ: コースがグループを使用していても、グループに属していない学生が、同様にグループに属していないフォーラムに投稿できるようにしました。</li>
+    <li>サイト全体のHTMLエディタ設定: <a href="http://moodle.org/mod/forum/discuss.php?d=21359" target="_blank">エディタ設定を保存できない</a>バグを修正しました。</li>
+    <li>Cron: いくつかの警告を取り除きました。</li> 
+    <li>投票: 回答数が誤って表示される点を修正しました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2452" target="_blank">#2452</a>)。</li> 
+    <li>PHP5サポートの改善: 廃止される予定の$HTTP_POST_FILESではなく、$_FILESをファイルアップロードに使用するようにしました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2828" target="_blank">#2828</a>)。</li>
+    <li>バックアップ/リストア: レッスンページからのリソースに対する手動リンクは、バックアップ/リストア時に常に保存されます (詳細は、<a href="http://moodle.org/mod/forum/discuss.php?d=21044" target="_blank">このディスカッション</a>をご覧ください)。</li> 
+    <li>Postgresの制約名に関して、いくつか修正しました。</li>
+    <li>I18Nサポート: ログイン時に適切なエンコードにリセットします (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2770" target="_blank">#2770</a>)。</li>
+    <li>I18Nサポート: UTF-8使用時のHTMLエディタでの文字化けを修正しました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2763" target="_blank">#2763</a>)。</li>
+    <li>Flashメディアプレーヤー: サウンドファイルのオートローディングを停止しました。</li>
+    <li>>Flashメディアプレーヤー: ファイルのファイル名の処理を改善しました。</li> 
+    <li>Postgres: シーケンス範囲外のシーケンスを修正しました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2742" target="_blank">#2742</a>)。</li>
+    <li>バックアップ: バックアップ設定ページでのメモリ制限オーバーランを修正しました。</li>
+    <li>フォーラム: 教師のフォーラム投稿時のエラー警告を修正しました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2723" target="_blank">#2723</a>)。</li>
       </ul>
     </dd>
-
- 
 
   </dl>
 
