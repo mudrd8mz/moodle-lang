@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8 dev (2007012500)
+      // hotpot.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['abandoned'] = 'nedokončeno';
@@ -46,6 +46,13 @@ $string['filetype'] = 'Typ souboru';
 $string['forceplugins'] = 'Vnutit multimediální pluginy';
 $string['giveup'] = 'Vzdávám to';
 $string['hints'] = 'Hints (Nápovědi)';
+$string['hotpot:attempt'] = 'Pokusit se o zvládnutí testu';
+$string['hotpot:deleteattempt'] = 'Odstraňovat informace o pokusech';
+$string['hotpot:grade'] = 'Upravovat známky';
+$string['hotpot:view'] = 'Používat test';
+$string['hotpot:viewreport'] = 'Vidět souhrnné zprávy';
+$string['hotpotcloses'] = 'Test Hot Potatoes se uzavírá';
+$string['hotpotopens'] = 'Test Hot Potatoes se zpřístupňuje';
 $string['ignored'] = 'Nevybráno';
 $string['inprogress'] = 'probíhá';
 $string['location'] = 'Cesta k souboru';
@@ -79,7 +86,7 @@ $string['regrade'] = 'Znovu oznámkovat';
 $string['regradecheck'] = 'Opravdu chcete znovu oznámkovat test \"$a\"?';
 $string['regraderequired'] = 'Je potřeba znovu oznámkovat test';
 $string['reportanswers'] = 'Odpovědi';
-$string['reportattemptfinish'] = 'Konec pok.';
+$string['reportattemptfinish'] = 'Konec pokusu';
 $string['reportattemptnumber'] = 'Pokus';
 $string['reportattemptstart'] = 'Začátek pok.';
 $string['reportbutton'] = 'Vytvořit protokol';
