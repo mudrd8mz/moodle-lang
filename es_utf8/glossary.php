@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 (2006050506)
+      // glossary.php - created with Moodle 1.7 (2006101007)
 
 
 $string['addcomment'] = 'Agregar comentario';
@@ -16,7 +16,7 @@ $string['answer'] = 'Respuesta';
 $string['approve'] = 'Aprobar';
 $string['areyousuredelete'] = '¿Realmente desea borrarla?';
 $string['areyousuredeletecomment'] = '¿Está seguro de que desea borrar este comentario?';
-$string['areyousureexport'] = '¿Realmente desea exportar esta entrada a ';
+$string['areyousureexport'] = '¿Realmente desea exportar esta entrada a';
 $string['ascending'] = '(ascendiente)';
 $string['attachment'] = 'Adjunto';
 $string['authorview'] = 'Buscar por autor';
@@ -42,7 +42,7 @@ $string['cnfrelatedview'] = 'Seleccione el formato de visualización para el hip
 $string['cnfshowgroup'] = 'Especifique si mostrar o no el grupo.';
 $string['cnfsortkey'] = 'Seleccione la clave de organización por defecto.';
 $string['cnfsortorder'] = 'Seleccione el orden por defecto.';
-$string['cnfstudentcanpost'] = 'Define si por defecto los estudiantes pueden o no colocar entradas ';
+$string['cnfstudentcanpost'] = 'Define si por defecto los estudiantes pueden o no colocar entradas';
 $string['comment'] = 'Comentario';
 $string['commentdeleted'] = 'Se ha borrado el comentario.';
 $string['comments'] = 'Comentarios';
@@ -89,6 +89,9 @@ $string['entryleveldefaultsettings'] = 'Ajustes por defecto del nivel de entrada
 $string['entrysaved'] = 'Esta entrada ha sido guardada';
 $string['entryupdated'] = 'Esta entrada ha sido actualizada';
 $string['entryusedynalink'] = 'Esta entrada será enlazada automáticamente';
+$string['errcannoteditothers'] = 'No puede editar entradas de otras personas.';
+$string['errconceptalreadyexists'] = 'Este concepto ya existe. En este glosario no se permiten duplicados.';
+$string['erredittimeexpired'] = 'El tiempo de edición de esta entrada ha expirado.';
 $string['explainaddentry'] = 'Agregar una nueva entrada al glosario actual.<br />Concepto y Definición son campos obligatorios.';
 $string['explainall'] = 'Muestra TODAS las entradas en una página.';
 $string['explainalphabet'] = 'Navegue por el glosario usando este índice.';
@@ -124,6 +127,7 @@ $string['importedentries'] = 'Entradas importadas';
 $string['importentries'] = 'Importar entradas';
 $string['isglobal'] = '¿Este es el glosario global?';
 $string['linkcategory'] = 'Enlazar automáticamente esta categoría';
+$string['linking'] = 'Auto-enlace';
 $string['mainglossary'] = 'Glosario principal';
 $string['maxtimehaspassed'] = 'Lo sentimos, pero ya excedió el tiempo máximo de edición.';
 $string['modulename'] = 'Glosario';
@@ -168,7 +172,7 @@ $string['sortchronogically'] = 'Buscar cronológicamente';
 $string['special'] = 'Especial';
 $string['standardview'] = 'Vista Normal';
 $string['studentcanpost'] = 'Los estudiantes pueden agregar entradas';
-$string['totalentries'] = 'Total de entradas ';
+$string['totalentries'] = 'Total de entradas';
 $string['usedynalink'] = 'Hiperenlace automático';
 $string['waitingapproval'] = 'Esperando aprobación';
 $string['warningstudentcapost'] = '(Esto sólo aplica si el glosario no es el principal)';

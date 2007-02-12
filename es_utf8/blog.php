@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6.2 (2006050520)
+      // blog.php - created with Moodle 1.7 (2006101007)
 
 
 $string['addnewentry'] = 'Agregar una nueva entrada';
@@ -15,6 +15,7 @@ $string['blogs'] = 'Blogs';
 $string['blogtags'] = 'Marcas del Blog';
 $string['courseblog'] = 'Blog del curso: $a';
 $string['courseblogs'] = 'Los usuarios sólo pueden ver los blogs de las personas que comparten un curso';
+$string['deleteotagswarn'] = '¿Está seguro de que quiere eliminar esta(s) marca(s) <br />de todos los mensajes y quitarlas del sistema?';
 $string['disableblogs'] = 'Deshabilitar por completo el sistema blog';
 $string['emptybody'] = 'El cuerpo de la entrada del blog no puede estar vacío';
 $string['emptytitle'] = 'El título de la entrada del blog no puede estar vacío';
@@ -45,6 +46,7 @@ $string['settingsupdatederror'] = 'Se ha producido un error: el ajuste de prefer
 $string['siteblog'] = 'Blog del sitio: $a';
 $string['siteblogs'] = 'Todos los usuarios pueden ver todas las entradas del blog';
 $string['tagdatelastused'] = 'Fecha última en que se usó la marca';
+$string['tags'] = 'Marcas';
 $string['tagsort'] = 'Ordenar vista de marcas por';
 $string['tagtext'] = 'Texto de marca';
 $string['timewithin'] = 'Mostrar marcas usadas dentro de estos días';
