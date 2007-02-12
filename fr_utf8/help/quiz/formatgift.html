@@ -4,6 +4,12 @@
 
 <p>Le format GIFT est le format le plus exhaustif pour l'importation de questions dans le module de tests de Moodle. Il permet l'importation de questions à Choix multiples, Vrai/Faux, à Réponses courtes, d'Appariement et Numériques, ainsi que l'insertion de _____  pour le format « Mot manquant ». Les différents types de questions peuvent être utilisés ensemble dans un seul fichier texte. Le format permet également l'insertion de commentaires, de titres de questions, de feedbacks et de coefficients.</p>
 
+<p>L'encodage de votre fichier doit être UTF-8 (à moins que vous n'utilisiez que des caractères ASCII). Un exemple de fichier  de questions peut être téléchargé ici : <a href="<?php echo $CFG->wwwroot; ?>/question/format/gift/examples.txt">gift/examples.txt</a>.</p>
+
+<h3>Préambule</h3>
+
+<p>Chaque question d'un fichier GIFT ne doit pas contenir de ligne vide, car les lignes vides servent à délimiter par les lignes vides. Si vous devez afficher une ligne vide dans votre question, vous pouvez utiliser la notation <b>\n</b>. Des lignes de commentaires peuvent être ajoutés n'importe où dans le fichier, mais elles doivent commencer alors par deux barres obliques (<b>//</b>) au début de la ligne.</p>
+
 <h3>Types de questions</h3>
 
 <h4>Choix multiples</h4>
@@ -174,9 +180,25 @@ Les questions d'appariement ne permettent ni les feedbacks, ni les coefficients.
      =%25%Bethléhem#Il y est né, mais n'y a pas grandi.}
 </pre>
 
-<p>Les deux derniers exemples sont une même question, une première foius comme question à choix multiples, la deuxième sous la forme de question à réponse courte.</p>
+<p>Les deux derniers exemples sont en fait une même question, une première fois comme question à choix multiples, la deuxième sous la forme de question à réponse courte.</p>
 
-<p>Il est possible de spécifier ainsi des coefficients non disponibles dans l'interface graphique (navigateur) de Moodle. De tels coefficients seront calculés correctement d'après les valeurs données dans le fichier importé) et apparaîtront normales aux étudiants faisant le test. Cependant ces coefficients n'apparaîtront pas corrects pour les enseignants lors de l'édition des questions dans Moodle. Si vous éditez de telles questions avec l'interface de Moodle et que vous modifiez le coefficient, celui-ci sera changé.</p>
+<p><small>Il est possible de spécifier ainsi des coefficients non disponibles dans l'interface graphique (navigateur) de Moodle. Le menu <b>Correspondance des notes</b> sur la page d'importation détermine comment de tels coefficients sont traités. Vous pouvez soit demander qu'une erreur soit affichée, soit que le coefficient soit ajusté au plus proche d'un coefficient valable pour la question.</small></p>
+
+<h4>Spécifier un format texte pour la question</h4>
+
+Le texte de la question (et seulement ce texte) peut comporter un texte optionnel spécifiant son format. Les formats actuellement disponibles sont <b>moodle</b> (format automatique Moodle), <b>html</b> (format HTML), <b>plain</b> (texte pur) et <b>markdown</b> (format Markdown). Le format doit être indiqué entre crochets immediatement avant le texte de la question. <a href="help.php?file=textformat.html">Plus d'informations sur les formats de texte dans Moodle.</a></p>
+
+     ::Période des Trois Mousquetaires::L'histoire des Trois Mousquetaires
+      se déroule au {~quinzième ~seizième =dix-septième} siècle.
+
+
+<pre>
+     [markdown]L'histoire des *Trois Mousquetaires* se déroule au {
+     ~quinzième
+     ~seizième
+     =dix-septième
+     } siècle.
+</pre>
 
 <h4>Réponses multiples</h4>
 
@@ -200,22 +222,50 @@ Les questions d'appariement ne permettent ni les feedbacks, ni les coefficients.
      ~%-50%Le capitaine Némo}
 </pre>
 
-<h4>Autres options</h4>
+<h4>Caractères spéciaux ~ = # { } :</h4>
 
-<p>D'autres options sont disponibles en éditant le filtre d'importation <strong>gift/format.php</strong>.</p>
+<p>Ces symboles <b> ~ = # { } : </b> contrôlent le fonctionnement de ce filtre et ne peuvent pas être utilisés comme du texte normal à l'intérieur des questions. Ils sont appelés des caractères de contrôle. Vous aurez parfois besoin d'utiliser l'un de ces caractères, par exemple pour afficher une formule mathématique dans une question. Pour pouvoir contourner ce problème en « échappant » ces caractères de contrôle. Cela signifie simplement placer une barre oblique inverse (\) avant le caractère en question, de sorte que le filtre l'utilisera comme un caractère littéral plutôt que comme un caractère de contrôle. Par exemple :</p>
+
+<pre>
+     Quelle opération donne 5 ? {
+          ~ \= 2 + 2
+          = \= 2 + 3
+          ~ \= 2 + 4  }
+
+     ::Caractères de contrôle GIFT::
+     Lequel des caractères suivants n'est pas un caractère de contrôle pour le format d'importation GIFT ? {
+        ~ \~     # \~ est un caractère de contrôle.
+        ~ \=     # \= est un caractère de contrôle.
+        ~ \#     # \# est un caractère de contrôle.
+        ~ \{     # \{ est un caractère de contrôle.
+        ~ \}     # \} est un caractère de contrôle.
+        = \     # Correct ! la barre oblique inverse \ n'est pas un caractère de contrôle. Mais
+                  elle est utilisée pour "échapper" les caractères de contrôle.
+     }
+</pre>
+
+<p>Lorsque la question est importée, la barre oblique inverse est retirée, et n'est pas enregistrée dans Moodle.</p>
+
+<h3>Indiquer des catégories</h3>
+
+<p>Il est possible de modifier la catégorie dans laquelle les questions seront ajoutées, en l'indiquant dans le fichier d'importation GIFT. Vous pouvez changer cette catégorie autant de fois que vous le voulez à l'intérieur de ce fichier. Toutes les questions après l'indication de catégorie jusqu'à la prochaine indication (ou la fin du fichier) seront ajoutées à la catégorie indiquée. La catégorie spécifiée dans l'interface d'importation sera utilisée jusqu'à la première indication dans le fichier. Pour que ceci fonctionne, il est nécessaire de cocher la case <b>Depuis le fichier :</b> dans l'interface d'importation.</p>
+
+<p>Pour indiquer les catégories dans le fichier, placez-y une ligne comme ci-dessous (avec une ligne vide avant et après).
+
+<pre>
+$CATEGORY: sciences/maths/analyse
+</pre>
+
+or simply
+
+<pre>
+$CATEGORY: latin
+</pre>
+
+Le premier exemple indique une catégorie située dans une autre, etc. Dans l'exemple ci-dessus, les questions seront placéesdans la catégorie <i>analyse</i>. Les catégories seront créées si elles n'existent pas.</p>
+
+<h4>Autres options</h4>
 
 <p>Les réponses courtes peuvent être rendues sensibles à la casse des caractères en remplaçant « 0 » par « 1 » dans la ligne suivante :</p>
 
 <pre>     $question->usecase = 0;  // Ignore case</pre>
-
-<h3>Des erreurs ?</h3>
-
-<p>L'encodage de votre fichier texte doit être le même que celui de votre installation Moodle.</p>
-
-<p>Un fichier contenant des exemples de questions est à disposition ici : <a href="../../../../mod/quiz/format/gift/examples.txt">gift/examples.txt</a>.</p>
-
-<h3>Remerciements</h3>
-
-<p>Ce filtre d'importation a été écrit en collaboration avec de nombreux membres de la communauté Moodle. Il était basé à l'origine sur le format « mot manquant », qui comportait du code de Martin Dougiamas, Thomas Robb et d'autres personnes. Paul Tsuchido Shew a écrit ce filtre en décembre 2003, y incorporant les suggestions de la communauté, afin d'obtenir un format d'importation robuste. Le nom est un acronyme pour « General Import Format Technology » ou quelque chose comme ça. Comme c'est trop long, c'est juste GIFT !</p>
-
-<p>GIFT documentation by Paul Tsuchido Shew, 13 Jan 2004, traduite par Nicolas Martignoni, 8 février 2004.</p>
