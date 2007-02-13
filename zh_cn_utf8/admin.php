@@ -235,7 +235,7 @@ $string['environmentrequireversion'] = '需要 $a->needed 版本，而您的是 
 $string['environmentxmlerror'] = '读取环境数据时错误($a->error_code)';
 $string['errors'] = '错误';
 $string['errorsetting'] = '无法保存设置';
-$string['errorwithsettings'] = '无法更新一些设置是由于错误：';
+$string['errorwithsettings'] = '无法更新一些设置，因为发生了这个错误：';
 $string['experimental'] = '实验';
 $string['extendedusernamechars'] = '允许在用户名中使用扩展字符';
 $string['filterall'] = '过滤全部字符串';
@@ -462,6 +462,6 @@ $string['users'] = '用户';
 $string['userscreated'] = '已创建(多个)用户';
 $string['usersrenamed'] = '已修改(多个)用户名';
 $string['usersupdated'] = '已更新(多个)用户信息';
-$string['validateerror'] = '此值无效';
+$string['validateerror'] = '此值无效：';
 
 ?>
