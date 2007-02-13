@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8 dev (2006102200)
+      // error.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 편집될 수 없음';
@@ -8,14 +8,14 @@ $string['cannotcreatetempdir'] = 'temp 디렉토리를 만들 수 없습니다.'
 $string['cannotdownloadcomponents'] = '구성요소를 내려받을 수 없습니다.';
 $string['cannotdownloadzipfile'] = 'ZIP파일을 내려받을 수 없습니다.';
 $string['cannotfindcomponent'] = '구성요소를 찾을 수 없습니다.';
-$string['cannotsavemd5file'] = 'md5  파일을 저장할 수 없습니다.';
+$string['cannotsavemd5file'] = 'md5 파일을 저장할 수 없습니다.';
 $string['cannotsavezipfile'] = 'ZIP 파일을 저장할 수 없습니다.';
 $string['cannotunzipfile'] = '파일 압축풀기를 할 수 없습니다.';
 $string['cantunenrollfrommetacourse'] = '이 메타 배움터에서 등록을 취소 할 수 없습니다.';
 $string['cantunenrollinthisrole'] = '현재의 역할로는 이 배움터에서 등록을 취소 할 수 없습니다.';
 $string['cmunknown'] = '이 배움터모듈을 찾을 수 없습니다.';
 $string['componentisuptodate'] = '구성 요소가 최신의 것입니다.';
-$string['confirmsesskeybad'] = '죄송합니다. 이 일을 하기 위한 세션키가 확실치 않아 이 행동을 수행할 수 없습니다. 이 보안 기능은 당신 명의의 예기치 않은 사고나 매우 중요한 기능의 악의적인 실행을 방지합니다. 이 기능을 꼭 실행하여야 하는지 확인해 주길 바랍니다.';
+$string['confirmsesskeybad'] = '죄송합니다. 세션키가 확실치 않아 이 작업을 수행할 수 없습니다. 이 보안 기능은 당신 명의의 예기치 않은 사고나 매우 중요한 기능의 악의적인 실행을 방지합니다. 이 기능을 꼭 실행하여야 하는지 확인해 주길 바랍니다.';
 $string['couldnotassignrole'] = '역할 부여 중에 알 수 없는 심각한 오류가 발생했습니다.';
 $string['coursegroupunknown'] = '모둠에 상응하는 배움터 $a 가 지정되 있지 않음.';
 $string['downloadedfilecheckfailed'] = '내려받은 파일 점검에 실패하였습니다.';
@@ -23,16 +23,16 @@ $string['errorcleaningdirectory'] = '\"$a\" 디렉토리 정리 오류';
 $string['errorcopyingfiles'] = '파일 복사 오류';
 $string['errorcreatingdirectory'] = '\"$a\" 디렉토리 생성 오류';
 $string['errorcreatingfile'] = '\"$a\" 파일 생성 오류';
-$string['erroronline'] = '\"$a\" 온라인 상의 오류';
+$string['erroronline'] = '\"$a\" 번째 줄 오류';
 $string['errorreadingfile'] = '\"$a\" 파일 읽기 오류';
 $string['errorunzippingfiles'] = '파일 압축풀기 오류';
 $string['fieldrequired'] = '\"$a\"는 필수 항목';
 $string['filenotfound'] = '죄송합니다. 요청하신 파일을 찾을 수 없습니다.';
-$string['forumblockingtoomanyposts'] = '이 포럼에 대해 설정된 게시 한계를 초과했습니다.';
+$string['forumblockingtoomanyposts'] = '이 포럼에 대해 지정한 게시 한계를 초과했습니다.';
 $string['groupalready'] = '사용자는 이미 $a 모둠에 속해있습니다.';
 $string['groupunknown'] = '$a 모둠은 지정한 배움터에 속해있지 않습니다.';
 $string['guestnoeditprofile'] = '손님은 신상명세를 편집할 수 없습니다.';
-$string['guestnoeditprofileother'] = '손님의 신상명세는 편집될 수 없습니다.';
+$string['guestnoeditprofileother'] = '손님의 신상명세는 편집할 수 없습니다.';
 $string['invalidcourse'] = '잘못된 배움터';
 $string['invalidfieldname'] = '\"$a\"는 유효하지 않은 필드명';
 $string['invalidfiletype'] = '\"$a\"는 유효한 파일유형이 아닙니다.';
@@ -46,6 +46,7 @@ $string['modulerequirementsnotmet'] = '모듈 \"$a->modulename\" ($a->modulevers
 $string['mustbeteacher'] = '선생님만 이 페이지를 볼 수 있습니다.';
 $string['nocontext'] = '죄송합니다만, 그 배움터는 이용할 수 있는 내용이 없습니다.';
 $string['noinstances'] = '이 배움터에 $a 의 인스턴스가 없습니다.';
+$string['nologinas'] = '현재 사용자 ID로는 로그인 할 수 없습니다.';
 $string['nonmeaningfulcontent'] = '의미없는 내용';
 $string['noparticipatorycms'] = '죄송합니다. 당신은 보고받을 특정 배움터 모듈을 가지고 있지 않습니다.';
 $string['nopermissions'] = '죄송합니다만 그 ($a)를 하도록 허용되지 않았습니다.';
@@ -61,7 +62,7 @@ $string['remotedownloadnotallowed'] = '서버로 구성요소를 내려받는 �
 $string['restricteduser'] = '죄송합니다. 현재 당신의 \"$a\" 계정으로는 그 일을 할 수 없습니다.';
 $string['sendmessage'] = '메세지 보내기';
 $string['sessionerroruser'] = '세션이 종료 되었습니다. 다시 로그인 하십시오.';
-$string['sessionerroruser2'] = '당신의 로그인 세션이 감지되어 서버에 오류가 발생했습니다. 다시 로그인 하시거나 인터넷 창을 다시 켜주십시오.';
+$string['sessionerroruser2'] = '로그인 세션에 영향을 줄만한 서버 오류가 발생했습니다. 다시 로그인 하시거나 인터넷 창을 다시 켜주십시오.';
 $string['sessionipnomatch'] = '죄송합니다 당신의 아이피 주소가 처음 로그인 했을 때와 다릅니다. 이 보안 기능은 해커가 아이디를 도용해 이 사이트에 접속하는 것을 방지합니다. 정상적인 사용자들에게는 이 메시지가 나타나지 않을 것입니다. 도움을 원한다면 이 사이트의 운영자에게 문의하시기 바랍니다.';
 $string['statscatchupmode'] = '현재 통계 수집중에 있습니다. 현재 $a->daysdone 일간의 자료가 처리되었고 $a->dayspending 가 처리 대기중에 있습니다. 잠시후 다시 확인해 주시기 바랍니다!';
 $string['unicodeupgradeerror'] = '데이터베이스가 아직 유니코드가 아니지만 이 무들판으로는  여러분의 데이터베이스를 유니코드로 변환시킬 수 없습니다. 우선 무들을 1.7.x버전대로 판올림을 하시고 그곳의 관리자화면에서 유니코드로 변환해 주시기 바랍니다. 그 이후에나 무들 $a로 이전해 갈 수 있을 것입니다.';
