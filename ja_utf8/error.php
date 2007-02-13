@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8 dev (2007010404)
+      // error.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -46,6 +46,7 @@ $string['modulerequirementsnotmet'] = 'モジュール「 $a->modulename 」 ($a
 $string['mustbeteacher'] = 'このページは教師のみ閲覧可能です。';
 $string['nocontext'] = '申し訳ございません、そのコースは有効なコンテクストではありません。';
 $string['noinstances'] = 'このコースに $a のインスタンスがありません!';
+$string['nologinas'] = 'あなたはそのユーザとしてログインを許可されていません。';
 $string['nonmeaningfulcontent'] = '意味の無いコンテンツです。';
 $string['noparticipatorycms'] = '申し訳ございません、レポートするための参加者がいるコースモジュールはありません。';
 $string['nopermissions'] = '申し訳ございません、あなたには現在「 $a 」のパーミッションがありません。';
