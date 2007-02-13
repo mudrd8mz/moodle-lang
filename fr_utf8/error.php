@@ -44,6 +44,7 @@ $string['modulerequirementsnotmet'] = 'Le module «&nbsp;$a->modulename&nbsp;» 
 $string['mustbeteacher'] = 'Vous devez être enseignant pour voir cette page';
 $string['nocontext'] = 'Désolé, ce cours n\'est pas dans un contexte valide';
 $string['noinstances'] = 'Il n\'a y aucune instance de $a dans ce cours&nbsp;! ';
+$string['nologinas'] = 'Vous n\'êtes pas autorisé à vous connecté avec ce nom d\'utilisateur';
 $string['nonmeaningfulcontent'] = 'Le contenu ne fait pas de sens';
 $string['noparticipatorycms'] =  'Désolé, aucun module de participation pour lequel faire un rapport.';
 $string['nopermissions'] =  'Désolé, vous n\'avez actuellement pas les autorisations pour effectuer ceci ($a)';
