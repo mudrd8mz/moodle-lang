@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 dev (2006102600)
+      // forum.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -130,6 +130,7 @@ $string['namesocial'] = '一般フォーラム';
 $string['nameteacher'] = '教師用フォーラム';
 $string['newforumposts'] = '新しい投稿';
 $string['nodiscussions'] = 'このフォーラムにはまだディスカッショントピックがありません。';
+$string['nodiscussionsstartedby'] = 'このユーザから開始されたディスカッションはありません。';
 $string['noguestpost'] = '申し訳ございません、ゲストは投稿できません。';
 $string['noguestsubscribe'] = '申し訳ございません、ゲストはフォーラムの投稿内容をメールで受信できません。';
 $string['noguesttracking'] = '申し訳ございません、ゲストは未読管理オプションを設定できません。';
