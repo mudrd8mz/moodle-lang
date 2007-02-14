@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 dev (2006102600)
+      // forum.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -130,6 +130,7 @@ $string['namesocial'] = '사회적 포럼';
 $string['nameteacher'] = '교사 포럼';
 $string['newforumposts'] = '새로운 게시물';
 $string['nodiscussions'] = '아직 토론 주제가 게시되지 않았습니다.';
+$string['nodiscussionsstartedby'] = '이 사용자는 토론을 개시할 수 없습니다';
 $string['noguestpost'] = '죄송합니다. 손님 계정으로는 글을 올릴 수 없습니다.';
 $string['noguestsubscribe'] = '죄송합니다, 손님은 이메일을 통해 게시된 포럼을 구독하거나 받아보실 수 없습니다.';
 $string['noguesttracking'] = '죄송합니다, 손님은 경로 추적이 허용되지 않습니다.';
