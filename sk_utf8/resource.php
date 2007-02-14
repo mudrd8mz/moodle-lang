@@ -52,7 +52,7 @@ $string['localfileinfo'] = '<p>Vyberte si lokálny súbor z vášho počítača.
 <p>Toto je použiteľné hlavne pre veľké multimediálne súbory, ktoré sú uložené na bežnom CD-ROM, ktoré dostane každý účastník kurzu. Každý účastník si môže nastaviť vlastnú cestu k lokálnym súborom, v <a href=\"$a\" target=\"_blank\">nastaveniach svojho používateľského profilu</a>.</p>';
 $string['localfilepath'] = 'Pre nastavenie vašej vlastnej cesty k tomuto zdroju vyberte niektorý so súborov ktoré sa nachádzajú na vašom disku (prípadne CD-ROM) vo vašom počítači kde je zdroj uložený. Tento súbor nebude nahraný ale údaje o ceste k súboru budú zaznamenané a použité pre všetky ostatné';
 $string['localfileselect'] = 'Vyber si cestu k súboru.';
-$string['maindirectory'] = 'Hlavný adresár zo súbormi';
+$string['maindirectory'] = 'Hlavný adresár so súbormi';
 $string['modulename'] = 'Zdroj';
 $string['modulenameplural'] = 'Zdroje';
 $string['navigationbuttons'] = 'Navigačné tlačidlá';
