@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 Beta (2007020200)
+      // admin.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -299,7 +299,7 @@ $string['generalsettings'] = '일반 설정';
 $string['globalsquoteswarning'] = '<p><strong>보안 경고</strong>: 무들을 적절하게 작동시키기 위해<br />현재의 PHP 설정을 바꾸어 주어야만 합니다.<p/><p>먼저 <code>register_globals=off</code> 그리고 <code>magic_quotes_gpc=on</code> 으로 <em>설정되어 있어야만</em> 합니다.<br />만일 가능하다면  서버의 일반적인 보안기능을 증진시키기 위하여 <code>register_globals=off</code> 도 설정하고 <code>magic_quotes_gpc=on</code>도 해 주십시오.<p/><p>이러한 설정은 <code>php.ini</code>를 수정하여 바꿀 수도 있고, Apache/IIS 의 설정 혹은  <code>.htaccess</code> 파일을 수정해도 바꿀 수 있습니다.</p>';
 $string['gotofirst'] = '빠진 첫번째 문자열로 가기';
 $string['gradebook'] = '성적 기록부';
-$string['gradebookroles'] = '성적 관리 역할';
+$string['gradebookroles'] = '성적 관리 대상';
 $string['guestroleid'] = '방문객을 위한 역할';
 $string['helpadminseesall'] = '관리자가 모든 일정을 볼 수 있거나 그렇지 않으면 그 이벤트들 스스로 적용됩니까?';
 $string['helpcalendarsettings'] = '다양한 일정 목록과 날짜/시간과 관련된 내용을 설정합니다.';
