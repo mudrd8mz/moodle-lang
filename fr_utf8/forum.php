@@ -128,6 +128,7 @@ $string['namesocial'] = 'Forum informel';
 $string['nameteacher'] = 'Forum des enseignants';  // Legacy, to delete in 1.7
 $string['newforumposts'] = 'Nouveaux messages dans les forums';
 $string['nodiscussions'] = 'Il n\'y a pas encore de sujet de discussion dans ce forum';
+$string['nodiscussionsstartedby'] = 'Cet utilisateur n\'a lancé aucune discussion';
 $string['noguestpost'] = 'Désolé, les invités ne sont pas autorisés à écrire des messages.';
 $string['noguestsubscribe'] = 'Désolé, les invités ne sont pas autorisés à s\'abonner pour recevoir les messages des forums par courriel.';
 $string['noguesttracking'] = 'Désolé, les invités ne peuvent modifier les options de suivi des forums.';
