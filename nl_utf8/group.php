@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 dev (2007012500)
+      // group.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['addexistinggroupstogrouping'] = 'Voeg bestaande groepen aan groepering toe.';
@@ -15,7 +15,9 @@ $string['defaultgroupdescription'] = 'Standaard groepsbeschrijving';
 $string['defaultgroupingname'] = 'Groepering';
 $string['defaultgroupname'] = 'Groep';
 $string['defaultgroupprefix'] = 'Groep';
+$string['deletegroupconfirm'] = 'Ben je zeker dat je de groetp \'$a\' wil verwijderen?';
 $string['deletegrouping'] = 'Verwijder groepering';
+$string['deletegroupingconfirm'] = 'Ben je zeker dat je de groepering \'$a\' wil verwijderen?(Groepen in de groepering worden niet verwijderd).';
 $string['deleteselectedgroup'] = 'Verwijder geselecteerde groep';
 $string['displaygrouping'] = 'Toon groepering';
 $string['distributealphabetically'] = 'Verdeel alfabetisch op achternaam over groepen';
@@ -76,6 +78,7 @@ $string['showusersalreadyingroup'] = 'Toon gebruikers die al in een groep in de 
 $string['teachersgroupmark'] = 'Leraren kunnen geen cijfers geven aan groepen waartoe ze zelf niet behoren.';
 $string['teachersgroupview'] = 'Leraren kunnen de activiteiten van groepen waartoe ze niet behoren, niet zien.';
 $string['teachersoverride'] = 'Leraars die niet in een groep zitten, mogen activiteiten bekijken en beoordelen voor alle groepen (gaat voor op bovenstaande instellingen)';
+$string['upgradeconfirm'] = 'Sorry, groepentabellen, gemaakt met Moodle 1.8 dev moeten verwijderd worden voor deze upgrade. Wil je verder gaan?';
 $string['usestudentsonlyfromselectedgroup'] = 'Gebruik alleen leerlingen van de geselecteerde groep';
 $string['viewallgroupsactivities'] = 'Leerlingen kunnen de activiteiten van alle groepen bekijken, maar mogen alleen in hun eigen groepsactiviteiten toevoegen';
 $string['viewallgroupsmembers'] = 'Leerlingen kunnen de leden van alle groepen zien';

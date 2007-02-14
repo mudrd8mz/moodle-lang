@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2007012500)
+      // moodle.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['action'] = 'Actie';
@@ -122,6 +122,8 @@ $string['assignstudents'] = 'Schrijf leerlingen in';
 $string['assignstudentsnote'] = 'Let op: misschien is het niet echt nodig om deze pagina te gebruiken omdat leerlingen zichzelf kunnen aanmelden voor deze cursus.';
 $string['assignstudentspass'] = 'Het enige wat je hoeft te doen is de cursussleutel voor deze cursus doorgeven aan de leerlingen. Op dit moment is deze: \'$a\'';
 $string['assignteachers'] = 'Wijs leraren aan';
+$string['authenticateduser'] = 'Geautenticeerde gebruiker';
+$string['authenticateduserdescription'] = 'Alle aangemelde gebruikers.';
 $string['authentication'] = 'Authenticatie';
 $string['authenticationplugins'] = 'Authenticatie-plugins';
 $string['autosubscribe'] = 'Automatisch inschrijven op het forum';

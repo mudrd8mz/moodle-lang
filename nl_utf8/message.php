@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.5 ALPHA (2005042300)
+      // message.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['addcontact'] = 'Voeg een contactpersoon toe';
@@ -33,7 +33,9 @@ $string['messagehistory'] = 'Geschiedenis van het bericht';
 $string['messages'] = 'Berichten';
 $string['messaging'] = 'Berichten sturen';
 $string['mycontacts'] = 'Mijn contactpersonen';
+$string['newonlymsg'] = 'Toon enkel nieuwe';
 $string['newsearch'] = 'Nieuwe zoekopdracht';
+$string['noframesjs'] = 'Versie zonder frames en JavaScript';
 $string['nomessages'] = 'Geen wachtende berichten';
 $string['nomessagesfound'] = 'Geen berichten gevonden';
 $string['nosearchresults'] = 'Je zoekopdracht gaf geen resultaten';

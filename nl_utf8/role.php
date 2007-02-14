@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 dev (2006102600)
+      // role.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
@@ -62,6 +62,7 @@ $string['legacy:editingteacher'] = 'PRE 1.7 ROL: Leraar (bewerken)';
 $string['legacy:guest'] = 'PRE 1.7 ROL: Gast';
 $string['legacy:student'] = 'PRE 1.7 ROL: Leerling';
 $string['legacy:teacher'] = 'PRE 1.7 ROL: Leraar (niet bewerken)';
+$string['legacy:user'] = 'PRE 1.7 ROL: Ingelogde gebruiker';
 $string['listallroles'] = 'Toon alle rollen';
 $string['manageroles'] = 'Beheer rollen';
 $string['metaassignerror'] = 'Kan deze rol niet toewijzen aan gebruiker \"$a\" omdat de mogelijkheid om koepelcursussen te beheren nodig is.';
@@ -98,6 +99,8 @@ $string['site:doanything'] = 'Toelaten alles te doen';
 $string['site:doclinks'] = 'Links naar documentatie buiten deze site tonen';
 $string['site:import'] = 'Importeren van andere cursussen in een cursus';
 $string['site:manageblocks'] = 'Beheer blokken op site niveau';
+$string['site:mnetloginfromremote'] = 'Aanmelden vanaf een Moodle op afstand';
+$string['site:mnetlogintoremote'] = 'Ga naar een Moodle op afstand';
 $string['site:readallmessages'] = 'Alle berichten op de site lezen';
 $string['site:restore'] = 'Cursussen terugzetten';
 $string['site:trustcontent'] = 'Inhoud als veilig beschouwen';
