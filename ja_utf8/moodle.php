@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 Beta (2007020400)
+      // moodle.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['action'] = '操作';
@@ -1455,6 +1455,7 @@ $string['webpage'] = 'ウェブページ';
 $string['week'] = '週';
 $string['weekhide'] = '$a よりこの週を隠す';
 $string['weeklyoutline'] = '週の概略';
+$string['weeks'] = '週';
 $string['weekshow'] = '$a にこの週を表示する';
 $string['welcometocourse'] = '$a へようこそ';
 $string['welcometocoursetext'] = '$a->coursename へようこそ!
@@ -1491,6 +1492,8 @@ $string['writinguserinfo'] = 'ユーザ情報の書き出し';
 $string['wrongpassword'] = 'このユーザ名のパスワードが正しくありません。';
 $string['xmldbeditor'] = 'XMLDBエディタ';
 $string['yahooid'] = 'Yahoo ID';
+$string['year'] = '年';
+$string['years'] = '年';
 $string['yes'] = 'Yes';
 $string['youareabouttocreatezip'] = 'あなたは下記のファイルを含んだzipファイルを作成しようとしています';
 $string['youaregoingtorestorefrom'] = 'あなたは下記のファイルのリストア処理を開始しようとしています';
