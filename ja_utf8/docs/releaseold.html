@@ -184,11 +184,11 @@
         <li>用語集をページングシステムを新しくしました。</li>
         <li>データロスを避けるため、Moodleへのインサート時にLDAPからのユーザ情報をトランケートするようにしました。</li>
         <li>pclzipを新しいバージョンに更新しました。</li>
-        <li>Memory_limit can be overriden by higher config settings from php.ini, commandline,  httpd.conf, .htaccess</li>
-        <li>New translations started: Maori, Kannada, Albanian and Vietnamese</li>
-        <li>Many additions to other language packs</li>
-        <li>Teachers can now always try quizzes, even if they're not open yet</li>
-        <li>Glossary print view is now different for each format.</li>
+        <li>Memory_limitをphp.ini、コマンドライン、httpd.conf、.htaccessの高い設定でオーバライドできるようにしました。</li>
+        <li>新しい翻訳が開始しました: マオリ語、カンナダ語、アルバニア語、ベトナム語</li>
+        <li>他の多くの言語パックを追加しました。</li>
+        <li>公開前でも教師が小テストを試すことができるようにしました。</li>
+        <li>用語集印刷イメージをそれぞれのフォーマットで異なるようにしました。</li>
         <li>用語集の検索でエイリアスも検索するようにしました。</li>
         <li>多言語フィルタでさらに寛大なシンタックスを使用できるように大きく改善しました。</li>
       </ul>
@@ -197,37 +197,37 @@
    <dt>パフォーマンス改善</dt>
     <dd>
       <ul>
-        <li>Better caching headers mean improved performance on all pages when using back button</li>
-        <li>Database indexes added in many places to enhance performance in large scale deployments</li>
-        <li>Performance improvements throughout moodle where courses were being listed.</li>
-        <li>Various optimizations by removing unnecessary database retrievals and sorting.</li>
+        <li>戻るボタンを押した時のパフォーマンスをすべてのページで向上させるため、ヘッダのキャッシングを改善しました。</li>
+        <li>大規模のMoodleサイトでのパフォーマンスを向上させるため、多くの場所でデータベースインデックスを追加しました。</li>
+        <li>Moodleのコース一覧表示に関してパフォーマンスを改善しました。</li>
+        <li>不要なデータベース並び替えおよびソートを削除することで様々な最適を図りました。</li>
       </ul>
     </dd>
 
     <dt>他のバグ修正</dt>
     <dd>
       <ul>
-        <li>Fixed restoring into a new course generating duplicate course idnumbers</li>
-        <li>Fixed many small Postgres issues </li>
-        <li>Fixed unnecessary notices when debug mode on</li>
-        <li>Fixed some more PHP5 Notices</li>
-        <li>Fixed support for apostrophes, quotes and backslashes in LDAP user data</li>
-        <li>Fix for pagination of search course results for Postgres </li>
-        <li>Fixed bug with whitespace in user search</li>
-        <li>Fixed chatroom bug where all chat users listed in multiple chatrooms </li>
-        <li>Fix for installation script bug</li>
-        <li>Case sensitive usernames in bulk user import fixed</li>
-        <li>Fixed bug in redirection after rating forum post</li>
-        <li>Fixed bug in quiz with matching questions</li>
+        <li>重複するコースIDナンバーでのコースリストアに関する問題を修正しました。</li>
+        <li>Postgresの問題に関する多くの小さな修正を施しました。</li>
+        <li>デバッグモードが有効な場合の不要な警告表示を修正しました。</li>
+        <li>PHP5の警告に関してさらに修正しました。</li>
+        <li>LDAPユーザデータでアポストロフィ、引用符、バックスラッシュをサポートするように修正しました。</li>
+        <li>Postgresでのコース検索結果のページ数を修正しました。</li>
+        <li>ユーザ検索での空白に関するバグを修正しました。</li>
+        <li>複数のチャットルームですべてのチャットユーザが一覧表示されるバグを修正しました。</li>
+        <li>インストールスクリプトのバグを修正しました。</li>
+        <li>大文字小文字の区別をするユーザ名を含んだ大量ユーザインポートに関するバグを修正しました。</li>
+        <li>フォーラム投稿の評価後のりダイレクトに関するバグを修正しました。</li>
+        <li>小テストの組み合わせ問題に関するバグを修正しました。</li>
         <li>小テストプレビューのバグを修正しました。</li>
         <li>言語編集のバグを修正しました。</li>
-        <li>Multiple small fixes in SCORM module</li>
+        <li>SCORMモジュールに関して複数の小さな修正を施しました。</li>
         <li>SCORMモジュールがユーザ写真を適切に表示するようにしました。</li>
-        <li>Activity names sorted by name in activity filter</li>
-        <li>Glossary search will search aliases as well</li>
-        <li>Any RSS errors will result in a valid RSS error file rather than invalid RSS.</li>
-        <li>Fixed problem with SCORM package validation and PHP5</li>
-        <li>Fixed problem with backup/restore and empty categories</li>
+        <li>活動フィルタで活動名を名称でソートするようにしました。</li>
+        <li>用語集の検索でエイリアスも検索するようにしました。</li>
+        <li>RSSエラーを無効なRSSとするのではなく、有効なRSSエラーファイルとして扱うようにしました。</li>
+        <li>SCORMパッケージの妥当性確認およびPHP5に関する問題を修正しました。</li>
+        <li>空のカテゴリに関するバックアップ/リストアの問題を修正しました。</li>
         <li>wikiのXHTMLを改善しました。</li>
         <li>最初のチャットセッションに関するチャットレポートのバグを修正しました。</li>
         <li>多くのファイルまたは非常に大きなファイルを削除する場合に生じるSCORMの問題を修正しました。</li>
@@ -242,8 +242,6 @@
         <li>コースファイルに選択モードがなくなるバグを修正しました。</li>
       </ul>
     </dd>
-
- 
 
   </dl>
 
