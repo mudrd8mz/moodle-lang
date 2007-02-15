@@ -1455,7 +1455,6 @@ $string['webpage'] = 'ウェブページ';
 $string['week'] = '週';
 $string['weekhide'] = '$a よりこの週を隠す';
 $string['weeklyoutline'] = '週の概略';
-$string['weeks'] = '週';
 $string['weekshow'] = '$a にこの週を表示する';
 $string['welcometocourse'] = '$a へようこそ';
 $string['welcometocoursetext'] = '$a->coursename へようこそ!
@@ -1502,5 +1501,6 @@ $string['yourlastlogin'] = '最終ログイン';
 $string['yourself'] = 'あなた自身';
 $string['yourteacher'] = 'あなたの $a';
 $string['zippingbackup'] = 'バックアップファイルの圧縮中';
+$string['weeks'] = '週'; // ORPHANED
 
 ?>

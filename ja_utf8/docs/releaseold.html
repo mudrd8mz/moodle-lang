@@ -154,43 +154,43 @@
 
 <p>&nbsp;</p>
 
-<h3>Moodle 1.4.3 (21st December, 2004)</h3>
+<h3>Moodle 1.4.3 (2004年12月21日)</h3>
 
   <dl>
     <dt>重要なセキュリティ修正</dt>
     <dd>
       <ul>
-        <li>Better checking/cleaning of cookie data</li>
-    <li>Preventative measures for session fixation</li>
-        <li>Better checking/cleaning of parameters for RSS feeds, ip atlas parameters,  glossary, forum, theme selection, SCORM module, document viewer</li>
-        <li>Added protection in viewing of uploaded files</li>
-        <li>Added protection against directory traversal</li>
-        <li>Fix for variable $FULLME necessary for cron</li>
-        <li>Prevention against internal libraries being called directly.</li>
-        <li>Prevent viewing of glossary if it's a hidden activity</li>
-        <li>Hidden sections hidden from students in recent activity</li>
-        <li>Fixed problem with guest user being able to see  events in the calendar</li>
-        <li>Fixed encoding of TEX expressions</li>
+        <li>クッキーデータのチェック/クリーニングを改善しました。</li>
+        <li>セッション固定に関する予防策を施しました。</li>
+        <li>RSSフィード、ip atlasパラメータ、用語集、フォーラム、テーマ選択、SCORMモジュール、ドキュメントビューアーのチェック/クリーニングを改善しました。</li>
+        <li>アップロードファイルの閲覧保護を追加しました。</li>
+        <li>ディレクトリ移動保護を追加しました。</li>
+        <li>cronで変数$FULLMEを必須にしました。</li>
+        <li>内部ライブラリが直接コールされないようにしました。</li>
+        <li>非表示の活動で用語集を閲覧できないようにしました。</li>
+        <li>最近の活動で非表示のセクションを学生から隠すようにしました。</li>
+        <li>ゲストユーザがカレンダーイベントを閲覧できないようにしました。</li>
+        <li>TeX表現のエンコーディングを修正しました。</li>
       </ul>
     </dd>
 
     <dt>いくつかの新しい機能</dt>
     <dd>
       <ul>
-        <li>Enforced enrolment uniqueness, this is also a performance fix.</li>
-        <li>Added transaction support for PostgreSQL </li>
-        <li>Logging in and logging out are now logged</li>
-        <li>Wiki and SCORM now both use new zipping code - this fixes reported SCORM issues</li>
-        <li>New paging system for glossary</li>
-        <li>User info from LDAP truncated for insertion into moodle to prevent data loss</li>
-        <li>Updated pclzip to new version</li>
+        <li>ユーザ登録の唯一性を強制しました。これはパフォーマンスの修正でもあります。</li>
+        <li>PostgreSQLのトランザクションサポートを追加しました。</li>
+        <li>ログインおよびログアウトを記録するようにしました。</li>
+        <li>WikiおよびSCORMが新しいzipコードを使用するようにしました - この修正はSCORMのバグ報告により行われました。</li>
+        <li>用語集をページングシステムを新しくしました。</li>
+        <li>データロスを避けるため、Moodleへのインサート時にLDAPからのユーザ情報をトランケートするようにしました。</li>
+        <li>pclzipを新しいバージョンに更新しました。</li>
         <li>Memory_limit can be overriden by higher config settings from php.ini, commandline,  httpd.conf, .htaccess</li>
         <li>New translations started: Maori, Kannada, Albanian and Vietnamese</li>
         <li>Many additions to other language packs</li>
         <li>Teachers can now always try quizzes, even if they're not open yet</li>
         <li>Glossary print view is now different for each format.</li>
-        <li>Glossary search now also searches aliases</li>
-        <li>Vastly improved multilang filter with more forgiving syntax </li>
+        <li>用語集の検索でエイリアスも検索するようにしました。</li>
+        <li>多言語フィルタでさらに寛大なシンタックスを使用できるように大きく改善しました。</li>
       </ul>
     </dd>
     
@@ -219,27 +219,27 @@
         <li>Case sensitive usernames in bulk user import fixed</li>
         <li>Fixed bug in redirection after rating forum post</li>
         <li>Fixed bug in quiz with matching questions</li>
-        <li>Fixed bug in quiz preview</li>
-        <li>Fixed bug in language editing</li>
+        <li>小テストプレビューのバグを修正しました。</li>
+        <li>言語編集のバグを修正しました。</li>
         <li>Multiple small fixes in SCORM module</li>
-        <li>SCORM module shows user pictures properly</li>
+        <li>SCORMモジュールがユーザ写真を適切に表示するようにしました。</li>
         <li>Activity names sorted by name in activity filter</li>
         <li>Glossary search will search aliases as well</li>
         <li>Any RSS errors will result in a valid RSS error file rather than invalid RSS.</li>
         <li>Fixed problem with SCORM package validation and PHP5</li>
         <li>Fixed problem with backup/restore and empty categories</li>
-        <li>Better XHTML in wiki</li>
-        <li>Bug fix in chat reports for first chat session</li>
-        <li>Fixed a problem with SCORM when deleting a lot of files, or very large files</li>
-        <li>Fixed some problems with encyclopedia format in glossary</li>
-        <li>Fixed bug in SCORM integration with zipping code</li>
-        <li>Fixed bug in dialogue plain text email notifications</li>
-        <li>Fixed missing sesskey variables in social activity block </li>
-        <li>Excess sections for a course are now hidden in the navmenu</li>
-        <li>Added daylight savings time fixes for the calendar</li>
-        <li>First quiz edit in a new course has a default category assigned</li>
-        <li>Fixed bug in paypal module when accepting payment amount</li>
-        <li>Fixed bug in course files with loss of choose mode    </li>
+        <li>wikiのXHTMLを改善しました。</li>
+        <li>最初のチャットセッションに関するチャットレポートのバグを修正しました。</li>
+        <li>多くのファイルまたは非常に大きなファイルを削除する場合に生じるSCORMの問題を修正しました。</li>
+        <li>用語集の百科事典フォーマットの問題を修正しました。</li>
+        <li>SCORMとzipコードの統合に関するバグを修正しました。</li>
+        <li>対話プレインテキストメール通知のバグを修正しました。</li>
+        <li>社会活動ブロックでsesskey変数が設定されていないバグを修正しました。</li>
+        <li>コースの超過セクションがナビゲーションメニューに隠されるようにしました。</li>
+        <li>カレンダーの夏時間修正を追加しました。</li>
+        <li>新しいコースで小テストが編集される場合、デフォルトカテゴリが割り当てられるようにしました。</li>
+        <li>PayPalモジュールが支払い合計を受け付ける時のバグを修正しました。</li>
+        <li>コースファイルに選択モードがなくなるバグを修正しました。</li>
       </ul>
     </dd>
 
