@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 Beta (2007020400)
+      // admin.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -257,6 +257,8 @@ $string['enablestats'] = '統計を有効にする';
 $string['enabletrusttext'] = 'コンテンツ信頼を有効にする';
 $string['environment'] = '動作環境';
 $string['environmenterrortodo'] = 'このバージョンのMoodleをインストールする前に、発見された動作環境の問題 (エラー) を解消してください!';
+$string['environmenterrorupgrade'] = 'このバージョンのMoodleをアップグレードする前に、発見された動作環境の問題 (エラー) を解消してください! これらの必要条件に関して修正せずにアップグレードした場合、データ喪失等の問題が生じる可能性があります。本当にアップグレードを続けてもよろしいですか?';
+$string['environmentok'] = 'あなたのサーバ環境は、最小限の必要条件に合致します。';
 $string['environmentrecommendinstall'] = 'インストールおよびEnabledを推奨します。';
 $string['environmentrecommendversion'] = 'バージョン $a->needed 以上を推奨します。あなたは現在 $a->current を使用しています。';
 $string['environmentrequireinstall'] = 'インストールおよびEnabledが必須です。';
