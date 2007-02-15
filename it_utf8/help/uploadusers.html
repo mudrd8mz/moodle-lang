@@ -1,5 +1,5 @@
 <h1>Caricamento degli utenti</h1>
-<p>Innanzitutto, occorre notare che <strong>di solito non &egrave; necessario importare utenti in massa</strong>&agrave;ê per ridurre il proprio lavoro di manutenzione bisognerebbe, per prima cosa, esaminare i moduli di autenticazione che non richiedono la manutenzione manuale, come la connessione ad esistenti database esterni o consentire agli utenti la creazione di propri account. Consultare la sezione Autenticazione nei menu dell'amministratore.</p>
+<p>Innanzitutto, occorre notare che <strong>di solito non &egrave; necessario importare utenti in massa</strong>. Per ridurre il proprio lavoro di manutenzione bisognerebbe, per prima cosa, esaminare i moduli di autenticazione che non richiedono la manutenzione manuale, come la connessione ad esistenti database esterni o consentire agli utenti la creazione di propri account. Consultare la sezione Autenticazione nei menu dell'amministratore.</p>
 <p>Se si &egrave; sicuri di voler importare molteplici account utente da un file di testo, allora occorre formattare il proprio file di testo come segue:</p>
 <ul>
   <li>Ciascuna riga del file contiene un record</li>
@@ -10,13 +10,13 @@
       <p></p>
       <font color="#990000" face="Courier New, Courier, mono">username, password, firstname, lastname, email</font></p>
 </p>
-      <p><strong>Fieldname predefiniti:</strong> sono facoltativi &agrave;ê se non sono inclusi allora i valori si prendono dall'amministratore principale</p>
+      <p><strong>Fieldname predefiniti:</strong> sono facoltativi, se non sono inclusi allora i valori si prendono da quelli dell'amministratore principale</p>
       <p><font color="#990000" face="Courier New, Courier, mono">institution, department, city, country, lang, timezone</font> </p>
-      <p><strong>Fieldname facoltativi: </strong>sono tutti completamente facoltativi. I nomi dei corsi sono i &quot;nomi brevi&quot; dei corsi &agrave;ê qualora sia presente, l'utente sar&agrave; allora iscritto come studente in questi corsi. I nomi dei gruppi devono corrispondere ai corsi assegnati, per esempio gruppo1 a corso1, ecc.</p>
+      <p><strong>Fieldname facoltativi: </strong>sono tutti completamente facoltativi. I nomi dei corsi sono i &quot;nomi brevi&quot; dei corsi - se presenti, l'utente sar&agrave; iscritto come studente in questi corsi. I nomi dei gruppi devono associarsi ai corsi corrispondenti, per esempio gruppo1 a corso1, ecc.</p>
       <p> <font color="#990000" face="Courier New, Courier, mono">idnumber, icq, phone1, phone2, address, url, description, mailformat, maildisplay, htmleditor, autosubscribe, course1, course2, course3, course4, course5, group1, group2, group3, group4, group5</font></p>
     </blockquote>
     </li>
-  <li>Le virgole all'interno dei dati dovrebbero essere codificate come &#44 &agrave;ê lo script li decodificher&agrave; automaticamente di nuovo in virgole. </li>
+  <li>Le virgole all'interno dei dati dovrebbero essere codificate come &#44 - lo script li decodificher&agrave; automaticamente di nuovo in virgole. </li>
   <li>Per i campi booleani, utilizzare 0 per falso e 1 per vero.</li>
   <li>Nota: se un utente &egrave; gi&agrave; registrato nel database utenti di Moodle, questa sequenza restituir&agrave; il numero di identificazione utente (indice database) di quell'utente ed iscriver&agrave; l'utente come studente in tutti i corsi specificati SENZA aggiornare gli altri dati specificati</li>
 </ul>

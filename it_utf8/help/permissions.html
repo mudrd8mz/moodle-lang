@@ -1,0 +1,57 @@
+<p align="center"><b>Autorizzazioni</b></p>
+
+<p>
+Le Autorizzazioni sono le impostazioni che vengono date per specifiche possibilità.
+</p>
+
+<p>
+Per esempio, una possibilità è "Iniziare una nuova discussione" (nei forums).
+</p>
+
+<p>
+In ogni ruolo, si può scegliere di impostare le autorizzazioni per tali possibilità a uno di quattro valori:
+<dl>
+<dt>EREDITA</dt>
+<dd>Questa, di solito, è l'impostazione di default. E' un'impostazione neutra che significa "usa qualunque impostazione che l'utente già ha". Se un ruolo viene assegnato a qualcuno (per es. in un corso) che già ha la stessa autorizzazione per una certa possibilità, allora la nuova autorizzazione sarà la stessa che già aveva a contesti di livello gerarchico più alto (per es. categorie o sito). 
+Se un'autorizzazione non è mai concessa ad alcun livello, per l'utente non sarà possibile avere quella possibilità. 
+</dd>
+
+<dt>PERMETTI</dt>
+<dd>Scegliendo questo valore viene data l'autorizzazione per la possibilità cui si riferisce, alle persone cui è assegnato il ruolo. Questa autorizzazione si applica nel contesto nel quale questo ruolo è stato assegnato e anche a tutti i contesti "sottostanti".
+Per esempio, se parliamo del ruolo Studente assegnato a un corso, allora gli studenti avranno la possibilità di "iniziare nuove discussioni" in tutti i forum di quel corso, A MENO CHE' alcuni forum contengano una sovrapposizione o una nuova assegnazione con i valori Impedisci o Proibisci per questa possibilità.</dd>
+
+<dt>IMPEDISCI</dt>
+<dd>Questo valore serve per rimuovere l'autorizzazione per questa capacità, anche se gli utenti con questo ruolo avevano ricevuto tale autorizzazione a un contesto più alto.
+</dd>
+
+<dt>PROIBISCI</dt>
+<dd>Questo è raramente necessario, ma occasionalmente si può volere negare completamente certe autorizzazioni a un ruolo, in modo che NON possa essere "modificato" in alcuno dei contesti sottostanti.
+Un buon esempio di quando ciò può essere necessario è quando un amministratore vuole proibire a una persona di iniziare nuove discussioni in tutti i forum di un intero sito. 
+In questo caso si può creare un ruolo con quella possibilità impostata a "Proibisci" e quindi assegnare il ruolo a quella persone nel contesto sito.
+</dd>
+
+</dl>
+</p>
+
+<p align="center"><b>Soluzione di conflitti di autorizzazioni</b></p>
+
+<p> Autorizzazioni in un contesto "inferiore" generalmente ignoreranno quanto definito in un contesto "superiore" (questo si applica a ruoli modificati e a ruoli assegnati). L'eccezione è il valore Proibisci che non può essere ignorato a un livello inferiore.
+</p>
+
+<p> Se a una persona sono assegnati due ruoli nello steso contesto, uno con Permetti e uno con Impedisci, chi vince? In questo caso, Moodle cercherà un "decisore" nella gerarchia dei contesti.</p>
+    
+<p> Per esempio, uno studente ha due ruoli in un corso, uno che gli permette di iniziare nuove discussioni, uno che glielo impedisce. In questo caso controlliamo le categorie e i contesti del sito, cercando un'altra autorizzazione che ci aiuta a decidere. Se non ne troviamo, allora l'autorizzazione è per default Impedisci (perché le due impostazioni si sono annullate a vicenda, e quindi non ci sono autorizzazioni). 
+</p>
+
+<p align="center"><b>Eccezioni speciali</b></p>
+
+<p>Da notare che all'utente ospite normalmente è impedito di inviare contenuti (per es. nei forum, nel calendario, nei blog) anche se gli è stata data esplicitamente tale possibilità.
+</p>
+
+<p>
+Vedi anche 
+<a href="help.php?file=roles.html">Ruoli</a>,
+<a href="help.php?file=contexts.html">Contesti</a>,
+<a href="help.php?file=assignroles.html">Assegnazione Ruoli</a> e
+<a href="help.php?file=overrides.html">Modifiche Ruoli</a>.
+</p>
