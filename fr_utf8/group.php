@@ -3,6 +3,7 @@
 $string['groupmember'] = 'Membre du groupe';
 $string['groupmemberdesc'] = 'Rôle par défaut pour un membre d\'un groupe.';
 $string['notingrouping'] = '[Dans aucun groupement]';
+$string['anygrouping'] = '[N\'importe quel groupement]';
 
 $string['errornotingrouping'] = 'Désolé, vous ne pouvez pas créer de groupe dans $a';
 $string['errornotingroupingedit'] = 'Désolé, vous ne pouvez pas modifier le groupement $a';
@@ -10,6 +11,7 @@ $string['errorinvalidgrouping'] = 'Groupement $a non valide';
 $string['errorinvalidgroup'] = 'Groupe $a non valide';
 $string['erroreditgrouping'] = 'Erreur lors de la création ou de la modification du groupement $a';
 $string['erroreditgroup'] = 'Erreur lors de la création ou de la modification du groupe $a';
+$string['erroraddremoveuser'] = 'Erreur lors de l\'ajout ou du retrait de l\'utilisateur $a du groupe';
 
 $string['upgradeconfirm'] = 'Désolé, les tables des groupes créées dans Moodle 1.8 dev doivent être suppprimées pour effectuer cette mise à jour. Voulez-vous continuer&nbsp;?';
 
@@ -17,15 +19,15 @@ $string['groupings'] = 'Groupements';
 $string['grouping'] = 'Groupement';
 $string['groups'] = 'Groupes';
 $string['group'] = 'Groupe';
-$string['groupsinselectedgrouping'] = 'Groupes dans le groupement sélectionné';
-$string['membersofselectedgroup'] = 'Membres du groupe sélectionné';
+$string['groupsinselectedgrouping'] = 'Groupes dans le groupement'; // sélectionné
+$string['membersofselectedgroup'] = 'Membres du groupe';
 
 $string['editgroupingsettings'] = 'Modifier les réglages du groupement';
 $string['editgroupingpermissions'] = 'Modifier les autorisations du groupement';
 $string['deletegrouping'] = 'Supprimer groupement';
 $string['creategrouping'] = 'Créer groupement';
 $string['createautomaticgrouping'] = 'Créer groupement automatique';
-$string['printerfriendly'] = 'Affichage pour impression du groupement';
+$string['printerfriendly'] = 'Affichage pour impression'; // du groupement
 
 $string['showgroupsingrouping'] = 'Afficher les groupes du groupement';
 $string['showmembersforgroup'] = 'Afficher les membres du groupe';
@@ -36,13 +38,13 @@ $string['deletegroupconfirm'] = 'Voulez-vous vraiment supprimer le groupe «&nbs
 
 $string['editgroupsettings'] = 'Modifier les réglages du groupe';
 $string['deleteselectedgroup'] = 'Supprimer le groupe sélectionné';
-$string['removegroupfromselectedgrouping'] = 'Retirer le groupe du groupement sélectionné';
-$string['creategroupinselectedgrouping'] = 'Créer un groupe dans le groupement sélectionné';
+$string['removegroupfromselectedgrouping'] = 'Retirer le groupe du groupement'; // sélectionné
+$string['creategroupinselectedgrouping'] = 'Créer un groupe dans le groupement'; // sélectionné
 $string['addexistinggroupstogrouping'] = 'Ajouter des groupes existants au groupement';
 $string['addgroupstogrouping'] = 'Ajouter des groupes au groupement';
 
 $string['removeselectedusers'] = 'Retirer les utilisateurs sélectionnés';
-$string['adduserstogroup'] = 'Ajouter/retirer des utilisateurs au groupe';
+$string['adduserstogroup'] = 'Ajouter/retirer des utilisateurs'; // au groupe
 
 $string['groupingname'] = 'Nom du groupement';
 $string['defaultgroupingname'] = 'Groupement';
