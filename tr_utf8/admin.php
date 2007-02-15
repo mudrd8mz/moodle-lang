@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 Beta (2007020400)
+      // admin.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['accessdenied'] = 'Erişim engellendi';
@@ -255,6 +255,8 @@ $string['enablestats'] = 'İstatistikleri etkinleştir';
 $string['enabletrusttext'] = 'Güvenli İçeriği Etkinleştir';
 $string['environment'] = 'Ortam';
 $string['environmenterrortodo'] = 'Bu Moodle sürümünü kurmaya başlamadan önce yukarıda bulunan bütün ortam sorunlarını (hatalarını) çözmeniz gerekiyor!';
+$string['environmenterrorupgrade'] = 'Uyarı: Bu Moodle sürümüne geçmeden önce yukarıdaki bulunan bütün ortam sorunlarını (hatalarını) çözmeniz gerekiyor! Bu gereksinimleri yerine getirmeden güncelleme, veri kaybı gibi sorunlara neden olabilir. Güncellemeye devam etmek istediğinizden emin misiniz?';
+$string['environmentok'] = 'Sunucu ortamı minumum gereksinimleri yerine getirmiş durumda.';
 $string['environmentrecommendinstall'] = 'yüklenmesi/etkinleştirilmesi tavsiye edilir';
 $string['environmentrecommendversion'] = 'sürüm $a->needed tavsiye edilir ve şu anda $a->current çalışıyor';
 $string['environmentrequireinstall'] = 'yüklenmesi/etkinleştirilmesi gerekli';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 dev (2006102600)
+      // forum.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['addanewdiscussion'] = 'Yeni tartışma konusu ekle';
@@ -126,6 +126,7 @@ $string['namesocial'] = 'Sosyal forum';
 $string['nameteacher'] = 'Eğitimci forumu';
 $string['newforumposts'] = 'Yeni forum mesajı';
 $string['nodiscussions'] = 'Bu forumda henüz bir tartışma konusu yoktur';
+$string['nodiscussionsstartedby'] = 'Bu kullanıcı tarafından bir tartışma başlatılmamış';
 $string['noguestpost'] = 'Ziyaretçiler mesaj gönderemezler';
 $string['noguestsubscribe'] = 'Üzgünüz, konuk kullanıcılar e-postayla forum mesajlarını alamazlar.';
 $string['noguesttracking'] = 'Üzgünüz, konuk kullanıcılar izleme ayarlarını yapamazlar.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 dev (2006120700)
+      // quiz.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['1day'] = '1 Gün';
@@ -500,6 +500,7 @@ $string['timelimitexeeded'] = 'Üzgünüz! Sınav süresi aşıldı!';
 $string['timestr'] = '%%d/%%m/%%y %%H:%%M:%%S';
 $string['timesup'] = 'Süre doldu!';
 $string['timetaken'] = 'Geçen süre';
+$string['tofile'] = 'dosyaya';
 $string['tolerance'] = 'Kabul edilen hata';
 $string['tolerancetype'] = 'Kabul edilen hata tipi';
 $string['toomanyrandom'] = 'Gereken rastgele soruların sayısı bu kategorinin içerdiğinden fazladır. ($a)';

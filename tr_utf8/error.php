@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8 dev (2006102600)
+      // error.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
@@ -46,6 +46,7 @@ $string['modulerequirementsnotmet'] = '\"$a->modulename\" ($a->moduleversion) mo
 $string['mustbeteacher'] = 'Bu sayfaya bakabilmek için eğitimci olmalısınız';
 $string['nocontext'] = 'Üzgünüz, bu kursun geçerli bir bağlamı yok';
 $string['noinstances'] = '$a bu kursta kullanılmadı!';
+$string['nologinas'] = 'Bu kullanıcı olarak giriş yapma izniniz yok';
 $string['nonmeaningfulcontent'] = 'Anlamsız içerik';
 $string['noparticipatorycms'] = 'Üzgünüz, rapor edilecek kurs modüllerinin katılımcısı değilsiniz.';
 $string['nopermissions'] = 'Üzgünüz, şu anda bunu yapmaya yetkiniz yok: $a';

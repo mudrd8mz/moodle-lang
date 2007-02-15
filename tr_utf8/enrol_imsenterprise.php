@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.7 dev (2006092600)
+      // enrol_imsenterprise.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['aftersaving...'] = 'Ayarları kaydettiğinizde bunu yapmak isteyebilirsiniz:';
@@ -11,7 +11,7 @@ $string['createnewcourses'] = 'Moodle\'da yoksa yeni kursu (gizli) oluştur';
 $string['createnewusers'] = 'Moodle\'da kayıtlı olmayan kullanıcıların hesaplarını oluştur';
 $string['cronfrequency'] = 'İşleme sıklığı';
 $string['deleteusers'] = 'IMS verisinde belirtildiği zaman kullanıcının hesaplarını sil';
-$string['description'] = 'Bu yöntem özel olarak biçimlendirilmiş ve yerini belirttiğiniz dosyayı belirli aralıklarla kontrol edecek ve işleme alacaktır. Dosya XML olarak kişiyi, grubu ve üyeliğini içeren <a href=\'../help.php?module=enrol/imsenterprise&file=formatoverview.html\' target=\'_blank\'>IMS Enterprise tanımlamalarına</a> uygun olmalıdır.';
+$string['description'] = 'Bu yöntem özel olarak biçimlendirilmiş ve yerini belirttiğiniz dosyayı belirli aralıklarla kontrol edecek ve işleme alacaktır. Dosya XML olarak kişiyi, grubu ve üyeliğini içeren <a href=\'../help.php?module=enrol/imsenterprise&amp;file=formatoverview.html\'>IMS Enterprise tanımlamalarına</a> uygun olmalıdır.';
 $string['doitnow'] = 'hemen şimdi IMS Enterprise içe aktarma gerçekleştir';
 $string['enrolname'] = 'IMS Enterprise dosyası';
 $string['filelockedmail'] = 'IMS-dosya-temelli ders kayıtları için kullandığınız dosya ($a) cron işlemi tarafından silinemiyor. Bu genellikle dosya üzerindeki izinler yanlış tanımlandığında olur. Lütfen, dosyanın Moodle tarafından silinebilmesi için gerekli izinleri verin, aksi takdirde bu işlem sürekli devam eder.';
