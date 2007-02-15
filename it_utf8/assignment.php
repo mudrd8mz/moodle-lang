@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7+ (2006101009)
+      // assignment.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['allowdeleting'] = 'Permettere rimozione';
@@ -97,8 +97,8 @@ $string['submitted'] = 'Consegnato';
 $string['submittedfiles'] = 'Files consegnati';
 $string['typeoffline'] = 'Attività  in aula';
 $string['typeonline'] = 'Testo online';
-$string['typeupload'] = 'Caricamento files avanzato';
-$string['typeuploadsingle'] = 'Trasferire un file';
+$string['typeupload'] = 'Trasferimento file avanzato';
+$string['typeuploadsingle'] = 'Trasferimento file';
 $string['unfinalize'] = 'Riporta a bozza';
 $string['uploadbadname'] = 'Questo file contiene caratteri non conformi e non può essere trasferito.';
 $string['uploadedfiles'] = 'files trasferiti';

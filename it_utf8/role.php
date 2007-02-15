@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7+ (2006101009)
+      // role.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['addrole'] = 'Aggiungi un nuovo ruolo';
 $string['allow'] = 'Permetti';
 $string['allowassign'] = 'Permetti l\'attribuzione di ruoli';
-$string['allowoverride'] = 'Permetti la sovrapposizione di ruoli';
+$string['allowoverride'] = 'Permetti la modifica dei ruoli';
 $string['assignroles'] = 'Attribuisci ruoli';
 $string['blog:create'] = 'Crea un nuovo item di blog';
 $string['blog:manageentries'] = 'Modifica e gestisci gli item di blog';
@@ -67,8 +67,8 @@ $string['manageroles'] = 'Gestisci i ruoli';
 $string['metaassignerror'] = 'Non puoi assegnare questo ruolo all\'utente \"$a\" perché è necessaria la possibilità di gestione dei metacorsi.';
 $string['metaunassignerror'] = 'Il ruolo dell\'utente \"$a\" è stato riassegnato automaticamente. Se necessario disassegnare questo ruolo dai corsi dipendenti.';
 $string['nocapabilitiesincontext'] = 'Nessuna possibilità disponibile in questo contesto';
-$string['overrideroles'] = 'Sovrapponi ruoli';
-$string['overrides'] = 'Sovrapposizioni';
+$string['overrideroles'] = 'Modifica ruoli';
+$string['overrides'] = 'Modifiche';
 $string['permissions'] = 'Autorizzazioni';
 $string['potentialusers'] = '$a utenti potenziali';
 $string['prevent'] = 'Impedisci';
@@ -80,14 +80,14 @@ $string['question:managecategory'] = 'Gestisci categorie domande';
 $string['risks'] = 'Rischi';
 $string['role:assign'] = 'Attribuisci ruoli a utenti';
 $string['role:manage'] = 'Crea e gestisci ruoli';
-$string['role:override'] = 'Sovrapponi permessi di altri utenti';
+$string['role:override'] = 'Modifica permessi di altri utenti';
 $string['role:switchroles'] = 'Cambia in altri ruoli';
 $string['role:unassignself'] = 'Modifica dei propri ruoli';
 $string['role:viewhiddenassigns'] = 'Visualizza le attribuzioni dei ruoli nascosti';
 $string['roleassignments'] = 'Attribuzioni di ruolo';
 $string['roles'] = 'Ruoli';
 $string['roletoassign'] = 'Ruolo da attribuire';
-$string['roletooverride'] = 'Ruolo da sovrapporre';
+$string['roletooverride'] = 'Ruolo da modificare';
 $string['selectrole'] = 'Scegli un ruolo';
 $string['showallroles'] = 'Mostra tutti i ruoli';
 $string['site:accessallgroups'] = 'Accedi a tutti i gruppi';
@@ -106,7 +106,7 @@ $string['site:viewfullnames'] = 'Visualizza sempre nomi utenti completi';
 $string['site:viewparticipants'] = 'Visualizza partecipanti';
 $string['site:viewreports'] = 'Visualizza rapporti';
 $string['user:create'] = 'Crea utenti';
-$string['user:delete'] = 'Cancella uetenti';
+$string['user:delete'] = 'Cancella utenti';
 $string['user:editprofile'] = 'Modifica profilo utente';
 $string['user:loginas'] = 'Login come altri utenti';
 $string['user:readuserblogs'] = 'Vedi blog di tutti gli utenti';

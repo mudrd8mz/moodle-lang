@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7+ (2006101009)
+      // admin.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['accessdenied'] = 'Accesso vietato';
@@ -84,7 +84,7 @@ $string['configenablerssfeeds'] = 'Questa impostazione attiva l\'alimentatore RS
 $string['configenablerssfeedsdisabled'] = 'Non è attiva poiché l\'alimentatore RSS è disabilitato in tutto il sito. Per attivarlo, andate in \'configura variabili\' nel pannello di Amministrazione.';
 $string['configenablestats'] = 'Se qui viene scelto \'Si\'. All\'esecuzione del cron Moodle elaborerà  i log e genererà  alcune statistiche. La durata di questa operazione dipende dal traffico del vostro sito. Se viene abilitata questa impostazione sarete in grado di visualizzare alcuni grafici interessanti su ogni corso, o su tutto il sito.';
 $string['configenabletrusttext'] = 'Per default Moodle pulisce sempre attentamente testi che provengono dagli utenti e rimuove ogni possibile script malevolo, e altro che potrebbe mettere a rischio la sicurezza. Il sistema di Contenuto Affidabile è un modo per dare a utenti particolari, degni di fiducia, la possibilità di includere qualche possibilità avanzata nei loro contenuti senza alcuna interferenza. Per attivare tale sistema, bisogna prima abilitare questa impostazione, e poi attribuire il permesso di Contenuto Affidabile a un ruolo specifico di Moodle. I testi creati o caricati da tali utenti saranno marcati come \"affidabili\" e non saranno alterati prima della visualizzazione.';
-$string['configenrolmentplugins'] = 'Si prega di selezionare il plugin di iscrizione che si vuole utilizzare. Non dimenticatevi di configurare l\'impostazione correttamente.<br /><br />Bisogna indicare quali plugin sono abilitati e qual\'è <strong>quello</strong> preimpostato come standard per l\'iscrizione <em>interattiva</em>. Per disabilitare l\'iscrizione interattiva, impostare \"Iscrivibile\" a \"No\" nei corsi richiesti.';
+$string['configenrolmentplugins'] = 'Si prega di selezionare il plugin di iscrizione che si vuole utilizzare. Non dimenticatevi di configurare l\'impostazione correttamente.<br /><br />Bisogna indicare quali plugin sono abilitati e qual\'è <strong>quello</strong> preimpostato come standard per l\'iscrizione <em>interattiva</em>. Per disabilitare l\'iscrizione interattiva, impostare \"E\' possibile iscriversi al corso\" a \"No\" nei corsi richiesti.';
 $string['configerrorlevel'] = 'Scegliete il numero di messaggi di errore di PHP che si desidera visualizzare. \'Normale\' è solitamente l\'opzione migliore.';
 $string['configextendedusernamechars'] = 'Attivate questa opzione per permettere agli studenti di utilizzare qualsiasi carattere nel loro nome utente (da notare che questo non influisce sui loro nomi attuali).
 L\'impostazione predefinita limita l\'uso dei caratteri ai soli alfanumerici (esclude quindi caratteri speciali, caratteri accentati, ecc).';

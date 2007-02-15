@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.8 dev (2006101001)
+      // xmldb.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['aftertable'] = 'Dopo Tabella:';
@@ -51,7 +51,7 @@ $string['incorrectfieldname'] = 'Nome incorretto';
 $string['indexes'] = 'Indici';
 $string['integerincorrectlength'] = 'Lunghezza incorretta per un campo intero';
 $string['keys'] = 'Chiavi';
-$string['listreservedwords'] = 'Lista delle Parole RIservate<br/>(utilizzato per mantenere aggiornato <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a>)';
+$string['listreservedwords'] = 'Lista delle Parole Riservate<br/>(utilizzato per mantenere aggiornato <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a>)';
 $string['load'] = 'Carica';
 $string['main_view'] = 'Vista Principale';
 $string['missingfieldsinsentence'] = 'Mancano campi nella clausola';
@@ -103,6 +103,6 @@ $string['viewphpcode'] = 'Visualizza codice PHP';
 $string['viewsqlcode'] = 'Visualizza codice SQL';
 $string['wronglengthforenum'] = 'Lunghezza incorretta per un campo enumerato';
 $string['wrongnumberoffieldsorvalues'] = 'Numero incorretto di campi o valori nella clausola';
-$string['wrongreservedwords'] = 'Parole Riservate Utilizzate Attualmente<br/>(notare che il nomi delle tabelle non sono impotanti se si utilizza $CFG->prefix)';
+$string['wrongreservedwords'] = 'Parole Riservate Utilizzate Attualmente<br/>(notare che il nomi delle tabelle non sono importanti se si utilizza $CFG->prefix)';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7+ (2006101009)
+      // quiz.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['1day'] = '1 giorno';
@@ -195,7 +195,7 @@ $string['feedbackerrorjunkinfeedback'] = 'Devi definire i feedback generici senz
 $string['feedbackerrororder'] = 'Le valutazioni di riferimento devono essere in ordine decrescente. Il valore immesso in posizione $a è fuori sequenza.';
 $string['file'] = 'File';
 $string['fileformat'] = 'Formato file';
-$string['fillcorrect'] = 'Correggi';
+$string['fillcorrect'] = 'Mostra risposte corrette';
 $string['filloutnumericalanswer'] = 'Devi definire almeno una possibile risposta con la relativa tolleranza. La prima risposta corrispondente a quella data sarà usata per determinare il punteggio e il feedback. Se l\'elenco termina con un feedback senza corrispondente risposta, allora tale feedback sarà mostrato agli studenti la cui risposta non ha trovato corrispondenza con alcuna di quelle previste.';
 $string['filloutoneanswer'] = 'Devi fornire almeno una risposta. Le risposte lasciate in bianco non saranno utilizzate.';
 $string['filloutthreequestions'] = 'Devi fornire almeno tre domande. Le domande lasciate in bianco non saranno utilizzate.';

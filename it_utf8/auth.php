@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6 development (2006030800)
+      // auth.php - created with Moodle 1.7.1+ (2006101010)
 
 
-$string['alternatelogin'] = 'Se inserite un\'URL verso un file qui, verrà  utilizzata come pagina di login del sito. La pagina dovrebbe contenere un modulo con le proprietà  impostate su <strong>\'$a\'</strong> con i campi di <strong>login</strong> e <strong>password</strong>.<br/> Fate attenzione a non inserire un URL errato perchè potreste \"chiudervi fuori\" dal sito. <br/>
+$string['alternatelogin'] = 'Se inserite un URL verso un file qui, verrà  utilizzata come pagina di login del sito. La pagina dovrebbe contenere un modulo con le proprietà  impostate su <strong>\'$a\'</strong> con i campi di <strong>login</strong> e <strong>password</strong>.<br/> Fate attenzione a non inserire un URL errato perché potreste \"chiudervi fuori\" dal sito. <br/>
 Lasciate in bianco questa impostazione se volete utilizzare la pagina di login predefinita.';
 $string['alternateloginurl'] = 'URL della pagina di login alternativa';
 $string['auth_cas_baseuri'] = 'URI del server (nulla se non baseURI)<br/>Per esempio, se il CAS (Central Authentication Server) server risponde a host.dominio.it/CAS/ <br/>allora, utilizzare: cas_baseuri=CAS/';
@@ -13,21 +13,21 @@ $string['auth_cas_invalidcaslogin'] = 'Spiacente, il login è fallito - non pote
 $string['auth_cas_language'] = 'Lingua selezionata';
 $string['auth_cas_logincas'] = 'Accesso con connessione sicura';
 $string['auth_cas_port'] = 'Porta del server CAS';
-$string['auth_cas_server_settings'] = 'Configurazione del server CAS Centralized Authentication Software Server)';
+$string['auth_cas_server_settings'] = 'Configurazione del server CAS (Centralized Authentication Server)';
 $string['auth_cas_text'] = 'Connessione sicura';
 $string['auth_cas_version'] = 'Versione del CAS';
 $string['auth_casdescription'] = 'Questo metodo utilizza un server CAS (Central Authentication Server) per autenticare utenti in ambiente SSO (Single Sign On environment).
-Potete anche utilizzare una semplice autenticazione LDAP. Se login e password fornite sono ritenute valide per CAS, Moodle creerà  una nuova istanza nel database, prelevando gli attributi dell\'utente da LDAP, se necessario.
+Potete anche utilizzare una semplice autenticazione LDAP. Se login e password fornite sono ritenute valide per CAS, Moodle creerà  una nuova istanza nel database, prelevando gli attributi dell\'utente da LDAP, se necessario.
 Nei login successivi, verranno controllati solo più login e password.';
 $string['auth_castitle'] = 'Utilizza un server CAS (SSO)';
 $string['auth_changepasswordhelp'] = 'Aiuto cambiamento password';
-$string['auth_changepasswordhelp_expl'] = 'Mostra l\'aiuto per le password perse agli utenti che hanno perso la loro $a password. Questo verrà  mostrato insieme a o al posto della <strong>Pagina cambiamento password</strong> o del sistema di cambiamento password interno di Moodle.';
+$string['auth_changepasswordhelp_expl'] = 'Mostra l\'aiuto per le password perse agli utenti che hanno perso la loro $a password. Questo verrà  mostrato insieme a o al posto della <strong>Pagina cambiamento password</strong> o del sistema di cambiamento password interno di Moodle.';
 $string['auth_changepasswordurl'] = 'Pagina cambiamento password';
 $string['auth_changepasswordurl_expl'] = 'Indicare l\'URL in cui indirizzare gli utenti che hanno perso la loro $a password. Impostare <strong>Utilizza la pagina standard per il cambio della password</strong> a <strong>No</strong>';
 $string['auth_common_settings'] = 'Impostazioni tipiche';
 $string['auth_data_mapping'] = 'Mappatura dei dati';
 $string['auth_dbdescription'] = 'Questo metodo usa una tabella di una base di dati esterna per controllare se un dato username e password siano validi.  Se l\'utente è nuovo, allora le informazioni degli altri campi possono essere copiate in Moodle.';
-$string['auth_dbextrafields'] = 'Questi campi sono facoltativi. Potete scegliere pre compilare alcuni campi dell\'utente di Moodle con le informazioni dei <b>campi della base di dati esterna</b> che voi specificate qui.  <br />Se lasciate questi vuoti, saranno usati quelli di default.<br />In entrambi i casi, l\'utente potrà  modificare tutti questi campi dopo la registrazione.';
+$string['auth_dbextrafields'] = 'Questi campi sono facoltativi. Potete scegliere di pre-compilare alcuni campi dell\'utente di Moodle con le informazioni dei <b>campi della base di dati esterna</b> che voi specificate qui.  <br />Se lasciate questi vuoti, saranno usati quelli di default.<br />In entrambi i casi, l\'utente potrà  modificare tutti questi campi dopo la registrazione.';
 $string['auth_dbfieldpass'] = 'Nome del campo che contiene le password';
 $string['auth_dbfielduser'] = 'Nome del campo che contiene gli username';
 $string['auth_dbhost'] = 'Il computer su cui si trova la base dati';
@@ -40,7 +40,7 @@ $string['auth_dbtype'] = 'Il tipo di base di dati (guarda la <a href=\"../lib/ad
 $string['auth_dbuser'] = 'Nome utente con diritti di lettura nella base dati';
 $string['auth_emaildescription'] = 'La conferma tramite email è il metodo di autenticazione di default. Quando l\'utente si iscrive, scegliendo il suo nome utente e la password, un email di conferma viene spedita all\'indirizzo di posta elettronica dell\'utente. Questa email contiene un link sicuro a una pagina dove l\'utente può confermare la sua iscrizione. Ai successivi login verranno controllati il nome utente e la password con i valori salvati nella base di dati di Moodle.';
 $string['auth_emailtitle'] = 'Autenticazione via email';
-$string['auth_fccreators'] = 'Elenca i gruppi dei membri abilitati alla creazione di nuovi corsi. Separa gruppi multipli con \';\'. I nomi devo essere scritti esattamente come sul server FirstClass. Il sistema è sensibile alla capitalizzazione. ';
+$string['auth_fccreators'] = 'Elenca i gruppi dei membri abilitati alla creazione di nuovi corsi. Separa gruppi multipli con \';\'. I nomi devo essere scritti esattamente come sul server FirstClass. Il sistema è sensibile alla capitalizzazione.';
 $string['auth_fcdescription'] = 'Questo metodo utilizza un server FirstClass per controllare se l\'utente e la password sono validi.';
 $string['auth_fcfppport'] = 'Porta server (normalmente 3333)';
 $string['auth_fchost'] = 'Indirizzo del server FirstClass. Utilizza numero IP o un nome registrato sul DNS.';
@@ -48,10 +48,10 @@ $string['auth_fcpasswd'] = 'Password per l\'account sopra.';
 $string['auth_fctitle'] = 'Utilizza un server FirstClass';
 $string['auth_fcuserid'] = 'Nome utente di FirstClass con privilegi di \'Subadministrator\'.';
 $string['auth_fieldlock'] = 'Blocca valore';
-$string['auth_fieldlock_expl'] = '<p><b>Blocca valore:</b>Se abilitato, impedirà  agli utenti e agli amministratori di Moodle di modificare il campo direttamente. Utilizzare questa opzione se si sta gestendo questi dati in un sistema di autenticazione esterno.</p>';
+$string['auth_fieldlock_expl'] = '<p><b>Blocca valore:</b>Se abilitato, impedirà  agli utenti e agli amministratori di Moodle di modificare il campo direttamente. Utilizzare questa opzione se si sta gestendo questi dati in un sistema di autenticazione esterno.</p>';
 $string['auth_fieldlocks'] = 'Blocca campi utente';
-$string['auth_fieldlocks_help'] = '<p>È possibile bloccare i campi relativi agli utenti. Questo può risultare utile per i siti dove i dati utente sono gestiti manualmente dagli amministratori modificando i record degli utenti e caricadoli utilizzando la funzione \'Importa utenti\'. Se si stanno bloccando dei campi richiesti da Moodle, accertatevi di fornirne i dati quando vengono registrati gli utenti &emdash; altrimenti la registrazione diventerebbe inutilizzabile.</p><p>Prendete in considerazione l\'utilizzo della modalità  \'Libero se vuoto\' per evitare questo problema.</p>';
-$string['auth_imapdescription'] = 'Questo metodo usa un server IMAP per controllare se il nome utente e la password dati sono validi. ';
+$string['auth_fieldlocks_help'] = '<p>È possibile fissare i campi relativi agli utenti. Questo può risultare utile per i siti dove i dati utente sono gestiti manualmente dagli amministratori modificando i record degli utenti e caricandoli utilizzando la funzione \'Importa utenti\'. Se si stanno bloccando dei campi richiesti da Moodle, accertatevi di fornirne i dati quando vengono registrati gli utenti &emdash; altrimenti la registrazione diventerebbe inutilizzabile.</p><p>Prendete in considerazione l\'utilizzo della modalità  \'Libero se vuoto\' per evitare questo problema.</p>';
+$string['auth_imapdescription'] = 'Questo metodo usa un server IMAP per controllare se il nome utente e la password dati sono validi.';
 $string['auth_imaphost'] = 'Indirizzo server IMAP. Usa il numero IP, non il nome DNS.';
 $string['auth_imapport'] = 'Porta server IMAP. Normalmente è 143o 993.';
 $string['auth_imaptitle'] = 'Usa un server IMAP';
@@ -60,21 +60,21 @@ $string['auth_ldap_bind_dn'] = 'Se desiderate usare un utente Bind per cercare g
 $string['auth_ldap_bind_pw'] = 'Password per utente Bind.';
 $string['auth_ldap_bind_settings'] = 'Impostazioni richieste';
 $string['auth_ldap_contexts'] = 'Lista dei contesti in cui vengono collocati gli utenti. Separate contesti differenti con il \';\'. Per esempio: \'ou=users,o=org; ou=others,o=org\'';
-$string['auth_ldap_create_context'] = 'Se attivate la creazione degli utenti con conferma via e-mail, specificate il contesto dove gli utenti vengono creati. Questo contesto deve essere diverso da quello di altri utenti per prevenire problemi di sicurezza. Non è necessario aggiungere questo contesto alla variabile ldap_context, Moodle cercherà  gli utenti di questo contesto automaticamente.
+$string['auth_ldap_create_context'] = 'Se attivate la creazione degli utenti con conferma via e-mail, specificate il contesto dove gli utenti vengono creati. Questo contesto deve essere diverso da quello di altri utenti per prevenire problemi di sicurezza. Non è necessario aggiungere questo contesto alla variabile ldap_context, Moodle cercherà  gli utenti di questo contesto automaticamente.
 .<br /><b>Nota!</b> Dovete modificare la funzione auth_user_create() nel file auth/ldap/lib.php per far funzionare le creazioni dell\'utente.';
 $string['auth_ldap_creators'] = 'Lista dei gruppi nei quali i membri possono creare nuovi corsi. Separate i gruppi multipli con \';\'. Normalmente, qualcosa come: \'cn=teachers,ou=staff,o=myorg\'';
 $string['auth_ldap_expiration_desc'] = 'Selezionate No per disabilitare il controllo delle password scadute o la lettura della data di scadenza delle password direttamente da LDAP';
 $string['auth_ldap_expiration_warning_desc'] = 'Numero di giorni che precedono l\'invio dell\'avviso di password scaduta.';
 $string['auth_ldap_expireattr_desc'] = 'Opzionale: esclude l\'attributo ldap che mantiene il tempo di scadenza della password PasswordExpirationTime';
 $string['auth_ldap_graceattr_desc'] = 'Opzionale: esclude l\'attributo gracelogin';
-$string['auth_ldap_gracelogins_desc'] = 'Abilita il supporto del gracelogin di LDAP. Dopo che  la password è scaduta l\'utente può accedere finchè il contatore gracelogin non è a 0. Abilitando questa impostazione viene mostrato il messaggio di garanzia d\'accesso se la passoword è scaduta.';
-$string['auth_ldap_host_url'] = 'Specifica il server LDAP con un URL tipo \'ldap://ldap.myorg.com/\' o \'ldaps://ldap.myorg.com/\' ';
+$string['auth_ldap_gracelogins_desc'] = 'Abilita il supporto del gracelogin di LDAP. Dopo che  la password è scaduta l\'utente può accedere finchè il contatore gracelogin non è a 0. Abilitando questa impostazione viene mostrato il messaggio di garanzia d\'accesso se la password è scaduta.';
+$string['auth_ldap_host_url'] = 'Specifica il server LDAP con un URL tipo \'ldap://ldap.myorg.com/\' o \'ldaps://ldap.myorg.com/\'';
 $string['auth_ldap_login_settings'] = 'Impostazioni login';
 $string['auth_ldap_memberattribute'] = 'Opzionale: sovrascrive l\'attributo dell\'utente membro nel caso gli utenti appartenessero ad un gruppo. Normalmente \'member\'';
-$string['auth_ldap_objectclass'] = 'Opzionale: il filtro utilizzato per la ricerca dei nomi utente. Normalmente sarà  impostato a qualcosa di simile a objectClass=posixAccount. L\'impostazione a objectClass=* restituirà  tutti gli oggetti da LDAP.';
+$string['auth_ldap_objectclass'] = 'Opzionale: il filtro utilizzato per la ricerca dei nomi utente. Normalmente sarà  impostato a qualcosa di simile a objectClass=posixAccount. L\'impostazione a objectClass=* restituirà  tutti gli oggetti da LDAP.';
 $string['auth_ldap_opt_deref'] = 'Determina la maniera in cui vengono trattati gli alias durante una ricerca. Selezionare uno dei seguenti valori:<br/>
 \"No\" (LDAP_DEREF_NEVER) <br/>
-\"Si\" (LDAP_DEREF_ALWAYS) ';
+\"Si\" (LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_passwdexpire_settings'] = 'Impostazione scadenza password LDAP';
 $string['auth_ldap_preventpassindb'] = 'Selezionare Si per prevenire il salvataggio delle password nella base dati di Moodle.';
 $string['auth_ldap_search_sub'] = 'Inserire un valore <> 0 se preferite cercare gli utenti da sottocontesti.';
@@ -86,21 +86,21 @@ $string['auth_ldap_user_type'] = 'Seleziona il modo in cui gli utenti vengono ar
 $string['auth_ldap_version'] = 'La versione del protocollo LDAP utilizzata dal vostro server.';
 $string['auth_ldapdescription'] = 'Questo metodo fornisce l\'autenticazione tramite un server LDAP esterno.
 Se il nome utente e la password dati sono validi, Moodle crea un nuovo utente nella sua base dati. Questo modulo può leggere gli attributi da LDAP e precompilare i campi richiesti in Moodle. Per i successivi login verranno controllati solo il nome utente e la password.';
-$string['auth_ldapextrafields'] = 'Questi campi sono opzionali. Potete scegliere di precompilare alcuni campi dell\'utente in Moodle con le informazioni dai <b>campi LDAP</b> qui specificate. <p>Se lasciate questi campi vuoti, non verrà  trasferito niente dal LDAP e verranno usati i dati default di Moodle.</p><p>In entrambi i casi, gli utenti possono modificare tutti questi campi dopo essersi loggati.</p>';
+$string['auth_ldapextrafields'] = 'Questi campi sono opzionali. Potete scegliere di precompilare alcuni campi dell\'utente in Moodle con le informazioni dai <b>campi LDAP</b> qui specificate. <p>Se lasciate questi campi vuoti, non verrà  trasferito niente dal LDAP e verranno usati i dati default di Moodle.</p><p>In entrambi i casi, gli utenti possono modificare tutti questi campi dopo essersi loggati.</p>';
 $string['auth_ldaptitle'] = 'Usa un server LDAP';
-$string['auth_manualdescription'] = 'Questo metodo rimuove ogni possibilità  agli utenti di iscriversi. Tutte le iscrizioni devono essere create a mano da un amministratore.';
+$string['auth_manualdescription'] = 'Questo metodo rimuove ogni possibilità  agli utenti di iscriversi. Tutte le iscrizioni devono essere create a mano da un amministratore.';
 $string['auth_manualtitle'] = 'Solo iscrizione manuale';
 $string['auth_multiplehosts'] = 'Possono essere elencate più macchine remote (es. host1.com;host2.com;host3.com)';
 $string['auth_nntpdescription'] = 'Questo metodo utilizza un server NNTP per controllare se il nome utente e la password dati sono validi.';
 $string['auth_nntphost'] = 'Indirizzo del server NNTP. Usa il numero IP, non il nome DNS.';
 $string['auth_nntpport'] = 'Porta server (119 è la più comune)';
 $string['auth_nntptitle'] = 'Usa un server NNTP';
-$string['auth_nonedescription'] = 'Gli utenti possono registrarsi e creare iscrizioni valide immediatamente, senza autenticazione di un server esterno e senza conferma tramite email. Fare attenzione ad usare questa opzione - riflettete sulla sicurezza e ai problemi di amministrazione che questa scelta può causare. ';
+$string['auth_nonedescription'] = 'Gli utenti possono registrarsi e creare iscrizioni valide immediatamente, senza autenticazione di un server esterno e senza conferma tramite email. Fare attenzione ad usare questa opzione - riflettete sulla sicurezza e ai problemi di amministrazione che questa scelta può causare.';
 $string['auth_nonetitle'] = 'Senza autenticazione';
 $string['auth_pamdescription'] = 'Questo metodo utilizza PAM per accedere ai nomi utente originali su questo server. E\' necessario installare <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">la libreria di autenticazione PAM di PHP4</a> per poter utilizzare questo modulo.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
 $string['auth_passwordisexpired'] = 'La vostra password è scaduta. Volete cambiarla adesso?';
-$string['auth_passwordwillexpire'] = 'La vostra password scadrà  tra $a giorni. Volete cambiarla adesso?';
+$string['auth_passwordwillexpire'] = 'La vostra password scadrà  tra $a giorni. Volete cambiarla adesso?';
 $string['auth_pop3description'] = 'Questo metodo utilizza un server POP3 per controllare se il nome utente e la password dati sono validi.';
 $string['auth_pop3host'] = 'L\'indirizzo del server POP3. Usa il numero IP, non il nome DNS.';
 $string['auth_pop3mailbox'] = 'Nome della casella di posta con cui tentale la connessione. (normalmente INBOX)';
@@ -126,17 +126,17 @@ $string['auth_shibboleth_manual_login'] = 'Login manuale';
 $string['auth_shibbolethdescription'] = 'Utilizzando questo metodo gli utenti vengono creati e autenticati utilizzando<a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth</a>';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_updatelocal'] = 'Aggiorna dati interni';
-$string['auth_updatelocal_expl'] = '<p><b>Aggiorna dati interni:</b> Se abilitato, il campo sarà  aggiornato (dall\'autenticazione esterna) tutte le volte che l\'utente accede o c\'è una sincronizzazione utente. I campi impostati per l\'aggiornamento locale devono essere bloccati.</p>';
+$string['auth_updatelocal_expl'] = '<p><b>Aggiorna dati interni:</b> Se abilitato, il campo sarà  aggiornato (dall\'autenticazione esterna) tutte le volte che l\'utente accede o c\'è una sincronizzazione utente. I campi impostati per l\'aggiornamento locale devono essere bloccati.</p>';
 $string['auth_updateremote'] = 'Aggiorna dati esterni';
-$string['auth_updateremote_expl'] = '<p><b>Aggiorna dati esterni:</b> Se abilitato, l\'autenticazione esterna sarà  aggiornata quando i dati dell\'utente sono aggiornati. I campi devono essere sboccati per permettere la modifica.</p>';
-$string['auth_updateremote_ldap'] = '<p><b>Nota:</b> Aggiornando i dati esterni LDAP è richiesta l\'impostazione di binddn e di bindpw a un utente di bind con priviligi di modifica per tutti i dati degli utenti. Questo attualmente non preserva gli attributi multivalore, e rimuoverà  i valori aggiuntivi durante l\'aggiornamento.</p>';
+$string['auth_updateremote_expl'] = '<p><b>Aggiorna dati esterni:</b> Se abilitato, l\'autenticazione esterna sarà  aggiornata quando i dati dell\'utente sono aggiornati. I campi devono essere sboccati per permettere la modifica.</p>';
+$string['auth_updateremote_ldap'] = '<p><b>Nota:</b> Aggiornando i dati esterni LDAP è richiesta l\'impostazione di binddn e di bindpw a un utente di bind con privilegi di modifica per tutti i dati degli utenti. Questo attualmente non preserva gli attributi multivalore, e rimuoverà  i valori aggiuntivi durante l\'aggiornamento.</p>';
 $string['auth_user_create'] = 'Abilita creazione utente';
 $string['auth_user_creation'] = 'I nuovi utenti (anonimi) possono iscriversi alla sorgente di autenticazione esterna e confermare tramite email. Se abiliti questo, ricorda anche di configurare le opzioni specifiche del modulo per la creazione degli utenti';
-$string['auth_usernameexists'] = 'Il nome utente scelto è già  utilizzato. Sceglierne uno nuovo. ';
+$string['auth_usernameexists'] = 'Il nome utente scelto è già  utilizzato. Sceglierne uno nuovo.';
 $string['authenticationoptions'] = 'Opzioni di autenticazione';
-$string['authinstructions'] = 'Qui si possono fornire le istruzioni per i vostri utenti, così potranno sapere quale nome utente e password dovranno usare. Il testo che inserite qui apparirà  nella pagina di login. Se lo lasciate vuoto, non saranno fornite istruzioni.';
+$string['authinstructions'] = 'Qui si possono fornire le istruzioni per i vostri utenti, così potranno sapere quale nome utente e password dovranno usare. Il testo che inserite qui apparirà  nella pagina di login. Se lo lasciate vuoto, non saranno fornite istruzioni.';
 $string['changepassword'] = 'Cambia URL delle password';
-$string['changepasswordhelp'] = 'Qui si può specificare una collocazione dove i gli utenti possono recuperare o cambiare il loro nome utente/password se li hanno dimenticati. Questo servizio di Help verrà  fornito agli utenti sotto forma di pulsante nella pagina di login e nella loro pagina utente. Se lasciato vuoto, il bottone non verrà  visualizzato.';
+$string['changepasswordhelp'] = 'Qui si può specificare una collocazione dove i gli utenti possono recuperare o cambiare il loro nome utente/password se li hanno dimenticati. Questo servizio di Help verrà  fornito agli utenti sotto forma di pulsante nella pagina di login e nella loro pagina utente. Se lasciato vuoto, il bottone non verrà  visualizzato.';
 $string['chooseauthmethod'] = 'Scegliete un metodo di autenticazione:';
 $string['createpasswordifneeded'] = 'Creare password se necessario';
 $string['forcechangepassword'] = 'Forza il cambiamento della password';
