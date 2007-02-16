@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8 dev (2007012400)
+      // mnet.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (자동 서명)';
@@ -16,8 +16,8 @@ $string['allow'] = '허용';
 $string['authfail_nosessionexists'] = '인증 실패: mnet 세션이 존재하지 않음';
 $string['authfail_sessiontimedout'] = '인증 실패: mnet 세션 시간 초과';
 $string['authfail_usermismatch'] = '인증 실패: 사용자 불일치';
-$string['authmnetautoadddisabled'] = '무들 네트웍 인증 플러그인에서 <em>자동 추가 사용자</em>는 비활성화 됩니다.';
-$string['authmnetdisabled'] = '무들 네트웍 인증플러그인 비활성됨.';
+$string['authmnetautoadddisabled'] = '무들네트웍 인증 플러그인에서 <em>자동 추가 사용자</em>는 비활성화 됩니다.';
+$string['authmnetdisabled'] = '무들네트웍 인증플러그인 비활성됨.';
 $string['badcert'] = '유효한 자격이 아님.';
 $string['couldnotgetcert'] = '$a에서 인증서를 찾을 수 없음.<br />호스트가 죽었거나 설정이 잘못 되어 있음.';
 $string['couldnotmatchcert'] = '웹서버에 의해 출판된 현재의 인증서와 일치하지 않음.';
@@ -35,7 +35,7 @@ $string['deny'] = '거부';
 $string['description'] = '설명';
 $string['editenrolments'] = '출석';
 $string['enabled_for_all'] = '(이 서비스는 모든 호스트에 활성화되어 있습니다)';
-$string['enrolcourseenrol_desc'] = '무들 네트웍 출석 기능을 이용한 이 배움터의 츨석/결석한 사용자. 원격 호스트에서 허용한 또 다른 출석 방법의 일환으로 이 배움터에 출석을 했던 사용자들이 있다면 그들을 주목하라. 
+$string['enrolcourseenrol_desc'] = '무들네트웍 출석 기능을 이용한 이 배움터의 츨석/결석한 사용자. 원격 호스트에서 허용한 또 다른 출석 방법의 일환으로 이 배움터에 출석을 했던 사용자들이 있다면 그들을 주목하라. 
 그러한 출석사항은 <em>기타 출석자</em>항목에 나타나 있다.';
 $string['enrolcourses_desc'] = '이 호스트에 의해 원격 출석이 제공되는 배움터';
 $string['enrollingincourse'] = '호스트 $a[1]의 $a[0] 배움터 출석<br />';
@@ -50,7 +50,7 @@ $string['failedaclwrite'] = '사용자 \'$a\'에 대한 MNET 접속 권한 목�
 $string['forbidden-function'] = '그 기능은 RPC 때문에 활성화될 수 없습니다.';
 $string['forbidden-transport'] = '시도하려는 전송방법은 허용되지 않습니다.';
 $string['forcesavechanges'] = '변경사항 강제 저장';
-$string['helpnetworksettings'] = '역내 무들 네트웍 구성';
+$string['helpnetworksettings'] = '역내 무들네트웍 구성';
 $string['hidelocal'] = '지역 사용자 감추기';
 $string['hideremote'] = '원격 사용자 감추기';
 $string['host'] = '호스트';
@@ -83,17 +83,17 @@ $string['keymismatch'] = '소지하고 있는 공개키는 최근 공개된 이 
 $string['last_connect_time'] = '최근 접속 시각';
 $string['last_connect_time_help'] = '이 호스트에 접속했던 가장 최근의 접속 시각';
 $string['last_transport_help'] = '이 호스트에 최종 접속할 때 사용한 접속 계층';
-$string['loginlinkmnetuser'] = '<br />무들 네트웍의 원격 사용자라면 <a href=\"$a\">여기에서 이메일 주소를 확인</a>할 수 있으며, 로그인 화면으로 되돌아 올 수 있다.<br />';
+$string['loginlinkmnetuser'] = '<br />무들네트웍의 원격 사용자라면 <a href=\"$a\">여기에서 이메일 주소를 확인</a>할 수 있으며, 로그인 화면으로 되돌아 올 수 있다.<br />';
 $string['logs'] = '기록';
-$string['mnet'] = '무들 네트웍';
+$string['mnet'] = '무들네트웍';
 $string['mnet_concatenate_strings'] = '3 문자열로 축약하여 결과 전송';
 $string['mnet_session_prohibited'] = '홈 서버의 사용자는 현재 $a 로 방문할 수 있도록 허용되지 않았습니다.';
-$string['mnetdisabled'] = '무들 네트웍은 사용할 수 <strong>없습니다</strong>.';
+$string['mnetdisabled'] = '무들네트웍을 사용할 수 <strong>없습니다</strong>.';
 $string['mnetenrol'] = 'MNET 출결';
 $string['mnetlog'] = '기록들';
-$string['mnetpeers'] = '무들 네트웍 구성원들';
+$string['mnetpeers'] = '무들네트웍 환경';
 $string['mnetservices'] = '서비스';
-$string['mnetsettings'] = '무들 네트웍 설정';
+$string['mnetsettings'] = '무들네트웍 설정';
 $string['moodle_home_help'] = '원격 호스트의 무들 홈페이지 경로, 예: /moodle/';
 $string['moodleloc'] = '무들 경로(위치)';
 $string['net'] = '네트웍';
@@ -136,7 +136,7 @@ $string['reenableserver'] = '아니오 - 서버를 재 활성화하려면 이 �
 $string['registerallhosts'] = '모든 호스트 등록(<em>중계기 모드</em>)';
 $string['registerallhostsexplain'] = '호스트에 접속해 오는 모든 호스트를 자동으로 등록하도록 선택할 수 있습니다. 이는 당신의 호스트에 접속해서 공개키를 요구하는 어떤 무들 사이트던지 당신의 호스트 목록에 나타난다는 것을 의미합니다.<br />아래의 \"모든 호스트\" 설정을 할 수 있는 선택사항과 약간의 서비스를 활성화함으로서 가능하며, 무들 서버라면 어느 것도 가리지 않고 서비스를 제공할 수 있습니다.';
 $string['remotecourses'] = '원격 배움터';
-$string['remoteenrolhosts_desc'] = '무들 네트웍 플러그인을 경유한 출석을 허용해 놓은 호스트에서의 사용자 출결 사항';
+$string['remoteenrolhosts_desc'] = '무들네트웍 플러그인을 경유한 출석을 허용해 놓은 호스트에서의 사용자 출결 사항';
 $string['remotehost'] = '원격 중계기';
 $string['remotehosts'] = '원격 호스트';
 $string['remotemoodles'] = '원격 무들';
@@ -148,23 +148,23 @@ $string['selectaccesslevel'] = '목록에서 접속 수준을 선택하십시오
 $string['selectahost'] = '원격 무들 호스트를 선택하십시오.';
 $string['serviceswepublish'] = '$a 에게 공개하는 서비스들';
 $string['serviceswesubscribeto'] = '우리가 요청한 $a 상의 서비스들';
-$string['settings'] = '설정';
+$string['settings'] = '공개키 설정';
 $string['showlocal'] = '로컬 사용자 보기';
 $string['showremote'] = '원격 사용자 보기';
-$string['ssl_acl_allow'] = 'SSO ACL : $a[1]의 사용자 $a[0] 허용';
-$string['ssl_acl_deny'] = 'SSO ACL : $a[1]의 사용자 $a[0] 거부';
+$string['ssl_acl_allow'] = 'SSO ACL : $a[1] 의 사용자 $a[0] 허용';
+$string['ssl_acl_deny'] = 'SSO ACL : $a[1] 의 사용자 $a[0] 거부';
 $string['ssoaccesscontrol'] = 'SSO 접속 제어';
-$string['ssoacldescr'] = '원격 무들 네트웍 호스트의 특정 사용자 접속을 승인/거부 하려면 이 화면을 이용하라. 여러분이 원격 사용자에게 SSO 서비스를 제공하면 가능하다. 여러분의 로컬 사용자가 다른 무들 네트웍 호스트를 탐방할 수 있게 제어하려면, 역할 시스템에서 그들에게 <em>mnetcanroam</em> 능력을 부여하면 된다.';
-$string['ssoaclneeds'] = '이 기능을 작동시키기 위해서는 무들 네트웍을 켜고, 자동 사용자 추가 기능을 활성화한 채, 무들 네트웍 인증 플러그인을 가동시켜야 합니다.';
+$string['ssoacldescr'] = '원격 무들네트웍 호스트의 특정 사용자 접속을 승인/거부 하려면 이 화면을 이용하라. 여러분이 원격 사용자에게 SSO 서비스를 제공하면 가능하다. 여러분의 로컬 사용자가 다른 무들네트웍 호스트를 탐방할 수 있게 제어하려면, 역할 시스템에서 그들에게 <em>mnetcanroam</em> 능력을 부여하면 된다.';
+$string['ssoaclneeds'] = '이 기능을 작동시키기 위해서는 무들네트웍을 켜고, 자동 사용자 추가 기능을 활성화한 채, 무들네트웍 인증 플러그인을 가동시켜야 합니다.';
 $string['strict'] = '엄격하게';
 $string['subscribe'] = '등록';
 $string['system'] = '시스템';
 $string['testtrustedhosts'] = '주소 검사';
 $string['testtrustedhostsexplain'] = '인증된 호스트인지를 알아보려면 IP 주소를 입력하세요.';
 $string['transport_help'] = '이 선택항목들은 상호 호혜적인 것으로 만일 여러분의 서버가 서명된 SSL 인증서만 가지고 있다면, 원격서버에 서명된 SSL 인증서만 요구할 수 있다.';
-$string['trustedhosts'] = 'XML-RPC 인증 호스트';
+$string['trustedhosts'] = 'XML-RPC 인증';
 $string['trustedhostsexplain'] = '<p>호스트 인증 매카니즘은 무들 API의 일부분으로 소위 XML-RPC를 호출하여 특정 기계에서 이를 실행시킬 수 있도록 한다. 이는 스크립트가 무들의 행동을 관장하게 하는데, 활성화 시키기에는 매우 위험한 선택 사항이 될 것이다. 만일 확신이 서지 않는다면, 이를 꺼 두도록 하라.</p>
- <p>이것은 무들 네트웍에서는 필요하지 <strong>않다</strong>.</p>
+ <p>이것은 무들네트웍에서는 필요하지 <strong>않다</strong>.</p>
  <p>이것을 활성화시키기 위해서는, 한 줄에 하나씩 IP 주소 혹은 네트웍 목록을 입력하라. 다음은 작성 예이다.</p>로칼 호스트:<br />127.0.0.1<br />로칼 호스트(네트웍 블록):<br />127.0.0.1/32<br />IP 주소가 192.168.0.7인 호스트만:<br />192.168.0.7/32<br />IP 주소가 192.168.0.1 에서 192.168.0.255 사이의 모든 호스트:<br />192.168.0.0/24<br />모든 호스트:<br />192.168.0.0/0<br />물론 마지막 예는 추천할 수 <strong>없는</strong> 사례이기는 하다.';
 $string['unknownerror'] = '교섭중에 알 수 없는 오류 발생';
 $string['usercannotchangepassword'] = '원격 사용자이기 때문에 이곳에서는 암호를 바꿀 수 없다.';
@@ -176,7 +176,7 @@ $string['verifysignature-invalid'] = '서명 확인 실패. 이 페이로드는 
 $string['version'] = '판번호';
 $string['warning'] = '경고';
 $string['wrong-ip'] = 'IP 주소가 보유하고 있는 기록과 일치하지 않습니다.';
-$string['yourhost'] = '당신의 호스트';
-$string['yourpeers'] = '당신의 피어';
+$string['yourhost'] = '호스트';
+$string['yourpeers'] = '네트웍 환경';
 
 ?>
