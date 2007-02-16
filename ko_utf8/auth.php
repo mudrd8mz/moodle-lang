@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8 dev (2007012400)
+      // auth.php - created with Moodle 1.9 dev (2007021400)
 
 
-$string['alternatelogin'] = '여기에 URL을 입력해 놓으면, 그것은 이 사이트를 위한 로그인 페이지로 사용될 것이다. 그것은 <strong>\'$a\'</strong> 처럼 실행문을 가진 형태여야 하고 <strong>사용자ID</strong>  <strong>password</strong> 그리고 Return 필드를 포함하여야 한다. 
+$string['alternatelogin'] = '이 사이트를 위한 로그인 페이지로 사용할 URL을 입력. <strong>\'$a\'</strong> 처럼 실행문을 가진 형태여야 하고 <strong>사용자ID</strong>  <strong>password</strong> 그리고 Return 필드를 포함하여야 한다. 
 <br />정확한 URL을 입력하도록 주의하지 않으면 이 사이트에 갇혀 버릴 수도 있다.<br />
 기본 로그인 페이지를 사용하려면 이 칸을 빈칸으로 남겨두어라.';
 $string['alternateloginurl'] = '대체 로그인 URL';
@@ -42,7 +42,13 @@ $string['auth_common_settings'] = '일반설정';
 $string['auth_data_mapping'] = '데이타 매핑';
 $string['auth_dbcantconnect'] = '지정한 인증 데이터베이스에 연결할 수 없습니다.';
 $string['auth_dbchangepasswordurl_key'] = '암호 변경 URL';
+$string['auth_dbdebugauthdb'] = 'Debug ADOdb';
+$string['auth_dbdebugauthdbhelp'] = 'Debug ADOdb 외부 데이터베이스 연결 - 로그인할 때 빈 화면이 나올 때 사용. 접속이 빈번한 상용 사이트에는 적합하지 않다.';
+$string['auth_dbdeleteuser'] = '삭제된 사용자 $a[0] 아이디 $a[1]';
+$string['auth_dbdeleteusererror'] = '사용자 $a 삭제 오류';
 $string['auth_dbdescription'] = '이 방식은 외부의 데이터베이스 테이블을 통해 사용자의 아이디와 비밀번호가 유효한 지를 확인합니다. 만일 계정이 새로 만든 것이라면, 다른 항목의 정보도 무들의 데이터베이스에 복사될 수 있습니다.';
+$string['auth_dbextencoding'] = '외부 db 암호화';
+$string['auth_dbextencodinghelp'] = '외부 데이터베이스의 암호화 사용';
 $string['auth_dbextrafields'] = '이 항목들은 선택 사항입니다. 여기에 지정해 놓으면 <b>외부 데이타베이스 항목</b>으로부터 무들의 사용자 정보 항목을 채울 수 있습니다.<p>만일 이 곳을 비워 놓으면, 기본값이 사용됩니다.</p><p>사용자가 로그인 한 후에도 이 항목들을 수정할 수 있습니다.</p>';
 $string['auth_dbfieldpass'] = '비밀번호를 포함하는 필드명';
 $string['auth_dbfieldpass_key'] = '암호 필드';
@@ -59,6 +65,10 @@ $string['auth_dbpass_key'] = '비밀번호';
 $string['auth_dbpasstype'] = '<p>비밀번호 필드의 포멧을 구체적으로 적어라. PostNuke와 같은 웹 프로그램으로 연결하기 위해서는 MD5 암호화를 사용하는 것이 유용하다.</p> <p>만일 사용자 아이디나 이메일주소는 외부 데이터베이스를 사용하지만, 암호는 무들이 관리할 때에는 \'internal\'을 사용하라. 이때 <i>반드시</i> 외부 디비의 이메일주소 필드를 확보해야 하고, admin/cron.php 를 주기적으로 실행시켜야만 한다. 무들은 임시 비밀번호로 새 사용자에게 이메일을 발송할 것이다.</p>';
 $string['auth_dbpasstype_key'] = '비밀번호 형식';
 $string['auth_dbrevive'] = '되살린 사용자 $a[0] id $a[1]';
+$string['auth_dbsetupsql'] = 'SQL 설정 명령';
+$string['auth_dbsetupsqlhelp'] = '특별한 데이터베이스 설정을 위한 SQL 명령은 종종 통신 엔코딩을 설정하기 위해 이용된다. 예로 MySQL 과 PostgreSQL은 <em>SET NAMES \'utf8\'</em>이다.';
+$string['auth_dbsybasequoting'] = 'sybase quotes 사용';
+$string['auth_dbsybasequotinghelp'] = 'Sybase style single quote escaping - Oracle, MS SQL 및 몇 개의 데이터베이스에서 필요하다. MySQL에서는 사용하지 말 것!';
 $string['auth_dbtable'] = '데이타베이스의 테이블명';
 $string['auth_dbtable_key'] = '테이블';
 $string['auth_dbtitle'] = '외부 데이타베이스 사용';
@@ -207,19 +217,19 @@ $string['auth_radiussecret_key'] = '보안키';
 $string['auth_radiustitle'] = 'RADIUS 서버 사용';
 $string['auth_shib_changepasswordurl'] = '암호 변경 URL';
 $string['auth_shib_convert_data'] = '자료 변경 API';
-$string['auth_shib_convert_data_description'] = '당신은 이 좀더 암호에 의해 제공된 데이터를 변경하기 위해 이 API를 사용할 수 있다. 좀 더 많은 규정을 위해
+$string['auth_shib_convert_data_description'] = '추후 암호에 의해 제공된 데이터를 변경하기 위해 이 API를 사용할 수 있다. 좀 더 많은 규정을 위해
 <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> 을 읽어보라.';
-$string['auth_shib_convert_data_warning'] = '웹서버 진행에 의해 파일이 존재하지 않거나 읽을 수 없다.';
-$string['auth_shib_instructions'] = '만약 여러분의 기관이 Shibboleth login을 지원한다면 <a href=\"$a\"> 암호 로그인 </a>을 사용하라.<br />그렇지 않으면 여기 있는 정상적인 로그인 형식을 사용하라.';
+$string['auth_shib_convert_data_warning'] = '파일이 존재하지 않거나 서버가 파일을 읽을 수 없습니다!';
+$string['auth_shib_instructions'] = '만약 여러분의 기관이 Shibboleth login을 지원한다면 <a href=\"$a\"> Shibboleth 로그인 </a>을 사용하라.<br />그렇지 않으면 여기 있는 정상적인 로그인 형식을 사용하라.';
 $string['auth_shib_instructions_help'] = '여기에 Shibboleth를 설명하기 위한 당신의 주문 내용을 제공하여야 한다. 그것은 명령 섹션의 로그인 페이지에 보여질 것이다. 설명서에는 사용자가 로그인을 원할 때 클릭할 수 있는 \"<b>$a</b>\"링크를  포함하여야만 한다.';
-$string['auth_shib_only'] = '암호말만';
+$string['auth_shib_only'] = 'Shibboleth만';
 $string['auth_shib_only_description'] = '만약 암호 확증이 강요된다면 이 옵션을 체크하십시오.';
 $string['auth_shib_username_description'] = '모듈 사용자 이름으로 사용되어야 하는 다양한 웹서버 암호 환경의 이름을 지어라.';
-$string['auth_shibboleth_login'] = '암호말 로그인';
+$string['auth_shibboleth_login'] = 'Shibboleth 로그인';
 $string['auth_shibboleth_manual_login'] = '수동 로그인';
 $string['auth_shibbolethdescription'] = '이 방법을 사용하는 사용자는 창조적이며 <a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth</a>을 사용하는 것을 증명한다. 
 <br>어떻게 당신의 모듈을 비빌먼호와 함께 설치하는 가에 대해 <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a>를 반드시 읽어 두어라.';
-$string['auth_shibbolethtitle'] = '암호';
+$string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_updatelocal'] = '내부 데이터의 개정';
 $string['auth_updatelocal_expl'] = '<p><b> 내부 데이터의 갱신 :</b> 만약 이를 켜 놓으면, 각 필드는 (외부 인증처로부터) 로그인할 때 마다 혹은 사용자가 동기화가 있을 때 업데이트 될 것이다. 내부적으로 개정하도록 설정한 필드는 반드시 잠겨 있어야 한다.';
 $string['auth_updateremote'] = '외부데이터의 업데이트';
@@ -251,6 +261,7 @@ $string['pluginnotinstalled'] = '인증 플러그인 \'$a\'은 설치되어 있�
 $string['rpc_negotiation_timeout'] = 'RPC 교섭시간 초과';
 $string['selfregistration'] = '자동 등록';
 $string['selfregistration_help'] = '자동 등록에 쓰일 인증 플러그인을 선택하시오.';
+$string['sha1'] = 'SHA1 해쉬';
 $string['shib_no_attributes_error'] = '당신은 Shibboleth인증을 쓰는 것 같습니다만, 무들은 당신의 사용자 속성을 전달받지 못했습니다. 필요한 속성($a)을 무들 서비스 제공자 혹은 이 서버의 웹관리자에게 전달하였는지를 점검하여 주시기 바랍니다.';
 $string['shib_not_all_attributes_error'] = '무들은 당신의 경우와 같은 사례를 처리하기 위해서 별도의 Shibboleth 속성이 필요합니다.<br />여러분의 웹관리자나 인증제공자에게 문의하시기 바랍니다.';
 $string['shib_not_set_up_error'] = 'Shibboleth인증이 제대로 설정되지 않은 것 같습니다. Shibboleth인증을 설정하기 위한 자세한 내용은 <a href=\"README.txt\">README</a>를 확인하여 주기 바랍니다.';
