@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 Beta (2007020400)
+      // group.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['addexistinggroupstogrouping'] = '기존 모둠을 모둠무리에 추가';
 $string['addgroupstogrouping'] = '모둠을 모둠무리에 추가';
 $string['adduserstogroup'] = '사용자를 모둠에 추가';
+$string['anygrouping'] = '[어떤 모둠무리]';
 $string['cancel'] = '취소';
 $string['createautomaticgrouping'] = '자동 모둠무리 생성';
 $string['creategroup'] = '모둠 생성';
@@ -26,6 +27,7 @@ $string['editgroupingpermissions'] = '모둠무리 권한 편집';
 $string['editgroupingsettings'] = '모둠무리 설정';
 $string['editgroupsettings'] = '모둠 설정';
 $string['enrolmentkey'] = '등록키';
+$string['erroraddremoveuser'] = '모둠에 $a 사용자 추가/제거 오류';
 $string['erroreditgroup'] = '$a 모둠 생성/갱신 오류';
 $string['erroreditgrouping'] = '$a 무리 생성/갱신 오류';
 $string['errorinvalidgroup'] = '오류, $a 모둠은 유효하지 않습니다.';
