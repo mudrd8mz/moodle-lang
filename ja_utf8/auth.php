@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8 Beta (2007020200)
+      // auth.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['alternatelogin'] = 'ここにURLを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong> フィールドおよび <strong>password</strong> フィールドをMoodleに渡してください。<br />間違ったURLを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合、空白のままにしてください。';
@@ -37,7 +37,13 @@ $string['auth_common_settings'] = '一般設定';
 $string['auth_data_mapping'] = 'データマッピング';
 $string['auth_dbcantconnect'] = '指定された認証データベースに接続できませんでした ...';
 $string['auth_dbchangepasswordurl_key'] = 'パスワード変更のURL';
+$string['auth_dbdebugauthdb'] = 'ADOdbデバッグ';
+$string['auth_dbdebugauthdbhelp'] = '外部データベースへのADOdbデバッグ接続 - ログイン時に空白ページが表示される場合、使用してください。実稼動サイトには適していません。';
+$string['auth_dbdeleteuser'] = 'ユーザ $a[0] id $a[1] を削除しました。';
+$string['auth_dbdeleteusererror'] = 'ユーザ $a の削除時にエラーが発生しました。';
 $string['auth_dbdescription'] = 'ユーザ名とパスワードを確認するために外部のデータベースを使用します。新しいアカウントを作成する場合、他のフィールドの情報がMoodleへ複製されます。';
+$string['auth_dbextencoding'] = '外部データベースエンコーディング';
+$string['auth_dbextencodinghelp'] = '外部データベースで使用されるエンコーディング';
 $string['auth_dbextrafields'] = 'これらのフィールドは任意項目です。<b>外部データベースフィールド</b>より事前に入力されたMoodleユーザフィールドを選択することも可能です。<p>空白の場合は初期値が使用されます。</p><p>どちらの場合でも、ユーザはログイン後にすべてのフィールドを編集可能です。</p>';
 $string['auth_dbfieldpass'] = 'パスワードを含んだフィールド名';
 $string['auth_dbfieldpass_key'] = 'パスワードフィールド';
@@ -51,12 +57,16 @@ $string['auth_dbname'] = 'データベース名';
 $string['auth_dbname_key'] = 'データベース名';
 $string['auth_dbpass'] = '上記ユーザ名に合致するパスワード';
 $string['auth_dbpass_key'] = 'パスワード';
-$string['auth_dbpasstype'] = '<p>パスワードフィールドで使用するフォーマットを指定してください。MD5暗号化はPostNukeのような他の一般的なウェブアプリケーションへの接続に有用です。</p><p>外部データベースでユーザ名およびメールアドレスを管理したい場合、「内部」を使用してください。パスワードに関しては、Moodleが管理します。「内部」を使用する場合、外部データベースでメールアドレスフィールドを提供して、定期的に auth/db/auth_db_sync_users.php を実行してください。Moodleが、新しいユーザに仮パスワードをメール送信します。</p>';
+$string['auth_dbpasstype'] = '<p>パスワードフィールドで使用するフォーマットを指定してください。MD5暗号化はPostNukeのような他の一般的なウェブアプリケーションへの接続に有用です。</p><p>外部データベースでユーザ名およびメールアドレスを管理したい場合、「内部」を使用してください。パスワードに関しては、Moodleが管理します。「内部」を使用する場合、外部データベースのメールアドレスフィールドを提供して、定期的に admin/cron.php および auth/db/auth_db_sync_users.php を実行してください。Moodleが新しいユーザに仮パスワードをメール送信します。</p>';
 $string['auth_dbpasstype_key'] = 'パスワードフォーマット';
 $string['auth_dbrevive'] = 'レビューユーザ $a[0] ID $a[1]';
+$string['auth_dbsetupsql'] = 'SQLセットアップコマンド';
+$string['auth_dbsetupsqlhelp'] = '特別データベースセットアップ用のSQLコマンドで、多くの場合、コミュニケーションエンコーディングに使用されます - 例 MySQLおよびPostgreSQL: <em>SET NAMES \'utf8\'</em>';
+$string['auth_dbsybasequoting'] = 'Sybaseクオートを使用する';
+$string['auth_dbsybasequotinghelp'] = 'Sybaseスタイルのシングルクオートエスケープです - Oracle、MS SQLおよび他のデータベースが必要です。MySQLには使用しないでください!';
 $string['auth_dbtable'] = 'データベースのテーブル名';
 $string['auth_dbtable_key'] = 'テーブル';
-$string['auth_dbtitle'] = '外部データベースを使用する';
+$string['auth_dbtitle'] = '外部データベース';
 $string['auth_dbtype'] = 'データベースタイプ (詳細は<a href=../lib/adodb/readme.htm#drivers>ADOdb documentation</a>をご覧ください)';
 $string['auth_dbtype_key'] = 'データベース';
 $string['auth_dbuser'] = 'データベースアクセス用のユーザ名';
@@ -240,6 +250,7 @@ $string['pluginnotinstalled'] = '認証プラグイン「 $a 」がインスト�
 $string['rpc_negotiation_timeout'] = 'RPCネゴシエーションタイムアウト';
 $string['selfregistration'] = '自己登録';
 $string['selfregistration_help'] = 'ユーザの自己登録を処理する認証プラグインを選択してください。';
+$string['sha1'] = 'SHA1暗号化';
 $string['shib_no_attributes_error'] = 'あなたはShibbolethによる認証を行ったようですが、Moodleはユーザ属性を受信していません。Moodleが稼動しているプロバイダへ必要な属性 ($a) を発行するアイデンティティ・プロバイダを確認するか、このサーバの管理者に連絡してください。';
 $string['shib_not_all_attributes_error'] = 'あなたの場合、存在していないShibboleth属性をMoodleは必要とします。属性は次のとおりです: $a<br/>このサーバの管理者またはアイデンティティ・プロバイダにご連絡ください。';
 $string['shib_not_set_up_error'] = 'Shibboleth環境変数がこのページに存在していないため、Shibboleth認証が正しく設定されていないようです。Shibboleth認証の設定に関する更なる情報は、<a href=\"README.txt\">README</a>を参照、またはこのMoodleをインストールした管理者に連絡してください。';
