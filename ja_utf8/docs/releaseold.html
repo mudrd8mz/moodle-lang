@@ -247,23 +247,22 @@
 
 <p>&nbsp;</p>
 
-<h3> Moodle 1.4.2   (5th November, 2004)</h3>
+<h3> Moodle 1.4.2 (2004年11月5日)</h3>
 
   <dl>
     <dt>重要なセキュリティ修正</dt>
     <dd> 
       <ul>
-        <li>Better checking/cleaning of script parameters used in quite a few areas 
-            throughout Moodle (a BIG thanks to Petr Skoda for his recent security audit!)</li>
-        <li>Quoted some SQL parameters in the glossary module to prevent possible injection</li>
+        <li>Moodleの少しの部分で使用されているスクリプトパラメータをさらに確認/クリーニングしました (Petr Skoda氏の最近のセキュリティ監査に感謝します!)。</li>
+        <li>SQLインジェクションを避けるため、用語集モジュールのいくつかのSQLパラメータにクオートをつけました。</li>
       </ul>
     </dd>
 
     <dt>少しの新しい機能</dt>
     <dd> 
       <ul>
-        <li>New PAM authentication module for direct authentication on Unix/Linux</li>
-        <li>Course creators can now restore to new or existing courses</li>
+        <li>PAM認証モジュールによるUnix/Linuxの直接認証を追加しました。</li>
+        <li>コース作成者が新しいコースまたは既存のコースをリストアできるようにしました。</li>
         <li>Forum posts now include detailed headers to allow correct threading in mail clients</li>
       </ul>
     </dd>
@@ -271,34 +270,32 @@
     <dt>そして数多くの他のバグ修正</dt>
     <dd> 
       <ul>
-        <li>Backup is now more able to cope with errors (eg if backup is interrupted) 
-            and can clean up uncompleted files</li>
-        <li>Fix for database authentication against a PostgreSQL database</li>
-        <li>Fixes for some parts of installation to PostgreSQL</li>
-        <li>Forum subject lines are now only broken up in recent activity display</li>
-        <li>Database-based enrolments now actually work  :-)</li>
-        <li>SQL fixes for creation of RSS feeds from PostgreSQL</li>
-        <li>Added rtsp to the list of allowed protocols in cleaned HTML text</li>
-        <li>User profile and profile editing page can be called without parameters</li>
-        <li>Upgraded xmlize library to latest version</li>
-        <li>Upgraded phpmailer library to latest version</li>
-        <li>Various small code-only cleanups</li>
-        <li>Admin menu now allows backup/restore of the "site course" (front page)</li>
-        <li>Fixed a display bug in the forums index which only showed in PHP5</li>
-        <li>Highlighting function (eg after search) was stripping backslashes</li>
-        <li>Info from LDAP is now decoded from utf8</li>
-        <li>Course listings now work better with very large amounts of courses</li>
-        <li>Two SCORM bugs fixed (a typo and a problem with onbeforeunload)</li>
-        <li>Some cleanups when printing text, headers and variables in Lesson</li>
-        <li>Calendar now functions as expected even when you login as someone else</li>
-        <li>Fixed a few remaining short PHP tags</li>
-        <li>Better randomness for random questions (fix for bug introduced in 1.4)</li>
-        <li>When a teacher is removed from a course, they are now also removed from all groups in that course</li>
-        <li>Fixed strip_pages bug in Wiki</li>
-        <li>Fixes for charset detection in backups and multilang filter under PHP5</li>
+        <li>バックアップに関して、さらにエラー対策 (例 バックアップが中断された場合 ) および未完了ファイルのクリーンアップを施しました。</li>
+        <li>PostgreSQLデータベースのデータベース認証に関する問題を修正しました。</li>
+        <li>PostgreSQLを使用したインストールに関して、いくつかの部分を修正しました。</li>
+        <li>最近の活動表示からフォーラムの題名を分離しました。</li>
+        <li>データベースによりユーザ登録が本当に動作するようにしました  :-)</li>
+        <li>PostgreSQLからRSSフィードを作成するSQLを修正しました。</li>
+        <li>クリーニングされたHTMLテキストで許可されるプロトコルのリストにRTSPを追加しました。</li>
+        <li>ユーザプロフィールおよびプロフィール編集ページをパラメータなしにコールされるようにしました。</li>
+        <li>xmlizeライブラリを最新バージョンにアップグレードしました。</li>
+        <li>phpmailerライブラリを最新バージョンにアップグレードしました。</li>
+        <li>様々なコードのみのクリーンアップをしました。</li>
+        <li>管理者メニューで「サイトコース」 (フロントーページ) のバックアップ/リストアをできるようにしました。</li>
+        <li>PHP5でフォーラムインデックスのみが表示されるバグを修正しました。</li>
+        <li>ハイライトファンクション (例 検索後) がバックスラッシュを取り除くようにしました。</li>
+        <li>LDAPからの情報がUTF8からデコードされるようにしました。</li>
+        <li>非常に大量のコースでもコース一覧が正常に動作するようにしました。</li>
+        <li>2つのSCORMバグを修正しました (typoおよびonbeforeunloadでの問題)</li>
+        <li>レッスンでヘッダおよび変数のテキストを印刷する時のクリーンアップをしました。</li>
+        <li>他の人でログインしてもカレンダー機能が希望どおりに動作するようにしました。</li>
+        <li>残っていたPHPショートタグを修正しました。</li>
+        <li>ランダム問題をランダムさを改善しました (1.4からのバグを修正)。</li>
+        <li>教師がコースから削除された場合、そのコース内のすべてのグループからも削除されるようにしました。</li>
+        <li>Wikiのstrip_pagesバグを修正しました。</li>
+        <li>PHP5でのバックアップおよび多言語フィルタに関する文字コード検出を修正しました。</li>
       </ul>
     </dd>
-
   </dl>
 <br />
 
