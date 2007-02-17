@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 dev (2006101001)
+      // forum.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -129,6 +129,7 @@ $string['namesocial'] = 'Sociaal forum';
 $string['nameteacher'] = 'Forum voor leraren';
 $string['newforumposts'] = 'Nieuwe forumberichten';
 $string['nodiscussions'] = 'Er zijn nog geen discussies in dit forum';
+$string['nodiscussionsstartedby'] = 'Deze gebruiker heeft nog geen discussies gestart';
 $string['noguestpost'] = 'Sorry, gasten mogen geen berichten posten';
 $string['noguestsubscribe'] = 'Sorry, gasten mogen zich niet inschrijven om forumberichten via mail te kunnen ontvangen.';
 $string['noguesttracking'] = 'Sorry, gasten kunnen de instellingen voor het opvolgen van forumberichten niet wijzigen.';

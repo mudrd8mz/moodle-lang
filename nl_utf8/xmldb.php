@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 dev (2006100401)
+      // xmldb.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['aftertable'] = 'Tabel resultaat:';
@@ -19,6 +19,7 @@ $string['confirmdeletexmlfile'] = 'Ben je zeker dat je dit bestand wil verwijder
 $string['confirmrevertchanges'] = 'Ben je er zeker van dat je de wijzigingen ongedaan wil maken?';
 $string['create'] = 'Maak';
 $string['createtable'] = 'Maak tabel:';
+$string['defaultincorrect'] = 'Foute standaard';
 $string['delete'] = 'Verwijder';
 $string['delete_field'] = 'Verwijder veld';
 $string['delete_index'] = 'Verwijder index';
@@ -88,6 +89,7 @@ $string['table'] = 'Tabel';
 $string['tables'] = 'Tabellen';
 $string['test'] = 'Test';
 $string['textincorrectlength'] = 'Foute lengte voor tekstveld';
+$string['unload'] = 'Laad niet';
 $string['up'] = 'Omhoog';
 $string['view'] = 'Bekijk';
 $string['view_reserved_words'] = 'Bekijk gereserveerde woorden';

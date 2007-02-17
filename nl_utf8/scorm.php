@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.8 dev (2006101001)
+      // scorm.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['advanced'] = 'Geavanceerd';
@@ -29,8 +29,11 @@ $string['domxml'] = 'DOMXML externe bibliotheek';
 $string['element'] = 'Element';
 $string['entercourse'] = 'Begin de SCORM/AICC-cursus';
 $string['errorlogs'] = 'Foutenlogboek';
+$string['everyday'] = 'Elke dag';
+$string['everytime'] = 'Elke keer wanneer gebruikt';
 $string['exit'] = 'Verlaat de SCORM/AICC-cursus';
 $string['expcoll'] = 'Maximaliseer/Minimaliseer';
+$string['external'] = 'Timing update externe pakketten';
 $string['failed'] = 'Mislukt';
 $string['firstaccess'] = 'Eerste toegang';
 $string['firstattempt'] = 'Eerste poging';
@@ -84,6 +87,7 @@ $string['noscriptnoscorm'] = 'Je browser ondersteunt geen javascript of javascri
 $string['not_corr_type'] = 'Typfout voor tag $a->tag';
 $string['notattempted'] = 'Niet geprobeerd';
 $string['objectives'] = 'Objectieven';
+$string['onchanges'] = 'Bij wijziging';
 $string['organization'] = 'Organisatie';
 $string['organizations'] = 'Organisaties';
 $string['othertracks'] = 'Andere sporen';
@@ -118,6 +122,7 @@ $string['started'] = 'Gestart op';
 $string['status'] = 'Status';
 $string['statusbar'] = 'Toon statusbalk';
 $string['student_response'] = 'Antwoord';
+$string['suspended'] = 'Onderbroken';
 $string['syntax'] = 'Syntaxisfout';
 $string['tag_error'] = 'Onbekende tag ($a->tag) met deze inhoud: $a->value';
 $string['time'] = 'Tijd';

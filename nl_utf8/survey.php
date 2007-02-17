@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.7 dev (2006083003)
+      // survey.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['actual'] = 'Werkelijk';
@@ -201,6 +201,7 @@ $string['survey:download'] = 'Download antwoorden';
 $string['survey:participate'] = 'Deelnemen aan onderzoek';
 $string['survey:readresponses'] = 'Antwoorden zien';
 $string['surveycompleted'] = 'Je bent klaar met het invullen van dit onderzoek. De grafiek hieronder laat een samenvatting zien van jouw resultaten vergeleken met het klasseresultaat.';
+$string['surveygraph'] = 'Onderzoeksgrafiek';
 $string['surveyname'] = 'De naam van het onderzoek';
 $string['surveysaved'] = 'Het onderzoek is bewaard';
 $string['surveytype'] = 'Soort onderzoek';
