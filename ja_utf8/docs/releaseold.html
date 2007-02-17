@@ -54,7 +54,7 @@
     <dt>他のバグ修正</dt>
     <dd>
       <ul>
-    <li>HTMLエディタ: 文字コードに関する問題を修正しました。</li>
+    <li>HTMLエディタ: 文字コードに関するバグを修正しました。</li>
     <li>小テスト: エクスポート/インポートドロップダウンメニューを修正しました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2963" target="_blank">#2963</a>)。</li> 
     <li>小テスト: 不明な問題に関する致命的なエラーを切り捨てずに、続けるようにしました。</li> 
     <li>コースソーシャルフォーラム: メール購読解除に関する誤解されやすいリンクを取り除きました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2945" target="_blank">#2945</a>)。</li>     
@@ -101,7 +101,7 @@
     <li>投票モジュールのオプションに関して表示を改善しました。</li>
     <li>HTMLテーブルエディタのUI (ユーザインターフェース) を強化しました。</li>
     <li>config.phpの$CFGがデータベース設定をオーバライドするようにしました。</li>
-        <li>無効にされていたDebianシステムのガーベッジコレクションを有効にしました。古いセッション問題を修正しました。</li>
+        <li>無効にされていたDebianシステムのガーベッジコレクションを有効にしました。古いセッションバグを修正しました。</li>
       </ul>
     </dd>
     
@@ -119,10 +119,10 @@
       <ul>
     <li>インストーラー: HEADより数多くの修正および更新を行いました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2625" target="_blank">#2625</a>を含む)。</li>
     <li>インストーラー: 自身のURLを確認する前にallow_url_fopen()をチェックするようにしました。</li>
-    <li>いくつかのフォーラム検索問題を修正しました。</li>
+    <li>いくつかのフォーラム検索バグを修正しました。</li>
     <li>フォーラムのソートに関するバグを修正しました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2613" target="_blank">#2613</a>)。</li>
-    <li>末尾の空白に関するユーザ検索の問題を修正しました。</li>
-    <li>/adminパスに関するハードコードされたインスタンスの問題を修正しました。</li>
+    <li>末尾の空白に関するユーザ検索のバグを修正しました。</li>
+    <li>/adminパスに関するハードコードされたインスタンスのバグを修正しました。</li>
     <li>グループに関するいくつかのバグを修正しました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2133" target="_blank">#2133</a>、<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2550" target="_blank">#2550</a>、<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2363" target="_blank">#2363</a>)。</li>
     <li>プレインテキストのメールを受信したいユーザにHTML要約を送信しないようにしました。</li>
     <li>SCORMモジュール: ナビゲーションバーのエラーを修正しました。</li>
@@ -130,9 +130,9 @@
     <li>ファイル: 「親フォルダ」アイコンを追加しました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2491" target="_blank">#2491</a>)。</li>
     <li>Postgresサポート: mdl_logテーブルの一貫性に関して修正しました。</li>
     <li>認証プラグイン: データのクリーンアップおよびトランケイトを改善しました。</li>
-    <li>認証プラグイン: 外部認証に関する問題を修正しました &mdash; ゲストとしてログインしたことがある場合、最初の外部認証ユーザとしてログインするとエラーが発生する。</li>
-    <li>LDAP認証: configフィールドの末尾にセミコロンが付くと認証を中断してしまう1.4.2から後戻りした問題を修正しました。</li>
-    <li>DB認証: データベース認証が正しくユーザデータフィールドを取得しない問題を修正しました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2319" target="_blank">#2319</a>)。</li>
+    <li>認証プラグイン: 外部認証に関するバグを修正しました &mdash; ゲストとしてログインしたことがある場合、最初の外部認証ユーザとしてログインするとエラーが発生する。</li>
+    <li>LDAP認証: configフィールドの末尾にセミコロンが付くと認証を中断してしまう1.4.2から後戻りしたバグを修正しました。</li>
+    <li>DB認証: データベース認証が正しくユーザデータフィールドを取得しないバグを修正しました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2319" target="_blank">#2319</a>)。</li>
     <li>Paypal登録プラグイン: 付加記号が付いて登録処理が中断される問題 (今のところスペイン語) を解消するため、Paypalに送信されるテキストをサニタイズするようにしました。
     現在、Paypalではドイツ語およびフランス語の付加記号がサポートされています。この機能は他の言語に対して簡単に拡張することが可能です。</li>
     <li>バックアップ/リストア: ユーザが管理者ではなく、リストアするコースに教師がいない場合、教師を追加するようにしました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2381" target="_blank">#2381</a>)。</li>
@@ -143,7 +143,7 @@
     <li>用語集およびBlackboard: インポートを修正しました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2310" target="_blank">#2310</a>)。</li>
     <li>カレンダー: 不正なデータに対してさらに強固な処理をするようにしました。</li>
     <li>カレンダー: カレンダーのHTMLを修正しました (<a href="http://moodle.org/bugs/bug.php?op=show&bugid=2350" target="_blank">#2350</a>)。</li>
-    <li>1.4.3のコースの並び順が壊れて、時々コースを作成できなくしていました &mdash; 並び順に関するすべての問題を修正しました。「マイコース」一覧を表示してしまうget_categories()コールに関係する問題も修正しました。</li>
+    <li>1.4.3のコースの並び順が壊れて、時々コースを作成できなくしていました &mdash; 並び順に関するすべてのバグを修正しました。「マイコース」一覧を表示してしまうget_categories()コールに関係する問題も修正しました。</li>
     <li>Wiki: いくつかの修正をしました。</li>
     <li>ライブログに適切なページフッタを設定しました。</li>
     <li>さらにコードを一般的なクリーンアップおよびタイディーアップしました。</li>
@@ -207,7 +207,7 @@
     <dt>他のバグ修正</dt>
     <dd>
       <ul>
-        <li>重複するコースIDナンバーでのコースリストアに関する問題を修正しました。</li>
+        <li>重複するコースIDナンバーでのコースリストアに関するバグを修正しました。</li>
         <li>Postgresの問題に関する多くの小さな修正を施しました。</li>
         <li>デバッグモードが有効な場合の不要な警告表示を修正しました。</li>
         <li>PHP5の警告に関してさらに修正しました。</li>
@@ -226,12 +226,12 @@
         <li>活動フィルタで活動名を名称でソートするようにしました。</li>
         <li>用語集の検索でエイリアスも検索するようにしました。</li>
         <li>RSSエラーを無効なRSSとするのではなく、有効なRSSエラーファイルとして扱うようにしました。</li>
-        <li>SCORMパッケージの妥当性確認およびPHP5に関する問題を修正しました。</li>
-        <li>空のカテゴリに関するバックアップ/リストアの問題を修正しました。</li>
+        <li>SCORMパッケージの妥当性確認およびPHP5に関するバグを修正しました。</li>
+        <li>空のカテゴリに関するバックアップ/リストアのバグを修正しました。</li>
         <li>wikiのXHTMLを改善しました。</li>
         <li>最初のチャットセッションに関するチャットレポートのバグを修正しました。</li>
-        <li>多くのファイルまたは非常に大きなファイルを削除する場合に生じるSCORMの問題を修正しました。</li>
-        <li>用語集の百科事典フォーマットの問題を修正しました。</li>
+        <li>多くのファイルまたは非常に大きなファイルを削除する場合に生じるSCORMのバグを修正しました。</li>
+        <li>用語集の百科事典フォーマットのバグを修正しました。</li>
         <li>SCORMとzipコードの統合に関するバグを修正しました。</li>
         <li>対話プレインテキストメール通知のバグを修正しました。</li>
         <li>社会活動ブロックでsesskey変数が設定されていないバグを修正しました。</li>
@@ -271,7 +271,7 @@
     <dd> 
       <ul>
         <li>バックアップに関して、さらにエラー対策 (例 バックアップが中断された場合 ) および未完了ファイルのクリーンアップを施しました。</li>
-        <li>PostgreSQLデータベースのデータベース認証に関する問題を修正しました。</li>
+        <li>PostgreSQLデータベースのデータベース認証に関するバグを修正しました。</li>
         <li>PostgreSQLを使用したインストールに関して、いくつかの部分を修正しました。</li>
         <li>最近の活動表示からフォーラムの題名を分離しました。</li>
         <li>データベースによりユーザ登録が本当に動作するようにしました  :-)</li>
@@ -299,42 +299,40 @@
   </dl>
 <br />
 
-<h3> Moodle 1.4.1   (12th September, 2004)</h3>
+<h3> Moodle 1.4.1   (2004年9月12日)</h3>
 
 <dl>
     <dt>少しの新しい機能</dt>
     <dd> 
       <ul>
-        <li>New "Email Protection" filter will obfuscate all email addresses within all texts 
-            (to help prevent automated address-harvesting)</li>
-        <li>Allowed email addresses can now be restricted (see config-dist.php for details)</li>
-        <li>Extra instructions for translators embedded in translation interface</li>
-        <li>New help page for Directory Paths</li>
+        <li>新しい「メールプロテクション」フィルタにより、すべてのテキストのメールアドレスを分かり難くしました (自動メール収集プログラムを避けるため)。</li>
+        <li>メールアドレスを制限できるようにしました (詳細はconfig-dist.phpをご覧ください)。</li>
+        <li>翻訳インターフェースに翻訳者のためのインストラクションを追加しました。</li>
+        <li>ディレクトリパスのヘルプページを追加しました。</li>
       </ul>
     </dd>
     <dt>そしていくつかのバグ修正</dt>
     <dd> 
       <ul>
-        <li>Improved performance when viewing site logs</li>
-        <li>Improved paging and performance in glossary</li>
-        <li>Glossary entries are now shown correctly if they belong to multiple categories</li>
-        <li>Do not redeclare auth_user_login upon failed login</li>
-        <li>Fixed two missing icons in the cordoroyblue theme</li>
-        <li>Fixed missing "New event" button on Upcoming Events page</li>
-        <li>Always addslashes on chat messages from daemon users before inserting into db.</li>
-        <li>Fixes for handling of fixed enrollment periods when this is set for a course</li>
-        <li>Site course ID (defined as SITEID) is no longer assumed to be always 1</li>
-        <li>Default memory limits are increased beyond 16M, to help Moodle continue 
-            working even when there is some unplanned memory problem</li>
-        <li>Smilies are now rendered as pictures in Markdown format texts</li>
-        <li>Workshops work under Recent Activity again</li>
-        <li>file.php can now only be used to access data within courses</li>
-        <li>Improved behaviour of calendar blocks on home page</li>
-        <li>Fixed quotes bug with PostgreSQL database specification produced by installer</li>
-        <li>Fixed sometimes-missing display of correct answers during quiz review</li>
-        <li>&lt;tt> and &lt;code> are now allowed tags</li>
-        <li>Section summaries, course summaries and labels are again no longer cleaned of Javascript</li>
-        <li>Fixed a rare LDAP bug that could cause new accounts not to be created </li>
+        <li>サイトログ閲覧時のパフォーマンスを改善しました。li>
+        <li>用語集のページングおよびパフォーマンスを改善しました。</li>
+        <li>複数のカテゴリに属している場合、用語エントリが正しく表示されるようにしました。</li>
+        <li>ログイン失敗時に、auth_user_loginを再度宣言しないようにしました。</li>
+        <li>cordoroyblueテーマで不足した2つのアイコンを修正しました。</li>
+        <li>直近イベントで不足した「新しいイベント」ボタンを追加しました。</li>
+        <li>データベースにデーモンユーザからインサートされるチャットメッセージを常にaddslashesするようにしました。</li>
+        <li>登録期間制限がコースに設定された場合の処理を修正しました。li>
+        <li>サイトコースID (SITEIDとして定義) は、もはや常に「1」にならないようにしました。</li>
+        <li>いくつかのメモリ問題が発生してもMoodleが動作を続けるよう、デフォルトのメモリ制限を16M超に増やしました。</li>
+        <li>マークダウンフォーマットテキストでスマイリーを画像としてレンダリングするようにしました。</li>
+        <li>ワークショップが最近の活動に表示されるようにしました。</li>
+        <li>file.phpがコース内のデータにアクセスする場合のみ使用されるようにしました。</li>
+        <li>ホームページのカレンダーブロックの動作を改善しました。</li>
+        <li>インストーラーで発生する、PostgreSQLデータベース仕様のクオートに関するバグを修正しました。</li>
+        <li>小テストレビュー時に時々正解が表示されないバグを修正しました。</li>
+        <li>&lt;tt> および &lt;code> をタグとして使用できるようにしました。</li>
+        <li>セクション概要、コース概要およびラベルのJavascriptを再度クリーニングしないようにしました。</li>
+        <li>新しいアカウントが作成されないという稀なLDAPのバグを修正しました。</li>
       </ul>
     </dd>
   </dl>
