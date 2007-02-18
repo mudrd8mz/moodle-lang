@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 dev (2007012500)
+      // role.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -49,6 +49,7 @@ $string['currentrole'] = 'ロール';
 $string['defaultrole'] = 'デフォルトロール';
 $string['defineroles'] = 'ロールの定義';
 $string['deleterolesure'] = '<p>本当にロール「$a->name ($a->shortname)」を削除してもよろしいですか?</p><p>現在、このロールは $a->count 名のユーザに割り当てられています。</p>';
+$string['duplicaterole'] = 'このロールを複製する';
 $string['editrole'] = 'ロールの編集';
 $string['errorbadrolename'] = 'ロール名が正しくありません。';
 $string['errorbadroleshortname'] = 'ロール名が正しくありません。';
