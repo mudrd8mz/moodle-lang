@@ -48,6 +48,7 @@ $string['currentrole'] = 'Rôle actuel';
 $string['defaultrole'] = 'Rôle par défaut';
 $string['defineroles'] = 'Définition des rôles';
 $string['deleterolesure'] = '<p>Voubvlez-vous vraiment supprimer le rôle «&nbsp;$a->name ($a->shortname)&nbsp;»&nbsp;?</p><p>Ce rôle est actuellement attribué à $a->count utilisateurs.</p>';
+$string['duplicaterole'] = 'Dupliquer ce rôle';
 $string['editrole'] = 'Modifier rôle';
 $string['errorbadrolename'] = 'Nom de rôle incorrect';
 $string['errorbadroleshortname'] = 'Nom de rôle abrégé incorrect';
