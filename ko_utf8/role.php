@@ -1,13 +1,13 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 dev (2007013100)
+      // role.php - created with Moodle 1.9 dev (2007021400)
 
 
-$string['addrole'] = '새 역할 첨가';
+$string['addrole'] = '역할 추가';
 $string['allow'] = '허용';
 $string['allowassign'] = '역할 부여 허용';
 $string['allowoverride'] = '역할 위임 허용';
 $string['assignroles'] = '부여 현황';
-$string['blog:create'] = '블로그 새로 만들기';
+$string['blog:create'] = '블로그 항목 생성';
 $string['blog:manageentries'] = '입력내용 관리';
 $string['blog:manageofficialtags'] = '태그 관리';
 $string['blog:managepersonaltags'] = '개인태그 관리';
@@ -49,6 +49,7 @@ $string['currentrole'] = '현재 역할';
 $string['defaultrole'] = '기본 역할';
 $string['defineroles'] = '역할 규정';
 $string['deleterolesure'] = '<p>\"$a->name ($a->shortname)\"의 역할을 삭제하는 것이 확실합니까?</p><p>현재 이 역할을 담당하고 있는 사람은 $a->count 명 입니다.</p>';
+$string['duplicaterole'] = '역할 복제';
 $string['editrole'] = '역할 편집';
 $string['errorbadrolename'] = '잘못된 역할명';
 $string['errorbadroleshortname'] = '잘못된 단축역할명';
@@ -63,7 +64,7 @@ $string['legacy:guest'] = '규정된 역할 : 손님';
 $string['legacy:student'] = '규정된 역할 : 학생';
 $string['legacy:teacher'] = '규정된 역할 : 교사(편집기능 없음)';
 $string['legacy:user'] = '규정된 역할 : 인증된 사용자';
-$string['listallroles'] = '모든 역할 열거';
+$string['listallroles'] = '역할 목록';
 $string['manageroles'] = '역할 관리';
 $string['metaassignerror'] = '메타코스의 관리능력이 주어지지 않았기 때문에 사용자 \"$a\" 에게 이 역할을 부여할 수 없습니다.';
 $string['metaunassignerror'] = '사용자 \"$a\"의 역할이 자동적으로 재부여되었기 때문에 그 하위 배움터에 있는 역할은 해임해주기 바랍니다.';
@@ -83,7 +84,7 @@ $string['role:assign'] = '사용자에게 역할 부여';
 $string['role:manage'] = '역할을 생성하고 관리';
 $string['role:override'] = '다른 사람에게 권한 위임';
 $string['role:switchroles'] = '다른 역할과 맞바꿈';
-$string['role:unassignself'] = '자신의 역할에서 사임함';
+$string['role:unassignself'] = '역할에서 사임함';
 $string['role:viewhiddenassigns'] = '감춰진 역할부여 보기';
 $string['roleassignments'] = '역할 부여';
 $string['roles'] = '역할들';
@@ -103,7 +104,7 @@ $string['site:mnetloginfromremote'] = '원격 무들로부터 로그인';
 $string['site:mnetlogintoremote'] = '원격 무들로 접속함';
 $string['site:readallmessages'] = '사이트의 모든 쪽글 읽음';
 $string['site:restore'] = '배움터 복구';
-$string['site:trustcontent'] = '내용 안전성 신임';
+$string['site:trustcontent'] = '내용 안전성 인증';
 $string['site:uploadusers'] = '파일로 새 사용자 올림';
 $string['site:viewfullnames'] = '언제나 사용자의 성명을 볼 수 있음';
 $string['site:viewparticipants'] = '참여자 보기';
@@ -116,7 +117,7 @@ $string['user:readuserblogs'] = '사용자 블로그 보기';
 $string['user:readuserposts'] = '모든 게시물 보기';
 $string['user:update'] = '사용자 명세를 갱신';
 $string['user:viewdetails'] = '사용자 명세를 봄';
-$string['user:viewhiddendetails'] = '사용자의 숨긴 세부사항 보기';
+$string['user:viewhiddendetails'] = '사용자의 감춰진 세부사항 보기';
 $string['user:viewuseractivitiesreport'] = '활동 보고서 보기';
 $string['user:viewusergrades'] = '사용자 성적 보기';
 $string['viewrole'] = '역할 자세히 보기';
