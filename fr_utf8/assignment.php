@@ -2,7 +2,7 @@
 
 $string['allowdeleting'] = 'Permettre la suppression';
 $string['allowmaxfiles'] = 'Nombre maximal de fichiers déposés';
-$string['allownotes'] = 'Permettre les notes';
+$string['allownotes'] = 'Permettre les remarques';
 $string['allowmultiple'] = 'Permettre plusieurs fichiers'; // Legacy, to delete in 1.7dev
 $string['allowresubmit'] = 'Permettre plusieurs remises d\'un devoir';
 $string['attachfile'] = 'Joindre fichier'; // Legacy, to delete in 1.7dev
