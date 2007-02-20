@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 Beta (2007020400)
+      // quiz.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['1day'] = '1日';
@@ -292,7 +292,7 @@ $string['missingformula'] = '公式がありません。';
 $string['missingitemtypename'] = '名前がありません。';
 $string['missingname'] = '問題名がありません。';
 $string['missingquestion'] = '$a 以降に問題ラベルがありません。';
-$string['missingquestiontext'] = '問題内容が見つかりません。';
+$string['missingquestiontext'] = '問題テキストが見つかりません。';
 $string['missingword'] = '穴埋め（問題）形式';
 $string['modulename'] = '小テスト';
 $string['modulenameplural'] = '小テスト';
@@ -482,6 +482,7 @@ $string['showfeedback'] = '解答後にフィードバックを表示します�
 $string['showhidden'] = '古いバージョンの問題も表示する';
 $string['shownoattempts'] = '未受験の学生を表示';
 $string['shownoattemptsonly'] = '未受験の学生のみ表示';
+$string['showquestiontext'] = '問題リストの問題テキストを表示する';
 $string['showteacherattempts'] = '教師の受験を表示';
 $string['shuffle'] = 'シャッフル';
 $string['shuffleanswers'] = '答えをシャッフルする';
