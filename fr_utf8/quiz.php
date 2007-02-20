@@ -484,6 +484,7 @@ $string['showfeedback'] = 'Après le test, afficher le feedback ?';
 $string['showhidden'] = 'Afficher également les anciennes questions';
 $string['shownoattempts'] = 'Afficher les étudiants sans tentative';
 $string['shownoattemptsonly'] = 'N\'afficher que les étudiants sans tentative';
+$string['showquestiontext'] = 'Afficher le texte de la question dans la liste de questions';
 $string['showteacherattempts'] = 'Afficher les tentatives des enseignants';
 $string['shuffle'] = 'Mélanger';
 $string['shuffleanswers'] = 'Mélanger les réponses';
