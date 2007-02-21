@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 Beta (2007020400)
+      // admin.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -260,6 +260,8 @@ $string['enablestats'] = 'Statistieken inschakelen';
 $string['enabletrusttext'] = 'Vertrouwde Inhoud inschakelen';
 $string['environment'] = 'Omgeving';
 $string['environmenterrortodo'] = 'Je moet all de problemen over de installatie-omgeving die hierboven gevonden zijn, oplossen. Ga pas dan verder met het installeren van deze Moodleversie.';
+$string['environmenterrorupgrade'] = 'Waarschuwing: je moet eerst alle hierboven gemelde omgevingsproblemen oplossen voor je verder gaat met de upgrade van Moodle! Upgraden zonder deze vereiste omgeving kan problemen zoals gegevensverlies veroorzaken. Ben je er zeker van dat je verder wil doen met deze upgrade?';
+$string['environmentok'] = 'Je server voldoet aan alle minimumeisen';
 $string['environmentrecommendinstall'] = 'wordt aangeraden om te installeren of in te schakelen';
 $string['environmentrecommendversion'] = 'je kunt betere versie $a->needed gebruiken en je gebruikt nu versie $a->current';
 $string['environmentrequireinstall'] = 'moet geïnstalleerd/ingeschakeld zijn';

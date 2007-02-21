@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 Beta (2007020400)
+      // moodle.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['action'] = 'Actie';
@@ -1478,6 +1478,8 @@ $string['writinguserinfo'] = 'Gebruikersinfo schrijven';
 $string['wrongpassword'] = 'Ongeldig wachtwoord voor deze gebruikersnaam';
 $string['xmldbeditor'] = 'XMLDB editor';
 $string['yahooid'] = 'Yahoo ID';
+$string['year'] = 'Jaar';
+$string['years'] = 'Jaren';
 $string['yes'] = 'Ja';
 $string['youareabouttocreatezip'] = 'Je staat op het punt een ZIP-bestand te maken met daarin';
 $string['youaregoingtorestorefrom'] = 'Je gaat een reservekopie terugzetten van';

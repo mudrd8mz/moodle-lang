@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 Beta (2007020400)
+      // group.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['addexistinggroupstogrouping'] = 'Voeg bestaande groepen aan groepering toe.';
 $string['addgroupstogrouping'] = 'Voeg groepen aan groepering toe.';
 $string['adduserstogroup'] = 'Gebruikers toevoegen/verwijderen';
+$string['anygrouping'] = '[Alle groeperingen]';
 $string['cancel'] = 'Annuleer';
 $string['createautomaticgrouping'] = 'Maak automatisch groepering';
 $string['creategroup'] = 'Maak groep';
@@ -26,6 +27,7 @@ $string['editgroupingpermissions'] = 'Bewerk rechten groepering';
 $string['editgroupingsettings'] = 'Bewerk instellingen groepering';
 $string['editgroupsettings'] = 'Bewerk instellingen groep';
 $string['enrolmentkey'] = 'Cursussleutel';
+$string['erroraddremoveuser'] = 'Fout bij toevoegen/verwijderen van gebruiker $a aan groep';
 $string['erroreditgroup'] = 'Fout bij het maken/updaten van groep $a';
 $string['erroreditgrouping'] = 'Fout bij het maken/updaten van groepering $a';
 $string['errorinvalidgroup'] = 'Fout, ongeldige groep $a';
