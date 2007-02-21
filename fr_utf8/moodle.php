@@ -980,6 +980,7 @@ $string['notingroup'] = 'Désolé, vous devez faire partie d\'un groupe pour par
 $string['notpublic'] = 'Non public&nbsp;!';
 $string['nousersmatching'] = 'Aucun utilisateur n\'a été trouvé contenant le texte «&nbsp;$a&nbsp;».';
 $string['nousersyet'] = 'Il n\'y pas encore d\'utilisteur';
+$string['novalidcourses'] = 'Aucun cours valable à afficher';
 $string['now'] = 'maintenant';
 $string['numattempts'] = '$a tentatives de connexions infructueuses';
 $string['numberweeks'] = 'Nombre de semaines ou de thèmes';
