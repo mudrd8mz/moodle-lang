@@ -121,6 +121,7 @@ $string['configlangdir'] = '대부분 언어들은 왼쪽에서 오른쪽으로 
 $string['configlanglist'] = '사용자들이 무들에 설치된 언어팩이면 어떤 언어든지 선택할 수 있도록 가급적 이 곳을 빈칸을 남겨두어라. 그러나, 사용자들이 선택하는 언어 목록을 짧게 하고 싶으면 해당하는 언어코드를 쉼표로 분리하여 작성하여 넣으면 된다.
 예시: ko,en,fr,it';
 $string['configlangmenu'] = '사이트 전체에 걸쳐 사용될 언어 선택 목록을 보이게 할 것인지 아닌지를 설정하는 것이다. 이 설정은 사용자들이 개별적으로 자신의 신상명세에서 선택한 언어에는 영향을 미치지 않는다.';
+$string['configlatinexcelexport'] = '엑셀로 내보내기 위한 인코딩 선택';
 $string['configlocale'] = '사이트 전체의 로케일을 선택해라. 이것은 날짜나 요일, 시간표시 같은 언어팩 고유의 특성에 영향을 줄 것이다.(그럼에도 불구하고 일정표의 요일은 영향받지 않는다) 여기에 지정한 로케일은 서버에서 지원하도록 해야 한다.(예: Linux에서 한글 로케일은 ko_KR.UTF-8) 대부분의 경우 이 부분은 공백으로 두는 편이 낫다.';
 $string['configloginhttps'] = '이 기능을 켜면 보안 https연결을 사용해 암호화된 기법으로 무들의 로그인페이지에 접속할 수 있게 한다. 그리고 로그인 후에는 평소의 웹 접속 방식인 http URL로 되돌아간다.
 주의: 이 설정은 웹서버에서 보안모드인 https가 작동할 수 있어야만 한다 - 그렇지 않으면 여러분은 꼼짝달싹할 수 없게 사이트에 갇히게 된다.';
@@ -343,6 +344,7 @@ $string['languagesettings'] = '언어 설정';
 $string['langupdatecomplete'] = '언어팩 업데이트 완료';
 $string['latexpreamble'] = 'LaTeX 전문';
 $string['latexsettings'] = 'LaTeX 표현 설정';
+$string['latinexcelexport'] = '엑셀 인코딩';
 $string['localetext'] = '전역 로케일';
 $string['location'] = '지역';
 $string['locationsettings'] = '지역 설정';

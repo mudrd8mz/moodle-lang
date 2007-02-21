@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 Beta (2007020400)
+      // quiz.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['1day'] = '하루';
@@ -483,6 +483,7 @@ $string['showfeedback'] = '답변 후에 피드백을 보실건가요?';
 $string['showhidden'] = '다른 오래된 질문 보기';
 $string['shownoattempts'] = '시도하지 않은 학생들 보기';
 $string['shownoattemptsonly'] = '시도하지 않은 학생들만 보기';
+$string['showquestiontext'] = '질문 목록의 내용 보기 나타냄';
 $string['showteacherattempts'] = '시도한 교사 보기';
 $string['shuffle'] = '섞기';
 $string['shuffleanswers'] = '답안 섞기';
