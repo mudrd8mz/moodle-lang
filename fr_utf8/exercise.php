@@ -88,8 +88,9 @@ $string['noteonassessmentelements'] = 'L\'évaluation se fait à partir de diver
 	d\'une note et assure une plus grande équité. Vous devez spécifier ces éléments<br />
 	avant de rendre disponible cet exercice aux étudiants. Pour ce faire, cliquez<br />
 	sur l\'exercice dans le cours et on vous demandera d\'ajouter des éléments s\'il n\'y<br />
-	en a encore aucun. Vous pourrez changer le nombre des éléments en cliquant Modifier cet exercice<br />
-	d\'édition. Vous pouvez modifier les éléments en cliquant sur « Modifier les éléments d\'évaluation ».';
+	en a encore aucun. Vous pourrez changer ultérieurement le nombre des éléments en<br />
+	cliquant Modifier cet exercice. Vous pouvez modifier les éléments en cliquant sur<br />
+	« Modifier les éléments d\'évaluation ».';
 $string['noteongradinggrade'] =	'Cette note mesure à quel point votre évaluation est en accord avec<br />
 	celle de l\'enseignant. Plus la note est élevée, meilleur est l\'accord entre les deux évaluations.';
 $string['noteonstudentassessments'] = '{Note donnée par l\'étudiant / Note de l\'évaluation donnée par l\'enseignant}';
