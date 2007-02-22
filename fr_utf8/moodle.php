@@ -451,6 +451,23 @@ $string['emailmustbereal'] = 'Remarque&nbsp;: votre adresse de courriel doit êt
 $string['emailnotallowed'] = 'Les adresses de courriel de ce domaine ne sont pas autorisées ($a)';
 $string['emailnotfound'] = 'Cette adresse de courriel n\'a pas été trouvée dans la base de données';
 $string['emailonlyallowed'] = 'Cette adresse de courriel ne fait pas partie de celles qui sont autorisées ($a)';
+$string['emailpasswordchangeinfo'] = 'Bonjour,
+
+Quelqu\'un (probablement vous) a demandé un nouveau mot de passe pour votre compte sur « $a->sitename ».
+
+Pour modifier votre mot de passe, visitez la page web suivante :
+
+$a->link
+
+Dans la plupart des logiciels de messagerie, cette adresse devrait apparaître comme un lien de couleur bleue qu\'il vous suffit de cliquer. Si cela ne fonctionne pas, copiez ce lien et collez-le dans la barre d\'adresse de votre navigateur web.
+
+Si vous avez besoin d\'aide, veuillez contacter l\'administrateur du site, $a->admin';
+$string['emailpasswordchangeinfofail'] = 'Bonjour,
+
+Quelqu\'un (probablement vous) a demandé un nouveau mot de passe pour votre compte sur « $a->sitename ».
+
+Malheureusement, les mots de passe ne peuvent pas être modifiés ainsi sur ce site. Veuillez contacter l\'administrateur du site, $a->admin';
+$string['emailpasswordchangeinfosubject'] = '$a : information sur le changement de mot de passe';
 $string['emailpasswordconfirmation'] = 'Bonjour,
 
 Quelqu\'un (probablement vous) a demandé un nouveau mot de passe pour votre compte sur « $a->sitename ».
