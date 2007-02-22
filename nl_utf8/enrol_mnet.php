@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // enrol_mnet.php - created with Moodle 1.8 Beta (2007020400)
+      // enrol_mnet.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['allcategories'] = '$a mogelijke categorieën';
 $string['allcourses'] = '$a mogelijke cursussen';
+$string['allow_allcourses'] = 'Aanmelding toestaan in alle externe cursussen.';
 $string['allowedcategories'] = '$a toegelaten categorieën';
 $string['allowedcourses'] = '$a toegelaten cursussen';
 $string['allowedcourseslinktext'] = 'Bewerk hier de toegelaten categorieën';

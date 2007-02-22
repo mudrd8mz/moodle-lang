@@ -160,6 +160,7 @@ $string['subscribe'] = 'Schrijf in';
 $string['system'] = 'Systeem';
 $string['testtrustedhosts'] = 'Test een adres';
 $string['testtrustedhostsexplain'] = 'Geef een IP-adres om te controleren of dit een vertrouwde host is.';
+$string['transport_help'] = 'Je kunt een externe host alleen dwingen om een getekend SSL-certificaat te gebruiken als jouw server ook een getekend SSL-certificaat heeft.';
 $string['trustedhosts'] = 'XML-RPC hosts';
 $string['trustedhostsexplain'] = '<p>Het vertrouwde hosts mechanisme maakt het voor specifieke machines mogelijlk om cals uit te voeren via het XML-RPC mechanisme naar gelijk welk deel van de Moodle API. Dit maakt het mogelijk voor scripts om het gedrag van Moodle te controleren en kan een erg gevaarlijk optie zijn om in te schakelen. Laat het bij twijfel uit staan.</p>
 <p>Dit is <strong>niet</strong> nodig voor Moodle Networking.</p>
@@ -169,7 +170,7 @@ $string['unknownerror'] = 'Er is een onbekende fout opgetreden tijdens de authen
 $string['usercannotchangepassword'] = 'Je kunt je wachtwoord hier niet wijzigen omdat je een externe gebruiker bent.';
 $string['userchangepasswordlink'] = '<br /> Je kunt waarschijnlijk je wachtwoord wijzigen bij jouw <a href=\"$a->wwwroot/login/change_password.php\">$a->description</a> provider.';
 $string['usersareonline'] = 'Waarschuwing: $a gebruikers van die server zijn op dit ogenblik op jouw site ingelogd.';
-$string['validated_by'] = 'Dit is goedgekeurd door het netwerk: &nbsp;<code>$a</code>';
+$string['validated_by'] = 'Dit is goedgekeurd door het netwerk:  <code>$a</code>';
 $string['verifysignature-error'] = 'De handtekeningverificatie mislukte. Er is een fout opgetreden.';
 $string['verifysignature-invalid'] = 'De handtekeningverificatie mislukte. Het lijkt er op dat deze aanvraag niet door jou ondertekend was';
 $string['version'] = 'versie';

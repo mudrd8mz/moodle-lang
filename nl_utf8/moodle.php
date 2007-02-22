@@ -459,6 +459,23 @@ $string['emailmustbereal'] = 'N.B. je e-mailadres moet een bestaand en werkend a
 $string['emailnotallowed'] = 'E-mailadressen van deze domeinen zijn niet toegelaten ($a)';
 $string['emailnotfound'] = 'Het emailadres is niet teruggevonden in de databank';
 $string['emailonlyallowed'] = 'Dit e-mailadres behoort tot een domein dat niet toegelaten is ($a)';
+$string['emailpasswordchangeinfo'] = 'Beste $a->firstname,
+
+Iemand (waarschijnlijk jijzelf) heeft een nieuw wachtwoord gevraagd voor je account op \'$a->sitename\'.
+
+Ga naar onderstaand adres om dit te bevestigen en om een nieuw wachtwoord te krijgen via mail:
+
+$a->link
+
+In de meeste e-mailprogramma\'s zou dit moeten verschijnen als een blauwe link waarop je kunt klikken. Als dat niet werkt, knip en plak het adres dan in de adresbalk van je browser.
+
+Als je hulp nodig hebt, neem dan contact op met de sitebeheerder, $a->admin';
+$string['emailpasswordchangeinfofail'] = 'Beste $a->firstname,
+
+Iemand (waarschijnlijk jijzelf) heeft een nieuw wachtwoord gevraagd voor je account op \'$a->sitename\'.
+
+Jammer genoeg kunnen wachtwoorden op deze site niet gewijzigd worden. Neem contact op met de sitebeheerder, $a->admin';
+$string['emailpasswordchangeinfosubject'] = '$a: Informatie over wachtwoordwijziging';
 $string['emailpasswordconfirmation'] = 'Beste $a->firstname,
 
 Iemand (waarschijnlijk jijzelf) heeft een nieuw wachtwoord gevraagd voor je account op \'$a->sitename\'.
@@ -986,6 +1003,7 @@ $string['notingroup'] = 'Om deze activiteit te kunnen zien moet je lid zijn van 
 $string['notpublic'] = 'Niet publiek!';
 $string['nousersmatching'] = 'Er zijn geen gebruikers gevonden met de zoekterm \'$a\'';
 $string['nousersyet'] = 'Er zijn nog geen gebruikers';
+$string['novalidcourses'] = 'Er zijn geen geldige cursussen om te tonen.';
 $string['now'] = 'Nu';
 $string['numattempts'] = '$a mislukte aanmeldingspogingen';
 $string['numberweeks'] = 'Aantal weken/onderwerpen';
@@ -1193,8 +1211,10 @@ $string['showallcourses'] = 'Laat alle cursussen zien';
 $string['showalltopics'] = 'Laat alle onderwerpen zien';
 $string['showallusers'] = 'Laat alle gebruikers zien';
 $string['showallweeks'] = 'Laat alle weken zien';
+$string['showblockcourse'] = 'Toon een lijst met cursussen met dit blok';
 $string['showgrades'] = 'Laat cijfers zien';
 $string['showlistofcourses'] = 'Laat de lijst met cursussen zien';
+$string['showmodulecourse'] = 'Toon een lijst met cursussen met deze activiteit';
 $string['showonly'] = 'Toon enkel';
 $string['showonlytopic'] = 'Laat alleen onderwerp $a zien';
 $string['showonlyweek'] = 'Laat alleen week $a zien';
