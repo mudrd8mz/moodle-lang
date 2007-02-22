@@ -9,7 +9,7 @@ $string['activeusers'] = '활동적 사용자들';
 $string['activities'] = '활동들';
 $string['activity'] = '활동';
 $string['activityclipboard'] = '이 활동을 옮기기: <b>$a</b>';
-$string['activityiscurrentlyhidden'] = '죄송합니다, 이 활동은 현재 감추어져 있습니다.';
+$string['activityiscurrentlyhidden'] = '죄송합니다, 현재 이 활동은 감추어져 있습니다.';
 $string['activitymodule'] = '활동 모듈';
 $string['activityreport'] = '활동 보고';
 $string['activityreports'] = '활동 보고들';
@@ -32,7 +32,7 @@ $string['addingdatatoexisting'] = '기존의 데이터에 추가하기';
 $string['addnewcategory'] = '새 목록 추가';
 $string['addnewcourse'] = '새 배움터 추가';
 $string['addnewuser'] = '새 사용자 추가';
-$string['addnousersrecip'] = '한번도 접속하지 않았던 $a 사용자를 수령자명부에 추가함';
+$string['addnousersrecip'] = '한번도 $a 에 접속하지 않았던 사용자를 수령자명부에 추가';
 $string['addresource'] = '자원 추가';
 $string['address'] = '주소';
 $string['addstudent'] = '학생 추가';
@@ -43,8 +43,8 @@ $string['adminhelpaddnewuser'] = '새 사용자 계정 수동으로 생성';
 $string['adminhelpassignadmins'] = '관리자는 이 사이트의 어느 곳에서나 활동할 수 있습니다.';
 $string['adminhelpassigncreators'] = '생성자는 새로운 배움터를 생성하고 그 안에서 가르칠 수 있습니다.';
 $string['adminhelpassignsiteroles'] = '특정 사용자에게 지정한 역할을 적용함';
-$string['adminhelpassignstudents'] = '관리자 메뉴에서 배움터로 가 학생들을 추가하기';
-$string['adminhelpassignteachers'] = '배움터를 찾고, 아이콘을 사용하여 선생님을 추가하세요.';
+$string['adminhelpassignstudents'] = '배움터로 가서 학생들을 추가하기';
+$string['adminhelpassignteachers'] = '배움터를 찾아 아이콘을 사용하여 선생님을 추가';
 $string['adminhelpauthentication'] = '외부의 데이터베이스나 다른 사용자 계정을 사용할 수 있습니다.';
 $string['adminhelpbackup'] = '자동 백업 일정 설정';
 $string['adminhelpconfiguration'] = '사이트의 겉모습과 기능 설정';
@@ -54,11 +54,11 @@ $string['adminhelpeditorsettings'] = 'HTML 편집기를 위한 기본설정';
 $string['adminhelpedituser'] = '사용자 계정 목록을 열고, 수정할 수 있음';
 $string['adminhelpenrolments'] = '내부 또는 외부의 출석관리 방법선택';
 $string['adminhelpenvironment'] = '서버환경이 현재나 미래의 설치필요조건에 맞는지 점검';
-$string['adminhelpfailurelogs'] = '로그인  실패 기록 열기';
+$string['adminhelpfailurelogs'] = '로그인 실패 기록 열기';
 $string['adminhelphealthcenter'] = '자동으로 사이트의 문제점 감지';
-$string['adminhelplanguage'] = '현재의 언어 팩을 확인하고 점검함';
-$string['adminhelplogs'] = '사이트의 모든 활동 기록 검색';
-$string['adminhelpmanageblocks'] = '설치된 블럭과 블럭의 설정관리';
+$string['adminhelplanguage'] = '현재의 언어 팩을 점검하고 편집';
+$string['adminhelplogs'] = '사이트의 모든 활동기록 검색';
+$string['adminhelpmanageblocks'] = '설치된 블럭과 이들의 설정관리';
 $string['adminhelpmanagedatabase'] = '데이터베이스에 직접 접속하기(조심!)';
 $string['adminhelpmanagefilters'] = '문서 필터와 관련 설정 선택';
 $string['adminhelpmanagemodules'] = '설치된 모듈과 설정 관리';
@@ -101,7 +101,7 @@ $string['allow'] = '허용';
 $string['allowguests'] = '이 배움터는 손님 계정을 허용합니다.';
 $string['allowinternal'] = '내부적 방법도 허용';
 $string['allownone'] = '아무도 허용하지 않음';
-$string['allownot'] = '허락하지 않기';
+$string['allownot'] = '허용하지 않음';
 $string['allparticipants'] = '모든 참가자';
 $string['allteachers'] = '모든 교사';
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
@@ -141,7 +141,7 @@ $string['backupdatenew'] = ' $a->TAG 는 현재 $a->weekday, $a->mday $a->month
 $string['backupdateold'] = '$a->TAG 는 $a->weekday, $a->mday $a->month $a->year 였습니다.';
 $string['backupdaterecordtype'] = '<br />$a->recordtype - $a->recordname<br />';
 $string['backupdetails'] = '백업 자세히 보기';
-$string['backupexecuteathelp'] = '자동 백업 시작 시각 선택';
+$string['backupexecuteathelp'] = '자동백업 시작시각 선택';
 $string['backupfailed'] = '배움터 중 일부가 저장되지 않았습니다.';
 $string['backupfilename'] = '백업';
 $string['backupfinished'] = '백업이 성공적으로 수행되었습니다.';
@@ -157,7 +157,7 @@ $string['backupnoneusersinfo'] = '주의: \"무 사용자\"를 백업 하도록 
 $string['backupnonisowarning'] = '경고: 이 백업은 Unicode 이전버전(1.6이전)자료를 포함하고 있습니다. Unicode 버전으로 복구할때 ASCII 문자 이외의 문자를 가지고 있으면 문제가 있을 수 있습니다. 이 백업을 올바르게 복구하기 위한 정보를 보기위해서는 <a href=\"http://docs.moodle.org/en/Backup_FAQ\">백업 FAQ</a> 를 참고하십시요.';
 $string['backuporiginalname'] = '백업 이름';
 $string['backupsavetohelp'] = '백업 파일을 저장할 전체 경로를 입력하세요.';
-$string['backupschedulehelp'] = '자동 백업 실시요일 선택';
+$string['backupschedulehelp'] = '자동백업 실시요일 선택';
 $string['backuptakealook'] = '$a 에서 백업 기록을 확인 하세요.';
 $string['backupuserfileshelp'] = '사용자의 파일을 자동 백업에 포함시킬지 선택하세요.';
 $string['backupusershelp'] = '서버의 모든 사용자를 포함할 지, 각 배움터에 요구되는 사용자만 포함할지 선택하세요.';
@@ -172,7 +172,7 @@ $string['blocksaddedit'] = '블럭 첨가/편집';
 $string['blockseditoff'] = '블럭 편집 끔';
 $string['blocksediton'] = '블럭 편집 켬';
 $string['blocksetup'] = '블럭 테이블 설정';
-$string['blocksuccess'] = '$a 테이블 설치가 무사히 완료되었습니다';
+$string['blocksuccess'] = '$a 테이블 설치가 완료되었습니다';
 $string['bycourseorder'] = '배움터 순서로';
 $string['byname'] = '$a 순서로';
 $string['bypassed'] = '건너뜀';
@@ -199,7 +199,7 @@ $string['checknone'] = '점검하지 않음';
 $string['childcoursenotfound'] = '하위 과정은 개설되지 않았습니다!';
 $string['childcourses'] = '하위 과정';
 $string['choose'] = '선택';
-$string['chooseauthmethod'] = '인증 방법 선택';
+$string['chooseauthmethod'] = '인증방법 선택';
 $string['choosecourse'] = '배움터 선택하기';
 $string['chooseenrolmethod'] = '등록 플러그인 선택';
 $string['chooselivelogs'] = '또는 현재 활동 보기';
@@ -261,20 +261,20 @@ $string['coursefiles'] = '배움터 파일들';
 $string['courseformatdata'] = '배움터 유형 자료';
 $string['courseformats'] = '배움터 유형';
 $string['coursegrades'] = '배움터 등급';
-$string['coursehidden'] = '아직 학생들이 이 배움터를 사용할 수는 없습니다.';
+$string['coursehidden'] = '아직 학생들이 이 배움터를 사용할 수 없습니다.';
 $string['courseimportnotaught'] = '당신은 다른 어떤 배움터에 대해서도 편집권한을 갖지 못한 듯 하여 다른 곳에서 학습 내용을 가져올 수 없습니다.';
 $string['courseinfo'] = '배움터 정보';
 $string['coursemessage'] = '교육과정 사용자들의 메세지';
 $string['coursenotaccessible'] = '이 배움터는 공개되어 있지 않습니다.';
 $string['courseoverview'] = '배움터 개요';
 $string['courseoverviewgraph'] = '배움터 개요 그래프';
-$string['coursereject'] = '당신의 요청이 거부되었습니다.';
+$string['coursereject'] = '개설 요청이 거부되었습니다.';
 $string['courserejected'] = '교육과정이 거부되었고 신청자에게 통보되었습니다.';
 $string['courserejectemail'] = '죄송합니다만 당신의 교육과정 요청이 거부되었습니다. 다음은 거부 이유입니다:
 $a';
 $string['courserejectreason'] = '이 교육과정 개설이 거절된 이유의 개요입니다.<br />(이것은 신청자에게 이메일로 통보될 것입니다)';
 $string['courserejectsubject'] = '당신의 교육과정 신청이 거부되었습니다.';
-$string['courserequest'] = '개설 설정';
+$string['courserequest'] = '개설 요청';
 $string['courserequestdisabled'] = '죄송합니다, 요청된 배움터는 관리자에 의해 거부되었습니다.';
 $string['courserequestfailed'] = '어떠한 이유로 인해 당신의 배움터 개설 요청이 저장되지 않았습니다.';
 $string['courserequestintro'] = '이 양식을 사용해 원하는 교육과정의 개설을 요청하십시오.<br /> 운영자가 왜 당신이 이 교육과정을 개설하려고 하는지 충분히 이해할수 있도록 많은 정보를 써주세요.';
@@ -456,9 +456,27 @@ $string['emailmustbereal'] = '경고: 이메일 주소는 사용할 수 있는 �
 $string['emailnotallowed'] = '이 도메인의 이메일 주소는 허가되지않는 ($a)임';
 $string['emailnotfound'] = '이 이메일 주소는 데이터베이스에 없는 이메일 주소입니다.';
 $string['emailonlyallowed'] = '이 이메일은 허가된 ($a)중의 하나가 아님';
+$string['emailpasswordchangeinfo'] = '안녕하세요 $a->firstname,
+
+누군가(아마 당신) 당신의 계정 \'$a->sitename\' 으로 새로운 비밀번호를 요청했습니다. 
+
+비밀 번호를 변경하려면 아래의 주소를 클릭해주세요.
+
+$a->link
+
+대부분의 메일 프로그램에서 파란색 링크로 보일 텐데 그냥 클릭하면 됩니다. 만일 이를 지원하지 않으면 위에 있는 주소를 복사하여 웹 브라우저의 주소창에 복사해 넣으셔도 가능합니다.
+
+만약 도움이 필요하시면 아래의 관리자에게 연락주세요.
+$a->admin';
+$string['emailpasswordchangeinfofail'] = '안녕하세요 $a->firstname,
+
+누군가(아마 당신) 당신의 계정 \'$a->sitename\' 으로 새로운 비밀번호를 요청했습니다. 
+
+유감스럽게도 본 사이트에서는 비밀번호를 초기화시킬 수 없으므로 사이트 관리자인 $a->admin 에게 연락해 주십시오.';
+$string['emailpasswordchangeinfosubject'] = '$a: 비밀번호 변경 안내';
 $string['emailpasswordconfirmation'] = '안녕하세요 $a->firstname,
 
-누군가(아마 당신) 당신의 계정에 새로운 비밀번호를 요청했습니다. \'$a->sitename\'.
+누군가(아마 당신) 당신의 계정 \'$a->sitename\' 으로 새로운 비밀번호를 요청했습니다.
 
 만약 확실하다면 아래의 주소를 클릭해주세요.
 
@@ -846,7 +864,7 @@ $string['moduledeleteconfirm'] = '모듈\'$a\'를 완전히 삭제하려고 합�
 $string['moduledeletefiles'] = '모듈\'$a->module\' 과 관련된 모든 자료가 삭제되었습니다.서버의 $a->directory 디렉토리를 완전히 삭제하면 모듈 재설치를 막을 수 있습니다.';
 $string['modulesetup'] = '설정하기 : 모듈 테이블';
 $string['modulesuccess'] = '$a 테이블이 바르게 설정되었습니다.';
-$string['moodledocs'] = '무들 문서 창고';
+$string['moodledocs'] = '문서 창고';
 $string['moodledocslink'] = '이 페이지를 위한 무들 문서';
 $string['moodleversion'] = '무들 버전';
 $string['more'] = '더 이상';
@@ -977,6 +995,7 @@ $string['notingroup'] = '죄송합니다, 이곳을 보기위해서는 모둠의
 $string['notpublic'] = '공개되지 않았음!';
 $string['nousersmatching'] = '\'$a\' 와 일치하는 사용자가 검색되지 않음';
 $string['nousersyet'] = '아직 사용자 없음';
+$string['novalidcourses'] = '볼 수 있는 배움터가 없음';
 $string['now'] = '지금';
 $string['numattempts'] = '$a 실패한 로그인 시도(들)';
 $string['numberweeks'] = '주/토픽의 수';
@@ -1186,8 +1205,10 @@ $string['showallcourses'] = '전체보기: 배움터';
 $string['showalltopics'] = '전체보기: 주제';
 $string['showallusers'] = '전체보기: 사용자';
 $string['showallweeks'] = '전체보기: 주';
+$string['showblockcourse'] = '블록이 있는 배움터 목록보기';
 $string['showgrades'] = '등급 보기';
 $string['showlistofcourses'] = '배움터 목록보기';
+$string['showmodulecourse'] = '활동이 있는 배움터 목록보기';
 $string['showonly'] = '보기만';
 $string['showonlytopic'] = '$a 주제 보기';
 $string['showonlyweek'] = '$a 주 보기';
