@@ -473,6 +473,7 @@ $string['showfeedback'] = 'Yanıtladıktan sonra geribildirim göster?';
 $string['showhidden'] = 'Eski soruları da göster';
 $string['shownoattempts'] = 'Uygulama yapmayan öğrencileri göster';
 $string['shownoattemptsonly'] = 'Uygulaması olmayan öğrencileri göster';
+$string['showquestiontext'] = 'Soru listesinde soru metnini göster';
 $string['showteacherattempts'] = 'Eğitimci uygulamalarını göster';
 $string['shuffle'] = 'Karıştır';
 $string['shuffleanswers'] = 'Yanıtları karıştır';

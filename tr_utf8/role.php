@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 dev (2007013100)
+      // role.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['addrole'] = 'Yeni rol ekle';
@@ -49,6 +49,7 @@ $string['currentrole'] = 'Geçerli rol';
 $string['defaultrole'] = 'Varsayılan rol';
 $string['defineroles'] = 'Rolleri tanımla';
 $string['deleterolesure'] = '<p>\"$a->name ($a->shortname)\" rolünü silmek istediğinizden emin misiniz?</p><p>Şu anda bu role $a->count kullanıcı atanmış durumda.</p>';
+$string['duplicaterole'] = 'Bu rolü kopyala';
 $string['editrole'] = 'Rolü düzenle';
 $string['errorbadrolename'] = 'Hatalı rol adı';
 $string['errorbadroleshortname'] = 'Hatalı rol adı';

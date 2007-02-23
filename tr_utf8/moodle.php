@@ -458,6 +458,13 @@ $string['emailmustbereal'] = 'Not: E-posta adresiniz gerçek olmalıdır';
 $string['emailnotallowed'] = 'Bu alan adındaki email adreslerine izin verilmemektedir ($a)';
 $string['emailnotfound'] = 'E-posta adresi veritabanında bulunamadı';
 $string['emailonlyallowed'] = 'Bu e-posta adresi izin verilenlerden biri değildir ($a)';
+$string['emailpasswordchangeinfofail'] = 'Merhaba $a->firstname,
+
+Birisi (büyük ihtimal siz) \'$a->sitename\' sitesindeki hesabınız için yeni bir şifre isteğinde bulundu.
+
+Maalesef, bu sitede şifreler yeniden oluşturulamaz. Lütfen site yöneticisiyle iletişim kurun:
+$a->admin';
+$string['emailpasswordchangeinfosubject'] = '$a: Şifre değişim bilgisi';
 $string['emailpasswordconfirmation'] = 'Merhaba $a->firstname,
 
 Birisi (büyük ihtimal siz) \'$a->sitename\' sitesindeki hesabınız için yeni bir şifre isteğinde bulundu.
@@ -983,6 +990,7 @@ $string['notingroup'] = 'Üzgünüz, bu etkinliği görebilmeniz için bir grubu
 $string['notpublic'] = 'Herkese açık değil!';
 $string['nousersmatching'] = '\'$a\' ile eşleşen kullanıcı yok';
 $string['nousersyet'] = 'Henüz bir kullanıcı yok';
+$string['novalidcourses'] = 'Gösterilecek geçerli bir kurs yok';
 $string['now'] = 'şimdi';
 $string['numattempts'] = '$a hatalı giriş';
 $string['numberweeks'] = 'Hafta/konu sayısı';
@@ -1188,8 +1196,10 @@ $string['showallcourses'] = 'Tüm kursları göster';
 $string['showalltopics'] = 'Tüm konuları göster';
 $string['showallusers'] = 'Tüm kullanıcıları göster';
 $string['showallweeks'] = 'Tüm haftaları göster';
+$string['showblockcourse'] = 'Blok içeren kursların listesini göster';
 $string['showgrades'] = 'Notları göster';
 $string['showlistofcourses'] = 'Kurs listesini göster';
+$string['showmodulecourse'] = 'Etkinlik içeren kursların listesini göster';
 $string['showonly'] = 'Sadece göster';
 $string['showonlytopic'] = 'Sadece $a. konuyu göster';
 $string['showonlyweek'] = 'Sadece $a. haftayı göster';

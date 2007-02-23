@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // currencies.php - created with Moodle 1.7 dev (2006091901)
+      // currencies.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['AED'] = 'Birleşik Arap Emirlikleri Dirhemi';
@@ -99,7 +99,7 @@ $string['NPR'] = 'Nepalese Rupee';
 $string['NZD'] = 'New Zealand Dollar';
 $string['OMR'] = 'Omani Rial';
 $string['PAB'] = 'Panamanian Balboa';
-$string['PEI'] = 'Peruvian Inti';
+$string['PEN'] = 'Nuevo Sol';
 $string['PGK'] = 'Papua New Guinea Kina';
 $string['PHP'] = 'Philippine Peso';
 $string['PKR'] = 'Pakistan Rupee';
@@ -115,6 +115,7 @@ $string['SDP'] = 'Sudanese Pound';
 $string['SEK'] = 'Swedish Krona';
 $string['SGD'] = 'Singapore Dollar';
 $string['SHP'] = 'St. Helena Pound';
+$string['SKK'] = 'Slovak Koruna';
 $string['SLL'] = 'Sierra Leone Leone';
 $string['SOS'] = 'Somali Schilling';
 $string['SRG'] = 'Suriname Guilder';
@@ -127,6 +128,7 @@ $string['THB'] = 'Thai Bhat';
 $string['TND'] = 'Tunisian Dinar';
 $string['TOP'] = 'Tongan Pa\'anga';
 $string['TPE'] = 'East Timor Escudo';
+$string['TRL'] = 'Turkish Lira';
 $string['TTD'] = 'Trinidad and Tobago Dollar';
 $string['TWD'] = 'Taiwan Dollar';
 $string['TZS'] = 'Tanzanian Schilling';
@@ -141,5 +143,6 @@ $string['YER'] = 'Yemeni Riyal';
 $string['ZAR'] = 'South African Rand';
 $string['ZMK'] = 'Zambian Kwacha';
 $string['ZWD'] = 'Zimbabwe Dollar';
+$string['PEI'] = 'Peruvian Inti'; // ORPHANED
 
 ?>
