@@ -3,6 +3,6 @@
 
 
 $string['advancedsearch'] = 'Advanceret søgning';
-$string['blocktitle'] = 'Søg i fora';
+$string['blocktitle'] = 'Søg i forummer';
 
 ?>

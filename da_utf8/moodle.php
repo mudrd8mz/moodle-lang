@@ -27,7 +27,7 @@ $string['addedtogroup'] = 'Tilføjet til gruppe $a';
 $string['addedtogroupnot'] = 'Ikke tilføjet til gruppe $a';
 $string['addedtogroupnotenrolled'] = 'Ikke tilføjet til gruppe $a, fordi personen ikke er tilknyttet kurset.';
 $string['addinganew'] = 'Tilføjer en/et ny(t) $a';
-$string['addinganewto'] = 'Tilføjer en/et ny(t)$a->what til $a->to';
+$string['addinganewto'] = 'Tilføjer en/et ny(t) $a->what til $a->to';
 $string['addingdatatoexisting'] = 'Tilføj data til eksisterende';
 $string['addnewcategory'] = 'Ny kategori';
 $string['addnewcourse'] = 'Nyt kursus';
@@ -123,7 +123,7 @@ $string['assignstudentspass'] = 'Alt du behøver at gøre er, at fortælle dine 
 $string['assignteachers'] = 'Tilføj instruktører';
 $string['authentication'] = 'Validering';
 $string['autosubscribe'] = 'Forum autoabonner';
-$string['autosubscribeno'] = 'Nej: Jeg ønsker ikke automatisk at abonnere på fora';
+$string['autosubscribeno'] = 'Nej: Jeg ønsker ikke automatisk at abonnere på forummer';
 $string['autosubscribeyes'] = 'Ja: Opret automatisk abonnement samtidig med at jeg har skrevet et indlæg i et forum';
 $string['availability'] = 'Tilgængelighed';
 $string['availablecourses'] = 'Tilgængelige kurser';
@@ -1061,7 +1061,7 @@ $string['publicsitefileswarning'] = 'Note: filer placeret her kan tilgås af all
 $string['question'] = 'Spørgsmål';
 $string['readinginfofrombackup'] = 'Læser info fra backup';
 $string['readme'] = 'README';
-$string['recentactivity'] = 'Sidste nyt';
+$string['recentactivity'] = 'Seneste aktiviteter';
 $string['recentactivityreport'] = 'Komplet rapport af seneste aktiviteter...';
 $string['recipientslist'] = 'Modtagerliste $a';
 $string['recreatedcategory'] = 'Genskabt kategori $a';
@@ -1347,11 +1347,11 @@ $string['updatesevery'] = 'Opdater hver $a sekund';
 $string['updatethis'] = '$a-indstillinger';
 $string['updatethiscourse'] = 'Opdater dette kursus';
 $string['updatinga'] = 'Opdaterer $a';
-$string['updatingain'] = 'Opdaterer $a->hvad i $a->i';
+$string['updatingain'] = 'Opdaterer $a->what i $a->in';
 $string['upload'] = 'Upload';
 $string['uploadafile'] = 'Upload en fil';
 $string['uploadedfile'] = 'Fil uploadet OK';
-$string['uploadedfileto'] = 'Uploaded $a->fil til $a->bibliotek';
+$string['uploadedfileto'] = 'Uploaded $a->file til $a->directory';
 $string['uploadedfiletoobig'] = 'Desværre men det lader til at filen er for stor (maks $a bytes)';
 $string['uploadfailednotrecovering'] = 'Uploadning af filen er gået galt fordi der var et problem med en af filerne, $a->name.<br />Her er en log med problemerne:<br />$a->problem<br /> -- SLUT --';
 $string['uploadfilelog'] = 'Upload log for fil $a';
@@ -1400,7 +1400,7 @@ $string['virusfoundlater'] = 'En fil uploadet d. $a->date med filnavnet $a->file
 $a->action
 
 Hvis det var en afleveringsopgave er det en god ide at dobbelttjekke filen for virus og uploade den igen så underviseren kan se den.';
-$string['virusfoundlateradmin'] = 'En fil uploadet d. $a->date med filnavnet $a->filename i kurset $a->course er efterfølgende konstateret inficeret med virus. Her er en beskrivelse af hvad der videre er sket med filen:
+$string['virusfoundlateradmin'] = 'En fil uploadet d. $a->date med filnavnet $a->filename i kurset $a->course af brugeren $a->user, er efterfølgende konstateret inficeret med virus. Her er en beskrivelse af hvad der videre er sket med filen:
 
 $a->action';
 $string['virusfoundlateradminnolog'] = 'En fil uploadet d. $a->date med filnavnet $a->filename er efterfølgende konstateret inficeret med virus. Moodle var ikke i stand til at finde ud af hvem der oprindeligt har uploadet den.

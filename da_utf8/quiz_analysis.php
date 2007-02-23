@@ -11,17 +11,23 @@ $string['attemptselection'] = 'Forsøg som skal analyseres pr. bruger';
 $string['attemptsfirst'] = 'Første forsøg';
 $string['attemptshighest'] = 'Højeste karakter';
 $string['attemptslast'] = 'Sidste forsøg';
+$string['dicsindextitle'] = 'Disc.<br />Indeks';
+$string['disccoefftitle'] = 'Disc.<br />Koeff.';
 $string['downloadooo'] = 'Download i OpenOffice format';
+$string['facilitytitle'] = '%% Korrekt<br />Facility';
 $string['lowmarkslimit'] = 'Analyser ikke hvis scoren er mindre end';
 $string['pagesize'] = 'Antal spørgsmål pr. side';
 $string['qcounttitle'] = 'Spm. optælling';
-$string['qidtitle'] = 'Spm. id';
+$string['qidtitle'] = 'Spm. ID';
 $string['qnametitle'] = 'Spørgsmålstitel';
 $string['qtexttitle'] = 'Spørgsmålstekst';
 $string['qtypetitle'] = 'Spm. type';
 $string['quizreportdir'] = 'quiz_rapporter';
+$string['rcounttitle'] = 'R.<br />Antal';
 $string['reportanalysis'] = 'Rapport med Emneanalyse';
 $string['responsestitle'] = 'Detaljerede svar';
+$string['rfractiontitle'] = 'Fraktions<br />titel';
+$string['rpercenttitle'] = 'R.%%';
 $string['stddevtitle'] = 'Std.dev.';
 
 ?>

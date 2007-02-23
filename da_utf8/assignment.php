@@ -38,7 +38,7 @@ $string['emailteachermail'] = '$a->username har opdateret deres opgaveaflevering
 Det kan hentes her:
 $a->url';
 $string['emailteachermailhtml'] = '$a->username har opdateret deres opgaveaflevering for <i>\'$a->assignment\'</i><br /><br />Det kan hentes på <a href=\"$a->url\">websiden</a>.';
-$string['emailteachers'] = 'E-mail notifikation til lærere';
+$string['emailteachers'] = 'E-mail-notifikation til lærere';
 $string['emptysubmission'] = 'Du har ikke afleveret noget endnu';
 $string['existingfiledeleted'] = 'Eksisterende fil er blevet slettet: $a';
 $string['failedupdatefeedback'] = 'Mislykkedes at opdatere feedback på aflevering for bruger $a';

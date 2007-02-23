@@ -1,0 +1,52 @@
+<p align="center"><b>Tilladelser</b></p>
+
+<p>
+Tilladelser er de indstillinger du tildeler de specifikke kompetencer.
+</p>
+
+<p>
+En kompetence er for eksempel at kunne starte en ny tråd i et forum.
+</p>
+
+<p>
+I hver rolle kan du vælge mellem 4 forskellige <span style="font-style: italic;">typer af tilladelser </span>for en sådan kompetence::
+<dl>
+<dt>NEDARVET</dt>
+<dd>Dette er den generelle standardindstilling. Det er en neutral indstilling, hvilket betyder "brug de tilladelser brugeren nu engang har". Hvis en bruger (i f.eks. et kursus) har en rolle med tilladelse til en kompetence, så vil denne tilladelse nedarves fra konteksten på højere niveauer (f.eks. fra siteniveau eller kursuskategorien). Er en tilladelse overhovedet ikke givet på noget niveau/i nogen kontekst, vil brugeren i ingen tilfælde kunne gøre brug af denne kompetence.
+    </dd>
+
+<dt>TILLAD</dt>
+<dd>Ved at tillade en kompetence giver du vedkommende, der får rollen, bevilling til kompetencen. Tilladelsen gælder for den kontekst den er givet til, samt til alle kontekster på underliggende niveauer. Drejer det sig f.eks. om at rollen elev er tildelt på kursusniveau, vil brugere med elev-rollen kunne starte en ny tråd i et forum på kurset, MED MINDRE det pågældende forum indeholder en tilsidesættelse eller en ny (rolle-)tildeling med indstillingen <i>tillad ikke</i> eller <i>forbyd</i> for kompetencen at starte en tråd.</dd>
+
+<dt>TILLAD IKKE</dt>
+<dd>Ved at vælge denne fjerner du tilladelsen til at bruge kompetencen, selv hvis brugerne med denne rolle havde tilladelse på et højere niveau.</dd>
+
+<dt>PROHIBIT</dt>
+<dd>Denne indstilling er sjældent nødvendig, men af og til ønsker du måske under enhver omstændighed at nægte adgang for en rolle på en måde, så den IKKE kan overskrives på lavere niveauer. Et godt eksempel herpå kunne være at administrator vil forhindre en person i at starte tråde overhovedet. I dette tilfælde kan administrator oprette en rolle hvor denne kompetence er sat til "Forbyd" og derpå tildele rollen til den givne bruger på siteniveau..
+  </dd>
+
+</dl>
+</p>
+
+<p align="center"><b>Når tilladelser er i konflikt med hinanden</b></p>
+
+<p>Tilladelser på et lavere kontekstniveau vil generelt overskrive tilladelser på højere kontekstniveauer (dette gælder for <i>tilsidesættelser</i> og tildelte roller). Undtagelsen er FORBYD, som ikke kan ændres på lavere niveauer.
+</p>
+<p>Hvis to roller er tildelt til en person i den samme kontekst, en med TILLAD og en med TILLAD IKKE, hvilken vil da vinde? I dette tilfælde vil Moodle kigge op i konteksttræet for at se efter en rolle, der kan bestemme. </p>
+
+<p>En elev har f.eks. to roller på et kursus, en der tillader og en der ikke tillader at starte nye tråde. I dette tilfælde tjekker vi kategorier og sitekontekster, for at finde en anden defineret tilladelse, der kan hjælpe med beslutningen. Finder vi igen vil tilladelsen TILLAD IKKE være standard da de to indstillinger annullerer hinanden, og dermed vil der ingen tilladelse være.
+
+</p>
+
+<p align="center"><b>Specielle undtagelser</b></p>
+
+<p>Bemærk at gæster altid vil være forhindret i at skrive på siden (i forummer, kalenderen og i blogs) uanset om de har fået tildelt tilladelse hertil.
+</p>
+
+<p>
+Se også 
+<a href="help.php?file=roles.html">Roller</a>,
+<a href="help.php?file=contexts.html">Kontekster</a>,
+<a href="help.php?file=assignroles.html">Tildel roller</a> og
+<a href="help.php?file=overrides.html">Tilsidesættelser</a>.
+</p>

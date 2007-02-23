@@ -1,26 +1,73 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005033100)
+      // error.php - created with Moodle 1.7+ (2006101007)
 
 
-$string['adminprimarynoedit'] = 'Den primære admin kan ikke rettet af andre';
-$string['confirmsesskeybad'] = 'Desværre, men din session key kunne ikke godkendes i denne forbindelse. Denne sikkerhedskontrol forhindre utilsigtet eller uautoriseret tilgang til vigtige funktioner for din profil. Er du sikker på at du virkelig vil udføre denne funktion.';
-$string['coursegroupunknown'] = 'Kursuset der hører sammen med gruppe $a er ikke specificeret';
+$string['adminprimarynoedit'] = 'Den primære admin kan ikke rettes af andre';
+$string['cannotcreatelangdir'] = 'Kan ikke oprette sprogmappe';
+$string['cannotcreatetempdir'] = 'Kan ikke oprette temp-mappe';
+$string['cannotdownloadcomponents'] = 'Kan ikke downloade komponenter';
+$string['cannotdownloadzipfile'] = 'Kan ikke downloade zip-fil';
+$string['cannotfindcomponent'] = 'Kan ikke finde komponent';
+$string['cannotsavemd5file'] = 'Kan ikke gemme md5-fil';
+$string['cannotsavezipfile'] = 'Kan ikke gemme zip-fil';
+$string['cannotunzipfile'] = 'Kan ikke unzippe filen';
+$string['cantunenrollfrommetacourse'] = 'Du kan ikke framelde dig dette metakursus';
+$string['cantunenrollinthisrole'] = 'Du kan ikke framelde dig kurset med den rolle, du har';
+$string['cmunknown'] = 'Kunne ikke finde dette kursusmodul';
+$string['confirmsesskeybad'] = 'Desværre, men din \'session key\' kunne ikke godkendes i denne forbindelse. Denne sikkerhedskontrol forhindrer utilsigtet eller uautoriseret tilgang til vigtige funktioner for din profil. Er du sikker på at du virkelig vil udføre denne funktion?';
+$string['couldnotassignrole'] = 'Der opstod en alvorlig ukendt fejl under forsøg på at tildele dig denne rolle';
+$string['coursegroupunknown'] = 'Kurset, der hører sammen med gruppe, $a er ikke specificeret';
+$string['downloadedfilecheckfailed'] = '\"Downloadet fil-tjek fejlede';
+$string['errorcleaningdirectory'] = 'Fejl under oprettelse af biblioteket  \"$a\"';
+$string['errorcopyingfiles'] = 'Fejl under kopiering af filer';
+$string['errorcreatingdirectory'] = 'Fejl ved oprettelse af biblioteket \"$a\"';
+$string['errorcreatingfile'] = 'Fejl under oprettelse af filen \"$a\"';
 $string['erroronline'] = 'Fejl på linje $a';
+$string['errorreadingfile'] = 'Fejl under læsning af filen \"$a\"';
+$string['errorunzippingfiles'] = 'Fejl under unzipping af filer';
 $string['fieldrequired'] = '\"$a\" er et påkrævet felt';
 $string['filenotfound'] = 'Desværre, den efterspurgte fil kunne ikke findes.';
+$string['forumblockingtoomanyposts'] = 'Du har overskredet grænsen for antallet af indlæg i forummet.';
 $string['groupalready'] = 'Bruger er allerede tilknyttet gruppe $a';
 $string['groupunknown'] = 'Gruppe $a er ikke associeret til det valgte kursus';
+$string['guestnoeditprofile'] = 'Gæster kan ikke ændre deres profil';
+$string['guestnoeditprofileother'] = 'Gæsteprofilen kan ikke ændres';
+$string['invalidcourse'] = 'Ugyldigt kursus';
 $string['invalidfieldname'] = '\"$a\" er ikke et godkendt feltnavn';
-$string['missingfield'] = 'Felt \"a\" mangler';
-$string['modulerequirementsnotmet'] = 'Modul \"$a->modulename\" ($a->moduleversion) kunne ikke installeres. Det kræver en nyere version af moodle (du bruger i øjenblikket $a->currentmoodle, du skal bruge $a->requiremoodle).';
+$string['invalidfiletype'] = '\"$a\" er ikke en gyldig filtype';
+$string['invalidmd5'] = 'Ugyldig md5';
+$string['invalidrole'] = 'Ugyldig rolle';
+$string['invalidxmlfile'] = '\"$a\" er ikke en gyldig xml-fil';
+$string['missingfield'] = 'Feltet \"a\" mangler';
+$string['missingrequiredfield'] = 'Der mangler nogle obligatoriske felter';
+$string['modulemissingcode'] = 'Modul $a mangler den kode, der skal udføre denne funktion';
+$string['modulerequirementsnotmet'] = 'Modul \"$a->modulename\" ($a->moduleversion) kunne ikke installeres. Det kræver en nyere version af Moodle (du bruger i øjenblikket $a->currentmoodle, du skal bruge $a->requiremoodle).';
+$string['mustbeteacher'] = 'Du skal være lærer for at se denne side';
+$string['noinstances'] = 'Der er ingen $a i dette kursus!';
+$string['nonmeaningfulcontent'] = 'Intet meningsfuldt indhold';
+$string['nopermissions'] = 'Beklager, men dette ($a) har du ikke tilladelse til.';
 $string['notavailable'] = 'Dette er ikke tilgængeligt lige nu';
+$string['onlyadmins'] = 'Dette kan kun administratorer gøre';
+$string['onlyeditingteachers'] = 'Kun lærere, med tilladelse til at rette i kurser, kan gøre dette.';
 $string['onlyeditown'] = 'Du kan kun rette i din egen information';
+$string['pagenotexist'] = 'En uventet fejl opstod (forsøgte at vise en side, der ikke eksisterer).';
+$string['pleasereport'] = 'Hvis du har tid må du meget gerne lade os vide hvad du forsøgte at gøre da fejlen opstod:';
 $string['processingstops'] = 'Behandling stopper her. Efterfølgende poster ignoreres.';
+$string['remotedownloadnotallowed'] = 'Download af komponenter til din server er ikke tilladt (\"allow_url_fopen\" er deaktiveret).<br /><br />Du må downloade 
+<a href=\"$a->url\">$a->url</a>-filen manuelt, kopiere den til \"$a->dest\" til din server og unzippe den der.';
 $string['restricteduser'] = 'Desværre, men din nuværende profil \"$a\" tillader ikke at gøre det.';
-$string['sessionipnomatch'] = 'Desværre, dit IP-nummer ser ud til at være ændret siden du loggede ind. Denne sikkerhedsfunktion bør beskytte mod at andre overtager din identitet på sitet mens du er logget på sitet. Brugere bør normalt ikke få denne fejl. Hvis du ikke er klar over hvad det skyldes så prøv at kontakte sitets administrator.';
+$string['sendmessage'] = 'Send besked';
+$string['sessionerroruser'] = 'Din session er udløbet. Vær venlig at logge ind igen.';
+$string['sessionerroruser2'] = 'Der er opstået serverfejl, der har at gøre med dit login. Vær venlig at logge ind igen eller at genstarte din browser.';
+$string['sessionipnomatch'] = 'Desværre, dit IP-nummer ser ud til at være ændret siden du loggede ind. Denne sikkerhedsfunktion bør beskytte mod at andre overtager din identitet på sitet mens du er logget på. Brugere bør normalt ikke få denne fejl. Hvis du ikke er klar over hvad det skyldes så prøv at kontakte sitets administrator.';
+$string['statscatchupmode'] = 'Statistikken er pt. i \"catchup mode\". Indtil nu er $a->daysdone dag(e) behandlet og $a->dayspending venter på at blive det. Tjek snart igen!';
 $string['unknowncourse'] = 'Ukendt kursus med navnet \"$a\"';
-$string['usernotaddederror'] = 'Bruger \"$a\" ikke tilføjet - ukendt fejl!';
-$string['usernotaddedregistered'] = 'Bruger \"$a\" ikke tilføjet - registreret i forvejen.';
-$string['usernotavailable'] = 'Detaljerne for denne bruger er ikke tilgængelig for dig.';
+$string['unknownuseraction'] = 'Beklager, jeg forstår ikke denne brugerhandling.';
+$string['usernotaddederror'] = 'Bruger \"$a\" er ikke tilføjet - ukendt fejl!';
+$string['usernotaddedregistered'] = 'Bruger \"$a\" blev ikke tilføjet - registreret i forvejen.';
+$string['usernotavailable'] = 'Detaljerne for denne bruger er ikke tilgængelige for dig.';
+$string['usernotrenamedexists'] = 'Brugerens navn blev ikke ændret - det bliver allerede brugt af en anden.';
+$string['usernotrenamedmissing'] = 'Brugerens navn blev ikke ændret - kunne ikke finde det gamle brugernavn.';
+$string['wrongzipfilename'] = 'Forkert zip-filnavn.';
 
 ?>
