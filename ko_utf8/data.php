@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 dev (2006120700)
+      // data.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['action'] = '행동';
@@ -201,6 +201,7 @@ $string['savesettings'] = '설정 저장';
 $string['savesuccess'] = '저장 완료. 여러분의 초기 설정이 사이트 전반에 적용될 것입니다.';
 $string['savetemplate'] = '템플릿 저장';
 $string['sendinratings'] = '나의 최종 등급 보내기';
+$string['showall'] = '전체항목 보기';
 $string['single'] = '한개 보기';
 $string['singletemplate'] = '하나의 템플릿';
 $string['teachersandstudents'] = '$a->teachers 및 $a->students';
