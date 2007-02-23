@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8 dev (2007013100)
+      // mnet.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (kendinden-imzalı)';
@@ -20,10 +20,15 @@ $string['authmnetautoadddisabled'] = 'Moodle Ağı Yetkilendirme eklentilerindek
 $string['authmnetdisabled'] = 'Moodle Ağı <em>Yetkilendirme eklentisi</em> <strong>etkin değil</strong>.';
 $string['badcert'] = 'Bu geçerli bir sertifika değil.';
 $string['couldnotgetcert'] = 'Burada sertifika bulunamadı: <br />$a<br />Host çalışmıyor veya hatalı yapılandırıldı.';
+$string['courses'] = 'kurslar';
+$string['currentkey'] = 'Geçerli Açık Anahtar';
+$string['databaseerror'] = 'Veritabanına ayrıntılar yazaılamadı.';
+$string['deleteaserver'] = 'Sunucu Siliniyor';
+$string['deletekeycheck'] = 'Bu anahtarı silmek istediğinizden kesinlikle emin misiniz?';
 $string['deny'] = 'Reddet';
 $string['enrolments'] = 'ders kayıtları';
 $string['expired'] = 'Bu anahtarın yok olma süresi';
-$string['expires'] = 'Bu tarihe kadar';
+$string['expires'] = 'Geçerlilik';
 $string['expireyourkey'] = 'Bu Anahtarı Sil';
 $string['hidelocal'] = 'Yerel kullanıcıları gizle';
 $string['hideremote'] = 'Uzak kullanıcıları gizle';
@@ -31,6 +36,8 @@ $string['host'] = 'host';
 $string['hostdeleted'] = 'Tamam - host silindi';
 $string['hostname'] = 'Hostadı';
 $string['hostsettings'] = 'Host Ayarları';
+$string['keydeleted'] = 'Anahtarınız başarıyla silindi ve değiştirildi.';
+$string['last_connect_time'] = 'Son bağlantı zamanı';
 $string['mnet'] = 'Moodle Ağı';
 $string['mnetdisabled'] = 'Moodle Ağı <strong>etkin değil</strong>.';
 $string['mnetenrol'] = 'Ders Kayıtları';
