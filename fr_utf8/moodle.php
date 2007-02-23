@@ -1073,6 +1073,7 @@ $string['previewhtml'] = 'Aperçu en format HTML';
 $string['previeworchoose'] = 'Aperçu ou choix d\'un thème';
 $string['previous'] = 'Précédent';
 $string['previoussection'] = 'Section précédente';
+$string['primaryadminsetup'] = 'Mise en place du compte de l\'administrateur';
 $string['profile'] = 'Profil';
 $string['publicdirectory'] = 'Publication sur le site Moodle';
 $string['publicdirectory0'] = 'Merci de ne pas publier ce site';
