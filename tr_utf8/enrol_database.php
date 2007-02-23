@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.6 development (2006032200)
+      // enrol_database.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['autocreate'] = 'Moodle\'da var olmayan bir kursa ders kaydı varsa otomatik olarak kurslar oluşturulabilir.';
@@ -9,11 +9,18 @@ $string['course_fullname'] = 'Kursun tam adının tutulduğu alanın adı.';
 $string['course_id'] = 'Kursun ID numarasının tutulduğu alanın adı. Bu alanın değerleri Moodle kurs (course) tablosundaki \"enrol_db_l_coursefield\" alanını eşleştirmek için kullanılır.';
 $string['course_shortname'] = 'Kursun kısa adının tutulduğu alanın adı.';
 $string['course_table'] = 'Kurs ayrıntılarının (kısa ad, uzun adı, ID gibi) arayacağımız tablonun adı';
-$string['description'] = 'Ders kayıtlarını kontrol etmek için harici veritabanlarını (herhangi bir çeşit) kullanabilirsiniz. Harici veritabanının bir courseID (DersId) ve bir userID (KullaniciID) alanlarını içerdiğini varsayıyoruz.  Bunlar yerel kurs ve kullanıcı tablolarınındaki alanlarla karşılaştırılacaktır.';
+$string['dbhost'] = 'Sunucu IP veya adı';
+$string['dbname'] = 'Veritabanı adı';
+$string['dbpass'] = 'Sunucu şifresi';
+$string['dbtable'] = 'Veritabanı tablosu';
+$string['dbtype'] = 'Veritabanı tipi';
+$string['dbuser'] = 'Sunucu kullanıcısı';
+$string['defaultcourseroleid'] = 'Diğer rol belirtilmezse varsayılan olarak bu rol atanacaktır.';
+$string['description'] = 'Ders kayıtlarını kontrol etmek için buradaki harici veritabanlarını kullanabilirsiniz. Harici veritabanının bir courseID (DersId) ve bir userID (KullaniciID) alanlarını içerdiğini varsayıyoruz. Bunlar yerel kurs ve kullanıcı tablolarınındaki alanlarla karşılaştırılacaktır.';
+$string['enrol_database_autocreation_settings'] = 'Yeni kursların otomatik oluşturulması';
 $string['enrolname'] = 'Harici Veritabanı';
 $string['general_options'] = 'Genel Ayarlar';
 $string['host'] = 'Veritabanı sunucusu.';
-$string['local_coursefield'] = 'Uzaktaki veritabanında kayıtları eşleştirmek için kullandığımız kursun alan adı (idnumber)';
 $string['local_fields_mapping'] = 'Moodle (yerel) veritabanı alanları';
 $string['name'] = 'Kullanılacak veritabanı';
 $string['pass'] = 'Sunucuya erişim için şifre.';
@@ -30,5 +37,6 @@ $string['teacher_table'] = 'Eğitimci ders kayıtlarının tutulduğu tablonun a
 $string['template'] = 'İsteğe bağlı: Otomatik oluşturulan kurslar ayarlarını şablon bir kurstan alabilir.';
 $string['type'] = 'Veritabanı sunucu tipi';
 $string['user'] = 'Sunucuya erişim için kullanıcı adı';
+$string['local_coursefield'] = 'Uzaktaki veritabanında kayıtları eşleştirmek için kullandığımız kursun alan adı (idnumber)'; // ORPHANED
 
 ?>

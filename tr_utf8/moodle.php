@@ -458,6 +458,18 @@ $string['emailmustbereal'] = 'Not: E-posta adresiniz gerçek olmalıdır';
 $string['emailnotallowed'] = 'Bu alan adındaki email adreslerine izin verilmemektedir ($a)';
 $string['emailnotfound'] = 'E-posta adresi veritabanında bulunamadı';
 $string['emailonlyallowed'] = 'Bu e-posta adresi izin verilenlerden biri değildir ($a)';
+$string['emailpasswordchangeinfo'] = 'Merhaba $a->firstname,
+
+Birisi (büyük ihtimal siz) \'$a->sitename\' sitesindeki hesabınız için yeni bir şifre isteğinde bulundu.
+
+Şifrenizi değiştirmek için aşağıdaki linki takip edin:
+
+$a->link
+
+Bir çok mail programı yukarıdaki linki tıklanabilir olarak göstermektedir. Tıklanabilir değilse, linkin üzerine gelip sağ tıklayarak kopyalayın ve web tarayıcınızı açarak adres çubuğuna bu adresi yapıştırın. 
+
+Yardıma ihtiyacınız olursa site yöneticisiyle iletişim kurun:
+$a->admin';
 $string['emailpasswordchangeinfofail'] = 'Merhaba $a->firstname,
 
 Birisi (büyük ihtimal siz) \'$a->sitename\' sitesindeki hesabınız için yeni bir şifre isteğinde bulundu.
@@ -572,6 +584,7 @@ $string['forcepasswordchangenotice'] = 'Devam etmek için şifrenizi değiştirm
 $string['forcetheme'] = 'Tema zorunluluğu';
 $string['forgotaccount'] = 'Şifrenizi mi unuttunuz?';
 $string['forgotten'] = 'Kullanıcı adı veya şifrenizi mi unuttunuz?';
+$string['forgottenduplicate'] = 'E-posta adresi başka hesaplar tarafından kullanıldığından bunun yerine kullanıcı adını girin';
 $string['forgotteninvalidurl'] = 'Geçersiz şifre sıfırlama adresi';
 $string['format'] = 'Biçim';
 $string['formathtml'] = 'HTML biçimi';
@@ -1068,6 +1081,7 @@ $string['previewhtml'] = 'HTML Biçimi Önizlemesi';
 $string['previeworchoose'] = 'İzle veya bir tema seç';
 $string['previous'] = 'Önceki';
 $string['previoussection'] = 'Önceki bölüm';
+$string['primaryadminsetup'] = 'Yönetici hesabını ayarla';
 $string['profile'] = 'Profil';
 $string['publicdirectory'] = 'Halka açık dizin';
 $string['publicdirectory0'] = 'Lütfen bu siteyi yayınlama';
@@ -1408,6 +1422,7 @@ $string['usernameemailmatch'] = 'Kullanıcı adı ve email adresi aynı kullanı
 $string['usernameexists'] = 'Bu kullanıcı adı var, başka bir tane seçiniz';
 $string['usernamelowercase'] = 'Sadece küçük harfler';
 $string['usernamenotfound'] = 'Kullanıcı adı veritabanında bulunamadı';
+$string['usernameoremail'] = 'Ya kullanıcı adını ya da e-posta adresini girin';
 $string['usernotconfirmed'] = '$a onaylanmadı';
 $string['userpic'] = 'Kullanıcı resmi';
 $string['userprofilefor'] = 'Kullanıcı profili: $a';

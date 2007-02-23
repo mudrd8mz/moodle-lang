@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 dev (2006120700)
+      // data.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['action'] = 'Eylem';
@@ -201,6 +201,7 @@ $string['savesettings'] = 'Ayarları kaydet';
 $string['savesuccess'] = 'Başarıyla kaydedildi. Ayarınıza şu anda tüm siteden ulaşılabilir.';
 $string['savetemplate'] = 'Şablonu kaydet';
 $string['sendinratings'] = 'Son derecelendirmelerimi gönder';
+$string['showall'] = 'Bütün kayıtları göster';
 $string['single'] = 'Tek görünüm';
 $string['singletemplate'] = 'Tek şablon';
 $string['teachersandstudents'] = '$a->teachers ve $a->students';
