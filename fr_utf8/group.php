@@ -40,8 +40,7 @@ $string['editgroupsettings'] = 'Modifier les réglages du groupe';
 $string['deleteselectedgroup'] = 'Supprimer le groupe sélectionné';
 $string['removegroupfromselectedgrouping'] = 'Retirer le groupe du groupement'; // sélectionné
 $string['creategroupinselectedgrouping'] = 'Créer un groupe dans le groupement'; // sélectionné
-$string['addexistinggroupstogrouping'] = 'Ajouter des groupes existants au groupement';
-$string['addgroupstogrouping'] = 'Ajouter des groupes au groupement';
+$string['addgroupstogrouping'] = 'Ajouter le groupe au groupement';
 
 $string['removeselectedusers'] = 'Retirer les utilisateurs sélectionnés';
 $string['adduserstogroup'] = 'Ajouter/retirer des utilisateurs'; // au groupe
