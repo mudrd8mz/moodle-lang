@@ -11,6 +11,7 @@ $string['enrol_ldap_autocreation_settings'] = 'Réglages de la création automat
 $string['enrol_ldap_bind_dn'] = 'Si vous voulez utiliser bind-user pour rechercher des utilisateurs, veuillez le spécifier ici, par exemple sous la forme «&nbsp;cn=ldapuser,ou=public,o=org&nbsp;»';
 $string['enrol_ldap_bind_pw'] = 'Mot de passe pour bind-user.';
 $string['enrol_ldap_category'] = 'Catégorie des cours créés automatiquement.';
+$string['enrol_ldap_contexts'] = 'Contextes LDAP';
 $string['enrol_ldap_course_fullname']  = 'Facultatif&nbsp;: champ LDAP d\'où tirer le nom complet du cours.';
 $string['enrol_ldap_course_idnumber'] = 'Champ correspondant avec l\'identificateur unique LDAP, D\'habitude <em>cn</em> ou <em>uid</em>. On recommande de verrouiller cette valeur lors de l\'utilisation de la création automatique de cours.';
 $string['enrol_ldap_course_settings'] = 'Réglages de l\'inscription aux cours';
@@ -19,7 +20,9 @@ $string['enrol_ldap_course_summary'] = 'Facultatif&nbsp;: champ LDAP d\'où tire
 $string['enrol_ldap_editlock'] = 'Verrouiller la valeur';
 $string['enrol_ldap_general_options'] = 'Options générales';
 $string['enrol_ldap_host_url'] = 'Indiquez l\'hôte LDAP en format URL, par exemple «&nbsp;ldap://ldap.myorg.com/&nbsp;» ou «&nbsp;ldaps://ldap.myorg.com/&nbsp;»';
+$string['enrol_ldap_memberattribute'] = 'Attribut appartenance LDAP';
 $string['enrol_ldap_objectclass'] = 'Classe objectClass utilisée pour la recherche de cours. D\'habitude «&nbsp;posixGroup&nbsp;».';
+$string['enrol_ldap_roles'] = 'Correspondance des rôles';
 $string['enrol_ldap_search_sub'] = 'Rechercher les affiliations aux groupes à partir des sous-contextes.';
 $string['enrol_ldap_server_settings'] = 'Réglages du serveur LDAP';
 $string['enrol_ldap_student_contexts'] = 'Liste des contextes où sont placés les groupes contenant les inscriptions des étudiants. Séparez les différents contextes par des «&nbsp;;&nbsp;». Par exemple&nbsp;: «&nbsp;ou=courses,o=org; ou=others,o=org&nbsp;»';
