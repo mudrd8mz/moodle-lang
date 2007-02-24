@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.8 dev (2006102600)
+      // enrol_ldap.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['description'] = '<p>ユーザ登録をコントロールするために、LDAPサーバを使用することができます。LDAPの使用は、あなたのLDAPツリーがコースに登録されているグループを含んでいること、それぞれのグループ/コース内に学生に対応したメンバー登録があることを前提とします。</p>
@@ -15,6 +15,7 @@ $string['enrol_ldap_autocreation_settings'] = 'コース自動作成設定';
 $string['enrol_ldap_bind_dn'] = 'bindユーザをユーザ検索に使用したい場合は、ここで指定してください。「 cn=ldapuser,ou=public,o=org 」のようになります。';
 $string['enrol_ldap_bind_pw'] = 'bindユーザのパスワードです。';
 $string['enrol_ldap_category'] = '自動作成コースのカテゴリです。';
+$string['enrol_ldap_contexts'] = 'LDAPコンテクスト';
 $string['enrol_ldap_course_fullname'] = 'オプション: 「名称」を取得するLDAPフィールドです。';
 $string['enrol_ldap_course_idnumber'] = 'LDAPのユニークなidentifierにマップしてください。通常は <em>cn</em> または <em>uid</em>です。コース自動作成を使用する場合は値を固定してください。';
 $string['enrol_ldap_course_settings'] = 'コース登録設定';
@@ -23,7 +24,9 @@ $string['enrol_ldap_course_summary'] = 'オプション: 「要約」を取得�
 $string['enrol_ldap_editlock'] = 'ロック値';
 $string['enrol_ldap_general_options'] = '一般オプション';
 $string['enrol_ldap_host_url'] = '「 ldap://ldap.myorg.com/ 」または「 ldaps://ldap.myorg.com/ 」のようにLDAPホストをURLの形式で指定してください。';
+$string['enrol_ldap_memberattribute'] = 'LDAPメンバー属性';
 $string['enrol_ldap_objectclass'] = 'コース検索に使用するオブジェクトクラス。通常は「 posixGroup 」です。';
+$string['enrol_ldap_roles'] = 'ロールマッピング';
 $string['enrol_ldap_search_sub'] = 'subcontextよりグループメンバーを検索する。';
 $string['enrol_ldap_server_settings'] = 'LDAPサーバ設定';
 $string['enrol_ldap_student_contexts'] = '学生の登録時に割り当てられるグループリストのコンテクストです。コンテクストは「 ; 」で区切ってください。例: 「  ou=courses,o=org; ou=others,o=org 」';

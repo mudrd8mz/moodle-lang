@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 Beta (2007020400)
+      // data.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['action'] = '操作';
@@ -201,6 +201,7 @@ $string['savesettings'] = '設定を保存する';
 $string['savesuccess'] = '正常に保存されました。あなたのプリセットは、サイト全体で利用できます。';
 $string['savetemplate'] = 'テンプレートを保存する';
 $string['sendinratings'] = '私の評価を送信する';
+$string['showall'] = 'すべてのエントリを表示する';
 $string['single'] = '個別表示';
 $string['singletemplate'] = '個別表示用テンプレート';
 $string['teachersandstudents'] = '$a->teachers および $a->students';
