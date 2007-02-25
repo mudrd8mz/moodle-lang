@@ -2,7 +2,6 @@
       // group.php - created with Moodle 1.9 dev (2007021400)
 
 
-$string['addexistinggroupstogrouping'] = '既存のグループをグルーピングに追加する';
 $string['addgroupstogrouping'] = 'グループをグルーピングに追加する';
 $string['adduserstogroup'] = 'ユーザをグループに追加/削除する';
 $string['anygrouping'] = '[すべてのグルーピング]';
@@ -85,5 +84,6 @@ $string['usestudentsonlyfromselectedgroup'] = '現在選択されているグル
 $string['viewallgroupsactivities'] = '学生はすべてのグループの活動を閲覧のみできる。';
 $string['viewallgroupsmembers'] = '学生はすべてのグループのメンバーを閲覧できる。';
 $string['viewowngroup'] = '学生は自分が属しているすべてのグループのメンバーを閲覧できる。';
+$string['addexistinggroupstogrouping'] = '既存のグループをグルーピングに追加する'; // ORPHANED
 
 ?>
