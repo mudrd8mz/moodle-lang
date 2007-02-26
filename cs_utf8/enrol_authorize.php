@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.6.1+ (2006050512)
+      // enrol_authorize.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['adminacceptccs'] = 'Typy přijímaných kreditních karet';
@@ -8,6 +8,8 @@ $string['adminauthorizeemail'] = 'E-mailové upozorňování';
 $string['adminauthorizesettings'] = 'Nastavení Authorize.net';
 $string['adminauthorizewide'] = 'Globální nastavení';
 $string['adminavs'] = 'Vyberte tuto možnost, pokud jste u svého účtu authorize.net aktivovali kontrolní systém Address Verification System (AVS). Uživatelé tak budou muset na platebním formuláři vyplnit také pole ulice, stát, země a PSČ (Zip Code).';
+$string['adminconfighttps'] = 'Abyste mohli používat tento plugin, prosím \"<a href=\"$a->url\">zapněte loginhttps </a>\" <br />v Správa >> Proměnné >> Bezpečnost >> bezpečnost HTTP .';
+$string['adminconfighttpsgo'] = 'Tento plugin můžete zkonfigurovat na <a href=\"$a->url\">zabezpečené stránce</a>  .';
 $string['admincronsetup'] = 'Skript cron.php, který má na starosti běžnou údržbu serveru, nebyl během posledních 24 hodin spuštěn.<br />Chcete-li používat automatické zpracování transakcí, musí být cron v provozu.<br /><b>Povolte</b> zápis prostřednictvím \'Authorize.net Credit Card Gateway\' a <b>zprovozněte cron</b>, nebo <b>zrušte</b> volbu <b>an_review</b>.<br />Pokud deaktivujete automatické zpracování transakcí, budou transakce zrušeny, nezpracujete-li je do 30 dnů.<br />Zatrhněte volbu <b>an_review</b> a zapište <b>\'0\' (nulu)</b> do pole <b>an_capture_day</b>,<br />chcete-li transakce potvrdit/zamítnout <b>ručně</b> během 30 dnů od podání.';
 $string['adminemailexpired'] = 'Odesílat správcům e-mail s upozorněním <b>$a</b> dny/dnů před uplynutím lhůty pro uskutečnění transakce. Tuto volbu je vhodné použít při ručním zpracování transakcí.';
 $string['adminemailexpiredsort'] = 'Čím se řídí upozorňování na transakce s blížícím se koncem lhůty pro vyžízení?';
@@ -86,6 +88,7 @@ Nezadávejte prosím číslo své kreditní karty, pokud v dolní liště prohl�
 $string['logindesc'] = 'Tato volba musí být ZAPNUTA (ON).<br /><br />
 Nastavte proměnnou <a href=\"$a->url\">loginhttps</a> v sekci Správa->Proměnné->Zabezpečení.<br /><br />
 Po jejím zapnutí bude Moodle používat šifrované spojení HTTPS pouze pro přihlašování a pro provedení plateb.';
+$string['logininfo'] = 'Přihlašovací jméno, heslo a klíč transakce nejsou zobrazovány z bezpečnostních důvodů. Není důvod vyplňovat tato pole znovu, pokud již jste je vyplnili. Když vkládáte tato pole poprvé, je požadováno přihlašovací jméno a Vy musíte do příslušného políčka vložit <strong>buď</strong> klíč transakce (#1) <strong>nebo</strong> heslo (#2). Z bezpečnostních důvodů Vám doporučujeme klíč transakce. Pokud chcete smazat stávající heslo, zaškrtněte políčko.';
 $string['missingaddress'] = 'Nezadána adresa';
 $string['missingcc'] = 'Nezadáno číslo karty';
 $string['missingccexpire'] = 'Nezadána doba platnosti';

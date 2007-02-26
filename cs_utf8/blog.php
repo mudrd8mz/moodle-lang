@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8 dev (2007010404)
+      // blog.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['addnewentry'] = 'Vložit nový příspěvek';
@@ -56,5 +56,6 @@ $string['viewcourseentries'] = 'Číst blogy kurzu';
 $string['viewmyentries'] = 'Číst vlastní příspěvky';
 $string['viewsiteentries'] = 'Číst všechny blogy';
 $string['worldblogs'] = 'Návštěvníci stránek smějí číst záznamy zveřejněné \'komukoliv v Internetu\'';
+$string['entrydeleted'] = 'Příspěvek blogu smazán'; // ORPHANED
 
 ?>

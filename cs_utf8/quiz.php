@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 dev (2007010404)
+      // quiz.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['1day'] = '1 den';
@@ -102,6 +102,7 @@ $string['copyingquestion'] = 'Vytváří se kopie úlohy';
 $string['correct'] = 'Správná odpověď';
 $string['correctanswer'] = 'Správná odpověď';
 $string['correctanswerformula'] = 'Vzorec správné odpovědi';
+$string['correctansweris'] = 'Správná odpověď: $a';
 $string['correctanswerlength'] = 'Platné číslice';
 $string['correctanswers'] = 'Správné odpovědi';
 $string['correctanswershows'] = 'U správných odpovědí se zobrazují';
@@ -337,6 +338,7 @@ $string['penaltyscheme'] = 'Penalizace';
 $string['percentcorrect'] = 'Procent správně';
 $string['pleaseclose'] = 'Váš požadavek byl zpracován, nyní můžete toto okno zavřít.';
 $string['popup'] = 'Zobrazit test v „zabezpečeném“ okně';
+$string['popupblockerwarning'] = 'Tato část testu je v bezpečném modu. To znamená, že musíte test absolvovat v zabezpečeném okně. Prosím vypněte blokování vyskakovacích oken. Děkujeme.';
 $string['popupnotice'] = 'Studentům se tento test zobrazí v zabezpečeném okně.';
 $string['preview'] = 'Náhled';
 $string['previewquestion'] = 'Náhled úlohy';
@@ -485,6 +487,7 @@ $string['toomanyrandom'] = 'Počet požadovaných náhodných úloh je větší,
 $string['top'] = 'Nejvyšší úroveň';
 $string['true'] = 'Pravda';
 $string['truefalse'] = 'Pravda/Nepravda';
+$string['truefalseimporterror'] = '<b>Pozor</b>: Otázku \'$a->questiontext\' typu pravda/nepravda nebylo možno korektně importovat. Nebylo jasné, zda správnou odpovědí je Pravda nebo Nepravda. Otázka byla importována předpokládajíc, že odpověď je \'$a->answer\'. Pokud tomu tak není, opravte prosím otázku.';
 $string['type'] = 'Typ';
 $string['unfinished'] = 'nedokončeno';
 $string['ungraded'] = 'Neznámkováno';

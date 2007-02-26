@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.8 dev (2007010404)
+      // assignment.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['allowdeleting'] = 'Povolit odstraňování';
@@ -109,5 +109,29 @@ $string['uploadsuccess'] = '\'$a\' úspěšně odevzdán';
 $string['viewfeedback'] = 'Zobrazit hodnocení vypracovaného úkolu';
 $string['viewsubmissions'] = 'Zobrazit $a odevzdaných úkolů';
 $string['yoursubmission'] = 'Váš odevzdaný úkol';
+$string['allowmultiple'] = 'Povolit více souborů'; // ORPHANED
+$string['attachfile'] = 'Připojit soubor'; // ORPHANED
+$string['attachfiletoassignment'] = 'Připojit k úkolu soubor'; // ORPHANED
+$string['backtoassignment'] = 'Zpět na úkol'; // ORPHANED
+$string['backtofeedback'] = 'Zpět na hodnocení'; // ORPHANED
+$string['choosereviewfile'] = 'Vybrat soubor, který bude uploadován jako posudek'; // ORPHANED
+$string['deletecheckfile'] = 'Opravdu chcete tento soubor smazat?'; // ORPHANED
+$string['deleteednotification'] = 'Soubor byl smazán'; // ORPHANED
+$string['deletefail'] = 'Tento soubor nebyl smazán:'; // ORPHANED
+$string['markingsubmitnotification'] = 'Soubor byl úspěšně načten ke známkování.'; // ORPHANED
+$string['namedeletefile'] = 'Chystáte se smazat soubor:'; // ORPHANED
+$string['nofilesforsubmit'] = 'Nebyl nalezen soubor k odevzdání. Určitě jste nějaký uploadoval?'; // ORPHANED
+$string['removelink'] = 'Odstranit'; // ORPHANED
+$string['responsefile'] = 'Soubor s reakcí:'; // ORPHANED
+$string['responsesfromteacher'] = 'Od učitele byly načteny tyto reakce:'; // ORPHANED
+$string['step1'] = 'Krok 1'; // ORPHANED
+$string['step2'] = 'Krok 2'; // ORPHANED
+$string['submissionstatus'] = 'Stav odevzdání:'; // ORPHANED
+$string['submissionstatusblank'] = 'Pusto'; // ORPHANED
+$string['submissionstatusdraft'] = 'Návrh'; // ORPHANED
+$string['submissionstatusmarked'] = 'Oznámkováno'; // ORPHANED
+$string['submissionstatusreturned'] = 'Vráceno'; // ORPHANED
+$string['submissionstatussubmitted'] = 'Odevzdáno'; // ORPHANED
+$string['uploadsuccessresponse'] = 'Soubor s reakcí byl úspěšně načten'; // ORPHANED
 
 ?>

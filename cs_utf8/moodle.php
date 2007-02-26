@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2007012500)
+      // moodle.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['action'] = 'Akce';
@@ -428,6 +428,8 @@ Toto je automaticky generovany e-mail. Neni nutne na nej odpovidat jeho odesilat
 Pokud narazite na problemy, obratte se na spravce techto stranek: 
 $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: potvrzeni zmeny hesla';
+$string['emailpasswordconfirmmaybesent'] = '<p>Pokud jste zadali správné uživatelské jméno nebo adresu, byl vám odeslán email.</p>
+<p>Obsahuje jednoduché instrukce k potvrzení a dokončení změny hesla. Pokud máte nadále potíže, kontaktujte admina stránek.</p>';
 $string['emailpasswordconfirmsent'] = 'Na vaši adresu <b>$a</b> byl odeslán e-mail obsahující jednoduché pokyny k potvrzení a dokončení změny vašeho hesla. <br />Pokud narazíte na problémy, obraťte se na správce těchto stránek.';
 $string['emailpasswordsent'] = 'Děkujeme za potvrzení změny vašeho hesla.<p>Vaše nové heslo bylo odesláno na adresu <br /><b>$a->e-mail</b>.<p><br />Toto heslo bylo vygenerováno automaticky, můžete si je kdykoliv <a href=\"$a->link\">změnit</a> na nějaké snadněji zapamatovatelné.';
 $string['enable'] = 'Povolit';
@@ -515,6 +517,7 @@ $string['forcepasswordchangenotice'] = 'Před pokračováním si musíte změnit
 $string['forcetheme'] = 'Vnutit motiv';
 $string['forgotaccount'] = 'Zapomněli jste heslo?';
 $string['forgotten'] = 'Zapomněli jste své uživatelské jméno či heslo?';
+$string['forgotteninvalidurl'] = 'Neplatné heslo - reset URL';
 $string['format'] = 'Uspořádání';
 $string['formathtml'] = 'Formát HTML';
 $string['formatlams'] = 'LAMS';
@@ -937,6 +940,7 @@ $string['pageheaderconfigablock'] = 'Konfigurace bloku v %%fullname%%';
 $string['parentcoursenotfound'] = 'Nadřazený kurz nenalezen!';
 $string['parentcoursenotmetacourse'] = 'Nadřazený kurz není metakurz!';
 $string['parentfolder'] = 'Nadřazená složka';
+$string['parentlanguage'] = '<< Překladatelé: Pokud Váš jazyk má \"nadřazený\" jazyk\", který má Moodle používat v případech, kdy řetězce ve vašem jazykovém balíčku chybí, specifikujte jeho kód zde. Příklad: nl >>';
 $string['participants'] = 'Účastníci';
 $string['participationratio'] = 'Poměr participace';
 $string['participationreport'] = 'Protokol participace';
@@ -969,6 +973,7 @@ $string['periodending'] = 'Období do ($a)';
 $string['personalprofile'] = 'Osobní profil';
 $string['phone'] = 'Telefon';
 $string['phpinfo'] = 'PHP info';
+$string['pleaseclose'] = 'Prosím zavřete toto okno';
 $string['pluginsetup'] = 'Nastavení tabulek zásuvných modulů';
 $string['policyagree'] = 'Před dalším používáním těchto stránek musíte souhlasit s těmito pravidly. Souhlasíte s nimi?';
 $string['policyagreement'] = 'Souhlas s pravidly používání stránek';
@@ -1375,5 +1380,8 @@ $string['yourlastlogin'] = 'Vaše poslední přihlášení';
 $string['yourself'] = 'vy';
 $string['yourteacher'] = 'váš $a';
 $string['zippingbackup'] = 'Komprimuji (ZIP) zálohu';
+$string['statsreport6'] = 'Veškerá činnost učitelů (prohlížení a příspěvky)'; // ORPHANED
+$string['statsreportstudentactivity'] = 'Veškerá činnost studentů (prohlížení a příspěvky)'; // ORPHANED
+$string['statsreportteacheractivity'] = 'Veškerá činnost studentů (prohlížení a příspěvky)'; // ORPHANED
 
 ?>

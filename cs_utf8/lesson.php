@@ -1,14 +1,16 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8 dev (2007010404)
+      // lesson.php - created with Moodle 1.8 Beta (2007020400)
 
 
 $string['accesscontrol'] = 'Řízení přístupu';
 $string['actionaftercorrectanswer'] = 'Akce po správné odpovědi';
+$string['actions'] = 'Akce';
 $string['activitylink'] = 'Odkaz na činnost v kurzu';
 $string['activitylinkname'] = 'Přejít na: $a';
 $string['addabranchtable'] = 'Přidat rozcestník';
 $string['addanendofbranch'] = 'Přidat konec větve';
 $string['addaquestionpage'] = 'Přidat stránku s otázkou';
+$string['addaquestionpagehere'] = 'Přidat sem stránku s otázkou';
 $string['addcluster'] = 'Přidat seskupení';
 $string['addedabranchtable'] = 'Přidán rozcestník';
 $string['addedanendofbranch'] = 'Přidán konec větve';
@@ -16,6 +18,7 @@ $string['addedaquestionpage'] = 'Přidána stránka s otázkou';
 $string['addedcluster'] = 'Přidáno seskupení';
 $string['addedendofcluster'] = 'Přidán konec seskupení';
 $string['addendofcluster'] = 'Přidat konec seskupení';
+$string['addpage'] = 'Přidat stránku';
 $string['anchortitle'] = 'Začátek obsahu stránky';
 $string['and'] = 'A';
 $string['answer'] = 'Odpověď';
@@ -24,6 +27,7 @@ $string['answersfornumerical'] = 'Odpovědi na numerickou otázku by měly být 
 $string['arrangebuttonshorizontally'] = 'V režimu prezentace rozložit tlačítka rozcestníku vodorovně';
 $string['attempt'] = 'Pokus: $a';
 $string['attempts'] = 'Pokusy';
+$string['attemptsdeleted'] = 'Odstraněné pokusy';
 $string['attemptsremaining'] = 'Zbývající počet pokusů: $a';
 $string['available'] = 'Datum a čas zpřístupnění';
 $string['averagescore'] = 'Průměrná známka';
@@ -277,5 +281,14 @@ $string['youmadehighscore'] = 'Dostali jste se do žebříčku $a nejlepších z
 $string['youranswer'] = 'Vaše odpověď';
 $string['yourcurrentgradeis'] = 'Stávající známka: $a';
 $string['youshouldview'] = 'Měli byste zodpovědět nejméně $a otázek.';
+$string['commentswithname'] = '$a->firstname {$a->lastname} má připomínky:'; // ORPHANED
+$string['jumptsto'] = 'skočit na'; // ORPHANED
+$string['mainmenu'] = 'Menu kurzu'; // ORPHANED
+$string['returnmainmenu'] = 'Návrat na hlavní menu'; // ORPHANED
+$string['updatesuccess'] = 'Úspěšně aktualizováno'; // ORPHANED
+$string['waitpostscore'] = 'Prosím počkejte na zobrazení bodování...'; // ORPHANED
+$string['youhavereceived'] = 'Za tuto tvořenou odpověď máte $a->score z $a->outof možných bodů.'; // ORPHANED
+$string['yourgradeisnow'] = 'Vaše známka za tuto přednášku se změnila na $a'; // ORPHANED
+$string['yourresponse'] = 'Vaše odpověď'; // ORPHANED
 
 ?>
