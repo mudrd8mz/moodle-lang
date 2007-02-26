@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7+ (2006101009)
+      // resource.php - created with Moodle 1.8 Beta + (2007021400)
 
 
 $string['addresource'] = 'Aggiungi una risorsa';
@@ -9,13 +9,13 @@ $string['browserepository'] = 'Cerca nel repository';
 $string['choose'] = 'Scegli';
 $string['chooseafile'] = 'Scegli un file oppure caricane uno dal tuo computer';
 $string['chooseparameter'] = 'Scegli un parametro';
-$string['configallowlocalfiles'] = 'Quando si crea una risorsa di tipo \"collegamento ad un file od un sito\", questa impostazione consente di collegare file presenti sul lettore CD o sul disco fisso del computer dell\'utente. Può essere utile nelle classi dove gli studenti possono accedere ad un disco di rete oppure per accedere a file contenuti in un CD-ROM. L\'impiego di questa caratteristica potrebbe richiedere la modifica di impostazioni di sicurezza del browser da parte degli utenti.';
-$string['configautofilerenamesettings'] = 'Aggiorna automaticamente i collegamenti ai file ed alle cartelle quando questi vengono rinominati nel file manager.';
-$string['configblockdeletingfilesettings'] = 'Se desiderate impedire che vengano eliminati file o cartelle che risultino in uso da altre risorse, impostate questo valore a Sì. Tenete presente che questa impostazione non impedirà comunque che possano essere cancellati file e cartelle utilizzati da pagine html.';
-$string['configdefaulturl'] = 'E\' possibile predefinire il valore dell\'URL con il quale creare risorse di tipo \"collegamento ad un file od un sito\".';
-$string['configfilterexternalpages'] = 'Abilitando questa impostazione tutte le risorse che utilizzano file caricati sul server (pagine web, file HTML) saranno elaborate dai filtri attivi (come i collegamenti automatici del glossario, per esempio). Abilitare questa impostazione potrebbe rallentare il caricamento delle pagine in modo significativo - usalo con attenzione e solo se non ne puoi fare a meno.';
+$string['configallowlocalfiles'] = 'Quando si crea una risorsa di tipo \"Link a file o sito web\", questa impostazione consente di collegare file presenti sul lettore CD o sul disco fisso del computer dell\'utente. Può essere utile nelle classi dove gli studenti possono accedere ad un disco di rete oppure per accedere a file contenuti in un CD-ROM. L\'impiego di questa caratteristica potrebbe richiedere la modifica di impostazioni di sicurezza nel browser degli utenti.';
+$string['configautofilerenamesettings'] = 'Aggiorna automaticamente i collegamenti ai file ed alle cartelle quando file o cartelle vengono rinominati con il file manager.';
+$string['configblockdeletingfilesettings'] = 'Se desiderate impedire che vengano eliminati file o cartelle che risultino in uso da altre risorse, impostate questo valore a Sì. Tenete comunque presente che questa impostazione non può garantire che possano essere cancellati file e cartelle utilizzati da pagine html.';
+$string['configdefaulturl'] = 'E\' possibile predefinire il valore dell\'URL con il quale creare risorse di tipo \"Link a file o sito web\".';
+$string['configfilterexternalpages'] = 'Abilitando questa impostazione tutte le risorse che utilizzano file caricati sul server (pagine web, file HTML) saranno elaborate dai filtri attivi (come i collegamenti automatici al glossario, per esempio). Abilitare questa impostazione potrebbe rallentare il caricamento delle pagine in modo significativo - usalo con attenzione e solo se non ne puoi fare a meno.';
 $string['configframesize'] = 'Se si sceglie di mostrare una risorsa usando i frame, è possibile specificare qui la dimensione in pixel del frame superiore che conterrà l\'intestazione di pagina con l\'interfaccia di navigazione del sito.';
-$string['configparametersettings'] = 'Potete stabilire se mostrare o meno le impostazioni che influenzano l\'invio di parametri alle risorse di tipo \"collegamento ad un file od un sito\". Dopo il primo accesso tuttavia, per ogni utente saranno mantenute le rispettive preferenze di visualizzazione.';
+$string['configparametersettings'] = 'Potete decidere se mostrare o meno le impostazioni che influenzano l\'invio di parametri alle risorse di tipo \"Link a file o sito web\". Dopo il primo accesso tuttavia, per ogni utente saranno mantenute le rispettive preferenze di visualizzazione.';
 $string['configpopup'] = 'Desiderate che per impostazione predefinita le nuove risorse siano mostrate in una finestra popup?';
 $string['configpopupdirectories'] = 'Le finestre popup possono mostrare la cartella dei collegamenti?';
 $string['configpopupheight'] = 'Altezza predefinita (in pixel) delle finestre popup';
@@ -29,7 +29,7 @@ $string['configpopupwidth'] = 'Larghezza predefinita (in pixel) delle finestre p
 $string['configsecretphrase'] = 'Questa frase segreta viene utilizzata per generare il codice criptato utilizzato per inviare dati alle risorse che fanno uso di parametri. Il codice criptato è generato tramite la funzione md5 concatenando l\'indirizzo IP dell\'utente con questa frase segreta. Ad esempio: code  = md5(IP.secretphrase). Tutto questo permette di rafforzare la sicurezza verificando la connessione.';
 $string['configwebsearch'] = 'Se si desidera utilizzare come risorsa una pagina web reperibile su Internet, potete facilitare gli utenti offrendogli la URL predefinita di un motore di ricerca.';
 $string['configwindowsettings'] = 'Potete scegliere se mostrare o meno le impostazioni che influenzano le caratteristiche delle finestre del browser utilizzate per mostrare le risorse. Dopo il primo accesso tuttavia, per ogni utente saranno mantenute le rispettive preferenze di visualizzazione.';
-$string['deploy'] = 'Pubblicare';
+$string['deploy'] = 'Pubblica';
 $string['deployall'] = 'Pubblica tutto';
 $string['directlink'] = 'Collegamento diretto a questo file';
 $string['directoryinfo'] = 'Saranno mostrati tutti i file e le cartelle contenuti nella cartella che avete scelto.';
@@ -47,10 +47,10 @@ $string['filtername'] = 'Creazione automatica di link ai nomi delle risorse';
 $string['frameifpossible'] = 'Mostra la risorsa in un frame mantenendo visibile i pulsanti di navigazione.';
 $string['fulltext'] = 'Testo visualizzato dalla risorsa';
 $string['htmlfragment'] = 'Codice HTML';
-$string['imspackageloaded'] = 'Pacchetto caricato.';
+$string['imspackageloaded'] = 'Pacchetto caricato';
 $string['localfile'] = 'File nel computer dell\'utente';
-$string['localfilechoose'] = 'Scegli un file nel computer locale (es. CD-ROM)';
-$string['localfilehelp'] = 'Aiuto per la visualizzazione di file locali';
+$string['localfilechoose'] = 'Scegli un file nel tuo computer (es. CD-ROM)';
+$string['localfilehelp'] = 'Aiuto su come visualizzare file presenti nei computer degli utenti';
 $string['localfileinfo'] = '<p>Scegli un file che risieda nel tuo computer. Il file non sarà  caricato sul server: Moodle cercherà  lo stesso file nei computer di coloro che visualizzeranno questa risorsa.</p><p>Questa possibilità è particolarmente utile quando si utilizzano media ingombranti memorizzati su CD-ROM distribuiti a tutti i partecipanti. Ogni partecipante potrà  scegliere il proprio percorso per accedere questi file <a href=\"$a\" target=\"_blank\">modificando il profilo utente</a>.</p>';
 $string['localfilepath'] = 'Per impostare il percorso che Moodle userà per trovare questa risorsa nel tuo computer, scegli un file qualsiasi (in genere su CD-ROM) che si trovi nella stesa cartella dove si trova il file utilzzato dalla risorsa. Il file che sceglierai non sarà  caricato nel server: saranno memorizzate solamente le informazioni relative alla posizione del file nel tuo computer. Queste informazioni saranno usate da tutte le risorse che usano file presenti nel tuo computer.';
 $string['localfileselect'] = 'Scegli questo percorso di file.';
@@ -123,7 +123,7 @@ $string['upbutton'] = 'Torna Su';
 $string['variablename'] = 'Nome della variabile';
 $string['viewims'] = 'Visualizza pacchetto IMS';
 $string['vol'] = 'Volume';
-$string['warningblockingdelete'] = 'Attenzione: l\'eliminazione è stata bloccata poichè esistono risorse che usano questi file. E\' necessario eliminare da queste risorse i riferimenti a file che volete eliminare oppure chiedere al Amministratore di disattivare il meccanismo di controllo nella configurazioen del sistema.';
-$string['warningdisabledrename'] = 'Attenzione: Il rename automatico dei riferimenti alle risorse è disabilitato. Se necessario, aggiornare manualmente le risorse interessate. L\'Amministratore può anche abilitare il rename automatico nella configurazione globale delle Risorse.';
+$string['warningblockingdelete'] = 'Attenzione: la cancellazione è stata interrotta poichè esistono risorse che usano i file da cancellare. E\' necessario eliminare da queste risorse i riferimenti ai file che volete eliminare oppure chiedere all\'Amministratore di disattivare questo meccanismo di controllo nella configurazione del sistema.';
+$string['warningdisabledrename'] = 'Attenzione: l\'aggiornamento automatico dei nomi dei file presenti all\'interno delle risorse è disabilitato. Se necessario, aggiornare manualmente le risorse interessate. L\'Amministratore può anche abilitare il l\'aggiornamento automatico dei nomi dei file nella configurazione globale delle Risorse.';
 
 ?>
