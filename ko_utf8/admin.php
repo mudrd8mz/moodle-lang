@@ -82,6 +82,7 @@ $string['configdigestmailtime'] = '미리 메일을 전송해 달라고 요청�
 $string['configdisplayloginfailures'] = '이것은 이전에 로그인에 실패했던 사용자들의 정보를 표시할 것이다.';
 $string['configdocroot'] = '무들 도움말 문서의 경로를 정의한다. 만일 나름대로의 사용자 온라인 문서를 갖고자할 경우에는 이를 바꿀 수 있다. 그러나 문서 경로가 http://docs.moodle.org 과 같은 형식을 사용하도록 하라.';
 $string['configdoctonewwindow'] = '만일 이 기능을 \"예\"로 놓으면 무들 문서창이 새 창으로 뜬다.';
+$string['configeditordictionary'] = '이것은 만약 aspell에 사용자가 쓰는 언어의 사전이 없을 때 사용할 값입니다.';
 $string['configeditorfontlist'] = '편집기의 펼침 목록에 나타날 글꼴을 선택하라.';
 $string['configenableajax'] = '만일 AJAX 기능을 활성화하면 사용자는 자신들의 신상명세에서 이를 비활성화 할 수 있으나 비활성화하면 모든 사람이 AJAX 기능을 쓸 수 없게 된다.';
 $string['configenablecourserequests'] = '이 기능을 켜 놓으면 어느 누구던 배움터를 요청하여 만들 수 있다.';
@@ -184,7 +185,7 @@ $string['configsitepolicy'] = '만약 당신이 모든 사용자가 반드시 �
 $string['configslasharguments'] = '파일들은 슬래쉬 아규먼트를 사용하는 스크립트를 통해서 제공된다. 이 방법은 파일들이 웹 브라우저나 프록시 서버등에서 훨씬 쉽게 저장되도록 한다. 가끔 어떤 PHP서버들은 이 방법을 허용하지 않는다. 만약 업로드된 파일이나 이미지를 보는데 문제가 있다면, 이 변수를 처음 옵션으로 설정하라.';
 $string['configsmartpix'] = '이를 켜 놓으면, 아이콘은 PHP 스크립트를 통해 현재의 테마, 상위 테마, 그리고 무들의 /pix 경로에서 검색되어 제공된다. 이는 테마 안에 중복된 이미지가 있을 때 좋지만 다소 성능에 무리를 준다.';
 $string['configsmtphosts'] = '무들이 메일을 보낼때 사용하는 local SMTP 서버의 전체 이름을 적어라.(예 : \'mail.a.com\' 혹은 \'mail.a.com;mail.b.com\')
-만약 이곳을 빈칸으로 남겨두면 무들은 PHP 프로그램을 사용하여 메일을 발송할 것이다.';
+만약 이 곳을 빈칸으로 남겨두면 무들은 PHP 프로그램을 사용하여 메일을 발송할 것이다.';
 $string['configsmtpuser'] = '만약 위에서 SMTP 서버를 지정했고, 각 서버에 접속할 수 있는 인증을 요구한다면, 사용자 ID와 비밀번호를 이 곳에 입력하라.';
 $string['configstartwday'] = '한 주의 첫 요일';
 $string['configstatsfirstrun'] = '여기에서 cron이 통계를 처리한 후 얼마나 오랫동안 기록을 보유하고 있어야 할지를 지정한다. 만일 매우 접속이 많거나 서버를 임대해 쓰는 경우는, 통계처리에 걸리는 시간도 길고 부하도 많이 걸리기 때문에 기록을 오래 유지시키는 일은 바람직하지 않다.(여기에서는 1 month = 28 days로 설정했고, 그래프와 보고에서는 1 month = 1 calendar month로 했음에 유의하라)';
@@ -251,11 +252,14 @@ $string['editennotallowed'] = '이 화면에서는 en_utf8 코드를 편집할 �
 $string['edithelpdocs'] = '도움 문서 편집';
 $string['editlang'] = '<b>언어팩 편집</b>';
 $string['editorbackgroundcolor'] = '배경색';
+$string['editordictionary'] = '편집기 사전';
 $string['editorfontfamily'] = '폰트 패밀리';
 $string['editorfontlist'] = '글꼴 목록';
 $string['editorfontsize'] = '글꼴 크기';
 $string['editorhidebuttons'] = '감춰진 버튼';
 $string['editorkillword'] = '워드 형식 필터';
+$string['editorspelling'] = '편집기 철자법';
+$string['editorspellinghelp'] = '철자 검사의 활성/비활성. 이를 활성화해 놓으려면 반드시 서버에 <strong>aspell</strong>이 탑재되어 있어야 합니다.';
 $string['editstrings'] = '문자열 편집';
 $string['enableajax'] = 'AJAX 활성화';
 $string['enablecourserequests'] = '배움터 요청 가능';

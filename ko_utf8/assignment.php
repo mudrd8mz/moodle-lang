@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 dev (2006100601)
+      // assignment.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['allowdeleting'] = '삭제 허용';
@@ -21,7 +21,7 @@ $string['comment'] = '평';
 $string['commentinline'] = '즉석 평';
 $string['configitemstocount'] = '온라인 과제를 제출한 학생들의 계수 항목 특성';
 $string['configmaxbytes'] = '이 사이트에 있는 모든 과제의 기본 최대 크기';
-$string['confirmdeletefile'] = '아래의 파일을 삭제하는 것이 확실합니까?<br /><strong>$a</strong>';
+$string['confirmdeletefile'] = '다음 파일을 삭제하는 것이 확실합니까?<br /><strong>$a</strong>';
 $string['deletefilefailed'] = '파일 삭제 실패';
 $string['description'] = '설명';
 $string['draft'] = '초안';
@@ -34,9 +34,9 @@ $string['emailteachermail'] = '$a->username 은 \'$a->assignment\'에 대한 과
 $string['emailteachermailhtml'] = '$a->username 은 <i>\'$a->assignment\'</i>에 대한 과제 제출을 갱신했습니다.<br /><br />
 그것은 <a href=\"$a->url\">이 곳</a>에서 볼 수 있습니다.';
 $string['emailteachers'] = '선생님들께 알림';
-$string['emptysubmission'] = '아무것도 제출되지 않았습니다.';
-$string['existingfiledeleted'] = '제출되었던 파일 $a 이 지워졌습니다.';
-$string['failedupdatefeedback'] = '$a 가 제출한 과제에 대한 평을 갱신하는데 실패함';
+$string['emptysubmission'] = '아무것도 제출하지 않았습니다.';
+$string['existingfiledeleted'] = '기존의 파일 $a 가 지워졌습니다.';
+$string['failedupdatefeedback'] = '$a 이 제출한 과제에 대한 평을 갱신하는데 실패함';
 $string['feedback'] = '과제평';
 $string['feedbackfromteacher'] = '$a 의 의견';
 $string['feedbackupdated'] = '$a 명의 과제에 대한 의견을 갱신함';
@@ -45,14 +45,12 @@ $string['guestnosubmit'] = '죄송합니다. 손님은 과제를 제출할 수 �
 $string['guestnoupload'] = '죄송합니다. 손님은 업로드할 수 없습니다.';
 $string['helpoffline'] = '<p>이것은 과제가 무들 외부에서 수행되어질 때 유용합니다. 웹상에서 혹은 면대면 상황에서 활용할 수 있습니다.</p> <p>학생들은 과제의 설명을 볼수 있습니다만, 파일을 올릴 수는 없습니다. 정상적으로 채점이 되며, 학생들은 성적에 대한 공지를 받을 것입니다.</p>';
 $string['helponline'] = '<p>이 과제 형식은 사용자에게 표준 편집기를 이용하여 텍스트를 편집하도록 합니다. 교사들은 온라인 상에서 채점을 할 수 있으며, 즉석에서 평이나 변경사항을 입력할 수도 있습니다.</p> <p>(만일 예전의 무들에 익숙하다면, 이 과제 형식은 저널 모듈과 동일하게 작동됩니다.)</p>';
-$string['helpupload'] = '<p>이 과제 유형은 학생들이 어떤 형태의 파일을 하나나 그 이상 올릴 수 있도록 합니다.이는 문서 작성기에 의한 문서, 묶음 파일 등 여러분들이 제출하라고 요구한 어떤 형태라도 가능합니다.</p>
-<p>이 유형은 종류를 막론하고 각 항목에 대한 여러분들의 의견을 올릴 수 있도록 허용합니다.</p>
-<p>This type also allows you to upload multiple response files. Response files can be also uploaded before submission which
- can be used to give each participant different file to work with.</p>
- <p>Participants may also enter notes describing the submitted files, progress status or any other text information.</p>
- <p>Submission of this type of assignment must be manually finalized by the participant. You can review the current status
- at any time, unfinished assignments are marked af Draft. You can revert any ungraded assignment back to draft status.</p>';
-$string['helpuploadsingle'] = '<p>이 과제의 형태는 각각의 참여자들에게 하나의 화일을 업로드 할 것을 허락합니다.</p> <p>화일은 워드프로세서 문서 혹은 이미지, 압축된 웹 사이트, 혹은 여러분이 요청했던 어떤 것이든 관계 없습니다.</p>';
+$string['helpupload'] = '<p>이 과제 유형은 학생들이 어떤 형태의 파일을 하나나 그 이상 올릴 수 있도록 합니다. 이는 문서 작성기에 의한 문서, 묶음 파일 등 여러분들이 제출하라고 요구한 어떤 형태라도 가능합니다.</p>
+<p>이 유형은 여러 개의 반응을 올릴 수 있도록 허용합니다. 반응(피드백) 파일은 제출 전에 게시되어, 개개의 참여자들이 작업에 서로 다른 파일을 사용할 수 있게 합니다.</p>
+<p>참여자들은 제출한 파일에 진행상황 혹은 여타의 문서 정보를 담은 주석을 달 수 있습니다.</p>
+ <p>이런 과제 유형에 대한 제출은 참여자들에 의해 수동으로 마감되어야 합니다. 담당자는 언제라도 현황을 살펴볼 수 있으며, 완료되지 않은 과제는 초안으로 표시됩니다. 아직 채점하지 않은 과제는 초안 상태로 되돌릴 수 있습니다.</p>';
+$string['helpuploadsingle'] = '<p>이 과제 유형은 각각의 참여자들에게 하나의 화일을 업로드 할 것을 요구합니다.</p>
+<p>화일은 워드프로세서 문서 혹은 이미지, 압축된 웹 사이트, 혹은 여러분이 요청했던 어떤 것이든 관계 없습니다.</p>';
 $string['hideintro'] = '이용 전에는 소개문 감춤';
 $string['late'] = '$a 늦음';
 $string['maximumgrade'] = '최대 점수';
@@ -64,7 +62,7 @@ $string['noassignments'] = '아직 과제가 지정되지 않았습니다.';
 $string['noattempts'] = '이 과제를 제출하려는 시도가 없었음';
 $string['nofiles'] = '제출된 파일이 없음';
 $string['nofilesyet'] = '아직 아무 파일도 제출하지 않았음';
-$string['notavailableyet'] = '죄송합니다. 이 약속은 아직 이용할 수 없습니다.<br />약속에 대한 설명은 아래에 나타난 날짜 이후에 이곳에 표시될 것입니다.';
+$string['notavailableyet'] = '죄송합니다. 이 과제는 아직 이용할 수 없습니다.<br /과제에 대한 설명은 아래에 나타난 날짜 이후에 이곳에 표시될 것입니다.';
 $string['notes'] = '주석';
 $string['notesempty'] = '입력사항 없음';
 $string['notesupdateerror'] = '주석을 올릴때 오류가 났음';
@@ -86,7 +84,7 @@ $string['submissions'] = '제출된 과제들';
 $string['submissionsaved'] = '변경 사항이 저장되었습니다';
 $string['submissionsnotgraded'] = '$a 제출된 것이 채점되지 않음';
 $string['submitassignment'] = '이 양식을 사용하여 과제를 제출함';
-$string['submitedformarking'] = '채점을 위한 약속이 이미 제출되었으며 갱신할 수 없음';
+$string['submitedformarking'] = '채점을 위한 과제가 이미 제출되었으며 갱신할 수 없음';
 $string['submitformarking'] = '채점을 위한 과제 제출';
 $string['submitted'] = '제출 완료';
 $string['submittedfiles'] = '제출된 파일들';
