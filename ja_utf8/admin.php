@@ -563,6 +563,6 @@ $string['users'] = 'ユーザ';
 $string['userscreated'] = 'ユーザが作成されました。';
 $string['usersrenamed'] = 'ユーザがリネームされました。';
 $string['usersupdated'] = 'ユーザが更新されました。';
-$string['validateerror'] = 'この値は有効ではありません:';
+$string['validateerror'] = 'この値は有効ではありません。:';
 
 ?>

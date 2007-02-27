@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // attendance.php - created with Moodle 1.8 dev (2006102600)
+      // attendance.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['absentlong'] = '欠席';
@@ -28,7 +28,6 @@ $string['dynamicsectionmulti'] = '出席簿を週に自動的に設置する';
 $string['dynsectionshort'] = '自動設置';
 $string['endbeforestart'] = '設置終了日が設置開始日の前にあります';
 $string['endmulti'] = '出席簿設置終了日';
-$string['for'] = '&nbsp;';
 $string['friday'] = '金';
 $string['gradeshort'] = '評定済み';
 $string['gradevalue'] = '出席を評定する';
@@ -41,10 +40,10 @@ $string['maxgradevalue'] = '皆勤の最大評点';
 $string['modulename'] = '出席';
 $string['modulenameplural'] = '出席簿';
 $string['monday'] = '月';
-$string['norolls'] = 'このコースには出席簿はありません';
+$string['norolls'] = 'このコースには出席簿はありません。';
 $string['notes'] = '備考';
 $string['notesfor'] = '備考';
-$string['noviews'] = '申し訳ございません、あなたのデータはありません';
+$string['noviews'] = '申し訳ございません、あなたのデータはありません。';
 $string['of'] = '/';
 $string['pages'] = 'ページ';
 $string['presentlong'] = '出席';
@@ -68,5 +67,6 @@ $string['viewtable'] = 'レポートを1つのテーブルに表示する';
 $string['viewweek'] = 'カレンダー週の全出席簿を表示';
 $string['wednesday'] = '水';
 $string['weekmodulename'] = '先週の全出席簿';
+$string['for'] = '&nbsp;'; // ORPHANED
 
 ?>
