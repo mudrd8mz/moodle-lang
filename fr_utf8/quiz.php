@@ -373,6 +373,7 @@ $string['questionnametoolong'] = 'Nom de la question à la ligne $a trop long (2
 $string['questionno'] = 'Question $a';
 $string['questions'] = 'Questions';
 $string['questionsinclhidden'] = 'Questions (y compris masquées)';
+$string['questionsinthisquiz'] = 'Questions dans ce test';
 $string['questionsinuse'] = '(* Les questions marquées d\'un astérisque sont utilisées dans certains tests. Ces questions ne seront pas supprimées de ces tests, mais seulement de la catégorie.)';
 $string['questionsperpage'] = 'Questions par page';
 $string['questiontext'] = 'Texte de la question';
