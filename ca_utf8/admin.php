@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 dev (2007011200)
+      // admin.php - created with Moodle 1.8 dev (2007012400)
 
 
 $string['accessdenied'] = 'Accés denegat';
@@ -108,6 +108,7 @@ $string['configgradebookroles'] = 'Aquest paràmetre us permet controlar qui apa
 $string['confighiddenuserfields'] = 'Seleccioneu quins camps d\'informació de l\'usuari voleu ocultar als usuaris que no siguin professors o administradors. Això protegirà la intimitat de l\'estudiantat. Utilitzeu la tecla CTRL per seleccionar múltiples camps.';
 $string['confightmleditor'] = 'Trieu si voleu permetre l\'ús de l\'editor HTML integrat. Encara que decidiu permetre\'n l\'ús, aquest editor només apareixerà si l\'usuari fa servir un navegador web compatible. Els usuaris també poden triar no usar-lo.';
 $string['configidnumber'] = 'Aquesta opció especifica si: a) no es demana cap número d\'identificació als usuaris; b) es demana un número d\'identificació als usuaris però poden deixar-lo en blanc o c) es demana un número d\'identificació als usuaris i no poden deixar-lo en blanc. Si l\'usuari ha donat un número d\'identificació, aquest número es mostra al seu perfil.';
+$string['configintcachemax'] = 'Nombre màxim de registres que es guardaran a la memòria cau. Només per a memòria cau interna. Valor recomanat: 50. Utilitzeu un valor més baix per reduir la memòria utilitzada.';
 $string['configintro'] = 'En aquesta pàgina podeu especificar un gran nombre de variables de configuració que contribueixen a fer funcionar Moodle de la manera adequada en el vostre servidor. Però no cal que us amoïneu: els valors per defecte solen anar molt bé i sempre podeu tornar-hi més tard per fer canvis en aquests paràmetres.';
 $string['configintroadmin'] = 'En aquesta pàgina hauríeu de configurar el compte de l\'administrador principal que tindrà control complet sobre aquest lloc. Doneu-li un nom i una contrasenya segurs i una adreça de correu electrònic vàlida. Després podreu crear més comptes d\'administració.';
 $string['configintrosite'] = 'Aquesta pàgina us permet configurar la pàgina inicial i el nom d\'aquest lloc. Podeu tornar-hi després en qualsevol moment per canviar aquests paràmetres, per mitjà de l\'enllaç \"Paràmetres del lloc\" de la pàgina inicial.';
@@ -128,6 +129,7 @@ $string['configmaxeditingtime'] = 'Aquest paràmetre especifica quant temps tene
 $string['configmaxevents'] = 'Quants esdeveniments';
 $string['configmessaging'] = 'Cal habilitar el sistema de missatgeria entre usuaris del lloc?';
 $string['configmymoodleredirect'] = 'Aquest paràmetre fa que els usuaris no administradors siguin redirigits a /my en entrar i que se substitueixi per /my el camí que es mostra al capdamunt de la pàgina.';
+$string['confignonmetacoursesyncroleids'] = 'Per defecte totes les inscripcions de cursos fills se sincronitzen amb els metacursos. Els rols que seleccioneu ací no s\'inclouran en el procés de sincronització.';
 $string['confignoreplyaddress'] = 'Alguns missatges de correu són tramesos en nom d\'un usuari (p. ex. els missatges dels fòrums). L\'adreça de correu que especifiqueu aquí s\'utilitzarà com a remitent (\"From\") quan no es vol que el destinatari pugui respondre directament el missatge (p. ex. quan el remitent ha triat ocultar la seva adreça).';
 $string['confignotifyloginfailures'] = 'Si s\'estan registrant les entrades errònies, se\'n poden enviar notificacions per correu electrònic. Qui hauria de veure aquestes notificacions?';
 $string['confignotifyloginthreshold'] = 'Si s\'han activat les notificacions d\'entrades errònies, quants intents erronis del mateix usuari o de la mateixa adreça IP cal esperar per enviar la notificació?';
@@ -140,6 +142,7 @@ $string['configprotectusernames'] = 'Per defecte forget_password.php no mostra c
 $string['configproxyhost'] = 'Si aquest <b>servidor</b> necessita usar un ordinador intermediari (p. ex. un tallafocs) per accedir a Internet, introduïu aquí el nom i el port de l\'intermediari. Si no, deixeu-lo en blanc.';
 $string['configproxyport'] = 'Si aquest servidor necessita utilitzar un ordinador intermediari, introduïu aquí el seu port.';
 $string['configquarantinedir'] = 'Si voleu que clam AV mogui els fitxers infectats a un directori de quarantena, definiu el directori aquí. El servidor web ha de tenir permís d\'escriptura en aquest directori. Si el deixeu en blanc, o introduïu un directori que no existeix, o no s\'hi pot escriure, lllavors els fitxers infectats se suprimiran. No inclogueu una barra final.';
+$string['configrcache'] = 'Utilitzeu la memòria cau per emmagatzemar els registres de la base de dades. Recordeu que cal definir també \'cachetype\'.';
 $string['configrequestedstudentname'] = 'Paraula per a \"estudiant\" en els cursos sol·licitats';
 $string['configrequestedstudentsname'] = 'Paraula per a \"estudiants\" en els cursos sol·licitats';
 $string['configrequestedteachername'] = 'Paraula per a \"professor\" en els cursos sol·licitats';
@@ -345,6 +348,7 @@ $string['mediapluginwmv'] = 'Habilita filtre .wmv';
 $string['messaging'] = 'Habilita el sistema de missatgeria';
 $string['misc'] = 'Miscel·lània';
 $string['modulesecurity'] = 'Seguretat dels mòduls';
+$string['multilangforceold'] = 'Imposa la sintaxi antiga de continguts multilingües: &lt;span&gt; sense class=\"multilang\" i &lt;lang&gt;';
 $string['multilangupgrade'] = 'Actualització de textos multilingües';
 $string['multilangupgradeinfo'] = 'La sintaxi del filtre multilingüe ha canviat a partir de la versió 1.8. L\'etiqueta <lang> ja no funciona. <br /><br />Ara cal fer-ho així: <span lang=\"en\" class=\"multilang\">Hello!</span><span lang=\"ca\" class=\"multilang\">Hola!</span><br /><br /><strong>Voleu actualitzar ara la sintaxi de tots els textos existents?</strong>';
 $string['multilangupgradenotice'] = 'Probablement el vostre lloc està utilitzant la sintaxi vella de textos multilingües. Es recomana passar l\'<a href=\"multilangupgrade.php\">actualització de textos multilingües</a>.';
@@ -357,6 +361,7 @@ $string['nobookmarksforuser'] = 'No teniu cap drecera.';
 $string['nolangupdateneeded'] = 'Tots els vostres paquets d\'idioma són al dia. No cal actualitzar-los.';
 $string['nonewsettings'] = 'No s\'han afegit nous paràmetres en aquesta actualització.';
 $string['nonexistentbookmark'] = 'La drecera que heu sol·licitat no existeix.';
+$string['nonmetacoursesyncroleids'] = 'Rols que no s\'han de sincronitzar amb els metacursos';
 $string['noreplyaddress'] = 'Adreça per a no rebre respostes';
 $string['noresults'] = 'No s\'han trobat resultats';
 $string['notifications'] = 'Notificacions';

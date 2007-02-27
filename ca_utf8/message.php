@@ -11,10 +11,10 @@ $string['allstudents'] = 'Tots els missatges entre estudiants del curs';
 $string['allusers'] = 'Tots els missatges de tots els usuaris';
 $string['backupmessageshelp'] = 'Si habiliteu aquesta opció, els missatges instantanis s\'inclouran en les còpies de seguretat automàtiques del lloc.';
 $string['beepnewmessage'] = 'Fes un bip quan arriba un nou missatge';
-$string['blockcontact'] = 'Bloca un contacte';
+$string['blockcontact'] = 'Bloca contacte';
 $string['blockedmessages'] = '$a missatge/s de/a usuaris blocats';
 $string['blocknoncontacts'] = 'Bloca tots els nous missatges de gent que no és a la meva llista de contactes.';
-$string['contactlistempty'] = 'La vostra llista de contactes està actualment buida';
+$string['contactlistempty'] = 'La vostra llista de contactes actualment està buida';
 $string['contacts'] = 'Contactes';
 $string['context'] = 'context';
 $string['deletemessagesdays'] = 'Nombre de dies abans que els missatges vells se suprimeixin automàticament';
@@ -64,7 +64,7 @@ $string['timesent'] = 'Hora d\'enviament';
 $string['unblockcontact'] = 'Desbloca contacte';
 $string['unreadmessages'] = '$a missatges no llegits';
 $string['userisblockingyou'] = 'Aquest usuari ha blocat els missatges enviats per vós';
-$string['userisblockingyounoncontact'] = 'Aquest usuari només accepta missatges de persones que siguin a la seva llista de contactes, i vos a hores d\'ara no hi sou.';
+$string['userisblockingyounoncontact'] = 'Aquest usuari només accepta missatges de persones que siguin a la seva llista de contactes, i vós a hores d\'ara no hi sou.';
 $string['userssearchresults'] = 'Resultats de la cerca: $a usuaris';
 
 ?>

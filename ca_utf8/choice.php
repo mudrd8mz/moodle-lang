@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8 dev (2006112200)
+      // choice.php - created with Moodle 1.8 dev (2007012400)
 
 
 $string['addmorechoices'] = 'Afegeix més opcions';
-$string['allowupdate'] = 'Permet actualitzar la consulta';
+$string['allowupdate'] = 'Permet canviar la resposta';
 $string['answered'] = 'Contestades';
 $string['choice'] = 'Opció $a';
 $string['choice:choose'] = 'Respondre una consulta';
@@ -45,7 +45,7 @@ $string['spaceleft'] = 'Espai disponible';
 $string['spacesleft'] = 'Espais disponibles';
 $string['taken'] = 'Ocupat';
 $string['timerestrict'] = 'Limita les respostes a aquest període de temps';
-$string['viewallresponses'] = 'Visualitza $a respostes';
+$string['viewallresponses'] = 'Visualitza respostes ($a)';
 $string['yourselection'] = 'La vostra selecció';
 
 ?>

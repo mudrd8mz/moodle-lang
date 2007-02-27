@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 dev (2007011200)
+      // group.php - created with Moodle 1.8 dev (2007012400)
 
 
 $string['addexistinggroupstogrouping'] = 'Afegeix els grups existents a l\'agrupament';
@@ -24,7 +24,12 @@ $string['editgroupingpermissions'] = 'Edita permissos d\'agrupament';
 $string['editgroupingsettings'] = 'Edita paràmetres d\'agrupament';
 $string['editgroupsettings'] = 'Edita paràmetres del grup';
 $string['enrolmentkey'] = 'Clau d\'inscripció';
+$string['erroreditgroup'] = 'S\'ha produït un error en crear o actualitzar el grup $a';
+$string['erroreditgrouping'] = 'S\'ha produït un error en crear o actualitzar l\'agrupament $a';
+$string['errorinvalidgroup'] = 'S\'ha produït un error: el grup $a no és vàlid';
+$string['errorinvalidgrouping'] = 'S\'ha produït un error: l\'agrupament $a no és vàlid';
 $string['errornotingrouping'] = 'No podeu crear un grup en $a';
+$string['errornotingroupingedit'] = 'No podeu editar l\'agrupament $a';
 $string['group'] = 'Grup';
 $string['groupdescription'] = 'Descripció del grup';
 $string['groupfor'] = 'per al grup';
@@ -40,7 +45,7 @@ $string['groupmemberdesc'] = 'Rol estàndard per a membres d\'un grup';
 $string['groupmembers'] = 'Membres del grup';
 $string['groupmemberssee'] = 'Visualitza membres del grup';
 $string['groupmembersselected'] = 'Membres del grup seleccionat';
-$string['groupmode'] = 'Mode de grup';
+$string['groupmode'] = 'Mode de grups';
 $string['groupmodeforce'] = 'Imposa el mode de grup';
 $string['groupmy'] = 'El meu grup';
 $string['groupname'] = 'Nom del grup';
