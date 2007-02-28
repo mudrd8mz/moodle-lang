@@ -374,6 +374,7 @@ $string['questionnametoolong'] = '$a 行の問題名が長すぎます (最大�
 $string['questionno'] = '問題 $a';
 $string['questions'] = '問題';
 $string['questionsinclhidden'] = '問題 (隠された問題を含む)';
+$string['questionsinthisquiz'] = 'この小テストの問題';
 $string['questionsinuse'] = '(* アスタリスクが付いている問題はすでに小テストで使用されています。これらの問題は小テストからは削除されませんが、カテゴリ一覧から削除されます。)';
 $string['questionsperpage'] = '1ページあたりの問題数';
 $string['questiontext'] = '問題テキスト';
