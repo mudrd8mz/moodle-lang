@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8 dev (2006102600)
+      // error.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['adminprimarynoedit'] = 'L\'administrador primari no pot ser editat per altres usuaris';
@@ -46,6 +46,7 @@ $string['modulerequirementsnotmet'] = 'El mòdul \"$a->modulename\" ($a->modulev
 $string['mustbeteacher'] = 'Cal ser professor/a per veure aquesta pàgina';
 $string['nocontext'] = 'Aquest curs no és un context vàlid';
 $string['noinstances'] = 'No hi ha instància de $a en aquest curs.';
+$string['nologinas'] = 'No esteu autoritzat a entrar com a aquest usuari';
 $string['nonmeaningfulcontent'] = 'Contingut no significatiu';
 $string['noparticipatorycms'] = 'No teniu mòduls participatius dels qual es pugui informar.';
 $string['nopermissions'] = 'Actualment no teniu permisos per a fer això ($a)';

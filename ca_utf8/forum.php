@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 dev (2006112200)
+      // forum.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['addanewdiscussion'] = 'Afegeix un nou tema de debat';
@@ -130,6 +130,7 @@ $string['namesocial'] = 'Fòrum social';
 $string['nameteacher'] = 'Fòrum del professorat';
 $string['newforumposts'] = 'Nous missatges dels fòrums';
 $string['nodiscussions'] = 'Encara no hi ha cap tema de debat en aquest fòrum';
+$string['nodiscussionsstartedby'] = 'No hi ha debats iniciats per aquest usuari';
 $string['noguestpost'] = 'Els visitants no poden enviar missatges.';
 $string['noguestsubscribe'] = 'Els visitants no poden subscriure\'s per rebre els missatges del fòrum per correu electrònic.';
 $string['noguesttracking'] = 'Els visitants no poden definir opcions de seguiment.';

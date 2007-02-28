@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.6 development (2006031000)
+      // enrol_database.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['autocreate'] = 'Es poden crear els cursos automàticament si hi ha inscripcions a cursos que encara no existeixen en aquest Moodle.';
@@ -9,15 +9,28 @@ $string['course_fullname'] = 'Nom del camp on s\'emmagatzema el nom complet del 
 $string['course_id'] = 'Nom del camp on s\'emmagatzema l\'ID del curs. Els valors d\'aquest camp s\'aparellen amb els del camp \"enrol_db_l_coursefield\" de la taula de cursos de Moodle.';
 $string['course_shortname'] = 'Nom del camp on s\'emmagatzema el nom curt del curs.';
 $string['course_table'] = 'Nom de la taula on hi ha les dades del curs (nom curt, nom complet, ID, etc.)';
+$string['dbhost'] = 'Nom o número IP del servidor';
+$string['dbname'] = 'Nom de la base de dades';
+$string['dbpass'] = 'Contrasenya del servidor';
+$string['dbtable'] = 'Taula de la base de dades';
+$string['dbtype'] = 'Tipus de base de dades';
+$string['dbuser'] = 'Usuari del servidor';
+$string['defaultcourseroleid'] = 'El rol que s\'assignarà per defecte si no se n\'especifica un altre.';
 $string['description'] = 'Podeu fer servir una base de dades externa (gairebé de qualsevol mena) per controlar les inscripcions. Se suposa que la base de dades externa té un camp que conté un ID de curs i un altre camp amb un ID d\'usuari. Aquests camps es comparen amb els camps que trieu de les taules locals de cursos i d\'usuaris.';
+$string['enrol_database_autocreation_settings'] = 'Creació automàtica de cursos nous';
 $string['enrolname'] = 'Base de dades externa';
 $string['general_options'] = 'Opcions generals';
 $string['host'] = 'Servidor de bases de dades';
-$string['local_coursefield'] = 'Nom del camp de la taula de cursos que s\'utilitzarà per aparellar les entrades amb la base de dades externa (p. ex. idnumber).';
 $string['local_fields_mapping'] = 'Camps de la base de dades (interna) de Moodle';
+$string['localcoursefield'] = 'El nom del camp de la taula de cursos que s\'utilitzarà per aparellar els registres amb la base de dades remota (p. ex. idnumber).';
+$string['localrolefield'] = 'El nom del camp de la taula de rols que s\'utilitzarà per aparellar els registres amb la base de dades remota (p. ex. idnumber).';
+$string['localuserfield'] = 'El nom del camp de la taula d\'usuaris que s\'utilitzarà per aparellar els registres amb la base de dades remota (p. ex. idnumber).';
 $string['name'] = 'La base de dades concreta que cal utilitzar.';
 $string['pass'] = 'Contrasenya per a accedir al servidor.';
 $string['remote_fields_mapping'] = 'Camps de la base de dades (externa) d\'inscripcions';
+$string['remotecoursefield'] = 'El nom del camp de la taula remota que s\'utilitzarà per aparellar els registres amb la taula de cursos.';
+$string['remoterolefield'] = 'El nom del camp de la taula remota que s\'utilitzarà per aparellar els registres amb la taula de rols.';
+$string['remoteuserfield'] = 'El nom del camp de la taula remota que s\'utilitzarà per aparellar els registres amb la taula d\'usuaris.';
 $string['server_settings'] = 'Paràmetres del servidor de bases de dades extern';
 $string['student_coursefield'] = 'Nom del camp de la taula d\'inscripcions d\'estudiantat on esperem trobar l\'ID del curs.';
 $string['student_l_userfield'] = 'Nom del camp de la taula interna d\'usuaris que s\'utilitzarà per aparellar l\'usuari amb un registre extern d\'estudiants (p. ex. idnumber).';
@@ -30,5 +43,6 @@ $string['teacher_table'] = 'Nom de la taula on s\'emmagatzemen les inscripcions 
 $string['template'] = 'Opcional: els cursos creats automàticament poden copiar els seus paràmetres de configuració d\'un curs model. Introduïu aquí el nom curt d\'aquest curs model.';
 $string['type'] = 'Tipus de servidor de bases de dades.';
 $string['user'] = 'Nom d\'usuari per a accedir al servidor.';
+$string['local_coursefield'] = 'Nom del camp de la taula de cursos que s\'utilitzarà per aparellar les entrades amb la base de dades externa (p. ex. idnumber).'; // ORPHANED
 
 ?>

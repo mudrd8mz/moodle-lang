@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 dev (2007010404)
+      // data.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['action'] = 'Acció';
@@ -8,11 +8,13 @@ $string['addafield'] = 'Afegeix un camp';
 $string['addcomment'] = 'Afegeix un comentari';
 $string['addentries'] = 'Afegeix entrades';
 $string['addtemplate'] = 'Plantilla d\'introducció';
+$string['advancedsearch'] = 'Cerca avançada';
 $string['allowcomments'] = 'Permeteu comentaris?';
 $string['allowratings'] = 'Permeteu valorar els missatges?';
 $string['alttext'] = 'Text alternatiu';
 $string['approve'] = 'Aprova';
 $string['ascending'] = 'Ascendent';
+$string['asearchtemplate'] = 'Plantilla de cerca avançada';
 $string['atmaxentry'] = 'Heu introduït el nombre màxim d\'entrades permès';
 $string['autogenallforms'] = 'Genera totes les plantilles per defecte';
 $string['autolinkurl'] = 'Enllaça l\'URL automàticament';
@@ -102,6 +104,7 @@ $string['forcelinkname'] = 'Nom imposat a l\'enllaç';
 $string['fromfile'] = 'd\'un fitxer zip';
 $string['header'] = 'Capçalera';
 $string['headeraddtemplate'] = 'Defineix la interfície per a afegir noves entrades';
+$string['headerasearchtemplate'] = 'Defineix la interfície de cerques avançades';
 $string['headercsstemplate'] = 'Defineix estils CSS locals per a les altres plantilles';
 $string['headerjstemplate'] = 'Defineix Javascript personalitzat per a les altres plantilles';
 $string['headerlisttemplate'] = 'Defineix la interfície per a la navegació per múltiples entrades';
@@ -186,6 +189,7 @@ $string['recordssaved'] = 'entrada/es';
 $string['requireapproval'] = 'Requereix aprovació?';
 $string['requiredentries'] = 'Entrades requerides';
 $string['requiredentriestoview'] = 'Entrades requerides per visualitzar';
+$string['resetsettings'] = 'Reinicia els camps';
 $string['resettemplate'] = 'Reinicia la plantilla';
 $string['resizingimages'] = 'S\'estan redimensionant les miniatures...';
 $string['rows'] = 'files';
@@ -201,6 +205,7 @@ $string['savesettings'] = 'Desa els paràmetres';
 $string['savesuccess'] = 'S\'ha desat amb èxit. El vostre predefinit estarà disponible per a tot el lloc.';
 $string['savetemplate'] = 'Desa la plantilla';
 $string['sendinratings'] = 'Envia les meves darreres valoracions';
+$string['showall'] = 'Mostra totes les entrades';
 $string['single'] = 'Visualitza una entrada';
 $string['singletemplate'] = 'Plantilla d\'entrada única';
 $string['teachersandstudents'] = '$a->teachers i $a->students';

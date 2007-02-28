@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 dev (2007012400)
+      // group.php - created with Moodle 1.9 dev (2007021400)
 
 
-$string['addexistinggroupstogrouping'] = 'Afegeix els grups existents a l\'agrupament';
 $string['addgroupstogrouping'] = 'Afegeix grups a l\'agrupament';
 $string['adduserstogroup'] = 'Afegeix usuaris al grup';
+$string['anygrouping'] = '[Qualsevol agrupament]';
 $string['cancel'] = 'Cancel·la';
 $string['createautomaticgrouping'] = 'Crea agrupament automàtic';
 $string['creategroup'] = 'Crea grup';
@@ -15,7 +15,9 @@ $string['defaultgroupdescription'] = 'Descripció de grup per defecte';
 $string['defaultgroupingname'] = 'Agrupament';
 $string['defaultgroupname'] = 'Grup';
 $string['defaultgroupprefix'] = 'Grup';
+$string['deletegroupconfirm'] = 'Segur que voleu suprimir el grup \'$a\'?';
 $string['deletegrouping'] = 'Suprimeix agrupament';
+$string['deletegroupingconfirm'] = 'Segur que voleu suprimir l\'agrupament \'$a\'? (els grups d\'aquest agrupament no se suprimiran)';
 $string['deleteselectedgroup'] = 'Suprimeix grup seleccionat';
 $string['displaygrouping'] = 'Mostra agrupament';
 $string['distributealphabetically'] = 'Distribueix en grups alfabèticament per cognoms';
@@ -24,6 +26,7 @@ $string['editgroupingpermissions'] = 'Edita permissos d\'agrupament';
 $string['editgroupingsettings'] = 'Edita paràmetres d\'agrupament';
 $string['editgroupsettings'] = 'Edita paràmetres del grup';
 $string['enrolmentkey'] = 'Clau d\'inscripció';
+$string['erroraddremoveuser'] = 'S\'ha produït un error en afegir l\'usuari $a o suprimir-lo del grup.';
 $string['erroreditgroup'] = 'S\'ha produït un error en crear o actualitzar el grup $a';
 $string['erroreditgrouping'] = 'S\'ha produït un error en crear o actualitzar l\'agrupament $a';
 $string['errorinvalidgroup'] = 'S\'ha produït un error: el grup $a no és vàlid';
@@ -76,9 +79,11 @@ $string['showusersalreadyingroup'] = 'Mostra usuaris que ja són en un grup de l
 $string['teachersgroupmark'] = 'El professorat no pot puntuar activitats de grups als quals no pertany';
 $string['teachersgroupview'] = 'El professorat no pot veure activitats de grups als quals no pertany';
 $string['teachersoverride'] = 'El professorat que no formi part de cap grup pot veure i puntuar les activitats de tots els grups (ignora els anteriors)';
+$string['upgradeconfirm'] = 'Dissortadament aquesta actualització requereix suprimir les taules de grups creades en Moodle 1.8 DEV. Voleu continuar?';
 $string['usestudentsonlyfromselectedgroup'] = 'Utilitza només estudiants del grup seleccionat actualment';
 $string['viewallgroupsactivities'] = 'Els estudiants poden veure les activitats de tots els grups però no participar-hi';
 $string['viewallgroupsmembers'] = 'Els estudiants poden veure els membres de tots els grups';
 $string['viewowngroup'] = 'Els estudiants poden veure els membres dels grups als quals pertanyen';
+$string['addexistinggroupstogrouping'] = 'Afegeix els grups existents a l\'agrupament'; // ORPHANED
 
 ?>

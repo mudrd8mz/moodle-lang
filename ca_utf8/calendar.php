@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 dev (2007010404)
+      // calendar.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['advancedoptions'] = 'Opcions avançades';
@@ -45,6 +45,7 @@ $string['expired'] = 'Ha vençut';
 $string['explain_lookahead'] = 'Aquesta preferència defineix el nombre (màxim) de dies que falten per a l\'esdeveniment per tal que es visualitzi com un esdeveniment pròxim. Si us plau teniu en compte que <strong>no es garanteix</strong> que es visualitzin tots els esdeveniments que comencen en aquest lapse; si n\'hi ha massa (més que la preferència \"Nombre màxim d\'esdeveniments pròxims\") aleshores els esdeveniments més llunyans no es mostraran.';
 $string['explain_maxevents'] = 'Aquesta preferència defineix el nombre màxim d\'esdeveniments pròxims que es pot visualitzar. Si trieu aquí un nombre gran, és possible que la visualització dels esdeveniments pròxims ocupi molt d\'espai de pantalla.';
 $string['explain_persistflt'] = 'Si habiliteu aquesta opció, Moodle recordarà els darrers paràmetres de filtre i els tornarà a utilitzar automàticament la pròxima vegada que entreu.';
+$string['explain_site_timeformat'] = 'Podeu triar la visualització de les hores a tot el lloc en format de 12 o 24 h. Si trieu \"per defecte\", el format es determinarà automàticament conforme a l\'idioma del lloc. Els usuaris podran triar format igualment en les seves preferències.';
 $string['explain_startwday'] = 'Aquesta preferència configura el mode de visualització de tots els calendaris mensuals. Useu-la per visualitzar-los al vostre gust.';
 $string['explain_timeformat'] = 'Podeu triar de veure l\'hora en format de 12 o 24 hores. Si trieu \"per defecte\", aleshores el format es determinarà automàticament segons les convencions de l\'idioma del lloc.';
 $string['export'] = 'Exportació';

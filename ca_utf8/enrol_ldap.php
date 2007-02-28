@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.5.3+ (2005060230)
+      // enrol_ldap.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['description'] = '<p>Podeu utilitzar un servidor LDAP per controlar les inscripcions. S\'assumeix que el vostre arbre LDAP conté grups que es corresponen als cursos i que cada grup/curs tindrà entrades membres corresponents als estudiants.</p>
@@ -12,6 +12,7 @@ $string['enrol_ldap_autocreation_settings'] = 'Paràmetres de creació automàti
 $string['enrol_ldap_bind_dn'] = 'Si voleu utilitzar el bind-user per cercar usuaris, especifiqueu-ho aquí. P. ex. \'cn=ldapuser,ou=public,o=org\'';
 $string['enrol_ldap_bind_pw'] = 'Contrasenya del bind-user.';
 $string['enrol_ldap_category'] = 'Categoria per als cursos creats automàticament.';
+$string['enrol_ldap_contexts'] = 'Contextos LDAP';
 $string['enrol_ldap_course_fullname'] = 'Opcional: camp del LDAP d\'on es pot treure el nom complet.';
 $string['enrol_ldap_course_idnumber'] = 'Identificador únic en el LDAP, generalment <em>cn</em> o <em>uid</em>. Es recomana blocar aquest valor si utilitzeu la creació automàtica de cursos.';
 $string['enrol_ldap_course_settings'] = 'Paràmetres d\'inscripció de cursos';
@@ -20,7 +21,9 @@ $string['enrol_ldap_course_summary'] = 'Opcional: camp del LDAP d\'on es pot tre
 $string['enrol_ldap_editlock'] = 'Bloca valor';
 $string['enrol_ldap_general_options'] = 'Opcions generals';
 $string['enrol_ldap_host_url'] = 'Especifiqueu el servidor LDAP en forma d\'URL, p. ex. \'ldap://ldap.myorg.com/\' o \'ldaps://ldap.myorg.com/\'.';
+$string['enrol_ldap_memberattribute'] = 'Atribut de membre LDAP';
 $string['enrol_ldap_objectclass'] = 'objectClass utilitzada per cercar cursos. Generalment \'posixGroup\'.';
+$string['enrol_ldap_roles'] = 'Mapatge de rols';
 $string['enrol_ldap_search_sub'] = 'Cerca la pertinença a grups en subcontextos.';
 $string['enrol_ldap_server_settings'] = 'Paràmetres del servidor LDAP';
 $string['enrol_ldap_student_contexts'] = 'Llista de contextos en els quals es troben els grups amb inscripcions d\'estudiants. Separeu els diferents contextos amb punt i coma, p. ex. \'ou=courses,o=org; ou=others,o=org\'';
