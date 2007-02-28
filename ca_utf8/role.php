@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 dev (2007010404)
+      // role.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['addrole'] = 'Afegeix un nou rol';
-$string['allow'] = 'Permet';
+$string['allow'] = 'Concedit';
 $string['allowassign'] = 'Permet assignar rols';
 $string['allowoverride'] = 'Permet excepcions';
 $string['assignroles'] = 'Assignació de rols';
@@ -49,19 +49,21 @@ $string['currentrole'] = 'Rol actual';
 $string['defaultrole'] = 'Rol per defecte';
 $string['defineroles'] = 'Defineix rols';
 $string['deleterolesure'] = '<p>Esteu segur que voleu suprimir el rol \"$a->name ($a->shortname)\"?</p><p>Actualment aquest rol està assignat a $a->count usuaris.</p>';
+$string['duplicaterole'] = 'Duplica aquest rol';
 $string['editrole'] = 'Edita rol';
 $string['errorbadrolename'] = 'El nom del rol és incorrecte';
 $string['errorbadroleshortname'] = 'Nom incorrecte';
 $string['errorexistsrolename'] = 'Aquest nom de rol ja existeix';
 $string['errorexistsroleshortname'] = 'El nom ja existeix';
 $string['existingusers'] = '$a usuaris existents';
-$string['inherit'] = 'Hereta';
+$string['inherit'] = 'Heretat';
 $string['legacy:admin'] = 'ROL HERETAT: Administrador/a';
 $string['legacy:coursecreator'] = 'ROL HERETAT: Creador/a de cursos';
 $string['legacy:editingteacher'] = 'ROL HERETAT: Professor/a (edició)';
 $string['legacy:guest'] = 'ROL HERETAT: Visitant';
 $string['legacy:student'] = 'ROL HERETAT: Estudiant';
 $string['legacy:teacher'] = 'ROL HERETAT: Professor/a (sense edició)';
+$string['legacy:user'] = 'ROL HERETAT: Usuari autenticat';
 $string['listallroles'] = 'Llista tots els rols';
 $string['manageroles'] = 'Gestiona rols';
 $string['metaassignerror'] = 'No es pot assignar aquest rol a l\'usuari \"$a\" perquè es necessita la capacitat de gestió de metacurs.';
@@ -71,8 +73,8 @@ $string['overrideroles'] = 'Excepcions';
 $string['overrides'] = 'Excepcions';
 $string['permissions'] = 'Permisos';
 $string['potentialusers'] = '$a usuaris potencials';
-$string['prevent'] = 'Impedeix';
-$string['prohibit'] = 'Prohibeix';
+$string['prevent'] = 'Denegat';
+$string['prohibit'] = 'Prohibit';
 $string['question:export'] = 'Exportar preguntes';
 $string['question:import'] = 'Importar preguntes';
 $string['question:manage'] = 'Gestionar preguntes';
