@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 dev (2007011200)
+      // calendar.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['advancedoptions'] = '상세 설정';
@@ -15,7 +15,7 @@ $string['dayview'] = '날짜 보기';
 $string['daywithnoevents'] = '계획된 행사가 없습니다.';
 $string['default'] = '기본';
 $string['deleteevent'] = '일정 삭제하기';
-$string['detailedmonthview'] = '상세하게 달력 보기';
+$string['detailedmonthview'] = '달력 자세히 보기';
 $string['durationminutes'] = '유지 시간(분으로)';
 $string['durationnone'] = '기간 제한없이';
 $string['durationuntil'] = '까지';
@@ -42,12 +42,12 @@ $string['eventstarttime'] = '시작 시간';
 $string['eventtime'] = '시간';
 $string['eventview'] = '일정 상세정보';
 $string['expired'] = '기간이 끝남';
-$string['explain_lookahead'] = '앞으로 있을 일정을 표시하기 위해 일정을 며칠 전부터 보여주어야 할지 그 날짜의 최대값을 설정합니다. 이 날수보다 나중에 실행될 일정은 화면에 표시되지 않을 것입니다. 또한 현 화면상에 <strong>계획된 모든 일정이 표시된다는 보장은 없음</strong>을 유의해주시기 바랍니다. 만약 너무 많은(\"도래할 일정의 최대값\"보다 더 많은)일정이 있다면 나중에 있을 일정은 표시되지 않을 것입니다.';
+$string['explain_lookahead'] = '앞으로 있을 일정을 표시하기 위해 며칠 전부터 보여주어야 할지 그 날짜의 최대값을 설정합니다. 이 날수보다 나중에 실행될 일정은 화면에 표시되지 않을 것입니다. 또한 현 화면상에 <strong>계획된 모든 일정이 표시된다는 보장은 없음</strong>을 유의해주시기 바랍니다. 만약 너무 많은(\"도래할 일정의 최대값\"보다 더 많은)일정이 있다면 나중에 있을 일정은 표시되지 않을 것입니다.';
 $string['explain_maxevents'] = '화면에 표시될 일정의 최대수(\"도래할 일정의 최대값\")를 설정합니다. 만약 여기서 너무 큰 수를 지정하면 일정표시는 화면에서 너무 많은 공간을 차지하게 될 것입니다.';
 $string['explain_persistflt'] = '이를 활성화시키면, Moodle은 최근 일정의 반복 설정을 점검하고 자동적으로 당신이 로그인 할때마다 일정을 조정할 것입니다.';
+$string['explain_site_timeformat'] = '사이트 전체의 시간 표시 형태를 12시간제로 표시할지 24시간제로 표시할지를 선택할 수 있습니다. \"기본값\"을 선택하면 자동적으로 사이트에서 사용하는 시간표시 형태로 나타납니다. 사용자들은 자신의 설정에서 이를 바꿀 수 있습니다.';
 $string['explain_startwday'] = '여기에서 선택한 요일이 한 주의 시작하는 요일이 되도록 달력이 표시될 것입니다.';
-$string['explain_timeformat'] = '당신은 시간을 12시간 또는 24간으로 표시할 수 있습니다. 
-만약 당신이 \"초기설정\"을 선택한다면, 당신이 사이트에서 사용하는 언어에 따라서 자동적으로 표현될 것입니다.';
+$string['explain_timeformat'] = '시간 표시 형태를 12시간제로 표시할지 24시간제로 표시할지를 선택할 수 있습니다. \"기본값\"을 선택하면 자동적으로 사이트에서 사용하는 시간표시 형태로 나타납니다.';
 $string['export'] = '내보내기';
 $string['exportbutton'] = '내보냄';
 $string['exportcalendar'] = '일정 내보냄';
@@ -56,7 +56,7 @@ $string['fri'] = '금';
 $string['friday'] = '금요일';
 $string['generateurlbutton'] = '일정 URL 가져옴';
 $string['globalevent'] = '전체 행사';
-$string['globalevents'] = '너른 일정';
+$string['globalevents'] = '전체 일정';
 $string['gotocalendar'] = '달력으로 가기';
 $string['groupevent'] = '모둠 행사';
 $string['groupevents'] = '모듬 일정';
@@ -100,18 +100,18 @@ $string['today'] = '오늘';
 $string['tomorrow'] = '내일';
 $string['tt_deleteevent'] = '일정 삭제';
 $string['tt_editevent'] = '일정 고치기';
-$string['tt_hidecourse'] = '배움터 일정 보임(감추기 클릭)';
-$string['tt_hideglobal'] = '광역 일정 보임(감추기 클릭)';
-$string['tt_hidegroups'] = '모듬 일정 보임(감추기 클릭)';
-$string['tt_hideuser'] = '사용자 일정 보임(감추기 클릭)';
-$string['tt_showcourse'] = '배움터 일정 감춤(보이기 클릭)';
-$string['tt_showglobal'] = '너른 일정 감춤(보이기 클릭)';
-$string['tt_showgroups'] = '모듬 일정 감춤(보이기 클릭)';
-$string['tt_showuser'] = '사용자 일정 감춤(보이기 클릭)';
+$string['tt_hidecourse'] = '배움터 일정 보임(감추려면 클릭)';
+$string['tt_hideglobal'] = '전체 일정 보임(감추려면 클릭)';
+$string['tt_hidegroups'] = '모듬 일정 보임(감추려면 클릭)';
+$string['tt_hideuser'] = '사용자 일정 보임(감추려면 클릭)';
+$string['tt_showcourse'] = '배움터 일정 감춤(보이려면 클릭)';
+$string['tt_showglobal'] = '너른 일정 감춤(보이려면 클릭)';
+$string['tt_showgroups'] = '모둠 일정 감춤(보이려면 클릭)';
+$string['tt_showuser'] = '사용자 일정 감춤(보이려면 클릭)';
 $string['tue'] = '화';
 $string['tuesday'] = '화요일';
 $string['typecourse'] = '배움터 일정';
-$string['typegroup'] = '모듬 일정';
+$string['typegroup'] = '모둠 일정';
 $string['typesite'] = '사이트 일정';
 $string['typeuser'] = '사용자 일정';
 $string['upcomingevents'] = '예정된 행사';
@@ -123,6 +123,6 @@ $string['wednesday'] = '수요일';
 $string['weeknext'] = '다음 주';
 $string['weekthis'] = '이번 주';
 $string['yesterday'] = '어제';
-$string['youcandeleteallrepeats'] = '이 일정은 일련의 반복되는 일정의 한 부분입니다. 당신은 이 일정만 제거하거나 일련의 모든 $a 일정을 한꺼번에 제거할 수 있습니다.';
+$string['youcandeleteallrepeats'] = '이 것은 일련의 반복되는 일정의 한 부분입니다. 이 일정만 제거하거나 일련의 모든 $a 일정을 한꺼번에 제거할 수 있습니다.';
 
 ?>

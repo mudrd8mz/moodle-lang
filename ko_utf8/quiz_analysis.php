@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.7 dev (2006092302)
+      // quiz_analysis.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['analysis'] = '항목 분석';
@@ -20,10 +20,10 @@ $string['pagesize'] = '한페이지당 질문들';
 $string['qcounttitle'] = '질문 갯수';
 $string['qidtitle'] = '문항 번호';
 $string['qnametitle'] = '문항 이름';
-$string['qtexttitle'] = '질문 주제';
+$string['qtexttitle'] = '질문 내용';
 $string['qtypetitle'] = '문항 유형';
 $string['quizreportdir'] = '퀴즈 보고';
-$string['rcounttitle'] = '응답<br />산출';
+$string['rcounttitle'] = '응답<br />갯수';
 $string['reportanalysis'] = '항목 분석 보고';
 $string['responsestitle'] = '답안들';
 $string['rfractiontitle'] = '부분<br />이수';
