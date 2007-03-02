@@ -46,6 +46,7 @@ $string['modulerequirementsnotmet'] = 'El módulo \"$a->modulename\" ($a->module
 $string['mustbeteacher'] = 'Sólo los profesores pueden ver esta página';
 $string['nocontext'] = 'Lo sentimos, ese curso no es un contexto válido';
 $string['noinstances'] = 'En este curso no aparece $a.';
+$string['nologinas'] = 'No está autorizado a \'entrar como\' ese usuario';
 $string['nonmeaningfulcontent'] = 'No contenido significativo';
 $string['noparticipatorycms'] = 'Lo sentimos, no dispone de módulos de participación en cursos sobre los que informar.';
 $string['nopermissions'] = 'Lo sentimos, pero por el momento no tiene permiso para hacer eso ($a)';

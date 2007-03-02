@@ -130,6 +130,7 @@ $string['namesocial'] = 'Foro social';
 $string['nameteacher'] = 'Foro de profesores';
 $string['newforumposts'] = 'Nuevos mensajes';
 $string['nodiscussions'] = 'Aún no hay temas en este foro';
+$string['nodiscussionsstartedby'] = 'Este usuario no ha comenzado ningún debate';
 $string['noguestpost'] = 'Lo sentimos, los invitados no pueden escribir aquí';
 $string['noguestsubscribe'] = 'Lo sentimos, no se permite a los invitados suscribirse al foro o recibir mensajes por correo electrónico.';
 $string['noguesttracking'] = 'Lo sentimos, los invitados no pueden ajustar opciones de rastreo.';

@@ -2,9 +2,9 @@
       // group.php - created with Moodle 1.7 (2006101007)
 
 
-$string['addexistinggroupstogrouping'] = 'Agregar grupos existentes al agrupamiento';
 $string['addgroupstogrouping'] = 'Agregar grupos al agrupamiento';
 $string['adduserstogroup'] = 'Agregar usuarios al grupo';
+$string['anygrouping'] = '[Cualquier agrupamiento]';
 $string['cancel'] = 'Cancelar';
 $string['createautomaticgrouping'] = 'Crear agrupamiento automático';
 $string['creategroup'] = 'Crear grupo';
@@ -26,6 +26,7 @@ $string['editgroupingpermissions'] = 'Editar permisos de agrupamiento';
 $string['editgroupingsettings'] = 'Editar ajustes de agrupamiento';
 $string['editgroupsettings'] = 'Editar ajustes de grupo';
 $string['enrolmentkey'] = 'Clave de matriculación';
+$string['erroraddremoveuser'] = 'Error al agregar/quitar al usuario $a del grupo';
 $string['erroreditgroup'] = 'Error al crear o actualizar el grupo $a';
 $string['erroreditgrouping'] = 'Error al crear o actualizar el agrupamiento $a';
 $string['errorinvalidgroup'] = 'Error, grupo $a no válido';
