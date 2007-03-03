@@ -808,6 +808,7 @@ $string['loginstepsnone'] = '<p>こんにちは!</p>
 $string['loginto'] = '$a にログインする';
 $string['loginusing'] = 'ユーザ名とパスワードを入力してください';
 $string['logout'] = 'ログアウト';
+$string['logoutconfirm'] = '本当にログアウトしてもよろしいですか?';
 $string['logs'] = 'ログ';
 $string['logtoomanycourses'] = '[ <a href=\"$a->url\">さらに表示する</a> ]';
 $string['logtoomanyusers'] = '[ <a href=\"$a->url\">さらに表示する</a> ]';
