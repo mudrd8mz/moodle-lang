@@ -188,7 +188,7 @@ $string['dbmigratepostgres'] = '看上去您使用的是PostgreSQL数据库服�
 $string['dbmigratewarning'] = '在开始这个过程前，请确定您已经备份了您的Moodle数据库。如果您不知道如何做，请和您的系统管理员练习。在您启动迁移过程后，您的Moodle站点将会处于维护状态。';
 $string['dbmigratewarning2'] = '<b>警告：将要开始数据库的迁移了。请您一定要确认整个Moodle数据库都已经备份了。</b>';
 $string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">此数据库已经迁移到新的UTF8数据库了，我们建议您不要在使用它。请修改您的 config.php 并使用新的数据库。';
-$string['dbmigrationdupfailed'] = '数据库赋值失败，原因如下：<font color=\"#ff0000\"><pre>$a</pre></font>';
+$string['dbmigrationdupfailed'] = '数据库赋值失败，原因如下：<font color=\"#ff0000\"><pre>{$a}</pre></font>';
 $string['dbsessions'] = '用数据库处理会话信息';
 $string['debug'] = '调试信息';
 $string['debugall'] = '所有：显示全部可能的PHP调试信息';
@@ -229,10 +229,10 @@ $string['enabletrusttext'] = '允许可信内容';
 $string['environment'] = '环境';
 $string['environmenterrortodo'] = '在继续安装此版本的 Moodle 前，您必需解决上面所列出的所有环境问题（错误）！';
 $string['environmentrecommendinstall'] = '- 推荐安装/激活';
-$string['environmentrecommendversion'] = '推荐 $a->needed 版本，而您的是 $a->current';
+$string['environmentrecommendversion'] = '推荐 {$a->needed} 版本，而您的是 {$a->current}';
 $string['environmentrequireinstall'] = '- 必需安装/激活';
-$string['environmentrequireversion'] = '需要 $a->needed 版本，而您的是 $a->current';
-$string['environmentxmlerror'] = '读取环境数据时错误($a->error_code)';
+$string['environmentrequireversion'] = '需要 {$a->needed} 版本，而您的是 {$a->current}';
+$string['environmentxmlerror'] = '读取环境数据时错误({$a->error_code})';
 $string['errors'] = '错误';
 $string['errorsetting'] = '无法保存设置';
 $string['errorwithsettings'] = '无法更新一些设置，因为发生了这个错误：';
@@ -293,7 +293,7 @@ $string['langlist'] = '语言菜单中的语言';
 $string['langmenu'] = '显示语言菜单';
 $string['langpackremoved'] = '语言包已卸载';
 $string['langpacks'] = '语言包';
-$string['langpackupdated'] = '语言包 $a 已成功安装';
+$string['langpackupdated'] = '语言包 {$a} 已成功安装';
 $string['languagesettings'] = '语言设置';
 $string['langupdatecomplete'] = '语言包更新成功';
 $string['latexpreamble'] = 'LaTeX前缀';
@@ -371,7 +371,7 @@ $string['protectusernames'] = '保护用户名';
 $string['proxyhost'] = '代理主机';
 $string['proxyport'] = '代理端口';
 $string['quarantinedir'] = '隔离目录';
-$string['releasenoteslink'] = '对于这个版本的 Moodle，请参考在线的 <a target=\"_new\" href=\"$a\">发行备忘录</a>。';
+$string['releasenoteslink'] = '对于这个版本的 Moodle，请参考在线的 <a target=\"_new\" href=\"{$a}\">发行备忘录</a>。';
 $string['remotelangnotavailable'] = '由于 Moodle 无法连接到 download.moodle.org，我们无法自动完成语言包的安装。请从下面的列表中下载相应的 zip 文件，并将它们复制到 {$a} 目录中解压。';
 $string['renameerrors'] = '改名时出现错误';
 $string['restrictbydefault'] = '默认禁止模块';
@@ -440,14 +440,14 @@ $string['updateaccounts'] = '更新已有帐户';
 $string['updatecomponent'] = '更新组件';
 $string['updatelangs'] = '更新所有本地语言包';
 $string['updatetimezones'] = '更新时区';
-$string['upgradeforumread'] = '在Moodle 1.5中增加了一项新的功能，它可以跟踪论坛帖子是否已经阅读。<br />为了使用这个功能，您需要<a href=\"$a\">升级您的表格</a>。';
+$string['upgradeforumread'] = '在Moodle 1.5中增加了一项新的功能，它可以跟踪论坛帖子是否已经阅读。<br />为了使用这个功能，您需要<a href=\"{$a}\">升级您的表格</a>。';
 $string['upgradeforumreadinfo'] = '在Moodle 1.5中增加了一项新的功能，它可以跟踪论坛帖子是否已经阅读。为了使用这个功能，您需要升级您的表格为已经存在的帖子添加这一信息。如果您的站点很大，这会花费很长的时间(数小时)，并且给数据库服务器带来很大负担，因此最好在夜深人静时再做这个工作。当然，在您的站点升级时，它还是可以继续工作的，用户不会受到任何影响。一旦您开始了这个工作，就必须让它结束(一直开启浏览器)。当然，如果您中途关闭了浏览器：不用担心，重新开始就可以了。<br /><br />您现在要开始升级么？';
-$string['upgradelogs'] = '要获得完整功能，您的旧日志必须升级。<a href=\"$a\">更多信息</a>';
+$string['upgradelogs'] = '要获得完整功能，您的旧日志必须升级。<a href=\"{$a}\">更多信息</a>';
 $string['upgradelogsinfo'] = '保存日志的方式最近有些变动。为了能查看每个活动的旧日志，它们必须被升级。这个过程所花费的时间取决于您的网站（可能长达几小时），并且会给大规模网站的数据库带来很大的负荷。一旦您开始了这个工作，就必须让它结束(一直开启浏览器)。不用担心——日志升级过程中，其他人仍然可以正常地使用网站。<br /><br />打算现在升级日志吗?';
 $string['upgradesettings'] = '新设置';
 $string['upgradesettingsintro'] = '在您的最新Moodle升级期间，添加下列显示中的此项设置。进行的任何改变必须为默认选项，然后在此页面的底部点击\" 并且保存设置\"';
 $string['upgradesure'] = '您的Moodle文件已经被修改了，您正在准备自动升级您的服务器为如下版本:
-<p><b>$a</b></p>
+<p><b>{$a}</b></p>
 <p>您一旦执行了这个操作就不能再返回到先前的版本了。</p>
 <p>您确定要将服务器升级到这个版本么?</p>';
 $string['upgradingdata'] = '升级数据';
