@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 dev (2006120700)
+      // glossary.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -86,8 +86,8 @@ $string['entrydeleted'] = 'エントリが削除されました。';
 $string['entryexported'] = 'エントリが正常にエクスポートされました。';
 $string['entryishidden'] = '( このエントリは現在非表示にされています。)';
 $string['entryleveldefaultsettings'] = 'エントリレベルのデフォルト設定';
-$string['entrysaved'] = 'エントリーが保存されました。';
-$string['entryupdated'] = 'エントリーが更新されました。';
+$string['entrysaved'] = 'エントリが保存されました。';
+$string['entryupdated'] = 'エントリが更新されました。';
 $string['entryusedynalink'] = 'エントリを自動的にリンクさせる';
 $string['errcannoteditothers'] = 'あなたは他の人のエントリを編集できません。';
 $string['errconceptalreadyexists'] = 'この用語はすでに登録されています。この用語集では、重複エントリは許可されていません。';
