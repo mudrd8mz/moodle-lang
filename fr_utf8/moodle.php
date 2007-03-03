@@ -787,6 +787,7 @@ $string['loginstepsnone'] = '<p>Bonjour !</p><p>Pour un accès complet aux cours
 $string['loginto'] = 'Se connecter sur $a';
 $string['loginusing'] = 'Connectez-vous ici en utilisant votre nom d\'utilisateur<br />et mot de passe';
 $string['logout'] = 'Déconnexion';
+$string['logoutconfirm'] = 'Voulez-vous vraiment vous déconnecter&nbsp;?';
 $string['logs'] = 'Historiques';
 $string['logtoomanycourses'] = ' [ <a href=\"$a->url\">suite</a> ] ';
 $string['logtoomanyusers'] = ' [ <a href=\"$a->url\">suite</a> ] ';
