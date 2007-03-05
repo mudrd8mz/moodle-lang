@@ -26,6 +26,7 @@ $string['deleteuserrecord'] = 'SSO ACL&nbsp;: suppression de l\'enregistrement d
 $string['deletewrongkeyvalue'] = 'Une erreur est survenue. Aucune action n\'a été effectuée. Si vous n\'étiez pas en train de supprimer la clef SSL de votre serveur, il est possible que vous ayez été la cible d\'une attaque.';
 $string['deny'] = 'Interdire';
 $string['description'] = 'Description';
+$string['duplicate_usernames'] = 'Il a été impossible de crééer un index pour les colonnes «&nbsp;mnethostid&nbsp;» et «&nbsp;username&nbsp;» de votre table d\'utilisateurs.<br />Un tel problème peut survenir lorsque des <a href=\"$a\" target=\"_blank\">noms d\'utilisateur sont présents à double dans votre table d\'utilisateurs</a>.<br />La mise à jour devrait malgré tout se terminer correctement. Cliquer sur le lien ci-dessus pour obtenir des instructions vous permettant de corriger ce problème (dans une nouvelle fenêtre). Vous pourrez ainsi vous en occuper apràs la fin de la mise à jour.<br />';
 $string['editenrolments'] = 'Inscrire';
 $string['enabled_for_all'] = '(Ce service a été activé pour tous les serveurs).';
 $string['enrolcourses_desc'] = 'Cours offerts à l\'inscription à distance sur ce serveur.';
