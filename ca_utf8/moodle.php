@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2007012400)
+      // moodle.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['action'] = 'Acció';
@@ -122,6 +122,8 @@ $string['assignstudents'] = 'Inscriu estudiants';
 $string['assignstudentsnote'] = 'Nota: potser no us caldrà utilitzar aquesta pàgina, ja que els estudiants poden inscriure\'s ells mateixos en aquest curs.';
 $string['assignstudentspass'] = 'Tot el que heu de fer és notificar als estudiants la clau d\'inscripció d\'aquest curs, que actualment és:  \'$a\'';
 $string['assignteachers'] = 'Assigna professors';
+$string['authenticateduser'] = 'Usuari autenticat';
+$string['authenticateduserdescription'] = 'Tots aquells usuaris que hagin entrat.';
 $string['authentication'] = 'Autenticació';
 $string['authenticationplugins'] = 'Connectors d\'autenticació';
 $string['autosubscribe'] = 'Subscripció automàtica al fòrum';
@@ -456,21 +458,41 @@ $string['emailmustbereal'] = 'Nota: l\'adreça de correu ha de ser una adreça r
 $string['emailnotallowed'] = 'Les adreces de correu d\'aquests dominis no són permeses ($a)';
 $string['emailnotfound'] = 'No s\'ha trobat l\'adreça de correu en la base de dades';
 $string['emailonlyallowed'] = 'Aquest correu no és un dels permesos ($a)';
+$string['emailpasswordchangeinfo'] = '$a->firstname,
+
+Algú (probablement vós) ha sol·licitat una nova contrasenya per al vostre compte en \'$a->sitename\'.
+
+Si voleu canviar la contrasenya, aneu a l\'adreça web següent:
+
+$a->link
+
+En la majoria de programes de correu, la línia de dalt s\'hauria de veure com un enllaç blau on podeu fer clic. Si això no funciona, copieu l\'adreça i enganxeu-la al camp d\'adreces de la finestra del vostre nvegador web.
+
+Si necessiteu ajuda, si us plau contacteu amb l\'administrador del lloc:
+
+$a->admin';
+$string['emailpasswordchangeinfofail'] = '$a->firstname,
+
+Algú (probablement vós) ha sol·licitat una nova contrasenya per al vostre compte en \'$a->sitename\'.
+
+Malauradament en aquest lloc no es poden canviar les contrasenyes. Si us plau contacteu amb l\'administrador del lloc:
+
+$a->admin';
+$string['emailpasswordchangeinfosubject'] = '$a: informació de canvi de contrasenya';
 $string['emailpasswordconfirmation'] = '$a->firstname,
 
 Algú (probablement vós) ha demanat una nova contrasenya 
 per al vostre compte en \'$a->sitename\'.
 
-Per confirmar aquesta sol·licitud i rebre la nova contrasenya 
-per correu electrònic, aneu a l\'adreça web següent:
+Per a confirmar aquesta sol·licitud i rebre la nova contrasenya per correu electrònic, aneu a l\'adreça web següent:
 
   $a->link
 
-En la majoria de programes de correu, l\'adreça s\'hauria de presentar com un enllaç blau on podeu fer clic. Si això no funciona, copieu i enganxeu l\'adreça al camp d\'adreces
-de la finestra del vostre navegador web.
+En la majoria de programes de correu, la línia de dalt s\'hauria de veure com un enllaç blau on podeu fer clic. Si això no funciona, copieu l\'adreça i enganxeu-la al camp d\'adreces de la finestra del vostre nvegador web.
 
-Si necessiteu ajuda, si us plau contacteu amb l\'administrador del lloc,
-$a->admin,';
+Si necessiteu ajuda, si us plau contacteu amb l\'administrador del lloc:
+
+$a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: confirmació de canvi de contrasenya';
 $string['emailpasswordconfirmmaybesent'] = '<p>Si havíeu proporcionat un nom d\'usuari o una adreça correctes, ja se us deu haver enviat un missatge per correu electrònic</p>
 <p>Aquest missatge conté instruccions senzilles per a confirmar i completar el canvi de contrasenya. Si seguiu tenint dificultats, contacteu amb l\'administrador del lloc.</p';
@@ -978,6 +1000,7 @@ $string['notingroup'] = 'Heu de ser part d\'un grup per veure aquesta activitat.
 $string['notpublic'] = 'No és públic';
 $string['nousersmatching'] = 'No s\'han trobat usuaris que coincideixin amb \'$a\'';
 $string['nousersyet'] = 'Encara no hi ha usuaris';
+$string['novalidcourses'] = 'No hi ha cursos vàlids per mostrar';
 $string['now'] = 'ara';
 $string['numattempts'] = '$a intents fracassats d\'entrada';
 $string['numberweeks'] = 'Nombre de setmanes/temes';
@@ -1054,6 +1077,7 @@ $string['previewhtml'] = 'Visualització prèvia HTML';
 $string['previeworchoose'] = 'Proveu o trieu un tema';
 $string['previous'] = 'Anterior';
 $string['previoussection'] = 'Secció anterior';
+$string['primaryadminsetup'] = 'Configuració del compte d\'administració';
 $string['profile'] = 'Perfil';
 $string['publicdirectory'] = 'Directori públic';
 $string['publicdirectory0'] = 'No publiquis el lloc';
@@ -1182,8 +1206,10 @@ $string['showallcourses'] = 'Mostra tots els cursos';
 $string['showalltopics'] = 'Mostra tots els temes';
 $string['showallusers'] = 'Mostra tots els usuaris';
 $string['showallweeks'] = 'Mostra totes les setmanes';
+$string['showblockcourse'] = 'Mostra llista de cursos que contenen el bloc';
 $string['showgrades'] = 'Mostra les qualificacions';
 $string['showlistofcourses'] = 'Mostra la llista de cursos';
+$string['showmodulecourse'] = 'Mostra llista de cursos que contenen l\'activitat';
 $string['showonly'] = 'Mostra només';
 $string['showonlytopic'] = 'Mostra només el tema $a';
 $string['showonlyweek'] = 'Mostra només la setmana $a';
@@ -1391,6 +1417,7 @@ $string['username'] = 'Nom d\'usuari';
 $string['usernameemailmatch'] = 'El nom d\'usuari i l\'adreça de correu no corresponen al mateix usuari';
 $string['usernameexists'] = 'Aquest nom d\'usuari ja existeix, trieu-ne un altre';
 $string['usernamenotfound'] = 'No s\'ha trobat el nom d\'usuari en la base de dades';
+$string['usernameoremail'] = 'Introduïu el nom d\'usuari o l\'adreça de correu';
 $string['usernotconfirmed'] = 'No s\'ha pogut confirmar $a';
 $string['userpic'] = 'Imatge de l\'usuari';
 $string['userprofilefor'] = 'Perfil d\'usuari per a $a';
@@ -1464,6 +1491,8 @@ $string['writinguserinfo'] = 'S\'està escrivint informació dels usuaris i usu�
 $string['wrongpassword'] = 'Contrasenya incorrecta per a aquest nom d\'usuari';
 $string['xmldbeditor'] = 'Editor XMLDB';
 $string['yahooid'] = 'Yahoo ID';
+$string['year'] = 'any';
+$string['years'] = 'anys';
 $string['yes'] = 'Sí';
 $string['youareabouttocreatezip'] = 'Aneu a crear un fitxer zip que conté';
 $string['youaregoingtorestorefrom'] = 'Aneu a restaurar des de';
