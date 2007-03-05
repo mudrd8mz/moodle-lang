@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8 Beta (2007020400)
+      // mnet.php - created with Moodle 1.9 dev (2007021401)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
@@ -33,6 +33,7 @@ $string['deleteuserrecord'] = 'SSO ACL: $a[1] からのユーザレコード $a[
 $string['deletewrongkeyvalue'] = 'エラーが発生しました。あなたがサーバのSSLキーを削除しようと試みているのでなければ、悪意のある攻撃を受けている可能性があります。SSLキーの処理は行われませんでした。';
 $string['deny'] = '拒否';
 $string['description'] = '説明';
+$string['duplicate_usernames'] = 'ユーザテーブルのカラム「mnethostid」および「username」の作成に失敗しました。<br />これは、<a href=\"$a\" target=\"_blank\">ユーザテーブルのユーザ名が重複している</a>場合に発生します。<br />それでも、あなたのアップグレードは正常に完了しました。上記リンクをクリックすると、新しいウィンドウにこの問題の解決に関するインストラクションが表示されます。アップグレード終了後、問題を解決することができます。<br />';
 $string['editenrolments'] = '登録';
 $string['enabled_for_all'] = '(このサービスは、すべてのホストで有効にされています。)';
 $string['enrolcourseenrol_desc'] = 'Moodleネットワーク登録を使用して、このコースにユーザを登録/登録抹消します。リモートホストが許可している場合、他の登録方法でこのコースにユーザが登録されている可能性もあります。そのような登録ユーザは、「他の登録ユーザ」の下に一覧表示されます。';
