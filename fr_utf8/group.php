@@ -70,7 +70,6 @@ $string['newpicture'] = 'Nouvelle image';
 $string['defaultgroupdescription'] = 'Description du groupe par défaut';
 
 $string['displaygrouping'] = 'Affichage du groupement';
-$string['addgroupstogrouping'] = 'Ajouter des groupes au groupement';
 $string['showusersalreadyingroup'] = 'Afficher les utilisateurs déjà dans un groupe du groupement';
 
 $string['save'] = 'Enregistrer';
