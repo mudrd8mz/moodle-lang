@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6 development (2006031000)
+      // chat.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['beep'] = 'Ηχητικό σήμα';
+$string['chat:chat'] = 'Συμμετοχή στη συζήτηση';
+$string['chat:deletelog'] = 'Δίεγραψε τα αρχεία καταγραφής της συζήτησης';
+$string['chat:readlog'] = 'Δι\'αβασε τα αρχεία καταγραφής της συζήτησης';
 $string['chatintro'] = 'Κείμενο εισαγωγής';
 $string['chatname'] = 'Όνομα αυτού του δωματίου chat';
 $string['chatreport'] = 'Συνεδρίες chat';
@@ -22,10 +25,11 @@ $string['messagebeepsyou'] = '$a μόλις ειδοποίησε εσάς!';
 $string['messageenter'] = '$a έχει μπει σ\' αυτό το chat';
 $string['messageexit'] = '$a έχει αφήσει αυτό το chat';
 $string['messages'] = 'Μηνύματα';
-$string['modulename'] = 'Chat';
-$string['modulenameplural'] = 'Chats';
+$string['modulename'] = 'Συζήτηση';
+$string['modulenameplural'] = 'Συζητήσης';
 $string['neverdeletemessages'] = 'Ποτέ μην διαγράφετε μηνύματα';
 $string['nextsession'] = 'Επόμενη προγραμματισμένη συνεδρία';
+$string['noguests'] = 'Η συζήτηση δεν είναι ανοιχτή σε επισκέπτες';
 $string['nomessages'] = 'Δεν βρέθηκαν μηνύματα ακόμα';
 $string['repeatdaily'] = 'Την ίδια ώρα κάθε μέρα';
 $string['repeatnone'] = 'Όχι επαναλήψεις - δημοσιεύστε τη συγκεκριμμένη ώρα μόνο';
@@ -33,7 +37,7 @@ $string['repeattimes'] = 'Επαναλάβετε τις συνεδρίες';
 $string['repeatweekly'] = 'Την ίδια ώρα κάθε βδομάδα';
 $string['savemessages'] = 'Αποθηκεύστε τις προηγούμενες συνεδρίες';
 $string['seesession'] = 'Δείτε αυτή τη συνεδρία';
-$string['sessions'] = 'Chat συνεδρίες';
+$string['sessions'] = 'Συνεδρίες συζητήσεων';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Όλοι μπορούν να δουν τις προηγούμενες συνεδρίες';
 $string['viewreport'] = 'Δείτε προηγούμενες συνεδρίες chat';

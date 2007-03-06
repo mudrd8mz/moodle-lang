@@ -1,7 +1,20 @@
 <?PHP // $Id$ 
       // forum.php - created with Moodle 1.6 development (2006031000)
 
-
+$string['resetsubscriptions'] = 'Αφαίρεσε τις εγγραφές στο φόρουμ';
+$string['resetforums'] = 'Αφαίρεσε όλες τις δημοσιεύσεις από αυτές τις κατηγορίες';
+$string['mailnow'] = 'Στείλε email τώρα';
+$string['searchuser'] = 'Αυτά τα ονόματα θα πρέπει να ταιριάζουν με το συγγραφέα';
+$string['searchsubject'] = 'Αυτές οι λέξεις θα πρέπει να εμφανίζονται στο θέμα';
+$string['allforums'] = 'Σε όλα τα φόρουμς';
+$string['searchwhichforums'] = 'Επιλέξτε σε ποιό φόρουμ θα ψάξετε';
+$string['searchdateto'] = 'Μυνήματα μετά από';
+$string['searchdatefrom'] = 'Μυνήματα νεότερα από';
+$string['searchfullwords'] = 'Αυτές οι λέξεις πρέπει να εμφανίζονται ολόκληρες';
+$string['searchnotwords'] = 'Αυτές οι λέξεις δεν πρέπει να περιέχονται'; 
+$string['searchphrase'] = 'Αυτή η φράση πρέπει να εμφανίζεται στο μύνημα';
+$string['searchwords'] = 'Αυτές οι λέξεις μπορούν να εμφανίζονται οπουδήποτε στο μύνημα';
+$string['searchforumintro'] = 'Παρακαλώ εισάγετε κάποιον όρο για αναζήτηση στα επόμενα πεδία';
 $string['addanewdiscussion'] = 'Προσθήκη νέου θέματος συζήτησης';
 $string['addanewtopic'] = 'Προσθήκη νέου θέματος';
 $string['allowchoice'] = 'Επέτρεψε στον καθένα να διαλέξει';
