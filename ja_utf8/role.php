@@ -65,6 +65,7 @@ $string['legacy:guest'] = 'レガシーロール: ゲスト';
 $string['legacy:student'] = 'レガシーロール: 学生';
 $string['legacy:teacher'] = 'レガシーロール: 教師 (編集権限なし)';
 $string['legacy:user'] = 'レガシーロール: 認証済みユーザ';
+$string['legacytype'] = 'レガシーロールタイプ';
 $string['listallroles'] = 'すべてのロールを表示 ...';
 $string['manageroles'] = 'ロールの管理';
 $string['metaassignerror'] = 'メタコースを管理するケイパビリティが必要なため、このロールはユーザ「 $a 」に割り当てられませんでした。';
