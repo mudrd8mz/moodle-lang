@@ -1,0 +1,58 @@
+﻿<!--
+TODO:  Update as accessibility status changes.
+FILE:  lang/en_utf8/docs/accessibility.html
+NOTES: Hard-coded links need to be edited/ scripted.
+       May need editing for local Moodle sites.
+-->
+
+
+<h1>Για άτομα με ειδικές ανάγκες</h1>
+
+<h2>Δηλωση για άτομα με ειδικές ανάγκες</h2>
+
+<p>Αυτή η τοποθεσία έχει δοκιμαστεί με μεγάλο εύρος εξερευνητών ιστού (browser) καθώς και με λογισμικό διαβάσματος οθόνης (screen reader).</p>
+
+<p>To Moodle χρησιμοποιεί σημασιολογικά διακριτικά (semantic markup) για να βοηθήσει τους χρήστες που χρησιμοποιούν λογισμικό διαβάσματος οθόνης &mdash; Για site, page
+ και block headings χρησιμοποιούνται τα &lt;h1&gt;, &lt;h2&gt;, τα στοιχειά καθοδήγησης είναι λίστες &lt;ul&gt;.
+</p>
+
+<p> Το Moodle συμμορφώνεται με το World Wide Web Consortium's [<a href="http://www.w3.org/TR/WCAG10/" title="Web Content Accessibility Guidelines 1.0">Web
+ Content Accessibility Guidelines 1.0</a>] level 1, τα περισσότερα του level 2 
+ [<a href="http://www.w3.org/WAI/WCAG1AA-Conformance"  title="About Double-A WCAG conformance">about Double-A conformance</a>] 
+ και μερικά του level 3. Με την χρήση των οδηγιών έχουμε σα στόχο την τήρηση των τοπικών νόμων ως αναφορά την πρόσβαση αυτών με παθήσεις. Προς το παρόν, προσπαθούμε να βελτιώσουμε την πρόσβαση και χρήση του Moodle. </p>
+
+<p> Για οποιοδήποτε πρόβλημα στείλτε [<a href="./message/discussion.php?id=2">μήνυμα στον διαχειριστή</a>].
+</p>
+
+
+<h2>Κουμπιά πρόσβασης</h2>
+
+<p>Προς το παρόν δεν υπάρχουν κουμπιά πρόσβασης.</p>
+
+
+<h2>Σύνδεσμοι</h2>
+
+<p> Υπάρχει ένας σύνδεσμος πριν από κάθε πλευρά στοιχείου με το οποίο οι χρήστες λογισμικού διαβάσματος οθόνης μπορούν να παρακάμψουν το στοιχειό αυτό. 
+ Ο σύνδεσμος δεν είναι ορατός σε γραφικούς εξερευνητές ιστού.</p>
+
+<p> Πολλοί σύνδεσμοι έχουν ιδιότητες τίτλου οι οποίες περιγράφουν το σύνδεσμο με μεγαλύτερη λεπτομέρεια, εκτός εάν ήδη περιγράφεται πλήρως (τίτλος ενός άρθρου). Εάν ένας σύνδεσμος έχει κουμπί πρόσβασης αυτό ανακοινώνεται στο τίτλο του συνδέσμου.</p>
+
+<p> Όποτε είναι εφικτό, οι σύνδεσμοι γράφονται με τρόπο ανεξάρτητο του περιεχομένου. Δεν υποστηρίζεται javascript: pseudo-links. </p>
+
+
+<h2>Εικόνες</h2>
+
+<p>Όλες οι εικόνες χρησιμοποιούν την ιδιότητα alt για να παρέχουν επιπλέον κείμενο όπου χρειάζεται; Οι εικόνες που είναι διακοσμητικές περιέχουν null στην ιδιότητα alt. Εικόνες, όπως χάρτες, που παρουσιάζουν πολύπλοκη πληροφορία χρησιμοποιούν την longdesc ιδιότητα, η οποία τους διασύνδεει με την περιγραφή κειμένου του περιεχομένου της εικόνας.</p>
+
+
+<h2>Συμβολή με τα πρότυπα</h2>
+
+<p>This site is built using valid 
+ <acronym title="Extensible Hyper-Text Markup Language">XHTML</acronym> 
+ for markup and uses CSS for presentation.</p>
+
+<p style="text-align:center">
+  <a href="http://validator.w3.org/check?verbose=1&amp;ss=1&amp;uri=<?php echo $CFG->wwwroot; ?>" title="Use the W3C validator">Validate HTML</a> 
+| <a href="http://www.contentquality.com/mynewtester/cynthia.exe?rptmode=-1&amp;url1=<?php echo $CFG->wwwroot; ?>" title="Test with Cynthia">Section 508 Check</a> 
+| <a href="http://www.contentquality.com/mynewtester/cynthia.exe?rptmode=0&amp;warnp2n3e=1&amp;url1=<?php echo $CFG->wwwroot; ?>" title="Test with Cynthia">WCAG 1 (2,3) Check</a>
+</p>

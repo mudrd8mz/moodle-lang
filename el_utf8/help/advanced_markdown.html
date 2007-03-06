@@ -1,0 +1,140 @@
+﻿<h2>Προηγμένη χρήση διακριτικών</h2>
+
+<div id="Main">
+
+<div class="article">
+<p> Ο τομέας 'Προσθέτοντας περισσότερες δυνατότητες στο κείμενο με τη χρήση Διακριτικών' παρέχει πληροφορίες σε αυτούς με ειδικές απαιτήσεις στη χρήση των Διακριτικών.</p>
+
+<ul>
+
+<li><a href="#linebreaks">Line Breaks</a></li>
+<li><a href="#hr">Horizontal Rules</a></li>
+<li><a href="#image_links">Linked Images</a></li>
+<li><a href="#embedded">Embedding HTML</a></li>
+<li><a href="#preformatted">Pre-formatted Code</a></li>
+<li><a href="#special_char">Using Special Characters</a></li>
+<li><a href="#further">Further Reading</a></li>
+</ul>
+
+<h2><a id="linebreaks">Line Breaks</a></h2>
+
+<p>Σε κάποια είδη κειμένου (π.χ. ποίηση) είναι απαραίτητη η εισαγωγή line breaks. Αυτή η προσπάθεια (εισαγωγής) μαζί με το κλειδί επιστροφής δεν δίνει το επιθυμητό αποτέλεσμα, επειδή οι γραμμές θα εμφανιστούν μαζί και θα δημιουργήσουν μια παράγραφο.</p>
+
+<p><strong><code>The best laid schemes o' Mice an' Men,<br />
+Gang aft agley,<br />
+An' lea'e us nought but grief an' pain,<br />
+For promis'd joy!</code></strong></p>
+
+<p>Η παραπάνω είσοδος με χρήση του enter πλήκτρου για την εισαγωγή line breaks θα δώσει το επόμενο αποτέλεσμα (τέτοια breaks αγνοούνται):</p>
+
+<p>The best laid schemes o' Mice an' Men,
+Gang aft agley,
+An' lea'e us nought but grief an' pain,
+For promis'd joy!</p>
+
+<p> Τελειώνοντας μια γραμμή με 2 κενά εξαναγκάζει την δημιουργία ενός line break:</p>
+
+<p>The best laid schemes o' Mice an' Men,<br />
+Gang aft agley,<br />
+An' lea'e us nought but grief an' pain,<br />
+For promis'd joy!  </p>
+
+<h2><a id="hr">Horizontal Rules</a></h2>
+
+<p>Horizontal rules μπορούν να δημιουργηθούν με την τοποθέτηση 3 ή περισσότερων asterisks (*), hyphens (-) or underscores (_) σε μια γραμμή.</p>
+
+<p>Αυτό γίνεται:</p>
+
+<p><strong><code>***</code></strong></p>
+
+<p>αλλά είναι δυνατή η τοποθέτηση επιπλέον κενών ή χαρακτήρων ώστε να γίνει πιο εμφανές το section break στον επεξεργαστή κειμένου e.g.</p>
+
+<p><strong><code>* * * * *</code></strong></p>
+
+<p><strong><code>-------------------------</code></strong></p>
+
+<p><strong><code>_ _ _ _ _</code></strong></p>
+
+<p>Όλες οι μέθοδοι δίνουν ακριβώς το ίδιο αποτέλεσμα:</p>
+
+<hr />
+
+<h2><a id="image_links">Hyperlinked Images</a></h2>
+
+<p>Το κείμενο 'Προσθέτοντας περισσότερες δυνατότητες στο κείμενο με τη χρήση Διακριτικών' δίνει οδηγίες για την δημιουργία συνδέσμων ιστού και την εισαγωγή εικόνων. Είναι επίσης δυνατή η δημιουργία εικόνων που μπορούν να γίνουν σύνδεσμοι.</p>
+
+<p><strong><code>[the google search engine][google]</code></strong></p>
+
+<p><strong><code>![the google logo][logo]</code></strong></p>
+
+<p>Παραπάνω βρίσκονται ένας σύνδεσμος ιστού και μια εικόνα. Με την τοποθέτηση της εικόνας εκεί που βρίσκεται ο σύνδεσμος κειμένου έχουμε:</p>
+
+<p><strong><code>[![the google logo][logo]][google]</code></strong></p>
+
+<p> Η παραπάνω γραμμή σε συνδυασμό με τους επόμενους ορισμούς συνδέσμων:</p>
+
+<p><strong><code>[logo]: http://www.google.com/images/logo.gif</code></strong><br />
+<strong><code>[google]: http://www.google.com/ "click to visit Google.com"</code></strong></p>
+
+<p> συνδυάζεται για την παραγωγή του παρακάτω clickable συνδέσμου:</p>
+
+<p><a href="http://www.google.com/" title="click to visit Google.com"><img src="http://www.google.com/images/logo.gif" alt="the google logo" /></a></p>
+
+<p> Ένα παράδειγμα που αυτή η τεχνική μπορεί να φάνει χρήσιμη, είναι στη σύνδεση μικρών 'thumbnail' εικόνων βοηθητικά για το κατέβασμα μεγαλυτέρων εικόνων.</p>
+
+<h2><a id="embedded">Embedding HTML</a></h2>
+
+<p> Κάποιος που είναι οικείος με την HTML μπορεί να πιστεύει ότι τα Διακριτικά δεν του δίνουν όσο έλεγχο θα επιθυμούσε. Τα Διακριτικά επιτρέπουν την εμφώλευση HTML κειμένου.</p>
+
+<p><strong><code>* &lt;small&gt;small text&lt;/small&gt;</code></strong><br />
+
+<strong><code>* &lt;big&gt;big text&lt;/big&gt;</code></strong> </p>
+
+<ul>
+<li><small>small text</small>  </li>
+<li><big>big text</big> </li>
+</ul>
+
+<p> Η HTML συνυπάρχει με τον κώδικα των διακριτικών για τα bullet lists. Αυτό κάνει πιο εύκολη την εργασία γραψίματος πολύπλοκης HTML για απλά πράγματα όπως paragraphs και lists επιτρέποντας την πλήρη χρήση των δυνατοτήτων της HTML σε συγκεκριμένες περιπτώσεις.</p>
+
+<h2><a id="preformatted">Displaying HTML or Preformatted Text</a></h2>
+
+<p> Εάν είναι επιθυμητό η HTML να εμφανίζεται όπως γράφεται, όχι μετά από επεξεργασία, πρέπει να αρχίσει κάθε γραμμή με 4 κενούς χαρακτήρες.</p>
+
+<pre><code>&lt;p&gt;A paragraph in &lt;b&gt;HTML&lt;/b&gt; displayed as code&lt;/p&gt;
+</code></pre>
+
+<p> Είναι δυνατή η παρουσίαση πηγαίου κώδικα:</p>
+
+<pre><code>print "Command-line arguments: (@ARGV)\n";
+</code></pre>
+
+<p> Η παραπάνω μορφοποίηση χρησιμοποιείται συχνά για την κατάταξη της λίστας προγραμμάτων κ.τ.λ.. Το κείμενο περιέχει χαρακτήρες που χρησιμοποιούνται από τα Διακριτικά για να υποδηλώσουν διαφορετικά ήδη μορφοποίησης. </p>
+
+<pre><code>Normally this word would be **bold**.
+</code></pre>
+
+<p> Για να συμπεριλάβουν οι χαρακτήρες αυτοί σε κανονικό κείμενο πρέπει:</p>
+
+<h2><a id="special_char">Using Special Characters</a></h2>
+
+<p> Εάν είναι επιθυμητή η χρήση ειδικών χαρακτήρων χωρίς να γίνει επεξεργασία αυτών, πρέπει να γίνει η προσθήκη ενός backslash χαρακτήρα (\). Γνωστό ως 'escaping' ενός χαρακτήρα. Το backslash δεν εμφανίζεται, ενώ ο χαρακτήρας αμέσως μετά εμφανίζεται.</p>
+
+<p><strong><code>\*asterisks, not emphasis\*</code></strong></p>
+
+<p>γίνεται</p>
+
+<p>*asterisks, not emphasis*</p>
+
+<p>καλύτερα από</p>
+
+<p><strong><code>*emphasis, not asterisks*</code></strong></p>
+
+<p>που δίνει</p>
+
+<p><em>emphasis, not asterisks</em></p>
+
+<h2><a id="further">Further Reading</a></h2>
+
+<p>Το παραπάνω σύστημα Διακριτικών δεν είναι μοναδικό στο Moodle, υπάρχουν πολλά εργαλεία δημοσίευσης ιστού που το χρησιμοποιούν. Περισσότερα <a href="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a></p>
+</div></div>
