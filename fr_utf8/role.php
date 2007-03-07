@@ -64,6 +64,7 @@ $string['legacy:guest'] = 'ANCIEN RÔLE&nbsp;: Invité';
 $string['legacy:student'] = 'ANCIEN RÔLE&nbsp;: Étudiant';
 $string['legacy:teacher'] = 'ANCIEN RÔLE&nbsp;: Enseignant (non éditeur)';
 $string['legacy:user'] = 'ANCIEN RÔLE&nbsp;: Utilisateur authentifié';
+$string['legacytype'] = 'Ancien type de rôle';
 $string['listallroles'] = 'Liste de tous les rôles';
 $string['manageroles'] = 'Gérer les rôles';
 $string['metaassignerror'] = 'Impossible d\'attribuer ce rôle à l\'utilisateur «&nbsp;$a&nbsp;», car la capacité «&nbsp;Gérer les méta-cours&nbsp;» est requise.';
