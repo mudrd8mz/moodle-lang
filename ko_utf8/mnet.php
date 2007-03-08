@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 dev (2007021400)
+      // mnet.php - created with Moodle 1.9 dev (2007021401)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (자동 서명)';
@@ -33,6 +33,7 @@ $string['deleteuserrecord'] = 'SSO ACL: $a[1]의 사용자 \'$a[0]\' 삭제';
 $string['deletewrongkeyvalue'] = '오류 발생. 만일 당신이 서버의 SSL키를 삭제하려고 하지 않았다면 아마 누군가가 심각한 침해를 하려고 했었습니다. 현재 아무런 시도도 성공하지 못했습니다.';
 $string['deny'] = '거부';
 $string['description'] = '설명';
+$string['duplicate_usernames'] = '사용자 테이블의 \"mnet 호스트 아이디\" 및 \"사용자 아이디\"난에 대한 색인을 생성할 수 없습니다.<br />이는 사용자 테이블에 <a href=\"$a\" target=\"_blank\">사용자명이 중복</a>되었기 때문일 수 있습니다. 다행이 갱신은 성공했을 지도 모릅니다만, 업그레이드를 마칠 때까지 잘 지켜봐 주시기 바랍니다. 앞의 링크를 클릭하면 이 문제를 해결할 수 있는 안내문이 뜰 것입니다.<br />';
 $string['editenrolments'] = '출석';
 $string['enabled_for_all'] = '(이 서비스는 모든 호스트에 활성화되어 있습니다)';
 $string['enrolcourseenrol_desc'] = '무들네트웍 출석 기능을 이용한 이 배움터의 츨석/결석한 사용자. 원격 호스트에서 허용한 또 다른 출석 방법의 일환으로 이 배움터에 출석을 했던 사용자들이 있다면 그들을 주목하라. 
@@ -75,7 +76,7 @@ $string['invalidhost'] = '유효한 호스트 식별정보를 제공해야만 �
 $string['invalidpubkey'] = '유효한 SSL키가 아닙니다.';
 $string['invalidurl'] = '유효하지 않은 URL 매개변수';
 $string['ipaddress'] = 'IP 주소';
-$string['is_in_range'] = 'IP 주소  <code>$a</code>  는 인증된 호스트입니다.';
+$string['is_in_range'] = 'IP 주소  <code>$a</code>  는 인증된 호스트입니다.';
 $string['ispublished'] = '$a 무들 사이트는 여러분에게 이 서비스를 공개합니다.';
 $string['issubscribed'] = '$a 무들 사이트는 여러분의 호스트에게 이 서비스를 요청하였습니다.';
 $string['keydeleted'] = '키가 성공적으로 삭제된 후 교체되었습니다.';
@@ -116,7 +117,7 @@ $string['nosuchservice'] = '이 호스트에는 RPC서비스가 구동되지 않
 $string['nosuchtransport'] = '그 ID에는 전송계층이 존재하지 않습니다.';
 $string['notBASE64'] = '이 문자열은 Base64 인코드 형식이 아닙니다. 쓸 수 있는 키가 아닙니다.';
 $string['notPEM'] = '이 키는 PEM형식이 아닙니다. 작동하지 않을 것입니다.';
-$string['not_in_range'] = 'IP주소  <code>$a</code>  는 유효한 인증 호스트가 아닙니다.';
+$string['not_in_range'] = 'IP주소  <code>$a</code>  는 유효한 인증 호스트가 아닙니다.';
 $string['notpermittedtojump'] = '당신은 이 무들 중계기로부터 원격 세션을 시작할 수 있는 자격이 없습니다.';
 $string['notpermittedtoland'] = '당신은 원격 세션을 시작할 수 있는 자격이 없습니다.';
 $string['off'] = '끔';
@@ -170,7 +171,7 @@ $string['unknownerror'] = '교섭중에 알 수 없는 오류 발생';
 $string['usercannotchangepassword'] = '원격 사용자이기 때문에 이곳에서는 암호를 바꿀 수 없다.';
 $string['userchangepasswordlink'] = '<br />당신은 자료 제공자인 <a href=\"$a->wwwroot/login/change_password.php\">$a->description</a>에서 비밀번호를 바꿀 수 있을 것입니다.';
 $string['usersareonline'] = '경고: 현재 그 서버로 부터 $a 사용자가 여러분의 사이트에 접속해 있습니다.';
-$string['validated_by'] = ' <code>$a</code> 네트웍에 의해 승인되었습니다.';
+$string['validated_by'] = '<code>$a</code> 네트웍에 의해 승인되었습니다.';
 $string['verifysignature-error'] = '서명 확인 실패. 오류가 발생하였습니다.';
 $string['verifysignature-invalid'] = '서명 확인 실패. 이 페이로드는 당신이 서명한 것이 아닌 것 같습니다.';
 $string['version'] = '판번호';

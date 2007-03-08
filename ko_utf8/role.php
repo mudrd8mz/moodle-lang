@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007021400)
+      // role.php - created with Moodle 1.9 dev (2007021401)
 
 
 $string['addrole'] = '역할 추가';
@@ -50,6 +50,7 @@ $string['defaultrole'] = '기본 역할';
 $string['defineroles'] = '역할 규정';
 $string['deleterolesure'] = '<p>\"$a->name ($a->shortname)\"의 역할을 삭제하는 것이 확실합니까?</p><p>현재 이 역할을 담당하고 있는 사람은 $a->count 명 입니다.</p>';
 $string['duplicaterole'] = '역할 복제';
+$string['duplicaterolesure'] = '정말 \"$a->name ($a->shortname)\" 역할을 복제하겠습니까?</p>';
 $string['editrole'] = '역할 편집';
 $string['errorbadrolename'] = '잘못된 역할명';
 $string['errorbadroleshortname'] = '잘못된 단축역할명';
@@ -64,6 +65,7 @@ $string['legacy:guest'] = '규정된 역할 : 손님';
 $string['legacy:student'] = '규정된 역할 : 학생';
 $string['legacy:teacher'] = '규정된 역할 : 교사(편집기능 없음)';
 $string['legacy:user'] = '규정된 역할 : 인증된 사용자';
+$string['legacytype'] = '규정된 역할 유형';
 $string['listallroles'] = '역할 목록';
 $string['manageroles'] = '역할 관리';
 $string['metaassignerror'] = '메타코스의 관리능력이 주어지지 않았기 때문에 사용자 \"$a\" 에게 이 역할을 부여할 수 없습니다.';
@@ -79,6 +81,8 @@ $string['question:export'] = '문항 내보냄';
 $string['question:import'] = '문항 가져음';
 $string['question:manage'] = '문항 관리';
 $string['question:managecategory'] = '문항 범주 관리';
+$string['resetrolesure'] = '정말 \"$a->name ($a->shortname)\" 역할을 초기화하겠습니까?<p></p>기본 역할은 규정된 능력($a->legacytype)에서 선택됩니다.';
+$string['resetrolesurenolegacy'] = '정말 \"$a->name ($a->shortname)\" 역할의 모든 권한을 제거하겠습니까?';
 $string['risks'] = '위험부담';
 $string['role:assign'] = '사용자에게 역할 부여';
 $string['role:manage'] = '역할을 생성하고 관리';
