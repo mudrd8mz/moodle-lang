@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8 dev (2007011200)
+      // form.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['addfields'] = 'Afegeix $a camps al formulari';
 $string['advancedelement'] = 'Element avançat';
 $string['day'] = 'Dia';
+$string['display'] = 'Mostra';
 $string['err_alphanumeric'] = 'Només s\'hi admeten lletres o nombres.';
 $string['err_email'] = 'Heu d\'introduir una adreça de correu vàlida.';
 $string['err_lettersonly'] = 'Només s\'hi admeten lletres.';
@@ -16,6 +17,7 @@ $string['err_numeric'] = 'Heu d\'introduir un nombre.';
 $string['err_rangelength'] = 'Heu d\'introduir una cadena entre {$a->format[0]} i {$a->format[1]} caràcters.';
 $string['err_required'] = 'Heu d\'introduir un valor.';
 $string['general'] = 'Paràmetres generals';
+$string['hideadvanced'] = 'Oculta característiques avançades';
 $string['hour'] = 'Hora';
 $string['minute'] = 'minut';
 $string['miscellaneoussettings'] = 'Paràmetres diversos';
@@ -23,9 +25,13 @@ $string['modstandardels'] = 'Paràmetres comuns de mòduls';
 $string['month'] = 'Mes';
 $string['nomethodforaddinghelpbutton'] = 'No hi ha cap mètode per a afegir un botó d\'ajuda a l\'element del formulari $a->name (classe $a->classname)';
 $string['nonexistentformelements'] = 'S\'està intentant afegir botons d\'ajuda a elements del formulari inexistents: $a';
-$string['requiredelement'] = 'Camp requerit.';
+$string['optional'] = 'Opcional';
+$string['requiredelement'] = 'Camp requerit';
 $string['requiredfield'] = 'Aquest camp és obligatori';
+$string['security'] = 'Seguretat';
+$string['showadvanced'] = 'Mostra característiques avançades';
 $string['somefieldsrequired'] = 'Aquest formulari conté camps obligatoris';
+$string['timing'] = 'Cronometratge';
 $string['year'] = 'Any';
 
 ?>

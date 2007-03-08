@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8 dev (2006112200)
+      // lesson.php - created with Moodle 1.9 dev (2007021400)
 
 
 $string['accesscontrol'] = 'Control d\'accés';
@@ -41,6 +41,7 @@ $string['checkedthisone'] = 'aquest comprovat.';
 $string['checknavigation'] = 'Comprova la navegació';
 $string['checkquestion'] = 'Comprova la pregunta';
 $string['classstats'] = 'Estadística de classe';
+$string['clicktodownload'] = 'Feu clic en aquest enllaç per baixar el fitxer.';
 $string['clicktopost'] = 'Feu clic per enviar la vostra qualificació a la llista de puntuacions màximes.';
 $string['clusterjump'] = 'Pregunta no vista en un clúster';
 $string['clustertitle'] = 'Títol del clúster';
@@ -138,10 +139,10 @@ $string['lessonopen'] = 'La lliçó s\'obrirà el $a.';
 $string['lessonopens'] = 'La lliçó s\'obre';
 $string['lessonpagelinkingbroken'] = 'No s\'ha trobat la primera pàgina. Deu haver-hi algun error en els enllaços. Contacteu amb l\'administrador.';
 $string['lessonstats'] = 'Estadístiques de la lliçó';
+$string['linkedmedia'] = 'Fitxer enllaçat';
 $string['loginfail'] = 'Accés denegat, torneu-ho a provar...';
 $string['lowscore'] = 'Puntuació més baixa';
 $string['lowtime'] = 'Temps més baix';
-$string['mainmenu'] = 'Menú principal';
 $string['manualgrading'] = 'Qualifica preguntes de resposta oberta';
 $string['matchesanswer'] = 'Coincideix amb la resposta';
 $string['maxhighscores'] = 'Nombre de puntuacions màximes mostrades';
@@ -234,7 +235,7 @@ $string['redisplaypage'] = 'Torna a mostrar la pàgina';
 $string['report'] = 'Informe';
 $string['reports'] = 'Informes';
 $string['response'] = 'Reacció';
-$string['returnmainmenu'] = 'Torna al menú principal';
+$string['returnto'] = 'Torna a $a';
 $string['returntocourse'] = 'Torna al curs';
 $string['review'] = 'Revisa';
 $string['reviewlesson'] = 'Revisa la lliçó';
@@ -297,5 +298,7 @@ $string['youranswer'] = 'La vostra resposta';
 $string['yourcurrentgradeis'] = 'La vostra qualificació actual és $a';
 $string['yourcurrentgradeisoutof'] = 'La vostra qualificació actual és $a->grade sobre $a->total';
 $string['youshouldview'] = 'N\'hauríeu de contestar com a mínim: $a';
+$string['mainmenu'] = 'Menú principal'; // ORPHANED
+$string['returnmainmenu'] = 'Torna al menú principal'; // ORPHANED
 
 ?>
