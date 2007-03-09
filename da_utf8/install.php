@@ -2,7 +2,7 @@
       // install.php - created with Moodle 1.7+ (2006101007)
 
 
-$string['admindirerror'] = 'Det angivende adminbibliotek er forkert';
+$string['admindirerror'] = 'Det angivne adminbibliotek er forkert';
 $string['admindirname'] = 'Adminbibliotek';
 $string['admindirsetting'] = 'Nogle få web-hoteller bruger /admin som en speciel URL til at administrere web-hotellet. Det er et problem da Moodle også bruger /admin som standard til administrationssiderne. Hvis det er så kan du omdøbe adminbiblioteket og så angive den nye sti til admin biblioteket her. For eksempel: <br/> <br /><b>moodleadmin</b><br /> <br />
 Dette vil rette admin linkene i Moodle.';
@@ -70,7 +70,25 @@ $string['databasesettingssub_mysql'] = '<b>Type:</b> MySQL<br />
 <b>Bruger:</b> brugernavnet til din database<br />
 <b>Password:</b> din databases adgangskode<br />
 <b>Tabelprefix:</b> prefix for alle tabelnavne (mandatory)';
-$string['dataroot'] = 'DataBibliotek';
+$string['databasesettingssub_oci8po'] = '<b>Type:</b> Oracle<br />
+<b>Vært:</b> ikke brugt, skal være blank<br />
+<b>Navn:</b> navnet på forbindelsen fra tnsnames.ora <br />
+<b>Bruger:</b> dit database brugernavn<br />
+<b>Password:</b> brugerens password<br />
+<b>Tabel Præfix:</b> præfix til alle tabellerne (nødvendigt,højst 2 karaktere)';
+$string['databasesettingssub_odbc_mssql'] = '<b>Type:</b> SQL*Server (over ODBC) <b><font color=\"red\">Eksperimentielt! (ikke beregnet til brug i produktionsmiljø)</font></b><br />
+<b>Vært:</b> navnet på DSN forbindelsen i ODBC kontrolpanelet<br />
+<b>Navn:</b> databasenavnet , f.eks. moodle<br />
+<b>Bruger:</b> dit databasebrugernavn<br />
+<b>Password:</b> dit database password<br />
+<b>Tabel Præfix:</b> præfix der bruges til alle tabelnavnene (nødvendigt)';
+$string['databasesettingssub_postgres7'] = '<b>Type:</b> PostgreSQL<br />
+<b>Vært:</b> f.eks. localhost eller db.isp.com<br />
+<b>Navn:</b> databasenavn, f.eks. moodle<br />
+<b>Bruger:</b> dit databasebrugernavn<br />
+<b>Password:</b> dit database password<br />
+<b>Tables Præfix:</b> præfix der bruges foran alle tabelnavnene (nødvendigt)';
+$string['dataroot'] = 'Databibliotek';
 $string['datarooterror'] = 'Data-biblioteket du specificerede kan ikke findes eller oprettes. Ret stien til biblioteket eller opret det manuelt.';
 $string['dbconnectionerror'] = 'Den angive database kunne ikke kontaktes. Kontroller eller ret venligst databaseinformationerne.';
 $string['dbcreationerror'] = 'Fejl ved oprettelse af databasen. Kan ikke oprette den givne database med de angivne indstillinger.';
@@ -81,6 +99,7 @@ $string['dbtype'] = 'Type';
 $string['dbwrongencoding'] = 'Den valgte database kører under en ikke anbefalet encoding ($a). Det vil være bedre at benytte en Unicode (UTF-8) encoded database i stedet. 
 Du kan alligevel springe denne test over ved at vælge \"Skip DB Encoding Test\" tjek herunder, men det kan give problemer fremover.';
 $string['dbwronghostserver'] = 'Du skal følge \"Værtsreglerne\" som forklaret ovenfor.';
+$string['dbwrongnlslang'] = 'Environment variablen NLS_LANG  på din webserver skal bruge AL32UTF8 tegnsættet. Se PHP documentationen for hvordan man konfigurere OCI8 korrekt.';
 $string['dbwrongprefix'] = 'Du skal følge Tabel-prefix-reglerne som forklaret ovenfor.';
 $string['directorysettings'] = '<p>Kontroller venligst placeringen af af Moodle-installationen.</p>
 
@@ -112,6 +131,7 @@ $string['downloadlanguagenotneeded'] = 'Du kan fortsætte installationen med sta
 $string['downloadlanguagesub'] = 'Du har nu mulighed for at downloade en sprogpakke og fortsætte installationsprocessen i dette sprog.<br /><br />
 Kan du ikke downloade sprogpakken vil installationen fortsætte på engelsk.
 (Når installationsprocessen er færdig kan du downloade og installere flere sprogpakker.)';
+$string['environmenthead'] = 'Kontrollere din serveropsætning...';
 $string['environmentsub'] = 'Vi tjekker om de forskellige komponenter i dit system lever op til de Moodles krav.';
 $string['fail'] = 'Mislykkedes';
 $string['fileuploads'] = 'Fil uploads';
@@ -130,6 +150,7 @@ $string['gdversionhelp'] = '<p>Det lader til at din server ikke har GD installer
 <p>For at tilføje GD på unix skal PHP kompileres med \'--with-gd\" parameteret.</p>
 
 <p>Under windows er det normalt nok at udkommentere den linje i php.ini der refererer til libgd.dll </p>';
+$string['globalsquotes'] = 'Usikker håndtering af Globale variabler';
 $string['globalsquoteserror'] = 'Fix dine PHP-indstillinger: aktiver register_globals and/or slå magic_quotes_gpc til';
 $string['globalsquoteshelp'] = '<p>
 Kombinationen af deaktiveret \"Magic Quotes GPC\" og aktiveret \"Register Globals\" samtidig anbefales ikke.</p>
@@ -172,15 +193,20 @@ indstillingen så der er minimum 16Mb til rådighed. Hvis du ikke har direkte ad
 $string['mssql'] = 'SQL*Server (mssql)';
 $string['mssql_n'] = 'SQL*Server med UTF-8 support (mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'PHP er ikke konfigureret ordentligt med MSSQL-extensionen så den kan kommunikere med SQL*Serveren. Vær venlig at tjekke din php.ini-fil eller genkompiler PHP.';
+$string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP er ikke blevet ordentligt konfigureret med MySQL  udvidelsen så den kan kommunikere med MySQL. Det kan skyldes at MySQL extension/dll ikke er loadet. Kontroller venlist phpinfo() og php.ini filen eller rekompiler PHP.';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP er ikke konfigureret ordentligt med OCI8-extensionen så den kan kommunikere med Oracle. Vær venlig at tjekke din php.ini-fil eller genkompiler PHP.';
+$string['odbc_mssql'] = 'SQL*Server over ODBC (odbc_mssql)';
+$string['odbcextensionisnotpresentinphp'] = 'PHP er ikke blevet korrekt konfigureret med PHP\'s ODBC modul så den kan kommunikere med SQL*Serveren. Kontroller venligst php.ini filen eller rekompiler PHP.';
 $string['pass'] = 'OK';
+$string['pgsqlextensionisnotpresentinphp'] = 'PHP er ikke blevet korrekt konfigureret med PHP\'s PGSQL modul så den kan kommunikere med PostgreSQL. Kontroller venligst php.ini filen eller rekompiler PHP.';
 $string['phpversion'] = 'PHP version';
 $string['phpversionerror'] = 'PHP versionen skal være nyere end 4.1.0';
 $string['phpversionhelp'] = '<p>Moodle kræver en PHP version der er nyere end 4.1.0.</p>
 <p>Webserveren bruger i øjeblikket version $a</p>
 <p>Du bliver nødt til at opdatere PHP eller flytte systemet over på en anden webserver der har en nyere version af PHP!</p>';
+$string['postgres7'] = 'PostgreSQL (postgres7)';
 $string['safemode'] = 'Safe mode';
 $string['safemodeerror'] = 'Moodle kan have problemer med \"Safe mode : on\"';
 $string['safemodehelp'] = '<p>Moodle kan have flere problemer når \'safe mode\' er slået til, ikke mindst kan systemet sandsynligvis ikke oprette nye filer.</p>
@@ -193,6 +219,8 @@ $string['sessionautostarterror'] = 'Denne skulle være deaktiveret';
 $string['sessionautostarthelp'] = '<p>Moodle kræver at PHP understøtter sessions.</p>
 
 <p>Sessions kan aktiveres i php.ini filen ... kik efter parameteren session.auto_start</p>';
+$string['skipdbencodingtest'] = 'Spring DB tegnsæts testen over';
+$string['welcomep10'] = '$a->installername ($a->installerversion)';
 $string['welcomep20'] = 'Du ser denne side fordi du med succes har installeret og åbnet pakken <strong>$a->packname $a->packversion</strong> på din computer.
 Tillykke med det!';
 $string['welcomep30'] = 'Denne udgave af <strong>$a->installername</strong> inkluderer programmerne til at oprette et miljø hvori <strong>Moodle</strong> vil operaere, nemlig:';

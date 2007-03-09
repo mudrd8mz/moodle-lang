@@ -880,7 +880,7 @@ $string['new'] = 'Ny';
 $string['newaccount'] = 'Ny konto';
 $string['newcourse'] = 'Nyt kursus';
 $string['newpassword'] = 'Ny adgangskode';
-$string['newpasswordfromlost'] = '<strong>NOTE:</strong> Dit <strong>Nuværende kodeord</strong> vil blive sendt til dig i den  <strong>anden</strong> af de to e-mail der er en del af reauthorisationensproceduren for at generere et nyt password. Vær sikker på at du har fået begge e-mail før du fortsætter fra denne side.';
+$string['newpasswordfromlost'] = '<strong>NOTE:</strong> Dit <strong>Nuværende kodeord</strong> vil blive sendt til dig i den  <strong>anden</strong> af de to e-mail der er en del af reauthorisationsproceduren for at generere et nyt password. Vær sikker på at du har fået begge e-mail før du fortsætter fra denne side.';
 $string['newpasswordtext'] = 'Hej $a->firstname,
 
 Din adgangskode til \'$a->sitename\' er ændret og du har fået et nyt midlertidigt kodeord.
@@ -990,7 +990,7 @@ $string['ok'] = 'OK';
 $string['oldpassword'] = 'Nuværende adgangskode';
 $string['opentoguests'] = 'Gæsteadgang';
 $string['optional'] = 'valgfrit';
-$string['order'] = 'Bestil';
+$string['order'] = 'Rækkefølge';
 $string['other'] = 'Andre';
 $string['outline'] = 'Beskrivelse';
 $string['outlinereport'] = 'Rapportbeskrivelse';

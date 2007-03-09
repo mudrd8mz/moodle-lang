@@ -48,7 +48,7 @@ $string['feedbackupdated'] = 'Afleverings feedback opdateret for $a';
 $string['graded'] = 'Bedømt';
 $string['guestnosubmit'] = 'Beklager! Gæster kan ikke aflevere en opgave. Du skal logge ind (eller registrere dig) før du kan aflevere din opgave.';
 $string['guestnoupload'] = 'Desværre, gæster kan ikke uploade.';
-$string['helpoffline'] = '<p>Denne er brugbar når selve opgaven udføres udenfor Moodle. Det kunne være et andet sted på nettet, eller i klassen. - Eller den kan bruges hvis man vil have at besvarelsen skal lægges i et forum.</p><p>Eleverne kan se en beskrivelse af opgaven, men kan ikke uploade filer eller ligenene. Pointgivning fungerer normalt, og elever vil få besked når deres indsats er blevet vurderet.</p>';
+$string['helpoffline'] = '<p>Denne er brugbar når selve opgaven udføres udenfor Moodle. Det kunne være et andet sted på nettet, eller i klassen. - Eller den kan bruges hvis man vil have at besvarelsen skal lægges i et forum.</p><p>Eleverne kan se en beskrivelse af opgaven, men kan ikke uploade filer eller lignende. Pointgivning fungerer normalt, og elever vil få besked når deres indsats er blevet vurderet.</p>';
 $string['helponline'] = '<p>Denne opgave kræver at eleverne skriver noget tekst. Underviseren kan vurdere dem online og tilmed rette eller kommentere i selve teksten.</p><p>(Hvis du kender tidligere versioner af Moodle, er denne opgavetype den samme som den der førhen hed Journal)</p>';
 $string['helpupload'] = '<p>Denne type opgave tillader alle deltagere at uploade en eller flere filer af vilkårligt format.
 Det kan være et word eller pdf dokument, billeder, zip/rar fil eller en hvilken som helst fil du beder om at de skal aflevere.</p>

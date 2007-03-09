@@ -3,7 +3,7 @@
 
 
 $string['angry'] = 'vred';
-$string['approve'] = 'glad';
+$string['approve'] = 'tilfreds';
 $string['biggrin'] = 'stort grin';
 $string['blackeye'] = 'sort øje';
 $string['blush'] = 'rødme';

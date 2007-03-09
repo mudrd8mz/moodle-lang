@@ -9,7 +9,7 @@ $string['browserepository'] = 'Gennemse IMS indhold';
 $string['choose'] = 'Vælg';
 $string['chooseafile'] = 'Vælg eller upload en fil';
 $string['chooseparameter'] = 'Vælg parametre';
-$string['configallowlocalfiles'] = 'Når du laver en ny resourcefil, så er det en god ide at tillade links til filer på det lokale filsystem såsom CDROM drev, netværksdrev eller på harddisken. Det kan være brugbart i et klasseværelse hvor alle elever har mappet det samme netværksdrev eller hvor filerne ligger på en udleveret CD. Brug af denne feature kan kræve nogle ændringer af browserens sikkerhedsindstillinger.';
+$string['configallowlocalfiles'] = 'Når du laver en ny ressourcefil, så er det en god ide at tillade links til filer på det lokale filsystem såsom CDROM drev, netværksdrev eller på harddisken. Det kan være hensigtsmæssigt i et klasseværelse hvor alle elever har mappet det samme netværksdrev eller hvor filerne ligger på en udleveret CD. Brug af denne feature kan kræve nogle ændringer af browserens sikkerhedsindstillinger.';
 $string['configautofilerenamesettings'] = 'Opdater automatisk referencer og biblioteker hvis de bliver omdøbt med filemanageren.';
 $string['configblockdeletingfilesettings'] = 'Blokslætning af filer og bilioteker der bliver brugt af resourcer. Vær opmærksom på at billeder ller andre filer der bliver refereret til via HTML links ikke er beskyttet.';
 $string['configdefaulturl'] = 'Denne værdi bruges til at indsætte i URL formen når en ny URL-baseret ressource laves.';
@@ -27,7 +27,7 @@ $string['configpopupstatus'] = 'Skal popupvinduer vise statusbaren som standart?
 $string['configpopuptoolbar'] = 'Skal popupvinduer vise værktøjslinjen som standard?';
 $string['configpopupwidth'] = 'Hvilken bredde skal popupvinduer have som standard?';
 $string['configsecretphrase'] = 'Denne hemmelige sætning bliver brugt til at generere en krypteret nøgle der kan overføres som parameter til nogle ressourcer. Den krypterede nøgle bliver lavet med en md5 kryptering af den nuværende brugers IP sammensat med den hemmelige sætning. Som følger: code = md5(IP.secretphrase) 
-Dette tillader den modtagne ressource at verificere at den er kaldt fra moodle.';
+Dette tillader den modtagne ressource at verificere at den er kaldt fra Moodle.';
 $string['configwebsearch'] = 'Når der tilføjes en URL som en webside eller weblink, vil denne placering tilbydes som et sted der kan hjælpe brugeren med at søge efter den URL de ønsker.';
 $string['configwindowsettings'] = 'Dette sætter standardværdien for vindue-indstillings panelet, når en ny ressource bliver tilføjet. Efter første gang bliver dette individuelle brugerindstillinger.';
 $string['deploy'] = 'Anvend';
@@ -119,7 +119,7 @@ $string['tableofcontents'] = 'Indholdsfortegnelse';
 $string['upbutton'] = 'Op';
 $string['variablename'] = 'Variabel navn';
 $string['viewims'] = 'Gennemse IMS Content Package';
-$string['vol'] = 'vol';
+$string['vol'] = 'Vol';
 $string['warningblockingdelete'] = 'ADVARSEL: Det kan ikke lade sig gøre at slette denne fil da den bliver brugt af en resource. Du kan enten ændre eller slette resourcen først, eller bede sitets administrator om at deaktivere beskyttelsesmekanismen i de globale resourceindstillinger.';
 $string['warningdisabledrename'] = 'ADVARSEL: Den automatiske omdøbning af referancer i resourcer er deaktiveret. Du kan omdøbe referencerne manuelt hvis det er nødvendigt. Administratoren kan også aktivere en automatisk omdøbning i de globale indstillingerne for resourcer.';
 
