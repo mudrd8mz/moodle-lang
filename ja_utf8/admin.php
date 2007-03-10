@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007021400)
+      // admin.php - created with Moodle 1.9 dev (2007021401)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -72,6 +72,7 @@ http://site.example.com/admin.cron.php?password=opensesame
 $string['configdbsessions'] = 'この設定を有効にした場合、現在のセッション情報はデータベースに保存されます。これは特に規模の大きい/アクセス数の多いサイト、またはクラスタサーバで構築されたサイトに向いています。ほとんどのサイトでは、この設定をサーバディスクにセッションを保存する「No」のままにしてください。この設定を変更すると、(あなたも含めて) 現在のユーザがログアウトされます。あなたがMySQLを使用している場合、my.cnf (またはmy.ini) の「max_allowed_packet」 を少なくとも4Mにしてください。';
 $string['configdebug'] = 'この設定を有効にした場合、PHPのerror_reportingが増加し、より多くの警告が表示されるようになります。これは、開発者のみに便利な設定です。';
 $string['configdebugdisplay'] = 'この設定を有効にした場合、エラー報告はHTMLページに表示されますが、一般的にXHTML、JS、cookiesおよびHTTPヘッダを壊します。この設定を無効にした場合、エラー報告はサーバログに記録され、デバッグしやすくなります。PHP設定のerror_logで、どのログを記録するかコントロールできます。';
+$string['configdebugsmtp'] = 'メールメッセージがSMTPサーバに送信される間の詳細なデバッグ情報を取得します。';
 $string['configdefaultallowedmodules'] = '上位カテゴリに分類される<b>コースが作成される場合</b>、デフォルトでどのモジュールを許可しますか?';
 $string['configdefaultcourseroleid'] = 'コースに登録されたユーザには、このロールが自動的に割り当てられます。';
 $string['configdefaultrequestcategory'] = 'ユーザからリクエストされたコースは、自動的にこのカテゴリに配置されます。';
@@ -227,6 +228,7 @@ $string['debugging'] = 'デバッグ';
 $string['debugminimal'] = 'MINIMAL: 致命的なエラーのみ表示する';
 $string['debugnone'] = 'NONE: デバッグ情報を表示しない';
 $string['debugnormal'] = 'NORMAL: エラー、警告および注意を表示する';
+$string['debugsmtp'] = 'デバッグメール送信';
 $string['defaultallowedmodules'] = 'デフォルトで許可するモジュール';
 $string['defaultcourseroleid'] = 'コースユーザのデフォルトロール';
 $string['defaultrequestcategory'] = 'コースリクエストのデフォルトカテゴリ';
