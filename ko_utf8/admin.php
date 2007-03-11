@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007021400)
+      // admin.php - created with Moodle 1.9 dev (2007021401)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -71,6 +71,7 @@ $string['configcronremotepassword'] = '이것은 cron.php가 다음을 URL에서
 $string['configdbsessions'] = '이를 켜 놓으면, 현재 세션의 정보를 저장하기 위해서 데이타 베이스를 사용할 것이다. 이것은 큰 사이트나 많은 서버로 구성된 사이트에서 특히 유용하게 쓰일 수 있다. 대부분의 사이트에서는 이를 막아 놓아, 서버 디스크에 세션 정보를 기록하도록 한다. 만일 지금 이 옵션을 바꾸게 되면, 현재 접속된 모든 사용자(당신도 물론!)의 접속이 끊어져 로그아웃될 것이다.';
 $string['configdebug'] = '이것을 \"예\"로 두면 지속적인 경고를 위해서 PHP 오류 보고가 증가할 것이다. 개발자에게나 유용한 기능이다.';
 $string['configdebugdisplay'] = '이것을 켜두면 오류보고가 HTML문서로 보여진다. 대체로 실용적이기는 하지만 XHTML, JS, 쿠키 및 HTTP 헤더를 깨지게 한다. 이를 꺼 두면 오류보고는 추후에 디버그를 할 수 있도록 서버에 기록으로 남는다. PHP의 error_log 로 기록위치를 설정할 수 있다.';
+$string['configdebugsmtp'] = '이메일 발송시의 자세한 오류 내용을 SMTP 서버에게 보내게 함';
 $string['configdefaultallowedmodules'] = '특정 범주안에 <b>하위 교육과정이 만들어질 때</b> 어떤 모듈들을 기본적으로 제공하겠는가?';
 $string['configdefaultcourseroleid'] = '배움터에 등록하는 사용자는 이 역활이 자동적으로 부여된다.';
 $string['configdefaultrequestcategory'] = '사용자가 요청한 배움터는 자동적으로 이 범주에 속하게 된다.';
@@ -235,6 +236,7 @@ $string['debugging'] = '오류 보고';
 $string['debugminimal'] = '최소: 치명적인 오류만 보여주기';
 $string['debugnone'] = '어떤 오류 내용도 보여주지 않음';
 $string['debugnormal'] = '보통: 오류와 경고 및 알림을 보여주기';
+$string['debugsmtp'] = '이메일 발송 디버그';
 $string['defaultallowedmodules'] = '허용되는 기본 모듈';
 $string['defaultcourseroleid'] = '배움터의 사용자 기본 역활';
 $string['defaultrequestcategory'] = '배움터 요청시 기본 범주';
