@@ -1082,6 +1082,7 @@ $string['previewhtml'] = 'Náhled ve formátu HTML';
 $string['previeworchoose'] = 'Vybrat motiv';
 $string['previous'] = 'Předchozí';
 $string['previoussection'] = 'Předchozí sekce';
+$string['primaryadminsetup'] = 'Nastavení účtu správce';
 $string['profile'] = 'Profil';
 $string['publicdirectory'] = 'Veřejný adresář';
 $string['publicdirectory0'] = 'Nezveřejňovat tuto stránku';
