@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6 development (2006031600)
+      // hotpot.php - created with Moodle 1.9 dev (2007021401)
 
 
 $string['abandoned'] = 'Abandonada';
 $string['addquizchain'] = 'Acrescentar série de quiz';
 $string['allmycourses'] = 'Todos os meus cursos';
+$string['allusers'] = 'Todos os usuários';
 $string['alwaysopen'] = 'Sempre aberto';
 $string['attemptsall'] = 'Todas as tentativas';
 $string['attemptsbest'] = 'Melhor tentativa';
@@ -45,10 +46,17 @@ $string['filetype'] = 'Tipo de arquivo';
 $string['forceplugins'] = 'Forçar plugins para multimídia';
 $string['giveup'] = 'Desistir';
 $string['hints'] = 'Dicas';
+$string['hotpot:attempt'] = 'Tentar questionário';
+$string['hotpot:deleteattempt'] = 'Cancelar tentativas';
+$string['hotpot:grade'] = 'Modificar notas';
+$string['hotpot:view'] = 'Usar questionário';
+$string['hotpot:viewreport'] = 'Ver relatórios';
+$string['hotpotcloses'] = 'Fim da atividade Hot Potatoes';
+$string['hotpotopens'] = 'Início da atividade Hot Potatoes';
 $string['ignored'] = 'Ignorado';
 $string['inprogress'] = 'em andamento';
 $string['location'] = 'Local do arquivo';
-$string['modulename'] = 'Atividade Hot Potatoes ';
+$string['modulename'] = 'Atividade Hot Potatoes';
 $string['modulenameplural'] = 'Atividades Hot Potatoes';
 $string['navigation'] = 'Navegação';
 $string['navigation_bar'] = 'Barra de navegação do Moodle';
