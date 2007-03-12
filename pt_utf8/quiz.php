@@ -323,7 +323,7 @@ $string['notenoughanswers'] = 'Esse tipo de pergunta exige pelo menos $a respost
 $string['notenoughsubquestions'] = 'Não foram definidas sub-questões suficientes!<br />
 Quer voltar atrás e corrigir a questão?';
 $string['notimedependentitems'] = 'O módulo de testes actualmente não suporta itens dependentes do tempo. Uma alternativa consiste em colocar um tempo limite para tudo o teste. Quer seleccionar outro item (ou usar o item actual de qualquer forma)?';
-$string['numattempts'] = '$a->studentnum $a->studentstring já fez $a->attemptnum tentativas';
+$string['numattempts'] = 'Já foram feitas $a->attemptnum tentativas por $a->studentnum $a->studentstring';
 $string['numberabbr'] = '#';
 $string['numerical'] = 'Numérica';
 $string['onlyteachersexport'] = 'Unicamente os docentes podem exportar perguntas';
