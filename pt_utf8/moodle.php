@@ -765,6 +765,7 @@ $string['loginstepsnone'] = '<p>Viva!</p>
 $string['loginto'] = 'Entrar em $a';
 $string['loginusing'] = 'Para aceder precisa do seu nome de utilizador e palavra chave';
 $string['logout'] = 'Sair';
+$string['logoutconfirm'] = 'Tem a certeza que que sair?';
 $string['logs'] = 'Relatórios';
 $string['logtoomanycourses'] = '[ <a href=\"$a->url\">mais</a> ]';
 $string['logtoomanyusers'] = '[ <a href=\"$a->url\">mais</a> ]';
