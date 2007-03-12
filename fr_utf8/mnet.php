@@ -183,6 +183,7 @@ $string['verifysignature-invalid'] = 'La vérification de signature a échoué. 
 $string['version'] = 'version';
 $string['warning'] = 'Avertissement';
 $string['wrong-ip'] = 'Votre adresse IP ne correspond pas à l\'adresse que nous avons enregistrée.';
+$string['xmlrpc-missing'] = 'Le logiciel PHP doit avoir été compilé avec l\'option XML-RPC pour pouvoir utiliser cette fonctionnalité.';
 $string['yourhost'] = 'Votre serveur';
 $string['yourpeers'] = 'Vos serveurs affiliés';
 
