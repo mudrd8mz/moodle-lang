@@ -2,9 +2,9 @@
       // forum.php - created with Moodle 1.7.1+ (2006101010)
 
 
-$string['addanewdiscussion'] = 'Começar um tema novo';
+$string['addanewdiscussion'] = 'Começar um novo tema';
 $string['addanewquestion'] = 'Adicionar uma pergunta';
-$string['addanewtopic'] = 'Começar um tema novo';
+$string['addanewtopic'] = 'Começar um novo tema';
 $string['advancedsearch'] = 'Pesquisa avançada';
 $string['allforums'] = 'Todos os fóruns';
 $string['allowchoice'] = 'Permitir a todos escolher';
@@ -39,8 +39,8 @@ $string['delete'] = 'Apagar';
 $string['deleteddiscussion'] = 'O tema de conversação foi apagado';
 $string['deletedpost'] = 'A mensagem foi apagada';
 $string['deletedposts'] = 'Estas mensagens foram apagadas';
-$string['deletesure'] = 'Tem certeza que quer apagar esta mensagem?';
-$string['deletesureplural'] = 'Tem certeza que quer apagar esta mensagem e todas as suas respostas? (número de mensagens: $a)';
+$string['deletesure'] = 'Tem a certeza que quer apagar esta mensagem?';
+$string['deletesureplural'] = 'Tem a certeza que quer apagar esta mensagem e todas as suas respostas? (número de mensagens: $a)';
 $string['digestmailheader'] = 'Este é o seu sumário diário de novas mensagens nos fóruns de $a->sitename. Para alterar as suas preferências no fórum, visite $a->userprefs.';
 $string['digestmailprefs'] = 'o seu perfil de utilizador';
 $string['digestmailsubject'] = '$a: sumário do fórum';

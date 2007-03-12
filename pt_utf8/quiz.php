@@ -126,9 +126,9 @@ $string['defaultgrade'] = 'Nota para a pergunta pré-definida';
 $string['defaultinfo'] = 'A categoria pré-definida para perguntas.';
 $string['delay1'] = 'Atraso entre a primeira e segunda tentativas.';
 $string['delay2'] = 'Atraso entre tentativas posteriores';
-$string['deleteattemptcheck'] = 'Tem certeza absoluta que quer apagar totalmente estas tentativas?';
-$string['deletequestioncheck'] = 'Tem certeza absoluta que quer apagar \'$a\'?';
-$string['deletequestionscheck'] = 'Tem certeza absoluta que quer apagar as seguintes perguntas?
+$string['deleteattemptcheck'] = 'Tem a certeza absoluta que quer apagar totalmente estas tentativas?';
+$string['deletequestioncheck'] = 'Tem a certeza absoluta que quer apagar \'$a\'?';
+$string['deletequestionscheck'] = 'Tem a certeza absoluta que quer apagar as seguintes perguntas?
 <div>$a</div>';
 $string['deleteselected'] = 'Apagar as seleccionadas';
 $string['description'] = 'Descrição';
