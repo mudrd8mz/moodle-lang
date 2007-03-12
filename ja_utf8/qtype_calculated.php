@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.8 dev (2007012500)
+      // qtype_calculated.php - created with Moodle 1.9 dev (2007021401)
 
 
 $string['addmoreanswerblanks'] = 'さらに答え入力欄を追加する';
@@ -13,6 +13,7 @@ $string['mustbenumeric'] = 'ここには数字を入力してください。';
 $string['mustnotbenumeric'] = 'ここには数字を入力できません。';
 $string['nextitemtoadd'] = '次のアイテムの追加方法';
 $string['nextpage'] = '次のページ';
+$string['nosharedwildcard'] = 'このカテゴリに共有ワイルドカードはありません。';
 $string['tolerance'] = '許容誤差 &plusmn;';
 $string['youmustenteramultiplierhere'] = 'ここには乗数を入力してください。';
 
