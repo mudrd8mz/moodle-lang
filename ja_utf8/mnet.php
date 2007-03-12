@@ -173,6 +173,7 @@ $string['verifysignature-invalid'] = '署名認証に失敗しました。この
 $string['version'] = 'バージョン';
 $string['warning'] = '警告';
 $string['wrong-ip'] = 'あなたのIPアドレスが、記録されているレコードと合致しません。';
+$string['xmlrpc-missing'] = 'この機能を使用するには、あなたのPHPビルドにXML-RPCをインストールしてください。';
 $string['yourhost'] = 'あなたのホスト';
 $string['yourpeers'] = 'あなたのピア';
 
