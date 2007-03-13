@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7+ (2006101007)
+      // moodle.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['action'] = 'Ekintza';
@@ -563,6 +563,7 @@ $string['forcepasswordchangenotice'] = 'Jarraitzeko zure pasahitza aldatu.';
 $string['forcetheme'] = 'Itxura behartu';
 $string['forgotaccount'] = 'Pasahitza galdu duzu?';
 $string['forgotten'] = 'Zure erabiltzaile-izena eta pasahitza ahaztu dituzu?';
+$string['forgotteninvalidurl'] = 'Pasahitzak ez du balio, URLa berrabiarazi';
 $string['format'] = 'Formatua';
 $string['formathtml'] = 'HTML formatua';
 $string['formatlams'] = 'LAMS ikastaro-formatua';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7+ (2006101007)
+      // lesson.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['accesscontrol'] = 'Sarbide-kontrola';
@@ -41,6 +41,7 @@ $string['checkedthisone'] = 'hau konprobatzen.';
 $string['checknavigation'] = 'Nabigazioa aztertu';
 $string['checkquestion'] = 'Galdera gainbegiratu';
 $string['classstats'] = 'Taldeko estatistikak';
+$string['clicktodownload'] = 'Klik egin ondoko estekan fitxategia jaisteko';
 $string['clicktopost'] = 'Zure kalifikazioa puntuazio onenen zerrendara bidaltzeko hemen klik egin.';
 $string['clusterjump'] = 'Cluster batean ez ikusitako galdera';
 $string['clustertitle'] = 'Cluster';

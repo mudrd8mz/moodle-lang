@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7+ (2006101007)
+      // data.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['action'] = 'Ekintza';
@@ -28,7 +28,7 @@ $string['commentempty'] = 'Iruzkina hutsik zegoen';
 $string['comments'] = 'Iruzkinak';
 $string['commentsaved'] = 'Iruzkinak gorde dira';
 $string['commentsn'] = '$a iruzkina(k)';
-$string['configenablerssfeeds'] = 'Honek datu-base osorako RSS feed-en aukera indarrean jarriko du. Datu-base bakoitzeko RSS feed-ak eskuz aktibatu beharko dituzu.';
+$string['configenablerssfeeds'] = 'Honek datu-base osorako RSS jarioen aukera indarrean jarriko du. Datu-base bakoitzeko RSS jarioak eskuz aktibatu beharko dituzu.';
 $string['confirmdeletefield'] = 'Eremu hau ezabatzear zaude, ziur al zaude?';
 $string['confirmdeleterecord'] = 'Sarrera hau ezabatu nahi duzula ziur al zaude?';
 $string['csstemplate'] = 'CSS txantiloia';
@@ -165,7 +165,7 @@ $string['radiobutton'] = 'Aukera bakarreko botoia';
 $string['rate'] = 'Kalifikatu';
 $string['rating'] = 'Kalifikatzen';
 $string['ratingeveryone'] = 'Mezuak edonork kalifika ditzake';
-$string['ratingno'] = 'Kalifikaiorik ez';
+$string['ratingno'] = 'Kalifikaziorik ez';
 $string['ratingonlyteachers'] = 'Sarrerak bakarrik $a (e)k kalifika ditzake';
 $string['ratingpublic'] = '$a (e)k edonoren kalifikazioak ikus ditzake';
 $string['ratingpublicnot'] = '$a (e)k bere kalifikazioak baino ezin ditu ikusi';

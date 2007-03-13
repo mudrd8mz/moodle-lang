@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7+ (2006101007)
+      // forum.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['addanewdiscussion'] = 'Mezu berria idatzi';
@@ -127,6 +127,7 @@ $string['movedmarker'] = '(Mugituta)';
 $string['movethisdiscussionto'] = 'Mugitu eztabaida hau hona:';
 $string['namenews'] = 'Berrien foroa';
 $string['namesocial'] = 'Foro irekia';
+$string['nameteacher'] = 'Irakasleen foroa';
 $string['newforumposts'] = 'Mezu berriak';
 $string['nodiscussions'] = 'Ez dago eztabaidagairik oraindik foro honetan';
 $string['noguestpost'] = 'Barkatu, bisitariek ezin dute mezurik bidali';

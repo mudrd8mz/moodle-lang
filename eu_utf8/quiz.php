@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7+ (2006101007)
+      // quiz.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['1day'] = 'egun bat';
@@ -209,6 +209,7 @@ $string['fractionsaddwrong'] = 'Aukeratutako nota positiboen gehiketak ez du %%1
 $string['fractionsnomax'] = 'Erantzunetako batek %%100 izan beharko luke, horrela
 <BR>erantzun honentzat gehienezko nota lortzea posible izan dadin.
 <BR>Atzera bueltatu nahi duzu arazoa konpontzeko?';
+$string['fromfile'] = 'Fitxategi honetatik:';
 $string['functiontakesatleasttwo'] = '$a funtzioak bi argumentu izan behar ditu gutxienez.';
 $string['functiontakesnoargs'] = '$a funtzioak ez du argumenturik';
 $string['functiontakesonearg'] = '$a funtzioak argumentu bakarra izan behar du';
@@ -236,6 +237,7 @@ $string['illegalformulasyntax'] = '\'$a\'-rekin hasten den legez kanpoko sintasi
 $string['imagedisplay'] = 'Erakutsi beharreko irudia';
 $string['imagemissing'] = 'Irudia ez dago eskura $a lerroan. Fitxategia ez da kontuan hartuko';
 $string['import'] = 'Inportatu';
+$string['importcategory'] = 'kategoria inportatu';
 $string['importerror'] = 'Inportazio-prozesuan errore bat gertatu da';
 $string['importfilearea'] = '...ikastaroaren fitxategietan dagoen fitxategi bat inportatu';
 $string['importfileupload'] = 'Igotako fitxategitik inportatu';
