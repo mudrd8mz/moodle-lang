@@ -214,7 +214,7 @@ $string['updatefield'] = 'Aktualizovat existující pole';
 $string['uploadfile'] = 'Vložit soubor';
 $string['uploadrecords'] = 'Vložit záznamy ze souboru';
 $string['url'] = 'URL';
-$string['usestandard'] = 'Použij předlohu';
+$string['usestandard'] = 'Použít předlohu';
 $string['viewfromdate'] = 'Prohlížet lze od';
 $string['viewtodate'] = 'Prohlížet lze do';
 
