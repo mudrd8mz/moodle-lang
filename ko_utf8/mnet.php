@@ -177,6 +177,7 @@ $string['verifysignature-invalid'] = '서명 확인 실패. 이 페이로드는 
 $string['version'] = '판번호';
 $string['warning'] = '경고';
 $string['wrong-ip'] = 'IP 주소가 보유하고 있는 기록과 일치하지 않습니다.';
+$string['xmlrpc-missing'] = 'PHP를 통해 이 기능을 사용할 수 있게 하기위해서는 XML-RPC를 설치해야만 한다.';
 $string['yourhost'] = '호스트';
 $string['yourpeers'] = '네트웍 환경';
 

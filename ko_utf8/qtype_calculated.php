@@ -20,6 +20,7 @@ $string['newlocal1'] = '새 개인 자료묶음에서 사용';
 $string['nextitemtoadd'] = '다음 \'추가할 문항\'';
 $string['nextpage'] = '다음 쪽';
 $string['nodataset'] = '없음 - 임의 자료가 아님';
+$string['nosharedwildcard'] = '범주내에 공유된 임의 문자가 없음';
 $string['possiblehdr'] = '문항의 지문에 있는 가능한 임의 카드 존재';
 $string['tolerance'] = '허용오차';
 $string['usedinquestion'] = '질문에서 사용됨';
