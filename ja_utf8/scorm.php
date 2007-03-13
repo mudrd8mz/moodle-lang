@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.8 dev (2007011200)
+      // scorm.php - created with Moodle 1.9 dev (2007021401)
 
 
 $string['advanced'] = '詳細設定';
@@ -19,6 +19,7 @@ $string['browserepository'] = 'リポジトリの閲覧';
 $string['chooseapacket'] = 'パッケージの選択または更新';
 $string['completed'] = '完了';
 $string['confirmloosetracks'] = '警告: パッケージが変更/修正されたようです。パッケージ構造が変更された場合、更新処理中にユーザのトラックが失われる可能性があります。';
+$string['contents'] = 'コンテンツ';
 $string['coursepacket'] = 'コースパッケージ';
 $string['coursestruct'] = 'コース構造';
 $string['datadir'] = 'ファイルシステムエラー: コースデータディレクトリを作成できません。';
