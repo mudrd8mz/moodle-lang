@@ -409,13 +409,13 @@ $string['emailagain'] = 'Email (znovu)';
 $string['emailcharset'] = 'Znaková sada mailu';
 $string['emailconfirm'] = 'Potvrďte Vaše konto';
 $string['emailconfirmation'] = 'Dobrý deň $a->firstname,
-Požiadali ste o vytvorenie nového konta u \'$a->sitename\'používajúce Vašu emailovú adresu. 
+Požiadali ste o vytvorenie nového konta u \'$a->sitename\' používajúce Vašu emailovú adresu. 
 
 Na potvrdenie Vášho nového konta, choďte prosím na nasledujúcu webovú adresu:  $a->link 
 
 Vo väčšine emailových programov, by sa mala objaviť ako modrá linka, na ktorú stačí kliknúť. Ak to nefunguje, skopírujte adresu do riadku pre adresu vo vrchnej časti okna Vášho web prehliadača.
 
-Ak potrebujete akúkoľvek pomoc, prosím kontaktujte administrátora stránky,$a->admin';
+Ak potrebujete akúkoľvek pomoc, prosím kontaktujte administrátora stránky, $a->admin';
 $string['emailconfirmationsubject'] = '$a: potvrdenie konta';
 $string['emailconfirmsent'] = '<p>Na Vašu emailovú adresu by mal byť odoslaný email<b>$a</b></p>
 
