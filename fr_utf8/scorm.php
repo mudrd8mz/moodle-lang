@@ -22,6 +22,7 @@ $string['chooseapacket'] = 'Sélectionner ou mettre à jour un paquetage';
 $string['browserepository'] = 'Consulter le dépôt';
 $string['completed'] = 'Terminé';
 $string['confirmloosetracks'] = 'Attention&nbsp;! Le paquetage semble avoir été modifié. Si sa structure a été modifiée, les historiques de certains utilisateurs (tracking) seront perdus lors du processus de mise à jour.';
+$string['contents'] = 'Contenus';
 $string['coursepacket'] = 'Paquetage du cours';
 $string['coursestruct'] = 'Structure du cours';
 $string['datadir'] = 'Erreur du système de fichier : impossible de créer le dossier des données du cours';
