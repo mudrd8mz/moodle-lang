@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8 dev (2007012500)
+      // error.php - created with Moodle 1.8 Beta + (2007021400)
 
 
 $string['adminprimarynoedit'] = 'Der Hauptadmin kann nicht von anderen bearbeitet werden';
@@ -46,6 +46,7 @@ $string['modulerequirementsnotmet'] = 'Modul \"$a->modulename\" ($a->moduleversi
 $string['mustbeteacher'] = 'Diese Seite können Sie nur als Trainer/in ansehen.';
 $string['nocontext'] = 'Entschuldigung, aber dieser Kurs hat keine gültigen Zusammenhänge.';
 $string['noinstances'] = 'Es gibt keine Instanzen von $a in diesem Kurs!';
+$string['nologinas'] = 'Sie können sich nicht in der Rolle dieses Nutzers einloggen';
 $string['nonmeaningfulcontent'] = 'Kein sinnvoller Inhalt';
 $string['noparticipatorycms'] = 'Entschuldigung, aber Sie haben keine beteiligten Kursmodule für einen Bericht.';
 $string['nopermissions'] = 'Entschuldigung, aber Sie besitzen derzeit keine Rechte, dies zu tun ($a).';

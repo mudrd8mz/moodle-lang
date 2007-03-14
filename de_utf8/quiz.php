@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 dev (2007012500)
+      // quiz.php - created with Moodle 1.8 Beta + (2007021401)
 
 
 $string['1day'] = '1 Tag';
@@ -176,9 +176,6 @@ $string['event7'] = 'Abgabe';
 $string['event8'] = 'Schließen';
 $string['event9'] = 'Freitext-Bewertung';
 $string['examview'] = 'Examview';
-$string['existingcategory1'] = 'Ein Wert aus einem bereits existierenden Satz, der auch von anderen Fragen in dieser Kategorie genutzt wird.';
-$string['existingcategory2'] = 'Eine Datei aus einem bereits existierenden Satz, der auch von anderen Fragen in dieser Kategorie genutzt wird.';
-$string['existingcategory3'] = 'Ein Link aus einem bereits existierenden Satz, der auch von anderen Fragen in dieser Kategorie genutzt wird.';
 $string['export'] = 'Export';
 $string['exporterror'] = 'Beim Export ist ein Fehler aufgetreten.';
 $string['exportfilename'] = 'quiz';
@@ -262,17 +259,6 @@ $string['itemdefinition'] = 'Definition';
 $string['itemsource'] = 'Quellwert';
 $string['itemsourceformat'] = 'Quellformat';
 $string['itemtypes'] = 'Externer Fragentyp';
-$string['keptcategory1'] = 'Eine Schreibweise derselben Kategorie wiederverwendbare Menge von Schreibweisen wie vorher (a literal from the same category reusable set of literals as before)';
-$string['keptcategory2'] = 'Eine Datei derselben Kategorie 
-wiederverwendbare Menge von Dateien wie vorher (a file from the same category reusable set of files as before)';
-$string['keptcategory3'] = 'Ein Link derselben Kategorie 
-wiederverwendbare Menge von Links wie vorher (a link from the same category reusable set of links as before)';
-$string['keptlocal1'] = 'Eine Schreibweise derselben Frage 
-nicht-öffentliche Menge von Schreibweisen wie zuvor (a literal from the same question private set of literals as before)';
-$string['keptlocal2'] = 'Eine Datei derselben Frage 
-nicht-öffentliche Menge von Schreibweisen wie zuvor (a file from the same question private set of files as before)';
-$string['keptlocal3'] = 'Ein Link derselben Frage 
-nicht-öffentliche Menge von Links wie zuvor (a link from the same question private set of links as before)';
 $string['lastanswer'] = 'Ihre letzte Antwort war';
 $string['learnwise'] = 'Learnwise';
 $string['link'] = 'Link';
@@ -312,12 +298,6 @@ $string['multipleanswers'] = 'Antwort(en) wählen:';
 $string['multiplier'] = 'Multiplikator';
 $string['name'] = 'Name';
 $string['newattemptfail'] = 'Fehler: Ein neuer Versuch des Tests konnte nicht begonnen werden.';
-$string['newcategory1'] = 'Ein Wert von einer neuen Menge von Werten, die auch von anderen Fragen dieser Kategorie genutzt werden kann.';
-$string['newcategory2'] = 'Eine Datei von einer neuen Menge von Dateien, die auch von anderen Fragen dieser Kategorie genutzt werden kann.';
-$string['newcategory3'] = 'Ein Link aus einer neuen Link-Menge, der auch von anderen Fragen dieser Kategorie genutzt werden kann.';
-$string['newlocal1'] = 'Ein Wert aus einer neuen Wertemenge, die nur von dieser Frage genutzt werden kann.';
-$string['newlocal2'] = 'Eine Datei aus einer neuen Dateimenge, die nur von dieser Frage genutzt werden kann.';
-$string['newlocal3'] = 'Ein Link aus einer neuen Link-Menge, der nur von dieser Frage genutzt werden kann.';
 $string['noanswers'] = 'Es wurden keine Antworten ausgewählt!';
 $string['noattempts'] = 'Diesen Test hat niemand durchgeführt.';
 $string['noattemptstoshow'] = 'Es gibt keine Versuche, die angezeigt werden können.';
@@ -383,6 +363,7 @@ $string['questionnametoolong'] = 'Die Bezeichnung der Frage in Zeile $a ist zu l
 $string['questionno'] = 'Frage $a';
 $string['questions'] = 'Fragen';
 $string['questionsinclhidden'] = 'Fragen (auch die verborgenen)';
+$string['questionsinthisquiz'] = 'Fragen für diesen Test';
 $string['questionsinuse'] = '(* Fragen mit einem Sternchen werden in Tests verwandt. Die Fragen werden nicht aus diesen Tests gelöscht. Sie werden aber aus der Kategorienliste ausgetragen.)';
 $string['questionsperpage'] = 'Zahl der Fragen pro Seite';
 $string['questiontext'] = 'Fragentext';
@@ -491,6 +472,7 @@ $string['showfeedback'] = 'Nach dem Antworten Feedback anzeigen?';
 $string['showhidden'] = 'Auch alte Fragen anzeigen';
 $string['shownoattempts'] = 'Teilnehmer/innen anzeigen, die keine Versuche durchgeführt haben';
 $string['shownoattemptsonly'] = 'Nur Teilnehmer/innen anzeigen, die keine Versuche durchgeführt haben';
+$string['showquestiontext'] = 'Fragentext in der Frageliste mit anzeigen';
 $string['showteacherattempts'] = 'Versuche der Trainer/innen anzeigen';
 $string['shuffle'] = 'Mischen';
 $string['shuffleanswers'] = 'Antworten mischen';
@@ -518,6 +500,7 @@ $string['timelimitexeeded'] = 'Die Zeit für den Test ist abgelaufen!';
 $string['timestr'] = '%%H:%%M:%%S am %%d/%%m/%%y';
 $string['timesup'] = 'Zeit ist abgelaufen.';
 $string['timetaken'] = 'Verbrauchte Zeit';
+$string['tofile'] = 'zur Datei';
 $string['tolerance'] = 'Toleranz';
 $string['tolerancetype'] = 'Toleranztyp';
 $string['toomanyrandom'] = 'Die Anzahl der benötigten Zufallsfragen ist größer als die Anzahl der in der Kategorie enthaltenen Fragen! ($a)';
@@ -554,5 +537,25 @@ $string['xml'] = 'Moodle-XML';
 $string['xmltypeunsupported'] = 'Der Fragentyp $a wird vom XML-Import nicht unterstützt.';
 $string['yourfinalgradeis'] = 'Ihre Gesamtbewertung für diesen Test: $a';
 $string['zerosignificantfiguresnotallowed'] = 'Die richtige Antwort kann nicht null signifikante Ziffern haben!';
+$string['existingcategory1'] = 'Ein Wert aus einem bereits existierenden Satz, der auch von anderen Fragen in dieser Kategorie genutzt wird.'; // ORPHANED
+$string['existingcategory2'] = 'Eine Datei aus einem bereits existierenden Satz, der auch von anderen Fragen in dieser Kategorie genutzt wird.'; // ORPHANED
+$string['existingcategory3'] = 'Ein Link aus einem bereits existierenden Satz, der auch von anderen Fragen in dieser Kategorie genutzt wird.'; // ORPHANED
+$string['keptcategory1'] = 'Eine Schreibweise derselben Kategorie wiederverwendbare Menge von Schreibweisen wie vorher (a literal from the same category reusable set of literals as before)'; // ORPHANED
+$string['keptcategory2'] = 'Eine Datei derselben Kategorie 
+wiederverwendbare Menge von Dateien wie vorher (a file from the same category reusable set of files as before)'; // ORPHANED
+$string['keptcategory3'] = 'Ein Link derselben Kategorie 
+wiederverwendbare Menge von Links wie vorher (a link from the same category reusable set of links as before)'; // ORPHANED
+$string['keptlocal1'] = 'Eine Schreibweise derselben Frage 
+nicht-öffentliche Menge von Schreibweisen wie zuvor (a literal from the same question private set of literals as before)'; // ORPHANED
+$string['keptlocal2'] = 'Eine Datei derselben Frage 
+nicht-öffentliche Menge von Schreibweisen wie zuvor (a file from the same question private set of files as before)'; // ORPHANED
+$string['keptlocal3'] = 'Ein Link derselben Frage 
+nicht-öffentliche Menge von Links wie zuvor (a link from the same question private set of links as before)'; // ORPHANED
+$string['newcategory1'] = 'Ein Wert von einer neuen Menge von Werten, die auch von anderen Fragen dieser Kategorie genutzt werden kann.'; // ORPHANED
+$string['newcategory2'] = 'Eine Datei von einer neuen Menge von Dateien, die auch von anderen Fragen dieser Kategorie genutzt werden kann.'; // ORPHANED
+$string['newcategory3'] = 'Ein Link aus einer neuen Link-Menge, der auch von anderen Fragen dieser Kategorie genutzt werden kann.'; // ORPHANED
+$string['newlocal1'] = 'Ein Wert aus einer neuen Wertemenge, die nur von dieser Frage genutzt werden kann.'; // ORPHANED
+$string['newlocal2'] = 'Eine Datei aus einer neuen Dateimenge, die nur von dieser Frage genutzt werden kann.'; // ORPHANED
+$string['newlocal3'] = 'Ein Link aus einer neuen Link-Menge, der nur von dieser Frage genutzt werden kann.'; // ORPHANED
 
 ?>

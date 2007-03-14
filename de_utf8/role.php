@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 Beta (2007020200)
+      // role.php - created with Moodle 1.8 Beta + (2007021401)
 
 
 $string['addrole'] = 'Neue Rolle hinzufügen';
@@ -48,8 +48,10 @@ $string['currentcontext'] = 'Aktueller Kontext';
 $string['currentrole'] = 'Derzeitige Rolle';
 $string['defaultrole'] = 'Standardrolle';
 $string['defineroles'] = 'Rollen verwalten';
-$string['deleterolesure'] = '<p>Sind Sie sicher, dass Sie die Rolle \"$a->name ($a->shortname)\" wirklich löschen möchten?</p>
-<p>Aktuell sind dieser Rolle insgesamt $a->count Nutzer/innen zugewiesen.</p>';
+$string['deleterolesure'] = 'Sind Sie sicher, dass Sie die Rolle \"$a->name ($a->shortname)\" wirklich löschen möchten?</p>
+<p>Aktuell sind dieser Rolle insgesamt $a->count Nutzer/innen zugewiesen.';
+$string['duplicaterole'] = 'Diese Rolle duplizieren';
+$string['duplicaterolesure'] = 'Sind Sie sicher, dass Sie die Rolle \"$a->name ($a->shortname)\" duplizieren möchten?</p>';
 $string['editrole'] = 'Rolle bearbeiten';
 $string['errorbadrolename'] = 'Ungültiger Rollenname';
 $string['errorbadroleshortname'] = 'Ungültiger Rollenname';
@@ -64,6 +66,7 @@ $string['legacy:guest'] = 'Basisrolle: Gast';
 $string['legacy:student'] = 'Basisrolle: Teilnehmer/in';
 $string['legacy:teacher'] = 'Basisrolle: Trainer/in ohne Autorenrecht';
 $string['legacy:user'] = 'Basisrolle: Authentifizierte/r Nutzer/in';
+$string['legacytype'] = 'Basisrollentyp';
 $string['listallroles'] = 'Alle Rollen auflisten';
 $string['manageroles'] = 'Rollen verwalten';
 $string['metaassignerror'] = 'Diese Rolle kann nicht an \"$a\" zugewiesen werden, weil die Fähigkeit \"Metakurse verwalten\" dafür notwendig ist.';
@@ -79,6 +82,8 @@ $string['question:export'] = 'Fragen exportieren';
 $string['question:import'] = 'Fragen importieren';
 $string['question:manage'] = 'Fragen verwalten';
 $string['question:managecategory'] = 'Fragenkategorie verwalten';
+$string['resetrolesure'] = 'Sind Sie sicher, dass Sie die Rolle \"$a->name ($a->shortname)\" auf die Grundinstellungen zurücksetzen möchten?<p></p>Die Grundeinstellungen werden entsprechend der gewählten Grundfähigkeiten ($a->legacytype) gesetzt.';
+$string['resetrolesurenolegacy'] = 'Sind Sie sicher, dass Sie alle Rechte entfernen möchten, die in der Rolle \"$a->name ($a->shortname)\" definiert wurden?';
 $string['risks'] = 'Risiken';
 $string['role:assign'] = 'Rollen an Nutzer/innen zuweisen';
 $string['role:manage'] = 'Erstellen und verwalten von Rollen';

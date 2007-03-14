@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 Beta (2007020200)
+      // moodle.php - created with Moodle 1.8 Beta + (2007021401)
 
 
 $string['action'] = 'Aktion';
@@ -463,6 +463,29 @@ $string['emailmustbereal'] = 'Wichtig: Geben Sie eine gültige E-Mail-Adresse an
 $string['emailnotallowed'] = 'E-Mail-Adressen aus den Domänen $a sind nicht erlaubt.';
 $string['emailnotfound'] = 'Die E-Mail-Adresse wurde nicht in der Datenbank gefunden.';
 $string['emailonlyallowed'] = 'Diese E-Mail-Adresse ($a) kann nicht verwendet werden. Bitte wenden Sie sich bei Fragen an die Administrator/innen.';
+$string['emailpasswordchangeinfo'] = 'Guten Tag, $a->firstname $a->lastname,
+
+jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihren Zugang auf \'$a->sitename\' angefordert.
+
+Um das Kennwort zu ändern, gehen sie bitte auf folgende Webseite:
+
+$a->link
+
+Hinweis: In den meisten E-Mail-Programmen erscheint die Adresse als blauer Link, auf den Sie einfach klicken können. Falls dies nicht funktioniert, kopieren Sie die komplette Adresse in die obere Zeile des Browserfensters.
+
+Bei Problemen wenden Sie sich bitte an die Administrator/innen der Website.
+
+Viel Erfolg!
+$a->admin';
+$string['emailpasswordchangeinfofail'] = 'Guten Tag, $a->firstname $a->lastname,
+
+jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihren Zugang auf \'$a->sitename\' angefordert.
+
+Das Kennwort kann jedoch nichtauf diesem Weg geändert werden. Wenden Sie sich bitte an die Administrator/innen der Website.
+
+Viel Erfolg!
+$a->admin';
+$string['emailpasswordchangeinfosubject'] = '$a: Kennwortinformation ändern';
 $string['emailpasswordconfirmation'] = 'Guten Tag, $a->firstname $a->lastname,
 
 jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihren Zugang auf \'$a->sitename\' angefordert.
@@ -576,6 +599,7 @@ $string['forcepasswordchangenotice'] = 'Bitte ändern Sie Ihr Kennwort, bevor Si
 $string['forcetheme'] = 'Festgelegtes Design';
 $string['forgotaccount'] = 'Kennwort vergessen?';
 $string['forgotten'] = 'Anmeldename oder Kennwort vergessen?';
+$string['forgottenduplicate'] = 'Diese E-Mailadresse wird von mehreren Nutzern verwandt. Geben Sie daher bitte den Nutzernamen ein.';
 $string['forgotteninvalidurl'] = 'URL zum Passwort-Rücksetzen';
 $string['format'] = 'Format';
 $string['formathtml'] = 'HTML-Format';
@@ -787,6 +811,7 @@ Wenn jemand anders bereits Ihren Anmeldenamen gewählt hat, müssen Sie einen an
 $string['loginto'] = 'Einloggen in \'$a\'';
 $string['loginusing'] = 'Geben Sie Ihren Anmeldenamen und das Kennwort ein';
 $string['logout'] = 'Logout';
+$string['logoutconfirm'] = 'Möchten Sie sich wirklich ausloggen?';
 $string['logs'] = 'Logdaten';
 $string['logtoomanycourses'] = '[ <a href=\"$a->url\">mehr</a> ]';
 $string['logtoomanyusers'] = '[ <a href=\"$a->url\">mehr</a> ]';
@@ -1002,6 +1027,7 @@ $string['notingroup'] = 'Diese Aktivität ist nur für Gruppenmitglieder zugäng
 $string['notpublic'] = 'Nicht öffentlich!';
 $string['nousersmatching'] = 'Es wurden keine zu \'$a\' passenden Nutzer/innen gefunden.';
 $string['nousersyet'] = 'Bislang keine Nutzer/innen vorhanden';
+$string['novalidcourses'] = 'Es können keine Kurse angezeigt werden';
 $string['now'] = 'jetzt';
 $string['numattempts'] = '$a gescheiterte Anmeldeversuche';
 $string['numberweeks'] = 'Anzahl der Wochen/Themen';
@@ -1218,8 +1244,10 @@ $string['showallcourses'] = 'Alle Kurse anzeigen';
 $string['showalltopics'] = 'Alle Themen anzeigen';
 $string['showallusers'] = 'Alle Nutzer/innen anzeigen';
 $string['showallweeks'] = 'Alle Wochen anzeigen';
+$string['showblockcourse'] = 'Liste der Kurse anzeigen, in der dieser Block genutzt wird';
 $string['showgrades'] = 'Bewertungen anzeigen';
 $string['showlistofcourses'] = 'Kursliste anzeigen';
+$string['showmodulecourse'] = 'Liste der Kurse anzeigen, in der diese Aktivität genutzt wird';
 $string['showonly'] = 'Nur anzeigen';
 $string['showonlytopic'] = 'Nur Thema $a anzeigen';
 $string['showonlyweek'] = 'Nur Woche $a anzeigen';
@@ -1435,6 +1463,7 @@ $string['usernameemailmatch'] = 'Anmeldename und E-Mail-Adresse passen nicht zus
 $string['usernameexists'] = 'Der Anmeldename ist bereits vergeben';
 $string['usernamelowercase'] = 'Es sind ausschließlich Kleinbuchstaben erlaubt';
 $string['usernamenotfound'] = 'Der Anmeldename wurde nicht in der Datenbank gefunden.';
+$string['usernameoremail'] = 'Geben Sie den Nutzernamen oder die Emailadresse ein';
 $string['usernotconfirmed'] = '$a konnte nicht bestätigt werden';
 $string['userpic'] = 'Nutzerbild';
 $string['userprofilefor'] = 'Nutzerprofil von $a';
@@ -1505,6 +1534,8 @@ $string['writinguserinfo'] = 'Nutzerinformationen schreiben';
 $string['wrongpassword'] = 'Falsches Kennwort für diesen Anmeldenamen';
 $string['xmldbeditor'] = 'XMLDB-Editor';
 $string['yahooid'] = 'Yahoo!';
+$string['year'] = 'Jahr';
+$string['years'] = 'Jahre';
 $string['yes'] = 'Ja';
 $string['youareabouttocreatezip'] = 'Sie sind dabei, eine ZIP-Datei mit diesem Inhalt anzulegen';
 $string['youaregoingtorestorefrom'] = 'Sie sind dabei, die Wiederherstellung zu starten von:';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.6.2+ (2006050521)
+      // enrol_ldap.php - created with Moodle 1.8 Beta + (2007021400)
 
 
 $string['description'] = '<p>Sie können einen LDAP-Server nutzen, um die Anmeldung von Teilnehmer/innen in Kursen zu verwalten.</p>
@@ -17,6 +17,7 @@ $string['enrol_ldap_autocreation_settings'] = 'Einstellungen für automatisierte
 $string['enrol_ldap_bind_dn'] = 'Wenn Sie einen sog. bind-user für die LDAP-Suche nach Nutzer/innen verwenden wollen, geben Sie diesen  hier an, z.B. \'cn=ldapuser,ou=public,o=org\'.';
 $string['enrol_ldap_bind_pw'] = 'Kennwort für den bind-user';
 $string['enrol_ldap_category'] = 'Kursbereich für automatisch angelegte Kurse';
+$string['enrol_ldap_contexts'] = 'LDAP Kontexte';
 $string['enrol_ldap_course_fullname'] = 'Optional: LDAP-Feld für vollständigen Kursnamen';
 $string['enrol_ldap_course_idnumber'] = 'Bezeichner zur eindeutigen Identifizierung in LDAP, normalerweise <em>cn</em> oder <em>uid</em>. Es wird empfohlen, den Wert zu sperren, wenn Sie Kurse automatisiert anlegen wollen.';
 $string['enrol_ldap_course_settings'] = 'Einstellungen für Kurse';
@@ -26,7 +27,9 @@ $string['enrol_ldap_editlock'] = 'Sperrwert';
 $string['enrol_ldap_general_options'] = 'Allgemeine Einstellungen';
 $string['enrol_ldap_host_url'] = 'URL des LDAP-Servers, z.B. \'ldap://ldap.myorg.com/\'
 oder \'ldaps://ldap.myorg.com/\'';
+$string['enrol_ldap_memberattribute'] = 'LDAP Member Attribut';
 $string['enrol_ldap_objectclass'] = 'objectClass für Kurssuche in LDAP, normalerweise \'posixGroup\'.';
+$string['enrol_ldap_roles'] = 'Rollenabbildung';
 $string['enrol_ldap_search_sub'] = 'Suche Gruppenmitgliedschaften in Unterumgebungen.';
 $string['enrol_ldap_server_settings'] = 'Einstellungen für LDAP-Server';
 $string['enrol_ldap_student_contexts'] = 'Liste der Umgebungen, in denen sich Gruppen mit Teilnehmer/innen befinden. Mehrere Umgebungen werden durch Semikolon getrennt: \'ou=courses,o=org; ou=others,o=org\'';

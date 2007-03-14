@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7+ (2006101008)
+      // forum.php - created with Moodle 1.8 Beta + (2007021401)
 
 
 $string['addanewdiscussion'] = 'Neues Diskussionsthema hinzufügen';
@@ -69,6 +69,7 @@ $string['existingsubscribers'] = 'Derzeitige Abonnenten';
 $string['forcesubscribe'] = 'Alle haben dieses Forum zwingend abonniert';
 $string['forcesubscribeq'] = 'Alle in das Forum eintragen';
 $string['forum'] = 'Forum';
+$string['forum:addnews'] = 'Nachrichten hinzufügen';
 $string['forum:createattachment'] = 'Dateianhänge hinzufügen';
 $string['forum:deleteanypost'] = 'Alle Beiträge löschen (jederzeit)';
 $string['forum:deleteownpost'] = 'Eigene Beiträge löschen (mit Zeitbegrenzung)';
@@ -76,6 +77,7 @@ $string['forum:editanypost'] = 'Alle Beiträge bearbeiten';
 $string['forum:managesubscriptions'] = 'Abonnent/innen verwalten';
 $string['forum:movediscussions'] = 'Themen veschieben';
 $string['forum:rate'] = 'Beiträge bewerten';
+$string['forum:replynews'] = 'Auf Nachrichten antworten';
 $string['forum:replypost'] = 'Auf Beiträge antworten';
 $string['forum:splitdiscussions'] = 'Themen aufteilen';
 $string['forum:startdiscussion'] = 'Themen neu beginnen';
@@ -100,7 +102,7 @@ $string['forumtype'] = 'Forumstyp';
 $string['generalforum'] = 'Standardforum zur allgemeinen Nutzung';
 $string['generalforums'] = 'Allgemeines Forum';
 $string['inforum'] = 'in $a';
-$string['intronews'] = 'Allgemeine Nachrichten und Ankündigungen';
+$string['intronews'] = 'Nachrichten und Ankündigungen';
 $string['introsocial'] = 'Ein offenes Forum ohne Themeneinschränkung';
 $string['introteacher'] = 'Ein Forum ausschließlich für Anmerkungen und Diskussionen der Trainer/innen';
 $string['lastpost'] = 'Letzter Beitrag';
@@ -130,13 +132,12 @@ $string['namesocial'] = 'Soziales Forum';
 $string['nameteacher'] = 'Trainerforum';
 $string['newforumposts'] = 'Neue Forenbeiträge';
 $string['nodiscussions'] = 'Es befindet sich noch kein Diskussionsthema in diesem Forum.';
+$string['nodiscussionsstartedby'] = 'Von diesem Nutzer wurde noch kein Diskuissionsthema gestartet.';
 $string['noguestpost'] = 'Entschuldigung, Gäste dürfen hier nicht mitdiskutieren. Bitte melden Sie sich an.';
 $string['noguestsubscribe'] = 'Entschuldigung, Gäste können sich nicht eintragen, um Forumsbeiträge per E-Mail erhalten.';
 $string['noguesttracking'] = 'Entschuldigung, Gäste dürfen Markierungsoptionen nicht bearbeiten.';
 $string['nomorepostscontaining'] = 'Es wurden keine weiteren Beiträge mit \'$a\' gefunden.';
-$string['nonews'] = 'Es wurden bisher keine Neuigkeiten gepostet.';
-$string['nopostdiscussion'] = 'In dieser Diskussion können Sie keine Beiträge veröffentlichen';
-$string['nopostforum'] = 'In diesem Forum können Sie keine Beiträge veröffentlichen';
+$string['nonews'] = 'Es wurden bisher keine Nachrichten gepostet.';
 $string['noposts'] = 'Keine Beiträge';
 $string['nopostscontaining'] = 'Es wurden keine in \'$a\' enthaltenen Beiträge gefunden.';
 $string['noquestions'] = 'Derzeit gibt es noch keine Beiträge in diesem Forum.';
@@ -255,5 +256,7 @@ $string['youratedthis'] = 'Ihre Bewertung';
 $string['yournewquestion'] = 'Ihre neue Frage';
 $string['yournewtopic'] = 'Ihr neues Diskussionsthema';
 $string['yourreply'] = 'Ihre Antwort';
+$string['nopostdiscussion'] = 'In dieser Diskussion können Sie keine Beiträge veröffentlichen'; // ORPHANED
+$string['nopostforum'] = 'In diesem Forum können Sie keine Beiträge veröffentlichen'; // ORPHANED
 
 ?>

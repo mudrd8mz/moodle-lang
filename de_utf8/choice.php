@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.6.2+ (2006050521)
+      // choice.php - created with Moodle 1.8 Beta + (2007021400)
 
 
 $string['addmorechoices'] = 'Weitere Abstimmungen hinzufügen';
@@ -17,6 +17,7 @@ $string['choicetext'] = 'Fragestellung';
 $string['displayhorizontal'] = 'Horizontal anzeigen';
 $string['displaymode'] = 'Anzeigemodus';
 $string['displayvertical'] = 'Vertikal anzeigen';
+$string['fillinatleastoneoption'] = 'Sie müssen mindestens zwei Auswahloptionen zur Verfügung stellen.';
 $string['full'] = '(Vollständig)';
 $string['havetologin'] = 'Sie müssen sich erst anmelden, bevor Sie sich an der Abstimmung beteiligen können.';
 $string['limit'] = 'Limit';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 Beta (2007020200)
+      // calendar.php - created with Moodle 1.8 Beta + (2007021401)
 
 
 $string['advancedoptions'] = 'Erweiterte Optionen';
@@ -45,6 +45,7 @@ $string['expired'] = 'Abgeschlossen';
 $string['explain_lookahead'] = 'Mit dieser Einstellung legen Sie fest, wie weit im Voraus Termine angezeigt werden. Späterliegende Termine werden nicht angezeigt. Bitte beachten Sie: Es werden nur so viele Termine als bevorstehend angezeigt, wie Sie in der Einstellung \"Höchstzahl der bevorstehenden Termine\" festgelegt haben. Sie können also den Zeitraum, für den Termine angezeigt werden, und die Höchstzahl der in dieser Zeit dargestellten Termine festlegen.';
 $string['explain_maxevents'] = 'Diese Einstellung legt die Höchstzahl künftiger Termine fest, die angezeigt werden sollen. Wenn Sie hier eine große Zahl eingeben, wird die Anzeige der Termine möglicherweise viel Platz auf Ihrem Bildschirm beanspruchen.';
 $string['explain_persistflt'] = 'Wenn Sie diese Einstellung aktivieren, prüft Moodle bei jedem Login die Filtereinstellungen für Termine und aktualisiert sie.';
+$string['explain_site_timeformat'] = 'Sie können die Zeitangaben der gesamten Website im 12- oder 24-Stunden-Format angezeigt lassen. Wenn Sie die \"Grundeinstellung\" auswählen, dann wird das Zeitformat automatisch zur von Ihnen benutzen Sprache eingestellt. Die Einstellung kann im Nutzerprofil überschrieben werden.';
 $string['explain_startwday'] = 'Diese Einstellung legt die Art der Monatsdarstellung des Kalenders fest.';
 $string['explain_timeformat'] = 'Mit dieser Einstellung wählen Sie das Format der Zeitanzeige (12- oder 24-Stunden-Anzeige). Die Standardeinstellung übernimmt das Format der Zeitanzeige aus der Sprachversion, die Sie für Ihre Seite gewählt haben.';
 $string['export'] = 'Export';

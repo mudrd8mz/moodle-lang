@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8 Beta (2007020200)
+      // form.php - created with Moodle 1.8 Beta + (2007021400)
 
 
 $string['addfields'] = '$a Felder zum Formular hinzufügen';
@@ -21,7 +21,7 @@ $string['hideadvanced'] = 'Zusätzliche Felder verbergen';
 $string['hour'] = 'Stunde';
 $string['minute'] = 'Minute';
 $string['miscellaneoussettings'] = 'Verschiedene Einstellungen';
-$string['modstandardels'] = 'Brauchbare Modul-Einstellungen';
+$string['modstandardels'] = 'Weitere Modul-Einstellungen';
 $string['month'] = 'Monat';
 $string['nomethodforaddinghelpbutton'] = 'Es gibt keine Möglichkeit, einen Hilfebutton zum Formularelement $a->name (class $a->classname) hinzuzufügen.';
 $string['nonexistentformelements'] = 'Sie versuchen einen Hilfebutton zu einem nicht existierenden Formularelement hinzuzufügen: $a.';

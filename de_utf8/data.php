@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 dev (2007012500)
+      // data.php - created with Moodle 1.8 Beta + (2007021400)
 
 
 $string['action'] = 'Aktion';
@@ -201,6 +201,7 @@ $string['savesettings'] = 'Einstellungen speichern';
 $string['savesuccess'] = 'Erfolgreich gespeichert. Ihr Vorlagensatz wird ab sofort überall in dieser Installation nutzbar sein.';
 $string['savetemplate'] = 'Vorlage speichern';
 $string['sendinratings'] = 'Meine neuesten Bewertungen abschicken';
+$string['showall'] = 'Alle Einträge anzeigen';
 $string['single'] = 'Einzelansicht';
 $string['singletemplate'] = 'Vorlage für Einzelansicht';
 $string['teachersandstudents'] = '$a->Trainer/innen und $a->Teilnehmer/innen';

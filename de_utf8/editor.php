@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 dev (2007012500)
+      // editor.php - created with Moodle 1.8 Beta + (2007021401)
 
 
 $string['about'] = 'Über diesen Editor';
@@ -13,7 +13,7 @@ $string['anchorname'] = 'Name des Ankers';
 $string['anchors'] = 'Anker';
 $string['baseline'] = 'Grundlinie';
 $string['bold'] = 'Fett';
-$string['borderthickness'] = 'Dicke der Ränder';
+$string['borderthickness'] = 'Stärke der Ränder';
 $string['bottom'] = 'Ende';
 $string['browse'] = 'Durchsuchen';
 $string['cancel'] = 'Abbrechen';
@@ -50,7 +50,7 @@ $string['indent'] = 'Einzug vergrößern';
 $string['insertchar'] = 'Sonderzeichen einfügen';
 $string['insertimage'] = 'Bild einfügen / Bildparameter bearbeiten';
 $string['insertlink'] = 'Link einfügen';
-$string['insertsmile'] = 'Smiley einfügen';
+$string['insertsmile'] = 'Emoticon einfügen';
 $string['inserttable'] = 'Tabelle einfügen';
 $string['italic'] = 'Kursiv';
 $string['itemsreplaced'] = 'Werte ersetzt!';
@@ -83,7 +83,7 @@ $string['notimage'] = 'Die ausgewählte Datei ist kein Bild. Bitte wählen Sie e
 $string['notset'] = 'Nicht gesetzt';
 $string['ok'] = 'OK';
 $string['options'] = 'Optionen';
-$string['orderedlist'] = 'Liste sortiert';
+$string['orderedlist'] = 'Nummerierung';
 $string['outdent'] = 'Einzug verkleinern';
 $string['paste'] = 'Einfügen aus der Zwischenablage';
 $string['path'] = 'Pfad';
