@@ -3,7 +3,7 @@
 
 
 $string['blockname'] = 'Utilizadores activos';
-$string['configtimetosee'] = 'Número de minutos que determina o peródo de inactividade para que um utilizador deixe de ser considerado como activo.';
+$string['configtimetosee'] = 'Número de minutos que determina o período de inactividade para que um utilizador deixe de ser considerado como activo.';
 $string['periodnminutes'] = 'nos últimos $a minutos';
 
 ?>
