@@ -46,6 +46,7 @@ $string['frameifpossible'] = 'Afficher la ressource dans un cadre pour conserver
 $string['fulltext'] = 'Texte de la page';
 $string['htmlfragment'] = 'Fragment de code HTML';
 $string['imspackageloaded'] = 'Fichier IMS chargé';
+$string['keepnavigationvisible'] = 'Afficher la page de navigation sur la même page';
 $string['localfile'] = 'Fichier local';
 $string['localfilechoose'] = 'Choisir un fichier local (par exemple sur CD)';
 $string['localfileinfo'] = '<p>Choisir un fichier local sur votre ordinateur. Le fichier ne sera pas téléchargé sur le site web, mais Moodle cherchera le même fichier sur l\'ordinateur des utilisateurs désirant consulter la ressource.</p><p>Ceci est utile surtout si vous avez sur un CD-Rom de très gros fichiers que vous désirez distribuer aux participants. Chaque participant peut choisir lui-même le chemin d\'accès local de ces fichiers, en <a href=\"$a\" target=\"_blank\">modifiant son profil utilisateur</a>.</p>';
