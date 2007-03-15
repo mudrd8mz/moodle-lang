@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007021401)
+      // admin.php - created with Moodle 1.9 dev (2007021402)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -65,6 +65,7 @@ $string['configclamfailureonupload'] = 'アップロードファイルをclamが
 $string['configcountry'] = 'ここで国を設定した場合、新規アカウントのユーザにデフォルトとして選択されます。ユーザに国を選ばせる場合、設定しないままにしてください。';
 $string['configcoursemanager'] = 'ここでは、誰がコース説明に表示されるか設定することができます。ユーザがコースのコース説明に表示されるには、これらの中から少なくとも１つのロールを割り当ててください。';
 $string['configcoursesperpage'] = 'コース一覧の1ページあたりに表示するコース数を入力してください。';
+$string['configcreatornewroleid'] = 'このロールは、新しいコースを作成したコース作成者に自動的に割り当てられます。親コンテクストで必要なケイパビリティを持っている場合、このロールはコース作成者に割り当てられません。';
 $string['configcronclionly'] = 'この設定を有効にした場合、ウェブ経由の代わりに、cronスクリプトをコマンドラインのみで実行することができます。この設定は、下記のcronパスワード設定をオーバーライドします。';
 $string['configcronremotepassword'] = 'cronパスワードを設定した場合、下記の形式のURLを使用してcronパスワードを提供しない限り、ウェブブラウザからcron.phpを動作させることはできません。<pre>
 http://site.example.com/admin.cron.php?password=opensesame
@@ -204,6 +205,7 @@ $string['courseoverview'] = 'コース概要';
 $string['courserequests'] = 'コースリクエスト';
 $string['courses'] = 'コース';
 $string['coursesperpage'] = '1ページあたりのコース数';
+$string['creatornewroleid'] = '新しいコースにおけるコース作成者のロール';
 $string['cronclionly'] = 'コマンドラインのみでcronを実行する';
 $string['cronerrorclionly'] = '申し訳ございません、このページへのインターネットアクセスは、管理者より無効にされています。';
 $string['cronerrorpassword'] = '申し訳ございません、あなたはこのページへアクセスするための有効なパスワードを提供していません。';
