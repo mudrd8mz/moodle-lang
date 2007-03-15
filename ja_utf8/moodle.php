@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007021400)
+      // moodle.php - created with Moodle 1.9 dev (2007021500)
 
 
 $string['action'] = '操作';
@@ -457,7 +457,7 @@ $string['emailformat'] = 'メールフォーマット';
 $string['emailmustbereal'] = '注意：メールアドレスは実際に使えるアドレスを入力してください。';
 $string['emailnotallowed'] = 'これらのドメインのメールアドレスは許可されていません ($a)';
 $string['emailnotfound'] = 'データベース内にメールアドレスが見つかりませんでした。';
-$string['emailonlyallowed'] = 'このメールアドレスは許可されているメールアドレスに入っていません ($a)';
+$string['emailonlyallowed'] = 'このメールアドレスは許可されている次のドメインに入っていません ($a)';
 $string['emailpasswordchangeinfo'] = 'こんにちは $a->lastname さん
 
 誰か (おそらくあなた) が、「 $a->sitename 」 のアカウントで新しいパスワードの作成を請求しました。

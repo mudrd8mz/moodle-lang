@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007021400)
+      // auth.php - created with Moodle 1.9 dev (2007021500)
 
 
 $string['alternatelogin'] = 'ここにURLを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong> フィールドおよび <strong>password</strong> フィールドをMoodleに渡してください。<br />間違ったURLを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合、空白のままにしてください。';
@@ -81,7 +81,7 @@ $string['auth_dbuserstoremove'] = '削除するユーザエントリ: $a';
 $string['auth_emaildescription'] = 'メールによるアカウント確定はデフォルトの認証方法です。ユーザが新しいユーザ名とパスワードを選択してサインアップした場合、アカウント確定用メールがユーザのメールアドレスに送信されます。このメールにはユーザがアカウントを確定するためのリンクが記入されています。アカウント確定後のログインではMoodleデータベースに保存されているユーザ名とパスワードのみを確認します。';
 $string['auth_emailnoemail'] = 'あなたへのメール送信に失敗しました!';
 $string['auth_emailnoinsert'] = 'レコードをデータベースに追加できませんでした!';
-$string['auth_emailtitle'] = 'Emailベースの認証';
+$string['auth_emailtitle'] = 'Eメールによる自己登録';
 $string['auth_fcchangepasswordurl'] = 'パスワード変更のURL';
 $string['auth_fcconnfail'] = '接続に失敗しました。エラー番号: $a[0] エラーストリング: $a[1]';
 $string['auth_fccreators'] = 'メンバーがコースの作成を許可されているグループの一覧です。複数のグループは「;」で分けてください。グループ名はFirstClassサーバと厳密に同じ名前にしてください。システムは、大文字と小文字を区別します。';
