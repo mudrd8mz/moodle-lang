@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7+ (2006101007)
+      // error.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['adminprimarynoedit'] = '其他人不能修改主管理员信息';
@@ -46,6 +46,7 @@ $string['modulerequirementsnotmet'] = '模块“{$a->modulename}”($a->moduleve
 $string['mustbeteacher'] = '只有教师才能查看此页';
 $string['nocontext'] = '对不起，但是此课程不是有效的内容';
 $string['noinstances'] = '在本课程中没有{$a}。';
+$string['nologinas'] = '您不可以登录为此用户';
 $string['nonmeaningfulcontent'] = '无意义的内容';
 $string['noparticipatorycms'] = '很抱歉，您没有共享的课程模块来报告';
 $string['nopermissions'] = '对不起，您目前没有权限做($a)';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7+ (2006101007)
+      // moodle.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['action'] = '动作';
@@ -553,6 +553,7 @@ $string['forcepasswordchangenotice'] = '继续下去之前，您必须修改您�
 $string['forcetheme'] = '强制使用主题';
 $string['forgotaccount'] = '忘记了密码？';
 $string['forgotten'] = '忘了您的用户名或密码了?';
+$string['forgotteninvalidurl'] = '无效的重置密码链接';
 $string['format'] = '格式';
 $string['formathtml'] = 'HTML格式';
 $string['formatlams'] = 'LAMS课程格式';
@@ -760,6 +761,7 @@ $string['loginstepsnone'] = '<p>嗨! </p>
 $string['loginto'] = '登录到{$a}';
 $string['loginusing'] = '用您的用户名和密码在此登录';
 $string['logout'] = '登离';
+$string['logoutconfirm'] = '您真要注销吗？';
 $string['logs'] = '日志';
 $string['logtoomanycourses'] = '[<a href=\"{$a->url}\">更多</a>]';
 $string['logtoomanyusers'] = '[<a href=\"{$a->url}\">更多</a>]';
@@ -1277,7 +1279,7 @@ $string['themes'] = '主题风格';
 $string['themesaved'] = '新主题风格已保存';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
-$string['thislanguage'] = '&#31616;&#20307;&#20013;&#25991;';
+$string['thislanguage'] = '简体中文';
 $string['time'] = '时间';
 $string['timezone'] = '时区';
 $string['to'] = '到';

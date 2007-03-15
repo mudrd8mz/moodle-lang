@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7+ (2006101007)
+      // forum.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['addanewdiscussion'] = '添加一个新讨论话题';
@@ -130,6 +130,7 @@ $string['namesocial'] = '公众讨论区';
 $string['nameteacher'] = '教师讨论区';
 $string['newforumposts'] = '新贴子';
 $string['nodiscussions'] = '该讨论区尚无讨论话题';
+$string['nodiscussionsstartedby'] = '没有此用户发起的话题';
 $string['noguestpost'] = '抱歉，访客不允许发贴';
 $string['noguestsubscribe'] = '抱歉，系统不允许访客用email订阅讨论区的帖子。';
 $string['noguesttracking'] = '对不起，访客不能设定跟踪选项。';

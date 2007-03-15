@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7+ (2006101007)
+      // admin.php - created with Moodle 1.7.1+ (2006101010)
 
 
+$string['accessdenied'] = '访问被拒绝';
 $string['accounts'] = '帐户';
 $string['adminseesall'] = '管理员看到全部';
 $string['adminseesallevents'] = '管理员看到所有事件';
@@ -228,6 +229,8 @@ $string['enablestats'] = '允许统计';
 $string['enabletrusttext'] = '允许可信内容';
 $string['environment'] = '环境';
 $string['environmenterrortodo'] = '在继续安装此版本的 Moodle 前，您必需解决上面所列出的所有环境问题（错误）！';
+$string['environmenterrorupgrade'] = '警告：在升级此版本的Moodle之前，您应当解决上面列出的所有环境问题（错误）！不解决这些就直接升级的话可能造成严重问题，比如数据丢失。您确定要继续升级吗？';
+$string['environmentok'] = '您的服务器环境满足所有的最低需求。';
 $string['environmentrecommendinstall'] = '- 推荐安装/激活';
 $string['environmentrecommendversion'] = '推荐 {$a->needed} 版本，而您的是 {$a->current}';
 $string['environmentrequireinstall'] = '- 必需安装/激活';
