@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007021401)
+      // role.php - created with Moodle 1.9 dev (2007021402)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -81,8 +81,10 @@ $string['question:export'] = '問題をエクスポートする';
 $string['question:import'] = '問題をインポートする';
 $string['question:manage'] = '問題を管理する';
 $string['question:managecategory'] = '問題カテゴリを管理する';
+$string['resetrole'] = 'デフォルトにリセットする';
+$string['resetrolenolegacy'] = 'パーミッションをクリアする';
 $string['resetrolesure'] = '本当にロール「 $a->name ($a->shortname) 」をリセットしてもよろしいですか?</p>/p>選択されたレガシーケイパビリティ ($a->legacytype) よりデフォルトが取得されます。';
-$string['resetrolesurenolegacy'] = '本当にこのロール「 $a->name ($a->shortname) 」で定義されたすべてのパーミッションを削除してもよろしいですか?';
+$string['resetrolesurenolegacy'] = '本当にこのロール「 $a->name ($a->shortname) 」で定義されたすべてのパーミッションをクリアしてもよろしいですか?';
 $string['risks'] = 'リスク';
 $string['role:assign'] = 'ユーザにロールを割り当てる';
 $string['role:manage'] = 'ロールを作成および管理する';
