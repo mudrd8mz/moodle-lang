@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7.1+ (2006101010)
+      // quiz.php - created with Moodle 1.9 dev (2007021402)
 
 
 $string['1day'] = '1 giorno';
@@ -176,9 +176,6 @@ $string['event7'] = 'Invia';
 $string['event8'] = 'Chiudi';
 $string['event9'] = 'Valutazione manuale';
 $string['examview'] = 'Vista esame';
-$string['existingcategory1'] = 'Un letterale da un insieme di letterali esistenti è stato usato anche da altre domande in questa categoria';
-$string['existingcategory2'] = 'Un file da un insieme di file esistenti è stato  usato anche da altre domande in questa categoria';
-$string['existingcategory3'] = 'Un collegamento da un insieme di collegamenti esistenti è stato usato anche da altre domande in questa categoria';
 $string['export'] = 'Esporta';
 $string['exporterror'] = 'Un errore si è verificato durante il processo di esportazione';
 $string['exportfilename'] = 'quiz';
@@ -257,12 +254,6 @@ $string['itemdefinition'] = 'Definizione';
 $string['itemsource'] = 'Sorgente dell\'elemento';
 $string['itemsourceformat'] = 'Formato del sorgente dell\'elemento';
 $string['itemtypes'] = 'Tipi di domande';
-$string['keptcategory1'] = 'una lettera dall\'insieme delle lettere riutilizzabili della stessa categoria di prima';
-$string['keptcategory2'] = 'un file dall\'insieme dei files riutilizzabili della stessa categoria di prima';
-$string['keptcategory3'] = 'un link dall\'insieme dei links riutilizzabili della stessa categoria di prima';
-$string['keptlocal1'] = 'una lettera dall\'insieme delle lettere private della stessa domanda di prima';
-$string['keptlocal2'] = 'un file dall\'insieme dei files privati della stessa domanda di prima';
-$string['keptlocal3'] = 'un link dall\'insieme dei links privati della stessa domanda di prima';
 $string['lastanswer'] = 'La tua ultima risposta è stata';
 $string['learnwise'] = 'Learnwise';
 $string['link'] = 'Collegamento';
@@ -302,12 +293,6 @@ $string['multipleanswers'] = 'Scegliere almeno una risposta.';
 $string['multiplier'] = 'Moltiplicatore';
 $string['name'] = 'Nome';
 $string['newattemptfail'] = 'Errore: Un nuovo tentativo del quiz non può iniziare';
-$string['newcategory1'] = 'una lettera da un nuovo insieme di lettere che può essere usata anche da altre domande in questa categoria';
-$string['newcategory2'] = 'un file da un nuovo insieme di files che può essere usato anche da altre domande in questa categoria';
-$string['newcategory3'] = 'un link da un nuovo insieme di links che può essere usato anche da altre domande in questa categoria';
-$string['newlocal1'] = 'una lettera da un nuovo insieme di lettere che sarà  usata solo da questa domanda';
-$string['newlocal2'] = 'un file da un nuovo insieme di files che sarà  usato solo da questa domanda';
-$string['newlocal3'] = 'un link da un nuovo insieme di links che sarà  usato solo da questa domanda';
 $string['noanswers'] = 'Non è stata selezionata nessuna risposta!';
 $string['noattempts'] = 'Nessun tentativo è stato fatto per questo quiz';
 $string['noattemptstoshow'] = 'Non ci sono tentativi da mostrare';
@@ -340,7 +325,7 @@ $string['numerical'] = 'Numerica';
 $string['onlyteachersexport'] = 'Solo i docenti possono esportare domande';
 $string['onlyteachersimport'] = 'Solo i docenti con diritto di modifica possono importare domande';
 $string['optional'] = 'opzionale';
-$string['outof'] = 'su un massimo di';
+$string['outof'] = '$a->grade su un massimo di $a->maxgrade';
 $string['overallfeedback'] = 'Feedback generico';
 $string['overdue'] = 'In ritardo';
 $string['pagesize'] = 'Tentativi mostrati per pagina:';
@@ -543,5 +528,20 @@ $string['xml'] = 'Moodle XML';
 $string['xmltypeunsupported'] = 'Tipo domanda $a non supportata dall\'import xml';
 $string['yourfinalgradeis'] = 'Il tuo voto finale per questo quiz è: $a';
 $string['zerosignificantfiguresnotallowed'] = 'La risposta giusta non può avere zero cifre significative!';
+$string['existingcategory1'] = 'Un letterale da un insieme di letterali esistenti è stato usato anche da altre domande in questa categoria'; // ORPHANED
+$string['existingcategory2'] = 'Un file da un insieme di file esistenti è stato  usato anche da altre domande in questa categoria'; // ORPHANED
+$string['existingcategory3'] = 'Un collegamento da un insieme di collegamenti esistenti è stato usato anche da altre domande in questa categoria'; // ORPHANED
+$string['keptcategory1'] = 'una lettera dall\'insieme delle lettere riutilizzabili della stessa categoria di prima'; // ORPHANED
+$string['keptcategory2'] = 'un file dall\'insieme dei files riutilizzabili della stessa categoria di prima'; // ORPHANED
+$string['keptcategory3'] = 'un link dall\'insieme dei links riutilizzabili della stessa categoria di prima'; // ORPHANED
+$string['keptlocal1'] = 'una lettera dall\'insieme delle lettere private della stessa domanda di prima'; // ORPHANED
+$string['keptlocal2'] = 'un file dall\'insieme dei files privati della stessa domanda di prima'; // ORPHANED
+$string['keptlocal3'] = 'un link dall\'insieme dei links privati della stessa domanda di prima'; // ORPHANED
+$string['newcategory1'] = 'una lettera da un nuovo insieme di lettere che può essere usata anche da altre domande in questa categoria'; // ORPHANED
+$string['newcategory2'] = 'un file da un nuovo insieme di files che può essere usato anche da altre domande in questa categoria'; // ORPHANED
+$string['newcategory3'] = 'un link da un nuovo insieme di links che può essere usato anche da altre domande in questa categoria'; // ORPHANED
+$string['newlocal1'] = 'una lettera da un nuovo insieme di lettere che sarà  usata solo da questa domanda'; // ORPHANED
+$string['newlocal2'] = 'un file da un nuovo insieme di files che sarà  usato solo da questa domanda'; // ORPHANED
+$string['newlocal3'] = 'un link da un nuovo insieme di links che sarà  usato solo da questa domanda'; // ORPHANED
 
 ?>
