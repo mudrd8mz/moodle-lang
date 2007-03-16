@@ -418,7 +418,7 @@ $string['stickyblockscourseview'] = 'Página da Disciplina';
 $string['stickyblocksduplicatenotice'] = 'Se qualquer bloco que aqui adicione já estiver presente em alguma página em particular, irá resultar numa duplicação.<br />Apenas o bloco que for fixado não será editável, O duplicado continuará a ser editável.';
 $string['stickyblocksmymoodle'] = 'O meu Moodle';
 $string['stickyblockspagetype'] = 'Tipo de página a configurar';
-$string['systempaths'] = 'Tipo de página a configurar';
+$string['systempaths'] = 'Programas auxiliares';
 $string['tabselectedtofront'] = 'Em tabelas com separadores, deverão as linhas com o separador seleccionado ser colocadas à frente';
 $string['tabselectedtofronttext'] = 'Trazer a linha do separador seleccionado para a frente';
 $string['themelist'] = 'Lista de temas';
@@ -445,7 +445,7 @@ $string['upgradeforumreadinfo'] = 'Foi adicionada uma nova característica ao Mo
 $string['upgradelogs'] = 'Para ter todas as funcionalidades, as suas antigas estatísticas de acesso deverão ser actualizadas. <a href=\"$a\">Mais informação</a>';
 $string['upgradelogsinfo'] = 'Foram feitas algumas alterações à forma como se armazenam as estatísticas de acesso. Para conseguir consultar as suas antigas estatísticas de acesso, estas deverão ser actualizadas. A depender do seu sítio, isso pode demorar bastante (até algumas horas) e pode ser bastante limitante para bases de dados em sítios muito grandes. Uma vez começado este processo deverá deixá-lo terminar (mantendo a janela do navegador aberta). Não se preocupe - o seu sítio continuará a trabalhar bem para outras pessoas enquanto as estatísticas são actualizadas.<br/><br/>Quer actualizar as suas estatísticas agora?';
 $string['upgradesettings'] = 'Novas configurações';
-$string['upgradesettingsintro'] = 'As configurações que se mostram a seguir foram usadas na sua última actualização do Moodle. Faça as modificações que achar necessárias aos valores padrão e quando terminar clique no botão &quot;Gravar configurações&quot; no fim da página.';
+$string['upgradesettingsintro'] = 'As configurações que se mostram a seguir foram usadas na sua última actualização do Moodle. Faça as modificações que achar necessárias aos valores padrão e quando terminar clique no botão \"Gravar configurações\" no fim da página.';
 $string['upgradesure'] = 'Os seus ficheiros Moodle foram alterados, e está prestes a fazer a actualização do seu servidor para esta versão: <br /><br />
 <strong>$a</strong> <br /><br />
 Assim que fizer isto já não poderá voltar atrás. <br /><br />

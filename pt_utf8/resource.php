@@ -1,14 +1,17 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6.2 (2006050521)
+      // resource.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['addresource'] = 'Adicionar documento';
+$string['affectedresources'] = 'Recursos afectados';
 $string['back'] = 'Retroceder';
 $string['browserepository'] = 'Ver o repositório';
 $string['choose'] = 'Escolher';
 $string['chooseafile'] = 'Escolha ou envie um ficheiro';
 $string['chooseparameter'] = 'Escolha parâmetro';
 $string['configallowlocalfiles'] = 'Na criação de recursos de ficheiros, permitir apontadores para ficheiros no sistema local de ficheiros, por exemplo, num drive de CD ou no disco rígido. Isto pode ser útil numa sala de aulas onde todos os alunos têm acesso a um drive partilhado, ou quando for preciso aceder a um ficheiro contido num CD. A utilização dessa opção poderá precisar de algumas alterações às configurações de segurança do seu navegador.';
+$string['configautofilerenamesettings'] = 'Actualizar automaticamente referências a ficheiros e directórios, quando o seu nome mudar na secção de ficheiros.';
+$string['configblockdeletingfilesettings'] = 'Não permitir apagar ficheiros e directórios que sejam referidos nos recursos. Por favor repare que as figuras e outros ficheiros referidos dentro duma página html não ficarão protegidos.';
 $string['configdefaulturl'] = 'Este valor usa-se como valor inicial para o campo URL no formulário de criação de documentos baseados em URLs.';
 $string['configfilterexternalpages'] = 'Se activar esta configuração, todos os documentos externos (páginas web, ficheiros HTML enviados) serão processados pelos filtros que estiverem activos no momento (por exemplo o filtro que sublinha palavras do glossário). Essa configuração poderá tornar as páginas das suas disciplinas muito mais lentas, pelo qual deveria usar esta opção unicamente se achar que é absolutamente necessária.';
 $string['configframesize'] = 'Quando uma página web ou um ficheiro enviado é visualizado num frame, este valor é o tamanho (em pixeis) do frame de cima (onde se encontra o sistema de navegação).';
@@ -89,6 +92,7 @@ $string['preview'] = 'Vista preliminar';
 $string['previous'] = 'Prévio';
 $string['redeploy'] = 'Incorporar novamente';
 $string['repository'] = 'Repositório IMS';
+$string['resource:view'] = 'Ver recurso';
 $string['resourcetype'] = 'Tipo de documento';
 $string['resourcetype1'] = 'Referência';
 $string['resourcetype2'] = 'Página da Web';
@@ -115,5 +119,7 @@ $string['upbutton'] = 'Para cima';
 $string['variablename'] = 'Nome de variável';
 $string['viewims'] = 'Ver pacote IMS de conteúdos';
 $string['vol'] = 'Vol.';
+$string['warningblockingdelete'] = 'Advertência: A operação de apagar está encontra-se bloqueada por algum recurso existente. Terá que actualizar primeiro os seus recursos ou pedir ao administrador para desactivar este mecanismo de segurança na configuração global dos recursos.';
+$string['warningdisabledrename'] = 'Advertência: A mudança automática dos nomes dos ficheiros referidos pelos recursos não está activada. Por favor actualize os recursos afectados em forma manual, se for preciso. O administrador também poderá activar a actualização automática dos recursos afectados, na configuração global dos recursos.';
 
 ?>
