@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8 Beta (2007020400)
+      // lesson.php - created with Moodle 1.9 dev (2007021500)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -24,7 +24,7 @@ $string['and'] = 'AND';
 $string['answer'] = '答え/選択肢';
 $string['answeredcorrectly'] = '正しく解答されました。';
 $string['answersfornumerical'] = '数字問題に対する解答は最大値および最小値の範囲内に入る必要があります。';
-$string['arrangebuttonshorizontally'] = 'スライドショーモードでブランチボタンを水平に配置しますか?';
+$string['arrangebuttonshorizontally'] = 'ブランチボタンを水平に配置しますか?';
 $string['attempt'] = '受験: $a';
 $string['attempts'] = '受験';
 $string['attemptsdeleted'] = '受験結果が削除されました。';
@@ -80,7 +80,7 @@ $string['displayofgrade'] = '評点を表示する (学生のみ)';
 $string['displayreview'] = 'レビューボタンを表示する';
 $string['displayscorewithessays'] = '自動評定によるあなたの評点は、$a->tempmaxgrade 点中 $a->score 点です。<br />作文問題 $a->essayquestions は評定され、後日あなたの最終評点に追加されます。<br /><br />作文問題を除くあなたの現在の評点は、$a->grade 点中 $a->score 点です。';
 $string['displayscorewithoutessays'] = 'あなたの評点は、 $a->score ($a->grade 点中)です。';
-$string['editlesson'] = '$a の編集';
+$string['edit'] = '編集';
 $string['editlessonsettings'] = 'レッスンの更新';
 $string['editpagecontent'] = 'ページコンテンツの編集';
 $string['email'] = 'メール';
@@ -302,5 +302,6 @@ $string['youranswer'] = 'あなたの答え';
 $string['yourcurrentgradeis'] = '現在の評点は $a です。';
 $string['yourcurrentgradeisoutof'] = '現在の評点は $a->total 点中 $a->grade 点です。';
 $string['youshouldview'] = '少なくとも $a 回解答してください。';
+$string['editlesson'] = '$a の編集'; // ORPHANED
 
 ?>
