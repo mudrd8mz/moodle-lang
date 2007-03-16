@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 Beta (2007020400)
+      // quiz.php - created with Moodle 1.9 dev (2007021402)
 
 
 $string['1day'] = '1 dag';
@@ -178,9 +178,6 @@ $string['event7'] = 'Bewaar';
 $string['event8'] = 'Sluit';
 $string['event9'] = 'Manueel cijfers geven';
 $string['examview'] = 'Examview';
-$string['existingcategory1'] = 'een jokerteken van een bestaande reeks jokertekens die ook door andere vragen in deze categorie gebruikt worden';
-$string['existingcategory2'] = 'een bestand van een bestaande set bestanden die ook door andere vragen in deze categorie gebruikt worden';
-$string['existingcategory3'] = 'een link van een bestaande set links die ook door andere vragen in deze categorie gebruikt worden';
 $string['export'] = 'Exporteer';
 $string['exporterror'] = 'Er is een fout opgetreden tijdens het verwerken van de export';
 $string['exportfilename'] = 'quiz';
@@ -597,7 +594,7 @@ Grade
 event3 	
 Validate
 event5 	
-Close&amp;Grade
+Close&Grade
 event6 	
 Submit
 event7 	
@@ -747,12 +744,6 @@ $string['itemdefinition'] = 'Definitie';
 $string['itemsource'] = 'Item bron';
 $string['itemsourceformat'] = 'Item-bron-opmaak';
 $string['itemtypes'] = 'Vraagtypes';
-$string['keptcategory1'] = 'een jokerteken uit dezelfde categorie met herbruikbare reeksen jokertekens als hiervoor';
-$string['keptcategory2'] = 'een bestand uit dezelfde categorie met herbruikbare reeksen bestanden als hiervoor';
-$string['keptcategory3'] = 'een link uit dezelfde categorie met herbruikbare reeksen links als hiervoor';
-$string['keptlocal1'] = 'een jokerteken uit dezelfde reeks privéjokertekens als hiervoor';
-$string['keptlocal2'] = 'een bestand uit dezelfde reeks privébestanden als hiervoor';
-$string['keptlocal3'] = 'een link uit dezelfde reeks privélinks als hiervoor';
 $string['lastanswer'] = 'Je laatste antwoord was';
 $string['learnwise'] = 'Learnwise-opmaak';
 $string['link'] = 'Link';
@@ -792,12 +783,6 @@ $string['multipleanswers'] = 'Kies minstens één antwoord';
 $string['multiplier'] = 'Factor';
 $string['name'] = 'Naam';
 $string['newattemptfail'] = 'Fout: kon geen nieuwe poging voor de test starten';
-$string['newcategory1'] = 'een jokerteken uit een nieuwe reeks jokertekens die ook door andere vragen in deze categorie gebruikt mogen worden';
-$string['newcategory2'] = 'een bestand uit een nieuwe set bestanden die ook door andere vragen in deze categorie gebruikt mogen worden';
-$string['newcategory3'] = 'een link uit een nieuwe set links die ook door andere vragen in deze categorie gebruikt mogen worden';
-$string['newlocal1'] = 'een jokerteken uit een nieuwe set jokertekens die alleen door deze vraag gebruikt mogen worden';
-$string['newlocal2'] = 'een bestand uit een nieuwe set bestanden die alleen door deze vraag gebruikt mogen worden';
-$string['newlocal3'] = 'een link uit een nieuwe set links die alleen door deze vraag gebruikt mogen worden';
 $string['noanswers'] = 'Er zijn geen antwoorden geselecteerd!';
 $string['noattempts'] = 'Er zijn geen pogingen geweest om deze test te maken';
 $string['noattemptstoshow'] = 'Er zijn nog geen pogingen om te tonen';
@@ -825,7 +810,7 @@ $string['notenoughanswers'] = 'Voor dit type vraag zijn minstens $a antwoorden n
 $string['notenoughsubquestions'] = 'Er zijn onvoldoende deelvragen gedefinieerd!<br />Wil je teruggaan en deze vraag herstellen?';
 $string['notimedependentitems'] = 'Tijdsafhankelijke items worden op dit ogenblik niet ondersteund door de testmodule. Als oplossing kun je de tijdslimiet voor de hele test instellen. Wil je een ander item kiezen (of desalnietemin dit item gebruiken)?';
 $string['numattempts'] = '$a->studentnum 
-$a->studentstring heeft 
+$a->studentstring hebben 
 $a->attemptnum pogingen gedaan';
 $string['numberabbr'] = '#';
 $string['numerical'] = 'Numeriek';
@@ -1037,5 +1022,20 @@ $string['xml'] = 'Moodle XML-formaat';
 $string['xmltypeunsupported'] = 'Vraagtype $a wordt niet ondersteund door XML-import';
 $string['yourfinalgradeis'] = 'Je eindcijfer voor deze test is $a';
 $string['zerosignificantfiguresnotallowed'] = 'Het juiste antwoord kan geen nul beduidende cijfers hebben!';
+$string['existingcategory1'] = 'een jokerteken van een bestaande reeks jokertekens die ook door andere vragen in deze categorie gebruikt worden'; // ORPHANED
+$string['existingcategory2'] = 'een bestand van een bestaande set bestanden die ook door andere vragen in deze categorie gebruikt worden'; // ORPHANED
+$string['existingcategory3'] = 'een link van een bestaande set links die ook door andere vragen in deze categorie gebruikt worden'; // ORPHANED
+$string['keptcategory1'] = 'een jokerteken uit dezelfde categorie met herbruikbare reeksen jokertekens als hiervoor'; // ORPHANED
+$string['keptcategory2'] = 'een bestand uit dezelfde categorie met herbruikbare reeksen bestanden als hiervoor'; // ORPHANED
+$string['keptcategory3'] = 'een link uit dezelfde categorie met herbruikbare reeksen links als hiervoor'; // ORPHANED
+$string['keptlocal1'] = 'een jokerteken uit dezelfde reeks privéjokertekens als hiervoor'; // ORPHANED
+$string['keptlocal2'] = 'een bestand uit dezelfde reeks privébestanden als hiervoor'; // ORPHANED
+$string['keptlocal3'] = 'een link uit dezelfde reeks privélinks als hiervoor'; // ORPHANED
+$string['newcategory1'] = 'een jokerteken uit een nieuwe reeks jokertekens die ook door andere vragen in deze categorie gebruikt mogen worden'; // ORPHANED
+$string['newcategory2'] = 'een bestand uit een nieuwe set bestanden die ook door andere vragen in deze categorie gebruikt mogen worden'; // ORPHANED
+$string['newcategory3'] = 'een link uit een nieuwe set links die ook door andere vragen in deze categorie gebruikt mogen worden'; // ORPHANED
+$string['newlocal1'] = 'een jokerteken uit een nieuwe set jokertekens die alleen door deze vraag gebruikt mogen worden'; // ORPHANED
+$string['newlocal2'] = 'een bestand uit een nieuwe set bestanden die alleen door deze vraag gebruikt mogen worden'; // ORPHANED
+$string['newlocal3'] = 'een link uit een nieuwe set links die alleen door deze vraag gebruikt mogen worden'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007021400)
+      // admin.php - created with Moodle 1.9 dev (2007021402)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -142,7 +142,7 @@ $string['confignotifyloginfailures'] = 'Als er mislukte aanmeldingen gelogd word
 $string['confignotifyloginthreshold'] = 'Als notificaties over mislukte aanmeldingen verzonden moeten worden, hoeveel aanmeldingspogingen  door één gebruiker of vanaf één IP-adres zijn het melden waard?';
 $string['confignotloggedinroleid'] = 'Gebruikers die niet aangemeld zijn bij de site zullen behandeld worden alsof ze binnen de site deze rol gekregen hebben.
 Gast is meestal wat je hier wil, maar het is mogelijlk dat je hier een rol wil creëren die meer of minder beperkend is. Zaken zoals het posten van berichten zullen altijd vereisen dat de gebruiker met een account is aangemeld.';
-$string['configopentogoogle'] = 'Als je deze instelling inschakelt, dan zal Google als gast toegelaten worden tot je site. Mensen die jouw site binnenkomen via Goodle zullen automatisch als gast aangemeld zijn. Merk op dat dit alleen toegang zal geven tot cursussen waar toegang voor gasten toegelaten is.';
+$string['configopentogoogle'] = 'Als je deze instelling inschakelt, dan zal Google als gast toegelaten worden tot je site. Mensen die jouw site binnenkomen via Google zullen automatisch als gast aangemeld zijn. Merk op dat dit alleen toegang zal geven tot cursussen waar toegang voor gasten toegelaten is.';
 $string['configpathtoclam'] = 'Pad naar clam AV. Gewoonlijk iets als /usr/bin/clamscan of /usr/bin/clamdscan. Je hebt dit nodig om clam AV te laten lopen.';
 $string['configpathtodu'] = 'Pad naar du. Waarschijnlijk iets als /usr/bin/du. Als je dit invult, dan zullen pagina\'s die mapinhoud tonen veel sneller openen bij mappen met veel bestanden in.';
 $string['configperfdebug'] = 'Als je dit inschakelt wordt er informatie over de performantie getoond onderaan de pagina. Je moet hiervoor het standaard thema gebruiken.';
