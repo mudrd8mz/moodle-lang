@@ -68,13 +68,13 @@ $string['directorysettings'] = '<p>Prosím, potvrďte umiestnenie inštalácie M
 <p><b>Adresár Moodle:</b> Špecifikujte celú cestu k adresáru a tejto inštalácii. Ubezpečte sa, že ste korektne použili veľké a malé písmená.</p>
 
 <p><b>Adresár pre údaje:</b> Potrebujete miesto, kde Moodle bude ukladať prenášané súbory. Tento adresár by mal byť používaťeľovi webového servera prístupný aj na čítanie, aj na ZAPISOVANIE (zvyčajne \'nobody\' alebo \'apache\'), ale nemalo by sa dať k nemu pristupovať priamo z webu.</p>';
-$string['directorysettingshead'] = 'Potvrďte prosím adresy této inštalace Moodle.';
+$string['directorysettingshead'] = 'Potvrďte prosím adresy tejto inštalácie Moodle.';
 $string['directorysettingssub'] = '<b>Webová adresa</b>:
 zadajte úplnu webovú adresu, na ktorej bude Moodle dostupný. Ak sú vaše stránky dostupné na viacerých URL, vyberte z nich tú, ktorú budú vaši študenti používať nejčastejšie. Na konci adresy nepíšte lomítko.
 <br />
 <br />
 <b>Adresár Moodle</b>:
-zadajte úplnu cestu k adresáru s touto inštaláciou. Uistite sa, že sú v nej správne uvedené malé/VEĽKÁ písmená.
+zadajte úplnu cestu k adresáru s touto inštaláciou. Uistite sa, že sú v nej správne uvedené malé/VEĽKÉ písmená.
 <br />
 <br />
 <b>Datový adresár</b>:
