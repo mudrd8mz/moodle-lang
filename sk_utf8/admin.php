@@ -195,7 +195,7 @@ $string['cronerrorclionly'] = 'Ľutujem. Prístup na túto stránku z webového 
 $string['cronerrorpassword'] = 'Ľutujem. Pre prístup na túto stránku musíte použiť platné heslo.';
 $string['cronremotepassword'] = 'Heslo pre spustenia cronu';
 $string['cronwarning'] = '<a href=\"cron.php\" title=\"cron.php\">Skript pre údržbu cron.php?</a> nebol spustený najmenej 24 hodín.';
-$string['curlrecommended'] = 'Pre beh sieťových funkcionalít (\"Moodle Networking\") je potřebné nainštalovať voliteľnú knižnicu Curl.';
+$string['curlrecommended'] = 'Pre beh sieťových funkcionalít (\"Moodle Networking\") je treba nainštalovať voliteľnú knižnicu Curl.';
 $string['datarootsecuritywarning'] = 'Vaša inštalácia Moodle nemusí byť bezpečná. Prosím zabezpečte, aby váš dátový adresár ($a) nie je priamo dostupný z webu';
 $string['dbmigrate'] = 'Migrácie databázy Moodle';
 $string['dbmigrateconnecerror'] = 'K zvolenej databázi sa nepodarilo pripojiť.';
