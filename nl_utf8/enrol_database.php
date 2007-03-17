@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.6 development (2006031600)
+      // enrol_database.php - created with Moodle 1.9 dev (2007021402)
 
 
 $string['autocreate'] = 'Cursussen kunnen automatisch aangemaakt worden als er aanmeldingen zijn voor een cursus die in Moodle nog niet bestaat';
@@ -9,11 +9,18 @@ $string['course_fullname'] = 'De veldnaam waar de volledige cursusnaam is bewaar
 $string['course_id'] = 'De veldnaam waar de courseID is bewaard. De waarden van dit veld worden gebruikt om de koppeling te maken met het \"enrol_db_l_coursefield\" veld in de course tabel van Moodle';
 $string['course_shortname'] = 'De veldnaam waar de korte cursusnaam is bewaard';
 $string['course_table'] = 'De tabelnaam waar de cursusdetails bewaard worden (short name, fullname, ID enz)';
+$string['dbhost'] = 'Server IP naam of nummer';
+$string['dbname'] = 'Databanknaam';
+$string['dbpass'] = 'Serverwachtwoord';
+$string['dbtable'] = 'Databanktabel';
+$string['dbtype'] = 'Databanktype';
+$string['dbuser'] = 'Server gebruikersnaam';
+$string['defaultcourseroleid'] = 'De rol die standaard toegewezen wordt als er geen andere rol is opgegeven.';
 $string['description'] = 'Je kunt een externe datatabank (nagenoeg elk type) gebruiken om je cursusaanmeldingen te controleren. Er wordt verondersteld dat je externe databank een veld met course ID bevat en een veld met user ID. Deze worden vergeleken met velden die je kiest in de lokale cursus- en gebruikerstabellen';
+$string['enrol_database_autocreation_settings'] = 'Automatisch aanmaken van nieuwe cursussen';
 $string['enrolname'] = 'Externe databank';
 $string['general_options'] = 'Algemene instellingen';
 $string['host'] = 'Database server hostnaam';
-$string['local_coursefield'] = 'De naam van het veld in de course tabel die we gebruiken om records te koppelen met de externe databank (bv idnummer)';
 $string['local_fields_mapping'] = 'Locale databankvelden van Moodle';
 $string['name'] = 'De te gebruiken databank';
 $string['pass'] = 'Wachtwoord om toegang tot de server te krijgen';
@@ -30,5 +37,6 @@ $string['teacher_table'] = 'De tabelnaam waar de aanmeldingen van leraren worden
 $string['template'] = 'Optioneel: automatisch aangemaakte cursussen kunnen hun instellingen overnemen van een sjablooncursus';
 $string['type'] = 'Databank type';
 $string['user'] = 'Gebruikersnaam voor de databank';
+$string['local_coursefield'] = 'De naam van het veld in de course tabel die we gebruiken om records te koppelen met de externe databank (bv idnummer)'; // ORPHANED
 
 ?>

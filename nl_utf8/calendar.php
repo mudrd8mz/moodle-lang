@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 dev (2007012500)
+      // calendar.php - created with Moodle 1.9 dev (2007021402)
 
 
 $string['advancedoptions'] = 'Geavanceerde opties';
@@ -45,6 +45,7 @@ $string['expired'] = 'Verloopt';
 $string['explain_lookahead'] = 'Met deze instelling stel je het (maximum) aantal dagen in de toekomst in dat een activiteit moet starten om weergegeven te worden in het blok \"Binnenkort\". Activiteiten die later dan dat aantal dagen zullen gebeuren, worden niet getoond bij \"Binnenkort\". Merk op dat <strong> er geen garantie is </strong> dat alle activiteiten in dit tijdskader getoond zullen worden; als er teveel zijn (meer dan de instelling \"maximumaantal getoonde activiteiten \") dan zullen de activiteiten die het verst in de toekomst liggen niet getoond worden.';
 $string['explain_maxevents'] = 'Deze instelling stelt het maximumaantal activiteiten dat getoond kan worden in het blok \"Binnenkort\". Als je hier een groot getal ingeeft, dan is het mogelijk dat het blok \"Binnenkort\" een groot deel van je scherm zal innemen.';
 $string['explain_persistflt'] = 'Als deze optie ingeschakeld is, dan zal Moodle je laatste gebeurtenisfilter opslaan en die telkens wanneer je je aanmeldt automatisch gebruiken.';
+$string['explain_site_timeformat'] = 'Om de tijd af te lezen, kun je kiezen tussen 12 of 24 uursformaat. Als je voor \"standaard\" kiest, dan zal het formaat automatisch gekozen worden op basis van de taal die je gebruikt op deze site. Deze instelling kan aangepast worden volgens de wensen van de gebruiker.';
 $string['explain_startwday'] = 'Een kalenderweek zal starten op de dag die je hier kiest.';
 $string['explain_timeformat'] = 'Je kunt kiezen of de tijd in 12- of 24-uurformaat wordt weergegeven. Als je voor de standaardinstelling kiest, dan zal het formaat automatisch gekozen worden volgens de taal die je gebruikt op je site.';
 $string['export'] = 'Exporteer';

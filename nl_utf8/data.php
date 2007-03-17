@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 dev (2007012500)
+      // data.php - created with Moodle 1.9 dev (2007021402)
 
 
 $string['action'] = 'Actie';
@@ -8,11 +8,13 @@ $string['addafield'] = 'Voeg een veld toe';
 $string['addcomment'] = 'Voeg commentaar toe';
 $string['addentries'] = 'Items goedkeuren';
 $string['addtemplate'] = 'Item toevoegen';
+$string['advancedsearch'] = 'Geavanceerd zoeken';
 $string['allowcomments'] = 'Commentaar geven toelaten?';
 $string['allowratings'] = 'Berichten laten beoordelen?';
 $string['alttext'] = 'Alternatieve tekst';
 $string['approve'] = 'Goedkeuren';
 $string['ascending'] = 'Oplopend';
+$string['asearchtemplate'] = 'Sjabloon voor geavanceerd zoeken';
 $string['atmaxentry'] = 'Je hebt het maximum aantal items ingevoegd';
 $string['autogenallforms'] = 'Genereer alle standaardsjablonen';
 $string['autolinkurl'] = 'Maak automatisch links van URL\'s';
@@ -102,6 +104,7 @@ $string['forcelinkname'] = 'Geforceerde naam voor de link';
 $string['fromfile'] = 'Van zip-bestand';
 $string['header'] = 'Koptekst';
 $string['headeraddtemplate'] = 'Definieer de interface voor het vullen van de databank';
+$string['headerasearchtemplate'] = 'Definieert de interface voor geavanceerd zoeken';
 $string['headercsstemplate'] = 'Definieer locale CSS-stijlen voor de andere sjablonen';
 $string['headerjstemplate'] = 'Definieerd eigen Javascript voor de andere sjablonen';
 $string['headerlisttemplate'] = 'Definieer de interface voor het bladeren door meerdere items';
@@ -186,6 +189,7 @@ $string['recordssaved'] = 'record(s) bewaard';
 $string['requireapproval'] = 'Goedkeuring nodig?';
 $string['requiredentries'] = 'Vereiste items';
 $string['requiredentriestoview'] = 'Items vereist voor bekijken';
+$string['resetsettings'] = 'Reset velden';
 $string['resettemplate'] = 'Reset sjabloon';
 $string['resizingimages'] = 'Tumbnails van afbeeldingen herschalen';
 $string['rows'] = 'rijen';
@@ -201,6 +205,7 @@ $string['savesettings'] = 'Bewaar instellingen';
 $string['savesuccess'] = 'Bewaren gelukt. Je sjabloonset zal nu voor de hele site beschikbaar zijn.';
 $string['savetemplate'] = 'Bewaar sjabloon';
 $string['sendinratings'] = 'Stuur mijn laatste beoordelingen in';
+$string['showall'] = 'Toon alles';
 $string['single'] = 'Itemweergave';
 $string['singletemplate'] = 'Itemweergave';
 $string['teachersandstudents'] = '$a->teachers en $a->students';

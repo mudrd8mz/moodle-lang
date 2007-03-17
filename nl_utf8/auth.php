@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007021400)
+      // auth.php - created with Moodle 1.9 dev (2007021402)
 
 
 $string['alternatelogin'] = 'Als je hier een URL ingeeft, dan zal die dienen als loginpagina voor deze site. De pagina moet een formulier bevatten met de actie ingesteld op <strong>\'$a\'</strong> en die de velden <strong>username</strong> en <strong>password</strong> teruggeeft.<br />Let er op dat je een juiste URL ingeeft. Zoniet sluit je jezelf uit de site.<br />Laat deze instelling leeg als je de standaard loginpagina wil gebruiken.';
@@ -59,9 +59,12 @@ $string['auth_dbpass'] = 'Wachtwoord dat bij de bovengenoemde gebruikersnaam pas
 $string['auth_dbpass_key'] = 'Wachtwoord';
 $string['auth_dbpasstype'] = 'Geef hier aan welk format het wachtwoordveld gebruikt. MD5-encryptie is handig om een verbinding te maken naar andere veel voorkomende webapplicaties zoals PostNuke';
 $string['auth_dbpasstype_key'] = 'Wachtwoordformaat';
-$string['auth_dbrevive'] = 'Ontvangen gebruiker $a[0] id $a[1]';
+$string['auth_dbreviveduser'] = 'Teruggehaalde gebruiker $a[0] id $a[1]';
+$string['auth_dbrevivedusererror'] = 'Fout bij het terughalen van gebruiker $a';
 $string['auth_dbsetupsql'] = 'SQL setupcommando';
 $string['auth_dbsetupsqlhelp'] = 'SQL-commando voor speciale databank setup, dikwijls gebruikt voor het opzetten van communicatie encoding - bijvoorbeeld voor MySQL en PostgreSQL: <em>SET NAMES \'utf8\'</em>';
+$string['auth_dbsuspenduser'] = 'Uitgeschakelde gebruiker $a[0] id $a[1]';
+$string['auth_dbsuspendusererror'] = 'Fout bij het uitschakelen van gebruiker $&';
 $string['auth_dbsybasequoting'] = 'Gebruik sybase aanhalingstekens';
 $string['auth_dbsybasequotinghelp'] = 'Escaping met enkele aanhalingstekens volgens Sybase stijl - nodig voor Oracle, MS SQL en sommige andere databanken. Niet gebruiken voor MYSQL!';
 $string['auth_dbtable'] = 'Naam  van  de  tabel in de database';
@@ -69,6 +72,7 @@ $string['auth_dbtable_key'] = 'Tabel';
 $string['auth_dbtitle'] = 'Gebruik een externe database';
 $string['auth_dbtype'] = 'Het type database (Bekijk <a href=\"../lib/adodb/readme.htm#drivers\">ADOdb documentatie</a> voor meer informatie)';
 $string['auth_dbtype_key'] = 'Databank';
+$string['auth_dbupdatinguser'] = 'Gebruiker $a[0] id$a[1] aan het updaten';
 $string['auth_dbuser'] = 'Gebruikersnaam met read access tot de database';
 $string['auth_dbuser_key'] = 'DB gebruiker';
 $string['auth_dbusernotexist'] = 'Gebruiker $a bestaat niet: kan niet updaten.';
@@ -131,6 +135,8 @@ $string['auth_ldap_gracelogins_desc'] = 'Schakel de gracelogin-ondersteuning voo
 $string['auth_ldap_gracelogins_key'] = 'Grace logins';
 $string['auth_ldap_host_url'] = 'Geef de LDAP-host in de vorm van een URL zoals bijvoorbeeld: \'ldap://ldap.myorg.com/\' of \'ldaps://ldap.myorg.com/\'  Com/\'or \'ldaps://ldap.myorg.com/\'';
 $string['auth_ldap_host_url_key'] = 'Host URL';
+$string['auth_ldap_ldap_encoding'] = 'Specifier de encoding van de LDAP-server. Waarschijnlijk utf-8, MS AD v2 gebruikt default platform encoding zoals cp1252, cp 1250, enz.';
+$string['auth_ldap_ldap_encoding_key'] = 'LDAP-encoding';
 $string['auth_ldap_login_settings'] = 'login instellingen';
 $string['auth_ldap_memberattribute'] = 'Geef gebruiker lid attribuut, voor als gebruikers tot een groep behoren. Meestal \'member\'';
 $string['auth_ldap_memberattribute_key'] = 'Lidmaatschapsattribuut';
@@ -140,6 +146,8 @@ $string['auth_ldap_noextension'] = 'Waarschuwing: De PHP LDAP module is blijkbaa
 $string['auth_ldap_objectclass'] = 'De filter om namen/gebruiker te zoeken. Gewoonlijk zet je dit op iets als objectClass=posixAccount. Staat standaard op objectclass=*, wat alle objecten van LDAP geeft.';
 $string['auth_ldap_objectclass_key'] = 'Object klasse';
 $string['auth_ldap_opt_deref'] = 'Bepaalt hoe aliassen tijdens het zoeken behandeld worden. Kies één van volgende waarden: \"Nee\" (LDAP_DEREF_NEVER) of \"Ja\" (LDAP_DEREF_ALWAYS)';
+$string['auth_ldap_opt_deref_key'] = 'Bepaalt hoe aliassen tijdens het zoeken behandeld worden. Kies één van volgende waarden: \"Nee\" (LDAP_DEREF_NEVER) of \"Ja\" (LDAP_DEREF_ALWAYS)
+Dereference aliases';
 $string['auth_ldap_passwdexpire_settings'] = 'Instellingen voor het verlopen van het LDAP-wachtwoord';
 $string['auth_ldap_preventpassindb'] = 'Kies ja om te verhinderen dat wachtwoorden in de Moodle databank bewaard worden.';
 $string['auth_ldap_preventpassindb_key'] = 'Verberg wachtwoorden';
@@ -179,6 +187,8 @@ $string['auth_nntpnotinstalled'] = 'Kan de NNTP-authenticatie niet gebruiken. De
 $string['auth_nntpport'] = 'De poort van de server (meestal is dat 119)';
 $string['auth_nntpport_key'] = 'Poort';
 $string['auth_nntptitle'] = 'Gebruik een  NNTP-server';
+$string['auth_nologindescription'] = 'Hulpplugin die gebruikers verhindert aan te melden en die ook de email naar die gebruiker stopt. Kan gebruikt worden om gebruikersaccounts te blokkeren';
+$string['auth_nologintitle'] = 'Geen login';
 $string['auth_nonedescription'] = 'De gebruikers kunnen meteen inloggen en een geldige account aanmaken, zonder authenticatie door middel van een externe server en zonder bevestiging via e-mail. Wees voorzichtig met het gebruiken van deze mogelijkheid - denk aan de beveiligings- en beheerproblemen die hieruit zouden kunnen ontstaan.';
 $string['auth_nonetitle'] = 'Geen authenticatie';
 $string['auth_pamdescription'] = 'Deze methode gebruikt PAM om toegang te geven tot de gebruikersnamen op deze server. Je moet <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Authentication</a> installeren om deze module te kunnen gebruiken.';
@@ -206,6 +216,12 @@ $string['auth_radiusnasport_key'] = 'Poort';
 $string['auth_radiussecret'] = 'Gedeeld geheim';
 $string['auth_radiussecret_key'] = 'Geheim';
 $string['auth_radiustitle'] = 'Gebruik een RADIUS server';
+$string['auth_remove_delete'] = 'Verwijder interne gegevens volledig';
+$string['auth_remove_keep'] = 'Behoud interne gegevens';
+$string['auth_remove_suspend'] = 'Blokkeer interne gegevens';
+$string['auth_remove_user'] = 'Geef op wat er moet gebeuren met interne gebruikersaccounts gedurende een volledige synchronisatie wanneer de gebruiker verwijderd was van de externe bron.
+Enkel geblokkeerde gebruikers worden automatisch terug geactiveerd wanneer ze terug in de externe bron verschijnen.';
+$string['auth_remove_user_key'] = 'Externe gebruiker verwijderd';
 $string['auth_shib_changepasswordurl'] = 'URL om wachtwoord te wijzigen';
 $string['auth_shib_convert_data'] = 'Data wijzigings-API';
 $string['auth_shib_convert_data_description'] = 'Je kunt deze API gebruiken om de gegevens die Shibboleth geeft verder aan te passen. Lees <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> voor verder instructies.';
@@ -219,6 +235,7 @@ $string['auth_shibboleth_login'] = 'Shibboleth aanmelding';
 $string['auth_shibboleth_manual_login'] = 'Manuele aanmelding';
 $string['auth_shibbolethdescription'] = 'Door deze methode te gebruiken kun je verbinding maken met een bestaande Shibboleth server om gebruikers te controleren en nieuwe aan te maken';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
+$string['auth_sync_script'] = 'Cron synchronisatirscript';
 $string['auth_updatelocal'] = 'Update lokale gegevens';
 $string['auth_updatelocal_expl'] = '<p><b>Update lokale gegevens:</b>Als je dit inschakelt, dan zal het veld (van de externe authenticatie) automatisch geüpdatet worden telkens de gebruiker zich aanmeldt of wanneer er een gebruikerssynchronisatie gebeurt. Velden die lokaal worden geüpdatet moeten geblokkeerd worden.</p>';
 $string['auth_updateremote'] = 'Update externe gegevens';
@@ -243,6 +260,8 @@ $string['instructions'] = 'Instructies';
 $string['internal'] = 'Intern';
 $string['locked'] = 'Geblokkeerd';
 $string['md5'] = 'MD5-encryptie';
+$string['nopasswordchange'] = 'Wachtwoord kan niet gewijzigd worden';
+$string['nopasswordchangeforced'] = 'Je kunt niet verdergaan zonder je wachtwoord te wijzigen, hoewel er geen pagina voorzien is om dat te doen. Neem contact op met je Moodlebeheerder';
 $string['passwordhandling'] = 'Behandeling van het wachtwoordveld';
 $string['plaintext'] = 'Platte tekst';
 $string['pluginnotenabled'] = 'Authenticatieplugin \'$a\' is niet ingeschakeld.';
@@ -264,5 +283,6 @@ $string['update_never'] = 'Nooit';
 $string['update_oncreate'] = 'Bij het  aanmaken';
 $string['update_onlogin'] = 'Bij elke aanmelding';
 $string['update_onupdate'] = 'Bij het updaten';
+$string['auth_dbrevive'] = 'Ontvangen gebruiker $a[0] id $a[1]'; // ORPHANED
 
 ?>
