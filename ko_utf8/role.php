@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007021401)
+      // role.php - created with Moodle 1.9 dev (2007021500)
 
 
 $string['addrole'] = '역할 추가';
@@ -81,6 +81,8 @@ $string['question:export'] = '문항 내보냄';
 $string['question:import'] = '문항 가져음';
 $string['question:manage'] = '문항 관리';
 $string['question:managecategory'] = '문항 범주 관리';
+$string['resetrole'] = '역할 초기화';
+$string['resetrolenolegacy'] = '권한 취소';
 $string['resetrolesure'] = '정말 \"$a->name ($a->shortname)\" 역할을 초기화하겠습니까?<p></p>기본 역할은 규정된 능력($a->legacytype)에서 선택됩니다.';
 $string['resetrolesurenolegacy'] = '정말 \"$a->name ($a->shortname)\" 역할의 모든 권한을 제거하겠습니까?';
 $string['risks'] = '위험부담';

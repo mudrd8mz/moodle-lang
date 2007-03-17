@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 dev (2007021400)
+      // forum.php - created with Moodle 1.9 dev (2007021500)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -10,6 +10,7 @@ $string['allforums'] = '모든 포럼';
 $string['allowchoice'] = '모든 사람이 선택할 수 있도록 허용';
 $string['allowdiscussions'] = '$a 가 이 포럼에 게시할 수 있도록 할까요?';
 $string['allowratings'] = '등록된 글을 평가할 수 있도록 할까요?';
+$string['allowsallsubscribe'] = '이 포럼은 모든 사람에게 구독여부의 선택권을 부여 한다.';
 $string['allowsdiscussions'] = '이 포럼은 각 사람이 토론을 시작할 수 있도록 허용합니다.';
 $string['allsubscribe'] = '모든 포럼 구독';
 $string['allunsubscribe'] = '모든 포럼에서 구독 해지';
@@ -64,8 +65,11 @@ $string['editedby'] = '$a->name 가 $a->date 에 수정';
 $string['editing'] = '수정하기';
 $string['emptymessage'] = '올린 글에서 무엇인가 오류가 발견되었습니다. 빈칸이거나 첨부 파일이 너무 클 것 입니다. 변경사항이 저장되지 않았습니다.';
 $string['everyonecanchoose'] = '모든 사람이 구독여부를 선택할 수 있습니다.';
+$string['everyonecannowchoose'] = '모든 사람이 구독여부를 선택할 수 있음';
+$string['everyoneisnowsubscribed'] = '이제 모든 사람이 이 포럼을 구독함';
 $string['everyoneissubscribed'] = '모든 사람이 이 포럼을 이메일로 구독합니다.';
 $string['existingsubscribers'] = '구독자 존재';
+$string['forcessubscribe'] = '모든 사람이 강제적으로 이 포럼을 구독하게 함';
 $string['forcesubscribe'] = '모든 사람이 강제 구독';
 $string['forcesubscribeq'] = '모든 사람이 반드시 구독하도록 할까요?';
 $string['forum'] = '포럼';

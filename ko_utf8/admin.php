@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007021401)
+      // admin.php - created with Moodle 1.9 dev (2007021500)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -65,6 +65,7 @@ $string['configclamfailureonupload'] = '만약 업로드 된 파일을 검사하
 $string['configcountry'] = '만약 여기에 국가를 지정한다면, 그 국가는 새로운 사용자계정의 기본값으로 설정된다. 사용자들이 스스로 국가(언어)를 설정하도록 하고 싶으면, 설정하지 말고 이 상태로 놓아 두어라.';
 $string['configcoursemanager'] = '여기에서는 배움터 설명에 표시되는 사람들을 설정할 수 있게 한다. 사용자가 배움터 설명에 표시되게 하기 위해서는 이 중 하나의 역할이 되어야 한다.';
 $string['configcoursesperpage'] = '배움터 목록에서 페이지당 표시될 배움터의 수를 입력하세요.';
+$string['configcreatornewroleid'] = '새 배움터를 생성한 사람에게 자동적으로 주어지는 역할. 만일 이미 상위 배움터의 권한을 상속받을 경우에는 역할이 다시 주어지지 않는다.';
 $string['configcronclionly'] = '이것이 설정되면 크론 스크립트는 웹 대신 명령어 줄에서만 실행될 수 있다. 이것은 아래의 크론 암호설정에 우선한다.';
 $string['configcronremotepassword'] = '이것은 cron.php가 다음을 URL에서 제공하는 양식을 이용하여 암호가 제공되지 않으면 웹에서 구동될 수 없다는 것을 의미한다.<pre> http://site.example.com/admin.cron.php?password=opensesame
  </pre> 여기를 비워놓으면 암호를 요구하지 않는다.';
@@ -212,6 +213,7 @@ $string['courseoverview'] = '배움터 개요';
 $string['courserequests'] = '배움터 개설 요청';
 $string['courses'] = '배움터';
 $string['coursesperpage'] = '한 쪽당 배움터 수';
+$string['creatornewroleid'] = '새 배움터 생성자의 역할';
 $string['cronclionly'] = '명령어 줄에서만 크론이 실행됨';
 $string['cronerrorclionly'] = '죄송합니다. 이 화면은 관리자에 의하여 인터넷 접속을 금하도록 설정되었습니다.';
 $string['cronerrorpassword'] = '죄송합니다. 이 화면에 접속하려면 적절한 암호가 있어야 합니다.';
