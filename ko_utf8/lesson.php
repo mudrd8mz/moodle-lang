@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8 dev (2006120700)
+      // lesson.php - created with Moodle 1.9 dev (2007021500)
 
 
 $string['accesscontrol'] = '접근 제한';
@@ -80,7 +80,7 @@ $string['displayofgrade'] = '점수 표시 (학생 전용)';
 $string['displayreview'] = '복습 버튼 표시';
 $string['displayscorewithessays'] = '당신은 $a->tempmaxgrade 점 중 $a->score 점을 얻었습니다.<br> 당신의 $a->essayquestions  서술형 답안(들)은 추후에 채점될 것이며 최종 점수에 추가될 것입니다.<br/> 서술형 질문(들)을 제외한 현재 점수는 $a->grade 점 중에서 $a->score 점을 받았습니다.';
 $string['displayscorewithoutessays'] = '당신의 점수는 $a->score 점 입니다.($a->grade 점 만점)';
-$string['editlesson'] = '$a 편집';
+$string['edit'] = '편집';
 $string['editlessonsettings'] = '수업 환경 설정';
 $string['editpagecontent'] = '쪽 내용 편집';
 $string['email'] = '이메일';
@@ -305,5 +305,6 @@ $string['youranswer'] = '당신의 대답';
 $string['yourcurrentgradeis'] = '현재 점수는 $a 입니다';
 $string['yourcurrentgradeisoutof'] = '현재 점수는 $a->total 중 $a->grade 입니다.';
 $string['youshouldview'] = '당신은 적어도 $a 에 답해야만 합니다.';
+$string['editlesson'] = '$a 편집'; // ORPHANED
 
 ?>
