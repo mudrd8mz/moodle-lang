@@ -9,6 +9,7 @@ $string['calcdistribution'] = '分布';
 $string['calclength'] = '有効数字';
 $string['calcmax'] = '最大';
 $string['calcmin'] = '最小';
+$string['dataitemdefined'] = ': 利用可能な定義済み数値 $a 件';
 $string['datasetrole'] = 'ワイルドカード「<strong>{x..}</strong>」は、データセットの数値と置換されます';
 $string['deletelastitem'] = '最後のアイテムを削除する';
 $string['existingcategory1'] = '文字 - このカテゴリ内の他の問題ですでに使用されている既存の文字セットより';
