@@ -356,31 +356,30 @@
       </ul>
     </dd>
 
-    <dt>Under the hood</dt>
+    <dt>ボンネットの中を確認してみます</dt>
     <dd> 
       <ul>
-        <li>Resource module has its own Add menu now, and uses class-based submodules, making it much 
-            easier now to add new resource types to this menu</li>
-        <li>Quiz module has been refactored into class-based questiontype plugins.</li>
-        <li>Enrolment process has been refactored into class-based enrolment plugins.</li>
-        <li>Glossary display formats are now name-based, and it's easier to plugin new ones.</li>
-        <li>Improved behaviour of many modules when they are used on the site page.</li>
-        <li>Revised Filter structure is faster and now compatible with Turck MMcache.</li>
-        <li>Adding activities is now more forgiving of fields left empty</li>
-        <li>We can now alter PostgreSQL columns at will using table_column()</li>
-        <li>RSS generation has been sped up tremendously, putting much less load on cron</li>
-        <li>Some bigger modules have split lib.php into locallib.php for less memory usage</li>
+        <li>リソースモジュールに独自の追加メニューを入れました。ユーザクラスベースのサブモジュールを使って、このメニューに新しいリソースタイプを追加しやすいようにしました。</li>
+        <li>小テストモジュールをクラスベースの問題タイププラグインにリファクタリングしました。</li>
+        <li>ユーザ登録処理をくらすべーすのユーザ登録プラグインにリファクタリングしました。</li>
+        <li>用語集の表示フォーマットをネームベースにして、新しい用語集のプラグインを簡単にしました。</li>
+        <li>サイトページで使用される多くのモジュールの動作を改善しました。</li>
+        <li>速くするためフィルタ構造を修正し、Turck MMcacheに適合するようにしました。</li>
+        <li>さらに活動モジュールが空白フィールドを許容するようにしました。</li>
+        <li>table_column()を使用してPostgreSQLカラムを変更できるようにしました。</li>
+        <li>cronでのロードを減らすことで、RSS生成速度を物凄く改善しました。</li>
+        <li>メモリ使用を減らすため大きなモジュールlib.phpをlocallib.phpに分割しました。</li>
       </ul>
     </dd>
 
-    <dt>Languages and localisation</dt>
+    <dt>言語およびローカライゼーション</dt>
     <dd> 
       <ul>
-        <li>Updates to nearly every language pack</li>
-        <li>Moodle can override the default character set in Apache, making languages more reliable</li>
-        <li>Multibyte languages now wrap properly</li>
-        <li>Better handling of locales and encodings on very multilingual sites (like moodle.org)</li>
-        <li>New languages: Slovenian and Hebrew! </li>
+        <li>ほとんどすべての言語パックを更新しました。</li>
+        <li>MoodleがApacheのデフォルトキャラクタをオーバライドできるようにしたことで、言語パックの信頼性が増しました。</li>
+        <li>マルチバイト言語が適切にワードラップされるようにしました。</li>
+        <li>moodle.orgのような多言語サイトでロケールおよびエンコーディングの処理を改善しました。</li>
+        <li>新しい言語パック: スロベニア語およびヘブライ語! </li>
       </ul>
     </dd>
 
