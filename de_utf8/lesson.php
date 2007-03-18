@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8 dev (2007012500)
+      // lesson.php - created with Moodle 1.8 Beta + (2007021401)
 
 
 $string['accesscontrol'] = 'Zugriffskontrolle';
@@ -80,7 +80,7 @@ $string['displayofgrade'] = 'Anzeige der Bewertungen (für Teilnehmer/innen)';
 $string['displayreview'] = 'Wiederholung bei falscher Antwort';
 $string['displayscorewithessays'] = 'Sie haben bisher $a->score von $a->tempmaxgrade Punkten erzielt (ohne Freitext-Aufgaben).<br /> Freitext-Aufgaben ($a->essayquestions) werden später bewertet und zur Gesamtpunktzahl hinzugefügt .<br /><br />Ihre derzeitige Bewertung:  $a->score von $a->grade Punkten (mit Freitext-Aufgaben).';
 $string['displayscorewithoutessays'] = 'Ihre Bewertung:  $a->score Punkte (von $a->grade Punkten).';
-$string['editlesson'] = 'Bearbeite $a';
+$string['edit'] = 'Bearbeiten';
 $string['editlessonsettings'] = 'Einstellungen für Lektion bearbeiten';
 $string['editpagecontent'] = 'Inhalt der Seite bearbeiten';
 $string['email'] = 'E-Mail';
@@ -302,5 +302,6 @@ $string['youranswer'] = 'Ihre Antwort';
 $string['yourcurrentgradeis'] = 'Derzeitige Bewertung: $a';
 $string['yourcurrentgradeisoutof'] = 'Ihre derzeitige Bewertung ist $a->grade von $a->total';
 $string['youshouldview'] = 'mindestens zu beantworten: $a';
+$string['editlesson'] = 'Bearbeite $a'; // ORPHANED
 
 ?>

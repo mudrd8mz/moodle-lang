@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8 dev (2007012500)
+      // hotpot.php - created with Moodle 1.8 Beta + (2007021401)
 
 
 $string['abandoned'] = 'Abgebrochen';
@@ -14,7 +14,7 @@ $string['attemptslast'] = 'Letzter Versuch';
 $string['average'] = 'Durchschnitt';
 $string['checks'] = 'Checks';
 $string['clickreporting'] = 'Ausführlicher Zugriffsbericht';
-$string['clues'] = 'Fingerzeig';
+$string['clues'] = 'Lösungshinweise';
 $string['completed'] = 'Beendet';
 $string['configexcelencodings'] = 'Kommagetrennte Liste von Kodierungen, die genutzt werden, um Berichtsdaten an eine Tabellenkalkulation zu übergeben. Z.B. MS Excel erfordert \"SJIS\"-Kodierung für Japanisch.';
 $string['configshowtimes'] = 'Soll die benötigte Zeit für die Prozessabwicklung in Listen und Berichten angezeigt werden? Dies ist nur dann erforderlich, wenn man untersucht, warum der Server langsam wird.';
@@ -45,7 +45,7 @@ $string['feedbackwebpage'] = 'per Webseite';
 $string['filetype'] = 'Dateityp';
 $string['forceplugins'] = 'Media-Plugins verwenden';
 $string['giveup'] = 'Abbrechen';
-$string['hints'] = 'Hinweise';
+$string['hints'] = 'Tipps';
 $string['hotpot:attempt'] = 'HotPot-Test durchführen';
 $string['hotpot:deleteattempt'] = 'Versuche löschen';
 $string['hotpot:grade'] = 'Bewertungen ändern';
@@ -96,7 +96,7 @@ $string['reportclick'] = 'Ausführlicher Zugriffsbericht';
 $string['reportclicknumber'] = 'Klick-Nr.';
 $string['reportclicktime'] = 'Klickzeit';
 $string['reportclicktype'] = 'Klickart';
-$string['reportclues'] = 'Clues';
+$string['reportclues'] = 'Lösungshinweise';
 $string['reportcontent'] = 'Inhalt';
 $string['reportcorrectsymbol'] = 'O';
 $string['reportcoursename'] = 'Kursname';
@@ -109,18 +109,18 @@ $string['reportformat'] = 'Format';
 $string['reportformatexcel'] = 'Excel';
 $string['reportformathtml'] = 'HTML';
 $string['reportformattext'] = 'Text';
-$string['reporthints'] = 'Hints';
+$string['reporthints'] = 'Tipps';
 $string['reporthotpotscore'] = 'Hot-Potatoes-Bewertung';
 $string['reportlegend'] = 'Legende';
 $string['reportlogindate'] = 'Login-Datum';
 $string['reportlogintime'] = 'Login-Zeit';
 $string['reportlogofftime'] = 'Logout-Zeit';
 $string['reportmaxscore'] = 'Beste Bewertung';
-$string['reportnottried'] = 'Nicht beantwortet';
+$string['reportnottried'] = 'Nicht bearbeitete Fragen';
 $string['reportnottriedsymbol'] = '-';
 $string['reportnumberofquestions'] = 'Zahl der Fragen';
 $string['reportpercentscore'] = '%% Punkte';
-$string['reportquestionstried'] = 'Beantwortete Fragen';
+$string['reportquestionstried'] = 'Bearbeitete Fragen';
 $string['reportrawscore'] = 'Rohbewertung';
 $string['reportright'] = 'Richtig';
 $string['reportsectionnumber'] = 'Abschnitt';

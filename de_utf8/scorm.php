@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.8 dev (2007012500)
+      // scorm.php - created with Moodle 1.8 Beta + (2007021401)
 
 
 $string['advanced'] = 'Weitere Einstellungen';
@@ -19,6 +19,7 @@ $string['browserepository'] = 'Repository durchsuchen';
 $string['chooseapacket'] = 'Auswählen/aktualisieren eines Pakets';
 $string['completed'] = 'Abgeschlossen';
 $string['confirmloosetracks'] = 'Warnung: Das Paket scheint verändert worden zu sein. Evtl. ist die Paketstruktur geändert worden. Beim Update können Trackingdaten der Nutzer verloren gehen.';
+$string['contents'] = 'Inhalte';
 $string['coursepacket'] = 'Kurspaket';
 $string['coursestruct'] = 'Kursstruktur';
 $string['datadir'] = 'Dateisystemfehler: Verzeichnis für Kursdaten konnte nicht erstellt werden';

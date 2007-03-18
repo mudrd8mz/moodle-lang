@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7+ (2006101008)
+      // resource.php - created with Moodle 1.8 Beta + (2007021401)
 
 
 $string['addresource'] = 'Arbeitsmaterial hinzufügen';
@@ -48,6 +48,7 @@ $string['frameifpossible'] = 'Arbeitsmaterial in einem Frame anzeigen und die Se
 $string['fulltext'] = 'Text-/Webseite';
 $string['htmlfragment'] = 'HTML-Teil';
 $string['imspackageloaded'] = 'Paket geladen';
+$string['keepnavigationvisible'] = 'Seitennavigation auf der gleichen Seite sichtbar lassen.';
 $string['localfile'] = 'Lokale Datei';
 $string['localfilechoose'] = 'Wählen Sie eine lokale Datei aus (z.B. CD-ROM Laufwerk)';
 $string['localfilehelp'] = 'Hilfe zur Anzeige lokaler Dateien';

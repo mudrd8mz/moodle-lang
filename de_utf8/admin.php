@@ -67,6 +67,7 @@ Wenn Sie \'Behandle Dateien wie virenhaltige Dateien\' auswählen, werden diese 
 $string['configcountry'] = 'Wenn Sie hier ein Land festlegen, wird dieses Land als Vorgabe für neue Nutzereinträge gewählt.  Wenn  Nutzer/innen das Land aktiv wählen sollen, lassen Sie das Feld einfach leer.';
 $string['configcoursemanager'] = 'Diese Einstellung erlaubt es Ihnen die Kontrolle, wer auf die Kursbeschreibungen zugreifen darf. Nutzer/innen müssen mindestens eine dieser Rollen haben, um die Kursbeschreibung für diesen Kurs sehen zu können.';
 $string['configcoursesperpage'] = 'Geben Sie die Kursanzahl an, die pro Seite in einer Kursliste angezeigt werden soll.';
+$string['configcreatornewroleid'] = 'Dieses Rolle wird den Kurserstellern automatisch beim Anlegen des Kurses in dem neu erstellten Kurs zugewiesen. Die Rolle wird nicht zugewiesen wenn der Kursersteller die Rechte nur im Elternkontext (parent) hat.';
 $string['configcronclionly'] = 'Wenn dies gesetzt ist, dann kann das cron-Script nur über die Kommandozeile aufgerufen werden, nicht über den Webbrowser. Die nachfolgende Kennwort-Einstellung wird damit überschrieben.';
 $string['configcronremotepassword'] = 'Dies bedeutet, dass das Script cron.php nicht im Webbrowser aufgerufen werden kann, ohne das Kennwort folgendermaßen an die URL anzuhängen: <pre>
 http://www.beispiel.de/admin.cron.php?password=geheim
@@ -209,6 +210,7 @@ $string['courseoverview'] = 'Kursübersicht';
 $string['courserequests'] = 'Kursanfragen';
 $string['courses'] = 'Kurse';
 $string['coursesperpage'] = 'Kurse pro Seite';
+$string['creatornewroleid'] = 'Role des Kurserstellers in neuen Kursen.';
 $string['cronclionly'] = 'cron-Ausführung nur über die Kommandozeile';
 $string['cronerrorclionly'] = 'Entschuldigung, der Internetzugriff auf diese Seite wurde durch den Admin ausgeschaltet.';
 $string['cronerrorpassword'] = 'Entschuldigung, Sie haben kein gültiges Kennwort für den Zugriff angegeben.';
