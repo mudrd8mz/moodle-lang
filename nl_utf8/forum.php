@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 dev (2007021400)
+      // forum.php - created with Moodle 1.9 dev (2007021500)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -10,6 +10,7 @@ $string['allforums'] = 'Alle forums';
 $string['allowchoice'] = 'Sta iedereen toe om te kiezen';
 $string['allowdiscussions'] = 'Mag een $a berichten posten?';
 $string['allowratings'] = 'Mogen berichten beoordeeld worden?';
+$string['allowsallsubscribe'] = 'In dit forum kan iedereen kiezen om e-mail er van te krijgen of niet';
 $string['allowsdiscussions'] = 'In dit forum mag iedereen precies één discussie starten.';
 $string['allsubscribe'] = 'Ik wil mail van alle forums';
 $string['allunsubscribe'] = 'Ik wil van geen enkel forum mail';
@@ -63,12 +64,16 @@ $string['edit'] = 'Wijzig';
 $string['editedby'] = 'Bewerkt door $s->name - $a->date';
 $string['editing'] = 'Wijzigen';
 $string['emptymessage'] = 'Er was iets mis met je bericht. Misschien heb je het leeg gelaten of was de bijlage te groot. Je wijzigingen zijn NIET bewaard.';
-$string['everyonecanchoose'] = 'Iedereen kan kiezen om al dan niet lid te zijn.';
-$string['everyoneissubscribed'] = 'Iedereen is lid van dit forum';
+$string['everyonecanchoose'] = 'Iedereen kan kiezen om al dan niet e-mail van dit forum te ontvangen';
+$string['everyonecannowchoose'] = 'Iedereen kan er voor kiezen om e-mail van dit forum te ontvangen';
+$string['everyoneisnowsubscribed'] = 'Iedereen ontvangt nu e-mail van dit forum';
+$string['everyoneissubscribed'] = 'Iedereen ontvangt e-mail van dit forum';
 $string['existingsubscribers'] = 'Huidige leden';
-$string['forcesubscribe'] = 'Verplicht iedereen om lid te zijn';
+$string['forcessubscribe'] = 'Iedereen krijgt verplicht e-mail van dit forum';
+$string['forcesubscribe'] = 'Verplicht iedereen om e-mail van dit forum te ontvangen';
 $string['forcesubscribeq'] = 'Moet iedereen verplicht lid zijn?';
 $string['forum'] = 'Forum';
+$string['forum:addnews'] = 'Voeg nieuws toe';
 $string['forum:createattachment'] = 'Bijlage toevoegen';
 $string['forum:deleteanypost'] = 'Gelijk welk bericht verwijderen (altijd)';
 $string['forum:deleteownpost'] = 'Eigen berichten verwijderen (binnen bepaalde tijd)';
@@ -76,9 +81,11 @@ $string['forum:editanypost'] = 'Gelijk welk bericht bewerken';
 $string['forum:managesubscriptions'] = 'Lidmaatschap beheren';
 $string['forum:movediscussions'] = 'Discussies verplaatsen';
 $string['forum:rate'] = 'Berichten beoordelen';
+$string['forum:replynews'] = 'Beantwoord nieuws';
 $string['forum:replypost'] = 'Berichten beantwoorden';
 $string['forum:splitdiscussions'] = 'Discussies splitsen';
 $string['forum:startdiscussion'] = 'Nieuwe discussies starten';
+$string['forum:throttlingapplies'] = 'Kan geblokkeerd worden';
 $string['forum:viewanyrating'] = 'Alle beoordelingen bekijken';
 $string['forum:viewdiscussion'] = 'Discussies bekijken';
 $string['forum:viewhiddentimedposts'] = 'Verborgen berichten bekijken';

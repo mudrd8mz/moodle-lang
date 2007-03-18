@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.9 dev (2007021402)
+      // enrol_database.php - created with Moodle 1.9 dev (2007021500)
 
 
 $string['autocreate'] = 'Cursussen kunnen automatisch aangemaakt worden als er aanmeldingen zijn voor een cursus die in Moodle nog niet bestaat';
@@ -22,9 +22,15 @@ $string['enrolname'] = 'Externe databank';
 $string['general_options'] = 'Algemene instellingen';
 $string['host'] = 'Database server hostnaam';
 $string['local_fields_mapping'] = 'Locale databankvelden van Moodle';
+$string['localcoursefield'] = 'De veldnaam in de cursustabel die we gebruiken om records te koppelen in de externe databank (vb IDnummer).';
+$string['localrolefield'] = 'De veldnaam in de rollentabel die we gebruiken om records te koppelen in de externe databank (vb kortenaam).';
+$string['localuserfield'] = 'De velnaam in de gebruikerstabel die we gebruiken om records te koppelen in de externe databank (vb IDnummer).';
 $string['name'] = 'De te gebruiken databank';
 $string['pass'] = 'Wachtwoord om toegang tot de server te krijgen';
 $string['remote_fields_mapping'] = 'Databankvelden voor (externe) aanmelding';
+$string['remotecoursefield'] = 'De velnaam uit de externe tabel die we gebruiken om records in de cursussentabel te koppelen.';
+$string['remoterolefield'] = 'De velnaam uit de externe tabel die we gebruiken om records in de rollentabel te koppelen.';
+$string['remoteuserfield'] = 'De velnaam uit de externe tabel die we gebruiken om records in de gebruikerstabel te koppelen.';
 $string['server_settings'] = 'Severinstellingen';
 $string['student_coursefield'] = 'De veldnaam in de tabel voor leerlingaanmeldingen waar de courseID te vinden is.';
 $string['student_l_userfield'] = 'De veldnaam in de locale gebruikerstabel die we gebruiken om records voor leerlingen te koppelen met de externe databank (vb idnumber)';
