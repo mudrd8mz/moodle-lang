@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007021402)
+      // quiz.php - created with Moodle 1.9 dev (2007021500)
 
 
 $string['1day'] = '1 dag';
@@ -164,6 +164,7 @@ $string['editqcats'] = 'Bewerk vraagcategorieën';
 $string['editquestions'] = 'Bewerk vragen';
 $string['editquiz'] = 'Bewerk test';
 $string['editquizquestions'] = 'Bewerk vragen van de test';
+$string['errorinquestion'] = 'Fout in de vraag';
 $string['errormissingquestion'] = 'Fout: de vraag met id $a ontbreekt in het systeem';
 $string['errornotnumbers'] = 'Fout - antwoorden moeten cijfers zijn';
 $string['errorsdetected'] = '$a fout(en) ontdekt';
@@ -219,6 +220,12 @@ $string['generalfeedback'] = 'Algemene feedback';
 $string['generatevalue'] = 'Genereer een nieuwe waarde tussen';
 $string['geometric'] = 'Geometrisch';
 $string['gift'] = 'GIFT-opmaak';
+$string['giftleftbraceerror'] = 'Kon geen { vinden';
+$string['giftmatchingformat'] = 'De antwoorden voor de koppelvraag hebben niet de juiste opmaak';
+$string['giftnonumericalanswers'] = 'Geen antwoorden gevonden voor de numerieke vraag';
+$string['giftnovalidquestion'] = 'Geen geldige vraag gevonden';
+$string['giftqtypenotset'] = 'Vraagtype niet gekozen';
+$string['giftrightbraceerror'] = 'Kon geen } vinden';
 $string['grade'] = 'Cijfer';
 $string['gradeall'] = 'Alles beoordelen';
 $string['gradeaverage'] = 'Gemiddelde cijfer';
@@ -823,6 +830,7 @@ $string['overdue'] = 'Te laat';
 $string['pagesize'] = 'Aantal te tonen pogingen per pagina';
 $string['paragraphquestion'] = 'Vraagparagraaf niet ondersteund op lijn $a. De vraag wordt genegeerd';
 $string['parent'] = 'bovenliggend';
+$string['parsingquestions'] = 'Vragen uit het geïmporteerd bestand aan het verwerken.';
 $string['partiallycorrect'] = 'Gedeeltelijk juist';
 $string['passworderror'] = 'Het wachtwoord was niet juist';
 $string['penalty'] = 'Strafpunt';
@@ -850,6 +858,7 @@ $string['questionnametoolong'] = 'Vraagnaam te lang op lijn $a (maximum 255 teke
 $string['questionno'] = 'Vraag $a';
 $string['questions'] = 'Vragen';
 $string['questionsinclhidden'] = 'Vragen (verborgen inbegrepen)';
+$string['questionsinthisquiz'] = 'Vragen in deze test';
 $string['questionsinuse'] = '(* Vragen, gemerkt met een sterretje, zijn al in gebruik in sommige testen. Deze vragen zullen niet uit die testen verwijderd worden, maar alleen uit de  lijst van de categorie.)';
 $string['questionsperpage'] = 'Maximum aantal vragen per pagina';
 $string['questiontext'] = 'Vraag tekst';
@@ -958,6 +967,7 @@ $string['showfeedback'] = 'Feedback laten zien na het beantwoorden?';
 $string['showhidden'] = 'Toon ook oude vragen';
 $string['shownoattempts'] = 'leerlingen die de test nog niet gemaakt hebben';
 $string['shownoattemptsonly'] = 'Toon enkel leerlingen zonder pogingen';
+$string['showquestiontext'] = 'Toon vraagtekst in de vragenlijst';
 $string['showteacherattempts'] = 'Toon de pogingen van de leraar';
 $string['shuffle'] = 'Willekeurige volgorde';
 $string['shuffleanswers'] = 'Mix de antwoorden';
@@ -972,6 +982,7 @@ $string['sortsubmit'] = 'Sorteer vragen';
 $string['sorttypealpha'] = 'Sorteer op type, naam';
 $string['startagain'] = 'Start opnieuw';
 $string['startedon'] = 'Gestart op';
+$string['stoponerror'] = 'Stop bij fout';
 $string['subneterror'] = 'Deze test is zo beveiligd dat hij alleen toegankelijk is vanop bepaalde plaatsen. Jouw computer staat niet in de lijst met toegelaten machines om deze test te maken.';
 $string['subnetnotice'] = 'De test is vastgezet, zodat hij alleen geopend kan worden vanop bepaalde locaties. Jouw computer staat niet op een toegelaten subnet. Als leraar kun je wel een voorbeeld bekijken';
 $string['substitutedby'] = 'zal vervangen worden door';

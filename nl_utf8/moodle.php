@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007021400)
+      // moodle.php - created with Moodle 1.9 dev (2007021500)
 
 
 $string['action'] = 'Actie';
@@ -584,6 +584,7 @@ $string['forcepasswordchangenotice'] = 'Je moet je wachtwoord wijzigen om verder
 $string['forcetheme'] = 'Leg dit thema op';
 $string['forgotaccount'] = 'Wachtwoord vergeten?';
 $string['forgotten'] = 'Heb je je gebruikersnaam of wachtwoord vergeten?';
+$string['forgottenduplicate'] = 'Dit e-mailadres wordt ook door verschillende andere gebruikers gebruikt. Geef je gebruikersnaam in plaats van je e-mailadres.';
 $string['forgotteninvalidurl'] = 'Ongeldig wachtwoord reset URL';
 $string['format'] = 'Format';
 $string['formathtml'] = 'HTML-opmaak';
@@ -791,6 +792,7 @@ $string['loginstepsnone'] = 'Hallo!<p>Om volledige toegang te krijgen tot de ver
 $string['loginto'] = 'Log in op $a';
 $string['loginusing'] = 'Log hier in met gebruik van je gebruikersnaam en wachtwoord';
 $string['logout'] = 'Log uit';
+$string['logoutconfirm'] = 'Wil je echt afmelden?';
 $string['logs'] = 'Statistieken';
 $string['logtoomanycourses'] = '[<a href=\"$a->url\">meer</a>]';
 $string['logtoomanyusers'] = '[<a href=\"$a->url\">meer</a>]';
@@ -1080,6 +1082,7 @@ $string['previewhtml'] = 'Voorbeeld HTML-opmaak';
 $string['previeworchoose'] = 'Bekijk of kies een thema';
 $string['previous'] = 'Vorige';
 $string['previoussection'] = 'Vorige sectie';
+$string['primaryadminsetup'] = 'Instellingen van de beheerdersaccount';
 $string['profile'] = 'Profiel';
 $string['publicdirectory'] = 'Publieke map';
 $string['publicdirectory0'] = 'Publiceer deze site niet';
@@ -1423,6 +1426,7 @@ $string['usernameemailmatch'] = 'Deze gebruikersnaam en dit e-mailadres zijn nie
 $string['usernameexists'] = 'Deze gebruikersnaam bestaat al, kies een andere';
 $string['usernamelowercase'] = 'Alleen kleine letters toegestaan';
 $string['usernamenotfound'] = 'Deze gebruikersnaam komt niet voor in de databank';
+$string['usernameoremail'] = 'Geef gebruikersnaam of e-mailadres';
 $string['usernotconfirmed'] = 'Kon $a niet bevestigen';
 $string['userpic'] = 'Gebruikersfoto';
 $string['userprofilefor'] = 'Het gebruikersprofiel van $a';

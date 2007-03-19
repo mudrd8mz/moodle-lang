@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 Beta (2007020400)
+      // role.php - created with Moodle 1.9 dev (2007021500)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
@@ -49,6 +49,8 @@ $string['currentrole'] = 'Huidige rol';
 $string['defaultrole'] = 'Standaard rol';
 $string['defineroles'] = 'Definieer rollen';
 $string['deleterolesure'] = '<p>Ben je zeker dat je de rol \"$a->name ($a->shorname)\" wil verwijderen?</p><p>Op dit moment is de rol aan $a->count gebruikers toegewezen.';
+$string['duplicaterole'] = 'Kopieer rol';
+$string['duplicaterolesure'] = 'Ben je zeker dat je de rol \"$a->name ($a->shortname)\" wil kopiëren?</p>';
 $string['editrole'] = 'Bewerk rol';
 $string['errorbadrolename'] = 'Verkeerde rolnaam';
 $string['errorbadroleshortname'] = 'Verkeerde rolnaam';
@@ -63,6 +65,7 @@ $string['legacy:guest'] = 'PRE 1.7 ROL: Gast';
 $string['legacy:student'] = 'PRE 1.7 ROL: Leerling';
 $string['legacy:teacher'] = 'PRE 1.7 ROL: Leraar (niet bewerken)';
 $string['legacy:user'] = 'PRE 1.7 ROL: Ingelogde gebruiker';
+$string['legacytype'] = 'Standaard roltype';
 $string['listallroles'] = 'Toon alle rollen';
 $string['manageroles'] = 'Beheer rollen';
 $string['metaassignerror'] = 'Kan deze rol niet toewijzen aan gebruiker \"$a\" omdat de mogelijkheid om koepelcursussen te beheren nodig is.';
@@ -78,7 +81,11 @@ $string['question:export'] = 'Vragen exporteren';
 $string['question:import'] = 'Vragen importeren';
 $string['question:manage'] = 'Vragen beheren';
 $string['question:managecategory'] = 'Vraagcategorieën beheren';
-$string['risks'] = 'Gevaren';
+$string['resetrole'] = 'Standaardinstellingen';
+$string['resetrolenolegacy'] = 'Wis rechten';
+$string['resetrolesure'] = 'Ben je er zeker van dat je de rol \"$a->name ($a->shortname)\" terug de standaardinstellingen wil geven?<p></p>De standaardinstellingen worden gehaald uit het standaard roltype ($a->legacytype).';
+$string['resetrolesurenolegacy'] = 'Ben je er zeker van dat je alle rechten, gedefinieerd in de rol \"$a->name($ashortname)\" wil verwijderen?';
+$string['risks'] = 'Risico\'s';
 $string['role:assign'] = 'Toewijzen van rollen aan gebruikers';
 $string['role:manage'] = 'Aanmaken en beheren van rollen';
 $string['role:override'] = 'Rechten voor anderen overschrijven';

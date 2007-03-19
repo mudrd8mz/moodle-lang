@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 dev (2007021400)
+      // mnet.php - created with Moodle 1.9 dev (2007021500)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (eigen certificaat)';
@@ -33,6 +33,7 @@ $string['deleteuserrecord'] = 'SSO ACL: verwijder record voor gebruiker \'$a[0]\
 $string['deletewrongkeyvalue'] = 'Er is een fout opgetreden. Als je niet aan het proberen was om de SSL-sleutel van je server te verwijderen, dan was je misschien het slachtoffer van een aanval. Er is geen actie ondernomen.';
 $string['deny'] = 'Verbied';
 $string['description'] = 'Beschrijving';
+$string['duplicate_usernames'] = 'Er kon geen index gemaakt worden op de kolommen \"mnethostid\" en \"username\" in je usertabel. <br />Dit kan gebeuren als je een <a href=\"$a\" target=\"_blank\">dubbel gebruikte gebruikersnaam in je usertabel hebt</a>.<br />Je upgrade zou toch goed moeten aflopen. Klik op de link hierboven en instructies om het probleem op te lossen zullen in een nieuw venster verschijnen. Je kunt het probleem oplossen na de upgrade.<br />';
 $string['editenrolments'] = 'aanmelding';
 $string['enabled_for_all'] = '(Deze service is ingeschakeld voor alle hosts)';
 $string['enrolcourseenrol_desc'] = 'Aanmelden/afmelden van gebruikers in deze cursus door gebruik te maken van Moodle Network aanmeldingen. Merk op dat gebruikers kunnen aangemeld zijn met andere aanmeldingsmethodes indien de externe host dit toestaat. Deze aanmeldingen staan in de lijst onder <em>Andere aangemelde gebruikers</em>';
@@ -176,6 +177,7 @@ $string['verifysignature-invalid'] = 'De handtekeningverificatie mislukte. Het l
 $string['version'] = 'versie';
 $string['warning'] = 'Waarschuwing';
 $string['wrong-ip'] = 'Je IP-adres komt niet overeen met het IP-adres dat we geregistreerd hebben.';
+$string['xmlrpc-missing'] = 'Je moet XML-RPC in PHP geinstalleerd hebben om deze functie te kunnen gebruiken';
 $string['yourhost'] = 'Jouw host';
 $string['yourpeers'] = 'Jouw peers';
 

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 dev (2007021400)
+      // scorm.php - created with Moodle 1.9 dev (2007021500)
 
 
 $string['advanced'] = 'Geavanceerd';
@@ -19,6 +19,7 @@ $string['browserepository'] = 'Blader door de bibliotheek';
 $string['chooseapacket'] = 'Kies of update een SCORM/AICC-pakket';
 $string['completed'] = 'Volledig';
 $string['confirmloosetracks'] = 'WAARSCHUWING: Dit pakket is blijkbaar gewijzigd/aangepast. De pakketstructuur is gewijzigd. Het afgelegde leerpad van sommige gebruikers zou kunnen verloren gegaan zijn tijdens het updateproces.';
+$string['contents'] = 'Inhoud';
 $string['coursepacket'] = 'Cursuspakket';
 $string['coursestruct'] = 'Cursusstructuur';
 $string['datadir'] = 'Fout van het bestandssysteem: de gegevensfolder van de cursus kan niet gemaakt worden';

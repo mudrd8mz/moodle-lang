@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8 dev (2007012500)
+      // lesson.php - created with Moodle 1.9 dev (2007021500)
 
 
 $string['accesscontrol'] = 'Toegangscontrole';
@@ -80,7 +80,7 @@ $string['displayofgrade'] = 'Tonen van het cijfer (voor de leerling)';
 $string['displayreview'] = 'Toon herwerkknop';
 $string['displayscorewithessays'] = 'Je hebt $a->score punten op $a->tempmaxgrade behaald voor de automatisch beoordeelde vragen.<br />Je $a->essayquestions open vragen zullen beoordeeld worden <br />en op een later moment toegevoegd worden bij je totaalcijfer.>br /><br />Je resultaat op dit ogenblik, dus zonder de open vragen is $a->score op $a->grade.';
 $string['displayscorewithoutessays'] = 'Je cijfer is $a->score (op $a->grade).';
-$string['editlesson'] = 'Bewerk $a';
+$string['edit'] = 'Bewerk';
 $string['editlessonsettings'] = 'Bewerk de instellingen van deze les';
 $string['editpagecontent'] = 'Bewerk de inhoud van deze pagina';
 $string['email'] = 'E-mail';
@@ -298,5 +298,6 @@ $string['youranswer'] = 'Jouw antwoord';
 $string['yourcurrentgradeis'] = 'Je cijfer is nu $a';
 $string['yourcurrentgradeisoutof'] = 'Je huidige cijfer is $a->grade op $a->total';
 $string['youshouldview'] = 'Minimum te bekijken: $a';
+$string['editlesson'] = 'Bewerk $a'; // ORPHANED
 
 ?>
