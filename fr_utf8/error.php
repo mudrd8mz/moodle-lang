@@ -37,6 +37,7 @@ $string['invalidfiletype'] = '«&nbsp;$a&nbsp;» n\'est pas un type de fichier v
 $string['invalidmd5'] = 'Code md5 non valide';
 $string['invalidrole'] = 'Rôle non valide';
 $string['invalidxmlfile'] = '«&nbsp;$a&nbsp;» n\'est pas un fichier XML valide';
+$string['loginascourseredir'] = 'Vous ne pouvez pas entrer dans ce cours.<br />Vous devez d\'abord terminer la session dans laquelle vous êtes «&nbsp;Connecté sous le nom&nbsp;» d\'un autre participant.';
 $string['missingfield'] = 'Le champ «&nbsp;$a&nbsp;» est manquant';
 $string['missingrequiredfield'] = 'Un champ obligatoire n\'est pas renseigné';
 $string['modulemissingcode'] = 'Le module $a ne possède pas le code source permettant d\'effectuaer cette fonction';
