@@ -255,7 +255,7 @@ $string['courseavailablenot'] = 'Este curso no está disponible para los estudia
 $string['coursebackup'] = 'Copia de seguridad del curso';
 $string['coursecategories'] = 'Categorías de cursos';
 $string['coursecategory'] = 'Categoría de cursos';
-$string['coursecreators'] = 'Creadores de curso';
+$string['coursecreators'] = 'Creador de curso';
 $string['coursecreatorsdescription'] = 'Los creadores de cursos pueden crear nuevos cursos y enseñar en ellos.';
 $string['coursefiles'] = 'Archivos del curso';
 $string['courseformatdata'] = 'Datos de formato del curso';
@@ -462,6 +462,24 @@ $string['emailmustbereal'] = 'IMPORTANTE: Para concluir el proceso debe escribir
 $string['emailnotallowed'] = 'Las direcciones email de estos dominios no están permitidas ($a)';
 $string['emailnotfound'] = 'No se ha encontrado la dirección email en la base de datos';
 $string['emailonlyallowed'] = 'Este email no figura entre los permitidos ($a)';
+$string['emailpasswordchangeinfo'] = 'Hola, $a->firstname.
+
+Alguien (seguramente usted) ha solicitado una nueva contraseña para su
+cuenta en \'$a->sitename\'.
+
+Para cambiar su contraseña, por favor, diríjase a la siguiente dirección:
+
+$a->link
+
+En la mayoría de los programas de correo electrónico, esto aparecerá como un enlace en color azul en el que usted puede hacer clic. Si no funcionara, copie y pegue la dirección en la barra de navegación de su navegador.';
+$string['emailpasswordchangeinfofail'] = 'Hola, $a->firstname.
+
+Alguien (seguramente usted) ha solicitado una nueva contraseña para su
+cuenta en \'$a->sitename\'.
+
+Lo sentimos, pero las contraseñas no pueden cambiarse en este sitio. Contacte por favor con el administrador,
+$a->admin';
+$string['emailpasswordchangeinfosubject'] = '$a: Cambiar información sobre la contraseña';
 $string['emailpasswordconfirmation'] = 'Hola, $a->firstname.
 
 Recibimos la solicitud de nueva contraseña para su cuenta
@@ -581,6 +599,7 @@ $string['forcepasswordchangenotice'] = 'Para continuar, deberá cambiar su contr
 $string['forcetheme'] = 'Forzar tema';
 $string['forgotaccount'] = '¿Ha extraviado la contraseña?';
 $string['forgotten'] = '¿Olvidó su nombre de usuario o contraseña?';
+$string['forgottenduplicate'] = 'La dirección email es compartida por varias cuentas: por favor, utilice el nombre de usuario en su lugar.';
 $string['forgotteninvalidurl'] = 'Contraseña no válida, reiniciar URL';
 $string['format'] = 'Formato';
 $string['formathtml'] = 'Formato HTML';
@@ -1016,6 +1035,7 @@ $string['notingroup'] = 'Lo sentimos, para ver esta actividad necesita ser miemb
 $string['notpublic'] = '¡No es público!';
 $string['nousersmatching'] = 'No se encontraron usuarios con \'$a\'';
 $string['nousersyet'] = 'Aún no hay usuarios';
+$string['novalidcourses'] = 'No hay cursos válidos para mostrar';
 $string['now'] = 'ahora';
 $string['numattempts'] = '$a intento(s) de acceso fallidos';
 $string['numberweeks'] = 'Número de semanas o temas';
@@ -1093,6 +1113,7 @@ $string['previewhtml'] = 'Vista previa formato HTML';
 $string['previeworchoose'] = 'Prever o elegir un tema';
 $string['previous'] = 'Anterior';
 $string['previoussection'] = 'Sección anterior';
+$string['primaryadminsetup'] = 'Ajustar cuenta del administrador';
 $string['profile'] = 'Perfil';
 $string['publicdirectory'] = 'Directorio público';
 $string['publicdirectory0'] = 'Por favor, no publicar este sitio';
@@ -1225,8 +1246,10 @@ $string['showallcourses'] = 'Mostrar todos los cursos';
 $string['showalltopics'] = 'Mostrar todos los temas';
 $string['showallusers'] = 'Mostrar todos los usuarios';
 $string['showallweeks'] = 'Mostrar todas las semanas';
+$string['showblockcourse'] = 'Mostrar lista de cursos que contienen bloque';
 $string['showgrades'] = 'Mostrar calificaciones';
 $string['showlistofcourses'] = 'Mostrar listas de cursos';
+$string['showmodulecourse'] = 'Mostrar lista de cursos que contienen actividad';
 $string['showonly'] = 'Mostrar sólo';
 $string['showonlytopic'] = 'Mostrar sólo el tema $a';
 $string['showonlyweek'] = 'Mostrar sólo la semana $a';
@@ -1435,6 +1458,7 @@ $string['usernameemailmatch'] = 'El nombre de usuario y la dirección de correo 
 $string['usernameexists'] = 'Este nombre de usuario ya existe. Por favor, seleccione otro.';
 $string['usernamelowercase'] = 'Sólo se permiten minúsculas';
 $string['usernamenotfound'] = 'No se ha encontrado el nombre de usuario en la base de datos';
+$string['usernameoremail'] = 'Escribir nombre de usuario o dirección email';
 $string['usernotconfirmed'] = 'No se pudo confirmar $a';
 $string['userpic'] = 'Imagen del usuario';
 $string['userprofilefor'] = 'Información personal de $a';
@@ -1511,6 +1535,8 @@ $string['writinguserinfo'] = 'Escribiendo información del usuario';
 $string['wrongpassword'] = 'Contraseña incorrecta para este nombre de usuario';
 $string['xmldbeditor'] = 'Editor XMLDB';
 $string['yahooid'] = 'ID Yahoo';
+$string['year'] = 'año';
+$string['years'] = 'años';
 $string['yes'] = 'Sí';
 $string['youareabouttocreatezip'] = 'Está a punto de crear un archivo \'zip\' que contiene';
 $string['youaregoingtorestorefrom'] = 'Está a punto de comenzar el proceso de restauración de';
