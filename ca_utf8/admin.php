@@ -67,7 +67,7 @@ $string['configcoursemanager'] = 'Aquest paràmetre us permet controlar qui apar
 $string['configcoursesperpage'] = 'Introduïu el nombre de cursos per pàgina per a les llistes de cursos.';
 $string['configcronclionly'] = 'Si habiliteu aquest paràmetre, la seqüència del cron només podrà executar-se des de la línia d\'ordres i no via web. Farà que s\'ignori la contrasenya del cron més avall.';
 $string['configcronremotepassword'] = 'La seqüència cron.php no es podrà executar des d\'una interfície web sense proporcionar aquesta contrasenya en un URL d\'aquesta forma:<pre>
-http://www.exemple.com/admin.cron.php?password=sesamobret
+http://www.exemple.com/admin/cron.php?password=sesamobret
 </pre>Si deixeu la contrasenya en blanc no caldrà utilitzar-ne cap.';
 $string['configdbsessions'] = 'Si habiliteu aquest paràmetre, la base de dades emmagatzemarà la informació de les sessions dels usuaris. Això és especialment útil en llocs amb molts usuaris o en llocs que funcionen en clústers de servidors. Per a la majoria de llocs problema és millor no habilitar-lo i utilitzar el disc del servidor en lloc de la base de dades. Teniu en compte que si canvieu ara aquest paràmetre tancareu les sessions de tots els usuaris (la vostra inclosa).';
 $string['configdebug'] = 'Si activeu aquest paràmetre s\'incrementarà l\'error_reporting del PHP, de manera que es visualitzaran més avisos. Útil només per a desenvolupadors.';

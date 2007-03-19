@@ -67,7 +67,7 @@ $string['configcoursemanager'] = '여기에서는 배움터 설명에 표시되�
 $string['configcoursesperpage'] = '배움터 목록에서 페이지당 표시될 배움터의 수를 입력하세요.';
 $string['configcreatornewroleid'] = '새 배움터를 생성한 사람에게 자동적으로 주어지는 역할. 만일 이미 상위 배움터의 권한을 상속받을 경우에는 역할이 다시 주어지지 않는다.';
 $string['configcronclionly'] = '이것이 설정되면 크론 스크립트는 웹 대신 명령어 줄에서만 실행될 수 있다. 이것은 아래의 크론 암호설정에 우선한다.';
-$string['configcronremotepassword'] = '이것은 cron.php가 다음을 URL에서 제공하는 양식을 이용하여 암호가 제공되지 않으면 웹에서 구동될 수 없다는 것을 의미한다.<pre> http://site.example.com/admin.cron.php?password=opensesame
+$string['configcronremotepassword'] = '이것은 cron.php가 다음을 URL에서 제공하는 양식을 이용하여 암호가 제공되지 않으면 웹에서 구동될 수 없다는 것을 의미한다.<pre> http://site.example.com/admin/cron.php?password=opensesame
  </pre> 여기를 비워놓으면 암호를 요구하지 않는다.';
 $string['configdbsessions'] = '이를 켜 놓으면, 현재 세션의 정보를 저장하기 위해서 데이타 베이스를 사용할 것이다. 이것은 큰 사이트나 많은 서버로 구성된 사이트에서 특히 유용하게 쓰일 수 있다. 대부분의 사이트에서는 이를 막아 놓아, 서버 디스크에 세션 정보를 기록하도록 한다. 만일 지금 이 옵션을 바꾸게 되면, 현재 접속된 모든 사용자(당신도 물론!)의 접속이 끊어져 로그아웃될 것이다.';
 $string['configdebug'] = '이것을 \"예\"로 두면 지속적인 경고를 위해서 PHP 오류 보고가 증가할 것이다. 개발자에게나 유용한 기능이다.';

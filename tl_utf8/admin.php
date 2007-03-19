@@ -62,7 +62,7 @@ $string['configcoursemanager'] = 'Sa pamamagitan ng kaayusang ito ay makokontrol
 $string['configcoursesperpage'] = 'Ipakita ang bilang ng mga kurso na ipapakita sa bawat pahina sa isang listahan ng mga kurso.';
 $string['configcronclionly'] = 'Kapag itinakda ito, ang iskrip na cron ay mapapatakbo lamang mula sa isang commandline sa halip na sa pamamagitan ng web.  Mananaig ito sa kaayusan ng kontrasenyas ng cron sa ibaba.';
 $string['configcronremotepassword'] = 'Ang ibig sabihin nito ay hindi mapapatakbo ang iskrip na cron.php mula sa isang web browser, nang hindi ibinibigay ang kontrasenyas gamit ang sumusunod na anyo ng URL: :<pre>
-http://site.example.com/admin.cron.php?password=opensesame
+http://site.example.com/admin/cron.php?password=opensesame
 </pre>Kapag iniwan itong blangko, hindi na kakailanganin ang kontrasenyas.';
 $string['configdbsessions'] = 'Kapag binuhay ito, gagamitin ng kaayusang ito ang datosan sa pag-iimbak ng mga impormasyon hinggil sa kasalukuyang sesyon.  Kapakipakinabang ito sa malalaki/abalang site o mga site na binuo sa cluster ng mga server.  Para sa karaniwang site malamang na mas mabuting patayin na ito upang gamitin na lamang ang server disk.  Tandaan na ang pagbabago ng kaayusang ito ngayon ay magpapalabas sa lahat ng kasalukuyang tagagamit (kasama ka). Kapag gumagamit ka ng MySQL ay tiyakin na ang \'max_allowed_packet\' sa my.cnf (o my.ini)ay hindi bababa sa 4M.';
 $string['configdebug'] = 'Kung binuhay ninyo ito, tataas ang lebel ng error_reporting ng PHP kaya\'t mas maraming babala ang malalathala.  Kapakipakinabang lamang ito sa mga debeloper.';

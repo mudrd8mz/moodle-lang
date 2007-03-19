@@ -68,7 +68,7 @@ $string['configcoursesperpage'] = 'コース一覧の1ページあたりに表�
 $string['configcreatornewroleid'] = 'このロールは、新しいコースを作成したコース作成者に自動的に割り当てられます。親コンテクストで必要なケイパビリティを持っている場合、このロールはコース作成者に割り当てられません。';
 $string['configcronclionly'] = 'この設定を有効にした場合、ウェブ経由の代わりに、cronスクリプトをコマンドラインのみで実行することができます。この設定は、下記のcronパスワード設定をオーバーライドします。';
 $string['configcronremotepassword'] = 'cronパスワードを設定した場合、下記の形式のURLを使用してcronパスワードを提供しない限り、ウェブブラウザからcron.phpを動作させることはできません。<pre>
-http://site.example.com/admin.cron.php?password=opensesame
+http://site.example.com/admin/cron.php?password=opensesame
 </pre>空白の場合、パスワードは要求されません。';
 $string['configdbsessions'] = 'この設定を有効にした場合、現在のセッション情報はデータベースに保存されます。これは特に規模の大きい/アクセス数の多いサイト、またはクラスタサーバで構築されたサイトに向いています。ほとんどのサイトでは、この設定をサーバディスクにセッションを保存する「No」のままにしてください。この設定を変更すると、(あなたも含めて) 現在のユーザがログアウトされます。あなたがMySQLを使用している場合、my.cnf (またはmy.ini) の「max_allowed_packet」 を少なくとも4Mにしてください。';
 $string['configdebug'] = 'この設定を有効にした場合、PHPのerror_reportingが増加し、より多くの警告が表示されるようになります。これは、開発者のみに便利な設定です。';

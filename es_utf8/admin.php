@@ -65,7 +65,7 @@ $string['configcoursemanager'] = 'Esta opción le permite controlar quién apare
 $string['configcoursesperpage'] = 'Introduzca el número de cursos a mostrar por página en un listado de cursos.';
 $string['configcronclionly'] = 'Si se activa esta opción, el script del cron sólo podrá ejecutarse desde una línea de comandos en lugar de vía web. Esto anula el ajuste de más abajo de contraseña del cron.';
 $string['configcronremotepassword'] = 'Esto signififa que el script cron.php no puede ejecutarse desde un navegador web sin suministrar la contraseña usando el siguiente formulario de URL:<pre>
-http://site.example.com/admin.cron.php?password=opensesame
+http://site.example.com/admin/cron.php?password=opensesame
 </pre>Si se deja vacío, no se necesita contraseña.';
 $string['configdbsessions'] = 'Si elige esta opción, se usará la base de datos para almacenar información sobre las sesiones actuales. Esto es especialmente útil para sitios grandes u ocupados construídos sobre racimos (\'clusters\') de servidores. En la mayoría de los casos debería dejarse en blanco de modo que se use en su lugar el disco del servidor. Note que la modificación de este ajuste desconectará a todos los usuarios, incluído usted.';
 $string['configdebug'] = 'Si activa esta opción, se incrementará el error_reporting de PHP, de modo que recibirá más advertencias. Sólo resulta útil para los desarrolladores.';

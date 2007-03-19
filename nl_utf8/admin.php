@@ -69,7 +69,7 @@ $string['configcoursesperpage'] = 'Geef het maximum aantal cursussen per pagina 
 $string['configcreatornewroleid'] = 'Deze rol wordt automatisch toegekend aan cursusaanmakers in cursussen die ze zelf gemaakt hebben. De rol wordt niet toegekend als de cursusaanmaker de nodige mogelijkheden al erft van een hoger niveau';
 $string['configcronclionly'] = 'Als dit is ingesteld, dan kan cron alleen vanaf de command prompt gestart worden en niet via het web. Dit gaat voor op de wachtwoordinstelling van cron hieronder.';
 $string['configcronremotepassword'] = 'Dit betekent dat het script cron.php niet vanuit een webbrowser gestart kan worden zonder het wachtwoord te geven in volgend formulier <pre>
-http://site.voorbeeld.com/admin.cron.php?password=opensesame
+http://site.voorbeeld.com/admin/cron.php?password=opensesame
 </pre> Als dit leeggelaten wordt, is er geen wachtwoord nodig';
 $string['configdbsessions'] = 'Als dit ingeschakeld is, dan zal de databank gebruikt worden om informatie over de sessies te bewaren. Dit is vooral nuttig op grote, veel gebruikte sites of sites op een cluster van servers.  Voor de meeste sites kan dit waarschijnlijk beter uitgeschakeld zijn zodat de server de informatie op schijf bewaart. Merk op dat het wijzigen van deze instelling alle gebruikers zal afmelden (jij inbegrepen).';
 $string['configdebug'] = 'Als je dit aan zet zullen er meer PHP-fouten op het scherm worden weergegeven. Dit is alleen maar handig voor ontwikkelaars van de applicatie.';

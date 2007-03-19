@@ -70,7 +70,7 @@ $string['configcoursesperpage'] = 'Geben Sie die Kursanzahl an, die pro Seite in
 $string['configcreatornewroleid'] = 'Dieses Rolle wird den Kurserstellern automatisch beim Anlegen des Kurses in dem neu erstellten Kurs zugewiesen. Die Rolle wird nicht zugewiesen wenn der Kursersteller die Rechte nur im Elternkontext (parent) hat.';
 $string['configcronclionly'] = 'Wenn dies gesetzt ist, dann kann das cron-Script nur über die Kommandozeile aufgerufen werden, nicht über den Webbrowser. Die nachfolgende Kennwort-Einstellung wird damit überschrieben.';
 $string['configcronremotepassword'] = 'Dies bedeutet, dass das Script cron.php nicht im Webbrowser aufgerufen werden kann, ohne das Kennwort folgendermaßen an die URL anzuhängen: <pre>
-http://www.beispiel.de/admin.cron.php?password=geheim
+http://www.beispiel.de/admin/cron.php?password=geheim
 </pre>Falls das Feld leer bleibt, wird kein Kennwort benötigt.';
 $string['configdbsessions'] = 'Bei der Aktivierung dieser Einstellung wird die Datenbank unter anderem dazu verwendet, um Informationen über aktuelle Sitzungen abzuspeichern. Das ist sinnvoll bei sehr großen Anwendungen oder Anwendungen, die über mehrere Cluster von Servern verteilt arbeiten. Meist kann die Einstellung deaktiviert bleiben. Bei einer Einstellungsänderung werden alle aktuellen Nutzer/innen ausgeloggt (auch die Administrator/innen). Falls Sie MySQL benutzen, stellen Sie sicher, dass \'max_allowed_packet\' in der Datei my.cnf (oder my.ini) mindestens 4M ist.';
 $string['configdebug'] = 'Wenn Sie diese Funktion einschalten, werden die Fehlermeldungen von PHP erweitert, so dass mehr Warnungen ausgegeben werden. Dies ist nur für Entwickler nützlich.';
