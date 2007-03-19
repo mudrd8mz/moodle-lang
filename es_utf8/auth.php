@@ -33,7 +33,7 @@ $string['auth_dbpass'] = 'Contraseña correspondiente al nombre de usuario anter
 $string['auth_dbpasstype'] = 'Especifique el formato que usa el campo de contraseña. La encriptación MD5 es útil para conectar con otras aplicaciones web como PostNuke';
 $string['auth_dbtable'] = 'Nombre de la tabla en la base de datos';
 $string['auth_dbtitle'] = 'Usar una base de datos externa';
-$string['auth_dbtype'] = 'El tipo de base de datos (Vea la <a href=../lib/adodb/readme.htm#drivers>documentación de ADOdb</a> para obtener más detalles)';
+$string['auth_dbtype'] = 'El tipo de base de datos (Vea la <a href="../lib/adodb/readme.htm#drivers">documentación de ADOdb</a> para obtener más detalles)';
 $string['auth_dbuser'] = 'Nombre de usuario con acceso de lectura a la base de datos';
 $string['auth_emaildescription'] = 'La confirmación por correo alectrónico es el método de autenticación predeterminado. Cuando el usuario se inscribe, escogiendo su propio nombre de usuario y contraseña, se envía un email de confirmación a su dirección de correo electrónico. Este email contiene un enlace seguro a una página donde el usuario puede confirmar su cuenta. Las futuras entradas comprueban el nombre de usuario y contraseña contra los valores guardados en la base de datos de Moodle.';
 $string['auth_emailtitle'] = 'Autenticación basada en Email';
@@ -72,7 +72,7 @@ $string['auth_ldap_objectclass'] = 'Filtro usado para usuarios name/search. Norm
 $string['auth_ldap_opt_deref'] = 'Determina cómo se manejan los alias durante la búsqueda. Seleccione uno de los siguientes valores: \"No\" (LDAP_DEREF_NEVER) o \"Sí\" (LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_passwdexpire_settings'] = 'Ajustes de caducidad de la contraseña LDAP.';
 $string['auth_ldap_preventpassindb'] = 'Seleccione \'sí\' para evitar que las contraseñas se almacenen en la base de datos de Moodle.';
-$string['auth_ldap_search_sub'] = 'Ponga el valor <> 0 si quiere buscar usuarios desde subcontextos.';
+$string['auth_ldap_search_sub'] = 'Ponga el valor distinto de 0 si quiere buscar usuarios desde subcontextos.';
 $string['auth_ldap_server_settings'] = 'Ajustes de servidor LDAP';
 $string['auth_ldap_update_userinfo'] = 'Actualizar información del usuario (nombre, apellido, dirección..) desde LDAP a Moodle. Mire en /auth/ldap/attr_mappings.php para información de mapeado';
 $string['auth_ldap_user_attribute'] = 'El atributo usado para nombrar/buscar usuarios. Normalmente \'cn\'.';
