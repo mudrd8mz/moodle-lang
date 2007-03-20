@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.6 (2006050506)
+      // workshop.php - created with Moodle 1.7.1 (2006101010)
 
 
 $string['absent'] = 'Absent';
@@ -131,22 +131,22 @@ $string['listofallsubmissions'] = 'List of all Submissions';
 $string['liststudentsassessments'] = 'List Student\'s Assessments';
 $string['loadingforteacherassessments'] = 'Loading for $a Assessments';
 $string['mail1'] = 'Your assignment \'$a\' has been assessed by';
-$string['mail10'] = 'You can assess it in your workshop assignment ';
+$string['mail10'] = 'You can assess it in your workshop assignment';
 $string['mail2'] = 'The comments and grade can be seen in the Workshop Assignment \'$a\'.';
 $string['mail3'] = 'You can see it in your Workshop Assignment';
 $string['mail4'] = 'A comment has been added to the assignment \'$a\' by';
 $string['mail5'] = 'The new comment can be seen in the Workshop Assignment \'$a\'.';
 $string['mail6'] = 'Your assessment of the assignment \'$a\' has been reviewed.';
-$string['mail7'] = 'The comments given by the $a can be seen in the Workshop Assignment ';
-$string['mail8'] = 'The assignment $a is a revised piece of work. ';
+$string['mail7'] = 'The comments given by the $a can be seen in the Workshop Assignment';
+$string['mail8'] = 'The assignment $a is a revised piece of work.';
 $string['mail9'] = 'Please assess it in the workshop assignment \'$a\'.';
 $string['managingassignment'] = 'Managing the Workshop';
 $string['maximum'] = 'Maximum';
 $string['maximumsize'] = 'Maximum Size';
 $string['mean'] = 'Mean';
 $string['minimum'] = 'Minimum';
-$string['modulename'] = 'Workshop';
-$string['modulenameplural'] = 'Workshops';
+$string['modulename'] = 'பணிமணை';
+$string['modulenameplural'] = 'பணிமணைகள்';
 $string['movingtophase'] = 'Moving to Phase $a';
 $string['namesnotshowntostudents'] = 'Names not shown to $a';
 $string['newassessments'] = 'New Assessments';
@@ -166,7 +166,7 @@ $string['noteonassessmentelements'] = 'Note that grading is broken down into a n
     Elements before making the assignment available to students. This is done by<br />
     clicking on the assignment in the course, if no elements are present you will be asked<br />
     to add them. You can change the number of elements using the Edit Assignment screen,<br />
-    the elements themselves can be amended from the \"Managing Assessment\" screen. ';
+    the elements themselves can be amended from the \"Managing Assessment\" screen.';
 $string['noteonstudentassessments'] = '{Grade from Student / Grading Grade for Assessment}';
 $string['notgraded'] = 'Not Graded';
 $string['notitle'] = 'No Title';

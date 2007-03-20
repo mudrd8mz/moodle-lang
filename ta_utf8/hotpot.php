@@ -1,19 +1,19 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6 (2006050506)
+      // hotpot.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['abandoned'] = 'Abandoned';
 $string['addquizchain'] = 'Add quiz chain';
-$string['allmycourses'] = 'என்னுடைய அனைத்து பாடத்திட்டங்கள்';
+$string['allusers'] = 'அனைத்துப் பயனாளர்கள்';
 $string['alwaysopen'] = 'எப்பொழுதும் திறந்த நிலையில்';
 $string['attemptsall'] = 'அனைத்து முயற்சிகள்';
 $string['attemptsbest'] = 'சிறந்த முயற்சி';
 $string['attemptsfirst'] = 'முதல் முயற்சி';
 $string['attemptslast'] = 'கடைசி முயற்சி';
 $string['average'] = 'சராசரி';
-$string['checks'] = 'Checks';
+$string['checks'] = 'சரிபார்';
 $string['clickreporting'] = 'Enable click reporting';
-$string['clues'] = 'Clues';
+$string['clues'] = 'குழுக்கள்';
 $string['completed'] = 'முடிந்துவிட்டது';
 $string['configexcelencodings'] = 'A list of encodings, separated by commas, that can be used to force report values into a specific encoding for spreadsheet programs. For example, Microsoft Excel requires the \"SJIS\" encoding for Japanese';
 $string['configshowtimes'] = 'Should the time taken to process records be displayed in listings and reports? This is only really necessary if you are trying to find out why your server is running slowly.';
@@ -25,7 +25,7 @@ $string['deleteabandonedcheck'] = 'Do you really want to delete all $a abandoned
 $string['displaycoursenext'] = 'Display Course page next';
 $string['displayhotpotnext'] = 'Display Hot Potatoes quiz next';
 $string['displayindexnext'] = 'Display HotPot index next';
-$string['enterafilename'] = 'Please enter a file name';
+$string['enterafilename'] = 'கோப்பின் பெயரை செலுத்து';
 $string['error_couldnotopenfolder'] = 'Could not access the folder \"$a\"';
 $string['error_couldnotopensourcefile'] = 'Could not open the source file \"$a\"';
 $string['error_couldnotopentemplate'] = 'Could not open template for \"$a\" format';
@@ -45,6 +45,13 @@ $string['filetype'] = 'கோப்பு வகை';
 $string['forceplugins'] = 'Force media plugins';
 $string['giveup'] = 'Give Up';
 $string['hints'] = 'Hints';
+$string['hotpot:attempt'] = 'Attempt a quiz';
+$string['hotpot:deleteattempt'] = 'Delete quiz attempts';
+$string['hotpot:grade'] = 'Modify grades';
+$string['hotpot:view'] = 'Use quiz';
+$string['hotpot:viewreport'] = 'View reports';
+$string['hotpotcloses'] = 'Hot Potatoes quiz closes';
+$string['hotpotopens'] = 'Hot Potatoes quiz opens';
 $string['ignored'] = 'Ignored';
 $string['inprogress'] = 'In progress';
 $string['location'] = 'File location';
@@ -55,7 +62,7 @@ $string['navigation_bar'] = 'Moodle navigation bar';
 $string['navigation_buttons'] = 'Hot Potatoes quiz buttons';
 $string['navigation_frame'] = 'Moodle navigation frame';
 $string['navigation_give_up'] = 'A single \"Give Up\" button';
-$string['navigation_iframe'] = 'Embedded &lt;IFRAME&gt;';
+$string['navigation_iframe'] = 'Embedded <IFRAME>';
 $string['navigation_none'] = 'எதுவுமில்லை';
 $string['neverclosed'] = 'Never closed';
 $string['noactivity'] = 'No activity';
@@ -138,7 +145,6 @@ $string['textsourcefilename'] = 'Use file name';
 $string['textsourcefilepath'] = 'Use file path';
 $string['textsourcequiz'] = 'Get from quiz';
 $string['textsourcespecific'] = 'Specific text';
-$string['thiscourse'] = 'This course';
 $string['timedout'] = 'Timed out';
 $string['updatequizchain'] = 'Update quiz chain';
 $string['weighting'] = 'Weighting';

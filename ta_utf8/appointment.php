@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // appointment.php - created with Moodle 1.6 (2006050506)
+      // appointment.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['allowresubmit'] = 'மறு சமர்ப்பிப்பு அனுமதி';
@@ -30,14 +30,14 @@ $string['timeend'] = 'நியமனம் முடிந்தது';
 $string['timestart'] = 'நியமனம் தொடங்கியது';
 $string['typeoffline'] = 'நிகழ்வற்ற செயல்நிலை';
 $string['typeuploadsingle'] = 'ஒரு கோப்பை ஏற்றுக';
-$string['uploadbadname'] = 'This filename contained strange characters and couldn\'t be uploaded';
+$string['uploadbadname'] = 'இந்த கோப்பின் பெயர் வேறுபட்ட எழுத்துருவைக் கொண்டிருப்பதால் மேலேற்றப்படவில்லை';
 $string['uploadedfiles'] = 'ஏற்றிய கோப்புகள்';
-$string['uploaderror'] = 'An error happened while saving the file on the server';
-$string['uploadfailnoupdate'] = 'File was uploaded OK but could not update your submission!';
+$string['uploaderror'] = 'எப்போது வழங்கியினுள் கோப்பு சேமிக்கப்படுகிறதோ அப்போது பிழை நேரிடுகிறது';
+$string['uploadfailnoupdate'] = 'கோப்புகள் மேலேற்றப்பட்டது. ஆனால் உங்களுடைய கீழ்ப்படிதல் புதுப்பிக்கப் படவில்லை!';
 $string['uploadfiletoobig'] = 'மன்னிக்கவும்,கோப்பின் அளவு பெரிய அளவினதாக உள்ளது. (குறைந்த $a அளவு)';
 $string['uploadnofilefound'] = 'எந்த கோப்பும் நிறுவப்படவில்லை. உறுதியாக ஏற்றப்படவேண்டியதை தேர்ந்தெடுக்கவும்.';
-$string['uploadnotregistered'] = '\'$a\' was uploaded OK but submission did not register!';
-$string['uploadsuccess'] = 'வெற்றிகரமாக \'$a\'  ஏற்றப்பட்டது ';
+$string['uploadnotregistered'] = '\'$a\' கோப்புகள் மேலேற்றப்பட்டது ,கீழ்ப்படிதல் பதிவு செய்யப்படவில்லை!';
+$string['uploadsuccess'] = 'வெற்றிகரமாக \'$a\'  ஏற்றப்பட்டது';
 $string['viewfeedback'] = 'நியமனத்தரம் மற்றும் பின்குறிப்பைப் பார்க்க';
 $string['viewsubmissions'] = 'பார்க்க $a சமர்ப்பித்த நியமனத்தை';
 $string['yoursubmission'] = 'உங்களுடைய சமர்ப்பிப்பு';

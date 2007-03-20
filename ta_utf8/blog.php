@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 (2006050506)
+      // blog.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['addnewentry'] = 'புதியவற்றை நுழை';
@@ -16,7 +16,9 @@ $string['blogtags'] = 'தள உரையாடலை இணைத்துவ�
 $string['courseblog'] = 'பாடக்கோப்பின் தள உரையாடல்: $a';
 $string['courseblogs'] = 'Users can only see blogs for people who share a course';
 $string['disableblogs'] = 'Disable blog system completely';
-$string['entrybody'] = 'Blog entry body';
+$string['emptybody'] = 'Blog entry body can not be empty';
+$string['emptytitle'] = 'Blog entry title can not be empty';
+$string['entrybody'] = 'உள் படிவம்';
 $string['entrybodyonlydesc'] = 'நுழைவு விவரம்';
 $string['entryerrornotyours'] = 'இந்த நுழைவு உங்களுடையதல்ல';
 $string['entrysaved'] = 'உங்கள் நுழைவு சேமிக்கப்பட்டது';
@@ -34,11 +36,11 @@ $string['numberoftags'] = 'எத்தனை அடையாளஒட்டை 
 $string['otags'] = 'அதிகாரத்தை இணைத்துவிடு';
 $string['pagesize'] = 'Number of blog entries per Page';
 $string['personalblogs'] = 'Users can only see their own blog';
-$string['ptags'] = 'User defined tags';
+$string['ptags'] = 'பயனாளர்களால் வரையறுக்கப்ட்ட இணைப்புகள்';
 $string['publishto'] = 'வெளியிடப்பட்ட';
 $string['publishtonoone'] = 'நீங்களாகவே(draft)';
-$string['publishtosite'] = 'Anyone on this site';
-$string['publishtoworld'] = 'Anyone in the world';
+$string['publishtosite'] = 'இந்த இணையத்தில் எவர் வேண்டுமானாலும்';
+$string['publishtoworld'] = 'இந்த உலகத்தில் எவர் வேண்டுமானாலும்';
 $string['settingsupdatederror'] = 'An error has occurred, blog preference setting could not be updated';
 $string['siteblog'] = 'தளத்தின் தள உரையாடல்: $a';
 $string['siteblogs'] = 'All site users can see all blog entries';

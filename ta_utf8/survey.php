@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.6 (2006050506)
+      // survey.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['actual'] = 'Actual';
@@ -199,6 +199,9 @@ $string['scaletimes5'] = 'Almost Never,Seldom,Sometimes,Often,Almost Always';
 $string['seemoredetail'] = 'Click here to see more detail';
 $string['selectedquestions'] = 'Selected questions from a scale, all students';
 $string['summary'] = 'Summary';
+$string['survey:download'] = 'Download responses';
+$string['survey:participate'] = 'Respond to survey';
+$string['survey:readresponses'] = 'View responses';
 $string['surveycompleted'] = 'You\'ve completed this survey.  The graph below shows a summary of your results compared to the class averages.';
 $string['surveyname'] = 'Survey name';
 $string['surveysaved'] = 'Survey saved';

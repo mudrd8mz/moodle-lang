@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6 (2006050506)
+      // chat.php - created with Moodle 1.7.1 (2006101010)
 
 
 $string['beep'] = 'மணி';
+$string['chat:chat'] = 'காலந்துரையாடலில் பேசு';
+$string['chat:deletelog'] = 'காலந்துரையாடலின் அறிக்கைகளை நீக்குக';
+$string['chat:readlog'] = 'காலந்துரையாடலின் அறிக்கைகளை வாசிக்க';
 $string['chatintro'] = 'அறிமுக எழுத்து';
 $string['chatname'] = 'இந்த உரையாடல் அறையின் பெயர்';
 $string['chatreport'] = 'உரையாடல் அமர்வுகள்';
@@ -19,41 +22,41 @@ $string['configserverport'] = 'Port to use on the server for the daemon';
 $string['currentchats'] = 'உரையாடல் அமர்வுகளின் செயலாக்கம்';
 $string['currentusers'] = 'நடப்பு பயனாளர்கள்';
 $string['deletesession'] = 'இந்த அமர்வு நீக்கம்';
-$string['deletesessionsure'] = 'Are you sure you want to delete this session?';
+$string['deletesessionsure'] = 'இந்தப் பகுதியை நீக்க விரும்புகிறீர்களா?';
 $string['donotusechattime'] = 'Don\'t publish any chat times';
-$string['enterchat'] = 'Click here to enter the chat now';
-$string['errornousers'] = 'Could not find any users!';
+$string['enterchat'] = 'கலந்துரையாடலில் கலந்து கொள்ள இங்கே சொடுக்கவும்';
+$string['errornousers'] = 'எந்தப் பயனாளரையும் கண்டுபிடிக்க முடியவில்லை!';
 $string['explaingeneralconfig'] = 'These settings are <strong>always</strong> into effect';
 $string['explainmethoddaemon'] = 'These settings matter <strong>only</strong> if you have selected \"Chat server daemon\" for chat_method';
 $string['explainmethodnormal'] = 'These settings matter <strong>only</strong> if you have selected \"Normal method\" for chat_method';
 $string['generalconfig'] = 'பொதுவான செம்மைப்படுத்தல்';
 $string['helpchatting'] = 'உதவியுடன் உரையாடு';
-$string['idle'] = 'Idle';
-$string['messagebeepseveryone'] = '$a beeps everyone!';
+$string['idle'] = 'உபயோகத்திலில்லை';
+$string['messagebeepseveryone'] = '$a ஒவ்வொருவருக்கும் ஒலி எழுப்பு!';
 $string['messagebeepsyou'] = '$a has just beeped you!';
 $string['messageenter'] = '$a has just entered this chat';
-$string['messageexit'] = '$a has left this chat';
+$string['messageexit'] = '$a கலந்துரையாடலிலிருந்து விலிகிவிட்டார்';
 $string['messages'] = 'தகவல்கள்';
 $string['methoddaemon'] = 'Chat server daemon';
 $string['methodnormal'] = 'சாதாரண முறை';
 $string['modulename'] = 'உரையாடல்';
 $string['modulenameplural'] = 'உரையாடல்கள்';
 $string['neverdeletemessages'] = 'தகவல்களை நீக்க முடியாது';
-$string['nextsession'] = 'Next scheduled session';
-$string['noguests'] = 'The chat is not open to guests';
-$string['nomessages'] = 'No messages yet';
-$string['normalkeepalive'] = 'KeepAlive';
+$string['nextsession'] = 'அடுத்த பகுதிக்கான காலம்';
+$string['noguests'] = 'விருந்தினர்கள் இந்த கலந்துரையாடலில் கலந்து கொள்ள இயலாது';
+$string['nomessages'] = 'எந்த தகவலும் இதுவரை இல்லை';
+$string['normalkeepalive'] = 'தனியாக வைத்திரு';
 $string['normalstream'] = 'தெடர்ந்து';
-$string['noscheduledsession'] = 'No scheduled session';
-$string['repeatdaily'] = 'At the same time every day';
+$string['noscheduledsession'] = 'பகுதிக்கான அட்டவணை இல்லை';
+$string['repeatdaily'] = 'ஒவ்வொரு நாளும் இதே நேரத்தில்';
 $string['repeatnone'] = 'No repeats - publish the specified time only';
 $string['repeattimes'] = 'சுழற்சியான அமர்வுகள்';
-$string['repeatweekly'] = 'At the same time every week';
+$string['repeatweekly'] = 'ஒவ்வொரு வாரமும் இதே நேரத்தில்';
 $string['savemessages'] = 'முடிந்த அமர்வுகளை சேமிக்க';
 $string['seesession'] = 'இந்த அமர்வைப் காண்';
 $string['sessions'] = 'உரையாடல் அமர்வு';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'முடிந்த அமர்வுகளை எவராலும் காண முடியும்';
-$string['viewreport'] = 'முடிந்த உரையாடல் அமர்வுகளை காண ';
+$string['viewreport'] = 'முடிந்த உரையாடல் அமர்வுகளை காண';
 
 ?>

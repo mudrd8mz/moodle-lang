@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.6 (2006050506)
+      // block_rss_client.php - created with Moodle 1.7.1+ (2006101010)
 
 
-$string['addfeed'] = 'Add a news feed URL: ';
+$string['addfeed'] = 'Add a news feed URL:';
 $string['addheadlineblock'] = 'Add RSS headline block';
 $string['addnew'] = 'புதியதைச் சேர்';
 $string['choosefeedlabel'] = 'Choose the feeds which you would like to make available in this block:';
@@ -24,19 +24,24 @@ $string['feeddeleted'] = 'செய்தி செலுத்துதலை �
 $string['feeds'] = 'செய்தி செலுத்துதல்';
 $string['feedsaddedit'] = 'சேர்க்க/ தொகு செலுத்து';
 $string['feedsconfigurenewinstance'] = 'Click here to configure this block to display RSS feeds.';
-$string['feedstitle'] = 'Remote RSS Feeds';
+$string['feedstitle'] = 'தொலைவு ஆர்எஸ்எஸ் நுழைவு';
 $string['feedupdated'] = 'News feed updated';
 $string['findmorefeeds'] = 'Find more rss feeds';
 $string['managefeeds'] = 'Manage all my feeds';
 $string['nofeeds'] = 'There are no RSS feeds defined for this site.';
 $string['pickfeed'] = 'Pick a news feed';
 $string['remotenewsfeed'] = 'Remote News Feed';
+$string['rss_client:createprivatefeeds'] = 'Create private RSS feeds';
+$string['rss_client:createsharedfeeds'] = 'Create shared RSS feeds';
+$string['rss_client:manageanyfeeds'] = 'Manage any RSS feeds';
+$string['rss_client:manageownfeeds'] = 'Manage own RSS feeds';
 $string['seeallfeeds'] = 'See all feeds';
+$string['sharedfeed'] = 'Shared feed';
 $string['shownumentrieslabel'] = 'Max number entries to show per block.';
 $string['submitters'] = 'Who will be allowed to define new rss feeds? Defined feeds are available for any page on your site.';
 $string['timeout'] = 'blockrsstimeout';
 $string['timeoutdesc'] = 'Time in minutes for an RSS feed to live in cache.';
-$string['updatefeed'] = 'Update a news feed URL: ';
+$string['updatefeed'] = 'Update a news feed URL:';
 $string['validatefeed'] = 'Validate feed';
 
 ?>

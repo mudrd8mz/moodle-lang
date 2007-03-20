@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // journal.php - created with Moodle 1.6 (2006050506)
+      // journal.php - created with Moodle 1.7.1 (2006101010)
 
 
-$string['alwaysopen'] = 'Always open';
-$string['blankentry'] = 'Blank entry';
-$string['daysavailable'] = 'Days available';
-$string['editingended'] = 'Editing period has ended';
-$string['editingends'] = 'Editing period ends';
+$string['alwaysopen'] = 'எப்பொழுதும் திறந்த நிலையில்';
+$string['blankentry'] = 'வெற்றிட நுழைவு';
+$string['daysavailable'] = 'கிடைக்க்கூடிய நாட்கள்';
+$string['editingended'] = 'பதிப்பிக்கும் காலம் முடிவடைந்து விட்டது';
+$string['editingends'] = 'பதிப்பிக்கும் காலம் முடிகிறது';
 $string['entries'] = 'நுழைவுகள்';
 $string['feedbackupdated'] = 'Feedback updated for $a entries';
 $string['journalmail'] = '$a->teacher has posted some feedback on your
@@ -27,12 +27,12 @@ $string['mailsubject'] = 'Journal feedback';
 $string['modulename'] = 'Journal';
 $string['modulenameplural'] = 'Journals';
 $string['newjournalentries'] = 'New journal entries';
-$string['noentry'] = 'No entry';
+$string['noentry'] = 'நுழைவு இல்லை';
 $string['noratinggiven'] = 'No rating given';
 $string['notopenuntil'] = 'This journal won\'t be open until';
 $string['notstarted'] = 'You have not started this journal yet';
 $string['overallrating'] = 'Overall rating';
-$string['rate'] = 'Rate';
+$string['rate'] = 'மதிப்பீடு';
 $string['saveallfeedback'] = 'Save all my feedback';
 $string['startoredit'] = 'Start or edit my journal entry';
 $string['viewallentries'] = 'View $a journal entries';

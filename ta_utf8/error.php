@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6 (2006050506)
+      // error.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['adminprimarynoedit'] = 'The primary admin cannot be edited by others';
@@ -11,9 +11,12 @@ $string['cannotfindcomponent'] = 'Cannot find component.';
 $string['cannotsavemd5file'] = 'Cannot save md5 file.';
 $string['cannotsavezipfile'] = 'Cannot save ZIP file.';
 $string['cannotunzipfile'] = 'Cannot unzip file.';
+$string['cantunenrollfrommetacourse'] = 'You can not unenrol from this meta course';
+$string['cantunenrollinthisrole'] = 'You can not unenrol from this course while you are in your current role.';
 $string['cmunknown'] = 'Couldn\'t find this course module';
 $string['componentisuptodate'] = 'Component is up to date.';
 $string['confirmsesskeybad'] = 'Sorry, but your session key could not be confirmed to carry out this action.  This security feature prevents against accidental or malicious execution of important functions in your name.  Please make sure you really wanted to execute this function.';
+$string['couldnotassignrole'] = 'A serious but unspecified error occurred while trying to assign a role to you';
 $string['coursegroupunknown'] = 'Course corresponding to group $a not specified';
 $string['downloadedfilecheckfailed'] = 'Downloaded file check failed.';
 $string['errorcleaningdirectory'] = 'Error cleaning directory \"$a\"';
@@ -34,15 +37,19 @@ $string['invalidcourse'] = 'Invalid course';
 $string['invalidfieldname'] = '\"$a\" is not a valid field name';
 $string['invalidfiletype'] = '\"$a\" is not a valid file type';
 $string['invalidmd5'] = 'Invalid md5';
+$string['invalidrole'] = 'Invalid role';
 $string['invalidxmlfile'] = '\"$a\" is not a valid XML file';
 $string['missingfield'] = 'Field \"$a\" is missing';
 $string['missingrequiredfield'] = 'Some required field is missing';
 $string['modulemissingcode'] = 'Module $a is missing the code needed to perform this function';
 $string['modulerequirementsnotmet'] = 'Module \"$a->modulename\" ($a->moduleversion) could not be installed.  It requires a newer version of Moodle (currently you are using $a->currentmoodle, you need $a->requiremoodle).';
 $string['mustbeteacher'] = 'You must be a teacher to look at this page';
-$string['noinstances'] = 'There are no instances of $a in this course! ';
+$string['nocontext'] = 'Sorry, but that course is not a valid context';
+$string['noinstances'] = 'There are no instances of $a in this course!';
+$string['nologinas'] = 'You are not allowed to login as that user';
 $string['nonmeaningfulcontent'] = 'Non meaningful content';
 $string['noparticipatorycms'] = 'Sorry, but you have no participatory course modules to report on.';
+$string['nopermissions'] = 'Sorry, but you do not currently have permissions to do that ($a)';
 $string['notavailable'] = 'That is not currently available';
 $string['onlyadmins'] = 'Only administrators can do that.';
 $string['onlyeditingteachers'] = 'Only editing teachers can do that.';

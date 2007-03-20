@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // pix.php - created with Moodle 1.6 (2006050506)
+      // pix.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['angry'] = 'கோபம்';
-$string['approve'] = 'அனுமதி கொடு';
+$string['approve'] = 'அனுமதி';
 $string['biggrin'] = 'big grin';
 $string['blackeye'] = 'கருப்பு கண்';
-$string['blush'] = 'சிவப்பு முகம்';
+$string['blush'] = 'சிவப்புமுகம்';
 $string['clown'] = 'கோமாளி';
 $string['cool'] = 'சாந்தமான';
 $string['dead'] = 'இறந்த';
@@ -18,9 +18,9 @@ $string['shy'] = 'வெட்கம்';
 $string['sleepy'] = 'தூக்கம்';
 $string['smiley'] = 'சிரி';
 $string['surprise'] = 'ஆச்சரியம்';
-$string['thoughtful'] = 'thoughtful';
-$string['tongueout'] = 'tongueout';
-$string['wideeyes'] = 'wide eyes';
-$string['wink'] = 'wink';
+$string['thoughtful'] = 'நினை';
+$string['tongueout'] = 'நாக்கு';
+$string['wideeyes'] = 'கண்கள்';
+$string['wink'] = 'மின்னக்கூடிய';
 
 ?>

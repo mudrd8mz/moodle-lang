@@ -1,12 +1,13 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.6 (2006050506)
+      // quiz_analysis.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['analysis'] = 'Item analysis';
+$string['analysisdownload'] = 'Analysis download';
 $string['analysisoptions'] = 'Analysis options';
 $string['analysistitle'] = 'Item Analysis Table';
 $string['attemptsall'] = 'அனைத்து முயற்சிகள்';
-$string['attemptselection'] = 'Attempts to analyze per user ';
+$string['attemptselection'] = 'Attempts to analyze per user';
 $string['attemptsfirst'] = 'முதல் முயற்சி';
 $string['attemptshighest'] = 'highest grade';
 $string['attemptslast'] = 'கடைசி  முயற்சி';
@@ -14,8 +15,8 @@ $string['dicsindextitle'] = 'Disc.<br />Index';
 $string['disccoefftitle'] = 'Disc.<br />Coeff.';
 $string['downloadooo'] = 'Download in OpenOffice format';
 $string['facilitytitle'] = '%% Correct<br />Facility';
-$string['lowmarkslimit'] = 'Don\'t analyse if score is less than: ';
-$string['pagesize'] = 'Questions per page: ';
+$string['lowmarkslimit'] = 'Don\'t analyse if score is less than:';
+$string['pagesize'] = 'Questions per page:';
 $string['qcounttitle'] = 'Q. count';
 $string['qidtitle'] = 'Q#';
 $string['qnametitle'] = 'கேள்விப் பெயர்';

@@ -1,18 +1,22 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.6 (2006050506)
+      // choice.php - created with Moodle 1.7.1 (2006101010)
 
 
 $string['addmorechoices'] = 'கூடுதலான விருப்பங்களைச் சேர்க்க';
 $string['allowupdate'] = 'மாற்றப்பட்ட விருப்பங்களை அனுமதி';
 $string['answered'] = 'பதிலளிக்கப்பட்டது';
 $string['choice'] = 'விருப்பம்';
+$string['choice:choose'] = 'விருப்பத்தை பதிவுசெய்';
+$string['choice:deleteresponses'] = 'பதில் அளிப்பதை நீக்கு';
+$string['choice:downloadresponses'] = 'பதில் அளிப்பதை கீழிறக்கு';
+$string['choice:readresponses'] = 'பதில் அளிப்பதை படி';
 $string['choiceclose'] = 'வரை';
 $string['choicename'] = 'விருப்பத்தின் பெயர்';
 $string['choiceopen'] = 'திறக்க';
 $string['choicetext'] = 'விருப்ப எழுத்து';
-$string['displayhorizontal'] = 'Display horizontally';
+$string['displayhorizontal'] = 'செங்குத்தாகக் காண்பி';
 $string['displaymode'] = 'Display Mode';
-$string['displayvertical'] = 'Display vertically';
+$string['displayvertical'] = 'குறுக்கு நெடுக்காக காண்பி';
 $string['full'] = '(மொத்தம்)';
 $string['havetologin'] = 'நீங்கள் விருப்பத்தை சமர்ப்பிப்பதற்கு முன் உள்நுழைய வேண்டும்';
 $string['limit'] = 'அளவான';
@@ -24,9 +28,9 @@ $string['notanswered'] = 'பதில் அளிக்கப்படவி�
 $string['notopenyet'] = 'Sorry, this activity is not available until $a';
 $string['privacy'] = 'Privacy of results';
 $string['publish'] = 'முடிவுகள் வெளியீடு';
-$string['publishafteranswer'] = 'Show results to a student after they answer';
+$string['publishafteranswer'] = 'பதில் அளித்த பின் மாணவார்களுக்கு தேர்வு முடிவைக்காண்பி';
 $string['publishafterclose'] = 'Show results to students only after the choice is closed';
-$string['publishalways'] = 'Always show results to students';
+$string['publishalways'] = 'மாணவர்களுக்கு எப்பொழுதும் முடிவைக் காண்பி';
 $string['publishanonymous'] = 'Publish anonymous results, do not show student names';
 $string['publishnames'] = 'Publish full results, showing names and their choices';
 $string['publishnot'] = 'மாணவர்களுக்கு முடிவுகளை வெளியிட முடியாது';

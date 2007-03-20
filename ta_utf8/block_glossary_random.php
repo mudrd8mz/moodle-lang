@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_glossary_random.php - created with Moodle 1.6 (2006050506)
+      // block_glossary_random.php - created with Moodle 1.7.1 (2006101010)
 
 
 $string['addentry'] = 'Add your own favorite quotes!';
@@ -11,15 +11,15 @@ $string['intro'] = 'Make sure you have at least one glossary with at least one e
 $string['invisible'] = '(தொடரவும்)';
 $string['lastmodified'] = 'கடைசியாக மாற்றப்பட்ட நுழைவு';
 $string['nextone'] = 'அடுத்த நுழைவு';
-$string['noentriesyet'] = 'There are no entries yet in the chosen glossary.';
+$string['noentriesyet'] = 'தேர்ந்தெடுக்கப்பட்ட சொற்கழஞ்சியத்தில் எந்த நுழைவும் இல்லை';
 $string['notyetconfigured'] = 'Please configure this block using the edit icon.';
 $string['notyetglossary'] = 'You need to have at least one glossary to choose.';
 $string['random'] = 'நேரடி நுழைவு';
 $string['refresh'] = 'Days before a new entry is chosen';
-$string['select_glossary'] = 'Take entries from this glossary';
+$string['select_glossary'] = 'இந்த சொற்கழஞ்சியத்தினுள் நுழைவுகளை எடு';
 $string['showconcept'] = 'Show concept (heading) for each entry';
 $string['title'] = 'தலைப்பு';
-$string['type'] = 'How a new entry is chosen';
+$string['type'] = 'எவ்வாறு புதிய நுழைவை தேர்ந்தெடுப்படுது';
 $string['typehelp'] = '<b>Last modified entry</b> will always display the entry that was last modified, and <b>Random entry</b> will choose a new one at random every time.  The option <b>Next entry</b> will cycle through the entries in order.  This last option is especially useful when a number of days is also chosen, allowing you to make a <i>Quote of the week</i> or a <i>Tip of the day</i> that everyone sees.';
 $string['viewglossary'] = 'More quotes...';
 $string['whichfooter'] = 'You can display links to actions of the glossary this block is associated with. The block will only display links to actions which are enabled for that glossary.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.6 (2006050506)
+      // enrol_ldap.php - created with Moodle 1.7.1 (2006101010)
 
 
 $string['description'] = '<p>You can use an LDAP server to control your enrolments.  
@@ -24,7 +24,7 @@ $string['description'] = '<p>You can use an LDAP server to control your enrolmen
 $string['enrol_ldap_autocreate'] = 'Courses can be created automatically if there are
                                     enrolments to a course  that doesn\'t yet exist 
                                     in Moodle.';
-$string['enrol_ldap_autocreation_settings'] = 'Automatic course creation settings';
+$string['enrol_ldap_autocreation_settings'] = 'தன்னிச்சையாக பாடத்தை உருவாக்கும் அமைப்பு';
 $string['enrol_ldap_bind_dn'] = 'If you want to use bind-user to search users, 
                                  specify it here. Someting like 
                                  \'cn=ldapuser,ou=public,o=org\'';
@@ -35,7 +35,7 @@ $string['enrol_ldap_course_idnumber'] = 'Map to the unique identifier in LDAP, u
                                          <em>cn</em> or <em>uid</em>. It is 
                                          recommended to lock the value if you are using 
                                          automatic course creation.';
-$string['enrol_ldap_course_settings'] = 'Course enrolment settings';
+$string['enrol_ldap_course_settings'] = 'பாடத்தில் பயனாளரை உட்செலுத்தும் அமைப்பு';
 $string['enrol_ldap_course_shortname'] = 'Optional: LDAP field to get the shortname from.';
 $string['enrol_ldap_course_summary'] = 'Optional: LDAP field to get the summary from.';
 $string['enrol_ldap_editlock'] = 'Lock value';
@@ -54,7 +54,7 @@ $string['enrol_ldap_student_contexts'] = 'List of contexts where groups with stu
 $string['enrol_ldap_student_memberattribute'] = 'Member attribute, when users belongs
                                           (is enrolled) to a group. Usually \'member\'
                                           or \'memberUid\'.';
-$string['enrol_ldap_student_settings'] = 'Student enrolment settings';
+$string['enrol_ldap_student_settings'] = 'பயனாளரை உட்செல்லும் அமைப்பு';
 $string['enrol_ldap_teacher_contexts'] = 'List of contexts where groups with teacher
                                           enrolments are located. Separate different 
                                           contexts with \';\'. For example: 
@@ -62,11 +62,11 @@ $string['enrol_ldap_teacher_contexts'] = 'List of contexts where groups with tea
 $string['enrol_ldap_teacher_memberattribute'] = 'Member attribute, when users belongs
                                           (is enrolled) to a group. Usually \'member\'
                                           or \'memberUid\'.';
-$string['enrol_ldap_teacher_settings'] = 'Teacher enrolment settings';
+$string['enrol_ldap_teacher_settings'] = 'ஆசிரியர் உட்செல்லும் அமைப்பு';
 $string['enrol_ldap_template'] = 'Optional: auto-created courses can copy 
                                   their settings from a template course.';
 $string['enrol_ldap_updatelocal'] = 'Update local data';
 $string['enrol_ldap_version'] = 'The version of the LDAP protocol your server is using.';
-$string['enrolname'] = 'LDAP';
+$string['enrolname'] = 'எல்டாப்';
 
 ?>
