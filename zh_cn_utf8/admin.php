@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7.1+ (2006101010)
+      // admin.php - created with Moodle 1.7.1+ (2006101011)
 
 
 $string['accessdenied'] = '访问被拒绝';
@@ -58,6 +58,7 @@ $string['configclamactlikevirus'] = '认为文件带病毒';
 $string['configclamdonothing'] = '认为文件没问题';
 $string['configclamfailureonupload'] = '如果您让clam扫描上传的文件，但并未正确配置clam或它因某些未知原因而运行失败了，那应该怎么做? 如果您选择了“认为文件带病毒”，那么它们将会被转移到隔离区或是被删除。如果您选择了“认为文件没问题”，那么文件将会如往常一样被转移到目标目录中。无论选择哪个，系统都会提醒管理员clam运行失败了。如果您选择“认为文件带病毒”且由于某些原因clam运行失败了(通常是因为您未能指定合法的pathtoclam值)，所有上传的文件将会被转移到隔离区或者被删除。使用这个设置要小心。';
 $string['configcountry'] = '如果在此处设定一个国家或地区，则他将被用于用户注册时的缺省选择。要强制用户自己选择一个国家或地区，保持此处为空白。';
+$string['configcoursemanager'] = '此设置允许您控制谁会出现在课程描述中。用户必须至少是这些角色中的一个，才能被显示在该课程的课程描述中。';
 $string['configcoursesperpage'] = '输入在课程列表中每页显示的课程数。';
 $string['configdbsessions'] = '如果开启此设定，将会使用数据库来保存当前的会话信息。这对于那些大的/繁忙的站点或是在集群上建立的站点是很有用的。对于多数站点这个选项应当保持关闭，即使用服务器硬盘来保存会话信息。注意改变这个设定将会强制退出所有的在线用户(包括您)。';
 $string['configdebug'] = '如果您打开这个选项，那么PHP的错误报告会增加，页面上会出现更多的警告信息。这只对开发人员有用。';
@@ -175,6 +176,7 @@ $string['configzip'] = 'zip程序的位置(仅针对Unix系统，可选)。如�
 $string['confirmation'] = '确认';
 $string['confirminstall'] = '您准备安装语言包({$a})，您确定吗？';
 $string['country'] = '默认的国家/地区';
+$string['coursemanager'] = '课程管理员';
 $string['coursemgmt'] = '添加/编辑课程';
 $string['courseoverview'] = '课程概述';
 $string['courserequests'] = '课程申请';
@@ -448,7 +450,7 @@ $string['upgradeforumreadinfo'] = '在Moodle 1.5中增加了一项新的功能�
 $string['upgradelogs'] = '要获得完整功能，您的旧日志必须升级。<a href=\"{$a}\">更多信息</a>';
 $string['upgradelogsinfo'] = '保存日志的方式最近有些变动。为了能查看每个活动的旧日志，它们必须被升级。这个过程所花费的时间取决于您的网站（可能长达几小时），并且会给大规模网站的数据库带来很大的负荷。一旦您开始了这个工作，就必须让它结束(一直开启浏览器)。不用担心——日志升级过程中，其他人仍然可以正常地使用网站。<br /><br />打算现在升级日志吗?';
 $string['upgradesettings'] = '新设置';
-$string['upgradesettingsintro'] = '在您的最新Moodle升级期间，添加下列显示中的此项设置。进行的任何改变必须为默认选项，然后在此页面的底部点击\" 并且保存设置\"';
+$string['upgradesettingsintro'] = '您刚升级的Moodle增加了下面所显示的新设置。对缺省设置做必要的修改后，点击页面底部的“保存更改”。';
 $string['upgradesure'] = '您的Moodle文件已经被修改了，您正在准备自动升级您的服务器为如下版本:
 <p><b>{$a}</b></p>
 <p>您一旦执行了这个操作就不能再返回到先前的版本了。</p>
