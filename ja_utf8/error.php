@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007021500)
+      // error.php - created with Moodle 1.9 dev (2007021501)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -39,7 +39,8 @@ $string['invalidfiletype'] = '「 $a 」は有効なファイルタイプでは�
 $string['invalidmd5'] = '無効なmp5ファイルです。';
 $string['invalidrole'] = '無効なロールです。';
 $string['invalidxmlfile'] = '「 $a 」は有効なXMLファイルではありません。';
-$string['loginascourseredir'] = 'あなたはこのコースに入ることはできません。<br />他のコースに入るには、現在の「ログイン」セッションを終了する必要があります。';
+$string['loginasnoenrol'] = 'コース「ログイン」セッション時、あなたはユーザ登録および登録抹消することはできません。';
+$string['loginasonecourse'] = 'あなたはこのコースに入ることはできません。<br />他のコースに入る前に、現在の「ログイン」セッションを終了する必要があります。';
 $string['missingfield'] = '「 $a 」 を入力してください。';
 $string['missingrequiredfield'] = 'いくつかの必須入力フィールドに入力されていません。';
 $string['modulemissingcode'] = 'この機能を実行するためのコードがモジュール $a にありません。';
