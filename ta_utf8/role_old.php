@@ -1,0 +1,77 @@
+<?PHP // $Id$ 
+      // role.php - created with Moodle 1.7.1+ (2006101010)
+
+
+$string['addrole'] = 'புது பங்கீனைச் சேர்';
+$string['allow'] = 'அனுமதி';
+$string['allowassign'] = 'பங்கு செயல்பாடுகளை அனுமதி';
+$string['allowoverride'] = 'பங்குகளை மேல் மாற்றம் செய்ய அனுமதி';
+$string['assignroles'] = 'பங்குகளைச் செயலாக்கு';
+$string['blog:create'] = 'புதிய தள உரையாடல் பகுதியைச் சேர்';
+$string['blog:manageentries'] = 'பகுதியை பதிப்பிட மற்றும் மேலாண்மை செய்ய';
+$string['blog:manageofficialtags'] = 'அலுவல் அடிப்படையில் தொகுப்பியைநாட்காட்டி பகுதிகளை நிர்வகிக்க';
+$string['blog:managepersonaltags'] = 'தனிப்பட்ட அடிப்படையில் தொகுப்பியை நாட்காட்டி பகுதிகளை நிர்வகிக்க';
+$string['blog:view'] = 'உரையாடல் தளப் பகுதிகளைக் காண';
+$string['calendar:manageentries'] = 'எந்த ஒரு நாட்காட்டி பகுதியையும் நிர்வகிக்க';
+$string['calendar:manageownentries'] = 'சொந்த நாட்காட்டி பகுதியை நிர்வகிக்க';
+$string['capabilities'] = 'திறமை';
+$string['capability'] = 'திறமைகள்';
+$string['category:create'] = 'தொகுப்பினை உருவாக்கு';
+$string['category:delete'] = 'தொகுப்பினை நீக்கு';
+$string['category:update'] = 'தொகுப்பினை சீரமைக்க';
+$string['category:visibility'] = 'மறைக்கப்பட்ட தொகுப்பினை காண';
+$string['course:activityvisibility'] = 'மறை/காண்பி செயல்பாடுகள்';
+$string['course:bulkmessaging'] = 'அதிகப்படியான மாணவர்களுக்கு செய்திகளை அனுப்பு';
+$string['course:create'] = 'பாடத்தை உருவாக்கு';
+$string['course:delete'] = 'பாடத்தை நீக்கு';
+$string['course:manageactivities'] = 'செயல்பாட்டை நிர்வகி';
+$string['course:managefiles'] = 'கோப்புகளை நிர்வகி';
+$string['course:managegrades'] = 'மதிப்பீட்டை நிர்வகி';
+$string['course:managegroups'] = 'குழுக்களை நிர்வகி';
+$string['course:managemetacourse'] = 'முதன்மை பாடத்தை நிர்வகி';
+$string['course:managescales'] = 'அளவுகளை நிர்வகி';
+$string['course:reset'] = 'அளவுகளை நிர்வகி';
+$string['course:setcurrentsection'] = 'தற்போதைய பிரிவை அமைத்துவை';
+$string['course:update'] = 'பாட அமைப்பை புதுப்பி';
+$string['course:useremail'] = 'மின்னஞ்சலை இயக்கு/நிறுத்து';
+$string['course:view'] = 'பாடத்தைக் காண்பி';
+$string['course:viewcoursegrades'] = 'பாடத்தின் மதிப்பீட்டைக் காண்பி';
+$string['course:viewhiddenactivities'] = 'மறைத்துவைக்கப்பட்ட செயல்பாட்டைக் காண்பி';
+$string['course:viewhiddencourses'] = 'மறைத்துவைக்கப்பட்ட பாடத்தைக் காண்பி';
+$string['course:viewhiddensections'] = 'மறைத்துவைக்கப்பட்ட பிரிவைக் காண்பி';
+$string['course:viewhiddenuserfields'] = 'மறைத்துவைக்கப்பட்ட பயனாளர் பகுதியைக் காண்பி';
+$string['course:viewparticipants'] = 'பங்கேற்பாளர்களைக் காண்பி';
+$string['course:viewscales'] = 'அளவீட்டைக் காண்பி';
+$string['course:visibility'] = 'பாடங்கள்  காண்பி / மறைத்துவை';
+$string['currentrole'] = 'நிகழ்நிலைப் பங்கு';
+$string['defineroles'] = 'பங்கினை வரையறு';
+$string['editrole'] = 'பங்கீனை பதிப்பி';
+$string['legacy:admin'] = 'நிர்வாகி';
+$string['legacy:coursecreator'] = 'பாடத்தை உருவாக்குபவர்';
+$string['legacy:editingteacher'] = 'ஆசிரியர்';
+$string['legacy:guest'] = 'விருந்தினர்';
+$string['legacy:student'] = 'மாணவர்';
+$string['legacy:teacher'] = 'ஆசிரியர் (பதிப்பு உரிமை இல்லை)';
+$string['permissions'] = 'அனுமதிகள்';
+$string['role:switchroles'] = 'மற்றொரு பயனாளருக்கு மாற்று';
+$string['selectrole'] = 'வரையறையைத் தேர்ந்தெடு';
+$string['site:backup'] = 'பாடத்தின் ஆதாரநகல்கள்';
+$string['site:config'] = 'இணைய அமைப்பை மாற்று';
+$string['site:doanything'] = 'அனைவரும் செய்ய அனுமதி';
+$string['site:import'] = 'மற்றொரு பாடத்திலிருந்து இந்த பாடத்திற்கு இறக்குமதி செய்';
+$string['site:uploadusers'] = 'கோப்பிலிருந்து புதிய பயனாளரை மேலேற்நு';
+$string['site:viewfullnames'] = 'பயனாளரின் முழுப்பெயரைப் பார்க்க அனுமதி';
+$string['site:viewparticipants'] = 'பங்கேற்பாளர்களை காண்பி';
+$string['site:viewreports'] = 'அறிக்கைகளை காண்பி';
+$string['user:create'] = 'பயனாளரை உருவாக்கு';
+$string['user:delete'] = 'பயனாளரை நீக்கு';
+$string['user:editprofile'] = 'பயனாளரின் தகவலை தொகு';
+$string['user:loginas'] = 'மற்றொரு பயனாளரில் உள்நுழை';
+$string['user:readuserposts'] = 'அனைத்துப் பயனாளரின் பதிவைக் காண்பி';
+$string['user:update'] = 'பயனாளரின் தகவலை புதுப்பி';
+$string['user:viewdetails'] = 'பயனாளரின் தகவலை காண்பி';
+$string['user:viewhiddendetails'] = 'மறைக்கப்பட்ட பயனாளரின் அதிகப்படியான தகவலைக் காண்பி';
+$string['user:viewuseractivitiesreport'] = 'பயனாளரின் செயல்பாட்டு அறிக்கையைக் காண்பி';
+$string['user:viewusergrades'] = 'பயனாளரின் மதிப்பிட்டைக் காண்பி';
+
+?>
