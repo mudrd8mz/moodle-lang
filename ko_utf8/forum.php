@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 dev (2007021500)
+      // forum.php - created with Moodle 1.9 dev (2007021501)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -78,6 +78,7 @@ $string['forum:createattachment'] = '첨부물 생성';
 $string['forum:deleteanypost'] = '(언제든) 어떤 게시물이든 삭제';
 $string['forum:deleteownpost'] = '자신의 게시물 삭제(시한 내)';
 $string['forum:editanypost'] = '게시물 편집';
+$string['forum:initialsubscriptions'] = '초기 구독';
 $string['forum:managesubscriptions'] = '구독 관리';
 $string['forum:movediscussions'] = '토론내용 이동';
 $string['forum:rate'] = '게시물 순위 산출';
@@ -228,7 +229,7 @@ $string['showsubscribers'] = '구독자 보기/고치기';
 $string['singleforum'] = '하나의 간단한 토론';
 $string['startedby'] = '시작됨';
 $string['subject'] = '주제';
-$string['subscribe'] = '이 포럼을 이메일로 보기';
+$string['subscribe'] = '이 포럼을 이메일로 받기';
 $string['subscribeall'] = '이 포럼을 모두에게 이메일로 보내기';
 $string['subscribed'] = '구독함';
 $string['subscribenone'] = '아무에게도 이메일 보내지 않기';
