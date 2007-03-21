@@ -4,7 +4,7 @@
 
 $string['createSequence'] = '创建新的教学序列';
 $string['editSequence'] = '编辑选中的序列';
-$string['error'] = '抱歉，发生了一个未知的错误。';
+$string['error'] = '很抱歉，发生了一个未知的错误。';
 $string['introduction'] = '介绍';
 $string['lams'] = '--LAMS --学习活动管理系统 --';
 $string['lams:manage'] = '管理LAMS活动';

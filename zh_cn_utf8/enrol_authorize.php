@@ -103,7 +103,7 @@ $string['echecksavings'] = '存款';
 $string['enrolname'] = 'Authorize.net 信用卡网关';
 $string['expired'] = '终止';
 $string['howmuch'] = '多少？';
-$string['httpsrequired'] = '我们很抱歉地告诉您目前还无法处理您的请求。这个站点的配置有错误。
+$string['httpsrequired'] = '我很抱歉地告诉您，目前还无法处理您的请求。这个站点的配置有错误。
 <br /><br />
 除非您看到您浏览器的底部出钱一个黄色的小锁，否则请不要输入您的信用卡号。这个锁表示客户端和服务器之间的通信将会被加密，从而保证两台电脑之间的通信会受到保护，以确保您的信用卡号不会泄漏。';
 $string['invalidaba'] = '无效的ABA号';
