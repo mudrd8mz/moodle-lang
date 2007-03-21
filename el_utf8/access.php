@@ -3,5 +3,12 @@
 
 
 $string['access'] = 'Προσβασιμότητα';
+$string['accesshelp'] = 'Βοήθεια προσβασιμότητας';
+$string['activitynext'] = 'Επόμενη δραστηριότητα';
+$string['activityprev'] = 'Προηγούμενη δραστηριότητα';
+$string['monthnext'] = 'Επόμενος μήνας';
+$string['monthprev'] = 'Προηγούμενος μήνας';
+$string['sitemap'] = 'Χάρτης ιστοσελίδας';
+$string['youarehere'] = 'Είστε εδώ';
 
 ?>

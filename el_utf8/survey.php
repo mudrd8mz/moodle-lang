@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.6 development (2006031000)
+      // survey.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['actual'] = 'Πραγματικό';
@@ -170,7 +170,7 @@ $string['howlong'] = 'Πόση ώρα σας πήρε για να συμπληρ
 $string['howlongoptions'] = 'Κάτω από 1 λεπτό, 1-2 λεπτά, 2-3 λεπτά, 3-4 λεπτά, 4-5-λεπτά, 5-10 λεπτά, περισσότερο από 10 λεπτά';
 $string['ifoundthat'] = 'Ανακάλυψα οτι';
 $string['introtext'] = 'Κείμενο εισαγωγής';
-$string['ipreferthat'] = 'Προτιμώ ';
+$string['ipreferthat'] = 'Προτιμώ';
 $string['modulename'] = 'Έρευνα';
 $string['modulenameplural'] = 'Έρευνες';
 $string['name'] = 'Όνομα';
@@ -194,6 +194,9 @@ $string['scaletimes5'] = 'Σχεδόν ποτέ, Σπάνια, Μερικές φ
 $string['seemoredetail'] = 'Κάντε κλικ εδώ για να δείτε περισσότερες λεπτομέρειες';
 $string['selectedquestions'] = 'Επιλεγμένες ερωτήσεις μιας κλίμακας, όλοι οι μαθητές';
 $string['summary'] = 'Περίληψη';
+$string['survey:download'] = 'Κατέβασε τις απαντήσεις';
+$string['survey:participate'] = 'Συμμετοχή στην έρευνα';
+$string['survey:readresponses'] = 'Δές τις απαντήσεις';
 $string['surveycompleted'] = 'Έχετε ολοκληρώσει αυτή την έρευνα. Το παρακάτω γράφημα δείχνει μια περίληψη των αποτελεσμάτων σας, συγκρινόμενο με τους μέσους όρους της τάξης.';
 $string['surveyname'] = 'Ονομασία έρευνας';
 $string['surveysaved'] = 'Αποθήκευση έρευνας';

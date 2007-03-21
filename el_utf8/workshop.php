@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.6 development (2006031000)
+      // workshop.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['absent'] = 'Απών';
@@ -35,7 +35,7 @@ $string['beforedeadline'] = 'Πριν την Προθεσμία: $a';
 $string['calculationoffinalgrades'] = 'Υπολογισμός των Τελικών Βαθμών';
 $string['closeassignment'] = 'Κλείσιμο Αξιολόγησης';
 $string['comment'] = 'Σχόλιο';
-$string['commentby'] = 'Σχόλιο από ';
+$string['commentby'] = 'Σχόλιο από';
 $string['confirmdeletionofthisitem'] = 'Επιβεβαίωση Διαγραφής από το $a';
 $string['correct'] = 'Σωστό';
 $string['criterion'] = 'Κριτήριο';
@@ -81,7 +81,7 @@ $string['mail3'] = 'Μπορείς να το δεις στο Εργαστήρι�
 $string['mail4'] = 'Ένα σχόλιο έχει προστεθεί στην ανάθεσή σου \'$a\' από';
 $string['mail5'] = 'Το νέο σχόλιο φαίνεται Εργαστήριο της Ανατεθείσας Εργασίας του \'$a\'';
 $string['mail6'] = 'Η αξιολόγηση της ανάθεσής σου \'$a\' έχει αναθεωρηθεί';
-$string['mail7'] = 'Τα σχόλια που δόθηκαν από το $a φαίνονται στο Εργαστήριο της Ανατεθείσας Εργασίας ';
+$string['mail7'] = 'Τα σχόλια που δόθηκαν από το $a φαίνονται στο Εργαστήριο της Ανατεθείσας Εργασίας';
 $string['managingassignment'] = 'Διαχείριση της ανάθεσης';
 $string['maximumsize'] = 'Μέγιστο Μέγεθος';
 $string['modulename'] = 'Εργαστήριο';
@@ -102,7 +102,7 @@ $string['numberofassessments'] = 'Αριθμός Αξιολογήσεων';
 $string['numberofassessmentsofstudentsubmissions'] = 'Αριθμός Αξιολογήσεων των Υποβολών Μαθητών';
 $string['numberofassessmentsofteachersexamples'] = 'Αριθμός Αξιολογήσεων των Παραδειγμάτων από τον Καθηγητή';
 $string['on'] = 'την $a';
-$string['openassignment'] = '¶νοιγμα Ανάθεσης';
+$string['openassignment'] = 'Άνοιγμα Ανάθεσης';
 $string['optionforpeergrade'] = 'Επιλογή για Όμοιο Βαθμό';
 $string['overallgrade'] = 'Συνολικός Βαθμός';
 $string['overallpeergrade'] = 'Συνολικός Όμοιος Βαθμός: $a';
@@ -163,11 +163,13 @@ $string['title'] = 'Τίτλος';
 $string['typeofscale'] = 'Τύπος Κλίμακας';
 $string['ungradedassessmentsofstudentsubmissions'] = '$a Αβαθμολόγητες Αξιολογήσεις Υποβολών των Μαθητών';
 $string['ungradedassessmentsofteachersubmissions'] = '$a Αβαθμολόγητες Αξιολογήσεις Υποβολών των Καθηγητών';
+$string['uploadsuccess'] = 'Ανέβασμα επιτυχημένο';
 $string['verypoor'] = 'Αδύναμος';
 $string['view'] = 'Εμφάνιση';
 $string['viewassessmentofteacher'] = 'Εμφάνιση Αξιολόγησης από $a';
 $string['viewotherassessments'] = 'Εμφάνιση άλλων Αξιολογήσεων';
 $string['warningonamendingelements'] = 'ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Υπάρχουν υποβαλλόμενες αξιολογήσεις. <br />ΜΗΝ αλλάζετε τον αριθμό των στοιχείων, τους τύπους κλίμακας ή τη στάθμιση των στοιχείων';
+$string['weight'] = 'Βάρος';
 $string['weightederrorcount'] = 'Σταθμισμένη Αρίθμηση Λάθους: $a';
 $string['weightforbias'] = 'Μέτρο για Μεροληψία';
 $string['weightforgradingofassessments'] = 'Μέτρο για τη Βαθμολόγηση των Αξιολογήσεων';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.6 development (2006031000)
+      // calendar.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['calendar'] = 'Ημερολόγιο';
@@ -30,6 +30,7 @@ $string['eventendtime'] = 'Λήξη';
 $string['eventinstanttime'] = 'Ώρα';
 $string['eventkind'] = 'Είδος γεγονότος';
 $string['eventname'] = 'Όνομα';
+$string['eventnone'] = 'Κανένα γεγονός';
 $string['eventrepeat'] = 'Επαναλήψεις';
 $string['eventsfor'] = 'Γεγονότα: $a';
 $string['eventstarttime'] = 'Έναρξη';
@@ -59,6 +60,7 @@ $string['pref_startwday'] = 'Πρώτη μέρα εβδομάδας';
 $string['pref_timeformat'] = 'Μορφή εμφάνισης ώρας';
 $string['preferences'] = 'Προτιμήσεις';
 $string['preferences_available'] = 'Διαθέσιμες προσωπικές προτιμήσεις';
+$string['repeateditthis'] = 'Εφάρμοσε τις αλλαγές σε αυτό το γεγονός μόνο';
 $string['repeatnone'] = 'Χωρίς επανάληψη';
 $string['repeatweeksl'] = 'Εβδομαδιαία επανάληψη,';
 $string['repeatweeksr'] = 'φορές συνολικά';
