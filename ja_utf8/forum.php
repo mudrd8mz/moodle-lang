@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 dev (2007021500)
+      // forum.php - created with Moodle 1.9 dev (2007021501)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -78,6 +78,7 @@ $string['forum:createattachment'] = '添付ファイルを作成する';
 $string['forum:deleteanypost'] = 'どの投稿でも削除する (いつでも)';
 $string['forum:deleteownpost'] = '自分の投稿を削除する (期限内)';
 $string['forum:editanypost'] = 'どの投稿でも編集する';
+$string['forum:initialsubscriptions'] = '最初のメール購読';
 $string['forum:managesubscriptions'] = 'メール購読を管理する';
 $string['forum:movediscussions'] = 'ディスカッションを移動する';
 $string['forum:rate'] = '投稿を評価する';
