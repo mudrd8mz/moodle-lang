@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.7+ (2006101007)
+      // wiki.php - created with Moodle 1.7.1+ (2006101011)
 
 
 $string['action'] = '-- 动作 --';
@@ -94,7 +94,7 @@ $string['linkok'] = '好的';
 $string['linkschecked'] = '链接已检查';
 $string['listall'] = '列出全部';
 $string['listcandidates'] = '列出候选的';
-$string['lockcancelled'] = '您编辑的锁已经被覆盖，而且其他一些人现在在编辑此页面。如果您希望保留自己的更改，请在点击取消之前选择并且复制这些变化，然后尝试重新编辑。';
+$string['lockcancelled'] = '您的编辑锁已经被覆盖，而且其他人正在编辑此页面。如果您希望保留自己的更改，请在点击取消之前选择并且拷贝这些变化，然后尝试重新编辑。';
 $string['meta'] = '元数据';
 $string['moduledirectory'] = '模块目录';
 $string['modulename'] = 'Wiki';
@@ -106,7 +106,7 @@ $string['noadministrationaction'] = '没有管理员动作。';
 $string['nocandidatestoremove'] = '没有要删除的候选页面，选择“{$a}”以显示所有页面。';
 $string['nochangestorevert'] = '没有需恢复的修改。';
 $string['nohtml'] = '不用HTML';
-$string['nojslockwarning'] = '因为在您的浏览器中Javascript无效，所以某些别的人可以编辑此页面。如果发生了这样的事，您将无法保存您的更改。请尝试快速编辑，或者打开Javascript，并且重新装载此页面。';
+$string['nojslockwarning'] = '因为在您的浏览器中Javascript无效，所以可能会有别人编辑此页面。如果发生了这样的事，您将无法保存您的更改。请尝试快速编辑，或者打开Javascript，并且重新装载此页面。';
 $string['nolinksfound'] = '此页面无链接。';
 $string['noregexp'] = '这必须是一个固定字符串(您不能使用*或者正则表达式)，最好使用攻击者的IP地址或主机名，但不要包含端口号(因为每次http访问俄它都会变化)。';
 $string['notadministratewiki'] = '您无权管理此Wiki！';
@@ -119,7 +119,7 @@ $string['orphanedpage'] = '孤儿页面';
 $string['orphanedpages'] = '孤儿页面';
 $string['otherwikis'] = '其它Wiki';
 $string['overridebutton'] = '覆盖锁';
-$string['overrideinfo'] = '您可以覆盖这个用户的锁，但是这样做可能会导致失去他们的更改！请小心。';
+$string['overrideinfo'] = '您可以覆盖这个用户的锁，但是这样做可能会导致他们的更改丢失！请小心。';
 $string['ownerunknown'] = '未知';
 $string['pageactions'] = '页面动作';
 $string['pageindex'] = '页面索引';
@@ -149,12 +149,12 @@ $string['revertpagescheck'] = '您确定要恢复下列修改么：';
 $string['revertthe'] = '恢复到特定版本，但只删除受影响的';
 $string['safehtml'] = '安全的HTML';
 $string['save'] = '保存';
-$string['savenolock'] = '您无法保存页面，因为您没有编辑锁。如果您的浏览器关闭了Javascript，或者其他用户覆盖了您的锁，那么就可能会发生这种事。<br/><br/>您可以使用浏览器的回退按钮返回到前一个页面，并且复制任何您做过修改的文本，然后再重新编译。';
+$string['savenolock'] = '您无法保存页面，因为您没有编辑锁。如果您的浏览器关闭了Javascript，或者其他用户覆盖了您的锁，那么就可能会发生这种事。<br/><br/>您可以使用浏览器的回退按钮返回到前一个页面，并且拷贝任何您做过修改的文本，然后再重新编译。';
 $string['searchwiki'] = '搜索Wiki';
 $string['setpageflags'] = '设定页面标志';
-$string['showversions'] = '显示版本';
+$string['showversions'] = '显示版本：';
 $string['sitemap'] = '站点地图';
-$string['smfor'] = '为...站点地图';
+$string['smfor'] = '站点地图 for';
 $string['status'] = '状态';
 $string['strippagecheck'] = '您确定要裁减掉这个页面的旧版本么：';
 $string['strippages'] = '裁减页面';
@@ -183,7 +183,7 @@ $string['versionstodelete'] = '要删除的版本';
 $string['viewpage'] = '显示页面';
 $string['viewsmfor'] = '显示站点地图';
 $string['wantedpages'] = '待建页面';
-$string['wiki:manage'] = '管理wiki配置';
+$string['wiki:manage'] = '管理wiki设置';
 $string['wiki:overridelock'] = '覆盖被锁页面';
 $string['wiki:participate'] = '编辑wiki页面';
 $string['wikidefaultpagename'] = 'Wiki索引';

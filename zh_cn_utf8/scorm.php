@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7+ (2006101007)
+      // scorm.php - created with Moodle 1.7.1+ (2006101011)
 
 
 $string['advanced'] = '高级';
@@ -18,7 +18,8 @@ $string['browsemode'] = '浏览模式';
 $string['browserepository'] = '浏览库';
 $string['chooseapacket'] = '选择或更新一个包';
 $string['completed'] = '已完成';
-$string['confirmloosetracks'] = '警告：此包好像发生了改变或者被修改过了。如果改变了包的结构，那么在更新过程中一些用户的路径可能会丢失。';
+$string['confirmloosetracks'] = '警告：此包可能发生了改变或者被修改过了。如果改变了包的结构，那么在更新过程中一些用户的路径可能会丢失。';
+$string['contents'] = '目录';
 $string['coursepacket'] = '课程包';
 $string['coursestruct'] = '课程结构';
 $string['datadir'] = '文件系统错误：不能创建课程数据目录';
@@ -47,7 +48,7 @@ $string['gradesum'] = '总成绩';
 $string['height'] = '高度';
 $string['hidden'] = '隐藏';
 $string['hidebrowse'] = '显示预览状态';
-$string['hideexit'] = '隐藏存在的链接';
+$string['hideexit'] = '隐藏退出链接';
 $string['hidenav'] = '隐藏导航按钮';
 $string['hidereview'] = '隐藏回顾按钮';
 $string['hidetoc'] = '课程结构显示(TOC)';
@@ -106,9 +107,9 @@ $string['reviewmode'] = '回顾方式';
 $string['scoes'] = '学习对象';
 $string['score'] = '成绩';
 $string['scorm:savetrack'] = '保存路径';
-$string['scorm:skipview'] = '跳过浏览';
-$string['scorm:viewreport'] = '阅读报告';
-$string['scorm:viewscores'] = '阅读分数';
+$string['scorm:skipview'] = '跳过概览';
+$string['scorm:viewreport'] = '查看报告';
+$string['scorm:viewscores'] = '查看分数';
 $string['scormcourse'] = '学习课程';
 $string['scrollbars'] = '允许滚动此窗口';
 $string['sided'] = '在左边';

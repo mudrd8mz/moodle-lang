@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7+ (2006101007)
+      // role.php - created with Moodle 1.7.1+ (2006101011)
 
 
-$string['addrole'] = '添加一个新的角色';
+$string['addrole'] = '添加一个新角色';
 $string['allow'] = '允许';
 $string['allowassign'] = '允许角色分配';
 $string['allowoverride'] = '允许角色覆盖';
@@ -46,7 +46,7 @@ $string['course:viewscales'] = '浏览等级';
 $string['course:visibility'] = '隐藏/显示课程';
 $string['currentcontext'] = '当前上下文';
 $string['currentrole'] = '当前角色';
-$string['defaultrole'] = '默认的角色';
+$string['defaultrole'] = '默认角色';
 $string['defineroles'] = '定义角色';
 $string['deleterolesure'] = '您却定要删除角色“{$a->name} ({$a->shortname})”？</p><p>当前此角色已经分配給{$a->count}个用户了。';
 $string['editrole'] = '编辑角色';
@@ -64,9 +64,9 @@ $string['legacy:student'] = '旧版角色：学生';
 $string['legacy:teacher'] = '旧版角色：教师（无编辑权）';
 $string['listallroles'] = '列出全部角色';
 $string['manageroles'] = '管理角色';
-$string['metaassignerror'] = '不能为用户\"{$a}\" 配置此角色，因为此角色要求管理元课程的能力。';
-$string['metaunassignerror'] = '自动重新配置用户\"{$a}\"的角色，反之请在子课程中不配置角色。';
-$string['nocapabilitiesincontext'] = '在此内容中没有有效的性能';
+$string['metaassignerror'] = '不能为用户\"{$a}\" 配置此角色，因为此角色需要管理元课程的能力。';
+$string['metaunassignerror'] = '用户角色“{$a}”被自动重新分配，请在子课程中取消分配。';
+$string['nocapabilitiesincontext'] = '在此环境中没有有效的能力';
 $string['overrideroles'] = '覆盖角色';
 $string['overrides'] = '覆盖';
 $string['permissions'] = '权限';
@@ -86,8 +86,8 @@ $string['role:unassignself'] = '从课程中注销';
 $string['role:viewhiddenassigns'] = '浏览隐藏的角色';
 $string['roleassignments'] = '角色分配';
 $string['roles'] = '角色';
-$string['roletoassign'] = '分配的角色';
-$string['roletooverride'] = '替换的角色';
+$string['roletoassign'] = '被分配的角色';
+$string['roletooverride'] = '被替换的角色';
 $string['selectrole'] = '选择角色';
 $string['showallroles'] = '显示全部角色';
 $string['site:accessallgroups'] = '访问所有组';
@@ -117,6 +117,6 @@ $string['user:viewhiddendetails'] = '浏览用户隐藏的个人信息';
 $string['user:viewuseractivitiesreport'] = '查看用户活动报告';
 $string['user:viewusergrades'] = '浏览用户成绩';
 $string['viewrole'] = '浏览角色详细信息';
-$string['xuserswiththerole'] = '具有\"{$a->role}\"角色权力的用户：{$a->number}';
+$string['xuserswiththerole'] = '具有\"{$a->role}\"角色权力的用户数：{$a->number}';
 
 ?>

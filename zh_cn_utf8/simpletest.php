@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 1.7+ (2006101007)
+      // simpletest.php - created with Moodle 1.7.1+ (2006101011)
 
 
 $string['all'] = '全部';
@@ -7,7 +7,7 @@ $string['exception'] = '异常';
 $string['fail'] = '失败';
 $string['ignorefile'] = '忽略文件中的测试';
 $string['ignorethisfile'] = '忽略此测试文件，重新运行测试。';
-$string['moodleunittests'] = 'moodle单元测试：{$a}';
+$string['moodleunittests'] = 'Moodle单元测试：{$a}';
 $string['notice'] = '注意';
 $string['onlytest'] = '测试只运行于';
 $string['pass'] = '通过';
@@ -23,9 +23,10 @@ $string['rununittests'] = '运行单元测试';
 $string['showpasses'] = '既显示通过也显示失败';
 $string['showsearch'] = '显示用于测试文件的搜索';
 $string['stacktrace'] = '栈跟踪：';
-$string['summary'] = '{$a->run}/{$a->total} 测试实例完成: <strong>{$a->passes}</strong> 通过, <strong>{$a->fails}</strong> 失败并且 <strong>{$a->exceptions}</strong> 异常。';
+$string['summary'] = '{$a->run}/{$a->total} 测试用例完成：
+<strong>{$a->passes}</strong>个通过, <strong>{$a->fails}</strong>个失败并且 <strong>{$a->exceptions}</strong>个异常。';
 $string['thorough'] = '运行整个测试（可能会很慢）。';
-$string['uncaughtexception'] = '在[{$a->getFile()}:{$a->getLine()}] 中未捕获到的异常[{$a->getMessage()}]测试失败。';
+$string['uncaughtexception'] = '在[{$a->getFile()}:{$a->getLine()}]中未捕获到异常[{$a->getMessage()}]。测试异常中断。';
 $string['unittests'] = '单元测试';
 $string['version'] = '使用<a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a>版本{$a}。';
 
