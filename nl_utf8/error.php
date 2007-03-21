@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007021400)
+      // error.php - created with Moodle 1.9 dev (2007021501)
 
 
 $string['adminprimarynoedit'] = 'Het profiel van de beheerder met het kleinste gebruikersnummer kan door de andere beheerders niet gewijzigd worden';
@@ -39,6 +39,8 @@ $string['invalidfiletype'] = '\"$a\" is geen geldig bestandstype';
 $string['invalidmd5'] = 'Ongeldig md5';
 $string['invalidrole'] = 'Ongeldige rol';
 $string['invalidxmlfile'] = '\"$a\" is geen geldig XML-bestand';
+$string['loginasnoenrol'] = 'Je kunt aanmelden en afmelden bij een cursus niet gebruiken wanneer je met een \"Login als\"-sessie een cursus bekijkt.';
+$string['loginasonecourse'] = 'Je kunt deze cursus niet openen.<br />Je moet je \"Login als\"-sessie beëindigen voor je een andere cursus opent.';
 $string['missingfield'] = 'Veld \"$a\" ontbreekt';
 $string['missingrequiredfield'] = 'Vereist veld ontbreekt';
 $string['modulemissingcode'] = 'De code die nodig is om deze functie uit te voeren ontbreekt in module $a.';

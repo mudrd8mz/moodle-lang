@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.9 dev (2007021500)
+      // qtype_calculated.php - created with Moodle 1.9 dev (2007021501)
 
 
 $string['addmoreanswerblanks'] = 'Nog een lijn toevoegen';
@@ -21,6 +21,7 @@ $string['nextitemtoadd'] = 'Volgend Item om toe te voegen';
 $string['nextpage'] = 'Volgende pagina';
 $string['nodataset'] = 'niets - is geen jokerteken';
 $string['nosharedwildcard'] = 'Geen gedeeld jokerteken in deze categorie';
+$string['possiblehdr'] = 'Mogelijke jokertekens enkel in de vraagtekst aanwezig.';
 $string['tolerance'] = 'Tolerantie';
 $string['usedinquestion'] = 'Gebruikt in vraag';
 $string['youmustenteramultiplierhere'] = 'Je moet hier een vermenigvuldigtal opgeven.';
