@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7.1+ (2006101010)
+      // assignment.php - created with Moodle 1.7.1+ (2006101011)
 
 
 $string['allowdeleting'] = '允许删除';
 $string['allowmaxfiles'] = '上传文件的最大数量';
 $string['allownotes'] = '允许注释';
 $string['allowresubmit'] = '允许重交';
-$string['assignment:grade'] = '给作业打分';
+$string['assignment:grade'] = '作业评分';
 $string['assignment:submit'] = '提交作业';
 $string['assignment:view'] = '查看作业';
 $string['assignmentdetails'] = '布置作业细节';
@@ -23,15 +23,15 @@ $string['comment'] = '评论';
 $string['commentinline'] = '内嵌点评';
 $string['configitemstocount'] = '学生提交的在线作业的计数单位';
 $string['configmaxbytes'] = '缺省情况下站点中作业的最大尺寸(同时受课程和其它本地设置的限制)';
-$string['confirmdeletefile'] = '您完全确信要删除此文件吗？<br /><strong>$a</strong>';
-$string['deletefilefailed'] = '文件删除失败';
+$string['confirmdeletefile'] = '您完全确定要删除此文件吗？<br /><strong>$a</strong>';
+$string['deletefilefailed'] = '文件删除失败。';
 $string['description'] = '描述';
 $string['draft'] = '草稿';
 $string['duedate'] = '截止日期';
 $string['duedateno'] = '无截止日期';
 $string['early'] = '{$a}之前';
 $string['editmysubmission'] = '修改已提交的作业';
-$string['emailstudents'] = '警告学生们的邮件';
+$string['emailstudents'] = '用Email提醒学生';
 $string['emailteachermail'] = '{$a->username}更新了他为作业“{$a->assignment}”提交的内容。新内容位于:
 
 $a->url';
@@ -45,7 +45,7 @@ $string['feedbackfromteacher'] = '来自{$a}的反馈';
 $string['feedbackupdated'] = '为{$a}个人更新上交反馈';
 $string['graded'] = '已评分';
 $string['guestnosubmit'] = '对不起，访客不能提交作业。您在提交答案前应登录或注册。';
-$string['guestnoupload'] = '抱歉，访客用户不允许提交作业';
+$string['guestnoupload'] = '抱歉，不允许访客提交作业';
 $string['helpoffline'] = '<p>如果学生在Moodle之外完成作业（比如在其它网站，或者与教师直接交流），那么可以使用这种类型的作业。</p><p> 学生可以看到作业的描述，但不能上传包括文件在内的任何信息。教师依然可以对作业评分，学生也会得到关于他们的分数的通知。</p>';
 $string['helponline'] = '<p>这种类型的作业让学生使用普通的编辑工具来编辑文本。教师可以对作业在线评分，甚至可以修改和嵌入点评到学生的答案里。</p>
 <p>（如果您熟悉旧版本的Moodle，那么这种类型的作业完成和旧的日志模块相同的工作。）</p>';
@@ -69,14 +69,14 @@ $string['noassignments'] = '尚无作业';
 $string['noattempts'] = '尚无人尝试做此作业';
 $string['nofiles'] = '没有提交任何文件';
 $string['nofilesyet'] = '还没有文件被提交';
-$string['notavailableyet'] = '对不起，此作业还未开始。<br />下面的日期后，将在此显示作业说明。';
+$string['notavailableyet'] = '对不起，此作业还未启动。<br />下面的日期后，将在此显示作业说明。';
 $string['notes'] = '注释';
 $string['notesempty'] = '无';
-$string['notesupdateerror'] = '在更新注释时有错';
+$string['notesupdateerror'] = '在更新注释时发生错误';
 $string['notgradedyet'] = '没有评分';
 $string['notsubmittedyet'] = '未交';
 $string['onceassignmentsent'] = '一旦发送了评分请求，您将不再能删除或上传文件了。您确定要继续吗？';
-$string['overwritewarning'] = '警告: 重新上载将覆盖您已交的作业';
+$string['overwritewarning'] = '警告：重新上载将覆盖您已交的作业';
 $string['pagesize'] = '每页显示作业数';
 $string['preventlate'] = '不允许迟交';
 $string['quickgrade'] = '允许快速评分';
@@ -91,23 +91,23 @@ $string['submissions'] = '提交信息';
 $string['submissionsaved'] = '已经保存了您的修改';
 $string['submissionsnotgraded'] = '{$a}个作业尚未评分';
 $string['submitassignment'] = '用此表单上交作业';
-$string['submitedformarking'] = '作业正在等待被评分，而且不能再更新了';
+$string['submitedformarking'] = '作业正在等待评分，不能再修改了';
 $string['submitformarking'] = '最终版本，可以评分';
 $string['submitted'] = '已交';
 $string['submittedfiles'] = '提交的文件';
 $string['typeoffline'] = '离线活动项目';
 $string['typeonline'] = '在线文本';
 $string['typeupload'] = '高级文件上传';
-$string['typeuploadsingle'] = '上载单个文件';
+$string['typeuploadsingle'] = '上传单个文件';
 $string['unfinalize'] = '还原成草稿';
-$string['uploadbadname'] = '该文件名含有怪异字符，无法上载';
-$string['uploadedfiles'] = '已上载的文件';
+$string['uploadbadname'] = '该文件名含有怪异字符，无法上传';
+$string['uploadedfiles'] = '已上传的文件';
 $string['uploaderror'] = '在服务器上保存文件时发生错误';
-$string['uploadfailnoupdate'] = '文件上载成功但无法更新您的提交信息！';
-$string['uploadfiletoobig'] = '抱歉，文件太大(最大不超过{$a}字节)';
-$string['uploadnofilefound'] = '未发现任何文件――您能确定已选取了一个文件来上载吗?';
-$string['uploadnotregistered'] = '“{$a}”上载成功，但尚未登记!';
-$string['uploadsuccess'] = '成功上载“{$a}”';
+$string['uploadfailnoupdate'] = '文件上传成功但无法更新您的提交信息！';
+$string['uploadfiletoobig'] = '恨抱歉，文件太大（最大不超过{$a}个字节）';
+$string['uploadnofilefound'] = '未发现任何文件――您能确定已选取了一个文件来上传吗?';
+$string['uploadnotregistered'] = '“{$a}”上传成功，但尚未登记！';
+$string['uploadsuccess'] = '成功上传“{$a}”';
 $string['viewfeedback'] = '查看作业成绩和反馈';
 $string['viewsubmissions'] = '查看{$a}份已交的作业';
 $string['yoursubmission'] = '您上交的作业';
