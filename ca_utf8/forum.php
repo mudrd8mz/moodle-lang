@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 dev (2007021400)
+      // forum.php - created with Moodle 1.9 dev (2007021501)
 
 
 $string['addanewdiscussion'] = 'Afegeix un nou tema de debat';
@@ -10,6 +10,7 @@ $string['allforums'] = 'Tots els fòrums';
 $string['allowchoice'] = 'Permet triar a tothom';
 $string['allowdiscussions'] = 'Pot un $a enviar un missatge a aquest fòrum?';
 $string['allowratings'] = 'Permeteu valorar els missatges?';
+$string['allowsallsubscribe'] = 'Aquest fòrum permet que cadascú triï si vol subscriure\'s o no.';
 $string['allowsdiscussions'] = 'Aquest fòrum permet iniciar a tothom un tema de debat.';
 $string['allsubscribe'] = 'Subscriu-me a tots els fòrums';
 $string['allunsubscribe'] = 'Cancel·la la subscripció a tots els fòrums';
@@ -64,18 +65,24 @@ $string['editedby'] = 'Editat per $a->name - $a->date';
 $string['editing'] = 'S\'està editant';
 $string['emptymessage'] = 'El vostre missatge presentava algun problema. Potser l\'havíeu deixat en blanc, o el fitxer adjunt era massa gran. Els canvis NO s\'han desat.';
 $string['everyonecanchoose'] = 'Cadascú pot triar subscriure\'s';
+$string['everyonecannowchoose'] = 'A partir d\'ara cadascú pot triar subscriure\'s';
+$string['everyoneisnowsubscribed'] = 'Ara tothom està subscrit a aquest fòrum';
 $string['everyoneissubscribed'] = 'Tothom està subscrit a aquest fòrum';
 $string['existingsubscribers'] = 'Subscriptors actuals';
+$string['forcessubscribe'] = 'Aquest fòrum subscriu obligatòriament a tothom';
 $string['forcesubscribe'] = 'Imposa que tothom estigui subscrit';
 $string['forcesubscribeq'] = 'Imposeu que tothom estigui subscrit?';
 $string['forum'] = 'Fòrum';
+$string['forum:addnews'] = 'Afegir notícies';
 $string['forum:createattachment'] = 'Crear adjuncions';
 $string['forum:deleteanypost'] = 'Suprimir qualsevol missatge (sempre)';
 $string['forum:deleteownpost'] = 'Suprimir missatges propis (dins del termini)';
 $string['forum:editanypost'] = 'Editar qualsevol missatge';
+$string['forum:initialsubscriptions'] = 'Subscripció inicial';
 $string['forum:managesubscriptions'] = 'Gestionar subscripcions';
 $string['forum:movediscussions'] = 'Traslladar debats';
 $string['forum:rate'] = 'Valorar missatges';
+$string['forum:replynews'] = 'Contestar notícies';
 $string['forum:replypost'] = 'Contestar missatges';
 $string['forum:splitdiscussions'] = 'Partir debats';
 $string['forum:startdiscussion'] = 'Començar nous debats';

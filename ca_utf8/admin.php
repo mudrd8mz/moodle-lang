@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007021400)
+      // admin.php - created with Moodle 1.9 dev (2007021501)
 
 
 $string['accessdenied'] = 'Accés denegat';
@@ -65,6 +65,7 @@ $string['configclamfailureonupload'] = 'Si heu configurat el clam per escanejar 
 $string['configcountry'] = 'Si definiu un país aquí, llavors aquest país quedarà seleccionat per defecte en els nous comptes d\'usuari. Si voleu que els usuaris triïn obligatòriament un país, no n\'especifiqueu cap aquí.';
 $string['configcoursemanager'] = 'Aquest paràmetre us permet controlar qui apareix a la descripció dels cursos. Els usuaris que tinguin almenys un d\'aquests rols en un curs, apareixeran en la descripció d\'aquest curs.';
 $string['configcoursesperpage'] = 'Introduïu el nombre de cursos per pàgina per a les llistes de cursos.';
+$string['configcreatornewroleid'] = 'Aquest rol s\'assigna automàticament en el context d\'un curs nou a la persona que crea aquest curs. No s\'assignarà si la persona que crea el curs ja té les capacitats necessàries en el context pare.';
 $string['configcronclionly'] = 'Si habiliteu aquest paràmetre, la seqüència del cron només podrà executar-se des de la línia d\'ordres i no via web. Farà que s\'ignori la contrasenya del cron més avall.';
 $string['configcronremotepassword'] = 'La seqüència cron.php no es podrà executar des d\'una interfície web sense proporcionar aquesta contrasenya en un URL d\'aquesta forma:<pre>
 http://www.exemple.com/admin/cron.php?password=sesamobret
@@ -72,6 +73,7 @@ http://www.exemple.com/admin/cron.php?password=sesamobret
 $string['configdbsessions'] = 'Si habiliteu aquest paràmetre, la base de dades emmagatzemarà la informació de les sessions dels usuaris. Això és especialment útil en llocs amb molts usuaris o en llocs que funcionen en clústers de servidors. Per a la majoria de llocs problema és millor no habilitar-lo i utilitzar el disc del servidor en lloc de la base de dades. Teniu en compte que si canvieu ara aquest paràmetre tancareu les sessions de tots els usuaris (la vostra inclosa).';
 $string['configdebug'] = 'Si activeu aquest paràmetre s\'incrementarà l\'error_reporting del PHP, de manera que es visualitzaran més avisos. Útil només per a desenvolupadors.';
 $string['configdebugdisplay'] = 'Si activeu aquest paràmetre els informes d\'errors s\'inclouran a la pàgina HTML. Això pot ser pràctic, però espatlla l\'XHTML, el Javascript, les galetes i les capçaleres HTTP. Si està desactivat, la sortida s\'enviarà als registres del servidor per facilitar la depuració. El paràmetre del PHP error_log controla a quin registre s\'envia.';
+$string['configdebugsmtp'] = 'Habilita el mode verbós de depuració durant l\'enviament de missatges de correu al servidor SMTP.';
 $string['configdefaultallowedmodules'] = 'En els cursos d\'aquesta categoria, quins mòduls voleu permetre per defecte <b>quan es crea un curs nou</b>?';
 $string['configdefaultcourseroleid'] = 'S\'assignarà aquest rol automàticament als usuaris que s\'inscriguin en un curs.';
 $string['configdefaultrequestcategory'] = 'Els cursos sol·licitats per usuaris es col·locaran automàticament en aquesta categoria.';
@@ -149,7 +151,7 @@ $string['configproxyhost'] = 'Si aquest <b>servidor</b> necessita usar un ordina
 $string['configproxyport'] = 'Si aquest servidor necessita utilitzar un ordinador intermediari, introduïu aquí el seu port.';
 $string['configquarantinedir'] = 'Si voleu que clam AV mogui els fitxers infectats a un directori de quarantena, definiu el directori aquí. El servidor web ha de tenir permís d\'escriptura en aquest directori. Si el deixeu en blanc, o introduïu un directori que no existeix, o no s\'hi pot escriure, lllavors els fitxers infectats se suprimiran. No inclogueu una barra final.';
 $string['configrcache'] = 'Utilitzeu la memòria cau per emmagatzemar els registres de la base de dades. Recordeu que cal definir també \'cachetype\'.';
-$string['configrcachettl'] = 'Durada (time-to-live) dels registres a la memòria cau. Utilitzeu un valor baix (&lt;15).';
+$string['configrcachettl'] = 'Durada (time-to-live) dels registres a la memòria cau. Utilitzeu un valor baix (<15).';
 $string['configrequestedstudentname'] = 'Paraula per a \"estudiant\" en els cursos sol·licitats';
 $string['configrequestedstudentsname'] = 'Paraula per a \"estudiants\" en els cursos sol·licitats';
 $string['configrequestedteachername'] = 'Paraula per a \"professor\" en els cursos sol·licitats';
@@ -202,6 +204,7 @@ $string['courseoverview'] = 'Resum del curs';
 $string['courserequests'] = 'Sol·licituds de cursos';
 $string['courses'] = 'Cursos';
 $string['coursesperpage'] = 'Cursos per pàgina';
+$string['creatornewroleid'] = 'Rol del creador en nous cursos';
 $string['cronclionly'] = 'Execució del cron només des de la línia d\'ordres';
 $string['cronerrorclionly'] = 'L\'administrador ha inhabilitat l\'accés a aquesta pàgina per Internet.';
 $string['cronerrorpassword'] = 'No heu proporcionat una contrasenya vàlida per a accedir a aquesta pàgina';
@@ -226,6 +229,7 @@ $string['debugging'] = 'Depuració';
 $string['debugminimal'] = 'MÍNIM: mostra només els errors fatals';
 $string['debugnone'] = 'RES: No mostris cap error o avís';
 $string['debugnormal'] = 'NORMAL: Mostra errors i avisos';
+$string['debugsmtp'] = 'Depuració de l\'enviament de correu';
 $string['defaultallowedmodules'] = 'Mòduls permesos per defecte';
 $string['defaultcourseroleid'] = 'Rol per defecte per a usuaris en un curs';
 $string['defaultrequestcategory'] = 'Categoria per defecte per a sol·licituds de cursos';
@@ -331,7 +335,7 @@ $string['langedit'] = 'Edició d\'idioma';
 $string['langimport'] = 'Utilitat d\'importació d\'idiomes';
 $string['langimportsuccess'] = 'El paquet d\'idioma s\'ha actualitzat amb èxit';
 $string['langlist'] = 'Idiomes al menú d\'idioma';
-$string['langmenu'] = 'Mostra el meú d\'idioma';
+$string['langmenu'] = 'Mostra el menú d\'idioma';
 $string['langpackremoved'] = 'S\'ha completat la desinstal·lació del paquet d\'idioma';
 $string['langpacks'] = 'Paquets d\'idioma';
 $string['langpackupdated'] = 'S\'ha actualitzat el paquet d\'idioma $a';
@@ -433,7 +437,7 @@ $string['profileconfirmfielddeletion'] = 'Hi ha $a registres d\'usuari per a aqu
 $string['profilecreatecategory'] = 'Crea una nova categoria de perfil';
 $string['profilecreatefield'] = 'Crea un nou camp de perfil:';
 $string['profilecreatenewcategory'] = 'S\'està creant una nova categoria';
-$string['profilecreatenewfield'] = 'Crea un nou camp &quot;$a&quot; de perfil';
+$string['profilecreatenewfield'] = 'Crea un nou camp \"$a\" de perfil';
 $string['profiledefaultcategory'] = 'Altres camps';
 $string['profiledefaultdata'] = 'Valor per defecte';
 $string['profiledeletecategory'] = 'S\'està suprimint una categoria';
@@ -554,10 +558,7 @@ $string['upgradelogs'] = 'Per a disposar de totes les funcionalitats, els vostre
 $string['upgradelogsinfo'] = 'S\'han introduït alguns canvis en la manera d\'emmagatzemar els registres. Per tal de poder veure tots els vostres registres vells per activitat, els vostres registres vells s\'han d\'actualitzar. Depenent del vostre servidor això pot trigar una bona estona (unes quantes hores) i en una instal·lació gran pot carregar una mica la base de dades. Una vegada hàgeu engegat aquest procés haureu de deixar que acabi (mantenint la finestra del navegador oberta). No us amoïneu: el vostre lloc seguirà actiu per als usuaris mentre els registres s\'actualitzen. <br /><br />Voleu actualitzar els registres ara?';
 $string['upgradesettings'] = 'Nous paràmetres';
 $string['upgradesettingsintro'] = 'Els paràmetres que es mostren a continuació han estat afegits en la darrera actualització de Moodle. Feu els canvis necessaris en els valors per defecte i tot seguit feu clic en \"Desa els paràmetres\" al capdavall de la pàgina.';
-$string['upgradesure'] = 'Els vostres fitxers de Moodle han canviat i esteu a punt d\'actualitzar automàticament el servidor a aquesta versió:
-<p><b>$a</b></p>
-<p>Després de fer això no podreu tornar enrere.</p> 
-<p>Esteu segur que voleu actualitzar aquest servidor a aquesta versió?</p>';
+$string['upgradesure'] = 'Els vostres fitxers de Moodle han canviat i esteu a punt d\'actualitzar automàticament el servidor a aquesta versió:<p><b>$a</b></p><p>Després de fer això no podreu tornar enrere.</p><p>Esteu segur que voleu actualitzar aquest servidor a aquesta versió?</p>';
 $string['upgradingdata'] = 'S\'estan actualitzant les dades';
 $string['upgradinglogs'] = 'S\'estan actualitzant els registres';
 $string['upwards'] = 'cap amunt';

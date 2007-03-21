@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9 dev (2007021400)
+      // lesson.php - created with Moodle 1.9 dev (2007021501)
 
 
 $string['accesscontrol'] = 'Control d\'accés';
@@ -80,7 +80,7 @@ $string['displayofgrade'] = 'Visualització de la qualificació (només estudian
 $string['displayreview'] = 'Mostra el botó de revisió';
 $string['displayscorewithessays'] = 'Heu aconseguit $a->score punts de $a->tempmaxgrade per a les preguntes qualificades automàticament.<br>Les vostres $a->essayquestions preguntes de resposta oberta es qualificaran més endavant i s\'afegiran a la puntuació final.<br /><br />La vostra qualificació actual, sense les preguntes de resposta oberta, és $a->score sobre $a->grade';
 $string['displayscorewithoutessays'] = 'La vostra puntuació és $a->score (sobre $a->grade).';
-$string['editlesson'] = 'Edita $a';
+$string['edit'] = 'Edita';
 $string['editlessonsettings'] = 'Edita els paràmetres de la lliçó';
 $string['editpagecontent'] = 'Edita els continguts d\'aquesta pàgina';
 $string['email'] = 'Correu electrònic';
@@ -298,6 +298,7 @@ $string['youranswer'] = 'La vostra resposta';
 $string['yourcurrentgradeis'] = 'La vostra qualificació actual és $a';
 $string['yourcurrentgradeisoutof'] = 'La vostra qualificació actual és $a->grade sobre $a->total';
 $string['youshouldview'] = 'N\'hauríeu de contestar com a mínim: $a';
+$string['editlesson'] = 'Edita $a'; // ORPHANED
 $string['mainmenu'] = 'Menú principal'; // ORPHANED
 $string['returnmainmenu'] = 'Torna al menú principal'; // ORPHANED
 

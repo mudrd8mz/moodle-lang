@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007021400)
+      // moodle.php - created with Moodle 1.9 dev (2007021501)
 
 
 $string['action'] = 'Acció';
@@ -179,6 +179,7 @@ $string['byname'] = '$a';
 $string['bypassed'] = 'S\'ha deixat de banda';
 $string['cachecontrols'] = 'Controls de la memòria cau';
 $string['cancel'] = 'Cancel·la';
+$string['cancelled'] = 'S\'ha cancel·lat';
 $string['categories'] = 'Categories de cursos';
 $string['category'] = 'Categoria';
 $string['categoryadded'] = 'S\'ha afegit la categoria \'$a\'';
@@ -610,6 +611,7 @@ $string['formattopicsajax'] = 'Format per temes - AJAX';
 $string['formatweeks'] = 'Format setmanal';
 $string['formatweekscss'] = 'Format setmanal - CSS/sense taules';
 $string['formatwiki'] = 'Format Wiki';
+$string['framesetinfo'] = 'Aquest document de marcs conté:';
 $string['from'] = 'Des de';
 $string['frontpagecategorycombo'] = 'Llista combinada';
 $string['frontpagecategorynames'] = 'Mostra llista de categories';
@@ -791,6 +793,7 @@ $string['loginstepsnone'] = '<p>Per tal de tenir accés complet als cursos us he
 $string['loginto'] = 'Entrar en $a';
 $string['loginusing'] = 'Entreu aquí amb el vostre nom d\'usuari i la contrasenya corresponent';
 $string['logout'] = 'Sortida';
+$string['logoutconfirm'] = 'Segur que voleu sortir?';
 $string['logs'] = 'Registres';
 $string['logtoomanycourses'] = '[ <a href=\"$a->url\">més</a> ]';
 $string['logtoomanyusers'] = '[ <a href=\"$a->url\">més</a> ]';
@@ -1253,7 +1256,7 @@ $string['sourcerole'] = 'Rol origen';
 $string['specifyname'] = 'Heu d\'especificar un nom.';
 $string['starpending'] = '([*] = curs pendent d\'aprovació)';
 $string['startdate'] = 'Data d\'inici del curs';
-$string['startsignup'] = 'Comenceu creant-vos un compte d\'usuari!';
+$string['startsignup'] = 'Crea un compte d\'usuari nou';
 $string['state'] = 'Comarca/Província';
 $string['statistics'] = 'Estadístiques';
 $string['statisticsgraph'] = 'Gràfica d\'estadístiques';

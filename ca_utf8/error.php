@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007021400)
+      // error.php - created with Moodle 1.9 dev (2007021501)
 
 
 $string['adminprimarynoedit'] = 'L\'administrador primari no pot ser editat per altres usuaris';
@@ -39,6 +39,8 @@ $string['invalidfiletype'] = '\"$a\" no és un tipus de fitxer vàlid';
 $string['invalidmd5'] = 'El md5 no és vàlid';
 $string['invalidrole'] = 'El rol no és vàlid';
 $string['invalidxmlfile'] = '\"$a\" no és un fitxer XML vàlid';
+$string['loginasnoenrol'] = 'No us podeu inscriure en un curs, o cancel·lar la inscripció, si heu \"entrat com\".';
+$string['loginasonecourse'] = 'No podeu entrar en aquest curs.<br />Heu d\'acabar la sessió \"Entra com\" abans d\'entrar en cap altre curs.';
 $string['missingfield'] = 'Falta el camp \"$a\"';
 $string['missingrequiredfield'] = 'Falta algun camp necessari';
 $string['modulemissingcode'] = 'El mòdul $a no inclou el codi necessari per a la realització d\'aquesta funció';

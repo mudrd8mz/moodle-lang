@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007021400)
+      // role.php - created with Moodle 1.9 dev (2007021501)
 
 
 $string['addrole'] = 'Afegeix un nou rol';
@@ -50,6 +50,7 @@ $string['defaultrole'] = 'Rol per defecte';
 $string['defineroles'] = 'Defineix rols';
 $string['deleterolesure'] = '<p>Esteu segur que voleu suprimir el rol \"$a->name ($a->shortname)\"?</p><p>Actualment aquest rol està assignat a $a->count usuaris.</p>';
 $string['duplicaterole'] = 'Duplica aquest rol';
+$string['duplicaterolesure'] = 'Segur que voleu duplicar el rol \"$a->name ($a->shortname)\"?</p>';
 $string['editrole'] = 'Edita rol';
 $string['errorbadrolename'] = 'El nom del rol és incorrecte';
 $string['errorbadroleshortname'] = 'Nom incorrecte';
@@ -64,6 +65,7 @@ $string['legacy:guest'] = 'ROL HERETAT: Visitant';
 $string['legacy:student'] = 'ROL HERETAT: Estudiant';
 $string['legacy:teacher'] = 'ROL HERETAT: Professor/a (sense edició)';
 $string['legacy:user'] = 'ROL HERETAT: Usuari autenticat';
+$string['legacytype'] = 'Tipus de rol heretat';
 $string['listallroles'] = 'Llista tots els rols';
 $string['manageroles'] = 'Gestiona rols';
 $string['metaassignerror'] = 'No es pot assignar aquest rol a l\'usuari \"$a\" perquè es necessita la capacitat de gestió de metacurs.';
@@ -79,6 +81,10 @@ $string['question:export'] = 'Exportar preguntes';
 $string['question:import'] = 'Importar preguntes';
 $string['question:manage'] = 'Gestionar preguntes';
 $string['question:managecategory'] = 'Gestionar categories de preguntes';
+$string['resetrole'] = 'Reinicia a permisos per defecte';
+$string['resetrolenolegacy'] = 'Neteja permisos';
+$string['resetrolesure'] = 'Segur que voleu reiniciar el rol \"$a->name ($a->shortname)\" als permisos per defecte?<p></p>Els permisos per defecte es prenen de la capacitat heretada seleccionada ($a->legacytype).';
+$string['resetrolesurenolegacy'] = 'Segur que voleu netejar tots els permisos definits en aquest rol \"$a->name ($a->shortname)\"?';
 $string['risks'] = 'Riscos';
 $string['role:assign'] = 'Assignar rols a usuaris';
 $string['role:manage'] = 'Crear i gestionar rols';
