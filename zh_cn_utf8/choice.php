@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.7+ (2006101007)
+      // choice.php - created with Moodle 1.7.1+ (2006101011)
 
 
 $string['addmorechoices'] = '更多选项';
@@ -24,8 +24,8 @@ $string['limitanswers'] = '限制允许的最多次数';
 $string['modulename'] = '投票';
 $string['modulenameplural'] = '投票';
 $string['mustchooseone'] = '保存前必须先选择一个答案。没有数据被保存。';
-$string['noguestchoose'] = '对不起，访客们不允许投票';
-$string['noresultsviewable'] = '结果当前不可见';
+$string['noguestchoose'] = '对不起，访客不允许投票';
+$string['noresultsviewable'] = '结果目前不能查看。';
 $string['notanswered'] = '未答';
 $string['notopenyet'] = '对于起，此活动在{$a}之后才可用';
 $string['privacy'] = '结果公开/保密';

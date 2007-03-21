@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7+ (2006101007)
+      // glossary.php - created with Moodle 1.7.1+ (2006101011)
 
 
 $string['addcomment'] = '添加评论';
@@ -110,10 +110,10 @@ $string['glossary:comment'] = '添加注释';
 $string['glossary:export'] = '导出词条';
 $string['glossary:import'] = '导入词条';
 $string['glossary:managecategories'] = '管理类别';
-$string['glossary:managecomments'] = '管理注释';
+$string['glossary:managecomments'] = '管理评论';
 $string['glossary:manageentries'] = '管理词条';
 $string['glossary:rate'] = '评价词条';
-$string['glossary:view'] = '看词汇表';
+$string['glossary:view'] = '查看词汇表';
 $string['glossary:viewrating'] = '查看评价';
 $string['glossary:write'] = '建立新词条';
 $string['glossaryleveldefaultsettings'] = '词汇表级缺省设置';

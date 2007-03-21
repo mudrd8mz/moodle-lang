@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7.1+ (2006101010)
+      // error.php - created with Moodle 1.7.1+ (2006101011)
 
 
 $string['adminprimarynoedit'] = '其他人不能修改主管理员信息';
@@ -11,9 +11,9 @@ $string['cannotfindcomponent'] = '找不到组件。';
 $string['cannotsavemd5file'] = '无法保存md5文件。';
 $string['cannotsavezipfile'] = '无法保存ZIP文件。';
 $string['cannotunzipfile'] = '无法解压文件。';
-$string['cantunenrollfrommetacourse'] = '您不能不在这个元课程注册。';
-$string['cantunenrollinthisrole'] = '当您为现在这个角色时，您不能在此课程中注册。';
-$string['cmunknown'] = '找不到这个课程模块。';
+$string['cantunenrollfrommetacourse'] = '你不能从此元课程注销。';
+$string['cantunenrollinthisrole'] = '当您为现在这个角色时，您不能在此课程中注销。';
+$string['cmunknown'] = '找不到这个课程模块';
 $string['componentisuptodate'] = '组件已经是最新的了。';
 $string['confirmsesskeybad'] = '对不起，您的会话密钥不能确保您完成当前的动作。这个安全功能防止了人们无意或恶意的以您的身份运行重要功能。清确定您真的想要执行这个功能。';
 $string['couldnotassignrole'] = '当试图给您分配角色时，发生了一个严重但未说明的错误。';
@@ -41,15 +41,15 @@ $string['invalidrole'] = '无效的角色';
 $string['invalidxmlfile'] = '“{$a}”不是合法的XML文件';
 $string['missingfield'] = '字段 “{$a}”不存在';
 $string['missingrequiredfield'] = '缺少了必需的字段';
-$string['modulemissingcode'] = '模块{$a}缺少了执行此功能的代码。';
-$string['modulerequirementsnotmet'] = '模块“{$a->modulename}”($a->moduleversion)安装失败。它需要新版本的Moodle(目前您使用的是$a->currentmoodle, 您需要$a->requiremoodle).';
+$string['modulemissingcode'] = '模块{$a}缺少了执行此功能的代码';
+$string['modulerequirementsnotmet'] = '模块“{$a->modulename}”($a->moduleversion)安装失败。它需要新版本的Moodle(目前您使用的是$a->currentmoodle, 您需要$a->requiremoodle)。';
 $string['mustbeteacher'] = '只有教师才能查看此页';
-$string['nocontext'] = '对不起，但是此课程不是有效的内容';
-$string['noinstances'] = '在本课程中没有{$a}。';
+$string['nocontext'] = '很抱歉，但此课程不是一个有效的环境';
+$string['noinstances'] = '在本课程中没有{$a}！';
 $string['nologinas'] = '您不可以登录为此用户';
 $string['nonmeaningfulcontent'] = '无意义的内容';
 $string['noparticipatorycms'] = '很抱歉，您没有共享的课程模块来报告';
-$string['nopermissions'] = '对不起，您目前没有权限做($a)';
+$string['nopermissions'] = '很抱歉，您目前没有权限（$a）这么做';
 $string['notavailable'] = '目前它已经不存在了';
 $string['onlyadmins'] = '只有管理员才能使用此功能。';
 $string['onlyeditingteachers'] = '只有拥有修改权的教师才能使用此功能。';
@@ -58,7 +58,7 @@ $string['pagenotexist'] = '发生一个异常错误（试图打开一个不存�
 $string['pleasereport'] = '如果您有时间，请让我们知道在错误发生的时候您在试图做什么';
 $string['pluginrequirementsnotmet'] = '插件“{$a->pluginname}”($a->pluginversion) 不能安装。需要新版本的Mooodle（一般您用{$a->currentmoodle}的时候您需要{$a->requiremoodle}）';
 $string['processingstops'] = '处理到此结束。剩余记录将被忽略。';
-$string['remotedownloadnotallowed'] = '不允许为您的服务器下载组件(allow_url_fopen失败)。<br /><br />您应该<a href=\"{$a->url}\">{$a->url}</a> 先手动的把它复制到“{$a->dest}”您的服务器上然后解压.';
+$string['remotedownloadnotallowed'] = '不允许为您的服务器下载组件(allow_url_fopen失败)。<br /><br />您应该<a href=\"{$a->url}\">{$a->url}</a> 先手动的把它复制到“{$a->dest}”您的服务器上然后解压。';
 $string['restricteduser'] = '抱歉,您的当前帐号“{$a}”无权进行上述操作。';
 $string['sendmessage'] = '发信息';
 $string['sessionerroruser'] = '您长时间未活动，请重新登录。';

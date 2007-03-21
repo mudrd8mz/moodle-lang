@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.7+ (2006101007)
+      // chat.php - created with Moodle 1.7.1+ (2006101011)
 
 
 $string['beep'] = '呼叫';
-$string['chat:chat'] = '在聊天室里聊天';
+$string['chat:chat'] = '参与聊天';
 $string['chat:deletelog'] = '删除聊天日志';
 $string['chat:readlog'] = '阅读聊天日志';
 $string['chatintro'] = '简介文字';

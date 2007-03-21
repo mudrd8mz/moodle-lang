@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7+ (2006101007)
+      // enrol_authorize.php - created with Moodle 1.7.1+ (2006101011)
 
 
 $string['adminacceptccs'] = '接受哪种信用卡？';
@@ -9,24 +9,24 @@ $string['adminauthorizeemail'] = '电子邮件发送设置';
 $string['adminauthorizesettings'] = 'Authorize.net 设置';
 $string['adminauthorizewide'] = '站点宽度设定';
 $string['adminavs'] = '检查您是否激活了地址确认系统在您的authorize.net .这需要像公路,州,国家一样的地址域和当用户填写支付单后压缩.';
-$string['adminconfighttps'] = '请确信您有\"<a href=\"$a->url\">turned loginhttps ON</a>\" 来使用这个插件<br />在管理员>>变量 >>安全性>> HTTP安全性。';
-$string['adminconfighttpsgo'] = '请到<a href=\"$a->url\">安全页面</a>来配置这个插件。';
+$string['adminconfighttps'] = '为了使用这个插件，请确认您已经在<br/>管理 >> 变量 >> 安全 >> HTTP安全中“<a href=\"{$a->url}\">打开以https方式登录</a>”。';
+$string['adminconfighttpsgo'] = '请到<a href=\"{$a->url}\">安全页面</a>配置这个插件。';
 $string['admincronsetup'] = 'cron.php 维持脚本至少24个小时不被运行 <br />如果您想使用预定获取功能那么Cron 必须被激活<br /><b>起作用</b> \'Authorize.net 
 
 插件\'和<b>安装cron</b>适当的;或者<b>不阻止复习</b> 再次.<br />如果您不使用预定获取, 设置会被取消除非您在30天内回顾它们<br />阻止 <b>复习</b>进入 <b>\'0\' to 获取日期</b> 地址<br />如果您想<b>手动的</b>在30天内接受/拒绝付费.';
 $string['adminemailexpired'] = '发送警告邮件给管理员<b>{$a}</b>在这里有多少已通过验证的/未决的处理状况，在处理期满之前（0=不能发送邮件，缺省=2，最大=5）<br /> 如果您是手动激活获取(an_review=checked, an_capture_day=0).';
-$string['adminemailexpiredsort'] = '当期满代定处理的数量通过电子邮件发送给教师的时候，哪个是重要的？';
-$string['adminemailexpiredsortcount'] = '定制计数';
-$string['adminemailexpiredsortsum'] = '总数量';
-$string['adminemailexpiredteacher'] = '如果您已经手动激活（如上所述），而且教师门可以管理支付了，那么他们可能还通告代定定制期满。将通过电子邮件的方式给每门课程的老师们发送代定定制达到期满的计数。';
-$string['adminemailexpsetting'] = '(0=不能发送电子邮件, 默认情况=2, 最大=5)<br />(手动设置发送电子邮件: cron=有效的, an_review=已检查的, an_capture_day=0, an_emailexpired=1-5)';
+$string['adminemailexpiredsort'] = '当过期的待定订单的数量通过电子邮件发送给教师的时候，哪个是重要的？';
+$string['adminemailexpiredsortcount'] = '订单数量';
+$string['adminemailexpiredsortsum'] = '总数';
+$string['adminemailexpiredteacher'] = '如果你启动手工激活（见上面）并且教师能够管理支付，教师们将收到email，通知他们将过期的待定订单的数量。';
+$string['adminemailexpsetting'] = '(0=不发送email, 缺省=2, 最大指=5)<br />(手动设置发送电子邮件: cron=有效的, an_review=已检查的, an_capture_day=0, an_emailexpired=1-5)';
 $string['adminhelpcapturetitle'] = '预定获取日期';
-$string['adminhelpreviewtitle'] = '定制回顾';
+$string['adminhelpreviewtitle'] = '订单回顾';
 $string['adminneworder'] = '亲爱的管理员，
 
-您已经接受到了一个新的未决的定制：
+您已经接受到了一个新的未决的订单：
 
-定制ID：{$a->orderid} 
+订单ID：{$a->orderid} 
 
 交易ID：{$a->transid}
 
@@ -54,7 +54,7 @@ $string['anpassword'] = 'Authorize.net: 密码 (非必须)';
 $string['anreferer'] = '如果您正用您在 authorize.net 的帐号进行设置，请在此输入referer URL，在发送Web请求时将其以”Referer: URL“形式作为头信息发送。';
 $string['antestmode'] = 'Authorize.net: 测试交易';
 $string['antrankey'] = 'Authorize.net: 交易密钥';
-$string['approvedreview'] = '同意恢复';
+$string['approvedreview'] = '已核查的回顾';
 $string['authcaptured'] = '经授权的/夺取的';
 $string['authorize:managepayments'] = '管理支付';
 $string['authorize:uploadcsv'] = '上传CSV文件';
@@ -66,7 +66,7 @@ $string['avsg'] = '没有发行的美国银行卡';
 $string['avsn'] = '地址和邮政编码都不匹配';
 $string['avsp'] = '地址确认系统不可用';
 $string['avsr'] = '重试- 系统不可用或者超时';
-$string['avsresult'] = 'AVS结果';
+$string['avsresult'] = 'AVS结果：{$a}';
 $string['avss'] = '服务不被发行者支持';
 $string['avsu'] = '地址信息不能获取';
 $string['avsw'] = '9位邮政编码匹配，地址不匹配';
@@ -88,7 +88,7 @@ $string['ccvv'] = 'CV2';
 $string['ccvvhelp'] = '查看卡背面(最后3个数字)';
 $string['choosemethod'] = '如果您知道课程的选课密码，请输入；否则请您先支付课程费用。';
 $string['chooseone'] = '填写下面字段里的一个或全部';
-$string['costdefaultdesc'] = '<strong>I在课程设置中,录入-1</strong>用这个默认价格来作为课程价格字段。';
+$string['costdefaultdesc'] = '<strong>在课程设置中，输入-1</strong>用这个缺省价格作为课程价格字段。';
 $string['cutofftime'] = '处理定点时间。上次的处理在设置中不存在了';
 $string['delete'] = '销毁';
 $string['description'] = 'Authorize.net允许您通过信用卡提供商设置付费课程。如果课程的价格为零，则学生无需为其付费。此处您需要为整个站点设定一个缺省的价格，而在课程的设置中您可以为每一个课程单独设定。为每个课程单独设定的价格的优先级更高。';
@@ -98,8 +98,8 @@ $string['echeckacctype'] = '银行帐户类型';
 $string['echeckbankname'] = '银行名';
 $string['echeckbusinesschecking'] = '交易核查';
 $string['echeckchecking'] = '核查';
-$string['echeckfirslasttname'] = '银行账户主人';
-$string['echecksavings'] = '保存';
+$string['echeckfirslasttname'] = '银行账户持有者';
+$string['echecksavings'] = '存款';
 $string['enrolname'] = 'Authorize.net 信用卡网关';
 $string['expired'] = '终止';
 $string['howmuch'] = '多少？';

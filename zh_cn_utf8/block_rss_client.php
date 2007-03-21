@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.7+ (2006101007)
+      // block_rss_client.php - created with Moodle 1.7.1+ (2006101011)
 
 
 $string['addfeed'] = '添加新种子链接：';
@@ -32,9 +32,9 @@ $string['managefeeds'] = '管理我的全部种子';
 $string['nofeeds'] = '此站尚未添加RSS种子。';
 $string['pickfeed'] = '选择一个新闻种子';
 $string['remotenewsfeed'] = '远程新闻种子';
-$string['rss_client:createprivatefeeds'] = '建立私人的RSS种子';
+$string['rss_client:createprivatefeeds'] = '建立个人的RSS种子';
 $string['rss_client:createsharedfeeds'] = '建立共享的RSS种子';
-$string['rss_client:manageanyfeeds'] = '管理任意的RSS种子';
+$string['rss_client:manageanyfeeds'] = '管理任意RSS种子';
 $string['rss_client:manageownfeeds'] = '管理自己的RSS种子';
 $string['seeallfeeds'] = '查看所有的种子';
 $string['sharedfeed'] = '共享种子';
