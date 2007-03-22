@@ -1,6 +1,6 @@
 Basque
 ======
 
-Translation based on Spanish (may contain "Chinese Whisper" errors)
+Santurtziko Udal Euskaltegiak koordinatutako itzulpena.
 
-Translator: Jose Sanchez (txeli@aeknet.net)
+Translator: Santurtziko Udal Euskaltegia (moodle@santurtzieus.com)

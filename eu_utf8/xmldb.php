@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7+ (2006101007)
+      // xmldb.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['aftertable'] = 'Taularen ondoren:';
@@ -56,6 +56,9 @@ $string['load'] = 'Igo';
 $string['main_view'] = 'Ikuspegi nagusia';
 $string['missingfieldsinsentence'] = 'Esaldian eremuak falta dira';
 $string['missingvaluesinsentence'] = 'Esaldian baloreak falta dira';
+$string['mustselectonefield'] = 'Eremu bat aukeratu behar duzu horrekin lotutako ekintzak ikusteko.';
+$string['mustselectoneindex'] = 'Aurkibide bat aukeratu behar duzu horrekin lotutako ekintzak ikusteko.';
+$string['mustselectonekey'] = 'Gako bat aukeratu behar duzu horrekin lotutako ekintzak ikusteko.';
 $string['new_statement'] = 'Sententzia berria';
 $string['new_table_from_mysql'] = 'Taula berria MySQLetik';
 $string['newfield'] = 'Eremu berria';
@@ -76,6 +79,7 @@ $string['selectaction'] = 'Ekintza aukeratu:';
 $string['selectdb'] = 'Datu-basea aukeratu:';
 $string['selectfieldkeyindex'] = 'Eremua/Gakoa/Aurkibidea aukeratu:';
 $string['selectonecommand'] = 'Mesedez, aukeratu Ekintza bat zerrendatik PHP kodea erakusteko';
+$string['selectonefieldkeyindex'] = 'Mesedez, aukeratu zerrendako Eremu/Gako/Aurkibide bat PHP kodea ikusteko.';
 $string['selecttable'] = 'Taula aukeratu:';
 $string['sentences'] = 'Esaldiak';
 $string['statements'] = 'Sententziak';
