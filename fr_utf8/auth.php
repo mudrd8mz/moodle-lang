@@ -246,6 +246,7 @@ $string['changepassword'] = 'URL de la page de changement du mot de passe';
 $string['changepasswordhelp'] = 'Vous pouvez indiquer dans cette zone l\'URL d\'une page sur laquelle vos utilisateurs pourront récupérer ou changer leurs nom d\'utilisateur et mot de passe s\'ils les ont oubliés. Cette URL sera disponible sous forme d\'un bouton sur la page de connexion. Si cette zone est vide, ce bouton ne sera pas affiché.';
 $string['chooseauthmethod'] = 'Choisir une méthode d\'authentification';
 $string['createpasswordifneeded'] = 'Créer un mot de passe si nécessaire';
+$string['errorpasswordupdate'] = 'Erreur lors de la modification du mot de passe. Le mot de passe n\'a pas été modifié';
 $string['forcechangepassword_help'] = 'Impose aux utilisateurs de changer leur mot de passe lors de leur première connexion à Moodle.';
 $string['forcechangepassword'] = 'Imposer le changement du mot de passe';
 $string['forcechangepasswordfirst_help'] = 'Impose aux utilisateurs de changer leur mot de passe lors de leur prochaine connexion à Moodle.';
