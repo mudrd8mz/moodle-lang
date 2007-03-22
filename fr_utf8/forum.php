@@ -76,6 +76,7 @@ $string['forum:createattachment'] = 'Créer des annexes';
 $string['forum:deleteanypost'] = 'Supprimer des messages (en tout temps)';
 $string['forum:deleteownpost'] = 'Supprimer ses propres messages (durant un délai)';
 $string['forum:editanypost'] = 'Modifier des messages';
+$string['forum:initialsubscriptions'] = 'Inscription initiale';
 $string['forum:managesubscriptions'] = 'Gérer les abonnements';
 $string['forum:movediscussions'] = 'Déplacer des discussions';
 $string['forum:rate'] = 'Évaluer les messages';
