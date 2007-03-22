@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007021500)
+      // auth.php - created with Moodle 1.9 dev (2007032200)
 
 
 $string['alternatelogin'] = 'ここにURLを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong> フィールドおよび <strong>password</strong> フィールドをMoodleに渡してください。<br />間違ったURLを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合、空白のままにしてください。';
@@ -248,6 +248,7 @@ $string['changepassword'] = 'パスワードURLの変更';
 $string['changepasswordhelp'] = 'ユーザがユーザ名/パスワードを忘れたときに回復または変更するためのボタンをログインページに表示します。この設定により、ログインページおよびユーザページにボタンが表示されます。空白の場合、ボタンは表示されません。';
 $string['chooseauthmethod'] = '認証方法の選択:';
 $string['createpasswordifneeded'] = '必要な場合、パスワードを作成する';
+$string['errorpasswordupdate'] = 'パスワード変更にエラーが発生しました。パスワードは変更されませんでした。';
 $string['forcechangepassword'] = 'パスワード変更の強制';
 $string['forcechangepassword_help'] = '次にMoodleへログインするときに、ユーザのパスワード変更を強制します。';
 $string['forcechangepasswordfirst_help'] = '最初にMoodleへログインするときに、ユーザのパスワード変更を強制します。';
