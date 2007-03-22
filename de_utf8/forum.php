@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 Beta + (2007021401)
+      // forum.php - created with Moodle 1.8 Beta + (2007021501)
 
 
 $string['addanewdiscussion'] = 'Neues Diskussionsthema hinzufügen';
@@ -78,6 +78,7 @@ $string['forum:createattachment'] = 'Dateianhänge hinzufügen';
 $string['forum:deleteanypost'] = 'Alle Beiträge löschen (jederzeit)';
 $string['forum:deleteownpost'] = 'Eigene Beiträge löschen (mit Zeitbegrenzung)';
 $string['forum:editanypost'] = 'Alle Beiträge bearbeiten';
+$string['forum:initialsubscriptions'] = 'Zunächst eintragen';
 $string['forum:managesubscriptions'] = 'Abonnent/innen verwalten';
 $string['forum:movediscussions'] = 'Themen veschieben';
 $string['forum:rate'] = 'Beiträge bewerten';

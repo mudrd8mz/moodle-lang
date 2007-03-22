@@ -1,15 +1,10 @@
-<h1>Moodle XML-Format-Dateien importieren</h1>
+<h1>Import aus "Moodle XML" formatierten Dateien</h1>
 
-<h3>Kategorienwechel</h3>
-<p>Sie können spezielle Dummy-Fragen in eine XML-Datei einfügen, um
-die Kategorie festzulegen, in die die nachfolgenden Fragen eingeordnet 
-werden sollen. Falls eine oder mehrere Kategorien nicht existieren,
-so werden sie neu angelegt. Beachten Sie, dass die Option <b>aus der Datei:
-</b> in den Einstellungen markiert sein muss. Andernfalls wird der Code
-vollständig ignoriert. Sie können in der XML-Datei beliebig oft zwischen 
-den Kategorien wechseln. </p>
+<h3>Kategorie umschalten</h3>
+<p>Sie können eine spezielle Frage in die XML-Datei integrieren, deren Funktion es ist, die Kategorie zu definieren in die der Import der anderen Fragen vorgenommen werden soll.
+Falls die Kategorie noch nicht besteht, wird sie neu angelegt. Die Option 'aus Datei' muss dazu aktiviert sein, da die Anweisung sonst ignoriert wird. In der XML-Datei kann die Kategorie beliebig oft geändert werden.</p>
 
-<p>Beispiel für das Format:</p>
+<p>Hier ein Beispiel für eine Formatierung innerhalb der XML-Datei:</p>
 
 <pre>
 &lt;question type="category"&gt;

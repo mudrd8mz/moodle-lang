@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8 Beta + (2007021400)
+      // error.php - created with Moodle 1.8 Beta + (2007021501)
 
 
 $string['adminprimarynoedit'] = 'Der Hauptadmin kann nicht von anderen bearbeitet werden';
@@ -39,6 +39,8 @@ $string['invalidfiletype'] = '\"$a\" ist ein unzulässiger Dateityp.';
 $string['invalidmd5'] = 'md5 ungültig';
 $string['invalidrole'] = 'Ungültige Rolle';
 $string['invalidxmlfile'] = '\"$a\" ist eine ungültige XML-Datei.';
+$string['loginasnoenrol'] = 'Das \"Eintragen\" oder \"Austragen\" aus einem Kurs ist nicht möglich wenn Sie in der Rolle eines anderen Nutzers angemeldet sind.';
+$string['loginasonecourse'] = 'Sie können sich in diesen Kurs nicht eintragen.<br /> Beenden Sie zuerst die Funktion \"Login als\", um sich dann in den anderen Kurs einzutragen.';
 $string['missingfield'] = 'Feld \"$a\" fehlt.';
 $string['missingrequiredfield'] = 'Einige erforderliche Felder sind nicht ausgefüllt.';
 $string['modulemissingcode'] = 'Im Modul $a fehlt der Code, um diese Funktion auszuführen.';
