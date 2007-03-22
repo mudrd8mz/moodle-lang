@@ -209,6 +209,7 @@ $string['fractionsaddwrong'] = '您选的得分总和不等于100%%<br />而是�
 $string['fractionsnomax'] = '答案中应该有一个是100%%，
 <br />这样这个题目才有可能得满分。
 <br />您想回去改正这个问题吗？';
+$string['fromfile'] = '来自文件：';
 $string['functiontakesatleasttwo'] = '函数{$a}必须有至少两个参数';
 $string['functiontakesnoargs'] = '函数{$a}不需要任何参数';
 $string['functiontakesonearg'] = '函数{$a}必须只有一个参数';
@@ -509,12 +510,14 @@ $string['timelimitexeeded'] = '很抱歉！时间已用完！';
 $string['timestr'] = '%%y年%%m月%%d日的%%H:%%M:%%S';
 $string['timesup'] = '时间到！';
 $string['timetaken'] = '耗时';
+$string['tofile'] = '到文件：';
 $string['tolerance'] = '容许误差';
 $string['tolerancetype'] = '误差类型';
 $string['toomanyrandom'] = '所要求的随机题的数量大于该类别现有题量！({$a})';
 $string['top'] = '顶层';
 $string['true'] = '对';
 $string['truefalse'] = '判断题';
+$string['truefalseimporterror'] = '<b>警告</b>：判断题“{$a->questiontext}”不能正确导入，因为没有明确设定正确答案是“对”还是“错”。此题已经被导入，并假定正确答案是“{$a->answer}”。如果这是错误的，您就必须修改这道题。';
 $string['type'] = '题型';
 $string['unfinished'] = '打开';
 $string['ungraded'] = '未评分';

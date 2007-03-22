@@ -74,6 +74,7 @@ $string['forum:createattachment'] = '上传附件';
 $string['forum:deleteanypost'] = '删除任何帖子（任何时间）';
 $string['forum:deleteownpost'] = '删除自己的帖子（在截止时间之内）';
 $string['forum:editanypost'] = '编辑任何帖子';
+$string['forum:initialsubscriptions'] = '初始订阅';
 $string['forum:managesubscriptions'] = '管理订阅';
 $string['forum:movediscussions'] = '移动话题';
 $string['forum:rate'] = '评价帖子';

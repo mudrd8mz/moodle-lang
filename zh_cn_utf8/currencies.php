@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // currencies.php - created with Moodle 1.7+ (2006101007)
+      // currencies.php - created with Moodle 1.7.1+ (2006101011)
 
 
 $string['AED'] = '阿联酋迪拉姆';
@@ -99,7 +99,7 @@ $string['NPR'] = '尼泊尔卢比';
 $string['NZD'] = '新西兰元';
 $string['OMR'] = '阿曼里亚尔';
 $string['PAB'] = '巴拿马巴波亚';
-$string['PEI'] = '秘鲁印蒂';
+$string['PEN'] = '索尔';
 $string['PGK'] = '巴布亚新几内亚基那';
 $string['PHP'] = '菲律宾比索';
 $string['PKR'] = '巴基斯坦卢比';
