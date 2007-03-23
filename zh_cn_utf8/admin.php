@@ -436,7 +436,7 @@ $string['timezoneisforcedto'] = '强制所有用户使用';
 $string['timezonenotforced'] = '用户可以选择自己的时区';
 $string['unbookmarkthispage'] = '删除此页面的书签';
 $string['unicoderecommended'] = '建议用Unicode（UTF-8）存储全部数据。全新安装必须安装在缺省字符集为Unicode的数据库中。如果正在升级，您应该执行UTF-8移植处理（请参考管理员页面）。';
-$string['unicoderequired'] = '要求您用Unicode（UTF-8）存储全部数据。全新安装必须安装在缺省字符集为Unicode的数据库中。如果正在升级，您应该执行UTF-8移植处理（请参考管理员页面）。';
+$string['unicoderequired'] = '您必须使用Unicode（UTF-8）存储全部数据。全新安装必须安装在缺省字符集为Unicode的数据库中。如果正在升级，您应该执行UTF-8移植处理（请参考管理员页面）。';
 $string['unicodeupgradenotice'] = '在 Moodle 1.6 中，我们已经将所有的语言迁移到 Unicode 编码。要完成这个站点的升级您需要使用迁移脚本将您的数据库中的数据全部转换为 Unicode。<a href=\"utfdbmigrate.php\">点击这里以启动迁移脚本</a>！';
 $string['uninstall'] = '卸载选择的语言包';
 $string['uninstallconfirm'] = '您准备要完全卸载语言包{$a}，您确定吗？';
