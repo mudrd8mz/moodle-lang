@@ -386,74 +386,74 @@
     <dt>セキュリティ修正</dt>
     <dd> 
       <ul>
-        <li>Fixed a number of possible XSS entry points and path disclosures</li>
-        <li>Attributes of tags in HTML are now parsed even more thoroughly for naughty scripts</li>
-        <li>User profile pages are no longer available by default to strangers</li>
-        <li>All text is now cleaned on output (not just input)</li>
-        <li>Email addresses are not used on outgoing mail if the user requests that</li>
-        <li>New setting <strong>loginhttps</strong> will use secure https for the login, then switch back to http</li>
+        <li>多数のXSSエントリポイントおよびパスの公開に関して修正しました。</li>
+        <li>HTMLの属性タグの文法をさらに改善しました。</li>
+        <li>ユーザプロフィールページがデフォルトで関係者以外に閲覧できないようにしました。</li>
+        <li>インプットだけではなく、アウトプットに関してすべてのテキストをクリーニングするようにしました。</li>
+        <li>ユーザがリクエストする場合、メールアドレスが送信メールに使用されないようにしました。</li>
+        <li>新たな設定<strong>loginhttps</strong>でログイン時にセキュアhttpsを使用し、その後httpに戻るようにしました。</li>
       </ul>
     </dd>
 
     <dt>管理</dt>
     <dd> 
       <ul>
-        <li>Spiffy new interfaces for adding/removing students, creators and admins</li>
-        <li>Failed logins are now logged, and can be displayed to users upon a successful login</li>
-        <li>Logs now support viewing by group, and by errors</li>
-        <li>Modules now behave more consistently on the site front page</li>
-        <li>Front page &quot;students&quot; can be all users on site, or all users in at least one course on the site </li>
-        <li>Email-sending can now be enabled/disabled on any user's profile page</li>
+        <li>学生、コース作成者、管理者の追加/削除に関して素敵な新しいインターフェースを作成しました。</li>
+        <li>ログイン失敗を記録し、ログインに成功したユーザに表示するようにしました。</li>
+        <li>ログに関してグループおよびエラーの表示をサポートするようにしました。</li>
+        <li>モジュールがさらにフロントページで動作するようにしました。</li>
+        <li>フロントページの「ユーザ」がサイトすべてのユーザまたは少なくとも1つのコースのユーザになれるようにしました。</li>
+        <li>すべてのユーザプロフィールページでメール送信を有効/無効にすることができるようにしました。</li>
       </ul>
     </dd>
 
     <dt>認証</dt>
     <dd> 
       <ul>
-        <li>All authentication methods will now co-exist with internally-created accounts</li>
-        <li>New support for authenticating against First Class servers</li>
-        <li>Fixes for POP3 authentication</li>
+        <li>すべての認証方法を内部登録アカウントと共存できるようにしました。</li>
+        <li>First Class serverに対する認証をサポートするようにしました。</li>
+        <li>POP3認証方法を修正しました。li>
       </ul>
     </dd>
 
     <dt>ナビゲーション</dt>
     <dd> 
       <ul>
-        <li>Visitors can be automatically logged in as guest</li>
-        <li>Jump menu now always shows "Jump to" to help distribute clues about what it does</li>
-        <li>Jump menu now has a much clearer way of grouping activities into sections</li>
+        <li>訪問者が自動的にゲストとしてログインできるようにしました。</li>
+        <li>「ジャンプ」メニューに対して常に何をするのかヘルプを付けるようにしました。</li>
+        <li>セクションにのグループ活動に関してJump menu now has a much clearer way of grouping activities into sections</li>
       </ul>
     </dd>
 
     <dt>ブロック</dt>
     <dd> 
       <ul>
-        <li>Block system can now cope with custom course formats and changes in format</li>
-        <li>New login block allows login from site front page</li>
-        <li>Online users block on home page shows users from the whole site</li>
+        <li>カスタムフォーマットおよびフォーマットの変更に対してブロックシステムが動作するようにしました。</li>
+        <li>新しいログインブロックによりサイトフロントページからログインできるよにしました。</li>
+        <li>サイト全体にオンラインユーザブロックを表示できるようにしました。</li>
       </ul>
     </dd>
 
     <dt>エディタ</dt>
     <dd> 
       <ul>
-        <li>New editor configuration screen for the admin</li>
-        <li>New support for anchors within pages</li>
-        <li>Spell-checking is now supported in the editor, it uses aspell on your server operating system</li>
+        <li>新しい管理ページを作成しました。</li>
+        <li>新たにページ内でアンカーをサポートするようにしました。</li>
+        <li>エディタでスペルチェックをサポートするようにしました。サーバオペレーティングシステムではaspellを使用します。</li>
       </ul>
     </dd>
 
     <dt>チャット</dt>
     <dd> 
       <ul>
-        <li>Chat now includes a server-side daemon (in PHP) for scalable, instant chat</li>
+        <li>拡張可能なインスタントチャットのため、チャットモジュールがサーバサイドデーモン (PHP) を含むようにしました。</li>
       </ul>
     </dd>
 
     <dt>投票</dt>
     <dd> 
       <ul>
-        <li>Significantly revamped to make a lot more sense, with more option</li>
+        <li>多くの投票内容、オプションを持つことができるよう、投票モジュールを大幅に改良しました。</li>
       </ul>
     </dd>
 
