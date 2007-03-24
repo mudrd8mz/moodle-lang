@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.8 dev (2006112200)
+      // grades.php - created with Moodle 1.9 dev (2007032200)
 
 
 $string['addcategory'] = 'カテゴリの追加';
@@ -13,7 +13,7 @@ $string['categories'] = 'カテゴリ';
 $string['category'] = 'カテゴリ';
 $string['choosecategory'] = 'カテゴリの選択';
 $string['creatinggradebooksettings'] = '評定表設定の作成';
-$string['curveto'] = 'カーブ';
+$string['curveto'] = 'みなし満点';
 $string['deletecategory'] = 'カテゴリの削除';
 $string['displaylettergrade'] = '評定文字を表示する';
 $string['displaypercent'] = 'パーセントを表示する';
@@ -28,13 +28,13 @@ $string['errornocourse'] = 'コース情報を取得できませんでした。'
 $string['errorreprintheadersnonnumeric'] = 'ヘッダの再表示の値が数値ではありません:';
 $string['exceptions'] = '例外';
 $string['excluded'] = '除外';
-$string['extracredit'] = 'エクストラクレジット';
-$string['extracreditwarning'] = '注意: カテゴリ内のすべての項目をエクストラクレジットにすることにより、評定の計算から項目を効果的に除外することができます。これにより合計評点は計算されません。';
+$string['extracredit'] = '追加点扱い';
+$string['extracreditwarning'] = '注意: カテゴリ内のすべての項目を追加点扱いにすることにより、評定の計算から項目を効果的に除外することができます。これにより合計評点は計算されません。';
 $string['forstudents'] = '学生に対して';
 $string['gradebook'] = '評定表';
 $string['gradebookhiddenerror'] = '現在、評定表は学生から隠されています。';
 $string['gradecategoryhelp'] = '評定カテゴリヘルプ';
-$string['gradeexceptions'] = '例外設定';
+$string['gradeexceptions'] = '成績から除外';
 $string['gradeexceptionshelp'] = '評定例外ヘルプ';
 $string['gradehelp'] = '評定ヘルプ';
 $string['gradeitem'] = '評定項目';
@@ -63,7 +63,7 @@ $string['letters'] = '文字';
 $string['lowest'] = '下位';
 $string['lowgradeletter'] = '下限';
 $string['max'] = '最高';
-$string['maxgrade'] = '最大評点';
+$string['maxgrade'] = '満点';
 $string['median'] = '中央値';
 $string['min'] = '最低';
 $string['mode'] = '最頻値';
