@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8 dev (2006102400)
+      // hotpot.php - created with Moodle 1.9 dev (2007021501)
 
 
 $string['abandoned'] = 'verlaten';
@@ -62,8 +62,8 @@ $string['navigation'] = 'navigatie';
 $string['navigation_bar'] = 'Moodle-navigatiebalk';
 $string['navigation_buttons'] = 'Knoppen van Hot Potatoes-test';
 $string['navigation_frame'] = 'Moodle-navigatieframe';
-$string['navigation_give_up'] = 'Een enkele \"Geef op\" knop';
-$string['navigation_iframe'] = 'Ingebed <IFRAME>';
+$string['navigation_give_up'] = 'Een enkele &quot;Geef op&quot; knop';
+$string['navigation_iframe'] = 'Ingebed &lt;IFRAME&gt;';
 $string['navigation_none'] = 'Geen';
 $string['neverclosed'] = 'Nooit gesloten';
 $string['noactivity'] = 'Geen activiteit';
