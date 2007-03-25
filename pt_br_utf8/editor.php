@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6 development (2006031600)
+      // editor.php - created with Moodle 1.9 dev (2007021401)
 
 
 $string['about'] = 'Informações sobre este editor';
@@ -18,7 +18,7 @@ $string['bottom'] = 'Fundo';
 $string['browse'] = 'Procurar';
 $string['cancel'] = 'Cancelar';
 $string['cellpadding'] = 'Distância entre o texto e as bordas';
-$string['cellspacing'] = 'Distância entre células ';
+$string['cellspacing'] = 'Distância entre células';
 $string['choosechar'] = 'Escolher caractere';
 $string['chooseicon'] = 'Escolher imagem para inserir';
 $string['close'] = 'Fechar';
@@ -31,6 +31,7 @@ $string['createlink'] = 'Inserir link web';
 $string['cut'] = 'Cortar elemento selecionado';
 $string['cutpastemozilla'] = 'Infelizmente, não é possível utilizar os atalhos de teclado usuais (nem mesmo o botão Colar), para colar texto neste editor. Isto se deve a uma função de segurança de algumas versões dos navegadors Mozilla e Firefox. <br /><br />Você pode experimentar 3 soluções conhecidas:<br /><br />(1) Em vez de CTRL-v, use SHIFT-Insert<br />(2) Use o menu Editar->Colar de seu navegador<br />(3)Mude as preferências de seu navegador editando o arquivo user.js.<br /><br />Clique no botão OK abaixo para mais ajuda, ou no botão Cancelar para voltar ao editor';
 $string['delete'] = 'Cancelar';
+$string['enterurlfirst'] = 'Inserir primeiro o URL';
 $string['filebrowser'] = 'Navegador de arquivos';
 $string['findwhat'] = 'Buscar';
 $string['fontname'] = 'Nome do font';
@@ -57,6 +58,7 @@ $string['justifycenter'] = 'Centralizar';
 $string['justifyfull'] = 'Justificar';
 $string['justifyleft'] = 'Alinhar à esquerda';
 $string['justifyright'] = 'Alinhar à direita';
+$string['lang'] = 'Lingua';
 $string['layout'] = 'Layout';
 $string['left'] = 'Esquerda';
 $string['lefttoright'] = 'Da esquerda para a direita';
@@ -73,6 +75,8 @@ $string['matchcase'] = 'Considerar caixa alta ou baixa';
 $string['middle'] = 'Centro';
 $string['minimize'] = 'Minimizar editor';
 $string['move'] = 'Mover';
+$string['multi'] = 'Multi';
+$string['mustenterurl'] = 'Inserir o URL';
 $string['nolink'] = 'Evitar link automático';
 $string['normal'] = 'Normal';
 $string['notimage'] = 'O arquivo selecionado não é uma imagem';
@@ -85,6 +89,7 @@ $string['paste'] = 'Colar';
 $string['path'] = 'Caminho';
 $string['percent'] = 'Porcentagem';
 $string['pixels'] = 'Pixels';
+$string['pleaseenteralt'] = 'Inserir o texto alternativo';
 $string['popupeditor'] = 'Aumentar o editor';
 $string['preformatted'] = 'Formato predefinido';
 $string['preview'] = 'Ver';

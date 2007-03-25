@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6.1 (2006050510)
+      // enrol_imsenterprise.php - created with Moodle 1.9 dev (2007021401)
 
 
 $string['aftersaving...'] = 'Depois de salvar as suas opções, é possível que você queira';
@@ -18,6 +18,7 @@ $string['filelockedmail'] = 'O arquivo de texto que você está usando para insc
 $string['filelockedmailsubject'] = 'Erro importante no arquivo de inscrição';
 $string['fixcasepersonalnames'] = 'Mudar primeira letra de nomes pessoais para maiúsculas';
 $string['fixcaseusernames'] = 'Mudar nomes de usuários para minúsculas';
+$string['imsrolesdescription'] = 'A especificação IMS Enterprise include 8 tipos de funções/papéis. Escolha o modo em que são designadas em Moodle, inclusive a possibilidade que alguma destas funções seja ignorada.';
 $string['location'] = 'Endereço do arquivo';
 $string['logtolocation'] = 'Endereço do arquivo log output (deixar em branco se não há arquivo de log)';
 $string['mailadmins'] = 'Notificar admins por email';

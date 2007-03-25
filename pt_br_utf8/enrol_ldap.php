@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.6 development (2006031600)
+      // enrol_ldap.php - created with Moodle 1.9 dev (2007021401)
 
 
 $string['description'] = '<p>Você pode usar um server LDAP para controlar as inscrições. Se presume que o ramo LDAP contenha grupos mapeados em relação aos cursos e que cada um destes grupos/cursos terá itens que identificam membros mapeados em relação aos estudantes.</p>
@@ -9,6 +9,7 @@ $string['enrol_ldap_autocreation_settings'] = 'Parâmetros de criação automát
 $string['enrol_ldap_bind_dn'] = 'Se você quiser usar o bind-user para buscar usuários, indicá-lo aqui. Algo como \'cn=ldapuser,ou=public,o=org\'';
 $string['enrol_ldap_bind_pw'] = 'Password para o bind-user';
 $string['enrol_ldap_category'] = 'Categoria para cursos criados automaticamente';
+$string['enrol_ldap_contexts'] = 'contextos LDAP';
 $string['enrol_ldap_course_fullname'] = 'Opcional: campo LDAP que define o nome completo';
 $string['enrol_ldap_course_idnumber'] = 'Mapa ao identificador único em LDAP, normalmente <em>cn</em> ou <em>uid</em>. É recomendável o bloqueio do valor quando é ativada a criação automática de cursos.';
 $string['enrol_ldap_course_settings'] = 'Configuração da Inscrição em Cursos';
@@ -18,7 +19,9 @@ $string['enrol_ldap_editlock'] = 'Bloquear valor';
 $string['enrol_ldap_general_options'] = 'Opções Gerais';
 $string['enrol_ldap_host_url'] = 'Definir o host LDAP em formato URL como \'ldap://ldap.myorg.com/\' 
 ou \'ldaps://ldap.myorg.com/\'';
+$string['enrol_ldap_memberattribute'] = 'atributo de membro LDAP';
 $string['enrol_ldap_objectclass'] = 'objectClass usado para buscar cursos. Normalmente é \'posixGroup\'.';
+$string['enrol_ldap_roles'] = 'Mapeamento de funções/papéis';
 $string['enrol_ldap_search_sub'] = 'Buscar membros de grupos em sub-contextos';
 $string['enrol_ldap_server_settings'] = 'Parâmetros do Server LDAP';
 $string['enrol_ldap_student_contexts'] = 'Lista de contextos onde grupos com inscrição de estudantes estão localizados. Separar contextos diferentes com \';\'. Por exemplo: 

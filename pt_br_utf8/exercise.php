@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.6 development (2006031600)
+      // exercise.php - created with Moodle 1.9 dev (2007021401)
 
 
 $string['absent'] = 'Ausente';
@@ -47,6 +47,7 @@ $string['enterpassword'] = 'Escrever senha';
 $string['entriessaved'] = 'Rgistros salvados';
 $string['errorbanded'] = 'Erro relacionado';
 $string['excellent'] = 'Excelente';
+$string['exercise:assess'] = 'Avaliar exercícios';
 $string['exerciseassessments'] = 'Avaliações do exercício';
 $string['exercisefeedback'] = 'Feedback do exercício';
 $string['exercisesubmissions'] = 'Exercícios enviados';
@@ -66,7 +67,7 @@ $string['incorrect'] = 'Errado';
 $string['late'] = 'Tarde';
 $string['lax'] = 'Vago';
 $string['leaguetable'] = 'Tabela dos trabalhos enviados';
-$string['mail1'] = 'O seu exercício \'$a\'  foi avaliado por ';
+$string['mail1'] = 'O seu exercício \'$a\'  foi avaliado por';
 $string['mail2'] = 'Os comentários e as notas podem ser consultados no exercício \'$a\'';
 $string['mail3'] = 'Isto pode ser visto na página do exercício';
 $string['mail6'] = 'A sua avaliação do exercício \'$a\' foi examinada';
@@ -154,7 +155,7 @@ $string['submitexercisedescription'] = 'Enviar descrição do exercício';
 $string['submitted'] = 'Enviado';
 $string['submittedby'] = 'Enviado por';
 $string['suggestedgrade'] = 'Nota sugerida';
-$string['teacherassessment'] = ' $a  Avaliação';
+$string['teacherassessment'] = '$a  Avaliação';
 $string['teacherassessmenttable'] = '$a  tabela de avaliação';
 $string['teacherscomment'] = 'Comentário';
 $string['theexercise'] = 'O exercício';

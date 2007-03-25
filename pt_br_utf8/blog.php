@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6.1 (2006050510)
+      // blog.php - created with Moodle 1.9 dev (2007021401)
 
 
 $string['addnewentry'] = 'Acrescentar novo texto';
@@ -15,7 +15,10 @@ $string['blogs'] = 'Blogs';
 $string['blogtags'] = 'Etiquetas do Blog';
 $string['courseblog'] = 'Blog do Curso: $a';
 $string['courseblogs'] = 'Os usuários podem acessar apenas os blogs de outros participantes do curso';
+$string['deleteotagswarn'] = 'tem certeza que quer cancelar estas etiquetas de toas as mensagens dos blogs e apagar estas etiquetas em todo o sistema?';
 $string['disableblogs'] = 'Desabilitar completamente o sistema de blogs';
+$string['emptybody'] = 'O corpo do texto não pode ficar em branco';
+$string['emptytitle'] = 'O título do texto não pode ficar em branco';
 $string['entrybody'] = 'Corpo do texto';
 $string['entrybodyonlydesc'] = 'Descrição do texto';
 $string['entryerrornotyours'] = 'Este texto não é seu';
@@ -43,6 +46,7 @@ $string['settingsupdatederror'] = 'Ocorreu um erro, a configuração não foi at
 $string['siteblog'] = 'Blog do site: $a';
 $string['siteblogs'] = 'Todos os usuários do site podem ler os textos do blog';
 $string['tagdatelastused'] = 'Data da última vez em que a etiqueta foi usada';
+$string['tags'] = 'Etiquetas';
 $string['tagsort'] = 'Ordenar as etiquetas por';
 $string['tagtext'] = 'Texto da etiqueta';
 $string['timewithin'] = 'Mostrar etiquetas usadas neste período (número de dias)';
