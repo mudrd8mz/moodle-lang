@@ -1,14 +1,17 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6.2+ (2006050521)
+      // resource.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['addresource'] = 'Tāpiri Rauemi';
+$string['affectedresources'] = 'Ngā rauemi kua whai pānga';
 $string['back'] = 'Hoki';
 $string['browserepository'] = 'Pūtiro pupuru';
 $string['choose'] = 'Kōwhiri';
 $string['chooseafile'] = 'Tīpako Kōnae, Tukuake Rānei';
 $string['chooseparameter'] = 'Tīpako Kōnae, Tukuake Rānei';
 $string['configallowlocalfiles'] = 'Inā waihangatia ana he rauemi kōnae hōu, whakaaetia e koe ngā hononga ki ngā kōnae e noho ana i runga i tetahi pūnaha kōnae paetata pērā i te puku KK, i te puku mārō rānei. He pai pea tēnei mō te ruma ako, mēnā e whiwhi tahi nei ngā ākonga i te āheinga uru ki tētahi puku whatunga ekenoa,  mēnā ka hiahiatia ngā kōnae runga KK kia . Use of this feature may require changes to your browser\'s security settings.';
+$string['configautofilerenamesettings'] = 'Whakahōu aunoatia ngā tohutoro ki ngā kōnae me ngā whaiaronga ki te whakaingoa anō ki roto i te kaiwhakahaere kōnae.';
+$string['configblockdeletingfilesettings'] = 'Kua tohutoroa te parenga paraka o ngā kōnae me ngā whaiaronga e ngā rauemi. Kia mōhio koe ko ngā atanga me ngā kōnae kua tohutoroa mai i te html kāre i te pare.';
 $string['configdefaulturl'] = 'Ko tā tēnei uara he whakakī aunoa i te puka URL inā waihangatia ana he rauemi hānagai-URL hōu.';
 $string['configfilterexternalpages'] = 'Mā te whakahohe i tēnei tautuhinga ka tukahia ai ngā rauemi ā-waho katoa (whārangi tukutuku, kōnae HTML kua oti te tukuake) e te pūtatari pae kei tēnei wā (hei tauira ake, ko te hononga-aunoa papakupu). Heoi anō, ki te whakakā koe i tēnei kōwhiringa, tērā pea ka tino pōturi te putaputa mai o ō whārangi pū akoranga - nō reira kia tūpato, kaua e whakamahia pokanoa.';
 $string['configframesize'] = 'Ki te whakaaturia ki rō tāpare he whārangi tukutuku, he kōnae rānei kua tukuna ake, he ōrite tēnei uara ki te rahinga (ā-pika) o te tāpare runga (kei roto ko te whakaterenga).';
@@ -89,6 +92,7 @@ $string['preview'] = 'Arokite';
 $string['previous'] = 'Tōmua';
 $string['redeploy'] = 'Hora anō';
 $string['repository'] = 'Pupuru IMS';
+$string['resource:view'] = 'Tiro rauemi';
 $string['resourcetype'] = 'Momo Rauemi';
 $string['resourcetype1'] = 'Tohutoro';
 $string['resourcetype2'] = 'Whārangi Tukutuku';
@@ -115,5 +119,7 @@ $string['upbutton'] = 'Runga';
 $string['variablename'] = 'Ingoa Tāupe';
 $string['viewims'] = 'Tirohia te Pōkai Ihirangi IMS';
 $string['vol'] = 'Rōrahi';
+$string['warningblockingdelete'] = 'Whakatūpato: Kua parea te mahinga muku e te rauemi tīariari. Whakahōu ō rauemi i te tuatahi, pātai rānei ki tētahi kaiwhakahaere ki te mono i tēnei mea haumaru i te whirihoranga rauemi huri noa.';
+$string['warningdisabledrename'] = 'Whakatūpato: Kua monokia te whakaingoa anō aunoa o ngā tohutoronga i roto i ngā rauemi. Whakahōu 1a-ringa koa i ngā rauemi e whai pānga ana, mēnā e hiahiatia ana. Ka taea hoki e te kaiwhakahaere te whakaingoa anō aunoa i roto i te whirihoranga rauemi huri noa.';
 
 ?>

@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.5.3+ (2005060230)
+      // block_rss_client.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['addfeed'] = 'Tāpiri URL whāngai karere:';
 $string['addheadlineblock'] = 'Tāpiri paraka rainamatua RSS';
 $string['addnew'] = 'Tāpiri Mea Hōu';
+$string['blockname'] = 'Kiritaki RSS';
 $string['choosefeedlabel'] = 'Kōwhirihia ngā whāngai ka whakawāteahia i tēnei paraka:';
 $string['clientchannellink'] = 'Rapu Pae...';
 $string['clientnumentries'] = 'Tau taunoa o ngā tāurunga hei whakaatu i ia whāngai.';
@@ -20,7 +21,7 @@ $string['editnewsfeeds'] = 'Whakarerekē ngā whāngai karere';
 $string['editrssblock'] = 'Whakarerekē paraka rainamatua RSS';
 $string['feed'] = 'Whāngai';
 $string['feedadded'] = 'Kua tāpirihia he whāngai karere';
-$string['feeddeleted'] = 'Kua mukua te whāngai karere ';
+$string['feeddeleted'] = 'Kua mukua te whāngai karere';
 $string['feeds'] = 'Ngā whāngai karere';
 $string['feedsaddedit'] = 'Tāpiri/whakarerekē ngā whāngai';
 $string['feedsconfigurenewinstance'] = 'Hei whirihora i tēnei paraka kia whakaatu ai i ngā whāngai RSS, pāwhiritia konei.';
@@ -31,7 +32,12 @@ $string['managefeeds'] = 'Whakahaeretia ake whāngai rss katoa';
 $string['nofeeds'] = 'Karekau he whāngai RSS kua whakatautuhia mō tēnei pae';
 $string['pickfeed'] = 'Tīpakohia he whāngai karere';
 $string['remotenewsfeed'] = 'Whāngai karere Mamao';
+$string['rss_client:createprivatefeeds'] = 'Waihanga i ngā whāngai RSS tūmataiti';
+$string['rss_client:createsharedfeeds'] = 'Waihanga i ngā whāngai RSS tiri';
+$string['rss_client:manageanyfeeds'] = 'Whakahaere i ngā whāngai RSS';
+$string['rss_client:manageownfeeds'] = 'Whakahaere i ōku ake whāngai RSS';
 $string['seeallfeeds'] = 'Kia Kitea Whāngai katoa';
+$string['sharedfeed'] = 'Whāngai tiri';
 $string['shownumentrieslabel'] = 'Tau mōrahi o ngā tāurunga mō ia paraka';
 $string['submitters'] = 'Ko wai ka whakaaetia kia whakatautuhi i ngā whāngai rss hōu? Kei te wātea ngā whāngai kua oti te whakatautuhi mō ngā whārangi katoa o tō pae.';
 $string['timeout'] = 'Whakamoe rss paraka';

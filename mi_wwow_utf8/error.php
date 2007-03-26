@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6.2+ (2006050521)
+      // error.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['adminprimarynoedit'] = 'Kāore e taea te kaiwhakahaere matua te whakarerekē e ētahi atu';
@@ -11,9 +11,12 @@ $string['cannotfindcomponent'] = 'Kāore i taea te wae te kite.';
 $string['cannotsavemd5file'] = 'Kāore i taea te kōnae md5 te tiaki.';
 $string['cannotsavezipfile'] = 'Kāore i taea te kōnae KŌTUI te tiaki.';
 $string['cannotunzipfile'] = 'Kāore i taea te kōnae te whewhera.';
+$string['cantunenrollfrommetacourse'] = 'Kāore e taea ana te puta atu i tēnei kōhi meta.';
+$string['cantunenrollinthisrole'] = 'Kāore koe e taea ana te puta i tēnei kōhi i a koe i tō tūranga.';
 $string['cmunknown'] = 'Kāore i taea te kite i tēnei kōwai kōhi';
 $string['componentisuptodate'] = 'Tika tonu te wae ki te rā';
 $string['confirmsesskeybad'] = 'Kāore e taea tō kī wātū te whakaū hei tutuki i tēnei mahi. Parea ai e tēnei āhuatanga haumaru ngā mahinga tūkino ki ngā mea hira i raro i tō ingoa. Me āta whakaaro mēnā e tino hiahia ana koe ki te mahi i tēnei mahi.';
+$string['couldnotassignrole'] = 'I puta tētahi hapa kino kāore i whakamāramahia i te nganatanga o te tautuhi tūranga ki a koe';
 $string['coursegroupunknown'] = 'Kāore te akoranga e here ana ki te rōpū $a i whakapūtāhia';
 $string['downloadedfilecheckfailed'] = 'I rahua te takinga o te kōnae i tikina ake';
 $string['errorcleaningdirectory'] = 'Hapa i te whakapainga o te whaiaronga \"$a\"';
@@ -34,15 +37,18 @@ $string['invalidcourse'] = 'Kōhi muhu';
 $string['invalidfieldname'] = 'Kāore te $a i te momo ingoa āpure whaimana';
 $string['invalidfiletype'] = 'Kāore te $a i te momo kōnae whaimana';
 $string['invalidmd5'] = 'md5 muhu';
+$string['invalidrole'] = 'Tūranga muhu';
 $string['invalidxmlfile'] = 'Kāore te $a i te kōnae XML whaimana';
 $string['missingfield'] = 'Kei te ngaro te āpure \"$a\"';
 $string['missingrequiredfield'] = 'E ngaro ana tētahi āpure e hiahiatia ana';
 $string['modulemissingcode'] = 'E ngaro ana te waehere o kōwae $a e hiahiatia ana hei mahi i tēnei pūmahi';
 $string['modulerequirementsnotmet'] = 'Kāore i taea te tāuta i te kōwae \"$a->modulename\" ($A->moduleversion). E hiahiatia ana tētahi putanga hōu atu o Moodle (i tēnei wā kei te whakamahi te $a->currentmoodle, e hiahiatia ana te $a->requiremoodle).';
 $string['mustbeteacher'] = 'Me kaiako koe hei tiro i tēnei whārangi';
+$string['nocontext'] = 'Kāore tēnā kōhi i te horopaki tika';
 $string['noinstances'] = 'Kāore kau he tauira o te $a i rō tēnei kōhi!';
 $string['nonmeaningfulcontent'] = 'Ihirangi kikokore';
 $string['noparticipatorycms'] = 'E hoa, kāore kau he kōwae kōhi uru whānui āu hei whakaputa pūrongo.';
+$string['nopermissions'] = 'Kāore āu whakaaetanga hei mahi i tēnā ($a';
 $string['notavailable'] = 'Kāore tēnā i te wātea i tēnei wā';
 $string['onlyadmins'] = 'Mā ngā kaiwhakahaere anake taua mahi.';
 $string['onlyeditingteachers'] = 'Ka taea e ngā kaiako whakarerekē anake tērā te mahi';

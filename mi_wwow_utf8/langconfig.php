@@ -2,7 +2,7 @@
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['firstdayofweek'] = '0';
-$string['locale'] = 'mi_NZ.UTF-8';
+$string['locale'] = 'mi_NZ.utf8';
 $string['localewin'] = 'Maori.1252';
 $string['localewincharset'] = 'WINDOWS-1252';
 $string['oldcharset'] = 'UTF-8';
@@ -19,5 +19,5 @@ $string['strftimerecentfull'] = '%%a, %%d %%b %%Y, %%I:%%M %%p';
 $string['strftimetime'] = '%%I:%%M %%p';
 $string['thischarset'] = 'utf-8';
 $string['thisdirection'] = 'ltr';
-$string['thislanguage'] = 'Māori - WWoW';
+$string['thislanguage'] = 'Māori - Waikato';
 ?>

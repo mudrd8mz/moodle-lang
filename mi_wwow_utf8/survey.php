@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.5.3+ (2005060230)
+      // survey.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['actual'] = 'Tūturu';
@@ -29,14 +29,14 @@ $string['attls17'] = 'He pai ake ki ahau te wetewete me te whakatepe whakaaro, i
 $string['attls17short'] = 'pai ake ki ahau te whakatepe whakaaro';
 $string['attls18'] = 'Mā taku aroha ki te tangata, ka mātau ai ki te pūtake o ngā whakaaro kē a ētahi.';
 $string['attls18short'] = 'mā te aroha ka mātau ai';
-$string['attls19'] = 'Inā tuponohia he tāngata nōna ngā whakaaro tino rerekē ki āku, ka ngana au ki te āta whakarongo ki te whatumanawa o taua tāngata, kia kitea ai, nā te aha i pērā rawa ai ōna whakaaro. ';
+$string['attls19'] = 'Inā tuponohia he tāngata nōna ngā whakaaro tino rerekē ki āku, ka ngana au ki te āta whakarongo ki te whatumanawa o taua tāngata, kia kitea ai, nā te aha i pērā rawa ai ōna whakaaro.';
 $string['attls19short'] = 'Whakarongo ki te whatumanawa';
 $string['attls1short'] = 'arotahi ki te pai o te whakatakoto o te kaupapa';
 $string['attls2'] = 'He pai ki ahau te mahi whakatete - te māngai rēwera - arā ka whakahēngia e au ngā whakaaro a te tangata ahakoa he aha.';
-$string['attls20'] = 'Ka noho au ki te āta whiriwhiri kei hea ngā nawe e huna ana.  Hei tauira ake, i roto i tētahi whakamārama pukapuka. Ka rarapa au i tētahi whakaaro he ngoikore te whakatakoto. ';
+$string['attls20'] = 'Ka noho au ki te āta whiriwhiri kei hea ngā nawe e huna ana.  Hei tauira ake, i roto i tētahi whakamārama pukapuka. Ka rarapa au i tētahi whakaaro he ngoikore te whakatakoto.';
 $string['attls20short'] = 'kei hea te nawe?';
 $string['attls2short'] = 'te māngai whakatete a te rēwera';
-$string['attls3'] = 'He pai ki ahau te rapu mōhiotanga mō te āhuatanga o ngā huarahi kua hīkoia e te tangata, arā he aha ngā wheako i huri pērā ai ōna whakaaro, ōna kare-ā-roto. ';
+$string['attls3'] = 'He pai ki ahau te rapu mōhiotanga mō te āhuatanga o ngā huarahi kua hīkoia e te tangata, arā he aha ngā wheako i huri pērā ai ōna whakaaro, ōna kare-ā-roto.';
 $string['attls3short'] = 'ngā wheako o te tangata';
 $string['attls4'] = 'Ko te wāhi nui o taku ara mātauranga, ko te whai mōhiotanga ki ngā āhua o ngā tāngata rerekē.';
 $string['attls4short'] = 'whai mōhiotanga ki te āhua o ngā tāngata rerekē';
@@ -92,7 +92,7 @@ $string['colles18short'] = 'Mihi mai ai aku hoa ako';
 $string['colles19'] = 'Rata mai ai aku hoa ako ki aku whakaaro';
 $string['colles19short'] = 'Rata mai ai aku hoa ako ki au';
 $string['colles1short'] = 'Arotahi ai ki ngā take pārekareka';
-$string['colles2'] = 'He mea whakapakari aku p&#263; akoranga i taku mahi';
+$string['colles2'] = 'He mea whakapakari aku pć akoranga i taku mahi';
 $string['colles20'] = 'Atawhai mai ai aku hoa ako ahakoa taku pōturi ki te ako';
 $string['colles20short'] = 'Atawhai mai ai aku hoa ako';
 $string['colles21'] = 'Mārama ahau ki ngā kōrero a aku hoa ako';
@@ -106,7 +106,7 @@ $string['colles24short'] = 'Kei te mārama te kaiako i ahau';
 $string['colles2short'] = 'he mea nui mō taku mahi';
 $string['colles3'] = 'Ako ai ahau ki te whakapakari ake i taku mahi ngāīō';
 $string['colles3short'] = 'whakapakari ake i taku mahi';
-$string['colles4'] = 'Hāngai ai aku p&#263;  akoranga ki taku mahi ngāīō';
+$string['colles4'] = 'Hāngai ai aku pć  akoranga ki taku mahi ngāīō';
 $string['colles4short'] = 'Hāngai ai ki taku mahi ngāīō';
 $string['colles5'] = 'Arohaehae ai ahau i taku mahi ako';
 $string['colles5short'] = 'Arohaehae ai ahau i taku mahi ako';
@@ -161,7 +161,7 @@ $string['othercomments'] = 'He pito kōrero anō tāu?';
 $string['peoplecompleted'] = 'E $a ngā tāngata kua mahi i tēnei uiuinga i tēnei wā';
 $string['preferred'] = 'Manakohia ana';
 $string['preferredclass'] = 'Karaehe e manakohia ana';
-$string['preferredstudent'] = ' E manakohia ana a $a';
+$string['preferredstudent'] = 'E manakohia ana a $a';
 $string['question'] = 'Pātai';
 $string['questions'] = 'Ngā Pātai';
 $string['questionsnotanswered'] = 'Kāore anō ētahi o ngā pātai whiringa-maha kia whakautua';
@@ -173,7 +173,10 @@ $string['scaletimes5'] = 'Tata Korekau Ngā Wā, He Iti Ngā Wā, Ētahi Wā , H
 $string['seemoredetail'] = 'Arā Atu Anō';
 $string['selectedquestions'] = 'Ngā pātai i tīpakohia mai i te tauine, ngā ākonga katoa';
 $string['summary'] = 'Whakarāpopotanga';
-$string['surveycompleted'] = 'Kua oti i a koe tēnei uiuinga. Whakataurite ai te kauwhata o raro ake nei i ō whakautu me ngā whakautu wawaenga o tō karaehe. ';
+$string['survey:download'] = 'Tikiake ngā whakahoki';
+$string['survey:participate'] = 'Whakahoki ki te uiuinga';
+$string['survey:readresponses'] = 'Tiro i ngā whakahoki';
+$string['surveycompleted'] = 'Kua oti i a koe tēnei uiuinga. Whakataurite ai te kauwhata o raro ake nei i ō whakautu me ngā whakautu wawaenga o tō karaehe.';
 $string['surveyname'] = 'Ingoa Uiuinga';
 $string['surveysaved'] = 'Kua Tiakina te uiuinga';
 $string['surveytype'] = 'Momo Uiuinga';

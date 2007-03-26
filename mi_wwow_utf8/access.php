@@ -1,16 +1,19 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.6.2+ (2006050521)
+      // access.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['access'] = 'Whakaaheitanga';
 $string['accesshelp'] = 'Āwhina whakaaheitanga';
 $string['accesskey'] = 'Kī whakaahei, $a';
 $string['accessstatement'] = 'Tauāki whakaaheitanga';
+$string['activitynext'] = 'Ngohe panuku';
+$string['activityprev'] = 'Ngohe o mua';
 $string['breadcrumb'] = 'Ara maramara';
 $string['monthnext'] = 'A tērā marama';
 $string['monthprev'] = 'I tērā marama';
 $string['showhideblock'] = 'Whakaatu, huna rānei i te paraka';
 $string['sitemap'] = 'Mahere pae';
+$string['skipa'] = 'Hūpeke $a';
 $string['skipblock'] = 'Waiho paraka';
 $string['skipnavigation'] = 'Waiho whakaterenga';
 $string['tabledata'] = 'Hoahoa rā, $a';

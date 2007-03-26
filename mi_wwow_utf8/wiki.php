@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6.2+ (2006050521)
+      // wiki.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['action'] = '-- Mahi --';
@@ -94,6 +94,7 @@ $string['linkok'] = 'Āe';
 $string['linkschecked'] = 'Ngā Hononga Kua Takina';
 $string['listall'] = 'Whakarārangi te Katoa';
 $string['listcandidates'] = 'Whakarārangi Ngā Kaiwhakauru';
+$string['lockcancelled'] = 'Kua whakaawehia tō raka whakakē, ā, kei te whakakētia tēnei whārangi e tētahi atu. Ki te hiahia ki te pupuri i ō huringa, tīpako koa kātahi ka tārua i mua i te pāwhiri i te Whakakore; kātahi ka ngana ki te whakakē anō.';
 $string['meta'] = 'Raraunga Meta';
 $string['moduledirectory'] = 'Whaiaronga Kōwae';
 $string['modulename'] = 'Wiki';
@@ -105,6 +106,7 @@ $string['noadministrationaction'] = 'Kāore he mahi whakahaere i hoatu.';
 $string['nocandidatestoremove'] = 'Kāore he whārangi kaiwhakauru hei tango, kōwhiria a \'$a\' kia whakaatu i ngā whārangi katoa.';
 $string['nochangestorevert'] = 'Kāore he huringa hei whakahoki.';
 $string['nohtml'] = 'Kāore he HTML';
+$string['nojslockwarning'] = 'I te mea kua mono te Javascript i tō pūtiro, e taea ana tētahi atu te whakakē i tēnei whārangi. Ki te pērā ka kore e taea te tiaki i ō huringa. Kia tere te mahi i o huringa, whakakā rānei i te Javascript ka uta anō i tēnei whārangi.';
 $string['nolinksfound'] = 'Kāore he hononga i kite i runga i te whārangi.';
 $string['noregexp'] = 'He taura tau tēnei (kāore e taea te whakamahi *, regex rānei), he pai ake pea te whakamahi i te wāhitau IP, i te ingoa  kaihautū rānei o te kaitukino, engari kaua e whakauru i te tau tauranga (i te mea i nui haere me ia whakaaheitanga http).';
 $string['notadministratewiki'] = 'Kāore e taea ana e koe te whakarite i tēnei wiki !';
@@ -116,10 +118,13 @@ $string['optional'] = 'Kei a koe te tikanga';
 $string['orphanedpage'] = 'Whārangi Pani';
 $string['orphanedpages'] = 'Ngā Whārangi Pani';
 $string['otherwikis'] = 'Ētahi Atu Wiki';
+$string['overridebutton'] = 'Whakaawe i te raka';
+$string['overrideinfo'] = 'E taea ana te whakaawe i te raka o tēnei kaiwhakamahi, ēngari ka ngaro pea a rātou huringa! Kia tūpato.';
 $string['ownerunknown'] = 'tē mōhiotia';
 $string['pageactions'] = 'Ngā hohenga whārangi';
 $string['pageindex'] = 'Taupū Whārangi';
 $string['pageinfo'] = 'Mōhiohio Whārangi';
+$string['pagelocked'] = '<p><strong>Kei te whakakē tēnei whārangi e $a->name.</strong> I tīmata te whakakē i $a->mai, ā e tūwhera tonu ana te mata mai $a->seen.</p><p>Me tatari kia mutu rātou kātahi ka taea te whakakē i tēnei whārangi.</p>';
 $string['pagename'] = 'Ingoa Whārangi';
 $string['pagenamechoice'] = '- rānei -';
 $string['pageslinkingto'] = 'Ngā whārangi e hono ana ki tēnei whārangi';
@@ -144,6 +149,7 @@ $string['revertpagescheck'] = 'E tika ana kia whakahoki i ngā huringa e whai ak
 $string['revertthe'] = 'Ruku putanga, pure anake i te mea kua pā';
 $string['safehtml'] = 'HTML Haumaru';
 $string['save'] = 'Tiaki';
+$string['savenolock'] = 'Kāore e taea ana te tiaki i te whārangi i te mea kāore āu raka whakakē. Ka pēnei mēnā kua weto te Javascript o tō pūtiro, ki te whakaawe rānei tētahi atu kaiwhakamahi i tō raka.<br/><br/>Ka taea te hoki ki te mata o mua mā te whakamahi i te pātene Hoki o tō pūtiro, ka tārua i ngā huringa kua mahia, kātahi ka ngana ki te whakakē anō.';
 $string['searchwiki'] = 'Rapu Wiki';
 $string['setpageflags'] = 'Tautuhi kara whārangi';
 $string['showversions'] = 'Whakaatu ngā putanga:';
@@ -177,6 +183,9 @@ $string['versionstodelete'] = '(Ngā) Putanga hei muku';
 $string['viewpage'] = 'Tiro Whārangi';
 $string['viewsmfor'] = 'Tiro maherepae mō';
 $string['wantedpages'] = 'Ngā whārangi e hiahiatia ana';
+$string['wiki:manage'] = 'Whakahaere i ngā tautuhinga wiki';
+$string['wiki:overridelock'] = 'Whakaawe i ngā whārangi kua raka';
+$string['wiki:participate'] = 'Whakakē i te whārangi wiki';
 $string['wikidefaultpagename'] = 'TaupūWiki';
 $string['wikiexport'] = 'Kaweake Ngā Whārangi';
 $string['wikiexportcomment'] = 'Ki konei ka taea te whirihora i te kawenga ake ki tāu i pai ai.';

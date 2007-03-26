@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6.2+ (2006050521)
+      // hotpot.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['abandoned'] = 'Kua makere';
 $string['addquizchain'] = 'Tāpiri herenga pātaitai';
-$string['allmycourses'] = 'aku pū akoranga katoa';
+$string['allusers'] = 'Ngā kaiwhakamahi katoa';
 $string['alwaysopen'] = 'Tuwhera ai i ngā wā katoa';
 $string['attemptsall'] = 'Ngā nganatanga katoa';
 $string['attemptsbest'] = 'Nganatanga pai rawa atu';
@@ -45,6 +45,11 @@ $string['filetype'] = 'Momo Kōnae';
 $string['forceplugins'] = 'Whakahau Ngā Mono-mai Pāpāho';
 $string['giveup'] = 'Aua atu. Kua pau te hau';
 $string['hints'] = 'Ngā Tohuwhāki';
+$string['hotpot:attempt'] = 'Mahia he pātaitai';
+$string['hotpot:deleteattempt'] = 'Mukua ngā mahinga pātaitai';
+$string['hotpot:grade'] = 'Whakakē kōeke';
+$string['hotpot:view'] = 'Whakamahi i te pātaitai';
+$string['hotpot:viewreport'] = 'Tiro i ngā pūrongo';
 $string['hotpotcloses'] = 'Ka katia te pātaitai Hot Potatoes';
 $string['hotpotopens'] = 'Ka whakatuwherahia te pātaitai Hot Potatoes';
 $string['ignored'] = 'Kua Whakaarokoretia';
@@ -57,7 +62,7 @@ $string['navigation_bar'] = 'Pae whakatere o Moodle';
 $string['navigation_buttons'] = 'Ngā pātene pātaitai o Hot Potatoes';
 $string['navigation_frame'] = 'Tāpare whakatere o Moodle';
 $string['navigation_give_up'] = 'He pātene \"Whakahauraro\" kotahi';
-$string['navigation_iframe'] = 'Kua Tāmauroto &lt;IFRAME&gt;';
+$string['navigation_iframe'] = 'Kua Tāmauroto <IFRAME>';
 $string['navigation_none'] = 'Kore';
 $string['neverclosed'] = 'E kore rawa e kati';
 $string['noactivity'] = 'Karekau he mahi';
@@ -140,7 +145,6 @@ $string['textsourcefilename'] = 'Whakamahi ingoa kōnae';
 $string['textsourcefilepath'] = 'Whakamahi ingoa ara';
 $string['textsourcequiz'] = 'Tikina mai i te pātaitai';
 $string['textsourcespecific'] = 'Kuputuhi whāiti';
-$string['thiscourse'] = 'tēnei pū akoranga';
 $string['timedout'] = 'Kua pau te wā';
 $string['updatequizchain'] = 'Whakahōuhia te herenga pātaitai';
 $string['weighting'] = 'Nuiōrau';

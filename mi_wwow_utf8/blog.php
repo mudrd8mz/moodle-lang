@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6.2+ (2006050521)
+      // blog.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['addnewentry'] = 'Tāpiri he tāurunga hōu';
@@ -16,6 +16,8 @@ $string['blogtags'] = 'Ngā tutohu tuhitaka-ā-ipurangi';
 $string['courseblog'] = 'Tuhitaka-ā-ipurangi kōhi: $a';
 $string['courseblogs'] = 'Ka taea anake e ngā kaiwhakamahi te kite i ngā tuhitaka-ā-ipurangi mō ngā tāngata e mahi tahi ana ki tētahi kōhi';
 $string['disableblogs'] = 'Mono katoa te pūnaha tuhitaka-ā-ipurangi';
+$string['emptybody'] = 'Kāore e whakaaetia ana kia putu te tinana tāurunga tuhiwhakaaro';
+$string['emptytitle'] = 'Kāore e whakaaetia ana kia putu te taitara tāurunga tuhiwhakaaro';
 $string['entrybody'] = 'Tinana tāurunga tahitaka-ā-ipurangi';
 $string['entrybodyonlydesc'] = 'Whakaahuatanga tāuru';
 $string['entryerrornotyours'] = 'Ehara nāu tēnei tāurunga';

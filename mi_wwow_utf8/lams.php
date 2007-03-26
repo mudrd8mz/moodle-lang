@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.6.2+ (2006050521)
+      // lams.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['createSequence'] = 'Waihanga raupapa hōu';
@@ -7,6 +7,8 @@ $string['editSequence'] = 'Whakatika raupapa i tīpakohia';
 $string['error'] = 'Taihoa koa, kua puta mai tētahi hapa tauhou';
 $string['introduction'] = 'Kupu Whakataki';
 $string['lams'] = 'PWNA - Pūnaha Whakahaere Ngohe Ako --';
+$string['lams:manage'] = 'Whakahaere i ngā ngohe LAMS';
+$string['lams:participate'] = 'Mahi ki ngā ngohe LAMS';
 $string['lamsoutline'] = 'Whakahuahua LAMS';
 $string['lesson'] = 'wātū ako';
 $string['modulename'] = 'PWNA';

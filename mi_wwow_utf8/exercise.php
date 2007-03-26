@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.6.2+ (2006050521)
+      // exercise.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['absent'] = 'Kei te Ngaro';
@@ -46,6 +46,7 @@ $string['enterpassword'] = 'Tāuru Kupuhipa';
 $string['entriessaved'] = 'Ngā tāurunga kua tiakina';
 $string['errorbanded'] = 'Kaute Hapa';
 $string['excellent'] = 'Pai rawa atu';
+$string['exercise:assess'] = 'Aromatawai ngā mahinga ako';
 $string['exerciseassessments'] = 'Aromatawai Mahinga Ako';
 $string['exercisefeedback'] = 'Urupare Mahinga Ako';
 $string['exercisesubmissions'] = 'Tukunga Mahinga Ako';

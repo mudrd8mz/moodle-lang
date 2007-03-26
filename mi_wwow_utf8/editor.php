@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.5.3+ (2005060230)
+      // editor.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['about'] = 'Mō tēnei pūwhakahōputu';
@@ -29,8 +29,9 @@ $string['createanchor'] = 'Waihanga Punga';
 $string['createfolder'] = 'Waihanga Kōpaki';
 $string['createlink'] = 'Kōkuhu Hononga Tukutuku';
 $string['cut'] = 'Tapahi Tīpakonga';
-$string['cutpastemozilla'] = ' E kare, i tēnei wā, kāore e taea ngā pokatata papapātuhi pūnoa te whakamahi (te pātene whakapiri rānei) hei whakapiri i ngā kuputuhi ki roto i te pūwhakahōputu tuihono nei. He āhuatanga haumaru nō ētahi putanga o ngā pūtirotiro Mozilla, Firefox hoki i pēnei ai.<br /><br />E toru ngā huarahi rongoā hei whakamātau māu: <br /> (1) Whakamahia te SHIFT-Insert, kaua ko te CTRL-v<br /> (2) Whakamahia te tahua Edit->Paste i roto i tō pūtirotiro <br /> (3) Hurihia ngā makau i tō pūtirotiro mā te whakarerekē i te kōnae user.js. <br /><br />Pāwhiritia te pātene Āe mō ētahi āwhina atu anō, te pātene Whakakore rānei kia hoki ake anō ki te pūwhakahōputu';
+$string['cutpastemozilla'] = 'E kare, i tēnei wā, kāore e taea ngā pokatata papapātuhi pūnoa te whakamahi (te pātene whakapiri rānei) hei whakapiri i ngā kuputuhi ki roto i te pūwhakahōputu tuihono nei. He āhuatanga haumaru nō ētahi putanga o ngā pūtirotiro Mozilla, Firefox hoki i pēnei ai.<br /><br />E toru ngā huarahi rongoā hei whakamātau māu: <br /> (1) Whakamahia te SHIFT-Insert, kaua ko te CTRL-v<br /> (2) Whakamahia te tahua Edit->Paste i roto i tō pūtirotiro <br /> (3) Hurihia ngā makau i tō pūtirotiro mā te whakarerekē i te kōnae user.js. <br /><br />Pāwhiritia te pātene Āe mō ētahi āwhina atu anō, te pātene Whakakore rānei kia hoki ake anō ki te pūwhakahōputu';
 $string['delete'] = 'Muku';
+$string['enterurlfirst'] = 'Me tāuru koe i tētahi URL i te tuatahi';
 $string['filebrowser'] = 'Pūtirotiro Kōnae';
 $string['findwhat'] = 'Rapu';
 $string['fontname'] = 'Ingoamomotuhi';
@@ -73,6 +74,7 @@ $string['matchcase'] = 'Kia ōrite te pū matua/iti';
 $string['middle'] = 'Waenganui';
 $string['minimize'] = 'Whakamōkito pūwhakahōputu';
 $string['move'] = 'Nuku';
+$string['mustenterurl'] = 'Me tāuru koe i te URL';
 $string['nolink'] = 'Aukatia te hono aunoa';
 $string['normal'] = 'Pūnoa';
 $string['notimage'] = 'Ehara taua kōnae i te atahanga.  Tēnā, tīpakohia tētahi atahanga!';
@@ -85,6 +87,7 @@ $string['paste'] = 'Tāpiri Mai i te Papatopenga';
 $string['path'] = 'Ara';
 $string['percent'] = 'Ōrau';
 $string['pixels'] = 'Ngā Pika';
+$string['pleaseenteralt'] = 'Tāuru koe i tērā atu kupu';
 $string['popupeditor'] = 'Whakanui Pūwhakahōputu';
 $string['preformatted'] = 'Kua hōputu i mua';
 $string['preview'] = 'Arokitenga';

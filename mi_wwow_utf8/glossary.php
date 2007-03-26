@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6.2+ (2006050521)
+      // glossary.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['addcomment'] = 'Tāpiri Pito Kōrero';
@@ -105,6 +105,16 @@ $string['fillfields'] = 'Me matua whakakī ngā āpure Kupu Pūtake, Whakamāram
 $string['filtername'] = 'Whakahono-Aunoa ā-Papakupu';
 $string['fullmatch'] = 'Whairite Ngā Kupu Tūtahi Anake';
 $string['globalglossary'] = 'Papakupu Pāwhānui';
+$string['glossary:comment'] = 'Waihanga Ngā Kōrero';
+$string['glossary:export'] = 'Kaweake Ngā Tāurunga';
+$string['glossary:import'] = 'Kaweake Ngā Tāurunga';
+$string['glossary:managecategories'] = 'Whakahaere Ngā Kāwai';
+$string['glossary:managecomments'] = 'Whakahaere Ngā Kōrero';
+$string['glossary:manageentries'] = 'Whakahaere Ngā Tāurunga';
+$string['glossary:rate'] = 'Whakawā Ngā Tāurunga';
+$string['glossary:view'] = 'Tiro Papakupu';
+$string['glossary:viewrating'] = 'Tiro Ngā Whakawākanga';
+$string['glossary:write'] = 'Waihanga Ngā Tāurunga Hōu';
 $string['glossaryleveldefaultsettings'] = 'Tautuhinga Rārangi Kupu Taumata Taunoa';
 $string['glossarytype'] = 'Momo Papakupu';
 $string['importcategories'] = 'Kawemai Ngā Kāwai';

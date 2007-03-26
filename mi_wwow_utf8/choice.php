@@ -1,11 +1,15 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.5.3+ (2005060230)
+      // choice.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['addmorechoices'] = 'Tāpirihia ētahi atu Kōwhiringa';
 $string['allowupdate'] = 'Whakaae kia whakahōungia ngā kōwhiringa';
 $string['answered'] = 'Kua Whakautua';
 $string['choice'] = 'Kōwhiringa';
+$string['choice:choose'] = 'Rīkoata tō kōwhiringa';
+$string['choice:deleteresponses'] = 'Mukua o whakahoki';
+$string['choice:downloadresponses'] = 'Tikiake ngā whakahoki';
+$string['choice:readresponses'] = 'Pānuitia ngā whakahoki';
 $string['choiceclose'] = 'Tae Noa Ki';
 $string['choicename'] = 'Ingoa Kōwhiringa';
 $string['choiceopen'] = 'Whakatuwhera';
@@ -20,6 +24,8 @@ $string['limitanswers'] = 'Whakawhāitihia te tau o ngā urupare e taea ana';
 $string['modulename'] = 'Pōti Kōwhiringa';
 $string['modulenameplural'] = 'Ngā Pōti Kōwhiringa';
 $string['mustchooseone'] = 'Me kōwhiri he whakautu mō mua i te tiakitanga. Karekau i tiakina tērā o mua.';
+$string['noguestchoose'] = 'Kāore e whakaaetia ana kia kōwhiri ngā manuwhiri i ngā kōwhiringa.';
+$string['noresultsviewable'] = 'Kāore ngā whakautu i te wātea hei tiro.';
 $string['notanswered'] = 'Kāore anō kia whakautua';
 $string['notopenyet'] = 'Kāore tēnei i te wātea i mua i te $a';
 $string['privacy'] = 'Te tūmataititanga o ngā kitenga';

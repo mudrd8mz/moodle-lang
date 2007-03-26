@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6.2+ (2006050521)
+      // chat.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['beep'] = 'Pīpi!';
+$string['chat:chat'] = 'Kōrero ki roto i tētahi kōrerorero';
+$string['chat:deletelog'] = 'Mukua ngā rangitaki kōrerorero';
+$string['chat:readlog'] = 'Pānuitia ngā rangitaki kōrerorero';
 $string['chatintro'] = 'Kupu Whakataki';
 $string['chatname'] = 'Ingoa o tēnei rūma kōrerorero';
 $string['chatreport'] = 'Ngā wātū kōrerorero';

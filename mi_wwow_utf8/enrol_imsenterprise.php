@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6.2+ (2006050521)
+      // enrol_imsenterprise.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['aftersaving...'] = 'Whai muri i te tiaki i ō tautuhinga, ka taea e koe te';
@@ -18,6 +18,7 @@ $string['filelockedmail'] = 'Kāore e taea te muku e te tukatuka cron i te kōna
 $string['filelockedmailsubject'] = 'Hapa hira: Kōnae whakaurunga';
 $string['fixcasepersonalnames'] = 'Hurihia ngā ingoa ake ki te Pūāhua Taitara';
 $string['fixcaseusernames'] = 'Hurihia ngā ingoa kaiwhakamahi ki te pūāhua iti';
+$string['imsrolesdescription'] = 'Kei te whakatakotoranga IMS Enterprise e 8 tū momo motuhake. Kōwhiritia me pēhea te whakahāngai ki Moodle, tae atu ana ki te kore o te aronga pea i ētahi.';
 $string['location'] = 'Tauwāhi o te kōnae';
 $string['logtolocation'] = 'Tauwāhi o te kōnae rangitaki (kore mō te kore rangitaki)';
 $string['mailadmins'] = 'Whakamōhio atu ki te kaiwhakahaere mā te īmēra';
