@@ -1,8 +1,7 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 dev (2007021400)
+      // group.php - created with Moodle 1.9 dev (2007021501)
 
 
-$string['addexistinggroupstogrouping'] = 'Voeg bestaande groepen aan groepering toe.';
 $string['addgroupstogrouping'] = 'Voeg groepen aan groepering toe.';
 $string['adduserstogroup'] = 'Gebruikers toevoegen/verwijderen';
 $string['anygrouping'] = '[Alle groeperingen]';
@@ -16,7 +15,7 @@ $string['defaultgroupdescription'] = 'Standaard groepsbeschrijving';
 $string['defaultgroupingname'] = 'Groepering';
 $string['defaultgroupname'] = 'Groep';
 $string['defaultgroupprefix'] = 'Groep';
-$string['deletegroupconfirm'] = 'Ben je zeker dat je de groetp \'$a\' wil verwijderen?';
+$string['deletegroupconfirm'] = 'Ben je zeker dat je de groep \'$a\' wil verwijderen?';
 $string['deletegrouping'] = 'Verwijder groepering';
 $string['deletegroupingconfirm'] = 'Ben je zeker dat je de groepering \'$a\' wil verwijderen?(Groepen in de groepering worden niet verwijderd).';
 $string['deleteselectedgroup'] = 'Verwijder geselecteerde groep';
@@ -85,5 +84,6 @@ $string['usestudentsonlyfromselectedgroup'] = 'Gebruik alleen leerlingen van de 
 $string['viewallgroupsactivities'] = 'Leerlingen kunnen de activiteiten van alle groepen bekijken, maar mogen alleen in hun eigen groepsactiviteiten toevoegen';
 $string['viewallgroupsmembers'] = 'Leerlingen kunnen de leden van alle groepen zien';
 $string['viewowngroup'] = 'Leerlingen kunnen de leden zien van alle groepen waartoe zij behoren.';
+$string['addexistinggroupstogrouping'] = 'Voeg bestaande groepen aan groepering toe.'; // ORPHANED
 
 ?>
