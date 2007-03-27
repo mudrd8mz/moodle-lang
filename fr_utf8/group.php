@@ -8,6 +8,7 @@ $string['createautomaticgrouping'] = 'Créer groupement automatique';
 $string['creategroup'] = 'Créer un groupe';
 $string['creategrouping'] = 'Créer un groupement';
 $string['creategroupinselectedgrouping'] = 'Créer un groupe dans le groupement'; // sélectionné
+$string['createorphangroup'] = 'Créer un groupe orphelin';
 $string['databaseupgradegroups'] = 'La version des groupes est maintenant $a';
 $string['defaultgroupdescription'] = 'Description du groupe par défaut';
 $string['defaultgroupingname'] = 'Groupement';
