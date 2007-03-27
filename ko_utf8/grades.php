@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.8 dev (2006112200)
+      // grades.php - created with Moodle 1.9 dev (2007032200)
 
 
 $string['addcategory'] = '범주 추가';
@@ -86,7 +86,7 @@ $string['points'] = '점수';
 $string['pointsascending'] = '점수로 오름차순 정렬';
 $string['pointsdescending'] = '점수로 내림차순 정렬';
 $string['preferences'] = '선택';
-$string['rawpct'] = '처리안된 퍼센트';
+$string['rawpct'] = '백분율';
 $string['reprintheaders'] = '표제';
 $string['savechanges'] = '바뀐 내용 저장';
 $string['savepreferences'] = '선택 저장';
