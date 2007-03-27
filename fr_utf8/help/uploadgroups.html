@@ -8,38 +8,38 @@
 
 <li>Chaque ligne du fichier d'importation comporte un enregistrement.</li>
 
-<li>Chaque enregistrement est constitué d'une série de champs séparés par des virgules.</li>
+<li>Chaque enregistrement est constituÃ© d'une sÃ©rie de champs sÃ©parÃ©s par des virgules.</li>
 
-<li>La première ligne du fichier contient la liste des noms des champs, qui définit le format du reste du fichier.
+<li>La premiÃ¨re ligne du fichier contient la liste des noms des champs, qui dÃ©finit le format du reste du fichier.
 
 <ul>
 
-<li><strong>Champ requis :</strong> ces champs doivent être mentionnés dans la première ligne du fichier et définis pour chaque groupe.<br />
+<li><strong>Champ requisÂ :</strong> ces champs doivent Ãªtre mentionnÃ©s dans la premiÃ¨re ligne du fichier et dÃ©finis pour chaque groupe.<br />
 <span style="color:#990000;font-family:monospace,Courier New, Courier">groupname</span></li>
 
-<li><strong>Champs par défaut :</strong> ces champs sont optionnels ; s'ils ne sont pas inclus, leurs valeurs sont paramétrées par la langue actuelle et le cours actuel<br />
+<li><strong>Champs par dÃ©fautÂ :</strong> ces champs sont optionnelsÂ ; s'ils ne sont pas inclus, leurs valeurs sont paramÃ©trÃ©es par la langue actuelle et le cours actuel<br />
 <span style="color:#990000;font-family:monospace,Courier New, Courier">idnumber, coursename, lang</span></li>
 
-<li><strong>Champ optionnels :</strong> tous ces champs sont complètement optionnels.<br />
+<li><strong>Champ optionnelsÂ :</strong> tous ces champs sont complÃ¨tement optionnels.<br />
 <span style="color:#990000;font-family:monospace,Courier New, Courier">description, picture, hidepicture</span></li>
 
 </ul>
 
 </li>
 
-<li>Les virgules à l'intérieur des données doivent être encodés <i>&amp;#44</i>. Le script traduira automatiquement ces codes en virgules lors de l'importation. </li>
+<li>Les virgules Ã  l'intÃ©rieur des donnÃ©es doivent Ãªtre encodÃ©s <i>&amp;#44</i>. Le script traduira automatiquement ces codes en virgules lors de l'importation. </li>
 
-<li>Pour les champs booléens, utilisez 0 pour faux et 1 pour vrai. </li>
+<li>Pour les champs boolÃ©ens, utilisez 0 pour faux et 1 pour vrai. </li>
 
-<li>Pour identifier le cours, on peut utiliser soit <i>idnumber</i>, soit <i>coursename</i>. Si tous les deux sont spécifiés, <i>idnumber</i> l'emporte sur <i>coursename</i>. Si aucun des deux n'est spécifié, les groupes seront ajoutés au cours actuel.</li>
+<li>Pour identifier le cours, on peut utiliser soit <i>idnumber</i>, soit <i>coursename</i>. Si tous les deux sont spÃ©cifiÃ©s, <i>idnumber</i> l'emporte sur <i>coursename</i>. Si aucun des deux n'est spÃ©cifiÃ©, les groupes seront ajoutÃ©s au cours actuel.</li>
 
-<li>Le champ <i>coursename</i> désigne le nom abrégé du cours.</li>
+<li>Le champ <i>coursename</i> dÃ©signe le nom abrÃ©gÃ© du cours.</li>
 
-<li>Remarque : si un groupe existe déjà dans la base de données de Moodle pour un cours, le script d'importation retourne le nom de ce groupe. Les utilisateurs n'ont le droit d'importer des groupes que dans les cours où ils disposent de la capacité d'édition.</li>
+<li>RemarqueÂ : si un groupe existe dÃ©jÃ  dans la base de donnÃ©es de Moodle pour un cours, le script d'importation retourne le nom de ce groupe. Les utilisateurs n'ont le droit d'importer des groupes que dans les cours oÃ¹ ils disposent de la capacitÃ© d'Ã©dition.</li>
 
 </ul>
    
-<p>Voici un exemple d'un fichier d'importation valable :</p>
+<p>Voici un exemple d'un fichier d'importation valableÂ :</p>
 
 <pre>groupname,idnumber,lang,description,picture
 Groupe1, Philo101, fr, ce groupe requiert plus d'attention, 0
