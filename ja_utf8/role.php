@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007021402)
+      // role.php - created with Moodle 1.9 dev (2007032200)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -57,6 +57,7 @@ $string['errorbadroleshortname'] = 'ロール名が正しくありません。';
 $string['errorexistsrolename'] = 'ロール名がすでに登録されています。';
 $string['errorexistsroleshortname'] = 'ロール名がすでに登録されています。';
 $string['existingusers'] = '割り当て済みユーザ: $a';
+$string['globalroleswarning'] = '警告! あなたがこのページで割り当てるロールは、フロントページおよびすべてのコースを含む、サイト全体のユーザに割り当てられることになります。';
 $string['inherit'] = '継承';
 $string['legacy:admin'] = 'レガシーロール: 管理者';
 $string['legacy:coursecreator'] = 'レガシーロール: コース作成者';

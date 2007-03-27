@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 dev (2007021400)
+      // group.php - created with Moodle 1.9 dev (2007032200)
 
 
 $string['addgroupstogrouping'] = 'グループをグルーピングに追加する';
@@ -10,6 +10,7 @@ $string['createautomaticgrouping'] = '自動グルーピングを作成する';
 $string['creategroup'] = 'グループを作成する';
 $string['creategrouping'] = 'グルーピングを作成する';
 $string['creategroupinselectedgrouping'] = '選択したグルーピングにグループを作成する';
+$string['createorphangroup'] = '迷子グループを作成する';
 $string['databaseupgradegroups'] = '現在のグループバージョン: $a';
 $string['defaultgroupdescription'] = 'デフォルトグループ説明';
 $string['defaultgroupingname'] = 'グルーピング';
