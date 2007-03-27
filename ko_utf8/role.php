@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007021500)
+      // role.php - created with Moodle 1.9 dev (2007032200)
 
 
 $string['addrole'] = '역할 추가';
@@ -57,6 +57,7 @@ $string['errorbadroleshortname'] = '잘못된 단축역할명';
 $string['errorexistsrolename'] = '역할명이 이미 존재합니다.';
 $string['errorexistsroleshortname'] = '단축역할명이 이미 존재합니다.';
 $string['existingusers'] = '$a 기존 사용자';
+$string['globalroleswarning'] = '경고! 이 화면에서 사용자에게 부여한 역할은 대문화면뿐만 아니라 이 사이트 전체의 배움터에 적용됩니다.';
 $string['inherit'] = '따름';
 $string['legacy:admin'] = '규정된 역할 : 관리자';
 $string['legacy:coursecreator'] = '규정된 역할 : 배움터 생성자';

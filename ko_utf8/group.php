@@ -1,8 +1,7 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 dev (2007021400)
+      // group.php - created with Moodle 1.9 dev (2007032200)
 
 
-$string['addexistinggroupstogrouping'] = '기존 모둠을 모둠무리에 추가';
 $string['addgroupstogrouping'] = '모둠을 모둠무리에 추가';
 $string['adduserstogroup'] = '사용자를 모둠에 추가';
 $string['anygrouping'] = '[어떤 모둠무리]';
@@ -11,6 +10,7 @@ $string['createautomaticgrouping'] = '자동 모둠무리 생성';
 $string['creategroup'] = '모둠 생성';
 $string['creategrouping'] = '모둠무리 생성';
 $string['creategroupinselectedgrouping'] = '지정한 모둠무리에 모둠 생성';
+$string['createorphangroup'] = '외톨이모둠 생성';
 $string['databaseupgradegroups'] = '현재 모둠 판번호: $a';
 $string['defaultgroupdescription'] = '기본 모둠 설명';
 $string['defaultgroupingname'] = '모둠무리';
@@ -85,5 +85,6 @@ $string['usestudentsonlyfromselectedgroup'] = '현재 선택된 모듬에서만 
 $string['viewallgroupsactivities'] = '학생들은 모든 모둠의 활동을 볼 수는 있지만 참여할 수는 없을 것입니다.';
 $string['viewallgroupsmembers'] = '학생들은 다른 모둠의 구성원들을 볼 수 있을 것입니다.';
 $string['viewowngroup'] = '학생들은 속해있는 모든 모둠의 구성원을 볼 수 있을 것입니다.';
+$string['addexistinggroupstogrouping'] = '기존 모둠을 모둠무리에 추가'; // ORPHANED
 
 ?>
