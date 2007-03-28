@@ -55,6 +55,7 @@ $string['errorbadroleshortname'] = '不正确的角色名';
 $string['errorexistsrolename'] = '角色名已经存在';
 $string['errorexistsroleshortname'] = '角色名已经存在';
 $string['existingusers'] = '已有{$a}个用户';
+$string['globalroleswarning'] = '警告！您在此页给用户分配的任意角色都将成为该用户的全站角色，在全站有效，包括首页和所有课程。';
 $string['inherit'] = '继承';
 $string['legacy:admin'] = '旧版角色：管理员';
 $string['legacy:coursecreator'] = '旧版角色：课程管理员';

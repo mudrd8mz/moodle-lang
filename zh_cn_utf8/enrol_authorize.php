@@ -112,6 +112,7 @@ $string['invalidacctype'] = '无效的帐户类型';
 $string['logindesc'] = '您可以设定变量/安全中的<a href=\"$a->url\">loginhttps</a>选项。
 <br /><br />
 将此选项开启会让Moodle在登录和付费时使用安全的https链接。';
+$string['logininfo'] = '出于安全考量，登录名、密码和交易密钥并没有显示。如果您以前已经配置了这些字段，就不用再次输入了。在已经配置的字段的输入框的左边会看到绿色文字。如果您是第一次输入这些字段，登录名（*）是必需的，并且您必须在正确的位置输入交易密钥<strong>或者</strong>密码（#2）。出于安全考量，我们建议您输入交易密钥。如果您想删除当前密码，选择这个复选框。';
 $string['methodcc'] = '信用卡';
 $string['methodecheck'] = '电子核查(ACH)';
 $string['missingaba'] = '缺少ABA号';
