@@ -6,6 +6,7 @@ $string['addrole'] = '添加一个新角色';
 $string['allow'] = '允许';
 $string['allowassign'] = '允许角色分配';
 $string['allowoverride'] = '允许角色覆盖';
+$string['assignglobalroles'] = '分配全局角色';
 $string['assignroles'] = '分配角色';
 $string['blog:create'] = '新建博客条目';
 $string['blog:manageentries'] = '编辑和管理条目';
