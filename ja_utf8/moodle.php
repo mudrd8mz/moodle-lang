@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007021500)
+      // moodle.php - created with Moodle 1.9 dev (2007032200)
 
 
 $string['action'] = '操作';
@@ -691,7 +691,7 @@ $string['helptext'] = 'テキストの書き方';
 $string['helpwiki'] = 'Wikiのようなテキストの書き方';
 $string['helpwiththis'] = 'この内容に関するヘルプ';
 $string['helpwriting'] = '慎重に書く';
-$string['hiddenassign'] = '割り当ての非表示';
+$string['hiddenassign'] = '割り当て非表示';
 $string['hiddensections'] = 'コースセクションの非表示';
 $string['hiddensectionscollapsed'] = '非表示のコースセクションを折りたたんで表示する';
 $string['hiddensectionsinvisible'] = '非表示のコースセクションを完全に見えなくする';
