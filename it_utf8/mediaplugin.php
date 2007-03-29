@@ -3,5 +3,8 @@
 
 
 $string['filtername'] = 'Plugin multimediali';
+$string['flashanimation'] = 'Animazione Flash';
+$string['flashvideo'] = 'Video Flash';
+$string['mp3audio'] = 'Audio MP3';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.7 beta (2006101000)
+      // blog.php - created with Moodle 1.8 Beta + (2007021501)
 
 
 $string['addnewentry'] = 'Nuovo intervento';
@@ -15,6 +15,7 @@ $string['blogs'] = 'Blog';
 $string['blogtags'] = 'Tag dei blog';
 $string['courseblog'] = 'Blog del corso: $a';
 $string['courseblogs'] = 'Gli utenti possono vedere i blog solo delle persone che condividono un corso';
+$string['deleteotagswarn'] = 'Sei sicuro di voler rimuovere questa/e tag <br/> da tutti gli interventi di blog e dal sistema?';
 $string['disableblogs'] = 'Disabilita completamente il sistema dei blog';
 $string['emptybody'] = 'Il corpo di un intervento di blog non può essere vuoto';
 $string['emptytitle'] = 'Il titolo di un intervento di blog non può essere vuoto';
@@ -45,6 +46,7 @@ $string['settingsupdatederror'] = 'È occorso un errore, le impostazioni delle p
 $string['siteblog'] = 'Blog del sito: $a';
 $string['siteblogs'] = 'Tutti gli utenti del sito possono vedere tutti gli interventi nei blog';
 $string['tagdatelastused'] = 'Data ultima utilizzazione tag';
+$string['tags'] = 'Tag';
 $string['tagsort'] = 'Ordina elenco tag per';
 $string['tagtext'] = 'Testo tag';
 $string['timewithin'] = 'Mostra le tag utilizzate da';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 dev (2006102600)
+      // editor.php - created with Moodle 1.8 Beta + (2007021501)
 
 
 $string['about'] = 'Info su questo editor';
@@ -8,7 +8,7 @@ $string['address'] = 'Indirizzo';
 $string['alertnoselectedtext'] = 'Dovete prima selezionare il testo!';
 $string['alignment'] = 'Allineamento';
 $string['alternatetext'] = 'Testo alternativo';
-$string['anchorhelp'] = 'Questo crea solamente un ancora. E\' necessario creare un collegamento manualmente.';
+$string['anchorhelp'] = 'Questo crea solamente un\'ancora. E\' necessario creare un collegamento manualmente.';
 $string['anchorname'] = 'Nome ancora';
 $string['anchors'] = 'Ancore';
 $string['baseline'] = 'Linea di base';
@@ -29,7 +29,7 @@ $string['createanchor'] = 'Crea ancora';
 $string['createfolder'] = 'Crea cartella';
 $string['createlink'] = 'Inserisci collegamento web';
 $string['cut'] = 'Taglia selezione';
-$string['cutpastemozilla'] = 'Sfortunatamente, non è possibile utilizzare le normali scorciatoie da tastiera (o anche il pulsante Incolla) per Incollare testo in questo editor in linea. Questo perchè una specifica di sicurezza che  è inclusa in alcune versioni di Mozilla e di Firefox.<br /></br>Ci sono tre alternative conosciute che è possibile provare:<br />(1) Invece di CTRL-v, utilizzare SHIFT-Ins(erisci)<br />(2) Utilizzare il menu Modifica->Incolla del browser<br />(3) Cambiare le impostazioni del browser modificando il file user.js.<br /><br />Cliccare il pulsante OK per ulteriore aiuto, o Cancella per tornare all\'editor.';
+$string['cutpastemozilla'] = 'Sfortunatamente, non è possibile utilizzare le normali scorciatoie da tastiera (o anche il pulsante Incolla) per Incollare testo in questo editor in linea. Questo perché una specifica di sicurezza che  è inclusa in alcune versioni di Mozilla e di Firefox.<br /></br>Ci sono tre alternative conosciute che è possibile provare:<br />(1) Invece di CTRL-v, utilizzare SHIFT-Ins(erisci)<br />(2) Utilizzare il menu Modifica->Incolla del browser<br />(3) Cambiare le impostazioni del browser modificando il file user.js.<br /><br />Cliccare il pulsante OK per ulteriore aiuto, o Cancella per tornare all\'editor.';
 $string['delete'] = 'Cancella';
 $string['enterurlfirst'] = 'È necessario inserire l\'indirizzo prima';
 $string['filebrowser'] = 'Gestione file';
@@ -58,10 +58,11 @@ $string['justifycenter'] = 'Centrato';
 $string['justifyfull'] = 'Guistificato';
 $string['justifyleft'] = 'Sinistra';
 $string['justifyright'] = 'Destra';
+$string['lang'] = 'Lingua';
 $string['layout'] = 'Schema';
 $string['left'] = 'Sinistra';
 $string['lefttoright'] = 'Direzione da sinistra a destra';
-$string['linkproperties'] = 'Proprietà  collegamento';
+$string['linkproperties'] = 'Proprietà  collegamento';
 $string['linktarget'] = 'destinazione';
 $string['linktargetblank'] = 'Nuova finestra';
 $string['linktargetnone'] = 'Niente';
@@ -74,10 +75,11 @@ $string['matchcase'] = 'Match case';
 $string['middle'] = 'Centro';
 $string['minimize'] = 'Minimizza editor';
 $string['move'] = 'Muovi';
+$string['multi'] = 'Multi';
 $string['mustenterurl'] = 'Si deve inserire l\'indirizzo';
 $string['nolink'] = 'Prevenire auto-collegamenti';
 $string['normal'] = 'Normale';
-$string['notimage'] = 'Il file selezionato non é un immagine. Prego scegliere un immagine!';
+$string['notimage'] = 'Il file selezionato non è un\'immagine. Prego scegliere un\'immagine!';
 $string['notset'] = 'Non impostato';
 $string['ok'] = 'OK';
 $string['options'] = 'Opzioni';
@@ -91,7 +93,7 @@ $string['pleaseenteralt'] = 'Si prega di inserire il testo alternativo';
 $string['popupeditor'] = 'Editor in nuova finestra';
 $string['preformatted'] = 'Preformattato';
 $string['preview'] = 'Anteprima';
-$string['properties'] = 'Proprietà ';
+$string['properties'] = 'Proprietà';
 $string['redo'] = 'Ripeti ultima azione';
 $string['regularexpressions'] = 'Utilizza espressioni regolari';
 $string['removelink'] = 'Elimina collegamento';

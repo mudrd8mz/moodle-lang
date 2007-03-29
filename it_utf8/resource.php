@@ -48,6 +48,7 @@ $string['frameifpossible'] = 'Mostra la risorsa in un frame mantenendo visibile 
 $string['fulltext'] = 'Testo visualizzato dalla risorsa';
 $string['htmlfragment'] = 'Codice HTML';
 $string['imspackageloaded'] = 'Pacchetto caricato';
+$string['keepnavigationvisible'] = 'Mantieni visibile la navigazione sulla stessa pagina';
 $string['localfile'] = 'File nel computer dell\'utente';
 $string['localfilechoose'] = 'Scegli un file nel tuo computer (es. CD-ROM)';
 $string['localfilehelp'] = 'Aiuto su come visualizzare file presenti nei computer degli utenti';

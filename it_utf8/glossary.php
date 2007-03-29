@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7 beta (2006101000)
+      // glossary.php - created with Moodle 1.8 Beta + (2007021501)
 
 
 $string['addcomment'] = 'Aggiungi commento';
@@ -89,6 +89,9 @@ $string['entryleveldefaultsettings'] = 'Impostazioni standard per i termini';
 $string['entrysaved'] = 'Questo termine è stato salvato';
 $string['entryupdated'] = 'Questo termine è stato aggiornato';
 $string['entryusedynalink'] = 'Collega il termine automaticamente';
+$string['errcannoteditothers'] = 'Non puoi modificare i termini di altre persone';
+$string['errconceptalreadyexists'] = 'Questo termine già esiste. In questo glossario non sono permessi termini duplicati.';
+$string['erredittimeexpired'] = 'Il tempo per la modifica di questo termine è scaduto.';
 $string['explainaddentry'] = 'Aggiunge un nuovo termine al glossario corrente.<br />Concetto e definizione sono campi obbligatori.';
 $string['explainall'] = 'Mostra TUTTI i termini in una pagina';
 $string['explainalphabet'] = 'Puoi scorrere i termini del glossario scegliendo da qui la lettera iniziale.<br /><br />';
@@ -124,6 +127,7 @@ $string['importedentries'] = 'Termini importati';
 $string['importentries'] = 'Importa termini';
 $string['isglobal'] = 'Questo glossario è globale?';
 $string['linkcategory'] = 'Collega automaticamente questa categoria';
+$string['linking'] = 'Auto-link';
 $string['mainglossary'] = 'Glossario principale';
 $string['maxtimehaspassed'] = 'Spiacente, ma il tempo massimo per modificare questo commento ($a) è terminato!';
 $string['modulename'] = 'Glossario';

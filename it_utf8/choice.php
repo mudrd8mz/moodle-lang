@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8 dev (2006102600)
+      // choice.php - created with Moodle 1.8 Beta + (2007021501)
 
 
 $string['addmorechoices'] = 'Aggiungi più scelte';
@@ -15,8 +15,9 @@ $string['choicename'] = 'Nome della scelta';
 $string['choiceopen'] = 'Aperta';
 $string['choicetext'] = 'Testo della domanda';
 $string['displayhorizontal'] = 'Mostra orizzontalmente';
-$string['displaymode'] = 'modalità  di visualizzazione';
+$string['displaymode'] = 'modalità  di visualizzazione';
 $string['displayvertical'] = 'Mostra verticalmente';
+$string['fillinatleastoneoption'] = 'Devi fornire almeno due possibili risposte.';
 $string['full'] = '(Completo)';
 $string['havetologin'] = 'Bisogna effettuare il Login prima di sottomettere la vostra scelta';
 $string['limit'] = 'Limite';
@@ -27,7 +28,7 @@ $string['mustchooseone'] = 'Bisogna scegliere una risposta prima di salvare. Non
 $string['noguestchoose'] = 'Spiacenti, gli ospiti non possono effettuare le Scelte.';
 $string['noresultsviewable'] = 'I risultati non sono attualmente visualizzabili.';
 $string['notanswered'] = 'Ancora nessuna risposta';
-$string['notopenyet'] = 'Spiacente, questa attività  non è disponibile fino al $a';
+$string['notopenyet'] = 'Spiacente, questa attività  non è disponibile fino al $a';
 $string['privacy'] = 'Privacy dei risultati';
 $string['publish'] = 'Rendi pubblici i risultati';
 $string['publishafteranswer'] = 'Mostra i risultati agli studenti dopo che hanno risposto';

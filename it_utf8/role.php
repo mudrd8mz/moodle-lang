@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7.1+ (2006101010)
+      // role.php - created with Moodle 1.8 Beta + (2007021501)
 
 
 $string['addrole'] = 'Aggiungi un nuovo ruolo';
@@ -49,6 +49,8 @@ $string['currentrole'] = 'Ruolo corrente';
 $string['defaultrole'] = 'Ruolo default';
 $string['defineroles'] = 'Definisci ruoli';
 $string['deleterolesure'] = '<p> Sei sicuro di voler cancellare \"$a->name ($a->shortname)\"?</p><p>Attualmente questo ruolo è assegnato a $a->count utenti.</p>';
+$string['duplicaterole'] = 'uolo duplicato';
+$string['duplicaterolesure'] = 'Sei sicuro di voler duplicare il ruolo  \"<b>$a->name ($a->shortname)</b>\"?</p>';
 $string['editrole'] = 'Modifica ruolo';
 $string['errorbadrolename'] = 'Nome ruolo non corretto';
 $string['errorbadroleshortname'] = 'Nome ruolo non corretto';
@@ -62,6 +64,8 @@ $string['legacy:editingteacher'] = 'RUOLO ORIGINARIO: Docente (editor)';
 $string['legacy:guest'] = 'RUOLO ORIGINARIO: Ospite';
 $string['legacy:student'] = 'RUOLO ORIGINARIO: Studente';
 $string['legacy:teacher'] = 'RUOLO ORIGINARIO: Docente (non editor)';
+$string['legacy:user'] = 'RUOLO ORIGINARIO: Utente registrato';
+$string['legacytype'] = 'Tipo di ruolo originario';
 $string['listallroles'] = 'Elenco di tutti i ruoli';
 $string['manageroles'] = 'Gestisci i ruoli';
 $string['metaassignerror'] = 'Non puoi assegnare questo ruolo all\'utente \"$a\" perché è necessaria la possibilità di gestione dei metacorsi.';
@@ -77,6 +81,10 @@ $string['question:export'] = 'Esporta domande';
 $string['question:import'] = 'Importa domande';
 $string['question:manage'] = 'Gestisci domande';
 $string['question:managecategory'] = 'Gestisci categorie domande';
+$string['resetrole'] = 'Ripristina i default';
+$string['resetrolenolegacy'] = 'Azzera le autorizzazioni';
+$string['resetrolesure'] = 'Sei sicuro di voler ripristinare i defaults del ruolo \"<b>$a->name ($a->shortname)</b>\"?<p></p>I defaults sono presi dalle possibilità del tipo di ruolo originario selezionato (<b>$a->legacytype</b>).';
+$string['resetrolesurenolegacy'] = 'Sei sicuro di voler azzerare tutte le autorizzazioni definite in questo ruolo  \"<b>$a->name ($a->shortname)</b>\"?';
 $string['risks'] = 'Rischi';
 $string['role:assign'] = 'Attribuisci ruoli a utenti';
 $string['role:manage'] = 'Crea e gestisci ruoli';
@@ -98,6 +106,8 @@ $string['site:doanything'] = 'Abilitato a fare tutto';
 $string['site:doclinks'] = 'Mostra link a documenti esterni';
 $string['site:import'] = 'Importa altri corsi in un corso';
 $string['site:manageblocks'] = 'Gestisci blocchi a livello sito';
+$string['site:mnetloginfromremote'] = 'Login da un Moodle remoto';
+$string['site:mnetlogintoremote'] = 'Roaming verso un Moodle remoto';
 $string['site:readallmessages'] = 'Leggi tutti i messaggi sul sito';
 $string['site:restore'] = 'Ripristina corsi';
 $string['site:trustcontent'] = 'Fidati dei contenuti inviati';
@@ -117,6 +127,6 @@ $string['user:viewhiddendetails'] = 'Visualizza dettagli nascosti utenti';
 $string['user:viewuseractivitiesreport'] = 'Visualizza rappporti attività utenti';
 $string['user:viewusergrades'] = 'Visualizza valutazioni utenti';
 $string['viewrole'] = 'Visualizza dettagli di ruolo';
-$string['xuserswiththerole'] = 'Utenti con il ruolo \"$a->role\": $a->number';
+$string['xuserswiththerole'] = 'Utenti con il ruolo \"<b>$a->role\": $a->number</b>';
 
 ?>

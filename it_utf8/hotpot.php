@@ -4,6 +4,7 @@
 
 $string['abandoned'] = 'Abbandonato';
 $string['addquizchain'] = 'Quiz a catena';
+$string['allmycourses'] = 'Tutti i miei corsi';
 $string['allusers'] = 'Tutti i partecipanti';
 $string['alwaysopen'] = 'Sempre aperto';
 $string['attemptsall'] = 'Tutti i tentativi';
@@ -145,9 +146,11 @@ $string['textsourcefilename'] = 'Nome del file';
 $string['textsourcefilepath'] = 'Path del file';
 $string['textsourcequiz'] = 'Dal quiz';
 $string['textsourcespecific'] = 'Testo specifico';
+$string['thiscourse'] = 'Questo corso';
 $string['timedout'] = 'Tempo scaduto';
 $string['updatequizchain'] = 'Aggiorna catena quiz';
 $string['weighting'] = 'Peso';
 $string['wrong'] = 'Errato';
+
 
 ?>
