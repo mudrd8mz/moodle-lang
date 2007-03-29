@@ -4,6 +4,7 @@ $string['addrole'] = 'Ajouter un nouveau rôle';
 $string['allow'] = 'Autoriser';
 $string['allowassign'] = 'Autoriser les attributions de rôles';
 $string['allowoverride'] = 'Autoriser de court-circuiter les rôles';
+$string['assignglobalroles'] = 'Attribution des rôles globaux';
 $string['assignroles'] = 'Attribution des rôles';
 $string['blog:create'] = 'Créer des articles de blog';
 $string['blog:manageentries'] = 'Modifier et gérer les articles de blog';
