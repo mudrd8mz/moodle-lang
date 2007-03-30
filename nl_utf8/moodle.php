@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007021500)
+      // moodle.php - created with Moodle 1.9 dev (2007032200)
 
 
 $string['action'] = 'Actie';
@@ -1169,7 +1169,7 @@ $string['scalestip'] = 'Om aangepaste schalen te maken, gebruik je de link
 $string['schedule'] = 'Planning';
 $string['scheduledbackupstatus'] = 'Status van geplande backup';
 $string['screenreaderno'] = 'Nee';
-$string['screenreaderuse'] = 'Scherm lezer';
+$string['screenreaderuse'] = 'Schermlezer';
 $string['screenreaderyes'] = 'Ja';
 $string['screenshot'] = 'Schermafdruk';
 $string['search'] = 'Zoek';

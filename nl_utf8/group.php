@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 dev (2007021501)
+      // group.php - created with Moodle 1.9 dev (2007032200)
 
 
 $string['addgroupstogrouping'] = 'Voeg groepen aan groepering toe.';
@@ -10,6 +10,7 @@ $string['createautomaticgrouping'] = 'Maak automatisch groepering';
 $string['creategroup'] = 'Maak groep';
 $string['creategrouping'] = 'Maak groepering';
 $string['creategroupinselectedgrouping'] = 'Maak groep in geselecteerde groepering';
+$string['createorphangroup'] = 'Maak een groep buiten een groepering';
 $string['databaseupgradegroups'] = 'Groep versie is nu $a';
 $string['defaultgroupdescription'] = 'Standaard groepsbeschrijving';
 $string['defaultgroupingname'] = 'Groepering';

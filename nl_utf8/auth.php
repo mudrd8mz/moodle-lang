@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007021402)
+      // auth.php - created with Moodle 1.9 dev (2007032200)
 
 
 $string['alternatelogin'] = 'Als je hier een URL ingeeft, dan zal die dienen als loginpagina voor deze site. De pagina moet een formulier bevatten met de actie ingesteld op <strong>\'$a\'</strong> en die de velden <strong>username</strong> en <strong>password</strong> teruggeeft.<br />Let er op dat je een juiste URL ingeeft. Zoniet sluit je jezelf uit de site.<br />Laat deze instelling leeg als je de standaard loginpagina wil gebruiken.';
@@ -148,6 +148,8 @@ $string['auth_ldap_objectclass_key'] = 'Object klasse';
 $string['auth_ldap_opt_deref'] = 'Bepaalt hoe aliassen tijdens het zoeken behandeld worden. Kies één van volgende waarden: \"Nee\" (LDAP_DEREF_NEVER) of \"Ja\" (LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_opt_deref_key'] = 'Bepaalt hoe aliassen tijdens het zoeken behandeld worden. Kies één van volgende waarden: \"Nee\" (LDAP_DEREF_NEVER) of \"Ja\" (LDAP_DEREF_ALWAYS)
 Dereference aliases';
+$string['auth_ldap_passtype'] = 'Geef de opmaak voor nieuwe of gewijzigde wachtwoorden in de LDAP-server';
+$string['auth_ldap_passtype_key'] = 'Wachtwoordopmaak';
 $string['auth_ldap_passwdexpire_settings'] = 'Instellingen voor het verlopen van het LDAP-wachtwoord';
 $string['auth_ldap_preventpassindb'] = 'Kies ja om te verhinderen dat wachtwoorden in de Moodle databank bewaard worden.';
 $string['auth_ldap_preventpassindb_key'] = 'Verberg wachtwoorden';
@@ -251,6 +253,7 @@ $string['changepassword'] = 'URL voor het veranderen van het wachtwoord';
 $string['changepasswordhelp'] = 'Hier kun je een locatie aangeven waar gebruikers hun gebruikersnaam/wachtwoord kunnen terugkrijgen als ze deze vergeten zijn. Dit zal aan de gebruikers worden gegeven als een knop op de inlogpagina en op hun gebruikerspagina. Als je dit leeg laat zal de knop niet verschijnen.';
 $string['chooseauthmethod'] = 'Kies een methode van authenticatie:';
 $string['createpasswordifneeded'] = 'Maak een wachtwoord indien nodig';
+$string['errorpasswordupdate'] = 'Fout tijdens het updaten van het wachtwoord, wachtwoord niet gewijzigd.';
 $string['forcechangepassword'] = 'Verplicht het wijzigen van het wachtwoord';
 $string['forcechangepassword_help'] = 'Verplicht gebruikers om hun wachtwoord te wijzigen bij hun volgende aanmelding bij Moodle';
 $string['forcechangepasswordfirst_help'] = 'Verplicht gebruikers om hun wachtwoord te wijzigen bij hun eerste aanmelding bij Moodle.';

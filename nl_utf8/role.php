@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007021500)
+      // role.php - created with Moodle 1.9 dev (2007032200)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
 $string['allow'] = 'Toelaten';
 $string['allowassign'] = 'Toewijzen van rollen toestaan';
 $string['allowoverride'] = 'Negeren van rollen toestaan';
+$string['assignglobalroles'] = 'Wijs globale rollen toe';
 $string['assignroles'] = 'Rollen toewijzen';
 $string['blog:create'] = 'Niewe blog items maken';
 $string['blog:manageentries'] = 'Items bewerken en beheren';
@@ -57,6 +58,7 @@ $string['errorbadroleshortname'] = 'Verkeerde rolnaam';
 $string['errorexistsrolename'] = 'Rolnaam bestaat al';
 $string['errorexistsroleshortname'] = 'Rolnaam bestaat al';
 $string['existingusers'] = '$a bestaande gebruikers';
+$string['globalroleswarning'] = 'WAARSCHUWING: Alle rollen die je vanaf deze pagina aan gebruikers toewijst, zullen voor de hele site gelden, de startpagina en alle cursussen inbegrepen.';
 $string['inherit'] = 'Overerven';
 $string['legacy:admin'] = 'PRE 1.7 ROL: Beheerder';
 $string['legacy:coursecreator'] = 'PRE 1.7 ROL: Cursusaanmaker';
