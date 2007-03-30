@@ -16,7 +16,7 @@
 
 <dt>Autoriser</dt>
 
-<dd>En choisissant ce réglage, vous autorisez la capacité aux personnes ayant le rôle en question.  Cette permission est valable pour le contexte dans lequel ce rôle est attribué, plus tous les contextes inférieurs. Par exemple, si le rôle est un rôle d'étudiant dans un cours, les étudiants seront alors capable de « commencer des discussions » dans tous les forums de ce cours, À MOINS QUE l'un des forums contienne un court-circuit ou une autre permission avec la valeur Empêcher ou Interdire pour ce forum. Dans ce cas, les étudiants ne pourront pas commencer de discussions dans ce forum uniquement.</dd>
+<dd>En choisissant ce réglage, vous autorisez la capacité aux personnes ayant le rôle en question.  Cette permission est valable pour le contexte dans lequel ce rôle est attribué, plus tous les contextes inférieurs. Par exemple, si le rôle est un rôle d'étudiant dans un cours, les étudiants seront alors capable de « commencer des discussions » dans tous les forums de ce cours, À MOINS QUE l'un des forums contienne une dérogation ou une autre permission avec la valeur Empêcher ou Interdire pour ce forum. Dans ce cas, les étudiants ne pourront pas commencer de discussions dans ce forum uniquement.</dd>
 
 <dt>Empêcher</dt>
 
@@ -30,7 +30,7 @@
 
 <h1>Résolution des conflits de permissions</h1>
 
-<p>Les permissions d'un contexte inférieur auront en général priorité sur celles d'un contexte supérieur (ceci s'applique aux court-circuits et aux rôles attribués). L'exception est le réglage <b>Interdire</b>, qui ne peut être court-circuité à des niveaux inférieurs.</p>
+<p>Les permissions d'un contexte inférieur auront en général priorité sur celles d'un contexte supérieur (ceci s'applique aux dérogations et aux rôles attribués). L'exception est le réglage <b>Interdire</b>, pour laquelle une dérogation ne peut être mise en place aux niveaux inférieurs.</p>
 
 <p>Si deux rôles sont attribués à un utilisateur dans le même contexte, l'un avec le réglage <b>Autoriser</b> et l'autre avec le réglage <b>Interdire</b>, lequel des deux sera appliqué ? Dans un tel cas, Moodle recherchera dans l'arbre des contextes un indice de décision.</p>
 
@@ -40,4 +40,4 @@
 
 <p>Le compte utilisateur invité n'est pas autorisé à écrire du contenu (par exemple dans les forums, le calendrier, les blogs, etc.), même si on lui donne la capacité de le faire.</p>
 
-<p>Voir aussi <a href="help.php?file=roles.html">Rôles</a>, <a href="help.php?file=contexts.html">Contextes</a>, <a href="help.php?file=assignroles.html">Attribuer des rôles</a> et <a href="help.php?file=overrides.html">Court-circuits</a>.</p>
+<p>Voir aussi <a href="help.php?file=roles.html">Rôles</a>, <a href="help.php?file=contexts.html">Contextes</a>, <a href="help.php?file=assignroles.html">Attribuer des rôles</a> et <a href="help.php?file=overrides.html">Dérogations</a>.</p>
