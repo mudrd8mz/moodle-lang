@@ -147,6 +147,8 @@ $string['auth_ldap_objectclass_key'] = 'Classe objet';
 $string['auth_ldap_objectclass'] = 'Le filtre utilisé pour rechercher/renommer des utilisateurs. On y mettra d\'habitude quelque chose comme objectClass=posixAccount. La valeur par défaut est objectClass=*, ce qui retournera tous les objets du serveur LDAP.';
 $string['auth_ldap_opt_deref_key'] = 'Déréférencement alias';
 $string['auth_ldap_opt_deref'] = 'Détermine le traitement des alias durant la recherche. Veuillez sélectionner une des valeurs suivantes&nbsp;: «&nbsp;Non&nbsp;» (LDAP_DEREF_NEVER) ou «&nbsp;Oui&nbsp;» (LDAP_DEREF_ALWAYS)';
+$string['auth_ldap_passtype'] = 'Indiquer le format des mots de passe (nouveaux ou modifiés) dans le serveur LDAP.';
+$string['auth_ldap_passtype_key'] = 'Format de mot de passe';
 $string['auth_ldap_passwdexpire_settings'] = 'Réglages de l\'échéance du mot de passe LDAP.';
 $string['auth_ldap_preventpassindb_key'] = 'Cacher mots de passe';
 $string['auth_ldap_preventpassindb'] = 'Choisissez «&nbsp;Oui&nbsp;» pour empêcher le stockage des mots de passe dans la base de données de Moodle.';
