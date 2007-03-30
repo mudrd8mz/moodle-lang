@@ -3,6 +3,7 @@
 $string['addgroupstogrouping'] = 'Ajouter le groupe au groupement';
 $string['adduserstogroup'] = 'Ajouter/retirer des utilisateurs'; // au groupe
 $string['anygrouping'] = '[N\'importe quel groupement]';
+$string['backtogroups'] = 'Retour aux groupes';
 $string['cancel'] = 'Annuler';
 $string['createautomaticgrouping'] = 'Créer groupement automatique';
 $string['creategroup'] = 'Créer un groupe';
