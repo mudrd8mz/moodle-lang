@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8 dev (2007011200)
+      // form.php - created with Moodle 1.9 dev (2007032200)
 
 
 $string['addfields'] = 'フィールド $a 個をフォームに追加する';
@@ -27,11 +27,11 @@ $string['nomethodforaddinghelpbutton'] = 'フォームエレメント $a->name (
 $string['nonexistentformelements'] = '存在しないフォームエレメント $a にヘルプボタンを追加しようとしています。';
 $string['optional'] = '任意';
 $string['requiredelement'] = '必須入力フィールド';
-$string['requiredfield'] = 'これは必須入力フィールドです。';
 $string['security'] = 'セキュリティ';
 $string['showadvanced'] = '拡張要素を表示する';
-$string['somefieldsrequired'] = 'このフォームには、必須入力フィールドがあります。';
+$string['somefieldsrequired'] = 'このフォームで「 $a 」と印が付けられたフィールドは、必須入力フィールドです。';
 $string['timing'] = 'タイミング';
 $string['year'] = '年';
+$string['requiredfield'] = 'これは必須入力フィールドです。'; // ORPHANED
 
 ?>
