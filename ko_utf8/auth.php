@@ -144,6 +144,8 @@ $string['auth_ldap_ldap_encoding'] = 'LDAP 서버에 의해 지정된 인코딩.
 $string['auth_ldap_ldap_encoding_key'] = 'LDAP 인코딩';
 $string['auth_ldap_login_settings'] = '로그인 설정하기';
 $string['auth_ldap_memberattribute'] = '선택 사항 : 사용자들이 한 그룹안에 속해 있다면 사용자 번호 속성보다 우선한다. 대개는 \'member\'이다.';
+$string['auth_ldap_memberattribute_isdn'] = '선택 사항 : 0 이던 1 이던 간에  사용자 속성값을 무효화 한다.';
+$string['auth_ldap_memberattribute_isdn_key'] = '사용자 속성은 dn을 사용';
 $string['auth_ldap_memberattribute_key'] = '구성원 속성';
 $string['auth_ldap_noconnect'] = 'LDAP모듈이 $a 서버에 접속하지 못했습니다.';
 $string['auth_ldap_noconnect_all'] = 'LDAP모듈이 어느 $a 서버에도 접속하지 못했습니다.';
@@ -154,6 +156,8 @@ $string['auth_ldap_opt_deref'] = 'Aliases가 탐색 동안에 어떻게 처리�
 \"아니오\" (LDAP_DEREF_NEVER) 혹은 
 \"예\" (LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_opt_deref_key'] = '피참조 얼라이어스';
+$string['auth_ldap_passtype'] = 'LDAP 서버에 쓰일 비밀번호 생성/변경 형식을 지정';
+$string['auth_ldap_passtype_key'] = '비밀번호 형식';
 $string['auth_ldap_passwdexpire_settings'] = 'LDAP 비밀번호의 만료 설정';
 $string['auth_ldap_preventpassindb'] = '비밀번호 노출방지를 위해서 \"무들 데이터베이스에 저장\"에 대한 물음에 \"예\" 로 설정하라.';
 $string['auth_ldap_preventpassindb_key'] = '비밀번호 숨김';
