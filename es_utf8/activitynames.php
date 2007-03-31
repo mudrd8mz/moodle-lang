@@ -3,4 +3,3 @@
 $string['filtername'] = 'Actividades auto-enlazadas';
 
 ?>
-
