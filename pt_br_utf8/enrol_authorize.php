@@ -109,6 +109,7 @@ $string['logindesc'] = 'Esta opção deve estar ativa.
 Você pode configurar a opção <a href=\"$a->url\">loginhttps</a> na seção Variáveis/Segurança.
 <br /><br />
 Com esta opção ativada Moodle usa o https seguro no hora do login e na página de pagamentos.';
+$string['logininfo'] = 'Nome de usuário, senha e código de transação não são visualizados como precaução de segurança. Não é necessário inserir de novo os dados se já foram configurados antes. Neste caso, ao lado dos campos é visualizado um bloco verde. Se esta é a primeira vez que você está inserindo estes dados, o nome de usuário (*) é obrigatório assim como o código da transação (#1) ou a senha (#2). Inseri o código da transação é a opção mais segura. Para cancelar a senha atual, selecione a caixa de opção correspondente.';
 $string['methodcc'] = 'Cartão de crédito';
 $string['methodecheck'] = 'eCheck (ACH)';
 $string['missingaba'] = 'Falta o número ABA';
@@ -129,6 +130,11 @@ $string['orderid'] = 'ID do pedido';
 $string['paymentmanagement'] = 'Gestão de pagamentos';
 $string['paymentmethod'] = 'Método de pagamento';
 $string['paymentpending'] = 'O seu pagamento está pendente para o curso com o seguinte número de pedido $a->orderid. Veja <a href=\'$a->url\'>Detalhes do pedido</a>.';
+$string['pendingecheckemail'] = 'Ao administrador:
+
+Há $a->count echecks pendentes e você tem que carregar um arquivo CSV no server para inscrever os usuários.
+
+Clique o link e leia o arquivo de ajuda: $a->url';
 $string['pendingechecksubject'] = '$a->course: eChecks pendentes($a->count)';
 $string['pendingordersemail'] = 'Prezado administrador,
 

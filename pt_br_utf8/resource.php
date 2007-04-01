@@ -1,14 +1,17 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6.1 (2006050510)
+      // resource.php - created with Moodle 1.9 dev (2007021401)
 
 
 $string['addresource'] = 'Acrescentar recurso';
+$string['affectedresources'] = 'Recursos atingidos';
 $string['back'] = 'Voltar';
 $string['browserepository'] = 'Procurar no repositório';
 $string['choose'] = 'Escolher';
 $string['chooseafile'] = 'Escolher ou enviar arquivo';
 $string['chooseparameter'] = 'Escolher parâmetro';
 $string['configallowlocalfiles'] = 'Ao criar um novo recurso, permite links a arquivos do sistema local, como um CD ou um disco rígido. Isto pode ser útil numa classe onde todos os estudantes tem acesso ao mesmo dispositivo da rede ou quando è necessário acessar arquivos de um CD. O uso desta funcionalidade pode exigir a mudança da configuração de segurança de seu navegador.';
+$string['configautofilerenamesettings'] = 'Atualizar automaticamente as referências a arquivos e diretórios quando forem renomeados no gerenciador de arquivos.';
+$string['configblockdeletingfilesettings'] = 'Bloquear a exclusão de arquivos e diretórios ligados a recursos. Imagens e arquivos que são ligados a páginas html não são protegidos.';
 $string['configdefaulturl'] = 'Este valor é usado para completar o formulário da URL automaticamente quando o recurso é baseado em endereço web.';
 $string['configfilterexternalpages'] = 'Se esta opção estiver ativa, todos os recursos externos como páginas web e arquivos html carregados no servidor serão processados pelos filtros do site, como os links automáticos do glossário. Isto pode reduzir a velocidade de visualização das páginas do curso - use esta opção apenas nos casos em que for realmente necessário.';
 $string['configframesize'] = 'Quando uma página web ou um arquivo é visualizado em um frame, este valor é o tamanho, em pixels, do frame que contém a navegação (top frame).';
@@ -89,6 +92,7 @@ $string['preview'] = 'Vista prévia';
 $string['previous'] = 'Anterior';
 $string['redeploy'] = 'Usar de novo';
 $string['repository'] = 'Repositório IMS';
+$string['resource:view'] = 'Ver recurso';
 $string['resourcetype'] = 'Tipo de recurso';
 $string['resourcetype1'] = 'Referência';
 $string['resourcetype2'] = 'Página Web';
@@ -115,5 +119,7 @@ $string['upbutton'] = 'Para cima';
 $string['variablename'] = 'Nome da variável';
 $string['viewims'] = 'Ver pacote IMS CP';
 $string['vol'] = 'Vol';
+$string['warningblockingdelete'] = 'Atenção: A exclusão de arquivos está bloqueada por um recurso. Atualize os seus recursos ou solicite o administrador para desabilitar a proteção no painel de configuração global dos recursos.';
+$string['warningdisabledrename'] = 'Atenção: Atualmente não está habilitada a operação de renomeação automática das referências nos recurso. Atualize os recursos afetados manualmente. O Administrador pode habilitar a renomeação automática no painel de configuração global dos recursos.';
 
 ?>

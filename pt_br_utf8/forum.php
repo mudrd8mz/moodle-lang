@@ -81,6 +81,7 @@ $string['forum:replynews'] = 'Responder às notícias';
 $string['forum:replypost'] = 'Responder às mensagens';
 $string['forum:splitdiscussions'] = 'Separar discussões';
 $string['forum:startdiscussion'] = 'Iniciar novas discussões';
+$string['forum:throttlingapplies'] = 'Controle de fluxo de banda é aplicável';
 $string['forum:viewanyrating'] = 'Ver todas as avaliações';
 $string['forum:viewdiscussion'] = 'Ver discussões';
 $string['forum:viewhiddentimedposts'] = 'Ver mensagens escondidas';
