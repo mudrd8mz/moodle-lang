@@ -2,6 +2,7 @@
 
 $string['addmoreanswerblanks'] = '{no} emplacements supplémentaires vides';
 $string['addmoreunitblanks'] = '{no} emplacements pour plus d\'unités';
+$string['answermustbenumberorstar'] = 'La réponse doit être un nombre ou un astérisque (*).';
 $string['answerno'] = 'Réponse $a';
 $string['errorrepeatedunit'] = 'Il ne peut y avoir deux unités du même nom.';
 $string['errornomultiplier'] = 'Vous devez indiquer un multiplicateur pour cette unité.';
