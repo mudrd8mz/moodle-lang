@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 Beta + (2007021501)
+      // admin.php - created with Moodle 1.8 (2007021501)
 
 
 $string['accessdenied'] = 'Accesso vietato';
@@ -171,7 +171,7 @@ $string['configproxyhost'] = 'Se questo <b>server</b> necessita di un proxy (ad 
 $string['configproxyport'] = 'Se questo server deve usare un computer proxy, allora inserisci qui la porta proxy.';
 $string['configquarantinedir'] = 'Se desiderate che Clam antivirus sposti eventuali file infetti in una cartella di quarantena, inseritene il percorso qui. La cartella deve avere i permessi di scrittura da parte del server web. Se lasciate in bianco, o se configurate una directory inesistente o senza i permessi di scrittura necessari, i files infetti saranno cancellati. Non inserite slash di percorso.';
 $string['configrcache'] = 'Utilizza la cache per memorizzare i record di database. Ricordarsi di impostare anche il tipo di cache!';
-$string['configrcachettl'] = 'Time-To-Live (tempo di esistenza) dei record in cache. Usare un valore basso (<15).';
+$string['configrcachettl'] = 'Time-To-Live (tempo di esistenza) dei record in cache. Usare un valore basso (&lt;15).';
 $string['configrequestedstudentname'] = 'Termine per \'studente\' da utilizzare nel corsi richiesti';
 $string['configrequestedstudentsname'] = 'Termine per \'studenti\' da utilizzare nel corsi richiesti';
 $string['configrequestedteachername'] = 'Termine per \'docente\' da utilizzare nel corsi richiesti';
@@ -223,7 +223,7 @@ $string['confirminstall'] = 'Si sta per installare il language pack ($a), siete 
 $string['country'] = 'Paese default';
 $string['coursemanager'] = 'Gestori del corso';
 $string['coursemgmt'] = 'Aggiunta/Modifica corsi';
-$string['courseoverview'] = 'Sommario del corso';
+$string['courseoverview'] = 'Sommario corsi';
 $string['courserequests'] = 'Richieste corsi';
 $string['courses'] = 'Corsi';
 $string['coursesperpage'] = 'Corsi per pagina';
@@ -400,9 +400,9 @@ $string['misc'] = 'Generale';
 $string['mnetrestore_extusers'] = '<strong>Nota:</strong> Questo file di backup contiene registrazioni di utenti di Moodle remoti in rete che saranno restorate come parte del processo.';
 $string['mnetrestore_extusers_mismatch'] = '<strong>Nota:</strong> Questo file di backup apparentemente è stato generato da una differente installazione di Moodle e contiene registrazioni di utenti di Moodle remoti in rete il cui ripristino può fallire. Questa operazione non è supportata. Se siete sicuri che il backup è stato creato su questa installazione di Moodle, o potete assicurare che tutti gli host di Moodle Network sono configurati, allora potete ancora provare a eseguire il restore.';
 $string['modulesecurity'] = 'Restrizioni sui Moduli';
-$string['multilangforceold'] = 'Forza la vecchia sintassi multilingua: <span> senza la class=\"multilang\" e <lang>';
+$string['multilangforceold'] = 'Forza la vecchia sintassi multilingua: &lt;span&gt; senza la class=\"multilang\" e &lt;lang&gt;';
 $string['multilangupgrade'] = 'Aggiornamento multilingua';
-$string['multilangupgradeinfo'] = 'La sintassi del filtro multilingua è cambiata dalla 1.8, il tag <lang> non è più supportato. <br /><br />Esempio: <span lang=\"en\" class=\"multilang\">Hello!</span><span lang=\"it\" class=\"multilang\">Ciao!</span><br /><br /><strong>Vuoi aggiornare la sintassi in tutti i testi esistenti ora?</strong>';
+$string['multilangupgradeinfo'] = 'La sintassi del filtro multilingua è cambiata dalla 1.8, il tag &lt;lang&gt; non è più supportato. <br /><br />Esempio: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"it\" class=\"multilang\">Ciao!&lt;/span&gt;<br /><br /><strong>Vuoi aggiornare la sintassi in tutti i testi esistenti ora?</strong>';
 $string['multilangupgradenotice'] = 'Il tuo sito probabilmente sta utilizzando la vecchia sintassi multilingua, <a href=\"multilangupgrade.php\">multilang upgrade</a> è raccomandato.';
 $string['mustenablestats'] = 'Le statistiche non sono ancora attivate su questo sito';
 $string['mymoodle'] = 'Il mio Moodle';
@@ -557,7 +557,7 @@ $string['therewereerrors'] = 'Si sono verificati errori nei vostri dati';
 $string['timezone'] = 'Fuso orario di default';
 $string['timezoneforced'] = 'Questa viene resa obbligatoria dall\'amministratore?';
 $string['timezoneisforcedto'] = 'Obbligare tutti gli utenti all\'utilizzo';
-$string['timezonenotforced'] = 'Gli utentii possono scegliere il loro fuso orario';
+$string['timezonenotforced'] = 'Gli utenti possono scegliere il loro fuso orario';
 $string['tokenizerrecommended'] = 'E\' raccomandata l\'installazione di Tokenizer - estensione opzionale del PHP - per migliorare la funzionalità del Moodle Networking.';
 $string['unattendedoperation'] = 'Operazione non assistita';
 $string['unbookmarkthispage'] = 'Togli questa pagina dai segnalibri';
