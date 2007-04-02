@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.7 beta (2006101000)
+      // survey.php - created with Moodle 1.8 (2007021501)
 
 
 $string['actual'] = 'Attuale';
@@ -163,6 +163,7 @@ Le tue risposte saranno considerate con attenzione e ci aiuteranno a migliorare 
 
 Grazie.';
 $string['collespname'] = 'COLLES (Preferito)';
+$string['customintro'] = 'Introduzione personalizzata';
 $string['done'] = 'Fatto';
 $string['download'] = 'Download';
 $string['downloadexcel'] = 'Scarica come file Excel';
@@ -203,6 +204,7 @@ $string['survey:download'] = 'Scaricare risposte';
 $string['survey:participate'] = 'Rispondere al sondaggio';
 $string['survey:readresponses'] = 'Visualizzare risposte';
 $string['surveycompleted'] = 'Hai completato questo sondaggio. Il grafico sotto riportato mostra una sintesi comparata dei tuoi risultati con le medie della classe.';
+$string['surveygraph'] = 'Grafico del sondaggio';
 $string['surveyname'] = 'Nome del sondaggio';
 $string['surveysaved'] = 'Sondaggio salvato';
 $string['surveytype'] = 'Tipo di sondaggio';
