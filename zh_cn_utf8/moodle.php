@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7.1+ (2006101011)
+      // moodle.php - created with Moodle 1.7.2 + (2006101020)
 
 
 $string['action'] = '动作';
@@ -649,6 +649,7 @@ $string['helpsummaries'] = '关于这些摘要';
 $string['helptext'] = '如何写文本';
 $string['helpwiki'] = '如何编写Wiki文本';
 $string['helpwriting'] = '仔细编写';
+$string['hiddenassign'] = '隐藏分配';
 $string['hiddensections'] = '隐藏的节';
 $string['hiddensectionscollapsed'] = '以折叠方式显示隐藏的节';
 $string['hiddensectionsinvisible'] = '完全不显示隐藏的节';
