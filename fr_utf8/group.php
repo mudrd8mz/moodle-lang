@@ -53,6 +53,7 @@ $string['groupmode'] = 'Mode de groupe';
 $string['groupmodeforce'] = 'Imposer le mode de groupe';
 $string['groupmy'] = 'Mon groupe';
 $string['groupname'] = 'Nom du groupe';
+$string['groupnameexists'] = 'Le nom de groupe «&nbsp;$a&nbsp;» existe déjà dans ce cours. Veuillez en choisir un autre.';
 $string['groupnotamember'] = 'Désolé, vous n\'êtes pas membre de ce groupe';
 $string['groups'] = 'Groupes';
 $string['groupsinselectedgrouping'] = 'Groupes dans le groupement'; // sélectionné
