@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 dev (2007021400)
+      // data.php - created with Moodle 1.9 dev (2007040200)
 
 
 $string['action'] = '행동';
@@ -63,6 +63,7 @@ $string['deleted'] = '삭제됨';
 $string['deletefield'] = '기존의 항목 삭제';
 $string['deletewarning'] = '기존의 설정값을 정말 삭제합니까?';
 $string['descending'] = '내림차순';
+$string['directorynotapreset'] = '$a->directory 는 설정되지 않음. 빠진 파일들: $a->missing 개';
 $string['download'] = '내려받음';
 $string['edit'] = '편집';
 $string['editcomment'] = '덧글 편집';
@@ -79,6 +80,7 @@ $string['example'] = '데이터베이스 모듈 예제';
 $string['export'] = '내보내기';
 $string['exportaszip'] = 'zip파일로 내보내기';
 $string['exportedtozip'] = 'zip파일로 묶어 내보냄';
+$string['failedpresetdelete'] = '초기설정 삭제 오류!';
 $string['fieldadded'] = '항목이 추가됨';
 $string['fieldallowautolink'] = '자동링크 허용';
 $string['fielddeleted'] = '항목이 삭제됨';
@@ -98,6 +100,7 @@ $string['fieldwidth'] = '폭';
 $string['fieldwidthlistview'] = '목록 보기의 폭';
 $string['fieldwidthsingleview'] = '하나보기의 폭';
 $string['file'] = '파일';
+$string['filesnotgenerated'] = '파일이 전부 생성되지는 않았음 : $a';
 $string['filtername'] = '데이터베이스 자동링크';
 $string['footer'] = '꼬리말';
 $string['forcelinkname'] = '링크에 대한 강제 이름';
@@ -134,6 +137,7 @@ $string['modulename'] = '데이터베이스';
 $string['modulenameplural'] = '데이터베이스';
 $string['more'] = '더 이상';
 $string['moreurl'] = 'URL 더';
+$string['movezipfailed'] = 'Zip 파일을 옴길 수 없음';
 $string['multientry'] = '반복되는 게시물';
 $string['multimenu'] = '메뉴(다중 선택)';
 $string['multipletags'] = '범주가 중복되었습니다. 템플릿이 저장되지 않았습니다.';
@@ -152,12 +156,14 @@ $string['nameurl'] = 'URL 항목';
 $string['newentry'] = '새 게시물';
 $string['newfield'] = '새 항목 만들기';
 $string['noaccess'] = '이페이지에 대한 접근 권한이 없습니다.';
+$string['nodefinedfields'] = '새 초기설정에 팔드가 정의되지 않았음!';
 $string['nofieldindatabase'] = '이 데이터베이스에 정의된 항목이 없습니다. 항목을 추가하십시요.';
 $string['nolisttemplate'] = '목록 템플릿이 아직 정의되지 않았습니다.';
 $string['nomatch'] = '해당되는 게시물이 발견되지 않았습니다.';
 $string['nomaximum'] = '최대값 없음';
 $string['norecords'] = '데이터베이스에 입력된 내용 없음';
 $string['nosingletemplate'] = '단일 템플릿이 아직 정의되지 않았습니다.';
+$string['notinjectivemap'] = '일대일 매핑이 아님';
 $string['number'] = '수';
 $string['numberrssarticles'] = 'RSS 문서';
 $string['numnotapproved'] = '대기중';
@@ -215,6 +221,7 @@ $string['text'] = '문장';
 $string['textarea'] = '글상자';
 $string['todatabase'] = '이 데이터베이스에';
 $string['type'] = '항목 유형';
+$string['undefinedprocessactionmethod'] = '데이터 초기설정에서 \"$a\"를 처리하기 위한 방법이 정의되지 않았음.';
 $string['updatefield'] = '기존 항목 갱신';
 $string['uploadfile'] = '파일 올리기';
 $string['uploadrecords'] = '파일에서 항목 올리기';
@@ -222,5 +229,6 @@ $string['url'] = 'URL';
 $string['usestandard'] = '초기설정 사용';
 $string['viewfromdate'] = '이후 볼 수 있음';
 $string['viewtodate'] = '까지 볼 수 있음';
+$string['wrongdataid'] = '잘못된 데이터 아이디가 제공되었음';
 
 ?>

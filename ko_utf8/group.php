@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 dev (2007032200)
+      // group.php - created with Moodle 1.9 dev (2007040200)
 
 
 $string['addgroupstogrouping'] = '모둠을 모둠무리에 추가';
@@ -55,6 +55,7 @@ $string['groupmode'] = '모둠 모드';
 $string['groupmodeforce'] = '강제 모둠 모드';
 $string['groupmy'] = '내 모둠';
 $string['groupname'] = '모둠 이름';
+$string['groupnameexists'] = '이 배움터에는 이미 \'$a\'라는 모둠이 있습니다. 다른 이름을 선택하세요.';
 $string['groupnotamember'] = '죄송합니다, 당신은 그 모둠의 구성원이 아닙니다.';
 $string['groups'] = '모둠들';
 $string['groupsinselectedgrouping'] = '선택된 모둠무리의 모둠';

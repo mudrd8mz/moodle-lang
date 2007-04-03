@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8 dev (2006112200)
+      // survey.php - created with Moodle 1.9 dev (2007040200)
 
 
 $string['actual'] = '실적';
@@ -153,6 +153,7 @@ $string['collespintro'] = '이 조사의 목적은 당신이 온라인 학습 �
 
 감사합니다.';
 $string['collespname'] = 'COLLES (우선의)';
+$string['customintro'] = '안내';
 $string['done'] = '완료';
 $string['download'] = '다운로드';
 $string['downloadexcel'] = '엑셀 스프레드 형식으로 다운로드';

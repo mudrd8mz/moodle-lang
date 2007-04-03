@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007021501)
+      // error.php - created with Moodle 1.9 dev (2007040200)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 편집될 수 없음';
@@ -37,6 +37,7 @@ $string['invalidcourse'] = '잘못된 배움터';
 $string['invalidfieldname'] = '\"$a\"는 유효하지 않은 필드명';
 $string['invalidfiletype'] = '\"$a\"는 유효한 파일유형이 아닙니다.';
 $string['invalidmd5'] = '잘못된 md5';
+$string['invalidrequest'] = '잘못된 요청';
 $string['invalidrole'] = '잘못된 역할';
 $string['invalidxmlfile'] = '\"$a\"는 정확한 XML 파일이 아닙니다.';
 $string['loginasnoenrol'] = '배움터에서 타인명의로는 등록 또는 탈퇴를 할 수 없습니다.';
