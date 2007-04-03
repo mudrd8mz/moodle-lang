@@ -35,6 +35,7 @@ $string['invalidcourse'] = 'Cours non valide';
 $string['invalidfieldname'] = '«&nbsp;$a&nbsp;» n\'est pas un nom de champ valide';
 $string['invalidfiletype'] = '«&nbsp;$a&nbsp;» n\'est pas un type de fichier valide';
 $string['invalidmd5'] = 'Code md5 non valide';
+$string['invalidrequest'] = 'Requête non valide';
 $string['invalidrole'] = 'Rôle non valide';
 $string['invalidxmlfile'] = '«&nbsp;$a&nbsp;» n\'est pas un fichier XML valide';
 $string['loginasonecourse'] = 'Vous ne pouvez pas entrer dans ce cours.<br />Vous devez d\'abord terminer la session dans laquelle vous êtes «&nbsp;Connecté sous le nom&nbsp;» d\'un autre participant.';
