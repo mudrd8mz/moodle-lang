@@ -1,23 +1,32 @@
 Version: $Id$
 
-Traduction française
---------------------
+Traduction française de Moodle
+---------------------------------------------------------------------------------
+Début							: 18 août 2003
+Dernière modification			:  3 avril 2007
+---------------------------------------------------------------------------------
 
-La traduction française de Moodle est coordonnée et en grande partie
-accomplie par Nicolas Martignoni <nicolas@martignoni.net>.
+La traduction française de Moodle est gérée et coordonnée par Nicolas Martignoni
+<nicolas@martignoni.net>.
 
-Liste des contributeurs à la traduction de Moodle
--------------------------------------------------
+Contributeurs à la traduction de Moodle
+---------------------------------------
 
-* Nicolas Martignoni <nicolas@martignoni.net> : coordination, fichiers
-  php et dossier fr/docs et quelques dizaines de fichiers du dossier
-  fr/help ;
-* Jean-François Nadeau <nadeau.jf@videotron.ca> : diverses adaptations
-  à de nombreux fichiers du dossier fr/help ;
-* Valéry Frémaux <vf@eisti.fr> : dossier fr/help/wiki
+Nicolas Martignoni <nicolas@martignoni.net>
+  Traduction des fichiers de fr_utf8
+  Gestion et coordination de la traduction en français
+  Facilitateur de l'espace « Moodle en français » (http://moodle.org/course/view.php?id=20)
+  
+Valéry Frémaux <vf@eisti.fr>
+  Traduction de fr_utf8/help/wiki
+  Traduction de fr_utf8/help/exercise
 
+Jean-François Nadeau <nadeau.jf@videotron.ca>
+  Adaptations à de nombreux fichiers de fr_utf8/help
+
+---------------------------------------------------------------------------------
 Une liste des termes utilisés pour la traduction est disponible dans le
-glossaire du cours "Moodle en français" à l'URL suivante :
+glossaire du cours « Moodle en français » à l'URL suivante :
 http://moodle.org/mod/glossary/view.php?id=997
 
 Cette liste comprend également certains termes canadiens-français
@@ -26,10 +35,10 @@ la traduction en canadien-français.
 
 Si vous avez des suggestions ou des propositions d'amélioration au
 sujet de la traduction de certains termes, merci d'utiliser le forum
-"Traduction en français" à l'URL suivante :
+« Traduction en français » à l'URL suivante :
 http://moodle.org/mod/forum/view.php?id=1683
 
-Voici quelques liens utilisés :
+Voici quelques liens utilisés :
   - Le grand dictionnaire terminologique
       http://www.granddictionnaire.com/
   - Le Trésor de la Langue Française Informatisé
@@ -39,18 +48,14 @@ Voici quelques liens utilisés :
   - Dictionnaire de l'internaute
       http://www.can.ibm.com/francais/dico/
 
-Quelques conventions :
+Quelques conventions :
   - pour la ponctuation de fin de texte et les majuscules,
     on essaie de suivre strictement le texte anglais original ;
-  - les majuscules *sont* accentuées ;
+  - les majuscules *sont* accentuées, même le « à » en début de phrase ;
   - les guillemets français sont « », avec les espaces insécables
     si possible (à coder &nbsp;).
 
-Quelques liens en français qui traitent du constructivisme social :
+Quelques liens en français qui traitent du constructivisme social :
   - http://www.acelf.ca/revue/XXV1/articles/rxxv1-10.html
   - http://www.schule.suedtirol.it/blikk/angebote/reformpaedagogik/rp70110b.htm
-  - http://agora.unige.ch/sred/Archive/const/ecole.html
-  - http://www2.toulouse.iufm.fr/pe/PE/FT/SocioConstructivisme.html
   - http://www.chevaleyre.com/cc/Apprentissage/apprent4.htm
-  - http://www.esigge.ch/primaire/9-info/secteur/cours/eval-log/liens.htm
-  - http://www.edunet.ch/classes/c9/dubois/didact/theories.htm
