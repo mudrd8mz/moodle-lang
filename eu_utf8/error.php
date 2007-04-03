@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7+ (2006101007)
+      // error.php - created with Moodle 1.7.1+ (2006101010)
 
 
-$string['adminprimarynoedit'] = 'Lehen mailako administradorea ezin dute besteek editatu.';
+$string['adminprimarynoedit'] = 'Lehen mailako kudeatzailea ezin dute besteek editatu.';
 $string['cannotcreatelangdir'] = 'Lang direktorioa ezin da sortu.';
 $string['cannotcreatetempdir'] = 'Temp direktorioa ezin da sortu.';
 $string['cannotdownloadcomponents'] = 'Ezin dira osagaiak jaitsi.';
@@ -31,8 +31,8 @@ $string['filenotfound'] = 'Barkatu, baina eskatutako fitxategia ezin izan dugu a
 $string['forumblockingtoomanyposts'] = 'Foro honetara mezuak bidaltzeko denbora-epea gainditu duzu.';
 $string['groupalready'] = 'Erabiltzailea oraindik da talde honetako partaide: $a';
 $string['groupunknown'] = '$a taldea ez da inongo ikastarokoa';
-$string['guestnoeditprofile'] = 'Gonbidatutako erabiltzaileek ezin dute beren profila editatu.';
-$string['guestnoeditprofileother'] = 'Ezinezkoa da erabiltzaile gonbidatuen profila editatu.';
+$string['guestnoeditprofile'] = 'Erabiltzaile bisitariek ezin dute beren profila editatu.';
+$string['guestnoeditprofileother'] = 'Ezinezkoa da erabiltzaile bisitarien profila editatu.';
 $string['invalidcourse'] = 'Ikastaro baliogabea';
 $string['invalidfieldname'] = '\"$a\"  ez da izen erabilgarria eremu honetarako';
 $string['invalidfiletype'] = '\"$a\" ez da fitxategi mota erabilgarria.';
@@ -46,12 +46,12 @@ $string['modulerequirementsnotmet'] = '\"$a->modulename\" ($a->moduleversion) mo
 $string['mustbeteacher'] = 'Orri hau irakasleek baino ezin dute ikusi';
 $string['nocontext'] = 'Barkatu, ikastaro hau ez da kontestu baliogarria';
 $string['noinstances'] = 'Ikastaro honetan ez da $a azaltzen.';
-$string['nonmeaningfulcontent'] = 'Edukin esaguratsurik ez.';
-$string['noparticipatorycms'] = 'Sentitzen dugu, baina ez duzu kurtsoez informatzeko partaidetza-modulurik.';
+$string['nonmeaningfulcontent'] = 'Eduki esaguratsurik ez.';
+$string['noparticipatorycms'] = 'Sentitzen dugu, baina ez duzu ikastaroez informatzeko partaidetza-modulurik.';
 $string['nopermissions'] = 'Sentitzen dugu, baina oraingoz ez duzu hori egiteko baimenik ($a)';
 $string['notavailable'] = 'Ez dago eskura';
-$string['onlyadmins'] = 'Administradoreek soilik egin dezakete hori.';
-$string['onlyeditingteachers'] = 'Edizio-baimena duten irakasleek soilik egin dezakete hori.';
+$string['onlyadmins'] = 'Kudeatzaileek baino ezin dute hori egin.';
+$string['onlyeditingteachers'] = 'Edizio-baimena duten irakasleek baino ezin dute hori egin.';
 $string['onlyeditown'] = 'Zeure informazioa baino ezin duzu editatu';
 $string['pagenotexist'] = 'Ohiz kanpoko errorea gertatu da (ez dagoen orri batera sartzeko saiakera egon da).';
 $string['pleasereport'] = 'Denbora baduzu, errorea gertatu zenean zertan saiatzen ari zinen jakinaraz iezaguzu, mesedez:';

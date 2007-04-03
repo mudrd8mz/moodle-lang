@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.7+ (2006101007)
+      // survey.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['actual'] = 'Benetakoa';
@@ -82,17 +82,17 @@ $string['colles13'] = 'Tutoreak pentsarazi egiten dit.';
 $string['colles13short'] = 'Tutoreak pentsarazten du.';
 $string['colles14'] = 'Tutoreak parte hartzera bultzatzen nau.';
 $string['colles14short'] = 'Tutoreak parte hartzea bultzatzen du.';
-$string['colles15'] = 'Tutoreak diskurtso egokia adierazten du';
+$string['colles15'] = 'Tutoreak diskurtso egokia adierazten du.';
 $string['colles15short'] = 'Tutoreak diskurtso egokia du';
 $string['colles16'] = 'Tutoreak autogogoeta kritikoa erakusten du.';
-$string['colles16short'] = 'Tutoreak autogogoeta kritikoa erakusten du.';
+$string['colles16short'] = 'Tutoreak autogogoeta kritikoa erakusten du';
 $string['colles17'] = 'Beste ikasleek parte hartzera bultzatzen naute.';
 $string['colles17short'] = 'Ikasleen parte hartzera bultzatzen naute.';
 $string['colles18'] = 'Beste ikasleek nire aportazioa goraipatzen dute.';
 $string['colles18short'] = 'Ikasleek goraipatzen naute';
 $string['colles19'] = 'Beste ikasleek nire aportazioa baloratzen dute.';
 $string['colles19short'] = 'Ikasleek baloratzen naute';
-$string['colles1short'] = 'Bideratu gai interesgarrietara';
+$string['colles1short'] = 'Gai interesgarrietara bideratu';
 $string['colles2'] = 'Ikasten dudana nire jarduera profesionalerako garrantzitsua da.';
 $string['colles20'] = 'Beste ikasleek nire ikasteko ahaleginarekiko enpatia dute.';
 $string['colles20short'] = 'Ikasleen nirekiko enpatia';
@@ -110,7 +110,7 @@ $string['colles3short'] = 'Jarduera hobetu';
 $string['colles4'] = 'Ikasten dudana nire jarduera profesionalarekin ondo lotuta dago.';
 $string['colles4short'] = 'Jarduerarekin lotuta';
 $string['colles5'] = 'Nire ikasteko modua kritikoki aztertzen dut.';
-$string['colles5short'] = 'Nire ikasketekin kritikoa naiz';
+$string['colles5short'] = 'Nire ikas-prozesuarekin kritikoa naiz';
 $string['colles6'] = 'Neure ideiak kritikoki aztertzen ditut.';
 $string['colles6short'] = 'Nire ideiekin kritikoa naiz';
 $string['colles7'] = 'Beste ikasleen ideiak kritikoki aztertzen ditut.';
@@ -163,10 +163,10 @@ Zure erantzunek unitate hau etorkizunean hobetzen lagunduko digute.
 Eskerrik asko.';
 $string['collespname'] = 'COLLES (Nahia)';
 $string['done'] = 'Eginda';
-$string['download'] = 'Deskargatu';
-$string['downloadexcel'] = 'Deskargatu datuak Excel kalkulu-orri gisa';
+$string['download'] = 'Jaitsi';
+$string['downloadexcel'] = 'Datuak Excel kalkulu-orri gisa jaitsi';
 $string['downloadinfo'] = 'Inkesta honen datu gordin guztiak Excel, SPSS edo beste paketeren batekin aztertzeko, formatu egokian deskargatu ditzakezu.';
-$string['downloadtext'] = 'Deskargatu datuak testu arrunt fitxategi gisa';
+$string['downloadtext'] = 'Datuak testu arrunt fitxategi gisa jaitsi';
 $string['editingasurvey'] = 'Hausnarketa bat editatzen';
 $string['guestsnotallowed'] = 'Bistariek ezin dute hausnarketarik bidali';
 $string['helpsurveys'] = 'Hausnarketa mota ezberdinen gaineko laguntza';
@@ -198,9 +198,9 @@ $string['scaletimes5'] = 'Ia inoiz ez,Oso gutxitan,Batzuetan,Sarritan,Ia beti';
 $string['seemoredetail'] = 'Klik egin hemen xehetasun gehiago ikusteko';
 $string['selectedquestions'] = 'Eskala batetik aukeratutako galderak, ikasle guztiak';
 $string['summary'] = 'Laburpena';
-$string['survey:download'] = 'Jaitsi erantzunak';
-$string['survey:participate'] = 'Erantzun hausnarketa';
-$string['survey:readresponses'] = 'Ikusi erantzunak';
+$string['survey:download'] = 'Erantzunak jaitsi';
+$string['survey:participate'] = 'Hausnarketari erantzun';
+$string['survey:readresponses'] = 'Erantzunak ikusi';
 $string['surveycompleted'] = 'Hausnarketa hau bukatu duzu. Beheko grafikoak zure erantzunen eta klasearen erantzunen batez bestekoen arteko konparaketa da.';
 $string['surveyname'] = 'Hausnarketaren izena';
 $string['surveysaved'] = 'Hausnarketa gordeta';

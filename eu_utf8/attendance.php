@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // attendance.php - created with Moodle 1.6.1 (2006050510)
+      // attendance.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['absentlong'] = 'Ez dago';
@@ -27,6 +27,7 @@ $string['dynamicsection'] = 'Asistentziarako astea zehaztu data honetan oinarrit
 $string['dynamicsectionmulti'] = 'Erregistroak automatikoki jarri asteko atelean';
 $string['dynsectionshort'] = 'Atal honetara automatikoki eramanda:';
 $string['endbeforestart'] = 'Ixteko data hasierakoa baino lehenagokoa da';
+$string['endmulti'] = 'Azken asistentzia-erregistrorako data';
 $string['for'] = 'norentzat';
 $string['friday'] = 'Os';
 $string['gradeshort'] = 'Kalifikatuta';
@@ -34,18 +35,38 @@ $string['gradevalue'] = 'Egin erregistro hau kalifikagarria';
 $string['gradevaluemulti'] = 'Egin erregistro hauek kalifikagarriak';
 $string['hoursinclass'] = 'Klase aldi baten ordu-kopurua';
 $string['hoursineachclass'] = 'Klase aldi bakoitzeko ordu-kopurua';
+$string['hoursinfullreport'] = 'Txostenaren orri bakarrean erakutsi beharreko gehienezko asistentzia-ordu kopurua';
 $string['maxgradeshort'] = 'Gehieneko kalifikazioa';
+$string['maxgradevalue'] = 'Asistentzia osoa duenarentzako gehienezko kalifikazio-balorea';
 $string['modulename'] = 'Asistentzia';
 $string['modulenameplural'] = 'Asistentzia-erregistroak';
 $string['monday'] = 'Al';
+$string['norolls'] = 'Ez dago ikastaro honetan asistentzia-erregistrorik';
+$string['notes'] = 'Aparteko informazioa';
+$string['notesfor'] = 'Aparteko informazioa honentzat:';
+$string['noviews'] = 'Barkatu, ez dago zure konturako daturik hemen';
+$string['of'] = 'Zerena';
 $string['pages'] = 'Orriak';
 $string['presentlong'] = 'Agerian';
+$string['presentshort'] = 'A';
 $string['saturday'] = 'Lr';
+$string['startafterend'] = 'Hasiera data bukaera data baino beranduagokoa da';
+$string['startmulti'] = 'Lehen asistentzia-erregistroaren data';
 $string['sunday'] = 'Ig';
-$string['tardylong'] = 'Atzeratua';
+$string['takeroll'] = 'Zerrenda pasatu egun honetan?';
+$string['tardiesperabsence'] = 'Zenbat aldiz berandu iritsita kontatzen da asistentzia-falta bat?';
+$string['tardylong'] = 'Berandu';
+$string['tardyshort'] = 'B';
+$string['teacheredit'] = 'Asistentzia erregistratu';
 $string['thursday'] = 'Og';
 $string['tuesday'] = 'As';
-$string['viewone'] = 'Txostena taula moduan ikusi';
+$string['viewall'] = 'Ikusi asistentzia-erregistro guztiak';
+$string['viewmulti'] = 'Ikusi txostena hainbat orritan';
+$string['viewone'] = 'Txostenaren orri guztiak ikusi';
+$string['viewsection'] = 'Ikusi atal honetako asistentzia-txosten guztiak';
+$string['viewtable'] = 'Txostena taula moduan ikusi';
+$string['viewweek'] = 'Eguttegiko asteko asistentzia-txosten guztiak ikusi';
 $string['wednesday'] = 'Az';
+$string['weekmodulename'] = 'Azken asteko asistentzia-erregistro guztiak';
 
 ?>

@@ -428,9 +428,11 @@ $string['timezoneisforcedto'] = 'Erabiltzaile guztiak erabiltzera behartu';
 $string['timezonenotforced'] = 'Erabiltzaileek ordutegi-eremua aukera dezakete';
 $string['unbookmarkthispage'] = 'Orri hau desmarkatu';
 $string['unicoderecommended'] = 'Datu guztiak Unicode (UTF-8)-n gordetzeko gomendatzen da. Instalazio berriak berez Unicode karaktere-multzoa duten datu-baseetan exekutatu beharko lirateke. Eguneraketa bat egiten ari bazara, UTF-8rako migrazio-prozesua egin beharko zenuke (begiratu horretarako Kudeaketa-orria)';
+$string['unicoderequired'] = 'Datu guztiak Unicode (UTF-8)-n gorde behar dituzu. Instalazio berriak berez Unicode karaktere-multzoa duten datu-baseetan exekutatu beharko lirateke. Eguneraketa bat egiten ari bazara, UTF-8rako migrazio-prozesua egin beharko zenuke (begiratu horretarako Kudeaketa-orria)';
 $string['unicodeupgradenotice'] = 'Moodle 1.6-n hizkuntza guztiak Unicode-ra pasatu ditugu. Gune honen eguneraketa osatzeko zure datu-baseko datu guztiak Unicode (UTF-8)-ra bihurtu beharko dituzu gure migrazio-scripta erabilita <a href=\"utfdbmigrate.php\"> Sakatu hemen migrazio-scripta orain abiarazteko</a>!';
 $string['uninstall'] = 'Aukeratutako hitzkuntza-paketea desinstalatu';
 $string['uninstallconfirm'] = '$a hizkuntza desinstalatzera zoaz; ziur al zaude?';
+$string['unsupported'] = 'Onartu gabea';
 $string['updateaccounts'] = 'Dauden kontuak eguneratu';
 $string['updatecomponent'] = 'Osagaia eguneratu';
 $string['updatelangs'] = 'Hizkuntza-paketa lokal guztiak eguneratu';
@@ -440,6 +442,7 @@ $string['upgradeforumreadinfo'] = 'Moodle 1.5en foroetara bidalitako irakurritak
 $string['upgradelogs'] = 'Funtzionalitate osoa lortzeko, zure erregistro zaharrak eguneratu behar dira. <a href=\"$a\">Informazio gehiago</a>';
 $string['upgradelogsinfo'] = 'Duela gutxi erregistroak gordetzeko moduan aldaketak egin dira. Zure erregistro zaharrak jardueraren arabera sailkatuta ikusteko, erregistro horiek eguneratu behar dira. Tamainaren arabera prozesuak luze jo dezake (ad., ordu batzuk) datu-basean behin eta berriro kontsultako beharko baita. bukatzen utzi beharko zenuke (ad., nabigatzailearen leihoa irekita utzi). Hala ere, leihoa itxi eta prozesua eteten baduzu, ez zaitez kezkatu, beti ere berriro has zaitezke.<br /><br />Prozesua orain hasi nahi al duzu?';
 $string['upgradesettings'] = 'Ezarpen berriak';
+$string['upgradesettingsintro'] = 'Beheragoko ezarpenak Moodle-ren azken eguneraketan gehitu ziren. Egin beharrezko aldaketak berezko baloreetan eta ondoren sakatu orriaren bukaerako &quot;Aldaketak gorde&quot';
 $string['upgradesure'] = 'Moodleko zure fitxategiak aldatu dira, eta zure zerbitzaria bertsio honetara eguneratzear zaude:
 <p><b>$a</b></p>
 <p>Hori egin eta gero, ezingo duzu atzera jo.</p>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.7+ (2006101007)
+      // grades.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['addcategory'] = 'Kategoria erantsi';
@@ -20,7 +20,7 @@ $string['displaypercent'] = 'Portzentaiak erakutsi';
 $string['displaypoints'] = 'Puntuak erakutsi';
 $string['displayweighted'] = 'Kalifikazio neurtuak erakutsi';
 $string['dropped'] = 'Kontuan hartu gabekoak';
-$string['dropxlowest'] = 'X baxuagorik kontuan ez hartu';
+$string['dropxlowest'] = 'X baino baxuagorik kontuan ez hartu';
 $string['dropxlowestwarning'] = 'Oharra: \'X baxuagorik kontuan ez hartu\' erabiltzen baduzu, kalifikazioak kategoriako item guztiak gehienezko puntuazio berez balioesten direla suposatzen du. Aipatutako baloreak ezberdinak badira, emaitzak edonolakoak izango dira.';
 $string['errorgradevaluenonnumeric'] = 'Kalifikazio altu edo baxurako balore ez zenbakiduna jaso da';
 $string['errornocategorizedid'] = 'Ezin izan da kategorizatu gabeko id bat lortu!';
@@ -99,7 +99,7 @@ $string['setting'] = 'Ezarpena';
 $string['settings'] = 'Ezarpenak';
 $string['setweights'] = 'Pisuak';
 $string['showallstudents'] = 'Ikasle guztiei erakutsi';
-$string['showhiddenitems'] = 'Izkutuko elementuak erakutsi';
+$string['showhiddenitems'] = 'Ezkutuko elementuak erakutsi';
 $string['sort'] = 'sailkatu';
 $string['sortbyfirstname'] = 'Izenaren arabera sailkatu';
 $string['sortbylastname'] = 'Deituraren arabera sailkatu';

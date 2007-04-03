@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7+ (2006101007)
+      // role.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['addrole'] = 'Rol berria gehitu';
@@ -26,7 +26,7 @@ $string['course:create'] = 'Ikastaroak sortu';
 $string['course:delete'] = 'Ikastaroak ezabatu';
 $string['course:manageactivities'] = 'Jarduerak kudeatu';
 $string['course:managefiles'] = 'Fitxategiak kudeatu';
-$string['course:managegrades'] = 'kalifikazioak kudeatu';
+$string['course:managegrades'] = 'Kalifikazioak kudeatu';
 $string['course:managegroups'] = 'Taldeak kudeatu';
 $string['course:managemetacourse'] = 'Metaikastaroak kudeatu';
 $string['course:managescales'] = 'Eskalak kudeatu';
