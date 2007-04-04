@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007021501)
+      // error.php - created with Moodle 1.9 dev (2007040200)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -37,6 +37,7 @@ $string['invalidcourse'] = '無効なコース';
 $string['invalidfieldname'] = '「 $a 」 は正しいフィールド名ではありません。';
 $string['invalidfiletype'] = '「 $a 」は有効なファイルタイプではありません。';
 $string['invalidmd5'] = '無効なmp5ファイルです。';
+$string['invalidrequest'] = '無効なリクエストです。';
 $string['invalidrole'] = '無効なロールです。';
 $string['invalidxmlfile'] = '「 $a 」は有効なXMLファイルではありません。';
 $string['loginasnoenrol'] = 'コース「ログイン」セッション時、あなたはユーザ登録および登録抹消することはできません。';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 dev (2007032200)
+      // group.php - created with Moodle 1.9 dev (2007040200)
 
 
 $string['addgroupstogrouping'] = 'グループをグルーピングに追加する';
@@ -55,6 +55,7 @@ $string['groupmode'] = 'グループモード';
 $string['groupmodeforce'] = 'グループモードを強制する';
 $string['groupmy'] = 'マイグループ';
 $string['groupname'] = 'グループ名';
+$string['groupnameexists'] = 'グループ名「 $a 」はすでにこのコースで使用されています。他のグループ名を使用してください。';
 $string['groupnotamember'] = '申し訳ございません、あなたはそのグループのメンバーではありません。';
 $string['groups'] = 'グループ';
 $string['groupsinselectedgrouping'] = '選択されたグルーピングのグループ';

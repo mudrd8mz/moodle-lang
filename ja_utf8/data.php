@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 dev (2007021400)
+      // data.php - created with Moodle 1.9 dev (2007040200)
 
 
 $string['action'] = '操作';
@@ -63,6 +63,7 @@ $string['deleted'] = '削除されました。';
 $string['deletefield'] = 'フィールドを削除します。';
 $string['deletewarning'] = '本当にこのプリセットを削除してもよろしいですか?';
 $string['descending'] = '降順';
+$string['directorynotapreset'] = '$a->directory はプリセットではありません。不明のファイル: $a->missing ファイル';
 $string['download'] = 'ダウンロード';
 $string['edit'] = '編集';
 $string['editcomment'] = 'コメントの編集';
@@ -79,6 +80,7 @@ $string['example'] = 'データベースモジュール例';
 $string['export'] = 'エクスポート';
 $string['exportaszip'] = 'ZIPファイルとしてエクスポートする';
 $string['exportedtozip'] = '一時的にZIPファイルとしてエクスポート ...';
+$string['failedpresetdelete'] = 'プリセットの削除にエラーが発生しました!';
 $string['fieldadded'] = 'フィールドが追加されました。';
 $string['fieldallowautolink'] = 'オートリンクを許可';
 $string['fielddeleted'] = 'フィールドが削除されました。';
@@ -98,6 +100,7 @@ $string['fieldwidth'] = '幅';
 $string['fieldwidthlistview'] = '一覧表示の幅';
 $string['fieldwidthsingleview'] = '個別表示の幅';
 $string['file'] = 'ファイル';
+$string['filesnotgenerated'] = 'すべてのファイルは生成されませんでした: $a';
 $string['filtername'] = 'データベースオートリンク';
 $string['footer'] = 'フッタ';
 $string['forcelinkname'] = '強制リンク名';
@@ -134,6 +137,7 @@ $string['modulename'] = 'データベース';
 $string['modulenameplural'] = 'データベース';
 $string['more'] = '詳細';
 $string['moreurl'] = 'URL詳細';
+$string['movezipfailed'] = 'ZIPファイルを移動できません。';
 $string['multientry'] = '繰り返しエントリ';
 $string['multimenu'] = 'メニュー (複数選択)';
 $string['multipletags'] = '重複タグが見つかりました! テンプレートは保存されません。';
@@ -152,12 +156,14 @@ $string['nameurl'] = 'URLフィールド';
 $string['newentry'] = '新しいエントリ';
 $string['newfield'] = '新しいフィールドの作成';
 $string['noaccess'] = 'あなたは、このページにアクセスできません。';
+$string['nodefinedfields'] = '新しいプリセットにフィールドが定義されていません!';
 $string['nofieldindatabase'] = 'このデータベースには、フィールドが定義されていません。';
 $string['nolisttemplate'] = 'テンプレート一覧は、まだ定義されていません。';
 $string['nomatch'] = '該当するエントリが見つかりませんでした!';
 $string['nomaximum'] = '最大数なし';
 $string['norecords'] = 'データベースにエントリがありません。';
 $string['nosingletemplate'] = '単一テンプレートは、まだ定義されていません。';
+$string['notinjectivemap'] = 'エントリを追加できるマップではありません。';
 $string['number'] = '数値';
 $string['numberrssarticles'] = 'RSS記事';
 $string['numnotapproved'] = '保留';
@@ -215,6 +221,7 @@ $string['text'] = 'テキスト';
 $string['textarea'] = 'テキストエリア';
 $string['todatabase'] = '>> データベース';
 $string['type'] = 'フィールドタイプ';
+$string['undefinedprocessactionmethod'] = 'アクション「 $a 」を処理するためのメソッドがデータプリセットで定義されていません。';
 $string['updatefield'] = 'フィールドを更新します。';
 $string['uploadfile'] = 'ファイルのアップロード';
 $string['uploadrecords'] = 'ファイルからエントリをアップロードする';
@@ -222,5 +229,6 @@ $string['url'] = 'URL';
 $string['usestandard'] = 'プリセットを使用する';
 $string['viewfromdate'] = '表示開始日時';
 $string['viewtodate'] = '表示終了日時';
+$string['wrongdataid'] = '無効なデータIDが提供されました。';
 
 ?>
