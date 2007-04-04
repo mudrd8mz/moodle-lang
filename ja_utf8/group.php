@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 dev (2007040200)
+      // group.php - created with Moodle 1.9 dev (2007040400)
 
 
 $string['addgroupstogrouping'] = 'グループをグルーピングに追加する';
@@ -28,7 +28,7 @@ $string['editgroupingpermissions'] = 'グルーピングパーミッションを
 $string['editgroupingsettings'] = 'グルーピング設定を編集する';
 $string['editgroupsettings'] = 'グループ設定を編集する';
 $string['enrolmentkey'] = '登録キー';
-$string['erroraddremoveuser'] = 'ユーザ $a のグループ登録/削除時にエラーが発生しました。';
+$string['erroraddremoveuser'] = 'ユーザ $a のグループ登録/削除中にエラーが発生しました。';
 $string['erroreditgroup'] = 'グループ $a の作成/更新中にエラーが発生しました。';
 $string['erroreditgrouping'] = 'グルーピング $a の作成/更新中にエラーが発生しました。';
 $string['errorinvalidgroup'] = 'エラー、無効なグループです: $a';

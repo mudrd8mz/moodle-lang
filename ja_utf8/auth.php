@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007032200)
+      // auth.php - created with Moodle 1.9 dev (2007040400)
 
 
 $string['alternatelogin'] = 'ここにURLを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong> フィールドおよび <strong>password</strong> フィールドをMoodleに渡してください。<br />間違ったURLを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合、空白のままにしてください。';
@@ -40,7 +40,7 @@ $string['auth_dbchangepasswordurl_key'] = 'パスワード変更のURL';
 $string['auth_dbdebugauthdb'] = 'ADOdbデバッグ';
 $string['auth_dbdebugauthdbhelp'] = '外部データベースへのADOdbデバッグ接続 - ログイン時に空白ページが表示される場合、使用してください。実稼動サイトには適していません。';
 $string['auth_dbdeleteuser'] = 'ユーザ $a[0] id $a[1] を削除しました。';
-$string['auth_dbdeleteusererror'] = 'ユーザ $a の削除時にエラーが発生しました。';
+$string['auth_dbdeleteusererror'] = 'ユーザ $a の削除中にエラーが発生しました。';
 $string['auth_dbdescription'] = 'ユーザ名とパスワードを確認するために外部のデータベースを使用します。新しいアカウントを作成する場合、他のフィールドの情報がMoodleへ複製されます。';
 $string['auth_dbextencoding'] = '外部データベースエンコーディング';
 $string['auth_dbextencodinghelp'] = '外部データベースで使用されるエンコーディング';
@@ -60,11 +60,11 @@ $string['auth_dbpass_key'] = 'パスワード';
 $string['auth_dbpasstype'] = '<p>パスワードフィールドで使用するフォーマットを指定してください。MD5暗号化はPostNukeのような他の一般的なウェブアプリケーションへの接続に有用です。</p><p>外部データベースでユーザ名およびメールアドレスを管理したい場合、「内部」を使用してください。パスワードに関しては、Moodleが管理します。「内部」を使用する場合、外部データベースのメールアドレスフィールドを提供して、定期的に admin/cron.php および auth/db/auth_db_sync_users.php を実行してください。Moodleが新しいユーザに仮パスワードをメール送信します。</p>';
 $string['auth_dbpasstype_key'] = 'パスワードフォーマット';
 $string['auth_dbreviveduser'] = '回復ユーザ $a[0] id $a[1]';
-$string['auth_dbrevivedusererror'] = 'ユーザ $a の回復時にエラーが発生しました。';
+$string['auth_dbrevivedusererror'] = 'ユーザ $a の回復中にエラーが発生しました。';
 $string['auth_dbsetupsql'] = 'SQLセットアップコマンド';
 $string['auth_dbsetupsqlhelp'] = '特別データベースセットアップ用のSQLコマンドで、多くの場合、コミュニケーションエンコーディングに使用されます - 例 MySQLおよびPostgreSQL: <em>SET NAMES \'utf8\'</em>';
 $string['auth_dbsuspenduser'] = '一時停止ユーザ $a[0] id $a[1]';
-$string['auth_dbsuspendusererror'] = 'ユーザ $a の一時停止時にエラーが発生しました。';
+$string['auth_dbsuspendusererror'] = 'ユーザ $a の一時停止中にエラーが発生しました。';
 $string['auth_dbsybasequoting'] = 'Sybaseクオートを使用する';
 $string['auth_dbsybasequotinghelp'] = 'Sybaseスタイルのシングルクオートエスケープです - Oracle、MS SQLおよび他のデータベースが必要です。MySQLには使用しないでください!';
 $string['auth_dbtable'] = 'データベースのテーブル名';
