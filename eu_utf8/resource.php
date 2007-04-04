@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7+ (2006101007)
+      // resource.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['addresource'] = 'Baliabidea gehitu';
@@ -104,21 +104,21 @@ $string['resourcetype6'] = 'HTML testua';
 $string['resourcetype7'] = 'Programa';
 $string['resourcetype8'] = 'Wiki motako testua';
 $string['resourcetype9'] = 'Direktorioa';
-$string['resourcetypedirectory'] = 'Erakutsi direktorio bat';
-$string['resourcetypefile'] = 'Lotu fitxategi batera edo web gune batera';
-$string['resourcetypehtml'] = 'Sortu web orri bat';
-$string['resourcetypeims'] = 'Erantsi IMS Eduki Paketea';
-$string['resourcetypelabel'] = 'Sartu etiketa';
+$string['resourcetypedirectory'] = 'Direktorioa erakutsi';
+$string['resourcetypefile'] = 'Fitxategi edo web gune batera lotu';
+$string['resourcetypehtml'] = 'Web orria sortu';
+$string['resourcetypeims'] = 'IMS Eduki Paketea gehitu';
+$string['resourcetypelabel'] = 'Etiketa gehitu';
 $string['resourcetyperepository'] = 'Estekatu biltegiko objektu bati';
-$string['resourcetypetext'] = 'Sortu testu-orri bat';
-$string['searchweb'] = 'Bilatu web orri bat';
-$string['serverurl'] = 'Zerbitzariaren URL ($a->wwwroot)';
-$string['showcourseblocks'] = 'Erakutsi ikastaro-blokeak';
+$string['resourcetypetext'] = 'Testu-orria sortu';
+$string['searchweb'] = 'Web orri bat bilatu';
+$string['serverurl'] = 'Zerbitzariaren URLa ($a->wwwroot)';
+$string['showcourseblocks'] = 'ikastaro-blokeak erakutsi';
 $string['skipsubmenus'] = 'Jauzi egin azpimenu orriak';
-$string['tableofcontents'] = 'Eduki taula';
+$string['tableofcontents'] = 'Eduki-taula';
 $string['upbutton'] = 'Gora';
 $string['variablename'] = 'Aldagaiaren izena';
-$string['viewims'] = 'Ikusi IMS Eduki Paketea';
+$string['viewims'] = 'IMS Eduki Paketea ikusi';
 $string['vol'] = 'Bolumena';
 $string['warningblockingdelete'] = 'Kontuz! Indarrean dagoen baliabide batek ezabatze ekintza galerazten du. Lehenik eguneratu baliabidea edo esan administrariari babes mekanismoa hau desgaitzeko Baliabideen konfigurazio orokorrean.';
 $string['warningdisabledrename'] = 'Kontuz! Baliabideen berrizendatze automatikoa ez dago gaituta. Mesedez, eguneratu eskuz eragindako baliabidea, behar izanez gero. Administrariak Baliabideen konfigurazio orokorrean berrizendatze automatikoa gaitu dezake.';

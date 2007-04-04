@@ -36,7 +36,7 @@ $string['cachetext'] = 'Testuaren cach�aren bizi-iraupena';
 $string['calendar_weekend'] = 'Asteburuko egunak';
 $string['calendarsettings'] = 'Egutegia';
 $string['change'] = 'aldatu';
-$string['changesitelang'] = 'Aldatu gunearen hizkuntza';
+$string['changesitelang'] = 'Gunearen hizkuntza aldatu';
 $string['clamfailureonupload'] = 'Errorea clam AV clam-ean';
 $string['cleanup'] = 'Garbiketa';
 $string['componentinstalled'] = 'Osagaia instalatuta';
@@ -368,7 +368,7 @@ $string['protectusernames'] = 'Erabiltzaile-izenak babestu';
 $string['proxyhost'] = 'Proxy hosta';
 $string['proxyport'] = 'Proxy portua';
 $string['quarantinedir'] = 'Kuarentena direktorioa';
-$string['releasenoteslink'] = 'Moodle-ren bertsio honi buruzko informazioa nahi baduzu, mesedez begiratu <a target=\"_new\" href=\"$a\">Release oharrak</a>';
+$string['releasenoteslink'] = 'Moodle-ren bertsio honi buruzko informazioa nahi baduzu, mesedez begiratu <a target=\"_new\" href=\"$a\">Bertsio oharrak</a>';
 $string['remotelangnotavailable'] = 'Moodle-k ezin du download.moodle.org-ekin konektatu eta beraz ezin hizkuntza-paketea automatikoki instalatu. Mesedez, jaitsi zerrendako fitxategi egokiak, kopia itzazu zure $a direktorioan eta eskuz deskonprimitu.';
 $string['renameerrors'] = 'Erroreak berrizendatzean';
 $string['restrictbydefault'] = 'Mugatu moduluak berez';
@@ -376,7 +376,7 @@ $string['restrictmodulesfor'] = '-rentzat mugatu moduluak';
 $string['riskconfig'] = 'Erabiltzaileek gunearen konfigurazioa eta ezarpenak alda litzakete';
 $string['riskmanagetrust'] = 'Erabiltzaileek beste batzuen konfidantzazko ezarpenak alda litzakete';
 $string['riskpersonal'] = 'Erabiltzaileek beste erabiltzaile batzuen informazio pribatua lor lezakete.';
-$string['riskspam'] = 'Erabiltzaileek \'spam\'a bidal lezakete guneko erabiltzaileei edo beste batzuei';
+$string['riskspam'] = 'Erabiltzaileek \'spam\'a bidal liezaiekete guneko erabiltzaileei edo beste batzuei';
 $string['riskxss'] = 'Erabiltzaileek gunean zeharreko \'scripting\'erako (XSS)aukera ematen duen fitxategi eta testuak gainera litzakete';
 $string['runclamavonupload'] = 'Erabili clam AV igotako fitxategietan';
 $string['savechanges'] = 'Aldaketak gorde';
@@ -442,7 +442,7 @@ $string['upgradeforumreadinfo'] = 'Moodle 1.5en foroetara bidalitako irakurritak
 $string['upgradelogs'] = 'Funtzionalitate osoa lortzeko, zure erregistro zaharrak eguneratu behar dira. <a href=\"$a\">Informazio gehiago</a>';
 $string['upgradelogsinfo'] = 'Duela gutxi erregistroak gordetzeko moduan aldaketak egin dira. Zure erregistro zaharrak jardueraren arabera sailkatuta ikusteko, erregistro horiek eguneratu behar dira. Tamainaren arabera prozesuak luze jo dezake (ad., ordu batzuk) datu-basean behin eta berriro kontsultako beharko baita. bukatzen utzi beharko zenuke (ad., nabigatzailearen leihoa irekita utzi). Hala ere, leihoa itxi eta prozesua eteten baduzu, ez zaitez kezkatu, beti ere berriro has zaitezke.<br /><br />Prozesua orain hasi nahi al duzu?';
 $string['upgradesettings'] = 'Ezarpen berriak';
-$string['upgradesettingsintro'] = 'Beheragoko ezarpenak Moodle-ren azken eguneraketan gehitu ziren. Egin beharrezko aldaketak berezko baloreetan eta ondoren sakatu orriaren bukaerako &quot;Aldaketak gorde&quot';
+$string['upgradesettingsintro'] = 'Beheragoko ezarpenak Moodle-ren azken eguneraketan gehitu ziren. Egin beharrezko aldaketak berezko baloreetan eta ondoren sakatu orriaren bukaerako \"Aldaketak gorde\"';
 $string['upgradesure'] = 'Moodleko zure fitxategiak aldatu dira, eta zure zerbitzaria bertsio honetara eguneratzear zaude:
 <p><b>$a</b></p>
 <p>Hori egin eta gero, ezingo duzu atzera jo.</p>
