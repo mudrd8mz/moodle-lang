@@ -18,6 +18,7 @@ $string['blockafter'] = 'Nombre maximal de messages';
 $string['blockperiod'] = 'Durée avant blocage';
 $string['blockperioddisabled'] = 'Ne pas bloquer';
 $string['bynameondate'] = 'par $a->name - $a->date';
+$string['cannotadddiscussion'] = 'Pour créer une discussion dans ce forum, vous devez être membre d\'un groupe.';
 $string['cannotviewpostyet'] = 'Vous ne pouvez pas lire les questions des autres étudiants, car vous n\'avez pas encore écrit de message';
 $string['configcleanreadtime'] = 'L\'heure à laquelle nettoyer les anciens messages de la table des messages lus.';
 $string['configdisplaymode'] = 'Mode d\'affichage par défaut des discussions';
