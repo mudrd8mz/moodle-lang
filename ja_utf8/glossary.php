@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 dev (2007021400)
+      // glossary.php - created with Moodle 1.9 dev (2007040400)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -92,6 +92,7 @@ $string['entryusedynalink'] = 'エントリを自動的にリンクさせる';
 $string['errcannoteditothers'] = 'あなたは他の人のエントリを編集できません。';
 $string['errconceptalreadyexists'] = 'この用語はすでに登録されています。この用語集では、重複エントリは許可されていません。';
 $string['erredittimeexpired'] = 'このエントリの編集期限は終了しました。';
+$string['errorparsingxml'] = 'ファイルの構文解析中にエラーが発生しました。有効なXMLシンタックスかどうか確認してください。';
 $string['explainaddentry'] = '用語集に新しいエントリを追加します。<br />用語と定義は必須入力項目です。';
 $string['explainall'] = 'すべてのエントリを1ページに表示';
 $string['explainalphabet'] = 'インデックスを利用して用語集を表示';
@@ -125,6 +126,7 @@ $string['importcategories'] = 'カテゴリをインポートする';
 $string['importedcategories'] = 'インポートされたカテゴリ';
 $string['importedentries'] = 'インポートされたエントリ';
 $string['importentries'] = 'エントリのインポート';
+$string['importentriesfromxml'] = 'エントリをXMLファイルからインポートする';
 $string['isglobal'] = 'これはグローバル用語集ですか?';
 $string['linkcategory'] = 'このカテゴリを自動的にリンクする';
 $string['linking'] = 'オートリンク';
