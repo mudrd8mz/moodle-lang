@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 dev (2007021501)
+      // forum.php - created with Moodle 1.9 dev (2007040400)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -20,6 +20,7 @@ $string['blockafter'] = '차단을 위한 게시 한계';
 $string['blockperiod'] = '차단 시간';
 $string['blockperioddisabled'] = '차단하지 않음';
 $string['bynameondate'] = '$a->date 에 $a->name 씀';
+$string['cannotadddiscussion'] = '이 포럼에 의견을 제시하려면 모둠의 구성원이 돠어야 합니다.';
 $string['cannotviewpostyet'] = '게시물을 올리지 않았기 때문에 이 토론에서 다른 학생들의 질문을 읽을 수 없습니다.';
 $string['configcleanreadtime'] = '\'읽기\'란의 오래된 게시물을 정리하는 시간';
 $string['configdisplaymode'] = '만약 설정되지 않았다면 기본 설정이 보여집니다.';

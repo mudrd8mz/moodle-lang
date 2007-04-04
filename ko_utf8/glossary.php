@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 dev (2006120700)
+      // glossary.php - created with Moodle 1.9 dev (2007040400)
 
 
 $string['addcomment'] = '덧글 쓰기';
@@ -92,6 +92,7 @@ $string['entryusedynalink'] = '이항목은 자동적으로 링크됨';
 $string['errcannoteditothers'] = '다른 사람의 항목을 편집할 수 없습니다.';
 $string['errconceptalreadyexists'] = '이 내용은 이미 있습니다. 이 자료집에서는 중복을 허용하지 않습니다.';
 $string['erredittimeexpired'] = '이 항목에 대한 편집 시간이 종료되었습니다.';
+$string['errorparsingxml'] = '파일을 해석하는 중에 오류가 발생하였습니다. 유효한 XML 문법인지 확인하세요.';
 $string['explainaddentry'] = '현재의 자료집에 새 항목을 추가합니다.';
 $string['explainall'] = '한 쪽에 모든 항목 보기';
 $string['explainalphabet'] = '색인을 사용하여 자료집 보기';
@@ -125,6 +126,7 @@ $string['importcategories'] = '항목 가져오기';
 $string['importedcategories'] = '가져오기 된 범주';
 $string['importedentries'] = '가져오기 된 항목';
 $string['importentries'] = '항목 가져오기';
+$string['importentriesfromxml'] = 'XML파일에서 내용 가져옴';
 $string['isglobal'] = '이 자료집은 공용인가요?';
 $string['linkcategory'] = '이 범주로 자동 링크됨';
 $string['linking'] = '자동 연결';
