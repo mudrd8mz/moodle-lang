@@ -18,11 +18,32 @@ Nicolas Martignoni <nicolas@martignoni.net>
   Facilitateur de l'espace « Moodle en français » (http://moodle.org/course/view.php?id=20)
   
 Valéry Frémaux <vf@eisti.fr>
-  Traduction de fr_utf8/help/wiki
+  Traduction de fr_utf8/help/scorm
   Traduction de fr_utf8/help/exercise
+  Traduction de fr_utf8/help/resource/window.html
+  Traduction de fr_utf8/help/workshop/addcommenttobank.html
+  Traduction de fr_utf8/help/workshop/comparisonofassessments.html
+  Traduction de fr_utf8/help/workshop/gradinggrade.html
+  Traduction de fr_utf8/help/workshop/managing2.html
+  Traduction de fr_utf8/help/workshop/nattachments.html
+  Traduction de fr_utf8/help/workshop/password.html
+  Traduction de fr_utf8/help/workshop/regrading.html
+  Traduction de fr_utf8/help/workshop/teacherweight.html
+  Traduction de fr_utf8/help/workshop/ungradedassessments.html
+  Traduction de fr_utf8/help/workshop/usepassword.html
+  Traduction de fr_utf8/help/wiki
+  
+Étienne Rozé <etienne.roze@medecine.uhp-nancy.fr>
+  Traduction de fr_utf8/help/grade/teacher.html
+  
+Nicolas Galante <nicolas.galante@grenoble-em.com>
+  Traduction de fr_utf8/help/grade/student.html
 
 Jean-François Nadeau <nadeau.jf@videotron.ca>
   Adaptations à de nombreux fichiers de fr_utf8/help
+  
+Sébastien Namèche <sebastien@nameche.fr>
+  Premières contributions à la traduction
 
 ---------------------------------------------------------------------------------
 Une liste des termes utilisés pour la traduction est disponible dans le
