@@ -2,7 +2,7 @@ Version: $Id$
 
 Traduction française de Moodle
 ---------------------------------------------------------------------------------
-Début de la traduction          : 03-09-2002
+Début de la traduction          : 21-09-2002
 Dernière modification           : 05-04-2007
 ---------------------------------------------------------------------------------
 
@@ -43,7 +43,8 @@ Jean-François Nadeau <nadeau.jf@videotron.ca>
   Adaptations à de nombreux fichiers de fr_utf8/help
   
 Sébastien Namèche <sebastien@nameche.fr>
-  Premières contributions à la traduction
+  Premières contributions à la traduction. Grâce à Sébastien, le français a été,
+  après l'anglais, la première langue dans laquelle Moodle a été traduit !
 
 ---------------------------------------------------------------------------------
 Une liste des termes utilisés pour la traduction est disponible dans le
