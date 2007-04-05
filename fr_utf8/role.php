@@ -72,6 +72,7 @@ $string['manageroles'] = 'Gérer les rôles';
 $string['metaassignerror'] = 'Impossible d\'attribuer ce rôle à l\'utilisateur «&nbsp;$a&nbsp;», car la capacité «&nbsp;Gérer les méta-cours&nbsp;» est requise.';
 $string['metaunassignerror'] = 'Le rôle de l\'utilisateur «&nbsp;$a&nbsp;» a été automatiquement réattribué. Si nécessaire, veuillez retirer ce rôle dans les cours dépendants.';
 $string['nocapabilitiesincontext'] = 'Aucune capacité dans ce contexte';
+$string['notset'] = 'Non défini';
 $string['overrideroles'] = 'Définir des dérogations aux rôles';
 $string['overrides'] = 'Dérogations';
 $string['permissions'] = 'Permissions';
