@@ -7,23 +7,23 @@ Dernière modification           : 06-04-2007
 ---------------------------------------------------------------------------------
 
 La traduction française de Moodle est gérée et coordonnée par Nicolas Martignoni
-<nicolas@martignoni.net>.
+<nicolas%martignoni.net>.
 
 Contributeurs à la traduction de Moodle
 ---------------------------------------
 
-Nicolas Martignoni <nicolas@martignoni.net>
+Nicolas Martignoni <nicolas%martignoni.net>
   Traduction des fichiers de fr_utf8
   Gestion et coordination de la traduction en français
   Facilitateur de l'espace « Moodle en français » (http://moodle.org/course/view.php?id=20)
   Gestion de la documentation en français de Moodle (http://docs.moodle.org/fr/)
   
-Séverin Terrier <severin.terrier@univ-tlse1.fr>
+Séverin Terrier <severin.terrier%univ-tlse1.fr>
   Relecture et découverte de fautes de frappes
   Facilitateur de l'espace « Moodle en français »
   Gestion de la documentation en français de Moodle
 
-Valéry Frémaux <vf@eisti.fr>
+Valéry Frémaux <vf%eisti.fr>
   Traduction de fr_utf8/help/scorm
   Traduction de fr_utf8/help/exercise
   Traduction de fr_utf8/help/resource/window.html
@@ -39,21 +39,22 @@ Valéry Frémaux <vf@eisti.fr>
   Traduction de fr_utf8/help/workshop/usepassword.html
   Traduction de fr_utf8/help/wiki
   
-Didier Rambeau
+Didier Rambeau <didier.rambeau%free.fr>
+  Traduction de fr_utf8/help/questionnaire
   Traduction de fr_utf8/help/resource/deploy.html
   Traduction de fr_utf8/help/resource/imsparameters.html
   Traduction de fr_utf8/help/resource/type/ims.html
   
-Étienne Rozé <etienne.roze@medecine.uhp-nancy.fr>
+Étienne Rozé <etienne.roze%medecine.uhp-nancy.fr>
   Traduction de fr_utf8/help/grade/teacher.html
   
-Nicolas Galante <nicolas.galante@grenoble-em.com>
+Nicolas Galante <nicolas.galante%grenoble-em.com>
   Traduction de fr_utf8/help/grade/student.html
 
-Jean-François Nadeau <nadeau.jf@videotron.ca>
+Jean-François Nadeau <nadeau.jf%videotron.ca>
   Adaptations à de nombreux fichiers de fr_utf8/help
   
-Sébastien Namèche <sebastien@nameche.fr>
+Sébastien Namèche <sebastien%nameche.fr>
   Premières contributions à la traduction. Grâce à Sébastien, le français a été,
   après l'anglais, la première langue dans laquelle Moodle a été traduit !
 
