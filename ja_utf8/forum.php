@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 dev (2007021501)
+      // forum.php - created with Moodle 1.9 dev (2007040400)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -20,6 +20,7 @@ $string['blockafter'] = 'ブロッキングのための投稿閾値';
 $string['blockperiod'] = 'ブロッキングのための期間';
 $string['blockperioddisabled'] = 'ブロックしない';
 $string['bynameondate'] = '$a->date - $a->name の投稿';
+$string['cannotadddiscussion'] = 'このフォーラムにディスカッションを追加するには、グループのメンバーである必要があります。';
 $string['cannotviewpostyet'] = 'まだ投稿していないため、あなたは他の学生の質問を読むことはできません。';
 $string['configcleanreadtime'] = '古い投稿を「既読」テーブルからクリアする時刻 (時)';
 $string['configdisplaymode'] = '設定されていない場合、ディスカッションで使用されるデフォルト表示モードです。';
