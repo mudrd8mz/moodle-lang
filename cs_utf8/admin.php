@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 Beta (2007020400)
+      // admin.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -53,7 +53,7 @@ $string['configallowunenroll'] = 'Je-li u této volby vybráno \'Ano\', mohou se
 $string['configallowuserblockhiding'] = 'Povolit uživatelům zasouvání/vysouvání postranních bloků? Tato funkce používá Javascript a soubory cookie. Nastavení se aplikuje vždy pouze na pohled příslušného uživatele.';
 $string['configallowusermailcharset'] = 'Povolit všem uživatelům nastavení vlastní znakové sady pro e-maily.';
 $string['configallowuserthemes'] = 'Umožnit uživatelům vlastní výběr motivu stránek. Uživatelské nastavaní má přednost před globálním motivem, nikoliv však před nastavením kurzu.';
-$string['configallusersaresitestudents'] = 'Považovat pro činnosti na hlavní stránce V� ECHNY uživatele za studenty? Pokud ANO, bude se moci činností na hlavní stránce účastnit jako student každý uživatel přihlášený k potvrzenému uživatelskému účtu. Pokud NE, budou mít tuto možnost pouze uživatelé zapsaní alespoň v jednom kurzu. Pouze administrátoři a zvlášť určení učitelé mohou na hlavní stránce vystupovat v roli učitele.';
+$string['configallusersaresitestudents'] = 'Považovat pro činnosti na hlavní stránce VŠECHNY uživatele za studenty? Pokud ANO, bude se moci činností na hlavní stránce účastnit jako student každý uživatel přihlášený k potvrzenému uživatelskému účtu. Pokud NE, budou mít tuto možnost pouze uživatelé zapsaní alespoň v jednom kurzu. Pouze administrátoři a zvlášť určení učitelé mohou na hlavní stránce vystupovat v roli učitele.';
 $string['configauthenticationplugins'] = 'Zvolte způsoby ověřování uživatelů a pořadí, v jakém budou použity. Pokud se uživatelé registrují sami, bude použit způsob uvedený v poli \"Registrace uživatelů\" níže (většinou se používá ověření na základě emailu).';
 $string['configautologinguests'] = 'Mají být návštěvníci vašich stránek automaticky přihlášeni jako hosté, jestliže vstupují do kurzů, které vstup hostů umožňují?';
 $string['configbloglevel'] = 'Touto volbou nastavujete úroveň přístupu k blogům na vašich stránkách. Nastavení se týká ČTENÁŘŮ, nikoliv autorů či typů blogů. Pokud blogy nechcete používat, můžete je vypnout úplně.';
@@ -61,7 +61,7 @@ $string['configcachetext'] = 'U rozsáhlejších instalací používajících te
 $string['configcachetype'] = 'Zvolte typ vyrovnávací paměti, kterou bude Moodle používat. Tímto si volíte pouze typ vyrovnávací paměti - nezapomeňte vyrovnávací paměť povolit v nastavení rcache. Vyrovnávací paměť použijte <strong>pouze v případě</strong>, kdy potřebujete snížit zatížení databázového systému. Její použití může ve finále běh Moodlu zpomalit. Stránky se středně náročným zatížením mohou profitovat z nastavení \"internal\". Na webovém serveru s nainstalovanými akcelerátory eAccelerator nebo Turckmmcache s <em>povoleným použitím sdílené paměti</em> můžete vyzkoušet \"eaccelerator\". Máte-li multiserverovou instalaci a používáte jeden nebo několik  běžících démonů memcached spolu s rozšířením PHP-memcached, zvolte volbu \"memcached\" a nastavte potřebné parametry uvedené dále.<br /><strong>Poznámka:</strong> pro efektivní využití vyrovnávací paměti je potřeba provést řadu testů a dolaďování. Akcelerátory eAccelerator a memcached patří mezi nejvýkonnější, ale zároveň mají velké nároky na využití procesorového času.';
 $string['configclamactlikevirus'] = 'Považuj soubory za viry';
 $string['configclamdonothing'] = 'Považuj soubory za neškodné';
-$string['configclamfailureonupload'] = 'Jak se má Moodle zachovat při chybě v konfiguraci nebo v případě jiného problému s Clam AV. Při volbě \'Považuj soubory za viry\' budou soubory umístěny do karantény, nebo budou odstraněny. Při volbě \'Považuj soubory za neškodné\' budou soubory normálně uloženy do cílového umístění. Správci serveru budou v obou přpadech upozorněni, že se Clam AV nepodařilo spustit. Zvolíte-li \'Považuj soubory za viry\' a Clam AV se z nějakého důvodu nepodaří spustit (většinou proto, že zadáte neplatnou pathtoclam), budou V� ECHNY nahrávané soubory přesunuty do karantény nebo odstraněny! Zacházejte proto s tímto nastavením opatrně.';
+$string['configclamfailureonupload'] = 'Jak se má Moodle zachovat při chybě v konfiguraci nebo v případě jiného problému s Clam AV. Při volbě \'Považuj soubory za viry\' budou soubory umístěny do karantény, nebo budou odstraněny. Při volbě \'Považuj soubory za neškodné\' budou soubory normálně uloženy do cílového umístění. Správci serveru budou v obou přpadech upozorněni, že se Clam AV nepodařilo spustit. Zvolíte-li \'Považuj soubory za viry\' a Clam AV se z nějakého důvodu nepodaří spustit (většinou proto, že zadáte neplatnou pathtoclam), budou VŠECHNY nahrávané soubory přesunuty do karantény nebo odstraněny! Zacházejte proto s tímto nastavením opatrně.';
 $string['configcountry'] = 'Výchozí nastavení země při vytváření nových uživatelů. Nezadáte-li nic, budou uživatelé nuceni vybrat si zemi sami.';
 $string['configcoursemanager'] = 'Které uživatele zobrazovat u popisu kurzu. Uživatelé potřebují alespoň jednu z těchto rolí v daném kurzu, aby byli zobrazeni u jeho popisu.';
 $string['configcoursesperpage'] = 'Počet kurzů na stránce při zobrazování seznamu kurzů.';
@@ -348,7 +348,7 @@ $string['maintfileopenerror'] = 'Chyba při otevírání souborů údržby!';
 $string['maintinprogress'] = 'Probíhá údržba serveru...';
 $string['managelang'] = 'Správa';
 $string['maxbytes'] = 'Maximální velikost nahrávaných souborů';
-$string['maxeditingtime'] = 'Časový imit pro úpravu vložených příspěvků';
+$string['maxeditingtime'] = 'Časový limit pro úpravu vložených příspěvků';
 $string['mbstringrecommended'] = 'Instalace volitelné knihovny MBSTRING je silně doporučena, neboť zvyšuje výkon stránek, zejména pokud používáte jazyky nezaložené na latince.';
 $string['mediapluginavi'] = 'Aktivovat filtr .avi';
 $string['mediapluginflv'] = 'Aktivovat filtr .flv';
@@ -359,7 +359,7 @@ $string['mediapluginram'] = 'Aktivovat filtr .ram';
 $string['mediapluginrm'] = 'Aktivovat filtr .rm';
 $string['mediapluginrpm'] = 'Aktivovat filtr .rpm';
 $string['mediapluginswf'] = 'Aktivovat filtr .swf';
-$string['mediapluginswfnote'] = 'Výchozí bezpečnostní nastavení nedovoluje normálním uživatelům vkládat přímo do HTML textu soubory swf.';
+$string['mediapluginswfnote'] = 'Výchozí bezpečnostní nastavení nedovoluje řadovým uživatelům vkládat přímo do HTML textu soubory swf.';
 $string['mediapluginwmv'] = 'Aktivovat filtr .wmv';
 $string['memcachedhosts'] = 'Hostitelé memcached';
 $string['memcachedpconn'] = 'memcached používá trvalé spojení';
@@ -542,9 +542,9 @@ $string['updatecomponent'] = 'Aktualizovat komponentu';
 $string['updatelangs'] = 'Aktualizovat všechny instalované jazyk. balíčky';
 $string['updatetimezones'] = 'Aktualizovat časová pásma';
 $string['upgradeforumread'] = 'Do Moodlu 1.5 byla přidána nová funkce, která umožňuje sledovat a označovat stav diskusních příspěvků \'přečteno/nepřečteno\'.<br />Chcete-li tuto funkci používat, musíte <a href=\"$a\">aktualizovat tabulky v databázi</a>.';
-$string['upgradeforumreadinfo'] = 'Do Moodlu 1.5 byla přidána nová funkce, která umožňuje u každého uživatele zaznamenávat stav příspěvků \'přečteno/nepřečteno\'. Chcete-li tuto funcki používat, je třeba doplnit ke stávajícím příspěvkům potřebné informace. Tento proces může v závislosti na rozsahu vašich stránek trvat až několik hodin a na vašem databázovém serveru bude celkem rušno, takže doporučujeme provést tuto činnost ve vhodném čase (např. o víkendu v noci). Vaše stránky budou nicméně stále v provozu a práce uživatelů by neměla být výrazněji ovlivněna. Jakmile proces spustíte, měli byste jej nechat dokončit (tj. nechat otevřené příslušné okno prohlížeče). Ale nemějte obavy, pokud okno zavřete a proces ukončíte, můžete kdykoliv začít znovu.<br /><br />Chcete nyní spustit aktualizaci databáze?';
+$string['upgradeforumreadinfo'] = 'Do Moodlu 1.5 byla přidána nová funkce, která umožňuje u každého uživatele zaznamenávat stav příspěvků \'přečteno/nepřečteno\'. Chcete-li tuto funkci používat, je třeba doplnit ke stávajícím příspěvkům potřebné informace. Tento proces může v závislosti na rozsahu vašich stránek trvat až několik hodin a na vašem databázovém serveru bude celkem rušno, takže doporučujeme provést tuto činnost ve vhodném čase (např. o víkendu v noci). Vaše stránky budou nicméně stále v provozu a práce uživatelů by neměla být výrazněji ovlivněna. Jakmile proces spustíte, měli byste jej nechat dokončit (tj. nechat otevřené příslušné okno prohlížeče). Ale nemějte obavy, pokud okno zavřete a proces ukončíte, můžete kdykoliv začít znovu.<br /><br />Chcete nyní spustit aktualizaci databáze?';
 $string['upgradelogs'] = 'Pro plnou funkčnost je nutné vaše staré protokoly aktualizovat. <a href=\"$a\">Více informací</a>';
-$string['upgradelogsinfo'] = 'Ve způsobu uchovávání protokolů došlo ke změnám. Chcete-li zobrazovat vaše dosavadní protokoly podle činností, je nutné všechny uložené protokoly aktualizovat. V závislosti na jejich množství to může trvat delší dobu (i několik hodin), na rozsáyhlejších stránkách tento proces výrazně zatíží databázi. Jakmile jednou proces spustíte, měli byste jej nechat dokončit (tj. nechte okno prohlížeče otevřené). Nemusíte mít obavy -- vaše stránky budou v průběhu aktualizace pro uživatele stále dostupné.<br /><br />Chcete nyní aktualizovat protokoly?';
+$string['upgradelogsinfo'] = 'Ve způsobu uchovávání protokolů došlo ke změnám. Chcete-li zobrazovat vaše dosavadní protokoly podle činností, je nutné všechny uložené protokoly aktualizovat. V závislosti na jejich množství to může trvat delší dobu (i několik hodin), na rozsáhlejších stránkách tento proces výrazně zatíží databázi. Jakmile jednou proces spustíte, měli byste jej nechat dokončit (tj. nechte okno prohlížeče otevřené). Nemusíte mít obavy -- vaše stránky budou v průběhu aktualizace pro uživatele stále dostupné.<br /><br />Chcete nyní aktualizovat protokoly?';
 $string['upgradesettings'] = 'Nová nastavení';
 $string['upgradesettingsintro'] = 'V průběhu posledního upgrade přibyla následující nová nastavení. Proveďte nezbytné úpravy oproti výchozím hodnotám a stiskněte tlačítko \"Uložit změny\" na konci této stránky';
 $string['upgradesure'] = 'Soubory Moodlu byly změněny, takže se pravděpodobně chystáte upgradovat server na verzi: <p><b>$a</b></p> <p>Jakmile tak učiníte, není cesty zpět.</p> <p>Jste si jisti, že chcete upgradovat server na tuto verzi?</p>';

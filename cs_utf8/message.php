@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.6 + (2006050506)
+      // message.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['addcontact'] = 'Přidat kontakt';
@@ -33,7 +33,9 @@ $string['messagehistory'] = 'Historie zpráv';
 $string['messages'] = 'Zprávy';
 $string['messaging'] = 'Zasílání zpráv';
 $string['mycontacts'] = 'Moje kontakty';
+$string['newonlymsg'] = 'Ukázat jen nové';
 $string['newsearch'] = 'Nové hledání';
+$string['noframesjs'] = 'Verze bez rámců a JavaScriptu';
 $string['nomessages'] = 'Žádné nové zprávy';
 $string['nomessagesfound'] = 'Nebyly nalezeny žádné zprávy';
 $string['nosearchresults'] = 'Vaše vyhledávání nepřineslo žádný výsledek';

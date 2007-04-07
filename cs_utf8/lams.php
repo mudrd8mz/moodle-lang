@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.6 + (2006050506)
+      // lams.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['createSequence'] = 'Vytvořit novou sekvenci';
@@ -7,7 +7,9 @@ $string['editSequence'] = 'Editovat vybranou sekvenci';
 $string['error'] = 'Neznámá chyba';
 $string['introduction'] = 'Úvod';
 $string['lams'] = '-- LAMS - Learning Activity Management System --';
-$string['lamsoutline'] = 'LAMS &ndash; Přehled';
+$string['lams:manage'] = 'Správa aktivit LAMS';
+$string['lams:participate'] = 'Zapojit se do aktivit LAMS';
+$string['lamsoutline'] = 'LAMS – Přehled';
 $string['lesson'] = 'studijní setkání (session)';
 $string['modulename'] = 'LAMS';
 $string['modulenameplural'] = 'LAMS';
@@ -23,7 +25,7 @@ $string['serverkey'] = 'Vložit tajný klíč serveru získaný od <a href=http:
 $string['serverurl'] = 'Vložit základní URL pro přístup na server LAMS. Například http://localhost:8080/lams';
 $string['useSequence'] = 'Použít vybranou sekvenci';
 $string['visibletostudents'] = 'Zobrazit činnost studentům';
-$string['wikistartederror'] = 'Wiki už má hesla &ndash; není možno je měnit.';
+$string['wikistartederror'] = 'Ve Wiki už jsou příspěvky – změna není možná.';
 $string['workspace'] = 'Vybrat pracovní plochu';
 $string['wrongversionrange'] = '$a není správný údaj!';
 

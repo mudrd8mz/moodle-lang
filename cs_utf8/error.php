@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8 dev (2007012500)
+      // error.php - created with Moodle 1.8 + (2007021502)
 
 
-$string['adminprimarynoedit'] = 'Primární správce nemůže být ostatními upravován';
+$string['adminprimarynoedit'] = 'Primární správce nemůže být upravován ostatními uživateli';
 $string['cannotcreatelangdir'] = 'Nelze vytvořit adresář pro jazykové soubory.';
 $string['cannotcreatetempdir'] = 'Nelze vytvořit dočasný adresář.';
 $string['cannotdownloadcomponents'] = 'Nelze stáhnout komponenty.';
@@ -15,7 +15,7 @@ $string['cantunenrollfrommetacourse'] = 'Nemůžete se vyškrtnout z tohoto meta
 $string['cantunenrollinthisrole'] = 'Nemůžete se vyškrtnout z tohoto kurzu, dokud máte stávající roli.';
 $string['cmunknown'] = 'Nenalezen tento modul kurzu';
 $string['componentisuptodate'] = 'Komponenta je aktuální.';
-$string['confirmsesskeybad'] = 'Je mi líto, ale klíči vašeho sezení (session) nebylo povoleno vykonat tuto akci. Toto bezpečnostní opatření zabraňuje nahodilému nebo zákeřnému spoustění důležitých funkcí pod vaším jménem. Prosím, ujistěte se, že opravdu chcete spustit tuto funkci.';
+$string['confirmsesskeybad'] = 'Je mi líto, ale klíči vašeho sezení (session) nebylo povoleno vykonat tuto akci. Toto bezpečnostní opatření zabraňuje nahodilému nebo zákeřnému spouštění důležitých funkcí pod vaším jménem. Prosím, ujistěte se, že opravdu chcete spustit tuto funkci.';
 $string['couldnotassignrole'] = 'V průběhu přiřazování vaši role se objevila vážná, ale blíže neurčená chyba.';
 $string['coursegroupunknown'] = 'Nebyl určen kurz odpovídající skupině \"$a\"';
 $string['downloadedfilecheckfailed'] = 'Kontrola staženého souboru dopadla negativně';
@@ -46,6 +46,7 @@ $string['modulerequirementsnotmet'] = 'Modul \"$a->modulename\" ($a->moduleversi
 $string['mustbeteacher'] = 'Přístup na tuto stránku je povolen pouze učitelům';
 $string['nocontext'] = 'Je mi líto, tento kurz není platný kontext.';
 $string['noinstances'] = 'V tomto kurzu se nevyskytuje žádná instance $a!';
+$string['nologinas'] = 'Nemáte povoleno přihlásit se jako tento uživatel';
 $string['nonmeaningfulcontent'] = 'Nesmyslný obsah';
 $string['noparticipatorycms'] = 'Pro váš účet nejsou dostupné žádné moduly kurzy, u nichž lze vést záznamy v protokolech.';
 $string['nopermissions'] = 'Je mi líto, ale momentálně nemáte oprávnění vykonat tuto operaci ($a)';
