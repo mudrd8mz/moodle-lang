@@ -15,9 +15,9 @@
 <p>GhostscriptはWindowsで利用でき、LaTeXに実装されたMikTeXも利用できます。</p>
 <p>設定ページでは、LaTexおよびGhostscriptバイナリパス、同時にLaTeX preambleの設定を行うことができます。</p>
 <p><b>詳細情報</b></p>
-<p><a href="http://www.miktex.org/">MiKTeX</a><br/ >
+<p><a href="http://www.miktex.org/">MiKTeX</a><br />
 <a href="http://www.forkosh.com/mimetex.html">MimeTeX</a><br />
-<a href="http://www.latex-project.org/">LaTeX</a><br/ >
+<a href="http://www.latex-project.org/">LaTeX</a><br />
 <a href="http://www.ghostscript.com/">ghostscript</a></p>
 </div>
 
@@ -60,9 +60,8 @@
 <p><b>多言語コンテンツ</b></p>
 
 <div class="indent">
-<p>このフィルタは、リソースを多言語で作成できるようにします。リソース言語は、ユーザがMoodle言語を選択すると変更されます。この機能を使用するには、最初にコンテンツを (同一リソース内に) 多言語で作成してください。そして、それぞれの言語のコンテンツを下記のタグで囲んでください: </p>
-<pre>      &lt;lang lang="XX&gt;あなたの_コンテンツは_ここです&lt;/lang&gt;</pre>
-
-  <p>または、代わりにspanタグを使用することもできます。例えば:</p>
-  <pre>      &lt;span lang="XX"&gt;あなたの_コンテンツは_ここです&lt;/span&gt;</pre>
- </div>
+<p>このフィルタは、リソースを多言語で作成できるようにします。リソース言語は、ユーザがMoodle言語を選択すると変更されます。この機能を使用するには、最初にコンテンツを (同一リソース内に) 多言語で作成してください。そして、それぞれの言語のコンテンツを次のタグで囲んでください: </p>
+<pre>      &lt;span lang="XX" class="multilang"&gt;あなたの_コンテンツは_ここです&lt;/span&gt;</pre>
+<p>代わりに古い (廃止された) spanタグをまだ使用することもできます。例えば:</p>
+<pre>      &lt;lang lang="XX" &gt;あなたの_コンテンツは_ここです&lt;/lang&gt;</pre>
+</div>
