@@ -7,6 +7,7 @@ $string['browserepository'] = 'Consulter le répertoire';
 $string['choose'] = 'Choisir';
 $string['chooseafile'] = 'Choisir ou déposer un fichier';
 $string['chooseparameter'] = 'Choisir un paramètre';
+$string['clicktoopen'] = 'Pour ouvrir ce document, cliquez sur le lien&nbsp;: ';
 $string['configallowlocalfiles'] = 'Lors de la création d\'une nouvelle ressource de type fichier, permettre des liens vers les fichiers disponibles sur un système de fichiers local, par exemple sur un CD ou sur un disque dur. Cela peut être utile dans une classe où tous les étudiants ont accès a un volume réseau commun ou si des fichiers sur un CD sont nécessaires. Il est possible que l\'utilisation de cette fonctionnalité requière une modification des réglages de sécurité de votre navigateur.';
 $string['configautofilerenamesettings'] = 'Mettre à jour automatiquement les références vers d\'autres fichiers et dossiers lors d\'un changement de nom dans la gestion des fichiers.';
 $string['configblockdeletingfilesettings'] = 'Empêcher la suppression de fichiers et dossiers référencés par des ressources. Veuillez noter que les images et autres fichiers référencés dans le code HTML ne sont pas protégés par ce réglage.';
