@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.7 beta (2006101000)
+      // wiki.php - created with Moodle 1.8 (2007021501)
 
 
 $string['action'] = '-- Azione --';
@@ -12,7 +12,7 @@ $string['attachments'] = 'Sono presenti degli allegati';
 $string['author'] = 'Autore';
 $string['authorfieldpattern'] = 'Schema campo autore';
 $string['authorfieldpatternerror'] = 'Immettere un autore';
-$string['backlinks'] = 'Pagine con riferimenti';
+$string['backlinks'] = 'Pagine con collegamenti a questa';
 $string['binimgtoolarge'] = 'Il file immagine è troppo grande!';
 $string['binnoimg'] = 'Questo è un formato di file inaccettabile!';
 $string['browse'] = 'Naviga';
@@ -86,7 +86,7 @@ $string['htmlonly'] = 'Solo HTML';
 $string['index'] = 'Indice';
 $string['infoaboutpage'] = 'Storico della pagina';
 $string['initialcontent'] = 'Scegli una pagina iniziale';
-$string['invalidroot'] = 'Non sei autorizzato ad accedere alla pagina pricipale attuale, per cui la mappa del sito non può essere creata.';
+$string['invalidroot'] = 'Non sei autorizzato ad accedere alla pagina principale attuale, per cui la mappa del sito non può essere creata.';
 $string['lastchanged'] = 'Ultima modifica il $a';
 $string['lastmodified'] = 'Ultima modifica';
 $string['linkdead'] = 'MORTO';
@@ -108,7 +108,7 @@ $string['nochangestorevert'] = 'Nessuna modifica da annullare.';
 $string['nohtml'] = 'No HTML';
 $string['nojslockwarning'] = 'Siccome Javascript è disabilitato nel tuo browser, è possibile che qualcun altro possa modificare questa pagina. Se questo accadesse, non potrai salvare le tue modifiche. Per favore cerca di terminare le modifiche velocemente, oppure attiva Javascript e ricarica la pagina.';
 $string['nolinksfound'] = 'Nessun collegamento trovato nella pagina.';
-$string['noregexp'] = 'Questo deve essere una stringa fissa (non si può usare * o un\'espressione regolare), nel migliore dei casi usa l\'indirizzo IP o il nome della macchina attaccante, senza includere il numero di porta (perchè viene incrementato ad ogni accesso http).';
+$string['noregexp'] = 'Questo deve essere una stringa fissa (non si può usare * o un\'espressione regolare), nel migliore dei casi usa l\'indirizzo IP o il nome della macchina attaccante, senza includere il numero di porta (perché viene incrementato ad ogni accesso http).';
 $string['notadministratewiki'] = 'Non ti è permesso amministrare questo Wiki!';
 $string['nothingtostrip'] = 'Non ci sono pagine con più di una versione.';
 $string['nowikicreated'] = 'Non è stato ancora creato nulla per questo Wiki.';
@@ -137,7 +137,7 @@ $string['readonly'] = 'Pagina di sola lettura';
 $string['refs'] = 'Riferimenti';
 $string['reloadlinkdescription'] = 'Ricarica la pagina, in modo da mostrare eventuali nuovi contenuti.';
 $string['reloadlinktext'] = 'Ricarica';
-$string['removenotice'] = 'Attenzione: vengono elencate qui solo le pagine non referenziate (orfane), o con errori particolari, rilevati da alcune ricerche diagnositiche sulla base dati. Perciò, siccome il motore ewiki effettua solo una prova limitata, le pagine referenziate potrebbero non essere elencate. E\' comunque possibile ottenere l\'elenco completo tramite il pulsante Mostra tutti.';
+$string['removenotice'] = 'Attenzione: vengono elencate qui solo le pagine non referenziate (orfane), o con errori particolari, rilevati da alcune ricerche diagnostiche sulla base dati. Perciò, siccome il motore ewiki effettua solo una prova limitata, le pagine referenziate potrebbero non essere elencate. E\' comunque possibile ottenere l\'elenco completo tramite il pulsante Mostra tutti.';
 $string['removepagecheck'] = 'Sei sicuro di voler eliminare queste pagine?';
 $string['removepages'] = 'Elimina pagine';
 $string['removeselectedpages'] = 'Elimina pagine selezionate';

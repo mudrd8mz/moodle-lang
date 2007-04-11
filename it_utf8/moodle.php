@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 Beta + (2007021501)
+      // moodle.php - created with Moodle 1.8 (2007021501)
 
 
 $string['action'] = 'Azione';
@@ -677,8 +677,8 @@ $string['helpformatting'] = 'Aiuto formattazione testo';
 $string['helphtml'] = 'Come scrivere in html';
 $string['helpindex'] = 'Indice di tutti i file di aiuto';
 $string['helppicture'] = 'Come trasferire una immagine';
-$string['helpprefix'] = 'Aiuto per $a';
-$string['helpprefix2'] = 'Aiuto per $a';
+$string['helpprefix'] = 'Aiuto per <b>$a</b>';
+$string['helpprefix2'] = 'Aiuto per <b>$a</b>';
 $string['helpquestions'] = 'Come compilare le domande';
 $string['helpreading'] = 'Leggi attentamente ciò che hai scritto';
 $string['helprichtext'] = 'Informazioni sull\'editor HTML';
@@ -687,7 +687,7 @@ $string['helptext'] = 'Come scrivere del testo';
 $string['helpwiki'] = 'Come scrivere del testo Wiki';
 $string['helpwiththis'] = 'Aiuto per questo';
 $string['helpwriting'] = 'Scrivi con attenzione';
-$string['hiddenassign'] = 'Compito nascosto';
+$string['hiddenassign'] = 'Attribuzione nascosta';
 $string['hiddensections'] = 'Argomenti nascosti';
 $string['hiddensectionscollapsed'] = 'Le sezioni nascoste sono mostrate in modo compatto';
 $string['hiddensectionsinvisible'] = 'Le sezioni nascoste sono completamente invisibili';
@@ -1069,7 +1069,7 @@ $string['periodending'] = 'Termine periodo ($a)';
 $string['personalprofile'] = 'Profilo personale';
 $string['phone'] = 'Telefono';
 $string['phpinfo'] = 'Informazioni PHP';
-$string['pictureof'] = 'Immagine di $a';
+$string['pictureof'] = 'Immagine $a';
 $string['pleaseclose'] = 'Si prega ora di chiudere questa finestra.';
 $string['pluginsetup'] = 'Impostazione tabelle plugin';
 $string['policyagree'] = 'Per continuare ad usare questo sito, è necessario accettare le condizioni riportate.';
@@ -1090,6 +1090,7 @@ $string['previewhtml'] = 'Anteprima HTML';
 $string['previeworchoose'] = 'Anteprima o scegli tema';
 $string['previous'] = 'Precedente';
 $string['previoussection'] = 'Sezione precedente';
+$string['primaryadminsetup'] = 'Imposta account amministratore';
 $string['profile'] = 'Profilo';
 $string['publicdirectory'] = 'Directory pubblica';
 $string['publicdirectory0'] = 'Non pubbilcare questo sito';
