@@ -252,6 +252,7 @@ $string['incorrect'] = 'Incorrect';
 $string['indivresp'] = 'Réponses de chaque personne à toutes les questions';
 $string['info'] = 'Info';
 $string['introduction'] = 'Introduction';
+$string['invalidcategory'] = 'L\'identifiant de catégorie n\'est pas valide';
 $string['invalidnumericanswer'] = 'Une des réponses que vous avez donnée n\'était pas un nombre valide.';
 $string['invalidnumerictolerance'] = 'L\'une des tolérances que vous avez donnée n\'était pas un nombre valide.';
 $string['invalidsource'] = 'La source n\'est pas acceptée comme valable.';
