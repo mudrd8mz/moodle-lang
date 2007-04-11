@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 dev (2007021400)
+      // resource.php - created with Moodle 1.9 dev (2007041100)
 
 
 $string['addresource'] = '자료 추가';
@@ -9,6 +9,7 @@ $string['browserepository'] = '저장소 검색';
 $string['choose'] = '선택';
 $string['chooseafile'] = '업로드 파일 선택';
 $string['chooseparameter'] = '조건 선택';
+$string['clicktoopen'] = '문서를 열려면 이 링크를 클릭하세요:';
 $string['configallowlocalfiles'] = '새로운 파일 자료를 만들 때, CD 드라이브 또는 하드 드라이브와 같은 지역 파일 시스템의 파일 링크를 허락합니다.이것은 모든 학생들이 공통의 네트워크 드라이브에 접속하거나 CD 파일의 접속을 필요로 하는 강의실에서 유용할 것입니다. 이 기능을 사용하려면 브라우저의 보안 설정을 변경해야 할 것입니다.';
 $string['configautofilerenamesettings'] = '파일 관리에서 이름이 변경되면 자동적으로 파일과 경로의 참조가 갱신된다.';
 $string['configblockdeletingfilesettings'] = '자료에 의해 참조된 파일 및 경로들이 삭제 차단됨. HTML에 의해 참조된 그림과 다른 파일들이 보호되지 않았는지를 확인해 보십시오.';
@@ -33,7 +34,7 @@ $string['deploy'] = '배치';
 $string['deployall'] = '모두 배치';
 $string['directlink'] = '이 파일로 직접 링크하기';
 $string['directoryinfo'] = '선택된 디렉토리의 모든 파일들이 표시될 것입니다.';
-$string['display'] = '윈도우';
+$string['display'] = '표시창';
 $string['editingaresource'] = '자료 편집하기';
 $string['emptyfolder'] = '빈 폴더';
 $string['encryptedcode'] = '암호화된 코드';
@@ -48,6 +49,7 @@ $string['frameifpossible'] = '사이트 항해를 지켜보고 싶으면 틀에 
 $string['fulltext'] = '전체 내용';
 $string['htmlfragment'] = 'HTML 조각';
 $string['imspackageloaded'] = '팩키지 불러오기';
+$string['keepnavigationvisible'] = '진행경로 보이기';
 $string['localfile'] = '지역 파일';
 $string['localfilechoose'] = '지역 파일 선택(CD-ROM)';
 $string['localfilehelp'] = '지역 파일 표시 도움말';
