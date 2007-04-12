@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 Beta (2007020400)
+      // editor.php - created with Moodle 1.9 dev (2007041100)
 
 
 $string['about'] = 'エディタに関して';
@@ -17,13 +17,13 @@ $string['borderthickness'] = '線の太さ';
 $string['bottom'] = 'Bottom';
 $string['browse'] = '閲覧';
 $string['cancel'] = 'キャンセル';
-$string['cellpadding'] = 'Cellpadding';
-$string['cellspacing'] = 'Cellspacing';
+$string['cellpadding'] = 'セルパッディング';
+$string['cellspacing'] = 'セルスペーシング';
 $string['choosechar'] = 'キャラクタの選択';
 $string['chooseicon'] = '挿入するアイコンの選択';
 $string['close'] = '閉じる';
 $string['closeafterreplace'] = '置換後に閉じる';
-$string['cols'] = 'Cols';
+$string['cols'] = '列';
 $string['copy'] = '選択したものをコピーする';
 $string['createanchor'] = 'アンカーの作成';
 $string['createfolder'] = 'フォルダの作成';
@@ -102,14 +102,14 @@ $string['replaceall'] = 'すべてを置換';
 $string['replacewith'] = '置換';
 $string['right'] = 'Right';
 $string['righttoleft'] = '右 >> 左';
-$string['rows'] = '列';
+$string['rows'] = '行';
 $string['searchandreplace'] = '検索および置換';
 $string['searchnotfound'] = '検索ストリングが見つかりませんでした!';
 $string['selectcolor'] = '色の選択';
 $string['selection'] = '選択';
 $string['showhelp'] = 'エディタのヘルプ';
 $string['size'] = 'サイズ';
-$string['spacing'] = 'Spacing';
+$string['spacing'] = 'スペーシング';
 $string['strikethrough'] = '打ち消し線';
 $string['subscript'] = '下付き文字';
 $string['superscript'] = '上付き文字';
