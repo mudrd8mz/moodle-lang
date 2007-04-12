@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007021402)
+      // quiz.php - created with Moodle 1.9 dev (2007041100)
 
 
 $string['1day'] = '1日';
@@ -253,6 +253,7 @@ $string['incorrect'] = '不正解';
 $string['indivresp'] = '各問題に対する解答内容';
 $string['info'] = 'インフォメーション';
 $string['introduction'] = 'イントロダクション';
+$string['invalidcategory'] = 'カテゴリIDが正しくありません。';
 $string['invalidnumericanswer'] = 'あなたが入力した答えの1つが、有効な数値ではありません。';
 $string['invalidnumerictolerance'] = 'あなたが入力した許容誤差の1つが、有効な数値ではありません。';
 $string['invalidsource'] = 'ソースは有効ではありません。';
