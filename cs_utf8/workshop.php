@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.6 + (2006050506)
+      // workshop.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['absent'] = 'Chybí';
@@ -130,14 +130,14 @@ $string['listassessments'] = 'Seznam hodnocení';
 $string['listofallsubmissions'] = 'Seznam odevzdaných prací';
 $string['liststudentsassessments'] = 'Seznam hodnocení od studentů';
 $string['loadingforteacherassessments'] = 'Nahrávání hodnocení pro $a';
-$string['mail1'] = 'Vasi praci \'$a\' ohodnotil(a) ';
-$string['mail10'] = 'Stranku workshopu najdete zde ';
+$string['mail1'] = 'Vasi praci \'$a\' ohodnotil(a)';
+$string['mail10'] = 'Stranku workshopu najdete zde';
 $string['mail2'] = 'Komentare a znamku si muzete prohlednout na strance workshopu \'$a\'.';
 $string['mail3'] = 'Stranku workshopu najdete zde';
-$string['mail4'] = 'K vasi praci \'$a\' byl pridan komentar. Komentar vlozil(a) ';
+$string['mail4'] = 'K vasi praci \'$a\' byl pridan komentar. Komentar vlozil(a)';
 $string['mail5'] = 'Komentar si muzete prohlednout na strance workshopu \'$a\'.';
 $string['mail6'] = 'Vasemu hodnoceni prace \'$a\' byla pridelena znamka.';
-$string['mail7'] = 'Komentare hodnotitele si muzete prohlednout na strance workshopu ';
+$string['mail7'] = 'Komentare hodnotitele si muzete prohlednout na strance workshopu';
 $string['mail8'] = 'Praci $a jeji autor(ka) upravil(a).';
 $string['mail9'] = 'Provedte prosim hodnoceni prace na strance workshopu \'$a\'.';
 $string['managingassignment'] = 'Správa workshopu';
@@ -201,7 +201,7 @@ $string['phase1short'] = 'Nastavení';
 $string['phase2'] = 'Povolit odevzdávání prací';
 $string['phase2short'] = 'Odevzdávání';
 $string['phase3'] = 'Povolit odevzdávání a hodnocení prací';
-$string['phase3short'] = 'Odevzdávání a hodnocení ';
+$string['phase3short'] = 'Odevzdávání a hodnocení';
 $string['phase4'] = 'Povolit hodnocení';
 $string['phase4short'] = 'Hodnocení';
 $string['phase5'] = 'Ukázat konečné známky';
@@ -306,6 +306,8 @@ $string['weightforteacherassessments'] = 'Váha hodnocení prováděných učite
 $string['weights'] = 'Váhy';
 $string['weightsusedforfinalgrade'] = 'Váhy pro konečnou známku';
 $string['weightsusedforsubmissions'] = 'Váhy pro odevzdané práce';
+$string['workshop:manage'] = 'Spravovat nastavení';
+$string['workshop:participate'] = 'Účastnit se workshopu';
 $string['workshopagreedassessments'] = 'Odsouhlasená hodnocení workshopu';
 $string['workshopassessments'] = 'Hodnocení workshopu';
 $string['workshopcomments'] = 'Komentáře workshopu';
