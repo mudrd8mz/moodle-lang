@@ -1,9 +1,14 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.8 dev (2007011200)
+      // qtype_multichoice.php - created with Moodle 1.9 dev (2007041100)
 
 
 $string['addmorechoiceblanks'] = '여분의 선택란 작성';
 $string['answerhowmany'] = '정답의 갯수';
+$string['answernumbering'] = '답안 번호?';
+$string['answernumbering123'] = '1., 2., 3., ...';
+$string['answernumberingABC'] = 'A., B., C., ...';
+$string['answernumberingabc'] = 'a., b., c., ...';
+$string['answernumberingnone'] = '답안번호 없음';
 $string['answersingleno'] = '다답 허용';
 $string['answersingleyes'] = '단답만';
 $string['choiceno'] = '$a 번 선택';
