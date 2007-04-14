@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 (2007021501)
+      // admin.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['accessdenied'] = 'Accesso vietato';
@@ -378,7 +378,7 @@ $string['longtimewarning'] = '<b>Da notare che questo processo può durare molto
 $string['mail'] = 'Email';
 $string['maintfileopenerror'] = 'Errore aprendo i file di manutenzione!';
 $string['maintinprogress'] = 'Manutenzione in corso...';
-$string['managelang'] = '<b>Gestione</b>';
+$string['managelang'] = 'Gestione';
 $string['maxbytes'] = 'Dimensione massima files di upload';
 $string['maxeditingtime'] = 'Tempo massimo per l\'editing dei messaggi';
 $string['mbstringrecommended'] = 'Installare la libreria opzionale MBSTRING è caldamente consigliato per migliorare le prestazioni del sito, in particolare se il vostro sito supporta lingue non latine.';
@@ -451,8 +451,8 @@ $string['profilecategory'] = 'Categoria';
 $string['profilecategoryname'] = 'Nome categoria (deve essere unico)';
 $string['profilecategorynamenotunique'] = 'Nome categoria già in uso';
 $string['profilecommonsettings'] = 'Impostazioni comuni';
-$string['profileconfirmcategorydeletion'] = 'Ci sono <b>$a</b> campi in questa categoria che saranno spostati nella categoria superiore (o inferiore se nella categoria top).<br/>Vuoi ancora cancellare questa categoria?';
-$string['profileconfirmfielddeletion'] = 'Ci sono <b>$a</b> record utente per questo campo che saranno cancellati.<br/>Vuoi ancora cancellare questo campo?';
+$string['profileconfirmcategorydeletion'] = 'Ci sono $a campi in questa categoria che saranno spostati nella categoria superiore (o inferiore se nella categoria top).<br/>Vuoi ancora cancellare questa categoria?';
+$string['profileconfirmfielddeletion'] = 'Ci sono $a record utente per questo campo che saranno cancellati.<br/>Vuoi ancora cancellare questo campo?';
 $string['profilecreatecategory'] = 'Crea una nuova categoria profilo';
 $string['profilecreatefield'] = 'Crea un nuovo campo profilo:';
 $string['profilecreatenewcategory'] = 'Creazione di una nuova categoria';
@@ -462,8 +462,8 @@ $string['profiledefaultdata'] = 'Valore default';
 $string['profiledeletecategory'] = 'Cancellazione di una categoria';
 $string['profiledeletefield'] = 'Cancellazione di un campo';
 $string['profiledescription'] = 'Descrizione del campo';
-$string['profileeditcategory'] = 'Modifica categoria: <b>$a</b>';
-$string['profileeditfield'] = 'Modifica campo profilo: <b>$a</b>';
+$string['profileeditcategory'] = 'Modifica categoria: $a';
+$string['profileeditfield'] = 'Modifica campo profilo: $a';
 $string['profilefield'] = 'Campo profilo';
 $string['profilefieldmaxlength'] = 'Lunghezza massima';
 $string['profilefields'] = 'Campi profilo';

@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 Beta + (2007021501)
+      // role.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['addrole'] = 'Aggiungi un nuovo ruolo';
 $string['allow'] = 'Permetti';
 $string['allowassign'] = 'Permetti l\'attribuzione di ruoli';
 $string['allowoverride'] = 'Permetti la modifica dei ruoli';
+$string['assignglobalroles'] = 'Ruoli globali';
 $string['assignroles'] = 'Attribuisci ruoli';
 $string['blog:create'] = 'Crea un nuovo item di blog';
 $string['blog:manageentries'] = 'Modifica e gestisci gli item di blog';
@@ -57,6 +58,7 @@ $string['errorbadroleshortname'] = 'Nome ruolo non corretto';
 $string['errorexistsrolename'] = 'Nome ruolo già esistente';
 $string['errorexistsroleshortname'] = 'Nome ruolo già esistente';
 $string['existingusers'] = '$a utenti esistenti';
+$string['globalroleswarning'] = 'ATTENZIONE! Ogni ruolo che viene attribuito in questa pagina sarà applicato agli utenti specificati nell\'intero sito, inclusa la pagina principale e tutti i corsi.';
 $string['inherit'] = 'Eredita';
 $string['legacy:admin'] = 'RUOLO ORIGINARIO: Amministratore';
 $string['legacy:coursecreator'] = 'RUOLO ORIGINARIO: Creatore corsi';
@@ -71,6 +73,7 @@ $string['manageroles'] = 'Gestisci i ruoli';
 $string['metaassignerror'] = 'Non puoi assegnare questo ruolo all\'utente \"$a\" perché è necessaria la possibilità di gestione dei metacorsi.';
 $string['metaunassignerror'] = 'Il ruolo dell\'utente \"$a\" è stato riassegnato automaticamente. Se necessario disassegnare questo ruolo dai corsi dipendenti.';
 $string['nocapabilitiesincontext'] = 'Nessuna possibilità disponibile in questo contesto';
+$string['notset'] = 'Non impostato';
 $string['overrideroles'] = 'Modifica ruoli';
 $string['overrides'] = 'Modifiche';
 $string['permissions'] = 'Autorizzazioni';

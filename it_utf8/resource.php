@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8 Beta + (2007021400)
+      // resource.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['addresource'] = 'Aggiungi una risorsa';
@@ -9,6 +9,7 @@ $string['browserepository'] = 'Cerca nel repository';
 $string['choose'] = 'Scegli';
 $string['chooseafile'] = 'Scegli un file oppure caricane uno dal tuo computer';
 $string['chooseparameter'] = 'Scegli un parametro';
+$string['clicktoopen'] = 'Per aprire il documento, clicca su questo link:';
 $string['configallowlocalfiles'] = 'Quando si crea una risorsa di tipo \"Link a file o sito web\", questa impostazione consente di collegare file presenti sul lettore CD o sul disco fisso del computer dell\'utente. Può essere utile nelle classi dove gli studenti possono accedere ad un disco di rete oppure per accedere a file contenuti in un CD-ROM. L\'impiego di questa caratteristica potrebbe richiedere la modifica di impostazioni di sicurezza nel browser degli utenti.';
 $string['configautofilerenamesettings'] = 'Aggiorna automaticamente i collegamenti ai file ed alle cartelle quando file o cartelle vengono rinominati con il file manager.';
 $string['configblockdeletingfilesettings'] = 'Se desiderate impedire che vengano eliminati file o cartelle che risultino in uso da altre risorse, impostate questo valore a Sì. Tenete comunque presente che questa impostazione non può garantire che possano essere cancellati file e cartelle utilizzati da pagine html.';
@@ -53,7 +54,7 @@ $string['localfile'] = 'File nel computer dell\'utente';
 $string['localfilechoose'] = 'Scegli un file nel tuo computer (es. CD-ROM)';
 $string['localfilehelp'] = 'Aiuto su come visualizzare file presenti nei computer degli utenti';
 $string['localfileinfo'] = '<p>Scegli un file che risieda nel tuo computer. Il file non sarà  caricato sul server: Moodle cercherà  lo stesso file nei computer di coloro che visualizzeranno questa risorsa.</p><p>Questa possibilità è particolarmente utile quando si utilizzano media ingombranti memorizzati su CD-ROM distribuiti a tutti i partecipanti. Ogni partecipante potrà  scegliere il proprio percorso per accedere questi file <a href=\"$a\" target=\"_blank\">modificando il profilo utente</a>.</p>';
-$string['localfilepath'] = 'Per impostare il percorso che Moodle userà per trovare questa risorsa nel tuo computer, scegli un file qualsiasi (in genere su CD-ROM) che si trovi nella stesa cartella dove si trova il file utilzzato dalla risorsa. Il file che sceglierai non sarà  caricato nel server: saranno memorizzate solamente le informazioni relative alla posizione del file nel tuo computer. Queste informazioni saranno usate da tutte le risorse che usano file presenti nel tuo computer.';
+$string['localfilepath'] = 'Per impostare il percorso che Moodle userà per trovare questa risorsa nel tuo computer, scegli un file qualsiasi (in genere su CD-ROM) che si trovi nella stesa cartella dove si trova il file utilizzato dalla risorsa. Il file che sceglierai non sarà  caricato nel server: saranno memorizzate solamente le informazioni relative alla posizione del file nel tuo computer. Queste informazioni saranno usate da tutte le risorse che usano file presenti nel tuo computer.';
 $string['localfileselect'] = 'Scegli questo percorso di file.';
 $string['maindirectory'] = 'Cartella principale';
 $string['modulename'] = 'Risorsa';
@@ -71,7 +72,7 @@ $string['newresizable'] = 'la finestra può essere ridimensionata';
 $string['newscrollbars'] = 'visualizza le barre di scorrimento';
 $string['newstatus'] = 'visualizza la barra di stato';
 $string['newtoolbar'] = 'visualizza la barra degli strumenti';
-$string['newwidth'] = 'larghezza predefinta della finestra (in pixel)';
+$string['newwidth'] = 'larghezza predefinita della finestra (in pixel)';
 $string['newwindow'] = 'in una nuova finestra.';
 $string['newwindowopen'] = 'La risorsa sarà visualizzata in una nuova finestra del browser';
 $string['next'] = 'Successiva';
@@ -92,7 +93,7 @@ $string['pan'] = 'Bilanciamento';
 $string['parameter'] = 'Parametro';
 $string['parameters'] = 'Parametri';
 $string['popupresource'] = 'Questa risorsa dovrebbe apparire in una finestra popup';
-$string['popupresourcelink'] = 'Se la popup non é apparsa, fai click qui: $a';
+$string['popupresourcelink'] = 'Se la popup non è apparsa, fai click qui: $a';
 $string['preview'] = 'Anteprima';
 $string['previous'] = 'Precedente';
 $string['redeploy'] = 'Pubblica nuovamente';
@@ -124,7 +125,7 @@ $string['upbutton'] = 'Torna Su';
 $string['variablename'] = 'Nome della variabile';
 $string['viewims'] = 'Visualizza pacchetto IMS';
 $string['vol'] = 'Volume';
-$string['warningblockingdelete'] = 'Attenzione: la cancellazione è stata interrotta poichè esistono risorse che usano i file da cancellare. E\' necessario eliminare da queste risorse i riferimenti ai file che volete eliminare oppure chiedere all\'Amministratore di disattivare questo meccanismo di controllo nella configurazione del sistema.';
+$string['warningblockingdelete'] = 'Attenzione: la cancellazione è stata interrotta poiché esistono risorse che usano i file da cancellare. E\' necessario eliminare da queste risorse i riferimenti ai file che volete eliminare oppure chiedere all\'Amministratore di disattivare questo meccanismo di controllo nella configurazione del sistema.';
 $string['warningdisabledrename'] = 'Attenzione: l\'aggiornamento automatico dei nomi dei file presenti all\'interno delle risorse è disabilitato. Se necessario, aggiornare manualmente le risorse interessate. L\'Amministratore può anche abilitare il l\'aggiornamento automatico dei nomi dei file nella configurazione globale delle Risorse.';
 
 ?>

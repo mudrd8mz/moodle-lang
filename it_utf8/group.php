@@ -1,15 +1,17 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 Beta + (2007021501)
+      // group.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['addgroupstogrouping'] = 'Aggiungi gruppo a raggruppamento';
 $string['adduserstogroup'] = 'Aggiungi/rimuovi utenti';
 $string['anygrouping'] = '[Nessun raggruppamento]';
+$string['backtogroups'] = 'Ritorna ai Gruppi';
 $string['cancel'] = 'Annulla';
 $string['createautomaticgrouping'] = 'Crea raggruppamento automatico';
 $string['creategroup'] = 'Crea gruppo';
 $string['creategrouping'] = 'Crea raggruppamento';
 $string['creategroupinselectedgrouping'] = 'Crea gruppo nel raggruppamento';
+$string['createorphangroup'] = 'Crea gruppo orfano';
 $string['databaseupgradegroups'] = 'La versione dei gruppi ora è <b>$a</b>';
 $string['defaultgroupdescription'] = 'Descrizione gruppo default';
 $string['defaultgroupingname'] = 'Raggruppamento';
@@ -33,6 +35,7 @@ $string['errorinvalidgroup'] = 'Errore, gruppo <b>$a</b> non valido';
 $string['errorinvalidgrouping'] = 'Errore, raggruppamento <b>$a</b> non valido';
 $string['errornotingrouping'] = 'Spiacente, non puoi creare un gruppo in <b>$a</b>';
 $string['errornotingroupingedit'] = 'Spiacente, non puoi modificare raggruppamento <b>$a</b>';
+$string['existingmembers'] = 'Membri esistenti: <b>$a</b>';
 $string['group'] = 'Gruppo';
 $string['groupdescription'] = 'Decrizione gruppo';
 $string['groupfor'] = 'per gruppo';
@@ -52,6 +55,7 @@ $string['groupmode'] = 'Modalità gruppo';
 $string['groupmodeforce'] = 'Forza modalità gruppo';
 $string['groupmy'] = 'Mio gruppo';
 $string['groupname'] = 'Nome gruppo';
+$string['groupnameexists'] = 'Il nome di gruppo \'<b>$a</b>\' è già esistente in questo corso, scegline un altro.';
 $string['groupnotamember'] = 'Spiacente non sei un membro di quel gruppo';
 $string['groups'] = 'Gruppi';
 $string['groupsinselectedgrouping'] = 'Gruppi nel raggruppamento';
@@ -65,6 +69,7 @@ $string['newpicture'] = 'Nuova immagine';
 $string['notingrouping'] = '[Non in raggruppamento]';
 $string['numberofgroups'] = 'Numero di gruppi';
 $string['numberofstudents'] = 'Numero di studenti';
+$string['potentialmembers'] = 'Membri potenziali: <b>$a</b>';
 $string['prefixforgroupnames'] = 'Prefisso per i nomi del gruppo';
 $string['printerfriendly'] = 'Versione stampabile';
 $string['removegroupfromselectedgrouping'] = 'Rimuovi gruppo dal raggruppamento';

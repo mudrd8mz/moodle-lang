@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 Beta + (2007021501)
+      // forum.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
@@ -20,6 +20,7 @@ $string['blockafter'] = 'Limite messaggi per il blocco';
 $string['blockperiod'] = 'Periodo di tempo per il blocco';
 $string['blockperioddisabled'] = 'Non bloccare';
 $string['bynameondate'] = 'di $a->name - $a->date';
+$string['cannotadddiscussion'] = 'L\'aggiunta di discussioni a questo forum richiede l\'appartenenza a un gruppo.';
 $string['cannotviewpostyet'] = 'Non puoi leggere le domande degli altri studenti in questa discussione perché non hai ancora inviato messaggi';
 $string['configcleanreadtime'] = 'L\'ora del giorno in cui vengono eliminati i vecchi messaggi dalla tabella \'lettura\'.';
 $string['configdisplaymode'] = 'La modalità predefinita di visualizzazione per le discussioni.';
