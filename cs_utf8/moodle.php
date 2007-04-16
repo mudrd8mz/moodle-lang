@@ -901,7 +901,7 @@ $string['newpassword'] = 'Nové heslo';
 $string['newpasswordfromlost'] = '<strong>POZNÁMKA:</strong> Vaše <strong>stávající heslo</strong> vám bude zasláno v <strong>druhém</strong> ze dvou e-mailů zaslaných v rámci procesu obnovy zapomenutého hesla. Než budete pokračovat, ujistěte se, že jste obdrželi své náhradní heslo.';
 $string['newpasswordtext'] = 'Zdravicko, vy budete asi $a->firstname, ze?
 
-Vase stare heslo na strankach \'$a->sitename\' bylo vymazano a bylo vam pridelelno nove docasne heslo. 
+Vase stare heslo na strankach \'$a->sitename\' bylo vymazano a bylo vam prideleno nove docasne heslo. 
 
 Pri prihlaseni nyni zadejte
 uzivatelske jmeno: $a->username
