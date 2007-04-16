@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8 Beta + (2007021400)
+      // form.php - created with Moodle 1.8 (2007021501)
 
 
 $string['addfields'] = '$a Felder zum Formular hinzufügen';
@@ -27,11 +27,12 @@ $string['nomethodforaddinghelpbutton'] = 'Es gibt keine Möglichkeit, einen Hilf
 $string['nonexistentformelements'] = 'Sie versuchen einen Hilfebutton zu einem nicht existierenden Formularelement hinzuzufügen: $a.';
 $string['optional'] = 'Optional';
 $string['requiredelement'] = 'Pflichtfeld';
-$string['requiredfield'] = 'Dies ist ein Pflichtfeld.';
+$string['revealpassword'] = 'Aufdecken';
 $string['security'] = 'Sicherheit';
 $string['showadvanced'] = 'Zusätzliche Felder anzeigen';
 $string['somefieldsrequired'] = 'Die markierten Felder in diesem Formular sind Pflichtfelder. Diese müssen ausgefüllt werden.';
 $string['timing'] = 'Zeitsteuerung';
 $string['year'] = 'Jahr';
+$string['requiredfield'] = 'Dies ist ein Pflichtfeld.'; // ORPHANED
 
 ?>

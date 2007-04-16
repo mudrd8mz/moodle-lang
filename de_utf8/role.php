@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 Beta + (2007021401)
+      // role.php - created with Moodle 1.8 (2007021501)
 
 
 $string['addrole'] = 'Neue Rolle hinzufügen';
 $string['allow'] = 'Erlauben';
 $string['allowassign'] = 'Rechte zur Rollenzuordnung';
 $string['allowoverride'] = 'Rechte zur Rollenänderung';
+$string['assignglobalroles'] = 'Globale Rollen zuweisen';
 $string['assignroles'] = 'Rollen zuweisen';
 $string['blog:create'] = 'Neue Blogeinträge erstellen';
 $string['blog:manageentries'] = 'Einträge bearbeiten und verwalten';
@@ -58,6 +59,7 @@ $string['errorbadroleshortname'] = 'Ungültiger Rollenname';
 $string['errorexistsrolename'] = 'Rollenname existiert bereits';
 $string['errorexistsroleshortname'] = 'Rollenname existiert bereits';
 $string['existingusers'] = '$a bestehende Nutzer/innen';
+$string['globalroleswarning'] = 'WARNUNG! Jede Rolle, die Sie von dieser Seite aus zuweisen, wird für die zugewiesenen Nutzer/innen und die gesamte Website angelegt, also für wirklich alle Kurse und die Startseite.';
 $string['inherit'] = 'Vererben';
 $string['legacy:admin'] = 'Basisrolle: Administration';
 $string['legacy:coursecreator'] = 'Basisrolle: Kursverwaltung';
@@ -72,6 +74,7 @@ $string['manageroles'] = 'Rollen verwalten';
 $string['metaassignerror'] = 'Diese Rolle kann nicht an \"$a\" zugewiesen werden, weil die Fähigkeit \"Metakurse verwalten\" dafür notwendig ist.';
 $string['metaunassignerror'] = 'Die Rolle von \"$a\" wurde automatisch wieder zugewiesen. Bitte löschen Sie die Zuweisung stattdessen in den übergeordneten Kursen.';
 $string['nocapabilitiesincontext'] = 'In diesem Kontext sind keine Fähigkeiten verfügbar';
+$string['notset'] = 'Nicht gesetzt';
 $string['overrideroles'] = 'Rollen überschreiben';
 $string['overrides'] = 'Überschreibungen';
 $string['permissions'] = 'Zugriffsrechte';

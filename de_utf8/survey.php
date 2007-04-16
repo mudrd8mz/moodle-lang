@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8 Beta + (2007021400)
+      // survey.php - created with Moodle 1.8 Beta + (2007021501)
 
 
 $string['actual'] = 'Tatsächlich';
@@ -144,6 +144,7 @@ Jede der folgenden 24 Aussagen fragt nach Ihren <b>bevorzugten (idealen)</b> Ler
 Es gibt keine \'richtigen\' oder \'falschen\' Antworten; wir sind nur an Ihrer Meinung interessiert. Wir versichern Ihnen, dass Ihre Antworten mit größtmöglicher Vertraulichkeit behandelt werden und keinen Einfluss auf die Beurteilung Ihres Lernerfolgs haben werden. <br />
 Wir werden Ihre Antworten sorgfältig durchdenken und daraus Schlüsse für die künftige Online-Präsentation dieses Themenbereichs ziehen. <br /> Herzlichen Dank!';
 $string['collespname'] = 'COLLES (bevorzugt)';
+$string['customintro'] = 'Einführungstext';
 $string['done'] = 'Erledigt';
 $string['download'] = 'Herunterladen';
 $string['downloadexcel'] = 'Daten als Excel-Tabelle herunterladen';

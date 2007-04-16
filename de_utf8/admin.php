@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 Beta + (2007021401)
+      // admin.php - created with Moodle 1.8 (2007021501)
 
 
 $string['accessdenied'] = 'Kein Zugriff';
@@ -77,7 +77,7 @@ $string['configdebug'] = 'Wenn Sie diese Funktion einschalten, werden die Fehler
 $string['configdebugdisplay'] = 'Wenn diese Einstellung aktiviert ist, werden Fehlermeldungen an die HTML-Seite weitergeleitet. Das ist praktisch, zerstört jedoch in der Regel XHTML, JS, Cookies und HTTP Header. Wenn diese Einstellung deaktiviert ist, werden Ausgaben an die Log-Dateien des Webservers weitergeleitet und ermöglicht ein besseres Debugging. Die PHP-Einstellung error_log gibt an, in an welche Log-Datei die Ausgabe gesendet wird.';
 $string['configdebugsmtp'] = 'Umfassende Debuginformation beim Versand von Email-Nachrichten an SMTP Server erstellen.';
 $string['configdefaultallowedmodules'] = 'Welche Module sollen in den Kursen der oben genannten Kategorie standardmäßig bei der Kurs-Einrichtung aktiviert sein?';
-$string['configdefaultcourseroleid'] = 'Nutzer/innen, die den Kurs betreten, erhalten automatisch diese Rolle zugewiesen.';
+$string['configdefaultcourseroleid'] = 'Nutzer/innen, die sich in einen Kurs einschreiben, erhalten automatisch diese Rolle zugewiesen.';
 $string['configdefaultrequestcategory'] = 'Von Nutzer/innen beantrage Kurse werden automatisch in diesem Kursbereich abgelegt.';
 $string['configdefaultrequestedcategory'] = 'Standardkursbereich, in dem beantragte Kurse angelegt werden.';
 $string['configdefaultuserroleid'] = 'Wer als Nutzer/in eingeloggt ist, erhält für die gesamte Website automatisch die hier angegebene Rolle zugewiesen, u.z. als Ergänzung zu jeder anderen Rollenzuweisung. Beachten Sie, dass Sie mit Ihrer Einstellung keine Konflikte mit anderen Rollen erzeugen. Standardmaßig ist die Gastrolle voreingestellt, was sicherstellt, dass alle Nutzer/innen auf der gesamten Website sinnvolle Dinge tun können (z.B. Arbeitsmaterialien ansehen, in Foren lesen, usw.)';
@@ -210,7 +210,7 @@ $string['courseoverview'] = 'Kursübersicht';
 $string['courserequests'] = 'Kursanfragen';
 $string['courses'] = 'Kurse';
 $string['coursesperpage'] = 'Kurse pro Seite';
-$string['creatornewroleid'] = 'Role des Kurserstellers in neuen Kursen.';
+$string['creatornewroleid'] = 'Rolle des Kurserstellers in neuen Kursen.';
 $string['cronclionly'] = 'cron-Ausführung nur über die Kommandozeile';
 $string['cronerrorclionly'] = 'Entschuldigung, der Internetzugriff auf diese Seite wurde durch den Admin ausgeschaltet.';
 $string['cronerrorpassword'] = 'Entschuldigung, Sie haben kein gültiges Kennwort für den Zugriff angegeben.';
@@ -272,7 +272,7 @@ $string['enabletrusttext'] = 'Trusted-Content System aktivieren';
 $string['environment'] = 'Serverinformationen';
 $string['environmenterrortodo'] = 'Sie müssen zunächst alle Probleme mit der Server-Konfiguration beheben, bevor Sie mit der Installation dieser Moodle-Version fortfahren können.';
 $string['environmenterrorupgrade'] = 'Achtung: Sie sollten die o.g. Probleme (Fehler) bzgl. Ihrer Servberkonfiguration lösen, bevor Sie mit dem Moodle-Upgrade fortsetzen. Wenn Sie das nicht tun, riskieren Sie Probleme, z.B. Datenverluste. Sind Sie sicher, dass Sie fortsetzen wollen?';
-$string['environmentok'] = 'Ihre Serverumgebung erfüllt die Mondestanforderungen.';
+$string['environmentok'] = 'Ihre Serverumgebung erfüllt die Mindestanforderungen.';
 $string['environmentrecommendinstall'] = 'sollte installiert und aktiviert sein.';
 $string['environmentrecommendversion'] = 'Version $a->needed wird empfohlen - aktuell ist $a->current installiert.';
 $string['environmentrequireinstall'] = 'muss installiert und aktiviert sein.';
@@ -473,7 +473,7 @@ $string['profilevisibleprivate'] = 'Sichtbar für Teilnehmer/innen';
 $string['protectusernames'] = 'Nutzernamen schützen';
 $string['proxyhost'] = 'Proxy-Server';
 $string['proxyport'] = 'Proxy-Port';
-$string['quarantinedir'] = 'Quarantäne-Verzeichnis';
+$string['quarantinedir'] = 'Quarantäne- Verzeichnis';
 $string['rcache'] = 'Cache-Speicher';
 $string['rcachettl'] = 'Cache-Speicher TTL';
 $string['releasenoteslink'] = 'Weitere Informationen über diese Version finden Sie online: <a target=\"_new\" href=\"$a\">Versionsinformation</a>';
@@ -543,7 +543,7 @@ $string['timezoneforced'] = 'Von der Website-Administration vorgegeben';
 $string['timezoneisforcedto'] = 'Für alle Nutzer/innen festlegen';
 $string['timezonenotforced'] = 'Nutzer/innen können die Zeitzone selber wählen';
 $string['tokenizerrecommended'] = 'Die Installation der PHP Tokenizer Erweiterung wird empfohlen. Dadurch wird die Moodle-Netzwerk-Funktionalität verbessert.';
-$string['unattendedoperation'] = 'Nicht durchgeführte Operation';
+$string['unattendedoperation'] = 'Unbeaufsichtigte Operation';
 $string['unbookmarkthispage'] = 'Lesezeichen zu dieser Seite entfernen';
 $string['unicoderecommended'] = 'Es wird empfohlen, alle Daten im Format Unicode UTF-8 zu speichern. Neuinstallationen sollten mit Datenbanken vorgenommen werden, die als Standardzeichensatz UTF-8 benutzen. Wenn Sie ein Upgrade durchführen, sollten Sie die UTF-8-Migration starten (Admin-Seite).';
 $string['unicoderequired'] = 'Es ist notwendig, alle Daten im Format Unicode UTF-8 zu speichern. Neuinstallationen müssen mit Datenbanken vorgenommen werden, die als Standardzeichensatz UTF-8 benutzen. Wenn Sie ein Upgrade durchführen, sollten Sie die UTF-8-Migration starten (Admin-Seite).';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // book.php - created with Moodle 1.4.3 (2004083130)
+      // book.php - created with Moodle 1.8 (2007021501)
 
 
 $string['addafter'] = 'Ein neues Kapitel hinzufügen';
@@ -21,6 +21,7 @@ $string['importingchapters'] = 'Kapitel in das Buch importieren';
 $string['maindirectory'] = 'Hauptverzeichnis';
 $string['modulename'] = 'Buch';
 $string['modulenameplural'] = 'Bücher';
+$string['navexit'] = 'Buch beenden';
 $string['navnext'] = 'Nächste';
 $string['navprev'] = 'Vorherige';
 $string['numbering'] = 'Kapitelnummerierung';

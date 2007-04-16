@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8 Beta + (2007021401)
+      // resource.php - created with Moodle 1.8 (2007021501)
 
 
 $string['addresource'] = 'Arbeitsmaterial hinzufügen';
@@ -9,6 +9,7 @@ $string['browserepository'] = 'Repository durchsuchen';
 $string['choose'] = 'Auswählen';
 $string['chooseafile'] = 'Datei wählen oder neu hochladen';
 $string['chooseparameter'] = 'Parameter auswählen';
+$string['clicktoopen'] = 'Klicken sie auf diesen Link, um das Dokument zur öffnen.';
 $string['configallowlocalfiles'] = 'Beim Erstellen neuer Arbeitsmaterialien können  Verlinkungen zu lokalen Dateisystemen, Festplatten oder CD-Laufwerken angelegt werden. Das ist sinnvoll, wenn in einem Schulungsraum alle Nutzer/innen Zugriff auf gemeinsame Netzwerkverzeichnisse oder CD-Laufwerke haben. Evtl. müssen Sie dafür aber Sicherheitseinstellungen des Browsers anpassen.';
 $string['configautofilerenamesettings'] = 'Referenzen zu Dateien und Verzeichnissen automatisch erneuern, wenn sie im Dateimanager umbenannt werden.';
 $string['configblockdeletingfilesettings'] = 'Block-Löschen von Dateien und Verzeichnissen, auf die von Arbeitsmaterialien verwiesen wird. Bitte beachten Sie, dass Bilder und andere in HTML eingebundene Dateien nicht geschützt sind.';

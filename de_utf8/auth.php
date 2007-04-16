@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8 Beta + (2007021401)
+      // auth.php - created with Moodle 1.8 (2007021501)
 
 
 $string['alternatelogin'] = 'Wenn Sie hier eine URL eingeben, wird diese als alternative Login-Seite  verwandt. Die Seite sollte ein Aktionsfeld (Button)auf <strong>\'$a\'</strong> enthalten und Eingabefelder für den <strong>Anmeldenamen</strong> und das <strong>Passwort</strong>.<br />Seien Sie sorgfältig bei der Eingabe der URL. Mit einer falschen URL schließen Sie sich selber vom Zugriff zur Seite aus.<br />Lassen Sie das Feld leer, um die Standardanmeldeseite zu verwenden.';
@@ -140,6 +140,8 @@ $string['auth_ldap_ldap_encoding'] = 'Geben Sie die Codierung desLDAP SErvers an
 $string['auth_ldap_ldap_encoding_key'] = 'LDAP Codierung';
 $string['auth_ldap_login_settings'] = 'Login-Einstellungen';
 $string['auth_ldap_memberattribute'] = 'Geben Sie die Mitgliedsoptionen an, wenn Nutzer/innen zu einer Gruppe gehören. Normalerweise \'member\'';
+$string['auth_ldap_memberattribute_isdn'] = 'Optional: Überschreib-Handlung für Mitgliedsattribut-Werte, entweder 0 oder 1';
+$string['auth_ldap_memberattribute_isdn_key'] = 'Mitgliedsattribut nutzt dn';
 $string['auth_ldap_memberattribute_key'] = 'Mitgliedsattribut';
 $string['auth_ldap_noconnect'] = 'LDAP-Modul kann keine Verbindung zum Server herstellen: $a';
 $string['auth_ldap_noconnect_all'] = 'LDAP-Modul kann keine Verbindung zu irgendeinem Server herstellen: $a';
@@ -148,6 +150,8 @@ $string['auth_ldap_objectclass'] = 'Filter für die Suche nach Nutzernamen. Norm
 $string['auth_ldap_objectclass_key'] = 'Objekt Class';
 $string['auth_ldap_opt_deref'] = 'Legt fest wie Aliasbezeichnungen bei der Suche behandelt werden. Wählen Sie einen der folgenden Werte: \"No\" (LDAP_DEREF_NEVER) or \"Yes\" (LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_opt_deref_key'] = 'Alias berücksichtigen';
+$string['auth_ldap_passtype'] = 'Format für neue oder geänderte Passworte auf LDAP-Server';
+$string['auth_ldap_passtype_key'] = 'Passwortformat';
 $string['auth_ldap_passwdexpire_settings'] = 'LDAP Passwortablaufeinstellung';
 $string['auth_ldap_preventpassindb'] = 'Wählen Sie ja, um Passwörter <b>nicht</b> in der Moodle-Datenbank zu speichern';
 $string['auth_ldap_preventpassindb_key'] = 'Kennwörter verbergen';
@@ -186,7 +190,7 @@ $string['auth_nntpnotinstalled'] = 'NNTP Authentifizierung kann nicht verwendet 
 $string['auth_nntpport'] = 'NNTP Serverport-Nummer. Normalerweise ist das 119.';
 $string['auth_nntpport_key'] = 'Port';
 $string['auth_nntptitle'] = 'NNTP-Server';
-$string['auth_nologindescription'] = 'Hilfsplugin, das das Login von Nutzern in das System verhindert den Mailversand verhindert. Kann zur <em>Abschaltung</em> von Nutzeraccounts verwandt werden.';
+$string['auth_nologindescription'] = 'Hilfsplugin, das einen Nutzer-Login in das System verhindert und den Mailversand verwirft. Das kann zur <em>Abschaltung</em> von Nutzer-Accounts verwandt werden.';
 $string['auth_nologintitle'] = 'Kein Login';
 $string['auth_nonedescription'] = 'Nutzer können sich anmelden und gültige Nutzer-Accounts erstellen, und zwar ohne Authentifizierung durch einen externen Server und ohne E-Mail-Bestätigung. Verwenden Sie diese Option vorsichtig, denken Sie an mögliche Sicherheits- und Administrationsprobleme.';
 $string['auth_nonetitle'] = 'Keine Authentifizierung';
@@ -249,6 +253,7 @@ $string['changepassword'] = 'Passwort-URL ändern';
 $string['changepasswordhelp'] = 'Hier können Sie eine Adresse angeben, unter der die Nutzer ihren Nutzernamen/Passwort ändern können, sofern sie dies vergessen haben. Diese Option wird den Nutzern als Schaltfläche auf der Anmeldungsseite angeboten. Wenn Sie dieses Feld leer lassen, wird die Option nicht angeboten.';
 $string['chooseauthmethod'] = 'Authentifizierungsmethode';
 $string['createpasswordifneeded'] = 'Passwort anlegen, falls erforderlich';
+$string['errorpasswordupdate'] = 'Fehler: Passwort konnte nicht geändert werden!';
 $string['forcechangepassword'] = 'Verbindliche Änderung des Passwortes';
 $string['forcechangepassword_help'] = 'Nutzer werden aufgefordert, ihr Passwort beim nächsten Login zu ändern';
 $string['forcechangepasswordfirst_help'] = 'Nutzer werden aufgefordert, ihr Passwort beim ersten Login zu ändern';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 Beta + (2007021401)
+      // moodle.php - created with Moodle 1.8 (2007021501)
 
 
 $string['action'] = 'Aktion';
@@ -765,7 +765,7 @@ $string['lastlogin'] = 'Zuletzt eingeloggt';
 $string['lastmodified'] = 'Zuletzt geändert';
 $string['lastname'] = 'Nachname';
 $string['lastyear'] = 'Letztes Jahr';
-$string['latestlanguagepack'] = 'Aktuelle Version des Sprachpakets auf moodle.org prüfen';
+$string['latestlanguagepack'] = 'Neuere Version des Sprachpakets bei moodle.org suchen';
 $string['latestnews'] = 'Neueste Nachrichten';
 $string['layouttable'] = 'Layout-Tabelle';
 $string['leavetokeep'] = 'Feld leer lassen, um das gegenwärtige Kennwort zu behalten';
@@ -1105,11 +1105,12 @@ $string['previewhtml'] = 'Vorschau im HTML-Format';
 $string['previeworchoose'] = 'Vorschau oder Auswahl eines Designs';
 $string['previous'] = 'Frühere';
 $string['previoussection'] = 'Vorheriger Bereich';
+$string['primaryadminsetup'] = 'Account für Hauptadmin';
 $string['profile'] = 'Profil';
 $string['publicdirectory'] = 'Öffentliches Verzeichnis';
-$string['publicdirectory0'] = 'Diese Website bitte nicht veröffentlichen';
-$string['publicdirectory1'] = 'Nur den Website-Namen veröffentlichen';
-$string['publicdirectory2'] = 'Nur den Website-Namen mit einem Link veröffentlichen';
+$string['publicdirectory0'] = 'Nein, diese Website bitte nicht veröffentlichen';
+$string['publicdirectory1'] = 'Ja, aber nur den Website-Namen veröffentlichen';
+$string['publicdirectory2'] = 'Ja, den Website-Namen mit einem Link veröffentlichen';
 $string['publicdirectorytitle'] = 'Aktuelle Seitenliste ansehen';
 $string['publicsitefileswarning'] = 'Achtung: Jeder kann auf die hier befindlichen Dateien herunterladen. <br />Die Dateien sind nicht vor einem Zugriff geschützt.';
 $string['question'] = 'Frage';
@@ -1122,20 +1123,20 @@ $string['recreatedcategory'] = 'Wiederhergestellter Kursbereich $a';
 $string['refresh'] = 'Aktualisieren';
 $string['refreshingevents'] = 'Termine aktualisieren';
 $string['registration'] = 'Moodle-Registrierung';
-$string['registrationcontact'] = 'Kontakt von \'außen\'/Öffentlichkeit';
-$string['registrationcontactno'] = 'Nein, kein Kontaktformular für Nutzer/innen dieser Website bereitstellen';
-$string['registrationcontactyes'] = 'Ja, ein Kontaktformular für Nutzer/innen dieser Website bereitstellen';
+$string['registrationcontact'] = 'Öffentliche Kontakte';
+$string['registrationcontactno'] = 'Nein, kein Kontaktformular bereitstellen';
+$string['registrationcontactyes'] = 'Ja, ein Kontaktformular für interessierte Nutzer/innen bereitstellen';
 $string['registrationemail'] = 'E-Mail-Benachrichtigungen';
 $string['registrationinfo'] = '<p>Diese Seite ermöglicht es Ihnen, Ihre Website auf moodle.org zu registrieren.
 Die Registrierung ist kostenlos.
-Der Hauptvorteil besteht darin, dass Sie in einer kleinen Mailingliste aufgenommen werden,
-um wichtige sicherheitsrelevante Informationen und Nachrichten über neue Versionen zu bekommen.</p>
-<p>Standardmäßig werden Ihre Informationen nicht veröffentlicht oder an dritte Personen weiterverkauft. Die einzigen Gründe, diese Informationen zu sammeln, sind Supportgründe sowie der Wunsch, ein statistisches Bild von der Moodle-Gemeinschaft als Gesamtheit aufzubauen.</p>
-<p>Wenn Sie Ihre Moodle-Seite registrieren wollen, können Sie den Seitennamen, das Land und die URL zur öffentlichen Liste der Moodle-Seiten hinzufügen.</p>
-<p>Jede neue Registrierung wird manuell geprüft, bevor sie zur Liste hinzugefügt wird. Sie können Ihre Registrierung (und Ihren Eintrag in der öffentlichen Liste) jederzeit aktualisieren, indem Sie dieses Formular erneut absenden.</p>';
-$string['registrationno'] = 'Nein, ich möchte keine E-Mails erhalten.';
-$string['registrationsend'] = 'Registrierungsinformation an moodle.org gesendet';
-$string['registrationyes'] = 'Ja, ich möchte wichtige sicherheitsrelevante Informationen und Nachrichten über neue Versionen erhalten';
+Der Vorteil besteht darin, dass Sie in einer Mailingliste aufgenommen werden,
+um sicherheitsrelevante Informationen und  Nachrichten über neue Versionen zu bekommen.</p>
+<p>Standardmäßig werden Ihre Informationen nicht veröffentlicht oder an dritte Personen weitergegeben. Die einzigen Gründe, diese Informationen zu sammeln, sind Supportaspekte sowie der Wunsch, ein Statistik von der Moodle-Community als Gesamtheit abzubilden.</p>
+<p>Wenn Sie Ihre Moodle-Website registrieren, können Sie den Seitennamen, das Land und die URL zur öffentlichen Liste der Moodle-Seiten hinzufügen.</p>
+<p>Jede neue Registrierung wird manuell geprüft, bevor sie zur Liste hinzugefügt wird. Sie können Ihre Registrierung (und den Eintrag in der öffentlichen Liste) jederzeit aktualisieren, indem Sie dieses Formular erneut absenden.</p>';
+$string['registrationno'] = 'Nein, ich möchte keine E-Mails erhalten';
+$string['registrationsend'] = 'Registrierung an moodle.org senden';
+$string['registrationyes'] = 'Ja, ich möchte wichtige Mitteilungen per E-Mail erhalten';
 $string['reject'] = 'Ablehnen';
 $string['remove'] = 'Löschen';
 $string['removeadmin'] = 'Administrator/in löschen';
@@ -1415,7 +1416,7 @@ $string['unlimited'] = 'Unbegrenzt';
 $string['unpacking'] = 'Entpacke $a';
 $string['unsafepassword'] = 'Unsicheres Kennwort - wählen Sie ein anderes!';
 $string['untilcomplete'] = 'Bis zum Abschluss des Prozesses';
-$string['unusedaccounts'] = 'Moodlezugänge, die mehr als $a Tage lang nicht benutzt wurden, werden automatisch gelöscht.';
+$string['unusedaccounts'] = 'Kurszugänge werden automatisch gelöscht, wenn mehr als $a Tage lang nicht benutzt wurden.';
 $string['unzip'] = 'Entpacken';
 $string['unzippingbackup'] = 'Sicherung entpacken';
 $string['up'] = 'Aufwärts';

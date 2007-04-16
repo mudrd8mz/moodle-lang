@@ -1,15 +1,17 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 Beta + (2007021401)
+      // group.php - created with Moodle 1.8 (2007021501)
 
 
 $string['addgroupstogrouping'] = 'Gruppe zur Gruppierung hinzufügen';
 $string['adduserstogroup'] = 'Nutzer/innen verwalten';
 $string['anygrouping'] = '[Jede Gruppierung]';
+$string['backtogroups'] = 'Zurück zu Gruppen';
 $string['cancel'] = 'Abbrechen';
 $string['createautomaticgrouping'] = 'Automatische Gruppierung anlegen';
 $string['creategroup'] = 'Gruppe anlegen';
 $string['creategrouping'] = 'Gruppierung anlegen';
 $string['creategroupinselectedgrouping'] = 'Gruppe in der Gruppierung anlegen';
+$string['createorphangroup'] = 'Einzelne Gruppe';
 $string['databaseupgradegroups'] = 'Die Gruppenversion ist jetzt $a';
 $string['defaultgroupdescription'] = 'Voreingestellte Gruppenbeschreibung';
 $string['defaultgroupingname'] = 'Gruppierung';
@@ -33,6 +35,7 @@ $string['errorinvalidgroup'] = 'Fehler: Ungültige Gruppe $a';
 $string['errorinvalidgrouping'] = 'Fehler: Ungültige Gruppierung $a';
 $string['errornotingrouping'] = 'Entschuldigung, aber Sie können keine Gruppe in $a anlegen';
 $string['errornotingroupingedit'] = 'Entschuldigung, aber Sie können die Gruppierung $a nicht bearbeiten';
+$string['existingmembers'] = 'Vorhandene Mitglieder: $a';
 $string['group'] = 'Gruppe';
 $string['groupdescription'] = 'Gruppenbeschreibung';
 $string['groupfor'] = 'für die Gruppe';
@@ -52,6 +55,7 @@ $string['groupmode'] = 'Gruppenmodus';
 $string['groupmodeforce'] = 'Gruppenmodus modulübergreifend erzwingen';
 $string['groupmy'] = 'Meine Gruppe';
 $string['groupname'] = 'Gruppenname';
+$string['groupnameexists'] = 'Der Gruppenname \'$a\' existiert in diesem Kurs bereits, wählen Sie bitte einen anderen.';
 $string['groupnotamember'] = 'Entschuldigung, aber Sie sind nicht Mitglied dieser Gruppe';
 $string['groups'] = 'Gruppen';
 $string['groupsinselectedgrouping'] = 'Gruppen in der Gruppierung';
@@ -65,6 +69,7 @@ $string['newpicture'] = 'Neues Bild';
 $string['notingrouping'] = '[Nicht in einer Gruppierung]';
 $string['numberofgroups'] = 'Anzahl der Gruppen';
 $string['numberofstudents'] = 'Anzahl der Teilnehmer/innen';
+$string['potentialmembers'] = 'Mögliche Mitglieder: $a';
 $string['prefixforgroupnames'] = 'Prefix für Gruppennamen';
 $string['printerfriendly'] = 'Druckansicht';
 $string['removegroupfromselectedgrouping'] = 'Gruppe aus der Gruppierung entfernen';

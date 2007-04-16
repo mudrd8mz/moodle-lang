@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 dev (2007012500)
+      // glossary.php - created with Moodle 1.8 (2007021501)
 
 
 $string['addcomment'] = 'Kommentar einfügen';
@@ -53,7 +53,7 @@ $string['concepts'] = 'Begriffe';
 $string['configenablerssfeeds'] = 'RSS-Feeds für Glossare aktivieren.';
 $string['currentglossary'] = 'Aktuelles Glossar';
 $string['dateview'] = 'Anzeige nach Datum';
-$string['defaultapproval'] = 'Automatisches Zulassen von Einträgen';
+$string['defaultapproval'] = 'Beiträge ohne Prüfung freigeben';
 $string['definition'] = 'Definition';
 $string['definitions'] = 'Definitionen';
 $string['deleteentry'] = 'Eintrag löschen';
@@ -92,6 +92,7 @@ $string['entryusedynalink'] = 'Eintrag automatisch verlinken';
 $string['errcannoteditothers'] = 'Sie dürfen keine fremden Einträge bearbeiten.';
 $string['errconceptalreadyexists'] = 'Diesen Begriff gibt es bereits. In diesem Glossar sind keine Doppeleinträge möglich.';
 $string['erredittimeexpired'] = 'Die Bearbeitungszeit für diesen Eintrag wurde überschritten.';
+$string['errorparsingxml'] = 'Es sind Fehler bei der Analyse der Datei aufgetreten. Stellen Sie sicher, dass die  XML-Syntax zulässig ist.';
 $string['explainaddentry'] = 'Fügt einen neuen Eintrag ins Glossar ein. <br /> Begriff und Definition sind Pflichtfelder.';
 $string['explainall'] = 'Zeigt alle Einträge des Glossars auf einer Seite';
 $string['explainalphabet'] = 'Sie können das Glossar unter Verwendung des Index durchsuchen.';
@@ -125,6 +126,7 @@ $string['importcategories'] = 'Kategorien importieren';
 $string['importedcategories'] = 'Importierte Kategorien';
 $string['importedentries'] = 'Importierte Einträge';
 $string['importentries'] = 'Einträge importieren';
+$string['importentriesfromxml'] = 'Einträge aus XML-Datei importieren';
 $string['isglobal'] = 'Globales Glossar';
 $string['linkcategory'] = 'Kategorie automatisch verlinken';
 $string['linking'] = 'Auto-Verlinkung';
