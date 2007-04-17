@@ -229,7 +229,7 @@ $string['auth_shib_instructions_help'] = 'Veuillez indiquer ici les instructions
 $string['auth_shib_instructions'] = 'Utilisez la <a href=\"$a\">connexion Shibboleth</a> pour accéder via Shibboleth, si votre institution le permet.<br />Sinon, utilisez la connexion standard de ce formulaire.';
 $string['auth_shib_only_description'] = 'Cocher cette option pour imposer l\'authentiication Shibboleth';
 $string['auth_shib_only'] = 'Seulement Shibboleth';
-$string['auth_shib_username_description'] = 'Nom de la variable d\'environement du serveur web Shibboleth à utiliser comme nom d\'utilisateur Moodle';
+$string['auth_shib_username_description'] = 'Nom de la variable d\'environnement du serveur web Shibboleth à utiliser comme nom d\'utilisateur Moodle';
 $string['auth_shibboleth_login'] = 'Connexion Shibboleth';
 $string['auth_shibboleth_manual_login'] = 'Connexion manuelle';
 $string['auth_shibbolethdescription'] = 'Cette méthode permet de créer et d\'authentifier des utilisateurs par l\'intermédiaire d\'un serveur <a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth</a>.<br />Veuillez lire attentivement le fichier <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> pour apprendre comment configurer Moodle pour authentification Shibboleth';
