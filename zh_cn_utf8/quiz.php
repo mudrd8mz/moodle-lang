@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7.1+ (2006101011)
+      // quiz.php - created with Moodle 1.7.2 + (2006101020)
 
 
 $string['1day'] = '一天';
@@ -251,6 +251,7 @@ $string['incorrect'] = '错误';
 $string['indivresp'] = '每条的个人回复';
 $string['info'] = '信息';
 $string['introduction'] = '介绍';
+$string['invalidcategory'] = '类别ID非法';
 $string['invalidnumericanswer'] = '您录入的答案之一不是有效的数字。';
 $string['invalidnumerictolerance'] = '您录入的容错误差之一不是有效的数字。';
 $string['invalidsource'] = '源无效没有接受。';
