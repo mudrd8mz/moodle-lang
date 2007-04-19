@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007032200)
+      // moodle.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['action'] = '操作';
@@ -1012,12 +1012,12 @@ $string['notenrolledprofile'] = 'コースに登録されていないため、�
 $string['noteuserschangednonetocourse'] = '注意:ユーザデータをリストアする場合、コースユーザをリストアする必要があります。あなたの設定が変更されました。';
 $string['nothingnew'] = '最終ログインより更新されたものはありません。';
 $string['nothingtodisplay'] = '表示するデータはありません。';
-$string['noticenewerbackup'] = 'このバックアップファイルは、現在インストールされているMoodle $a->serverrelease ($a->serverversion) よりも新しいバージョンMoodle $a->backuprelease ($a->backupversion) により作成されました。旧バージョンへの互換性が保障されないため、バックアップデータの矛盾を生じる恐れがあります。';
+$string['noticenewerbackup'] = 'このバックアップファイルは、現在インストールされているMoodle $a->serverrelease ($a->serverversion) より新しいバージョンMoodle $a->backuprelease ($a->backupversion) により作成されました。旧バージョンへの互換性が保障されないため、バックアップデータの矛盾を生じる恐れがあります。';
 $string['notifications'] = '通知';
 $string['notify'] = '通知';
-$string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, ユーザ: $a->info';
-$string['notifyloginfailuresmessageend'] = 'ログは、$a/course/log.php?id=1&chooselog=1&modid=site_errors で閲覧できます。';
-$string['notifyloginfailuresmessagestart'] = '$a における前回通知以降のログイン失敗一覧です。';
+$string['notifyloginfailuresmessage'] = '$a->time  IP: $a->ip  ユーザ: $a->info';
+$string['notifyloginfailuresmessageend'] = 'これらのログは $a/course/log.php?id=1&chooselog=1&modid=site_errors で閲覧可能です。';
+$string['notifyloginfailuresmessagestart'] = '前回の通知以降の $a におけるログイン失敗一覧です。';
 $string['notifyloginfailuressubject'] = '$a :: ログイン失敗通知';
 $string['notincluded'] = 'バックアップ対象外';
 $string['notingroup'] = '申し訳ございません、この活動を閲覧するためにはグループに属している必要があります。';

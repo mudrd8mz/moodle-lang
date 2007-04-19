@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007041600)
+      // admin.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -90,6 +90,7 @@ $string['configeditorfontlist'] = 'エディタのドロップダウンリスト
 $string['configenableajax'] = 'ここでは、サイト全体におけるAJAX (Javaスクリプトを使用した高度なクライアント/サーバインターフェース) の使用をコントロールできます。この設定を有効にした場合、ユーザはプロフィールページでAJAXの使用を選択できます。この設定を無効にした場合、すべてのユーザでAJAXの使用が無効にされます。';
 $string['configenablecourserequests'] = 'すべてのユーザにコース作成のリクエストを許可します。';
 $string['configenableglobalsearch'] = 'ここでは、リソースおよび活動のグローバルテキストサーチを有効にします。この設定は、PHP4に互換性がありません。';
+$string['configenablehtmlpurifier'] = '信頼できないテキストのクリーニングに関して、KSESの代わりにHTML Purifierを使用します。HTML Purifierは活発に開発され、さらにセキュアだと考えられていますが、リソースに負荷がかかります。HTML Purifierでは、表示されるHTMLコードに若干の違いが生じると予想されます。embedおよobjectタグは有効にすることができません。また、MathMLタグおよび古いlangタグもサポートされませんので注意してください。';
 $string['configenablerssfeeds'] = 'ここでは、サイト全体からのRSSフィードを有効にします。実際に更新された情報を見たい場合、各モジュールのRSSフィード設定も有効にする必要があります - 管理ページにあるモジュール管理を確認してください。';
 $string['configenablerssfeedsdisabled'] = 'サイトすべてにおいてRSSフィードが利用不可にされているため、利用できません。管理メニュー内の詳細設定でRSSフィードを利用可にすることができます。';
 $string['configenablestats'] = 'この設定を「Yes」にした場合、Moodleのcronジョブはログを処理し、統計情報を集めます。あなたのサイトのトラフィックにより、しばらく時間がかかる場合があります。このオプションを有効にした場合、あなたの各コースまたはサイト全体に関する面白いグラフおよび統計を見ることができます。';
@@ -261,6 +262,7 @@ $string['editstrings'] = '翻訳ストリングの編集';
 $string['enableajax'] = 'AJAXを有効にする';
 $string['enablecourserequests'] = 'コースリクエストを有効にする';
 $string['enableglobalsearch'] = 'グローバルサーチを有効にする';
+$string['enablehtmlpurifier'] = 'HTML Purifierを有効にする';
 $string['enablerecordcache'] = 'レコードキャッシュを有効にする';
 $string['enablerssfeeds'] = 'RSSフィードを有効にする';
 $string['enablestats'] = '統計を有効にする';
