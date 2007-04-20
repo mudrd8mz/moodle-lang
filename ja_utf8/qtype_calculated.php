@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.9 dev (2007021500)
+      // qtype_calculated.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['addmoreanswerblanks'] = 'さらに答え入力欄を追加する';
@@ -23,6 +23,7 @@ $string['nodataset'] = 'なし - これはワイルドカードではありま�
 $string['nosharedwildcard'] = 'このカテゴリに共有ワイルドカードはありません。';
 $string['possiblehdr'] = '問題テキストの中のみのワイルドカード';
 $string['tolerance'] = '許容誤差 &plusmn;';
+$string['updatecategory'] = 'カテゴリを更新する';
 $string['usedinquestion'] = '問題で使用';
 $string['youmustenteramultiplierhere'] = 'ここには乗数を入力してください。';
 
