@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007040200)
+      // error.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -40,6 +40,14 @@ $string['invalidmd5'] = '無効なmp5ファイルです。';
 $string['invalidrequest'] = '無効なリクエストです。';
 $string['invalidrole'] = '無効なロールです。';
 $string['invalidxmlfile'] = '「 $a 」は有効なXMLファイルではありません。';
+$string['listcantmovedown'] = 'アイテムの下移動に失敗しました。これは最下位のアイテムです。';
+$string['listcantmoveleft'] = 'アイテムの左移動に失敗しました。親がありません。';
+$string['listcantmoveright'] = 'アイテムの右移動に失敗しました。子にするアイテムがありません。下に移動して他のアイテムの子にすることはできます。';
+$string['listcantmoveup'] = 'アイテムの上移動に失敗しました。これは最上位のアイテムです。';
+$string['listnochildren'] = '子アイテムが見つかりませんでした。';
+$string['listnoitem'] = 'アイテムが見つかりませんでした。';
+$string['listnopeers'] = '同レベルのアイテムが見つかりませんでした。';
+$string['listupdatefail'] = 'リスト階層の編集中にデータベースエラーが発生しました。';
 $string['loginasnoenrol'] = 'コース「ログイン」セッション時、あなたはユーザ登録および登録抹消することはできません。';
 $string['loginasonecourse'] = 'あなたはこのコースに入ることはできません。<br />他のコースに入る前に、現在の「ログイン」セッションを終了する必要があります。';
 $string['missingfield'] = '「 $a 」 を入力してください。';
