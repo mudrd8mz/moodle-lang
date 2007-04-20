@@ -21,6 +21,7 @@ $string['nodataset'] = 'rien - ce n\'est pas un caractère jocker';
 $string['nosharedwildcard'] = 'Pas de caractère jocker dans cette catégorie';
 $string['possiblehdr'] = 'Possible wild cards present only in the question text';
 $string['tolerance'] = 'Tolérance &plusmn;';
+$string['updatecategory'] = 'Modifier la catégorie';
 $string['usedinquestion'] = 'Utilisé dans la question';
 $string['youmustenteramultiplierhere'] = 'Vous devez saisir un multiplicateur dans ce champ.';
 
