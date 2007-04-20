@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.9 dev (2007021401)
+      // qtype_calculated.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['addmoreanswerblanks'] = '답안란 추가';
@@ -23,6 +23,7 @@ $string['nodataset'] = '없음 - 임의 자료가 아님';
 $string['nosharedwildcard'] = '범주내에 공유된 임의 문자가 없음';
 $string['possiblehdr'] = '문항의 지문에 있는 가능한 임의 카드 존재';
 $string['tolerance'] = '허용오차';
+$string['updatecategory'] = '범주 갱신';
 $string['usedinquestion'] = '질문에서 사용됨';
 $string['youmustenteramultiplierhere'] = '지수를 넣어야만 합니다.';
 

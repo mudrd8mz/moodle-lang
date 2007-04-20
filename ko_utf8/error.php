@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007040200)
+      // error.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 편집될 수 없음';
@@ -40,6 +40,14 @@ $string['invalidmd5'] = '잘못된 md5';
 $string['invalidrequest'] = '잘못된 요청';
 $string['invalidrole'] = '잘못된 역할';
 $string['invalidxmlfile'] = '\"$a\"는 정확한 XML 파일이 아닙니다.';
+$string['listcantmovedown'] = '마지막 항목이어서 항목을 아래로 옮기지 못 함.';
+$string['listcantmoveleft'] = '상위가 없어서 항목을 왼쪽으로 옮기지 못 함.';
+$string['listcantmoveright'] = '하위 항목으로 만들 항목이 없어서 항목을 오른쪽으로 옮길 수 없음. 주변의 하위 항목으로 이동하고 거기서 오른쪽으로 옮길 수 있음';
+$string['listcantmoveup'] = '첫번째 항목이므로 항목을 위로 옮길 수 없음.';
+$string['listnochildren'] = '항목의 하위를 찾지 못함';
+$string['listnoitem'] = '항목이 없음';
+$string['listnopeers'] = '항목의 동항이 없음';
+$string['listupdatefail'] = '위계 목록을 편집 중 DB 조작 실패';
 $string['loginasnoenrol'] = '배움터에서 타인명의로는 등록 또는 탈퇴를 할 수 없습니다.';
 $string['loginasonecourse'] = '이 배움터에 입장할 수 없습니다.<br />다른 배움터에 들어가기 전에 반드시 타인 명의로 로그인한 세션을 종료하여야 합니다.';
 $string['missingfield'] = '필드 \"$a\" 가 없음';

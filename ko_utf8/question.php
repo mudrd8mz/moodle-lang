@@ -1,10 +1,12 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 dev (2007021400)
+      // question.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['categorydoesnotexist'] = '이 범주는 존재하지 않습니다';
 $string['editingquestion'] = '질문 편집';
 $string['fractionsnomax'] = '이 질문에 대한 온전한 점수를 획득하게 하려면 답안 중 하나는 100%%를 주어야 합니다.';
+$string['makechildof'] = '\'$a\'의 하위 생성';
+$string['maketoplevelitem'] = '최 상위 단계로 이동';
 $string['missingimportantcode'] = '본 문항 유형은 다음과 같은 주요 코드가 없습니다: $a';
 $string['notenoughdatatoeditaquestion'] = '문항 아이디, 범주 아이디 및 문제 유형 등이 지정되지 않았습니다.';
 $string['questionbank'] = '문제은행';
