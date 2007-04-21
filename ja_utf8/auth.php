@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007040400)
+      // auth.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['alternatelogin'] = 'ここにURLを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong> フィールドおよび <strong>password</strong> フィールドをMoodleに渡してください。<br />間違ったURLを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合、空白のままにしてください。';
@@ -193,7 +193,7 @@ $string['auth_nologindescription'] = 'システムへのユーザログインを
 $string['auth_nologintitle'] = 'ログインなし';
 $string['auth_nonedescription'] = 'ユーザはログインして外部サーバおよびメールによる認証なしにアカウントを直ちに作成できます。このオプションを使用するときは十分に注意してください - セキュリティーおよび管理上の問題が発生するかもしれないことを考えてください。';
 $string['auth_nonetitle'] = '認証なし';
-$string['auth_pamdescription'] = 'この方式では、サーバのネイティブユーザ名にアクセスする手段としてPAMを使用します。このモジュールを使用するためには、<a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Authentication</a>がインストールされている必要があります。';
+$string['auth_pamdescription'] = 'この方式では、サーバのネイティブユーザ名にアクセスする手段としてPAMを使用します。このモジュールを使用するためには、<a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\">PHP4 PAM Authentication</a>がインストールされている必要があります。';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
 $string['auth_passwordisexpired'] = 'あなたのパスワードの有効期限が切れました。パスワードを変更しますか?';
 $string['auth_passwordwillexpire'] = 'あなたのパスワードの有効期限は、$a 日で切れます。パスワードを変更しますか?';
@@ -210,7 +210,7 @@ $string['auth_pop3title'] = 'POP3サーバ';
 $string['auth_pop3type'] = 'サーバタイプです。もし認証が必要な場合はpop3certを選択してください。';
 $string['auth_pop3type_key'] = 'タイプ';
 $string['auth_radiuschangepasswordurl_key'] = 'パスワード変更のURL';
-$string['auth_radiusdescription'] = 'このメソッドでは、与えられたユーザ名およびパスワードが有効かチェックするため <a href=\"http://en.wikipedia.org/wiki/RADIUS\" target=\"_blank\">RADIUS</a> サーバを使用します。';
+$string['auth_radiusdescription'] = 'このメソッドでは、与えられたユーザ名およびパスワードが有効かチェックするため、<a href=\"http://en.wikipedia.org/wiki/RADIUS\">RADIUS</a> サーバを使用します。';
 $string['auth_radiushost'] = 'RADIUSサーバのアドレス';
 $string['auth_radiushost_key'] = 'ホスト';
 $string['auth_radiusnasport'] = '接続に使用するポート';
@@ -225,7 +225,7 @@ $string['auth_remove_user'] = '外部ソースからユーザが削除された�
 $string['auth_remove_user_key'] = '削除された外部ユーザ';
 $string['auth_shib_changepasswordurl'] = 'パスワード変更のURL';
 $string['auth_shib_convert_data'] = 'データ修正API';
-$string['auth_shib_convert_data_description'] = 'Shibbolethから提供されるデータを修正したい場合にこのAPIを使うことができます。詳細は、<a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> をご覧ください。';
+$string['auth_shib_convert_data_description'] = 'あなたがShibbolethから提供されるデータを修正したい場合、このAPIを使うことができます。詳細は、<a href=\"../auth/shibboleth/README.txt\">README</a>をご覧ください。';
 $string['auth_shib_convert_data_warning'] = 'ファイルが存在しないか、ウェブプロセスで読み取れません!';
 $string['auth_shib_instructions'] = 'あなたの機関がShibbolethをサポートしている場合、Shibboleth経由のアクセスには、<a href=\"$a\">Shibbolethログイン</a>を使用してください。 <br />Shibbolethをサポートしていない場合は、ここに表示される通常ログインを使用してください。';
 $string['auth_shib_instructions_help'] = 'Shibbolethに関してユーザに提示する説明文です。 これはログインページの説明セクションに表示されます。Shibbolethユーザが簡単にログインできるよう「<b>$a</b>」 のようなリンクを入れてください。';
@@ -234,7 +234,7 @@ $string['auth_shib_only_description'] = 'Shibboleth認証を強制する場合�
 $string['auth_shib_username_description'] = 'Moodleユーザ名として使用されるShibbolethウェブサーバ環境のユーザ名';
 $string['auth_shibboleth_login'] = 'Shibbolethログイン';
 $string['auth_shibboleth_manual_login'] = '手動ログイン';
-$string['auth_shibbolethdescription'] = 'この方法を使用すると、ユーザは<a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth</a>を使用して作成および認証されます。<br />あなたが使用しているMoodleにShibbolethを設定するには、<a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> をご覧ください。';
+$string['auth_shibbolethdescription'] = 'この方法を使用すると、<a href=\"http://shibboleth.internet2.edu/\">Shibboleth</a>を使用して、ユーザが作成および認証されます。<br />あなたが使用しているMoodleにShibbolethを設定するには、<a href=\"../auth/shibboleth/README.txt\">README</a> をご覧ください。';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_sync_script'] = 'Cron同期化スクリプト';
 $string['auth_updatelocal'] = 'ローカルデータの更新';
