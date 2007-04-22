@@ -1056,6 +1056,7 @@ $string['phpinfo'] = 'Info PHP';
 $string['pictureof'] = 'Image de $a';
 $string['pleaseclose'] = 'Veuillez maintenant fermer cette fenêtre.';
 $string['pluginsetup'] = 'Mise en place des tables de plug-ins';
+$string['policyaccept'] = 'Je comprends et je me déclare d\'accord';
 $string['policyagree'] = 'Vous devez accepter de vous conformer à ce règlement pour continuer à utiliser ce site. Acceptez-vous le règlement&nbsp;?';
 $string['policyagreement'] = 'Règlement du site';
 $string['policyagreementclick'] = 'Cliquer ici pour lire le règlement du site';
