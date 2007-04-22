@@ -1083,6 +1083,7 @@ $string['phpinfo'] = 'PHP情報';
 $string['pictureof'] = '$a の写真';
 $string['pleaseclose'] = 'このウィンドウを閉じてください。';
 $string['pluginsetup'] = 'プラグインテーブル設定中';
+$string['policyaccept'] = '内容を理解し、同意します。';
 $string['policyagree'] = 'このサイトを継続して使用するには、使用許諾に同意する必要があります。同意しますか?';
 $string['policyagreement'] = 'サイト使用許諾';
 $string['policyagreementclick'] = 'サイト使用許諾を読む';
