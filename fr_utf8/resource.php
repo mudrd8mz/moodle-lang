@@ -77,7 +77,7 @@ $string['next'] = 'Suivant';
 $string['notallowedlocalfileaccess'] = 'L\'accès aux fichiers locaux est actuellement désactivé. Cette ressource n\'est donc pas disponible.';
 $string['notdeployed'] = 'Non déployé';
 $string['note'] = 'Remarque';
-$string['notefile'] = 'Pour déposer des fichiers dans le cours (afin qu\'ils apparaissent dans cette liste), utiliser le <a href=$a>Gestionnaire de fichiers</a>.';
+$string['notefile'] = 'Pour déposer des fichiers dans le cours (afin qu\'ils apparaissent dans cette liste), utiliser le <a href=\"$a\">Gestionnaire de fichiers</a>.';
 $string['notypechosen'] = 'Vous devez choisir un type. Utilisez le bouton « Retour » de votre navigateur et recommencez.';
 $string['packagechanged'] = 'Ce fichier IMS Content Package a été modifié.';
 $string['packagenotdeplyed'] = 'Ce fichier IMS Content Package n\'est pas déployé.';
