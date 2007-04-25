@@ -198,6 +198,7 @@ $string['filloutnumericalanswer'] = 'Vous devez fournir au moins une réponse po
 $string['filloutthreequestions'] = 'Vous devez fournir au moins trois propositions avec les réponses correspondantes.<br />Les propositions laissées vides ne seront pas prises en compte.';
 $string['fillouttwochoices'] = 'Vous devez donner au moins deux propositions.<br />Les propositions laissées vides ne seront pas prises en compte.';
 $string['finishattempt'] = 'Tout envoyer et terminer';
+$string['finishreview'] = 'Terminer la relecture';
 $string['forceregeneration'] = 'Forcer le rafraîchissement';
 $string['formatnotfound'] = 'Le format d\'importation/exportation $a n\'a pas été trouvé';
 $string['formatnotimplemented'] = 'Ce format n\'a pas été implémenté correctement';
