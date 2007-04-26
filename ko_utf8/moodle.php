@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007021400)
+      // moodle.php - created with Moodle 1.9 dev (2007042601)
 
 
 $string['action'] = '동작';
@@ -1057,6 +1057,7 @@ $string['phpinfo'] = 'PHP 정보';
 $string['pictureof'] = '$a 사진';
 $string['pleaseclose'] = '이제 이 창을 닫기 바랍니다.';
 $string['pluginsetup'] = '플러그인 테이블 설정';
+$string['policyaccept'] = '약관을 이해하였으며 이에 동의합니다.';
 $string['policyagree'] = '이 사이트를 계속 이용하시려면 약관에 동의하셔야 합니다. 동의하십니까?';
 $string['policyagreement'] = '사이트 약관';
 $string['policyagreementclick'] = '사이트의 약관을 보시려면 여기를 누르세요';

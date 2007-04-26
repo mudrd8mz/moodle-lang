@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007041100)
+      // quiz.php - created with Moodle 1.9 dev (2007042601)
 
 
 $string['1day'] = '하루';
@@ -199,6 +199,7 @@ $string['filloutoneanswer'] = '적어도 하나의 답을 작성해야 합니다
 $string['filloutthreequestions'] = '적절한 답안과 함께 적어도 3개의 질문을 작성해야 합니다. 질문 없이 답만 제시함으로써 특정 오답을 제공할 수도 있습니다. 질문과 답안이 없이 공백인 곳은 무시됩니다.';
 $string['fillouttwochoices'] = '적어도 2개의 답안을 작성해야 합니다. 빈칸으로 남겨진 답안은 사용되지 않습니다.';
 $string['finishattempt'] = '모두 제출하고 끝냄';
+$string['finishreview'] = '검토 마침';
 $string['forceregeneration'] = '다시 생성';
 $string['formatnotfound'] = '$a 형식에 대한 가져오기/내보내기를 찾을 수 없습니다.';
 $string['formatnotimplemented'] = '이 형식은 정확하게 구현되지 않았습니다. 버그 보고서를 제출하기 바랍니다.';

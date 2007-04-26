@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007041800)
+      // admin.php - created with Moodle 1.9 dev (2007042601)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -140,6 +140,11 @@ $string['configmaxevents'] = '보일 최대 행사';
 $string['configmemcachedhosts'] = '메모리캐쉬용. memchace데몬이 구동되는 호스트의 목록을 쉼표로 구분하여 적는다. DNS 지연을 막으려면 IP주소를 사용하도록 한다. 호스트가 구동 중일 때 memcached를 추가하거나 삭제할 경우 잘 작동하지 않는다.';
 $string['configmemcachedpconn'] = '메모리캐쉬용. 계속 연결을 사용. 주의해서 사용할 것 -- memcached 데몬을 재 가동시킨 후 아파치/PHP 가 작동하지 않을 수도 있다.';
 $string['configmessaging'] = '사이트 사용자들 간에 내부 메세지 시스템을 이용할 수 있게 할까요?';
+$string['configminpassworddigits'] = '비밀번호에 최소 여기에 제시된 수만큼의 숫자가 들어 있어야 합니다.';
+$string['configminpasswordlength'] = '비밀번호의 길이는 여기에 제시된 글자수 이상이어야 합니다.';
+$string['configminpasswordlower'] = '비밀번호에 최소 여기에 제시된 수만큼의 소문자가 들어 있어야 합니다.';
+$string['configminpasswordnonalphanum'] = '비밀번호에 최소 여기에 제시된 수만큼의 특수문자가 들어 있어야 합니다.';
+$string['configminpasswordupper'] = '비밀번호에 최소 여기에 제시된 수만큼의 대문자가 들어 있어야 합니다.';
 $string['configmymoodleredirect'] = '이 설정은 관리자가 아닌 사람이 로그인 할 때 강제적으로 /my 경로로 가게하고 /my 경로에 새로운 환경을 구성하도록 만든다.';
 $string['confignonmetacoursesyncroleids'] = '기본적으로 하위 배움터의 모든 출석은 메타코스와 동기화된다. 여기에서 선택된 역할들은 동기화 과정에 포함되지 않는다.';
 $string['confignoreplyaddress'] = '이메일은 때때로 사용자 자신에게 보내진다. 여기에 적은 이메일 주소는 발신자가 일일이 수신자로부터 답신을 받을 수 없는 경우에 사용되는 관리용 발신 전용의 주소이다. 
@@ -148,6 +153,7 @@ $string['confignotifyloginfailures'] = '로그인 실패 기록은 이메일을 
 $string['confignotifyloginthreshold'] = '로그인 실패에 대한 경고를 받는다면, 한 사람 또는 한 IP주소에 의한 로그인 실패 횟수가 얼마나 되야 통지할 필요가 있겠는가?';
 $string['confignotloggedinroleid'] = '사이트에 등록하지 않은 사용자들은 사이트의 관점에서 이 역할을 부여받았다고 가정하는 것이다. 손님계정은 언제나 당연히 인정하는 것이지만 그외에도 그 역할을 좀더 확대하거나 축소하길 원할 수도 있다. 게시물을 올린다던가 하는 일들은 여전히 정식으로 사용자가 등록을 해야만 가능하게 해 두어야 할 것이다.';
 $string['configopentogoogle'] = '이 설정을 체크해 놓으면 구글은 이 사이트에 손님계정으로 들어올 수 있게 된다. 또한, 구글서치를 통해서 들어오는 사람들도 자동적으로 손님 계정으로 로그인 될 것이다. 이미 손님계정의 방문을 허락한 곳이라면 구글은 아무 제한없이 투명하게 접속시킨다는 점을 유의하라.';
+$string['configpasswordpolicy'] = '이 기능을 켜 놓으면 암호부여 정책에 따라 사용자의 비밀번호가 유효한지 점검합니다. 암호부여 정책을 규정하기 위해 아래 내용을 설정하시오.(\'아니오\'를 선택하면 무시됩니다)';
 $string['configpathtoclam'] = 'clam AV의 경로. 대체로 리눅스 계열에서는 /usr/bin/clamscan 나 /usr/bin/clamdscan 가 될 것이다. clam AV를 실행하기 위해 경로를 정확히 지정해야 한다.';
 $string['configpathtodu'] = 'du의 경로. 대개 /usr/bin/du 가 된다. 만약 이를 설정해 놓는다면, 이 경로에 있는 내용들이 다른 많은 파일들이 들어있는 경로보다 빠르게 출력될 것이다.';
 $string['configperfdebug'] = '이 기능을 활성화시키면, 표준테마의 경우 맨 아랫단에 성능에 대한 정보가 나타날 것이다.';
@@ -389,6 +395,11 @@ $string['mediapluginwmv'] = 'wmv 필터 사용';
 $string['memcachedhosts'] = '메모리 캐쉬 호스트';
 $string['memcachedpconn'] = '메모리 캐쉬 상시 연결 사용';
 $string['messaging'] = '내부 쪽글 발송 가능';
+$string['minpassworddigits'] = '숫자';
+$string['minpasswordlength'] = '암호의 최소 길이';
+$string['minpasswordlower'] = '소문자';
+$string['minpasswordnonalphanum'] = '특수문자';
+$string['minpasswordupper'] = '대문자';
 $string['misc'] = '기타';
 $string['mnetrestore_extusers'] = '<strong>참고:</strong>이 백업파일에는 진행과정 중 복원될 수 있는 무들네트웍의 원격 사용자 계정 정보가 포함되어 있습니다.';
 $string['mnetrestore_extusers_mismatch'] = '<strong>참고:</strong> 이 백업파일은 현재와는 다른 무들 설정을 기반으로 작성되었고 복구에 실패할 지도 모르는 무들네트웍의 원격 사용자 계정 정보가 들어 있습니다. 만일 이것이 현재의 무들 설정을 기반으로 작성되었다고 확신하거나, 필요한 무들네트웍 설정이 완벽하다고 믿는다면, 복구를 시도할 수도 있을 것입니다.';
@@ -421,6 +432,7 @@ $string['order1'] = '첫번째';
 $string['order2'] = '두번째';
 $string['order3'] = '세번째';
 $string['order4'] = '네번째';
+$string['passwordpolicy'] = '암호부여 정책';
 $string['pathconvert'] = '<i>convert</i> 실행파일 경로';
 $string['pathdvips'] = '<i>dvips</i> 실행파일 경로';
 $string['pathlatex'] = 'LaTeX 실행파일 경로';

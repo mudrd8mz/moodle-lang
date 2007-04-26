@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007032200)
+      // auth.php - created with Moodle 1.9 dev (2007042601)
 
 
 $string['alternatelogin'] = '이 사이트를 위한 로그인 페이지로 사용할 URL을 입력. <strong>\'$a\'</strong> 처럼 실행문을 가진 형태여야 하고 <strong>사용자ID</strong>  <strong>password</strong> 그리고 Return 필드를 포함하여야 한다. 
@@ -263,6 +263,11 @@ $string['changepassword'] = '패스워드 URL 변경';
 $string['changepasswordhelp'] = '만약 사용자가 자신의 계정과 비밀번호를 잊어버리는 경우를 대비해 이곳에 계정과 비밀번호를 찾거나 혹은 바꿀 수 있는 장소를 지정해 줍니다. 이것은 로그인 페이지나 사용자 페이지에서 단추형식으로 제공되지만, 이곳을 빈칸으로 놓아둔다면 웹페이지에 단추가 나타나지 않습니다.';
 $string['chooseauthmethod'] = '인증 방법 선택';
 $string['createpasswordifneeded'] = '필요시 암호 생성';
+$string['errorminpassworddigits'] = '암호에는 최소 $a 개의 숫자가 포함되야 합니다.';
+$string['errorminpasswordlength'] = '암호길이는 최소 $a 문자 이상이라야 합니다.';
+$string['errorminpasswordlower'] = '암호에는 최소 $a 개의 소문자가 포함되야 합니다.';
+$string['errorminpasswordnonalphanum'] = '암호에는 최소 $a 개의 특수문자가 포함되야 합니다.';
+$string['errorminpasswordupper'] = '암호에는 최소 $a 개의 대문자가 포함되야 합니다.';
 $string['errorpasswordupdate'] = '비밀번호 갱신 오류. 비밀번호가 변경되지 않았습니다.';
 $string['forcechangepassword'] = '암호변경 강요';
 $string['forcechangepassword_help'] = '다음번 무들 로그인시 비밀번호를 바꿀 것을 사용자에게 요청합니다.';
