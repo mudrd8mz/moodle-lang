@@ -345,6 +345,7 @@ $string['langedit'] = 'Modification langue';
 $string['langimport'] = 'Utilitaire d\'importation de langues';
 $string['langimportsuccess'] = 'Le paquetage de langue a été correctement mis à jour';
 $string['langlist'] = 'Langues du menu des langues';
+$string['langnoeditenglish'] = 'Il n\'est pas possible d\'écraser le paquetage de langue de base en anglais. Veuillez changer de dossier de langue pour effectuer des changements locaux';
 $string['langmenu'] = 'Afficher le menu des langues';
 $string['langpackremoved'] = 'La désinstallation de la langue est terminée';
 $string['langpacks'] = 'Paquetages langue';
