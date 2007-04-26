@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007041100)
+      // quiz.php - created with Moodle 1.9 dev (2007042400)
 
 
 $string['1day'] = '1日';
@@ -199,6 +199,7 @@ $string['filloutoneanswer'] = '1つ以上の考えられる答えを入力して
 $string['filloutthreequestions'] = '組み合わせの答えがある問題を、少なくとも3つ入力してください。答えと空白の問題を使用して、誤答を余分に提供することもできます。問題と答え両方が空白のエントリは無視されます。';
 $string['fillouttwochoices'] = '2つ以上の選択を入力してください。空白は使用できません。';
 $string['finishattempt'] = 'すべてを送信して終了する';
+$string['finishreview'] = 'レビューを終了する';
 $string['forceregeneration'] = 'データを再生成する';
 $string['formatnotfound'] = 'インポート/エクスポートフォーマット $a が見つかりませんでした。';
 $string['formatnotimplemented'] = 'フォーマットが正しく実装されていません。バグレポートに投稿してください。';

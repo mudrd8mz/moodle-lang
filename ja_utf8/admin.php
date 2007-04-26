@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007041800)
+      // admin.php - created with Moodle 1.9 dev (2007042400)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -138,6 +138,11 @@ $string['configmaxevents'] = '直近イベント数';
 $string['configmemcachedhosts'] = 'memcached用の設定です。memcachedデーモンを動作させるホスト一覧をカンマで区切って入力してください。DNSの遅延を避けるためには、IPアドレスを使用してください。動作中のMoodleからホストを追加/削除すると、memcachedが正常に機能しない場合があります。';
 $string['configmemcachedpconn'] = 'memcached用の設定です。持続的接続を使用します。慎重に使用してください - memcachedデーモンのリスタート後にApache/PHPをクラッシュする可能性があります。';
 $string['configmessaging'] = 'サイトのユーザ間でメッセージシステムを利用できるようにしますか?';
+$string['configminpassworddigits'] = 'パスワードには、少なくともここで設定した数の数字を使用する必要があります。';
+$string['configminpasswordlength'] = 'パスワードは、少なくともここで設定した長さである必要があります。';
+$string['configminpasswordlower'] = 'パスワードには、少なくともここで設定した数の小文字を使用する必要があります。';
+$string['configminpasswordnonalphanum'] = 'パスワードには、少なくともここで設定した数の非英数字を使用する必要があります。';
+$string['configminpasswordupper'] = 'パスワードには、少なくともここで設定した数の大文字を使用する必要があります。';
 $string['configmymoodleredirect'] = 'この設定では、管理者以外のユーザがログインした後、 /my へ強制的にリダイレクトします。また、トップレベルのサイト・ブレッドクラムを /my に置き換えます。';
 $string['confignonmetacoursesyncroleids'] = 'デフォルトでは、子コースからのすべての受講登録は、メタコースに同期されます。ここで選択されたロールは、同期化処理に含まれません。';
 $string['confignoreplyaddress'] = 'Moodleでは、メールがユーザに送信される場合があります (例 フォーラムの投稿)。ここで設定するメールアドレスは、「From」に使用され、受信者が直接送信者に返信できないようにします (例 ユーザが個人のメールアドレスを隠す設定を行っている場合)。';
@@ -145,6 +150,7 @@ $string['confignotifyloginfailures'] = 'ログイン失敗が記録された場�
 $string['confignotifyloginthreshold'] = 'ログイン失敗の通知が有効の場合、同一ユーザまたはIPアドレスで何回ログインに失敗すると通知を送信しますか?';
 $string['confignotloggedinroleid'] = 'サイトにログインしていないユーザは、サイトのコンテクストで、このロールが割り当てられているかのように扱われます。ほとんどの場合、あなたがここで割り当てたいロールは「ゲスト」で十分ですが、権限を減らしたロールまたはさらに制限されたロールを作成することもできます。フォーラムへの投稿等は、ユーザが適切にログインする必要があります。';
 $string['configopentogoogle'] = 'この設定を有効にした場合、Googleはあなたのサイトにゲストとして入ることができます。さらにGoogleが自動的に記録したデータを元に、他の人がゲストとしてあなたのサイトにアクセスできます。これは、すでにゲストアクセスを許可しているコースのみに、透過アクセスを提供します。';
+$string['configpasswordpolicy'] = 'この設定を有効にすることで、Moodleはパスワードポリシーを基に、ユーザパスワードの妥当性をチェックします。あなたのポリシーを指定するため、下記設定を使用してください。この設定を無効にした場合、下記設定は無視されます。';
 $string['configpathtoclam'] = 'clam AVのパスを指定してください。おそらく /usr/bin/clamscan または /usr/bin/clamdscan のようになります。clam AVを正常に動作させるため、clam AVのパスを設定してください。';
 $string['configpathtodu'] = 'duのパスを指定してください。おそらく /usr/bin/du のようになります。duのパスを設定した場合、ディレクトリコンテンツを表示するページの表示速度は、多くのファイルを含んだディレクトリに関して、はるかに速くなります。';
 $string['configperfdebug'] = 'この設定を有効にした場合、パフォーマンス情報がスタンダードテーマのフッタに表示されます。';
@@ -381,6 +387,11 @@ $string['mediapluginwmv'] = '.wmvフィルタを有効にする';
 $string['memcachedhosts'] = 'memcachedホスト';
 $string['memcachedpconn'] = 'memcachedが持続的接続を使用する';
 $string['messaging'] = 'メッセージングシステムを有効にする';
+$string['minpassworddigits'] = '数字';
+$string['minpasswordlength'] = 'パスワード長';
+$string['minpasswordlower'] = '小文字';
+$string['minpasswordnonalphanum'] = '非英数字';
+$string['minpasswordupper'] = '大文字';
 $string['misc'] = 'その他';
 $string['mnetrestore_extusers'] = '<strong>注意:</strong> このバックアップファイルは、処理中にリストアされるMoodleネットワークユーザアカウントを含んでいます。';
 $string['mnetrestore_extusers_mismatch'] = '<strong>注意:</strong> このバックアップファイルは、他のMoodleで作成され、リストアできないMoodleネットワークユーザアカウントを含んでいます。この処理はサポートされていません。このバックアップファイルがこのMoodleでバックアップされたこと、または必要なすべてのMoodleネットワークホストが設定されていることをあなたが保証できる場合のみ、リストアを試みてください。';
@@ -412,6 +423,7 @@ $string['order1'] = '1番目';
 $string['order2'] = '2番目';
 $string['order3'] = '3番目';
 $string['order4'] = '4番目';
+$string['passwordpolicy'] = 'パスワードポリシー';
 $string['pathconvert'] = '<i>convert</i>バイナリのパス';
 $string['pathdvips'] = '<i>dvips</i>バイナリのパス';
 $string['pathlatex'] = '<i>latex</i>バイナリのパス';
