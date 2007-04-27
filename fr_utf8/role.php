@@ -79,6 +79,7 @@ $string['permissions'] = 'Permissions';
 $string['potentialusers'] = '$a utilisateurs potentiels';
 $string['prevent'] = 'Empêcher';
 $string['prohibit'] = 'Interdire';
+$string['question:config'] = 'Configurer les types de question';
 $string['question:export'] = 'Exporter des questions';
 $string['question:import'] = 'Importer des questions';
 $string['question:manage'] = 'Gérer les questions';
