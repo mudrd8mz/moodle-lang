@@ -462,6 +462,11 @@ $a->link
 Dans la plupart des logiciels de messagerie, cette adresse devrait apparaître comme un lien de couleur bleue qu\'il vous suffit de cliquer. Si cela ne fonctionne pas, copiez ce lien et collez-le dans la barre d\'adresse de votre navigateur web.
 
 Si vous avez besoin d\'aide, veuillez contacter l\'administrateur du site, $a->admin';
+$string['emailpasswordchangeinfodisabled'] = 'Bonjour,
+
+Quelqu\'un (probablement vous) a demandé un nouveau mot de passe pour votre compte sur « $a->sitename ».
+
+Malheureusement, votre compte sur ce site est déscativé et ne peut pas être réinitialisé.  Veuillez contacter l\'administrateur du site, $a->admin';
 $string['emailpasswordchangeinfofail'] = 'Bonjour,
 
 Quelqu\'un (probablement vous) a demandé un nouveau mot de passe pour votre compte sur « $a->sitename ».
