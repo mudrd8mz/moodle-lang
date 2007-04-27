@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007042400)
+      // admin.php - created with Moodle 1.9 dev (2007042700)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -350,6 +350,7 @@ $string['langimport'] = '言語インポートユーティリティ';
 $string['langimportsuccess'] = '言語パックが正常に更新されました。';
 $string['langlist'] = '言語メニューの言語';
 $string['langmenu'] = '言語メニューを表示する';
+$string['langnoeditenglish'] = 'ベースの英語言語パックを上書きすることはできません。使用言語を編集するには、言語ディレクトリに移動してください。';
 $string['langpackremoved'] = '言語パックのアンインストールが完了しました。';
 $string['langpacks'] = '言語パック';
 $string['langpackupdated'] = '言語パック $a が正常にインストールされました。';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007041800)
+      // moodle.php - created with Moodle 1.9 dev (2007042700)
 
 
 $string['action'] = '操作';
@@ -471,11 +471,16 @@ $a->link
 動作しない場合は、コピー&ペーストを使ってウェブブラウザ上部のアドレス欄に、このアドレスを入力してください。
 
 お分かりにならない場合は、サイト管理者 $a->admin にご連絡ください。';
+$string['emailpasswordchangeinfodisabled'] = 'こんにちは $a->lastname さん
+
+誰か (おそらくあなた) が、「 $a->sitename 」 のアカウントで新しいパスワードの作成を請求しました。
+
+残念ですが、このサイトであなたのアカウントは無効にされています。パスワードをリセットすることができません。サイト管理者 $a->admin にご連絡ください。';
 $string['emailpasswordchangeinfofail'] = 'こんにちは $a->lastname さん
 
 誰か (おそらくあなた) が、「 $a->sitename 」 のアカウントで新しいパスワードの作成を請求しました。
 
-残念ですが、このサイトではパスワードをリセットすることができませんので、サイト管理者 $a->admin にご連絡ください。';
+残念ですが、このサイトではパスワードをリセットすることができません。サイト管理者 $a->admin にご連絡ください。';
 $string['emailpasswordchangeinfosubject'] = '$a: パスワード変更情報';
 $string['emailpasswordconfirmation'] = 'こんにちは $a->lastname さん
 
@@ -493,7 +498,7 @@ $a->link
 $string['emailpasswordconfirmationsubject'] = '$a: パスワード変更の確認';
 $string['emailpasswordconfirmmaybesent'] = '<p>正しいユーザ名またはパスワードを入力した場合、あなたにメールが送信されています。</p>
 <p>送信されたメールには、パスワードの変更を確認および完了するため、簡単な説明が記載されています。パスワード変更作業が難しい場合、サイト管理者にご連絡ください。</p>';
-$string['emailpasswordconfirmsent'] = 'メールがあなたのアドレス <b>$a</b> 宛に送信されました。<br />送信されたメールにはパスワードの変更を確認・完了するための簡単な説明が書いてあります。問題がある場合はサイト管理者にご連絡ください。';
+$string['emailpasswordconfirmsent'] = 'メールがあなたのアドレス <b>$a</b> 宛に送信されました。<br />送信されたメールにはパスワードの変更を確認・完了するための簡単な説明が書いてあります。問題がある場合、サイト管理者にご連絡ください。';
 $string['emailpasswordsent'] = 'パスワードの変更確認ありがとうございます。
 <p>新しいパスワードが記載されたメールがあなたのメールアドレス<br /><b>$a->email</b>に送信されました。<br />新しいパスワードは自動的に生成されたものです - <a href=\"$a->link\">パスワードの変更</a> で覚えやすいものに変更することができます。';
 $string['enable'] = 'Yes';
@@ -506,7 +511,7 @@ $string['enrolledincourse'] = 'コース「 $a 」に登録されました。';
 $string['enrolledincoursenot'] = 'コース「 $a 」に登録されませんでした。';
 $string['enrollfirst'] = 'サイト活動を利用するためには、事前にコースに登録を行ってください。';
 $string['enrolme'] = 'このコースに登録する';
-$string['enrolmentconfirmation'] = 'あなたはメンバーとしてこのコースに登録しようとしています。<br />本当にこの処理を行ってもよろしいですか?';
+$string['enrolmentconfirmation'] = 'あなたはメンバーとしてこのコースに登録しようとしています。<br />本当に登録してもよろしいですか?';
 $string['enrolmentend'] = 'ユーザ登録終了';
 $string['enrolmentkey'] = '登録キー';
 $string['enrolmentkeyfrom'] = 'このコースへ登録するためには「登録キー」というワンタイムパスワードが必要です。$a が教えた「登録キー」を入力してください。';
@@ -526,7 +531,7 @@ $string['enteremailaddress'] = 'パスワードをリセットして新しいパ
 $string['entries'] = 'エントリ';
 $string['error'] = 'エラー';
 $string['errortoomanylogins'] = 'ログイン失敗回数の上限に達しました。ブラウザを再起動してください。';
-$string['errorwhenconfirming'] = 'エラーが発生したため、アカウントの認証は行われませんでした。メール本文のリンクをクリックして、このページにたどり着いた場合は、リンクが記されている行が崩れていないか確認してください。正しくリンクを動作させるためにコピー＆ペーストを使用してください。';
+$string['errorwhenconfirming'] = 'エラーが発生したため、あなたのアカウントは認証されませんでした。メール本文のリンクをクリックして、このページにたどり着いた場合は、リンクが記されている行が崩れていないか確認してください。正しくリンクを動作させるためにコピー＆ペーストを使用してください。';
 $string['everybody'] = '全員';
 $string['executeat'] = 'バックアップ処理開始時刻';
 $string['existing'] = '既存';
