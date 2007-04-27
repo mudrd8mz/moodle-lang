@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // enrol_flatfile.php - created with Moodle 1.4.4 + (2004083140)
+      // enrol_flatfile.php - created with Moodle 1.5.2 (2005060220)
 
 
-$string['description'] = 'See meetod hakkab korduvalt kontrollima protsessi spetsiaalses formaadid tekst faili selles asukohas mille oled ise määranud. See fail näeb välja nagu midagi sellist. 
+$string['description'] = 'See meetod hakkab korduvalt kontrollima ja töötlema spetsiaalses formaadis tekstifaili, mille asukoha määrad sellel lehel. Fail ise näeb välja umbes selline: 
 <pre>
 add, student, 5, CF101
 add, teacher, 6, CF101
@@ -12,11 +12,10 @@ del, student, 17, CF101
 add, student, 21, CF101, 1091115000, 1091215000
 </pre>';
 $string['enrolname'] = 'Lame fail';
-$string['filelockedmail'] = 'Tekst fail mida sa kasutad faili põhiseks registreerimiseks ($a) ei ole võimalik kustutada.
-See tavaliselt tähendab ,et ei ole luba kustutamiseks.Palun vahetage õigused ,et Moodle saaks selle faili kustutda. Vastasel võidakse teda protsessida korduvalt ';
-$string['filelockedmailsubject'] = 'Tähtis viga: Registreerimis fail';
+$string['filelockedmail'] = 'Tekstifaili, mida kasutad failipõhiseks registreerimiseks ($a), ei ole võimalik kustutada. See tähendab tavaliselt, et faili õigused on valed. Palun korrigeeri õigusi, et Moodle saaks selle faili kustutada. Vastasel korral võidakse faili korduvalt töödelda. ';
+$string['filelockedmailsubject'] = 'Tähtis viga: Registreerimisfail';
 $string['location'] = 'Faili asukoht';
-$string['mailadmin'] = 'Teata administraatorit e-posti kaudu';
-$string['mailusers'] = 'Teata kasutajat e-posti kaudu';
+$string['mailadmin'] = 'Teavita administraatorit e-posti kaudu';
+$string['mailusers'] = 'Teavita kasutajaid e-posti kaudu';
 
 ?>

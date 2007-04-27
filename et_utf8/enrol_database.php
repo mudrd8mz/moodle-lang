@@ -1,18 +1,18 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.4.4 + (2004083140)
+      // enrol_database.php - created with Moodle 1.5.2 (2005060220)
 
 
-$string['dbhost'] = 'Pea Server';
-$string['dbname'] = 'Spetsifiiline andmebaas kasutamiseks';
-$string['dbpass'] = 'Parool serveri sisenemiseks';
+$string['dbhost'] = 'Andmebaasiserveri hostinimi';
+$string['dbname'] = 'Konkreetne andmebaas, mida kasutada';
+$string['dbpass'] = 'Salasõna serverisse sisenemiseks';
 $string['dbtable'] = 'Tabel selles andmebaasis';
-$string['dbtype'] = 'Serveri tüübi andmebaas';
-$string['dbuser'] = 'Kasutajanimi serveri ligipääsuks';
-$string['description'] = 'Sa saad kasutada väliseid andmeid ,et kontrollida oma registreerimisi. Oletetakse ,et sinu väline andmebaas sisaldab kursuse ID ja Kasutaja ID. Neid kahte võrreldakse omavahel';
+$string['dbtype'] = 'Andmebaasiserveri tüüp';
+$string['dbuser'] = 'Kasutajanimi serverisse sisenemiseks';
+$string['description'] = 'Registreerumiste kontrollimiseks on võimalik kasutada välist andmebaasi. Eeldatakse, et sinu väline andmebaas sisaldab välju kursuse ID ja kasutaja ID kohta. Neid välju võrreldakse väljadega, mida sa valid kohalikest kursuste ja kasutajate tabelitest.';
 $string['enrolname'] = 'Väline andmebaas';
-$string['localcoursefield'] = 'Välja nimi kursuse tabelis mida me kasutame ID numbriga kokku sobitamiseks';
-$string['localuserfield'] = 'Välja nimi lokaalse kasutaja andmebaasis mida me kasutame ,et kokku sobitata kasutaja ID numbriga';
-$string['remotecoursefield'] = 'Andmebaasi väli milles eeldame leida kursuse ID';
-$string['remoteuserfield'] = 'Andmebaasi väli milles eeldame leida kasutaja ID';
+$string['localcoursefield'] = 'Välja nimi kursuse tabelis, mida me kasutame välise andmebaasi väljadega võrdlemiseks (nt. idnumber)';
+$string['localuserfield'] = 'Välja nimi lokaalses kasutajate tabelis, mida me kasutame välise andmebaasi väljadega võrdlemiseks (nt. idnumber)';
+$string['remotecoursefield'] = 'Välise andmebaasi väli, milles eeldame leida kursuse ID';
+$string['remoteuserfield'] = 'Välise andmebaasi väli, milles eeldame leida kasutaja ID';
 
 ?>

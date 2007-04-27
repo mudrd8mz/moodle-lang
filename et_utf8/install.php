@@ -1,117 +1,120 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.4.4 + (2004083140)
+      // install.php - created with Moodle 1.5.2 (2005060220)
 
 
-$string['admindirerror'] = 'Valitud adminni kataloog on vale';
-$string['admindirname'] = 'Administraatori kataloog';
-$string['admindirsetting'] = 'Väga vähesed administraatorid kasutavad spetsiaalset URL-i et saada ligipääs kontroll paneeli või mingisse muusse kohta. Kahjuks läheb see konflikti Moodle standartse asukohaga. Sa saad seda viga parandada kui nimetad oma adminni kataloogi ümber. Näiteks nagu: : <br /> <br /><b>moodleadmin</b><br /> <br /> See teeb adminni lingid Moodles korda';
+$string['admindirerror'] = 'Valitud administreerimiskataloog on vale';
+$string['admindirname'] = 'Administreerimiskataloog';
+$string['admindirsetting'] = 'Mõned vähesed veebihostid kasutavad spetsiaalset URL-i, et anda ligipääs juhtpaneelile. Kahjuks läheb see konflikti Moodle administreerimislehe standardse asukohaga. Sa saad seda viga parandada, kui nimetad oma administreerimiskataloogi ümber. Näiteks: <br /> <br /><b>moodleadmin</b><br /> <br /> See teeb administreerimislingid Moodle\'is korda.';
 $string['caution'] = 'Hoiatus';
 $string['chooselanguage'] = 'Vali keel';
 $string['compatibilitysettings'] = 'Kontrollin teie PHP sätteid ...';
-$string['configfilenotwritten'] = 'Installatsiooni skript ei suutnud automaatselt tekitada config.php faili mis sisaldasid sinu valitud seadeid. Arvatavasti sellepärast ,et sinu Moodel kataloog ei ole kirjutatav. Sa saad manuaalselt kopeerida järgnevat koodi faili mille nimeks on config.php mis asub Moodle põhikataloogis';
+$string['configfilenotwritten'] = 'Installeerimisskript ei suutnud automaatselt tekitada config.php faili, mis sisaldaks sinu valitud seadistusi. Põhjus võib olla selles, et sinu Moodle kataloog ei ole kirjutatav. Sa võid käsitsi kopeerida järgneva koodi config.php nimelisse faili, mis asub Moodle juurkataloogis.';
 $string['configfilewritten'] = 'config.php on edukalt loodud';
 $string['configurationcomplete'] = 'Seadistamine lõpetatud';
-$string['database'] = 'Andmekogu';
-$string['databasesettings'] = 'Sa pead konfigureerima admebaasi kus suurem osa Moodle andmetest asub. See andmebaas peab juba olema loodud ja kasutajanimi ja parool peavad eksisteerima.
+$string['database'] = 'Andmebaas';
+$string['databasecreationsettings'] = 'Nüüd sa pead konfigureerima seadistuse andmebaasile, kus hoitakse enamikku Moodle andmetest. See andmebaas luuakse automaatselt Moodle4Windows poolt koos järgnevalt määratud seadistustega.<br />
+<br /> <br />
+<b>Tüüp:</b>installeerija määras \"mysql\"<br/>
+<b>Host:</b>installeerija määras \"localhost\"<br/>
+<b>Nimi:</b>andmebaasi nimi, näiteks moodle<br/>
+<b>Kasutaja:</b>installeerija määras \"root\"<br/>
+<b>Parool:</b>sinu andmebaasi parool<br/>
+<b>Tabelite eesliide:</b>valikuline eesliide, mida kasutada kõigi tabelite nimedes';
+$string['databasesettings'] = 'Nüüd pead sa konfigureerima admebaasi, kus hoitakse enamikku Moodle andmetest. See andmebaas peab olema juba loodud ning samuti kasutajanimi ja parool andmebaasile juurdepääsu saamiseks.
 br />
 <br /> <br />
-<b>Type:</b> mysql or postgres7<br />
-<b>Host:</b> eg localhost or db.isp.com<br />
-<b>Name:</b> andmebaasi nimi, eg moodle<br />
-<b>User:</b> sinu andmebaasi kasutajanimi<br />
-<b>Password:</b> sinu andmebaasi parool<br />
-<b>Tables Prefix:</b> optional prefix to use for all table names';
+<b>Tüüp:</b> mysql või postgres7<br />
+<b>Host:</b> näiteks localhost või db.isp.com<br />
+<b>Nimi:</b> andmebaasi nimi, näiteks moodle<br />
+<b>Kasutaja:</b> sinu andmebaasi kasutajanimi<br />
+<b>Parool:</b> sinu andmebaasi parool<br />
+<b>Tabelite eesliide:</b> valikuline eesliide, mida kasutada kõigi tabelite nimedes';
 $string['dataroot'] = 'Andmete kataloog';
-$string['datarooterror'] = 'Andme kataloog mis täpsustasid ei suudetud luua. Paranda teekond või tee ise manuaalselt';
-$string['dbconnectionerror'] = 'Me ei suutnud sinu täpsustatud andmebaasi ühendada. Palun kontrollige oma andmebaasi seadeid';
-$string['dbcreationerror'] = 'Andmebaasi loomise viga. Ei suudetud luua andmebaasi antud nimega ';
-$string['dbhost'] = 'Pea Server';
+$string['datarooterror'] = 'Sinu määratud andmete kataloogi ei suudetud leida ega luua. Paranda tee või loo ise käsitsi see kataloog.';
+$string['dbconnectionerror'] = 'Me ei suutnud sinu määratud andmebaasi ühendada. Palun kontrolli oma andmebaasi seadistust.';
+$string['dbcreationerror'] = 'Andmebaasi loomise viga. Ei suudetud luua andmebaasi nime olemasolevate seadistustega.  ';
+$string['dbhost'] = 'Hosti server';
 $string['dbpass'] = 'Parool';
 $string['dbprefix'] = 'Tabeli eesliide';
 $string['dbtype'] = 'Tüüp';
 $string['directorysettings'] = '<p>Palun kinnita Moodle installerimise asukoht.</p>
 
-<p><b>Veebi aadress:</b>
-Täpsuta veebi aadress kus Moodlel on läbipääsu
-Kui sinu veebilehel on läbipääs läbi mitme URL aadressi siis kasuta seda mis on sinu õpilaste jaoks kõige kergem meeles pidada</p>
+<p><b>Veebiaadress:</b>
+Määra täispikk veebiaadress, kust saab Moodle\'ile juurdepääsu.
+Kui sinu veebileht on juurdepääsetav mitme URL\'i kaudu, siis kasuta seda, mis on sinu õppijate jaoks kõige kergem meeles pidada. Ära kasuta kurakriipsu. </p>
 
-<p><b>Moodle Kataloog:</b>
-Täpsusta kataloogi kogu teekond kuni installeerimiseni.
-Tee kindlaks ,et suured/väiketähed oleksid õiged</p>
+<p><b>Moodle kataloog:</b>
+Määra selle installatsiooni kataloogi täistee.
+Tee kindlaks, et suured/väiketähed oleksid õiged.</p>
 
 <p><b>Andmete kataloog:</b>
-Sul on vaja kohta kus Moodle saab salvestada ülesse laetud failid. See kataloog peaks olem loetav JA KIRJUTATAV veebi serveri kasutaja poolt. Kuid sellel ei tohiks olla läbipääsu otseselt läbi veebi
-</p>
-
-';
+Sul on vaja kohta, kuhu Moodle salvestab üles laetud failid. See kataloog peaks olema loetav JA KIRJUTATAV veebiserveri kasutaja poolt (tavaliselt \'nobody\' või \'apache\'), kuid ei tohiks olla otse veebi kaudu ligipääsetav.
+</p>';
 $string['dirroot'] = 'Moodle kataloog';
-$string['dirrooterror'] = 'Moodle Kataloogi seaded paistavad olevat valed. Me ei suuda Moodle installerimist siit leida. Väärtus on nullitud';
+$string['dirrooterror'] = 'Moodle kataloogi seadistus näib olevat vigane -  me ei suuda sealt leida Moodle installatsiooni. Allpool olev väärtus on nullitud.';
 $string['download'] = 'Lae alla';
 $string['fail'] = 'Fail';
 $string['fileuploads'] = 'Failide üleslaadimine';
 $string['fileuploadserror'] = 'See peaks olema sisse lülitatud';
-$string['fileuploadshelp'] = '<p>Faili ülesse laadimine tundub olevat sinu serveris välja lülitatud.</p>
+$string['fileuploadshelp'] = '<p>Failide üleslaadimine näib sinu serveris olevat välja lülitatud.</p>
 
-<p>Moodlet võib ikka installeerida kui ilma selle võimaluseta. Te ei saa kursuse faile ülesse laadida</p>
+<p>Moodle\'it saab ikka installeerida, kui selle võimaluseta ei saa sa kursuse faile või uute kasutajate andmeid üles laadida</p>
 
-<p>Ülesselaadimise sisselülitamiseks pead sa redigeerima main php.ini faili oma süsteemis ja vahetama seaded
-<b>file_uploads</b> to \'1\'.</p>';
+<p>Failide üleslaadimise sisse lülitamiseks pead sa (või sinusüsteemiadministraator) muutma main php.ini faili oma süsteemis ja seadma <b>file_uploads</b> väärtuseks \'1\'.</p>';
 $string['gdversion'] = 'GD versioon';
-$string['gdversionerror'] = 'GD teek ei tohiks olla esitatud piltide protsessimiseks ja loomiseks';
-$string['gdversionhelp'] = '<p>Sinu serveril ei paist GD installeeritud olevat.</p>
+$string['gdversionerror'] = 'GD teek peaks olema võimeline töötlema ja looma pilte. ';
+$string['gdversionhelp'] = '<p>Sinu serveril ei paista GD installeeritud olevat.</p>
 
-<p>GD on andmeteek mis on vajalik PHP-le selleks et ta lubaks Moodlel protsessida pilte. (Selliseid nagu profiili ikoone) ja luua uusi pilte ( nagu graafika logi) Moodle tõõtab ikka ilma GD-ta aha need võimalused oleksid teil välja lülitatud.</p>
+<p>GD on andmeteek, mis on vajalik PHP jaoks, et Moodle\'il oleks võimalik pilte (kasutajate ikoonid, logide graafikud) töödelda ja luua. Moodle töötab ikka ka GD puudumisel, aga need võimalused ei ole siis sinu jaoks kättesaadavad.</p>
 
-<p>GD lisamine PHP-le Unixi all, kompileeri PHP-d kasutates --with-gd parameetrit.</p>';
+<p>GD lisamiseks PHP\'le Unixi operatsioonisüsteemis tuleb kompileerida PHP-d, kasutates --with-gd parameetrit.</p>
+
+<p>Windowsis saad sa tavaliselt muuta php.ini faili ja kommenteerida sisse libdg.dll\'le vastava rea.</p>';
 $string['installation'] = 'Installeerimine';
-$string['magicquotesruntime'] = 'Magic Quotes Run Time';
+$string['magicquotesruntime'] = 'Magic Quotes talitlusaeg';
 $string['magicquotesruntimeerror'] = 'See peaks olema välja lülitatud';
-$string['magicquotesruntimehelp'] = '<p>Magic quotes runtime peaks olema välja lülitatud ,et Moodle saaks korralikult funktsioneerida.</p>
+$string['magicquotesruntimehelp'] = '<p>Magic quotes talitlusaeg peaks olema välja lülitatud, et Moodle saaks korralikult funktsioneerida.</p>
 
-<p>Tavalielt on see vaikimisi välja lülitatud. Vaata seadistusi <b>magic_quotes_runtime</b>  sinu php.ini file </p>
+<p>Tavalielt on see vaikimisi välja lülitatud. Vaata <b>magic_quotes_runtime</b> seadistust  sinu php.ini failis.</p>
 
-<p>Kui sul ei ole ligipääsu oma php.ini failile siis sa peaksid lisama järgmise koodi faili mille nimi on .htaccess mis asub sinu Moodle kataloogis:
+<p>Kui sul ei ole ligipääsu oma php.ini failile, siis peaksid lisama järgmise koodi .htaccess nimelisse faili, mis asub sinu Moodle kataloogis:
 <blockquote>php_value magic_quotes_runtime Off</blockquote>
 </p>';
 $string['memorylimit'] = 'Mälu limiit';
-$string['memorylimiterror'] = 'PHP mälu limiit on pandud päris madalale .... hiljem võib sellega tekkida probleeme';
-$string['memorylimithelp'] = '<p>PHP mälu limiit sinu serveris on hetkel $a.</p>
+$string['memorylimiterror'] = 'PHP mälu limiit on seatud päris madalale...sul võib hiljem sellega seoses probleeme tekkida.';
+$string['memorylimithelp'] = '<p>PHP mälu limiit sinu serveri jaoks on hetkel $a.</p>
 
-<p>See võib hiljem tekitada Moodlel mälu probleeme
+<p>See võib hiljem tekitada Moodle\'il mäluprobleeme, eriti kui sul on palju mooduleid ja/või kasutajaid.
 </p>
 
-<p>Me soovitame ,et sa konfigureeriksid PHP-d kõrgema limiidi peale, näiteks 40M. On mitmeid viise selle tegemiseks:</p>
+<p>Me soovitame, et sa konfigureeriksid PHP kõrgema limiidi peale, näiteks 16M. Selle tostamiseks on mitu viisi:</p>
 <ol>
-<li>kui võimalik siis kompileeri PHP uuesti <i>--enable-memory-limit</i>.
-
-See lubab Moodlel ise määrata mälu limiiti.</li>
-<li>Kui sul on läbipäaas oma php.ini failile siis saa saad muuta  <b>mälu limiiti</b> sealt. Kui sul ei ole läbipääsu siis sa võid administraatorilt abi paluda
-</li>
-<li>Mõnedel PHP serveritel sa saad tekitada  .htaccess faili oma Moodle kataloogi mis sisaldaks seda koodi:<p><blockquote>php_value memory_limit 40M</blockquote></p>
-<p>Kuigi mõnedel serveritel ei pruugi see töödata 
-(Sa näed vigu kui vaatad lehti) Siis sa pead eemaldama selle .htaccess faili.</p></li>
+<li>Kui võimalik, siis kompileeri PHP uuesti parameetriga <i>--enable-memory-limit</i>.
+See lubab Moodle\'il ise mälu limiiti määrata.</li>
+<li>Kui sul on juurdepääs oma php.ini failile, siis saad muuta seal <b>memory_limit</b> väärtuseks midagi 16M lähedast. Kui sul ei ole juurdepääsu, siis võiksid paluda administraatoril seda teha.</li>
+<li>Mõnedes PHP serverites saad luua Moodle kataloogi .htaccess faili, mis sisaldab seda rida:<p><blockquote>php_value memory_limit 16M</blockquote></p>
+<p>Kuigi mõnedes serverites tõkestab see <b>kõigi</b> PHP lehekülgede tööd (sa näed veateateid, kui vaatad lehti), nii et pead eemaldama .htaccess faili.</p></li>
 </ol>';
-$string['mysqlextensionisnotpresentinphp'] = 'PHP-d ei ole õieti MySQL-ga konfigureeritud. Palun kontrollige oma php.ini faili';
+$string['mysqlextensionisnotpresentinphp'] = 'PHP ei ole MySQL laiendiga õigesti konfigureeritud, seega ei saa ta MySQL\'ga suhelda. Palun kontrolli oma php.ini faili või kompileeri PHP uuesti.';
 $string['pass'] = 'Korras';
 $string['phpversion'] = 'PHP versioon';
 $string['phpversionerror'] = 'PHP versioon peab olema vähemalt 4.1.0';
-$string['phpversionhelp'] = '<p>Moodle vajab vähemalt 4.1.0 php versiooni</p>
+$string['phpversionhelp'] = '<p>Moodle vajab vähemalt PHP versiooni 4.1.0</p>
 <p>Sinu jooksev versioon on $a</p>
-<p>Sa pead oma PHP-d uuendama!</p>';
-$string['safemode'] = 'Safe Mode';
-$string['safemodeerror'] = 'Moodle\'l võib tekkida safe mode\'s komplikatsioone';
-$string['safemodehelp'] = '<p>Moodle võib olla mitmesuguseid probleeme kui safe mood on sisse lülitatud. Ta ei pruugi lubada luua uusi faile.</p>
+<p>Sa pead oma PHP-d uuendama või kolima hosti, kus on uuem PHP versioon!</p>';
+$string['safemode'] = 'Ohutu reiim';
+$string['safemodeerror'] = 'Moodle\'il võib ohutus reiimis komplikatsioone tekkida';
+$string['safemodehelp'] = '<p>Moodle võib tekkida mitmesuguseid probleeme, kui ohutu reiim on sisse lülitatud, näiteks ei luba ta tõenäoliselt luua uusi faile.</p>
 
-<p>Safe mood on tavaliselt sisse lülitatud paranoiliste veebi peremeeste poolt seega sa pead leidma endale uue veebi teenuse pakkuja </p>
+<p>Ohutu reiim on tavaliselt sisse lülitatud ainult paranoilistel avalikel veebihostidel, seega pead leidma oma Moodle õpikeskkonnale uue serveriteenust pakkuva firma. </p>
 
-<p>Sa võid proovida installeerimist jätkata kui soovid aga arvatavasti tekib sul hiljem probleeme</p>
-';
-$string['sessionautostart'] = 'Session Auto Start';
+<p>Sa võid proovida installeerimist jätkata, kui soovid, aga arvatavasti tekib sul ka hiljem probleeme.</p>';
+$string['sessionautostart'] = 'Sessioonide automaatne algatamine';
 $string['sessionautostarterror'] = 'See peaks olema välja lülitatud';
-$string['sessionautostarthelp'] = '<p>Moodle vahab sessiooni tuge ja ei tööta ilma selleta.</p>
+$string['sessionautostarthelp'] = '<p>Moodle vajab sessiooni tuge ja ei tööta ilma selleta.</p>
 
-<p>Sessioone saab sisse lülitada php.ini failist.</p>';
-$string['wwwroot'] = 'Veebi aadress';
-$string['wwwrooterror'] = 'Veebi aadress ei paista olevat õige. Moodle installatsioon ei paista olevat seal';
+<p>Sessioone saab sisse lülitada php.ini failist, otsi sealt session.auto_start parameetrit.</p>';
+$string['wwwroot'] = 'Veebiaadress';
+$string['wwwrooterror'] = 'Veebiaadress näib vigane - Moodle installatsiooni ei paista seal olevat.';
 
 ?>

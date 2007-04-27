@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // block_online_users.php - created with Moodle 1.4.4 + (2004083140)
+      // block_online_users.php - created with Moodle 1.5.2 (2005060220)
 
 
 $string['blockname'] = 'Onlain kasutajad';
-$string['configtimetosee'] = 'Minutite numbrid märkimiseks kas kasutaja on hetkel onlainil';
-$string['periodnminutes'] = 'Viimased $a minutid';
+$string['configtimetosee'] = 'Tegevusetuse aeg (minutites), mille möödumisel ei loeta kasutajat enam onlain olevaks.';
+$string['periodnminutes'] = 'Viimased $a minutit';
 
 ?>

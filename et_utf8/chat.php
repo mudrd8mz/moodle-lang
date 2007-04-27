@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.4.4 + (2004083140)
+      // chat.php - created with Moodle 1.5.2 (2005060220)
 
 
 $string['beep'] = 'signaal';
@@ -7,14 +7,14 @@ $string['chatintro'] = 'Sissejuhatav tekst';
 $string['chatname'] = 'Jututoa nimi';
 $string['chatreport'] = 'Jututoa sessioon';
 $string['chattime'] = 'Järgmine vestluse aeg';
-$string['configmethod'] = 'Normaalne jututoa meetod koosneb klientidest kes kontakteeruvad pidevalt serveriga uuenduste saamiseks. See ei vaja mingeid konfiguratsioone ja see tõõtab igal pool. Kui serveris on palju jutustajaid võib see koormata võrku. Serveri daemoni kasutamiseks on vaja läbipääsu Unixisse mille tulemuseks on kiire ja stabiilne jutukeskkond ';
-$string['configoldping'] = 'Pärast kui pikka aega kasutaja eemalolekust loeme teda läinuks?';
-$string['configrefreshroom'] = 'Kui tihti peaks jututuba end ise uuendama? (sekundites). Seades selle madalaks näib jututuba kiirem, kuid võib panna suurema koormuse teie veebiserverile kui korraga on palju kasutajaid.';
+$string['configmethod'] = 'Normaalne jututoa meetod koosneb klientidest, kes kontakteeruvad pidevalt serveriga uuenduste saamiseks. See ei vaja mingeid konfiguratsioone töötab igal pool, kuid sure hulga jututstajate korral võib koormata võrku. Serveri deemoni kasutamiseks on vaja juurdepääsu Unixisse, kuid tulemuseks on kiire ja stabiilne jutukeskkond. ';
+$string['configoldping'] = 'Kui pika aja tagant kontrollitakse, kas kasutaja on jututoast lahkunud (sekundites)? See on maksimaalne aeg, tavaliselt toimub kontrollimine väga kiiresti. Mida väiksem sekundite arv, seda koormavam on serverile. Kii sa kasutad tavapärast meetodit, ära <strong>mitte kunagi</strong> sea seda arvu väiksemaks kui 2 * chat_refresh_room.   ';
+$string['configrefreshroom'] = 'Kui tihti peaks jututuba end uuendama? (sekundites). Seades selle arvu väikseks, näib jututuba kiirem, kuid suure hulga jututstajate korral langeb veebiserverile suurem koormus.';
 $string['configrefreshuserlist'] = 'Kui tihti peaks kasutajate nimekirja uuendama? (sekundites)';
-$string['configserverhost'] = 'Arvuti hosti(peremehe) nimi kus serveri daemon asub ';
-$string['configserverip'] = 'Numbriline IP aadress mis kattub ülal oleva hosti nimega';
+$string['configserverhost'] = 'Arvuti hostinimi, kus asub  serveri deemon ';
+$string['configserverip'] = 'Numbriline IP aadress mis kattub ülal oleva hostinimega';
 $string['configservermax'] = 'Maksimaalselt lubatud klientide arv';
-$string['configserverport'] = 'Port serveris, mida daemon kasutab';
+$string['configserverport'] = 'Port serveris, mida deemon kasutab';
 $string['currentchats'] = 'Aktiivsed jututoa sessioonid';
 $string['currentusers'] = 'Kasutajad hetkel';
 $string['deletesession'] = 'Kustuta see sessioon';
@@ -22,9 +22,9 @@ $string['deletesessionsure'] = 'Kas oled ikka kindel, et soovid seda sessiooni k
 $string['donotusechattime'] = 'Ära avalikusta ühegi vestluse aega';
 $string['enterchat'] = 'Klõpsa siia, et siseneda jututuppa';
 $string['errornousers'] = 'Ei leidnud ühtegi kasutajat!';
-$string['explaingeneralconfig'] = 'Need seaded on <strong>alati</strong> efektsed ';
-$string['explainmethoddaemon'] = 'Need seaded on olulised <strong>ainult</strong> siis kui sa oled jutustamise meetodiks valinud \"Chat server daemon\"';
-$string['explainmethodnormal'] = 'Need seaded on olulised <strong>ainult</strong> siis kui sa oled jutustamsie meetodiks valinud \"Normal method\"';
+$string['explaingeneralconfig'] = 'Need seadistused mõjuvad <strong>alati</strong> ';
+$string['explainmethoddaemon'] = 'Need seadistused on olulised <strong>ainult</strong> siis, kui sa oled jutustamise meetodiks chat_method\'is valinud \"Serveri deemon\"';
+$string['explainmethodnormal'] = 'Need seadistused on olulised <strong>ainult</strong> siis, kui sa oled jutustamise meetodiks chat_method\'is valinud \"Normaalne meetod\"';
 $string['generalconfig'] = 'Üldine konfiguratsioon';
 $string['helpchatting'] = 'Vestluse abi';
 $string['idle'] = 'jõudeolek';
@@ -33,12 +33,12 @@ $string['messagebeepsyou'] = '$a on Sulle just märku andnud!';
 $string['messageenter'] = '$a ühines just käesoleva vestlusega';
 $string['messageexit'] = '$a lahkus käesolevast vestlusest';
 $string['messages'] = 'Sõnumid';
-$string['methoddaemon'] = 'Jutu serveri daemon';
+$string['methoddaemon'] = 'Serveri deemon';
 $string['methodnormal'] = 'Normaalne meetod';
 $string['modulename'] = 'Vestlus';
 $string['modulenameplural'] = 'Vestlused';
 $string['neverdeletemessages'] = 'Ära kunagi kustuta sõnumeid';
-$string['nextsession'] = 'Järgmine ';
+$string['nextsession'] = 'Järgmine plaaniline sessioon ';
 $string['noguests'] = 'Vestlus ei ole külalistele avatud';
 $string['nomessages'] = 'Mitte ühtegi sõnumit';
 $string['repeatdaily'] = 'Igal päeval samal ajal';
@@ -50,6 +50,6 @@ $string['seesession'] = 'Vaata käesolevat sessiooni';
 $string['sessions'] = 'Jututoa sessioonid';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Kõik saavad vaadata vanu sessioone';
-$string['viewreport'] = 'Vaata vanu jutuka sessioone';
+$string['viewreport'] = 'Vaata vanu jututoa sessioone';
 
 ?>

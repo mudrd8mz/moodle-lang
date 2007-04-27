@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // countries.php - created with Moodle 1.4.4 + (2004083140)
+      // countries.php - created with Moodle 1.5.2 (2005060220)
 
 
 $string['AD'] = 'Andorra';
@@ -74,7 +74,7 @@ $string['FK'] = 'Falklandi saared (Malviinid)';
 $string['FM'] = 'Mikroneesia Liitvabariik';
 $string['FO'] = 'Fääri saared';
 $string['FR'] = 'Prantsusmaa';
-$string['FX'] = 'France; Metropolitan';
+$string['FX'] = 'Prantsusmaa; Suurlinn';
 $string['GA'] = 'Gabon';
 $string['GB'] = 'Suurbritannia';
 $string['GD'] = 'Grenada';

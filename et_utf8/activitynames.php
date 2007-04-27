@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // activitynames.php - created with Moodle 1.4.4 + (2004083140)
+      // activitynames.php - created with Moodle 1.5.2 (2005060220)
 
 
-$string['filtername'] = 'Wiki lehe automaatne linkimine';
+$string['filtername'] = 'Automaatne viitamine tegevuste nimedele';
 
 ?>

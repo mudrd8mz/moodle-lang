@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // block_section_links.php - created with Moodle 1.4.4 + (2004083140)
+      // block_section_links.php - created with Moodle 1.5.2 (2005060220)
 
 
-$string['blockname'] = 'Lingi osa';
-$string['jumptocurrenttopic'] = 'Hüppa jooksvale teemale';
-$string['jumptocurrentweek'] = 'Hüppa jooksavale nädalale';
+$string['blockname'] = 'Kursuse sektsioonide lingid ';
+$string['jumptocurrenttopic'] = 'Liigu jooksvale teemale';
+$string['jumptocurrentweek'] = 'Liigu jooksavale nädalale';
 $string['topics'] = 'Teemad';
 $string['weeks'] = 'Nädalad';
 
