@@ -1,0 +1,31 @@
+<?PHP // $Id$ 
+      // quiz_analysis.php - created with Moodle 1.5.2 (2005060220)
+
+
+$string['analysisoptions'] = 'Analüüsimise valikud';
+$string['analysistitle'] = 'Küsimuste analüüsi tabel';
+$string['attemptsall'] = 'kõik katsed';
+$string['attemptselection'] = 'Milliseid katseid analüüsida';
+$string['attemptsfirst'] = 'esimene katse';
+$string['attemptshighest'] = 'kõrgeim hinne';
+$string['attemptslast'] = 'viimane katse';
+$string['dicsindextitle'] = 'Diskr.<br/>indeks';
+$string['disccoefftitle'] = 'Diskr.<br/>koef.';
+$string['downloadooo'] = 'Lae alla OpenOffice formaadis';
+$string['facilitytitle'] = 'Õigete %%<br>Lihtsus';
+$string['lowmarkslimit'] = 'Ära analüüsi, kui skoor on vähem kui:';
+$string['pagesize'] = 'Küsimusi igal lehel:';
+$string['qcounttitle'] = 'K. arv';
+$string['qidtitle'] = 'K#';
+$string['qnametitle'] = 'Küsimuse nimi';
+$string['qtexttitle'] = 'Küsimuse tekst';
+$string['qtypetitle'] = 'K. tüüp';
+$string['quizreportdir'] = 'testi_aruanded';
+$string['rcounttitle'] = 'Vast.<br/>arv';
+$string['reportanalysis'] = 'Küsimuste analüüsi aruanne';
+$string['responsestitle'] = 'Vastuse tekst';
+$string['rfractiontitle'] = 'Punktid';
+$string['rpercenttitle'] = 'Vast. %%';
+$string['stddevtitle'] = 'SH';
+
+?>
