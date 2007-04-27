@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007042601)
+      // moodle.php - created with Moodle 1.9 dev (2007042701)
 
 
 $string['action'] = '동작';
@@ -468,6 +468,11 @@ $a->link
 
 만약 도움이 필요하시면 아래의 관리자에게 연락주세요.
 $a->admin';
+$string['emailpasswordchangeinfodisabled'] = '안녕하세요 $a->firstname,
+
+누군가(아마 당신) 당신의 계정 \'$a->sitename\' 으로 새로운 비밀번호를 요청했습니다. 
+
+유감스럽게도 본 사이트에서 당신의 계정을 사용할 수 없게 되었으며 초기화시킬 수도 없습니다. 사이트 관리자 $a->admin 에게 연락해 주십시오.';
 $string['emailpasswordchangeinfofail'] = '안녕하세요 $a->firstname,
 
 누군가(아마 당신) 당신의 계정 \'$a->sitename\' 으로 새로운 비밀번호를 요청했습니다. 

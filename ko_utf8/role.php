@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007040400)
+      // role.php - created with Moodle 1.9 dev (2007042701)
 
 
 $string['addrole'] = '역할 추가';
@@ -118,8 +118,10 @@ $string['site:uploadusers'] = '파일로 새 사용자 올림';
 $string['site:viewfullnames'] = '언제나 사용자의 성명을 볼 수 있음';
 $string['site:viewparticipants'] = '참여자 보기';
 $string['site:viewreports'] = '보고서 보기';
+$string['user:changeownpassword'] = '내 비밀번호 변경';
 $string['user:create'] = '사용자 생성';
 $string['user:delete'] = '사용자 삭제';
+$string['user:editownprofile'] = '내 신상명세 편집';
 $string['user:editprofile'] = '사용자 신상명세 편집';
 $string['user:loginas'] = '다른 사용자로 로그인';
 $string['user:readuserblogs'] = '사용자 블로그 보기';

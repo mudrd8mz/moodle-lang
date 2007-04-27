@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007042601)
+      // admin.php - created with Moodle 1.9 dev (2007042701)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -358,6 +358,7 @@ $string['langimport'] = '언어팩 가져오기';
 $string['langimportsuccess'] = '언어팩 갱신 성공';
 $string['langlist'] = '선택목록의 언어';
 $string['langmenu'] = '언어 선택 메뉴';
+$string['langnoeditenglish'] = '기본 영어팩은 덮어쓸 수 없습니다. 자신만의 번역판을 만들려면 언어경로를 변경하기 바랍니다.';
 $string['langpackremoved'] = '언어팩 제거 완료';
 $string['langpacks'] = '언어팩 설치';
 $string['langpackupdated'] = '언어팩 $a 설치 완료';
