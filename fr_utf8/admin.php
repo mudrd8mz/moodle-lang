@@ -484,6 +484,8 @@ $string['profilevisibleprivate'] = 'Visible pour l\'utilisateur';
 $string['protectusernames'] = 'Protéger les noms d\'utilisateur';
 $string['proxyhost'] = 'Hôte du proxy';
 $string['proxyport'] = 'Port du proxy';
+$string['qtyperqpwillberemoved'] = 'Au cours de cette mise à jour, le type de question RQP sera supprimé. Vous n\'utilisiez pas ce type de question, et cela ne vous causera donc aucun problème.';
+$string['qtyperqpwillberemovedanyway'] = 'Au cours de cette mise à jour, le type de question RQP sera supprimé. Votre base de données comporte des questions RQP, qui ne fonctionneront plus, à moins que vous ne réinstalliez le code disponible sur http://moodle.org/mod/data/view.php?d=13&rid=797 avant de continuer la mise à jour.';
 $string['quarantinedir'] = 'Dossier de quarantaine';
 $string['rcache'] = 'Cache des enregistrements';
 $string['rcachettl'] = 'TTL des enregistrements en cache';
