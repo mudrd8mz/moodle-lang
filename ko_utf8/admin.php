@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007042701)
+      // admin.php - created with Moodle 1.9 dev (2007042702)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -285,8 +285,10 @@ $string['environment'] = '환경';
 $string['environmenterrortodo'] = '이 무들버전을 설치하기 전에 앞에서 발견된 모든 환경설정 문제(오류)들을 해결해야 합니다!';
 $string['environmenterrorupgrade'] = '경고: 이 무들판의 갱신을 계속하기 전에 위에 제시된 모든 환경 문제(오류)를 해결해야만 합니다. 이러한 요구사항을 수정하지 않은 채로 판올림을 하게되면 자료을 잃게 되는 등의 문제에 봉착하게 됩니다. 그래도 판올림을 계속하겠습니까?';
 $string['environmentok'] = '서버 환경이 모든 최소한의 요구사항을 충족시킵니다.';
+$string['environmentrecommendcustomcheck'] = '만일 이 검사에 실패한다면 잠재적인 문제를 지니고 있는 것입니다.';
 $string['environmentrecommendinstall'] = '설치하거나 활성화할 것을 권고합니다.';
 $string['environmentrecommendversion'] = '$a->needed 버전을 권장하고 있는 데 현재 $a->current 을 사용하고 있습니다.';
+$string['environmentrequirecustomcheck'] = '이 검사는 반드시 통과해야 합니다.';
 $string['environmentrequireinstall'] = '설치하거나 활성화해야만 합니다.';
 $string['environmentrequireversion'] = '$a->needed 버전을 사용하여야 하는데 현재 $a->current 을 사용하고 있습니다.';
 $string['environmentxmlerror'] = '환경 설정 데이터 불러들이기 오류 ($a->error_code)';
@@ -472,11 +474,14 @@ $string['profiledescription'] = '항목의 설명';
 $string['profileeditcategory'] = '$a 범주 편집';
 $string['profileeditfield'] = '$a 항목 편집';
 $string['profilefield'] = '신상명세 항목';
+$string['profilefieldcolumns'] = '열';
 $string['profilefieldmaxlength'] = '최대 길이';
+$string['profilefieldrows'] = '행';
 $string['profilefields'] = '신상 항목 추가';
 $string['profilefieldsize'] = '표시 크기';
 $string['profilefieldtypemenu'] = '선택 차림표';
 $string['profilefieldtypetext'] = '문서 입력';
+$string['profilefieldtypetextarea'] = '입력난';
 $string['profileinvaliddata'] = '옳지 않은 값';
 $string['profilelocked'] = '항목이 잠겼습니까?';
 $string['profilemenudefaultnotinoptions'] = '기본값은 필수항목 입니다.';
@@ -496,6 +501,8 @@ $string['profilevisibleprivate'] = '사용자에게 공개';
 $string['protectusernames'] = '사용자 ID 보호';
 $string['proxyhost'] = '프록시 호스트';
 $string['proxyport'] = '프록시 포트';
+$string['qtyperqpwillberemoved'] = '갱신과정에서 RQP 문제 유형은 제거될 것입니다. 만일 이 유형의 문제를 사용하지 않았다면, 추후에는 어떤 문제도 발생하지 않을 것입니다.';
+$string['qtyperqpwillberemovedanyway'] = '갱신과정에서 RQP 문제 유형은 제거될 것입니다. 데이터베이스에 RQP 문제가 탑재되어 있다면, 비록 갱신하기 전에 http://moodle.org/mod/data/view.php?d=13&amp;rid=797  에서 코드를 다시 불러들였다 하더라도 작업이 중단될 것입니다.';
 $string['quarantinedir'] = '검역 디렉토리';
 $string['rcache'] = '기록 캐쉬';
 $string['rcachettl'] = '기록 캐쉬 TTL';
