@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007042700)
+      // admin.php - created with Moodle 1.9 dev (2007042702)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -277,9 +277,11 @@ $string['environment'] = '動作環境';
 $string['environmenterrortodo'] = 'このバージョンのMoodleをインストールする前に、発見された動作環境の問題 (エラー) を解消してください!';
 $string['environmenterrorupgrade'] = 'このバージョンのMoodleをアップグレードする前に、発見された動作環境の問題 (エラー) を解消してください! これらの必要条件に関して修正せずにアップグレードした場合、データ喪失等の問題が生じる可能性があります。本当にアップグレードを続けてもよろしいですか?';
 $string['environmentok'] = 'あなたのサーバ環境は、最小限の必要条件に合致します。';
-$string['environmentrecommendinstall'] = 'インストールおよびEnabledを推奨します。';
+$string['environmentrecommendcustomcheck'] = 'このテストに不適合の場合、潜在的な問題があることを意味します。';
+$string['environmentrecommendinstall'] = 'インストールおよび有効化してください。';
 $string['environmentrecommendversion'] = 'バージョン $a->needed 以上を推奨します。あなたは現在 $a->current を使用しています。';
-$string['environmentrequireinstall'] = 'インストールおよびEnabledが必須です。';
+$string['environmentrequirecustomcheck'] = 'このテストはパスする必要があります。';
+$string['environmentrequireinstall'] = '必ずインストールおよび有効化してください。';
 $string['environmentrequireversion'] = 'バージョン $a->needed以上が必須です。あなたは現在 $a->current を使用しています。';
 $string['environmentxmlerror'] = '環境データ ($a->error_code) の読み込み中にエラーが発生しました。';
 $string['errors'] = 'エラー';
@@ -487,6 +489,8 @@ $string['profilevisibleprivate'] = 'ユーザに表示する';
 $string['protectusernames'] = 'ユーザ名を保護する';
 $string['proxyhost'] = 'プロクシホスト';
 $string['proxyport'] = 'プロクシポート';
+$string['qtyperqpwillberemoved'] = 'アップグレード中、RQP問題タイプは削除されます。あなたはこの問題タイプを使用していませんので、トラブルが発生することはありません。';
+$string['qtyperqpwillberemovedanyway'] = 'アップグレード中、RQP問題タイプは削除されます。あなたのデータベース内にRQP問題タイプが登録されています。アップグレードを続ける前に、 http://moodle.org/mod/data/view.php?d=13&amp;rid=797 から対応するプログラムをインストールしない場合、これらの問題は動作しなくなります。';
 $string['quarantinedir'] = '隔離ディレクトリ';
 $string['rcache'] = 'レコードキャッシュ';
 $string['rcachettl'] = 'レコードキャッシュTTL';

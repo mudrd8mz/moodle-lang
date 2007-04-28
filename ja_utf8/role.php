@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007042700)
+      // role.php - created with Moodle 1.9 dev (2007042702)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -80,6 +80,7 @@ $string['permissions'] = 'パーミッション';
 $string['potentialusers'] = '潜在的なユーザ: $a';
 $string['prevent'] = '抑制';
 $string['prohibit'] = '禁止';
+$string['question:config'] = '問題タイプを設定する';
 $string['question:export'] = '問題をエクスポートする';
 $string['question:import'] = '問題をインポートする';
 $string['question:manage'] = '問題を管理する';
