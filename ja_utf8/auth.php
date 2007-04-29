@@ -1,7 +1,10 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007042400)
+      // auth.php - created with Moodle 1.9 dev (2007042702)
 
 
+$string['CASform'] = '認証選択';
+$string['accesCAS'] = 'CASユーザ';
+$string['accesNOCAS'] = '他のユーザ';
 $string['alternatelogin'] = 'ここにURLを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong> フィールドおよび <strong>password</strong> フィールドをMoodleに渡してください。<br />間違ったURLを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合、空白のままにしてください。';
 $string['alternateloginurl'] = '代替ログインURL';
 $string['auth_cas_auth_user_create'] = '外部にユーザを作成する';
@@ -20,8 +23,14 @@ $string['auth_cas_invalidcaslogin'] = '申し訳ございません、ログイ�
 $string['auth_cas_language'] = '言語の選択';
 $string['auth_cas_language_key'] = '言語';
 $string['auth_cas_logincas'] = 'セキュアコネクション・アクセス';
+$string['auth_cas_logoutcas'] = 'Moodleからログアウトした時にCASからログアウトしたい場合、「Yes」を選択してください。';
+$string['auth_cas_logoutcas_key'] = 'CASからログアウトする';
+$string['auth_cas_multiauth'] = 'マルチ認証 (CAS + 他の認証) を使用したい場合、「Yes」を選択してください。';
+$string['auth_cas_multiauth_key'] = 'マルチ認証';
 $string['auth_cas_port'] = 'CASサーバのポート';
 $string['auth_cas_port_key'] = 'ポート';
+$string['auth_cas_proxycas'] = 'CASをプロクシモードで使用したい場合、「Yes」を選択してください。';
+$string['auth_cas_proxycas_key'] = 'プロクシモード';
 $string['auth_cas_server_settings'] = 'CASサーバ設定';
 $string['auth_cas_text'] = 'セキュアコネクション';
 $string['auth_cas_use_cas'] = 'CASを使用する';
