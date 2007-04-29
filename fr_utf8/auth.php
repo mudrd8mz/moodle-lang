@@ -2,6 +2,15 @@
 
 $string['alternatelogin'] = 'Si vous spécifiez ici une URL, elle sera utilisée comme page de connexion pour ce site. La page doit contenir un formulaire dont la propriété «&nbsp;action&nbsp;» est <strong>$a</strong> et doit contenir les champs <strong>username</strong> et <strong>password</strong>.<br />Attention à donner une URL correcte, sans quoi vous risquez de ne plus pouvoir accéder au site.<br />Pour utiliser la page de connexion par défaut, laissez ce champ vide.';
 $string['alternateloginurl'] = 'URL de la page de connexion de rechange';
+$string['auth_cas_proxycas_key'] = 'Mode proxy';
+$string['auth_cas_logoutcas_key'] = 'Déconnection';
+$string['auth_cas_multiauth_key'] = 'Multi-authentification';
+$string['auth_cas_proxycas'] = 'Répondez oui si vous souhaitez vous connecter en mode proxy CAS';
+$string['auth_cas_logoutcas'] = 'Répondez oui si vous souhaitez vous déconnecter du CAS quand vous vous déconnectez de Moodle';
+$string['auth_cas_multiauth'] = 'Répondez oui si vous souhaitez utiliser la multi-authentification (CAS + autre authentification)';
+$string['accesCAS'] = 'Utilisateurs CAS';
+$string['accesNOCAS'] = 'Autres utilisateurs';
+$string['CASform'] = 'Choix du mode d\'authentification';
 $string['auth_cas_auth_user_create'] = 'Créer les utilisateurs en externe';
 $string['auth_cas_baseuri_key'] = 'URI de base URI';
 $string['auth_cas_baseuri'] = 'Adresse URI du serveur CAS (ne rien mettre s\'il n\'y en a pas).<br />par exemple, si le serveur CAS répond à l\'adresse «&nbsp;host.domaine.fr/CAS/&nbsp;», la valeur à indiquer ici est «&nbsp;CAS/&nbsp;».';
