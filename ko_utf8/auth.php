@@ -1,7 +1,10 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007042601)
+      // auth.php - created with Moodle 1.9 dev (2007043001)
 
 
+$string['CASform'] = '인증 선택';
+$string['accesCAS'] = 'CAS 사용자';
+$string['accesNOCAS'] = '기타 사용자';
 $string['alternatelogin'] = '이 사이트를 위한 로그인 페이지로 사용할 URL을 입력. <strong>\'$a\'</strong> 처럼 실행문을 가진 형태여야 하고 <strong>사용자ID</strong>  <strong>password</strong> 그리고 Return 필드를 포함하여야 한다. 
 <br />정확한 URL을 입력하도록 주의하지 않으면 이 사이트에 갇혀 버릴 수도 있다.<br />
 기본 로그인 페이지를 사용하려면 이 칸을 빈칸으로 남겨두어라.';
@@ -25,8 +28,14 @@ $string['auth_cas_invalidcaslogin'] = '죄송합니다. 로그인 실패 - 당�
 $string['auth_cas_language'] = '선택된 언어';
 $string['auth_cas_language_key'] = '언어';
 $string['auth_cas_logincas'] = '안전한 연결 접속';
+$string['auth_cas_logoutcas'] = '무들을 끝낼 때 CAS에서 로그아웃하려면 이 난을 \'예\'로 하시오';
+$string['auth_cas_logoutcas_key'] = 'CAS 로그아웃';
+$string['auth_cas_multiauth'] = '다중 인증(CAS+기타 인증)을 하려면 이 난을 \'예\'로 하시오';
+$string['auth_cas_multiauth_key'] = '다중 인증';
 $string['auth_cas_port'] = 'CAS서버의 포트';
 $string['auth_cas_port_key'] = '포트';
+$string['auth_cas_proxycas'] = '프록시 모드에서 CAS를 사용하려면 이 난을 \'예\'로 하시오';
+$string['auth_cas_proxycas_key'] = '프록시 모드';
 $string['auth_cas_server_settings'] = 'CAS서버 설정';
 $string['auth_cas_text'] = '보안 연결';
 $string['auth_cas_use_cas'] = 'CAS 사용';
