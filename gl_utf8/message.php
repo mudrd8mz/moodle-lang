@@ -1,0 +1,70 @@
+<?PHP // $Id$ 
+      // message.php - created with Moodle 1.7.1 (2006101010)
+
+
+$string['addcontact'] = 'Engadir contacto';
+$string['addsomecontacts'] = 'Para enviar a alguén unha mensaxe, ou para engadir nesta páxina un atallo que conduza a eles, use o <a href=\"$a\">separador de busca</a>.';
+$string['addsomecontactsincoming'] = 'Estas mensaxes proceden de persoas que non están na súa lista de contactos. Para engadilos, prema a icona \"Engadir contacto\" situada ao lado do seu nome.';
+$string['ago'] = 'hai $a';
+$string['allmine'] = 'Todas as mensaxes para min e enviadas por min';
+$string['allstudents'] = 'Todas as mensaxes entre estudantes do curso';
+$string['allusers'] = '<br />Todas as mensaxes procedentes de todos os usuarios';
+$string['backupmessageshelp'] = 'Cando está inactivo, as mensaxes instantáneas inclúense nas copias de seguranza automáticas do sitio';
+$string['beepnewmessage'] = 'Ouvir un sinal cando entra unha nova mensaxe (Pode precisar dun plugin do explorador que produza sons, como o Quicktime)';
+$string['blockcontact'] = 'Bloquear contacto';
+$string['blockedmessages'] = '$a mensaxes para/de usuarios bloqueados';
+$string['blocknoncontacts'] = 'Bloquear todas as novas mensaxes procedentes de persoas que non están na miña lista de contactos';
+$string['contactlistempty'] = 'A súa lista de contactos está baleira';
+$string['contacts'] = 'Contactos';
+$string['context'] = 'contexto';
+$string['deletemessagesdays'] = 'Número de días previos á eliminación automática das mensaxes vellas';
+$string['discussion'] = 'Discusión';
+$string['emailmessages'] = 'Mensaxes de correo electrónico cando estou desconectado';
+$string['emailtagline'] = 'Este correo electrónico é a copia dunha mensaxe que lle enviaron en \"$a\"';
+$string['emptysearchstring'] = 'Debe procurar algo';
+$string['formorethan'] = 'Para máis de';
+$string['includeblockedusers'] = 'Incluír usuarios bloqueados';
+$string['incomingcontacts'] = 'Contactos que entran ($a)';
+$string['keywords'] = 'Palabras chave';
+$string['keywordssearchresults'] = 'Resultado da busca: $a mensaxes encontradas';
+$string['maxmessages'] = 'Número máximo de mensaxes mostradas no historial da discusión';
+$string['message'] = 'Mensaxe';
+$string['messagehistory'] = 'Historial de mensaxes';
+$string['messages'] = 'Mensaxes';
+$string['messaging'] = 'Enviando mensaxes';
+$string['mycontacts'] = 'Os meus contactos';
+$string['newonlymsg'] = 'Mostra só novas';
+$string['newsearch'] = 'Nova busca';
+$string['noframesjs'] = 'Versión sen marcos e JavaScript';
+$string['nomessages'] = 'Sen mensaxes á espera';
+$string['nomessagesfound'] = 'Non se encontrou ningunha mensaxe';
+$string['nosearchresults'] = 'Non se obtiveron resultados da súa busca';
+$string['offline'] = 'Desconectado';
+$string['offlinecontacts'] = 'Contactos fóra de liña ($a)';
+$string['online'] = 'Conectado';
+$string['onlinecontacts'] = 'Contactos en liña ($a)';
+$string['onlyfromme'] = 'Só mensaxes enviadas por min';
+$string['onlymycourses'] = 'Só dos meus cursos';
+$string['onlytome'] = 'Só mensaxes para min';
+$string['pagerefreshes'] = 'Esta páxina actualízase automaticamente cada $a segundos';
+$string['readmessages'] = '$a mensaxes lidas';
+$string['removecontact'] = 'Eliminar contacto';
+$string['savemysettings'] = 'Gardar a miña configuración';
+$string['search'] = 'Procurar';
+$string['searchforperson'] = 'Procurar unha persoa';
+$string['searchmessages'] = 'Procurar nas mensaxes';
+$string['sendmessage'] = 'Enviar mensaxe';
+$string['sendmessageto'] = 'Enviar mensaxe a $a';
+$string['settings'] = 'Configuración';
+$string['settingssaved'] = 'Gardouse a súa configuración';
+$string['showmessagewindow'] = 'Mostrar automaticamente unha xanela de mensaxe cando recibo novas mensaxes (O explorador ten que configurarse de xeito que non bloquee os despregables deste sitio)';
+$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
+$string['timenosee'] = 'Minutos transcorridos desde a última vez que fun visto conectado';
+$string['timesent'] = 'Tempo enviado';
+$string['unblockcontact'] = 'Desbloquear contacto';
+$string['unreadmessages'] = '$a mensaxes non lidas';
+$string['userisblockingyou'] = 'Foi bloqueado por este usuario para impedir que lle envíe mensaxes';
+$string['userisblockingyounoncontact'] = 'Este usuario só acepta mensaxes de persoas incluídas na súa lista de contactos e vostede non está nesa lista neste momento.';
+$string['userssearchresults'] = 'Resultado da busca: $a usuarios encontrados';
+
+?>
