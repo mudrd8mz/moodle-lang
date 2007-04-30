@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.8 dev (2006101001)
+      // block_rss_client.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['addfeed'] = 'أضف عنوان تغذية الاخبار.';
 $string['addheadlineblock'] = 'أضف عنوان كتلة خدمة تغذية الاخبار.';
 $string['addnew'] = 'أضف جديد.';
+$string['blockname'] = 'مستحدم خدمة تغذية الاخبار';
 $string['choosefeedlabel'] = 'أخترالتغذيات التي ترغب ان تكون متاحة في هذه الكتلة:';
 $string['clientchannellink'] = 'الموقع المصدر.......';
 $string['clientnumentries'] = 'عدد المدخلات الأفتراضي التي ستعرض لكل تغذية.';
@@ -28,9 +29,13 @@ $string['feedstitle'] = 'خدمة تغذية الأخبار البعيدة.';
 $string['feedupdated'] = 'تم تحديث تغذية الاخبار.';
 $string['findmorefeeds'] = 'أبحث عن ابحث عن المزيد من التغذيات الاخبارية.';
 $string['managefeeds'] = 'ادر كل التغذيات الخاصة بي.';
-$string['nofeeds'] = 'لا توجد ت تغذيات إخبارية معرفة لهذا الموقع.';
+$string['nofeeds'] = 'لا توجد تغذيات إخبارية معرفة لهذا الموقع.';
 $string['pickfeed'] = 'انتقي مغذى اخبار.';
 $string['remotenewsfeed'] = 'مغذي أخبار البعيد.';
+$string['rss_client:createprivatefeeds'] = 'أنشاء خدمة تغذية الأخبارية  خاصة';
+$string['rss_client:createsharedfeeds'] = 'أنشاء خدمة تغذية الأخبارية مشتركة';
+$string['rss_client:manageanyfeeds'] = 'أدر أي خدمة تغذية إخبارية';
+$string['rss_client:manageownfeeds'] = 'أدر خدمة تغذية إخبارية الخاصة بك';
 $string['seeallfeeds'] = 'شاهد كل التغذيات';
 $string['sharedfeed'] = 'تغذية مشتركة';
 $string['shownumentrieslabel'] = 'الحد الاقصى لعدد المدخلات المغروضة في كل كتلة';

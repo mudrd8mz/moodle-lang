@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 dev (2006120700)
+      // enrol_authorize.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['adminacceptccs'] = 'ما هو نوع بطاقة الأئيمان الذي سيتم مقبول؟';
@@ -13,10 +13,14 @@ $string['adminemailexpiredsortsum'] = 'المبلغ الاجمالي';
 $string['adminhelpcapturetitle'] = 'يوم الاستحواذ الذاتي';
 $string['adminhelpreviewtitle'] = 'مراجعة الطلب';
 $string['adminreview'] = 'قم بمراجعة الطلب قبل الإستحواذ على بطاقة الأئتمان';
+$string['adminteachermanagepay'] = 'يستطيع المعلمون إدارة الدفعات المالية للمقرر الدارسي';
+$string['allpendingorders'] = 'جميع الطلبات الموجودة في قائمة الأنتضار';
 $string['amount'] = 'الملبغ';
 $string['anlogin'] = 'اسم الدخول  Authorize.net:';
 $string['anpassword'] = 'كلمة المرور Authorize.net:';
 $string['anreferer'] = '\'لو قمت بإعداد حساب مع authorize.net فقم بتعريف عنوان الرابط المشير إلى ذلك. هذا سيرسل رسالة \"عنوان:المشير\" متضمن الطلب.';
+$string['authorize:managepayments'] = 'إدارة الدفعات المالية';
+$string['avsb'] = 'لم يتم توفير معلومات العنوان';
 $string['cancelled'] = 'الغي';
 $string['ccexpire'] = 'تاريخ نهاية الصلاحية';
 $string['ccexpired'] = 'لقد انتهت صلاحية بطاقة االأئتمان';
@@ -29,6 +33,7 @@ $string['echeckabacode'] = 'رقم البنك';
 $string['echeckaccnum'] = 'رقم الحساب البنكي';
 $string['echeckacctype'] = 'نوع الحساب البنكي';
 $string['echeckbankname'] = 'اسم البنك';
+$string['echeckbusinesschecking'] = 'حساب أعمال بنكي';
 $string['echeckchecking'] = 'حساب جاري';
 $string['echeckfirslasttname'] = 'صاحب الحساب البنكي';
 $string['echecksavings'] = 'حساب توفير';
@@ -46,6 +51,7 @@ $string['missingccexpire'] = 'تاريخ انتهاء صلاحية بطاقة ا
 $string['missingcctype'] = 'نوع بطاقة الأئتمان لم يتم توفيره';
 $string['missingcvv'] = 'رقم التأكد الخاص ببطاقة الأئتمان لم يتم توفيره';
 $string['missingzip'] = 'الرمز البريدي  لم يتم توفيره';
+$string['mypaymentsonly'] = 'اعرض دفعاتي المالية فقط';
 $string['nameoncard'] = 'الاسم الموجود على رقم بطاقة الأئتمان';
 $string['new'] = 'جديد';
 $string['noreturns'] = 'لا يوجد عائدات!';

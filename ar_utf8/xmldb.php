@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.8 dev (2006120700)
+      // xmldb.php - created with Moodle 1.9 dev (2007042400)
 
 
 $string['aftertable'] = 'بعد الجدول:';
@@ -30,10 +30,11 @@ $string['edit_xml_file'] = 'حرير ملف أكس أم إل (XML)';
 $string['field'] = 'حقل';
 $string['fieldnameempty'] = 'اسم الحقل فارغ';
 $string['fields'] = 'حقول';
-$string['indexes'] = 'فارس';
+$string['incorrectfieldname'] = 'اسم غير صحيح';
+$string['indexes'] = 'فهارس';
 $string['keys'] = 'مفاتيح';
 $string['load'] = 'حمل';
-$string['main_view'] = 'الماينة الأساسية';
+$string['main_view'] = 'المعاينة الأساسية';
 $string['new_statement'] = 'عبارة جديدة';
 $string['newfield'] = 'حقل جديد';
 $string['newindex'] = 'فهرس جديد';
@@ -55,5 +56,11 @@ $string['test'] = 'اختبار';
 $string['unload'] = 'تحميل';
 $string['up'] = 'أعلى';
 $string['view'] = 'عاين (معاينة)';
+$string['view_table_php'] = 'معاينة جدول بي أتش بي';
+$string['view_table_sql'] = 'معاينة جدول أس كيو إل';
+$string['viewedited'] = 'معاينة ما تم تحريره';
+$string['vieworiginal'] = 'معاينة الاصل';
+$string['viewphpcode'] = 'معاينة ترميز بي أتش بي';
+$string['viewsqlcode'] = 'معاينة ترميز أس كيو إل';
 
 ?>

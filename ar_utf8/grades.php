@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.8 dev (2006120700)
+      // grades.php - created with Moodle 1.9 dev (2007042400)
 
 
 $string['addcategory'] = 'أضف فئة';
@@ -26,22 +26,22 @@ $string['excluded'] = 'استبعد';
 $string['extracredit'] = 'نقاط إضافية';
 $string['forstudents'] = 'للطلاب';
 $string['gradebook'] = 'سجل درجات';
-$string['gradecategoryhelp'] = 'مساعدة فئة الدرجة';
-$string['gradehelp'] = 'مساعدة الدرجة';
+$string['gradecategoryhelp'] = 'تعليمات فئة الدرجة';
+$string['gradehelp'] = 'تعليمات الدرجة';
 $string['gradeitem'] = 'بند الدرجة';
 $string['gradeitems'] = 'بنود الدرجة';
 $string['gradeletter'] = 'درجة حرفيه';
-$string['gradeletterhelp'] = 'مساعدة درجة حرفية';
+$string['gradeletterhelp'] = 'تعليمات درجة حرفية';
 $string['gradeletternote'] = 'لحذف درجة حرفيه فقط افرغ اى من <br /> مناطق النص الثالثة لذلك الحرف ثم انقر سلم.';
-$string['gradepreferenceshelp'] = 'مساعدة تفضيلات الدرجة';
+$string['gradepreferenceshelp'] = 'تعليمات تفضيلات الدرجة';
 $string['grades'] = 'درجات';
-$string['gradeweighthelp'] = 'مساعدة وزن الدرجة';
+$string['gradeweighthelp'] = 'تعليمات وزن الدرجة';
 $string['hideadvanced'] = 'أخفي المزايا المتقدمة';
 $string['hidecategory'] = 'مخفي';
 $string['highgradeascending'] = 'أفرز تصاعدياً حسب اعلى درجة';
 $string['highgradedescending'] = 'أفرز تنازليا حسب اعلى درجة';
 $string['highgradeletter'] = 'عالي';
-$string['incorrectcourseid'] = 'رقم المنهج الدراسي غير صحيح';
+$string['incorrectcourseid'] = 'رقم المقررالدراسي غير صحيح';
 $string['item'] = 'بند';
 $string['items'] = 'بنود';
 $string['lettergrade'] = 'درجة حرفية';

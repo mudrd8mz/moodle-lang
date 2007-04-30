@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 Beta 1 (2006032900)
+      // install.php - created with Moodle 1.8 (2007021501)
 
 
 $string['admindirerror'] = 'مجلد الإدارة المحدد غير صحيح';
@@ -37,7 +37,7 @@ $string['memorylimit'] = 'حد الذاكرة';
 $string['memorylimiterror'] = 'ذاكرة الـ PHP صغيرة جداً... من المحتل ستواجه بعض المشاكل لاحقاً';
 $string['pass'] = 'اجتياز';
 $string['phpversion'] = 'أصدار PHP';
-$string['phpversionerror'] = 'يجب ان يكون إصدار PHP 4.1.0 على الاقل ';
+$string['phpversionerror'] = 'يجب ان يكون إصدار PHP 4.1.0 على الاقل';
 $string['phpversionhelp'] = '<p> يتطلب مودل على الاقل الأصدار 4.1.0 لـ PHP </p>
 <p> انت تستخدم الأصدار $a </p>
 <p> يجب عليك ترقية PHP أو الانتقال إلى مستظيف أخر لديه أصدار اجد لـ PHP.</p>';

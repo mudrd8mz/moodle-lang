@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8 dev (2006101001)
+      // blog.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['addnewentry'] = 'أضف مدخل جديد';
@@ -14,6 +14,11 @@ $string['blogpreferences'] = 'تفضيلات البلوق';
 $string['blogs'] = 'بلوقات';
 $string['blogtags'] = 'علامات بلوق';
 $string['courseblog'] = 'بلوق مقرر دراسي: $a';
+$string['courseblogs'] = 'يستطيع المستخدمين رؤية بلوقات الاشخاص المشتركين معهم في المقرر الدراسي';
+$string['deleteotagswarn'] = 'هل أنت متأكد من حذف هذه/هؤلاء العلامات من جميع مشاركات البلوق، وكذلك حذفها من النظام؟';
+$string['disableblogs'] = 'عطل نظام البلوق تماماً';
+$string['emptybody'] = 'لا يمكن ترك محتوى البلوق فارغاً';
+$string['emptytitle'] = 'لا يمكن ترك عنوان البلوق فارغاً';
 $string['entrybody'] = 'متن مدخل بلوق';
 $string['entrybodyonlydesc'] = 'وصف مدخل';
 $string['entryerrornotyours'] = 'هذا المدخل ليس خاص بك';
@@ -21,6 +26,7 @@ $string['entrysaved'] = 'تم حفظ مشاركتك';
 $string['entrytitle'] = 'عنوان مدخل';
 $string['entryupdated'] = 'تم تحديث مدخل بلوق';
 $string['groupblog'] = 'مجموعة بلوق: $a';
+$string['groupblogs'] = 'يستطيع المستخدمين فقط رؤية بلوقات الاشخاص المشتركين معهم في المجموعة';
 $string['intro'] = 'تم أنشاء هذه التغذية الاخبارية آلياص من بلوق واحد أو أكثر';
 $string['noentriesyet'] = 'لا يوجد مدلات مرئية هناء';
 $string['noguestpost'] = 'لا يستطيع الزائر القيام بوضع بلوقات';

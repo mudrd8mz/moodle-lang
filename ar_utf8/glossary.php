@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 dev (2006101001)
+      // glossary.php - created with Moodle 1.9 dev (2007042400)
 
 
 $string['addcomment'] = 'أضف تعليق';
@@ -89,6 +89,10 @@ $string['entryleveldefaultsettings'] = 'اإعداد الإفتراضي للمص
 $string['entrysaved'] = 'تم حفظ هذا المصطلح';
 $string['entryupdated'] = 'تم تحديث هذا المصطلح';
 $string['entryusedynalink'] = 'يجب ربط هذا المصطلح آليا';
+$string['errcannoteditothers'] = 'لا يمكن تحرير مدخلات الأخرين';
+$string['errconceptalreadyexists'] = 'هذا المصطلح موجود مسبقاً. لا يمكن التكرار في هذا المسرد';
+$string['erredittimeexpired'] = 'الوقت المسموح التحرير خلاله قد انتهى';
+$string['errorparsingxml'] = '‏‏حدث خطأ أثناءتحليل الملف. تأكد من أن  بناء جملةإكس أم إل (XML)صحيح';
 $string['explainaddentry'] = 'أضف مصطلح جديدة إلى المسرد الحالي.<br /> تعبئة حقلي المفهوم و التعريف إجباري';
 $string['explainall'] = 'أعرض جميع المصطلاحات في صفحة واحدة';
 $string['explainalphabet'] = 'استعرض المسرد باستخدام الفهرست';
@@ -122,8 +126,10 @@ $string['importcategories'] = 'استورد الفئات';
 $string['importedcategories'] = 'الفئات المستوردة';
 $string['importedentries'] = 'المصطلاحات المستوردة';
 $string['importentries'] = 'استورد المصطلاحات';
+$string['importentriesfromxml'] = 'استيراد مدخلات من ملف XML';
 $string['isglobal'] = 'هل هذا المسرد عام';
 $string['linkcategory'] = 'اربط هذا المصطلح آليا';
+$string['linking'] = 'ربط آلي';
 $string['mainglossary'] = 'مسرد رئيس';
 $string['maxtimehaspassed'] = 'عذراَ، انتهى الوقت الاقصى لتحرير ($a) هذا التعليق';
 $string['modulename'] = 'مسرد';
