@@ -1,32 +1,38 @@
 <?PHP // $Id$ 
-      // journal.php - created with Moodle 1.1 (2003082800)
+      // journal.php - created with Moodle 1.7.1 (2006101010)
 
 
-$string['alwaysopen'] = "Sempre aberto";
-$string['blankentry'] = "Non hai datos";
-$string['daysavailable'] = "Días dispoñibles";
-$string['editingended'] = "O período de edición rematou";
-$string['editingends'] = "Período de edición finalizado";
-$string['entries'] = "Entradas";
-$string['feedbackupdated'] = "Resposta actualizada en \$a entries";
-$string['journalmail'] = "\$a->teacher fixo algúns comentarios sobre a súa entrada no xornal en '\$a->journal' Pode velos engadidos á súa entrada no xornal: \$a->url";
-$string['journalmailhtml'] = "\$a->teacher fixo algúns comentarios sobre a súa entrada no xornal en '<i>\$a->journal</i>'<br /><br />Pode velos engadidos á súa <a href=\"$a->url\">entrada en xornal</a>.";
-$string['journalname'] = "Nome do xornal";
-$string['journalquestion'] = "Pregunta do xornal";
-$string['journalrating1'] = "Non satisfactorio";
-$string['journalrating2'] = "Satisfactorio";
-$string['journalrating3'] = "Excelente";
-$string['modulename'] = "Xornal";
-$string['modulenameplural'] = "Xornais";
-$string['newjournalentries'] = "Novo rexistro de xornal";
-$string['noentry'] = "Ningún rexistro";
-$string['noratinggiven'] = "Sen cualificación";
-$string['notopenuntil'] = "Este xornal abrirase";
-$string['notstarted'] = "Vostede aínda non iniciou este xornal";
-$string['overallrating'] = "Cualificación xeral";
-$string['rate'] = "Cualificación";
-$string['saveallfeedback'] = "Gardar todas as miñas respostas";
-$string['startoredit'] = "Iniciar ou editar o meu rexistro de xornal";
-$string['viewallentries'] = "Ver  \$a entradas do xornal";
+$string['alwaysopen'] = 'Sempre aberto';
+$string['blankentry'] = 'Entrada en branco';
+$string['daysavailable'] = 'Días dispoñibles';
+$string['editingended'] = 'O período de edición terminou';
+$string['editingends'] = 'Termina o período de edición';
+$string['entries'] = 'Entradas';
+$string['feedbackupdated'] = 'Comentarios actualizados de $a entradas';
+$string['journalmail'] = '$a->teacher comentou a súa entrada do diario \'$a->journal\'
+
+Pode ver o comentario na súa entrada:
+
+    $a->url';
+$string['journalmailhtml'] = '$a->teacher comentou a súa entrada do diario \'<i>$a->journal</i>\'<br /><br />
+Pode ver o comentario na súa <a href=\"$a->url\">entrada de diario</a>.';
+$string['journalname'] = 'Nome do diario';
+$string['journalquestion'] = 'Pregunta do diario';
+$string['journalrating1'] = 'Insatisfactorio';
+$string['journalrating2'] = 'Satisfactorio';
+$string['journalrating3'] = 'Excepcional';
+$string['mailsubject'] = 'Comentario do diario';
+$string['modulename'] = 'Diario';
+$string['modulenameplural'] = 'Diarios';
+$string['newjournalentries'] = 'Novas entradas do diario';
+$string['noentry'] = 'Ningunha entrada';
+$string['noratinggiven'] = 'Ningunha valoración';
+$string['notopenuntil'] = 'Este diario non se abrirá até';
+$string['notstarted'] = 'Aínda non comezou este diario';
+$string['overallrating'] = 'Valoración global';
+$string['rate'] = 'Índice';
+$string['saveallfeedback'] = 'Gardar todos os meus comentarios';
+$string['startoredit'] = 'Comezar ou editar a miña entrada de diario';
+$string['viewallentries'] = 'Ver $a entradas de diario';
 
 ?>

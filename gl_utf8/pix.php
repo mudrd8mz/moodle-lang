@@ -1,26 +1,26 @@
 <?PHP // $Id$ 
-      // pix.php - created with Moodle 1.3.1 (2004052501)
+      // pix.php - created with Moodle 1.7.1 (2006101010)
 
 
-$string['angry'] = 'anoxado';
-$string['approve'] = 'aprobación';
-$string['biggrin'] = 'gran sorriso';
+$string['angry'] = 'enfadado';
+$string['approve'] = 'aprobador';
+$string['biggrin'] = 'grande sorriso';
 $string['blackeye'] = 'ollo negro';
 $string['blush'] = 'ruborizado';
 $string['clown'] = 'pallaso';
-$string['cool'] = 'guai';
+$string['cool'] = 'fresco';
 $string['dead'] = 'morto';
-$string['evil'] = 'diabólico';
+$string['evil'] = 'diabo';
 $string['kiss'] = 'bico';
-$string['mixed'] = 'confuso';
+$string['mixed'] = 'mesturado';
 $string['sad'] = 'triste';
 $string['shy'] = 'tímido';
-$string['sleepy'] = 'durmido';
+$string['sleepy'] = 'adormecido';
 $string['smiley'] = 'sorriso';
-$string['surprise'] = 'sorpresa';
+$string['surprise'] = 'sorprendido';
 $string['thoughtful'] = 'pensativo';
-$string['tongueout'] = 'lingua fóra';
-$string['wideeyes'] = 'asombro';
-$string['wink'] = 'chiscar de ollo';
+$string['tongueout'] = 'coa lingua fora';
+$string['wideeyes'] = 'ollos arregalados';
+$string['wink'] = 'chiscadela';
 
 ?>
