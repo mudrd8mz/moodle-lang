@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007042702)
+      // role.php - created with Moodle 1.9 dev (2007050201)
 
 
 $string['addrole'] = '역할 추가';
@@ -25,6 +25,7 @@ $string['course:activityvisibility'] = '활동 감추기/보기';
 $string['course:bulkmessaging'] = '여러 사람에게 쪽글 발송';
 $string['course:create'] = '배움터 생성';
 $string['course:delete'] = '배움터 삭제';
+$string['course:downloadallgrades'] = '모든 성적을 내려받음';
 $string['course:manageactivities'] = '활동 관리';
 $string['course:managefiles'] = '파일 관리';
 $string['course:managegrades'] = '성적 관리';
@@ -37,11 +38,13 @@ $string['course:setcurrentsection'] = '현재 영역 설정';
 $string['course:update'] = '배움터 설정 갱신';
 $string['course:useremail'] = '이메일  사용여부';
 $string['course:view'] = '배움터 보기';
+$string['course:viewallgrades'] = '모든 성적 보기';
 $string['course:viewcoursegrades'] = '배움터 성적 보기';
 $string['course:viewhiddenactivities'] = '숨겨진 활동 보기';
 $string['course:viewhiddencourses'] = '숨겨진 배움터 보기';
 $string['course:viewhiddensections'] = '숨겨진 영역 보기';
 $string['course:viewhiddenuserfields'] = '숨겨진 사용자항목 보기';
+$string['course:viewowngrades'] = '내 성적 보기';
 $string['course:viewparticipants'] = '참여자 보기';
 $string['course:viewscales'] = '척도 보기';
 $string['course:visibility'] = '배움터 숨기기/보기';
@@ -59,6 +62,10 @@ $string['errorexistsrolename'] = '역할명이 이미 존재합니다.';
 $string['errorexistsroleshortname'] = '단축역할명이 이미 존재합니다.';
 $string['existingusers'] = '$a 기존 사용자';
 $string['globalroleswarning'] = '경고! 이 화면에서 사용자에게 부여한 역할은 대문화면뿐만 아니라 이 사이트 전체의 배움터에 적용됩니다.';
+$string['grade:editlocked'] = '잠긴 성적 편집';
+$string['grade:hide'] = '성적 숨김';
+$string['grade:lock'] = '성적 잠금';
+$string['grade:viewhidden'] = '숨겨진 성적 보기';
 $string['inherit'] = '따름';
 $string['legacy:admin'] = '규정된 역할 : 관리자';
 $string['legacy:coursecreator'] = '규정된 역할 : 배움터 생성자';
