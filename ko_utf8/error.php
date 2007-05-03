@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007041800)
+      // error.php - created with Moodle 1.9 dev (2007050300)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 편집될 수 없음';
@@ -39,6 +39,7 @@ $string['invalidfiletype'] = '\"$a\"는 유효한 파일유형이 아닙니다.'
 $string['invalidmd5'] = '잘못된 md5';
 $string['invalidrequest'] = '잘못된 요청';
 $string['invalidrole'] = '잘못된 역할';
+$string['invalidurl'] = '잘못된 웹주소';
 $string['invalidxmlfile'] = '\"$a\"는 정확한 XML 파일이 아닙니다.';
 $string['listcantmovedown'] = '마지막 항목이어서 항목을 아래로 옮기지 못 함.';
 $string['listcantmoveleft'] = '상위가 없어서 항목을 왼쪽으로 옮기지 못 함.';
