@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007041800)
+      // error.php - created with Moodle 1.9 dev (2007050301)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -39,6 +39,7 @@ $string['invalidfiletype'] = '「 $a 」は有効なファイルタイプでは�
 $string['invalidmd5'] = '無効なmp5ファイルです。';
 $string['invalidrequest'] = '無効なリクエストです。';
 $string['invalidrole'] = '無効なロールです。';
+$string['invalidurl'] = '無効なURLです。';
 $string['invalidxmlfile'] = '「 $a 」は有効なXMLファイルではありません。';
 $string['listcantmovedown'] = 'アイテムの下移動に失敗しました。これは最下位のアイテムです。';
 $string['listcantmoveleft'] = 'アイテムの左移動に失敗しました。親がありません。';
