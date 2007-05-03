@@ -37,6 +37,7 @@ $string['invalidfiletype'] = '«&nbsp;$a&nbsp;» n\'est pas un type de fichier v
 $string['invalidmd5'] = 'Code md5 non valide';
 $string['invalidrequest'] = 'Requête non valide';
 $string['invalidrole'] = 'Rôle non valide';
+$string['invalidurl'] = 'URL non valide';
 $string['invalidxmlfile'] = '«&nbsp;$a&nbsp;» n\'est pas un fichier XML valide';
 $string['listnopeers'] = 'Aucun élément de même niveau trouvé.';
 $string['listnoitem'] = 'Élément non trouvé.';
