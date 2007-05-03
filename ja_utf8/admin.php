@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007042702)
+      // admin.php - created with Moodle 1.9 dev (2007050301)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -7,6 +7,7 @@ $string['accounts'] = 'アカウント';
 $string['adminseesall'] = '管理者がすべてを閲覧する';
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示';
 $string['adminseesownevents'] = '管理者は他のユーザと同じ';
+$string['allowcategorythemes'] = 'カテゴリテーマを許可する';
 $string['allowcoursethemes'] = 'コーステーマを許可する';
 $string['allowemailaddresses'] = '許可されたメールアドレスのドメイン';
 $string['allowobjectembed'] = 'EMBEDおよびOBJECTタグを許可する';
@@ -45,6 +46,7 @@ $string['cleanup'] = 'クリーンアップ';
 $string['componentinstalled'] = 'コンポーネントがインストールされました。';
 $string['confeditorhidebuttons'] = 'HTMLエディタで隠すボタンを選択してください。';
 $string['configallowassign'] = '左側のロールに各カラムのロールの割り当てを許可します。';
+$string['configallowcategorythemes'] = 'この設定を有効にした場合、カテゴリに独自のテーマを設定することができます。独自のテーマが設定されていない限り、カテゴリテーマはすべての子カテゴリおよびコースのテーマを上書きします。警告: カテゴリテーマを有効にするとパフォーマンスに影響を及ぼします。';
 $string['configallowcoursethemes'] = 'この設定を有効にした場合、コースに独自のテーマを設定することができます。コーステーマは、他のすべてのテーマ (サイト、ユーザ、セッションテーマ) を上書きします。';
 $string['configallowemailaddresses'] = '新しいメールアドレスを特定のドメインのみに制限したい場合、この欄にスペースで区切って入力してください。他のドメインはすべて拒否されます。例 <strong>ourcollege.edu.au .gov.au</strong>';
 $string['configallowobjectembed'] = 'デフォルトのセキュリティ対策として、通常のユーザはマルチメディア (Flash等) をEMBEDおよびOBJECTタグでHTMLに埋め込むことは許可されていません (メディアプラグインフィルタを使用して安全に埋め込むことは可能です)。これらのタグの使用を許可したい場合、このオプションを有効にしてください。';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007042700)
+      // moodle.php - created with Moodle 1.9 dev (2007050301)
 
 
 $string['action'] = '操作';
@@ -1222,6 +1222,7 @@ $string['senddetails'] = '私のログイン情報をメール送信する';
 $string['separate'] = '分離';
 $string['separateandconnected'] = '分離・関連認識';
 $string['serverlocaltime'] = 'サーバのシステム時間';
+$string['setcategorytheme'] = 'カテゴリテーマの設定';
 $string['settings'] = '設定';
 $string['shortname'] = '省略名';
 $string['shortnamecollisionwarning'] = '[*] = この省略名はすでに他のコースで使用されています。承認されるためには、省略名を変更する必要があります。';
