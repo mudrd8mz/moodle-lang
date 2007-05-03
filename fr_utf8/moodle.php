@@ -1193,6 +1193,7 @@ $string['senddetails'] = 'Envoyer un nouveau mot de passe par courriel';
 $string['separate'] = 'Séparer';
 $string['separateandconnected'] = 'Appropriation du savoir liée ou détachée';
 $string['serverlocaltime'] = 'Heure locale du serveur';
+$string['setcategorytheme'] = 'Choisir le thème de la catégorie';
 $string['settings'] = 'Paramètres';
 $string['shortname'] = 'Nom abrégé';
 $string['shortnamecollisionwarning'] ='[*] = Un cours avec ce nom abrégé existe déjà et devra être modifié lors de l\'approbation';
