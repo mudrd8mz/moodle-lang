@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8 dev (2006112200)
+      // choice.php - created with Moodle 1.9 dev (2007050300)
 
 
 $string['addmorechoices'] = '選択肢の追加';
@@ -37,6 +37,7 @@ $string['publishalways'] = '常に学生に投票結果を表示する';
 $string['publishanonymous'] = '投票結果を匿名で公開する、学生の氏名を表示しない';
 $string['publishnames'] = '投票結果をすべて公開する、学生の氏名および投票内容を表示する';
 $string['publishnot'] = '学生に投票結果を公開しない';
+$string['removemychoice'] = '私の投票を削除する';
 $string['responses'] = '投票結果';
 $string['responsesto'] = '$a へ投票する';
 $string['savemychoice'] = '投票する';
