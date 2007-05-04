@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007042701)
+      // moodle.php - created with Moodle 1.9 dev (2007050400)
 
 
 $string['action'] = '동작';
@@ -1201,6 +1201,7 @@ $string['senddetails'] = '이메일로 나의 상세정보 보내기';
 $string['separate'] = '분리';
 $string['separateandconnected'] = '학습자의 분리와 연대 유형';
 $string['serverlocaltime'] = '서버의 지역시간';
+$string['setcategorytheme'] = '범주 테마 설정';
 $string['settings'] = '설정들';
 $string['shortname'] = '짧은 이름';
 $string['shortnamecollisionwarning'] = '[*]=이 짧은 이름은 이미 다른 교육과정에 사용되고 있습니다. 승인이 될 수 있는 다른 이름으로 바꿔주십시오';
@@ -1499,7 +1500,7 @@ $string['writinguserinfo'] = '사용자 정보 쓰기';
 $string['wrongpassword'] = '이 계정의 비밀번호와 일치하지 않습니다.';
 $string['xmldbeditor'] = 'XMLDB 편집기';
 $string['yahooid'] = '야후 아이디';
-$string['year'] = '년도';
+$string['year'] = '년';
 $string['years'] = '년';
 $string['yes'] = '예';
 $string['youareabouttocreatezip'] = 'zip 파일을 생성하려고 합니다.';
