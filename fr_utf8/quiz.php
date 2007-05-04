@@ -241,6 +241,7 @@ $string['imagemissing'] = 'Image non disponible à la ligne $a. Le fichier sera 
 $string['import'] = 'Importer';
 $string['importcategory'] = 'Importer une catégorie';
 $string['importerror'] = 'Une erreur est survenue lors de l\'importation';
+$string['importerrorquestion'] = 'Une erreur est survenue lors de l\'importation d\'une question';
 $string['importfilearea'] = 'Importer à partir d\'un fichier du cours...';
 $string['importfileupload'] = 'Importer à partir d\'un fichier à déposer...';
 $string['importfromthisfile'] = 'Importer à partir de ce fichier';
