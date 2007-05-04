@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007042702)
+      // admin.php - created with Moodle 1.9 dev (2007050400)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -7,6 +7,7 @@ $string['accounts'] = '계정';
 $string['adminseesall'] = '관리자는 모든 것을 봄';
 $string['adminseesallevents'] = '관리자가 모든 일정을 봄';
 $string['adminseesownevents'] = '관리자는 다른 사용자들과 같음';
+$string['allowcategorythemes'] = '범주 테마 허용';
 $string['allowcoursethemes'] = '배움터 테마 허용';
 $string['allowemailaddresses'] = '허용된 이메일 도메인';
 $string['allowobjectembed'] = 'Embed 와 Object 태그 허용';
@@ -45,6 +46,7 @@ $string['cleanup'] = '정리';
 $string['componentinstalled'] = '구성요소가 설치되었음';
 $string['confeditorhidebuttons'] = 'HTML 편집기에서 감추고자 하는 버튼을 선택하세요.';
 $string['configallowassign'] = '왼쪽의 역할에게 각 칼럼의 역할 부여를 허용';
+$string['configallowcategorythemes'] = '이것을 활성화하면, 범주 수준에서 테마를 설정할 수 있게 된다. 각각의 하위 범주 혹은 배움터에서 나름대로 테마를 지정하지 않는 한, 범주 수준에서 설정한 테마가 그 하위에도 적용된다. 경고: 범주 테마 활성화는 성능에 영향을 미칠 수도 있다.';
 $string['configallowcoursethemes'] = '이것을 활성화하면, 각 배움터는 나름대로 독특한 테마로 설정될 수 있다. 배움터 테마는 모든 다른 테마(사이트, 사용자, 또는 세션 테마)선택보다 우선하여 적용된다';
 $string['configallowemailaddresses'] = '만약 당신이 특별한 도메인의 이메일 주소만 허용하고자 한다면, 그 목록들을 한 칸씩 띄어 적어 놓아라. 그 외 모든 다른 도메인들은 거부된다. ( 예: <strong>sun.ac.kr moodle.org</strong> )';
 $string['configallowobjectembed'] = '기본 보안 규정에 따라, 일반 사용자들은 멀티미디어 파일 (예:플래시,동영상,mp3)을 EMBED, OBJECT 등의 명령어나 태그를 사용해서 올릴수 없다. (비록 안전한 미디어 파일일지라도) 운영자가 허락 옵션을 켜야만 파일을 올릴수 있다.';
