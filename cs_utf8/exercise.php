@@ -1,5 +1,6 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.6 + (2006050506)
+      // exercise.php - created with Moodle 1.8 + (2007021503)
+
 
 $string['absent'] = 'Chybí';
 $string['accumulative'] = 'Kritéria';
@@ -32,7 +33,7 @@ $string['criterion'] = 'Charakteristika';
 $string['deadline'] = 'Uzávěrka';
 $string['deadlineis'] = 'Datum uzávěrky: $a';
 $string['delete'] = 'Odstranit';
-$string['deletesubmissionwarning'] = 'Upozornění: k této práci jsou již přiřazena hodnocení (celkem $a).<br />Rozhodně vám doporučujeme ji NEODSTRAŇOVAT. ';
+$string['deletesubmissionwarning'] = 'Upozornění: k této práci jsou již přiřazena hodnocení (celkem $a).<br />Rozhodně vám doporučujeme ji NEODSTRAŇOVAT.';
 $string['deleting'] = 'Odstraňování';
 $string['description'] = 'Popis';
 $string['descriptionofexercise'] = 'Popis cvičení nebo zadání, které mají $a splnit, jsou uvedeny v samostatném souboru (např. dokument Word, soubor HTML apod.). Tento soubor se vloží do cvičení dříve, než je aktivita zpřístupněna studentům. Je také možné vytvořit sadu variant téhož cvičení, a vložit je do cvičení v podobě několika samostatných souborů.';
@@ -48,8 +49,9 @@ $string['enterpassword'] = 'Vložte heslo';
 $string['entriessaved'] = 'Záznamy uloženy';
 $string['errorbanded'] = 'Dichotomické';
 $string['excellent'] = 'Výborně';
+$string['exercise:assess'] = 'Hodnotit cvičení';
 $string['exerciseassessments'] = 'Hodnocení cvičení';
-$string['exercisefeedback'] = 'Cvičení &ndash; zpětná vazba';
+$string['exercisefeedback'] = 'Cvičení - zpětná vazba';
 $string['exercisesubmissions'] = 'Odevzdané práce';
 $string['fair'] = 'Střední';
 $string['generalcomment'] = 'Obecný komentář';
@@ -67,7 +69,7 @@ $string['incorrect'] = 'Nesprávně';
 $string['late'] = 'Pozdě';
 $string['lax'] = 'Volné';
 $string['leaguetable'] = 'Žebříček odevzdaných prací';
-$string['mail1'] = 'Vasi praci \'$a\' ohodnotil(a) ';
+$string['mail1'] = 'Vasi praci \'$a\' ohodnotil(a)';
 $string['mail2'] = 'Komentare a znamku si muzete prohlednout na strance cviceni \'$a\'.';
 $string['mail3'] = 'Stranku cviceni najdete zde';
 $string['mail6'] = 'Vasemu hodnoceni prace \'$a\' byla pridelena znamka';
@@ -87,7 +89,7 @@ $string['noexercisedescriptionssubmitted'] = 'Nebyl vložen žádný popis cvič
 $string['nosubmissions'] = 'Žádná odevzdaná práce';
 $string['notassessedyet'] = 'Dosud nehodnoceno';
 $string['notavailable'] = 'Není k dispozici';
-$string['noteonassessmentelements'] = 'Hodnocení je rozčleněno do několika \'položek hodnocení\'. Dosáhne se tak toho, že <br />hodnocení je snadnější a přesnější. Jednotlivé položky hodnocení musíte vytvořit <br />ještě před zpřístupněním cvičení studentům. To uděláte tak, že na stránce kurzu <br />kliknete na dané cvičení &ndash; pokud cvičení neobsahuje žádné položky hodnocení, <br />budete vyzváni k jejich vytvoření.<br />Počet položek můžete měnit v nastavení cvičení,<br />položky samotné lze upravovat na stránce \'Upravit položky hodnocení\'.';
+$string['noteonassessmentelements'] = 'Hodnocení je rozčleněno do několika \'položek hodnocení\'. Dosáhne se tak toho, že <br />hodnocení je snadnější a přesnější. Jednotlivé položky hodnocení musíte vytvořit <br />ještě před zpřístupněním cvičení studentům. To uděláte tak, že na stránce kurzu <br />kliknete na dané cvičení – pokud cvičení neobsahuje žádné položky hodnocení, <br />budete vyzváni k jejich vytvoření.<br />Počet položek můžete měnit v nastavení cvičení,<br />položky samotné lze upravovat na stránce \'Upravit položky hodnocení\'.';
 $string['noteongradinggrade'] = 'Tato známka vypovídá o tom, nakolik vaše hodnocení vlastní práce souhlasí s hodnocením vyučujícího. Čím vyšší je počet bodů, tím jsou si hodnocení bližší.';
 $string['noteonstudentassessments'] = '{Vlastní hodnocení studenta/Známka za hodnocení}';
 $string['notgraded'] = 'Neznámkováno';
@@ -113,7 +115,7 @@ $string['pleasemakeyourownassessment'] = 'Proveďte prosím hodnocení práce, k
 $string['pleasesubmityourwork'] = 'Odevzdejte prosím svou práci pomocí tohoto formuláře';
 $string['pleaseusethisform'] = 'Vyplňte prosím tento formulář, pokud jste<br />
 dokončili instrukce v cvičení uvedeném níže.';
-$string['pleaseviewtheexercise'] = 'Prohlédněte si popis cvičení uvedený níže &ndash; klikněte prosím na jeho název.<br />
+$string['pleaseviewtheexercise'] = 'Prohlédněte si popis cvičení uvedený níže - klikněte prosím na jeho název.<br />
 Vypracujte své cvičení podle instrukcí uvedených v popisu. Až svou práci dokončíte,<br />
 klikněte na odkaz Hodnotit (příp. Přehodnotit) v tabulce dole a svou práci ohodnoťte.<br />Jakmile odešlete své hodnocení, zobrazí se vám další pokyny k odevzdání vaší práce.';
 $string['poor'] = 'Slabě';

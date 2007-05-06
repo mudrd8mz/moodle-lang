@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8 + (2007021502)
+      // error.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['adminprimarynoedit'] = 'Primární správce nemůže být upravován ostatními uživateli';
@@ -37,8 +37,11 @@ $string['invalidcourse'] = 'Neplatný kurz';
 $string['invalidfieldname'] = '\"$a\" není platný název pole';
 $string['invalidfiletype'] = '\"$a\" není platný typ souboru';
 $string['invalidmd5'] = 'Neplatný MD5 hash';
+$string['invalidrequest'] = 'Neplatný požadavek';
 $string['invalidrole'] = 'Neplatná role';
 $string['invalidxmlfile'] = '\"$a\" není platný XML soubor';
+$string['loginasnoenrol'] = 'Pokud jste v režimu \"přihlásit se jako\", nemůžete použít funkci zápisu a vyškrtnutí z kurzu.';
+$string['loginasonecourse'] = 'Do tohoto kurzu nemůžete vstoupit.<br /> Musíte ukončit režim \"přihlásit se jako\" předtím, než vstoupíte do jiného kurzu.';
 $string['missingfield'] = 'Chybí pole \"$a\"';
 $string['missingrequiredfield'] = 'Chybí některé z povinných polí';
 $string['modulemissingcode'] = 'Modul $a nemá k dispozici kód potřebný pro vykonání této operace.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8 Beta (2007020400)
+      // auth.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['alternatelogin'] = 'Pokud sem vložíte URL, použije se jako přihlašovací stránka k této instalaci Moodlu. Tato vaše stránka by měla obsahovat formulář, který bude mít atribut \'action\' nastaven na <strong>\'$a\'</strong> a který vrací pole <strong>username</strong> a <strong>password</strong>.<br />Dbejte na to, abyste vložili platné URL! V opačném případě byste mohli všem včetně sebe zamezit v přístupu ke stránkám.<br />Chcete-li používat standardní přihlašovací stránku, nechejte toto pole prázdné.';
@@ -63,7 +63,7 @@ $string['auth_dbreviveduser'] = 'Obnoven uživatel $a[0] id $a[1]';
 $string['auth_dbrevivedusererror'] = 'Chyba při obnově uživatele $a';
 $string['auth_dbsetupsql'] = 'SQL příkaz pro nastavení';
 $string['auth_dbsetupsqlhelp'] = 'SQL příkaz pro speciální nastavení databáze, často používaný pro nastavení kódování pro komunikaci. Příklad pro MySQL a PostgreSQL: <em>SET NAMES \'utf8\'</em>';
-$string['auth_dbsuspenduser'] = 'Pozastavovit uživatele  $a[0] id $a[1]';
+$string['auth_dbsuspenduser'] = 'Pozastavit uživatele $a[0] id $a[1]';
 $string['auth_dbsuspendusererror'] = 'Chyba při pozastavování uživatele $a';
 $string['auth_dbsybasequoting'] = 'Použít uvozovkování sybase';
 $string['auth_dbsybasequotinghelp'] = 'Přeskakování ve stylu Sybase jednou uvozovkou - potřebné pro Oracle, MS SQL a některé další databáze. Nepoužívat pro MySQL!';
@@ -139,6 +139,8 @@ $string['auth_ldap_ldap_encoding'] = 'Specifikujte kódování, používané ser
 $string['auth_ldap_ldap_encoding_key'] = 'Kódování LDAP';
 $string['auth_ldap_login_settings'] = 'Nastavení přihlášení';
 $string['auth_ldap_memberattribute'] = 'Volitelné: přenastavuje název atributu člena skupiny (user member attribute), pokud uživatel patří do skupiny. Většinou \'member\'';
+$string['auth_ldap_memberattribute_isdn'] = 'Volitelné: přenastavuje manipulaci s hodnotami členství, 0 nebo 1';
+$string['auth_ldap_memberattribute_isdn_key'] = 'Atribut členství (member) používá dn';
 $string['auth_ldap_memberattribute_key'] = 'Atribut členství';
 $string['auth_ldap_noconnect'] = 'Modul LDAP se nemůže připojit k serveru: $a';
 $string['auth_ldap_noconnect_all'] = 'LDAP modul se nemůže připojit k žádnému ze serverů: $a';
@@ -147,6 +149,8 @@ $string['auth_ldap_objectclass'] = 'Volitelné: přenastavuje parametr objectCla
 $string['auth_ldap_objectclass_key'] = 'Třída objektu';
 $string['auth_ldap_opt_deref'] = 'Určuje chování aliasů během vyhledávání. Vyberte jednu z následujících hodnot: \"Ne\" (LDAP_DEREF_NEVER) nebo \"Ano\" (LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_opt_deref_key'] = 'Zrušit vazby s aliasy';
+$string['auth_ldap_passtype'] = 'Specifikujte formát nového nebo změněného hesla na LDAP serveru.';
+$string['auth_ldap_passtype_key'] = 'Formát hesla';
 $string['auth_ldap_passwdexpire_settings'] = 'Nastavení vypršení hesla LDAP';
 $string['auth_ldap_preventpassindb'] = 'Má se zabránit ukládání hesel v databázi Moodlu? Zvolíte-li \"ano\", nebudou hesla v databázi ukládána.';
 $string['auth_ldap_preventpassindb_key'] = 'Skrýt hesla';
@@ -248,6 +252,7 @@ $string['changepassword'] = 'URL ke změně hesla';
 $string['changepasswordhelp'] = 'Zde můžete určit URL, na kterém si uživatelé mohou obnovit či změnit své uživatelské jméno/heslo, pokud je zapomněli. URL bude uživatelům poskytnuto jako tlačitko na přihlašovací a osobní stránce. Necháte-li toto pole prázdné, nebude se tlačítko zobrazovat.';
 $string['chooseauthmethod'] = 'Vyberte si způsob ověření uživatelů:';
 $string['createpasswordifneeded'] = 'Vytvořit heslo, je-li to potřeba';
+$string['errorpasswordupdate'] = 'Chyba při změně hesla, heslo nebylo změněno.';
 $string['forcechangepassword'] = 'Vynutit změnu hesla';
 $string['forcechangepassword_help'] = 'Vynutit změnu hesla při příštím přihlášení do Moodlu.';
 $string['forcechangepasswordfirst_help'] = 'Vynutit změnu hesla při prvním přihlášení do Moodlu.';

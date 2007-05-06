@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 Beta (2007020400)
+      // moodle.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['action'] = 'Akce';
@@ -489,7 +489,7 @@ Pokud narazite na problemy, obratte se na spravce techto stranek:
 $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: potvrzeni zmeny hesla';
 $string['emailpasswordconfirmmaybesent'] = '<p>Pokud jste zadali správné uživatelské jméno nebo adresu, byl vám odeslán email.</p>
-<p>Obsahuje jednoduché instrukce k potvrzení a dokončení změny hesla. Pokud máte nadále potíže, kontaktujte admina stránek.</p>';
+<p>Obsahuje jednoduché instrukce k potvrzení a dokončení změny hesla. Pokud máte nadále potíže, kontaktujte správce těchto stránek.</p>';
 $string['emailpasswordconfirmsent'] = 'Na vaši adresu <b>$a</b> byl odeslán e-mail obsahující jednoduché pokyny k potvrzení a dokončení změny vašeho hesla. <br />Pokud narazíte na problémy, obraťte se na správce těchto stránek.';
 $string['emailpasswordsent'] = 'Děkujeme za potvrzení změny vašeho hesla.<p>Vaše nové heslo bylo odesláno na adresu <br /><b>$a->e-mail</b>.<p><br />Toto heslo bylo vygenerováno automaticky, můžete si je kdykoliv <a href=\"$a->link\">změnit</a> na nějaké snadněji zapamatovatelné.';
 $string['enable'] = 'Povolit';
@@ -788,6 +788,7 @@ $string['loginstepsnone'] = '<p>Zdravíčko!</p>
 $string['loginto'] = 'Přihlásit se k $a';
 $string['loginusing'] = 'Přihlaste se zde pomocí svého uživatelského jména a hesla';
 $string['logout'] = 'Odhlásit se';
+$string['logoutconfirm'] = 'Opravdu se chcete odhlásit?';
 $string['logs'] = 'Protokoly';
 $string['logtoomanycourses'] = '[ <a href=\"$a->url\">více</a> ]';
 $string['logtoomanyusers'] = '[ <a href=\"$a->url\">více</a> ]';
@@ -990,7 +991,7 @@ $string['noteuserschangednonetocourse'] = 'Poznámka: Pokud obnovujete uživatel
 $string['nothingnew'] = 'Nic nového od vašeho posledního přihlášení.';
 $string['nothingtodisplay'] = 'Nic k zobrazení';
 $string['noticenewerbackup'] = 'Tato záloha byla vytvořena v Moodlu $a->backuprelease ($a->backupversion) a je novější, než vaše stávající instalace Moodlu $a->serverrelease ($a->serverversion). To může vést k nekonzistencím, protože u záloh nelze zaručit zpětnou kompatibilitu.';
-$string['notifications'] = 'Oznamování';
+$string['notifications'] = 'Informace';
 $string['notify'] = 'Oznámit';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Uzivatel: $a->info';
 $string['notifyloginfailuresmessageend'] = 'Tyto protokoly si muzete prohlednout zde: $a/course/log.php?id=1&chooselog=1&modid=site_errors';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8 + (2007021502)
+      // lesson.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['accesscontrol'] = 'Řízení přístupu';
@@ -80,6 +80,7 @@ $string['displayofgrade'] = 'Zobrazení známky (pouze pro studenty)';
 $string['displayreview'] = 'Zobrazit tlačítko pro opakovanou odpověď';
 $string['displayscorewithessays'] = 'Váš bodový zisk za automaticky hodnocené odpovědi je $a->score z $a->tempmaxgrade.<br />Vaše tvořené odpovědi (v počtu $a->essayquestions) budou ohodnoceny a zahrnuty<br />do vašeho konečného počtu bodů později.<br /><br />Váš současný bodový zisk bez tvořených odpovědí je $a->score z $a->grade.';
 $string['displayscorewithoutessays'] = 'Váš bodový zisk je $a->score (z $a->grade).';
+$string['edit'] = 'Upravit';
 $string['editlessonsettings'] = 'Upravit nastavení této přednášky';
 $string['editpagecontent'] = 'Upravit obsah této stránky';
 $string['email'] = 'Poslat e-mailem';

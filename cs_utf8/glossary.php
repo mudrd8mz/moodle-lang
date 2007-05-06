@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 dev (2007012500)
+      // glossary.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['addcomment'] = 'Přidat komentář';
@@ -92,6 +92,7 @@ $string['entryusedynalink'] = 'Tato položka by měla být automaticky propojov�
 $string['errcannoteditothers'] = 'Nemůžete upravovat položky jiných uživatelů';
 $string['errconceptalreadyexists'] = 'Tento pojem již ve slovníku existuje. Duplicitní položky jsou zde zakázány.';
 $string['erredittimeexpired'] = 'Čas pro úpravu této položky již vypršel.';
+$string['errorparsingxml'] = 'Vyskytla se chyby při analýze souboru. Ujistěte se, že má platnou XML syntaxi.';
 $string['explainaddentry'] = 'Zde můžete přidat novou položku do slovníku.<br />Pojem a definice jsou povinná pole.';
 $string['explainall'] = 'Zobrazit VŠECHNY položky na jedné stránce';
 $string['explainalphabet'] = 'Procházet slovníkem pomocí tohoto rejstříku';
@@ -125,6 +126,7 @@ $string['importcategories'] = 'Importovat kategorie';
 $string['importedcategories'] = 'Importované kategorie';
 $string['importedentries'] = 'Importované položky';
 $string['importentries'] = 'Importovat položky';
+$string['importentriesfromxml'] = 'Import položek z XML souboru';
 $string['isglobal'] = 'Je tento slovník globální?';
 $string['linkcategory'] = 'Automaticky propojovat tuto kategorii';
 $string['linking'] = 'Automatické propojování';

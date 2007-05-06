@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.6 Beta 5 (2006050502)
+      // enrol_ldap.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['description'] = '<p>K řízení zápisů do kurzů můžete použív rovněž váš server LDAP. Předpokládá se, že váš strom (tree) LDAP obsahuje skupiny (groups) odpovídající vašim kurzům a že každá z těchto skupin má položky členství odpovídající studentům.</p>
@@ -16,6 +16,7 @@ $string['enrol_ldap_autocreation_settings'] = 'Nastavení automatického vytvá�
 $string['enrol_ldap_bind_dn'] = 'Chcete-li v vyhledání uživatelů použít bind-user, uveďte zde plný název. Něco jako  \'cn=ldapuser,ou=public,o=org\'';
 $string['enrol_ldap_bind_pw'] = 'Heslo pro bind-user.';
 $string['enrol_ldap_category'] = 'Kategorie automaticky vytvářených kurzů.';
+$string['enrol_ldap_contexts'] = 'Kontexty LDAP';
 $string['enrol_ldap_course_fullname'] = 'Volitelné: LDAP pole, odkud se převezme celý název.';
 $string['enrol_ldap_course_idnumber'] = 'Na který unikátní identifikátor v LDAP mapovat id kurzu. Většinou <em>cn</em> nebo <em>uid</em>. Doporučuje se tuto hodnotu uzamknout, pokud používáte automatické vytváření kurzů.';
 $string['enrol_ldap_course_settings'] = 'Nastavení zápisů do kurzů';
@@ -24,7 +25,9 @@ $string['enrol_ldap_course_summary'] = 'Volitelné: LDAP pole, odkud se převezm
 $string['enrol_ldap_editlock'] = 'Uzamknout hodnotu';
 $string['enrol_ldap_general_options'] = 'Obecná nastavení';
 $string['enrol_ldap_host_url'] = 'Hostitel LDAP ve formě URL - např. ldap://ldap.naseskola.cz/\' nebo ldaps://ldap.naseskola.cz/\'';
+$string['enrol_ldap_memberattribute'] = 'Atribut členství (member) v LDAP';
 $string['enrol_ldap_objectclass'] = 'objectClass použitá při vyhledávání kurzů. Většinou \'posixGroup\'.';
+$string['enrol_ldap_roles'] = 'Mapování rolí';
 $string['enrol_ldap_search_sub'] = 'Příslušnost ke skupině hledat v subkontextech';
 $string['enrol_ldap_server_settings'] = 'Nastavení serveru LDAP';
 $string['enrol_ldap_student_contexts'] = 'Seznam kontextů, ve kterých jsou umístěny skupiny se zápisy studentů v kurzech. Kontexty oddělujte středníkem \';\'. Např.: \'ou=kurzy,o=org; ou=dalsi,o=org\'';

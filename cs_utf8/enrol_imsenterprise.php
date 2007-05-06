@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6 Beta 5 (2006050502)
+      // enrol_imsenterprise.php - created with Moodle 1.8 + (2007021503)
 
 
-$string['aftersaving...'] = 'Po uložení nastavení můžete ';
+$string['aftersaving...'] = 'Po uložení nastavení můžete';
 $string['allowunenrol'] = 'Povolit souboru IMS <strong>vyškrtávat</strong> studenty/učitele z kurzů';
 $string['basicsettings'] = 'Základní nastavení';
 $string['coursesettings'] = 'Nastavení dat kurzu';
@@ -18,6 +18,7 @@ $string['filelockedmail'] = 'Procesu cron se nepodarilo odstranit textovy soubor
 $string['filelockedmailsubject'] = 'Zavazna chyba: Soubor se zapisy';
 $string['fixcasepersonalnames'] = 'Převést počáteční písmena jmen uživatelů na Velká Písmena';
 $string['fixcaseusernames'] = 'Převést zápis uživatelských jmen na malá písmena';
+$string['imsrolesdescription'] = 'IMS specifikace má 8 různých typů rolí. Prosím vyberte, jak je chcete přidělit v Moodle, včetně případného ignorování některé z nich.';
 $string['location'] = 'Cesta k souboru';
 $string['logtolocation'] = 'Cesta k log souboru (nevyplňujte, nechcete-li vytvářet log)';
 $string['mailadmins'] = 'Informuj správce e-mailem';

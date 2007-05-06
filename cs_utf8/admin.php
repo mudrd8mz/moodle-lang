@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 + (2007021502)
+      // admin.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -65,12 +65,14 @@ $string['configclamfailureonupload'] = 'Jak se má Moodle zachovat při chybě v
 $string['configcountry'] = 'Výchozí nastavení země při vytváření nových uživatelů. Nezadáte-li nic, budou uživatelé nuceni vybrat si zemi sami.';
 $string['configcoursemanager'] = 'Které uživatele zobrazovat u popisu kurzu. Uživatelé potřebují alespoň jednu z těchto rolí v daném kurzu, aby byli zobrazeni u jeho popisu.';
 $string['configcoursesperpage'] = 'Počet kurzů na stránce při zobrazování seznamu kurzů.';
+$string['configcreatornewroleid'] = 'Tato role je automaticky přiřazována tvůrcům v nových kurzech, které vytvoří. Tato role není přiřazována v případě, že tvůrce již má potřebné pravomoce v nadřazeném kontextu.';
 $string['configcronclionly'] = 'Je-li nastaveno, může být skript cron.php spouštěn pouze z příkazové řádky a nikoliv přes webové rozhraní. Tímto se zároveň ignoruje nastavení hesla  ke cronu (viz dále).';
 $string['configcronremotepassword'] = 'Použijete-li toto nastavení, bude pro volání skriptu cron.php přes webové rozhraní nutné použít heslo předávané jako parametr podle vzoru: <pre>
         http://moodle.naseskola.cz/admin/cron.php?password=sezameotevrise</pre> Pokud necháte pole prázdné, bude možno volat skript cron.php i bez hesla.';
 $string['configdbsessions'] = 'Je-li povoleno, bude se pro ukládání informací o stávajících sezeních (sessions) používat databáze. To může být užitečné pro velké/silně zatěžované servery nebo stránky postavené na serverových clusterech. Pro většinu instalací by tato volba měla zůstat zakázána -- informace se tak budou ukládat na disk. Upozornění: změna tohoto nastavení způsobí odhlášení všech momentálně přihlášených uživatelů (včetně vás).';
 $string['configdebug'] = 'Zapnout vypisování varování a ladicích informací pomocí zvýšení úrovně PHP error_reporting. Užitečné hlavně pro vývojáře.';
 $string['configdebugdisplay'] = 'Je-li zapnuto, zobrazují se chybová hlášení jako součást HTML stránky. To je sice praktické, ale obecně mohou chybová hlášení nabourávat XHTML, JavaScript, cookies a HTTP hlavičky. Při vypnutí budou chybová hlášení ukládána v protokolu webového serveru. Nastavení PHP proměnné error_log v souboru php.ini ovlivňuje, jaké informace jsou protokolovány.';
+$string['configdebugsmtp'] = 'Povolit podrobnější diagnostiku v průběhu odesílání zpráv na SMTP server.';
 $string['configdefaultallowedmodules'] = 'Které moduly mají být v kurzech spadajících do výše uvedené kategorie implicitně povoleny <b>při vytváření kurzu</b>?';
 $string['configdefaultcourseroleid'] = 'Při zápisu do kurzu bude uživatelům automaticky přiřazena následující role.';
 $string['configdefaultrequestcategory'] = 'Požadované kurzy budou automaticky umístěny v této kategorii.';
@@ -82,6 +84,7 @@ $string['configdigestmailtime'] = 'Zadejte hodinu, kdy mají být odesílány de
 $string['configdisplayloginfailures'] = 'Zvoleným uživatelům se budou zobrazovat informace o neúspěšných pokusech o přihlášení do systému.';
 $string['configdocroot'] = 'Cesta k dokumentaci Moodlu. Upravte toto nastavení, pokud si přejete mít vlastní online dokumentaci. Ujistětě se, že vaše dokumentace zachovává stejný formát jako http://docs.moodle.org.';
 $string['configdoctonewwindow'] = 'Otevírat stránky dokumentace v novém okně.';
+$string['configeditordictionary'] = 'Tato hodnota je použita, pokud nemá aspell k dispozici slovník pro jazyk uživatele.';
 $string['configeditorfontlist'] = 'Seznam fontů, které budou zobrazovány v nabídce HTML editoru.';
 $string['configenableajax'] = 'Tímto povolujete technologii AJAX na úrovni celého serveru. Jedná se o pokročilé rozhraní mezi prohlížečem a webovým serverem, které využívá Javascript. I když je zde AJAX povolen, uživatelé si jeho použití mohou vypnout ve svých profilech.';
 $string['configenablecourserequests'] = 'Povolit uživatelům žádat o založení kurzu?';
@@ -200,6 +203,7 @@ $string['courseoverview'] = 'Přehled kurzu';
 $string['courserequests'] = 'Požadované kurzy';
 $string['courses'] = 'Kurzy';
 $string['coursesperpage'] = 'Počet kurzů na stránku';
+$string['creatornewroleid'] = 'Role tvůrců v nových kurzech';
 $string['cronclionly'] = 'Spouštění cronu pouze z příkazové řádky';
 $string['cronerrorclionly'] = 'Je mi líto. Přístup na tuto stránku z webového rozhraní byl správcem zakázán.';
 $string['cronerrorpassword'] = 'Je mi líto. Pro přístup na tuto stránku musíte použít platné heslo.';
@@ -224,6 +228,7 @@ $string['debugging'] = 'Ladění';
 $string['debugminimal'] = 'MINIMAL: Zobrazovat pouze fatální chyby';
 $string['debugnone'] = 'NONE: Nezobrazuj žádné zprávy ani varování';
 $string['debugnormal'] = 'NORMAL: Zobrazuj chyby, varování a upozornění';
+$string['debugsmtp'] = 'Ladit odesílání emailů';
 $string['defaultallowedmodules'] = 'Výchozí povolené moduly';
 $string['defaultcourseroleid'] = 'Výchozí role uživatelů v kurzu';
 $string['defaultrequestcategory'] = 'Výchozí kategorie pro požadované kurzy';
@@ -241,11 +246,14 @@ $string['editennotallowed'] = 'Jazyk en_utf8 nemůže být upravován přes toto
 $string['edithelpdocs'] = 'Upravit nápovědu a dokumentaci';
 $string['editlang'] = '<b>Úpravy</b>';
 $string['editorbackgroundcolor'] = 'Barva pozadí';
+$string['editordictionary'] = 'Slovník editoru';
 $string['editorfontfamily'] = 'Rodina fontů';
 $string['editorfontlist'] = 'Seznam fontů';
 $string['editorfontsize'] = 'Velikost fontu';
 $string['editorhidebuttons'] = 'Skrytá tlačítka';
 $string['editorkillword'] = 'Čištění formátu z MS Word';
+$string['editorspelling'] = 'Pravopis editoru';
+$string['editorspellinghelp'] = 'Povolit nebo zakázat kontrolu pravopisu. Pokud je povoleno, musí být na serveru nainstalován <strong>aspell</strong>.';
 $string['editstrings'] = 'Upravit textové řetězce';
 $string['enableajax'] = 'Povolit AJAX';
 $string['enablecourserequests'] = 'Povolit požadování kurzů';

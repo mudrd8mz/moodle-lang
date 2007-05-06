@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6.1+ (2006050512)
+      // wiki.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['action'] = '-- Akce --';
@@ -94,6 +94,7 @@ $string['linkok'] = 'OK';
 $string['linkschecked'] = 'Odkazy zkontrolovány.';
 $string['listall'] = 'Zobrazit vše';
 $string['listcandidates'] = 'Zobrazit kandidáty';
+$string['lockcancelled'] = 'Váš editační zámek byl přepsán a tuto stránku upravuje někdo jiný. Pokud chcete udržet vaše změny, prosím zkopírujte si je před kliknutím Zrušit a pak zkuste upravovat znovu.';
 $string['meta'] = 'Metadata';
 $string['moduledirectory'] = 'Adresář modulu';
 $string['modulename'] = 'Wiki';
@@ -105,6 +106,7 @@ $string['noadministrationaction'] = 'Nebyla zvolena žádná akce správy.';
 $string['nocandidatestoremove'] = 'Nenalezeni žádní kandidáti k odstranění, vyberte \'$a\' k zobrazení všech stránek.';
 $string['nochangestorevert'] = 'Nenalezeny žádné změny k vrácení.';
 $string['nohtml'] = 'Bez HTML';
+$string['nojslockwarning'] = 'Protože ve Vašem prohlížeči je zakázán Javascript, je možné, že tuto stránku upravuje i někdo jiný. Pokud k tomu dojde, nebudete moci uložit vaše změny. Prosím urychlete Vaše změny, povolte Javascript ve Vašem prohlížeči a znovu načtěte tuto stránku.';
 $string['nolinksfound'] = 'Na stránce nebyl nalezen žádný odkaz.';
 $string['noregexp'] = 'Musí jít o pevně zadaný řetězec, nelze používat * ani regulární výrazy. Doporučujeme použít útočníkovu IP adresu nebo jméno jeho počítače, ovšem bez čísla portu (to se zvyšuje s každým HTTP přístupem).';
 $string['notadministratewiki'] = 'Nemáte oprávnění spravovat tuto wiki!';
@@ -116,10 +118,13 @@ $string['optional'] = 'Volitelné';
 $string['orphanedpage'] = 'Sirotčí stránka';
 $string['orphanedpages'] = 'Sirotčí stránky';
 $string['otherwikis'] = 'Jiné wiki';
+$string['overridebutton'] = 'Přepsat zámek';
+$string['overrideinfo'] = 'Můžete tento zámek uživatele přepsat, ale tím můžete způsobit ztrátu jeho změn. Prosím opatrně!';
 $string['ownerunknown'] = 'neznámý';
 $string['pageactions'] = 'Akce stránky';
 $string['pageindex'] = 'Obsah stránek';
 $string['pageinfo'] = 'Informace o stránce';
+$string['pagelocked'] = '<p><strong>Tato stránka je právě upravována uživatelem $a->name.</strong> Začal s úpravou v $a->since a stále má okno otevřené od $a->seen.</p><p>Počkejte s Vašimi úpravami, až on skončí.</p>';
 $string['pagename'] = 'Název';
 $string['pagenamechoice'] = '- nebo -';
 $string['pageslinkingto'] = 'Stránky odkazující na tuto stránku';
@@ -144,6 +149,7 @@ $string['revertpagescheck'] = 'Skutečně chcete vrátit následující změny:'
 $string['revertthe'] = 'Zanořit se do verzí, ale odstranit pouze postiženou verzi';
 $string['safehtml'] = 'Bezpečné HTML';
 $string['save'] = 'Uložit';
+$string['savenolock'] = 'Nemůžete uložit stránku, protože nemáte editační zámek. To se může stát v případě, že Váš prohlížeč má vypnutý Javascript nebo jiný uživatel přepsal Váš zámek.<br/><br/> Vraťte se na předcházející obrazovku pomocí zpětného tlačítka prohlížeče, zkopírujte si text Vašich změn a pak zkuste editovat znovu.';
 $string['searchwiki'] = 'Prohledat wiki';
 $string['setpageflags'] = 'Nastavit příznaky stránek';
 $string['showversions'] = 'Ukázat verze:';
@@ -177,6 +183,9 @@ $string['versionstodelete'] = 'Verze k odstranění';
 $string['viewpage'] = 'Zobrazit stránku';
 $string['viewsmfor'] = 'Zobrazit mapu stránek pro';
 $string['wantedpages'] = 'Žádané stránky';
+$string['wiki:manage'] = 'Správa nastavení wiki';
+$string['wiki:overridelock'] = 'Přepsat zamčené stránky';
+$string['wiki:participate'] = 'Upravit wiki stránky';
 $string['wikidefaultpagename'] = 'WikiIndex';
 $string['wikiexport'] = 'Exportovat stránky';
 $string['wikiexportcomment'] = 'Zde můžete nastavit vlastnosti exportu.';

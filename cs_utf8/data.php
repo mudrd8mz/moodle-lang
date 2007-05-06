@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 dev (2007012500)
+      // data.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['action'] = 'Akce';
@@ -61,6 +61,7 @@ $string['deleted'] = 'smazáno';
 $string['deletefield'] = 'Odstranit pole';
 $string['deletewarning'] = 'Jste si jisti, že chcete odstranit tuto předlohu?';
 $string['descending'] = 'Sestupně';
+$string['directorynotapreset'] = '$a->directory není předlohou: chybějící soubory: $a->missing_files';
 $string['download'] = 'Stáhnout';
 $string['edit'] = 'Upravit';
 $string['editcomment'] = 'Upravit komentář';
@@ -77,6 +78,7 @@ $string['example'] = 'Příklad modulu Databáze';
 $string['export'] = 'Exportovat';
 $string['exportaszip'] = 'Exportovat jako ZIP';
 $string['exportedtozip'] = 'Exportováno do dočasného ZIP souboru...';
+$string['failedpresetdelete'] = 'Chyba při odstraňování předlohy!';
 $string['fieldadded'] = 'Pole bylo přidáno';
 $string['fieldallowautolink'] = 'Povolit automatické propojování';
 $string['fielddeleted'] = 'Pole bylo smazáno';
@@ -96,6 +98,7 @@ $string['fieldwidth'] = 'Šířka';
 $string['fieldwidthlistview'] = 'Šířka v seznamovém zobrazení';
 $string['fieldwidthsingleview'] = 'Šířka v položkovém zobrazení';
 $string['file'] = 'Soubor';
+$string['filesnotgenerated'] = 'Nebyla vytvořena všechna pole: $a';
 $string['filtername'] = 'Automatické propojování databáze';
 $string['footer'] = 'Patička';
 $string['forcelinkname'] = 'Vnucené jméno odkazu';
@@ -131,6 +134,7 @@ $string['modulename'] = 'Databáze';
 $string['modulenameplural'] = 'Databáze';
 $string['more'] = 'Podrobněji';
 $string['moreurl'] = 'Další URL';
+$string['movezipfailed'] = 'Nelze přesunout ZIP archív';
 $string['multientry'] = 'Podoba jednoho záznamu v seznamu';
 $string['multimenu'] = 'Seznam (výběr více voleb)';
 $string['multipletags'] = 'Nalezeno více značek! Šablona nebyla uložena.';
@@ -149,12 +153,14 @@ $string['nameurl'] = 'Pole \'URL\'';
 $string['newentry'] = 'Nový záznam';
 $string['newfield'] = 'Vytvořit nové pole';
 $string['noaccess'] = 'K této stránce nemáte přístup.';
+$string['nodefinedfields'] = 'Nová předloha nemá definována žádná pole!';
 $string['nofieldindatabase'] = 'Nejsou definována žádná pole, prosím vytvořte je níže.';
 $string['nolisttemplate'] = 'Šablona pro seznam ještě není definována';
 $string['nomatch'] = 'Nenalezeny žádné záznamy!';
 $string['nomaximum'] = 'Není stanoven';
 $string['norecords'] = 'Nejsou k dispozici žádné záznamy';
 $string['nosingletemplate'] = 'Šablona pro jednotlivý záznam ještě není definována';
+$string['notinjectivemap'] = 'Není mapa vkládání';
 $string['number'] = 'Číslo';
 $string['numberrssarticles'] = 'RSS zprávy';
 $string['numnotapproved'] = 'Ke schválení';
@@ -201,6 +207,7 @@ $string['savesettings'] = 'Uložit nastavení';
 $string['savesuccess'] = 'Uloženo. Nyní může být šablona používána jako předloha.';
 $string['savetemplate'] = 'Uložit šablonu';
 $string['sendinratings'] = 'Odeslat hodnocení';
+$string['showall'] = 'Ukázat všechny položky';
 $string['single'] = 'Prohlédnout jednotlivě';
 $string['singletemplate'] = 'Šablona záznamu';
 $string['teachersandstudents'] = '$a->teachers a $a->students';
@@ -210,6 +217,7 @@ $string['text'] = 'Text (jednořádkový)';
 $string['textarea'] = 'Text (víceřádkový)';
 $string['todatabase'] = 'do této databáze';
 $string['type'] = 'Typ pole';
+$string['undefinedprocessactionmethod'] = 'V Data_Preset není definována metoda pro zpracování činnosti \"$a\".';
 $string['updatefield'] = 'Aktualizovat existující pole';
 $string['uploadfile'] = 'Vložit soubor';
 $string['uploadrecords'] = 'Vložit záznamy ze souboru';
@@ -217,5 +225,6 @@ $string['url'] = 'URL';
 $string['usestandard'] = 'Použít předlohu';
 $string['viewfromdate'] = 'Prohlížet lze od';
 $string['viewtodate'] = 'Prohlížet lze do';
+$string['wrongdataid'] = 'Nesprávný identifikátor dat';
 
 ?>

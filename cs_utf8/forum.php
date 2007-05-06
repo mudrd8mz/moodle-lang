@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 dev (2007012500)
+      // forum.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['addanewdiscussion'] = 'Přidat nové téma diskuse';
@@ -10,6 +10,7 @@ $string['allforums'] = 'Všechna fóra';
 $string['allowchoice'] = 'Umožnit každému vlastní volbu';
 $string['allowdiscussions'] = 'Může $a přispívat do tohoto fóra?';
 $string['allowratings'] = 'Umožnit hodnocení příspěvků';
+$string['allowsallsubscribe'] = 'V tomto fóru si může každý zvolit, zda bude odebírat příspěvky nebo ne.';
 $string['allowsdiscussions'] = 'V tomto fóru může každý zahájit nové téma diskuse.';
 $string['allsubscribe'] = 'Odebírat příspěvky e-mailem ze všech fór';
 $string['allunsubscribe'] = 'Zrušit odebírání příspěvků e-mailem ze všech fór';
@@ -19,6 +20,7 @@ $string['blockafter'] = 'Blokovat po dosažení počtu příspěvků';
 $string['blockperiod'] = 'Blokační období';
 $string['blockperioddisabled'] = 'Neblokovat';
 $string['bynameondate'] = 'autor $a->name - $a->date';
+$string['cannotadddiscussion'] = 'Abyste mohli přidávat diskuse do tohoto fóra, musíte být členy skupiny.';
 $string['cannotviewpostyet'] = 'Nemůžete si prohlédnout otázky jiných studentů, protože jste ještě nevložili svůj příspěvek.';
 $string['configcleanreadtime'] = 'V kterou denní hodinu se má čistit tabulka \'read\' od starých příspěvků?';
 $string['configdisplaymode'] = 'Výchozí způsob zobrazování diskuse, není-li uživateli nastaveno jinak.';
@@ -64,21 +66,28 @@ $string['editedby'] = 'Dodatečně upravil/-a: $a->name; čas vložení původn�
 $string['editing'] = 'Úprava';
 $string['emptymessage'] = 'Ve vašem příspěvku je něco špatně. Možná jste nevyplnili některé povinné údaje, nebo byl přiložený soubor moc velký. Vaše úpravy NEBYLY ULOŽENY!';
 $string['everyonecanchoose'] = 'Odebírání příspěvků e-mailem je volitelné';
+$string['everyonecannowchoose'] = 'Nyní je odebírání příspěvků e-mailem volitelné';
+$string['everyoneisnowsubscribed'] = 'Nyní všichni odebírají příspěvky tohoto fóra e-mailem';
 $string['everyoneissubscribed'] = 'Všichni odebírají nové příspěvky e-mailem';
 $string['existingsubscribers'] = 'Stávající odběratelé';
+$string['forcessubscribe'] = 'Toto fórum vynucuje odběr příspěvků';
 $string['forcesubscribe'] = 'Vnutit všem odebírání příspěvků e-mailem';
 $string['forcesubscribeq'] = 'Vnutit všem odebírání příspěvků e-mailem?';
 $string['forum'] = 'Fórum';
+$string['forum:addnews'] = 'Přidat novinky';
 $string['forum:createattachment'] = 'Vkládat přílohy';
 $string['forum:deleteanypost'] = 'Kdykoliv odstraňovat jakékoliv příspěvky';
 $string['forum:deleteownpost'] = 'Odstraňovat vlastní příspěvky (během nastaveného limitu)';
 $string['forum:editanypost'] = 'Upravovat libovolný příspěvek';
+$string['forum:initialsubscriptions'] = 'Odebírání na počátku';
 $string['forum:managesubscriptions'] = 'Spravovat odebírání příspěvků';
 $string['forum:movediscussions'] = 'Přesouvat diskuse';
 $string['forum:rate'] = 'Hodnotit příspěvky';
+$string['forum:replynews'] = 'Odpovídat na novinky';
 $string['forum:replypost'] = 'Odpovídat na příspěvky';
 $string['forum:splitdiscussions'] = 'Rozdělovat diskusi';
 $string['forum:startdiscussion'] = 'Začínat novou diskusi';
+$string['forum:throttlingapplies'] = 'Aplikuje se omezení';
 $string['forum:viewanyrating'] = 'Vidět všechna hodnocení';
 $string['forum:viewdiscussion'] = 'Vidět diskuse';
 $string['forum:viewhiddentimedposts'] = 'Vidět časově omezené příspěvky';
@@ -129,6 +138,7 @@ $string['namesocial'] = 'Společné fórum';
 $string['nameteacher'] = 'Učitelské fórum';
 $string['newforumposts'] = 'Nové příspěvky';
 $string['nodiscussions'] = 'V tomto fóru zatím nejsou žádná témata diskuse.';
+$string['nodiscussionsstartedby'] = 'Nejsou zde diskuse zahájené tímto uživatelem';
 $string['noguestpost'] = 'Bohužel, hosté nemohou přispívat do diskuse.';
 $string['noguestsubscribe'] = 'Bohužel, hosté nemohou odebírat příspěvky e-mailem.';
 $string['noguesttracking'] = 'Bohužel, hosté si nemohou zapnout označování nepřečtených příspěvků.';

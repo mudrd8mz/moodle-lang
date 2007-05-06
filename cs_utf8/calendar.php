@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 dev (2007010404)
+      // calendar.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['advancedoptions'] = 'Pokročilé možnosti';
@@ -45,8 +45,9 @@ $string['expired'] = 'Vypršela';
 $string['explain_lookahead'] = 'Tímto nastavujete počet dnů, v nichž budou vyhledávány nadcházející události. Pokud událost začíná v některém z těchto dnů, bude zobrazena jako nadcházející. Události, které začínají později, nebudou zobrazeny jako nadcházející.<br />Upozornění: zobrazení všech nadcházejících událostí <strong>není zaručeno</strong>. Pokud je jich nalezeno příliš mnoho (tj. více, než kolik je zadáno v nastavení \'Maximální počet nadcházejících událostí\'), pak se ty nejvzdálenější události nezobrazí.';
 $string['explain_maxevents'] = 'Tímto nastavujete největší možný počet zobrazovaných nadcházejících událostí. Pokud zde vyberete velké číslo, může se stát, že seznam nadcházejících událostí bude velmi dlouhý a na obrazovce zabere spoustu místa.';
 $string['explain_persistflt'] = 'Je-li povoleno, bude si Moodle pamatovat vaše poslední nastavení filtrování událostí a automaticky je obnoví při dalším přihlášení';
+$string['explain_site_timeformat'] = 'Čas může být na těchto stránkách zobrazován ve 12-hodinovém nebo 24-hodinovém formátu. Pokud zvolíte \"výchozí\", bude formát vybrán automaticky podle jazyka. Tato hodnota může být přenastavena v profilu uživatele.';
 $string['explain_startwday'] = 'Vyberte den, jímž má začínat týden v kalendáři.';
-$string['explain_timeformat'] = 'Můžete si zvolit, zda chcete čas zobrazovat ve 12-hodinovém formátu nebo 24-hodinovém formátu. Zvolíte-li \'výchozí\', použije se výchozí formátování aktuálně používaného jazyka.';
+$string['explain_timeformat'] = 'Můžete si zvolit, zda chcete čas zobrazovat ve 12-hodinovém formátu nebo 24-hodinovém formátu. Zvolíte-li \"výchozí\", použije se výchozí formátování aktuálně používaného jazyka.';
 $string['export'] = 'Exportovat';
 $string['exportbutton'] = 'Export';
 $string['exportcalendar'] = 'Exportovat kalendář';

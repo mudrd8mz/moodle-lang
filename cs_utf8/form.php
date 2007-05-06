@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8 Beta (2007020400)
+      // form.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['addfields'] = 'Přidat $a polí do formuláře';
@@ -27,11 +27,12 @@ $string['nomethodforaddinghelpbutton'] = 'Nebyla nalezena metoda pro přidání 
 $string['nonexistentformelements'] = 'Zkouším přidat tlačítka nápovědy k neexistujícím formulářovým prvkům: $a';
 $string['optional'] = 'Volitelné pole';
 $string['requiredelement'] = 'Povinné pole';
-$string['requiredfield'] = 'Vyplnění pole je povinně vyžadováno';
+$string['revealpassword'] = 'Prozradit';
 $string['security'] = 'Zabezpečení';
 $string['showadvanced'] = 'Zobrazit rozšiřující nastavení';
 $string['somefieldsrequired'] = 'Formulář obsahuje povinná pole';
 $string['timing'] = 'Vkládání času';
 $string['year'] = 'Rok';
+$string['requiredfield'] = 'Vyplnění pole je povinně vyžadováno'; // ORPHANED
 
 ?>

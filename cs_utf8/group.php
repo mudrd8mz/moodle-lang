@@ -1,15 +1,17 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 Beta (2007020400)
+      // group.php - created with Moodle 1.8 + (2007021503)
 
 
-$string['addexistinggroupstogrouping'] = 'Přidat stávající skupiny do seskupení';
-$string['addgroupstogrouping'] = 'Přiat skupiny do seskupení';
+$string['addgroupstogrouping'] = 'Přidat skupiny do seskupení';
 $string['adduserstogroup'] = 'Přidat/odebrat uživatele ze skupiny';
+$string['anygrouping'] = '[Libovolné seskupení]';
+$string['backtogroups'] = 'Zpět ke skupinám';
 $string['cancel'] = 'Zrušit';
 $string['createautomaticgrouping'] = 'Vytvořit seskupení automaticky';
 $string['creategroup'] = 'Vytvořit skupinu';
 $string['creategrouping'] = 'Vytvořit seskupení';
 $string['creategroupinselectedgrouping'] = 'vytvořit skupinu ve vybraném seskupení';
+$string['createorphangroup'] = 'Vytvořit skupinu \"sirotků\"';
 $string['databaseupgradegroups'] = 'Verze skupiny je nyní $a';
 $string['defaultgroupdescription'] = 'Výchozí popis kupiny';
 $string['defaultgroupingname'] = 'Seskupení';
@@ -26,12 +28,14 @@ $string['editgroupingpermissions'] = 'Upravit oprávnění seskupení';
 $string['editgroupingsettings'] = 'Upravit nastavení seskupení';
 $string['editgroupsettings'] = 'Upravit nastavení skupiny';
 $string['enrolmentkey'] = 'Klíč k zápisu';
+$string['erroraddremoveuser'] = 'Chyba při přidávání/odstraňování uživatele $a ke skupině';
 $string['erroreditgroup'] = 'Chyba při vytváření/úpravě skupiny $a';
 $string['erroreditgrouping'] = 'Chyba při vytváření/úpravě seskupení $a';
 $string['errorinvalidgroup'] = 'Chyba - neplatná skupina $a';
 $string['errorinvalidgrouping'] = 'Chyba - neplatné seskupení $a';
 $string['errornotingrouping'] = 'Je mi líto, nemůžete vytvořit skupinu v $a';
 $string['errornotingroupingedit'] = 'Je mi líto, nemůžete upravit seskupení $a';
+$string['existingmembers'] = 'Stávající členové: $a';
 $string['group'] = 'Skupina';
 $string['groupdescription'] = 'Popis skupiny';
 $string['groupfor'] = 'pro skupinu';
@@ -51,6 +55,7 @@ $string['groupmode'] = 'Režim skupin';
 $string['groupmodeforce'] = 'Vnutit režim skupin';
 $string['groupmy'] = 'Moje skupina';
 $string['groupname'] = 'Název skupiny';
+$string['groupnameexists'] = 'Skupina s názvem \'$a\' v tomto kurzu již existuje, prosím vyberte jiný název';
 $string['groupnotamember'] = 'Je mi líto, ale nejste členem této skupiny';
 $string['groups'] = 'Skupiny';
 $string['groupsinselectedgrouping'] = 'Skupiny ve vybraném seskupení';
@@ -64,6 +69,7 @@ $string['newpicture'] = 'Nový obrázek';
 $string['notingrouping'] = '[Není v žádném seskupení]';
 $string['numberofgroups'] = 'Počet skupin';
 $string['numberofstudents'] = 'Počet studentů';
+$string['potentialmembers'] = 'Členové k dispozici: $a';
 $string['prefixforgroupnames'] = 'Předpona názvů skupin';
 $string['printerfriendly'] = 'Zobrazení seskupení pro tisk';
 $string['removegroupfromselectedgrouping'] = 'Odebrat skupinu z vybraného seskupení';
@@ -77,11 +83,12 @@ $string['showmembersforgroup'] = 'Ukázat členy pro skupinu';
 $string['showusersalreadyingroup'] = 'Ukázat uživatele, kteří jsou již v nějaké skupině spadající do tohoto seskupení';
 $string['teachersgroupmark'] = 'Učitelé nemohou známkovat činnosti ve skupinách, do nichž nepatří';
 $string['teachersgroupview'] = 'Učitelé nemohou vidět činnosti ve skupinách, do nichž nepatří';
-$string['teachersoverride'] = 'Učitelé, kteří nejsou zařazení do žádné skupiny, mohou vidět a známkovat činnosti ve všech skupinách (překrývá nastavení výše)';
+$string['teachersoverride'] = 'Učitelé, kteří nejsou zařazení do žádné skupiny, mohou vidět a známkovat činnosti ve všech skupinách (přenastavuje uvedené výše)';
 $string['upgradeconfirm'] = 'Je mi líto, databázové tabulky skupin vytvořené ve verzi Moodle 1.8 dev musí být během tohoto upgrade odstraněny. Přejete si pokračovat?';
 $string['usestudentsonlyfromselectedgroup'] = 'Použij pouze studenty z právě vybraných skupin';
 $string['viewallgroupsactivities'] = 'Studenti si mohou prohlížet činnosti ve všech skupinách, ale nemohou do nich přispívat';
 $string['viewallgroupsmembers'] = 'Studenti mohou vidět členy všech skupin';
 $string['viewowngroup'] = 'Studenti mohou vidět členy všech skupin, do nichž sami patří';
+$string['addexistinggroupstogrouping'] = 'Přidat stávající skupiny do seskupení'; // ORPHANED
 
 ?>

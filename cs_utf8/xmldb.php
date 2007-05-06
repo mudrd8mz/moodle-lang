@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.8 Beta (2007020400)
+      // xmldb.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['aftertable'] = 'Za tabulkou:';
 $string['back'] = 'Zpět';
-$string['backtomainview'] = 'Zpět k hlavní';
+$string['backtomainview'] = 'Zpět na hlavní stránku';
 $string['binaryincorrectlength'] = 'Nesprávná délka binárního pole';
 $string['cannotuseidfield'] = 'Nelze vložit pole \"id\", jeho hodnota se přiřazuje automaticky';
 $string['change'] = 'Změnit';
