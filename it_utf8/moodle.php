@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 + (2007021502)
+      // moodle.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['action'] = 'Azione';
@@ -9,12 +9,12 @@ $string['activeusers'] = 'Utenti attivi';
 $string['activities'] = 'Attività';
 $string['activity'] = 'Attività';
 $string['activityclipboard'] = 'Stai spostando questa attività :<b>$a</b>';
-$string['activityiscurrentlyhidden'] = 'Spiacente, questa attività è attualmente disattivata';
+$string['activityiscurrentlyhidden'] = 'Spiacente, al momento questa attività è disattivata';
 $string['activitymodule'] = 'Modulo attività';
 $string['activityreport'] = 'Rapporto delle attività';
 $string['activityreports'] = 'Rapporti delle attività';
-$string['activityselect'] = 'Seleziona questa attività per spostarla da qualche parte';
-$string['activitysince'] = 'Attività  successive a $a';
+$string['activityselect'] = 'Seleziona questa attività per spostarla altrove';
+$string['activitysince'] = 'Attività  a partire da $a';
 $string['activityweighted'] = 'Attività per utente';
 $string['add'] = 'Aggiungi';
 $string['addactivity'] = 'Aggiungi un\'attività ...';
@@ -64,7 +64,7 @@ $string['adminhelpmanagefilters'] = 'Scegli i filtri testuali e le relative impo
 $string['adminhelpmanagemodules'] = 'Gestisci i moduli installati e le loro impostazioni';
 $string['adminhelpmanageroles'] = 'Crea e definisci ruoli che possono essere assegnati agli utenti';
 $string['adminhelpmymoodle'] = 'Configura i blocchi di MyMoodle per gli utenti';
-$string['adminhelpreports'] = 'Posizionamento dei corsi con vari criteri';
+$string['adminhelpreports'] = 'Report per l\'intero sito';
 $string['adminhelpsitefiles'] = 'Pubblica file generici e carica copie di salvataggio esterne';
 $string['adminhelpsitesettings'] = 'Definisci come la pagina principale deve essere visualizzata';
 $string['adminhelpstickyblocks'] = 'Impostare i blocchi \"pinzati\" per tutto Moodle';
@@ -1367,7 +1367,7 @@ $string['toonly'] = 'per $a solamente';
 $string['top'] = 'Alto';
 $string['topic'] = 'Argomento';
 $string['topichide'] = 'Nascondi questo argomento da $a';
-$string['topicoutline'] = 'Argomento corrente';
+$string['topicoutline'] = 'Indice degli argomenti';
 $string['topicshow'] = 'Mostra questo argomento a $a';
 $string['total'] = 'Totale';
 $string['trackforums'] = 'Tracciamento forum';
