@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 dev (2007040400)
+      // glossary.php - created with Moodle 1.9 dev (2007050400)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -138,7 +138,7 @@ $string['newentries'] = '新しい用語集エントリ';
 $string['newglossary'] = '新しい用語集';
 $string['newglossarycreated'] = '新しい用語集が作成されました。';
 $string['newglossaryentries'] = '新規用語集エントリ';
-$string['nocomment'] = 'コメントが見つかりません';
+$string['nocomment'] = 'コメントが見つかりませんでした。';
 $string['nocomments'] = '( このエントリにはコメントがありません。)';
 $string['noconceptfound'] = '用語または定義が見つかりませんでした。';
 $string['noentries'] = 'このセクションにはエントリがありません。';
