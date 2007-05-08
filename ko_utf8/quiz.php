@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007042601)
+      // quiz.php - created with Moodle 1.9 dev (2007050400)
 
 
 $string['1day'] = '하루';
@@ -242,6 +242,7 @@ $string['imagemissing'] = '$a 번째 줄에 있는 이미지 파일을 쓸 수 �
 $string['import'] = '가져오기';
 $string['importcategory'] = '범주 가져오기';
 $string['importerror'] = '가져오기 과정에서 오류 발생';
+$string['importerrorquestion'] = '질문 가져오기 오류';
 $string['importfilearea'] = '배움터에 있는 기존 파일에서 가져오기';
 $string['importfileupload'] = '올려진 파일로부터 파일 가져오기';
 $string['importfromthisfile'] = '이 파일로부터 가져오기';
