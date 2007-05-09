@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007050400)
+      // quiz.php - created with Moodle 1.9 dev (2007050901)
 
 
 $string['1day'] = '하루';
@@ -543,6 +543,8 @@ $string['wronggrade'] = '잘못된 점수($a 줄 이후)';
 $string['wronguse'] = '이 페이지를 사용할 수 없음';
 $string['xhtml'] = 'XHTML 형식';
 $string['xml'] = 'XML형식';
+$string['xmlimportnoname'] = 'xml파일에 문항 제목이 없습니다.';
+$string['xmlimportnoquestion'] = 'xml파일에 질문 내용이 없습니다.';
 $string['xmltypeunsupported'] = '$a 형태의 문제는 XML이 해석하지 못합니다.';
 $string['yourfinalgradeis'] = '이번 퀴즈의 최종 점수는 $a 입니다';
 $string['zerosignificantfiguresnotallowed'] = '정답에 0점을 줄 수는 없습니다!';
