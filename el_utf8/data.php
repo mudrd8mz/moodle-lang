@@ -2,18 +2,31 @@
       // data.php - created with Moodle 1.7.1+ (2006101010)
 
 
-$string['action'] = 'Δράση';
-$string['addcomment'] = 'Πρόσθεση ενός σχόλιου';
+$string['add'] = 'Προσθήκη καταχώρησης';
+$string['addafield'] = 'Προσθήκη πεδίου';
+$string['addcomment'] = 'Προσθήκη σχολίου';
+$string['addentries'] = 'Προσθήκη καταχωρήσεων';
+$string['addtemplate'] = 'Προσθήκη προτύπου';
+$string['allowcomments'] = 'Να επιτρέπονται τα σχόλια?';
+$string['allowratings'] = 'Να επιτρέπεται η βαθμολόγηση των μηνυμάτων?';
+$string['approve'] = 'Έγκριση';
+$string['ascending'] = 'Αύξουσα';
 $string['availablefromdate'] = 'Διαθέσιμο από';
+$string['availabletags'] = 'Διαθέσιμες ετικέτες';
 $string['availabletodate'] = 'Διαθέσιμο στο';
 $string['blank'] = 'Κενό';
+$string['bynameondate'] = 'από $a->name - $a->date';
 $string['cancel'] = 'Ακύρωση';
+$string['checkbox'] = 'Checkbox';
 $string['chooseorupload'] = 'Επιλέξτε ένα αρχείο';
 $string['commentdeleted'] = 'Το σχόλιο διαγράφηκε';
+$string['commentempty'] = 'Δεν γράψατε τίποτα στην περιοχή των σχολίων';
 $string['comments'] = 'Σχόλια';
 $string['commentsaved'] = 'Τα σχόλια αποθηκεύτηκαν';
 $string['commentsn'] = '$a σχόλιο(α)';
+$string['csstemplate'] = 'Πρότυπο CSS';
 $string['csvfile'] = 'CSV αρχείο';
+$string['csvimport'] = 'Εισαγωγή αρχείου CSV';
 $string['date'] = 'Ημερομηνία';
 $string['dateentered'] = 'Η ημερομηνία καταχωρήθηκε';
 $string['delete'] = 'Διαγραφή';

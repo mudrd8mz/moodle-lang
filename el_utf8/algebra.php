@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // algebra.php - created with Moodle 1.6.2 (2006050520)
+      // algebra.php - created with Moodle 1.7.1+ (2006101010)
 
 
-$string['filtername'] = 'Αλγεβρική Σημειολογία και Μορφή';
+$string['filtername'] = 'Μαθηματικό κείμενο';
 
 ?>
