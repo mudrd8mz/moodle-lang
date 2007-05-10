@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007050301)
+      // moodle.php - created with Moodle 1.9 dev (2007050901)
 
 
 $string['action'] = '操作';
@@ -503,7 +503,7 @@ $string['emailpasswordsent'] = 'パスワードの変更確認ありがとうご
 <p>新しいパスワードが記載されたメールがあなたのメールアドレス<br /><b>$a->email</b>に送信されました。<br />新しいパスワードは自動的に生成されたものです - <a href=\"$a->link\">パスワードの変更</a> で覚えやすいものに変更することができます。';
 $string['enable'] = 'Yes';
 $string['encryptedcode'] = '暗号化コード';
-$string['enroldate'] = '登録可能期間';
+$string['enroldate'] = '利用有効期間';
 $string['enrolenddate'] = '終了日';
 $string['enrolenddaterror'] = '登録終了日が開始日よりも早く設定されています。';
 $string['enrollable'] = 'コース登録可能';
