@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.4.1 (2004083101)
+      // editor.php - created with Moodle 1.8 + (2007021502)
 
 
-$string['about'] = 'О редакторе ';
+$string['about'] = 'О редакторе';
 $string['absbottom'] = 'По нижнему краю строки';
-$string['absmiddle'] = 'По средине строки';
 $string['address'] = 'Адрес';
+$string['alertnoselectedtext'] = 'Вы должны сначала выделить текст!';
 $string['alignment'] = 'Выравнивание';
 $string['alternatetext'] = 'Альтернативный текст';
 $string['anchorhelp'] = 'Позволяет создать только закладку. Вам еще необходимо создать ссылку вручную.';
@@ -30,6 +30,9 @@ $string['createlink'] = 'Вставка ссылки';
 $string['cut'] = 'Вырезать выделение';
 $string['delete'] = 'Удалить';
 $string['filebrowser'] = 'Список файлов';
+$string['findwhat'] = 'Найти';
+$string['fontname'] = 'Название шрифта';
+$string['fontsize'] = 'Размер шрифта';
 $string['forecolor'] = 'Цвет шрифта';
 $string['fullscreen'] = 'Полнофункциональный редактор';
 $string['heading'] = 'Заголовок';
@@ -62,13 +65,16 @@ $string['linktargetself'] = 'В этом фрейме';
 $string['linktargettop'] = 'В этом окне';
 $string['linktitle'] = 'Заголовок';
 $string['linkurl'] = 'URL-адрес';
+$string['matchcase'] = 'Учитывать регистр';
 $string['middle'] = 'По средине';
 $string['minimize'] = 'Вернуться в обычный редактор';
 $string['move'] = 'Переместить';
+$string['nolink'] = 'Не допускать авто-связывания';
 $string['normal'] = 'Обычный';
 $string['notimage'] = 'Выбранный файл не является изображением. Пожалуйста, выберите изображение :)!';
 $string['notset'] = 'Не выбрано';
 $string['ok'] = 'ОК';
+$string['options'] = 'Опции';
 $string['orderedlist'] = 'Нумерованный список';
 $string['outdent'] = 'Уменьшение отступа';
 $string['paste'] = 'Вставить из буфера';
@@ -80,11 +86,16 @@ $string['preformatted'] = 'По заданному формату';
 $string['preview'] = 'Просмотр';
 $string['properties'] = 'Свойства';
 $string['redo'] = 'Вернуть последнее действие';
+$string['regularexpressions'] = 'Использовать регулярные выражения';
 $string['removelink'] = 'Удалить ссылку';
 $string['rename'] = 'Переименовать';
+$string['replaceall'] = 'Заменить все';
+$string['replacewith'] = 'Заменить на';
 $string['right'] = 'По правому краю';
 $string['righttoleft'] = 'Направление справа-налево';
 $string['rows'] = 'Строки';
+$string['searchandreplace'] = 'Поиск и замена';
+$string['searchnotfound'] = 'Искомая строка не найдена!';
 $string['selectcolor'] = 'Выбрать цвет';
 $string['selection'] = 'Выделение';
 $string['showhelp'] = 'Справка по редактору';
@@ -93,7 +104,7 @@ $string['spacing'] = 'Отступ';
 $string['strikethrough'] = 'Перечеркнутый';
 $string['subscript'] = 'Подстрочный символ';
 $string['superscript'] = 'Надстрочный символ';
-$string['textindicator'] = 'Текущий стиль ';
+$string['textindicator'] = 'Текущий стиль';
 $string['textmode'] = 'Вы сейчас используете режим редактирования исходного кода. Используйте  кнопку [<>] для возврата в режим визуального редактирования.';
 $string['texttop'] = 'По верхнему краю строки';
 $string['top'] = 'По верхнему краю';
@@ -106,5 +117,6 @@ $string['vertical'] = 'По вертикали';
 $string['width'] = 'Ширина';
 $string['wordclean'] = 'Очистить от HTML-тегов, используемых MS Word';
 $string['zip'] = 'Создать Zip-архив';
+$string['absmiddle'] = 'По средине строки'; // ORPHANED
 
 ?>

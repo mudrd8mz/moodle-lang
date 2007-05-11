@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.4 development (2004070800)
+      // choice.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['allowupdate'] = 'Разрешить обновление';
@@ -9,6 +9,7 @@ $string['choiceclose'] = 'Пока не';
 $string['choicename'] = 'Название опроса';
 $string['choiceopen'] = 'Открыть';
 $string['choicetext'] = 'Текст опроса';
+$string['havetologin'] = 'Для того, чтобы Вы могли участвовать в опросе, Вам необходимо войти под Вашей учетной записью, либо <a title=\"Создать новую учетную запись в системе\" href=\"http://www.cdp.tsure.ru/moodle/login/signup.php\">создать новую</a>, если у Вас ее нет.';
 $string['modulename'] = 'Опрос';
 $string['modulenameplural'] = 'Опросы';
 $string['mustchooseone'] = 'Вы должны выбрать ответ перед сохранением. Ничего не было сохранено.';
@@ -26,7 +27,8 @@ $string['responses'] = 'Ответ';
 $string['responsesto'] = 'Ответ на $a';
 $string['savemychoice'] = 'Сохранить ответ';
 $string['showunanswered'] = 'Показать колонки, оставшиеся без ответа';
-$string['timerestrict'] = 'Ограничить время ответа ';
+$string['timerestrict'] = 'Ограничить время ответа';
 $string['viewallresponses'] = 'Посмотреть $a ответы';
+$string['yourselection'] = 'Ваш выбор';
 
 ?>
