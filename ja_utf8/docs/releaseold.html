@@ -722,32 +722,32 @@
     <dt>サイト管理</dt>
     <dd> 
       <ul>
-        <li>An important security fix preventing teachers from logging in as admins who are students in their course</li>
-        <li>New setting &quot;forcelogin&quot;  can force people to log in before they can see any of the site</li>
-        <li>New setting &quot;opentogoogle&quot;  allows Google and people referred by Google to get in as guest</li>
-        <li>New setting &quot;timezone&quot; allows a default timezone to be set for the whole site</li>
-        <li>New setting &quot;deleteunconfirmed&quot; specifies the time we'll wait for email accounts to be confirmed</li>
-        <li>New setting &quot;allowunenroll&quot; enables/disables students from unenrolling themselves from courses</li>
-        <li>New setting &quot;fullnamedisplay&quot; allows override for the formatting of user full names so students can only see &quot;firstname lastname&quot;, &quot;lastname firstname&quot; or &quot;firstname&quot;</li>
-        <li>Individual users can have their email disabled by the teacher or admin (useful for dealing with broken mail accounts that are bouncing)</li>
-        <li>Upload sizes can now be controlled throughout Moodle using &quot;maxbytes&quot;. There is a site limit (bounded by the current PHP limits), which itself is the upper bound for course limits, which is the upper bound for activity limits.</li>
-        <li>Moodle cookies can be customised (helps when running multiple Moodles on one site)</li>
-        <li>Included script for analysing database performance (admin/dbperformance.php)</li>
-        <li>Included standalone script to check a server for Moodle compatibility (lib/compatible.php)</li>
-        <li> If a file called cronextra.php exists in the dataroot then cron will run that too.  This allows sites to have &quot;special&quot; maintenance features.</li>
-        <li>Course formats are now more like plugins, in separate directories</li>
-        <li>Users can now be uploaded from text files</li>
-        <li>If $CFG-&gt;disableuserimages is defined (in config.php) then user images can not be changed</li>
-        <li>If $CFG-&gt;admineditalways is defined then the administrator can edit ANY post at any time.</li>
-        <li>If $CFG-&gt;filterall is defined then even little things liks forum subjects and activity names are filtered</li>
-        <li>Support for restricted demo users (eg the teacher demo on Moodle.org) - usernames can be added to a list of  names in config.php. eg $CFG-&gt;restrictusers = 'teacher,fred';</li>
+        <li>コースに学生として登録されている教師が、管理者としてログインすることを避けるセキュリティ上の重要な修正を施しました。</li>
+        <li>新しい設定「forcelogin」を追加しました - サイトを閲覧する前のログインをユーザに対して強制します。</li>
+        <li>新しい設定「opentogoogle」を追加しました - Googleおよびゲストに対してGoogleを使用したサイト閲覧を許可できるようにしました。</li>
+        <li>新しい設定「timezone」を追加しました - サイト全体にデフォルトのタイムゾーンを設定できるようにしました。</li>
+        <li>新しい設定「deleteunconfirmed」を追加しました - メールアカウントの確定を待つ時間を設定できるようにしました。</li>
+        <li>新しい設定「allowunenroll」を追加しました - 学生が自分でコースから登録解除できるかどうか設定できるようにしました。</li>
+        <li>新しい設定「fullnamedisplay」を追加しました - 「名 姓」「妙 名」「名」のように、ユーザ氏名のフォーマットをオーバライドできるようにしました。</li>
+        <li>教師および管理者が個々のユーザのメールアドレスを無効にできるようにしました (宛先不明で戻ってくるメールの対応に便利です)。</li>
+        <li>「maxbytes」を使用してMoodle全体のファイルアップロードサイズをコントロールできるようにしました。サイトリミット (現在のPHPリミットで上限を制限) は、コースリミットの上限を制限し、コースリミットは活動リミットの上限を制限します。</li>
+        <li>Moodleクッキーをカスタマイズできるようにしました (1つのサイトで複数のMoodleを稼動させるため)。</li>
+        <li>データベースパフォーマンスを分析するスクリプトを同梱しました (admin/dbperformance.php)。</li>
+        <li>Moodleとサーバの互換性をチェックする独立したスクリプトを同梱しました (lib/compatible.php)。</li>
+        <li>datarootにcronextra.phpと呼ばれるスクリプトが存在する場合、Moodleのcronと同時に実行するようにしました。このことにより、サイト独自の「特別な」メンテナンス機能を設置することができます。</li>
+        <li>別のディレクトリに入れることにより、コースフォーマットをさらにプラグインのようにしました。</li>
+        <li>テキストフィルタからユーザをアップロードできるようにしました。</li>
+        <li>config.phpで「$CFG-&gt;disableuserimages」が定義された場合、ユーザがイメージを変更できないようにしました。</li>
+        <li>「$CFG-&gt;admineditalways」が定義された場合、管理者がいつでもフォーラム投稿を編集できるようにしました。</li>
+        <li>「$CFG-&gt;filterall」が定義された場合、フォーラムの題名や活動名等の細かな部分までフィルタされるようにしました。</li>
+        <li>制限されたデモユーザをサポートするようにしました (例 Moodle.orgの教師デモ) - config.phpのユーザ名リストにユーザ名を追加できるようにしました。例) $CFG-&gt;restrictusers = 'teacher,fred';</li>
       </ul>
     </dd>
     <dt>テーマ</dt>
     <dd> 
       <ul>
-        <li>Fixes for Internet Explorer can be more robust at using the style sheet</li>
-        <li>Miscellaneous fixes and improvements to themes - <strong>custom themes need upgrading!</strong></li>
+        <li>Internet Explorerのスタイルシート使用に関して、さらに改善しました。</li>
+        <li>テーマに関して様々な修正および改善を施しました - <strong>カスタムテーマはアップグレードが必要です!</strong></li>
       </ul>
     </dd>
     <dt>翻訳</dt>
