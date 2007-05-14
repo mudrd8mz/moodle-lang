@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // activitynames.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005032800)
+      // activitynames.php - created with Moodle 1.8 dev (2006120700)
 
 
-$string['filtername'] = 'קישור אוטומטי של שמות פעילויות';
+$string['filtername'] = 'יצירת קישורים אוטומטית לשמות הפעילויות';
 
 ?>

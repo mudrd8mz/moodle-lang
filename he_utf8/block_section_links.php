@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // block_section_links.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005032800)
+      // block_section_links.php - created with Moodle 1.8 dev (2006120700)
 
 
-$string['blockname'] = 'קישורי יחידות';
+$string['blockname'] = 'קישורי קטעים';
 $string['jumptocurrenttopic'] = 'קפוץ לנושא נוכחי';
 $string['jumptocurrentweek'] = 'קפוץ לשבוע נוכחי';
 $string['topics'] = 'נושאים';

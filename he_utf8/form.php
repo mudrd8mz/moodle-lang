@@ -1,0 +1,35 @@
+<?PHP // $Id$ 
+      // form.php - created with Moodle 1.8 dev (2006120700)
+
+
+$string['addfields'] = 'הוסף $a שדות לטופס';
+$string['advancedelement'] = 'מרכיב מתקדם';
+$string['day'] = 'יום';
+$string['denotesreq'] = '$a מציין שדה נדרש.';
+$string['display'] = 'הצג';
+$string['err_alphanumeric'] = 'כאן עליך להקליד רק אותיות או מספרים.';
+$string['err_email'] = 'כאן עליך להקליד כתובת דוא\"ל תקפה.';
+$string['err_lettersonly'] = 'כאן עליך להקליד אותיות בלבד.';
+$string['err_maxlength'] = 'כאן אסור לך להקליד יותר מ-$a->format תווים.';
+$string['err_minlength'] = 'כאן עליך להקליד לפחות $a->format תווים.';
+$string['err_nonzero'] = 'כאן עליך להקליד מספר שלא מתחיל ב-0.';
+$string['err_nopunctuation'] = 'כאן אסור לך להקליד סימני פיסוק.';
+$string['err_numeric'] = 'כאן עליך להקליד מספר.';
+$string['err_rangelength'] = 'כאן עליך להקליד בין {$a->format[0]} ל-{$a->format[1]} תווים.';
+$string['err_required'] = 'כאן עליך לספק ערך כלשהוא.';
+$string['general'] = 'הגדרות כלליות';
+$string['hideadvanced'] = 'הסתר מתקדם';
+$string['hour'] = 'שעה';
+$string['minute'] = 'דקה';
+$string['miscellaneoussettings'] = 'הגדרות שונות';
+$string['modstandardels'] = 'הגדרות מודולים מצויות';
+$string['month'] = 'חודש';
+$string['nomethodforaddinghelpbutton'] = 'לא קיימת שיטה להוספת כפתור עזרה למרכיב הטופס $a->name (כיתה $a->classname)';
+$string['nonexistentformelements'] = 'מנסה להוסיף כפתורים למרכיבי טופס לא קיימים: $a';
+$string['requiredelement'] = 'שדה נדרש';
+$string['security'] = 'אבטחה';
+$string['showadvanced'] = 'הראה מתקדם';
+$string['timing'] = 'תזמון';
+$string['year'] = 'שנה';
+
+?>

@@ -1,26 +1,26 @@
 <?PHP // $Id$ 
-      // pix.php - created with Moodle 1.2 development (2003111400)
+      // pix.php - created with Moodle 1.8 dev (2006120700)
 
 
-$string['angry'] = 'angry';
-$string['approve'] = 'approve';
-$string['biggrin'] = 'big grin';
-$string['blackeye'] = 'black eye';
-$string['blush'] = 'blush';
-$string['clown'] = 'clown';
-$string['cool'] = 'cool';
-$string['dead'] = 'dead';
-$string['evil'] = 'evil';
-$string['kiss'] = 'kiss';
-$string['mixed'] = 'mixed';
-$string['sad'] = 'sad';
-$string['shy'] = 'shy';
-$string['sleepy'] = 'sleepy';
-$string['smiley'] = 'smile';
-$string['surprise'] = 'surprise';
-$string['thoughtful'] = 'thoughtful';
-$string['tongueout'] = 'tongueout';
-$string['wideeyes'] = 'wide eyes';
-$string['wink'] = 'wink';
+$string['angry'] = 'כועס';
+$string['approve'] = 'מאשר';
+$string['biggrin'] = 'חיוך גדול';
+$string['blackeye'] = 'פנס בעין';
+$string['blush'] = 'מסמיק';
+$string['clown'] = 'ליצן';
+$string['cool'] = 'מגניב';
+$string['dead'] = 'מת';
+$string['evil'] = 'רע';
+$string['kiss'] = 'נשיקה';
+$string['mixed'] = 'מעורב';
+$string['sad'] = 'עצוב';
+$string['shy'] = 'ביישן';
+$string['sleepy'] = 'ישנוני';
+$string['smiley'] = 'חיוך';
+$string['surprise'] = 'הפתעה';
+$string['thoughtful'] = 'מהורהר';
+$string['tongueout'] = 'לשון בחוץ';
+$string['wideeyes'] = 'עיניים פעורות';
+$string['wink'] = 'קריצה';
 
 ?>

@@ -1,0 +1,71 @@
+<?PHP // $Id$ 
+      // group.php - created with Moodle 1.8 dev (2006120700)
+
+
+$string['addexistinggroupstogrouping'] = 'הוסף את הקבוצות הקיימות לאוסף הקבוצות';
+$string['addgroupstogrouping'] = 'הוסף קבוצות לאוסף הקבוצות';
+$string['adduserstogroup'] = 'הוסף משתמשים לקבוצה';
+$string['cancel'] = 'בטל';
+$string['createautomaticgrouping'] = 'צור חלוקה אוטומטית לקבוצות';
+$string['creategroup'] = 'צור קבוצה';
+$string['creategrouping'] = 'צור אוסף קבוצות';
+$string['creategroupinselectedgrouping'] = 'צור קבוצה באוסף הקבוצות הנבחר';
+$string['defaultgroupdescription'] = 'תיאור הקבוצה שמשמש כברירת המחדל';
+$string['defaultgroupingname'] = 'אוסף קבוצות';
+$string['defaultgroupname'] = 'קבוצה';
+$string['defaultgroupprefix'] = 'קבוצה';
+$string['deletegrouping'] = 'מחק את אוסף הקבוצות';
+$string['deleteselectedgroup'] = 'מחק את הקבוצה שנבחרה';
+$string['displaygrouping'] = 'הצג את אוסף הקבוצות';
+$string['distributealphabetically'] = 'חלק לקבוצות באופן אלפבתי, לפי שם משפחה.';
+$string['distributeevenly'] = 'חלק את הסטודנטים שנשארו באופן שווה';
+$string['editgroupingpermissions'] = 'ערוך את הרשאות אוסף הקבוצות';
+$string['editgroupingsettings'] = 'ערוך את הגדרות אוסף הקבוצות';
+$string['editgroupsettings'] = 'ערוך את הגדרות הקבוצה';
+$string['enrolmentkey'] = 'מפתח הרשמה';
+$string['group'] = 'קבוצה';
+$string['groupdescription'] = 'תיאור הקבוצה';
+$string['groupfor'] = 'לקבוצה';
+$string['groupinfo'] = 'מידע על הקבוצה שנבחרה';
+$string['groupinfomembers'] = 'מידע על חברי הקבוצה שנבחרו';
+$string['groupinfopeople'] = 'מידע על האנשים שנבחרו';
+$string['grouping'] = 'אוסף קבוצות';
+$string['groupingdescription'] = 'תיאור אוסף הקבוצות';
+$string['groupingname'] = 'שם אוסף הקבוצות';
+$string['groupings'] = 'אוספי קבוצות';
+$string['groupmembers'] = 'חברי הקבוצה';
+$string['groupmemberssee'] = 'ראה את חברי הקבוצה';
+$string['groupmembersselected'] = 'חברי הקבוצה שנבחרה';
+$string['groupmode'] = 'מצב קבוצה';
+$string['groupmodeforce'] = 'כפה מצב קבוצה';
+$string['groupmy'] = 'הקבוצה שלי';
+$string['groupname'] = 'שם הקבוצה';
+$string['groupnotamember'] = 'סליחה, אינך חבר בקבוצה זו';
+$string['groups'] = 'קבוצות';
+$string['groupsinselectedgrouping'] = 'קבוצות באוסף הקבוצות הנבחר';
+$string['groupsnone'] = 'אין קבוצות';
+$string['groupsseparate'] = 'הפרד את הקבוצות';
+$string['groupsvisible'] = 'קבוצות נראות';
+$string['hidepicture'] = 'הסתר את התמונה';
+$string['javascriptrequired'] = 'עמוד זה דורש הפעלה של Javascript.';
+$string['membersofselectedgroup'] = 'חברי הקבוצה שנבחרה';
+$string['newpicture'] = 'תמונה חדשה';
+$string['numberofgroups'] = 'מספר הקבוצות';
+$string['numberofstudents'] = 'מספר הסטודנטים';
+$string['prefixforgroupnames'] = 'הגדרה קבועה מראש לשמות הקבוצות';
+$string['printerfriendly'] = 'תצוגת קבוצות ידידותית להדפסה';
+$string['removegroupfromselectedgrouping'] = 'הוצא את הקבוצה מאוסף הקבוצות שנבחר.';
+$string['removeselectedusers'] = 'הוצא את המשתמשים שנבחרו.';
+$string['save'] = 'שמור';
+$string['selectnumberineachgroup'] = 'בחר מספר בכל קבוצה';
+$string['selectnumberofgroups'] = 'בחר את מספר הקבוצות';
+$string['showusersalreadyingroup'] = 'הראה את המשתמשים שכבר נמצאים בקבוצה באוסף הקבוצות';
+$string['teachersgroupmark'] = 'המורים לא יכולים לסמן פעילויות לקבוצות שהם לא משתייכים אליהן.';
+$string['teachersgroupview'] = 'המורים לא יכולים לראות פעילויות של קבוצות אליהן הם לא משתייכים.';
+$string['teachersoverride'] = 'מורים שלא נמצאים בקבוצה יכולים לראות ולסמן פעילויות לכל הקבוצות (עוקף את הלעיל).';
+$string['usestudentsonlyfromselectedgroup'] = 'השתמש רק בסטודנטים מהקבוצה הנבחרת כרגע.';
+$string['viewallgroupsactivities'] = 'הסטודנטים יכולים לראות את הפעילויות של כל הקבוצות אבל לא יכולים לתרום אליהן.';
+$string['viewallgroupsmembers'] = 'סטודנטים יכולים לראות את חברי כל הקבוצות.';
+$string['viewowngroup'] = 'סטודנטים יכולים לראות את חברי כל קבוצה אליה הם שייכים.';
+
+?>

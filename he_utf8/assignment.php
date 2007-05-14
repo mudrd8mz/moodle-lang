@@ -1,8 +1,14 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.5.1 (2005060210)
+      // assignment.php - created with Moodle 1.8 dev (2006120700)
 
 
+$string['allowdeleting'] = 'אפשר מחיקה';
+$string['allowmaxfiles'] = 'מספר הקבצים המקסימלי שניתן להעלות';
+$string['allownotes'] = 'אפשר הערות תלמידים';
 $string['allowresubmit'] = 'הרשה הגשה מחדש';
+$string['assignment:grade'] = 'בדוק ותן ציון למטלה';
+$string['assignment:submit'] = 'הגש מטלה';
+$string['assignment:view'] = 'ראה מטלה';
 $string['assignmentdetails'] = 'פרטי תרגיל';
 $string['assignmentmail'] = '$a->teacher פרסם משוב על התרגיל שהגשת עבור \'$a->assignment\'
 
@@ -12,18 +18,24 @@ $a->url';
 $string['assignmentmailhtml'] = '$a->teacher שלח משוב על התרגיל שהגשת עבור \'<i>$a->assignment</i>\'<br /><br />
 
 אתה יכול לראות את זה כנספח ל<a href=\"$a->url\">מטלה שהגשת</a>.';
-$string['assignmentname'] = 'שם תרגיל';
-$string['assignmenttype'] = 'סוג תרגיל';
+$string['assignmentname'] = 'שם המטלה';
+$string['assignmenttype'] = 'סוג המטלה';
 $string['availabledate'] = 'זמינה מתאריך';
 $string['comment'] = 'הערה';
 $string['commentinline'] = 'הערה פנימית';
+$string['configitemstocount'] = 'טבע הפריטים שנספרים כהגשות תלמידים במטלות מקוונות';
 $string['configmaxbytes'] = 'ברירת מחדל לגודל המירבי של כל התרגילים באתר זה (כפוף להגבלות הקורס ולשאר הגדרות מקומיות)';
+$string['confirmdeletefile'] = 'האם אתה בטוח לחלוטין שאתה רוצה למחוק קובץ זה?
+?<br /><strong>$a</strong>';
+$string['deletefilefailed'] = 'מחיקת הקובץ נכשלה';
 $string['description'] = 'תיאור';
+$string['draft'] = 'טיוטא';
 $string['duedate'] = 'תאריך הגשה';
 $string['duedateno'] = 'אין תאריך הגשה';
 $string['early'] = '$a מוקדם';
 $string['editmysubmission'] = 'ערוך את ההגשה שלי';
-$string['emailteachermail'] = 'המשתמש $a->username עדכן את הגשת התרגיל עבור \'$a->assignment\'
+$string['emailstudents'] = 'התראות בדוא\"ל לתלמידים';
+$string['emailteachermail'] = 'המשתמש $a->username עדכן את ההגשת התרגיל שלו עבור \'$a->assignment\'
 
 ההגשה זמינה כאן:
 
@@ -37,38 +49,68 @@ $string['failedupdatefeedback'] = 'כשל בעדכון משוב ההגשה למ�
 $string['feedback'] = 'משוב';
 $string['feedbackfromteacher'] = 'משוב מ-$a';
 $string['feedbackupdated'] = 'הגשת עדכון משוב בשביל $a אנשים';
-$string['helpoffline'] = '<p>הגדרה זו שימושית כאשר המטלה מבוצעת מחוץ ל-Moodle. היא יכולה להיות במקום אחר ברשת או בהגשה פנים-אל-פנים.</p><p>תלמידים יכולים לראות את הגדרת התרגיל, אבל לא יכולים להעלות קבצים או לערוך את התרגיל באופן מקוון. מתן ציונים עובד כרגיל, ותלמידים יקבלו הודעה כאשר הציון שלהם נקבע.</p>';
+$string['graded'] = 'בדוק';
+$string['guestnosubmit'] = 'אנו מצטערים, אבל אורחים לא מורשים להגיש מטלה. אתה חייב להירשם או להתחבר למערכת כדי להגיש את התשובה שלך.';
+$string['guestnoupload'] = 'אנו מצטערים, אבל אורחים לא מורשים להעלות קבצים.';
+$string['helpoffline'] = '<p>הגדרה זו שימושית כאשר המטלה מבוצעת מחוץ למוודל. היא יכולה להיות במקום אחר ברשת או בהגשה פנים-אל-פנים.</p><p>תלמידים יכולים לראות את הגדרת התרגיל, אבל לא יכולים להעלות קבצים או לערוך את התרגיל באופן מקוון. מתן ציונים עובד כרגיל, ותלמידים יקבלו הודעה כאשר הציון שלהם נקבע.</p>';
 $string['helponline'] = '<p>סוג תרגיל זה מבקש מהמשתמשים לערוך טקסט, בעזרת כלי העריכה הרגילים. המורים יכולים להעניק ציון באופן מקוון, ואפילו לבצע תיקונים או לרשום הערות בגוף הטקסט.</p>
-<p>(אם השתמשת בגרסאות קודמות של Moodle, סוג מטלה זה דומה להתנהגות של מודול ה-Journal הישן.)</p>';
+<p>(אם השתמשת בגרסאות קודמות של מוודל, סוג מטלה זה דומה להתנהגות של מודול ה-Journal הישן.)</p>';
+$string['helpupload'] = '<p>סוג מטלה זה מאפשר לכל משתתף להעלות קובץ אחד, או יותר, מכל פורמט שהוא. קבצים אלה יכולים להיות מסמכי Word, תמונות, אתרים המכווצים באמצעות תוכנת ZIP או כל דבר אחר שתבקשו מהמשתתפים להעלות.</p>
+<p>בנוסף, סוג זה של מטלה מאפשר לכם להעלות קבצי תגובה רבים. את קיבצי התגובה ניתן להעלות גם לפני ההגשה, וכך ניתן להשתמש בהם כדי לתת לכל משתתף קובץ אחר לעבוד איתו. 
+</p>
+<p>בנוסף המשתתפים יכולים להוסיף הערות שמתארות את הקבצים שהם הגישו, מצב התקדמות העבודה או כל מידע כתוב אחר. </p>
+<p>את ההגשות לסוג זה של מטלה חייבים התלמידים לסיים בעצמם, באופן ידני. אתם יכולים לראות את המצב הנוכחי שלהם בכל עת, מטלות לא גמורות מסומנות כ\'טיוטא\'. בידיכם האפשרות להחזיר כל מטלה שעדיין לא ניתן לה ציון למצב של טיוטא.   
+</p>';
 $string['helpuploadsingle'] = '<p>סוג תרגיל זה מאפשר לכל משתתף להעלות קובץ בודד, מכל סוג שהוא.</p> <p>הקובץ יכול להיות מסמך שנכתב במעבד תמלילים, תמונה,
 חבילת ארכיב מכווצת, או כל סוג קובץ אחר הנדרש ע\"י התרגיל.</p>';
+$string['hideintro'] = 'הסתר את התיאור לפני התאריך הזמין';
 $string['late'] = '$a מאוחר';
 $string['maximumgrade'] = 'ציון מירבי';
 $string['maximumsize'] = 'גודל מירבי';
-$string['modulename'] = 'תרגיל';
-$string['modulenameplural'] = 'תרגילים';
-$string['newsubmissions'] = 'התרגילים הוגשו';
-$string['noassignments'] = 'אין עדיין תרגילים';
-$string['noattempts'] = 'עדיין לא בוצעו שום פעילויות על תרגיל זה';
-$string['notgradedyet'] = 'עדיין לא הוערך ';
+$string['modulename'] = 'מטלה';
+$string['modulenameplural'] = 'מטלות';
+$string['newsubmissions'] = 'המטלות שהוגשו';
+$string['noassignments'] = 'עדיין אין מטלות';
+$string['noattempts'] = 'עדיין לא נעשו נסיונות לפתור את מטלה זו';
+$string['nofiles'] = 'לא הוגשו קבצים';
+$string['nofilesyet'] = 'עדיין לא הוגשו קבצים';
+$string['notavailableyet'] = 'מצטערים, מטלה זו עדיין אינה זמינה<br />
+הוראות למילוי המטלה, יוצגו כאן בתאריך המופיע למטה.';
+$string['notes'] = 'הערות';
+$string['notesempty'] = 'אין רשומה';
+$string['notesupdateerror'] = 'חלה שגיאה בזמן עידכון ההערות';
+$string['notgradedyet'] = 'עדיין לא הוערך';
 $string['notsubmittedyet'] = 'לא הוגש עדיין';
+$string['onceassignmentsent'] = 'מהרגע שהמטלה נשלחת לבדיקה, לא תוכל למחוק או להוסיף קבצים. האם אתה רוצה להמשיך?';
 $string['overwritewarning'] = 'אזהרה: העלאה מחדש תחליף את ההגשה הנוכחית שלך';
+$string['pagesize'] = 'מספר ההגשות שמוצגות בכל עמוד';
 $string['preventlate'] = 'מנע שליחת תרגילים באיחור';
+$string['quickgrade'] = 'אפשר נתינת ציון באופן מהיר';
+$string['responsefiles'] = 'קבצי תגובות';
+$string['reviewed'] = 'נבדק';
 $string['saveallfeedback'] = 'שמור את כל המשובים שלי';
+$string['sendformarking'] = 'שלח לבדיקה וקבלת ציון';
 $string['submission'] = 'הגשה';
-$string['submissionfeedback'] = 'הגשת משוב';
+$string['submissiondraft'] = 'טיוטא של הגשה';
+$string['submissionfeedback'] = 'משוב על ההגשה';
 $string['submissions'] = 'הגשות';
 $string['submissionsaved'] = 'השינויים שלך נשמרו';
-$string['submitassignment'] = 'הגש את התרגיל שלך באמצעות טופס זה';
+$string['submissionsnotgraded'] = '$a הגשות לא עברו הערכה';
+$string['submitassignment'] = 'הגש את המטלה שלך באמצעות טופס זה';
+$string['submitedformarking'] = 'המטלה כבר הוגשה להערכה ולא ניתן לעדכן אותה';
+$string['submitformarking'] = 'הגשה סופית לבדיקת המטלה';
 $string['submitted'] = 'הוגש';
+$string['submittedfiles'] = 'קבצים שהוגשו';
 $string['typeoffline'] = 'פעילות לא מקוונת';
 $string['typeonline'] = 'טקסט מקוון';
+$string['typeupload'] = 'העלאה מתקדמת של קבצים';
 $string['typeuploadsingle'] = 'העלה קובץ יחיד';
-$string['uploadbadname'] = 'שם קובץ זה הכיל תווים אסורים ואי אפשר היה להעלות אותו';
-$string['uploadedfiles'] = 'קבצים הועלו';
-$string['uploaderror'] = 'חלה שגיאה בעת שמירת הקובץ על השרת ';
+$string['unfinalize'] = 'החזר למצב טיוטא';
+$string['uploadbadname'] = 'שם קובץ זה הכיל תווים אסורים ואי אפשר היה להעלותו';
+$string['uploadedfiles'] = 'קבצים שהועלו';
+$string['uploaderror'] = 'חלה שגיאה בעת שמירת הקובץ על השרת';
 $string['uploadfailnoupdate'] = 'הקובץ הועלה באופן תקין אבל אי אפשר היה לעדכן את הגשתך!';
-$string['uploadfiletoobig'] = 'מצטערים, אבל הקובץ גדול מדי (הגבול הוא $a בייטים)';
+$string['uploadfiletoobig'] = 'סליחה, אבל הקובץ גדול מדי (הגבול הוא $a ביטים)';
 $string['uploadnofilefound'] = 'לא נמצא קובץ - האם אתה בטוח שבחרת קובץ להעלאה?';
 $string['uploadnotregistered'] = '\'$a\' הועלה באופן תקין אבל ההגשה לא נרשמה!';
 $string['uploadsuccess'] = '\'$a\' הועלה בהצלחה';

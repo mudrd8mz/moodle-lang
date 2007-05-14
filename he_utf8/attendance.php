@@ -1,24 +1,24 @@
 <?PHP // $Id$ 
-      // attendance.php - created with Moodle 1.5 ALPHA (2005042300)
+      // attendance.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['absentlong'] = 'חסר';
 $string['absentshort'] = 'A';
-$string['addingmultiple'] = 'מתבצעת הוספת רשימות נוכחות מרובות ';
+$string['addingmultiple'] = 'מתבצעת הוספת רשימות נוכחות מרובות';
 $string['addmultiple'] = 'הוסף רשימות נוכחות מרובות';
 $string['allmodulename'] = 'כל רשימות הנוכחות';
 $string['auto'] = 'אוטומטי';
-$string['autoattend'] = 'בדוק נוכחות באופן אוטומטי על פי דוחות נוחכות של המשתמשים';
-$string['autoattendmulti'] = 'רשום נוחכות באופן אוטומטי עבור כל התפקידים המבוססים על דוחות נוכחות של משתמשים';
+$string['autoattend'] = 'בדוק נוכחות באופן אוטומטי על פי דוחות פעילות של משתמשים';
+$string['autoattendmulti'] = 'רשום נוכחות באופן אוטומטי עבור כל התפקידים המבוססים על דוחות פעילות של משתמשים';
 $string['autoattendshort'] = 'באופן אוטומטי מהדוחות';
-$string['choosedays'] = 'ימים של כל שבוע לרשימת נוכחות';
-$string['dayofroll'] = 'תאריך בדיקת נוכחות ';
-$string['defaultautoattend'] = 'האם לרשום נוכחות על פי דוחות פעילות של משתמשים או על פי ברירת מחדל';
+$string['choosedays'] = 'ימים של כל שבוע בהם יש לבדוק נוכחות';
+$string['dayofroll'] = 'תאריך בדיקת נוכחות';
+$string['defaultautoattend'] = 'האם לרשום נוכחות על פי דוחות פעילות של משתמשים לפי ברירת מחדל';
 $string['defaultdynamicsection'] = 'האם להעביר רשימת נוכחות לשבוע הנכון על פי ברירת מחדל';
 $string['defaultgrade'] = 'האם להפוך את רשימות הנוכחות לניתנות להערכה על פי ברירת מחדל';
-$string['defaulthoursinclass'] = 'כמה שעות צריכות להיות ברשימת נוכחות על פי ברירת מחדל';
-$string['defaultmaxgrade'] = 'על פי ברירת מחדל מהו הציון המירבי שניתן לתת לנוכחות מלאה';
-$string['defaultstudentstatus'] = 'מצב השתתפות התלמיד על פי ברירת מחדל ברשימות נוכחות חדשות';
+$string['defaulthoursinclass'] = 'כמה שעות צריכות להיות ברשימת נוכחות שמשמשת ברירת מחדל';
+$string['defaultmaxgrade'] = 'על פי ברירת מחדל מה צריך להיות הציון המירבי שניתן לתת לנוכחות מלאה';
+$string['defaultstudentstatus'] = 'מצב נוכחות התלמיד שמשמש כברירת מחדל ברשימות נוכחות חדשות';
 $string['downloadexcelfull'] = 'הורד גיליון אלקטרוני מלא בפורמט Excel';
 $string['downloadexceltotals'] = 'הורד גיליון אלקטרוני מקוצר בפורמט Excel';
 $string['downloadtextfull'] = 'הורד דוח טקסט מלא';
@@ -33,7 +33,9 @@ $string['friday'] = 'שישי';
 $string['gradeshort'] = 'הוערך';
 $string['gradevalue'] = 'הפוך רשימת נוכחות זו לניתנת להערכה';
 $string['gradevaluemulti'] = 'הפוך רשימות נוכחות אלו לניתנות להערכה';
-$string['hoursinfullreport'] = 'מספר שעות הנוכחות המירבי שיכול להופיע על דף דוח יחיד ';
+$string['hoursinclass'] = 'מספר השעות בשיעור (של כיתה)';
+$string['hoursineachclass'] = 'מספר השעות בכל שיעור (של כיתה)';
+$string['hoursinfullreport'] = 'מספר שעות הנוכחות המירבי שיכולות להופיע על דף דוח יחיד';
 $string['maxgradeshort'] = 'ציון מינימלי';
 $string['maxgradevalue'] = 'ערך ציון מירבי עבור נוכחות מלאה';
 $string['modulename'] = 'נוכחות';
@@ -42,7 +44,7 @@ $string['monday'] = 'שני';
 $string['norolls'] = 'בקורס זה אין רשימות נוכחות';
 $string['notes'] = 'מידע חריג';
 $string['notesfor'] = 'מידע חריג עבור';
-$string['noviews'] = 'מצטערים, לא קיים מידע על חשבונך כאן ';
+$string['noviews'] = 'מצטערים, לא קיים מידע על חשבונך כאן';
 $string['of'] = 'של';
 $string['pages'] = 'עמודים';
 $string['presentlong'] = 'נוכח';
@@ -56,8 +58,8 @@ $string['tardiesperabsence'] = 'כמה איחורים צריכים להיחשב 
 $string['tardylong'] = 'איחור';
 $string['tardyshort'] = 'T';
 $string['teacheredit'] = 'רשום נוכחות';
-$string['thursday'] = 'שלישי';
-$string['tuesday'] = 'חמישי';
+$string['thursday'] = 'חמישי';
+$string['tuesday'] = 'שלישי';
 $string['viewall'] = 'ראה כל רשימות נוכחות';
 $string['viewmulti'] = 'ראה את הדוח כדפים מרובים';
 $string['viewone'] = 'ראה את כל דפי הדוח';

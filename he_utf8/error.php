@@ -1,19 +1,76 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005032800)
+      // error.php - created with Moodle 1.8 dev (2006120700)
 
 
-$string['coursegroupunknown'] = 'קורס התואם את קבוצה $a לא מפורט';
+$string['adminprimarynoedit'] = 'אחרים לא יכולים לערוך את המנהל הראשי';
+$string['cannotcreatelangdir'] = 'לא ניתן ליצור סיפריית שפה.';
+$string['cannotcreatetempdir'] = 'לא ניתן ליצור סיפרייה זמנית.';
+$string['cannotdownloadcomponents'] = 'לא ניתן להוריד רכיבים.';
+$string['cannotdownloadzipfile'] = 'לא ניתן להוריד קובץ ZIP.';
+$string['cannotfindcomponent'] = 'הרכיב לא נמצא.';
+$string['cannotsavemd5file'] = 'לא ניתן לשמור קובץ md5.';
+$string['cannotsavezipfile'] = 'לא ניתן לשמור קובץ ZIP.';
+$string['cannotunzipfile'] = 'לא ניתן לפתוח את קובץ ה-ZIP.';
+$string['cantunenrollfrommetacourse'] = 'אתה לא יכול לבטל את הרשמתך למטה-קורס זה.';
+$string['cantunenrollinthisrole'] = 'אתה לא יכול לבטל את הרשמתך לקורס זה כל עוד אתה נמצא בתפקיד הנוכחי שלך.';
+$string['cmunknown'] = 'לא ניתן למצוא את המודול של קורס זה.';
+$string['componentisuptodate'] = 'הרכיב מעודכן.';
+$string['confirmsesskeybad'] = 'סליחה, אבל לא היה ניתן לאשר את מפתח המושב שלך כדי להריץ פונקציה זו. תכונת אבטחה זו מונעת הרצה של פונקציות חשובות בשימך, בין אם בזדון ובין אם בטעות. אנא וודא שאתה באמת רוצה להריץ את הפונקציה הזו.';
+$string['couldnotassignrole'] = 'חלה שגיאה רצינית אך לא מוגדרת במהלך הניסיון למנות אותך לתפקיד.';
+$string['coursegroupunknown'] = 'לא מפורט קורס התואם את קבוצה $a.';
+$string['downloadedfilecheckfailed'] = 'נכשלה בדיקת הקובץ המורד.';
+$string['errorcleaningdirectory'] = 'שגיאה בניקיון ספריית \"$a\".';
+$string['errorcopyingfiles'] = 'שגיאה בהעתקת הקבצים.';
+$string['errorcreatingdirectory'] = 'שגיאה ביצירת ספריית \"$a\"';
+$string['errorcreatingfile'] = 'שגיאה ביצירת קובץ \"$a\"';
 $string['erroronline'] = 'טעות בקו $a';
+$string['errorreadingfile'] = 'שגיאה בקריאת קובץ \"$a\"';
+$string['errorunzippingfiles'] = 'שגיאה בפתיחת קבצי ZIP';
 $string['fieldrequired'] = '\"$a\" הוא שדה נדרש';
+$string['filenotfound'] = 'סליחה, לא ניתן היה למצוא את הקובץ המבוקש';
+$string['forumblockingtoomanyposts'] = 'עברת את סף הפירסומים שנקבע לפורום זה.';
 $string['groupalready'] = 'המשתמש כבר משתייך לקבוצה $a';
-$string['groupunknown'] = 'קבוצה $a אינה שייכת לקורס המצויין';
-$string['invalidfieldname'] = '\"$a\" אינו שם שדה תקף';
+$string['groupunknown'] = 'קבוצה $a אינה שייכת לקורס המצוין';
+$string['guestnoeditprofile'] = 'המשתמש האורח לא יכול לערוך את הפרופיל שלו';
+$string['guestnoeditprofileother'] = 'לא ניתן לערוך את פרופיל המשתמש האורח';
+$string['invalidcourse'] = 'קורס לא חוקי';
+$string['invalidfieldname'] = '\"$a\" אינו שם תקף לשדה';
+$string['invalidfiletype'] = '\"$a\" אינו סוג קובץ תקף';
+$string['invalidmd5'] = 'md5 לא חוקי';
+$string['invalidrole'] = 'תפקיד לא חוקי';
+$string['invalidxmlfile'] = '\"$a\" אינו קובץ XML תקף';
 $string['missingfield'] = 'שדה \"$a\" חסר';
-$string['modulerequirementsnotmet'] = ' אי אפשר היה להתקין את פרק\"$ a->modulename\" ($a->moduleversion) .  דבר זה דורש גירסה חדשה יותר של Moodle (כרגע אתה משתמש ב a->currentmoodle$, אתה צריך a->requiremoodle$).';
+$string['missingrequiredfield'] = 'חסר שדה נדרש כלשהו';
+$string['modulemissingcode'] = 'במודול $a חסר הקוד הנדרש כדי לבצע פעולה זו';
+$string['modulerequirementsnotmet'] = 'לא ניתן להתקין את פרק\"$ a->modulename\" ($a->moduleversion). התקנתו דורשת גירסה עדכנית יותר של מוודל (כרגע אתה משתמש ב-a->currentmoodle$, ואתה צריך את a->requiremoodle$).';
+$string['mustbeteacher'] = 'חובה עליך להיות מורה כדי לראות את עמוד זה';
+$string['nocontext'] = 'סליחה, אבל הקורס ההוא איננו הקשר תקף';
+$string['noinstances'] = 'אין מופעים של $a בקורס זה!';
+$string['nonmeaningfulcontent'] = 'אינו תוכן בעל משמעות';
+$string['noparticipatorycms'] = 'סליחה, אבל אין לך מודולי קורס שדורשים השתתפות לדווח עליהם.';
+$string['nopermissions'] = 'סליחה, אבל כרגע אין לך את ההרשאות לעשות זאת ($a)';
 $string['notavailable'] = 'כרגע זה לא זמין';
+$string['onlyadmins'] = 'רק מנהלים יכולים לעשות את זה';
+$string['onlyeditingteachers'] = 'רק מורים עורכים יכולים לעשות את זה';
+$string['onlyeditown'] = 'אתה יכול לערוך את המידע שלך בלבד';
+$string['pagenotexist'] = 'חלה שגיאה לא רגילה (ניסה להגיע לעמוד שלא קיים)';
+$string['pleasereport'] = 'אם יש לך זמן, אנא הודע לנו מה ניסית לעשות כאשר חלה השגיאה:';
+$string['pluginrequirementsnotmet'] = 'לא ניתן היה להתקין את התקן התקע \"$a->pluginname\" ($a->pluginversion). התקנתו דורשת גירסא עדכנית יותר של מוודל (כרגע אתה משתמש ב- $a->currentmoodle, אתה צריך את $a->requiremoodle).';
+$string['processingstops'] = 'עיבוד נגמר כאן, תוך התעלמות מהרשומות הנותרות.';
+$string['remotedownloadnotallowed'] = 'לא מורשה הורדה של רכיבים לשרת שלך (פונקצייתallow_url_fopen מנוטרלת).<br /><br />עליך להוריד את קובץ ה<a href=\"$a->url\">$a->url</a> באופן ידני, להעתיק אותו לתוך \"$a->dest\" בשרת שלך, ולפתוח אותו שם.';
 $string['restricteduser'] = 'מצטערים אבל חשבונך הנוכחי \"$a\" מוגבל מלעשות זאת.';
+$string['sendmessage'] = 'שלח הודעה';
+$string['sessionerroruser'] = 'למושב שלך חלף הזמן. אנא התחבר שוב.';
+$string['sessionerroruser2'] = 'נתגלתה שגיאה של השרת שמשפיעה של מושב ההתחברות שלך. אנא התחבר שוב, או התחל מחדש את השרת שלך.';
+$string['sessionipnomatch'] = 'סליחה, אבל נראה כי מספר ה-IP שלך השתנה מאז הפעם הראשונה שהתחברת למערכת. תכונת אבטחה זו מונעת מהאקרים לגנוב את הזהות שלך בזמן שאתה מחובר לאתר. משתמשים רגילים לא אמורים לראות את ההודעה הזו - אנא בקש עזרה ממנהל האתר שלך.';
 $string['unknowncourse'] = 'קורס לא ידוע בשם \"$a\"';
-$string['usernotaddederror'] = 'משתמש \"$a\" אינו מוסף - טעות לא ידועה';
-$string['usernotaddedregistered'] = 'משתמש \"$a\" אינו מוסף - כבר רשום';
+$string['unknownuseraction'] = 'סליחה, אני לא מבין את הפעולה של המשתמש הזה.';
+$string['usernotaddederror'] = 'משתמש \"$a\" לא הוסף - טעות לא ידועה';
+$string['usernotaddedregistered'] = 'משתמש \"$a\" לא הוסף - כבר רשום';
+$string['usernotavailable'] = 'הפרטים של משתמש זה לא זמינים לך.';
+$string['usernotrenamedexists'] = 'שם המשתמש לא שונה -- שם המשתמש החדש כבר נמצא בשימוש.';
+$string['usernotrenamedmissing'] = 'שם המשתמש לא שונה -- שם המשתמש הישן לא נמצא.';
+$string['wrongdestpath'] = 'נתיב יעד שגוי.';
+$string['wrongzipfilename'] = 'שם קובץ ZIP שגוי.';
 
 ?>

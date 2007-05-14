@@ -1,15 +1,67 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005041101)
+      // message.php - created with Moodle 1.8 dev (2006120700)
 
 
 $string['addcontact'] = 'הוסף איש קשר';
+$string['addsomecontacts'] = 'כדי לשלוח הודעה למישהו, או כדי להוסיף אליהם קיצור דרך בעמוד זה, השתמש ב<a href=\"$a\">תווית החיפוש </a> לעיל.';
+$string['addsomecontactsincoming'] = 'הודעות אלה הן מאנשים שלא נמצאים ברשימת אנשי הקשר שלך. כדי להוסיף אותם לאנשי הקשר שלך לחץ על הסמל \"הוסף איש קשר\" שנמצא ליד השם שלהם.';
 $string['ago'] = 'לפני $a';
+$string['allmine'] = 'כל ההודעות אלי או ממני.';
+$string['allstudents'] = 'כל ההודעות בין התלמידים בקורס.';
+$string['allusers'] = 'כל ההודעות מכל המשתמשים.';
+$string['beepnewmessage'] = 'צפצף כאשר מתקבלת הודעה חדשה (יכול להיות שיידרש התקן תקע בדפדפף שיכול להשמיע צלילים כמו Quicktime.)';
+$string['blockcontact'] = 'חסום את איש הקשר.';
+$string['blockedmessages'] = '$a הודעה(ות) ממשתמשים חסומים';
+$string['blocknoncontacts'] = 'חסום את כל ההודעות החדשות מאנשים שלא נמצאים ברשימת אנשי הקשר שלי.';
+$string['contactlistempty'] = 'נכון לרגע זה רשימת אנשי הקשר שלך ריקה.';
+$string['contacts'] = 'אנשי קשר.';
+$string['context'] = 'הקשר';
+$string['deletemessagesdays'] = 'מספר הימים שלאחריהם הודעות ישנות נמחקות.';
+$string['discussion'] = 'דיון.';
+$string['emailmessages'] = 'שלח לי הודעות בדוא\"ל כשאני לא מקוון.';
+$string['emailtagline'] = 'הודעת דוא\"ל זו היא העתק של הודעה שנשלחה אליך ב-\"$a\".';
+$string['emptysearchstring'] = 'עלייך לערוך חיפוש אחר משהו.';
+$string['formorethan'] = 'ליותר מאשר';
+$string['includeblockedusers'] = 'כלול משתמשים חסומים';
+$string['incomingcontacts'] = 'אנשי קשר נכנסים ($a)';
+$string['keywords'] = 'מילות מפתח';
+$string['keywordssearchresults'] = 'תוצאות החיפוש: נמצאו $a הודעות.';
+$string['maxmessages'] = 'מספר ההודעות המקסימלי שיש להראות בהיסטוריה של דיון.';
 $string['message'] = 'הודעה';
+$string['messagehistory'] = 'היסטוריית הודעות';
 $string['messages'] = 'הודעות';
-$string['search'] = 'חפש';
-$string['searchforperson'] = 'חפש מישהו';
-$string['searchmessages'] = 'חפש הודעות';
+$string['messaging'] = 'העברת הודעות';
+$string['mycontacts'] = 'אנשי הקשר שלי';
+$string['newsearch'] = 'חיפש חדש';
+$string['nomessages'] = 'אין הודעות ממתינות';
+$string['nomessagesfound'] = 'לא נמצאו הודעות';
+$string['nosearchresults'] = 'לחיפוש שלך לא היו תוצאות';
+$string['offline'] = 'לא מקוון';
+$string['offlinecontacts'] = 'אנשי קשר לא מקוונים ($a)';
+$string['online'] = 'מקוון';
+$string['onlinecontacts'] = 'אנשי קשר מקוונים ($a)';
+$string['onlyfromme'] = 'רק הודעות ממני';
+$string['onlymycourses'] = 'רק בקורסים שלי';
+$string['onlytome'] = 'רק הודעות אלי';
+$string['pagerefreshes'] = 'עמוד זה מתחדש באופן אוטומטי כל $a שניות.';
+$string['readmessages'] = '$a קרא הודעות.';
+$string['removecontact'] = 'הסר את איש הקשר';
+$string['savemysettings'] = 'שמור את ההגדרות שלי';
+$string['search'] = 'ערוך חיפוש';
+$string['searchforperson'] = 'ערוך חיפוש אחר מישהו';
+$string['searchmessages'] = 'ערוך חיפוש בהודעות';
 $string['sendmessage'] = 'שלח הודעה';
+$string['sendmessageto'] = 'שלח הודעה ל-$a';
 $string['settings'] = 'הגדרות';
+$string['settingssaved'] = 'ההגדרות שלך נשמרו';
+$string['showmessagewindow'] = 'הראה אוטומטית את חלון ההודעה בכל פעם שאני מקבל הודעה חדשה (עליך להגדיר את הדפדפן שלך כך שהוא לא יחסום \'חלונות קופצים\' באתר זה.)';
+$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
+$string['timenosee'] = 'דקות מאז הפעם האחרונה שנראתי מקוון.';
+$string['timesent'] = 'הזמן השליחה';
+$string['unblockcontact'] = 'בטל את החסימה של איש הקשר';
+$string['unreadmessages'] = '$a הודעות שלא נקראו';
+$string['userisblockingyou'] = 'משתמש זה חסם אותך, ולכן אינך יכול לשלוח אליו הודעות.';
+$string['userisblockingyounoncontact'] = 'משתמש זה מקבל את ההודעות של האנשים שרשומים אצלו כאנשי קשר בלבד, ונכון לרגע זה אתה לא נמצא ברשימה.';
+$string['userssearchresults'] = 'תוצאות החיפוש: נמצאו $a משתמשים.';
 
 ?>
