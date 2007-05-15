@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007050901)
+      // moodle.php - created with Moodle 1.9 dev (2007051100)
 
 
 $string['action'] = '操作';
@@ -1064,7 +1064,7 @@ $string['passwordchanged'] = 'パスワードが変更されました。';
 $string['passwordconfirmchange'] = 'パスワード変更の確認';
 $string['passwordextlink'] = '次のリンクは、あなたのパスワードを回復するために提供されています。クリックすることで、Moodleの外部に移動します。';
 $string['passwordforgotten'] = 'パスワード喪失';
-$string['passwordforgotteninstructions'] = '最初に、あなたの詳細情報がデータベースに登録されている必要があります。あなたの「ユーザ名」<strong>または</strong>「登録したメールアドレス」を下記のテキストボックスに入力してください。両方を入力する必要はありません。';
+$string['passwordforgotteninstructions'] = '最初に、あなたの詳細情報がユーザデータベースに登録されている必要があります。あなたの「ユーザ名」<strong>または</strong>登録に使用した「メールアドレス」をテキストボックスに入力してください。「ユーザ名」「メールアドレス」の両方を入力する必要はありません。';
 $string['passwordnohelp'] = 'あなたのパスワードを探すためのヘルプは利用できません。Moodle管理者にご連絡ください。';
 $string['passwordrecovery'] = 'はい、ログイン情報を教えてください';
 $string['passwordsdiffer'] = 'パスワードが正しくありません。';
