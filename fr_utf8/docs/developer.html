@@ -1,10 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
-<title>Documentation Moodle&nbsp;: Manuel du développeur</title>
+<title>Documentation Moodle : Manuel du développeur</title>
 
 <link rel="stylesheet" href="docstyles.css" type="text/css" />
 
@@ -18,9 +19,9 @@
 
 <p>Ce document décrit en quelques mots le design à la base de Moodle et comment vous pouvez contribuer à son développement.</p>
 
-<p>Il est un peu succinct pour l'instant. Une meilleure documentation est prévue&nbsp;!</p>
+<p>Il est un peu succinct pour l'instant. Une meilleure documentation est prévue !</p>
 
-<p>Sections de ce document&nbsp;:</p>
+<p>Sections de ce document :</p>
 
 <ol> <li><a href="#architecture">Architecture de Moodle</a></li>
 
@@ -50,13 +51,13 @@
 
 </blockquote>
 
-<p>&nbsp;</p>
+<p> </p>
 
 <h2><a name="architecture"></a>1. Architecture de Moodle</h2>
 
 <blockquote>
 
-<p>Du point de vue d'un administrateur de système, Moodle a été conçu selon les critères suivants&nbsp;:</p>
+<p>Du point de vue d'un administrateur de système, Moodle a été conçu selon les critères suivants :</p>
 
 <ol>
 
@@ -70,7 +71,7 @@ Les premiers prototypees de Moodle (1999) étaient basés sur <a target="_top" h
 
 <li><strong>Moodle doit être facile à mettre à jour d'une version à la suivante</strong><br /><br />
 
-Moodle connaît son propre numéro de version (ainsi que ceux de chacun des modules) et un mécanisme y a été implémenté de sorte qu'il puisse se mettre à jour tout seul (il peut par exemple renommer les tables de la base de données ou y ajouter de nouveaux champs). Si vous utilisez CVS sur Unix, vous pouvez par exemple taper la commande «&nbsp;cvs update -d&nbsp;», puis visiter la page d'accueil de votre site pour terminer la mise à jour.<br /><br /> </li>
+Moodle connaît son propre numéro de version (ainsi que ceux de chacun des modules) et un mécanisme y a été implémenté de sorte qu'il puisse se mettre à jour tout seul (il peut par exemple renommer les tables de la base de données ou y ajouter de nouveaux champs). Si vous utilisez CVS sur Unix, vous pouvez par exemple taper la commande « cvs update -d », puis visiter la page d'accueil de votre site pour terminer la mise à jour.<br /><br /> </li>
 
 <li><strong>Moodle doit être modulaire pour pouvoir grandir facilement</strong><br /><br />
 
@@ -78,13 +79,13 @@ Un grand nombre de fonctionnalités de Moodle sont modulaires, notamment les th�
 
 <li><strong>Moodle doit pouvoir être utilisé en association avec d'autres systèmes</strong><br /><br />
 
-Moodle conserve tous les fichiers d'un cours dans le même dossier sur le serveur. Cela permet à un administrateur système d'offrir pour chaque enseignant n'importe quel type d'accès direct aux fichiers, comme AFP, SMB, NFS, FTP, WebDAV, etc. Les modules d'authentification permettent à Moodle d'utiliser LDAP, MAP, POP3, NNTP et d'autres bases de données comme source des données des utilisateurs. Il reste toutefois pas mal de travail à effectuer. Les fonctionnalités prévues de Moodle pour les versions à venir comprennent notamment&nbsp;: l'importation et l'exportation des données en format XML (y compris IMS et SCORM) et l'utilisation croissante des feuilles de style pour l'interface (permettant ainsi une meilleure incorporation dans d'autres sites web). </li>
+Moodle conserve tous les fichiers d'un cours dans le même dossier sur le serveur. Cela permet à un administrateur système d'offrir pour chaque enseignant n'importe quel type d'accès direct aux fichiers, comme AFP, SMB, NFS, FTP, WebDAV, etc. Les modules d'authentification permettent à Moodle d'utiliser LDAP, MAP, POP3, NNTP et d'autres bases de données comme source des données des utilisateurs. Il reste toutefois pas mal de travail à effectuer. Les fonctionnalités prévues de Moodle pour les versions à venir comprennent notamment : l'importation et l'exportation des données en format XML (y compris IMS et SCORM) et l'utilisation croissante des feuilles de style pour l'interface (permettant ainsi une meilleure incorporation dans d'autres sites web). </li>
 
 </ol>
 
 </blockquote>
 
-<p>&nbsp;</p>
+<p> </p>
 
 <h2><a name="contribute" id="contribute"></a>2. Comment vous pouvez aider</h2>
 
@@ -96,37 +97,37 @@ Moodle conserve tous les fichiers d'un cours dans le même dossier sur le serveu
 
 <blockquote>
 
-<p>Ce sont les modules les plus importants. Ils sont placés dans le dossier «&nbsp;mod&nbsp;». Il y a quelques modules installés par défaut, notamment&nbsp;: devoir, sondage, test, forum, consultation, wiki, etc. Chaque module est placé dans un sous-dossier propre et consiste en divers éléments obligatoires (ainsi que d'autres scripts propres à chaque module)&nbsp;:</p>
+<p>Ce sont les modules les plus importants. Ils sont placés dans le dossier « mod ». Il y a quelques modules installés par défaut, notamment : devoir, sondage, test, forum, consultation, wiki, etc. Chaque module est placé dans un sous-dossier propre et consiste en divers éléments obligatoires (ainsi que d'autres scripts propres à chaque module) :</p>
 
 <ul>
 
-<li>mod.html&nbsp;: un formulaire pour configurer ou mettre à jour une instance de ce module</li>
+<li>mod.html : un formulaire pour configurer ou mettre à jour une instance de ce module</li>
 
-<li>version.php&nbsp;: définit quelques méta-informations et met à disposition du code pour les mises à jour</li>
+<li>version.php : définit quelques méta-informations et met à disposition du code pour les mises à jour</li>
 
-<li>icon.gif&nbsp;: une icône 16x16 pour le module</li>
+<li>icon.gif : une icône 16x16 pour le module</li>
 
-<li>db/&nbsp;: des « dumps&nbsp;» SQL de toutes les tables de la base de données et des données elles-mêmes (pour chaque type de base de données)</li>
+<li>db/ : des « dumps » SQL de toutes les tables de la base de données et des données elles-mêmes (pour chaque type de base de données)</li>
 
-<li>index.php&nbsp;: une page permettant d'afficher la liste de toutes les instances du module dans un cours</li>
+<li>index.php : une page permettant d'afficher la liste de toutes les instances du module dans un cours</li>
 
-<li>view.php&nbsp;: une page permettant d'afficher une instance particulière</li>
+<li>view.php : une page permettant d'afficher une instance particulière</li>
 
-<li>lib.php&nbsp;: toutes les fonctions définies par le module doivent s'y trouver. Si le nom du module est «&nbsp;bidule&nbsp;», les fonctions nécessaires sont&nbsp;notamment :
+<li>lib.php : toutes les fonctions définies par le module doivent s'y trouver. Si le nom du module est « bidule », les fonctions nécessaires sont notamment :
 
 <ul>
 
-<li>bidule_add_instance()&nbsp;: code pour ajouter une nouvelle instance de bidule</li>
+<li>bidule_add_instance() : code pour ajouter une nouvelle instance de bidule</li>
 
-<li>bidule_update_instance()&nbsp;: code pour mettre à jour une instance existante</li>
+<li>bidule_update_instance() : code pour mettre à jour une instance existante</li>
 
-<li>bidule_delete_instance()&nbsp;: code pour effacer une instance</li>
+<li>bidule_delete_instance() : code pour effacer une instance</li>
 
-<li>bidule_user_outline()&nbsp;: étant donnée une instance, retourne un résumé d'une contribution d'un utilisateur</li>
+<li>bidule_user_outline() : étant donnée une instance, retourne un résumé d'une contribution d'un utilisateur</li>
 
-<li>bidule_user_complete()&nbsp;: étant donnée une instance, affiche les details d'une contribution d'un utilisateur<br /> </li>
+<li>bidule_user_complete() : étant donnée une instance, affiche les details d'une contribution d'un utilisateur<br /> </li>
 
-<li>Pour éviter tout conflit éventuel, le nom de toutes les fonctions du module doit commencer par «&nbsp;bidule_&nbsp;» et celui de toutes les constantes par «&nbsp;BIDULE_&nbsp;»</li>
+<li>Pour éviter tout conflit éventuel, le nom de toutes les fonctions du module doit commencer par « bidule_ » et celui de toutes les constantes par « BIDULE_ »</li>
 
 </ul>
 
@@ -138,9 +139,9 @@ Moodle conserve tous les fichiers d'un cours dans le même dossier sur le serveu
 
 <p>Pour programmer un nouveau module d'activité, le plus simple est d'utiliser le modèle <strong><a href="http://moodle.org/mod/newmodule_template.zip">mod/newmodule_template.zip</a></strong>. Décompressez-le est suivez les instructions du fichier README inclus.</p>
 
-<p>Il est également judicieux de poster auparavant un message sur le forum <a href="http://moodle.org/mod/forum/view.php?id=44" target="_top">Activities modules</a> dans le cours «&nbsp;Using Moodle&nbsp;».</p>
+<p>Il est également judicieux de poster auparavant un message sur le forum <a href="http://moodle.org/mod/forum/view.php?id=44" target="_top">Activities modules</a> dans le cours « Using Moodle ».</p>
 
-<p>&nbsp;</p>
+<p> </p>
 
 </blockquote>
 
@@ -148,31 +149,31 @@ Moodle conserve tous les fichiers d'un cours dans le même dossier sur le serveu
 
 <blockquote>
 
-<p>Les thèmes (ou «&nbsp;skins&nbsp;») définissent l'aspect d'un site. Quelques thèmes simples sont fournis dans la distribution de Moodle. Vous pouvez aussi créer votre propre thème avec vos couleurs, logo, styles et graphiques préférés.</p>
+<p>Les thèmes (ou « skins ») définissent l'aspect d'un site. Quelques thèmes simples sont fournis dans la distribution de Moodle. Vous pouvez aussi créer votre propre thème avec vos couleurs, logo, styles et graphiques préférés.</p>
 
-<p>Chaque thème est placé dans un sous-dossier «&nbsp;theme&nbsp;» qui contient au moins les fichiers suivants&nbsp;:</p>
+<p>Chaque thème est placé dans un sous-dossier « theme » qui contient au moins les fichiers suivants :</p>
 
 <ul>
 
-<li><strong>config.php</strong>&nbsp;: permet de configurer la façon dont les fichiers CSS interagissent. Vous pouvez construire votre thème à partir du thème standard ou de n'importe quelle thème parent, ainsi qu'inclure ou exclure plusieurs fichiers CSS.</li>
+<li><strong>config.php</strong> : permet de configurer la façon dont les fichiers CSS interagissent. Vous pouvez construire votre thème à partir du thème standard ou de n'importe quelle thème parent, ainsi qu'inclure ou exclure plusieurs fichiers CSS.</li>
 
-<li><strong>styles.php</strong>&nbsp;: fait le relais vers les fichiers CSS. Aucune modification n'est nécessaire.</li>
+<li><strong>styles.php</strong> : fait le relais vers les fichiers CSS. Aucune modification n'est nécessaire.</li>
 
-<li><strong>header.html</strong>&nbsp;: le fichier incorporé au début de chaque page. Pour ajouter un logo au sommet de chaque page, c'est ce fichier qui devra être modifié.</li>
+<li><strong>header.html</strong> : le fichier incorporé au début de chaque page. Pour ajouter un logo au sommet de chaque page, c'est ce fichier qui devra être modifié.</li>
 
-<li><strong>footer.html</strong>&nbsp;: le fichier incorporé à la fin de chaque page.</li>
+<li><strong>footer.html</strong> : le fichier incorporé à la fin de chaque page.</li>
 
-<li><strong>styles_color.css</strong>&nbsp;: feuille de styles CSS pour toutes les propriétés de couleur.</li>
+<li><strong>styles_color.css</strong> : feuille de styles CSS pour toutes les propriétés de couleur.</li>
 
-<li><strong>styles_fonts.css</strong>&nbsp;: feuille de styles CSS pour le choix des polices, corps, hauteurs de ligne, etc.</li>
+<li><strong>styles_fonts.css</strong> : feuille de styles CSS pour le choix des polices, corps, hauteurs de ligne, etc.</li>
 
-<li><strong>styles_layout.css</strong>&nbsp;: feuille de styles CSS pour la mise en page, le positionnement, etc.</li>
+<li><strong>styles_layout.css</strong> : feuille de styles CSS pour la mise en page, le positionnement, etc.</li>
 
-<li><strong>styles_moz.css</strong>&nbsp;: feuille de styles CSS pour les coins arrondis de Mozilla et autres navigateurs à moteur Gecko.</li>
+<li><strong>styles_moz.css</strong> : feuille de styles CSS pour les coins arrondis de Mozilla et autres navigateurs à moteur Gecko.</li>
 
 </ul>
 
-<p>Pour créer votre propre thème avec la version actuelle de Moodle&nbsp;:</p>
+<p>Pour créer votre propre thème avec la version actuelle de Moodle :</p>
 
 <ol>
 
@@ -188,7 +189,7 @@ Moodle conserve tous les fichiers d'un cours dans le même dossier sur le serveu
 
 <p>Veuillez lire attentivement la description détaillée des thèmes de Moodle dans la <a href="http://docs.moodle.org/wiki/Themes">documentation sur les thèmes Moodle</a>.</p>
 
-<p>Pour en savoir plus, participez à la discussion sur le forum <a target="_top" href="http://moodle.org/mod/forum/view.php?id=46">Themes</a> dans le cours «&nbsp;Using Moodle&nbsp;». Si vous créez un joli thème susceptible d'intéresser d'autres utilisateurs, merci de poster votre fichier zip sur ce même forum.<br /> </p>
+<p>Pour en savoir plus, participez à la discussion sur le forum <a target="_top" href="http://moodle.org/mod/forum/view.php?id=46">Themes</a> dans le cours « Using Moodle ». Si vous créez un joli thème susceptible d'intéresser d'autres utilisateurs, merci de poster votre fichier zip sur ce même forum.<br /> </p>
 
 </blockquote>
 
@@ -196,25 +197,25 @@ Moodle conserve tous les fichiers d'un cours dans le même dossier sur le serveu
 
 <blockquote>
 
-<p>Moodle a été conçu pour permettre son internationalisation. Chaque chaîne de caractères et chaque page de texte faisant partie de l'interface est affichée à partir d'un ensemble de fichiers de langue. Chaque langue consiste en un sous-dossier du dossier «&nbsp;lang&nbsp;». La structure du dossier lang est la suivante&nbsp;:</p>
+<p>Moodle a été conçu pour permettre son internationalisation. Chaque chaîne de caractères et chaque page de texte faisant partie de l'interface est affichée à partir d'un ensemble de fichiers de langue. Chaque langue consiste en un sous-dossier du dossier « lang ». La structure du dossier lang est la suivante :</p>
 
-<p><strong>lang/fr</strong>&nbsp;: dossier contenant tous les fichiers pour une langue (dans ce cas le français)</p>
+<p><strong>lang/fr</strong> : dossier contenant tous les fichiers pour une langue (dans ce cas le français)</p>
 
 <ul>
 
-<li>moodle.php&nbsp;: chaînes de l'interface principale</li>
+<li>moodle.php : chaînes de l'interface principale</li>
 
-<li>assignment.php&nbsp;: chaînes du module devoir</li>
+<li>assignment.php : chaînes du module devoir</li>
 
-<li>choice.php&nbsp;: chaînes du module sondage</li>
+<li>choice.php : chaînes du module sondage</li>
 
-<li>forum.php&nbsp;: chaînes du module forum</li>
+<li>forum.php : chaînes du module forum</li>
 
-<li>quiz.php&nbsp;: chaînes du module test</li>
+<li>quiz.php : chaînes du module test</li>
 
-<li>resource.php&nbsp;: chaînes du module ressource</li>
+<li>resource.php : chaînes du module ressource</li>
 
-<li>survey.php&nbsp;: chaînes du module consultation</li>
+<li>survey.php : chaînes du module consultation</li>
 
 <li>... ainsi que d'autres modules le cas échéant.<br /><br />
 
@@ -226,7 +227,7 @@ Si une chaîne n'est pas définie dans une langue, la chaîne équivalente en an
 
 </ul>
 
-<p><strong>lang/fr/help</strong>&nbsp;: contient toutes les pages d'aide (pour l'aide contextuelle, fenêtres «&nbsp;popup&nbsp;»)</p>
+<p><strong>lang/fr/help</strong> : contient toutes les pages d'aide (pour l'aide contextuelle, fenêtres « popup »)</p>
 
 <blockquote>
 
@@ -234,15 +235,15 @@ Si une chaîne n'est pas définie dans une langue, la chaîne équivalente en an
 
 <p>Vous pouvez insérer un bouton d'aide dans une page au moyen de la fonction <strong><em>helpbutton()</em></strong>.</p>
 
-<p>Par exemple, helpbutton("text", "Cliquer ici pour obtenir de l'aide sur le texte");</p> <p>et pour les modules&nbsp;:</p>
+<p>Par exemple, helpbutton("text", "Cliquer ici pour obtenir de l'aide sur le texte");</p> <p>et pour les modules :</p>
 
 <p>helpbutton("forumtypes", "Types de forums", "forum");</p>
 
 </blockquote>
 
-<p>Vous pouvez modifier en ligne le paquetage de langue, en utilisant les outils web d'administration «&nbsp;Configuration -> Langue&nbsp;». Cela vous permet non seulement de créer de nouvelles langues, mais aussi de perfectionner les traductions existantes. Si vous vous attaquez à une nouvelle langue, merci de me contacter, <a target="_top" href="http://dougiamas.com/">Martin Dougiamas</a>.</p>
+<p>Vous pouvez modifier en ligne le paquetage de langue, en utilisant les outils web d'administration « Configuration -> Langue ». Cela vous permet non seulement de créer de nouvelles langues, mais aussi de perfectionner les traductions existantes. Si vous vous attaquez à une nouvelle langue, merci de me contacter, <a target="_top" href="http://dougiamas.com/">Martin Dougiamas</a>.</p>
 
-<p>Vous pouvez aussi participer au forum <a target="_top" href="http://moodle.org/mod/forum/view.php?id=43">Languages</a> du cours «&nbsp;Using Moodle&nbsp;».</p>
+<p>Vous pouvez aussi participer au forum <a target="_top" href="http://moodle.org/mod/forum/view.php?id=43">Languages</a> du cours « Using Moodle ».</p>
 
 <p>Si vous entretenez le paquetage d'une langue de manière régulière, je peux vous donner un <a href="?file=cvs.html">accès CVS en écriture au code source de Moodle</a>, afin que vous puissiez ainsi directement modifier les fichiers.</p>
 
@@ -262,13 +263,13 @@ Si une chaîne n'est pas définie dans une langue, la chaîne équivalente en an
 
 </blockquote>
 
-<p>&nbsp;</p>
+<p> </p>
 
 <h3><a name="courseformats" id="courseformats"></a>Formats de cours</h3>
 
 <blockquote>
 
-<p>Moodle offre actuellement trois formats de cours différents&nbsp;: hebdomadaire, thématique et informel. </p>
+<p>Moodle offre actuellement trois formats de cours différents : hebdomadaire, thématique et informel. </p>
 
 <p>Ces formats sont un peu plus dépendants du reste du code (et par conséquent moins modulaires), mais il est malgré tout assez facile d'en ajouter de nouveaux.</p>
 
@@ -276,33 +277,33 @@ Si une chaîne n'est pas définie dans une langue, la chaîne équivalente en an
 
 </blockquote>
 
-<p>&nbsp;</p>
+<p> </p>
 
 <h3><a name="doc" id="doc"></a>Documentation et articles</h3>
 
 <blockquote>
 
-<p>Si vous avez envie d'écrire un tutoriel, un article, une publication universitaire ou quoi que ce soit d'autre sur Moodle, ne vous en privez pas&nbsp;!</p>
+<p>Si vous avez envie d'écrire un tutoriel, un article, une publication universitaire ou quoi que ce soit d'autre sur Moodle, ne vous en privez pas !</p>
 
 <p>Publiez-le sur le web et assurez-vous de mettre des liens vers <a target="_top" href="http://moodle.org/">http://moodle.org/</a>.</p>
 
 </blockquote>
 
-<p>&nbsp;</p>
+<p> </p>
 
 <h3><a name="bugs" id="bugs"></a>Participer à la traque des bogues</h3>
 
 <blockquote>
 
-<p>J'aimerais pour terminer vous inviter à utiliser le «&nbsp;bug tracker&nbsp;» à l'adresse <a target="_top" href="http://tracker.moodle.org/">http://tracker.moodle.org/</a>, afin que vous puissiez annoncer tous les bogues que vous découvrirez et peut-être participer à la discussion et à la correction des bogues.</p>
+<p>J'aimerais pour terminer vous inviter à utiliser le « bug tracker » à l'adresse <a target="_top" href="http://tracker.moodle.org/">http://tracker.moodle.org/</a>, afin que vous puissiez annoncer tous les bogues que vous découvrirez et peut-être participer à la discussion et à la correction des bogues.</p>
 
-<p>Les «&nbsp;bogues&nbsp;» ne sont pas seulement les erreurs du code source des versions actuelles de Moodle. Ce sont aussi les nouvelles idées, les demandes de nouvelles fonctionnalités et même la critique constructive des fonctionnalités existantes. La beauté du logiciel libre est de permettre à chacun de participer d'une façon ou d'une autre et d'aider à créer une meilleur produit pour le bien de tous. Dans ce projet, votre contribution est la bienvenue !</p>
-
-</blockquote>
+<p>Les « bogues » ne sont pas seulement les erreurs du code source des versions actuelles de Moodle. Ce sont aussi les nouvelles idées, les demandes de nouvelles fonctionnalités et même la critique constructive des fonctionnalités existantes. La beauté du logiciel libre est de permettre à chacun de participer d'une façon ou d'une autre et d'aider à créer une meilleur produit pour le bien de tous. Dans ce projet, votre contribution est la bienvenue !</p>
 
 </blockquote>
 
-<p>&nbsp;</p>
+</blockquote>
+
+<p> </p>
 
 <blockquote>
 
@@ -310,7 +311,7 @@ Si une chaîne n'est pas définie dans une langue, la chaîne équivalente en an
 
 <blockquote>
 
-<p align="center">Nous vous remercions d'utiliser Moodle&nbsp;!<br /><br />
+<p align="center">Nous vous remercions d'utiliser Moodle !<br /><br />
 
 <a target="_top" href="http://dougiamas.com/">Martin Dougiamas</a>, développeur principal</p>
 

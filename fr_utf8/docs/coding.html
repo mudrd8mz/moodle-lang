@@ -1,10 +1,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<title>Documentation Moodle&nbsp;: Directives pour la programmation</title>
+
+<title>Documentation Moodle : Directives pour la programmation</title>
+
 <link rel="stylesheet" href="docstyles.css" type="text/css" />
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
 </head>
 
 <body>
@@ -13,7 +19,7 @@
 
 <p class="normaltext">Tout projet où l'on travaille en collaboration nécessite une cohérence et une stabilité fortes.</p>
 
-<p class="normaltext">L'objectif de ces directives est de fournir un cadre à respecter pour tout le code de Moodle. Il est vrai que certaines parties plus anciennes du code ne les respectent pas toujours&nbsp;; le code sera corrigé. Tout le nouveau code doit absolument respecter ces directives aussi précisément que possible.</p>
+<p class="normaltext">L'objectif de ces directives est de fournir un cadre à respecter pour tout le code de Moodle. Il est vrai que certaines parties plus anciennes du code ne les respectent pas toujours ; le code sera corrigé. Tout le nouveau code doit absolument respecter ces directives aussi précisément que possible.</p>
 
 <h2>Règles générales</h2>
 
@@ -21,11 +27,11 @@
 
 <li class="spaced">Tous les fichiers contenant du code doivent avoir l'extension .php.</li>
 
-<li class="spaced">Tous les fichiers modèles («&nbsp;themes&nbsp;») doivent avoir l'extension .html.</li>
+<li class="spaced">Tous les fichiers modèles (« themes ») doivent avoir l'extension .html.</li>
 
 <li class="spaced">Tous les fichiers en format texte doivent être en format Unix (la plupart des éditeurs de texte permettent de convertir les caractères de fin de ligne).</li>
 
-<li class="spaced">Toutes les balises php doivent être en forme complète, comme ceci <font color="#339900">&lt;?php ... ?&gt;</font>, et non en forme abrégée comme ceci <font color="#339900">&lt;?php  ... ?&gt;</font>.</li>
+<li class="spaced">Toutes les balises php doivent être en forme complète, comme ceci <font color="#339900">&lt;?php ... ?></font>, et non en forme abrégée comme ceci <font color="#339900">&lt;?php  ... ?></font>.</li>
 
 <li class="spaced">Toutes les indications de copyright doivent être conservées. Vous pouvez ajouter les vôtres au besoin.</li>
 
@@ -33,15 +39,15 @@
 
 <li class="spaced">Tous les fichiers doivent vérifier que l'utilisateur est correctement authentifié, à l'aide des contrôles corrects has_capability() ou required_capability().</li>
 
-<li class="spaced">Tous les accès aux bases de données doivent autant que possible utiliser les fonctions définies dans lib/datalib.php. Ceci permet la compatibilité avec un grand nombre de marques de bases de données. Il est possible de faire presque tout avec ces fonctions. Si vous devez écrire du code SQL, assurez-vous qu'il soit&nbsp;: multi-plateforme, restreint à des fonctions spécifiques de votre code (habituellement placés dans un fichier lib.php) et clairement marqué.</li>
+<li class="spaced">Tous les accès aux bases de données doivent autant que possible utiliser les fonctions définies dans lib/datalib.php. Ceci permet la compatibilité avec un grand nombre de marques de bases de données. Il est possible de faire presque tout avec ces fonctions. Si vous devez écrire du code SQL, assurez-vous qu'il soit : multi-plateforme, restreint à des fonctions spécifiques de votre code (habituellement placés dans un fichier lib.php) et clairement marqué.</li>
 
 <li class="spaced">Ne créez et n'utilisez aucune variable globale, sauf les variables standard $CFG, $SESSION, $THEME et $USER.</li>
 
 <li class="spaced">Toutes les variables doivent être initialisées ou au moins leur existence doit être testée avec isset() ou empty() avant leur utilisation.</li>
 
-<li class="spaced">Toutes les chaînes de caractères doivent être traduisibles. Créez les nouvelles chaînes dans les fichiers du dossier «&nbsp;lang/en&nbsp;», donnez-leur des noms en minuscules, courts, en anglais, et utilisez-les dans votre code par l'intermédiaire des fonctions get_string() ou print_string().</li>
+<li class="spaced">Toutes les chaînes de caractères doivent être traduisibles. Créez les nouvelles chaînes dans les fichiers du dossier « lang/en », donnez-leur des noms en minuscules, courts, en anglais, et utilisez-les dans votre code par l'intermédiaire des fonctions get_string() ou print_string().</li>
 
-<li class="spaced">Tous les fichiers d'aide doivent être traduisibles. Créez-les dans le dossier «&nbsp;lang/en/help&nbsp;» et appelez-les avec la fonction helpbutton().</li>
+<li class="spaced">Tous les fichiers d'aide doivent être traduisibles. Créez-les dans le dossier « lang/en/help » et appelez-les avec la fonction helpbutton().</li>
 
 <li class="spaced">Les magic_quotes sont automatiquement appliquées aux données en provenance du navigateur (envoyées via GET ou POST), indépendamment des réglages de PHP. Il est donc sûr de les insérer directement dans la base de données. Toutes les autres données brutes (en provenance de fichiers ou de bases de données) doivent être encodées avec <font color="#339900">addslashes()</font> avant de les insérer dans la base de données.</li>
 
@@ -49,7 +55,7 @@
 
 </ol>
 
-<p>&nbsp;</p>
+<p> </p>
 
 <h2>Style du code</h2>
 
@@ -69,36 +75,36 @@
       MAUVAIS : $aReallyLongVariableNameWithoutAGoodReason<br />
       MAUVAIS : $error_string</font></p></li>
 
-<li class="spaced">Les noms des <strong>constantes</strong> doivent toujours être en majuscules, et toujours commencer par le nom du module. Les mots qui les constituent doivent être séparés par des caractères «&nbsp;souligné&nbsp;» (underscore).
+<li class="spaced">Les noms des <strong>constantes</strong> doivent toujours être en majuscules, et toujours commencer par le nom du module. Les mots qui les constituent doivent être séparés par des caractères « souligné » (underscore).
 <p class="examplecode"><font color="#006600">define("FORUM_MODE_FLATOLDEST", 1);</font></p></li>
 
-<li class="spaced">Les noms des <strong>fonctions</strong> doivent être de simples mots anglais en minuscules, et commencer par le nom du module, pour éviter les conflits entre modules. Les mots qui les constituent doivent être séparés par des caractères «&nbsp;souligné&nbsp;» (underscore). Les paramètres doivent avoir si possible une valeur par défaut sensée. On ne place pas d'espace entre le nom de la fonction et la suite (parenthèses)
+<li class="spaced">Les noms des <strong>fonctions</strong> doivent être de simples mots anglais en minuscules, et commencer par le nom du module, pour éviter les conflits entre modules. Les mots qui les constituent doivent être séparés par des caractères « souligné » (underscore). Les paramètres doivent avoir si possible une valeur par défaut sensée. On ne place pas d'espace entre le nom de la fonction et la suite (parenthèses)
     <p class="examplecode"> <font color="#007700">function </font><font color="#0000BB">forum_set_display_mode</font><font color="#007700">(</font><font color="#0000BB">$mode</font><font color="#007700">=</font><font color="#0000BB">0</font><font color="#007700">) 
       {<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;global </font><font color="#0000BB">$USER</font><font color="#007700">, 
+          global </font><font color="#0000BB">$USER</font><font color="#007700">, 
       </font><font color="#0000BB">$CFG</font><font color="#007700">;<br />
       <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;if (</font><font color="#0000BB">$mode</font><font color="#007700">) 
+          if (</font><font color="#0000BB">$mode</font><font color="#007700">) 
       {<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#0000BB">$USER</font><font color="#007700">-></font><font color="#0000BB">mode 
+              </font><font color="#0000BB">$USER</font><font color="#007700">-></font><font color="#0000BB">mode 
       </font><font color="#007700">= </font><font color="#0000BB">$mode</font><font color="#007700">;<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;} else if (empty(</font><font color="#0000BB">$USER</font><font color="#007700">-></font><font color="#0000BB">mode</font><font color="#007700">)) 
+          } else if (empty(</font><font color="#0000BB">$USER</font><font color="#007700">-></font><font color="#0000BB">mode</font><font color="#007700">)) 
       {<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#0000BB">$USER</font><font color="#007700">-></font><font color="#0000BB">mode 
+              </font><font color="#0000BB">$USER</font><font color="#007700">-></font><font color="#0000BB">mode 
       </font><font color="#007700">= </font><font color="#0000BB">$CFG</font><font color="#007700">-></font><font color="#0000BB">forum_displaymode</font><font color="#007700">;<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;}<br />
+          }<br />
       }</font></p>
 </li>
 
-<li class="spaced">Les <strong>blocs</strong> doivent toujours être placés entre accolades (même s'ils ne sont constitués que d'une ligne). Moodle utilise le style suivant&nbsp;:
+<li class="spaced">Les <strong>blocs</strong> doivent toujours être placés entre accolades (même s'ils ne sont constitués que d'une ligne). Moodle utilise le style suivant :
     <p class="examplecode"> <font color="#006600">if (</font><font color="#0000CC">$quiz</font><font color="#006600">-></font><font color="#0000CC">attempts</font><font color="#006600">) 
       {<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;if (</font><font color="#0000CC">$numattempts </font><font color="#006600">> 
+          if (</font><font color="#0000CC">$numattempts </font><font color="#006600">> 
       </font><font color="#0000CC">$quiz</font><font color="#006600">-></font><font color="#0000CC">attempts</font><font color="#006600">) 
       {<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#0000CC">error</font><font color="#006600">(</font><font color="#0000BB">$strtoomanyattempts</font><font color="#006600">, 
+              </font><font color="#0000CC">error</font><font color="#006600">(</font><font color="#0000BB">$strtoomanyattempts</font><font color="#006600">, 
       </font><font color="#CC0000">"view.php?id=$cm</font><font color="#006600">-></font><font color="#CC0000">id"</font><font color="#006600">);<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;}<br />
+          }<br />
       }</font></p>
 </li>
 
@@ -130,49 +136,49 @@
 <font color="#006600">function </font><font color="#0000BB">forum_get_ratings_mean</font><font color="#007700">(</font><font color="#0000BB">$postid</font><font color="#007700">, 
       </font><font color="#0000BB">$scale</font><font color="#007700">, </font><font color="#0000BB">$ratings</font><font color="#007700">=</font><font color="#0000BB">NULL</font><font color="#007700">) 
       {<br /></font>
-      &nbsp;&nbsp;&nbsp;&nbsp;<font color="#007700">if (!</font><font color="#0000BB">$ratings</font><font color="#007700">) 
+          <font color="#007700">if (!</font><font color="#0000BB">$ratings</font><font color="#007700">) 
       {<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#0000BB">$ratings 
-      </font><font color="#007700">= array(); &nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#FF8000">// 
+              </font><font color="#0000BB">$ratings 
+      </font><font color="#007700">= array();     </font><font color="#FF8000">// 
       Initialize the empty array</font><font color="#007700"><br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (</font><font color="#0000BB">$rates 
+              if (</font><font color="#0000BB">$rates 
       </font><font color="#007700">= </font><font color="#0000BB">get_records</font><font color="#007700">(</font><font color="#DD0000">"forum_ratings"</font><font color="#007700">, 
       </font><font color="#DD0000">"post"</font><font color="#007700">, </font><font color="#0000BB">$postid</font><font color="#007700">)) 
       {<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#FF8000">// 
+                  </font><font color="#FF8000">// 
       Process each rating in turn</font><font color="#007700"><br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach 
+                  foreach 
       (</font><font color="#0000BB">$rates </font><font color="#007700">as </font><font color="#0000BB">$rate</font><font color="#007700">) 
       {</font> <br />
       ... etc. </p>
 </li>
 
-<li class="spaced">Les <strong>espaces</strong> doivent être utilisés généreusement. N'ayez pas peur d'espacer les lignes pour accroître la lisibilité. En général, il doit y avoir un espace entre les parenthèses et les instructions normales, mais aucun espace entre les parenthèses et les variables ou fonctions&nbsp;:
+<li class="spaced">Les <strong>espaces</strong> doivent être utilisés généreusement. N'ayez pas peur d'espacer les lignes pour accroître la lisibilité. En général, il doit y avoir un espace entre les parenthèses et les instructions normales, mais aucun espace entre les parenthèses et les variables ou fonctions :
     <p class="examplecode"> <font color="#007700">foreach (</font><font color="#0000BB">$objects 
       </font><font color="#007700">as </font><font color="#0000BB">$key </font><font color="#007700">=></font><font color="#0000BB"> 
       $thing</font><font color="#007700">)</font><font color="#006600"> {<br />
-      </font><font color="#007700">&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#0000BB">process($thing);</font><font color="#006600"> 
+      </font><font color="#007700">    </font><font color="#0000BB">process($thing);</font><font color="#006600"> 
       <br />
       } <br />
       <br />
       </font><font color="#007700">if (</font><font color="#0000BB">$x </font><font color="#007700">== 
       </font><font color="#0000BB">$y</font><font color="#007700">)</font><font color="#006600"> 
       {<br />
-      </font><font color="#007700">&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#0000BB">$a 
+      </font><font color="#007700">    </font><font color="#0000BB">$a 
       </font><font color="#007700">= </font><font color="#0000BB">$b</font><font color="#007700">;</font><font color="#006600"><br />
       } else if (</font><font color="#0000BB">$x </font><font color="#007700">== 
       </font><font color="#0000BB">$z</font><font color="#006600">) {<br />
-      </font><font color="#007700">&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#0000BB">$a 
+      </font><font color="#007700">    </font><font color="#0000BB">$a 
       </font><font color="#007700">= </font><font color="#0000BB">$c</font><font color="#007700">;</font><font color="#006600"><br />
       } else {<br />
-      </font><font color="#007700">&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#0000BB">$a 
+      </font><font color="#007700">    </font><font color="#0000BB">$a 
       </font><font color="#007700">= </font><font color="#0000BB">$d</font><font color="#007700">;</font><font color="#006600"><br />
       } </font></p>
   </li>
 
 </ol>
 
-<p>&nbsp;</p>
+<p> </p>
 
 <h2>Structure des bases de données</h2>
 
@@ -180,21 +186,21 @@
 
 <li class="spaced">Toutes les tables doivent avoir un champ <strong>id</strong> (INT10) à incrémentation automatique pour index principal.</li>
 
-<li class="spaced">La table principale contenant les instances de chaque module doit avoir le même nom que le module (par exemple <strong>bidule</strong>) et doit contenir au moins les champs suivants&nbsp;:
+<li class="spaced">La table principale contenant les instances de chaque module doit avoir le même nom que le module (par exemple <strong>bidule</strong>) et doit contenir au moins les champs suivants :
 
     <ul>
 
-      <li><strong>id</strong>&nbsp;: voir description ci-dessus</li>
+      <li><strong>id</strong> : voir description ci-dessus</li>
 
-      <li><strong>course</strong>&nbsp;: l'identifiant du cours auquel appartient chaque instance</li>
+      <li><strong>course</strong> : l'identifiant du cours auquel appartient chaque instance</li>
 
-      <li><strong>name</strong>&nbsp;: le nom complet de chaque instance du module</li>
+      <li><strong>name</strong> : le nom complet de chaque instance du module</li>
 
     </ul>
 
 </li>
 
-<li class="spaced">Les autres tables associées à un module et contenant des informations sur des «&nbsp;machins&nbsp;» doivent être appelées <strong>bidule_machins</strong> (remarquez le pluriel).</li>
+<li class="spaced">Les autres tables associées à un module et contenant des informations sur des « machins » doivent être appelées <strong>bidule_machins</strong> (remarquez le pluriel).</li>
 
 <li class="spaced">Les noms de colonnes doivent être simples et courts, suivant les mêmes règles que les noms des variables.</li>
 
@@ -212,7 +218,7 @@
 
 <ol class="normaltext">
 
-<li class="spaced">Ne vous basez pas sur l'option «&nbsp;register_globals&nbsp;». <strong>Toutes</strong> les variables doivent être correctement initialisées dans <strong>tous</strong> les fichiers de code. La provenance du nom de la variable doit être évidente.</li>
+<li class="spaced">Ne vous basez pas sur l'option « register_globals ». <strong>Toutes</strong> les variables doivent être correctement initialisées dans <strong>tous</strong> les fichiers de code. La provenance du nom de la variable doit être évidente.</li>
 
 <li class="spaced">Initialisez tous les tableaux et tous les objets, même lorsqu'ils sont vides. <code>$a = array()</code> ou <code>$obj = new stdClass();</code>.</li>
 
@@ -228,7 +234,7 @@
 
 <li class="spaced">Groupez chaque fois que cela est possible vos <code>required_param()</code>, <code>optional_param()</code> et les autres initialisations de variables initialisation au début de chaque fichier, de sorte qu'elles soient faciles à trouver.</li>
 
-<li class="spaced">Utilisez le mécanisme «&nbsp;sesskey&nbsp;» pour protéger vos routines de traitement de formulaires d'éventuelles attaques. Un exemple simple&nbsp;: lorsque le formulaire est généré, ajoutez <code><input type="hidden" name="sesskey" value="<?php echo sesskey(); ?>" /></code>. Lors du traitement du formulaire, vérifiez avec <code>if (!confirm_sesskey()) {error('Bad Session Key');}</code>.</li>
+<li class="spaced">Utilisez le mécanisme « sesskey » pour protéger vos routines de traitement de formulaires d'éventuelles attaques. Un exemple simple : lorsque le formulaire est généré, ajoutez <code>&lt;input type="hidden" name="sesskey" value="&lt;?php echo sesskey(); ?>" /></code>. Lors du traitement du formulaire, vérifiez avec <code>if (!confirm_sesskey()) {error('Bad Session Key');}</code>.</li>
 
 <li class="spaced">Tous les noms de fichiers doivent être nettoyés par la fonction <code>clean_filename()</code>, pour autant que cela n'ait pas encore été fait par une utilisation adéquate de <code>required_param()</code> ou de <code>optional_param()</code>.</li>
 

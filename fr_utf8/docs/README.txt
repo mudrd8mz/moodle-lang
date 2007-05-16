@@ -1,16 +1,18 @@
-Moodle documentation
+Documentation Moodle
 --------------------
 
-If you want to translate this documentation into another language,
-I would suggest that you:
+Si vous voulez traduire cette documentation dans une autre langue, je vous
+suggère :
 
- 1) don't include English versions of the files in this directory
-    because they will be used automatically anyway if it is missing
-    from your language pack.
+ 1) de ne pas inclure les versions anglaises ou françaises de ces fichiers
+    dans ce dossier. Si un fichier est manquant dans votre paquetage de
+    langue (vous ne l'avez pas encore traduit), sa version anglaise sera
+    de toute façon affichée automatiquement.
 
- 2) translate them in this order (starting with the important ones):
+ 2) traduire ces fichiers dans l'ordre indiqué ci-dessous (en commençant
+    par les plus importants) :
   
-    MOST IMPORTANT
+    PLUS IMPORTANT
     |-------------------
     |
     |   - files.php
@@ -41,8 +43,8 @@ I would suggest that you:
     |   - license.html
     |
     |-------------------
-    LEAST IMPORTANT
+    MOINS IMPORTANT
 
- 3) Please don't translate credits.html at all - it changes too much.
+ 3) Vous n'avez pas besoin de traduire credits.html.
 
 
