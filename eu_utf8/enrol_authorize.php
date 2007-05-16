@@ -122,6 +122,13 @@ $string['orderid'] = 'Eragiketaren IDa';
 $string['paymentmanagement'] = 'Ordainketaren kudeaketa';
 $string['paymentmethod'] = 'Ordainketa metodoa';
 $string['paymentpending'] = 'Ikastaro honetako zure ordainketa onesteko dago zenbaki honekin: $a->orderid.  Ikusi <a href=\'$a->url\'>Ordainketaren zehaztasunak</a>.';
+$string['pendingecheckemail'] = 'Kudeatzaile agurgarria,
+
+Une honetan $a->count echeck daude pendiente eta cvs fitxategi bat igo behar duzu matrikulatutako erabiltzaileak lortzeko.
+
+Sakatu beheko esteka eta irakurri laguntza-fitxategia orri honetan:
+$a->url';
+$string['pendingechecksubject'] = '$a->course: falta diren eTxekeak ($a->count)';
 $string['pendingordersemail'] = 'Kudeatzaile agurgarri hori:
 
 $a->pending eragiketa pendienteak \"$a->course\" ikastarokoak amaituko dira ordainketa $a->days egunetan onartzen ez baduzu.
@@ -168,6 +175,7 @@ $string['refund'] = 'Itzuli';
 $string['refunded'] = 'Itzulia';
 $string['returns'] = 'Itzuliak';
 $string['reviewday'] = 'Kreditu-txartela automatikoki kapturatu irakasleak edo kudeatzaileak eragiketa <b>$a</b> egunetan ikuskatzen ez badu. CRONa ezarri behar da.<br />(0 egun adieraziz gero, kaptura automatikoa indargabetzen da, eta irakasleak edo kudeatzaileak eskuz errebisatu beharko du. Kaptura automatikoa indargabetzen bada edo 30 egunen buruan onartzen ez bada, eragiketa indargabetuko da.)';
+$string['reviewfailed'] = 'Ezin izan da berrikusketa egin';
 $string['reviewnotify'] = 'Zure ordainketa errebisatuko da. Zure irakasleak e-maila bidaliko dizu egun gutxi barru.';
 $string['sendpaymentbutton'] = 'Ordainketa bidali';
 $string['settled'] = 'Adostua';
@@ -177,6 +185,7 @@ $string['tested'] = 'Saiatua';
 $string['testmode'] = '[SAIAKERA MODUA]';
 $string['testwarning'] = 'Kaptura/Indargabetze/Kredituak test moduan funtzionatzen dutela dirudi, baina ez da datubasean erregistrorik eguneratu edo sartu.';
 $string['transid'] = 'Eragiketaren IDa';
+$string['underreview'] = 'Berrikusten';
 $string['unenrolstudent'] = 'Ikaslearen matrikula indargabetu?';
 $string['uploadcsv'] = 'CVS fitxategia igo';
 $string['usingccmethod'] = 'Matrikulatu <a href=\"$a->url\"><strong>kreditu-txartela</strong></a> erabiliz';
