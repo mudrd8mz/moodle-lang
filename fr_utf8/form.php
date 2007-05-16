@@ -26,6 +26,7 @@ $string['nomethodforaddinghelpbutton'] = 'Il n\'y a pas de méthode pour ajouter
 $string['nonexistentformelements'] = 'Tentative d\'ajout de bouton d\'aide à des éléments non existants&nbsp;: $a';
 $string['optional'] = 'Facultatif';
 $string['requiredelement'] = 'Champ requis';
+$string['revealpassword'] = 'Révéler'; // Legacy, to remove for 1.9 and above
 $string['security'] = 'Sécurité';
 $string['showadvanced'] = 'Afficher éléments supplémentaires';
 $string['somefieldsrequired'] = 'Ce formulaire comprend des champs requis, marqués $a';
