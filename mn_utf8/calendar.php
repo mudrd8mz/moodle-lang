@@ -1,0 +1,114 @@
+
+<!--
+Энэхvv файлын орчуулгын ажлыг "Нээлттэй эхтэй зайн сургалтын програм хангамжуудын vнэлгээ, нутагшуулалт" (www.pandora-asia.org) тєслийн хvрээнд ИнфоКон ХХК гvйцэтгэв. Энэхvv тєсєл нь/ Канадын Олон Улсын Хєгжлийн Агентлагын санхvvжилтээр хэрэгжсэн болно.
+
+The translation of this file carried out within a framework of Evaluation and Adaptation of Open Source Software for DL in Asia <http://www.pandora-asia.org/panprojects.php?main=panprojects_3.htm> (www.pandora-asia.org) project implemented by InfoCon LLC with financial support from the Pan Asia Networking (PAN) Programme Initiative of the International Development Research Centre (IDRC), under a grant to the Virtual University of Pakistan for the project, PANdora - Distance and Open Resource Access. 
+-->
+
+
+
+﻿<?php // $Id$
+
+$string['calendar'] = 'Хуанли';
+$string['calendarheading'] = '$a Хуанли';
+$string['clickhide'] = 'дарж нуу';
+$string['clickshow'] = 'дарж ил гарга';
+$string['confirmeventdelete'] = 'Та энэ үйл явдлыг устгахыг зөвшөөрч байна уу?';
+$string['courseevents'] = 'Курс үйл явдал';
+$string['dayview'] = 'Өдрийг харах';
+$string['daywithnoevents'] = 'Энэ өдөр ямар нэг үйл явдал алга.';
+$string['default'] = 'Дефаулт';
+$string['deleteevent'] = 'Үйл явдлыг устгах';
+$string['detailedmonthview'] = 'Сараар дэлгэрүүлэн харах';
+$string['durationminutes'] = 'Минутад үргэлжлэх хугацаа';
+$string['durationnone'] = 'Үргэлжлэх хугацаагүй';
+$string['durationuntil'] = 'Хүртэл';
+$string['editevent'] = 'Үйл явдлыг засварлаж байна';
+$string['errorbeforecoursestart'] = 'Огноог эхлүүлэхгүйгээр үйл явдлыг оруулж болохгүй';
+$string['errorinvaliddate'] = 'Тохирохгүй огноо';
+$string['errorinvalidminutes'] = '1-ээс 999-н хооронд минутын тоог онцлон зааж өгнө үү.';
+$string['errorinvalidrepeats'] = 'Үйл явдлуудын дугаарыг 1-ээс 99-н хооронд тоогоор зааж өгнө үү.';
+$string['errornodescription'] = 'Тайлбар шаардлагатай';
+$string['errornoeventname'] = 'нэр шаардлагатай';
+$string['eventdate'] = 'Огноо';
+$string['eventdescription'] = 'Тайлбар';
+$string['eventduration'] = 'Үргэлжлэх хугацаа';
+$string['eventendtime'] = 'хугацааны эцэс';
+$string['eventinstanttime'] = 'Хугацаа';
+$string['eventkind'] = 'Үйл явдлын төрөл';
+$string['eventname'] = 'Нэр';
+$string['eventnone'] = 'Үйлдлүүд байхгүй';
+$string['eventrepeat'] = 'Давталт';
+$string['eventsfor'] = '$a үйлдлүүд';
+$string['eventstarttime'] = 'Хугацааны эхлэл';
+$string['eventtime'] = 'Хугацаа';
+$string['eventview'] = 'Үйл явдлын дэлгэрэнгүй';
+$string['expired'] = 'Хугацаа дууссан';
+$string['explain_lookahead'] = 'Энд ирэх өдрүүдийн /хагийн их/ дугаарыг хийгдэх үйл явдлуудыг дэлгэц дээр эхнээс жагсаан үзүүлэхээр тавина. Үйл явдлууд нь эхэлж хийгдэж буй үед дэлгэц дээр үзүүлэгдэхгүй. Бүх үйл явдлууд эхлэх үед үзүүлэгдэх ба баталгаагүй үйл явдлыг тэмдэглэнэ үү; Хэрэв тэдгээр нь хэтэрхий олон бол ( \"Хамгийн их хийгдэх үйл явдал\" тохигооноос их бол) бүр өмнөх үял явдлууд үзүүлэгдэхгүй.';
+$string['explain_maxevents'] = 'Энэ нь хийгдэх үйл явдлун хамгийн тоогоор дэлгэц дээр үзүүлэгдэнэ. Хэрэв та их тоо сонгосон бол хийгдсэн үйл явдлуудыг дэлгэцийн хэмжээнд тохируулан харуулах болно.';
+$string['explain_persistflt'] = 'Хэрэв энэ боломж олгогдсон бол, Moodle таны сүүлд нэвтэрсэн тохиргоог санаж дахин нэвтрэхэд түүнийг сэргээх болно.';
+$string['explain_startwday'] = 'Долоо хоногийн хуанли таны эхлэн сонгосон өдрөөс эхлүүлэн үзүүлэх болно.';
+$string['explain_timeformat'] = 'Та хугацааг 12 эсвэл 24 цагийн форматаар сонгон харж болно. Хэрэв та  \"дефаулт\" гэж сонгосон бол, формат нь таны уг сайт дээр ашиглаж буй хэлний форматыг автоматаар авах болно.';
+$string['globalevents'] = 'Глобал үйл явдал';
+$string['gotocalendar'] = 'Календарлуу орох';
+$string['groupevents'] = 'Груп үйл явдал';
+$string['hidden'] = 'нуусан';
+$string['manyevents'] = '$a үйл явдлууд';
+$string['monthlyview'] = 'Сараар харах';
+$string['newevent'] = 'Шинэ Үйл явдал';
+$string['noupcomingevents'] = 'Энд хийгдэж буй үйл явдал алга';
+$string['oneevent'] = '1 үйл явдал';
+$string['pref_lookahead'] = 'Хийгдэж буй үйл явдлыг эхэнд харах';
+$string['pref_maxevents'] = 'Хамгийн их хийгдсэн үйл явдлууд';
+$string['pref_persistflt'] = 'Нэвтрэх тохиргоог санах';
+$string['pref_startwday'] = 'Долоо хоногийн эхний өдөр';
+$string['pref_timeformat'] = 'Дэлгэц дээрх цагийн формат';
+$string['preferences'] = 'Тохиргоо';
+$string['preferences_available'] = 'Таны хувийн тохиргоо';
+$string['repeateditall'] = 'Өөрчлөлтийг энэ давталтын цуваан дахь бүх $a үйл явдлуудад батлах';
+$string['repeateditthis'] = 'Өөрчлөлтийг зөвхөн энэ үйл явдалд батлах';
+$string['repeatnone'] = 'Давталтгүй';
+$string['repeatweeksl'] = 'Долоо хоногийг давтаж бүхлээр нь үүсгэж байна ';
+$string['repeatweeksr'] = 'үйл явдлууд';
+$string['shown'] = 'харуулах';
+$string['spanningevents'] = 'Болох гэж буй үйл явдал';
+$string['timeformat_12'] = '12-цаг (am/pm)';
+$string['timeformat_24'] = '24-цаг';
+$string['today'] = 'Өнөөдөр';
+$string['tomorrow'] = 'Маргааш';
+$string['tt_deleteevent'] = 'Үр дүнг устгах';
+$string['tt_editevent'] = 'Үр дүнг засварлах';
+$string['tt_hidecourse'] = 'Курс үр дүнгүүд үзүүлэгдсэн (дарж нуу)';
+$string['tt_hideglobal'] = 'Глобал үр дүнгүүд үзүүлэгдсэн (дарж нуу)';
+$string['tt_hidegroups'] = 'Груп  үр дүнгүүд үзүүлэгдсэн (дарж нуу)';
+$string['tt_hideuser'] = 'Хэрэглэгчийн үр дүнгүүд үзүүлэгдсэн (дарж нуу)';
+$string['tt_showcourse'] = 'Курс үр дүнгүүд нуугдсан (дарж ил гарга)';
+$string['tt_showglobal'] = 'Глобал үр дүнгүүд нуугдсан (дарж ил гарга)';
+$string['tt_showgroups'] = 'Груп үр дүнгүүд нуугдсан (дарж ил гарга)';
+$string['tt_showuser'] = 'хэрэглэгчийн үр дүнгүүд нуугдсан (дарж ил гарга)';
+$string['typecourse'] = 'Курс үр дүн';
+$string['typegroup'] = 'Груп үр дүн';
+$string['typesite'] = 'Сайтын үр дүн';
+$string['typeuser'] = 'хэрэглэгчийн үр дүн';
+$string['upcomingevents'] = 'Өгөгдсөн үр дүнгүүд';
+$string['userevents'] = 'Хэрэглэгчийн үр дүнгүүд';
+$string['yesterday'] = 'Өчигдөр';
+$string['youcandeleteallrepeats'] = 'Энэ үр дүн нь үр дүнгүүдийн жагсаалтыг давтасны нэг хэсэг. Та зөвхөн энэ үр дүнг устгаж болох ба бүх $a үр дүнгүүдийг жагсаалтаас нэг удаа хасч болно.';
+
+$string['sun'] = 'Ня';
+$string['mon'] = 'Да';
+$string['tue'] = 'Мя';
+$string['wed'] = 'Лха';
+$string['thu'] = 'Пү';
+$string['fri'] = 'Ба';
+$string['sat'] = 'Бя';
+$string['sunday'] = 'Ням';
+$string['monday'] = 'Даваа';
+$string['tuesday'] = 'Мягмар';
+$string['wednesday'] = 'Лхагва';
+$string['thursday'] = 'Пүрэв';
+$string['friday'] = 'Баасан';
+$string['saturday'] = 'Бямба';
+
+?>
+

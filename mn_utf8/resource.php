@@ -1,0 +1,115 @@
+
+<!--
+Энэхvv файлын орчуулгын ажлыг "Нээлттэй эхтэй зайн сургалтын програм хангамжуудын vнэлгээ, нутагшуулалт" (www.pandora-asia.org) тєслийн хvрээнд ИнфоКон ХХК гvйцэтгэв. Энэхvv тєсєл нь/ Канадын Олон Улсын Хєгжлийн Агентлагын санхvvжилтээр хэрэгжсэн болно.
+
+The translation of this file carried out within a framework of Evaluation and Adaptation of Open Source Software for DL in Asia <http://www.pandora-asia.org/panprojects.php?main=panprojects_3.htm> (www.pandora-asia.org) project implemented by InfoCon LLC with financial support from the Pan Asia Networking (PAN) Programme Initiative of the International Development Research Centre (IDRC), under a grant to the Virtual University of Pakistan for the project, PANdora - Distance and Open Resource Access. 
+-->
+
+
+
+<?PHP // $Id$ 
+      // resource.php - created with Moodle 1.5.4 + (2005060240)
+
+
+$string['addresource'] = 'нэмэх a нөөц ';
+$string['chooseafile'] = 'Сонго эсвэл файлыг сервер лүү хуул ';
+$string['chooseparameter'] = 'Параметр сонго';
+$string['configallowlocalfiles'] = 'хэзээ creating a шинэ файл resource, зөвшөөрөх холбох -д файл дээр a орон нутгийн галт тэрэг файл систем тийм учраас a cd унаатай аялал эсвэл a хатуу drive. энэ магадгvй байх ашигтай -д/-т a classroom хаашаа бүгд оюутан -тай орох хүрэх нэвтрэх боломж -д a хамтын юм сүлжээ унаатай аялал эсвэл хаашаа файл дээр a cd хэрэгцээ -д байх accessed. хэрэглэх ын энэ өвөрмөц онцлог магадгvй шаардах өөрчлөлт -д Таны browser\'s аюулгүй байдал settings. ';
+$string['configdefaulturl'] = 'энэ ач холбогдол байх хэрэглэх -д prefill the вэб хаяг форм хэзээ creating a шинэ url-based resource. ';
+$string['configfilterexternalpages'] = 'enabling энэ хүрээ сэтгэлийн тэнхээ/зориг учир шалтгаан бүгд гаднах нөөц (web pages, дээш нь(сэрвэр лvv)хуулах html files) -д байх процесс дэргэд the одоогоор тодорхойлсон байрлал шүүлтүүр (such учраас номонд хавсарган үгсийн autolinks, төлөө example).  эргэлт энэ сонголт дээр магадгvй учир шалтгаан Таны курс хуудас -д удаан өд ноолуур чухал - хэрэглэх хамт болгоожлол бас ганц хэрвээ... бол Та үнэн хэрэгцээ it. ';
+$string['configframesize'] = 'хэзээ a вэб хуудас эсвэл an дээш нь(сэрвэр лvv)хуулах файл байх үзүүлсэн дотор a frame, энэ ач холбогдол байх the хэмжээ (in pixels) ын the орой байг-лах (which агуулах the navigation). ';
+$string['configparametersettings'] = 'энэ тавих the дефаулт ач холбогдол төлөө the parameter тохиргоо цонхны шил -д/-т the форм хэзээ нэмэх зарим шинэ resources. ард нь the нэгдүгээр time, энэ becomes an хувь хүн хэрэглэгч preference. ';
+$string['configpopup'] = 'хэзээ нэмэх a шинэ нөөц аль байх авьяас билэгтэй -д байх харуулсан -д/-т a popup window, shall-г харах энэ сонголт байх боломж олгосон дэргэд default? ';
+$string['configpopupdirectories'] = 'shall-г харах popup цонх харуулах лавлах холбох дэргэд default? ';
+$string['configpopupheight'] = 'юу өндөр shall-г харах байх the дефаулт өндөр төлөө шинэ popup windows? ';
+$string['configpopuplocation'] = 'shall-г харах popup цонх харуулах the байрлал хавтгай дэргэд default? ';
+$string['configpopupmenubar'] = 'shall-г харах popup цонх харуулах the цэс хавтгай дэргэд default? ';
+$string['configpopupresizable'] = 'shall-г харах popup цонх байх resizable дэргэд default? ';
+$string['configpopupscrollbars'] = 'shall-г харах popup цонх байх scrollable дэргэд default? ';
+$string['configpopupstatus'] = 'shall-г харах popup цонх харуулах the байдал хавтгай дэргэд default? ';
+$string['configpopuptoolbar'] = 'shall-г харах popup цонх харуулах the багаж хавтгай дэргэд default? ';
+$string['configpopupwidth'] = 'юу өргөн shall-г харах байх the дефаулт өргөн төлөө шинэ popup windows? ';
+$string['configsecretphrase'] = 'энэ нууц хэлц байх хэрэглэх -д бүтээгдэхүүн the encrypted хууль цааз ач холбогдол тэр чадах байх илгээлээ -д зарим нөөц учраас a parameter.  the encrypted хууль цааз байх бүтээгдэхүүн дэргэд an md5 ач холбогдол ын the current_users ip хаяг concatenated хамт Таны нууц phrase. ie co ';
+$string['configwebsearch'] = 'хэзээ нэмэх a вэб хаяг учраас a webpage эсвэл weblink, энэ байрлал байх offered учраас a байрлал -д тусламж the хэрэглэгч хайх төлөө the вэб хаяг тэд want. ';
+$string['configwindowsettings'] = 'энэ тавих the дефаулт ач холбогдол төлөө the цонх тохиргоо цонхны шил -д/-т the форм хэзээ нэмэх зарим шинэ resources. ард нь the нэгдүгээр time, энэ becomes an хувь хүн хэрэглэгч preference. ';
+$string['deploy'] = 'deploy ';
+$string['directlink'] = 'шулуун холбох -д энэ файл ';
+$string['directoryinfo'] = 'бүгд the файл -д/-т the choose-г харах лавлах сэтгэлийн тэнхээ/зориг байх displayed. ';
+$string['display'] = 'Цонх ';
+$string['editingaresource'] = 'засварлах a нөөц ';
+$string['encryptedcode'] = 'encrypted хууль цааз ';
+$string['example'] = 'Жишээ ';
+$string['exampleurl'] = 'http://www.example.com/somedirectory/somefile.html ';
+$string['fetchclienterror'] = 'an алдаа be-г харах суурь тавих хамт Таны вэб үйлчлүүлэгч түр хугацаа төвөгтэй -д агнасан шувууг олж авчрах the вэб хуудас (possibly a буруу url). ';
+$string['fetcherror'] = 'an алдаа be-г харах суурь тавих түр хугацаа төвөгтэй -д агнасан шувууг олж авчрах the вэб page. ';
+$string['fetchservererror'] = 'an алдаа be-г харах суурь тавих хамт the алсын server түр хугацаа төвөгтэй -д агнасан шувууг олж авчрах the вэб хуудас (possibly a program error). ';
+$string['filename'] = 'файл нэр ';
+$string['filtername'] = 'нөөц нэр auto-linking ';
+$string['frameifpossible'] = 'тавих нөөц -д/-т a байг-лах -д тэтгэмж байрлал хөлөг/ жолоодох ухааан харагдах ';
+$string['fulltext'] = 'бүрэн текст ';
+$string['htmlfragment'] = 'html хэлтэрхий ';
+$string['imspackageloaded'] = 'илгээмж ачаалах ';
+$string['localfile'] = 'орон нутгийн галт тэрэг файл ';
+$string['localfilechoose'] = 'сонгох a орон нутгийн галт тэрэг файл (cd-rom) ';
+$string['localfilehelp'] = 'тусламж үзүүлэн орон нутгийн галт тэрэг файл ';
+$string['localfileinfo'] = '<p>choose a орон нутгийн галт тэрэг файл -аас Таны computer. the файл сэтгэлийн тэнхээ/зориг үгүй байх дээш нь(сэрвэр лvv)хуулах -д the вэб site, харин moodle сэтгэлийн тэнхээ/зориг харагдах төлөө the адил файл дээр the цахим тооцоолуур ын ямар нэг хүн харагдац энэ resource.</p><p>this байх ихэнхдээ ашигтай хэзээ Та -тай том арга хэрэгсэл файл нөөцлөх дээр a standard cd-rom тэр Та тараах -д бүгд participants.  бүр оролцогч байх авьяас билэгтэй -д сонгох тэдний өөрийн орон нутгийн галт тэрэг зам төлөө тийм files, дэргэд <a hr ';
+$string['localfilepath'] = '-д тавих Таны өөрийн орон нутгийн галт тэрэг зам төлөө энэ resource, сонгох хэн нэг файл -аас the унаатай аялал (usually a cd_rom) дээр Таны цахим тооцоолуур хаашаа the нөөц exists. the файл сэтгэлийн тэнхээ/зориг үгүй байх дээш нь(сэрвэр лvv)хуулах харин the унаатай аялал мэдээ сэтгэлийн тэнхээ/зориг байх нөөцлөх бас хэрэглэх төлөө хэн нэг орон нутгийн галт тэрэг файл нөөц ';
+$string['localfileselect'] = 'сонгох энэ файл path. ';
+$string['maindirectory'] = 'гол/чухал зүйл файл лавлах ';
+$string['modulename'] = 'нөөц ';
+$string['modulenameplural'] = 'нөөц ';
+$string['navigationbuttons'] = 'хөлөг/ жолоодох ухааан товч ';
+$string['neverseen'] = 'ер үгүй see-г харах ';
+$string['newdirectories'] = 'харуулах the лавлах холбох ';
+$string['newfullscreen'] = 'дүүрэх the дүн шигших ';
+$string['newheight'] = 'дефаулт цонх өндөр (in pixels) ';
+$string['newlocation'] = 'харуулах the байрлал хавтгай ';
+$string['newmenubar'] = 'харуулах the цэс хавтгай ';
+$string['newresizable'] = 'зөвшөөрөх the цонх -д байх resized ';
+$string['newscrollbars'] = 'зөвшөөрөх the цонх -д байх scrolled ';
+$string['newstatus'] = 'харуулах the байдал хавтгай ';
+$string['newtoolbar'] = 'харуулах the toolbar ';
+$string['newwidth'] = 'дефаулт цонх өргөн (in pixels) ';
+$string['newwindow'] = 'шинэ цонх ';
+$string['newwindowopen'] = 'үзүүлэн энэ нөөц -д/-т a шинэ popup цонх ';
+$string['notallowedlocalfileaccess'] = 'орох хүрэх нэвтрэх боломж -д орон нутгийн галт тэрэг файл байх одоогоор disabled, тийм энэ нөөц байх үгүй available. ';
+$string['note'] = 'тэмдэглэл ';
+$string['notefile'] = '-д дээш нь (сэрвэр лvv) хуулах илүү файл дотогш the курс (so тэд үзэгдэх -д/-т энэ list) хэрэглэх the <a hr ';
+$string['notypechosen'] = 'Та хэрэгцээ -д сонгох a type.  хэрэглэх Таны нуруу товч -д явах нуруу бас retry. ';
+$string['packagechanged'] = 'энэ ims агуулга илгээмж байх changed. ';
+$string['packagenotdeplyed'] = 'энэ ims агуулга илгээмж байх үгүй deployed. ';
+$string['pagedisplay'] = 'үзүүлэн энэ нөөц дотор the урсгал цонх ';
+$string['pagewindow'] = 'адил цонх ';
+$string['pan'] = 'хоолны сав ';
+$string['parameter'] = 'parameter ';
+$string['parameters'] = 'parameters ';
+$string['popupresource'] = 'энэ нөөц shall-г харах үзэгдэх -д/-т a popup window. ';
+$string['popupresourcelink'] = 'хэрвээ... бол энэ didn\'t, товших here: $a ';
+$string['redeploy'] = 'deploy дахин ';
+$string['resourcetype'] = 'төрөл ын нөөц ';
+$string['resourcetype1'] = 'заалт ';
+$string['resourcetype2'] = 'вэб хуудас ';
+$string['resourcetype3'] = 'дээш нь(сэрвэр лvv)хуулах файл ';
+$string['resourcetype4'] = 'тал газар текст ';
+$string['resourcetype5'] = 'вэб холбох ';
+$string['resourcetype6'] = 'html текст ';
+$string['resourcetype7'] = 'program ';
+$string['resourcetype8'] = 'wiki-like текст ';
+$string['resourcetype9'] = 'лавлах ';
+$string['resourcetypedirectory'] = 'үзүүлэн a лавлах ';
+$string['resourcetypefile'] = 'Файл эсвэл вэб рүү холбо ';
+$string['resourcetypehtml'] = 'Вэб хуудас болго';
+$string['resourcetypeims'] = 'нэмэх an ims агуулга илгээмж ';
+$string['resourcetypelabel'] = 'Хаяг оруул';
+$string['resourcetyperepository'] = 'холбох -д a агуулах эсэргүүцэх ';
+$string['resourcetypetext'] = 'зохиох a текст хуудас ';
+$string['searchweb'] = 'Вэб хуудас хайх';
+$string['serverurl'] = 'server вэб хаяг ($a->wwwroot) ';
+$string['showcourseblocks'] = 'харуулах the курс блок ';
+$string['tableofcontents'] = 'Агуулгын Хүснэгт ';
+$string['variablename'] = 'хувьсах нэр ';
+$string['viewims'] = 'харах ims агуулга илгээмж ';
+$string['vol'] = 'vol ';
+
+?>
+

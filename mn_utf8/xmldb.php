@@ -1,0 +1,116 @@
+
+<!--
+Энэхvv файлын орчуулгын ажлыг "Нээлттэй эхтэй зайн сургалтын програм хангамжуудын vнэлгээ, нутагшуулалт" (www.pandora-asia.org) тєслийн хvрээнд ИнфоКон ХХК гvйцэтгэв. Энэхvv тєсєл нь/ Канадын Олон Улсын Хєгжлийн Агентлагын санхvvжилтээр хэрэгжсэн болно.
+
+The translation of this file carried out within a framework of Evaluation and Adaptation of Open Source Software for DL in Asia <http://www.pandora-asia.org/panprojects.php?main=panprojects_3.htm> (www.pandora-asia.org) project implemented by InfoCon LLC with financial support from the Pan Asia Networking (PAN) Programme Initiative of the International Development Research Centre (IDRC), under a grant to the Virtual University of Pakistan for the project, PANdora - Distance and Open Resource Access. 
+-->
+
+
+
+<?PHP // $Id$ 
+      // xmldb.php - created with Moodle 1.7+ (2006101009)
+
+
+$string['back'] = 'Буцах';
+$string['backtomainview'] = 'Үндсэн хэсэг руу буцах';
+$string['binaryincorrectlength'] = 'Binary талбарын урт буруу байна';
+$string['cannotuseidfield'] = '\"id\" талбарыг оруулж чадахгүй байна. Энэ талбар нь автоматаар дугаарлагдана.';
+$string['change'] = 'Өөрчлөх';
+$string['charincorrectlength'] = 'Char талбарын урт буруу байна';
+$string['confirmdeletefield'] = 'Энэ талбарыг устгах уу:';
+$string['confirmdeleteindex'] = 'Энэ индексийг устгах уу:';
+$string['confirmdeletekey'] = 'Энэ түлхүүрийг устгах уу:';
+$string['confirmdeletesentence'] = 'Энэ өгүүлбэрийг устгах уу';
+$string['confirmdeletestatement'] = 'Мэдэгдэл болон түүний мэдээллүүдийг устгах уу:';
+$string['confirmdeletetable'] = 'Энэ хүснэгтийг устгах уу:';
+$string['confirmdeletexmlfile'] = 'Энэ файлыг устгах уу:';
+$string['create'] = 'Үүсгэх';
+$string['createtable'] = 'Хүснэгт үүсгэх';
+$string['defaultincorrect'] = 'Анхны утга буруу байна';
+$string['delete'] = 'Устгах';
+$string['delete_field'] = 'Талбар устгах';
+$string['delete_index'] = 'Индекс утгах';
+$string['delete_key'] = 'Түлхүүр устгах';
+$string['delete_sentence'] = 'Өгүүлбэр устгах';
+$string['delete_statement'] = 'Мэдэгдэл устгах';
+$string['delete_table'] = 'Хүснэгт устгах';
+$string['delete_xml_file'] = 'XML файл устгах';
+$string['down'] = 'Доошоо';
+$string['duplicate'] = 'Олшруулах';
+$string['duplicatefieldname'] = 'Талбарын нэр давхардаж байна';
+$string['edit'] = 'Засварлах';
+$string['edit_field'] = 'Талбар засварлах';
+$string['edit_index'] = 'Индекс засварлах';
+$string['edit_key'] = 'Түлхүүр засварлах';
+$string['edit_sentence'] = 'Өгүүлбэр засварлах';
+$string['edit_statement'] = 'Мэдэгдэл засварлах';
+$string['edit_table'] = 'Хүснэгт засварлах';
+$string['edit_xml_file'] = 'XML файл засварлах';
+$string['enumvaluesincorrect'] = 'Enum талбарын утга буруу байна';
+$string['field'] = 'Талбар';
+$string['fieldnameempty'] = 'Нэр талбар хоосон байна';
+$string['fields'] = 'Талбарууд';
+$string['filenotwriteable'] = 'Файл засагдахааргүй байна';
+$string['floatincorrectdecimals'] = 'Бутархай талбарын 10-тын орон буруу байна';
+$string['floatincorrectlength'] = 'Бутархай талбарын урт буруу байна';
+$string['gotolastused'] = 'Сүүлд хэрэглэгдсэн файл руу очих';
+$string['incorrectfieldname'] = 'Буруу нэр';
+$string['indexes'] = 'Индексүүд';
+$string['integerincorrectlength'] = 'Integer талбарын урт буруу байна';
+$string['keys'] = 'Түлхүүрүүд';
+$string['listreservedwords'] = 'Нөөцлөгдсөн үгсийн жагсаалт<br/>(<a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_нөөцлөгдсөн үгс</a> -г шинэчлэхэд хадгалав)';
+$string['load'] = 'Ачаалах';
+$string['main_view'] = 'Үндсэн харагдац';
+$string['missingfieldsinsentence'] = 'Өгүүлбэрийн дутуу талбарууд';
+$string['missingvaluesinsentence'] = 'Өгүүлбэрийн дутуу утгууд';
+$string['mustselectonefield'] = 'Талбартай холбоотой үйлдлийг харахын тулд ядаж нэг талбар сонгох ёстой!';
+$string['mustselectoneindex'] = 'Индекстэй холбоотой үйлдлийг харахын тулд ядаж нэг индекс сонгох ёстой!';
+$string['mustselectonekey'] = 'Түлхүүртэй холбоотой үйлдлийг хараын тулд ядаж нэг түлхүүр сонгох ёстой!';
+$string['new_statement'] = 'Шинэ мэдэгдэл';
+$string['new_table_from_mysql'] = 'Шинэ хүснэгт (MySQL-ээс)';
+$string['newfield'] = 'Шинэ талбар';
+$string['newindex'] = 'Шинэ индекс';
+$string['newkey'] = 'Шинэ түлхүүр';
+$string['newsentence'] = 'Шинэ өгүүлбэр';
+$string['newstatement'] = 'Шинэ мэдэгдэл';
+$string['newtable'] = 'Шинэ хүснэгт';
+$string['newtablefrommysql'] = 'Шинэ хүснэгт (MySQL-ээс)';
+$string['numberincorrectdecimals'] = 'Number талбарын 10-тын орон буруу байна';
+$string['numberincorrectlength'] = 'Number талбарын урт буруу байна';
+$string['reserved'] = 'Нөөцлөгдсөн';
+$string['reservedwords'] = 'Нөөцлөгдсөн үгс';
+$string['revert'] = 'Буцаах';
+$string['revert_changes'] = 'Өөрчлөлтийг буцаах';
+$string['save'] = 'Хадгалах';
+$string['selectaction'] = 'Үйлдэл сонгох';
+$string['selectdb'] = 'Өгөгдлийн бааз сонгох';
+$string['selectfieldkeyindex'] = 'Талбар/Түлхүүр/Индекс  сонгох';
+$string['selectonecommand'] = 'PHP код харахын тулд жагсаалтаас нэг Үйлдэл сонгоно уу';
+$string['selectonefieldkeyindex'] = 'PHP код харахын тулд жагсаалтаас нэг Талбар/Түлхүүр/Индекс сонгоно уу';
+$string['selecttable'] = 'Хүснэгт сонгох';
+$string['sentences'] = 'Өгүүлбэрүүд';
+$string['statements'] = 'Мэдэгдэлүүд';
+$string['statementtable'] = 'Мэдэгдэл хүснэгт';
+$string['statementtype'] = 'Мэдэгдэл төрөл';
+$string['table'] = 'Хүснэгт';
+$string['tables'] = 'Хүснэгтүүд';
+$string['test'] = 'Шалгах';
+$string['textincorrectlength'] = 'Text талбарын урт буруу байна';
+$string['unload'] = 'Ачаалахыг буцаах';
+$string['up'] = 'Дээшээ';
+$string['view'] = 'Харах';
+$string['view_reserved_words'] = 'Нөөцлөгдсөн үгсийн харах';
+$string['view_structure_php'] = 'PHP бүтэц харах';
+$string['view_structure_sql'] = 'SQL бүтэц харах';
+$string['view_table_php'] = 'PHP хүснэгт харах';
+$string['view_table_sql'] = 'SQL хүснэгт харах';
+$string['viewedited'] = 'Засварлагдсаныг харах';
+$string['vieworiginal'] = 'Эх хувилбарыг харах';
+$string['viewphpcode'] = 'PHP код харах';
+$string['viewsqlcode'] = 'SQL код харах';
+$string['wronglengthforenum'] = 'Enum талбарын урт буруу байна';
+$string['wrongnumberoffieldsorvalues'] = 'Өгүүлбэрийн талбарын тоо эсвэл утгууд буруу байна';
+$string['wrongreservedwords'] = 'Ашиглагдаж буй нөөцлөгдсөн үгс<br />($CFG->prefix -г ашиглаж байгаа бол хүснэгтийн нэр чухал биш гэдгийг анхаар)';
+
+?>
+

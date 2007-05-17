@@ -1,0 +1,127 @@
+
+<!--
+Энэхvv файлын орчуулгын ажлыг "Нээлттэй эхтэй зайн сургалтын програм хангамжуудын vнэлгээ, нутагшуулалт" (www.pandora-asia.org) тєслийн хvрээнд ИнфоКон ХХК гvйцэтгэв. Энэхvv тєсєл нь/ Канадын Олон Улсын Хєгжлийн Агентлагын санхvvжилтээр хэрэгжсэн болно.
+
+The translation of this file carried out within a framework of Evaluation and Adaptation of Open Source Software for DL in Asia <http://www.pandora-asia.org/panprojects.php?main=panprojects_3.htm> (www.pandora-asia.org) project implemented by InfoCon LLC with financial support from the Pan Asia Networking (PAN) Programme Initiative of the International Development Research Centre (IDRC), under a grant to the Virtual University of Pakistan for the project, PANdora - Distance and Open Resource Access. 
+-->
+
+
+
+<?PHP // $Id$ 
+      // assignment.php - created with Moodle 1.7+ (2006101009)
+
+
+$string['allowdeleting'] = 'Устгахыг зөвшөөрөх';
+$string['allowmaxfiles'] = 'Сервер рүү хуулсан файлуудын дээд хязгаар';
+$string['allownotes'] = 'Тэмдэглэгээг зөвшөөрөх';
+$string['allowresubmit'] = 'Дахин илгээхийг зөвшөөр';
+$string['assignment:grade'] = 'Даалгаврыг дүгнэх';
+$string['assignment:submit'] = 'Даалгаврыг хураалгах/оруулах';
+$string['assignment:view'] = 'Даалгаврыг харах';
+$string['assignmentdetails'] = 'Даалгаврын  дэлгэрэнгүй';
+$string['assignmentmail'] = '$a->teacher багш таны \'$a->assignment\'даалгаврын гүйцэтгэлд зарим хариулт бичсэн байна.
+
+Үүнийг та өөрийн даалгавар оруулгын хэсгээс харж болно.
+
+$a->url';
+$string['assignmentmailhtml'] = '$a->url
+$a->teacher багш таны \'<i>$a->assignment</i>\'<br/><br/>даалгаврын гүйцэтгэлд зарим хариулт бичсэн байна.
+Үүнийг та өөрийн даалгавар оруулгын <a href=\"$a->url\"> хэсгээс харж болно</a>.';
+$string['assignmentname'] = 'Даалгаврын нэр';
+$string['assignmenttype'] = 'Даалгаврын төрөл';
+$string['availabledate'] = 'Эхэлсэн';
+$string['comment'] = 'Тайлбар';
+$string['commentinline'] = 'Тайлбар inline';
+$string['configitemstocount'] = 'Оюутны оруулсан онлайн даалгавруудын бодит тоо.';
+$string['configmaxbytes'] = 'Вэбсайтан дээрх бүх даалгавруудын хамгийн их хэмжээ (курсын хязгаар болон бусад дотоод тохиргоонуудаас хамаарна)';
+$string['confirmdeletefile'] = 'Та үнэхээр энэ файлыг устгах уу?<br /><strong>$a</strong>';
+$string['deletefilefailed'] = 'Файлыг устгаж чадсангүй';
+$string['description'] = 'Тодорхойлолт';
+$string['draft'] = 'Ноорог';
+$string['duedate'] = 'Дуусах огноо';
+$string['duedateno'] = 'Дуусах огноогүй';
+$string['early'] = '$a эрт';
+$string['editmysubmission'] = 'Миний оруулгыг засварла';
+$string['emailstudents'] = 'Оюутнуудад имэйлээр сануулга илгээх';
+$string['emailteachermail'] = '$a->username хэрэглэгч \'$a->assignment\' даалгавраа шинэчлэн орууллаа 
+
+Эндээс үзэж болно:
+
+$a->url';
+$string['emailteachermailhtml'] = '$a->username хэрэглэгч <i>\'$a->assignment\'</i><br/><br/> даалгавраа шинэчлэн орууллаа
+Вэб сайтан дээр <a href=\"$a->url\"> эндээс үзэх боломжтой</a>';
+$string['emailteachers'] = 'Багш нар руу сануулга имэйлээр илгээх';
+$string['emptysubmission'] = 'Та хараахан ямар нэгэн зүйл оруулаагүй байна';
+$string['existingfiledeleted'] = 'Энэ файл устсан: $a';
+$string['failedupdatefeedback'] = '$a хэрэглэгчийн оруулгад илгээсэн хариу шинэчлэгдсэнгүй';
+$string['feedback'] = 'Хариу';
+$string['feedbackfromteacher'] = '$a -аас хариу';
+$string['feedbackupdated'] = '$a хүмүүсийн оруулгын хариунууд шинэчлэгдлээ';
+$string['graded'] = 'Дүгнэгдсэн';
+$string['guestnosubmit'] = 'Уучлаарай, зочин хэрэглэгч даалгавар хариулах буюу оруулах зөвшөөрөлгүй. Та өөрийн хариултаа илгээхийн тулд нэвтрэх эсвэл бүртгүүлэх шаардлагатай.';
+$string['guestnoupload'] = 'Уучлаарай, зочин хэрэглэгч файл сервер рүү хуулах эрхгүй.';
+$string['helpoffline'] = '<p>Моодлээс гарч байгаад даалгавраа хийх нь илүү ашигтай. Аль өөр нэг хуудсан дээр эсвэл нүүр-нүүрээ харж байгаад хийвэл дээр. </p><p> Оюутнууд даалгаврын тайлбарыг харах боловч файл эсвэл ямар нэгэн зүйл сервер лүү хуулж чадахгүй. Дүгнэх үйл ажиллагаа зүгээр ажиллаж байна, оюутнууд өөр өөрсдийн дүнгийн тухай мэдээг авна.</p>';
+$string['helponline'] = '<p>Энэ төрлийн даалгавар нь хэрэглэгчийг энгийн засварлах хэрэгсэл ашиглан текст засахыг шаарддаг. Багш тэднийг онлайн дүгнэж болох ба текстэн дотор нь заавар зөвлөмж зарим өөрчлөлтийг ч оруулж болно. </p>
+</p>(Хэрвээ та Моодлийн хуучин загваруудын аль нэгэн дээр ажиллаж байсан бол энэ төрлийн даалгавар нь хуучин моодлийн Journal module үйлдэлтэй ижил үйлдэл хийдэг.)</p>';
+$string['helpupload'] = '<p>Энэ төрлийн даалгавар нь оролцогч бүрийг дурын форматтай нэг болон түүнээс дээш файлыг серверт хуулахыг зөвшөөрдөг. 
+Энэ нь текст файл, зурган файл, шахсан файл гэх мэтийн таны хүссэн ямар ч файл байж болно. </p>
+<p>Энэ төрөл нь олон хариу файлуудыг серверт хуулахыг зөвшөөрдөг. Мөн хариу файлууд нь оролцогч бүрт тус тусад нь ажиллах ялгаатай файлуудыг оруулахын өмнө сервер рүү хуулагдаж болно. </p>
+<p>Оролцогчид оруулж буй файлуудаа тодорхойлсон тэмдэглэл, явц байдал болон дурын текст мэдээллийг оруулж болно. </p>
+<p>Энэ төрлийн даалгаврыг оруулах үйл явц нь оролцогчоор сүүлд нь бүрэн хянагдах ёстой. Та одоогийн төлвийг дурын үед шалгаж болох бөгөөд дуусаагүй даалгаврууд нь Ноорог хэмээн тэмдэглэгдсэн байгаа. Та бүх үнэлэгдээгүй байгаа даалгавруудыг нооргийн төлөвт буцааж болно. </p>';
+$string['helpuploadsingle'] = '<p>Энэ төрлийн даалгавар нь оролцогч бүрийг ямар нэг файлыг сервер лүү хуулахыг шаарддаг.</p></p>Энэ нь текст файл, зураг эсвэл шахсан файл ер нь юу ч байж болно.</p>';
+$string['hideintro'] = 'Боломжит ОГНОО-с өмнөх тодорхойлолтуудыг нуух';
+$string['late'] = '$a хоцорсон';
+$string['maximumgrade'] = 'Хамгийн сайн дүн';
+$string['maximumsize'] = 'Хамгийн их хэмжээ';
+$string['modulename'] = 'Даалгавар';
+$string['modulenameplural'] = 'Даалгавар';
+$string['newsubmissions'] = 'Даалгавар орууллаа';
+$string['noassignments'] = 'Энд даалгавар арай л орж ирээгүй байна';
+$string['noattempts'] = 'Энэ даалгавараа хийх гэж үзсэн ямар ч оролдлого хийгдээгүй байна';
+$string['nofiles'] = 'Оруулсан файл алга';
+$string['nofilesyet'] = 'Одоохондоо оруулсан файл алга';
+$string['notavailableyet'] = 'Уучлаарай, энэ даалгавар одоохондоо идэвхгүй байна.<br/> Даалгаврын заавар доор өгөгдсөн өдөр байрлах болно.';
+$string['notes'] = 'Тэмдэглэгээнүүд';
+$string['notesempty'] = 'Оролт алга';
+$string['notesupdateerror'] = 'Тэмдэглээг шинэчлэхэд гарсан алдаа';
+$string['notgradedyet'] = 'Хараахан дүгнэгдээгүй байна';
+$string['notsubmittedyet'] = 'Хараахан оруулаагүй байна';
+$string['onceassignmentsent'] = 'Та нэгэнт даалгаврыг шалгуулахаар илгээсэн тохиолдолд  устгах эсвэл файл хавсаргах боломжгүй болно. Үргэлжлүүлэхийг хүсэж байна уу?';
+$string['overwritewarning'] = 'Анхааруулга: Сервер рүү дахиж хуулах нь одоо сервер дээр байгаа өмнөх оруулгыг тань УСТГАН ДАРЖ хуулагдах болно.';
+$string['pagesize'] = 'Хуудас тус бүрийн оруулгууд';
+$string['preventlate'] = 'Хоцорсон оруулгуудаас урьдчилан сэргийл';
+$string['quickgrade'] = 'Хурдан үнэлэхийг зөвшөөр';
+$string['responsefiles'] = 'Хариу файлууд';
+$string['reviewed'] = 'Шалгагдсан';
+$string['saveallfeedback'] = 'Миний бүх хариуг хадгал';
+$string['sendformarking'] = 'Дүгнүүлэхээр илгээх';
+$string['submission'] = 'Оруулга';
+$string['submissiondraft'] = 'Ноорог оруулах';
+$string['submissionfeedback'] = 'Оруулгын хариу';
+$string['submissions'] = 'Оруулгууд';
+$string['submissionsaved'] = 'Таны хийсэн өөрчлөлт хадгалагдлаа';
+$string['submissionsnotgraded'] = '$a үнэлэгдээгүй оруулгууд';
+$string['submitassignment'] = 'Энэ формыг ашиглан даалгавраа оруулна уу';
+$string['submitedformarking'] = 'Даалгавар хэдийнэ дүгнүүлэхээр илгээгдсэн бөгөөд шинэчлэх засварлах боломжгүй юм.';
+$string['submitformarking'] = 'Дүгнүүлэх даалгаврын хамгийн сүүлийн оруулга';
+$string['submitted'] = 'Оруулсан';
+$string['submittedfiles'] = 'Оруулсан файлууд';
+$string['typeoffline'] = 'Интернэтэд холбогдоогүй үйл ажиллагаа';
+$string['typeonline'] = 'Онлайн текст';
+$string['typeupload'] = 'Олон файлуудыг сервер рүү хуулах';
+$string['typeuploadsingle'] = 'Ганц файлыг сэрвэр лvv хуулах';
+$string['unfinalize'] = 'Ноорог руу буцаах';
+$string['uploadbadname'] = 'Уг файлын нэр нь үл танигдах тэмдэгтүүд агуулсан байгаа тул сервер рүү хуулах боломжгүй';
+$string['uploadedfiles'] = 'сэрвэр лvv хуулсан файл';
+$string['uploaderror'] = 'Сервер дээр файлыг хадгалах явцад алдаа гарлаа';
+$string['uploadfailnoupdate'] = 'Файл сервер лүү амжилттай хуулагдлаа гэвч таны оруулгыг шинэчилсэнгүй!';
+$string['uploadfiletoobig'] = 'Уучлаарай, файлын хэмжээ маш том байна (хязгаар нь $a bytes)';
+$string['uploadnofilefound'] = 'Файл олдсонгүй - та сервер лүү хуулах файлаа сонгосон гэдэгтээ итгэлтэй байна уу?';
+$string['uploadnotregistered'] = '\'$a\' сэрвэр лvv амжилттай хуулагдлаа гэвч оруулга бүртгэгдсэнгүй!';
+$string['uploadsuccess'] = '\'$a\' сервер лүү амжилттай хуулагдлаа';
+$string['viewfeedback'] = 'Даалгаврын дүнгүүд болон хариунуудыг харах';
+$string['viewsubmissions'] = 'Оруулсан $a даалгавруудыг харах';
+$string['yoursubmission'] = 'Таны оруулга';
+
+?>
+

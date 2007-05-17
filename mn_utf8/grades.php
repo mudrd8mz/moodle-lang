@@ -1,0 +1,137 @@
+
+<!--
+Энэхvv файлын орчуулгын ажлыг "Нээлттэй эхтэй зайн сургалтын програм хангамжуудын vнэлгээ, нутагшуулалт" (www.pandora-asia.org) тєслийн хvрээнд ИнфоКон ХХК гvйцэтгэв. Энэхvv тєсєл нь/ Канадын Олон Улсын Хєгжлийн Агентлагын санхvvжилтээр хэрэгжсэн болно.
+
+The translation of this file carried out within a framework of Evaluation and Adaptation of Open Source Software for DL in Asia <http://www.pandora-asia.org/panprojects.php?main=panprojects_3.htm> (www.pandora-asia.org) project implemented by InfoCon LLC with financial support from the Pan Asia Networking (PAN) Programme Initiative of the International Development Research Centre (IDRC), under a grant to the Virtual University of Pakistan for the project, PANdora - Distance and Open Resource Access. 
+-->
+
+
+
+<?PHP // $Id$ 
+      // grades.php - created with Moodle 1.7+ (2006101009)
+
+
+$string['addcategory'] = 'Категори Нэмэх';
+$string['addcategoryerror'] = 'Категори нэмж болохгүй байна.';
+$string['addexceptionerror'] = 'userid:gradeitem –д мэдээлэл нэмэх үед гарсан алдаа';
+$string['allgrades'] = 'Бүх дүнг ангилалаар нь';
+$string['allstudents'] = 'Бүх Оюутан';
+$string['average'] = 'Дундаж';
+$string['bonuspoints'] = 'Шагналын оноо';
+$string['categories'] = 'Категориуд';
+$string['category'] = 'Категори';
+$string['choosecategory'] = 'Категори сонгох';
+$string['creatinggradebooksettings'] = 'Дүнгийн журналын тохиргоог үүсгэх';
+$string['curveto'] = '-рүү эргэ';
+$string['deletecategory'] = 'Категори устгах';
+$string['displaylettergrade'] = 'Үсгэн дүнг харуулах';
+$string['displaypercent'] = 'Хувийг үзүүлэх';
+$string['displaypoints'] = 'Оноог үзүүлэх';
+$string['displayweighted'] = 'Чанараар гаргасан дүнг харуулах';
+$string['dropped'] = 'Хичээлээс гарсан';
+$string['dropxlowest'] = 'Х хамгийн бага хичээлээс гарах';
+$string['dropxlowestwarning'] = 'Тэмдэглэгээ: Нэг ангилал доторх бүх зүйлс нь ижил оноотой бол Х хамгийн багийг хаях аргыг ашигла. Хэрвээ оноонууд нь ялгаатай бол үр дүнг урьдчилаж хэлэх боломжгүй.';
+$string['errorgradevaluenonnumeric'] = 'Бага болон өндөр дүнгийн тоон бус үнэлгээг хүлээж авсан';
+$string['errornocategorizedid'] = 'Ангилагдаагүй id авч чадахгүй.';
+$string['errornocourse'] = 'Курсын мэдээллийг авч чадсангүй.';
+$string['errorreprintheadersnonnumeric'] = 'Дахин хэвлэгдэх дүнгүүдийн тоон бус утгыг хүлээж авсан.';
+$string['exceptions'] = 'Зөвшөөрөл';
+$string['excluded'] = 'Хасагдсан';
+$string['extracredit'] = 'Нэмэлт кредит цаг';
+$string['extracreditwarning'] = 'Тэмдэглэгээ: Ангилал дах бүх зүйлсийг нэмэлт кредит цаг руу тохируулбал тэдгээрийг дүнгийн нийлбэрийг бодоход оруулахгүй. Тиймээс нийт оноо байхгүй болно.';
+$string['forstudents'] = 'Оюутнуудад';
+$string['gradebook'] = 'Дүнгийн журнал';
+$string['gradebookhiddenerror'] = 'Дүнгийн журнал нь оюутнуудад бүх зүйлийг харуулахгүй байхаар тохируулагдсан байна.';
+$string['gradecategoryhelp'] = 'Дүнгийн ангилалын тусламж';
+$string['gradeexceptions'] = 'Дүнгийн зөвшөөрөл';
+$string['gradeexceptionshelp'] = 'Дүнгийн зөвшөөрөл тусламж';
+$string['gradehelp'] = 'Дүнгийн тусламж';
+$string['gradeitem'] = 'Зүйлийг дүгнэ';
+$string['gradeitemaddusers'] = 'Дүгнэлтээс гаргах';
+$string['gradeitemmembersselected'] = 'Дүгнэлтээс гарсан';
+$string['gradeitemnonmembers'] = 'Дүгнэлтэнд багтсан';
+$string['gradeitemremovemembers'] = 'Дүгнэлтэнд багтах';
+$string['gradeitems'] = 'Зүйлcийг дүгнэ';
+$string['gradeletter'] = 'Бичлэгийг дүгнэ';
+$string['gradeletterhelp'] = 'Бичлэгийг дүгнэх тусламж';
+$string['gradeletternote'] = 'Бичлэгийн дүнг устгахын тулд тэр бичлэгнийхээ гурван текст талбарын <br /> алийг нь хамаагүй хоослоод оруулах товч дар.';
+$string['gradepreferenceshelp'] = 'Дүгнэх тохиргооны тусламж';
+$string['grades'] = 'Дүнгүүд';
+$string['gradeweighthelp'] = 'Чанарын дүгнэлтийн тусламж';
+$string['hideadvanced'] = 'Өргөтгөсөн хүчин зүйлсийг нуух';
+$string['hidecategory'] = 'Нуусан';
+$string['highgradeascending'] = 'Өндөр дүнг өсөх дарааллаар эрэмбэлэх';
+$string['highgradedescending'] = 'Өндөр дүнг буурах дарааллаар эрэмбэлэх';
+$string['highgradeletter'] = 'өндөр';
+$string['incorrectcourseid'] = 'Курсын id буруу байна.';
+$string['item'] = 'зүйл';
+$string['items'] = 'зүйлc';
+$string['lettergrade'] = 'Үсгэн дүн';
+$string['lettergradenonnumber'] = 'Тоон бус бага болон/эсвэл өндөр оноо';
+$string['letters'] = 'үсэг';
+$string['lowest'] = 'Хамгийн бага';
+$string['lowgradeletter'] = 'Бага';
+$string['max'] = 'Хамгийн өндөр';
+$string['maxgrade'] = 'Хамгийн өндөр дүн';
+$string['median'] = 'Дундаж';
+$string['min'] = 'Хамгийн бага';
+$string['mode'] = 'Горим';
+$string['no'] = 'Үгүй';
+$string['nocategories'] = 'Энэ курст дүнгийн ангилал нэмэгдэж чадахгүй эсвэл олдохгүй байна.';
+$string['nocategoryview'] = 'Харах ангилал алга';
+$string['nogradeletters'] = 'Үсгэн оноо байхгүй байна';
+$string['nogradesreturned'] = 'Буцаагдсан дүн байхгүй';
+$string['nolettergrade'] = 'Үсгэн дүн алга';
+$string['nomode'] = 'na';
+$string['nonnumericweight'] = 'Тоон бус үнэлгээ хүлээн авсан';
+$string['nonweightedpct'] = 'Чанарыг үнэлээгүй';
+$string['notteachererror'] = 'Та энэхүү хүчин зүйлийг ашиглахын тулд заавал багш байх ёстой.';
+$string['pctoftotalgrade'] = 'Нийт дүнгийн хувь';
+$string['percent'] = 'Хувь';
+$string['percentascending'] = 'Хувийг өсөх дарааллаар эрэмбэл';
+$string['percentdescending'] = 'Хувийг буурах дарааллаар эрэмбэл';
+$string['percentshort'] = '%%';
+$string['points'] = 'оноо';
+$string['pointsascending'] = 'Оноог өсөх дарааллаар эрэмбэл';
+$string['pointsdescending'] = 'Оноог буурах дарааллаар эрэмбэл';
+$string['preferences'] = 'Тохиргоо';
+$string['rawpct'] = 'Бутархайтай хувь';
+$string['reprintheaders'] = 'Өмнөтгөлийг дахин хэвлэх';
+$string['savechanges'] = 'Өөрчлөлтүүдийг хадгалах';
+$string['savepreferences'] = 'Тохиргоог хадгалах';
+$string['scaledpct'] = 'Бүхэлтгэсэн хувь';
+$string['setcategories'] = 'Ангилал оноох';
+$string['setcategorieserror'] = 'Та курстээ чанарын үнэлгээ өгөхийн өмнэ эхлээд ангилалаа оноох хэрэгтэй.';
+$string['setgradeletters'] = 'Бичлэгийг дүгнэхээр болго';
+$string['setpreferences'] = 'Тохиргоог тохируул';
+$string['setting'] = 'Тохиргоо';
+$string['settings'] = 'тохиргоо';
+$string['setweights'] = 'Чанарыг тохируул';
+$string['showallstudents'] = 'Бүх оюутанг харуулах';
+$string['showhiddenitems'] = 'Нуугдмал зүйлсийг харуул';
+$string['sort'] = 'Эрэмбэл';
+$string['sortbyfirstname'] = 'Нэрээр нь эрэмбэл';
+$string['sortbylastname'] = 'Овгоор нь эрэмбэл';
+$string['standarddeviation'] = 'Стандарт ялгавар';
+$string['stats'] = 'Статистик';
+$string['statslink'] = 'Статистик';
+$string['student'] = 'Оюутан';
+$string['total'] = 'Нийт';
+$string['totalweight100'] = 'Нийт чанар нь 100тай тэнцүү байна';
+$string['totalweightnot100'] = 'Нийт чанар нь 100тай тэнцүүгүй байна';
+$string['uncategorised'] = 'Категоригоор ангилаагүй';
+$string['useadvanced'] = 'Нэмэлт хүчин зүйлсийг ашигла';
+$string['usepercent'] = 'Хувь ашиглах';
+$string['useweighted'] = 'Чанар ашиглах';
+$string['viewbygroup'] = 'Бүлэг';
+$string['viewgrades'] = 'Дүнг харах';
+$string['weight'] = 'Чанар';
+$string['weightedascending'] = 'Чанарын хувийг өсөх дарааллаар эрэмбэл';
+$string['weighteddescending'] = 'Чанарын хувийг буурах дарааллаар эрэмбэл';
+$string['weightedpct'] = 'Чанарын хувь';
+$string['weightedpctcontribution'] = 'Чанарын хувийн оролт';
+$string['writinggradebookinfo'] = 'Дүнгийн журнал хөтлөх тохиргоо';
+$string['yes'] = 'За';
+
+?>
+

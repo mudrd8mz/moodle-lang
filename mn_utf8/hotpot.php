@@ -1,0 +1,163 @@
+
+<!--
+Энэхvv файлын орчуулгын ажлыг "Нээлттэй эхтэй зайн сургалтын програм хангамжуудын vнэлгээ, нутагшуулалт" (www.pandora-asia.org) тєслийн хvрээнд ИнфоКон ХХК гvйцэтгэв. Энэхvv тєсєл нь/ Канадын Олон Улсын Хєгжлийн Агентлагын санхvvжилтээр хэрэгжсэн болно.
+
+The translation of this file carried out within a framework of Evaluation and Adaptation of Open Source Software for DL in Asia <http://www.pandora-asia.org/panprojects.php?main=panprojects_3.htm> (www.pandora-asia.org) project implemented by InfoCon LLC with financial support from the Pan Asia Networking (PAN) Programme Initiative of the International Development Research Centre (IDRC), under a grant to the Virtual University of Pakistan for the project, PANdora - Distance and Open Resource Access. 
+-->
+
+
+
+<?PHP // $Id$ 
+      // hotpot.php - created with Moodle 1.7+ (2006101009)
+
+
+$string['abandoned'] = 'Орхигдсон';
+$string['addquizchain'] = 'Асуултууд нэмэх';
+$string['allusers'] = 'Бүх хэрэглэгч';
+$string['alwaysopen'] = 'Үргэлж нээлттэй';
+$string['attemptsall'] = 'Бүх оролдлогууд';
+$string['attemptsbest'] = 'Хамгийн сайн оролдлого';
+$string['attemptsfirst'] = 'Анхны оролдлого';
+$string['attemptslast'] = 'Хамгийн сүүлийн оролдлого';
+$string['average'] = 'Дундаж';
+$string['checks'] = 'Шалгалт';
+$string['clickreporting'] = 'Тайлан бичихийг идэвхжүүл';
+$string['clues'] = 'Түлхүүр';
+$string['completed'] = 'Дуусгасан';
+$string['configexcelencodings'] = 'Таслалаар тусгаарлагдсан коднуудын жагсаалт. Энэ нь тайлангийн утгыг хүснэгттэй ажиллах програмууд руу хөрвүүлэх үед ашиглагдана. Жишээ нь: Microsoft Excel програм нь Япон хэлний хувьд \"SJIS\" кодыг шаарддаг.';
+$string['configshowtimes'] = 'Жагсаалт болон тайлангууд дээрх бичлэгүүд боловсруулагдахын тулд цаг авах хэрэгтэй юу? Энэ нь зөвхөн таны сервер яагаад удаан ажиллаад байгааг шалгах болвол үнэхээр хэрэгтэй.';
+$string['copiedtoclipboard'] = 'Энэ хуудасны бүх агуулга нь завсрын санах ой руу хуулагдлаа';
+$string['copytoclipboard'] = 'Clipboard руу хуулах';
+$string['correct'] = 'Зөв';
+$string['deleteabandoned'] = 'Орхигдсоныг устгах';
+$string['deleteabandonedcheck'] = 'Та үнэхээр бүх татгалзсан $a оролдогуудыг устгахыг хүсэж байна уу?';
+$string['displaycoursenext'] = 'Курсын дараагийн хуудсыг үзүүл';
+$string['displayhotpotnext'] = 'Халуухан шалгалтыг дараа нь харуул';
+$string['displayindexnext'] = 'ХотПотын агуулгыг дараа нь харуул';
+$string['enterafilename'] = 'Файлын нэрийг оруулна уу';
+$string['error_couldnotopenfolder'] = '\"$a\" хавтсанд хандаж чадсангүй.';
+$string['error_couldnotopensourcefile'] = '\"$a\" эх файлыг нээж болохгүй байна';
+$string['error_couldnotopentemplate'] = '\"$a\" форматанд загвар нээж чадсангүй.';
+$string['error_invalidquiztype'] = 'Шалгалтын төрөл дутуу эсвэл хүчингүй.';
+$string['error_nocourseorfilename'] = 'XML мод үүсгэж чадахгүй: курс юм уу файлын нэр орхигдсон байна';
+$string['error_nofeedbackurlformmail'] = 'Маягт боловсруулах кодын вэб хаягийг оруул';
+$string['error_nofeedbackurlwebpage'] = 'Вэб хуудасны хаягийг оруул';
+$string['error_nofilename'] = 'Файлын нэрийг оруулна уу';
+$string['error_noquizzesfound'] = 'Халуухан шалгалт олдсонгүй';
+$string['error_notfileorfolder'] = '\"$a\" нь файл юм уу хавтас биш байна';
+$string['feedbackformmail'] = 'Сэтгэгдэл бичих форм';
+$string['feedbackmoodleforum'] = 'Моодл форум';
+$string['feedbackmoodlemessaging'] = 'Моодл зурвас';
+$string['feedbacknone'] = 'Байхгүй';
+$string['feedbackwebpage'] = 'Bэб хуудас';
+$string['filetype'] = 'Файлын төрөл';
+$string['forceplugins'] = 'Медиа хүчин зүйлсийг гарга';
+$string['giveup'] = 'Зарлах';
+$string['hints'] = 'Зөвлөгөө';
+$string['hotpot:attempt'] = 'Шалгалтыг өгч үзэх';
+$string['hotpot:deleteattempt'] = 'Шалгалт өгөх оролдлогуудыг устгах';
+$string['hotpot:grade'] = 'Дүнг засварлах';
+$string['hotpot:view'] = 'Шалгалтыг ашиглах';
+$string['hotpot:viewreport'] = 'Тайланг харах';
+$string['hotpotcloses'] = 'Халуухан шалгалт дууслаа';
+$string['hotpotopens'] = 'Халуухан шалгалт эхэллээ';
+$string['ignored'] = 'Үгүйсгэх';
+$string['inprogress'] = 'Үргэлжилж байна';
+$string['location'] = 'Файлын байршил';
+$string['modulename'] = 'Халуухан шалгалт';
+$string['modulenameplural'] = 'Халуухан шалгалтууд';
+$string['navigation'] = 'Удирдлага';
+$string['navigation_bar'] = 'Моодлийн удирдлагын мөр';
+$string['navigation_buttons'] = 'Халуухан шалгалтын товчнууд';
+$string['navigation_frame'] = 'Моодлийн удирдлагын бүтэц';
+$string['navigation_give_up'] = 'Ганцхан \"Зарлах\" товч';
+$string['navigation_iframe'] = '<IFRAME> нэвтрүүллээ';
+$string['navigation_none'] = 'Байхгүй';
+$string['neverclosed'] = 'Хэзээ ч дуусахгүй';
+$string['noactivity'] = 'Идэвхтэй үйл ажиллагаа алга';
+$string['noresponses'] = 'Хувь хүний асуулт хариултын тухай мэдээлэл алга';
+$string['outputformat'] = 'Гаралтын формат';
+$string['outputformat_best'] = 'Хамгийн сайн';
+$string['outputformat_flash'] = 'Гэрэл';
+$string['outputformat_mobile'] = 'Хөдөлгөөнтэй';
+$string['outputformat_v3'] = 'v3';
+$string['outputformat_v4'] = 'v4';
+$string['outputformat_v5'] = 'v5';
+$string['outputformat_v5_plus'] = 'v5+';
+$string['outputformat_v6'] = 'v6';
+$string['outputformat_v6_plus'] = 'v6+';
+$string['penalties'] = 'Шийтгэл';
+$string['questionshort'] = 'q-$a';
+$string['quiztype'] = 'Шалгалтын төрөл';
+$string['rawdetails'] = 'Дутуу оролдлогуудын мэдээлэл';
+$string['regrade'] = 'Дахин дүгнэх';
+$string['regradecheck'] = 'Та \"$a\"-г дахин дүгнэхийг үнэхээр хүсэж байна уу?';
+$string['regraderequired'] = 'Дахин дүгнэх шаардлагатай';
+$string['reportanswers'] = 'Хариулт';
+$string['reportattemptfinish'] = 'Оролдлого дууслаа';
+$string['reportattemptnumber'] = 'Оролдлого';
+$string['reportattemptstart'] = 'Оролдлого эхэллээ';
+$string['reportbutton'] = 'Тайлан боловсруулах';
+$string['reportchanges'] = 'Өөрчлөлт';
+$string['reportchecks'] = 'Шалгалт';
+$string['reportclick'] = 'Сүүлийн тайлан дээр дар';
+$string['reportclicknumber'] = 'Дарах';
+$string['reportclicktime'] = 'Дарах цаг';
+$string['reportclicktype'] = 'Дарах төрөл';
+$string['reportclues'] = 'Түлхүүр';
+$string['reportcontent'] = 'Gгуулга';
+$string['reportcorrectsymbol'] = 'O';
+$string['reportcoursename'] = 'Курсын нэр';
+$string['reportencoding'] = 'Хөрвүүлэлт';
+$string['reportevents'] = 'Үйл явдал';
+$string['reportexercisename'] = 'д. нэр';
+$string['reportexercisenumber'] = 'Дасгал';
+$string['reportexercisetype'] = 'д. төрөл';
+$string['reportformat'] = 'Формат';
+$string['reportformatexcel'] = 'Excel';
+$string['reportformathtml'] = 'html';
+$string['reportformattext'] = 'текст';
+$string['reporthints'] = 'Зөвлөгөө';
+$string['reporthotpotscore'] = 'hotpot оноо';
+$string['reportlegend'] = 'домог';
+$string['reportlogindate'] = 'login огноо';
+$string['reportlogintime'] = 'login цаг';
+$string['reportlogofftime'] = 'logoff цаг';
+$string['reportmaxscore'] = 'Дээд оноо';
+$string['reportnottried'] = 'Оролдлого хийгээгүй';
+$string['reportnottriedsymbol'] = '-';
+$string['reportnumberofquestions'] = 'Асуултны тоо';
+$string['reportpercentscore'] = '%% оноо';
+$string['reportquestionstried'] = 'Оролдсон асуултнууд';
+$string['reportrawscore'] = 'Бүхэлтгээгүй оноо';
+$string['reportright'] = 'Зөв';
+$string['reportsectionnumber'] = 'Хэсэг';
+$string['reportshowanswer'] = 'Хариулт харуулах';
+$string['reportshowlegend'] = 'домог харуулах';
+$string['reportsofar'] = '$a';
+$string['reportstatus'] = 'Төлөв байдал';
+$string['reportstudentid'] = 'Оюутны дугаар';
+$string['reportthisclick'] = '$a энэ товших';
+$string['reporttimerecorded'] = 'Хариултууд бичигдлээ';
+$string['reportwrapdata'] = 'Өгөгдлийг авах';
+$string['reportwrong'] = 'Буруу';
+$string['reportwrongsymbol'] = 'Х';
+$string['resultssaved'] = 'Шалгалтны үр дүн хадгалагдлаа';
+$string['score'] = 'Оноо';
+$string['showhtmlsource'] = 'HTML кодыг харуул';
+$string['shownextquiz'] = 'Дараагийн шалгалтыг харуул';
+$string['showxmlsource'] = 'XML эхийг харуул';
+$string['showxmltree'] = 'XML бүтцийг харуул';
+$string['specifictime'] = 'Тодорхой цаг';
+$string['studentfeedback'] = 'Оюутны сэтгэгдэл';
+$string['textsourcefilename'] = 'Файлын нэрийг ашигла';
+$string['textsourcefilepath'] = 'Файлын замыг ашигла';
+$string['textsourcequiz'] = 'Шалгалтнаас ав';
+$string['textsourcespecific'] = 'Онцгой текст';
+$string['timedout'] = 'Цаг дууссан';
+$string['updatequizchain'] = 'Шалгалтны дарааллыг шинэчил';
+$string['weighting'] = 'Чанар';
+$string['wrong'] = 'Буруу';
+
+?>
+

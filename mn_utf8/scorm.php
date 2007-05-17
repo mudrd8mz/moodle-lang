@@ -1,0 +1,129 @@
+
+<!--
+Энэхvv файлын орчуулгын ажлыг "Нээлттэй эхтэй зайн сургалтын програм хангамжуудын vнэлгээ, нутагшуулалт" (www.pandora-asia.org) тєслийн хvрээнд ИнфоКон ХХК гvйцэтгэв. Энэхvv тєсєл нь/ Канадын Олон Улсын Хєгжлийн Агентлагын санхvvжилтээр хэрэгжсэн болно.
+
+The translation of this file carried out within a framework of Evaluation and Adaptation of Open Source Software for DL in Asia <http://www.pandora-asia.org/panprojects.php?main=panprojects_3.htm> (www.pandora-asia.org) project implemented by InfoCon LLC with financial support from the Pan Asia Networking (PAN) Programme Initiative of the International Development Research Centre (IDRC), under a grant to the Virtual University of Pakistan for the project, PANdora - Distance and Open Resource Access. 
+-->
+
+
+
+<?PHP // $Id$ 
+      // scorm.php - created with Moodle 1.5.4 + (2005060240)
+
+
+$string['advanced'] = 'Ахицтай';
+$string['asset'] = 'asset ';
+$string['attr_error'] = 'муу ач холбогдол төлөө чанар шинж тэмдэг ($a->attr) -д/-т хаяг $a->tag. ';
+$string['autocontinue'] = 'Автоматаар vргэлжлvvл';
+$string['badmanifest'] = 'Зарим алдаа илэрлээ: Алдааны утгыг харах ';
+$string['browse'] = 'Урьдчилан харах ';
+$string['browsed'] = 'Гvйлгэн харах';
+$string['browsemode'] = 'урьдчилах харах арга ';
+$string['chooseapacket'] = 'Илгээмжийг сонго эсвэл шинэчил ';
+$string['completed'] = 'Дуусгасан ';
+$string['coursepacket'] = 'Курсын багц';
+$string['coursestruct'] = 'Курсын бүтэц ';
+$string['datadir'] = 'Файлын системийн алдаа: Курсын єгєгдлийн директорийг vvсгэж чадахгvй байна.  ';
+$string['details'] = 'мөр дэлгэрэнгүй ';
+$string['directories'] = 'Директорын холбоосуудыг харуул';
+$string['display'] = 'Багцыг харуулах ';
+$string['domxml'] = 'domxml гаднах номын сан ';
+$string['element'] = 'элемент ';
+$string['entercourse'] = 'Курс оруулах';
+$string['errorlogs'] = 'алдаа нэвтрэх ';
+$string['exit'] = 'Курсээс гарах ';
+$string['expcoll'] = 'expand/collide ';
+$string['failed'] = 'Амжилтгvй болсон ';
+$string['firstaccess'] = 'Нэгдүгээр боломж';
+$string['found'] = 'Хайлтаар илэрсэн';
+$string['frameheight'] = 'энэ эрхэмлэх тавих the дефаулт өндөр төлөө үе байг-лах эсвэл цонх ';
+$string['framewidth'] = 'энэ эрхэмлэх тавих the дефаулт өргөн төлөө үе байг-лах эсвэл цонх ';
+$string['fullscreen'] = 'Дэлгэц дvvрэн харуулах';
+$string['general'] = 'Ерөнхий єгєгдєл';
+$string['gradeaverage'] = 'Дундаж дvн';
+$string['gradehighest'] = 'Хамгийн єндєр дvн ';
+$string['grademethod'] = 'Дvгнэх арга';
+$string['gradescoes'] = 'сурах эсэргүүцэх ';
+$string['gradesum'] = 'Нийлбэр дvн';
+$string['height'] = 'Єндөр ';
+$string['hidden'] = 'Нуугдсан';
+$string['hidebrowse'] = 'Урьдчилан харах тєлвийг хvчингvй болгох';
+$string['hidenav'] = 'Удирдлагын товчлуурыг нуух';
+$string['hidetoc'] = 'Курсын бvтцыг харуулах (TOC) ';
+$string['identifier'] = 'адилтгал асуулт';
+$string['iframe'] = 'Тухайн цонх ';
+$string['iframedisplay'] = 'Багцыг тухайн цонход нээж харуулах';
+$string['incomplete'] = 'Гvйцэт бус';
+$string['interactions'] = 'Харилцан хамаарал';
+$string['lastaccess'] = 'Хамгийн сүүлчийн нэвтрэх боломж ';
+$string['location'] = 'Байрлалыг харуулах ';
+$string['max'] = 'Хамгийн єндєр оноо ';
+$string['maximumattempts'] = 'Оролдлогын тоо';
+$string['menubar'] = 'Цэсыг харуулах ';
+$string['min'] = 'Хамгийн бага оноо ';
+$string['missing_attribute'] = '$a->tag tag-н $a->attr чанар алдагдсан байна.  ';
+$string['missing_tag'] = '$a->tag  tag алдагдсан байна. ';
+$string['mode'] = 'арга ';
+$string['modulename'] = 'SCORm/AICC ';
+$string['modulenameplural'] = 'SCORMS/AICCS';
+$string['newattempt'] = 'шинэ оролдлогыг эхлэх ';
+$string['next'] = 'Yргэлжлэх ';
+$string['no_attributes'] = '$a->tag tag нь чанруудтай байх ёстой';
+$string['no_children'] = '$a->tag tag нь зайлшгүй tag-тай байна.';
+$string['noactivity'] = 'тэг -д илтгэл ';
+$string['nomanifest'] = 'тохирсон утга олдсонгvй';
+$string['noprerequisites'] = 'Уучилаарай, харин Та don\'t сунгах хангалттай prerequisites -д орох хүрэх нэвтрэх боломж энэ сурах эсэргүүцэх ';
+$string['noreports'] = 'Тайланг харуулахгvй';
+$string['normal'] = 'Хэвийн';
+$string['noscriptnoscorm'] = 'Таны браузер javascript -гvй эсвэл javascript нь хvчингvй болсон. Мєрнvvд нь тэмдэглэгдэхгvй';
+$string['not_corr_type'] = '$a->tag tag-д бичлэг тохирохгvй байна.';
+$string['notattempted'] = 'Оролдлогогvй';
+$string['objectives'] = 'Зорилго ';
+$string['organization'] = 'Байгууллага ';
+$string['organizations'] = 'Байгууллагууд';
+$string['othertracks'] = 'өөр мөр ';
+$string['packagedir'] = 'Файлын системийн алдаа: Багцын директорыг vvсгэж чадахгvй байна. ';
+$string['packagefile'] = 'Багц биш тус тусдаа файл';
+$string['passed'] = 'давах ';
+$string['php5'] = 'php 5 (domxml цэвэр,,,) ';
+$string['popup'] = 'Шинэ цонх ';
+$string['popupmenu'] = 'Тусгай цэсэнд';
+$string['popupopen'] = 'Багцыг шинэ цонхонд нээх';
+$string['position_error'] = '$a->tag tag нь $a->parentийн tag болж чадахгvй ';
+$string['prev'] = 'Ємнєх';
+$string['raw'] = 'Баганан оноо ';
+$string['regular'] = 'ердийн тунхаг ';
+$string['report'] = 'илтгэл ';
+$string['resizable'] = 'Цонхны хэмжээг тохируулахыг зєвшєєрнє';
+$string['result'] = 'Yр дүн ';
+$string['review'] = 'тойм ';
+$string['reviewmode'] = 'тойм арга ';
+$string['scoes'] = 'Сургалтын зорилго';
+$string['score'] = 'Оноо ';
+$string['scormcourse'] = 'сурах курс ';
+$string['scrollbars'] = 'цонхыг гvйлгэж харахыг зєвшєєрєх';
+$string['sided'] = 'Зүүн талд';
+$string['stagesize'] = 'Yеийн хэмжээ ';
+$string['status'] = 'байдал ';
+$string['statusbar'] = 'Тєлєв байдлыг харуулах';
+$string['student_response'] = 'Хариу ';
+$string['syntax'] = 'өгүүлбэр зүйн алдаа ';
+$string['tag_error'] = '$a->value-г агуулсан vл мэдэх ($a->tag) tag  ';
+$string['time'] = 'цаг ';
+$string['too_many_attributes'] = '$a->tag нь дэндүү олон оролдлогуудтай  ';
+$string['too_many_children'] = '$a->tag нь дэндүү олон tag-тай.';
+$string['toolbar'] = 'Тvvлбарыг харуулах ';
+$string['totaltime'] = 'цаг ';
+$string['trackingloose'] = 'Анхаар: Энэ багцын єгєгдлийн тэмдэглэгээ арилна. ';
+$string['type'] = 'төрөл ';
+$string['validateascorm'] = 'Илгээмжийг батлах';
+$string['validation'] = 'Баталгааны vр дvн ';
+$string['validationtype'] = 'Энэ эрхэмлэх тавих the domxml номын сан хэрэглэх төлөө validating scorm manifest. Хэрвээ та мэдэхгvй байгаа бол сонголт хийлгvй vлдээнэ vv.';
+$string['value'] = 'Утга';
+$string['versionwarning'] = 'Тодорхойлогдсон хувилбар нь 1.3-ас хуучин бол, $a->tag tag-г сэргийлнэ. ';
+$string['viewallreports'] = '$a оролдлогуудын илтгэлийг харах';
+$string['width'] = 'Єргөн ';
+$string['window'] = 'Цонх ';
+
+?>
+

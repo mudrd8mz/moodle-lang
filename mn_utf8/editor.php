@@ -1,0 +1,138 @@
+
+<!--
+Энэхvv файлын орчуулгын ажлыг "Нээлттэй эхтэй зайн сургалтын програм хангамжуудын vнэлгээ, нутагшуулалт" (www.pandora-asia.org) тєслийн хvрээнд ИнфоКон ХХК гvйцэтгэв. Энэхvv тєсєл нь/ Канадын Олон Улсын Хєгжлийн Агентлагын санхvvжилтээр хэрэгжсэн болно.
+
+The translation of this file carried out within a framework of Evaluation and Adaptation of Open Source Software for DL in Asia <http://www.pandora-asia.org/panprojects.php?main=panprojects_3.htm> (www.pandora-asia.org) project implemented by InfoCon LLC with financial support from the Pan Asia Networking (PAN) Programme Initiative of the International Development Research Centre (IDRC), under a grant to the Virtual University of Pakistan for the project, PANdora - Distance and Open Resource Access. 
+-->
+
+
+
+<?PHP // $Id$ 
+      // editor.php - created with Moodle 1.7+ (2006101009)
+
+
+$string['about'] = 'Энэ засварлагчийн тухай';
+$string['absbottom'] = 'Хамгийн доор';
+$string['address'] = 'Хаяг';
+$string['alertnoselectedtext'] = 'Эхлээд та текстийг сонгох хэрэгтэй';
+$string['alignment'] = 'Эгнээ';
+$string['alternatetext'] = 'Сонголтот текст';
+$string['anchorhelp'] = 'Үүгээр гагцхүү зангуу үүсгэнэ. Харин та холбоосыг нь өөрөө зааж өгөх хэрэгтэй.';
+$string['anchorname'] = 'Зангууны нэр';
+$string['anchors'] = 'Зангуу';
+$string['baseline'] = 'Суурь шугамтай тэнцүү';
+$string['bold'] = 'Тодруулах';
+$string['borderthickness'] = 'Захын эмжээрийн хэмжээ';
+$string['bottom'] = 'Доод тал';
+$string['browse'] = 'Гvйлгэн vзэх';
+$string['cancel'] = 'Хүчингүй болгох';
+$string['cellpadding'] = 'Нүдний хэмжээ';
+$string['cellspacing'] = 'Нүд хоорондын зай';
+$string['choosechar'] = 'Тэмдэгтээ сонгох';
+$string['chooseicon'] = 'Оруулах дүрсээ сонгох';
+$string['close'] = 'Хаах';
+$string['closeafterreplace'] = 'Солиод дараа нь хаа';
+$string['cols'] = 'Багана';
+$string['copy'] = 'Сонгосон хэсгийг хуулах';
+$string['createanchor'] = 'Зангуу үүсгэх';
+$string['createfolder'] = 'Хавтас үүсгэх';
+$string['createlink'] = 'Вэб холбоос оруулах';
+$string['cut'] = 'Сонгосон хэсгийг зөөх';
+$string['cutpastemozilla'] = 'Харамсалтай нь, та одоогоор гарын энгийн shortcuts бүр Paste ийг ч хүртэл) онлайн засвар хийхэд ашиглах боломжгүй байна. Энэ нь mozilla бас firefox -ын зарим аюулгүй байдалтай холбоотой онцлог байдлаас шалтгаалж байна. <br /><br /> Орлуулж болох гурван төрлийн ажлын орчин байдаг: <br /> (1) ctrl-v -ын оронд, shift-insert хэрэглэх  <br /> (2)  edit цэсэн дэх paste -ыг хэрэглэх <br /> (3) Та броузерынхаа/сайтаа үзэж буй программынхаа user.js файл дотроос тохиргоонуудыг өөрчлөх. <br /><br />Илүү дэлгэрэнгүй мэдээлэл, тусламж хэрэгтэй бол ЗА гэсэн товчин дээр, эсвэл Хүчингүй Болгох товчийг дарж засварлагч руу буцна уу.';
+$string['delete'] = 'Устгах';
+$string['enterurlfirst'] = 'Та эхлээд хаягаа оруулах хэрэгтэй';
+$string['filebrowser'] = 'Файл гvйлгэн vзэгч';
+$string['findwhat'] = 'Олох';
+$string['fontname'] = 'Фонтны нэр';
+$string['fontsize'] = 'Фонтны хэмжээ';
+$string['forecolor'] = 'Фонтны өнгө';
+$string['formatblock'] = 'Формат';
+$string['fullscreen'] = 'Засварлагчийг бүтэн дэлгэцээр харах';
+$string['heading'] = 'Гарчиг';
+$string['height'] = 'Өндөр';
+$string['hilitecolor'] = 'Дэвсгэр өнгө';
+$string['horizontal'] = 'Хэвтээ';
+$string['horizontalrule'] = 'Хэвтээ Шугам';
+$string['htmlmode'] = 'HTML эх кодыг нь харуулах';
+$string['imageurl'] = 'Зургын вэб хаяг';
+$string['indent'] = 'Хоорондын зайг өсгө';
+$string['insertchar'] = 'Тусгай тэмдэгт оруулах';
+$string['insertimage'] = 'Зураг оруулах';
+$string['insertlink'] = 'Холбоос оруулах';
+$string['insertsmile'] = 'Инээмсэглэл оруулах';
+$string['inserttable'] = 'Хүснэгт оруулах';
+$string['italic'] = 'Налуу';
+$string['itemsreplaced'] = 'Зүйлсийг солилоо!';
+$string['justifycenter'] = 'Голлож Байрлуулах';
+$string['justifyfull'] = 'Дүүргэж Байрлуулах';
+$string['justifyleft'] = 'Зүүн Талд Байрлуулах';
+$string['justifyright'] = 'Баруун Талд Байрлуулах';
+$string['layout'] = 'Загвар';
+$string['left'] = 'Зүүн Тал';
+$string['lefttoright'] = 'Зүүнээс баруун чиглэл';
+$string['linkproperties'] = 'Холбоосны тохиргоонууд';
+$string['linktarget'] = 'Бай';
+$string['linktargetblank'] = 'Шинэ цонх';
+$string['linktargetnone'] = 'Аль нь ч биш';
+$string['linktargetother'] = 'Бусад (дараалалаас гадна)';
+$string['linktargetself'] = 'Ижил хүрээнд';
+$string['linktargettop'] = 'Ижил цонхонд';
+$string['linktitle'] = 'Гарчиг';
+$string['linkurl'] = 'вэб линк';
+$string['matchcase'] = 'Үсгийн том жижгийг тааруулах';
+$string['middle'] = 'Дунд';
+$string['minimize'] = 'Засвар хийдэг хуудсыг багасгах';
+$string['move'] = 'Зөөх';
+$string['mustenterurl'] = 'Та хаяг оруулах шаардлагатай';
+$string['nolink'] = 'Автоматаар холбоос болохыг болиулах';
+$string['normal'] = 'Энгийн';
+$string['notimage'] = 'Сонгосон файл зураг биш байна. Зураг сонгоно уу!';
+$string['notset'] = 'Тохиргоог хийгээгүй байна';
+$string['ok'] = 'ЗА';
+$string['options'] = 'Тохиргоо';
+$string['orderedlist'] = 'Дараалуулсан Жагсаалт';
+$string['outdent'] = 'Догол мөрийг багасгах';
+$string['paste'] = 'Завсрын санах ойгоос гаргах';
+$string['path'] = 'Зам';
+$string['percent'] = 'Хувь';
+$string['pixels'] = 'Нягтшил';
+$string['pleaseenteralt'] = 'Зургийн тайлбар текстийг оруулна уу';
+$string['popupeditor'] = 'Засварлагчыг томсгох';
+$string['preformatted'] = 'Урьдчилан боловсруулсан';
+$string['preview'] = 'Урьдчилан харах';
+$string['properties'] = 'Шинж чанар';
+$string['redo'] = 'Та хамгийн сүүлчийн үйлдлээ дахин хийнэ үү';
+$string['regularexpressions'] = 'Энгийн илэрхийлэлийг хэрэглэх';
+$string['removelink'] = 'Холбоосыг авах';
+$string['rename'] = 'Нэрийг өөрчлөх';
+$string['replaceall'] = 'Бүгдийг орлуулж тавих';
+$string['replacewith'] = 'Орлуулах';
+$string['right'] = 'Баруун';
+$string['righttoleft'] = 'Баруунаас зүүн рүү';
+$string['rows'] = 'Мөр';
+$string['searchandreplace'] = 'Хайж олоод сольж тавих';
+$string['searchnotfound'] = 'Хайлтын мөр Олдсонгүй!';
+$string['selectcolor'] = 'Өнгөө сонго';
+$string['selection'] = 'Сонголт';
+$string['showhelp'] = 'Засварлагч ашиглах заавар';
+$string['size'] = 'Хэмжээ';
+$string['spacing'] = 'Зай авалт';
+$string['strikethrough'] = 'Үсгийн дундуур зураастай болгох';
+$string['subscript'] = 'Суурь';
+$string['superscript'] = 'Зэрэг';
+$string['textindicator'] = 'Одоогийн хэв';
+$string['textmode'] = 'Та ТЕКСТ ЗАГВАР аар ажиллаж байна.  WYSIWYG ЗАГВАР ыг ашиглах бол [<>] товч -ийг дараарай.';
+$string['texttop'] = 'Текстийн орой';
+$string['top'] = 'Дээд тал';
+$string['type'] = 'Төрөл';
+$string['underline'] = 'Доогуур зураас';
+$string['undo'] = 'Хамгийн сүүлийн үйлдлээ буцаах';
+$string['unorderedlist'] = 'Эрэмбэлэгдсэн Жагсаалт';
+$string['upload'] = 'Сэрвэр лvv хуулах';
+$string['vertical'] = 'Босоо шугам';
+$string['width'] = 'Өргөн';
+$string['wordclean'] = 'Word HTML ийг цэвэрлэх';
+$string['zip'] = 'Шуудангийн код';
+
+?>
+
