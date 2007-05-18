@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.6.1+ (2006050512)
+      // moodle.php - created with Moodle 1.7+ (2006101009)
 
 
 $string['action'] = 'Akcja';
@@ -875,6 +875,7 @@ $string['noteuserschangednonetocourse'] = 'Uwaga: Podczas odtwarzania danych uż
 $string['nothingnew'] = 'Brak zmian od ostatniego zalogowania';
 $string['nothingtodisplay'] = 'Brak danych do wyświetlenia';
 $string['noticenewerbackup'] = 'Ta kopia zapasowa została stworzona przez Moodle $a->backuprelease ($a->backupversion) i jest nowa niż obecnie zainstalowany Moodle $a->serverrelease ($a->serverversion). Odtworzenie z tej kopii może być przyczyną różnych błędów ponieważ nie ma gwarancji wstecznej kompatybilności kopii zapasowych.';
+$string['notifications'] = 'Powiadomienia';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Użytkownik: $a->info';
 $string['notifyloginfailuresmessageend'] = 'Możesz zobaczyć te logi na $a/course/log.php?id=1&chooselog=1&modid=site_errors';
 $string['notifyloginfailuresmessagestart'] = 'Oto lista nieudanych prób logowania do $a od ostatniego powiadomienia';
@@ -938,6 +939,7 @@ $string['periodending'] = 'Koniez okresu';
 $string['personalprofile'] = 'Profil osobisty';
 $string['phone'] = 'Telefon';
 $string['phpinfo'] = 'Informacje o PHP';
+$string['pleaseclose'] = 'Proszę zamknij teraz to okno';
 $string['pluginsetup'] = 'Ustawianie tablic plugin\'ów';
 $string['policyagree'] = 'Musisz zaakceptować te zasady, żeby używać strony. Czy zgadzasz się?';
 $string['policyagreement'] = 'Site Policy Agreement';
@@ -1128,7 +1130,6 @@ $string['statsreport2'] = 'Wyświetlenia (nauczyciele i studenci)';
 $string['statsreport3'] = 'Posty (nauczyciele i studenci)';
 $string['statsreport4'] = 'Wszystkie aktywności (nauczyciele i studenci)';
 $string['statsreport5'] = 'Wszystkie aktywności studentów (wyświetlenia i posty)';
-$string['statsreport6'] = 'Wszystkie aktywności nauczycieli (wyświetlenia i posty)';
 $string['statsreport7'] = 'Aktywności użytkownika (wyświetlena i posty)';
 $string['statsreport8'] = 'Aktywnoście wszystkich użytkowników';
 $string['statsreport9'] = 'Logowanai (strona kursu)';
@@ -1136,8 +1137,6 @@ $string['statsreportactivity'] = 'Wszystkie aktywności (nauczyciele i studenci)
 $string['statsreportforuser'] = 'dla';
 $string['statsreportlogins'] = 'Logowania';
 $string['statsreportreads'] = 'Wyświetlenia (nauczyciele i studenci)';
-$string['statsreportstudentactivity'] = 'Wszystkie czynności ucznia (przeglądnięcia i wysłania).';
-$string['statsreportteacheractivity'] = 'Wszystkie czynności nauczyciela (przeglądnięcia i wysłania).';
 $string['statsreporttype'] = 'Typ raportu';
 $string['statsreportwrites'] = 'Posty (nauczycieli i studentów)';
 $string['statsstudentactivity'] = 'Aktywności studenta';
