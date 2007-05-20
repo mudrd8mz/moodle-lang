@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 dev (2006112200)
+      // forum.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['addanewdiscussion'] = 'Magdagdag ng bagong paksang pag-uusapan';
@@ -10,6 +10,7 @@ $string['allforums'] = 'Lahat ng talakayan';
 $string['allowchoice'] = 'Pahintulutan ang lahat na makapamilì';
 $string['allowdiscussions'] = 'Maaari bang magpaskil ang $a sa talakayang ito?';
 $string['allowratings'] = 'Pahihintulutan bang malagyan ng reyting ang mga ipinaskil?';
+$string['allowsallsubscribe'] = 'Pinapahintulutan ng talakayang ito ang lahat na piliin kung sasali sila o hindi';
 $string['allowsdiscussions'] = 'Pinapahintulutan ng talakayang ito ang bawat tao na magsimula ng isang paksa na pag-uusapan.';
 $string['allsubscribe'] = 'Sumali sa lahat ng talakayan';
 $string['allunsubscribe'] = 'Umalis sa lahat ng talakayan';
@@ -19,9 +20,10 @@ $string['blockafter'] = 'Hangganang dami ng ipapaskil bago harangin';
 $string['blockperiod'] = 'Taning na oras bago harangin';
 $string['blockperioddisabled'] = 'Huwag harangin';
 $string['bynameondate'] = 'ni $a->name - $a->date';
+$string['cannotadddiscussion'] = 'Ang pagdaragdag ng usapin sa talakayang ito ay nangangailangan ng pagsapi sa pangkat.';
 $string['cannotviewpostyet'] = 'Hindi mo pa mababasa ang mga tanong ng ibang mag-aaral sa pinag-uusapang ito dahil hindi ka pa nagpapaskil';
 $string['configcleanreadtime'] = 'Oras sa isang araw para malinis ang mga lumang ipinaskil mula sa \'read\' na teybol.';
-$string['configdisplaymode'] = 'Ang umiiral na moda ng displey para sa usapan kung walang itinakda.';
+$string['configdisplaymode'] = 'Ang umiiral na modo ng displey para sa usapan kung walang itinakda.';
 $string['configenablerssfeeds'] = 'Bubuhayin ng swits na ito ang posibilidad ng RSS feed para sa lahat ng talakayan.  Kakailanganin mo pa ring buhayin ang feed ng mano-mano sa mga kaayusan ng bawat talakayan.';
 $string['configlongpost'] = 'Ang anumang ipinaskil na lampas sa habang ito (dikasama ang HTML) ay itinuturing na mahaba. Ang mga ipinaskil na idinispley sa harapang pahina ng site, pahinang pangkurso na nasa panlipunang anyo, o mga pagkakakilanlan ng tagagamit ay pinaikli sa isang natural na pútol sa pagitan ng forum_shortpost at forum_longpost na mga halaga.';
 $string['configmanydiscussions'] = 'Maksimum na bilang ng usapan na ipapakita sa isang talakayan bawat pahina';
@@ -64,18 +66,24 @@ $string['editedby'] = 'Inedit ni $a->name - orihinal na ipinasa $a->date';
 $string['editing'] = 'Nag-eedit';
 $string['emptymessage'] = 'Nagkaproblema ang ipinaskil mo.  Marahil ay naiwan mo itong blangko, o ang kalakip ay masyadong malaki.   HINDI naisilid ang mga pagbabago mo.';
 $string['everyonecanchoose'] = 'Lahat ay maaaring sumali';
+$string['everyonecannowchoose'] = 'Maaari nang piliin ng lahat na sumali';
+$string['everyoneisnowsubscribed'] = 'Ang lahat ay kasali na sa talakayang ito';
 $string['everyoneissubscribed'] = 'Lahat ay kasali sa talakayang ito';
 $string['existingsubscribers'] = 'Mga kasalukuyang kasali';
+$string['forcessubscribe'] = 'Sapilitang isinasali ng talakayang ito ang lahat';
 $string['forcesubscribe'] = 'Pilitin ang lahat na sumali';
 $string['forcesubscribeq'] = 'Pipilitin ba ang lahat na sumali?';
 $string['forum'] = 'Talakayan';
+$string['forum:addnews'] = 'Magdagdag ng balita';
 $string['forum:createattachment'] = 'Lumikha ng mga kalakip';
 $string['forum:deleteanypost'] = 'Burahin ang anumang ipinaskil (anumang oras)';
 $string['forum:deleteownpost'] = 'Burahin ang sariling ipinaskil (sa loob ng itinakdang taning)';
 $string['forum:editanypost'] = 'Iedit ang anumang ipinaskil';
+$string['forum:initialsubscriptions'] = 'Pagsali sa simula';
 $string['forum:managesubscriptions'] = 'Pamahalaan ang mga pagsali';
 $string['forum:movediscussions'] = 'Ilipat ang mga usapan';
 $string['forum:rate'] = 'Reytingan ang mga ipinaskil';
+$string['forum:replynews'] = 'Tumugon sa balita';
 $string['forum:replypost'] = 'Tumugon sa mga ipinaskil';
 $string['forum:splitdiscussions'] = 'Hatiin ang mga usapan';
 $string['forum:startdiscussion'] = 'Magsimula ng bagong usapan';
@@ -130,6 +138,7 @@ $string['namesocial'] = 'Tambayan';
 $string['nameteacher'] = 'Talakayan ng guro';
 $string['newforumposts'] = 'Mga bagong ipinaskil sa talakayan';
 $string['nodiscussions'] = 'Wala pang pag-uusapang paksa sa talakayang ito';
+$string['nodiscussionsstartedby'] = 'Walang sinisimulang usapan ang tagagamit na ito';
 $string['noguestpost'] = 'Paumanhin, pero hindi pinapahintulutang magpaskil ang mga bisita.';
 $string['noguestsubscribe'] = 'Paumanhin, nguni\'t ang mga bisita ay hindi pinapahintulutang sumali upang makatanggap ng ipinaskil sa talakayan sa pamamagitan ng email.';
 $string['noguesttracking'] = 'Paumanhin, nguni\'t hindi pinapahintulutan ang bisita na magtakda ng mga opsiyon sa pagsubaybay.';

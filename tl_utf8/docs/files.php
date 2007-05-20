@@ -13,8 +13,8 @@ $string['future.html'] = "Kinabukasan";
 $string['credits.html'] = "Pasasalamat";
 
 $string['-installation'] = "Administrasyon";
-$string['install.html'] = "Pag-iinstol";
-$string['faq.html'] = "FAQ ng Pag-iinstol";
+$string['install.html'] = "Pagluklok";
+$string['faq.html'] = "FAQ ng Pagluklok";
 $string['installamp.html'] = "Apache, MySQL, PHP";
 $string['upgrade.html'] = "Pagawang bago";
 
@@ -26,6 +26,6 @@ $string['-development'] = "Pagdebelop";
 $string['developer.html'] = "Manwal ng Developer";
 $string['coding.html'] = "Gabay sa PagCode";
 $string['cvs.html'] = "Paggamit ng CVS";
-$string['translation.html'] = "Pagsasalin";
+$string['translation.html'] = "Pagsasaling Wika";
 
 ?>

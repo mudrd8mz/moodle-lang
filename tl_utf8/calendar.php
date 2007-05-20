@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 dev (2006112200)
+      // calendar.php - created with Moodle 1.9 dev (2007021401)
 
 
 $string['advancedoptions'] = 'Abanteng opsiyon';
@@ -9,6 +9,7 @@ $string['clickhide'] = 'Iklik para maitago';
 $string['clickshow'] = 'Iklik para mailantad';
 $string['commontasks'] = 'Mga opsiyon';
 $string['confirmeventdelete'] = 'Talaga bang nais mong burahin ang okasyong ito?';
+$string['courseevent'] = 'Pangkursong okasyon';
 $string['courseevents'] = 'Pangkursong okasyon';
 $string['dayview'] = 'Arawang Tanaw';
 $string['daywithnoevents'] = 'Walang okasyon sa araw na ito.';
@@ -44,6 +45,7 @@ $string['expired'] = 'Pasó na';
 $string['explain_lookahead'] = 'Itinatakda dito ang (pinakamaraming) bilang ng araw sa hinaharap na kailangang pagsimulan ng okasyon bago ito madispley sa maaabangang okasyon.  Ang mga okasyon na magsisimula nang lampas dito ay hindi ididispley na maaabangan.  Tandaan na <strong>walang garantiya</strong> na lahat ng okasyong magsisimula sa panahong ito ay maipapakita; kung labis (higit sa \"Pinakamaraming maaabangang okasyon\" na kaayusan) ang bilang ng okasyon, ang pinakamalayo sa hinaharap na okasyon ay hindi ipapakita.';
 $string['explain_maxevents'] = 'Itinatakda dito ang pinakamaraming bilang ng maaabangang okasyon na maipapakita.  Kapag pinili mo ang malaking bilang dito, maaaring kakain ng maraming espasyo ang displey ng abangan sa iskrin mo.';
 $string['explain_persistflt'] = 'Kapag binuhay ito, matatandaan ng Moodle ang huli mong kaayusan ng pansalâ ng okasyon at kusa nitong ibabalik ang mga ito tuwing lalagda ka.';
+$string['explain_site_timeformat'] = 'Maaari mong baguhin ang anyo ng oras.  Ang pagpipilian ay pang-12 o pang-24 na anyo.  Kapag pinili mo ang \"umiiral\", kusang pipiliin ang anyo atay sa wikang ginagamit mo sa site mo.  Ang kaayusang ito ay maaring palitan ng mas-ibig ng tagagamit.';
 $string['explain_startwday'] = 'Ang mga linggo ng kalendaryo ay ipapakita na magsisimula sa araw na piliin mo rito.';
 $string['explain_timeformat'] = 'Maaari mong piliin na makita ang oras sa tuwing 12 o 24 oras na anyo.  Kapag pinili mo ang \"umiiral\", ang   anyo ay kusang isusunod sa itinakda mong wika para sa site.';
 $string['export'] = 'Iluwas';
@@ -53,8 +55,10 @@ $string['for'] = 'para sa';
 $string['fri'] = 'Biy';
 $string['friday'] = 'Biyernes';
 $string['generateurlbutton'] = 'Kunin ang URL ng kalendaryo';
+$string['globalevent'] = 'Pangkalahatang okasyon';
 $string['globalevents'] = 'Pangkalahatang okasyon';
 $string['gotocalendar'] = 'Tumungo sa kalendaryo';
+$string['groupevent'] = 'Pampangkat na okasyon';
 $string['groupevents'] = 'Pampangkat na okasyon';
 $string['hidden'] = 'itinago';
 $string['iwanttoexport'] = 'Iluwas';
@@ -111,7 +115,8 @@ $string['typesite'] = 'Okasyon na pang-site';
 $string['typeuser'] = 'Okasyon na pangtagagamit';
 $string['upcomingevents'] = 'Abangan';
 $string['urlforical'] = 'URL para sa pagluwas sa iCalender, para sa pagsali sa kalendaryo';
-$string['userevents'] = 'Okasyon na pangtagagamit';
+$string['userevent'] = 'Pangtagagamit na Okasyon';
+$string['userevents'] = 'Pangtagagamit na Okasyon';
 $string['wed'] = 'Miy';
 $string['wednesday'] = 'Miyérkulés';
 $string['weeknext'] = 'Susunod na linggo';

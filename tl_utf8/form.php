@@ -1,11 +1,10 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8 dev (2006112200)
+      // form.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['addfields'] = 'Idagdag ang $a pitak sa porma';
 $string['advancedelement'] = 'Abanteng Elemento';
 $string['day'] = 'Araw';
-$string['denotesreq'] = '$a ay nangangahulugan na kinakailangang pitak.';
 $string['display'] = 'Displey';
 $string['err_alphanumeric'] = 'Tanging titik o bilang lamang ang ipasok ninyo dito.';
 $string['err_email'] = 'Kailangan mong magpasok ng tanggap na email address dito.';
@@ -26,9 +25,15 @@ $string['modstandardels'] = 'Pinagsasaluhang Kaayusan ng mga Modyul';
 $string['month'] = 'Buwan';
 $string['nomethodforaddinghelpbutton'] = 'Walang paraan para sa pagdaragdag ng tulong na buton sa elemento ng porma na $a->name (class $a->classname)';
 $string['nonexistentformelements'] = 'Nagtatangkang magdagdag ng tulong na buton sa elemento ng porma na wala naman: $a';
+$string['optional'] = 'Opsiyonal';
 $string['requiredelement'] = 'Kinakailangang pitak';
+$string['revealpassword'] = 'Ihayag';
 $string['security'] = 'Seguridad';
 $string['showadvanced'] = 'Ilantad ang Abante';
+$string['somefieldsrequired'] = 'May mga pitak sa pormang ito na kailangang punan, na minarkahan ng $a.';
+$string['timing'] = 'Tiyempo';
 $string['year'] = 'Taon';
+$string['requiredfield'] = 'Kailangang punan ang pitak na ito'; // ORPHANED
+$string['denotesreq'] = '$a ay nangangahulugan na kinakailangang pitak.'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8 dev (2006112200)
+      // survey.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['actual'] = 'Aktuwal';
@@ -163,6 +163,7 @@ Ang inyong seryosong pagsagot ay makatutulong sa aming paunlarin ang paraan ng o
 
 Maraming salamat po.';
 $string['collespname'] = 'COLLES (Mas-ibig)';
+$string['customintro'] = 'Pasadyang panimula';
 $string['done'] = 'Tapos na';
 $string['download'] = 'Ilusong';
 $string['downloadexcel'] = 'Ilusong ang datos bilang Excel na spreadsheet';
@@ -207,7 +208,7 @@ $string['surveygraph'] = 'Talaguhitan ng sarbey';
 $string['surveyname'] = 'Pangalan ng sarbey';
 $string['surveysaved'] = 'Naisilid na ang sarbey';
 $string['surveytype'] = 'Uri ng sarbey';
-$string['thanksforanswers'] = 'Salamat po sa pagsagot sa sarbey na ito, $a';
+$string['thanksforanswers'] = 'Salamat po sa pagsagot ninyo sa sarbey na ito, $a';
 $string['time'] = 'Oras';
 $string['viewsurveyresponses'] = 'Tingnan ang $a tugon sa sarbey';
 

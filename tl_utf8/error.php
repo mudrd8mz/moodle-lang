@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8 dev (2006112200)
+      // error.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['adminprimarynoedit'] = 'Hindi maaaring iedit ng iba ang pangunahing admin';
@@ -37,8 +37,19 @@ $string['invalidcourse'] = 'Ditanggap na kurso';
 $string['invalidfieldname'] = 'Hindi tanggap na pangalan ng pitak ang \"$a\"';
 $string['invalidfiletype'] = 'Hindi tanggap na uri ng sako ang \"$a\"';
 $string['invalidmd5'] = 'Ditanggap na md5';
+$string['invalidrequest'] = 'Di tanggap ang kahilingan';
 $string['invalidrole'] = 'Di tanggap na gagampanang papel';
 $string['invalidxmlfile'] = 'Hindi tanggap na sakong XML ang \"$a\"';
+$string['listcantmovedown'] = 'Nabigong ilipat sa ibaba ang aytem, pinakahuli na ito sa mga katulad nito.';
+$string['listcantmoveleft'] = 'Nabigong ilipat ang aytem sa kaliwa, wala itong magulang.';
+$string['listcantmoveright'] = 'Nabigong ilipat ang aytem sa kanan, wala itong katulad na aytem na maaaring gawing magulang nito.  Ilipat ito sa ibaba ng isa pang katulad nito, pagkatapos ay maililipat mo na ito sa kanan.';
+$string['listcantmoveup'] = 'Nabigong ilipat ang aytem sa itaas, ito ang pinakauna sa mga katulad nito.';
+$string['listnochildren'] = 'Walang natagpuang anak ng aytem.';
+$string['listnoitem'] = 'Hindi natagpuan ang aytem.';
+$string['listnopeers'] = 'Walang natagpuang katulad ng aytem.';
+$string['listupdatefail'] = 'Nabigo ang operasyong DB sa pag-eedit ng herarkiya ng listahan.';
+$string['loginasnoenrol'] = 'Hindi mo magagamit ang ienrol o tanggalin sa pagkakaenrol kapag nasa isang sesiyon ng kurso na \"Lumagda bilang\".';
+$string['loginasonecourse'] = 'Hindi ka makakapasok sa kursong ito.<br />Kailangan mo munang tapusin ang sesiyon na \"Lumagda bilang\" bago ka makapasok sa iba pang kurso.';
 $string['missingfield'] = 'Nawawala ang pitak \"$a\"';
 $string['missingrequiredfield'] = 'May ilang nawawalang pitak na kailangan';
 $string['modulemissingcode'] = 'Nawawala ang code sa modyul na $a, na kailangan para mapatakbo ang function na ito';
@@ -46,6 +57,7 @@ $string['modulerequirementsnotmet'] = 'Hindi mailuklok ang modyul na \"$a->modul
 $string['mustbeteacher'] = 'Dapat ay guro ka para matingnan ang pahinang ito';
 $string['nocontext'] = 'Paumanhin, ngunit di tanggap na konteksto ang kursong iyan';
 $string['noinstances'] = 'Wala pang pag-iral ng $a sa kursong ito!';
+$string['nologinas'] = 'Pinagbabawalan kang lumagda bilang tagagamit na iyan';
 $string['nonmeaningfulcontent'] = 'Dimakabuluhang nilalaman';
 $string['noparticipatorycms'] = 'Paumanhin, pero wala kang nilalahukan na modyul ng kurso, na magagawan ng ulat.';
 $string['nopermissions'] = 'Paumanhin, nguni\'t wala kang pahintulot na gawin iyan sa kasalukuyan ($a)';
@@ -65,7 +77,7 @@ $string['sendmessage'] = 'Ipadala ang Mensahe';
 $string['sessionerroruser'] = 'Nagtime-out ang sesiyon mo.  Lumagda pong mulî.';
 $string['sessionerroruser2'] = 'May natagpuang error sa server na nakaapekto sa paglagda mo.  Lumagda pong muli o  patayin at buhayin mulî ang browser mo.';
 $string['sessionipnomatch'] = 'Paumanhin, nguni\'t parang nagbago ang numero ng IP mo simula ng huli kang lumagda.  Ang panseguridad na katangiang ito ay pinipigil ang mga cracker na nakawin ang pagkatao mo habang nakalagda sa site na ito.  Ang mga karaniwang tagagamit ay hindi dapat makakita ng ganitong mensahe - hingan ng tulong ang administrador ng site.';
-$string['statscatchupmode'] = 'Ang estadistika ay kasalukuyang nasa moda na naghahabol.  Sa kasalukuyan $a->daysdone araw ang naproseso na at $a->dayspending ang nakabimbin.  Balikan mo na lamang muli!';
+$string['statscatchupmode'] = 'Ang estadistika ay kasalukuyang nasa modo na naghahabol.  Sa kasalukuyan $a->daysdone araw ang naproseso na at $a->dayspending ang nakabimbin.  Balikan mo na lamang muli!';
 $string['unicodeupgradeerror'] = 'Paumanhin, nguni\'t ang datosan mo ay hindi Unicode, at ang bersiyon ng Moodle na ito ay hindi kayang isalin ang datosan mo sa Unicode.  Umakyat muna sa Moodle 1.7.x, tapos ay gawin ang pagsasalin sa Unicode sa may pahinang Pang-admin.  Matapos mong magawa iyan, ay magagawa mo nang lumipat sa Moodle $a';
 $string['unknowncourse'] = 'Dikilalang kurso na may pangalang \"$a\"';
 $string['unknownuseraction'] = 'Paumanhin, nguni\'t hindi ko maintindihan ang aksiyong ito ng tagagamit';

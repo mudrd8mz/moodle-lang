@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 dev (2006112200)
+      // enrol_authorize.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['adminacceptccs'] = 'Aling uri ng credit card ang tatanggapin?';
@@ -50,7 +50,7 @@ $string['amount'] = 'Halaga';
 $string['anlogin'] = 'Authorize.net: Pangalan na panglagda';
 $string['anpassword'] = 'Authorize.net: Kontrasenyas';
 $string['anreferer'] = 'Iteklado dito ang URL referer, kung isinaayos mo ito sa iyong authorize.net akawnt.  Ipapadala nito ang linya na \"Referer: URL\" na nakaembed sa web request.';
-$string['antestmode'] = 'Patakbuhin ang transaksiyon sa moda na pagsubok lamang (walang perang kukunin)';
+$string['antestmode'] = 'Patakbuhin ang transaksiyon sa modo na pagsubok lamang (walang perang kukunin)';
 $string['antrankey'] = 'Authorize.net: Susi ng transaksiyon';
 $string['approvedreview'] = 'Inaprubahang Rebyu';
 $string['authcaptured'] = 'Pinahintulutan/Na-capture';
@@ -189,8 +189,8 @@ $string['settled'] = 'Naayos na';
 $string['settlementdate'] = 'Petsa ng pag-aayos';
 $string['subvoidyes'] = 'Ang isinauli na transaksiyon $a->transid ay kakanselahin at ike-credit ang $a->amount sa iyong akawnt. Talaga bang nais mo itong gawin?';
 $string['tested'] = 'Nasubok';
-$string['testmode'] = '[MODA NA PAGSUBOK]';
-$string['testwarning'] = 'Mukhang gumagana ang Capture/Void/Pagsauli sa modang pagsubok, pero walang rekord na ginawang bago o isiningit sa datosan.';
+$string['testmode'] = '[MODO NA PAGSUBOK]';
+$string['testwarning'] = 'Mukhang gumagana ang Capture/Void/Pagsauli sa modong pagsubok, pero walang rekord na ginawang bago o isiningit sa datosan.';
 $string['transid'] = 'ID ng Transaksiyon';
 $string['underreview'] = 'Nirerebyu';
 $string['unenrolstudent'] = 'Alisin sa pagkakaenrol ang mag-aaral?';

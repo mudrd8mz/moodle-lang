@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_truefalse.php - created with Moodle 1.8 dev (2006112200)
+      // qtype_truefalse.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['correctanswer'] = 'Wastong sagot';

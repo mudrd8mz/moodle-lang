@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8 dev (2006112200)
+      // resource.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['addresource'] = 'Magdagdag ng rekurso';
@@ -9,6 +9,7 @@ $string['browserepository'] = 'Tingnan ang imbakan';
 $string['choose'] = 'Piliin';
 $string['chooseafile'] = 'Pumilì o mag-ahon ng sako';
 $string['chooseparameter'] = 'Pumilì ng parameter';
+$string['clicktoopen'] = 'Para mabuksan ang dokumentong ito, iklik ang link:';
 $string['configallowlocalfiles'] = 'Kapag lumilikha ng bagong sako na rekurso, pinahihintulutan ang mga link sa mga sako na nasa isang lokal na sistema ng sako tulad ng sa CD drive o sa hard drive.  Kapakipakinabang  ito sa isang silid aralan kung saan ang mga mag-aaral ay makakapasok sa isang pinagsasaluhang network na drive o sa isang sako sa CD na kailangang pasukin.  Ang paggamit ng katangiang ito ay maaaring mangailangan ng pagbabago sa kaayusang pangseguridad ng browser ninyo.';
 $string['configautofilerenamesettings'] = 'Kusang baguhin ang mga pagsangguni sa mga sako at bugsok, kapag binago ang pangalan sa tagapamahala ng sako.';
 $string['configblockdeletingfilesettings'] = 'Harangin ang pagbura sa mga sako at bugsok na sinasangguni ng mga rekurso.  Tandaan na ang mga larawan at iba pang sako na sinasangguni mula sa html ay hindi protektado.';
@@ -36,6 +37,7 @@ $string['directoryinfo'] = 'Lahat ng sako sa piniling bugsok ay ipapakita.';
 $string['display'] = 'Bintana';
 $string['editingaresource'] = 'Nageedit ng rekurso';
 $string['emptyfolder'] = 'Tanggalin ang lahat ng laman ang bugsok';
+$string['encryptedcode'] = 'Naka-encrypt na koda';
 $string['example'] = 'Halimbawa';
 $string['exampleurl'] = 'http://www.halimbawa.com/isangbugsok/isangsako.html';
 $string['fetchclienterror'] = 'May natagpuang error sa web client mo habang tinatangkang kunin ang pahinang pangweb (marahil ay mali ang URL).';
@@ -47,6 +49,7 @@ $string['frameifpossible'] = 'Ilagay ang rekurso sa isang kuwadro upang mapanati
 $string['fulltext'] = 'Buong teksto';
 $string['htmlfragment'] = 'Piraso ng HTML';
 $string['imspackageloaded'] = 'Naikarga na ang Pakete';
+$string['keepnavigationvisible'] = 'Panatilihing nakikita ang nabigasyon ng pahina sa parehong pahina';
 $string['localfile'] = 'Lokal na sako';
 $string['localfilechoose'] = 'Pumilì ng isang lokal na sako (CD-ROM)';
 $string['localfilehelp'] = 'Tulong sa pagpapakita ng mga lokal na sako';

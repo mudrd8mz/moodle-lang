@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 dev (2006112200)
+      // moodle.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['action'] = 'Aksiyon';
@@ -106,6 +106,7 @@ $string['alphabet'] = 'A,O,U,E,I,H,P,K,S,L,T,N,B,M,G,R,D,Y,Ng,W';
 $string['alphanumerical'] = 'Puwede lamang isulat sa baybayin o bilang';
 $string['alreadyconfirmed'] = 'Nakumpirma na ang rehistrasyon';
 $string['always'] = 'Palagi';
+$string['and'] = '$a->one at $a->two';
 $string['answer'] = 'Sagot';
 $string['approve'] = 'Pahintulutan';
 $string['areyousuretorestorethis'] = 'Nais mo bang magpatuloy?';
@@ -119,7 +120,10 @@ $string['assignstudents'] = 'Mag-enrol ng mga mag-aaral';
 $string['assignstudentsnote'] = 'Tala: posibleng hindi na kailangang gamitin ang pahinang ito, dahil puwede namang i-enrol ng mga mag-aaral ang sarili nila sa kursong ito.';
 $string['assignstudentspass'] = 'Ang kailangan mo lamang gawin ay ipagbigay alam sa mga mag-aaral mo ang susi sa pag-enrol sa kursong ito, na kasalukuyang nakatakda sa: \'$a\'';
 $string['assignteachers'] = 'Magtakda ng mga gurò';
+$string['authenticateduser'] = 'Nasino na tagagamit';
+$string['authenticateduserdescription'] = 'Lahat ng nakalagdang tagagamit';
 $string['authentication'] = 'Pagsino';
+$string['authenticationplugins'] = 'Mga plug-in ng pangsino';
 $string['autosubscribe'] = 'Kusang pagsali sa mga talakayan';
 $string['autosubscribeno'] = 'Hindi: huwag mo akong isali nang kusa sa mga talakayan';
 $string['autosubscribeyes'] = 'Oo: kapag nagpaskil ako, isali mo ako sa talakayang iyon';
@@ -131,7 +135,7 @@ $string['backupactivehelp'] = 'Piliin kung gagawa ng kusang pagbabak-ap o hindi'
 $string['backupcancelled'] = 'Binalewala ang Pagbabak-ap';
 $string['backupcoursefileshelp'] = 'Kapag binuhay ito, ang mga sako ng kurso ay isasama sa mga kusang ibinabak-ap';
 $string['backupdate'] = 'Petsa ng Pagbabak-ap';
-$string['backupdatenew'] = '  $a->TAG ay $a->weekday, $a->mday $a->month $a->year na ngayon<br />';
+$string['backupdatenew'] = '$a->TAG ay $a->weekday, $a->mday $a->month $a->year na ngayon<br />';
 $string['backupdateold'] = '$a->TAG ay $a->weekday, $a->mday $a->month $a->year';
 $string['backupdetails'] = 'Detalye ng Pagbabak-ap';
 $string['backupexecuteathelp'] = 'Piliin kung anong oras patatakbuhin ang kusang pagbabak-ap.';
@@ -145,7 +149,7 @@ $string['backuplogdetailed'] = 'Detalyadong log ng pagpapatakbo';
 $string['backuploglaststatus'] = 'Pinakabagong log ng pagpapatakbo';
 $string['backuplogshelp'] = 'Kapag binuhay ito, ang mga log ng kurso ay isasama sa kusang binabak-ap';
 $string['backupmetacoursehelp'] = 'Kapag binuhay, ang metakurso na impo (minanang pag-eenrol) ay isasama sa mga kusang ibabak-ap';
-$string['backupnoneusersinfo'] = 'Paunawa: Pinili mong walang tagagamit na isama sa bak-ap (\"walâ\"), kaya\'t ang lahat ng bak-ap ng modyul ay isiniwits sa \"walang datos ng tagagamit\" na moda.  Pansinin na ang \"pagsasanay\" at \"pandayan\" na mga modyul ay dinaaayon sa uring ito ng bak-ap, kaya\'t ganap na pinatay ang mga ito.';
+$string['backupnoneusersinfo'] = 'Paunawa: Pinili mong walang tagagamit na isama sa bak-ap (\"walâ\"), kaya\'t ang lahat ng bak-ap ng modyul ay isiniwits sa \"walang datos ng tagagamit\" na modo.  Pansinin na ang \"pagsasanay\" at \"pandayan\" na mga modyul ay dinaaayon sa uring ito ng bak-ap, kaya\'t ganap na pinatay ang mga ito.';
 $string['backupnonisowarning'] = 'Babala: ang bak-ap na ito ay mula sa isang di-Unicode na bersiyon ng Moodle (pre 1.6). Kung ang bak-ap na ito ay naglalaman ng di-ISO-8859-1 na teksto, baka MASIRA ang mga ito kapag tinangka mong ibalik sa Unicode na bersiyong ito ng Moodle. Tingnan ang  <a href=\"http://docs.moodle.org/en/Backup_FAQ\">FAQ ng Bak-ap</a> para sa dagdag na impormasyon sa kung paano ninyo mababawi ang bak-ap na ito nang wasto.';
 $string['backuporiginalname'] = 'Pangalan ng Bak-ap';
 $string['backupsavetohelp'] = 'Buong landas papunta sa bugsok na gusto mong pagsidlan ng mga sakong bak-ap<br />(bayaang blangko para maisilid sa umiiral na bgsk ng kurso)';
@@ -170,6 +174,7 @@ $string['byname'] = 'ni $a';
 $string['bypassed'] = 'Nilagpasan';
 $string['cachecontrols'] = 'Mga Pangkontrol ng Cache';
 $string['cancel'] = 'Balewalain';
+$string['cancelled'] = 'Binalewala';
 $string['categories'] = 'Mga kategoriya ng kurso';
 $string['category'] = 'Kategoriya';
 $string['categoryadded'] = 'Ang kategoriyang \'$a\' ay idinagdag';
@@ -190,6 +195,7 @@ $string['checknone'] = 'Walang tsek lahat';
 $string['childcoursenotfound'] = 'Hindi matagpuan ang anak na kurso!';
 $string['childcourses'] = 'Mga anak na kurso';
 $string['choose'] = 'Piliin';
+$string['chooseauthmethod'] = 'Piliin ang plug-in ng pangsino';
 $string['choosecourse'] = 'Pumilì ng kurso';
 $string['chooseenrolmethod'] = 'Pumilì ng plug-in sa  pag-eenrol';
 $string['chooselivelogs'] = 'O matyagan ang kasalukuyang aktibidad';
@@ -288,6 +294,7 @@ $string['creatingcoursemodules'] = 'Lumilikha ng mga modyul ng kurso';
 $string['creatingcourseroles'] = 'Lumilikha ng mga antas kurso na iginawad na gagampanan at mananaig na papel';
 $string['creatingevents'] = 'Lumilikha ng mga okasyon';
 $string['creatinggradebook'] = 'Lumilikha ng markahan';
+$string['creatinggroupings'] = 'Lumilikha ng mga balangay';
 $string['creatinggroups'] = 'Lumilikha ng mga pangkat';
 $string['creatinglogentries'] = 'Lumilikha ng mga talâ sa log';
 $string['creatingmessagesinfo'] = 'Lumilikha ng impo ng mga mensahe';
@@ -316,6 +323,7 @@ $string['databasesetup'] = 'Isinasaayos ang datosan';
 $string['databasesuccess'] = 'Matagumpay na nagawang bago ang datosan';
 $string['databaseupgradebackups'] = 'Ang bersiyon ng bak-ap ay $a na';
 $string['databaseupgradeblocks'] = 'Ang bersiyon ng mga bloke ay $a na';
+$string['databaseupgradegroups'] = 'Ang bersiyon ng pangkat ay $a na';
 $string['databaseupgradelocal'] = 'Ang lokal na bersiyon ng pinasadyang datosan ay $a na sa ngayon';
 $string['databaseupgrades'] = 'Ginagawang bago ang datosan';
 $string['date'] = 'Petsa';
@@ -396,6 +404,7 @@ $string['editordefaultfont'] = 'Umiiral na font';
 $string['editorenablespelling'] = 'Buhayin ang pagsusuri ng ispeling';
 $string['editorfontlist'] = 'Listahan-ng-Font';
 $string['editorfontsize'] = 'Umiiral na laki-ng-font';
+$string['editorhelptopics'] = 'Mga Paksang Pantulong para sa Editor';
 $string['editorresettodefaults'] = 'Ibalik sa mga umiiral na halaga';
 $string['editorsettings'] = 'Mga kaayusan ng editor';
 $string['editorshortcutkeys'] = 'Mga shortcut na teklado ng editor';
@@ -446,6 +455,25 @@ $string['emailmustbereal'] = 'Tandaan: kailangang totoo ang email address ninyo'
 $string['emailnotallowed'] = 'Hindi pinapahintulutan ang mga email address sa mga domain na ito ($a)';
 $string['emailnotfound'] = 'Hindi natagpuan ang email address na ito sa datosan';
 $string['emailonlyallowed'] = 'Ang email na ito ay hindi kasama sa mga pinahihintulutan ($a)';
+$string['emailpasswordchangeinfo'] = 'Mabuhay $a->firstname,
+
+May humiling (marahil ay ikaw) ng bagong kontrasenyas para sa akawnt mo sa \'$a->sitename\'.
+
+Para mabago ang kontrasenyas mo, pumunta po sa sumusunod na web address:
+
+$a->link
+
+Sa karamihang program na pangliham, ay kulay bughaw ang link na ito, na puwede mong iklik.  Kung ayaw nitong gumana, gupitin at idikit ang address sa kahong pang-address sa itaas ng bintana ng web browser mo.
+
+Kung kailangan mo ng tulong, kontakin po ang administrador ng site,
+$a->admin';
+$string['emailpasswordchangeinfofail'] = 'Mabuhay $a->firstname,
+
+May humiling (marahil ay ikaw) ng bagong kontrasenyas para sa akawnt mo sa \'$a->sitename\'.
+
+Ikinalulungkot naming ipaalam na ang mga kontrasenyas ay hindi puwedeng baguhin sa site na ito, pakikontak po ang administrador ng site,
+$a->admin';
+$string['emailpasswordchangeinfosubject'] = '$a: Baguhin ang impormasyon hinggil sa kontrasenyas';
 $string['emailpasswordconfirmation'] = 'Mabuhay $a->firstname,
 
 May humiling (marahil ay ikaw) ng bagong kontrasenyas para sa akawnt mo
@@ -556,7 +584,7 @@ $string['folderopened'] = 'Binuksang polder';
 $string['followingoptional'] = 'Ang mga sumusunod na bagay ay opsiyonal';
 $string['followingrequired'] = 'Ang mga sumusunod na bagay ay kailangan';
 $string['force'] = 'Ipilit';
-$string['forcedmode'] = 'ipinilit na moda';
+$string['forcedmode'] = 'ipinilit na modo';
 $string['forcelanguage'] = 'Ipilit ang wikà';
 $string['forceno'] = 'Huwag ipilit';
 $string['forcepasswordchange'] = 'Ipilit ang pagpapalit ng kontrasenyas';
@@ -565,6 +593,7 @@ $string['forcepasswordchangenotice'] = 'Kailangan mong palitan ang kontrasenyas 
 $string['forcetheme'] = 'Ipilit ang tema';
 $string['forgotaccount'] = 'Naiwala mo ba ang kontrasenyas mo?';
 $string['forgotten'] = 'Nakalimutan mo ba ang iyong bansag o kontrasenyas?';
+$string['forgottenduplicate'] = 'Ang email address ay pinagsasaluhan ng maraming akawnt, sa halip ay ipasok po ang bansag.';
 $string['forgotteninvalidurl'] = 'Di tanggap na URL ng pagreset ng kontrasenyas';
 $string['format'] = 'Anyo';
 $string['formathtml'] = 'Anyo na HTML';
@@ -628,8 +657,8 @@ $string['groupinfopeople'] = 'Impo hinggil sa mga piniling tao';
 $string['groupmembers'] = 'Mga kasapi ng pangkat';
 $string['groupmemberssee'] = 'Tingnan ang mga kasapì ng pangkat';
 $string['groupmembersselected'] = 'Mga kasapì ng piniling pangkat';
-$string['groupmode'] = 'Moda na pampangkat';
-$string['groupmodeforce'] = 'Ipilit ang moda na pampangkat';
+$string['groupmode'] = 'Modo na pampangkat';
+$string['groupmodeforce'] = 'Ipilit ang modo na pampangkat';
 $string['groupmy'] = 'Aking pangkat';
 $string['groupnonmembers'] = 'Mga taong hindi kasapi ng isang pangkat';
 $string['groupnotamember'] = 'Paumanhin, nguni\'t hindi ka kasapì ng pangkat na iyan';
@@ -756,20 +785,18 @@ $string['loginas'] = 'Lumagda bilang';
 $string['loginaspasswordexplain'] = '<p>Kailangan mong ipasok ang espesyal na \"kontrasenyas na panglagda-bilang\" upang magamit ang katangiang ito.<br />Kung hindi mo alam kung ano ito, tanungin mo ang administrador ng server mo.</p>';
 $string['loginguest'] = 'Lumagda bilang bisita';
 $string['loginsite'] = 'Lumagda sa site';
-$string['loginsteps'] = 'Mabuhay! Upang magkaroon ka ng ganap na karapatang pumasok sa mga kurso, kailangan mo ng
-ilang sandali upang lumikha ng bagong akawnt para sa sarili mo sa web site na ito.
-Ang bawat isa sa mga kurso ay maaari ding may minsanan \"susi sa pag-enrol\", na gagamitin mo mamaya.  Narito ang mga hakbang:
+$string['loginsteps'] = 'Mabuhay! Lumikha po ng bagong akawnt sa ating web site, upang lubusan kang makalahok sa mga kurso.  May ilang kurso na maaaring may \"susi sa pag-enrol\".  Isang beses lamang gagamitin ang susi, pero sa ngayon ay hindi mo pa ito kailangan.  Narito po ang mga hakbang:
    <ol>
-   <li>Punan ang porma ng <a href=\"$a\">Bagong Akawnt</a> ng mga detalye tungkol sa iyo.</li>
+   <li>Punan ang porma ng <a href=\"$a\">Bagong Akawnt</a> ng mga bagay-bagay tungkol sa iyo.</li>
    <li>Isang email ang ihahatid kaagad sa iyong email address.</li>
    <li>Basahin mo ang iyong email, at iklik ang web link na naroroon.</li>
-   <li>Ang akawnt mo ay makukumpirma at ilalagda ka na.</li>
+   <li>Ang akawnt mo ay makukumpirma at kusa ka nang ilalagda.</li>
    <li>Pagkatapos, piliin ang kurso na nais mong salihan.</li>
    <li>Kung hanapan ka ng \"susi sa pag-enrol\" - gamitin ang ibinigay sa 
-iyo ng guro mo.  Maeenrol ka sa kurso sa pamamagitan nito.</li>
+iyo ng guro mo.  Makapag-eenrol ka sa kurso sa pamamagitan nito.</li>
    <li>Mapapasok mo na ang buong kurso.  Mula ngayon ang kailangan mo na lang
 ipasok ay ang personal mong bansag at kontrasenyas (sa anyo na nasa pahinang ito)
-upang makalagda at mapasok ang kursong pinag-enrolan mo.</li>
+upang makalagda at makapasok sa kursong pinag-enrolan mo.</li>
    </ol>';
 $string['loginstepsnone'] = '<p>Mabuhay!</p>
 <p>Upang ganap na mapasok ang mga kurso kailangan mong gumawa ng akawnt para sa sarili mo.</p>
@@ -778,6 +805,7 @@ $string['loginstepsnone'] = '<p>Mabuhay!</p>
 $string['loginto'] = 'Lumagda sa $a';
 $string['loginusing'] = 'Lumagda dito gamit ang bansag at kontrasenyas mo';
 $string['logout'] = 'Lumabas';
+$string['logoutconfirm'] = 'Talaga bang nais mong lumabas?';
 $string['logs'] = 'Mga Log';
 $string['logtoomanycourses'] = '[ <a href=\"$a->url\">marami pa</a> ]';
 $string['logtoomanyusers'] = '[ <a href=\"$a->url\">marami pa</a> ]';
@@ -796,7 +824,7 @@ $string['managemeta'] = 'Meta kurso ba ito?';
 $string['managemetadisabled'] = 'Patay ito dahil nasa meta kurso na ang kursong ito';
 $string['managemetaexplan'] = '(Ang ibig sabihin nito ay mamanahin ang mga pag-eenrol mula sa ibang kurso)';
 $string['managemodules'] = 'Mga Modyul';
-$string['manageroles'] = 'Mga gagampanang papel at karapatan';
+$string['manageroles'] = 'Mga gagampanang papel at permiso';
 $string['markedthistopic'] = 'Pinatingkad ang paksang ito bilang kasalukuyang paksa';
 $string['markthistopic'] = 'Patingkarin ang paksang ito bilang kasalukuyang paksa';
 $string['maximumchars'] = '$a titik ang maksimum';
@@ -926,6 +954,7 @@ Sa karamihang mail program, lalabas itong bughaw na link na maaari mong iklik.  
 Pagbati mula sa administrador ng \'$a->sitename\',
 $a->signoff';
 $string['newusers'] = 'Mga bagong tagagamit';
+$string['newwindow'] = 'bagong bintana';
 $string['next'] = 'Susunod';
 $string['nextsection'] = 'Susunod na seksiyon';
 $string['no'] = 'Hindi';
@@ -961,6 +990,7 @@ $string['noreplyname'] = 'Huwag tumugon sa email na ito';
 $string['noresults'] = 'Walang resulta';
 $string['normal'] = 'Normal';
 $string['normalfilter'] = 'Normal na paghahanap';
+$string['nosite'] = 'hindi matagpuan ang antas-site na kurso';
 $string['nostatstodisplay'] = 'Paumanhin, walang magagamit na datos para ipakita.';
 $string['nostudentsfound'] = 'Walang natagpuang $a';
 $string['nostudentsingroup'] = 'Wala pang mag-aaral sa pangkat na ito';
@@ -976,6 +1006,7 @@ $string['nothingnew'] = 'Wala pang bago simula nang huli kang lumagda';
 $string['nothingtodisplay'] = 'Walang maipapakita';
 $string['noticenewerbackup'] = 'Ang sakong bak-ap na ito ay nilikha sa pamamagitan ng Moodle $a->backuprelease ($a->backupversion) at mas bago ito sa kasalukuyan mong nakaluklok na Moodle $a->serverrelease ($a->serverversion). Maaaring magbunga ito ng ilang kamalian dahil hindi matitiyak ang paurong na kaangkupan ng bagong sakong bak-ap sa mga luma.';
 $string['notifications'] = 'Patalastas';
+$string['notify'] = 'Patalastasan';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Tagagamit: $a->info';
 $string['notifyloginfailuresmessageend'] = 'Maaari mong makita ang mga log na ito sa $a/course/log.php?id=1&chooselog=1&modid=site_errors.';
 $string['notifyloginfailuresmessagestart'] = 'Narito ang listahan ng mga bigong pagtatangkang lumagda sa $a simula noong huli kang pinatalastasan';
@@ -985,6 +1016,7 @@ $string['notingroup'] = 'Paumanhin, nguni\'t kailangang kasapi ka ng isang pangk
 $string['notpublic'] = 'Hindi pampubliko!';
 $string['nousersmatching'] = 'Walang natagpuang tagagamit na tumutugma sa \'$a\'';
 $string['nousersyet'] = 'Wala pang tagagamit';
+$string['novalidcourses'] = 'Walang tanggap na kursong maipapakita';
 $string['now'] = 'ngayon';
 $string['numattempts'] = '$a bigong pagtatangka na lumagda';
 $string['numberweeks'] = 'Bilang ng linggo/paksa';
@@ -1061,6 +1093,7 @@ $string['previewhtml'] = 'Silip na Anyong HTML';
 $string['previeworchoose'] = 'Silipin o pumilì ng tema';
 $string['previous'] = 'Nakaraan';
 $string['previoussection'] = 'Nakaraang seksiyon';
+$string['primaryadminsetup'] = 'Iayos ang akawnt ng administrador';
 $string['profile'] = 'Pagkakakilanlan';
 $string['publicdirectory'] = 'Pampublikong bugsok';
 $string['publicdirectory0'] = 'Huwag pong ilathala ang site na ito';
@@ -1174,6 +1207,7 @@ $string['selectednowmove'] = '$a sako ang pinili para ilipat. Pumunta ngayon sa 
 $string['selectnos'] = 'Piliin ang \'hindi\' para sa lahat';
 $string['selectperiod'] = 'Piliin ang panahon';
 $string['senddetails'] = 'Ipadala ang mga detalye tungkol sa akin sa pamamagitan ng email';
+$string['separate'] = 'Magkahiwalay';
 $string['separateandconnected'] = 'Magkahiwalay at Magkaugnay na paraan ng pag-unawa';
 $string['serverlocaltime'] = 'Lokal na oras ng server';
 $string['settings'] = 'Kaayusan';
@@ -1189,8 +1223,10 @@ $string['showallcourses'] = 'Ipakita ang lahat ng kurso';
 $string['showalltopics'] = 'Ipakita ang lahat ng paksa';
 $string['showallusers'] = 'Ipakita ang lahat ng tagagamit';
 $string['showallweeks'] = 'Ipakita ang lahat ng linggo';
+$string['showblockcourse'] = 'Ipakita ang listahan ng mga kurso na naglalaman ng bloke';
 $string['showgrades'] = 'Ipakita ang mga marka';
 $string['showlistofcourses'] = 'Ipakita ang listahan ng kurso';
+$string['showmodulecourse'] = 'Ipakita ang listahan ng mga kurso na naglalaman ng aktibidad';
 $string['showonly'] = 'Ipakita lamang';
 $string['showonlytopic'] = 'Tanging paksa $a ang ipakita';
 $string['showonlyweek'] = 'Tanging linggo $a ang ipakita';
@@ -1206,7 +1242,7 @@ $string['siteerrors'] = 'Mga error ng site';
 $string['sitefiles'] = 'Mga sako ng site';
 $string['sitelogs'] = 'Mga log ng site';
 $string['sitenews'] = 'Balitang pangsite';
-$string['sitepartlist'] = 'Wala ka ng mga kinakailangang karapatan para makita ang listahan ng mga kalahok';
+$string['sitepartlist'] = 'Wala ka ng mga kinakailangang permiso  para makita ang listahan ng mga kalahok';
 $string['sitepartlist0'] = 'Kailangan ay gurô ka ng site upang mapahintulutang makita ang listahan ng mga kalahok sa site';
 $string['sitepartlist1'] = 'Kailangan ay gurô ka upang mapahintulutang makita ang listahan ng mga kalahok sa site';
 $string['sites'] = 'Mga site';
@@ -1216,6 +1252,7 @@ $string['siteteachers'] = 'Mga guro ng site';
 $string['size'] = 'Laki';
 $string['sizeb'] = 'byte';
 $string['skipped'] = 'Nilaktawan';
+$string['skiptomaincontent'] = 'Lumaktaw pasulong sa punong nilalaman';
 $string['socialheadline'] = 'Tambayan - mga pinakabagong paksa';
 $string['someallowguest'] = 'Maaaring may ilang kurso na nagpapapasok ng bisita';
 $string['someerrorswerefound'] = 'Nawawala o mali ang ilang impormasyon.  Tumingin sa ibaba para sa mga detalye.';
@@ -1340,7 +1377,7 @@ $string['unzippingbackup'] = 'Ina-unzip ang bak-ap';
 $string['up'] = 'Pataas';
 $string['update'] = 'Baguhin';
 $string['updated'] = 'Binago ang $a';
-$string['updatemymoodleoff'] = 'Normal na moda';
+$string['updatemymoodleoff'] = 'Normal na modo';
 $string['updatemymoodleon'] = 'Iedit ang pahinang ito';
 $string['updatemyprofile'] = 'Baguhin ang pagkakakilanlan';
 $string['updatesevery'] = 'Nagbabago tuwing ika $a segundo';
@@ -1379,7 +1416,9 @@ $string['userlist'] = 'Listahan ng tagagamit';
 $string['username'] = 'Bansag';
 $string['usernameemailmatch'] = 'Ang bansag at email address ay hindi tumutugma sa iisang tagagamit';
 $string['usernameexists'] = 'May gumagamit na ng bansag na ito, pumili ng iba';
+$string['usernamelowercase'] = 'Tanging maliit na titik lamang ang pinahihintulutan';
 $string['usernamenotfound'] = 'Hindi natagpuan ang bansag sa datosan';
+$string['usernameoremail'] = 'Ipasok ang bansag o email address';
 $string['usernotconfirmed'] = 'Hindi makumpirma ang $a';
 $string['userpic'] = 'Larawan ng tagagamit';
 $string['userprofilefor'] = 'Pagkakakilanlan ng tagagamit na $a';
@@ -1445,6 +1484,7 @@ $string['writingcoursedata'] = 'Isinusulat ang datos ng kurso';
 $string['writingeventsinfo'] = 'Isinusulat ang impo ng mga okasyon';
 $string['writinggeneralinfo'] = 'Isinusulat ang pangkalahatang impo';
 $string['writinggradebookinfo'] = 'Isinusulat ang impo ng markahan';
+$string['writinggroupingsinfo'] = 'Isinusulat ang impo ng balangay';
 $string['writinggroupsinfo'] = 'Isinusulat ang impo ng mga pangkat';
 $string['writingheader'] = 'Isinusulat ang header';
 $string['writingloginfo'] = 'Isinusulat ang impo ng mga log';
@@ -1453,12 +1493,14 @@ $string['writingmoduleinfo'] = 'Isinusulat ang impo ng mga modyul';
 $string['writingscalesinfo'] = 'Isinusulat ang impo ng mga iskala';
 $string['writinguserinfo'] = 'Isinusulat ang impo ng mga tagagamit';
 $string['wrongpassword'] = 'Mali ang kontrasenyas para sa bansag na ito';
+$string['year'] = 'taon';
+$string['years'] = 'taon';
 $string['yes'] = 'Oo';
 $string['youareabouttocreatezip'] = 'Lilikha ka ng sakong zip na naglalaman ng';
 $string['youaregoingtorestorefrom'] = 'Sisimulan mo ang proseso ng pagpapanumbalik sa';
 $string['youneedtoenrol'] = 'Upang magawa ang aksiyon, kailangan mong mag-enrol sa kursong ito.';
 $string['yourlastlogin'] = 'Ang hulí mong paglagda ay';
-$string['yourself'] = 'sarili mo';
+$string['yourself'] = 'ikaw';
 $string['yourteacher'] = 'ang iyong $a';
 $string['zippingbackup'] = 'Isini-Zip ang bak-ap';
 

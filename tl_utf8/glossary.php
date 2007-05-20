@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 dev (2006112200)
+      // glossary.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['addcomment'] = 'Magdagdag ng opinyon';
@@ -92,6 +92,7 @@ $string['entryusedynalink'] = 'Dapat ay kusang ilink ang talâ na ito';
 $string['errcannoteditothers'] = 'Hindi mo puwedeng editin ang talâ ng iba.';
 $string['errconceptalreadyexists'] = 'May ganito nang konsepto.  Hindi pinahihintulutan ang kadoble sa talasalitaang ito.';
 $string['erredittimeexpired'] = 'Nagwakas na ang oras ng pag-eedit sa talang ito.';
+$string['errorparsingxml'] = 'Nagka-error habang pina-parse ang sako.  Tiyakin na tanggap ang XML sintaks nito.';
 $string['explainaddentry'] = 'Magdagdag ng bagong talâ sa kasalukuyang talahulugan.<br />Ang konsepto at depinisyon ay mga kinakailangang pitak.';
 $string['explainall'] = 'Ipakita ang LAHAT ng talâ sa iisang pahina';
 $string['explainalphabet'] = 'Tingnan ang talahulugan sa pamamagitan ng indeks na ito';
@@ -125,6 +126,7 @@ $string['importcategories'] = 'Angkatin ang mga kategoriya';
 $string['importedcategories'] = 'Inangkat na mga kategoriya';
 $string['importedentries'] = 'Inangkat na mga talâ';
 $string['importentries'] = 'Angkatin ang mga talâ';
+$string['importentriesfromxml'] = 'Angkatin ang mga tala sa sakong XML';
 $string['isglobal'] = 'Pangkalahatan ba ang talahulugang ito?';
 $string['linkcategory'] = 'Kusang ilink ang kategoriyang ito';
 $string['linking'] = 'Kusang-paglink';
