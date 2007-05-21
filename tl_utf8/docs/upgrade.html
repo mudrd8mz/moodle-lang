@@ -4,63 +4,62 @@
 <head>
     <title>Moodle Doks: Paga-upgrade</title>
 	<link rel="stylesheet" href="docstyles.css" type="TEXT/CSS">
-    <meta http-equiv="Content-Type" content="text/html;
-charset=iso-8859-15" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 
 <body>
-<h1>Pag-Upgrade ng Moodle</h1>
+<h1>Paggawang bago sa Moodle</h1>
 
 <blockquote>
-  <p>Ang Moodle ay dinisenyo na makakapag-upgrade nang malinis mula sa
+  <p>Dinisenyo ang Moodle na mabago nang malinis mula sa
 lumang bersiyon tungo sa isang bagong bersiyon.
 </p>
 
-  <p>Kapag nag-upgrade ka ng instalasyon ng Moodle, dapat mong sundin
-ang mga hakbang na ito:</p>
+  <p>Kung gagawin mong bago ang iniluklok mong Moodle ay dapat mong sundin
+ang mga sumusunod na hakbang:</p>
 
-  <h3 class="sectionheading">1. I-backup ang important datos</h3>
+  <h3 class="sectionheading">1. Ibak-ap ang importanteng datos</h3>
   <blockquote>
-    <p>Bagama't hindi lubhang mahalaga, mas makabubuting mag-back-up ng
-isang sistemang pangproduksiyon bago gumawa ng malawakang upgrade, kung
-sakaling kailanganin mong balikan ang lumang bersiyon sa ano't anumang
-dahilan.  Ang kailangan pa nga ay gawing awtomatiko ang pagback-up ng
-instalasyon ng Moodle sa server mo nang araw-araw, upang malampasan mo
+    <p>Bagama't hindi naman lubhang kailangang gawin, mas makabubuting magbak-ap ng 
+isang sistemang pangproduksiyon bago gumawa ng malawakang pagpapanibago, kung
+sakali't kailangan mong bumalik sa lumang bersiyon sa ano't anumang
+dahilan.  Mas makabubuti na gawing awtomatiko ang pagbabak-ap ng luklok 
+ng Moodle sa server mo nang araw-araw, upang malampasan mo
 na ang hakbang na ito.
 </p>
 
-    <p>May tatlong pook na dapat i-back-up:</p>
+    <p>May tatlong pook na dapat ibak-ap:</p>
 
     <blockquote>
-      <p><strong>1. Ang direktoryo ng Moodle software mismo</strong></p>
+      <p><strong>1. Ang bugsok ng mismong Moodle software</strong></p>
 
       <blockquote>
 
-        <p>Gumawa ng hiwalay na kopya ng mga file na ito bago
-mag-upgrade, upang mabawi mo ang config.php at anumang modyul na
+        <p>Gumawa ng hiwalay na kopya ng mga sakong ito bago
+magpanibago, upang mabawi mo ang config.php at anumang modyul na
 idinagdag mo tulad ng tema, wika atbp.<strong><br />
 
         </strong></p>
       </blockquote>
-      <p><strong>2. Ang direktoryo mo ng datos.</strong></p>
+      <p><strong>2. Ang bugsok ng datos mo.</strong></p>
       <blockquote>
 
-        <p>Dito nakalagay ang inapload na nilalaman (tulad ng mga
+        <p>Dito nakalagay ang inahong nilalaman (tulad ng mga
 rekurso ng kurso at mga takdang-aralin ng mag-aaral) kaya't
-napakahalagang magka-back-up ng mga file na ito.  Minsan ang mga upgrade
-ay ililipat o babaguhin ang pangalan ng mga direktoryo mo sa loob ng
-direktoryo ng datos.
+napakahalagang magkabak-ap ng mga sakong ito.  Minsan ang bagong bersiyon 
+ay maglilipat o magbabago ng pangalan ng mga bugsok mo sa loob ng 
+bugsok ng datos.
 <strong><br />
         </strong></p>
       </blockquote>
-      <p><strong>3. Ang database mo</strong></p>
+      <p><strong>3. Ang datosan mo</strong></p>
       <blockquote>
-        <p>Karamihan sa mga upgrade ng Moodle ang binabago ang mga
-database table, nagdadagdag o nagbabago ng mga field.  May iba't-ibang
-paraan ang bawat database sa pagbaback-up.  Ang isang paraan ng
-pagback-up ng MySQL database ay ang 'pagdump' nito sa iisang SQL file.
-Ipinapakita sa sumusunod na halimbawa ang mga Unix command sa pag-dump
-ng database na tinatawag na &quot;moodle&quot;:
+        <p>Karamihan sa mga bagong bersiyon ng Moodle ay binabago ang mga
+teybol ng datosan, at nagdadagdag o nagbabago ng mga pitak nito.  May iba't-ibang
+paraan ang bawat datosan sa pagbabak-ap.  Ang isang paraan ng
+pagbak-ap ng datosang MySQL ay ang 'pagdump' nito sa isang sakong SQL.
+Ipinapakita sa sumusunod na halimbawa ang mga utos na pang-Unix sa pag-dump
+ng datosan na tinatawag na &quot;moodle&quot;:
 </p>
 
         <blockquote>
@@ -75,17 +74,17 @@ katulad nitong bagay para sa lahat ng plataporma.</p>
       </blockquote>
     </blockquote>
   </blockquote>
-  <h3 class="sectionheading">2. Iinstol ang bagong Moodle
+  <h3 class="sectionheading">2. Iluklok ang bagong Moodle
 software</h3>
   <blockquote>
-    <p><strong>Paggamit ng isang download archive
+    <p><strong>Paggamit ng isang inilusong na arkibo 
 </strong></p>
     <blockquote>
-      <p>Huwag patungan ang lumang instalasyon kundi mo lubos na alam
-ang ginagawa mo ... minsan nagdudulot ng problema ang mga lumang file sa
+      <p>Huwag patungan ang lumang luklok kundi mo lubos na alam
+ang ginagawa mo ... minsan nagdudulot ng problema ang mga lumang sako sa
 bagong instalasyon.  Ang pinakamabisang paraan ay baguhin ang pangalan
-ng kasalukuyang direktoryo ng Moodle, tapos ay i-unpack ang bagong
-Moodle archive sa dating lokasyon.
+ng kasalukuyang bugsok ng Moodle, tapos ay buklatin ang bagong
+arkibo ng Moodle sa dating lokasyon.
 </p>
 
       <blockquote>
@@ -93,7 +92,7 @@ Moodle archive sa dating lokasyon.
         tar xvzf moodle-1.1.tgz</font></p>
       </blockquote>
 
-      <p>Tapos, kopyahin mo ang lumang config.php mo at iba pang plugin
+      <p>Tapos, kopyahin mo ang lumang config.php mo at iba pang plug-in
 tulad ng pasadyang tema sa dating direktoryo: </p>
 
       <blockquote>
@@ -104,38 +103,38 @@ tulad ng pasadyang tema sa dating direktoryo: </p>
     <p><strong>Paggamit ng CVS</strong></p>
     <blockquote>
       <p>Kung gagamitin mo ang CVS, pumunta lamang sa punong direktoryo
-ng Moodle at i-update ito sa mga bagong file:
+ng Moodle at i-update ito sa mga bagong sako:
 </p>
 
       <blockquote>
         <p><font face="Courier New, Courier, mono">cvs update -dP</font></p>
       </blockquote>
       <p>Tiyakin na gagamitin ninyo ang &quot;d&quot; parameter sa
-paglikha ng mga bagong direktoryo kung kinakailangan, at ang 
-&quot;P&quot; parameter para burahin ang mga walang laman na direktoryo.</p>
-      <p>Kung ineedit mo ang mga file ng Moodle, matyagan ang mga
-mensahe ng mabuti para makita mo kung may mga posibleng dipagkakasundo.
-Lahat ng sinadyang tema mo at di-istandard na plugin ay hindi
+paglikha ng mga bagong bugsok kung kinakailangan, at ang 
+&quot;P&quot; parameter para burahin ang mga walang laman na bugsok.</p>
+      <p>Kung ineedit mo ang mga sako ng Moodle, matyagan ang mga
+mensahe nang mabuti para makita mo kung may mga problemang lilitaw.
+Lahat ng pasadyang tema mo at di-istandard na plug-in ay hindi
 pakikialaman.</p>
 
     </blockquote>
     <p>&nbsp;</p>
   </blockquote>
-  <h3 class="sectionheading">3. Pagtatapos ng upgrade</h3>
+  <h3 class="sectionheading">3. Pagtatapos ng pagpapanibago</h3>
   <blockquote>
-    <p>Ang huling hakbang ay pasimulan ang proseso ng pag-upgrade sa
+    <p>Ang huling hakbang ay pasimulan ang proseso ng pagpapanibago sa
 loob ng Moodle.</p>
     <p>Para magawa ito, bisitahin lamang ang <a target="_top"
-href="../admin/index.php">pahinang admin ng instalasyon mo</a>.</p>
+href="../admin/index.php">pahinang pang-admin ng iniluklok mo</a>.</p>
 
     <blockquote>
       <p><font face="Courier New, Courier,
 mono">http://halimbawa.com/moodle/admin</font></p>
     </blockquote>
-    <p>Hindi importante kung nakalog-in ka bilang admin o hindi.</p>
+    <p>Hindi importante kung nakalagda ka bilang admin o hindi.</p>
 
     <p>Awtomatikong malalaman ng Moodle na may bagong bersiyon at
-gagawin nito ang lahat ng upgrade ng database o filesystem na
+gagawin nito ang lahat ng pagpapanibago ng datosan o sistema ng mga bugsok na
 kinakailangan.  Kung may bagay na di nito kayang gawin sa sarili nito
 (napakadalang), makakakita ka ng mga mensahe na magsasabi sa iyo kung
 ano ang kailangan mong gawin. </p>
@@ -144,11 +143,11 @@ ano ang kailangan mong gawin. </p>
   <p>&nbsp; </p>
 
   <p> Kung lahat ay maayos naman (walang mensahe ng mga error)
-masisimulan mo nang gamitin ang bago mong bersiyon ng Moodle at i-enjoy
-ang mga bago nitong katangian!</p>
+ puwede mo nang gamitin ang bago mong bersiyon ng Moodle at kalugdan ang  
+mga bago nitong katangian!</p>
 
-  <p>Kung magkaproblema ka sa upgrade, bisitahin ang <a target="_top"
-href="http://moodle.org/">moodle.org</a> at magpost sa <a target="_top"
+  <p>Kung magkaproblema ka sa pagpapanibago, bisitahin ang <a target="_top"
+href="http://moodle.org/">moodle.org</a> at magpaskil sa <a target="_top"
 href="http://moodle.org/mod/forum/view.php?id=28">Installation 
   Support Forum</a> sa Using Moodle na kurso.
 

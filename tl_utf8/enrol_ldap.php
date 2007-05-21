@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.7 dev (2006050501)
+      // enrol_ldap.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['description'] = '<p>Maaari kang gumamit ng LDAP server para makontrol ang pagpapaenrol mo.
@@ -30,6 +30,7 @@ $string['enrol_ldap_bind_dn'] = 'Kung gusto mong gumamit ng bind-user upang magh
                                  \'cn=ldapuser,ou=public,o=org\'';
 $string['enrol_ldap_bind_pw'] = 'Kontrasenyas para sa bind-user.';
 $string['enrol_ldap_category'] = 'Ang kategoriya para sa mga kursong nilikha nang kusa.';
+$string['enrol_ldap_contexts'] = 'Konteksto ng LDAP';
 $string['enrol_ldap_course_fullname'] = 'Opsiyonal: Pitak ng LDAP na pagkukunan ng buong pangalan.';
 $string['enrol_ldap_course_idnumber'] = 'Imapa sa natatanging identifier sa LDAP, karaniwan ay 
                                          <em>cn</em> o <em>uid</em>. Iminumungkahi na 
@@ -43,15 +44,17 @@ $string['enrol_ldap_general_options'] = 'Mga Pangkalahatang Opsiyon';
 $string['enrol_ldap_host_url'] = 'Itakda ang  LDAP host sa anyong URL tulad ng
                                   \'ldap://ldap.myorg.com/\' 
                                   o \'ldaps://ldap.myorg.com/\'';
+$string['enrol_ldap_memberattribute'] = 'Attribute ng miyembro ng LDAP';
 $string['enrol_ldap_objectclass'] = 'objectClass na ginagamit sa paghahanap ng mga kurso.  Karaniwan ay
                                      \'posixGroup\'.';
+$string['enrol_ldap_roles'] = 'Pagmamapa ng gagampanang papel';
 $string['enrol_ldap_search_sub'] = 'Hanapin ang kinasasapiang pangkat mula sa subkonteksto.';
 $string['enrol_ldap_server_settings'] = 'Mga Kaayusan ng LDAP Server';
 $string['enrol_ldap_student_contexts'] = 'Listahan ng konteksto kung saan naroroon ang mga grupo na 
                                           may pag-eenrol ng mga mag-aaral.  Paghiwalayin ang magkakaibang 
                                           konteksto sa pamamagitan ng \';\'. Halimbawa: 
                                           \'ou=courses,o=org; ou=others,o=org\'';
-$string['enrol_ldap_student_memberattribute'] = 'Katangian ng miyembro, kung ang tagagamit ay kabilang
+$string['enrol_ldap_student_memberattribute'] = 'Attribute ng miyembro, kung ang tagagamit ay kabilang
                                           (nakaenrol) sa isang grupo.  Karaniwan ay \'member\'
                                           o \'memberUid\'.';
 $string['enrol_ldap_student_settings'] = 'Kaayusan ng pageenrol ng mag-aaral';
@@ -59,7 +62,7 @@ $string['enrol_ldap_teacher_contexts'] = 'Listahan ng mga konteksto kung saan na
                                           na may pag-eenrol ng guro.  Paghiwalayin ang magkakaibang
                                           konteksto sa pamamagitan ng \';\'. Halimbawa: 
                                           \'ou=courses,o=org; ou=others,o=org\'';
-$string['enrol_ldap_teacher_memberattribute'] = 'Kaayusan ng miyembro, kung ang tagagamit ay kabilang 
+$string['enrol_ldap_teacher_memberattribute'] = 'Attribute ng miyembro, kung ang tagagamit ay kabilang 
                                           (nakaenrol) sa isang grupo. Karaniwan ay \'member\'
                                           o \'memberUid\'.';
 $string['enrol_ldap_teacher_settings'] = 'Kaayusan ng pag-eenrol ng guro';

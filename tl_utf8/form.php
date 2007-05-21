@@ -27,12 +27,13 @@ $string['nomethodforaddinghelpbutton'] = 'Walang paraan para sa pagdaragdag ng t
 $string['nonexistentformelements'] = 'Nagtatangkang magdagdag ng tulong na buton sa elemento ng porma na wala naman: $a';
 $string['optional'] = 'Opsiyonal';
 $string['requiredelement'] = 'Kinakailangang pitak';
-$string['revealpassword'] = 'Ihayag';
 $string['security'] = 'Seguridad';
 $string['showadvanced'] = 'Ilantad ang Abante';
 $string['somefieldsrequired'] = 'May mga pitak sa pormang ito na kailangang punan, na minarkahan ng $a.';
 $string['timing'] = 'Tiyempo';
+$string['unmaskpassword'] = 'Ihayag';
 $string['year'] = 'Taon';
+$string['revealpassword'] = 'Ihayag'; // ORPHANED
 $string['requiredfield'] = 'Kailangang punan ang pitak na ito'; // ORPHANED
 $string['denotesreq'] = '$a ay nangangahulugan na kinakailangang pitak.'; // ORPHANED
 

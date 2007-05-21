@@ -43,7 +43,5 @@ pack mo.
     |-------------------
     HINDI GAANONG IMPORTANTE
 
- 3) Huwag ninyo na pong isalin ang credits.html - dahil malimit itong
+ 3) Huwag na po ninyong isalin ang credits.html - dahil malimit itong
 magbago.
-
-

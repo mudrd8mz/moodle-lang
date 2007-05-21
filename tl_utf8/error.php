@@ -39,6 +39,7 @@ $string['invalidfiletype'] = 'Hindi tanggap na uri ng sako ang \"$a\"';
 $string['invalidmd5'] = 'Ditanggap na md5';
 $string['invalidrequest'] = 'Di tanggap ang kahilingan';
 $string['invalidrole'] = 'Di tanggap na gagampanang papel';
+$string['invalidurl'] = 'Di tanggap na url';
 $string['invalidxmlfile'] = 'Hindi tanggap na sakong XML ang \"$a\"';
 $string['listcantmovedown'] = 'Nabigong ilipat sa ibaba ang aytem, pinakahuli na ito sa mga katulad nito.';
 $string['listcantmoveleft'] = 'Nabigong ilipat ang aytem sa kaliwa, wala itong magulang.';

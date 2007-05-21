@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8 dev (2006112200)
+      // choice.php - created with Moodle 1.9 dev (2007041800)
 
 
 $string['addmorechoices'] = 'Magdagdag ng mas maraming pagpipilian';
@@ -37,6 +37,7 @@ $string['publishalways'] = 'Palaging ipakita ang resulta sa mag-aaral';
 $string['publishanonymous'] = 'Ilathala ang mga resulta na walang pangalan, huwag ipakita ang pangalan ng mga mag-aaral';
 $string['publishnames'] = 'Ilathala ang buong resulta, ipakita ang mga pangalan at ang mga pinilì nila.';
 $string['publishnot'] = 'Huwag ilathala ang mga resulta sa mga mag-aaral';
+$string['removemychoice'] = 'Alisin ang pinili ko';
 $string['responses'] = 'Mga tugon';
 $string['responsesto'] = 'Mga tugon sa $a';
 $string['savemychoice'] = 'Isilid ang pinilì ko';

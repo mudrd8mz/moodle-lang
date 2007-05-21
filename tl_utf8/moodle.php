@@ -467,6 +467,12 @@ Sa karamihang program na pangliham, ay kulay bughaw ang link na ito, na puwede m
 
 Kung kailangan mo ng tulong, kontakin po ang administrador ng site,
 $a->admin';
+$string['emailpasswordchangeinfodisabled'] = 'Mabuhay $a->firstname,
+
+May humiling (marahil ay ikaw) ng bagong kontrasenyas para sa akawnt mo sa \'$a->sitename\'.
+
+Ikinalulungkot naming ipaalam na ang akawnt mo sa site na ito ay hindi gumagana at hindi ito maireset, pakikontak po ang administrador ng site,
+$a->admin';
 $string['emailpasswordchangeinfofail'] = 'Mabuhay $a->firstname,
 
 May humiling (marahil ay ikaw) ng bagong kontrasenyas para sa akawnt mo sa \'$a->sitename\'.
@@ -1075,6 +1081,7 @@ $string['phpinfo'] = 'Impo hinggil sa PHP';
 $string['pictureof'] = 'Larawan ng $a';
 $string['pleaseclose'] = 'Pakisara po ang bintanang ito ngayon.';
 $string['pluginsetup'] = 'Isinasaayos ang mga teybol ng plug-in';
+$string['policyaccept'] = 'Nauunawaan ko at sumasang-ayon ako';
 $string['policyagree'] = 'Kailangan mo munang sumang-ayon sa patakarang ito bago ka makapagpatuloy na gumamit ng site.  Sumasangayon ka ba?';
 $string['policyagreement'] = 'Kasunduan hinggil sa Patakaran ng Site';
 $string['policyagreementclick'] = 'Iklik ito upang mabasa ang Kasunduan hinggil sa Patakaran ng Site';
@@ -1210,6 +1217,7 @@ $string['senddetails'] = 'Ipadala ang mga detalye tungkol sa akin sa pamamagitan
 $string['separate'] = 'Magkahiwalay';
 $string['separateandconnected'] = 'Magkahiwalay at Magkaugnay na paraan ng pag-unawa';
 $string['serverlocaltime'] = 'Lokal na oras ng server';
+$string['setcategorytheme'] = 'Itakda ang Tema ng Kategoriya';
 $string['settings'] = 'Kaayusan';
 $string['shortname'] = 'Maikling pangalan';
 $string['shortnamecollisionwarning'] = '[*] = Ang maikling pangalang ito ay ginagamit na ng isang kurso at kakailanganing baguhin bago mapahintulutan';
@@ -1320,7 +1328,7 @@ $string['summary'] = 'Buod';
 $string['summaryof'] = 'Buod ng $a';
 $string['supplyinfo'] = 'Magbigay po ng ilang impormasyon hinggil sa inyong sarili';
 $string['switchrolereturn'] = 'Bumalik sa aking normal na ginagampanang papel';
-$string['switchroleto'] = 'Iswits ang ginagampanang papel sa...';
+$string['switchroleto'] = 'Palitan ang ginagampanang papel ng...';
 $string['tagalready'] = 'May ganito nang tag';
 $string['tagmanagement'] = 'Idagdag/burahin ang mga tag...';
 $string['tags'] = 'Mga tag';

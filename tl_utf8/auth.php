@@ -2,6 +2,9 @@
       // auth.php - created with Moodle 1.9 dev (2007041800)
 
 
+$string['CASform'] = 'Piniling pagsino';
+$string['accesCAS'] = 'Tagagamit na CAS';
+$string['accesNOCAS'] = 'iba pang tagagamit';
 $string['alternatelogin'] = 'Kapag nagpasok ka ng URL dito, gagamitin ito bilang pahinang panglagda para sa site na ito.  Dapat maglaman ang pahina ng isang porma na ang action property ay nakatakda sa <strong>\'$a\'</strong> at mga  return field na <strong>bansag</strong> at <strong>kontrasenyas</strong>.<br />Ingatan na huwag makapagpasok ng maling URL, kundi\'y masasarhan kayo ng site na ito.<br />Iwanang blangko ang kaayusang ito upang gamitin ang umiiral na pahinang panglagda.';
 $string['alternateloginurl'] = 'Alternatibong Pinaglalagdaang URL';
 $string['auth_cas_auth_user_create'] = 'Sa labas lumikha ng tagagamit';
@@ -18,7 +21,12 @@ $string['auth_cas_invalidcaslogin'] = 'Paumanhin, nabigo ang paglalagda mo - hin
 $string['auth_cas_language'] = 'Piniling wika';
 $string['auth_cas_language_key'] = 'Wika';
 $string['auth_cas_logincas'] = 'Pagpasok na may ligtas na koneksiyon';
+$string['auth_cas_logoutcas'] = 'Gawin itong \'oo\' kung nais mong lumabas sa CAS kapag inalis mo ang koneksiyon sa Moodle';
+$string['auth_cas_logoutcas_key'] = 'Lumabas sa CAS';
+$string['auth_cas_multiauth'] = 'Gawin itong \'oo\' kung nais mo ng maramihang-pagsino (CAS + iba pang pagsino)';
+$string['auth_cas_multiauth_key'] = 'Maramihang-pagsino';
 $string['auth_cas_port'] = 'Port ng CAS server';
+$string['auth_cas_proxycas_key'] = 'Modong proxy';
 $string['auth_cas_server_settings'] = 'Kaayusan ng CAS server';
 $string['auth_cas_text'] = 'Ligtas na koneksiyon';
 $string['auth_cas_use_cas'] = 'Gamitin ang CAS';
@@ -177,6 +185,7 @@ $string['auth_multiplehosts'] = 'Maaring magtakda ng maraming host O address (ha
 $string['auth_nntpchangepasswordurl_key'] = 'URL ng pagbabago ng kontrasenyas';
 $string['auth_nntpdescription'] = 'Gumagamit ang paraang ito ng NTTP server upang matsek kung tanggap ang ibinigay na bansag at kontrasenyas.';
 $string['auth_nntphost'] = 'Ang address ng NNTP server.  Gamitin ang IP number, huwag ang DNS name.';
+$string['auth_nntpnotinstalled'] = 'Hindi magamit ang NNTP na pagsino.  Hindi nakalulok ang modyul na PHP IMAP.';
 $string['auth_nntpport'] = 'Server port (119 ang pinakakaraniwan)';
 $string['auth_nntptitle'] = 'Gumamit ng NNTP server';
 $string['auth_nologindescription'] = 'Karagdagang plug-in na humahadlang sa tagagamit na lumagda sa iyong sistema at itinatapon din ang anumang liham na ipinadadala sa tagagamit.  Maaaring gamitin sa <em>pagsuspinde</em> ng mga akawnt ng tagagamit.';
@@ -238,6 +247,11 @@ $string['changepassword'] = 'Baguhin ang URL ng kontrasenyas';
 $string['changepasswordhelp'] = 'Dito ay maitatakda mo ang lokasyon ng pahina kung saan maaaring makuha mulî o mabago ng mga tagagamit ang bansag/kontrasenyas nila, sakaling nakalimutan nila ito.  Ipapakita ito sa mga tagagamit bilang isang buton sa pahina na panglagda at sa kanilang pahina na pangtagagamit.  Kapag iniwan mo itong blangko ang buton ay hindi makikita.';
 $string['chooseauthmethod'] = 'Pumilì ng paraan ng pasino:';
 $string['createpasswordifneeded'] = 'Lumikha ng kontrasenyas kung kinakailangan';
+$string['errorminpassworddigits'] = 'Kailang may hindi bababa sa $a numero ang mga kontrasenyas.';
+$string['errorminpasswordlength'] = 'Kailang may hindi bababa sa $a titik ang mga kontrasenyas.';
+$string['errorminpasswordlower'] = 'Kailang may hindi bababa sa $a maliit na titik ang mga kontrasenyas.';
+$string['errorminpasswordnonalphanum'] = 'Kailang may hindi bababa sa $a di-alphanumerong titik ang mga kontrasenyas.';
+$string['errorminpasswordupper'] = 'Kailang may hindi bababa sa $a malaking titik ang mga kontrasenyas.';
 $string['errorpasswordupdate'] = 'Nagka-error sa pagbabago ng kontrasenyas, hindi nabago ang kontrasenyas';
 $string['forcechangepassword'] = 'Ipilit ang pagpapalit ng kontrasenyas';
 $string['forcechangepassword_help'] = 'Pilitin ang mga tagagamit na palitan ang kontrasenyas nila sa susunod nilang paglagda sa Moodle.';
