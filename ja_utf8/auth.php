@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007042702)
+      // auth.php - created with Moodle 1.9 dev (2007051801)
 
 
 $string['CASform'] = '認証選択';
@@ -130,6 +130,7 @@ $string['auth_ldap_contexts'] = 'ユーザが配置されているコンテク�
 $string['auth_ldap_contexts_key'] = 'コンテクスト';
 $string['auth_ldap_create_context'] = 'ユーザ作成をメールによる認証で行う場合、ユーザが作成されるコンテクストを特定してください。セキュリティの観点から、このコンテクストは各ユーザごとに異なるものでなければなりません。Moodleが自動的にコンテクストからユーザを探しますので、ldap_context-vaiableをこのコンテクストに追加する必要はありません。<br /><b>注意!</b> ユーザ作成を動作させるため、auth/ldap/lib.phpファイルのauth_user_create() 関数を修正してください。';
 $string['auth_ldap_create_context_key'] = '新しいユーザのコンテクスト';
+$string['auth_ldap_create_error'] = 'LDAPのユーザ作成中にエラーが発生しました。';
 $string['auth_ldap_creators'] = 'メンバーが新しいコースの作成を許されているグループのリストです。複数のグループは「;」で分けられています。通常は\'cn=teachers,ou=staff,o=myorg\'のようになります。';
 $string['auth_ldap_creators_key'] = 'コース作成者';
 $string['auth_ldap_expiration_desc'] = 'パスワードチェックの有効期限を無効にする場合、またはLDAPがLDAPサーバから直接passwordexpirationを参照する場合は、「No」を選択してください。';
@@ -166,10 +167,11 @@ $string['auth_ldap_preventpassindb_key'] = 'パスワードを隠す';
 $string['auth_ldap_search_sub'] = 'サブコンテクストからユーザを検索する。';
 $string['auth_ldap_search_sub_key'] = 'サブコンテクストを検索する';
 $string['auth_ldap_server_settings'] = 'LDAPサーバ設定';
-$string['auth_ldap_unsupportedusertype'] = 'auth: ldap user_create() は、選択された次のユーザタイプをサポートしていません:\"$a\" (..まだ)';
-$string['auth_ldap_update_userinfo'] = 'LDAPよりMoodleの情報 (名、姓、住所等) を更新します。「データマッピング」設定を指定してください。';
+$string['auth_ldap_unsupportedusertype'] = 'auth: ldap user_create() は、選択された次のユーザタイプをサポートしていません: $a (..まだ)';
+$string['auth_ldap_update_userinfo'] = 'LDAPよりMoodleの情報 (姓、名、住所等) を更新します。「データマッピング」設定を指定してください。';
 $string['auth_ldap_user_attribute'] = '任意: name/searchユーザに使用される属性をオーバーライドします。通常は「cn」です。';
 $string['auth_ldap_user_attribute_key'] = 'ユーザ属性';
+$string['auth_ldap_user_exists'] = 'LDAPユーザ名はすでに登録されています。';
 $string['auth_ldap_user_settings'] = 'ユーザlookup設定';
 $string['auth_ldap_user_type'] = 'ユーザがどのようにLDAPに保存されるか選択してください。この設定では、有効期限、猶予ログイン、ユーザ作成がどのようになされるのかも指定します。';
 $string['auth_ldap_user_type_key'] = 'ユーザタイプ';
@@ -253,7 +255,7 @@ $string['auth_updateremote_expl'] = '<p><b>外部データの更新:</b> この�
 $string['auth_updateremote_ldap'] = '<p><b>注意:</b> 外部LDAPデータを更新するためには、binddnとbindpwを書き込み権を持ったbindユーザに設定する必要があります。現在、マルチバリュー属性を保護しません。また、更新時にエクストラバリューは取り除かれます。</p>';
 $string['auth_user_create'] = 'ユーザの作成を許可する';
 $string['auth_user_creation'] = '新しい (匿名) ユーザは、外部認証元のユーザアカウントを作成することができます。ユーザの確定はメールによって行われます。このオプションを有効にした場合、モジュール特有のオプションも同時に設定する必要があります。';
-$string['auth_usernameexists'] = 'このユーザ名はすでに存在します。新しいものを選んでください。';
+$string['auth_usernameexists'] = 'このユーザ名はすでに登録されています。新しいものを選んでください。';
 $string['authenticationoptions'] = '認証オプション';
 $string['authinstructions'] = 'どのようなユーザ名やパスワードを使用したらよいのかユーザに説明します。ここに入力した文章はログインページに表示されます。空白の場合、何も表示されません。';
 $string['auto_add_remote_users'] = 'リモートユーザを自動的に追加する';
@@ -266,7 +268,7 @@ $string['errorminpasswordlength'] = 'パスワードには、少なくとも $a 
 $string['errorminpasswordlower'] = 'パスワードには、少なくとも $a 文字の小文字を使用する必要があります。';
 $string['errorminpasswordnonalphanum'] = 'パスワードには、少なくとも $a 文字の非英数字を使用する必要があります。';
 $string['errorminpasswordupper'] = 'パスワードには、少なくとも $a 文字の大文字を使用する必要があります。';
-$string['errorpasswordupdate'] = 'パスワード変更にエラーが発生しました。パスワードは変更されませんでした。';
+$string['errorpasswordupdate'] = 'パスワード変更中にエラーが発生しました。パスワードは変更されませんでした。';
 $string['forcechangepassword'] = 'パスワード変更の強制';
 $string['forcechangepassword_help'] = '次にMoodleへログインするときに、ユーザのパスワード変更を強制します。';
 $string['forcechangepasswordfirst_help'] = '最初にMoodleへログインするときに、ユーザのパスワード変更を強制します。';
