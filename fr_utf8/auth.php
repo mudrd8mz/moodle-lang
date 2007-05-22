@@ -127,6 +127,7 @@ $string['auth_ldap_contexts_key'] = 'Contextes';
 $string['auth_ldap_contexts'] = 'Liste des contextes de l\'annuaire LDAP, séparés par «&nbsp;;&nbsp;», où les enregistrements des utilisateurs sont situés. Par exemple&nbsp;: «&nbsp;ou=Étudiants, o=Organisation, c=FR; ou=Enseignants, o=Organisation, c=FR&nbsp;».';
 $string['auth_ldap_create_context_key'] = 'Contexte des nouveaux utilisateurs';
 $string['auth_ldap_create_context'] = 'Lors de l\'utilisation de la création d\'utilisateurs avec confirmation par courriel, indiquer ici le contexte où créer les utilisateurs. Pour des raisons de sécurité, ce contexte ne doit pas être le même que celui des autres utilisateurs. Il n\'est pas nécessaire d\'ajouter ce contexte à la variable ldap_context. Moodle cherchera automatiquement les utilisateurs dans ce contexte.<br/><strong>Remarque&nbsp;:</strong> vous devrez modifier la méthode user_create() dans le fichier auth/ldap/auth.php pour permettre la création des utilisateurs.';
+$string['auth_ldap_create_error'] = 'Erreur lors de la création de l\'utilisateur dans LDAP.';
 $string['auth_ldap_creators_key'] = 'Créateurs';
 $string['auth_ldap_creators'] = 'Liste des groupes dont les membres ont le droit de créer des cours. Les groupes (en général, de la forme «&nbsp;cn=teachers,ou=staff,o=myorg&nbsp;») sont séparés par des points-virgules (;).';
 $string['auth_ldap_expiration_desc'] = 'Si vous voulez désactiver le contrôle d\'échéance des mots de passe, indiquez «&nbsp;Non&nbsp;». Si vous indiquez LDAP, la durée sera reprise automatiquement de la variable passwordexpiration du serveur LDAP';
@@ -167,6 +168,7 @@ $string['auth_ldap_unsupportedusertype'] = 'La fonction auth: ldap user_create()
 $string['auth_ldap_update_userinfo'] = 'Mettre à jour les données des utilisateurs (prénom, nom, adresse, etc.) de Moodle depuis l\'annuaire LDAP. Lire «&nbsp;/auth/ldap/attr_mappings.php&nbsp;» pour avoir des informations sur la correspondance.';
 $string['auth_ldap_user_attribute_key'] = 'Attribut utilisateur';
 $string['auth_ldap_user_attribute'] = 'L\'attribut utilisé pour nommer et rechercher les utilisateurs. Habituellement «&nbsp;cn&nbsp;».';
+$string['auth_ldap_user_exists'] = 'Le nom d\'utilisateur LDP existe déjà.';
 $string['auth_ldap_user_settings'] = 'Configuration de la consultation utilisateurs';
 $string['auth_ldap_user_type_key'] = 'Type utilisateur';
 $string['auth_ldap_user_type'] = 'Indiquer comment les utilisateurs sont enregistrés dans LDAP. Ce réglage permet également d\'indiquer comment l\'échéance des comptes (mot de passe) et la création des utilisateurs fonctionnera.';
