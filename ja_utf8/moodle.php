@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007051100)
+      // moodle.php - created with Moodle 1.9 dev (2007051801)
 
 
 $string['action'] = '操作';
@@ -423,7 +423,7 @@ $string['emailactive'] = 'メール有効化';
 $string['emailagain'] = 'メールアドレス (もう一度)';
 $string['emailcharset'] = 'メール文字コード';
 $string['emailconfirm'] = 'アカウントの確定';
-$string['emailconfirmation'] = 'こんにちは $a->lastname さん
+$string['emailconfirmation'] = 'こんにちは $a->firstname さん
 
 「 $a->sitename 」であなたのメールアドレスによる新しいアカウントの作成が依頼されました。
 
@@ -458,7 +458,7 @@ $string['emailmustbereal'] = '注意：メールアドレスは実際に使え�
 $string['emailnotallowed'] = 'これらのドメインのメールアドレスは許可されていません ($a)';
 $string['emailnotfound'] = 'データベース内にメールアドレスが見つかりませんでした。';
 $string['emailonlyallowed'] = 'このメールアドレスは許可されている次のドメインに入っていません ($a)';
-$string['emailpasswordchangeinfo'] = 'こんにちは $a->lastname さん
+$string['emailpasswordchangeinfo'] = 'こんにちは $a->firstname さん
 
 誰か (おそらくあなた) が、「 $a->sitename 」 のアカウントで新しいパスワードの作成を請求しました。
 
@@ -471,18 +471,18 @@ $a->link
 動作しない場合は、コピー&ペーストを使ってウェブブラウザ上部のアドレス欄に、このアドレスを入力してください。
 
 お分かりにならない場合は、サイト管理者 $a->admin にご連絡ください。';
-$string['emailpasswordchangeinfodisabled'] = 'こんにちは $a->lastname さん
+$string['emailpasswordchangeinfodisabled'] = 'こんにちは $a->firstname さん
 
 誰か (おそらくあなた) が、「 $a->sitename 」 のアカウントで新しいパスワードの作成を請求しました。
 
 残念ですが、このサイトであなたのアカウントは無効にされています。パスワードをリセットすることができません。サイト管理者 $a->admin にご連絡ください。';
-$string['emailpasswordchangeinfofail'] = 'こんにちは $a->lastname さん
+$string['emailpasswordchangeinfofail'] = 'こんにちは $a->firstname さん
 
 誰か (おそらくあなた) が、「 $a->sitename 」 のアカウントで新しいパスワードの作成を請求しました。
 
 残念ですが、このサイトではパスワードをリセットすることができません。サイト管理者 $a->admin にご連絡ください。';
 $string['emailpasswordchangeinfosubject'] = '$a: パスワード変更情報';
-$string['emailpasswordconfirmation'] = 'こんにちは $a->lastname さん
+$string['emailpasswordconfirmation'] = 'こんにちは $a->firstname さん
 
 誰か (おそらくあなた) が、「 $a->sitename 」 のアカウントで新しいパスワードの作成を請求しました。
 
@@ -925,7 +925,7 @@ $string['newaccount'] = '新しいアカウント';
 $string['newcourse'] = '新しいコース';
 $string['newpassword'] = '新しいパスワード';
 $string['newpasswordfromlost'] = '<strong>注意:</strong> 喪失パスワードリカバリ処理の一部として送信される2通のメールの<strong>2番目の</strong>メールで、あなたの<strong>現在のパスワード</strong>が送信されます。この画面を続ける前に、あなたの新しいパスワードが記載されたメールを受信したことをよく確かめてください。';
-$string['newpasswordtext'] = 'こんにちは $a->lastname さん
+$string['newpasswordtext'] = 'こんにちは $a->firstname さん
 
 「 $a->sitename 」のパスワードリセットおよび仮パスワードの作成が完了しました。
 
