@@ -91,7 +91,7 @@ $string['allactions'] = 'Lahat ng aksiyon';
 $string['allactivities'] = 'Lahat ng aktibidad';
 $string['allchanges'] = 'Lahat ng pagbabago';
 $string['alldays'] = 'Lahat ng araw';
-$string['allfieldsrequired'] = 'Lahat ng pitak ay kailangang punan';
+$string['allfieldsrequired'] = 'Kailangang punan ang lahat ng pitak';
 $string['allfiles'] = 'Lahat ng sako';
 $string['allgroups'] = 'Lahat ng pangkat';
 $string['alllogs'] = 'Lahat ng log';
@@ -370,7 +370,7 @@ $string['detailedmore'] = 'Mas detalyado';
 $string['directorypaths'] = 'Mga Landas ng Bugsok';
 $string['disable'] = 'Patayin';
 $string['displayingfirst'] = 'Tanging ang unang $a->count $a->things ang maipapakita';
-$string['displayingrecords'] = 'Ipinapakita ang mga $a na rekord';
+$string['displayingrecords'] = 'Ipinapakita ang $a rekord';
 $string['displayingusers'] = 'Ipinapakita ang mga tagagamit mula $a->start hanggang $a->end';
 $string['displayonpage'] = 'Ipakita sa pahina';
 $string['documentation'] = 'Dokumentasyon ng Moodle';
@@ -562,7 +562,7 @@ $a->past
 Maaari kang pumunta sa sumusunod na pahina upang mapahaba ang takdang panahon nila ng pag-eenrol:
 
 $a->extendurl';
-$string['expirynotifystudents'] = 'Patalastasan ang mga mag-aaral';
+$string['expirynotifystudents'] = 'Patalastasan ang <br />mga mag-aaral';
 $string['expirynotifystudentsemail'] = 'Mabuhay $a->studentstr:
 
 Ito ay isang patalastas na ang iyong pag-eenrol sa kursong $a->course ay mapapasó na sa $a->threshold araw.
@@ -674,7 +674,7 @@ $string['groupremovemembers'] = 'Alisin ang mga piniling kasapì';
 $string['groups'] = 'Mga pangkat';
 $string['groupsnone'] = 'Walang pangkat';
 $string['groupsseparate'] = 'Magkakahiwalay na pangkat';
-$string['groupsvisible'] = 'Mga nakikitang pangkat';
+$string['groupsvisible'] = 'Nagkakakitaang pangkat';
 $string['guest'] = 'Bisita';
 $string['guestdescription'] = 'Ang mga bisita ay kakaunti ang karapatan at karaniwan ay hindi makapagpapasok ng teksto kahit saan.';
 $string['guestskey'] = 'Papasukin ang bisitang may susi';
@@ -704,7 +704,7 @@ $string['helptext'] = 'Kung paano magsusulat ng teksto';
 $string['helpwiki'] = 'Kung paano magsusulat ng mala-Wiki na teksto';
 $string['helpwiththis'] = 'Tulong sa';
 $string['helpwriting'] = 'Magsulat nang mabuti';
-$string['hiddenassign'] = 'Nakatagong takdang-aralin';
+$string['hiddenassign'] = 'Nakatagong gagampanan';
 $string['hiddensections'] = 'Mga nakatagong seksiyon';
 $string['hiddensectionscollapsed'] = 'Ipinapakita ang mga nakatagong seksiyon sa anyong pitpit';
 $string['hiddensectionsinvisible'] = 'Ganap na hindi makikita ang mga nakatagong seksiyon';
@@ -712,7 +712,7 @@ $string['hide'] = 'Itagò';
 $string['hideadvancedsettings'] = 'Itago ang mga abanteng kaayusan';
 $string['hidepicture'] = 'Itagò ang larawan';
 $string['hidesettings'] = 'Itagò ang mga kaayusan';
-$string['hits'] = 'Ulit na Nabuksan';
+$string['hits'] = 'Ulit na Binuksan';
 $string['hitsoncourse'] = 'Ulit na binuksan ni $a->username ang $a->coursename';
 $string['hitsoncoursetoday'] = 'Ulit na binuksan ni $a->username ang $a->coursename ngayong araw';
 $string['home'] = 'Tahanan';
@@ -939,7 +939,7 @@ Pagbati mula sa administrador ng \'$a->sitename\' ,
 $a->signoff';
 $string['newpicture'] = 'Bagong larawan';
 $string['newsitem'] = 'balita';
-$string['newsitems'] = 'mga balita';
+$string['newsitems'] = 'balita';
 $string['newsitemsnumber'] = 'ilang balita ang ipakikita';
 $string['newuser'] = 'Bagong tagagamit';
 $string['newusernewpasswordsubj'] = 'Bagong akawnt ng tagagamit';
@@ -1163,7 +1163,7 @@ $string['restrictmodules'] = 'Lilimitahan ba ang mga modyul na aktibidad?';
 $string['returningtosite'] = 'Bumabalik ka ba sa site na ito?';
 $string['revert'] = 'Ipanumbalik';
 $string['role'] = 'Gagampanang Papel';
-$string['rolemappings'] = 'Mga mapa ng papel na gagampanan';
+$string['rolemappings'] = 'Mga mapa ng gagampanang papel';
 $string['roles'] = 'Mga gagampanang papel';
 $string['rssarticles'] = 'Bilang ng pinakabagong artikulo na RSS';
 $string['rsserror'] = 'Nagka-error sa pagbabasa ng datos na RSS';
