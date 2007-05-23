@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007051801)
+      // moodle.php - created with Moodle 1.9 dev (2007052200)
 
 
 $string['action'] = '操作';
@@ -256,6 +256,8 @@ $string['coursecategories'] = 'コースカテゴリ';
 $string['coursecategory'] = 'コースカテゴリ';
 $string['coursecreators'] = 'コース作成者';
 $string['coursecreatorsdescription'] = 'コース作成者は、新しいコースの作成およびコース内での教育を行うことができます。';
+$string['courseenrolenddate'] = 'コース登録開始日';
+$string['courseenrolstartdate'] = 'コース登録終了日';
 $string['coursefiles'] = 'コースファイル';
 $string['courseformatdata'] = 'コースフォーマットデータ';
 $string['courseformats'] = 'コースフォーマット';
@@ -647,6 +649,7 @@ $string['grades'] = '評定';
 $string['group'] = 'グループ';
 $string['groupadd'] = '新しいグループを追加する';
 $string['groupaddusers'] = '選択した人をグループに追加する';
+$string['groupextendenrol'] = 'すべての登録期間を延長する';
 $string['groupfor'] = 'グループ';
 $string['groupinfo'] = '選択したグループの情報';
 $string['groupinfoedit'] = 'グループ設定を編集する';
@@ -1279,6 +1282,7 @@ $string['sourcerole'] = 'ソースロール';
 $string['specifyname'] = '名前を特定してください。';
 $string['starpending'] = '([*] = 承認審査中コース)';
 $string['startdate'] = '開講日';
+$string['startingfrom'] = '開始日';
 $string['startsignup'] = '新しいアカウントを作成する';
 $string['state'] = '州/県';
 $string['statistics'] = '統計';

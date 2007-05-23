@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 1.9 dev (2007021500)
+      // qtype_datasetdependent.php - created with Moodle 1.9 dev (2007052200)
 
 
 $string['additem'] = 'アイテムを追加する';
@@ -17,6 +17,7 @@ $string['existingcategory2'] = 'ファイル - このカテゴリ内の他の問
 $string['existingcategory3'] = 'リンク - このカテゴリ内の他の問題ですでに使用されている既存のリンクセットより';
 $string['forceregeneration'] = 'データを再生成する';
 $string['getnextnow'] = '追加するアイテムを今から取得する';
+$string['item(s)'] = 'アイテム';
 $string['itemno'] = 'アイテム $a';
 $string['itemscount'] = 'アイテム<br/>カウント';
 $string['itemtoadd'] = '追加するアイテム';
@@ -26,6 +27,7 @@ $string['keptcategory3'] = 'リンク - 同一カテゴリ内の再利用可能�
 $string['keptlocal1'] = '文字 - 同一問題内のプライベート文字セットより';
 $string['keptlocal2'] = 'ファイル - 同一問題内のプライベートファイルセットより';
 $string['keptlocal3'] = 'リンク - 同一問題内のプライベートリンクセットより';
+$string['lastitem(s)'] = '最新アイテム';
 $string['loguniform'] = '対数一様分布';
 $string['minmax'] = '値域';
 $string['newcategory1'] = '文字 - このカテゴリ内の他の問題でも使用される新しい文字セットより';
