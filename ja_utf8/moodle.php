@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007052200)
+      // moodle.php - created with Moodle 1.9 dev (2007052300)
 
 
 $string['action'] = '操作';
@@ -159,7 +159,7 @@ $string['backuporiginalname'] = 'バックアップ名';
 $string['backupsavetohelp'] = 'バックアップファイルの保存先ディレクトリをフルパスで入力してください。<br />(コースのデフォルトディレクトリに保存する場合は空白)';
 $string['backupschedulehelp'] = '何曜日に自動バックアップを実行するか選択してください。';
 $string['backuptakealook'] = '次のバックアップログをご覧ください: $a';
-$string['backupuserfileshelp'] = '自動バックアップにユーザファイル (例 プロフィール写真) を含めるか選択してください。';
+$string['backupuserfileshelp'] = '自動バックアップにユーザファイル (例 プロフィール写真) を含めるかどうか選択してください。';
 $string['backupusershelp'] = 'サーバ内の全ユーザを含めるか、各コースに必要なユーザのみを含めるか選択してください。';
 $string['backupversion'] = 'バックアップバージョン';
 $string['block'] = 'ブロック';
