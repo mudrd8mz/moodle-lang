@@ -1024,7 +1024,7 @@ $string['noticenewerbackup'] = 'このバックアップファイルは、現在
 $string['notifications'] = '通知';
 $string['notify'] = '通知';
 $string['notifyloginfailuresmessage'] = '$a->time  IP: $a->ip  ユーザ: $a->info';
-$string['notifyloginfailuresmessageend'] = 'これらのログは $a/course/log.php?id=1&chooselog=1&modid=site_errors で閲覧可能です。';
+$string['notifyloginfailuresmessageend'] = 'これらのログは $a/course/log.php?id=1&amp;chooselog=1&amp;modid=site_errors で閲覧可能です。';
 $string['notifyloginfailuresmessagestart'] = '前回の通知以降の $a におけるログイン失敗一覧です。';
 $string['notifyloginfailuressubject'] = '$a :: ログイン失敗通知';
 $string['notincluded'] = 'バックアップ対象外';
