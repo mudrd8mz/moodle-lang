@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007051100)
+      // admin.php - created with Moodle 1.9 dev (2007052300)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -227,7 +227,7 @@ $string['datarootsecuritywarning'] = 'あなたのサイト設定は、安全で
 $string['dbmigrate'] = 'Moodleデータベース移行';
 $string['dbmigrateconnecerror'] = '指定されたデータベースに接続できませんでした。';
 $string['dbmigrateencodingerror'] = '指定されたデータベースのエンコードは、必須のユニコード/UTF8と異なり、 $a となっています。<br />他のエンコードを指定してください。';
-$string['dbmigratepostgres'] = 'あなたはデータベースサーバとして、PostgreSQLを使用しているようです。移行処理を続けるには、移行データを保存するため「ユニコード」 (PostgreSQL 7) または「UTF8」 (PostgreSQL 8) の新たなデータベースを手動で作成してください。続けるには、下記に新たなデータベース接続設定を入力してください:';
+$string['dbmigratepostgres'] = 'あなたはデータベースサーバとして、PostgreSQLを使用しているようです。移行処理を続けるには、移行データを保存するため「ユニコード」 (PostgreSQL 7) または「UTF8」 (PostgreSQL 8) の新たなデータベースを手動で作成してください。続けるには、以下に新たなデータベース接続設定を入力してください:';
 $string['dbmigratewarning'] = 'この処理を始める前に、Moodleデータベースをバックアップしたか確認してください。バックアップの方法が分からない場合は、システム管理者にご連絡ください。移行プロセスの開始後、あなたのMoodleサイトはメンテナンスモードに変更されます。';
 $string['dbmigratewarning2'] = '<b>警告: あなたはデータベース移行処理を開始しようとしています。すべてのMoodleデータベースをバックアップしているか、確実に確認してください。</b>';
 $string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">このデータベースは廃止され、新しいUTF8データベースに移行されました。このMoodleに新しいデータベースを使用するため、config.phpを編集してください。</font>';
@@ -586,7 +586,7 @@ $string['upgradeforumreadinfo'] = 'Moodle1.5では、フォーラムの既読/�
 $string['upgradelogs'] = '正常に動作させるためには、古いログのアップグレードが必要です。<a href=\"$a\">詳細はこちら</a>';
 $string['upgradelogsinfo'] = 'ログの保存方法に変更点があります。全活動ベースのログを閲覧することができるようにするには、古いログをアップグレードする必要があります。サイトによってはアップグレード作業に長時間(例 数時間)を要し、規模が大きなサイトではデータベースに負担がかかります。処理を開始した場合は終了するまでそのまま(ブラウザを開いたまま)にしてください。心配する必要はありません - ログが更新された後に、あなたのサイトは正常に動作します。<br/><br/>本当にログをアップグレードしてもよろしいですか?';
 $string['upgradesettings'] = '新しい設定';
-$string['upgradesettingsintro'] = '下記に表示されている設定は、あなたの前回のMoodleアップグレードで追加されました。変更した内容を必要に応じてデフォルトに戻し、このページ下部にある「設定を保存する」をクリックしてください。';
+$string['upgradesettingsintro'] = '以下に表示されている設定は、あなたの前回のMoodleアップグレードで追加されました。変更した内容を必要に応じてデフォルトに戻し、このページ下部にある「設定を保存する」をクリックしてください。';
 $string['upgradesure'] = 'あなたのMoodleファイルが更新されました。自動的にMoodleを下記バージョンにアップグレードしようとしています: <br /><br /><strong>$a</strong> <br /><br />
 一旦この処理を開始すると元に戻すことはできません。<br /><br />
 この処理には時間がかかりますので注意してください。<br /><br />

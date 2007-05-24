@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.8 dev (2006102600)
+      // exercise.php - created with Moodle 1.9 dev (2007052300)
 
 
 $string['absent'] = '欠席';
@@ -110,7 +110,7 @@ $string['phase3short'] = '表示';
 $string['pleasegradetheassessment'] = '$a によるこの提出課題の評価を評定してください。';
 $string['pleasemakeyourownassessment'] = '$a の課題に対するあなた自身の評価を作成してください。<br />評価フォームには、最初に学生の評価が表示されています。<br />必要だと思う変更を加えて、ページ下部の<br />ボタンの1つをクリックしてください。';
 $string['pleasesubmityourwork'] = 'このフォームを使用してあなたの課題を提出してください。';
-$string['pleaseusethisform'] = '下記に表示されたエクササイズの指示を<br />完了したら、このフォームに入力してください。';
+$string['pleaseusethisform'] = '以下に表示されたエクササイズの指示を<br />読んだ後、このフォームに必要事項を入力してください。';
 $string['pleaseviewtheexercise'] = '説明資料をクリックして、与えられた下記のエクササイズを確認してください。<br />内容が理解できたら、エクササイズの指示に従ってください。<br />あなたがエクササイズを満足に完了したら、下記のボックスの評価 (または再評価) リンクをクリックしてください。<br />あなたがこの課題を完了した時点で、提出した課題の中に更なる指示が表示されます。';
 $string['poor'] = '悪い';
 $string['present'] = '出席';

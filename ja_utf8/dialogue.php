@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.8 dev (2006102600)
+      // dialogue.php - created with Moodle 1.9 dev (2007052300)
 
 
 $string['addmynewentries'] = '新しいエントリを追加';
@@ -16,7 +16,7 @@ $string['dialogueclosed'] = 'ダイアログが閉じられました';
 $string['dialogueintro'] = 'ダイアログイントロダクション';
 $string['dialoguemail'] = '$a->userfrom が新しいエントリをあなたのダイアログエントリ \'$a->dialogue\' に投稿しました。
 
-追加されたダイアログを下記にてご覧になれます:
+追加されたダイアログを以下にてご覧いただけます:
 
 $a->url';
 $string['dialoguemailhtml'] = 'a->userfrom があなたのダイアログエントリ \'<i>$a->dialogue</i>\' に新しいエントリを投稿しました。<br /><br />

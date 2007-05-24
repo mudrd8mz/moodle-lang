@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 1.9 dev (2007041800)
+      // feedback.php - created with Moodle 1.9 dev (2007052300)
 
 
 $string['add_item'] = '質問を追加する';
@@ -135,7 +135,7 @@ $string['save_item'] = '質問を保存する';
 $string['saving_failed'] = '保存に失敗しました。';
 $string['saving_failed_because_missing_or_false_values'] = '値が入力されていないか、正しくないため、保存に失敗しました。';
 $string['search_course'] = 'コースを検索する';
-$string['selected_dump'] = '選択された $SESSION 変数のインデックスは下記にダンプされます:';
+$string['selected_dump'] = '選択された $SESSION 変数のインデックスは以下にダンプされます:';
 $string['separator_decimal'] = '.';
 $string['separator_thousand'] = ',';
 $string['show_all'] = 'すべてを表示する';

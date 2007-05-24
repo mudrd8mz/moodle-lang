@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.8 dev (2007012500)
+      // assignment.php - created with Moodle 1.9 dev (2007052300)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -34,7 +34,7 @@ $string['editmysubmission'] = '提出課題を編集する';
 $string['emailstudents'] = '学生にメール通知する';
 $string['emailteachermail'] = '$a->username が「 $a->assignment 」の提出課題を更新しました。
 
-下記にて閲覧可能です:
+以下にて閲覧可能です:
 
 $a->url';
 $string['emailteachermailhtml'] = '$a->username が「 <i>$a->assignment</i> 」の提出課題を更新しました。<br /><br />
