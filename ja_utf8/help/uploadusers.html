@@ -9,11 +9,11 @@
   <li>最初のレコードは特別な意味を持ち、フィールド名一覧を記述します。 これは残りのレコードフォーマットを定義します。
     <blockquote>
       <p><strong>必須フィールド名:</strong> これらのフィールドは最初のレコードに記述し、ユーザごとに定義する必要があります。</p>
-      <p><font color="#990000" face="Courier New, Courier, mono">username, password, firstname, lastname, email</font></p>
+      <p><code class="example1">username, password, firstname, lastname, email</code></p>
       <p><strong>デフォルトフィールド名:</strong> これらは任意です - レコードに記述されない場合、管理者による初期値が使用されます。</p>
-      <p><font color="#990000" face="Courier New, Courier, mono">institution, department, city, country, lang, auth, timezone</font></p>
+      <p><code class="example1">institution, department, city, country, lang, auth, timezone</code> </p>
       <p><strong>オプション・フィールド名: </strong>これらはすべて完全に任意です。courseは、コースの「コース省略名」です - 記述されている場合、学生はこれらのコースに自動的に登録されます。groupは、対応する courseのグループに関連づける必要があります。例 group1 >> course1</p>
-      <p> <font color="#990000" face="Courier New, Courier, mono">idnumber, icq, phone1, phone2, address, url, description, mailformat, maildisplay, htmleditor, autosubscribe, course1, course2, course3, course4, course5, group1, group2, group3, group4, group5, type1, type2, type3, type4, type5, role1, role2, role3, role4, role5</font></p>
+      <p> <code class="example1">idnumber, icq, phone1, phone2, address, url, description, mailformat, maildisplay, htmleditor, autosubscribe, course1, course2, course3, course4, course5, group1, group2, group3, group4, group5, type1, type2, type3, type4, type5, role1, role2, role3, role4, role5</code></p>
     </blockquote>
     </li>
   <li>データ中のカンマは &amp;#44 にエンコードしてください - エンコードされたものをスクリプトが自動的にカンマにデコードします。</li>
@@ -22,17 +22,17 @@
   <li>courseには、コースの省略名を使用してください。groupにはグループ名を使用してください。roleには、idを使用してください。</li>
   <li>注意: ユーザがすでにMoodleデータベースに登録されている場合、このスクリプトはユーザID (データベースインデックス) を返し、他のフィールドを更新せずに、ユーザを指定されたコースに学生として登録します。</li>
 </ul>
-  
-  
-<p>下記は有効なインポートファイルの例です:</p>
-<p><font size="-1" face="Courier New, Courier, mono">username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1, type1<br />
-jonest, verysecret, Tom, Jones, jonest@someplace.edu, en, 3663737, 1, Intro101, Section 1, 1<br />
-reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3, 3</font></p>
 
-<h1>既存のアカウントを更新する</h1>
+<p>下記は有効なインポートファイルの例です:</p>
+<p><code>username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1, type1<br />
+jonest, verysecret, Tom, Jones, jonest@someplace.edu, en, 3663737, 1, Intro101, Section 1, 1<br />
+reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3, 3
+</code></p>
+
+<h2>既存のアカウントを更新する</h2>
 
 <p>デフォルトでは、あなたが新しいアカウントを作成するとMoodleは想定して、既存のアカウントとユーザ名が合致するレコードはスキップします。しかし、「既存のアカウントを更新する」オプションを<b>Yes</b>にした場合、既存のユーザアカウントは更新されます。</p>
 
-<p>既存のアカウントを更新する場合、ユーザ名を更新することもできます。「リネームを許可する」を<b>Yes</b>に設定して、ファイルに<font color="#990000" face="Courier New, Courier, mono">oldusername</font>フィールドを入れてください。</p>
+<p>既存のアカウントを更新する場合、ユーザ名を更新することもできます。「リネームを許可する」を<b>Yes</b>に設定して、ファイルに<code class="example1">oldusername</code>フィールドを入れてください。</p>
 
 <p><b>警告:</b> 既存のアカウント更新時に発生したエラーは、ユーザに悪い影響を及ぼします。既存のアカウントを更新するオプションを使用するときは注意してください。</p>
