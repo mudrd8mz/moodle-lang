@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.5.2 (2005060220)
+      // quiz_analysis.php - created with Moodle 1.7.1+ (2006101010)
 
 
+$string['analysis'] = 'Elementanalyse';
+$string['analysisdownload'] = 'Last ned analysen';
 $string['analysisoptions'] = 'Analysealternativ';
 $string['analysistitle'] = 'Analysetabell for enkeltspørsmål';
 $string['attemptsall'] = 'Alle forsøk';
@@ -13,8 +15,8 @@ $string['dicsindextitle'] = 'Disc.<br />Index';
 $string['disccoefftitle'] = 'Disc.<br />Coeff.';
 $string['downloadooo'] = 'Last ned i OpenOffice-format';
 $string['facilitytitle'] = '%% Correct<br>Facility';
-$string['lowmarkslimit'] = 'Ikke analyser hvis poengsummen er lavere enn: ';
-$string['pagesize'] = 'Spørsmål per side: ';
+$string['lowmarkslimit'] = 'Ikke analyser hvis poengsummen er lavere enn:';
+$string['pagesize'] = 'Spørsmål per side:';
 $string['qcounttitle'] = 'Q. count';
 $string['qidtitle'] = 'Q#';
 $string['qnametitle'] = 'Spørsmålnavn';

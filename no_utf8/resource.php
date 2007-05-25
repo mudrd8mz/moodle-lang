@@ -1,17 +1,21 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6.3 (2006050530)
+      // resource.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['addresource'] = 'Ny ressurs';
+$string['affectedresources'] = 'Berørte ressurser';
 $string['back'] = 'Tilbake';
 $string['browserepository'] = 'Bla gjennom lager';
 $string['choose'] = 'Velg';
 $string['chooseafile'] = 'Velg eller last opp ei fil';
 $string['chooseparameter'] = 'Velg parameter';
 $string['configallowlocalfiles'] = 'Når det lages en ny filressurs, tillates lenker til filer på et lokalt filsystem som f.eks. en CD eller harddisk. Dette kan være nyttig i en klasse hvor alle studentene har adgang til et felles nettverksdisk eller hvor filene på en CD må aksesseres. Bruk av denne egenskapen kan kreve endringer på nettleserens sikkerhetsinnstillinger.';
+$string['configautofilerenamesettings'] = 'Oppdater automatisk alle referanser til filer og mapper når navn endres i filbehandleren.';
+$string['configblockdeletingfilesettings'] = 'Blokker sletting av filer og mapper som som brukes av Ressurser. Vennligst merk deg at bilder og filer som det refereres til fra html ikke blir beskyttet.';
 $string['configdefaulturl'] = 'Denne verdien brukes til å forhåndsutfylle nettadressen når du lager en ny URL-basert ressurs.';
 $string['configfilterexternalpages'] = 'Dersom du slår på denne vil alle eksterne ressurser (nettsider, opplastede HTML-filer) kjøres gjennom de valgte filtrene på nettstedet (f.eks. autolenking i ordbok). Dersom du slår dette på vil kanskje nettstedet fungere svært mye tregere - bruk med forsiktighet og bare dersom du virkelig har behov for det.';
 $string['configframesize'] = 'Når ei nettside eller opplastet fil vises i en egen ramme er denne verdien lik størrelsen (i pixler) til topprammen (som inneholder navigeringen).';
+$string['configparametersettings'] = 'Dette bestemmer standard verdi for Parameterinnstilinger i skjemaet når det legges til nye ressurser. Etter første gangen blir dette en individuell brukerpreferanse.';
 $string['configpopup'] = 'Når du legger til en ressurs som skal vises i et nytt vindu: Skal dette være slått på som standard?';
 $string['configpopupdirectories'] = 'Skal nye vinduer vise kataloglenker som standard?';
 $string['configpopupheight'] = 'Hvilken høyde skal være standard for nye vinduer?';
@@ -22,11 +26,16 @@ $string['configpopupscrollbars'] = 'Skal det være standard med rullefelt i nye 
 $string['configpopupstatus'] = 'Skal nye vinduer vise statuslinjen som standard?';
 $string['configpopuptoolbar'] = 'Skal nye vinduer vise verktøylinjen som standard?';
 $string['configpopupwidth'] = 'Hvilken bredde skal være standard for nye vinduer?';
+$string['configsecretphrase'] = 'Denne hemmelige frasen blir brukt til å generere en kryptert kode som sendes ressurser som en parameter. Den krypterte koden blir generert som md5-verdi og baseres på brukerens IP-adresse og den hemmelige frasen. Dette øker sikkerheten vesentlig.';
 $string['configwebsearch'] = 'Når du legger til URLer som f.eks. en nettside eller en nettlenke, tilbys denne adressen som en side for å hjelpe brukerne til å finne den URLen de ønsker.';
+$string['configwindowsettings'] = 'Dette bestemmer en standardverdi for vindusinnstillinger i skjemaet når du legger til ressurser. Etter første gangen blir dette en individuell brukerpreferanse.';
+$string['deploy'] = 'Klargjør';
+$string['deployall'] = 'Klargjør alle';
 $string['directlink'] = 'Direkte lenke til denne fila';
 $string['directoryinfo'] = 'Ale filene i den valgte mappa vil bli vist.';
 $string['display'] = 'Vindu';
 $string['editingaresource'] = 'Rediger en ressurs';
+$string['emptyfolder'] = 'Tøm mappen';
 $string['encryptedcode'] = 'Kryptert kode';
 $string['example'] = 'Eksempel';
 $string['exampleurl'] = 'http://www.domene.no/mappe/fil.html';
@@ -38,9 +47,12 @@ $string['filtername'] = 'Automatisk lenke til ressurser';
 $string['frameifpossible'] = 'Vis ressursen i ei ramme slik at navigeringen er synlig';
 $string['fulltext'] = 'Full tekst';
 $string['htmlfragment'] = 'Teksten som skal vises';
+$string['imspackageloaded'] = 'Pakken er lastet inn';
 $string['localfile'] = 'Lokal fil';
 $string['localfilechoose'] = 'Velg ei lokal fil';
 $string['localfilehelp'] = 'hjelp til å vise lokale filer';
+$string['localfileinfo'] = '<p>Velg en fil lokalt på PC-en din. Filen vil ikke bli lastet opp i siten, men Moodle vil se etter denne filen på den enkelte brukers PC når de klikker på denne ressursen.</p><p>Dette er kjekt når du har sendt ut en CDROM med store mediefiler (f.eks. video) til studentene. Hver bruker kan legge inn en sti til CDROM-spilleren (eller andre steder), via <a href=\"$a\" target=\"_blank\">redigering av brukerprofilen</a>.</p>';
+$string['localfilepath'] = 'Når du skal legge inn en lokal sti for denne ressursen velger du en fil fra f.eks. en CDROM på din PC. Filen vil ikke bli lastet opp, men informasjon om hvordan Moodle en annen gang skal finne CDROM-stasjonen din blir lagret.';
 $string['localfileselect'] = 'Velg denne filbanen';
 $string['maindirectory'] = 'Hovedmappe';
 $string['modulename'] = 'Ressurs';
@@ -63,16 +75,24 @@ $string['newwindow'] = 'Nytt vindu';
 $string['newwindowopen'] = 'Vis denne ressursen i et nytt vindu';
 $string['next'] = 'Neste';
 $string['notallowedlocalfileaccess'] = 'Adgang til lokale filer er for tiden sperret, så denne ressursen er ikke tilgjengelig.';
+$string['notdeployed'] = 'Ikke klargjort';
 $string['note'] = 'Notat';
 $string['notefile'] = 'Bruk <a href=\"$a\">filbehandleren</a>for å laste opp flere filer til kurset.';
 $string['notypechosen'] = 'Du må velge en type. Bruk tilbakeknappen og prøv på nytt.';
+$string['packagechanged'] = 'Denne IMS-innholdspakken er blitt endret';
+$string['packagenotdeplyed'] = 'Denne IMS-innholdspakken er ikke klargjort';
 $string['pagedisplay'] = 'Vis denne ressursen i dette vinduet.';
 $string['pagewindow'] = 'Samme vindu';
+$string['pan'] = 'Panorer';
 $string['parameter'] = 'Parameter';
 $string['parameters'] = 'Parametre';
 $string['popupresource'] = 'Denne ressursen skal komme i et nytt vindu';
 $string['popupresourcelink'] = 'Hvis den ikke gjorde det, klikk her: $a';
+$string['preview'] = 'Forhåndsvisning';
 $string['previous'] = 'Forrige';
+$string['redeploy'] = 'Klargjør igjen';
+$string['repository'] = 'IMS lager';
+$string['resource:view'] = 'Vis ressursen';
 $string['resourcetype'] = 'Type ressurs';
 $string['resourcetype1'] = '7. Referanse (F.eks. til bok, nettsted, artikkel etc.)';
 $string['resourcetype2'] = 'Nettside';
@@ -86,14 +106,20 @@ $string['resourcetype9'] = 'Mappe';
 $string['resourcetypedirectory'] = 'Vis en mappe';
 $string['resourcetypefile'] = 'Lenk til en fil eller et nettsted';
 $string['resourcetypehtml'] = 'Lag en nettside';
+$string['resourcetypeims'] = 'Legg til en IMS-innholdspakke';
 $string['resourcetypelabel'] = 'Sett inn ei overskrift';
+$string['resourcetyperepository'] = 'Lenke til et lagret objekt';
 $string['resourcetypetext'] = 'Lag ei tekstside';
 $string['searchweb'] = 'Søk etter ei nettside';
 $string['serverurl'] = 'Tjener URL ($a->wwwroot)';
 $string['showcourseblocks'] = 'Vis kursbokser';
+$string['skipsubmenus'] = 'Hopp over undermeny-sider';
 $string['tableofcontents'] = 'Innholdsfortegnelse';
 $string['upbutton'] = 'Opp';
 $string['variablename'] = 'Variabelnavn';
+$string['viewims'] = 'Vis IMS-innholdspakke';
 $string['vol'] = 'Vol.';
+$string['warningblockingdelete'] = 'Advarsel: Slettingen er blokkert av en eksisterende ressurs. Du må enten redigere eksisterende ressurs eller be administrator oppheve sikkerhetsmekanismen i det globale ressursoppsettet.';
+$string['warningdisabledrename'] = 'Advarsel: Automatisk oppdatering av referanser til ressurser er koblet ut. Vennligst oppdater berørte ressurser manuelt, hvis nødvendig. Administrator kan også aktivere automatisk oppdatering i de globale ressursinnstillingene.';
 
 ?>

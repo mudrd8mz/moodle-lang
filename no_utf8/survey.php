@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.6.3 (2006050530)
+      // survey.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['actual'] = 'Faktisk';
-$string['actualclass'] = 'Klasse faktisk';
+$string['actualclass'] = 'Gjelde kurs';
 $string['actualstudent'] = '$a faktisk';
 $string['allquestions'] = 'Alle spørsmål i rekkefølge, alle studenter';
 $string['allscales'] = 'Alle skalaer, alle studenter';
@@ -52,15 +52,15 @@ $string['attls9'] = 'Jeg tar meg selv ofte i å argumentere mot forfattere av b�
 $string['attls9short'] = 'argumentere mot forfattere';
 $string['attlsintro'] = 'Meningen med denne undersøkelsen er å hjelpe oss å evaluere dine holdninger til tenking og læring.
 
-Det er ingen \'riktige\' eller \'gale\' svar; vi er bare interessert i din mening. Svarene blir behandlet strengt konfidensielt og vil ikke påvirke dine resultater i klassen.';
+Det er ingen \'riktige\' eller \'gale\' svar; vi er bare interessert i din mening. Svarene blir behandlet strengt konfidensielt og vil ikke påvirke dine resultater i kurset.';
 $string['attlsm1'] = 'Holdninger til tenking og læring';
 $string['attlsm2'] = 'Koblet læring';
 $string['attlsm3'] = 'Separat læring';
 $string['attlsmintro'] = 'I diskusjon...';
 $string['attlsname'] = '20 avmerkingsspørsmål om tenking og læring';
-$string['ciq1'] = 'Hvilket øyeblikk i klassen lærte du <b>mest</b>?';
+$string['ciq1'] = 'Hvilket øyeblikk i kurset lærte du <b>mest</b>?';
 $string['ciq1short'] = 'Mest engasjert';
-$string['ciq2'] = 'Hvilket øyeblikk i klassen lærte du <b>minst</b>?';
+$string['ciq2'] = 'Hvilket øyeblikk i kurset lærte du <b>minst</b>?';
 $string['ciq2short'] = 'Mest distansert';
 $string['ciq3'] = 'Hva i foraene finner du mest positivt eller hjelpsomt?';
 $string['ciq3short'] = 'Hjelpsomt øyeblikk';
@@ -129,7 +129,7 @@ Det er ingen \'riktige\' eller \'gale\' svar; vi er bare interessert i din menin
 Dine nøye gjennomtenkte svar vil hjelpe oss til å forbedre måten denne enheten blir presentert på nett i framtiden.
 
 Tusen takk.';
-$string['collesaname'] = '26 spørsmål om faktiske forhold i klassen';
+$string['collesaname'] = '26 spørsmål om faktiske forhold i kurset';
 $string['collesapintro'] = 'Meningen med denne undersøkelsen er å hjelpe oss å forstå hvor godt nettpresentasjonen av denne enheten hjalp deg å lære. 
 
 Hver av de 24 påstandene under ber deg sammenligne dine <b>ønskede</b> (ideelle) og <b>faktiske</b> erfaringer i denne enheten.
@@ -155,11 +155,11 @@ $string['collesm6short'] = 'Tolkning';
 $string['collesmintro'] = 'I denne nettenheten ...';
 $string['collespintro'] = 'Meningen med denne undersøkelsen er å hjelpe oss å forstå hva du finner verdifullt i læring over Internett.
 
-Hver av de 24 påstandene under spør etter dine <b>foretrukne</b> (ideelle) erfaringer i denne klassen.
+Hver av de 24 påstandene under spør etter dine <b>foretrukne</b> (ideelle) erfaringer i dette kurset.
 
 Det er ingen \'riktige\' eller \'gale\' svar; vi er bare interessert i din mening. Svarene vil bli behandlet konfidensielt og vil ikke påvirke dine resultater.
 
-Dine nøye gjennomtenkte svar vil hjelpe oss i å forbedre denne klassen på nett i framtiden.
+Dine nøye gjennomtenkte svar vil hjelpe oss i å forbedre dette kurset på nett i framtiden.
 
 Tusen takk.';
 $string['collespname'] = '26 spørsmål om ønskede forhold i kurset';
@@ -199,7 +199,10 @@ $string['scaletimes5'] = 'Nesten aldri,Sjelden,Noen ganger,Ofte,Nesten alltid';
 $string['seemoredetail'] = 'Klikk her for detaljer';
 $string['selectedquestions'] = 'Valgte spørsmål fra en skala, alle studentene';
 $string['summary'] = 'Sammendrag';
-$string['surveycompleted'] = 'Du har fullført denne undersøkelsen. Grafen under viser et sammendrag av dine resultater sammenlignet med klassens gjennomsnitt.';
+$string['survey:download'] = 'Last ned svar';
+$string['survey:participate'] = 'Svar på  undersøkelsen';
+$string['survey:readresponses'] = 'Vis svar';
+$string['surveycompleted'] = 'Du har fullført denne undersøkelsen. Grafen under viser et sammendrag av dine resultater sammenlignet med kursets gjennomsnitt.';
 $string['surveyname'] = 'Navn på undersøkelse';
 $string['surveysaved'] = 'Undersøkelse lagret';
 $string['surveytype'] = 'Type undersøkelse';

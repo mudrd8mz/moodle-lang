@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6.3 (2006050530)
+      // chat.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['beep'] = 'tuut';
+$string['chat:chat'] = 'Snakk i chat';
+$string['chat:deletelog'] = 'Slett chat-loggene';
+$string['chat:readlog'] = 'Vis chat-loggene';
 $string['chatintro'] = 'Introduksjon';
 $string['chatname'] = 'Navnet på dette praterommet';
 $string['chatreport'] = 'Praterunder';
@@ -10,6 +13,8 @@ $string['chattime'] = 'Neste prat (Dato og klokkeslett)';
 $string['configoldping'] = 'Etter hvor lang tid uten å høre fra en bruker skal vi regne han som borte?';
 $string['configrefreshroom'] = 'Hvor ofte skal praterommet i seg selv oppdateres (i sekunder). Settes denne lavt virker rommet raskere, men det kan føre til større belastning for serveren når det er mange som prater.';
 $string['configrefreshuserlist'] = 'Hvor ofte skal listen over brukere oppdateres (i sekunder)?';
+$string['configservermax'] = 'Max antall samtidige';
+$string['configserverport'] = 'Portnummer på serveren for denne tjenesten';
 $string['currentchats'] = 'Aktive praterunder';
 $string['currentusers'] = 'Nåværende brukere';
 $string['deletesession'] = 'Slett denne runden';

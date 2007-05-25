@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.6.3 (2006050530)
+      // forum.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['addanewdiscussion'] = 'Skriv i dette forumet';
@@ -41,7 +41,7 @@ $string['deletedpost'] = 'Innlegget er slettet';
 $string['deletedposts'] = 'Disse innleggene er slettet';
 $string['deletesure'] = 'Er du sikker på at du vil slette dette innlegget?';
 $string['deletesureplural'] = 'Er du sikker på at du vil slette dette innlegget og alle svarene($a innlegg)';
-$string['digestmailheader'] = 'Her kommer din daglige samlepost fra forumene på $a->sitename. Gåt til $a->userprefs hvis du vil endre innstillingene for postutsendelse.';
+$string['digestmailheader'] = 'Her kommer din daglige samlepost fra forumene på $a->sitename. Gå til $a->userprefs hvis du vil endre innstillingene for postutsendelse.';
 $string['digestmailprefs'] = 'Din brukerprofil';
 $string['digestmailsubject'] = 'Samlepost fra forumet $a';
 $string['digestsentusers'] = 'Sendte samlepost til $a brukere.';
@@ -49,6 +49,7 @@ $string['disallowsubscribe'] = 'Abonnementer er ikke tillatt';
 $string['disallowsubscribeteacher'] = 'Abonnementer er ikke tillatt (med unntak av lærere)';
 $string['discussion'] = 'Diskusjon';
 $string['discussionmoved'] = 'Denne diskusjonen er flyttet til \'$a\'.';
+$string['discussionmovedpost'] = 'Denne diskusjonen er blitt flyttet <a href=\"$a->discusshref\">hit</a> i forumet <a href=\"$a->forumhref\">$a->forumname</a>';
 $string['discussionname'] = 'Navn på diskusjon';
 $string['discussions'] = 'Diskusjoner';
 $string['discussionsstartedby'] = 'Diskusjoner startet av $a';
@@ -68,6 +69,23 @@ $string['existingsubscribers'] = 'Esksisterende abonnenter';
 $string['forcesubscribe'] = 'Tving alle til å abonnere';
 $string['forcesubscribeq'] = 'Tving alle til å abonnere?';
 $string['forum'] = 'Forum';
+$string['forum:createattachment'] = 'Sett inn vedlegg';
+$string['forum:deleteanypost'] = 'Slett ethvert innlegg (når som helst)';
+$string['forum:deleteownpost'] = 'Slett egne innlegg (innen fristen)';
+$string['forum:editanypost'] = 'Redigert ethvert innlegg';
+$string['forum:managesubscriptions'] = 'Administrere abonnenter';
+$string['forum:movediscussions'] = 'Flytte diskusjoner';
+$string['forum:rate'] = 'Vurder innlegg';
+$string['forum:replypost'] = 'Svare på innlegg';
+$string['forum:splitdiscussions'] = 'Dele opp diskusjoner';
+$string['forum:startdiscussion'] = 'Starte nye diskusjoner';
+$string['forum:throttlingapplies'] = 'Aktiverer begrensninger';
+$string['forum:viewanyrating'] = 'Se alle vurderinger';
+$string['forum:viewdiscussion'] = 'Se diskusjoner';
+$string['forum:viewhiddentimedposts'] = 'Se innlegg før redigeringsfristen er ute';
+$string['forum:viewqandawithoutposting'] = 'Alltid vise Q og A innlegg';
+$string['forum:viewrating'] = 'Se vurderinger';
+$string['forum:viewsubscribers'] = 'Se abonnentene';
 $string['forumauthorhidden'] = 'Forfatter (skjult)';
 $string['forumblockingalmosttoomanyposts'] = 'Du er i ferd med å nå grensen for innlegg. Du har sendt inn $a->numposts ganger på den siste $a->blockperiod og grensen er $a->blockafter innlegg.';
 $string['forumbodyhidden'] = 'Dette innlegget kan ikke sees av deg, sannsynligvis fordi du ikke har sendt inn noe innlegg i diskusjonen ennå.';
@@ -76,6 +94,8 @@ $string['forumname'] = 'Forumnavn';
 $string['forumposts'] = 'Foruminnlegg';
 $string['forums'] = 'Forum';
 $string['forumsubjecthidden'] = 'Tema (skjult)';
+$string['forumtracked'] = 'Uleste innlegg skal spores';
+$string['forumtrackednot'] = 'Uleste innlegg skal ikke spores';
 $string['forumtype'] = 'Forumtype';
 $string['generalforum'] = 'Vanlig forum (Passer i de fleste sammenhenger)';
 $string['generalforums'] = 'Generelle forum';
@@ -103,6 +123,7 @@ $string['modethreaded'] = 'Vis svar som tråd (Kun overskrifter)';
 $string['modulename'] = 'Forum';
 $string['modulenameplural'] = 'Forum';
 $string['more'] = 'mer';
+$string['movedmarker'] = '(Flyttet)';
 $string['movethisdiscussionto'] = 'Flytt diskusjonen til et annet forum';
 $string['namenews'] = 'Oppslagstavle';
 $string['namesocial'] = 'Sosialt forum';
@@ -121,6 +142,7 @@ $string['nosubscribers'] = 'Det er forløpig ingen som ønsker å motta e-postko
 $string['nothingnew'] = 'Ingenting nytt for $a';
 $string['notingroup'] = 'Beklager, men du må være medlem i en gruppe for å se dette forumet.';
 $string['notrackforum'] = 'Ikke hold orden på uleste innlegg';
+$string['noviewdiscussionspermission'] = 'Du har ikke høye nok rettigheter til å se diskusjonene i dette forumet';
 $string['nowallsubscribed'] = 'Alle fora i $a er abonnert på.';
 $string['nowallunsubscribed'] = 'Ingen fora i $a er abonnert på.';
 $string['nownotsubscribed'] = '$a->name vil ikke motta e-postkopier fra \'$a->forum\'.';
@@ -230,5 +252,7 @@ $string['youratedthis'] = 'Du vurderte denne';
 $string['yournewquestion'] = 'Ditt nye spørsmål';
 $string['yournewtopic'] = 'Ditt nye diskusjonsemne';
 $string['yourreply'] = 'Ditt svar';
+$string['nopostdiscussion'] = 'Beklager, du kan ikke poste innlegg i denne diskusjonen'; // ORPHANED
+$string['nopostforum'] = 'Beklager, du kan ikke poste innlegg i dette forumet'; // ORPHANED
 
 ?>

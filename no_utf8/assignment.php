@@ -1,9 +1,14 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.6.3 (2006050530)
+      // assignment.php - created with Moodle 1.8 + (2007021503)
 
 
-$string['allowmultiple'] = 'Tillat flere filer';
+$string['allowdeleting'] = 'Tillat sletting';
+$string['allowmaxfiles'] = 'Maksimalt antall opplastede filer';
+$string['allownotes'] = 'Tillatt kommentarer';
 $string['allowresubmit'] = 'Tillat ny innlevering';
+$string['assignment:grade'] = 'Oppgave med karakterer';
+$string['assignment:submit'] = 'Send inn oppgavesvaret';
+$string['assignment:view'] = 'Se på oppgave';
 $string['assignmentdetails'] = 'Oppgavedetaljer';
 $string['assignmentmail'] = '$a->teacher har sendt en tilbakemelding på din
 innlevering \'$a->assignment\'. Du kan se tilbakemeldingen her: $a->url
@@ -16,19 +21,15 @@ innlevering \'<i>$a->assignment</i>\'<br /><br />
 Du kan se tilbakemeldingen <a href=\"$a->url\">her:</a>.';
 $string['assignmentname'] = 'Oppgavenavn';
 $string['assignmenttype'] = 'Oppgavetype';
-$string['attachfile'] = 'Legg ved fil';
-$string['attachfiletoassignment'] = 'Legg fil(er) til oppgaven';
 $string['availabledate'] = 'Tilgjengelig fra';
-$string['backtoassignment'] = 'Tilbake til oppgaven';
-$string['backtofeedback'] = 'Tilbake til tilbakemelding';
-$string['choosereviewfile'] = 'Velg en fil å laste opp som en bedømmelse av oppgaven';
 $string['comment'] = 'Kommentar';
 $string['commentinline'] = 'Kommenter i tekst';
+$string['configitemstocount'] = 'Egenskaper ved elementer som skal telles med ved studentinnleveringer via nett.';
 $string['configmaxbytes'] = 'Standard maksimum oppgavestørrelse for alle oppgavene på sidene (overordnet klassenes grenser og andre lokale innstillinger)';
-$string['deletecheckfile'] = 'Er du helt sikker på at du ønsker å slette denne filen?';
-$string['deleteednotification'] = 'Filen er slettet.';
-$string['deletefail'] = 'Den følgende filen har ikke blitt slettet:';
+$string['confirmdeletefile'] = 'Er du HELT SIKKER på at du vil slette denne filen?<br /><strong>$a</strong>';
+$string['deletefilefailed'] = 'Sletting av filen mislykkes';
 $string['description'] = 'Beskrivelse';
+$string['draft'] = 'Kladd';
 $string['duedate'] = 'Innleveringsfrist';
 $string['duedateno'] = 'Ingen innleveringsfrist';
 $string['early'] = '$a før fristen';
@@ -57,45 +58,48 @@ $string['helpupload'] = '<p>Denne oppgavetypen tillater hver deltaker å laste o
 <p>Det kan være et Word-dokument, bilder, et komprimert nettsted,eller hva som helst du ber dem om å levere inn.</p>
 <p>Denne typen tillater deg å laste opp flere svarfiler av hvilken som helst type.</p>';
 $string['helpuploadsingle'] = '<p>Denne type innlevering lar hver deltaker laste opp en enkelt fil av hvilken som helst type.</p><p>Dette kan være et Word-dokument, et bilde, et komprimert nettsted, eller hva som helst du ellers måtte be dem om å levere inn.</p>';
+$string['hideintro'] = 'Skjul beskrivelsen før tilgjengeligdato';
 $string['late'] = '$a for sent';
-$string['markingsubmitnotification'] = 'Filen har blitt sendt til karaktersetting.';
 $string['maximumgrade'] = 'Maks karakter/poeng';
 $string['maximumsize'] = 'Maks filstørrelse';
 $string['modulename'] = 'Innlevering';
 $string['modulenameplural'] = 'Innlevering';
-$string['namedeletefile'] = 'Du holder på å slette denne filen:';
 $string['newsubmissions'] = 'Leverte oppgaver';
 $string['noassignments'] = 'Det er ingen oppgaver ennå';
 $string['noattempts'] = 'Det har ikke vært gjort noen forsøk på denne oppgaven ennå.';
-$string['nofilesforsubmit'] = 'Ingen filer ble funnet for innlevering - er du sikker på at du har lastet opp noen fil?';
+$string['nofiles'] = 'Ingen filer ble sendt';
+$string['nofilesyet'] = 'Ingen filer er lastet opp til siden ennå';
+$string['notavailableyet'] = 'Beklager, denne innleveringen er ikke tilgjengelig ennå.<br/>Instrukser for innleveringen vil vises på datoen som er oppgitt under.';
+$string['notes'] = 'Notater';
+$string['notesempty'] = 'Ingen notater';
+$string['notesupdateerror'] = 'Feil ved oppdatering av notatet';
 $string['notgradedyet'] = 'Ikke satt karakter enda';
 $string['notsubmittedyet'] = 'Ikke levert enda';
+$string['onceassignmentsent'] = 'Straks innleveringsfristen er ute, kan du ikke lenger slette eller legge til filer. Ønsker du å fortsette?';
 $string['overwritewarning'] = 'Advarsel: Laster du opp på nytt vil du OVERSKRIVE din leverte oppgave';
 $string['pagesize'] = 'Innleveringer vist pr side';
 $string['preventlate'] = 'Forhindre sene innleveringer';
 $string['quickgrade'] = 'Tillat rask karaktersetting';
-$string['removelink'] = 'Fjern';
-$string['responsefile'] = 'Svarfil:';
-$string['responsesfromteacher'] = 'Svar lastet opp av Lærer';
+$string['responsefiles'] = 'Responsfil';
+$string['reviewed'] = 'Gjennomlest';
 $string['saveallfeedback'] = 'Lagre og send all(e) tilbakemelding(er)';
 $string['sendformarking'] = 'Send for karaktersetting';
-$string['step1'] = 'Trinn 1:';
-$string['step2'] = 'Trinn 2:';
 $string['submission'] = 'Innlevering';
+$string['submissiondraft'] = 'Innleveringskladd';
 $string['submissionfeedback'] = 'Tilbakemelding';
 $string['submissions'] = 'Leveringer';
 $string['submissionsaved'] = 'Dine endringer er lagret';
 $string['submissionsnotgraded'] = '$a innleveringer ikke karaktersatt';
-$string['submissionstatus'] = 'Innleveringsstatus:';
-$string['submissionstatusblank'] = 'Tom';
-$string['submissionstatusdraft'] = 'Kladd';
-$string['submissionstatusmarked'] = 'Karaktersatt';
-$string['submissionstatusreturned'] = 'Returnert';
-$string['submissionstatussubmitted'] = 'Innlevert';
 $string['submitassignment'] = 'Lever din oppgave med nettskjemaet nedenfor';
+$string['submitedformarking'] = 'Innleveringen er allerede under behandling av lærer og kan ikke oppdateres';
+$string['submitformarking'] = 'Endelig innlevering for vurdering';
 $string['submitted'] = 'Levert';
-$string['typeoffline'] = 'Frakoplet aktivitet (Oppgaven skal IKKE leveres over nett med Moodle)';
-$string['typeuploadsingle'] = 'Last opp (kopiere) en fil til Moodle';
+$string['submittedfiles'] = 'Leverte filer';
+$string['typeoffline'] = 'Frakoplet aktivitet';
+$string['typeonline'] = 'Online tekst';
+$string['typeupload'] = 'Last opp flere filer';
+$string['typeuploadsingle'] = 'Last opp fil';
+$string['unfinalize'] = 'Tilbakestilt som kladd';
 $string['uploadbadname'] = 'Filnavnet inneholdt ugyldige tegn og filen kunne derfor ikke lastes opp';
 $string['uploadedfiles'] = 'Opplastede filer';
 $string['uploaderror'] = 'En feil oppstod ved lagring av filen på serveren';

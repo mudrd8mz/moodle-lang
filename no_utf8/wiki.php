@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6.3 (2006050530)
+      // wiki.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['action'] = '-- Handling --';
@@ -94,6 +94,7 @@ $string['linkok'] = 'OK';
 $string['linkschecked'] = 'Lenker sjekket';
 $string['listall'] = 'List opp alle';
 $string['listcandidates'] = 'List opp kandidatene';
+$string['lockcancelled'] = 'Redigeringslåsen din er blitt overstyrt og noen andre redigerer denne siden akkurat nå. Dersom du vil ta vare på endringene dine, merk og kopier dem før du klikker Avbryt. Prøv deretter en gang til.';
 $string['meta'] = 'Metadata';
 $string['moduledirectory'] = 'Modulmappe';
 $string['modulename'] = 'Wiki';
@@ -105,6 +106,7 @@ $string['noadministrationaction'] = 'Ingen administrasjonshandling angitt.';
 $string['nocandidatestoremove'] = 'Ingen kandidatsider å fjerne, velg \'$a\' for å vise alle sidene.';
 $string['nochangestorevert'] = 'Ingen endringer å gjøre om.';
 $string['nohtml'] = 'Ingen HTML';
+$string['nojslockwarning'] = 'Moodle bruker Javascript for å hindre at to redigerer på samme side. Siden Javascript er koblet ut i nettleseren din, kan det hende at noen andre redigerer siden din samtidig med deg. Hvis det skjer, får du ikke lagret endringene dine. Gjør endringene dine raskt, eller slå på Javascript og prøv igjen. (Siste forslag er best)';
 $string['nolinksfound'] = 'Ingen lenker ble funnet på denne siden.';
 $string['noregexp'] = 'Dette må være en bestemt streng (du kan ikke bruke * eller regex), i beste fall kan du bruke angripernes IP-adresse eller vertsnavn, men ikke inkluder portnummer (fordi det øker mer hver http-tilgang).';
 $string['notadministratewiki'] = 'Du har ikke lov til å administrere denne wikien.';
@@ -116,10 +118,13 @@ $string['optional'] = 'Valgfritt';
 $string['orphanedpage'] = 'Isolert side';
 $string['orphanedpages'] = 'Isolerte sider';
 $string['otherwikis'] = 'Andre wikier';
+$string['overridebutton'] = 'Overstyr låsen';
+$string['overrideinfo'] = 'Vær forsiktig! Du kan overstyre denne brukerens redigeringslås, men da kan det hende de mister endringene sine!';
 $string['ownerunknown'] = 'ukjent';
 $string['pageactions'] = 'Sidehandlinger';
 $string['pageindex'] = 'Sideoversikt';
 $string['pageinfo'] = 'Sideinformasjon';
+$string['pagelocked'] = '<p><strong>Denne siden redigeres av $a->name.</strong> Brukeren startet redigeringen $a->since og har fortsatt redigeringsvinduet åpent $a->seen.</p><p>Du må vente til $a->name har lagret før du kan redigere denne siden.</p>';
 $string['pagename'] = 'Sidenavn';
 $string['pagenamechoice'] = '- eller -';
 $string['pageslinkingto'] = 'Sider med lenker til denne siden.';
@@ -144,6 +149,7 @@ $string['revertpagescheck'] = 'Vil du virkelig gjøre om disse endringene:';
 $string['revertthe'] = 'Versjonsdykking, men fjern kun den berørte';
 $string['safehtml'] = 'Sikker HTML';
 $string['save'] = 'Lagre';
+$string['savenolock'] = 'Du får ikke lagret denne siden fordi du ikke får satt redigeringslås på siden. Dette skjer i blant hvis du har Javascript avslått i nettleseren din, eller hvis andre har overstyrt redigeringslåsen din.br/><br/>Du kan gå tilbake til forrige side via nettleserens Tilbake-knapp, merke og kopiere de endringene du har gjort, og deretter prøve igjen.';
 $string['searchwiki'] = 'Søk i Wikien';
 $string['setpageflags'] = 'Sett sideflagg';
 $string['showversions'] = 'Vis versjoner:';
@@ -177,6 +183,9 @@ $string['versionstodelete'] = 'Versjon(er) å slette';
 $string['viewpage'] = 'Se siden';
 $string['viewsmfor'] = 'Se nettstedskart for:';
 $string['wantedpages'] = 'Ønskede sider';
+$string['wiki:manage'] = 'Administrer Wiki innstillingene';
+$string['wiki:overridelock'] = 'Overstyr låste sider';
+$string['wiki:participate'] = 'Rediger wiki sider';
 $string['wikidefaultpagename'] = 'WikiIndeks';
 $string['wikiexport'] = 'Send sider';
 $string['wikiexportcomment'] = 'Her kan du stille inn eksporten slik du vil ha den.';

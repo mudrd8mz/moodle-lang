@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6.3 (2006050530)
+      // quiz.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['1day'] = '1 dag';
@@ -74,6 +74,7 @@ $string['categorydeleted'] = 'Kategorien $a ble slettet';
 $string['categoryinfo'] = 'Informasjon om kategorier';
 $string['categorymove'] = 'Kategorien \'$a->name\' har $a->count spørsmål. Vennligst velg en annen kategori å flytte dem til.';
 $string['categorymoveto'] = 'Flytt dem til denne kategorien';
+$string['categorynamecantbeblank'] = 'Kategorinavnet kan ikke være tomt';
 $string['categorynoedit'] = 'Du har ikke rettigheter til å redigere spørsmål i kategorien \'$a\'';
 $string['categoryupdated'] = 'Oppdateringen av denne kaegorien var vellykket';
 $string['changessaved'] = 'Endringer av karakterer lagret';
@@ -83,6 +84,7 @@ $string['choices'] = 'Tilgjengelige svar';
 $string['choosedatasetproperties'] = 'Velg egenskapene til datasettet';
 $string['choosefile'] = 'Velg ei fil';
 $string['close'] = 'Lukk forhåndsvsining';
+$string['closebeforeopen'] = 'Kunne ikke fullføre oppdateringen. Du har valgt en frist for fullføring som er FØR åpningsdatoen.';
 $string['closepreview'] = 'Lukk forhåndsvisning';
 $string['closereview'] = 'Lukk sammendrag';
 $string['comment'] = 'Kommentar';
@@ -101,6 +103,7 @@ $string['copyingquestion'] = 'Kopierer et spørsmål';
 $string['correct'] = 'Riktig';
 $string['correctanswer'] = 'Riktig svar';
 $string['correctanswerformula'] = 'Korrekt formel for svar';
+$string['correctansweris'] = 'Korrekt svar: $a';
 $string['correctanswerlength'] = 'gjeldende siffer';
 $string['correctanswers'] = 'Riktige svar';
 $string['correctanswershows'] = 'Riktig svar viser';
@@ -131,6 +134,7 @@ $string['deletequestioncheck'] = 'Er du helt sikker på at du vil slette \'$a\'?
 $string['deletequestionscheck'] = 'Er du helt sikker på at du vil slette følgende spørsmål? <div>$a</div>';
 $string['deleteselected'] = 'Slett valgte';
 $string['description'] = 'Beskrivelse';
+$string['discrimination'] = 'Diskrimineringsindeks';
 $string['displayoptions'] = 'Vis valgmuligheter';
 $string['download'] = 'Klikk for å laste ned den eksporterte kategorifila';
 $string['downloadextra'] = '(Fila blir også lagra i kursfiler i /prøve-mappa)';
@@ -171,6 +175,8 @@ $string['event6'] = 'Lukk';
 $string['event7'] = 'Send';
 $string['event8'] = 'Lukk';
 $string['event9'] = 'Manuell karakter';
+$string['examview'] = 'Eksamensvisning';
+$string['existingcategory1'] = 'en bokstav fra et allerede eksisterende sett av bokstaver som også brukes av andre spørsmål i denne kategorien';
 $string['existingcategory2'] = 'en fil fra et allerede eksisterende sett med filer som også brukes av andre spørsmål i denne kategorien';
 $string['existingcategory3'] = 'en lenke fre et allerede eksisterende sett lenker som også brukes av andre spørsmål i denne kategorien';
 $string['export'] = 'Eksport';
@@ -182,9 +188,15 @@ $string['exportnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['exportquestions'] = 'Eksporter spørsmål til fil';
 $string['false'] = 'Feil';
 $string['feedback'] = 'Tilbakesvar';
+$string['feedbackerrorboundaryformat'] = 'Tilbakemeldingsgrenser må settes til enten prosent eller et tall. Grenseverdien $a, som du skrev inn, gjenkjennes ikke som gyldig verdi.';
+$string['feedbackerrorboundaryoutofrange'] = 'Tilbakemeldingsgrenser må være mellom 0%% og 100%%. Grenseverdien $a, som du skrev inn, er ikke innenfor gyldig område.';
+$string['feedbackerrorjunkinboundary'] = 'Du må fylle ut grenseverdiene uten gap.';
+$string['feedbackerrorjunkinfeedback'] = 'Du må fylle ut tilbakemeldingsboksene uten gap.';
+$string['feedbackerrororder'] = 'Grenseverdier for tilbakemelding må være ordnet med høyeste verdi først. Grenseverdien $a, som du skrev inn, er ikke en del av ordnet rekkefølge.';
 $string['file'] = 'Fil';
 $string['fileformat'] = 'Filformat';
 $string['fillcorrect'] = 'Sett inn riktig ord/frase';
+$string['filloutnumericalanswer'] = 'Du må legge inn minst ett mulig svar og en feilmargin. Første gyldige svar vil bli brukt til å bestemme score og tilbakemelding. Hvis du legger inn tilbakemelding uten svar, vil dette vises til studenter som svarer noe annet enn dine svaralternativer.';
 $string['filloutoneanswer'] = 'Du må skrive minst ett riktig svar. Svarfelter som er blanke vil ikke bli brukt.';
 $string['filloutthreequestions'] = 'Du må fylle ut minst 3 spørsmål. Ikke utfylte spørsmål blir ikke brukt.';
 $string['fillouttwochoices'] = 'Du må gi minst to valg. Felter som er blanke vil ikke bli brukt.';
