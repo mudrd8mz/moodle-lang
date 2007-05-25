@@ -1,16 +1,19 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.6.3 (2006050530)
+      // access.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['access'] = 'Tilgjengelighet';
 $string['accesshelp'] = 'Hjelp om tilgjengelighet';
 $string['accesskey'] = 'Adgangsnøkkel, $a';
 $string['accessstatement'] = 'Adgangsmelding';
+$string['activitynext'] = 'Neste aktivitet';
+$string['activityprev'] = 'Forrige aktivitet';
 $string['breadcrumb'] = 'Smulespor';
 $string['monthnext'] = 'Neste måned';
 $string['monthprev'] = 'Forrige måned';
 $string['showhideblock'] = 'Vis eller skjul boks';
 $string['sitemap'] = 'Oversikt over nettsted';
+$string['skipa'] = 'Hopp over $a';
 $string['skipblock'] = 'Hopp over boks';
 $string['skipnavigation'] = 'Hopp over navigering';
 $string['tabledata'] = 'Datatabell, $a';

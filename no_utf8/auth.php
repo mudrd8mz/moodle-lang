@@ -1,7 +1,22 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.6.3 (2006050530)
+      // auth.php - created with Moodle 1.8 + (2007021503)
 
 
+$string['CASform'] = 'Autentiseringsvalg';
+$string['accesCAS'] = 'CAS brukere';
+$string['accesNOCAS'] = 'andre brukere';
+$string['alternatelogin'] = 'Dersom du skriver inn en URL her, vil den bli brukt som innloggingsside for denne Moodle-portalen. Siden må inneholde et skjema med action-egenskapen satt til  <strong>\'$a\'</strong> og returnere feltene <strong>username</strong> and <strong>password</strong>.<br/> OBS! Hvis du skriver inn feil URL risikerer du å låse deg selv ute fra Moodle.<br/>La feltet være tomt for å bruke standard innloggingsside.';
+$string['alternateloginurl'] = 'Alternativ innlogging URL';
+$string['auth_cas_auth_user_create'] = 'Opprett brukere eksternt';
+$string['auth_cas_baseuri'] = 'Serverens URL (la feltet stå tomt hvis det ikke er en base-URL)<br/> Et eksempel: Dersom CAS serveren responderer på www.eksempel.no/CAS er<br/>
+cas_baseurl=CAS/';
+$string['auth_cas_baseuri_key'] = 'Base-URL';
+$string['auth_cas_casversion'] = 'Versjon';
+$string['auth_cas_changepasswordurl'] = 'URL for passordbytte';
+$string['auth_cas_create_user_key'] = 'Opprett bruker';
+$string['auth_cas_hostname_key'] = 'Vertsnavn';
+$string['auth_cas_invalidcaslogin'] = 'Beklager, innloggingen mislykkes - du kunne ikke godkjennes.';
+$string['auth_cas_language'] = 'Valgt språk';
 $string['auth_common_settings'] = 'Vanlige instillinger';
 $string['auth_dbdescription'] = 'Denne metoden bruker en ekstern database for å kontrollere om et gittt brukernavn og passord er gyldig. Hvis kontoen er ny, kan oplysninger fra andre felter også kopieres inn til Moodle.';
 $string['auth_dbextrafields'] = 'Disse feltene er valgfrie. Du kan velge å forhåndsutfylle noen brukerfelter i Moodle fra <b>den eksterne databasen</b> som du skriver her.<p> Hvis du ikke skriver noe her, vil standardverdierne bli brukt.<p> I alle tilfeller vil brukeren være i stand til å endre disse feltene når de er innlogget.';
