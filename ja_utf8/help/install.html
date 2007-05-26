@@ -23,7 +23,7 @@
      </ol>
   <p>&nbsp;</p>
 </blockquote>
-<h3 class="sectionheading"><a name="requirements"></a>1. システム要件</h3>
+<h3 class="sectionheading" id="requirements">1. システム要件</h3>
 <blockquote> 
   <p>Moodleは主としてPHP、Apache、MySQLを使用したLinux環境 (LAMPプラットフォームとして知られています) で開発を行っています。 しかし、定期的にPostgreSQL、WindowsXP、Mac OS X、Netware 6の環境でテストしています。</p>
   <p>Moodleのシステム要件は下記のとおりです:</p>
@@ -36,7 +36,7 @@
   <p>自分のコンピュータでMoodleを動かしたくても、少々難しいと考えている方は、私たちのガイド<a href="http://docs.moodle.org/ja/管理者ドキュメント">Apache、MySQL、PHPのインストール</a>をご覧ください。人気のあるほとんどのプラットーフォームに、これらをインストールするためのステップバイステップの方法が記されています。 </p>
   <p>&nbsp;</p>
 </blockquote>
-<h3 class="sectionheading"><a name="downloading"></a>2. ダウンロードおよびファイルのコピー</h3>
+<h3 class="sectionheading" id="downloading">2. ダウンロードおよびファイルのコピー</h3>
 <blockquote>
   <p>Moodleを入手するには圧縮パッケージをダウンロードする方法とCVS経由で入手する方法の2つの方法があります。これらに関する説明はダウンロードページ <a href="http://moodle.org/download/">http://moodle.org/download/</a> に掲載されています。</p>
   <p>パッケージをダウンロードして解凍、またはCVS経由でチェックアウトすると「moodle」という名称の多くのファイルとフォルダが含まれたフォルダが現れます。</p>
@@ -44,9 +44,10 @@
   <p>あなたがMoodleをローカルコンピュータにダウンロードして、ウェブサイトにアップロードする場合、圧縮されたファイルをそのままアップロードして、サーバ内で解凍した方が良いでしょう。Cpanelのようなウェブホスティングインターフェースでも、「ファイルマネージャー」を使って圧縮されたファイルを解凍することができます。</p>
 </blockquote>
 <p>&nbsp;</p>
-<h3 class="sectionheading"><a name="site"></a>3. サイト構成</h3>
+<h3 class="sectionheading" id="site">3. サイト構成</h3>
 <blockquote>
-  <p>このセクションは読み飛ばしても安全です。しかし、より深い理解のための、Moodleフォルダ構成に関する簡単な概要を記します:</p>
+  <p>You can safely skip this section, but here is a quick summary of the contents of the Moodle folder, to help get 
+    you oriented:</p>
   <blockquote>
     <table><tr>
       <td valign="top">config.php</td>
@@ -88,18 +89,17 @@
     <p>&nbsp;</p>
   </blockquote>
 </blockquote>
-<h3 class="sectionheading"><a name="installer"></a>4. config.phpを作成するためにインストールスクリプトを実行</h3>
+<h3 class="sectionheading" id="installer">4. config.phpを作成するためにインストールスクリプトを実行</h3>
 <blockquote>
   <p>インストールスクリプト (install.php) を実行するためには、ウェブブラウザを使ってMoodleメインURLにアクセスしてください。または、<strong>http://yourserver/install.php</strong> に直接アクセスしてください。</p>
   <p>(インストーラーはクッキーを設定しようとします。もし、ブラウザに警告が表示された場合はクッキーを受け入れてください!) </p>
   <p>Moodleは必要な設定を検出して、<strong>config.php</strong>と呼ばれる新しい設定ファイルを作成するための画面にあなたを導きます。最後の過程でMoodleは適切な場所にファイルを書き込みます。もしくはボタンをクリックすることでインストーラーからconfig.phpファイルをダウンロードして、サーバのメインMoodleディレクトリにアップロードすることができます。</p>
   <p>途中でインストーラーはあなたのサーバ環境をチェックして問題を解決する方法を提案します。ほとんどの場合はこの提案で十分です。しかし行き詰った場合は、一般的な内容に関する下記の詳細情報を読むことが、あなたの手助けとなるでしょう。
-  <br />
   </p>
 </blockquote>
 <blockquote>
 
-<h3 class="sectionheading"><a name="webserver" id="webserver"></a>4.1 一般ウェブサーバ設定</h3>
+<h3 class="sectionheading" id="webserver">4.1 一般ウェブサーバ設定</h3>
 <blockquote>
   <p>最初に、あなたのウェブサーバで index.php がデフォルトページに設定されていることを確認してください。(おそらくその他index.html、default.htm等が設定されていることでしょう)</p>
   <p>Apacheでは httpd.conf ファイルの中の DirectoryIndex パラメータで設定します。私の設定は通常下記のようになっています:</p>
@@ -155,7 +155,7 @@ php_value post_max_size 2M
     </blockquote>
   </blockquote>
 <p>&nbsp;</p>
-<h3 class="sectionheading"><a name="database"></a>4.2 データベースの作成</h3>
+<h3 class="sectionheading" id="database">4.2 データベースの作成</h3>
 
   <blockquote>
     <p>まず、空のデータベース (例 <em>moodle</em>) および特別なユーザ (例 moodleuser) を作成する必要があります。このユーザは作成したデータベースにのみアクセスするためのユーザです。テストサーバに対してrootユーザも使えますが運用システムはお勧めできません。もしハッカーがパスワードを発見した場合、1つのデータベースだけではなくすべてのデータベースシステムが危険に晒されることになります。</p>
@@ -187,7 +187,7 @@ php_value post_max_size 2M
   </blockquote>
   <p>&nbsp;</p>
   
-<h3 class="sectionheading"><a name="data"></a>4.3 データディレクトリの作成</h3>
+<h3 class="sectionheading" id="data">4.3 データディレクトリの作成</h3>
 
   <blockquote>
     <p>Moodleでは、コース文書やユーザ写真のようなアップロードしたファイルを保存するためのスペースを、ハードディスクの中に必要とします。 </p>
@@ -204,7 +204,7 @@ php_value post_max_size 2M
 
 </blockquote>
 
-<h3 class="sectionheading"><a name="admin"></a>5. 設定を続けるために管理画面に移動</h3>
+<h3 class="sectionheading" id="admin">5. 設定を続けるために管理画面に移動</h3>
 <blockquote> 
   <p>前のステップで <strong>config.php</strong> が正常に作成された後は、あなたのサイトのフロントページにアクセスすると残りの設定を行うために「管理」画面に移動します。</p>
   <p>最初に管理画面にアクセスした場合、このセットアップを続けるために同意する<strong>必要のある</strong>GPL「シュリンクラップ」同意が表示されます。</p>
@@ -257,7 +257,8 @@ php_value post_max_size 2M
   <p>しかし、インストールはまだ終わっていません! 非常に重要な作業があります (cronに関する次のセクションをご覧ください)。</p>
 </blockquote>
 <p>&nbsp;</p>
-<h3 class="sectionheading"><a name="cron"></a>6. cronの設定 -- 重要! </h3>
+
+<h3 class="sectionheading" id="cron">6. cronの設定 -- 重要です!</h3>
 <blockquote> 
   <p>いくつかのMoodleモジュールはタスクを動作させるための継続的なチェックを必要とします。例えば、Moodleは投稿者に投稿のコピーをメール配信するために、ディスカッションフォーラムのチェックを必要とします。</p>
   <p>これらの作業を行うスクリプトはcron.phpと呼ばれ、adminディレクトリに置かれます。しかし、これ自体では動作しませんので、定期的 (例えば5分ごとまたは10分ごと) に 動作するように設定を行う必要があります。これは各モジュールで定義された機能が動作できるように「心臓の鼓動」を提供します。このような一般的なメカニズムは<strong>cronサービス</strong>として知られています。</p>
@@ -312,7 +313,8 @@ php_value post_max_size 2M
   </blockquote>
   <p>&nbsp;</p>
 </blockquote>
-<h3 class="sectionheading"><a name="course"></a>7. 新しいコースの作成</h3>
+
+<h3 class="sectionheading" id="course">7. 新しいコースの作成</h3>
 <blockquote>
   <p>Moodleは正常に動作し、あなたはコースの作成を行うことができます。</p>
   <p>管理ページ (またはホームページにある管理メニュー) より「コースの追加」を選択してください。</p>
@@ -323,5 +325,5 @@ php_value post_max_size 2M
 
   <p>&nbsp;</p>
   <p style="text-align:center"><strong>Happy exploring and happy Moodling!</strong></p>
-  <p style="test-align:center"><strong>Moodleを気に入ってくださった場合は、私たちの費用を補助するために<a href="http://moodle.org/donations/">寄付</a>をお考えください!</strong></p>
+  <p style="test-align:center"><strong>Moodleを気に入ってくださった場合、私たちの開発費を補助するための<a href="http://moodle.org/donations/">寄付</a>をお考えください!</strong></p>
 </blockquote>
