@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007050400)
+      // moodle.php - created with Moodle 1.9 dev (2007052300)
 
 
 $string['action'] = '동작';
@@ -257,6 +257,8 @@ $string['coursecategories'] = '배움터 목록';
 $string['coursecategory'] = '배움터 범주';
 $string['coursecreators'] = '배움터 생성자';
 $string['coursecreatorsdescription'] = '배움터 생성자는 새로운 과정을 개설할 수 있고 그 안에서 가르칠 수 있습니다.';
+$string['courseenrolenddate'] = '배움터 등록 종료일';
+$string['courseenrolstartdate'] = '배움터 등록 시작일';
 $string['coursefiles'] = '배움터 파일들';
 $string['courseformatdata'] = '배움터 유형 자료';
 $string['courseformats'] = '배움터 유형';
@@ -639,6 +641,7 @@ $string['grades'] = '성적';
 $string['group'] = '모둠';
 $string['groupadd'] = '새 모둠을 추가';
 $string['groupaddusers'] = '선택된 모둠에 사용자 추가';
+$string['groupextendenrol'] = '등록 연장';
 $string['groupfor'] = '모둠을 위한';
 $string['groupinfo'] = '선택된 모둠의 정보';
 $string['groupinfoedit'] = '모둠 설정 편집';
@@ -1258,6 +1261,7 @@ $string['sourcerole'] = '원래 역할';
 $string['specifyname'] = '반드시 이름을 기입해야 합니다.';
 $string['starpending'] = '([*] 교육과정 개설이 승인 대기중입니다.)';
 $string['startdate'] = '배움터 시작일';
+$string['startingfrom'] = '개시일';
 $string['startsignup'] = '새 계정 만들기';
 $string['state'] = '시/도';
 $string['statistics'] = '통계';

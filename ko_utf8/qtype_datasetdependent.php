@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 1.9 dev (2007021401)
+      // qtype_datasetdependent.php - created with Moodle 1.9 dev (2007052300)
 
 
 $string['additem'] = '문항 추가';
@@ -17,6 +17,7 @@ $string['existingcategory2'] = '본 범주에 속한 다른 문항에서도 사�
 $string['existingcategory3'] = '본 범주에 속한 다른 문항에서도 사용했던 기존 링크묶음 안의 링크';
 $string['forceregeneration'] = '강제 재 생성';
 $string['getnextnow'] = '새로운 \'추가할 문항\' 가져오기';
+$string['item(s)'] = '문항';
 $string['itemno'] = '문제 $a';
 $string['itemscount'] = '문항<br/>횟수';
 $string['itemtoadd'] = '추가할 문항';
@@ -26,6 +27,7 @@ $string['keptcategory3'] = '전과 같이 동일 범주 내 재사용 가능한 
 $string['keptlocal1'] = '전과 같이 동일 문항 내 개인 상수묶음 안의 상수';
 $string['keptlocal2'] = '전과 같이 동일 문항 내 개인 파일묶음 안의 파일';
 $string['keptlocal3'] = '전과 같이 동일 문항 내 개인 링크묶음 안의 링크';
+$string['lastitem(s)'] = '마지막 문제';
 $string['loguniform'] = '로그유니폼';
 $string['minmax'] = '값의 범위';
 $string['newcategory1'] = '본 범주에 속한 다른 문항에서도 사용가능한 새로운 상수묶음의 상수';
