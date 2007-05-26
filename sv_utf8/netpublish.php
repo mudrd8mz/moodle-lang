@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // netpublish.php - created with Moodle 1.5 Beta (2005052300)
+      // netpublish.php - created with Moodle 1.8 (2007021501)
 
 
 $string['abstract'] = 'Sammanfattning';
+$string['actions'] = 'Åtgärder';
 $string['addimagetoarticle'] = 'Lägg till en bild $a till artikeln';
 $string['addnewarticle'] = 'Lägg till en ny artikel';
 $string['addnewordelete'] = 'Lägg till /ta bort sektion';
@@ -47,14 +48,16 @@ $string['maximagesize'] = 'Maximal storlek på bilder';
 $string['modified'] = 'Modifierad';
 $string['modulename'] = 'NätTidning';
 $string['modulenameplural'] = 'NätTidningar';
-$string['moveralatedarticles'] = 'Flytta artiklar till ';
+$string['moveralatedarticles'] = 'Flytta artiklar till';
 $string['movesuccess'] = 'Flytten var framgångsrik';
 $string['movingarticle'] = 'Flyttar artikel';
+$string['myarticles'] = 'Mina artiklar';
 $string['noarticles'] = 'Det har inte publicerats några artiklar i den här sektionen ännu.';
 $string['noeditpermissions'] = 'Du har inte behörighet att redigera artikel $a';
 $string['nostudentsfound'] = 'Det gick inte att hitta några studenter/elever/deltagare/lärnade';
 $string['notimelock'] = 'Låsning är avaktiverad';
-$string['notpublished'] = 'Ännu inte publicerad. ';
+$string['notpublished'] = 'Ännu inte publicerad.';
+$string['otherarticles'] = 'Andra artiklar';
 $string['outpublish'] = 'Publicera externt';
 $string['outunpublish'] = 'Avbryt publicering';
 $string['pendingarticles'] = 'Artiklar på väg';
@@ -66,7 +69,7 @@ $string['publishedsuccessfully'] = 'Publikationen <strong>$a</strong> har framg�
 $string['readmore'] = 'Läs mer...';
 $string['readpermission'] = 'Läs';
 $string['section'] = 'Sektion';
-$string['sectiondeletesuccess'] = 'Den valda sektionen har framgångsrikt tagits bort och de därmed sammanhängande artiklarna har tagits bort. ';
+$string['sectiondeletesuccess'] = 'Den valda sektionen har framgångsrikt tagits bort och de därmed sammanhängande artiklarna har tagits bort.';
 $string['sectionmovesuccess'] = 'Den valda sektionen har framgångsrikt tagits bort och de därmed sammanhängande artiklarna har flyttats till en annan sektion.';
 $string['sectionname'] = 'Namn på sektion';
 $string['sections'] = 'Sektioner';
@@ -75,10 +78,12 @@ $string['showabstractandcontent'] = 'Visa helheten på en gång';
 $string['showabstractfirst'] = 'Dividera till abstrakt och innehåll';
 $string['showpermissions'] = 'Visa behörigheter';
 $string['status'] = 'Status';
+$string['statuscount'] = 'Toppnivå';
 $string['toplevel'] = 'Översta nivån';
 $string['unauthorizedstatus'] = 'Bara distanslärare kan publicera artiklar,';
+$string['unlimited'] = 'Obegränsad';
 $string['unpublishedsuccessfully'] = 'Publikationen <strong>$a</strong> har framgångsrikt tagits bort.';
-$string['viewall'] = 'Visa alla ';
+$string['viewall'] = 'Visa alla';
 $string['writepermission'] = 'Skriv';
 
 ?>

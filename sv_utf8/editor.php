@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6.1+ (2006050512)
+      // editor.php - created with Moodle 1.8 (2007021501)
 
 
 $string['about'] = 'Om den här redigeraren';
@@ -31,6 +31,7 @@ $string['createlink'] = 'Infoga  en webblänk';
 $string['cut'] = 'Klipp ut urvalet';
 $string['cutpastemozilla'] = 'Tyvärr så kan Du f.n. inte använda de vanliga genvägarna (tangentbordskommandona)(eller ens knappen \"Klistra in\") för att klistra in med den här online redigeraren. Det beror på en funktion för säkerhet som är inbyggd i vissa versioner av Mozilla och Firefox webbläsare. Det finns några kända knep som Du kan använda<br />1. Istället för Ctrl-v, kan Du använda Shift+Insert<br />2. Använd menyalternativet Redigera->Klistra in i Din webbläsare.<br />3. Ändra inställningarna i Din webbläsare genom att redigera filen user.js.<br /><br />Klicka på knappen \"OK\" här nedan för mer hjälp eller på \"Avbryt\" för att återgå till redigeraren.';
 $string['delete'] = 'Ta bort';
+$string['enterurlfirst'] = 'Du måste mata in en URL först';
 $string['filebrowser'] = 'Filläsare';
 $string['findwhat'] = 'Hitta';
 $string['fontname'] = 'Namn på typsnitt';
@@ -57,6 +58,7 @@ $string['justifycenter'] = 'Centrera';
 $string['justifyfull'] = 'Ställ in helrad';
 $string['justifyleft'] = 'Justera åt vänster';
 $string['justifyright'] = 'Justera åt höger';
+$string['lang'] = 'Språk';
 $string['layout'] = 'Layout';
 $string['left'] = 'Vänster';
 $string['lefttoright'] = 'Läs- och skrivriktning från höger till vänster';
@@ -73,6 +75,8 @@ $string['matchcase'] = 'Matcha stor/liten bokstav';
 $string['middle'] = 'Mitten';
 $string['minimize'] = 'Minimera redigerare';
 $string['move'] = 'Flytta';
+$string['multi'] = 'Multi';
+$string['mustenterurl'] = 'Du måste mata in URLen';
 $string['nolink'] = 'Förhindra automatisk länkning';
 $string['normal'] = 'Normal';
 $string['notimage'] = 'Vald fil är inte en bild. Var snäll och välj en bild!';
@@ -85,6 +89,7 @@ $string['paste'] = 'Klistra in från \'Urklippshanteraren\'';
 $string['path'] = '(sök)väg';
 $string['percent'] = 'Procent';
 $string['pixels'] = 'Pixlar';
+$string['pleaseenteralt'] = 'Var snäll och mata in den alternativa texten.';
 $string['popupeditor'] = 'Förstora redigeraren';
 $string['preformatted'] = 'Förformaterad';
 $string['preview'] = 'Förhandsgranska';

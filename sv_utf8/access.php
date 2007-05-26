@@ -1,22 +1,25 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.6.1 (2006050510)
+      // access.php - created with Moodle 1.8 (2007021501)
 
 
-$string['access'] = 'Tillg&auml;nglighet';
-$string['accesshelp'] = 'Hj&auml;lp med tillg&auml;nglighet';
-$string['accesskey'] = 'Kod f&ouml;r tillg&auml;nglighet';
-$string['accessstatement'] = 'Spelregler f&ouml;r tillg&auml;nglighet';
-$string['breadcrumb'] = '\'Br&ouml;dsmule\'-sp&aring;r';
-$string['monthnext'] = 'N&auml;sta m&aring;nad';
-$string['monthprev'] = 'F&ouml;reg&aring;ende m&aring;nad';
-$string['showhideblock'] = 'Visa eller d&ouml;lj block';
-$string['sitemap'] = 'Karta &ouml;ver webbplatsen';
-$string['skipblock'] = 'Hoppa &ouml;ver block';
-$string['skipnavigation'] = 'Hoppa &ouml;ver navigation';
+$string['access'] = 'Tillgänglighet';
+$string['accesshelp'] = 'Hjälp med tillgänglighet';
+$string['accesskey'] = 'Kod för tillgänglighet';
+$string['accessstatement'] = 'Spelregler för tillgänglighet';
+$string['activitynext'] = 'Nästa aktivitet';
+$string['activityprev'] = 'Föregående aktivitet';
+$string['breadcrumb'] = '\'Brödsmule\'-spår';
+$string['monthnext'] = 'Nästa månad';
+$string['monthprev'] = 'Föregående månad';
+$string['showhideblock'] = 'Visa eller dölj block';
+$string['sitemap'] = 'Karta över webbplatsen';
+$string['skipa'] = 'Hoppa över $a';
+$string['skipblock'] = 'Hoppa över block';
+$string['skipnavigation'] = 'Hoppa över navigation';
 $string['tabledata'] = 'Datatabell,  $a';
-$string['tablelayout'] = 'Tabell f&ouml;r layout, $a';
-$string['tocontent'] = 'G&aring; till huvudinneh&aring;ll';
-$string['tonavigation'] = 'G&aring; till navigation';
-$string['youarehere'] = 'Du &auml;r h&auml;r';
+$string['tablelayout'] = 'Tabell för layout, $a';
+$string['tocontent'] = 'Gå till huvudinnehåll';
+$string['tonavigation'] = 'Gå till navigation';
+$string['youarehere'] = 'Du är här';
 
 ?>

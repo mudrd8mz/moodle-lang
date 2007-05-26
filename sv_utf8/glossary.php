@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6.1+ (2006050512)
+      // glossary.php - created with Moodle 1.8 (2007021501)
 
 
 $string['addcomment'] = 'Lägg till kommentarer';
@@ -89,6 +89,9 @@ $string['entryleveldefaultsettings'] = 'Standardval för inställningar på niv�
 $string['entrysaved'] = 'Det här bidraget har sparats';
 $string['entryupdated'] = 'Det här bidraget har uppdaterats';
 $string['entryusedynalink'] = 'Det här bidraget bör<br /> vara automatiskt länkat';
+$string['errcannoteditothers'] = 'Du kan inte redigera andra personers bidrag.';
+$string['errconceptalreadyexists'] = 'Det här begreppet finns redan med. Det är inte tillåtet med dubbleringar i den här ord- och begreppslistan.';
+$string['erredittimeexpired'] = 'Tiden för att redigera det här bidraget har gått ut.';
 $string['explainaddentry'] = 'Lägg till ett nytt bidrag till den aktuella ord- och begreppslistan.<br />\'Begrepp\' och \'definition\' är obligatoriska fält.';
 $string['explainall'] = '<b>ALLA</b> kommer att visa alla bidrag på en sida';
 $string['explainalphabet'] = 'Välj den sida Du vill söka efter<p>';
@@ -105,6 +108,17 @@ $string['fillfields'] = '\'Begrepp\' och definition\' är obligatoriska fält';
 $string['filtername'] = 'Länka ord- och begreppslista automatiskt';
 $string['fullmatch'] = 'Matcha hela ord bara<br /><small>när de är automatiskt länkade</small>';
 $string['globalglossary'] = 'Global ord- och begreppslista';
+$string['glossary:approve'] = 'Godkänn icke-godkända bidrag';
+$string['glossary:comment'] = 'Skapa kommentarer';
+$string['glossary:export'] = 'Exportera bidrag';
+$string['glossary:import'] = 'Importera bidrag';
+$string['glossary:managecategories'] = 'Administrera kategorier';
+$string['glossary:managecomments'] = 'Administrera kommentarer';
+$string['glossary:manageentries'] = 'Administrera bidrag';
+$string['glossary:rate'] = 'Bedöm/värdera inlägg';
+$string['glossary:view'] = 'Visa ord-och begreppslista';
+$string['glossary:viewrating'] = 'Visa bedömningar/värderingar';
+$string['glossary:write'] = 'Skapa nya bidrag';
 $string['glossaryleveldefaultsettings'] = 'Standardval för inställningar på den globala nivån i en ord- och begreppslista';
 $string['glossarytype'] = 'Typ av ord- och begreppslista';
 $string['importcategories'] = 'Importera kategorier';
@@ -113,6 +127,7 @@ $string['importedentries'] = 'Importerade bidrag';
 $string['importentries'] = 'Importera bidrag';
 $string['isglobal'] = 'Är det här en global ord- och begreppslista?';
 $string['linkcategory'] = 'Länka den här kategorin automatiskt';
+$string['linking'] = 'Automatisk länkning';
 $string['mainglossary'] = 'Den övergripande (förklarande) ord- och begreppslistan';
 $string['maxtimehaspassed'] = 'Maxtiden för att redigera den här kommentaren har tyvärr gått ut ($a)';
 $string['modulename'] = 'Ord- och begreppslista';

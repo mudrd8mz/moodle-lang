@@ -1,14 +1,17 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6.1+ (2006050512)
+      // resource.php - created with Moodle 1.8 (2007021501)
 
 
 $string['addresource'] = 'Lägg till resurs';
+$string['affectedresources'] = 'Påverkade resurser';
 $string['back'] = 'Tillbaka';
 $string['browserepository'] = 'Bläddra i arkivet';
 $string['choose'] = 'Välj';
 $string['chooseafile'] = 'Välj eller ladda upp en fil';
 $string['chooseparameter'] = 'Välj parameter';
 $string['configallowlocalfiles'] = 'När Du skapar en ny fil som resurs så kan Du tillåta länkar till filer på en lokal filhanterare som t.ex. en CD eller en hårddisk. Detta kan vara användbart i ett klassrum där alla studenter/elever/deltagare/lärande har tillgång till en gemensam nätverkskälla eller där filer på en CD måste vara tillgängliga. Användning av den här egenskapen kan kräva att Du ändrar på säkerhetsinställningarna på Din webbläsare.';
+$string['configautofilerenamesettings'] = 'Uppdatera referenser till filer automatiskt när de döps om i filhanteraren.';
+$string['configblockdeletingfilesettings'] = 'Blockera borttagandet av filer och kataloger som refereras av resurser. Var snäll och lägg märke till att bilder och andra filer som refereras från HTML inte är skyddade.';
 $string['configdefaulturl'] = 'Det här värdet används för att fylla i en URL i formuläret när Du skapar en ny URL-baserad resurs.';
 $string['configfilterexternalpages'] = 'Om Du aktiverar den här inställningen så kommer alla externa resurser(webbsidor, uppladdade HTML-filer att bearbetas (processas) av de filter som är definierade för webbplatsen (som t ex ord- och begreppslistans automatiska länkar). Om Du väljer detta alternativ så kan det leda till att Dina kurssidor visas märkbart långsammare. Var försiktig och använd detta alternativ endast när Du verkligen behöver det.';
 $string['configframesize'] = 'Det här värdet är storleken (i pixlar)på den översta ramen (som innehåller navigationsverktygen)  när en webbsida eller en uppladdad fil visas i en ram.';
@@ -46,6 +49,7 @@ navigation ska fortsätta att vara synlig';
 $string['fulltext'] = 'Full text';
 $string['htmlfragment'] = 'HTML-fragment';
 $string['imspackageloaded'] = 'Paketet har laddats upp';
+$string['keepnavigationvisible'] = 'Behåll sidnavigation synlig på samma sida.';
 $string['localfile'] = 'Lokal fil';
 $string['localfilechoose'] = 'Välj en lokal fil (CD-ROM)';
 $string['localfilehelp'] = 'Hjälp till att visa lokala filer';
@@ -90,6 +94,7 @@ $string['preview'] = 'Förhandsgranska';
 $string['previous'] = 'Föregående';
 $string['redeploy'] = 'Lägg ut igen';
 $string['repository'] = 'IMS arkiv';
+$string['resource:view'] = 'Visa resurs';
 $string['resourcetype'] = 'Typ av resurs';
 $string['resourcetype1'] = 'Referens';
 $string['resourcetype2'] = 'Webbsida';
@@ -116,5 +121,7 @@ $string['upbutton'] = 'Upp';
 $string['variablename'] = 'Namn på variabel';
 $string['viewims'] = 'Visa IMS-paket med innehåll';
 $string['vol'] = 'Vol';
+$string['warningblockingdelete'] = 'Varning! Operationen att \'ta bort\' är blockerad av en befintlig resurs. Du måste antingen uppdatera Dina resurser först eller fråga administratören att avaktivera den här säkerhetsfunktionen i den globala konfigurationen av resurser.';
+$string['warningdisabledrename'] = 'Varning! Den automatiska funktionen för byte av namn på resurser är avaktiverad. Var snäll och uppdatera de berörda resurserna manuellt om det behövs. Administratören kan också aktivera automatiskt byte av namn i den globala konfigurationen av resurser.';
 
 ?>

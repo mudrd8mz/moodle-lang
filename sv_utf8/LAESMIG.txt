@@ -1,66 +1,58 @@
-Övers&auml;ttning av Moodle till svenska. 
+﻿Oeversaettning av Moodle till svenska. 
+Swedish Language pack by Anders Berggren andersb@ikt-pedagogen.se
+
+
+ http://www.iktpeda.se Moodlerooms of Sweden
+////////////////////////////////////////////////////////////////////////
+
+
 
 Creative Commons statement
 
-. Du f&aring;r anv&auml;nda den h&auml;r &ouml;vers&auml;ttningen fritt (t.ex. redigera, modifiera eller g&aring; vidare med den) under f&ouml;ruts&auml;ttning 
-att nedanst&aring;ende information finns med.
 
- Set Lonnert p&aring;b&ouml;rjade det h&auml;r arbetet. Sedan h&ouml;sten 2003 har 
-Anders Berggren, IKT-Pedagogen underh&aring;llit &ouml;vers&auml;ttningen.
 
- Övers&auml;ttaren &auml;r fullt kvalificerad f&ouml;r uppgiften. Det l&auml;mnas dock inga garantier f&ouml;r att &ouml;vers&auml;ttningen &auml;r korrekt och tydlig i alla enskildheter. Övers&auml;ttaren tar inget ansvar f&ouml;r problem eller eventuella skador som kan uppst&aring; med anledning av att Du tolkar beskrivningar och f&ouml;ljer instruktioner i denna &ouml;vers&auml;ttning. Viss information &auml;r av mycket specifik teknisk natur (s&aring;dant som r&ouml;r serveradministration t.ex.) s&aring; om Du &auml;r os&auml;ker b&ouml;r Du konsultera n&aring;gon specialist. Slut Creative Commons
-___________________________________________________________________________________________Log f&ouml;r redigering och komplettering av spr&aring;kpaketet f&ouml;r svenska i Moodle 1.6 beta
-version 10.0 2006-01-03 
-Anders Berggren andersb@ikt-pedagogen.se
+2007-05-26
+Du faar anvaenda den haer oeversaettningen fritt under foerutsaettning 
 
- Övers&auml;ttningen &auml;r uppdaterad och n&auml;stan komplett. Även dokumentationen av t.ex. utvecklingsmodulerna Projekt och Flash finns med. ______________________________________________________________________________________
+att nedanstaaende 
+information finns med i varje spraakpaket:
 
-Log f&ouml;r redigering och komplettering av spr&aring;kpaketet f&ouml;r svenska i Moodle 1.5 beta
-version 9.0 2005-06-03 
-Anders Berggren andersb@ikt-pedagogen.se
+Set Lonnert paaboerjade det haer arbetet. Sedan hoesten 2003 och hittills t.o.m. sommaren 2007 har 
 
- Övers&auml;ttningen &auml;r uppdaterad och n&auml;stan komplett.
-___________________________________________________________________________________________
+Anders Berggren, IKT-Pedagogen, http://iktpeda.se, underhaallit den.
 
-Log f&ouml;r redigering och komplettering av spr&aring;kpaketet f&ouml;r svenska i Moodle 1.5 alfa
-version 8.0 2005-05-01 
-Anders Berggren andersb@ikt-pedagogen.se
+Oeversättaren är fullt kvalificerad foer uppgiften. Det laemnas dock inga garantier foer att oeversättningen aer korrekt och tydlig i alla enskildheter. Oeversaettaren tar inget ansvar foer problem eller eventuella skador som kan uppstaa med anledning av att Du tolkar beskrivningar och foeljer instruktioner i denna oeversaettning. Viss information aer av mycket specifik teknisk natur (saadant som roer serveradministration t.ex.) saa om Du aer osaeker boer Du konsultera naagon specialist.
+Arbetet med detta sker ideellt. Du faar ta oeversaettningen i bruk 
+i befintligt skick. Du anvaender 
+m.a.o. oeversaettningen paa eget ansvar. 
 
-Övers&auml;ttningen &auml;r uppdaterad och n&auml;stan komplett.
-___________________________________________________________________________________________
 
-Log f&ouml;r redigering och komplettering av spr&aring;kpaketet f&ouml;r svenska i Moodle 1.4.3+
-version 7.0 2005-03-22 
-Anders Berggren andersbe@ikt-pedagogen.se
 
-Alla str&auml;ngar i programfilerna fr.o.m. 2005-03-22 &auml;r &ouml;versatta. N&aring;gra 
-enstaka hj&auml;lpfiler &auml;r fortfarande p&aring; engelska liksom katalogen "docs".
- 
-St&ouml;rre delen av inneh&aring;llet i katalogen 'docs' (den l&auml;nk som kallas
-'Dokumentation') utg&ouml;rs av information om s&aring;dant man kan g&ouml;ra men 
-som &auml;nd&aring; kr&auml;ver god beh&auml;rskning av engelska. D&auml;rf&ouml;r har jag ingen 
-h&ouml;g prioritet n&auml;r det g&auml;ller att &ouml;vers&auml;tta detta.
+Slut Creative Commons statement
 
-Om Du vill anv&auml;nda utvecklingsmoduler som inte ing&aring;r i huvuddistributionen
-av Moodle, som t.ex. Bok (Book), Dialog (Dialogue), Övningsuppgift (Exercise),
-HotPotv2, Egen enk&auml;t (Questionnaire), N&auml;tTidning (NetPublish), Tidsbokare (Appointment), 
-N&auml;rvaro (Attendance) osv. s&aring; m&aring;ste Du ladda ner och installera dem separat. 
-D&aring; ing&aring;r emellertid de &ouml;versatta php- och hj&auml;lpfilerna redan i lang/sv.
-__________________________________________________________________________________________
+///////////////////////////////////////////////////////////////////////
 
-Log f&ouml;r redigering och komplettering av spr&aring;kpaketet f&ouml;r svenska i Moodle 1.4
-version 5.0 2004-10-16 
-Anders Berggren andersbe@ikt-pedagogen.se
-Alla str&auml;ngar i programfilerna fr.o.m. 2004-10-15 &auml;r &ouml;versatta. 
-N&aring;gra enstaka hj&auml;lpfiler &auml;r fortfarande p&aring; engelska liksom katalogen "docs".
 
 __________________________________________________________________________________________
 
-Log f&ouml;r redigering och komplettering av spr&aring;kpaketet f&ouml;r svenska i Moodle 
-version 4.0 2004-03-03
-Anders Berggren andersb@ikt-pedagogen.se 
-Alla str&auml;ngar i programfilerna fr.o.m. 2004-02-27 &auml;r &ouml;versatta. 
-N&aring;gra enstaka hj&auml;lpfiler &auml;r fortfarande p&aring; engelska.
+
+
+Logg foer redigering och komplettering av spraakpaketet foer svenska i Moodle 1.8 2007-05-26
+Denna oeversaettning taecker nästan allt standardinnehaall i Moodle 1.8 och hela paketet aer kodat enligt UTF-8. 
+Om Du vill anvaenda moduler som inte ingaar som standard i Moodle saa faar du ladda ner dessa moduler 
+separat. 
+
+
+Alltsaa om Du vill anvaenda utvecklingsmoduler som inte ingaar i huvuddistributionen 
+av Moodle, som t.ex. Bok (Book), Dialog (Dialogue), Oevningsuppgift (Exercise), 
+HotPotv2, Egen enkaet (Questionnaire), NaetTidning (NetPublish), Tidsbokare (Appointment), 
+Naervaro (Attendance) osv. saa maaste Du ladda ner och installera dem separat. 
+Daa kan emellertid de oeversatta php- och hjaelpfilerna redan ingaa i mod/modulnamn/lang/sv.
+Det aer dock oklart om de alla aer kodade enligt UTF-8.  
+
+
+
+___________________________________________________________________________________________
 
 __________________________________________________________________________________________
 

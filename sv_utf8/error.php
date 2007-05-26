@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6.1+ (2006050512)
+      // error.php - created with Moodle 1.8 (2007021501)
 
 
 $string['adminprimarynoedit'] = 'Ingen kan redigera huvudadministratören';
@@ -11,9 +11,12 @@ $string['cannotfindcomponent'] = 'Det går inte att hitta komponent';
 $string['cannotsavemd5file'] = 'Det går inte att spara md5-fil';
 $string['cannotsavezipfile'] = 'Det går inte att spara ZIP-fil';
 $string['cannotunzipfile'] = 'Det går inte att packa upp fil';
+$string['cantunenrollfrommetacourse'] = 'Du kan inte avregistrera Dig från den här metakursen.';
+$string['cantunenrollinthisrole'] = 'Du kan inte avregistrera Dig från den här kursen så länge Du har nuvarande roll.';
 $string['cmunknown'] = 'Det gick inte att hitta den här kursmodulen';
 $string['componentisuptodate'] = 'Komponenten är av en aktuell version';
 $string['confirmsesskeybad'] = 'Beklagar, men det gick inte att bekräfta Din nyckel för sessionen vilket är nödvändigt för att fullfölja den här handlingen. Det här är en säkerhetsåtgärd för att förebygga att viktiga funktioner utförs på felaktiga eller illasinnade sätt i Ditt namn. Var snäll och kontrollera noga att Du verkligen vill fullfölja detta.';
+$string['couldnotassignrole'] = 'Ett allvarligt men odefinierat fel inträffade när en roll skulle tilldelas till Dig.';
 $string['coursegroupunknown'] = 'Den kurs som hör till grupp $a har inte angivits';
 $string['downloadedfilecheckfailed'] = 'Det gick inte att kontrollera den nedladdade filen';
 $string['errorcleaningdirectory'] = 'Fel i samband med rensning av katalogen \"$a\"';
@@ -34,15 +37,21 @@ $string['invalidcourse'] = 'Ogiltig kurs';
 $string['invalidfieldname'] = '\'$a\' är inte ett giltigt fältnamn';
 $string['invalidfiletype'] = '\'$a\' är inte en giltig filtyp';
 $string['invalidmd5'] = 'Ogiltig md5';
+$string['invalidrole'] = 'Ogiltig roll';
 $string['invalidxmlfile'] = '\'$a\' är inte en giltig XML-fil';
+$string['loginasnoenrol'] = 'Du kan inte använda \'registrera\' eller \'avregistrera\' när Du är i en session för \'logga in som\' för kurs.';
+$string['loginasonecourse'] = 'Du har inte tillträde till den här kursen.<br/ > Du måste avsluta sessionen \'Logga in som\' innan kan få tillträde till någon annan kurs.';
 $string['missingfield'] = 'Fältet';
 $string['missingrequiredfield'] = 'Det saknas några obligatoriska fält';
 $string['modulemissingcode'] = 'Modulen $a saknar den kod som behövs för den här  funktionen.';
 $string['modulerequirementsnotmet'] = 'Det gick inte att installera modulen \"$a->modulename\" ($a->moduleversion). Den kräver en nyare version av Moodle (f.n. använder Du $a->currentmoodle, Du behöver $a->requiremoodle).';
 $string['mustbeteacher'] = 'Du måste vara (distans)lärare för få tillgång till den här sidan.';
+$string['nocontext'] = 'Den där kursen är tyvärr inte ett giltigt sammanhang.';
 $string['noinstances'] = 'Det finns inga instanser av $a i den här kursen!';
+$string['nologinas'] = 'Du har inte tillstånd att logga in som den användaren.';
 $string['nonmeaningfulcontent'] = 'Inget meningsfullt innehåll';
 $string['noparticipatorycms'] = 'Du har tyvärr inga deltagande kursmoduler att rapportera om.';
+$string['nopermissions'] = 'Du har tyvärr f.n. inte tillstånd att göra detta ($a)';
 $string['notavailable'] = 'Detta är inte tillgängligt f.n.';
 $string['onlyadmins'] = 'Det är bara administratörer som kan göra detta.';
 $string['onlyeditingteachers'] = 'Det är bara lärare som kan göra det.';
@@ -58,6 +67,7 @@ $string['sessionerroruser'] = 'Tiden för Din session har tagit slut eller stöt
 $string['sessionerroruser2'] = 'Ett fel på servernivå som påverkar Din session för inloggning har upptäckts. Var snäll och logga in igen och starta om Din webbläsare.';
 $string['sessionipnomatch'] = 'Beklagar, men Ditt IP-nummer tycks ha ändrats sedan Du först loggade in. Det här är en säkerhetsåtgärd för att förebygga att \'crackers\' stjäl Din identitet medan Du är inloggad på den här webbplatsen. Vanliga användare bör inte få se detta meddelande - var snäll och be administratören för Din webbplats om hjälp.';
 $string['statscatchupmode'] = 'Statistiken håller f.n på att uppdateras. Hittills har $a->daysdone dagar behandlats och  $a->dayspending återstår att behandla. Du kan snart komma tillbaka och kontrollera detta igen!';
+$string['unicodeupgradeerror'] = 'Din databas är tyvärr ännu inte i Unicode och den här versionen av Moodle kan inte överföra Din databas till Unicode. Var snäll och uppgradera till Moodle 1.7.x först och genomför övergången till Unicode  via sidan för administration. Därefter bör Du kunna överföra databasen till Moodle $a.';
 $string['unknowncourse'] = 'Okänd kurs som kallas \"$a\"';
 $string['unknownuseraction'] = 'Jag förstår tyvärr inte denna handling från användarens sida.';
 $string['usernotaddederror'] = 'Användaren \"$a\" har inte lagts till, detta p.g. a. ett okänt fel.';
