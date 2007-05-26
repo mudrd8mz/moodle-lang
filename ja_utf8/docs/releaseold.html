@@ -181,7 +181,7 @@
         <li>PostgreSQLのトランザクションサポートを追加しました。</li>
         <li>ログインおよびログアウトを記録するようにしました。</li>
         <li>WikiおよびSCORMが新しいzipコードを使用するようにしました - この修正はSCORMのバグ報告により行われました。</li>
-        <li>用語集をページングシステムを新しくしました。</li>
+        <li>用語集のページングシステムを新しくしました。</li>
         <li>データロスを避けるため、Moodleへのインサート時にLDAPからのユーザ情報をトランケートするようにしました。</li>
         <li>pclzipを新しいバージョンに更新しました。</li>
         <li>Memory_limitをphp.ini、コマンドライン、httpd.conf、.htaccessの高い設定でオーバライドできるようにしました。</li>
@@ -989,33 +989,26 @@
     <dt>フォーラム</dt>
     <dd> 
       <ul>
-        <li>Much improved searching, with multiple keywords, paging etc</li>
-        <li>Forum grading can be either off, used by everyone, or used only by teachers</li>
-        <li>Forum grading can use custom scales or numbers</li>
-        <li>A date range can be set to restrict the posts that can be graded.</li>
-        <li>Admin now has access to some settings via Admin -&amp;gt; Modules -&amp;gt; Forums </li>
-        <li>After editing a post, user is returned to post in context</li>
-        <li>Attached images are displayed inline</li>
-        <li>Email copies in plain text format now print URLs nicely</li>
+        <li>複数キーワード、ページング等の検索に関する改善を行いました。</li>
+        <li>フォーラムの評価を「停止」「全員」または「教師のみ」に設定できるようにしました。</li>
+        <li>フォーラムの評価で独自評価尺度または数値を使用できるようにしました。</li>
+        <li>投稿を評価可能な日付幅を設定できるようにしました。</li>
+        <li>「管理 >> モジュール >> フォーラム」で、管理者がフォーラムの設定を変更できるようにしました。</li>
+        <li>投稿の編集後、ユーザが投稿本文に戻るようにしました。</li>
+        <li>添付イメージをインラインで表示するようにしました。</li>
+        <li>フォーラム投稿内容をテキストフォーマットでメール送信する場合、URLが正常に表示されるようにしました。</li>
       </ul>
     </dd>
     <dt>小テスト</dt>
     <dd> 
       <ul>
-        <li>New question type: Embedded Answers (Cloze) - allows text passages 
-          with embedded answers</li>
-        <li>New question type: Numerical - allows a range of numerical answers 
-          to be entered</li>
-        <li>New question type: Description - not a real question, it allows text/graphics 
-          to be inserted anywhere</li>
-        <li>Expanded quiz reporting with modular report plugins</li>
-        <li>New feature for repeat attempts, where each attempt builds on the 
-          last </li>
-        <li>If the quiz is closing within the next 24 hours, a small countdown 
-          clock is shown in the title bar and alerts warn at ten minutes and zero 
-          minutes.</li>
-        <li>Some refactoring to the quiz code to make it easier to extend with 
-          new question types</li>
+        <li>新しい問題タイプ: 穴埋め問題 (Cloze) - 答えを埋め込んだテキストページを作成することができます。</li>
+        <li>新しい問題タイプ: 数値問題 - 回答幅を持った数値を入力することができます。</li>
+        <li>新しい問題タイプ: 説明 - 実際の問題ではありません。テキスト/グラフィックをどこにでも配置することができます。</li>
+        <li>レポートプラグインモジュールを使用して小テストレポートを拡張しました。</li>
+        <li>それぞれの受験が最後に追加される、新しい繰り返し受験機能を追加しました。</li>
+        <li>小テストが24時間以内に閉鎖させる場合、タイトルバーにカウントダウンクロックを表示し、10分前および0分に警告を発するようにしました。</li>
+        <li>新しい問題タイプを簡単に追加できるよう、小テストモジュールのコードを書き直しました。</li>
       </ul>
     </dd>
     <dt>リソース</dt>
@@ -1028,16 +1021,15 @@
     <dt>最近のいくつかの悩ましいバグを修正しました。</dt>
     <dd> 
       <ul>
-        <li>Moving posts now also moves attachments</li>
-        <li>No more warnings when looking for uploaded files in an empty course</li>
-        <li>Students no longer always get plain-format mail on force-subscribed 
-          forums</li>
-        <li>Cookies can no longer interfere with the admin setup during installation</li>
-        <li>Effectively no limit to the number of activities per section</li>
-        <li>Several fixes when dealing with zip files, especially on Windows</li>
-        <li>Admins can now edit accounts created from external databases</li>
-        <li>Session no longer conflicts with other software</li>
-        <li>Excel files now work on non-Intel machines</li>
+        <li>投稿の移動時に添付ファイルも同時に移動されるようにしました。</li>
+        <li>空のコースにアップロードされたファイルの検索時に警告が表示されないようにしました。</li>
+        <li>メール購読が強制されているフォーラムで、常にプレインテキストフォーマットのメールが学生に設定されることがないようにしました。</li>
+        <li>インストール中、クッキーが管理セットアップを妨害しないようにしました。</li>
+        <li>セクションあたりの活動数の制限を事実上なくしました。</li>
+        <li>特にWindowにおけるzipファイルの処理に関して修正しました。</li>
+        <li>外部データベースより作成されたアカウントを管理者が編集できるようにしました。</li>
+        <li>セッションが他のソフトウェアと競合しないようにしました。</li>
+        <li>インテル以外のマシンでExcelファイルが動作するようにしました。</li>
       </ul>
     </dd>
 </dl>
