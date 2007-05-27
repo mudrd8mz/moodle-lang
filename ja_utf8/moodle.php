@@ -633,17 +633,14 @@ $string['gettheselogs'] = 'これらのログを取得する';
 $string['go'] = 'Go';
 $string['gpl'] = 'Copyright (C) 1999 onwards Martin Dougiamas (http://moodle.com)
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
+このプログラムはフリーソフトウェアです。あなたはこれを、フリーソフトウェア財団によって発行された GNU 一般公衆利用許諾契約書 (バージョン2か、希望によってはそれ以降のバージョンのうちどれか) の定める条件の下で再頒布または改変することができます。
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+このプログラムは有用であることを願って頒布されますが、*全くの無保証*です。商業可能性の保証や特定の目的への適合性は、言外に示されたものも含め全く存在しません。詳しくはMoodleライセンス情報をご覧ください：
 
-See the Moodle License information page for full details:
-http://docs.moodle.org/ja/ライセンス';
+<a
+href=\"http://docs.moodle.org/ja/%%E3%%83%%A9%%E3%%82%%A4%%E3%%82%%BB%%E3%%83%%B3%%E3%%82%%B9\">
+http://docs.moodle.org/ja/ライセンス
+</a>';
 $string['grade'] = '評点';
 $string['grades'] = '評定';
 $string['group'] = 'グループ';
