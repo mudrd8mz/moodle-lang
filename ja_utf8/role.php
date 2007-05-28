@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007051801)
+      // role.php - created with Moodle 1.9 dev (2007052300)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -75,7 +75,7 @@ $string['legacy:student'] = 'レガシーロール: 学生';
 $string['legacy:teacher'] = 'レガシーロール: 教師 (編集権限なし)';
 $string['legacy:user'] = 'レガシーロール: 認証済みユーザ';
 $string['legacytype'] = 'レガシーロールタイプ';
-$string['listallroles'] = 'すべてのロールを表示 ...';
+$string['listallroles'] = 'すべてのロールを一覧表示する';
 $string['manageroles'] = 'ロールの管理';
 $string['metaassignerror'] = 'メタコースを管理するケイパビリティが必要なため、このロールはユーザ「 $a 」に割り当てられませんでした。';
 $string['metaunassignerror'] = 'ユーザ「 $a 」のロールは自動的に再割り当てされました。代わりに、子コースのロールを解除してください。';
