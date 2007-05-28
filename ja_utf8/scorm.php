@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 dev (2007021401)
+      // scorm.php - created with Moodle 1.9 dev (2007052300)
 
 
 $string['advanced'] = '詳細設定';
@@ -11,7 +11,7 @@ $string['attr_error'] = 'タグ $a->tag のアトリビュート ($a->attr) に�
 $string['autocontinue'] = '自動継続';
 $string['averageattempt'] = '平均評点';
 $string['badmanifest'] = 'マニフェストエラー: エラーログをご覧ください。';
-$string['badpackage'] = 'パッケージに問題があります。確認して再度お試しください。';
+$string['badpackage'] = '指定されたパッケージ/マニフェストは有効ではありません。確認して再度お試しください。';
 $string['browse'] = 'プレビュー';
 $string['browsed'] = '閲覧済み';
 $string['browsemode'] = 'プレビューモード';
@@ -28,11 +28,13 @@ $string['directories'] = 'ディレクトリリンクを表示する';
 $string['display'] = 'パッケージの表示';
 $string['domxml'] = 'DOMXML外部ライブラリ';
 $string['element'] = '要素';
+$string['enter'] = 'Enter';
 $string['entercourse'] = 'コースに入る';
 $string['errorlogs'] = 'エラーログ';
 $string['everyday'] = '毎日';
 $string['everytime'] = '毎回使用されるたびに';
 $string['exit'] = 'コースから抜ける';
+$string['exitactivity'] = '活動から抜ける';
 $string['expcoll'] = '展開する/折りたたむ';
 $string['external'] = '外部パッケージを更新するタイミング';
 $string['failed'] = '失敗';
@@ -71,6 +73,7 @@ $string['menubar'] = 'メニューバーを表示する';
 $string['min'] = '最小評点';
 $string['missing_attribute'] = 'タグ $a->tag に属性 $a->attr がありません。';
 $string['missing_tag'] = '$a->tag タグがありません。';
+$string['missingparam'] = '必要項目が設定されていないか、間違っています。';
 $string['mode'] = 'モード';
 $string['modulename'] = 'SCORM/AICC';
 $string['modulenameplural'] = 'SCORM/AICC';
@@ -91,7 +94,9 @@ $string['objectives'] = '学習目標';
 $string['onchanges'] = '変更時いつでも';
 $string['organization'] = '組織';
 $string['organizations'] = '組織';
+$string['othersettings'] = '追加設定';
 $string['othertracks'] = '他のトラック';
+$string['package'] = 'パッケージファイル';
 $string['packagedir'] = 'ファイルシステムエラー: パッケージディレクトリを作成できません。';
 $string['packagefile'] = 'パッケージファイルが指定されていません。';
 $string['passed'] = 'パス';
@@ -134,6 +139,7 @@ $string['toolbar'] = 'ツールバーを表示する';
 $string['totaltime'] = '時間';
 $string['trackingloose'] = '警告: このパッケージのトラッキングデータは消滅します!';
 $string['type'] = 'タイプ';
+$string['unziperror'] = 'パッケージの解凍処理中にエラーが発生しました。';
 $string['validateascorm'] = 'パッケージの確認';
 $string['validation'] = '確認結果';
 $string['validationtype'] = 'ここでは、SCORMマニフェストファイルを確認するDOMXMLライブラリを設定します。分からない場合は、このままにしてください。';
