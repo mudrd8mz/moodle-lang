@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007051801)
+      // auth.php - created with Moodle 1.9 dev (2007052800)
 
 
 $string['CASform'] = '認証選択';
@@ -119,6 +119,7 @@ $string['auth_imapport_key'] = 'ポート';
 $string['auth_imaptitle'] = 'IMAPサーバ';
 $string['auth_imaptype'] = 'IMAPサーバタイプです。IMAPサーバは異なる認証およびネゴシエーションを利用することが可能です。';
 $string['auth_imaptype_key'] = 'タイプ';
+$string['auth_ldap_ad_create_req'] = 'アクティブディレクトリに新しいアカウントを作成できません。アカウントを作成するためのすべての必要条件 (LDAPSコネクション、必要な権限を持ったbindユーザ等) に合致しているか確認してください。';
 $string['auth_ldap_auth_user_create_key'] = '外部にユーザを作成する';
 $string['auth_ldap_bind_dn'] = 'ユーザ検索にbindユーザを使用したい場合、ここで指定してください。例 \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_dn_key'] = '識別名';
@@ -152,6 +153,7 @@ $string['auth_ldap_memberattribute'] = '任意: ユーザがグループに属�
 $string['auth_ldap_memberattribute_isdn'] = '任意: メンバー属性値を0または1でオーバーライドします。';
 $string['auth_ldap_memberattribute_isdn_key'] = 'ユーザDNのメンバー属性';
 $string['auth_ldap_memberattribute_key'] = 'メンバー属性';
+$string['auth_ldap_no_mbstring'] = 'アクティブディレクトリにアカウントを作成するには、mbstringエクステンションが必要です。';
 $string['auth_ldap_noconnect'] = 'LDAPモジュールがサーバに接続できません: $a';
 $string['auth_ldap_noconnect_all'] = 'LDAPモジュールがすべてのサーバに接続できません: $a';
 $string['auth_ldap_noextension'] = '警告: PHP LDAPモジュールがインストールされていないようです。インストールおよび有効にされているかどうか確認してください。';
