@@ -116,6 +116,7 @@ $string['auth_imapport'] = 'Numéro de port du serveur IMAP. Il s\'agit généra
 $string['auth_imaptitle'] = 'Serveur IMAP';
 $string['auth_imaptype_key'] = 'Type';
 $string['auth_imaptype'] = 'Type de serveur IMAP. Les serveurs IMAP peuvent avoir différentes méthodes d\'authentification et de négociation.';
+$string['auth_ldap_ad_create_req'] = 'Impossible de créer le nouveau compte dans Active Directory. Assurez-vous que votre serveur statisfait toutes les conditions requises pour que cela fonctionne (connexion LDAPS, utilisateur de connexion avec droits adéquats, etc.)';
 $string['auth_ldap_auth_user_create_key'] = 'Créer les utilisateurs en externe';
 $string['auth_ldap_bind_dn_key'] = 'Distinguished Name';
 $string['auth_ldap_bind_dn'] = 'Si vous souhaitez utiliser une connexion authentifiée au serveur LDAP pour chercher les utilisateurs, indiquez ici son nom de connexion. Quelque chose comme : «&nbsp;cn=ldapuser, o=Organisation, c=FR&nbsp;».';
@@ -149,6 +150,7 @@ $string['auth_ldap_memberattribute_isdn'] = 'Facultatif&nbsp;: court-circuiter l
 $string['auth_ldap_memberattribute_isdn_key'] = 'L\'attribut appartenance utilise dn';
 $string['auth_ldap_memberattribute_key'] = 'Attribut appartenance';
 $string['auth_ldap_memberattribute'] = 'Indiquer l\'attribut d\'appartenance à un groupe. D\'habitude cet attribut est «&nbsp;member&nbsp;».';
+$string['auth_ldap_no_mbstring'] = 'L\'extension mbstring est nécessaire pour créer des utilisateurs dans Active Directory.';
 $string['auth_ldap_noconnect_all'] = 'Le module LDAP ne peut pas se connecter à aucun des serveurs $a';
 $string['auth_ldap_noconnect'] = 'Le module LDAP ne peut pas se connecter au serveur $a';
 $string['auth_ldap_noextension'] = 'Attention&nbsp! Le module LDAP ne semble pas être installé. Veuillez vous assurer qu\'il est bien installé et activé.';
