@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007032200)
+      // grades.php - created with Moodle 1.9 dev (2007052800)
 
 
 $string['addcategory'] = 'カテゴリの追加';
@@ -60,6 +60,7 @@ $string['items'] = '項目';
 $string['lettergrade'] = '評定文字';
 $string['lettergradenonnumber'] = '上限または下限の評点が数値ではありません:';
 $string['letters'] = '文字';
+$string['lock'] = 'ロック';
 $string['lowest'] = '下位';
 $string['lowgradeletter'] = '下限';
 $string['max'] = '最高';
@@ -67,6 +68,7 @@ $string['maxgrade'] = '満点';
 $string['median'] = '中央値';
 $string['min'] = '最低';
 $string['mode'] = '最頻値';
+$string['movingelement'] = '$a に移動';
 $string['no'] = 'No';
 $string['nocategories'] = 'このコースに評定カテゴリは追加されなかったか、見つかりませんでした。';
 $string['nocategoryview'] = 'カテゴリがありません。';
@@ -91,6 +93,7 @@ $string['reprintheaders'] = 'ヘッダの再表示';
 $string['savechanges'] = '変更を保存する';
 $string['savepreferences'] = '設定を保存する';
 $string['scaledpct'] = '伸縮%%';
+$string['selectdestination'] = '$a の移動先を選択';
 $string['setcategories'] = 'カテゴリの設定';
 $string['setcategorieserror'] = '加重を与える前にコースにカテゴリを設定してください。';
 $string['setgradeletters'] = '評定文字の設定';
@@ -111,6 +114,7 @@ $string['total'] = '合計';
 $string['totalweight100'] = '加重の合計は100です。';
 $string['totalweightnot100'] = '加重の合計は100ではありません。';
 $string['uncategorised'] = 'カテゴリなし';
+$string['unlock'] = 'ロック解除';
 $string['useadvanced'] = '拡張機能を表示する';
 $string['usepercent'] = 'パーセントを使用';
 $string['useweighted'] = '加重を使用';
