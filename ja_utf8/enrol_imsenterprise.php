@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.8 Beta (2007020400)
+      // enrol_imsenterprise.php - created with Moodle 1.9 dev (2007060100)
 
 
 $string['aftersaving...'] = 'あなたの設定を保存した後、';
@@ -11,7 +11,7 @@ $string['createnewcourses'] = 'Moodleに登録されていない場合、新し�
 $string['createnewusers'] = 'Moodleに登録されていないユーザのアカウントを作成する';
 $string['cronfrequency'] = '処理の頻度';
 $string['deleteusers'] = 'IMSデータに指定されている場合、ユーザアカウントを削除する';
-$string['description'] = 'ここでは、あなたが指定した場所にある、特別にフォーマットされたテキストファイルを繰り返しチェックおよび処理します。ファイルは、<a href=\'../help.php?module=enrol/imsenterprise&amp;file=formatoverview.html\'>IMSエンタープライズ仕様</a>に基づき、person、group、および membership をXML要素に含む必要があります。';
+$string['description'] = 'ここでは、あなたが指定した場所にある特別にフォーマットされたテキストファイルを繰り返しチェックおよび処理します。ファイルは、<a href=\'../help.php?module=enrol/imsenterprise&amp;file=formatoverview.html\'>IMSエンタープライズ仕様</a>に基づき、person、groupおよびmembershipをXML要素に含む必要があります。';
 $string['doitnow'] = 'IMSエンタープライズインポート処理を行ってください。';
 $string['enrolname'] = 'IMSエンタープライズファイル';
 $string['filelockedmail'] = 'あなたが使用しているIMSファイルベースのユーザ登録 ($a) のテキストファイルをcronプロセスで削除することができません。 これは通常、パーミッションが間違っていることを意味します。Moodleがファイルを削除できるように、パーミッションを修正してください。そうでなければ、この処理が繰り返し行われます。';
