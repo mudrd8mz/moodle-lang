@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007052800)
+      // auth.php - created with Moodle 1.9 dev (2007060100)
 
 
 $string['CASform'] = '認証選択';
@@ -144,7 +144,7 @@ $string['auth_ldap_graceattr_desc'] = '任意: 猶予ログイン属性をオー
 $string['auth_ldap_gracelogin_key'] = '猶予ログイン属性';
 $string['auth_ldap_gracelogins_desc'] = 'LDAPの猶予ログインサポートを有効にします。パスワードの有効期限が切れた後、猶予ログインカウントがゼロになるまでログインすることができます。この設定を「Yes」にすると、パスワードが期限切れになった場合に猶予ログインメッセージが表示されます。';
 $string['auth_ldap_gracelogins_key'] = '猶予ログイン';
-$string['auth_ldap_host_url'] = 'LDAPホストのURLを次ののように明示してください。\'ldap://ldap.myorg.com/\' または \'ldaps://ldap.myorg.com/\' 複数サーバのフェイルオーバーをサポートするには「;」で分離してください。';
+$string['auth_ldap_host_url'] = 'LDAPホストのURLを「ldap://ldap.myorg.com/」または「ldaps://ldap.myorg.com/」のように明示してください。複数サーバのフェイルオーバーをサポートするには「;」で分離してください。';
 $string['auth_ldap_host_url_key'] = 'ホストURL';
 $string['auth_ldap_ldap_encoding'] = 'LDAPサーバで使用するエンコーディングを指定してください。ほとんどの場合、UTF-8ですが、MA AD v2ユーザデフォルトプラットフォームのエンコーディングは、cp1252、cp1250等のようになります。';
 $string['auth_ldap_ldap_encoding_key'] = 'LDAPエンコーディング';
@@ -254,7 +254,7 @@ $string['auth_updatelocal'] = 'ローカルデータの更新';
 $string['auth_updatelocal_expl'] = '<p><b>ローカルデータの更新:</b> この設定を「Yes」にした場合、このフィールドは(外部認証を通して)ログイン毎またはユーザの同期ごとに更新されます。更新されるローカルフィールドはロックする必要があります。</p>';
 $string['auth_updateremote'] = '外部データの更新';
 $string['auth_updateremote_expl'] = '<p><b>外部データの更新:</b> この設定を「Yes」にした場合、ユーザレコードが更新されるときに外部認証が更新されます。編集できるようにフィールドをアンロックする必要があります。</p>';
-$string['auth_updateremote_ldap'] = '<p><b>注意:</b> 外部LDAPデータを更新するためには、binddnとbindpwを書き込み権を持ったbindユーザに設定する必要があります。現在、マルチバリュー属性を保護しません。また、更新時にエクストラバリューは取り除かれます。</p>';
+$string['auth_updateremote_ldap'] = '<p><b>注意:</b> 外部LDAPデータを更新するには、すべてのユーザレコードに書込み権を持ったbindユーザに対してbinddnとbindpwを設定する必要があります。現在、多値属性を保持することはできません。また、超過した値は更新時に取り除かれます。</p>';
 $string['auth_user_create'] = 'ユーザの作成を許可する';
 $string['auth_user_creation'] = '新しい (匿名) ユーザは、外部認証元のユーザアカウントを作成することができます。ユーザの確定はメールによって行われます。このオプションを有効にした場合、モジュール特有のオプションも同時に設定する必要があります。';
 $string['auth_usernameexists'] = 'このユーザ名はすでに登録されています。新しいものを選んでください。';

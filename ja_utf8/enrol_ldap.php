@@ -1,18 +1,19 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.9 dev (2007021400)
+      // enrol_ldap.php - created with Moodle 1.9 dev (2007060100)
 
 
-$string['description'] = '<p>ユーザ登録をコントロールするために、LDAPサーバを使用することができます。LDAPの使用は、あなたのLDAPツリーがコースに登録されているグループを含んでいること、それぞれのグループ/コース内に学生に対応したメンバー登録があることを前提とします。</p>
+$string['description'] = '<p>ユーザ登録をコントロールするために、LDAPサーバを使用することができます。LDAPの使用は、あなたのLDAPツリーがコースに登録されているグループを含んでいること、それぞれのグループ/コース内に学生に対応したメンバーが登録されていることを前提とします。</p>
+
 <p>コースはLDAP内でグループとして定義され、ユニークなユーザ識別を含む複数のメンバーシップフィールド (<em>member</em> または <em>memberUid</em>) を持っていることを前提とします。</p>
 
-<p>LDAPを使用したユーザ登録を使用するには、ユーザが有効なIDナンバーフィールドを<strong>持つ必要</strong>があります。LDAPグループは、ユーザがコースに登録できるように、メンバーフィールドの中にIDナンバーを持つ必要があります。あなたがすでにLDAP認証を使用しているのでしたら、通常これらは正常に動作します。</p>
+<p>LDAPを使用したユーザ登録を使用するには、ユーザが有効なIDナンバーフィールドを<strong>持つ必要</strong>があります。LDAPグループは、ユーザがコースに登録できるよう、メンバーフィールドの中にIDナンバーを持つ必要があります。あなたがすでにLDAP認証を使用しているのでしたら、通常これらは正常に動作します。</p>
 
 <p>ユーザ登録内容は、ユーザのログイン時に更新されます。登録情報の同期をとるためのスクリプトを実行させることもできます。<em>enrol/ldap/enrol_ldap_sync.php</em>をご覧ください。</p>
 
 <p>このプラグインでは、新しいグループがLDAP内に作成されたときに、自動的に新しいコースを作成することもできます。</p>';
-$string['enrol_ldap_autocreate'] = 'Moodleに存在しないコースに登録された場合、自動的にコースを作成します。';
+$string['enrol_ldap_autocreate'] = 'Moodleに存在しないコースにユーザが登録された場合、自動的にコースを作成します。';
 $string['enrol_ldap_autocreation_settings'] = 'コース自動作成設定';
-$string['enrol_ldap_bind_dn'] = 'bindユーザをユーザ検索に使用したい場合は、ここで指定してください。「 cn=ldapuser,ou=public,o=org 」のようになります。';
+$string['enrol_ldap_bind_dn'] = 'bindユーザをユーザ検索に使用したい場合、ここで指定してください。「 cn=ldapuser,ou=public,o=org 」のような設定となります。';
 $string['enrol_ldap_bind_pw'] = 'bindユーザのパスワードです。';
 $string['enrol_ldap_category'] = '自動作成コースのカテゴリです。';
 $string['enrol_ldap_contexts'] = 'LDAPコンテクスト';
@@ -29,10 +30,10 @@ $string['enrol_ldap_objectclass'] = 'コース検索に使用するオブジェ�
 $string['enrol_ldap_roles'] = 'ロールマッピング';
 $string['enrol_ldap_search_sub'] = 'subcontextよりグループメンバーを検索する。';
 $string['enrol_ldap_server_settings'] = 'LDAPサーバ設定';
-$string['enrol_ldap_student_contexts'] = '学生の登録時に割り当てられるグループリストのコンテクストです。コンテクストは「 ; 」で区切ってください。例: 「  ou=courses,o=org; ou=others,o=org 」';
-$string['enrol_ldap_student_memberattribute'] = 'ユーザがグループに属して (登録されて) いる場合のメンバー属性。通常、「 member 」または「 memberUid 」';
+$string['enrol_ldap_student_contexts'] = '学生の登録時に割り当てられるグループリストのコンテクストです。コンテクストは「 ; 」で区切ってください。例: ou=courses,o=org; ou=others,o=org';
+$string['enrol_ldap_student_memberattribute'] = 'ユーザがグループに属して (登録されて) いる場合のメンバー属性。通常、「 member 」または「 memberUid 」です。';
 $string['enrol_ldap_student_settings'] = '学生登録設定';
-$string['enrol_ldap_teacher_contexts'] = '教師の登録時に割り当てられるグループリストのコンテクストです。コンテクストは「 ; 」で区切ってください。例: 「  ou=courses,o=org; ou=others,o=org 」';
+$string['enrol_ldap_teacher_contexts'] = '教師の登録時に割り当てられるグループリストのコンテクストです。コンテクストは「 ; 」で区切ってください。例: ou=courses,o=org; ou=others,o=org';
 $string['enrol_ldap_teacher_memberattribute'] = 'ユーザがグループに属して (登録されて) いる場合のメンバー属性。通常、「 member 」または「 memberUid 」です。';
 $string['enrol_ldap_teacher_settings'] = '教師登録設定';
 $string['enrol_ldap_template'] = 'オプション: 自動作成コースが設定をコピーするテンプレートコースです。';
