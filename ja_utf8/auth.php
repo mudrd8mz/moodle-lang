@@ -129,7 +129,7 @@ $string['auth_ldap_bind_settings'] = 'Bind設定';
 $string['auth_ldap_changepasswordurl_key'] = 'パスワード変更のURL';
 $string['auth_ldap_contexts'] = 'ユーザが配置されているコンテクスト一覧です。異なるコンテクストは「;」で分けてください。例 \'ou=users,o=org; ou=others,o=org\'';
 $string['auth_ldap_contexts_key'] = 'コンテクスト';
-$string['auth_ldap_create_context'] = 'ユーザ作成をメールによる認証で行う場合、ユーザが作成されるコンテクストを特定してください。セキュリティの観点から、このコンテクストは各ユーザごとに異なるものでなければなりません。Moodleが自動的にコンテクストからユーザを探しますので、ldap_context-vaiableをこのコンテクストに追加する必要はありません。<br /><b>注意!</b> ユーザ作成を動作させるため、auth/ldap/lib.phpファイルのauth_user_create() 関数を修正してください。';
+$string['auth_ldap_create_context'] = 'メール認証でユーザを作成する場合、ユーザが作成されるコンテクストを指定してください。セキュリティの観点から、このコンテクストはユーザごとに異なるものにしてください。Moodleがコンテクストから自動的にユーザを探しますので、このコンテクストをldap_context-vaiableに追加する必要はありません。<br /><b>注意!</b> ユーザ作成を動作させるため、auth/ldap/auth.phpファイルのuser_create() 関数を修正する必要があります。';
 $string['auth_ldap_create_context_key'] = '新しいユーザのコンテクスト';
 $string['auth_ldap_create_error'] = 'LDAPのユーザ作成中にエラーが発生しました。';
 $string['auth_ldap_creators'] = 'メンバーが新しいコースの作成を許されているグループのリストです。複数のグループは「;」で分けられています。通常は\'cn=teachers,ou=staff,o=myorg\'のようになります。';
