@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007052300)
+      // moodle.php - created with Moodle 1.9 dev (2007060100)
 
 
 $string['action'] = '操作';
@@ -637,10 +637,7 @@ $string['gpl'] = 'Copyright (C) 1999 onwards Martin Dougiamas (http://moodle.com
 
 このプログラムは有用であることを願って頒布されますが、*全くの無保証*です。商業可能性の保証や特定の目的への適合性は、言外に示されたものも含め全く存在しません。詳しくはMoodleライセンス情報をご覧ください：
 
-<a
-href=\"http://docs.moodle.org/ja/%%E3%%83%%A9%%E3%%82%%A4%%E3%%82%%BB%%E3%%83%%B3%%E3%%82%%B9\">
-http://docs.moodle.org/ja/ライセンス
-</a>';
+http://docs.moodle.org/ja/%%E3%%83%%A9%%E3%%82%%A4%%E3%%82%%BB%%E3%%83%%B3%%E3%%82%%B9';
 $string['grade'] = '評点';
 $string['grades'] = '評定';
 $string['group'] = 'グループ';
