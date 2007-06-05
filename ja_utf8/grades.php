@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007052800)
+      // grades.php - created with Moodle 1.9 dev (2007060502)
 
 
 $string['addcategory'] = 'カテゴリの追加';
@@ -11,7 +11,10 @@ $string['average'] = '平均';
 $string['bonuspoints'] = 'ボーナスポイント';
 $string['categories'] = 'カテゴリ';
 $string['category'] = 'カテゴリ';
+$string['categoryname'] = 'カテゴリ名';
 $string['choosecategory'] = 'カテゴリの選択';
+$string['createcategory'] = 'カテゴリを作成する';
+$string['createcategoryerror'] = '新しいカテゴリを作成できませんでした。';
 $string['creatinggradebooksettings'] = '評定表設定の作成';
 $string['curveto'] = 'みなし満点';
 $string['deletecategory'] = 'カテゴリの削除';
@@ -30,6 +33,7 @@ $string['exceptions'] = '例外';
 $string['excluded'] = '除外';
 $string['extracredit'] = '追加点扱い';
 $string['extracreditwarning'] = '注意: カテゴリ内のすべての項目を追加点扱いにすることにより、評定の計算から項目を効果的に除外することができます。これにより合計評点は計算されません。';
+$string['forelementtypes'] = '作成対象: $a';
 $string['forstudents'] = '学生に対して';
 $string['gradebook'] = '評定表';
 $string['gradebookhiddenerror'] = '現在、評定表は学生から隠されています。';
@@ -69,8 +73,10 @@ $string['median'] = '中央値';
 $string['min'] = '最低';
 $string['mode'] = '最頻値';
 $string['movingelement'] = '$a に移動';
+$string['newcategory'] = '新しいカテゴリ';
 $string['no'] = 'No';
 $string['nocategories'] = 'このコースに評定カテゴリは追加されなかったか、見つかりませんでした。';
+$string['nocategoryname'] = 'カテゴリ名を入力してください。';
 $string['nocategoryview'] = 'カテゴリがありません。';
 $string['nogradeletters'] = '評定文字が設定されていません。';
 $string['nogradesreturned'] = '評定がありません。';
@@ -78,6 +84,8 @@ $string['nolettergrade'] = '評定文字がありません:';
 $string['nomode'] = 'NA';
 $string['nonnumericweight'] = '数値ではありません:';
 $string['nonweightedpct'] = '加重なし%%';
+$string['noselectedcategories'] = 'カテゴリを選択してください。';
+$string['noselecteditems'] = '項目を選択してください。';
 $string['notteachererror'] = 'この機能は教師のみ使用できます。';
 $string['pctoftotalgrade'] = '評点合計の%%';
 $string['percent'] = 'パーセント';
@@ -110,6 +118,8 @@ $string['standarddeviation'] = '標準偏差';
 $string['stats'] = '統計';
 $string['statslink'] = '統計';
 $string['student'] = '学生';
+$string['subcategory'] = 'ノーマルカテゴリ';
+$string['topcategory'] = 'スーパーカテゴリ';
 $string['total'] = '合計';
 $string['totalweight100'] = '加重の合計は100です。';
 $string['totalweightnot100'] = '加重の合計は100ではありません。';
