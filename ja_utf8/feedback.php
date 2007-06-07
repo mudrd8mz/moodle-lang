@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 1.9 dev (2007052300)
+      // feedback.php - created with Moodle 1.9 dev (2007060502)
 
 
 $string['add_item'] = '質問を追加する';
@@ -56,12 +56,12 @@ $string['export_to_excel'] = 'Excelにエクスポートする';
 $string['feedback:complete'] = 'フィードバックを終了する';
 $string['feedback:createprivatetemplate'] = 'プライベートテンプレートを作成する';
 $string['feedback:createpublictemplate'] = 'パブリックテンプレートを作成する';
-$string['feedback:deletecompleteds'] = '正常に削除されました。';
+$string['feedback:deletecompleteds'] = '終了したフィードバックを削除する';
 $string['feedback:deletetemplate'] = 'テンプレートを削除する';
 $string['feedback:edititems'] = 'アイテムを編集する';
 $string['feedback:mapcourse'] = 'コースをグローバルフィードバックにマップする';
-$string['feedback:view'] = 'フィードバックの閲覧';
-$string['feedback:viewreports'] = 'レポートの閲覧';
+$string['feedback:view'] = 'フィードバックを表示する';
+$string['feedback:viewreports'] = 'レポートを表示する';
 $string['feedback_is_not_open'] = 'フィードバックは利用できません。';
 $string['feedbackclose'] = 'フィードバック終了日';
 $string['feedbackcloses'] = 'フィードバック終了日';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007052300)
+      // role.php - created with Moodle 1.9 dev (2007060502)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -34,7 +34,7 @@ $string['course:managemetacourse'] = 'メタコースを管理する';
 $string['course:managescales'] = '評価尺度を管理する';
 $string['course:reset'] = 'コースをリセットする';
 $string['course:sectionvisibility'] = 'セクションの視認性をコントロールする';
-$string['course:setcurrentsection'] = '最新のトピックを設定する';
+$string['course:setcurrentsection'] = '現在のセクションを設定する';
 $string['course:update'] = 'コース設定を更新する';
 $string['course:useremail'] = 'メールアドレスを有効/無効にする';
 $string['course:view'] = 'コースを表示する';
@@ -48,12 +48,12 @@ $string['course:viewowngrades'] = '自分の評定を表示する';
 $string['course:viewparticipants'] = '参加者を表示する';
 $string['course:viewscales'] = '尺度を表示する';
 $string['course:visibility'] = 'コースを表示/非表示する';
-$string['currentcontext'] = 'コンテクスト';
-$string['currentrole'] = 'ロール';
+$string['currentcontext'] = '現在のコンテクスト';
+$string['currentrole'] = '現在のロール';
 $string['defaultrole'] = 'デフォルトロール';
 $string['defineroles'] = 'ロールの定義';
-$string['deleterolesure'] = '<p>本当にロール「$a->name ($a->shortname)」を削除してもよろしいですか?</p><p>現在、このロールは $a->count 名のユーザに割り当てられています。</p>';
-$string['duplicaterole'] = 'このロールを複製する';
+$string['deleterolesure'] = '<p>本当にロール「 $a->name ($a->shortname) 」を削除してもよろしいですか?</p><p>現在、このロールは $a->count 名のユーザに割り当てられています。</p>';
+$string['duplicaterole'] = 'ロールを複製する';
 $string['duplicaterolesure'] = '本当にロール「 $a->name ($a->shortname) 」を複製してもよろしいですか?</p>';
 $string['editrole'] = 'ロールの編集';
 $string['errorbadrolename'] = 'ロール名が正しくありません。';
@@ -77,7 +77,7 @@ $string['legacy:user'] = 'レガシーロール: 認証済みユーザ';
 $string['legacytype'] = 'レガシーロールタイプ';
 $string['listallroles'] = 'すべてのロールを一覧表示する';
 $string['manageroles'] = 'ロールの管理';
-$string['metaassignerror'] = 'メタコースを管理するケイパビリティが必要なため、このロールはユーザ「 $a 」に割り当てられませんでした。';
+$string['metaassignerror'] = 'メタコースを管理するケイパビリティが必要なため、このロールをユーザ「 $a 」に割り当てられませんでした。';
 $string['metaunassignerror'] = 'ユーザ「 $a 」のロールは自動的に再割り当てされました。代わりに、子コースのロールを解除してください。';
 $string['my:manageblocks'] = 'マイ Moodleページブロックを管理する';
 $string['nocapabilitiesincontext'] = 'このコンテクストで利用できるケイパビリティはありません。';
@@ -108,7 +108,7 @@ $string['roleassignments'] = 'ロールの割り当て';
 $string['roles'] = 'ロール';
 $string['roletoassign'] = '割り当てるロール';
 $string['roletooverride'] = 'オーバーライドするロール';
-$string['selectrole'] = 'ロールを選択';
+$string['selectrole'] = 'ロールの選択';
 $string['showallroles'] = 'すべてのロールを表示する';
 $string['site:accessallgroups'] = 'すべてのグループにアクセスする';
 $string['site:approvecourse'] = 'コース作成を承認する';
