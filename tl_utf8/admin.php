@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007041800)
+      // admin.php - created with Moodle 1.9 dev (2007052300)
 
 
 $string['accessdenied'] = 'Bawal Pumasok';
@@ -166,7 +166,7 @@ $string['configproxyport'] = 'Kung kailangan ng server na ito ng proxy na kompyu
 $string['configquarantinedir'] = 'Kung nais mong ilipat ng clam AV ang mga may impeksiyong sako sa isang bugsok na pangkuwarantina, ipasok ito rito.  Kailangan ay masusulatan ito ng webserver.  Kapag pinabayaan mo itong blangko, o nagpasok ka ng bugsok na walâ naman o hindi puwedeng sulatan, ang mga may impeksiyong sako ay buburahin.  Huwag lagyan ng slash sa dulo.';
 $string['configrcache'] = 'Gamitin ang cache sa pag-iimbak ng mga rekord ng datosan.  Tandaan na iayos din ang \'cachetype\'!';
 $string['configrcachettl'] = 'Tagal ng buhay ng rekord na naka-cache, sa segundo.
-Gumamit ng maikling (<15) halaga dito.';
+Gumamit ng maikling (&lt;15) halaga dito.';
 $string['configrequestedstudentname'] = 'Salita para sa mag-aaral na ginamit sa mga hiniling na kurso';
 $string['configrequestedstudentsname'] = 'Salita para sa mga mag-aaral na ginamit sa mga hiniling na kurso';
 $string['configrequestedteachername'] = 'Salita para sa guro na ginamit sa mga hiniling na kurso';
@@ -323,7 +323,7 @@ dapat mong itakda ang <code>register_globals=off</code> upang mapaunlad ang pang
 <code>php.ini</code> mo, kaayusan ng <br />Apache/IIS o sako na <code>.htaccess</code>.</p>';
 $string['gotofirst'] = 'Pumunta sa unang nawawalang kataga';
 $string['gradebook'] = 'Markahan';
-$string['gradebookroles'] = 'Minarkahang gagampanang papel';
+$string['gradebookroles'] = 'Gagampanang papel sa markahan';
 $string['guestroleid'] = 'Gagampanang papel para sa bisita';
 $string['helpadminseesall'] = 'Makikita ba ng mga admin ang lahat ng okasyon sa kalendaryo o iyon lamang para sa kanila?';
 $string['helpcalendarsettings'] = 'Isaayos ang iba\'t-ibang aspekto ng Moodle na may kinalaman sa kalendaryo at petsa/oras';
@@ -405,9 +405,9 @@ $string['misc'] = 'Atbp.';
 $string['mnetrestore_extusers'] = '<strong>Paala-ala:<strong> Ang sakong bak-ap na ito ay naglalaman ng pangmalayuang akawnt ng tagagamit ng Moodle Network, na ibabalik bilang bahagi ng proseso.';
 $string['mnetrestore_extusers_mismatch'] = '<strong>Paala-ala:<strong> Ang sakong bak-ap na ito ay mukhang nagmula sa ibang pagkaluklok ng Moodle, at naglalaman ng pangmalayuang akawnt ng tagagamit ng Moodle Network na maaaring mabigong ipanumbalik.  Ang operasyong ito ay di suportado.  Kung natitiyak mo na ito ay nilikha sa luklok ng Moodle na ito, o matitiyak mo na lahat ng kinakailangang Moodle Network Host ay naisaayos, ay maaari mo pa ring subukin ang pagpapanumbalik.';
 $string['modulesecurity'] = 'Seguridad ng modyul';
-$string['multilangforceold'] = 'Ipilit ang lumang sintaks ng multilang: <span> na wala ang class=\"multilang\" at <lang>';
+$string['multilangforceold'] = 'Ipilit ang lumang sintaks ng multilang: &lt;span&gt; na wala ang class=\"multilang\" at &lt;lang&gt;';
 $string['multilangupgrade'] = 'Paggawang bago ng multilang';
-$string['multilangupgradeinfo'] = 'Ang sintaks ng multilang filter ay binago sa 1.8, ang tag na <lang> tag ay hindi na suportado. <br /><br />Halimbawa: <span lang=\"en\" class=\"multilang\">Hello!</span><span lang=\"tl\" class=\"multilang\">Mabuhay!</span><br /><br /><strong>Nais mo bang gawing bago ang sintaks sa lahat ng teksto ngayon?</strong>';
+$string['multilangupgradeinfo'] = 'Ang sintaks ng multilang filter ay binago sa 1.8, ang tag na &lt;lang&gt; tag ay hindi na suportado. <br /><br />Halimbawa: &lt;span  lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"tl\" class=\"multilang\">Mabuhay!&lt;/span&gt;<br /><br /><strong>Nais mo bang gawing bago ang sintaks sa lahat ng teksto ngayon?</strong>';
 $string['multilangupgradenotice'] = 'Marahil ay gumagamit ng lumang sintaks ng multilang ang site mo, iminumungkahi ang <a href=\"multilangupgrade.php\">paggawang bago ng multilang</a>.';
 $string['mustenablestats'] = 'Ang mga estadistika ay hindi pa binubuhay sa site na ito.';
 $string['mymoodle'] = 'Aking Moodle';

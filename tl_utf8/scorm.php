@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 dev (2007041800)
+      // scorm.php - created with Moodle 1.9 dev (2007060100)
 
 
 $string['advanced'] = 'Mga Parameter';
@@ -32,6 +32,7 @@ $string['errorlogs'] = 'Log ng mga error';
 $string['everyday'] = 'Araw-araw';
 $string['everytime'] = 'Sa tuwing gagamitin ito';
 $string['exit'] = 'Lumabas sa kurso';
+$string['exitactivity'] = 'Lumabas sa Aktibidad';
 $string['expcoll'] = 'Palawakin/Paliitin';
 $string['external'] = 'Baguhin ang tiyempo ng panlabas na pakete';
 $string['failed'] = 'Bigô';
@@ -70,6 +71,7 @@ $string['menubar'] = 'Ipakita ang bar ng menu';
 $string['min'] = 'Min na iskor';
 $string['missing_attribute'] = 'Nawawala ang attribute na $a->attr sa tag na $a->tag';
 $string['missing_tag'] = 'Nawawala ang tag na $a->tag';
+$string['missingparam'] = 'May kinakailangang nawawala o mali';
 $string['mode'] = 'Modo';
 $string['modulenameplural'] = 'Mga SCORM/AICC';
 $string['newattempt'] = 'Magsimula ng bagong pagkuha';
@@ -89,7 +91,9 @@ $string['objectives'] = 'Mga layunin';
 $string['onchanges'] = 'Sa tuwing magbabago ito';
 $string['organization'] = 'Organisasyon';
 $string['organizations'] = 'Mga organisasyon';
+$string['othersettings'] = 'Iba pang kaayusan';
 $string['othertracks'] = 'Iba pang Track';
+$string['package'] = 'Sako ng pakete';
 $string['packagedir'] = 'Filesystem Error: Hindi malikha ang bugsok ng pakete';
 $string['packagefile'] = 'Walang paketeng sako na itinakda';
 $string['passed'] = 'Pasado';
@@ -132,6 +136,7 @@ $string['toolbar'] = 'Ipakita ang toolbar';
 $string['totaltime'] = 'Oras';
 $string['trackingloose'] = 'BABALÂ: Mawawala ang datos ng tracking ng paketeng ito!';
 $string['type'] = 'Urî';
+$string['unziperror'] = 'Nagka-error habang ina-unzip ang pakete';
 $string['validateascorm'] = 'Suriin kung tanggap ang pakete';
 $string['validation'] = 'Resulta ng pagsusuri kung tanggap';
 $string['validationtype'] = 'Ang mas-ibig na ito ay itinatakda ang aklatang DOMXML na ginagamit sa pagtiyak kung tanggap ang Manipestong SCORM. Kung hindi mo alam kung ano ito, pabayaan ang pinilì na.';

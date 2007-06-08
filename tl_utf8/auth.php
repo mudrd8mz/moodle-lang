@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007041800)
+      // auth.php - created with Moodle 1.9 dev (2007052300)
 
 
 $string['CASform'] = 'Piniling pagsino';
@@ -26,6 +26,7 @@ $string['auth_cas_logoutcas_key'] = 'Lumabas sa CAS';
 $string['auth_cas_multiauth'] = 'Gawin itong \'oo\' kung nais mo ng maramihang-pagsino (CAS + iba pang pagsino)';
 $string['auth_cas_multiauth_key'] = 'Maramihang-pagsino';
 $string['auth_cas_port'] = 'Port ng CAS server';
+$string['auth_cas_proxycas'] = 'Gawing \'oo\' kung ginagamit mo ang CAS sa modong proxy';
 $string['auth_cas_proxycas_key'] = 'Modong proxy';
 $string['auth_cas_server_settings'] = 'Kaayusan ng CAS server';
 $string['auth_cas_text'] = 'Ligtas na koneksiyon';
@@ -121,6 +122,7 @@ $string['auth_ldap_contexts'] = 'Listahan ng mga konteksto ng lokasyon ng tagaga
 $string['auth_ldap_contexts_key'] = 'Konteksto';
 $string['auth_ldap_create_context'] = 'Kung bubuhayin mo ang paglikha ng tagagamit na may email confirmation, itakda mo ang konteksto kung saa lilikhain ang mga tagagamit.  Ang kontekstong ito ay dapat kakaiba ng sa iba pang tagagamit upang maiwasan ang mga problema sa seguridad.  Hindi mo kailangang ilagay ang kontekstong ito sa ldap_context-variable, awtomatikong hahanapin ng Moodle ang tagagamit sa kontekstong ito.<br /><b>Tandaan!</b> Kailangan mong baguhin ang function na auth_user_create() sa sako na auth/ldap/lib.php upang mapagana ang paglikha ng tagagamit';
 $string['auth_ldap_create_context_key'] = 'Konteksto para sa bagong tagagamit';
+$string['auth_ldap_create_error'] = 'Nagka-error sa paglikha ng tagagamit sa LDAP';
 $string['auth_ldap_creators'] = 'Listahan ng mga pangkat na ang mga miyembro ay pinapayagang lumikha ng bagong kurso.  Paghiwalayin ang maraming pangkat ng \';\'. Karaniwan ay tulad ng \'cn=teachers,ou=staff,o=myorg\'';
 $string['auth_ldap_creators_key'] = 'Tagalikha';
 $string['auth_ldap_expiration_desc'] = 'Piliin ang Hindi upang mapatay ang pagsuri sa mga pasó nang kontrasenyas o upang mabasa ng LDAP ang oras ng pagkapasó ng kontrasenyas, nang direkta mula sa LDAP';
@@ -158,6 +160,7 @@ $string['auth_ldap_unsupportedusertype'] = 'auth:  hindi pa sinusuportahan ng ld
 $string['auth_ldap_update_userinfo'] = 'Baguhin ang impormasyon ng tagagamit (unang pangalan, apelyido, tirahan..) mula LDAP hanggang Moodle.  Itakda ang kaayusan ng \"Pagmamapa ng datos\" alinsunod sa pangangailangan mo.';
 $string['auth_ldap_user_attribute'] = 'Opsiyonal: Nananaig sa katangian na ginagamit sa pagpapangalan/paghahanap ng mga tagagamit.  Karaniwan ay \'cn\'.';
 $string['auth_ldap_user_attribute_key'] = 'Katangiang tagagamit';
+$string['auth_ldap_user_exists'] = 'Mayroon nang ganyang pangalan ng tagagamit sa LDAP';
 $string['auth_ldap_user_settings'] = 'Kaayusan ng pang-lookup ng tagagamit';
 $string['auth_ldap_user_type'] = 'Piliin kung paano iiimbak ang tagagamit sa LDAP.  Itinatakda ng kaayusang ito kung paano gumagana ang pagkapasó ng lagda, may palugit na paglagda at paglikha ng tagagamit.';
 $string['auth_ldap_user_type_key'] = 'Uri ng tagagamit';

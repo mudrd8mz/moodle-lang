@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 1.9 dev (2007041800)
+      // qtype_datasetdependent.php - created with Moodle 1.9 dev (2007052300)
 
 
 $string['additem'] = 'Magdagdag ng Aytem';
@@ -16,6 +16,7 @@ $string['existingcategory2'] = 'isang sako, mula sa set ng mga sako na ginagamit
 $string['existingcategory3'] = 'isang link, mula sa set ng mga link na ginagamit din ng iba pang tanong sa kategoriyang ito';
 $string['forceregeneration'] = 'ipilit ang muling pagbuo';
 $string['getnextnow'] = 'Kumuha ng Bagong \"Aytem na Idadagdag\" Ngayon Din';
+$string['item(s)'] = '(mga) aytem';
 $string['itemno'] = 'Aytem $a';
 $string['itemscount'] = 'Bilang ng<br />Aytem';
 $string['itemtoadd'] = 'Aytem na Idadagdag';
@@ -25,6 +26,7 @@ $string['keptcategory3'] = 'isang link mula sa magagamit muling set ng mga link 
 $string['keptlocal1'] = 'isang literal mula sa pribadong magagamit muling set ng mga literal ng tanong tulad ng dati';
 $string['keptlocal2'] = 'isang sako mula sa pribadong magagamit muling set ng mga sako ng tanong tulad ng dati';
 $string['keptlocal3'] = 'isang link mula sa pribadong magagamit muling set ng mga link ng tanong tulad ng dati';
+$string['lastitem(s)'] = '(mga) huling item';
 $string['minmax'] = 'Agwat ng mga Halaga';
 $string['newcategory1'] = 'isang literal mula sa bagong set ng literal na magagamit din ng iba pang tanong sa kategoriyang ito';
 $string['newcategory2'] = 'isang sako mula sa bagong set ng sako na magagamit din ng iba pang tanong sa kategoriyang ito';

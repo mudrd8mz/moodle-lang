@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.8 dev (2006112200)
+      // grades.php - created with Moodle 1.9 dev (2007060100)
 
 
 $string['addcategory'] = 'Magdagdag ng Kategoriya';
@@ -60,6 +60,7 @@ $string['items'] = 'Mga Aytem';
 $string['lettergrade'] = 'Titik na Marka';
 $string['lettergradenonnumber'] = 'Ang Mababa at/o Mataas na marka ay di-bilang para sa';
 $string['letters'] = 'Mga Titik';
+$string['lock'] = 'Ikandado';
 $string['lowest'] = 'Pinakamababa';
 $string['lowgradeletter'] = 'Mababa';
 $string['max'] = 'Pinakamataas';
@@ -67,6 +68,7 @@ $string['maxgrade'] = 'Maks na Marka';
 $string['median'] = 'Median';
 $string['min'] = 'Pinakamababa';
 $string['mode'] = 'Moda';
+$string['movingelement'] = 'Inililipat ang $a';
 $string['no'] = 'Hindi';
 $string['nocategories'] = 'Hindi maidagdag o walang makitang kategoriya ng marka para sa kursong ito';
 $string['nocategoryview'] = 'Walang kategoriya na tatanawin ayon sa';
@@ -89,6 +91,7 @@ $string['reprintheaders'] = 'Muling ilathala ang mga Talaulo';
 $string['savechanges'] = 'Isilid ang mga Pagbabago';
 $string['savepreferences'] = 'Isilid ang mga Mas-ibig';
 $string['scaledpct'] = 'Iniskala %%';
+$string['selectdestination'] = 'Piliin ang paglalagyan ng $a';
 $string['setcategories'] = 'Itakda ang mga Kategoriya';
 $string['setcategorieserror'] = 'Kailangan mo munang itakda ang mga kategoriya ng kurso mo bago mo ito bigyan ng mga timbang.';
 $string['setgradeletters'] = 'Itakda ang mga Titik na Marka';
@@ -108,6 +111,7 @@ $string['total'] = 'Kabuuan';
 $string['totalweight100'] = 'Ang kabuuang timbang ay katumbas ng 100';
 $string['totalweightnot100'] = 'Ang kabuuang timbang ay hindi katumbas ng 100';
 $string['uncategorised'] = 'Walang kategoriya';
+$string['unlock'] = 'Alisin ang kandado';
 $string['useadvanced'] = 'Gamitin ang mga Abanteng Katangian';
 $string['usepercent'] = 'Gamitin ang Bahagdan';
 $string['useweighted'] = 'Gamitin ang May-timbang';

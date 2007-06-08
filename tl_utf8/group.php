@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 dev (2007041800)
+      // group.php - created with Moodle 1.9 dev (2007052300)
 
 
 $string['addgroupstogrouping'] = 'Idagdag ang mga pangkat sa balangay';
-$string['adduserstogroup'] = 'Idagdag/tanggalin ang tagagamit';
+$string['adduserstogroup'] = 'Magdagdag/magtanggal ng tagagamit';
 $string['anygrouping'] = 'Alinmang balangay';
 $string['backtogroups'] = 'Bumalik sa mga pangkat';
 $string['cancel'] = 'Balewalain';

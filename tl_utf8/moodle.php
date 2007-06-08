@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007041800)
+      // moodle.php - created with Moodle 1.9 dev (2007060100)
 
 
 $string['action'] = 'Aksiyon';
@@ -235,7 +235,7 @@ $string['copyasnoun'] = 'kopyahin';
 $string['copyingcoursefiles'] = 'Kinokopya ang mga sako ng kurso';
 $string['copyinguserfiles'] = 'Kinokopya ang mga sako ng tagagamit';
 $string['copyingzipfile'] = 'Kinokopya ang mga sakong zip';
-$string['copyrightnotice'] = 'Patalastas ng karapatang-sipi';
+$string['copyrightnotice'] = 'Patalastas ng karapatang-arì';
 $string['coresystem'] = 'Kaibuturang sistema';
 $string['cost'] = 'Gastos';
 $string['costdefault'] = 'Umiiral na gastos';
@@ -251,6 +251,8 @@ $string['coursecategories'] = 'Mga kategoriya ng kurso';
 $string['coursecategory'] = 'Kategoriya ng kurso';
 $string['coursecreators'] = 'Mga tagalikha ng kurso';
 $string['coursecreatorsdescription'] = 'Ang mga tagalikha ng kurso ay makakalikha ng mga bagong kurso at makapagtuturo sa mga ito.';
+$string['courseenrolenddate'] = 'Huling araw ng pag-eenrol sa kurso';
+$string['courseenrolstartdate'] = 'Unang araw ng pag-eenrol sa kurso';
 $string['coursefiles'] = 'Mga sako ng kurso';
 $string['courseformatdata'] = 'Datos ng anyo ng kurso';
 $string['courseformats'] = 'Mga anyo ng kurso';
@@ -583,7 +585,7 @@ $string['filloutallfields'] = 'Punan po ang lahat ng pitak sa porma na ito';
 $string['findmorecourses'] = 'Maghanap ng marami pang kurso...';
 $string['firstdayofweek'] = '0';
 $string['firstname'] = 'Unang pangalan';
-$string['firsttime'] = 'Ito ba ang una mong pagdalaw dito?';
+$string['firsttime'] = 'Ngayon po lang ba kayo nakarating dito?';
 $string['folder'] = 'Polder';
 $string['folderclosed'] = 'Isinarang polder';
 $string['folderopened'] = 'Binuksang polder';
@@ -655,6 +657,7 @@ $string['grades'] = 'Mga marka';
 $string['group'] = 'Pangkat';
 $string['groupadd'] = 'Magdagdag ng bagong pangkat';
 $string['groupaddusers'] = 'Idagdag ang pinilì sa pangkat';
+$string['groupextendenrol'] = 'Pahabain ang pag-eenrol para sa lahat';
 $string['groupfor'] = 'para sa pangkat';
 $string['groupinfo'] = 'Impo hinggil sa piniling pangkat';
 $string['groupinfoedit'] = 'Iedit ang kaayusan ng pangkat';
@@ -1269,6 +1272,7 @@ $string['sourcerole'] = 'Pinagmulang gagampanang papel';
 $string['specifyname'] = 'Kailangan mong maglagay ng pangalan.';
 $string['starpending'] = '([*] = kursong nakabimbin ang pahintulot)';
 $string['startdate'] = 'Petsa ng umpisa ng kurso';
+$string['startingfrom'] = 'Simula sa';
 $string['startsignup'] = 'Lumikha ng bagong akawnt';
 $string['state'] = 'Probinsiya/Estado';
 $string['statistics'] = 'Mga Estadistika';
