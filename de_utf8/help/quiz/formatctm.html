@@ -1,4 +1,4 @@
-<h1>Importieren von "Course Test Manager"-Dateien</h1>
+<h2>Importieren von "Course Test Manager"-Dateien</h2>
 <p>Course Test Manager ist ein Softwarepaket von Course Technology,
 welches sich am Ende seiner "Lebenszeit" befindet. Es wird von Course
 Technology nicht länger weiterentwickelt. Die Anwendung
@@ -60,29 +60,29 @@ auf Ihrem Windows-System zu installieren:</p>
   <li>Entpacken Sie die Installationsdatei, die Sie von <a
  href="http://odbcsock.sourceforge.net/" target="_new">dieser Seite</a>
 heruntergeladen haben auf Ihrem Windows-System.</li>
-  <li>Kopieren Sie die bin&auml;re ODBCSocketServer.exe an einen festen
+  <li>Kopieren Sie die binäre ODBCSocketServer.exe an einen festen
 Ort, z.B. in Ihr Systemverzeichnis (wahrscheinlich C:\WINNT\ oder
 C:\Windows) oder Ihr Programmeverzeichnis. </li>
   <li>Installieren Sie den ODBC-Socket-Server als Dienst auf dem System
 mit Hilfe dieses Befehls:<br />
     <b>&lt;Geben Sie den Ort an, an den Sie die Datei im vorigen
 Schritt kopiert haben&gt;ODBCSocketServer.exe /Service</b><br />
-Sie können diesen Befehl unter Start-&gt;Ausf&uuml;hren ... Dialog
+Sie können diesen Befehl unter Start-&gt;Ausführen ... Dialog
 oder mit Hilfe der Eingabeaufforderung eingeben.</li>
-  <li>&Ouml;ffnen Sie den Dienstemanager. Dazu klicken Sie entweder auf
+  <li>Öffnen Sie den Dienstemanager. Dazu klicken Sie entweder auf
 Start-&gt;Einstellungen-&gt;Systemsteuerung-&gt;Verwaltung-&gt;Dienste
 oder Sie klicken mit der rechten Maustaste auf <b>Arbeitsplatz</b>,
-w&auml;hlen <b>Verwalten</b> und klicken dann auf <b>Dienste und
+wählen <b>Verwalten</b> und klicken dann auf <b>Dienste und
 Anwendungen-&gt;Dienste</b> in der rechten Seite des Fensters. Sie
-k&ouml;nnen den Dienstemanager auch mit Eingabe des Befehls <b>services.msc</b>
+können den Dienstemanager auch mit Eingabe des Befehls <b>services.msc</b>
 im
-Start-&gt;Ausf&uuml;hren ... Dialog starten.<br />
+Start-&gt;Ausführen ... Dialog starten.<br />
   </li>
   <li>Im Dienstemanager suchen Sie den Dienst ODBC-Socket-Server und
 klicken ihn mit der rechten Maustaste an. Klicken Sie hier auf <b>Starten</b>.
 Der Status des Dienstes sollte auf "gestartet" wechseln, wenn Sie dies
 getan haben. Beachten Sie, dass Sie diesen Dienst komplett stoppen
-und/oder deaktivieren k&ouml;nnen, nachdem Sie den Importprozess
+und/oder deaktivieren können, nachdem Sie den Importprozess
 beendet haben.</li>
   <li>Stellen Sie sicher, dass die system.mda- und die ctm.mdb-Access-
 Dateien auf dem PC vorhanden sind und dass der MS-Access- ODBC-Treiber
@@ -99,11 +99,11 @@ werden diese Informationen für den Importprozess benötigen.</li>
   <li>Jetzt können Sie die Datei oder Dateien in moodle
 importieren. Erstellen Sie Ihren Test und starten Sie den Prozess "Importieren
 von Fragen aus Datei". <b>JETZT KOMMEN DIE UNTERSCHIEDE BEI
-DER BENUTZUNG VON LINUX - </b>SIE M&Uuml;SSEN EINE DUMMY-DATEI IM
+DER BENUTZUNG VON LINUX - </b>SIE MÜSSEN EINE DUMMY-DATEI IM
 UPLOAD-FELD ANGEBEN, DAMIT DER IMPORTPROZESS GESTARTET WERDEN KANN.
 DIESE DATEI <b>WIRD NICHT</b> VERARBEITET, SIE IST LEDIGLICH EIN
-PLATZHALTER F&Uuml;R DIE ART DES IMPORTS. ALS N&Auml;CHSTES WERDEN SIE
-DIE M&Ouml;GLICHKEIT HABEN, DIE WINDOWS-SERVER-INFORMATIONEN ANZUGEBEN.
+PLATZHALTER FÜR DIE ART DES IMPORTS. ALS NÄCHSTES WERDEN SIE
+DIE MÖGLICHKEIT HABEN, DIE WINDOWS-SERVER-INFORMATIONEN ANZUGEBEN.
 Sie werden ein Formular zu sehen bekommen, in dem Sie den Computernamen
 des Windows-ODBC-Socket-Server-PCs sowie die Pfadangaben der
 Systemdatenbank und der Fragendatenbanken angeben können. Geben

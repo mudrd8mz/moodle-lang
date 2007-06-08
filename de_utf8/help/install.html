@@ -1,12 +1,12 @@
-<h1>Moodle installieren</h1>
+<h2>Moodle installieren</h2>
 <p>Dieses Tutorial zeigt, wie Sie Moodle zum ersten Mal
 installieren. An manchen Stellen geht es recht weit ins Detail,
-um die Server-Einstellungen auch zu erkl&auml;ren. Das erscheint
+um die Server-Einstellungen auch zu erklären. Das erscheint
 mitunter etwas kompliziert. Sie werden aber bald feststellen,
 dass alles sehr leicht ist. In der Regel ist MOODLE in ein paar
 Minuten installiert.</p>
 <p>Nehmen Sie sich ein wenig Zeit, diese Anleitung
-sorgf&auml;ltig zu lesen - es spart Zeit sp&auml;ter!</p>
+sorgfältig zu lesen - es spart Zeit später!</p>
 <p>Abschnitte in diesem Dokument:</p>
 <ol>
 <li><a href="#requirements">Systemanforderungen</a></li>
@@ -14,7 +14,7 @@ sorgf&auml;ltig zu lesen - es spart Zeit sp&auml;ter!</p>
 <li><a href="#site">Verzeichnisstruktur</a></li>
 <li><a href="#installer">Installationsskript zur Erstellung der config.php-Datei</a><ul>
 <li><a href="#webserver">Die Web-Server Einstellungen
-&uuml;berpr&uuml;fen</a></li>
+überprüfen</a></li>
 <li><a href="#database">Eine Datenbank erstellen</a></li>
 <li><a href="#data">Ein Datenverzeichnis erstellen</a></li>
 </ul>
@@ -34,7 +34,7 @@ OS X und Netware 6 Umgebungen.</p>
 <li>Web Server Software. Am häufigsten wird <a href="http://www.apache.org/" target="_blank">Apache</a>,
       genutzt. Moodle sollte aber auch unter jedem anderen Web Server laufen, der PHP unterstützt, wie
       IIS auf Windows Plattformen.</li>
-<li><a href="http://www.php.net/">PHP</a> Skript-Sprache (Version 4.1.0 oder j&uuml;nger).
+<li><a href="http://www.php.net/">PHP</a> Skript-Sprache (Version 4.1.0 oder jünger).
 PHP 5 wird ab der Version 1.4. von moodle unterstützt.
 <li>einen funktionierenden Datenbankserver: <a href=
 "http://www.mysql.com/">MySQL</a> oder <a href=
@@ -49,19 +49,18 @@ PHP 5 wird ab der Version 1.4. von moodle unterstützt.
   <p>&nbsp;</p>
 </blockquote>
 
-
 </blockquote>
-<p> </p>
+<p> </p>
 <h3><a name="downloading" id="downloading"></a>2. Downloaden, entpacken und an die richtige Stelle kopieren</h3>
 <blockquote>
-<p>Moodle liegt als komprimiertes Paket oder &uuml;ber CVS
-f&uuml;r Sie bereit. Detailerkl&auml;rungen finden Sie auf der
+<p>Moodle liegt als komprimiertes Paket oder über CVS
+für Sie bereit. Detailerklärungen finden Sie auf der
 Downloadseite <a href=
 "http://moodle.org/">http://moodle.org/</a></p>
 <p>Nach dem Download packen Sie das Archiv oder die CVS Dateien
 aus. Im neuen Verzeichnis quot;moodle" finden Sie eine Reihe von
 Dateien und Ordnern.</p>
-<p>Sie k&ouml;nnen den gesamten Ordner in ein
+<p>Sie können den gesamten Ordner in ein
 Dokumentenverzeichnis Ihres Webservers kopieren, dann finden Sie
 Moodle unter folgender Adresse
 <b>http://yourwebserver.com/moodle</b>, oder Sie kopieren alles
@@ -69,13 +68,11 @@ direkt in das Hauptverzeichnis. Moodle finden Sie dann unter
 <b>http://yourwebserver.com</b>.</p>
  <p>Wenn Sie moodle auf Ihren lokalen PC herunterladen und dann auf den Webserver hochladen, ist es am einfachsten, wenn Sie moodle als eine gepackte Datei herunterladen, auf den Server kopieren und dort entpacken. Ein web hosting interfaces wie Cpanel erlaubt Ihnen Archivpakete mit dem Dateimanager auf dem Server zu entpacken. </p>  
 </blockquote>
-<p> </p>
-
-
+<p> </p>
 
 <h3><a name="site" id="site"></a>3. Verzeichnisstruktur</h3>
 <blockquote>
-<p>Verschaffen Sie sich ruhig einen &Uuml;berblick &uuml;ber die
+<p>Verschaffen Sie sich ruhig einen Überblick über die
 verschiedenen Verzeichnisse von Moodle und ihren Inhalt:</p>
 <blockquote>
 <li>config.php - enthält Grundeinstellungen für moodle. Diese Datei erstellen Sie selbst aus der Datei config-dist.php oder mit der automatischen Installationsroutine</li>
@@ -90,18 +87,18 @@ Moodle</li>
 <li>blocks/ - Plugin-Module für Blöcke uafden Kursseiten</li>
 <li>calender/ - Kalender
 <li>course/ - Anzeige und Verwaltung der Kurse</li>
-<li>doc/ - Hilfedateien f&uuml;r Moodle (z.B. diese Seite)</li>
+<li>doc/ - Hilfedateien für Moodle (z.B. diese Seite)</li>
 <li>files/ - Anzeige und Verwaltung hochgeladener Dateien</li>
 <li>lang/ - Texte in verschiedenen Sprachen</li>
 <li>lib/ - Bibliotheken des Kerns von Moodle</li>
 <li>login/ - Steuerung des Login und der Anmeldungen</li>
 <li>mod/ - alle Moodle Kursmodule</li>
 <li>pix/ - Grafische Gestaltung der Seiten</li>
-<li>theme/ - Vorlagen f&uuml;r die visuelle Gestaltung der Seiten
+<li>theme/ - Vorlagen für die visuelle Gestaltung der Seiten
 (Themes/Skins).</li>
 <li>user/ - Anzeige und Verwaltung von Benutzern</li>
 </ul>
-<p> </p>
+<p> </p>
 </blockquote>
 </blockquote>
 
@@ -118,10 +115,10 @@ Moodle</li>
 <blockquote>
 
 <h3><a name="webserver" id="webserver"></a>4.1 Die Web-Server
-Einstellungen &uuml;berpr&uuml;fen</h3>
+Einstellungen überprüfen</h3>
 <blockquote>
-<p>Stellen Sie zun&auml;chst sicher, dass Ihr Webserver
-automatisch die Index.php Datei aufruft (evtl erg&auml;nzend zur
+<p>Stellen Sie zunächst sicher, dass Ihr Webserver
+automatisch die Index.php Datei aufruft (evtl ergänzend zur
 index.html, default.htm etc).</p>
 <p>In Apache erfolgt diese Einstellung in der httpd.conf Datei.
 Darin sollte z.B. folgender Text stehen:</p>
@@ -129,7 +126,7 @@ Darin sollte z.B. folgender Text stehen:</p>
 <pre>
 <strong>DirectoryIndex</strong> index.php index.html index.htm 
 </pre></blockquote>
-<p>index.php mu&szlig; in dieser &Uuml;bersicht aufgef&uuml;hrt
+<p>index.php muss in dieser Übersicht aufgeführt
 sein. Am besten steht es sogar ganz am Anfang der Liste.</p>
 
    <p>Zweitens, <b>Wenn Sie Apache 2 verwenden</b>, dann sollte die Variable <i>AcceptPathInfo</i>
@@ -144,7 +141,7 @@ sein. Am besten steht es sogar ganz am Anfang der Liste.</p>
 <p>Drittens: erfordert Moodle einige PHP-Einstellungen, damit es
 arbeiten kann. <b>Zumeist sind diese bereits als
 Grundeinstellungen vorhanden.</b> Einige PHP-Server (besonders
-solche mit &auml;lteren Versionen) m&uuml;ssen entsprechend
+solche mit älteren Versionen) müssen entsprechend
 eingestellt werden. Sie finden die Einstellungen in der
 PHP-Konfigurationsdatei (php.ini):</p>
 <blockquote>
@@ -161,7 +158,7 @@ andere Einstellungen erfordern, dann können sie die Einschreibungen überschrei
 <p>Erstellen Sie eine Datei mit Namen <b>.htaccess</b> im
 Hauptverzeichnis von Moodle mit der Definition der folgenden
 Einstellungen. Dies ist jedoch nur bei Apache Servern
-m&ouml;glich und auch nur dann wenn das Überschreiben zul&auml;ssig
+möglich und auch nur dann wenn das Überschreiben zulässig
 ist.</p>
 <blockquote>
 <pre>
@@ -176,7 +173,7 @@ php_flag file_uploads 1
 php_flag session.auto_start 0
 php_flag session.bug_compat_warn 0
 </pre></blockquote>
-<p>Sie k&ouml;nnen nun auch die maximale Dateigr&ouml;&szlig;e
+<p>Sie können nun auch die maximale Dateigröße
 festlegen, die hochgeladen werden darf:</p>
 <blockquote>
 <pre>
@@ -194,9 +191,7 @@ Befehl auf:</p>
 cp lib/htaccess .htaccess
 </pre></blockquote>
 </blockquote>
-<p> </p>
-
-
+<p> </p>
 
 <h3><a name="database" id="database"></a>4.2 Eine Datenbank
 erstellen</h3>
@@ -218,7 +213,7 @@ anderer auf Ihre Datenbank zugreifen kann.</p>
 			Wenn Sie diese Daten bei der moodle Installation angebern - verwenden Sie bitte den vollständigen Eintrag.</li>
     </ol>
 
-<p>Aufruf f&uuml;r MySQL unter Unix(Beispiel):</p>
+<p>Aufruf für MySQL unter Unix(Beispiel):</p>
 <pre>
    # mysql -u root -p
    &gt; CREATE DATABASE moodle;
@@ -227,68 +222,64 @@ anderer auf Ihre Datenbank zugreifen kann.</p>
    &gt; quit
    # mysqladmin -p reload
 </pre>
-<p>Aufruf f&uuml;r PostgreSQL (Beispiel):</p>
+<p>Aufruf für PostgreSQL (Beispiel):</p>
 <pre>
    # su - postgres
    &gt; psql -c "create user moodleuser createdb;" template1
    &gt; psql -c "create database moodle;" -U moodleuser template1
    &gt; psql -c "alter user moodleuser nocreatedb;" template1
 </pre>
-<p>(F&uuml;r MySQL empfehle ich den Gebrauch von <a href=
+<p>(Für MySQL empfehle ich den Gebrauch von <a href=
 "http://phpmyadmin.sourceforge.net/">phpMyAdmin</a> zur
 Bearbeitung der Datenbank).</p>
-<p>Ab der Version 1.0.8 unterst&uuml;tzt Moodle Vorzeichen
-f&uuml;r die Datenbanktabellen. Dadurch k&ouml;nnen Sie die
+<p>Ab der Version 1.0.8 unterstützt Moodle Vorzeichen
+für die Datenbanktabellen. Dadurch können Sie die
 gleiche Datenbank mit mehreren Moodle-Installationen oder anderen
 Webanwendungen nutzen.</p>
 </blockquote>
-<p> </p>
-
+<p> </p>
 
 <h3><a name="data" id="data"></a>4.3 Ein Datenverzeichnis
 erstellen</h3>
 <blockquote>
-<p>Moodle braucht nun etwas Speicherplatz f&uuml;r hochgeladene
+<p>Moodle braucht nun etwas Speicherplatz für hochgeladene
 Dateien wie Kursdokumente und Nutzerbilder.</p>
 <p>Das Installationsskript versucht ein solches Verzeichnis zu erstellen. Falls dies nicht gelingt, legen Sie ein solches Verzeichnis selber an. Erstellen Sie an einer beliebigen Stelle auf Ihrem Server
-f&uuml;r diesen Zweck ein Verzeichnis. Aus
-Sicherheitsgr&uuml;nden sollte dierses Verzeichnis NICHT f&uuml;r
-jedermann direkt &uuml;bers Web zugreifbar sein. Am besten
+für diesen Zweck ein Verzeichnis. Aus
+Sicherheitsgründen sollte dierses Verzeichnis NICHT für
+jedermann direkt übers Web zugreifbar sein. Am besten
 richten Sie es ausserhalb des Programmverzeichnisses ein, oder
-Sie sch&uuml;tzen es mit Hilfe einer .htaccess-Datei mit
+Sie schützen es mit Hilfe einer .htaccess-Datei mit
 folgendem Inhalt:</p>
 <blockquote>
 <pre>
 deny from all
 </pre></blockquote>
-<p>Pr&uuml;fen Sie ob Moodle in diesem Vezeichnis Dateien ablegen
-darf, indem Sie &uuml;berpr&uuml;fen, ob die WebServer Software
-(z.B. Apache) f&uuml;r dieses Verzeichnis Schreiberlaubnis hat.
-Auf Unix-Rechnern lautet die Einstellung f&uuml;r das Verzeichnis
+<p>Prüfen Sie ob Moodle in diesem Vezeichnis Dateien ablegen
+darf, indem Sie überprüfen, ob die WebServer Software
+(z.B. Apache) für dieses Verzeichnis Schreiberlaubnis hat.
+Auf Unix-Rechnern lautet die Einstellung für das Verzeichnis
 "nobody" oder "apache". Geben Sie den Nutzern die Rechte zum Schrreiben, Lesen und Ausführen.</p>
 <p>Auf Cpanel Systemen können Sie den &quot;Dateimanager&quot; verwenden, um den 
 Ordner zu finden und die &quot;Zugriffsrechte anzupassen&quot;. 
 Auf einigen gehosteten Servern müssen Sie die Zugriffsrechte für die Gruppe definieren, damit andere Nutzer Ihre Dateien nicht lesen oder verändern können. </p>
     <p>Der Administrator für Ihren Server unterstützt Sie bei Problemen. Auf einihgen Servern ist die PHP-Einstellung &quot;Safe Mode&quot;  <em>erforderlich</em>. Der Administrator wird diese Einstellung für Sie vornehmen. </p>
 </blockquote>
-<p> </p>
-
-
-
+<p> </p>
 
 <h3><a name="admin" id="admin"></a>5. Die Administrationsseite
 starten</h3>
 <blockquote>
 <p>Nachdem die Datei config.php angelegt wurde, wird nun die Adminseite aufgerufen, die Sie durch die weitere Konfiguration führt.
 Beim ersten Aufruf
-der Seite m&uuml;ssen Sie der GPL-Lizenzvereinbarung zustimmen
+der Seite müssen Sie der GPL-Lizenzvereinbarung zustimmen
 bevor das Setup fortgesetzt wird.</p>
 
 <p>Moodle richtet nun die Datenbank ein und erstellt die
 erforderlichen Tabellen in der Datenbank. Zuerst werden die
 Datenbanktabellen erstellt. Sie sehen auf dem Bildschirm eine
-Reihe von SQL-Meldungen und Best&auml;tigungsmeldungen in roter
-oder gr&uuml;ner Schrift. Dies sieht in etwa so aus:</p>
+Reihe von SQL-Meldungen und Bestätigungsmeldungen in roter
+oder grüner Schrift. Dies sieht in etwa so aus:</p>
 <blockquote>
 <p>CREATE TABLE course ( id int(10) unsigned NOT NULL
 auto_increment, category int(10) unsigned NOT NULL default '0',
@@ -305,32 +296,32 @@ databases set up successfully</font>.</p>
 </blockquote>
 <p>Wenn Sie dies nicht angezeigt bekommen, besteht ein Problem
 mit der Datenbank oder den Einstellungen in der
-Konfigurationsdatei config.php. Pr&uuml;fen Sie, ob PHP nicht im
-eingeschr&auml;nkten "safe mode" l&auml;uft (Kommerzielle
-Webhoster aktivieren h&auml;ufig den safe mode). Die PHP
-Variablen k&ouml;nnen Sie selber mit einer kleinen Datei mit
-folgendem Inhalt &uuml;berpr&uuml;fen: &lt;? phpinfo() ?&gt.
+Konfigurationsdatei config.php. Prüfen Sie, ob PHP nicht im
+eingeschränkten "safe mode" läuft (Kommerzielle
+Webhoster aktivieren häufig den safe mode). Die PHP
+Variablen können Sie selber mit einer kleinen Datei mit
+folgendem Inhalt überprüfen: &lt;? phpinfo() ?&gt.
 Speichern Sie die Datei in einen Webverzeichnis und rufen Sie sie
-mit dem Browser auf. Nun k&ouml;nnen Sie alle Einstellungen von
-PHP ablesen. Pr&uuml;fen Sie diese Schritte und und versuchen Sie
+mit dem Browser auf. Nun können Sie alle Einstellungen von
+PHP ablesen. Prüfen Sie diese Schritte und und versuchen Sie
 dann die Admin-Seite erneut aufzurufen.</p>
-<p>Scrollen Sie nun bis zum Ende der Seite und dr&uuml;cken Sie
+<p>Scrollen Sie nun bis zum Ende der Seite und drücken Sie
 den Button "Continue/Weiter" .</p>
 <p>Danach sehen Sie eine Reihe von Anzeigen, die das Erstellen
-der Tabellen f&uuml;r die verschiedenen Module von Moodle
-best&auml;tigen. Wie zuvor sollten alle Eintr&auml;ge gr&uuml;n
+der Tabellen für die verschiedenen Module von Moodle
+bestätigen. Wie zuvor sollten alle Einträge grün
 sein.</p>
-<p>Dr&uuml;cken Sie nun am Fu&szlig; der Seite wieder den
+<p>Drücken Sie nun am Fuß der Seite wieder den
 "Continue/Weiter" Button.</p>
 <p>Nun sehen Sie ein Formular mit dem Sie weitere Einstellungen
-an Ihrem Moodle vornehmen k&ouml;nnen, wie z.B. die
+an Ihrem Moodle vornehmen können, wie z.B. die
 voreingestellte Sprache, SMTP hosts und so weiter. Sie
-m&uuml;ssen nicht alle Einstellungen sofort vornehmen. Sie
-k&ouml;nnen die Einstellungen jederzeit im Administrationsmenu
-nachbearbeiten. Am Fu&szlig; der Seite finden Sie wieder einen
-Button "&Auml;ndern der Einstellungen/Save changes" Button.</p>
+müssen nicht alle Einstellungen sofort vornehmen. Sie
+können die Einstellungen jederzeit im Administrationsmenu
+nachbearbeiten. Am Fuß der Seite finden Sie wieder einen
+Button "Ändern der Einstellungen/Save changes" Button.</p>
 <p>Wenn (und wirklich nur dann) das Setup stecken bleibt, dann
-hat Ihr Server wom&ouml;glich ein "buggy referrer" Problem.
+hat Ihr Server womöglich ein "buggy referrer" Problem.
 Dieses ist jedoch leicht zu beheben: Setzen Sie in der Datei config.php
 die Variable secureforms auf <i>off</i> und starten Sie die
 Adminseite erneut.</p>
@@ -339,17 +330,17 @@ Einrichtung der erforderliche Tabellen in der Datenbank für die verschiedenen m
 Sie sollten - wie zuvor - in <font color="#006600">grüner</font> Schrift bestätigt sein.</p>
   <p>Scrollen Sie jeweils nach unten auf derSeite und bestätigen Sie den &quot;Fortsetzen/Weiter&quot; Link.</p>
  
-<p>Auf der n&auml;chsten Seite legen Sie weitere Einstellungen
+<p>Auf der nächsten Seite legen Sie weitere Einstellungen
 Ihrer Seite fest (z.B. Name der Seite, Formate, Beschreibungen
-und so weiter). F&uuml;llen Sie alle Angaben aus (&Auml;nderungen
-k&ouml;nnen Sie jederzeit &uuml;ber das Administrationsmenu
-vornehmen) und klicken Sie auf "&Auml;nderungen
-best&auml;tigen/Save changes".</p>
-<p>Als letzten Schritt legen Sie die Zugangsdaten f&uuml;r den
+und so weiter). Füllen Sie alle Angaben aus (Änderungen
+können Sie jederzeit über das Administrationsmenu
+vornehmen) und klicken Sie auf "Änderungen
+bestätigen/Save changes".</p>
+<p>Als letzten Schritt legen Sie die Zugangsdaten für den
 Administrator von Moodle fest. Tragen Sie Ihren eigenen Name,
-E-Mail etc. ein und klicken Sie auf "&Auml;nderungen
-best&auml;tigen/Save changes". Nicht alle Felder m&uuml;ssen
-ausgef&uuml;llt werden. Falls Sie etwas vergessen haben, werden
+E-Mail etc. ein und klicken Sie auf "Änderungen
+bestätigen/Save changes". Nicht alle Felder müssen
+ausgefüllt werden. Falls Sie etwas vergessen haben, werden
 Sie automatisch daran erinnert.</p>
 <blockquote>
 <blockquote>
@@ -357,8 +348,8 @@ Sie automatisch daran erinnert.</p>
 <blockquote>
 <blockquote>
 <p><strong>Stellen Sie unbedingt sicher, dass Sie sich den
-Benutzernamen und das Passwort f&uuml;r den Administrationszugang
-merken. Er ist erforderlich f&uuml;r sp&auml;tere Verwaltungen
+Benutzernamen und das Passwort für den Administrationszugang
+merken. Er ist erforderlich für spätere Verwaltungen
 auf Moodle.</strong></p>
 </blockquote>
 </blockquote>
@@ -372,40 +363,38 @@ den Nutzernamen &quot;<strong>admin</strong>&quot;,
 <p>Wenn Sie diesen Schritt erfolgreich abgeschlossen haben, sehen
 Sie die Administrationsseite. In dem Menu (es wird, wenn Sie sich
 als Admin einloggen auch auf der Startseite angezeigt)
-k&ouml;nnen Sie alle weiteren Einstellungen an Ihrem Moodle
+können Sie alle weiteren Einstellungen an Ihrem Moodle
 vornehmen wie z.B.:</p>
 <ul>
-<li>Erstellen und l&ouml;schen von Kursen</li>
-<li>Erstellen und bearbeiten von Nutzerzug&auml;ngen</li>
-<li>Verwaltung von Dozentenzug&auml;ngen</li>
-<li>Ver&auml;nderungen von Einstellungen,die f&uuml;r die gesamte
+<li>Erstellen und löschen von Kursen</li>
+<li>Erstellen und bearbeiten von Nutzerzugängen</li>
+<li>Verwaltung von Dozentenzugängen</li>
+<li>Veränderungen von Einstellungen,die für die gesamte
 Seite gelten.</li>
 </ul>
 <p>Die Installation ist jetzt noch nicht ganz abgeschlossen. Sie haben noch eine
 wichtige Sache zu erledigen (siehe nächster Abschnitt über cron jobs </p>  
 </blockquote>
-<p> </p>
-
-
+<p> </p>
 
 <h3><a name="cron" id="cron"></a>6. Einen Cron-Job einrichten</h3>
 <blockquote>
-<p>Einige Module von Moodle pr&uuml;fen regelm&auml;&szlig;ig, ob
-bestimmte Aufgaben ausgef&uuml;hrt werden m&uuml;ssen. Moodle
-&uuml;berpr&uuml;ft z.B. ob es im Forum neue Eintr&auml;ge gibt,
-die per Email an Nutzer versandt werden m&uuml;ssen.</p>
-<p>Das Skript, das all diese Vorg&auml;nge steuert, finden Sie im
-Admin-Verzeichnis und hei&szlig;t cron.php. Diese Datei
-l&auml;uft nicht von alleine. Sie m&uuml;ssen einen Mechanismus
-einrichten, der die Datei z.B. alle f&uuml;nf Minuten
-ausf&uuml;hrt. Dazu ist es erforderlich, dass ein "Impuls"
-f&uuml;r jedes Modul ausgel&ouml;st wird.</p>
-<p><b>Der Ausl&ouml;ser dieses Impulses mu&szlig; nicht von dem
+<p>Einige Module von Moodle prüfen regelmäßig, ob
+bestimmte Aufgaben ausgeführt werden müssen. Moodle
+überprüft z.B. ob es im Forum neue Einträge gibt,
+die per Email an Nutzer versandt werden müssen.</p>
+<p>Das Skript, das all diese Vorgänge steuert, finden Sie im
+Admin-Verzeichnis und heißt cron.php. Diese Datei
+läuft nicht von alleine. Sie müssen einen Mechanismus
+einrichten, der die Datei z.B. alle fünf Minuten
+ausführt. Dazu ist es erforderlich, dass ein "Impuls"
+für jedes Modul ausgelöst wird.</p>
+<p><b>Der Auslöser dieses Impulses muss nicht von dem
 Server erfolgen auf dem Moodle installiert ist.</b>. Wenn Sie auf
-diesem Server keine Cron-Jobs ausf&uuml;hren k&ouml;nnen, kann
-dies von einem anderen Server ausgel&ouml;st oder von Ihrem PC
-gestartet werden. Es ist lediglich n&ouml;tig, die Datei
-cron.php alle f&uuml;nf Minuten aufzurufen.</p>
+diesem Server keine Cron-Jobs ausführen können, kann
+dies von einem anderen Server ausgelöst oder von Ihrem PC
+gestartet werden. Es ist lediglich nötig, die Datei
+cron.php alle fünf Minuten aufzurufen.</p>
 <p>Testen Sie zuerst, ob die Datei funktioniert. Rufen Sie sie
 mit Ihrem Browser auf:</p>
 <blockquote>
@@ -427,24 +416,23 @@ wget -q -O /dev/null http://example.com/moodle/admin/cron.php
 <pre>
 lynx -dump http://example.com/moodle/admin/cron.php &gt; /dev/null
 </pre></blockquote>
-<p>Alternativ k&ouml;nnen Sie eine separate PHP-Version nutzen,
-die &uuml;ber die Kommandozeile gesteuert wird. Der Vorteil
+<p>Alternativ können Sie eine separate PHP-Version nutzen,
+die über die Kommandozeile gesteuert wird. Der Vorteil
 dieser Variante ist, dass in den Log-Dateien des Web-Servers der
-Aufruf von cron.php nicht st&auml;ndig protokolliert wird. Der
+Aufruf von cron.php nicht ständig protokolliert wird. Der
 Nachteil dieser Variante besteht darin, dass Sie einen Zugang zur
-Kommando-Zeile der PHP-Version ben&ouml;tigen.</p>
+Kommando-Zeile der PHP-Version benötigen.</p>
 <blockquote>
 <pre>
 /opt/bin/php /web/moodle/admin/cron.php
 
-
 (Windows) C:\apache\php\php.exe C:\apache\htdocs\moodle\admin\cron.php
 
 </pre></blockquote>
-<h4>Automatische Ausf&uuml;hrung des Skripts alle 5 Minuten</h4>
+<h4>Automatische Ausführung des Skripts alle 5 Minuten</h4>
 <p>Bei UNIX- Systemen: Use <b>cron</b>. Passen Sie ihre
-Einstellungen f&uuml;r Cron- Jobs &uuml;ber die Komandozeile mit
-folgendem Befehl an "crontab -e" und f&uuml;gen Sie folgende
+Einstellungen für Cron- Jobs über die Komandozeile mit
+folgendem Befehl an "crontab -e" und fügen Sie folgende
 Zeile hinzu:</p>
 <blockquote>
 <pre>
@@ -452,10 +440,10 @@ Zeile hinzu:</p>
 </pre></blockquote>
 <p>Bei Windows-Systemen: Der einfachste Weg ist hier mein
 Programm zu benutzen, <a title=
-"Folgen sie diesem Link, um den Download des Programms durchzuf&uuml;hren.(150k)"
+"Folgen sie diesem Link, um den Download des Programms durchzuführen.(150k)"
 href=
 "http://moodle.org/download/moodle-cron-for-windows.zip">moodle-cron-for-windows.zip</a>
-wodurch die Anpassungen ganz einfach sind. Sie k&ouml;nnen
+wodurch die Anpassungen ganz einfach sind. Sie können
 alternativ dazu, die in Windows enthaltene Funktion "Scheduled
 Tasks" benutzen.</p>
 </blockquote>
@@ -509,31 +497,31 @@ Tasks" benutzen.</p>
 anlegen</h3>
 <blockquote>
 <p>Wenn alle Einstellungen vorgenommen wurden, sollte diese
-Moodle-Seite einsatzf&auml;hig sein und Sie k&ouml;nnen einen
+Moodle-Seite einsatzfähig sein und Sie können einen
 Kurs erstellen.</p>
-<p>W&auml;hlen Sie "Neuen Kurs anlegen" auf der
-Administrationsseite ( oder &uuml;ber den Link im
-Administrationsmen&uuml; auf der Hauptseite).</p>
+<p>Wählen Sie "Neuen Kurs anlegen" auf der
+Administrationsseite ( oder über den Link im
+Administrationsmenü auf der Hauptseite).</p>
 <p>Legen Sie die Grundeinstellungen fest. Achten Sie dabei bitte
 besonders auf das Kursformat. Sie brauchen sich in dieser Stufe
-nicht zu intensiv mit den Details zu besch&auml;ftigen, da alle
-diese Einstellungen sp&auml;ter durch den Trainer ge&auml;ndert
-werden k&ouml;nnen.</p>
-<p>&Uuml;ber den Button "&Auml;nderungen speichern", gelangen sie
-auf eine neue Seite. Auf dieser Seite k&ouml;nnen Sie den Trainer
-f&uuml;r diesen Kurs zuweisen. Sie k&ouml;nnen nur Teilnehmer als
+nicht zu intensiv mit den Details zu beschäftigen, da alle
+diese Einstellungen später durch den Trainer geändert
+werden können.</p>
+<p>Über den Button "Änderungen speichern", gelangen sie
+auf eine neue Seite. Auf dieser Seite können Sie den Trainer
+für diesen Kurs zuweisen. Sie können nur Teilnehmer als
 Trainer zuweisen, die bereits einen Zugang zu diesem Moodle-
 System besitzen. Wenn ein neuer Trainerzugang eingerichtet
 werden soll, bitten Sie den Trainer sich selbst einen Zugang
-einzurichten ( &Uuml;ber die Anmeldeseite) oder erzeugen Sie
-einen neuen Zugang &uuml;ber das Administrationsmen&uuml;. Dort
+einzurichten ( Über die Anmeldeseite) oder erzeugen Sie
+einen neuen Zugang über das Administrationsmenü. Dort
 finden Sie den Link "Neuen Benutzer anlegen ".</p>
 <p>Wenn dies erledigt ist, sind die Vorbereitungen abgeschlossen
-und der Kurs kann &uuml;ber den Link "Kurse" auf der Hauptseite
+und der Kurs kann über den Link "Kurse" auf der Hauptseite
 weiter bearbeitet werden.</p>
 <p>Lesen Sie das "<a href="./?file=teacher.html">Trainer
 Handbuch</a>", um weitere Informationen zur Erstellung eines
-Kurses zu erhalten. Eine ausf&uuml;hrliche Anleitung in deutscher
+Kurses zu erhalten. Eine ausführliche Anleitung in deutscher
 Sprache finden Sie im <a href=
 "http://moodle.de">Deutschen Trainerhandbuch und im Teilnehmerhandbuch
 Forum.</a></p>
