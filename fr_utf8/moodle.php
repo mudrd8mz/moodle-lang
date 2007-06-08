@@ -552,7 +552,7 @@ Pour plus d\'informations, veuillez contacter votre $a->teacherstr.
 $string['expirythreshold'] = 'Délai';
 $string['explanation'] = 'Explication';
 $string['extendenrol'] = 'Étendre la période d\'inscription';
-$string['extendperiod'] = 'Période d\'inscription étendue';
+$string['extendperiod'] = 'Extension de la période d\'inscription';
 $string['failedloginattempts'] = '$a->attempts tentatives de connexion depuis votre dernière connexion';
 $string['failedloginattemptsall'] = '$a->attempts tentatives de connexion pour $a->accounts comptes';
 $string['feedback'] = 'Feedback';
