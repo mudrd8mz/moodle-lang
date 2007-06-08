@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8 (2007021501)
+      // resource.php - created with Moodle 1.9 dev (2007050901)
 
 
 $string['addresource'] = 'Arbeitsmaterial hinzufügen';
@@ -17,16 +17,16 @@ $string['configdefaulturl'] = 'Wenn Sie eine neue URL-basierte Ressource anlegen
 $string['configfilterexternalpages'] = 'Diese Option wendet den eingestellten Filter (Wörterbuch, Autolinks, etc.) auch für alle externen Quellen (Webseiten und hochgeladene HTML-Seiten) an. Wenn Sie diese Option aktivieren, werden Ihre Kursseiten wesentlich langsamer laufen. Nutzen Sie diese Option daher nur, wenn Sie sie wirklich benötigen.';
 $string['configframesize'] = 'Wenn eine Webseite oder eine hochgeladene Datei in einem Frame angezeigt wird, so gibt dieser Wert die Größe des Top-Frames, der die Navigation beinhaltet, in Pixeln an.';
 $string['configparametersettings'] = 'Stellen Sie die Anfangswerte für die Parameter im Formular zur Bereitstellung neuer Arbeitsmaterialien ein. Nach dem ersten Öffnen kann diese individuell angepasst werden.';
-$string['configpopup'] = 'Soll neues Arbeitsmaterial in einem Popup-Fenster angezeigt werden, falls dies möglich ist (Voreinstellung)?';
-$string['configpopupdirectories'] = 'Sollen von Popup-Fenstern Verzeichnislinks angezeigt werden (Voreinstellung)?';
-$string['configpopupheight'] = 'Welche Höhe sollen Popup-Fenster haben (Voreinstellung)?';
-$string['configpopuplocation'] = 'Sollen Popup-Fenster das Adressmenü zeigen (Voreinstellung)?';
-$string['configpopupmenubar'] = 'Sollen Popup-Fenster das Menü zeigen (Voreinstellung)?';
-$string['configpopupresizable'] = 'Soll die Größe von Popup-Fenstern veränderbar sein (Voreinstellung)?';
-$string['configpopupscrollbars'] = 'Sollen Popup-Fenster scrollbar sein (Voreinstellung)?';
-$string['configpopupstatus'] = 'Sollen Popup-Fenster eine Statusanzeige haben (Voreinstellung)?';
-$string['configpopuptoolbar'] = 'Sollen Popup-Fenster die Toolbar anzeigen (Voreinstellung)?';
-$string['configpopupwidth'] = 'Welche Breite sollen Popup-Fenster haben (Voreinstellung)?';
+$string['configpopup'] = 'Soll neues Arbeitsmaterial in einem Popup-Fenster angezeigt werden, falls dies möglich ist? (Standard=nein)';
+$string['configpopupdirectories'] = 'Sollen von Popup-Fenstern Verzeichnislinks angezeigt werden? (Standard=ja)';
+$string['configpopupheight'] = 'Welche Höhe sollen Popup-Fenster haben? (Standard=450)';
+$string['configpopuplocation'] = 'Sollen Popup-Fenster das Adressmenü zeigen? (Standard=ja)';
+$string['configpopupmenubar'] = 'Sollen Popup-Fenster das Menü zeigen? (Standard=ja)';
+$string['configpopupresizable'] = 'Soll die Größe von Popup-Fenstern veränderbar sein? (Standard=ja)';
+$string['configpopupscrollbars'] = 'Sollen Popup-Fenster scrollbar sein? (Standard=ja)';
+$string['configpopupstatus'] = 'Sollen Popup-Fenster eine Statusanzeige haben? (Standard=ja)';
+$string['configpopuptoolbar'] = 'Sollen Popup-Fenster die Toolbar anzeigen? (Standard=ja)';
+$string['configpopupwidth'] = 'Welche Breite sollen Popup-Fenster haben? (Standard=620)';
 $string['configsecretphrase'] = 'Dieser versteckte Wert wird verwendet, um einen verschlüsselten Wert zu erstellen, der als Parameter an andere Ressourcen gesandt wird. Der verschlüsselte Code wird erstellt von einem md5-Wert der derzeitigen IP Adresse in Verbindung mit dem eingegebenen Wert. Z.B. code = md5(IP.secretphrase). Dies erlaubt der angesprochenen Ressource die Verbindung für erhöhte Sicherheit zu überprüfen.';
 $string['configwebsearch'] = 'Wenn eine URL als Webseite oder Link eingefügt wird, soll diese Seite den Benutzer bei der Suche nach einer URL unterstützen.';
 $string['configwindowsettings'] = 'Stellen Sie die Anfangswerte für die Fenstereinstellungen im Formular zur Bereitstellung neuer Arbeitsmaterialien ein. Nach dem ersten Öffnen kann dies individuell angepasst werden.';

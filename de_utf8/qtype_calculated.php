@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.8 Beta + (2007021401)
+      // qtype_calculated.php - created with Moodle 1.9 dev (2007050901)
 
 
 $string['addmoreanswerblanks'] = 'Weiteres Antwortfeld hinzufügen';
@@ -23,6 +23,7 @@ $string['nodataset'] = 'Nichts - das ist kein Jokerzeichen';
 $string['nosharedwildcard'] = 'Kein gemeinsames Jokerzeichen in dieser Kategorie';
 $string['possiblehdr'] = 'Mögliche Jokerzeichen nur im Fragetext vorhanden';
 $string['tolerance'] = 'Toleranz ±';
+$string['updatecategory'] = 'Kategorie aktualisieren';
 $string['usedinquestion'] = 'In Fragen verwendet';
 $string['youmustenteramultiplierhere'] = 'Sie müssen hier einen Multiplikationsfaktor eingeben.';
 

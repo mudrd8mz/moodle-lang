@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.8 (2007021501)
+      // scorm.php - created with Moodle 1.9 dev (2007051801)
 
 
 $string['advanced'] = 'Weitere Einstellungen';
@@ -28,11 +28,13 @@ $string['directories'] = 'Verzeichnislinks anzeigen';
 $string['display'] = 'Lernpaket anzeigen';
 $string['domxml'] = 'DOMXML externe Bibliothek';
 $string['element'] = 'Element';
+$string['enter'] = 'Start';
 $string['entercourse'] = 'Lernpaket starten';
 $string['errorlogs'] = 'Fehlerprotokoll';
 $string['everyday'] = 'Jeden Tag';
 $string['everytime'] = 'Alle Nutzungszeiten';
 $string['exit'] = 'Lernpaket beenden';
+$string['exitactivity'] = 'Abbrechen';
 $string['expcoll'] = 'Entfalten/Zusammensetzen';
 $string['external'] = 'Externe Paket-Zeitnahme benutzen';
 $string['failed'] = 'Fehlgeschlagen';
@@ -71,6 +73,7 @@ $string['menubar'] = 'Menüs anzeigen';
 $string['min'] = 'Minimale Punktzahl';
 $string['missing_attribute'] = 'Fehlende Attribute $a->attr im Tag $a->tag';
 $string['missing_tag'] = 'Fehlendes Tag $a->tag';
+$string['missingparam'] = 'Ein Eintrag fehlt oder ist falsch.';
 $string['mode'] = 'Einstellung';
 $string['modulename'] = 'Lernpaket';
 $string['modulenameplural'] = 'Lernpakete';
@@ -91,7 +94,9 @@ $string['objectives'] = 'Ziele';
 $string['onchanges'] = 'Bei allen Änderungen';
 $string['organization'] = 'Organisation';
 $string['organizations'] = 'Organisationen';
+$string['othersettings'] = 'Erweiterte Einstellungen';
 $string['othertracks'] = 'Andere Tracks';
+$string['package'] = 'Lernpaketdatei';
 $string['packagedir'] = 'Dateisystemfehler: Das Paketverzeichnis kann nicht erstellt werden';
 $string['packagefile'] = 'Keine Paketdatei ausgewählt';
 $string['passed'] = 'Abgeschlossen';
@@ -134,6 +139,7 @@ $string['toolbar'] = 'Toolbar anzeigen';
 $string['totaltime'] = 'Zeit';
 $string['trackingloose'] = 'WARNUNG: Trackingdaten dieses SCORM Paketes gehen verloren!';
 $string['type'] = 'Typ';
+$string['unziperror'] = 'Beim Entpacken des Pakets ist ein Fehler aufgetreten.';
 $string['validateascorm'] = 'Überprüfen eines Lernpakets';
 $string['validation'] = 'Prüfergebnis';
 $string['validationtype'] = 'Die Einstellungen der DOMXML Library werden zur Prüfung des SCORM Manifests  verwandt. Wenn Sie sich nicht genau auskennen, lassen Sie die Einstellungen unverändert stehen.';

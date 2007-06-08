@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 Beta + (2007021401)
+      // calendar.php - created with Moodle 1.9 dev (2007051801)
 
 
 $string['advancedoptions'] = 'Erweiterte Optionen';
@@ -58,8 +58,8 @@ $string['generateurlbutton'] = 'Kalender-URL abfragen';
 $string['globalevent'] = 'Allgemeiner Termin';
 $string['globalevents'] = 'Allgemeine Termine';
 $string['gotocalendar'] = 'Zum Kalender';
-$string['groupevent'] = 'Gruppentermin';
-$string['groupevents'] = 'Gruppentermine';
+$string['groupevent'] = 'Termin meiner Gruppen';
+$string['groupevents'] = 'Termine meiner Gruppen';
 $string['hidden'] = 'verborgen';
 $string['ical'] = 'iCal';
 $string['iwanttoexport'] = 'Export';

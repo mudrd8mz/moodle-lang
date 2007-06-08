@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8 (2007021501)
+      // error.php - created with Moodle 1.9 dev (2007050901)
 
 
 $string['adminprimarynoedit'] = 'Der Hauptadmin kann nicht von anderen bearbeitet werden';
@@ -31,7 +31,7 @@ $string['filenotfound'] = 'Entschuldigung, die angeforderte Datei wurde nicht ge
 $string['forumblockingtoomanyposts'] = 'Sie haben die Höchstzahl der zulässigen Beiträge für dieses Forum erreicht.';
 $string['groupalready'] = 'Teilnehmer/in gehört bereits zur Gruppe $a.';
 $string['groupunknown'] = 'Die Gruppe $a gehört nicht zum ausgewählten Kurs.';
-$string['guestnoeditprofile'] = 'Gäste können ihr Profil nicht bearbeiten.';
+$string['guestnoeditprofile'] = 'Gäste können das Profil nicht bearbeiten.';
 $string['guestnoeditprofileother'] = 'Das Profil für Gäste kann nicht bearbeitet werden.';
 $string['invalidcourse'] = 'Ungültiger Kurs';
 $string['invalidfieldname'] = '\"$a\" ist ein ungültiger Feldname.';
@@ -39,7 +39,16 @@ $string['invalidfiletype'] = '\"$a\" ist ein unzulässiger Dateityp.';
 $string['invalidmd5'] = 'md5 ungültig';
 $string['invalidrequest'] = 'Ungültige Abfrage';
 $string['invalidrole'] = 'Ungültige Rolle';
+$string['invalidurl'] = 'Ungültige URL';
 $string['invalidxmlfile'] = '\"$a\" ist eine ungültige XML-Datei.';
+$string['listcantmovedown'] = 'Fehler beim Verschieben nach unten, denn zu diesem Element existieren keine Gleichen (Peers).';
+$string['listcantmoveleft'] = 'Fehler beim Verschieben des Elements nach links, denn es besitzt keine Vorgänger (Parents).';
+$string['listcantmoveright'] = 'Fehler beim Verschieben des Elements nach rechts, denn es existiert kein Gleiches (Peer), um dieses zum Nachfolger zu machen. Bewegen Sie das Element zuerst unter ein anderes Gleiches (Peer), danach wird das Bewegen nach rechts möglich sein.';
+$string['listcantmoveup'] = 'Fehler beim Verschieben des Elements nach oben, denn es ist das erste unter den Gleichen (Peers).';
+$string['listnochildren'] = 'Keine Nachfolger (Children) des Elements gefunden.';
+$string['listnoitem'] = 'Element konnte nicht gefunden werden.';
+$string['listnopeers'] = 'Keine Gleichen (Peers) zum Element gefunden.';
+$string['listupdatefail'] = 'Bei der Bearbeitung der Listenhierarchie ist ein Datenbankfehler aufgetreten.';
 $string['loginasnoenrol'] = 'Das \"Eintragen\" oder \"Austragen\" aus einem Kurs ist nicht möglich wenn Sie in der Rolle eines anderen Nutzers angemeldet sind.';
 $string['loginasonecourse'] = 'Sie können sich in diesen Kurs nicht eintragen.<br /> Beenden Sie zuerst die Funktion \"Login als\", um sich dann in den anderen Kurs einzutragen.';
 $string['missingfield'] = 'Feld \"$a\" fehlt.';

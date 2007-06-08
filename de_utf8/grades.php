@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.8 dev (2007012500)
+      // grades.php - created with Moodle 1.9 dev (2007060100)
 
 
 $string['addcategory'] = 'Kategorie hinzufügen';
@@ -60,6 +60,7 @@ $string['items'] = 'Werte';
 $string['lettergrade'] = 'Note';
 $string['lettergradenonnumber'] = 'Niedriger und/oder hoher Wert waren nicht-numerisch für';
 $string['letters'] = 'Noten';
+$string['lock'] = 'Gesperrt';
 $string['lowest'] = 'Niedrigste';
 $string['lowgradeletter'] = 'von';
 $string['max'] = 'Höchste';
@@ -67,6 +68,7 @@ $string['maxgrade'] = 'Beste Bewertung';
 $string['median'] = 'Median';
 $string['min'] = 'Niedrigste';
 $string['mode'] = 'Modus';
+$string['movingelement'] = '$a verschieben';
 $string['no'] = 'Nein';
 $string['nocategories'] = 'Kategorien konnten nicht angelegt oder nicht gefunden werden.';
 $string['nocategoryview'] = 'Keine Kategorie zum Anzeigen für';
@@ -91,6 +93,7 @@ $string['reprintheaders'] = 'Kopfzeilen wiederholen';
 $string['savechanges'] = 'Änderungen speichern';
 $string['savepreferences'] = 'Grundeinstellungen speichern';
 $string['scaledpct'] = 'Berechnet %%';
+$string['selectdestination'] = 'Ziel für $a auswählen';
 $string['setcategories'] = 'Kategorien einrichten';
 $string['setcategorieserror'] = 'Sie müssen Kategorien anlegen, bevor diese gewichtet werden können.';
 $string['setgradeletters'] = 'Noten definieren';
@@ -111,6 +114,7 @@ $string['total'] = 'Gesamt';
 $string['totalweight100'] = 'Summe der Gewichtungen ist 100';
 $string['totalweightnot100'] = 'Summe der Gewichtungen ist nicht 100';
 $string['uncategorised'] = 'Nicht kategorisiert';
+$string['unlock'] = 'Entsperren';
 $string['useadvanced'] = 'Erweiterte Funktionen nutzen';
 $string['usepercent'] = 'Prozentwerte verwenden';
 $string['useweighted'] = 'Gewichtung verwenden';

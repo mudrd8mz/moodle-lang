@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 (2007021501)
+      // moodle.php - created with Moodle 1.9 dev (2007051801)
 
 
 $string['action'] = 'Aktion';
@@ -256,6 +256,8 @@ $string['coursecategories'] = 'Kursbereiche';
 $string['coursecategory'] = 'Kursbereich';
 $string['coursecreators'] = 'Kursverwalter/innen';
 $string['coursecreatorsdescription'] = 'Kursersteller/innen dürfen neue Kurse anlegen und in ihnen unterrichten.';
+$string['courseenrolenddate'] = 'Ende der Kurseinschreibung';
+$string['courseenrolstartdate'] = 'Beginn der Kurseinschreibung';
 $string['coursefiles'] = 'Kursdateien';
 $string['courseformatdata'] = 'Kursformatdaten';
 $string['courseformats'] = 'Kursformate';
@@ -477,13 +479,19 @@ Bei Problemen wenden Sie sich bitte an die Administrator/innen der Website.
 
 Viel Erfolg!
 $a->admin';
+$string['emailpasswordchangeinfodisabled'] = 'Guten Tag, $a->firstname $a->lastname,
+
+jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihren Zugang auf \'$a->sitename\' angefordert.
+
+Bedauerlicherweise ist Ihr Zugang zu dieser Website deaktiviert und kann nicht automatisch zurückgesetzt werden. Wenden Sie sich bitte an die Administrator/innen der Website.
+
+$a->admin';
 $string['emailpasswordchangeinfofail'] = 'Guten Tag, $a->firstname $a->lastname,
 
 jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihren Zugang auf \'$a->sitename\' angefordert.
 
-Das Kennwort kann jedoch nichtauf diesem Weg geändert werden. Wenden Sie sich bitte an die Administrator/innen der Website.
+Das Kennwort kann jedoch nicht auf diesem Weg geändert werden. Wenden Sie sich bitte an die Administrator/innen der Website.
 
-Viel Erfolg!
 $a->admin';
 $string['emailpasswordchangeinfosubject'] = '$a: Kennwortinformation ändern';
 $string['emailpasswordconfirmation'] = 'Guten Tag, $a->firstname $a->lastname,
@@ -650,6 +658,7 @@ $string['grades'] = 'Bewertungen';
 $string['group'] = 'Gruppe';
 $string['groupadd'] = 'Neue Gruppe hinzufügen';
 $string['groupaddusers'] = 'Markierung zur Gruppe hinzufügen';
+$string['groupextendenrol'] = 'Verlängerte Einschreibung für alle';
 $string['groupfor'] = 'für Gruppe';
 $string['groupinfo'] = 'Info über die markierte Gruppe';
 $string['groupinfoedit'] = 'Gruppeneinstellungen bearbeiten';
@@ -1087,6 +1096,7 @@ $string['phpinfo'] = 'PHP-Informationen';
 $string['pictureof'] = 'Bild von $a';
 $string['pleaseclose'] = 'Bitte schließen Sie jetzt dieses Fenster.';
 $string['pluginsetup'] = 'Lege Plugin-Tabellen an';
+$string['policyaccept'] = 'Ich verstehe den Text und stimme ihm zu';
 $string['policyagree'] = 'Lesen Sie diese Zustimmungserklärung sorgfältig. Sie müssen erst zustimmen, um diese Website weiter nutzen zu können. Stimmen Sie zu?';
 $string['policyagreement'] = 'Zustimmungserklärung';
 $string['policyagreementclick'] = 'Klicken Sie hier, um die Zustimmungserklärung zu lesen';
@@ -1232,6 +1242,7 @@ $string['senddetails'] = 'Meine Daten per E-Mail zusenden';
 $string['separate'] = 'Getrennt';
 $string['separateandconnected'] = 'Getrennte und gemeinsame Art des Wissens??';
 $string['serverlocaltime'] = 'Lokale Serverzeit';
+$string['setcategorytheme'] = 'Kategoriendesign festlegen';
 $string['settings'] = 'Einstellungen';
 $string['shortname'] = 'Kurzbezeichnung';
 $string['shortnamecollisionwarning'] = '[*] = Diese Kurzbezeichnung wird bereits von einem anderen Kurs genutzt. Bitte ändern Sie den Eintrag.';
@@ -1288,6 +1299,7 @@ $string['sourcerole'] = 'Ausgangsrolle';
 $string['specifyname'] = 'Sie müssen einen Namen festlegen.';
 $string['starpending'] = '([*] = Kursantrag in Bearbeitung)';
 $string['startdate'] = 'Kursbeginn';
+$string['startingfrom'] = 'Beginn von';
 $string['startsignup'] = 'Neuen Zugang anlegen?';
 $string['state'] = 'Bundesland/Kanton';
 $string['statistics'] = 'Statistiken';
@@ -1416,7 +1428,7 @@ $string['unlimited'] = 'Unbegrenzt';
 $string['unpacking'] = 'Entpacke $a';
 $string['unsafepassword'] = 'Unsicheres Kennwort - wählen Sie ein anderes!';
 $string['untilcomplete'] = 'Bis zum Abschluss des Prozesses';
-$string['unusedaccounts'] = 'Kurszugänge werden automatisch gelöscht, wenn mehr als $a Tage lang nicht benutzt wurden.';
+$string['unusedaccounts'] = 'Kurszugänge werden automatisch gelöscht, wenn sie mehr als $a Tage lang nicht benutzt wurden.';
 $string['unzip'] = 'Entpacken';
 $string['unzippingbackup'] = 'Sicherung entpacken';
 $string['up'] = 'Aufwärts';

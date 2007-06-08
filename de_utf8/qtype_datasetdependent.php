@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 1.8 Beta + (2007021401)
+      // qtype_datasetdependent.php - created with Moodle 1.9 dev (2007051801)
 
 
 $string['additem'] = 'Eintrag hinzufügen';
@@ -17,6 +17,7 @@ $string['existingcategory2'] = 'eine Datei aus einer bereits existierenden Menge
 $string['existingcategory3'] = 'ein Link aus einer bereits existierenden Menge von Links, die auch von anderen Fragen dieser Kategorie verwendet werden';
 $string['forceregeneration'] = 'Neuerstellung erzwingen';
 $string['getnextnow'] = 'Neuen \'Eintrag zum Hinzufügen\' holen';
+$string['item(s)'] = 'Wert(e)';
 $string['itemno'] = 'Eintrag $a';
 $string['itemscount'] = 'Einträge<br/>Zahl';
 $string['itemtoadd'] = 'Eintrag zum Hinzufügen';
@@ -26,6 +27,7 @@ $string['keptcategory3'] = 'ein Link aus derselben, von allen Fragen dieser Kate
 $string['keptlocal1'] = 'ein Buchstabe aus derselben, nur von dieser Frage verwendeten Menge von Buchstaben wie vorher';
 $string['keptlocal2'] = 'eine Datei aus derselben, nur von dieser Frage verwendeten Menge von Dateien wie vorher';
 $string['keptlocal3'] = 'ein Link aus derselben, nur von dieser Frage verwendeten Menge von Links wie vorher';
+$string['lastitem(s)'] = 'letzte(r)  Wert(e)';
 $string['loguniform'] = 'logarithmische Verteilung';
 $string['minmax'] = 'Wertebereich';
 $string['newcategory1'] = 'ein Buchstabe aus einer neuen Menge von Buchstaben, die auch von anderen Fragen dieser Kategorie verwendet werden darf';

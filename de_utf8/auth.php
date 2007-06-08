@@ -1,7 +1,10 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8 (2007021501)
+      // auth.php - created with Moodle 1.9 dev (2007060100)
 
 
+$string['CASform'] = 'Wahl der Authentifizierung';
+$string['accesCAS'] = 'CAS-Nutzer/innen';
+$string['accesNOCAS'] = 'Weitere Nutzer/innen';
 $string['alternatelogin'] = 'Wenn Sie hier eine URL eingeben, wird diese als alternative Login-Seite  verwandt. Die Seite sollte ein Aktionsfeld (Button)auf <strong>\'$a\'</strong> enthalten und Eingabefelder für den <strong>Anmeldenamen</strong> und das <strong>Passwort</strong>.<br />Seien Sie sorgfältig bei der Eingabe der URL. Mit einer falschen URL schließen Sie sich selber vom Zugriff zur Seite aus.<br />Lassen Sie das Feld leer, um die Standardanmeldeseite zu verwenden.';
 $string['alternateloginurl'] = 'Alternative Login-URL';
 $string['auth_cas_auth_user_create'] = 'Nutzer/innen extern anlegen';
@@ -20,8 +23,14 @@ $string['auth_cas_invalidcaslogin'] = 'Entschuldigung, Ihr Login ist gescheitert
 $string['auth_cas_language'] = 'Ausgewählte Sprache';
 $string['auth_cas_language_key'] = 'Sprache';
 $string['auth_cas_logincas'] = 'Sicherer Zugang';
+$string['auth_cas_logoutcas'] = 'Wählen Sie für diese Einstellung \"Ja\", falls Sie sich vom CAS abmelden möchten, wenn die Verbindung zu Moodle unterbrochen wird.';
+$string['auth_cas_logoutcas_key'] = 'CAS abmelden';
+$string['auth_cas_multiauth'] = 'Wählen Sie für diese Einstellung \"ja\", falls Sie eine Mehrfach-Authentifizierung wünschen (CAS + andere Authentifizierung)';
+$string['auth_cas_multiauth_key'] = 'Mehrfach-Authentifizierung';
 $string['auth_cas_port'] = 'Port des CAS-Servers';
 $string['auth_cas_port_key'] = 'Port';
+$string['auth_cas_proxycas'] = 'Wählen Sie für diese Einstellung \"ja\", falls Sie CAS im Proxy-Modus verwenden.';
+$string['auth_cas_proxycas_key'] = 'Proxy-Modus';
 $string['auth_cas_server_settings'] = 'CAS-Server-Konfiguration';
 $string['auth_cas_text'] = 'Sichere Verbindung';
 $string['auth_cas_use_cas'] = 'CAS verwenden';
@@ -111,6 +120,7 @@ $string['auth_imapport_key'] = 'Port';
 $string['auth_imaptitle'] = 'IMAP-Server';
 $string['auth_imaptype'] = 'Der IMAP Servertyp. IMAP Server können verschiedene Arten der Authentifizierung und Überprüfung haben.';
 $string['auth_imaptype_key'] = 'Typ';
+$string['auth_ldap_ad_create_req'] = 'Im Active Directory konnte kein neuer Account angelegt werden. Prüfen Sie, ob alle Voraussetzungen hierfür getroffen wurden (LDAPS Verbindung, bind user mit angemessenen Rechten etc.)';
 $string['auth_ldap_auth_user_create_key'] = 'Nutzer extern anlegen';
 $string['auth_ldap_bind_dn'] = 'Möchten Sie Bind-User für die Nutzersuche verwenden, so geben Sie dies hier an. Normalerweise etwas wie \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_dn_key'] = 'Gekennzeichneter Name';
@@ -122,6 +132,7 @@ $string['auth_ldap_contexts'] = 'Liste der Umgebungen, in denen sich Nutzer/inne
 $string['auth_ldap_contexts_key'] = 'Kontexte';
 $string['auth_ldap_create_context'] = 'Wenn Sie die Nutzererstellung mit E-Mail-Bestätigung aktivieren, geben Sie die Umgebung an, wo die Nutzer/innen erstellt werden sollen. Diese Umgebung sollte sich von der andererer Nutzer/innen unterscheiden, um Sicherheitsrisiken zu vermeiden. Sie brauchen diese Umgebung nicht zur ldap_context Variable hinzuzufügen, Moodle sucht in dieser Umgebung automatisch nach Nutzer/innen.';
 $string['auth_ldap_create_context_key'] = 'Kontext für neue Nutzer';
+$string['auth_ldap_create_error'] = 'Fehler beim Anlegen von Nutzern in LDAP';
 $string['auth_ldap_creators'] = 'Eine Liste von Gruppen, denen es erlaubt ist, neue Kurse zu erstellen. Trennen Sie mehrere Gruppen durch \';\'. Normalerweise etwas wie \'cn=teachers, ou=staff, o=myorg\'';
 $string['auth_ldap_creators_key'] = 'Ersteller';
 $string['auth_ldap_expiration_desc'] = 'Setzen Sie Nein (no) um die Überprüfung abgelaufener Passworte abzuschalten oder LDAP um sie direkt über LDAP abzuwickeln.';
@@ -143,6 +154,7 @@ $string['auth_ldap_memberattribute'] = 'Geben Sie die Mitgliedsoptionen an, wenn
 $string['auth_ldap_memberattribute_isdn'] = 'Optional: Überschreib-Handlung für Mitgliedsattribut-Werte, entweder 0 oder 1';
 $string['auth_ldap_memberattribute_isdn_key'] = 'Mitgliedsattribut nutzt dn';
 $string['auth_ldap_memberattribute_key'] = 'Mitgliedsattribut';
+$string['auth_ldap_no_mbstring'] = 'Die mbstrings Erweiterung ist erforderlich, um Nutzer im Active Dirctory anzulegen.';
 $string['auth_ldap_noconnect'] = 'LDAP-Modul kann keine Verbindung zum Server herstellen: $a';
 $string['auth_ldap_noconnect_all'] = 'LDAP-Modul kann keine Verbindung zu irgendeinem Server herstellen: $a';
 $string['auth_ldap_noextension'] = 'Hinweis: Das PHP LDAP Modul scheint nicht verfügbar zu sein. Prüfen Sie, ob es installiert und aktiviert ist.';
@@ -162,6 +174,7 @@ $string['auth_ldap_unsupportedusertype'] = 'auth: ldap user_create() unterstütz
 $string['auth_ldap_update_userinfo'] = 'Nutzerdaten (Vorname, Name, Adresse...) von LDAP zu Moodle aktualisieren. Weitere Informationen in /auth/ldap/attr_mappings.php';
 $string['auth_ldap_user_attribute'] = 'Verwendete Eigenschaften, um Nutzer zu benennen/suchen. Normalerweise \'cn\'.';
 $string['auth_ldap_user_attribute_key'] = 'Nutzerattribut';
+$string['auth_ldap_user_exists'] = 'Der LDAP Nutzername existiert bereits';
 $string['auth_ldap_user_settings'] = 'Einstellung zur Nutzerüberprüfung (user lookup settings)';
 $string['auth_ldap_user_type'] = 'Auswahl, wie Nutzer in LDAP hinterlegt werden. Die Einstellungen legen fest wie der Login-Ablauf, grace Logins und Nutzererstellung ablaufen.';
 $string['auth_ldap_user_type_key'] = 'Nutzertyp';
@@ -253,6 +266,11 @@ $string['changepassword'] = 'Passwort-URL ändern';
 $string['changepasswordhelp'] = 'Hier können Sie eine Adresse angeben, unter der die Nutzer ihren Nutzernamen/Passwort ändern können, sofern sie dies vergessen haben. Diese Option wird den Nutzern als Schaltfläche auf der Anmeldungsseite angeboten. Wenn Sie dieses Feld leer lassen, wird die Option nicht angeboten.';
 $string['chooseauthmethod'] = 'Authentifizierungsmethode';
 $string['createpasswordifneeded'] = 'Passwort anlegen, falls erforderlich';
+$string['errorminpassworddigits'] = 'Passworte müssen mindestens $a Zahl(en) enthalten.';
+$string['errorminpasswordlength'] = 'Passworte müssen mindestens $a Zeichen lang sein.';
+$string['errorminpasswordlower'] = 'Passworte müssen mindestens $a Kleinbuchstaben enthalten.';
+$string['errorminpasswordnonalphanum'] = 'Passworte müssen mindestens $a Sonderzeichen enthalten, z.B. :#_!§-%%&*+?@.';
+$string['errorminpasswordupper'] = 'Passworte müssen mindestens $a Großbuchstaben enthalten.';
 $string['errorpasswordupdate'] = 'Fehler: Passwort konnte nicht geändert werden!';
 $string['forcechangepassword'] = 'Verbindliche Änderung des Passwortes';
 $string['forcechangepassword_help'] = 'Nutzer werden aufgefordert, ihr Passwort beim nächsten Login zu ändern';
