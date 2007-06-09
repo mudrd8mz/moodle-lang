@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 dev (2007021401)
+      // scorm.php - created with Moodle 1.9 dev (2007060502)
 
 
 $string['advanced'] = '고급설정';
@@ -28,11 +28,13 @@ $string['directories'] = '연결 경로 보임';
 $string['display'] = '진열';
 $string['domxml'] = 'DOMXML 외부 라이브러리';
 $string['element'] = '요소';
+$string['enter'] = '입력';
 $string['entercourse'] = 'SCORM 코스 입장하기';
 $string['errorlogs'] = '에러 로그';
 $string['everyday'] = '매일';
 $string['everytime'] = '매시간 사용됨';
 $string['exit'] = 'SCORM 코스 나가기';
+$string['exitactivity'] = '활동 나감';
 $string['expcoll'] = '확장/충돌';
 $string['external'] = '외부 패키지 시간 갱신';
 $string['failed'] = '실패함';
@@ -71,6 +73,7 @@ $string['menubar'] = '목차 표시 보임';
 $string['min'] = '최하 점수';
 $string['missing_attribute'] = '$a->tag 의 빠진 속성 $a->attr';
 $string['missing_tag'] = '빠진 태그 $a->tag';
+$string['missingparam'] = '필요항목이 없거나 잘못 됨';
 $string['mode'] = '모드';
 $string['modulename'] = 'Scorm/AICC';
 $string['modulenameplural'] = 'SCORMs';
@@ -91,7 +94,9 @@ $string['objectives'] = '목적';
 $string['onchanges'] = '바뀔 때 마다';
 $string['organization'] = '기구';
 $string['organizations'] = '조직들';
+$string['othersettings'] = '추가 설정';
 $string['othertracks'] = '다른 흔적';
+$string['package'] = '묶음 파일';
 $string['packagedir'] = '파일시스템 오류. 경로를 생성 못 함.';
 $string['packagefile'] = '열수 있는 패키지 파일이 없습니다.';
 $string['passed'] = '통과됨';
@@ -134,9 +139,10 @@ $string['toolbar'] = '도구막대 보임';
 $string['totaltime'] = '시간';
 $string['trackingloose'] = '경고: 이 패키지의 추적 정보는 잃게 될것입니다';
 $string['type'] = '형태';
-$string['validateascorm'] = '패키지를 확인하시오';
-$string['validation'] = '결과를 확인하시오';
-$string['validationtype'] = '이 선택은 SCORM Manifest을 확인하기 위해서 사용되는 DOMXML library이다. 만약 잘 모르겠다면 기본값 그대로 놓아두어라.';
+$string['unziperror'] = '묶음 파일 풀기 오류';
+$string['validateascorm'] = '묶음파일을 점검하시오';
+$string['validation'] = '결과 확인';
+$string['validationtype'] = '이 선택은 SCORM Manifest을 확인하기 위해서 사용되는 DOMXML library이다. 만약 잘 모르겠다면 기본값 그대로 두어라.';
 $string['value'] = '값';
 $string['versionwarning'] = 'Manifest 판은 1.3 보다 더 구판이다. $a->tag 태그경고';
 $string['viewallreports'] = '$a 시도를 위해 보고서를 봐라';

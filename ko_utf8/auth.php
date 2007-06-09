@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007052300)
+      // auth.php - created with Moodle 1.9 dev (2007060502)
 
 
 $string['CASform'] = '인증 선택';
@@ -124,6 +124,7 @@ $string['auth_imapport_key'] = 'imap포트';
 $string['auth_imaptitle'] = 'IMAP서버의 사용';
 $string['auth_imaptype'] = 'IMAP서버의 유형. IMAP서버는 다른 유형의 인증방법이나 교섭방법을 사용할 수 있다.';
 $string['auth_imaptype_key'] = 'imap유형';
+$string['auth_ldap_ad_create_req'] = '활성화된 경로에서 새로운 계정을 생성할 수 없습니다. 이 작업에 필요한 모든 조건(LADPS 연결, 운영자급 시용자의 적절한 권한 등)을 충족시켰는지를 확인하시오.';
 $string['auth_ldap_auth_user_create_key'] = '외부 사용자 생성';
 $string['auth_ldap_bind_dn'] = '만약 당신이 bind-user(운영자급 사용자를 지칭한다)을 이용하여 사용자들을 찾길 바란다면 이곳에 자세한 것을 기록해야한다. 예를 들면 \'cn=ldapuser,ou=public,o=org\' 등이 있다.';
 $string['auth_ldap_bind_dn_key'] = '구별되는 이름';
@@ -157,6 +158,7 @@ $string['auth_ldap_memberattribute'] = '선택 사항 : 사용자들이 한 그�
 $string['auth_ldap_memberattribute_isdn'] = '선택 사항 : 0 이던 1 이던 간에  사용자 속성값을 무효화 한다.';
 $string['auth_ldap_memberattribute_isdn_key'] = '사용자 속성은 dn을 사용';
 $string['auth_ldap_memberattribute_key'] = '구성원 속성';
+$string['auth_ldap_no_mbstring'] = '활성화된 경로에 사용자를 생성하기 위해서는 mbstring 확장자가 필요합니다.';
 $string['auth_ldap_noconnect'] = 'LDAP모듈이 $a 서버에 접속하지 못했습니다.';
 $string['auth_ldap_noconnect_all'] = 'LDAP모듈이 어느 $a 서버에도 접속하지 못했습니다.';
 $string['auth_ldap_noextension'] = '경고: PHP의 LDAP 모듈이 존재하지 않는 것 같음. 모듈이 바르게 설치되고 활성화되었는지를 점검하라.';
