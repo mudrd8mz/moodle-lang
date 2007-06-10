@@ -43,6 +43,7 @@ $string['gradeexceptionshelp'] = '評定例外ヘルプ';
 $string['gradehelp'] = '評定ヘルプ';
 $string['gradeitem'] = '評定項目';
 $string['gradeitemaddusers'] = '評定から除外する';
+$string['gradeitemlocked'] = '評定ロック中';
 $string['gradeitemmembersselected'] = '評定から除外する';
 $string['gradeitemnonmembers'] = '評定対象とする';
 $string['gradeitemremovemembers'] = '評定対象とする';
