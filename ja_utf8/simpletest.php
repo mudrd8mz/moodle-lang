@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 1.8 dev (2006102600)
+      // simpletest.php - created with Moodle 1.9 dev (2007060502)
 
 
 $string['all'] = 'すべて';
@@ -9,7 +9,7 @@ $string['ignorefile'] = 'このファイルのテストを無視する。';
 $string['ignorethisfile'] = 'このテストファイルを無視してテストを再実行する。';
 $string['moodleunittests'] = 'Moodleユニットテスト: $a';
 $string['notice'] = '警告';
-$string['onlytest'] = '次の内部のみでテストを実行:';
+$string['onlytest'] = '次のパスのみでテストを実行:';
 $string['pass'] = '合格';
 $string['pathdoesnotexist'] = 'パス「 $a 」が存在しません。';
 $string['retest'] = 'テストの再実行';
