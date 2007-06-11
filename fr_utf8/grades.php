@@ -41,6 +41,7 @@ $string['gradeexceptionshelp'] = 'Aide sur les exceptions de note';
 $string['gradehelp'] = 'Aide sur les notes';
 $string['gradeitem'] = 'Élément de note';
 $string['gradeitemaddusers'] = 'Exclure de la note';
+$string['gradeitemlocked'] = 'Notation verrouillée';
 $string['gradeitemmembersselected'] = 'Exclu(s) de la note';
 $string['gradeitemnonmembers'] = 'Inclus dans la note';
 $string['gradeitemremovemembers'] = 'Inclure dans la note';
