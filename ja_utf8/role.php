@@ -4,8 +4,8 @@
 
 $string['addrole'] = '新しいロールを追加する';
 $string['allow'] = '許可';
-$string['allowassign'] = 'ロールの割り当てを許可する';
-$string['allowoverride'] = 'ロールのオーバーライドを許可する';
+$string['allowassign'] = 'ロールの割り当て許可';
+$string['allowoverride'] = 'ロールのオーバーライド許可';
 $string['assignglobalroles'] = 'グローバルロールの割り当て';
 $string['assignroles'] = 'ロールの割り当て';
 $string['blog:create'] = '新しいブログエントリを作成する';
