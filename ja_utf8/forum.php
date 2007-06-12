@@ -170,7 +170,7 @@ $string['parent'] = '親記事を表示する';
 $string['parentofthispost'] = 'この投稿の親記事';
 $string['postadded'] = '<p>あなたの投稿が追加されました。</p>
 <p>内容を変更したい場合は $a 編集できます。</p>';
-$string['postincontext'] = 'この投稿記事を文脈内に表示する';
+$string['postincontext'] = 'この投稿記事をコンテクスト内に表示する';
 $string['postmailinfo'] = 'これは ウェブサイト $a に投稿された記事のコピーです。
 
 返信をウェブサイトに投稿するには、このリンクをクリックしてください:';
