@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6.3 (2006050530)
+      // editor.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['about'] = 'Om denne HTML-editoren';
@@ -31,6 +31,7 @@ $string['createlink'] = 'Sett inn lenke';
 $string['cut'] = 'Klipp ut';
 $string['cutpastemozilla'] = 'Du kan desverre ikke bruke normale tastesnarveier (ikke en gang <i>Lim inn</i>-knappen) til å lime inn tekst i editoren på dette nettstedet nå. Dette skyldes en sikkerhetsegenskap som er bygget inn i noen versjoner av Mozilla og Firefox nettlesere. <br /><br />Det er tre kjente måter å komme rundt dette på som du kan forsøke:<br /> (1) Istedenfor å bruke CTRL-v, bruk SHIFT-Insert <br />(2) bruk menyen <i>Rediger->Lim inn</i> i nettleseren<br />(3)Endre preferansene i nettleseren din ved å editer filen user.js.<br /><br />Klikk OK-knappen nedenfor for mer hjelp, eller Avbryt for å vende tilbake til editoren.';
 $string['delete'] = 'Slett';
+$string['enterurlfirst'] = 'Du må skrive inn en URL først';
 $string['filebrowser'] = 'Filbehandler';
 $string['findwhat'] = 'Finn';
 $string['fontname'] = 'Fontnavn';
@@ -57,6 +58,7 @@ $string['justifycenter'] = 'Midtstill';
 $string['justifyfull'] = 'Jevn';
 $string['justifyleft'] = 'Venstrejuster';
 $string['justifyright'] = 'Høyrejuster';
+$string['lang'] = 'Språk';
 $string['layout'] = 'Utseende';
 $string['left'] = 'Venstre';
 $string['lefttoright'] = 'Retning fra venstre mot høyre';
@@ -73,6 +75,8 @@ $string['matchcase'] = 'Skill store og små bokstaver';
 $string['middle'] = 'Midten';
 $string['minimize'] = 'Minimer editor';
 $string['move'] = 'Flytt';
+$string['multi'] = 'Multi';
+$string['mustenterurl'] = 'Du må skrive inn en URL';
 $string['nolink'] = 'Forhindre automatisk lenking';
 $string['normal'] = 'Normal';
 $string['notimage'] = 'Valgt fil er ikke en bildefil. Vennligst velg et bilde!';
@@ -85,6 +89,7 @@ $string['paste'] = 'Lim inn fra utklippstavlen';
 $string['path'] = 'Søkesti';
 $string['percent'] = 'Prosent';
 $string['pixels'] = 'Piksler';
+$string['pleaseenteralt'] = 'Vennligst skriv inn en alternativ tekst';
 $string['popupeditor'] = 'Forstørr editoren';
 $string['preformatted'] = 'Formattert på forhånd';
 $string['preview'] = 'Forhåndsvis';

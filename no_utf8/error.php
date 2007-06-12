@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6.3 (2006050530)
+      // error.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['adminprimarynoedit'] = 'Hovedadministratoren kan ikke redigeres av andre';
@@ -11,9 +11,12 @@ $string['cannotfindcomponent'] = 'Kan ikke finne komponenten.';
 $string['cannotsavemd5file'] = 'Kan ikke lagre md5-fil.';
 $string['cannotsavezipfile'] = 'Kan ikke lagre ZIP-fil.';
 $string['cannotunzipfile'] = 'Kan ikke pakke opp (unzip) filen.';
+$string['cantunenrollfrommetacourse'] = 'Du kan ikke melde deg ut fra dette metakurset.';
+$string['cantunenrollinthisrole'] = 'Du kan ikke melde deg ut fra dette kurset med den rollen du har nå.';
 $string['cmunknown'] = 'Kan ikke finne denne kursmodulen.';
 $string['componentisuptodate'] = 'Komponenten er ajourført.';
 $string['confirmsesskeybad'] = 'Beklager, sesjonsnøkkelen din kunne ikke aksepteres for utførelse av denne handlingen. Denne sikkerhetssperren forhindrer tilfeldig eller ondsinnet utførelse av viktige funksjoner i ditt navn. Forsikr deg om at du virkelig ønsker å utføre denne funksjonen.';
+$string['couldnotassignrole'] = 'En alvorlig uspesifisert feil oppsto da du skulle tildeles en rolle';
 $string['coursegroupunknown'] = 'Kurs som korresponderer til gruppe $a er ikke spesifisert';
 $string['downloadedfilecheckfailed'] = 'Sjekk av nedlastet fil feilet.';
 $string['errorcleaningdirectory'] = 'Feil ved tømming av mappe \"$a\"';
@@ -34,15 +37,22 @@ $string['invalidcourse'] = 'Ugyldig kurs';
 $string['invalidfieldname'] = '\"$a\" er ikke et gyldig navn';
 $string['invalidfiletype'] = '\"$a\" er ikke en gyldig filtype';
 $string['invalidmd5'] = 'Ugyldig md5';
+$string['invalidrequest'] = 'Ugyldig forespørsel';
+$string['invalidrole'] = 'Ugyldig rolle';
 $string['invalidxmlfile'] = '\"$a\" er ikke en gyldig XML-fil';
+$string['loginasnoenrol'] = 'Du kan ikke bruke på- og avmelding når du har skiftet til en annen rollevisning i et kurs.';
+$string['loginasonecourse'] = 'Du kan ikke gå inn i dette kurset.<br />Du  må gå tilbake til din vanlige rolle før du skifter til et annet kurs.';
 $string['missingfield'] = 'Feltet \"$a\" mangler';
 $string['missingrequiredfield'] = 'Noen påkrevde felt mangler';
 $string['modulemissingcode'] = 'Modul $a mangler koden som er nødvendig for å utføre denne funksjonen';
 $string['modulerequirementsnotmet'] = 'Modulen \"$a->modulename\" ($a->moduleversion) ble ikke installert. Den krever en nyere versjon av Moodle. (Nå bruker du $a->currentmoodle, du trenger $a->requiremoodle).';
 $string['mustbeteacher'] = 'Du må være lærer for å kunne slå opp denne siden';
+$string['nocontext'] = 'Beklager, men det kurset er ingen gyldig kontekst.';
 $string['noinstances'] = 'Det er ingen forekomster av $a i dette kurset!';
+$string['nologinas'] = 'Du har ikke rettighet til å logge inn som den brukeren.';
 $string['nonmeaningfulcontent'] = 'Ikke meningfullt innhold';
 $string['noparticipatorycms'] = 'Beklager, men ingen moduler i kurs du deltar i krever rapport fra deg.';
+$string['nopermissions'] = 'Beklager, men du har ikke rettighet til å gjøre dette ($a)';
 $string['notavailable'] = 'Det er ikke tilgjengelig enda';
 $string['onlyadmins'] = 'Kun administratorer kan gjøre det.';
 $string['onlyeditingteachers'] = 'Bare lærere med administratorrettigheter kan gjøre det.';
@@ -59,6 +69,7 @@ $string['sessionerroruser'] = 'Du har vært inaktiv for lenge. Logg inn på nytt
 $string['sessionerroruser2'] = 'En feil på tjenermaskinen som påvirker din innlogging ble oppdaget. Vær vennlig å logge inn igjen eller restart nettleseren din.';
 $string['sessionipnomatch'] = 'Beklager, men IP-nummeret ditt ser ut til å ha forandret seg siden du logget inn. Denne sikkerhetsforanstaltningen skal hindre nettbanditter i å stjele identiteten din mens du er logget inn på denne nettsida. Normale brukere skal normalt ikke se denne meldinga. Be administrator om hjelp.';
 $string['statscatchupmode'] = 'Statistikken er nå i innhentingsmodus. Så langt er $a->daysdone dag(er) prosessert og $a->dayspending gjenstår. Sjekk tilbake snart!';
+$string['unicodeupgradeerror'] = 'Beklager, men databasen du bruker er ikke i Unicode, og denne versjonen av Moodle kan ikke migrere til Unicode. Vennligst oppgrader til Moodle 1.7.x først og utfør Unicode migreringen fra Admin-siden. Etter dette kan Moodle migreres til Moodle $a';
 $string['unknowncourse'] = 'Ingen klasse med navnet \"$a\"';
 $string['unknownuseraction'] = 'Beklager men jeg forsto ikke denne brukerhandlingen.';
 $string['usernotaddederror'] = 'Bruker \"$a\" ble ikke lagt til - ukjent feil';
