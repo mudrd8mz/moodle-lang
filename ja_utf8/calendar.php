@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 dev (2007021400)
+      // calendar.php - created with Moodle 1.9 dev (2007060502)
 
 
 $string['advancedoptions'] = '高度なオプション';
@@ -9,6 +9,7 @@ $string['clickhide'] = '非表示';
 $string['clickshow'] = '表示';
 $string['commontasks'] = 'オプション';
 $string['confirmeventdelete'] = '本当にこのイベントを削除してもよろしいですか?';
+$string['course'] = 'コース';
 $string['courseevent'] = 'コースイベント';
 $string['courseevents'] = 'コースイベント';
 $string['dayview'] = '1日分表示';
@@ -37,6 +38,7 @@ $string['eventnone'] = 'イベントなし';
 $string['eventrepeat'] = '繰り返し';
 $string['eventsall'] = 'すべてのイベント';
 $string['eventsfor'] = '$a イベント';
+$string['eventskey'] = 'イベントキー';
 $string['eventsrelatedtocourses'] = 'コースに関連したイベント';
 $string['eventstarttime'] = '開始日時';
 $string['eventtime'] = '時間';
@@ -55,9 +57,11 @@ $string['for'] = '対象';
 $string['fri'] = '金';
 $string['friday'] = '金曜日';
 $string['generateurlbutton'] = 'カレンダーのURLを取得する';
+$string['global'] = 'グローバル';
 $string['globalevent'] = '全体のイベント';
 $string['globalevents'] = '全体のイベント';
 $string['gotocalendar'] = 'カレンダーへ移動する';
+$string['group'] = 'グループ';
 $string['groupevent'] = 'グループイベント';
 $string['groupevents'] = 'グループイベント';
 $string['hidden'] = '非表示中';
@@ -116,6 +120,7 @@ $string['typesite'] = 'サイトイベント';
 $string['typeuser'] = 'ユーザイベント';
 $string['upcomingevents'] = '直近イベント';
 $string['urlforical'] = 'iCalendarエクスポートおよびカレンダー購読のためのURL';
+$string['user'] = 'ユーザ';
 $string['userevent'] = 'ユーザイベント';
 $string['userevents'] = 'ユーザイベント';
 $string['wed'] = '水';
