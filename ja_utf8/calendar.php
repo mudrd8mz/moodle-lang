@@ -3,6 +3,7 @@
 
 
 $string['advancedoptions'] = '高度なオプション';
+$string['allday'] = '終日';
 $string['calendar'] = 'カレンダー';
 $string['calendarheading'] = '$a カレンダー';
 $string['clickhide'] = '非表示';
