@@ -13,6 +13,7 @@ $string['confirmeventdelete'] = '本当にこのイベントを削除しても�
 $string['course'] = 'コース';
 $string['courseevent'] = 'コースイベント';
 $string['courseevents'] = 'コースイベント';
+$string['courses'] = 'コース';
 $string['dayview'] = '1日分表示';
 $string['daywithnoevents'] = 'イベントがありません。';
 $string['default'] = 'デフォルト';
