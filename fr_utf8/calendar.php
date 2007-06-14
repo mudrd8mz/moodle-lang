@@ -11,6 +11,7 @@ $string['confirmeventdelete'] = 'Voulez-vous vraiment supprimer cet événement 
 $string['course'] = 'Cours';
 $string['courseevent'] = 'Événement de cours';
 $string['courseevents'] = 'Événements de cours';
+$string['courses'] = 'Cours';
 $string['dayview'] = 'Vue quotidienne';
 $string['daywithnoevents'] = 'Il n\'y a pas d\'événement programmé à cette date.';
 $string['default'] = 'Valeur par défaut';
