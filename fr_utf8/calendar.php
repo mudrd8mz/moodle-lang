@@ -1,6 +1,7 @@
 <?php // $Id$
 
 $string['advancedoptions'] = 'Options avancées';
+$string['allday'] = 'Tout le jour';
 $string['calendar'] = 'Calendrier';
 $string['calendarheading'] = 'Calendrier $a';
 $string['clickhide'] = 'cacher';
