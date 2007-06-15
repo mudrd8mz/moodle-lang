@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 + (2007021503)
+      // moodle.php - created with Moodle 1.8.1 (2007021510)
 
 
 $string['action'] = 'Azione';
@@ -631,7 +631,7 @@ $string['gpl'] = 'Copyright (C) dal 1999 in poi  Martin Dougiamas
 
 Questo programma è gratuito; puoi ridistribuirlo e/o modificarlo alle condizioni previste dal GNU General Public License così come pubblicate dalla \'Free Software Foundation\'; sia la versione 2 della Licenza che, (a tua scelta) ogni versione successiva.
 
-Questo programma è distribuito con la speranza che possa essere utile, ma SENZA ALCUNA GARANZIA; senza neanche la garanzia implicita di COMMERCIABILITÁ o di IDONEITÀ PER UNO SCOPO PRECISO. 
+Questo programma è distribuito con la speranza che possa essere utile, ma SENZA ALCUNA GARANZIA; senza neanche la garanzia implicita di COMMERCIABILITÀ o di IDONEITÀ PER UNO SCOPO PRECISO. 
 
 Si legga la pagina informativa sulla Licenza Moodle per i dettagli:
 
@@ -663,10 +663,10 @@ $string['groupsseparate'] = 'Gruppi separati';
 $string['groupsvisible'] = 'Gruppi visibili';
 $string['guest'] = 'Ospite';
 $string['guestdescription'] = 'Gli ospiti hanno privilegi minimi e normalmente non possono inserire testi in alcuna parte.';
-$string['guestskey'] = 'Consenti l\'accesso agli ospiti con la chiave d\'accesso';
+$string['guestskey'] = 'Consenti l\'accesso agli ospiti con la chiave di iscrizione';
 $string['guestsno'] = 'Non permettere agli ospiti l\'accesso';
 $string['guestsnotallowed'] = 'Spiacenti, \'$a\' non consente l\'accesso agli ospiti.';
-$string['guestsyes'] = 'Consenti l\'accesso agli ospiti senza chiave d\'accesso';
+$string['guestsyes'] = 'Consenti l\'accesso agli ospiti senza chiave di iscrizione';
 $string['guestuser'] = 'Utente ospite';
 $string['guestuserinfo'] = 'Questo utente è un utente speciale che ha accesso ai documenti del corso in modalità solo lettura in alcuni corsi.';
 $string['healthcenter'] = 'Centro Salute';
@@ -779,26 +779,25 @@ $string['loginas'] = 'Login come';
 $string['loginaspasswordexplain'] = '<p>È necessario impostare la speciale \"password login come\" per utilizzare questa caratteristica.<br />Se non la conoscete, chiedete al vostro amministratore del server.</p>';
 $string['loginguest'] = 'Login come ospite';
 $string['loginsite'] = 'Login al sito';
-$string['loginsteps'] = 'Salve! Per un pieno accesso ai corsi hai bisogno di un minuto per creare un nuovo account per te su questo sito.
+$string['loginsteps'] = 'Salve! Per un pieno accesso ai corsi hai bisogno di un minuto per creare un tuo account su questo sito.
 
-Ogni corso può anche avere una \"chiave di accesso\", da usare solo al primo accesso, che ti verrà fornita dal docente del corso.
+Ogni corso può anche avere una \"chiave di iscrizione\", da usare solo al primo accesso, che ti verrà fornita dal docente del corso.
 
 Questi sono i passi per aprire il tuo account:
 
 <ol>
 <li>Compila il form <a href=\"$a\">Nuovo Utente</a> con i tuoi dati.</li>
-<li>Un email verrà spedita al tuo indirizzo di posta elettronica.</li>
+<li>Una email verrà spedita al tuo indirizzo di posta elettronica.</li>
 <li>Leggi l\'email e clicca sul link che essa contiene.</li>
 <li>La tua registrazione sarà confermata e sarai riconosciuto dal sistema come utente registrato.</li>
-<li>Adesso, seleziona il corso a cui intendi partecipare.</li>
-<li>Se è richiesta una \"chiave di iscrizione\" - chiedine
-l\'invio al tuo insegnante. Questa chiave ti \"iscriverà\" al corso.</li>
-<li>Puoi adesso accedere pienamente al corso. Da ora avrai solo bisogno del tuo username e della tua password (nel form di questa pagina) per aver accesso al corso in cui ti sei iscritto.  </li>
+<li>Successivamente, seleziona il corso a cui intendi partecipare.</li>
+<li>Se è richiesta una \"chiave di iscrizione\" - chiedila al tuo insegnante. Questa chiave ti \"iscriverà\" al corso.</li>
+<li>A questo punto puoi accedere pienamente al corso. Da ora in poi avrai solo bisogno del tuo username e della tua password (nel form di questa pagina) per aver accesso al corso in cui ti sei iscritto.  </li>
 </ol>';
 $string['loginstepsnone'] = '<p>Salve!</p>
 <p>Per un pieno accesso ai corsi avrai bisogno di creare un account.</p>
-<p> Ciò di cui hai bisogno è di creare un username e una password e di usarli nel form di questa pagina!</p>
-<p> Se qualcuno ha già scelto il tuo username, allora dovrai riprovare scegliendo un username diverso.</p>';
+<p>Ciò di cui hai bisogno è di creare un username e una password e di usarli nel form di questa pagina!</p>
+<p>Se qualcuno ha già scelto il tuo username, allora dovrai riprovare scegliendo un username diverso.</p>';
 $string['loginto'] = 'Accesso a $a';
 $string['loginusing'] = 'Accedi qui utilizzando il tuo username e la password';
 $string['logout'] = 'Esci';
