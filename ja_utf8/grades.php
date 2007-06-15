@@ -58,6 +58,7 @@ $string['gradeletter'] = '評定文字';
 $string['gradeletterhelp'] = '評定文字ヘルプ';
 $string['gradeletternote'] = '評定文字を削除するには、テキストエリアの文字を<br />空白にして「変更を保存する」をクリックしてください。';
 $string['gradepreferenceshelp'] = '評定オプションヘルプ';
+$string['gradereports'] = '評定レポート';
 $string['grades'] = '評定';
 $string['gradeweighthelp'] = '評定加重ヘルプ';
 $string['hideadvanced'] = '拡張機能を隠す';
