@@ -6,6 +6,7 @@ $string['addexceptionerror'] = 'Une erreur est survenue lors de l\'ajout d\'une 
 $string['allgrades'] = 'Toutes les notes par catégorie';
 $string['allstudents'] = 'Tous les étudiants';
 $string['average'] = 'Moyenne';
+$string['badgrade'] = 'La note fournie n\'est pas valide';
 $string['bonuspoints'] = 'Bonus';
 $string['categories'] = 'Catégories';
 $string['category'] = 'Catégorie';
