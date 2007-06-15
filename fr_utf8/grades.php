@@ -57,6 +57,7 @@ $string['gradeletter'] = 'Note lettre';
 $string['gradeletterhelp'] = 'Aide sur les notes lettres';
 $string['gradeletternote'] = 'Pour supprimer une note lettre, effacer simplement le contenu des trois<br />zones lui correspondant et cliquer sur «&nbsp;Enregistrer les changements&nbsp;».';
 $string['gradepreferenceshelp'] = 'Aide sur les préférences des notes';
+$string['gradereports'] = 'Rapport d\'évaluation';
 $string['grades'] = 'Notes';
 $string['gradeweighthelp'] = 'Aide sur la pondération des notes';
 $string['hideadvanced'] = 'Cacher les fonctions avancées';
