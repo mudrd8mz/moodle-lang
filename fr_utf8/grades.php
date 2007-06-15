@@ -68,6 +68,7 @@ $string['identifier'] = 'Identifier les utilisateurs par';
 $string['importcsv'] = 'Importation CSV';
 $string['importfailed'] = 'L\'importation a échoué';
 $string['importfile'] = 'Fichier à importer';
+$string['importpreview'] = 'Prévisualisation de l\'importation';
 $string['importsuccess'] = 'Importation des notes réussie';
 $string['importxml'] = 'Importation XML';
 $string['incorrectcourseid'] = 'Le no de cours est incorrect';
