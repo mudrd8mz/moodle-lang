@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.8 dev (2006120700)
+      // xmldb.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['aftertable'] = 'לאחר טבלה:';
 $string['back'] = 'חזרה';
 $string['backtomainview'] = 'חזרה לראשי';
 $string['binaryincorrectlength'] = 'אורך שגוי לשדה בינארי';
+$string['cannotuseidfield'] = 'לא ניתן להכניס את זדה \'מספר הזיהוי\'. זוהי עמודה הממספרת את עצמה.';
 $string['change'] = 'שנה';
 $string['charincorrectlength'] = 'אורך שגוי לשדה תווים';
 $string['confirmdeletefield'] = 'האם אתה בטוח לחלוטין שברצונך למחוק את השדה:';

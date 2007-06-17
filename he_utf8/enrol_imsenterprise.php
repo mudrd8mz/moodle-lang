@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.8 dev (2006120700)
+      // enrol_imsenterprise.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['aftersaving...'] = 'מרגע ששמרת את ההגדרות שלך, יכול להיות שתרצה ל-';
@@ -17,6 +17,8 @@ $string['enrolname'] = 'קובץ IMS Enterprise';
 $string['filelockedmail'] = 'לא ניתן היה למחוק באמצעות תהליך ה-cron את קובץ הטקסט בו אתה משתמש בשביל הרשמות המבוססות על קבצי IMS ($a). לרוב הדבר אומר שההיתרים עליו שגויים. 
  אנא תקן את ההיתרים כדי שמוודל יוכל למחוק את הקובץ הנל, אחרת, יכול להיות שהוא יעובד שוב ושוב.';
 $string['filelockedmailsubject'] = 'שגיאה חשובה: קובץ הרשמה';
+$string['fixcasepersonalnames'] = 'שנה את השמות הפרטיים לאותיות רישיות';
+$string['fixcaseusernames'] = 'שנה את שמות המשתמשים לאותיות קטנות';
 $string['imsrolesdescription'] = 'פירוט ההוראות של IMS Enterprise כולל בחובו 8 סוגי תפקידים ברורים ונפרדים. אנא בחר באיזה אופן אלה ימונו במוודל ואם יש להתעלם מחלק מהם.';
 $string['location'] = 'מיקום הקובץ';
 $string['logtolocation'] = 'מיקום הפלט מקובץ יומן המעקב (ריק אם אין יומני מעקב)';

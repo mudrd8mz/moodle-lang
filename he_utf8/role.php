@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 dev (2006120700)
+      // role.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['addrole'] = 'הוסף  תפקיד חדש';
 $string['allow'] = 'אפשר';
 $string['allowassign'] = 'אפשר מתן תפקידים';
 $string['allowoverride'] = 'אפשר עקיפות תפקידים';
+$string['assignglobalroles'] = 'מנה תפקידים חובקי-כל';
 $string['assignroles'] = 'מנה תפקידים';
 $string['blog:create'] = 'צור רשומות חדשות בבלוג';
 $string['blog:manageentries'] = 'ערוך ונהל את הרשומות';
@@ -49,12 +50,15 @@ $string['currentrole'] = 'תפקיד נוכחי';
 $string['defaultrole'] = 'תפקיד ברירת המחדל';
 $string['defineroles'] = 'הגדר תפקידים';
 $string['deleterolesure'] = 'האם אתה בטוח שאתה רוצה למחוק את התפקיד \"$a->name ($a->shortname)\"?</p><p>) נכון לרגע זה, $a->count משתמשים ממונים לתפקיד זה.';
+$string['duplicaterole'] = 'תפקיד כפול';
+$string['duplicaterolesure'] = 'האם אתה בטוח שברצונך  לשכפל את התפקיד \"$a->name ($a->shortname)\"?</p>';
 $string['editrole'] = 'ערוך תפקיד';
 $string['errorbadrolename'] = 'שם תפקיד שגוי';
 $string['errorbadroleshortname'] = 'שם תפקיד שגוי';
 $string['errorexistsrolename'] = 'שם התפקיד כבר קיים';
 $string['errorexistsroleshortname'] = 'שם התפקיד כבר קיים';
 $string['existingusers'] = '$a משתמשים קיימים';
+$string['globalroleswarning'] = 'אזהרה! כל התפקידים שתחלק מעמוד זה יהיו תקפים לגבי המשתמשים בכל רחבי האתר, כולל בעמוד הראשי וכל הקורסים.';
 $string['inherit'] = 'לרשת';
 $string['legacy:admin'] = 'תפקיד מורש: מנהל';
 $string['legacy:coursecreator'] = 'תפקיד מורש: יוצר קורס';
@@ -62,11 +66,14 @@ $string['legacy:editingteacher'] = 'תפקיד מורש: מורה (עורך)';
 $string['legacy:guest'] = 'תפקיד מורש: אורח';
 $string['legacy:student'] = 'תפקיד מורש: סטודנט';
 $string['legacy:teacher'] = 'תפקיד מורש: מורה (לא עורך)';
+$string['legacy:user'] = 'תפקיד מורש: משתמש מאומת';
+$string['legacytype'] = 'סוג תפקיד מורש';
 $string['listallroles'] = 'רשום ברשימה את כל התפקידים';
 $string['manageroles'] = 'נהל תפקידים';
 $string['metaassignerror'] = 'לא היה ניתן למנות את משתמש \"$a\" לתפקיד זה, מפני שדרושה היכולת לנהל מטה-קורס.';
 $string['metaunassignerror'] = 'התפקיד של משתמש \"$a\" הועבר ממנו באופן אוטומטי. במקום זאת בטל בבקשה את התפקיד בקורסי בת.';
 $string['nocapabilitiesincontext'] = 'אין יכולות זמינות בהקשר זה.';
+$string['notset'] = 'לא מוגדר';
 $string['overrideroles'] = 'עקוף את התפקידים';
 $string['overrides'] = 'עקיפות';
 $string['permissions'] = 'הרשאות';
@@ -77,6 +84,10 @@ $string['question:export'] = 'ייצא שאלות';
 $string['question:import'] = 'ייבא שאלות';
 $string['question:manage'] = 'נהל שאלות';
 $string['question:managecategory'] = 'נהל קטגוריות של שאלות';
+$string['resetrole'] = 'אתחל מחדש לברירות המחדל';
+$string['resetrolenolegacy'] = 'נקה את ההרשאות';
+$string['resetrolesure'] = 'האם אתה בטוח שברצונך לאתחל לברירות המחדל את התפקיד \"$a->name ($a->shortname)\" ?<p></p> ברירות המחדל נלקחות מיכולות הירושה הנבחרת ($a->legacytype).';
+$string['resetrolesurenolegacy'] = 'האם אתה בטוח שברצונך לנקות את כל ההרשאות שמוגדרות לתפקיד זה תפקיד \"$a->name ($a->shortname)\"?';
 $string['risks'] = 'סיכונים';
 $string['role:assign'] = 'חלק תפקידים למשתמשים';
 $string['role:manage'] = 'צור ונהל תפקידים';
@@ -98,6 +109,8 @@ $string['site:doanything'] = 'מורשה לעשות הכל';
 $string['site:doclinks'] = 'הראה קישורים למסמכים הנמצאים מחוץ לאתר';
 $string['site:import'] = 'ייבא לתוך קורס קורסים אחרים';
 $string['site:manageblocks'] = 'נהל את הבלוקים ברמת האתר';
+$string['site:mnetloginfromremote'] = 'התחבר למערכת ממוודל חיצוני';
+$string['site:mnetlogintoremote'] = 'שוטט למוודל חיצוני';
 $string['site:readallmessages'] = 'קרא את כל ההודעות באתר';
 $string['site:restore'] = 'שחזר קורסים';
 $string['site:trustcontent'] = 'בטח בתוכן שהוגש';

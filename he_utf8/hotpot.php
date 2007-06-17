@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8 dev (2006120700)
+      // hotpot.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['abandoned'] = 'נטוש';
@@ -111,6 +111,7 @@ $string['reportformathtml'] = 'HTML';
 $string['reportformattext'] = 'טקסט';
 $string['reporthints'] = 'רמזים';
 $string['reporthotpotscore'] = 'תוצאת בוחן של תוכנת Hot Potatoes';
+$string['reportlegend'] = 'מקרא';
 $string['reportlogindate'] = 'תאריך התחברות';
 $string['reportlogintime'] = 'זמן התחברות';
 $string['reportlogofftime'] = 'זמן התנתקות';
@@ -124,6 +125,7 @@ $string['reportrawscore'] = 'ציון גולמי';
 $string['reportright'] = 'ימין';
 $string['reportsectionnumber'] = 'קטע';
 $string['reportshowanswer'] = 'הראה תשובות';
+$string['reportshowlegend'] = 'הראה מקרא';
 $string['reportsofar'] = '$a עד כה';
 $string['reportstatus'] = 'מצב';
 $string['reportstudentid'] = 'מספר זיהוי התלמיד';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 dev (2006120700)
+      // glossary.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['addcomment'] = 'הוסף הערה';
@@ -92,6 +92,7 @@ $string['entryusedynalink'] = 'יש ליצור קישורים באופן אוט�
 $string['errcannoteditothers'] = 'אתה לא יכול לערוך מונחים של אנשים אחרים.';
 $string['errconceptalreadyexists'] = 'מושג זה כבר קיים. באגרון מונחים זה לא ניתן להכניס ערכים כפולים.';
 $string['erredittimeexpired'] = 'פרק הזמן בו היה ניתן לערוך את מונח זה, חלף.';
+$string['errorparsingxml'] = 'חלה שגיאה במהלך הפירוק של קובץ זה למרכיביו.  וודא שהוא בתחביר XML תקף.';
 $string['explainaddentry'] = 'הוסף מונח חדש לאגרון המונחים הנוכחי.<br />שדות המושג וההגדרה הם הכרחיים.';
 $string['explainall'] = 'מציג את כל המונחים על עמוד אחד.';
 $string['explainalphabet'] = 'עיין באגרון המונחים באמצעות אינדקס זה.';
@@ -125,6 +126,7 @@ $string['importcategories'] = 'ייבא קטגוריות';
 $string['importedcategories'] = 'קטגוריות מיובאות';
 $string['importedentries'] = 'מונחים מיובאים';
 $string['importentries'] = 'ייבא מונחים';
+$string['importentriesfromxml'] = 'יבא רשומות מקובץ XML';
 $string['isglobal'] = 'האם זהו אגרון המונחים הכולל?';
 $string['linkcategory'] = 'צור קישורים באופן אוטומטי לקטגוריה זו';
 $string['linking'] = 'יצירת קישורים באופן אוטומטי';

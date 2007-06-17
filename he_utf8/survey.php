@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8 dev (2006120700)
+      // survey.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['actual'] = 'ממשי';
@@ -164,6 +164,7 @@ $string['collespintro'] = 'מטרת השאלון היא לעזור לנו להב
 
 אנו מודים לכם מקרב לב.';
 $string['collespname'] = 'COLLES (מועדף)';
+$string['customintro'] = 'הקדמה מותאמת אישית';
 $string['done'] = 'גמור';
 $string['download'] = 'הורד';
 $string['downloadexcel'] = 'הורד את הנתונים כגיליון Excel';

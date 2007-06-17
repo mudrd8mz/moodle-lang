@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8 dev (2006120700)
+      // error.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['adminprimarynoedit'] = 'אחרים לא יכולים לערוך את המנהל הראשי';
@@ -37,8 +37,11 @@ $string['invalidcourse'] = 'קורס לא חוקי';
 $string['invalidfieldname'] = '\"$a\" אינו שם תקף לשדה';
 $string['invalidfiletype'] = '\"$a\" אינו סוג קובץ תקף';
 $string['invalidmd5'] = 'md5 לא חוקי';
+$string['invalidrequest'] = 'בקשה לא חוקית';
 $string['invalidrole'] = 'תפקיד לא חוקי';
 $string['invalidxmlfile'] = '\"$a\" אינו קובץ XML תקף';
+$string['loginasnoenrol'] = 'אינך יכול להשתמש ב\'הירשם\' או \'בטל הרשמה\' כשאתה נמצא במושב \"היכנסות למערכת\" של הקורס.';
+$string['loginasonecourse'] = 'אין באפשרותך להיכנס לקורס זה.<br /> עלייך לסיים את מושב ה-\"התחבר כ-\" לפני שתוכל להיכנס לכל קורס אחר.';
 $string['missingfield'] = 'שדה \"$a\" חסר';
 $string['missingrequiredfield'] = 'חסר שדה נדרש כלשהו';
 $string['modulemissingcode'] = 'במודול $a חסר הקוד הנדרש כדי לבצע פעולה זו';
@@ -46,6 +49,7 @@ $string['modulerequirementsnotmet'] = 'לא ניתן להתקין את פרק\"$
 $string['mustbeteacher'] = 'חובה עליך להיות מורה כדי לראות את עמוד זה';
 $string['nocontext'] = 'סליחה, אבל הקורס ההוא איננו הקשר תקף';
 $string['noinstances'] = 'אין מופעים של $a בקורס זה!';
+$string['nologinas'] = 'אינך מורשה להתחבר כמשתמש ההוא.';
 $string['nonmeaningfulcontent'] = 'אינו תוכן בעל משמעות';
 $string['noparticipatorycms'] = 'סליחה, אבל אין לך מודולי קורס שדורשים השתתפות לדווח עליהם.';
 $string['nopermissions'] = 'סליחה, אבל כרגע אין לך את ההרשאות לעשות זאת ($a)';
@@ -63,6 +67,8 @@ $string['sendmessage'] = 'שלח הודעה';
 $string['sessionerroruser'] = 'למושב שלך חלף הזמן. אנא התחבר שוב.';
 $string['sessionerroruser2'] = 'נתגלתה שגיאה של השרת שמשפיעה של מושב ההתחברות שלך. אנא התחבר שוב, או התחל מחדש את השרת שלך.';
 $string['sessionipnomatch'] = 'סליחה, אבל נראה כי מספר ה-IP שלך השתנה מאז הפעם הראשונה שהתחברת למערכת. תכונת אבטחה זו מונעת מהאקרים לגנוב את הזהות שלך בזמן שאתה מחובר לאתר. משתמשים רגילים לא אמורים לראות את ההודעה הזו - אנא בקש עזרה ממנהל האתר שלך.';
+$string['statscatchupmode'] = 'נכון לעכשיו הסטטיסטיקה נמצאת באופן פעולה catchup. עד כה $a->daysdone ימים עובדו ו- $a->dayspending עומדים להיות מעובדים. בידקו שוב בקרוב!';
+$string['unicodeupgradeerror'] = 'אנו מצטערים אך בסיס הנתונים שלך עדיין לא כתוב ב- Unicode, וגירסא זו של מוודל לא מסוגלת להמיר את בסיס הנתונים שלך ל-Unicode. אנא שדרג למוודל 1.7.x תחילה ובצא את ההמרה ל-Unicode מעמוד ההנהלה. לאחר שזה נעשה, לא אמורה להיות לך כל בעיה בהמרה למוודל Moodle $a.';
 $string['unknowncourse'] = 'קורס לא ידוע בשם \"$a\"';
 $string['unknownuseraction'] = 'סליחה, אני לא מבין את הפעולה של המשתמש הזה.';
 $string['usernotaddederror'] = 'משתמש \"$a\" לא הוסף - טעות לא ידועה';

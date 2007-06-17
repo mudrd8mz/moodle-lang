@@ -1,11 +1,10 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8 dev (2006120700)
+      // form.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['addfields'] = 'הוסף $a שדות לטופס';
 $string['advancedelement'] = 'מרכיב מתקדם';
 $string['day'] = 'יום';
-$string['denotesreq'] = '$a מציין שדה נדרש.';
 $string['display'] = 'הצג';
 $string['err_alphanumeric'] = 'כאן עליך להקליד רק אותיות או מספרים.';
 $string['err_email'] = 'כאן עליך להקליד כתובת דוא\"ל תקפה.';
@@ -26,10 +25,14 @@ $string['modstandardels'] = 'הגדרות מודולים מצויות';
 $string['month'] = 'חודש';
 $string['nomethodforaddinghelpbutton'] = 'לא קיימת שיטה להוספת כפתור עזרה למרכיב הטופס $a->name (כיתה $a->classname)';
 $string['nonexistentformelements'] = 'מנסה להוסיף כפתורים למרכיבי טופס לא קיימים: $a';
+$string['optional'] = 'נתון לבחירתכם';
 $string['requiredelement'] = 'שדה נדרש';
+$string['revealpassword'] = 'גלה';
 $string['security'] = 'אבטחה';
 $string['showadvanced'] = 'הראה מתקדם';
+$string['somefieldsrequired'] = 'בטופס זה ישנם שדות אותם חובה עליך למלא והם מסומנים ב-$a';
 $string['timing'] = 'תזמון';
 $string['year'] = 'שנה';
+$string['denotesreq'] = '$a מציין שדה נדרש.'; // ORPHANED
 
 ?>

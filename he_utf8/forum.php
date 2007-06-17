@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 dev (2006120700)
+      // forum.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['addanewdiscussion'] = 'הוסף נושא חדש לדיון';
@@ -10,6 +10,7 @@ $string['allforums'] = 'כל הפורומים';
 $string['allowchoice'] = 'אפשר לכולם לבחור';
 $string['allowdiscussions'] = 'האם $a יכול לפרסם הודעות בפורום זה?';
 $string['allowratings'] = 'אפשר לדרג את ההודעות?';
+$string['allowsallsubscribe'] = 'פורום זה מאפשר לכל אחד לבחור האם הוא מעוניין להירשם אליו כמנוי או לא';
 $string['allowsdiscussions'] = 'פורום זה מאפשר לכל משתתף לפתוח בנושא חדש לדיון, פעם אחת.';
 $string['allsubscribe'] = 'הירשם לכל הפורומים';
 $string['allunsubscribe'] = 'בטל את ההרשמה לכל הפורומים';
@@ -19,6 +20,7 @@ $string['blockafter'] = 'סף ההודעות לחסימה';
 $string['blockperiod'] = 'תקופת זמן עד לחסימה';
 $string['blockperioddisabled'] = 'אל תחסום';
 $string['bynameondate'] = 'על ידי $a->name בתאריך $a->date';
+$string['cannotadddiscussion'] = 'על מנת שתוכל להוסיף דיונים לפורום עלייך להיות חבר בקבוצה.';
 $string['cannotviewpostyet'] = 'עדיין אינך יכול לקרוא את השאלות של הסטודנטים האחרים בדיון זה, וזאת בגלל שעדיין לא פירסמת הודעה משלך.';
 $string['configcleanreadtime'] = 'השעה ביום בה יש למחוק הודעות ישנות מטבלת \"לקרוא\".';
 $string['configdisplaymode'] = 'תצוגת הדיונים במצב ברירת המחדל, במידה שלא נקבעה דרך תצוגה אחרת.';
@@ -64,18 +66,24 @@ $string['editedby'] = 'נערך על ידי $a->name - הגשה מקורית: $a
 $string['editing'] = 'עריכה';
 $string['emptymessage'] = 'ההודעה שלך אינה תקינה. יתכן שהשארת את ההודעה ריקה או שהקובץ שצירפת גדול מדי. השינויים שלך לא נשמרו.';
 $string['everyonecanchoose'] = 'כולם יכולים לבחור להרשם כמנויים לפורום זה';
+$string['everyonecannowchoose'] = 'כעת כולם יכולים לבחור להירשם כמנויים';
+$string['everyoneisnowsubscribed'] = 'כעת כולם רשומים כמנויים לפורום זה';
 $string['everyoneissubscribed'] = 'כולם מנויים לפורום זה';
 $string['existingsubscribers'] = 'מנויים קיימים';
+$string['forcessubscribe'] = 'פורום זה כופה על כולם להירשם כמנויים';
 $string['forcesubscribe'] = 'אלץ את כולם להרשם כמנויים';
 $string['forcesubscribeq'] = 'האם לאלץ את כולם להרשם כמנויים?';
 $string['forum'] = 'פורום';
+$string['forum:addnews'] = 'הוסף חדשות';
 $string['forum:createattachment'] = 'צור קבצים מצורפים';
 $string['forum:deleteanypost'] = 'מחק כל הודעה שהיא (בכל עת)';
 $string['forum:deleteownpost'] = 'מחק את ההודעות שלי (תוך המועד הסופי)';
 $string['forum:editanypost'] = 'ערוך כל הודעה שהיא';
+$string['forum:initialsubscriptions'] = 'הרשמה ראשונית';
 $string['forum:managesubscriptions'] = 'נהל מנויים';
 $string['forum:movediscussions'] = 'הזז דיונים';
 $string['forum:rate'] = 'דרג הודעות';
+$string['forum:replynews'] = 'הגב לחדשות';
 $string['forum:replypost'] = 'השב להודעות';
 $string['forum:splitdiscussions'] = 'פצל דיונים';
 $string['forum:startdiscussion'] = 'התחל בדיונים חדשים';
@@ -129,6 +137,7 @@ $string['namesocial'] = 'פורום קהילתי';
 $string['nameteacher'] = 'פורום מורים';
 $string['newforumposts'] = 'הודעות חדשות בפורום';
 $string['nodiscussions'] = 'עדיין אין נושאים לדיון בפורום זה.';
+$string['nodiscussionsstartedby'] = 'משתמש זה לא התחיל באף דיון';
 $string['noguestpost'] = 'צר לי, אורחים אינם מורשים לפרסם הודעות.';
 $string['noguestsubscribe'] = 'צר לי, אורחים אינם מורשים להרשם לקבלת הודעות פורום בדוא\"ל.';
 $string['noguesttracking'] = 'צר לי, אורחים אינם יכולים להגדיר אפשרויות מעקב.';

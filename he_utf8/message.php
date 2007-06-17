@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8 dev (2006120700)
+      // message.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['addcontact'] = 'הוסף איש קשר';
@@ -9,6 +9,7 @@ $string['ago'] = 'לפני $a';
 $string['allmine'] = 'כל ההודעות אלי או ממני.';
 $string['allstudents'] = 'כל ההודעות בין התלמידים בקורס.';
 $string['allusers'] = 'כל ההודעות מכל המשתמשים.';
+$string['backupmessageshelp'] = 'אם אפשרות זו מופעלת, אז מסרונים יכללו בגיבויים האוטומטיים של האתר.';
 $string['beepnewmessage'] = 'צפצף כאשר מתקבלת הודעה חדשה (יכול להיות שיידרש התקן תקע בדפדפף שיכול להשמיע צלילים כמו Quicktime.)';
 $string['blockcontact'] = 'חסום את איש הקשר.';
 $string['blockedmessages'] = '$a הודעה(ות) ממשתמשים חסומים';
@@ -32,7 +33,9 @@ $string['messagehistory'] = 'היסטוריית הודעות';
 $string['messages'] = 'הודעות';
 $string['messaging'] = 'העברת הודעות';
 $string['mycontacts'] = 'אנשי הקשר שלי';
+$string['newonlymsg'] = 'הצג רק את החדש';
 $string['newsearch'] = 'חיפש חדש';
+$string['noframesjs'] = 'גירסא ללא מסגרות או JavaScript';
 $string['nomessages'] = 'אין הודעות ממתינות';
 $string['nomessagesfound'] = 'לא נמצאו הודעות';
 $string['nosearchresults'] = 'לחיפוש שלך לא היו תוצאות';

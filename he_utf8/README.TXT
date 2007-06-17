@@ -14,23 +14,25 @@ Translation coordinated by Emanuel Gruengard
 Shenkar College of Engineering and Design, Ramamt-Gan, Israel
 
 Members of the project:
-Translation: Lev Abramov, Annat Martakovitz, Miki Alliel
-System: Miki Alliel
+Translation: Lev Abramov, Ann Martkovich, Miki Alliel
+System: Miki Alliel 
 PHP-code Modifications (Right to Left logic): Shahar Dolev
 
 ----------------------------
 
-Please help us proofread the translation. Send any found error, typo,
-unclear text, ... to: moodle-project@mail.shenkar.ac.il
-If possible please identify both the string name and the message, help or docs file
-where it apperas. If you don't know that, please specify the web page name and identify
-the relevant (?) or (!) icon that was clicked to produce that message.
+Please help us proofread the translation. 
+Send any found error, typo, unclear text, missing graphics, wrong RTL direction, ... 
+to: moodle-project@mail.shenkar.ac.il
+If possible please identify both the string's name and the message, help or docs file
+where it appears. If you don't know that, please specify the web page name from which
+you invoked the message or file, and identify the relevant (?) or (!) icon that 
+was clicked to produce that message.
 Thanks.
 
 ----------------------------
 
-First posting of the ISOC-IL project: 14/5/2007
+First posting of the ISOC-IL project: 14/5/2007.
 Around 80% of the messages and helps files plus some docs files were translated.
 
 ----------------------------
-
+Second posting of the ISOC-IL project updated: 17/06/2007

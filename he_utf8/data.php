@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 dev (2006120700)
+      // data.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['action'] = 'פעולה';
@@ -61,6 +61,7 @@ $string['deleted'] = 'נמחקה';
 $string['deletefield'] = 'מחק שדה קיים';
 $string['deletewarning'] = 'האם אתה בטוח שאתה רוצה למחוק את הגדרה זו שנקבעה מראש?';
 $string['descending'] = 'בסדר יורד';
+$string['directorynotapreset'] = '$a->directory איננה הגדרה קבועה מראש: קבצים חסרים: $a->missing_files';
 $string['download'] = 'הורד';
 $string['edit'] = 'ערוך';
 $string['editcomment'] = 'ערוך הערה';
@@ -77,6 +78,7 @@ $string['example'] = 'דוגמאת מודול בסיס נתונים';
 $string['export'] = 'ייצא';
 $string['exportaszip'] = 'ייצא כקובץ ZIP';
 $string['exportedtozip'] = 'יוצא לקובץ ZIP זמני';
+$string['failedpresetdelete'] = 'חלה שגיאה במהלך מחיקה של הגדרה קבועה מראש!';
 $string['fieldadded'] = 'השדה הוסף';
 $string['fieldallowautolink'] = 'אפשר יצירת קישורים אוטומטיים';
 $string['fielddeleted'] = 'השדה נמחק';
@@ -96,6 +98,7 @@ $string['fieldwidth'] = 'רוחב';
 $string['fieldwidthlistview'] = 'רוחב בתצוגת רשימה';
 $string['fieldwidthsingleview'] = 'רוחב בתצוגת יחיד';
 $string['file'] = 'קובץ';
+$string['filesnotgenerated'] = 'לא כל הקבצים חוללו: $a';
 $string['filtername'] = 'יצירת קישורים אוטומטיים לבסיס הנתונים';
 $string['footer'] = 'כותרת תחתונה';
 $string['forcelinkname'] = 'שם כפוי לקישור זה';
@@ -131,6 +134,7 @@ $string['modulename'] = 'בסיס נתונים';
 $string['modulenameplural'] = 'בסיסי נתונים';
 $string['more'] = 'עוד';
 $string['moreurl'] = 'עוד כתובות URL';
+$string['movezipfailed'] = 'לא ניתן להזיז קובץ zip';
 $string['multientry'] = 'רשומה שחוזרת על עצמה';
 $string['multimenu'] = 'תפריט (רב-בחירה)';
 $string['multipletags'] = 'נמצאו תגים כפולים! התבנית לא נשמרה';
@@ -149,6 +153,7 @@ $string['nameurl'] = 'שדה כתובת URL';
 $string['newentry'] = 'רשומה חדשה';
 $string['newfield'] = 'צור שדה חדש';
 $string['noaccess'] = 'אין לך גישה לעמוד זה';
+$string['nodefinedfields'] = 'להגדרה הקבועה מראש החדשה אין שדות מוגדרים!';
 $string['nofieldindatabase'] = 'לבסיס נתונים זה אין שדות מוגדרים.';
 $string['nolisttemplate'] = 'עוד לא הוגדרה תבנית רשימה';
 $string['nomatch'] = 'לא נמצאו רשומות מתאימות!';
@@ -201,6 +206,7 @@ $string['savesettings'] = 'שמור הגדרות';
 $string['savesuccess'] = 'נשמרה בהצלחה. ההגדרה ששמרתם כהגדרה קבועה מראש תהיה נגישה מעכשיו באתר כולו.';
 $string['savetemplate'] = 'שמור תבנית';
 $string['sendinratings'] = 'שלח את הדירוגים האחרונים שלי';
+$string['showall'] = 'הראה את כל הרשומות';
 $string['single'] = 'ראה יחיד';
 $string['singletemplate'] = 'תבנית יחידה';
 $string['teachersandstudents'] = '$a->מורים ו$a->תלמידים';
@@ -210,6 +216,7 @@ $string['text'] = 'טקסט';
 $string['textarea'] = 'שדה טקסט';
 $string['todatabase'] = 'לבסיס נתונים זה.';
 $string['type'] = 'סוג שדה';
+$string['undefinedprocessactionmethod'] = 'לא הוגדרה שיטת פעולה ב- Data_Preset שיכולה להתמודד עם הפעולה: \"$a\".';
 $string['updatefield'] = 'עדכן שדה קיים';
 $string['uploadfile'] = 'העלה קובץ';
 $string['uploadrecords'] = 'העלה רשומות מתוך קובץ';
@@ -217,5 +224,6 @@ $string['url'] = 'כתובת URL';
 $string['usestandard'] = 'השתמש כהגדרה שנקבעה מראש';
 $string['viewfromdate'] = 'נגיש מתאריך';
 $string['viewtodate'] = 'נגיש עד לתאריך';
+$string['wrongdataid'] = 'סופקו נתוני מספר זיהוי שגויים';
 
 ?>

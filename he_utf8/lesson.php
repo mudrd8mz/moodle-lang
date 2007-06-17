@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8 dev (2006120700)
+      // lesson.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['accesscontrol'] = 'בקרת גישה';
@@ -82,7 +82,7 @@ $string['displayscorewithessays'] = 'עבור השאלות שנבדקות באו
 שאלת(ות) החיבור $a->essayquestions  שלך תבדק, והציון שתקבל עבורה יתווסף <br />במועד מאוחר יותר לחישוב של הציון הסופי שלך. <br /><br />
 הציון הנוכחי שלך, מבלי שאלת(ות) החיבור הוא תוצאה של $a-> מתוך $a->grade.';
 $string['displayscorewithoutessays'] = 'התוצאה שלך היא $a->score (מתוך $a->grade).';
-$string['editlesson'] = 'ערוך $a';
+$string['edit'] = 'ערוך';
 $string['editlessonsettings'] = 'ערוך את הגדרות השיעור';
 $string['editpagecontent'] = 'ערוך את תכולת העמוד';
 $string['email'] = 'דוא\"ל';
@@ -142,10 +142,10 @@ $string['lessonopen'] = 'השיעור שלך ייפתח ב-$a.';
 $string['lessonopens'] = 'השיעור נפתח.';
 $string['lessonpagelinkingbroken'] = 'העמוד הראשון לא נמצא. הקישורים שבין עמודי השיעור כנראה נשברו. אנא צור קשר עם מנהל.';
 $string['lessonstats'] = 'הנתונים הסטטיסטיים של השיעורים.';
+$string['linkedmedia'] = 'מדיה מקושרת';
 $string['loginfail'] = 'ההתחברות נכשלה, אנא נסה שנית.....';
 $string['lowscore'] = 'תוצאה נמוכה.';
 $string['lowtime'] = 'זמן נמוך';
-$string['mainmenu'] = 'תפריט הקורס';
 $string['manualgrading'] = 'בדוק ותן ציון למאמרים';
 $string['matchesanswer'] = 'תואם עם התשובה';
 $string['maxhighscores'] = 'מספר התוצאות הגבוהות המוצגות';
@@ -238,7 +238,7 @@ $string['redisplaypage'] = 'הצג מחדש את העמוד';
 $string['report'] = 'דוח';
 $string['reports'] = 'דוחות';
 $string['response'] = 'תגובה';
-$string['returnmainmenu'] = 'חזור לתפריט הראשי';
+$string['returnto'] = 'חזור ל-$a';
 $string['returntocourse'] = 'חזור לקורס';
 $string['review'] = 'סקור';
 $string['reviewlesson'] = 'סקור את השיעור';
@@ -301,5 +301,8 @@ $string['youranswer'] = 'התשובה שלך';
 $string['yourcurrentgradeis'] = 'הציון הנוכחי שלך הוא $a';
 $string['yourcurrentgradeisoutof'] = 'הציון הנוכחי שלך הוא $a->grade מתוך $a->total.';
 $string['youshouldview'] = 'על התשובה שלך להיות לפחות: $a';
+$string['editlesson'] = 'ערוך $a'; // ORPHANED
+$string['mainmenu'] = 'תפריט הקורס'; // ORPHANED
+$string['returnmainmenu'] = 'חזור לתפריט הראשי'; // ORPHANED
 
 ?>

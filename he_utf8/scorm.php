@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.8 dev (2006120700)
+      // scorm.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['advanced'] = 'פרמטרים';
@@ -18,17 +18,23 @@ $string['browsemode'] = 'מצב תצוגה מקדימה';
 $string['browserepository'] = 'עיין בגנזך';
 $string['chooseapacket'] = 'בחר או עדכן חבילה.';
 $string['completed'] = 'הושלם';
+$string['confirmloosetracks'] = 'אזהרה: נראה שהחבילה עברה שינויים או התאמות כלשהן. אם שונה מבנה החבילה, יכול להיות שחלק מהעקבות של המשתמשים יאבדו במהלך תהליך העדכון.';
+$string['contents'] = 'תוכן';
 $string['coursepacket'] = 'חבילת קורס';
 $string['coursestruct'] = 'מבנה קורס';
 $string['datadir'] = 'שגיאה במערכת הקבצים: לא ניתן ליצור ספריה שתכיל את נתוני הקורס.';
+$string['details'] = 'פרטי העקבות';
 $string['directories'] = 'הראה את קישורי הסיפרייה';
 $string['display'] = 'הצג את החבילה';
 $string['domxml'] = 'סיפריית DOMXML חיצונית';
 $string['element'] = 'אלמנט';
 $string['entercourse'] = 'הכנס קורס';
 $string['errorlogs'] = 'יומן מעקב אחר שגיאות';
+$string['everyday'] = 'כל יום';
+$string['everytime'] = 'בכל פעם שנעשה בו שימוש';
 $string['exit'] = 'צא מהקורס';
 $string['expcoll'] = 'הרחב או צמצם';
+$string['external'] = 'עדכן את התזמון של החבילות החיצוניות';
 $string['failed'] = 'נכשל';
 $string['firstaccess'] = 'גישה ראשונה';
 $string['firstattempt'] = 'ניסיון מענה ראשון';
@@ -77,11 +83,14 @@ $string['nolimit'] = 'ניסיונות מענה בלתי מוגבלים';
 $string['noprerequisites'] = 'סליחה, אבל לא הגעת למספיק תנאים מקדימים על מנת התתאפשר לך גישה לאובייקט למידה זה.';
 $string['noreports'] = 'אין דוח להציג';
 $string['normal'] = 'רגיל';
+$string['noscriptnoscorm'] = 'הדפדפן שלך לא תומך ב-javascript, או שתמיכה זו מנוטרלת. לא ירשמו כל עקבות.';
 $string['not_corr_type'] = 'חוסר התאמת סוג עבור תג $a->tag';
 $string['notattempted'] = 'לא נוסה';
 $string['objectives'] = 'מטרות';
+$string['onchanges'] = 'בכל פעם שזה משתנה';
 $string['organization'] = 'ארגון';
 $string['organizations'] = 'ארגונים';
+$string['othertracks'] = 'עקבות אחרים';
 $string['packagedir'] = 'שגיאה במערכת הקבצים: לא ניתן ליצור ספריית חבילה';
 $string['packagefile'] = 'לא צויין קובץ חבילה';
 $string['passed'] = 'עבר';
@@ -99,6 +108,7 @@ $string['review'] = 'עיין בתשובות';
 $string['reviewmode'] = 'מצב עיון בתשובות';
 $string['scoes'] = 'אובייקטי למידה';
 $string['score'] = 'תוצאה';
+$string['scorm:savetrack'] = 'שמור עקבות';
 $string['scorm:skipview'] = 'פסח על הסקירה הכללית';
 $string['scorm:viewreport'] = 'צפה בדוחות';
 $string['scorm:viewscores'] = 'צפה בתוצאות';
@@ -106,6 +116,7 @@ $string['scormcourse'] = 'קורס למידה';
 $string['scrollbars'] = 'אפשר לגלול את החלון';
 $string['sided'] = 'בצד השמאלי';
 $string['skipview'] = 'סטודנטים פוסחים על עמוד מבנה התוכן';
+$string['stagesize'] = 'גודל הבמה';
 $string['started'] = 'התחיל ב-';
 $string['status'] = 'סטטוס';
 $string['statusbar'] = 'הראה את סרגל הסטטוס';
@@ -119,11 +130,13 @@ $string['too_many_attributes'] = 'לתג $a->tag יש יותר מתי תכונו
 $string['too_many_children'] = 'לתג $a->tag יש יותר מדי ילדים';
 $string['toolbar'] = 'הראה את סרגל הכלים';
 $string['totaltime'] = 'זמן';
+$string['trackingloose'] = 'אזהרה: נתוני העקבות של החבילה הזו יאבדו!';
 $string['type'] = 'סוג';
 $string['validateascorm'] = 'תן תוקף לחבילה';
 $string['validation'] = 'תוצאת בדיקת התוקף';
 $string['value'] = 'ערך';
 $string['viewallreports'] = 'ראה את הדוחות עבור $a ניסיונות מענה';
+$string['whatgrade'] = 'הציון של ניסיונות המענה';
 $string['width'] = 'רוחב';
 $string['window'] = 'חלון';
 
