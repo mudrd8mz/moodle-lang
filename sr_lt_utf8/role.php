@@ -1,11 +1,12 @@
-<?PHP // $Id$ 
-      // role.php - created with Moodle 1.6.2 (2006050520)
+﻿<?PHP // $Id$ 
+      // role.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['addrole'] = 'Dodavanje nove uloge';
 $string['allow'] = 'Dozvoliti';
 $string['allowassign'] = 'Dozvoliti zadatke za uloge';
 $string['allowoverride'] = 'Dozvoliti prepisivanje uloga';
+$string['assignglobalroles'] = 'Dodeljivanje globalnih uloga';
 $string['assignroles'] = 'Dodeljivanje uloga';
 $string['blog:create'] = 'Kreiranje novih blog unosa';
 $string['blog:manageentries'] = 'Uređivanje i upravljanje unosima';
@@ -49,12 +50,15 @@ $string['currentrole'] = 'Trenutna uloga';
 $string['defaultrole'] = 'Podrazumevana uloga';
 $string['defineroles'] = 'Definisanje uloga';
 $string['deleterolesure'] = '<p>Da li ste sigurni da želite da obrišete ulogu \"$a->name ($a->shortname)\"?</p><p>Broj korisnika kojima je ova uloga je trenutno dodeljena je: $a->count.</p>';
+$string['duplicaterole'] = 'Kopiraj ulogu';
+$string['duplicaterolesure'] = 'Da li ste sigurni da želite da kopirate ulogu \"$a->name ($a->shortname)\"?</p>';
 $string['editrole'] = 'Uređivanje uloge';
 $string['errorbadrolename'] = 'Pogrešan naziv uloge';
 $string['errorbadroleshortname'] = 'Pogrešan naziv uloge';
 $string['errorexistsrolename'] = 'Naziv uloge već postoji';
 $string['errorexistsroleshortname'] = 'Naziv uloge već postoji';
 $string['existingusers'] = '$a postojećih korisnika';
+$string['globalroleswarning'] = 'UPOZORENJE! Svaka uloga koju dodelite na ovoj stranici primenjivaće se na korisnike kojima je dodeljena na čitavom sajtu, uključujući i početnu stranicu i sve kurseve.';
 $string['inherit'] = 'Nasleđivanje';
 $string['legacy:admin'] = 'NASLEĐENA ULOGA: Administrator';
 $string['legacy:coursecreator'] = 'NASLEĐENA ULOGA: Kreator kursa';
@@ -62,11 +66,15 @@ $string['legacy:editingteacher'] = 'NASLEĐENA ULOGA: Predavač (sa uređivački
 $string['legacy:guest'] = 'NASLEĐENA ULOGA: Gost';
 $string['legacy:student'] = 'NASLEĐENA ULOGA: Student';
 $string['legacy:teacher'] = 'NASLEĐENA ULOGA: Predavač (bez uređivačkih prava)';
+$string['legacy:user'] = 'NASLEĐENA ULOGA: Identifikovan korisnik';
+$string['legacytype'] = 'Tip nasleđene uloge';
 $string['listallroles'] = 'Spisak svih uloga';
 $string['manageroles'] = 'Upravljanje ulogama';
 $string['metaassignerror'] = 'Nije moguće dodeliti ovu ulogu korisniku \"$a\" jer je neophodna sposobnost upravljanja metakursevima.';
 $string['metaunassignerror'] = 'Uloga korisnika \"$a\" je automatski ponovo dodeljena. Molimo uklonite ulogu u podređenim kursevima umesto toga.';
+$string['my:manageblocks'] = 'Uredi blokove na mojMoodle strani';
 $string['nocapabilitiesincontext'] = 'Nema sposobnosti raspoloživih u ovom kontekstu';
+$string['notset'] = 'Nije postavljeno';
 $string['overrideroles'] = 'Prepisivanje uloga';
 $string['overrides'] = 'Prepisivanja';
 $string['permissions'] = 'Dozvole';
@@ -77,6 +85,10 @@ $string['question:export'] = 'Izvoz pitanja';
 $string['question:import'] = 'Uvoz pitanja';
 $string['question:manage'] = 'Upravljanje pitanjima';
 $string['question:managecategory'] = 'Upravljanje kategorijama pitanja';
+$string['resetrole'] = 'Vrati na podrazumevane vrednosti';
+$string['resetrolenolegacy'] = 'Obriši dozvole';
+$string['resetrolesure'] = 'Da li ste sigurni da želite da vratite ulogu \"$a->name ($a->shortname)\" na podrazumevane vrednosti?<p></p>Podrazumevane vrednosti se preuzimaju iz odabranih nasleđenih sposobnosti ($a->legacytype).';
+$string['resetrolesurenolegacy'] = 'Da li ste sigurni da želite da obrišete sve dozvole definisane u okviru uloge \"$a->name ($a->shortname)\"?';
 $string['risks'] = 'Rizici';
 $string['role:assign'] = 'Dodeljivanje uloga korisnicima';
 $string['role:manage'] = 'Kreiranje i upravljanje ulogama';
@@ -98,6 +110,8 @@ $string['site:doanything'] = 'Dozvoljeno da radi bilo šta';
 $string['site:doclinks'] = 'Prikaz linkova ka dokumentima van sajta';
 $string['site:import'] = 'Uvoz drugih kurseva u tekući kurs';
 $string['site:manageblocks'] = 'Upravljanje blokovima na nivou sajta';
+$string['site:mnetloginfromremote'] = 'Pristup sa udaljene Moodle lokacije';
+$string['site:mnetlogintoremote'] = 'Odlazak na udaljenu Moodle lokaciju';
 $string['site:readallmessages'] = 'Čitanje svih poruka na sajtu';
 $string['site:restore'] = 'Restauriranje kurseva';
 $string['site:trustcontent'] = 'Poverenje u bezbednost sadržaja';
@@ -120,3 +134,4 @@ $string['viewrole'] = 'Pregled detalja o ulogama';
 $string['xuserswiththerole'] = 'Broj korisnika sa ulogom \"$a->role\" je: $a->number';
 
 ?>
+

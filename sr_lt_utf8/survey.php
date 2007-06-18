@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // survey.php - created with Moodle 1.6.2 (2006050520)
+﻿<?PHP // $Id$ 
+      // survey.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['actual'] = 'Aktuelno';
@@ -163,6 +163,7 @@ Vaši pažljivo promišljeni odgovori će nam pomoći da poboljšamo način prez
 
 Mnogo Vam hvala.';
 $string['collespname'] = 'COLLES (Preferirani)';
+$string['customintro'] = 'Sopstveni uvod';
 $string['done'] = 'Urađeno';
 $string['download'] = 'Preuzimanje';
 $string['downloadexcel'] = 'Preuzimanje podataka u vidu Excel radne tabele';
@@ -203,6 +204,7 @@ $string['survey:download'] = 'Preuzimanje odgovora';
 $string['survey:participate'] = 'Odgovoriti na anketu';
 $string['survey:readresponses'] = 'Pregled odgovora';
 $string['surveycompleted'] = 'Završili ste popunjavanje ankete. Grafikon ispod prikazuje rezime Vaših rezultata upoređenih sa sa prosečnim odgovorima svih učesnika.';
+$string['surveygraph'] = 'Grafikon ankete';
 $string['surveyname'] = 'Naziv ankete';
 $string['surveysaved'] = 'Anketa je sačuvana';
 $string['surveytype'] = 'Tip ankete';
@@ -211,3 +213,4 @@ $string['time'] = 'Vreme';
 $string['viewsurveyresponses'] = 'Pogledajte $a odgovora na anketu';
 
 ?>
+
