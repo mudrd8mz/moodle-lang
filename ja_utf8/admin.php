@@ -223,6 +223,7 @@ $string['cronerrorpassword'] = '申し訳ございません、あなたはこの
 $string['cronremotepassword'] = 'リモートアクセスのcronパスワード';
 $string['cronwarning'] = '<a href=\"cron.php\">cron.phpメンテナンススクリプト</a>が、少なくとも24時間稼動していません。';
 $string['curlrecommended'] = 'Moodleネットワーキング機能を有効にするため、Curlライブラリのインストールを強くお勧めします。';
+$string['customcheck'] = 'その他のチェック';
 $string['datarootsecuritywarning'] = 'あなたのサイト設定は、安全ではない可能性があります。datarootディレクトリ ($a) が、ウェブから直接アクセスできないことを確認してください。';
 $string['dbmigrate'] = 'Moodleデータベース移行';
 $string['dbmigrateconnecerror'] = '指定されたデータベースに接続できませんでした。';
@@ -524,6 +525,7 @@ $string['searchresults'] = '検索結果';
 $string['secureforms'] = '追加的なフォームセキュリティを使用する';
 $string['security'] = 'セキュリティ';
 $string['server'] = 'サーバ';
+$string['serverchecks'] = 'サーバチェック';
 $string['serverlimit'] = 'サーバリミット';
 $string['sessioncookie'] = 'クッキー接頭辞';
 $string['sessioncookiepath'] = 'クッキーパス';
