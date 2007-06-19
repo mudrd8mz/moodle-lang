@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007050400)
+      // quiz.php - created with Moodle 1.9 dev (2007060502)
 
 
 $string['1day'] = '1日';
@@ -46,6 +46,7 @@ $string['attemptlast'] = '最新の受験';
 $string['attemptquiznow'] = '問題を受験する';
 $string['attempts'] = '受験';
 $string['attemptsallowed'] = '受験回数';
+$string['attemptsdeleted'] = '小テストの受験結果が削除されました。';
 $string['attemptselection'] = 'ユーザごとにどの受験を分析するか選択してください:';
 $string['attemptsexist'] = 'あなたは、これ以上問題を追加または削除することはできません。';
 $string['attemptsonly'] = '受験済みの学生のみ表示';
@@ -133,6 +134,7 @@ $string['deleteattemptcheck'] = '本当にこれらの受験内容を削除し�
 $string['deletequestioncheck'] = '「 $a 」を本当に削除してもよろしいですか?';
 $string['deletequestionscheck'] = '本当に次の問題を削除してもよろしいですか?<br /><br />$a';
 $string['deleteselected'] = '選択したものを削除する';
+$string['deletingquestionattempts'] = '問題受験結果の削除';
 $string['description'] = '説明';
 $string['discrimination'] = '識別指数';
 $string['displayoptions'] = '表示オプション';
@@ -228,6 +230,7 @@ $string['gradeboundary'] = '評点境界';
 $string['gradeessays'] = '作文問題を評定する';
 $string['gradehighest'] = '最高評点';
 $string['grademethod'] = '評定方法';
+$string['gradesdeleted'] = '小テストの評定が削除されました。';
 $string['gradesofar'] = '$a->method: $a->mygrade / $a->quizgrade';
 $string['gradingdetails'] = 'この解答の点数: $a->raw/$a->max';
 $string['gradingdetailsadjustment'] = '前のペナルティにより <strong>$a->cur/$a->max</strong> に調整されます。';
@@ -377,7 +380,7 @@ $string['questiontext'] = '問題テキスト';
 $string['questiontype'] = '問題タイプ $a';
 $string['questiontypesetupoptions'] = '問題タイプのオプション設定';
 $string['quiz:attempt'] = '小テストを受験する';
-$string['quiz:deleteattempts'] = '小テスト受験結果を削除する';
+$string['quiz:deleteattempts'] = '小テストの受験結果を削除する';
 $string['quiz:grade'] = '小テストを評定する';
 $string['quiz:ignoretimelimits'] = '制限時間のある小テストを無視する';
 $string['quiz:manage'] = '小テストを管理する';
@@ -412,6 +415,7 @@ $string['regradingquestion'] = '「 $a 」の再評定';
 $string['regradingquiz'] = '問題「 $a 」の再評定';
 $string['relative'] = '相対度数';
 $string['remove'] = '削除';
+$string['removeallquizattempts'] = 'すべての小テストの受験結果を削除する';
 $string['rename'] = 'リネーム';
 $string['renderingserverconnectfailed'] = 'サーバ $a がRQPリクエストの処理に失敗しました。URLが正しいか確認してください。';
 $string['reordertool'] = '並び替えツールを表示する';
