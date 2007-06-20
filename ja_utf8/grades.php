@@ -67,6 +67,7 @@ $string['hidecategory'] = '隠す';
 $string['highgradeascending'] = '高評点の昇順で並び替え';
 $string['highgradedescending'] = '高評点の降順で並び替え';
 $string['highgradeletter'] = '上限';
+$string['identifier'] = 'ユーザ識別方法:';
 $string['importcsv'] = 'CSVをインポートする';
 $string['importfailed'] = 'インポートが失敗しました。';
 $string['importfile'] = 'ファイルをインポートする';
