@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6.1+ (2006050512)
+      // grades.php - created with Moodle 1.8.1+ (2007021510)
 
 
-$string['addcategory'] = 'Додавање категорије';
-$string['addcategoryerror'] = 'Није могуће додати каатегорију';
+$string['addcategory'] = 'Додај категорију';
+$string['addcategoryerror'] = 'Није могуће додати категорију';
 $string['addexceptionerror'] = 'Дошло је до грешке током додавања изузетка за userid:gradeitem';
 $string['allgrades'] = 'Све оцене по категоријама';
 $string['allstudents'] = 'Сви студенти';
@@ -11,11 +11,11 @@ $string['average'] = 'Просек';
 $string['bonuspoints'] = 'Додатни бодови';
 $string['categories'] = 'Категорије';
 $string['category'] = 'Категорија';
-$string['choosecategory'] = 'Изаберите категорију';
+$string['choosecategory'] = 'Изабери категорију';
 $string['creatinggradebooksettings'] = 'Креирање подешавања књиге оцена';
 $string['curveto'] = 'Прилагоди';
-$string['deletecategory'] = 'Обришите категорију';
-$string['displaylettergrade'] = 'Приказ оцена као словних оцена (A, B, C...)';
+$string['deletecategory'] = 'Обриши категорију';
+$string['displaylettergrade'] = 'Приказ словних оцена (A, B, C...)';
 $string['displaypercent'] = 'Приказ процената';
 $string['displaypoints'] = 'Приказ бодова';
 $string['displayweighted'] = 'Приказ тежинских оцена';
@@ -37,7 +37,7 @@ $string['gradecategoryhelp'] = 'Помоћ за категорије оцена'
 $string['gradeexceptions'] = 'Изузеци од оцењивања';
 $string['gradeexceptionshelp'] = 'Помоћ за изузетке од оцењивања';
 $string['gradehelp'] = 'Помоћ за оцене';
-$string['gradeitem'] = 'Једна од могућих оцена';
+$string['gradeitem'] = 'Ставка за оцењивање';
 $string['gradeitemaddusers'] = 'Искључи из оцењивања';
 $string['gradeitemmembersselected'] = 'Искључено из оцењивања';
 $string['gradeitemnonmembers'] = 'Укључено у оцењивање';
@@ -123,5 +123,6 @@ $string['weightedpct'] = 'тежински %%';
 $string['weightedpctcontribution'] = 'допринос тежинских %% у укупној оцени';
 $string['writinggradebookinfo'] = 'Записивање подешавања књиге са оценама';
 $string['yes'] = 'Да';
+$string['yourgrade'] = 'Ваша оцена';
 
 ?>
