@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007021501)
+      // admin.php - created with Moodle 1.9 dev (2007062008)
 
 
 $string['accessdenied'] = 'Accés denegat';
@@ -7,7 +7,8 @@ $string['accounts'] = 'Comptes';
 $string['adminseesall'] = 'Els administradors ho veuen tot';
 $string['adminseesallevents'] = 'Els administradors veuen tots els esdeveniments';
 $string['adminseesownevents'] = 'Els administradors són com els altres usuaris';
-$string['allowcoursethemes'] = 'Permet temes de curs';
+$string['allowcategorythemes'] = 'Permet temes per categories';
+$string['allowcoursethemes'] = 'Permet temes per curs';
 $string['allowemailaddresses'] = 'Dominis de correu permesos';
 $string['allowobjectembed'] = 'Permet etiquetes EMBED i OBJECT';
 $string['allowrenames'] = 'Permet canvis de nom';
@@ -45,6 +46,7 @@ $string['cleanup'] = 'Neteja';
 $string['componentinstalled'] = 'S\'ha instal·lat el component';
 $string['confeditorhidebuttons'] = 'Seleccioneu els botons que voleu ocultar en l\'editor HTML.';
 $string['configallowassign'] = 'Permet que els rols de l\'esquerra assignen els rols de cada columna';
+$string['configallowcategorythemes'] = 'Si habiliteu aquesta opció, es podran definir temes diferents per a cada categoria de cursos. El tema definit per a una categoria s\'aplicarà a tots els cursos i a totes les subcategories dins d\'aquesta categoria, tret que es defineixin temes específics per a un curs o una subcategoria. AVÍS: pot afectar el rendiment del servidor.';
 $string['configallowcoursethemes'] = 'Si habiliteu aquesta opció, cada curs podrà definir el seu tema. Els temes dels cursos anul·len qualsevol altra selecció de tema: tema del lloc, de l\'usuari o de la sessió.';
 $string['configallowemailaddresses'] = 'Si voleu limitar les noves adreces de correu a certs dominis, especifiqueu-los aquí separats per espais. Tots els altres dominis seran rebutjats. P. ex. <strong>uji.es upc.es xtec.es</strong>';
 $string['configallowobjectembed'] = 'Com a mesura de seguretat per defecte, no es permet que els usuaris normals incrusten multimèdia (p. ex. Flash) dins dels textos usant explícitament etiquetes EMBED i OBJECT en l\'HTML (encara que poden fer-ho sense problemes de seguretat per mitjà del filtre multimèdia). Si voleu permetre aquestes etiquetes habiliteu aquesta opció.';
@@ -82,6 +84,7 @@ $string['configdefaultuserroleid'] = 'A tots els usuaris que hagin entrat se\'ls
 $string['configdeleteunconfirmed'] = 'Si esteu utilitzant l\'autenticació per correu electrònic, aquest és el període dins del qual s\'acceptarà la resposta dels usuaris. Després d\'aquest període, els comptes no confirmats se suprimeixen.';
 $string['configdenyemailaddresses'] = 'Per refusar les adreces de correu de certs dominis, especifiqueu-les aquí de la mateixa manera. Tots els altres dominis seran acceptats. P. ex. <strong>hotmail.com yahoo.com</strong>';
 $string['configdigestmailtime'] = 'Les persones que triïn rebre el correu electrònic en format resum, el rebran una vegada al dia. Aquest paràmetre controla a quina hora s\'envia el resum diari (l\'enviarà el següent cron que s\'executi després d\'aquesta hora).';
+$string['configdisableuserimages'] = 'Inhabilita la possibilitat que els usuaris canviïn les seves imatges al perfil.';
 $string['configdisplayloginfailures'] = 'Aquest paràmetre permet que usuaris seleccionats visualitzin informació sobre intents d\'entrada erronis.';
 $string['configdocroot'] = 'Defineix el camí de Moodle Docs. Podeu canviar-lo si teniu la vostra documentació personalitzada en línia. Però, si ho feu, assegureu-vos que els camins dins la vostra documentació segueixen el mateix format que en http://docs.moodle.org.';
 $string['configdoctonewwindow'] = 'Si habiliteu aquesta opció, els enllaços a la documentació de Moodle s\'obriran en una finestra nova.';
@@ -211,6 +214,7 @@ $string['cronerrorpassword'] = 'No heu proporcionat una contrasenya vàlida per 
 $string['cronremotepassword'] = 'Contrasenya d\'accés remot al cron';
 $string['cronwarning'] = 'La <a href=\"cron.php\">seqüència de manteniment cron.php</a> no s\'ha executat en les darreres 24 hores com a mínim.';
 $string['curlrecommended'] = 'Es recomana instal·lar la biblioteca opcional Curl a fi d\'habilitar la funcionalitat de Moodle en Xarxa.';
+$string['customcheck'] = 'Altres comprovacions';
 $string['datarootsecuritywarning'] = 'La configuració d\'aquest lloc podria no ser segura. Cercioreu-vos que el directori de dades ($a) no és accessible directament via web.';
 $string['dbmigrate'] = 'Migració de la base de dades de Moodle';
 $string['dbmigrateconnecerror'] = 'No s\'ha pogut establir la connexió amb la base de dades especificada.';
@@ -239,6 +243,7 @@ $string['deleteuser'] = 'Suprimeix usuari';
 $string['density'] = 'Densitat';
 $string['denyemailaddresses'] = 'Dominis de correu denegats';
 $string['digestmailtime'] = 'Hora per a enviar el correu en format resum';
+$string['disableuserimages'] = 'Inhabilita imatges en els perfils d\'usuari';
 $string['displayloginfailures'] = 'Mostra entrades errònies a';
 $string['docroot'] = 'Arrel de documents de Moodle Docs';
 $string['doctonewwindow'] = 'Obre en una finestra nova';
@@ -259,6 +264,7 @@ $string['editstrings'] = 'Edita cadenes';
 $string['enableajax'] = 'Habilita AJAX';
 $string['enablecourserequests'] = 'Habilita sol·licituds de cursos';
 $string['enableglobalsearch'] = 'Habilita cerca global';
+$string['enablehtmlpurifier'] = 'Habilita HTML Purifier';
 $string['enablerecordcache'] = 'Habilita memòria cau de registres';
 $string['enablerssfeeds'] = 'Habilita alimentacions RSS';
 $string['enablestats'] = 'Habilita estadístiques';
@@ -312,6 +318,10 @@ $string['helpupcominglookahead'] = 'Quants dies per endavant considera el calend
 $string['helpupcomingmaxevents'] = 'Quin nombre màxim d\'esdeveniments pròxims es mostra per defecte als usuaris?';
 $string['helpweekenddays'] = 'Quins dies de la setmana es consideren \"cap de setmana\" i es mostren amb un color diferent?';
 $string['hiddenuserfields'] = 'Camps d\'usuari ocults';
+$string['hideactivitytypecrumb'] = 'Oculta la navegació per tipus d\'activitat';
+$string['hidefromall'] = 'Oculta a tothom';
+$string['hidefromnone'] = 'No ocultis a ningú';
+$string['hidefromstudents'] = 'Oculta a l\'estudiantat';
 $string['htmleditor'] = 'Editor HTML';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'Seguretat HTTP';

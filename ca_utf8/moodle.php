@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007021501)
+      // moodle.php - created with Moodle 1.9 dev (2007062008)
 
 
 $string['action'] = 'Acció';
@@ -257,6 +257,8 @@ $string['coursecategories'] = 'Categories de cursos';
 $string['coursecategory'] = 'Categoria del curs';
 $string['coursecreators'] = 'Creador de cursos';
 $string['coursecreatorsdescription'] = 'Els creadors de cursos poden crear nous cursos i ensenyar dins d\'aquests cursos.';
+$string['courseenrolenddate'] = 'Data final del període d\'inscripció en el curs';
+$string['courseenrolstartdate'] = 'Data d\'inici del període d\'inscripció en el curs';
 $string['coursefiles'] = 'Fitxers del curs';
 $string['courseformatdata'] = 'Dades del format del curs';
 $string['courseformats'] = 'Formats de curs';
@@ -470,6 +472,13 @@ $a->link
 En la majoria de programes de correu, la línia de dalt s\'hauria de veure com un enllaç blau on podeu fer clic. Si això no funciona, copieu l\'adreça i enganxeu-la al camp d\'adreces de la finestra del vostre nvegador web.
 
 Si necessiteu ajuda, si us plau contacteu amb l\'administrador del lloc:
+
+$a->admin';
+$string['emailpasswordchangeinfodisabled'] = '$a->firstname,
+
+Algú (probablement vós) ha sol·licitat una nova contrasenya per al vostre compte en \'$a->sitename\'.
+
+Malauradament el vostre compte en aquest lloc ha estat inhabilitat i no podeu canviar la contrasenya. Si us plau contacteu amb l\'administrador del lloc:
 
 $a->admin';
 $string['emailpasswordchangeinfofail'] = '$a->firstname,
@@ -845,7 +854,7 @@ $string['missingcategory'] = 'Heu de triar una categoria';
 $string['missingcity'] = 'Falta la població';
 $string['missingcountry'] = 'Falta el país';
 $string['missingdescription'] = 'Falta la descripció';
-$string['missingemail'] = 'Falta l\'adreç electrònica';
+$string['missingemail'] = 'Falta l\'adreça electrònica';
 $string['missingfirstname'] = 'Falta el nom';
 $string['missingfullname'] = 'Falta el nom complet';
 $string['missinglastname'] = 'Falten els cognoms';
@@ -857,7 +866,7 @@ $string['missingshortname'] = 'Falta el nom curt';
 $string['missingshortsitename'] = 'Falta el nom breu de lloc';
 $string['missingsitedescription'] = 'Falta la descripció del lloc';
 $string['missingsitename'] = 'Falta el nom del lloc';
-$string['missingstrings'] = 'Comprova si falten cadenes';
+$string['missingstrings'] = 'Cadenes per traduir';
 $string['missingstudent'] = 'Heu de triar alguna cosa';
 $string['missingsummary'] = 'Falta el resum';
 $string['missingteacher'] = 'Heu de triar alguna cosa';
@@ -1065,6 +1074,7 @@ $string['phpinfo'] = 'informació PHP';
 $string['pictureof'] = 'Imatge $a';
 $string['pleaseclose'] = 'Tanqueu aquesta finestra.';
 $string['pluginsetup'] = 'S\'estan configurant les taules de connectors';
+$string['policyaccept'] = 'Entès i conforme';
 $string['policyagree'] = 'Heu d\'acceptar la normativa abans d\'entrar en aquest lloc. Hi esteu d\'acord?';
 $string['policyagreement'] = 'Normativa d\'ús del lloc';
 $string['policyagreementclick'] = 'Feu clic aquí per llegir la normativa d\'ús del lloc';
@@ -1200,6 +1210,7 @@ $string['senddetails'] = 'Envia\'m les dades per correu';
 $string['separate'] = 'Separat';
 $string['separateandconnected'] = 'Formes de coneixement separades i connectades';
 $string['serverlocaltime'] = 'Hora del servidor local';
+$string['setcategorytheme'] = 'Defineix el tema de la categoria';
 $string['settings'] = 'Paràmetres';
 $string['shortname'] = 'Nom curt';
 $string['shortnamecollisionwarning'] = '[*] = Aquest nom curt ja l\'utilitza un altre curs i caldrà canviar-lo quan s\'aprovi';
@@ -1256,6 +1267,7 @@ $string['sourcerole'] = 'Rol origen';
 $string['specifyname'] = 'Heu d\'especificar un nom.';
 $string['starpending'] = '([*] = curs pendent d\'aprovació)';
 $string['startdate'] = 'Data d\'inici del curs';
+$string['startingfrom'] = 'Comença';
 $string['startsignup'] = 'Crea un compte d\'usuari nou';
 $string['state'] = 'Comarca/Província';
 $string['statistics'] = 'Estadístiques';
