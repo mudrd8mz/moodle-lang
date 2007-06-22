@@ -1,12 +1,14 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 dev (2007052300)
+      // scorm.php - created with Moodle 1.9 dev (2007062008)
 
 
 $string['advanced'] = '詳細設定';
 $string['asset'] = 'アセット';
 $string['assetlaunched'] = 'アセット - 閲覧済み';
 $string['attempt'] = '受験';
+$string['attempt1'] = '受験 1';
 $string['attempts'] = '受験';
+$string['attemptsx'] = '受験 $a';
 $string['attr_error'] = 'タグ $a->tag のアトリビュート ($a->attr) に不適切な値が設定されています。';
 $string['autocontinue'] = '自動継続';
 $string['averageattempt'] = '平均評点';
