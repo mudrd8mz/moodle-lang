@@ -14,7 +14,6 @@ Fax: + 381 21 6 350 458
 E-mail: komlenov@im.ns.ac.yu
 URL:    http://perun.im.ns.ac.yu/komlenov/
 
-
 * Special thanks to students of Computer Science (Elective Seminar - eLearning):
 
   Branka Ignjić

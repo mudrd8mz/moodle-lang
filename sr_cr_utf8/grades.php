@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
       // grades.php - created with Moodle 1.8.1+ (2007021510)
 
-
+	  
 $string['addcategory'] = 'Додај категорију';
 $string['addcategoryerror'] = 'Није могуће додати категорију';
 $string['addexceptionerror'] = 'Дошло је до грешке током додавања изузетка за userid:gradeitem';

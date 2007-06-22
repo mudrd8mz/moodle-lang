@@ -1,9 +1,9 @@
-<?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6.1+ (2006050512)
+﻿<?PHP // $Id$ 
+      // grades.php - created with Moodle 1.8.1+ (2007021510)
 
 
-$string['addcategory'] = 'Dodavanje kategorije';
-$string['addcategoryerror'] = 'Nije moguće dodati kaategoriju';
+$string['addcategory'] = 'Dodaj kategoriju';
+$string['addcategoryerror'] = 'Nije moguće dodati kategoriju';
 $string['addexceptionerror'] = 'Došlo je do greške tokom dodavanja izuzetka za userid:gradeitem';
 $string['allgrades'] = 'Sve ocene po kategorijama';
 $string['allstudents'] = 'Svi studenti';
@@ -11,17 +11,17 @@ $string['average'] = 'Prosek';
 $string['bonuspoints'] = 'Dodatni bodovi';
 $string['categories'] = 'Kategorije';
 $string['category'] = 'Kategorija';
-$string['choosecategory'] = 'Izaberite kategoriju';
+$string['choosecategory'] = 'Izaberi kategoriju';
 $string['creatinggradebooksettings'] = 'Kreiranje podešavanja knjige ocena';
 $string['curveto'] = 'Prilagodi';
-$string['deletecategory'] = 'Obrišite kategoriju';
-$string['displaylettergrade'] = 'Prikaz ocena kao slovnih ocena (A, B, C...)';
+$string['deletecategory'] = 'Obriši kategoriju';
+$string['displaylettergrade'] = 'Prikaz slovnih ocena (A, B, C...)';
 $string['displaypercent'] = 'Prikaz procenata';
 $string['displaypoints'] = 'Prikaz bodova';
 $string['displayweighted'] = 'Prikaz težinskih ocena';
 $string['dropped'] = 'Odbačeno';
 $string['dropxlowest'] = 'Odbaci X najnižih';
-$string['dropxlowestwarning'] = 'Napomena: Ako odbacite x najnižih ocena biće pretpostavljeno da sve stavke unutar kategorije imaju istu vrednost u bodovima. Ukoliko različite stavke nose različit broj bodova rezultati će biti nepredvidljivi';
+$string['dropxlowestwarning'] = 'Napomena: Ako odbacite X najnižih ocena biće pretpostavljeno da sve stavke unutar kategorije imaju istu vrednost u bodovima. Ukoliko različite stavke nose različit broj bodova rezultati će biti nepredvidljivi';
 $string['errorgradevaluenonnumeric'] = 'Dobijena je nenumerička vrednost za visoku ili nisku ocenu za';
 $string['errornocategorizedid'] = 'Nije moguće dobiti nekategorizovani identifikator!';
 $string['errornocourse'] = 'Nije moguće dobiti informacije o kursu';
@@ -37,7 +37,7 @@ $string['gradecategoryhelp'] = 'Pomoć za kategorije ocena';
 $string['gradeexceptions'] = 'Izuzeci od ocenjivanja';
 $string['gradeexceptionshelp'] = 'Pomoć za izuzetke od ocenjivanja';
 $string['gradehelp'] = 'Pomoć za ocene';
-$string['gradeitem'] = 'Jedna od mogućih ocena';
+$string['gradeitem'] = 'Stavka za ocenjivanje';
 $string['gradeitemaddusers'] = 'Isključi iz ocenjivanja';
 $string['gradeitemmembersselected'] = 'Isključeno iz ocenjivanja';
 $string['gradeitemnonmembers'] = 'Uključeno u ocenjivanje';
@@ -123,5 +123,7 @@ $string['weightedpct'] = 'težinski %%';
 $string['weightedpctcontribution'] = 'doprinos težinskih %% u ukupnoj oceni';
 $string['writinggradebookinfo'] = 'Zapisivanje podešavanja knjige sa ocenama';
 $string['yes'] = 'Da';
+$string['yourgrade'] = 'Vaša ocena';
 
 ?>
+
