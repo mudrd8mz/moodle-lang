@@ -1,16 +1,19 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.7 (2006101007)
+      // calendar.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['advancedoptions'] = 'Opciones avanzadas';
+$string['allday'] = 'Todo el día';
 $string['calendar'] = 'Calendario';
 $string['calendarheading'] = '$a Calendario';
 $string['clickhide'] = 'clic para ocultar';
 $string['clickshow'] = 'clic para mostrar';
 $string['commontasks'] = 'Opciones';
 $string['confirmeventdelete'] = '¿Está seguro de que desea eliminar este evento?';
+$string['course'] = 'Curso';
 $string['courseevent'] = 'Evento de curso';
 $string['courseevents'] = 'Eventos de curso';
+$string['courses'] = 'Cursos';
 $string['dayview'] = 'Vista de Día';
 $string['daywithnoevents'] = 'No hay eventos este día.';
 $string['default'] = 'Por defecto';
@@ -37,6 +40,7 @@ $string['eventnone'] = 'No hay eventos';
 $string['eventrepeat'] = 'Repeticiones';
 $string['eventsall'] = 'Todos los eventos';
 $string['eventsfor'] = '$a eventos';
+$string['eventskey'] = 'Clave de eventos';
 $string['eventsrelatedtocourses'] = 'Eventos referidos a los cursos';
 $string['eventstarttime'] = 'Hora de comienzo';
 $string['eventtime'] = 'Hora';
@@ -55,9 +59,11 @@ $string['for'] = 'para';
 $string['fri'] = 'Vie';
 $string['friday'] = 'Viernes';
 $string['generateurlbutton'] = 'Obtener URL del calendario';
+$string['global'] = 'Global';
 $string['globalevent'] = 'Evento global';
 $string['globalevents'] = 'Eventos globales';
 $string['gotocalendar'] = 'Ir al calendario';
+$string['group'] = 'Grupo';
 $string['groupevent'] = 'Evento de grupo';
 $string['groupevents'] = 'Eventos de grupo';
 $string['hidden'] = 'ocultos';
@@ -116,6 +122,7 @@ $string['typesite'] = 'Evento de sitio';
 $string['typeuser'] = 'Evento de usuario';
 $string['upcomingevents'] = 'Eventos próximos';
 $string['urlforical'] = 'URL para exportar a iCalendar, para suscribirse al calendario';
+$string['user'] = 'Usuario';
 $string['userevent'] = 'Evento de usuario';
 $string['userevents'] = 'Eventos de usuario';
 $string['wed'] = 'Mié';

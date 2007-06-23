@@ -20,6 +20,7 @@ $string['blockafter'] = 'Umbral de mensajes para bloqueo';
 $string['blockperiod'] = 'Período de tiempo para bloqueo';
 $string['blockperioddisabled'] = 'No bloquear';
 $string['bynameondate'] = 'de $a->name - $a->date';
+$string['cannotadddiscussion'] = 'Para agregar discusiones a este foro hay que ser miembro de un grupo.';
 $string['cannotviewpostyet'] = 'No puede leer las preguntas de otros estudiantes en esta discusión porque usted aún no ha enviado mensajes';
 $string['configcleanreadtime'] = 'Hora del día para limpiar mensajes antiguos de la tabla de lectura.';
 $string['configdisplaymode'] = 'Forma de visualización por defecto, si no se ha configurado ninguna.';

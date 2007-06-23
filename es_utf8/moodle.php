@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 (2006101007)
+      // moodle.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['action'] = 'Acción';
@@ -257,6 +257,8 @@ $string['coursecategories'] = 'Categorías de cursos';
 $string['coursecategory'] = 'Categoría de cursos';
 $string['coursecreators'] = 'Creador de curso';
 $string['coursecreatorsdescription'] = 'Los creadores de cursos pueden crear nuevos cursos y enseñar en ellos.';
+$string['courseenrolenddate'] = 'Fecha final de matriculación en el curso';
+$string['courseenrolstartdate'] = 'Fecha inicial de matriculación en el curso';
 $string['coursefiles'] = 'Archivos del curso';
 $string['courseformatdata'] = 'Datos de formato del curso';
 $string['courseformats'] = 'Formatos de curso';
@@ -472,13 +474,17 @@ Para cambiar su contraseña, por favor, diríjase a la siguiente dirección:
 $a->link
 
 En la mayoría de los programas de correo electrónico, esto aparecerá como un enlace en color azul en el que usted puede hacer clic. Si no funcionara, copie y pegue la dirección en la barra de navegación de su navegador.';
+$string['emailpasswordchangeinfodisabled'] = 'Hola, $a->firstname.
+
+Se ha solicitado una nueva contraseña para su cuenta en \'$a->sitename\'.
+
+Desafortunadamente, su cuenta en este sitio ha sido desactivada y no puede ser reactivada. Por favor, contacte con el administrador del sitio, $a->admin';
 $string['emailpasswordchangeinfofail'] = 'Hola, $a->firstname.
 
 Alguien (seguramente usted) ha solicitado una nueva contraseña para su
 cuenta en \'$a->sitename\'.
 
-Lo sentimos, pero las contraseñas no pueden cambiarse en este sitio. Contacte por favor con el administrador,
-$a->admin';
+Lo sentimos, pero las contraseñas no pueden cambiarse en este sitio. Contacte por favor con el administrador, $a->admin';
 $string['emailpasswordchangeinfosubject'] = '$a: Cambiar información sobre la contraseña';
 $string['emailpasswordconfirmation'] = 'Hola, $a->firstname.
 
@@ -656,6 +662,7 @@ $string['grades'] = 'Calificaciones';
 $string['group'] = 'Grupo';
 $string['groupadd'] = 'Agregar nuevo grupo';
 $string['groupaddusers'] = 'Agregar seleccionados al grupo';
+$string['groupextendenrol'] = 'Ampliar la matriculación para todos';
 $string['groupfor'] = 'para el grupo';
 $string['groupinfo'] = 'Información sobre el grupo seleccionado';
 $string['groupinfoedit'] = 'Editar ajustes de grupo';
@@ -819,6 +826,7 @@ $string['loginstepsnone'] = '<p>¡Hola!</p>
 $string['loginto'] = 'Entrar a $a';
 $string['loginusing'] = 'Entre aquí usando su nombre de usuario y contraseña';
 $string['logout'] = 'Salir';
+$string['logoutconfirm'] = '¿Realmente desea desconectarse?';
 $string['logs'] = 'Registros';
 $string['logtoomanycourses'] = '[ <a href=\"$a->url\">more</a> ]';
 $string['logtoomanyusers'] = '[ <a href=\"$a->url\">more</a> ]';
@@ -1095,6 +1103,7 @@ $string['phpinfo'] = 'Información PHP';
 $string['pictureof'] = 'Imagen de $a';
 $string['pleaseclose'] = 'Por favor, cierre ahora esta ventana.';
 $string['pluginsetup'] = 'Ajustando tablas de plugins';
+$string['policyaccept'] = 'Entiendo y estoy de acuerdo';
 $string['policyagree'] = 'Usted deberá estar de acuerdo con estas condiciones antes de seguir usando este sitio. ¿Está de acuerdo?';
 $string['policyagreement'] = 'Acuerdo con las Conciciones del Sitio';
 $string['policyagreementclick'] = 'Haga clic aquí para leer el Acuerdo con las Condiciones del Sitio';
@@ -1289,6 +1298,7 @@ $string['sourcerole'] = 'Rol fuente';
 $string['specifyname'] = 'Debe especificar un nombre.';
 $string['starpending'] = '([*] = curso pendiente de aprobación)';
 $string['startdate'] = 'Fecha de inicio del curso';
+$string['startingfrom'] = 'Comienzo en';
 $string['startsignup'] = 'Comience ahora creando una cuenta';
 $string['state'] = 'Estado/Municipio';
 $string['statistics'] = 'Estadísticas';

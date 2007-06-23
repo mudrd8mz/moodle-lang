@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 (2006101007)
+      // data.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['action'] = 'Acción';
@@ -63,6 +63,7 @@ $string['deleted'] = 'eliminado';
 $string['deletefield'] = 'Eliminar un campo existente';
 $string['deletewarning'] = '¿Está seguro de que desea eliminar estos ajustes previos?';
 $string['descending'] = 'Descendente';
+$string['directorynotapreset'] = '$a->directory No preset: archivos perdidos: $a->missing_files';
 $string['download'] = 'Descargar';
 $string['edit'] = 'Edición';
 $string['editcomment'] = 'Editar comentario';
@@ -79,6 +80,7 @@ $string['example'] = 'Ejemplo de módulo de base de datos';
 $string['export'] = 'Exportar';
 $string['exportaszip'] = 'Exportar como \'zip\'';
 $string['exportedtozip'] = 'Exportado a un \'zip\' temporal...';
+$string['failedpresetdelete'] = '¡Error al eliminar un preset!';
 $string['fieldadded'] = 'Campo agregado';
 $string['fieldallowautolink'] = 'Permitir autoenlace';
 $string['fielddeleted'] = 'Campo eliminado';
@@ -98,6 +100,7 @@ $string['fieldwidth'] = 'Anchura';
 $string['fieldwidthlistview'] = 'Anchura en vista de lista';
 $string['fieldwidthsingleview'] = 'Anchura en vista simple';
 $string['file'] = 'Archivo';
+$string['filesnotgenerated'] = 'No se han generado todos los archivos: $a';
 $string['filtername'] = 'Auto-enlace de base de datos';
 $string['footer'] = 'Pie';
 $string['forcelinkname'] = 'Nombre forzado para el enlace';
@@ -134,6 +137,7 @@ $string['modulename'] = 'Base de datos';
 $string['modulenameplural'] = 'Bases de datos';
 $string['more'] = 'Más';
 $string['moreurl'] = 'Más URL';
+$string['movezipfailed'] = 'No se puede mover el zip';
 $string['multientry'] = 'Entrada repetida';
 $string['multimenu'] = 'Menú (selección múltiple)';
 $string['multipletags'] = 'Se han encontrado múltiples marcas. Plantilla no guardada';
@@ -152,12 +156,14 @@ $string['nameurl'] = 'Campo de URL';
 $string['newentry'] = 'Nueva entrada';
 $string['newfield'] = 'Crear un nuevo campo';
 $string['noaccess'] = 'No tiene acceso a esta página';
+$string['nodefinedfields'] = '¡El nuevo preset no tiene campos definidos!';
 $string['nofieldindatabase'] = 'No hay campos definidos para esta base de datos. Por favor, agregue algunos';
 $string['nolisttemplate'] = 'La plantilla de lista no está definida aún';
 $string['nomatch'] = 'No se han encontrado entradas';
 $string['nomaximum'] = 'No máximo';
 $string['norecords'] = 'No entradas en la base de datos';
 $string['nosingletemplate'] = 'Aún no se ha definido la plantilla simple';
+$string['notinjectivemap'] = 'No mapa inyectivo';
 $string['number'] = 'Número';
 $string['numberrssarticles'] = 'Artículos RSS';
 $string['numnotapproved'] = 'Pendiente';
@@ -215,6 +221,7 @@ $string['text'] = 'Texto';
 $string['textarea'] = 'Área de texto';
 $string['todatabase'] = 'a esta base de datos.';
 $string['type'] = 'Tipo de campo';
+$string['undefinedprocessactionmethod'] = 'No se ha definido método de acción en Data_Preset para manejar la acción \"$a\".';
 $string['updatefield'] = 'Actualizar un campo existente';
 $string['uploadfile'] = 'Subir archivo';
 $string['uploadrecords'] = 'Subir entradas de un archivo';
@@ -222,5 +229,6 @@ $string['url'] = 'Url';
 $string['usestandard'] = 'usar un ajuste previo';
 $string['viewfromdate'] = 'Visible en';
 $string['viewtodate'] = 'Visible a';
+$string['wrongdataid'] = 'Datos de id erróneos';
 
 ?>

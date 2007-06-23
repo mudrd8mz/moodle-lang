@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7 (2006101007)
+      // glossary.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['addcomment'] = 'Agregar comentario';
@@ -92,6 +92,7 @@ $string['entryusedynalink'] = 'Esta entrada será enlazada automáticamente';
 $string['errcannoteditothers'] = 'No puede editar entradas de otras personas.';
 $string['errconceptalreadyexists'] = 'Este concepto ya existe. En este glosario no se permiten duplicados.';
 $string['erredittimeexpired'] = 'El tiempo de edición de esta entrada ha expirado.';
+$string['errorparsingxml'] = 'Error al analizar el fichero. Asegúrese de que la sintaxis XML es válida.';
 $string['explainaddentry'] = 'Agregar una nueva entrada al glosario actual.<br />Concepto y Definición son campos obligatorios.';
 $string['explainall'] = 'Muestra TODAS las entradas en una página.';
 $string['explainalphabet'] = 'Navegue por el glosario usando este índice.';
@@ -115,7 +116,7 @@ $string['glossary:import'] = 'Importar entradas';
 $string['glossary:managecategories'] = 'Gestionar categorías';
 $string['glossary:managecomments'] = 'Gestionar comentarios';
 $string['glossary:manageentries'] = 'Gestionar entradas';
-$string['glossary:rate'] = 'Calificar entradas';
+$string['glossary:rate'] = 'Clasificar entradas';
 $string['glossary:view'] = 'Ver glosario';
 $string['glossary:viewrating'] = 'Ver clasificaciones';
 $string['glossary:write'] = 'Crear nuevas entradas';
@@ -125,6 +126,7 @@ $string['importcategories'] = 'Importar categorías';
 $string['importedcategories'] = 'Categorías importadas';
 $string['importedentries'] = 'Entradas importadas';
 $string['importentries'] = 'Importar entradas';
+$string['importentriesfromxml'] = 'Importar entradas desde archivo XML';
 $string['isglobal'] = '¿Este es el glosario global?';
 $string['linkcategory'] = 'Enlazar automáticamente esta categoría';
 $string['linking'] = 'Auto-enlace';
