@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 (2006101007)
+      // forum.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['addanewdiscussion'] = 'Colocar un nuevo tema de discusión aquí';
@@ -10,6 +10,7 @@ $string['allforums'] = 'Todos los foros';
 $string['allowchoice'] = 'Permitir a todos escoger';
 $string['allowdiscussions'] = 'Permitir que cualquier $a abra nuevos temas';
 $string['allowratings'] = 'Permitir la calificación de los mensajes';
+$string['allowsallsubscribe'] = 'Este foro permite que cualquiera elija suscribirse o no';
 $string['allowsdiscussions'] = 'Foro abierto a todos';
 $string['allsubscribe'] = 'Suscribir a todos los foros';
 $string['allunsubscribe'] = 'Dar de baja de todos los foros';
@@ -64,23 +65,29 @@ $string['editedby'] = 'Editado por $a->name - $a->date';
 $string['editing'] = 'Editando';
 $string['emptymessage'] = 'Algo está mal con su mensaje. Tal vez tenga algún campo en blanco o el archivo adjunto, si lo hay, es demasiado grande. Sus cambios NO se han guardado.';
 $string['everyonecanchoose'] = 'Todos pueden suscribirse';
+$string['everyonecannowchoose'] = 'Ahora cualquiera puede elegir si se suscribe';
+$string['everyoneisnowsubscribed'] = 'Ahora todos están suscritos a este foro';
 $string['everyoneissubscribed'] = 'Todos están suscritos a este foro';
 $string['existingsubscribers'] = 'Suscriptores existentes';
+$string['forcessubscribe'] = 'Este foro fuerza la suscripción de todos';
 $string['forcesubscribe'] = 'Suscribir a todos';
 $string['forcesubscribeq'] = '¿Forzar la suscripción de todos?';
 $string['forum'] = 'Foro';
+$string['forum:addnews'] = 'Agregar noticias';
 $string['forum:createattachment'] = 'Crear archivos adjuntos';
 $string['forum:deleteanypost'] = 'Eliminar cualquier mensaje (en cualquier momento)';
 $string['forum:deleteownpost'] = 'Eliminar mensajes propios (antes de la fecha límite)';
 $string['forum:editanypost'] = 'Editar cualquier mensaje';
+$string['forum:initialsubscriptions'] = 'Suscripción inicial';
 $string['forum:managesubscriptions'] = 'Gestionar suscripciones';
 $string['forum:movediscussions'] = 'Trasladar discusiones';
-$string['forum:rate'] = 'Calificar mensajes';
+$string['forum:rate'] = 'Clasificar mensajes';
+$string['forum:replynews'] = 'Responder a noticias';
 $string['forum:replypost'] = 'Replicar a mensajes';
 $string['forum:splitdiscussions'] = 'Dividir discusiones';
 $string['forum:startdiscussion'] = 'Comenzar nuevas discusiones';
 $string['forum:throttlingapplies'] = 'Se aplica regulación';
-$string['forum:viewanyrating'] = 'Ver cualquier calificación';
+$string['forum:viewanyrating'] = 'Ver cualquier clasificación';
 $string['forum:viewdiscussion'] = 'Ver discusiones';
 $string['forum:viewhiddentimedposts'] = 'Ver mensajes programados ocultos';
 $string['forum:viewqandawithoutposting'] = 'Ver siempre mensajes de P y R';

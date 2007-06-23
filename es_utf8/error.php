@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 (2006101007)
+      // error.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['adminprimarynoedit'] = 'El administrador primario no puede ser editado por otros';
@@ -37,8 +37,11 @@ $string['invalidcourse'] = 'Curso no válido';
 $string['invalidfieldname'] = '\"$a\" no es un nombre válido';
 $string['invalidfiletype'] = '\"$a\" no es un tipo de archivo válido';
 $string['invalidmd5'] = 'md5 no válido';
+$string['invalidrequest'] = 'Petición no válida';
 $string['invalidrole'] = 'Rol no válido';
 $string['invalidxmlfile'] = '\"$a\" no es un archivo XML válido';
+$string['loginasnoenrol'] = 'No puede usar matricular o desmatricular cuando está en curso una sesión \"Entrar como\"';
+$string['loginasonecourse'] = 'No puede entrar a este curso.<br /> Debe terminar la sesión \"Entrar como\" antes de entrar a cualquier otro curso.';
 $string['missingfield'] = 'Falta el campo \"$a\"';
 $string['missingrequiredfield'] = 'Falta algún campo necesario';
 $string['modulemissingcode'] = 'El módulo $a carece del código necesario para llevar a cabo esta función';
