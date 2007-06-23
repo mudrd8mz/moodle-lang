@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 dev (2007032200)
+      // forum.php - created with Moodle 1.9 dev (2007062008)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -20,6 +20,7 @@ $string['blockafter'] = 'Maximum berichten voor blokkeren';
 $string['blockperiod'] = 'Blokkeertijd';
 $string['blockperioddisabled'] = 'Niet blokkeren';
 $string['bynameondate'] = 'door  $a->name  - $a->date';
+$string['cannotadddiscussion'] = 'Om discussies aan dit forum te kunnen toevoegen, moet je lid zijn van deze groep';
 $string['cannotviewpostyet'] = 'Je kunt de vragen van andere leerlingen in deze discussie nog niet lezen, omdat je zelf nog niets gepost hebt';
 $string['configcleanreadtime'] = 'Het uur van de dag waarop oude berichten van de \'gelezen\'-tabel moeten verwijderd worden.';
 $string['configdisplaymode'] = 'De standaardmanier voor het weergeven van discussies als er geen methode is ingesteld.';
@@ -30,7 +31,7 @@ $string['configmaxbytes'] = 'Standaard maximumgrootte voor alle forumbijlagen op
 $string['configoldpostdays'] = 'Aantal dagen waarna elk bericht als gelezen moet beschouwd worden.';
 $string['configreplytouser'] = 'Wil je dat de e-mail van een bericht op het forum het e-mailadres van de verstuurder bevat, zodat de ontvangers eventueel ook persoonlijk kunnen antwoorden, eerder dan via het forum? Zelfs als je hier \'Ja\' instelt, kunnen gebruikers ervoor kiezen hun e-mailadres privé te houden via hun profielpagina';
 $string['configshortpost'] = 'Elk bericht dat korter is dan deze waarde (HTML-code niet inbegrepen) wordt als kort beschouwd.';
-$string['configtrackreadposts'] = 'Zet op \'ja\' als je gelezen/niet gelezen wil bijhouden voor elke gebruiker.';
+$string['configtrackreadposts'] = 'Zet op \'ja\' als je gelezen/ongelezen wil bijhouden voor elke gebruiker.';
 $string['configusermarksread'] = 'Indien \'ja\' moet de lezer de berichten manueel als gelezen markeren. Indien \'nee\' wordt het bericht als gelezen gemarkeerd wanneer het geopend werd.';
 $string['couldnotadd'] = 'Door een onbekende fout was het niet mogelijk om je bericht toe te voegen .';
 $string['couldnotdeleteratings'] = 'Helaas, dit kan niet worden verwijderd omdat iemand het bericht al beoordeeld heeft';
@@ -117,8 +118,8 @@ $string['markalldread'] = 'Markeer alle berichten in deze discussie als gelezen'
 $string['markallread'] = 'Markeer alle berichten in dit forum als gelezen';
 $string['markread'] = 'Markeer als gelezen';
 $string['markreadbutton'] = 'Markeer als<br />gelezen';
-$string['markunread'] = 'Markeer als niet gelezen';
-$string['markunreadbutton'] = 'Markeer als<br />niet gelezen';
+$string['markunread'] = 'Markeer als ongelezen';
+$string['markunreadbutton'] = 'Markeer als<br />ongelezen';
 $string['maxattachmentsize'] = 'Maximum grootte van bijlagen';
 $string['maxtimehaspassed'] = 'Helaas is de maximale tijd voor het wijzigen van dit bericht ($a) verstreken!';
 $string['message'] = 'Bericht';
@@ -164,7 +165,7 @@ $string['openmode0'] = 'Geen nieuwe discussies, geen antwoorden';
 $string['openmode1'] = 'Geen nieuwe discussies mogelijk, maar antwoorden zijn toegestaan';
 $string['openmode2'] = 'Nieuwe discussies en antwoorden zijn toegestaan';
 $string['overviewnumpostssince'] = '$a berichten sinds je laatste login';
-$string['overviewnumunread'] = 'Totaal $a berichten nog niet gelezen';
+$string['overviewnumunread'] = 'Totaal $a ongelezen';
 $string['parent'] = 'Toon discussiestart';
 $string['parentofthispost'] = 'Discussiestart van dit bericht';
 $string['postadded'] = 'Je bericht is gepost.<p> Je hebt $a de tijd om dit bericht te wijzigen als je nog iets wilt veranderen.';
@@ -250,8 +251,8 @@ $string['trackingoptional'] = 'Optioneel';
 $string['trackingtype'] = 'Lezen van dit forum opvolgen?';
 $string['unread'] = 'Niet gelezen';
 $string['unreadposts'] = 'Niet gelezen berichten';
-$string['unreadpostsnumber'] = '$a berichten niet gelezen';
-$string['unreadpostsone'] = '1 bericht niet gelezen';
+$string['unreadpostsnumber'] = '$a ongelezen berichten';
+$string['unreadpostsone'] = '1 ongelezen bericht';
 $string['unsubscribe'] = 'Ik wil van dit forum geen e-mail meer ontvangen';
 $string['unsubscribed'] = 'Je zult geen mail meer ontvangen';
 $string['unsubscribeshort'] = 'Ik wil geen mail meer';

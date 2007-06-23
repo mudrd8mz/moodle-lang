@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007032200)
+      // moodle.php - created with Moodle 1.9 dev (2007062008)
 
 
 $string['action'] = 'Actie';
@@ -488,7 +488,7 @@ In de meeste e-mailprogramma\'s zou dit moeten verschijnen als een blauwe link w
 
 Als je hulp nodig hebt, neem dan contact op met de sitebeheerder, $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: bevestiging van de wijziging van het wachtwoord';
-$string['emailpasswordconfirmmaybesent'] = '<p>Als je de juiste gebruikersnaam of e-mailadres ingegeven hebt, dan is er een email naar je gestuurd.</p><p>Daarin staan eenvoudige instructies om te bevestige en om deze wijziging van wachtwoord af te werken. Als je blijft moeilijkheden ondervinden, kun je best contakt opnemen met de site beheerder .</p>';
+$string['emailpasswordconfirmmaybesent'] = '<p>Als je de juiste gebruikersnaam of e-mailadres hebt ingegeven, ontvang je automatisch een e-mail.</p><p>Daarin lees je eenvoudig hoe je opnieuw toegang kunt krijgen. Daarna kun je meteen je nieuwe wachtwoord bepalen.</p><p>Mocht je moeilijkheden blijven ondervinden, dan kun je het beste contact opnemen met de beheerder van de site.</p>';
 $string['emailpasswordconfirmsent'] = 'Er is een e-mail verstuurd naar jouw adres: <b>$a</b>.
 Indien je moeilijkheden blijft ondervinden, neem dan contact op met je sitebeheerder.';
 $string['emailpasswordsent'] = 'Bedankt voor de bevestiging van de wijziging van je wachtwoord.
