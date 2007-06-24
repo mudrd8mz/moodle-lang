@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007060100)
+      // moodle.php - created with Moodle 1.9 dev (2007062301)
 
 
 $string['action'] = '操作';
@@ -1082,7 +1082,7 @@ $string['periodending'] = '期間終了 ($a)';
 $string['personalprofile'] = 'プロフィール';
 $string['phone'] = '電話';
 $string['phpinfo'] = 'PHP情報';
-$string['pictureof'] = '$a の写真';
+$string['pictureof'] = '写真 $a';
 $string['pleaseclose'] = 'このウィンドウを閉じてください。';
 $string['pluginsetup'] = 'プラグインテーブル設定中';
 $string['policyaccept'] = '内容を理解し、同意します。';
