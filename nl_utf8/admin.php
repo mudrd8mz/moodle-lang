@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007021402)
+      // admin.php - created with Moodle 1.9 dev (2007062008)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -7,6 +7,7 @@ $string['accounts'] = 'Accounts';
 $string['adminseesall'] = 'Beheerders zien alles';
 $string['adminseesallevents'] = 'Beheerders zien alle gebeurtenissen';
 $string['adminseesownevents'] = 'Beheerders zien niet alle gebeurtenissen';
+$string['allowcategorythemes'] = 'Categoriethema\'s toestaan';
 $string['allowcoursethemes'] = 'Cursusthema\'s toestaan';
 $string['allowemailaddresses'] = 'Emaildomeinen toestaan';
 $string['allowobjectembed'] = 'EMBED en OBJECT tags toestaan';
@@ -45,6 +46,7 @@ $string['cleanup'] = 'Opschonen';
 $string['componentinstalled'] = 'Onderdeel geïnstalleerd';
 $string['confeditorhidebuttons'] = 'Kies de knoppen die in de HTML-editor verborgen moeten zijn.';
 $string['configallowassign'] = 'De rollen aan de linkerkant toestaan de rollen in elke kolom toe te wijzen';
+$string['configallowcategorythemes'] = 'Als je dit inschakeld, dan kunnen thema\'s op categorieniveau gekozen worden. Die keuze wordt dan doorgetrokken naar alle onderliggende categorieën en cursussen, tenzij daar een eigen thema ingesteld is. WAARSCHUWING: het inschakelen van categoriethema\'s kan de performantie negatief beïnvloeden.';
 $string['configallowcoursethemes'] = 'Als je dit inschakelt, dan kan elke cursus zijn eigen thema instellen. De thema\'s van de cursussen zullen alle andere thema\'s overschrijven (site, gebruiker of sessiethema\'s)';
 $string['configallowemailaddresses'] = 'Als je nieuwe e-mailadressen wil beperken tot bepaalde domeinen, zet ze dan hier in een lijst met een spatie als scheidingsteken. Alle andere domeinen zullen niet geaccepteerd worden. bv <strong>onzeschool.edu.be .onscollege.nl</strong>';
 $string['configallowobjectembed'] = 'Als standaard beveiligingsmaatregel kunnen gewone gebruikers geen multimedia (zoals Flash) in teksten insluiten door gebruik te maken van EMBED en OBJECT tags in hun HTML (hoewel het veilig ingesloten kan worden met de mediaplugins filter). Als je deze tags toch wil laten gebruiken, dan kun je deze optie inschakelen';
@@ -84,6 +86,7 @@ Merk op dat dit geen conflict geeft met andere rollen die je gebruikers al hebbe
 $string['configdeleteunconfirmed'] = 'Als je met e-mailauthenticatie werkt dan is dit de periode waarbinnen gebruikers moeten reageren op de bevestigingsmail voor de nieuwe account. Na deze periode zullen oude, niet-bevestigde accounts verwijderd worden.';
 $string['configdenyemailaddresses'] = 'Om e-mailadressen van bepaalde domeinen te weigeren, kun je ze hier op dezelfde manier opnemen. Alle andere domeinen zullen aanvaard worden. bv <strong>hotmail.com yahoo.co.uk</strong>';
 $string['configdigestmailtime'] = 'Gebruikers die ervoor kiezen dat de e-mails hun als samenvatting toegezonden worden, zullen dagelijks een e-mail ontvangen. Deze instelling controleert op welk moment van de dag deze dagelijkse mail verzonden wordt (de mail wordt verstuurd door de cron die volgt op het uur dat hier gekozen wordt)';
+$string['configdisableuserimages'] = 'Schakel het wijzigen van het profielprentje uit voor alle gebruikers.';
 $string['configdisplayloginfailures'] = 'Dit zal informatie tonen over mislukte aanmeldingen van de geselecteerde gebruikers';
 $string['configdocroot'] = 'Bepaalt het pad naar Moodle Docs. Je kunt dit wijzigen als je je eigen aangepaste on line documentatie wil. Als je dat wil doen, moet je er wel voor zorgen dat de vorm van het pad er naartoe dezelfde is als http://docs.moodle.org';
 $string['configdoctonewwindow'] = 'Als je dit aanzet zullen links naar Moodle Docs geopend worden in een nieuw venster';
@@ -92,6 +95,7 @@ $string['configeditorfontlist'] = 'Kies de lettertypes die in het dropdownmenu v
 $string['configenableajax'] = 'Met deze instelling kun je het gebruik van AJAX (een geavanceerde op Javascript gebaseerde client/serverinterface) controleren voor de hele site. Met deze instelling aan kunnen gebruikers nog steeds kiezen via hun profiel of ze AJAX willen gebruiken, anders is AJAX voor iedereen uitgeschakeld';
 $string['configenablecourserequests'] = 'Hiermee kan elke gebruiker aanvragen om een nieuwe cursus aan te maken.';
 $string['configenableglobalsearch'] = 'Deze instelling maakt het globaal zoeken van tekst mogelijk in bronnen en activiteiten. Deze functie is niet comptibel met PHP4';
+$string['configenablehtmlpurifier'] = 'Gebruik HTML Purifier in de plaats van KSES voor het opkuisen van onvertrouwde tekst. HTML Purifier wordt actief ontwikkeld en wordt verondersteld veiliger te zijn, maar veroorzaakt een grotere belasting. Je kunt kleine wijzigingen verwachten aan de html-code. Merk op dat embed en object tags niet kunnen ingeschakeld worden, MathML tags en oude lang tags worden niet ondersteund.';
 $string['configenablerssfeeds'] = 'Met deze instelling maak je RSS-feeds mogelijk voor heel de site. Om ze echt te kunnen gebruiken, moet je de RSS-feeds nog inschakelen voor elke module afzonderlijk - ga naar \'Beheer van de modules\' onder Beheer, Configuratie.';
 $string['configenablerssfeedsdisabled'] = 'Dit is niet beschikbaar omdat RSS voor heel de site is uitgeschakeld. Om RSS in te schakelen ga je naar Configureer variablen onder Beheer Configuratie.';
 $string['configenablestats'] = 'Als je hier \'ja\' kiest, zal de cron van Moodle de logbestanden verwerken en statistieken aanmaken. Afhankelijk van de hoeveelheid verkeer op je site, kan dit wel even duren. Als je dit inschakelt kun je interessante grafieken en statistieken zien over elke cursus of over de hele site.';
@@ -138,6 +142,11 @@ $string['configmaxevents'] = 'Aantal gebeurtenissen vooruit kijken';
 $string['configmemcachedhosts'] = 'Voor memcached. Kommagescheiden lijst van hosts die de memcached daemon lopen. Gebruik IP-adressen om vertragingen door DNS te voorkomen. Memcached gedraagt zich niet goed als je hosts toevoegd of verwijderd tijdens een installatie.';
 $string['configmemcachedpconn'] = 'Voor memcached. Gebruik persistent connections. Wees voorzichtig: kan Apache/PHP laten crashen na het herstarten van de memcached daemon';
 $string['configmessaging'] = 'Wil je dat het boodschappensysteem voor site-gebruikers ingeschakeld wordt?';
+$string['configminpassworddigits'] = 'Minimum aantal tekens voor wachtwoorden';
+$string['configminpasswordlength'] = 'Minimum aantal letters voor wachtwoorden';
+$string['configminpasswordlower'] = 'Minimum aantal kleine letters voor wachtwoorden';
+$string['configminpasswordnonalphanum'] = 'Minimum aantal niet-alphanumerieke tekens voor wachtwoorden';
+$string['configminpasswordupper'] = 'Minimum aantal hoofdletters voor wachtwoorden';
 $string['configmymoodleredirect'] = 'Deze instelling dwingt een verwijzing af naar de map /my voor niet-beheerders bij het aanmelden en vervangt het broodkruimelmenu door /my';
 $string['confignonmetacoursesyncroleids'] = 'Standaard worden alle aanmeldingen van onderliggende curssusen naar overkoepelende cursussen. Rollen die hier geselecteerd worden, zullen niet mee gesynchroniseerd worden.';
 $string['confignoreplyaddress'] = 'Soms verzendt Moodle e-mails voor een gebruiker (bijvoorbeeld bij forumberichten) Het e-mailadres dat je hier instelt wordt gebruikt als \"From\"-adres voor die gebruikers die ervoor gekozen hebben dat andere gebruikers niet rechtstreeks op hun mail mogen kunnen antwoorden (bijvoorbeeld wanneer een gebruiker zijn e-mailadres privé wil houden)';
