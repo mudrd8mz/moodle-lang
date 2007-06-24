@@ -1,26 +1,26 @@
 <?PHP // $Id$ 
-      // pix.php - created with Moodle 1.8 Beta + (2007021401)
+      // pix.php - created with Moodle 1.9 dev (2007062007)
 
 
-$string['angry'] = 'ärgerlich';
-$string['approve'] = 'anerkennend';
+$string['angry'] = 'wütend';
+$string['approve'] = 'einverstanden';
 $string['biggrin'] = 'breit grinsend';
-$string['blackeye'] = 'Schwarzauge';
+$string['blackeye'] = 'blaues Auge';
 $string['blush'] = 'errötend';
 $string['clown'] = 'Clown';
 $string['cool'] = 'cool';
 $string['dead'] = 'tot';
-$string['evil'] = 'übel';
-$string['kiss'] = 'Kuss';
+$string['evil'] = 'Teufel';
+$string['kiss'] = 'küssen';
 $string['mixed'] = 'gemischt';
 $string['sad'] = 'traurig';
 $string['shy'] = 'schüchtern';
 $string['sleepy'] = 'schläfrig';
 $string['smiley'] = 'lächelnd';
 $string['surprise'] = 'überrascht';
-$string['thoughtful'] = 'gedankenverloren';
+$string['thoughtful'] = 'in Gedanken';
 $string['tongueout'] = 'Zunge raus';
-$string['wideeyes'] = 'Augen weit auf';
-$string['wink'] = 'zwinkern';
+$string['wideeyes'] = 'große Augen';
+$string['wink'] = 'zwinkernd';
 
 ?>

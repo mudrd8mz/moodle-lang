@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 (2007021501)
+      // forum.php - created with Moodle 1.9 dev (2007062007)
 
 
 $string['addanewdiscussion'] = 'Neues Diskussionsthema hinzufügen';
@@ -166,10 +166,10 @@ $string['openmode1'] = 'Keine neuen Themen, aber Antworten erlaubt';
 $string['openmode2'] = 'Neue Themen und Antworten erlaubt';
 $string['overviewnumpostssince'] = 'Beiträge seit Ihrem letzten Login';
 $string['overviewnumunread'] = 'Ungelesene Beiträge';
-$string['parent'] = 'Zeige den ersten Eintrag';
+$string['parent'] = 'Ursprungsbeitrag';
 $string['parentofthispost'] = 'Verfasser/in dieses Beitrags';
 $string['postadded'] = '<p>Ihr Beitrag wurde erfolgreich hinzugefügt. </p><p>Sofern Sie noch etwas korrigieren möchten, haben Sie dafür $a Zeit. Danach wird keine Änderung mehr angenommen.</p>';
-$string['postincontext'] = 'Diesen Beitrag im Zusammenhang einsehen';
+$string['postincontext'] = 'Diskussion im Forum zeigen';
 $string['postmailinfo'] = 'Hiermit erhalten Sie die Kopie einer Mitteilung, die auf der Webseite $a eingetragen wurde.
 Um darauf zu antworten, folgen Sie bitte diesem Link:';
 $string['postmailnow'] = '<p>Dieser Beitrag wird direkt an alle eingetragenen Abonnent/innen dieses Forums versandt.</p>';

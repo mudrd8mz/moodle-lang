@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007051801)
+      // admin.php - created with Moodle 1.9 dev (2007062007)
 
 
 $string['accessdenied'] = 'Kein Zugriff';
@@ -15,7 +15,7 @@ $string['allowrenames'] = 'Umbenennen zulassen';
 $string['allowuserblockhiding'] = 'Nutzer/innen dürfen Blöcke verbergen';
 $string['allowusermailcharset'] = 'E-Mail-Zeichensatz wählbar';
 $string['allowuserthemes'] = 'Nutzerdesigns zulassen';
-$string['allowvisiblecoursesinhiddencategories'] = 'Sichtbare Kurse in verborgenen Kategorien erlauben.';
+$string['allowvisiblecoursesinhiddencategories'] = 'Sichtbare Kurse in verborgenen Kategorien';
 $string['antivirus'] = 'Antivirus';
 $string['appearance'] = 'Aussehen';
 $string['aspellpath'] = 'Pfad zu aspell';
@@ -150,6 +150,7 @@ $string['configminpasswordlower'] = 'Passworte müssen mindestens die angegebene
 $string['configminpasswordnonalphanum'] = 'Passworte müssen mindestens die angegebene Anzahl von Sonderzeichen enthalten.';
 $string['configminpasswordupper'] = 'Passworte müssen mindestens die angegebene Anzahl von Großbuchstaben enthalten.';
 $string['configmymoodleredirect'] = 'Die Einstellung führt Nicht-Admins beim Login automatisch zur Seite /my und ersetzt die normale Breadcrumb-Navigation durch /my';
+$string['confignodefaultuserrolelists'] = 'Diese Einstellung verhindert, dass Teilnehmer/innen bei einem abgelehnten Datenbankaufruf von get_course_user o.ä. angezeigt werden, falls die Standardrolle einen solchen Datenbankzugriff erlaubt. Markieren Sie diese Einstellung, um die Geschwindigkeit von Moodle zu erhöhen.';
 $string['confignonmetacoursesyncroleids'] = 'Standardmäßig werden alle Einschreibungen in Kurse in die zugehörigen Metakurse übernommen. Die hier gewählten Rollen werden nicht in den Synchronisationsprozess übernommen.';
 $string['confignoreplyaddress'] = 'Tragen Sie hier die E-Mail-Adresse ein, die als Absender beim Versand von Nachrichten (z.B. aus Foren) genutzt werden soll, wenn die E-Mail-Adresse des Absenders nicht für Rückantworten genutzt werden kann.';
 $string['confignotifyloginfailures'] = 'E-Mail-Benachrichtigungen können versandt werden, wenn Login-Fehler aufgezeichnet wurden. Wer sollte die Nachrichten sehen?';
@@ -209,7 +210,7 @@ $string['configthemelist'] = 'Wenn das Feld leer bleibt, kann jedes Design ausge
 $string['configtimezone'] = 'Stellen Sie hier die bevorzugte Zeitzone ein. Dies steuert die Zeitanzeige in allen Kursen. Die Einstellung \"Serverzeit\" verwendet die Zeiteinstellung Ihres Internetservers. Im Nutzerprofil greift die Einstellung \"Serverzeit\" für die Zeitzone auf die hier vorgenommenen Einstellung zurück. Cronjobs, die von der Tageszeit abhängig sind, nutzen ebenfalls diese Einstellung.';
 $string['configunzip'] = 'Geben Sie hier die Lage (Pfad und Dateiname) des Programms unzip an (nur Unix). Das Programm wird für das Entpacken von ZIP-Archiven auf dem Server benötigt. Wenn Sie dieses Feld leer lassen, benutzt Moodle interne Routinen.';
 $string['configvariables'] = 'Variablen konfigurieren';
-$string['configvisiblecourses'] = 'Kurse in verborgenen Kategorien normal anzeigen';
+$string['configvisiblecourses'] = 'Kurse werden in verborgenen Kategorien normal angezeigt.';
 $string['configwarning'] = 'Vorsicht bei der Veränderung dieser Einstellungen! <br />Ungeeignete Werte könnten Probleme verursachen.';
 $string['configzip'] = 'Geben Sie hier die Lage (Pfad und Dateiname) des Programms zip an (nur Unix). Das Programm wird für die Erstellung ZIP-Archiven auf dem Server benötigt. Wenn Sie dieses Feld leer lassen, benutzt Moodle interne Routinen.';
 $string['confirmation'] = 'Bestätigung';
@@ -228,6 +229,7 @@ $string['cronerrorpassword'] = 'Entschuldigung, Sie haben kein gültiges Kennwor
 $string['cronremotepassword'] = 'Zugriffskennwort für cron';
 $string['cronwarning'] = 'Das <a href=\"cron.php\">Cron-Script</a> wurde in den letzten 24 Stunden nicht ausgeführt.';
 $string['curlrecommended'] = 'Die Installation der optionalen Bibliothek Curl wird empfohlen, um die Moodle-Netzwerk-Funktionalität einzuschalten.';
+$string['customcheck'] = 'Weitere Überprüfungen';
 $string['datarootsecuritywarning'] = 'Ihre Einstellungen sind möglicherweise nicht sicher. Bitte überprüfen Sie, dass Ihr Datenverzeichnis ($a) nicht direkt aus dem Internet aufrufbar ist.';
 $string['dbmigrate'] = 'Moodle-Datenbankmigration';
 $string['dbmigrateconnecerror'] = 'Zur ausgewählten Datenbank konnte keine Verbindung hergestellt werden.';
@@ -419,6 +421,7 @@ $string['mymoodleredirect'] = 'Nutzer/innen zu MyMoodle weiterleiten';
 $string['mysql416bypassed'] = 'Wenn Sie in Ihrer Website ausschließlich ISO-8859-1 (lateinische) Sprachen verwenden, können Sie eine MySQL-Version ab 4.1.12 (oder höher) verwenden.';
 $string['mysql416required'] = 'MySQL 4.1.16 (oder höher) ist für Moodle 1.6 unbedingt erforderlich, um eine Datenkonvertierung nach UTF-8 sicherzustellen.';
 $string['nobookmarksforuser'] = 'Sie besitzen keinerlei Lesezeichen';
+$string['nodefaultuserrolelists'] = 'Standardmäßige Rollennutzer nicht anzeigen';
 $string['nolangupdateneeded'] = 'Alle Sprachpakete sind auf dem aktuellen Stand. <br />Ein Update ist nicht erforderlich.';
 $string['nonewsettings'] = 'Bei dieser Aktualisierung wurden keine neuen Einstellungen hinzugefügt.';
 $string['nonexistentbookmark'] = 'Das gesuchte Lesezeichen existiert nicht.';
@@ -530,6 +533,7 @@ $string['searchresults'] = 'Suchergebnisse';
 $string['secureforms'] = 'Erweiterte Formularsicherheit benutzen';
 $string['security'] = 'Sicherheit';
 $string['server'] = 'Server';
+$string['serverchecks'] = 'Server-Überprüfung';
 $string['serverlimit'] = 'Server-Grenze';
 $string['sessioncookie'] = 'Cookie-Prefix';
 $string['sessioncookiepath'] = 'Cookie-Pfad';

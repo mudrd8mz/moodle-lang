@@ -1,16 +1,19 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 dev (2007051801)
+      // calendar.php - created with Moodle 1.9 dev (2007062007)
 
 
 $string['advancedoptions'] = 'Erweiterte Optionen';
+$string['allday'] = 'Alle Tage';
 $string['calendar'] = 'Kalender';
 $string['calendarheading'] = '$a Kalender';
 $string['clickhide'] = 'Mit einem Klick verbergen';
 $string['clickshow'] = 'Mit einem Klick anzeigen';
 $string['commontasks'] = 'Optionen';
 $string['confirmeventdelete'] = 'Sind Sie sicher, dass Sie diesen Termin löschen wollen?';
+$string['course'] = 'Kurs';
 $string['courseevent'] = 'Kurstermin';
 $string['courseevents'] = 'Kurstermine';
+$string['courses'] = 'Kurse';
 $string['dayview'] = 'Tagesansicht';
 $string['daywithnoevents'] = 'Es gibt heute keine Termine.';
 $string['default'] = 'Grundeinstellung';
@@ -37,6 +40,7 @@ $string['eventnone'] = 'Keine Termine vorhanden';
 $string['eventrepeat'] = 'Wiederholungen';
 $string['eventsall'] = 'Alle Termine';
 $string['eventsfor'] = '$a Termine';
+$string['eventskey'] = 'Eventschlüssel';
 $string['eventsrelatedtocourses'] = 'Kursverbundene Termine';
 $string['eventstarttime'] = 'Anfangszeit';
 $string['eventtime'] = 'Zeit';
@@ -55,9 +59,11 @@ $string['for'] = 'für';
 $string['fri'] = 'Fr';
 $string['friday'] = 'Freitag';
 $string['generateurlbutton'] = 'Kalender-URL abfragen';
+$string['global'] = 'Global';
 $string['globalevent'] = 'Allgemeiner Termin';
 $string['globalevents'] = 'Allgemeine Termine';
 $string['gotocalendar'] = 'Zum Kalender';
+$string['group'] = 'Gruppe';
 $string['groupevent'] = 'Termin meiner Gruppen';
 $string['groupevents'] = 'Termine meiner Gruppen';
 $string['hidden'] = 'verborgen';
@@ -116,6 +122,7 @@ $string['typesite'] = 'Allgemeiner Termin';
 $string['typeuser'] = 'Persönlicher Termin';
 $string['upcomingevents'] = 'Bald aktuell ...';
 $string['urlforical'] = 'URL des iCal-Exports für ein Kalender-Abo';
+$string['user'] = 'Nutzer/in';
 $string['userevent'] = 'Persönlicher Termin';
 $string['userevents'] = 'Persönliche Termine';
 $string['wed'] = 'Mi';

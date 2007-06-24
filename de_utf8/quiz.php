@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007050901)
+      // quiz.php - created with Moodle 1.9 dev (2007062007)
 
 
 $string['1day'] = '1 Tag';
@@ -46,6 +46,7 @@ $string['attemptlast'] = 'Letzter Versuch';
 $string['attemptquiznow'] = 'Test jetzt durchführen';
 $string['attempts'] = 'Versuche';
 $string['attemptsallowed'] = 'Max. Zahl der Versuche';
+$string['attemptsdeleted'] = 'Die Testversuche wurden gelöscht.';
 $string['attemptselection'] = 'Welche Versuche pro Nutzer/in analysieren:';
 $string['attemptsexist'] = 'Sie können jetzt keine Fragen mehr hinzufügen oder entfernen.';
 $string['attemptsonly'] = 'Nur Teilnehmer/innen anzeigen, die bereits Versuche durchgeführt haben.';
@@ -133,6 +134,7 @@ $string['deleteattemptcheck'] = 'Sind Sie wirklich sicher, dass Sie diese Versuc
 $string['deletequestioncheck'] = 'Sind Sie wirklich sicher, dass Sie \'$a\' löschen möchten?';
 $string['deletequestionscheck'] = 'Sind Sie wirklich sicher, dass Sie die folgenden Fragen löschen wollen? <div>$a</div>';
 $string['deleteselected'] = 'Auswahl löschen';
+$string['deletingquestionattempts'] = 'Löschen der Testversuche';
 $string['description'] = 'Beschreibung';
 $string['discrimination'] = 'Discrimination Index (DI)';
 $string['displayoptions'] = 'Anzeigeoptionen';
@@ -232,6 +234,7 @@ $string['gradeboundary'] = 'Bewertungsgrenze';
 $string['gradeessays'] = 'Freitexte bewerten';
 $string['gradehighest'] = 'Bester Versuch';
 $string['grademethod'] = 'Bewertungsmethode';
+$string['gradesdeleted'] = 'Testbewertungen wurden gelöscht';
 $string['gradesofar'] = '$a->method: $a->mygrade / $a->quizgrade.';
 $string['gradingdetails'] = 'Punkte: $a->raw/$a->max.';
 $string['gradingdetailsadjustment'] = 'Mit früheren Abzügen ergibt dies <strong>$a->cur/$a->max</strong>.';
@@ -416,6 +419,7 @@ $string['regradingquestion'] = 'Neubewertung \"$a\"';
 $string['regradingquiz'] = 'Neubewertung Test \"$a\"';
 $string['relative'] = 'Relativ';
 $string['remove'] = 'Entfernen';
+$string['removeallquizattempts'] = 'AlleTestversuche entfernen';
 $string['rename'] = 'Umbenennen';
 $string['renderingserverconnectfailed'] = 'Der Server $a konnte die RQP-Anfrage nicht verarbeiten. Prüfen Sie, ob die eingegebene URL korrekt ist.';
 $string['reordertool'] = 'Zeilennummern anzeigen';

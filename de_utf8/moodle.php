@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007051801)
+      // moodle.php - created with Moodle 1.9 dev (2007062007)
 
 
 $string['action'] = 'Aktion';
@@ -1273,7 +1273,7 @@ $string['sincelast'] = 'seit dem letzten Login';
 $string['site'] = 'Website';
 $string['sitedefault'] = 'Grundeinstellung';
 $string['siteerrors'] = 'Fehler der Website';
-$string['sitefiles'] = 'Dateien der Website';
+$string['sitefiles'] = 'Dateien';
 $string['sitelogs'] = 'Logdaten der Website';
 $string['sitenews'] = 'Nachrichten der Website';
 $string['sitepartlist'] = 'Sie besitzen nicht die notwendigen Rechte, um die Teilnehmerliste zu sehen.';
@@ -1432,16 +1432,16 @@ $string['unusedaccounts'] = 'Kurszugänge werden automatisch gelöscht, wenn sie
 $string['unzip'] = 'Entpacken';
 $string['unzippingbackup'] = 'Sicherung entpacken';
 $string['up'] = 'Aufwärts';
-$string['update'] = 'Bearbeiten';
-$string['updated'] = '$a bearbeitet';
+$string['update'] = 'Update';
+$string['updated'] = '$a upgedatet';
 $string['updatemymoodleoff'] = 'Standard-Modus';
 $string['updatemymoodleon'] = 'Diese Seite bearbeiten';
 $string['updatemyprofile'] = 'Profil aktualisieren';
 $string['updatesevery'] = 'Aktualisiere alle $a Sekunden';
-$string['updatethis'] = '$a bearbeiten';
-$string['updatethiscourse'] = 'Diesen Kurs bearbeiten';
-$string['updatinga'] = 'Bearbeite $a';
-$string['updatingain'] = 'Bearbeite $a->what in $a->in';
+$string['updatethis'] = '$a updaten';
+$string['updatethiscourse'] = 'Diesen Kurs updaten';
+$string['updatinga'] = 'Update: $a';
+$string['updatingain'] = 'Update von $a->what in $a->in';
 $string['upload'] = 'Hochladen';
 $string['uploadafile'] = 'Eine Datei hochladen';
 $string['uploadedfile'] = 'Die Datei wurde erfolgreich hochgeladen';

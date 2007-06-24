@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7+ (2006101008)
+      // assignment.php - created with Moodle 1.9 dev (2007060100)
 
 
 $string['allowdeleting'] = 'Löschen erlauben';
@@ -106,7 +106,7 @@ $string['uploadfailnoupdate'] = 'Die Datei wurde korrekt hochgeladen, aber Ihr E
 $string['uploadfiletoobig'] = 'Entschuldigung, aber diese Datei ist zu groß (max. $a Bytes).';
 $string['uploadnofilefound'] = 'Es wurde keine Datei gefunden. Sind Sie sicher, dass Sie eine Datei zum Hochladen ausgewählt haben?';
 $string['uploadnotregistered'] = '\'$a\' wurde korrekt hochgeladen, aber der Eintrag wurde nicht registriert!';
-$string['uploadsuccess'] = '\'$a\' wurde erfolgreich hochgeladen.';
+$string['uploadsuccess'] = '\'$a\' wurde erfolgreich hochgeladen';
 $string['viewfeedback'] = 'Aufgabenbewertung und Rückmeldung anzeigen';
 $string['viewsubmissions'] = '$a eingereichte Aufgabe(n) ansehen';
 $string['yoursubmission'] = 'Ihre eingereichten Aufgaben';

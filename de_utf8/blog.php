@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8 dev (2007012500)
+      // blog.php - created with Moodle 1.9 dev (2007060100)
 
 
 $string['addnewentry'] = 'Neuen Eintrag hinzufügen';
@@ -39,10 +39,10 @@ $string['pagesize'] = 'Zahl der Blog-Einträge pro Seite';
 $string['personalblogs'] = 'Nutzer/innen können nur ihren eigenen Blog sehen';
 $string['ptags'] = 'Nutzerdefiniertes Schlagwort';
 $string['publishto'] = 'Veröffentlichen für';
-$string['publishtonoone'] = 'Mich allein (Entwurf)';
+$string['publishtonoone'] = 'Ich alleine (Entwurf)';
 $string['publishtosite'] = 'Alle auf dieser Website';
 $string['publishtoworld'] = 'Alle (öffentlich)';
-$string['settingsupdatederror'] = 'Es ist ein Fehler aufgetreten. Die Voreinstellungen konnten nicht aktualisiert werden.';
+$string['settingsupdatederror'] = 'Es ist ein Fehler aufgetreten. Die Einstellungen konnten nicht aktualisiert werden.';
 $string['siteblog'] = 'Site-Blog: $a';
 $string['siteblogs'] = 'Nutzer/innen können alle Blogs sehen';
 $string['tagdatelastused'] = 'Tag, an dem das Schlagwort zuletzt gebraucht wurde';
