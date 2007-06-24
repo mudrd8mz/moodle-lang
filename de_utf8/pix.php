@@ -21,6 +21,6 @@ $string['surprise'] = 'überrascht';
 $string['thoughtful'] = 'in Gedanken';
 $string['tongueout'] = 'Zunge raus';
 $string['wideeyes'] = 'große Augen';
-$string['wink'] = 'zwinkernd';
+$string['wink'] = 'zwinkern';
 
 ?>
