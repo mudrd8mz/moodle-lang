@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007060502)
+      // grades.php - created with Moodle 1.9 dev (2007062401)
 
 
 $string['addcategory'] = 'カテゴリの追加';
@@ -12,6 +12,7 @@ $string['badgrade'] = '提供された評定は有効ではありません。';
 $string['baduser'] = '提供されたユーザは有効ではありません。';
 $string['bonuspoints'] = 'ボーナスポイント';
 $string['categories'] = 'カテゴリ';
+$string['categoriesedit'] = 'カテゴリの編集';
 $string['category'] = 'カテゴリ';
 $string['categoryname'] = 'カテゴリ名';
 $string['choosecategory'] = 'カテゴリの選択';
@@ -60,6 +61,7 @@ $string['gradeletterhelp'] = '評定文字ヘルプ';
 $string['gradeletternote'] = '評定文字を削除するには、テキストエリアの文字を<br />空白にして「変更を保存する」をクリックしてください。';
 $string['gradepreferenceshelp'] = '評定オプションヘルプ';
 $string['gradereports'] = '評定レポート';
+$string['graderreport'] = '評定者レポート';
 $string['grades'] = '評定';
 $string['gradeweighthelp'] = '評定加重ヘルプ';
 $string['hideadvanced'] = '拡張機能を隠す';
