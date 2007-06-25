@@ -3,7 +3,7 @@
 
 
 $string['advancedoptions'] = 'Erweiterte Optionen';
-$string['allday'] = 'Alle Tage';
+$string['allday'] = 'ganztägig';
 $string['calendar'] = 'Kalender';
 $string['calendarheading'] = '$a Kalender';
 $string['clickhide'] = 'Mit einem Klick verbergen';
@@ -40,7 +40,7 @@ $string['eventnone'] = 'Keine Termine vorhanden';
 $string['eventrepeat'] = 'Wiederholungen';
 $string['eventsall'] = 'Alle Termine';
 $string['eventsfor'] = '$a Termine';
-$string['eventskey'] = 'Eventschlüssel';
+$string['eventskey'] = 'Terminschlüssel';
 $string['eventsrelatedtocourses'] = 'Kursverbundene Termine';
 $string['eventstarttime'] = 'Anfangszeit';
 $string['eventtime'] = 'Zeit';
@@ -59,7 +59,7 @@ $string['for'] = 'für';
 $string['fri'] = 'Fr';
 $string['friday'] = 'Freitag';
 $string['generateurlbutton'] = 'Kalender-URL abfragen';
-$string['global'] = 'Global';
+$string['global'] = 'Allgemein';
 $string['globalevent'] = 'Allgemeiner Termin';
 $string['globalevents'] = 'Allgemeine Termine';
 $string['gotocalendar'] = 'Zum Kalender';
@@ -122,7 +122,7 @@ $string['typesite'] = 'Allgemeiner Termin';
 $string['typeuser'] = 'Persönlicher Termin';
 $string['upcomingevents'] = 'Bald aktuell ...';
 $string['urlforical'] = 'URL des iCal-Exports für ein Kalender-Abo';
-$string['user'] = 'Nutzer/in';
+$string['user'] = 'Teilnehmer/in';
 $string['userevent'] = 'Persönlicher Termin';
 $string['userevents'] = 'Persönliche Termine';
 $string['wed'] = 'Mi';

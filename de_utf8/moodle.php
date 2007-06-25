@@ -767,7 +767,7 @@ $string['keepsearching'] = 'Weiter suchen';
 $string['langltr'] = 'Leserichtung von links nach rechts';
 $string['langrtl'] = 'Leserichtung von rechts nach links';
 $string['language'] = 'Sprache';
-$string['languagegood'] = 'Dieses Sprachpaket ist auf dem aktuellen Stand!  :-)';
+$string['languagegood'] = 'Dieses Sprachpaket ist auf dem aktuellen Stand! &nbsp;<img border=\"0\" src=\"/pix/s/cool.gif\" width=\"15\" height=\"15\" />';
 $string['lastaccess'] = 'Letzter Zugriff';
 $string['lastedited'] = 'Zuletzt bearbeitet';
 $string['lastlogin'] = 'Zuletzt eingeloggt';
