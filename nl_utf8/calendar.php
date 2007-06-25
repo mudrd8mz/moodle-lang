@@ -1,16 +1,19 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 dev (2007021402)
+      // calendar.php - created with Moodle 1.9 dev (2007062401)
 
 
 $string['advancedoptions'] = 'Geavanceerde opties';
+$string['allday'] = 'Hele dag';
 $string['calendar'] = 'Kalender';
 $string['calendarheading'] = '$a Kalender';
 $string['clickhide'] = 'Verberg';
 $string['clickshow'] = 'Toon';
 $string['commontasks'] = 'Opties';
 $string['confirmeventdelete'] = 'Wil je deze activiteit echt wissen?';
+$string['course'] = 'Cursus';
 $string['courseevent'] = 'Cursusactiviteit';
 $string['courseevents'] = 'Cursusactiviteiten';
+$string['courses'] = 'Cursussen';
 $string['dayview'] = 'Per dag';
 $string['daywithnoevents'] = 'Vandaag geen activiteiten';
 $string['default'] = 'Standaard';
@@ -55,9 +58,11 @@ $string['for'] = 'voor';
 $string['fri'] = 'Vr';
 $string['friday'] = 'Vrijdag';
 $string['generateurlbutton'] = 'Haal URL kalender';
+$string['global'] = 'Globaal';
 $string['globalevent'] = 'Site activiteit';
 $string['globalevents'] = 'Site';
 $string['gotocalendar'] = 'Bekijk de kalender';
+$string['group'] = 'Groep';
 $string['groupevent'] = 'Groep';
 $string['groupevents'] = 'Groep';
 $string['hidden'] = 'verborgen';
@@ -116,6 +121,7 @@ $string['typesite'] = 'Site';
 $string['typeuser'] = 'Persoonlijk';
 $string['upcomingevents'] = 'Binnenkort';
 $string['urlforical'] = 'URL voor iCalendar export, voor het inschrijven op de calender';
+$string['user'] = 'Gebruiker';
 $string['userevent'] = 'Persoonliljke activiteit';
 $string['userevents'] = 'Persoonlijk';
 $string['wed'] = 'Wo';

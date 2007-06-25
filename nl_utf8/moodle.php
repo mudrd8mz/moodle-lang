@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007062008)
+      // moodle.php - created with Moodle 1.9 dev (2007062401)
 
 
 $string['action'] = 'Actie';
@@ -257,6 +257,8 @@ $string['coursecategories'] = 'Cursuscategorieën';
 $string['coursecategory'] = 'Cursuscategorie';
 $string['coursecreators'] = 'Cursus-aanmakers';
 $string['coursecreatorsdescription'] = 'Cursusaanmakers kunnen nieuwe cursussen aanmaken en ze gebruiken.';
+$string['courseenrolenddate'] = 'Einddatum cursusaanmelding';
+$string['courseenrolstartdate'] = 'Startdatum cursusaanmelding';
 $string['coursefiles'] = 'Cursusbestanden';
 $string['courseformatdata'] = 'Gegevens cursusindeling';
 $string['courseformats'] = 'Cursusindelingen';
@@ -470,6 +472,12 @@ $a->link
 In de meeste e-mailprogramma\'s zou dit moeten verschijnen als een blauwe link waarop je kunt klikken. Als dat niet werkt, knip en plak het adres dan in de adresbalk van je browser.
 
 Als je hulp nodig hebt, neem dan contact op met de sitebeheerder, $a->admin';
+$string['emailpasswordchangeinfodisabled'] = 'Beste $a->firstname,
+
+Iemand (waarschijnlijk jijzelf) heeft een nieuw wachtwoord gevraagd voor je account op \'$a->sitename\'.
+
+Jammer genoeg is je account uitgeschakeld op deze site, waardoor je geen toegang meer hebt. 
+Neem contact op met de sitebeheerder, $a->admin';
 $string['emailpasswordchangeinfofail'] = 'Beste $a->firstname,
 
 Iemand (waarschijnlijk jijzelf) heeft een nieuw wachtwoord gevraagd voor je account op \'$a->sitename\'.
@@ -1064,6 +1072,7 @@ $string['phpinfo'] = 'PHP-info';
 $string['pictureof'] = 'Foto van $a';
 $string['pleaseclose'] = 'Sluit dit venster.';
 $string['pluginsetup'] = 'Installeren van plugintabellen';
+$string['policyaccept'] = 'Ik begrijp het en ga akkoord';
 $string['policyagree'] = 'Je moet akkoord gaan met deze overeenkomst voor je verder kunt gaan met het gebruiken van deze site. Ga je akkoord?';
 $string['policyagreement'] = 'Overeenkomst voor  het gebruik van deze site';
 $string['policyagreementclick'] = 'Klik hier om de overeenkomst voor het gebruik van deze site te lezen';
@@ -1201,6 +1210,7 @@ $string['senddetails'] = 'Stuur me mijn gebruikersnaam en een nieuw wachtwoord';
 $string['separate'] = 'Gescheiden';
 $string['separateandconnected'] = 'Gescheiden en Verbonden/relationele manieren van kennen';
 $string['serverlocaltime'] = 'De lokale tijd van de server';
+$string['setcategorytheme'] = 'Kies categoriethema';
 $string['settings'] = 'Instellingen';
 $string['shortname'] = 'Korte naam';
 $string['shortnamecollisionwarning'] = '[*]=Deze korte naam is al in gebruik door een andere cursus en zal gewijzigd moeten worden tijdens het goedkeuren';
@@ -1257,6 +1267,7 @@ $string['sourcerole'] = 'Bron rol';
 $string['specifyname'] = 'Je moet een naam geven';
 $string['starpending'] = '[*]=cursus wacht op goedkeuring';
 $string['startdate'] = 'Begindatum van de cursus';
+$string['startingfrom'] = 'Starten vanaf';
 $string['startsignup'] = 'Nieuwe account maken';
 $string['state'] = 'Staat / Provincie';
 $string['statistics'] = 'Statistieken';
