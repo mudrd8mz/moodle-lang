@@ -1,16 +1,19 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 dev (2007021400)
+      // calendar.php - created with Moodle 1.9 dev (2007062008)
 
 
 $string['advancedoptions'] = 'Opcions avançades';
+$string['allday'] = 'Tot el dia';
 $string['calendar'] = 'Calendari';
 $string['calendarheading'] = 'Calendari $a';
 $string['clickhide'] = 'feu clic per ocultar';
 $string['clickshow'] = 'feu clic per mostrar';
 $string['commontasks'] = 'Opcions';
 $string['confirmeventdelete'] = 'Esteu segur que voleu suprimir aquest esdeveniment?';
+$string['course'] = 'Curs';
 $string['courseevent'] = 'Esdeveniment de curs';
 $string['courseevents'] = 'Esdeveniments del curs';
+$string['courses'] = 'Cursos';
 $string['dayview'] = 'Visualització del dia';
 $string['daywithnoevents'] = 'Aquest dia no té esdeveniments.';
 $string['default'] = 'Per defecte';
@@ -37,6 +40,7 @@ $string['eventnone'] = 'No hi ha esdeveniments';
 $string['eventrepeat'] = 'Es repeteix';
 $string['eventsall'] = 'Tots els esdeveniments';
 $string['eventsfor'] = 'Esdeveniments $a';
+$string['eventskey'] = 'Tipus d\'esdeveniments';
 $string['eventsrelatedtocourses'] = 'Esdeveniments relacionats amb els cursos';
 $string['eventstarttime'] = 'Data d\'inici';
 $string['eventtime'] = 'Hora';
@@ -55,9 +59,11 @@ $string['for'] = 'per a';
 $string['fri'] = 'dv';
 $string['friday'] = 'divendres';
 $string['generateurlbutton'] = 'Genera URL del calendari';
+$string['global'] = 'Global';
 $string['globalevent'] = 'Esdeveniment global';
 $string['globalevents'] = 'Esdeveniments globals';
 $string['gotocalendar'] = 'Vés al calendari';
+$string['group'] = 'Grup';
 $string['groupevent'] = 'Esdeveniment de grup';
 $string['groupevents'] = 'Esdeveniments de grup';
 $string['hidden'] = 'ocult';
@@ -100,7 +106,7 @@ $string['today'] = 'Avui';
 $string['tomorrow'] = 'Demà';
 $string['tt_deleteevent'] = 'Suprimeix esdeveniment';
 $string['tt_editevent'] = 'Edita esdeveniment';
-$string['tt_hidecourse'] = 'S\'estan mostrant els esdeveniments del curs (feu clic per ocultar)';
+$string['tt_hidecourse'] = 'S\'estan mostrant els esdeveniments de curs (feu clic per ocultar)';
 $string['tt_hideglobal'] = 'S\'estan mostrant els esdeveniments globals (feu clic per ocultar)';
 $string['tt_hidegroups'] = 'S\'estan mostrant els esdeveniments de grup (feu clic per ocultar)';
 $string['tt_hideuser'] = 'S\'estan mostrant els esdeveniments de l\'usuari (feu clic per ocultar)';
@@ -116,6 +122,7 @@ $string['typesite'] = 'Esdeveniment del lloc';
 $string['typeuser'] = 'Esdeveniment de l\'usuari';
 $string['upcomingevents'] = 'Esdeveniments pròxims';
 $string['urlforical'] = 'URL per a subscriure\'s al calendari en format iCal';
+$string['user'] = 'Usuari';
 $string['userevent'] = 'Esdeveniment d\'usuari';
 $string['userevents'] = 'Esdeveniments de l\'usuari';
 $string['wed'] = 'dc';

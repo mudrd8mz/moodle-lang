@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 beta + (2006101001)
+      // resource.php - created with Moodle 1.9 dev (2007062008)
 
 
 $string['addresource'] = 'Afegeix un recurs';
@@ -9,6 +9,7 @@ $string['browserepository'] = 'Explora el repositori';
 $string['choose'] = 'Tria';
 $string['chooseafile'] = 'Tria o penja un fitxer';
 $string['chooseparameter'] = 'Trieu un paràmetre';
+$string['clicktoopen'] = 'Per a obrir el document, feu clic en aquest enllaç:';
 $string['configallowlocalfiles'] = 'Quan creeu un nou recurs de tipus fitxer, són permesos els enllaços a fitxers d\'un sistema local com ara un CD-ROM o un disc dur? Això pot ser útil en una aula on tots els estudiants tenen accés a un CD-ROM o a dispositius en xarxa comuns. La utilització d\'aquesta característica pot requerir canvis en els paràmetres de seguretat dels navegadors.';
 $string['configautofilerenamesettings'] = 'Actualitza automàticament les referències a fitxers i directoris quan se\'ls canviï el nom en l\'administrador de fitxers.';
 $string['configblockdeletingfilesettings'] = 'Bloca la supressió de fitxers i directoris utilitzats en recursos. Teniu en compte, però, que les imatges i altres fitxers utilitzats dins d\'una pàgina HTML no seran protegits.';
@@ -48,6 +49,7 @@ $string['frameifpossible'] = 'Posa el recurs en un marc per mantenir visible la 
 $string['fulltext'] = 'Text complet';
 $string['htmlfragment'] = 'Fragment HTML';
 $string['imspackageloaded'] = 'S\'ha carregat el paquet.';
+$string['keepnavigationvisible'] = 'Manté visible la navegació en la mateixa pàgina';
 $string['localfile'] = 'Fitxer local';
 $string['localfilechoose'] = 'Trieu un fitxer local (CD-ROM)';
 $string['localfilehelp'] = 'Ajuda per a la visualització de fitxers locals';

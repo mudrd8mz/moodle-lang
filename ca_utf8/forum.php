@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 dev (2007021501)
+      // forum.php - created with Moodle 1.9 dev (2007062008)
 
 
 $string['addanewdiscussion'] = 'Afegeix un nou tema de debat';
@@ -20,6 +20,7 @@ $string['blockafter'] = 'Llindar de missatges per blocar';
 $string['blockperiod'] = 'Període de temps per blocar';
 $string['blockperioddisabled'] = 'No bloquis';
 $string['bynameondate'] = 'per $a->name - $a->date';
+$string['cannotadddiscussion'] = 'Afegir debats en aquest fòrum requereix pertànyer al grup.';
 $string['cannotviewpostyet'] = 'Encara no podeu llegir les preguntes d\'altres estudiants en aquest debat perquè no hi heu enviat cap missatge';
 $string['configcleanreadtime'] = 'L\'hora del dia per a netejar missatges vells de la taula de lectures.';
 $string['configdisplaymode'] = 'El mode de visualització per defecte dels debats si no se n\'especifica un.';

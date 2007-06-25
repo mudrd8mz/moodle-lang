@@ -1,15 +1,17 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 dev (2007021400)
+      // group.php - created with Moodle 1.9 dev (2007062008)
 
 
 $string['addgroupstogrouping'] = 'Afegeix grups a l\'agrupament';
 $string['adduserstogroup'] = 'Afegeix usuaris al grup';
 $string['anygrouping'] = '[Qualsevol agrupament]';
+$string['backtogroups'] = 'Torna als grups';
 $string['cancel'] = 'Cancel·la';
 $string['createautomaticgrouping'] = 'Crea agrupament automàtic';
 $string['creategroup'] = 'Crea grup';
 $string['creategrouping'] = 'Crea agrupament';
 $string['creategroupinselectedgrouping'] = 'Crea grup en l\'agrupament seleccionat';
+$string['createorphangroup'] = 'Crea un grup orfe';
 $string['databaseupgradegroups'] = 'La versió de grups és ara $a';
 $string['defaultgroupdescription'] = 'Descripció de grup per defecte';
 $string['defaultgroupingname'] = 'Agrupament';
@@ -33,6 +35,7 @@ $string['errorinvalidgroup'] = 'S\'ha produït un error: el grup $a no és vàli
 $string['errorinvalidgrouping'] = 'S\'ha produït un error: l\'agrupament $a no és vàlid';
 $string['errornotingrouping'] = 'No podeu crear un grup en $a';
 $string['errornotingroupingedit'] = 'No podeu editar l\'agrupament $a';
+$string['existingmembers'] = 'Membres existents: $a';
 $string['group'] = 'Grup';
 $string['groupdescription'] = 'Descripció del grup';
 $string['groupfor'] = 'per al grup';
@@ -52,6 +55,7 @@ $string['groupmode'] = 'Mode de grups';
 $string['groupmodeforce'] = 'Imposa el mode de grup';
 $string['groupmy'] = 'El meu grup';
 $string['groupname'] = 'Nom del grup';
+$string['groupnameexists'] = 'Ja existeix un grup denominat \'$a\' en aquest curs. Trieu un altre nom.';
 $string['groupnotamember'] = 'No sou membre d\'aquest grup';
 $string['groups'] = 'Grups';
 $string['groupsinselectedgrouping'] = 'Grups de l\'agrupament seleccionat';
@@ -65,6 +69,7 @@ $string['newpicture'] = 'Nova imatge';
 $string['notingrouping'] = '[en cap agrupament]';
 $string['numberofgroups'] = 'Nombre de grups';
 $string['numberofstudents'] = 'Nombre d\'estudiants';
+$string['potentialmembers'] = 'Membres en potència: $a';
 $string['prefixforgroupnames'] = 'Prefix dels noms dels grups';
 $string['printerfriendly'] = 'Visualització per a imprimir de l\'agrupament';
 $string['removegroupfromselectedgrouping'] = 'Suprimeix grup de l\'agrupament seleccionat';

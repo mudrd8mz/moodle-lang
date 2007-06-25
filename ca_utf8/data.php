@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 dev (2007021400)
+      // data.php - created with Moodle 1.9 dev (2007062008)
 
 
 $string['action'] = 'Acció';
@@ -63,6 +63,7 @@ $string['deleted'] = 'suprimit';
 $string['deletefield'] = 'Suprimeix un camp existent';
 $string['deletewarning'] = 'Segur que voleu suprimir aquest predefinit?';
 $string['descending'] = 'Descendent';
+$string['directorynotapreset'] = '$a->directory No és un predefinit: falten fitxers: $a->missing_files';
 $string['download'] = 'Baixa';
 $string['edit'] = 'Edita';
 $string['editcomment'] = 'Edita comentari';
@@ -79,6 +80,7 @@ $string['example'] = 'Exemple del mòdul de bases de dades';
 $string['export'] = 'Exporta';
 $string['exportaszip'] = 'Exporta com a zip';
 $string['exportedtozip'] = 'S\'ha exportat a un zip temporal...';
+$string['failedpresetdelete'] = 'S\'ha produït un error en suprimir el predefinit';
 $string['fieldadded'] = 'S\'ha afegit el camp';
 $string['fieldallowautolink'] = 'Permet enllaços automàtics';
 $string['fielddeleted'] = 'S\'ha suprimit el camp';
@@ -98,6 +100,7 @@ $string['fieldwidth'] = 'Amplada';
 $string['fieldwidthlistview'] = 'Amplada en visualització de llistes';
 $string['fieldwidthsingleview'] = 'Amplada en visualització d\'una entrada';
 $string['file'] = 'Fitxer';
+$string['filesnotgenerated'] = 'No s\'han pogut generar tots els fitxers: $a';
 $string['filtername'] = 'Enllaços automàtics a bases de dades';
 $string['footer'] = 'Peu de pàgina';
 $string['forcelinkname'] = 'Nom imposat a l\'enllaç';
@@ -134,6 +137,7 @@ $string['modulename'] = 'Base de dades';
 $string['modulenameplural'] = 'Bases de dades';
 $string['more'] = 'Més';
 $string['moreurl'] = 'Més (URL)';
+$string['movezipfailed'] = 'No es pot moure el fitxer comprimit';
 $string['multientry'] = 'Entrada repetida';
 $string['multimenu'] = 'Menú (selecció múltiple)';
 $string['multipletags'] = 'S\'han trobat múltiples etiquetes. No s\'ha desat la plantilla.';
@@ -152,6 +156,7 @@ $string['nameurl'] = 'URL';
 $string['newentry'] = 'Nova entrada';
 $string['newfield'] = 'Crea un nou camp';
 $string['noaccess'] = 'No teniu accés a aquesta pàgina';
+$string['nodefinedfields'] = 'El nou predefinit no té camps';
 $string['nofieldindatabase'] = 'No s\'han definit camps en aquesta base de dades. Afegiu-ne algun.';
 $string['nolisttemplate'] = 'Encara no s\'ha definit la plantilla de llista.';
 $string['nomatch'] = 'No s\'han trobat entrades que coincideixin';
