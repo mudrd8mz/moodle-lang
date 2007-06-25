@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007060502)
+      // admin.php - created with Moodle 1.9 dev (2007062401)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -557,7 +557,7 @@ $string['statsruntimestart'] = '開始時刻';
 $string['statsuserthreshold'] = 'ユーザ閾値';
 $string['stickyblocks'] = 'スティッキーブロック';
 $string['stickyblockscourseview'] = 'コースページ';
-$string['stickyblocksduplicatenotice'] = 'すでに同じブロックがページに存在する場合、あなたがここで追加するブロックは重複することになります。<br />固定されたブロックのみ編集不可ですが、重複したブロックは編集することができます。';
+$string['stickyblocksduplicatenotice'] = 'あなたがここで追加するブロックがすでに登録されている場合、重複することになります。<br />この場合、スティッキーブロックのみ編集不可ですが、重複したブロックは編集することができます。';
 $string['stickyblocksmymoodle'] = 'マイ moodle';
 $string['stickyblockspagetype'] = '設定するページタイプ';
 $string['switchlang'] = '言語ディレクトリを切り替える';
