@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 dev (2007060502)
+      // forum.php - created with Moodle 1.9 dev (2007062401)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -25,6 +25,7 @@ $string['cannotviewpostyet'] = 'まだ投稿していないため、あなたは
 $string['configcleanreadtime'] = '古い投稿を「既読」テーブルからクリアする時刻 (時)';
 $string['configdisplaymode'] = '設定されていない場合、ディスカッションで使用されるデフォルト表示モードです。';
 $string['configenablerssfeeds'] = 'すべてのフォーラムのRSS使用を有効にします。ここで設定しても、各フォーラムでRSSフィードを手動で設定する必要があります。';
+$string['configenabletimedposts'] = '新しいフォーラムディスカッションの表示期間の設定を許可したい場合、「Yes」を選択してください。';
 $string['configlongpost'] = 'この文字長以上の長さ (HTMLは含まない) は長いとみなされます。サイトのフロントページ、ソーシャルフォーマット、ユーザプロフィールに表示される投稿内容の長さは、forum_shortpostとforum_longpostの値の間に短くされます。';
 $string['configmanydiscussions'] = 'フォーラムの1ページあたりに表示されるディスカッションの最大数';
 $string['configmaxbytes'] = 'すべてのフォーラムの添付ファイルに関するデフォルト最大サイズ (コース制限および他のローカル設定に従います)';

@@ -59,6 +59,7 @@ $string['gradeitemsinc'] = 'エクスポートに含める評定項目';
 $string['gradeletter'] = '評定文字';
 $string['gradeletterhelp'] = '評定文字ヘルプ';
 $string['gradeletternote'] = '評定文字を削除するには、テキストエリアの文字を<br />空白にして「変更を保存する」をクリックしてください。';
+$string['gradepreferences'] = '評定オプション';
 $string['gradepreferenceshelp'] = '評定オプションヘルプ';
 $string['gradereports'] = '評定レポート';
 $string['graderreport'] = '評定者レポート';
