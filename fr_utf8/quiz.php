@@ -163,6 +163,22 @@ $string['editqcats'] = 'Modifier les catégories de questions';
 $string['editquestions'] = 'Modifier les questions';
 $string['editquiz'] = 'Modifier les questions';
 $string['editquizquestions'] = 'Modifier les questions d\'un test';
+$string['emailconfirmbody'] = 'Bonjour,
+
+Vous avez envoyé vos réponses au test « $a->quizname » du cours
+« $a->coursename » à $a->submissiontime.
+
+Ce message confirme que nous avons reçu correctement vos réponses.
+
+Vous pouvez accéder à ce test en suivant le lien $a->quizurl.';
+$string['emailconfirmsubject'] = 'Confirmation de remise de test : $a->quizname';
+$string['emailnotifybody'] = 'Bonjour,
+
+Le participant $a->studentname a effectué le test « $a->quizname » ($a->quizurl)
+du cours « $a->coursename ».
+
+Vous pouvez voir cette tentative en suivant le lien $a->quizreviewurl.';
+$string['emailnotifysubject'] = 'Le participant $a->studentname a effectué le test $a->quizname';
 $string['errorinquestion'] = 'Erreur dans la question';
 $string['errormissingquestion'] = 'Erreur&nbsp;! Le système ne trouve pas la question d\'identifiant $a';
 $string['errornotnumbers'] = 'Erreur&nbsp;! Les réponses doivent être numériques';
@@ -390,6 +406,8 @@ $string['quiztimelimit'] = 'Temps disponible&nbsp;: $a';
 $string['quiztimer'] = 'Chronomètre';
 $string['quiz:attempt'] = 'Effectuer des tests';
 $string['quiz:deleteattempts'] = 'Supprimer les tentatives de tests';
+$string['quiz:emailconfirmsubmission'] = 'Recevoir un courriel de confirmation lors de l\'envoi';
+$string['quiz:emailnotifysubmission'] = 'Recevoir par courriel la notification des tentatives effectuées';
 $string['quiz:grade'] = 'Évaluer manuellement les tests';
 $string['quiz:ignoretimelimits'] = 'Ignorer les limites de temps des tests';
 $string['quiz:manage'] = 'Gérer les tests';
