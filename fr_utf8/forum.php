@@ -23,6 +23,7 @@ $string['cannotviewpostyet'] = 'Vous ne pouvez pas lire les questions des autres
 $string['configcleanreadtime'] = 'L\'heure à laquelle nettoyer les anciens messages de la table des messages lus.';
 $string['configdisplaymode'] = 'Mode d\'affichage par défaut des discussions';
 $string['configenablerssfeeds'] = 'Cette option permet l\'activation des flux RSS pour tous les forums. Il est en outre nécessaire d\'activer manuellement les flux RSS dans les réglages de chaque forum.';
+$string['configenabletimedposts'] = 'Cette option permet l\'activation des périodes d\'affichage lors de l\'écriture de nouvelles discussions dans les forums (fonctionnalité expérimentale)';
 $string['configlongpost'] = 'Tout message dépassant cette longueur (nombre de caractères, code HTML non compris) est considéré comme long message. L\'affichage des messages sur la page d\'accueil du site, sur la page des cours en format informel et dans le profil des utilisateurs est tronqué à un endroit adéquat, entre les valeurs forum_shortpost et forum_longpost.';
 $string['configmanydiscussions'] = 'Nombre maximum de discussions affichées sur une page';
 $string['configmaxbytes'] = 'Taille maximale de l\'ensemble des annexes de tous les forums du site (dépend des limites du cours et d\'autres réglages locaux)';
