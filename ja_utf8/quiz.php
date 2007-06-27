@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007060502)
+      // quiz.php - created with Moodle 1.9 dev (2007062401)
 
 
 $string['1day'] = '1日';
@@ -164,6 +164,29 @@ $string['editqcats'] = '問題カテゴリの編集';
 $string['editquestions'] = '問題の編集';
 $string['editquiz'] = '小テストの編集';
 $string['editquizquestions'] = '小テスト問題の編集';
+$string['emailconfirmbody'] = '$a->username さん
+
+以下の解答をお送りいただきましてありがとうございます。
+
+小テスト名: $a->quizname
+コース名: $a->coursename
+送信日時: $a->submissiontime
+
+私たちがあなたの解答を正常に受信しましたので、この確認メールをお送りします。
+
+小テストには、$a->quizurl よりアクセスすることが可能です。';
+$string['emailconfirmsubject'] = '小テスト送信確認: $a->quizname';
+$string['emailnotifybody'] = '$a->username さん
+
+以下のユーザが小テストを完了しました。
+
+ユーザ名: $a->studentname
+小テスト名: $a->quizname
+URL: $a->quizurl
+コース名: $a->coursename
+
+小テストは、$a->quizreviewurl でレビューすることが可能です。';
+$string['emailnotifysubject'] = '$a->studentname が小テスト「 $a->quizname 」を完了しました。';
 $string['errorinquestion'] = '問題のエラー';
 $string['errormissingquestion'] = 'エラー: id $a の問題はありません。';
 $string['errornotnumbers'] = 'エラー - 答えは数字を使用してください。';
@@ -381,6 +404,8 @@ $string['questiontype'] = '問題タイプ $a';
 $string['questiontypesetupoptions'] = '問題タイプのオプション設定';
 $string['quiz:attempt'] = '小テストを受験する';
 $string['quiz:deleteattempts'] = '小テストの受験結果を削除する';
+$string['quiz:emailconfirmsubmission'] = '解答送信時、確認メールを受信する。';
+$string['quiz:emailnotifysubmission'] = '解答送信の通知メールを受信する。';
 $string['quiz:grade'] = '小テストを評定する';
 $string['quiz:ignoretimelimits'] = '制限時間のある小テストを無視する';
 $string['quiz:manage'] = '小テストを管理する';
