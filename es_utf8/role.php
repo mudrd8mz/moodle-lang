@@ -81,6 +81,7 @@ $string['metaassignerror'] = 'No se puede asignar este rol al usuario \"$a\" por
 $string['metaunassignerror'] = 'El rol del usuario \"$a\" se ha reasignado automáticamente; por favor, desasigne el rol en los cursos hijo en su lugar.';
 $string['my:manageblocks'] = 'Gestionar bloques de página myMoodle';
 $string['nocapabilitiesincontext'] = 'Habilidades no disponibles en este contexto';
+$string['notset'] = 'No ajustado';
 $string['overrideroles'] = 'Anular roles';
 $string['overrides'] = 'Anulaciones';
 $string['permissions'] = 'Permisos';

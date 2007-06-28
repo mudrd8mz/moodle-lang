@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 (2006101007)
+      // lesson.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['accesscontrol'] = 'Control de acceso';
@@ -80,7 +80,7 @@ $string['displayofgrade'] = 'Mostrar calificación (sólo para estudiantes)';
 $string['displayreview'] = 'Mostrar botón Revisar';
 $string['displayscorewithessays'] = 'Usted ha obtenido una puntuación de $a->score sobre $a->tempmaxgrade en las preguntas calificadas automáticamente.<br>La(s) $a->essayquestions pregunta(s) de su ensayo serán calificadas y añadidas<br>a su calificación final en una fecha posterior.<br><br>Su calificación actual sin contar esa(s) pregunta(s) es de is $a->score sobre $a->grade';
 $string['displayscorewithoutessays'] = 'Su puntuación es $a->score (sobre $a->grade).';
-$string['editlesson'] = 'Editar $a';
+$string['edit'] = 'Edición';
 $string['editlessonsettings'] = 'Editar los ajustes de Esta lección';
 $string['editpagecontent'] = 'Editar el contenido de esta página';
 $string['email'] = 'Email';
@@ -298,5 +298,6 @@ $string['youranswer'] = 'Su respuesta';
 $string['yourcurrentgradeis'] = 'Su calificación actual es $a';
 $string['yourcurrentgradeisoutof'] = 'Su calificación actual es $a->grade sobre $a->total';
 $string['youshouldview'] = 'Usted debería ver como mínimo: $a';
+$string['editlesson'] = 'Editar $a'; // ORPHANED
 
 ?>

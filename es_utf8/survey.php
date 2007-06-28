@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.7 (2006101007)
+      // survey.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['actual'] = 'Real';
@@ -149,6 +149,7 @@ No existen respuestas \'correctas\' o \'equivocadas\', a nosotros nos interesa s
 Sus respuestas, pensadas cuidadosamente, nos ayudarán a mejorar la manera de presentar esta unidad en el futuro.
 Muchas gracias por su colaboración.';
 $string['collespname'] = 'COLLES (Preferida)';
+$string['customintro'] = 'Introducción personalizada';
 $string['done'] = 'Hecho';
 $string['download'] = 'Descargar';
 $string['downloadexcel'] = 'Descargar como hoja de cálculo';

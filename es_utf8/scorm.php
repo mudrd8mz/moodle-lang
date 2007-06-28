@@ -1,12 +1,14 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 (2006101007)
+      // scorm.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['advanced'] = 'Avanzada';
 $string['asset'] = 'Recurso';
 $string['assetlaunched'] = 'Recurso - Visto';
 $string['attempt'] = 'intento';
+$string['attempt1'] = '1 intento';
 $string['attempts'] = 'intentos';
+$string['attemptsx'] = '$a intentos';
 $string['attr_error'] = 'Valor incorrecto para el atributo ($a->attr) en la marca $a->tag.';
 $string['autocontinue'] = 'Continuación automática';
 $string['averageattempt'] = 'Intentos promedio';
@@ -19,6 +21,7 @@ $string['browserepository'] = 'Navegar por el repositorio';
 $string['chooseapacket'] = 'Elegir o actualizar un paquete SCORM';
 $string['completed'] = 'Completado';
 $string['confirmloosetracks'] = 'ATENCIÓN: El paquete parece haber sido modificado.nSi la estructura del paquete se ha cambiado,nlas pistas de algunos usuarios pueden haberse perdido durante el proceso de actualización.';
+$string['contents'] = 'Contenido';
 $string['coursepacket'] = 'Paquete de curso';
 $string['coursestruct'] = 'Estructura de curso';
 $string['datadir'] = 'Error de sistema: No se puede crear el directorio de datos del curso';
@@ -27,11 +30,13 @@ $string['directories'] = 'Mostrar enlaces de directorio';
 $string['display'] = 'Mostrar';
 $string['domxml'] = 'Librería externa DOMXML';
 $string['element'] = 'Elemento';
+$string['enter'] = 'Entrar';
 $string['entercourse'] = 'Introducir el curso SCORM';
 $string['errorlogs'] = 'Registro de errores';
 $string['everyday'] = 'Todos los días';
 $string['everytime'] = 'Cada vez que se use';
 $string['exit'] = 'Salir del curso SCORM';
+$string['exitactivity'] = 'Salir de la actividad';
 $string['expcoll'] = 'Expandir/Chocar';
 $string['external'] = 'Actualizar la temporalización de paquetes externos';
 $string['failed'] = 'Error';
@@ -70,6 +75,7 @@ $string['menubar'] = 'Mostrar la barra de menú';
 $string['min'] = 'Calificación mínima';
 $string['missing_attribute'] = 'Falta atributo ($a->attr) en marca $a->tag';
 $string['missing_tag'] = 'Falta marca $a->tag';
+$string['missingparam'] = 'Un elemento requerido falta o es erróneo';
 $string['mode'] = 'Moda';
 $string['modulename'] = 'SCORM';
 $string['modulenameplural'] = 'SCORMs';
@@ -90,7 +96,9 @@ $string['objectives'] = 'Objetivos';
 $string['onchanges'] = 'Siempre que haya cambios';
 $string['organization'] = 'Organización';
 $string['organizations'] = 'Organizaciones';
+$string['othersettings'] = 'Ajustes adicionales';
 $string['othertracks'] = 'Otras pistas';
+$string['package'] = 'Paquete';
 $string['packagedir'] = 'Error de sistema: No se puede crear el directorio de paquetes';
 $string['packagefile'] = 'No se ha especificado paquete';
 $string['passed'] = 'Pasado';
@@ -133,6 +141,7 @@ $string['toolbar'] = 'Mostrar la barra de herramientas';
 $string['totaltime'] = 'Hora';
 $string['trackingloose'] = 'ATENCIÓN: ¡Los datos de rastreo de este paquete se perderán!';
 $string['type'] = 'Tipo';
+$string['unziperror'] = 'Ha ocurrido un error durante la descompresión del paquete';
 $string['validateascorm'] = 'Validar un paquete SCORM';
 $string['validation'] = 'Resultado de la validación';
 $string['validationtype'] = 'Esta preferencia ajusta la librería DOMXML usada para validar un Manifiesto SCORM. Si tiene dudas, deje la opción activada.';
