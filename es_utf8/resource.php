@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 (2006101007)
+      // resource.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['addresource'] = 'Agregar recurso';
@@ -9,6 +9,7 @@ $string['browserepository'] = 'Revisar repositorio';
 $string['choose'] = 'Seleccionar';
 $string['chooseafile'] = 'Elija o suba un archivo';
 $string['chooseparameter'] = 'Elegir parámetro';
+$string['clicktoopen'] = 'Para abrir este documento, haga clic en este enlace:';
 $string['configallowlocalfiles'] = 'Cuando se crea un nuevo recurso de archivo, permita enlaces a archivos en un sistema local de archivos tal como un CD o un disco duro. Esto puede ser muy útil cuando todos los estudiantes de una clase tienen acceso en red a un disco común o cuando se necesita acceder a archivos almacenados en un CD. El uso de esta característica puede exigir cambios en los controles de seguridad de su navegador.';
 $string['configautofilerenamesettings'] = 'Actualizar automáticamente las referencias a archivos y directorios cuando sean renombrados en el gestor de archivos.';
 $string['configblockdeletingfilesettings'] = 'Eliminación de bloques de archivos y directorios a que se refieren los recursos. Por favor, advierta que las imágenes y otros archivos referenciados desde html no están protegidos.';
@@ -48,6 +49,7 @@ $string['frameifpossible'] = 'Colocar el recurso en un marco para mantener visib
 $string['fulltext'] = 'Texto completo';
 $string['htmlfragment'] = 'Fragmento HTML';
 $string['imspackageloaded'] = 'Paquete cargado.';
+$string['keepnavigationvisible'] = 'Mantener visible la navegación en la misma página';
 $string['localfile'] = 'Archivo local';
 $string['localfilechoose'] = 'Elija un archivo local (CD-ROM)';
 $string['localfilehelp'] = 'Ayuda mostrar archivos locales';

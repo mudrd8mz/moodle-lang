@@ -1242,6 +1242,7 @@ $string['senddetails'] = 'Enviar detalles por correo electrónico';
 $string['separate'] = 'Separar';
 $string['separateandconnected'] = 'Vías de conocimiento separadas y conectadas';
 $string['serverlocaltime'] = 'Hora local del servidor';
+$string['setcategorytheme'] = 'Ajustar tema de categoría';
 $string['settings'] = 'Configuración';
 $string['shortname'] = 'Nombre corto';
 $string['shortnamecollisionwarning'] = '[*] = Este nombre corto ya está en uso por un curso, y necesita cambiarse hasta que se apruebe';

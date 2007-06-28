@@ -48,6 +48,7 @@ $string['listcantmoveup'] = 'No se ha podido subir el elemento: es el primero de
 $string['listnochildren'] = 'No se han encontrado hijos del elemento.';
 $string['listnoitem'] = 'Elemento no encontrado.';
 $string['listnopeers'] = 'No se han encontrado iguales del elemento.';
+$string['listupdatefail'] = 'Operación de BD fallida al editar la jerarquía de listas.';
 $string['loginasnoenrol'] = 'No puede usar matricular o desmatricular cuando está en curso una sesión \"Entrar como\"';
 $string['loginasonecourse'] = 'No puede entrar a este curso.<br /> Debe terminar la sesión \"Entrar como\" antes de entrar a cualquier otro curso.';
 $string['missingfield'] = 'Falta el campo \"$a\"';

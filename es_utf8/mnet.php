@@ -20,5 +20,8 @@ $string['badcert'] = 'Este no es un certificado válido.';
 $string['courses'] = 'cursos';
 $string['deny'] = 'Denegar';
 $string['description'] = 'Descripción';
+$string['expired'] = 'Esta clave expiró en';
+$string['expires'] = 'Válida hasta';
+$string['expireyourkey'] = 'Eliminar esta clave';
 
 ?>

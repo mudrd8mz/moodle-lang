@@ -1,9 +1,14 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.7 (2006101007)
+      // qtype_multichoice.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['addmorechoiceblanks'] = 'Espacios en blanco para  {no} más opciones';
 $string['answerhowmany'] = '¿Una o varias respuestas?';
+$string['answernumbering'] = '¿Numerar las elecciones?';
+$string['answernumbering123'] = '1., 2., 3., ...';
+$string['answernumberingABC'] = 'A., B., C., ...';
+$string['answernumberingabc'] = 'a., b., c., ...';
+$string['answernumberingnone'] = 'No numeración';
 $string['answersingleno'] = 'Se permiten varias respuestas';
 $string['answersingleyes'] = 'Sólo una respuesta';
 $string['choiceno'] = 'Elegir $a';
