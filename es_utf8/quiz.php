@@ -164,6 +164,24 @@ $string['editqcats'] = 'Editar categorías de preguntas';
 $string['editquestions'] = 'Editar preguntas';
 $string['editquiz'] = 'Editar cuestionario';
 $string['editquizquestions'] = 'Editar preguntas del cuestionario';
+$string['emailconfirmbody'] = 'Hola, $a->username,
+Gracias por enviar sus respuestas al cuestionario 
+\'$a->quizname\'
+del curso \'$a->coursename\'
+en $a->submissiontime.
+
+Este correo confirma que hemos recibido correctamente sus respuestas.
+
+Puede acceder al cuestionario en esta dirección: $a->quizurl.';
+$string['emailconfirmsubject'] = 'Confirmación de envío de cuestionario: $a->quizname';
+$string['emailnotifybody'] = 'Hola, $a->username,
+
+$a->studentname ha completado el cuestionario
+\'$a->quizname\' ($a->quizurl)
+del curso \'$a->coursename\'
+
+Puede revisar su intento en $a->quizreviewurl.';
+$string['emailnotifysubject'] = '$a->studentname ha completado el cuestionario $a->quizname';
 $string['errorinquestion'] = 'Error en la pregunta';
 $string['errormissingquestion'] = 'Error: el sistema ha perdido la pregunta con id $a';
 $string['errornotnumbers'] = 'Error - las respuestas deben ser numéricas';
@@ -386,6 +404,8 @@ $string['questiontype'] = 'Tipo de pregunta $a';
 $string['questiontypesetupoptions'] = 'Ajuste de opciones para los tipos de pregunta:';
 $string['quiz:attempt'] = 'Intentar resolver cuestionarios';
 $string['quiz:deleteattempts'] = 'Eliminar intentos';
+$string['quiz:emailconfirmsubmission'] = 'Confirmación por email al enviar';
+$string['quiz:emailnotifysubmission'] = 'Notificación por email de los envíos';
 $string['quiz:grade'] = 'Calificar cuestionarios manualmente';
 $string['quiz:ignoretimelimits'] = 'Pasa por alto el límite de tiempo en los cuestionarios';
 $string['quiz:manage'] = 'Gestionar cuestionarios';

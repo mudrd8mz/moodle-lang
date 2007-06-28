@@ -25,6 +25,7 @@ $string['cannotviewpostyet'] = 'No puede leer las preguntas de otros estudiantes
 $string['configcleanreadtime'] = 'Hora del día para limpiar mensajes antiguos de la tabla de lectura.';
 $string['configdisplaymode'] = 'Forma de visualización por defecto, si no se ha configurado ninguna.';
 $string['configenablerssfeeds'] = 'Este interruptor permite canales RSS para todos los foros. Necesitará activar los canales manualmente en los ajustes de cada foro.';
+$string['configenabletimedposts'] = 'Seleccione \'sí\' si desea permitir el ajuste de períodos en los que se mostrará una nueva discusión en el foro (Experimental y no probada totalmente)';
 $string['configlongpost'] = 'Cualquier mensaje que exceda esta extensión (sin incluir código HTML) se considera largo.';
 $string['configmanydiscussions'] = 'Máximo número de temas mostrados en una página de foro.';
 $string['configmaxbytes'] = 'Tamaño máximo por defecto para los archivos adjuntos a los mensajes de los foros en este sitio (sujeto a los límites del curso y otras configuraciones del servidor)';
