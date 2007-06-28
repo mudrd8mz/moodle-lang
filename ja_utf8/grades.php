@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007062401)
+      // grades.php - created with Moodle 1.9 dev (2007062800)
 
 
 $string['addcategory'] = 'カテゴリの追加';
 $string['addcategoryerror'] = 'カテゴリを追加できませんでした。';
 $string['addexceptionerror'] = 'ユーザID:評定項目への例外追加中にエラーが発生しました。';
+$string['addfeedback'] = 'フィードバックの追加';
 $string['allgrades'] = 'カテゴリごとの評点';
 $string['allstudents'] = 'すべての学生';
 $string['average'] = '平均';
@@ -16,6 +17,7 @@ $string['categoriesedit'] = 'カテゴリの編集';
 $string['category'] = 'カテゴリ';
 $string['categoryname'] = 'カテゴリ名';
 $string['choosecategory'] = 'カテゴリの選択';
+$string['contract'] = 'カテゴリの縮小';
 $string['createcategory'] = 'カテゴリを作成する';
 $string['createcategoryerror'] = '新しいカテゴリを作成できませんでした。';
 $string['creatinggradebooksettings'] = '評定表設定の作成';
@@ -28,6 +30,7 @@ $string['displayweighted'] = '加重評点を表示する';
 $string['dropped'] = '件除外';
 $string['dropxlowest'] = '下位X件の除外';
 $string['dropxlowestwarning'] = '注意: 「下位X件の除外」を使用する場合、カテゴリ内のすべての評定項目は同じ最大評点を持つとみなされます。カテゴリ内のそれぞれの評定項目の最大評点が異なる場合、結果は保証されません。';
+$string['editfeedback'] = 'フィードバックの編集';
 $string['encoding'] = 'エンコーディング';
 $string['errorgradevaluenonnumeric'] = '上限または下限の評点が数値ではありません:';
 $string['errornocategorizedid'] = 'カテゴリなしIDを取得できませんでした!';
@@ -35,6 +38,7 @@ $string['errornocourse'] = 'コース情報を取得できませんでした。'
 $string['errorreprintheadersnonnumeric'] = 'ヘッダの再表示の値が数値ではありません:';
 $string['exceptions'] = '例外';
 $string['excluded'] = '除外';
+$string['expand'] = 'カテゴリの拡張';
 $string['exportods'] = 'ODSにエクスポートする';
 $string['exporttxt'] = 'TXTにインポートする';
 $string['exportxml'] = 'XMLにインポートする';
@@ -138,8 +142,10 @@ $string['setweights'] = '加重の設定';
 $string['showallstudents'] = 'すべての学生を表示';
 $string['showhiddenitems'] = '隠し項目を表示する';
 $string['sort'] = '並び替え';
+$string['sortasc'] = '昇順で並び替え';
 $string['sortbyfirstname'] = '名で並び替え';
 $string['sortbylastname'] = '姓で並び替え';
+$string['sortdesc'] = '降順で並び替え';
 $string['standarddeviation'] = '標準偏差';
 $string['stats'] = '統計';
 $string['statslink'] = '統計';
@@ -149,6 +155,8 @@ $string['topcategory'] = 'スーパーカテゴリ';
 $string['total'] = '合計';
 $string['totalweight100'] = '加重の合計は100です。';
 $string['totalweightnot100'] = '加重の合計は100ではありません。';
+$string['turnfeedbackoff'] = 'フィードバックモードの終了';
+$string['turnfeedbackon'] = 'フィードバックモードの開始';
 $string['uncategorised'] = 'カテゴリなし';
 $string['unlock'] = 'ロック解除';
 $string['uploadgrades'] = '評定のアップロード';
