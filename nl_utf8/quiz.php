@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007021501)
+      // quiz.php - created with Moodle 1.9 dev (2007062401)
 
 
 $string['1day'] = '1 dag';
@@ -48,6 +48,7 @@ $string['attemptlast'] = 'Laatste poging';
 $string['attemptquiznow'] = 'Probeer de test nu';
 $string['attempts'] = 'Pogingen';
 $string['attemptsallowed'] = 'Toegestane pogingen';
+$string['attemptsdeleted'] = 'Testpogingen verwijderd';
 $string['attemptselection'] = 'Kies welke pogingen per gebruiker je wil analyseren';
 $string['attemptsexist'] = 'Deze test is al eens geprobeerd';
 $string['attemptsonly'] = 'Toon enkel leerlingen met testpogingen';
@@ -135,6 +136,7 @@ $string['deleteattemptcheck'] = 'Ben je er zeker van dat je deze pogingen wil ve
 $string['deletequestioncheck'] = 'Weet je heel zeker dat je \'$a\' wilt verwijderen?';
 $string['deletequestionscheck'] = 'Weet je zeker dat je volgende vragen wil verwijderen? <div>$a</div>';
 $string['deleteselected'] = 'Selectie verwijderen';
+$string['deletingquestionattempts'] = 'Testpogingen aan het verwijderen';
 $string['description'] = 'Beschrijving';
 $string['discrimination'] = 'Discrim. Index';
 $string['displayoptions'] = 'Toon';
@@ -201,6 +203,7 @@ $string['filloutoneanswer'] = 'Je moet minstens één mogelijk antwoord invullen
 $string['filloutthreequestions'] = 'Je moet minstens drie vragen invullen. Niet ingevulde vragen zullen niet worden gebruikt.';
 $string['fillouttwochoices'] = 'Je moet minstens twee keuzemogelijkheden invullen. Lege keuzemogelijkheden zullen niet worden gebruikt.';
 $string['finishattempt'] = 'Bewaar alles en beëindig test';
+$string['finishreview'] = 'Nakijken beëindigen';
 $string['forceregeneration'] = 'maak nieuwe waarden';
 $string['formatnotfound'] = 'Import- / exportopmaak $a niet gevonden';
 $string['formatnotimplemented'] = 'Deze opmaak is niet juist geïmplementeerd. Stuur aub een bugrapport.';
@@ -233,6 +236,7 @@ $string['gradeboundary'] = 'Cijfermarge';
 $string['gradeessays'] = 'Beoordeel open vragen';
 $string['gradehighest'] = 'Hoogste cijfer';
 $string['grademethod'] = 'Beoordelingsmethode';
+$string['gradesdeleted'] = 'Cijfers van de test verwijderd';
 $string['gradesofar'] = '$a->method: $a->mygrade / $a->quizgrade';
 $string['gradingdetails'] = 'Punten voor deze inzending:
 $a->raw/$a->max';
@@ -249,6 +253,7 @@ $string['imagemissing'] = 'Afbeelding niet beschikbaar op lijn $a. De bestandsna
 $string['import'] = 'Importeer';
 $string['importcategory'] = 'importeer categorie';
 $string['importerror'] = 'Er is een fout opgetreden tijdens het importeren';
+$string['importerrorquestion'] = 'Fout bij het importeren van een vraag';
 $string['importfilearea'] = 'Importeer van een bestand uit de cursusbestanden';
 $string['importfileupload'] = 'Importeer van een geüpload bestand';
 $string['importfromthisfile'] = 'Importeer vanuit dit bestand';
@@ -261,6 +266,7 @@ $string['incorrect'] = 'Niet juist';
 $string['indivresp'] = 'Reacties van ieder afzonderlijk op elke vraag';
 $string['info'] = 'Info';
 $string['introduction'] = 'Inleiding';
+$string['invalidcategory'] = 'Categorie ID is ongeldig';
 $string['invalidnumericanswer'] = 'Eén van je antwoorden die je gaf, was geen geldig getal.';
 $string['invalidnumerictolerance'] = 'Eén van de toleranties die je gaf, was geen geldig getal.';
 $string['invalidsource'] = 'Deze bron is niet geldig';
@@ -419,6 +425,7 @@ $string['regradingquestion'] = '\"$a\" aan het herberekenen';
 $string['regradingquiz'] = 'Test \"$a\" aan het herberekenen';
 $string['relative'] = 'Relatief';
 $string['remove'] = 'Verwijder';
+$string['removeallquizattempts'] = 'Verwijder alle pogingen van de test';
 $string['rename'] = 'Hernoem';
 $string['renderingserverconnectfailed'] = 'De server $a slaagde er niet in een RQP aanvraag te verwerken. Controleer of de URL juist is.';
 $string['reordertool'] = 'Verander vraagvolgorde';
@@ -549,6 +556,8 @@ $string['wronggrade'] = 'Verkeerd cijfer (na lijn $a):';
 $string['wronguse'] = 'Je kunt deze pagina niet op die manier gebruiken';
 $string['xhtml'] = 'XHTML-opmaak';
 $string['xml'] = 'Moodle XML-formaat';
+$string['xmlimportnoname'] = 'Vraagnaam ontbreekt in XML-bestand';
+$string['xmlimportnoquestion'] = 'Tekst van de vraag ontbreekt in XML-bestand';
 $string['xmltypeunsupported'] = 'Vraagtype $a wordt niet ondersteund door XML-import';
 $string['yourfinalgradeis'] = 'Je eindcijfer voor deze test is $a';
 $string['zerosignificantfiguresnotallowed'] = 'Het juiste antwoord kan geen nul beduidende cijfers hebben!';

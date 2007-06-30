@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 1.9 dev (2007021501)
+      // qtype_datasetdependent.php - created with Moodle 1.9 dev (2007062401)
 
 
 $string['additem'] = 'Item toevoegen';
@@ -14,7 +14,9 @@ $string['datasetrole'] = 'De jokertekens <strong>{X..}</strong> zullen vervangen
 $string['deletelastitem'] = 'Verwijder laatste item';
 $string['forceregeneration'] = 'Forceer opnieuw aanmaken';
 $string['getnextnow'] = 'Haal nu een nieuw \'Toe te voegen item\'';
+$string['item(s)'] = 'item(s)';
 $string['itemno'] = 'Item $a';
+$string['itemscount'] = 'Items<br />Tel';
 $string['itemtoadd'] = 'Toe te voegen item';
 $string['loguniform'] = 'Loguniform';
 $string['minmax'] = 'Waardenreeks';

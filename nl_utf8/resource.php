@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 dev (2006100401)
+      // resource.php - created with Moodle 1.9 dev (2007062401)
 
 
 $string['addresource'] = 'Bron toevoegen';
@@ -9,6 +9,7 @@ $string['browserepository'] = 'Zoek in IMS-bibliotheek';
 $string['choose'] = 'Kies';
 $string['chooseafile'] = 'Kies of upload een bestand';
 $string['chooseparameter'] = 'Kies parameter';
+$string['clicktoopen'] = 'Klik op deze link om dit document te openen:';
 $string['configallowlocalfiles'] = 'Laat toe om bij het maken van een nieuwe bron links te maken naar een lokaal bestandssysteem zoals een CD-ROM station of een harde schijf. Dit kan nuttig zijn in klassituaties waar alle leerlingen toegang hebben tot gedeelde netwerkschijven of wanneer bestanden op een CD gebruikt moeten worden. Om deze functie te kunnen gebruiken kan het nodig zijn de beveiligingsinstellingen van de browser te wijzigen.';
 $string['configautofilerenamesettings'] = 'Automatisch verwijzingen naar bestanden en mappen aanpassen wanneer hernoemd via bestandsbeheer.';
 $string['configblockdeletingfilesettings'] = 'Bestanden en mappen die door bronnen in gebruik zijn beschermen tegen verwijderen. Merk op dat afbeeldingen en andere bestanden, gelinkt vanuit html-pagina\'s niet beschermd zijn.';
@@ -48,6 +49,7 @@ $string['frameifpossible'] = 'Toon de bron in een frame, zodat de navigatie zich
 $string['fulltext'] = 'Volledige tekst';
 $string['htmlfragment'] = 'HTML-fragment';
 $string['imspackageloaded'] = 'Pakket geladen';
+$string['keepnavigationvisible'] = 'Hou de navigatie zichtbaar op dezelfde pagina';
 $string['localfile'] = 'Lokaal bestand';
 $string['localfilechoose'] = 'Kies een lokaal bestand (CD-ROM)';
 $string['localfilehelp'] = 'Help bij het tonen van lokale bestanden';

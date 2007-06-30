@@ -1,12 +1,14 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 dev (2007021500)
+      // scorm.php - created with Moodle 1.9 dev (2007062401)
 
 
 $string['advanced'] = 'Geavanceerd';
 $string['asset'] = 'Set';
 $string['assetlaunched'] = 'Set - bekeken';
 $string['attempt'] = 'Poging';
+$string['attempt1'] = '1 poging';
 $string['attempts'] = 'Pogingen';
+$string['attemptsx'] = '$a pogingen';
 $string['attr_error'] = 'Foute waarde voor attribuut ($a->attr) in tag $a->tag.';
 $string['autocontinue'] = 'Ga automatisch verder';
 $string['averageattempt'] = 'Gemiddelde van pogingen';
@@ -28,11 +30,13 @@ $string['directories'] = 'Toon de links naar mappen';
 $string['display'] = 'Toon';
 $string['domxml'] = 'DOMXML externe bibliotheek';
 $string['element'] = 'Element';
+$string['enter'] = 'Start';
 $string['entercourse'] = 'Begin de SCORM/AICC-cursus';
 $string['errorlogs'] = 'Foutenlogboek';
 $string['everyday'] = 'Elke dag';
 $string['everytime'] = 'Elke keer wanneer gebruikt';
 $string['exit'] = 'Verlaat de SCORM/AICC-cursus';
+$string['exitactivity'] = 'Stop';
 $string['expcoll'] = 'Maximaliseer/Minimaliseer';
 $string['external'] = 'Timing update externe pakketten';
 $string['failed'] = 'Mislukt';
@@ -71,6 +75,7 @@ $string['menubar'] = 'Toon menubalk';
 $string['min'] = 'Min score';
 $string['missing_attribute'] = 'Attribuut ontbreekt $a->attr in tag $a->tag';
 $string['missing_tag'] = 'Ontbrekende tag $a->tag';
+$string['missingparam'] = 'Een vereiste parameter ontbreekt of is fout';
 $string['mode'] = 'Modus';
 $string['modulename'] = 'SCORM/AICC';
 $string['modulenameplural'] = 'SCORMS/AICCS';
@@ -91,7 +96,9 @@ $string['objectives'] = 'Objectieven';
 $string['onchanges'] = 'Bij wijziging';
 $string['organization'] = 'Organisatie';
 $string['organizations'] = 'Organisaties';
+$string['othersettings'] = 'Bijkomende instellingen';
 $string['othertracks'] = 'Andere sporen';
+$string['package'] = 'Verpakkingsbestand';
 $string['packagedir'] = 'Fout van het bestandssysteem: kan geen map voor het pakket maken';
 $string['packagefile'] = 'Je hebt geen bestand met een pakket gespecifieerd';
 $string['passed'] = 'Geslaagd';
@@ -134,6 +141,7 @@ $string['toolbar'] = 'Toon knoppenbalk';
 $string['totaltime'] = 'Totale tijd';
 $string['trackingloose'] = 'WAARSCHUWING: de gegevens voor opvolging van dit SCORM/AICC-pakket zullen verloren gaan';
 $string['type'] = 'Type';
+$string['unziperror'] = 'Er is een fout opgetreden bij het uitpakken van het pakket';
 $string['validateascorm'] = 'Bevestig een SCORM-pakket';
 $string['validation'] = 'Bevestigingsresultaat';
 $string['validationtype'] = 'Deze instelling maakt dat de DOMXML-bibliotheek gebruikt wordt voor de validatie van het SCORM MAnifest. Als je twijfelt laat dan de geselecteerde keuze staan.';

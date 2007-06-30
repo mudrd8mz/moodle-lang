@@ -40,6 +40,7 @@ $string['eventnone'] = 'Geen gebeurtenissen';
 $string['eventrepeat'] = 'Herhalingen';
 $string['eventsall'] = 'Alle activiteiten';
 $string['eventsfor'] = '$a activiteiten';
+$string['eventskey'] = 'Sleutel';
 $string['eventsrelatedtocourses'] = 'Activiteiten uit cursussen';
 $string['eventstarttime'] = 'Startuur';
 $string['eventtime'] = 'Uur';

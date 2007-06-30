@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 dev (2007032200)
+      // group.php - created with Moodle 1.9 dev (2007062401)
 
 
 $string['addgroupstogrouping'] = 'Voeg groepen aan groepering toe.';
 $string['adduserstogroup'] = 'Gebruikers toevoegen/verwijderen';
 $string['anygrouping'] = '[Alle groeperingen]';
+$string['backtogroups'] = 'Terug naar groepen';
 $string['cancel'] = 'Annuleer';
 $string['createautomaticgrouping'] = 'Maak automatisch groepering';
 $string['creategroup'] = 'Maak groep';
@@ -34,6 +35,7 @@ $string['errorinvalidgroup'] = 'Fout, ongeldige groep $a';
 $string['errorinvalidgrouping'] = 'Fout, ongeldige groepering $a';
 $string['errornotingrouping'] = 'Sorry, je kunt geen groep maken in $a';
 $string['errornotingroupingedit'] = 'Sorry, je kunt groepering $a niet bewerken';
+$string['existingmembers'] = 'Leden: $a';
 $string['group'] = 'Groep';
 $string['groupdescription'] = 'Groepsbeschrijving';
 $string['groupfor'] = 'voor groep';
@@ -53,6 +55,7 @@ $string['groupmode'] = 'Groepsmodus';
 $string['groupmodeforce'] = 'Forceer groepsmodus';
 $string['groupmy'] = 'Mijn groep';
 $string['groupname'] = 'Groepsnaam';
+$string['groupnameexists'] = 'De groepnaam \'$a\' bestaat al in deze cursus. Kies een andere.';
 $string['groupnotamember'] = 'Sorry, maar je bent geen lid van die groep';
 $string['groups'] = 'Groepen';
 $string['groupsinselectedgrouping'] = 'Groepen in geselecteerde groepering';
@@ -66,6 +69,7 @@ $string['newpicture'] = 'Nieuwe foto';
 $string['notingrouping'] = '[Niet in een groepering]';
 $string['numberofgroups'] = 'Aantal groepen';
 $string['numberofstudents'] = 'Aantal leerlingen';
+$string['potentialmembers'] = 'Mogelijke groepsleden: $a';
 $string['prefixforgroupnames'] = 'Prefix voor groepsnamen';
 $string['printerfriendly'] = 'Printervriendelijke overzichtspagina groeperingen';
 $string['removegroupfromselectedgrouping'] = 'Verwijder groep van geselecteeerde groepering';

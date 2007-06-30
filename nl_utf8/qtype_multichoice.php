@@ -1,9 +1,14 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.8 Beta (2007020400)
+      // qtype_multichoice.php - created with Moodle 1.9 dev (2007062401)
 
 
 $string['addmorechoiceblanks'] = 'Lege lijnen voor {no} meer keuzes';
 $string['answerhowmany'] = 'Een of meer antwoorden?';
+$string['answernumbering'] = 'Keuzes nummeren?';
+$string['answernumbering123'] = '1., 2., 3., ...';
+$string['answernumberingABC'] = 'A., B., C., ...';
+$string['answernumberingabc'] = 'a., b., c., ...';
+$string['answernumberingnone'] = 'Geen nummering';
 $string['answersingleno'] = 'Meerdere antwoorden toegelaten';
 $string['answersingleyes'] = 'Slechts één antwoord';
 $string['choiceno'] = 'Kies $a';

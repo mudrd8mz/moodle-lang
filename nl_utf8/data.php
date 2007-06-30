@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 dev (2007021402)
+      // data.php - created with Moodle 1.9 dev (2007062401)
 
 
 $string['action'] = 'Actie';
@@ -63,6 +63,8 @@ $string['deleted'] = 'verwijderd';
 $string['deletefield'] = 'Verwijder een bestaand veld';
 $string['deletewarning'] = 'Ben je zeker dat je deze sjabloonset wil verwijderen?';
 $string['descending'] = 'Aflopend';
+$string['directorynotapreset'] = '$a->directory Geen sjabloon: bestanden ontbreeken:
+$a-> missing_files';
 $string['download'] = 'Download';
 $string['edit'] = 'Bewerk';
 $string['editcomment'] = 'Bewerk commentaar';
@@ -79,6 +81,7 @@ $string['example'] = 'Voorbeeld van een databankmodule';
 $string['export'] = 'Exporteer';
 $string['exportaszip'] = 'Exporteer als zip';
 $string['exportedtozip'] = 'Geëxporteerd naar tijdelijke zip ...';
+$string['failedpresetdelete'] = 'Fout bij het verwijderen van een sjabloon';
 $string['fieldadded'] = 'Veld toegevoegd';
 $string['fieldallowautolink'] = 'Automatisch linken toegelaten';
 $string['fielddeleted'] = 'Veld verwijderd';
@@ -98,6 +101,7 @@ $string['fieldwidth'] = 'Breedte';
 $string['fieldwidthlistview'] = 'Breete in lijstscherm';
 $string['fieldwidthsingleview'] = 'Breedte in scherm per lijn';
 $string['file'] = 'Bestand';
+$string['filesnotgenerated'] = 'Niet alle bestanden werden aangemaakt: $a';
 $string['filtername'] = 'Databank automatisch linken';
 $string['footer'] = 'Voettekst';
 $string['forcelinkname'] = 'Geforceerde naam voor de link';
@@ -134,6 +138,7 @@ $string['modulename'] = 'Databank';
 $string['modulenameplural'] = 'Databanken';
 $string['more'] = 'Meer';
 $string['moreurl'] = 'Meer URL';
+$string['movezipfailed'] = 'Kan Zip niet verplaatsen';
 $string['multientry'] = 'Herhaald invoeren';
 $string['multimenu'] = 'Menu (meerdere selecties)';
 $string['multipletags'] = 'Meerdere tags gevonden! Sjabloon niet bewaard';
@@ -152,6 +157,7 @@ $string['nameurl'] = 'Veld voor URL';
 $string['newentry'] = 'Nieuw item';
 $string['newfield'] = 'Maak een nieuw veld';
 $string['noaccess'] = 'Je hebt geen toegang tot deze pagina';
+$string['nodefinedfields'] = 'Nieuw sjabloon heeft geen gedefiniëerde velden';
 $string['nofieldindatabase'] = 'Er zijn nog geen velden gedefinieerd voor deze databank. Voeg er enkele toe.';
 $string['nolisttemplate'] = 'Lijstsjabloon is nog niet gedefinieerd';
 $string['nomatch'] = 'Geen overeenkomende items gevonden';
@@ -215,6 +221,7 @@ $string['text'] = 'Tekst';
 $string['textarea'] = 'Tekstgebied';
 $string['todatabase'] = 'naar deze database';
 $string['type'] = 'Veldtype';
+$string['undefinedprocessactionmethod'] = 'Geenn methode gedefiniëerd in Data_Preset om de actie \"$a\" af te handelen.';
 $string['updatefield'] = 'Update een bestaand veld';
 $string['uploadfile'] = 'Upload bestand';
 $string['uploadrecords'] = 'Upload records uit een bestand';
@@ -222,5 +229,6 @@ $string['url'] = 'URL';
 $string['usestandard'] = 'gebruik een sjabloonset';
 $string['viewfromdate'] = 'Zichtbaar vanaf';
 $string['viewtodate'] = 'Zichtbaar voor';
+$string['wrongdataid'] = 'Verkeerd dataID opgegeven';
 
 ?>

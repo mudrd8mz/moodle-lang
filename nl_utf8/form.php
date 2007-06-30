@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8 dev (2007012500)
+      // form.php - created with Moodle 1.9 dev (2007062401)
 
 
 $string['addfields'] = 'Voeg $a velden toe aan formulier';
@@ -26,12 +26,15 @@ $string['month'] = 'Maand';
 $string['nomethodforaddinghelpbutton'] = 'Er is geen methode om een helpknop aan formulierelement $a->name (klasse $a->classname) toe  te voegen';
 $string['nonexistentformelements'] = 'Je probeert een helpknop toe te voegen aan een onbestaand formulierelement: $a';
 $string['optional'] = 'Optioneel';
+$string['othersettings'] = 'Meer instellingen';
 $string['requiredelement'] = 'Vereist veld';
-$string['requiredfield'] = 'Dit is een vereist veld';
+$string['revealpassword'] = 'Toon';
 $string['security'] = 'Beveiliging';
 $string['showadvanced'] = 'Toon geavanceerd';
 $string['somefieldsrequired'] = 'Er zijn vereiste velden in dit formulier';
 $string['timing'] = 'Timing';
+$string['unmaskpassword'] = 'Toon';
 $string['year'] = 'Jaar';
+$string['requiredfield'] = 'Dit is een vereist veld'; // ORPHANED
 
 ?>
