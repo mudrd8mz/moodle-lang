@@ -12,6 +12,7 @@ Archivos HELP y DOCS:
 	Antonio Vicent (avicent@telefonica.net)
 	Eloy Lafuente (stronk7@moodle.org)
 	Fermín Cueva (fcueva@teleline.es)
+	Benito Arias (barias@benitoarias.com)
 
 Coordinador de traducciones previas: 
 	Claudio Tavares (claudio@enlaceacademico.com)
@@ -19,14 +20,15 @@ Coordinador de traducciones previas:
 Colaboradores: 
 	Sergio Alfaro (salfaro@humanos.cl)
 	Pedro Benito (pedrusko@telefonica.net)
+	David Herney Bernal García (dhbernal@quimbaya.udea.edu.co)
 	Ricardo Dalton (moodle@avmed.com.ar)
 	David Delgado (davidds@aprend-d.com)
 	Emmanuelle Gutiérrez y Restrepo (emmanuelle@mi.madritel.es)
 	Mauricio Latorre (moodle@chubasco.org)
+	Juan David Martinez Pavony (juanmp@familia.com.co) 
 	Facundo Ortiz (facundooz@fibertel.com.ar)
 	Raúl Vernengo 
 	Sergio Zúñiga (szuniga@vtr.net)
-	Juan David Martinez Pavony (juanmp@familia.com.co) 
 
 La traducción de Moodle al español se actualiza prácticamente cada día, inmediatamente después de aparecer los correspondientes cambios en el original en inglés, o cada vez que se advierte cualquier error o expresión incorrectamente traducida. Puede conseguir la última versión en http://download.moodle.org/download.php/lang16/es_utf8.zip
 
