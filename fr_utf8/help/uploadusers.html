@@ -4,27 +4,27 @@
 
 <p>Notons avant tout qu'<strong>il n'est habituellement pas nécessaire d'importer des utilisateurs</strong> pour les inscrire. Pour réduire les interventions manuelles dans la gestion du site, il est préférable d'utiliser l'une des méthodes d'authentification proposées par Moodle. Par exemple, Moodle peut se connecter à une base de données externe, ou bien les utilisateurs peuvent créer leurs propres comptes. Voyez la section Authentification dans la page d'administration de votre site.</p>
 
-<p>Si vous désirez toutefois importer manuellement des comptes utilisateurs à partir d'un fichier texte, ce fichier doit être formaté de la façon suivante&nbsp;:</p>
+<p>Si vous désirez toutefois importer manuellement des comptes utilisateurs à partir d'un fichier texte, ce fichier doit être formaté de la façon suivante :</p>
 
 <ul>
 
-<li>chaque ligne du fichier contient un enregistrement&nbsp;;</li>
+<li>chaque ligne du fichier contient un enregistrement ;</li>
 
-<li>les données de chaque enregistrement sont séparées par une virgule&nbsp;;</li>
+<li>les données de chaque enregistrement sont séparées par une virgule ;</li>
 
 <li>le premier enregistrement contient le nom des champs qui composent les enregistrements.
 
 <blockquote>
 
-<p><strong>Champs requis&nbsp;:</strong> ces champs doivent être mentionnés dans le premier enregistrement et définis pour tous les utilisateurs</p>
+<p><strong>Champs requis :</strong> ces champs doivent être mentionnés dans le premier enregistrement et définis pour tous les utilisateurs</p>
 
 <p style="color: #990000; font-family: Courier New, Courier, mono;">username, password, firstname, lastname, email</p>
 
-<p><strong>Champs par défaut&nbsp;:</strong> ces champs sont optionnels - s'ils ne sont pas inclus, leurs valeurs seront les mêmes que celles de l'administrateur principal du site</p>
+<p><strong>Champs par défaut :</strong> ces champs sont optionnels - s'ils ne sont pas inclus, leurs valeurs seront les mêmes que celles de l'administrateur principal du site</p>
 
 <p style="color: #990000; font-family: Courier New, Courier, mono;">institution, department, city, country, lang, auth, timezone</p>
 
-<p><strong>Champs optionnels&nbsp;:</strong> tous ces champs sont optionnels. Les noms de cours utilisés (course1, course2, etc.) sont les « Noms abrégés&nbsp;» des cours. Si un ou des noms de cours sont mentionnés, l'utilisateur sera inscrit comme étudiant à ce ou ces cours. Les noms des groupes doivent correspondre au cours dans lesquels ils sont définis, dans l'exemple ci-dessous, le <code style="font-size: 12pt; color: #990000;">group1</code> est défini dans le <code style="font-size: 12pt; color: #990000;">course1</code>, etc.</p>
+<p><strong>Champs optionnels :</strong> tous ces champs sont optionnels. Les noms de cours utilisés (course1, course2, etc.) sont les « Noms abrégés » des cours. Si un ou des noms de cours sont mentionnés, l'utilisateur sera inscrit comme étudiant à ce ou ces cours. Les noms des groupes doivent correspondre au cours dans lesquels ils sont définis, dans l'exemple ci-dessous, le <code style="font-size: 12pt; color: #990000;">group1</code> est défini dans le <code style="font-size: 12pt; color: #990000;">course1</code>, etc.</p>
 
 <p style="color: #990000; font-family: Courier New, Courier, mono;">idnumber, icq, phone1, phone2, address, url, description, mailformat, maildisplay, htmleditor, autosubscribe, course1, course2, course3, course4, course5, group1, group2, group3, group4, group5</p>
 
@@ -32,7 +32,7 @@
 
 </li>
 
-<li>les virgules faisant partie des données doivent être remplacées par le code &amp;#44. Le script d'importation transformera automatiquement ce code en virgule&nbsp;;</li>
+<li>les virgules faisant partie des données doivent être remplacées par le code &amp;#44. Le script d'importation transformera automatiquement ce code en virgule ;</li>
 
 <li>utilisez 1 pour oui/vrai et 0 pour non/faux dans les champs Oui/Non ou Vrai/Faux.</li>
 
@@ -40,7 +40,7 @@
 
 </ul>
 
-<p>Voici un exemple d'un fichier valide&nbsp;:</p>
+<p>Voici un exemple d'un fichier valide :</p>
 
 <p style="font-size: 10pt; font-family: Courier New, Courier, mono;">username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1<br />
 
