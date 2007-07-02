@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 dev (2007041100)
+      // resource.php - created with Moodle 1.9 dev (2007063001)
 
 
 $string['addresource'] = 'リソースを追加する';
@@ -27,8 +27,8 @@ $string['configpopupscrollbars'] = 'ポップアップウィンドウをデフ�
 $string['configpopupstatus'] = 'ポップアップウィンドウにデフォルトでステータスバーを表示しますか?';
 $string['configpopuptoolbar'] = 'ポップアップウィンドウにデフォルトでツールバーを表示しますか?';
 $string['configpopupwidth'] = '新しいポップアップウィンドウのデフォルトの幅は?';
-$string['configsecretphrase'] = 'このシークレットワードは、リソースをパラメータとして送信する場合、暗号コードを生成するため使用されます。暗号コードは、current_users IPアドレスとシークレットワードを結びつけてmd5により生成されます。例 code = md5(IP.secretphrase)。これにより、転送先のリソースが、高度なセキュリティ認証を行うことができます。';
-$string['configwebsearch'] = 'URLをウェブページまたはリンクとして追加する場合、このロケーションは、ユーザがURLを検索するためのヘルプとして提供されます。';
+$string['configsecretphrase'] = 'このシークレットワードは、リソースをパラメータとして送信する場合、暗号コードを生成するため使用されます。暗号コードは、current_users IPアドレスとシークレットワードを結びつけてmd5により生成されます。例) code = md5(IP.secretphrase)。これにより、転送先のリソースが、高度なセキュリティ認証を行うことができます。';
+$string['configwebsearch'] = 'URLをウェブページまたはリンクとして追加する場合、このロケーションはユーザがURLを検索するためのヘルプとして提供されます。';
 $string['configwindowsettings'] = '新しいリソースを登録する場合、ウィンドウ設定に関する初期値を設定できるウィンドウ枠を表示します。最初にリソースを登録した後、この値は各ユーザのデフォルトとなります。';
 $string['deploy'] = '配置';
 $string['deployall'] = 'すべてを配置';
@@ -42,7 +42,7 @@ $string['example'] = '例';
 $string['exampleurl'] = 'http://www.example.com/somedirectory/somefile.html';
 $string['fetchclienterror'] = 'ウェブページの検索している時、ウェブクライアントにエラーが発生しました。URLが間違っていると思われます。';
 $string['fetcherror'] = 'ウェブページを検索している時、エラーが発生しました。';
-$string['fetchservererror'] = 'ウェブページを検索している時、リモートサーバにエラーが発生しました。プログラムエラーだと思われます。';
+$string['fetchservererror'] = 'ウェブページ検索中、リモートサーバにエラーが発生しました。プログラムエラーだと思われます。';
 $string['filename'] = 'ファイル名';
 $string['filtername'] = 'リソース名オートリンク';
 $string['frameifpossible'] = 'ナビゲーションを表示したままにするため、リソースをフレーム内に表示する';
@@ -72,7 +72,7 @@ $string['newresizable'] = 'ウィンドウのリサイズを許可する';
 $string['newscrollbars'] = 'ウィンドウのスクロールを許可する';
 $string['newstatus'] = 'ステータスバーを表示する';
 $string['newtoolbar'] = 'ツールバーを表示する';
-$string['newwidth'] = 'デフォルトウンドウ幅 (ピクセル)';
+$string['newwidth'] = 'デフォルトウィンドウ幅 (ピクセル)';
 $string['newwindow'] = '新しいウィンドウ';
 $string['newwindowopen'] = 'ポップアップウィンドウにリソースを表示する';
 $string['next'] = '次へ';
@@ -81,8 +81,8 @@ $string['notdeployed'] = '未配置';
 $string['note'] = '注意';
 $string['notefile'] = 'さらにファイルをアップロード (このリストに表示されます) する場合、<a href=$a >ファイルマネージャー</a> を利用してください。';
 $string['notypechosen'] = 'タイプを選択してください。「戻る」ボタンを押して再度入力してください。';
-$string['packagechanged'] = 'IMS学習者情報パッケージが変更されました。';
-$string['packagenotdeplyed'] = 'このIMS学習者情報パッケージは配置されません。';
+$string['packagechanged'] = 'IMSコンテンツパッケージが変更されました。';
+$string['packagenotdeplyed'] = 'このIMSコンテンツパッケージは配置されません。';
 $string['pagedisplay'] = 'リソースを現在のウィンドウに表示する';
 $string['pagewindow'] = '同一ウィンドウ';
 $string['pan'] = 'Pan';
@@ -108,7 +108,7 @@ $string['resourcetype9'] = 'ディレクトリ';
 $string['resourcetypedirectory'] = 'ディレクトリの表示';
 $string['resourcetypefile'] = 'ファイルまたはウェブサイトにリンク';
 $string['resourcetypehtml'] = 'ウェブページの作成';
-$string['resourcetypeims'] = 'IMS学習者情報パッケージの配置';
+$string['resourcetypeims'] = 'IMSコンテンツパッケージの追加';
 $string['resourcetypelabel'] = 'ラベルの挿入';
 $string['resourcetyperepository'] = 'リポジトリオブジェクトにリンク';
 $string['resourcetypetext'] = 'テキストページの作成';
@@ -119,7 +119,7 @@ $string['skipsubmenus'] = 'サブメニューページをスキップする';
 $string['tableofcontents'] = '目次';
 $string['upbutton'] = 'UP';
 $string['variablename'] = '変数名';
-$string['viewims'] = 'IMS学習者情報パッケージの表示';
+$string['viewims'] = 'IMSコンテンツパッケージの表示';
 $string['vol'] = 'Vol';
 $string['warningblockingdelete'] = '警告: 削除処理は既存のリソースによりブロックされています。あなたのリソースを最初に更新するか、管理者に依頼して、リソースモジュールの管理画面で、このセーフティーメカニズムを無効にしてください。';
 $string['warningdisabledrename'] = '警告: リソースにおける参照の自動リネームは無効にされています。必要に応じて、影響を受けるリソースを手動で更新してください。自動リネームは、管理者がリソースモジュールの管理画面で有効にすることもできます。';
