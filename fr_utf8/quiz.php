@@ -529,6 +529,7 @@ $string['timedelay'] = 'Vous ne pouvez effectuer le test maintenant, car le dél
 $string['timeleft'] = 'Temps restant';
 $string['timelimit'] = 'Temps disponible';
 $string['timelimitexeeded'] = 'Désolé ! La limite de temps est échue !';
+$string['timelimitmin'] = 'Temps disponible (minutes)';
 $string['timestr'] = '%%H:%%M:%%S, le %%d.%%m.%%y';
 $string['timesup'] = 'Le chrono est enclenché !';
 $string['timetaken'] = 'Temps mis';
