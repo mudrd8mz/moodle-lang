@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007062401)
+      // quiz.php - created with Moodle 1.9 dev (2007063001)
 
 
 $string['1day'] = '1日';
@@ -534,6 +534,7 @@ $string['timedelay'] = '次の小テストを受験するまでの待ち時間�
 $string['timeleft'] = '残り時間';
 $string['timelimit'] = '制限時間';
 $string['timelimitexeeded'] = '申し訳ございません! 小テストの制限時間を経過しました!';
+$string['timelimitmin'] = '制限時間 (分)';
 $string['timestr'] = '%%y/%%m/%%d  %%H:%%M:%%S';
 $string['timesup'] = '時間終了!';
 $string['timetaken'] = '所要時間';

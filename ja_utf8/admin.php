@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007062401)
+      // admin.php - created with Moodle 1.9 dev (2007063001)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -113,6 +113,7 @@ $string['configfrontpageloggedin'] = '上記で選択したアイテムは、ユ
 $string['configfullnamedisplay'] = 'ここでは、名前がどのように表示されるか設定します。単一言語を使用したほとんどのサイトでは「名 + 姓」を使用した方が良いでしょう。しかし、名字を隠したり、言語設定に添った形 (いくつかの言語では異なる並び) の並びにすることも可能です。';
 $string['configgdversion'] = 'サーバにGDがインストールされている場合、そのバージョンを選択してください。初期値として表示されているバージョンは自動的に検知されたものです。分からない場合はそのままにしてください。';
 $string['configgradebookroles'] = 'ここでは、誰が評定表に表示されるか設定することができます。ユーザがコースの評定表で表示されるためには、これらの中から少なくとも１つのロールを割り当ててください。';
+$string['configgradeexport'] = 'どの評定表エクスポートフォーマットをあなたの主要な評定表エクスポート方法にするか選択してください。選択されたフォーマットのプラグインが設定され、すべての評定の「最新エクスポート」フィールドに使用されます。例えば、エクスポートされたレコードは、「新規」または「更新」レコードとして認識されます。あなたがこのことに関して自信がない場合、すべてをチェックしないままにしてください。';
 $string['configguestroleid'] = 'このロールは自動的にゲストに割り当てられます。また、パスワードなしで受講できるコースに入ったユーザに対しても一時的に割り当てられます。このロールが「moodle/legacy:guest」および「moodle/course:view」ケーパビリティを持っているか確認してください。';
 $string['confighiddenuserfields'] = 'コース教師/管理者以外のユーザに隠したいユーザ情報フィールドを選択してください。この設定により、ユーザのプライバシーを強化することができます。複数のフィールドを選択するには、CTRLキーを押したままにしてください。';
 $string['confighideactivitytypecrumb'] = '活動モジュールで表示されるブレッドクラム内の活動タイプ (例 小テスト) クラムを誰に非表示にするか選択してください。';
@@ -320,6 +321,7 @@ $string['globalsquoteswarning'] = '<p><strong>セキュリティ警告</strong>:
 $string['gotofirst'] = '最初の未翻訳ストリングに移動する';
 $string['gradebook'] = '評定表';
 $string['gradebookroles'] = '評定表のロール';
+$string['gradeexport'] = '主要な評定表エクスポート方法';
 $string['guestroleid'] = 'ゲストのロール';
 $string['helpadminseesall'] = '管理者はすべてのカレンダーイベントを閲覧または自分自身のイベントとすることができますか?';
 $string['helpcalendarsettings'] = 'Moodleのカレンダーおよび日付/時間に関する様々な設定を行います。';
