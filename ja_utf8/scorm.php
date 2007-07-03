@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 dev (2007062008)
+      // scorm.php - created with Moodle 1.9 dev (2007063001)
 
 
+$string['activation'] = 'アクティベーション';
 $string['advanced'] = '詳細設定';
 $string['asset'] = 'アセット';
 $string['assetlaunched'] = 'アセット - 閲覧済み';
@@ -94,6 +95,7 @@ $string['not_corr_type'] = 'タグ $a->tag のタイプが合致しません。'
 $string['notattempted'] = '未受験';
 $string['objectives'] = '学習目標';
 $string['onchanges'] = '変更時いつでも';
+$string['options'] = 'オプション';
 $string['organization'] = '組織';
 $string['organizations'] = '組織';
 $string['othersettings'] = '追加設定';
@@ -124,7 +126,7 @@ $string['scorm:viewscores'] = '評点を表示する';
 $string['scormcourse'] = '学習コース';
 $string['scrollbars'] = 'ウィンドウのスクロールを許可する';
 $string['sided'] = '左側';
-$string['skipview'] = '学生はコンテンツ構造ページをスキップする';
+$string['skipview'] = '学生によるコンテンツ構造ページスキップ';
 $string['stagesize'] = 'ステージサイズ';
 $string['started'] = '開始日時';
 $string['status'] = 'ステータス';
@@ -142,6 +144,7 @@ $string['totaltime'] = '時間';
 $string['trackingloose'] = '警告: このパッケージのトラッキングデータは消滅します!';
 $string['type'] = 'タイプ';
 $string['unziperror'] = 'パッケージの解凍処理中にエラーが発生しました。';
+$string['updatefreq'] = '自動更新の頻度';
 $string['validateascorm'] = 'パッケージの確認';
 $string['validation'] = '確認結果';
 $string['validationtype'] = 'ここでは、SCORMマニフェストファイルを確認するDOMXMLライブラリを設定します。分からない場合は、このままにしてください。';
