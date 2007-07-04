@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7 beta 2 (2006101003)
+      // glossary.php - created with Moodle 1.8 (2007021501)
 
 
 $string['addcomment'] = 'Skrá athugasemd';
@@ -88,6 +88,7 @@ $string['entryishidden'] = '(færslan er falin)';
 $string['entrysaved'] = 'Færslan hefur verið vistuð';
 $string['entryupdated'] = 'Færslan hefur verið uppfærð';
 $string['entryusedynalink'] = 'Þessi færsla er sjálfvirkt tengd við samsvarandi orð í texta';
+$string['errcannoteditothers'] = 'Þú getur ekki breytt færslum annarra notenda.';
 $string['explainaddentry'] = 'Nýrri færslu bætt við safnið.<br>
 Nauðsynlegt er að fylla út reitina \"Hugtak\" og \"skilgreining\".';
 $string['explainall'] = 'Birtir allar færslur á sömu síðu';

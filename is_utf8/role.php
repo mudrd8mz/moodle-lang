@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 beta 2 (2006101003)
+      // role.php - created with Moodle 1.8 (2007021501)
 
 
 $string['addrole'] = 'Nýtt hlutverk';
@@ -49,6 +49,8 @@ $string['currentrole'] = 'Núverandi hlutverk';
 $string['defaultrole'] = 'Sjálfgefið hlutverk';
 $string['defineroles'] = 'Skilgreina hlutverk';
 $string['deleterolesure'] = 'Viltu örugglega eyða hlutverkinu \"$a->name ($a->shortname)\"?</p><p>Nú þegar eru $a->count notendur skipaðir í þetta hlutverk.';
+$string['duplicaterole'] = 'Afrita hlutverk';
+$string['duplicaterolesure'] = 'Viltu örugglega afrita hlutverið \"$a->name ($a->shortname)\"?</p>';
 $string['editrole'] = 'Breyta hlutverki';
 $string['errorbadrolename'] = 'Rangt nafn á hlutverki';
 $string['errorbadroleshortname'] = 'Rangt nafn á hlutverki';
@@ -62,6 +64,7 @@ $string['legacy:editingteacher'] = 'LEGACY ROLE: kennari (ritheimild)';
 $string['legacy:guest'] = 'LEGACY ROLE: Gestur';
 $string['legacy:student'] = 'LEGACY ROLE: Nemandi';
 $string['legacy:teacher'] = 'LEGACY ROLE: Kennari (án ritheimildar)';
+$string['legacy:user'] = 'LEGACY ROLE: Auðkenndur notandi';
 $string['listallroles'] = 'Birta öll hlutverk';
 $string['manageroles'] = 'Sýsla með hlutverk';
 $string['metaassignerror'] = 'Ekki var hægt að skipa \"$a\" í þetta hlutverk vegna þess að viðkomandi hefur ekki heimild til að sýsla með lýsiáfanga.';
@@ -77,6 +80,8 @@ $string['question:export'] = 'Flytja út spurningar';
 $string['question:import'] = 'Flytja inn spurningar';
 $string['question:manage'] = 'Sýsla með spurningar';
 $string['question:managecategory'] = 'Sýsla með spurningaflokka';
+$string['resetrole'] = 'Endursetja sjálfgefin gildi';
+$string['resetrolenolegacy'] = 'Hreinsa heimildir';
 $string['risks'] = 'Áhættur';
 $string['role:assign'] = 'Skipa notendum í hlutverk';
 $string['role:manage'] = 'Búa til og sýsla með hlutverk';

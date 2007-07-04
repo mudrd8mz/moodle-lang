@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 beta 2 (2006101003)
+      // enrol_authorize.php - created with Moodle 1.8 (2007021501)
 
 
 $string['adminacceptccs'] = 'Hvaða tegundir korta eru heimilaðar';
@@ -37,9 +37,11 @@ $string['refund'] = 'Endurgreiða';
 $string['refunded'] = 'Endurgreitt';
 $string['sendpaymentbutton'] = 'Senda greiðslu';
 $string['tested'] = 'Prófað';
+$string['testmode'] = '[Prufuhamur]';
 $string['underreview'] = 'Til skoðunar';
 $string['unenrolstudent'] = 'Útskrá nemanda?';
 $string['uploadcsv'] = 'Flytja inn CSV skrá';
+$string['youcantdo'] = 'Þú getur ekki framkvæmt þessa aðgerð:$a->action';
 $string['zipcode'] = 'Póstnúmer';
 
 ?>

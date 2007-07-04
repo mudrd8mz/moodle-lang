@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.7 beta 2 (2006101003)
+      // choice.php - created with Moodle 1.8 (2007021501)
 
 
 $string['addmorechoices'] = 'Bæta við valmöguleikum';
@@ -16,6 +16,7 @@ $string['choicetext'] = 'Veldu texta';
 $string['displayhorizontal'] = 'Birta lárétt';
 $string['displaymode'] = 'Birtingarmáti';
 $string['displayvertical'] = 'Birta lóðrétt';
+$string['fillinatleastoneoption'] = 'Þú verður að gefa upp í það minnsta tvo valkosti.';
 $string['full'] = '(Fullt)';
 $string['havetologin'] = 'Þú verður að vera innskráð/ur áður en þú getur svarað spurningunni';
 $string['limit'] = 'Takmörk';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 beta 2 (2006101003)
+      // assignment.php - created with Moodle 1.8 (2007021501)
 
 
 $string['allowdeleting'] = 'Heimila nemendum að eyða verkefnaskilum';
@@ -95,6 +95,7 @@ $string['typeoffline'] = 'Ekki skila gegnum Moodle';
 $string['typeonline'] = 'Textaskil á Netinu';
 $string['typeupload'] = 'Ítarleg skráarskil';
 $string['typeuploadsingle'] = 'Nemandi sendir eina skrá';
+$string['unfinalize'] = 'Til baka í uppkast';
 $string['uploadbadname'] = 'Þetta skráarnafn innihélt óleyfileg tákn og var því skráin ekki send';
 $string['uploadedfiles'] = 'innsendar skrár';
 $string['uploaderror'] = 'Villa kom upp við vistun á vefþjóni';

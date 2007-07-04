@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 beta 2 (2006101003)
+      // forum.php - created with Moodle 1.8 (2007021501)
 
 
 $string['addanewdiscussion'] = 'Nú umræða';
@@ -10,6 +10,7 @@ $string['allforums'] = 'Allar umræður';
 $string['allowchoice'] = 'Leyfa öllum að velja';
 $string['allowdiscussions'] = 'Getur $a sent innlegg í þessa umræðu?';
 $string['allowratings'] = 'Á að heimila mat á umræðum?';
+$string['allowsallsubscribe'] = 'Áskrift að þessari umræðu er valkvæm';
 $string['allowsdiscussions'] = 'Þessi umræða leyfir hverjum notanda að setja inn eitt umræðuefni.';
 $string['allsubscribe'] = 'Gerast áskrifandi að öllum umræðum';
 $string['allunsubscribe'] = 'Afturkalla allar áskriftir';
@@ -64,11 +65,15 @@ $string['editedby'] = '$a->name breytti þann - $a->date';
 $string['editing'] = 'Breyti';
 $string['emptymessage'] = 'Eitthvað var athugavert við sendinguna. Ef til vill vantaði allan texta eða viðhengið var of stórt. Breytingar hafa EKKI verið vistaðar.';
 $string['everyonecanchoose'] = 'Öllum er heimil áskrift að þessari umræðu';
+$string['everyonecannowchoose'] = 'Áskrift er núna valkvæm';
+$string['everyoneisnowsubscribed'] = 'Áskrift er núna skilyrt';
 $string['everyoneissubscribed'] = 'Allir þátttakendur eru áskrifendur að þessari umræðu';
 $string['existingsubscribers'] = 'Áskrifendur';
+$string['forcessubscribe'] = 'Áskrift að þessari umræðu er skilyrt';
 $string['forcesubscribe'] = 'Skilyrða áskrift';
 $string['forcesubscribeq'] = 'Skilyrða áskrift';
 $string['forum'] = 'Umræða';
+$string['forum:addnews'] = 'Nýjar fréttir';
 $string['forum:createattachment'] = 'Skrá viðhengi';
 $string['forum:deleteanypost'] = 'Eyða innleggjum (hvenær sem er)';
 $string['forum:deleteownpost'] = 'Eyða eigin innleggjum (innan tímamarka)';
@@ -76,6 +81,7 @@ $string['forum:editanypost'] = 'Breyta hvaða innleggi sem er';
 $string['forum:managesubscriptions'] = 'Sýsla með áskriftir';
 $string['forum:movediscussions'] = 'Færa til umræður';
 $string['forum:rate'] = 'Meta innlegg';
+$string['forum:replynews'] = 'Svara fréttum';
 $string['forum:replypost'] = 'Svara innleggjum';
 $string['forum:splitdiscussions'] = 'Kljúfa umræður';
 $string['forum:startdiscussion'] = 'Mynda nýjar umræður';
@@ -126,8 +132,10 @@ $string['movedmarker'] = '(fært)';
 $string['movethisdiscussionto'] = 'Færa þessa umræðu til ...';
 $string['namenews'] = 'Fréttaþing';
 $string['namesocial'] = 'Félagslegur umræðuvettvangur';
+$string['nameteacher'] = 'Umræða kennara';
 $string['newforumposts'] = 'Ný innlegg í umræðuna';
 $string['nodiscussions'] = 'Engin umræða hafin ennþá';
+$string['nodiscussionsstartedby'] = 'Þessi notandi hefur ekki hafið neina umræðu';
 $string['noguestpost'] = 'Því miður, gestir hafa ekki leyfi til að taka þátt í umræðum.';
 $string['noguestsubscribe'] = 'Því miður, gestum er ekki heimilt að gerast áskrifendur að umræðum.';
 $string['noguesttracking'] = 'Því miður, þessi aðgerð er ekki heimil fyrir gesti.';

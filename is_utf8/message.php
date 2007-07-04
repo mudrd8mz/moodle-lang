@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // message.php - created with Moodle 1.8 (2007021501)
 
 
 $string['addcontact'] = 'Nýr tengiliður';
@@ -33,7 +33,9 @@ $string['messagehistory'] = 'Yfirlit skilaboða';
 $string['messages'] = 'Skilaboð';
 $string['messaging'] = 'Sendi';
 $string['mycontacts'] = 'Mínir tengiliðir';
+$string['newonlymsg'] = 'Birta einungis ný';
 $string['newsearch'] = 'Ný leit';
+$string['noframesjs'] = 'Útgáfa án ramma og javascript';
 $string['nomessages'] = 'Engin skilaboð bíða';
 $string['nomessagesfound'] = 'Engin skilaboð fundin';
 $string['nosearchresults'] = 'Leitin skilaði engri niðurstöðu';

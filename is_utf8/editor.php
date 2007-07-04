@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.7 beta 2 (2006101003)
+      // editor.php - created with Moodle 1.8 (2007021501)
 
 
 $string['about'] = 'Um þennan ritil';
@@ -52,10 +52,12 @@ $string['insertlink'] = 'Ný krækja';
 $string['insertsmile'] = 'Broskarl';
 $string['inserttable'] = 'Ný tafla';
 $string['italic'] = 'Skáletrun';
+$string['itemsreplaced'] = 'skiptingar!';
 $string['justifycenter'] = 'Miðjun';
 $string['justifyfull'] = 'Fulljöfnun';
 $string['justifyleft'] = 'Vinstrijöfnun';
 $string['justifyright'] = 'Hægrijöfnun';
+$string['lang'] = 'Tungumál';
 $string['layout'] = 'Útlit';
 $string['left'] = 'Vinstri';
 $string['lefttoright'] = 'Frá vinstri til hægri';
@@ -72,6 +74,8 @@ $string['matchcase'] = 'Stafstaða skiptir máli';
 $string['middle'] = 'Miðja';
 $string['minimize'] = 'Minnka ritil';
 $string['move'] = 'Færa';
+$string['multi'] = 'Fjöl';
+$string['mustenterurl'] = 'Þú verður að skrá netfang';
 $string['nolink'] = 'Hindra sjálfvirka tengingu';
 $string['normal'] = 'Normal';
 $string['notimage'] = 'Skráin sem þú hefur valið er ekki mynd. Vinsamlegast veldu mynd!';
@@ -84,6 +88,7 @@ $string['paste'] = 'Líma af klippispjaldi';
 $string['path'] = 'Slóð';
 $string['percent'] = 'Prósentur';
 $string['pixels'] = 'Pixlar';
+$string['pleaseenteralt'] = 'Vinsamlegast skráðu ALT texta';
 $string['popupeditor'] = 'Stækka ritil';
 $string['preformatted'] = 'Forsniðið';
 $string['preview'] = 'Forskoða';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7 beta 2 (2006101003)
+      // moodle.php - created with Moodle 1.8 (2007021501)
 
 
 $string['action'] = 'Aðgerð';
@@ -108,10 +108,12 @@ $string['alphabet'] = 'A,Á,B,C,D,Ð,E,É,F,G,H,I,Í,J,K,L,M,N,O,Ó,P,Q,R,S,T,U,
 $string['alphanumerical'] = 'Getur aðeins innihaldið bókstafi og/eða tölur';
 $string['alreadyconfirmed'] = 'Skrásetning hefur þegar verið staðfest';
 $string['always'] = 'Alltaf';
+$string['and'] = '$a->one og $a->two';
 $string['answer'] = 'Svar';
 $string['approve'] = 'Samþykkja';
 $string['areyousuretorestorethis'] = 'Viltu halda áfram?';
 $string['areyousuretorestorethisinfo'] = 'Síðar í afritunarferlinu færð þú kost á því að gera þetta afrit hluta af áfanga sem þegar er til staðar eða mynda með því nýjan áfanga.';
+$string['asc'] = 'Hækkandi röð';
 $string['assessment'] = 'Námsmat';
 $string['assignadmins'] = 'Skilgreina kerfisstjóra';
 $string['assigncreators'] = 'Skilgreina áfangastjóra';
@@ -120,7 +122,10 @@ $string['assignstudents'] = 'Innrita nemendur';
 $string['assignstudentsnote'] = 'Ath. Hugsanlega er ekki nauðsynlegt að nota þessa síðu þar sem nemendur geta sjálfir skráð sig í áfanga.';
 $string['assignstudentspass'] = 'All sem þú þarft að gera er að láta nemendur vita af skráningarlykli námskeiðsins, sem er \'$a\'';
 $string['assignteachers'] = 'Skrá kennara';
-$string['authentication'] = 'Staðfesting';
+$string['authenticateduser'] = 'Sannvottaður notandi';
+$string['authenticateduserdescription'] = 'Allir innskráðir notendur';
+$string['authentication'] = 'Auðkenning';
+$string['authenticationplugins'] = 'Sannvottunar íbætur';
 $string['autosubscribe'] = 'Sjálfvirk áskrift að umræðu';
 $string['autosubscribeno'] = 'Nei, ég vil ekki sjálfvirka áskrift að umræðum';
 $string['autosubscribeyes'] = 'Já, þegar ég sendi innlegg vil ég sjálfvirkt gerast áskrifandi að viðkomandi umræðu';
@@ -172,6 +177,7 @@ $string['byname'] = 'höfundur: $a';
 $string['bypassed'] = 'Stiklað yfir';
 $string['cachecontrols'] = 'Stillingar á flýtiminni';
 $string['cancel'] = 'Hætta við';
+$string['cancelled'] = 'Hætt var við';
 $string['categories'] = 'Deildir/brautir';
 $string['category'] = 'Deild/braut';
 $string['categoryadded'] = 'Flokknum \'$a\' var bætt við';
@@ -192,6 +198,7 @@ $string['checknone'] = 'Athuga ekkert';
 $string['childcoursenotfound'] = 'Undiráfangi fannst ekki';
 $string['childcourses'] = 'Undiráfangar';
 $string['choose'] = 'Velja';
+$string['chooseauthmethod'] = 'Veldu auðkenniaðferð';
 $string['choosecourse'] = 'Veldu áfanga';
 $string['chooseenrolmethod'] = 'Skráningarform';
 $string['chooselivelogs'] = 'Eða fylgjast með núverandi viðfangsefni';
@@ -257,6 +264,7 @@ $string['courseinfo'] = 'Upplýsingar um áfanga';
 $string['coursemessage'] = 'Senda nemendum skilaboð';
 $string['coursenotaccessible'] = 'Þessi áfangi er ekki opinn almenningi';
 $string['courseoverview'] = 'Yfirlit áfanga';
+$string['courseoverviewgraph'] = 'Yfirlitsgraf áfanga';
 $string['coursereject'] = 'Hafna áfanga';
 $string['courserejected'] = 'Áfanganum hefur verið hafnað og umsækjanda send tilkynning þess eðlis.';
 $string['courserejectemail'] = 'Því miður, beiðni þinni um áfanga hefur verið hafnað. Ástæðan er eftirfarandi: $a';
@@ -287,6 +295,7 @@ $string['creatingcoursemodules'] = 'Mynda kerfiseiningar';
 $string['creatingcourseroles'] = 'Mynda hlutverkaskipanir og endurskipanir hlutverka fyrir áfanga';
 $string['creatingevents'] = 'Mynda viðfangsefni';
 $string['creatinggradebook'] = 'Mynda einkunnabók';
+$string['creatinggroupings'] = 'Mynda hópa';
 $string['creatinggroups'] = 'Mynda hópa';
 $string['creatinglogentries'] = 'Mynda skráningar í leiðarbók';
 $string['creatingmessagesinfo'] = 'Mynda upplýsingar um skilaboð';
@@ -315,6 +324,7 @@ $string['databasesetup'] = 'Set upp gagnagrunn';
 $string['databasesuccess'] = 'Gagnagrunnur uppfærður';
 $string['databaseupgradebackups'] = 'Útgáfa afrits er $a';
 $string['databaseupgradeblocks'] = 'Útgáfa blokka er $a';
+$string['databaseupgradegroups'] = 'Útgáfa hópa er núna $a';
 $string['databaseupgradelocal'] = 'Útgáfa staðværs gagnagrunns er:$a';
 $string['databaseupgrades'] = 'Uppfæri gagnagrunn';
 $string['date'] = 'Dags.';
@@ -353,6 +363,7 @@ $string['deletingcourse'] = 'Eyði $a';
 $string['deletingexistingcoursedata'] = 'Eyði núverandi upplýsingum um áfanga';
 $string['deletingolddata'] = 'Eyði gömlum gögnum';
 $string['department'] = 'Deild';
+$string['desc'] = 'Lækkandi röð';
 $string['description'] = 'Lýsing';
 $string['deselectall'] = 'Afturkalla val';
 $string['detailedless'] = 'Almenn lýsing';
@@ -367,6 +378,7 @@ $string['documentation'] = 'Moodle leiðbeiningar';
 $string['donotask'] = 'Ekki spyrja';
 $string['down'] = 'Niður';
 $string['downloadexcel'] = 'Sækja á Excelsniði';
+$string['downloadods'] = 'Sækja á ODS sniði';
 $string['downloadtext'] = 'Sækja á textasniði';
 $string['doyouagree'] = 'Hefur þú lesið þessi skilyrði og samþykkir þú þau?';
 $string['duplicate'] = 'Afrita';
@@ -394,8 +406,10 @@ $string['editordefaultfont'] = 'Sjálfgefin leturgerð';
 $string['editorenablespelling'] = 'Villuleit';
 $string['editorfontlist'] = 'Leturgerðir';
 $string['editorfontsize'] = 'Sjálfgefin leturstærð';
+$string['editorhelptopics'] = 'Hjálparskrár ritils';
 $string['editorresettodefaults'] = 'Endursetja sjálfgefin gildi';
 $string['editorsettings'] = 'Stillingar á ritli';
+$string['editorshortcutkeys'] = 'Flýtihnappar ritils';
 $string['editsummary'] = 'Breyta samantekt';
 $string['editthisactivity'] = 'Breyta þessu viðfangsefni';
 $string['editthiscategory'] = 'Breyta þessum flokki';
@@ -440,6 +454,28 @@ $string['emailmustbereal'] = 'Ath. mikilvægt er að gefa upp virkt netfang';
 $string['emailnotallowed'] = 'Netföng frá eftirfarandi lénum eru ekki leyfð ($a)';
 $string['emailnotfound'] = 'Tölvupóstfangið fannst ekki í gagnagrunninum';
 $string['emailonlyallowed'] = 'Netfangið ($a) er ekki leyft';
+$string['emailpasswordchangeinfo'] = 'Sæl(l) $a->firstname,
+
+Einhver (líklegast þú) hefur óskað eftir nýju lykilorði á vefinn \'$a->sitename\'.
+
+Smelltu á krækjuna hér fyrir neðan til þess að breyta lykilorðinu þínu:
+
+$a->link
+
+Í flestum tölvupóstforritum, mun þessi vefslóð birtast sem blá krækja sem hægt er að smella á.  
+Ef sú er ekki raunin, afritaðu þá slóðina yfir í vefskoðarann sem þú notar og sláðu svo á Enter hnappinn til að opna vefinn.
+
+Hafðu samband við kerfisstjóra ef þú þarfnast frekari aðstoðar,
+$a->admin';
+$string['emailpasswordchangeinfofail'] = 'Sæl(l) $a->firstname,
+
+Einhver (líklegast þú) hefur óskað eftir nýju lykilorði á vefinn \'$a->sitename\'.
+
+Því miður er ekki hægt að breyta lykilorðum á þessum vef.
+
+Vinsamlegast hafðu samband við kerfisstjóra,
+$a->admin';
+$string['emailpasswordchangeinfosubject'] = '$a: Upplýsingar vegna breytingar á lykilorði';
 $string['emailpasswordconfirmation'] = 'Sæl(l) $a->firstname,
 
 Óskað hefur verið eftir nýju lykilorði fyrir aðgang þinn að vefnum \'$a->sitename\'.
@@ -523,6 +559,7 @@ $string['findmorecourses'] = 'Finna fleiri áfanga';
 $string['firstdayofweek'] = '0';
 $string['firstname'] = 'Fornafn';
 $string['firsttime'] = 'Ertu hér í fyrsta skipti?';
+$string['folder'] = 'Mappa';
 $string['folderclosed'] = 'Lokuð mappa';
 $string['folderopened'] = 'Opnuð mappa';
 $string['followingoptional'] = 'Eftirvarandi upplýsingar eru ekki nauðsynlegar';
@@ -537,6 +574,8 @@ $string['forcepasswordchangenotice'] = 'Þú verður að breyta lykilorðinu þ�
 $string['forcetheme'] = 'Skilyrða þema';
 $string['forgotaccount'] = 'Glatað lykilorð';
 $string['forgotten'] = 'Ertu búin(n) að glata notendanafni eða lykilorði?';
+$string['forgottenduplicate'] = 'Tölvupóstfangið er sameiginlegt nokkrum innskráningarreikningum, vinsamlegast skráðu notandanafn í staðinn';
+$string['forgotteninvalidurl'] = 'Slóð að síðu til að endursetja ótæk lykilorð';
 $string['format'] = 'Snið';
 $string['formathtml'] = 'HTML snið';
 $string['formatlams'] = 'LAMS áfangasnið';
@@ -631,13 +670,16 @@ $string['helphtml'] = 'Hvernig er html notað';
 $string['helpindex'] = 'Yfirlit yfir allar hjálparskrár';
 $string['helppicture'] = 'Hvernig er send inn mynd';
 $string['helpprefix'] = 'Hjálp, $a';
+$string['helpprefix2'] = 'Aðstoð við $a';
 $string['helpquestions'] = 'Vandaðu gerð spurninga';
 $string['helpreading'] = 'Lestu vel';
 $string['helprichtext'] = 'Um Richtext ritilinn';
 $string['helpsummaries'] = 'Um samantektir';
 $string['helptext'] = 'Hvernig skal skrifa texta';
 $string['helpwiki'] = 'Hvernig skal skrifa Wiki texta';
+$string['helpwiththis'] = 'Aðstoð við þetta';
 $string['helpwriting'] = 'Vandaðu textasmíðina';
+$string['hiddenassign'] = 'Falið skilaverkefni';
 $string['hiddensections'] = 'Faldir hlutar eða vikur';
 $string['hiddensectionscollapsed'] = 'Faldir hlutar/vikur eru sýndir samanfallnir';
 $string['hiddensectionsinvisible'] = 'Faldar hlutar/vikur eru ekki sýnilegar';
@@ -662,6 +704,7 @@ $string['htmlformat'] = 'HTML snið';
 $string['icqnumber'] = 'ICQ tala';
 $string['idnumber'] = 'Auðkennitala';
 $string['idnumbercourse'] = 'Aukennitala áfanga';
+$string['imagealt'] = 'Lýsing á mynd';
 $string['import'] = 'Flytja inn';
 $string['importactivities'] = 'Flytja inn viðföng úr öðrum áfanga';
 $string['importdata'] = 'Gagnainnflutningur';
@@ -704,6 +747,7 @@ $string['lastname'] = 'Eftirnafn';
 $string['lastyear'] = 'Síðasta ár';
 $string['latestlanguagepack'] = 'Athuga uppfærslur á tungumáli á moodle.org';
 $string['latestnews'] = 'Nýjar fréttir';
+$string['layouttable'] = 'Tafla til útlitsmótunar';
 $string['leavetokeep'] = 'Hafðu autt til að halda núverandi lykilorði';
 $string['license'] = 'GPL Leyfi';
 $string['liketologin'] = 'Viltu innskrá þig núna með fullum notendaaðgangi?';
@@ -740,13 +784,13 @@ Hafðu í huga að aðgengi að einstaka áföngum í kerfinu getur einnig veri�
    að slá inn notendanafn þitt og lykilorð (t.d. hér til hliðar)
    til að fá aðgang að þeim áföngum sem þú ert skráð(ur) í.
    </OL>';
-$string['loginstepsnone'] = 'Hi!<P>For full access to courses you\'ll need to create 
-yourself an account.<P>All you need to do is make up a username and password and use it in
-the form on this page!<P>If someone else has already chosen your username
-then you\'ll have to try again using a different username.';
+$string['loginstepsnone'] = 'Sæl(l)<p>Til þess að öðlast fullan aðgang að áföngum verður þú að stofna innskráningarreikning.</p>
+<p>Það eina sem þú þarft að gera er að velja þér notandanafn og lykilorð og fylla út í formið á þessari síðu!</p>
+<p>Ef notandanafnið þitt er frátekið verður þú að velja þér nýtt og reyna aftur.</p>';
 $string['loginto'] = 'Innskráning í $a';
 $string['loginusing'] = 'Skráðu þig inn með því að gefa upp notandanafn og lykilorð';
 $string['logout'] = 'Útskrá';
+$string['logoutconfirm'] = 'Viltu örugglega skrá þig út?';
 $string['logs'] = 'Leiðarbók';
 $string['logtoomanycourses'] = '[ <a href=\"$a->url\">meira</a> ]';
 $string['logtoomanyusers'] = '[ <a href=\"$a->url\">meira</a> ]';
@@ -756,7 +800,7 @@ $string['mailstudents'] = 'Tilkynna nemendum';
 $string['mailteachers'] = 'Tilkynna kennurum';
 $string['mainmenu'] = 'Valmöguleikar';
 $string['makeafolder'] = 'Búa til möppu';
-$string['makeeditable'] = 'If you make \'$a\' editable by the web server process (eg apache) then you could edit this file directly from this page';
+$string['makeeditable'] = 'Ef þú gefur vefþjóninum (t.d. apache) ritheimild á möppuna \'$a\' getur þú unnið með skránna hér á síðunni.';
 $string['manageblocks'] = 'Blokkir';
 $string['managecourses'] = 'Umsýsla áfanga';
 $string['managedatabase'] = 'Umsýsla gagnagrunns';
@@ -794,7 +838,7 @@ $string['min'] = 'mín';
 $string['mins'] = 'mínútur';
 $string['minutes'] = 'mínútur';
 $string['miscellaneous'] = 'Ýmislegt';
-$string['missingcategory'] = 'Flokkur ekki valinn';
+$string['missingcategory'] = 'Þú verður að velja flokk';
 $string['missingcity'] = 'Borg/bær ekki valinn';
 $string['missingcountry'] = 'Ekkert land';
 $string['missingdescription'] = 'Lýsingu vantar';
@@ -809,9 +853,9 @@ $string['missingreqreason'] = 'Ástæðu vantar';
 $string['missingshortname'] = 'Vantar stutt nafn';
 $string['missingshortsitename'] = 'Vantar stutt nafn á vef';
 $string['missingsitedescription'] = 'Vantar lýsingu á vef';
-$string['missingsitename'] = 'Vantar nafn  vef';
+$string['missingsitename'] = 'Vantar nafn vefs';
 $string['missingstrings'] = 'Finna óþýdda textastrengi';
-$string['missingstudent'] = 'Verður að velja eitthvað';
+$string['missingstudent'] = 'Þú verður að velja eitthvað';
 $string['missingsummary'] = 'Samantekt vantar';
 $string['missingteacher'] = 'Verður að velja eitthvað';
 $string['missingurl'] = 'Vantar URL';
@@ -893,7 +937,9 @@ Opnaðu vefinn  \'$a->sitename\' með því að smella á eftirfarandi vefslóð
 
 Í flestum póstforritum birtist ofangreind slóð sem blár tengill sem hægt er að smella á. Ef svo er ekki reyndin, afritaðu þá slóðina og límdu í vefskoðara.';
 $string['newusers'] = 'Nýir notendur';
+$string['newwindow'] = 'nýr gluggi';
 $string['next'] = 'Áfram';
+$string['nextsection'] = 'Næsti hluti';
 $string['no'] = 'Nei';
 $string['nobody'] = 'Enginn';
 $string['nochange'] = 'Engin breyting';
@@ -940,6 +986,7 @@ $string['nothingnew'] = 'Engar breytingar frá síðustu innskráningu';
 $string['nothingtodisplay'] = 'Ekkert til að birta';
 $string['noticenewerbackup'] = 'Þessi afritunarskrá var búin til með Moodle $a->backuprelease ($a->backupversion) og er nýrri en sú útgáfa sem nú er til staðar, sem er $a->serverrelease ($a->serverversion). Þetta ósamræmi milli útgáfa gæti valdið vandræðum.';
 $string['notifications'] = 'Tilkynningar';
+$string['notify'] = 'Tilkynna';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Notandi: $a->info';
 $string['notifyloginfailuresmessageend'] = 'Leiðarskrárnar eru aðgengilegar á  $a/course/log.php?id=1&chooselog=1&modid=site_errors.';
 $string['notifyloginfailuresmessagestart'] = 'Hér er yfirlit yfir ógildar innskráningar á $a frá því að síðasta tilkynning var birt';
@@ -949,6 +996,7 @@ $string['notingroup'] = 'Ekki hægt, þú verður að tilheyra hóp til að hafa
 $string['notpublic'] = 'Ekki opið almenningi!';
 $string['nousersmatching'] = 'Engir notendur svipaðir \'$a\' fundust';
 $string['nousersyet'] = 'Engir notendur ennþá';
+$string['novalidcourses'] = 'Það er ekki hægt að birta neina áfanga';
 $string['now'] = 'nú';
 $string['numattempts'] = '$a misheppnaðar tilraunir til innsráningar';
 $string['numberweeks'] = 'Fjöldi vikna/viðfangsefna';
@@ -1005,6 +1053,7 @@ $string['periodending'] = 'Tímabili lýkur ($a)';
 $string['personalprofile'] = 'Persónulegar upplýsingar';
 $string['phone'] = 'Sími';
 $string['phpinfo'] = 'PHP upplýsingar';
+$string['pictureof'] = 'Mynd af $a';
 $string['pleaseclose'] = 'Vinsamlegast lokaðu þessum glugga núna.';
 $string['pluginsetup'] = 'Skilgreini töflur fyrir viðbætur';
 $string['policyagree'] = 'Þú verður að samþykkja notendaskilmálana áður en haldið er áfram. Samþykkir þú notendaskilmálana?';
@@ -1024,11 +1073,14 @@ $string['preview'] = 'Forskoða';
 $string['previewhtml'] = 'HTML forskoðun';
 $string['previeworchoose'] = 'Þema skoðað og valið';
 $string['previous'] = 'Til baka';
+$string['previoussection'] = 'Fyrri hluti';
+$string['primaryadminsetup'] = 'Skilgreina innskráningarreikning kerfisstjóra';
 $string['profile'] = 'Lýsing';
 $string['publicdirectory'] = 'Almennt skráarsafn';
 $string['publicdirectory0'] = 'Vinsamlegast ekki gefa þennan vef út';
 $string['publicdirectory1'] = 'Publish the site name only';
 $string['publicdirectory2'] = 'Publish the site name with a link';
+$string['publicdirectorytitle'] = 'Sjá núverandi lista yfir vefi';
 $string['publicsitefileswarning'] = 'ATH. þessar skrár eru aðgengilegar öllum';
 $string['question'] = 'Spurning';
 $string['readinginfofrombackup'] = 'Les upplýsingar úr afriti';
@@ -1037,6 +1089,7 @@ $string['recentactivity'] = 'Nýleg viðfangsefni';
 $string['recentactivityreport'] = 'Sýna nýlegar breytingar';
 $string['recipientslist'] = 'Móttakendur';
 $string['recreatedcategory'] = 'Endurmyndaður flokkur $a';
+$string['refresh'] = 'Glæða';
 $string['refreshingevents'] = 'Endurhleð viðburðum';
 $string['registration'] = 'Moodle Innskráning';
 $string['registrationcontact'] = 'Athugasemdir frá almenningi';
@@ -1106,6 +1159,9 @@ $string['scalesstandard'] = 'Hefðbundinn einkunnaskali';
 $string['scalestip'] = 'Smelltu á hnappinn \"Einkunnaskalar\" til að sérsníða einkunnaskala.';
 $string['schedule'] = 'Dagskrá';
 $string['scheduledbackupstatus'] = 'Yfirlit yfir reglulega afritatöku';
+$string['screenreaderno'] = 'Nei';
+$string['screenreaderuse'] = 'Skjálesari';
+$string['screenreaderyes'] = 'Já';
 $string['screenshot'] = 'Skjámynd';
 $string['search'] = 'Leita';
 $string['searchagain'] = 'Leita aftur';
@@ -1120,7 +1176,8 @@ $string['secondstotime432000'] = '5 dagar';
 $string['secondstotime518400'] = '6 dagar';
 $string['secondstotime604800'] = 'vika';
 $string['secondstotime86400'] = '1 dagur';
-$string['secs'] = 'sekúntur';
+$string['secretalreadyused'] = 'Staðfestingarkrækja vegna breytingar á lykilorð hefur þegar verið virkjuð. Lykilorði var ekki breytt.';
+$string['secs'] = 'sekúndur';
 $string['section'] = 'Hluti';
 $string['sections'] = 'Hlutar';
 $string['seealsostats'] = 'Sjá einnig: tölfræði';
@@ -1132,6 +1189,7 @@ $string['selectednowmove'] = '$a skrár hafa verið valdar. Veldu áfangastað o
 $string['selectnos'] = 'Setja \'nei\' við allt';
 $string['selectperiod'] = 'Veldu tímabil';
 $string['senddetails'] = 'Sendu upplýsingar með tölvupósti';
+$string['separate'] = 'Aðskilja';
 $string['separateandconnected'] = 'Separate and Connected ways of knowing';
 $string['serverlocaltime'] = 'Tími vefþjóns';
 $string['settings'] = 'Uppsetning';
@@ -1147,8 +1205,10 @@ $string['showallcourses'] = 'Birta alla afanga';
 $string['showalltopics'] = 'Birta öll viðfangsefni';
 $string['showallusers'] = 'Birta alla notendur';
 $string['showallweeks'] = 'Birta allar vikur';
+$string['showblockcourse'] = 'Birta lista yfir áfanga sem þessa blokk';
 $string['showgrades'] = 'Birta einkunnir';
 $string['showlistofcourses'] = 'Birta lista yfir áfanga';
+$string['showmodulecourse'] = 'Birta lista yfir áfanga sem innihalda þetta viðfang';
 $string['showonly'] = 'Birta einungis';
 $string['showonlytopic'] = 'Birta einungis viðfangsefni $a';
 $string['showonlyweek'] = 'Birta einungis viku $a';
@@ -1183,12 +1243,14 @@ $string['socialheadline'] = 'Nýjustu viðfangsefni félagssniðs';
 $string['someallowguest'] = 'Sumir áfangar leyfa gestaaðgang';
 $string['someerrorswerefound'] = 'Uppgefnar upplýsingar voru ekki nægjanlegar eða rangar. Skrunaðu niður til að fá nánari skýringu.';
 $string['sortby'] = 'Flokka eftir';
+$string['sourcerole'] = 'Frumhlutverk';
 $string['specifyname'] = 'það verður að tiltaka nafn.';
 $string['starpending'] = '([*] = bíður samþykkis)';
 $string['startdate'] = 'áfangi hefst';
 $string['startsignup'] = 'Nýskrá notanda!';
 $string['state'] = 'Landsvæði';
 $string['statistics'] = 'Tölfræði';
+$string['statisticsgraph'] = 'Graf yfir tölfræði';
 $string['stats'] = 'Tölfræði';
 $string['statslogins'] = 'Innskráningar';
 $string['statsmodedetailed'] = 'Ítarlegar notendaupplýsingar';
@@ -1249,6 +1311,7 @@ $string['studentsandteachers'] = 'Nemendur og kennarar';
 $string['studentviewoff'] = 'Loka nemendasýn';
 $string['studentviewon'] = 'Opna nemendasýn';
 $string['subcategories'] = 'Undirflokkar';
+$string['submit'] = 'Senda';
 $string['success'] = 'Tókst';
 $string['summary'] = 'Samantekt';
 $string['summaryof'] = 'Samantekt fyrir $a';
@@ -1256,8 +1319,10 @@ $string['supplyinfo'] = 'Vinsamlegast skráðu eftirfarandi upplýsingar';
 $string['switchrolereturn'] = 'Aftur í mitt hlutverk';
 $string['switchroleto'] = 'Skipta yfir í';
 $string['tag'] = 'Tag';
+$string['tagalready'] = 'Þetta tag er þegar til staðar';
 $string['tagmanagement'] = 'Bæta við /eyða tagi';
 $string['tags'] = 'Tög';
+$string['targetrole'] = 'Markhlutverk';
 $string['teacheronly'] = 'Einungis fyrir $a';
 $string['teacherroles'] = '$a hlutverk';
 $string['teachers'] = 'Kennarar';
@@ -1324,7 +1389,7 @@ $string['uploadedfileto'] = 'Skráin $a->file hefur verið vistuð í skráarsaf
 $string['uploadedfiletoobig'] = 'Því miður, skráin er of stór (hámarks skráarstærð er $a bæti)';
 $string['uploadfailednotrecovering'] = 'Innflutningur mistókst vegna vandkvæða tengdum einni af eftirfarandi skrám, $a->name.<br /> Hér er yfirlit yfir villuboð: <br />$a->problem <br />Ekki lagað.';
 $string['uploadfilelog'] = 'Atburðarskrá fyrir skrána $a';
-$string['uploadformlimit'] = 'Innflutt skrá er stærri en heimilað er';
+$string['uploadformlimit'] = 'Innflutt skrá er stærri en formið heimilar';
 $string['uploadlabel'] = 'Titill:';
 $string['uploadnofilefound'] = 'Engin skrá fannst - valdir þú örugglega skrá til að flytja inn?';
 $string['uploadnotallowed'] = 'Innflutningur á efni er ekki heimilaður';
@@ -1341,15 +1406,18 @@ $string['usemessageform'] = 'eða notaðu formið hér að neðan til að senda 
 $string['user'] = 'Notandi';
 $string['userconfirmed'] = 'Staðfest $a';
 $string['userdata'] = 'Notendagögn';
-$string['userdeleted'] = 'Þessum notendaaðgangi hefur verið eytt';
+$string['userdeleted'] = 'Þessum innskráningarreikningi hefur verið eytt';
 $string['userdescription'] = 'Lýsing';
 $string['userfiles'] = 'Notendaskrár';
 $string['userlist'] = 'Notendalisti';
 $string['username'] = 'Notendanafn';
 $string['usernameemailmatch'] = 'Þetta notendanafn og lykilorð tilheyra ekki sama notandanum';
 $string['usernameexists'] = 'Þetta notendanafn er þegar í notkun, veldu annað';
+$string['usernamelowercase'] = 'Einungis eru heimilaðir lágstafir';
 $string['usernamenotfound'] = 'Notendanafnið fannst ekki í gagnagrunninum';
+$string['usernameoremail'] = 'Gefðu upp annað hvort notandanafn eða lykilorð';
 $string['usernotconfirmed'] = 'Gat ekki staðfest $a';
+$string['userpic'] = 'Mynd af notanda';
 $string['userprofilefor'] = 'Upplýsingar um notanda $a';
 $string['users'] = 'Notendur';
 $string['usersnew'] = 'Nýir notendur';
@@ -1406,6 +1474,7 @@ $string['writingcoursedata'] = 'Vista námskeiðsgögn';
 $string['writingeventsinfo'] = 'Vista upplýsingar um viðburði';
 $string['writinggeneralinfo'] = 'Vista almennar upplýsingar';
 $string['writinggradebookinfo'] = 'Vista upplýsingar um einkunnabók';
+$string['writinggroupingsinfo'] = 'Vista upplýsingar um hópa';
 $string['writinggroupsinfo'] = 'Vista upplýsingar um hópa';
 $string['writingheader'] = 'Útbý haus';
 $string['writingloginfo'] = 'Vista leiðarbækur';
@@ -1416,6 +1485,8 @@ $string['writinguserinfo'] = 'Vista notendaupplýsingar';
 $string['wrongpassword'] = 'Lykilorð passar ekki við notendanafn';
 $string['xmldbeditor'] = 'XMLDB ritill';
 $string['yahooid'] = 'Yahoo auðkenni';
+$string['year'] = 'ár';
+$string['years'] = 'ár';
 $string['yes'] = 'Já';
 $string['youareabouttocreatezip'] = 'þú ert um það bil að búa til .zip skrá sem inniheldur';
 $string['youaregoingtorestorefrom'] = 'Þú ert að hefja ferli fyrir endurheimtun';

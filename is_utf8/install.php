@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.7 beta 2 (2006101003)
+      // install.php - created with Moodle 1.8 (2007021501)
 
 
 $string['admindirerror'] = 'Uppgefið \'admin\' skráarsafn er rangt';
@@ -89,8 +89,10 @@ $string['installation'] = 'Uppsetning';
 $string['langdownloaderror'] = 'Því miður tókst ekki að setja upp tungumálið $a. Uppsetning heldur áfram á ensku.';
 $string['langdownloadok'] = 'Tungumálið $a hefur verið sótt og sett upp. Innsetningarferlið heldur nú áfram á því máli.';
 $string['mssql'] = 'SQL *vefþjónn (mssql)';
+$string['mssql_n'] = 'SQL *Vefþjónn sem styður við UTF-8 (mysql_n)';
 $string['mysql'] = 'MySQL (mysql)';
 $string['oci8po'] = 'Oracle (oci8po)';
+$string['odbc_mssql'] = 'SQL*Server gegnum ODBC (odbc_mssql)';
 $string['pass'] = 'Staðið';
 $string['phpversion'] = 'PHP útgáfa';
 $string['phpversionerror'] = 'PHP útgáfan má ekki vera eldri en 4.1.0';

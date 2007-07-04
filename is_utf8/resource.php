@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 beta 2 (2006101003)
+      // resource.php - created with Moodle 1.8 (2007021501)
 
 
 $string['addresource'] = 'Nýtt efni';
@@ -24,6 +24,7 @@ $string['configpopupscrollbars'] = 'Á að vera hægt að skruna innan sprettigl
 $string['configpopupstatus'] = 'Eiga sprettigluggar að birta stöðustikuna?';
 $string['configpopuptoolbar'] = 'Eiga sprettigluggar að birta tækjastikuna?';
 $string['configpopupwidth'] = 'Hversu breiður á sprettiglugginn að vera?';
+$string['configwebsearch'] = 'Þessi staðsetning er birt notendum til að aðstoða þá að leita eftir vefsíðum þegar verið er að skilgreina aðföng.';
 $string['deploy'] = 'Útfæra';
 $string['deployall'] = 'Útfæra allt';
 $string['directlink'] = 'Bein slóð að þessari skrá';
@@ -47,6 +48,7 @@ $string['localfile'] = 'Staðvær skrá';
 $string['localfilechoose'] = 'Veldu staðværa skrá (CD-ROM)';
 $string['localfilehelp'] = 'Hjálp við að birta staðværar skrár';
 $string['localfileinfo'] = '<p>Veldu staðværa skrá sem vistuð er á tölvunni þinni. Skráin verður ekki færð yfir á vefþjónin, en Moodle mun leita eftir sömu skrá á tölvu notenda.</p><p>Þessi aðgerð kemur helst að notum þegar um stórar skrár er að ræða sem vistaðar eru á geisladiskum sem þú dreifir til allra nemenda. Hver nemandi getur valið eigin slóð að slíkum skrám með því að  <a href=\"$a\" target=\"_blank\">breyta notendaskráningu sinni</a>.</p>';
+$string['localfilepath'] = 'Veldu skrá á drifi tölvunnar (venjulega geisladrifi) til þess að skilgreina eigin staðværa slóð að aðfanginu. Skráin verður ekki flutt yfir á vefinn en upplýsingar um staðsetninguna (drifið) verða geymdar og nýttar þegar um er að ræða staðvær aðföng.';
 $string['localfileselect'] = 'Velja þessa slóð';
 $string['maindirectory'] = 'Megin skráarsafn';
 $string['modulename'] = 'Aðfang';
