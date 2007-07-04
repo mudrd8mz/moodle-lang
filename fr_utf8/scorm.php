@@ -5,6 +5,7 @@ $string['modulename'] = 'SCORM/AICC';
 $string['modulenameplural'] = 'SCORMs/AICCs';
 #------------------------------------------------------------
 
+$string['activation'] = 'Activation';
 $string['advanced'] = 'Paramètres';
 $string['asset'] = 'Élément';
 $string['assetlaunched'] = 'Élément - affiché';
