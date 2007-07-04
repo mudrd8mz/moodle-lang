@@ -3,7 +3,7 @@
 $string['description'] = '<p>Vous pouvez utiliser un serveur LDAP pour contrôler les inscriptions aux cours. On suppose que votre arbre LDAP contient des groupes correspondant aux cours, et que chacun de ces groupes/cours contiendra les inscriptions à faire correspondre avec les étudiants.</p>
 <p>On suppose que dans LDAP, les cours sont définis comme des groupes, et que chaque groupe comporte plusieurs champs indiquant l\'appartenance (<em>member</em> ou <em>memberUid</em>), contenant un identificateur unique de l\'utilisateur.</p>
 <p>Pour pouvoir utiliser les inscriptions par LDAP, les utilisateurs <strong>doivent</strong> avoir un champ idnumber valide. Les groupes LDAP doivent comporter cet idnumber dans le champ définissant l\'appartenance afin que l\'utilisateur soit inscrit à ce cours. Cela fonctionne bien si vous utilisez déjà l\'authentification par LDAP.</p>
-<p>Les inscriptions sont mises à jour lors de la connexion de l\'utilisateur. Il est aussi possible de lancer un script pour synchroniser les inscriptions. voyez pour cela le fichier <em>enrol/ldap/enrol_ldap_sync.php</em>.</p>
+<p>Les inscriptions sont mises à jour lors de la connexion de l\'utilisateur. Il est aussi possible de lancer un script pour synchroniser les inscriptions. Voyez pour cela le fichier <em>enrol/ldap/enrol_ldap_sync.php</em>.</p>
 <p>Cette extension peut également servir à la création automatique de nouveaux cours lorsque de nouveaux groupes apparaissent dans LDAP.</p>';
 $string['enrolname'] = 'LDAP';
 $string['enrol_ldap_autocreate'] = 'Des cours peuvent être créés automatiquement si des inscriptions existent pour un cours qui n\'existe pas encore dans Moodle.';
