@@ -1,4 +1,4 @@
-Español Internacional
+Español Internacional (es_utf8)
 
 Versión:  1.8
 
@@ -8,11 +8,11 @@ Interfaz:
 	Benito Arias (barias@benitoarias.com)
 
 Archivos HELP y DOCS:
+	Benito Arias (barias@benitoarias.com)
+	Fermín Cueva (fcueva@teleline.es)
+	Eloy Lafuente (stronk7@moodle.org)
 	Antonio Navarro (anavarro@sextaisla.com)
 	Antonio Vicent (avicent@telefonica.net)
-	Eloy Lafuente (stronk7@moodle.org)
-	Fermín Cueva (fcueva@teleline.es)
-	Benito Arias (barias@benitoarias.com)
 
 Coordinador de traducciones previas: 
 	Claudio Tavares (claudio@enlaceacademico.com)
@@ -21,6 +21,7 @@ Colaboradores:
 	Sergio Alfaro (salfaro@humanos.cl)
 	Pedro Benito (pedrusko@telefonica.net)
 	David Herney Bernal García (dhbernal@quimbaya.udea.edu.co)
+	Jorge Leonardo Cardona Osorio (jlcardona@quimbaya.udea.edu.co)
 	Ricardo Dalton (moodle@avmed.com.ar)
 	David Delgado (davidds@aprend-d.com)
 	Emmanuelle Gutiérrez y Restrepo (emmanuelle@mi.madritel.es)
