@@ -53,6 +53,7 @@ $string['searchforperson'] = 'Rechercher une personne';
 $string['searchmessages'] = 'Rechercher des messages';
 $string['sendmessage'] = 'Envoyer message';
 $string['sendmessageto'] = 'Envoyer message à $a';
+$string['sendmessagetopopup'] = 'Envoyer message à $a - nouvelle fenêtre';
 $string['settings'] = 'Réglages';
 $string['settingssaved'] = 'Vos réglages ont été enregistrés';
 $string['showmessagewindow'] = 'Ouvrir la messagerie lorsque de nouveaux messages arrivent (votre navigateur doit être configuré de façon à ne pas bloquer l\'ouverture des fenêtres popup de ce site)';
