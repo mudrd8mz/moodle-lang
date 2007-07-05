@@ -129,6 +129,7 @@ $string['autosubscribeno'] = 'Non, ne pas m\'abonner automatiquement aux forums'
 $string['autosubscribeyes'] = 'Oui, m\'abonner à un forum si j\'y écris un message';
 $string['availability'] = 'Disponibilité';
 $string['availablecourses'] = 'Cours disponibles';
+$string['back'] = 'Retour';
 $string['backtoparticipants'] = 'Retour à la liste des participants';
 $string['backup'] = 'Sauvegarde';
 $string['backupactivehelp'] = 'Choisissez d\'activer ou non les sauvegardes automatiques.';
