@@ -35,4 +35,8 @@ First posting of the ISOC-IL project: 14/5/2007.
 Around 80% of the messages and helps files plus some docs files were translated.
 
 ----------------------------
+
 Second posting of the ISOC-IL project updated: 17/06/2007
+
+----------------------------
+Third posting of the ISOC-IL project updated: 07/07/2007
