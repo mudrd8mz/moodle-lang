@@ -1,29 +1,29 @@
 <?php // $Id$
 
-$string['notes'] = 'Annotation';
-$string['sitenotes'] = 'Annotations de site';
-$string['coursenotes'] = 'Annotations de cours';
-$string['personalnotes'] = 'Annotations personnelles';
-$string['created'] = 'créée';
-$string['rating'] = 'Évaluation';
-$string['nonotes'] = 'Il n\'y a pas d\'annotations.';
-$string['notesnotvisible'] = 'Vous n\'avez pas les autorisations pour voir les annotations.';
+$string['abovenormal'] = 'supÃ©rieure Ã  la normal';
 $string['addnewnote'] = 'Ajouter une nouvelle annotation';
-$string['groupaddnewnote'] = 'Ajouter une nouvelle annotation pour tous';
-$string['deleteconfirm'] = 'Supprimer cette annotation&nbsp;?';
-$string['content'] = 'Contenu de l\'annotation';
-$string['nocontent'] = 'Le contenu ne peut pas être vide';
-$string['nouser'] = 'Vous devez indiquer un utilisateur';
-$string['low'] = 'basse';
-$string['belownormal'] = 'inférieure à la normale';
-$string['normal'] = 'normale';
-$string['abovenormal'] = 'supérieure à la normal';
-$string['high'] = 'haute';
-$string['unknown'] = 'inconnue';
+$string['belownormal'] = 'infÃ©rieure Ã  la normale';
 $string['bynameondate'] = 'par $a->name - $a->date';
-$string['publishstate'] = 'Statut';
-$string['personal'] = 'personnelle';
+$string['content'] = 'Contenu de l\'annotation';
 $string['course'] = 'cours';
+$string['coursenotes'] = 'Annotations de cours';
+$string['created'] = 'crÃ©Ã©e';
+$string['deleteconfirm'] = 'Supprimer cette annotation&nbsp;?';
+$string['groupaddnewnote'] = 'Ajouter une nouvelle annotation pour tous';
+$string['high'] = 'haute';
+$string['low'] = 'basse';
+$string['nocontent'] = 'Le contenu ne peut pas Ãªtre vide';
+$string['nonotes'] = 'Il n\'y a pas d\'annotations.';
+$string['normal'] = 'normale';
+$string['notes'] = 'Annotation';
+$string['notesnotvisible'] = 'Vous n\'avez pas les autorisations pour voir les annotations.';
+$string['nouser'] = 'Vous devez indiquer un utilisateur';
+$string['personal'] = 'personnelle';
+$string['personalnotes'] = 'Annotations personnelles';
+$string['publishstate'] = 'Statut';
+$string['rating'] = 'Ã‰valuation';
 $string['site'] = 'site';
+$string['sitenotes'] = 'Annotations de site';
+$string['unknown'] = 'inconnue';
 
 ?>
