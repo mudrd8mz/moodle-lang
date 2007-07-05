@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007062301)
+      // moodle.php - created with Moodle 1.9 dev (2007070501)
 
 
 $string['action'] = '操作';
@@ -131,6 +131,7 @@ $string['autosubscribeno'] = 'いいえ: フォーラムをメール購読しま
 $string['autosubscribeyes'] = 'はい: 投稿した場合、フォーラムをメール購読します';
 $string['availability'] = 'コース利用';
 $string['availablecourses'] = 'コース一覧';
+$string['back'] = '戻る';
 $string['backtoparticipants'] = '参加者リストに戻る';
 $string['backup'] = 'バックアップ';
 $string['backupactivehelp'] = '自動バックアップを実行するかどうか選択してください。';
