@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // message.php - created with Moodle 1.8 + (2007021503)
 
 
@@ -35,7 +35,7 @@ $string['messaging'] = 'העברת הודעות';
 $string['mycontacts'] = 'אנשי הקשר שלי';
 $string['newonlymsg'] = 'הצג רק את החדש';
 $string['newsearch'] = 'חיפש חדש';
-$string['noframesjs'] = 'גירסא ללא מסגרות או JavaScript';
+$string['noframesjs'] = 'גירסה ללא מסגרות או JavaScript';
 $string['nomessages'] = 'אין הודעות ממתינות';
 $string['nomessagesfound'] = 'לא נמצאו הודעות';
 $string['nosearchresults'] = 'לחיפוש שלך לא היו תוצאות';

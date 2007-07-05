@@ -131,6 +131,7 @@ $string['reportstatus'] = 'מצב';
 $string['reportstudentid'] = 'מספר זיהוי התלמיד';
 $string['reportthisclick'] = '$a לחיצה זו';
 $string['reporttimerecorded'] = 'תגובות שנרשמו';
+$string['reportwrapdata'] = 'נתונים מעגליים';
 $string['reportwrong'] = 'לא נכון';
 $string['reportwrongsymbol'] = 'X';
 $string['resultssaved'] = 'התוצאות של הבוחן נשמרו';

@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // glossary.php - created with Moodle 1.8 + (2007021503)
 
 
@@ -146,7 +146,7 @@ $string['noentry'] = 'לא נמצא אף מונח.';
 $string['notcategorised'] = 'ללא קטגוריה';
 $string['numberofentries'] = 'מספר המונחים';
 $string['onebyline'] = '(אחד בשורה)';
-$string['printerfriendly'] = 'גרסה ידידותית להדפסה';
+$string['printerfriendly'] = 'גירסה ידידותית להדפסה';
 $string['printviewnotallowed'] = 'אין אפשרות לתצוגה מקדימה להדפסה';
 $string['question'] = 'שאלה';
 $string['rate'] = 'דרג';

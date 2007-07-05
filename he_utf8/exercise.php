@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // exercise.php - created with Moodle 1.8 dev (2006120700)
 
 
@@ -43,7 +43,7 @@ $string['edit'] = 'ערוך';
 $string['editingassessmentelements'] = 'עריכת מרכיבי ההערכה';
 $string['element'] = 'מרכיב';
 $string['elementweight'] = 'משקל המרכיב';
-$string['enterpassword'] = 'הכנס סיסמא';
+$string['enterpassword'] = 'הכנס סיסמה';
 $string['entriessaved'] = 'רשומות נשמרו';
 $string['errorbanded'] = 'שיקלול שגיאות';
 $string['excellent'] = 'מצויין';
@@ -101,7 +101,7 @@ $string['numberofnegativeresponses'] = 'מספר תגובות שליליות';
 $string['onesubmission'] = 'הגשה אחת';
 $string['optionaladjustment'] = 'כוונון לבחירתכם';
 $string['overallgrade'] = 'ציון כולל';
-$string['passwordprotectedexercise'] = 'תרגול שמוגן על ידי סיסמא';
+$string['passwordprotectedexercise'] = 'תרגול שמוגן על ידי סיסמה';
 $string['phase'] = 'שלב';
 $string['phase1'] = 'הגדר תרגול';
 $string['phase1short'] = 'הגדר';
@@ -168,7 +168,7 @@ $string['unassessed'] = '$a לא מוערך';
 $string['ungradedstudentassessments'] = '$a הערכות תלמידים שלא קיבלו ציון';
 $string['usemaximum'] = 'השתמש במקסימום';
 $string['usemean'] = 'השתמש בממוצע';
-$string['usepassword'] = 'השתמש בסיסמא';
+$string['usepassword'] = 'השתמש בסיסמה';
 $string['verylax'] = 'מאוד רופף';
 $string['verypoor'] = 'מאוד עלוב';
 $string['verystrict'] = 'מאוד נוקשה';
@@ -181,7 +181,7 @@ $string['weightforteacherassessments'] = 'משקל עבור $a הערכות';
 $string['weights'] = 'משקלים';
 $string['weightssaved'] = 'המשקלים נשמרו';
 $string['weightsusedforoverallgrade'] = 'משקלים משמשים לציון כולל';
-$string['wrongpassword'] = 'סיסמא לא נכונה לתירגול זה';
+$string['wrongpassword'] = 'סיסמה לא נכונה לתירגול זה';
 $string['yourassessment'] = 'ההערכה שלך';
 $string['yourfeedbackgoeshere'] = 'המשוב שלך הולך לכאן';
 $string['yoursubmission'] = 'ההגשה שלך';

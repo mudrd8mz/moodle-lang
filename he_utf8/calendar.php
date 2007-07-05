@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 dev (2006120700)
+      // calendar.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['advancedoptions'] = 'אפשרויות מתקדמות';
@@ -9,6 +9,7 @@ $string['clickhide'] = 'לחץ כדי להסתיר';
 $string['clickshow'] = 'לחץ כדי להראות';
 $string['commontasks'] = 'אפשרויות';
 $string['confirmeventdelete'] = 'האם אתה בטוח שאתה רוצה למחוק ארוע זה?';
+$string['courseevent'] = 'ארוע קורס';
 $string['courseevents'] = 'ארועי קורס';
 $string['dayview'] = 'מראה יום';
 $string['daywithnoevents'] = 'אין ארועים ביום זה';
@@ -44,6 +45,7 @@ $string['expired'] = 'פג תוקף';
 $string['explain_lookahead'] = 'ערך זה קובע מהו מספר הימים (המירבי) שיכול לחלוף עד לתחילת האירוע כדי שהאירוע עדיין ייחשב כאירוע קרב. אירועים שעד לתחילתם ישנו מספר גדול יותר של ימים, לעולם לא יוצגו כ\'קרבים\'. אנא שים לב כי <strong>כי אין שום ערובה</strong> כי כל האירועים המתחילים במסגרת זמן זו יוצגו. אם ישנם יותר מדי אירועים, (יותר מהעדפת \"מירב האירועים הקרבים\") אז האירועים הרחוקים ביותר לא יוצגו.';
 $string['explain_maxevents'] = 'ערך זה קובע את המספר המירבי של אירועים קרבים שניתן להציג. אם תבחר כאן מספר גדול, זה אפשרי שתצוגות של אירועים קרבים ימלאו חלק גדול מחלל הצג שלך.';
 $string['explain_persistflt'] = 'אם אפשרות זו מופעלת, Moodle יזכור את הגדרות הסינון של הארוע האחרון שלך וישחזר אותם באופן אוטומטי בכל פעם שתכנס לחשבון.';
+$string['explain_site_timeformat'] = 'באפשרותך לראות את הזמנים עבור האתר כולו בפורמט של 12או או 24 שעות. אם תבחר ב\"ברירת מחדל\", אז הפורמט ייבחר אוטומטית על פי השפה בה אתה משתמש באתר. את הגדרה זו ניתן לעקוף על ידי העדפות משתמש.';
 $string['explain_startwday'] = 'שבועות לוח שנה יוצגו כמתחילים ביום שתבחר פה.';
 $string['explain_timeformat'] = 'אתה יכול לבחור לראות זמנים בפורמט של 12 או 24 שעות. אם תבחר ב\"ברירת מחדל\", אז הפורמט יבחר אוטומטית לפי השפה בה אתה משתמש באתר.';
 $string['export'] = 'יצא';
@@ -53,10 +55,13 @@ $string['for'] = 'ל';
 $string['fri'] = 'שישי';
 $string['friday'] = 'שישי';
 $string['generateurlbutton'] = 'השג את כתובת ה-URL של לוח השנה';
+$string['globalevent'] = 'ארוע חובק כל';
 $string['globalevents'] = 'ארועים כוללים';
 $string['gotocalendar'] = 'לך ללוח שנה';
+$string['groupevent'] = 'ארוע קבוצתי';
 $string['groupevents'] = 'ארועים קבוצתיים';
 $string['hidden'] = 'מוסתר';
+$string['ical'] = 'iCal';
 $string['iwanttoexport'] = 'יצא';
 $string['manyevents'] = '$a ארועים';
 $string['mon'] = 'שני';
@@ -110,6 +115,8 @@ $string['typegroup'] = 'ארוע קבוצתי';
 $string['typesite'] = 'ארוע אתר';
 $string['typeuser'] = 'ארוע משתמש';
 $string['upcomingevents'] = 'ארועים קרבים';
+$string['urlforical'] = 'כתובת ה-URL עבור יצוא לוח השנה iCalendar, בשביל הירשמות ללוח השנה.';
+$string['userevent'] = 'ארוע משתמש';
 $string['userevents'] = 'ארועי משתמשים';
 $string['wed'] = 'רביעי';
 $string['wednesday'] = 'רביעי';

@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // error.php - created with Moodle 1.8 + (2007021503)
 
 
@@ -59,7 +59,7 @@ $string['onlyeditingteachers'] = 'רק מורים עורכים יכולים לע
 $string['onlyeditown'] = 'אתה יכול לערוך את המידע שלך בלבד';
 $string['pagenotexist'] = 'חלה שגיאה לא רגילה (ניסה להגיע לעמוד שלא קיים)';
 $string['pleasereport'] = 'אם יש לך זמן, אנא הודע לנו מה ניסית לעשות כאשר חלה השגיאה:';
-$string['pluginrequirementsnotmet'] = 'לא ניתן היה להתקין את התקן התקע \"$a->pluginname\" ($a->pluginversion). התקנתו דורשת גירסא עדכנית יותר של מוודל (כרגע אתה משתמש ב- $a->currentmoodle, אתה צריך את $a->requiremoodle).';
+$string['pluginrequirementsnotmet'] = 'לא ניתן היה להתקין את התקן התקע \"$a->pluginname\" ($a->pluginversion). התקנתו דורשת גירסה עדכנית יותר של מוודל (כרגע אתה משתמש ב- $a->currentmoodle, אתה צריך את $a->requiremoodle).';
 $string['processingstops'] = 'עיבוד נגמר כאן, תוך התעלמות מהרשומות הנותרות.';
 $string['remotedownloadnotallowed'] = 'לא מורשה הורדה של רכיבים לשרת שלך (פונקצייתallow_url_fopen מנוטרלת).<br /><br />עליך להוריד את קובץ ה<a href=\"$a->url\">$a->url</a> באופן ידני, להעתיק אותו לתוך \"$a->dest\" בשרת שלך, ולפתוח אותו שם.';
 $string['restricteduser'] = 'מצטערים אבל חשבונך הנוכחי \"$a\" מוגבל מלעשות זאת.';
@@ -68,7 +68,7 @@ $string['sessionerroruser'] = 'למושב שלך חלף הזמן. אנא התח�
 $string['sessionerroruser2'] = 'נתגלתה שגיאה של השרת שמשפיעה של מושב ההתחברות שלך. אנא התחבר שוב, או התחל מחדש את השרת שלך.';
 $string['sessionipnomatch'] = 'סליחה, אבל נראה כי מספר ה-IP שלך השתנה מאז הפעם הראשונה שהתחברת למערכת. תכונת אבטחה זו מונעת מהאקרים לגנוב את הזהות שלך בזמן שאתה מחובר לאתר. משתמשים רגילים לא אמורים לראות את ההודעה הזו - אנא בקש עזרה ממנהל האתר שלך.';
 $string['statscatchupmode'] = 'נכון לעכשיו הסטטיסטיקה נמצאת באופן פעולה catchup. עד כה $a->daysdone ימים עובדו ו- $a->dayspending עומדים להיות מעובדים. בידקו שוב בקרוב!';
-$string['unicodeupgradeerror'] = 'אנו מצטערים אך בסיס הנתונים שלך עדיין לא כתוב ב- Unicode, וגירסא זו של מוודל לא מסוגלת להמיר את בסיס הנתונים שלך ל-Unicode. אנא שדרג למוודל 1.7.x תחילה ובצא את ההמרה ל-Unicode מעמוד ההנהלה. לאחר שזה נעשה, לא אמורה להיות לך כל בעיה בהמרה למוודל Moodle $a.';
+$string['unicodeupgradeerror'] = 'אנו מצטערים אך בסיס הנתונים שלך עדיין לא כתוב ב- Unicode, וגירסה זו של מוודל לא מסוגלת להמיר את בסיס הנתונים שלך ל-Unicode. אנא שדרג למוודל 1.7.x תחילה ובצא את ההמרה ל-Unicode מעמוד ההנהלה. לאחר שזה נעשה, לא אמורה להיות לך כל בעיה בהמרה למוודל Moodle $a.';
 $string['unknowncourse'] = 'קורס לא ידוע בשם \"$a\"';
 $string['unknownuseraction'] = 'סליחה, אני לא מבין את הפעולה של המשתמש הזה.';
 $string['usernotaddederror'] = 'משתמש \"$a\" לא הוסף - טעות לא ידועה';
@@ -77,6 +77,7 @@ $string['usernotavailable'] = 'הפרטים של משתמש זה לא זמיני
 $string['usernotrenamedexists'] = 'שם המשתמש לא שונה -- שם המשתמש החדש כבר נמצא בשימוש.';
 $string['usernotrenamedmissing'] = 'שם המשתמש לא שונה -- שם המשתמש הישן לא נמצא.';
 $string['wrongdestpath'] = 'נתיב יעד שגוי.';
+$string['wrongsourcebase'] = 'מקור בסיס URL שגוי';
 $string['wrongzipfilename'] = 'שם קובץ ZIP שגוי.';
 
 ?>

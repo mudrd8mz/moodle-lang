@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.8 dev (2006120700)
+      // chat.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['beep'] = 'ציפצוף';
@@ -47,6 +47,7 @@ $string['nextsession'] = 'המושב המתוכן הבאה';
 $string['noguests'] = 'צ\'אט זה לא פתוח לאורחים';
 $string['nomessages'] = 'אין הודעות עדיין';
 $string['normalkeepalive'] = 'KeepAlive (שמור בחיים)';
+$string['normalstream'] = 'זרם';
 $string['noscheduledsession'] = 'אין מושבים מתוכננות';
 $string['repeatdaily'] = 'באותו זמן בכל יום';
 $string['repeatnone'] = 'ללא חזרות - פרסם את הזמן המפורט בלבד';

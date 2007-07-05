@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // currencies.php - created with Moodle 1.8 dev (2006120700)
+      // currencies.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['AED'] = 'דירהם, איחוד הנסיכויות הערביות';
@@ -27,6 +27,7 @@ $string['BZD'] = 'דולר, בליז';
 $string['CAD'] = 'דולר קנדי';
 $string['CDZ'] = 'זאיר חדש, זאיר';
 $string['CHF'] = 'פרנק שוויצרי';
+$string['CLF'] = 'CLF, צ\'ילי';
 $string['CLP'] = 'פסו, צ\'ילה';
 $string['CNY'] = 'יואן, רנמינבי (הסינית)';
 $string['COP'] = 'פסו קולומביאני';
@@ -98,7 +99,7 @@ $string['NPR'] = 'רופי, נפאל';
 $string['NZD'] = 'דולר, ניו זילנד';
 $string['OMR'] = 'ריאל, אומן';
 $string['PAB'] = 'בלבואה, פנמה';
-$string['PEI'] = 'אינטי, פרו';
+$string['PEN'] = 'סול חדש';
 $string['PGK'] = 'קינה, פפוואה גינאה החדשה';
 $string['PHP'] = 'פסו, פיליפינים';
 $string['PKR'] = 'רופי, פאקיסטאן';
@@ -142,5 +143,6 @@ $string['YER'] = 'ריאלי תימני';
 $string['ZAR'] = 'רנד, דרום אפריקה';
 $string['ZMK'] = 'קוואצ\'ה, זמביה';
 $string['ZWD'] = 'דולר, זימבבואה';
+$string['PEI'] = 'אינטי, פרו'; // ORPHANED
 
 ?>

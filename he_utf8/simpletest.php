@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 1.8 dev (2006120700)
+      // simpletest.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['all'] = 'הכל';
@@ -22,6 +22,7 @@ $string['runtests'] = 'הרץ מבחנים.';
 $string['rununittests'] = 'הרץ את מבחני היחידה.';
 $string['showpasses'] = 'הצג את הציונים העוברים בנוסף לציונים הנכשלים.';
 $string['showsearch'] = 'הראה את החיפוש עבור קבצי המבחנים.';
+$string['stacktrace'] = 'מחסנית מעקב';
 $string['summary'] = '{$a->run}/{$a->total} מקרי מבחן הושלמו: <strong>{$a->passes}</strong> עובר, <strong>{$a->fails}</strong> נכשל ו<strong>{$a->exceptions}</strong> יוצאים מן הכלל.';
 $string['thorough'] = 'הרץ מבחן יסודי (יכול להיות איטי).';
 $string['uncaughtexception'] = 'יוצא מן הכלל שלא נתפס [{$a->getMessage()}] ב- [{$a->getFile()}:{$a->getLine()}] מבחנים הופסקו.';

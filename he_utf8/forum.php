@@ -87,6 +87,7 @@ $string['forum:replynews'] = 'הגב לחדשות';
 $string['forum:replypost'] = 'השב להודעות';
 $string['forum:splitdiscussions'] = 'פצל דיונים';
 $string['forum:startdiscussion'] = 'התחל בדיונים חדשים';
+$string['forum:throttlingapplies'] = 'המשנק מתפקד';
 $string['forum:viewanyrating'] = 'ראה כל דירוגים שהם';
 $string['forum:viewdiscussion'] = 'ראה דיונים';
 $string['forum:viewhiddentimedposts'] = 'ראה הודעות מתוזמנות חבויות';

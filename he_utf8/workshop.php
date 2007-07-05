@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // workshop.php - created with Moodle 1.8 dev (2006120700)
 
 
@@ -85,7 +85,7 @@ $string['editingassessmentelements'] = 'ערוך את מרכיבי ההערכה'
 $string['editsubmission'] = 'ערוך את ההגשה';
 $string['element'] = 'מרכיב';
 $string['elementweight'] = 'משקל המרכיב';
-$string['enterpassword'] = 'הכנס סיסמא';
+$string['enterpassword'] = 'הכנס סיסמה';
 $string['errorbanded'] = 'שיקלול שגיאות';
 $string['errortable'] = 'טבלת שגיאות';
 $string['examplesubmissions'] = 'הגשות לדוגמא';
@@ -191,7 +191,7 @@ $string['overallpeergrade'] = 'הציון הכולל שניתן על ידי חב
 $string['overallteachergrade'] = 'הציון הכולל של המורה: $a';
 $string['ownwork'] = 'העבודה שלי';
 $string['passmnts'] = 'הערכות<br />חברי הקבוצה';
-$string['passwordprotectedworkshop'] = 'סדנה המוגנת על ידי סיסמא';
+$string['passwordprotectedworkshop'] = 'סדנה המוגנת על ידי סיסמה';
 $string['percentageofassessments'] = 'אחוז הערכות שיש לשמוט';
 $string['phase'] = 'שלב';
 $string['phase0'] = 'לא פעיל';
@@ -288,7 +288,7 @@ $string['ungradedassessments'] = '$a הערכות שלא קיבלו ציון';
 $string['ungradedassessmentsofstudentsubmissions'] = '$a הערכות של הגשות תלמידים שלא קיבלו ציון';
 $string['ungradedassessmentsofteachersubmissions'] = '$a הערכות של הגשות מורים שלא קיבלו ציון';
 $string['uploadsuccess'] = 'ההעלאה הצליחה';
-$string['usepassword'] = 'השתמש בסיסמא';
+$string['usepassword'] = 'השתמש בסיסמה';
 $string['verylax'] = 'מאוד רופף';
 $string['verypoor'] = 'מאוד עלוב';
 $string['verystrict'] = 'מאוד נוקשה';
@@ -314,7 +314,7 @@ $string['workshopassessments'] = 'הערכות סדנה';
 $string['workshopcomments'] = 'הערות סדנה';
 $string['workshopfeedback'] = 'משוב על הסדנה';
 $string['workshopsubmissions'] = 'הגשות סדנה';
-$string['wrongpassword'] = 'סיסמא לא נכונה עבור סדנה זו';
+$string['wrongpassword'] = 'סיסמה לא נכונה עבור סדנה זו';
 $string['yourassessments'] = 'הערכותיך את העבודה שנעשתה על ידי חבריך';
 $string['yourassessmentsofexamplesfromtheteacher'] = 'הערכותיך את הדוגמאות מה- $a';
 $string['yourfeedbackgoeshere'] = 'המשוב שלך הולך לכאן';

@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // lesson.php - created with Moodle 1.8 + (2007021503)
 
 
@@ -94,7 +94,7 @@ $string['endofclustertitle'] = 'סוף קלסטר';
 $string['endoflesson'] = 'סוף השיעור';
 $string['enteredthis'] = 'הכניס את זה.';
 $string['entername'] = 'הכנס כינוי חיבה לרשימת התוצאות הגבוהות.';
-$string['enterpassword'] = 'בבקשה הכנס את הסיסמא:';
+$string['enterpassword'] = 'בבקשה הכנס את הסיסמה:';
 $string['eolstudentoutoftime'] = 'שים לב: נגמר לך הזמן המוקצב לשיעור זה. יכול להיות שהתשובה האחרונה שלך לא נספרה, אם ענית לאחר שהזמן נגמר.';
 $string['eolstudentoutoftimenoanswers'] = 'לא ענית על אף שאלה. קיבלת ציון 0 עבור שיעור זה.';
 $string['essay'] = 'מאמר';
@@ -211,8 +211,8 @@ $string['page'] = 'עמוד: $a';
 $string['pagecontents'] = 'תכולת העמוד';
 $string['pages'] = 'עמודים';
 $string['pagetitle'] = 'כותרת העמוד';
-$string['password'] = 'סיסמא';
-$string['passwordprotectedlesson'] = '$a הינו שיעור שמוגן על ידי סיסמא.';
+$string['password'] = 'סיסמה';
+$string['passwordprotectedlesson'] = '$a הינו שיעור שמוגן על ידי סיסמה.';
 $string['pleasecheckoneanswer'] = 'אנא סמן תשובה אחת.';
 $string['pleasecheckoneormoreanswers'] = 'אנא סמן תשובה אחת, או יותר.';
 $string['pleaseenteryouranswerinthebox'] = 'אנא הקלד את התשובה שלך בקופסא.';
@@ -286,7 +286,7 @@ $string['updatefailed'] = 'עדכון נכשל';
 $string['useeditor'] = 'השתמש בעורך';
 $string['usemaximum'] = 'השתמש במקסימום';
 $string['usemean'] = 'השתמש בממוצע';
-$string['usepassword'] = 'שיעור שמוגן על ידי סיסמא';
+$string['usepassword'] = 'שיעור שמוגן על ידי סיסמה';
 $string['viewgrades'] = 'ראה ציונים';
 $string['viewhighscores'] = 'ראה את רשימת התוצאות הגבוהות';
 $string['viewreports'] = 'ראה $a->attempts שהושלמו $a->student נסיונות.';

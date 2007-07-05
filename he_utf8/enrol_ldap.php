@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // enrol_ldap.php - created with Moodle 1.8 + (2007021503)
 
 
@@ -16,7 +16,7 @@ $string['enrol_ldap_autocreation_settings'] = 'הגדרות יצירה אוטו�
 $string['enrol_ldap_bind_dn'] = 'אם ברצונכם להשתמש במשתמש-קשור בשביל לחפש אחר משתמשים, 
 ציינו זאת כאן. משהו כמו:
 \'cn=ldapuser,ou=public,o=org\'';
-$string['enrol_ldap_bind_pw'] = 'סיסמא עבור משתמש-קשור';
+$string['enrol_ldap_bind_pw'] = 'סיסמה עבור משתמש-קשור';
 $string['enrol_ldap_category'] = 'הקטגוריה לקורסים שנוצרו באופן אוטומטי';
 $string['enrol_ldap_contexts'] = 'הקשרי LDAP';
 $string['enrol_ldap_course_fullname'] = 'לבחירתכם: שדה LDAP ממנו ניתן להשיג את השם המלא.';

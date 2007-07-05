@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.8 dev (2006120700)
+      // dialogue.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['addmynewentries'] = 'הוסף את ההודעות החדשות שלי';
@@ -44,7 +44,7 @@ $string['notextentered'] = 'לא הוכנס טקסט';
 $string['notstarted'] = 'עדיין לא התחלת דיאלוג זה';
 $string['notyetseen'] = 'לא נראה עדיין';
 $string['numberofentries'] = 'מספר הודעות';
-$string['numberofentriesadded'] = 'מספר הודעות שהוספו: $a';
+$string['numberofentriesadded'] = 'מספר הודעות שנוספו: $a';
 $string['of'] = 'של';
 $string['onwrote'] = 'על $a כתב';
 $string['onyouwrote'] = 'על $a אתה כתבת';
@@ -65,7 +65,7 @@ $string['sendmailmessages'] = 'שלח הודעות דואר אלקטרוני ב�
 $string['status'] = 'מצב';
 $string['studenttostudent'] = 'סטודנט לסטודנט';
 $string['subject'] = 'נושא';
-$string['subjectadded'] = 'נושא הוסף';
+$string['subjectadded'] = 'נושא התווסף';
 $string['teachertostudent'] = 'מורה לסטודנט';
 $string['typefirstentry'] = 'הקלד את ההודעה הראשונה כאן';
 $string['typefollowup'] = 'הקלד הודעה עוקבת פה';

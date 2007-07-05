@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.8 dev (2006120700)
+﻿<?PHP // $Id$ 
+      // wiki.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['action'] = '-- פעולה --';
@@ -35,6 +35,7 @@ $string['deletemewikiwordfound'] = '$a נמצא על עמוד';
 $string['deletepage'] = 'מחק עמוד';
 $string['deleteversions'] = 'כמה גירסאות ישנות למחוק';
 $string['deleteversionserror'] = 'אנא הכנס ספירת גירסאות נכונה.';
+$string['diff'] = 'הבדל';
 $string['differences'] = 'הבדלים בין הגירסאות $a->new_ver ו-$a->old_ver של $a->pagename.';
 $string['disablecamel'] = 'בטל קישורי כתב CamelCase';
 $string['disabledpage'] = 'נכון לעכשיו, עמוד זה אינו זמין.';
@@ -53,13 +54,14 @@ $string['errornotype'] = 'שגיאת דגלון: לא BIN  ולא TXT';
 $string['errororreason'] = 'שגיאה או סיבה';
 $string['errorroandwr'] = 'שגיאת דגלון: העמוד הוא לקריאה בלבד וניתן לכתיבה.';
 $string['errorsize'] = 'העמוד גדול יותר מ-64k';
-$string['errversionsave'] = 'סליחה, בזמן שערכת את עמוד זה מישהו אחר שמר גירסא שונה שלו. אנא חזור למסך הקודם והעתק את השינויים שעשית לתוך לוח העריכה של המחשב שלך כדי שתוכל להכניס אותם חזרה לעמוד לאחר שתטען מחדש את מסך העריכה.';
+$string['errversionsave'] = 'סליחה, בזמן שערכת את עמוד זה מישהו אחר שמר גירסה שונה שלו. אנא חזור למסך הקודם והעתק את השינויים שעשית לתוך לוח העריכה של המחשב שלך כדי שתוכל להכניס אותם חזרה לעמוד לאחר שתטען מחדש את מסך העריכה.';
 $string['ewikiacceptbinary'] = 'אפשר קבצים בינאריים';
 $string['ewikiprinttitle'] = 'הדפס את שם ה-wiki  על כל עמוד.';
 $string['export'] = 'יצא';
 $string['exportformats'] = 'פורמטי יצוא';
 $string['exportsuccessful'] = 'יצוא הצליח.';
 $string['exportto'] = 'יצא ל-';
+$string['fetchback'] = 'שלוף בחזרה';
 $string['file'] = 'קובץ';
 $string['filedownload'] = 'הורדת קובץ';
 $string['fileisoftype'] = 'הקובץ מסוג';
@@ -75,6 +77,7 @@ $string['flagwr'] = 'WR';
 $string['for'] = 'ל';
 $string['forbidden'] = 'אין לך הרשאת גישה לעמוד זה.';
 $string['groups'] = 'קבוצות';
+$string['hits'] = 'פגיעות';
 $string['howtooperate'] = 'איך לתפעל';
 $string['howtowiki'] = 'איך ל-wiki';
 $string['html'] = 'פורמט-HTML';
@@ -107,7 +110,7 @@ $string['nojslockwarning'] = 'בגלל ש-Javascript מנוטרל בדפדפן �
 $string['nolinksfound'] = 'לא נמצאו קישורים על העמוד.';
 $string['noregexp'] = 'חובה שזו תהיה מחרוזת קבועה (אינך יכול להשתמש ב-* או בביטויים רגולריים), מומלץ להשתמש בכתובת ה-IP או המחשב המארח של התוקף, אך אל תכלול את מספר הפתחה (מפני שהיא גדלה עם כל כניסת HTTP).';
 $string['notadministratewiki'] = 'אתה לא מורשה לנהל את wiki  זה!';
-$string['nothingtostrip'] = 'אין עמודים בעלי יותר מגירסא אחת.';
+$string['nothingtostrip'] = 'אין עמודים בעלי יותר מגירסה אחת.';
 $string['nowikicreated'] = 'לא נוצרו רשומות עבור wiki זה.';
 $string['of'] = 'של';
 $string['offline'] = 'לא מקוון';
@@ -138,10 +141,12 @@ $string['removenotice'] = 'שים לב שברשימה זו יופיעו רק ע�
 $string['removepagecheck'] = 'אתה בטוח שברצונך למחוק את העמודים הללו?';
 $string['removepages'] = 'הסר עמודים';
 $string['removeselectedpages'] = 'הסר את העמודים שנבחרו';
+$string['revertallsince'] = 'המהדורה מתיישהת, מחוק גם שינויים שנעשו לאחר';
 $string['revertchanges'] = 'החזר את השינויים לקדמותם';
 $string['revertlastonly'] = 'רק אם הוא היה השינוי האחרון';
 $string['revertpages'] = 'החזר כמות גדולה של שינויים לקדמותם.';
 $string['revertpagescheck'] = 'האם אתה באמת רוצה להחזיר את השינויים הבאים לקדמותם?';
+$string['revertthe'] = 'המהדורה מתיישנת, אך מחוק רק את אלו שהושפעו';
 $string['safehtml'] = 'HTML בטוח';
 $string['save'] = 'שמור';
 $string['savenolock'] = 'אין ביכולתך לשמור את העמוד מפני שאין בידך נעילת עריכה. זה יכול לקרות במידה ו-Javascript מכובה בדפדפף שלך או אם משתמש אחר עוקף את הנעילה שלך.<br/><br/>באפשרותך לחזור למסך הקודם על ידי כפתור ה\'חזור\' של הדפדפן שלך, להעתיק את השינויים שעשית, ואז לנסות לערוך את העמוד שוב.';
@@ -171,8 +176,8 @@ $string['upload0'] = 'השתמש בפורמט זה כדי להעלות קובץ 
 $string['uploadedon'] = 'הועלה על';
 $string['uploadpicturebutton'] = 'העלה';
 $string['uplok'] = 'הקובץ שלך הועלה נכונה.';
-$string['version'] = 'גירסא';
-$string['versionrangetoobig'] = 'אין ביכולתך למחוק את כל גירסאות העמוד! על הגירסא האחרונה להישאר.';
+$string['version'] = 'גירסה';
+$string['versionrangetoobig'] = 'אין ביכולתך למחוק את כל גירסאות העמוד! על הגירסה האחרונה להישאר.';
 $string['versions'] = 'גירסאות';
 $string['versionstodelete'] = 'גירסא(ות) עד כה';
 $string['viewpage'] = 'ראה עמוד';
