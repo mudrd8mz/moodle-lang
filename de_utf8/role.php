@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007050901)
+      // role.php - created with Moodle 1.9 dev (2007070501)
 
 
 $string['addrole'] = 'Neue Rolle hinzufügen';
@@ -12,7 +12,7 @@ $string['blog:create'] = 'Neue Blogeinträge erstellen';
 $string['blog:manageentries'] = 'Einträge bearbeiten und verwalten';
 $string['blog:manageofficialtags'] = 'Offizielle Elemente verwalten';
 $string['blog:managepersonaltags'] = 'Persönliche Elemente verwalten';
-$string['blog:view'] = 'Blogeinträge ansehen';
+$string['blog:view'] = 'Blog-Einträge sehen';
 $string['calendar:manageentries'] = 'Alle Kalendereinträge verwalten';
 $string['calendar:manageownentries'] = 'Eigene Kalendereinträge verwalten';
 $string['capabilities'] = 'Fähigkeiten';
@@ -37,7 +37,7 @@ $string['course:sectionvisibility'] = 'Sichtbarkeit von Bereichen setzen';
 $string['course:setcurrentsection'] = 'Aktuellen Bereich setzen';
 $string['course:update'] = 'Kurseinstellungen aktualisieren';
 $string['course:useremail'] = 'Darf E-Mail-Adresse ein-/ausschalten';
-$string['course:view'] = 'Kurse betrachten';
+$string['course:view'] = 'Kurse sehen';
 $string['course:viewallgrades'] = 'Alle Bewertungen sehen';
 $string['course:viewcoursegrades'] = 'Bewertungen sehen';
 $string['course:viewhiddenactivities'] = 'Verborgene Aktivitäten sehen';
@@ -82,6 +82,8 @@ $string['metaassignerror'] = 'Diese Rolle kann nicht an \"$a\" zugewiesen werden
 $string['metaunassignerror'] = 'Die Rolle von \"$a\" wurde automatisch wieder zugewiesen. Bitte löschen Sie die Zuweisung stattdessen in den übergeordneten Kursen.';
 $string['my:manageblocks'] = 'Blöcke auf der myMoodle-Seite verwalten';
 $string['nocapabilitiesincontext'] = 'In diesem Kontext sind keine Fähigkeiten verfügbar';
+$string['notes:manage'] = 'Hinweise verwalten';
+$string['notes:view'] = 'Hinweise sehen';
 $string['notset'] = 'Nicht gesetzt';
 $string['overrideroles'] = 'Rollen überschreiben';
 $string['overrides'] = 'Überschreibungen';

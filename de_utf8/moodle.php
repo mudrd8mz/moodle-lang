@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007063001)
+      // moodle.php - created with Moodle 1.9 dev (2007070501)
 
 
 $string['action'] = 'Aktion';
@@ -131,13 +131,14 @@ $string['autosubscribeno'] = 'Nein, keine Foren automatisch abonnieren';
 $string['autosubscribeyes'] = 'Ja, das Forum abonnieren, in dem ich einen Beitrag schreibe';
 $string['availability'] = 'Verfügbarkeit';
 $string['availablecourses'] = 'Verfügbare Kurse';
+$string['back'] = 'Zurück';
 $string['backtoparticipants'] = 'Zurück zur Nutzerliste';
 $string['backup'] = 'Sicherung';
 $string['backupactivehelp'] = 'Wählen Sie, ob automatische Sicherungen durchgeführt werden sollen oder nicht.';
 $string['backupcancelled'] = 'Sicherung abgebrochen';
 $string['backupcoursefileshelp'] = 'Wenn Sie diese Option aktivieren, werden die Kursdateien in die automatische Sicherung einbezogen.';
 $string['backupdate'] = 'Sicherungsdatum';
-$string['backupdatenew'] = '$a->TAG ist jetzt $a->weekday, $a->mday $a->month $a->year<br />';
+$string['backupdatenew'] = '&nbsp; $a->TAG ist jetzt $a->weekday, $a->mday $a->month $a->year<br />';
 $string['backupdateold'] = '$a->TAG war $a->weekday, $a->mday $a->month $a->year';
 $string['backupdaterecordtype'] = '<br />$a->recordtype - $a->recordname<br />';
 $string['backupdetails'] = 'Sicherungsdetails';

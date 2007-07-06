@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007063001)
+      // admin.php - created with Moodle 1.9 dev (2007070501)
 
 
 $string['accessdenied'] = 'Kein Zugriff';
@@ -118,7 +118,7 @@ $string['configgradebookroles'] = 'Diese Einstellung erlaubt Ihnen die Kontrolle
 $string['configgradeexport'] = 'Wählen Sie bitte, welches Exportformat Sie für die Bewertungen bevorzugen. Das gewählte Plugin wird dann das Feld \"zuletzt exportiert\" in jeder Bewertung setzen und benutzen. Dies wird beispielsweise die exportierten Daten als \"neu\" oder \"geändert\" markieren. Wenn Sie nicht sicher sind, wählen Sie nichts aus.';
 $string['configguestroleid'] = 'Diese Rolle wird automatisch an Gäste zugewiesen. Sie wird ebenfalls vorübergehend an nicht angemeldete Nutzer/innen vergeben, wenn sie einen Kurs  betreten, der Gäste ohne Passwort zulässt. Bitte prüfen Sie, dass die Rolle die Rechte moodle/legacy:guest und moodle/course:view besitzt.';
 $string['confighiddenuserfields'] = 'Markieren Sie die Felder, deren Inhalte vor anderen Nutzer/innen, nicht aber vor Trainer/innen und Administrator/innen verborgen werden sollen. Dies schützt die Privatsphäre. Mit gedrückter CTRL/Strg-Taste können Sie mehrere Felder markieren.';
-$string['confighideactivitytypecrumb'] = 'Wählen Sie für wen die Anzeige des Lernaktivitätentyps in der Breadcrumbnavigation verborgen werden soll.';
+$string['confighideactivitytypenavlink'] = 'Wählen Sie aus, für wen bestimmte Aktivitätstypen (z.B. Tests) verborgen sein sollen, wenn die Aktivitätsübersicht  angezeigt wird.';
 $string['confightmleditor'] = 'Wählen Sie aus, ob Sie die Verwendung des HTML-Editors zulassen möchten. Der Editor ist allerdings nur mit kompatiblen Browsern sichtbar. Die Nutzer/innen können die Verwendung individuell in ihrem eigenen Profil ausschalten.';
 $string['configidnumber'] = 'Diese Option legt fest, ob (a) nicht nach einer ID-Nummer gefragt wird, (b) zwar nach einer ID-Nummer gefragt wird, aber das Feld leer bleiben kann oder (c) nach einer zwingenden Eingabe einer ID-Nummer gefragt wird. Eine eingegebene ID-Nummer wird im Nutzerprofil angezeigt.';
 $string['configintcachemax'] = 'Nur bei aktiviertem internem Cache: Maximalzahl der Blöcke, die im Speicher gehalten werden sollen (empfohlen 50). Benutzen Sie kleinere Werte, um die Speicherauslastung zu reduzieren.';
@@ -337,7 +337,7 @@ $string['helpupcominglookahead'] = 'Wie viele Tage im Voraus sollen künftige Te
 $string['helpupcomingmaxevents'] = 'Wie viele Termine sollen maximal als künftige Termine angezeigt werden?';
 $string['helpweekenddays'] = 'Welche Tage der Woche sollen als Wochenende farbig hervorgehoben werden?';
 $string['hiddenuserfields'] = 'Nutzerfelder verbergen';
-$string['hideactivitytypecrumb'] = 'Lernaktivität in Navigation verbergen';
+$string['hideactivitytypenavlink'] = 'Aktivitätsübersicht verbergen';
 $string['hidefromall'] = 'Für alle verbergen';
 $string['hidefromnone'] = 'Für niemanden verbergen';
 $string['hidefromstudents'] = 'Für Teilnehmer/innen verbergen';
@@ -614,5 +614,7 @@ $string['userscreated'] = 'Nutzer/innen angelegt';
 $string['usersrenamed'] = 'Nutzer/innen umbenannt';
 $string['usersupdated'] = 'Nutzer/innen aktualisiert';
 $string['validateerror'] = 'Dieser Wert war ungültig:';
+$string['confighideactivitytypecrumb'] = 'Wählen Sie für wen die Anzeige des Lernaktivitätentyps in der Breadcrumbnavigation verborgen werden soll.'; // ORPHANED
+$string['hideactivitytypecrumb'] = 'Lernaktivität in Navigation verbergen'; // ORPHANED
 
 ?>
