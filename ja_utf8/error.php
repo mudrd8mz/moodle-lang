@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007050301)
+      // error.php - created with Moodle 1.9 dev (2007070602)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -29,8 +29,10 @@ $string['errorunzippingfiles'] = 'ファイルの解凍処理中にエラーが�
 $string['fieldrequired'] = '「 $a 」 は必須項目です。';
 $string['filenotfound'] = '申し訳ございません、ファイルが見つかりませんでした。';
 $string['forumblockingtoomanyposts'] = 'このフォーラムに設定されている登録期限を超えています。';
-$string['groupalready'] = 'ユーザはすでにグループ $a に属しています';
-$string['groupunknown'] = 'グループ $a は指定されたコースに関連していません。';
+$string['groupalready'] = 'ユーザはすでにグループ「 $a 」に属しています';
+$string['groupexistforcourse'] = 'グループ「 $a 」はすでにこのコースに登録されています。';
+$string['groupnotaddederror'] = 'グループ「 $a 」は追加されませんでした。';
+$string['groupunknown'] = 'グループ「 $a 」は指定されたコースに関連していません。';
 $string['guestnoeditprofile'] = 'ゲストユーザはプロフィールを変更できません。';
 $string['guestnoeditprofileother'] = 'ゲストユーザのプロフィールを変更できません。';
 $string['invalidcourse'] = '無効なコース';
@@ -79,6 +81,7 @@ $string['sessionipnomatch'] = '申し訳ございません、あなたのIPア�
 $string['statscatchupmode'] = '統計は現在キャッチアップモードです。今までのところ $a->daysdone 日分が処理され、$a->dayspending 日分が未処理です。すぐに確認してください!';
 $string['unicodeupgradeerror'] = '申し訳ございません、あなたのデータベースはユニコードに対応していません。このバージョンのMoodleは、データベースをユニコードに移行できません。最初にMoodle 1.7.x にアップグレードして、管理画面でデータベースをユニコードへ移行してください。ユニコード移行後、Moodle $a へのアップグレードが可能となります。';
 $string['unknowncourse'] = '不明なコース名 「 $a 」';
+$string['unknowncourseidnumber'] = '不明なコースID「 $a 」';
 $string['unknownuseraction'] = '申し訳ございません、このユーザアクションが理解できません。';
 $string['usernotaddederror'] = 'ユーザ 「 $a 」 は追加されませんでした - 不明なエラー';
 $string['usernotaddedregistered'] = 'ユーザ 「 $a 」 は追加されませんでした - 登録済み';

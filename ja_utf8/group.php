@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 dev (2007040400)
+      // group.php - created with Moodle 1.9 dev (2007070602)
 
 
 $string['addgroupstogrouping'] = 'グループをグルーピングに追加する';
@@ -37,6 +37,7 @@ $string['errornotingrouping'] = '申し訳ございません、あなたは $a �
 $string['errornotingroupingedit'] = '申し訳ございません、あなたはグルーピング $a を編集できません。';
 $string['existingmembers'] = '登録済みメンバー: $a';
 $string['group'] = 'グループ';
+$string['groupaddedsuccesfully'] = 'グループ「 $a 」が正常に追加されました。';
 $string['groupdescription'] = 'グループ説明';
 $string['groupfor'] = 'グループ';
 $string['groupinfo'] = '選択したグループの情報';
@@ -66,6 +67,7 @@ $string['hidepicture'] = '写真を隠す';
 $string['javascriptrequired'] = 'このページでは、Javaスクリプトを有効にする必要があります。';
 $string['membersofselectedgroup'] = 'メンバー:';
 $string['newpicture'] = '新しい写真';
+$string['nopermissionforcreation'] = 'あなたには必要なパーミッションがないため、グループ「 $a 」を作成することはできません。';
 $string['notingrouping'] = '[グルーピング未登録]';
 $string['numberofgroups'] = 'グループ数';
 $string['numberofstudents'] = '学生数';
