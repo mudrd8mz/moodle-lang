@@ -1,12 +1,15 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 dev (2007051801)
+      // scorm.php - created with Moodle 1.9 dev (2007063001)
 
 
+$string['activation'] = 'Aktivierung';
 $string['advanced'] = 'Weitere Einstellungen';
 $string['asset'] = 'Anlage';
 $string['assetlaunched'] = 'Anlage gesehen';
 $string['attempt'] = 'Versuch';
+$string['attempt1'] = '1 Versuch';
 $string['attempts'] = 'Versuche';
+$string['attemptsx'] = '$a Versuche';
 $string['attr_error'] = 'Falscher Wert für das Attribut ($a->attr) im Tag $a->tag';
 $string['autocontinue'] = 'Automatische Fortsetzung';
 $string['averageattempt'] = 'Durchschnitt';
@@ -92,6 +95,7 @@ $string['not_corr_type'] = 'Falsche Schreibweise im Tag $a->tag';
 $string['notattempted'] = 'Nicht versucht';
 $string['objectives'] = 'Ziele';
 $string['onchanges'] = 'Bei allen Änderungen';
+$string['options'] = 'Einstellungen';
 $string['organization'] = 'Organisation';
 $string['organizations'] = 'Organisationen';
 $string['othersettings'] = 'Erweiterte Einstellungen';
@@ -140,6 +144,7 @@ $string['totaltime'] = 'Zeit';
 $string['trackingloose'] = 'WARNUNG: Trackingdaten dieses SCORM Paketes gehen verloren!';
 $string['type'] = 'Typ';
 $string['unziperror'] = 'Beim Entpacken des Pakets ist ein Fehler aufgetreten.';
+$string['updatefreq'] = 'Auto-Update-Geschwindigkeit';
 $string['validateascorm'] = 'Überprüfen eines Lernpakets';
 $string['validation'] = 'Prüfergebnis';
 $string['validationtype'] = 'Die Einstellungen der DOMXML Library werden zur Prüfung des SCORM Manifests  verwandt. Wenn Sie sich nicht genau auskennen, lassen Sie die Einstellungen unverändert stehen.';

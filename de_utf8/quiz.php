@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007062007)
+      // quiz.php - created with Moodle 1.9 dev (2007063001)
 
 
 $string['1day'] = '1 Tag';
@@ -164,6 +164,21 @@ $string['editqcats'] = 'Kategorien bearbeiten';
 $string['editquestions'] = 'Fragen bearbeiten';
 $string['editquiz'] = 'Testeinstellungen bearbeiten';
 $string['editquizquestions'] = 'Testfragen bearbeiten';
+$string['emailconfirmbody'] = 'Hallo $a->username,
+
+vielen Dank für die Vorlage Ihrer Antworten zu \'$a->quizname\' im Kurs \'$a->coursename\', eingereicht am
+$a->submissiontime.
+
+Diese E-Mail bestätigt, dass Ihre Antwort sicher angekommen ist.
+
+Sie können auf den Test zugreifen unter $a->quizurl.';
+$string['emailconfirmsubject'] = 'Test-Vorlagebestätigung: $a->quizname';
+$string['emailnotifybody'] = 'Hallo $a->username,
+
+$a->studentname hat den Test \'$a->quizname\' ($a->quizurl) im Kurs \'$a->coursename\' beendet.
+
+Sie können diesen Versuch unter $a->quizreviewurl ansehen.';
+$string['emailnotifysubject'] = '$a->studentname hat den Test $a->quizname beendet';
 $string['errorinquestion'] = 'Fehler in der Frage';
 $string['errormissingquestion'] = 'Fehler: Die Frage mit der id $a fehlt';
 $string['errornotnumbers'] = 'Fehler: Die Antwort muss eine Zahl sein.';
@@ -385,6 +400,8 @@ $string['questiontype'] = 'Fragentyp $a';
 $string['questiontypesetupoptions'] = 'Setup-Optionen für Fragentypen';
 $string['quiz:attempt'] = 'Tests ausprobieren';
 $string['quiz:deleteattempts'] = 'Testversuche löschen';
+$string['quiz:emailconfirmsubmission'] = 'Bei Abgabe eine E-Mail-Bestätigung erhalten';
+$string['quiz:emailnotifysubmission'] = 'Bei Abgaben eine E-Mail-Benachrichtigung erhalten';
 $string['quiz:grade'] = 'Tests manuell bewerten';
 $string['quiz:ignoretimelimits'] = 'Zeitgrenzen für Tests ignorieren';
 $string['quiz:manage'] = 'Tests verwalten';
@@ -513,6 +530,7 @@ $string['timedelay'] = 'Bis zum nächsten Testversuch muss einige Zeit verstreic
 $string['timeleft'] = 'Verbleibende Zeit';
 $string['timelimit'] = 'Zeitbegrenzung';
 $string['timelimitexeeded'] = 'Die Zeit für den Test ist abgelaufen!';
+$string['timelimitmin'] = 'Zeitbegrenzung (in Minuten)';
 $string['timestr'] = '%%H:%%M:%%S am %%d/%%m/%%y';
 $string['timesup'] = 'Zeit ist abgelaufen.';
 $string['timetaken'] = 'Verbrauchte Zeit';

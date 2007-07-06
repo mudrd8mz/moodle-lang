@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.9 dev (2007050901)
+      // form.php - created with Moodle 1.9 dev (2007063001)
 
 
 $string['addfields'] = '$a Felder zum Formular hinzufügen';
@@ -26,14 +26,15 @@ $string['month'] = 'Monat';
 $string['nomethodforaddinghelpbutton'] = 'Es gibt keine Möglichkeit, einen Hilfebutton zum Formularelement $a->name (class $a->classname) hinzuzufügen.';
 $string['nonexistentformelements'] = 'Sie versuchen einen Hilfebutton zu einem nicht existierenden Formularelement hinzuzufügen: $a.';
 $string['optional'] = 'Optional';
+$string['othersettings'] = 'Andere Einstellungen';
 $string['requiredelement'] = 'Pflichtfeld';
+$string['revealpassword'] = 'Aufdecken';
 $string['security'] = 'Sicherheit';
 $string['showadvanced'] = 'Zusätzliche Felder anzeigen';
 $string['somefieldsrequired'] = 'Die markierten Felder in diesem Formular sind Pflichtfelder. Diese müssen ausgefüllt werden.';
 $string['timing'] = 'Zeitsteuerung';
 $string['unmaskpassword'] = 'Klartext';
 $string['year'] = 'Jahr';
-$string['revealpassword'] = 'Aufdecken'; // ORPHANED
 $string['requiredfield'] = 'Dies ist ein Pflichtfeld.'; // ORPHANED
 
 ?>

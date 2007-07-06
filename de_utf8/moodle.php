@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007062007)
+      // moodle.php - created with Moodle 1.9 dev (2007063001)
 
 
 $string['action'] = 'Aktion';
@@ -1063,7 +1063,9 @@ $string['pageheaderconfigablock'] = 'Konfiguriere einen Block in %%fullname%%';
 $string['parentcoursenotfound'] = 'Kurs nicht gefunden!';
 $string['parentcoursenotmetacourse'] = 'Kurs ist kein Metakurs!';
 $string['parentfolder'] = 'Übergeordneter Ordner';
-$string['parentlanguage'] = 'Hinweis für Übersetzer: Wenn Ihr Sprachpaket von einem übergeordnete Sprachpaket abgeleitet ist (parent language), dann tragen Sie die Kurzbezeichnung dieses übergeordneten Sprachpakets bitte hier ein (z.B. nl). Moodle verwendet dann dieses übergeordnete Sprachpaket, falls in Ihrer Übersetzung Begriffe fehlen / nicht übersetzt wurden. Wenn Sie nichts eintragen, wird das englische Sprachpaket verwendet, d.h. fehlende Begriffe werden durch die entsprechenden englischen Begriffe ersetzt.';
+$string['parentlanguage'] = 'en
+
+Hinweis für Übersetzer: Wenn Ihr Sprachpaket von einem übergeordnete Sprachpaket abgeleitet ist (parent language), dann tragen Sie die Kurzbezeichnung dieses übergeordneten Sprachpakets bitte hier ein (z.B. nl). Moodle verwendet dann dieses übergeordnete Sprachpaket, falls in Ihrer Übersetzung Begriffe fehlen / nicht übersetzt wurden. Wenn Sie nichts eintragen, wird das englische Sprachpaket verwendet, d.h. fehlende Begriffe werden durch die entsprechenden englischen Begriffe ersetzt.';
 $string['participants'] = 'Teilnehmer/innen';
 $string['participationratio'] = 'Beteiligung';
 $string['participationreport'] = 'Bericht über die Beteiligung';
@@ -1432,16 +1434,16 @@ $string['unusedaccounts'] = 'Kurszugänge werden automatisch gelöscht, wenn sie
 $string['unzip'] = 'Entpacken';
 $string['unzippingbackup'] = 'Sicherung entpacken';
 $string['up'] = 'Aufwärts';
-$string['update'] = 'Update';
-$string['updated'] = '$a upgedatet';
+$string['update'] = 'Aktualisieren';
+$string['updated'] = '$a aktualisiert';
 $string['updatemymoodleoff'] = 'Standard-Modus';
 $string['updatemymoodleon'] = 'Diese Seite bearbeiten';
 $string['updatemyprofile'] = 'Profil aktualisieren';
 $string['updatesevery'] = 'Aktualisiere alle $a Sekunden';
-$string['updatethis'] = '$a updaten';
-$string['updatethiscourse'] = 'Diesen Kurs updaten';
-$string['updatinga'] = 'Update: $a';
-$string['updatingain'] = 'Update von $a->what in $a->in';
+$string['updatethis'] = '$a bearbeiten';
+$string['updatethiscourse'] = 'Diesen Kurs bearbeiten';
+$string['updatinga'] = 'Bearbeite $a';
+$string['updatingain'] = 'Bearbeite $a->what in $a->in';
 $string['upload'] = 'Hochladen';
 $string['uploadafile'] = 'Eine Datei hochladen';
 $string['uploadedfile'] = 'Die Datei wurde erfolgreich hochgeladen';

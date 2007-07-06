@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 dev (2007062007)
+      // forum.php - created with Moodle 1.9 dev (2007063001)
 
 
 $string['addanewdiscussion'] = 'Neues Diskussionsthema hinzufügen';
@@ -25,6 +25,7 @@ $string['cannotviewpostyet'] = 'Sie können die Beiträge anderer Teilnehmer/inn
 $string['configcleanreadtime'] = 'Zeitpunkt des Tages (Stunde), zu dem alte Beiträge von der \'read\'-Tabelle gelöscht werden.';
 $string['configdisplaymode'] = 'Standard-Anzeigemodus für Diskussionen, falls nichts eingestellt wurde.';
 $string['configenablerssfeeds'] = 'Diese Einstellung ermöglicht die Nutzung der RSS-Feeds für alle Foren. Jedes Forum muss einzeln für den RSS-Feed aktiviert werden.';
+$string['configenabletimedposts'] = 'Wählen Sie die Einstellung \'Ja\', um einen Zeitraum für den Beginn und das Ende der Anzeige eines Diskussionsbeitrags festzulegen. (Experimentell, noch nicht umfassend getestet.)';
 $string['configlongpost'] = 'Jeder Beitrag (ohne HTML-Codierung), der länger ist als diese Einstellung, wird als lang eingestuft.';
 $string['configmanydiscussions'] = 'Maximale Anzahl von Forumsthemen pro Seite';
 $string['configmaxbytes'] = 'Maximale Größe von Dateianhängen, die zu den Beiträgen dieser Seite hochgeladen werden können (in Abhängigkeit von Kursbegrenzungen und anderen lokalen Einstellungen)';
@@ -81,7 +82,7 @@ $string['forum:deleteownpost'] = 'Eigene Beiträge löschen (mit Zeitbegrenzung)
 $string['forum:editanypost'] = 'Alle Beiträge bearbeiten';
 $string['forum:initialsubscriptions'] = 'Zunächst eintragen';
 $string['forum:managesubscriptions'] = 'Abonnent/innen verwalten';
-$string['forum:movediscussions'] = 'Themen veschieben';
+$string['forum:movediscussions'] = 'Themen verschieben';
 $string['forum:rate'] = 'Beiträge bewerten';
 $string['forum:replynews'] = 'Auf Nachrichten antworten';
 $string['forum:replypost'] = 'Auf Beiträge antworten';
@@ -226,7 +227,7 @@ $string['searchwhichforums'] = 'Forum für Suche auswählen';
 $string['searchwords'] = 'Alle Begriffe (können an jeder Stelle des Beitrags auftauchen)';
 $string['seeallposts'] = 'Alle Beiträge dieses Nutzers/dieser Nutzerin  ansehen';
 $string['sendinratings'] = 'Aktuelle Bewertung senden';
-$string['showsubscribers'] = 'Teilnehmer/innen verwalten';
+$string['showsubscribers'] = 'Teilnehmer/innen im Forum verwalten';
 $string['singleforum'] = 'Diskussion zu einem einzigen Thema';
 $string['startedby'] = 'Beginnt mit';
 $string['subject'] = 'Betreff';
