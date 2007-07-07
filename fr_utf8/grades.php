@@ -71,6 +71,7 @@ $string['feedback'] = 'Feedback';
 $string['feedbackadd'] = 'Ajouter feedback';
 $string['feedbackedit'] = 'Modifier feedback';
 $string['feedbackformat'] = 'Format de feedback';
+$string['feedbacksaved'] = 'Feedback enregistré';
 $string['feedbackview'] = 'Afficher feedback';
 $string['forelementtypes'] = ' pour les $a sélectionnés';
 $string['forstudents'] = 'Pour les étudiants';
