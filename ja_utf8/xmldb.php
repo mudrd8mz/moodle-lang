@@ -9,6 +9,11 @@ $string['binaryincorrectlength'] = 'binaryフィールドの長さが正しく�
 $string['cannotuseidfield'] = '「id」フィールドは追加できません。自動作成されるカラムです。';
 $string['change'] = '変更';
 $string['charincorrectlength'] = 'charフィールドの長さが正しくありません。';
+$string['check_indexes'] = '不明なDBインデックスを調査中';
+$string['checkindexes'] = 'インデックスのチェック';
+$string['completelogbelow'] = '(検索結果に関する下記の完全なログをご覧ください。)';
+$string['confirmcheckindexes'] = 'この機能は、あなたのMoodleサーバで潜在的に不明なインデックスを調査し、すべてを最新の状態にするためのSQL文を自動的に生成します (実行ではありません!)。SQL文の生成後、あなたはSQL文をコピーして、自分の好きなSQLインターフェースで安全に実行することができます。<br /><br />不明なインデックス調査を実行する前に、あなたのMoodleリリース (1.8, 1.9, 2.x ...) を最新のもの (+ バージョン)  にバージョンアップすることを強くお勧めします。<br /><br />
+この機能は、DBに対していかなる処理も実行しません (読むだけです)。ですから、いつでも安全に実行することが可能です。';
 $string['confirmdeletefield'] = '本当にフィールドを完全に削除してもよろしいですか:';
 $string['confirmdeleteindex'] = '本当にインデックスを完全に削除してもよろしいですか:';
 $string['confirmdeletekey'] = '本当にキーを完全に削除してもよろしいですか:';
@@ -56,6 +61,7 @@ $string['keys'] = 'キー';
 $string['listreservedwords'] = '予約語一覧<br/>(<a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> を更新するため使用されます。)';
 $string['load'] = 'ロード';
 $string['main_view'] = 'メインビュー';
+$string['missing'] = '不明';
 $string['missingfieldsinsentence'] = 'センテンスのフィールドが見つかりません。';
 $string['missingindexes'] = 'インデックスが見つかりません。';
 $string['missingvaluesinsentence'] = 'センテンスの値が見つかりません。';
@@ -71,6 +77,7 @@ $string['newsentence'] = '新しいセンテンス';
 $string['newstatement'] = '新しいステートメント';
 $string['newtable'] = '新しいテーブル';
 $string['newtablefrommysql'] = 'MySQLから新しいテーブル';
+$string['nomissingindexesfound'] = '不明なインデックスは見つかりませんでした。あなたのDBに関して、さらなる処置は不要です。';
 $string['numberincorrectdecimals'] = 'numberフィールドの小数点以下桁数が正しくありません。';
 $string['numberincorrectlength'] = 'numberフィールドの長さが正しくありません。';
 $string['reserved'] = '予約済み';
@@ -108,5 +115,6 @@ $string['viewsqlcode'] = 'SQLコードの表示';
 $string['wronglengthforenum'] = 'enumフィールドの長さが正しくありません。';
 $string['wrongnumberoffieldsorvalues'] = 'センテンスのフィールド数または値が正しくありません。';
 $string['wrongreservedwords'] = '現在使用されている予約語<br />($CFG->prefixを使用する場合、テーブル名は重要ではありません。)';
+$string['yesmissingindexesfound'] = 'あなたのDBに不明なインデックスが見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでインデックス作成を実行するためのSQL文です。<br /><br />SQL文の実行後、これ以上不明なインデックスが見つからないかどうか、このユーティリティの再実行を強くお勧めします。';
 
 ?>
