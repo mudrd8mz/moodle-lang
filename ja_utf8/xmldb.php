@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.8 dev (2006120700)
+      // xmldb.php - created with Moodle 1.9 dev (2007070603)
 
 
 $string['aftertable'] = '次のテーブルの後:';
@@ -48,13 +48,16 @@ $string['floatincorrectdecimals'] = 'floatフィールドの小数点以下桁�
 $string['floatincorrectlength'] = 'floatフィールドの長さが正しくありません。';
 $string['gotolastused'] = '最後に使用されたファイルへ移動する';
 $string['incorrectfieldname'] = 'フィールド名が正しくありません。';
+$string['index'] = 'インデックス';
 $string['indexes'] = 'インデックス';
 $string['integerincorrectlength'] = 'integerフィールドの長さが正しくありません。';
+$string['key'] = 'キー';
 $string['keys'] = 'キー';
 $string['listreservedwords'] = '予約語一覧<br/>(<a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> を更新するため使用されます。)';
 $string['load'] = 'ロード';
 $string['main_view'] = 'メインビュー';
 $string['missingfieldsinsentence'] = 'センテンスのフィールドが見つかりません。';
+$string['missingindexes'] = 'インデックスが見つかりません。';
 $string['missingvaluesinsentence'] = 'センテンスの値が見つかりません。';
 $string['mustselectonefield'] = 'フィールドに関連した処理を見るには、フィールドを選択してください!';
 $string['mustselectoneindex'] = 'インデックスに関連した処理を見るには、インデックスを選択してください!';
@@ -75,6 +78,7 @@ $string['reservedwords'] = '予約語';
 $string['revert'] = '元に戻す';
 $string['revert_changes'] = '変更を元に戻す';
 $string['save'] = '保存';
+$string['searchresults'] = '検索結果';
 $string['selectaction'] = '処理の選択:';
 $string['selectdb'] = 'データベースの選択:';
 $string['selectfieldkeyindex'] = 'フィールド/キー/インデックスの選択:';
