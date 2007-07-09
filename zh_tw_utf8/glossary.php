@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 (2006050506)
+      // glossary.php - created with Moodle 1.8 + (2007021505)
 
 
 $string['addcomment'] = '新增評論';
@@ -89,10 +89,14 @@ $string['entryleveldefaultsettings'] = '列表預設值';
 $string['entrysaved'] = '這篇文章已經儲存';
 $string['entryupdated'] = '這篇文章已經更新';
 $string['entryusedynalink'] = '該登錄將被自動鏈結';
+$string['errcannoteditothers'] = '您無法編輯其他使用者的資料';
+$string['errconceptalreadyexists'] = '這個概念已經存在，這個詞彙表不允許重複。';
+$string['erredittimeexpired'] = '這筆資料的編輯時間已經超過。';
+$string['errorparsingxml'] = '解析檔案時發生錯誤，請確認 XML 語法正確。';
 $string['explainaddentry'] = '新增登錄到目前的語彙。<br> 概念和定義是必填的欄位';
 $string['explainall'] = '在一頁中顯示所有登錄';
 $string['explainalphabet'] = '通過此索引瀏覽辭彙';
-$string['explainexport'] = '所有檔案已經被建立。<BR> 請將它下載並安全的保存。您可以匯入它們，當您需要的時候或匯入其他的課程。 ';
+$string['explainexport'] = '所有檔案已經被建立。<BR> 請將它下載並安全的保存。您可以匯入它們，當您需要的時候或匯入其他的課程。';
 $string['explainimport'] = '您必須指明檔名來匯入，並且定義流程標準。<P> 送出您的請求，來檢視結果。';
 $string['explainspecial'] = '顯示沒有由英文字母開頭的登錄';
 $string['exportedentry'] = '匯出的記錄';
@@ -105,14 +109,27 @@ $string['fillfields'] = '概念和定義是必要的欄位';
 $string['filtername'] = '辭彙自動超連結';
 $string['fullmatch'] = '僅符點全部詞語';
 $string['globalglossary'] = '全域辭彙';
+$string['glossary:approve'] = '通過未審核的資料';
+$string['glossary:comment'] = '建立評論';
+$string['glossary:export'] = '匯出資料';
+$string['glossary:import'] = '匯入資料';
+$string['glossary:managecategories'] = '管理類別';
+$string['glossary:managecomments'] = '管理評論';
+$string['glossary:manageentries'] = '管理資料';
+$string['glossary:rate'] = '評分項目';
+$string['glossary:view'] = '檢視詞彙表';
+$string['glossary:viewrating'] = '檢視評分';
+$string['glossary:write'] = '建立新資料';
 $string['glossaryleveldefaultsettings'] = '全域辭彙設定';
 $string['glossarytype'] = '辭彙類別';
 $string['importcategories'] = '匯入類別';
 $string['importedcategories'] = '匯入的類別';
 $string['importedentries'] = '匯入的記錄';
 $string['importentries'] = '匯入登錄';
+$string['importentriesfromxml'] = '從 XML 檔案匯入資料';
 $string['isglobal'] = '設定為總體辭彙?';
-$string['linkcategory'] = '自動鏈結該類別';
+$string['linkcategory'] = '自動連結該類別';
+$string['linking'] = '自動連結';
 $string['mainglossary'] = '主辭彙';
 $string['maxtimehaspassed'] = '抱歉， 已超過了修改該評論 ($a) 的最大時限!';
 $string['modulename'] = '辭彙';

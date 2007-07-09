@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6 (2006050506)
+      // grades.php - created with Moodle 1.8 + (2007021505)
 
 
 $string['addcategory'] = '新增類別';
@@ -123,5 +123,6 @@ $string['weightedpct'] = '加權%%';
 $string['weightedpctcontribution'] = '加權 %% 貢獻度';
 $string['writinggradebookinfo'] = '寫入成績單設定';
 $string['yes'] = '是';
+$string['yourgrade'] = '您的分數';
 
 ?>

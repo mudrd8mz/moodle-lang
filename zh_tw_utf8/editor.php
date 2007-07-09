@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6 (2006050506)
+      // editor.php - created with Moodle 1.8 + (2007021505)
 
 
 $string['about'] = '關於此編輯器';
@@ -35,6 +35,7 @@ $string['cutpastemozilla'] = '抱歉，您目前不能在線上編輯器使用�
 <br/>(3)編輯瀏覽器中user.js檔案設定<br/>
 按確定按鈕以取得更多說明，或按取消回到編輯器中';
 $string['delete'] = '刪除';
+$string['enterurlfirst'] = '您必須先輸入一個網址';
 $string['filebrowser'] = '檔案瀏覽';
 $string['findwhat'] = '搜尋';
 $string['fontname'] = '字型名稱';
@@ -61,6 +62,7 @@ $string['justifycenter'] = '置中';
 $string['justifyfull'] = '分散對齊';
 $string['justifyleft'] = '靠左對齊';
 $string['justifyright'] = '靠右對齊';
+$string['lang'] = '語言';
 $string['layout'] = '版面格式';
 $string['left'] = '左';
 $string['lefttoright'] = '方向由左到右';
@@ -77,6 +79,8 @@ $string['matchcase'] = '符合大小寫';
 $string['middle'] = '中央';
 $string['minimize'] = '編輯器最小化';
 $string['move'] = '移動';
+$string['multi'] = '多個';
+$string['mustenterurl'] = '您必須輸入網址';
 $string['nolink'] = '取消自動連結功能';
 $string['normal'] = '標準的';
 $string['notimage'] = '所選取的檔案不是影像檔。請選擇一個影像檔';
@@ -89,6 +93,7 @@ $string['paste'] = '從剪貼簿貼上';
 $string['path'] = '路徑';
 $string['percent'] = '百分比';
 $string['pixels'] = '像素';
+$string['pleaseenteralt'] = '請輸入替代文字';
 $string['popupeditor'] = '在彈出的大視窗中打開編輯器';
 $string['preformatted'] = '預設段落字體';
 $string['preview'] = '預覽';

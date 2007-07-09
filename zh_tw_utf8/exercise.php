@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.6 (2006050506)
+      // exercise.php - created with Moodle 1.8 + (2007021505)
 
 
 $string['absent'] = '不存在';
@@ -46,6 +46,7 @@ $string['enterpassword'] = '輸入密碼';
 $string['entriessaved'] = '文章已儲存';
 $string['errorbanded'] = '是否答對';
 $string['excellent'] = '優秀';
+$string['exercise:assess'] = '活動評鑑';
 $string['exerciseassessments'] = '活動評鑑';
 $string['exercisefeedback'] = '活動回饋';
 $string['exercisesubmissions'] = '上傳的作業';
@@ -121,7 +122,7 @@ $string['reasonforadjustment'] = '調整原因';
 $string['reassess'] = '重新評分';
 $string['regradestudentassessments'] = '重新評分學生的作業';
 $string['resubmissionfor'] = '$a重新上傳';
-$string['resubmitnote'] = '* 表示$a 被允許重新交作業。<br /> ';
+$string['resubmitnote'] = '* 表示$a 被允許重新交作業。<br />';
 $string['rubric'] = '文字修訂';
 $string['savedok'] = '儲存完成';
 $string['saveentries'] = '儲存設定';

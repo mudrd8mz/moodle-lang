@@ -1,8 +1,11 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6 (2006050506)
+      // chat.php - created with Moodle 1.8 + (2007021505)
 
 
 $string['beep'] = '呼叫';
+$string['chat:chat'] = '在聊天室聊天';
+$string['chat:deletelog'] = '刪除聊天記錄';
+$string['chat:readlog'] = '讀取聊天記錄';
 $string['chatintro'] = '簡介文字';
 $string['chatname'] = '該聊天室名稱';
 $string['chatreport'] = '聊天話題';
@@ -24,7 +27,7 @@ $string['donotusechattime'] = '不顯示聊天時間';
 $string['enterchat'] = '點此進入聊天室';
 $string['errornousers'] = '沒有該使用者';
 $string['explaingeneralconfig'] = '這些設定<strong>總是</strong> 有效';
-$string['explainmethoddaemon'] = '這些設定<strong>只有</strong>當您選擇聊天室模式為聊天伺服器daemon 才有效 ';
+$string['explainmethoddaemon'] = '這些設定<strong>只有</strong>當您選擇聊天室模式為聊天伺服器daemon 才有效';
 $string['explainmethodnormal'] = '這些設定<strong>只有</strong>當您選擇聊天室模式為普通模式才有效';
 $string['generalconfig'] = '一般設定';
 $string['helpchatting'] = '聊天輔助說明';

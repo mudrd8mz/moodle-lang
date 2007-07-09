@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1。5。2 (2005060220)
+      // workshop.php - created with Moodle 1.8 + (2007021505)
 
 
 $string['absent'] = '不存在';
@@ -27,7 +27,7 @@ $string['assessmentdropped'] = '作業捨棄';
 $string['assessmentend'] = '評分結束';
 $string['assessmentendevent'] = '$a的評分結束';
 $string['assessmentgrade'] = '作業得分： $a';
-$string['assessmentnotyetagreed'] = '作業還未被允許 ';
+$string['assessmentnotyetagreed'] = '作業還未被允許';
 $string['assessmentnotyetgraded'] = '作業還未被評分';
 $string['assessmentof'] = '$a 的評分';
 $string['assessmentofresubmission'] = '這是有關這個工作被修正後的評價。<br>目前的表單顯示數據為先前的成績和註解。 <br>請在修正過工作後修定';
@@ -110,7 +110,7 @@ $string['gradegiventoassessment'] = '後設評鑑';
 $string['gradeofsubmission'] = '上傳作業的得分： $a';
 $string['grades'] = '分數';
 $string['gradesforassessmentsare'] = '互評分數佔 $a %%';
-$string['gradesforstudentsassessment'] = ' $a 的評量分數';
+$string['gradesforstudentsassessment'] = '$a 的評量分數';
 $string['gradesforsubmissionsare'] = '作業分數佔 $a %%';
 $string['gradetable'] = '成績表';
 $string['gradingallassessments'] = '互評分數計算';
@@ -137,7 +137,7 @@ $string['mail3'] = '您可以在工作坊作業中看到';
 $string['mail4'] = '評語已加到作業$a\' 由';
 $string['mail5'] = '新評語可以在工作坊作業\'$a\'看到。';
 $string['mail6'] = '您在作業 \'$a\'的評分已經被複審完畢';
-$string['mail7'] = ' 由$a給的評語可以在工作坊作業中看到';
+$string['mail7'] = '由$a給的評語可以在工作坊作業中看到';
 $string['mail8'] = '作業 $a 是一份訂正作業。';
 $string['mail9'] = '請在工作坊作業\'$a\'中進行評分。';
 $string['managingassignment'] = '作業管理';
@@ -221,7 +221,7 @@ $string['reply'] = '回應';
 $string['returnto'] = '返回到';
 $string['returntosubmissionpage'] = '返回到提交頁面';
 $string['rubric'] = '註釋';
-$string['savedok'] = '儲存完成 ';
+$string['savedok'] = '儲存完成';
 $string['saveleaguetableoptions'] = '儲存名次表選項';
 $string['savemyassessment'] = '儲存我的評分';
 $string['savemycomment'] = '儲存我的建議';
@@ -257,7 +257,7 @@ $string['submission'] = '發表的作品';
 $string['submissionend'] = '作業繳交期限到';
 $string['submissionendevent'] = '$a 作業繳交期限到';
 $string['submissions'] = '發表的作品';
-$string['submissionsnolongerallowed'] = '不再允許上傳作業 ';
+$string['submissionsnolongerallowed'] = '不再允許上傳作業';
 $string['submissionstart'] = '開始繳交作業';
 $string['submissionstartevent'] = '開始繳交$a的作業';
 $string['submissionsused'] = '$a 作業使用於這個表格';
@@ -306,6 +306,8 @@ $string['weightforteacherassessments'] = '教師評價的權重';
 $string['weights'] = '權重';
 $string['weightsusedforfinalgrade'] = '用於最後得分的權重';
 $string['weightsusedforsubmissions'] = '用於提交物的權重';
+$string['workshop:manage'] = '管理設定';
+$string['workshop:participate'] = '加入工作坊';
 $string['workshopagreedassessments'] = '工作坊的評價';
 $string['workshopassessments'] = '工作坊評價';
 $string['workshopcomments'] = '工作坊評論';

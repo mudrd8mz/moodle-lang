@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.6 Beta 5 (2006050502)
+      // block_rss_client.php - created with Moodle 1.8 + (2007021505)
 
 
 $string['addfeed'] = '新增新聞推播URL:';
 $string['addheadlineblock'] = '新增RSS頭條區塊:';
 $string['addnew'] = '新增';
+$string['blockname'] = 'RSS程式';
 $string['choosefeedlabel'] = '選擇您要在此區塊中可用的推廣內容';
 $string['clientchannellink'] = '來源網站...';
 $string['clientnumentries'] = '每個推播網站預設的文章數';
@@ -31,7 +32,12 @@ $string['managefeeds'] = '管理我所有的推播';
 $string['nofeeds'] = '目前此網站尚無定義的RSS推播';
 $string['pickfeed'] = '選取一則新聞推播';
 $string['remotenewsfeed'] = '遠端新聞推播';
+$string['rss_client:createprivatefeeds'] = '建立私人RSS供稿來源';
+$string['rss_client:createsharedfeeds'] = '建立分享RSS供稿來源';
+$string['rss_client:manageanyfeeds'] = '管理任意RSS供稿來源';
+$string['rss_client:manageownfeeds'] = '管理自有RSS供稿來源';
 $string['seeallfeeds'] = '檢視所有推播';
+$string['sharedfeed'] = '分享的RSS供稿來源';
 $string['shownumentrieslabel'] = '每區塊顯示文章的最大數';
 $string['submitters'] = '允許誰定義新的RSS推播?定義推播在您網站的任何頁面均可設定';
 $string['timeout'] = '區塊RSS逾時';

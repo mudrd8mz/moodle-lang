@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6 (2006050506)
+      // blog.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['addnewentry'] = '新增文章';
@@ -15,7 +15,10 @@ $string['blogs'] = '部落格';
 $string['blogtags'] = '部落格標籤';
 $string['courseblog'] = '課程部落格： $a';
 $string['courseblogs'] = '使用者只有在人們分享一個課程時才能夠檢視部落格';
+$string['deleteotagswarn'] = '您確定要從所有部落格文章以及系統中移除這些標籤？';
 $string['disableblogs'] = '完全停用部落格系統';
+$string['emptybody'] = '部落格文章不能為空白';
+$string['emptytitle'] = '部落格標題不能為空白';
 $string['entrybody'] = '部落格文章內容';
 $string['entrybodyonlydesc'] = '文章說明';
 $string['entryerrornotyours'] = '這筆資料不是您的';
@@ -43,6 +46,7 @@ $string['settingsupdatederror'] = '發生一個錯誤，部落格設定無法更
 $string['siteblog'] = '網站部落格： $a';
 $string['siteblogs'] = '所有網站使用者可以檢視所有部落格文章';
 $string['tagdatelastused'] = '上次使用的日期標籤';
+$string['tags'] = '標籤';
 $string['tagsort'] = '排序標籤規則';
 $string['tagtext'] = '標籤文字';
 $string['timewithin'] = '顯示指定天數內使用的標籤';

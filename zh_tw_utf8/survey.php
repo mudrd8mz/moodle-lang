@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.6 (2006050506)
+      // survey.php - created with Moodle 1.8 + (2007021505)
 
 
 $string['actual'] = '實際的';
@@ -153,6 +153,7 @@ $string['collespintro'] = '本問卷是用來幫助我們瞭解您對本線上�
 您的認真回答將有助於我們改善本線上課程，使得未來使用時更加有功效!
 非常謝謝您的合作!';
 $string['collespname'] = '學習環境問卷(期待的想法)';
+$string['customintro'] = '自訂介紹';
 $string['done'] = '完成';
 $string['download'] = '下載';
 $string['downloadexcel'] = '以 execl 格式下載';
@@ -189,7 +190,11 @@ $string['scaletimes5'] = '從未,很少,偶而,經常,幾乎總是';
 $string['seemoredetail'] = '按此以觀看更多細節';
 $string['selectedquestions'] = '從量表中選出的問題， 所有學生';
 $string['summary'] = '總結';
+$string['survey:download'] = '下載回答';
+$string['survey:participate'] = '回答問卷';
+$string['survey:readresponses'] = '檢視回答';
 $string['surveycompleted'] = '您已經完成本問卷調查， 以下顯示您的回答和全班平均的比較';
+$string['surveygraph'] = '問卷圖形';
 $string['surveyname'] = '問卷名稱';
 $string['surveysaved'] = '儲存問卷';
 $string['surveytype'] = '問卷型態';

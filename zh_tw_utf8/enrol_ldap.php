@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.6 (2006050506)
+      // enrol_ldap.php - created with Moodle 1.8 + (2007021505)
 
 
 $string['description'] = '<p>您可以使用LDAP伺服器控制您的課程登記。</br>
@@ -16,8 +16,9 @@ $string['enrol_ldap_autocreation_settings'] = '課程自動化產生設定';
 $string['enrol_ldap_bind_dn'] = '如果您要讓嵌入的使用者(bind-user)搜尋其他使用者，請在此設定，如:\'cn=ldapuser,ou=public,o=org\'';
 $string['enrol_ldap_bind_pw'] = '嵌入使用者(bind-user)的密碼';
 $string['enrol_ldap_category'] = '自動建立(auto-created )課程的類別';
+$string['enrol_ldap_contexts'] = 'LDAP 意含';
 $string['enrol_ldap_course_fullname'] = '選項:取得全名的LDAP欄位';
-$string['enrol_ldap_course_idnumber'] = 'LDAP中的唯一識別項地圖，通常是<em>cn</em>或<em>uid</em>。建議當您使用自動建立課程功能時，鎖定這個值。 ';
+$string['enrol_ldap_course_idnumber'] = 'LDAP中的唯一識別項地圖，通常是<em>cn</em>或<em>uid</em>。建議當您使用自動建立課程功能時，鎖定這個值。';
 $string['enrol_ldap_course_settings'] = '課程登記設定';
 $string['enrol_ldap_course_shortname'] = '選項:取得簡稱的LDAP欄位';
 $string['enrol_ldap_course_summary'] = '選項:取得摘要的LDAP欄位';
@@ -25,7 +26,9 @@ $string['enrol_ldap_editlock'] = '鎖定值';
 $string['enrol_ldap_general_options'] = '一般選項';
 $string['enrol_ldap_host_url'] = '以URL格式指定LDAP主機如:\'ldap://ldap.myorg.com/\' 
 或 \'ldaps://ldap.myorg.com/\'';
+$string['enrol_ldap_memberattribute'] = 'LDAP 成員屬性';
 $string['enrol_ldap_objectclass'] = '用來搜尋課程的物件類別，通常是\'posixGroup\'。';
+$string['enrol_ldap_roles'] = '角色對應';
 $string['enrol_ldap_search_sub'] = '從子節點搜尋群組成員';
 $string['enrol_ldap_server_settings'] = 'LDAP 伺服器設定';
 $string['enrol_ldap_student_contexts'] = '存放學生登記群組的節點(context)列表，以\";\"號分割不同的節點，如:\'ou=courses,o=org; ou=others,o=org\'';
@@ -38,7 +41,7 @@ $string['enrol_ldap_teacher_memberattribute'] = '教師會員屬性，當使用�
 $string['enrol_ldap_teacher_settings'] = '教師登記設定';
 $string['enrol_ldap_template'] = '選擇性:自動建立的課程可以從樣板課程中複製他們的設定。';
 $string['enrol_ldap_updatelocal'] = '更新本地資料';
-$string['enrol_ldap_version'] = '您伺服器目前使用的LDAP協定版本 ';
+$string['enrol_ldap_version'] = '您伺服器目前使用的LDAP協定版本';
 $string['enrolname'] = 'LDAP';
 
 ?>
