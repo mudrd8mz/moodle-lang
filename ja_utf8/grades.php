@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007070602)
+      // grades.php - created with Moodle 1.9 dev (2007070603)
 
 
 $string['addcategory'] = 'カテゴリの追加';
@@ -116,6 +116,9 @@ $string['gradeweighthelp'] = '評定加重ヘルプ';
 $string['grandtotalsdisplaytype'] = '総計の表示タイプ';
 $string['hideadvanced'] = '拡張機能を隠す';
 $string['hidecategory'] = '隠す';
+$string['hideeyecons'] = '目のアイコンを隠す';
+$string['hidelocks'] = 'ロックを隠す';
+$string['hidenotes'] = 'フィードバックを隠す';
 $string['highgradeascending'] = '高評点の昇順で並び替え';
 $string['highgradedescending'] = '高評点の降順で並び替え';
 $string['highgradeletter'] = '上限';
