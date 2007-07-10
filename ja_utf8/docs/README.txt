@@ -1,43 +1,12 @@
-Moodleドキュメンテーション
---------------------
+このディレクトリには多くのHTML形式ドキュメントを含んでいました。
 
-あなたが、このドキュメンテーションを他の言語に翻訳したい場合、下記の内容を提案します:
+現在、すべてのドキュメントはMoodle Docs wikiに移動しています。
 
- 1)  あなたの言語パックが見つからない場合、英語バージョンのファイルが自動的に使用されるため、英語バージョンのファイルをこのディレクトリに入れないでください。
+ここに同梱されていたすべての情報は下記の新しい場所でご覧いただけます:
 
- 2)  言語ファイルは下記の順番で翻訳してください (重要度が高いものから最初に):
-  
-    重要度が最高
-    |-------------------
-    |
-    |   - files.php
-    |   - install.html
-    |   - installamp.html
-    |   - upgrade.html
-    |   - faq.html
-    |
-    |  -----------------
-    |
-    |   - teacher.html
-    |   - module_files.txt
-    | 
-    |  -----------------
-    |   
-    |   - intro.html
-    |   - features.html
-    |   - release.html
-    |
-    |  -----------------
-    |
-    |   - developer.html
-    |   - cvs.html
-    |   - future.html
-    |
-    |  -----------------
-    |   
-    |   - license.html
-    |
-    |-------------------
-    重要度が最低
+    http://docs.moodle.org/ja/
 
- 3) credits.htmlは翻訳しないでください - このファイルは頻繁に更新されます。
+    http://tracker.moodle.org/browse/MDL-4912
+
+Cheers,
+Mitsuhiro Yoshida, 11th July 2007
