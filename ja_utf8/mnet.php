@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 dev (2007060502)
+      // mnet.php - created with Moodle 1.9 dev (2007071000)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
@@ -153,7 +153,7 @@ $string['showremote'] = 'リモートユーザを表示する';
 $string['ssl_acl_allow'] = 'SSO ACL: $a[1] からのユーザ $a[0] を許可します。';
 $string['ssl_acl_deny'] = 'SSO ACL: $a[1] からのユーザ $a[0] を拒否します。';
 $string['ssoaccesscontrol'] = 'SSOアクセスコントロール';
-$string['ssoacldescr'] = 'このページは、リモートMoodleネットワークホストのユーザによるアクセスを許可/拒否するため使用してください。この機能は、あなたがリモートユーザにSSOサービスを提供するときに動作します。あなたのローカルユーザが他のMoodleネットーワークホストを散策できるような権限をコントロールするには、ロールシステムにて、ユーザに「mnetlogintoremote」ケイパビリティを付与してください。';
+$string['ssoacldescr'] = 'このページは、リモートMoodleネットワークホストのユーザによるアクセスを許可/拒否するため使用してください。この機能は、あなたがリモートユーザにSSOサービスを提供するときに動作します。あなたのローカルユーザが他のMoodleネットワークホストを散策できるような権限をコントロールするには、ロールシステムにて、ユーザに「mnetlogintoremote」ケイパビリティを付与してください。';
 $string['ssoaclneeds'] = 'この機能を動作させるためには、Moodleネットーワキングを有効にしてください。さらにユーザを自動的に追加するには、Moodleネットワーク認証プラグインを有効にしてください。';
 $string['strict'] = '厳格';
 $string['subscribe'] = '登録';

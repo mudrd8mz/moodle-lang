@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007060502)
+      // auth.php - created with Moodle 1.9 dev (2007071000)
 
 
 $string['CASform'] = '認証選択';
@@ -191,7 +191,7 @@ $string['auth_mnet_auto_add_remote_users'] = '「Yes」を選択した場合、�
 $string['auth_mnet_roamin'] = '次のホストのユーザは、あなたのサイトを散策できます';
 $string['auth_mnet_roamout'] = 'あなたのユーザは、次のホストを散策できます';
 $string['auth_mnet_rpc_negotiation_timeout'] = 'XMLRPCトランスポートによる認証のタイムアウト (秒)';
-$string['auth_mnetdescription'] = 'あなたのMoodleネットーワーク設定で定義されたウェブ認証方法に従って、ユーザが認証されます。';
+$string['auth_mnetdescription'] = 'あなたのMoodleネットワーク設定で定義されたウェブ認証方法に従って、ユーザが認証されます。';
 $string['auth_mnettitle'] = 'Moodleネットワーク認証';
 $string['auth_multiplehosts'] = '複数のホストまたはアドレスを設定できます (例 host1.com;host2.com;host3.com) または (例 xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx)';
 $string['auth_nntpchangepasswordurl_key'] = 'パスワード変更のURL';
