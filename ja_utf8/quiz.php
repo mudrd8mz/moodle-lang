@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007063001)
+      // quiz.php - created with Moodle 1.9 dev (2007070902)
 
 
 $string['1day'] = '1日';
@@ -228,7 +228,7 @@ $string['finishreview'] = 'レビューを終了する';
 $string['forceregeneration'] = 'データを再生成する';
 $string['formatnotfound'] = 'インポート/エクスポートフォーマット $a が見つかりませんでした。';
 $string['formatnotimplemented'] = 'フォーマットが正しく実装されていません。バグレポートに投稿してください。';
-$string['fractionsaddwrong'] = 'あなたが選択したプラス評点の合計が、100%%に達していません。<br />現在の評点合計は $a%% です。<br />戻ってこの問題を修正しますか?';
+$string['fractionsaddwrong'] = 'あなたが選択したプラス評点の合計が、100%%になっていません。<br />現在の評点合計は $a%% です。<br />戻ってこの問題を修正しますか?';
 $string['fractionsnomax'] = 'この問題で満点を取ることができるよう、<br />答えの1つは、100%%でなければなりません。 <br />戻ってこの問題を修正しますか?';
 $string['fromfile'] = 'ファイルからインポートする:';
 $string['functiontakesatleasttwo'] = '関数 $a は少なくとも2つの引数を持つ必要があります。';
@@ -426,7 +426,7 @@ $string['random'] = 'ランダム問題';
 $string['randomcreate'] = 'ランダム問題の作成';
 $string['randomsamatch'] = 'ランダム記述組み合わせ問題';
 $string['randomsamatchcreate'] = 'ランダム記述組み合わせ問題を作成する';
-$string['randomsamatchintro'] = '各問題に合致する答えをメニューより選択してください。';
+$string['randomsamatchintro'] = 'それぞれの問題の答えをメニューより選択してください。';
 $string['randomsamatchnumber'] = '選択問題数';
 $string['readytosend'] = '評定のためにすべての小テストを送信します。本当に送信してもよろしいですか?';
 $string['reattemptquiz'] = 'もう一度受験する';

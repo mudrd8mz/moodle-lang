@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.9 dev (2007041100)
+      // qtype_multichoice.php - created with Moodle 1.9 dev (2007070902)
 
 
 $string['addmorechoiceblanks'] = 'さらに {no} 件の選択肢入力欄を追加する';
@@ -16,11 +16,11 @@ $string['choices'] = '利用可能な選択肢';
 $string['clozeaid'] = 'テキストを入力してください。';
 $string['correctfeedback'] = '正解すべてに対するフィードバック';
 $string['editingmultichoice'] = '多肢選択問題の編集';
-$string['errfractionsaddwrong'] = 'あなたが選択したプラス評点の合計が、100%%に達していません。<br />現在の評点合計は $a%% です。';
+$string['errfractionsaddwrong'] = 'あなたが選択したプラス評点の合計が、100%%になっていません。<br />現在の評点合計は $a%% です。';
 $string['errfractionsnomax'] = 'この問題で満点を取ることができるよう、<br />選択肢の1つは、100%%でなければなりません。';
 $string['feedback'] = 'フィードバック';
 $string['fillouttwochoices'] = '2つ以上の選択肢を入力してください。空白の選択肢は使用されません。';
-$string['fractionsaddwrong'] = 'あなたが選択したプラス評点の合計が、100%%に達していません。<br />現在の評点合計は $a%% です。<br />戻ってこの問題を修正しますか?';
+$string['fractionsaddwrong'] = 'あなたが選択したプラス評点の合計が、100%%になっていません。<br />現在の評点合計は $a%% です。<br />戻ってこの問題を修正しますか?';
 $string['fractionsnomax'] = 'この問題で満点を取ることができるよう、<br />答えの1つは、100%%でなければなりません。 <br />前のページに戻ってこの問題を修正しますか?';
 $string['incorrectfeedback'] = '不正解すべてに対するフィードバック';
 $string['notenoughanswers'] = 'このタイプの問題には少なくとも $a の選択肢が必要です。';
