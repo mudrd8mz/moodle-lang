@@ -140,6 +140,7 @@ $string['iteminfo'] = 'Info élément';
 $string['itemname'] = 'Nom élément';
 $string['items'] = 'Éléments';
 $string['itemsedit'] = 'Modifier un élément de note';
+$string['left'] = 'Gauche';
 $string['lettergrade'] = 'Note lettre';
 $string['lettergradenonnumber'] = 'La note maximale et/ou minimale n\'est pas numérique pour';
 $string['letters'] = 'Lettres';
