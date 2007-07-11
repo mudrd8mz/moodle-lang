@@ -22,6 +22,6 @@ $string['strftimetime'] = '%%H:%%M';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Français';
-$string['thousandsep'] = '&nbsp;'; // thousand separator, set to '' if none, if this is set, must set decpoint
+$string['thousandsep'] = ''; // thousand separator, set to '' if none, if this is set, must set decpoint
 
 ?>
