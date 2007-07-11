@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007050300)
+      // error.php - created with Moodle 1.9 dev (2007070902)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 편집될 수 없음';
@@ -30,6 +30,8 @@ $string['fieldrequired'] = '\"$a\"는 필수 항목';
 $string['filenotfound'] = '죄송합니다. 요청하신 파일을 찾을 수 없습니다.';
 $string['forumblockingtoomanyposts'] = '이 포럼에 대해 지정한 게시 한계를 초과했습니다.';
 $string['groupalready'] = '사용자는 이미 $a 모둠에 속해있습니다.';
+$string['groupexistforcourse'] = '배움터에 이미 \"$a\"모둠이 있습니다.';
+$string['groupnotaddederror'] = '모둠 \"$a\"는 추가되지 않습니다.';
 $string['groupunknown'] = '$a 모둠은 지정한 배움터에 속해있지 않습니다.';
 $string['guestnoeditprofile'] = '손님은 신상명세를 편집할 수 없습니다.';
 $string['guestnoeditprofileother'] = '손님의 신상명세는 편집할 수 없습니다.';
@@ -79,6 +81,7 @@ $string['sessionipnomatch'] = '죄송합니다 당신의 아이피 주소가 처
 $string['statscatchupmode'] = '현재 통계 수집중에 있습니다. 현재 $a->daysdone 일간의 자료가 처리되었고 $a->dayspending 가 처리 대기중에 있습니다. 잠시후 다시 확인해 주시기 바랍니다!';
 $string['unicodeupgradeerror'] = '데이터베이스가 아직 유니코드가 아니지만 이 무들판으로는  여러분의 데이터베이스를 유니코드로 변환시킬 수 없습니다. 우선 무들을 1.7.x버전대로 판올림을 하시고 그곳의 관리자화면에서 유니코드로 변환해 주시기 바랍니다. 그 이후에나 무들 $a로 이전해 갈 수 있을 것입니다.';
 $string['unknowncourse'] = '\"$a\"라는 알려지지 않은 배움터';
+$string['unknowncourseidnumber'] = '\"$a\" 배움터는 없습니다.';
 $string['unknownuseraction'] = '죄송합니다만 이 사용자의 활동을 이해할 수 없습니다.';
 $string['usernotaddederror'] = '사용자 \"$a\"는 추가되지 않았습니다-알수 없는 오류';
 $string['usernotaddedregistered'] = '사용자 \"$a\"는 추가되지 않았습니다-이미 등록됨';

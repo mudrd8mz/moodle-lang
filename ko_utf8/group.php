@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 dev (2007040200)
+      // group.php - created with Moodle 1.9 dev (2007070902)
 
 
 $string['addgroupstogrouping'] = '모둠을 모둠무리에 추가';
@@ -37,6 +37,7 @@ $string['errornotingrouping'] = '죄송합니다만 당신은 $a 에 모둠을 �
 $string['errornotingroupingedit'] = '죄송합니다만 당신은 $a 무리를 생성할 수 없습니다.';
 $string['existingmembers'] = '실제 회원수 : $a';
 $string['group'] = '모둠';
+$string['groupaddedsuccesfully'] = '$a 모둠 추가됨';
 $string['groupdescription'] = '모둠 설명';
 $string['groupfor'] = '모둠에 대하여';
 $string['groupinfo'] = '선택한 모둠의 정보';
@@ -66,6 +67,7 @@ $string['hidepicture'] = '사진 감춤';
 $string['javascriptrequired'] = '이 화면에서는 자바스크립트를 활성화시켜야 합니다.';
 $string['membersofselectedgroup'] = '선택된 모둠의 구성원';
 $string['newpicture'] = '새로운 사진';
+$string['nopermissionforcreation'] = '당신의 권한으로는 모둠 \"$a\" 을 생성할 수 없습니다.';
 $string['notingrouping'] = '[무리속에 들 수 없음]';
 $string['numberofgroups'] = '모둠의 수';
 $string['numberofstudents'] = '학생 수';

@@ -1,16 +1,19 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 dev (2007021400)
+      // calendar.php - created with Moodle 1.9 dev (2007070902)
 
 
 $string['advancedoptions'] = '상세 설정';
+$string['allday'] = '모든 날';
 $string['calendar'] = '달력';
 $string['calendarheading'] = '$a 달력';
 $string['clickhide'] = '감추기';
 $string['clickshow'] = '보이기';
 $string['commontasks'] = '선택사항들';
 $string['confirmeventdelete'] = '이 일정을 삭제할까요?';
+$string['course'] = '배움터';
 $string['courseevent'] = '배움터 행사';
 $string['courseevents'] = '배움터 일정';
+$string['courses'] = '배움터 마당';
 $string['dayview'] = '날짜 보기';
 $string['daywithnoevents'] = '계획된 행사가 없습니다.';
 $string['default'] = '기본';
@@ -37,6 +40,7 @@ $string['eventnone'] = '일정 없음';
 $string['eventrepeat'] = '반복';
 $string['eventsall'] = '모든 일정';
 $string['eventsfor'] = '$ 일정';
+$string['eventskey'] = '일정 열쇄';
 $string['eventsrelatedtocourses'] = '배움터 관련 일정';
 $string['eventstarttime'] = '시작 시간';
 $string['eventtime'] = '시간';
@@ -55,9 +59,11 @@ $string['for'] = '동안';
 $string['fri'] = '금';
 $string['friday'] = '금요일';
 $string['generateurlbutton'] = '일정 URL 가져옴';
+$string['global'] = '전체';
 $string['globalevent'] = '전체 행사';
 $string['globalevents'] = '전체 일정';
 $string['gotocalendar'] = '달력으로 가기';
+$string['group'] = '모둠';
 $string['groupevent'] = '모둠 행사';
 $string['groupevents'] = '모듬 일정';
 $string['hidden'] = '감추기';
@@ -116,6 +122,7 @@ $string['typesite'] = '사이트 일정';
 $string['typeuser'] = '사용자 일정';
 $string['upcomingevents'] = '예정된 행사';
 $string['urlforical'] = '달력에 기재할 iCalendar 내보냄을 위한 URL';
+$string['user'] = '사용자';
 $string['userevent'] = '사용자 행사';
 $string['userevents'] = '사용자 일정';
 $string['wed'] = '수';
