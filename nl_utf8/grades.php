@@ -1,17 +1,33 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.8 dev (2007012500)
+      // grades.php - created with Moodle 1.9 dev (2007070603)
 
 
 $string['addcategory'] = 'Voeg categorie toe';
 $string['addcategoryerror'] = 'Kon geen categorie toevoegen';
 $string['addexceptionerror'] = 'Fout opgetreden bij het toevoegen van een uitzondering voor userid:gradeitem';
+$string['addfeedback'] = 'Feedback toevoegen';
+$string['additem'] = 'Cijfer item toevoegen';
 $string['allgrades'] = 'Alle cijfers per categorie';
 $string['allstudents'] = 'Alle leerlingen';
+$string['autosort'] = 'Auto-sorteer';
 $string['average'] = 'Gemiddelde';
+$string['badgrade'] = 'Cijfer ongeldig';
+$string['baduser'] = 'Gebruiker ongeldig';
 $string['bonuspoints'] = 'Bonuspunten';
+$string['bulkcheckboxes'] = 'Selectievakjes voor bulkoperaties';
+$string['calculation'] = 'Berekening';
+$string['calculationadd'] = 'Berekening toevoegen';
+$string['calculationedit'] = 'Berekening bewerken';
+$string['calculationsaved'] = 'Berekening bewaard';
+$string['calculationview'] = 'Bekijk berekening';
 $string['categories'] = 'Categorieën';
+$string['categoriesedit'] = 'Bewerk categorieën';
 $string['category'] = 'Categorie';
+$string['categoryname'] = 'Categorienaam';
 $string['choosecategory'] = 'Kies categorie';
+$string['compact'] = 'Compact';
+$string['configbulkcheckboxes'] = 'Selectievakjes naast elk cijfer voor bulkoperaties';
+$string['configshowgrandtotals'] = 'Toon algemene totalen in het rapport';
 $string['creatinggradebooksettings'] = 'Instellingen puntenboek maken';
 $string['curveto'] = 'Afbuigen naar';
 $string['deletecategory'] = 'Verwijder categorie';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007062401)
+      // moodle.php - created with Moodle 1.9 dev (2007070603)
 
 
 $string['action'] = 'Actie';
@@ -131,6 +131,7 @@ $string['autosubscribeno'] = 'Neen: schrijf me niet automatisch in op forums';
 $string['autosubscribeyes'] = 'Ja: schrijf me automatisch in op forums wanneer ik er een bericht in post';
 $string['availability'] = 'Beschikbaarheid';
 $string['availablecourses'] = 'Beschikbare cursussen';
+$string['back'] = 'Terug';
 $string['backtoparticipants'] = 'Terug naar deelnemerslijst';
 $string['backup'] = 'Backup';
 $string['backupactivehelp'] = 'Automatische backups gebruiken?';
@@ -544,7 +545,7 @@ $string['existingcoursedeleting'] = 'Bestaande cursus eerst verwijderen';
 $string['existingcreators'] = 'Bestaande cursus-aanmakers';
 $string['existingstudents'] = 'Aangemelde leerlingen';
 $string['existingteachers'] = 'Bestaande leraren';
-$string['expirynotify'] = 'Verwittig voor het beïndigen van de aanmelding';
+$string['expirynotify'] = 'Verwittig voor het beëindigen van de aanmelding';
 $string['expirynotifyemail'] = 'De aanmelding in deze cursus zal voor volgende leerlingen beëindigen binnen $a->threshold dagen:
 
 $a->current
@@ -644,6 +645,7 @@ $string['grades'] = 'Cijfers';
 $string['group'] = 'Groep';
 $string['groupadd'] = 'Nieuwe groep';
 $string['groupaddusers'] = 'Voeg selectie toe aan groep';
+$string['groupextendenrol'] = 'Verleng aanmeldingsperiode voor geselecteerde deelnemers';
 $string['groupfor'] = 'voor groep';
 $string['groupinfo'] = 'Info over geselecteerde groep';
 $string['groupinfoedit'] = 'Bewerk instellingen van de groep';
@@ -684,7 +686,7 @@ $string['helphtml'] = 'Hoe je HTML kunt schrijven';
 $string['helpindex'] = 'Index  helpbestanden';
 $string['helppicture'] = 'Hoe je een afbeelding kunt uploaden';
 $string['helpprefix'] = 'Help, $a';
-$string['helpprefix2'] = 'Help met $a';
+$string['helpprefix2'] = 'Hulp voor $a';
 $string['helpquestions'] = 'Stel goede vragen';
 $string['helpreading'] = 'Lees zorgvuldig';
 $string['helprichtext'] = 'Over de HTML-editor';
@@ -693,7 +695,7 @@ $string['helptext'] = 'Hoe je een tekst kunt schrijven';
 $string['helpwiki'] = 'Hoe je een Wiki-tekst kunt schrijven';
 $string['helpwiththis'] = 'Hulp hierbij';
 $string['helpwriting'] = 'Schrijf zorgvuldig';
-$string['hiddenassign'] = 'Verborgen opdracht';
+$string['hiddenassign'] = 'Verborgen rol';
 $string['hiddensections'] = 'Verborgen onderwerpen';
 $string['hiddensectionscollapsed'] = 'Verborgen secties worden samengeklapt getoond';
 $string['hiddensectionsinvisible'] = 'Verborgen secties worden helemaal niet getoond';

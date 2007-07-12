@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 dev (2007062401)
+      // scorm.php - created with Moodle 1.9 dev (2007070603)
 
 
+$string['activation'] = 'Activatie';
 $string['advanced'] = 'Geavanceerd';
 $string['asset'] = 'Set';
 $string['assetlaunched'] = 'Set - bekeken';
@@ -54,7 +55,7 @@ $string['gradescoes'] = 'SCO-toestand';
 $string['gradesum'] = 'Totaalcijfer';
 $string['height'] = 'Hoogte';
 $string['hidden'] = 'Verborgen';
-$string['hidebrowse'] = 'Verberg voorbeeldknop';
+$string['hidebrowse'] = 'Verberg voorproeven';
 $string['hideexit'] = 'Verberg de uitgang-link';
 $string['hidenav'] = 'Verberg navigatieknoppen';
 $string['hidereview'] = 'Verberg de knop voor herzien';
@@ -88,12 +89,13 @@ $string['nolimit'] = 'Onbeperkt aantal pogingen';
 $string['nomanifest'] = 'Manifest niet gevonden';
 $string['noprerequisites'] = 'Sorry, maar je hebt nog niet genoeg afgewerkt om toegang te krijgen tot dit leerobject';
 $string['noreports'] = 'Er is geen rapport om te tonen';
-$string['normal'] = 'Normaal';
+$string['normal'] = 'Activiteit starten';
 $string['noscriptnoscorm'] = 'Je browser ondersteunt geen javascript of javascript staat uitgeschakeld. Je afgelegde leerpad zal niet bewaard worden.';
 $string['not_corr_type'] = 'Typfout voor tag $a->tag';
 $string['notattempted'] = 'Niet geprobeerd';
 $string['objectives'] = 'Objectieven';
 $string['onchanges'] = 'Bij wijziging';
+$string['options'] = 'Opties';
 $string['organization'] = 'Organisatie';
 $string['organizations'] = 'Organisaties';
 $string['othersettings'] = 'Bijkomende instellingen';
@@ -142,7 +144,8 @@ $string['totaltime'] = 'Totale tijd';
 $string['trackingloose'] = 'WAARSCHUWING: de gegevens voor opvolging van dit SCORM/AICC-pakket zullen verloren gaan';
 $string['type'] = 'Type';
 $string['unziperror'] = 'Er is een fout opgetreden bij het uitpakken van het pakket';
-$string['validateascorm'] = 'Bevestig een SCORM-pakket';
+$string['updatefreq'] = 'Frequentie automatisch updaten';
+$string['validateascorm'] = 'Valideer een SCORM-pakket';
 $string['validation'] = 'Bevestigingsresultaat';
 $string['validationtype'] = 'Deze instelling maakt dat de DOMXML-bibliotheek gebruikt wordt voor de validatie van het SCORM MAnifest. Als je twijfelt laat dan de geselecteerde keuze staan.';
 $string['value'] = 'Waarde';
