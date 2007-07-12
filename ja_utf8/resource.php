@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 dev (2007063001)
+      // resource.php - created with Moodle 1.9 dev (2007071000)
 
 
 $string['addresource'] = 'リソースを追加する';
@@ -65,14 +65,14 @@ $string['navigationup'] = 'Upボタン';
 $string['neverseen'] = '未確認';
 $string['newdirectories'] = 'ディレクトリリンクを表示する';
 $string['newfullscreen'] = '全画面表示';
-$string['newheight'] = 'デフォルトウンドウ高 (ピクセル)';
+$string['newheight'] = 'デフォルトのウィンドウ高 (ピクセル)';
 $string['newlocation'] = 'ロケーションバーを表示する';
 $string['newmenubar'] = 'メニューバーを表示する';
 $string['newresizable'] = 'ウィンドウのリサイズを許可する';
 $string['newscrollbars'] = 'ウィンドウのスクロールを許可する';
 $string['newstatus'] = 'ステータスバーを表示する';
 $string['newtoolbar'] = 'ツールバーを表示する';
-$string['newwidth'] = 'デフォルトウィンドウ幅 (ピクセル)';
+$string['newwidth'] = 'デフォルトのウィンドウ幅 (ピクセル)';
 $string['newwindow'] = '新しいウィンドウ';
 $string['newwindowopen'] = 'ポップアップウィンドウにリソースを表示する';
 $string['next'] = '次へ';
