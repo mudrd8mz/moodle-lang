@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007070902)
+      // quiz.php - created with Moodle 1.9 dev (2007071300)
 
 
 $string['1day'] = '1日';
@@ -99,6 +99,7 @@ $string['confirmstartattempttimelimit'] = 'この小テストには制限時間�
 $string['confirmstarttimelimit'] = '小テストには制限時間があります。本当に開始してもよろしいですか?';
 $string['containercategorycreated'] = 'このカテゴリは、下記の原因によりサイトレベルで移動されたすべてのオリジナルカテゴリを保存するために作成されました。';
 $string['continueattemptquiz'] = '最後の受験を続ける';
+$string['continuepreview'] = '最後のプレビューを続ける';
 $string['copyingfrom'] = '問題「 $a 」のコピーを作成';
 $string['copyingquestion'] = '問題のコピー';
 $string['correct'] = '正解';
@@ -382,6 +383,7 @@ $string['popupnotice'] = '学生は、この小テストをセキュアウィン
 $string['preview'] = 'プレビュー';
 $string['previewquestion'] = '問題のプレビュー';
 $string['previewquiz'] = '$a のプレビュー';
+$string['previewquiznow'] = '小テストをプレビューする';
 $string['previous'] = '前の状態に戻る';
 $string['publish'] = '公開';
 $string['publishedit'] = 'このカテゴリへの問題の追加・編集を行うためにはコース公開に関する権限を有する必要があります。';

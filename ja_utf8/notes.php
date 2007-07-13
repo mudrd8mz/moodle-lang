@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9 dev (2007070501)
+      // notes.php - created with Moodle 1.9 dev (2007071300)
 
 
 $string['abovenormal'] = '標準以上';
