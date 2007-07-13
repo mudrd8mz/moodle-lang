@@ -1,0 +1,87 @@
+<h1>Oprávnění</h1>
+
+<p>
+Oprávnění jsou nastavení, jimiž lze řídit přidělování předem definovaných pravomocí.
+</p>
+
+<p>
+Jednou z těchto pravomocí je např. "Začínat novou diskusi" (ve fóru).
+</p>
+
+<p>
+V rámci každé role můžete pro danou pravomoc vybrat jednu ze čtyř následujících hodnot oprávnění:
+<dl>
+<dt>ZDĚDIT</dt>
+<dd>Obvykle jde o výchozí nastavení. Je to nastavení neutrální a znamená 
+    "použij oprávnění, které uživatel už má". Jestliže je někomu přidělena 
+    role (např. v&nbsp;kurzu) a pro některou z&nbsp;jejích pravomocí je použito 
+    toto nastavení, bude u této pravomoci použito oprávnění, které bylo uživateli
+    přiděleno v&nbsp;nadřazených kontextech (např. v&nbsp;kategoriích kurzů nebo 
+    na úrovni systému). Pokud není uživateli povoleno pravomoc užívat v&nbsp;žádném 
+    nadřazeném kontextu, nebude příslušnou pravomocí disponovat.
+    </dd>
+
+<dt>POVOLIT</dt>
+<dd>Výběrem této hodnoty přiznáváte danou pravomoc všem uživatelům, 
+    jimž je přiřazena role obsahující toto nastavení. Oprávnění platí 
+    v&nbsp;kontextu, v&nbsp;němž byla role přiřazena, a dále ve všech 
+    "nižších" kontextech. Jestliže jde např. o roli studenta přiřazenou 
+    pro kurz, budou studenti moci "začínat novou diskusi" 
+    v&nbsp;libovolném fóru daného kurzu s&nbsp;výjimkou těch, u nichž
+    byla oprávnění pro tuto pravomoc přenastavena na hodnotu Zamezit 
+    nebo Zakázat.</dd>
+
+<dt>ZAMEZIT</dt>
+<dd>Touto volbou odebíráte uživateli danou pravomoc, a to i v případě, 
+    že ji měl ve vyšším kontextu povolenu.</dd>
+
+<dt>ZAKÁZAT</dt>
+<dd>Toto nastavení není potřeba často, někdy je ovšem výhodné odebrat 
+    některé roli oprávnění s&nbsp;tím, že je v&nbsp;žádném nižším kontextu 
+    nebude možné přenastavit. Dobrým příkladem je situace, kdy chce 
+    správce konkrétnímu uživateli zcela odebrat možnost začít novou 
+    diskusi v&nbsp;celé instalaci. Může v&nbsp;takovém případě vytvořit roli, 
+    v&nbsp;níž bude u pravomoci "Začínat novou diskusi" nastavena hodnota 
+    "Zakázat", a takovou roli přidělit vybranému uživateli v&nbsp;nejvyšším 
+    kontextu stránek (systému).</dd>
+
+</dl>
+</p>
+
+<h1>Konfliktní oprávnění</h1>
+
+<p> Oprávnění nastavená v "nižším" kontextu mají obvykle přednost
+    před oprávněními přebíranými z "vyšších" kontextů (platí pro 
+    přenastavení rolí a pro přidělené role). Výjimkou je hodnota 
+    ZAKÁZAT, kterou nelze v nižších kontextech přenastavit.
+</p>
+
+<p> Pokud jsou uživateli v&nbsp;tomtéž kontextu přiděleny dvě role, 
+    v&nbsp;nichž je u stejné pravomoci nastaveno jednou POVOLIT a 
+    podruhé ZAMEZIT, které oprávnění se použije? V&nbsp;takovém případě 
+    se Moodle pokusí v&nbsp;kontextovém stromu najít "rozhodčího".
+</p>
+    
+<p> Příklad: Student má v kurzu dvě role. Jedna mu umožňuje začínat 
+    nové diskuse, druhá nikoliv. V tomto případě Moodle prověří, zda 
+    se v&nbsp;kontextu kategorií kurzů nebo v&nbsp;kontextu stránek 
+    nacházejí jiná nastavení oprávnění, která by nám pomohla konflikt 
+    rozhodnout. Pokud se žádné takové oprávnění nenalezne, použije se 
+    oprávnění ZAMEZIT (konfliktní natavení se vzájemně vyrušila a 
+    výsledkem je nepřítomnost oprávnění).
+</p>
+
+<h1>Výjimky</h1>
+
+<p> Účtu hosta je obecně znemožněno vkládat obsah (např. ve fórech, 
+    v&nbsp;kalendáři, v&nbsp;blogu), a to i v&nbsp;případě, že je mu 
+    tato pravomoc přidělena.
+</p>
+
+<p>
+Viz také 
+<a href="help.php?file=roles.html">Role</a>, 
+<a href="help.php?file=contexts.html">Kontexty</a>, 
+<a href="help.php?file=assignroles.html">Přidělování rolí</a> a 
+<a href="help.php?file=overrides.html">Přenastavení rolí</a>.
+</p>
