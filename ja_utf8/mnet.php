@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 dev (2007071000)
+      // mnet.php - created with Moodle 1.9 dev (2007071400)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
@@ -16,11 +16,11 @@ $string['allow'] = '許可';
 $string['authfail_nosessionexists'] = '認証失敗: mnetセッションがありません。';
 $string['authfail_sessiontimedout'] = '認証失敗: mnetセッションがタイムアウトしました。';
 $string['authfail_usermismatch'] = '認証失敗: ユーザが合致しません。';
-$string['authmnetautoadddisabled'] = 'Moodleネットワーキング認証プラグインの「ユーザ自動追加」が<strong>無効</strong>にされています。';
-$string['authmnetdisabled'] = 'Moodleネットーワキング「認証プラグイン」が<strong>無効</strong>にされています。';
+$string['authmnetautoadddisabled'] = 'Moodleネットワーク認証プラグインの「リモートユーザを自動的に追加する」が<strong>無効</strong>にされています。';
+$string['authmnetdisabled'] = 'Moodleネットワーク「認証プラグイン」が<strong>無効</strong>にされています。';
 $string['badcert'] = 'これは有効な証明書ではありません。';
 $string['couldnotgetcert'] = '$a で証明書が見つかりませんでした。<br />ホストが停止しているか、正しく設定されていません。';
-$string['couldnotmatchcert'] = 'ウェブサーバから現在公開されている証明書と合致しません。';
+$string['couldnotmatchcert'] = '現在ウェブサーバより公開されている証明書と合致しません。';
 $string['courses'] = 'コース';
 $string['courseson'] = 'コースが次のホストにあります:';
 $string['current_transport'] = '現在のトランスポート';
@@ -28,9 +28,9 @@ $string['currentkey'] = '現在の公開鍵';
 $string['databaseerror'] = '詳細をデータベースに書き込めませんでした。';
 $string['deleteaserver'] = 'サーバを削除する';
 $string['deletekeycheck'] = '本当にこのキーを削除してもよろしいですか?';
-$string['deleteoutoftime'] = 'あなたがこのキーを削除するための60秒間の期限が切れました。再度お試しください。';
+$string['deleteoutoftime'] = 'あなたがこのキーを削除できる60秒間の期限が切れました。再度お試しください。';
 $string['deleteuserrecord'] = 'SSO ACL: $a[1] からのユーザレコード $a[0] を削除します。';
-$string['deletewrongkeyvalue'] = 'エラーが発生しました。あなたがサーバのSSLキーを削除しようと試みているのでなければ、悪意のある攻撃を受けている可能性があります。SSLキーの処理は行われませんでした。';
+$string['deletewrongkeyvalue'] = 'エラーが発生しました。あなたがサーバのSSLキーを削除しようと試みているのでなければ、悪意のある攻撃を受けている可能性があります。SSLキーの処理は実行されませんでした。';
 $string['deny'] = '拒否';
 $string['description'] = '説明';
 $string['duplicate_usernames'] = 'ユーザテーブルのカラム「mnethostid」および「username」の作成に失敗しました。<br />これは、<a href=\"$a\" target=\"_blank\">ユーザテーブルのユーザ名が重複している</a>場合に発生します。<br />それでも、あなたのアップグレードは正常に完了しました。上記リンクをクリックすると、新しいウィンドウにこの問題の解決に関するインストラクションが表示されます。アップグレード終了後、問題を解決することができます。<br />';
@@ -87,7 +87,7 @@ $string['logs'] = 'ログ';
 $string['mnet'] = 'Moodleネットワーキング';
 $string['mnet_concatenate_strings'] = '最大3個のストリングを連結して結果を戻す';
 $string['mnet_session_prohibited'] = 'あなたのホームサーバのユーザは、現在 $a の散策を許可されていません。';
-$string['mnetdisabled'] = 'Moodleネットワークが<strong>無効にされています</strong>。';
+$string['mnetdisabled'] = 'Moodleネットワーキングが<strong>無効</strong>にされています。';
 $string['mnetenrol'] = '登録';
 $string['mnetlog'] = 'ログ';
 $string['mnetpeers'] = 'ピア';
