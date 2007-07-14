@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007021501)
+      // error.php - created with Moodle 1.9 dev (2007070603)
 
 
 $string['adminprimarynoedit'] = 'Het profiel van de beheerder met het kleinste gebruikersnummer kan door de andere beheerders niet gewijzigd worden';
@@ -30,6 +30,8 @@ $string['fieldrequired'] = '\"$a\" is een vereist veld';
 $string['filenotfound'] = 'Het gevraagde bestand is niet gevonden';
 $string['forumblockingtoomanyposts'] = 'Je hebt het maximum aantal berichten voor dit forum bereikt.';
 $string['groupalready'] = 'Deze gebruiker behoort al tot groep $a';
+$string['groupexistforcourse'] = 'Groep \"$a\" bestaat al in deze cursus';
+$string['groupnotaddederror'] = 'Groep \"$a\" is niet toegevoegd';
 $string['groupunknown'] = 'Groep $a is niet geassocieerd met de gespecifieerde groep';
 $string['guestnoeditprofile'] = 'De gastgebruiker kan zijn profiel niet wijzigen';
 $string['guestnoeditprofileother'] = 'Het profiel van de gastgebruiker kan niet gewijzigd worden';
@@ -37,8 +39,18 @@ $string['invalidcourse'] = 'Ongeldige cursus';
 $string['invalidfieldname'] = '\"$a\" is geen geldige veldnaam';
 $string['invalidfiletype'] = '\"$a\" is geen geldig bestandstype';
 $string['invalidmd5'] = 'Ongeldig md5';
+$string['invalidrequest'] = 'Ongeldige vraag';
 $string['invalidrole'] = 'Ongeldige rol';
+$string['invalidurl'] = 'Ongeldige url';
 $string['invalidxmlfile'] = '\"$a\" is geen geldig XML-bestand';
+$string['listcantmovedown'] = 'Kon het item niet naar omlaag verschuiven - het is het laatste item op hetzelfde niveau.';
+$string['listcantmoveleft'] = 'Kon het item niet naar links verschuiven - het heeft geen bovenliggend item.';
+$string['listcantmoveright'] = 'Kon het item niet naar rechts verschuiven - er is geen item op hetzelfde niveau om het ondergeschikt aan te maken. Verschuif het omlaag en probeer dan nogmaals naar rechts te verplaatsen.';
+$string['listcantmoveup'] = 'Kon het item niet naar boven verplaatsen - het is het eerste item van dit niveau.';
+$string['listnochildren'] = 'Geen onderliggende items gevonden.';
+$string['listnoitem'] = 'Item niet gevonden.';
+$string['listnopeers'] = 'Geen items op hetzelfde niveau gevonden';
+$string['listupdatefail'] = 'Databankoperatie mislukt bij het aanpassen  van de hiërarchie van de lijst.';
 $string['loginasnoenrol'] = 'Je kunt aanmelden en afmelden bij een cursus niet gebruiken wanneer je met een \"Login als\"-sessie een cursus bekijkt.';
 $string['loginasonecourse'] = 'Je kunt deze cursus niet openen.<br />Je moet je \"Login als\"-sessie beëindigen voor je een andere cursus opent.';
 $string['missingfield'] = 'Veld \"$a\" ontbreekt';
@@ -70,6 +82,7 @@ $string['statscatchupmode'] = 'De statistiekfunctie is nu wat achterstand aan he
 $string['unicodeupgradeerror'] = 'Sorry, maar je databank is nog niet in Unicode en deze versie van Moodle kan je databank niet naar Unicode migreren.
 Upgrade eerst naar Moodle 1.7.x en doe de Unicode migratie vanuit de Beheerpagina. Daarna zou je moeten kunnen upgraden naar Moodle $a';
 $string['unknowncourse'] = 'Onbekende cursus \"$a\"';
+$string['unknowncourseidnumber'] = 'Onbekend cursusID \"$a\"';
 $string['unknownuseraction'] = 'Sorry, Moodle begrijpt niet wat je wil';
 $string['usernotaddederror'] = 'Gebruiker \"$a\" niet toegevoegd - onbekende fout';
 $string['usernotaddedregistered'] = 'Gebruiker \"$a\" niet toegevoegd - gebruiker bestaat al';

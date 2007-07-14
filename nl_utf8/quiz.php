@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007062401)
+      // quiz.php - created with Moodle 1.9 dev (2007070603)
 
 
 $string['1day'] = '1 dag';
@@ -166,6 +166,22 @@ $string['editqcats'] = 'Bewerk vraagcategorieën';
 $string['editquestions'] = 'Bewerk vragen';
 $string['editquiz'] = 'Bewerk test';
 $string['editquizquestions'] = 'Bewerk vragen van de test';
+$string['emailconfirmbody'] = 'Beste $a->username,
+
+Bedankt voor het insturen van je antwoorden voor \'$a->quizname\'
+uit de cursus \'$a->coursename\'
+op $a->submissiontime.
+
+Deze e-mail bevestigd dat we je antwoorden ontvangen hebben.
+
+Je kunt deze test vinden op $a->quizurl.';
+$string['emailconfirmsubject'] = 'Bevestiging van ingestuurde antwoorden: $a->quizname';
+$string['emailnotifybody'] = 'Beste $a->username,
+
+$a->studentname heeft de test \'$a->quizname ($a->quizurl) uit de cursus \'$a->coursename\' afgewerkt.
+
+Je kunt deze test nakijken op $a->quizreviewurl.';
+$string['emailnotifysubject'] = '$a->studentname heeft de test $a->quizname afgewerkt';
 $string['errorinquestion'] = 'Fout in de vraag';
 $string['errormissingquestion'] = 'Fout: de vraag met id $a ontbreekt in het systeem';
 $string['errornotnumbers'] = 'Fout - antwoorden moeten cijfers zijn';
@@ -391,6 +407,8 @@ $string['questiontype'] = 'Vraagtype $a';
 $string['questiontypesetupoptions'] = 'Instellingen voor vraagtypes';
 $string['quiz:attempt'] = 'Pogingen voor test';
 $string['quiz:deleteattempts'] = 'Verwijder pogingen voor test';
+$string['quiz:emailconfirmsubmission'] = 'Stuur een e-mailbevestiging wanneer ik de test instuur';
+$string['quiz:emailnotifysubmission'] = 'Stuur e-mailnotificaties wanneer de test ingestuurd wordt';
 $string['quiz:grade'] = 'Testen bekijken';
 $string['quiz:ignoretimelimits'] = 'Negeert tijdslimiet op testen';
 $string['quiz:manage'] = 'Testen beheren';
@@ -519,6 +537,7 @@ $string['timedelay'] = 'Je mag de test nog niet doen, omdat je nog niet lang gen
 $string['timeleft'] = 'Resterende tijd';
 $string['timelimit'] = 'Tijdsduurlimiet';
 $string['timelimitexeeded'] = 'Sorry, de tijdsduur voor deze test is overschreden!';
+$string['timelimitmin'] = 'Tijdslimiet (minuten)';
 $string['timestr'] = '%%H:%%M:%%S op %%d/%%m/%%y';
 $string['timesup'] = 'Tijd is op!';
 $string['timetaken'] = 'Gebruikte tijd';

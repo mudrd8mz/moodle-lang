@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 dev (2007012500)
+      // glossary.php - created with Moodle 1.9 dev (2007070603)
 
 
 $string['addcomment'] = 'Voeg commentaar toe';
@@ -92,6 +92,7 @@ $string['entryusedynalink'] = 'Dit item wordt<br />automatisch gelinkt';
 $string['errcannoteditothers'] = 'Je kunt de items van anderen niet bewerken';
 $string['errconceptalreadyexists'] = 'Dit item bestaat al. In deze woordenlijst mogen geen dubbels voorkomen.';
 $string['erredittimeexpired'] = 'De bewerktijd voor dit item is voorbij.';
+$string['errorparsingxml'] = 'Er zijn fouten opgetreden bij het verwerken van het bestand. Zorg ervoor dat de XML-syntax geldig is.';
 $string['explainaddentry'] = 'Voeg een nieuwe invoer toe in deze woordenlijst<br />Zowel concept als definitie moeten ingevuld worden.';
 $string['explainall'] = 'Toon ALLE items op één pagina';
 $string['explainalphabet'] = 'Blader door de woordenlijst met deze index';
@@ -125,6 +126,7 @@ $string['importcategories'] = 'Importeer categorieën';
 $string['importedcategories'] = 'Geïmporteerde categorieën';
 $string['importedentries'] = 'Geïmporteerde invoer';
 $string['importentries'] = 'Importeer invoer';
+$string['importentriesfromxml'] = 'Items importeren uit XML-bestand';
 $string['isglobal'] = 'Is dit een globale woordenlijst?';
 $string['linkcategory'] = 'Link deze categorie automatisch';
 $string['linking'] = 'Automatisch linken';

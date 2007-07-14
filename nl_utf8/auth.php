@@ -1,7 +1,10 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007032200)
+      // auth.php - created with Moodle 1.9 dev (2007070603)
 
 
+$string['CASform'] = 'Authenticatiekeuze';
+$string['accesCAS'] = 'CAS-gebruikers';
+$string['accesNOCAS'] = 'andere gebruikers';
 $string['alternatelogin'] = 'Als je hier een URL ingeeft, dan zal die dienen als loginpagina voor deze site. De pagina moet een formulier bevatten met de actie ingesteld op <strong>\'$a\'</strong> en die de velden <strong>username</strong> en <strong>password</strong> teruggeeft.<br />Let er op dat je een juiste URL ingeeft. Zoniet sluit je jezelf uit de site.<br />Laat deze instelling leeg als je de standaard loginpagina wil gebruiken.';
 $string['alternateloginurl'] = 'URL van de alternatieve loginpagina';
 $string['auth_cas_auth_user_create'] = 'Creëer geburikers extern';
@@ -20,8 +23,14 @@ $string['auth_cas_invalidcaslogin'] = 'Sorry, je login is mislukt - je kon niet 
 $string['auth_cas_language'] = 'Gekozen taal';
 $string['auth_cas_language_key'] = 'Taal';
 $string['auth_cas_logincas'] = 'Toegang met veilige verbinding';
+$string['auth_cas_logoutcas'] = 'Zet deze instelling op \'Ja\' als je wil uitloggen uit CAS wanneer je Moodle verlaat.';
+$string['auth_cas_logoutcas_key'] = 'CAS uitloggen';
+$string['auth_cas_multiauth'] = 'Zet deze instelling op \'Ja\' als je multi-authenticatie wil gebruiken (CAS samen met een andere authenticatiemethode)';
+$string['auth_cas_multiauth_key'] = 'Multi-authenticatie';
 $string['auth_cas_port'] = 'Poort van de CAS-server';
 $string['auth_cas_port_key'] = 'Poort';
+$string['auth_cas_proxycas'] = 'Zet deze instelling op \'Ja\' als je CAS in proxy-modus gebruikt.';
+$string['auth_cas_proxycas_key'] = 'Proxy-modus';
 $string['auth_cas_server_settings'] = 'CAS-serverconfiguratie';
 $string['auth_cas_text'] = 'Veilige verbinding';
 $string['auth_cas_use_cas'] = 'Gebruik CAS';
@@ -110,6 +119,7 @@ $string['auth_imapport_key'] = 'Poort';
 $string['auth_imaptitle'] = 'Gebruik een IMAP -server';
 $string['auth_imaptype'] = 'Het type van de IMAP-server. IMAP-servers kunnen verschillende manieren van authenticatie en onderhandeling hebben.';
 $string['auth_imaptype_key'] = 'Type';
+$string['auth_ldap_ad_create_req'] = 'Kan de nieuwe account niet aanmaken in de Active Directory. Zorg ervoor dat alle vereisten om dit mogelijk te maken voorzien zijn (LDAPS-verbinding, bind-gebruiker met de juiste rechten enz.)';
 $string['auth_ldap_auth_user_create_key'] = 'Maak gebruikers extern aan';
 $string['auth_ldap_bind_dn'] = 'Als je \'bind-user\' wilt gebruiken om gebruikers te zoeken, dan moet je dat hier aangeven. Bijvoorbeeld \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_dn_key'] = 'Unieke naam';
@@ -121,6 +131,7 @@ $string['auth_ldap_contexts'] = 'Lijst met contexten waar de gebruikers gelocali
 $string['auth_ldap_contexts_key'] = 'Contexten';
 $string['auth_ldap_create_context'] = 'Als je het aanmaken van gebruikers met e-mailbevestiging aanzet, moet je de context aangeven waarin gebruikers worden aangemaakt. Deze context moet verschillen van andere contexten om beveiligingsproblemen te vermijden. Deze context hoef je niet toe te voegen aan ldap_context_variable. Moodle zoekt automatisch de gebruikers uit deze context.<br /><b>Merk op!</b> Je moet de functie auth_user_create() in het bestand auth/ldap/lib.php wijzigen om er voor te zorgen dat het aanmaken van gebruikers werkt.';
 $string['auth_ldap_create_context_key'] = 'Context voor nieuwe gebruikers';
+$string['auth_ldap_create_error'] = 'Fout bij het aanmaken van de gebruiker in LDAP';
 $string['auth_ldap_creators'] = 'Lijst met groepen gebruikers. De leden van de groepen mogen nieuwe cursussen aanmaken. Scheid verschillende groepen met \';\'. Meestal iets als \'cn=leraren,ou=medewerkers,o=mijnorganisatie\'';
 $string['auth_ldap_creators_key'] = 'Aanmakers';
 $string['auth_ldap_expiration_desc'] = 'Kies nee om de controle op verlopen wachtwoorden uit te schakelen of om LDAP de geldigheidsduur van de wachtwoorden rechtstreeks uit LDAP te laten lezen';
@@ -139,7 +150,10 @@ $string['auth_ldap_ldap_encoding'] = 'Specifier de encoding van de LDAP-server. 
 $string['auth_ldap_ldap_encoding_key'] = 'LDAP-encoding';
 $string['auth_ldap_login_settings'] = 'login instellingen';
 $string['auth_ldap_memberattribute'] = 'Geef gebruiker lid attribuut, voor als gebruikers tot een groep behoren. Meestal \'member\'';
+$string['auth_ldap_memberattribute_isdn'] = 'Optioneel: overschrijft de behandeling van lidmaatschapsattributen, kan 0 of 1 zijn.';
+$string['auth_ldap_memberattribute_isdn_key'] = 'Lidmaatschapsattribuut gebruikt dn';
 $string['auth_ldap_memberattribute_key'] = 'Lidmaatschapsattribuut';
+$string['auth_ldap_no_mbstring'] = 'Je hebt de mbstring-extentie nodig in Active Directory om gebruikers te kunnen aanmaken.';
 $string['auth_ldap_noconnect'] = 'LDAP-module kan niet met de server verbinden: $a';
 $string['auth_ldap_noconnect_all'] = 'LDAP-module kan met geen enkele server verbinden: $a';
 $string['auth_ldap_noextension'] = 'Waarschuwing: De PHP LDAP module is blijkbaar niet geïnstalleerd. Zorg er voor dat ze geïnstalleerd en ingeschakeld is.';
@@ -160,6 +174,7 @@ $string['auth_ldap_unsupportedusertype'] = 'auth: ldap user_create() ondersteunt
 $string['auth_ldap_update_userinfo'] = 'Werk de gebruikersinformatie bij (voornaam, achternaam, adres, ..) van LDAP naar Moodle. Bekijk /auth/ldap/attr_mappings.php om informatie te vinden over de \'mapping\'.';
 $string['auth_ldap_user_attribute'] = 'Het attribuut dat wordt gebruikt om gebruikers te benoemen of te zoeken. Meestal \'cn\'.';
 $string['auth_ldap_user_attribute_key'] = 'Gebruikersattribuut';
+$string['auth_ldap_user_exists'] = 'LDAP gebruikersnaam bestaat al';
 $string['auth_ldap_user_settings'] = 'Instellingen voor het opzoeken van gebruikers';
 $string['auth_ldap_user_type'] = 'Kies hoe gebruikers in LDAP bewaard worden. Deze instelling geeft ook aan hoe verlopen wachtwoorden, grace logins en het aanmaken van nieuwe gebruikers zal werken.';
 $string['auth_ldap_user_type_key'] = 'Gebruikerstype';
@@ -253,6 +268,11 @@ $string['changepassword'] = 'URL voor het veranderen van het wachtwoord';
 $string['changepasswordhelp'] = 'Hier kun je een locatie aangeven waar gebruikers hun gebruikersnaam/wachtwoord kunnen terugkrijgen als ze deze vergeten zijn. Dit zal aan de gebruikers worden gegeven als een knop op de inlogpagina en op hun gebruikerspagina. Als je dit leeg laat zal de knop niet verschijnen.';
 $string['chooseauthmethod'] = 'Kies een methode van authenticatie:';
 $string['createpasswordifneeded'] = 'Maak een wachtwoord indien nodig';
+$string['errorminpassworddigits'] = 'Wachtwoorden moeten minstens $a tekens hebben.';
+$string['errorminpasswordlength'] = 'Wachtwoorden moeten minstens $a karakters lang zijn.';
+$string['errorminpasswordlower'] = 'Wachtwoorden moeten minstens $a kleine letters hebben.';
+$string['errorminpasswordnonalphanum'] = 'Wachtwoorden moeten minstens $a niet-alphanumerieke tekens hebben.';
+$string['errorminpasswordupper'] = 'Wachtwoorden moeten minstens $a hoofdletters hebben.';
 $string['errorpasswordupdate'] = 'Fout tijdens het updaten van het wachtwoord, wachtwoord niet gewijzigd.';
 $string['forcechangepassword'] = 'Verplicht het wijzigen van het wachtwoord';
 $string['forcechangepassword_help'] = 'Verplicht gebruikers om hun wachtwoord te wijzigen bij hun volgende aanmelding bij Moodle';

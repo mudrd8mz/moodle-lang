@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007062401)
+      // role.php - created with Moodle 1.9 dev (2007070603)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
@@ -81,6 +81,8 @@ $string['metaassignerror'] = 'Kan deze rol niet toewijzen aan gebruiker \"$a\" o
 $string['metaunassignerror'] = 'De rol van gebruiker \"$a\" was automatisch gewijzigd.  Pas de rol aan in de erfcursus';
 $string['my:manageblocks'] = 'Bloks op Mijn Moodle beheren';
 $string['nocapabilitiesincontext'] = 'Geen mogelijkheden beschikbaar  in deze context';
+$string['notes:manage'] = 'Notities beheren';
+$string['notes:view'] = 'Notities bekijken';
 $string['notset'] = 'Niet ingesteld';
 $string['overrideroles'] = 'Rollen overschrijven';
 $string['overrides'] = 'Overschrijven';
