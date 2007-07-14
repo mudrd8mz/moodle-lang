@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.6 (2006050506)
+      // install.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['admindirerror'] = '系統管理目錄指定不正確';
@@ -113,7 +113,7 @@ $string['globalsquoteshelp'] = '<p>不建議同時停用 Magic Quotes GPC 與啟
 <p>如果您無法修改 php.ini 的設定，您也許可以嘗試在  Moodle 安裝目錄下放置一個名為 .htaccess 的檔案，裡面輸入：
 <blockquote>php_value magic_quotes_gpc On</blockquote>
 <blockquote>php_value register_globals Off</blockquote>
-</p> ';
+</p>';
 $string['installation'] = '系統安裝';
 $string['langdownloaderror'] = '抱歉，無法安裝語言 \"$a\" ，安裝過程將會以英文繼續。';
 $string['langdownloadok'] = '語言 \"$a\" 成功安裝，安裝過程將會以指定語言繼續。';

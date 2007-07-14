@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6 + (2006050507)
+      // wiki.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['action'] = '-- 動作 --';
@@ -175,6 +175,9 @@ $string['versionstodelete'] = '刪除的版本';
 $string['viewpage'] = '頁面檢視';
 $string['viewsmfor'] = '檢視網站地圖';
 $string['wantedpages'] = '需求頁面';
+$string['wiki:manage'] = '管理 wiki 設定';
+$string['wiki:overridelock'] = '覆蓋鎖定的頁面';
+$string['wiki:participate'] = '編輯 wiki 頁面';
 $string['wikidefaultpagename'] = 'Wiki索引';
 $string['wikiexport'] = '匯出頁面';
 $string['wikiexportcomment'] = '您可以在這裡設定匯出的需求。';

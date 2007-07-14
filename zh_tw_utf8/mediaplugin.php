@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mediaplugin.php - created with Moodle 1.8 + (2007021505)
+      // mediaplugin.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['filtername'] = '多媒體外掛';

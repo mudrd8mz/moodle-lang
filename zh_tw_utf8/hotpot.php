@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6 (2006050506)
+      // hotpot.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['abandoned'] = '放棄';
 $string['addquizchain'] = '新增問題鍊';
 $string['allmycourses'] = '我的所有課程';
+$string['allusers'] = '所有使用者';
 $string['alwaysopen'] = '永遠開啟';
 $string['attemptsall'] = '所有測試';
 $string['attemptsbest'] = '最佳測試';
@@ -45,6 +46,8 @@ $string['filetype'] = '檔案型式';
 $string['forceplugins'] = '強制媒體外掛';
 $string['giveup'] = '放棄';
 $string['hints'] = '暗示';
+$string['hotpotcloses'] = 'Hot Potatoes 測驗關閉';
+$string['hotpotopens'] = 'Hot Potatoes 測驗開始';
 $string['ignored'] = '忽略';
 $string['inprogress'] = '處理中';
 $string['location'] = '檔案位置';

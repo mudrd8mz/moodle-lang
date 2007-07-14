@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_manual.php - created with Moodle 1.6 (2006050506)
+      // enrol_manual.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['description'] = '這是預設的選課表單，一個學生有兩種方式可以加選指定的課程：

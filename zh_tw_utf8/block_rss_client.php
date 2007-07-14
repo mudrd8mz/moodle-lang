@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.8 + (2007021505)
+      // block_rss_client.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addfeed'] = '新增新聞推播URL:';

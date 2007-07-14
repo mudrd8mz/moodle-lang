@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.8 + (2007021505)
+      // grades.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addcategory'] = '新增類別';

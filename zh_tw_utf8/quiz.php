@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.6 + (2006050507)
+      // quiz.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['1day'] = '1 天';
@@ -74,6 +74,7 @@ $string['categorydeleted'] = '類別\'$a\' 已刪除';
 $string['categoryinfo'] = '題庫簡要說明';
 $string['categorymove'] = '題庫 $a->name 中有 $a->count 個問題。  請選擇另一個題型以便轉移題目。';
 $string['categorymoveto'] = '將題目移到此題庫中';
+$string['categorynamecantbeblank'] = '題庫名稱不能空白';
 $string['categorynoedit'] = '您在此類別\'$a\'中無編輯權限';
 $string['categoryupdated'] = '此類別已成功更新';
 $string['changessaved'] = '分數異動儲存了';
@@ -101,6 +102,7 @@ $string['copyingquestion'] = '複製一個問題';
 $string['correct'] = '正確';
 $string['correctanswer'] = '正確答案';
 $string['correctanswerformula'] = '正確答案公式';
+$string['correctansweris'] = '正確的答案：$a';
 $string['correctanswerlength'] = '正確的答案長度';
 $string['correctanswers'] = '正確答案';
 $string['correctanswershows'] = '顯示正確答案';
@@ -173,9 +175,6 @@ $string['event7'] = '送出';
 $string['event8'] = '關閉';
 $string['event9'] = '手動評分';
 $string['examview'] = '測驗檢視';
-$string['existingcategory1'] = '已存在的數值組中同時也用在此類別中其它的問題中的數值';
-$string['existingcategory2'] = '已存在的檔案組中同時也用在此類別中其它的問題中的檔案';
-$string['existingcategory3'] = '已存在的連結組中同時也用在此類別中其它的問題中的連結';
 $string['export'] = '匯出';
 $string['exporterror'] = '匯出時發生錯誤';
 $string['exportfilename'] = '測驗';
@@ -244,19 +243,12 @@ $string['itemdefinition'] = '定義';
 $string['itemsource'] = '項目來源';
 $string['itemsourceformat'] = '項目來源格式';
 $string['itemtypes'] = '遠端問題類型';
-$string['keptcategory1'] = '相同類別中的數值如之前的數值設定為可重複使用';
-$string['keptcategory2'] = '相同類別中的檔案如之前的檔案設定為可重複使用';
-$string['keptcategory3'] = '相同類別中的連結如之前的連結設定為可重複使用';
-$string['keptlocal1'] = '相同問題中的數值如之前的數值獨立設定';
-$string['keptlocal2'] = '相同問題中的檔案如之前的檔案獨立設定';
-$string['keptlocal3'] = '相同問題中的連結如之前的連結獨立設定';
 $string['lastanswer'] = '您最後的答案是';
 $string['learnwise'] = 'Learnwise 格式';
 $string['link'] = '連結';
 $string['listitems'] = '列出測驗項目';
 $string['literal'] = '數值';
 $string['loguniform'] = '數值(digits)，從loguniform 分配';
-$string['lowmarkslimit'] = '如果分數低於此不進行分析:';
 $string['makecopy'] = '儲存成新問題';
 $string['managetypes'] = '管理問題和伺服器';
 $string['manualgrading'] = '評語';
@@ -289,12 +281,6 @@ $string['multipleanswers'] = '至少選擇一個答案';
 $string['multiplier'] = '多選題';
 $string['name'] = '名稱';
 $string['newattemptfail'] = '錯誤：無法重新開始';
-$string['newcategory1'] = '新數值組中的一個數值也可以在此類別中套用在別的題目上';
-$string['newcategory2'] = '新檔案組中的一個檔案也可以在此類別中套用在別的題目上';
-$string['newcategory3'] = '新連結組中的一個連結也可以在此類別中套用在別的題目上';
-$string['newlocal1'] = '新數值組中的數值只能用在這個問題中';
-$string['newlocal2'] = '新檔案組中的檔案只能用在這個問題中';
-$string['newlocal3'] = '新連結組中的連結只能用在這個問題中';
 $string['noanswers'] = '並未選擇答案!';
 $string['noattempts'] = '尚未有人回答過此試題';
 $string['noattemptstoshow'] = '沒有作答記錄可供顯示';
@@ -517,5 +503,21 @@ $string['xml'] = 'Moodle XML格式';
 $string['xmltypeunsupported'] = '問題類型 $ a 無 xml 匯入支援';
 $string['yourfinalgradeis'] = '這個測驗您的最後得分是 $a';
 $string['zerosignificantfiguresnotallowed'] = '正確的答案不能有 0 有效數字﹗';
+$string['existingcategory1'] = '已存在的數值組中同時也用在此類別中其它的問題中的數值'; // ORPHANED
+$string['existingcategory2'] = '已存在的檔案組中同時也用在此類別中其它的問題中的檔案'; // ORPHANED
+$string['existingcategory3'] = '已存在的連結組中同時也用在此類別中其它的問題中的連結'; // ORPHANED
+$string['keptcategory1'] = '相同類別中的數值如之前的數值設定為可重複使用'; // ORPHANED
+$string['keptcategory2'] = '相同類別中的檔案如之前的檔案設定為可重複使用'; // ORPHANED
+$string['keptcategory3'] = '相同類別中的連結如之前的連結設定為可重複使用'; // ORPHANED
+$string['keptlocal1'] = '相同問題中的數值如之前的數值獨立設定'; // ORPHANED
+$string['keptlocal2'] = '相同問題中的檔案如之前的檔案獨立設定'; // ORPHANED
+$string['keptlocal3'] = '相同問題中的連結如之前的連結獨立設定'; // ORPHANED
+$string['lowmarkslimit'] = '如果分數低於此不進行分析:'; // ORPHANED
+$string['newcategory1'] = '新數值組中的一個數值也可以在此類別中套用在別的題目上'; // ORPHANED
+$string['newcategory2'] = '新檔案組中的一個檔案也可以在此類別中套用在別的題目上'; // ORPHANED
+$string['newcategory3'] = '新連結組中的一個連結也可以在此類別中套用在別的題目上'; // ORPHANED
+$string['newlocal1'] = '新數值組中的數值只能用在這個問題中'; // ORPHANED
+$string['newlocal2'] = '新檔案組中的檔案只能用在這個問題中'; // ORPHANED
+$string['newlocal3'] = '新連結組中的連結只能用在這個問題中'; // ORPHANED
 
 ?>

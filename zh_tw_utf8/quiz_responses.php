@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_responses.php - created with Moodle 1.6 (2006050506)
+      // quiz_responses.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['pagesize'] = '每頁顯示題目數量：';

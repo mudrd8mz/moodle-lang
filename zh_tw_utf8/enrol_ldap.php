@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.8 + (2007021505)
+      // enrol_ldap.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['description'] = '<p>您可以使用LDAP伺服器控制您的課程登記。</br>

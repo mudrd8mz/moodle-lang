@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 + (2007021505)
+      // calendar.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['advancedoptions'] = '進階選項';

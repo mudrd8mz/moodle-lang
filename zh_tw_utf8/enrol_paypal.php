@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_paypal.php - created with Moodle 1.8 + (2007021505)
+      // enrol_paypal.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['business'] = '您的Paypal商務帳號';

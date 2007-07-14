@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 (2006050506)
+      // resource.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addresource'] = '新增資源';
@@ -8,11 +8,12 @@ $string['browserepository'] = '瀏覽檔案庫';
 $string['choose'] = '選擇';
 $string['chooseafile'] = '選擇或上傳一個檔';
 $string['chooseparameter'] = '選擇參數';
-$string['configallowlocalfiles'] = '當建立新檔案資源時，允許在本機檔案系統建立連結，例如一個光驅或者一個硬碟驅動的文件的聯結。 這可能在同一間教室裡全部學生存取相同的網路磁碟或在CD光碟機上的檔案時特別有用，這個功能的使用可能要求變更您的瀏覽器安全設定。 ';
+$string['clicktoopen'] = '如果您想開啟這文件，請點按右列超連結';
+$string['configallowlocalfiles'] = '當建立新檔案資源時，允許在本機檔案系統建立連結，例如一個光驅或者一個硬碟驅動的文件的聯結。 這可能在同一間教室裡全部學生存取相同的網路磁碟或在CD光碟機上的檔案時特別有用，這個功能的使用可能要求變更您的瀏覽器安全設定。';
 $string['configdefaulturl'] = '這個值被使用來提示URL，當建立一個新的URL資源連結時';
 $string['configfilterexternalpages'] = '啟用這個設定，將導致所有外部資源被現有的網站過濾設定所處理。啟用這個選項可能導致系統效能降低。請小心使用，並確定您真的有這個需求。';
 $string['configframesize'] = '當網頁或上載的檔案在框架中顯示，這個設定值決定了框架大小。';
-$string['configparametersettings'] = '這設定了當新增一些新資源時表單中參數設定頁的預設值，第一次後，將成為個別的用戶偏好設定。 ';
+$string['configparametersettings'] = '這設定了當新增一些新資源時表單中參數設定頁的預設值，第一次後，將成為個別的用戶偏好設定。';
 $string['configpopup'] = '當新增一個新資源時，這個資源是否要採用彈出式視窗，以提供閱讀。這個選項預設是啟用的。';
 $string['configpopupdirectories'] = '彈出視窗是否顯示預設目錄鏈結？';
 $string['configpopupheight'] = '新視窗預設高度？';
@@ -23,9 +24,9 @@ $string['configpopupscrollbars'] = '彈出視窗是否可滾動？';
 $string['configpopupstatus'] = '彈出視窗是否顯示狀態欄？';
 $string['configpopuptoolbar'] = '彈出視窗是否顯示工具欄？';
 $string['configpopupwidth'] = '新視窗預設寬度？';
-$string['configsecretphrase'] = '這個祕密的片語用來產生可傳送給部分資源作為參數的加密值。經加密的密碼由目前使用者ip位址與您的密語連結後經md5加密。例如密碼 = md5(IP。secretphrase)。 這允許目標網站資源確認額外的安全連接。 ';
+$string['configsecretphrase'] = '這個祕密的片語用來產生可傳送給部分資源作為參數的加密值。經加密的密碼由目前使用者ip位址與您的密語連結後經md5加密。例如密碼 = md5(IP。secretphrase)。 這允許目標網站資源確認額外的安全連接。';
 $string['configwebsearch'] = '當加入一個超連結時，這個連結位址提供一個網站來幫助使用者搜尋您要的相關網址';
-$string['configwindowsettings'] = '這設定了當新增一些新資源時表單中視窗設定頁的預設值，第一次後，將成為個別的用戶偏好設定。 ';
+$string['configwindowsettings'] = '這設定了當新增一些新資源時表單中視窗設定頁的預設值，第一次後，將成為個別的用戶偏好設定。';
 $string['deploy'] = '配置';
 $string['deployall'] = '配置全部';
 $string['directlink'] = '直接連結這個檔案';
@@ -48,8 +49,8 @@ $string['imspackageloaded'] = '載入的包裝';
 $string['localfile'] = '本地檔案';
 $string['localfilechoose'] = '選擇本地檔案 (CD-ROM)';
 $string['localfilehelp'] = '顯示本地檔案說明';
-$string['localfileinfo'] = '< p > 從您的電腦中挑選一個本地檔案。該檔案將不會被上載到網站，但是Moodle 將在電腦中尋找檢視此資源的人的相同檔案。 < /p > < p >當您有大的媒體檔案儲存在標準CD-ROM 上而且要分送給全部參加者時，這特別有用。每個參加者對類似的檔案也能選擇同樣的方式分享他們自己的檔案路徑，以 <a href=\"$a\" target=\"_blank\">編輯個別用戶設定< /a > 。 < /p > ';
-$string['localfilepath'] = '要設定這個資源的路徑，從磁碟機中(通常是CD_ROM)中挑選任何儲存在您電腦中的資源。文件將不會被上載，但是磁碟訊息將被儲存並用于任何本地文件資源。 ';
+$string['localfileinfo'] = '< p > 從您的電腦中挑選一個本地檔案。該檔案將不會被上載到網站，但是Moodle 將在電腦中尋找檢視此資源的人的相同檔案。 < /p > < p >當您有大的媒體檔案儲存在標準CD-ROM 上而且要分送給全部參加者時，這特別有用。每個參加者對類似的檔案也能選擇同樣的方式分享他們自己的檔案路徑，以 <a href=\"$a\" target=\"_blank\">編輯個別用戶設定< /a > 。 < /p >';
+$string['localfilepath'] = '要設定這個資源的路徑，從磁碟機中(通常是CD_ROM)中挑選任何儲存在您電腦中的資源。文件將不會被上載，但是磁碟訊息將被儲存並用于任何本地文件資源。';
 $string['localfileselect'] = '選擇此檔案路徑';
 $string['maindirectory'] = '主檔案目錄';
 $string['modulename'] = '線上資源';

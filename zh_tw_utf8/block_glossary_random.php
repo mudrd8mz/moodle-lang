@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_glossary_random.php - created with Moodle 1.6 Beta 5 (2006050502)
+      // block_glossary_random.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addentry'] = '新增個人喜愛的格言!';
@@ -20,7 +20,7 @@ $string['select_glossary'] = '從此辭彙庫中擷取格言';
 $string['showconcept'] = '顯示每篇格言的概念(標題)';
 $string['title'] = '標題';
 $string['type'] = '選擇幾則格言?';
-$string['typehelp'] = '<b>最新更新格言</b>要總是顯示最新更新的格言，或<b>隨機顯示格言</b>將每次隨機選擇一則新格言，此選項<b>下一則格言</b>將會順序顯示，最後的選項在特定時間內對每個使用者顯示固定格言特別有用，如<i>每週格言</i> 或<i>每日格言</i> ';
+$string['typehelp'] = '<b>最新更新格言</b>要總是顯示最新更新的格言，或<b>隨機顯示格言</b>將每次隨機選擇一則新格言，此選項<b>下一則格言</b>將會順序顯示，最後的選項在特定時間內對每個使用者顯示固定格言特別有用，如<i>每週格言</i> 或<i>每日格言</i>';
 $string['viewglossary'] = '更多格言';
 $string['whichfooter'] = '您可以顯示與此區塊相關的動作連結，此區塊將只顯示在辭彙庫中啟動的動作連結。';
 

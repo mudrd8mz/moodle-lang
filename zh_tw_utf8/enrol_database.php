@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.8 + (2007021505)
+      // enrol_database.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['autocreate'] = '如果有選課方式指定給一個不存在的課程，系統會自動建立。';

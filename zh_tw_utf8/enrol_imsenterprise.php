@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.8 + (2007021505)
+      // enrol_imsenterprise.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['aftersaving...'] = '當您儲存了設定，您也許想要';

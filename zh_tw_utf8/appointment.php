@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // appointment.php - created with Moodle 1.6 (2006050506)
+      // appointment.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['allowresubmit'] = '允許重複';
@@ -11,7 +11,7 @@ $string['description'] = '說明';
 $string['early'] = '$a 前';
 $string['failedupdatefeedback'] = '從使用者 $a 更新回饋失敗';
 $string['feedback'] = '回饋';
-$string['feedbackupdated'] = '提文的回饋更新到 $a ';
+$string['feedbackupdated'] = '提文的回饋更新到 $a';
 $string['late'] = '$a 後';
 $string['maximumgrade'] = '最高分數';
 $string['maximumsize'] = '檔案最大';

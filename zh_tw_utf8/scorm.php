@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.6 (2006050506)
+      // scorm.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['advanced'] = '進階';
@@ -59,7 +59,7 @@ $string['maximumattempts'] = '使用次數';
 $string['menubar'] = '顯示選單列';
 $string['min'] = '最低分';
 $string['missing_attribute'] = '在$a->tag標籤中的屬性 ($a->attr)遺失';
-$string['missing_tag'] = ' $a->tag 標籤遺失';
+$string['missing_tag'] = '$a->tag 標籤遺失';
 $string['mode'] = '模式';
 $string['modulename'] = 'SCORM/AICC';
 $string['modulenameplural'] = 'SCORMs/AICCs';
@@ -105,9 +105,11 @@ $string['stagesize'] = '頁框/視窗大小';
 $string['status'] = '狀態';
 $string['statusbar'] = '顯示狀態列';
 $string['student_response'] = '回應';
+$string['suspended'] = '中止';
 $string['syntax'] = '語法錯誤';
 $string['tag_error'] = '此內容$a->value未知的標籤($a->tag)';
 $string['time'] = '時間';
+$string['title'] = '標題';
 $string['too_many_attributes'] = '$a->tag 標籤擁有太多屬性';
 $string['too_many_children'] = '$a->tag 標籤擁有太多子標籤';
 $string['toolbar'] = '顯示工具列';

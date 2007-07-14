@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 + (2007021505)
+      // enrol_authorize.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['adminacceptccs'] = '接受哪些信用卡類型？';

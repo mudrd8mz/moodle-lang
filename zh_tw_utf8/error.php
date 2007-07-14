@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8 + (2007021505)
+      // error.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['adminprimarynoedit'] = '預設的admin 帳號無法被編輯';

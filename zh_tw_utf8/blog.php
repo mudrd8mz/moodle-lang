@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8 + (2007021502)
+      // blog.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addnewentry'] = '新增文章';

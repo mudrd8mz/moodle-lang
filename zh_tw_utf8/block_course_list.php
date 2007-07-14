@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_course_list.php - created with Moodle 1.8 + (2007021505)
+      // block_course_list.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['allcourses'] = '系統管理者檢視所有課程';

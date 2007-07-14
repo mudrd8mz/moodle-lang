@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.6 (2006050506)
+      // dialogue.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addmynewentries'] = '添加我的話題';
@@ -14,7 +14,7 @@ $string['confirmclosure'] = '您打算結束和 $a 的對話。結束後只能�
 $string['deleteafter'] = '刪除關閉的對話(天)';
 $string['dialogueclosed'] = '對話關閉';
 $string['dialogueintro'] = '對話簡介';
-$string['dialoguemail'] = '$a->userfrom 向您的對話條目發佈了一個 $a->dialogue 條目。您可以在您的對話條目中看到他: $a->url ';
+$string['dialoguemail'] = '$a->userfrom 向您的對話條目發佈了一個 $a->dialogue 條目。您可以在您的對話條目中看到他: $a->url';
 $string['dialoguemailhtml'] = '$a->userfrom 向您的對話條目發佈了一個 <i>$a->dialogue</i>條目<br /><br /> 您可以在您的對話條目中看到<a href=\"$a->url\">它</a>。';
 $string['dialoguename'] = '對話名稱';
 $string['dialogueopened'] = '$a 開啟了對話';
