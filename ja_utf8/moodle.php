@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007070501)
+      // moodle.php - created with Moodle 1.9 dev (2007071501)
 
 
 $string['action'] = '操作';
@@ -722,11 +722,11 @@ $string['idnumbercourse'] = 'コースIDナンバー';
 $string['imagealt'] = '写真の説明';
 $string['import'] = 'インポート';
 $string['importactivities'] = '他のコースより活動をインポートする';
-$string['importdata'] = 'コースデータのインポート';
+$string['importdata'] = 'コースデータをインポートする';
 $string['importdataexported'] = 'コースデータのエクスポートが完了しました。<br /> 続けてあなたのコースにインポートします。';
 $string['importdatafinished'] = 'インポートが完了しました! コースへ移動します。';
 $string['importdatafrom'] = 'インポートするコースデータを探す:';
-$string['importgroups'] = 'グループのインポート';
+$string['importgroups'] = 'グループをインポートする';
 $string['importmetacoursenote'] = 'このフォームを使用してメタコースにコースを追加します (ユーザ登録情報をインポートします)。';
 $string['inactive'] = '停止';
 $string['include'] = 'バックアップ';
