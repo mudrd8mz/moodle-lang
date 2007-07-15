@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007071000)
+      // auth.php - created with Moodle 1.9 dev (2007071501)
 
 
 $string['CASform'] = '認証選択';
@@ -108,7 +108,7 @@ $string['auth_fcuserid_key'] = 'ユーザID';
 $string['auth_fieldlock'] = '設定値のロック';
 $string['auth_fieldlock_expl'] = '<p><b>設定値のロック:</b> このオプションを有効にした場合、Moodleユーザおよび管理者はフィールドを直接編集するのを防止します。外部認証システムでデータをメンテナンスしている場合にこのオプションを使用してください。</p>';
 $string['auth_fieldlocks'] = 'ユーザフィールドのロック';
-$string['auth_fieldlocks_help'] = '<p>あなたは、ユーザデータフィールドをロックすることができます。ユーザレコードを管理者が手動で管理する方法、または「ユーザのアップロード」機能を使用してユーザレコードをアップロードする方法をとっているサイトに便利です。Moodleが必要とするフィールドをロックする場合、ユーザアカウントを作成時にそれらのデータを必ず提供してください。そうでない場合、アカウントを使用できなくなります。</p><p>このトラブルを避けるため、「空の場合はロックしない」に設定することをお勧めします。</p>';
+$string['auth_fieldlocks_help'] = '<p>あなたはユーザデータフィールドをロックすることができます。ユーザレコードを管理者が手動で管理する方法、または「ユーザのアップロード」機能を使用してユーザレコードをアップロードする方法をとっているサイトに有用です。Moodleが必要とするフィールドをロックする場合、ユーザアカウント作成時にそれらのデータを必ず提供してください。そうでない場合、アカウントを使用できなくなります。</p><p>この問題を避けるため、「空の場合はロックしない」に設定することをお勧めします。</p>';
 $string['auth_imapchangepasswordurl_key'] = 'パスワード変更のURL';
 $string['auth_imapdescription'] = 'ユーザ名とパスワードを確認するためにIMAPサーバを使用します。';
 $string['auth_imaphost'] = 'IMAPサーバアドレスです。IPアドレスではなくドメイン名を使用してください。';
@@ -202,7 +202,7 @@ $string['auth_nntpnotinstalled'] = 'NNTP認証を使用できません。PHP IMA
 $string['auth_nntpport'] = 'サーバポート (119が最も一般的です)';
 $string['auth_nntpport_key'] = 'ポート';
 $string['auth_nntptitle'] = 'NNTPサーバ';
-$string['auth_nologindescription'] = 'システムへのユーザログインを停止する補助的なプラグインです。また、ユーザ宛に送信されるメールも破棄されます。ユーザアカウントの「一時停止」に使用できます。';
+$string['auth_nologindescription'] = 'システムへのユーザログインを停止するための予備的なプラグインです。また、ユーザ宛に送信されるメールもすべて破棄されます。これはユーザアカウントの「一時停止」する場合に使用できます。';
 $string['auth_nologintitle'] = 'ログインなし';
 $string['auth_nonedescription'] = 'ユーザはログインして外部サーバおよびメールによる認証なしにアカウントを直ちに作成できます。このオプションを使用するときは十分に注意してください - セキュリティーおよび管理上の問題が発生するかもしれないことを考えてください。';
 $string['auth_nonetitle'] = '認証なし';
@@ -262,7 +262,7 @@ $string['authenticationoptions'] = '認証オプション';
 $string['authinstructions'] = 'どのようなユーザ名やパスワードを使用したらよいのかユーザに説明します。ここに入力した文章はログインページに表示されます。空白の場合、何も表示されません。';
 $string['auto_add_remote_users'] = 'リモートユーザを自動的に追加する';
 $string['changepassword'] = 'パスワードURLの変更';
-$string['changepasswordhelp'] = 'ユーザがユーザ名/パスワードを忘れたときに回復または変更するためのボタンをログインページに表示します。この設定により、ログインページおよびユーザページにボタンが表示されます。空白の場合、ボタンは表示されません。';
+$string['changepasswordhelp'] = 'ここでは、あなたのユーザがパスワードを忘れた場合、ユーザ名/パスワードを回復または変更するためのロケーションを設定します。これは、ログインページおよびユーザページにボタンとして提供されます。ここを空白にした場合、ボタンは表示されません。';
 $string['chooseauthmethod'] = '認証方法の選択:';
 $string['createpasswordifneeded'] = '必要に応じてパスワードを作成する';
 $string['errorminpassworddigits'] = 'パスワードは、少なくとも $a 文字の数字を使用する必要があります。';
