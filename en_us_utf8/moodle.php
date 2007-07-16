@@ -10,6 +10,8 @@ $string['assignstudentsnote'] = 'Note: it may not be necessary to use this page,
 $string['assignstudentspass'] = 'All you may need to do is notify your students of the enrollment key for this course, which is currently set to: \'$a\'';
 $string['backupmetacoursehelp'] = 'If enabled, then metacourse info (inherited enrollments) will be included in automated backups';
 $string['chooseenrolmethod'] = 'Primary method of enrollment';
+$string['courseenrolstartdate'] = 'Course enrollment start date';
+$string['courseenrolenddate'] = 'Course enrollment end date';
 $string['enrolenddaterror'] = 'Enrollment end date cannot be earlier than start date';
 $string['enrollfirst'] = 'You have to enroll in one of the courses before you can use the site activities';
 $string['enrolme'] = 'Enroll me in this course';
@@ -45,6 +47,7 @@ This is a notification that your enrollment in the course $a->course will expire
 Please contact your $a->teacherstr for any further enquiries.';
 $string['extendenrol'] = 'Extend enrollment';
 $string['frontpagedescription'] = 'Front page description';
+$string['groupextendenrol'] = 'Extend enrollment for all';
 $string['importmetacoursenote'] = 'Use this form to add courses to your meta course (this will import the enrollments)';
 $string['lastname'] = 'Last name';
 $string['latestnews'] = 'Latest news';
