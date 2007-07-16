@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007071000)
+      // grades.php - created with Moodle 1.9 dev (2007071501)
 
 
 $string['addcategory'] = 'カテゴリの追加';
@@ -44,7 +44,7 @@ $string['configshowfeedback'] = 'フィードバックアイコン (追加/編�
 $string['configshowgrandtotals'] = '評定レポートにカラム合計を表示します。';
 $string['configshowgroups'] = '評定レポートにグループ合計および平均を表示します。';
 $string['configshowlocks'] = 'ロック/ロック解除アイコンをそれぞれの評定の近くに表示するかどうか選択します。';
-$string['configshowscales'] = '評定レポートにそれぞれの評定項目の評価尺度を表示します。';
+$string['configshowranges'] = '評定レポートにそれぞれの評定項目の考えられる範囲を表示します。';
 $string['configstudentsperpage'] = '評定レポートの1ページあたりに表示される学生数です。';
 $string['contract'] = 'カテゴリの縮小';
 $string['createcategory'] = 'カテゴリを作成する';
@@ -122,7 +122,7 @@ $string['hidefeedback'] = 'フィードバックを隠す';
 $string['hidegrandtotals'] = 'カラム合計を隠す';
 $string['hidegroups'] = 'グループを隠す';
 $string['hidelocks'] = 'ロックを隠す';
-$string['hidescales'] = '尺度を隠す';
+$string['hideranges'] = '範囲を隠す';
 $string['highgradeascending'] = '高評点の昇順で並び替え';
 $string['highgradedescending'] = '高評点の降順で並び替え';
 $string['highgradeletter'] = '上限';
@@ -187,6 +187,7 @@ $string['pointsdescending'] = '評点の降順で並び替え';
 $string['preferences'] = 'オプション';
 $string['quickfeedback'] = 'クイックフィードバック';
 $string['quickgrading'] = 'クイック評定';
+$string['range'] = '範囲';
 $string['rank'] = 'ランク';
 $string['raw'] = '実データ';
 $string['rawpct'] = '実%%';
@@ -214,7 +215,7 @@ $string['showgrandtotals'] = 'カラム合計を表示する';
 $string['showgroups'] = 'グループを表示する';
 $string['showhiddenitems'] = '隠し項目を表示する';
 $string['showlocks'] = 'ロックを表示する';
-$string['showscales'] = '尺度を表示する';
+$string['showranges'] = '範囲を表示する';
 $string['sort'] = '並び替え';
 $string['sortasc'] = '昇順で並び替え';
 $string['sortbyfirstname'] = '名で並び替え';
@@ -256,12 +257,5 @@ $string['weightedpctcontribution'] = '加重%%内訳';
 $string['writinggradebookinfo'] = '評定表設定の書き込み';
 $string['yes'] = 'Yes';
 $string['yourgrade'] = 'あなたの評定';
-$string['configfeedbackformat'] = '評定に添付されるフィードバックノートのフォーマットです。この設定では、フィードバックを入力するインターフェース (HTMLフォーマットのHTMLエディタ) も決定します。'; // ORPHANED
-$string['feedbackformat'] = 'フィードバックフォーマット'; // ORPHANED
-$string['html'] = 'HTML'; // ORPHANED
-$string['text'] = 'テキスト'; // ORPHANED
-$string['configshownotes'] = 'フィードバックアイコン (追加/編集) をそれぞれの評定の近くに表示するかどうか選択します。'; // ORPHANED
-$string['hidenotes'] = 'フィードバックを隠す'; // ORPHANED
-$string['shownotes'] = 'フィードバックを表示する'; // ORPHANED
 
 ?>
