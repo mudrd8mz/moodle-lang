@@ -378,8 +378,8 @@ $string['mnetrestore_extusers_mismatch'] = '<strong>Poznámka:</strong> Tato zá
 $string['modulesecurity'] = 'Zabezpečení modulu';
 $string['multilangforceold'] = 'Vnutit starou syntaxi vícejazyčného obsahu pomocí tagu <lang>';
 $string['multilangupgrade'] = 'Upgrade syntaxe vícejazyčného obsahu';
-$string['multilangupgradeinfo'] = 'Syntaxe filtru pro vícejazyčný obsah byla ve verzi 1.8 změněna. Tag <lang> již není podporován.
-<br /><br />Ukázka nové syntaxe:<br /><span lang=\"en\" class=\"multilang\">Hello!</span><span lang=\"es\" class=\"multilang\">Hola!</span><br /><br />
+$string['multilangupgradeinfo'] = 'Syntaxe filtru pro vícejazyčný obsah byla ve verzi 1.8 změněna. Tag &lt;lang&gt; již není podporován.
+<br /><br />Ukázka nové syntaxe:<br />&lt;span lang=\"en\" class=\"multilang\"&gt;Hello!&lt;/span&gt;&lt;span lang=\"es\" class=\"multilang\"&gt;Hola!&lt;/span&gt;<br /><br />
 <strong>Přejete si upravit všechny textu na tuto novou syntaxi?</strong>';
 $string['multilangupgradenotice'] = 'Vaše stránky pravděpodobně používají starou syntaxi vícejazyčného obsahu. Doporučujeme provést <a href=\"multilangupgrade.php\">její upgrade</a>.';
 $string['mustenablestats'] = 'Na těchto stránkách nejsou statistiky povoleny';
