@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007071501)
+      // grades.php - created with Moodle 1.9 dev (2007071600)
 
 
 $string['addcategory'] = 'カテゴリの追加';
@@ -37,6 +37,7 @@ $string['configbulkcheckboxes'] = '大量処理のため評点の近くにチェ
 $string['configdecimalpoints'] = 'それぞれの評定に表示する小数点以下桁数です。この値は評定項目ごとにオーバーライドされます。';
 $string['configenableajax'] = '一般的な操作を単純化および高速化するAJAX機能のレイヤーを評定レポートに追加します。ユーザのブラウザレベルでJavaスクリプトが有効にされているかどうかに依存します。';
 $string['configgradedisplaytype'] = '評定を実データまたはパーセンテージで表示することができます (最小および最大評点に関して)。';
+$string['configmeanselection'] = 'どのタイプの評点を平均カラムに含むか選択してください。評点のないセルは無視されるかゼロ (デフォルト設定) として計算されます。';
 $string['configquickfeedback'] = '多くのフィードバックを1度に編集できるようにするため、クイックフィードバックは評定レポートのそれぞれの評定セルにテキスト入力欄を追加します。1つずつ変更せず、更新ボタンをクリックすることで、すべての変更を1度に実行することができます。';
 $string['configquickgrading'] = '多くの評定を1度に編集できるようにするため、クイック評定は評定レポートのそれぞれの評定セルにテキスト入力欄を追加します。1つずつ変更せず、更新ボタンをクリックすることで、すべての変更を1度に実行することができます。';
 $string['configshowaverages'] = '評定レポートにカラム平均を表示します。';
@@ -153,6 +154,9 @@ $string['mappings'] = '評定項目マッピング';
 $string['mapto'] = 'マップ先';
 $string['max'] = '最高';
 $string['maxgrade'] = '満点';
+$string['meanall'] = 'すべての評点';
+$string['meangraded'] = '空白ではない評点';
+$string['meanselection'] = '平均に選択する評点';
 $string['median'] = '中央値';
 $string['min'] = '最低';
 $string['mode'] = '最頻値';
