@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Dokumentácia Moodle: Inštalácia PHP a MySQL</title>
+	<link rel="stylesheet" href="docstyles.css" type="TEXT/CSS" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+<h1>Inštalácia Apache, MySQL a PHP</h1>
+<blockquote>
+<p>Moodle je napísané v skriptovacom jazyku PHP a väčšinu svojich
+údajov uchováva v databáze. Doporučenou databázou je MySQL. Aby sa z
+vášho počítača stal funkčný internetový server, musíte pred
+inštaláciou Moodle správne nainštalovať jazyk PHP a databázu. Pre
+bežného používateľa počítača to môže byť dosť komplikované.
+Táto stránka bola napísaná preto, aby sme inštalačný proces
+pre rôzne platformy zjednodušili:</p>
+  <ul>
+    <li><a href="#host" class="questionlink">Hostingové služby</a></li>
+    <li><a href="#mac" class="questionlink">Mac OS X</a></li>
+    <li><a href="#redhat" class="questionlink">Redhat Linux</a></li>
+    <li><a href="#windows" class="questionlink">Windows</a></li>
+  </ul>
+  <p class="questionlink">&nbsp;</p>
+  <h3 class="sectionheading"><a name="host" id="host"></a>Hostingové služby</h3>
+  <blockquote>
+    <p>Hostingové služby sú od seba žiaľ velmi odlišné. Niekde dokonca Moodle 
+    nainštalujú za vás.</p>
+    <p>Väčšina poskytovateľov webového priestoru ponúka webovú aplikáciu, v ktorej 
+môžete spravovať svoje stránky, vytvárať databázy a nastaviť cron. Nektorí 
+tiež môžu poskytovať terminálový prístup pomocou ssh, takže k administratíve môžete 
+použiť príkazový riadok.</p>
+<p>Pri inštalácií postupujte krok za krokom podľa 
+<a href="./?file=install.html">návodu k inštalácií</a>. V prípade problémov 
+kontaktujte svojho poskytovateľa.</p>
+    <p>&nbsp;</p>
+  </blockquote>
+  <h3 class="sectionheading"><a name="mac" id="mac"></a>Mac OS X</h3>
+  <blockquote>
+    <p>Najjednoduchší postup je použiť Apache server poskytovaný firmou Apple 
+a pridať PHP a MySQL z programových balíčkov Marca Liyanagea. Obe nižšie uvedené 
+stránky sú doplnené kvalitným návodom, ktorý tu nebudeme opakovať:</p>
+    <blockquote>
+      <p><strong>PHP</strong>: stiahnuť z <a href="http://www.entropy.ch/software/macosx/php/" target="_top">http://www.entropy.ch/software/macosx/php/</a></p>
+      <p><strong>MySQL</strong>: stiahnuť z <a href="http://www.entropy.ch/software/macosx/mysql/" target="_top">http://www.entropy.ch/software/macosx/mysql/</a></p>
+    </blockquote>
+    <p>Akonáhle ich máte nainštalované, mal by pre ďalší postup stačiť 
+    štandardný <a href="./?file=install.html">návod k inštalácii</a>.</p>
+    
+    <p>Podrobnejší návod najdete tu: <a href="http://moodle.org/wiki/index.php/InstallingMoodle">http://moodle.org/wiki/index.php/InstallingMoodle</a></p>
+    <p>&nbsp;</p>
+  </blockquote>
+  <h3 class="sectionheading"><a name="redhat"></a>Redhat Linux</h3>
+  <blockquote>
+    <p>Mali by ste nainštalovať všetky dostupné programové RPM balíčky
+    pre Apache, PHP a MySQL. Často sa zabúda na inštaláciu balíčku
+    php-mysql, ktorý je nutný pre komunikáciu jazyka PHP s MySQL.</p>
+    <p>Keď máte balíčky nainštalované, mal by pre ďalší postup stačiť 
+    štandardný <a href="./?file=install.html">návod k inštalácii</a>.</p>
+  <p>Podrobnejší návod najdete tu: <a href="http://moodle.org/wiki/index.php/InstallingMoodle">http://moodle.org/wiki/index.php/InstallingMoodle</a></p>
+  </blockquote>
+  <p>&nbsp;</p>
+  <h3 class="sectionheading"><a name="windows" id="windows"></a>Windows</h3>
+  <blockquote>
+    <p>Najjednoduchšie je použiť programový balíček <a href="http://www.easyphp.org/" target="_blank">EasyPHP</a>, 
+    ktorý v rámci jedinej aplikácie ponúka všetok potrebný software. 
+    Tu je celý postup krok za krokom:</p>
+    <ol>
+      <li>Najprv, ak už máte databázu MySQL nainštalovanú (napr. ako súčasť 
+      iného programového balíčku), odinštalujte ju, zmažte všetky MySQL 
+      súbory a uistite se, že sú zmazané súbory <strong>c:\my.cnf</strong> 
+      a <strong>c:\windows\my.ini</strong>. Môžete tiež vyhľadať a zmazať
+      všetky súbory s názvom <strong>my.cnf</strong> alebo 
+      <strong>my.ini</strong>.</li>
+      <li>Ak už máte nainštalované PHP, vymažte z adresára Windows a jeho 
+      podadresárov všetky súbory <strong>php4ts.dll</strong> a 
+      <strong>php.ini</strong>.</li>
+      <li>EasyPHP si stiahnite tu: <a href="http://www.easyphp.org/telechargements/dn.php?F=easyphp1-7">http://www.easyphp.org/telechargements/dn.php?F=easyphp1-7</a> 
+      (asi 10 MB).</li>
+      <li>Spusťte stiahnutý súbor: <strong>easyphp1-7_setup.exe</strong>. 
+      Inštalačný postup je vo francúzštine, ale inak sa podobá inštalácii 
+      akohokoľvek iného programu vo Windows - doporučujeme prijať defaultné 
+      nastavenia a nechať všetko nainštalovať. Dodajme, že &quot;Suivant&quot; 
+      znamená Ďalší a &quot;Oui&quot; znamená Ano.</li>
+      <li>Na konci inštalácie nechajte zaškrtnuté pole &quot;Lancer 
+      EasyPHP&quot; (Spusť EasyPHP) a klepnite na tlačidlo &quot;Terminer&quot;.
+      Možná budete presmerovaní na informačnú internetovú stránku, tú si však
+      nemusíte všímať.</li>
+      <li>Ak šlo všetko dobre, blahoželáme &ndash; Apache, PHP a MySQL sú 
+      nainštalované a funkčné! Na hlavnom paneli Windows by ste mali vidieť čierne 
+      E. Ak klepnete na neho pravým tlačidlom myši, vyvoláte menu, ktorým môžete 
+      ovládať spustené programy.</li>
+      <li>Nektoré texty môžu byť vo francúzštine; ak uprednostňujete 
+      angličtinu, stiahnite si súbor <a href="http://www.easyphp.org/telechargements/dn.php?F=indexUS_1.7">http://www.easyphp.org/telechargements/dn.php?F=indexUS_1.7</a>,
+      ktorý obsahuje anglickú verziu adresárov www a home. Tú môžete skopírovať 
+      na miesto pôvodných súborov v adresári EasyPHP1-7.</li>
+      <li>Ďalej musíte pre použitie s Moodle nastaviť databázu. Pravým tlačidlom 
+      myši klepnite na čierne E na hlavnom paneli, zvoľte Administration,
+      potom klepnite na DB Management (vedľa PHPMyAdmin).</li>
+      <li>Ak budete opýtaní na používateľské meno, napíšte &quot;<strong>root</strong>&quot;
+      a kolonku heslo <strong>ponechajte prázdnu</strong>. Malo by sa objaviť 
+      rozhranie phpMyAdmin, ktoré vám umožňuje vytvárať nové databázy
+      a používateľské účty.</li>
+      <li>Do príslušného políčka vpíšte &quot;moodle&quot; a klepnutím na tlačidlo
+      &quot;Create&quot; vytvorte novú databázu.</li>
+      <li>Pre prístup do databázy môžete tiež vytvoriť nový používateľský
+      účet. Najprv to môže byť trocha komplikované, preto môžete pre začiatok 
+      v konfigurácii Moodle použiť existujúci používateľský účet &quot;root&quot;
+      bez hesla a neskôr konfiguráciu upraviť.</li>
+      <li>Teraz môžete pristúpiť k inštalácii Moodle! Z <a href="http://moodle.org/download" target="_blank">http://moodle.org/download</a>
+      stiahnite nejnovšiu verziu Moodle a archív rozbaľte.</li>
+      <li>Súbory Moodle skopírujte do <strong>C:\Program Files\EasyPHP\www</strong>.
+      Môžete buď skopírovať celý adresár Moodle (tj. C:\Program Files\EasyPHP\www\moodle) 
+      alebo skopírovať celý <em>obsah</em> adresára Moodle. Ak zvolíte
+      druhú možnosť, budete môcť pristupovať na svoju domovskú stránku Moodle
+      na adrese http://localhost/ namiesto http://localhost/moodle/.</li>
+      <li>Pre uchovávanie súborov vložených do Moodle vytvorte na inom mieste 
+      nový prázdny adresár, napr. <strong>C:\moodledata</strong>.</li>
+      <li>Prejdite do adresára Moodle. Vytvorte kópiu súboru config-dist.php a 
+      nazvite ju config.php</li>
+      <li>config.php možno upravovať pomocou textového editoru (Notepad stačí,
+      skontrolujte však, aby na koniec nepridával nežiadúce mezery).</li>
+      <li>Vložte do neho informácie o svojej novej databáze:<br />
+      $CFG-&gt;dbtype = 'mysql';<br />
+      $CFG-&gt;dbhost = 'localhost';<br />
+      $CFG-&gt;dbname = 'moodle';<br />
+      $CFG-&gt;dbuser = 'root'; <br />
+      $CFG-&gt;dbpass = '';<br />
+      $CFG-&gt;dbpersist = true;<br />
+      $CFG-&gt;prefix = 'mdl_';</li>
+      <li>Ďalej do neho vložte cesty ku všetkým svojím súborom:<br />
+      $CFG-&gt;wwwroot = 'http://localhost/moodle'; // Použite plnú webovú
+      adresu, ak ju poznáte.<br />
+      $CFG-&gt;dirroot = 'C:\Program Files\EasyPHP\www\moodle';<br />
+      $CFG-&gt;dataroot = 'C:\moodledata';</li>
+      <li>Uložte config.php - prípadné ďalšie nastavenia si nevšímajte.</li>
+      <li>Ostatné nastavenia sa vykonávajú cez internet; za tím účelom spusťte 
+      prehliadač a prejdite na adresu <a href="http://localhost/moodle/admin/" target="_blank">http://localhost/moodle/admin/</a>.</li>
+      <li>Aby ste v Moodle mohli používať súbory zip (tento formát sa používa 
+      napr. pre záložné súbory), budete musieť povoliť &quot;zlib&quot;. Prejdite 
+      do adresára EasyPHP (<strong>C:\Program Files\EasyPHP</strong>) a spusťte 
+      program phpini.exe. Zaškrtnite políčko pri &quot;zlib.dll&quot;. 
+      Zavrite okno, klepnite pravým tlačidlom myši na čierne E na hlavnom paneli 
+      Windows a v menu vyberte &quot;Restart&quot;.</li>
+      <li>Na záver musíte nastaviť cron &ndash; podrobnejšie informácie
+      viď <a href="./?file=install.html">návod k inštalácii</a>.</li>
+    </ol>
+    <p>Ak nepoužívate alebo nemôžete používať EasyPHP, tu je niekoľko
+    tipov, ako správne nastaviť PHP a vyhnúť sa najčastejším chybám:</p>
+    <ul>
+      <li>Skontrolujte, či máte povolený modul GD a Moodle tak môže spracovávať
+      obrázky &ndash; možno bude treba upraviť php.ini a odstrániť znak poznámky (;)
+      z riadku 'extension=php_gd2.dll'.
+    </li>
+      <li>Skontrolujte, či máte povolený modul Zlib a môžete tak v Moodle 
+      vytvárať a rozbaľovať súbory formátu zip.</li>
+      <li>Skontrolujte, či máte zapnuté sessions &ndash; možno bude 
+      treba upraviť php.ini a nastaviť adresár <strong>session.save_path</strong>: 
+      namiesto východzieho "/tmp" použite adresár systému Windows, napr. "c:/temp".</li>
+    </ul>
+    <p>&nbsp;</p>
+  </blockquote>
+</blockquote>
+<p align="center"><font size="1"><a href="." target="_top">Dokumentácia Moodle</a></font></p>
+</body>
+</html>

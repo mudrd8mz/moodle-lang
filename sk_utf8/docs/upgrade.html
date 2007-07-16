@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Dokumentácia Moodle: Aktualizácia</title>
+	<link rel="stylesheet" href="docstyles.css" type="TEXT/CSS" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+<h1>Aktualizácia Moodle</h1>
+
+<blockquote>
+  <p>Systém Moodle je navrhnutý tak, aby se dal kedykoľvek jednoducho aktualizovať z nižšej 
+  verzie na vyššiu. </p>
+  <p>Pri aktualizácii inštalácie Moodle by ste mali dodržať nasledujúci postup:</p>
+  <h3 class="sectionheading">1. Záloha dôležitých údajov</h3>
+  <blockquote>
+    <p>I keď to nie je vždy nutné, pred rozsiahlejšou aktualizáciou je u ostrej
+    verzie systému vždy lepšie vykonať zálohu pre prípad, že by ste sa z nejakých
+    dôvodov potrebovali vrátiť k pôvodnej verzii. Platí inak všeoobecne, že je vhodné 
+    nastaviť automatické denné zálohovanie Moodle, čím tento zálohovací krok 
+    odpadne.</p>
+    <p>Zálohy se týkajú týchto troch oblastí:</p>
+    <blockquote>
+      <p><strong>1. Samotný adresár Moodle</strong></p>
+      <blockquote>
+        <p>Pred aktualizáciou si vytvorte samostatnú kópiu týchto súborov, aby ste 
+        sa neskôr mohli vrátiť k súboru config.php a iným rozšírením, ako
+        sú motívy, jazyky apod.<strong><br />
+        </strong></p>
+      </blockquote>
+      <p><strong>2. Dátový adresár</strong></p>
+      <blockquote>
+        <p>Tu je umiestnený všetok vložený obsah (študijné materiály pre kurzy 
+        či úlohy), a preto by ste tieto súbory mali zálohovať pravidelne. 
+        Aktualizácia môže niekedy spôsobiť presunutie či premenovanie adresárov 
+        vo vnútri údajového adresára.<strong><br />
+        </strong></p>
+      </blockquote>
+      <p><strong>3. Databáza</strong></p>
+      <blockquote>
+        <p>Väčšina aktualizácií Moodle vykoná zmeny v databáze &ndash; pridá či zmení 
+        polia v tabuľkách. Databázu možno zálohovať rôznymi spôsobmi. Jednou z možností, ako 
+        zálohovať databázu MySQL, je jej export (dump) do jedného súboru SQL. 
+        Následujúci príklad predstavuje príkaz Unixu pre export databázy s 
+        názvom &quot;moodle&quot;:</p>
+        <blockquote>
+          <p><font face="Courier New, Courier, mono">mysqldump moodle &gt; moodle-backup-2002-10-26.sql</font></p>
+        </blockquote>
+        <p>K rovnakému účelu môžete na všetkých platformách použiť funkciu 
+        &quot;Export&quot; z voliteľného webového rozhrania &quot;Databázy&quot;, 
+        ktoré možno do Moodle začleniť.</p>
+        <p>&nbsp;</p>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+  <h3 class="sectionheading">2. Inštalácia nového systému Moodle</h3>
+  <blockquote>
+    <p><strong>Zo stiahnutého archívu</strong></p>
+    <blockquote>
+      <p>Ak nie ste skúseným správcom Moodle, nekopírujte súbory do starej 
+      inštalácie; v niektorých prípadoch môžu staré súbory v novej inštalácii 
+      spôsobiť problémy. Najvhodnejšie je premenovať existujúci adresár Moodle 
+      a potom rozbaliť nový archív Moodle do starého umiestnenia.</p>
+      <blockquote>
+        <p><font face="Courier New, Courier, mono">mv moodle moodle.backup<br />
+        tar xvzf moodle-1.1.tgz</font></p>
+      </blockquote>
+      <p>Potom prekopírujte späť pôvodný súbor config.php a všetky ďalšie 
+      doplnky, napríklad používateľské témy:</p>
+      <blockquote>
+        <p><font face="Courier New, Courier, mono">cp moodle.backup/config.php moodle<br />
+        cp -pr moodle.backup/theme/mytheme moodle/theme/mytheme</font></p>
+      </blockquote>
+    </blockquote>
+    <p><strong>Z CVS</strong></p>
+    <blockquote>
+      <p>Ak používate CVS, prejdite do koreňového adresára Moodle a 
+      aktualizujte súbory týmto príkazom:</p>
+      <blockquote>
+        <p><font face="Courier New, Courier, mono">cvs update -dP</font></p>
+      </blockquote>
+      <p>Nezabudnite použiť parameter &quot;d&quot; pre vytvorenie nových adresárov 
+      a parameter &quot;P&quot; pre odstránenie prázdnych adresárov.</p>
+      <p>Ak ste v súboroch pôvodnej verzie Moodle uskutočnili zmeny, venujte 
+      zvýšenú pozornosť tomu, či zobrazované hlásenia neobsahujú informácie o 
+      konfliktoch. Používateľské témy a neštandardné doplnky nebudú aktualizáciou 
+      dotknuté.</p>
+    </blockquote>
+    <p>&nbsp;</p>
+  </blockquote>
+  <h3 class="sectionheading">3. Dokončenie aktualizácie</h3>
+  <blockquote>
+    <p>Posledným krokom je spustiť aktualizáciu vnútri Moodle.</p>
+    <p>K tomu stačí prejsť na <a target=_top href="../admin/index.php">správcovskú 
+    stránku vašej inštalácie</a>.</p>
+    <blockquote>
+      <p><font face="Courier New, Courier, mono">http://example.com/moodle/admin</font></p>
+    </blockquote>
+    <p>Nemusíte k tomu byť prihlásený ako administrátor.</p>
+    <p>Moodle automaticky detekuje novú verziu a uskutoční aktualizáciu 
+    databázy a systémových súborov. Ak nebude môcť niečo vykonať sám (čo 
+    sa stáva iba zriedkavo), zobrazí hlásenie s návodom k ďalšiemu postupu.</p>
+  </blockquote>
+  <p>&nbsp; </p>
+  <p> Ak všetko prebehlo v poriadku (bez chybových správ), môžete začať 
+  používať novú verziu Moodle a jeho nových funkcie.</p>
+  <p>Ak máte s aktualizáciou problémy, navštívte stránku <a target=_top href="http://moodle.org/">moodle.org</a>, 
+  kde môžete položiť otázku v sekcii <a target=_top href="http://moodle.org/mod/fórum/view.php?id=28">Installation 
+  Support Forum</a> v kurze "Using Moodle".</p>
+</blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center"><font size="1"><a href="." target="_top">Dokumentácia Moodle</a></font></p>
+
+</body>
+</html>

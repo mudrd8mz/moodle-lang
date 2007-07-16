@@ -1,0 +1,409 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Dokumentácia Moodle: Často kladené otázky (FAQ)</title>
+<link rel="stylesheet" href="docstyles.css" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+<h1>Často kladené otázky (FAQ)</h1>
+
+<p class="normaltext">Na tejto stránke nájdete odpovede na niektoré nejčastejšie 
+kladené otázky týkajúce sa inštalácie Moodle. Ak ste sa držali  
+<a href="./?file=install.html">pokynov pre inštaláciu</a>, a predsa ste sa 
+dostali do problémov, potom je táto stránka určena práve vám...</p>
+
+<p class="normaltext">Ak tu odpoveď na svoju otázku nenájdete, vyskúšajte 
+kurz <a href="http://moodle.org/mod/fórum/index.php?id=5" target="_top">Using 
+Moodle</a> na moodle.org. Začnite prehľadaním diskusných fór, pretože je možné, 
+že rovnaký problém, ako je ten váš, už nekdo riešil. Ak nenájdete nič, čo by 
+vám pomoholo, môžete svoju otázku poslať do príslušného fóra &ndash; obvykle vám 
+niekdo pomôže.</p>
+
+<p class="normaltext">Ak ste bezvýsledne vyskúšali viacero rôznych riešení 
+a váš server je umiestnený za firewallom, je vhodné pozmeniť nastavenie firewallu a 
+vyskúšať, či neblokuje niektorú z vyžadovaných funkcií alebo nevyhnutnú 
+komunikáciu. Firewally spôsobujú v kombinácii s Moodle problémy iba veľmi zriedkavo, 
+v dôsledku nevhodnej konfigurácie sú však v nektorých prípadoch zodpovedné za 
+zníženú funkčnosť Moodle.</p>
+
+<p class="normaltext">Kliknutím na otázku z tohoto zoznamu sa dostanete priamo 
+k príslušnej odpovedi:</p>
+
+<p class="questionlink"><a href="#filenotfound">Kedykoľvek sa pokúsim 
+pristúpiť k súboru, ktorý som do Moodle vložil, objaví sa 
+chybové hlásenie: File not Found.</a></p>
+
+<p class="questionlink"><a href="#php">Mám nainštalované PHP? Akú verziu?</a></p>
+
+<p class="questionlink"><a href="#blankpages">Prečo sú moje stránky prázdne?</a></p>
+
+<p class="questionlink"><a href="#errorgetstring">Na mojich stránkach sa zobrazujú 
+hlásenia o závažných chybách, ako napr.: Call to undefined function: get_string().</a></p>
+
+<p class="questionlink"><a href="#headerssent">Neustále sa mi zobrazuje 
+chybové hlásenie: Headers already sent.</a></p>
+
+<p class="questionlink"><a href="#failedopen">Neustále sa mi zobrazuje chybové 
+hlásenie: Failed opening required '/web/moodle/lib/setup.php'.</a></p>
+
+<p class="questionlink"><a href="#quotes">Akýkoľvek vložený text obsahujúci 
+apostrof (') alebo uvodzovky (&quot;) buď spôsobí chybu, alebo sa k týmto znakom 
+pridá lomítko.</a></p>
+
+<p class="questionlink"><a href="#sessiontmp">Zobrazujú sa mi chybové hlásenia 
+ohľadom session_start.</a></p>
+
+<p class="questionlink"><a href="#fixdirroot">Pri každom vstupe na administrátorskú
+stránku som vyzvaný, aby som do premennej dirroot vložil prázdny reťazec.</a></p>
+
+<p class="questionlink"><a href="#loginsetting">Prihlásim sa, ale odkaz 
+'Prihlásiť sa' sa nezmení; pritom som prihlásený a môžem sa voľne pohybovať 
+v systéme.</a></p>
+
+<p class="questionlink"><a href="#resource1">Keď sa pokúsim pridať študijný 
+materiál, dostanem chybové hlásenie.</a></p>
+
+<p class="questionlink"><a href="#noadmin">Behom inštalácie nie som 
+vyzvaný k vytvoreniu administrátorského účtu.</a></p>
+
+<p class="questionlink"><a href="#nologin">Nemôžem sa vôbec prihlásiť - zostanem 
+na prihlasovacej obrazovke a systém ma nepustí ďalej.</a></p>
+
+<p class="questionlink"><a href="#backup">Ako môžem zálohovať celú inštaláciu 
+Moodle?</a></p>
+
+<p class="questionlink"><a href="#locale">Prečo sa v Moodle nezobrazuje správny 
+čas a dátum?</a></p>
+
+<p class="questionlink"><a href="#cron">Z fór mi nie sú zasielané e-mailové 
+kópie príspevkov.</a></p>
+
+<p class="questionlink">&nbsp;</p>
+
+
+
+
+
+
+
+<h3><a name="filenotfound"></a>Kedykoľvek sa pokúsim pristúpiť k
+súboru, ktorý som do Moodle vložil, objaví sa chybové hlásenie: File
+not Found.</h3>
+
+<p class="answer">Napríklad: Not Found: The requested URL 
+/moodle/file.php/2/myfile.jpg was not found on this server.</p>
+
+<p class="answer">Webový server musí byť nakonfigurovaný tak, aby časť URL za 
+názvom skriptu bolo možné priamo predať skriptu. Na serveroch Apache 1.x ide  
+obvykle o štandardné nastavenie, na serveroch Apache 2.x je táto možnosť 
+štandardne zakázaná. Funkciu zapnete tým, že do súboru httpd.conf alebo .htaccess 
+vo vašom lokálnom adresári pridáte tento riadok (podrobnejšie v 
+<a href="./?file=install.html#webserver">návode k inštalácií</a>):</p>
+
+<p class="answercode"><b>AcceptPathInfo</b> on</p>
+
+<p class="answer">Upozornenie: táto možnosť platí IBA pre servery Apache 
+verzie 2.x. </p>
+
+<p class="answer">Ak nepoužívate Apache verzie 2 a predsa máte tento 
+problém (i keď je to veľmi nepravdepodobné), môžete použiť nižšie opísané 
+náhradné riešenie. Jeho nevýhodou bude mierne zniženie výkonu pre používateľa a tiež 
+a strata možnosti používať v HTML materiáloch relatívne odkazy.</p>
+
+<p class="answer">Nastavenie náhradného riešenia: prihláste sa ako administrátor, 
+prejdite na stránku Administratíva, v nej na odkaz Premenné a zmeňte nastavenie 
+"<b>slasharguments</b>". 
+
+Teraz by ste mali mať možnosť pristupovať k vloženým súborom.</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="php"></a>Mám nainštalované PHP? Akú verziu?</h3>
+
+<p class="answer">Vytvorte kdekoľvek na serveri nový súbor info.php, ktorý bude 
+obsahovať nasledujúci text. Potom zadajte jeho URL v prehliadači:</p>
+
+<p class="answercode">&lt;?php phpinfo() ?&gt;</p>
+
+<p class="answer">Ak sa nič nestane, PHP nainštalované nemáte. Informácie 
+o tom, odkiaľ ho môžete stiahnuť, najdete v návode k inštalácii Moodle.</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="blankpages"></a>Prečo sú moje stránky prázdne? </h3> 
+
+<p class="answer">Skontrolujte premennú dirroot v súbore config.php. Musíte 
+použiť úplnu absolútnu cestu, ako napr.:</p>
+
+<p class="answercode">$CFG->dirroot = "d:\inetpub\sites\www.yoursite.com\web\moodle";</p>
+
+<p>&nbsp; </p>
+
+<p class="answer">Pre platformu Redhat Linux viď 
+<a href="http://moodle.org/doc/?file=installamp.html">Redhat Linux</a>.</p>
+
+<p>&nbsp; </p>
+
+<h3><a name="errorgetstring"></a>Na mojich stránkach sa zobrazujú
+hlásenia o závažných chybách, ako napr.: Call to undefined function:
+get_string().</h3>
+
+<p class="answer">Ak sa vám objavujú chybové hlásenia ako napríklad</p>
+
+<p class="answercode">Parse error: parse error, unexpected T_VARIABLE in c:\program 
+ files\easyphp\www\moodle\config.php on line 94 <br />
+
+Fatal error: Call to undefined function: get_string() in c:\program files\easyphp\www\moodle\mod\resource\lib.php 
+ on line 11</p>
+
+<p class="answer">...je pravdepodobné, že ste vynechali bodkočiarku alebo koncové 
+uvodzovky na niektorom riadku v súbore config.php (pred riadkom 94).</p>
+
+<p class="answer">Iným dôvodom môže byť, že ste súbor config.php editovali 
+v programe, ako je napríklad Word a potom ste ho uložili ako webovú stránku 
+vo formáte HTML miesto ako prostý text.</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="headerssent"></a>Neustále sa mi zobrazuje chybové hlásenie: Headers 
+already sent.</h3>
+
+<p class="answer">Ak sa vám objavujú chybové hlásenia ako napr.</p>
+
+<p class="answercode">Warning: Cannot add header information - headers already 
+ sent by (output started at /webs/moodle/config.php:87) in /webs/moodle/lib/moodlelib.php 
+ on line 1322 </p>
+
+<p class="answercode"> Warning: Cannot add header information - headers already 
+  sent by (output started at /webs/moodle/config.php:87) in /webs/moodle/lib/moodlelib.php 
+  on line 1323 </p>
+
+<p class="answercode"> Warning: Cannot add header information - headers already 
+  sent by (output started at /webs/moodle/config.php:87) in /webs/moodle/login/index.php 
+  on line 54 </p>
+
+<p class="answer">...máte prázdne riadky alebo medzery za koncovým reťazcom ?&gt; 
+v súbore config.php. Spôsobujú to niektoré editory (ako napr. Poznámkový blok 
+vo Windows). Skúste preto iný editor a v ňom tieto prázdne riadky alebo medzery 
+vymažte.</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="failedopen"></a>Neustále sa mi zobrazuje chybové hlásenie: Failed 
+opening required '/web/moodle/lib/setup.php'.</h3>
+
+<p class="answer">V súbore config.php musí premenná dirroot obsahovať 
+<strong>úplnu cestu z koreňového adresára pevného disku vášho serveru</strong>.</p>
+
+<p class="answer">Niekedy používatelia používajú iba cestu zo svojho domovského 
+adresára alebo relatívnu cestu z východzieho adresára webového serveru.</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="quotes" id="quotes"></a>Akýkoľvek vložený text obsahujúci 
+apostrof (') alebo uvodzovky (&quot;) buď spôsobí chybu, alebo sa k týmto znakom 
+pridá lomítko.</h3>
+
+<p class="answer">Problémy s apostrofmi sú spôsobené nesprávnym nastavením 
+&quot;magic quotes&quot;. Moodle vyžaduje nasledujúce nastavenie (ktoré je 
+obvykle defaultné):</p>
+
+<p class="answercode">magic_quotes_gpc = On<br />
+magic_quotes_runtime = Off</p>
+
+<p class="answer">Viac nájdete v sekcii o 
+<a href="./?file=install.html#webserver">konfiguráci webového serveru</a> 
+v návode k inštalácii Moodle.</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="sessiontmp"></a>Zobrazujú sa mi chybové hlásenia ohľadom
+session_start.</h3>
+
+<p class="answer">Ak sa vám objavujú chybové hlásenia ako napr.</p>
+
+<p class="answercode">Warning: session_start() [function.session-start]: open(/tmp\sess_d40f380d37d431fc1516e9a895ad9ce0, O_RDWR) failed: No such file or directory (2) in G:\web\moodle\lib\setup.php on line 123</p>
+<p class="answercode">Warning: session_start() [function.session-start]: open(/tmp\sess_d40f380d37d431fc1516e9a895ad9ce0, O_RDWR) failed: No such file or directory (2) in G:\web\moodle\lib\setup.php on line 123</p>
+<p class="answercode">Warning: session_start() [function.session-start]: Cannot send session cache limiter - headers already sent (output started at G:\web\moodle\lib\setup.php:1) in G:\web\moodle\lib\setup.php on line 123</p>
+
+<p class="answer">... je to tým, že PHP nemôže uložiť na server (do adresára /tmp)
+session súbory. Obvykle je to spôsobené tým, že na serveri taký 
+adresár nemáte. Najčastejšie sa to stáva u serverov s Windows.</p>
+
+<p class="answer">Riešením je upraviť nastavenie PHP tak, aby odkazovalo na 
+existujúci adresár. V súbore php.ini nastavte</p>
+
+<p class="answercode">session.save_path = C:\temp</p>
+
+<p class="answer">... alebo v súbore .htaccess</p>
+
+<p class="answercode">php_value session.save_path "/home/moodle/sessions"</p>
+
+<p class="answercode">&nbsp;</p>
+
+<h3><a name="fixdirroot"></a>Pri každom vstupe na administrátorskú
+stránku som vyzvaný, aby som do premennej dirroot vložil prázdny reťazec.</h3>
+
+<p class="answer">Ak sa vám v Moodle 1.0.9 objavujú hlásenia</p>
+
+<table class=generalbox cellspacing=0 cellpadding=5 align=center border=0>
+<tbody>
+<tr>
+<td bgcolor=#ffbbbb>Please fix your settings in config.php: 
+<p>You have: 
+<p>$CFG-&gt;dirroot = "/home/users/fred/public_html/moodle"; 
+<p>but it should be: 
+<p>$CFG-&gt;dirroot = "";</p></td></tr></tbody></table>
+
+<p class="answer">...potom ste narazili na drobnú chybu, ktorá sa prejavuje 
+iba na nektorých serveroch. Jedná sa o problém algoritmu pre vyhľadávanie 
+chýb a nie zadanej cesty. K jeho odstráneniu vyhľadajte 
+riadok 66 v súbore admin/index.php</p>
+
+<p class="answercode">if ($dirroot != $CFG->dirroot) {</p>
+
+<p class="answer">a zmeňte ho na</p>
+
+<p class="answercode">if (!empty($dirroot) and $dirroot != $CFG->dirroot) {</p>
+
+<p class="answercode">&nbsp;</p>
+
+<h3><a name="loginsetting"></a>Prihlásim sa, ale odkaz 'Prihlásiť sa'
+sa nezmení; pritom som prihlásený a môžem sa voľne pohybovať v
+systéme.</h3>
+
+<p class="answer">Skontrolujte, či URL v nastavení $CFG->wwwroot je úplne 
+rovnaké s tým, ktoré používate k prístupe na stránky.</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="resource1"></a>Keď sa pokúsim pridať študijný 
+materiál, dostanem chybové hlásenie.</h3>
+
+<p class="answer">Ak používáte server Apache, je veľmi pravdepodobné, že 
+nastavenie $CFG->wwwroot v súbore config.php je iné ako URL, ktoré používate 
+k prístupu na stránky. Môžete tiež skúsiť vypnúť "<b>secureforms</b>" v 
+administrátorskom nastavení.</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="noadmin"></a>Behom inštalácie nie som vyzvaný k
+vytvoreniu administrátorského účtu.</h3>
+
+<p class="answer">Toto je známa chyba Moodle až do verzie 1.0.9. V hlavnom kóde 
+v CVS a vo verzii 1.1 je už odstránená.</p>
+
+<p class="answer">Netýka sa všetkých používateľov. Objavuje sa iba v prípade, že 
+máte pri inštalácii Moodle vo svojom prehliadači cookie s názvom &quot;user&quot;, 
+&quot;admin&quot;, alebo &quot;teacher&quot;, ktoré pochádzajú z iného programu 
+inštalovaného na tom istom serveri.</p>
+
+<p class="answer">Rýchla oprava spočíva vo vymazaní cookies z prehliadača ešte 
+pred začiatkom inštalácie, použitie iného prehliadača, alebo v úprave súboru 
+moodle/admin/user.php v týchto úvodných riadkoch:</p>
+
+<p class="answercode">unset($user);<br />unset($admin);<br />unset($teacher);</p>
+
+<p class="answer">Po vykonaní niektorej z vyššie uvedených zmien by stálo za úvahu
+vymazať všetky tabuľky z databázy a nainštalovať všetko odznova.</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="nologin"></a>Nemôžem sa vôbec prihlásiť - zostanem 
+na prihlasovacej obrazovke a systém ma nepustí ďalej.</h3>
+
+<p class="answer">Nejčastejšou príčinou tejto chyby je, že váš vlastný počítač 
+(nie server Moodle) má firewall, ktorý odstraňuje niektoré informácie týkajúce sa 
+prehliadača. Tu je niekoľko návodov, ako upraviť 
+<a href="http://service1.symantec.com/SUPPORT/nip.nsf/46f26a2d6dafb0a788256bc7005c3fa3/b9b47ad7eddd343b88256c6b006a85a8?OpenDocument&amp;src=bar_sch_nam">firewally firmy Norton</a>.</p>
+
+<p class="answer">Správca serveru môže tiež vyriešiť tento problém pre všetkých 
+používateľov tým, že upraví konfiguračnú stránku Moodle a zmení nastavenie premennej 
+&quot;<b>secureforms</b>&quot; na &quot;No&quot;.</p>
+
+<p class="answer">Inou možnou príčinou tohoto problému môže byť to, že na vašom 
+serveri nie sú správne nastavené sessions. Môžete to vyskúšať tak, že 
+spustíte skript na http://yourserver/moodle/lib/session-test.php.</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="backup"></a>Ako môžem zálohovať celú inštaláciu 
+Moodle?</h3>
+
+<p class="answer">Potrebujete vytvoriť dve zálohy: zálohu databázy a zálohu 
+vložených súborov. Skripty Moodle sú menej dôležité; ak bude treba, môžete 
+si ich znovu nahrať.</p>
+
+<p class="answer">Zálohovanie možno uskutočniť rozličnými spôsobmi. Tu je náčrtok krátkeho 
+skriptu, ktorý môžete pre zálohovanie databázy spustiť v Unixe (je vhodné 
+spúšťať taký skript každý deň prostrednictvom cronu).</p>
+
+<p class="answercode">cd /my/backup/directory</p>
+<p class="answercode">mv moodle-database.sql.gz moodle-database-old.sql.gz</p>
+<p class="answercode">mysqldump -h example.com -u myusername --password=mypassword -C -Q -e -a mydatabasename > moodle-database.sql</p>
+<p class="answercode">gzip moodle-database.sql</p>
+
+<p class="answer">Pre vložené súbory môžete pravidelne použiť rsync, ktorý 
+skopíruje na iný stroj iba súbory, u ktorých došlo k zmene:</p>
+
+<p class="answercode">rsync -auvtz --delete -e ssh mysshusername@example.com:/my/server/directory 
+  /my/backup/directory/</p>
+<p class="answercode">&nbsp;</p>
+
+<h3><a name="locale"></a>Prečo sa v Moodle nezobrazuje správny 
+čas a dátum?</h3>
+
+<p class="answer">Pre každý jazyk je potrebné nastaviť príslušný kód jazyka 
+(takzvané <strong>locale</strong>), ktorý zaisťuje správne zobrazovanie času a 
+dátumu. Jazykové balíčky obsahujú štandardný kód daného jazyka, na serveroch 
+s Windows však niekedy nefungujú.</p>
+
+<p class="answer">Správný kód jazyka pre Windows nájdete na týchto dvoch 
+stránkach: <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vclib/html/_crt_language_strings.asp" target="_blank">Language 
+ codes</a> a 
+ <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vclib/html/_crt_country_strings.asp" target="_blank">Country/region 
+ codes </a>(napr. &quot;esp_esp&quot; pre španelštinu).</p>
+
+<p class="answer">Nový kód jazyka možno vložiť na administrátorskej stránke Administratíva 
+ -&gt; Premenné; tu vložený kód má prednosť pred kódom uvedeným v aktuálnom 
+ jazykovom balíčku.</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="cron"></a>Z fór mi nie sú zasielané e-mailové 
+kópie príspevkov.</h3>
+
+<p class="answer">Ak chcete, aby Moodle automaticky zasielal e-maily 
+z modulov Fórum, Zadanie apod., potom <strong>musíte správne nastaviť 
+cron</strong>. Skript spúštaný cronom vykonáva množstvo operácií, ako je vyčistenie 
+systému od starých nepotvrdených používateľských účtov, odstraňovanie študentov so 
+zrušeným účtom z kurzov a podobne.</p>
+
+<p class="answer">V podstate potrebujete vytvoriť proces, ktorý bude pravidelne 
+spúšťať skript http://yoursite/admin/cron.php. Podrobnosti nájdete v sekcii 
+týkajúcej sa cronu v <a href="./?file=install.html#cron">návode k inštalácii</a>.</p>
+
+<p class="answer">Tip: Vyskúšajte štandardné nastavenie ponúkané na stránke 
+Administratíva -&gt; Premenné. Premennú smtphost nechajte prázdnu. Toto nastavenie by 
+malo uspokojivo fungovať u väčšiny používateľov.
+<p class="answer">&nbsp;
+<p class="answer">&nbsp;
+<hr />
+
+<p align="center" class="normaltext"><a href="mailto:martin@moodle.org" 
+title="mailto:martin@moodle.org">Zašlite nám ďalšie FAQ</a> (aj s 
+odpoveďou!)</p>
+
+<hr />
+
+<p align="center"><strong><em>Vďaka Johnovi Eyreovi za pomoc pri správe tejto 
+stránky.</em></strong></p>
+
+<p align="center"><font size="1"><a href="." target="_top">Dokumentácia 
+Moodle</a></font></p>
+
+</body>
+</html>
