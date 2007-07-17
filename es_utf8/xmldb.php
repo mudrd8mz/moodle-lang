@@ -103,6 +103,6 @@ $string['viewphpcode'] = 'Ver código PHP';
 $string['viewsqlcode'] = 'Ver código SQL';
 $string['wronglengthforenum'] = 'Longitud incorrecta del campo enum';
 $string['wrongnumberoffieldsorvalues'] = 'Número incorrecto de campos o valores en la frase';
-$string['wrongreservedwords'] = 'Palabras reservadas usadas actualmente<br />(note que los nombres de la tabla no son importantes si se usa el prefijo $CFG->)';
+$string['wrongreservedwords'] = 'Palabras reservadas usadas actualmente<br />(note que los nombres de la tabla no son importantes si se usa $CFG->prefix)';
 
 ?>
