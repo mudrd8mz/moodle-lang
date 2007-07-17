@@ -1,12 +1,15 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.8.1+ (2007021510)
+      // scorm.php - created with Moodle 1.8.2+ (2007021520)
 
 
+$string['activation'] = 'Активација';
 $string['advanced'] = 'Параметри';
 $string['asset'] = 'Елемент';
 $string['assetlaunched'] = 'Елемент - Прегледано';
 $string['attempt'] = 'покушај';
+$string['attempt1'] = '1 покушај';
 $string['attempts'] = 'покушаји';
+$string['attemptsx'] = '$a покушај(а)';
 $string['attr_error'] = 'Неадекватне вредности за атрибут ($a->attr) у ознаци $a->tag.';
 $string['autocontinue'] = 'Аутоматски наставак';
 $string['averageattempt'] = 'Просечни број покушаја';
@@ -28,11 +31,13 @@ $string['directories'] = 'Приказ линкова директоријума
 $string['display'] = 'Прикажи пакет';
 $string['domxml'] = 'DOMXML екстерна библиотека';
 $string['element'] = 'Елемент';
+$string['enter'] = 'Уђи';
 $string['entercourse'] = 'Уђи у SCORM курс';
 $string['errorlogs'] = 'Извештај о грешкама';
 $string['everyday'] = 'Свакодневно';
 $string['everytime'] = 'При сваком коришћењу';
 $string['exit'] = 'Изађи из SCORM курса';
+$string['exitactivity'] = 'Изађи из активности';
 $string['expcoll'] = 'Прошири/Скупи';
 $string['external'] = 'Ажурирај временско усклађивање екстерних пакета';
 $string['failed'] = 'Није успело';
@@ -71,6 +76,7 @@ $string['menubar'] = 'Прикажи линију менија';
 $string['min'] = 'Најгори резултат';
 $string['missing_attribute'] = 'Недостаје атрибут $a->attr у ознаци $a->tag';
 $string['missing_tag'] = 'Недостаје ознака $a->tag';
+$string['missingparam'] = 'Обавезна информација недостаје или је некоректна';
 $string['mode'] = 'Начин рада';
 $string['modulename'] = 'SCORM/AICC';
 $string['modulenameplural'] = 'SCORM/AICC пакети';
@@ -89,9 +95,12 @@ $string['not_corr_type'] = 'Неслагање типова за ознаку $a
 $string['notattempted'] = 'Није покушавано';
 $string['objectives'] = 'Циљеви';
 $string['onchanges'] = 'Кад год се промени';
+$string['options'] = 'Опције';
 $string['organization'] = 'Организација';
 $string['organizations'] = 'Организације';
+$string['othersettings'] = 'Додатна подешавања';
 $string['othertracks'] = 'Други записи';
+$string['package'] = 'Пакет';
 $string['packagedir'] = 'Грешка датотечног система: Није могуће креирати директоријум пакета';
 $string['packagefile'] = 'Није наведена датотека с пакетом';
 $string['passed'] = 'Положено';
@@ -134,12 +143,14 @@ $string['toolbar'] = 'Прикажи линију са алаткама';
 $string['totaltime'] = 'Време';
 $string['trackingloose'] = 'УПОЗОРЕЊЕ: Подаци о праћењу овог SCORM пакета биће изгубљени!';
 $string['type'] = 'Тип';
+$string['unziperror'] = 'Дошло је до грешке приликом распакивања пакета';
+$string['updatefreq'] = 'Учесталост аутоматског ажурирања';
 $string['validateascorm'] = 'Провери исправност SCORM пакета';
 $string['validation'] = 'Резултат провере исправности';
 $string['validationtype'] = 'Ово својство одређује DOMXML библиотеку која се користи за валидацију SCORM манифеста. Ако нисте сигурни коју вредност треба да поставите, оставите тренутно активни избор.';
 $string['value'] = 'Вредност';
 $string['versionwarning'] = 'Верзија манифеста је старија од 1.3, упозорење на ознаци $a->tag';
-$string['viewallreports'] = 'Прикажи извештај за $а покушаја';
+$string['viewallreports'] = 'Прикажи извештај за $a покушаја';
 $string['whatgrade'] = 'Оцењивање покушаја';
 $string['width'] = 'Ширина';
 $string['window'] = 'Прозор';

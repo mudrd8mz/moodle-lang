@@ -8,7 +8,7 @@ $string['daysavailable'] = 'Дана на располагању';
 $string['editingended'] = 'Период уређивања је завршен';
 $string['editingends'] = 'Период уређивања се завршава';
 $string['entries'] = 'Уноси';
-$string['feedbackupdated'] = 'Повратне информације су ажуриране за $а уносе';
+$string['feedbackupdated'] = 'Повратне информације су ажуриране за $a уносе';
 $string['journalmail'] = '$a->teacher је послао повратне информације у вези Вашег уноса за \'$a->journal\' Погледајте овде:      $a->url';
 $string['journalmailhtml'] = '$a->teacher је послао повратне информације у вези Вашег уноса за \'<i>$a->journal</i>\'<br /><br /> Погледајте <a href=\"$a->url\">унос дневника</a>.';
 $string['journalname'] = 'Име дневника';
@@ -28,6 +28,6 @@ $string['overallrating'] = 'Коначно рангирање';
 $string['rate'] = 'Рангирање';
 $string['saveallfeedback'] = 'Сачувај све моје повратне информације';
 $string['startoredit'] = 'Покрените или упишите наслов свог дневника';
-$string['viewallentries'] = 'Погледајте $а уноса дневника';
+$string['viewallentries'] = 'Погледајте $a уноса дневника';
 
 ?>

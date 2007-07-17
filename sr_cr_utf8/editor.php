@@ -1,8 +1,7 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6.2 (2006050520)
+      // editor.php - created with Moodle 1.8.2+ (2007021520)
 
 
-$string['LOs'] = 'Објекти за учење';
 $string['about'] = 'О овом едитору';
 $string['absbottom'] = 'Апсолутно доле';
 $string['address'] = 'Адреса';
@@ -25,7 +24,6 @@ $string['chooseicon'] = 'Одаберите иконицу за уношење';
 $string['close'] = 'Затвори';
 $string['closeafterreplace'] = 'Затвори након замене';
 $string['cols'] = 'Колоне';
-$string['contents'] = 'Само садржај';
 $string['copy'] = 'Копирај изабрано';
 $string['createanchor'] = 'Креирај ослонац';
 $string['createfolder'] = 'Направи директоријум';
@@ -33,6 +31,7 @@ $string['createlink'] = 'Додај веб линк';
 $string['cut'] = 'Исеци изабрано';
 $string['cutpastemozilla'] = 'Нажалост не можете тренутно да користите уобичајете скраћенице са тастатуре (чак ни Paste дугме) за убацивање текста у овај едитор. То је последица сигурносне опције уграђене у неке верзије Mozilla и Fиrefox читача.<br /><br />Постоје три начина да ипак урадите оно што желите:<br /> (1) Уместо CTRL-v, користите SHIFT-Insert <br /> (2) Користите Edit->Paste мени Вашег web читача <br /> (3) Промените својства у Вашем web читачу уређивањем user.js датотеке. <br /><br />Кликните на дугме ”Потврди” испод за детаљнију помоћ, или на дугме ”Одустани” за повратак на едитор';
 $string['delete'] = 'Обриши';
+$string['enterurlfirst'] = 'Морате прво унети URL';
 $string['filebrowser'] = 'Претраживач датотека';
 $string['findwhat'] = 'Пронађи';
 $string['fontname'] = 'Врста слова';
@@ -40,7 +39,6 @@ $string['fontsize'] = 'Величина слова';
 $string['forecolor'] = 'Боја слова';
 $string['formatblock'] = 'Формат';
 $string['fullscreen'] = 'Едитор преко целог екрана';
-$string['generatingLOurl'] = 'Генерише се URL објекта за учење...';
 $string['heading'] = 'Наслов';
 $string['height'] = 'Висина';
 $string['hilitecolor'] = 'Боја позадине';
@@ -60,6 +58,7 @@ $string['justifycenter'] = 'Централно поравнање';
 $string['justifyfull'] = 'Обострано поравнање';
 $string['justifyleft'] = 'Лево поравнање';
 $string['justifyright'] = 'Десно поравнање';
+$string['lang'] = 'Језик';
 $string['layout'] = 'Изглед';
 $string['left'] = 'Лево';
 $string['lefttoright'] = 'Смер с лева на десно';
@@ -76,6 +75,8 @@ $string['matchcase'] = 'Води рачуна о великим и малим с
 $string['middle'] = 'Средина';
 $string['minimize'] = 'Минимизирај едитор';
 $string['move'] = 'Премести';
+$string['multi'] = 'Вишеструко';
+$string['mustenterurl'] = 'Морате унети URL';
 $string['nolink'] = 'Спречи аутоматско линковање';
 $string['normal'] = 'Нормално';
 $string['notimage'] = 'Означена датотека није слика. Молимо изаберите слику!';
@@ -88,6 +89,7 @@ $string['paste'] = 'Убаци из привремене меморије';
 $string['path'] = 'Путања';
 $string['percent'] = 'Процената';
 $string['pixels'] = 'Пиксела';
+$string['pleaseenteralt'] = 'Молимо унесите алтернативни текст';
 $string['popupeditor'] = 'Увећај едитор';
 $string['preformatted'] = 'Претходно обликован';
 $string['preview'] = 'Преглед';
@@ -123,6 +125,9 @@ $string['upload'] = 'Постављање';
 $string['vertical'] = 'Вертикално';
 $string['width'] = 'Ширина';
 $string['wordclean'] = 'Обриши Word HTML';
-$string['zip'] = 'Zip архива';
+$string['zip'] = 'Архива';
+$string['LOs'] = 'Објекти за учење'; // ORPHANED
+$string['contents'] = 'Само садржај'; // ORPHANED
+$string['generatingLOurl'] = 'Генерише се URL објекта за учење...'; // ORPHANED
 
 ?>

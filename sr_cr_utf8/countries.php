@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // countries.php - created with Moodle 1.7 beta (2006101000)
+      // countries.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['AD'] = 'Андора';
@@ -49,6 +49,7 @@ $string['CM'] = 'Камерун';
 $string['CN'] = 'Кина';
 $string['CO'] = 'Колумбија';
 $string['CR'] = 'Костарика';
+$string['CS'] = 'Србија и Црна Гора';
 $string['CU'] = 'Куба';
 $string['CV'] = 'Зеленортска острва';
 $string['CX'] = 'Божићна острва';
@@ -115,6 +116,7 @@ $string['KH'] = 'Камбоџа';
 $string['KI'] = 'Кирибати';
 $string['KM'] = 'Комори';
 $string['KN'] = 'Свети Китс и Невис';
+$string['KO'] = 'Косово';
 $string['KP'] = 'Северна Кореја';
 $string['KR'] = 'Јужна Кореја';
 $string['KW'] = 'Кувајт';
@@ -134,7 +136,6 @@ $string['LY'] = 'Либија';
 $string['MA'] = 'Мароко';
 $string['MC'] = 'Монако';
 $string['MD'] = 'Молдавија';
-$string['ME'] = 'Црна Гора';
 $string['MG'] = 'Мадагаскар';
 $string['MH'] = 'Маршалска Острва';
 $string['MK'] = 'Македонија';
@@ -183,7 +184,6 @@ $string['PY'] = 'Парагвај';
 $string['QA'] = 'Катар';
 $string['RE'] = 'Реунион';
 $string['RO'] = 'Румунија';
-$string['RS'] = 'Србија';
 $string['RU'] = 'Руска Федерација';
 $string['RW'] = 'Руанда';
 $string['SA'] = 'Саудијска Арабија';
@@ -242,5 +242,7 @@ $string['ZA'] = 'Јужна Африка';
 $string['ZM'] = 'Замбија';
 $string['ZR'] = 'Заир';
 $string['ZW'] = 'Зимбабве';
+$string['ME'] = 'Црна Гора'; // ORPHANED
+$string['RS'] = 'Србија'; // ORPHANED
 
 ?>

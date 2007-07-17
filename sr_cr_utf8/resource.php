@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8.1+ (2007021510)
+      // resource.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addresource'] = 'Додај ресурс';
@@ -35,7 +35,7 @@ $string['deployall'] = 'Искористи све';
 $string['directlink'] = 'Директни линк ка овој датотеци';
 $string['directoryinfo'] = 'Све датотеке у изабраном директоријуму ће бити приказане на екрану.';
 $string['display'] = 'Прозор';
-$string['editingaresource'] = 'Уреди ресурс';
+$string['editingaresource'] = 'Уређује се ресурс';
 $string['emptyfolder'] = 'Празан директоријум';
 $string['encryptedcode'] = 'Шифрирани код';
 $string['example'] = 'Пример';

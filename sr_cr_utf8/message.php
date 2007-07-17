@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.6.1+ (2006050512)
+      // message.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['addcontact'] = 'Додавање контакта';
@@ -26,14 +26,16 @@ $string['formorethan'] = 'За више од';
 $string['includeblockedusers'] = 'Укључи блокиране кориснике';
 $string['incomingcontacts'] = 'Приспели контакти ($a)';
 $string['keywords'] = 'Кључне речи';
-$string['keywordssearchresults'] = 'Резултати претраге: $а порука је пронађено';
+$string['keywordssearchresults'] = 'Резултати претраге: $a порука је пронађено';
 $string['maxmessages'] = 'Максималан број порука за приказивање у историји дискусија';
 $string['message'] = 'Порука';
 $string['messagehistory'] = 'Историја порука';
 $string['messages'] = 'Поруке';
 $string['messaging'] = 'Слање порука';
 $string['mycontacts'] = 'Моји контакти';
+$string['newonlymsg'] = 'Прикажи само нове';
 $string['newsearch'] = 'Нова претрага';
+$string['noframesjs'] = 'Верзија без оквира и JavaScript-а';
 $string['nomessages'] = 'Нема порука на чекању';
 $string['nomessagesfound'] = 'Није пронађена ниједна порука';
 $string['nosearchresults'] = 'Ваша претрага није дала резултате';
@@ -44,7 +46,7 @@ $string['onlinecontacts'] = 'Online контакти ($a)';
 $string['onlyfromme'] = 'Само поруке које сам ја послао/ла';
 $string['onlymycourses'] = 'Само у мојим курсевима';
 $string['onlytome'] = 'Само поруке послате мени';
-$string['pagerefreshes'] = 'Ова страница се аутоматски освежава сваких $а секунди';
+$string['pagerefreshes'] = 'Ова страница се аутоматски освежава сваких $a секунди';
 $string['readmessages'] = '$a прочитаних порука';
 $string['removecontact'] = 'Обриши контакт';
 $string['savemysettings'] = 'Сачувај моја подешавања';
@@ -52,7 +54,8 @@ $string['search'] = 'Претраживање';
 $string['searchforperson'] = 'Тражи особу';
 $string['searchmessages'] = 'Претражи поруке';
 $string['sendmessage'] = 'Пошаљи поруку';
-$string['sendmessageto'] = 'Пошаљи поруку $a';
+$string['sendmessageto'] = 'Пошаљи поруку за корисника $a';
+$string['sendmessagetopopup'] = 'Пошаљи поруку за корисника $a - нови прозор';
 $string['settings'] = 'Подешавања';
 $string['settingssaved'] = 'Ваша подешавања су сачувана';
 $string['showmessagewindow'] = 'Када добијем нове поруке аутоматски прикажи прозор са порукама (потребно је да у Вашем web читачу искључите блокирање искачућих прозора)';
@@ -63,6 +66,6 @@ $string['unblockcontact'] = 'Одблокирај контакт';
 $string['unreadmessages'] = '$a непрочитаних порука';
 $string['userisblockingyou'] = 'Овај корисник је блокирао пријем Ваших порука';
 $string['userisblockingyounoncontact'] = 'Овај корисник прихвата само поруке од особа које се налазе на његовој листи контаката, а Ви тренутно нисте на њој.';
-$string['userssearchresults'] = 'Резултати претраге: пронађено је $а корисника';
+$string['userssearchresults'] = 'Резултати претраге: пронађено је $a корисника';
 
 ?>
