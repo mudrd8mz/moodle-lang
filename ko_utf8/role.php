@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007052300)
+      // role.php - created with Moodle 1.9 dev (2007071703)
 
 
 $string['addrole'] = '역할 추가';
@@ -81,6 +81,8 @@ $string['metaassignerror'] = '메타코스의 관리능력이 주어지지 않�
 $string['metaunassignerror'] = '사용자 \"$a\"의 역할이 자동적으로 재부여되었기 때문에 그 하위 배움터에 있는 역할은 해임해주기 바랍니다.';
 $string['my:manageblocks'] = '내 공부방블럭 관리';
 $string['nocapabilitiesincontext'] = '이 분야에서는 아무 권한이 없음';
+$string['notes:manage'] = '알림 관리';
+$string['notes:view'] = '알림 보기';
 $string['notset'] = '설정 안됨';
 $string['overrideroles'] = '역할 위임';
 $string['overrides'] = '위임 현황';

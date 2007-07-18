@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007050901)
+      // quiz.php - created with Moodle 1.9 dev (2007071703)
 
 
 $string['1day'] = '하루';
@@ -46,6 +46,7 @@ $string['attemptlast'] = '마지막 시도';
 $string['attemptquiznow'] = '문제풀기 시작';
 $string['attempts'] = '시도';
 $string['attemptsallowed'] = '시도 인정';
+$string['attemptsdeleted'] = '시도가 삭제됨';
 $string['attemptselection'] = '분석할 시도 선택';
 $string['attemptsexist'] = '이 퀴즈는 이미 푼 학생이 있습니다.<br />더 이상 첨가하거나 제거할 수 없습니다.';
 $string['attemptsonly'] = '시도한 학습자만 보기';
@@ -98,6 +99,7 @@ $string['confirmstartattempttimelimit'] = '이 퀴즈는 시간 제한이 있으
 $string['confirmstarttimelimit'] = '이 퀴즈는 시간 제한이 있습니다. 진짜로 시작하시겠습니까?';
 $string['containercategorycreated'] = '처음 만들어진 범주 안에 생성된 모든 것들은 그 범주가 사라지더라도 그 상위 범주에 모두 저장됩니다.';
 $string['continueattemptquiz'] = '지난번 시도 계속';
+$string['continuepreview'] = '미리보기 계속';
 $string['copyingfrom'] = '\'$a\' 질문 복사하기';
 $string['copyingquestion'] = '질문 복사하기';
 $string['correct'] = '맞음';
@@ -133,6 +135,7 @@ $string['deleteattemptcheck'] = '정말 이 시도를 취소하겠습니까?';
 $string['deletequestioncheck'] = '\'$a\'을 정말 취소하겠습니까?';
 $string['deletequestionscheck'] = '당신은 정말 다음 질문을 지우기를 원하십니까?<div>$a</div>';
 $string['deleteselected'] = '선택내용 지우기';
+$string['deletingquestionattempts'] = '퀴즈 시도 삭제';
 $string['description'] = '설명';
 $string['discrimination'] = '변별도';
 $string['displayoptions'] = '선택사항 보이기';
@@ -162,6 +165,20 @@ $string['editqcats'] = '문항 범주 편집';
 $string['editquestions'] = '문항 편집';
 $string['editquiz'] = '퀴즈 편집';
 $string['editquizquestions'] = '퀴즈 문항 편집';
+$string['emailconfirmbody'] = '$a->username 님,
+
+$a->submissiontime 에 \'$a->coursename\'의 퀴즈 \'$a->quizname\'에 대한 답안을 제출해 주셔서 감사합니다.
+
+본 이메일은 답안이 정상적으로 접수되었음을 확인하는 것입니다.
+
+본 퀴즈는 $a->quizurl 에서 접속할 수 있습니다.';
+$string['emailconfirmsubject'] = '$a->quizname 의 답안 접수 확인';
+$string['emailnotifybody'] = '$a->username 님,
+
+$a->studentname 학생이  배움터 \'$a->coursename\' 에서 \'$a->quizname\' ($a->quizurl) 을 완결하였습니다.
+
+이 시도는 $a->quizreviewurl 에서 검토 할 수 있습니다.';
+$string['emailnotifysubject'] = '$a->studentname 은  $a->quizname 퀴즈를 완결하였습니다.';
 $string['errorinquestion'] = '문항 오류';
 $string['errormissingquestion'] = '오류 : 아이디 $a 의 질문이 사라졌습니다.';
 $string['errornotnumbers'] = '오류 - 답은 숫자라야 합니다';
@@ -228,6 +245,7 @@ $string['gradeboundary'] = '등급 경계';
 $string['gradeessays'] = '논술 채점';
 $string['gradehighest'] = '최고 점수';
 $string['grademethod'] = '채점 방법';
+$string['gradesdeleted'] = '퀴즈 성적이 삭제됨';
 $string['gradesofar'] = '$a->method: $a->mygrade / $a->quizgrade.';
 $string['gradingdetails'] = '득점 : $a->raw/$a->max.';
 $string['gradingdetailsadjustment'] = '감점 적용 후 : <strong>$a->cur/$a->max</strong>.';
@@ -357,6 +375,7 @@ $string['popupnotice'] = '학생들은 이 퀴즈를 보안이 된 창에서 봐
 $string['preview'] = '미리보기';
 $string['previewquestion'] = '문제 미리보기';
 $string['previewquiz'] = '$a 퀴즈 미리보기';
+$string['previewquiznow'] = '지금 퀴즈 미리보기';
 $string['previous'] = '이전의 상태';
 $string['publish'] = '공개';
 $string['publishedit'] = '이 범주의 질문을 수정하거나 추가하기 위해서는 배움터에서 출판할 수 있는 권한이 있어야 합니다.';
@@ -379,6 +398,8 @@ $string['questiontype'] = '$a 유형의 질문';
 $string['questiontypesetupoptions'] = '문항 유형을 위한 옵션 설정:';
 $string['quiz:attempt'] = '퀴즈 시도';
 $string['quiz:deleteattempts'] = '퀴즈 시도 삭제';
+$string['quiz:emailconfirmsubmission'] = '제출할 때 이메일 확인받음';
+$string['quiz:emailnotifysubmission'] = '제출에 대한 안내를 이메일로 받음';
 $string['quiz:grade'] = '퀴즈 미리보기';
 $string['quiz:ignoretimelimits'] = '시간 제한 무시';
 $string['quiz:manage'] = '퀴즈 관리';
@@ -413,6 +434,7 @@ $string['regradingquestion'] = '\"$a\" 재채점 중';
 $string['regradingquiz'] = '퀴즈 \"$a\" 재채점';
 $string['relative'] = '비교';
 $string['remove'] = '삭제';
+$string['removeallquizattempts'] = '모든 퀴즈 시도를 제거';
 $string['rename'] = '새이름';
 $string['renderingserverconnectfailed'] = '$a 서버는 RQP 요청을 처리하는데 실패하였습니다. URL이 정확한지 확인하십시오';
 $string['reordertool'] = '재정렬 도구 보여주기';
@@ -506,6 +528,7 @@ $string['timedelay'] = '재시도 경과시간이 지나지 않았기 때문에 
 $string['timeleft'] = '남은 시간';
 $string['timelimit'] = '시간제한';
 $string['timelimitexeeded'] = '미안합니다!  시간이 초과됐습니다.';
+$string['timelimitmin'] = '제한시간(분)';
 $string['timestr'] = '%%d/%%m/%%y  %%H:%%M:%%S';
 $string['timesup'] = '시간이 다 되었습니다!';
 $string['timetaken'] = '걸린 시간';

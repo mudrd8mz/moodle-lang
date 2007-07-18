@@ -1,12 +1,15 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 dev (2007060502)
+      // scorm.php - created with Moodle 1.9 dev (2007071703)
 
 
+$string['activation'] = '활성화';
 $string['advanced'] = '고급설정';
 $string['asset'] = '자산';
 $string['assetlaunched'] = '자산 - 보았음';
 $string['attempt'] = '시도';
+$string['attempt1'] = '첫 시도';
 $string['attempts'] = '시도들';
+$string['attemptsx'] = '$a 번 시도';
 $string['attr_error'] = '$a->tag 태그에서 잘못된 속성 ($a->attr) 값';
 $string['autocontinue'] = '자동 진행';
 $string['averageattempt'] = '평균시도들';
@@ -92,6 +95,7 @@ $string['not_corr_type'] = '$a->tag 태그에는 부적당한 형태';
 $string['notattempted'] = '시도하지 않았음';
 $string['objectives'] = '목적';
 $string['onchanges'] = '바뀔 때 마다';
+$string['options'] = '선택사항';
 $string['organization'] = '기구';
 $string['organizations'] = '조직들';
 $string['othersettings'] = '추가 설정';
@@ -140,6 +144,7 @@ $string['totaltime'] = '시간';
 $string['trackingloose'] = '경고: 이 패키지의 추적 정보는 잃게 될것입니다';
 $string['type'] = '형태';
 $string['unziperror'] = '묶음 파일 풀기 오류';
+$string['updatefreq'] = '자동 갱신 주기';
 $string['validateascorm'] = '묶음파일을 점검하시오';
 $string['validation'] = '결과 확인';
 $string['validationtype'] = '이 선택은 SCORM Manifest을 확인하기 위해서 사용되는 DOMXML library이다. 만약 잘 모르겠다면 기본값 그대로 두어라.';
