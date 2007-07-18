@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_attendance.php - created with Moodle 1.7 dev (2006071800)
+      // block_attendance.php - created with Moodle 1.9 dev (2007071703)
 
 
 $string['Aacronym'] = '欠';
@@ -12,8 +12,8 @@ $string['Pacronym'] = '出';
 $string['Pfull'] = '出席';
 $string['acronym'] = '頭文字';
 $string['add'] = '追加';
-$string['addmultiplesessions'] = '複数出欠の追加';
-$string['addsession'] = '出欠の追加';
+$string['addmultiplesessions'] = '複数の出欠を追加する';
+$string['addsession'] = '出欠を追加する';
 $string['alltaken'] = 'すべて';
 $string['attendance'] = '出欠';
 $string['attendanceforthecourse'] = 'コースの出欠';
@@ -40,7 +40,9 @@ $string['erroringeneratingsessions'] = '出欠の生成中にエラーが発生�
 $string['indetail'] = '詳細 ...';
 $string['months'] = '月';
 $string['myvariables'] = '変数の設定';
+$string['needactivity'] = 'このブロックは出欠活動のみと動作します。このコースに出欠活動を追加してください。';
 $string['newdate'] = '新出欠日';
+$string['noattforuser'] = 'このユーザの出欠レコードはありません。';
 $string['nodescription'] = 'この出欠に説明はありません。';
 $string['noguest'] = 'ゲストは出欠を閲覧できません。';
 $string['noofdaysabsent'] = '欠席数';
@@ -50,7 +52,7 @@ $string['noofdayspresent'] = '出席数';
 $string['nosessiondayselected'] = '出欠日が選択されませんでした。';
 $string['nosessionexists'] = 'このコースには出欠がありません。';
 $string['olddate'] = '旧出欠日';
-$string['period'] = '期間';
+$string['period'] = '頻度';
 $string['remarks'] = '備考';
 $string['report'] = 'レポート';
 $string['restoredefaults'] = 'デフォルトをリストアする';
@@ -74,7 +76,7 @@ $string['strftimedmy'] = '%%Y/%%m/%%d';
 $string['strftimedmyw'] = '%%Y/%%m/%%d&nbsp;(%%a)';
 $string['strftimeshortdate'] = '%%Y/%%m/%%d';
 $string['studentid'] = '学籍番号';
-$string['takeattendance'] = '出欠をとる';
+$string['takeattendance'] = '出欠を取る';
 $string['update'] = '更新';
 $string['variablesupdated'] = '変数が正常に更新されました。';
 $string['versionforprinting'] = '印刷画面';
