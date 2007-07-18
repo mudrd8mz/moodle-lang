@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007071702)
+      // admin.php - created with Moodle 1.9 dev (2007071703)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -575,7 +575,7 @@ $string['timezoneforced'] = 'サイト管理者によって強制されていま
 $string['timezoneisforcedto'] = 'ユーザに使用を強制';
 $string['timezonenotforced'] = 'ユーザは独自のタイムゾーンを使用できる';
 $string['tokenizerrecommended'] = 'PHP Tokenizer拡張モジュールのインストールをお勧めします - Moodleネットーワーキングの機能性を改善します。';
-$string['unattendedoperation'] = '自動インストール';
+$string['unattendedoperation'] = '自動操作';
 $string['unbookmarkthispage'] = 'このページをブックマーク解除する';
 $string['unicoderecommended'] = 'あなたのすべてのデータをユニコードフォーマット (UTF-8) で保存することをお勧めします。Moodleの新しいインストールは、ユニコードがデフォルトキャラクタにセットされたデータベースに実行される必要があります。アップグレードの場合、UTF-8移行プロセスを実行してださい (詳細は管理ページをご覧ください)。';
 $string['unicoderequired'] = 'あなたのすべてのデータをユニコードフォーマット (UTF-8) で保存することが必須です。Moodleの新しいインストールは、ユニコードがデフォルトキャラクタにセットされたデータベースに実行される必要があります。アップグレードの場合、UTF-8移行プロセスを実行してださい (詳細は管理ページをご覧ください)。';
