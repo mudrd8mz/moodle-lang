@@ -14,10 +14,22 @@ Fax: + 381 21 6 350 458
 E-mail: komlenov@im.ns.ac.yu
 URL:    http://perun.im.ns.ac.yu/komlenov/
 
+* Special thanks to
 
-* Special thanks to students of Computer Science (Elective Seminar - eLearning):
+ - students of Computer Science, Department of Mathematics and Informatics, Novi Sad
 
-  Branka Ignjić
-  Nikolina Lacković
+   Branka Ignjić
+   Nikolina Lacković
+   Ivan Omorac
+   Gordana Rakić
+   
+ - Miloš Bajčetić, Teaching Assistant, Institute of Histology and Embriology,
+   School of Medicine, University of Belgrade and his students
+   
+   Marija Bokšan
+   Jelena Kostić
+   Miloš Miljković
+   Ivan Nikolić
+   Jovana Tripković
 
-for their work on translation of help files.
+for their work on fine-tuning this language pack and translation of help files.
