@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.8 dev (2007012400)
+      // xmldb.php - created with Moodle 1.9 dev (2007071801)
 
 
 $string['aftertable'] = '다음 표 :';
@@ -9,6 +9,10 @@ $string['binaryincorrectlength'] = '바이너리 필드의 길이가 바르지 �
 $string['cannotuseidfield'] = '\"id\"필드에 입력할 수 없음. 자동 숫자 컬럼임';
 $string['change'] = '변경';
 $string['charincorrectlength'] = '문자 필드의 길이가 바르지 않음';
+$string['check_indexes'] = '누락된 DB 인덱스 찾기';
+$string['checkindexes'] = '인덱스 확인';
+$string['completelogbelow'] = '(검색에 대한 전체 로그는 하단 참조)';
+$string['confirmcheckindexes'] = '이 기능은 무들 서버에서 가망성있는 누락된 인덱스를 검색해서 모든것이 갱신되는데 필요한 SQL 문장을 자동적으로 만들어 줍니다. 일단 만들어진 문장을 복사해서 사용자의 SQL 인터페이스를 사용하여 실행합니다. 누락된 인덱스를 검색하기 전에 가능한 최신 무들판을 사용하기를 권장합니다.<br /><br /> 이 기능은 DB에 어떤 조치도 취하지 않으므로 아무때나 안전하게 실행할 수 있습니다.';
 $string['confirmdeletefield'] = '필드 삭제 확인 :';
 $string['confirmdeleteindex'] = '인덱스 삭제 확인 :';
 $string['confirmdeletekey'] = '키 삭제 확인 :';
@@ -48,13 +52,17 @@ $string['floatincorrectdecimals'] = '부동소숫점 필드에 적합하지 않�
 $string['floatincorrectlength'] = '부동소숫점 필드에 적합하지 않은 길이';
 $string['gotolastused'] = '마지막 사용했던 파일로 되돌아 감';
 $string['incorrectfieldname'] = '적절하지 않은 명칭';
+$string['index'] = '인덱스';
 $string['indexes'] = '인텍스';
 $string['integerincorrectlength'] = '정수필드에 맞지 않는 길이';
+$string['key'] = '키';
 $string['keys'] = '키';
 $string['listreservedwords'] = '유보 단어 목록<br/>(<a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a>를 이용하여 항상 최신 상태로 유지)';
 $string['load'] = '올림';
 $string['main_view'] = '주 화면';
+$string['missing'] = '누락됨';
 $string['missingfieldsinsentence'] = '문장내 없는 필드';
+$string['missingindexes'] = '문장에서 누락된 값';
 $string['missingvaluesinsentence'] = '문장내 없는 값';
 $string['mustselectonefield'] = '필드와 관련된 작동을 보기 위해서는 하나의 필드를 선택해야만 합니다.';
 $string['mustselectoneindex'] = '인덱스와 관련된 작동을 보기 위해서는 하나의 인덱스를 선택해야만 합니다.';
@@ -68,6 +76,7 @@ $string['newsentence'] = '새 문장';
 $string['newstatement'] = '새 선언문';
 $string['newtable'] = '새 테이블';
 $string['newtablefrommysql'] = 'MySQL의 새 테이블';
+$string['nomissingindexesfound'] = '누락된 인덱스가 발견되지 않았습니다. 당신의 DB는 추가 조치가 필요하지 않습니다.';
 $string['numberincorrectdecimals'] = '숫자 필드에 적합하지 않은 십진수';
 $string['numberincorrectlength'] = '숫자 필드에 맞지 않는 길이';
 $string['reserved'] = '유보됨';
@@ -75,6 +84,7 @@ $string['reservedwords'] = '유보된 단어들';
 $string['revert'] = '복구';
 $string['revert_changes'] = '변경 복구';
 $string['save'] = '저장';
+$string['searchresults'] = '검색 결과';
 $string['selectaction'] = '작동 선택';
 $string['selectdb'] = '데이터베이스 선택';
 $string['selectfieldkeyindex'] = '필드/키/인덱스 선택';
@@ -104,5 +114,6 @@ $string['viewsqlcode'] = 'SQL 코드 보기';
 $string['wronglengthforenum'] = '영숫자 필드에 적합하지 안은 길이';
 $string['wrongnumberoffieldsorvalues'] = '문장에 적합하지 않은 필드 수 혹은 값';
 $string['wrongreservedwords'] = '현재 사용되고 있는 유보 단어들<br />($CFG->prefix 를 쓸 경우에는 테이블명은 중요하지 않다는 점을 유의하라)';
+$string['yesmissingindexesfound'] = '누락된 인덱스가 당신의 DB에서 발견되었습니다. 자세한 사항은 다음과 같으며 모든것을 생성하기 위한 SQL 문장을 당신이 사용하고 있는 SQL 인터페이스로 실행하기 바랍니다. 그 다음 더 이상의 누락된 인덱스가 없는지를 확인하기 위하여 이 유틸리티를 다시한번 실행할 것을 권장합니다.';
 
 ?>

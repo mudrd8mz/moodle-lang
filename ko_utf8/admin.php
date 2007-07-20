@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007050400)
+      // admin.php - created with Moodle 1.9 dev (2007071801)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -112,9 +112,10 @@ $string['configfrontpageloggedin'] = '위에서 선택된 항목은 사용자가
 $string['configfullnamedisplay'] = '이것은 전체 이름을 표시하는 방법을 정의하는 것이다. 대부분의 한 개 언어만 쓰는 싸이트에서는 기본값인 \"성+이름\"으로 충분히 효과를 볼 수 있지만, 다양한 언어팩을 쓰는 경우 특히 성이나 이름이 매우 긴 경우에는 이름을 보이지 않게 하거나 성을 보이지 않게 설정할 수도 있다.';
 $string['configgdversion'] = '표시된 GD 버전이 설치되어 있다. 여기에 표시된 버전은 자동으로 검출된 것이다. 정확한 내용을 알지 못한다면 가급적 바꾸지 말기 바란다.';
 $string['configgradebookroles'] = '이 설정은 성적표에 표시될 사람을 조정할 수 있게 한다. 성적표에 나타나려면 사용자는 적어도 이 중 하나의 역할을 지녀야 한다.';
+$string['configgradeexport'] = '성적을 내보내는데 사용할 주요한 성적표 형식을 선택하세요. 선택된 플러그인은 설정된 후  모든 성적에 \"최근 내보냄\" 항목을 사용할 것입니다. 예를 들면 내보내기 한 레코드들이 \"새로운\" 혹은 \"새로고침\"된 것으로 간주되도록 할 것입니다. 확신이 들지 않으면 모든 것들을 체크하지 마십시요.';
 $string['configguestroleid'] = '이 역할은 방문객에게 자동으로 부여되는 것이다. 키없는 손님 방문을 허용한 배움터에 방문객으로 참여한 비등록 사용자에게도 한시적으로 적용된다. moodle/legacy:guest 및 moodle/course:view 권한이 부여되어 있는지 확인하라.';
 $string['confighiddenuserfields'] = '교사와 관리자 이외의 사람들에게는 보이게 하고 싶지 않은 사용자 정보를 선택하라. 이렇게 하면 학생들의 프라이버시를 증진시킬 수 있다. 여러 항목을 선택할 때는 CTRL키를 누른채 항목들을 선택하면 된다.';
-$string['confighideactivitytypecrumb'] = '활동 유형(예: 퀴즈)에 따라 모듈에 나타나는 진행상태를 숨길 대상을 선택한다.';
+$string['confighideactivitytypenavlink'] = '활동 모듈을 표시한 네비게이션에서 퀴즈등의 활동 형식 링크를 숨길 사용자들을 선택';
 $string['confightmleditor'] = '사이트 전반에 걸쳐 내장된 HTML텍스트의 편집기를 사용할 수 있게 할 것인가를 정하는 선택사항이다. 여기서 사용을 허용하더라도 사용자 입장에서는 웹브라우저의 기능에 따라 사용가능 여부가 결정될 것이다. 사용자도 스스로 사용여부를 선택할 수 있다.';
 $string['configidnumber'] = '이 옵션은 다음의 셋 중에 하나를 선택해야 한다. (1)사용자 ID번호를 전혀 요구하지 않는다. (2)사용자 ID번호는 요구하나 빈칸을 허용한다. (3)사용자 ID번호를 요구하고 빈 칸을 허용하지 않는다. 만일 사용자 ID번호가 입력되면, 신상명세에 표시된다.';
 $string['configintcachemax'] = '내부 캐쉬용. 캐쉬에 쓸 최대 기록의 수를 지정. 권장되는 값은 50. 메모리 사용을 줄이려면 좀 더 작은 값을 이용하라.';
@@ -149,6 +150,7 @@ $string['configminpasswordlower'] = '비밀번호에 최소 여기에 제시된 
 $string['configminpasswordnonalphanum'] = '비밀번호에 최소 여기에 제시된 수만큼의 특수문자가 들어 있어야 합니다.';
 $string['configminpasswordupper'] = '비밀번호에 최소 여기에 제시된 수만큼의 대문자가 들어 있어야 합니다.';
 $string['configmymoodleredirect'] = '이 설정은 관리자가 아닌 사람이 로그인 할 때 강제적으로 /my 경로로 가게하고 /my 경로에 새로운 환경을 구성하도록 만든다.';
+$string['confignodefaultuserrolelists'] = '이 설정은 만일 기본 역할이 접근을 허용하는 경우 사이트 배움터에 대하여 get_course_user등의 격하된 호출로부터 사용자들이 데이터베이스에서 돌아오는 것을 못하게 합니다. 성능상 문제를 초래하는 경우 이것을 체크하십시요.';
 $string['confignonmetacoursesyncroleids'] = '기본적으로 하위 배움터의 모든 출석은 메타코스와 동기화된다. 여기에서 선택된 역할들은 동기화 과정에 포함되지 않는다.';
 $string['confignoreplyaddress'] = '이메일은 때때로 사용자 자신에게 보내진다. 여기에 적은 이메일 주소는 발신자가 일일이 수신자로부터 답신을 받을 수 없는 경우에 사용되는 관리용 발신 전용의 주소이다. 
 (예를 들어 사용자가 자신의 이메일을 공개하지 않은 경우)';
@@ -231,6 +233,7 @@ $string['cronerrorpassword'] = '죄송합니다. 이 화면에 접속하려면 �
 $string['cronremotepassword'] = '원격 접속을 위한 크론 비밀번호';
 $string['cronwarning'] = '<a href=\"cron.php\">cron.php 관리 스크립트</a>가 최소 24시간 동안 작동 되지 않았습니다.';
 $string['curlrecommended'] = '무들 네트웍 기능을 활성화하기 위해서는 추가적인 Curl 라이브러리를 설치할 것을 강력히 권고한다.';
+$string['customcheck'] = '다른 점검들';
 $string['datarootsecuritywarning'] = '사이트가 안전해 보이지 않습니다. 데이터경로 ($a)를 직접 웹으로 접속할 수 없도록 조치하기 바랍니다.';
 $string['dbmigrate'] = '무들 데이터베이스 변경';
 $string['dbmigrateconnecerror'] = '지정한 데이터 베이스에 연결할 수 없습니다.';
@@ -326,6 +329,7 @@ $string['globalsquoteswarning'] = '<p><strong>보안 경고</strong>: 무들을 
 $string['gotofirst'] = '빠진 첫번째 문자열로 가기';
 $string['gradebook'] = '성적 기록부';
 $string['gradebookroles'] = '성적 관리 대상';
+$string['gradeexport'] = '1차 성적 전송 방법';
 $string['guestroleid'] = '방문객을 위한 역할';
 $string['helpadminseesall'] = '관리자가 모든 일정을 볼 수 있거나 그렇지 않으면 그 이벤트들 스스로 적용됩니까?';
 $string['helpcalendarsettings'] = '다양한 일정 목록과 날짜/시간과 관련된 내용을 설정합니다.';
@@ -336,7 +340,7 @@ $string['helpupcominglookahead'] = '일정표에서 다가오는 행사를 며�
 $string['helpupcomingmaxevents'] = '얼마나 많은(최대) 행사를 보여지게 할까요?';
 $string['helpweekenddays'] = '주중 어느 날이 \"주말\"로 취급되어져 다른 색깔로 표시되어집니까?';
 $string['hiddenuserfields'] = '사용자 항목 감춤';
-$string['hideactivitytypecrumb'] = '활동 흔적 감추기';
+$string['hideactivitytypenavlink'] = '활동 유형 링크 숨김';
 $string['hidefromall'] = '모두에게 감춤';
 $string['hidefromnone'] = '아무에게도 감추지  않음';
 $string['hidefromstudents'] = '학생에게 감춤';
@@ -422,6 +426,7 @@ $string['mymoodleredirect'] = '강제로 내 공부방으로 가게 함';
 $string['mysql416bypassed'] = '당신의 사이트가 iso-8859-1 (라틴) 언어만을 사용하는 경우 현재 설치된 MySQL 4.1.12 혹은 그 이상 버전을 사용할 수 있습니다.';
 $string['mysql416required'] = '모든 데이터가 향후 UTF-8로 변환될 수 있도록 하기위해서는 MySQL 4.1.16 이상 버전이 무들 1.6버전에 필요합니다.';
 $string['nobookmarksforuser'] = '갈무리된 주소가 없음';
+$string['nodefaultuserrolelists'] = '모든 기본 역할 사용자는 표시하지 마십시요';
 $string['nolangupdateneeded'] = '모든 언어팩이 최신판임. 업데이트가 필요없음';
 $string['nonewsettings'] = '이번 판올림과정에서 새로운 설정이 추가되지 않았음';
 $string['nonexistentbookmark'] = '요청한 곳을 찾을 수 없습니다.';
@@ -533,6 +538,7 @@ $string['searchresults'] = '검색 결과';
 $string['secureforms'] = '추가적인 보안 형식 사용';
 $string['security'] = '보안';
 $string['server'] = '서버';
+$string['serverchecks'] = '서버 점검';
 $string['serverlimit'] = '서버 한계';
 $string['sessioncookie'] = '쿠키 접두어';
 $string['sessioncookiepath'] = '쿠키 경로';
@@ -612,5 +618,7 @@ $string['userscreated'] = '사용자들이 생성됨';
 $string['usersrenamed'] = '사용자명이 변경됨';
 $string['usersupdated'] = '사용자들이 갱신됨';
 $string['validateerror'] = '이 값은 유효하지 않음:';
+$string['confighideactivitytypecrumb'] = '활동 유형(예: 퀴즈)에 따라 모듈에 나타나는 진행상태를 숨길 대상을 선택한다.'; // ORPHANED
+$string['hideactivitytypecrumb'] = '활동 흔적 감추기'; // ORPHANED
 
 ?>
