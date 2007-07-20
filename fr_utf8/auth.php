@@ -116,7 +116,7 @@ $string['auth_imapport'] = 'Numéro de port du serveur IMAP. Il s\'agit généra
 $string['auth_imaptitle'] = 'Serveur IMAP';
 $string['auth_imaptype_key'] = 'Type';
 $string['auth_imaptype'] = 'Type de serveur IMAP. Les serveurs IMAP peuvent avoir différentes méthodes d\'authentification et de négociation.';
-$string['auth_ldap_ad_create_req'] = 'Impossible de créer le nouveau compte dans Active Directory. Assurez-vous que votre serveur statisfait toutes les conditions requises pour que cela fonctionne (connexion LDAPS, utilisateur de connexion avec droits adéquats, etc.)';
+$string['auth_ldap_ad_create_req'] = 'Impossible de créer le nouveau compte dans Active Directory. Assurez-vous que votre serveur satisfait toutes les conditions requises pour que cela fonctionne (connexion LDAPS, utilisateur de connexion avec droits adéquats, etc.)';
 $string['auth_ldap_auth_user_create_key'] = 'Créer les utilisateurs en externe';
 $string['auth_ldap_bind_dn_key'] = 'Distinguished Name';
 $string['auth_ldap_bind_dn'] = 'Si vous souhaitez utiliser une connexion authentifiée au serveur LDAP pour chercher les utilisateurs, indiquez ici son nom de connexion. Quelque chose comme : «&nbsp;cn=ldapuser, o=Organisation, c=FR&nbsp;».';
@@ -239,7 +239,7 @@ $string['auth_shib_convert_data_warning'] = 'Le fichier n\'existe pas ou n\'est 
 $string['auth_shib_convert_data'] = 'API de modification de données';
 $string['auth_shib_instructions_help'] = 'Veuillez indiquer ici les instructions expliquant le fonctionnement de Shibboleth à vos utilisateurs. Ces instructions seront affichées sur la page de connexion, dans la zone adéquate. Le texte doit contenir un lien vers «&nbsp;<b>$a</b>&nbsp;» que les utilisateurs doivent cliquer pour se connecter à Moodle.';
 $string['auth_shib_instructions'] = 'Utilisez la <a href=\"$a\">connexion Shibboleth</a> pour accéder via Shibboleth, si votre institution le permet.<br />Sinon, utilisez la connexion standard de ce formulaire.';
-$string['auth_shib_only_description'] = 'Cocher cette option pour imposer l\'authentiication Shibboleth';
+$string['auth_shib_only_description'] = 'Cocher cette option pour imposer l\'authentification Shibboleth';
 $string['auth_shib_only'] = 'Seulement Shibboleth';
 $string['auth_shib_username_description'] = 'Nom de la variable d\'environnement du serveur web Shibboleth à utiliser comme nom d\'utilisateur Moodle';
 $string['auth_shibboleth_login'] = 'Connexion Shibboleth';
@@ -279,7 +279,7 @@ $string['internal'] = 'Interne';
 $string['locked'] = 'Verrouillé';
 $string['md5'] = 'Hachage MD5';
 $string['nopasswordchange'] = 'Le mot de passe ne peut pas être modifié';
-$string['nopasswordchangeforced'] = 'Vous ne pouvez pas continuer sans modifier votre mot de passe. Cependant, il n\'y a aucun moyen disponoble de le modifier. Veuillez contacter l\'administrateur de votre Moodle.';
+$string['nopasswordchangeforced'] = 'Vous ne pouvez pas continuer sans modifier votre mot de passe. Cependant, il n\'y a aucun moyen disponible de le modifier. Veuillez contacter l\'administrateur de votre Moodle.';
 $string['passwordhandling'] = 'Traitement du champ Mot de passe';
 $string['plaintext'] = 'Texte en clair';
 $string['pluginnotenabled'] = 'La méthode d\'authentification $a n\'est pas activée.';
@@ -292,7 +292,7 @@ $string['shib_no_attributes_error'] = 'Il semble que vous être authentifié par
 $string['shib_not_all_attributes_error'] = 'Moodle nécessite certains attributs Shibboleth qui ne sont pas présents dans votre cas. Ces attributs sont&nbsp;: $a<br />Veuillez contacter l\'administrateur de ce serveur ou votre fournisseur d\'identité.';
 $string['shib_not_set_up_error'] = 'L\'authentification Shibboleth ne semble pas être configurée correctement&nbsp;: aucune variable d\'environnement Shibboleth n\'est présente pour cette page. Veuillez consulter le fichier <a href=\"README.txt\">README</a> pour d\'autres instructions sur la façon de configurer l\'authentification Shibboleth ou contactez l\'administrateur de cette installation de Moodle.';
 $string['showguestlogin'] = 'Vous pouvez choisir d\'afficher ou non le bouton de connexion en tant qu\'invité sur la page de connexion.';
-$string['stdchangepassword_expl'] = 'Si la source d\'authentification externe permet le changement de mot de passe par l\'intermédaire de Moodle, mettez ce réglage sur «&nbsp;Oui&nbsp;». Ce réglage rend obsolète le réglage «&nbsp;URL de la page de changement du mot de passe&nbsp;».';
+$string['stdchangepassword_expl'] = 'Si la source d\'authentification externe permet le changement de mot de passe par l\'intermédiaire de Moodle, mettez ce réglage sur «&nbsp;Oui&nbsp;». Ce réglage rend obsolète le réglage «&nbsp;URL de la page de changement du mot de passe&nbsp;».';
 $string['stdchangepassword_explldap'] = 'Remarque&nbsp;: il est recommandé d\'utiliser LDAP à travers un tunnel chiffré SSL (ldaps://) si le serveur LDAP n\'est pas dans un intranet.';
 $string['stdchangepassword'] = 'Utiliser la page de changement de mot de passe standard';
 $string['unlocked'] = 'Déverrouillé';

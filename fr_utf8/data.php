@@ -60,7 +60,7 @@ $string['delete'] = 'Supprimer';
 $string['deletecomment'] = 'Voulez-vous vraiment supprimer ce commentaire&nbsp;?';
 $string['deleted'] = 'supprimée';
 $string['deletefield'] = 'Suppression d\'un champ existant';
-$string['deletewarning'] = 'Vouslez-vous vraiment supprimer ce préréglage&nbsp;?';
+$string['deletewarning'] = 'Voulez-vous vraiment supprimer ce préréglage&nbsp;?';
 $string['descending'] = 'Descendant';
 $string['directorynotapreset'] = '$a->directory n\'est pas un préréglage. Fichiers manquants&nbsp;: $a->missing_files';
 $string['download'] = 'Télécharger';
@@ -229,6 +229,6 @@ $string['url'] = 'URL';
 $string['usestandard'] = 'Utiliser un préréglage';
 $string['viewfromdate'] = 'Consultable du';
 $string['viewtodate'] = 'Consultable jusqu\'au';
-$string['wrongdataid'] = 'L\'dentifiant de données fourni est incorrect';
+$string['wrongdataid'] = 'L\'identifiant de données fourni est incorrect';
 
 ?>

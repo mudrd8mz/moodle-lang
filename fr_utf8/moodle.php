@@ -208,12 +208,12 @@ $string['choosereportfilter'] = 'Choisir un filtre pour le rapport';
 $string['choosetheme'] = 'Choisir un thème';
 $string['chooseuser'] = 'Choisir un utilisateur';
 $string['city'] = 'Ville';
-$string['clambroken'] = 'L\'administrateur du site a activé l\'antivirus des fichiers déposés, mais il y a un problème de configuration.<br />Votre fichier n\'a pas pu être déposé. L\'adminitrateur a été averti afin qu\'il puisse corriger le problème.<br />Essayez de nouveau plus tard !';
+$string['clambroken'] = 'L\'administrateur du site a activé l\'antivirus des fichiers déposés, mais il y a un problème de configuration.<br />Votre fichier n\'a pas pu être déposé. L\'administrateur a été averti afin qu\'il puisse corriger le problème.<br />Essayez de nouveau plus tard !';
 $string['clamdeletedfile'] = 'Le fichier a été supprimé';
 $string['clamdeletedfilefailed'] = 'Le fichier n\'a pas pu être supprimé';
 $string['clamemailsubject'] = '$a :: Notification Clam AV';
 $string['clamfailed'] = 'Clam AV n\'a pas pu être lancé. Le message d\'erreur était $a. Voici la sortie du programme Clam&nbsp;:';
-$string['clamlost'] = 'Moodle est configuré pour lancer clam lors du dépôt de fichiers, mais le chemin pointant vers Clam AV, $a, nest pas correct.';
+$string['clamlost'] = 'Moodle est configuré pour lancer clam lors du dépôt de fichiers, mais le chemin pointant vers Clam AV, $a, n\'est pas correct.';
 $string['clamlostandactinglikevirus'] = 'En outre, Moodle est configuré de telle sorte que si clam ne peut pas être lancé, les fichiers sont traités comme des virus. Cela signifie qu\'aucun étudiant ne pourra déposer de fichier tant que ce problème n\'est pas corrigé.';
 $string['clammovedfile'] = 'Le fichier a été déplacé dans le dossier de quarantaine que vous avez spécifié. Son nouvel emplacement est $a';
 $string['clammovedfilebasic'] = 'Le fichier a été déplacé dans un dossier de quarantaine.';
@@ -469,7 +469,7 @@ $string['emailpasswordchangeinfodisabled'] = 'Bonjour,
 
 Quelqu\'un (probablement vous) a demandé un nouveau mot de passe pour votre compte sur « $a->sitename ».
 
-Malheureusement, votre compte sur ce site est déscativé et ne peut pas être réinitialisé.  Veuillez contacter l\'administrateur du site, $a->admin';
+Malheureusement, votre compte sur ce site est désactivé et ne peut pas être réinitialisé.  Veuillez contacter l\'administrateur du site, $a->admin';
 $string['emailpasswordchangeinfofail'] = 'Bonjour,
 
 Quelqu\'un (probablement vous) a demandé un nouveau mot de passe pour votre compte sur « $a->sitename ».
@@ -633,7 +633,7 @@ SANS AUCUNE GARANTIE, ni explicite ni implicite, y compris les
 garanties de commercialisation ou d\'adaptation dans un but
 spécifique. 
 
-Pour plus de déatils, reportez-vous à la page d\'information sur la
+Pour plus de détails, reportez-vous à la page d\'information sur la
 Licence Moodle&nbsp;: http://docs.moodle.org/fr/Licence';
 $string['grade'] = 'Note';
 $string['grades'] = 'Notes';
@@ -732,7 +732,7 @@ $string['includecourseusers'] = 'Inclure les utilisateurs du cours';
 $string['included'] = 'Inclus';
 $string['includelogentries'] = 'Inclure les historiques';
 $string['includemodules'] = 'Inclure les modules';
-$string['includemoduleuserdata'] = 'Include les données utilisateur des modules';
+$string['includemoduleuserdata'] = 'Inclure les données utilisateur des modules';
 $string['includeneededusers'] = 'Inclure les utilisateurs s\'il y a lieu';
 $string['includenoneusers'] = 'Ne pas inclure les utilisateurs';
 $string['includeuserfiles'] = 'Inclure les fichiers des utilisateurs';
@@ -1055,7 +1055,7 @@ $string['paymentinstant'] = 'Le bouton ci-dessous vous permet de payer et de vou
 $string['paymentpending'] = '(<small><b><u>$a</u></b> en attente</small>)';
 $string['paymentrequired'] = 'Un paiement est requis pour accéder à ce cours.';
 $string['payments'] = 'Paiements';
-$string['paymentsorry'] = 'Merci pour votre paiement ! Malheureusement, votre paiement n\'a pas encore été comptabilisé, et vous ne pouvez pas encore accéder au cours «&nbsp;$a->fullname&nbsp;». Veuillez essayer d\'accéder au cours dans quelques secondes. Si vous n\'arrivez toujours pas à y accéder, merci de contacter l\'enseignant ou l\'adminstrateur du site';
+$string['paymentsorry'] = 'Merci pour votre paiement ! Malheureusement, votre paiement n\'a pas encore été comptabilisé, et vous ne pouvez pas encore accéder au cours «&nbsp;$a->fullname&nbsp;». Veuillez essayer d\'accéder au cours dans quelques secondes. Si vous n\'arrivez toujours pas à y accéder, merci de contacter l\'enseignant ou l\'administrateur du site';
 $string['paymentthanks'] = 'Merci pour votre paiement ! Vous êtes dès maintenant inscrit à votre cours&nbsp;:<br />«&nbsp;$a&nbsp;»';
 $string['people'] = 'Personnes';
 $string['periodending'] = 'Fin de la période ($a)';
@@ -1107,7 +1107,7 @@ $string['registrationcontactno'] = 'Non, je ne désire pas de formulaire de cont
 $string['registrationcontactyes'] = 'Oui, j\'aimerais qu\'un formulaire de contact permette aux éventuels Moodleurs de me contacter';
 $string['registrationemail'] = 'Notifications par courriel';
 $string['registrationinfo'] = '<p>Cette page vous permet d\'enregistrer votre site Moodle sur moodle.org. L\'enregistrement est gratuit. Le principal avantage de l\'enregistrement est l\'inscription à une liste de distribution courriel utilisée pour d\'importantes informations telles que des alertes de sécurité et des mises à jour de Moodle.</p><p>Vos données seront conservées confidentiellement, et ne seront jamais vendues ou divulguées à quiconque. Ces informations ne sont recueillies que pour l\'assistance techniques et à des fins de statistique au sujet de la communauté Moodle.</p><p>Si vous le désirez, le nom de votre site, votre pays et URL peuvent être ajoutés à la liste publique des sites Moodle.</p><p>Les nouveaux enregistrements sont vérifiés manuellement avant d\'être ajoutés à la liste. Toutefois, une fois dans cette liste, vous pouvez modifier votre enregistrement en tout temps en remplissant et validant à nouveau ce formulaire.</p>';
-$string['registrationno'] = 'Non, je ne désire pas recevoir de courriels';
+$string['registrationno'] = 'Non, je ne désire pas recevoir de courriel';
 $string['registrationsend'] = 'Envoyer les informations d\'enregistrement à moodle.org';
 $string['registrationyes'] = 'Oui, envoyez-moi les informations importantes';
 $string['reject'] = 'Rejeter';
@@ -1402,7 +1402,7 @@ $string['uploadafile'] = 'Déposer un fichier';
 $string['uploadedfile'] = 'Le fichier a été déposé avec succès';
 $string['uploadedfileto'] = 'Le fichier «&nbsp;$a->file&nbsp;» a été déposé dans le dossier «&nbsp;$a->directory&nbsp;»';
 $string['uploadedfiletoobig'] = 'Ce fichier dépasse la taille maximale (fixée à $a octets)';
-$string['uploadfailednotrecovering'] = 'Votre dépôt de fichier a échoué car un des fichiers, $a->name, a posé problème.<br/>Voici une liste des problèmes rencontrés :<br />$a->problem<br />Impossible de rattrapper l\'erreur.';
+$string['uploadfailednotrecovering'] = 'Votre dépôt de fichier a échoué car un des fichiers, $a->name, a posé problème.<br/>Voici une liste des problèmes rencontrés :<br />$a->problem<br />Impossible de rattraper l\'erreur.';
 $string['uploadfilelog'] = 'Historique du dépôt du fichier $a';
 $string['uploadformlimit'] = 'Le fichier déposé dépasse la taille maximale fixée dans le formulaire';
 $string['uploadlabel'] = 'Titre :';
