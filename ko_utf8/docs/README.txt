@@ -1,46 +1,12 @@
-무들 문서
----------
+이 문서 경로에는 상당한 분량의 문서가 HTML 형식으로 저장되어 있습니다.
 
-본 문서를 여러분이 쓰고 있는 언어로 번역하고 싶으면 
-다음 사항을 지켜주십시오.
+이제 거의 모든 문서는 위키로된 무들 문서 저장고로 이동될 것입니다.
 
-  1) 동일한 경로 안에 영문판(English version)을 포함시키지 마십시요.
-     영문판은 여러분이 사용하는 언어팩에 해당 문서가 없을 경우
-     자동으로 대치되기 때문입니다.
+이 곳에 있던 문서를 다른 곳에서 찾아보기 원하신다면, 다음의 링크를 참조하기 바랍니다.
 
-  2) 아래에 제시된 순서로(가급적 중요한 것부터) 차례로 번역해 주기 바랍니다.
+    http://docs.moodle.org/en/MoodleDocs_and_lang_packs
 
-    제일 중요한 문서
-    |-------------------
-    |
-    |   - files.php
-    |   - install.html
-    |   - installamp.html
-    |   - upgrade.html
-    |   - faq.html
-    |
-    |  -----------------
-    |
-    |   - teacher.html
-    |   - module_files.txt
-    | 
-    |  -----------------
-    |   
-    |   - intro.html
-    |   - features.html
-    |   - release.html
-    |
-    |  -----------------
-    |
-    |   - developer.html
-    |   - cvs.html
-    |   - future.html
-    |
-    |  -----------------
-    |   
-    |   - license.html
-    |
-    |-------------------
-    별로 시급하지 않은 문서
+    http://tracker.moodle.org/browse/MDL-4912
 
-  3) credits.html 문서는 너무 자주 변하므로 번역하지 마십시오.
+2007년 7월 10일
+친애하는 여러분의 Martin Dougiamas가
