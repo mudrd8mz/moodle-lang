@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007071801)
+      // grades.php - created with Moodle 1.9 dev (2007071900)
 
 
 $string['addcategory'] = 'カテゴリの追加';
@@ -7,12 +7,16 @@ $string['addcategoryerror'] = 'カテゴリを追加できませんでした。'
 $string['addexceptionerror'] = 'ユーザID:評定項目への例外追加中にエラーが発生しました。';
 $string['addfeedback'] = 'フィードバックの追加';
 $string['additem'] = '評定項目の追加';
+$string['aggregateextracreditmeanall'] = 'すべての評点の平均 (追加点扱い)';
+$string['aggregateextracreditmeangraded'] = '空ではない評点の平均 (追加点扱い)';
 $string['aggregatemax'] = '最高評点';
 $string['aggregatemeanall'] = 'すべての評点の平均';
 $string['aggregatemeangraded'] = '空ではない評点の平均';
 $string['aggregatemedian'] = 'すべての評点の中央値';
 $string['aggregatemin'] = '最小評点';
 $string['aggregatemode'] = 'すべての評点の最頻値';
+$string['aggregateweightedmeanall'] = 'すべての評点の加重平均';
+$string['aggregateweightedmeangraded'] = '空ではない評点の加重平均';
 $string['aggregation'] = '総計';
 $string['aggregationposition'] = '総計の位置';
 $string['aggregationview'] = '総計の表示';
