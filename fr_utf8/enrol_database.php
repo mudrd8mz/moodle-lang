@@ -19,6 +19,7 @@ $string['enrolname'] = 'Base de données externe';
 $string['enrol_database_autocreation_settings'] = 'Création automatique des nouveaux cours';
 $string['general_options'] = 'Options générales';
 $string['host'] = 'Nom d\'hôte du serveur de base de données';
+$string['ignorehiddencourse'] = 'Si cette option est activée, les utilisateurs ne seront pas inscrits aux cours non disponibles pour les étudiants.';
 $string['localcoursefield'] = 'Nom du champ de la table des cours du Moodle utilisé pour faire correspondre les cours avec la base de données distante (par exemple «&nbsp;idnumber&nbsp;»)';
 $string['localrolefield'] = 'Nom du champ de la table des rôles utilisé pour faire correspondre les cours avec la base de données distante (par exemple «&nbsp;shortname&nbsp;»).';
 $string['localuserfield'] = 'Nom du champ de la table des utilisateurs utilisé pour faire correspondre les cours avec la base de données distante (par exemple «&nbsp;idnumber&nbsp;»).';
