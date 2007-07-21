@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007071900)
+      // grades.php - created with Moodle 1.9 dev (2007072100)
 
 
 $string['addcategory'] = 'カテゴリの追加';
@@ -9,12 +9,16 @@ $string['addfeedback'] = 'フィードバックの追加';
 $string['additem'] = '評定項目の追加';
 $string['aggregateextracreditmeanall'] = 'すべての評点の平均 (追加点扱い)';
 $string['aggregateextracreditmeangraded'] = '空ではない評点の平均 (追加点扱い)';
-$string['aggregatemax'] = '最高評点';
+$string['aggregatemaxall'] = 'すべての評点の最高評点';
+$string['aggregatemaxgraded'] = '空ではない評点の最高評点';
 $string['aggregatemeanall'] = 'すべての評点の平均';
 $string['aggregatemeangraded'] = '空ではない評点の平均';
-$string['aggregatemedian'] = 'すべての評点の中央値';
-$string['aggregatemin'] = '最小評点';
-$string['aggregatemode'] = 'すべての評点の最頻値';
+$string['aggregatemedianall'] = 'すべての評点の中央値';
+$string['aggregatemediangraded'] = '空ではない評点の中央値';
+$string['aggregateminall'] = 'すべての評点の最小評点';
+$string['aggregatemingraded'] = '空ではない評点の最小評点';
+$string['aggregatemodeall'] = 'すべての評点の最頻値';
+$string['aggregatemodegraded'] = '空ではない評点の最頻値';
 $string['aggregateweightedmeanall'] = 'すべての評点の加重平均';
 $string['aggregateweightedmeangraded'] = '空ではない評点の加重平均';
 $string['aggregation'] = '総計';
@@ -83,6 +87,7 @@ $string['dropxlowest'] = '下位X件の除外';
 $string['dropxlowestwarning'] = '注意: 「下位X件の除外」を使用する場合、カテゴリ内のすべての評定項目は同じ最大評点を持つとみなされます。カテゴリ内のそれぞれの評定項目の最大評点が異なる場合、結果は保証されません。';
 $string['editcalculation'] = '計算の編集';
 $string['editfeedback'] = 'フィードバックの編集';
+$string['editgrade'] = '評定の編集';
 $string['edittree'] = 'カテゴリ';
 $string['enableajax'] = 'AJAXを有効にする';
 $string['encoding'] = 'エンコーディング';
@@ -210,6 +215,7 @@ $string['noselecteditems'] = '項目を選択してください。';
 $string['notteachererror'] = 'この機能は教師のみ使用できます。';
 $string['onascaleof'] = '尺度の適用範囲: $a->grademin - $a->grademax';
 $string['outcome'] = '結果';
+$string['overridden'] = 'オーバーライド';
 $string['pctoftotalgrade'] = '評点合計の%%';
 $string['percent'] = 'パーセント';
 $string['percentage'] = 'パーセンテージ';
@@ -300,6 +306,5 @@ $string['weightedpctcontribution'] = '加重%%内訳';
 $string['writinggradebookinfo'] = '評定表設定の書き込み';
 $string['yes'] = 'Yes';
 $string['yourgrade'] = 'あなたの評定';
-$string['raw'] = '実データ'; // ORPHANED
 
 ?>
