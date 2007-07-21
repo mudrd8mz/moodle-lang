@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007071801)
+      // grades.php - created with Moodle 1.9 dev (2007071900)
 
 
 $string['addcategory'] = '범주 추가';
@@ -7,12 +7,16 @@ $string['addcategoryerror'] = '범주를 추가할 수 없습니다.';
 $string['addexceptionerror'] = '사용자 ID:성적항목의 제외 작업을 하는 동안 오류가 발생하였습니다.';
 $string['addfeedback'] = '의견 추가';
 $string['additem'] = '채점 항목 추가';
+$string['aggregateextracreditmeanall'] = '모든 점수의 평균(별도 이수)';
+$string['aggregateextracreditmeangraded'] = '비어있지 않은 점수의 평균(별도 이수)';
 $string['aggregatemax'] = '최고점';
 $string['aggregatemeanall'] = '모든 점수의 평균';
 $string['aggregatemeangraded'] = '비어있지 않은 점수의 평균';
 $string['aggregatemedian'] = '모든 점수의 중간값';
 $string['aggregatemin'] = '최저점';
 $string['aggregatemode'] = '모든 점수의 최빈값';
+$string['aggregateweightedmeanall'] = '모든 점수의 가중평균';
+$string['aggregateweightedmeangraded'] = '비어있지 않은 점수의 가중평균';
 $string['aggregation'] = '총합계';
 $string['aggregationposition'] = '총합계의 서열';
 $string['aggregationview'] = '총합계 보기';
