@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.6.2+ (2006050521)
+      // xmldb.php - created with Moodle 1.9 dev (2007070501)
 
 
 $string['aftertable'] = 'Nach Tabelle:';
@@ -9,6 +9,12 @@ $string['binaryincorrectlength'] = 'Falsche Feldlänge (binary)';
 $string['cannotuseidfield'] = '\"id\"-Feld kann nicht eingefügt werden. Es handelt sich um eine Spalte, die automatisch nummeriert wird.';
 $string['change'] = 'Ändern';
 $string['charincorrectlength'] = 'Falsche Feldlänge (char)';
+$string['check_indexes'] = 'Fehlende Datenbank-Indizes suchen';
+$string['checkindexes'] = 'Indizes prüfen';
+$string['completelogbelow'] = '(das vollständige Suchprotokoll folgt)';
+$string['confirmcheckindexes'] = 'Diese Funktion sucht nach möglicherweise fehlenden Indizes in Ihrem Moodle-Server, wobei die nötigen SQL-Anweisungen für ein Update automatisch erzeugt (aber nicht ausgeführt) werden. Nachdem die Anweisungen erzeugt sind, können Sie sie kopieren und in Ihrem bevorzugten SQL-Zugang ausführen.<br /><br />
+Es wird dringend empfohlen, die neueste verfügbare +Version zu Ihrem Moodle-Release (1.8, 1.9, 2.x ...) zu installieren, bevor Sie die Suche nach fehlenden Indizes starten.<br /><br />
+Die Funktion führt keine SQL-Anweisungen auf Ihrer Datenbank aus (außer dass sie lesend zugreift), so dass die Funktion zu jedem Zeitpunkt sicher ausgeführt werden kann.';
 $string['confirmdeletefield'] = 'Sind Sie wirklich sicher, dass Sie dieses Feld löschen wollen:';
 $string['confirmdeleteindex'] = 'Sind Sie wirklich sicher, dass Sie diesen Index löschen wollen:';
 $string['confirmdeletekey'] = 'Sind Sie wirklich sicher, dass Sie diesen Schlüssel löschen wollen:';
@@ -48,13 +54,17 @@ $string['floatincorrectdecimals'] = 'Falsche Anzahl von Nachkommazahlen (float)'
 $string['floatincorrectlength'] = 'Falsche Feldlänge (float)';
 $string['gotolastused'] = 'Gehe zur zuletzt genutzten Datei.';
 $string['incorrectfieldname'] = 'Falscher Name';
+$string['index'] = 'Index';
 $string['indexes'] = 'Indizes';
 $string['integerincorrectlength'] = 'Falsche Feldlänge (integer)';
+$string['key'] = 'Schlüssel';
 $string['keys'] = 'Schlüssel';
 $string['listreservedwords'] = 'Liste von reservierten Wörtern<br/>auf dem aktuellsten Stand: <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a>';
 $string['load'] = 'Laden';
 $string['main_view'] = 'Hauptübersicht';
+$string['missing'] = 'Fehlend';
 $string['missingfieldsinsentence'] = 'Fehlende Felder in Satz';
+$string['missingindexes'] = 'Fehlende Indizes gefunden';
 $string['missingvaluesinsentence'] = 'Fehlende Werte in Satz';
 $string['mustselectonefield'] = 'Sie müssen ein Feld auswählen, um die damit verbundenen Aktionen zu sehen!';
 $string['mustselectoneindex'] = 'Sie müssen einen Index auswählen, um die damit verbundenen Aktionen zu sehen!';
@@ -68,6 +78,7 @@ $string['newsentence'] = 'Neuer Satz';
 $string['newstatement'] = 'Neue Anweisung';
 $string['newtable'] = 'Neue Tabelle';
 $string['newtablefrommysql'] = 'Neue Tabelle aus MySQL';
+$string['nomissingindexesfound'] = 'Es wurden keine felenden Indizes gefunden. Die Datenbank benötigt keine weitere Bearbeitung.';
 $string['numberincorrectdecimals'] = 'Falsche Anzahl von Stellen (number)';
 $string['numberincorrectlength'] = 'Falsche Feldlänge (number)';
 $string['reserved'] = 'Reserviert';
@@ -75,6 +86,7 @@ $string['reservedwords'] = 'Reservierte Wörter';
 $string['revert'] = 'Rückgängig';
 $string['revert_changes'] = 'Änderungen rückgängig machen';
 $string['save'] = 'Speichern';
+$string['searchresults'] = 'Suchergebnisse';
 $string['selectaction'] = 'Aktion auswählen:';
 $string['selectdb'] = 'Datenbank auswählen:';
 $string['selectfieldkeyindex'] = 'Feld/Schlüssel/Index auswählen:';
@@ -104,5 +116,7 @@ $string['viewsqlcode'] = 'SQL-Code anzeigen';
 $string['wronglengthforenum'] = 'Falsche Feldlänge (enum)';
 $string['wrongnumberoffieldsorvalues'] = 'Falsche Anzahl von Feldern oder Werten in Satz';
 $string['wrongreservedwords'] = 'Derzeit verwendete reservierte Wörter <br />(die Tabellennamen sind nicht wichtig, wenn $CFG->prefix genutzt wird)';
+$string['yesmissingindexesfound'] = 'Einige fehlende Indizes wurden in Ihrer Datenbank gefunden. Es folgen genauere Einzelheiten und die nötigen SQL-Anweisungen, die Sie mit Ihrem bevorzugten SQL-Werkzeug ausführen müssen, um alle Indizes zu erzeugen.<br /><br />
+Es wird dringend empfohlen, die Suche nach fehlenden Indizes danach noch einmal auszuführen.';
 
 ?>

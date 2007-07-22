@@ -1,41 +1,16 @@
+ÜBER DIESES VERZEICHNIS
+----------------------- 
 
-Wenn Sie diese Dokumentation in eine andere Sprache übersetzen wollen,
-empfehle ich Ihnen:
+Dieses Verzeichnis wurde ursprünglich dafür benutzt, um eine 
+Menge von Informationen im HTML-Format bereitzustellen. Alle 
+Dateien wurden jetzt entfernt, weil wir dafür inzwischen das 
+Wiki "Moodle Docs" benutzen.
 
- 1) die englischen Versionen der Dateien nicht in dieses Verzeichnis zu kopieren.
-    Wenn das Programm im von Ihnen gewählten Sprachverzeichnis keine Übersetzung dieser
-    Datei findet, nutzt es automatisch die englische Fassung.
+Um diese Informationen an ihren neuen Speicherorten zu finden, 
+sehen Sie bitte hier nach: 
 
- 2) Übersetzen Sie in der folgenden Reihenfolge (beginnen Sie mit den wichtigsten Dateien):
+    http://docs.moodle.org/en/MoodleDocs_and_lang_packs
+    http://tracker.moodle.org/browse/MDL-4912
 
-    DIE WICHTIGSTEN DATEIEN
-    |-------------------
-    |
-    |   - files.php
-    |   - install.html
-    |   - upgrade.html
-    |
-    |  -----------------
-    |
-    |   - teacher.html
-    |   - module_files.txt
-    |
-    |  -----------------
-    |
-    |   - intro.html
-    |   - features.html
-    |   - release.html
-    |
-    |  -----------------
-    |
-    |   - developer.html
-    |   - cvs.html
-    |   - future.html
-    |
-    |  -----------------
-    |
-    |   - license.html
-    |   - credits.html
-    |
-    |-------------------
-    WENIGER WICHTIGE DATEIEN
+Cheers,
+Martin Dougiamas, 10.Juli 2007

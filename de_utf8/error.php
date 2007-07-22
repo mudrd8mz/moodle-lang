@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007050901)
+      // error.php - created with Moodle 1.9 dev (2007070501)
 
 
 $string['adminprimarynoedit'] = 'Der Hauptadmin kann nicht von anderen bearbeitet werden';
@@ -29,8 +29,10 @@ $string['errorunzippingfiles'] = 'Fehler beim Entpacken der Dateien';
 $string['fieldrequired'] = '\"$a\" ist ein Pflichtfeld';
 $string['filenotfound'] = 'Entschuldigung, die angeforderte Datei wurde nicht gefunden.';
 $string['forumblockingtoomanyposts'] = 'Sie haben die Höchstzahl der zulässigen Beiträge für dieses Forum erreicht.';
-$string['groupalready'] = 'Teilnehmer/in gehört bereits zur Gruppe $a.';
-$string['groupunknown'] = 'Die Gruppe $a gehört nicht zum ausgewählten Kurs.';
+$string['groupalready'] = 'Nutzer/in gehört bereits zur Gruppe $a.';
+$string['groupexistforcourse'] = 'Die Gruppe \"$a\" existiert bereits in diesem Kurs.';
+$string['groupnotaddederror'] = 'Die Gruppe \"$a\" wurde nicht hinzugefügt.';
+$string['groupunknown'] = 'Die Gruppe \"$a\" gehört nicht zum ausgewählten Kurs.';
 $string['guestnoeditprofile'] = 'Gäste können das Profil nicht bearbeiten.';
 $string['guestnoeditprofileother'] = 'Das Profil für Gäste kann nicht bearbeitet werden.';
 $string['invalidcourse'] = 'Ungültiger Kurs';
@@ -79,6 +81,7 @@ $string['sessionipnomatch'] = 'Entschuldigung, Ihre IP-Adresse scheint sich seit
 $string['statscatchupmode'] = 'Die Statistiken befinden sich im sog. Catchup-Modus. Bisher sind $a->daysdone Tage verarbeitet und $a->dayspending Tage werden noch bearbeitet. Prüfen Sie es später noch einmal.';
 $string['unicodeupgradeerror'] = 'Entschuldigung, aber Ihre Datenbank hat kein Unicode-Format. Diese Moodle-Version ist deswegen nicht fähig, Ihre Datenbank nach Unicode umzuwandeln. Bitte aktualisieren Sie zuerst auf Moodle 1.7.x. Anschließend starten Sie die Unicode-Umwandlung auf der Admin-Seite. Anschließend sollte es möglich sein, auf Moodle $a zu aktualisieren.';
 $string['unknowncourse'] = 'Unbekannter Kursname \"$a\"';
+$string['unknowncourseidnumber'] = 'Unbekannte Kurs-ID \"$a\"';
 $string['unknownuseraction'] = 'Entschuldigung, diese Nutzeraktion wurde nicht verstanden.';
 $string['usernotaddederror'] = 'Nutzer \"$a\" wurde nicht hinzugefügt - unbekannter Fehler';
 $string['usernotaddedregistered'] = 'Nutzer \"$a\" wurde nicht hinzugefügt - er/sie war bereits registriert.';

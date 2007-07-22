@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 (2007021501)
+      // group.php - created with Moodle 1.9 dev (2007070501)
 
 
 $string['addgroupstogrouping'] = 'Gruppe zur Gruppierung hinzufügen';
@@ -37,6 +37,7 @@ $string['errornotingrouping'] = 'Entschuldigung, aber Sie können keine Gruppe i
 $string['errornotingroupingedit'] = 'Entschuldigung, aber Sie können die Gruppierung $a nicht bearbeiten';
 $string['existingmembers'] = 'Vorhandene Mitglieder: $a';
 $string['group'] = 'Gruppe';
+$string['groupaddedsuccesfully'] = 'Gruppe $a erfolgreich hinzugefügt';
 $string['groupdescription'] = 'Gruppenbeschreibung';
 $string['groupfor'] = 'für die Gruppe';
 $string['groupinfo'] = 'Info über markierte Gruppen';
@@ -66,6 +67,7 @@ $string['hidepicture'] = 'Bild verbergen';
 $string['javascriptrequired'] = 'Diese Seite benötigt JavaScript, um aktiviert zu werden.';
 $string['membersofselectedgroup'] = 'Mitglieder der Gruppe';
 $string['newpicture'] = 'Neues Bild';
+$string['nopermissionforcreation'] = 'Die Gruppe \"$a\" konnte nicht erstellt werden, weil Sie nicht über die notwendigen Rechte verfügen.';
 $string['notingrouping'] = '[Nicht in einer Gruppierung]';
 $string['numberofgroups'] = 'Anzahl der Gruppen';
 $string['numberofstudents'] = 'Anzahl der Teilnehmer/innen';

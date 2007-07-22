@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 dev (2007060100)
+      // assignment.php - created with Moodle 1.9 dev (2007070501)
 
 
 $string['allowdeleting'] = 'Löschen erlauben';
@@ -94,10 +94,10 @@ $string['submitedformarking'] = 'Die Lösung der Aufgabe wurde jetzt zur Bewertu
 $string['submitformarking'] = 'Aufgabe zur Bewertung abgeben';
 $string['submitted'] = 'Eingereicht';
 $string['submittedfiles'] = 'Eingereichte Dateien';
-$string['typeoffline'] = 'Offline-Aktivität';
-$string['typeonline'] = 'Online-Aktivität';
-$string['typeupload'] = 'Dateien hochladen (erweitert)';
-$string['typeuploadsingle'] = 'Eine einzige Datei hochladen';
+$string['typeoffline'] = 'Offline - Aktivität';
+$string['typeonline'] = 'Online - Texteingabe';
+$string['typeupload'] = 'Online - mehrere Dateien hochladen';
+$string['typeuploadsingle'] = 'Online - eine Datei hochladen';
 $string['unfinalize'] = 'Status in \'Entwurf\' ändern';
 $string['uploadbadname'] = 'Dieser Dateiname enthält unzulässige Zeichen und kann nicht hochgeladen werden.';
 $string['uploadedfiles'] = 'hochgeladene Dateien';

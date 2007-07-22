@@ -1,20 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
-<html>
-<head>
-<title></title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-</head>
-<body>
-ÜBER DIESES VERZEICHNIS ----------------------- SIE SOLLTEN
-KEINE DER DATEIEN IN DIESEM VERZEICHNIS VERÄNDERN,
-UMBENENNEN ODER VERSCHIEBEN wenn Sie sich nicht ganz sicher sind,
-was Sie tun. Veränderungen dieser Dateien können die
-Funktionsfähigkeit Ihres Lehrgangs beeinträchtigen.
-Dieses Verzeichnis enthält Dateien, die in verschiedenen
-Anwendungsbereichen (zumeist von Teilnehmer/innen) hochgeladen
-wurden. Dies können zum Beispiel eingereichte
-Prüfungsarbeiten oder Forumsbeiträge sein. Die Namen
-der Verzeichnisse oder der Dateien sind automatisch von moodle
-erstellt und dürfen auf keinen Fall verändert werden.
-</body>
-</html>
+ÜBER DIESES VERZEICHNIS
+----------------------- 
+
+SIE SOLLTEN KEINE DER DATEIEN IN DIESEM VERZEICHNIS 
+VERÄNDERN, UMBENENNEN ODER VERSCHIEBEN, wenn Sie 
+sich nicht ABSOLUT ganz sicher sind, was Sie tun. 
+
+Unüberlegte Veränderungen dieser Dateien können die 
+Funktionsfähigkeit Ihrer Kurse beeinträchtigen.
+
+Dieses Verzeichnis enthält Dateien, die in verschiedenen 
+Anwendungsbereichen (zumeist von Teilnehmer/innen) 
+hochgeladen wurden. Dies können zum Beispiel eingereichte 
+Prüfungsarbeiten oder Forumsbeiträge sein. 
+
+Die Namen der Verzeichnisse und die Namen der Dateien 
+wurden automatisch von Moodle erstellt und dürfen auf 
+keinen Fall verändert werden!

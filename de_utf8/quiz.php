@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007063001)
+      // quiz.php - created with Moodle 1.9 dev (2007070501)
 
 
 $string['1day'] = '1 Tag';
@@ -99,6 +99,7 @@ $string['confirmstartattempttimelimit'] = 'Sie können bis zu $a Versuch(e) in d
 $string['confirmstarttimelimit'] = 'Der Test ist zeitlich begrenzt. Wollen Sie jetzt einen Versuch starten?';
 $string['containercategorycreated'] = 'Die Kategorie wurde aus den unten genannten Gründen angelegt, um alle Fragen aus anderen Kategorien aufzunehmen.';
 $string['continueattemptquiz'] = 'Letzten Versuch fortsetzen';
+$string['continuepreview'] = 'Letzte Vorschau fortsetzen';
 $string['copyingfrom'] = 'Erstellen einer Kopie der Frage \'$a\'';
 $string['copyingquestion'] = 'Eine Frage kopieren';
 $string['correct'] = 'Richtig';
@@ -377,7 +378,8 @@ $string['popupblockerwarning'] = 'Dieser Bereich des Tests läuft im sicheren Mo
 $string['popupnotice'] = 'Teilnehmer/innen sehen den Test in einem sicheren Fenster.';
 $string['preview'] = 'Vorschau';
 $string['previewquestion'] = 'Vorschau der Frage';
-$string['previewquiz'] = 'Testvorschau';
+$string['previewquiz'] = 'Vorschau $a';
+$string['previewquiznow'] = 'Vorschau ansehen';
 $string['previous'] = 'Letzter Zustand';
 $string['publish'] = 'Veröffentlichen';
 $string['publishedit'] = 'Um Fragen in dieser Kategorie zu bearbeiten, müssen Sie über die erforderlichen Rechte verfügen.';

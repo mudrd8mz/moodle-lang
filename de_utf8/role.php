@@ -4,7 +4,7 @@
 
 $string['addrole'] = 'Neue Rolle hinzufügen';
 $string['allow'] = 'Erlauben';
-$string['allowassign'] = 'Rechte zur Rollenzuordnung';
+$string['allowassign'] = 'Rechte zur Rollenzuweisung';
 $string['allowoverride'] = 'Rechte zur Rollenänderung';
 $string['assignglobalroles'] = 'Globale Rollen zuweisen';
 $string['assignroles'] = 'Rollen zuweisen';
@@ -36,7 +36,7 @@ $string['course:reset'] = 'Kurs zurücksetzen';
 $string['course:sectionvisibility'] = 'Sichtbarkeit von Bereichen setzen';
 $string['course:setcurrentsection'] = 'Aktuellen Bereich setzen';
 $string['course:update'] = 'Kurseinstellungen aktualisieren';
-$string['course:useremail'] = 'Darf E-Mail-Adresse ein-/ausschalten';
+$string['course:useremail'] = 'Darf E-Mail-Adresse ein/ausschalten';
 $string['course:view'] = 'Kurse sehen';
 $string['course:viewallgrades'] = 'Alle Bewertungen sehen';
 $string['course:viewcoursegrades'] = 'Bewertungen sehen';
