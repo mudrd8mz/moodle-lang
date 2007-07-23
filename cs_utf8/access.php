@@ -1,8 +1,7 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.8 dev (2007010404)
+      // access.php - created with Moodle 1.8.1+ (2007021510)
 
 
-$string['access'] = 'Přístupnost';
 $string['accesshelp'] = 'Nápověda k přístupnosti';
 $string['accesskey'] = 'Zkratková klávesa, $a';
 $string['accessstatement'] = 'Prohlášení o přístupnosti';
@@ -21,5 +20,6 @@ $string['tablelayout'] = 'Formátovací tabulka, $a';
 $string['tocontent'] = 'Přejít k hlavnímu obsahu';
 $string['tonavigation'] = 'Přejít k navigaci';
 $string['youarehere'] = 'Nacházíte se zde';
+$string['access'] = 'Přístupnost'; // ORPHANED
 
 ?>
