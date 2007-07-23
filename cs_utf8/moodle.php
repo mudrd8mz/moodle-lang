@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 + (2007021503)
+      // moodle.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['action'] = 'Akce';
@@ -11,8 +11,8 @@ $string['activity'] = 'Činnost';
 $string['activityclipboard'] = 'Přesun činnosti: <b>$a</b>';
 $string['activityiscurrentlyhidden'] = 'Bohužel, tato činnost je momentálně skrytá';
 $string['activitymodule'] = 'Modul - název činnosti';
-$string['activityreport'] = 'Protokol o činnosti';
-$string['activityreports'] = 'Protokoly o činnosti';
+$string['activityreport'] = 'Sestava o činnosti';
+$string['activityreports'] = 'Sestavy o činnosti';
 $string['activityselect'] = 'Vybrat tuto činnost k přesunu';
 $string['activitysince'] = 'Výpis od $a';
 $string['activityweighted'] = 'Výpis podle uživatele';
@@ -57,14 +57,14 @@ $string['adminhelpenvironment'] = 'Kontrola stávajících a budoucích požadav
 $string['adminhelpfailurelogs'] = 'Zobrazit protokol o neúspěšných přihlášeních';
 $string['adminhelphealthcenter'] = 'Automatické zjišťování problémů v instalaci';
 $string['adminhelplanguage'] = 'Kontrola a úpravy instalovaných lokalizací';
-$string['adminhelplogs'] = 'Archiv protokolů o činnosti na stránkách';
+$string['adminhelplogs'] = 'Procházet protokol o činnosti na stránkách';
 $string['adminhelpmanageblocks'] = 'Správa nainstalovaných bloků a jejich nastavení';
 $string['adminhelpmanagedatabase'] = 'Přímý přístup do databáze (hlavně opatrně!)';
 $string['adminhelpmanagefilters'] = 'Správa textových filtrů a jejich nastavení';
 $string['adminhelpmanagemodules'] = 'Správa nainstalovaných modulů a jejich nastavení';
 $string['adminhelpmanageroles'] = 'Vytvořit a definovat role, které lze aplikovat na uživatele.';
 $string['adminhelpmymoodle'] = 'Nastavení uživatelských bloků \"Můj Moodle\"';
-$string['adminhelpreports'] = 'Protokoly na úrovni celých stránek';
+$string['adminhelpreports'] = 'Sestavy na úrovni celých stránek';
 $string['adminhelpsitefiles'] = 'Obecně použitelné soubory a místo pro upload externích záloh';
 $string['adminhelpsitesettings'] = 'Nastavení vzhledu titulní stránky';
 $string['adminhelpstickyblocks'] = 'Nastavení povinných bloků';
@@ -199,12 +199,12 @@ $string['checknone'] = 'Neprověřovat nic';
 $string['childcoursenotfound'] = 'Asociovaný kurz nenalezen!';
 $string['childcourses'] = 'Asociované kurzy';
 $string['choose'] = 'Vybrat';
-$string['chooseauthmethod'] = 'Zvolte  zásuvný modul pro přihlašování';
+$string['chooseauthmethod'] = 'Zvolte zásuvný modul pro přihlašování';
 $string['choosecourse'] = 'Vyberte kurz';
-$string['chooseenrolmethod'] = 'Primární metoda zápisů';
+$string['chooseenrolmethod'] = 'Zvolte zásuvný modul pro zápis do kurzů';
 $string['chooselivelogs'] = 'Online sledování probíhající činnosti';
-$string['chooselogs'] = 'Zobrazení podrobných protokolů o činnosti';
-$string['choosereportfilter'] = 'Vyberte filtr zprávy';
+$string['chooselogs'] = 'Zobrazení protokolu o činnosti';
+$string['choosereportfilter'] = 'Vyberte filtr sestavy';
 $string['choosetheme'] = 'Vyberte motiv';
 $string['chooseuser'] = 'Vyberte uživatele';
 $string['city'] = 'Město/obec';
@@ -224,7 +224,7 @@ $string['clicktochange'] = 'klikněte pro změnu';
 $string['closewindow'] = 'Zavřít toto okno';
 $string['comparelanguage'] = 'Porovnat a upravit současný jazyk';
 $string['complete'] = 'Podrobný';
-$string['completereport'] = 'Podrobná zpráva';
+$string['completereport'] = 'Podrobná sestava';
 $string['configuration'] = 'Nastavení';
 $string['confirm'] = 'Potvrdit';
 $string['confirmed'] = 'Vaše registrace byla potvrzena';
@@ -617,13 +617,14 @@ $string['gd1'] = 'GD 1.x nainstalována';
 $string['gd2'] = 'GD 2.x nainstalována';
 $string['gdneed'] = 'K zobrazení tohoto grafu musí být nainstalována knihovna GD.';
 $string['gdnot'] = 'GD není nainstalována';
-$string['gettheselogs'] = 'Získat tyto zápisy';
+$string['gettheselogs'] = 'Zobrazit protokol';
 $string['go'] = 'Proveď';
-$string['gpl'] = 'Copyright (C) 1999-2005  Martin Dougiamas  (http://moodle.com)
+$string['gpl'] = 'Copyright (C) 1999 a dále Martin Dougiamas  (http://moodle.com)
 <p>
 Tento program je volný software; můžete jej šířit a modifikovat podle ustanovení Obecné veřejné licence GNU, vydávané Free Software Foundation; a to buď podle verze 2 této licence anebo (podle vašeho uvážení) kterékoli pozdější verze.
 <p>
-Tento program je rozšiřován v naději, že bude užitečný, avšak BEZ JAKÉKOLI ZÁRUKY; neposkytují se ani odvozené záruky PRODEJNOSTI anebo VHODNOSTI PRO URČITÝ ÚČEL. Další podrobnosti hledejte v Obecné veřejné licenci GNU:
+Tento program je rozšiřován v naději, že bude užitečný, avšak BEZ JAKÉKOLI ZÁRUKY; neposkytují se ani odvozené záruky PRODEJNOSTI anebo VHODNOSTI PRO URČITÝ ÚČEL. Další podrobnosti hledejte na stránce 
+http://docs.moodle.org/en/License a v Obecné veřejné licenci GNU:
 <p>
 http://www.gnu.cz/
 <br />
@@ -1023,7 +1024,7 @@ $string['optional'] = 'volitelné';
 $string['order'] = 'Pořadí';
 $string['other'] = 'Jiný';
 $string['outline'] = 'Stručný';
-$string['outlinereport'] = 'Stručná zpráva';
+$string['outlinereport'] = 'Stručná sestava';
 $string['page'] = 'Stránka';
 $string['pageheaderconfigablock'] = 'Konfigurace bloku v %%fullname%%';
 $string['parentcoursenotfound'] = 'Nadřazený kurz nenalezen!';
@@ -1095,7 +1096,7 @@ $string['question'] = 'Otázka';
 $string['readinginfofrombackup'] = 'Čtení informací ze zálohy';
 $string['readme'] = 'README';
 $string['recentactivity'] = 'Nedávná činnost';
-$string['recentactivityreport'] = 'Úplná zpráva o nedávné činnosti...';
+$string['recentactivityreport'] = 'Úplná sestava o nedávné činnosti...';
 $string['recipientslist'] = 'Seznam příjemců';
 $string['recreatedcategory'] = 'Přetvořená kategorie $a';
 $string['refresh'] = 'Obnovit';
@@ -1117,8 +1118,8 @@ $string['removestudent'] = 'Odstranit studenta';
 $string['removeteacher'] = 'Odstranit učitele';
 $string['rename'] = 'Přejmenovat';
 $string['renamefileto'] = 'Přejmenovat <b>$a</b> na';
-$string['report'] = 'Protokol';
-$string['reports'] = 'Protokoly';
+$string['report'] = 'Sestava';
+$string['reports'] = 'Sestavy';
 $string['requestcourse'] = 'Požádat o založení kurzu';
 $string['requestedby'] = 'Žadatel';
 $string['requestreason'] = 'Důvody pro založení';
@@ -1218,7 +1219,7 @@ $string['showonlytopic'] = 'Ukázat pouze téma $a';
 $string['showonlyweek'] = 'Ukázat pouze týden $a';
 $string['showperpage'] = 'Ukázat $a na stránce';
 $string['showrecent'] = 'Ukázat nedávnou činnost';
-$string['showreports'] = 'Ukázat zprávu o činnosti';
+$string['showreports'] = 'Ukázat sestavu o činnosti';
 $string['showsettings'] = 'Ukázat nastavení';
 $string['showtheselogs'] = 'Ukázat tyto protokoly';
 $string['since'] = 'Od';
@@ -1270,20 +1271,20 @@ $string['statsreport11'] = 'Kurzy s nejvyšší aktivitou';
 $string['statsreport12'] = 'Kurzy s nejvyšší aktivitou (váženo)';
 $string['statsreport13'] = 'Kurzy s nejvyšší participací (podle zapsaných uživatelů)';
 $string['statsreport14'] = 'Kurzy s nejvyšší participací (podle poměru prohlížení/příspěvky)';
-$string['statsreport2'] = 'Prohlížení (učitelé a studenti)';
-$string['statsreport3'] = 'Příspěvky (učitelé a studenti)';
-$string['statsreport4'] = 'Veškerá činnost (učitelé a studenti)';
-$string['statsreport5'] = 'Veškerá činnost studentů (prohlížení a příspěvky)';
+$string['statsreport2'] = 'Prohlížení (všechny role)';
+$string['statsreport3'] = 'Příspěvky (všechny role)';
+$string['statsreport4'] = 'Veškerá činnost (všechny role)';
+$string['statsreport5'] = 'Veškerá činnost (prohlížení a příspěvky)';
 $string['statsreport7'] = 'Činnost uživatelů (prohlížení a příspěvky)';
 $string['statsreport8'] = 'Veškerá činnost uživatelů';
 $string['statsreport9'] = 'Přihlášení (na stránky)';
-$string['statsreportactivity'] = 'Veškerá činnost (učitelé a studenti)';
+$string['statsreportactivity'] = 'Veškerá činnost (všechny role)';
 $string['statsreportactivitybyrole'] = 'Veškerá činnost  (prohlížení a příspěvky)';
 $string['statsreportforuser'] = 'pro';
 $string['statsreportlogins'] = 'Přihlášení';
-$string['statsreportreads'] = 'Prohlížení (učitelé a studenti)';
-$string['statsreporttype'] = 'Typ protokolu';
-$string['statsreportwrites'] = 'Příspěvky (učitelé a studenti)';
+$string['statsreportreads'] = 'Prohlížení (všechny role)';
+$string['statsreporttype'] = 'Typ sestavy';
+$string['statsreportwrites'] = 'Příspěvky (všechny role)';
 $string['statsstudentactivity'] = 'Činnost studentů';
 $string['statsstudentreads'] = 'Prohlížení studenty';
 $string['statsstudentwrites'] = 'Příspěvky studentů';
