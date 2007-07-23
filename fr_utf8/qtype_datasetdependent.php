@@ -41,7 +41,7 @@ $string['reuseifpossible'] = 'Réutiliser la valeur précédente si disponible';
 $string['sharedwildcard'] = 'Caractère joker partagé';
 $string['sharedwildcards'] = 'Caractères jokers partagés';
 $string['uniform'] = 'Uniforme';
-$string['updatedatasetparam'] = 'Mettre à jour les paramètre du jeu de données';
+$string['updatedatasetparam'] = 'Mettre à jour les paramètres du jeu de données';
 $string['youmustaddatleastoneitem'] = 'Veuillez ajouter au moins un élément du jeu de données avant d\'enregistrer cette question.';
 
 ?>
