@@ -4,8 +4,8 @@
 
 $string['addrole'] = 'הוסף  תפקיד חדש';
 $string['allow'] = 'אפשר';
-$string['allowassign'] = 'אפשר מתן תפקידים';
-$string['allowoverride'] = 'אפשר עקיפות תפקידים';
+$string['allowassign'] = 'אפשר מתן תפקיד';
+$string['allowoverride'] = 'אפשר עקיפת תפקיד';
 $string['assignglobalroles'] = 'מנה תפקידים חובקי-כל';
 $string['assignroles'] = 'מנה תפקידים';
 $string['blog:create'] = 'צור רשומות חדשות בבלוג';
@@ -69,7 +69,7 @@ $string['legacy:teacher'] = 'תפקיד מורש: מורה (לא עורך)';
 $string['legacy:user'] = 'תפקיד מורש: משתמש מאומת';
 $string['legacytype'] = 'סוג תפקיד מורש';
 $string['listallroles'] = 'רשום ברשימה את כל התפקידים';
-$string['manageroles'] = 'נהל תפקידים';
+$string['manageroles'] = 'נהל תפקיד';
 $string['metaassignerror'] = 'לא היה ניתן למנות את משתמש \"$a\" לתפקיד זה, מפני שדרושה היכולת לנהל מטה-קורס.';
 $string['metaunassignerror'] = 'התפקיד של משתמש \"$a\" הועבר ממנו באופן אוטומטי. במקום זאת בטל בבקשה את התפקיד בקורסי בת.';
 $string['nocapabilitiesincontext'] = 'אין יכולות זמינות בהקשר זה.';

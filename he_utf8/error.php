@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // error.php - created with Moodle 1.8 + (2007021503)
 
 
@@ -45,7 +45,8 @@ $string['loginasonecourse'] = 'אין באפשרותך להיכנס לקורס �
 $string['missingfield'] = 'שדה \"$a\" חסר';
 $string['missingrequiredfield'] = 'חסר שדה נדרש כלשהו';
 $string['modulemissingcode'] = 'במודול $a חסר הקוד הנדרש כדי לבצע פעולה זו';
-$string['modulerequirementsnotmet'] = 'לא ניתן להתקין את פרק\"$ a->modulename\" ($a->moduleversion). התקנתו דורשת גירסה עדכנית יותר של מוודל (כרגע אתה משתמש ב-a->currentmoodle$, ואתה צריך את a->requiremoodle$).';
+$string['modulerequirementsnotmet'] = 'לא ניתן להתקין את פרק\"$a->modulename\"
+($a->moduleversion). התקנתו דורשת גירסה עדכנית יותר של מוודל (כרגע אתה משתמש ב-$a->currentmoodle ואתה צריך את $a->requiremoodle).';
 $string['mustbeteacher'] = 'חובה עליך להיות מורה כדי לראות את עמוד זה';
 $string['nocontext'] = 'סליחה, אבל הקורס ההוא איננו הקשר תקף';
 $string['noinstances'] = 'אין מופעים של $a בקורס זה!';
