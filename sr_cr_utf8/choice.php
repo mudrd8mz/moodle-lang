@@ -18,7 +18,7 @@ $string['displayhorizontal'] = 'Приказати хоризонтално';
 $string['displaymode'] = 'Начин приказа';
 $string['displayvertical'] = 'Приказати вертикално';
 $string['fillinatleastoneoption'] = 'Морате понудити најмање два могућа одговора.';
-$string['full'] = '(Потпун)';
+$string['full'] = '(Попуњено)';
 $string['havetologin'] = 'Морате се пријавити на систем пре потврђивања свог избора';
 $string['limit'] = 'Ограничење';
 $string['limitanswers'] = 'Ограничавање броја дозвољених одговора';
@@ -44,9 +44,9 @@ $string['savemychoice'] = 'Сачувај мој избор';
 $string['showunanswered'] = 'Приказ колоне за оне који још нису одговорили';
 $string['spaceleft'] = 'размак је дозвољен';
 $string['spacesleft'] = 'размаци су дозвољени';
-$string['taken'] = 'Одговорено';
+$string['taken'] = 'Заузето';
 $string['timerestrict'] = 'Ограничавање могућности одговарања на овај временски период';
-$string['viewallresponses'] = 'Преглед $a одговора';
+$string['viewallresponses'] = 'Број датих одговора: $a';
 $string['yourselection'] = 'Ваш избор';
 
 ?>
