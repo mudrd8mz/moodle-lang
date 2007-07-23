@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007070501)
+      // role.php - created with Moodle 1.9 dev (2007072304)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -25,7 +25,6 @@ $string['course:activityvisibility'] = '活動を表示/非表示する';
 $string['course:bulkmessaging'] = '多くのユーザにメッセージを送信する';
 $string['course:create'] = 'コースを作成する';
 $string['course:delete'] = 'コースを削除する';
-$string['course:downloadallgrades'] = 'すべての評定をダウンロードする';
 $string['course:manageactivities'] = '活動を管理する';
 $string['course:managefiles'] = 'ファイルを管理する';
 $string['course:managegrades'] = '評定を管理する';
@@ -38,13 +37,11 @@ $string['course:setcurrentsection'] = '現在のセクションを設定する';
 $string['course:update'] = 'コース設定を更新する';
 $string['course:useremail'] = 'メールアドレスを有効/無効にする';
 $string['course:view'] = 'コースを表示する';
-$string['course:viewallgrades'] = 'すべての評定を表示する';
 $string['course:viewcoursegrades'] = 'コース評定を表示する';
 $string['course:viewhiddenactivities'] = '非表示の活動を表示する';
 $string['course:viewhiddencourses'] = '非表示のコースを表示する';
 $string['course:viewhiddensections'] = '非表示のセクションを表示する';
 $string['course:viewhiddenuserfields'] = '非表示のユーザフィールドを表示する';
-$string['course:viewowngrades'] = '自分の評定を表示する';
 $string['course:viewparticipants'] = '参加者を表示する';
 $string['course:viewscales'] = '尺度を表示する';
 $string['course:visibility'] = 'コースを表示/非表示する';
@@ -62,9 +59,15 @@ $string['errorexistsrolename'] = 'ロール名がすでに登録されていま�
 $string['errorexistsroleshortname'] = 'ロール名がすでに登録されています。';
 $string['existingusers'] = '割り当て済みユーザ: $a';
 $string['globalroleswarning'] = '警告! あなたがこのページでユーザにロールを割り当てた場合、フロントページおよびすべてのコースを含む、サイト全体に適用されます。';
-$string['grade:editlocked'] = 'ロックされた評定を編集する';
+$string['grade:export'] = '評定をエクスポートする';
 $string['grade:hide'] = '評定を非表示にする';
+$string['grade:import'] = '評定をインポートする';
 $string['grade:lock'] = '評定をロックする';
+$string['grade:manage'] = '評定項目を管理する';
+$string['grade:override'] = '評定をオーバーライドする';
+$string['grade:unlock'] = '評定または評定項目をロック解除する';
+$string['grade:view'] = '自分 (または他のユーザ) の評定を表示する';
+$string['grade:viewall'] = 'すべてのユーザの評定を表示する';
 $string['grade:viewhidden'] = '非表示の評定を表示する';
 $string['inherit'] = '継承';
 $string['legacy:admin'] = 'レガシーロール: 管理者';
@@ -119,6 +122,8 @@ $string['site:config'] = 'サイト設定を変更する';
 $string['site:doanything'] = 'すべての動作を許可する';
 $string['site:doclinks'] = 'サイト外ドキュメントのリンクを表示する';
 $string['site:import'] = 'コースに他のコースをインポートする';
+$string['site:langeditlocal'] = 'ローカル翻訳をカスタマイズする';
+$string['site:langeditmaster'] = 'マスター言語パックを編集する';
 $string['site:manageblocks'] = 'サイトレベルのブロックを管理する';
 $string['site:mnetloginfromremote'] = 'リモートMoodleからログインする';
 $string['site:mnetlogintoremote'] = 'リモートMoodleを散策する';
@@ -144,5 +149,9 @@ $string['user:viewuseractivitiesreport'] = 'ユーザの活動レポートを表
 $string['user:viewusergrades'] = 'ユーザの評定を表示する';
 $string['viewrole'] = 'ロール詳細の表示';
 $string['xuserswiththerole'] = 'ロール「 $a->role 」のユーザ数: $a->number';
+$string['course:downloadallgrades'] = 'すべての評定をダウンロードする'; // ORPHANED
+$string['course:viewallgrades'] = 'すべての評定を表示する'; // ORPHANED
+$string['course:viewowngrades'] = '自分の評定を表示する'; // ORPHANED
+$string['grade:editlocked'] = 'ロックされた評定を編集する'; // ORPHANED
 
 ?>
