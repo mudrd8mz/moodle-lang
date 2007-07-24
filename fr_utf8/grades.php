@@ -251,7 +251,6 @@ $string['savechanges'] = 'Enregistrer les changements';
 $string['savepreferences'] = 'Enregistrer les préférences';
 $string['scaledpct'] = '%% pondéré';
 $string['selectdestination'] = 'Choisir la destination de $a';
-$string['selectplugin'] = 'Choisir une méthode';
 $string['separator'] = 'Séparateur';
 $string['sepcomma'] = 'Virgule';
 $string['septab'] = 'Tabulateur';
