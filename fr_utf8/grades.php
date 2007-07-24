@@ -223,6 +223,7 @@ $string['outcome'] = 'Objectif';
 $string['outcomename'] = 'Nom de l\'objectif';
 $string['outcomereport'] = 'Rapport des objectifs';
 $string['outcomes'] = 'Objectifs';
+$string['overallavg'] = 'Moyenne globale';
 $string['overridden'] = 'Court-circuité';
 $string['pctoftotalgrade'] = '%% de la note maximale';
 $string['percent'] = 'Pourcent';
