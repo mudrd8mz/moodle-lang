@@ -648,6 +648,7 @@ $string['grades'] = 'Qualificacions';
 $string['group'] = 'Grup';
 $string['groupadd'] = 'Afegeix nou grup';
 $string['groupaddusers'] = 'Afegeix la selecció al grup';
+$string['groupextendenrol'] = 'Amplia la inscripció per a tothom';
 $string['groupfor'] = 'per al grup';
 $string['groupinfo'] = 'Informació sobre el grup seleccionat';
 $string['groupinfoedit'] = 'Edita els paràmetres del grup';

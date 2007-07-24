@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007021501)
+      // role.php - created with Moodle 1.9 dev (2007062008)
 
 
 $string['addrole'] = 'Afegeix un nou rol';
 $string['allow'] = 'Concedit';
 $string['allowassign'] = 'Permet assignar rols';
 $string['allowoverride'] = 'Permet excepcions';
+$string['assignglobalroles'] = 'Assignació de rols globals';
 $string['assignroles'] = 'Assignació de rols';
 $string['blog:create'] = 'Crear noves entrades de bitàcola';
 $string['blog:manageentries'] = 'Editar i gestionar entrades';
@@ -47,7 +48,7 @@ $string['course:visibility'] = 'Ocultar/mostrar cursos';
 $string['currentcontext'] = 'Context actual';
 $string['currentrole'] = 'Rol actual';
 $string['defaultrole'] = 'Rol per defecte';
-$string['defineroles'] = 'Defineix rols';
+$string['defineroles'] = 'Definició de rols';
 $string['deleterolesure'] = '<p>Esteu segur que voleu suprimir el rol \"$a->name ($a->shortname)\"?</p><p>Actualment aquest rol està assignat a $a->count usuaris.</p>';
 $string['duplicaterole'] = 'Duplica aquest rol';
 $string['duplicaterolesure'] = 'Segur que voleu duplicar el rol \"$a->name ($a->shortname)\"?</p>';
@@ -57,6 +58,11 @@ $string['errorbadroleshortname'] = 'Nom incorrecte';
 $string['errorexistsrolename'] = 'Aquest nom de rol ja existeix';
 $string['errorexistsroleshortname'] = 'El nom ja existeix';
 $string['existingusers'] = '$a usuaris existents';
+$string['globalroleswarning'] = 'AVÍS! Els rols que assigneu en aquesta pàgina s\'aplicaran als usuaris designats en tot el lloc, inclosos tots els cursos i la pàgina principal.';
+$string['grade:editlocked'] = 'Editar qualificacions blocades';
+$string['grade:hide'] = 'Ocultar qualificació';
+$string['grade:lock'] = 'Blocar qualificació';
+$string['grade:viewhidden'] = 'Veure qualificacions ocultades';
 $string['inherit'] = 'Heretat';
 $string['legacy:admin'] = 'ROL HERETAT: Administrador/a';
 $string['legacy:coursecreator'] = 'ROL HERETAT: Creador/a de cursos';
@@ -70,13 +76,16 @@ $string['listallroles'] = 'Llista tots els rols';
 $string['manageroles'] = 'Gestiona rols';
 $string['metaassignerror'] = 'No es pot assignar aquest rol a l\'usuari \"$a\" perquè es necessita la capacitat de gestió de metacurs.';
 $string['metaunassignerror'] = 'El rol de l\'usuari \"$a\" s\'ha reassignat automàticament. Cancel·leu l\'assignació del rol en els cursos fills.';
+$string['my:manageblocks'] = 'Gestionar els blocs de la pàgina myMoodle';
 $string['nocapabilitiesincontext'] = 'No hi ha capacitats disponibles en aquest context';
+$string['notset'] = 'No definit';
 $string['overrideroles'] = 'Excepcions';
 $string['overrides'] = 'Excepcions';
 $string['permissions'] = 'Permisos';
 $string['potentialusers'] = '$a usuaris potencials';
 $string['prevent'] = 'Denegat';
 $string['prohibit'] = 'Prohibit';
+$string['question:config'] = 'Configurar tipus de preguntes';
 $string['question:export'] = 'Exportar preguntes';
 $string['question:import'] = 'Importar preguntes';
 $string['question:manage'] = 'Gestionar preguntes';
@@ -115,8 +124,10 @@ $string['site:uploadusers'] = 'Carregar nous usuaris des d\'un fitxer';
 $string['site:viewfullnames'] = 'Veure sempre els noms complets dels usuaris';
 $string['site:viewparticipants'] = 'Veure els participants';
 $string['site:viewreports'] = 'Veure informes';
+$string['user:changeownpassword'] = 'Canviar la contrasenya pròpia';
 $string['user:create'] = 'Crear usuaris';
 $string['user:delete'] = 'Suprimir usuaris';
+$string['user:editownprofile'] = 'Editar el perfil d\'usuari propi';
 $string['user:editprofile'] = 'Editar perfils d\'usuari';
 $string['user:loginas'] = 'Entrar com un altre usuari';
 $string['user:readuserblogs'] = 'Veure bitàcoles de tots els usuaris';

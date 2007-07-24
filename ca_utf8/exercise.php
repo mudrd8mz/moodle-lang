@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.7 beta + (2006101001)
+      // exercise.php - created with Moodle 1.9 dev (2007062008)
 
 
 $string['absent'] = 'Absent';
@@ -91,7 +91,7 @@ $string['noteongradinggrade'] = 'Aquesta qualificació avalua si la vostra avalu
 $string['noteonstudentassessments'] = '{qualificació de l\'estudiant / Nivell de qualificació del professor/a}';
 $string['notgraded'] = 'No qualificat';
 $string['notitlegiven'] = 'No hi ha títol';
-$string['numberofassessmentelements'] = 'Nombre de comentaris, elements d\'avaluació, tipus de qualificació, criteris o categories en una signatura determinada';
+$string['numberofassessmentelements'] = 'Nombre de comentaris, elements d\'avaluació, bandes de qualificació, declaracions de criteris o categories en una rúbrica';
 $string['numberofcriterionelements'] = 'El nombre d\'elements del criteri ha de ser més gran que un.';
 $string['numberofentries'] = 'Nombre d\'entrades';
 $string['numberofentriesinleaguetable'] = 'Nombre d\'entrades en la taula de qualificacions';
@@ -119,7 +119,7 @@ $string['reassess'] = 'Torna a Avaluar';
 $string['regradestudentassessments'] = 'Requalifica les avaluacions dels estudiants';
 $string['resubmissionfor'] = 'Tornar a lliurar a $a';
 $string['resubmitnote'] = '* vol dir que $a pot fer trameses. <br /> Aquest senyalador pot assignar-se a qualsevol tramesa, tornar a avaluar-la i clicar <br />en el botó  <b> $a pot tornar a lliurar</b> button. <br />l\'estudiant pot fer nous lliuraments quan aquesta marca estigui present en <b>qualsevol</b> de les seves trameses.';
-$string['rubric'] = 'Signatura';
+$string['rubric'] = 'Rúbrica';
 $string['savedok'] = 'S\'ha desat';
 $string['saveentries'] = 'Desa entrades';
 $string['savemyassessment'] = 'Desa la meva avaluació';
