@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007021501)
+      // error.php - created with Moodle 1.9 dev (2007062008)
 
 
 $string['adminprimarynoedit'] = 'L\'administrador primari no pot ser editat per altres usuaris';
@@ -37,8 +37,18 @@ $string['invalidcourse'] = 'El curs no és vàlid';
 $string['invalidfieldname'] = '\"$a\" no és un nom vàlid per a un camp';
 $string['invalidfiletype'] = '\"$a\" no és un tipus de fitxer vàlid';
 $string['invalidmd5'] = 'El md5 no és vàlid';
+$string['invalidrequest'] = 'La sol·licitud no és vàlida';
 $string['invalidrole'] = 'El rol no és vàlid';
+$string['invalidurl'] = 'L\'URL no és vàlid';
 $string['invalidxmlfile'] = '\"$a\" no és un fitxer XML vàlid';
+$string['listcantmovedown'] = 'No es pot moure aquest element més avall: és el darrer dels seus iguals.';
+$string['listcantmoveleft'] = 'No es pot moure aquest element a l\'esquerra: no és fill de cap altre element.';
+$string['listcantmoveright'] = 'No es pot moure aquest element a la dreta: no hi ha un element igual del qual fer-lo fill. Mogueu-lo sota un altre element igual i tot seguit podreu moure\'l a la dreta.';
+$string['listcantmoveup'] = 'No es pot moure aquest element més amunt: és el primer dels seus iguals.';
+$string['listnochildren'] = 'No s\'han trobat fills d\'aquest element.';
+$string['listnoitem'] = 'No s\'ha trobat l\'element.';
+$string['listnopeers'] = 'No s\'han trobat elements iguals.';
+$string['listupdatefail'] = 'L\'operació de la base de dades ha fallat quan s\'estava editant la jerarquia de la llista.';
 $string['loginasnoenrol'] = 'No us podeu inscriure en un curs, o cancel·lar la inscripció, si heu \"entrat com\".';
 $string['loginasonecourse'] = 'No podeu entrar en aquest curs.<br />Heu d\'acabar la sessió \"Entra com\" abans d\'entrar en cap altre curs.';
 $string['missingfield'] = 'Falta el camp \"$a\"';

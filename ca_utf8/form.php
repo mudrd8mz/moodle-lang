@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.9 dev (2007021400)
+      // form.php - created with Moodle 1.9 dev (2007062008)
 
 
 $string['addfields'] = 'Afegeix $a camps al formulari';
@@ -26,12 +26,15 @@ $string['month'] = 'Mes';
 $string['nomethodforaddinghelpbutton'] = 'No hi ha cap mètode per a afegir un botó d\'ajuda a l\'element del formulari $a->name (classe $a->classname)';
 $string['nonexistentformelements'] = 'S\'està intentant afegir botons d\'ajuda a elements del formulari inexistents: $a';
 $string['optional'] = 'Opcional';
+$string['othersettings'] = 'Altres paràmetres';
 $string['requiredelement'] = 'Camp requerit';
-$string['requiredfield'] = 'Aquest camp és obligatori';
+$string['revealpassword'] = 'Revela';
 $string['security'] = 'Seguretat';
 $string['showadvanced'] = 'Mostra característiques avançades';
 $string['somefieldsrequired'] = 'Aquest formulari conté camps obligatoris';
 $string['timing'] = 'Cronometratge';
+$string['unmaskpassword'] = 'Desemmascara';
 $string['year'] = 'Any';
+$string['requiredfield'] = 'Aquest camp és obligatori'; // ORPHANED
 
 ?>

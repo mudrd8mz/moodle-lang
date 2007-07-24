@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 dev (2007010404)
+      // glossary.php - created with Moodle 1.9 dev (2007062008)
 
 
 $string['addcomment'] = 'Afegeix un comentari';
@@ -92,6 +92,7 @@ $string['entryusedynalink'] = 'Aquesta entrada s\'ha d\'enllaçar automàticamen
 $string['errcannoteditothers'] = 'No podeu editar les entrades d\'altres persones.';
 $string['errconceptalreadyexists'] = 'El concepte ja existeix. Aquest glossari no permet entrades duplicades.';
 $string['erredittimeexpired'] = 'El temps d\'edició d\'aquesta entrada ha vençut.';
+$string['errorparsingxml'] = 'S\'han produït errors en analitzar el fitxer. Assegureu-vos que és XML vàlid.';
 $string['explainaddentry'] = 'Afegiu una nova entrada al glossari actual.<br />El concepte i la definició són camps obligatoris.';
 $string['explainall'] = 'Visualitzeu TOTES les entrades en una pàgina';
 $string['explainalphabet'] = 'Navegueu pel glossari utilitzant aquest índex';
@@ -125,6 +126,7 @@ $string['importcategories'] = 'Importa categories';
 $string['importedcategories'] = 'Categories importades';
 $string['importedentries'] = 'Entrades importades';
 $string['importentries'] = 'Importa entrades';
+$string['importentriesfromxml'] = 'Importa entrades d\'un fitxer XML';
 $string['isglobal'] = 'Aquest glossari és global?';
 $string['linkcategory'] = 'Enllaça automàticament aquesta categoria';
 $string['linking'] = 'Enllaços automàtics';
