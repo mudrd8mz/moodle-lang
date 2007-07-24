@@ -1,5 +1,6 @@
 <?php // $Id$ 
 
+$string['activities'] = 'Activités';
 $string['addcategory'] = 'Ajouter une catégorie';
 $string['addcategoryerror'] = 'Impossible d\'ajouter une catégorie.';
 $string['addexceptionerror'] = 'Une erreur est survenue lors de l\'ajout d\'une exception pour userid:gradeitem';
@@ -215,9 +216,11 @@ $string['nonweightedpct'] = '%% non pondéré';
 $string['noselectedcategories'] = 'Aucune catégorie sélectionnée.';
 $string['noselecteditems'] = 'Aucun élément sélectionné.';
 $string['notteachererror'] = 'Vous devez être enseignant pour utiliser cette fonctionnalité.';
+$string['numberofgrades'] = 'Nombre de notes';
 $string['onascaleof'] = ' sur un barème de $a->grademin à $a->grademax';
 $string['operations'] = 'Opérations';
 $string['outcome'] = 'Objectif';
+$string['outcomename'] = 'Nom de l\'objectif';
 $string['outcomereport'] = 'Rapport des objectifs';
 $string['outcomes'] = 'Objectifs';
 $string['overridden'] = 'Court-circuité';
@@ -268,6 +271,7 @@ $string['showhiddenitems'] = 'Afficher les éléments cachés';
 $string['showlocks'] = 'Afficher les cadenas';
 $string['showranges'] = 'Afficher les valeurs possibles';
 $string['showuserimage'] = 'Afficher les avatars';
+$string['sitewide'] = 'Pour tout le site';
 $string['sort'] = 'Trier';
 $string['sortasc'] = 'Trier par ordre croissant';
 $string['sortbyfirstname'] = 'Trier par prénom';
