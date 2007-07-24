@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007072304)
+      // role.php - created with Moodle 1.9 dev (2007072402)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -66,9 +66,9 @@ $string['grade:lock'] = '評定をロックする';
 $string['grade:manage'] = '評定項目を管理する';
 $string['grade:override'] = '評定をオーバーライドする';
 $string['grade:unlock'] = '評定または評定項目をロック解除する';
-$string['grade:view'] = '自分 (または他のユーザ) の評定を表示する';
-$string['grade:viewall'] = 'すべてのユーザの評定を表示する';
-$string['grade:viewhidden'] = '非表示の評定を表示する';
+$string['grade:view'] = '自分の評定を表示する';
+$string['grade:viewall'] = '他のユーザの評定を表示する';
+$string['grade:viewhidden'] = '自分の非表示の評定を表示する';
 $string['inherit'] = '継承';
 $string['legacy:admin'] = 'レガシーロール: 管理者';
 $string['legacy:coursecreator'] = 'レガシーロール: コース作成者';
