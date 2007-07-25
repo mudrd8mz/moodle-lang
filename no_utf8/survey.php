@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.7.1+ (2006101010)
+      // survey.php - created with Moodle 1.9 dev (2007071300)
 
 
 $string['actual'] = 'Faktisk';
@@ -163,6 +163,7 @@ Dine nøye gjennomtenkte svar vil hjelpe oss i å forbedre dette kurset på nett
 
 Tusen takk.';
 $string['collespname'] = '26 spørsmål om ønskede forhold i kurset';
+$string['customintro'] = 'Selvvalgt introduksjon';
 $string['done'] = 'Ferdig';
 $string['download'] = 'Last ned';
 $string['downloadexcel'] = 'Last ned data som Excel-regneark';
@@ -203,6 +204,7 @@ $string['survey:download'] = 'Last ned svar';
 $string['survey:participate'] = 'Svar på  undersøkelsen';
 $string['survey:readresponses'] = 'Vis svar';
 $string['surveycompleted'] = 'Du har fullført denne undersøkelsen. Grafen under viser et sammendrag av dine resultater sammenlignet med kursets gjennomsnitt.';
+$string['surveygraph'] = 'Graf av undersøkelsen';
 $string['surveyname'] = 'Navn på undersøkelse';
 $string['surveysaved'] = 'Undersøkelse lagret';
 $string['surveytype'] = 'Type undersøkelse';
