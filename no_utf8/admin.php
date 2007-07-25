@@ -150,6 +150,7 @@ $string['configminpasswordlower'] = 'Passordene må ha minst så mange små boks
 $string['configminpasswordnonalphanum'] = 'Passordene må minst så mange ikke-alfanumeriske tegn.';
 $string['configminpasswordupper'] = 'Passordene må ha minst så mange store bokstaver.';
 $string['configmymoodleredirect'] = 'Innstillingen sender alle ikke-administratorer til en egendefinert hovedside etter innlogging. (Min Moodle-startside)';
+$string['confignodefaultuserrolelists'] = 'Denne innstillingen hindrer at alle brukerne kommer tilbake fra databasen etter utdaterte søk som get_course_user ol, for kurset hvis standard rolle har tilagang til dette. Sjekk dette hvis du opplever ytelsesendringer.';
 $string['confignonmetacoursesyncroleids'] = 'By default all enrolments from child courses are synchronised to metacourses. Roles that are selected here will not be included in the synchronisation process.';
 $string['confignoreplyaddress'] = 'E-post blir noen ganger sent på vegne av en bruker (ved forum-innlegg etc). E-postadressen du oppgir her vil bli benyttet som FRA-adresse i de tilfeller hvor mottakerne IKKE skal svare på e-posten. Denne FRA-adressen brukes også på de brukerne som har reservert seg mot visning av egen e-postadresse.';
 $string['confignotifyloginfailures'] = 'Dersom mislykkede login er logget, kan et e-postvarsel sendes ut. Hvem skal ha disse e-postene?';
