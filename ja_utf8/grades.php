@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007072402)
+      // grades.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['activities'] = '活動';
@@ -141,6 +141,7 @@ $string['grademin'] = '最小評点';
 $string['gradepass'] = '合格点';
 $string['gradepreferences'] = '評定オプション';
 $string['gradepreferenceshelp'] = '評定オプションヘルプ';
+$string['graderreport'] = '評定者レポート';
 $string['grades'] = '評定';
 $string['gradessettings'] = '評定設定';
 $string['gradetype'] = '評定タイプ';
@@ -317,7 +318,6 @@ $string['exportods'] = 'ODSにエクスポートする'; // ORPHANED
 $string['exporttxt'] = 'TXTにインポートする'; // ORPHANED
 $string['exportxml'] = 'XMLにインポートする'; // ORPHANED
 $string['gradereports'] = '評定レポート'; // ORPHANED
-$string['graderreport'] = '評定者レポート'; // ORPHANED
 $string['selectplugin'] = 'プラグインの選択'; // ORPHANED
 $string['userreport'] = 'ユーザ評定レポート'; // ORPHANED
 

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9 dev (2007072402)
+      // lesson.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -298,6 +298,7 @@ $string['whatdofirst'] = '最初に何をしますか?';
 $string['wronganswerjump'] = '不正解のジャンプ先';
 $string['wronganswerscore'] = '不正解の評点';
 $string['wrongresponse'] = '不正解に対するレスポンス';
+$string['xattempts'] = '$a 受験';
 $string['youhaveseen'] = 'あなたはすでにこのレッスンを1ページ以上表示しました。<br />あなたが表示した最後のページから始めますか?';
 $string['youmadehighscore'] = 'あなたはトップ $a ハイスコアリストに入りました。';
 $string['youranswer'] = 'あなたの答え';
