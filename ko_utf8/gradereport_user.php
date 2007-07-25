@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // gradereport_user.php - created with Moodle 1.9 dev (2007060502)
+      // gradereport_user.php - created with Moodle 1.9 dev (2007072402)
 
 
 $string['modulename'] = '내 성적표';

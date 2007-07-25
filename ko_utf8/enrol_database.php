@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.9 dev (2007021400)
+      // enrol_database.php - created with Moodle 1.9 dev (2007072402)
 
 
 $string['autocreate'] = '무들에 없는 배움터에 등록을 하면 배움터가 자동적으로 생성될 수 있습니다.';
@@ -21,6 +21,7 @@ $string['enrol_database_autocreation_settings'] = '새로운 배움터의 자동
 $string['enrolname'] = '외부 데이터베이스';
 $string['general_options'] = '일반적인 선택사항';
 $string['host'] = '데이터베이스 서버 호스트 이름';
+$string['ignorehiddencourse'] = '이 항목을 활성화시켜 놓으면 학생들이 이용할 수 없게 해 놓은 배움터에는 사용자가 등록할 수 없게 됩니다.';
 $string['local_fields_mapping'] = '무들(로컬) 데이터베이스 항목';
 $string['localcoursefield'] = '원격 데이터베이스의 항목과 일치시킬 때 쓰는 배움터 테이블에서의 항목명(예:식별번호)';
 $string['localrolefield'] = '원격 데이터베이스의 항목과 일치시킬 때 쓰는 역할 테이블에서의 항목명(예:단축명)';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007071703)
+      // quiz.php - created with Moodle 1.9 dev (2007072201)
 
 
 $string['1day'] = '하루';
@@ -58,6 +58,7 @@ $string['bestgrade'] = '최고 점수';
 $string['blackboard'] = 'Blackboard';
 $string['blackboard_6'] = 'Blackboard 6.0버전 이상';
 $string['bothattempts'] = '시도를 한 학생과 하지 않은 학생 보기';
+$string['braceerror'] = '답 중에 없습니다.';
 $string['calculated'] = '수식계산형';
 $string['calculatedquestion'] = '$a 에서 지원되지 않는 수식계산형 문제. 이 문제는 무시됩니다.';
 $string['cannotcreatepath'] = '($a)경로를 생성할 수 없습니다';

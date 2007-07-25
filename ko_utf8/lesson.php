@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9 dev (2007071900)
+      // lesson.php - created with Moodle 1.9 dev (2007072402)
 
 
 $string['accesscontrol'] = '접근 제한';
@@ -136,8 +136,10 @@ $string['leftduringtimed'] = '당신은 규정된 학습시간에 자리를 비�
 $string['leftduringtimednoretake'] = '당신은 규정된 학습시간에 자리를 비웠기 때문에<br />재학습을 하거나 계속할 수 없습니다.';
 $string['lesson:edit'] = '학습활동 편집';
 $string['lesson:manage'] = '학습활동 관리';
+$string['lessonattempted'] = '학습 시도됨';
 $string['lessonclosed'] = '이 학습은 $a 에 종료되었습니다.';
 $string['lessoncloses'] = '학습 종료';
+$string['lessoncloseson'] = '학습은 $a 에 종료됨';
 $string['lessondefault'] = '이 환경 설정을 기본틀로 씀';
 $string['lessonformating'] = '학습 형태';
 $string['lessonmenu'] = '학습 메뉴';
@@ -299,6 +301,7 @@ $string['whatdofirst'] = '처음에 무엇을 하길 원합니까?';
 $string['wronganswerjump'] = '오답의 경우 이동할 곳';
 $string['wronganswerscore'] = '오답에 대한 점수';
 $string['wrongresponse'] = '오답에 대한 반응';
+$string['xattempts'] = '$a 번째 시도';
 $string['youhaveseen'] = '당신은 이미 이 학습을 시도한 적이 있습니다.<br /> 도중에 끝마쳤던 부분부터 시작하길 원합니까?';
 $string['youmadehighscore'] = '당신은 $a 를 고득점 목록에 올렸습니다.';
 $string['youranswer'] = '당신의 대답';
