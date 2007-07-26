@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 + (2007021503)
+      // moodle.php - created with Moodle 1.9 dev (2007071300)
 
 
 $string['action'] = 'Handling';
@@ -131,6 +131,7 @@ $string['autosubscribeno'] = 'Nei, jeg ønsker ikke å automatisk abonnere på f
 $string['autosubscribeyes'] = 'Ja, når jeg skriver innlegg, kan jeg føres opp som abonnent på det forum';
 $string['availability'] = 'Tilgjengelighet';
 $string['availablecourses'] = 'Tilgjengelige kurs';
+$string['back'] = 'Tilbake';
 $string['backtoparticipants'] = 'Tilbake til deltakerlisten';
 $string['backup'] = 'Sikkerhetskopiering';
 $string['backupactivehelp'] = 'Velg om automatisk sikkerhetskopiering skal kjøre';
@@ -256,6 +257,8 @@ $string['coursecategories'] = 'Studiekategorier';
 $string['coursecategory'] = 'Studiekategori';
 $string['coursecreators'] = 'Kursprodusenter';
 $string['coursecreatorsdescription'] = 'Kursopprettere kan opprette nye kurs og undervise i dem.';
+$string['courseenrolenddate'] = 'Sluttdato kursinnmelding';
+$string['courseenrolstartdate'] = 'Startdato kursinnmelding';
 $string['coursefiles'] = 'Kursfiler';
 $string['courseformatdata'] = 'Kursformat data';
 $string['courseformats'] = 'Kursformat';
@@ -465,6 +468,12 @@ $a->link
 I de fleste e-post programmer burde lenken over fremkomme som en internett-lenke du kan klikke på. Hvis dette ikke ser ut til å virke kan du kopiere lenken til adressefeltet i nettleseren din og klikke \"Gå til\".
 
 Trenger du mer hjelp kan du kontakte $a->admin';
+$string['emailpasswordchangeinfodisabled'] = 'Hei $a->firstname,
+
+Noen (antakeligvis deg) har bedt om et nytt passord for kontoen din på \'$a->sitename\'.
+
+Kontoen din er sperret og kan passord kan ikke settes på nytt, vennligst ta kontakt med administrator,
+$a->admin';
 $string['emailpasswordchangeinfofail'] = 'Hei $a->firstname,
 
 Noen (antakelig deg) har bedt om nytt passord for din brukerkonto på \'$a->sitename\'.
@@ -637,6 +646,7 @@ $string['grades'] = 'Karakterer';
 $string['group'] = 'Gruppe';
 $string['groupadd'] = 'Legg til ny gruppe';
 $string['groupaddusers'] = 'Legg den/de valgte til gruppen';
+$string['groupextendenrol'] = 'Utvid påmelding for alle';
 $string['groupfor'] = 'For gruppe';
 $string['groupinfo'] = 'Info om valgt gruppe';
 $string['groupinfoedit'] = 'Rediger gruppeinstillinger';
@@ -1065,6 +1075,7 @@ $string['phpinfo'] = 'PHP-info';
 $string['pictureof'] = 'Bilde av $a';
 $string['pleaseclose'] = 'Vennligst lukk dette vinduet';
 $string['pluginsetup'] = 'Setter opp pluggbare tabeller';
+$string['policyaccept'] = 'Jeg forstår og godtar';
 $string['policyagree'] = 'Du må godta avtalen for å bruke dette nettstedet. Godtar du den?';
 $string['policyagreement'] = 'Avtale for bruk av nettstedet';
 $string['policyagreementclick'] = 'Klikk her for å lese bruksavtalen';
@@ -1196,6 +1207,7 @@ $string['senddetails'] = 'Send mine detaljer via e-post';
 $string['separate'] = 'Adskilt';
 $string['separateandconnected'] = 'Individuell (rasjonell) og sosial (empatisk) måte å lære på';
 $string['serverlocaltime'] = 'Tjenerens lokale tid';
+$string['setcategorytheme'] = 'Set kategoritema';
 $string['settings'] = 'Innstillinger';
 $string['shortname'] = 'Kort navn';
 $string['shortnamecollisionwarning'] = '[*]= Kortnavnet er allerede brukt av et annet kurs og må endres når/hvis kurset godkjennes';
@@ -1252,6 +1264,7 @@ $string['sourcerole'] = 'Opprinnelig rolle';
 $string['specifyname'] = 'Du må oppgi et navn';
 $string['starpending'] = '([*] =kurs som venter på godkjenning)';
 $string['startdate'] = 'Dato for studiestart';
+$string['startingfrom'] = 'Starter fra';
 $string['startsignup'] = 'Registrer deg';
 $string['state'] = 'Fylke';
 $string['statistics'] = 'Statistikk';
