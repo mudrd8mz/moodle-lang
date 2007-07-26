@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7.1+ (2006101010)
+      // resource.php - created with Moodle 1.9 dev (2007071300)
 
 
 $string['addresource'] = 'Ny ressurs';
@@ -9,6 +9,7 @@ $string['browserepository'] = 'Bla gjennom lager';
 $string['choose'] = 'Velg';
 $string['chooseafile'] = 'Velg eller last opp ei fil';
 $string['chooseparameter'] = 'Velg parameter';
+$string['clicktoopen'] = 'For å åpne dette dokumentet, klikk på denne lenken';
 $string['configallowlocalfiles'] = 'Når det lages en ny filressurs, tillates lenker til filer på et lokalt filsystem som f.eks. en CD eller harddisk. Dette kan være nyttig i en klasse hvor alle studentene har adgang til et felles nettverksdisk eller hvor filene på en CD må aksesseres. Bruk av denne egenskapen kan kreve endringer på nettleserens sikkerhetsinnstillinger.';
 $string['configautofilerenamesettings'] = 'Oppdater automatisk alle referanser til filer og mapper når navn endres i filbehandleren.';
 $string['configblockdeletingfilesettings'] = 'Blokker sletting av filer og mapper som som brukes av Ressurser. Vennligst merk deg at bilder og filer som det refereres til fra html ikke blir beskyttet.';
@@ -48,6 +49,7 @@ $string['frameifpossible'] = 'Vis ressursen i ei ramme slik at navigeringen er s
 $string['fulltext'] = 'Full tekst';
 $string['htmlfragment'] = 'Teksten som skal vises';
 $string['imspackageloaded'] = 'Pakken er lastet inn';
+$string['keepnavigationvisible'] = 'Vis sidenavigasjonen på samme side';
 $string['localfile'] = 'Lokal fil';
 $string['localfilechoose'] = 'Velg ei lokal fil';
 $string['localfilehelp'] = 'hjelp til å vise lokale filer';
