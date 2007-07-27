@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7.1+ (2006101010)
+      // quiz.php - created with Moodle 1.7.2 + (2006101020)
 
 
 $string['1day'] = 'egun bat';
@@ -251,6 +251,7 @@ $string['incorrect'] = 'Ez zuzena';
 $string['indivresp'] = 'Item bakoitzari bakoitzak emandako erantzunak';
 $string['info'] = 'Informazioa';
 $string['introduction'] = 'Sarrera';
+$string['invalidcategory'] = 'Kategoriaren IDa ez da baliozkoa';
 $string['invalidnumericanswer'] = 'Zure erantzun bat ez da zenbaki onargarria';
 $string['invalidnumerictolerance'] = 'Zure tolerantzia bat ez da zenbaki onargarria';
 $string['invalidsource'] = 'Jatorria ez da onargarria';

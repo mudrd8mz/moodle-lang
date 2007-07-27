@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7.1+ (2006101010)
+      // role.php - created with Moodle 1.7.2 + (2006101020)
 
 
 $string['addrole'] = 'Rol berria gehitu';
 $string['allow'] = 'Baimendu';
 $string['allowassign'] = 'Rolak esleitzea baimendu';
 $string['allowoverride'] = 'Rolak kentzea baimendu';
+$string['assignglobalroles'] = 'Rol globalak esleitu';
 $string['assignroles'] = 'Rolak esleitu';
 $string['blog:create'] = 'Blog-sarrera berriak sortu';
 $string['blog:manageentries'] = 'Sarrerak editatu eta kudeatu';
@@ -55,6 +56,7 @@ $string['errorbadroleshortname'] = 'Rol-izen ezegokia';
 $string['errorexistsrolename'] = 'Rol-izen hori dagoeneko badago';
 $string['errorexistsroleshortname'] = 'Rol-izen hori dagoeneko badago';
 $string['existingusers'] = '$a erabiltzaile daude';
+$string['globalroleswarning'] = 'KONTUZ! Orri honetatik esleitzen dituzun rol guztiak guneko erabiltzaile guztiei emango zaizkie, ikastaro guztietan eta hasiera-orrian.';
 $string['inherit'] = 'Heredatutakoa';
 $string['legacy:admin'] = 'Heredatutako rola: Kudeatzailea';
 $string['legacy:coursecreator'] = 'Heredatutako rola: Ikastaro sortzailea';

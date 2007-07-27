@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7+ (2006101007)
+      // scorm.php - created with Moodle 1.7.2 + (2006101020)
 
 
 $string['advanced'] = 'Aurreratua';
@@ -19,6 +19,7 @@ $string['browserepository'] = 'Biltegian zehar nabigatu';
 $string['chooseapacket'] = 'SCORM paketea aukeratu edo eguneratu';
 $string['completed'] = 'Osatua';
 $string['confirmloosetracks'] = 'KONTUZ: Badirudi paketea aldatu egin dela. Paketearen egitura aldatu egin bada zenbait erabiltzaileren pistak agian galdu egingo ziren eguneratze-prozesuan.';
+$string['contents'] = 'Edukiak';
 $string['coursepacket'] = 'Ikastaro-paketea';
 $string['coursestruct'] = 'Ikastaroaren egitura';
 $string['datadir'] = 'Sistema-errorea: Ikastaroko datuen direktorioa ezin da sortu';
@@ -27,6 +28,7 @@ $string['directories'] = 'Direktorioaren estekak erakutsi';
 $string['display'] = 'Erakutsi';
 $string['domxml'] = 'DOMXML kanpoko liburutegia';
 $string['element'] = 'Elementua';
+$string['enter'] = 'Sartu';
 $string['entercourse'] = 'SCORM ikastaroa sartu';
 $string['errorlogs'] = 'Erroreen erregistroa';
 $string['exit'] = 'SCORM ikastarotik irten';
@@ -87,6 +89,7 @@ $string['objectives'] = 'Helburuak';
 $string['organization'] = 'Erakundea';
 $string['organizations'] = 'Erakundeak';
 $string['othertracks'] = 'Beste pistak';
+$string['package'] = 'Eduki-paketea';
 $string['packagedir'] = 'Sistema-errorea: Pakete-direktorioa ezin da sortu';
 $string['packagefile'] = 'Ez da paketerik zehaztu';
 $string['passed'] = 'Gainditua';

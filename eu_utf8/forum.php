@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7.1+ (2006101010)
+      // forum.php - created with Moodle 1.7.2 + (2006101020)
 
 
 $string['addanewdiscussion'] = 'Mezu berria idatzi';
@@ -69,13 +69,16 @@ $string['existingsubscribers'] = 'Dauden harpidedunak';
 $string['forcesubscribe'] = 'Denak harpidetzera behartu';
 $string['forcesubscribeq'] = 'Denak harpidetzera behartu?';
 $string['forum'] = 'Foroa';
+$string['forum:addnews'] = 'Albisteak gehitu';
 $string['forum:createattachment'] = 'Erantsitako fitxategiak sortu';
 $string['forum:deleteanypost'] = 'Edozein mezu ezabatu (edonoiz)';
 $string['forum:deleteownpost'] = 'Norberaren mezuak ezabatu (data baino lehen)';
 $string['forum:editanypost'] = 'Editatu eta bidali';
+$string['forum:initialsubscriptions'] = 'Hasierako harpidetza';
 $string['forum:managesubscriptions'] = 'Harpidetzak kudeatu';
 $string['forum:movediscussions'] = 'Eztabaidak mugitu';
 $string['forum:rate'] = 'Mezuak kalifikatu';
+$string['forum:replynews'] = 'Albisteei erantzun';
 $string['forum:replypost'] = 'Mezuei erantzun';
 $string['forum:splitdiscussions'] = 'Eztabaidak bereizi';
 $string['forum:startdiscussion'] = 'Eztabaida berria hasi';
@@ -130,6 +133,7 @@ $string['namesocial'] = 'Foro irekia';
 $string['nameteacher'] = 'Irakasleen foroa';
 $string['newforumposts'] = 'Mezu berriak';
 $string['nodiscussions'] = 'Ez dago eztabaidagairik oraindik foro honetan';
+$string['nodiscussionsstartedby'] = 'Erabiltzaile honek ez du eztabaidarik hasi';
 $string['noguestpost'] = 'Barkatu, bisitariek ezin dute mezurik bidali';
 $string['noguestsubscribe'] = 'Barkatu,bisitariak ezin dira forora harpidetu ezta mezuak e-postaz jaso ere';
 $string['noguesttracking'] = 'Barkatu, bisitarik ezin dituzte mezuen jarraipenerako aukerak aldatu';

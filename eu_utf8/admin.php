@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7.1+ (2006101010)
+      // admin.php - created with Moodle 1.7.2 + (2006101020)
 
 
 $string['accessdenied'] = 'Sarrera ukatu egin zaizu';
@@ -175,12 +175,14 @@ $string['configzip'] = 'Konprimatzeko aplikazioa -\'Zip-\' non dagoen zehaztu (b
 $string['confirmation'] = 'Baieztatzea';
 $string['confirminstall'] = '($a) hizkuntza instalatzera zoaz; ziur al zaude?';
 $string['country'] = 'Lehenetsitako herrialdea';
+$string['coursemanager'] = 'Ikastaro-kudeatzaileak';
 $string['coursemgmt'] = 'Ikastaroak gehitu/editatu';
 $string['courseoverview'] = 'Ikastaroaren ikuspegi orokorra';
 $string['courserequests'] = 'Ikastaro-eskariak';
 $string['courses'] = 'Ikastaroak';
 $string['coursesperpage'] = 'Ikastaroak orriko';
 $string['cronwarning'] = '<a href=\"cron.php\">cron.php</a>ren mantenu scripta ez da azken 24 orduetan egikaritu. <br /><a href=\"../doc/?frame=install.html⊂=cron\">Instalazioaren dokumentazioak</a> automatizatzeko modua adierazten du.';
+$string['customcheck'] = 'Beste konprobazio batzuk';
 $string['datarootsecuritywarning'] = 'Zure guneraren konfigurazioa ez da, agian, segurua. Mesedez, ziurta ezazu zure sustrai-direktoriora ($a) ezin dela zuzenean web-etik heldu.';
 $string['dbmigrate'] = 'Moodle-ko datu-baserako migrazioa';
 $string['dbmigrateconnecerror'] = 'Ezin izan da zehaztutako datu-basera konektatu';

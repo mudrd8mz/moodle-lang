@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.7.1+ (2006101010)
+      // moodle.php - created with Moodle 1.7.2 + (2006101020)
 
 
 $string['action'] = 'Ekintza';
@@ -665,6 +665,7 @@ $string['helpsummaries'] = 'Laburpen hauen inguruan';
 $string['helptext'] = 'Testua nola idatzi';
 $string['helpwiki'] = 'Nola idatzi Wiki motako testua';
 $string['helpwriting'] = 'Kontuz idatzi';
+$string['hiddenassign'] = 'Ezkutuko zeregina';
 $string['hiddensections'] = 'Ezkutuko atalak';
 $string['hiddensectionscollapsed'] = 'Ezkutuko atalak laburtuta erakutsi';
 $string['hiddensectionsinvisible'] = 'Ezkutuko atalak ez erakutsi inola ere';
@@ -775,6 +776,7 @@ beste izen bat erabiliz saiatu beharko duzu.';
 $string['loginto'] = '$a gunean sartu';
 $string['loginusing'] = 'Sartu hemen zure erabiltzaile-izen eta pasahitzarekin';
 $string['logout'] = 'Irten';
+$string['logoutconfirm'] = 'Irten egin nahi al duzu, benetan?';
 $string['logs'] = 'Agerraldiak';
 $string['logtoomanycourses'] = '[ <a href=\"$a->url\">gehiago</a> ]';
 $string['logtoomanyusers'] = '[ <a href=\"$a->url\">gehiago</a> ]';
