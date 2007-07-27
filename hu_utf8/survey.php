@@ -155,6 +155,7 @@ Megfontolt válaszaival segít bennünket abban, hogy az egység bemutatását a
 
 Köszönjük!';
 $string['collespname'] = 'COLLES (Ideális)';
+$string['customintro'] = "Egyéni bevezetés";
 $string['done'] = 'Kész';
 $string['download'] = 'Letöltés';
 $string['downloadexcel'] = 'Adatok letöltése Excel-táblázatként';
@@ -191,6 +192,7 @@ $string['scaletimes5'] = 'Szinte soha, Ritkán, Néha, Gyakran, Majdnem mindig';
 $string['seemoredetail'] = 'A részletekért kattintson ide';
 $string['selectedquestions'] = 'Egy skáláról választott kérdések, minden tanuló';
 $string['summary'] = 'Összegzés';
+$string['surveygraph'] = "Felmérés grafikonja";
 $string['survey:download'] = "Válaszok letöltése";
 $string['survey:participate'] = "Válasz a felmérésre";
 $string['survey:readresponses'] = "Válaszok megtekintése";

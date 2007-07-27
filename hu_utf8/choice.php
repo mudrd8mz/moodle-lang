@@ -17,6 +17,7 @@ $string['choicetext'] = 'Választás szövege';
 $string['displayhorizontal'] = 'Vízszintes kijelzés';
 $string['displaymode'] = 'Kijelzési mód';
 $string['displayvertical'] = 'Függőleges kijelzés';
+$string['fillinatleastoneoption'] = "Legalább két lehetséges választ meg kell adnia.";
 $string['full'] = '(Teljes)';
 $string['havetologin'] = 'Válasz megadása előtt be kell jelentkeznie';
 $string['limit'] = 'Korlát';

@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.6 Beta 3 (2006041100)
+<?PHP // $Id$
+      // glossary.php - created with Moodle 1.7 beta + (2006101003) 
 
 
 
@@ -90,6 +90,8 @@ $string['entryleveldefaultsettings'] = 'Fogalmi szintű alapbeállítások';
 $string['entrysaved'] = 'A fogalom mentése megtörtént';
 $string['entryupdated'] = 'A fogalom frissítése megtörtént';
 $string['entryusedynalink'] = 'Ezt a fogalmat automatikusan kell kapcsolni';
+$string['errcannoteditothers'] = "Mások fogalmait nem szerkesztheti.";
+$string['errorparsingxml'] = 'Hiba az állomány feldolgozása közben. Ellenőrizze, érvényes-e az XML-szintaxis.'; 
 $string['explainaddentry'] = 'Új fogalom hozzáadása ehhez a fogalomtárhoz.<br />A gondolat és a meghatározás kötelezően kitöltendő.';
 $string['explainall'] = 'MINDEN fogalom megjelenítése egyetlen oldalon';
 $string['explainalphabet'] = 'Fogalomtár böngészése ezzel a mutatóval';
@@ -123,8 +125,10 @@ $string['importcategories'] = 'Importálási kategóriák';
 $string['importedcategories'] = 'Importált kategóriák';
 $string['importedentries'] = 'Importált fogalmak';
 $string['importentries'] = 'Fogalmak importálása';
+$string['importentriesfromxml'] = 'Fogalmak importálása XML-állományból';
 $string['isglobal'] = 'Ez a fogalomtár globális?';
 $string['linkcategory'] = 'Automatikusan kapcsolja ezt a kategóriát';
+$string['linking'] = "Automatikus kapcsolás";
 $string['mainglossary'] = 'Fő fogalomtár';
 $string['maxtimehaspassed'] = 'Sajnos letelt ennek a megjegyzésnek ($a) a szerkesztésére rendelkezésre álló idő!';
 $string['modulename'] = 'Fogalomtár';

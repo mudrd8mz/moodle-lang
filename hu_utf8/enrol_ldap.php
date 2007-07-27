@@ -14,10 +14,10 @@ Ez általában akkor működik megfelelően, ha már használ LDAP-hitelesítés
 <p>Ezt a kódrészletet beállíthatja úgy, hogy automatikusan új kurzusokat hozzon létre, ha új csoportok jelennek meg az LDAP-ben.</p>';
 $string['enrol_ldap_autocreate'] = 'Automatikusan létrehozhatók kurzusok, ha a Moodle-ban még nem létező kurzusra iratkoznak fel.';
 $string['enrol_ldap_autocreation_settings'] = 'Automatikus kurzus-létrehozási beállítások';
-$string['enrol_ldap_bind_dn'] = 'Ha felhasználók kereséséhez a bind-user opciót kívánja használni, adja meg itt. Például:
-\'cn=ldapuser,ou=public,o=org\'';
+$string['enrol_ldap_bind_dn'] = 'Ha felhasználók kereséséhez a bind-user opciót kívánja használni, adja meg itt. Például: \'cn=ldapuser,ou=public,o=org\'';
 $string['enrol_ldap_bind_pw'] = 'A  bind-user jelszava.';
 $string['enrol_ldap_category'] = 'Automatikusan létrehozott kurzusok kategóriája.';
+$string['enrol_ldap_contexts'] = "LDAP-környezetek";
 $string['enrol_ldap_course_fullname'] = 'Opcionális: LDAP-mező a teljes név eléréséhez';
 $string['enrol_ldap_course_idnumber'] = 'Egyeztesse az LDAP egyedi azonosítójával, ez általában <em>cn</em> vagy <em>uid</em>. Automatikusan létrehozott kurzusok esetén célszerű az értéket zárolni.';
 $string['enrol_ldap_course_settings'] = 'Beállítások a kurzusbeiratkozáshoz';
@@ -27,7 +27,9 @@ $string['enrol_ldap_editlock'] = 'Érték zárolása';
 $string['enrol_ldap_general_options'] = 'Általános opciók';
 $string['enrol_ldap_host_url'] = 'Az LDAP-gazdagépet URL-formában adja meg: 
 \'ldap://ldap.myorg.com/\' vagy \'ldaps://ldap.myorg.com/\'';
+$string['enrol_ldap_memberattribute'] = "LDAP-tag attribútuma";
 $string['enrol_ldap_objectclass'] = 'Kurzusok keresésére használt objektumosztály. Általában \'posixGroup\'.';
+$string['enrol_ldap_roles'] = "Szerepek megfeleltetése";
 $string['enrol_ldap_search_sub'] = 'Csoporttagság kikeresése résztartalom alapján';
 $string['enrol_ldap_server_settings'] = 'LDAP-szerver beállításai';
 $string['enrol_ldap_student_contexts'] = 'Azon környezetek felsorolása, ahol a tanulói beiratkozások csoportjai találhatók. A környezeteket válassza el \';\'-vel. Például: 

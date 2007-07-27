@@ -123,5 +123,5 @@ $string['weightedpct'] = 'súlyozott %%';
 $string['weightedpctcontribution'] = 'súlyozott %%-os hozzájárulás';
 $string['writinggradebookinfo'] = 'Osztálynapló beállításainak írása';
 $string['yes'] = 'Igen';
-
+$string['yourgrade'] = "Pontja";
 ?>

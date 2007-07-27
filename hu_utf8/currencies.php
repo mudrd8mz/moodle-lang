@@ -120,6 +120,7 @@ $string['NZD'] = 'új-zélandi dollár';
 $string['OMR'] = 'ománi rial';
 $string['PAB'] = 'balboa';
 $string['PEI'] = 'új sol';
+$string['PEN'] = 'új sol';
 $string['PGK'] = 'kina';
 $string['PHP'] = 'fülöp-szigeteki peso';
 $string['PKR'] = 'pakisztáni rúpia';
