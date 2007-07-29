@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_learning_resources.php - created with Moodle 1.8 dev (2006102600)
+      // block_learning_resources.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['actions'] = '操作';
@@ -20,7 +20,7 @@ $string['no'] = 'いいえ';
 $string['none'] = '表示するリソースはありません。';
 $string['not_exist'] = '選択したリソースは存在しません!';
 $string['notes'] = '追加テキスト';
-$string['url'] = 'URL';
+$string['url'] = 'URI';
 $string['yes'] = 'Yes';
 
 ?>

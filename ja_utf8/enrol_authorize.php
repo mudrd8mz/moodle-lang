@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.9 dev (2007060502)
+      // enrol_authorize.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
@@ -43,7 +43,7 @@ $string['allpendingorders'] = 'すべての保留オーダー';
 $string['amount'] = '金額';
 $string['anlogin'] = 'Authorize.net: ログイン名';
 $string['anpassword'] = 'Authorize.net: パスワード';
-$string['anreferer'] = '必要な場合は、リファラURLを設定してください。これは、ウェブリクエストの「Referer: URL」ヘッダを送信します。';
+$string['anreferer'] = '必要な場合は、リファラURIを設定してください。これは、ウェブリクエストの「Referer: URI」ヘッダを送信します。';
 $string['antestmode'] = 'Authorize.net: テストトランザクション (料金は引き落とされません)';
 $string['antrankey'] = 'Authorize.net: トランザクションキー';
 $string['approvedreview'] = '検査承認';

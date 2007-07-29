@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 dev (2007040200)
+      // data.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['action'] = '操作';
@@ -17,7 +17,7 @@ $string['ascending'] = '昇順';
 $string['asearchtemplate'] = '検索オプションテンプレート';
 $string['atmaxentry'] = 'あなたは、許可された最大数のエントリを入力しました!';
 $string['autogenallforms'] = 'すべてのデフォルトテンプレートを生成する';
-$string['autolinkurl'] = 'URLにオートリンクする';
+$string['autolinkurl'] = 'URIにオートリンクする';
 $string['availablefromdate'] = '利用開始日時';
 $string['availabletags'] = '利用可能なタグ';
 $string['availabletodate'] = '利用終了日時';
@@ -117,7 +117,7 @@ $string['importsuccess'] = 'プリセットが正常に適用されました。'
 $string['insufficiententries'] = 'このデータベースを見るには、さらにエントリが必要です。';
 $string['intro'] = 'イントロダクション';
 $string['invalidfieldname'] = 'このフィールドに他の名称を選択してください。';
-$string['invalidurl'] = '入力されたURLが正しくありません。';
+$string['invalidurl'] = '入力されたURIが正しくありません。';
 $string['jstemplate'] = 'Javaスクリプトテンプレート';
 $string['latitude'] = '経度';
 $string['latlong'] = '緯度/経度';
@@ -136,7 +136,7 @@ $string['menuchoose'] = '選択 ...';
 $string['modulename'] = 'データベース';
 $string['modulenameplural'] = 'データベース';
 $string['more'] = '詳細';
-$string['moreurl'] = 'URL詳細';
+$string['moreurl'] = 'URI詳細';
 $string['movezipfailed'] = 'ZIPファイルを移動できません。';
 $string['multientry'] = '繰り返しエントリ';
 $string['multimenu'] = 'メニュー (複数選択)';
@@ -152,7 +152,7 @@ $string['namepicture'] = 'ピクチャーフィールド';
 $string['nameradiobutton'] = 'ラジオボタンフィールド';
 $string['nametext'] = 'テキストフィールド';
 $string['nametextarea'] = 'テキストエリアフィールド';
-$string['nameurl'] = 'URLフィールド';
+$string['nameurl'] = 'URIフィールド';
 $string['newentry'] = '新しいエントリ';
 $string['newfield'] = '新しいフィールドの作成';
 $string['noaccess'] = 'あなたは、このページにアクセスできません。';
@@ -225,7 +225,7 @@ $string['undefinedprocessactionmethod'] = 'アクション「 $a 」を処理す
 $string['updatefield'] = 'フィールドを更新します。';
 $string['uploadfile'] = 'ファイルのアップロード';
 $string['uploadrecords'] = 'ファイルからエントリをアップロードする';
-$string['url'] = 'URL';
+$string['url'] = 'URI';
 $string['usestandard'] = 'プリセットを使用する';
 $string['viewfromdate'] = '表示開始日時';
 $string['viewtodate'] = '表示終了日時';

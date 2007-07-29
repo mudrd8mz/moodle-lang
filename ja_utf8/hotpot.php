@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8 dev (2006120700)
+      // hotpot.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['abandoned'] = '放棄';
@@ -32,8 +32,8 @@ $string['error_couldnotopensourcefile'] = 'ソースファイル「 $a 」をオ
 $string['error_couldnotopentemplate'] = '「 $a 」フォーマットのテンプレートをオープンできませんでした。';
 $string['error_invalidquiztype'] = 'クイズタイプが見つからないか、正しくありません。';
 $string['error_nocourseorfilename'] = 'XMLツリーを作成できませんでした。コースまたはファイル名がありません。';
-$string['error_nofeedbackurlformmail'] = 'フォーム処理スクリプトのURLを入力してください。';
-$string['error_nofeedbackurlwebpage'] = 'ウェブページのURLを入力してください。';
+$string['error_nofeedbackurlformmail'] = 'フォーム処理スクリプトのURIを入力してください。';
+$string['error_nofeedbackurlwebpage'] = 'ウェブページのURIを入力してください。';
 $string['error_nofilename'] = 'ファイル名を入力してください。';
 $string['error_noquizzesfound'] = 'Hot Potatoesクイズが見つかりませんでした。';
 $string['error_notfileorfolder'] = '「 $a 」はファイルまたはフォルダではありません。';

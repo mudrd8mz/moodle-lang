@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 dev (2007060502)
+      // calendar.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['advancedoptions'] = '高度なオプション';
@@ -58,7 +58,7 @@ $string['exportcalendar'] = 'カレンダーをエクスポートする';
 $string['for'] = '対象';
 $string['fri'] = '金';
 $string['friday'] = '金曜日';
-$string['generateurlbutton'] = 'カレンダーのURLを取得する';
+$string['generateurlbutton'] = 'カレンダーのURIを取得する';
 $string['global'] = 'グローバル';
 $string['globalevent'] = '全体のイベント';
 $string['globalevents'] = '全体のイベント';
@@ -121,7 +121,7 @@ $string['typegroup'] = 'グループイベント';
 $string['typesite'] = 'サイトイベント';
 $string['typeuser'] = 'ユーザイベント';
 $string['upcomingevents'] = '直近イベント';
-$string['urlforical'] = 'iCalendarエクスポートおよびカレンダー購読のためのURL';
+$string['urlforical'] = 'iCalendarエクスポートおよびカレンダー購読のためのURI';
 $string['user'] = 'ユーザ';
 $string['userevent'] = 'ユーザイベント';
 $string['userevents'] = 'ユーザイベント';

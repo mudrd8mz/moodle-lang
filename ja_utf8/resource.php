@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 dev (2007071000)
+      // resource.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['addresource'] = 'リソースを追加する';
@@ -13,7 +13,7 @@ $string['clicktoopen'] = 'ドキュメントを開くには、このリンクを
 $string['configallowlocalfiles'] = '新しいリソースを登録する場合、CDドライブやハードディスクのようなローカルファイルシステムへのリンクを許可します。この設定は、教室ですべての学生が共通のネットワークドライブやCDに保存されているファイルにアクセスするときに便利です。この機能を使用するには、ブラウザのセキュリティ設定の変更が必要な場合もあります。';
 $string['configautofilerenamesettings'] = 'ファイルマネージャーでリネームされた場合、ファイルおよびディレクトリに対する参照を自動的に更新します。';
 $string['configblockdeletingfilesettings'] = 'リソースにより参照されているファイルおよびディレクトリの削除をブロックします。htmlより参照されているイメージおよび他のファイルは保護されませんので注意してください。';
-$string['configdefaulturl'] = 'ここでは、新しいURLベースのリソースを作成する場合、前もって入力されるURLを設定します。';
+$string['configdefaulturl'] = 'ここでは、新しいURIベースのリソースを作成する場合、前もって入力されるURIを設定します。';
 $string['configfilterexternalpages'] = 'この設定により、すべての外部リソース (ウェブページ、アップロードしたHTMLファイル) に対して、現在設定されているフィルタ  (例えば用語集オートリンク) が適用されます。「Yes」を選択することで、コースページの動作が著しく遅くなる恐れがあります。本当に必要がある場合のみ注意して使用してください。';
 $string['configframesize'] = 'フレーム内にウェブページやアップロードしたファイルが表示される場合の (ナビゲーションを含む) トップフレームサイズ (ピクセル) です。';
 $string['configparametersettings'] = '新しいリソースを登録する場合、パラメータ設定に関する初期値を設定できるウィンドウ枠を表示します。最初にリソースを登録した後、この値は各ユーザのデフォルトとなります。';
@@ -28,7 +28,7 @@ $string['configpopupstatus'] = 'ポップアップウィンドウにデフォル
 $string['configpopuptoolbar'] = 'ポップアップウィンドウにデフォルトでツールバーを表示しますか?';
 $string['configpopupwidth'] = '新しいポップアップウィンドウのデフォルトの幅は?';
 $string['configsecretphrase'] = 'このシークレットワードは、リソースをパラメータとして送信する場合、暗号コードを生成するため使用されます。暗号コードは、current_users IPアドレスとシークレットワードを結びつけてmd5により生成されます。例) code = md5(IP.secretphrase)。これにより、転送先のリソースが、高度なセキュリティ認証を行うことができます。';
-$string['configwebsearch'] = 'URLをウェブページまたはリンクとして追加する場合、このロケーションはユーザがURLを検索するためのヘルプとして提供されます。';
+$string['configwebsearch'] = 'URIをウェブページまたはリンクとして追加する場合、このロケーションはユーザがURIを検索するためのヘルプとして提供されます。';
 $string['configwindowsettings'] = '新しいリソースを登録する場合、ウィンドウ設定に関する初期値を設定できるウィンドウ枠を表示します。最初にリソースを登録した後、この値は各ユーザのデフォルトとなります。';
 $string['deploy'] = '配置';
 $string['deployall'] = 'すべてを配置';
@@ -40,7 +40,7 @@ $string['emptyfolder'] = '空のフォルダ';
 $string['encryptedcode'] = '暗号化コード';
 $string['example'] = '例';
 $string['exampleurl'] = 'http://www.example.com/somedirectory/somefile.html';
-$string['fetchclienterror'] = 'ウェブページの検索している時、ウェブクライアントにエラーが発生しました。URLが間違っていると思われます。';
+$string['fetchclienterror'] = 'ウェブページの検索している時、ウェブクライアントにエラーが発生しました。URIが間違っていると思われます。';
 $string['fetcherror'] = 'ウェブページを検索している時、エラーが発生しました。';
 $string['fetchservererror'] = 'ウェブページ検索中、リモートサーバにエラーが発生しました。プログラムエラーだと思われます。';
 $string['filename'] = 'ファイル名';
@@ -113,7 +113,7 @@ $string['resourcetypelabel'] = 'ラベルの挿入';
 $string['resourcetyperepository'] = 'リポジトリオブジェクトにリンク';
 $string['resourcetypetext'] = 'テキストページの作成';
 $string['searchweb'] = 'ウェブページを検索する';
-$string['serverurl'] = 'サーバURL ($a->wwwroot)';
+$string['serverurl'] = 'サーバURI ($a->wwwroot)';
 $string['showcourseblocks'] = 'コースブロックを表示する';
 $string['skipsubmenus'] = 'サブメニューページをスキップする';
 $string['tableofcontents'] = '目次';

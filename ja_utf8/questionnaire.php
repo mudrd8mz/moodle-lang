@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // questionnaire.php - created with Moodle 1.8 Beta (2007020200)
+      // questionnaire.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['addaline'] = '答えの行を追加する';
@@ -16,7 +16,7 @@ $string['changeorder'] = 'リストから順番を選択して、問題が表示
 $string['closed'] = 'アンケートは、$a に終了しました。ありがとうございます。';
 $string['closedate'] = '終了日を使用する';
 $string['confirmationpage'] = '確認ページ';
-$string['confpagedesc'] = 'ユーザがこの調査を完了した後、「確認」ページで表示される表題 (太字) および本文です。(URLが入力されている場合、確認テキストに優先します。)';
+$string['confpagedesc'] = 'ユーザがこの調査を完了した後、「確認」ページで表示される表題 (太字) および本文です。(URIが入力されている場合、確認テキストに優先します。)';
 $string['createcontent'] = '新しいコンテンツの定義';
 $string['createnew'] = '新しいアンケートを作成する';
 $string['crosstabulate'] = 'クロス集計';
@@ -82,7 +82,7 @@ $string['questionnaireid'] = 'アンケートコンテンツ';
 $string['questiontypes'] = '質問タイプ';
 $string['rank'] = 'ランク';
 $string['realm'] = 'アンケートタイプ';
-$string['redirecturl'] = 'この調査完了後、ユーザがリダイレクトされるURLです。<br /><b>または</b><br />';
+$string['redirecturl'] = 'この調査完了後、ユーザがリダイレクトされるURIです。<br /><b>または</b><br />';
 $string['remove'] = '削除';
 $string['required'] = '必須';
 $string['requiredquestions'] = '$a マークの質問は、必須回答です。';
@@ -131,7 +131,7 @@ $string['today'] = '本日';
 $string['total'] = '合計';
 $string['type'] = 'タイプ';
 $string['unknown'] = 'Unknown';
-$string['url'] = 'URL';
+$string['url'] = 'URI';
 $string['usepublic'] = 'パブリックを使用する';
 $string['usetemplate'] = '既存のアンケートをコピーする';
 $string['usingsurvey'] = '$a を使用中';

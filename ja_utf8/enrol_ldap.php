@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.9 dev (2007060502)
+      // enrol_ldap.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['description'] = '<p>ユーザ登録をコントロールするために、LDAPサーバを使用することができます。LDAPの使用は、あなたのLDAPツリーがコースに登録されているグループを含んでいること、それぞれのグループ/コース内に学生に対応したメンバーが登録されていることを前提とします。</p>
@@ -24,7 +24,7 @@ $string['enrol_ldap_course_shortname'] = 'オプション: 「省略名」を取
 $string['enrol_ldap_course_summary'] = 'オプション: 「要約」を取得するLDAPフィールドです。';
 $string['enrol_ldap_editlock'] = '設定値をロックする';
 $string['enrol_ldap_general_options'] = '一般オプション';
-$string['enrol_ldap_host_url'] = '「 ldap://ldap.myorg.com/ 」または「 ldaps://ldap.myorg.com/ 」のようにLDAPホストをURLの形式で指定してください。';
+$string['enrol_ldap_host_url'] = '「 ldap://ldap.myorg.com/ 」または「 ldaps://ldap.myorg.com/ 」のようにLDAPホストをURIの形式で指定してください。';
 $string['enrol_ldap_memberattribute'] = 'LDAPメンバー属性';
 $string['enrol_ldap_objectclass'] = 'コース検索に使用するオブジェクトクラスです。通常は「 posixGroup 」です。';
 $string['enrol_ldap_roles'] = 'ロールマッピング';
@@ -34,7 +34,7 @@ $string['enrol_ldap_student_contexts'] = '学生登録グループが配置さ�
 $string['enrol_ldap_student_memberattribute'] = 'ユーザがグループに属して (登録されて) いる場合のメンバー属性です。通常、「 member 」または「 memberUid 」です。';
 $string['enrol_ldap_student_settings'] = '学生登録設定';
 $string['enrol_ldap_teacher_contexts'] = '教師登録グループが配置されているコンテクスト一覧です。異なるコンテクストは「;」で分けてください。例: \'ou=courses,o=org; ou=others,o=org\'';
-$string['enrol_ldap_teacher_memberattribute'] = 'ユーザがグループに属して (登録されて) いる場合のメンバー属性です。通常、「 member 」または「 memberUid 」です。';
+$string['enrol_ldap_teacher_memberattribute'] = 'ユーザがグループに属している (登録されている) 場合のメンバー属性です。通常、「 member 」または「 memberUid 」です。';
 $string['enrol_ldap_teacher_settings'] = '教師登録設定';
 $string['enrol_ldap_template'] = 'オプション: 自動的に作成されるコースが設定をコピーするテンプレートコースです。';
 $string['enrol_ldap_updatelocal'] = 'ローカルデータを更新する';

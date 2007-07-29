@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007072100)
+      // quiz.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['1day'] = '1日';
@@ -184,7 +184,7 @@ $string['emailnotifybody'] = '$a->username さん
 
 ユーザ名: $a->studentname
 小テスト名: $a->quizname
-URL: $a->quizurl
+URI: $a->quizurl
 コース名: $a->coursename
 
 小テストは、$a->quizreviewurl でレビューすることが可能です。';
@@ -445,7 +445,7 @@ $string['relative'] = '相対度数';
 $string['remove'] = '削除';
 $string['removeallquizattempts'] = 'すべての小テストの受験結果を削除する';
 $string['rename'] = 'リネーム';
-$string['renderingserverconnectfailed'] = 'サーバ $a がRQPリクエストの処理に失敗しました。URLが正しいか確認してください。';
+$string['renderingserverconnectfailed'] = 'サーバ $a がRQPリクエストの処理に失敗しました。URIが正しいか確認してください。';
 $string['reordertool'] = '並び替えツールを表示する';
 $string['repaginate'] = '1ページあたりの問題数: $a';
 $string['replace'] = '置換';
@@ -500,7 +500,7 @@ $string['serveridentifier'] = '識別子';
 $string['serverinfo'] = 'サーバ情報';
 $string['serverinuse'] = 'あなたが削除しようとしているサーバは最後の $a サーバです。サーバの中には問題が作成されていますので、このサーバを削除した場合、問題をこれ以上使用することができません。';
 $string['servers'] = 'サーバ';
-$string['serverurl'] = 'サーバURL';
+$string['serverurl'] = 'サーバURI';
 $string['shortanswer'] = '記述問題';
 $string['show'] = '表示';
 $string['showall'] = 'すべての問題を1ページに表示する。';
@@ -559,7 +559,7 @@ $string['unsupportedformulafunction'] = '関数 $a はサポートされてい�
 $string['unusedcategorydeleted'] = 'コースを削除した後、カテゴリ内の問題が使用されませんでしたので、このカテゴリは削除されました。';
 $string['updatesettings'] = '問題設定の更新';
 $string['upgradesure'] = '<div style=\"color: red;\">小テストモジュールは広範囲におよぶ小テストデータベーステーブルの変更を行うことがあります。また、このアップグレードに関する十分なテストは行われていません。アップグレード処理の前に必ずデータベースのバックアップを行ってください。</div>';
-$string['url'] = 'URL';
+$string['url'] = 'URI';
 $string['usedcategorymoved'] = 'このカテゴリは公開され、他のコースで使用されているため、維持したままサイトレベルに移動されました。';
 $string['validate'] = '確認';
 $string['viewallanswers'] = '$a 件の受験結果を表示する';

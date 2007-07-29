@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.9 dev (2007041800)
+      // lams.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['createSequence'] = '新しいシーケンスの作成';
@@ -22,7 +22,7 @@ $string['selectExistingSequence'] = '登録済みシーケンスを選択する�
 $string['sequence'] = 'シーケンスの選択';
 $string['serverid'] = '<a href=\"http://www.lamsinternational.com\">LAMS international</a> から取得したサーバIDを入力してください。';
 $string['serverkey'] = '<a href=\"http://www.lamsinternational.com\">LAMS international</a> から取得したサーバkeyを入力してください。';
-$string['serverurl'] = 'LAMSサーバにアクセスするためのURLを入力してください。例: http://localhost:8080/lams';
+$string['serverurl'] = 'LAMSサーバにアクセスするためのURIを入力してください。例: http://localhost:8080/lams';
 $string['useSequence'] = '選択したシーケンスを使用';
 $string['visibletostudents'] = '活動を学生に表示する';
 $string['wikistartederror'] = 'すでにWikiの登録データがあります - 変更できません。';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007070602)
+      // error.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -41,7 +41,7 @@ $string['invalidfiletype'] = '「 $a 」は有効なファイルタイプでは�
 $string['invalidmd5'] = '無効なmp5ファイルです。';
 $string['invalidrequest'] = '無効なリクエストです。';
 $string['invalidrole'] = '無効なロールです。';
-$string['invalidurl'] = '無効なURLです。';
+$string['invalidurl'] = '無効なURIです。';
 $string['invalidxmlfile'] = '「 $a 」は有効なXMLファイルではありません。';
 $string['listcantmovedown'] = 'アイテムの下移動に失敗しました。これは最下位のアイテムです。';
 $string['listcantmoveleft'] = 'アイテムの左移動に失敗しました。親がありません。';
@@ -89,7 +89,7 @@ $string['usernotavailable'] = 'このユーザの詳細は閲覧できません�
 $string['usernotrenamedexists'] = 'ユーザはリネームされませんでした -- 新しいユーザ名がすでに使用されています。';
 $string['usernotrenamedmissing'] = 'ユーザはリネームされませんでした -- 古いユーザ名が見つかりませんでした。';
 $string['wrongdestpath'] = '宛先パスが正しくありません。';
-$string['wrongsourcebase'] = 'ソースURLベースが正しくありません。';
+$string['wrongsourcebase'] = 'ソースURIベースが正しくありません。';
 $string['wrongzipfilename'] = 'ZIPファイル名が正しくありません。';
 
 ?>
