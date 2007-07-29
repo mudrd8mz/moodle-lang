@@ -34,6 +34,7 @@ $string['addnousersrecip'] = 'Ajouter à la liste des destinataires les utilisat
 $string['addresource'] = 'Ajouter une ressource...';
 $string['address'] = 'Adresse';
 $string['addstudent'] = 'Ajouter un étudiant';
+$string['addsubcategory'] = 'Ajouter une sous-catégorie';
 $string['addteacher'] = 'Désigner comme enseignant';
 $string['admin'] = 'Admin';
 $string['adminbookmarks'] = 'Marque-pages administrateur';
