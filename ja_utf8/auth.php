@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007071501)
+      // auth.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['CASform'] = '認証選択';
@@ -87,7 +87,7 @@ $string['auth_dbuser_key'] = 'データベースユーザ';
 $string['auth_dbusernotexist'] = '登録されていないユーザを更新できません: $a';
 $string['auth_dbuserstoadd'] = '追加するユーザエントリ: $a';
 $string['auth_dbuserstoremove'] = '削除するユーザエントリ: $a';
-$string['auth_emaildescription'] = 'メールによるアカウント確定はデフォルトの認証方法です。ユーザが新しいユーザ名とパスワードを選択してサインアップした場合、アカウント確定用メールがユーザのメールアドレスに送信されます。このメールにはユーザがアカウントを確定するためのリンクが記入されています。アカウント確定後のログインではMoodleデータベースに保存されているユーザ名とパスワードのみを確認します。';
+$string['auth_emaildescription'] = 'メールによるアカウント登録確認はデフォルトの認証方法です。ユーザが新しいユーザ名とパスワードを選択してサインアップした場合、アカウント確定用メールがユーザのメールアドレスに送信されます。このメールにはユーザがアカウントの登録を確認するためのリンクが記入されています。アカウント確定後のログインではMoodleデータベースに保存されているユーザ名とパスワードのみを確認します。';
 $string['auth_emailnoemail'] = 'あなたへのメール送信に失敗しました!';
 $string['auth_emailnoinsert'] = 'レコードをデータベースに追加できませんでした!';
 $string['auth_emailtitle'] = 'Eメールによる自己登録';
@@ -129,7 +129,7 @@ $string['auth_ldap_bind_settings'] = 'Bind設定';
 $string['auth_ldap_changepasswordurl_key'] = 'パスワード変更のURL';
 $string['auth_ldap_contexts'] = 'ユーザが配置されているコンテクスト一覧です。異なるコンテクストは「;」で分けてください。例 \'ou=users,o=org; ou=others,o=org\'';
 $string['auth_ldap_contexts_key'] = 'コンテクスト';
-$string['auth_ldap_create_context'] = 'メール認証でユーザを作成する場合、ユーザが作成されるコンテクストを指定してください。セキュリティの観点から、このコンテクストはユーザごとに異なるものにしてください。Moodleがコンテクストから自動的にユーザを探しますので、このコンテクストをldap_context-vaiableに追加する必要はありません。<br /><b>注意!</b> ユーザ作成を動作させるため、auth/ldap/auth.phpファイルのuser_create() 関数を修正する必要があります。';
+$string['auth_ldap_create_context'] = 'メールによるアカウント登録確認でユーザを作成する場合、ユーザが作成されるコンテクストを指定してください。セキュリティの観点から、このコンテクストはユーザごとに異なるものにしてください。Moodleがコンテクストから自動的にユーザを探しますので、このコンテクストをldap_context-vaiableに追加する必要はありません。<br /><b>注意!</b> ユーザ作成を動作させるため、auth/ldap/auth.phpファイルのuser_create() 関数を修正する必要があります。';
 $string['auth_ldap_create_context_key'] = '新しいユーザのコンテクスト';
 $string['auth_ldap_create_error'] = 'LDAPのユーザ作成中にエラーが発生しました。';
 $string['auth_ldap_creators'] = 'メンバーが新しいコースの作成を許されているグループのリストです。複数のグループは「;」で分けられています。通常は\'cn=teachers,ou=staff,o=myorg\'のようになります。';
@@ -202,7 +202,7 @@ $string['auth_nntpnotinstalled'] = 'NNTP認証を使用できません。PHP IMA
 $string['auth_nntpport'] = 'サーバポート (119が最も一般的です)';
 $string['auth_nntpport_key'] = 'ポート';
 $string['auth_nntptitle'] = 'NNTPサーバ';
-$string['auth_nologindescription'] = 'システムへのユーザログインを停止するための予備的なプラグインです。また、ユーザ宛に送信されるメールもすべて破棄されます。これはユーザアカウントの「一時停止」する場合に使用できます。';
+$string['auth_nologindescription'] = 'システムへのユーザログインを停止するための予備的なプラグインです。また、ユーザ宛に送信されるメールもすべて破棄されます。ユーザアカウントを「一時停止」する場合に使用することができます。';
 $string['auth_nologintitle'] = 'ログインなし';
 $string['auth_nonedescription'] = 'ユーザはログインして外部サーバおよびメールによる認証なしにアカウントを直ちに作成できます。このオプションを使用するときは十分に注意してください - セキュリティーおよび管理上の問題が発生するかもしれないことを考えてください。';
 $string['auth_nonetitle'] = '認証なし';
