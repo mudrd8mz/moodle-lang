@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007070501)
+      // moodle.php - created with Moodle 1.9 dev (2007072100)
 
 
 $string['action'] = 'Aktion';
@@ -36,6 +36,7 @@ $string['addnousersrecip'] = 'Nutzer/innen hinzufügen, die sich nicht in diese 
 $string['addresource'] = 'Arbeitsmaterial anlegen...';
 $string['address'] = 'Adresse';
 $string['addstudent'] = 'Teilnehmer/in hinzufügen';
+$string['addsubcategory'] = 'Unterbereich hinzufügen';
 $string['addteacher'] = 'Trainer/in anlegen';
 $string['admin'] = 'Admin';
 $string['adminbookmarks'] = 'Administratorlesezeichen';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8 Beta + (2007021401)
+      // lesson.php - created with Moodle 1.9 dev (2007072100)
 
 
 $string['accesscontrol'] = 'Zugriffskontrolle';
@@ -133,8 +133,10 @@ $string['leftduringtimed'] = 'Sie haben die Lektion abgebrochen. Die Bearbeitung
 $string['leftduringtimednoretake'] = 'Sie haben die Lektion abgebrochen. Die Bearbeitung der Lektion ist zeitlich begrenzt. <br />Sie können diese Lektion nicht mehr bearbeiten.';
 $string['lesson:edit'] = 'Lektion bearbeiten';
 $string['lesson:manage'] = 'Lektion verwalten';
-$string['lessonclosed'] = 'Diese Lektion war bis $a verfügbar.';
-$string['lessoncloses'] = 'Verfügbarkeit der Lektion läuft ab.';
+$string['lessonattempted'] = 'Lektion wurde versucht';
+$string['lessonclosed'] = 'Diese Lektion war verfügbar bis: $a';
+$string['lessoncloses'] = 'Verfügbarkeit der Lektion endet';
+$string['lessoncloseson'] = 'Verfügbarkeit der Lektion endet: $a';
 $string['lessondefault'] = 'Einstellungen speichern';
 $string['lessonformating'] = 'Formatierung';
 $string['lessonmenu'] = 'Seitenmenü';
@@ -296,6 +298,7 @@ $string['whatdofirst'] = 'Was wollen Sie zuerst tun?';
 $string['wronganswerjump'] = 'Sprung bei falscher Antwort';
 $string['wronganswerscore'] = 'Bewertung bei falscher Antwort';
 $string['wrongresponse'] = 'Feedback bei falscher Antwort';
+$string['xattempts'] = '$a Versuche';
 $string['youhaveseen'] = 'Sie haben einige Seiten der Lektion schon einmal bearbeitet. <br />Wollen Sie an der Stelle fortsetzen, an der Sie damals aufgehört haben?';
 $string['youmadehighscore'] = 'Sie kommen in die Bestenliste der $a besten Bewertungen.';
 $string['youranswer'] = 'Ihre Antwort';

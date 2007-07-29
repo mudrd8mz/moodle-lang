@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007070501)
+      // quiz.php - created with Moodle 1.9 dev (2007072100)
 
 
 $string['1day'] = '1 Tag';
@@ -58,6 +58,7 @@ $string['bestgrade'] = 'Beste Bewertung';
 $string['blackboard'] = 'Blackboard';
 $string['blackboard_6'] = 'Blackboard V6+';
 $string['bothattempts'] = 'Teilnehmer/innen mit und ohne durchgeführte Versuche anzeigen';
+$string['braceerror'] = 'Es fehlen {...} um die Antworten';
 $string['calculated'] = 'Berechnung';
 $string['calculatedquestion'] = 'Die Berechnungsfrage in Zeile $a wird nicht unterstützt. Die Frage wird ignoriert.';
 $string['cannotcreatepath'] = 'Pfad kann nicht angelegt werden ($a).';

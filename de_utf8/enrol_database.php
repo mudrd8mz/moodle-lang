@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.8 Beta + (2007021400)
+      // enrol_database.php - created with Moodle 1.9 dev (2007072100)
 
 
 $string['autocreate'] = 'Kurse können automatisch angelegt werden, wenn es Anmeldungen zu einem Kurs gibt, der noch nicht in Moodle existiert.';
@@ -22,6 +22,7 @@ $string['enrol_database_autocreation_settings'] = 'Automatische Anlage neuer Kur
 $string['enrolname'] = 'Externe Datenbank';
 $string['general_options'] = 'Allgemeine Einstellungen';
 $string['host'] = 'Name des Datenbank-Servers';
+$string['ignorehiddencourse'] = 'Wenn diese Einstellung auf \"ja\" gesetzt ist, dann werden Nutzer/innen nicht in Kursen eingeschrieben, die für Teilnehmer/innen nicht verfügbar sind.';
 $string['local_fields_mapping'] = 'Moodle-Datenbankfelder (lokal)';
 $string['localcoursefield'] = 'Name des Feldes in der Kurstabelle (course) zum Abgleich mit der Remote-Datenbank (z.B. idnumber).';
 $string['localrolefield'] = 'Name des Feldes in der Rollentabelle (roles) zum Abgleich mit der Remote-Datenbank (z.B. Kurzname).';
