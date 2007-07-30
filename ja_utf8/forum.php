@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 dev (2007071801)
+      // forum.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -96,9 +96,9 @@ $string['forum:viewqandawithoutposting'] = 'Q and A投稿を常に表示する';
 $string['forum:viewrating'] = '評価を表示する';
 $string['forum:viewsubscribers'] = 'メール購読ユーザを表示する';
 $string['forumauthorhidden'] = '投稿者 (非表示)';
-$string['forumblockingalmosttoomanyposts'] = 'あなたは投稿限度に近づきつつあります。あなたは最近の $a->blockperiod に $a->numposts 回の投稿を行っています。投稿限度は $a->blockafter 回です。';
+$string['forumblockingalmosttoomanyposts'] = 'あなたは投稿数の限度に近づきつつあります。あなたは直近の $a->blockperiod に $a->numposts 回投稿しています。投稿数の限度は $a->blockafter 回です。';
 $string['forumbodyhidden'] = 'あなたはこの記事を閲覧できません。あなたはおそらくまだディスカッションを投稿していません。';
-$string['forumintro'] = 'フォーラム紹介';
+$string['forumintro'] = 'フォーラムイントロダクション';
 $string['forumname'] = 'フォーラム名';
 $string['forumposts'] = 'フォーラム投稿';
 $string['forums'] = 'フォーラム';
@@ -109,7 +109,7 @@ $string['forumtype'] = 'フォーラムタイプ';
 $string['generalforum'] = '一般利用のための標準フォーラム';
 $string['generalforums'] = '総合フォーラム';
 $string['inforum'] = '$a';
-$string['intronews'] = 'ニュースとお知らせ';
+$string['intronews'] = '一般ニュースとお知らせ';
 $string['introsocial'] = '投稿制限なしフォーラム';
 $string['introteacher'] = '教師専用フォーラム';
 $string['lastpost'] = '最新の投稿';
@@ -155,7 +155,7 @@ $string['notrackforum'] = '投稿の未読管理をしない';
 $string['noviewdiscussionspermission'] = 'あなたには、このフォーラムを閲覧するパーミッションがありません。';
 $string['nowallsubscribed'] = '$a のすべてのフォーラムのメール購読を登録しました。';
 $string['nowallunsubscribed'] = '$a のすべてのフォーラムのメール購読を解除しました。';
-$string['nownotsubscribed'] = '$a->name には「 $a->forum 」の記事がメールでは届きません。';
+$string['nownotsubscribed'] = '$a->name には「 $a->forum 」の記事がメールで届きません。';
 $string['nownottracking'] = '$a->name は 「 $a->forum 」を未読管理していません。';
 $string['nowsubscribed'] = '$a->name には「 $a->forum 」の記事がメールで届きます。';
 $string['nowtracking'] = '$a->name は、現在「 $a->forum 」を未読管理しています。';
@@ -170,11 +170,11 @@ $string['overviewnumunread'] = '合計未読記事';
 $string['parent'] = '親記事を表示する';
 $string['parentofthispost'] = 'この投稿の親記事';
 $string['postadded'] = '<p>あなたの投稿が追加されました。</p>
-<p>内容を変更したい場合は $a 編集できます。</p>';
+<p>内容を変更したい場合、 $a 編集できます。</p>';
 $string['postincontext'] = 'この投稿記事をコンテクスト内に表示する';
 $string['postmailinfo'] = 'これは ウェブサイト $a に投稿された記事のコピーです。
 
-返信をウェブサイトに投稿するには、このリンクをクリックしてください:';
+ウェブサイト経由で返信を投稿するには、このリンクをクリックしてください:';
 $string['postmailnow'] = '<p>この投稿はすべてのメール購読ユーザにすぐに送信されます。</p>';
 $string['postrating1'] = '主に分離認識の傾向がある';
 $string['postrating2'] = '分離認識と関連認識を同等に持っている';
