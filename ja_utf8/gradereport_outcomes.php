@@ -5,7 +5,7 @@
 $string['addoutcome'] = 'アウトカムを追加する';
 $string['courseoutcomes'] = 'コースアウトカム';
 $string['coursespecoutcome'] = 'コースアウトカム';
-$string['modulename'] = 'アウトカム';
+$string['modulename'] = 'アウトカムレポート';
 $string['usedgradeitem'] = '評定項目数';
 
 ?>
