@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007072500)
+      // moodle.php - created with Moodle 1.9 dev (2007073104)
 
 
 $string['action'] = '操作';
@@ -532,6 +532,7 @@ $string['enrolperiod'] = '利用有効期間';
 $string['enrolstartdate'] = '開始日';
 $string['entercourse'] = 'コースに入るにはクリックしてください。';
 $string['enteremailaddress'] = 'パスワードをリセットして新しいパスワードを送信します。メールアドレスを入力してください。';
+$string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。';
 $string['entries'] = 'エントリ';
 $string['error'] = 'エラー';
 $string['errortoomanylogins'] = 'ログイン失敗回数の上限に達しました。ブラウザを再起動してください。';
@@ -744,6 +745,7 @@ $string['includeuserfiles'] = 'ユーザファイルを含む';
 $string['info'] = '情報';
 $string['institution'] = '所属組織';
 $string['instudentview'] = ': 学生モード使用中';
+$string['interests'] = '興味があること';
 $string['invalidemail'] = '不正なメールアドレスです。';
 $string['invalidlogin'] = '不正なログインです、再度ログインしてください。';
 $string['ip_address'] = 'IPアドレス';
@@ -1185,6 +1187,7 @@ $string['scalescustom'] = 'カスタム評価尺度';
 $string['scalescustomcreate'] = '新しい評価尺度を追加する';
 $string['scalescustomno'] = 'カスタム評価尺度はまだ作成されていません。';
 $string['scalesstandard'] = '標準評価尺度';
+$string['scalestandard'] = '標準尺度';
 $string['scalestip'] = 'カスタム評価尺度を作成するためには、コース管理メニューにある「評価尺度..」を使用してください。';
 $string['schedule'] = 'スケジュール';
 $string['scheduledbackupstatus'] = 'スケジュールバックアップ状況';
