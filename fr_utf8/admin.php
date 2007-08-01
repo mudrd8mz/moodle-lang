@@ -204,6 +204,7 @@ $string['configteacherassignteachers'] = 'Les enseignants peuvent-ils choisir d\
 $string['configthemelist'] = 'Laissez ce champ vide si vous voulez permettre l\'utilisation de n\'importe quel thème. Si vous voulez raccourcir le menu des thèmes, vous pouvez spécifier ici une liste de noms de thèmes autorisés, séparés par des virgules. Par exemple&nbsp;: «&nbsp;standard,orangewhite&nbsp;». N\'utilisez pas d\'espaces&nbsp;!';
 $string['configtimezone'] = 'Vous pouvez indiquer ici le fuseau horaire par défaut. Ce n\'est le fuseau horaire par défaut que pour l\'affichage des dates. Chaque utilisateur peut modifier ce réglage dans son propre profil. Si vous choisissez «&nbsp;Heure locale du serveur&nbsp;», Moodle utilisera le réglage par défaut du serveur où il est installé. Si l\'utilisateur choisit «&nbsp;Heure locale du serveur&nbsp;» dans son profil, le réglage spécifié ici sera alors utilisé pour lui. Les tâches cron s\'exécutant en fonction de l\'heure utiliseront ce fuseau horaire.';
 $string['configunzip'] = 'Indiquer le chemin complet du programme «&nbsp;unzip&nbsp;» (seulement pour Unix). Ce programme est requis pour décompresser des archives zip sur le serveur.';
+$string['configusetags'] = 'La fonctionnalité de balises doit-elle être activée sur tout le site&nbsp;?';
 $string['configvariables'] = 'Paramètres techniques';
 $string['configwarning'] = 'Attention ! Des valeurs inadaptées pour ces paramètres peuvent engendrer des problèmes.';
 $string['configzip'] = 'Indiquer le chemin complet du programme «&nbsp;zip&nbsp;» (seulement pour Unix). Ce programme est requis pour réaliser des archives zip sur le serveur.';
@@ -605,6 +606,7 @@ $string['users'] = 'Utilisateurs';
 $string['userscreated'] = 'Utilisateurs créés';
 $string['usersrenamed'] = 'Utilisateurs renommés';
 $string['usersupdated'] = 'Utilisateurs modifiés';
+$string['usetags'] = 'Activer la fonctionnalité de balises';
 $string['validateerror'] = 'Cette valeur n\'est pas valide&nbsp;: ';
 
 ?>
