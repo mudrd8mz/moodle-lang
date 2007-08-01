@@ -92,6 +92,7 @@ $string['droplow'] = 'Ignorer les plus basses';
 $string['dropped'] = 'Ignoré';
 $string['dropxlowest'] = 'Ignorer les n notes les plus basses';
 $string['dropxlowestwarning'] = 'Remarque&nbsp;: si vous utilisez l\'option «&nbsp;ignorer les n notes les plus basses&nbsp;»,<br />tous les éléments de la catégorie seront considérés comme valant<br />le même nombre de points. Si ces valeurs varient, les résultats seront imprévisibles&nbsp;!';
+$string['duplicatescale'] = 'Barème en doublon';
 $string['edit'] = 'Modifier';
 $string['editcalculation'] = 'Modifier calcul';
 $string['editfeedback'] = 'Modifier feedback';
