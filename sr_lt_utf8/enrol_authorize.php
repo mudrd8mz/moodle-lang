@@ -1,14 +1,17 @@
-<?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 beta (2006101000)
+﻿<?PHP // $Id$ 
+      // enrol_authorize.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['adminacceptccs'] = 'Koji tipovi kreditnih kartica se prihvataju?';
 $string['adminaccepts'] = 'Izaberite dozvoljene načine plaćanja i njihove tipove';
+$string['adminauthcode'] = 'Ukoliko kreditna kartica korisnika ne može';
 $string['adminauthorizeccapture'] = 'Pregled porudžbine i podešavanja zakazanog prihvatanja';
 $string['adminauthorizeemail'] = 'Podešavanja slanja elektronske pošte';
 $string['adminauthorizesettings'] = 'Podešavanja vezana za Authorize.net';
 $string['adminauthorizewide'] = 'Podešavanja na nivou sajta';
 $string['adminavs'] = 'Proverite da li ste aktivirali sistem za verifikaciju adresa (AVS) u okviru Vašeg authorize.net naloga. Time ćete načiniti obaveznim adresna polja kao što su ulica, država, poštanski broj i sl. kad korisnik bude ispunjavao formular za plaćanje.';
+$string['adminconfighttps'] = 'Da biste koristili ovaj dodatak <br /> kao administrator >> Varijable >> Bezbednost >> HTTP bezbednost, proverite da li ste \"<a href=\"$a->url\"> loginhttps uključili.';
+$string['adminconfighttpsgo'] = 'Idite na <a href=\"$a->url\"> sigurnosnu stranu da bi oblikovali ovaj dodatak.';
 $string['admincronsetup'] = 'Skript za održavanje cron.php nije pokretan bar 24 sata. <br />Cron mora biti omogućen ako želite da koristite mogućnosti zakazanog prihvatanja.<br /><b>Omogućite</b> \'Authorize.net dodatak\' i pravilno <b>podesite cron</b>; ili ponovo<b>nemojte označiti an_review.</b><br />Ako onemogućite zakazano prihvatanje, transakcije će biti otkazane ukoliko ih ne pregledate u roku od 30 dana.<br />Proverite <b>an_review</b> i unesite <b>\'0\' u an_capture_day</b> polje<br />ako želite <b>ručno</b> da prihvatite/odbijete uplate u roku od 30 dana.';
 $string['adminemailexpired'] = 'Ovo je korisno za \'Ručno prihvatanje\'. Administratori se obaveštavaju <b>$a</b> dana pre nego što isteknu porudžbine na čekanju.';
 $string['adminemailexpiredsort'] = 'Kada se veći broj porudžbina na čekanju kojima uskoro ističe rok šalje predavačima putem e-pošte, koje od njih će biti istaknute kao važne?';
@@ -38,15 +41,18 @@ $string['adminnewordersubject'] = '$a->course: Nova porudžbina na čekanju ($a-
 $string['adminpendingorders'] = 'Isključili ste mogućnost zakazanog prihvatanja.<br />Ukupno $a->count transakcija sa statusom \'Autorizovana/Čeka na prihvatanje\' biće poništeno ukoliko ih ne potvrdite.<br />Da biste prihvatili/odbili uplate idite na stranicu <a href=\'$a->url\'>Upravljanje plaćanjem</a>.';
 $string['adminreview'] = 'Pregled porudžbine pre procesiranja kreditne kartice.';
 $string['adminteachermanagepay'] = 'Predavači mogu upravljati plaćanjem kursa.';
+$string['allpendingorders'] = 'Nardžbine koje su u toku.';
 $string['amount'] = 'Iznos';
 $string['anlogin'] = 'Authorize.net: Korisničko ime';
 $string['anpassword'] = 'Authorize.net: Lozinka';
-$string['anreferer'] = 'Definišite URL za preusmeravanje ako ste to podesili na svom authorize.net nalogu. To će poslati liniju \"Preusmeravanje: URL\" u okviru veb zahteva.';
+$string['anreferer'] = 'Definišite URL za preusmeravanje ako ste to podesili na svom authorize.net nalogu. To će poslati liniju \"Preusmeravanje: URL\" u okviru Web zahteva.';
 $string['antestmode'] = 'Pokretanje transkacija isključivo u test modu (neće doći do podizanja novca)';
 $string['antrankey'] = 'Authorize.net: Ključ za transakciju';
 $string['approvedreview'] = 'Odobreni pregled';
 $string['authcaptured'] = 'Autorizovano/Prihvaćeno';
+$string['authcode'] = 'Kod za autorizaciju.';
 $string['authorize:managepayments'] = 'Upravljenje uplatama';
+$string['authorize:uploadcsv'] = 'Postavi CSV  datoteku.';
 $string['authorizedpendingcapture'] = 'Autorizovano/Čeka na prihvatanje';
 $string['avsa'] = 'Adresa (ulica) se uklapa, ali ne i poštanski broj';
 $string['avsb'] = 'Nisu date informacije o adresi';
@@ -91,22 +97,26 @@ $string['echeckfirslasttname'] = 'Vlasnik bankovnog računa';
 $string['echecksavings'] = 'Ušteđevina';
 $string['enrolname'] = 'Authorize.net gateway za plaćanje';
 $string['expired'] = 'Isteklo';
+$string['haveauthcode'] = 'Već imam kod za autorizaciju.';
 $string['howmuch'] = 'Koliko?';
 $string['httpsrequired'] = 'Žao nam je, ali Vaš zahtev trenutno ne može biti procesiran. Konfiguracija ovog sajta izgleda nije pravilno izvršena.<br /><br />Molimo ne unosite broj Vaše kreditne kartice ukoliko ne vidite žuti katanac na dnu stranice Vašeg web čitača. Kada se ovaj simbol pojavi, to znači da stranica šifrira sve podatke koji se razmenjuju između klijenta i servera. Tako da su informacije zaštićene tokom transakcija između dva računara, te broj vaše kreditne kartice ne može biti ukraden prilikom upotrebe na sajtu.';
 $string['invalidaba'] = 'Pogrešan ABA broj';
 $string['invalidaccnum'] = 'Pogrešan broj računa';
 $string['invalidacctype'] = 'Pogrešan tip računa';
 $string['logindesc'] = 'Ova opcija mora biti uključena. <br /><br />Molimo proverite da li ste uključili <a href=\"$a->url\">loginhttps</a> u Administracija >> Promenljive >> Bezbednost.<br /><br />Uključivanjem ove opcije postići ćete to da Moodle koristi sigurnu https konekciju samo za stranica za pristup sistemu i uplate.';
+$string['logininfo'] = 'Korisničko ime, šifra i ključ ѕa transakciju nisu prikazani tokom mera predostrožnosti.Nema potrebe da ih unosite opet ako ste ih uneli ranije.Vidite zeleno obojen tekst ukoliko su neka polja već popunjena.Ako popunjavate ova polja po prvi put, korisničko ime (*) je obavezno i morate uneti <strong>either</strong> ključ transakcije (#1) <strong>or</strong> šifra  (#2)u odgovarajućem polju.Preporučujemo vam da unesete ključ transakcije tokom mera predostrožnosti.Ako želite da obrišete trenutnu šifru, obeležite polje ѕa potvrdu.';
 $string['methodcc'] = 'Kreditna kartica';
 $string['methodecheck'] = 'eCheck (ACH)';
 $string['missingaba'] = 'Nedostaje ABA broj';
 $string['missingaddress'] = 'Nedostaje adresa';
 $string['missingbankname'] = 'Nedostaje naziv banke';
 $string['missingcc'] = 'Nedostaje broj kreditne kartice';
+$string['missingccauthcode'] = 'Nedostaje kod za autorizaciju.';
 $string['missingccexpire'] = 'Nedostaje datum isticanja kreditne kartice';
 $string['missingcctype'] = 'Nedostaje tip kreditne kartice';
 $string['missingcvv'] = 'Nedostaje verifikacioni broj';
 $string['missingzip'] = 'Nedostaje poštanski broj';
+$string['mypaymentsonly'] = 'Prikaži samo moje plaćanje.';
 $string['nameoncard'] = 'Ime na kartici';
 $string['new'] = 'Novo';
 $string['noreturns'] = 'Bez povraćaja novca!';
@@ -115,6 +125,10 @@ $string['orderid'] = 'Identifikator porudžbine';
 $string['paymentmanagement'] = 'Upravljanje plaćanjem';
 $string['paymentmethod'] = 'Način plaćanja';
 $string['paymentpending'] = 'Vaša uplata za ovaj kurs, pod rednim brojem $a->orderid, čeka na prihvatanje. Pogledajte <a href=\'$a->url\'>Detalji porudžbine</a>.';
+$string['pendingecheckemail'] = 'Poštovani direktore,
+
+Trenutno $a->count echecks čekaju na prihvatanje, neophodno je da postavite csv datoteku da bi se korisnici prijavili.';
+$string['pendingechecksubject'] = '$a->course: eChecks čekaju na prihvatanje ($a->count)';
 $string['pendingordersemail'] = 'Dragi administratore,
 
 $a->pending transakcija koje čekaju na prihvatanje za kurs \"$a->course\" će isteći ukoliko ne prihvatite uplate u roku od $a->days dana.

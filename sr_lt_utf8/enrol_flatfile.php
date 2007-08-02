@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // enrol_flatfile.php - created with Moodle 1.6 + (2006050506)
 
 
@@ -24,7 +24,7 @@ Datoteka može izgledati slično kao ova:
    dodavanje, student, 21, CF101, 1091115000, 1091215000
 </pre>';
 $string['enrolname'] = 'Tekstualna datoteka';
-$string['filelockedmail'] = 'Tekstualna datoteka koja se koristi za upise na osnovu podataka u datoteci ($a) ne može biti obrisana cron procesom. Ovo obično znači da su podešene pogrešne dozvole pristupa toj datoteci. Molimo Vas da podesite dozvole pristupa da bi Moodle mogao da obriše datoteku, inače bi se ona mogla nastaviti neprestano obrađivati.';
+$string['filelockedmail'] = 'Tekstualna datoteka koja se koristi za upise na osnovu podataka u datoteci ($a) ne može biti obrisana cron procesom. Ovo obično znači da su podešene pogrešne dozvole pristupa toj datoteci. Molimo Vas da podesite dozvole pristupa da bi Moodle  mogao da obriše datoteku, inače bi se ona mogla nastaviti neprestano obrađivati.';
 $string['filelockedmailsubject'] = 'Važna greška: Datoteka sa upisima';
 $string['location'] = 'Lokacija datoteke';
 $string['mailadmin'] = 'Obavestiti administratora e-porukom';
