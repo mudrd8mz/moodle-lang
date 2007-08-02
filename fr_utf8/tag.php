@@ -1,6 +1,7 @@
 <?php // $Id$
 
-$string['addtagtomyinterests'] =  'Ajouter «&nbsp;$a&nbsp; à mes intérêts';
+// Trouver un meilleur terme que 'balise' pour 'tag'
+$string['addtagtomyinterests'] =  'Ajouter «&nbsp;$a&nbsp; à mes centres d\'intérêts';
 $string['count'] = 'Compte';
 $string['description'] = 'Description';
 $string['delete'] = 'Supprimer';
@@ -9,6 +10,7 @@ $string['edittag'] = 'Modifier cette balise';
 $string['flag'] = 'Fanion';
 $string['flagasinappropriate'] = 'Marquer comme inapproprié';
 $string['helprelatedtags'] = 'Balises reliées, séparées par des virgules';
+$string['id'] = 'id';
 $string['managetags'] = 'Gérer les balises';
 $string['name'] = 'Nom';
 $string['noresultsfor'] = 'Aucun résultat pour «&nbsp;$a&nbsp;»';
