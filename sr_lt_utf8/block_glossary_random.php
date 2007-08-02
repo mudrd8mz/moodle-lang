@@ -1,12 +1,12 @@
-<?PHP // $Id$ 
-      // block_glossary_random.php - created with Moodle 1.6.1+ (2006050512)
+﻿<?PHP // $Id$ 
+      // block_glossary_random.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addentry'] = 'Dodajte svoje omiljene citate!';
 $string['askaddentry'] = 'Kad korisnici mogu da dodaju pojmove u rečnik, prikazati im link sa ovim tekstom';
 $string['askinvisible'] = 'Kada korisnicima nije dozvoljeno da uređuju ili pregledaju rečnik, prikazati im sledeći tekst (bez linka)';
 $string['askviewglossary'] = 'Kada korisnici mogu da pregledaju rečnik, ali ne i da dodaju nove pojmove, prikazati im link sa ovim tekstom';
-$string['blockname'] = 'Slučajno odabrani pojam iz rečnika';
+$string['blockname'] = 'Slučajni pojam iz rečnika';
 $string['intro'] = 'Proverite da li je ovom kursu dodat barem jedan rečnik sa najmanje jednim pojmom. Tada možete menjati sledeća podešavanja';
 $string['invisible'] = '(nastaviće se)';
 $string['lastmodified'] = 'Pojam koji je poslednji modifikovan';

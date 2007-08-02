@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // block_course_summary.php - created with Moodle 1.6 + (2006050506)
+﻿<?PHP // $Id$ 
+      // block_course_summary.php - created with Moodle 1.6.1+ (2006050512)
 
 
 $string['coursesummary'] = 'Rezime kursa';
