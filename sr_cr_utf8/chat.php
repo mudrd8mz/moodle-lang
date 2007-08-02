@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.7 beta (2006101000)
+      // chat.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['beep'] = 'звучни сигнал';
-$string['chat:chat'] = 'Учествовање у разговору';
-$string['chat:deletelog'] = 'Брисање записа разговора';
-$string['chat:readlog'] = 'Читање записа разговора';
+$string['chat:chat'] = 'Учествуј у разговору';
+$string['chat:deletelog'] = 'Обриши записе разговора';
+$string['chat:readlog'] = 'Прочитај записе разговора';
 $string['chatintro'] = 'Уводни текст';
 $string['chatname'] = 'Назив ове причаонице';
 $string['chatreport'] = 'Разговори';
@@ -21,9 +21,9 @@ $string['configservermax'] = 'Максималан број дозвољених
 $string['configserverport'] = 'Порт на серверу за IRC daemon';
 $string['currentchats'] = 'Активни разговори';
 $string['currentusers'] = 'Тренутни корисници';
-$string['deletesession'] = 'Брисање ове сесије';
-$string['deletesessionsure'] = 'Да ли сте сигурни да желите да избришете ову сесију?';
-$string['donotusechattime'] = 'Без приказа времена проведеног у причаоници';
+$string['deletesession'] = 'Обриши ову сесије';
+$string['deletesessionsure'] = 'Да ли сте сигурни да желите да обришете ову сесију?';
+$string['donotusechattime'] = 'Не објављивати време следећег разговора (сесије)';
 $string['enterchat'] = 'Кликните овде за улазак у причаоницу';
 $string['errornousers'] = 'Није пронађен ниједан корисник!';
 $string['explaingeneralconfig'] = 'Ова подешавања <strong>увек</strong> важе';
@@ -39,8 +39,8 @@ $string['messageexit'] = 'Учесник $a управо напушта прич
 $string['messages'] = 'Поруке';
 $string['methoddaemon'] = 'IRC server daemon';
 $string['methodnormal'] = 'Нормалан режим';
-$string['modulename'] = 'Разговор';
-$string['modulenameplural'] = 'Разговори';
+$string['modulename'] = 'Причаоница';
+$string['modulenameplural'] = 'Причаонице';
 $string['neverdeletemessages'] = 'Никад не бриши поруке';
 $string['nextsession'] = 'Наредна планирана сесија';
 $string['noguests'] = 'Овај разговор није отворен за госте';
@@ -50,13 +50,13 @@ $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Нема заказаних сесија';
 $string['repeatdaily'] = 'Сваки дан у исто време';
 $string['repeatnone'] = 'Нема понављања - објавити само одређено време';
-$string['repeattimes'] = 'Поновите сесије';
+$string['repeattimes'] = 'Поновне сесије';
 $string['repeatweekly'] = 'Сваке седмице у исто време';
-$string['savemessages'] = 'Сачувајте претходне сесије';
-$string['seesession'] = 'Погледајте ову сесију';
+$string['savemessages'] = 'Сачувај претходне сесије';
+$string['seesession'] = 'Погледај ову сесију';
 $string['sessions'] = 'Разговори';
 $string['strftimemessage'] = '%%H:%%M';
-$string['studentseereports'] = 'Свако може прегледати претходне сесије';
-$string['viewreport'] = 'Погледајте претходне сесије';
+$string['studentseereports'] = 'Свако може видети претходне сесије';
+$string['viewreport'] = 'Погледај претходне сесије';
 
 ?>

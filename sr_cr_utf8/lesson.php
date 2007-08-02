@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8.1+ (2007021510)
+      // lesson.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['accesscontrol'] = 'Контрола приступа';
@@ -57,7 +57,7 @@ $string['continue'] = 'Настави';
 $string['continuetoanswer'] = 'Наставите да бисте променили одговоре.';
 $string['correctanswerjump'] = 'Тачан одговор води до';
 $string['correctanswerscore'] = 'Број бодова који се добија за тачан одговор';
-$string['correctresponse'] = 'Коментар на тачан одговор';
+$string['correctresponse'] = 'Повратне информације за тачан одговор';
 $string['credit'] = 'Бодови';
 $string['customscoring'] = 'Бодовање прилагођено потребама корисника';
 $string['deadline'] = 'Крајњи рок';
@@ -127,10 +127,12 @@ $string['jumps'] = 'Прелази';
 $string['jumpsto'] = 'Прелази на <em>$a</em>';
 $string['leftduringtimed'] = 'Напустили сте лекцију која је временски ограничена.<br />Притисните тастер за наставак да бисте погледали лекцију од почетка.';
 $string['leftduringtimednoretake'] = 'Напустили сте лекцију која је временски ограничена и није Вам <br /> дозвољено да наставите или почнете лекцију из почетка.';
-$string['lesson:edit'] = 'Уређивање активности лекције';
-$string['lesson:manage'] = 'Управљање активности лекције';
+$string['lesson:edit'] = 'Уреди лекцију';
+$string['lesson:manage'] = 'Управљај лекцијом';
+$string['lessonattempted'] = 'Лекцији је приступано';
 $string['lessonclosed'] = 'Ова лекција је затворена дана $a.';
 $string['lessoncloses'] = 'Лекција се затвара';
+$string['lessoncloseson'] = 'Време затварања лекције: $a';
 $string['lessondefault'] = 'Користите подешавања ове лекције као подразумевана за све нове лекције';
 $string['lessonformating'] = 'Форматирање лекције';
 $string['lessonmenu'] = 'Мени лекције';
@@ -234,7 +236,7 @@ $string['receivedcredit'] = 'Добијени бодови';
 $string['redisplaypage'] = 'Освежавање приказа странице';
 $string['report'] = 'Извештај';
 $string['reports'] = 'Извештаји';
-$string['response'] = 'Одговор';
+$string['response'] = 'Повратне информације';
 $string['returnto'] = 'Врати се на $a';
 $string['returntocourse'] = 'Врати се на курс';
 $string['review'] = 'Преглед';
@@ -291,7 +293,8 @@ $string['welldone'] = 'Браво!';
 $string['whatdofirst'] = 'Шта желите прво да урадите?';
 $string['wronganswerjump'] = 'Страница која ће се приказати након погрешног одговора';
 $string['wronganswerscore'] = 'Број бодова који носи погрешан одговор';
-$string['wrongresponse'] = 'Погрешан одговор';
+$string['wrongresponse'] = 'Повратне информације за погрешан одговор';
+$string['xattempts'] = '$a покушај(а)';
 $string['youhaveseen'] = 'Већ сте видели више од једне странице ове лекције.<br /> Желите ли почети од последње странице коју сте видели?';
 $string['youmadehighscore'] = 'Доспели сте на листу $a најбољих резултата.';
 $string['youranswer'] = 'Ваш одговор';
