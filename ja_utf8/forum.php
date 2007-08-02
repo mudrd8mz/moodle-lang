@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 dev (2007072500)
+      // forum.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -7,7 +7,7 @@ $string['addanewquestion'] = '新しい質問を追加する';
 $string['addanewtopic'] = '新しいトピックを追加する';
 $string['advancedsearch'] = '検索オプション';
 $string['allforums'] = 'すべてのフォーラム';
-$string['allowchoice'] = '選択できるようにする';
+$string['allowchoice'] = 'すべてのユーザがメール購読を選択できるようにする';
 $string['allowdiscussions'] = '$a はこのフォーラムに投稿できますか?';
 $string['allowratings'] = '投稿を評価可能にしますか?';
 $string['allowsallsubscribe'] = 'このフォーラムでは、すべてのユーザがメール購読するかどうか選択できます。';
@@ -66,9 +66,9 @@ $string['edit'] = '編集';
 $string['editedby'] = '編集 $a->name - 最初の投稿日時 $a->date';
 $string['editing'] = '編集';
 $string['emptymessage'] = '投稿に異常があります。投稿が空白のままか、添付ファイルのサイズが制限を越えています。変更は保存されませんでした。';
-$string['everyonecanchoose'] = 'すべてのユーザはメール購読するかどうか選択できます。';
-$string['everyonecannowchoose'] = '現在、すべてのユーザがメール購読することができます。';
-$string['everyoneisnowsubscribed'] = '現在、すべてのユーザがこのフォーラムをメール購読します。';
+$string['everyonecanchoose'] = 'すべてのユーザはメール購読を選択できます。';
+$string['everyonecannowchoose'] = 'すべてのユーザはメール購読を選択できるようになりました。';
+$string['everyoneisnowsubscribed'] = 'すべてのユーザがこのフォーラムをメール購読するようになりました。';
 $string['everyoneissubscribed'] = 'すべてのユーザがこのフォーラムをメール購読します。';
 $string['existingsubscribers'] = 'メール購読ユーザ';
 $string['forcessubscribe'] = 'このフォーラムはメール購読が強制されています。';
