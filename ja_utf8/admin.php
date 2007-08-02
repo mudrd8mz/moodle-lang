@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007080103)
+      // admin.php - created with Moodle 1.9 dev (2007080201)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -201,6 +201,9 @@ $string['configstatsfirstrun'] = 'ここでは、cronジョブが<b>最初の</b
 $string['configstatsmaxruntime'] = '統計処理は、コンピュータに大きな負荷がかかる場合があります。このオプションと次のオプションの組み合わせで、「いつ」および「どのくらい」稼動させるか設定してください。';
 $string['configstatsruntimestart'] = '何時にcronジョブの統計処理を<b>開始</b>させますか?';
 $string['configstatsuserthreshold'] = 'コースランキングのため、ゼロ以外の数値をここに入力した場合、この値より少ない登録ユーザ数 (すべてのロール) のコースは無視されます。';
+$string['configsupportemail'] = 'このメールアドレスは、一般的なサポート (例えば、ユーザが自分のアカウントを作成) が必要な場合、このサイトのユーザに公開されます。この欄を空白のままにした場合、そのような有益なメールアドレスは提供されません。';
+$string['configsupportname'] = 'これは、サポートメールまたはウェブ経由で一般的なサポートを提供する人の名前または団体の名称です。';
+$string['configsupportpage'] = 'このウェブアドレスは、一般的なサポート (例えば、ユーザが自分のアカウントを作成) が必要な場合、このサイトのユーザに公開されます。この欄を空白のままにした場合、リンクは提供されません。';
 $string['configteacherassignteachers'] = '一般の教師は、自分が教えるコースに他の教師を割り当てることができますか? 「No」の場合、コース作成者および管理者のみ教師の割り当てを行うことができます。';
 $string['configthemelist'] = '空白にした場合、すべてのテーマを使用することができます。テーマメニューを短くしたい場合は、カンマで区切ったテーマ名を入力してください (テーマ名に空白を使用しないでください!)。例: standard,orangewhite';
 $string['configtimezone'] = 'ここでは、デフォルトタイムゾーンを設定することができます。これは日付表示のためのデフォルトタイムゾーンを設定するのみで、各ユーザはプロフィール設定画面にて、ここで設定されたタイムゾーンを変更することができます。「サーバのシステム時間」を選択することにより、オペレーティングシステムの時間設定をMoodleのデフォルトにします。これに対してユーザプロフィール設定画面のタイムゾーンで選択する「サーバのシステム時間」では、ここで設定したタイムゾーンをユーザデフォルトにします。時刻に依存するcronジョブは、このタイムゾーンを使用して実行されます。';
@@ -563,6 +566,9 @@ $string['stickyblockscourseview'] = 'コースページ';
 $string['stickyblocksduplicatenotice'] = 'あなたがここで追加するブロックがすでに登録されている場合、重複することになります。<br />この場合、スティッキーブロックのみ編集不可ですが、重複したブロックは編集することができます。';
 $string['stickyblocksmymoodle'] = 'マイ moodle';
 $string['stickyblockspagetype'] = '設定するページタイプ';
+$string['supportemail'] = 'サポートメール';
+$string['supportname'] = 'サポート名';
+$string['supportpage'] = 'サポートページ';
 $string['switchlang'] = '言語ディレクトリを切り替える';
 $string['systempaths'] = 'システムパス';
 $string['tabselectedtofront'] = 'タブ付きテーブルで、現在選択されているタブを最前部に表示します。';
