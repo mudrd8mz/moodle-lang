@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.8 dev (2006102600)
+      // block_rss_client.php - created with Moodle 1.9 dev (2007080103)
 
 
 $string['addfeed'] = 'ニュースフィードURIを追加:';
@@ -40,7 +40,7 @@ $string['seeallfeeds'] = 'すべてのフィードを表示';
 $string['sharedfeed'] = '共有フィード';
 $string['shownumentrieslabel'] = 'ブロックに表示する最大エントリ数';
 $string['submitters'] = '誰が新しいRSSフィードを設定できますか? あなたのサイトのすべてのメンバーが自分のページにフィードを追加することができます。';
-$string['timeout'] = 'タイムアウト';
+$string['timeout'] = 'キャッシュ内のRSSフィードの有効期限が切れる時間 (分) です。この時間には有効期限の最短時間を設定します。有効期限後の次のcron実行により、キャッシュ内のRSSフィードがリフレッシュされます。推奨設定値は、30分またはそれ以上です。';
 $string['timeoutdesc'] = 'RSSフィードのキャッシュ保存期間 (分)';
 $string['updatefeed'] = 'ニュースフィードURIの更新:';
 $string['validatefeed'] = 'フィードの確認';

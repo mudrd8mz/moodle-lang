@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // gradeexport_xls.php - created with Moodle 1.9 dev (2007072304)
+      // gradeexport_xls.php - created with Moodle 1.9 dev (2007080103)
 
 
-$string['modulename'] = 'Excelスプレッドシートにエクスポートする';
+$string['modulename'] = 'Excelスプレッドシート';
 
 ?>
