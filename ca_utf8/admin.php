@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007062008)
+      // admin.php - created with Moodle 1.9 dev (2007080103)
 
 
 $string['accessdenied'] = 'Accés denegat';
@@ -45,12 +45,12 @@ $string['clamfailureonupload'] = 'Si falla el clam AV';
 $string['cleanup'] = 'Neteja';
 $string['componentinstalled'] = 'S\'ha instal·lat el component';
 $string['confeditorhidebuttons'] = 'Seleccioneu els botons que voleu ocultar en l\'editor HTML.';
-$string['configallowassign'] = 'Permet que els rols de l\'esquerra assignen els rols de cada columna';
+$string['configallowassign'] = 'Permet que els rols de l\'esquerra assignin els rols de cada columna';
 $string['configallowcategorythemes'] = 'Si habiliteu aquesta opció, es podran definir temes diferents per a cada categoria de cursos. El tema definit per a una categoria s\'aplicarà a tots els cursos i a totes les subcategories dins d\'aquesta categoria, tret que es defineixin temes específics per a un curs o una subcategoria. AVÍS: pot afectar el rendiment del servidor.';
 $string['configallowcoursethemes'] = 'Si habiliteu aquesta opció, cada curs podrà definir el seu tema. Els temes dels cursos anul·len qualsevol altra selecció de tema: tema del lloc, de l\'usuari o de la sessió.';
 $string['configallowemailaddresses'] = 'Si voleu limitar les noves adreces de correu a certs dominis, especifiqueu-los aquí separats per espais. Tots els altres dominis seran rebutjats. P. ex. <strong>uji.es upc.es xtec.es</strong>';
 $string['configallowobjectembed'] = 'Com a mesura de seguretat per defecte, no es permet que els usuaris normals incrusten multimèdia (p. ex. Flash) dins dels textos usant explícitament etiquetes EMBED i OBJECT en l\'HTML (encara que poden fer-ho sense problemes de seguretat per mitjà del filtre multimèdia). Si voleu permetre aquestes etiquetes habiliteu aquesta opció.';
-$string['configallowoverride'] = 'Permet que els rols de l\'esquerra anul·lin els rols de cada columna';
+$string['configallowoverride'] = 'Permet que els rols de l\'esquerra defineixin excepcions en els rols de cada columna';
 $string['configallowunenroll'] = 'Si especifiqueu \'Sí\', llavors els estudiants podran cancel·lar quan vulguin la seva inscripció en un curs. Si no, només podran cancel·lar la inscripció els professors i els administradors.';
 $string['configallowuserblockhiding'] = 'Voleu que els usuaris puguin ocultar/mostrar els blocs laterals arreu d\'aquest lloc? Aquesta característica fa servir Javascript i galetes per recordar l\'estat de cada bloc. Només afecta la visualització de cada usuari.';
 $string['configallowusermailcharset'] = 'Si habiliteu aquesta opció, cada usuari podrà especificar un joc de caràcters per al seu correu.';
@@ -115,7 +115,6 @@ $string['configgdversion'] = 'Indiqueu la versió instal·lada de GD. La versió
 $string['configgradebookroles'] = 'Aquest paràmetre us permet controlar qui apareix al butlletí de qualificacions. Els usuaris que tinguin assignat almenys un d\'aquests rols en un curs, apareixeran al butlletí de qualificacions d\'aquest curs.';
 $string['configguestroleid'] = 'Aquest rol s\'assigna automàticament a l\'usuari visitant. També s\'assigna temporalment als usuaris no inscrits que entren en un curs que permet l\'entrada de visitants sense contrasenya. Assegureu-vos que aquest rol té les capacitats moodle/legacy:guest i moodle/course:view.';
 $string['confighiddenuserfields'] = 'Seleccioneu quins camps d\'informació de l\'usuari voleu ocultar als usuaris que no siguin professors o administradors. Això protegirà la intimitat de l\'estudiantat. Utilitzeu la tecla CTRL per seleccionar múltiples camps.';
-$string['confighideactivitytypecrumb'] = 'Seleccioneu a qui voleu ocultar el tipus d\'activitat (p. ex. Qüestionaris) en el camí de navegació que es visualitza en els mòduls d\'activitat.';
 $string['confightmleditor'] = 'Trieu si voleu permetre l\'ús de l\'editor HTML integrat. Encara que decidiu permetre\'n l\'ús, aquest editor només apareixerà si l\'usuari fa servir un navegador web compatible. Els usuaris també poden triar no usar-lo.';
 $string['configidnumber'] = 'Aquesta opció especifica si: a) no es demana cap número d\'identificació als usuaris; b) es demana un número d\'identificació als usuaris però poden deixar-lo en blanc o c) es demana un número d\'identificació als usuaris i no poden deixar-lo en blanc. Si l\'usuari ha donat un número d\'identificació, aquest número es mostra al seu perfil.';
 $string['configintcachemax'] = 'Nombre màxim de registres que es guardaran a la memòria cau. Només per a memòria cau interna. Valor recomanat: 50. Utilitzeu un valor més baix per reduir la memòria utilitzada.';
@@ -329,7 +328,6 @@ $string['helpupcominglookahead'] = 'Quants dies per endavant considera el calend
 $string['helpupcomingmaxevents'] = 'Quin nombre màxim d\'esdeveniments pròxims es mostra per defecte als usuaris?';
 $string['helpweekenddays'] = 'Quins dies de la setmana es consideren \"cap de setmana\" i es mostren amb un color diferent?';
 $string['hiddenuserfields'] = 'Camps d\'usuari ocults';
-$string['hideactivitytypecrumb'] = 'Oculta la navegació per tipus d\'activitat';
 $string['hidefromall'] = 'Oculta a tothom';
 $string['hidefromnone'] = 'No ocultis a ningú';
 $string['hidefromstudents'] = 'Oculta a l\'estudiantat';
@@ -608,5 +606,7 @@ $string['userscreated'] = 'S\'han creat els usuaris';
 $string['usersrenamed'] = 'S\'han canviat els noms dels usuaris';
 $string['usersupdated'] = 'S\'han actualitzat els usuaris';
 $string['validateerror'] = 'Aquest valor no és vàlid:';
+$string['confighideactivitytypecrumb'] = 'Seleccioneu a qui voleu ocultar el tipus d\'activitat (p. ex. Qüestionaris) en el camí de navegació que es visualitza en els mòduls d\'activitat.'; // ORPHANED
+$string['hideactivitytypecrumb'] = 'Oculta la navegació per tipus d\'activitat'; // ORPHANED
 
 ?>
