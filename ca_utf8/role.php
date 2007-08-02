@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007062008)
+      // role.php - created with Moodle 1.9 dev (2007080103)
 
 
 $string['addrole'] = 'Afegeix un nou rol';
@@ -25,7 +25,6 @@ $string['course:activityvisibility'] = 'Ocultar/mostrar activitats';
 $string['course:bulkmessaging'] = 'Enviar un missatge a moltes persones';
 $string['course:create'] = 'Crear cursos';
 $string['course:delete'] = 'Suprimir cursos';
-$string['course:downloadallgrades'] = 'Baixar totes les qualificacions';
 $string['course:manageactivities'] = 'Gestionar activitats';
 $string['course:managefiles'] = 'Gestionar fitxers';
 $string['course:managegrades'] = 'Gestionar qualificacions';
@@ -38,13 +37,11 @@ $string['course:setcurrentsection'] = 'Definir la secció actual';
 $string['course:update'] = 'Actualitzar els paràmetres del curs';
 $string['course:useremail'] = 'Habilitar/inhabilitar adreces de correu';
 $string['course:view'] = 'Veure cursos';
-$string['course:viewallgrades'] = 'Veure totes les qualificacions';
 $string['course:viewcoursegrades'] = 'Veure qualificacions de cursos';
 $string['course:viewhiddenactivities'] = 'Veure activitats ocultes';
 $string['course:viewhiddencourses'] = 'Veure cursos ocults';
 $string['course:viewhiddensections'] = 'Veure seccions ocultes';
 $string['course:viewhiddenuserfields'] = 'Veure camps d\'usuari ocults';
-$string['course:viewowngrades'] = 'Veure les qualificacions pròpies';
 $string['course:viewparticipants'] = 'Veure participants';
 $string['course:viewscales'] = 'Veure escales';
 $string['course:visibility'] = 'Ocultar/mostrar cursos';
@@ -62,10 +59,15 @@ $string['errorexistsrolename'] = 'Aquest nom de rol ja existeix';
 $string['errorexistsroleshortname'] = 'El nom ja existeix';
 $string['existingusers'] = '$a usuaris existents';
 $string['globalroleswarning'] = 'AVÍS! Els rols que assigneu en aquesta pàgina s\'aplicaran als usuaris designats en tot el lloc, inclosos tots els cursos i la pàgina principal.';
-$string['grade:editlocked'] = 'Editar qualificacions blocades';
-$string['grade:hide'] = 'Ocultar qualificació';
-$string['grade:lock'] = 'Blocar qualificació';
-$string['grade:viewhidden'] = 'Veure qualificacions ocultades';
+$string['grade:export'] = 'Exportar qualificacions';
+$string['grade:hide'] = 'Mostrar/ocultar qualificacions o elements';
+$string['grade:import'] = 'Importar qualificacions';
+$string['grade:lock'] = 'Blocar qualificacions o elements';
+$string['grade:manage'] = 'Gestionar elements de qualificació';
+$string['grade:unlock'] = 'Desblocar qualificacions o elements';
+$string['grade:view'] = 'Veure les qualificacions pròpies';
+$string['grade:viewall'] = 'Veure les qualificacions d\'altres usuaris';
+$string['grade:viewhidden'] = 'Veure qualificacions ocultes pròpies';
 $string['inherit'] = 'Heretat';
 $string['legacy:admin'] = 'ROL HERETAT: Administrador/a';
 $string['legacy:coursecreator'] = 'ROL HERETAT: Creador/a de cursos';
@@ -81,6 +83,8 @@ $string['metaassignerror'] = 'No es pot assignar aquest rol a l\'usuari \"$a\" p
 $string['metaunassignerror'] = 'El rol de l\'usuari \"$a\" s\'ha reassignat automàticament. Cancel·leu l\'assignació del rol en els cursos fills.';
 $string['my:manageblocks'] = 'Gestionar els blocs de la pàgina myMoodle';
 $string['nocapabilitiesincontext'] = 'No hi ha capacitats disponibles en aquest context';
+$string['notes:manage'] = 'Gestionar anotacions';
+$string['notes:view'] = 'Veure anotacions';
 $string['notset'] = 'No definit';
 $string['overrideroles'] = 'Excepcions';
 $string['overrides'] = 'Excepcions';
@@ -117,6 +121,8 @@ $string['site:config'] = 'Canviar la configuració del lloc';
 $string['site:doanything'] = 'Tot permès';
 $string['site:doclinks'] = 'Mostrar enllaços a documents fora del lloc';
 $string['site:import'] = 'Importar altres cursos en un curs';
+$string['site:langeditlocal'] = 'Personalitzar la traducció local';
+$string['site:langeditmaster'] = 'Editar els paquets mestres d\'idioma';
 $string['site:manageblocks'] = 'Gestionar blocs al nivell del lloc';
 $string['site:mnetloginfromremote'] = 'Entrar des d\'un Moodle remot';
 $string['site:mnetlogintoremote'] = 'Anar a un Moodle remot';
@@ -127,6 +133,9 @@ $string['site:uploadusers'] = 'Carregar nous usuaris des d\'un fitxer';
 $string['site:viewfullnames'] = 'Veure sempre els noms complets dels usuaris';
 $string['site:viewparticipants'] = 'Veure els participants';
 $string['site:viewreports'] = 'Veure informes';
+$string['tag:create'] = 'Crear noves etiquetes';
+$string['tag:edit'] = 'Editar etiquetes existents';
+$string['tag:manage'] = 'Gestionar totes les etiquetes';
 $string['user:changeownpassword'] = 'Canviar la contrasenya pròpia';
 $string['user:create'] = 'Crear usuaris';
 $string['user:delete'] = 'Suprimir usuaris';
@@ -142,5 +151,9 @@ $string['user:viewuseractivitiesreport'] = 'Veure informes d\'activitat dels usu
 $string['user:viewusergrades'] = 'Veure qualificacions dels usuaris';
 $string['viewrole'] = 'Veure detalls dels rols';
 $string['xuserswiththerole'] = 'Usuaris amb el rol \"$a->role\": $a->number';
+$string['course:downloadallgrades'] = 'Baixar totes les qualificacions'; // ORPHANED
+$string['course:viewallgrades'] = 'Veure totes les qualificacions'; // ORPHANED
+$string['course:viewowngrades'] = 'Veure les qualificacions pròpies'; // ORPHANED
+$string['grade:editlocked'] = 'Editar qualificacions blocades'; // ORPHANED
 
 ?>
