@@ -1,5 +1,5 @@
 <?php // $Id$ 
 
-$string['modulename'] = 'Exporter feuille de calcul Excel';
+$string['modulename'] = 'Feuille de calcul Excel';
 
 ?>

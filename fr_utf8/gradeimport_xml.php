@@ -1,5 +1,5 @@
 <?php // $Id$ 
 
-$string['modulename'] = 'Importer fichier XML';
+$string['modulename'] = 'Fichier XML';
 
 ?>

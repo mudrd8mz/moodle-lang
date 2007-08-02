@@ -1,5 +1,5 @@
 <?php // $Id$ 
 
-$string['modulename'] = 'Exporter fichier CSV';
+$string['modulename'] = 'Fichier CSV';
 
 ?>

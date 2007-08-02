@@ -506,6 +506,7 @@ $string['enrolmentconfirmation'] = 'Vous êtes sur le point de vous inscrire com
 $string['enrolmentend'] = 'Date de fin de l\'inscription';
 $string['enrolmentkey'] = 'Clef d\'inscription';
 $string['enrolmentkeyfrom'] = 'Ce cours nécessite une clef d\'inscription, un mot de passe à usage unique que vous devez obtenir de $a';
+$string['enrolmentkeyfromguest'] = 'Ce cours nécessite une clef d\'inscription. En tant qu\'utilisateur invité,<br />vous devrez la saisir chaque fois que vous entrez dans le cours. Vous devez obtenir cette clef de $a';
 $string['enrolmentkeyhint'] = 'Cette clef d\'inscription est incorrecte, merci d\'essayer de nouveau<br />(La clef commence par «&nbsp;$a&nbsp;».)';
 $string['enrolmentnew'] = 'Nouvelle inscription dans $a';
 $string['enrolmentnewuser'] = '$a->user s\'est inscrit au cours «&nbsp;$a->course&nbsp;»';
