@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // blog.php - created with Moodle 1.7 beta (2006101000)
+﻿<?PHP // $Id$ 
+      // blog.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['addnewentry'] = 'Dodavanje novog unosa';
@@ -15,6 +15,7 @@ $string['blogs'] = 'Blogovi';
 $string['blogtags'] = 'Oznake bloga';
 $string['courseblog'] = 'Blog kursa: $a';
 $string['courseblogs'] = 'Korisnici mogu da vide samo blogove ljudi s kojima dele kurs';
+$string['deleteotagswarn'] = 'Da li ste sigurni da želite da uklonite ovu/ove oznake <br />iz svih blog unosa u uklonite je/ih iz sistema?';
 $string['disableblogs'] = 'Potpuno onemogućiti korišćenje blog sistema';
 $string['emptybody'] = 'Telo blog unosa ne može ostati nepopunjeno';
 $string['emptytitle'] = 'Naslov blog unosa ne može ostati nepopunjen';
@@ -45,6 +46,7 @@ $string['settingsupdatederror'] = 'Došlo je do greške, podešavanje svojstava 
 $string['siteblog'] = 'Blog sajta: $a';
 $string['siteblogs'] = 'Svi korisnici sajta mogu da vide sve blog unose';
 $string['tagdatelastused'] = 'Datum kad je oznaka poslednji put korišćena';
+$string['tags'] = 'Oznake';
 $string['tagsort'] = 'Sortirati prikaz oznaka po';
 $string['tagtext'] = 'Tekst oznake';
 $string['timewithin'] = 'Prikaz oznaka korišćenih u ovoliko poslednjih dana';
