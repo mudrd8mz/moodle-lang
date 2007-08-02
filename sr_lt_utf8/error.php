@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 beta (2006101000)
+﻿<?PHP // $Id$ 
+      // error.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['adminprimarynoedit'] = 'Podaci primarnog administratora ne mogu biti menjani od strane drugih korisnika';
@@ -30,6 +30,8 @@ $string['fieldrequired'] = '\"$a\" je obavezno polje';
 $string['filenotfound'] = 'Nažalost traženi dokument nije bilo moguće pronaći';
 $string['forumblockingtoomanyposts'] = 'Prekoračili ste ograničenje za broj poruka na ovom forumu.';
 $string['groupalready'] = 'Korisnik već pripada grupi $a';
+$string['groupexistforcourse'] = 'Grupa \"$a\" već postoji u ovom kursu';
+$string['groupnotaddederror'] = 'Grupa \"$a\" nije dodata';
 $string['groupunknown'] = 'Grupa $a ne pripada datom kursu';
 $string['guestnoeditprofile'] = 'Gost ne može da uređuje svoj profil';
 $string['guestnoeditprofileother'] = 'Ne može se uređivati profil gosta';
@@ -37,8 +39,20 @@ $string['invalidcourse'] = 'Nevalidan kurs';
 $string['invalidfieldname'] = '\"$a\" nije validno ime polja';
 $string['invalidfiletype'] = '\"$a\" nije validan tip datoteke';
 $string['invalidmd5'] = 'Nevalidna md5 datoteka';
+$string['invalidrequest'] = 'Nevalidni zahtev';
 $string['invalidrole'] = 'Nevalidna uloga';
+$string['invalidurl'] = 'Nevalidni url';
 $string['invalidxmlfile'] = '\"$a\" nije validna XML datoteka';
+$string['listcantmovedown'] = 'Prebacivanje stavke na dole nije uspelo, ovo je poslednja stavka u nizu.';
+$string['listcantmoveleft'] = 'Prebacivanje stavke ulevo nije uspelo,nema nijedne nadređene stavke.';
+$string['listcantmoveright'] = 'Prebacivanje stavke udesno nije uspelo, nema niza čiji bi ona bila član. Prebaci ga u drugi niz i tada ga možeš pomeriti udesno.';
+$string['listcantmoveup'] = 'Prebacivanje stavke naviše nije uspelo, jer je to prva stavka u nizu.';
+$string['listnochildren'] = 'Nema potomaka stavke';
+$string['listnoitem'] = 'Stavka nije pronađena';
+$string['listnopeers'] = 'Niz stavki nije pronađen';
+$string['listupdatefail'] = 'DB operacija nije uspela dok je uređivana hijerarhija liste.';
+$string['loginasnoenrol'] = 'Ne možeš se učlanjivati i odjavnjivati kada si u kursu u sesiji \"Prijavljen kao\".';
+$string['loginasonecourse'] = 'Ne možeš pristupiti ovom kursu <br /> Moraš prekinuti sesiju \"Prijavljeni ste kao\" pre ulaska u bilo koji kurs';
 $string['missingfield'] = 'Nedostaje polje \"$a\"';
 $string['missingrequiredfield'] = 'Nedostaje neko obavezno polje';
 $string['modulemissingcode'] = 'Modulu $a nedostaje kod potreban za izvođenje ove funkcije';
@@ -46,10 +60,11 @@ $string['modulerequirementsnotmet'] = 'Modul \"$a->modulename\" ($a->moduleversi
 $string['mustbeteacher'] = 'Morate biti predavač da biste videli ovu stranicu';
 $string['nocontext'] = 'Žao nam je, ali taj kurs nije validan kontekst';
 $string['noinstances'] = 'Nema instanci $a u ovom kursu!';
+$string['nologinas'] = 'Nije ti dozvoljeno da se prijaviš kao taj korisnik';
 $string['nonmeaningfulcontent'] = 'Besmislen sadržaj';
 $string['noparticipatorycms'] = 'Nažalost nemate učestvujućih modula kursa o kojima bi se mogao podneti izveštaj.';
 $string['nopermissions'] = 'Žao nam je, ali trenutno nemate dozvolu da to radite ($a)';
-$string['notavailable'] = 'Trenutno nije na raspolaganju';
+$string['notavailable'] = 'Trenutno nije na raspolaganju.';
 $string['onlyadmins'] = 'Samo administratori mogu to da rade.';
 $string['onlyeditingteachers'] = 'Samo predavači mogu to da rade.';
 $string['onlyeditown'] = 'Možete menjati samo lične podatke';
@@ -60,12 +75,13 @@ $string['processingstops'] = 'Procesiranje se ovde zaustavlja. Preostali zapisi 
 $string['remotedownloadnotallowed'] = 'Nije dozvoljeno preuzimanje komponenti na Vaš server (opcija allow_url_fopen je onemogućena).<br /><br />Morate ručno preuzeti datoteku <a href=\"$a->url\">$a->url</a>, kopirati je u \"$a->dest\" na svom serveru i tamo je raspakovati.';
 $string['restricteduser'] = 'Žao nam je, ali vaš tekući nalog \"$a\" je ograničen i ne možete uraditi ovu akciju.';
 $string['sendmessage'] = 'Slanje poruke';
-$string['sessionerroruser'] = 'Vaša sesija je istekla. Molimo prijavite se na sistem ponovo.';
+$string['sessionerroruser'] = 'Vaša sesija je istekla. Molimo da prijavite se na sistem ponovo.';
 $string['sessionerroruser2'] = 'Došlo je do greške koja utiče na Vašu tekuću sesiju. Molimo pristupite sistemu ponovo ili ponovo pokrenite svoj web čitač.';
 $string['sessionipnomatch'] = 'Nažalost, ali izgleda da se Vaš IP broj promenio od kada ste se prijavili na sistem. Ova sigurnosna opcija sprečava krakere da ukradu Vaš indentitet dok ste prijavljeni na ovaj sajt. Normalni korisnici ne bi trebalo da vide ovu poruku - molimo Vas da tražite pomoć od administratora sajta.';
 $string['statscatchupmode'] = 'Statistika je trenutno u modu za sustizanje obrade padataka. Do sada je procesirano $a->daysdone dana, a još $a->dayspending dana čeka na obradu. Vratite se nešto kasnije!';
 $string['unicodeupgradeerror'] = 'Žao nam je, ali Vaša baza podataka nije u Unicode formatu, a ova vezija Moodlea ne može da je prebaci u Unicode bazu podataka. Molimo prvo uradite nadogradnju sistema do Moodle 1.7.x verzije i uradite Unicode migraciju sa administratorske stranice. Nakon što to uradite moći ćete da pređete na Moodle $a';
 $string['unknowncourse'] = 'Ne postoji kurs pod nazivom \"$a\"';
+$string['unknowncourseidnumber'] = 'Nepoznati kurs ID \"$a\"';
 $string['unknownuseraction'] = 'Žao nam je, ali sistem nije razumeo ovu akciju korisnika.';
 $string['usernotaddederror'] = 'Korisnik \"$a\" nije dodat - nepoznata greška';
 $string['usernotaddedregistered'] = 'Korisnik \"$a\" nije dodat - već je registrovan';
