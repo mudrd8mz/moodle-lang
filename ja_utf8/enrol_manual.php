@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_manual.php - created with Moodle 1.8 dev (2006102600)
+      // enrol_manual.php - created with Moodle 1.9 dev (2007080201)
 
 
 $string['description'] = 'これは、ユーザ登録のデフォルトのユーザ登録方法です。学生をコースに登録する2つの方法があります。
@@ -8,5 +8,6 @@ $string['description'] = 'これは、ユーザ登録のデフォルトのユー
 <li>コースに「登録キー」と呼ばれるパスワードを設定できます。このキーを持つユーザは誰でも自分自身をコースに登録することができます。</li>
 </ul>';
 $string['enrolname'] = '内部登録';
+$string['keyholderrole'] = 'コース登録キーを保持しているユーザのロールです。コースへの受講登録を試みる学生に表示されます。';
 
 ?>
