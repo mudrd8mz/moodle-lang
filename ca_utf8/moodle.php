@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007062008)
+      // moodle.php - created with Moodle 1.9 dev (2007080103)
 
 
 $string['action'] = 'Acció';
@@ -36,6 +36,7 @@ $string['addnousersrecip'] = 'Afegeix a la llista de destinataris els usuaris qu
 $string['addresource'] = 'Afegeix un recurs...';
 $string['address'] = 'Adreça';
 $string['addstudent'] = 'Afegeix estudiant';
+$string['addsubcategory'] = 'Afegeix una subcategoria';
 $string['addteacher'] = 'Afegeix professor/a';
 $string['admin'] = 'Admin';
 $string['adminbookmarks'] = 'Dreceres d\'administració';
@@ -131,6 +132,7 @@ $string['autosubscribeno'] = 'No: no em subscriguis automàticament als fòrums'
 $string['autosubscribeyes'] = 'Sí: quan escrigui en un fòrum, subscriu-me a aquest fòrum';
 $string['availability'] = 'Disponibilitat';
 $string['availablecourses'] = 'Cursos disponibles';
+$string['back'] = 'Enrere';
 $string['backtoparticipants'] = 'Torna a la llista de participants';
 $string['backup'] = 'Còpia de seguretat';
 $string['backupactivehelp'] = 'Trieu si voleu fer còpies de seguretat automàtiques o no.';
@@ -526,6 +528,8 @@ $string['enrolmentconfirmation'] = 'Aneu a inscriure-us en aquest curs.<br />Est
 $string['enrolmentend'] = 'La inscripció es tanca';
 $string['enrolmentkey'] = 'Clau d\'inscripció';
 $string['enrolmentkeyfrom'] = 'Aquest curs requereix una clau d\'inscripció - una contrasenya<br />d\'un sol ús que us ha d\'haver proporcionat $a';
+$string['enrolmentkeyfromguest'] = 'Aquest curs requereix una \"clau d\'inscripció\". Com a visitant<br />
+l\'haureu d\'introduir cada vegada que entreu al curs. L\'heu d\'haver rebut de: $a';
 $string['enrolmentkeyhint'] = 'Aquesta clau d\'inscripció es errònia, si us plau torneu a intentar-ho<br />
 (Heus ací una pista: comença per \'$a\'.)
 
@@ -541,6 +545,7 @@ $string['enrolperiod'] = 'Durada de la inscripció';
 $string['enrolstartdate'] = 'Data d\'inici';
 $string['entercourse'] = 'Feu clic per entrar en aquest curs';
 $string['enteremailaddress'] = 'Introduïu la vostra adreça de correu per anul·lar la contrasenya anterior i rebre\'n una de nova per correu electrònic.';
+$string['enteryourinterests'] = 'Introduir els vostres interessos separats per comes';
 $string['entries'] = 'Entrades';
 $string['error'] = 'Error';
 $string['errortoomanylogins'] = 'Heu superat el nombre màxim d\'intents d\'entrada. Reinicieu el vostre navegador.';
@@ -747,6 +752,7 @@ $string['includeuserfiles'] = 'Inclou els fitxers dels usuaris';
 $string['info'] = 'Informació';
 $string['institution'] = 'Institució';
 $string['instudentview'] = 'en la visualització de l\'estudiantat';
+$string['interests'] = 'Interessos';
 $string['invalidemail'] = 'L\'adreça de correu no és vàlida';
 $string['invalidlogin'] = 'Entrada incorrecta, si us plau torneu a intentar-ho';
 $string['ip_address'] = 'Adreça IP';
@@ -1175,6 +1181,7 @@ $string['scalescustom'] = 'Escales personalitzades';
 $string['scalescustomcreate'] = 'Afegeix una escala nova';
 $string['scalescustomno'] = 'Encara no s\'ha creat cap escala personalitzada';
 $string['scalesstandard'] = 'Escales estàndard';
+$string['scalestandard'] = 'Escala estàndard';
 $string['scalestip'] = 'Per tal de crear escales personalitzades, utilitzeu l\'enllaç \'Escales...\' del menú d\'administració del curs.';
 $string['schedule'] = 'Planificació';
 $string['scheduledbackupstatus'] = 'Estat de la còpia de seguretat programada';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007062008)
+      // error.php - created with Moodle 1.9 dev (2007080103)
 
 
 $string['adminprimarynoedit'] = 'L\'administrador primari no pot ser editat per altres usuaris';
@@ -30,6 +30,8 @@ $string['fieldrequired'] = '\"$a\" és un camp necessari';
 $string['filenotfound'] = 'El fitxer sol·licitat no es pot trobar';
 $string['forumblockingtoomanyposts'] = 'Heu sobrepassat el llindar de missatges definit per a aquest fòrum';
 $string['groupalready'] = 'L\'usuari ja pertany al grup $a';
+$string['groupexistforcourse'] = 'El grup \"$a\" ja existeix en aquest curs';
+$string['groupnotaddederror'] = 'No s\'ha afegit el grup \"$a\"';
 $string['groupunknown'] = 'El grup $a no està associat al curs especificat';
 $string['guestnoeditprofile'] = 'Els usuaris visitants no poden editar el seu perfil';
 $string['guestnoeditprofileother'] = 'El perfil de l\'usuari o usuària visitant no es pot editar';
@@ -79,6 +81,7 @@ $string['sessionipnomatch'] = 'Sembla que el vostre número IP ha canviat des qu
 $string['statscatchupmode'] = 'S\'estan recollint les estadístiques. Fins ara s\'han processat $a->daysdone dies i estan pendents $a->dayspending. Torneu a provar-ho d\'aquí a una estona.';
 $string['unicodeupgradeerror'] = 'La vostra base de dades encara no és Unicode i aquesta versió de Moodle no pot efectuar la migració a Unicode. Actualitzeu abans a Moodle 1.7 i feu la migració de la base de dades mitjançant la pàgina d\'Administració. Després d\'això ja podreu actualitzar a Moodle $a.';
 $string['unknowncourse'] = 'El curs \"$a\" és desconegut';
+$string['unknowncourseidnumber'] = 'Curs ID \"$a\" desconegut';
 $string['unknownuseraction'] = 'Aquesta acció d\'usuari no és intel·ligible';
 $string['usernotaddederror'] = 'No s\'ha afegit l\'usuari \"$a\". Error desconegut';
 $string['usernotaddedregistered'] = 'No s\'ha afegit l\'usuari \"$a\". Ja està registrat';
