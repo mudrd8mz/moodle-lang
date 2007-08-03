@@ -1,5 +1,5 @@
 ﻿<?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8.1+ (2007021510)
+      // quiz.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['1day'] = '1 dan';
@@ -10,10 +10,10 @@ $string['6hours'] = '6 sati';
 $string['acceptederror'] = 'Prihvaćena greška';
 $string['action'] = 'Akcija';
 $string['adaptive'] = 'Adaptivni režim';
-$string['addcategory'] = 'Dodavanje kategorije';
+$string['addcategory'] = 'Dodaj kategoriju';
 $string['addingquestions'] = 'Na ovom delu stranice uređujete svoju bazu pitanja. Pitanja su sačuvana po kategorijama kako bi se što lakše organizovala, i mogu biti upotrebljena u bilo kom testu unutar Vašeg kursa ili nekog drugog kursa ako odaberete opciju \'objavljivanja\' pitanja. <br /><br />
 Nakon što odaberete određenu kategoriju pitanja, možete kreirati nova ili uređivati već postojeća pitanja. Možete označiti bilo koje od tih pitanja i dodati ga (ih) u Vaš test koji se nalazi s leve strane ekrana.';
-$string['addquestions'] = 'Dodavanje pitanja';
+$string['addquestions'] = 'Dodaj pitanja';
 $string['addquestionstoquiz'] = 'Dodaj pitanja u tekući test';
 $string['addrandom'] = 'Dodaj $a slučajnih pitanja';
 $string['addrandom1'] = '<< Dodaj';
@@ -42,11 +42,12 @@ $string['attempt'] = 'Pokušaj broj $a';
 $string['attemptduration'] = 'Utrošeno vreme';
 $string['attemptedon'] = 'Datum predaje testa';
 $string['attemptfirst'] = 'Prvi pokušaj';
-$string['attemptincomplete'] = 'Ovaj pokušaj (korisnika $a) još nije završen.';
+$string['attemptincomplete'] = 'Ovaj pokušaj (korisnika: $a) još nije završen.';
 $string['attemptlast'] = 'Poslednji pokušaj';
-$string['attemptquiznow'] = 'Pokušajte da rešite test';
+$string['attemptquiznow'] = 'Započni test';
 $string['attempts'] = 'Pokušaji';
 $string['attemptsallowed'] = 'Dozvoljen broj pokušaja';
+$string['attemptsdeleted'] = 'Broj izbrisanih pokušaja';
 $string['attemptselection'] = 'Izaberite koje pokušaje treba analizirati po korisniku:';
 $string['attemptsexist'] = 'Test je već u upotrebi, ne možete više dodavati ili brisati pitanja.';
 $string['attemptsonly'] = 'Prikaz samo studenata sa pokušajima';
@@ -58,6 +59,7 @@ $string['bestgrade'] = 'Najviša ocena';
 $string['blackboard'] = 'Blackboard';
 $string['blackboard_6'] = 'Blackboard V6+';
 $string['bothattempts'] = 'Prikaži studente sa i bez pokušaja';
+$string['braceerror'] = 'Nisu pronađene {...} oko odgovora';
 $string['calculated'] = 'Računsko';
 $string['calculatedquestion'] = 'Računsko pitanje nije podržano na liniji $a. Ovo pitanje će biti ignorisano.';
 $string['cannotcreatepath'] = 'Ne može se kreirati putanja ($a)';
@@ -99,6 +101,7 @@ $string['confirmstartattempttimelimit'] = 'Test ima vremensko ograničenje, a mo
 $string['confirmstarttimelimit'] = 'Test je vremenski ograničen. Da li ste sigurni da želite da počnete?';
 $string['containercategorycreated'] = 'Ova kategorija je kreirana sa ciljem da se u nju smeste sve originalne kategorije koje se pomere na nivo sajta iz dole navedenih razloga.';
 $string['continueattemptquiz'] = 'Nastavite poslednji pokušaj';
+$string['continuepreview'] = 'Nastavi poslednji pregled';
 $string['copyingfrom'] = 'Kreiranje kopije pitanja \'$a\'';
 $string['copyingquestion'] = 'Kopiranje pitanja';
 $string['correct'] = 'Tačno';
@@ -134,6 +137,7 @@ $string['deleteattemptcheck'] = 'Da li ste apsolutno sigurni da želite da obri�
 $string['deletequestioncheck'] = 'Jeste li u potpunosti sigurni da želite da obrišete \'$a\'?';
 $string['deletequestionscheck'] = 'Jeste li u potpunosti sigurni da želite da obrišete sledeća pitanja? <div>$a</div>';
 $string['deleteselected'] = 'Obriši označeno';
+$string['deletingquestionattempts'] = 'Obriši pokušaje pitanja';
 $string['description'] = 'Opis';
 $string['discrimination'] = 'Indeks diskriminativnosti';
 $string['displayoptions'] = 'Opcije za prikaz';
@@ -163,6 +167,23 @@ $string['editqcats'] = 'Uređivanje kategorija pitanja';
 $string['editquestions'] = 'Uređivanje pitanja';
 $string['editquiz'] = 'Uređivanje testa';
 $string['editquizquestions'] = 'Uređivanje pitanja testa';
+$string['emailconfirmbody'] = 'Dragi $a->username,
+
+Hvala za prosleđivanje Vaših odgovora na \'$a->quizname\'
+u okviru kursa \'$a->coursename\'
+u $a->submissiontime.
+
+Ovaj email potvrđuje da smo bezbedno primili Vanje odgovore.
+
+Možete oceniti ovaj test na $a->quizurl.';
+$string['emailconfirmsubject'] = 'Potvrda predavanja testa: $a->quizname';
+$string['emailnotifybody'] = 'Dragi $a->username,
+
+$a->studentname je završio test \'$a->quizname\' ($a->quizurl)
+u okviru kursa \'$a->coursename\'.
+
+Možete pregledati ovaj pokušaj na  $a->quizreviewurl.';
+$string['emailnotifysubject'] = '$a->studentname je završio test $a->quizname';
 $string['errorinquestion'] = 'Greška u pitanju';
 $string['errormissingquestion'] = 'Greška: Sistem ne može da pronađe pitanje čiji je identifikator $a';
 $string['errornotnumbers'] = 'Greška - odgovori moraju biti numerički';
@@ -199,7 +220,8 @@ $string['filloutnumericalanswer'] = 'Obezbedite bar jedan mogući odgovor i tole
 $string['filloutoneanswer'] = 'Morate ispuniti bar jedan od mogućih odgovora. Prazni odgovori se neće koristiti. \'*\' se može koristiti kao džoker znak koji odgovara svim znakovima. Prvi odgovor koji se uklopi se koristi za utvrđivanje razultata i povratnih informacija.';
 $string['filloutthreequestions'] = 'Morate ispuniti bar tri pitanja sa odgovarajućim rešenjima. Možete dodati još netačnih odgovora davanjem rešenja uz prazna pitanja. Stavke u kojima su i pitanje i odgovor prazni neće se uzimati u obzir.';
 $string['fillouttwochoices'] = 'Morate ispuniti bar dva odgovora. Prazni odgovori se neće koristiti.';
-$string['finishattempt'] = 'Predajte sve odgovore i završite test';
+$string['finishattempt'] = 'Predaj sve odgovore i završi test';
+$string['finishreview'] = 'Završi pregled';
 $string['forceregeneration'] = 'Obavezno obnavljanje';
 $string['formatnotfound'] = 'Nije pronađen format $a za uvoz/izvoz';
 $string['formatnotimplemented'] = 'Ovaj format nije ispravno implementiran, molimo podnesite izveštaj o grešci';
@@ -228,6 +250,7 @@ $string['gradeboundary'] = 'Ograničenje ocene';
 $string['gradeessays'] = 'Oceni eseje';
 $string['gradehighest'] = 'Najviša ocena';
 $string['grademethod'] = 'Metod ocenjivanja';
+$string['gradesdeleted'] = 'Izbrisano ocena testa:';
 $string['gradesofar'] = '$a->method: $a->mygrade / $a->quizgrade.';
 $string['gradingdetails'] = 'Ocena za ovaj odgovor je: $a->raw/$a->max.';
 $string['gradingdetailsadjustment'] = 'Sa prethodnim kaznenim bodovima ocena je <strong>$a->cur/$a->max</strong>.';
@@ -356,6 +379,7 @@ $string['popupnotice'] = 'Studenti će videti test u \'sigurnom\' prozoru';
 $string['preview'] = 'Pregled';
 $string['previewquestion'] = 'Pregled pitanja';
 $string['previewquiz'] = 'Pregledaj $a';
+$string['previewquiznow'] = 'Pregledaj test sada';
 $string['previous'] = 'Prethodno stanje';
 $string['publish'] = 'Objavi';
 $string['publishedit'] = 'Da bi ste dodali ili uredili pitanja u ovoj kategoriji morate imati odgovarajuće pravo pristupa';
@@ -378,6 +402,8 @@ $string['questiontype'] = 'Tip pitanja $a';
 $string['questiontypesetupoptions'] = 'Opcije podešavanja za tipove pitanja:';
 $string['quiz:attempt'] = 'Pokušaj rešavanja testova';
 $string['quiz:deleteattempts'] = 'Brisanje pokušaja rešavanja testova';
+$string['quiz:emailconfirmsubmission'] = 'Pošalji potvrdu o predaji testa elektronskom poštom';
+$string['quiz:emailnotifysubmission'] = 'Pošalji obaveštenje o predatim testovima elektronskom poštom';
 $string['quiz:grade'] = 'Pregled testova';
 $string['quiz:ignoretimelimits'] = 'Ignoriše vremenska ograničenja testova';
 $string['quiz:manage'] = 'Upravljanje testovima';
@@ -393,7 +419,7 @@ $string['quizopen'] = 'Otvorite test';
 $string['quizopens'] = 'Test se otvara dana';
 $string['quizsettings'] = 'Podešavanja testa';
 $string['quiztimelimit'] = 'Vremensko ograničenje: $a';
-$string['quiztimer'] = 'Štoperica za test';
+$string['quiztimer'] = 'Štoperica';
 $string['random'] = 'Slučajno pitanje';
 $string['randomcreate'] = 'Kreiraj slučajna pitanja';
 $string['randomsamatch'] = 'Slučajna pitanja sa sparivanjem kratkih odgovora';
@@ -412,6 +438,7 @@ $string['regradingquestion'] = 'Ponovno ocenjivanje \"$a\".';
 $string['regradingquiz'] = 'Ponovno ocenjivanje testa \"$a\"';
 $string['relative'] = 'Relativno';
 $string['remove'] = 'Ukloni';
+$string['removeallquizattempts'] = 'Ukloni sve pokušaje testa';
 $string['rename'] = 'Preimenuj';
 $string['renderingserverconnectfailed'] = 'Server $a nije uspeo da obradi RQP zahtev. Proverite da li je URL adresa tačna.';
 $string['reordertool'] = 'Prikaz alata za reorganizovanje';
@@ -492,7 +519,7 @@ $string['sortage'] = 'Sortiraj po vremenu kreiranja';
 $string['sortalpha'] = 'Sortiraj po imenu';
 $string['sortsubmit'] = 'Sortiraj pitanja';
 $string['sorttypealpha'] = 'Sortiraj po tipu, imenu';
-$string['startagain'] = 'Počnite ponovo';
+$string['startagain'] = 'Počni ponovo';
 $string['startedon'] = 'Započeto';
 $string['stoponerror'] = 'Stani pri pojavi greške';
 $string['subneterror'] = 'Nažalost, ovaj test je zaključan, odnosno dostupan je samo sa pojedinih lokacija. Trenutno Vaš računar nije jedan od onih kojima je dozvoljeno da koriste ovaj test.';
@@ -505,6 +532,7 @@ $string['timedelay'] = 'Nije Vam dozvoljeno da radite test jer još nije prošao
 $string['timeleft'] = 'Preostalo vreme';
 $string['timelimit'] = 'Vremensko ograničenje';
 $string['timelimitexeeded'] = 'Nažalost, vreme za rešavanje testa je isteklo!';
+$string['timelimitmin'] = 'Vremensko ograničenje (u minutima)';
 $string['timestr'] = '%%H:%%M:%%S dana %%d.%%m.%%y.';
 $string['timesup'] = 'Vreme je isteklo!';
 $string['timetaken'] = 'Utrošeno vreme';
@@ -564,4 +592,3 @@ $string['newlocal2'] = 'datoteka iz novog skupa datoteka koja će se koristiti s
 $string['newlocal3'] = 'link iz novog skupa linkova koji će se koristiti samo u ovom pitanju'; // ORPHANED
 
 ?>
-
