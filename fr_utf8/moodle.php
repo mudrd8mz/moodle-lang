@@ -718,6 +718,7 @@ $string['htmlformat'] = 'Format HTML';
 $string['icqnumber'] = 'Identifiant ICQ';
 $string['idnumber'] = 'Numéro d\'identification';
 $string['idnumbercourse'] = 'No d\'identification du cours';
+$string['idnumbertaken'] = 'Ce no d\'identification est déjà utilisé';
 $string['imagealt'] = 'Description de l\'image';
 $string['import'] = 'Importation';
 $string['importactivities'] = 'Importer les activités d\'un autre cours';
