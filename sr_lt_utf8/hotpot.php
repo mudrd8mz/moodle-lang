@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // hotpot.php - created with Moodle 1.7 beta (2006101000)
 
 
@@ -33,7 +33,7 @@ $string['error_couldnotopentemplate'] = 'Nije moguće otvoriti šablon za $a for
 $string['error_invalidquiztype'] = 'Nedostaje ovaj tip testa ili postoji ali nije dobro podešen';
 $string['error_nocourseorfilename'] = 'Nije moguće kreirati XML stablo: nedostaje naziv kursa ili neke datoteke';
 $string['error_nofeedbackurlformmail'] = 'Molimo unesite URL za skript za procesiranje forme';
-$string['error_nofeedbackurlwebpage'] = 'Molimo unesite URL za veb stranicu';
+$string['error_nofeedbackurlwebpage'] = 'Molimo unesite URL za Web stranicu';
 $string['error_nofilename'] = 'Molimo unesite naziv datoteke';
 $string['error_noquizzesfound'] = 'Nije pronađen nijedan Hot Potatoes test';
 $string['error_notfileorfolder'] = '$a nije ni datoteka ni direktorijum';
@@ -41,7 +41,7 @@ $string['feedbackformmail'] = 'Forma za povratne informacije';
 $string['feedbackmoodleforum'] = 'Moodle forum';
 $string['feedbackmoodlemessaging'] = 'Moodle sistem za poruke';
 $string['feedbacknone'] = 'Nema';
-$string['feedbackwebpage'] = 'Veb stranica';
+$string['feedbackwebpage'] = 'Web stranica';
 $string['filetype'] = 'Vrsta datoteke';
 $string['forceplugins'] = 'Obavezni multimedijalni dodaci';
 $string['giveup'] = 'Odustajanje';

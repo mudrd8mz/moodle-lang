@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 beta (2006101000)
+﻿<?PHP // $Id$ 
+      // forum.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addanewdiscussion'] = 'Dodajte novu temu za diskusiju';
@@ -10,6 +10,7 @@ $string['allforums'] = 'Svi forumi';
 $string['allowchoice'] = 'Dozvolite svima da izaberu';
 $string['allowdiscussions'] = 'Može li $a slati poruke na forum?';
 $string['allowratings'] = 'Dozvoliti ocenjivanje poruka?';
+$string['allowsallsubscribe'] = 'Ovaj forum dozvoljava svima da iѕaberu da li će se prijaviti ili ne.';
 $string['allowsdiscussions'] = 'Ovaj forum dozvoljava svakoj osobi da započne temu za diskusiju.';
 $string['allsubscribe'] = 'Prijavite se na sve forume';
 $string['allunsubscribe'] = 'Odjavite se sa svih foruma';
@@ -19,10 +20,12 @@ $string['blockafter'] = 'Granična vrednost broja poruka koja dovodi do blokiran
 $string['blockperiod'] = 'Vremenski period nakon kog se vrši blokiranje';
 $string['blockperioddisabled'] = 'Ne blokirati';
 $string['bynameondate'] = 'napisao/la $a->name - $a->date';
+$string['cannotadddiscussion'] = 'Dodavanje diskusije na ovaj forum ѕahteva grupno članstvo.';
 $string['cannotviewpostyet'] = 'Još ne možete da čitate pitanja drugih studenata u ovoj diskusiji jer niste poslali nijednu poruku';
 $string['configcleanreadtime'] = 'Vreme u toku dana kada se vrši brisanje starih poruka iz tabele \"pročitano\".';
 $string['configdisplaymode'] = 'Podrazumevani način prikazivanja stranice sa diskusijama ukoliko isti nije podešen.';
 $string['configenablerssfeeds'] = 'Ova opcija omogućava korišćenja RSS servisa za sve forume. Ipak, moraćete da uključite RSS podršku ručno unutar podešavanja za svaki forum pojedinačno.';
+$string['configenabletimedposts'] = 'Izaberite \"da\" ako želite da dozvolite podešavanje perioda za prikaz prilikom postavljanja nove forumske diskusije (eksperimentalno, pošto još uvek nije potpuno testirano).';
 $string['configlongpost'] = 'Bilo koja poruka veća od ove vrednosti (ne uključujući HTML oblikovanje) smatra se predugačkom. Poruke prikazane na početnoj stranici sajta, stranice kurseva društvenog formata, ili korisnički profili se skraćuju kod prirodnih prekida negde između forum_shortpost i forum_longpost vrednosti.';
 $string['configmanydiscussions'] = 'Maksimalan broj diskusija prikazanih na forumu po stranici';
 $string['configmaxbytes'] = 'Podrazumevana maksimalna veličina priloga za sve forume na sajtu (predmet ograničenja kurseva i ostalih lokalnih podešavanja)';
@@ -35,7 +38,7 @@ $string['couldnotadd'] = 'Nažalost, nije moguće dodati Vašu poruku zbog nepoz
 $string['couldnotdeleteratings'] = 'Žao nam je, ne može se obrisati jer su članovi već ocenili temu';
 $string['couldnotdeletereplies'] = 'Žao nam je, ne može se obrisati jer su članovi već odgovorili na temu';
 $string['couldnotupdate'] = 'Vaša poruka ne može biti ažurirana zbog nepoznate greške';
-$string['delete'] = 'Brisanje';
+$string['delete'] = 'Obriši';
 $string['deleteddiscussion'] = 'Ova diskusiona tema je obrisana';
 $string['deletedpost'] = 'Poruka je obrisana';
 $string['deletedposts'] = 'Te poruke su obrisane';
@@ -59,27 +62,33 @@ $string['displayend'] = 'Kraj prikazivanja';
 $string['displayperiod'] = 'Period prikazivanja';
 $string['displaystart'] = 'Početak prikazivanja';
 $string['eachuserforum'] = 'Svaka osoba postavlja jednu diskusiju';
-$string['edit'] = 'Uredite';
+$string['edit'] = 'Uredi';
 $string['editedby'] = 'Uredio/la  $a->name - $a->date';
 $string['editing'] = 'Uređivanje';
 $string['emptymessage'] = 'Nešto nije u redu sa Vašom porukom. Možda ste ostavili prazna polja, ili je prilog prevelik. Vaše promene NISU sačuvane.';
 $string['everyonecanchoose'] = 'Svi mogu odabrati žele li biti učlanjeni na ovaj forum';
+$string['everyonecannowchoose'] = 'Svako može da izabere da li će biti učlaljen.';
+$string['everyoneisnowsubscribed'] = 'Svi su sada učlanjeni na ovaj forum.';
 $string['everyoneissubscribed'] = 'Svi su učlanjeni na ovaj forum';
 $string['existingsubscribers'] = 'Trenutni članovi';
+$string['forcessubscribe'] = 'Učlanjivanje na ovaj forum je obavezno za sve.';
 $string['forcesubscribe'] = 'Obavezno učlanjivanje svih korisnika';
 $string['forcesubscribeq'] = 'Moraju li svi korisnici biti učlanjeni?';
 $string['forum'] = 'Forum';
-$string['forum:createattachment'] = 'Kreiranje priloga';
+$string['forum:addnews'] = 'Dodaj vest';
+$string['forum:createattachment'] = 'Kreiraj priloge';
 $string['forum:deleteanypost'] = 'Brisanje svih poruka (u bilo koje vreme)';
 $string['forum:deleteownpost'] = 'Brisanje sopstvenih poruka (u zadatom roku)';
 $string['forum:editanypost'] = 'Uređivanje proizvoljnih poruka';
+$string['forum:initialsubscriptions'] = 'Početno članstvo';
 $string['forum:managesubscriptions'] = 'Upravljanje članstvima';
 $string['forum:movediscussions'] = 'Premeštanje diskhttp://localhost/moodle/admin/lang.php?mode=compare&currentfile=forum.php#missing2usija';
-$string['forum:nothrottling'] = 'Bez potiskivanja';
 $string['forum:rate'] = 'Ocenjivanje poruka';
-$string['forum:replypost'] = 'Odgovaranje na poruke';
-$string['forum:splitdiscussions'] = 'Podela diskusija';
-$string['forum:startdiscussion'] = 'Započinjanje novih diskusija';
+$string['forum:replynews'] = 'Odgovori na vesti';
+$string['forum:replypost'] = 'Odgovori na poruke';
+$string['forum:splitdiscussions'] = 'Podeli diskusije';
+$string['forum:startdiscussion'] = 'Započni nove diskusije';
+$string['forum:throttlingapplies'] = 'Potiskivanje prijava';
 $string['forum:viewanyrating'] = 'Pregled proizvoljnih ocena';
 $string['forum:viewdiscussion'] = 'Pregled diskusija';
 $string['forum:viewhiddentimedposts'] = 'Pregled skrivenih vremenski određenih poruka';
@@ -125,11 +134,12 @@ $string['modulenameplural'] = 'Forumi';
 $string['more'] = 'još';
 $string['movedmarker'] = '(Premešteno)';
 $string['movethisdiscussionto'] = 'Premesti ovu diskusiju u ...';
-$string['namenews'] = 'Forum novosti';
+$string['namenews'] = 'Obaveštenja';
 $string['namesocial'] = 'Društveni forum';
 $string['nameteacher'] = 'Forum predavača';
 $string['newforumposts'] = 'Nove poruke na forumu';
 $string['nodiscussions'] = 'Još nema tema za diskusiju na ovom forumu';
+$string['nodiscussionsstartedby'] = 'Ne postoji diskusija započeta od strane ovog korisnika.';
 $string['noguestpost'] = 'Nažalost, gostima nije dozvoljeno slanje poruka';
 $string['noguestsubscribe'] = 'Nažalost, gostima nije dozvoljeno da se učlane u forum kako bi dobijali poruke sa foruma elektronskom poštom.';
 $string['noguesttracking'] = 'Nažalost, gostima nije dozvoljeno da podešavaju opcije za praćenje poruka.';
@@ -161,9 +171,9 @@ $string['parent'] = 'Prikaži nadređenu poruku';
 $string['parentofthispost'] = 'Poruka nadređena ovoj poruci';
 $string['postadded'] = 'Vaša poruka je uspešno dodata.<P>Imate $a za promenu sadržaja iste, pod uslovom da to želite.';
 $string['postincontext'] = 'Pogledajte poruku u kontekstu';
-$string['postmailinfo'] = 'Ovo je kopija poruke s foruma na veb sajtu $a.
+$string['postmailinfo'] = 'Ovo je kopija poruke s foruma na Web sajtu $a.
 
-Kako biste odgovorili na poruku putem veb interfejsa, kliknite na ovaj link:';
+Kako biste odgovorili na poruku putem Web interfejsa, kliknite na ovaj link:';
 $string['postmailnow'] = '<p>Ova poruka će biti odmah poslata svim članovima foruma.</p>';
 $string['postrating1'] = 'Uglavnom odvojeno znanje';
 $string['postrating2'] = 'Odvojeno i povezano';
@@ -195,7 +205,7 @@ $string['readtherest'] = 'Pročitajte ostatak ove teme';
 $string['replies'] = 'Odgovori';
 $string['repliesmany'] = '$a odgovora do sada';
 $string['repliesone'] = '$a odgovor do sada';
-$string['reply'] = 'Odgovor';
+$string['reply'] = 'Odgovori';
 $string['replyforum'] = 'Odgovoriti na forum';
 $string['resetforums'] = 'Uklanjanje svih poruke sa ovih tipova foruma';
 $string['resetsubscriptions'] = 'Uklanjanje prijava na forum';
@@ -235,7 +245,7 @@ $string['subscriptions'] = 'Učlanjenja';
 $string['thisforumisthrottled'] = 'Ovaj forum ima ograničenje na broj poruka koji možete poslati tokom određenog vremenskog intervala - trenutno je to ograničenje postavljeno na $a->blockafter poruka u $a->blockperiod';
 $string['timestartenderror'] = 'Kraj prikaza ne može biti podešen na datum raniji od početka prikaza';
 $string['trackforum'] = 'Praćenje nepročitanih poruka';
-$string['tracking'] = 'Praćenje';
+$string['tracking'] = 'Prati';
 $string['trackingoff'] = 'Isključeno';
 $string['trackingon'] = 'Uključeno';
 $string['trackingoptional'] = 'Opciono';
@@ -254,5 +264,6 @@ $string['youratedthis'] = 'Ocenili ste ovu temu';
 $string['yournewquestion'] = 'Vaše novo pitanje';
 $string['yournewtopic'] = 'Vaša nova diskusiona tema';
 $string['yourreply'] = 'Vaš odgovor';
+$string['forum:nothrottling'] = 'Bez potiskivanja'; // ORPHANED
 
 ?>
