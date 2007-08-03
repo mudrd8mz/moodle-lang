@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 dev (2007062008)
+      // resource.php - created with Moodle 1.9 dev (2007080103)
 
 
 $string['addresource'] = 'Afegeix un recurs';
@@ -89,7 +89,7 @@ $string['parameter'] = 'Paràmetre';
 $string['parameters'] = 'Paràmetres';
 $string['popupresource'] = 'Aquest recurs ha d\'aparèixer en una finestra emergent.';
 $string['popupresourcelink'] = 'Si no, feu clic aquí: $a';
-$string['preview'] = 'Visualització prèvia';
+$string['preview'] = 'Previsualització';
 $string['previous'] = 'Anterior';
 $string['redeploy'] = 'Torna a desplegar';
 $string['repository'] = 'Repositori IMS';

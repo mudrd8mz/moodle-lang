@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9 dev (2007021501)
+      // lesson.php - created with Moodle 1.9 dev (2007080103)
 
 
 $string['accesscontrol'] = 'Control d\'accés';
@@ -217,8 +217,8 @@ $string['pleasematchtheabovepairs'] = 'Si us plau, relacioneu les parelles de da
 $string['pointsearned'] = 'Punts aconseguits';
 $string['postsuccess'] = 'Missatge enviat correctament';
 $string['practice'] = 'Practica la lliçó';
-$string['preview'] = 'Visualització prèvia';
-$string['previewlesson'] = 'Visualització prèvia $a';
+$string['preview'] = 'Previsualització';
+$string['previewlesson'] = 'Previsualitza $a';
 $string['previouspage'] = 'Pàgina anterior';
 $string['progressbar'] = 'Barra de progrés';
 $string['progressbarteacherwarning'] = 'La barra de progrés no es visualitza per a $a';

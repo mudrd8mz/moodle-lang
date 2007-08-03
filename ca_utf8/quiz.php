@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007021501)
+      // quiz.php - created with Moodle 1.9 dev (2007080103)
 
 
 $string['1day'] = 'Un dia';
@@ -46,17 +46,19 @@ $string['attemptlast'] = 'Darrer intent';
 $string['attemptquiznow'] = 'Contesta el qüestionari ara';
 $string['attempts'] = 'Intents';
 $string['attemptsallowed'] = 'Intents permesos';
+$string['attemptsdeleted'] = 'S\'han suprimit els intents del qüestionari';
 $string['attemptselection'] = 'Seleccioneu quins intents voleu analitzar per usuari';
 $string['attemptsexist'] = 'Aquest qüestionari ja s\'ha contestat.</ br>No podeu afegir o suprimir preguntes.';
 $string['attemptsonly'] = 'Mostra només l\'estudiantat amb intents';
 $string['attemptsunlimited'] = 'Intents il·limitats';
-$string['back'] = 'Torna a la visualització prèvia de la pregunta';
+$string['back'] = 'Torna a la previsualització de la pregunta';
 $string['backtoquestionlist'] = 'Torna a la llista de preguntes';
 $string['backtoquiz'] = 'Torna a l\'edició del qüestionari';
 $string['bestgrade'] = 'Millor nota';
 $string['blackboard'] = 'Blackboard';
 $string['blackboard_6'] = 'Blackboard V6+';
 $string['bothattempts'] = 'Mostra l\'estudiantat amb intents i sense intents';
+$string['braceerror'] = 'No s\'han pogut trobar les claus {...} envoltant les respostes';
 $string['calculated'] = 'Calculada';
 $string['calculatedquestion'] = 'Pregunta calculada no permesa en la línia $a. S\'ignorarà aquesta pregunta.';
 $string['cannotcreatepath'] = 'No es pot crear el camí ($a)';
@@ -85,7 +87,7 @@ $string['choosedatasetproperties'] = 'Tria propietats del conjunt de dades';
 $string['choosefile'] = 'Tria un fitxer';
 $string['close'] = 'Tanca finestra';
 $string['closebeforeopen'] = 'No s\'ha pogut actualitzar el qüestionari. Heu especificat una data de finalització anterior a la data d\'inici';
-$string['closepreview'] = 'Tanca visualització prèvia';
+$string['closepreview'] = 'Tanca la previsualització';
 $string['closereview'] = 'Tanca revisió';
 $string['comment'] = 'Comentari';
 $string['commentorgrade'] = 'Fes un comentari o canvia la qualificació';
@@ -98,6 +100,7 @@ $string['confirmstartattempttimelimit'] = 'Aquest qüestionari té un límit de 
 $string['confirmstarttimelimit'] = 'Aquest qüestionari té un límit de temps. Segur que voleu començar?';
 $string['containercategorycreated'] = 'S\'ha creat aquesta categoria a fi d\'emmagatzemar totes les categories originals que s\'han mogut al nivell del lloc pels motius especificats més avall.';
 $string['continueattemptquiz'] = 'Continua el darrer intent';
+$string['continuepreview'] = 'Continua la darrera previsualització';
 $string['copyingfrom'] = 'S\'està creant una còpia de la pregunta \'$a\'';
 $string['copyingquestion'] = 'S\'està copiant una pregunta';
 $string['correct'] = 'Correcta';
@@ -133,6 +136,7 @@ $string['deleteattemptcheck'] = 'Esteu absolutament segur que voleu suprimir com
 $string['deletequestioncheck'] = 'Esteu absolutament segur que voleu suprimir \'$a\'?';
 $string['deletequestionscheck'] = 'Esteu absolutament segur que voleu suprimir les preguntes següents? <div>$a</div>';
 $string['deleteselected'] = 'Suprimeix la selecció';
+$string['deletingquestionattempts'] = 'S\'estan esborrant els intents de les preguntes';
 $string['description'] = 'Descripció';
 $string['discrimination'] = 'Índex de discriminació';
 $string['displayoptions'] = 'Opcions de visualització';
@@ -162,6 +166,24 @@ $string['editqcats'] = 'Edita categories de les preguntes';
 $string['editquestions'] = 'Edita preguntes';
 $string['editquiz'] = 'Edita el qüestionari';
 $string['editquizquestions'] = 'Edita preguntes del qüestionari';
+$string['emailconfirmbody'] = '$a->username,
+
+Gràcies per trametre les vostres respostes al qüestionari \'$a->quizname\'
+del curs \'$a->coursename\'
+el $a->submissiontime.
+
+Aquest correu confirma que s\'han rebut les respostes.
+
+Podeu accedir al qüestionari en l\'adreça $a->quizurl';
+$string['emailconfirmsubject'] = 'Confirmació de la tramesa del qüestionari: $a->quizname';
+$string['emailnotifybody'] = '$a->username,
+
+$a->studentname ha completat el qüestionari
+\'$a->quizname\' ($a->quizurl)
+del curs \'$a->coursename\'
+
+Podeu revisar aquest intent en l\'adreça $a->quizreviewurl';
+$string['emailnotifysubject'] = '$a->studentname ha completat el qüestionari $a->quizname';
 $string['errorinquestion'] = 'Error en la pregunta';
 $string['errormissingquestion'] = 'Error: el sistema no coneix la pregunta amb id $a';
 $string['errornotnumbers'] = 'Error: les respostes han de ser numèriques';
@@ -342,9 +364,10 @@ $string['pleaseclose'] = 'La vostra petició ha estat processada. Podeu tancar a
 $string['popup'] = 'Mostra el qüestionari en una finestra \"segura\"';
 $string['popupblockerwarning'] = 'Aquesta secció de la prova es fa en mode segur. Això vol dir que cal contestar el qüestionari en una finestra segura. Desactiveu el blocatge de finestres emergents.';
 $string['popupnotice'] = 'Els estudiants veuran aquest qüestionari en una finestra segura';
-$string['preview'] = 'Visualització prèvia';
-$string['previewquestion'] = 'Visualització prèvia de la pregunta';
-$string['previewquiz'] = 'Visualització prèvia del $a';
+$string['preview'] = 'Previsualització';
+$string['previewquestion'] = 'Previsualitza la pregunta';
+$string['previewquiz'] = 'Previsualitza $a';
+$string['previewquiznow'] = 'Previsualitza el qüestionari ara';
 $string['previous'] = 'Estat anterior';
 $string['publish'] = 'Publica';
 $string['publishedit'] = 'Heu de tenir permisos en el curs per afegir o editar preguntes d\'aquesta categoria';
@@ -367,10 +390,12 @@ $string['questiontype'] = 'Tipus de pregunta $a';
 $string['questiontypesetupoptions'] = 'Opcions de configuració dels tipus de pregunta:';
 $string['quiz:attempt'] = 'Contestar qüestionaris';
 $string['quiz:deleteattempts'] = 'Suprimir intents';
+$string['quiz:emailconfirmsubmission'] = 'Rebre confirmació per correu quan hi hagi trameses';
+$string['quiz:emailnotifysubmission'] = 'Rebre notificació per correu de les trameses';
 $string['quiz:grade'] = 'Qualificar qüestionaris manualment';
 $string['quiz:ignoretimelimits'] = 'Ignorar el límit de temps dels qüestionaris';
 $string['quiz:manage'] = 'Gestionar qüestionaris';
-$string['quiz:preview'] = 'Visualització prèvia de qüestionaris';
+$string['quiz:preview'] = 'Previsualitzar qüestionaris';
 $string['quiz:view'] = 'Veure informació del qüestionari';
 $string['quiz:viewreports'] = 'Veure informes del qüestionari';
 $string['quizavailable'] = 'El qüestionari està disponible fins: $a';
@@ -401,6 +426,7 @@ $string['regradingquestion'] = 'S\'està recalculant \"$a\".';
 $string['regradingquiz'] = 'S\'està recalculant el qüestionari \"$a\"';
 $string['relative'] = 'Relativa';
 $string['remove'] = 'Suprimeix';
+$string['removeallquizattempts'] = 'Suprimeix tots els intents del qüestionari';
 $string['rename'] = 'Canvia el nom';
 $string['renderingserverconnectfailed'] = 'El servidor $a no ha pogut processar una petició RQP. Comproveu que l\'URL és correcte.';
 $string['reordertool'] = 'Mostra l\'eina de reordenació';
@@ -485,7 +511,7 @@ $string['startagain'] = 'Comença de nou';
 $string['startedon'] = 'Començat el';
 $string['stoponerror'] = 'Atura\'t si es produeix un error';
 $string['subneterror'] = 'Aquest qüestionari ha estat blocat i només és accessible des de certes ubicacions. A hores d\'ara el vostre ordinador no és un dels que han estat autoritzats.';
-$string['subnetnotice'] = 'Aquest qüestionari ha estat blocat de manera que només sigui accessible des de certes ubicacions. El vostre ordinador no es troba en una subxarxa autoritzada. Tanmateix com a professor en podeu veure una visualització prèvia.';
+$string['subnetnotice'] = 'Aquest qüestionari ha estat blocat de manera que només sigui accessible des de certes ubicacions. El vostre ordinador no es troba en una subxarxa autoritzada. Tanmateix com a professor podeu previsualitzar-lo.';
 $string['substitutedby'] = 'serà reemplaçat amb';
 $string['temporaryblocked'] = 'Temporalment no us és permès de tornar a contestar aquest qüestionari.<br />Podeu tornar a contestar-lo en:';
 $string['time'] = 'Temps';
@@ -494,6 +520,7 @@ $string['timedelay'] = 'No us permès de tornar a contestar aquest qüestionari 
 $string['timeleft'] = 'Temps restant';
 $string['timelimit'] = 'Temps màxim';
 $string['timelimitexeeded'] = 'Heu esgotat el temps';
+$string['timelimitmin'] = 'Temps màxim (minuts)';
 $string['timestr'] = '%%d/%%m/%%y - %%H:%%M:%%S';
 $string['timesup'] = 'Temps esgotat';
 $string['timetaken'] = 'Temps emprat';

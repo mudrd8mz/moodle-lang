@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.7+ (2006101007)
+      // editor.php - created with Moodle 1.9 dev (2007080103)
 
 
 $string['about'] = 'Referent a aquest editor';
@@ -90,7 +90,7 @@ $string['pixels'] = 'Píxels';
 $string['pleaseenteralt'] = 'introduïu el text alternatiu';
 $string['popupeditor'] = 'Amplia l\'editor';
 $string['preformatted'] = 'Preformatat';
-$string['preview'] = 'Visualització prèvia';
+$string['preview'] = 'Previsualització';
 $string['properties'] = 'Propietats';
 $string['redo'] = 'Refés la darrera acció';
 $string['regularexpressions'] = 'Utilitza expressions regulars';
