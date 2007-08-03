@@ -18,5 +18,14 @@ $string['resetflag'] = 'Reinicia senyalador';
 $string['responsiblewillbenotified'] = 'La persona responsable rebrà una notificació';
 $string['search'] = 'Cerca';
 $string['searchresultsfor'] = 'Resultats de la cerca: \"$a\"';
+$string['searchtags'] = 'Cerca etiquetes';
+$string['tag'] = 'Etiqueta';
+$string['tagdescription'] = 'Descripció de l\'etiqueta';
+$string['tags'] = 'Etiquetes';
+$string['tagsaredisabled'] = 'Les etiquetes estan inhabilitades';
+$string['thingstaggedwith'] = '$a->count elements amb l\'etiqueta \"$a->name\"';
+$string['thistaghasnodesc'] = 'Aquesta etiqueta no té descripció.';
+$string['updatetag'] = 'Actualitza';
+$string['userstaggedwith'] = 'Usuaris amb l\'etiqueta \"$a\"';
 
 ?>
