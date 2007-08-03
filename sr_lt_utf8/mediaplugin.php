@@ -8,4 +8,3 @@ $string['flashvideo'] = 'Flash video';
 $string['mp3audio'] = 'MP3 audio';
 
 ?>
-

@@ -1,5 +1,5 @@
 ﻿<?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8.1+ (2007021510)
+      // lesson.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['accesscontrol'] = 'Kontrola pristupa';
@@ -57,7 +57,7 @@ $string['continue'] = 'Nastavi';
 $string['continuetoanswer'] = 'Nastavite da biste promenili odgovore.';
 $string['correctanswerjump'] = 'Tačan odgovor vodi do';
 $string['correctanswerscore'] = 'Broj bodova koji se dobija za tačan odgovor';
-$string['correctresponse'] = 'Komentar na tačan odgovor';
+$string['correctresponse'] = 'Povratne informacije za tačan odgovor';
 $string['credit'] = 'Bodovi';
 $string['customscoring'] = 'Bodovanje prilagođeno potrebama korisnika';
 $string['deadline'] = 'Krajnji rok';
@@ -127,10 +127,12 @@ $string['jumps'] = 'Prelazi';
 $string['jumpsto'] = 'Prelazi na <em>$a</em>';
 $string['leftduringtimed'] = 'Napustili ste lekciju koja je vremenski ograničena.<br />Pritisnite taster za nastavak da biste pogledali lekciju od početka.';
 $string['leftduringtimednoretake'] = 'Napustili ste lekciju koja je vremenski ograničena i nije Vam <br /> dozvoljeno da nastavite ili počnete lekciju iz početka.';
-$string['lesson:edit'] = 'Uređivanje aktivnosti lekcije';
-$string['lesson:manage'] = 'Upravljanje aktivnosti lekcije';
+$string['lesson:edit'] = 'Uredi lekciju';
+$string['lesson:manage'] = 'Upravljaj lekcijom';
+$string['lessonattempted'] = 'Lekciji je pristupano';
 $string['lessonclosed'] = 'Ova lekcija je zatvorena dana $a.';
 $string['lessoncloses'] = 'Lekcija se zatvara';
+$string['lessoncloseson'] = 'Vreme zatvaranja lekcije: $a';
 $string['lessondefault'] = 'Koristite podešavanja ove lekcije kao podrazumevana za sve nove lekcije';
 $string['lessonformating'] = 'Formatiranje lekcije';
 $string['lessonmenu'] = 'Meni lekcije';
@@ -152,7 +154,7 @@ $string['maximumnumberofattemptsreached'] = 'Dostignut je maksimalan broj pokuš
 $string['maxtime'] = 'Vremensko ograničenje (u minutima)';
 $string['maxtimewarning'] = 'Imate još $a minut(a) da završite lekciju.';
 $string['mediaclose'] = 'Prikaz dugmeta za zatvaranje';
-$string['mediafile'] = 'Iskačući prozor za prikaz datoteke ili veb stranice';
+$string['mediafile'] = 'Iskačući prozor za prikaz datoteke ili Web stranice';
 $string['mediafilepopup'] = 'Kliknite ovde za prikaz multimedijalne datoteke ove lekcije';
 $string['mediaheight'] = 'Visina prozora:';
 $string['mediawidth'] = 'Širina prozora:';
@@ -234,7 +236,7 @@ $string['receivedcredit'] = 'Dobijeni bodovi';
 $string['redisplaypage'] = 'Osvežavanje prikaza stranice';
 $string['report'] = 'Izveštaj';
 $string['reports'] = 'Izveštaji';
-$string['response'] = 'Odgovor';
+$string['response'] = 'Povratne informacije';
 $string['returnto'] = 'Vrati se na $a';
 $string['returntocourse'] = 'Vrati se na kurs';
 $string['review'] = 'Pregled';
@@ -291,7 +293,8 @@ $string['welldone'] = 'Bravo!';
 $string['whatdofirst'] = 'Šta želite prvo da uradite?';
 $string['wronganswerjump'] = 'Stranica koja će se prikazati nakon pogrešnog odgovora';
 $string['wronganswerscore'] = 'Broj bodova koji nosi pogrešan odgovor';
-$string['wrongresponse'] = 'Pogrešan odgovor';
+$string['wrongresponse'] = 'Povratne informacije za pogrešan odgovor';
+$string['xattempts'] = '$a pokušaj(a)';
 $string['youhaveseen'] = 'Već ste videli više od jedne stranice ove lekcije.<br /> Želite li početi od poslednje stranice koju ste videli?';
 $string['youmadehighscore'] = 'Dospeli ste na listu $a najboljih rezultata.';
 $string['youranswer'] = 'Vaš odgovor';
@@ -303,4 +306,3 @@ $string['mainmenu'] = 'Meni kursa'; // ORPHANED
 $string['returnmainmenu'] = 'Povratak na glavni meni'; // ORPHANED
 
 ?>
-

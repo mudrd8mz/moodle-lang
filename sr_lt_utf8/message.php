@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // message.php - created with Moodle 1.6.1+ (2006050512)
+﻿<?PHP // $Id$ 
+      // message.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['addcontact'] = 'Dodavanje kontakta';
@@ -10,7 +10,7 @@ $string['allmine'] = 'Sve poruke koje sam poslao/la ili primio/la';
 $string['allstudents'] = 'Sve poruke između studenata na kursu';
 $string['allusers'] = 'Sve poruke od svih korisnika';
 $string['backupmessageshelp'] = 'Ukoliko omogućite ovu opciju, instant poruke će biti uključene u automatski generisane rezervne kopije sajta';
-$string['beepnewmessage'] = 'Kada stigne nova poruka obavesti me zvučnim signalom (ova opcija može zahtevati dodatak za web čitač, npr. Quicktime)';
+$string['beepnewmessage'] = 'Kada stigne nova poruka obavesti me zvučnim signalom (ova opcija može zahtevati dodatak za Web čitač, npr. Quicktime)';
 $string['blockcontact'] = 'Blokiraj kontakt';
 $string['blockedmessages'] = '$a poruka za/od blokiranih korisnika';
 $string['blocknoncontacts'] = 'Blokiraj sve nove poruke od korisnika koji nisu na mojoj listi kontakata';
@@ -33,7 +33,9 @@ $string['messagehistory'] = 'Istorija poruka';
 $string['messages'] = 'Poruke';
 $string['messaging'] = 'Slanje poruka';
 $string['mycontacts'] = 'Moji kontakti';
+$string['newonlymsg'] = 'Prikaži samo nove';
 $string['newsearch'] = 'Nova pretraga';
+$string['noframesjs'] = 'Verzija bez okvira i JavaScript-a';
 $string['nomessages'] = 'Nema poruka na čekanju';
 $string['nomessagesfound'] = 'Nije pronađena nijedna poruka';
 $string['nosearchresults'] = 'Vaša pretraga nije dala rezultate';
@@ -52,10 +54,11 @@ $string['search'] = 'Pretraživanje';
 $string['searchforperson'] = 'Traži osobu';
 $string['searchmessages'] = 'Pretraži poruke';
 $string['sendmessage'] = 'Pošalji poruku';
-$string['sendmessageto'] = 'Pošalji poruku $a';
+$string['sendmessageto'] = 'Pošalji poruku za korisnika $a';
+$string['sendmessagetopopup'] = 'Pošalji poruku za korisnika $a - novi prozor';
 $string['settings'] = 'Podešavanja';
 $string['settingssaved'] = 'Vaša podešavanja su sačuvana';
-$string['showmessagewindow'] = 'Kada dobijem nove poruke automatski prikaži prozor sa porukama (potrebno je da u Vašem web čitaču isključite blokiranje iskačućih prozora)';
+$string['showmessagewindow'] = 'Kada dobijem nove poruke automatski prikaži prozor sa porukama (potrebno je da u Vašem Web čitaču isključite blokiranje iskačućih prozora)';
 $string['strftimedaydatetime'] = '%%A, %%d. %%B %%Y., %%H:%%M';
 $string['timenosee'] = 'Vreme (u minutima) od kada sam poslednji put viđen(a) na sajtu';
 $string['timesent'] = 'Vreme slanja';
