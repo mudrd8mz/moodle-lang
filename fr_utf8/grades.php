@@ -103,6 +103,7 @@ $string['edittree'] = 'Catégories et éléments';
 $string['enableajax'] = 'Activer AJAX';
 $string['enableoutcomes'] = 'Activer les objectifs';
 $string['encoding'] = 'Encodage';
+$string['errorcalculationnoequal'] = 'La formule doit commencer par un signe d\'égalité (=1+2)';
 $string['errorcalculationunknown'] = 'Formule non valide';
 $string['errorgradevaluenonnumeric'] = 'Une note non-numérique a été reçue (note haute ou basse) pour ';
 $string['errornocategorizedid'] = 'Impossible d\'obtenir un identifiant sans catégorie&nbsp;!';
