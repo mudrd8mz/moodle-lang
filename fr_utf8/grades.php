@@ -228,6 +228,7 @@ $string['nolettergrade'] = 'Pas de note lettre pour';
 $string['nomode'] = 'ND';
 $string['nonnumericweight'] = 'Valeur non numérique reçue pour ';
 $string['nonweightedpct'] = '%% non pondéré';
+$string['nooutcome'] = 'Aucun objectif';
 $string['noselectedcategories'] = 'Aucune catégorie sélectionnée.';
 $string['noselecteditems'] = 'Aucun élément sélectionné.';
 $string['notteachererror'] = 'Vous devez être enseignant pour utiliser cette fonctionnalité.';
