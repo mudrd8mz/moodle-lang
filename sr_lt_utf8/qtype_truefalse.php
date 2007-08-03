@@ -11,4 +11,3 @@ $string['true'] = 'Tačno';
 $string['truefalse'] = 'Tačno/Netačno';
 
 ?>
-

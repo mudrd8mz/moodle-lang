@@ -6,4 +6,3 @@ $string['nosaincategory'] = 'Nema pitanja na koja se odgovara kratkim tekstualni
 $string['notenoughsaincategory'] = 'Broj pitanja na koja se odgovara kratkim tekstualnim odgovorom u odabranoj kategoriji (\'$a->catname\') je premali (svega $a->nosaquestions). Odaberite drugu kategoriju, dodajte još pitanja u ovu ili smanjite količinu selektovanih pitanja.';
 
 ?>
-
