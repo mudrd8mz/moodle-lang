@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007080201)
+      // moodle.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['action'] = '操作';
@@ -635,6 +635,7 @@ $string['gdneed'] = 'このグラフを表示するためにはGDのインスト
 $string['gdnot'] = 'GD未インストール';
 $string['gettheselogs'] = 'これらのログを取得する';
 $string['go'] = 'Go';
+$string['gotoyourserver'] = '(あなたのサーバに戻る)';
 $string['gpl'] = 'Copyright (C) 1999 onwards Martin Dougiamas (http://moodle.com)
 
 このプログラムはフリーソフトウェアです。あなたはこれを、フリーソフトウェア財団によって発行された GNU 一般公衆利用許諾契約書 (バージョン2か、希望によってはそれ以降のバージョンのうちどれか) の定める条件の下で再頒布または改変することができます。
@@ -1139,6 +1140,7 @@ $string['registrationno'] = 'いいえ、メールは送信しないでくださ
 $string['registrationsend'] = 'moodle.orgに登録情報を送信する。';
 $string['registrationyes'] = 'はい、重要事項を知らせてください。';
 $string['reject'] = '拒否';
+$string['remotemaharauser'] = 'リモートMaharaユーザ';
 $string['remove'] = '削除';
 $string['removeadmin'] = '管理者を削除する';
 $string['removecreator'] = 'コース作成者を削除する';
