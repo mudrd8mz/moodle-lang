@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_manual.php - created with Moodle 1.7 dev (2006091901)
+      // enrol_manual.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['description'] = '이것은 등록을 위한 기본 양식입니다. 학생들이 특정 과정에 등록할 수 있는 방법에는 두 가지가 있습니다.
@@ -8,5 +8,6 @@ $string['description'] = '이것은 등록을 위한 기본 양식입니다. 학
 <li> 과정은 \"등록 키\"로 알려진 정의된 암호를 가질 수 있습니다. 이 암호를 알고 있는 사람은 누구든지 과정에 자신들을 추가할 수 있습니다. </li>
 </ul>';
 $string['enrolname'] = '내부 등록';
+$string['keyholderrole'] = '배움터의 등록키를 관장할 수 있는 역할. 학생들이 배움터에 등록할 때 표시됨.';
 
 ?>

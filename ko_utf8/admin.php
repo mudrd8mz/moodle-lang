@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007071801)
+      // admin.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -207,12 +207,16 @@ $string['configstatsfirstrun'] = '여기에서 cron이 통계를 처리한 후 �
 $string['configstatsmaxruntime'] = '통계 처리과정은 부하가 매우 많이 걸리기 때문에 언제 시작하고 얼마나 유지할지를 이 항목과 다음 항목에서 지정해 주어야 한다.';
 $string['configstatsruntimestart'] = '언제 자동으로 통계 프로세스를 <b>가동</b>할까?';
 $string['configstatsuserthreshold'] = '만일 배움터의 순위를 정하기 위해 여기에 0이 아닌 숫자를 넣으면, 이 숫자보다 작은 동록인원(학생수+교사수)이 등록되어 있는 배움터는 무시될 것이다.';
+$string['configsupportemail'] = '이 이메일 주소는 새 계정을 신청한 사용자가 일반적인 도움말이 필요할 경우 반송 주소로 공개될 것입니다. 이 이메일 주소를 입력하지 않은 경우에는 사용할 수 있는 이메일 주소는 제공되지 않습니다.';
+$string['configsupportname'] = '이는 보조 이메일이나 웹주소를 통해 일반적인 도움말을 제공할 때 쓰여지는 이름입니다.';
+$string['configsupportpage'] = '이 웹 주소는 새 계정을 신청한 사용자가 일반적인 도움말이 필요할 경우 접속 주소로 공개될 것입니다. 이 웹 주소를 입력하지 않은 경우에는 접속할 수 있는 링크가 제공되지 않습니다.';
 $string['configteacherassignteachers'] = '배움터의 교사가 배움터 내 다른 사람을 (보조)교사로 지명할 수 있게 할까? 만약 \"아니오\"로 설정하면, 과정 생성자나 관리자만 교사를 지명할 수 있다.';
 $string['configthemelist'] = '다양한 테마를 사용하게 하려면 이 부분을 빈칸을 남겨두어라. 만약 테마 메뉴를 단축하길 원한다면, 여기에다 콤마로 분리해서 목록 이름을 지정할 수 있다. (예: standard,orangewhite)';
 $string['configtimezone'] = '여기에서 표준시간대를 선택한다. 이것은 단지 기본값으로 쓸 표준시간대이며, 각 사용자는 신상명세 난에서 그들 자신에 맞는 설정을 따로 할 수가 있다. 이곳의 \"서버 로칼 시간대\"는 서버 전반에 적용되는 기준 시간으로 무들의 기본값인데, 사용자 신상명세에 있는 시간대와는 별도이다. Cronjob은 이 시간을 기준으로 작동한다.';
 $string['configunzip'] = 'unzip 프로그램의 위치(유닉스만,선택사항)를 적어라. 
 만약 여기에 그 경로를 적어넣으면 서버상에서 압축된 zip 문서를 푸는데 사용된다.
 만약 여기를 비워둔다면, 무들은 내부 루틴을 사용할 것이다.';
+$string['configusetags'] = '사이트 전반에 걸쳐 태그 기능을 활성화할 필요가 있을까요?';
 $string['configvariables'] = '변수';
 $string['configvisiblecourses'] = '숨겨진 범주의 배움터 표시';
 $string['configwarning'] = '설정값을 조심해서 변경하시오 - 잘못된 값이 문제를 일으킬 수 있습니다.';
@@ -571,6 +575,9 @@ $string['stickyblockscourseview'] = '기본 배움터';
 $string['stickyblocksduplicatenotice'] = '만일 여기에 블록을 첨가했는데 그것이 이미 어떤 페이지에 표시되어 있다면, 두 개가 겹쳐질 것입니다.<br />이때 원래의 블록은 편집을 하지 못하게 되나 복사된 블록은 여전히 편집할 수 있습니다.';
 $string['stickyblocksmymoodle'] = '내 공부방';
 $string['stickyblockspagetype'] = '환경설정 페이지 양식';
+$string['supportemail'] = '보조 이메일';
+$string['supportname'] = '보조 이름';
+$string['supportpage'] = '보조 화면';
 $string['switchlang'] = '언어 경로 바꿈';
 $string['systempaths'] = '시스템 경로';
 $string['tabselectedtofront'] = '탭이 있는 테이블에서 현재 선택된 탭이 있는 줄은 제일 앞에 위치해야만 합니다.';
@@ -617,6 +624,7 @@ $string['users'] = '사용자';
 $string['userscreated'] = '사용자들이 생성됨';
 $string['usersrenamed'] = '사용자명이 변경됨';
 $string['usersupdated'] = '사용자들이 갱신됨';
+$string['usetags'] = '태그 기능 활성화';
 $string['validateerror'] = '이 값은 유효하지 않음:';
 $string['confighideactivitytypecrumb'] = '활동 유형(예: 퀴즈)에 따라 모듈에 나타나는 진행상태를 숨길 대상을 선택한다.'; // ORPHANED
 $string['hideactivitytypecrumb'] = '활동 흔적 감추기'; // ORPHANED

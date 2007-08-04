@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007070902)
+      // moodle.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['action'] = '동작';
@@ -36,6 +36,7 @@ $string['addnousersrecip'] = '한번도 $a 에 접속하지 않았던 사용자�
 $string['addresource'] = '자원 추가';
 $string['address'] = '주소';
 $string['addstudent'] = '학생 추가';
+$string['addsubcategory'] = '하위 범주 추가';
 $string['addteacher'] = '교사 추가';
 $string['admin'] = '관리자';
 $string['adminbookmarks'] = '관리자 갈무리주소록';
@@ -518,6 +519,7 @@ $string['enrolmentconfirmation'] = '당신은 이 배움터의 구성원으로 �
 $string['enrolmentend'] = '등록 마감';
 $string['enrolmentkey'] = '등록키';
 $string['enrolmentkeyfrom'] = '이 배움터는 \'등록키\'가 필요합니다.<br /> 등록키는 $a 에게서 받을 수 있습니다.';
+$string['enrolmentkeyfromguest'] = '손님으로 이 배움터에 입장하기 위해서는 매번 \'등록키\'를 입력해야 합니다. $a 에게서 이를 취득해야 합니다.';
 $string['enrolmentkeyhint'] = '등록키가 부정확합니다. 다시 입력해 주세요.<br />
 (힌트:  \'$a\'로 시작됨)';
 $string['enrolmentnew'] = '$a 에 새로 등록';
@@ -531,6 +533,7 @@ $string['enrolperiod'] = '재적 기한';
 $string['enrolstartdate'] = '등록 시작 날짜';
 $string['entercourse'] = '이 배움터에 들어가려면 클릭';
 $string['enteremailaddress'] = '이메일 주소로 새로운 비밀번호가 전송됩니다.';
+$string['enteryourinterests'] = '관심 분야를 컴마로 구분하여 적으세요.';
 $string['entries'] = '입력 내용';
 $string['error'] = '오류';
 $string['errortoomanylogins'] = '죄송합니다. 허락된 로그인 시도 횟수가 초과되었습니다. 브라우저를 다시 시작해 주세요.';
@@ -629,6 +632,7 @@ $string['gdneed'] = '그래프를 보려면 GD 프로그램이 설치되어야 �
 $string['gdnot'] = 'GD 프로그램이 설치되지 않음';
 $string['gettheselogs'] = '기록 보기';
 $string['go'] = '다음';
+$string['gotoyourserver'] = '(서버로 연결)';
 $string['gpl'] = 'Copyright (C) 2001-2004  Martin Dougiamas  (http://dougiamas.com)
 
 이 프로그램은 프리웨어입니다. 당신은 자유소프트웨어 재단이 선언한 GNU 협약에 근거하여 재배포할 수도 있고, 수정하여 사용할 수도 있습니다.
@@ -717,6 +721,7 @@ $string['htmlformat'] = 'HTML 포멧';
 $string['icqnumber'] = 'icq 번호';
 $string['idnumber'] = 'id 번호';
 $string['idnumbercourse'] = '배움터 식별 번호';
+$string['idnumbertaken'] = '이 ID는 이미 쓰고 있습니다.';
 $string['imagealt'] = '그림 설명';
 $string['import'] = '가져옴';
 $string['importactivities'] = '다른 배움터에서 활동을 가져옴';
@@ -741,6 +746,7 @@ $string['includeuserfiles'] = '사용자 파일 포함';
 $string['info'] = '정보';
 $string['institution'] = '기관';
 $string['instudentview'] = '학생 시점';
+$string['interests'] = '관심분야';
 $string['invalidemail'] = '쓸 수 없는 이메일 주소';
 $string['invalidlogin'] = '다시 로그인해 주세요.';
 $string['ip_address'] = 'ip 주소';
@@ -1116,6 +1122,7 @@ $string['registrationno'] = '아니오, 이메일을 받지 않겠습니다.';
 $string['registrationsend'] = 'moodle.org 에 등록 정보 보내기';
 $string['registrationyes'] = '예, 중요한 사항을 나에게 알려주세요.';
 $string['reject'] = '거절';
+$string['remotemaharauser'] = 'Mahara User 삭제';
 $string['remove'] = '삭제';
 $string['removeadmin'] = '관리자 삭제';
 $string['removecreator'] = '배움터 생성자 삭제';
@@ -1166,6 +1173,7 @@ $string['scalescustom'] = '개인설정 척도';
 $string['scalescustomcreate'] = '새로운 척도 추가';
 $string['scalescustomno'] = '개인설정 척도가 생성되지 않았습니다.';
 $string['scalesstandard'] = '표준 척도';
+$string['scalestandard'] = '표준 척도';
 $string['scalestip'] = '개인설정 척도를 생성하기 위해서는 배움터 관리자 메뉴의 \'척도\'링크를 사용하세요.';
 $string['schedule'] = '일정';
 $string['scheduledbackupstatus'] = '백업 일정 현황';
