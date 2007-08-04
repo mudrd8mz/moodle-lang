@@ -1,0 +1,10 @@
+﻿O OVOM DIREKTORIJUMU
+--------------------
+
+NEMOJTE MENJATI, PREMEŠTATI DATOTEKE IZ OVOG DIREKTORIJUMA, NITI IM MENJATI NAZIVE osim ukoliko STVARNO znate šta radite.
+
+Izmene ovih datoteka mogu dovesti do problema pri korišćenju Vašeg kursa.
+
+Ovaj direktorijum sadrži datoteke dodate u Vaš kurs pri (uglavnom studentskom) korišćenju nekih modula, kao što su predata rešenja zadataka ili recimo prilozi porukama na forumima.
+
+Nazivi poddirektorijuma i datoteka u ovom direktorijumu su vrlo specifični i Moodle ih automatski određuje. Kako je za nesmetan rad kursa i njegovo održavanje neophodno da ostanu takvi kakvi jesu, molimo nemojte ih menjati.

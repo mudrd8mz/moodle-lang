@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.6.2 (2006050520)
+﻿<?PHP // $Id$ 
+      // xmldb.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['aftertable'] = 'Nakon tabele:';
@@ -9,6 +9,12 @@ $string['binaryincorrectlength'] = 'Netačna dužina binarnog polja';
 $string['cannotuseidfield'] = 'Nije moguće umetnuti polje identifikatora. Reč je o automatski numerisanoj koloni.';
 $string['change'] = 'Promeniti';
 $string['charincorrectlength'] = 'Netačna dužina polja karaktera';
+$string['check_indexes'] = 'Traži indekse baze koji nedostaju';
+$string['checkindexes'] = 'Proveri indekse';
+$string['completelogbelow'] = '(pogledaj kompletni zapis pretrage)';
+$string['confirmcheckindexes'] = 'Ova funkcija traži indekse koji nedostaju na Vašem Moodle serveru, automatski generišući (ali ne izvršavajući!) potrebne SQL naredbe da bi sve ostalo ažurno. Jednom generisane, te naredbe se mogu kopirati i izvršiti bezbedno u okviru Vašeg omiljenog SQL interfejsa.<br /><br />
+Veoma je preporučljivo da instalirate najnoviju (+) verziju Moodle izdanja koje trenutno koristite (1.8, 1.9, 2.x ...) pre   započinjanja potrage za indeksima koji nedostaju.<br /><br />
+Ova funkcija ne radi nikakve izmene baze (samo iščitava podatke iz nje), pa se može bezbedno izvršiti u svako doba.';
 $string['confirmdeletefield'] = 'Da li ste potpuno sigurni da želite da obrišete polje:';
 $string['confirmdeleteindex'] = 'Da li ste potpuno sigurni da želite da obrišete indeks:';
 $string['confirmdeletekey'] = 'Da li ste potpuno sigurni da želite da obrišete ključ:';
@@ -19,7 +25,7 @@ $string['confirmdeletexmlfile'] = 'Da li ste potpuno sigurni da želite da obri�
 $string['confirmrevertchanges'] = 'Da li ste potpuno sigurni da želite da poništite promene načinjene tokom:';
 $string['create'] = 'Kreiranje';
 $string['createtable'] = 'Kreiranje tabele';
-$string['defaultincorrect'] = ' ';
+$string['defaultincorrect'] = 'Nekorektna podrazumevana vrednost';
 $string['delete'] = 'Brisanje';
 $string['delete_field'] = 'Brisanje polja';
 $string['delete_index'] = 'Brisanje indeksa';
@@ -48,13 +54,17 @@ $string['floatincorrectdecimals'] = 'Netačan broj decimala u polju za realne vr
 $string['floatincorrectlength'] = 'Netačna dužina polja za realne vrednosti';
 $string['gotolastused'] = 'Idi na poslednje korišćenu datoteku';
 $string['incorrectfieldname'] = 'Netačan naziv';
+$string['index'] = 'Indeks';
 $string['indexes'] = 'Indeksi';
 $string['integerincorrectlength'] = 'Netačna dužina za polje sa celobrojnim vrednostima';
+$string['key'] = 'Ključ';
 $string['keys'] = 'Ključevi';
 $string['listreservedwords'] = 'Spisak rezervisanih reči<br/>(koji se koristi za održavanje <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a>)';
 $string['load'] = 'Učitavanje';
 $string['main_view'] = 'Glavni prikaz';
+$string['missing'] = 'Nedostaje';
 $string['missingfieldsinsentence'] = 'Nedostaju polja u rečenici';
+$string['missingindexes'] = 'Pronađeni su indeksi koji nedostaju';
 $string['missingvaluesinsentence'] = 'Nedostaju vrednosti u rečenici';
 $string['mustselectonefield'] = 'Morate odabrati jedno polje da biste videli akcije koje se odnose na polja!';
 $string['mustselectoneindex'] = 'Morate odabrati jedan indeks da biste videli akcije koje se odnose na indekse!';
@@ -68,6 +78,7 @@ $string['newsentence'] = 'Nova rečenica';
 $string['newstatement'] = 'Nova izjava';
 $string['newtable'] = 'Nova tabela';
 $string['newtablefrommysql'] = 'Nova tabela iz MySQL-a';
+$string['nomissingindexesfound'] = 'Nije pronađen nijedan indeks koji nedostaje - Vaša baza ne zahteva nikakve dodatne intervencije.';
 $string['numberincorrectdecimals'] = 'Netačan broj decimala za numeričko polje';
 $string['numberincorrectlength'] = 'Netačna dužina numeričkog polja';
 $string['reserved'] = 'Rezervisano';
@@ -75,6 +86,7 @@ $string['reservedwords'] = 'Rezervisane reči';
 $string['revert'] = 'Poništiti';
 $string['revert_changes'] = 'Poništiti promene';
 $string['save'] = 'Sačuvati';
+$string['searchresults'] = 'Rezultati pretrage';
 $string['selectaction'] = 'Izaberite akciju:';
 $string['selectdb'] = 'Izaberite bazu podataka:';
 $string['selectfieldkeyindex'] = 'Izaberite polje/ključ/indeks:';
@@ -104,5 +116,6 @@ $string['viewsqlcode'] = 'Pregled SQL koda';
 $string['wronglengthforenum'] = 'Netačna dužina numeričkog polja';
 $string['wrongnumberoffieldsorvalues'] = 'Netačan broj polja ili vrednosti u rečenici';
 $string['wrongreservedwords'] = 'Trenutno korišćene rezervisane reči<br />(primetite da nazivi tabela nizu važni ukoliko koristite $CFG->prefix)';
+$string['yesmissingindexesfound'] = 'Nađeni su neki indeksi koji nedostaju u Vašoj bazi podataka. Evo detalja o njima i SQL naredbi koje treba izvršiti u okviru Vašeg omiljenog SQL interfejsa.<br /><br />Nakon toga, vrlo je preporučljivo da ponovo pokrenete ovu pretragu da biste proverili da li ima još indeksa koji nedostaju.';
 
 ?>

@@ -1,5 +1,5 @@
 ﻿<?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8.1+ (2007021510)
+      // resource.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addresource'] = 'Dodaj resurs';
@@ -10,7 +10,7 @@ $string['choose'] = 'Odaberi';
 $string['chooseafile'] = 'Odaberi ili postavi datoteku';
 $string['chooseparameter'] = 'Odaberi parametar';
 $string['clicktoopen'] = 'Da biste otvorili ovaj dokument, kliknite na sledeći link:';
-$string['configallowlocalfiles'] = 'Kada kreirate novi datotečni resurs, dozvolite umetanje linkova na lokalni datotečni sistem, npr. CD-ROM ili čvrsti disk. Ovo bi moglo biti korisno u učionici gde svi studenti imaju pristup zajedničkom mrežnom disku ili kod potrebe za pristupom većim datotekama koje su na CD mediju. Korišćenje ove opcije može zahtevati promenu sigurnosnih podešavanja Vašeg web čitača.';
+$string['configallowlocalfiles'] = 'Kada kreirate novi datotečni resurs, dozvolite umetanje linkova na lokalni datotečni sistem, npr. CD-ROM ili čvrsti disk. Ovo bi moglo biti korisno u učionici gde svi studenti imaju pristup zajedničkom mrežnom disku ili kod potrebe za pristupom većim datotekama koje su na CD mediju. Korišćenje ove opcije može zahtevati promenu sigurnosnih podešavanja Vašeg Web čitača.';
 $string['configautofilerenamesettings'] = 'Automatski ažurirajti reference na datoteke i direktorijume preimenovane pri upravljanju datotekama.';
 $string['configblockdeletingfilesettings'] = 'Blokirati brisanje datoteka i direktorijuma referenciranih resursima. Molimo primetite da slike i ostale datoteke referencirane iz html-a nisu zaštićene.';
 $string['configdefaulturl'] = 'Ova vrednost se koristi za prethodno popunjavanje URL forme kad se kreira novi resurs baziran na URL adresi.';
@@ -35,7 +35,7 @@ $string['deployall'] = 'Iskoristi sve';
 $string['directlink'] = 'Direktni link ka ovoj datoteci';
 $string['directoryinfo'] = 'Sve datoteke u izabranom direktorijumu će biti prikazane na ekranu.';
 $string['display'] = 'Prozor';
-$string['editingaresource'] = 'Uredi resurs';
+$string['editingaresource'] = 'Uređuje se resurs';
 $string['emptyfolder'] = 'Prazan direktorijum';
 $string['encryptedcode'] = 'Šifrirani kod';
 $string['example'] = 'Primer';
@@ -126,4 +126,3 @@ $string['warningblockingdelete'] = 'Upozorenje: Operacija brisanja je blokirana 
 $string['warningdisabledrename'] = 'Upozorenje: Automatsko preimenovanje referenci u resursima je onemogućeno. Molimo ažurirajte pogođene resurse ručno ukoliko je to potrebno. Administrator može i da omogući automatsko preimenovanje u delu za globalnu konfiguraciju resursa.';
 
 ?>
-

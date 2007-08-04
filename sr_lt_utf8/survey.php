@@ -1,5 +1,5 @@
 ﻿<?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8.1+ (2007021510)
+      // survey.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['actual'] = 'Aktuelno';
@@ -7,7 +7,7 @@ $string['actualclass'] = 'Aktuelni čas';
 $string['actualstudent'] = '$a aktuelno';
 $string['allquestions'] = 'Sva pitanja po redu, svi studenti';
 $string['allscales'] = 'Sve skale, svi studenti';
-$string['alreadysubmitted'] = 'Već ste popunili anketu';
+$string['alreadysubmitted'] = 'Već ste popunili upitnik';
 $string['analysisof'] = 'Analiza $a';
 $string['answers'] = 'Odgovori';
 $string['attls1'] = 'U procenjivanju tvrdnji drugih više se fokusiram na snagu iznetih argumenata a ne na osobu koja argumente izlaže.';
@@ -120,9 +120,9 @@ $string['colles8'] = 'razmišljam kritički o idejama u pročitanim tekstovima.'
 $string['colles8short'] = 'imam kritički stav o pročitanim tekstovima';
 $string['colles9'] = 'objašnjavam svoja mišljenja drugim studentima.';
 $string['colles9short'] = 'objašnjavam svoja mišljenja';
-$string['collesaintro'] = 'Svrha ove ankete je da nam pomogne da razumemo koliko dobro Vam je ova elektronska verzija jedne celine našeg kursa omogućila da savladate gradivo.
+$string['collesaintro'] = 'Svrha ovog upitnika je da nam pomogne da razumemo koliko dobro Vam je ova elektronska verzija jedne celine našeg kursa omogućila da savladate gradivo.
 
-Svaka od 24 rečenice navedene u nastavku je pitanje za Vas vezano za Vaša iskustva u ovoj celini.
+Svaka od 24 tvrdnji navedenih u nastavku je pitanje za Vas vezano za Vaša iskustva u ovoj celini.
 
 Nema \'pravih\' ili \'pogrešnih\' odgovora; jedino nas zanima Vaše mišljenje. Uveravamo Vas da će Vaši odgovori biti obrađeni sa visokim stepenom poverljivosti, te da neće uticati na Vašu ocenu.
 
@@ -132,7 +132,7 @@ Mnogo Vam hvala.';
 $string['collesaname'] = 'COLLES (Stvarni)';
 $string['collesapintro'] = 'Svrha ove ankete je da nam pomogne da razumemo koliko dobro Vam je ova elektronska verzija jedne celine našeg kursa omogućila da savladate gradivo.
 
-Svaka od 24 rečenice navedene u nastavku traže od Vas da uporedite svoja <b>preferirana</b> (savršena) i <b>stvarna</b> iskustva u ovoj celini.
+Svaka od 24 tvrdnji navedenih u nastavku traži od Vas da uporedite svoja <b>preferirana</b> (savršena) i <b>stvarna</b> iskustva u ovoj celini.
 
 Nema \'pravih\' ili \'pogrešnih\' odgovora; jedino nas zanima Vaše mišljenje. Uveravamo Vas da će Vaši odgovori biti obrađeni sa visokim stepenom poverljivosti, te da neće uticati na Vašu ocenu.
 
@@ -153,9 +153,9 @@ $string['collesm5short'] = 'Podrška kolega studenata';
 $string['collesm6'] = 'Objašnjenje';
 $string['collesm6short'] = 'Objašnjenje';
 $string['collesmintro'] = 'U ovoj celini...';
-$string['collespintro'] = 'Svrha ove ankete je da nam pomogne da razumemo šta Vi najviše cenite u online načinu učenja (na bazi Vaših dosadašnjih iskustava).
+$string['collespintro'] = 'Svrha ovog upitnika je da nam pomogne da razumemo šta Vi najviše cenite kad je u pitanju elektronsko učenje (na bazi Vaših dosadašnjih iskustava).
 
-Svaka od 24 rečenice navedene u nastavku traži od Vas informacije o Vašem <b>preferiranom</b> (savršenom) iskustvu u ovoj celini.
+Svaka od 24 tvrdnji navedenih u nastavku traži od Vas informacije o Vašem <b>preferiranom</b> (savršenom) iskustvu u ovoj celini.
 
 Nema \'pravih\' ili \'pogrešnih\' odgovora; jedino nas zanima Vaše mišljenje. Uveravamo Vas da će Vaši odgovori biti obrađeni sa visokim stepenom poverljivosti, te da neće uticati na Vašu ocenu.
 
@@ -167,32 +167,32 @@ $string['customintro'] = 'Sopstveni uvod';
 $string['done'] = 'Urađeno';
 $string['download'] = 'Preuzimanje';
 $string['downloadexcel'] = 'Preuzimanje podataka u vidu Excel radne tabele';
-$string['downloadinfo'] = 'Možete da preuzmete kompletne neobrađene podatke iz ove ankete u formi prilagođenoj analizi u Excel-u, SPSS-u ili nekom drugom paketu.';
-$string['downloadtext'] = 'Preuzimanje podataka u vidu obične tekstualne datoteke';
-$string['editingasurvey'] = 'Uređivanje ankete';
-$string['guestsnotallowed'] = 'Gostima nije dopušteno da popunjavaju ankete';
-$string['helpsurveys'] = 'Pomoć vezana za različite vrste anketa';
-$string['howlong'] = 'Koliko Vam je trebalo da završite anketu?';
+$string['downloadinfo'] = 'Možete da preuzmete kompletne neobrađene podatke iz ovog upitnika u formi prilagođenoj analizi u paketima kao što su Excel, SPSS i sl.';
+$string['downloadtext'] = 'Preuzmi podatke u vidu obične tekstualne datoteke';
+$string['editingasurvey'] = 'Uređivanje upitnika';
+$string['guestsnotallowed'] = 'Gostima nije dopušteno da ispunjavaju upitnike';
+$string['helpsurveys'] = 'Pomoć vezana za različite vrste upitnika';
+$string['howlong'] = 'Koliko Vam je trebalo da završite upitnik?';
 $string['howlongoptions'] = 'manje od 1 minuta, 1-2 minuta, 2-3 minuta, 3-4 minuta, 4-5-minuta, 5-10 minuta, više od 10 minuta';
 $string['ifoundthat'] = 'Otkrio/la sam da';
 $string['introtext'] = 'Uvodni tekst';
 $string['ipreferthat'] = 'Preferiram';
-$string['modulename'] = 'Anketa';
-$string['modulenameplural'] = 'Ankete';
+$string['modulename'] = 'Upitnik';
+$string['modulenameplural'] = 'Upitnici';
 $string['name'] = 'Ime';
-$string['newsurveyresponses'] = 'Novi odgovori na anketu';
-$string['nobodyyet'] = 'Niko još nije završio ovu anketu';
+$string['newsurveyresponses'] = 'Novi odgovori na upitnik';
+$string['nobodyyet'] = 'Niko još nije završio ovaj upitnik';
 $string['notdone'] = 'Još nije urađeno';
 $string['notes'] = 'Vaše privatne analize i beleške';
 $string['othercomments'] = 'Da li imate još neki komentar?';
-$string['peoplecompleted'] = 'Do sada je $a studenata ispunilo ovu anketu';
+$string['peoplecompleted'] = 'Do sada je $a studenata ispunilo ovaj upitnik';
 $string['preferred'] = 'Preferirano';
 $string['preferredclass'] = 'Preferiran čas';
 $string['preferredstudent'] = '$a preferiran';
 $string['question'] = 'Pitanje';
 $string['questions'] = 'Pitanja';
 $string['questionsnotanswered'] = 'Na neka od pitanja na koja se odgovara višestrukim izborom ponuđenih odgovora nije odgovoreno.';
-$string['report'] = 'Izveštaj o anketi';
+$string['report'] = 'Izveštaj o upitniku';
 $string['savednotes'] = 'Vaše beleške su sačuvane';
 $string['scaleagree5'] = 'U potpunosti se ne slažem, Donekle se ne slažem, Niti se slažem niti se ne slažem, Donekle se slažem, U potpunosti se slažem';
 $string['scales'] = 'Skale';
@@ -200,17 +200,16 @@ $string['scaletimes5'] = 'Skoro nikad, Retko, Ponekad, Često, Skoro uvek';
 $string['seemoredetail'] = 'Kliknite ovde za više detelja';
 $string['selectedquestions'] = 'Odabrana pitanja iz skale, svi studenti';
 $string['summary'] = 'Rezime';
-$string['survey:download'] = 'Preuzimanje odgovora';
-$string['survey:participate'] = 'Odgovoriti na anketu';
+$string['survey:download'] = 'Preuzmi odgovore';
+$string['survey:participate'] = 'Ispuni upitnik';
 $string['survey:readresponses'] = 'Pregled odgovora';
-$string['surveycompleted'] = 'Završili ste popunjavanje ankete. Grafikon ispod prikazuje rezime Vaših rezultata upoređenih sa sa prosečnim odgovorima svih učesnika.';
-$string['surveygraph'] = 'Grafikon ankete';
-$string['surveyname'] = 'Naziv ankete';
-$string['surveysaved'] = 'Anketa je sačuvana';
-$string['surveytype'] = 'Tip ankete';
-$string['thanksforanswers'] = 'Hvala što ste popunili anketu, $a';
+$string['surveycompleted'] = 'Završili ste popunjavanje upitnika. Grafikon ispod prikazuje rezime Vaših rezultata upoređenih sa sa prosečnim odgovorima svih učesnika.';
+$string['surveygraph'] = 'Grafikon upitnika';
+$string['surveyname'] = 'Naziv upitnika';
+$string['surveysaved'] = 'Upitnik je sačuvan';
+$string['surveytype'] = 'Tip upitnika';
+$string['thanksforanswers'] = 'Hvala što ste popunili upitnik, $a';
 $string['time'] = 'Vreme';
-$string['viewsurveyresponses'] = 'Pogledajte $a odgovora na anketu';
+$string['viewsurveyresponses'] = 'Pogledajte $a odgovora na upitnik';
 
 ?>
-

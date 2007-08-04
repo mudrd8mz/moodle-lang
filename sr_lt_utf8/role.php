@@ -1,5 +1,5 @@
 ﻿<?PHP // $Id$ 
-      // role.php - created with Moodle 1.8.1+ (2007021510)
+      // role.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addrole'] = 'Dodavanje nove uloge';
@@ -25,6 +25,7 @@ $string['course:activityvisibility'] = 'Skrivanje/prikazivanje aktivnosti';
 $string['course:bulkmessaging'] = 'Slanje poruke većem broju ljudi';
 $string['course:create'] = 'Kreiranje kurseva';
 $string['course:delete'] = 'Brisanje kurseva';
+$string['course:downloadallgrades'] = 'Preuzmi sve ocene';
 $string['course:manageactivities'] = 'Upravljanje aktivnostima';
 $string['course:managefiles'] = 'Upravljanje datotekama';
 $string['course:managegrades'] = 'Upravljanje ocenama';
@@ -37,11 +38,13 @@ $string['course:setcurrentsection'] = 'Postavljanje trenutnog odeljka';
 $string['course:update'] = 'Ažuriranje podešavanja kursa';
 $string['course:useremail'] = 'Može omogućiti/onemogućiti adresu e-pošte';
 $string['course:view'] = 'Pregled kurseva';
+$string['course:viewallgrades'] = 'Vidi sve ocene';
 $string['course:viewcoursegrades'] = 'Pregled ocena na kursevima';
 $string['course:viewhiddenactivities'] = 'Pregled skrivenih aktivnosti';
 $string['course:viewhiddencourses'] = 'Pregled skrivenih kurseva';
 $string['course:viewhiddensections'] = 'Pregled skrivenih odeljaka';
 $string['course:viewhiddenuserfields'] = 'Pregled skrivenih korisničkih polja';
+$string['course:viewowngrades'] = 'Vidi svoje ocene';
 $string['course:viewparticipants'] = 'Pregled učesnika';
 $string['course:viewscales'] = 'Pregled skala za ocenjivanje';
 $string['course:visibility'] = 'Skrivanje/prikazivanje kurseva';
@@ -59,6 +62,10 @@ $string['errorexistsrolename'] = 'Naziv uloge već postoji';
 $string['errorexistsroleshortname'] = 'Naziv uloge već postoji';
 $string['existingusers'] = '$a postojećih korisnika';
 $string['globalroleswarning'] = 'UPOZORENJE! Svaka uloga koju dodelite na ovoj stranici primenjivaće se na korisnike kojima je dodeljena na čitavom sajtu, uključujući i početnu stranicu i sve kurseve.';
+$string['grade:editlocked'] = 'Izmeni zaključene ocene';
+$string['grade:hide'] = 'Sakrij ocenu';
+$string['grade:lock'] = 'Zaključi ocenu';
+$string['grade:viewhidden'] = 'Vidi skrivenu ocenu';
 $string['inherit'] = 'Nasleđivanje';
 $string['legacy:admin'] = 'NASLEĐENA ULOGA: Administrator';
 $string['legacy:coursecreator'] = 'NASLEĐENA ULOGA: Kreator kursa';
@@ -74,6 +81,8 @@ $string['metaassignerror'] = 'Nije moguće dodeliti ovu ulogu korisniku \"$a\" j
 $string['metaunassignerror'] = 'Uloga korisnika \"$a\" je automatski ponovo dodeljena. Molimo uklonite ulogu u podređenim kursevima umesto toga.';
 $string['my:manageblocks'] = 'Uredi blokove na mojMoodle strani';
 $string['nocapabilitiesincontext'] = 'Nema sposobnosti raspoloživih u ovom kontekstu';
+$string['notes:manage'] = 'Sredi beleške';
+$string['notes:view'] = 'Vidi beleške';
 $string['notset'] = 'Nije postavljeno';
 $string['overrideroles'] = 'Prepisivanje uloga';
 $string['overrides'] = 'Prepisivanja';
@@ -81,6 +90,7 @@ $string['permissions'] = 'Dozvole';
 $string['potentialusers'] = '$a potencijalnih korisnika';
 $string['prevent'] = 'Prevencija';
 $string['prohibit'] = 'Zabrana';
+$string['question:config'] = 'Odaberi tip pitanja';
 $string['question:export'] = 'Izvoz pitanja';
 $string['question:import'] = 'Uvoz pitanja';
 $string['question:manage'] = 'Upravljanje pitanjima';
@@ -119,8 +129,10 @@ $string['site:uploadusers'] = 'Postavljanje novih korisnika iz datoteke';
 $string['site:viewfullnames'] = 'Uvek videti puna imena korisnika';
 $string['site:viewparticipants'] = 'Pregled učesnika';
 $string['site:viewreports'] = 'Pregled izveštaja';
+$string['user:changeownpassword'] = 'Izmeni lozinka';
 $string['user:create'] = 'Kreiranje korisnika';
 $string['user:delete'] = 'Brisanje korisnika';
+$string['user:editownprofile'] = 'Izmeni svoj profil';
 $string['user:editprofile'] = 'Uređivanje korisničkog profila';
 $string['user:loginas'] = 'Prijavite se kao drugi korisnik';
 $string['user:readuserblogs'] = 'Videti sve korisničke blogove';
@@ -134,4 +146,3 @@ $string['viewrole'] = 'Pregled detalja o ulogama';
 $string['xuserswiththerole'] = 'Broj korisnika sa ulogom \"$a->role\" je: $a->number';
 
 ?>
-

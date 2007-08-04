@@ -30,4 +30,3 @@ $string['unittests'] = 'Testovi nastavnih jedinica';
 $string['version'] = 'Koristeći <a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> u verziji $a.';
 
 ?>
-

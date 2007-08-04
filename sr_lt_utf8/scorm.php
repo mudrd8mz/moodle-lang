@@ -1,12 +1,15 @@
 ﻿<?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.8.1+ (2007021510)
+      // scorm.php - created with Moodle 1.8.2+ (2007021520)
 
 
+$string['activation'] = 'Aktivacija';
 $string['advanced'] = 'Parametri';
 $string['asset'] = 'Element';
 $string['assetlaunched'] = 'Element - Pregledano';
 $string['attempt'] = 'pokušaj';
+$string['attempt1'] = '1 pokušaj';
 $string['attempts'] = 'pokušaji';
+$string['attemptsx'] = '$a pokušaj(a)';
 $string['attr_error'] = 'Neadekvatne vrednosti za atribut ($a->attr) u oznaci $a->tag.';
 $string['autocontinue'] = 'Automatski nastavak';
 $string['averageattempt'] = 'Prosečni broj pokušaja';
@@ -28,11 +31,13 @@ $string['directories'] = 'Prikaz linkova direktorijuma';
 $string['display'] = 'Prikaži paket';
 $string['domxml'] = 'DOMXML eksterna biblioteka';
 $string['element'] = 'Element';
+$string['enter'] = 'Uđi';
 $string['entercourse'] = 'Uđi u SCORM kurs';
 $string['errorlogs'] = 'Izveštaj o greškama';
 $string['everyday'] = 'Svakodnevno';
 $string['everytime'] = 'Pri svakom korišćenju';
 $string['exit'] = 'Izađi iz SCORM kursa';
+$string['exitactivity'] = 'Izađi iz aktivnosti';
 $string['expcoll'] = 'Proširi/Skupi';
 $string['external'] = 'Ažuriraj vremensko usklađivanje eksternih paketa';
 $string['failed'] = 'Nije uspelo';
@@ -71,6 +76,7 @@ $string['menubar'] = 'Prikaži liniju menija';
 $string['min'] = 'Najgori rezultat';
 $string['missing_attribute'] = 'Nedostaje atribut $a->attr u oznaci $a->tag';
 $string['missing_tag'] = 'Nedostaje oznaka $a->tag';
+$string['missingparam'] = 'Obavezna informacija nedostaje ili je nekorektna';
 $string['mode'] = 'Način rada';
 $string['modulename'] = 'SCORM/AICC';
 $string['modulenameplural'] = 'SCORM/AICC paketi';
@@ -89,9 +95,12 @@ $string['not_corr_type'] = 'Neslaganje tipova za oznaku $a->tag';
 $string['notattempted'] = 'Nije pokušavano';
 $string['objectives'] = 'Ciljevi';
 $string['onchanges'] = 'Kad god se promeni';
+$string['options'] = 'Opcije';
 $string['organization'] = 'Organizacija';
 $string['organizations'] = 'Organizacije';
+$string['othersettings'] = 'Dodatna podešavanja';
 $string['othertracks'] = 'Drugi zapisi';
+$string['package'] = 'Paket';
 $string['packagedir'] = 'Greška datotečnog sistema: Nije moguće kreirati direktorijum paketa';
 $string['packagefile'] = 'Nije navedena datoteka s paketom';
 $string['passed'] = 'Položeno';
@@ -134,6 +143,8 @@ $string['toolbar'] = 'Prikaži liniju sa alatkama';
 $string['totaltime'] = 'Vreme';
 $string['trackingloose'] = 'UPOZORENJE: Podaci o praćenju ovog SCORM paketa biće izgubljeni!';
 $string['type'] = 'Tip';
+$string['unziperror'] = 'Došlo je do greške prilikom raspakivanja paketa';
+$string['updatefreq'] = 'Učestalost automatskog ažuriranja';
 $string['validateascorm'] = 'Proveri ispravnost SCORM paketa';
 $string['validation'] = 'Rezultat provere ispravnosti';
 $string['validationtype'] = 'Ovo svojstvo određuje DOMXML biblioteku koja se koristi za validaciju SCORM manifesta. Ako niste sigurni koju vrednost treba da postavite, ostavite trenutno aktivni izbor.';
@@ -145,4 +156,3 @@ $string['width'] = 'Širina';
 $string['window'] = 'Prozor';
 
 ?>
-
