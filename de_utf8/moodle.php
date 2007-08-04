@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007072100)
+      // moodle.php - created with Moodle 1.9 dev (2007080103)
 
 
 $string['action'] = 'Aktion';
@@ -243,8 +243,8 @@ $string['copyinguserfiles'] = 'Nutzerdateien kopieren';
 $string['copyingzipfile'] = 'ZIP-Datei kopieren';
 $string['copyrightnotice'] = 'Urheberrechtshinweis';
 $string['coresystem'] = 'Kernsystem';
-$string['cost'] = 'Gebühren';
-$string['costdefault'] = 'Gebührenvoreinstellung';
+$string['cost'] = 'Entgelt';
+$string['costdefault'] = 'Entgeltvoreinstellung';
 $string['counteditems'] = '$a->count $a->items';
 $string['country'] = 'Land';
 $string['course'] = 'Kurs';
@@ -533,6 +533,7 @@ $string['enrolmentconfirmation'] = 'Sie sind dabei, sich in diesen Kurs einzusch
 $string['enrolmentend'] = 'Ende des Einschreibezeitraums';
 $string['enrolmentkey'] = 'Zugangsschlüssel';
 $string['enrolmentkeyfrom'] = 'Für diesen Kurs benötigen Sie einmalig einen \'Zugangsschlüssel\' - ein Kennwort,<br />das Sie von $a bekommen haben sollten.<br />';
+$string['enrolmentkeyfromguest'] = 'Für diesen Kurs benötigen Sie einen \'Zugangsschlüssel\', den Sie von $a bekommen haben sollten. Als Gast müssen Sie diesen Schlüssel jedes Mal neu eingeben, wenn sie den Kurs betreten.';
 $string['enrolmentkeyhint'] = 'Der Zugangsschlüssel war falsch, bitte versuchen Sie es erneut.<br /> (Hinweis: Der Schlüssel beginnt mit \'$a\')';
 $string['enrolmentnew'] = 'Neue Anmeldung in $a';
 $string['enrolmentnewuser'] = '$a->user hat sich im Kurs \"$a->course\" eingeschrieben';
@@ -545,6 +546,7 @@ $string['enrolperiod'] = 'Teilnahmedauer';
 $string['enrolstartdate'] = 'Beginn';
 $string['entercourse'] = 'Hier klicken, um den Kurs zu betreten';
 $string['enteremailaddress'] = 'Geben Sie hier Ihre E-Mail-Adresse ein, um Ihr Kennwort zurückzusetzen. Sie erhalten ein Zufallskennwort per E-Mail zugesendet und können dieses dann selber ändern.';
+$string['enteryourinterests'] = 'Geben Sie hier Ihre Interessen ein, und zwar jeweils getrennt durch ein Komma';
 $string['entries'] = 'Eintragungen';
 $string['error'] = 'Fehler';
 $string['errortoomanylogins'] = 'Entschuldigung, aber Sie haben die zulässige Anzahl erfolgloser Zugangsversuche überschritten. Für weitere Versuche starten Sie Ihren Browser neu.';
@@ -759,6 +761,7 @@ $string['includeuserfiles'] = 'Nutzerdateien einbeziehen';
 $string['info'] = 'Informationen';
 $string['institution'] = 'Institution';
 $string['instudentview'] = 'Teilnehmeransicht';
+$string['interests'] = 'Interessen';
 $string['invalidemail'] = 'Ungültige E-Mail-Adresse';
 $string['invalidlogin'] = 'Ungültige Anmeldedaten, bitte versuchen Sie es erneut!';
 $string['ip_address'] = 'IP-Adresse';
@@ -1086,9 +1089,9 @@ $string['passwordsenttext'] = 'Eine E-Mail mit Ihrem neuen Kennwort wurde an Ihr
 Das Kennwort wurde automatisch generiert - Sie können dieses <a href=\"$a->link\">Kennwort ändern</a>, um es sich besser merken zu können.';
 $string['pathnotexists'] = 'Dieser Pfad existiert nicht auf dem Server!';
 $string['pathslasherror'] = 'Die Pfadangabe darf nicht mit einem Schrägstrich enden!';
-$string['paymentinstant'] = 'Klicken Sie auf den Button, um die Teilnahmegebühr zu bezahlen. Sobald dieser Zahlvorgang abgeschlossen ist, werden Sie automatisch in den Kurs eingeschrieben.';
+$string['paymentinstant'] = 'Klicken Sie auf den Button, um das Teilnahmeentgelt zu bezahlen. Sobald dieser Zahlvorgang abgeschlossen ist, werden Sie automatisch in den Kurs eingeschrieben.';
 $string['paymentpending'] = '(<small><b><u>$a</u></b>in Bearbeitung</small>)';
-$string['paymentrequired'] = 'Dieser Kurs ist gebührenpflichtig. Bitte bezahlen Sie die Teilnahmegebühr, um im Kurs eingeschrieben zu werden.';
+$string['paymentrequired'] = 'Dieser Kurs ist entgeltpflichtig. Bitte bezahlen Sie das Teilnahmeentgelt, um in den Kurs eingeschrieben zu werden.';
 $string['payments'] = 'Zahlungen';
 $string['paymentsorry'] = 'Vielen Dank für Ihre Zahlung. Der Zahlvorgang wurde jedoch noch nicht vollständig abgeschlossen. Sie sind noch nicht als Teilnehmer/in im Kurs \"$a->fullname\" eingeschrieben. Bitte versuchen Sie es in einigen Minuten noch einmal. Wenn weiterhin Probleme auftauchen, wenden Sie sich bitte an die Trainer/innen ($a->teacher) oder die Administrator/innen der Website.';
 $string['paymentthanks'] = 'Vielen Dank für Ihre Zahlung. Sie sind nun im Kurs \"$a\" eingeschrieben.';
@@ -1204,6 +1207,7 @@ $string['scalescustom'] = 'Nutzerdefinierte Bewertungsskalen';
 $string['scalescustomcreate'] = 'Neue Bewertungsskala anlegen';
 $string['scalescustomno'] = 'Es wurden noch keine nutzerdefinierten Bewertungsskalen angelegt.';
 $string['scalesstandard'] = 'Standard-Bewertungsskalen';
+$string['scalestandard'] = 'Standard-Bewertungsskala';
 $string['scalestip'] = 'Um nutzerdefinierte Bewertungsskalen anzulegen, benutzen Sie bitte den Link \'Bewertungsskalen\' im Administrationsblock des Kurses.';
 $string['schedule'] = 'Planung';
 $string['scheduledbackupstatus'] = 'Geplanter Sicherungsstatus';

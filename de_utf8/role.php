@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007070501)
+      // role.php - created with Moodle 1.9 dev (2007080103)
 
 
 $string['addrole'] = 'Neue Rolle hinzufügen';
@@ -25,7 +25,6 @@ $string['course:activityvisibility'] = 'Aktivitäten verbergen/anzeigen';
 $string['course:bulkmessaging'] = 'Nachrichten an viele Empfänger senden';
 $string['course:create'] = 'Kurse erstellen';
 $string['course:delete'] = 'Kurse löschen';
-$string['course:downloadallgrades'] = 'Alle Bewertungen herunterladen';
 $string['course:manageactivities'] = 'Aktivitäten verwalten';
 $string['course:managefiles'] = 'Dateien verwalten';
 $string['course:managegrades'] = 'Bewertungen verwalten';
@@ -38,13 +37,11 @@ $string['course:setcurrentsection'] = 'Aktuellen Bereich setzen';
 $string['course:update'] = 'Kurseinstellungen aktualisieren';
 $string['course:useremail'] = 'Darf E-Mail-Adresse ein/ausschalten';
 $string['course:view'] = 'Kurse sehen';
-$string['course:viewallgrades'] = 'Alle Bewertungen sehen';
 $string['course:viewcoursegrades'] = 'Bewertungen sehen';
 $string['course:viewhiddenactivities'] = 'Verborgene Aktivitäten sehen';
 $string['course:viewhiddencourses'] = 'Verborgene Kurse sehen';
 $string['course:viewhiddensections'] = 'Verborgene Abschnitte sehen';
 $string['course:viewhiddenuserfields'] = 'Verborgene Nutzerfelder sehen';
-$string['course:viewowngrades'] = 'Eigene Bewertungen sehen';
 $string['course:viewparticipants'] = 'Teilnehmer/innen  sehen';
 $string['course:viewscales'] = 'Bewertungskalen sehen';
 $string['course:visibility'] = 'Kurse verbergen/zeigen';
@@ -63,9 +60,15 @@ $string['errorexistsrolename'] = 'Rollenname existiert bereits';
 $string['errorexistsroleshortname'] = 'Rollenname existiert bereits';
 $string['existingusers'] = '$a bestehende Nutzer/innen';
 $string['globalroleswarning'] = 'WARNUNG! Jede Rolle, die Sie von dieser Seite aus zuweisen, wird für die zugewiesenen Nutzer/innen und die gesamte Website angelegt, also für wirklich alle Kurse und die Startseite.';
-$string['grade:editlocked'] = 'Gesperrte Bewertungen bearbeiten';
+$string['grade:export'] = 'Bewertungen exportieren';
 $string['grade:hide'] = 'Bewertung verbergen';
+$string['grade:import'] = 'Bewertungen importieren';
 $string['grade:lock'] = 'Bewertung sperren';
+$string['grade:manage'] = 'Bewertungsaspekte verwalten';
+$string['grade:override'] = 'Bewertungen ändern';
+$string['grade:unlock'] = 'Bewertungen oder Aspekte freigeben';
+$string['grade:view'] = 'Eigene Bewertungen ansehen';
+$string['grade:viewall'] = 'Fremde Bewertungen ansehen';
 $string['grade:viewhidden'] = 'Verborgene Bewertung sehen';
 $string['inherit'] = 'Vererben';
 $string['legacy:admin'] = 'Basisrolle: Administration';
@@ -120,6 +123,8 @@ $string['site:config'] = 'Moodle-Konfiguration anpassen';
 $string['site:doanything'] = 'Erlaubt alles auszuführen';
 $string['site:doclinks'] = 'Links zu systemfremden Dokumenten anzeigen';
 $string['site:import'] = 'Import anderer Kurse in den eigenen Kurs';
+$string['site:langeditlocal'] = 'Lokale Übersetzung anpassen';
+$string['site:langeditmaster'] = 'Offizielles Sprachpaket bearbeiten';
 $string['site:manageblocks'] = 'Systemweite Blöcke verwalten';
 $string['site:mnetloginfromremote'] = 'Von einem anderen Moodle einloggen';
 $string['site:mnetlogintoremote'] = 'Zu einem anderen Moodle verbinden';
@@ -130,6 +135,9 @@ $string['site:uploadusers'] = 'Neue Nutzer/innen mittels Datei importieren';
 $string['site:viewfullnames'] = 'Immer vollständige Nutzernamen sehen';
 $string['site:viewparticipants'] = 'Teilnehmer/innen sehen';
 $string['site:viewreports'] = 'Berichte sehen';
+$string['tag:create'] = 'Neue Tags erstellen';
+$string['tag:edit'] = 'Vorhandene Tags bearbeiten';
+$string['tag:manage'] = 'Alle Tags verwalten';
 $string['user:changeownpassword'] = 'Eigenes Passwort ändern';
 $string['user:create'] = 'Nutzer/innen anlegen';
 $string['user:delete'] = 'Nutzer/innen löschen';
@@ -145,5 +153,9 @@ $string['user:viewuseractivitiesreport'] = 'Nutzerberichte sehen';
 $string['user:viewusergrades'] = 'Nutzerbewertungen sehen';
 $string['viewrole'] = 'Rollendetails sehen';
 $string['xuserswiththerole'] = 'Nutzer/innen mit der Rolle \"$a->role\": $a->number';
+$string['course:downloadallgrades'] = 'Alle Bewertungen herunterladen'; // ORPHANED
+$string['course:viewallgrades'] = 'Alle Bewertungen sehen'; // ORPHANED
+$string['course:viewowngrades'] = 'Eigene Bewertungen sehen'; // ORPHANED
+$string['grade:editlocked'] = 'Gesperrte Bewertungen bearbeiten'; // ORPHANED
 
 ?>

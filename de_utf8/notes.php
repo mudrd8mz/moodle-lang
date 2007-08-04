@@ -1,31 +1,33 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9 dev (2007070501)
+      // notes.php - created with Moodle 1.9 dev (2007080103)
 
 
-$string['abovenormal'] = 'über normal';
-$string['addnewnote'] = 'Neuen Hinweis hinzufügen';
-$string['belownormal'] = 'unter normal';
+$string['addnewnote'] = 'Neue Anmerkung hinzufügen';
 $string['bynameondate'] = 'von $a->name - $a->date';
-$string['content'] = 'Hinweistext';
+$string['content'] = 'Inhalt';
 $string['course'] = 'Kurs';
-$string['coursenotes'] = 'Kurshinweise';
+$string['coursenotes'] = 'Kursanmerkungen';
 $string['created'] = 'erzeugt';
-$string['deleteconfirm'] = 'Diesen Hinweis löschen?';
-$string['groupaddnewnote'] = 'Neuen Hinweis für alle hinzufügen';
-$string['high'] = 'hoch';
-$string['low'] = 'niedrig';
-$string['nocontent'] = 'Der Hinweistext kann nicht leer sein';
-$string['nonotes'] = 'Es gibt keine Hinweise.';
-$string['normal'] = 'normal';
-$string['notes'] = 'Hinweise';
-$string['notesnotvisible'] = 'Sie sind nicht berechtigt, die Hinweise zu sehen.';
+$string['deleteconfirm'] = 'Diese Anmerkung löschen?';
+$string['editnote'] = 'Anmerkung bearbeiten';
+$string['groupaddnewnote'] = 'Neue Anmerkung für alle hinzufügen';
+$string['nocontent'] = 'Der Inhalt kann nicht leer sein';
+$string['nonotes'] = 'Es gibt keine Anmerkungen.';
+$string['note'] = 'Anmerkung';
+$string['notes'] = 'Anmerkungen';
+$string['notesnotvisible'] = 'Sie sind nicht berechtigt, die Anmerkungen zu sehen.';
 $string['nouser'] = 'Sie müssen eine/n Teilnehmer/in auswählen';
 $string['personal'] = 'Persönlich';
-$string['personalnotes'] = 'Persönlicher Hinweis';
+$string['personalnotes'] = 'Persönliche Anmerkung';
 $string['publishstate'] = 'Status';
-$string['rating'] = 'Einstufung';
 $string['site'] = 'Website';
-$string['sitenotes'] = 'Website-Hinweise';
+$string['sitenotes'] = 'Anmerkungen für die Website';
 $string['unknown'] = 'unbekannt';
+$string['abovenormal'] = 'über normal'; // ORPHANED
+$string['belownormal'] = 'unter normal'; // ORPHANED
+$string['high'] = 'hoch'; // ORPHANED
+$string['low'] = 'niedrig'; // ORPHANED
+$string['normal'] = 'normal'; // ORPHANED
+$string['rating'] = 'Einstufung'; // ORPHANED
 
 ?>

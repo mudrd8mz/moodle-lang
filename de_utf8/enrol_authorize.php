@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 Beta (2007020200)
+      // enrol_authorize.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['adminacceptccs'] = 'Welche Kreditkartentypen sollen akzeptiert werden?';
@@ -81,12 +81,12 @@ $string['ccno'] = 'Kreditkartennummer';
 $string['cctype'] = 'Kreditkartentyp';
 $string['ccvv'] = 'Kreditkartenprüfung';
 $string['ccvvhelp'] = 'Schauen Sie auf der Kartenrückseite nach (letzte drei Zeichen).';
-$string['choosemethod'] = 'Wenn Sie den Zugangsschlüssel des Kurses kennen, tragen Sie ihn hier ein. Andernfalls müssen Sie erst die Kursgebühr bezahlen.';
+$string['choosemethod'] = 'Wenn Sie den Zugangsschlüssel des Kurses kennen, tragen Sie ihn hier ein. Andernfalls müssen Sie erst die Kursentgelt bezahlen.';
 $string['chooseone'] = 'Füllen Sie eines oder beide Felder aus. Das Kennwort wird nicht angezeigt.';
-$string['costdefaultdesc'] = 'Geben Sie bei den Kurseinstellungen den <strong>Wert -1 </strong> ein, um die Standardgebühr zu verwenden.';
+$string['costdefaultdesc'] = 'Geben Sie bei den Kurseinstellungen den <strong>Wert -1 </strong> ein, um die Standardentgelt zu verwenden.';
 $string['cutofftime'] = 'Transaktionsende: Wann soll die letze Zahlung zur Abwicklung aufgenommen werden?';
 $string['delete'] = 'Löschen';
-$string['description'] = 'Das Authorize.net-Anmeldeverfahren ermöglicht es Ihnen, gebührenpflichtige Kurse anzulegen und die Kursgebühren über Kreditkarten abzurechnen. Wenn die Kursgebühren eines Kurses auf \'0\' gesetzt werden, dann erhalten die Teilnehmer/innen keine Zahlungsaufforderung bei der Einschreibung in den Kurs.<br />Sie können eine Gebührenvoreinstellung vornehmen, die für alle Kurse als Standardgebühr übernommen wird. Diese Standardgebühr kann in den Kurseinstellungen für jeden Kurs individuell überschrieben werden.';
+$string['description'] = 'Das Authorize.net-Anmeldeverfahren ermöglicht es Ihnen, entgeltpflichtige Kurse anzulegen und die Kursentgelte über Kreditkarten abzurechnen. Wenn die Kursentgelte eines Kurses auf \'0\' gesetzt werden, dann erhalten die Teilnehmer/innen keine Zahlungsaufforderung bei der Einschreibung in den Kurs.<br />Sie können eine Entgeltvoreinstellung vornehmen, die für alle Kurse als Standardentgelt übernommen wird. Dieses Standardentgelt kann in den Kurseinstellungen für jeden Kurs individuell überschrieben werden.';
 $string['echeckabacode'] = 'Bank ABA Nummer';
 $string['echeckaccnum'] = 'Kontonummer';
 $string['echeckacctype'] = 'Bankkontentyp';
@@ -193,7 +193,7 @@ $string['void'] = 'Gültig';
 $string['voidyes'] = 'Ihre Transaktion wird abgebrochen. Sind Sie sicher?';
 $string['welcometocoursesemail'] = 'Liebe Teilnehmerin, lieber Teilnehmer,
 
-vielen Dank für Ihre Zahlung. Sie sind nun als Teilnehmer/in im Kurs 
+vielen Dank für Ihre Zahlung. Sie sind nun als Teilnehmer/in im Kurs
 
 $a->courses
 
@@ -202,7 +202,7 @@ Bearbeiten Sie bitte zunächst Ihr persönliches Profil:
 
 $a->profileurl.
 
-Die Details Ihrer Gebührenzahlung finden Sie unter: 
+Die Details Ihrer Entgeltzahlung finden Sie unter:
 $a->paymenturl.
 
 Viel Erfolg!';
