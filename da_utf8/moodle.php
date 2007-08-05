@@ -112,7 +112,6 @@ $string['answer'] = 'Svar';
 $string['approve'] = 'Godkend';
 $string['areyousuretorestorethis'] = 'Ønsker du at fortsætte ?';
 $string['areyousuretorestorethisinfo'] = 'Senere i denne proces vil du have mulighed for at tilføje denne backup til et eksisterende kursus, eller oprette et helt nyt kursus.';
-$string['asc'] = 'Stigende';
 $string['assessment'] = 'Opgave';
 $string['assignadmins'] = 'Tilføj administratorer';
 $string['assigncreators'] = 'Tilføj holdadministratorer';
@@ -406,7 +405,7 @@ $string['editsummary'] = 'Rediger tekst';
 $string['editthisactivity'] = 'Rediger denne aktivitet';
 $string['editthiscategory'] = 'Ret denne kategori';
 $string['edituser'] = 'Rediger bruger konti';
-$string['email'] = 'E-mail adresse';
+$string['email'] = 'E-mail-adresse';
 $string['emailactive'] = 'E-mail aktiveret';
 $string['emailagain'] = 'E-mail (igen)';
 $string['emailcharset'] = 'Karaktersæt i e-mail';
@@ -414,7 +413,7 @@ $string['emailconfirm'] = 'Bekræft din konto';
 $string['emailconfirmation'] = 'Hej $a->firstname,
 
 En ny konto er oprettet på \'$a->sitename\'
-med din e-mail addresse.
+med din e-mail-addresse.
 
 For at bekræfte din oprettelse gå til følgende web adresse:
 
@@ -880,7 +879,7 @@ $string['new'] = 'Ny';
 $string['newaccount'] = 'Ny konto';
 $string['newcourse'] = 'Nyt kursus';
 $string['newpassword'] = 'Ny adgangskode';
-$string['newpasswordfromlost'] = '<strong>NOTE:</strong> Dit <strong>Nuværende kodeord</strong> vil blive sendt til dig i den  <strong>anden</strong> af de to e-mail der er en del af reauthorisationsproceduren for at generere et nyt password. Vær sikker på at du har fået begge e-mail før du fortsætter fra denne side.';
+$string['newpasswordfromlost'] = '<strong>NOTE:</strong> Dit <strong>nuværende kodeord</strong> vil blive sendt til dig i den  <strong>anden</strong> af de to e-mail der er en del af reautorisationsproceduren for at generere et nyt password. Vær sikker på at du har fået begge e-mail før du fortsætter fra denne side.';
 $string['newpasswordtext'] = 'Hej $a->firstname,
 
 Din adgangskode til \'$a->sitename\' er ændret og du har fået et nyt midlertidigt kodeord.
