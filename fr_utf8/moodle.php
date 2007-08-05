@@ -624,6 +624,7 @@ $string['gdneed'] = 'GD doit être installé pour visualiser ce graphique';
 $string['gdnot'] = 'GD n\'est pas installé';
 $string['gettheselogs'] = 'Télécharger ces historiques';
 $string['go'] = 'Valider';
+$string['gotoyourserver'] = '(Retour à votre serveur)';
 $string['gpl'] = 'Copyright (C) 1999 et années ultérieures, Martin Dougiamas (http://moodle.com/)
 
 Ce programme est libre, vous pouvez le redistribuer et/ou le modifier
@@ -1116,6 +1117,7 @@ $string['registrationno'] = 'Non, je ne désire pas recevoir de courriel';
 $string['registrationsend'] = 'Envoyer les informations d\'enregistrement à moodle.org';
 $string['registrationyes'] = 'Oui, envoyez-moi les informations importantes';
 $string['reject'] = 'Rejeter';
+$string['remotemaharauser'] = 'Utilisateur Mahara distant';
 $string['remove'] = 'Supprimer';
 $string['removeadmin'] = 'Supprimer cet administrateur';
 $string['removecreator'] = 'Supprimer ce responsable de cours';
