@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // currencies.php - created with Moodle 1.7 dev (2006100401)
+      // currencies.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['AED'] = 'Verenigde Arabische Emiraten dirham';
@@ -89,7 +89,7 @@ $string['MTL'] = 'Maltese lire';
 $string['MUR'] = 'Mauritiaanse rupee';
 $string['MVR'] = 'rufiyaa';
 $string['MWK'] = 'Malawische kwacha';
-$string['MXN'] = 'Mexicaanse nieuwe Peso';
+$string['MXN'] = 'Mexicaanse Peso';
 $string['MYR'] = 'ringgit';
 $string['MZM'] = 'metical';
 $string['NGN'] = 'naira';
