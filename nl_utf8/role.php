@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007070603)
+      // role.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
@@ -25,7 +25,6 @@ $string['course:activityvisibility'] = 'Tonen/verbergen van activiteiten';
 $string['course:bulkmessaging'] = 'Stuur een boodschap naar meerdere gebruikers';
 $string['course:create'] = 'Cursussen aanmaken';
 $string['course:delete'] = 'Cursussen verwijderen';
-$string['course:downloadallgrades'] = 'Alle cijfers downloaden';
 $string['course:manageactivities'] = 'Activiteiten beheren';
 $string['course:managefiles'] = 'Bestanden beheren';
 $string['course:managegrades'] = 'Cijfers beheren';
@@ -38,13 +37,11 @@ $string['course:setcurrentsection'] = 'Huidige sectie instellen';
 $string['course:update'] = 'Cursusinstellingen wijzigen';
 $string['course:useremail'] = 'Inschakelen/uitschakelen e-mailadressen';
 $string['course:view'] = 'Cursussen zien';
-$string['course:viewallgrades'] = 'Alle cijfers zien';
 $string['course:viewcoursegrades'] = 'Cijfers van de cursus zien';
 $string['course:viewhiddenactivities'] = 'Verborgen activiteiten zien';
 $string['course:viewhiddencourses'] = 'Verborgen cursussen zien';
 $string['course:viewhiddensections'] = 'Verborgen secties zien';
 $string['course:viewhiddenuserfields'] = 'Verborgen gebruikersvelden zien';
-$string['course:viewowngrades'] = 'Eigen cijfers zien';
 $string['course:viewparticipants'] = 'Deelnemers bekijken';
 $string['course:viewscales'] = 'Schalen bekijken';
 $string['course:visibility'] = 'Cursussen verbergen/tonen';
@@ -62,7 +59,6 @@ $string['errorexistsrolename'] = 'Rolnaam bestaat al';
 $string['errorexistsroleshortname'] = 'Rolnaam bestaat al';
 $string['existingusers'] = '$a bestaande gebruikers';
 $string['globalroleswarning'] = 'WAARSCHUWING: Alle rollen die je vanaf deze pagina aan gebruikers toewijst, zullen voor de hele site gelden, de startpagina en alle cursussen inbegrepen.';
-$string['grade:editlocked'] = 'Geblokkeerde cijfers bewerken';
 $string['grade:hide'] = 'Cijfer verbergen';
 $string['grade:lock'] = 'Cijfer blokkeren';
 $string['grade:viewhidden'] = 'Verborgen cijfer zien';
@@ -88,7 +84,7 @@ $string['overrideroles'] = 'Rollen overschrijven';
 $string['overrides'] = 'Overschrijven';
 $string['permissions'] = 'Rechten';
 $string['potentialusers'] = '$a mogelijke gebruikers';
-$string['prevent'] = 'Verwijder';
+$string['prevent'] = 'Verbied';
 $string['prohibit'] = 'Blokkeer';
 $string['question:config'] = 'Vraagtypes configureren';
 $string['question:export'] = 'Vragen exporteren';
@@ -144,5 +140,9 @@ $string['user:viewuseractivitiesreport'] = 'Activiteitenrapporten van gebruikers
 $string['user:viewusergrades'] = 'Cijfers van gebruikers bekijken';
 $string['viewrole'] = 'Roldetails bekijken';
 $string['xuserswiththerole'] = 'Gebruikers met de rol \"$a->role\" $a->number';
+$string['course:downloadallgrades'] = 'Alle cijfers downloaden'; // ORPHANED
+$string['course:viewallgrades'] = 'Alle cijfers zien'; // ORPHANED
+$string['course:viewowngrades'] = 'Eigen cijfers zien'; // ORPHANED
+$string['grade:editlocked'] = 'Geblokkeerde cijfers bewerken'; // ORPHANED
 
 ?>
