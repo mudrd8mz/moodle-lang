@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // currencies.php - created with Moodle 1.9 dev (2007021400)
+      // currencies.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['AED'] = 'アラブ首長国連邦・ディルハム';
@@ -89,7 +89,7 @@ $string['MTL'] = 'マルタ・リラ';
 $string['MUR'] = 'モーリシャス・ルピー';
 $string['MVR'] = 'モルディブ・ルフィア';
 $string['MWK'] = 'マラウイ・クワチャ';
-$string['MXN'] = 'メキシコ・新ペソ';
+$string['MXN'] = 'メキシコ・ペソ';
 $string['MYR'] = 'マレーシア・リンギット';
 $string['MZM'] = 'モザンビーク・メティカル';
 $string['NGN'] = 'ナイジェリア・ナイラ';
