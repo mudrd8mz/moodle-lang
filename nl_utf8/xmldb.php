@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9 dev (2007021400)
+      // xmldb.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['aftertable'] = 'Tabel resultaat:';
@@ -9,6 +9,12 @@ $string['binaryincorrectlength'] = 'Foute lengte voor binair veld';
 $string['cannotuseidfield'] = 'Kan het \"id\"-veld niet invullen: dit is een autonummeringskolom';
 $string['change'] = 'Wijzig';
 $string['charincorrectlength'] = 'Foute lengte voor char veld';
+$string['check_indexes'] = 'Zoek ontbrekende DB indexen';
+$string['checkindexes'] = 'Controleer indexen';
+$string['completelogbelow'] = '(complete log van zoeken onderaan)';
+$string['confirmcheckindexes'] = 'Deze functie zal zoeken naar mogelijk ontbrekende indexen op je Moodle server, en hierbij automatisch de nodige SQL-statements genereren (maar niet uitvoeren!) om alles up to date te houden. Eens gegenereerd kun je die statements kopiëren en veilig uitvoeren in je favoriete SQL-interface<br /><br />
+Het is ten zeerste aangeraden de laatst beschikbare (+ versie) Moodleversie te gebruiken voor je zoekt naar ontbrekende indexen.<br /><br />
+Deze functie schrijft niets weg in de databank (enkel lezen), en kan dus veilig uitgevoerd worden op elk moment.';
 $string['confirmdeletefield'] = 'Ben je zeker dat je dit veld wil verwijderen:';
 $string['confirmdeleteindex'] = 'Ben je zeker dat je deze index wil verwijderen:';
 $string['confirmdeletekey'] = 'Ben je zeker dat je deze sleutel wil verwijderen:';
@@ -48,13 +54,17 @@ $string['floatincorrectdecimals'] = 'Fout aantal decimalen voor float veld';
 $string['floatincorrectlength'] = 'Foute lengte voor float veld';
 $string['gotolastused'] = 'Laatst gebruikte bestand';
 $string['incorrectfieldname'] = 'Foute naam';
+$string['index'] = 'Index';
 $string['indexes'] = 'Indexen';
 $string['integerincorrectlength'] = 'Foute lengte voor integer veld';
+$string['key'] = 'Sleutel';
 $string['keys'] = 'Sleutels';
 $string['listreservedwords'] = 'Lijst van gereserveerde woorden<br /> (gebruikt om <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> up to date te houden)';
 $string['load'] = 'Laden';
 $string['main_view'] = 'Hoofdscherm';
+$string['missing'] = 'Ontbrekend';
 $string['missingfieldsinsentence'] = 'Ontbrekende bestanden in zin';
+$string['missingindexes'] = 'Ontbrekende indexen gevonden';
 $string['missingvaluesinsentence'] = 'Ontbrekende waarden in zin';
 $string['mustselectonefield'] = 'Je moet één veld selecteren om de gerelateerde acties te kunnen zien!';
 $string['mustselectoneindex'] = 'Je moet één index selecteren om de gerelateerde acties te kunnen zien!';
@@ -68,6 +78,7 @@ $string['newsentence'] = 'Nieuwe zin';
 $string['newstatement'] = 'Nieuwe stelling';
 $string['newtable'] = 'Nieuwe tabel';
 $string['newtablefrommysql'] = 'Nieuwe tabel van MySQL';
+$string['nomissingindexesfound'] = 'Er zijn geen ontbrekende indexen gevonden, er moet niets aan je databank gewijzigd worden.';
 $string['numberincorrectdecimals'] = 'Fout aantal deximalen voor numeriek veld';
 $string['numberincorrectlength'] = 'Foute lengte voor numeriek veld';
 $string['reserved'] = 'Gereserveerd';
@@ -75,6 +86,7 @@ $string['reservedwords'] = 'Gereserveerde woorden';
 $string['revert'] = 'Maak ongedaan';
 $string['revert_changes'] = 'Maak wijzigingen ongedaan';
 $string['save'] = 'Bewaar';
+$string['searchresults'] = 'Zoekresultaten';
 $string['selectaction'] = 'Kies actie';
 $string['selectdb'] = 'Kies databank';
 $string['selectfieldkeyindex'] = 'Selecteer veld/sleutel/index:';
@@ -104,5 +116,6 @@ $string['viewsqlcode'] = 'Bekijk SQL code';
 $string['wronglengthforenum'] = 'Lengte van enum veld fout';
 $string['wrongnumberoffieldsorvalues'] = 'Fout aantal velden of waarden in zin';
 $string['wrongreservedwords'] = 'Gebruikte gereserveerde woorden<br />(merk op dat tabelnamen niet belangrijk zijn als je *CFG->prefix gebruikt)';
+$string['yesmissingindexesfound'] = 'Er zijn ontbrekende indexen gevonden in je databank. Hier vind je de details en de nodige SQL-statements om uit te voeren in je favoriete SQL interface om de indexen aan te maken. <br /><br />Nadat je dit gedaan hebt, is het ten zeerste aangeraden deze functie nogmaals te laten lopen om te controleren of er niet meer ontbrekende indexen gevonden kunnen worden.';
 
 ?>

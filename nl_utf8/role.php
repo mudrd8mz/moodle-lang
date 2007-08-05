@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007072500)
+      // role.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
@@ -59,8 +59,12 @@ $string['errorexistsrolename'] = 'Rolnaam bestaat al';
 $string['errorexistsroleshortname'] = 'Rolnaam bestaat al';
 $string['existingusers'] = '$a bestaande gebruikers';
 $string['globalroleswarning'] = 'WAARSCHUWING: Alle rollen die je vanaf deze pagina aan gebruikers toewijst, zullen voor de hele site gelden, de startpagina en alle cursussen inbegrepen.';
+$string['grade:export'] = 'Cijfers exporteren';
 $string['grade:hide'] = 'Cijfer verbergen';
+$string['grade:import'] = 'Cijfers importeren';
 $string['grade:lock'] = 'Cijfer blokkeren';
+$string['grade:view'] = 'Eigen cijfers bekijken';
+$string['grade:viewall'] = 'Cijfers van andere gebruikers bekijken';
 $string['grade:viewhidden'] = 'Verborgen cijfer zien';
 $string['inherit'] = 'Overerven';
 $string['legacy:admin'] = 'PRE 1.7 ROL: Beheerder';
@@ -84,8 +88,8 @@ $string['overrideroles'] = 'Rollen overschrijven';
 $string['overrides'] = 'Overschrijven';
 $string['permissions'] = 'Rechten';
 $string['potentialusers'] = '$a mogelijke gebruikers';
-$string['prevent'] = 'Verbied';
-$string['prohibit'] = 'Blokkeer';
+$string['prevent'] = 'Verbieden';
+$string['prohibit'] = 'Blokkeren';
 $string['question:config'] = 'Vraagtypes configureren';
 $string['question:export'] = 'Vragen exporteren';
 $string['question:import'] = 'Vragen importeren';
@@ -115,6 +119,8 @@ $string['site:config'] = 'Site configuratie wijzigen';
 $string['site:doanything'] = 'Toelaten alles te doen';
 $string['site:doclinks'] = 'Links naar documentatie buiten deze site tonen';
 $string['site:import'] = 'Importeren van andere cursussen in een cursus';
+$string['site:langeditlocal'] = 'Lokaal taalpakket wijzigen';
+$string['site:langeditmaster'] = 'Taalpakket wijzigen (vertalers)';
 $string['site:manageblocks'] = 'Beheer blokken op site niveau';
 $string['site:mnetloginfromremote'] = 'Aanmelden vanaf een Moodle op afstand';
 $string['site:mnetlogintoremote'] = 'Ga naar een Moodle op afstand';
@@ -125,6 +131,9 @@ $string['site:uploadusers'] = 'Nieuwe gebruikers uploaden van een bestand';
 $string['site:viewfullnames'] = 'Altijd volledige namen van gebruikers zien';
 $string['site:viewparticipants'] = 'Deelnemers bekijken';
 $string['site:viewreports'] = 'Rapporten bekijken';
+$string['tag:create'] = 'Nieuwe tags maken';
+$string['tag:edit'] = 'Bestaande tags bewerken';
+$string['tag:manage'] = 'Alle tags bewerken';
 $string['user:changeownpassword'] = 'Eigen wachtwoord wijzigen';
 $string['user:create'] = 'Gebruikers aanmaken';
 $string['user:delete'] = 'Gebruikers verwijderen';

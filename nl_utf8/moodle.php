@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007070603)
+      // moodle.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['action'] = 'Actie';
@@ -36,6 +36,7 @@ $string['addnousersrecip'] = 'Voeg gebruikers aan de onvangerslijst toe die deze
 $string['addresource'] = 'Bron toevoegen';
 $string['address'] = 'Adres';
 $string['addstudent'] = 'Voeg een leerling toe';
+$string['addsubcategory'] = 'Voeg subcategorie toe';
 $string['addteacher'] = 'Voeg een leraar toe';
 $string['admin'] = 'Beheer';
 $string['adminbookmarks'] = 'Beheer bladwijzers';
@@ -518,6 +519,7 @@ $string['enrolmentend'] = 'Aanmelding eindigt';
 $string['enrolmentkey'] = 'Cursussleutel';
 $string['enrolmentkeyfrom'] = 'Deze cursus vereist een \'Cursussleutel\', een eenmalig<br />
 wachtwoord dat je moet hebben gekregen van $a';
+$string['enrolmentkeyfromguest'] = 'Voor deze cursus is een \"cursussleutel\" vereist. Als gast <br />moet je die elke keer ingeven als je de cursus bekijkt. Je zou de cursussleutel moeten gekregen hebben van $a';
 $string['enrolmentkeyhint'] = 'Die \'Cursussleutel\' was niet correct. Probeer het nog eens.<br />
 (Hier een hint: Hij begint met \'$a\')';
 $string['enrolmentnew'] = 'Nieuwe aanmelding in $a';
@@ -531,6 +533,7 @@ $string['enrolperiod'] = 'Aanmeldingsperiode';
 $string['enrolstartdate'] = 'Startdatum';
 $string['entercourse'] = 'Klik om deze cursus binnen te gaan';
 $string['enteremailaddress'] = 'Typ je e-mailadres om je wachtwoord te resetten en via e-mail een nieuw wachtwoord te ontvangen.';
+$string['enteryourinterests'] = 'Noteer je interesses, gescheiden door komma\'s';
 $string['entries'] = 'Invoer';
 $string['error'] = 'Fout';
 $string['errortoomanylogins'] = 'Het spijt me, maar je hebt te vaak geprobeerd om in te loggen. Herstart je browser.';
@@ -632,14 +635,15 @@ $string['gdneed'] = 'GD moet geïnstalleerd zijn om deze grafiek te kunnen bekij
 $string['gdnot'] = 'GD is niet geïnstalleerd';
 $string['gettheselogs'] = 'Toon logs';
 $string['go'] = 'Start';
-$string['gpl'] = 'Copyright (C) 2001-2002 Martin Dougiamas
-(http://dougiamas.com)
+$string['gotoyourserver'] = '(Linkt terug naar jouw server)';
+$string['gpl'] = 'Copyright (C) 1999 en verder Martin Dougiamas
+(http://moodle.com)
 
 Dit programma is gratis software; je kunt het redistribueren en/of wijzigen volgens de voorwaarden van de GNU General Public License zoals deze is gepubliceerd door de Free Software Foundation; versie 2 van de licentie (of een latere versie als daar je voorkeur naar uit gaat).
 
-Dit programma is gedistribueerd met de hoop dat het bruikbaar is, maar ZONDER ENIGE GARANTIE; zelfs zonder een geïmpliceerde garantie tot VERKOOPBAARHEID (merchantability) of BRUIKBAARHEID VOOR EEN BEPAALDE DOELSTELLING (fitness for a particular purpose). Bekijk de GNU General Public License voor meer details:
+Dit programma is gedistribueerd met de hoop dat het bruikbaar is, maar ZONDER ENIGE GARANTIE; zelfs zonder een geïmpliceerde garantie tot VERKOOPBAARHEID (merchantability) of BRUIKBAARHEID VOOR EEN BEPAALDE DOELSTELLING (fitness for a particular purpose). Bekijk de Moodle License information pagina voor meer details:
 
-http://www.gnu.org/copyleft/gpl.html';
+http://docs.moodle.org/en/License';
 $string['grade'] = 'Cijfer';
 $string['grades'] = 'Cijfers';
 $string['group'] = 'Groep';
@@ -720,6 +724,7 @@ $string['htmlformat'] = 'Mooie HTML-opmaak';
 $string['icqnumber'] = 'ICQ-nummer';
 $string['idnumber'] = 'Nummer (ID)';
 $string['idnumbercourse'] = 'Nummer (ID) van de cursus';
+$string['idnumbertaken'] = 'Dit ID-nummer is al in gebruik';
 $string['imagealt'] = 'Afbeeldingsbeschrijvingen';
 $string['import'] = 'Importeer';
 $string['importactivities'] = 'Importeer activiteiten van een andere cursus';
@@ -744,6 +749,7 @@ $string['includeuserfiles'] = 'Voeg gebruikersbestanden toe';
 $string['info'] = 'Informatie';
 $string['institution'] = 'Instituut';
 $string['instudentview'] = 'Als leerling';
+$string['interests'] = 'Interesses';
 $string['invalidemail'] = 'Ongeldig e-mailadres';
 $string['invalidlogin'] = 'Ongeldige log in, probeer nog eens';
 $string['ip_address'] = 'IP-adres';
@@ -1125,6 +1131,7 @@ $string['registrationno'] = 'Nee, ik wil geen e-mail ontvangen';
 $string['registrationsend'] = 'Stuur de registratie-informatie naar moodle.org';
 $string['registrationyes'] = 'Ja, laat me iets weten als er iets belangrijks gebeurt';
 $string['reject'] = 'Verwerp';
+$string['remotemaharauser'] = 'Maharagebruiker';
 $string['remove'] = 'Verwijder';
 $string['removeadmin'] = 'Verwijder beheerder';
 $string['removecreator'] = 'Verwijder cursus-aanmaker';
@@ -1175,6 +1182,7 @@ $string['scalescustom'] = 'Aangepaste schalen';
 $string['scalescustomcreate'] = 'Voeg een nieuwe schaal toe';
 $string['scalescustomno'] = 'Er zijn nog geen aangepaste schalen gemaakt';
 $string['scalesstandard'] = 'Standaardschalen';
+$string['scalestandard'] = 'Standaardschaal';
 $string['scalestip'] = 'Om aangepaste schalen te maken, gebruik je de link
 \'Schalen...\'in het beheermenu van je cursus';
 $string['schedule'] = 'Planning';

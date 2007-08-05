@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9 dev (2007021500)
+      // lesson.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['accesscontrol'] = 'Toegangscontrole';
@@ -129,8 +129,10 @@ $string['leftduringtimed'] = 'Je bent weggegaan tijdens een getimede les. <br />
 $string['leftduringtimednoretake'] = 'Je bent weggegaan tijdens een getimede les.  <br />Je mag niet verder werken.';
 $string['lesson:edit'] = 'Bewerk een les';
 $string['lesson:manage'] = 'Beheer een les';
+$string['lessonattempted'] = 'Poging';
 $string['lessonclosed'] = 'Deze les sluit op $a.';
 $string['lessoncloses'] = 'Les sluit';
+$string['lessoncloseson'] = 'Les sluit op $a';
 $string['lessondefault'] = 'Gebruik de instellingen van deze les als standaard';
 $string['lessonformating'] = 'Opmaken van de les';
 $string['lessonmenu'] = 'Lesmenu';
@@ -292,6 +294,7 @@ $string['whatdofirst'] = 'Wat wil je eerst doen?';
 $string['wronganswerjump'] = 'Verkeerde antwoordsprong';
 $string['wronganswerscore'] = 'Verkeerd antwoordcijfer';
 $string['wrongresponse'] = 'Verkeerd antwoord';
+$string['xattempts'] = '$a pogingen';
 $string['youhaveseen'] = 'Je hebt al meer dan één pagina van deze les bekeken.<br />Wil je beginnen bij de laatste pagina die je vorige keer bekeken hebt?';
 $string['youmadehighscore'] = 'Je hebt de top $a cijferlijst gehaald';
 $string['youranswer'] = 'Jouw antwoord';

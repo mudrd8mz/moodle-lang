@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007062401)
+      // admin.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -115,9 +115,10 @@ $string['configfrontpageloggedin'] = 'De hierboven gekozen items zullen op de st
 $string['configfullnamedisplay'] = 'Deze instelling bepaalt hoe de volledige namen getoond worden. Voor de meeste eentalige sites is de beste instelling de standaardinstelling, nl \"voornaam + achternaam\", maar je kunt ervoor kiezen de achternaam te verbergen of de gekozen taalinstelling te volgen (sommige talen gebruiken een andere volgorde).';
 $string['configgdversion'] = 'Geef aan welke versie van GD geïnstalleerd is. De versie die standaard getoond wordt is automatisch gevonden. Verander dit niet tenzij je echt weet wat je doet.';
 $string['configgradebookroles'] = 'Deze instelling bepaalt wie er in de cijferlijsten verschijnt. Gebruikers moeten minstens één van deze rollen hebben om in de cijferlijsten voor die cursus te verschijnen.';
+$string['configgradeexport'] = 'Kies welke formaten je wil om je punten te exporteren. De gekozen plugins worden dan ingesteld en gebruiken een \"laatst geëxporteerd veld\" voor elk cijfer. Dit kan er bijvoorbeeld voor zorgen dat geëxporteerde records geïdentificeerd worden als nieuw of aangepast. Als je niet zeker bent van deze instelling, laat dan alles staan zonder vinkje.';
 $string['configguestroleid'] = 'Deze rol is automatisch toegewezen aan de gast gebruiker. Hij wordt ook toegewezen aan niet aangemelde gebruikers wanneer die een cursus binnengaan die gasten zonder wachtwoord toelaat. Controleer of de rol moodle/legacy:guest en moodle/course:view mogelijkheden heeft.';
 $string['confighiddenuserfields'] = 'Kies welke velden van de gebruikersinformatie je wil verbergen voor andere gebruikers dan leraren en beheerders. Hierdoor kun je de privacy van je gebruikers vergroten. Gebruik de Ctrl-toets om meerdere velden te selecteren.';
-$string['confighideactivitytypecrumb'] = 'Selecteer voor wie het activiteitstype (bijvoorbeeld Testen) in het broodkruimelpad verborgen moet worden.';
+$string['confighideactivitytypenavlink'] = 'Selecteer van welke modules je de link naar het activiteitstype (bijvoorbeeld forum) wil verbergen in het broodkruimelmenu.';
 $string['confightmleditor'] = 'Kies of je het gebruik van de ingebouwde HTML-teksteditor wilt toestaan. Zelfs als je het toestaat zal deze editor alleen verschijnen als de gebruiker een geschikte browser gebruikt (IE 5.5 of later). Gebruikers kunnen er ook voor kiezen de editor niet te gebruiken.';
 $string['configidnumber'] = 'Deze optie specificeert of (a) de gebruikers helemaal niet worden gevraagd om een leerlingnummer, (b) gebruikers wel worden gevraagd om een leerlingnummer maar dit leeg kunnen laten of (c) gebruikers worden gevraagd om het leerlingnummer en dit niet leeg kunnen laten. Als het leerlingnummer wordt opgegeven dan wordt dit getoond in het profiel.';
 $string['configintcachemax'] = 'Enkel voor interne cache. Maximum aantal records om in de cache te bewaren. Aangewezen waarde: 50. Gebruik een kleiner getal om geheugengebruik te verminderen.';
@@ -149,6 +150,7 @@ $string['configminpasswordlower'] = 'Minimum aantal kleine letters voor wachtwoo
 $string['configminpasswordnonalphanum'] = 'Minimum aantal niet-alphanumerieke tekens voor wachtwoorden';
 $string['configminpasswordupper'] = 'Minimum aantal hoofdletters voor wachtwoorden';
 $string['configmymoodleredirect'] = 'Deze instelling dwingt een verwijzing af naar de map /my voor niet-beheerders bij het aanmelden en vervangt het broodkruimelmenu door /my';
+$string['confignodefaultuserrolelists'] = 'Deze instelling verhindert dat alle gebruikers uit de database gelezen worden door de niet meer ondersteunde functies als get_course_user enz voor de startpagina als de standaard rol dat toelaat. Stel dit in als je performantieproblemen hebt.';
 $string['confignonmetacoursesyncroleids'] = 'Standaard worden alle aanmeldingen voor onderliggende curssusen overgeërfd van overkoepelende cursussen. Rollen die hier geselecteerd worden, zullen niet mee gesynchroniseerd worden.';
 $string['confignoreplyaddress'] = 'Soms verzendt Moodle e-mails voor een gebruiker (bijvoorbeeld bij forumberichten) Het e-mailadres dat je hier instelt wordt gebruikt als \"From\"-adres voor die gebruikers die ervoor gekozen hebben dat andere gebruikers niet rechtstreeks op hun mail mogen kunnen antwoorden (bijvoorbeeld wanneer een gebruiker zijn e-mailadres privé wil houden)';
 $string['confignotifyloginfailures'] = 'Als er mislukte aanmeldingen gelogd worden, dan kunnen er e-mailnotificaties verstuurd worden. Wie moet deze notificaties zien?';
@@ -201,10 +203,14 @@ $string['configstatsfirstrun'] = 'Hiermee stel je in hoever terug in de tijd dat
 $string['configstatsmaxruntime'] = 'Het verwerken van statistieken is een erg belastende taak. Gebruik dus de combinatie van dit veld en het volgende om aan te geven wanneer en hoe lang het proces zal lopen.';
 $string['configstatsruntimestart'] = 'Op welk tijdstip moet de crontaak die de statistieken verwerk <b>starten</b>?';
 $string['configstatsuserthreshold'] = 'Als je een getal anders dan nul of een niet-nummerieke waarde ingeeft voor het rangschikken van cursussen, dan zullen de cursussen met minder dan dat aantal aangemelde gebruikers (leerlingen + leraren) genegeerd worden.';
+$string['configsupportemail'] = 'Dit e-mailadres zal gepubliceerd worden aan site-gebruikers als het e-mailadres dat ze kunnen contacteren om algemene hulp te krijgen (zoals bij het creëren van een nieuwe account). Als dit veld leeg gelaten wordt, dan wordt er zo geen e-mailadres aangeboden.';
+$string['configsupportname'] = 'Dit is de naam van een persoon of dienst die de algemene hulp aanbiedt.';
+$string['configsupportpage'] = 'Deze URL zal gepubliceerd worden aan site-gebruikers als de plaats waar naartoe  te gaan als ze algemene hulp nodig hebben (bijvoorbeeld wanneer nieuwe gebruikers hun eigen accounts aanmaken). Als dit veld leeggelaten wordt, dan wordt er geen link aangeboden.';
 $string['configteacherassignteachers'] = 'Zou een gewone leraar een andere leraar moeten kunnen aanwijzen binnen de cursussen waarin hij les geeft? Als je dit op \'nee\' zet, dan kunnen alleen cursus-aanmakers en beheerders leraren aanwijzen.';
 $string['configthemelist'] = 'Laat dit leeg om gelijk welk geldig thema te gebruiken. Geef hier een door komma\'s gescheiden lijst met thema-namen als je het thema-menu wil inkorten. Bijvoorbeeld: standard,orangewhite. Let op: geen spaties!';
 $string['configtimezone'] = 'Hier kun je de standaardtijdzone instellen. Dit is slechts de STANDAARD tijdzone voor het tonen van datums - elke gebruiker kan deze instelling voor zichzelf wijzigen in zijn profiel. Op deze plaats zal de optie \"Servertijd\" de standaardtijd in Moodle gelijkzetten met de tijd van het besturingssysteem van de server, maar in het profiel van de gebruikers zal de instelling \"Servertijd\" de hier ingestelde tijdzone zijn.';
 $string['configunzip'] = 'Geef de locatie van je UNZIP-programma (alleen voor UNIX). Dit is nodig om ZIP-archieven op de server uit te pakken.';
+$string['configusetags'] = 'Tags functionaliteit over de hele site inschakelen?';
 $string['configvariables'] = 'Configureer variabelen';
 $string['configvisiblecourses'] = 'Toon cursussen in verborgen categorieën';
 $string['configwarning'] = 'Wees voorzichtig met het veranderen van deze instellingen. Vreemde waarden kunnen problemen opleveren.';
@@ -321,6 +327,7 @@ $string['globalsquoteswarning'] = '<p><strong>Beveiligingswaarschuwing</strong>:
 $string['gotofirst'] = 'Ga naar de eerste ontbrekende string';
 $string['gradebook'] = 'Cijferlijst';
 $string['gradebookroles'] = 'Rollen in cijferlijst';
+$string['gradeexport'] = 'Primaire cijferexportmethode';
 $string['guestroleid'] = 'Rol voor gasten';
 $string['helpadminseesall'] = 'Zien beheerders alle gebeurtenissen in de kalender of alleen diegene die ze zelf nodig hebben?';
 $string['helpcalendarsettings'] = 'Configureer de kalender en datum/tijd-gerelateerde instellingen van Moodle';
@@ -331,7 +338,7 @@ $string['helpupcominglookahead'] = 'Hoeveel dagen is de standaardinstelling om k
 $string['helpupcomingmaxevents'] = 'Hoeveel aankomende activiteiten worden er maximaal getoond aan de gebruikers?';
 $string['helpweekenddays'] = 'Welke dagen van de week worden als \"weekend\" beschouwd en dus in een andere kleur getoond?';
 $string['hiddenuserfields'] = 'Verberg gebruikersvelden';
-$string['hideactivitytypecrumb'] = 'Verberg broodkruimeltje voor activiteitstype';
+$string['hideactivitytypenavlink'] = 'Verberg activiteitstype in navigatie';
 $string['hidefromall'] = 'Verberg voor alle gebruikers';
 $string['hidefromnone'] = 'Verberg voor niemand';
 $string['hidefromstudents'] = 'Verberg voor leerlingen';
@@ -418,6 +425,7 @@ $string['mymoodleredirect'] = 'Mijn Moodle verplichten';
 $string['mysql416bypassed'] = 'Als je site echter UITSLUITEND iso-8859-1 (latin) talen gebruikt, dan kun je MySQL 4.1.12 (of hoger) blijven gebruiken.';
 $string['mysql416required'] = 'MySQL 4.1.16 is de minimum versie die nodig is voor Moodle 1.6 om te kunnen garanderen dat alle gegevens naar UTF-8 geconverteerd zullen worden.';
 $string['nobookmarksforuser'] = 'Je hebt geen bladwijzers.';
+$string['nodefaultuserrolelists'] = 'Alle standaardrolgebruikers niet ophalen';
 $string['nolangupdateneeded'] = 'Al je geïnstalleerde taalpakketten zijn up-to-date. Er is geen update nodig.';
 $string['nonewsettings'] = 'Er zijn geen nieuwe instellingen toegevoegd tijdens deze upgrade';
 $string['nonexistentbookmark'] = 'De bladwijzer die je vroeg, bestaat niet.';
@@ -562,6 +570,9 @@ $string['stickyblockscourseview'] = 'Cursuspagina';
 $string['stickyblocksduplicatenotice'] = 'Als je hier een blok toevoegd dat al op een bepaalde pagina staat, krijg je er twee.<br />Alleen het vastgezette blok zul je niet kunnen bewerken, het tweede zul je wel kunnen bewerken.';
 $string['stickyblocksmymoodle'] = 'Mijn Moodle';
 $string['stickyblockspagetype'] = 'Te configureren paginatype';
+$string['supportemail'] = 'E-mail helpdesk';
+$string['supportname'] = 'Naam helpdesk';
+$string['supportpage'] = 'URL helpdesk';
 $string['switchlang'] = 'Wissel map voor taalbestanden';
 $string['systempaths'] = 'Systeempaden';
 $string['tabselectedtofront'] = 'Moet bij tabellen met tabs de nu geselecteerde tab vooraan gezet worden?';
@@ -608,6 +619,9 @@ $string['users'] = 'Gebruikers';
 $string['userscreated'] = 'Gebruikers gecreëerd';
 $string['usersrenamed'] = 'Gebruikers hernoemd';
 $string['usersupdated'] = 'Gebruikers geüpdatet';
+$string['usetags'] = 'Tags functionaliteit inschakelen';
 $string['validateerror'] = 'Deze waarde is niet geldig';
+$string['confighideactivitytypecrumb'] = 'Selecteer voor wie het activiteitstype (bijvoorbeeld Testen) in het broodkruimelpad verborgen moet worden.'; // ORPHANED
+$string['hideactivitytypecrumb'] = 'Verberg broodkruimeltje voor activiteitstype'; // ORPHANED
 
 ?>

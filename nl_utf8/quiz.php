@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007070603)
+      // quiz.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['1day'] = '1 dag';
@@ -60,6 +60,7 @@ $string['bestgrade'] = 'Hoogste cijfer';
 $string['blackboard'] = 'Blackboard';
 $string['blackboard_6'] = 'Blackboard V6+';
 $string['bothattempts'] = 'Toon leerlingen met en zonder testpogingen';
+$string['braceerror'] = 'Kon geen {...} rond antwoorden vinden';
 $string['calculated'] = 'Berekend';
 $string['calculatedquestion'] = 'Berekende vraag niet ondersteund op lijn $a. De vraag wordt genegeerd.';
 $string['cannotcreatepath'] = 'Pad kan niet gemaakt worden ($a)';
@@ -101,6 +102,7 @@ $string['confirmstartattempttimelimit'] = 'Deze test heeft een tijdslimiet en is
 $string['confirmstarttimelimit'] = 'De test heeft een tijdslimiet. Wil je de test starten?';
 $string['containercategorycreated'] = 'Deze categorie is aangemaakt om alle originele categorieën in te verzamelen. Die zijn naar site-niveau verplaatst om onderstaande redenen.';
 $string['continueattemptquiz'] = 'Ga verder met de laatste poging';
+$string['continuepreview'] = 'Ga verder met controleren';
 $string['copyingfrom'] = 'Kopie aan het maken van vraag \'$a\'';
 $string['copyingquestion'] = 'Vraag kopiëren';
 $string['correct'] = 'Juist';
@@ -385,6 +387,7 @@ $string['popupnotice'] = 'Leerlingen zien de test in een veilig venster';
 $string['preview'] = 'Controleer test';
 $string['previewquestion'] = 'Weergave van een vraag testen';
 $string['previewquiz'] = 'Voorbeeld van de test';
+$string['previewquiznow'] = 'Controleer test';
 $string['previous'] = 'Vorige status';
 $string['publish'] = 'Publiceer';
 $string['publishedit'] = 'Je moet rechten hebben in de cursus die deze vragen publiceert om in deze categorie vragen te kunnen toevoegen of bewerken.';
