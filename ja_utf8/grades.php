@@ -163,6 +163,7 @@ $string['gradeview'] = '評定を表示する';
 $string['gradeweighthelp'] = '評定加重ヘルプ';
 $string['groupavg'] = 'グループ平均';
 $string['hidden'] = '隠す';
+$string['hiddenuntil'] = '次の日時まで隠す';
 $string['hideadvanced'] = '拡張機能を隠す';
 $string['hideaverages'] = '平均を隠す';
 $string['hidecalculations'] = '計算を隠す';
