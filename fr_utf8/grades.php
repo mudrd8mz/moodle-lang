@@ -23,6 +23,7 @@ $string['aggregatemaxall'] = 'La plus haute de toutes les notes';
 $string['aggregatemaxgraded'] = 'La plus haute des notes non vides';
 $string['aggregatemodeall'] = 'Mode de toutes les notes';
 $string['aggregatemodegraded'] = 'Mode des notes non vides';
+$string['aggregateoutcomes'] = 'Combiner également les objectifs';
 $string['aggregateweightedmeanall'] = 'Moyenne pondérée de toutes les notes';
 $string['aggregateweightedmeangraded'] = 'Moyenne pondérée des notes non vides';
 $string['aggregation'] = 'Tendance centrale';
