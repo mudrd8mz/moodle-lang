@@ -1,5 +1,9 @@
 <?php // $Id$ 
 
+// Trouver un bon terme pour "aggregate".
+// Verbes : amalgamer, agréger, combiner, coupler
+// Termes utilisés actuellement : tendance centrale, combiner
+
 $string['activities'] = 'Activités';
 $string['addcategory'] = 'Ajouter une catégorie';
 $string['addcategoryerror'] = 'Impossible d\'ajouter une catégorie.';
@@ -21,9 +25,9 @@ $string['aggregatemodeall'] = 'Mode de toutes les notes';
 $string['aggregatemodegraded'] = 'Mode des notes non vides';
 $string['aggregateweightedmeanall'] = 'Moyenne pondérée de toutes les notes';
 $string['aggregateweightedmeangraded'] = 'Moyenne pondérée des notes non vides';
-$string['aggregation'] = 'Regroupement';
-$string['aggregationposition'] = 'Position de regroupement';
-$string['aggregationview'] = 'Vue de regroupement';
+$string['aggregation'] = 'Tendance centrale';
+$string['aggregationposition'] = 'Position de la tendance centrale';
+$string['aggregationview'] = 'Vue de la tendance centrale';
 $string['allgrades'] = 'Toutes les notes par catégorie';
 $string['allstudents'] = 'Tous les étudiants';
 $string['autosort'] = 'Tri automatique';
@@ -48,8 +52,8 @@ $string['categoryname'] = 'Nom de la catégorie';
 $string['changesitedefaults'] = 'Modifier les réglages par défaut du site';
 $string['choosecategory'] = 'Choisir une catégorie';
 $string['compact'] = 'Compact';
-$string['configaggregationposition'] = 'La position de la colonne regroupement dans le tableau de rapport, en référence avec les notes brutes.';
-$string['configaggregationview'] = 'La façon dont les regroupements sont affichés&nbsp;: soit avec les notes brutes, soit en format compact où un seul type à la fois est affiché dans la table&nbsp;: les notes brutes ou les notes regroupées.';
+$string['configaggregationposition'] = 'La position de la colonne <i>Tendance centrale</i> dans le tableau de rapport, en référence avec les notes brutes.';
+$string['configaggregationview'] = 'La façon dont les tendances centrales sont affichées&nbsp;: soit avec les notes brutes, soit en format compact où un seul type à la fois est affiché dans la table&nbsp;: les notes brutes ou les notes combinées.';
 $string['configaveragesdecimalpoints'] = 'Nombre de décimales à afficher pour chaque moyenne (groupe ou tous), au-dessous des colonnes de notes. Peut être modifié pour chaque élément d\'évaluation.';
 $string['configaveragesdisplaytype'] = 'Spécifie le type d\'affichage des moyennes de chaque colonne dans le rapport de l\'évaluateur. La façon conseillée et proposée par défaut est «&nbsp;Hériter&nbsp;», qui vérifie d\'abord le type d\'affichage de chacune des colonnes, et si celui-ci n\'est pas spécifié, utilise le type d\'affichage général. Si vous choisissez d\'autres types d\'affichages, les réglages d\'affichage de chaque colonne sont ignorés.';
 $string['configbulkcheckboxes'] = 'Cases à cocher proches de chaque note pour des opérations en vrac sur les notes.';
