@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 dev (2007062008)
+      // group.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['addgroupstogrouping'] = 'Afegeix grups a l\'agrupament';
@@ -37,6 +37,7 @@ $string['errornotingrouping'] = 'No podeu crear un grup en $a';
 $string['errornotingroupingedit'] = 'No podeu editar l\'agrupament $a';
 $string['existingmembers'] = 'Membres existents: $a';
 $string['group'] = 'Grup';
+$string['groupaddedsuccesfully'] = 'S\'ha afegit amb èxit el grup $a';
 $string['groupdescription'] = 'Descripció del grup';
 $string['groupfor'] = 'per al grup';
 $string['groupinfo'] = 'Informació sobre el grup seleccionat';
@@ -66,6 +67,7 @@ $string['hidepicture'] = 'Oculta la imatge';
 $string['javascriptrequired'] = 'Aquesta pàgina requereix Javascript';
 $string['membersofselectedgroup'] = 'Membres del grup seleccionat';
 $string['newpicture'] = 'Nova imatge';
+$string['nopermissionforcreation'] = 'No s\'ha pogut crear el grup \"$a\" perquè no teniu els permisos requerits';
 $string['notingrouping'] = '[en cap agrupament]';
 $string['numberofgroups'] = 'Nombre de grups';
 $string['numberofstudents'] = 'Nombre d\'estudiants';

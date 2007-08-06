@@ -1,7 +1,10 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007021400)
+      // auth.php - created with Moodle 1.9 dev (2007080202)
 
 
+$string['CASform'] = 'Opció d\'autenticació';
+$string['accesCAS'] = 'usuaris CAS';
+$string['accesNOCAS'] = 'altres usuaris';
 $string['alternatelogin'] = 'Si introduïu un URL aquí, s\'utilitzarà com a pàgina d\'entrada d\'aquest lloc. Aquesta pàgina hauria de contenir un formulari, amb la propietat \'action\' igual a <strong>$a</strong> i que retornés els camps <strong>username</strong> i <strong>password</strong>.<br />Tingueu cura de no escriure un URL incorrecte, ja que podríeu impedir l\'entrada dels usuaris en aquest lloc.<br />Si deixeu en blanc aquest paràmetre s\'utilitzarà la pàgina d\'entrada per defecte.';
 $string['alternateloginurl'] = 'URL d\'entrada alternatiu';
 $string['auth_cas_auth_user_create'] = 'Crea usuaris externament';
@@ -250,6 +253,12 @@ $string['changepassword'] = 'URL de canvi de contrasenya';
 $string['changepasswordhelp'] = 'Aquí podeu especificar una adreça en la qual els usuaris puguin recuperar o canviar la seua contrasenya si se n\'han oblidat. Aquesta opció apareixerà en forma de botó a la pàgina d\'entrada. Si la deixeu en blanc no apareixerà el botó.';
 $string['chooseauthmethod'] = 'Trieu un mètode d\'autenticació:';
 $string['createpasswordifneeded'] = 'Crea la contrasenya si cal';
+$string['errorminpassworddigits'] = 'La contrasenya ha de contenir almenys $a dígit/s.';
+$string['errorminpasswordlength'] = 'La longitud mínima de la contrasenya són $a caràcters.';
+$string['errorminpasswordlower'] = 'La contrasenya ha de contenir almenys $a minúscula/es.';
+$string['errorminpasswordnonalphanum'] = 'La contrasenya ha de contenir almenys $a caràcter/s no alfanumèric/s.';
+$string['errorminpasswordupper'] = 'La contrasenya ha de contenir almenys $a majúscula/es.';
+$string['errorpasswordupdate'] = 'No s\'ha pogut canviar la contrasenya. S\'ha produït un error.';
 $string['forcechangepassword'] = 'Imposa canvi de contrasenya';
 $string['forcechangepassword_help'] = 'Obliga els usuaris a canviar la contrasenya la pròxima vegada que entrien en Moodle.';
 $string['forcechangepasswordfirst_help'] = 'Obliga els usuaris a canviar la contrasenya la pròxima vegada que entrien en Moodle.';

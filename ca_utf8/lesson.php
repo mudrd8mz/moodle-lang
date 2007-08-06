@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9 dev (2007080103)
+      // lesson.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['accesscontrol'] = 'Control d\'accés';
@@ -129,8 +129,10 @@ $string['leftduringtimed'] = 'Heu abandonat una lliçó cronometrada.<br />Feu c
 $string['leftduringtimednoretake'] = 'Heu abandonat una lliçó cronometrada i no està permès continuar-la o torna-la a fer.';
 $string['lesson:edit'] = 'Edició d\'activitats de tipus lliçó';
 $string['lesson:manage'] = 'Gestió d\'activitats de tipus lliçó';
+$string['lessonattempted'] = 'Lliçó intentada';
 $string['lessonclosed'] = 'La lliçó es va tancar el $a.';
 $string['lessoncloses'] = 'Es tanca la lliçó';
+$string['lessoncloseson'] = 'La lliçó es tanca el $a';
 $string['lessondefault'] = 'Usa els paràmetres d\'aquesta lliçó com els valors per defecte';
 $string['lessonformating'] = 'Formatatge de la lliçó';
 $string['lessonmenu'] = 'Menú de la lliçó';
@@ -292,6 +294,7 @@ $string['whatdofirst'] = 'Què voleu fer primer?';
 $string['wronganswerjump'] = 'Salt de resposta errònia';
 $string['wronganswerscore'] = 'Puntuació de resposta errònia';
 $string['wrongresponse'] = 'Resposta errònia';
+$string['xattempts'] = '$a intents';
 $string['youhaveseen'] = 'Ja heu vist més d\'una pàgina d\'aquesta lliçó.<br /> Voleu començar a la darrera pàgina que vau veure?';
 $string['youmadehighscore'] = 'Heu aconseguit la posició $a en la llista de puntuacions màximes.';
 $string['youranswer'] = 'La vostra resposta';
