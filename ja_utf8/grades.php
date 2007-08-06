@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007080103)
+      // grades.php - created with Moodle 1.9 dev (2007080300)
 
 
 $string['activities'] = '活動';
@@ -21,6 +21,7 @@ $string['aggregateminall'] = 'すべての評点の最小評点';
 $string['aggregatemingraded'] = '空ではない評点の最小評点';
 $string['aggregatemodeall'] = 'すべての評点の最頻値';
 $string['aggregatemodegraded'] = '空ではない評点の最頻値';
+$string['aggregateoutcomes'] = '同様にアウトカムも総計する';
 $string['aggregateweightedmeanall'] = 'すべての評点の加重平均';
 $string['aggregateweightedmeangraded'] = '空ではない評点の加重平均';
 $string['aggregation'] = '総計';
@@ -226,6 +227,7 @@ $string['nolettergrade'] = '評定文字がありません:';
 $string['nomode'] = 'NA';
 $string['nonnumericweight'] = '数値ではありません:';
 $string['nonweightedpct'] = '加重なし%%';
+$string['nooutcome'] = 'アウトカムなし';
 $string['noselectedcategories'] = 'カテゴリを選択してください。';
 $string['noselecteditems'] = '項目を選択してください。';
 $string['notteachererror'] = 'この機能は教師のみ使用できます。';
@@ -240,8 +242,12 @@ $string['outcomename'] = 'アウトカム名';
 $string['outcomereport'] = 'アウトカムレポート';
 $string['outcomes'] = 'アウトカム';
 $string['outcomescourse'] = 'コースで使用されているアウトカム';
+$string['outcomescoursecustom'] = '使用されている特別アウトカム (削除不可)';
+$string['outcomescoursenotused'] = '使用されていない標準アウトカム';
+$string['outcomescourseused'] = '使用されている標準アウトカム (削除不可)';
 $string['outcomescustom'] = '特別アウトカム';
 $string['outcomesstandard'] = '標準アウトカム';
+$string['outcomesstandardavailable'] = '利用可能な標準アウトカム';
 $string['outcomestandard'] = '標準アウトカム';
 $string['overallavg'] = '全平均';
 $string['overridden'] = 'オーバーライド';
