@@ -169,6 +169,7 @@ $string['gradeview'] = 'Afficher la note';
 $string['gradeweighthelp'] = 'Aide sur la pondération des notes';
 $string['groupavg'] = 'Moyenne du groupe';
 $string['hidden'] = 'Caché';
+$string['hiddenuntil'] = 'Caché jusqu\'au';
 $string['hideadvanced'] = 'Cacher les fonctions avancées';
 $string['hidecalculations'] = 'Cacher les calculs';
 $string['hidecategory'] = 'Caché';
