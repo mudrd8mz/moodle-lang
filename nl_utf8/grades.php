@@ -1,17 +1,38 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007070603)
+      // grades.php - created with Moodle 1.9 dev (2007080202)
 
 
+$string['activities'] = 'Activiteiten';
 $string['addcategory'] = 'Voeg categorie toe';
 $string['addcategoryerror'] = 'Kon geen categorie toevoegen';
 $string['addexceptionerror'] = 'Fout opgetreden bij het toevoegen van een uitzondering voor userid:gradeitem';
 $string['addfeedback'] = 'Feedback toevoegen';
-$string['additem'] = 'Cijfer item toevoegen';
+$string['additem'] = 'Beoordelingsitem toevoegen';
+$string['addoutcomeitem'] = 'Voeg competentie toe';
+$string['aggregateextracreditmeanall'] = 'Gemiddelde van alle beoordelingen (bonus)';
+$string['aggregateextracreditmeangraded'] = 'Gemiddelde van alle niet lege beoordelingen (bonus)';
+$string['aggregatemaxall'] = 'Hoogste van alle beoordelingen';
+$string['aggregatemaxgraded'] = 'Hoogste van alle niet lege beoordelingen';
+$string['aggregatemeanall'] = 'Gemiddelde van alle beoordelingen';
+$string['aggregatemeangraded'] = 'Gemiddelde van alle niet lege beoordelingen';
+$string['aggregatemedianall'] = 'Mediaan van alle beoordelingen';
+$string['aggregatemediangraded'] = 'Mediaan van alle niet lege beoordelingen';
+$string['aggregateminall'] = 'Laagste van alle beoordelingen';
+$string['aggregatemingraded'] = 'Laagste van alle niet lege beoordelingen';
+$string['aggregatemodeall'] = 'Modus van alle beoordelingen';
+$string['aggregatemodegraded'] = 'Modus van alle niet lege beoordelingn';
+$string['aggregateweightedmeanall'] = 'Gewogen gemiddelde van alle beoordelingen';
+$string['aggregateweightedmeangraded'] = 'Gewogen gemiddelde van alle niet lege beoordelingen';
+$string['aggregation'] = 'Aggregatie';
+$string['aggregationposition'] = 'Aggregatiepositie';
+$string['aggregationview'] = 'Aggregatie bekijken';
 $string['allgrades'] = 'Alle cijfers per categorie';
 $string['allstudents'] = 'Alle leerlingen';
 $string['autosort'] = 'Auto-sorteer';
 $string['average'] = 'Gemiddelde';
-$string['badgrade'] = 'Cijfer ongeldig';
+$string['averagesdecimalpoints'] = 'Decimalen in kolom gemiddelden';
+$string['averagesdisplaytype'] = 'Opmaak kolom gemiddelden';
+$string['badgrade'] = 'Beoordeling ongeldig';
 $string['baduser'] = 'Gebruiker ongeldig';
 $string['bonuspoints'] = 'Bonuspunten';
 $string['bulkcheckboxes'] = 'Selectievakjes voor bulkoperaties';
@@ -21,13 +42,21 @@ $string['calculationedit'] = 'Berekening bewerken';
 $string['calculationsaved'] = 'Berekening bewaard';
 $string['calculationview'] = 'Bekijk berekening';
 $string['categories'] = 'Categorieën';
+$string['categoriesanditems'] = 'Categorieën en items';
 $string['categoriesedit'] = 'Bewerk categorieën';
 $string['category'] = 'Categorie';
+$string['categoryedit'] = 'Bewerk categorei';
 $string['categoryname'] = 'Categorienaam';
+$string['changesitedefaults'] = 'Wijzig standaardinstellingen site';
 $string['choosecategory'] = 'Kies categorie';
 $string['compact'] = 'Compact';
+$string['configaggregationposition'] = 'De positie van de aggregatiekolom in de rapportentabel, in referentie tot de echte beoordelingen.';
 $string['configbulkcheckboxes'] = 'Selectievakjes naast elk cijfer voor bulkoperaties';
-$string['configshowgrandtotals'] = 'Toon algemene totalen in het rapport';
+$string['configdecimalpoints'] = 'Het aantal decimalen te tonen voor elke beoordeling. Dit kan aangepast worden per beoordelingsonderdeel.';
+$string['configenableajax'] = 'Voegt een laagje AJAX functionaliteit toe aan het rapport, wat het bewerken ervan vereenvoudigd en versneld. Dit werkt alleen als Javascript is ingeschakeld in de browser van de gebruiker.';
+$string['configenableoutcomes'] = 'Ondersteuning voor competenties (ook bekend als doelen, standaarden, criteria, ...) betekent dat we zaken kunnen beoordelen door gebruik te maken van één of meerder schalen die verbonden zijn aan een competentiebeschrijving. Het inschakelen van competenties maakt deze speciale beoordelingsmanier mogelijk op heel de site';
+$string['configgradedisplaytype'] = 'Beoordelingen kunnen getoond worden als echte cijfers, als percentage (van het minimum- en maximumcijfer) of als letters (A, B, C, ...)';
+$string['configgradeletter'] = 'Een letter of een ander symbool dat gebruikt wordt om een cijferbereik voor te stellen.';
 $string['creatinggradebooksettings'] = 'Instellingen puntenboek maken';
 $string['curveto'] = 'Afbuigen naar';
 $string['deletecategory'] = 'Verwijder categorie';
@@ -140,5 +169,6 @@ $string['weightedpctcontribution'] = 'gewogen %% bijdrage';
 $string['writinggradebookinfo'] = 'Instelling puntenboek wegschrijven';
 $string['yes'] = 'Ja';
 $string['yourgrade'] = 'Jouw cijfer';
+$string['configshowgrandtotals'] = 'Toon algemene totalen in het rapport'; // ORPHANED
 
 ?>

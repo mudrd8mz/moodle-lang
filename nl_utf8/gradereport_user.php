@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // gradereport_user.php - created with Moodle 1.9 dev (2007062401)
+      // gradereport_user.php - created with Moodle 1.9 dev (2007080202)
 
 
-$string['modulename'] = 'Gebruiker';
-$string['user:view'] = 'Bekijk je eigen cijferrapport';
+$string['modulename'] = 'Rapport';
+$string['user:view'] = 'Bekijk je eigen rapport';
 
 ?>
