@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007080202)
+      // moodle.php - created with Moodle 1.9 dev (2007080300)
 
 
 $string['action'] = '操作';
@@ -229,6 +229,7 @@ $string['complete'] = '詳細';
 $string['completereport'] = '詳細レポート';
 $string['configuration'] = '設定';
 $string['confirm'] = '確認';
+$string['confirmcheckfull'] = '本当に $ を承認してもよろしいですか?';
 $string['confirmed'] = '登録が完了しました。';
 $string['confirmednot'] = '登録はまだ完了していません！';
 $string['continue'] = '続ける';
