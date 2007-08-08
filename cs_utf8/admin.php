@@ -376,7 +376,7 @@ $string['misc'] = 'Různé';
 $string['mnetrestore_extusers'] = '<strong>Poznámka:</strong> Tato záloha obsahuje vzdálené uživatele sítě Moodle Network. Vzdálené účty budou v průběhu tohoto procesu obnoveny.';
 $string['mnetrestore_extusers_mismatch'] = '<strong>Poznámka:</strong> Tato záloha evidentně pochází z odlišné instalace Moodlu a obsahuje vzdálené uživatelské účty. Obnova těchto účtů může selhat, tato operace není podporovaná. Pokud jste si jistí, že záloha pochází z této instalace, nebo můžete zajistit, že jsou správně nastaveny všechny hostitelské počítače v síti Moodle Network, můžete se přesto pokusit o obnovu.';
 $string['modulesecurity'] = 'Zabezpečení modulu';
-$string['multilangforceold'] = 'Vnutit starou syntaxi vícejazyčného obsahu pomocí tagu <lang>';
+$string['multilangforceold'] = 'Vnutit starou syntaxi vícejazyčného obsahu pomocí tagu &lt;lang&gt;';
 $string['multilangupgrade'] = 'Upgrade syntaxe vícejazyčného obsahu';
 $string['multilangupgradeinfo'] = 'Syntaxe filtru pro vícejazyčný obsah byla ve verzi 1.8 změněna. Tag &lt;lang&gt; již není podporován.
 <br /><br />Ukázka nové syntaxe:<br />&lt;span lang=\"en\" class=\"multilang\"&gt;Hello!&lt;/span&gt;&lt;span lang=\"es\" class=\"multilang\"&gt;Hola!&lt;/span&gt;<br /><br />
