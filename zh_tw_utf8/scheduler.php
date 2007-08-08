@@ -1,4 +1,4 @@
-﻿<?PHP // $Id: 
+<?PHP // $Id: 
 
 $string['modulename'] = '面談預約';
 $string['modulenameplural'] = '預約表';
