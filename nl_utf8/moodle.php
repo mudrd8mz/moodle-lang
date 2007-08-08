@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007080202)
+      // moodle.php - created with Moodle 1.9 dev (2007080800)
 
 
 $string['action'] = 'Actie';
@@ -230,6 +230,7 @@ $string['complete'] = 'Voltooid';
 $string['completereport'] = 'Volledig rapport';
 $string['configuration'] = 'Configuratie';
 $string['confirm'] = 'Bevestig';
+$string['confirmcheckfull'] = 'Ben je zeker dat je $a wil bevestigen?';
 $string['confirmed'] = 'Je registratie is bevestigd';
 $string['confirmednot'] = 'Je registratie is nog niet bevestigd !';
 $string['continue'] = 'Ga door';
