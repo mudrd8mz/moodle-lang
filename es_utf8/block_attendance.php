@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_attendance.php - created with Moodle 1.7 (2006101007)
+      // block_attendance.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['Aacronym'] = 'A';
@@ -33,6 +33,7 @@ $string['deletingsession'] = 'Eliminando sesión del curso';
 $string['description'] = 'Descripción';
 $string['display'] = 'Mostrar';
 $string['downloadexcel'] = 'Descargar en formato Excel';
+$string['downloadooo'] = 'Descargar en formato OpenOffice';
 $string['downloadtext'] = 'Descargar en formato texto';
 $string['editsession'] = 'Editar sesión';
 $string['errorinaddingsession'] = 'Error al agregar sesión';
@@ -40,6 +41,7 @@ $string['erroringeneratingsessions'] = 'Error al generar sesiones';
 $string['indetail'] = 'Ver detalles...';
 $string['months'] = 'Meses';
 $string['myvariables'] = 'Mis variables';
+$string['needactivity'] = 'Este bloque sólo funciona con una actividad de asistencia. Por favor, agregue dicha actividad al curso.';
 $string['newdate'] = 'Nueva fecha';
 $string['noattforuser'] = 'El usuario no tiene asistencias';
 $string['nodescription'] = 'No hay descripción de esta sesión';

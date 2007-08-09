@@ -2,6 +2,7 @@
       // scorm.php - created with Moodle 1.8 + (2007021502)
 
 
+$string['activation'] = 'Activación';
 $string['advanced'] = 'Avanzada';
 $string['asset'] = 'Recurso';
 $string['assetlaunched'] = 'Recurso - Visto';
@@ -94,6 +95,7 @@ $string['not_corr_type'] = 'No concuerda el tipo para la marca $a->tag';
 $string['notattempted'] = 'No se ha intentado';
 $string['objectives'] = 'Objetivos';
 $string['onchanges'] = 'Siempre que haya cambios';
+$string['options'] = 'Opciones';
 $string['organization'] = 'Organización';
 $string['organizations'] = 'Organizaciones';
 $string['othersettings'] = 'Ajustes adicionales';
@@ -142,6 +144,7 @@ $string['totaltime'] = 'Hora';
 $string['trackingloose'] = 'ATENCIÓN: ¡Los datos de rastreo de este paquete se perderán!';
 $string['type'] = 'Tipo';
 $string['unziperror'] = 'Ha ocurrido un error durante la descompresión del paquete';
+$string['updatefreq'] = 'Actualizar frecuencia automáticamente';
 $string['validateascorm'] = 'Validar un paquete SCORM';
 $string['validation'] = 'Resultado de la validación';
 $string['validationtype'] = 'Esta preferencia ajusta la librería DOMXML usada para validar un Manifiesto SCORM. Si tiene dudas, deje la opción activada.';

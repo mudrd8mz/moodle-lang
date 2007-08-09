@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.7 (2006101007)
+      // enrol_database.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['autocreate'] = 'Los cursos pueden crearse automáticamente si hay matriculaciones en un curso que aún no existe en Moodle.';
@@ -21,6 +21,7 @@ $string['enrol_database_autocreation_settings'] = 'Creación automática de nuev
 $string['enrolname'] = 'Base de datos externa';
 $string['general_options'] = 'Opciones genereales';
 $string['host'] = 'Nombre del servidor de la base de datos.';
+$string['ignorehiddencourse'] = 'Si selecciona \'sí\', los usuarios no serán matriculados en los cursos que no están disponibles para los estudiantes.';
 $string['local_fields_mapping'] = 'Campos de la base de datos de Moodle (local)';
 $string['localcoursefield'] = 'Nombre del campo en la tabla de cursos que se usa para emparejar las entradas en la base de datos remota (e.g., número ID).';
 $string['localrolefield'] = 'Nombre del campo en la tabla de roles que se usa para emparejar las entradas en la base de datos remota (e.g., nombre corto).';
