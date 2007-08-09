@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007080300)
+      // grades.php - created with Moodle 1.9 dev (2007080903)
 
 
 $string['activities'] = '活動';
@@ -174,6 +174,7 @@ $string['hideeyecons'] = '表示/非表示アイコンを隠す';
 $string['hidefeedback'] = 'フィードバックを隠す';
 $string['hidegroups'] = 'グループを隠す';
 $string['hidelocks'] = 'ロックを隠す';
+$string['hidenooutcomes'] = 'アウトカムを表示する';
 $string['hideranges'] = '範囲を隠す';
 $string['highgradeascending'] = '高評点の昇順で並び替え';
 $string['highgradedescending'] = '高評点の降順で並び替え';
@@ -238,6 +239,8 @@ $string['numberofgrades'] = '評定数';
 $string['onascaleof'] = '尺度の適用範囲: $a->grademin - $a->grademax';
 $string['operations'] = '操作';
 $string['outcome'] = 'アウトカム';
+$string['outcomecategory'] = 'カテゴリ内にアウトカムを作成する';
+$string['outcomecategorynew'] = '新しいカテゴリ';
 $string['outcomecreate'] = '新しいアウトカム項目の追加';
 $string['outcomeitem'] = 'アウトカム項目';
 $string['outcomeitemsedit'] = 'アウトカム項目の編集';
@@ -305,6 +308,7 @@ $string['showfeedback'] = 'フィードバックを表示する';
 $string['showgroups'] = 'グループを表示する';
 $string['showhiddenitems'] = '隠し項目を表示する';
 $string['showlocks'] = 'ロックを表示する';
+$string['shownooutcomes'] = 'アウトカムを隠す';
 $string['showranges'] = '範囲を表示する';
 $string['showuserimage'] = 'ユーザプロフィールイメージを表示する';
 $string['sitedefault'] = 'サイトデフォルト ($a)';
