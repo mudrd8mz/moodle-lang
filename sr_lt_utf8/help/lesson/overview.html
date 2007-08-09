@@ -1,0 +1,94 @@
+﻿<h1>Pregled</h1>
+
+<ol>
+<li>Lekcija je sačinjena od nekog broja <b>stranica</b> i opciono <b>tabela grana</b>.</li>
+<li>Stranica sadrži neki <b>sadržaj</b> i prirodno završava sa <b>pitanjem</b>. Stoga naziv <b>Stranica Pitanja</b>.</li>
+<li>Za Esejna Pitanja ne postoji odgovor, samo rezultat, povratne informacije i skok na stranicu.</li>
+<li>Svaki odgovor može imati kratak tekst koji je prikazan ako je odgovor izabran. Ovaj kratak tekst se naziva <b>odziv</b>.</li>
+<li>Takođe, svakom pitanju je pridružen <b>skok</b>. Skok može biti relativan -
+    ova stranica, sledeća stranica - ili apsolutan - označavajući bilo koju od stranica
+    u lekciji ili završetak lekcije.</li>
+<li>Po podrazumevanim vrednostima, prvi odgovor skače na <b>sledeću stranicu</b> u lekciji. Potonji
+	odgovori skaču na istu stranicu. To jest, studentu je ponovo prikazana ista stranica lekcije
+	ukoliko nije izabrao prvi odgovor. Ukoliko ste kreirali grozd sa krajem grozda, i pitanje je unutar
+	njega, možete takođe skočiti i ka Neviđenom Pitanju unutar grozda. Ova mogućnost neće biti prikazana
+	ukoliko niste u grozdu. Skup pitanja možete u bilo kom trenutku obuhvatiti grozdom i krajem grozda.</li>
+<li>Sledeća stranica je određena <b>logičkim redosledom</b> lekcije. To je
+    redosled stranica kako ga vidi nastavnik. Ovaj redosled se može izmeniti pomeranjem stranica unutar lekcije.</li>
+<li>Lekcija takođe poseduje i <b>navigacioni redosled</b>. Ovo je redosled stranica kako ih vide studenti.
+	Ustanovljen je skokovima određenim za pojedinačne odgovore i može se uveliko
+	razlikovati od logičkog redosleda. (Iako skokovima <i>nisu</i> izmenjene njihove podrazumevane
+	vrednosti ova dva redosleda su veoma povezana.) Nastavnik ima mogućnost da proveri navigacioni redosled.</li>
+<li>Kada su prikazani studentima, odgovori su uglavnom izmešani. To jest, prvi odgovor sa nastavnikove
+	strane gledišta ne mora obavezno biti i prvi odgovor u listi prikazanoj studentima. (Dalje, svaki
+	put kada je isti skup odgovora prikazan oni će se verovatno pojaviti u drugom redosledu.)
+	Izuzetak su skupovi odgovora za pitanja kod kojih se tipovi poklapaju, tu su odgovori prikazani
+	u istom redosledu kako ih je nastavnik uneo.</li>
+<li>Broj odgovora može varirati od stranice do stranice. Na primer, dozvoljeno je da neke stranice završavaju
+	tačno/netačno pitanjima dok druge imaju pitanja sa jednim tačnim odgovorom i tri, nazovimo ih tako, smetala.</li>
+<li>Moguće je postaviti stranicu bez ijednog odgovora. Studentima se prikazuje <b>Nastavi</b> veza umesto skupa izmešanih odgovora.</li>
+<li>Ukoliko je prilagođeno bodovanje isključeno: u svrhu ocenjivanja lekcija, <b>tačni</b> odgovori su oni koji
+    skaču na stranicu koja je <i>niže</i> u logičkom redosledu nego trenutna stranica.
+    <b>Netačni</b> odgovori su oni koji ili skaču na istu stranicu ili na stranicu
+    <i>više</i> u logičkom redosledu nego trenutna stranica. Stoga, ako skokovi <i>nisu</i> izmenjeni,
+	prvi odgovor je tačan odgovor a ostali odgovori su pogrešni odgovori.
+	<br /><br />
+	Ukoliko je prilagođeno bodovanje uključeno: rangiranje odgovora je određeno vrednošću odgovora u poenima,
+	ukupni zarađeni poeni služe kao deo ukupne vrednosti lekcije u poenima, i idu do 100%.</li>
+<li>Pitanja koja mogu imati više od jednog tačnog odgovora. Na primer, ako dva odgovora skaču na sledeću stranu onda
+	se bilo koji od njih uzima za tačan. (Iako je ista ciljna stranica prikazana studentima, odzivi prikazani
+	na putu do te stranice mogu biti različiti za ta dva odgovora.)
+<li>Sa nastavnikovog gledišta lekcije ispravni odgovori imaju podvučene Nazive Odgovora.</li>
+<li><b>Tabele Grana</b> su jednostavno stranice koje imaju skup veza ka drugim stranicama u lekciji.
+	Obično lekcija počinje sa tabelom grana koja služi kao <b>Sadržaj</b>.</li>
+<li>Svaka veza u tabeli grana ima dve komponente, opis i naslov stranice ka kojoj vodi.</li>
+<li>Tabela grana efektivno deli lekciju u određeni broj <b>grana</b> (ili sekcija). Svaka grana može sadržati
+	neki broj stranica (koje su verovatno vezane za istu temu). Kraj grane je obično označen
+	stranicom <b>Kraj Grane</b>. To je posebna stranica koja, po podrazumevanom, vraća studenta natrag
+	ka prethodnoj tabeli grana. (&quot;Povratni&quot; skok u stranici Kraj Grane se može izmeniti,
+	ukoliko je potrebno, vršenjem izmene u samoj stranici.)</li>
+<li>U lekciji može postojati više nego jedna tabela grana. Na primer, lekcija bi se mogla zgodno urediti tako
+	da specijalistički poeni budu podgrane u okviru grana glavne teme.</li>
+<li>Važno je dati studentima način da završe lekciju. Ovo se može postići uključivanjem veze &quot;Kraj Lekcije&quot;
+	u glavnoj grani tabele. Ta veza skače ka (imaginarnoj) stranici <b>Kraj Lekcije</b>. Druga opcija je da
+	poslednju granu u lekciji (ovde se &quot;poslednja&quot; koristi u smislu logičkog redosleda) jednostavno
+	nastavi ka kraju lekcije, tj. da <i>ne bude</i> prekinuta stranicom Kraj Grane.</li>
+<li>Ukoliko je prilagođeno rangiranje isključeno, kada lekcija sadrži jednu ili više tabele grana preporučeno je
+	podesiti parametar &quot;Minimali broj Pitanja&quot; na neku razumnu vrednost.
+	To će postaviti donju granicu na broj stranica koje se vide kada se izračunava ocena.
+	Bez ovog parametra student može posetiti jednu granu u lekciji, odgovoriti tačno na sva pitanja
+	i napustiti lekciju uz maksimalnu ocenu.
+	<br /><br />
+	Ukoliko je prilagođeno rangiranje uključeno, studenti se ocenjuju na osnovu broja poena koje su zaradili,
+	u vidu procenta ukupnog broja poenta lekcije.</li>
+<li>Dalje, ako je prilagođeno rangiranje isključeno, kada postoji tabela grana student ima priliku da
+	ponovo poseti istu granu više od jednog puta. Ipak, ocena se računa samo za <i>jedinstvena</i>
+	pitanja na koja je dat odgovor. Stoga učestalo odgovaranje na isti skup pitanja <i>ne povećava</i> ocenu.
+	(U stvari je obrnut slučaj, to umanjuje ocenu jer se broj posećenih stranica tretira kao denominator
+	ako se u računanju ocene uzimaju u obzir i ponavljanja.) Da bi pružili studentima pravi uvid
+	u njihov napredak u lekciji, prikazuju im se detalji o broju pitanja na koja su odgovorili tačno,
+	broju posećenih stranica, i njihovu trenutnu ocenu na svakoj grani stranice
+	<br /> <br />
+	Kada je prilagođeno rangiranje uključeno, student može ponovo posetiti pitanje ukoliko mu navigaciona
+	putanja to dozvoljava, i ponovo zaraditi poen(e) za to pitanje, ukoliko je broj pokušaja veći od 1. Da bi
+	sprečili ovo, podesite broj pokušaja na 1.</li>
+<li>Do <b>završetka lekcije</b> se stiže ili eksplicitno skačući na tu lokaciju ili skačući na sledeću stranicu
+	sa poslednje (logički) stranice lekcije. Kada je prilagođeno rangiranje isključeno, kada se dosegne završetak
+	lekcije, student dobija "Čestitamo!" poruku i prikazuje mu se njegova ocena. Ocena se izračunava po formuli
+	(broj tačno odgovorenih pitanja / broj posećenih stranica) * ocena lekcije. 
+	Kada je prilagođeno rangiranje uključeno, ocena predstavlja procenat % ukupnih poena
+	(npr. 3 poena zarađenih na lekciji vrednoj 3 poenta = 100% od 3 poena).</li>
+<li>Ukoliko završetak lekcije <i>nije</i> dosegnut a student jednostavno napusti lekciju,
+	kada joj se ponovo vrati studentu se daje na izbor da ili počne ispočetka ili da nastavi
+	lekciju tamo gde su dali poslednji tačan odgovor.</li>
+<li>Za lekciju koja dozvoljava ponavljanja, nastavnik ima izbor korišćenja najbolje ocene ili proseka ocena kao
+	&quot;finalne&quot; ocene. Ta ocena se prikazuje na stranici Ocene, na primer.</li>
+<li>Stranice u grozdovima: grozd predstavlja skup pitanja od kojih se slučajnim odabirom može izabrati jedno ili više.
+	Grozdovi bi se trebali završavati stranicom Kraj Grozda zarad najboljih rezultata (u drugim slučajevima
+	studenti tretiraju stranicu Kraj Lekcije kao stranicu Kraj Grozda). Pitanja u okviru grozda se
+	odabiraju slučajnim principom tako što izabiramo "Slučajno Pitanje unutar Grozda" kao skok. Pitanja
+	u okviru grozda mogu imati vezu ili ka stranici Kraj Grozda kao izlaz iz grozda, ili vezu
+	kao do sada nepregledanom pitanju unutar grozda, ili vezu kao bilo kojoj drugoj stranici
+	u lekciji. Ovo takođe omogućava kreiranje scenarija sa slučajno odabranim elementom
+	koristeći modul lekcija.</li>
+</ol>

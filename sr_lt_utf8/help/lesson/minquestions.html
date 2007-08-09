@@ -1,0 +1,15 @@
+﻿<h1>Minimalni broj pitanja u lekciji</h1>
+
+<p>Kada lekcija sadrži više od jedne Tabele Grana nastavnik bi trebao da postavi ovaj parametar. Njegova vrednost postavlja donju granicu na broj viđenih pitanja kada se računa ocena. Ovaj parametar <b>ne</b> prisiljava studente da odgovore toliko pitanja u lekciji (kolika je vrednost parametra)</p>
+
+<p>Na primer, postavljanje ovog parametra na, recimo, 20, će osigurati da se daju ocene kao da su studenti videli <b>najmanje ovaj</b> broj pitanja. Uzmimo primer studenta koji gleda u jednu granu lekcije sa, recimo, 5 stranica i tačno odgovara na sva pridružena pitanja. Neka tada student odluči da završi lekciju (pretpostavka je da je ta opcija u "najvišem nivou" Tabele Grana).
+
+Ako je parametar ostao nepodešen, ocena studenta bi bila 5 od 5, tj. 100%. Ipak, ako podesimo parametar na 20 ocena studenta će se smanjiti na 5 od 20, tj. 25%. U slučaju da neki drugi student koji prolazi kroz sve grane i vidi, npr. 25 stranica i odgovori tačno na sva osim dva pitanja, onda će njegova ocena biti 23 od 25, tj. 92%.</p>
+
+<p>Ako je ovaj parametar u upotrebi, onda bi otvarajuća stranica lekcije trebala reći nešto nalik:</p>
+
+<p><blockquote>U ovoj lekciji se od vas očekuje da pokušate odgovoriti na makar n pitanja. Možete odgovoriti i na više ukoliko želite. Ipak, ako  odgovorite na manje od n pitanja vaša ocena će biti računata kao da ste odgovorili na svih n (gde su neodgovorena pitanja netačna).</blockquote></p>
+
+<p>Gde je očigledno &quot;n&quot; zamenjeno sa pravom vrednošću ovog parametra.</p>
+
+<p>Kada je ovaj parametar postavljen studentima je rečeno koliko na pitanja su pokušali da odgovore i na koliko pitanja se od njih očekuje da daju odgovore</p>
