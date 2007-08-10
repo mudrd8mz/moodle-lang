@@ -4,8 +4,9 @@
 
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
-$string['decpoint'] = '.';
+$string['decsep'] = '.';
 $string['firstdayofweek'] = '0';
+$string['listsep'] = ',';
 $string['locale'] = 'ja_JP.UTF-8';
 $string['localewin'] = 'Japanese_Japan.932';
 $string['localewincharset'] = 'CP932';
@@ -24,6 +25,5 @@ $string['strftimetime'] = '%%H:%%M';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = '日本語';
-$string['thousandsep'] = ',';
 
 ?>
