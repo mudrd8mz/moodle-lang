@@ -4,8 +4,9 @@
 	  
 $string['alphabet'] = 'А,Б,В,Г,Д,Ђ,Е,Ж,З,И,J,K,Л,Љ,М,Н,O,П,Р,С,Т,Ћ,У,Ф,Х,Ц,Ч,Џ,Ш';
 $string['backupnameformat'] = '%%d.%%m.%%Y.-%%H.%%M';
-$string['decpoint'] = ',';
+$string['decsep'] = ',';
 $string['firstdayofweek'] = '1';
+$string['listsep'] = ';';
 $string['locale'] = 'sr_CS.UTF-8';
 $string['localewin'] = 'Serbian (Cyrillic)_Serbia.1251';
 $string['localewincharset'] = 'WINDOWS-1251';
@@ -24,6 +25,5 @@ $string['strftimetime'] = '%%H:%%M';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Српски';
-$string['thousandsep'] = '.';
 
 ?>

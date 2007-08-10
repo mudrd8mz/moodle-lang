@@ -1,7 +1,9 @@
 <?php
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
+$string['decsep'] = ',';
 $string['firstdayofweek'] = '0';
+$string['listsep'] = ';';
 $string['locale'] = 'hr_HR.UTF-8';
 $string['localewin'] = 'Croatian_Croatia.1250';
 $string['localewincharset'] = 'WINDOWS-1250';

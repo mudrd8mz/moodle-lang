@@ -4,6 +4,8 @@
 
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,Æ,Ø,Å';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
+$string['decsep'] = ',';
+$string['listsep'] = ';';
 $string['locale'] = 'nn_NO.UTF-8';
 $string['localewin'] = 'Norwegian-Nynorsk_Norway.1252';
 $string['localewincharset'] = 'WINDOWS-1252';

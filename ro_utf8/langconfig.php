@@ -1,4 +1,6 @@
 <?php
+$string['decsep'] = ',';
+$string['listsep'] = ';';
 $string['locale'] = 'ro_RO.UTF-8';
 $string['localewin'] = 'Romanian_Romania.1250';
 $string['localewincharset'] = 'WINDOWS-1250';

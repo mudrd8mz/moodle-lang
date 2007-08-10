@@ -1,7 +1,9 @@
 <?php
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
-$string['firstdayofweek'] = 'E';
+$string['decsep'] = ',';
+$string['firstdayofweek'] = '1'; // 1 means Monday
+$string['listsep'] = ';';
 $string['locale'] = 'et_EE.UTF-8';
 $string['localewin'] = 'Estonian_Estonia.1257';
 $string['localewincharset'] = 'WINDOWS-1257';

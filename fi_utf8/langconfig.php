@@ -3,7 +3,9 @@
 
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,Å,Ä,Ö';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
+$string['decsep'] = ',';
 $string['firstdayofweek'] = '1';
+$string['listsep'] = ';';
 $string['locale'] = 'fi_FI.UTF-8';
 $string['localewin'] = 'Finnish_Finland.1252';
 $string['localewincharset'] = 'WINDOWS-1252';

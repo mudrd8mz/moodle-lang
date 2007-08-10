@@ -1,7 +1,7 @@
 <?php
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,Ñ,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
-$string['firstdayofweek'] = 'Astelehena';
+$string['firstdayofweek'] = '1'; // means monday
 $string['locale'] = 'eu.UTF-8';
 $string['localewincharset'] = 'WINDOWS-1252';
 $string['oldcharset'] = 'ISO-8859-1';

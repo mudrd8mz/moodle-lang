@@ -1,6 +1,8 @@
 <?php
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
+$string['decsep'] = ',';
 $string['firstdayofweek'] = '1';
+$string['listsep'] = ';';
 $string['locale'] = 'lt_LT.UTF-8';
 $string['localewin'] = 'Lithuanian_Lithuania.1257';
 $string['localewincharset'] = 'WINDOWS-1257';

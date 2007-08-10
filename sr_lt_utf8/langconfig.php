@@ -2,10 +2,11 @@
       // langconfig.php - created with Moodle 1.8.2+
 
 	  
-$string['alphabet'] = 'A,B,C,C,C,D,Ð,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,Š,T,U,V,W,X,Y,Z,Ž';
+$string['alphabet'] = 'A,B,C,C,C,D,ï¿½,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,ï¿½,T,U,V,W,X,Y,Z,ï¿½';
 $string['backupnameformat'] = '%%d.%%m.%%Y.-%%H.%%M';
-$string['decpoint'] = ',';
+$string['decsep'] = ',';
 $string['firstdayofweek'] = '1';
+$string['listsep'] = ';';
 $string['locale'] = 'bs_BA.UTF-8';
 $string['localewin'] = 'Serbian (Latin)_Serbia.1250';
 $string['localewincharset'] = 'WINDOWS-1250';
@@ -24,6 +25,5 @@ $string['strftimetime'] = '%%H:%%M';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Srpski';
-$string['thousandsep'] = '.';
 
 ?>

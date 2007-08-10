@@ -3,7 +3,9 @@
 
 
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
+$string['decsep'] = ',';
 $string['firstdayofweek'] = '0';
+$string['listsep'] = ';';
 $string['locale'] = 'el_GR.UTF-8';
 $string['localewin'] = 'Greek_Greece.1253';
 $string['localewincharset'] = 'WINDOWS-1253';
