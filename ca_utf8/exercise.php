@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.9 dev (2007062008)
+      // exercise.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['absent'] = 'Absent';
@@ -36,7 +36,7 @@ $string['description'] = 'Descripció';
 $string['descriptionofexercise'] = 'En l\'assignació d\'un exercici, la seva descripció o la tasca feta per/pels $a es posarà en un document  word o en un arxiu HTML. Aquest arxiu es lliurarà a l\'exercici abans que es mostri la tasca a $a. També és possible crear un conjunt de variables en el mateix exercici o tasca, a l\'igual com arxius HTML o documents Word i després lliurar-los a l\'exercici abans que es mostri a/als $a.';
 $string['detailsofassessment'] = 'Detalls de l\'avaluació';
 $string['displayoffinalgrades'] = 'Qualificacions finals';
-$string['doubleupload'] = 'Avís: Aquest lliurament possiblement s\'ha lliurat dues vegades. Aneu a la pàgina d\'Administració i reviseu si hi ha hagut dos lliuraments d\'aquest usuari en un termini curt de temps. Suprimiu un dels dos lliuraments abans de seguir endavant.';
+$string['doubleupload'] = 'Avís: Aquest lliurament possiblement s\'ha tramès dues vegades. Aneu a la pàgina d\'Administració i reviseu si hi ha hagut dos lliuraments d\'aquest usuari en un termini curt de temps. Suprimiu un dels dos lliuraments abans de seguir endavant.';
 $string['duedate'] = 'Data convinguda';
 $string['edit'] = 'Edita';
 $string['editingassessmentelements'] = 'Edició dels elements d\'avaluació';

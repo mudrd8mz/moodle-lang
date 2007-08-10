@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007080103)
+      // moodle.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['action'] = 'Acció';
@@ -168,7 +168,7 @@ $string['backupversion'] = 'Versió de la còpia';
 $string['block'] = 'Bloc';
 $string['blockconfiga'] = 'S\'està configurant un bloc $a';
 $string['blockconfigbad'] = 'Aquest bloc no s\'ha implementat correctament i no pot proporcionar una interfície de configuració.';
-$string['blockdeleteconfirm'] = 'Aneu a suprimir completament el bloc \'$a\'. Això`suprimira completament tots els registres de la base de dades associats amb aquest bloc. Esteu SEGUR que voleu continuar?';
+$string['blockdeleteconfirm'] = 'Esteu a punt de suprimir completament el bloc \'$a\'. Això suprimirà completament tots els registres de la base de dades associats amb aquest bloc. Esteu SEGUR que voleu continuar?';
 $string['blockdeletefiles'] = 'S\'han suprimit tots els registres de la base de dades associats amb el bloc \'$a->block\'. Per tal de completar la supressió (i impedir que el bloc es reinstal·li automàticament), ara hauríeu de suprimir aquest directori del servidor: $a->directory';
 $string['blocks'] = 'Blocs';
 $string['blocksaddedit'] = 'Afegeix/edita blocs';
@@ -524,7 +524,7 @@ $string['enrolledincourse'] = 'Inscrit al curs \"$a\"';
 $string['enrolledincoursenot'] = 'No inscrit al curs  \"$a\"';
 $string['enrollfirst'] = 'Per poder usar aquestes activitats del lloc abans heu d\'estar inscrits en algun dels cursos';
 $string['enrolme'] = 'Inscriu-me en aquest curs';
-$string['enrolmentconfirmation'] = 'Aneu a inscriure-us en aquest curs.<br />Esteu segur que voleu fer això?';
+$string['enrolmentconfirmation'] = 'Esteu a punt d\'inscriure-us en aquest curs.<br />Esteu segur/a que voleu fer-ho?';
 $string['enrolmentend'] = 'La inscripció es tanca';
 $string['enrolmentkey'] = 'Clau d\'inscripció';
 $string['enrolmentkeyfrom'] = 'Aquest curs requereix una clau d\'inscripció - una contrasenya<br />d\'un sol ús que us ha d\'haver proporcionat $a';
@@ -880,7 +880,7 @@ $string['missingteacher'] = 'Heu de triar alguna cosa';
 $string['missingurl'] = 'Falta l\'URL';
 $string['missingusername'] = 'Falta el nom d\'usuari';
 $string['modified'] = 'Modificat';
-$string['moduledeleteconfirm'] = 'Aneu a suprimir completament el mòdul \'$a\'. Això suprimirà tots els registres de la base de dades associats amb aquest mòdul d\'activitats. Esteu SEGUR que voleu continuar?';
+$string['moduledeleteconfirm'] = 'Esteu a punt de suprimir completament el mòdul \'$a\'. Això suprimirà tots els registres de la base de dades associats amb aquest mòdul d\'activitats. Esteu segur/a que voleu continuar?';
 $string['moduledeletefiles'] = 'S\'han suprimit tots els registres de la base de dades associats amb el mòdul \'$a->module\'. Per tal de completar la supressió (i impedir que el mòdul es reinstal·li automàticament), ara hauríeu de suprimir aquest directori del servidor: $a->directory';
 $string['modulesetup'] = 'S\'estan configurant les taules de mòduls';
 $string['modulesuccess'] = 'S\'han configurat correctament les taules $a';
@@ -1522,8 +1522,8 @@ $string['yahooid'] = 'Yahoo ID';
 $string['year'] = 'any';
 $string['years'] = 'anys';
 $string['yes'] = 'Sí';
-$string['youareabouttocreatezip'] = 'Aneu a crear un fitxer zip que conté';
-$string['youaregoingtorestorefrom'] = 'Aneu a restaurar des de';
+$string['youareabouttocreatezip'] = 'Es crearà un fitxer zip que conté';
+$string['youaregoingtorestorefrom'] = 'S\'engegarà el procés de restauració de';
 $string['youneedtoenrol'] = 'Per a realitzar aquesta acció us heu d\'inscriure al curs';
 $string['yourlastlogin'] = 'La vostra darrera entrada va ser';
 $string['yourself'] = 'vós mateix';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.6 Beta 2 (2006040500)
+      // dialogue.php - created with Moodle 1.9 dev (2007080202)
 
 
 $string['addmynewentries'] = 'Afegeix les meves entrades noves';
@@ -10,7 +10,7 @@ $string['allowstudentdialogues'] = 'Permet diàlegs d\'estudiant a estudiant';
 $string['close'] = 'Tanca';
 $string['closed'] = 'Tancat';
 $string['closeddialogues'] = 'Diàlegs tancats';
-$string['confirmclosure'] = 'Aneu a tancar un diàleg amb $a. Els diàlegs tancats no es poden tornar a obrir. Si tanqueu aquest diàleg el podreu veure, però no el podreu reprendre i haureu d\'obrir un diàleg nou per continuar \"xerrant\" amb aquesta persona.<br /><br />Esteu segur que voleu tancar aquest diàleg?';
+$string['confirmclosure'] = 'Esteu a punt de tancar un diàleg amb $a. Els diàlegs tancats no es poden tornar a obrir. Si tanqueu aquest diàleg el podreu veure, però no el podreu reprendre i haureu d\'obrir un diàleg nou per seguir conversant amb aquesta persona.<br /><br />Esteu segur que voleu tancar aquest diàleg?';
 $string['deleteafter'] = 'Suprimeix els diàlegs tancats després d\'aquests dies';
 $string['dialogueclosed'] = 'Diàleg tancat';
 $string['dialogueintro'] = 'Introducció al diàleg';
