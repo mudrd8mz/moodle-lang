@@ -10,7 +10,7 @@ $string['analysisoptions']  = 'шинжилгээ сонголт ';
 
 $string['attemptselection']  = 'оролдлого -д analyze per хэрэглэгч ';
 
-$string['lowmarkslimit']  = 'don't шинжлэх хэрвээ... бол оноо байх бага хэмжээ than: ';
+$string['lowmarkslimit']  = 'don\'t шинжлэх хэрвээ... бол оноо байх бага хэмжээ than: ';
 
 $string['attemptsall']  = 'бүгд оролдлого ';
 
@@ -38,7 +38,7 @@ $string['qcounttitle']  = 'q. тоолол ';
 
 $string['qtypetitle']  = 'q. төрөл ';
 
-$string['responsestitle']  = 'answer's текст ';
+$string['responsestitle']  = 'answerq\'s текст ';
 
 $string['rfractiontitle']  = 'partial<br />credit ';
 
