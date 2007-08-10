@@ -1,0 +1,53 @@
+﻿<h1>Analiza pitanja</h1>
+
+<p>Ova tabela prikazuje obrađene podatke testana na način pogodan za analizu i procenu the 
+performance svakog pitanja for the function of assessment. Korišćeni statistički parametri su 
+izračunati kako je to objašnjeno u klasičnoj teoriji testiranja (ref. 1)</p>
+
+<p><b>Indeks lakoće (% Tačnih)</b></p>
+<p>Ovaj indeks pokazuje koliko su pitanja laka odnosno teška za ispitanike. 
+Računa se kao:
+<br />
+FI = (X<sub>average</sub>) / X<sub>max</sub> 
+<br />
+
+gde je X<sub>average</sub> srednja vrednost poena koje su dobili svi ispitanici dajući odgovar na pitanje, <br>
+a X<sub>max</sub> je maksimalan broj poena koji mogao biti postignut za za to pitanje.<br>
+Ukoliko je moguće pitanja distribuirti dihotomno na kategorije tačno / netačno, 
+ovaj parametar odgovara procentu korisnika koji su dali tačan odgovor na pitanje. </p>
+
+</p>
+<p><b>Standardna Devijacija (SD)</b></p>
+<p>Ovaj parametar meri raspodelu odgovora u populaciji ispitanika. Ako svih korisnici imaju 
+isti odgovor, onda je SD=0. SD se izračunava kao statistička standardna devijacija za uzorak pojedinačnih rezultata(postignuto/maksimalno) za svako konkretno pitanje.  
+</p>
+
+<p><b>Indeks diskriminativnosti(DI)</b></p>
+<p>Ovaj indeks predstavnja grubi indikator postignuća po svakom pitanju kako bi se razdvojili proficient <i>vs.</i> less-proficient users. Indeks se izračunava tako što se prvo svi ispitanici dele u tri grupe prema ukupnom broju poena na testu. Potom se izračunava prosečan broj osvojenih poena na svakom pitanje za trećinu ispitanika koji su imali najbolji rezultat na testu odnosno trećinu sa najlošijim rezultatom. Matematički gledano jednnačina glasi: 
+<br/>
+DI = (X<sub>top</sub> - X<sub>bottom</sub>)/ N 
+<br/>
+
+gde je X<sub>top</sub> zbir pojedinačnih poena (postignuto/maksimalno) koji na tom pitanju dobila trećina ispitanika sa najvišom ocenom na čitavom testu (tj. broj tačnih odgovorau toj grupi), <br/>
+a X<sub>bottom</sub>) je analogno zbir  poena trećine ispitanika sa najnižim rezultatom na testu.</p> 
+
+<p>Ovaj parametar može imati vrednost izmeđ +1 i -1.  
+Ukoliko indeks ima vrednost ispod 0.0 to znači da je više slabijih učenika dalo tačan odgovor na konkretno pitanje od onih koji su imali najbolji rezultat na testu.  
+Takva pitanja bi trebalo odbaciti kao nepouzdana.  U stvari, ovakva pitanja smanjuju tačnost sveukupnog rezultata testa. </p>
+
+<p><b>Koeficijent diskriminativnosti (DC)</b></p>
+<p>Ovo je još jedan paramaetar moći pitanja da razdvoji dobre od loših učenika.<br/>
+Koeficijent diskriminacije je korelacioni koeficijent između rezulatata na pitanju i rezultata na čitavom testu. Izračunav se kao:
+
+<br/>
+DC = Sum(xy)/ (N * s<sub>x</sub> * s<sub>y</sub>) 
+<br/>
+gde je Sum(xy) zbir proizvoda devijacija za rezultate na pitanju i svekupnog rezultat na testu, <br>
+N je broj odgovora koji su korisnici dali na to pitanje<br/>
+s<sub>x</sub> je standardna devijacija delimičnog skora za to pitanje a, <br/>
+s<sub>y</sub> je standardna devijacija rezultata testa u celini.
+</p>
+<p>I ovaj parametar može imati vrednost između +1 i -1. Pozitivne vrednosti ukazuju na pitanja koja 
+izdvajaju dobre učenike, dok negativne označavaju pitanja na koje su više tačnih odgovora dali oni sa najnižim ocenama. Pitanja sa negativnim koeficijentom diskriminativnosti are answered incorrectly by the seasoned learners 
+i na taj način ona su ustvari kazna za najbolje učenike. Ova pitanja bi trebalo izbegavati.<br/>
+Prednost koeficijenta diskriminativnosti u odnosu na indeks diskriminativnosti je u tome što koeficijent koristi informacije iz celokupne populacije ispitanika, a ne samo iz gornje i donje trećine. Prema tome, ovaj parametar može biti senzitivniji za detektovanje karakteristika pitanja.</p>
