@@ -1,5 +1,6 @@
 <?php // $Id$ 
 
+$string['addingmultichoice'] = 'Ajouter une question à choix multiples';
 $string['addmorechoiceblanks'] = 'Emplacement pour {no} réponses supplémentaires';
 $string['answerhowmany'] = 'Une seule ou plusieurs réponses&nbsp;?';
 $string['answernumbering'] = 'Numéroter les choix&nbsp;?';

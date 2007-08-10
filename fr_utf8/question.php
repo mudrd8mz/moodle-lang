@@ -1,8 +1,37 @@
 <?php // $Id$
 
+$string['adminreport'] = 'Rapport sur les problèmes possibles dans votre banque de questions.';
+$string['broken'] = 'Ce lien est «&nbsp;cassé&nbsp;», il pointe vers un fichier inexistant.';
+$string['byandon'] = 'par <em>$a->user</em> à <em>$a->time</em>';
 $string['categorydoesnotexist'] = 'Cette catégorie n\'existe pas';
+$string['categorycurrent'] = 'Catégorie';
+$string['categorycurrentuse'] = 'Utiliser cette catégorie';
+$string['categorymoveto'] = 'Enregistrer dans la catégorie';
+$string['changepublishstatuscat'] = 'La <a href=\"$a->caturl\">catégorie «&nbsp;$a->name&nbsp;»</a> du cours «&nbsp;$a->coursename&nbsp;» verra son état modifié de <strong>$a->changefrom à $a->changeto</strong>.';
+$string['cwrqpfs'] = 'Questions aléatoires sélectionnant des questions dans les sous-catégories.';
+$string['cwrqpfsinfo'] = '<p>Lors de la mise à jour à Moodle 1.9, les catégories de questions seront séparées en différents contextes. Certaines catégories et questions de votre site verront leur état de partage être modifié. Cette opération est rarement nécessaire, lorsque l\'une ou plusieurs questions aléatoires d\'un test sont réglées de façon à sélectionner des questions parmi catégories partgées et non partagées (et c\'est le cas sur ce site). Cette situation survient quand une question aléatoire puise dans des sous-catégories et l\'une de ces sous-catégories a un  stat de partage différent de la catégorie parente dans laquelle la question aléatoire a été créée.</p><p>Les catégories de question suivantes, d\'où sont puisées des questions aléatoires à partir de questions dans une catégorie parente verront leur état de partage modifié de façon à correspondre à l\'état de partage de la catégorie parente lors de la mise à jour à Moodle 1.9. Les catégories suivantes sont concernées par ce changement. Les questions affectées par ce changement continueront à fonctionner dans tous les tests existants, jusqu\'à ce que vous les retiriez de ces tests.';
+$string['cwrqpfsnoprob'] = 'Aucune catégorie de question de votre site n\'est affectée par le problème des «&nbsp;Questions aléatoires sélectionnant des questions dans les sous-catégories.»';
+$string['copy']= 'Copier depuis $a et modifier les liens.';
+$string['created'] = 'Créée';
+$string['createdmodifiedheader'] = 'Créée / modifiée';
+$string['defaultfor'] = 'Défaut pour $a';
+$string['defaultinfofor'] = 'La catégorie par défaut pour les questions partagées dans le contexte «&nbsp;$a&nbsp;».';
+$string['donothing']= 'Ne pas copier ou déplacer les fichiers, ni modifier les liens.';
+$string['editingcategory'] = 'Modifier une catégorie';
 $string['editingquestion'] = 'Modifier une question';
+$string['erroraccessingcontext'] = 'Impossible d\'accéder au contexte';
+$string['errorfilecannotbecopied'] = 'Impossible de copier le fichier $a.';
+$string['errorfilecannotbemoved'] = 'Impossible de déplacer le fichier $a.';
+$string['errorfileschanged'] = 'Erreur&nbsp;: certains fichiers liés dans des questions ont été modifiés depuis l\'affichage du formulaire.';
+$string['exportcategory'] = 'Exporter catégorie';
+$string['filesareasite']= 'la zone des fichiers du site';
+$string['filesareacourse']= 'la zone des fichiers du cours';
+$string['filestomove']= 'Déplacer / copier les fichiers vers $a&nbsp;?';
 $string['fractionsnomax'] = 'L\'une des réponses doit donner un score de 100%% afin qu\'il soit possible d\'obtenir la totalité des points pour cette question.';
+$string['getcategoryfromfile'] = 'Obtenir la catégorie à partir du fichier';
+$string['getcontextfromfile'] = 'Obtenir le contexte à partir du fichier';
+$string['ignorebroken'] = 'Ignorer les liens cassés';
+$string['linkedfiledoesntexist'] = 'Le fichier lié $a n\'existe pas';
 $string['makechildof'] = 'Déplacer comme descendant de $a';
 $string['maketoplevelitem'] = 'Déplacer au plus haut niveau';
 $string['missingimportantcode'] = 'Il manque à ce type de question un code important&nbsp;: $a.';

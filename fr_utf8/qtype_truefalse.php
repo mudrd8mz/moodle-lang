@@ -1,5 +1,6 @@
 <?php // $Id$ 
 
+$string['addingtruefalse'] = 'Ajouter une question Vrai/Faux';
 $string['correctanswer'] = 'Réponse correcte';
 $string['editingtruefalse'] = 'Modifier une question Vrai/Faux';
 $string['false'] = 'Faux';
