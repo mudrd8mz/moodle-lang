@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // enrol_ldap.php - created with Moodle 1.8 + (2007021503)
 
 

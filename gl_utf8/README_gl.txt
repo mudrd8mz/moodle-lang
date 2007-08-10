@@ -1,4 +1,4 @@
-﻿Language: Galician
+Language: Galician
 Translators: imaxin|localiza
 Contact: localiza@imaxin.com
 ----------------------
