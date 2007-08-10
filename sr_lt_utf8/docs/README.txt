@@ -1,4 +1,4 @@
-﻿Ovaj direktorijum je ranije sadržao mnoštvo dokumentacije u HTML obliku.
+Ovaj direktorijum je ranije sadržao mnoštvo dokumentacije u HTML obliku.
 
 Sad je sve to uklonjeno jer koristi Moodle Docs wiki.
 

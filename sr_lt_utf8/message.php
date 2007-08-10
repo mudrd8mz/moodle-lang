@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // message.php - created with Moodle 1.8.1+ (2007021510)
 
 

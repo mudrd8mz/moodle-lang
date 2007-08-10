@@ -1,4 +1,4 @@
-﻿<h1>O urejevalniku obogatenega besedila HTML</h1>
+<h1>O urejevalniku obogatenega besedila HTML</h1>
 
 <p>Razpoložljivost: <b><?php  if (!$CFG->htmleditor) { print_string("htmleditordisabledadmin"); } else if (!$USER->htmleditor) { print_string("htmleditordisabled"); } else if (!can_use_richtext_editor()) { print_string("htmleditordisabledbrowser"); } else { print_string("htmleditoravailable"); } ?></b></p>
 

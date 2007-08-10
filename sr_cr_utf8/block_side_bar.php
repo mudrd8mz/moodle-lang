@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // block_side_bar.php - created with Moodle 1.6 + (2006050506)
 
 

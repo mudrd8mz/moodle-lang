@@ -1,4 +1,4 @@
-﻿<?php // $Id$
+<?php // $Id$
 
 $string['calendar'] = 'Хуанли';
 $string['calendarheading'] = '$a Хуанли';

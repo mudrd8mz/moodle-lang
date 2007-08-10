@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // block_course_contacts.php - created with Moodle 1.7 beta (2006101000)
 
 

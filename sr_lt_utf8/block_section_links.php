@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // block_section_links.php - created with Moodle 1.6.1+ (2006050512)
 
 

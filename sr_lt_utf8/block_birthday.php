@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // block_birthday.php - created with Moodle 1.8.2+ (2007021520)
 
 

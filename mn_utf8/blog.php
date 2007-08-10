@@ -1,4 +1,4 @@
-﻿<?php  // $Id$
+<?php  // $Id$
 
 $string['addnewentry'] = 'шинэ оруулга нэмэх';
 $string['addotags'] = 'хаяг нэмэх';

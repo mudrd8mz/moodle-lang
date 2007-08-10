@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // block_graph_stats.php - created with Moodle 1.7 beta (2006101000)
 
 
