@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8 dev (2006120700)
+      // message.php - created with Moodle 1.9 dev (2007081001)
 
 
 $string['addcontact'] = 'コンタクトリストに追加する';
@@ -9,7 +9,7 @@ $string['ago'] = '$a 前';
 $string['allmine'] = 'すべての送受信メッセージ';
 $string['allstudents'] = 'コースの学生間のすべてのメッセージ';
 $string['allusers'] = 'すべてのユーザのすべてのメッセージ';
-$string['backupmessageshelp'] = '「Yes」にした場合、自動バックアップにインスタントメッセージが含まれます。';
+$string['backupmessageshelp'] = 'このオプションを有効にした場合、自動バックアップにインスタントメッセージが含まれます。';
 $string['beepnewmessage'] = 'メッセージが届いたら音を鳴らす。';
 $string['blockcontact'] = '受信拒否';
 $string['blockedmessages'] = '拒否ユーザの $a 件のto/fromメッセージ';

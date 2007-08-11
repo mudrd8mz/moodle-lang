@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 dev (2007060502)
+      // glossary.php - created with Moodle 1.9 dev (2007081001)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -35,7 +35,7 @@ $string['cnfapprovalstatus'] = '学生による投稿をデフォルトで承認
 $string['cnfcasesensitive'] = 'エントリがリンクされる場合、大文字小文字を区別します。';
 $string['cnfdefaulthook'] = '用語集が表示される時のデフォルトセクションを選択してください。';
 $string['cnfdefaultmode'] = '用語集が最初に表示される時のデフォルトフレームを選択してください。';
-$string['cnffullmatch'] = 'エントリがリンクされる場合、ターゲットテキストと文字の大小 (大文字・小文字) を合わせます。';
+$string['cnffullmatch'] = 'エントリがリンクされる場合、ターゲットテキストと文字の大小 (大文字小文字) を合わせます。';
 $string['cnflinkentry'] = 'デフォルトでエントリを自動的にリンクさせます。';
 $string['cnflinkglossaries'] = 'デフォルトで用語集を自動的にリンクさせます。';
 $string['cnfrelatedview'] = 'オートリンクおよびエントリ表示に使用する表示フォーマットを選択してください。';

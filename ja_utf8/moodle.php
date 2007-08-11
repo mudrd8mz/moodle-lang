@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007080300)
+      // moodle.php - created with Moodle 1.9 dev (2007081001)
 
 
 $string['action'] = '操作';
@@ -137,7 +137,7 @@ $string['backtoparticipants'] = '参加者リストに戻る';
 $string['backup'] = 'バックアップ';
 $string['backupactivehelp'] = '自動バックアップを実行するかどうか選択してください。';
 $string['backupcancelled'] = 'バックアップが中止されました。';
-$string['backupcoursefileshelp'] = '「Yes」にした場合、自動バックアップにコースファイルが含まれます。';
+$string['backupcoursefileshelp'] = 'このオプションを有効にした場合、自動バックアップにコースファイルが含まれます。';
 $string['backupdate'] = 'バックアップ日付';
 $string['backupdatenew'] = '現在の $a->TAG は $a->weekday, $a->mday $a->month $a->year です。<br />';
 $string['backupdateold'] = '$a->TAG は $a->weekday, $a->mday $a->month $a->year でした。';
@@ -152,14 +152,15 @@ $string['backupincludemoduleuserdatahelp'] = 'モジュールユーザデータ�
 $string['backupkeephelp'] = 'コースの直近バックアップをいくつ保存しますか? (古いものから自動的に削除されます。)';
 $string['backuplogdetailed'] = '詳細実行ログ';
 $string['backuploglaststatus'] = '最新実行ログ';
-$string['backuplogshelp'] = '「Yes」にした場合、コースログが自動バックアップに含まれます。';
-$string['backupmetacoursehelp'] = '「Yes」にした場合、メタコース情報 (ユーザ登録情報の継承) は自動バックアップに含まれます。';
+$string['backuplogshelp'] = 'このオプションを有効にした場合、コースログが自動バックアップに含まれます。';
+$string['backupmetacoursehelp'] = 'このオプションを有効にした場合、メタコース情報 (ユーザ登録情報の継承) は自動バックアップに含まれます。';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['backupnoneusersinfo'] = '注意: あなたはユーザをバックアップしない (「なし」) を選択をしました。すべてのモジュールのバックアップは「ユーザデータを含まないモード」に変更されました。「エクササイズ」および「ワークショップ」モジュールは、このタイプのバックアップと互換性が無いため、これらのモジュールのバックアップは完全に解除されました。';
 $string['backupnonisowarning'] = '警告: このバックアップは、非ユニコードバージョンのMoodle (1.6以前) によって作成されたものです。このバックアップに非ISO-8859-1テキストが含まれている場合、ユニコードバージョンのMoodleにリストアすると、文字化けが発生する可能性があります。このバックアップを正常にするための詳細情報は、<a href=\"http://docs.moodle.org/ja/バックアップFAQ\">バックアップFAQ</a>をご覧ください。';
 $string['backuporiginalname'] = 'バックアップ名';
 $string['backupsavetohelp'] = 'バックアップファイルの保存先ディレクトリをフルパスで入力してください。<br />(コースのデフォルトディレクトリに保存する場合は空白)';
 $string['backupschedulehelp'] = '何曜日に自動バックアップを実行するか選択してください。';
+$string['backupsitefileshelp'] = 'このオプションを有効にした場合、コースで使用されているサイトファイルが自動バックアップに含まれます。';
 $string['backuptakealook'] = '次のバックアップログをご覧ください: $a';
 $string['backupuserfileshelp'] = '自動バックアップにユーザファイル (例 プロフィール写真) を含めるかどうか選択してください。';
 $string['backupusershelp'] = 'サーバ内の全ユーザを含めるか、各コースに必要なユーザのみを含めるか選択してください。';
@@ -239,9 +240,10 @@ $string['cookiesenabled'] = 'ブラウザのクッキー設定を有効にして
 $string['cookiesnotenabled'] = 'あなたのブラウザーでは、クッキーの設定が有効にされていません。';
 $string['copy'] = 'コピー';
 $string['copyasnoun'] = 'コピー';
-$string['copyingcoursefiles'] = 'コースファイルの複写';
+$string['copyingcoursefiles'] = 'コースファイルのコピー';
+$string['copyingsitefiles'] = 'コースで使用されているサイトファイルのコピー';
 $string['copyinguserfiles'] = 'ユーザファイルの複写';
-$string['copyingzipfile'] = 'ZIPファイルの複写';
+$string['copyingzipfile'] = 'ZIPファイルのコピー';
 $string['copyrightnotice'] = '著作権表示';
 $string['coresystem'] = 'コアシステム';
 $string['cost'] = '費用';
@@ -745,6 +747,7 @@ $string['includemodules'] = 'モジュールを含む';
 $string['includemoduleuserdata'] = 'モジュールユーザデータを含む';
 $string['includeneededusers'] = '必要なユーザを含む';
 $string['includenoneusers'] = 'ユーザを含まない';
+$string['includesitefiles'] = 'このコースで使用されているサイトファイルを含む';
 $string['includeuserfiles'] = 'ユーザファイルを含む';
 $string['info'] = '情報';
 $string['institution'] = '所属組織';
@@ -1261,6 +1264,7 @@ $string['site'] = 'サイト';
 $string['sitedefault'] = 'サイトデフォルト';
 $string['siteerrors'] = 'サイトエラー';
 $string['sitefiles'] = 'サイトファイル';
+$string['sitefilesused'] = 'このコースで使用されているサイトファイル';
 $string['sitelogs'] = 'サイトログ';
 $string['sitenews'] = 'サイトニュース';
 $string['sitepartlist'] = 'あなたには、参加者リストを閲覧するために必要なパーミッションがありません。';

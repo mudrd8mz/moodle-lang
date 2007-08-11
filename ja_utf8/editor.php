@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.9 dev (2007072500)
+      // editor.php - created with Moodle 1.9 dev (2007081001)
 
 
 $string['about'] = 'エディタに関して';
@@ -71,7 +71,7 @@ $string['linktargetself'] = '同一フレーム';
 $string['linktargettop'] = '同一ウィンドウ';
 $string['linktitle'] = 'タイトル';
 $string['linkurl'] = 'URI';
-$string['matchcase'] = '大文字・小文字を区別する';
+$string['matchcase'] = '大文字小文字を区別する';
 $string['middle'] = 'Middle';
 $string['minimize'] = 'エディタを最小化する';
 $string['move'] = '移動';

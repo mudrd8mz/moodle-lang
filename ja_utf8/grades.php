@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007080903)
+      // grades.php - created with Moodle 1.9 dev (2007081001)
 
 
 $string['activities'] = '活動';
@@ -22,6 +22,7 @@ $string['aggregatemingraded'] = '空ではない評点の最小評点';
 $string['aggregatemodeall'] = 'すべての評点の最頻値';
 $string['aggregatemodegraded'] = '空ではない評点の最頻値';
 $string['aggregateoutcomes'] = '総計にアウトカムを含む';
+$string['aggregatesonly'] = '総計のみ';
 $string['aggregateweightedmeanall'] = 'すべての評点の加重平均';
 $string['aggregateweightedmeangraded'] = '空ではない評点の加重平均';
 $string['aggregation'] = '総計';
@@ -81,6 +82,7 @@ $string['configshowuserimage'] = '評定レポートで名前の隣にプロフ�
 $string['configstudentsperpage'] = '評定レポートの1ページあたりに表示される学生数です。';
 $string['configstudentsperpagedefault'] = '評定レポートの1ページあたりに表示される学生数です。サイトデフォルト (現在 $a) を使用する場合、このフィールドを空白のままにしてください。';
 $string['contract'] = 'カテゴリの縮小';
+$string['coursename'] = 'コース名';
 $string['coursetotal'] = 'コース合計';
 $string['createcategory'] = 'カテゴリを作成する';
 $string['createcategoryerror'] = '新しいカテゴリを作成できませんでした。';
@@ -159,6 +161,7 @@ $string['gradepreferences'] = '評定オプション';
 $string['gradepreferenceshelp'] = '評定オプションヘルプ';
 $string['graderreport'] = '評定者レポート';
 $string['grades'] = '評定';
+$string['gradesonly'] = '評定のみ';
 $string['gradessettings'] = '評定設定';
 $string['gradetype'] = '評定タイプ';
 $string['gradeview'] = '評定を表示する';
@@ -166,6 +169,7 @@ $string['gradeweighthelp'] = '評定加重ヘルプ';
 $string['groupavg'] = 'グループ平均';
 $string['hidden'] = '隠す';
 $string['hiddenuntil'] = '次の日時まで隠す';
+$string['hiddenuntildate'] = '次の日時まで隠す: $a';
 $string['hideadvanced'] = '拡張機能を隠す';
 $string['hideaverages'] = '平均を隠す';
 $string['hidecalculations'] = '計算を隠す';
@@ -204,7 +208,8 @@ $string['letters'] = '文字';
 $string['linkedactivity'] = 'リンクされた活動';
 $string['lock'] = 'ロック';
 $string['locked'] = 'ロック';
-$string['locktime'] = 'ロック期限';
+$string['locktime'] = '次の日時以降ロックする';
+$string['locktimedate'] = '次の日時以降ロックする: $a';
 $string['lowest'] = '下位';
 $string['lowgradeletter'] = '下限';
 $string['mapfrom'] = 'マップ元';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007072500)
+      // quiz.php - created with Moodle 1.9 dev (2007081001)
 
 
 $string['1day'] = '1日';
@@ -11,7 +11,19 @@ $string['acceptederror'] = 'エラー範囲';
 $string['action'] = '操作';
 $string['adaptive'] = 'アダプティブモード';
 $string['addcategory'] = 'カテゴリの追加';
+$string['addingcalculated'] = '計算問題の追加';
+$string['addingdescription'] = '説明の追加';
+$string['addingessay'] = '作文問題の追加';
+$string['addingmatch'] = '組み合わせ問題の追加';
+$string['addingmultianswer'] = '穴埋め問題 (Cloze) の追加';
+$string['addingmultichoice'] = '多肢選択問題の追加';
+$string['addingnumerical'] = '数値問題の追加';
+$string['addingquestion'] = '問題の追加';
 $string['addingquestions'] = 'ここでは、データベース内の質問を管理します。質問は整理しやすいようカテゴリごとに保存されます。また、「公開」を選択した場合、コース内または他のコースの小テストで使用することができます。<br /><br />問題カテゴリの作成を選択した後、問題の作成または編集を行うことができます。ページの反対側にある問題リストから問題を選択して、小テストに追加することができます。';
+$string['addingrandom'] = 'ランダム問題の追加';
+$string['addingrandomsamatch'] = 'ランダム記述組み合わせ問題の追加';
+$string['addingshortanswer'] = '記述問題の追加';
+$string['addingtruefalse'] = '○/×問題の追加';
 $string['addquestions'] = '問題を追加';
 $string['addquestionstoquiz'] = '現在の小テストに問題を追加';
 $string['addrandom'] = '$a 問のランダム問題を追加する';

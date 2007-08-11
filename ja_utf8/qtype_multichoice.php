@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.9 dev (2007070902)
+      // qtype_multichoice.php - created with Moodle 1.9 dev (2007081001)
 
 
+$string['addingmultichoice'] = '多肢選択問題の追加';
 $string['addmorechoiceblanks'] = 'さらに {no} 件の選択肢入力欄を追加する';
 $string['answerhowmany'] = '単一または複数解答?';
 $string['answernumbering'] = '選択肢に番号付けしますか?';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007080300)
+      // role.php - created with Moodle 1.9 dev (2007081001)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -137,6 +137,7 @@ $string['site:viewparticipants'] = '参加者を表示する';
 $string['site:viewreports'] = 'レポートを表示する';
 $string['tag:create'] = '新しいタグを作成する';
 $string['tag:edit'] = '既存のタグを編集する';
+$string['tag:editblocks'] = 'タグページのブロックを編集する';
 $string['tag:manage'] = 'すべてのタグを管理する';
 $string['user:changeownpassword'] = '自分のパスワードを変更する';
 $string['user:create'] = 'ユーザを作成する';
