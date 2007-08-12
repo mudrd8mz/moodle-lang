@@ -1,4 +1,4 @@
-﻿Serbian Language Pack (Cyrillic)
+Serbian Language Pack (Cyrillic)
 
 Živana Komlenov
 Research and Teaching Assistant

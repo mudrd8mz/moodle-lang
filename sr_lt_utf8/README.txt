@@ -1,4 +1,4 @@
-﻿Serbian Language Pack (Latin)
+Serbian Language Pack (Latin)
 
 Živana Komlenov
 Research and Teaching Assistant

@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // questionnaire.php - created with Moodle 1.8.2+
 
 $string['addaline'] = 'Додавање линије за понуђени одговор';
