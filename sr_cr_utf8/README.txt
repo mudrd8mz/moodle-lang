@@ -1,4 +1,4 @@
-Serbian Language Pack (Cyrillic)
+﻿Serbian Language Pack (Cyrillic)
 
 Živana Komlenov
 Research and Teaching Assistant
@@ -16,15 +16,17 @@ URL:    http://perun.im.ns.ac.yu/komlenov/
 
 * Special thanks to
 
- - students of Computer Science, Department of Mathematics and Informatics, Novi Sad
+ - students of Computer Science, Dept. of Mathematics and Informatics, Faculty of Science, University of Novi Sad
 
    Branka Ignjić
    Nikolina Lacković
    Ivan Omorac
    Gordana Rakić
    
- - Miloš Bajčetić, Teaching Assistant, Institute of Histology and Embriology,
-   School of Medicine, University of Belgrade and his students
+   for their work on fine-tuning this language pack and translation of help files.
+   
+ - Miloš Bajčetić, Institute of Histology and Embriology, School of Medicine, University of Belgrade
+   and his students
    
    Marija Bokšan
    Jelena Kostić
@@ -32,4 +34,8 @@ URL:    http://perun.im.ns.ac.yu/komlenov/
    Ivan Nikolić
    Jovana Tripković
 
-for their work on fine-tuning this language pack and translation of help files.
+   for joint efforts on fine-tuning this language pack.
+
+ - Marija Ćućuz, Department of Psychology, Faculty of Philosophy, Belgrade
+ 
+   for translation of Questionnaire module.
