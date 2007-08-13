@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // countries.php - created with Moodle 1.6 development (2005060201)
+      // countries.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['AD'] = 'Andorra';
@@ -33,7 +33,7 @@ $string['BO'] = 'Bolívia';
 $string['BR'] = 'Brazília';
 $string['BS'] = 'Bahamy';
 $string['BT'] = 'Bhután';
-$string['BV'] = 'Ostrov Bouvet ';
+$string['BV'] = 'Ostrov Bouvet';
 $string['BW'] = 'Botswana';
 $string['BY'] = 'Belarus';
 $string['BZ'] = 'Belize';
@@ -42,14 +42,14 @@ $string['CC'] = 'Kokosové ostrovy';
 $string['CF'] = 'Centrálna Africká Republika';
 $string['CG'] = 'Kongo';
 $string['CH'] = 'Švajčiarsko';
-$string['CI'] = 'Cote D\'Ivoire';
+$string['CI'] = 'Pobrežie slonoviny';
 $string['CK'] = 'Cookove ostrovy';
 $string['CL'] = 'Čile';
 $string['CM'] = 'Cameroon';
 $string['CN'] = 'Čína';
 $string['CO'] = 'Kolumbia';
 $string['CR'] = 'Kostarika';
-$string['CS'] = 'Serbia a Montenegro';
+$string['CS'] = 'Srbsko a Čierna hora';
 $string['CU'] = 'Kuba';
 $string['CV'] = 'Mys Verde';
 $string['CX'] = 'Vianočné ostrovy';
@@ -104,7 +104,7 @@ $string['IL'] = 'Izrael';
 $string['IN'] = 'India';
 $string['IO'] = 'Britské Indické oceánske teritórium';
 $string['IQ'] = 'Irak';
-$string['IR'] = 'Irán ';
+$string['IR'] = 'Irán';
 $string['IS'] = 'Island';
 $string['IT'] = 'Taliansko';
 $string['JM'] = 'Jamajka';
@@ -133,7 +133,7 @@ $string['LT'] = 'Litva';
 $string['LU'] = 'Luxembursko';
 $string['LV'] = 'Lotyšsko';
 $string['LY'] = 'Libyan Arab Jamahiriya';
-$string['MA'] = 'Morocco';
+$string['MA'] = 'Maroko';
 $string['MC'] = 'Monako';
 $string['MD'] = 'Moldavsko';
 $string['MG'] = 'Madagaskar';
@@ -234,7 +234,7 @@ $string['VI'] = 'Panenské ostrovy (Americké)';
 $string['VN'] = 'Vietnam';
 $string['VU'] = 'Vanuatu';
 $string['WA'] = 'Wales';
-$string['WF'] = 'Ostrovy Wallis a Futuna ';
+$string['WF'] = 'Ostrovy Wallis a Futuna';
 $string['WS'] = 'Samoa';
 $string['YE'] = 'Jemen';
 $string['YT'] = 'Mayotte';

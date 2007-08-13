@@ -1,6 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6.1+ (2006050511)
-      // local modifications from http://www.kirp.chtf.stuba.sk/moodle
+      // blog.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addnewentry'] = 'Pridať nový záznam';
@@ -16,7 +15,10 @@ $string['blogs'] = 'Blogy';
 $string['blogtags'] = 'Tagy blogov';
 $string['courseblog'] = 'Blog kurzu: $a';
 $string['courseblogs'] = 'Používatelia môžu vidieť iba blogy ľudí, ktorí sú s nimi v kurze';
+$string['deleteotagswarn'] = 'Naozaj chcete odobrať nasledujúce kľúčové slová<br />zo všetkých príspevkov a odstrániť ich zo systému?';
 $string['disableblogs'] = 'Úplne vypnúť blogový systém';
+$string['emptybody'] = 'Text príspevku nemôže byť prázdny';
+$string['emptytitle'] = 'Názov príspevku nemôže byť prázdny';
 $string['entrybody'] = 'Telo blogu';
 $string['entrybodyonlydesc'] = 'Opis položky';
 $string['entryerrornotyours'] = 'Táto položka nie je Vaša';
@@ -40,13 +42,14 @@ $string['publishto'] = 'Publikovať k';
 $string['publishtonoone'] = 'Sebe (draft)';
 $string['publishtosite'] = 'Každému na tomto portáli';
 $string['publishtoworld'] = 'Každému na svete';
-$string['settingsupdatederror'] = 'Vyskytla sa chyba, preferencie blogov memohli byť aktualizované';
+$string['settingsupdatederror'] = 'Vyskytla sa chyba, preferencie blogov nemohli byť aktualizované';
 $string['siteblog'] = 'Blog portálu: $a';
 $string['siteblogs'] = 'Každý používateľ portálu môže vidieť blogy';
 $string['tagdatelastused'] = 'Dátum, kedy bol tag naposledy použitý';
+$string['tags'] = 'Tagy';
 $string['tagsort'] = 'Triediť zobrazenie tagov podľa';
 $string['tagtext'] = 'Text tagu';
-$string['timewithin'] = 'Zobraz taby použité v rámci počtu dní';
+$string['timewithin'] = 'Zobraz tagy použité v rámci počtu dní';
 $string['updateentrywithid'] = 'Aktualizujem položku';
 $string['userblog'] = 'Používateľský blog: $a';
 $string['viewcourseentries'] = 'Prezrieť položky kurzu';

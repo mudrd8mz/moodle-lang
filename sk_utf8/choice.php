@@ -1,11 +1,15 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.6 development (2005060201)
+      // choice.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addmorechoices'] = 'Pridať viac ankiet';
 $string['allowupdate'] = 'Povoliť zmenu hlasovania';
 $string['answered'] = 'Zodpovedané';
 $string['choice'] = 'Voľba';
+$string['choice:choose'] = 'Hlasovať v ankete';
+$string['choice:deleteresponses'] = 'Odstraňovať hlasy';
+$string['choice:downloadresponses'] = 'Stiahnuť výsledky';
+$string['choice:readresponses'] = 'Čítať výsledky';
 $string['choiceclose'] = 'Do';
 $string['choicename'] = 'Názov ankety';
 $string['choiceopen'] = 'Od';
@@ -13,6 +17,7 @@ $string['choicetext'] = 'Text ankety';
 $string['displayhorizontal'] = 'Zobraziť horizontálne';
 $string['displaymode'] = 'Režim zobrazenia';
 $string['displayvertical'] = 'Zobraziť vertikálne';
+$string['fillinatleastoneoption'] = 'Musíte nadefinovať aspoň dve možné odpovede';
 $string['full'] = '(Obsadené)';
 $string['havetologin'] = 'Predtým, ako odošlete vyplnenú anketu, sa musíte prihlásiť';
 $string['limit'] = 'Limit';
@@ -20,9 +25,11 @@ $string['limitanswers'] = 'Limitovať počet povolených výberov';
 $string['modulename'] = 'Anketa';
 $string['modulenameplural'] = 'Ankety';
 $string['mustchooseone'] = 'Musíte si vybrať nejakú odpoveď, predtým ako ju uložíte. Z tohto dôvodu nebolo nič uložené.';
+$string['noguestchoose'] = 'Ľutujeme, hostia sa nemôžu zúčastňovať ankiet';
+$string['noresultsviewable'] = 'Výsledky nie sú momentálne dostupné';
 $string['notanswered'] = 'Ešte nezodpovedané';
 $string['notopenyet'] = 'Prepáčte, ale táto aktivita nie je dostupná do $a';
-$string['privacy'] = 'Dôvernosť výsledkov ';
+$string['privacy'] = 'Dôvernosť výsledkov';
 $string['publish'] = 'Zverejniť výsledky';
 $string['publishafteranswer'] = 'Ukázať výsledky študentovi po zodpovedaní ankety';
 $string['publishafterclose'] = 'Ukázať výsledky študentovi až po ukončení ankety';

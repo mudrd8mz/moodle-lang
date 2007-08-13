@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.6 development (2005053000)
+      // block_rss_client.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addfeed'] = 'Pridať nové zdrojové URL:';
 $string['addheadlineblock'] = 'Pridať  RSS blok';
 $string['addnew'] = 'Pridať nové';
+$string['blockname'] = 'RSS klient';
 $string['choosefeedlabel'] = 'Vyberte si zdroje, ktoré chcete, aby boli aktívne v tomto bloku:';
 $string['clientchannellink'] = 'Zdrojová stránka...';
 $string['clientnumentries'] = 'Východzí počet zobrazovaných položiek z jedného zdroja.';
@@ -13,7 +14,7 @@ $string['clientshowimagelabel'] = 'Zobraziť obrázok kanálu, ak je dostupný:'
 $string['configblock'] = 'Nastaviť tento blok';
 $string['couldnotfindfeed'] = 'Nenašiel sa zdroj s id';
 $string['customtitlelabel'] = 'Vlastný nadpis (ak ponecháte prázdne, použije sa nadpis dodaný zdrojom):';
-$string['deletefeedconfirm'] = 'Ste si istý, že chcete odstrániť tento zdroj?';
+$string['deletefeedconfirm'] = 'Naozaj chcete odstrániť tento zdroj?';
 $string['displaydescriptionlabel'] = 'Zobraziť popis každého odkazu?';
 $string['editfeeds'] = 'Upraviť, odoberať alebo neodoberať RSS/Atom novinky';
 $string['editnewsfeeds'] = 'Upraviť zdroj noviniek';
@@ -31,7 +32,12 @@ $string['managefeeds'] = 'Spravovať všetky moje RSS zdroje';
 $string['nofeeds'] = 'Táto web stránka nemá definované žiadne RSS zdroje.';
 $string['pickfeed'] = 'Vybrať zdroj noviniek';
 $string['remotenewsfeed'] = 'Vzdialený RSS zdroj noviniek';
+$string['rss_client:createprivatefeeds'] = 'Vytvárať súkromné RSS zdroje';
+$string['rss_client:createsharedfeeds'] = 'Vytvárať zdieľané RSS zdroje';
+$string['rss_client:manageanyfeeds'] = 'Administrovať všetky RSS zdroje';
+$string['rss_client:manageownfeeds'] = 'Administrovať vlastné RSS zdroje';
 $string['seeallfeeds'] = 'Zobraziť všetky zdroje';
+$string['sharedfeed'] = 'Zdieľaný zdroj';
 $string['shownumentrieslabel'] = 'Maximálny počet položiek na zobrazovanie v jednom bloku';
 $string['submitters'] = 'Kto bude oprávnený definovať nové RSS zdroje? Definované zdroje budú dostupné na ktorejkoľvek stránke v rámci www stránok Moodle.';
 $string['timeout'] = 'blockrsstimeout';

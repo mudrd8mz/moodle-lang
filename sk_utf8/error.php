@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.6.2+ (2006050521)
+      // error.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['adminprimarynoedit'] = 'Ostatní administrátori nemôžu upravovať údaje hlavného administrátora';
@@ -11,9 +11,12 @@ $string['cannotfindcomponent'] = 'Komponent nenájdený.';
 $string['cannotsavemd5file'] = 'Nie je možné uložiť súbor MD5.';
 $string['cannotsavezipfile'] = 'Nie je možné uložiť súbor ZIP.';
 $string['cannotunzipfile'] = 'Nie je možné dekomprimovať súbor.';
+$string['cantunenrollfrommetacourse'] = 'Nemôžete sa odhlásiť z tohto metakurzu.';
+$string['cantunenrollinthisrole'] = 'Nemôžete sa odhlásiť z tohto kurzu, kým ste prihlásený v súčasnej role.';
 $string['cmunknown'] = 'Tento modul kurzu nebol nájdený';
 $string['componentisuptodate'] = 'Komponent je aktuálny.';
 $string['confirmsesskeybad'] = 'Ľutujeme, ale kľúču Vášho sedenia (session) nebolo povolené vykonať túto akciu. Toto bezpečnostné opatrenie zabraňuje náhodnému alebo zákernému spúšťaniu dôležitých funkcií pod Vašim menom. Prosím, uistite sa, že skutočne chcete spustiť túto funkciu.';
+$string['couldnotassignrole'] = 'V priebehu priraďovania vašej roly sa objavila vážna, ale bližšie neurčená chyba.';
 $string['coursegroupunknown'] = 'Nebol určený kurz zodpovedajúci skupine $a';
 $string['downloadedfilecheckfailed'] = 'Kontrola stiahnutého súboru dopadla negatívne';
 $string['errorcleaningdirectory'] = 'Chyba pri vymazávaní adresára \"$a\"';
@@ -27,22 +30,31 @@ $string['fieldrequired'] = '\"$a\" je povinné pole';
 $string['filenotfound'] = 'Ľutujeme, požadovaný súbor sa nenašiel';
 $string['forumblockingtoomanyposts'] = 'Prekročili ste limit vložených príspevkov pre toto fórum.';
 $string['groupalready'] = 'Používateľ už je členom skupiny $a';
+$string['groupexistforcourse'] = 'Skupina \"$a\" už je v tomto kurze vytvorená';
+$string['groupnotaddederror'] = 'Skupina \"$a\" nebola pridaná';
 $string['groupunknown'] = 'Skupina $a nebola priradená k určenému kurzu';
-$string['guestnoeditprofile'] = 'Užívateľ \"host\" nemôže upravovať svoj profil';
-$string['guestnoeditprofileother'] = 'Profil užívateľa \"host\" nie je možné upravovať';
+$string['guestnoeditprofile'] = 'Používateľ \"host\" nemôže upravovať svoj profil';
+$string['guestnoeditprofileother'] = 'Profil používateľa \"host\" nie je možné upravovať';
 $string['invalidcourse'] = 'Neplatný kurz';
 $string['invalidfieldname'] = '\"$a\" nie je platný názov poľa';
 $string['invalidfiletype'] = '\"$a\" nie je platný typ súboru';
 $string['invalidmd5'] = 'Neplatný MD5 hash';
+$string['invalidrequest'] = 'Neplatná požiadavka';
+$string['invalidrole'] = 'Neplatná rola';
 $string['invalidxmlfile'] = '\"$a\" není platný XML soubor';
+$string['loginasnoenrol'] = 'Kým ste v režime \"prihlásiť sa ako\", nemôžete použiť funkciu zápisu a odhlásenia z kurzu.';
+$string['loginasonecourse'] = 'Do tohto kurzu nemôžete vstúpiť.<br /> Musíte ukončiť režim \"prihlásiť sa ako\" predtým, ako vstúpite do iného kurzu.';
 $string['missingfield'] = 'Chýba pole \"$a\"';
 $string['missingrequiredfield'] = 'Chýba niektoré z povinných polí';
 $string['modulemissingcode'] = 'Modul $a nemá k dispozícii kód potrebný pre vykonanie tejto operácie.';
 $string['modulerequirementsnotmet'] = 'Modul \"$a->modulename\" ($a->moduleversion) nemohol byť nainštalovaný. Vyžaduje novšiu verziu Moodle (používate verziu $a->currentmoodle, potrebujete $a->requiremoodle).';
 $string['mustbeteacher'] = 'Prístup na túto stránku je povolený iba učiteľom';
-$string['noinstances'] = 'V tomto kurze sa nevyskytuje žiadná inštancia $a!';
-$string['nonmeaningfulcontent'] = 'Nesmyselný obsah';
+$string['nocontext'] = 'Ľutujeme, tento kurz nie je platný kontext';
+$string['noinstances'] = 'V tomto kurze sa nevyskytuje žiadna inštancia $a!';
+$string['nologinas'] = 'Nemáte povolenie prihlásiť sa ako tento používateľ';
+$string['nonmeaningfulcontent'] = 'Nezmyselný obsah';
 $string['noparticipatorycms'] = 'Pre váš účet nie sú dostupné žiadne moduly kurzu, u ktorých je možné viesť záznamy v protokoloch.';
+$string['nopermissions'] = 'Ľutujeme, ale v súčasnosti nemáte oprávnenia vykonať túto operáciu ($a)';
 $string['notavailable'] = 'Momentálne nie je dostupné';
 $string['onlyadmins'] = 'Túto operáciu sú oprávnení vykonať iba administrátori.';
 $string['onlyeditingteachers'] = 'Túto operáciu sú oprávnení vykonať iba učitelia s právom úprav.';
@@ -58,7 +70,9 @@ $string['sessionerroruser'] = 'Boli ste príliš dlho nečinný a Vaše prihlás
 $string['sessionerroruser2'] = 'Objavila sa chyba na serveri, která ovplyvňuje vaše prihlásenie. Prosím, prihláste sa znova alebo reštartujte váš prohliadač.';
 $string['sessionipnomatch'] = 'Ľutujeme, ale Vaše IP číslo sa od Vášho prvého prihlásenia zmenilo. Toto bezpečnostné opatrenie zabraňuje útočníkom vydávať sa za prihláseného používateľa. Bežným používateľom by sa táto správa nemala zobraziť - kontaktujte Vášho administrátora a požiadajte ho o pomoc.';
 $string['statscatchupmode'] = 'Prebieha spracovanie štatistík. Doteraz boli spracované štatistiky za $a->daysdone dní, ešte ostáva $a->dayspending dní. Skúste neskôr!';
+$string['unicodeupgradeerror'] = 'Ľutujeme. Vaša databáza zatiaľ nepoužíva kódovanie Unicode a táto verzia Moodle nie je schopná migráciu na Unicode vykonať. Prosím, urobte najprv upgrade na verziu 1.7.x a spusťte proces migrácie na Unicode zo stránky Administratíve. Potom budete môcť migrovať na Moodle $a';
 $string['unknowncourse'] = 'Neznámy kurz s názvom \"$a\"';
+$string['unknowncourseidnumber'] = 'Neznámy kurz ID \"$a\"';
 $string['unknownuseraction'] = 'Nerozumiem tejto inštrukcii';
 $string['usernotaddederror'] = 'Používateľ \"$a\" nebol pridaný - neznáma chyba';
 $string['usernotaddedregistered'] = 'Používateľ \"$a\" nebol pridaný - už sa zaregistroval';

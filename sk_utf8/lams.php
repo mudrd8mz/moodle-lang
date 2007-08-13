@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.6.2+ (2006050521)
+      // lams.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['createSequence'] = 'Vytvoriť novú sekvenciu';
@@ -7,6 +7,8 @@ $string['editSequence'] = 'Editovať vybranú sekvenciu';
 $string['error'] = 'Neznáma chyba';
 $string['introduction'] = 'Úvod';
 $string['lams'] = '-- LAMS - Learning Activity Management System --';
+$string['lams:manage'] = 'Administrovať LAMS aktivity';
+$string['lams:participate'] = 'Zapojiť sa do LAMS aktivít';
 $string['lamsoutline'] = 'LAMS – Prehľad';
 $string['lesson'] = 'študijné stretnutie (session)';
 $string['modulename'] = 'LAMS';
@@ -19,7 +21,7 @@ $string['refreshSequenceList'] = 'Aktualizovať zoznam sekvencií';
 $string['selectExistingSequence'] = 'Vybrať existujúcu sekvenciu alebo vytvoriť novú sekvenciu';
 $string['sequence'] = 'Vybrať sekvenciu';
 $string['serverid'] = 'Vložiť ID serveru získané od <a href=http://www.lamsinternational.com target=_blank>LAMS international</a>.';
-$string['serverkey'] = 'Vložiť tajný klíč serveru získaný od <a href=http://www.lamsinternational.com target=_blank>LAMS international</a>.';
+$string['serverkey'] = 'Vložiť tajný kľúč serveru získaný od <a href=http://www.lamsinternational.com target=_blank>LAMS international</a>.';
 $string['serverurl'] = 'Vložiť základné URL pre prístup na server LAMS. Napríklad http://localhost:8080/lams';
 $string['useSequence'] = 'Použiť vybranú sekvenciu';
 $string['visibletostudents'] = 'Zobraziť činnosť študentom';

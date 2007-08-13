@@ -1,16 +1,19 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6.2+ (2006050521)
+      // chat.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['beep'] = 'pípnuť';
+$string['chat:chat'] = 'Prispievať do chatovania';
+$string['chat:deletelog'] = 'Odstrániť históriu chatovania';
+$string['chat:readlog'] = 'Čítať históriu chatovania';
 $string['chatintro'] = 'Úvodný text';
 $string['chatname'] = 'Názov tejto miestnosti';
 $string['chatreport'] = 'Chatovanie';
 $string['chattime'] = 'Najbližšie chatovanie';
 $string['configmethod'] = 'Pri normálnom chate sa aktualizujú klienti pri spojení so serverom. Táto metóda si nevyžaduje žiadnu konfiguráciu a funguje všade, ale môže spôsobiť dlhé čakanie na serveri. Používanie démona na serveri si vyžaduje prístup do Unixu shellu, čo však zrýchli prostredie pre chatovanie.';
-$string['confignormalupdatemode'] = 'Aktualiz8cia chatovacích miestností je obvykle dostatočne efektívne zabezpečovaná metódou <em>Keep-Alive</em> protokolu HTTP 1.1. Avšak, aj tak je zaťaženie serveru dosť vysoké. Pokročilejšou metódou pre prenos údajov k užívateľom sa javí <em>streamovanie</em>. Použitie <em>streamovánia</em> je lepšie škálovateľné (podobne ako u metódy chatovacieho démona), nie je však zaručené, že to váš server podporuje.';
+$string['confignormalupdatemode'] = 'Aktualizácia chatovacích miestností je obvykle dostatočne efektívne zabezpečovaná metódou <em>Keep-Alive</em> protokolu HTTP 1.1. Avšak, aj tak je zaťaženie serveru dosť vysoké. Pokročilejšou metódou pre prenos údajov k užívateľom sa javí <em>streamovanie</em>. Použitie <em>streamovania</em> je lepšie škálovateľné (podobne ako u metódy chatovacieho démona), nie je však zaručené, že to váš server podporuje.';
 $string['configoldping'] = 'Po akom čase môžeme považovať, že sa používateľ odhlásil z chatu (v sekundách)? Toto je len horný limit, pretože odhlásenia z chatu sú detekované veľmi rýchlo. Nižšie hodnoty budú viac zaťažovať Váš server. Ak používate normálnu metódu, <strong>nikdy</strong> nenastavujte túto hodnotu na menej ako 2* chat_refresh_room.';
-$string['configrefreshroom'] = 'Po akom čase sa má chatovacia miestnosť obnovovať? (v sekundách). Nastavenie príliš krátkeho času sposobí časté obnovovanie a vyššie nároky na server, ale chat sa javí ako rýchly.';
+$string['configrefreshroom'] = 'Po akom čase sa má chatovacia miestnosť obnovovať? (v sekundách). Nastavenie príliš krátkeho času spôsobí časté obnovovanie a vyššie nároky na server, ale chat sa javí ako rýchly.';
 $string['configrefreshuserlist'] = 'Ako často sa má obnovovať zoznam používateľov? (v sekundách)';
 $string['configserverhost'] = 'Hosťovské meno počítača, kde je umiestnený serverový démon';
 $string['configserverip'] = 'Číselná IP adresa, ktorá platí pre vyššie uvedené hosťovské meno';
@@ -19,7 +22,7 @@ $string['configserverport'] = 'Port, ktorý sa na serveri používa pre démona'
 $string['currentchats'] = 'Prebieha chatovanie';
 $string['currentusers'] = 'Prihlásení používatelia do chatu';
 $string['deletesession'] = 'Odstrániť toto chatovanie';
-$string['deletesessionsure'] = 'Ste si istý, že chcete odstrániť toto chatovanie?';
+$string['deletesessionsure'] = 'Naozaj chcete odstrániť toto chatovanie?';
 $string['donotusechattime'] = 'Nezverejňovať čas chatovania';
 $string['enterchat'] = 'Kliknite sem, ak sa chcete zapojiť do chatovania';
 $string['errornousers'] = 'Nemôžem nájsť žiadnych používateľov!';

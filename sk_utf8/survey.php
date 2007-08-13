@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.5 ALPHA (2005051500)
+      // survey.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['actual'] = 'Aktuálny';
@@ -29,7 +29,7 @@ $string['attls17'] = 'Pri riešení problémov oceňujem používanie logiky a r
 $string['attls17short'] = 'oceňujem logiku';
 $string['attls18'] = 'Prostredníctvom empatie môžem nahliadnuť do názorov, ktoré sa líšia od mojich vlastných .';
 $string['attls18short'] = 'nahliadnuť do názorov vďaka empatii';
-$string['attls19'] = 'Keď sa stretnem s človekom, ktorého názory sa mi zdajú cudzie, snažím sa úmyselne \'vcítiť\' do tohto človeka, aby som pochopil, ako je môžné, že má také názory.';
+$string['attls19'] = 'Keď sa stretnem s človekom, ktorého názory sa mi zdajú cudzie, snažím sa úmyselne \'vcítiť\' do tohto človeka, aby som pochopil, ako je možné, že má také názory.';
 $string['attls19short'] = 'snaha vcítiť sa';
 $string['attls1short'] = 'zameranie na silu argumentu';
 $string['attls2'] = 'Rád hrám diablovho advokáta - obhajujem opak toho, čo druhý hovorí.';
@@ -70,8 +70,8 @@ $string['ciq5'] = 'Ktorá udalosť vás najviac prekvapila?';
 $string['ciq5short'] = 'Prekvapujúci moment';
 $string['ciqintro'] = 'Pokiaľ sa zamýšľate nad poslednými udalosťami v kurze, odpovedzte prosím na doleuvedené otázky.';
 $string['ciqname'] = 'Kritické incidenty';
-$string['clicktocontinue'] = 'Ak chcete pokračovať, kliknite tu ';
-$string['clicktocontinuecheck'] = 'Ak chcete skontrolovať a pokračovať, kliknite tu ';
+$string['clicktocontinue'] = 'Ak chcete pokračovať, kliknite tu';
+$string['clicktocontinuecheck'] = 'Ak chcete skontrolovať a pokračovať, kliknite tu';
 $string['colles1'] = 'Moje vzdelávanie sa sústreďuje na problematiku, ktorá ma zaujíma.';
 $string['colles10'] = 'Žiadam iných študentov, aby vysvetlili svoje myšlienky.';
 $string['colles10short'] = 'Žiadam vysvetlenia';
@@ -163,6 +163,7 @@ Vaše dobre zvážené odpovede nám pomôžu zlepšiť spôsob online prezentá
 
 Veľmi pekne ďakujeme.';
 $string['collespname'] = 'COLLES (Predstavy)';
+$string['customintro'] = 'Špeciálny úvod';
 $string['done'] = 'Urobené';
 $string['download'] = 'Stiahnuť';
 $string['downloadexcel'] = 'Stiahnuť údaje ako Excelový tabuľkový súbor';
@@ -171,7 +172,7 @@ $string['downloadtext'] = 'Stiahnuť údaje ako čisto textový súbor';
 $string['editingasurvey'] = 'Upraviť prieskum';
 $string['guestsnotallowed'] = 'Hosťom nie je dovolené zúčastniť sa prieskumov';
 $string['helpsurveys'] = 'Pomoc pri rozličných typoch prieskumov';
-$string['howlong'] = 'Ako dlho vám trvalo vyplnenie tohto dotazníka?';
+$string['howlong'] = 'Ako dlho vám trvalo vyplnenie tohto prieskumu?';
 $string['howlongoptions'] = 'menej ako 1 min,1-2 min,2-3 min,3-4 min,4-5 min,5-10 min,viac než 10 min.';
 $string['ifoundthat'] = 'Zistil som, že';
 $string['introtext'] = 'Úvodný text';
@@ -182,7 +183,7 @@ $string['name'] = 'Meno';
 $string['newsurveyresponses'] = 'Nové odpovede v prieskume';
 $string['nobodyyet'] = 'Doposiaľ sa nikto nezúčastnil tohto prieskumu';
 $string['notdone'] = 'Nedokončené';
-$string['notes'] = 'Vaša súkromné poznámky a analýza ';
+$string['notes'] = 'Vaša súkromné poznámky a analýza';
 $string['othercomments'] = 'Máte nejaké ďalšie pripomienky?';
 $string['peoplecompleted'] = '$a ľudí sa zatiaľ zúčastnilo tohto prieskumu';
 $string['preferred'] = 'Predstavy';
@@ -199,11 +200,15 @@ $string['scaletimes5'] = 'Skoro vôbec,Zriedkavo,Niekedy,Často,Skoro vždy';
 $string['seemoredetail'] = 'Pre zobrazenie viacerých detailov kliknite sem';
 $string['selectedquestions'] = 'Vybrané otázky zo škály, všetci študenti';
 $string['summary'] = 'Zhrnutie';
-$string['surveycompleted'] = 'Dokončili ste tento dotazník. Nasledovný graf znázorňuje zhrnutie Vašich výsledkov v porovnaní s priemerom triedy.';
+$string['survey:download'] = 'Stiahnuť odozvy';
+$string['survey:participate'] = 'Odpovedať na prieskum';
+$string['survey:readresponses'] = 'Prezerať odozvy';
+$string['surveycompleted'] = 'Dokončili ste tento prieskum. Nasledovný graf znázorňuje zhrnutie Vašich výsledkov v porovnaní s priemerom triedy.';
+$string['surveygraph'] = 'Graf prieskumu';
 $string['surveyname'] = 'Názov prieskumu';
 $string['surveysaved'] = 'Prieskum uložený';
 $string['surveytype'] = 'Typ prieskumu';
-$string['thanksforanswers'] = 'Ďakujeme za vyplnenie tohto dotazníku, $a';
+$string['thanksforanswers'] = 'Ďakujeme za vyplnenie tohto prieskumu, $a';
 $string['time'] = 'Čas';
 $string['viewsurveyresponses'] = 'Zobraziť $a vyplnených odpovedí';
 

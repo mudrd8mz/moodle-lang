@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7.1+ (2006101010)
+      // assignment.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['allowdeleting'] = 'Povoliť vymazanie';
@@ -56,9 +56,9 @@ $string['helpoffline'] = '<p>Túto voľbu je vhodné použiť, ak vypracovávate
 $string['helponline'] = '<p>Tento typ zadania vyžaduje od študentov, aby si upravili text využitím štandardných nástrojov na to určených. Učitelia ich môžu známkovať hneď (online) a môžu k tomu dokonca pridávať rôzne komentáre, alebo zmeny.</p>
  <p>(Ak máte skúsenosti so staršími verziami Moodle, tento Typ zadania má rovnaké možnosti a funkcie ako mal modul Písomná práca.)</p>';
 $string['helpupload'] = '<p>Tento typ zadania dovoľuje každému študentovi nahrať jeden alebo viacero súborov ľubovoľného typu.</p> 
-   <p>Môžu to byť textové dokumenty, obrázky, pakované web stránky, alebo hocičo, čo ich požiadate vložiť.</p>
+   <p>Môžu to byť textové dokumenty, obrázky, spakované web stránky, alebo hocičo, čo ich požiadate vložiť.</p>
    <p>Tiež to dovolí učiteľovi vložiť jeden alebo viacero súborov ako odpoveď.</p>';
-$string['helpuploadsingle'] = '<p>Tento typ zadania povoľuje každému účastníkovi preniesť si jeden súbor akéhokoľvek typu.</p> <p>Toto môže byť dokument textového editoru Word, obrázok, zozipovaná wwww stránka alebo čokoľvek iné, čo nariadite študentom, aby Vám odoslali.</p>';
+$string['helpuploadsingle'] = '<p>Tento typ zadania povoľuje každému účastníkovi preniesť si jeden súbor akéhokoľvek typu.</p> <p>Toto môže byť dokument textového editoru Word, obrázok, zozipovaná web stránka alebo čokoľvek iné, čo nariadite študentom, aby Vám odoslali.</p>';
 $string['hideintro'] = 'Skryť opis zadania pred začiatočným dátumom';
 $string['late'] = '$a neskoro';
 $string['maximumgrade'] = 'Maximálna známka';

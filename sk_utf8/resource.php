@@ -1,14 +1,18 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6.2+ (2006050521)
+      // resource.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addresource'] = 'Pridať zdroj';
+$string['affectedresources'] = 'Ovplyvnené zdroje';
 $string['back'] = 'Späť';
 $string['browserepository'] = 'Úložisko';
 $string['choose'] = 'Vybrať si';
 $string['chooseafile'] = 'Zmeniť alebo nahrať súbor';
 $string['chooseparameter'] = 'Zmeniť parameter';
+$string['clicktoopen'] = 'Pre otvorenie dokumentu kliknite na tento odkaz:';
 $string['configallowlocalfiles'] = 'Pri vytváraní nového zdroja povoliť odkazy na súbory, ktoré sa nachádzajú na pevnom disku alebo CD-ROM, na lokálnom počítači. Toto sa dá použiť v triede, kde majú všetci študenti prístup k spoločnému sieťovému disku, alebo keď je potrebné pristupovať k súborom, ktoré sú uložené na CD. Použitie tejto vlastnosti môže vyžadovať zmeny v bezpečnostných nastaveniach vášho prehliadača.';
+$string['configautofilerenamesettings'] = 'Automaticky aktualizovať odkazy na súbory a adresáre, ak sú premenované v správcovi súborov';
+$string['configblockdeletingfilesettings'] = 'Blok vymazanie súborov a adresárov odkazovaných zdrojmi. Poznamenávame, že obrázky a iné súbory odkazované z html zdrojov nie sú chránené.';
 $string['configdefaulturl'] = 'Táto hodnota bude predvyplnená v poli URL, pri vytváraní nového, na URL založeného zdroja.';
 $string['configfilterexternalpages'] = 'Pokiaľ bude aktivované toto nastavenie, budú sa na všetky vonkajšie zdroje (web stránky, či nahrané HTML súbory) aplikovať filtre definované v nastaveniach stránok (napríklad automatické prelinkovanie výrazov zo slovníka). Pokiaľ aktivujete túto voľbu, môže sa stať že web stránky kurzu sa významne spomalia - preto používajte toto nastavenie opatrne a len v prípade keď ho naozaj potrebujete.';
 $string['configframesize'] = 'Keď je webová stránka alebo súbor zobrazovaný v rámci, táto hodnota je veľkosť (v pixeloch) hlavného (najvyššieho) rámca (ktorý obsahuje navigačné tlačidlá).';
@@ -45,6 +49,7 @@ $string['frameifpossible'] = 'Pre zachovanie viditeľnosti navigácie web strán
 $string['fulltext'] = 'Plný text';
 $string['htmlfragment'] = 'HTML fragment';
 $string['imspackageloaded'] = 'Balík nahraný';
+$string['keepnavigationvisible'] = 'Ponechať navigáciu stránky viditeľnú na rovnakej stránke.';
 $string['localfile'] = 'Lokálny súbor';
 $string['localfilechoose'] = 'Vyber lokálny súbor (CD-ROM)';
 $string['localfilehelp'] = 'Pomoc so zobrazovaním lokálnych súborov';
@@ -92,6 +97,7 @@ $string['preview'] = 'Náhľad';
 $string['previous'] = 'Predchádzajúci';
 $string['redeploy'] = 'Znova rozbaliť';
 $string['repository'] = 'IMS úložisko';
+$string['resource:view'] = 'Zobraziť zdroj';
 $string['resourcetype'] = 'Typ zdroja';
 $string['resourcetype1'] = 'Odkaz';
 $string['resourcetype2'] = 'Webová stránka';
@@ -118,5 +124,7 @@ $string['upbutton'] = 'Vyššie';
 $string['variablename'] = 'Meno premennej';
 $string['viewims'] = 'Prezrieť IMS balík';
 $string['vol'] = 'Zv.';
+$string['warningblockingdelete'] = 'Upozornenie: Operácia vymazania je blokovaná existujúcim zdrojom. Alebo aktualizujte zdroje alebo požiadajte administrátora na zablokovanie tohto bezpečnostného mechanizmu v celkovej konfigurácii zdrojov.';
+$string['warningdisabledrename'] = 'Upozornenie: Automatické premenovanie zdrojov je zakázané. Prosím aktualizujte ovplyvnené zdroje manuálne, ak treba. Administrátor tiež môže povoliť automatické premenovanie v celkovej konfigurácii zdrojov.';
 
 ?>

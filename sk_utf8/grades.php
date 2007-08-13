@@ -1,13 +1,14 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6.2+ (2006050521)
+      // grades.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addcategory'] = 'Pridať kategóriu';
 $string['addcategoryerror'] = 'Nebolo možné pridať kategóriu';
-$string['addexceptionerror'] = 'Pri pridávaní výnimky pre id používateľa: gradeitem sa vyskytla chyba';
+$string['addexceptionerror'] = 'Pri pridávaní výnimky pre userid:gradeitem sa vyskytla chyba';
 $string['allgrades'] = 'Všetky známky podľa kategórie';
 $string['allstudents'] = 'Všetci študenti';
 $string['average'] = 'Priemer';
+$string['backupwithoutgradebook'] = 'Záloha neobsahuje konfiguráciu Známok';
 $string['bonuspoints'] = 'Body naviac (bonus)';
 $string['categories'] = 'Kategórie';
 $string['category'] = 'Kategória';
@@ -25,7 +26,7 @@ $string['dropxlowestwarning'] = 'Poznámka: Ak použijete drop x lowest, systém
 $string['errorgradevaluenonnumeric'] = 'Zadaná známka pre nízke alebo vysoké známkovanie nebola číselného typu';
 $string['errornocategorizedid'] = 'Nebolo možné dostať nezaradené id!';
 $string['errornocourse'] = 'Nebolo možné dostať informácie o kurze';
-$string['errorreprintheadersnonnumeric'] = 'Hodnota nečíselného typu pre znovuvytlačenie hlavičky';
+$string['errorreprintheadersnonnumeric'] = 'Hodnota nečíselného typu pre znovu vytlačenie hlavičky';
 $string['exceptions'] = 'Výnimky';
 $string['excluded'] = 'Vyňatý';
 $string['extracredit'] = 'Kredit naviac';
@@ -88,6 +89,7 @@ $string['pointsdescending'] = 'Zotriediť podľa bodov zostupne';
 $string['preferences'] = 'Preferencie';
 $string['rawpct'] = 'Hrubé  %%';
 $string['reprintheaders'] = 'Znovuvytlačiť hlavičku';
+$string['respectingcurrentdata'] = 'nechávam súčasnú konfiguráciu nezmenenú';
 $string['savechanges'] = 'Uložiť zmeny';
 $string['savepreferences'] = 'Uložiť preferencie';
 $string['scaledpct'] = 'Škálované  %%';
@@ -105,7 +107,7 @@ $string['sortbyfirstname'] = 'Zotriediť podľa mena';
 $string['sortbylastname'] = 'Zotriediť podľa priezviska';
 $string['standarddeviation'] = 'Štandardná odchýlka';
 $string['stats'] = 'Štatistika';
-$string['statslink'] = 'Štat';
+$string['statslink'] = 'Štatistiky';
 $string['student'] = 'Študent';
 $string['total'] = 'Celkom';
 $string['totalweight100'] = 'Celková váha sa rovná 100';
@@ -123,5 +125,6 @@ $string['weightedpct'] = 'vážené %%';
 $string['weightedpctcontribution'] = 'vážené %% príspevku';
 $string['writinggradebookinfo'] = 'Nastavenia písomnej klasifikácie';
 $string['yes'] = 'Áno';
+$string['yourgrade'] = 'Vaša známka';
 
 ?>

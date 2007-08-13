@@ -1,5 +1,6 @@
-<?php // $Id$ 
-      // exercise.php - created with Moodle 1.6 development (2005060201)
+<?PHP // $Id$ 
+      // exercise.php - created with Moodle 1.8.2+ (2007021520)
+
 
 $string['absent'] = 'Chýba';
 $string['accumulative'] = 'Nahromadený';
@@ -102,14 +103,14 @@ $string['numberofnegativeresponses'] = 'Počet záporných odpovedí';
 $string['onesubmission'] = 'Jedno odovzadané riešenie úlohy';
 $string['optionaladjustment'] = 'Voliteľné nastavenie';
 $string['overallgrade'] = 'Celkový počet bodov';
-$string['passwordprotectedexercise'] = 'Cvičenie chránené heslom  ';
+$string['passwordprotectedexercise'] = 'Cvičenie chránené heslom';
 $string['phase'] = 'Fáza';
 $string['phase1'] = 'Nastavenie cvičenia';
-$string['phase1short'] = 'Fáza 1'; // upravil Slapo
+$string['phase1short'] = 'Fáza 1';
 $string['phase2'] = 'Povoliť hodnotenie a odovzdávanie zadaní pre $a';
-$string['phase2short'] = 'Fáza 2'; // upravil Slapo
+$string['phase2short'] = 'Fáza 2';
 $string['phase3'] = 'Ukázať celkový počet bodov v ligovej tabuľke';
-$string['phase3short'] = 'Fáza 3'; // upravil Slapo
+$string['phase3short'] = 'Fáza 3';
 $string['pleasegradetheassessment'] = 'Prosím, obodujte hodnotenie tejto časti práce - prácu vypracoval $a';
 $string['pleasemakeyourownassessment'] = 'Prosím, vykonajte vlastné hodnotenie riešenia, ktoré vypracoval $a.<br />
 Všimnite si, že forma hodnotenia je spočiatku zobrazovaná spolu s hodnotením študentov.<br />
@@ -124,8 +125,8 @@ $string['reassess'] = 'Prehodnotiť';
 $string['regradestudentassessments'] = 'Prebodovať hodnotenie študentov';
 $string['resubmissionfor'] = 'Znovuodovzdanie používateľom $a';
 $string['resubmitnote'] = '* znamená, že $a má povolené opakované zaslanie riešenia úlohy.<br />
-Toto označenie môže byť pridelené akejkoľvek odovzdanej úlohe jej prehodnotením a kliknutím na tlačidlo <b>Povoliť pre $a znovuodovzdanie</b>.<br />
-Študent môže znovuodovzdať úlohu, ak je toto označenie prítomné na <b>ktorejkoľvek</b> z jeho odovzdaných úloh.';
+Toto označenie môže byť pridelené akejkoľvek odovzdanej úlohe jej prehodnotením a kliknutím na tlačidlo <b>Povoliť pre $a znovu odovzdanie</b>.<br />
+Študent môže znovu odovzdať úlohu, ak je toto označenie prítomné na <b>ktorejkoľvek</b> z jeho odovzdaných úloh.';
 $string['rubric'] = 'Oddiel';
 $string['savedok'] = 'Uložené v poriadku';
 $string['saveentries'] = 'Uložiť položky';
@@ -145,7 +146,7 @@ $string['specimenassessmentform'] = 'Vzorový formulár hodnotenia';
 $string['standarddeviation'] = 'Smerodajná odchýlka';
 $string['strict'] = 'Presný';
 $string['studentallowedtoresubmit'] = '$a MÔŽE znovuodovzdávať zadanie';
-$string['studentassessments'] = 'Hodnotenie používateľa $a ';
+$string['studentassessments'] = 'Hodnotenie používateľa $a';
 $string['studentnotallowed'] = '$a NEMÔŽE znovuodovzdávať zadanie';
 $string['studentsubmissions'] = '$a odovzdaných zadaní';
 $string['studentsubmissionsforassessment'] = '$a Študentmi odovzdané úlohy na hodnotenie';
@@ -173,7 +174,6 @@ $string['unassessed'] = '$a nehodnotených';
 $string['ungradedstudentassessments'] = '$a nebodovaných študentských hodnotení';
 $string['usemaximum'] = 'Použiť maximum';
 $string['usemean'] = 'Použiť priemer';
-$string['useadd'] = 'Použiť súčet';
 $string['usepassword'] = 'Použiť heslo';
 $string['verylax'] = 'Veľmi nedbalý';
 $string['verypoor'] = 'Veľmi slabý';
@@ -192,4 +192,6 @@ $string['wrongpassword'] = 'Nesprávne heslo k tomuto cvičeniu';
 $string['yourassessment'] = 'Vaše hodnotenie';
 $string['yourfeedbackgoeshere'] = 'Vaše vyjadrenie od učiteľa bude TU';
 $string['yoursubmission'] = 'Vaše odovzdané úlohy';
+$string['useadd'] = 'Použiť súčet'; // ORPHANED
+
 ?>

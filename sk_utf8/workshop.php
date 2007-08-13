@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.6 development (2005052400)
+      // workshop.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['absent'] = 'Chýba';
@@ -117,11 +117,11 @@ $string['gradingallassessments'] = 'Známkovanie všetkých hodnotení';
 $string['gradinggrade'] = 'Kvalita známkovania';
 $string['gradingstrategy'] = 'Stratégia známkovania';
 $string['hidegradesbeforeagreement'] = 'Ukryť známky až do získania súhlasu';
-$string['hidenamesfromstudents'] = 'Ukryť mená $a ';
+$string['hidenamesfromstudents'] = 'Ukryť mená $a';
 $string['includeteachersgrade'] = 'Zahrnúť známky od učiteľa';
 $string['incorrect'] = 'Nesprávne';
 $string['info'] = 'Informácia';
-$string['invaliddates'] = 'Dátumy, ktoré ste tu uviedli, nie sú možné..<br />Použite tlačidlo v prehliadači Späť na návrat k formuláru a k správnym dátumom.';
+$string['invaliddates'] = 'Dátumy, ktoré ste tu uviedli, nie sú možné.<br />Použite tlačidlo v prehliadači Späť na návrat k formuláru a k správnym dátumom.';
 $string['iteration'] = 'Opakovanie $a skončilo';
 $string['lastname'] = 'Priezvisko';
 $string['lax'] = 'Nedbalý';
@@ -131,13 +131,13 @@ $string['listofallsubmissions'] = 'Zoznam všetkých odovzdaných zadaní';
 $string['liststudentsassessments'] = 'Zoznam študentských hodnotení';
 $string['loadingforteacherassessments'] = 'Nahrávanie hodnotenie pre $a';
 $string['mail1'] = 'Vaše zadanie \'$a\' bolo ohodnotené';
-$string['mail10'] = 'Môžete ho hodnotiť v zadaní Vašej pracovnej dielne ';
-$string['mail2'] = 'Komentáre a známku možete vidieť v hodnotení tvorivej dielne \'$a\'';
-$string['mail3'] = 'Možete to vidieť v hodnotení pracovnej dielne';
+$string['mail10'] = 'Môžete ho hodnotiť v zadaní Vašej pracovnej dielne';
+$string['mail2'] = 'Komentáre a známku môžete vidieť v hodnotení tvorivej dielne \'$a\'';
+$string['mail3'] = 'Môžete to vidieť v hodnotení pracovnej dielne';
 $string['mail4'] = 'Komentár bol pridaný k hodnoteniu \'$a\'';
-$string['mail5'] = 'Nový komentár možete vidieť v hodnotení tvorivej dielne \'$a\'';
+$string['mail5'] = 'Nový komentár môžete vidieť v hodnotení tvorivej dielne \'$a\'';
 $string['mail6'] = 'Vaše zadanie hodnotenia \'$a\' bolo prezreté';
-$string['mail7'] = 'Komentáre pridané \'$a\' možete vidieť v hodnotení tvorivej dielne';
+$string['mail7'] = 'Komentáre pridané \'$a\' môžete vidieť v hodnotení tvorivej dielne';
 $string['mail8'] = 'Hodnotenie $a je kontrolovanou časťou práce.';
 $string['mail9'] = 'Prosím, zhodnoťte ho v zadaní Vašej tvorivej dielne $a\'.';
 $string['managingassignment'] = 'Správa zadaní';
@@ -160,13 +160,10 @@ $string['nosubmission'] = 'Žiadne odovzdané zadania';
 $string['nosubmissionsavailableforassessment'] = 'Žiadne zadania nie sú prístupné pre hodnotenie';
 $string['notallowed'] = 'Momentálne Vám toto na stránke nie je dovolené previesť';
 $string['notavailable'] = 'Neprístupné';
-$string['notenoughexamplessubmitted'] = 'Nie je odoslené dostatočné množstvo vzorových ukážok';
+$string['notenoughexamplessubmitted'] = 'Nie je odoslané dostatočné množstvo vzorových ukážok';
 $string['noteonassessmentelements'] = '\"Všimnite si, že pri zadaní hodnotenom študentmi je bodovanie rozdelené na niekoľko \'Zložiek hodnotenia\'.<br />
-
 Toto zjednodušuje a spresňuje bodovanie. Ako učiteľ musíte tieto zložky pridať predtým ako sprístupnite<br />
-
 zadanie pre študentov. Urobíte to tak, že kliknete na zadanie bodované študentmi a vyberiete si<br />
-
 prvú možnosť v menu \"Správa študentmi hodnotených zadaní\" .';
 $string['noteonstudentassessments'] = '{Známka od študenta / Kvalita známkovania}';
 $string['notgraded'] = 'Neoznámkované';
@@ -255,7 +252,7 @@ $string['standarddeviation'] = 'Štandardná odchýlka';
 $string['standarddeviationnote'] = 'Položky s nulovou alebo veľmi malou štandardnou odchýlkou môžu túto analýzu skresliť.<br />Tieto položky boli z analýzy vylúčené.';
 $string['standarddeviationofelement'] = 'Štandardná odchýlka položky $a:';
 $string['strict'] = 'Presný';
-$string['studentassessments'] = 'hodnotenia od $a ';
+$string['studentassessments'] = 'hodnotenia od $a';
 $string['studentgrades'] = '$a - známka';
 $string['studentsubmissions'] = '$a - odovzdané zadania';
 $string['studentsubmissionsforassessment'] = '$a študentské zadania pre hodnotenie';
@@ -276,12 +273,12 @@ $string['submitted'] = 'Odovzdané';
 $string['submittedby'] = 'Odovzdal(a)';
 $string['suggestedgrade'] = 'Navrhovaná známka';
 $string['tassmnt'] = 'Učiteľ<br />Hodnotenie';
-$string['teacherassessments'] = ' hodnotenia od $a';
+$string['teacherassessments'] = 'hodnotenia od $a';
 $string['teachergradeforassessment'] = '$a známka za hodnotenie';
 $string['teacherscomment'] = 'Komentár učiteľa';
 $string['teachersgrade'] = 'Učiteľova známka';
 $string['teachersubmissionsforassessment'] = '$a zadania na hodnotenie pre učiteľa';
-$string['thegradeforthisassessmentis'] = 'Známka pre toto hodnotenie je $a ';
+$string['thegradeforthisassessmentis'] = 'Známka pre toto hodnotenie je $a';
 $string['thegradeis'] = 'Známka je $a';
 $string['theseasessmentsaregradedbytheteacher'] = 'Tieto hodnotenia oznámkoval $a';
 $string['thisisadroppedassessment'] = 'Toto je znížené hodnotenie';
@@ -306,12 +303,14 @@ $string['weight'] = 'Váha';
 $string['weightederrorcount'] = 'Chyba v hodnote: $a';
 $string['weightforbias'] = 'Váha pre systematickú chybu';
 $string['weightforgradingofassessments'] = 'Váha pre známku z hodnotenia';
-$string['weightforpeerassessments'] = 'Váha pre známku ';
+$string['weightforpeerassessments'] = 'Váha pre známku';
 $string['weightforreliability'] = 'Váha pre spoľahlivosť';
 $string['weightforteacherassessments'] = 'Váha hodnotenia učiteľa';
 $string['weights'] = 'Váhy';
 $string['weightsusedforfinalgrade'] = 'Váhy použité v celkovej známke';
 $string['weightsusedforsubmissions'] = 'Váhy použité v zadaniach';
+$string['workshop:manage'] = 'Administrovať nastavenia';
+$string['workshop:participate'] = 'Zúčastniť sa pracovnej dielne';
 $string['workshopagreedassessments'] = 'Odsúhlasené hodnotenie tvorivej dielne';
 $string['workshopassessments'] = 'Hodnotenie tvorivej dielne';
 $string['workshopcomments'] = 'Komentáre tvorivej dielne';

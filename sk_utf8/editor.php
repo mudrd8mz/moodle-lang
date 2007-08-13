@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.7.1+ (2006101010)
+      // editor.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['about'] = 'O tomto editore';
@@ -58,6 +58,7 @@ $string['justifycenter'] = 'Zarovnať na stred';
 $string['justifyfull'] = 'Zarovnať do bloku';
 $string['justifyleft'] = 'Zarovnať doľava';
 $string['justifyright'] = 'Zarovnať doprava';
+$string['lang'] = 'Jazyk';
 $string['layout'] = 'Vzhľad';
 $string['left'] = 'Naľavo';
 $string['lefttoright'] = 'Zľava doprava';
@@ -74,6 +75,7 @@ $string['matchcase'] = 'Citlivé na veľkosť písma';
 $string['middle'] = 'Uprostred (Middle)';
 $string['minimize'] = 'Minimalizovať editor';
 $string['move'] = 'Presunúť';
+$string['multi'] = 'Viac';
 $string['mustenterurl'] = 'Musíte vložiť URL';
 $string['nolink'] = 'Zabrániť automatickému vytváraniu odkazov';
 $string['normal'] = 'Normálny';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6.2+ (2006050521)
+      // wiki.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['action'] = '-- Akcia --';
@@ -22,7 +22,7 @@ $string['changes'] = 'Zmien: $a';
 $string['changesfield'] = 'Behom koľkých hodín od poslednej zmeny';
 $string['changesfielderror'] = 'Prosím, vložte správne počet hodín';
 $string['checklinks'] = 'Skontrolovať odkazy';
-$string['checklinkscheck'] = 'Ste si istí, že chcete skontrolovať odkazy na tejto stránke:';
+$string['checklinkscheck'] = 'Naozaj chcete skontrolovať odkazy na tejto stránke:';
 $string['checklinksnotice'] = 'Prosím o trpezlivosť, na tejto stránke sa pracuje.';
 $string['chooseadministration'] = '-- Administrácia --';
 $string['chooseafile'] = 'Vybrať/Nahrať úvodnú stránku';
@@ -106,7 +106,7 @@ $string['nocandidatestoremove'] = 'Neboli nájdení žiadni kandidáti na odstr�
 $string['nochangestorevert'] = 'Nie sú žiadne zmeny na vrátenie';
 $string['nohtml'] = 'Bez HTML';
 $string['nolinksfound'] = 'Na stránke nebol nájdený žiadny odkaz';
-$string['noregexp'] = 'Toto musí byť fixný reťazec, nedá sa používať * ani regulárne výrazy. Doporučujeme použiť IP adresy alebo názvy počítačov útočníkov, samozrejme bez čísla portu (to sa zväčšuje s každým HTTP prístupom).';
+$string['noregexp'] = 'Toto musí byť fixný reťazec, nedá sa používať * ani regulárne výrazy. Odporúčame použiť IP adresy alebo názvy počítačov útočníkov, samozrejme bez čísla portu (to sa zväčšuje s každým HTTP prístupom).';
 $string['notadministratewiki'] = 'Nemáte oprávnenie spravovať toto wiki!';
 $string['nothingtostrip'] = 'Nie sú tu žiadne stránky s viac ako jednou verziou.';
 $string['nowikicreated'] = 'V tomto wiki neboli vytvorené žiadne položky.';
@@ -133,7 +133,7 @@ $string['refs'] = 'Odkazy';
 $string['reloadlinkdescription'] = 'Znova načita stránku, tak aby sa zobrazil novo vložený obsah.';
 $string['reloadlinktext'] = 'Znova načítať stránku';
 $string['removenotice'] = 'Všimnite si, že tu sú uvedené iba stránky, na ktoré nevedie žiadny odkaz. Mechanizmus wiki sám o sebe prevádza iba obmedzené testy odkazovaných stránok, takže tu môžu niektoré chýbať.<br />Ak ste stránku vyprázdnili, bude tu uvedená tiež. Mimo toho je v databáze prevedená celá rada ďalších diagnostík.';
-$string['removepagecheck'] = 'Ste si istý, že chcete odstrániť tieto stránky?';
+$string['removepagecheck'] = 'Naozaj chcete odstrániť tieto stránky?';
 $string['removepages'] = 'Odstrániť stránky';
 $string['removeselectedpages'] = 'Odstrániť vybrané stránky';
 $string['revertallsince'] = 'Aj ďalšie verzie a odstráň aj všetky neskoršie zmeny';
@@ -150,7 +150,7 @@ $string['showversions'] = 'Ukázať verzie:';
 $string['sitemap'] = 'MapaStránok';
 $string['smfor'] = 'MapaStránok pre';
 $string['status'] = 'Stav';
-$string['strippagecheck'] = 'Ste si istý, že chcete odrezať staré verzie od týchto stránok?';
+$string['strippagecheck'] = 'Naozaj chcete odstrániť staré verzie od týchto stránok?';
 $string['strippages'] = 'Orezať stránky';
 $string['studentadminoptions'] = 'Práva študentov';
 $string['submit'] = 'Odoslať';
@@ -177,6 +177,9 @@ $string['versionstodelete'] = 'Verzia na odstránenie';
 $string['viewpage'] = 'Zobraziť stránku';
 $string['viewsmfor'] = 'Zobraziť mapu stránok pre';
 $string['wantedpages'] = 'Žiadané stránky';
+$string['wiki:manage'] = 'Administrovať nastavenia wiki';
+$string['wiki:overridelock'] = 'Prepísať zamknuté stránky';
+$string['wiki:participate'] = 'Upravovať wiki stránky';
 $string['wikidefaultpagename'] = 'WikiObsah';
 $string['wikiexport'] = 'Exportovať stránky';
 $string['wikiexportcomment'] = 'Tu môžete nastaviť export podľa Vašich potrieb';
