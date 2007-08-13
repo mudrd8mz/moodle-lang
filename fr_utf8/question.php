@@ -51,8 +51,22 @@ $string['needtochoosecat'] = 'Vous devez choisir une catégorie dans laquelle d�
 $string['nopermissionadd'] = 'Vous n\'avez pas le droit d\'ajouter des questions ici.';
 $string['noprobs'] = 'Aucun problème n\'a été détecté dans votre banque de questions.';
 $string['notenoughdatatoeditaquestion'] = 'L\'identifiant de la question, l\'identifiant de la catégorie et le type de question n\'ont pas été spécifiés.';
+$string['notenoughdatatomovequestions'] = 'Vous devez fournir les identifiants des questions que vous voulez déplacer.';
+$string['permissionedit'] = 'Modifier cette question';
+$string['permissionmove'] = 'Déplacer cette question';
+$string['permissionsaveasnew'] = 'Enregistrer ceci en tant que nouvelle question';
+$string['permissionto'] = 'Vous avez les autorisations pour&nbsp;:';
+$string['published'] = 'publié';
+$string['questionaffected'] = '<a href=\"$a->qurl\">La question «&nbsp;$a->name &nbsp;» ($a->qtype)</a> est dans cette catégorie, mais est aussi utilisée dans le <a href=\"$a->qurl\">test «&nbsp;$a->quizname&nbsp;»</a> dans le cours «&nbsp;$a->coursename&nbsp;».';
 $string['questionbank'] = 'Banque de questions';
+$string['questioncatsfor'] = 'Catégories de question de «&nbsp;$a&nbsp;»';
 $string['questiondoesnotexist'] = 'Cette question n\'existe pas';
+$string['questionuse'] = 'Utilisation de question dans cette activité';
+$string['shareincontext'] = 'Partager dans le contexte pour $a';
+$string['tofilecategory'] = 'Exporter la catégorie dans le fichier';
+$string['tofilecontext'] = 'Exporter le contexte dans le fichier';
+$string['unknown'] = 'Inconnu';
 $string['unknownquestiontype'] = 'Type de question inconnu&nbsp;: $a.';
+$string['unpublished'] = 'non publié';
 
 ?>
