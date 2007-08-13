@@ -140,6 +140,7 @@ $string['site:viewreports'] = 'Afficher les rapports';
 $string['tag:manage'] = 'Gérer toutes les balises';
 $string['tag:create'] = 'Créer de nouvelles balises';
 $string['tag:edit'] = 'Modifier les balises existantes';
+$string['tag:editblocks'] = 'Modifier les blocs sur les pages de balises';
 $string['user:changeownpassword'] = 'Modifier son propre mot de passe';
 $string['user:create'] = 'Créer des utilisateurs';
 $string['user:delete'] = 'Supprimer des utilisateurs';

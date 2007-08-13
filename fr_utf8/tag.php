@@ -32,5 +32,6 @@ $string['thistaghasnodesc'] = 'Cette balise n\'a actuellement pas de description
 $string['timemodified'] = 'Modifié';
 $string['userstaggedwith'] = 'Utilisateurs avec la balise «&nbsp;$a&nbsp;»';
 $string['updatetag'] = 'Modifier';
+$string['withselectedtags'] = 'Avec les balises sélectionnées...';
 
 ?>
