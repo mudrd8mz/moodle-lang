@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.5.2 + (2005060222)
+      // message.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['addcontact'] = 'Добавить собеседника';
@@ -33,6 +33,7 @@ $string['messages'] = 'Обмен сообщениями';
 $string['messaging'] = 'Обмен сообщениями';
 $string['mycontacts'] = 'Мои собеседники';
 $string['newsearch'] = 'Искать заново';
+$string['noframesjs'] = 'Версия без фреймов и Javascript';
 $string['nomessages'] = 'Нет новых сообщений';
 $string['nomessagesfound'] = 'Сообщений не найдено';
 $string['nosearchresults'] = 'Поиск не дал результатов';

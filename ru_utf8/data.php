@@ -1,12 +1,11 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.6.2+ (2006050521)
-      // local modifications from http://www.cdp.tsure.ru/moodle
+      // data.php - created with Moodle 1.8 + (2007021502)
 
 
 $string['add'] = 'Добавить запись';
 $string['addafield'] = 'Добавить поле';
 $string['addcomment'] = 'Добавить комментарий';
-$string['addtemplate'] = 'Добавить шаблон';
+$string['addtemplate'] = 'Шаблон добавления';
 $string['allowcomments'] = 'Разрешить комментарии?';
 $string['allowratings'] = 'Разрешить оценивание записей?';
 $string['approve'] = 'Одобрить';
