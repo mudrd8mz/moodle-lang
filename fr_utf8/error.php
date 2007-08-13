@@ -3,8 +3,10 @@
 $string['adminprimarynoedit'] = 'Le compte de l\'administrateur principal ne peut pas être modifié par les autres administrateurs';
 $string['cannotcreatelangdir'] = 'Création du dossier lang impossible.';
 $string['cannotcreatetempdir'] = 'Création du dossier temp impossible.';
+$string['cannotcustomizelocallang'] = 'Vous n\'avez pas les autorisations nécessaires pour modifier localement la traduction des chaînes de caractères. Cette autorisation est contrôlée par la capacité «&nbsp;moodle/site:langeditlocal&nbsp;». Veuillez vous accorder cette capacité pour vous permettre de modifier localement les chaînes de caractères, si vous désirez modifier la traduction de Moodle pour votre site.';
 $string['cannotdownloadcomponents'] = 'Téléchargement des composants impossible.';
 $string['cannotdownloadzipfile'] = 'Téléchargement du fichier ZIP impossible.';
+$string['cannoteditmasterlang'] = 'Vous n\'avez pas les autorisations nécessaires pour modifier le paquetage de langue officiel. Cette autorisation est contrôlée par la capacité «&nbsp;moodle/site:langeditmaster". &nbsp;». Veuillez vous accorder cette capacité pour vous permettre de modifier les paquetages de langue, si vous êtes le responsable de la maintenance d\'un paquetage.';
 $string['cannotfindcomponent'] = 'Composant introuvable.';
 $string['cannotsavemd5file'] = 'Enregistrement du fichier md5 impossible.';
 $string['cannotsavezipfile'] = 'Enregistrement du fichier ZIP impossible.';
