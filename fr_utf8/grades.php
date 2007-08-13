@@ -88,6 +88,7 @@ $string['configshowuserimage'] = 'Afficher l\'image de l\'utilisateur à côté 
 $string['configstudentsperpage'] = 'Le nombre de participants à afficher par page dans le rapport de l\'évaluateur.';
 $string['configstudentsperpagedefault'] = 'Le nombre de participants à afficher par page dans le rapport de l\'évaluateur. Laissez ce champ vide pour utiliser le réglage par défaut du site (actuellement $a).';
 $string['contract'] = 'Minimiser la catégorie';
+$string['coursename'] = 'Nom du cours';
 $string['coursetotal'] = 'Total du cours';
 $string['createcategory'] = 'Créer une catégorie';
 $string['createcategoryerror'] = 'Impossible de créer une nouvelle catégorie';
