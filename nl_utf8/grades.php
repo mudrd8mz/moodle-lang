@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007080800)
+      // grades.php - created with Moodle 1.9 dev (2007080903)
 
 
 $string['activities'] = 'Activiteiten';
@@ -23,6 +23,7 @@ $string['aggregatemodeall'] = 'Modus van alle beoordelingen';
 $string['aggregatemodegraded'] = 'Modus van alle niet lege beoordelingn';
 $string['aggregateoutcomes'] = 'Competenites in aggregatie opnemen';
 $string['aggregateoutcomeshelp'] = 'Het mee opnemen van competenties in de aggregatie kan soms leiden tot een verkeerd algemeen cijfer. Daarom heb je de keuze om ze al dan niet op te nemen.';
+$string['aggregatesonly'] = 'Enkel geaggregeerden';
 $string['aggregateweightedmeanall'] = 'Gewogen gemiddelde van alle beoordelingen';
 $string['aggregateweightedmeangraded'] = 'Gewogen gemiddelde van alle niet lege beoordelingen';
 $string['aggregation'] = 'Aggregatie';
@@ -137,6 +138,7 @@ $string['finalgradehelp'] = 'Het totaalcijfer (gecached) nadat alle berekeningen
 $string['forelementtypes'] = 'Voor de gekozen $a';
 $string['forstudents'] = 'Voor leerlingen';
 $string['full'] = 'Volledig';
+$string['fullmode'] = 'Volledig overzicht';
 $string['grade'] = 'Beoordeling';
 $string['gradebook'] = 'Puntenboek';
 $string['gradebookhiddenerror'] = 'Het puntenboek is nu ingesteld om alles voor de leerlingen te verbergen.';
@@ -169,6 +171,7 @@ $string['gradepreferences'] = 'Beoordelingsvoorkeuren';
 $string['gradepreferenceshelp'] = 'Help bij voorkeursinstellingen';
 $string['graderreport'] = 'Rapporten';
 $string['grades'] = 'Cijfers';
+$string['gradesonly'] = 'Enkel beoordelingen';
 $string['gradessettings'] = 'Beoordelingsinstellingen';
 $string['gradetype'] = 'Beoordelingstype';
 $string['gradetypehelp'] = 'Het beoordelingstype dat dit item gebruikt. Er zijn vier mogelijkheden: geen, waarde, schaal en tekst. Enkel de types waarde en schaal komen voor aggregatie in aanmerking.';
@@ -177,6 +180,7 @@ $string['gradeweighthelp'] = 'Help bij gewogen cijfers';
 $string['groupavg'] = 'Groepsgemiddelde';
 $string['hidden'] = 'Verborgen';
 $string['hiddenuntil'] = 'Verborgen tot';
+$string['hiddenuntildate'] = 'Verborgen tot: $a';
 $string['hideadvanced'] = 'Verberg geavanceerde mogelijkheden';
 $string['hideaverages'] = 'Verberg gemiddelden';
 $string['hidecalculations'] = 'Verberg berekeningen';
@@ -221,6 +225,7 @@ $string['linkedactivityhelp'] = 'Een optionele activiteit waaran dit item gelink
 $string['lock'] = 'Blokkeer';
 $string['locked'] = 'Geblokkeerd';
 $string['locktime'] = 'Blokkeer na';
+$string['locktimedate'] = 'Geblokkeerd na: $a';
 $string['lowest'] = 'Laagste';
 $string['lowgradeletter'] = 'Laag';
 $string['mapfrom'] = 'Koppel van';
@@ -256,6 +261,8 @@ $string['numberofgrades'] = 'Aantal beoordelingen';
 $string['onascaleof'] = 'op een schaal van $a-grademin tot $a->grademax';
 $string['operations'] = 'Operatie';
 $string['outcome'] = 'Competentie';
+$string['outcomecategory'] = 'Maak competenties in categorie';
+$string['outcomecategorynew'] = 'Nieuwe categorie';
 $string['outcomecreate'] = 'Voeg een nieuwe competentie toe';
 $string['outcomeidhelp'] = 'De competentie waarvoor dit beoordelingsitem staat.';
 $string['outcomeitem'] = 'Competentie-item';
