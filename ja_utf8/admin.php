@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007081001)
+      // admin.php - created with Moodle 1.9 dev (2007081302)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -367,6 +367,7 @@ $string['langimportsuccess'] = '言語パックが正常に更新されました
 $string['langlist'] = '言語メニューの言語';
 $string['langmenu'] = '言語メニューを表示する';
 $string['langnoeditenglish'] = 'ベースの英語言語パックを上書きすることはできません。使用言語を編集するには、言語ディレクトリに移動してください。';
+$string['langpackmaintaining'] = '言語パックのメンテナンス';
 $string['langpackremoved'] = '言語パックのアンインストールが完了しました。';
 $string['langpacks'] = '言語パック';
 $string['langpackupdated'] = '言語パック $a が正常にインストールされました。';
@@ -376,6 +377,7 @@ $string['latexpreamble'] = 'LaTeXプリアンブル';
 $string['latexsettings'] = 'LaTeXレンダ設定';
 $string['latinexcelexport'] = 'Excelエンコーディング';
 $string['localetext'] = 'サイト全体のロケール';
+$string['localstringcustomization'] = 'ローカルストリングのカスタマイズ';
 $string['location'] = 'ロケーション';
 $string['locationsettings'] = 'ロケーション設定';
 $string['log'] = 'ログ';
@@ -425,6 +427,7 @@ $string['mysql416required'] = 'Moodle1.6では、将来すべてのデータをU
 $string['nobookmarksforuser'] = 'ブックマークはありません。';
 $string['nodefaultuserrolelists'] = 'ユーザにすべてのデフォルトロールを戻さない';
 $string['nolangupdateneeded'] = 'すべての言語パックは最新版です。アップデートの必要はありません。';
+$string['nomissingstrings'] = '未翻訳ストリングはありません。';
 $string['nonewsettings'] = 'このアップグレードで、新しい設定は追加されませんでした。';
 $string['nonexistentbookmark'] = 'あなたがリクエストしたブックマークは登録されていません。';
 $string['nonmetacoursesyncroleids'] = 'メタコースと同期されないロール';
@@ -434,6 +437,7 @@ $string['notifications'] = '通知';
 $string['notifyloginfailures'] = 'ログイン失敗をメール通知する';
 $string['notifyloginthreshold'] = 'メール通知の閾値';
 $string['notloggedinroleid'] = 'ビジターのロール';
+$string['numberofmissingstrings'] = '未翻訳ストリング数: $a';
 $string['opensslrecommended'] = 'Moodleネットワーキング機能を有効にするため、OpenSSLライブラリのインストールを強くお勧めします。';
 $string['opentogoogle'] = 'Googleに公開する';
 $string['optionalmaintenancemessage'] = '任意のメンテナンスメッセージ';
