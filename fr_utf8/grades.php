@@ -152,6 +152,7 @@ $string['fullmode'] = 'Vue complète';
 $string['grade'] = 'Note';
 $string['gradebook'] = 'Carnet de notes';
 $string['gradebookhiddenerror'] = 'Le carnet de note est configuré de façon à cacher toutes ses données aux étudiants.';
+$string['gradebookhistories'] = 'Historiques d\'évaluation';
 $string['gradeboundary'] = 'Limite pour note lettre';
 $string['gradecategory'] = 'Catégorie de note';
 $string['gradecategoryhelp'] = 'Aide sur les catégories de note';
