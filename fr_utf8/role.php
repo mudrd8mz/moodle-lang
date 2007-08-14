@@ -6,6 +6,7 @@ $string['allowassign'] = 'Autoriser les attributions de rôles';
 $string['allowoverride'] = 'Autoriser la définition de dérogations aux rôles';
 $string['assignglobalroles'] = 'Attribution des rôles globaux';
 $string['assignroles'] = 'Attribution des rôles';
+$string['block:view'] = 'Voir les blocs';
 $string['blog:create'] = 'Créer des articles de blog';
 $string['blog:manageentries'] = 'Modifier et gérer les articles de blog';
 $string['blog:manageofficialtags'] = 'Gérer les balises officielles';
