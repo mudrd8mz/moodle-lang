@@ -209,6 +209,7 @@ $string['highgradeascending'] = 'Tri croissant par note maximale';
 $string['highgradedescending'] = 'Tri décroissant par note maximale';
 $string['highgradeletter'] = 'Haut';
 $string['identifier'] = 'Identifier les utilisateurs par';
+$string['idnumbers'] = 'Identifiants';
 $string['idnumberhelp'] = 'Identifiant arbitraire fourni par le responsable du module (doit être défini et unique).';
 $string['import'] = 'Importer';
 $string['importcsv'] = 'Importation CSV';
