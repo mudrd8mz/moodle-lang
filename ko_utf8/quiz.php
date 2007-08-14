@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007072201)
+      // quiz.php - created with Moodle 1.9 dev (2007081001)
 
 
 $string['1day'] = '하루';
@@ -11,7 +11,19 @@ $string['acceptederror'] = '허용 오차';
 $string['action'] = '활동';
 $string['adaptive'] = '적응 모드';
 $string['addcategory'] = '범주 추가';
+$string['addingcalculated'] = '계산형 문항 추가';
+$string['addingdescription'] = '설명 추가';
+$string['addingessay'] = '논술형 문항 추가';
+$string['addingmatch'] = '일치형 문항 추가';
+$string['addingmultianswer'] = '채우기 문항(Cloze) 추가';
+$string['addingmultichoice'] = '선다형 문항 추가';
+$string['addingnumerical'] = '수치형 문항 추가';
+$string['addingquestion'] = '질문 추가';
 $string['addingquestions'] = '이곳에서 질문에 관계된 데이터베이스를 관리할 수 있습니다. 질문은 손쉽게 관리할 수 있게끔 범주별로 저장되고, 또한 \'공개\'한다면 선택한 배움터 혹은 다른 배움터에서도 이를 사용할 수 있습니다.<br /><br />범주를 선택하거나 생성한 후 질문을 편집할 수 있습니다. 어떠한 질문이라도 다른 문제은행의 범주에 추가될 수 있습니다.';
+$string['addingrandom'] = '임의 질문 추가';
+$string['addingrandomsamatch'] = '단답형 임의질문 추가';
+$string['addingshortanswer'] = '주관식 단답형 문항 추가';
+$string['addingtruefalse'] = '진위형 문항 추가';
 $string['addquestions'] = '문항 추가';
 $string['addquestionstoquiz'] = '문항 추가하기';
 $string['addrandom'] = '$a 에 임의 문항 추가';

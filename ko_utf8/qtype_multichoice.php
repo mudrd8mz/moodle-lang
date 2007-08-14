@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.9 dev (2007041100)
+      // qtype_multichoice.php - created with Moodle 1.9 dev (2007081001)
 
 
+$string['addingmultichoice'] = '선다형 문항 추가';
 $string['addmorechoiceblanks'] = '여분의 선택란 작성';
 $string['answerhowmany'] = '정답의 갯수';
 $string['answernumbering'] = '답안 번호?';

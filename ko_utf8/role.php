@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007080202)
+      // role.php - created with Moodle 1.9 dev (2007081001)
 
 
 $string['addrole'] = '역할 추가';
@@ -58,6 +58,7 @@ $string['errorbadroleshortname'] = '잘못된 단축역할명';
 $string['errorexistsrolename'] = '역할명이 이미 존재합니다.';
 $string['errorexistsroleshortname'] = '단축역할명이 이미 존재합니다.';
 $string['existingusers'] = '$a 기존 사용자';
+$string['globalrole'] = '전체 역할';
 $string['globalroleswarning'] = '경고! 이 화면에서 사용자에게 부여한 역할은 대문화면뿐만 아니라 이 사이트 전체의 배움터에 적용됩니다.';
 $string['grade:export'] = '성적 내보냄';
 $string['grade:hide'] = '성적 숨김';
@@ -136,6 +137,7 @@ $string['site:viewparticipants'] = '참여자 보기';
 $string['site:viewreports'] = '보고서 보기';
 $string['tag:create'] = '새 태그 생성';
 $string['tag:edit'] = '기존 태그 수정';
+$string['tag:editblocks'] = '태그 화면에서의 블록 편집';
 $string['tag:manage'] = '태그 관리';
 $string['user:changeownpassword'] = '내 비밀번호 변경';
 $string['user:create'] = '사용자 생성';

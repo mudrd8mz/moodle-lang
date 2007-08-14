@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007080202)
+      // admin.php - created with Moodle 1.9 dev (2007081001)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -124,6 +124,7 @@ $string['configintroadmin'] = '이 화면을 통해 이 사이트 전반을 완�
 $string['configintrosite'] = '이 화면에서는 이 사이트의 명칭과 대문화면에 대한 설정을 할 수 있다. 여러분은 언제라도 다시 홈 페이지의 관리 > 환경설정 > 사이트 설정 항목을 통해 이 곳으로 돌아와 설정을 바꿀 수 있다.';
 $string['configintrotimezones'] = '이 페이지에서는 세계 표준시간대(일광 절약 시간제 - 서머타임제를 포함한)에 대한 새로운 정보를 찾을 수 있으며, 이 정보를 데이터 베이스에 업데이트 할 수 있다. 이런 위치들은 $a 순서로 점검 될 것이다. 이 과정은 일반적으로 안전하여 설치 과정을 멈추게 하지 않는다. 지금 표준시간대를 업데이트하겠는가?';
 $string['configiplookup'] = '여러 기록에서 (34.12.222.93 같은) IP주소를 클릭하여 IP가 어디에 속해 있는지를 추측할 수 있는 정보를 볼 수 있다. 또 다른 방법으로 그러한 내용을 살펴볼 수 있는 플러그인이 있지만 각 방법 나름대로 일장 일단이 존재한다.';
+$string['configkeeptagnamecase'] = '태그를 만든 사람이 사용자로 입장할 때, 태그 명칭이 원래 형태대로 유지되도록 하려면 여기를 체크해 놓아라.';
 $string['configlang'] = '전체 사이트를 위한 기본 언어를 선택해라. 사용자들은 후에 이 설정에 대해 개별적으로 바꿀 수도 있다.';
 $string['configlangcache'] = '언어 메뉴의 임시 저장. 많은 메모리가 절약되고 처리 속도가 빨라질 것이다. 만약 이것을 활성화한다면 언어를 추가하거나 삭제한 후, 언어 메뉴는 수 분 이내에 업데이트 될 것이다.';
 $string['configlangdir'] = '대부분 언어들은 왼쪽에서 오른쪽으로 인쇄되나, 아라비아어나 헤브리아어 같은 일부 언어들은 오른쪽에서 왼쪽으로 인쇄된다.';
@@ -364,6 +365,7 @@ $string['intcachemax'] = '최대 내부 캐쉬';
 $string['invalidsection'] = '잘못된 영역';
 $string['invaliduserchangeme'] = '\"changeme\"라는 사용자 이름은 예약되어 있습니다. 이 이름으로 계정을 만들 수 없습니다.';
 $string['iplookup'] = 'IP 주소 열람';
+$string['keeptagnamecase'] = '태그 명칭 유지';
 $string['lang'] = '초기 설정 언어';
 $string['lang16notify'] = '무들 1.6과 그 상위판은 아래에 연결된  download.moodle.org를 통해 직접 언어팩을 설치하고 업데이트 할 수 있도록 허용합니다.';
 $string['langcache'] = '언어팩의 캐쉬';
@@ -517,6 +519,9 @@ $string['proxyport'] = '프록시 포트';
 $string['qtyperqpwillberemoved'] = '갱신과정에서 RQP 문제 유형은 제거될 것입니다. 만일 이 유형의 문제를 사용하지 않았다면, 추후에는 어떤 문제도 발생하지 않을 것입니다.';
 $string['qtyperqpwillberemovedanyway'] = '갱신과정에서 RQP 문제 유형은 제거될 것입니다. 데이터베이스에 RQP 문제가 탑재되어 있다면, 비록 갱신하기 전에 http://moodle.org/mod/data/view.php?d=13&amp;rid=797  에서 코드를 다시 불러들였다 하더라도 작업이 중단될 것입니다.';
 $string['quarantinedir'] = '검역 디렉토리';
+$string['question'] = '질문';
+$string['questioncwqpfscheck'] = '퀴즈 중에 처리되어야 할 \'무작위\' 문항이 비공개 혹은 공개 문제 은행 중에 포함되어 있습니다. 좀 더 자세한 보고서는 <a href=\"$a->reporturl\">이 곳</a> 과 무들 문서 창고의 <a href=\"$a->docsurl\">이 곳</a>을 참고하기 바랍니다.';
+$string['questioncwqpfsok'] = '통과. 여러분의 퀴즈에는 처리되어야 할 \'무작위\' 질문이 없습니다.';
 $string['rcache'] = '기록 캐쉬';
 $string['rcachettl'] = '기록 캐쉬 TTL';
 $string['releasenoteslink'] = '무들 버전에 대한 정보를 얻기 위해서는 온라인 <a target=\"_new\" href=\"$a\">릴리즈 노트</a> 를 보십시요.';

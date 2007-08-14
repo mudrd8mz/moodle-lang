@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007080202)
+      // moodle.php - created with Moodle 1.9 dev (2007081001)
 
 
 $string['action'] = '동작';
@@ -160,6 +160,7 @@ $string['backupnonisowarning'] = '경고: 이 백업은 Unicode 이전버전(1.6
 $string['backuporiginalname'] = '백업 이름';
 $string['backupsavetohelp'] = '백업 파일을 저장할 전체 경로를 입력하세요.';
 $string['backupschedulehelp'] = '자동백업 실시요일 선택';
+$string['backupsitefileshelp'] = '이를 활성화하면 자동백업할 때, 배움터에서 사용한 파일은 함께 백업됩니다.';
 $string['backuptakealook'] = '$a 에서 백업 기록을 확인 하세요.';
 $string['backupuserfileshelp'] = '사용자의 파일을 자동 백업에 포함시킬지 선택하세요.';
 $string['backupusershelp'] = '서버의 모든 사용자를 포함할 지, 각 배움터에 요구되는 사용자만 포함할지 선택하세요.';
@@ -230,6 +231,7 @@ $string['complete'] = '완료';
 $string['completereport'] = '보고 완성';
 $string['configuration'] = '환경설정';
 $string['confirm'] = '확인';
+$string['confirmcheckfull'] = '정말 $a 를 인증해 주려고 합니까?';
 $string['confirmed'] = '등록이 완료되었습니다.';
 $string['confirmednot'] = '아직 승인되지 않았습니다.';
 $string['continue'] = '계속';
@@ -240,6 +242,7 @@ $string['cookiesnotenabled'] = '현재 응용프로그램 내에 쿠키가 작�
 $string['copy'] = '복사';
 $string['copyasnoun'] = '복사';
 $string['copyingcoursefiles'] = '배움터 파일 복사';
+$string['copyingsitefiles'] = '배움터에서 사용된 사이트 파일 복사';
 $string['copyinguserfiles'] = '사용자 파일 복사';
 $string['copyingzipfile'] = '압축 파일 복사';
 $string['copyrightnotice'] = '저작권 알림';
@@ -742,6 +745,7 @@ $string['includemodules'] = '모듈 포함';
 $string['includemoduleuserdata'] = '모듈 사용자 데이터 포함';
 $string['includeneededusers'] = '요구된 사용자 포함';
 $string['includenoneusers'] = '무 사용자 포함';
+$string['includesitefiles'] = '이 배움터에서 사용된 사이트 파일 포함';
 $string['includeuserfiles'] = '사용자 파일 포함';
 $string['info'] = '정보';
 $string['institution'] = '기관';
@@ -1245,6 +1249,7 @@ $string['site'] = '사이트';
 $string['sitedefault'] = '사이트 기본값';
 $string['siteerrors'] = '사이트 오류';
 $string['sitefiles'] = '파일 창고';
+$string['sitefilesused'] = '이 배움터에서 사용된 사이트 파일';
 $string['sitelogs'] = '사이트 로그';
 $string['sitenews'] = '사이트 뉴스';
 $string['sitepartlist'] = '참여자 목록을 볼 수 있는 권한이 없습니다.';
