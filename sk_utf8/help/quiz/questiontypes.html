@@ -1,38 +1,108 @@
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<P ALIGN=CENTER><B>Vytvorenie novej otázky</B></P>
+<h1>Vytvorenie novej otázky</h1>
 
-<P>Do kategórií môžete pridávať rôzne typy otázok:</P>
+<p>Do kategórií môžete pridávať rôzne typy otázok:</p>
 
-<P><B>Viacnásobný  výber</B></P>
-<UL>
-<P>V odpovedi na otázku (táto môže obsahovať aj obrázok), si odpovedajúci vyberá z viacnásobných odpovedí. Existujú
-dva typy otázok s viacnásobným výberom a to s jednou odpoveďou a viacerými odpoveďami.   
+<p><b>Viaceré možnosti</b></p>
+<div style="margin-left: 2em">
+<p>V odpovedi na otázku (táto môže obsahovať aj obrázok), si
+  odpovedajúci vyberá z viacerých možností odpovedí. Existujú
+dva typy otázok s viacerými možnosťami a to s jedenkrát odpoveďou a viacerými odpoveďami.   
 
-<P>Viac informácií: <?php  helpbutton("viacnásobný výber", "", "kvíz") ?></P>
-</UL>
+<p>Viac informácií: <?php  helpbutton("viacnásobný výber", "", "kvíz") ?></p>
+  <p align="right"><a href="help.php?file=multichoice.html&module=quiz">Viac o
+  úlohách s viacerými odpoveďami</a></p>
+</div>
 
-<P><B>Krátka odpoveď</B></P>
-<UL>
-<P>V odpovedi na otázku (táto môže obsahovať aj obrázok), odpovedajúci uvádza slovo alebo frázu. 
+<p><b>Krátka odpoveď</b></p>
+<div style="margin-left: 2em">
+<p>V odpovedi na otázku (táto môže obsahovať aj obrázok), odpovedajúci uvádza slovo alebo frázu. 
 Môžu tu byť viaceré správne odpovede s rôznym hodnotením. Na odpoveď môže alebo nemusí mať vplyv
-poradie.  
+veľkosť písmen.  </p>
 
-</P>
-<P>Viac informácií: <?php  helpbutton("krátka odpveď", "", "kvíz") ?></P>
-</UL>
+  <p align="right"><a href="help.php?file=shortanswer.html&module=quiz">Viac o
+  úlohách s krátkou odpoveďou</a></p>
+</div>
 
-<P><B>Dobre/zle</B></P>
-<UL>
-<P>V odpovedi na otázku (táto môže obsahovať aj obrázok), vyberá z dvoch možností: Dobre/Zle
+<p><b>Numerická úloha</b></p>
 
-</P>
-<P>Viac informácií: <?php  helpbutton("dobrezle", "", "kvíz") ?></P>
-</UL>
+<div style="margin-left: 2em">
+  <p>Z pohľadu študenta je numerická úloha rovnaká ako úloha s krátkou
+   odpoveďou. Rozdiel je v tom, že u numerickej úlohy môže byť definovaná
+  prijateľná chyba (rozsah). Učiteľ tak môže definovať súvislý interval odpovedí, ktoré
+  sú považované za správne.</p>
 
-<P><B>Náhodný výber</B></P>
-<UL>
-<P>(Nie je ešte implementovaný) Umožňuje vám pre každý pokus študenta v kvíze vybrať určité otázky 
-z náhodného výberu.
-</P>
-<P>Viac informácií: <?php  helpbutton("náhodný výber", "", "kvíz") ?></P>
-</UL>
+  <p align="right"><a href="help.php?file=numerical.html&module=quiz">Viac o
+  numerických úlohách</a></p>
+</div>
+
+<p><b>Áno/nie</b></p>
+<div style="margin-left: 2em">
+<p>V odpovedi na otázku (táto môže obsahovať aj obrázok), vyberá z dvoch možností: Áno/Nie
+</p>
+
+  <p align="right"><a href="help.php?file=truefalse.html&module=quiz">Viac o
+  úlohách s áno/nie</a></p>
+</div>
+
+<p><b>Zodpovedajúca</b></p>
+
+<div style="margin-left: 2em">
+  <p>U tejto úlohy je študentovi predložených niekoľko otázok a zoznam možných
+  odpovedí. Študent musí priradiť k každej otázke správnu odpoveď.</p>
+
+  <p align="right"><a href="help.php?file=match.html&module=quiz">Viac o
+  zodpovedajúcich úlohách</a></p>
+</div>
+
+<p><b>S vloženými odpoveďami (cloze)</b></p>
+
+<div style="margin-left: 2em">
+  <p>Jedná sa o veľmi flexibilný typ úlohy, skladajúci sa z úryvku textu (vo
+  formáte Moodle), do ktorého sú vložené otázky s rôznymi typmi odpovedí
+  (úloha s viacerými možnosťami, krátka odpoveď, numerická úloha).</p>
+
+  <p align="right"><a href="help.php?file=multianswer.html&module=quiz">Viac o
+  cloze úlohách</a></p>
+</div>
+
+<p><b>Náhodná zodpovedajúca krátka odpoveď</b></p>
+
+<div style="margin-left: 2em">
+  <p>Z pohľadu študenta vyzerá táto úloha ako "Zodpovedajúca". Rozdiel je v tom,
+  že po jednej otázke je náhodne vybrané zo súboru všetkých úloh s krátkou
+  odpoveďou v aktuálnej kategórii.</p>
+
+  <p align="right"><a href="help.php?file=randomsamatch.html&module=quiz">Viac
+  o náhodných zodpovedajúcich krátkych odpovediach</a></p>
+</div>
+
+<p><b>Opis</b></p>
+
+<div style="margin-left: 2em">
+  <p>Opis nie je skutočná úloha. Slúži k zobrazeniu ľubovoľného textu (prípadne
+  obrázku) a nevyžaduje odpoveď. Je možné ho použiť napríklad k zobrazeniu informácií
+  spoločných pre nasledujúcu skupinu úloh.</p>
+
+  <p align="right"><a href="help.php?file=description.html&module=quiz">Viac o
+  opise</a></p>
+</div>
+
+<p><b>Výpočtová úloha</b></p>
+
+<div style="margin-left: 2em">
+  <p>Výpočtové úlohy umožňujú vytvárať jednotlivé numerické úlohy s použitím
+  masiek, ktoré sa pri vstupu do testu nahradia konkrétnymi hodnotami.</p>
+
+  <p align="right"><a href="help.php?file=calculated.html&module=quiz">Viac o
+  výpočtových úlohách</a></p>
+</div>
+
+<p><b>Esej</b></p>
+
+<div style="margin-left: 2em">
+  <p>V odpovedi na zadanie (môže obsahovať aj obrázok) napíše študent odpoveď v
+  rozsahu až niekoľkých odstavcov.</p>
+
+  <p align="right"><a href="help.php?file=essay.html&module=quiz">Viac o
+  esejach</a></p>
+</div>
