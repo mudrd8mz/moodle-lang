@@ -1,12 +1,14 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007070902)
+      // error.php - created with Moodle 1.9 dev (2007081302)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 편집될 수 없음';
 $string['cannotcreatelangdir'] = '언어팩 디렉토리를 만들 수 없습니다.';
 $string['cannotcreatetempdir'] = 'temp 디렉토리를 만들 수 없습니다.';
+$string['cannotcustomizelocallang'] = '맞춤 문자열을 변경할 수 있는 권한이 없습니다. 이 권한은 \"moodle/site:langeditlocal\"에 의해 설정됩니다. 만일 사이트 전체에 걸쳐 문자열을 변경하고 싶은 경우 이 기능을 조정하여 언어팩을 관리할 수 있게 해야 합니다.';
 $string['cannotdownloadcomponents'] = '구성요소를 내려받을 수 없습니다.';
 $string['cannotdownloadzipfile'] = 'ZIP파일을 내려받을 수 없습니다.';
+$string['cannoteditmasterlang'] = '언어팩을 번역할 수 있는 권한이 없습니다. 이 권한은 \"moodle/site:langeditmaster\"에 의해 설정됩니다. 만일 당신이 해당 언어의 언어팩 관리자라면 이 기능을 조정하여 언어팩을 관리할 수 있게 해야 합니다.';
 $string['cannotfindcomponent'] = '구성요소를 찾을 수 없습니다.';
 $string['cannotsavemd5file'] = 'md5 파일을 저장할 수 없습니다.';
 $string['cannotsavezipfile'] = 'ZIP 파일을 저장할 수 없습니다.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007081001)
+      // moodle.php - created with Moodle 1.9 dev (2007081302)
 
 
 $string['action'] = '동작';
@@ -872,7 +872,7 @@ $string['missingshortname'] = '빠짐: 사용자 이름';
 $string['missingshortsitename'] = '빠짐: 짧은 사이트명';
 $string['missingsitedescription'] = '빠짐: 사이트 설명';
 $string['missingsitename'] = '빠짐: 사이트 이름';
-$string['missingstrings'] = '빠진 문자들을 확인하세요.';
+$string['missingstrings'] = '번역안된 문자열 확인';
 $string['missingstudent'] = '무엇인가 선택해야 합니다.';
 $string['missingsummary'] = '빠짐: 요약';
 $string['missingteacher'] = '무엇인가 선택해야 합니다.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007081001)
+      // admin.php - created with Moodle 1.9 dev (2007081302)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -375,6 +375,7 @@ $string['langimportsuccess'] = '언어팩 갱신 성공';
 $string['langlist'] = '선택목록의 언어';
 $string['langmenu'] = '언어 선택 메뉴';
 $string['langnoeditenglish'] = '기본 영어팩은 덮어쓸 수 없습니다. 자신만의 번역판을 만들려면 언어경로를 변경하기 바랍니다.';
+$string['langpackmaintaining'] = '언어팩 관리';
 $string['langpackremoved'] = '언어팩 제거 완료';
 $string['langpacks'] = '언어팩 설치';
 $string['langpackupdated'] = '언어팩 $a 설치 완료';
@@ -384,6 +385,7 @@ $string['latexpreamble'] = 'LaTeX 전문';
 $string['latexsettings'] = 'LaTeX 표현 설정';
 $string['latinexcelexport'] = '엑셀 인코딩';
 $string['localetext'] = '전역 로케일';
+$string['localstringcustomization'] = '맞춤 문자열';
 $string['location'] = '지역';
 $string['locationsettings'] = '지역 설정';
 $string['log'] = '기록들';
@@ -434,6 +436,7 @@ $string['mysql416required'] = '모든 데이터가 향후 UTF-8로 변환될 수
 $string['nobookmarksforuser'] = '갈무리된 주소가 없음';
 $string['nodefaultuserrolelists'] = '모든 기본 역할 사용자는 표시하지 마십시요';
 $string['nolangupdateneeded'] = '모든 언어팩이 최신판임. 업데이트가 필요없음';
+$string['nomissingstrings'] = '빠진 문자열 없음';
 $string['nonewsettings'] = '이번 판올림과정에서 새로운 설정이 추가되지 않았음';
 $string['nonexistentbookmark'] = '요청한 곳을 찾을 수 없습니다.';
 $string['nonmetacoursesyncroleids'] = '메타코스와 동기화되지 않은 역할들';
@@ -443,6 +446,7 @@ $string['notifications'] = '알림 설정';
 $string['notifyloginfailures'] = '로그인실패를 통지받을 사람';
 $string['notifyloginthreshold'] = '이메일 알림을 위한 문턱값';
 $string['notloggedinroleid'] = '방문자 역할';
+$string['numberofmissingstrings'] = '$a 개의 문자열 번역안됨';
 $string['opensslrecommended'] = '추가적인 OpenSSL 라이브러리를 설치할 것을 강력히 권고한다. 이는 무들 네트웍 기능을 가능하게 할 수 있다.';
 $string['opentogoogle'] = 'Google에 개방';
 $string['optionalmaintenancemessage'] = '추가 유지보수 알림글';
