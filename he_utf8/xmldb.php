@@ -9,6 +9,15 @@ $string['binaryincorrectlength'] = 'אורך שגוי לשדה בינארי';
 $string['cannotuseidfield'] = 'לא ניתן להכניס את זדה \'מספר הזיהוי\'. זוהי עמודה הממספרת את עצמה.';
 $string['change'] = 'שנה';
 $string['charincorrectlength'] = 'אורך שגוי לשדה תווים';
+$string['check_indexes'] = 'חפש אינדקסים חסרים במסד הנתונים';
+$string['checkindexes'] = 'בדוק אינדקסים';
+$string['completelogbelow'] = '(ראה את בדוח המלא של החיפוש להלן)';
+$string['confirmcheckindexes'] = 'יחידה זאת תחפש אינדקסים אפשריים חסרים בשרת ה-Moodle כאשר היא יוצרת, אל לא מבצעת!, באופן אוטומטי את משפטי ה-SQL הדרושים לעידכון מלא. לאחר היווצרם אתה יכול להעתיק משפטים אלו ולבצע אותם בבטחה עם מנשק ה-SQL שאתה מעדיף.
+<br /><br> 
+מאד ממולץ להריץ את המהדורה האחרונה של Moodle (1.8, 1.9, 2.x ...)לפני ביצוע החיפוש לאינדקסים חסרים.
+<br />
+<br />
+פונקציונליות זאת איננה מבצעת שופ פעולה בהרשק למס הנתונים 0פרט לקריאה ממנו) ולכן ניתן לבצעה בבטחה בכל רגע.';
 $string['confirmdeletefield'] = 'האם אתה בטוח לחלוטין שברצונך למחוק את השדה:';
 $string['confirmdeleteindex'] = 'האם אתה בטוח לחלוטין שברצונך למחוק את האינדקס:';
 $string['confirmdeletekey'] = 'האם אתה בטוח לחלוטין שברצונך למחוק את המפתח:';
@@ -48,13 +57,17 @@ $string['floatincorrectdecimals'] = 'מספר שגוי של ספרות לשדה 
 $string['floatincorrectlength'] = 'אורך שגוי לשדה נקודה צפה';
 $string['gotolastused'] = 'הלך לקובץ האחרון שהיה בשימוש';
 $string['incorrectfieldname'] = 'שם שגוי';
+$string['index'] = 'אינדקס';
 $string['indexes'] = 'אינדקסים';
 $string['integerincorrectlength'] = 'מפתחות';
+$string['key'] = 'מפתח';
 $string['keys'] = 'מפתחות';
 $string['listreservedwords'] = 'רשימת מילים שמורות <br/>(משמשות להמשך עדכון <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">';
 $string['load'] = 'העלה';
 $string['main_view'] = 'תצוגה ראשית';
+$string['missing'] = 'חסר';
 $string['missingfieldsinsentence'] = 'במשפט חסרים שדות';
+$string['missingindexes'] = 'נמצאו אינדקסים חסרים';
 $string['missingvaluesinsentence'] = 'במשפט חסרים ערכים';
 $string['mustselectonefield'] = 'עליך לבחור בשדה על מנת לראות פעולות המקושרות לשדות!';
 $string['mustselectoneindex'] = 'עליך לבחור באינדקס על מנת לראות פעולות המקושרות לאינדקסים!';
@@ -68,6 +81,7 @@ $string['newsentence'] = 'משפט חדש';
 $string['newstatement'] = 'הצהרה חדשה';
 $string['newtable'] = 'טבלה חדשה';
 $string['newtablefrommysql'] = 'טבלה חדשה מ-MySQL';
+$string['nomissingindexesfound'] = 'לא נמצאו אינדקסים חסרים, מסד הנתונים שלך איננו דורש כל פעילות נוספת.';
 $string['numberincorrectdecimals'] = 'מספק שגוי של ספרות לשדה מספרי';
 $string['numberincorrectlength'] = 'אורך שגוי לשדה מספרי';
 $string['reserved'] = 'שמור';
@@ -75,6 +89,7 @@ $string['reservedwords'] = 'מילים שמורות';
 $string['revert'] = 'החזר למצב קודם';
 $string['revert_changes'] = 'החזר שינויים למצבם הקודם';
 $string['save'] = 'שמור';
+$string['searchresults'] = 'תוצאות החיפוש';
 $string['selectaction'] = 'בחר בפעולה:';
 $string['selectdb'] = 'בחר בבסיס נתונים:';
 $string['selectfieldkeyindex'] = 'בחר שדהמפתחאינדקס:';
@@ -104,5 +119,9 @@ $string['viewsqlcode'] = 'ראה קוד SQL';
 $string['wronglengthforenum'] = 'אורך שגוי לשדה enum';
 $string['wrongnumberoffieldsorvalues'] = 'מספר שגוי של שדות או ערכים במשפט';
 $string['wrongreservedwords'] = 'שימוש במילים שמורות נכון להיום <br/>(דע כי שמות טבלאות לא חשובות אם משתמשים ב-$CFG->prefix';
+$string['yesmissingindexesfound'] = 'נמצאו מספר אינדקסים חסרים במסד הנתונים. להלן פרטיהם ומשפטי ה-SQL שדרוד לבצעם ען מנשק ה-SQL המועדף עליך בכדי ליצור אותם.
+<br />
+<br />
+ךאחר זאת, מאוד מומלץ לבצע שגרה זאת שוב בכדי לוודא שאין יותר אינדקסים חסרים.';
 
 ?>

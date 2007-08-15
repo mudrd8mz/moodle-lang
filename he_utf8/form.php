@@ -26,12 +26,14 @@ $string['month'] = 'חודש';
 $string['nomethodforaddinghelpbutton'] = 'לא קיימת שיטה להוספת כפתור עזרה למרכיב הטופס $a->name (כיתה $a->classname)';
 $string['nonexistentformelements'] = 'מנסה להוסיף כפתורים למרכיבי טופס לא קיימים: $a';
 $string['optional'] = 'נתון לבחירתכם';
+$string['othersettings'] = 'הגדרות אחרות';
 $string['requiredelement'] = 'שדה נדרש';
 $string['revealpassword'] = 'גלה';
 $string['security'] = 'אבטחה';
 $string['showadvanced'] = 'הראה מתקדם';
 $string['somefieldsrequired'] = 'בטופס זה ישנם שדות אותם חובה עליך למלא והם מסומנים ב-$a';
 $string['timing'] = 'תזמון';
+$string['unmaskpassword'] = 'גלוי';
 $string['year'] = 'שנה';
 $string['denotesreq'] = '$a מציין שדה נדרש.'; // ORPHANED
 

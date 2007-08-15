@@ -4,6 +4,11 @@
 
 $string['addmorechoiceblanks'] = 'מרווחים עבור {no} בחירות נוספות';
 $string['answerhowmany'] = 'תשובה אחת או תשובות מרובות?';
+$string['answernumbering'] = 'למספר את האפשרויות?';
+$string['answernumbering123'] = '1, 2, 3, ...';
+$string['answernumberingABC'] = 'A, B, C, ...';
+$string['answernumberingabc'] = 'a, b, c, ...';
+$string['answernumberingnone'] = 'ללא מספור';
 $string['answersingleno'] = 'ניתן לענות תשובות מרובות';
 $string['answersingleyes'] = 'תשובה אחת בלבד';
 $string['choiceno'] = 'בחירה $a';

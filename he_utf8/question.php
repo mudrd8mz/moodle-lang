@@ -5,6 +5,8 @@
 $string['categorydoesnotexist'] = 'קטגוריה זו לא קיימת';
 $string['editingquestion'] = 'עריכת שאלה';
 $string['fractionsnomax'] = 'על אחת מהתשובות להיות בעלת תוצאה של 100%%, כך שזה יהיה אפשרי לקבל את מלוא הניקוד עבור שאלה זו.';
+$string['makechildof'] = 'בנה צאצא של  $a';
+$string['maketoplevelitem'] = 'הזז לרמה עליונה';
 $string['missingimportantcode'] = 'לסוג שאלה זה חסר קוד חשוב: $a.';
 $string['notenoughdatatoeditaquestion'] = 'לא פורטו, לא מספר זיהוי השאלה, לא מספר זיהוי הקטגוריה ולא סוג השאלה.';
 $string['questionbank'] = 'מאגר שאלות';
