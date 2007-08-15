@@ -613,6 +613,7 @@ $string['upgradinglogs'] = 'Mise à jour des fichiers d\'historique (logs)';
 $string['upwards']  = 'et ultérieures';
 $string['usehtmleditor'] = 'Utiliser l\'éditeur WYSIWYG';
 $string['useraccountupdated'] = 'Utilisateur modifié';
+$string['userbulk'] = 'Actions en lots sur les utilisateurs';
 $string['userlist'] = 'Liste des utilisateurs';
 $string['userpolicies'] = 'Règles utilisateurs';
 $string['userrenamed'] = 'Utilisateur renommé';
