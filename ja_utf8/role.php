@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007081001)
+      // role.php - created with Moodle 1.9 Beta (2007081500)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -8,6 +8,7 @@ $string['allowassign'] = 'ロールの割り当て許可';
 $string['allowoverride'] = 'ロールのオーバーライド許可';
 $string['assignglobalroles'] = 'グローバルロールの割り当て';
 $string['assignroles'] = 'ロールの割り当て';
+$string['block:view'] = 'ブロックを表示する';
 $string['blog:create'] = '新しいブログエントリを作成する';
 $string['blog:manageentries'] = 'エントリを編集および管理する';
 $string['blog:manageofficialtags'] = 'オフィシャルタグを管理する';

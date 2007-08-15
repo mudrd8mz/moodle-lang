@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007081001)
+      // moodle.php - created with Moodle 1.9 Beta (2007081500)
 
 
 $string['action'] = '操作';
@@ -307,11 +307,12 @@ $string['creatingcourseroles'] = 'コースレベルロール割り当ておよ�
 $string['creatingevents'] = 'イベントの作成';
 $string['creatinggradebook'] = '評定表の作成';
 $string['creatinggroupings'] = 'グルーピングの作成';
+$string['creatinggroupingsgroups'] = 'グループをグルーピングに追加';
 $string['creatinggroups'] = 'グループの作成';
 $string['creatinglogentries'] = 'ログエントリの作成';
 $string['creatingmessagesinfo'] = 'メッセージ情報の作成';
 $string['creatingmetacoursedata'] = 'メタコース情報の作成';
-$string['creatingmodroles'] = 'モジュールレベルロール割り当ておよびオーバーライドの作成';
+$string['creatingmodroles'] = 'モジュールレベルのロール割り当ておよびオーバーライドの作成';
 $string['creatingnewcourse'] = '新しいコースの作成';
 $string['creatingrolesdefinitions'] = 'ロール定義の作成';
 $string['creatingscales'] = '評価尺度の作成';
