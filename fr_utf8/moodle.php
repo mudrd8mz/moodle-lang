@@ -304,6 +304,7 @@ $string['creatingcourseroles'] = 'Création des attributions de rôles et des d�
 $string['creatingevents'] = 'Création du calendrier';
 $string['creatinggradebook'] = 'Création du carnet de notes';
 $string['creatinggroupings'] = 'Création des groupements';
+$string['creatinggroupingsgroups'] = 'Ajout des groupes dans les groupements';
 $string['creatinggroups'] = 'Création des groupes';
 $string['creatinglogentries'] = 'Création des historiques';
 $string['creatingmessagesinfo'] = 'Création des informations des messages';
