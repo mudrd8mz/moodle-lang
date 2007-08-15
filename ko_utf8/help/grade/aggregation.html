@@ -1,0 +1,59 @@
+<h1>범주 총괄</h1>
+<p>본 메뉴는 이 범주에 대한 개개 참여자의 전체적인 점수를 계산하는 데 사용될 총괄 전략을 선택할 수 있게 한다. 다른 선택 사항은 아래에 설명되어 있다.</p>
+<p><strong>중요</strong>:  빈 점수는 단순히 성적표 입력상의 누락으로 여겨지지만, 여기에는 여러 이유가 존재할 수 있다. 예를 들어 어떤 참여자가 아직 과제를 제출하지 않았거나, 제출한 과제가 교사에 의해 아직 채점이 되지 않은 경우 혹은 성적표 관리자에 의해 점수가 삭제된 경우 등이 있을 수 있다. 따라서 이러한 "빈 점수"를 해석함에 있어서 주의가 요망된다.</p>
+
+<table class="generaltable boxaligncenter" cellpadding="4" cellspacing="1" summary="Aggregation strategies for grading categories">
+    <tr>
+        <th class="header">전략</th><th class="header">해설</th>
+    </tr>
+    <tr>
+        <td class="cell">모든 점수의 평균</td>
+        <td class="cell">모든 점수들을 합한 후, 그 항목수로 나눈다. 빈 점수도 계산에 포함시킨다.(비어있는 점수는  항목의 최소점수로 대치되어 계산된다.)</td>
+    </tr>
+    <tr>
+        <td class="cell">비어있지 않은 점수들의 평균</td>
+        <td class="cell">위와 같으나 빈 점수는 제외.</td>
+    </tr>
+    <tr>
+        <td class="cell">모든 점수의 중앙값</td>
+        <td class="cell">중앙값은 모든 점수들을 세어서 그 중앙에 위치하는 값이다.(만일 짝수일 경우에는 중앙의 두 점수의 산술 평균을 취한다) 평균을 쓸 때보다의 장점은 특이한 값(평균에서 비상식적으로 차이가 나는 값들)에 의한 영향을 받지 않는 다는 것이다. 비어있는 점수도 포함시킨다.</td>
+    </tr>
+    <tr>
+        <td class="cell">비어있지 않은 점수들의 중앙값</td>
+        <td class="cell">위와 같으나 빈 점수는 제외.</td>
+    </tr>
+    <tr>
+        <td class="cell">비어있지 않은 점수들의 최소값</td>
+        <td class="cell">최소값만 간직한다. 빈 점수는 제외.</td>
+    </tr>
+    <tr>
+        <td class="cell">비어있지 않은 점수들의 최대값</td>
+        <td class="cell">최대값만 간직한다. 빈 점수는 제외.</td>
+    </tr>
+    <tr>
+        <td class="cell">모든 점수의 최빈값</td>
+        <td class="cell">최빈값이란 가장 빈번하게 나타나는 점수를 말한다. 이는 수치로 쓰지 않는 평가에 더 자주 사용된다. 평균을 쓸 때보다의 장점은 특이한 값(평균에서 비상식적으로 차이가 나는 값들)에 의한 영향을 받지 않는 다는 것이다. 빈 점수 포함.</td>
+    </tr>
+    <tr>
+        <td class="cell">비어있지 않은 점수들의 최빈값</td>
+        <td class="cell">위와 같으나 빈 점수는 제외.</td>
+    </tr>
+    <tr>
+        <td class="cell">모든 점수의 가중평균</td>
+        <td class="cell">Each grade item can be given a weight, which is then used in the arithmetic mean aggregation to influence the importance of each item in the overall mean. 빈 점수 포함.</td>
+    </tr>
+    <tr>
+        <td class="cell">비어있지 않은 점수들의 가중평균</td>
+        <td class="cell">위와 같으나 빈 점수는 제외.</td>
+    </tr>
+    <tr>
+        <td class="cell">모든 점수의 평균 (별도 이수)</td>
+        <td class="cell">Arithmetic mean with a twist. An old, now unsupported aggregation strategy provided here only
+            for backward compatibility with old activities. Empty grades are included.</td>
+    </tr>
+    <tr>
+        <td class="cell">비어있지 않은 점수들의 평균 (별도 이수)</td>
+        <td class="cell">위와 같으나 빈 점수는 제외.</td>
+    </tr>
+
+</table>
