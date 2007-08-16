@@ -4,8 +4,8 @@
 
 $string['allattempts'] = 'Все попытки';
 $string['allstudents'] = 'Все $a';
-$string['attemptsonly'] = '$a которые сделали попытки';
-$string['noattemptsonly'] = '$a которые не сделали попытки';
+$string['attemptsonly'] = '$a, которые сделали попытки';
+$string['noattemptsonly'] = '$a, которые не сделали попытки';
 $string['overview'] = 'Просмотр';
 $string['overviewdownload'] = 'Загрузить результаты просмотра';
 
