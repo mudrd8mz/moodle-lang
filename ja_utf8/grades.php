@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007081001)
+      // grades.php - created with Moodle 1.9 Beta (2007081500)
 
 
 $string['activities'] = '活動';
@@ -34,6 +34,7 @@ $string['autosort'] = '自動並び替え';
 $string['average'] = '平均';
 $string['averagesdecimalpoints'] = 'カラム平均の小数点以下桁数';
 $string['averagesdisplaytype'] = 'カラム平均の表示タイプ';
+$string['backupwithoutgradebook'] = 'バックアップには評定表の設定を含みません。';
 $string['badgrade'] = '提供された評定は有効ではありません。';
 $string['baduser'] = '提供されたユーザは有効ではありません。';
 $string['bonuspoints'] = 'ボーナスポイント';
@@ -296,6 +297,7 @@ $string['report'] = 'レポート';
 $string['reportplugins'] = 'レポートプラグイン';
 $string['reportsettings'] = 'レポート設定';
 $string['reprintheaders'] = 'ヘッダの再表示';
+$string['respectingcurrentdata'] = '現在の設定は変更されません。';
 $string['right'] = '右';
 $string['savechanges'] = '変更を保存する';
 $string['savepreferences'] = '設定を保存する';

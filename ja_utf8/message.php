@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9 dev (2007081001)
+      // message.php - created with Moodle 1.9 Beta (2007081500)
 
 
 $string['addcontact'] = 'コンタクトリストに追加する';
@@ -55,6 +55,7 @@ $string['searchforperson'] = '人の検索';
 $string['searchmessages'] = 'メッセージの検索';
 $string['sendmessage'] = 'メッセージを送信する';
 $string['sendmessageto'] = '$a にメッセージを送信する';
+$string['sendmessagetopopup'] = '$a にメッセージを送信する - 新しいウィンドウ';
 $string['settings'] = '設定';
 $string['settingssaved'] = '設定が保存されました。';
 $string['showmessagewindow'] = 'メッセージが届いたら自動的にウィンドウを表示する。 (ブラウザのポップアップブロックを解除してください)';
