@@ -1,12 +1,13 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 Beta (2007081500)
+      // group.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['addgroupstogrouping'] = 'グループをグルーピングに追加する';
-$string['adduserstogroup'] = 'ユーザをグループに追加/削除する';
+$string['addgroupstogroupings'] = 'グループを追加/削除する';
+$string['adduserstogroup'] = 'ユーザを追加/削除する';
 $string['anygrouping'] = '[すべてのグルーピング]';
+$string['backtogroupings'] = 'グルーピングに戻る';
 $string['backtogroups'] = 'グループに戻る';
-$string['cancel'] = 'キャンセル';
 $string['createautomaticgrouping'] = '自動グルーピングを作成する';
 $string['creategroup'] = 'グループを作成する';
 $string['creategrouping'] = 'グルーピングを作成する';
@@ -24,7 +25,6 @@ $string['deleteselectedgroup'] = '選択したグループを削除する';
 $string['displaygrouping'] = 'グルーピングを表示する';
 $string['distributealphabetically'] = '姓のアルファベット順にグループに割り当てる';
 $string['distributeevenly'] = '残りの学生を均一に割り当てる';
-$string['editgroupingpermissions'] = 'グルーピングパーミッションを編集する';
 $string['editgroupingsettings'] = 'グルーピング設定を編集する';
 $string['editgroupsettings'] = 'グループ設定を編集する';
 $string['enrolmentkey'] = '登録キー';
@@ -32,14 +32,10 @@ $string['erroraddremoveuser'] = 'ユーザ $a のグループ登録/削除中に
 $string['erroreditgroup'] = 'グループ $a の作成/更新中にエラーが発生しました。';
 $string['erroreditgrouping'] = 'グルーピング $a の作成/更新中にエラーが発生しました。';
 $string['errorinvalidgroup'] = 'エラー、無効なグループです: $a';
-$string['errorinvalidgrouping'] = 'エラー、無効なグルーピングです: $a';
-$string['errornotingrouping'] = '申し訳ございません、あなたは $a にグループを作成できません。';
-$string['errornotingroupingedit'] = '申し訳ございません、あなたはグルーピング $a を編集できません。';
 $string['existingmembers'] = '登録済みメンバー: $a';
 $string['group'] = 'グループ';
 $string['groupaddedsuccesfully'] = 'グループ「 $a 」が正常に追加されました。';
 $string['groupdescription'] = 'グループ説明';
-$string['groupfor'] = 'グループ';
 $string['groupinfo'] = '選択したグループの情報';
 $string['groupinfomembers'] = '選択したメンバーの情報';
 $string['groupinfopeople'] = '選択した人の情報';
@@ -77,21 +73,27 @@ $string['prefixforgroupnames'] = 'グループ名の接頭辞';
 $string['printerfriendly'] = 'グルーピングのプリンタフレンドリ表示';
 $string['removegroupfromselectedgrouping'] = '選択したグルーピングからグループを削除する';
 $string['removeselectedusers'] = '選択したユーザを削除する';
-$string['return'] = '戻る';
-$string['save'] = '保存';
 $string['selectnumberineachgroup'] = '各グループの学生数を選択する';
 $string['selectnumberofgroups'] = 'グループ数を選択する';
 $string['showgroupsingrouping'] = 'グルーピングのグループを表示する';
 $string['showmembersforgroup'] = 'グループのメンバーを表示する';
-$string['showusersalreadyingroup'] = 'すでにグルーピングのグループに登録されているユーザを表示する。';
-$string['teachersgroupmark'] = '教師は自分が属していないグループの活動を評定できない。';
-$string['teachersgroupview'] = '教師は自分が属していないグループの活動を閲覧できない。';
-$string['teachersoverride'] = '教師は自分が属していないグループの活動を閲覧および評定できる (上記をオーバーライド)。';
-$string['upgradeconfirm'] = '申し訳ございません、このアップグレードではMoodle 1.8 DEVで作成されたグループテーブルを削除する必要があります。本当に続けてもよろしいですか?';
 $string['usestudentsonlyfromselectedgroup'] = '現在選択されているグループの学生のみ使用する。';
-$string['viewallgroupsactivities'] = '学生はすべてのグループの活動を閲覧のみできる。';
-$string['viewallgroupsmembers'] = '学生はすべてのグループのメンバーを閲覧できる。';
-$string['viewowngroup'] = '学生は自分が属しているすべてのグループのメンバーを閲覧できる。';
+$string['cancel'] = 'キャンセル'; // ORPHANED
+$string['editgroupingpermissions'] = 'グルーピングパーミッションを編集する'; // ORPHANED
+$string['errorinvalidgrouping'] = 'エラー、無効なグルーピングです: $a'; // ORPHANED
+$string['errornotingrouping'] = '申し訳ございません、あなたは $a にグループを作成できません。'; // ORPHANED
+$string['errornotingroupingedit'] = '申し訳ございません、あなたはグルーピング $a を編集できません。'; // ORPHANED
+$string['groupfor'] = 'グループ'; // ORPHANED
+$string['return'] = '戻る'; // ORPHANED
+$string['save'] = '保存'; // ORPHANED
+$string['showusersalreadyingroup'] = 'すでにグルーピングのグループに登録されているユーザを表示する。'; // ORPHANED
+$string['teachersgroupmark'] = '教師は自分が属していないグループの活動を評定できない。'; // ORPHANED
+$string['teachersgroupview'] = '教師は自分が属していないグループの活動を閲覧できない。'; // ORPHANED
+$string['teachersoverride'] = '教師は自分が属していないグループの活動を閲覧および評定できる (上記をオーバーライド)。'; // ORPHANED
+$string['upgradeconfirm'] = '申し訳ございません、このアップグレードではMoodle 1.8 DEVで作成されたグループテーブルを削除する必要があります。本当に続けてもよろしいですか?'; // ORPHANED
+$string['viewallgroupsactivities'] = '学生はすべてのグループの活動を閲覧のみできる。'; // ORPHANED
+$string['viewallgroupsmembers'] = '学生はすべてのグループのメンバーを閲覧できる。'; // ORPHANED
+$string['viewowngroup'] = '学生は自分が属しているすべてのグループのメンバーを閲覧できる。'; // ORPHANED
 $string['addexistinggroupstogrouping'] = '既存のグループをグルーピングに追加する'; // ORPHANED
 
 ?>
