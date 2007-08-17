@@ -44,6 +44,7 @@ $string['groupinfopeople'] = 'Information sur les personnes sélectionnées';
 $string['grouping'] = 'Groupement';
 $string['groupingdescription'] = 'Description du groupement';
 $string['groupingname'] = 'Nom du groupement';
+$string['groupingnameexists'] = 'Le nom de groupement «&nbsp;$a&nbsp;» existe déjà dans ce cours. Veuillez en choisir un autre.';
 $string['groupings'] = 'Groupements';
 $string['groupmember'] = 'Membre du groupe';
 $string['groupmemberdesc'] = 'Rôle par défaut pour un membre d\'un groupe.';
