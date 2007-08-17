@@ -1,9 +1,11 @@
 <?php // $Id$
 
 $string['addgroupstogrouping'] = 'Ajouter le groupe au groupement';
+$string['addgroupstogroupings'] = 'Ajouter/retirer des groupes';  //'du group'
 $string['adduserstogroup'] = 'Ajouter/retirer des utilisateurs'; // au groupe
 $string['anygrouping'] = '[N\'importe quel groupement]';
 $string['backtogroups'] = 'Retour aux groupes';
+$string['backtogroupings'] = 'Retour aux groupements';
 $string['cancel'] = 'Annuler';
 $string['createautomaticgrouping'] = 'Créer groupement automatique';
 $string['creategroup'] = 'Créer un groupe';
@@ -22,7 +24,6 @@ $string['deleteselectedgroup'] = 'Supprimer le groupe sélectionné';
 $string['displaygrouping'] = 'Affichage du groupement';
 $string['distributealphabetically'] = 'Répartir alphabétiquement (nom de famille) dans les groupes';
 $string['distributeevenly'] = 'Répartir équitablement les étudiants restants';
-$string['editgroupingpermissions'] = 'Modifier les autorisations du groupement';
 $string['editgroupingsettings'] = 'Modifier les réglages du groupement';
 $string['editgroupsettings'] = 'Modifier les réglages du groupe';
 $string['enrolmentkey'] = 'Clef d\'inscription';
