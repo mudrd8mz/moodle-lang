@@ -186,6 +186,7 @@ $string['category'] = 'Catégorie';
 $string['categoryadded'] = 'La catégorie «&nbsp;$a&nbsp;» a été ajoutée';
 $string['categorydeleted'] = 'La catégorie «&nbsp;$a&nbsp;» a été supprimée';
 $string['categoryduplicate'] = 'Une catégorie de ce nom («&nbsp;$a&nbsp;») existe déjà';
+$string['categoryname'] = 'Nom de catégorie';
 $string['changedpassword'] = 'Mot de passe modifié';
 $string['changepassword'] = 'Changer le mot de passe';
 $string['changessaved'] = 'Modifications enregistrées';
