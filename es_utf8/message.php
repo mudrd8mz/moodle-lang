@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.7 (2006101007)
+      // message.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addcontact'] = 'Añadir contacto';
@@ -55,6 +55,7 @@ $string['searchforperson'] = 'Buscar una persona';
 $string['searchmessages'] = 'Buscar mensajes';
 $string['sendmessage'] = 'Enviar mensaje';
 $string['sendmessageto'] = 'Enviar mensaje a $a';
+$string['sendmessagetopopup'] = 'Enviar mensaje a $a - ventana nueva';
 $string['settings'] = 'Ajustes';
 $string['settingssaved'] = 'Sus ajustes han sido guardados';
 $string['showmessagewindow'] = 'Mostrar automáticamente la ventana de Mensajes cuando me llegan mensajes nuevos (el navegador debe estar configurado para permitir ventanas emergentes en el sitio)';
