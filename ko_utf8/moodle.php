@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007081302)
+      // moodle.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['action'] = '동작';
@@ -187,6 +187,7 @@ $string['category'] = '목록';
 $string['categoryadded'] = '목록 \'$a\' 가 추가됨';
 $string['categorydeleted'] = '목록 \'$a\' 가 삭제됨';
 $string['categoryduplicate'] = '목록명 \'$a\' 이 미미 존재함!';
+$string['categoryname'] = '범주명';
 $string['changedpassword'] = '변경된 비밀번호';
 $string['changepassword'] = '비밀번호 변경';
 $string['changessaved'] = '수정됨';
@@ -307,6 +308,7 @@ $string['creatingcourseroles'] = '배움터 수준의 역할부여 및 위임권
 $string['creatingevents'] = '일정 만들기';
 $string['creatinggradebook'] = '성적표 만들기';
 $string['creatinggroupings'] = '모둠무리 만들기';
+$string['creatinggroupingsgroups'] = '모둠무리에 모둠 추가';
 $string['creatinggroups'] = '모듬 만들기';
 $string['creatinglogentries'] = '로그 목록 만들기';
 $string['creatingmessagesinfo'] = '메시지 정보 만들기';

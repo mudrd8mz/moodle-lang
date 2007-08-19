@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8 dev (2006120700)
+      // message.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['addcontact'] = '연락 추가';
@@ -48,7 +48,6 @@ $string['onlymycourses'] = '내 코스에서 만';
 $string['onlytome'] = '나에게 온 메세지';
 $string['pagerefreshes'] = '이 페이지는 일정 간격으로 자동으로 새로고침 됩니다';
 $string['readmessages'] = '$a 메세지 읽기';
-$string['refresh'] = '갱신';
 $string['removecontact'] = '연락 제거';
 $string['savemysettings'] = '내 설정 저장';
 $string['search'] = '검색';
@@ -56,6 +55,7 @@ $string['searchforperson'] = '사람 검색';
 $string['searchmessages'] = '메세지 검색';
 $string['sendmessage'] = '메세지 보내기';
 $string['sendmessageto'] = '$a에게 메세지 보내기';
+$string['sendmessagetopopup'] = '$a 에게 메세지 보내기 - 새 창';
 $string['settings'] = '설정';
 $string['settingssaved'] = '당신의 설정이 저장되었습니다';
 $string['showmessagewindow'] = '새 메세지가 올 때마다 자동으로 윈도우에 메세지 표시
@@ -68,5 +68,6 @@ $string['unreadmessages'] = '$a 읽지않은 메세지';
 $string['userisblockingyou'] = '이 사용자는 당신이 타인에게 메세지를 발송하는 것을 차단 했습니다';
 $string['userisblockingyounoncontact'] = '이 사용자는 연락처에 있는 사람들에게만 메세지를 받습니다, 당신은 현재 연락처에 있지 않습니다.';
 $string['userssearchresults'] = '검색 결과: $a 사용자 발견';
+$string['refresh'] = '갱신'; // ORPHANED
 
 ?>

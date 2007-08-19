@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007081302)
+      // admin.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -78,7 +78,7 @@ $string['configdebugsmtp'] = '이메일 발송시의 자세한 오류 내용을 
 $string['configdefaultallowedmodules'] = '특정 범주안에 <b>하위 교육과정이 만들어질 때</b> 어떤 모듈들을 기본적으로 제공하겠는가?';
 $string['configdefaultcourseroleid'] = '배움터에 등록하는 사용자는 이 역활이 자동적으로 부여된다.';
 $string['configdefaultrequestcategory'] = '사용자가 요청한 배움터는 자동적으로 이 범주에 속하게 된다.';
-$string['configdefaultrequestedcategory'] = '승인된 교육과정이 들어갈 기본 범주의 설정';
+$string['configdefaultrequestedcategory'] = '승인된 교육과정이 들어갈 기본 범주';
 $string['configdefaultuserroleid'] = '이곳에서 지정한 역할로 모든 사용자들에게 사이트 수준의 역할이 부여된다. 또한 다른 역할도 부여할 수 있다. 기본 역할은 손님이다. 다른 역할과 충돌하지 않게 하는 것을 유념하고, 모든 사용자가 사이트 수준에서 무언가 유용한 일(포럼의 토론 및 자료 읽기 등)을 할 수 있도록 설정하라.';
 $string['configdeleteunconfirmed'] = '만약 당신이 이메일 인증제를 사용한다면, 여기에 설정된 기간내에 사용자들이 확인 응답을 해야한다. 이 기간이 끝나면 확인응답을 하지 않은 계정은 삭제된다.';
 $string['configdenyemailaddresses'] = '같은 방법으로 여기에 있는 특별한 도메인 리스트의 이메일 주소를 허용하지 않는다. 그 외 모든 다른 도메인들은 허락된다. 예: <strong>hanmail.net yahoo.co.uk<strong/>';
@@ -92,6 +92,7 @@ $string['configeditorfontlist'] = '편집기의 펼침 목록에 나타날 글�
 $string['configenableajax'] = '만일 AJAX 기능을 활성화하면 사용자는 자신들의 신상명세에서 이를 비활성화 할 수 있으나 비활성화하면 모든 사람이 AJAX 기능을 쓸 수 없게 된다.';
 $string['configenablecourserequests'] = '이 기능을 켜 놓으면 어느 누구던 배움터를 요청하여 만들 수 있다.';
 $string['configenableglobalsearch'] = '이 설정은 전체 자료와 활동에서 문서를 찾을 수 있게 해 준다. 이는 PHP4와는 호환되지 않는다.';
+$string['configenablegroupings'] = '이 설정은 모둠을 무리지을 수 있게 한다.(아직 성능이 완벽하지는 않습니다.)';
 $string['configenablehtmlpurifier'] = '신뢰할 수 없는 문서의 악성코드를 제거하기 위해서는 KSES 대신에 HTML거르개를 사용하라.  HTML거르개는 심혈을 기울여 개발되었고 상당한 신뢰도를 가지지만 자원 집약적인 측면이 있다. 최종 결과물은 다소 원안과 다르게 보일 수 있다. embed 및 object 태그는 처리할 수 없으며 MathML과 오래된 lang 태그는 지원하지 않음을 유념하기 바란다.';
 $string['configenablerssfeeds'] = '이 스위치는 무들에서 자동으로 작성한 자료를 RSS 방식으로 송출할 수 있게 한다. 개인적으로 모듈내에서 RSS 급송 장치를 가능하게 할 필요가 있다면, 실질적으로 어떤 변화가 있는지 살펴보고 안되면 관리자 환경설정 아래에 있는 모듈 설정에서 조정하라.';
 $string['configenablerssfeedsdisabled'] = '만일 사이트 전체의 RSS 송출기능을 막아놓으면, 이 기능은 이용할 수 없다. 이를 가능하게 하려면 관리자 환경설정 아래에  있는 변수 설정으로 가서 우선 사이트 전체의 설정을 바꾸어야 한다.';
@@ -100,7 +101,7 @@ $string['configenabletrusttext'] = '무들은 기본적으로 사용자가 올�
 $string['configenrolmentplugins'] = '사용하고자 하는 출석 플러그인을 선택하라. 또 원활하게 작동하도록 설정하는 것을 잊지 말아라.<br /><br />어느 플러그인이 활성화되어 있는지 명시되어야 한다.<strong>하나의</strong> 플러그인이 <em>자동(interactive)</em> 등록에 필요한 기본 플로그인으로 설정될 수 있다. 자동 등록을 비활성화 하기 위해서는 필요한 배움터에서 \"등록가능\"을 \"아니오\"로 하면 된다.';
 $string['configerrorlevel'] = '당신이 알고싶은 PHP경고 수준을 선택하라. 대부분 보통(Normal)이 가장 좋은 선택이다.';
 $string['configextendedusernamechars'] = '이 설정을 활성화시켜 놓으면 학생들은 사용자 아이디에 어떤 문자도 쓸 수 있다.(그들의 실제적 이름과는 관계가 없음을 주목하라) 기본으로 비활성화되어 있어 사용자 ID에 영문자와 숫자를 조합한 것만 허용된다.';
-$string['configfilterall'] = '이 설정은 필터를 통해 머릿말, 제목, 주소창 등에 포함된 모든 문자열을 검색한다. 대개 다국어 여과장치를 쓸 때에 유용하지만, 사이트에 추가적인 부하가 생기는 것이 문제점으로 남는다.';
+$string['configfilterall'] = '이 설정은 필터를 통해 머릿말, 제목, 주소창 등에 포함된 모든 문자열을 검색한다. 대개 다국어 여과장치를 쓸 때에 유용하지만, 사이트에 추가적인 부하가 걸리는 것이 문제점으로 남는다.';
 $string['configfiltermatchoneperpage'] = '이 자동 링크 필터는 <b>한 페이지내</b>의 텍스트에 나온 한 단어에만 자동 링크를 걸고 나머지 단어들은 무시한다.';
 $string['configfiltermatchonepertext'] = '이 자동 링크 필터는 <b>한 문서</b>(예: 자원 블록 등)중 첫번째 단어에 자동 링크를 시키고 나머지 것들은 모두 무시한다. 이 설정은 페이지별 필터 설정이 \"예\"이면 무시된다.';
 $string['configfilteruploadedfiles'] = '이 기능을 켜 놓으면 업로드된 모든 웹문서를 화면에 표시하기 전에 검색하나 그 외의 파일은 필터하지 않는다.';
@@ -288,6 +289,7 @@ $string['editstrings'] = '문자열 편집';
 $string['enableajax'] = 'AJAX 활성화';
 $string['enablecourserequests'] = '배움터 요청 가능';
 $string['enableglobalsearch'] = '전역 검색 활성화';
+$string['enablegroupings'] = '모둠 무리 활성화';
 $string['enablehtmlpurifier'] = 'HTML 거르개 활성화';
 $string['enablerecordcache'] = '기록 기억 활성화';
 $string['enablerssfeeds'] = 'RSS 알리미 활성화';
@@ -501,6 +503,7 @@ $string['profilefieldsize'] = '표시 크기';
 $string['profilefieldtypemenu'] = '선택 차림표';
 $string['profilefieldtypetext'] = '문서 입력';
 $string['profilefieldtypetextarea'] = '입력난';
+$string['profileforceunique'] = '자료가 유일해야 합니까?';
 $string['profileinvaliddata'] = '옳지 않은 값';
 $string['profilelocked'] = '항목이 잠겼습니까?';
 $string['profilemenudefaultnotinoptions'] = '기본값은 필수항목 입니다.';
@@ -512,6 +515,7 @@ $string['profilenofieldsdefined'] = '아무 항목도 정의되지 않았슴';
 $string['profilerequired'] = '이 항목이 필요합니까?';
 $string['profileshortname'] = '짧은 이름(중복되지 않아야 함)';
 $string['profileshortnamenotunique'] = '이미 사용된 이름입니다.';
+$string['profilesignup'] = '서명 화면을 표시할까요?';
 $string['profilespecificsettings'] = '세부 설정';
 $string['profilevisible'] = '누가 이 항목을 볼 수 있게 할까요?';
 $string['profilevisibleall'] = '모든 이에게 공개';
@@ -626,6 +630,7 @@ $string['upgradinglogs'] = '경과기록(로그) 갱신';
 $string['upwards'] = '위로';
 $string['usehtmleditor'] = 'HTML편집기 사용';
 $string['useraccountupdated'] = '사용자가 갱신됨';
+$string['userbulk'] = '무리 사용자 활동';
 $string['userlist'] = '사용자 목록';
 $string['userpolicies'] = '사용자 정책';
 $string['userrenamed'] = '사용자 이름이 변경됨';

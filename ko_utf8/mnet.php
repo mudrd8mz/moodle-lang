@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 dev (2007021401)
+      // mnet.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (자동 서명)';
@@ -27,6 +27,7 @@ $string['current_transport'] = '현재의 운송계층';
 $string['currentkey'] = '현재의 공개키';
 $string['databaseerror'] = '데이터테이스에 자세한 사항을 기재할 수 없음.';
 $string['deleteaserver'] = '서버를 삭제';
+$string['deletehost'] = '호스트 삭제';
 $string['deletekeycheck'] = '이 키를 삭제하는 것이 확실합니까?';
 $string['deleteoutoftime'] = '작동시간(60초)이 초과하였습니다. 다시 시작하시기 바랍니다.';
 $string['deleteuserrecord'] = 'SSO ACL: $a[1]의 사용자 \'$a[0]\' 삭제';
