@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 dev (2007072500)
+      // mnet.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
@@ -26,7 +26,8 @@ $string['courseson'] = 'コースが次のホストにあります:';
 $string['current_transport'] = '現在のトランスポート';
 $string['currentkey'] = '現在の公開鍵';
 $string['databaseerror'] = '詳細をデータベースに書き込めませんでした。';
-$string['deleteaserver'] = 'サーバを削除する';
+$string['deleteaserver'] = 'サーバの削除';
+$string['deletehost'] = 'ホストを削除する';
 $string['deletekeycheck'] = '本当にこのキーを削除してもよろしいですか?';
 $string['deleteoutoftime'] = 'あなたがこのキーを削除できる60秒間の期限が切れました。再度お試しください。';
 $string['deleteuserrecord'] = 'SSO ACL: $a[1] からのユーザレコード $a[0] を削除します。';
