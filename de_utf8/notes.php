@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9 dev (2007080103)
+      // notes.php - created with Moodle 1.9 dev (2007080800)
 
 
 $string['addnewnote'] = 'Neue Anmerkung hinzufügen';
@@ -21,7 +21,7 @@ $string['personal'] = 'Persönlich';
 $string['personalnotes'] = 'Persönliche Anmerkung';
 $string['publishstate'] = 'Status';
 $string['site'] = 'Website';
-$string['sitenotes'] = 'Anmerkungen für die Website';
+$string['sitenotes'] = 'Anmerkungen zur Website';
 $string['unknown'] = 'unbekannt';
 $string['abovenormal'] = 'über normal'; // ORPHANED
 $string['belownormal'] = 'unter normal'; // ORPHANED

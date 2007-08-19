@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007080103)
+      // admin.php - created with Moodle 1.9 dev (2007080800)
 
 
 $string['accessdenied'] = 'Kein Zugriff';
@@ -70,7 +70,7 @@ $string['configcountry'] = 'Wenn Sie hier ein Land festlegen, wird dieses Land a
 $string['configcoursemanager'] = 'Diese Einstellung erlaubt es Ihnen die Kontrolle, wer auf die Kursbeschreibungen zugreifen darf. Nutzer/innen müssen mindestens eine dieser Rollen haben, um die Kursbeschreibung für diesen Kurs sehen zu können.';
 $string['configcoursesperpage'] = 'Geben Sie die Kursanzahl an, die pro Seite in einer Kursliste angezeigt werden soll.';
 $string['configcreatornewroleid'] = 'Dieses Rolle wird den Kurserstellern automatisch beim Anlegen des Kurses in dem neu erstellten Kurs zugewiesen. Die Rolle wird nicht zugewiesen wenn der Kursersteller die Rechte nur im Elternkontext (parent) hat.';
-$string['configcronclionly'] = 'Wenn dies gesetzt ist, dann kann das cron-Script nur über die Kommandozeile aufgerufen werden, nicht über den Webbrowser. Die nachfolgende Kennwort-Einstellung wird damit überschrieben.';
+$string['configcronclionly'] = 'Wenn diese Einstellung gesetzt ist, dann kann das Script cron.php ausschließlich über die Kommandozeile aufgerufen werden und nicht über den Webbrowser. Die nachfolgende Kennwort-Einstellung wird damit überschrieben.';
 $string['configcronremotepassword'] = 'Dies bedeutet, dass das Script cron.php nicht im Webbrowser aufgerufen werden kann, ohne das Kennwort folgendermaßen an die URL anzuhängen: <pre>
 http://www.beispiel.de/admin/cron.php?password=geheim
 </pre>Falls das Feld leer bleibt, wird kein Kennwort benötigt.';
@@ -80,12 +80,12 @@ $string['configdebugdisplay'] = 'Wenn diese Einstellung aktiviert ist, werden Fe
 $string['configdebugsmtp'] = 'Umfassende Debuginformation beim Versand von Email-Nachrichten an SMTP Server erstellen.';
 $string['configdefaultallowedmodules'] = 'Welche Module sollen in den Kursen der oben genannten Kategorie standardmäßig bei der Kurs-Einrichtung aktiviert sein?';
 $string['configdefaultcourseroleid'] = 'Nutzer/innen, die sich in einen Kurs einschreiben, erhalten automatisch diese Rolle zugewiesen.';
-$string['configdefaultrequestcategory'] = 'Von Nutzer/innen beantrage Kurse werden automatisch in diesem Kursbereich abgelegt.';
-$string['configdefaultrequestedcategory'] = 'Standardkursbereich, in dem beantragte Kurse angelegt werden.';
+$string['configdefaultrequestcategory'] = 'Von Nutzer/innen beantrage Kurse werden automatisch in diesem Kursbereich angelegt.';
+$string['configdefaultrequestedcategory'] = 'Voreingestellter Kursbereich, in dem beantragte Kurse angelegt werden.';
 $string['configdefaultuserroleid'] = 'Wer als Nutzer/in eingeloggt ist, erhält für die gesamte Website automatisch die hier angegebene Rolle zugewiesen, u.z. als Ergänzung zu jeder anderen Rollenzuweisung. Beachten Sie, dass Sie mit Ihrer Einstellung keine Konflikte mit anderen Rollen erzeugen. Standardmaßig ist die Gastrolle voreingestellt, was sicherstellt, dass alle Nutzer/innen auf der gesamten Website sinnvolle Dinge tun können (z.B. Arbeitsmaterialien ansehen, in Foren lesen, usw.)';
 $string['configdeleteunconfirmed'] = 'Wenn Sie die Authentifikation per E-Mail verwenden, geben Sie hier den Zeitraum an, innerhalb dessen die Nutzer/innen ihre Registrierung bestätigen müssen. Unbestätigte Zugänge verfallen und werden gelöscht.';
 $string['configdenyemailaddresses'] = 'Definieren Sie hier Domains, von denen keine E-Mail-Adressen akzeptiert werden, z.B. <strong>hotmail.com yahoo.de</strong>.';
-$string['configdigestmailtime'] = 'Personen, die E-Mails als Zusammenfassung (Digest) eingerichtet haben, erhalten diese Zusammenfassung einmal täglich zu dem hier festgelegten Zeitpunkt zugesandt, und zwar beim nächsten auf diesen Zeitpunkt folgenden Cronjob.';
+$string['configdigestmailtime'] = 'Personen, die E-Mails als Zusammenfassung (Digest) eingerichtet haben, erhalten diese Zusammenfassung einmal täglich zu dem hier festgelegten Zeitpunkt zugesandt, und zwar bei der nächsten auf diesen Zeitpunkt folgenden Ausführung von cron.php.';
 $string['configdisableuserimages'] = 'Diese Einstellung verbietet die Möglichkeit, dass Nutzer/innen ihre Profilbilder ändern dürfen.';
 $string['configdisplayloginfailures'] = 'Anzeige von Informationen über frühere gescheiterte Logins der ausgewählten Nutzer/innen.';
 $string['configdocroot'] = 'Definiert den Pfad zur Moodle-Dokumentation. Sie können den Pfad ändern, um eine eigene Dokumentation online zu nutzen. Wenn Sie dies tun, sollten Sie sicherstellen, dass Sie die gleiche Pfadstruktur nutzen, wie sie bei http://docs.moodle.org verwendet wird.';
@@ -98,7 +98,7 @@ $string['configenableglobalsearch'] = 'Diese Einstellung erlaubt die globale Tex
 $string['configenablehtmlpurifier'] = 'Zur Bereinigung von nicht vertrauenswürdigen Texten wird HTML Purifier anstatt KSES benutzt. HTML Purifier wird aktuell entwickelt und scheint sicherer zu sein, benötigt aber mehr Serverresourcen. Es könnten geringe Unterschiede in der Darstellung des gefilterten HTML-Codes auftreten. Bitte berücksichtigen Sie, dass EMBED/OBJECT- Tags nicht erlauben können. Weiter werden MathML- und alte LANG-Tags nicht unterstützt.';
 $string['configenablerssfeeds'] = 'Diese Einstellung aktiviert RSS-Feeds für die gesamte Website. Es ist zusätzlich erforderlich, RSS-Feeds in den einzelnen Modulen zu aktivieren. Öffnen Sie dazu in der Administration die Modul-Einstellungen.';
 $string['configenablerssfeedsdisabled'] = 'Diese Option ist nicht verfügbar, weil RSS-Feeds für alle Seiten deaktiviert sind. Um diese zu aktivieren, öffnen Sie die Variableneinstellung in der Administration.';
-$string['configenablestats'] = 'Mit der Einstellung \"Ja\" verarbeitet der Cronjob die Logs und erstellt Statistiken. Je nach Umfang der Aktivitäten auf der Seite kann dies einige Zeit dauern. Wenn die Option deaktiviert ist (\"Nein\"), werden die Statistiken für jeden Kurs oder die Seite beim Aufruf der Seite erstellt.';
+$string['configenablestats'] = 'Mit der Einstellung \"Ja\" verarbeitet die Ausführung von cron.php die Logs und erstellt Statistiken. Je nach Umfang der Aktivitäten auf der Seite kann dies einige Zeit dauern. Wenn die Option deaktiviert ist (\"Nein\"), werden die Statistiken für jeden Kurs oder die Seite beim Aufruf der Seite erstellt.';
 $string['configenabletrusttext'] = 'Normalerweise bereinigt Moodle grundsätzlich alle Texte, die von Nutzer/innen eingegeben werden, und entfernt damit mögliche Skripte und Media-Dateien, die ein Sicherheitsrisiko darstellen könnten. Das Trusted-Content-System ist ein Weg, bestimmten Nutzer/innen die Möglichkeit zu geben, erweiterte Inhalte auch ohne Filterung in ihren Beiträgen zu benutzen. Um dieses System zu aktivieren, müssen Sie zuerst diese Option zulassen, danach gewähren Sie das Trusted-Content-Recht in der betreffenden Moodle-Rollenbeschreibung. Texte, die von den betreffenden Nutzer/innen geschrieben oder hochgeladen werden, werden als vertrauenswürdig markiert und vor der Anzeige nicht gefiltert.';
 $string['configenrolmentplugins'] = 'Wählen Sie die Kurs-Anmeldeverfahren, die Sie verwenden wollen. Achten Sie darauf, die Einstellungen sorgfältig und richtig zu vorzunehmen.<br /><br />Legen Sie fest, welche Anmeldeverfahren (Plugins) verwendet werden sollen. <strong>Ein</strong> Plugin kann als <em>interaktives</em> Plugin vordefiniert werden.<br /><br />Um die interaktive Anmeldung (Einschreibung in den Kurs durch die Teilnehmer/innen) abzuschalten, setzen Sie \"Einschreiben in den Kurs ist möglich\" im jeweiligen Kurs auf \"Nein\".</p>';
 $string['configerrorlevel'] = 'Wählen Sie die Menge der PHP-Warnungen, die angezeigt werden sollen. \'Normal\' ist meist eine gute Wahl.';
@@ -145,7 +145,7 @@ $string['configmaxevents'] = 'Ereignisse in der Vorausschau';
 $string['configmemcachedhosts'] = 'Für memcached: Kommagetrennte Liste der Hosts, auf denen der memcached Dämon läuft. Verwenden Sie IP-Adressen, um DNS-Wartezeiten zu vermeiden. memcached verhält sich nicht korrekt, wenn Sie diese Einstellung im laufenden Betrieb vornehmen oder ändern.';
 $string['configmemcachedpconn'] = 'Für memcached: Verwenden Sie feste Verbindungen. Vorsicht: Unsachgemäße Einstellungen können beim Neustart des memcached Dämons zum Absturz von Apache/PHP führen.';
 $string['configmessaging'] = 'Soll das Message-System systemweit für alle Nutzer/innen aktiviert werden?';
-$string['configminpassworddigits'] = 'Passworte müssen mindestens die angegebene Anzahl von Zahlen enthalten.';
+$string['configminpassworddigits'] = 'Passworte müssen mindestens die angegebene Anzahl von Ziffern.';
 $string['configminpasswordlength'] = 'Passworte müssen mindestens die angegebene Gesamtzahl von Zeichen enthalten.';
 $string['configminpasswordlower'] = 'Passworte müssen mindestens die angegebene Anzahl von Kleinbuchstaben enthalten.';
 $string['configminpasswordnonalphanum'] = 'Passworte müssen mindestens die angegebene Anzahl von Sonderzeichen enthalten.';
@@ -202,9 +202,9 @@ $string['configsmartpix'] = 'Wenn diese Einstellung aktiviert ist, werden Icons 
 $string['configsmtphosts'] = 'Geben Sie hier den vollen Namen von einem oder mehreren lokalen SMTP-Servern an, die Moodle für den E-Mail-Versand benutzen soll (z.B. \'mail.a.de\' oder \'mail.a.de;mail.b.de\'). Wenn Sie dieses frei lassen, wird Moodle die Standard-Methode von PHP zum Senden von E-Mails verwenden.';
 $string['configsmtpuser'] = 'Sofern Sie einen SMTP-Server angegeben haben und der Server Zugangsdaten erfordert, dann geben Sie hier Nutzernamen und Passwort an.';
 $string['configstartwday'] = 'Beginn der Woche';
-$string['configstatsfirstrun'] = 'Die Einstellung legt den Zeitraum fest, um den die durch den Cronjob auszuwertenden Logdaten zurückliegen dürfen. Wenn Sie sehr viele Aktivitäten in den Kursen haben oder sich einen Server mit anderen Anwendungen teilen, sollten Sie keinen zu langen Zeitraum wählen. Die Auswertung erfordert eine hohe Serverleistung. (Hinweis: für diese Einstellung gilt: 1 Monat = 28 Tage. In der grafischen Auswertung und den Berichten ist 1 Monat = 1 Kalendermonat.)';
+$string['configstatsfirstrun'] = 'Die Einstellung legt den Zeitraum fest, um den die auszuwertenden Logdaten zurückliegen dürfen. Wenn Sie sehr viele Aktivitäten in den Kursen haben oder sich einen Server mit anderen Anwendungen teilen, sollten Sie keinen zu langen Zeitraum wählen. Die Auswertung erfordert eine hohe Serverleistung. (Hinweis: für diese Einstellung gilt: 1 Monat = 28 Tage. In der grafischen Auswertung und den Berichten ist 1 Monat = 1 Kalendermonat.)';
 $string['configstatsmaxruntime'] = 'Die Berechnung der Statistiken kann sehr viel Rechenleistung erfordern. Verwenden Sie eine Kombination aus diesem Feld und dem nächsten, um festzulegen zu welchem Zeitpunkt und für welchen Zeitraum die Berechnung erfolgen soll.';
-$string['configstatsruntimestart'] = 'Zu welchem Zeitpunkt soll der Cronjob die Berechnung der Statitiken durchführen?';
+$string['configstatsruntimestart'] = 'Zu welchem Zeitpunkt soll die Berechnung der Statistiken durchgeführt werden?';
 $string['configstatsuserthreshold'] = 'Kurse mit einer geringeren Zahl von Nutzer/innen als in diesem Wert angegeben, werden beim Erstellen des Kursrankings nicht berücksichtigt. Die Zahl der Nutzer/innen setzt sich aus den Teilnehmer/innen und den Trainer/innen des Kurses zusammen.';
 $string['configsupportemail'] = 'Diese E-Mail-Adresse wird Nutzer/innen dieser Website übermittelt, wenn sie allgemeine Hilfe über E-Mail benötigen (z.B. wenn neue Nutzeraccounts selber angelegt werden sollen). Wenn das Feld leer bleibt, dann wird keine helfende E-Mail-Adresse angeboten.';
 $string['configsupportname'] = 'Dies ist der Name der Person oder Einrichtung, die allgemeine Hilfe über E-Mail oder eine Internetseite anbieten.';
@@ -228,7 +228,7 @@ $string['courserequests'] = 'Kursanfragen';
 $string['courses'] = 'Kurse';
 $string['coursesperpage'] = 'Kurse pro Seite';
 $string['creatornewroleid'] = 'Rolle des Kurserstellers in neuen Kursen.';
-$string['cronclionly'] = 'Ausführung von cron nur über die Kommandozeile';
+$string['cronclionly'] = 'cron.php über die Kommandozeile ausführen';
 $string['cronerrorclionly'] = 'Entschuldigung, der Internetzugriff auf diese Seite wurde durch den Admin ausgeschaltet.';
 $string['cronerrorpassword'] = 'Entschuldigung, Sie haben kein gültiges Kennwort für den Zugriff angegeben.';
 $string['cronremotepassword'] = 'Zugriffskennwort für cron';
@@ -382,8 +382,8 @@ $string['localetext'] = '\"locale\" für die Website';
 $string['location'] = 'Lokales';
 $string['locationsettings'] = 'Einstellungen';
 $string['log'] = 'Logdaten';
-$string['loginhttps'] = 'HTTPS zum Login benutzen';
-$string['loglifetime'] = 'Logdaten speichern für';
+$string['loginhttps'] = 'Login über HTTPS';
+$string['loglifetime'] = 'Logdaten speichern';
 $string['longtimenosee'] = 'Nutzer/innen aus Kursen abmelden nach';
 $string['longtimewarning'] = '<b>Bitte beachten Sie, dass dieser Vorgang sehr lange dauern kann.</b>';
 $string['mail'] = 'E-Mail';
@@ -407,7 +407,7 @@ $string['mediapluginwmv'] = '.wmv Filter aktivieren';
 $string['memcachedhosts'] = 'Memcached Hosts';
 $string['memcachedpconn'] = 'Memcached verwendet persistente Verbindungen';
 $string['messaging'] = 'Message-System freischalten';
-$string['minpassworddigits'] = 'Zahlen';
+$string['minpassworddigits'] = 'Ziffern';
 $string['minpasswordlength'] = 'Passwortlänge';
 $string['minpasswordlower'] = 'Kleinbuchstaben';
 $string['minpasswordnonalphanum'] = 'Sonderzeichen';

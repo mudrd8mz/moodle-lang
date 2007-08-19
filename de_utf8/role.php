@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007080103)
+      // role.php - created with Moodle 1.9 dev (2007080800)
 
 
 $string['addrole'] = 'Neue Rolle hinzufügen';
@@ -59,6 +59,7 @@ $string['errorbadroleshortname'] = 'Ungültiger Rollenname';
 $string['errorexistsrolename'] = 'Rollenname existiert bereits';
 $string['errorexistsroleshortname'] = 'Rollenname existiert bereits';
 $string['existingusers'] = '$a bestehende Nutzer/innen';
+$string['globalrole'] = 'Globale Rolle';
 $string['globalroleswarning'] = 'WARNUNG! Jede Rolle, die Sie von dieser Seite aus zuweisen, wird für die zugewiesenen Nutzer/innen und die gesamte Website angelegt, also für wirklich alle Kurse und die Startseite.';
 $string['grade:export'] = 'Bewertungen exportieren';
 $string['grade:hide'] = 'Bewertung verbergen';

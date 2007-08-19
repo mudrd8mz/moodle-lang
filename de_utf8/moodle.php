@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007080103)
+      // moodle.php - created with Moodle 1.9 dev (2007080800)
 
 
 $string['action'] = 'Aktion';
@@ -9,7 +9,7 @@ $string['activeusers'] = 'Aktive Nutzer/innen';
 $string['activities'] = 'Aktivitäten';
 $string['activity'] = 'Aktivität';
 $string['activityclipboard'] = 'Verschiebe diese Aktivität: <b>$a</b>';
-$string['activityiscurrentlyhidden'] = 'Entschuldigung, diese Aktivität ist momentan verborgen.';
+$string['activityiscurrentlyhidden'] = 'Entschuldigung, diese Aktivität ist momentan verborgen';
 $string['activitymodule'] = 'Aktivitäten-Modul';
 $string['activityreport'] = 'Aktivitäten';
 $string['activityreports'] = 'Aktivitäten';
@@ -229,6 +229,7 @@ $string['complete'] = 'Fertig';
 $string['completereport'] = 'Vollständiger Bericht';
 $string['configuration'] = 'Konfiguration';
 $string['confirm'] = 'Bestätigen';
+$string['confirmcheckfull'] = 'Sind Sie sicher, dass Sie $a bestätigen möchten?';
 $string['confirmed'] = 'Ihre Registrierung wurde bestätigt.';
 $string['confirmednot'] = 'Ihre Registrierung wurde noch nicht bestätigt!';
 $string['continue'] = 'Weiter';
@@ -471,7 +472,7 @@ $string['emailpasswordchangeinfo'] = 'Guten Tag, $a->firstname $a->lastname,
 
 jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihren Zugang auf \'$a->sitename\' angefordert.
 
-Um das Kennwort zu ändern, gehen sie bitte auf folgende Webseite:
+Um das Kennwort zu ändern, gehen Sie bitte auf folgende Webseite:
 
 $a->link
 
@@ -650,6 +651,7 @@ $string['gdneed'] = 'GD muss installiert sein, um diese Grafik zu sehen.';
 $string['gdnot'] = 'GD ist nicht installiert';
 $string['gettheselogs'] = 'Diese Logdaten holen';
 $string['go'] = 'Start';
+$string['gotoyourserver'] = '(Rückverweis auf Ihren Server)';
 $string['gpl'] = 'Copyright (C)1999 onwards Martin Dougiamas http://moodle.com
 
 Dieses Programm ist freie Software. Sie dürfen die Software weiterverbreiten und/oder verändern, und zwar im Rahmen der GNU General Public License, wie sie von der Free Software Foundation veröffentlicht wurde. Es gilt die Version 2 der Lizenz oder (falls Sie dies wünschen) auch jede spätere Version.
@@ -736,7 +738,8 @@ $string['htmlfilesonly'] = 'Nur HTML-Dateien';
 $string['htmlformat'] = 'HTML-Format';
 $string['icqnumber'] = 'ICQ';
 $string['idnumber'] = 'ID-Nummer';
-$string['idnumbercourse'] = 'Kurs-ID-Nummer';
+$string['idnumbercourse'] = 'Kurs-ID';
+$string['idnumbertaken'] = 'Diese Kurs-ID wird bereits benutzt!';
 $string['imagealt'] = 'Bildbeschreibung';
 $string['import'] = 'Import';
 $string['importactivities'] = 'Aktivitäten aus einem anderen Kurs importieren';
@@ -1155,6 +1158,7 @@ $string['registrationno'] = 'Nein, ich möchte keine E-Mails erhalten';
 $string['registrationsend'] = 'Registrierung an moodle.org senden';
 $string['registrationyes'] = 'Ja, ich möchte wichtige Mitteilungen per E-Mail erhalten';
 $string['reject'] = 'Ablehnen';
+$string['remotemaharauser'] = 'Externe Mahara-Nutzung';
 $string['remove'] = 'Löschen';
 $string['removeadmin'] = 'Administrator/in löschen';
 $string['removecreator'] = 'Kursverwalter/in löschen';
@@ -1164,7 +1168,7 @@ $string['rename'] = 'Umbenennen';
 $string['renamefileto'] = '<b>$a</b> umbenennen in';
 $string['report'] = 'Bericht';
 $string['reports'] = 'Berichte';
-$string['requestcourse'] = 'Einen Kurs beantragen';
+$string['requestcourse'] = 'Kurs beantragen';
 $string['requestedby'] = 'Antrag von';
 $string['requestreason'] = 'Antragsbegründung';
 $string['required'] = 'Erforderlich';

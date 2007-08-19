@@ -1,6 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7+ (2006101008)
-      // local modifications from http://17.moodle.de
+      // admin.php - created with Moodle 1.9 dev (2007072500)
 
 
 $string['badwordsconfig'] = 'Gib eine kommagetrennte Liste der Wörter ein, die zensiert werden sollen.';
@@ -26,7 +25,6 @@ $string['configdeleteunconfirmed'] = 'Wenn du die Authentifikation per E-Mail ve
 $string['configdenyemailaddresses'] = 'Definiere hier Domains, von denen keine E-Mail-Adressen akzeptiert werden, z.B. <strong>hotmail.com yahoo.de</strong>.';
 $string['configdocroot'] = 'Definiert den Pfad zur Moodle-Dokumentation. Du kannst den Pfad ändern, um eine eigene Dokumentation online zu nutzen. Wenn du dies tust, solltest du sicherstellen, dass du die gleiche Pfadstruktur nutzt, wie sie bei http://docs.moodle.org verwendet wird.';
 $string['configenableajax'] = 'Diese Einstellung erlaubt es dir, die Benutzung von AJAX (erweiterte auf JavaScript basierende Client-Server-Schnittstelle) über die gesamte Website zu kontrollieren. Falls dies aktiviert ist, können die Nutzer/innen in ihrem Profil AJAX einschalten, andernfalls ist AJAX für alle ausgeschaltet.';
-$string['configenablerecordcache'] = 'Wenn du diese Option aktivierst, dann werden die Datenbankzugriffe im Arbeitsspeicher zwischengespeichert. Dies bedeutet, dass einerseits der Datenbankdurchsatz schneller wird, dass aber andererseits der Speicherbedarf für den Webserver geringfügig ansteigt. Grundsätzlich empfiehlt sich die Aktivierung, es sei denn der Webserver hat zu wenig Speicher. Einige Prozesse könnten diese Einstellung überschreiben, falls dies einen Geschwindigkeitszuwachs sichert.';
 $string['configenablerssfeeds'] = 'Diese Einstellung aktiviert RSS-Feeds für die gesamte Website. Es ist zusätzlich erforderlich, RSS-Feeds in den einzelnen Modulen zu aktivieren. Öffne dazu in der Administration die Modul-Einstellungen.';
 $string['configenablerssfeedsdisabled'] = 'Diese Option ist nicht verfügbar, weil RSS-Feeds für alle Seiten deaktiviert sind. Um diese zu aktivieren, öffne die Variableneinstellung in der Administration.';
 $string['configenabletrusttext'] = 'Normalerweise bereinigt Moodle grundsätzlich allen Text, der von Nutzer/innen eingegeben wird, und entfernt damit mögliche Skripte und Media-Dateien, die ein Sicherheitsrisiko darstellen könnten. Das Trusted-Content-System ist ein Weg, bestimmten Nutzer/innen die Möglichkeit zu geben, erweiterte Inhalte auch ohne Filterung in ihren Beiträgen zu benutzen. Um dieses System zu aktivieren, musst du zuerst diese Option aktivieren, danach gewährst du das Trusted-Content-Recht in der betreffenden Moodle-Rollenbeschreibung. Texte, die von den betreffenden Nutzer/innen geschrieben oder hochgeladen werden, werden als vertrauenswürdig markiert und vor der Anzeige nicht gefiltert.';
@@ -34,7 +32,7 @@ $string['configenrolmentplugins'] = 'Wähle die Kurs-Anmeldeverfahren, die du ve
 $string['configerrorlevel'] = 'Wähle die Menge der PHP-Warnungen, die angezeigt werden sollen. \'Normal\' ist meist eine gute Wahl.';
 $string['configextendedusernamechars'] = 'Aktiviere diese Einstellung, damit beliebige Zeichen im Nutzernamen zulässig werden (Anmerkung: Dies beeinflusst nicht bereits vorhandene Namen). In der Grundeinstellung (\"Nein\") sind nur alphanumerische Zeichen erlaubt. Falls du \'Ja\' auswählst, könnten bestimmte Sonderzeichen (z.B. deutsche Umlaute) Probleme verursachen!';
 $string['configforcelogin'] = 'Normalerweise können die Startseite und die Kursübersicht (nicht jedoch die Kurse) eingesehen werden, ohne dass man sich einloggt. Aktiviere diese Option, wenn ein Login zwingend sein soll, um IRGENDETWAS auf dieser Site ausführen zu können.';
-$string['configframename'] = 'Falls du Moodle innerhalb eines Frames einbindst, trägst du hier den Namen des Frames ein. Andernfalls sollte dieser Wert auf \'_top\' stehen.';
+$string['configframename'] = 'Falls du Moodle innerhalb eines Frames einbindest, dann trägst du hier den Namen des Frames ein. Andernfalls sollte dieser Wert auf \'_top\' stehen.';
 $string['configfullnamedisplay'] = 'Hier kannst du festlegen, wie die Langform der Namen angezeigt wird. In den meisten Fällen ist die Grundeinstellung \"Vorname + Nachname\" geeignet, wobei du auch die Vor- oder die Nachnamen ausblenden kannst, falls du dies wünscht.';
 $string['configgdversion'] = 'Dies zeigt die installierte Version von GD an (GD ist eine Funktion zur Bilddarstellung). Die angezeigte Version wurde automatisch ermittelt. Ändere dies nicht, es sei denn, du weißt wirklich, was du tust.';
 $string['configgradebookroles'] = 'Diese Einstellung erlaubt dir die Kontrolle, wer in den Bewertungen erscheint. Teilnehmer/innen müssen zuerst eine der Rollen in einem Kurs einnehmen, bevor sie in den Bewertungen dieses Kurses angezeigt werden.';
@@ -118,5 +116,6 @@ $string['upgradesettingsintro'] = 'Die unten gezeigten Einstellungen wurden wäh
 $string['upgradesure'] = 'Die Moodle-Dateien wurden verändert. Deine Moodle-Installation wird auf die Version <strong>$a</strong> aktualisiert.
 Nach der Aktualisierung kannst du nicht zu einer früheren Version zurückkehren.</p>
 <p>Bist sicher, dass du das Update ausführen möchtest?</p>';
+$string['configenablerecordcache'] = 'Wenn du diese Option aktivierst, dann werden die Datenbankzugriffe im Arbeitsspeicher zwischengespeichert. Dies bedeutet, dass einerseits der Datenbankdurchsatz schneller wird, dass aber andererseits der Speicherbedarf für den Webserver geringfügig ansteigt. Grundsätzlich empfiehlt sich die Aktivierung, es sei denn der Webserver hat zu wenig Speicher. Einige Prozesse könnten diese Einstellung überschreiben, falls dies einen Geschwindigkeitszuwachs sichert.'; // ORPHANED
 
 ?>
