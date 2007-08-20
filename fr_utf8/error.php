@@ -1,6 +1,7 @@
 <?php // $Id$ 
 
 $string['adminprimarynoedit'] = 'Le compte de l\'administrateur principal ne peut pas être modifié par les autres administrateurs';
+$string['cannotassignrole'] = 'Attribution du rôle dans le cours impossible.';
 $string['cannotcreatelangdir'] = 'Création du dossier lang impossible.';
 $string['cannotcreatetempdir'] = 'Création du dossier temp impossible.';
 $string['cannotcustomizelocallang'] = 'Vous n\'avez pas les autorisations nécessaires pour modifier localement la traduction des chaînes de caractères. Cette autorisation est contrôlée par la capacité «&nbsp;moodle/site:langeditlocal&nbsp;». Veuillez vous accorder cette capacité pour vous permettre de modifier localement les chaînes de caractères, si vous désirez modifier la traduction de Moodle pour votre site.';
@@ -19,6 +20,7 @@ $string['confirmsesskeybad'] = 'Désolé, votre identifiant de session n\'a pas 
 $string['couldnotassignrole'] = 'Une erreur inconnue, mais sérieuse, est survenue lors de l\'attribution d\'un rôle à vous-même';
 $string['coursegroupunknown'] = 'Cours correspondant au groupe $a non indiqué';
 $string['downloadedfilecheckfailed'] = 'La vérification du fichier téléchargé à échoué.';
+$string['duplicateusername'] = 'Nom d\'utilisateur à double&nbsp;: ligne ignorée';
 $string['errorcleaningdirectory'] = 'Erreur lors du nettoyage du dossier «&nbsp;$a&nbsp;»';
 $string['errorcopyingfiles'] = 'Erreur lors de la copie de fichiers';
 $string['errorcreatingdirectory'] = 'Erreur lors de la création du dossier «&nbsp;$a&nbsp;»';
@@ -83,11 +85,12 @@ $string['unicodeupgradeerror'] = 'Désolé, votre base de données n\'est pas en
 $string['unknowncourse'] = 'Le cours «&nbsp;$a&nbsp;» est inconnu';
 $string['unknowncourseidnumber'] = 'L\'identifiant de cours «&nbsp;$a&nbsp;» est inconnu';
 $string['unknownuseraction'] = 'Désolé, je ne comprends pas ce que vous voulez faire.';
-$string['usernotaddederror'] = 'L\'utilisateur «&nbsp;$a&nbsp;» n\'a pas été ajouté : erreur inconnue';
-$string['usernotaddedregistered'] = 'L\'utilisateur «&nbsp;$a&nbsp;» n\'a pas été ajouté ; il est déjà référencé';
+$string['usernotaddederror'] = 'Utilisateur pas ajouté&nbsp;: erreur inconnue.';
+$string['usernotaddedregistered'] = 'Utilisateur pas ajouté&nbsp;; déjà enregistré.';
 $string['usernotavailable'] = 'Vous n\'avez pas l\'autorisation de consulter les coordonnées de cet utilisateur.';
 $string['usernotrenamedexists'] = 'Le nom d\'utilisateur n\'a pas été modifié&nbsp;: le nouveau nom est déjà utilisé.';
 $string['usernotrenamedmissing'] = 'Le nom d\'utilisateur n\'a pas été modifié&nbsp;: l\'ancien nom n\'a pas été trouvé.';
+$string['usernotupdatederror'] = 'Utilisateur pas mis à jour&nbsp;: erreur inconnue.';
 $string['wrongdestpath'] = 'Chemin de destination incorrect.';
 $string['wrongsourcebase'] = 'Adresse URL de base de la source incorrect.';
 $string['wrongzipfilename'] = 'Nom de fichier ZIP incorrect.';
