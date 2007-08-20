@@ -1,12 +1,14 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007070603)
+      // error.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['adminprimarynoedit'] = 'Het profiel van de beheerder met het kleinste gebruikersnummer kan door de andere beheerders niet gewijzigd worden';
 $string['cannotcreatelangdir'] = 'Kan lang map niet maken';
 $string['cannotcreatetempdir'] = 'Kan tijdelijke map niet maken.';
+$string['cannotcustomizelocallang'] = 'Je hebt onvoldoende rechten om de woorden en zinnen van de vertaling aan te passen. Deze rechten worden gecontroleerd door de mogelijkheid \"moodle/site:langeditlocal\". Zet deze mogelijkheid op toelaten om locale aanpassingen te doen aan de vertaling van jouw site.';
 $string['cannotdownloadcomponents'] = 'Kan componenten niet downloaden.';
 $string['cannotdownloadzipfile'] = 'Kan ZIP-bestand niet downloaden.';
+$string['cannoteditmasterlang'] = 'Je hebt onvoldoende rechten om de woorden en zinnen van het taalpakket aan te passen. Deze rechten worden gecontroleerd door de mogelijkheid \"moodle/site:langeditmaster\". Zet deze mogelijkheid op toelaten om het taalpakket te kunnen aanpassen. Doe dit alleen maar als je het taalpakket beheert.';
 $string['cannotfindcomponent'] = 'Kan component niet vinden.';
 $string['cannotsavemd5file'] = 'Kan md5-bestand niet bewaren.';
 $string['cannotsavezipfile'] = 'Kan ZIP-bestand niet bewaren.';
