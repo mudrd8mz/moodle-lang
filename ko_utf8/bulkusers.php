@@ -10,6 +10,7 @@ $string['removesel'] = '선택항목 제외';
 $string['selected'] = '선택됨';
 $string['usersfound'] = '$a 사용자 발견';
 $string['usersinlist'] = '사용자 목록';
+$string['usersselected'] = '$a 사용자 선택됨';
 $string['action'] = '활동'; // ORPHANED
 $string['filtered'] = '걸러짐'; // ORPHANED
 

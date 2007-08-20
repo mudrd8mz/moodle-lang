@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007081302)
+      // error.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 편집될 수 없음';
+$string['cannotassignrole'] = '배움터의 역할을 지명할 수 없음';
 $string['cannotcreatelangdir'] = '언어팩 디렉토리를 만들 수 없습니다.';
 $string['cannotcreatetempdir'] = 'temp 디렉토리를 만들 수 없습니다.';
 $string['cannotcustomizelocallang'] = '맞춤 문자열을 변경할 수 있는 권한이 없습니다. 이 권한은 \"moodle/site:langeditlocal\"에 의해 설정됩니다. 만일 사이트 전체에 걸쳐 문자열을 변경하고 싶은 경우 이 기능을 조정하여 언어팩을 관리할 수 있게 해야 합니다.';
@@ -21,6 +22,7 @@ $string['confirmsesskeybad'] = '죄송합니다. 세션키가 확실치 않아 �
 $string['couldnotassignrole'] = '역할 부여 중에 알 수 없는 심각한 오류가 발생했습니다.';
 $string['coursegroupunknown'] = '모둠에 상응하는 배움터 $a 가 지정되 있지 않음.';
 $string['downloadedfilecheckfailed'] = '내려받은 파일 점검에 실패하였습니다.';
+$string['duplicateusername'] = '사용자명 복사 - 기록 생략';
 $string['errorcleaningdirectory'] = '\"$a\" 디렉토리 정리 오류';
 $string['errorcopyingfiles'] = '파일 복사 오류';
 $string['errorcreatingdirectory'] = '\"$a\" 디렉토리 생성 오류';
@@ -90,6 +92,7 @@ $string['usernotaddedregistered'] = '사용자 \"$a\"는 추가되지 않았습�
 $string['usernotavailable'] = '이 사용자의 세부사항은 이용할 수 없습니다';
 $string['usernotrenamedexists'] = '사용자 아이디 변경 못함 - 그 이름은 이미 사용중입니다.';
 $string['usernotrenamedmissing'] = '사용자 아이디 변경 못함 - 기존의 사용자 아이디를 찾을 수 없습니다.';
+$string['usernotupdatederror'] = '사용자 갱신않됨 - 알 수 없는 오류';
 $string['wrongdestpath'] = '잘못된 목적 경로';
 $string['wrongsourcebase'] = '잘못된 소스 URL  베이스';
 $string['wrongzipfilename'] = '잘못된 ZIP 파일명';
