@@ -20,6 +20,7 @@ $string['current_transport'] = 'Transport actuel';
 $string['currentkey'] = 'Clef publique actuelle';
 $string['databaseerror'] = 'Impossible d\'écrire les détails dans la base de données.';
 $string['deleteaserver'] = 'Suppression d\'un serveur';
+$string['deletehost'] = 'Suppression serveur';
 $string['deletekeycheck'] = 'Voulez-vous vraiment supprimer cette clef&nbsp;?';
 $string['deleteoutoftime'] = 'Le temps de 60 secondes imparti pour la suppression de cette clef est échu. Veuillez recommencer.'; 
 $string['deleteuserrecord'] = 'SSO ACL&nbsp;: suppression de l\'enregistrement de l\'utilisateur «&nbsp;$a[0]&nbsp;» de $a[1].';
