@@ -49,6 +49,7 @@ $string['groupmembers'] = 'Membres du groupe';
 $string['groupmemberssee'] = 'Voir les membres du groupe';
 $string['groupmembersselected'] = 'Membres du groupe sélectionné';
 $string['groupmembersonly'] = 'Disponible uniquement pour les membres du groupe';
+$string['groupmembersonlyerror'] = 'Désolé, vous devez être membre d\'au moins un groupe utilisé dans cette activité.';
 $string['groupmode'] = 'Mode de groupe';
 $string['groupmodeforce'] = 'Imposer le mode de groupe';
 $string['groupmy'] = 'Mon groupe';
