@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007080800)
+      // role.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
@@ -8,6 +8,7 @@ $string['allowassign'] = 'Toewijzen van rollen toestaan';
 $string['allowoverride'] = 'Negeren van rollen toestaan';
 $string['assignglobalroles'] = 'Globale rollen toewijzen';
 $string['assignroles'] = 'Rollen toewijzen';
+$string['block:view'] = 'Blok zien';
 $string['blog:create'] = 'Niewe blog items maken';
 $string['blog:manageentries'] = 'Items bewerken en beheren';
 $string['blog:manageofficialtags'] = 'Officiële tags beheren';
@@ -89,7 +90,7 @@ $string['notes:manage'] = 'Notities beheren';
 $string['notes:view'] = 'Notities bekijken';
 $string['notset'] = 'Niet ingesteld';
 $string['overrideroles'] = 'Rollen overschrijven';
-$string['overrides'] = 'Overschrijven';
+$string['overrides'] = 'Rollen overschrijven';
 $string['permissions'] = 'Rechten';
 $string['potentialusers'] = '$a mogelijke gebruikers';
 $string['prevent'] = 'Verbieden';
@@ -137,6 +138,7 @@ $string['site:viewparticipants'] = 'Deelnemers bekijken';
 $string['site:viewreports'] = 'Rapporten bekijken';
 $string['tag:create'] = 'Nieuwe tags maken';
 $string['tag:edit'] = 'Bestaande tags bewerken';
+$string['tag:editblocks'] = 'Bewerk blokken op tag-pagina';
 $string['tag:manage'] = 'Alle tags bewerken';
 $string['user:changeownpassword'] = 'Eigen wachtwoord wijzigen';
 $string['user:create'] = 'Gebruikers aanmaken';

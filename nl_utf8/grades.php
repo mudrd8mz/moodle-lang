@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007080903)
+      // grades.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['activities'] = 'Activiteiten';
@@ -7,6 +7,7 @@ $string['addcategory'] = 'Voeg categorie toe';
 $string['addcategoryerror'] = 'Kon geen categorie toevoegen';
 $string['addexceptionerror'] = 'Fout opgetreden bij het toevoegen van een uitzondering voor userid:gradeitem';
 $string['addfeedback'] = 'Feedback toevoegen';
+$string['addidnumbers'] = 'Voeg id-nummers toe';
 $string['additem'] = 'Beoordelingsitem toevoegen';
 $string['addoutcomeitem'] = 'Voeg competentie toe';
 $string['aggregateextracreditmeanall'] = 'Gemiddelde van alle beoordelingen (bonus)';
@@ -34,9 +35,11 @@ $string['aggregationview'] = 'Aggregatie bekijken';
 $string['allgrades'] = 'Alle cijfers per categorie';
 $string['allstudents'] = 'Alle leerlingen';
 $string['autosort'] = 'Auto-sorteer';
+$string['availableidnumbers'] = 'Beschikbare id-nummers';
 $string['average'] = 'Gemiddelde';
 $string['averagesdecimalpoints'] = 'Decimalen in kolom gemiddelden';
 $string['averagesdisplaytype'] = 'Opmaak kolom gemiddelden';
+$string['backupwithoutgradebook'] = 'De configuratie van de cijferlijst is niet opgenomen in de backup.';
 $string['badgrade'] = 'Beoordeling ongeldig';
 $string['baduser'] = 'Gebruiker ongeldig';
 $string['bonuspoints'] = 'Bonuspunten';
@@ -85,6 +88,7 @@ $string['configshowuserimage'] = 'Of de afbeelding van het gebruikersprofiel naa
 $string['configstudentsperpage'] = 'Het aantal leerlingen dat op één pagina van het rapport getoond wordt.';
 $string['configstudentsperpagedefault'] = 'Het aantal leerlingen dat op één pagina van het rapportt getoond wordt. Laat dit veld leeg om de sitestandaard te gebruiken (op dit moment $a).';
 $string['contract'] = 'Contractcategorie';
+$string['coursename'] = 'Cursusnaam';
 $string['coursetotal'] = 'Cursustotaal';
 $string['createcategory'] = 'Maak categorie';
 $string['createcategoryerror'] = 'Kon geen nieuwe categorie maken';
@@ -124,6 +128,8 @@ $string['excluded'] = 'Uitgesloten';
 $string['excludedhelp'] = 'Als -Uitgesloten- is ingeschakeld, dan zal deze beoordeling uitgesloten worden van elke aggregatie door gelijk welk bovenliggend beoordelingsitem of categorie.';
 $string['expand'] = 'Categorie uitbreiden';
 $string['export'] = 'Exporteer';
+$string['exportletters'] = 'Exporteer letters';
+$string['exportlettershelp'] = 'Voor beoordelingsitems die letters gebruiken in de plaats van cijfers zullen de letters geëxporteerd worden en niet de eigenlijke waarden.';
 $string['exportplugins'] = 'Exporteerplugins';
 $string['extracredit'] = 'Extra krediet';
 $string['extracreditwarning'] = 'Opmerking: als je alle items van een categorie als \'Extra krediet\' instelt, haal je ze uit de berekening van de cijfers omdat er geen puntentotaal meer is';
@@ -142,6 +148,7 @@ $string['fullmode'] = 'Volledig overzicht';
 $string['grade'] = 'Beoordeling';
 $string['gradebook'] = 'Puntenboek';
 $string['gradebookhiddenerror'] = 'Het puntenboek is nu ingesteld om alles voor de leerlingen te verbergen.';
+$string['gradebookhistories'] = 'Cijfergeschiedenis';
 $string['gradeboundary'] = 'Marge cijferbeoordeling';
 $string['gradecategory'] = 'Beoordelingscategorie';
 $string['gradecategoryhelp'] = 'Hulp bij cijfercategorieën';
@@ -196,6 +203,7 @@ $string['highgradedescending'] = 'Sorteer cijfers aflopend';
 $string['highgradeletter'] = 'Hoog';
 $string['identifier'] = 'Identificeer gebruiker door';
 $string['idnumberhelp'] = 'Arbitrair ID-nummer toegekend door de verantwoordelijke module (moet bepaald zijn en uniek)';
+$string['idnumbers'] = 'id-nummers';
 $string['import'] = 'Importeer';
 $string['importcsv'] = 'Importeer CSV';
 $string['importfailed'] = 'Importeren mislukt';
@@ -310,6 +318,7 @@ $string['report'] = 'Rapport';
 $string['reportplugins'] = 'Rapportplugins';
 $string['reportsettings'] = 'Rapportinstellingen';
 $string['reprintheaders'] = 'Koppen herhalen';
+$string['respectingcurrentdata'] = 'huidige configuratie wordt niet aangepast';
 $string['right'] = 'Rechts';
 $string['savechanges'] = 'Bewaar wijzigingen';
 $string['savepreferences'] = 'Bewaar instellingen';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007080800)
+      // moodle.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['action'] = 'Actie';
@@ -160,6 +160,7 @@ $string['backupnonisowarning'] = 'Waarschuwing: deze backup is er één van een 
 $string['backuporiginalname'] = 'Naam backup';
 $string['backupsavetohelp'] = 'Volledig pad naar de map waar je de backupbestanden wil bewaren<br />(laat blanco als je ze in de standaardmap van de cursus wil bewaren)';
 $string['backupschedulehelp'] = 'Dagen van de week om automatische backups uit te voeren';
+$string['backupsitefileshelp'] = 'Indien ingeschakeld worden site-bestanden die in cursussen gebruikt worden mee in de automatische backups opgenomen.';
 $string['backuptakealook'] = 'Bekijk je backuplogs eens op: 
 $a';
 $string['backupuserfileshelp'] = 'Selecteer als je gebruikersbestanden in de backup wil';
@@ -187,6 +188,7 @@ $string['category'] = 'Categorie';
 $string['categoryadded'] = 'De categorie \'$a\'  werd toegevoegd';
 $string['categorydeleted'] = 'De categorie \'$a\'  werd verwijderd';
 $string['categoryduplicate'] = 'Er bestaat al een categorie met de naam \'$a\'!';
+$string['categoryname'] = 'Categorienaam';
 $string['changedpassword'] = 'Het wachtwoord is veranderd';
 $string['changepassword'] = 'Verander wachtwoord';
 $string['changessaved'] = 'De veranderingen zijn bewaard';
@@ -241,6 +243,7 @@ $string['cookiesnotenabled'] = 'Het gebruik van cookies is door je browser niet 
 $string['copy'] = 'Kopie';
 $string['copyasnoun'] = 'Kopie';
 $string['copyingcoursefiles'] = 'Cursusbestanden kopiëren';
+$string['copyingsitefiles'] = 'Site-bestanden, gebruikt in cursussen aan het kopieëren';
 $string['copyinguserfiles'] = 'Gebruikersbestanden kopiëren';
 $string['copyingzipfile'] = 'ZIP-bestanden kopiëren';
 $string['copyrightnotice'] = 'Auteursrechtenverklaring';
@@ -306,6 +309,7 @@ $string['creatingcourseroles'] = 'Roltoewijzingen en overschrijvingen aan het ma
 $string['creatingevents'] = 'Gebeurtenissen maken';
 $string['creatinggradebook'] = 'Puntenboek maken';
 $string['creatinggroupings'] = 'Maak groeperingen';
+$string['creatinggroupingsgroups'] = 'Groepen in groeperingen aan het toevoegen';
 $string['creatinggroups'] = 'Groepen maken';
 $string['creatinglogentries'] = 'Loginvoer maken';
 $string['creatingmessagesinfo'] = 'Informatie voor berichten maken';
@@ -746,6 +750,7 @@ $string['includemodules'] = 'Voeg modules toe';
 $string['includemoduleuserdata'] = 'Gebruikersgegevens van de modules toevoegen';
 $string['includeneededusers'] = 'Voeg de nodige gebruikers toe';
 $string['includenoneusers'] = 'Voeg geen gebruikers toe';
+$string['includesitefiles'] = 'Site-bestanden, gebruikt in deze cursus, toevoegen';
 $string['includeuserfiles'] = 'Voeg gebruikersbestanden toe';
 $string['info'] = 'Informatie';
 $string['institution'] = 'Instituut';
@@ -1253,6 +1258,7 @@ $string['site'] = 'Site';
 $string['sitedefault'] = 'Standaardinstelling voor de site';
 $string['siteerrors'] = 'Sitefouten';
 $string['sitefiles'] = 'Sitebestanden';
+$string['sitefilesused'] = 'Site-bestanden in deze cursus gebruikt';
 $string['sitelogs'] = 'Sitestatistieken';
 $string['sitenews'] = 'Sitenieuws';
 $string['sitepartlist'] = 'Je hebt onvoldoende rechten om de deelnemerslijst te zien';

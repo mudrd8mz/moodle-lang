@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 dev (2007080202)
+      // tag.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['addtagtomyinterests'] = 'Voeg \"$a\" toe aan mijn interesses';
@@ -33,5 +33,6 @@ $string['thistaghasnodesc'] = 'Deze tag heeft nog geen beschrijving';
 $string['timemodified'] = 'Gewijzigd';
 $string['updatetag'] = 'Aanpassen';
 $string['userstaggedwith'] = 'Gebruikers getagged met \"$a\"';
+$string['withselectedtags'] = 'Met geselecteerde tags ...';
 
 ?>

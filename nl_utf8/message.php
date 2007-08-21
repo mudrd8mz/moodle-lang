@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8 Beta (2007020400)
+      // message.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['addcontact'] = 'Voeg een contactpersoon toe';
@@ -55,6 +55,7 @@ $string['searchforperson'] = 'Zoek een persoon';
 $string['searchmessages'] = 'Zoek  berichten';
 $string['sendmessage'] = 'Stuur bericht';
 $string['sendmessageto'] = 'Stuur bericht aan $a';
+$string['sendmessagetopopup'] = 'Stuur bericht naar $a - nieuw venster';
 $string['settings'] = 'Instellingen';
 $string['settingssaved'] = 'Jouw instellingen werden bewaard';
 $string['showmessagewindow'] = 'Toon automatisch het berichtvenster wanneer ik nieuwe berichten krijg (je browser moet popups toelaten voor deze site)';

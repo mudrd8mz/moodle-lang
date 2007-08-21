@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007080202)
+      // quiz.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['1day'] = '1 dag';
@@ -11,9 +11,21 @@ $string['acceptederror'] = 'Geaccepteerde fout';
 $string['action'] = 'Actie';
 $string['adaptive'] = 'Adaptieve modus';
 $string['addcategory'] = 'Maak een nieuwe categorie';
+$string['addingcalculated'] = 'Berekende vraag toevoegen';
+$string['addingdescription'] = 'Beschrijving toevoegen';
+$string['addingessay'] = 'Open vraag toevoegen';
+$string['addingmatch'] = 'Koppelvraag toevoegen';
+$string['addingmultianswer'] = 'Ingebedde vraag (Cloze) toevoegen';
+$string['addingmultichoice'] = 'Meerkeuzevraag toevoegen';
+$string['addingnumerical'] = 'Numerieke vraag toevoegen';
+$string['addingquestion'] = 'Vraag toevoegen';
 $string['addingquestions'] = 'Aan deze kant van de pagina kun je je vragenlijst beheren. De vragen worden bewaard per categorie om je te helpen ze te ordenen. Ze kunnen gebruikt worden in elke test van je cursus of zelfs in andere cursussen als je ze wil \'publiceren\'.
 <br /><br />Pas wanneer je een categorie gekozen of gemaakt hebt, kun je vragen maken of bewerken.
 Je kunt gelijk welke van die vragen selecteren om ze toe te voegen aan je test aan de andere kant van deze pagina.';
+$string['addingrandom'] = 'Willekeurige vraag toevoegen';
+$string['addingrandomsamatch'] = 'Willekeurige kort antwoord koppelvraag toevoegen';
+$string['addingshortanswer'] = 'Kort antwoordvraag toevoegen';
+$string['addingtruefalse'] = 'Waar / niet waar-vraag toevoegen';
 $string['addquestions'] = 'Voeg vragen toe';
 $string['addquestionstoquiz'] = 'Voeg vragen aan de huidige test toe';
 $string['addrandom'] = 'Voeg $a willekeurige vragen toe';

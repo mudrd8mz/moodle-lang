@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 dev (2007021500)
+      // mnet.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (eigen certificaat)';
@@ -27,6 +27,7 @@ $string['current_transport'] = 'Huidig transport';
 $string['currentkey'] = 'Huidige publieke sleutel';
 $string['databaseerror'] = 'Kon details niet in de databank bewaren';
 $string['deleteaserver'] = 'Server verwijderen';
+$string['deletehost'] = 'Verwijder host';
 $string['deletekeycheck'] = 'Ben je zeker dat je deze sleutel wil verwijderen?';
 $string['deleteoutoftime'] = 'Je 60 seconden durend tijdvenster voor het verwijderen van deze sleutel is verlopen. Begin opnieuw.';
 $string['deleteuserrecord'] = 'SSO ACL: verwijder record voor gebruiker \'$a[0]\' van $a[1].';
