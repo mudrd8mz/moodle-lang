@@ -12,6 +12,7 @@ $string['cannotfindcomponent'] = 'Composant introuvable.';
 $string['cannotsavemd5file'] = 'Enregistrement du fichier md5 impossible.';
 $string['cannotsavezipfile'] = 'Enregistrement du fichier ZIP impossible.';
 $string['cannotunzipfile'] = 'Décompression du fichier ZIP impossible.';
+$string['cannotviewprofile'] = 'Affichage du profil de cet utilisateur impossible.';
 $string['cantunenrollfrommetacourse'] = 'Vous ne pouvez pas vous désinscrire de ce méta-cours.';
 $string['cantunenrollinthisrole'] = 'Vous ne pouvez pas vous désinscrire de ce cours dans le rôle que vous avez actuellement.';
 $string['cmunknown'] = 'Ce module de cours n\'a pas pu être trouvé';
