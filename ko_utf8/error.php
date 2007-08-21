@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta + (2007081600)
+      // error.php - created with Moodle 1.9 Beta + (2007082000)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 편집될 수 없음';
@@ -14,9 +14,10 @@ $string['cannotfindcomponent'] = '구성요소를 찾을 수 없습니다.';
 $string['cannotsavemd5file'] = 'md5 파일을 저장할 수 없습니다.';
 $string['cannotsavezipfile'] = 'ZIP 파일을 저장할 수 없습니다.';
 $string['cannotunzipfile'] = '파일 압축풀기를 할 수 없습니다.';
+$string['cannotviewprofile'] = '이 사용자의 신상명세를 볼 수 없습니다.';
 $string['cantunenrollfrommetacourse'] = '이 메타 배움터에서 등록을 취소 할 수 없습니다.';
 $string['cantunenrollinthisrole'] = '현재의 역할로는 이 배움터에서 등록을 취소 할 수 없습니다.';
-$string['cmunknown'] = '이 배움터모듈을 찾을 수 없습니다.';
+$string['cmunknown'] = '이 배움터 모듈을 찾을 수 없습니다.';
 $string['componentisuptodate'] = '구성 요소가 최신의 것입니다.';
 $string['confirmsesskeybad'] = '죄송합니다. 세션키가 확실치 않아 이 작업을 수행할 수 없습니다. 이 보안 기능은 당신 명의의 예기치 않은 사고나 매우 중요한 기능의 악의적인 실행을 방지합니다. 이 기능을 꼭 실행하여야 하는지 확인해 주길 바랍니다.';
 $string['couldnotassignrole'] = '역할 부여 중에 알 수 없는 심각한 오류가 발생했습니다.';
