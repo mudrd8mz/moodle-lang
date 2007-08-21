@@ -269,7 +269,6 @@ $string['doctonewwindow'] = 'Ouvrir dans une nouvelle fenêtre';
 $string['download'] = 'Télécharger';
 $string['editennotallowed'] = 'La langue en_utf8 ne peut pas être modifié depuis cette page. Veuillez passer en langue locale';
 $string['edithelpdocs'] = 'Modifier les fichiers d\'aide';
-$string['editlang'] = '<b>Modifier</b>';
 $string['editorbackgroundcolor'] = 'Couleur de fond';
 $string['editordictionary'] = 'Dictionnaire de l\'éditeur';
 $string['editorfontfamily'] = 'Famille de police';
