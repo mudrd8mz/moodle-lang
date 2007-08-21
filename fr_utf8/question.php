@@ -56,7 +56,7 @@ $string['permissionedit'] = 'Modifier cette question';
 $string['permissionmove'] = 'Déplacer cette question';
 $string['permissionsaveasnew'] = 'Enregistrer ceci en tant que nouvelle question';
 $string['permissionto'] = 'Vous avez les autorisations pour&nbsp;:';
-$string['published'] = 'publié';
+$string['published'] = 'partagée';
 $string['questionaffected'] = '<a href=\"$a->qurl\">La question «&nbsp;$a->name &nbsp;» ($a->qtype)</a> est dans cette catégorie, mais est aussi utilisée dans le <a href=\"$a->qurl\">test «&nbsp;$a->quizname&nbsp;»</a> dans le cours «&nbsp;$a->coursename&nbsp;».';
 $string['questionbank'] = 'Banque de questions';
 $string['questioncatsfor'] = 'Catégories de question de «&nbsp;$a&nbsp;»';
@@ -67,6 +67,6 @@ $string['tofilecategory'] = 'Exporter la catégorie dans le fichier';
 $string['tofilecontext'] = 'Exporter le contexte dans le fichier';
 $string['unknown'] = 'Inconnu';
 $string['unknownquestiontype'] = 'Type de question inconnu&nbsp;: $a.';
-$string['unpublished'] = 'non publié';
+$string['unpublished'] = 'non partagée';
 
 ?>
