@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 dev (2007080800)
+      // role.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['addrole'] = 'Neue Rolle hinzufügen';
@@ -8,10 +8,11 @@ $string['allowassign'] = 'Rechte zur Rollenzuweisung';
 $string['allowoverride'] = 'Rechte zur Rollenänderung';
 $string['assignglobalroles'] = 'Globale Rollen zuweisen';
 $string['assignroles'] = 'Rollen zuweisen';
-$string['blog:create'] = 'Neue Blogeinträge erstellen';
+$string['block:view'] = 'Block sehen';
+$string['blog:create'] = 'Neue Blog-Einträge erstellen';
 $string['blog:manageentries'] = 'Einträge bearbeiten und verwalten';
-$string['blog:manageofficialtags'] = 'Offizielle Elemente verwalten';
-$string['blog:managepersonaltags'] = 'Persönliche Elemente verwalten';
+$string['blog:manageofficialtags'] = 'Offizielle Schlagworte verwalten';
+$string['blog:managepersonaltags'] = 'Persönliche Schlagworte verwalten';
 $string['blog:view'] = 'Blog-Einträge sehen';
 $string['calendar:manageentries'] = 'Alle Kalendereinträge verwalten';
 $string['calendar:manageownentries'] = 'Eigene Kalendereinträge verwalten';
@@ -73,7 +74,7 @@ $string['grade:viewall'] = 'Fremde Bewertungen ansehen';
 $string['grade:viewhidden'] = 'Verborgene Bewertung sehen';
 $string['inherit'] = 'Vererben';
 $string['legacy:admin'] = 'Basisrolle: Administration';
-$string['legacy:coursecreator'] = 'Basisrolle: Kursverwaltung';
+$string['legacy:coursecreator'] = 'Basisrolle: Kursersteller/in';
 $string['legacy:editingteacher'] = 'Basisrolle: Trainer/in';
 $string['legacy:guest'] = 'Basisrolle: Gast';
 $string['legacy:student'] = 'Basisrolle: Teilnehmer/in';
@@ -136,9 +137,10 @@ $string['site:uploadusers'] = 'Neue Nutzer/innen mittels Datei importieren';
 $string['site:viewfullnames'] = 'Immer vollständige Nutzernamen sehen';
 $string['site:viewparticipants'] = 'Teilnehmer/innen sehen';
 $string['site:viewreports'] = 'Berichte sehen';
-$string['tag:create'] = 'Neue Tags erstellen';
-$string['tag:edit'] = 'Vorhandene Tags bearbeiten';
-$string['tag:manage'] = 'Alle Tags verwalten';
+$string['tag:create'] = 'Neue Schlagworte erstellen';
+$string['tag:edit'] = 'Vorhandene Schlagworte bearbeiten';
+$string['tag:editblocks'] = 'Blocks auf Schlagwortseiten bearbeiten';
+$string['tag:manage'] = 'Alle Schlagworte verwalten';
 $string['user:changeownpassword'] = 'Eigenes Passwort ändern';
 $string['user:create'] = 'Nutzer/innen anlegen';
 $string['user:delete'] = 'Nutzer/innen löschen';

@@ -2,6 +2,7 @@
       // enrol_manual.php - created with Moodle 1.9 dev (2007080103)
 
 
+
 $string['description'] = 'Dies ist das Standardverfahren für Kurs-Einschreibungen, bei dem zwei Formen der Teilnehmeranmeldung genutzt werden können.
 <ul>
 <li>Trainer/innen oder Administrator/innen können im Administrationsmenü des Kurses aus der Nutzergesamtliste des Systems die Teilnehmer/innen des Kurses auswählen.</li>

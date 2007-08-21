@@ -1,12 +1,14 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007070501)
+      // error.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['adminprimarynoedit'] = 'Der Hauptadmin kann nicht von anderen bearbeitet werden';
 $string['cannotcreatelangdir'] = 'Das Verzeichnis \"lang\" kann nicht angelegt werden.';
 $string['cannotcreatetempdir'] = 'Das temporäre Verzeichnis kann nicht angelegt werden.';
+$string['cannotcustomizelocallang'] = 'Sie haben keine Berechtigung, die Übersetzung im lokalen Sprachpaket anzupassen. Diese Berechtigung wird durch das Recht \"moodle/site:langeditlocal\" kontrolliert. Setzen Sie dieses Recht auf \"Erlauben\", um das lokale Sprachpaket für Ihre Website bearbeiten zu können.';
 $string['cannotdownloadcomponents'] = 'Komponenten können nicht heruntergeladen werden.';
 $string['cannotdownloadzipfile'] = 'ZIP-Datei kann nicht heruntergeladen werden.';
+$string['cannoteditmasterlang'] = 'Sie haben keine Berechtigung, die Übersetzung im offiziellen Sprachpaket zu bearbeiten. Diese Berechtigung wird durch das Recht \"moodle/site:langeditmaster\" kontrolliert. Setzen Sie dieses Recht auf \"Erlauben\", um das offizielle Sprachpaket als Maintainer bearbeiten zu können.';
 $string['cannotfindcomponent'] = 'Komponente wurde nicht gefunden.';
 $string['cannotsavemd5file'] = 'Die md5-Datei konnte nicht gespeichert werden.';
 $string['cannotsavezipfile'] = 'Die ZIP-Datei konnte nicht gespeichert werden';

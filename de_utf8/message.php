@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8 dev (2007012500)
+      // message.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['addcontact'] = 'Kontakt hinzufügen';
@@ -53,12 +53,13 @@ $string['savemysettings'] = 'Meine Einstellungen speichern';
 $string['search'] = 'Suche';
 $string['searchforperson'] = 'Suche nach einer Person';
 $string['searchmessages'] = 'Suche nach Mitteilungen';
-$string['sendmessage'] = 'Mitteilungen senden';
-$string['sendmessageto'] = 'Mitteilungen an $a versenden';
+$string['sendmessage'] = 'Mitteilung senden';
+$string['sendmessageto'] = 'Mitteilung an $a senden';
+$string['sendmessagetopopup'] = 'Mitteilung an $a senden - neues Fenster';
 $string['settings'] = 'Einstellungen';
-$string['settingssaved'] = 'Ihre Einstellungen wurden gespeichert.';
+$string['settingssaved'] = 'Ihre Einstellungen wurden gespeichert';
 $string['showmessagewindow'] = 'Mitteilungsfenster automatisch öffnen, wenn eine neue Mitteilung ankommt (Popup-Fenster dürfen für diese Funktion nicht geblockt werden).';
-$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
+$string['strftimedaydatetime'] = '%%A, %%d. %%B %%Y, %%I:%%M %%p';
 $string['timenosee'] = 'Minuten seit ich zuletzt online war';
 $string['timesent'] = 'Sendezeitpunkt';
 $string['unblockcontact'] = 'Kontakt aktivieren';

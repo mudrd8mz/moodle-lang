@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8 Beta + (2007021401)
+      // mnet.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (selbstsigniert)';
@@ -27,6 +27,7 @@ $string['current_transport'] = 'Aktuelle Verbindung';
 $string['currentkey'] = 'Aktueller Public Key';
 $string['databaseerror'] = 'Die Details konnten nicht in die Datenbank eingetragen werden.';
 $string['deleteaserver'] = 'Server löschen';
+$string['deletehost'] = 'Rechner löschen';
 $string['deletekeycheck'] = 'Sind Sie wirklich sicher, dass Sie diesen Schlüssel löschen möchten?';
 $string['deleteoutoftime'] = 'Ihr 60-Sekunden-Zeitraum zum Löschen dieses Schlüssels ist abgelaufen. Bitte beginnen Sie es noch einmal.';
 $string['deleteuserrecord'] = 'SSO ACL: Datensatz für Nutzer \'$a[0]\' von $a[1] löschen.';

@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.8 (2007021501)
+      // qtype_multichoice.php - created with Moodle 1.9 Beta + (2007081600)
 
 
+$string['addingmultichoice'] = 'Multiple-Choice-Frage hinzufügen';
 $string['addmorechoiceblanks'] = 'Leerfelder für {no} weitere Auswahl';
 $string['answerhowmany'] = 'Eine oder mehrere Antworten';
 $string['answernumbering'] = 'Fragen nummerieren?';
