@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.7.1+ (2006101011)
+      // hotpot.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['abandoned'] = '放弃';
 $string['addquizchain'] = '添加一系列测验';
+$string['allmycourses'] = '我的所有课程';
 $string['allusers'] = '所有用户';
 $string['alwaysopen'] = '一直开放';
 $string['attemptsall'] = '所有的尝试';
@@ -26,16 +27,16 @@ $string['displaycoursenext'] = '展示课程的下一页';
 $string['displayhotpotnext'] = '展示下一个随堂测验';
 $string['displayindexnext'] = '展示下一个主页';
 $string['enterafilename'] = '请输入一个文件名';
-$string['error_couldnotopenfolder'] = '不能访问目录\"$a\"';
-$string['error_couldnotopensourcefile'] = '不能打开资源文件\"$a\"';
-$string['error_couldnotopentemplate'] = '不能打开模板\"$a\"格式';
+$string['error_couldnotopenfolder'] = '不能访问目录\"{$a}\"';
+$string['error_couldnotopensourcefile'] = '不能打开资源文件\"{$a}\"';
+$string['error_couldnotopentemplate'] = '不能打开模板\"{$a}\"格式';
 $string['error_invalidquiztype'] = '测验类型丢失';
 $string['error_nocourseorfilename'] = '不能建立XML树；丢失资源或文件名';
 $string['error_nofeedbackurlformmail'] = '请为格式处理脚本输入URL';
 $string['error_nofeedbackurlwebpage'] = '请为网页输入URL';
 $string['error_nofilename'] = '请输入文件名';
 $string['error_noquizzesfound'] = '没找到随堂练习';
-$string['error_notfileorfolder'] = '\"$a\" 不是文件或目录';
+$string['error_notfileorfolder'] = '\"{$a}\" 不是文件或目录';
 $string['feedbackformmail'] = '反馈格式';
 $string['feedbackmoodleforum'] = 'Moodle讨论';
 $string['feedbackmoodlemessaging'] = 'Moodle消息';
@@ -78,11 +79,11 @@ $string['outputformat_v5_plus'] = 'v5+';
 $string['outputformat_v6'] = 'v6';
 $string['outputformat_v6_plus'] = 'v6+';
 $string['penalties'] = '惩罚';
-$string['questionshort'] = '$a问题';
+$string['questionshort'] = '{$a}问题';
 $string['quiztype'] = '测验类型';
 $string['rawdetails'] = '原始的尝试细节';
 $string['regrade'] = '重新分类';
-$string['regradecheck'] = '您确定想重新分类\"$a\"?';
+$string['regradecheck'] = '您确定想重新分类\"{$a}\"?';
 $string['regraderequired'] = '需要分类';
 $string['reportanswers'] = '回答';
 $string['reportattemptfinish'] = '尝试结束';
@@ -125,10 +126,10 @@ $string['reportright'] = '对的';
 $string['reportsectionnumber'] = '部分';
 $string['reportshowanswer'] = '显示答案';
 $string['reportshowlegend'] = '显示图例';
-$string['reportsofar'] = '$a至今';
+$string['reportsofar'] = '{$a}至今';
 $string['reportstatus'] = '状况';
 $string['reportstudentid'] = '学号';
-$string['reportthisclick'] = '$a点击';
+$string['reportthisclick'] = '{$a}点击';
 $string['reporttimerecorded'] = '响应记录';
 $string['reportwrapdata'] = '打包数据';
 $string['reportwrong'] = '错误的';
@@ -145,6 +146,7 @@ $string['textsourcefilename'] = '用文件名';
 $string['textsourcefilepath'] = '用文件路径';
 $string['textsourcequiz'] = '从测验中获得';
 $string['textsourcespecific'] = '特殊的文本';
+$string['thiscourse'] = '本课程';
 $string['timedout'] = '超时';
 $string['updatequizchain'] = '更新测验系列';
 $string['weighting'] = '加权';

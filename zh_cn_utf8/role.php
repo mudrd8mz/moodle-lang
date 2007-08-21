@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7.1+ (2006101011)
+      // role.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addrole'] = '添加一个新角色';
@@ -50,6 +50,8 @@ $string['currentrole'] = '当前角色';
 $string['defaultrole'] = '默认角色';
 $string['defineroles'] = '定义角色';
 $string['deleterolesure'] = '您却定要删除角色“{$a->name} ({$a->shortname})”？</p><p>当前此角色已经分配給{$a->count}个用户了。';
+$string['duplicaterole'] = '复制角色';
+$string['duplicaterolesure'] = '您确定要复制角色“{$a->name} ({$a->shortname})”吗？';
 $string['editrole'] = '编辑角色';
 $string['errorbadrolename'] = '不正确的角色名';
 $string['errorbadroleshortname'] = '不正确的角色名';
@@ -64,11 +66,15 @@ $string['legacy:editingteacher'] = '旧版角色：教师（有编辑权）';
 $string['legacy:guest'] = '旧版角色：访客';
 $string['legacy:student'] = '旧版角色：学生';
 $string['legacy:teacher'] = '旧版角色：教师（无编辑权）';
+$string['legacy:user'] = '旧版角色：认证用户';
+$string['legacytype'] = '旧版角色类型';
 $string['listallroles'] = '列出全部角色';
 $string['manageroles'] = '管理角色';
 $string['metaassignerror'] = '不能为用户\"{$a}\" 配置此角色，因为此角色需要管理元课程的能力。';
 $string['metaunassignerror'] = '用户角色“{$a}”被自动重新分配，请在子课程中取消分配。';
+$string['my:manageblocks'] = '管理myMoodle页面版块';
 $string['nocapabilitiesincontext'] = '在此环境中没有有效的能力';
+$string['notset'] = '未设置';
 $string['overrideroles'] = '覆盖角色';
 $string['overrides'] = '覆盖';
 $string['permissions'] = '权限';
@@ -79,6 +85,10 @@ $string['question:export'] = '导出题目';
 $string['question:import'] = '导入题目';
 $string['question:manage'] = '管理题目';
 $string['question:managecategory'] = '管理题目类别';
+$string['resetrole'] = '重新设定为缺省的';
+$string['resetrolenolegacy'] = '清空权限';
+$string['resetrolesure'] = '您确定您想要重设角色“{$a->name} ({$a->shortname})”为缺省值吗？<br /><br />缺省值从选择的旧版角色中获取（{$a->legacytype})。';
+$string['resetrolesurenolegacy'] = '您确信要清空角色“{$a->name} ({$a-shortname})”的全部权限吗？';
 $string['risks'] = '风险';
 $string['role:assign'] = '分配角色给用户';
 $string['role:manage'] = '新建和管理角色';
@@ -100,6 +110,8 @@ $string['site:doanything'] = '允许做任何事';
 $string['site:doclinks'] = '显示到站点外文档的链接';
 $string['site:import'] = '把其他课程导入此课程';
 $string['site:manageblocks'] = '管理站点级的版块';
+$string['site:mnetloginfromremote'] = '从远程Moodle登录';
+$string['site:mnetlogintoremote'] = '去远程Moodle漫游';
 $string['site:readallmessages'] = '阅读站点上的全部信息';
 $string['site:restore'] = '恢复课程';
 $string['site:trustcontent'] = '提交的内容可信';

@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7.1+ (2006101011)
+      // enrol_authorize.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['adminacceptccs'] = '接受哪种信用卡？';
 $string['adminaccepts'] = '请选择允许的支付方式和类型';
+$string['adminauthcode'] = '如果用户的信用卡无法直接在internet上使用，请通过电话从客户的银行获得授权码。';
 $string['adminauthorizeccapture'] = '定制复习&预定获取设置';
 $string['adminauthorizeemail'] = '电子邮件发送设置';
 $string['adminauthorizesettings'] = 'Authorize.net 设置';
@@ -43,7 +44,7 @@ $string['adminneworder'] = '亲爱的管理员，
 然后学生就可以登陆到课程，否则{$a->expireon}将会终止从这天起不能获取。
 
 您也可以接受/拒绝为在这个链界{$a->url}立即以学生身份登陆付费';
-$string['adminnewordersubject'] = '$a->course：新的未决的定制($a->orderid)';
+$string['adminnewordersubject'] = '{$a->course}：新的未决的定制({$a->orderid})';
 $string['adminpendingorders'] = '您已经不能预定获取的作用<br />总的{$a->count}';
 $string['adminreview'] = '处理信用卡前回顾订购';
 $string['adminteachermanagepay'] = '教师可以管理课程的付费';
@@ -56,6 +57,7 @@ $string['antestmode'] = 'Authorize.net: 测试交易';
 $string['antrankey'] = 'Authorize.net: 交易密钥';
 $string['approvedreview'] = '已核查的回顾';
 $string['authcaptured'] = '经授权的/夺取的';
+$string['authcode'] = '授权码';
 $string['authorize:managepayments'] = '管理支付';
 $string['authorize:uploadcsv'] = '上传CSV文件';
 $string['authorizedpendingcapture'] = '经授权的/未决的获取';
@@ -102,6 +104,7 @@ $string['echeckfirslasttname'] = '银行账户持有者';
 $string['echecksavings'] = '存款';
 $string['enrolname'] = 'Authorize.net 信用卡网关';
 $string['expired'] = '终止';
+$string['haveauthcode'] = '我已经与哦授权码了';
 $string['howmuch'] = '多少？';
 $string['httpsrequired'] = '我很抱歉地告诉您，目前还无法处理您的请求。这个站点的配置有错误。
 <br /><br />
@@ -109,7 +112,7 @@ $string['httpsrequired'] = '我很抱歉地告诉您，目前还无法处理您�
 $string['invalidaba'] = '无效的ABA号';
 $string['invalidaccnum'] = '无效的帐号';
 $string['invalidacctype'] = '无效的帐户类型';
-$string['logindesc'] = '您可以设定变量/安全中的<a href=\"$a->url\">loginhttps</a>选项。
+$string['logindesc'] = '您可以设定变量/安全中的<a href=\"{$a->url}\">loginhttps</a>选项。
 <br /><br />
 将此选项开启会让Moodle在登录和付费时使用安全的https链接。';
 $string['logininfo'] = '出于安全考量，登录名、密码和交易密钥并没有显示。如果您以前已经配置了这些字段，就不用再次输入了。在已经配置的字段的输入框的左边会看到绿色文字。如果您是第一次输入这些字段，登录名（*）是必需的，并且您必须在正确的位置输入交易密钥<strong>或者</strong>密码（#2）。出于安全考量，我们建议您输入交易密钥。如果您想删除当前密码，选择这个复选框。';
@@ -119,6 +122,7 @@ $string['missingaba'] = '缺少ABA号';
 $string['missingaddress'] = '缺少地址';
 $string['missingbankname'] = '缺少银行名字';
 $string['missingcc'] = '缺少卡号';
+$string['missingccauthcode'] = '缺少授权码';
 $string['missingccexpire'] = '缺少终止日期';
 $string['missingcctype'] = '缺少卡的类型';
 $string['missingcvv'] = '缺少确认号码';
@@ -131,13 +135,13 @@ $string['notsettled'] = '没有设置';
 $string['orderid'] = '订购ID';
 $string['paymentmanagement'] = '支付管理';
 $string['paymentmethod'] = '支付方式';
-$string['paymentpending'] = '您对这个课程的支付的订购号码为{$a->orderid}，看See <a href=\'$a->url\'>订购细节</a>.';
+$string['paymentpending'] = '您对这个课程的支付的订购号码为{$a->orderid}，看See <a href=\'{$a->url}\'>订购细节</a>.';
 $string['pendingecheckemail'] = '亲爱的经理，
 
-     现在这里有$a->count未确定的电子核查，您需要上传CSV文件来获得用户们的登记。';
+     现在这里有{$a->count}未确定的电子核查，您需要上传CSV文件来获得用户们的登记。';
 $string['pendingechecksubject'] = '点击链接，并且阅读页面的帮助文件看到：
-$a->url
-$a->course: 未确定的电子核查($a->count)';
+{$a->url}
+{$a->course}: 未确定的电子核查({$a->count})';
 $string['pendingordersemail'] = '亲爱的管理员，
 
  您需要在{$a->days}天内接受支付否则{$a->pending}交易将过期
@@ -149,10 +153,10 @@ $string['pendingordersemail'] = '亲爱的管理员，
 在{$a->enrolurl}开启预定获取，这意味着您将不会再收到警告邮件';
 $string['pendingordersemailteacher'] = '亲爱的老师，
 
-$a->pending 交易花费$a->currency $a->sumcost 课程的 \"$a->course\"
-将期满除非您可以在$a->days天内支付。';
-$string['pendingorderssubject'] = '$a->url
-警告：$a->course, $a->pending 定制将在$a->days天内期满。';
+{$a->pending} 交易花费 {$a->currency} {$a->sumcost} 课程的 \"{$a->course}\"
+将期满除非您可以在{$a->days}天内支付。';
+$string['pendingorderssubject'] = '{$a->url}
+警告：{$a->course}, {$a->pending} 定制将在{$a->days}天内期满。';
 $string['reason11'] = '一个交易备份已经被提交';
 $string['reason13'] = '商业登陆ID有问题或帐号不正确';
 $string['reason16'] = '没有找到交易';
@@ -176,7 +180,7 @@ $string['reason56'] = '这个商店只接收电子核查（ACH）交易；不接
 $string['refund'] = '偿还';
 $string['refunded'] = '已偿还';
 $string['returns'] = '返回';
-$string['reviewday'] = '自动获取信用卡除非教师或者管理员在<b>$a</b>天内回顾命令。必须激活CRON<br />（0天意味着预定获取将失去作用，还表示老师或管理员需要手动的重复命令。如果预定获取失去作用交易将取消除非您在30天内回顾它）';
+$string['reviewday'] = '自动获取信用卡除非教师或者管理员在<b>{$a}</b>天内回顾命令。必须激活CRON<br />（0天意味着预定获取将失去作用，还表示老师或管理员需要手动的重复命令。如果预定获取失去作用交易将取消除非您在30天内回顾它）';
 $string['reviewfailed'] = '回顾失败';
 $string['reviewnotify'] = '您的支付将被回复，几天内您的老师回给你一封邮件';
 $string['sendpaymentbutton'] = '发送付费信息';
@@ -190,20 +194,20 @@ $string['transid'] = '交易ID';
 $string['underreview'] = '回顾中';
 $string['unenrolstudent'] = '未登记学生？';
 $string['uploadcsv'] = '上传CSV文件';
-$string['usingccmethod'] = '登记使用<a href=\"$a->url\"><strong>信用卡</strong></a>';
-$string['usingecheckmethod'] = '登记使用<a href=\"$a->url\"><strong>电子核查</strong></a>';
+$string['usingccmethod'] = '登记使用<a href=\"{$a->url}\"><strong>信用卡</strong></a>';
+$string['usingecheckmethod'] = '登记使用<a href=\"{$a->url}\"><strong>电子核查</strong></a>';
 $string['void'] = '空的';
 $string['voidyes'] = '请确定处理将被取消';
 $string['welcometocoursesemail'] = '亲爱的同学，
 感谢你的付款。您已经注册了这些课程：
 
-$a->courses
+{$a->courses}
 
 您可以编辑个人资料：
-$a->profileurl
+{$a->profileurl}
 
 您可以查看您的付款细目:
-$a->paymenturl';
+{$a->paymenturl}';
 $string['youcantdo'] = '您不能做这部分: {$a->action}';
 $string['zipcode'] = '邮政编码';
 

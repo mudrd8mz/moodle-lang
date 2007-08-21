@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.7+ (2006101007)
+      // editor.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['about'] = '关于此编辑器';
@@ -58,6 +58,7 @@ $string['justifycenter'] = '正中';
 $string['justifyfull'] = '两端对齐';
 $string['justifyleft'] = '正左';
 $string['justifyright'] = '正右';
+$string['lang'] = '语言';
 $string['layout'] = '版式';
 $string['left'] = '左';
 $string['lefttoright'] = '从左向右';
@@ -74,6 +75,7 @@ $string['matchcase'] = '匹配大小写';
 $string['middle'] = '中央';
 $string['minimize'] = '最小化编辑器';
 $string['move'] = '移动';
+$string['multi'] = '多个';
 $string['mustenterurl'] = '您必须录入URL';
 $string['nolink'] = '不自动处理链接';
 $string['normal'] = '常规';

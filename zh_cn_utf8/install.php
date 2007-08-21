@@ -209,7 +209,7 @@ $string['sessionautostarthelp'] = '<p>Moodle需要会话支持，否则便无法
 
 <p>通过修改php.ini文件可以激活会话支持...找找session.auto_start参数</p>';
 $string['skipdbencodingtest'] = '跳过数据库编码检测';
-$string['welcomep10'] = '$a->installername ($a->installerversion)';
+$string['welcomep10'] = '{$a->installername} ({$a->installerversion})';
 $string['welcomep20'] = '您看到这个页面表明您已经成功地在您的计算机上安装了<strong>{$a->packname} {$a->packversion}</strong>。恭喜您！';
 $string['welcomep30'] = '<strong>{$a->installername}</strong>包含了可以创建<strong>Moodle</strong>运行环境的应用程序：';
 $string['welcomep40'] = '这个软件包还包含了<strong>Moodle {$a->moodlerelease} ({$a->moodleversion})</strong>。';

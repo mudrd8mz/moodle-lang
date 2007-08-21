@@ -1,11 +1,10 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // grades.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addcategory'] = '添加类别';
 $string['addcategoryerror'] = '不能添加分类。';
 $string['addexceptionerror'] = '添加例外时出错（用户id:成绩项）';
-$string['allcategories'] = '所有的类别';
 $string['allgrades'] = '按分类统计所有分数';
 $string['allstudents'] = '所有学生';
 $string['average'] = '平均';
@@ -72,7 +71,7 @@ $string['no'] = '否';
 $string['nocategories'] = '此课程的分数分类无法添加或找不到';
 $string['nocategoryview'] = '无分类可以看';
 $string['nogradeletters'] = '未设定分数段';
-$string['nogradesreturned'] = '未找到成绩 ';
+$string['nogradesreturned'] = '未找到成绩';
 $string['nolettergrade'] = '无分数段给';
 $string['nomode'] = '无';
 $string['nonnumericweight'] = '请输入数值：';
@@ -124,5 +123,7 @@ $string['weightedpct'] = '加权%%';
 $string['weightedpctcontribution'] = '加权%%份额';
 $string['writinggradebookinfo'] = '写成绩簿设置';
 $string['yes'] = '是';
+$string['yourgrade'] = '您的成绩';
+$string['allcategories'] = '所有的类别'; // ORPHANED
 
 ?>

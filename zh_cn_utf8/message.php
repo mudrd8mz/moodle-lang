@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.5 ALPHA (2005042300)
+      // message.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addcontact'] = '添加联系人';
-$string['addsomecontacts'] = '要给某人发信或在此页面添加一个快捷链接，可以使用上方的<a href=\"$a\">搜索</a>功能。';
+$string['addsomecontacts'] = '要给某人发信或在此页面添加一个快捷链接，可以使用上方的<a href=\"{$a}\">搜索</a>功能。';
 $string['addsomecontactsincoming'] = '发送消息的人不在您的联系人名单中。要将其加入您的联系人名单，请点击他们姓名边的“添加联系人”图标。';
 $string['ago'] = '{$a}之前';
 $string['allmine'] = '发给我或我发出的全部消息';
@@ -33,7 +33,9 @@ $string['messagehistory'] = '消息历史';
 $string['messages'] = '消息';
 $string['messaging'] = '发送消息';
 $string['mycontacts'] = '我的联系人';
+$string['newonlymsg'] = '只显示新的';
 $string['newsearch'] = '重新搜索';
+$string['noframesjs'] = '没有JavaScript和框架的版本';
 $string['nomessages'] = '没有新消息';
 $string['nomessagesfound'] = '没有找到消息';
 $string['nosearchresults'] = '您的搜索没有结果';
@@ -53,6 +55,7 @@ $string['searchforperson'] = '搜索人';
 $string['searchmessages'] = '搜索消息';
 $string['sendmessage'] = '发送消息';
 $string['sendmessageto'] = '发送消息给{$a}';
+$string['sendmessagetopopup'] = '发送消息给{$a} - 新窗口';
 $string['settings'] = '设置';
 $string['settingssaved'] = '您的设置已经保存了';
 $string['showmessagewindow'] = '当有新消息到来时自动显示消息窗口(您的浏览器需要进行配置，使其不会阻挡这个站点的弹出窗口)。';

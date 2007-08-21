@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7.1+ (2006101011)
+      // error.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['adminprimarynoedit'] = '其他人不能修改主管理员信息';
@@ -29,7 +29,9 @@ $string['errorunzippingfiles'] = '在解压文件时发生错误';
 $string['fieldrequired'] = '“{$a}”是必需的';
 $string['filenotfound'] = '很抱歉，未能找到请求的文件';
 $string['forumblockingtoomanyposts'] = '您发贴数目过多，超过了此论坛的限制。';
-$string['groupalready'] = '用户已经属于组 $a';
+$string['groupalready'] = '用户已经属于组 {$a}';
+$string['groupexistforcourse'] = '本课程中已经存在组“{$a}”';
+$string['groupnotaddederror'] = '未添加组“{$a}”';
 $string['groupunknown'] = '小组{a}未与任何课程建立关系';
 $string['guestnoeditprofile'] = '访客不能编辑他们的外观';
 $string['guestnoeditprofileother'] = '访客的外观不能被编辑';
@@ -37,12 +39,15 @@ $string['invalidcourse'] = '无效课程';
 $string['invalidfieldname'] = '“{$a}”不是合法的字段名';
 $string['invalidfiletype'] = '“{$a}”不是合法的文件类型';
 $string['invalidmd5'] = '无效的md5';
+$string['invalidrequest'] = '无效的请求';
 $string['invalidrole'] = '无效的角色';
 $string['invalidxmlfile'] = '“{$a}”不是合法的XML文件';
+$string['loginasnoenrol'] = '当使用“登录为”时，无法使用选课或退出课程。';
+$string['loginasonecourse'] = '您无法进入此课程。<br />在进入其它任何课程前，您必须中断“登录为”会话。';
 $string['missingfield'] = '字段 “{$a}”不存在';
 $string['missingrequiredfield'] = '缺少了必需的字段';
 $string['modulemissingcode'] = '模块{$a}缺少了执行此功能的代码';
-$string['modulerequirementsnotmet'] = '模块“{$a->modulename}”($a->moduleversion)安装失败。它需要新版本的Moodle(目前您使用的是$a->currentmoodle, 您需要$a->requiremoodle)。';
+$string['modulerequirementsnotmet'] = '模块“{$a->modulename}”({$a->moduleversion})安装失败。它需要新版本的Moodle(目前您使用的是{$a->currentmoodle}, 您需要{$a->requiremoodle})。';
 $string['mustbeteacher'] = '只有教师才能查看此页';
 $string['nocontext'] = '很抱歉，但此课程不是一个有效的环境';
 $string['noinstances'] = '在本课程中没有{$a}！';
@@ -56,7 +61,7 @@ $string['onlyeditingteachers'] = '只有拥有修改权的教师才能使用此�
 $string['onlyeditown'] = '您只能修改您自己的信息';
 $string['pagenotexist'] = '发生一个异常错误（试图打开一个不存在的页面）';
 $string['pleasereport'] = '如果您有时间，请让我们知道在错误发生的时候您在试图做什么';
-$string['pluginrequirementsnotmet'] = '插件“{$a->pluginname}”($a->pluginversion) 不能安装。需要新版本的Mooodle（一般您用{$a->currentmoodle}的时候您需要{$a->requiremoodle}）';
+$string['pluginrequirementsnotmet'] = '插件“{$a->pluginname}”({$a->pluginversion}) 不能安装。需要新版本的Mooodle（一般您用{$a->currentmoodle}的时候您需要{$a->requiremoodle}）';
 $string['processingstops'] = '处理到此结束。剩余记录将被忽略。';
 $string['remotedownloadnotallowed'] = '不允许为您的服务器下载组件(allow_url_fopen失败)。<br /><br />您应该<a href=\"{$a->url}\">{$a->url}</a> 先手动的把它复制到“{$a->dest}”您的服务器上然后解压。';
 $string['restricteduser'] = '很抱歉,您的当前帐号“{$a}”无权进行上述操作。';
@@ -65,7 +70,9 @@ $string['sessionerroruser'] = '您长时间未活动，请重新登录。';
 $string['sessionerroruser2'] = '由于服务器错误，您当前的本次的登录已经受到影响。请重新登录或重启您的浏览器。';
 $string['sessionipnomatch'] = '很抱歉，但您的IP地址已经和您第一次登录时所使用的不同了。这个安全功能可以防止骇客在登录到网站后窃取您的身份信息。普通用户看不到这个消息――请找站点管理员来以获得更多帮助。';
 $string['statscatchupmode'] = '统计表通常在查看模式，至今运行了{$a->daysdone}天，{$a->dayspending}天要核对';
+$string['unicodeupgradeerror'] = '对不起，您的数据库并非Unicode，这个版本的Moodle不能将它升级为Unicode。请升级到Moodle 1.7.x并执行管理页面中的Unicode升级。在执行这个操作后，您就可以升级到Moodle {$a}了。';
 $string['unknowncourse'] = '未知的课程命名为：“{a}”';
+$string['unknowncourseidnumber'] = '未知的课程ID“{$a}”';
 $string['unknownuseraction'] = '很遗憾，我不明白这位用户的活动';
 $string['usernotaddederror'] = '添加用户“{$a}”失败──未知的错误';
 $string['usernotaddedregistered'] = '添加用户“{$a}”失败――用户已注册';

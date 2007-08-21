@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7.1+ (2006101011)
+      // xmldb.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['aftertable'] = '放在此表后：';
@@ -9,6 +9,10 @@ $string['binaryincorrectlength'] = '二进制字段的长度不正确';
 $string['cannotuseidfield'] = '不能插入\"id\"字段。它是自动编号的列';
 $string['change'] = '更改';
 $string['charincorrectlength'] = '字符字段的不正确长度';
+$string['check_indexes'] = '寻找缺失的数据库索引';
+$string['checkindexes'] = '检查索引';
+$string['completelogbelow'] = '(查看下面搜索的完整日志)';
+$string['confirmcheckindexes'] = '这个功能会查找您的Moodle服务器上可能缺失的索引，并自动生成(但不会执行)所需的SQL指令以更新。生成后，您可以将它们拷贝到您的SQL客户端中执行它们。<br /><br />我们建议您在查找缺失的索引前运行最新的Moodle版本(1.8、1.9、2.x等）。<br /><br />这个功能并不在数据库服务器上执行任何操作，因此随时都可以安全地执行。';
 $string['confirmdeletefield'] = '您是否非常确信要删除此字段：';
 $string['confirmdeleteindex'] = '您是否非常确信要删除此索引：';
 $string['confirmdeletekey'] = '您是否非常确信要删除此键值：';
@@ -48,13 +52,17 @@ $string['floatincorrectdecimals'] = '浮点字段的小数位数不正确';
 $string['floatincorrectlength'] = '浮点字段的长度不正确';
 $string['gotolastused'] = '定位到上次使用的文件';
 $string['incorrectfieldname'] = '不正确的名字';
+$string['index'] = '索引';
 $string['indexes'] = '索引';
 $string['integerincorrectlength'] = '整数字段的长度不正确';
+$string['key'] = '关键字';
 $string['keys'] = '键值';
 $string['listreservedwords'] = '保留字列表<br/>（用来保持<a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB保留字</a>的更新)';
 $string['load'] = '载入';
 $string['main_view'] = '主视图';
+$string['missing'] = '缺失';
 $string['missingfieldsinsentence'] = '子句中没有字段';
+$string['missingindexes'] = '找到了缺失的索引';
 $string['missingvaluesinsentence'] = '子句中没有值';
 $string['mustselectonefield'] = '您必须选择一个字段来查看与字段相关的动作！';
 $string['mustselectoneindex'] = '您必须选择一个索引来查看与索引相关的动作！';
@@ -68,6 +76,7 @@ $string['newsentence'] = '新建子句';
 $string['newstatement'] = '新建语句';
 $string['newtable'] = '创建新表';
 $string['newtablefrommysql'] = '从MySQL建新表';
+$string['nomissingindexesfound'] = '未找到缺失的索引，您的数据库无须更多操作。';
 $string['numberincorrectdecimals'] = '数字字段的小数位数不正确';
 $string['numberincorrectlength'] = '数字字段的长度不正确';
 $string['reserved'] = '保留';
@@ -75,6 +84,7 @@ $string['reservedwords'] = '保留字';
 $string['revert'] = '恢复';
 $string['revert_changes'] = '恢复变化';
 $string['save'] = '保存';
+$string['searchresults'] = '搜索结果';
 $string['selectaction'] = '选择动作：';
 $string['selectdb'] = '选择数据库：';
 $string['selectfieldkeyindex'] = '选择字段／键／索引：';
@@ -104,5 +114,6 @@ $string['viewsqlcode'] = '查看SQL代码';
 $string['wronglengthforenum'] = '枚举字段的长度不正确';
 $string['wrongnumberoffieldsorvalues'] = '子句中字段或值的数量不正确';
 $string['wrongreservedwords'] = '当前使用的保留字<br />（如果表名使用{$CFG->prefix}，就不用留意这个问题）';
+$string['yesmissingindexesfound'] = '已经在您的数据库中找到了一些缺失的索引。下面列出了关于它们的详细情况以及创建它们的命令，您可以在SQL客户端中执行它们。<br /><br />完整这个操作后，建议您重新运新这个工具以确认没有更多缺失的索引。';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.7.1+ (2006101011)
+      // blog.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addnewentry'] = '增加新条目';
@@ -15,6 +15,7 @@ $string['blogs'] = '博客';
 $string['blogtags'] = '博客分类';
 $string['courseblog'] = '课程博客：{$a}';
 $string['courseblogs'] = '用户只能浏览开放课程者的博客';
+$string['deleteotagswarn'] = '您确信要从博客条目和整个系统中删除这些标签吗？';
 $string['disableblogs'] = '完全禁止博客系统';
 $string['emptybody'] = '博客条目内容不能为空';
 $string['emptytitle'] = '博客条目题目不能为空';
@@ -31,7 +32,7 @@ $string['noentriesyet'] = '找不到条目';
 $string['noguestpost'] = '访客不能发布博客';
 $string['norighttodeletetag'] = '您不能删除这个分类- {$a}';
 $string['notallowedtoedit'] = '您不能修改这个项目';
-$string['numberofentries'] = '条目：$a';
+$string['numberofentries'] = '条目：{$a}';
 $string['numberoftags'] = '要显示的分类数';
 $string['otags'] = '官方标签';
 $string['pagesize'] = '每页显示的条目数';
@@ -45,6 +46,7 @@ $string['settingsupdatederror'] = '发生了错误，无法更新博客的使用
 $string['siteblog'] = '站点博客：{$a}';
 $string['siteblogs'] = '所有用户均能浏览所有博客';
 $string['tagdatelastused'] = '标签最后使用的日期';
+$string['tags'] = '标签';
 $string['tagsort'] = '分类排序';
 $string['tagtext'] = '标签文字';
 $string['timewithin'] = '显示最近使用的分类';

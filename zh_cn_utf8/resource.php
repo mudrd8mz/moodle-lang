@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7.1+ (2006101011)
+      // resource.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addresource'] = '添加资源';
@@ -9,6 +9,7 @@ $string['browserepository'] = '浏览仓库';
 $string['choose'] = '选择';
 $string['chooseafile'] = '选择或上传一个文件';
 $string['chooseparameter'] = '选择一个参数';
+$string['clicktoopen'] = '要开启这个文档，请点击下面的链接：';
 $string['configallowlocalfiles'] = '允许在创建新文件资源时使用指向本地文件系统的链接，如光驱或者硬盘。这对于学生都在一个教室内访问网络驱动器或CD上的文件是很有用出的。是用这个功能可能要修改您的浏览器的安全设置。';
 $string['configautofilerenamesettings'] = '当在文件管理器中对文件重命名时，系统将自动更新所有对文件和目录的引用。';
 $string['configblockdeletingfilesettings'] = '阻止删除被资源引用的文件和目录的请求。请注意，从html引用的图片和其它文件不受保护。';
@@ -48,6 +49,7 @@ $string['frameifpossible'] = '将资源放在单独框架中以保证站点导�
 $string['fulltext'] = '全文';
 $string['htmlfragment'] = 'HTML片段';
 $string['imspackageloaded'] = '包已载入。';
+$string['keepnavigationvisible'] = '在同样页面上保留浏览信息';
 $string['localfile'] = '本地文件';
 $string['localfilechoose'] = '选择一个本地文件(CD-ROM)';
 $string['localfilehelp'] = '帮助显示本地文件';

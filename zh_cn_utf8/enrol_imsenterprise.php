@@ -14,7 +14,7 @@ $string['deleteusers'] = '删除用户帐号当其列入IMS数据';
 $string['description'] = '这个方法将重复的检测和处理在本地的你指定的特殊格式的文本文件。文件必须遵守<a href=\'../help.php?module=enrol/imsenterprise&file=formatoverview.html\' target=\'_blank\'>IMS计划规范</a>包括人，组，和团体的XML原理';
 $string['doitnow'] = '马上完成一个IMS计划';
 $string['enrolname'] = 'IMS文件';
-$string['filelockedmail'] = '您在IMS文件基础上用的文本文件登陆($a) 不能被程序删除。这通常意味着它的许可发生错误了。请确定许可使Moodle可以删除文件，否则程序可能会重复';
+$string['filelockedmail'] = '您在IMS文件基础上用的文本文件登陆({$a}) 不能被程序删除。这通常意味着它的许可发生错误了。请确定许可使Moodle可以删除文件，否则程序可能会重复';
 $string['filelockedmailsubject'] = '重大错误：登陆文件';
 $string['fixcasepersonalnames'] = '在标题上更改个人姓名';
 $string['fixcaseusernames'] = '对低的情况更改个人姓名';

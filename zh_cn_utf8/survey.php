@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.7.1+ (2006101011)
+      // survey.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['actual'] = '实际的';
@@ -150,6 +150,7 @@ $string['collespintro'] = '该问卷调查的目的是为了了解您对网上�
 您深思熟虑的回答将有助于我们对该单元作进一步的改善。
 非常感谢！';
 $string['collespname'] = '建构主义在线学习环境问卷调查（希望的）';
+$string['customintro'] = '自定义介绍';
 $string['done'] = '完成';
 $string['download'] = '下载';
 $string['downloadexcel'] = '以Excel电子表格形式下载数据';
@@ -190,6 +191,7 @@ $string['survey:download'] = '下载响应';
 $string['survey:participate'] = '响应问卷';
 $string['survey:readresponses'] = '查看响应';
 $string['surveycompleted'] = '您已经完成了该问卷。以下图表概要显示了您的结果与班级平均结果的比较。';
+$string['surveygraph'] = '问卷图像';
 $string['surveyname'] = '问卷名称';
 $string['surveysaved'] = '问卷已保存';
 $string['surveytype'] = '问卷类型';

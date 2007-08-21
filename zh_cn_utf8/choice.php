@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.7.1+ (2006101011)
+      // choice.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addmorechoices'] = '更多选项';
@@ -17,6 +17,7 @@ $string['choicetext'] = '投票本文';
 $string['displayhorizontal'] = '水平显示';
 $string['displaymode'] = '显示方式';
 $string['displayvertical'] = '垂直显示';
+$string['fillinatleastoneoption'] = '您必须提供最少两个可选项。';
 $string['full'] = '(已满)';
 $string['havetologin'] = '只有登录后才能提交您的选择';
 $string['limit'] = '限制';

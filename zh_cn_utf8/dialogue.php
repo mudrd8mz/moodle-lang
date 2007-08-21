@@ -16,7 +16,7 @@ $string['dialogueclosed'] = '对话关闭';
 $string['dialogueintro'] = '对话简介';
 $string['dialoguemail'] = '{$a->userfrom}向您的对话条目发布了一个‘{$a->dialogue}’条目，您可以在您的对话条目中看到他:
 $a->url';
-$string['dialoguemailhtml'] = '{$a->userfrom}向您的对话条目发布了一个‘<i>$a->dialogue</i>’条目<br /><br />
+$string['dialoguemailhtml'] = '{$a->userfrom}向您的对话条目发布了一个‘<i>{$a->dialogue</i>}’条目<br /><br />
 您可以在您的对话条目中看到<a href=\"$a->url\">它</a>。';
 $string['dialoguename'] = '对话名称';
 $string['dialogueopened'] = '{$a}开启了对话';
@@ -39,7 +39,7 @@ $string['notextentered'] = '未输入文字';
 $string['notstarted'] = '您为启动该对话';
 $string['notyetseen'] = '未被浏览';
 $string['numberofentries'] = '话题数';
-$string['numberofentriesadded'] = '添加的话题数:$a';
+$string['numberofentriesadded'] = '添加的话题数:{$a}';
 $string['of'] = 'of';
 $string['onwrote'] = '在{$a}写道';
 $string['onyouwrote'] = '您于{$a}写道';

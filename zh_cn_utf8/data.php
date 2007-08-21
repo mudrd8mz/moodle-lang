@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7.1+ (2006101011)
+      // data.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['action'] = '动作';
@@ -10,6 +10,7 @@ $string['addentries'] = '添加条目';
 $string['addtemplate'] = '添加模板';
 $string['allowcomments'] = '允许评论？';
 $string['allowratings'] = '允许评级？';
+$string['alttext'] = '替换文本';
 $string['approve'] = '批准';
 $string['ascending'] = '升序';
 $string['atmaxentry'] = '你输入的条目数已达到上限！';
@@ -19,10 +20,13 @@ $string['availablefromdate'] = '开始时间';
 $string['availabletags'] = '可用的标签';
 $string['availabletodate'] = '终止时间';
 $string['blank'] = '空白';
-$string['bynameondate'] = '作者 $a->name - $a->date';
+$string['buttons'] = '按钮';
+$string['bynameondate'] = '作者{$a->name}-{$a->date}';
 $string['cancel'] = '取消';
 $string['checkbox'] = '选择框';
 $string['chooseorupload'] = '选择文件';
+$string['columns'] = '列';
+$string['comment'] = '注释';
 $string['commentdeleted'] = '评论已删除';
 $string['commentempty'] = '没有评论';
 $string['comments'] = '评论';
@@ -61,6 +65,8 @@ $string['download'] = '下载';
 $string['edit'] = '编辑';
 $string['editcomment'] = '编辑注释';
 $string['editentry'] = '编辑条目';
+$string['editordisable'] = '禁止编辑器';
+$string['editorenable'] = '开启编辑器';
 $string['emptyadd'] = '模板为空，按缺省模板生成...';
 $string['emptyaddform'] = '您未填写任何字段';
 $string['entries'] = '条目';
@@ -80,6 +86,7 @@ $string['fieldenclosure'] = '文字分割符';
 $string['fieldheight'] = '高度';
 $string['fieldheightlistview'] = '列表视图中的高度';
 $string['fieldheightsingleview'] = '独立视图中的高度';
+$string['fieldids'] = '字段id';
 $string['fieldmappings'] = '字段映射';
 $string['fieldname'] = '字段名';
 $string['fieldoptions'] = '选项(每行一个)';
@@ -89,6 +96,7 @@ $string['fieldwidth'] = '宽度';
 $string['fieldwidthlistview'] = '列表视图中的宽度';
 $string['fieldwidthsingleview'] = '独立视图中的宽度';
 $string['file'] = '文件';
+$string['filesnotgenerated'] = '并未生成全部文件：{$a}';
 $string['filtername'] = '数据库自动链接';
 $string['footer'] = '尾';
 $string['forcelinkname'] = '链接名强制为';
@@ -124,6 +132,7 @@ $string['modulename'] = '数据库';
 $string['modulenameplural'] = '数据库';
 $string['more'] = '更多';
 $string['moreurl'] = '更多URL';
+$string['movezipfailed'] = '无法移动zip';
 $string['multientry'] = '重复的条目';
 $string['multimenu'] = '菜单(多选)';
 $string['multipletags'] = '发现多个标签! 模板还没有保存';
@@ -181,6 +190,7 @@ $string['requiredentries'] = '必须完成条目数';
 $string['requiredentriestoview'] = '查看前需要完成条目数';
 $string['resettemplate'] = '重置模板';
 $string['resizingimages'] = '调整图片到拇指大小';
+$string['rows'] = '行';
 $string['rssglobaldisabled'] = '已禁用。请参看站点变量配置。';
 $string['rsshowmany'] = '(要显示最近的多少条记录，0 表示禁用 RSS)';
 $string['rsstemplate'] = 'RSS 模板';
@@ -193,6 +203,7 @@ $string['savesettings'] = '保存设置';
 $string['savesuccess'] = '保存成功。您的预设将在站点内可用。';
 $string['savetemplate'] = '保存模板';
 $string['sendinratings'] = '发送我的最新评级';
+$string['showall'] = '显示全部项目';
 $string['single'] = '独立视图显示';
 $string['singletemplate'] = '独立模板';
 $string['teachersandstudents'] = '{$a->teachers}和{$a->students}';
@@ -209,5 +220,6 @@ $string['url'] = 'URL';
 $string['usestandard'] = '使用一个预设';
 $string['viewfromdate'] = '从何时可访问';
 $string['viewtodate'] = '到何时终止';
+$string['wrongdataid'] = '提供了错误的id';
 
 ?>

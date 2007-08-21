@@ -16,7 +16,7 @@ $string['journalmail'] = '{$a->teacher}已经在“{$a->journal}”中为你写�
 $a->url';
 $string['journalmailhtml'] = '{$a->teacher}已经在<i>“{$a->journal}”</i>中为你写了反馈意见。<br/><br/>
 
-你可以在<a href=\"$a->url\">这里</a>看到反馈意见：';
+你可以在<a href=\"{$a->url}\">这里</a>看到反馈意见：';
 $string['journalname'] = '心得报告名称';
 $string['journalquestion'] = '心得报告问题';
 $string['journalrating1'] = '不满意';

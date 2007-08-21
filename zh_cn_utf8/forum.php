@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7.1+ (2006101011)
+      // forum.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addanewdiscussion'] = '添加一个新讨论话题';
@@ -10,6 +10,7 @@ $string['allforums'] = '全部讨论区';
 $string['allowchoice'] = '允许每个人选择';
 $string['allowdiscussions'] = '允许{$a}在此讨论区发贴吗?';
 $string['allowratings'] = '允许对贴子评分吗?';
+$string['allowsallsubscribe'] = '这个论坛允许所有人选择是否订阅';
 $string['allowsdiscussions'] = '该讨论区允许每个人发起新话题。';
 $string['allsubscribe'] = '订阅所有的论坛';
 $string['allunsubscribe'] = '退订所有的论坛';
@@ -19,10 +20,12 @@ $string['blockafter'] = '被阻塞前贴数极限';
 $string['blockperiod'] = '阻塞统计周期';
 $string['blockperioddisabled'] = '不阻塞';
 $string['bynameondate'] = '由{$a->name}发表于{$a->date}';
+$string['cannotadddiscussion'] = '在此论坛中发言需要时某组组员。';
 $string['cannotviewpostyet'] = '在这个讨论中您不能阅读别的同学的问题因为您没有权限';
 $string['configcleanreadtime'] = '一天中从“已读”表格中清除旧帖子的时间';
 $string['configdisplaymode'] = '讨论的缺省显示模式';
 $string['configenablerssfeeds'] = '这个选项允许所有的论坛支持RSS种子。您仍需手工激活每一个论坛配置中的RSS种子选项。';
+$string['configenabletimedposts'] = '如果希望设定帖子的显示期间，请选择“yes”（实验中，未充分测试）。';
 $string['configlongpost'] = '超过该长度(字符个数，不含HTML)的帖子被认为是长的。在站点首页、社区格式的课程页或用户资料显示的帖子会被精简到一个自然的中断位置，其长度在forum_shortpost 和forum_longpost之间。';
 $string['configmanydiscussions'] = '每页显示的讨论主题数';
 $string['configmaxbytes'] = '缺省的所有论坛最大附件尺寸(受课程设置和本地配置的限制)';
@@ -64,8 +67,11 @@ $string['editedby'] = '由{$a->name}修改 - 原提交是{$a->date}';
 $string['editing'] = '正在编辑';
 $string['emptymessage'] = '您的贴子有点错误。大概是您没有填写内容，或附件太大。您的更改<b>没有</b>保存。';
 $string['everyonecanchoose'] = '每个人均可选择订阅';
+$string['everyonecannowchoose'] = '所有人都可以选择是否订阅了';
+$string['everyoneisnowsubscribed'] = '所有人都订阅此论坛了';
 $string['everyoneissubscribed'] = '每个人都订阅该讨论区';
 $string['existingsubscribers'] = '个已订阅的用户';
+$string['forcessubscribe'] = '这个论坛强制所有人订阅';
 $string['forcesubscribe'] = '强制每个人都订阅';
 $string['forcesubscribeq'] = '强制每个人都订阅吗?';
 $string['forum'] = '讨论区';
@@ -139,8 +145,6 @@ $string['noguestsubscribe'] = '很抱歉，系统不允许访客用email订阅�
 $string['noguesttracking'] = '很抱歉，访客不能设定跟踪选项。';
 $string['nomorepostscontaining'] = '未找到关键词是“{$a}”的帖子';
 $string['nonews'] = '尚无消息发布';
-$string['nopostdiscussion'] = '很抱歉，您不能在此话题发帖子';
-$string['nopostforum'] = '很抱歉，您不能在此论坛发贴子';
 $string['noposts'] = '没有贴子';
 $string['nopostscontaining'] = '找不到包含“{$a}”的贴子';
 $string['noquestions'] = '在此讨论区中尚无问题';
@@ -260,5 +264,7 @@ $string['youratedthis'] = '您对此评分';
 $string['yournewquestion'] = '您的新问题';
 $string['yournewtopic'] = '您的新讨论话题';
 $string['yourreply'] = '您的回复';
+$string['nopostdiscussion'] = '很抱歉，您不能在此话题发帖子'; // ORPHANED
+$string['nopostforum'] = '很抱歉，您不能在此论坛发贴子'; // ORPHANED
 
 ?>

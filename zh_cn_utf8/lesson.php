@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7.1+ (2006101010)
+      // lesson.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['accesscontrol'] = '访问控制';
@@ -80,7 +80,7 @@ $string['displayofgrade'] = '向学生显示等级';
 $string['displayreview'] = '显示检查按钮';
 $string['displayscorewithessays'] = '你获在自动评分的问题中得了{$a->score}（满分：{$a->tempmaxgrade}）。<br>你的 {$a->essayquestions} 问答题将被评分，它们随后添加到你的最终成绩中。<br /><br />你当前不包含问答题的成绩是：{$a->score} （满分：{$a->grade}）';
 $string['displayscorewithoutessays'] = '您的分数是{$a->score}(满分{$a->grade})。';
-$string['editlesson'] = '编辑{$a}';
+$string['edit'] = '修改';
 $string['editlessonsettings'] = '修改程序教学的设置';
 $string['editpagecontent'] = '修改页面内容';
 $string['email'] = '电子邮件';
@@ -139,10 +139,10 @@ $string['lessonopen'] = '这个程序教学将在 {$a} 开放。';
 $string['lessonopens'] = '开放程序教学';
 $string['lessonpagelinkingbroken'] = '首页没被找到，程序教学页面连接不得不中断，请与管理员联系';
 $string['lessonstats'] = '程序教学统计';
+$string['linkedmedia'] = '链接的媒体';
 $string['loginfail'] = '登录错误，请重试';
 $string['lowscore'] = '最低分数';
 $string['lowtime'] = '最低时间';
-$string['mainmenu'] = '课程菜单';
 $string['manualgrading'] = '成绩评语';
 $string['matchesanswer'] = '答案匹配';
 $string['maxhighscores'] = '显示的最高分数目';
@@ -235,7 +235,7 @@ $string['redisplaypage'] = '重新显示此页';
 $string['report'] = '报表';
 $string['reports'] = '报表';
 $string['response'] = '回复';
-$string['returnmainmenu'] = '返回主菜单';
+$string['returnto'] = '返回到{$a}';
 $string['returntocourse'] = '返回课程';
 $string['review'] = '复习';
 $string['reviewlesson'] = '复习课程';
@@ -257,7 +257,7 @@ $string['slideshowbgcolor'] = '幻灯片背景';
 $string['slideshowheight'] = '幻灯片高度';
 $string['slideshowwidth'] = '幻灯片宽度';
 $string['startlesson'] = '开始专题讨论';
-$string['studentattemptlesson'] = '{$a->firstname $a->lastname}的尝试次数{$a->attempt}';
+$string['studentattemptlesson'] = '{$a->firstname} {$a->lastname}的尝试次数{$a->attempt}';
 $string['studentname'] = '{$a} 名称';
 $string['studentoneminwarning'] = '警告：你还有不到1分钟来完成此活动';
 $string['studentoutoftime'] = '注意：你已经超出本课规定的时间。你最后的回答没有计算因为它是在超时后回答的。请按 继续 按钮来结束此程序教学。';
@@ -298,5 +298,8 @@ $string['youranswer'] = '您的答案';
 $string['yourcurrentgradeis'] = '您当前的分数是{$a}';
 $string['yourcurrentgradeisoutof'] = '您目前的分数是{$a->grade}（总分{$a->total}）';
 $string['youshouldview'] = '您最少应该浏览：{$a}';
+$string['editlesson'] = '编辑{$a}'; // ORPHANED
+$string['mainmenu'] = '课程菜单'; // ORPHANED
+$string['returnmainmenu'] = '返回主菜单'; // ORPHANED
 
 ?>

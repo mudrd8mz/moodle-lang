@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7.1+ (2006101011)
+      // glossary.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addcomment'] = '添加评论';
@@ -89,6 +89,10 @@ $string['entryleveldefaultsettings'] = '词条级的缺省设置';
 $string['entrysaved'] = '词条已保存';
 $string['entryupdated'] = '词条已更新';
 $string['entryusedynalink'] = '该词条将被自动链接';
+$string['errcannoteditothers'] = '您无法修改其他人的条目';
+$string['errconceptalreadyexists'] = '此条目已经存在了，不能重复添加。';
+$string['erredittimeexpired'] = '此条目的修改时间已经过了。';
+$string['errorparsingxml'] = '分析文件时错误，请确认它符合XML语法。';
 $string['explainaddentry'] = '向当前词汇表添加新词条。<br />主名称和定义是必填项目。';
 $string['explainall'] = '在一页中显示所有词条';
 $string['explainalphabet'] = '通过此索引浏览词汇';
@@ -122,8 +126,10 @@ $string['importcategories'] = '导入类别';
 $string['importedcategories'] = '导入的类别';
 $string['importedentries'] = '导入的词条';
 $string['importentries'] = '导入词条';
+$string['importentriesfromxml'] = '从XML文件中导入';
 $string['isglobal'] = '设定为全局词汇表?';
 $string['linkcategory'] = '自动链接该类别';
+$string['linking'] = '自动链接';
 $string['mainglossary'] = '主词汇表';
 $string['maxtimehaspassed'] = '很抱歉, 已超过了修改该评论({$a})的最大时限！';
 $string['modulename'] = '词汇表';
