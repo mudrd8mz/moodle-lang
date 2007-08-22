@@ -2,6 +2,7 @@
       // mnet.php - created with Moodle 1.8 + (2007021502)
 
 
+$string['deletehost'] = 'Eliminar host';
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (auto-firmado)';
 $string['RPC_HTTPS_VERIFIED'] = 'HTTPS (firmado)';
 $string['RPC_HTTP_PLAINTEXT'] = 'HTTP no encriptado';

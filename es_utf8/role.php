@@ -2,6 +2,18 @@
       // role.php - created with Moodle 1.8 + (2007021502)
 
 
+$string['block:view'] = 'Ver bloque';
+$string['globalrole'] = 'Rol global';
+$string['question:add'] = 'Agregar nuevas preguntas';
+$string['question:editall'] = 'Editar todas las preguntas';
+$string['question:editmine'] = 'Editar sus propias preguntas';
+$string['question:moveall'] = 'Mover todas las preguntas';
+$string['question:movemine'] = 'Mover sus propias preguntas';
+$string['question:useall'] = 'Usar todas las preguntas';
+$string['question:usemine'] = 'Usar sus propias preguntas';
+$string['question:viewall'] = 'Ver todas las preguntas';
+$string['question:viewmine'] = 'Ver sus propias preguntas';
+$string['tag:editblocks'] = 'Editar bloques en páginas de margas';
 $string['addrole'] = 'Añadir un nuevo rol';
 $string['allow'] = 'Permitir';
 $string['allowassign'] = 'Permitir asignar roles';

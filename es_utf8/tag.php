@@ -2,6 +2,7 @@
       // tag.php - created with Moodle 1.8 + (2007021502)
 
 
+$string['withselectedtags'] = 'Con las marcas seleccionadas...';
 $string['addtagtomyinterests'] = 'Agregar \"$a\" a mis intereses';
 $string['count'] = 'Contar';
 $string['delete'] = 'Eliminar';

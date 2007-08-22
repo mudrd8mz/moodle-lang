@@ -2,6 +2,12 @@
       // group.php - created with Moodle 1.8 + (2007021502)
 
 
+$string['addgroupstogroupings'] = 'Agregar/quitar grupos';
+$string['backtogroupings'] = 'Regresar a agrupamientos';
+$string['defaultgrouping'] = 'Agrupamiento por defecto';
+$string['groupingnameexists'] = 'El nombre de agrupamiento $a ya existe en este curso. Por favor, elija otro.';
+$string['groupmembersonly'] = 'Sólo disponible para miembros de grupo';
+$string['groupmembersonlyerror'] = 'Lo sentimos, debe ser miembro de al menos un grupo que sea usado en esta actividad.';
 $string['addgroupstogrouping'] = 'Agregar grupos al agrupamiento';
 $string['adduserstogroup'] = 'Agregar usuarios al grupo';
 $string['anygrouping'] = '[Cualquier agrupamiento]';

@@ -2,6 +2,7 @@
       // qtype_multichoice.php - created with Moodle 1.8 + (2007021502)
 
 
+$string['addingmultichoice'] = 'Agregando pregunta de opción múltiple';
 $string['addmorechoiceblanks'] = 'Espacios en blanco para  {no} más opciones';
 $string['answerhowmany'] = '¿Una o varias respuestas?';
 $string['answernumbering'] = '¿Numerar las elecciones?';

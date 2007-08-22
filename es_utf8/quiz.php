@@ -2,6 +2,18 @@
       // quiz.php - created with Moodle 1.8 + (2007021502)
 
 
+$string['addingcalculated'] = 'Agregando pregunta calculada';
+$string['addingdescription'] = 'Agregando descripción';
+$string['addingessay'] = 'Agregando ensayo';
+$string['addingmatch'] = 'Agregando pregunta de emparejamiento';
+$string['addingmultianswer'] = 'Agregando preguntas incrustadas (Cloze)';
+$string['addingmultichoice'] = 'Agregando pregunta de opción múltiple';
+$string['addingnumerical'] = 'Agregando pregunta numérica';
+$string['addingquestion'] = 'Agregando una pregunta';
+$string['addingrandom'] = 'Agregando pregunta aleatoria';
+$string['addingrandomsamatch'] = 'Agregando pregunta de emparejamiento de respuesta corta aleatoria';
+$string['addingshortanswer'] = 'Agregando pregunta de respuesta corta';
+$string['addingtruefalse'] = 'Agregando pregunta verdadero/falso';
 $string['1day'] = '1 día';
 $string['1hour'] = '1 hora';
 $string['2hours'] = '2 horas';
