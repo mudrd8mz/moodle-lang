@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta + (2007081600)
+      // admin.php - created with Moodle 1.9 Beta + (2007082200)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -265,6 +265,7 @@ $string['defaultcourseroleid'] = '배움터의 사용자 기본 역활';
 $string['defaultrequestcategory'] = '배움터 요청시 기본 범주';
 $string['defaultuserroleid'] = '모든 사용자에게 적용되는 기본 역할';
 $string['defaultvalues'] = '기본값';
+$string['deleteerrors'] = '오류 삭제';
 $string['deleteunconfirmed'] = '인증 유예 기간';
 $string['deleteuser'] = '사용자 삭제';
 $string['density'] = '밀도';
@@ -277,7 +278,7 @@ $string['doctonewwindow'] = '새 창에서 열기';
 $string['download'] = '내려받기';
 $string['editennotallowed'] = '이 화면에서는 en_utf8 코드를 편집할 수 없습니다. - local로 전환하세요.';
 $string['edithelpdocs'] = '도움 문서 편집';
-$string['editlang'] = '<b>언어팩 편집</b>';
+$string['editingnoncorelangfile'] = '추가된 모듈/플러그인의 번역내용을 변경하려고 하고 있습니다. 표준 모듈이 아닌 것은 맞춤문자열(_local) 경로에만 저장할 수 있습니다. 모듈의 lang 경로에 번역내용을 넣고 싶으면, 그 모듈을 만든 원 저작자에게 보내시면 됩니다.';
 $string['editorbackgroundcolor'] = '배경색';
 $string['editordictionary'] = '편집기 사전';
 $string['editorfontfamily'] = '폰트 패밀리';
@@ -452,6 +453,7 @@ $string['notifyloginfailures'] = '로그인실패를 통지받을 사람';
 $string['notifyloginthreshold'] = '이메일 알림을 위한 문턱값';
 $string['notloggedinroleid'] = '방문자 역할';
 $string['numberofmissingstrings'] = '$a 개의 문자열 번역안됨';
+$string['numberofstrings'] = '전체 문자열 수: $a->strings<br />빠진 문자열: $a->missing ($a->missingpercent&nbsp;%%)';
 $string['opensslrecommended'] = '추가적인 OpenSSL 라이브러리를 설치할 것을 강력히 권고한다. 이는 무들 네트웍 기능을 가능하게 할 수 있다.';
 $string['opentogoogle'] = 'Google에 개방';
 $string['optionalmaintenancemessage'] = '추가 유지보수 알림글';
@@ -530,7 +532,7 @@ $string['proxyport'] = '프록시 포트';
 $string['qtyperqpwillberemoved'] = '갱신과정에서 RQP 문제 유형은 제거될 것입니다. 만일 이 유형의 문제를 사용하지 않았다면, 추후에는 어떤 문제도 발생하지 않을 것입니다.';
 $string['qtyperqpwillberemovedanyway'] = '갱신과정에서 RQP 문제 유형은 제거될 것입니다. 데이터베이스에 RQP 문제가 탑재되어 있다면, 비록 갱신하기 전에 http://moodle.org/mod/data/view.php?d=13&amp;rid=797  에서 코드를 다시 불러들였다 하더라도 작업이 중단될 것입니다.';
 $string['quarantinedir'] = '검역 디렉토리';
-$string['question'] = '질문';
+$string['question'] = '문제은행';
 $string['questioncwqpfscheck'] = '퀴즈 중에 처리되어야 할 \'무작위\' 문항이 비공개 혹은 공개 문제 은행 중에 포함되어 있습니다. 좀 더 자세한 보고서는 <a href=\"$a->reporturl\">이 곳</a> 과 무들 문서 창고의 <a href=\"$a->docsurl\">이 곳</a>을 참고하기 바랍니다.';
 $string['questioncwqpfsok'] = '통과. 여러분의 퀴즈에는 처리되어야 할 \'무작위\' 질문이 없습니다.';
 $string['rcache'] = '기록 캐쉬';
@@ -635,15 +637,18 @@ $string['upwards'] = '위로';
 $string['usehtmleditor'] = 'HTML편집기 사용';
 $string['useraccountupdated'] = '사용자가 갱신됨';
 $string['userbulk'] = '무리 사용자 활동';
+$string['userdeleted'] = '사용자 삭제됨';
 $string['userlist'] = '사용자 목록';
 $string['userpolicies'] = '사용자 정책';
 $string['userrenamed'] = '사용자 이름이 변경됨';
 $string['users'] = '사용자';
 $string['userscreated'] = '사용자들이 생성됨';
+$string['usersdeleted'] = '사용자 삭제됨';
 $string['usersrenamed'] = '사용자명이 변경됨';
 $string['usersupdated'] = '사용자들이 갱신됨';
 $string['usetags'] = '태그 기능 활성화';
 $string['validateerror'] = '이 값은 유효하지 않음:';
+$string['editlang'] = '<b>언어팩 편집</b>'; // ORPHANED
 $string['confighideactivitytypecrumb'] = '활동 유형(예: 퀴즈)에 따라 모듈에 나타나는 진행상태를 숨길 대상을 선택한다.'; // ORPHANED
 $string['hideactivitytypecrumb'] = '활동 흔적 감추기'; // ORPHANED
 

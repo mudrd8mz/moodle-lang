@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 1.9 dev (2007081001)
+      // filters.php - created with Moodle 1.9 Beta + (2007082200)
 
 
 $string['actfilterhdr'] = '활성화된 필터';
@@ -14,7 +14,11 @@ $string['contains'] = '포함';
 $string['courserole'] = '배움터 역할';
 $string['doesnotcontain'] = '제외';
 $string['endswith'] = '끝말';
+$string['firstaccess'] = '첫번째 접속';
+$string['isafter'] = '$a 이후';
 $string['isanyvalue'] = '모두';
+$string['isbefore'] = '$a 이전';
+$string['isbetween'] = '$a[0] 와 $a[1] 사이';
 $string['isdefined'] = '정의 됨';
 $string['isempty'] = '비었음';
 $string['isequalto'] = '동일';

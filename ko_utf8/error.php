@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta + (2007082000)
+      // error.php - created with Moodle 1.9 Beta + (2007082200)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 편집될 수 없음';
@@ -91,6 +91,8 @@ $string['unknownuseraction'] = '죄송합니다만 이 사용자의 활동을 �
 $string['usernotaddederror'] = '사용자 \"$a\"는 추가되지 않았습니다-알수 없는 오류';
 $string['usernotaddedregistered'] = '사용자 \"$a\"는 추가되지 않았습니다-이미 등록됨';
 $string['usernotavailable'] = '이 사용자의 세부사항은 이용할 수 없습니다';
+$string['usernotdeletederror'] = '사용자 삭제 실패 - 알 수 없는 오류';
+$string['usernotdeletedmissing'] = '사용자 삭제 실패 - 사용자명이 없음';
 $string['usernotrenamedexists'] = '사용자 아이디 변경 못함 - 그 이름은 이미 사용중입니다.';
 $string['usernotrenamedmissing'] = '사용자 아이디 변경 못함 - 기존의 사용자 아이디를 찾을 수 없습니다.';
 $string['usernotupdatederror'] = '사용자 갱신않됨 - 알 수 없는 오류';

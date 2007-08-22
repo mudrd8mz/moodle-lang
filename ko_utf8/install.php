@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.8 dev (2006102200)
+      // install.php - created with Moodle 1.9 Beta + (2007082200)
 
 
 $string['admindirerror'] = '지정한 관리 디렉토리가 적절치 않습니다';
@@ -65,6 +65,12 @@ $string['databasesettingssub_mssql_n'] = '<b>종류:</b> SQL*Server (UTF-8 설�
 <b>암호:</b> 데이터베이스 암호<br />
 <b>테이블 접두어:</b> 모든 테이블에 사용할 접두어(필수)';
 $string['databasesettingssub_mysql'] = '<b>종류:</b> MySQL<br />
+<b>호스트:</b>예: localhost 또는 db.isp.com <br />
+<b>이름:</b> 데이터베이스 이름, 예:moodle<br />
+<b>사용자:</b> 데이터베이스 사용자명<br />
+<b>암호:</b> 데이터베이스 암호<br />
+<b>테이블 접두어:</b> 모든 테이블에 사용할 접두어(선택사항)';
+$string['databasesettingssub_mysqli'] = '<b>종류:</b>향상된 MySQL<br />
 <b>호스트:</b>예: localhost 또는 db.isp.com <br />
 <b>이름:</b> 데이터베이스 이름, 예:moodle<br />
 <b>사용자:</b> 데이터베이스 사용자명<br />
@@ -184,6 +190,8 @@ $string['mssql_n'] = 'UTF-8을 지원하는 SQL* 서버 (mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'MSSQL확장자를 이용해 SQL*서버와 연동할 수 있도록 적절하게 설정되지 못했습니다. php.ini 파일을 점검해 보거나 PHP를 다시 컴파일 하십시오.';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'MySQL확장자를 이용해 서버와 연동할 수 있도록 적절하게 설정되지 못했습니다. php.ini 파일을 점검해 보거나 PHP를 다시 컴파일 하십시오.';
+$string['mysqli'] = '향상된 MySQL (mysqli)';
+$string['mysqliextensionisnotpresentinphp'] = 'PHP가 MySQLi확장자를 이용해 서버와 연동할 수 있도록 적절하게 설정되지 못해서 MySQL로 통신하게 되었습니다. php.ini 파일을 점검해 보거나 PHP를 다시 컴파일 하십시오.  MySQLi 확장자는 PHP 4에는 사용할 수 없습니다.';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'OCI8 익스텐션으로 PHP가 오라클서버와 통신하도록 적절히 설정되지 않았습니다. php.ini 파일을 점검하거나 PHP를 다시 컴파일 하십시오.';
 $string['odbc_mssql'] = 'ODBC를 통한 SQL*Server (odbc_mssql)';
