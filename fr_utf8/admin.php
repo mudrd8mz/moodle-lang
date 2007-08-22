@@ -524,6 +524,8 @@ $string['qtyperqpwillberemoved'] = 'Au cours de cette mise à jour, le type de q
 $string['qtyperqpwillberemovedanyway'] = 'Au cours de cette mise à jour, le type de question RQP sera supprimé. Votre base de données comporte des questions RQP, qui ne fonctionneront plus, à moins que vous ne réinstalliez le code disponible sur http://moodle.org/mod/data/view.php?d=13&amp;rid=797 avant de continuer la mise à jour.';
 $string['question'] = 'Question';
 $string['quarantinedir'] = 'Dossier de quarantaine';
+$string['questioncwqpfscheck'] = 'Une ou plusieurs questions aléatoires d\'un test tire ses questions de catégories partagées et de catégories non partagées. Un rapport plus détaillé est visible <a href=\"$a->reporturl\">ici</a>. Veuillez consulter Moodle Docs sur <a href=\"$a->docsurl\">cette page</a>.';
+$string['questioncwqpfsok'] = 'Il n\'y a dans vos tests aucune question aléatoire tirant ses questions de catégories partagées et de catégories non partagées.';
 $string['rcache'] = 'Cache des enregistrements';
 $string['rcachettl'] = 'TTL des enregistrements en cache';
 $string['releasenoteslink'] = 'Pour des informations sur cette version de Moodle, veuillez consulter les <a target=\"_new\" href=\"$a\">Notes de mise à jour</a> en ligne.';
