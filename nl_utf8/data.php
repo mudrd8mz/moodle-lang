@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 dev (2007062401)
+      // data.php - created with Moodle 1.9 Beta + (2007082200)
 
 
 $string['action'] = 'Actie';
@@ -164,6 +164,7 @@ $string['nomatch'] = 'Geen overeenkomende items gevonden';
 $string['nomaximum'] = 'Geen maximum';
 $string['norecords'] = 'Geen items in de databank';
 $string['nosingletemplate'] = 'Sjabloon voor itemweergave is niet gedefinieerd';
+$string['notinjectivemap'] = 'Geen injectieve koppeling';
 $string['number'] = 'Getal';
 $string['numberrssarticles'] = 'RSS-artikels';
 $string['numnotapproved'] = 'Wachtend';
@@ -221,7 +222,7 @@ $string['text'] = 'Tekst';
 $string['textarea'] = 'Tekstgebied';
 $string['todatabase'] = 'naar deze database';
 $string['type'] = 'Veldtype';
-$string['undefinedprocessactionmethod'] = 'Geenn methode gedefiniëerd in Data_Preset om de actie \"$a\" af te handelen.';
+$string['undefinedprocessactionmethod'] = 'Geen methode gedefiniëerd in Data_Preset om de actie \"$a\" af te handelen.';
 $string['updatefield'] = 'Update een bestaand veld';
 $string['uploadfile'] = 'Upload bestand';
 $string['uploadrecords'] = 'Upload records uit een bestand';
@@ -229,6 +230,6 @@ $string['url'] = 'URL';
 $string['usestandard'] = 'gebruik een sjabloonset';
 $string['viewfromdate'] = 'Zichtbaar vanaf';
 $string['viewtodate'] = 'Zichtbaar voor';
-$string['wrongdataid'] = 'Verkeerd dataID opgegeven';
+$string['wrongdataid'] = 'Verkeerd data-ID opgegeven';
 
 ?>

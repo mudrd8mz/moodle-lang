@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 dev (2006060900)
+      // enrol_authorize.php - created with Moodle 1.9 Beta + (2007082200)
 
 
 $string['adminacceptccs'] = 'Welke kredietkaarten zullen aanvaard worden?';
+$string['adminaccepts'] = 'Kies toegelaten betalingsmethoden en hun types';
 $string['adminauthorizeccapture'] = 'Bestellingsoverzicht & instellingen automatische ontvangsten';
 $string['adminauthorizeemail'] = 'Instellingen e-mail';
 $string['adminauthorizesettings'] = 'Instellingen Authorize.net';
@@ -35,6 +36,7 @@ $string['adminnewordersubject'] = '$a->course: Nieuwe bestelling ($a->orderid)';
 $string['adminpendingorders'] = 'Je hebt de functie voor automatisch krediteren uitgeschakeld.<br />Er zijn $a->count transacties met als status AN_STATUS_AUTH die geannulleerd zullen worden, tenzij je ze krediteerd.<br />Deze betalingen aanvaarden/verwerpen doe je met de <a href=\'$a->url\'>Beheer betalingen</a> pagina';
 $string['adminreview'] = 'Controleer de bestelling voor het aanvaarden van de kredietkaart';
 $string['adminteachermanagepay'] = 'Leraren kunnen de betalingen van de cursus beheren';
+$string['allpendingorders'] = 'Alle lopende bestellingen';
 $string['amount'] = 'Bedrag';
 $string['anlogin'] = 'Authorize.net: Login naam';
 $string['anpassword'] = 'Authorize.net: Wachtwoord (niet vereist)';
@@ -42,6 +44,9 @@ $string['anreferer'] = 'Type hier de URL-verwijzing als je dit instelt met je au
 $string['antestmode'] = 'Authorize.net: test transacties';
 $string['antrankey'] = 'Authorize.net: transactiesleutel';
 $string['authcaptured'] = 'Goedgekeurd /  Gekrediteerd';
+$string['authcode'] = 'Authorisatiecode';
+$string['authorize:managepayments'] = 'Beheer betalingen';
+$string['authorize:uploadcsv'] = 'CSV-bestand uploaden';
 $string['authorizedpendingcapture'] = 'Goedgekeurd / Wachten op kreditering';
 $string['avsa'] = 'Adres (straat) is juist';
 $string['avsb'] = 'Adres niet opgegeven';
@@ -74,26 +79,43 @@ $string['choosemethod'] = 'Als je de cursussleutel voor deze cursus kent, geef d
 $string['chooseone'] = 'Vul één of beide velden in';
 $string['delete'] = 'Vernietig';
 $string['description'] = 'Met de Authorize.net module kun je betaalde cursussen inrichten via CC-providers. Als de prijs voor een cursus 0 is, dan krijgen leerlingen de vraag om te betalen niet. Er is een standaardprijs die je hier voor de hele site kunt instellen en er is een instelling om de prijs per cursus vast te leggen. De prijs per cursus gaat over de standaardprijs van de site.';
+$string['echeckabacode'] = 'Bank ABA-nummer';
+$string['echeckaccnum'] = 'Bank rekeningnummer';
+$string['echeckacctype'] = 'Bank accounttype';
+$string['echeckbankname'] = 'Banknaam';
+$string['echeckchecking'] = 'Controleren';
+$string['echeckfirslasttname'] = 'Bank rekeningeigenaar';
 $string['enrolname'] = 'Authorize.net Kredietkaart toegang';
 $string['expired'] = 'Vervallen';
+$string['haveauthcode'] = 'Ik heb al een authorisatiecode';
 $string['howmuch'] = 'Hoe veel?';
 $string['httpsrequired'] = 'Jammer, maar je aanvraag kan nu niet verwerkt worden. De instellingen van deze site konden niet juist gezet worden<br /><br />
 Geef het nummer van je kredietkaart niet in voor je een geel hangslot onderaan je browser ziet. Dat betekent dat alle informatie die over internet verstuurd wordt, versleuteld is. Op die manier is de informatie tijdens de transactie beschermd en kan je kredietkaartnummer niet onderschept worden op het internet.';
+$string['invalidaba'] = 'Ongeldig ABA nummer';
+$string['invalidaccnum'] = 'Ongeldig rekeningnummer';
+$string['invalidacctype'] = 'Ongeldig accounttype';
 $string['logindesc'] = 'Deze optie moet AAN staan.<br /><br />
 Je kunt de optie <a href=\"$a->url\">loginhttps</a> instellen in de sectie Variablen/Veiligheid.
 <br /><br />
 Door die instelling te gebruiken zal Moodle een veilige https-connectie maken voor de aanmelding- en betalingspagina\'s.';
+$string['methodcc'] = 'Kredietkaart';
+$string['methodecheck'] = 'eCheck (ACH)';
+$string['missingaba'] = 'ABA-nummer ontbreekt';
 $string['missingaddress'] = 'adres ontbreekt';
-$string['missingcc'] = 'kaartnummer  ontbreekt';
+$string['missingbankname'] = 'Banknaam ontbreekt';
+$string['missingcc'] = 'Kaartnummer  ontbreekt';
+$string['missingccauthcode'] = 'Authorisatiecode ontbreekt';
 $string['missingccexpire'] = 'vervaldatum  ontbreekt';
 $string['missingcctype'] = 'kaarttype  ontbreekt';
 $string['missingcvv'] = 'verificatienummer  ontbreekt';
 $string['missingzip'] = 'postcode  ontbreekt';
+$string['mypaymentsonly'] = 'Toon alleen mijn betalingen';
 $string['nameoncard'] = 'naam op de kaart';
 $string['new'] = 'Nieuw';
 $string['noreturns'] = 'geen teruggave!';
 $string['orderid'] = 'Bestelnummer';
 $string['paymentmanagement'] = 'Beheer betalingen';
+$string['paymentmethod'] = 'Betalingsmethode';
 $string['paymentpending'] = 'Je betaling voor deze cursus wordt verwerkt met dit bestelnummer: $a->orderid.';
 $string['reason11'] = 'Deze transactie is dubbel ingestuurd';
 $string['reason16'] = 'De transactie is niet gevonden';
@@ -108,6 +130,7 @@ $string['tested'] = 'Getest';
 $string['testmode'] = '[TESTMODUS]';
 $string['transid'] = 'TransactieID';
 $string['unenrolstudent'] = 'Leerling afmelden?';
+$string['uploadcsv'] = 'Upload een CSV-bestand';
 $string['voidyes'] = 'Transactie zal geannuleerd worden. Wil je dat echt?';
 $string['youcantdo'] = 'Deze actie kun je niet doen: $a->action';
 $string['zipcode'] = 'Postcode';

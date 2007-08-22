@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta + (2007081600)
+      // role.php - created with Moodle 1.9 Beta + (2007082200)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
@@ -95,11 +95,17 @@ $string['permissions'] = 'Rechten';
 $string['potentialusers'] = '$a mogelijke gebruikers';
 $string['prevent'] = 'Verbieden';
 $string['prohibit'] = 'Blokkeren';
+$string['question:add'] = 'Nieuwe vragen toevoegen';
 $string['question:config'] = 'Vraagtypes configureren';
-$string['question:export'] = 'Vragen exporteren';
-$string['question:import'] = 'Vragen importeren';
-$string['question:manage'] = 'Vragen beheren';
+$string['question:editall'] = 'Alle vragen bewerken';
+$string['question:editmine'] = 'Eigen vragen bewerken';
 $string['question:managecategory'] = 'Vraagcategorieën beheren';
+$string['question:moveall'] = 'Alle vragen verplaatsen';
+$string['question:movemine'] = 'Eigen vragen verplaatsen';
+$string['question:useall'] = 'Alle vragen gebruiken';
+$string['question:usemine'] = 'Eigen vragen gebruiken';
+$string['question:viewall'] = 'Alle vragen bekijken';
+$string['question:viewmine'] = 'Eigen vragen bekijken';
 $string['resetrole'] = 'Standaardinstellingen';
 $string['resetrolenolegacy'] = 'Wis rechten';
 $string['resetrolesure'] = 'Ben je er zeker van dat je de rol \"$a->name ($a->shortname)\" terug de standaardinstellingen wil geven?<p></p>De standaardinstellingen worden gehaald uit het standaard roltype ($a->legacytype).';
@@ -155,6 +161,9 @@ $string['user:viewuseractivitiesreport'] = 'Activiteitenrapporten van gebruikers
 $string['user:viewusergrades'] = 'Cijfers van gebruikers bekijken';
 $string['viewrole'] = 'Roldetails bekijken';
 $string['xuserswiththerole'] = 'Gebruikers met de rol \"$a->role\" $a->number';
+$string['question:export'] = 'Vragen exporteren'; // ORPHANED
+$string['question:import'] = 'Vragen importeren'; // ORPHANED
+$string['question:manage'] = 'Vragen beheren'; // ORPHANED
 $string['course:downloadallgrades'] = 'Alle cijfers downloaden'; // ORPHANED
 $string['course:viewallgrades'] = 'Alle cijfers zien'; // ORPHANED
 $string['course:viewowngrades'] = 'Eigen cijfers zien'; // ORPHANED
