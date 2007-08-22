@@ -2,6 +2,12 @@
       // error.php - created with Moodle 1.8 + (2007021502)
 
 
+$string['cannotassignrole'] = 'No se puede asignar rol en el curso';
+$string['cannotcustomizelocallang'] = 'Usted no tiene permiso para personalizar la traducción de cadenas. Este permiso viene controlado por la utilidad \"moodle/site:langeditlocal\". Ajuste esta utilidad para poder editar paquetes de idioma local en el caso de que quiera modificar las traducciones en su sitio.';
+$string['cannoteditmasterlang'] = 'No tiene permiso para editar el paquete de idioma maestro. Este permiso viene controlado por la utilidad \"moodle/site:langeditmaster\". Ajuste esta utilidad para poder editar paquetes de idioma maestro en el caso de que usted sea el mantenedor de un paquete determinado.';
+$string['cannotviewprofile'] = 'No puede ver el perfil de este usuario.';
+$string['duplicateusername'] = 'Nombre de usuario duplicado: registro pasado por alto';
+$string['usernotupdatederror'] = 'Usuario no actualizado - error desconocido';
 $string['adminprimarynoedit'] = 'El administrador primario no puede ser editado por otros';
 $string['cannotcreatelangdir'] = 'No se puede crear el directorio lang.';
 $string['cannotcreatetempdir'] = 'No se puede crear el directorio temp.';

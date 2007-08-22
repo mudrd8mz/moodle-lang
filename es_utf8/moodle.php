@@ -2,6 +2,14 @@
       // moodle.php - created with Moodle 1.8 + (2007021502)
 
 
+$string['backupsitefileshelp'] = 'Si se activa esta opción, los archivos del sitio usados en los cursos se incluirán en copias de seguridad automatizadas';
+$string['categoryname'] = 'Nombre de la categoría';
+$string['confirmcheckfull'] = '¿Está absolutamente seguro de que quiere confirmar $a?';
+$string['copyingsitefiles'] = 'Copiando los archivos del sitio usados en el curso';
+$string['creatinggroupingsgroups'] = 'Agregando grupos a agrupamientos';
+$string['includesitefiles'] = 'Incluir archivos del sitio usados en este curso';
+$string['parentlanguage'] = 'es';
+$string['sitefilesused'] = 'Archivos del sitio usados en este curso';
 $string['action'] = 'Acción';
 $string['actions'] = 'Acciones';
 $string['active'] = 'Activa';
@@ -898,7 +906,7 @@ $string['missingshortname'] = 'Escribir: nombre corto';
 $string['missingshortsitename'] = 'Escribir: nombre del sitio';
 $string['missingsitedescription'] = 'Escribir: descripción del sitio';
 $string['missingsitename'] = 'Escribir: nombre del sitio';
-$string['missingstrings'] = 'Revisar cadenas (\'strings\') perdidas';
+$string['missingstrings'] = 'Revisar palabras o frases sin traducir';
 $string['missingstudent'] = 'Debe elegir algo';
 $string['missingsummary'] = 'No hay resumen';
 $string['missingteacher'] = 'Debe elegir algo';
