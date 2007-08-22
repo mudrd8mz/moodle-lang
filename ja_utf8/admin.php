@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 dev (2007081302)
+      // admin.php - created with Moodle 1.9 Beta + (2007082200)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
 $string['accounts'] = 'アカウント';
+$string['addcounter'] = '追加カウンタ';
 $string['adminseesall'] = '管理者がすべてを閲覧する';
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示';
 $string['adminseesownevents'] = '管理者は他のユーザと同じ';
@@ -254,6 +255,8 @@ $string['defaultallowedmodules'] = 'デフォルトで許可するモジュー�
 $string['defaultcourseroleid'] = 'コースユーザのデフォルトロール';
 $string['defaultrequestcategory'] = 'コースリクエストのデフォルトカテゴリ';
 $string['defaultuserroleid'] = 'すべてのユーザのデフォルトロール';
+$string['defaultvalues'] = '初期値';
+$string['deleteerrors'] = '削除エラー';
 $string['deleteunconfirmed'] = '未認証のユーザを削除する日数';
 $string['deleteuser'] = 'ユーザを削除する';
 $string['density'] = '密度';
@@ -266,7 +269,6 @@ $string['doctonewwindow'] = '新しいウィンドウに開く';
 $string['download'] = 'ダウンロード';
 $string['editennotallowed'] = 'このページでは言語ファイルen_utf8を編集することはできません。ローカルに切り替えてください。';
 $string['edithelpdocs'] = 'ヘルプドキュメントの編集';
-$string['editlang'] = '<b>編集</b>';
 $string['editorbackgroundcolor'] = '背景色';
 $string['editordictionary'] = 'エディタディレクトリ';
 $string['editorfontfamily'] = 'フォントファミリー';
@@ -280,6 +282,7 @@ $string['editstrings'] = '翻訳ストリングの編集';
 $string['enableajax'] = 'AJAXを有効にする';
 $string['enablecourserequests'] = 'コースリクエストを有効にする';
 $string['enableglobalsearch'] = 'グローバルサーチを有効にする';
+$string['enablegroupings'] = 'グルーピングを有効にする';
 $string['enablehtmlpurifier'] = 'HTML Purifierを有効にする';
 $string['enablerecordcache'] = 'レコードキャッシュを有効にする';
 $string['enablerssfeeds'] = 'RSSフィードを有効にする';
@@ -438,6 +441,7 @@ $string['notifyloginfailures'] = 'ログイン失敗をメール通知する';
 $string['notifyloginthreshold'] = 'メール通知の閾値';
 $string['notloggedinroleid'] = 'ビジターのロール';
 $string['numberofmissingstrings'] = '未翻訳ストリング数: $a';
+$string['numberofstrings'] = '合計ストリング数: $a->strings<br />未翻訳数: $a->missing ($a->missingpercent&nbsp;%%)';
 $string['opensslrecommended'] = 'Moodleネットワーキング機能を有効にするため、OpenSSLライブラリのインストールを強くお勧めします。';
 $string['opentogoogle'] = 'Googleに公開する';
 $string['optionalmaintenancemessage'] = '任意のメンテナンスメッセージ';
@@ -503,6 +507,7 @@ $string['profilenofieldsdefined'] = 'フィールドは定義されていませ�
 $string['profilerequired'] = 'このフィールドは必須入力ですか?';
 $string['profileshortname'] = '省略名 (一意にしてください)';
 $string['profileshortnamenotunique'] = 'すでにこの省略名は使用されています。';
+$string['profilesignup'] = 'サインアップページに表示しますか?';
 $string['profilespecificsettings'] = '詳細設定';
 $string['profilevisible'] = 'このフィールドを誰に表示しますか?';
 $string['profilevisibleall'] = 'すべての人に表示する';
@@ -615,15 +620,19 @@ $string['upgradinglogs'] = 'ログのアップグレード';
 $string['upwards'] = '以上';
 $string['usehtmleditor'] = 'HTMLエディタを使用する';
 $string['useraccountupdated'] = 'ユーザが更新されました。';
+$string['userbulk'] = '大量ユーザ処理';
+$string['userdeleted'] = 'ユーザが削除されました。';
 $string['userlist'] = 'ユーザ一覧の表示';
 $string['userpolicies'] = 'ユーザポリシー';
 $string['userrenamed'] = 'ユーザがリネームされました。';
 $string['users'] = 'ユーザ';
 $string['userscreated'] = 'ユーザが作成されました。';
+$string['usersdeleted'] = 'ユーザが削除されました。';
 $string['usersrenamed'] = 'ユーザがリネームされました。';
 $string['usersupdated'] = 'ユーザが更新されました。';
 $string['usetags'] = 'タグ機能を有効にする';
 $string['validateerror'] = 'この値は有効ではありません。:';
+$string['editlang'] = '<b>編集</b>'; // ORPHANED
 $string['confighideactivitytypecrumb'] = '活動モジュールで表示されるブレッドクラム内の活動タイプ (例 小テスト) クラムを誰に非表示にするか選択してください。'; // ORPHANED
 $string['hideactivitytypecrumb'] = '活動タイプクラムを非表示にする'; // ORPHANED
 

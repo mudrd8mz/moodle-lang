@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta + (2007081600)
+      // error.php - created with Moodle 1.9 Beta + (2007082200)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -91,6 +91,8 @@ $string['unknownuseraction'] = '申し訳ございません、このユーザア
 $string['usernotaddederror'] = 'ユーザ 「 $a 」 は追加されませんでした - 不明なエラー';
 $string['usernotaddedregistered'] = 'ユーザ 「 $a 」 は追加されませんでした - 登録済み';
 $string['usernotavailable'] = 'このユーザの詳細は閲覧できません。';
+$string['usernotdeletederror'] = 'ユーザは削除されませんでした -- 不明なエラー';
+$string['usernotdeletedmissing'] = 'ユーザは削除されませんでした -- ユーザ名が見つかりませんでした。';
 $string['usernotrenamedexists'] = 'ユーザはリネームされませんでした -- 新しいユーザ名がすでに使用されています。';
 $string['usernotrenamedmissing'] = 'ユーザはリネームされませんでした -- 古いユーザ名が見つかりませんでした。';
 $string['usernotupdatederror'] = 'ユーザは更新されませんでした - 不明なエラー';
