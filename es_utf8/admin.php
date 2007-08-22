@@ -2,6 +2,36 @@
       // admin.php - created with Moodle 1.8 + (2007021502)
 
 
+$string['addcounter'] = 'Agregar contador';
+$string['configenablegroupings'] = 'Este ajuste posibilita el agrupamiento de grupos (aún no implementado por completo)';
+$string['configgradeexport'] = 'Elija qué formatos de exportación del libro de calificaciones constituyen su método principal para exportar calificaciones. Los conectores elegidos ajustarán y usarán un campo \"últimos exportados\" para cada calificación. Por ejemplo, esto podría dar como resultado que los registros exportados se identificaran como \"nuevos\" o \"actualizados\". Si no está seguro de cómo hacer esto, no marque nada.';
+$string['confighideactivitytypenavlink'] = 'Seleccione a quién ocultar el enlace al tipo de actividad (e.g., cuestionarios) en la navegación de los módulos de actividad.';
+$string['configkeeptagnamecase'] = 'Marque esta opción si desea que los nombres de marca conserven el \'casing\' original tal como fue introducido por los usuarios que los crearon.';
+$string['configsupportemail'] = 'Esta dirección email se publicará a los usuarios del sitio como aquella a la que deberán dirigirse cuando necesiten ayuda de tipo general (por ejemplo, cuando un usuario nuevo crea su propia cuenta). Si se deja en blanco, no se dispondrá de una dirección de ayuda del tipo mencionado.';
+$string['configsupportname'] = 'Este es el nombre de una persona u otra entidad  que ofrece ayuda general por medio de una dirección email o una página web.';
+$string['configsupportpage'] = 'Esta dirección email se publicará a los usuarios del sitio como aquella a la que deberán dirigirse cuando necesiten ayuda de tipo general (por ejemplo, cuando un usuario nuevo crea su propia cuenta). Si se deja en blanco, no se suministrará el enlace correspondiente.';
+$string['configusetags'] = '¿Habilitar la funcionalidad de marcas a través del sitio?';
+$string['defaultvalues'] = 'Valores por defecto';
+$string['enablegroupings'] = 'Habilitar agrupamientos';
+$string['gradeexport'] = 'Métodos de exportación de calificaciones primarias';
+$string['hideactivitytypenavlink'] = 'Ocultar navegación de tipo de actividad';
+$string['keeptagnamecase'] = 'Mantener \'casing\' de nombre de marca';
+$string['langpackmaintaining'] = 'Mantenimiento del paquete de idioma';
+$string['localstringcustomization'] = 'Personalización local del idioma';
+$string['newusernamehandling'] = 'Gestión de duplicados de nuevo nombre de usuario';
+$string['nomissingstrings'] = 'No hay cadenas sin traducir';
+$string['numberofmissingstrings'] = 'Número de cadenas sin traducir: $a';
+$string['profileforceunique'] = '¿Deberían ser únicos los datos?';
+$string['profilesignup'] = '¿Mostrar página al inscribirse?';
+$string['question'] = 'Pregunta';
+$string['questioncwqpfscheck'] = 'Una o más preguntas \'aleatorias\' de un cuestionario se disponen para seleccionar preguntas de una mezcla de categorías de pregunta compartidas y no compartidas. Puede ver un informe más detallado <a href=\"$a->reporturl\">aquí</a> o consultar la página de Moodle Docs <a href=\"$a->docsurl\">here</a>.';
+$string['questioncwqpfsok'] = 'Bueno. No existen preguntas \'aleatorias\' en sus cuestionarios que estén ajustadas para seleccionar preguntas a partir de una mezcla de categorías de pregunta compartidas y no compartidas.';
+$string['skipuser'] = 'Pasar usuario por alto';
+$string['supportemail'] = 'Email de apoyo';
+$string['supportname'] = 'Nombre del apoyo';
+$string['supportpage'] = 'Página de apoyo';
+$string['userbulk'] = 'Acciones de usuario masivas';
+$string['usetags'] = 'Activar funcionalidad de las marcas';
 $string['accessdenied'] = 'Acceso denegado';
 $string['accounts'] = 'Cuentas';
 $string['adminseesall'] = 'Los administradores ven todo';
