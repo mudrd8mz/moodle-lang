@@ -2,6 +2,14 @@
       // install.php - created with Moodle 1.7 (2006101007)
 
 
+$string['databasesettingssub_mysqli'] = '<b>Tipo:</b> MySQL Mejorado<br />
+<b>Host:</b> e.g., localhost o db.isp.com<br />
+<b>Nombre:</b> nombre de la base de datos, e.g., moodle<br />
+<b>Usuario:</b> nombre de usuario de su base de datos<br />
+<b>Contraseña:</b> contraseña de su base de datos<br />
+<b>Prefijo de Tablas:</b> prefijo a usar en los nombres de las tablas (opcional)';
+$string['mysqli'] = 'MySQL Mejorado';
+$string['mysqliextensionisnotpresentinphp'] = 'PHP no ha sido configurado adecuadamente con la extensión MySQLi de forma que se pueda comunicar con MySQL. Por favor, compruebe su archivo php.ini o recompile PHP. La extensión MySQLi no está disponible en PHP 4.';
 $string['admindirerror'] = 'El directorio especificado para admin es incorrecto';
 $string['admindirname'] = 'Directorio Admin';
 $string['admindirsetting'] = '<p>Muy pocos servidores web usan /admin como URL especial para permitirle acceder a un panel de control o similar. Desgraciadamente, esto entra en conflicto con la ubicación estándar de las páginas de administración de Moodle Usted puede corregir esto renombrando el directorio admin en su instalación, y poniendo aquí ese nuevo nombre. Por ejemplo: <blockquote> moodleadmin</blockquote>.

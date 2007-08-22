@@ -2,6 +2,8 @@
       // admin.php - created with Moodle 1.8 + (2007021502)
 
 
+$string['editingnoncorelangfile'] = 'Está intentando modificar la traducción de un módulo/conector añadido. Puede guardar la traducción de módulos de terceras partes sólo en su carpeta local. Quizás quiera mover el archivo con la traducción al directorio lang del módulo y/o enviarlo al mantenedor del módulo añadido.';
+$string['numberofstrings'] = 'Número total de cadenas: $a->strings<br />Ausentes: $a->missing ($a->missingpercent&nbsp;%%)';
 $string['addcounter'] = 'Agregar contador';
 $string['configenablegroupings'] = 'Este ajuste posibilita el agrupamiento de grupos (aún no implementado por completo)';
 $string['configgradeexport'] = 'Elija qué formatos de exportación del libro de calificaciones constituyen su método principal para exportar calificaciones. Los conectores elegidos ajustarán y usarán un campo \"últimos exportados\" para cada calificación. Por ejemplo, esto podría dar como resultado que los registros exportados se identificaran como \"nuevos\" o \"actualizados\". Si no está seguro de cómo hacer esto, no marque nada.';
