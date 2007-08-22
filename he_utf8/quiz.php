@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 + (2007021503)
+      // quiz.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['1day'] = 'יום 1';
@@ -11,7 +11,19 @@ $string['acceptederror'] = 'שגיאה מתקבלת';
 $string['action'] = 'פעולה';
 $string['adaptive'] = 'מצב מסתגל';
 $string['addcategory'] = 'הוסף קטגוריה';
+$string['addingcalculated'] = 'הוספת שאלת חישוב';
+$string['addingdescription'] = 'הוספת תאורים';
+$string['addingessay'] = 'הוספת מאמרים';
+$string['addingmatch'] = 'הוספת שאלה תואמת';
+$string['addingmultianswer'] = 'הוספת שאלה מוכלת (Cloze)';
+$string['addingmultichoice'] = 'הוספת שאלות בחירה מרובה';
+$string['addingnumerical'] = 'הוספת שאלה מספרית';
+$string['addingquestion'] = 'הוספת שאלה';
 $string['addingquestions'] = 'צד זה של הדף משמש לניהול מסד נתוני השאלות שלך. השאלות נשמרות בקטגוריות כדי לאפשר לך לשמור על סדר, ניתן להשתמש בהן בכל בוחן בקורס שלך ואפילו בקורסים אחרים אם תחליט \"לפרסם\" אותן. <br /><br />אחרי שתבחר או תיצור קטגורית שאלות תוכל ליצור או לערוך שאלות. תוכל לבחור להוסיף כל אחת משאלות אלו לבוחן שלך בצד השני של הדף.';
+$string['addingrandom'] = 'הוספת שאלה אקראית';
+$string['addingrandomsamatch'] = 'הוספת שאלה אקראית מסוג \"תשובה קצרה\" תואמת';
+$string['addingshortanswer'] = 'הוספת שאלה של \"תשובה קצרה\"';
+$string['addingtruefalse'] = 'הוספת שאלת אמת/שקר';
 $string['addquestions'] = 'הוסף שאלות';
 $string['addquestionstoquiz'] = 'הוספת שאלות לבוחן הנוכחי';
 $string['addrandom'] = 'הוסף $a שאלות אקראיות';

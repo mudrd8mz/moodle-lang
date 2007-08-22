@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // forum.php - created with Moodle 1.8 + (2007021503)
 
 
@@ -139,7 +139,7 @@ $string['namesocial'] = 'פורום קהילתי';
 $string['nameteacher'] = 'פורום מורים';
 $string['newforumposts'] = 'הודעות חדשות בפורום';
 $string['nodiscussions'] = 'עדיין אין נושאים לדיון בפורום זה.';
-$string['nodiscussionsstartedby'] = 'משתמש זה לא התחיל באף דיון';
+$string['nodiscussionsstartedby'] = 'משתמש זה לא התחיל אף דיון';
 $string['noguestpost'] = 'צר לי, אורחים אינם מורשים לפרסם הודעות.';
 $string['noguestsubscribe'] = 'צר לי, אורחים אינם מורשים להרשם לקבלת הודעות פורום בדוא\"ל.';
 $string['noguesttracking'] = 'צר לי, אורחים אינם יכולים להגדיר אפשרויות מעקב.';

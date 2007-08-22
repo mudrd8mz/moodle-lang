@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8 + (2007021503)
+      // message.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['addcontact'] = 'הוסף איש קשר';
@@ -55,6 +55,7 @@ $string['searchforperson'] = 'ערוך חיפוש אחר מישהו';
 $string['searchmessages'] = 'ערוך חיפוש בהודעות';
 $string['sendmessage'] = 'שלח הודעה';
 $string['sendmessageto'] = 'שלח הודעה ל-$a';
+$string['sendmessagetopopup'] = 'שלח הודעה לחלונו החדש של $a';
 $string['settings'] = 'הגדרות';
 $string['settingssaved'] = 'ההגדרות שלך נשמרו';
 $string['showmessagewindow'] = 'הראה אוטומטית את חלון ההודעה בכל פעם שאני מקבל הודעה חדשה (עליך להגדיר את הדפדפן שלך כך שהוא לא יחסום \'חלונות קופצים\' באתר זה.)';

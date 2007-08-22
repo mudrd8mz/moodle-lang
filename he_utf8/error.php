@@ -1,12 +1,14 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8 + (2007021503)
+      // error.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['adminprimarynoedit'] = 'אחרים לא יכולים לערוך את המנהל הראשי';
 $string['cannotcreatelangdir'] = 'לא ניתן ליצור סיפריית שפה.';
 $string['cannotcreatetempdir'] = 'לא ניתן ליצור סיפרייה זמנית.';
+$string['cannotcustomizelocallang'] = 'אין לך רשות לבצע התאמה אישיתלתרגום המחרוזות. הראשה זאת מבוקרת על ידי היכולת \"moodle/site:langeditlocal\". הפעל יכולת זאת בכדי לאשפר לך לערוך את חבילות השפה המקומיות במידה ואתה רוצה לשנות תרגומים עבור באתר דלך.';
 $string['cannotdownloadcomponents'] = 'לא ניתן להוריד רכיבים.';
 $string['cannotdownloadzipfile'] = 'לא ניתן להוריד קובץ ZIP.';
+$string['cannoteditmasterlang'] = 'אין לך רשות לערוך את חבילת השפה הראשית. אישור זה מבוקר על ידי ההרשאה moodle/site:langeditmaster. הפעל יכולת זאת בכדי לאשפר לך לערוך את חבילת השפה העקרית במידה ואתה התחזק של החבילה.';
 $string['cannotfindcomponent'] = 'הרכיב לא נמצא.';
 $string['cannotsavemd5file'] = 'לא ניתן לשמור קובץ md5.';
 $string['cannotsavezipfile'] = 'לא ניתן לשמור קובץ ZIP.';

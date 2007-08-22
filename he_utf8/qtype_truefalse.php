@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // qtype_truefalse.php - created with Moodle 1.8 dev (2006120700)
+      // qtype_truefalse.php - created with Moodle 1.9 Beta + (2007081600)
 
 
+$string['addingtruefalse'] = 'הוספת שאלה מסוג אמת/שקר';
 $string['correctanswer'] = 'תשובה נכונה';
 $string['editingtruefalse'] = 'עריכת שאלת נכון-לא נכון';
 $string['false'] = 'לא נכון';

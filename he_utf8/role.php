@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 + (2007021503)
+      // role.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['addrole'] = 'הוסף  תפקיד חדש';
@@ -8,6 +8,7 @@ $string['allowassign'] = 'אפשר מתן תפקיד';
 $string['allowoverride'] = 'אפשר עקיפת תפקיד';
 $string['assignglobalroles'] = 'מנה תפקידים חובקי-כל';
 $string['assignroles'] = 'מנה תפקידים';
+$string['block:view'] = 'צפה בבלוק';
 $string['blog:create'] = 'צור רשומות חדשות בבלוג';
 $string['blog:manageentries'] = 'ערוך ונהל את הרשומות';
 $string['blog:manageofficialtags'] = 'נהל תגים רשמיים';
@@ -58,6 +59,7 @@ $string['errorbadroleshortname'] = 'שם תפקיד שגוי';
 $string['errorexistsrolename'] = 'שם התפקיד כבר קיים';
 $string['errorexistsroleshortname'] = 'שם התפקיד כבר קיים';
 $string['existingusers'] = '$a משתמשים קיימים';
+$string['globalrole'] = 'תפקיד גלובאלי';
 $string['globalroleswarning'] = 'אזהרה! כל התפקידים שתחלק מעמוד זה יהיו תקפים לגבי המשתמשים בכל רחבי האתר, כולל בעמוד הראשי וכל הקורסים.';
 $string['grade:export'] = 'יצא ציונים';
 $string['grade:hide'] = 'הסתר/גלה ציונים או פריטים';
@@ -134,6 +136,10 @@ $string['site:uploadusers'] = 'העלה מקובץ משתמשים חדשים';
 $string['site:viewfullnames'] = 'תמיד ראה את שמם המלא של המשתמשים';
 $string['site:viewparticipants'] = 'ראה משתתפים';
 $string['site:viewreports'] = 'ראה דוחות';
+$string['tag:create'] = 'צור תוויות חדשות';
+$string['tag:edit'] = 'ערוך תוויות קיימות';
+$string['tag:editblocks'] = 'ערוך בלוקים בדפי תוויות';
+$string['tag:manage'] = 'נהל את כל התוויות';
 $string['user:changeownpassword'] = 'שנה את הסיסמה שלך';
 $string['user:create'] = 'צור משתמשים';
 $string['user:delete'] = 'מחק משתמשים';

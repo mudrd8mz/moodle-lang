@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // simpletest.php - created with Moodle 1.8 + (2007021503)
 
 
@@ -18,7 +18,7 @@ $string['runall'] = 'הרץ את המבחנים מכל קבצי המבחנים.'
 $string['runat'] = 'הרץ ב- $a.';
 $string['runonlyfile'] = 'הרץ את המבחנים בקובץ זה בלבד.';
 $string['runonlyfolder'] = 'הרץ את המבחנים בתיקייה זו בלבד.';
-$string['runtests'] = 'הרץ מבחנים.';
+$string['runtests'] = 'הרץ מבחנים';
 $string['rununittests'] = 'הרץ את מבחני היחידה.';
 $string['showpasses'] = 'הצג את הציונים העוברים בנוסף לציונים הנכשלים.';
 $string['showsearch'] = 'הראה את החיפוש עבור קבצי המבחנים.';

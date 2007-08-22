@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8 + (2007021503)
+      // mnet.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (self-signed)';
@@ -29,6 +29,7 @@ $string['current_transport'] = 'משלוח נוכחי';
 $string['currentkey'] = 'מפתח ציבורי נוכחי';
 $string['databaseerror'] = 'לא ניתן היה לכתוב פרטים אלו במסד הנתונים';
 $string['deleteaserver'] = 'מחיקת שרת';
+$string['deletehost'] = 'הסר מארח';
 $string['deletekeycheck'] = 'האם אתה בטוח כי הינך רוצה למחוק מפתח זה?';
 $string['deleteoutoftime'] = 'חלון ה-60 שניות עבור מחיקת מפתח זה פג. אנא התחל שוב.';
 $string['deleteuserrecord'] = 'SSO ACL: מחק רשומה למשתמש \'$a[0]\' מ-$a[1].';

@@ -57,6 +57,11 @@ Fourth posting of the ISOC-IL project updated: 23/07/2007
 
 Fifth posting of the ISOC-IL project updated: 15/08/2007
 *** This completed the posting for version 1.9 of Moodle for this date.
-in addition some of the Help Files. Be continue soon...
+in addition some of the Help Files.will Be continue soon...
 
+----------------------------------------------------------------------------------------
+
+Fifth posting of the ISOC-IL project updated: 22/08/2007
+*** This completed the posting for version 1.9 of Moodle for this date.
+in addition some of the Help Files. will Be continue soon...
 ----------------------------------------------------------------------------------------
