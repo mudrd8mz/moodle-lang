@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.9 dev (2007081001)
+      // install.php - created with Moodle 1.9 Beta + (2007082000)
 
 
 $string['admindirerror'] = '設定されたadminディレクトリが正しくありません。';
@@ -65,6 +65,12 @@ $string['databasesettingssub_mssql_n'] = '<b>タイプ:</b> SQL*Server (　UTF-8
 <b>パスワード:</b> データベースのパスワード<br />
 <b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 (必須)';
 $string['databasesettingssub_mysql'] = '<b>タイプ:</b> MySQL<br />
+<b>ホスト:</b> 例 localhost または db.isp.com<br />
+<b>データベース名:</b> 例 moodle<br />
+<b>ユーザ名:</b> データベースのユーザ名<br />
+<b>パスワード:</b> データベースのパスワード<br />
+<b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 (任意)';
+$string['databasesettingssub_mysqli'] = '<b>タイプ:</b> Improved MySQL<br />
 <b>ホスト:</b> 例 localhost または db.isp.com<br />
 <b>データベース名:</b> 例 moodle<br />
 <b>ユーザ名:</b> データベースのユーザ名<br />
@@ -185,6 +191,8 @@ $string['mssql_n'] = 'SQL*Server UTF-8サポート (mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'PHPのMSSQL拡張モジュールが適切に設定されていないため、SQL*Serverと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHPのMySQL拡張モジュールが適切に設定されていないため、MySQLと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
+$string['mysqli'] = 'Improved MySQL (mysqli)';
+$string['mysqliextensionisnotpresentinphp'] = 'PHPのMySQLi拡張モジュールが適切に設定されていないため、MySQLと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。MySQLi拡張モジュールは、PHP4では使用できません。';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHPのOCI8拡張モジュールが適切に設定されていないため、Oracleと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['odbc_mssql'] = 'SQL*Server over ODBC (odbc_mssql)';
