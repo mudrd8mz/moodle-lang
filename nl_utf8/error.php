@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta + (2007081600)
+      // error.php - created with Moodle 1.9 Beta + (2007082200)
 
 
 $string['adminprimarynoedit'] = 'Het profiel van de beheerder met het kleinste gebruikersnummer kan door de andere beheerders niet gewijzigd worden';
+$string['cannotassignrole'] = 'Kan rol niet toewijzen in cursus';
 $string['cannotcreatelangdir'] = 'Kan lang map niet maken';
 $string['cannotcreatetempdir'] = 'Kan tijdelijke map niet maken.';
 $string['cannotcustomizelocallang'] = 'Je hebt onvoldoende rechten om de woorden en zinnen van de vertaling aan te passen. Deze rechten worden gecontroleerd door de mogelijkheid \"moodle/site:langeditlocal\". Zet deze mogelijkheid op toelaten om locale aanpassingen te doen aan de vertaling van jouw site.';
@@ -13,6 +14,7 @@ $string['cannotfindcomponent'] = 'Kan component niet vinden.';
 $string['cannotsavemd5file'] = 'Kan md5-bestand niet bewaren.';
 $string['cannotsavezipfile'] = 'Kan ZIP-bestand niet bewaren.';
 $string['cannotunzipfile'] = 'Kan bestand niet unzippen';
+$string['cannotviewprofile'] = 'Je kan het profiel van deze gebruiker niet bekijken.';
 $string['cantunenrollfrommetacourse'] = 'Je kunt je uit deze koepelcursus niet afmelden';
 $string['cantunenrollinthisrole'] = 'Je kunt je door de beperkingen van je huidige rol niet afmelden uit deze cursus';
 $string['cmunknown'] = 'Kan deze cursusmodule niet vinden';
@@ -21,6 +23,7 @@ $string['confirmsesskeybad'] = 'Je sessiesleutel om deze actie uit te voeren kon
 $string['couldnotassignrole'] = 'Er gebeurde een ernstige maar niet gespecifieerde fout tijdens het proberen toewijzen van een rol aan jou.';
 $string['coursegroupunknown'] = 'De cursus die met groep $a overeenkomt is niet gespecifieerd';
 $string['downloadedfilecheckfailed'] = 'Controle van het gedownloade bestand mislukt';
+$string['duplicateusername'] = 'Gebruikersnaam bestaat al - record genegeerd';
 $string['errorcleaningdirectory'] = 'Fout bij het opkuisen van map \"$a\"';
 $string['errorcopyingfiles'] = 'Fout bij het kopiëren van bestanden';
 $string['errorcreatingdirectory'] = 'Fout bij het maken van map \"$a\"';
@@ -89,8 +92,11 @@ $string['unknownuseraction'] = 'Sorry, Moodle begrijpt niet wat je wil';
 $string['usernotaddederror'] = 'Gebruiker \"$a\" niet toegevoegd - onbekende fout';
 $string['usernotaddedregistered'] = 'Gebruiker \"$a\" niet toegevoegd - gebruiker bestaat al';
 $string['usernotavailable'] = 'Je hebt het recht niet om de detailgegevens van deze gebruiker te zien.';
+$string['usernotdeletederror'] = 'Gebruiker niet verwijderd - onbekende fout';
+$string['usernotdeletedmissing'] = 'Gebruiker niet verwijderd - kon gebruikersnaam niet vinden.';
 $string['usernotrenamedexists'] = 'Gebruiker niet hernoemd -- de nieuwe gebruikersnaam bestaat al.';
 $string['usernotrenamedmissing'] = 'Gebruiker niet hernoemd -- kon de oude gebruikersnaam niet vinden.';
+$string['usernotupdatederror'] = 'Gebruiker niet aangepast - onbekende fout';
 $string['wrongdestpath'] = 'Fout pad voor bestemming';
 $string['wrongsourcebase'] = 'Foute URL voor de bron';
 $string['wrongzipfilename'] = 'Foute ZIP-bestandsnaam';

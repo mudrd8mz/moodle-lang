@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.8 dev (2006102400)
+      // install.php - created with Moodle 1.9 Beta + (2007082200)
 
 
 $string['admindirerror'] = 'De admin-map die je opgeeft is niet juist';
@@ -68,6 +68,12 @@ $string['databasesettingssub_mysql'] = '<b>Type:</b> MYSQL<br />
 <b>Gebruiker:</b> de gebruikersnaam voor jouw database<br />
 <b>Wachtwoord:</b> het wachtwoord voor je databank<br />
 <b>Tabelvoorvoegsel:</b>een voorvoegsel dat je wil gebruiken voor alle tabelnamen (optioneel)';
+$string['databasesettingssub_mysqli'] = '<b>Type:</b> Improved MySQL<br />
+<b>Host:</b> vb localhost of db.isp.com<br />
+<b>Naam:</b> databank naam, vb moodle<br />
+<b>Gebruiker:</b> Gebruikersnaam van jouw databank<br />
+<b>Wachtwoord:</b> Wachtwoord voor jouw databank<br />
+<b>Tabelvoorvoegsel:</b> voorvoegsel voor alle tabelnamen (optioneel)';
 $string['databasesettingssub_oci8po'] = '<b>Type:</b> Oracle<br />
 <b>Host:</b>niet gebruikt - moet leeggelaten worden<br />
 <b>Naam:</b> database naam of de tnsnames.ora connection<br />

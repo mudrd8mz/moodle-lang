@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta + (2007081600)
+      // admin.php - created with Moodle 1.9 Beta + (2007082200)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
 $string['accounts'] = 'Gebruikers';
+$string['addcounter'] = 'Teller toevoegen';
 $string['adminseesall'] = 'Beheerders zien alles';
 $string['adminseesallevents'] = 'Beheerders zien alle gebeurtenissen';
 $string['adminseesownevents'] = 'Beheerders zien niet alle gebeurtenissen';
@@ -257,6 +258,8 @@ $string['defaultallowedmodules'] = 'Standaard toegelaten modules';
 $string['defaultcourseroleid'] = 'Stanaard rol voor gebruikers in een cursus';
 $string['defaultrequestcategory'] = 'Standaardcategorie voor cursusaanvragen';
 $string['defaultuserroleid'] = 'Standaardrol voor alle gebruikers';
+$string['defaultvalues'] = 'Standaardwaarden';
+$string['deleteerrors'] = 'Verwijder fouten';
 $string['deleteunconfirmed'] = 'Verwijder niet-bevestigde gebruikers na';
 $string['deleteuser'] = 'Verwijder gebruiker';
 $string['density'] = 'Dichtheid';
@@ -269,7 +272,7 @@ $string['doctonewwindow'] = 'Open in nieuw venster';
 $string['download'] = 'Download';
 $string['editennotallowed'] = 'Het taalpakket en_utf8 kan niet bewerkt worden met deze pagina - switch naar local';
 $string['edithelpdocs'] = 'Bewerk helpbestanden';
-$string['editlang'] = '<b>Bewerk</b>';
+$string['editingnoncorelangfile'] = 'Je probeert een vertaling van een niet-standaard module te wijzigen. Je kunt de vertaling alleen bewaren in je _local map. Misschien wil je daarna de vertaling verplaatsen naar de lang-map van de module en/of de vertaling naar de maker van de module sturen.';
 $string['editorbackgroundcolor'] = 'Achtergrondkleur';
 $string['editordictionary'] = 'Editor woordenboek';
 $string['editorfontfamily'] = 'Lettertypefamilie';
@@ -430,6 +433,7 @@ $string['mymoodle'] = 'Mijn Moodle';
 $string['mymoodleredirect'] = 'Mijn Moodle verplichten';
 $string['mysql416bypassed'] = 'Als je site echter UITSLUITEND iso-8859-1 (latin) talen gebruikt, dan kun je MySQL 4.1.12 (of hoger) blijven gebruiken.';
 $string['mysql416required'] = 'MySQL 4.1.16 is de minimum versie die nodig is voor Moodle 1.6 om te kunnen garanderen dat alle gegevens naar UTF-8 geconverteerd zullen worden.';
+$string['newusernamehandling'] = 'Afhandeling van dubbele nieuwe gebruikersnamen';
 $string['nobookmarksforuser'] = 'Je hebt geen bladwijzers.';
 $string['nodefaultuserrolelists'] = 'Alle standaardrolgebruikers niet ophalen';
 $string['nolangupdateneeded'] = 'Al je geïnstalleerde taalpakketten zijn up-to-date. Er is geen update nodig.';
@@ -444,6 +448,7 @@ $string['notifyloginfailures'] = 'Loginfouten mailen naar';
 $string['notifyloginthreshold'] = 'Minimumaantal fouten voor e-mailnotificatie';
 $string['notloggedinroleid'] = 'Rol voor bezoekers';
 $string['numberofmissingstrings'] = 'Aantal ontbrekende woorden of zinnen: $a';
+$string['numberofstrings'] = 'Aantal woorden/zinnen: $a->strings<br />Ontbrekend: $a->missing ($a->missingpercent&nbsp;%%)';
 $string['opensslrecommended'] = 'Het installeren van de OpenSSL bibliotheek is sterk aangeraden -- het maakt Moodle Networking mogelijk.';
 $string['opentogoogle'] = 'Open voor Google';
 $string['optionalmaintenancemessage'] = 'Optionele onderhoudsboodschap';
@@ -568,6 +573,7 @@ $string['sitemaintenancewarning'] = 'Je site is nu in onderhoudsmodus (alleen be
 $string['sitepolicies'] = 'Site reglement';
 $string['sitepolicy'] = 'URL voor site afspraken';
 $string['sitesectionhelp'] = 'Indien gekozen wordt er een onderwerpsectie getoond op de startpagina van de site';
+$string['skipuser'] = 'Gebruikers overslaan';
 $string['slasharguments'] = 'Gebruik slash arguments';
 $string['smartpix'] = 'Slim afbeeldingen zoeken';
 $string['smtphosts'] = 'SMTP hosts';
@@ -626,15 +632,18 @@ $string['upwards'] = 'hoger';
 $string['usehtmleditor'] = 'Gebruik HTML-editor';
 $string['useraccountupdated'] = 'Gebruiker geüpdatet';
 $string['userbulk'] = 'Gebruikers in bulk beheren';
+$string['userdeleted'] = 'Gebruiker verwijderd';
 $string['userlist'] = 'Lijst';
 $string['userpolicies'] = 'Gebruikersregels';
 $string['userrenamed'] = 'Gebruiker hernoemd';
 $string['users'] = 'Gebruikers';
 $string['userscreated'] = 'Gebruikers gecreëerd';
+$string['usersdeleted'] = 'Gebruikers verwijderd';
 $string['usersrenamed'] = 'Gebruikers hernoemd';
 $string['usersupdated'] = 'Gebruikers geüpdatet';
 $string['usetags'] = 'Tags functionaliteit inschakelen';
 $string['validateerror'] = 'Deze waarde is niet geldig';
+$string['editlang'] = '<b>Bewerk</b>'; // ORPHANED
 $string['confighideactivitytypecrumb'] = 'Selecteer voor wie het activiteitstype (bijvoorbeeld Testen) in het broodkruimelpad verborgen moet worden.'; // ORPHANED
 $string['hideactivitytypecrumb'] = 'Verberg broodkruimeltje voor activiteitstype'; // ORPHANED
 
