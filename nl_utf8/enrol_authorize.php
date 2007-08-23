@@ -4,13 +4,17 @@
 
 $string['adminacceptccs'] = 'Welke kredietkaarten zullen aanvaard worden?';
 $string['adminaccepts'] = 'Kies toegelaten betalingsmethoden en hun types';
+$string['adminauthcode'] = 'Als de Kredietkaart van een gebruiker niet kan gecontroleerd worden over internet, vraag dan een authorisatiecode aan de bank van de gebruiker via de telefoon .';
 $string['adminauthorizeccapture'] = 'Bestellingsoverzicht & instellingen automatische ontvangsten';
 $string['adminauthorizeemail'] = 'Instellingen e-mail';
 $string['adminauthorizesettings'] = 'Instellingen Authorize.net';
 $string['adminauthorizewide'] = 'Instellingen voor heel de site';
 $string['adminavs'] = 'Controleer of je Adress Verification System (AVS) hebt geactiveerd in je authorize.net account. Wanneer de gebruiker het betaalformulier invult, worden hierdoor adresvelden zoals straat, staat, land en postcode gevraagd.';
+$string['adminconfighttps'] = 'Verzeker je ervan dat je \"<a href=\"$a->url\"> loginhttps INGESCHAKELD</a>\" hebt om deze plugin te gebruiken<br />in Beheer >> Variablen >> Beveiliging >> HTTP beveiliging.';
+$string['adminconfighttpsgo'] = 'Ga naar de <a href=\"$a->url\">beveiligingspagina</a> om deze plugin te configureren.';
 $string['admincronsetup'] = 'Het onderhoudsscript cron.php heeft al minstens 24 uur niet gelopen.<br />Om de autocapture mogelijkheid te gebruiken moet cron ingeschakeld zijn. <br />Cron installeren of schakel an_review opnieuw uit. <br />Als je autocapture uitschakeld, zullen de transacties geannuleerd worden, tenzij je ze binnen de 30 dagen bevestigd.<br />Controleer an_review en zet \'0\' in het an_capture_day veld <br /> als je betalingen manueel wil aanvaarden/niet aanvaarden binnen 30 dagen?';
 $string['adminemailexpired'] = 'Stuur een waarschuwingsmail naar de beheerders <b>$a</b> dagen geleden hoeveel het aantal van \'authorized/pending capture\' transacties er waren, voor transacties vervallen. (0=mail uitschakelen, standaardinstelling=2, maximum=5)<br />Dit is nuttig als je capturing manueel ingesteld hebt(an_review=checked, an_capture_day=0).';
+$string['adminemailexpiredsort'] = 'Waneer het aantal wachtende bestellingen die gaan vervallen naar de leraren verstuurd worden, welke is dan belangrijk?';
 $string['adminemailexpiredsortcount'] = 'Het aantal bestellingen';
 $string['adminemailexpiredsortsum'] = 'Het totaalbedrag';
 $string['adminemailexpiredteacher'] = 'Als je manueel krediteren hebt ingeschakeld (zie boven) en leraren kunnen de betalingen beheren, dan kunnen leraren ook verwittigd worden over het vervallen van wachtende bestellingen. Hierdoor zal een e-mail gestuurd worden naar de leraren van een cursus met daarin hoeveel bestellingen er gaan vervallen.';
@@ -98,6 +102,7 @@ $string['logindesc'] = 'Deze optie moet AAN staan.<br /><br />
 Je kunt de optie <a href=\"$a->url\">loginhttps</a> instellen in de sectie Variablen/Veiligheid.
 <br /><br />
 Door die instelling te gebruiken zal Moodle een veilige https-connectie maken voor de aanmelding- en betalingspagina\'s.';
+$string['logininfo'] = 'Accountnaam, wachtwoord en transactiesleutel worden om veiligheidsredenen niet getoond. Het is echter niet nodig ze opnieuw in te geven als je dat voordien al gedaan hebt. Je kunt een groene tekst zien, links van de vakjes wanneer sommige velden al ingevuld zijn. Als je deze velden voor de eerste keer invult, dan is de accountnaam (*) vereist en dan moet je de transachtiesleutel (#1)  <strong>ofwel</strong> het wachtwoord  (#2) ingeven in het juiste vakje. We raden je echter aan om de transactiesleutel in te geven om veiligheidsredenen. Als je je huidig wachtwoord wil verwijderen, vink dan het vakje af.';
 $string['methodcc'] = 'Kredietkaart';
 $string['methodecheck'] = 'eCheck (ACH)';
 $string['missingaba'] = 'ABA-nummer ontbreekt';
