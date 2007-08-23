@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 + (2007021503)
+      // quiz.php - created with Moodle 1.9 Beta + (2007082000)
 
 
 $string['1day'] = '1 den';
@@ -11,6 +11,9 @@ $string['acceptederror'] = 'Přijatelná chyba';
 $string['action'] = 'Akce';
 $string['adaptive'] = 'Adaptivní režim';
 $string['addcategory'] = 'Přidat kategorii';
+$string['addingcalculated'] = 'Přidávám vypočítávanou úlohu';
+$string['addingdescription'] = 'Přidávám popis';
+$string['addingessay'] = 'Přidávám dlouhou tvořenou odpověď';
 $string['addingquestions'] = 'Zde spravujete databázi svých testových úloh. Úlohy se ukládají do kategorií – vytvářením kategorií tak můžete svou databázi přehledně strukturovat. Jednotlivé kategorie lze použít v jakémkoliv testu v tomto kurzu, a dokonce i v jiných kurzech, pokud se rozhodnete je \'zveřejnit\'.<br /><br />Poté, co vyberete nebo vytvoříte kategorii, budete moci vytvářet nebo upravovat úlohy. Ty pak můžete přidávat do testu v levé části této stránky.';
 $string['addquestions'] = 'Přidat úlohy';
 $string['addquestionstoquiz'] = 'Vložit úlohy do stávajícího testu';
@@ -31,7 +34,7 @@ $string['analysisoptions'] = 'Nastavení analýzy';
 $string['analysistitle'] = 'Tabulka položkové analýzy';
 $string['answer'] = 'Odpovědět';
 $string['answerhowmany'] = 'Jedna nebo více odpovědí?';
-$string['answers'] = 'Odpovědi';
+$string['answers'] = 'Řešení';
 $string['answersingleno'] = 'Umožnit více odpovědí';
 $string['answersingleyes'] = 'Pouze jedna odpověď';
 $string['answerswithacceptederrormarginmustbenumeric'] = 'Odpovědi s přijatelnou chybou musejí být numerické.';
