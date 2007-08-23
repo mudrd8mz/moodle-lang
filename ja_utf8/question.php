@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 dev (2007081001)
+      // question.php - created with Moodle 1.9 Beta + (2007082200)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -14,9 +14,14 @@ $string['editingquestion'] = '問題の編集';
 $string['erroraccessingcontext'] = 'コンテクストにアクセスできません。';
 $string['errorfilecannotbecopied'] = 'エラー: ファイル $a をコピーできません。';
 $string['errorfilecannotbemoved'] = 'エラー: ファイル $a を移動できません。';
+$string['filesareacourse'] = 'コースファイルエリア';
+$string['filesareasite'] = 'サイトファイルエリア';
+$string['filestomove'] = '$a にファイルを移動/コピーしますか?';
 $string['fractionsnomax'] = 'この問題で満点を取ることができるよう、答えの1つに評点100%%を指定してください。';
 $string['getcategoryfromfile'] = 'ファイルからカテゴリを取得する';
 $string['getcontextfromfile'] = 'ファイルからコンテクストを取得する';
+$string['ignorebroken'] = 'リンク切れを無視する';
+$string['linkedfiledoesntexist'] = 'リンクファイル $a がありません。';
 $string['makechildof'] = '「 $a 」の子にする';
 $string['maketoplevelitem'] = 'トップレベルに移動する';
 $string['missingimportantcode'] = 'この問題タイプには、重要なコードがありません: $a';
@@ -32,6 +37,7 @@ $string['notenoughdatatoeditaquestion'] = '問題ID、カテゴリIDおよび問
 $string['permissionedit'] = 'この問題を編集する';
 $string['permissionmove'] = 'この問題を移動する';
 $string['permissionsaveasnew'] = 'この問題を新しい問題として保存する';
+$string['published'] = '共有';
 $string['questionbank'] = '問題バンク';
 $string['questioncatsfor'] = '「 $a 」の問題カテゴリ';
 $string['questiondoesnotexist'] = 'この問題は存在しません。';
@@ -40,5 +46,6 @@ $string['tofilecategory'] = 'カテゴリをファイルに書く';
 $string['tofilecontext'] = 'コンテクストをファイルに書く';
 $string['unknown'] = '不明';
 $string['unknownquestiontype'] = '不明な問題タイプ: $a';
+$string['unpublished'] = '非共有';
 
 ?>

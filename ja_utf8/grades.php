@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 Beta (2007081500)
+      // grades.php - created with Moodle 1.9 Beta + (2007082200)
 
 
 $string['activities'] = '活動';
@@ -7,6 +7,7 @@ $string['addcategory'] = 'カテゴリの追加';
 $string['addcategoryerror'] = 'カテゴリを追加できませんでした。';
 $string['addexceptionerror'] = 'ユーザID:評定項目への例外追加中にエラーが発生しました。';
 $string['addfeedback'] = 'フィードバックの追加';
+$string['addidnumbers'] = 'IDナンバーの追加';
 $string['additem'] = '評定項目の追加';
 $string['addoutcomeitem'] = 'アウトカム項目の追加';
 $string['aggregateextracreditmeanall'] = 'すべての評点の平均 (追加点扱い)';
@@ -137,6 +138,7 @@ $string['fullmode'] = '詳細表示';
 $string['grade'] = '評定';
 $string['gradebook'] = '評定表';
 $string['gradebookhiddenerror'] = '現在、評定表は学生から隠されています。';
+$string['gradebookhistories'] = '評定履歴';
 $string['gradeboundary'] = '評定文字の境界';
 $string['gradecategory'] = '評定カテゴリ';
 $string['gradecategoryhelp'] = '評定カテゴリヘルプ';
@@ -191,6 +193,7 @@ $string['highgradedescending'] = '高評点の降順で並び替え';
 $string['highgradeletter'] = '上限';
 $string['identifier'] = 'ユーザ識別方法:';
 $string['idnumberhelp'] = 'モジュールから提供される任意のIDナンバーです。IDナンバーは、定義されユニークである必要があります。';
+$string['idnumbers'] = 'IDナンバー';
 $string['import'] = 'インポート';
 $string['importcsv'] = 'CSVをインポートする';
 $string['importfailed'] = 'インポートが失敗しました。';
