@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 dev (2007081302)
+      // grades.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['activities'] = '활동';
@@ -153,11 +153,12 @@ $string['gradeboundary'] = '문자 성적 경계';
 $string['gradecategory'] = '성적 범주';
 $string['gradecategoryhelp'] = '성적 범주 도움말';
 $string['gradedisplaytype'] = '성적 표시 형식';
+$string['gradedon'] = '$a 등급';
 $string['gradeexceptions'] = '등급 제외';
 $string['gradeexceptionshelp'] = '등급 제외 도움말';
 $string['gradehelp'] = '성적 도움말';
 $string['gradeitem'] = '성적 항목';
-$string['gradeitemaddusers'] = '성적에서 제외';
+$string['gradeitemaddusers'] = '채점 제외';
 $string['gradeitemlocked'] = '성적 잠김';
 $string['gradeitemmembersselected'] = '성적계산에서 제외됨';
 $string['gradeitemnonmembers'] = '성적계산에 포함됨';
