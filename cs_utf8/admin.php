@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 + (2007021503)
+      // admin.php - created with Moodle 1.9 Beta + (2007082000)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -210,6 +210,7 @@ $string['cronerrorpassword'] = 'Je mi líto. Pro přístup na tuto stránku mus�
 $string['cronremotepassword'] = 'Heslo pro spuštění cronu';
 $string['cronwarning'] = 'Skript <a href=\"cron.php\">cron.php</a>, který má na starosti běžnou údržbu serveru, nebyl během posledních 24 hodin spuštěn.';
 $string['curlrecommended'] = 'Pro běh síťových funkcionalit (\"Moodle Networking\") je potřeba nainstalovat volitelnou knihovnu Curl.';
+$string['customcheck'] = 'Další kontroly';
 $string['datarootsecuritywarning'] = 'Bezpečnostní varování - zkontrolujte si, že datový adresář ($a) není přímo dostupný přes webové rozhraní.';
 $string['dbmigrate'] = 'Migrace databáze Moodlu';
 $string['dbmigrateconnecerror'] = 'Nelze se připojit k určené databázi.';
@@ -244,7 +245,6 @@ $string['doctonewwindow'] = 'Otevírat v novém okně';
 $string['download'] = 'Stáhnout';
 $string['editennotallowed'] = 'Jazyk en_utf8 nemůže být upravován přes toto rozhraní. Přepněte do režimu lokálních úprav.';
 $string['edithelpdocs'] = 'Upravit nápovědu a dokumentaci';
-$string['editlang'] = '<b>Úpravy</b>';
 $string['editorbackgroundcolor'] = 'Barva pozadí';
 $string['editordictionary'] = 'Slovník editoru';
 $string['editorfontfamily'] = 'Rodina fontů';
@@ -327,7 +327,7 @@ $string['intcachemax'] = 'Maximum interních záznamů';
 $string['invalidsection'] = 'Neplatná sekce';
 $string['invaliduserchangeme'] = 'Uživatelské jméno \'changeme\' je rezervováno -- nelze je použít pro vytvoření účtu.';
 $string['iplookup'] = 'Hledat IP adresu pomocí';
-$string['lang'] = 'Výchozí jazky';
+$string['lang'] = 'Výchozí jazyk';
 $string['lang16notify'] = 'Moodle verze 1.6 a vyšší umožňuje instalovat a aktualizovat jazykové balíčky přímo ze serveru download.moodle.org -- klikněte na odkaz níže.';
 $string['langcache'] = 'Seznam jazyků ve vyrovnávací paměti';
 $string['langedit'] = 'Úprava překladu';
@@ -398,6 +398,7 @@ $string['notifications'] = 'Upozornění';
 $string['notifyloginfailures'] = 'Posílat neúspěšná přihlášení emailem';
 $string['notifyloginthreshold'] = 'Práh pro upozornění emailem';
 $string['notloggedinroleid'] = 'Role návštěvníků';
+$string['numberofmissingstrings'] = 'Chybějících řetězců: $a';
 $string['opensslrecommended'] = 'Pro běh síťových funkcionalit (\"Moodle Networking\") je potřeba nainstalovat volitelnou knihovnu OpenSSL.';
 $string['opentogoogle'] = 'Povolit prohledávání Googlem';
 $string['optionalmaintenancemessage'] = 'Volitelná zpráva pro uživatele po dobu údržby';
@@ -493,9 +494,10 @@ $string['searchresults'] = 'Výsledky hledání';
 $string['secureforms'] = 'Použít přidané zabezpečení formuláře';
 $string['security'] = 'Zabezpečení';
 $string['server'] = 'Server';
+$string['serverchecks'] = 'Kontroly serveru';
 $string['sessioncookie'] = 'Předpona názvu cookie';
 $string['sessioncookiepath'] = 'Cesta platnosti cookie';
-$string['sessionhandling'] = 'Správa sezení (sessions)';
+$string['sessionhandling'] = 'Session';
 $string['sessiontimeout'] = 'Časový limit';
 $string['showblocksonmodpages'] = 'Ukazovat bloky na stránkách modulů';
 $string['simpletest'] = 'Testy';
@@ -569,5 +571,6 @@ $string['userscreated'] = 'Nově vytvořené  uživatelské účty';
 $string['usersrenamed'] = 'Přejmenované uživatelské účty';
 $string['usersupdated'] = 'Aktualizované uživatelské účty';
 $string['validateerror'] = 'Tato hodnota není validní:';
+$string['editlang'] = '<b>Úpravy</b>'; // ORPHANED
 
 ?>

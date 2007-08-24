@@ -1,7 +1,10 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8 + (2007021503)
+      // auth.php - created with Moodle 1.8.2+ (2007021520)
 
 
+$string['CASform'] = 'Volba ověřování';
+$string['accesCAS'] = 'uživatelé CAS';
+$string['accesNOCAS'] = 'další uživatelé';
 $string['alternatelogin'] = 'Pokud sem vložíte URL, použije se jako přihlašovací stránka k této instalaci Moodlu. Tato vaše stránka by měla obsahovat formulář, který bude mít atribut \'action\' nastaven na <strong>\'$a\'</strong> a který vrací pole <strong>username</strong> a <strong>password</strong>.<br />Dbejte na to, abyste vložili platné URL! V opačném případě byste mohli všem včetně sebe zamezit v přístupu ke stránkám.<br />Chcete-li používat standardní přihlašovací stránku, nechejte toto pole prázdné.';
 $string['alternateloginurl'] = 'URL vlastního přihlášení';
 $string['auth_cas_auth_user_create'] = 'Vytvořit uživatele externě';
@@ -20,8 +23,14 @@ $string['auth_cas_invalidcaslogin'] = 'Je mi líto, ale vaše přihlášení sel
 $string['auth_cas_language'] = 'Vybraný jazyk';
 $string['auth_cas_language_key'] = 'Jazyk';
 $string['auth_cas_logincas'] = 'Přístup prostřednictvím šifrovaného spojení';
+$string['auth_cas_logoutcas'] = 'Zvolte \'Ano\', pokud se chcete odhlásit z CAS při odhlašování z Moodle';
+$string['auth_cas_logoutcas_key'] = 'Odhlásit z CAS';
+$string['auth_cas_multiauth'] = 'Zvolte \'Ano\', pokud chcete používat ověřování z více zdrojů (CAS + další zdroje)';
+$string['auth_cas_multiauth_key'] = 'Vícezdrojové ověřování';
 $string['auth_cas_port'] = 'Port  serveru CAS';
 $string['auth_cas_port_key'] = 'Port';
+$string['auth_cas_proxycas'] = 'Zvolte \'Ano\', pokud pokud používáte CAS v proxy módu.';
+$string['auth_cas_proxycas_key'] = 'Proxy mód';
 $string['auth_cas_server_settings'] = 'Konfigurace serveru CAS';
 $string['auth_cas_text'] = 'Šifrované spojení';
 $string['auth_cas_use_cas'] = 'Použít CAS';
@@ -112,7 +121,7 @@ $string['auth_imaptype'] = 'Typ serveru IMAP. Servery IMAP mohou používat růz
 $string['auth_imaptype_key'] = 'Typ';
 $string['auth_ldap_auth_user_create_key'] = 'Vytvořit uživatele externě';
 $string['auth_ldap_bind_dn'] = 'Chcete-li používat nějaký účet (bind-user) k vyhledání uživatelů, specifikujte jej zde. Příklad: \'cn=ldapuser,ou=public,o=org\'';
-$string['auth_ldap_bind_dn_key'] = 'Významné jméno? (Distinguished Name)';
+$string['auth_ldap_bind_dn_key'] = 'Jednoznačné jméno (Distinguished Name)';
 $string['auth_ldap_bind_pw'] = 'Heslo pro bind-user';
 $string['auth_ldap_bind_pw_key'] = 'Heslo';
 $string['auth_ldap_bind_settings'] = 'Nastavení bind';

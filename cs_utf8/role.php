@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 + (2007021503)
+      // role.php - created with Moodle 1.9 Beta + (2007082000)
 
 
 $string['addrole'] = 'Přidat novou roli';
@@ -8,6 +8,7 @@ $string['allowassign'] = 'Povolit přidělování rolí';
 $string['allowoverride'] = 'Povolit přenastavení rolí';
 $string['assignglobalroles'] = 'Přidělit globální role';
 $string['assignroles'] = 'Přidělit role';
+$string['block:view'] = 'Vidět blok';
 $string['blog:create'] = 'Vytvořit nové příspěvky blogu';
 $string['blog:manageentries'] = 'Upravovat a spravovat položky';
 $string['blog:manageofficialtags'] = 'Spravovat oficiální klíčová slova';
@@ -58,6 +59,7 @@ $string['errorbadroleshortname'] = 'Nesprávná zkratka role';
 $string['errorexistsrolename'] = 'Název role už existuje';
 $string['errorexistsroleshortname'] = 'Zkratka role už existuje';
 $string['existingusers'] = '$a stávajících uživatelů';
+$string['globalrole'] = 'Globální role';
 $string['globalroleswarning'] = 'UPOZORNĚNÍ! Všechny role, které přidělíte na této stránce, budou platné napříč celými stránkami včetně titulní strany a všech kurzů.';
 $string['inherit'] = 'Zdědit';
 $string['legacy:admin'] = 'Archetyp: Správce';
@@ -80,9 +82,6 @@ $string['permissions'] = 'Oprávnění';
 $string['potentialusers'] = '$a uživatelů k dispozici';
 $string['prevent'] = 'Zamezit';
 $string['prohibit'] = 'Zakázat';
-$string['question:export'] = 'Exportovat otázky';
-$string['question:import'] = 'Importovat otázky';
-$string['question:manage'] = 'Spravovat otázky';
 $string['question:managecategory'] = 'Spravovat kategorii otázek';
 $string['resetrole'] = 'Resetovat na výchozí hodnoty';
 $string['resetrolenolegacy'] = 'Vymazat oprávnění';
@@ -91,7 +90,7 @@ $string['resetrolesurenolegacy'] = 'Skutečně chcete vymazat všechna oprávně
 $string['risks'] = 'Rizika';
 $string['role:assign'] = 'Přiřadit role uživatelům';
 $string['role:manage'] = 'Vytvářet a spravovat role';
-$string['role:override'] = 'Přenastavovat oprávnění pro ostatním';
+$string['role:override'] = 'Přenastavovat oprávnění ostatních uživatelů';
 $string['role:switchroles'] = 'Přepínat na jiné role';
 $string['role:unassignself'] = 'Rušit přidělení vlastních rolí';
 $string['role:viewhiddenassigns'] = 'Vidět skrytá přidělení rolí';
@@ -131,5 +130,8 @@ $string['user:viewuseractivitiesreport'] = 'Vidět zprávy o činnosti uživatel
 $string['user:viewusergrades'] = 'Vidět známky uživatele';
 $string['viewrole'] = 'Vidět podrobnosti role';
 $string['xuserswiththerole'] = 'Uživatelů s rolí \"$a->role\": $a->number';
+$string['question:export'] = 'Exportovat otázky'; // ORPHANED
+$string['question:import'] = 'Importovat otázky'; // ORPHANED
+$string['question:manage'] = 'Spravovat otázky'; // ORPHANED
 
 ?>

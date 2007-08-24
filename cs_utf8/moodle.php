@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8.1+ (2007021510)
+      // moodle.php - created with Moodle 1.9 Beta + (2007082000)
 
 
 $string['action'] = 'Akce';
@@ -36,6 +36,7 @@ $string['addnousersrecip'] = 'Přidat na seznam příjemců uživatele, kteří 
 $string['addresource'] = 'Přidat studijní materiál...';
 $string['address'] = 'Adresa';
 $string['addstudent'] = 'Přidat studenta';
+$string['addsubcategory'] = 'Přidat podkategorii';
 $string['addteacher'] = 'Přidat učitele';
 $string['admin'] = 'Správa';
 $string['adminbookmarks'] = 'Upravit záložky';
@@ -131,6 +132,7 @@ $string['autosubscribeno'] = 'Ne: nenastavovat automaticky odebírání';
 $string['autosubscribeyes'] = 'Ano: pokud pošlu příspěvek, chci automaticky odebírat příspěvky';
 $string['availability'] = 'Dostupnost';
 $string['availablecourses'] = 'Dostupné kurzy';
+$string['back'] = 'Zpět';
 $string['backtoparticipants'] = 'Zpět k seznamu účastníků';
 $string['backup'] = 'Záloha';
 $string['backupactivehelp'] = 'Zvolte, zda provádět automatické zálohování';
@@ -158,6 +160,7 @@ $string['backupnonisowarning'] = 'Upozornění: Tato záloha pochází z verze M
 $string['backuporiginalname'] = 'Název zálohy';
 $string['backupsavetohelp'] = 'Úplná cesta k adresáři, do něhož chcete ukládat soubory záloh<br />(ponecháte-li pole prázdné, budou se soubory ukládat do vlastního adresáře daného kurzu)';
 $string['backupschedulehelp'] = 'Zvolte, ve kterých dnech v týdnu se má provádět automatické zálohování';
+$string['backupsitefileshelp'] = 'Je-li povoleno, budou soubory stránek použité v kurzech zahrnuty v zálohách kurzů';
 $string['backuptakealook'] = 'Zkontrolujte prosím protokoly záloh: $a';
 $string['backupuserfileshelp'] = 'Zahrnout do automatických záloh soubory uživatelů (např. jejich fotografie)';
 $string['backupusershelp'] = 'Zahrnout všechny uživatele na serveru, nebo vždy jen uživatele zapsané do daného kurzu?';
@@ -184,6 +187,7 @@ $string['category'] = 'Kategorie';
 $string['categoryadded'] = 'Kategorie \'$a\' byla přidána';
 $string['categorydeleted'] = 'Kategorie \'$a\' byla odstraněna';
 $string['categoryduplicate'] = 'Kategorie \'$a\' již existuje!';
+$string['categoryname'] = 'Název kategorie';
 $string['changedpassword'] = 'Heslo změněno';
 $string['changepassword'] = 'Změnit heslo';
 $string['changessaved'] = 'Změny uloženy';
@@ -227,6 +231,7 @@ $string['complete'] = 'Podrobný';
 $string['completereport'] = 'Podrobná sestava';
 $string['configuration'] = 'Nastavení';
 $string['confirm'] = 'Potvrdit';
+$string['confirmcheckfull'] = 'Jste si jisti, že chcete potvrdit $a?';
 $string['confirmed'] = 'Vaše registrace byla potvrzena';
 $string['confirmednot'] = 'Vaše registrace ještě nebyla potvrzena!';
 $string['continue'] = 'Pokračovat';
@@ -237,6 +242,7 @@ $string['cookiesnotenabled'] = 'Bohužel, ve vašem prohlížeči nejsou moment�
 $string['copy'] = 'kopírovat';
 $string['copyasnoun'] = 'kopie';
 $string['copyingcoursefiles'] = 'Kopíruji soubory kurzu';
+$string['copyingsitefiles'] = 'Kopírování souborů stránek použitých v kurzech';
 $string['copyinguserfiles'] = 'Kopíruji soubory uživatele';
 $string['copyingzipfile'] = 'Kopíruji soubor ZIP';
 $string['copyrightnotice'] = 'Autorská práva';
@@ -257,6 +263,8 @@ $string['coursecategories'] = 'Kategorie kurzů';
 $string['coursecategory'] = 'Kategorie kurzu';
 $string['coursecreators'] = 'Tvůrci kurzu';
 $string['coursecreatorsdescription'] = 'Tvůrci kurzu mohou vytvořit nové kurzy a učit v nich.';
+$string['courseenrolenddate'] = 'Konec zápisů do kurzu';
+$string['courseenrolstartdate'] = 'Začátek zápisu do kurzu';
 $string['coursefiles'] = 'Soubory kurzu';
 $string['courseformatdata'] = 'Formát dat kurzu';
 $string['courseformats'] = 'Uspořádání kurzu';
@@ -301,6 +309,7 @@ $string['creatingcourseroles'] = 'Vytvářím přiřazení rolí kurzu a potlač
 $string['creatingevents'] = 'Vytvářím události';
 $string['creatinggradebook'] = 'Vytvářím klasifikaci';
 $string['creatinggroupings'] = 'Vytvářím seskupení';
+$string['creatinggroupingsgroups'] = 'Přidávám skupiny do seskupení';
 $string['creatinggroups'] = 'Vytvářím skupiny';
 $string['creatinglogentries'] = 'Vytvářím položky protokolu';
 $string['creatingmessagesinfo'] = 'Vytvářím informace o zprávách';
@@ -467,6 +476,12 @@ $a->link
 Ve vetsine e-mailovych programu by se vam tato adresa mela zobrazit jako odkaz, na ktery staci kliknout. Pokud tomu tak neni, zkopirujte si adresu do schranky a vlozte ji do adresniho radku ve svem webovem prohlizeci.
 Pokud narazite na problemy, obratte se na spravce techto stranek: 
 $a->admin';
+$string['emailpasswordchangeinfodisabled'] = 'Zdravicko $a->firstname,
+
+Nekdo (pravdepodobne vy) pozaduje zmenu hesla k vasemu uctu na strankach  \'$a->sitename\'.
+
+Vas ucet je ale bohuzel na techto strankach zablokovan a heslo nemuze byt zmeneno. Spojte se se správcem:
+$a->admin';
 $string['emailpasswordchangeinfofail'] = 'Zdravicko $a->firstname,
 
 Nekdo (pravdepodobne vy) pozaduje zmenu hesla k vasemu uctu na strankach  \'$a->sitename\'.
@@ -506,6 +521,7 @@ $string['enrolmentconfirmation'] = 'Chystáte se zapsat mezi účastníky tohoto
 $string['enrolmentend'] = 'Zápis končí';
 $string['enrolmentkey'] = 'Klíč k zápisu';
 $string['enrolmentkeyfrom'] = 'Tento kurz vyžaduje \'klíč k zápisu\' - jednorázové vstupní<br />heslo, které by vám měl(a) sdělit $a.';
+$string['enrolmentkeyfromguest'] = 'Tento kurz vyžaduje \'klíč k zápisu\' - jako host<br />jej musíte zadávat při každém vstupu do kurzu.<br />Klíč vám může sdělit sdělit $a.';
 $string['enrolmentkeyhint'] = 'Zadaný klíč k zápisu nebyl správný, zkuste to ještě jednou.<br />(Napovím vám - klíč začíná na \'$a\'.)';
 $string['enrolmentnew'] = 'Nový zápis v $a';
 $string['enrolmentnewuser'] = '$a->user je zapsán do kurzu \"$a->course\"';
@@ -518,6 +534,7 @@ $string['enrolperiod'] = 'Vyškrtnout studenty po';
 $string['enrolstartdate'] = 'Zápis začíná';
 $string['entercourse'] = 'Klikněte pro vstup do kurzu';
 $string['enteremailaddress'] = 'Zadejte svou e-mailovou adresu, na kterou vám bude zasláno nové heslo.';
+$string['enteryourinterests'] = 'Vložte vaše zájmy oddělené čárkou';
 $string['entries'] = 'Položky';
 $string['error'] = 'Chyba';
 $string['errortoomanylogins'] = 'Překročili jste povolený počet pokusů o přihlášení. Zavřete prohlížeč, poté ho opět spusťte a pokuste se přihlásit znovu.';
@@ -619,6 +636,7 @@ $string['gdneed'] = 'K zobrazení tohoto grafu musí být nainstalována knihovn
 $string['gdnot'] = 'GD není nainstalována';
 $string['gettheselogs'] = 'Zobrazit protokol';
 $string['go'] = 'Proveď';
+$string['gotoyourserver'] = '(Odkazy směřující na váš server)';
 $string['gpl'] = 'Copyright (C) 1999 a dále Martin Dougiamas  (http://moodle.com)
 <p>
 Tento program je volný software; můžete jej šířit a modifikovat podle ustanovení Obecné veřejné licence GNU, vydávané Free Software Foundation; a to buď podle verze 2 této licence anebo (podle vašeho uvážení) kterékoli pozdější verze.
@@ -634,6 +652,7 @@ $string['grades'] = 'Známky';
 $string['group'] = 'Skupina';
 $string['groupadd'] = 'Přidat novou skupinu';
 $string['groupaddusers'] = 'Přidat vybrané do skupiny';
+$string['groupextendenrol'] = 'Rozšířit zapisování na všechny';
 $string['groupfor'] = 'pro skupinu';
 $string['groupinfo'] = 'Informace o vybrané skupině';
 $string['groupinfoedit'] = 'Upravit nastavení skupiny';
@@ -708,6 +727,7 @@ $string['htmlformat'] = 'Formát HTML';
 $string['icqnumber'] = 'ICQ';
 $string['idnumber'] = 'ID';
 $string['idnumbercourse'] = 'Identifikátor (ID) kurzu';
+$string['idnumbertaken'] = 'Tento identifikátor (ID) již někdo používá';
 $string['imagealt'] = 'Popis obrázku';
 $string['import'] = 'Importovat';
 $string['importactivities'] = 'Importovat činnosti z jiného kurzu';
@@ -728,10 +748,12 @@ $string['includemodules'] = 'Zahrnout moduly';
 $string['includemoduleuserdata'] = 'Zahrnout uživatelská data modulu';
 $string['includeneededusers'] = 'Zahrnout nezbytné uživatele';
 $string['includenoneusers'] = 'Nezahrnout žádné uživatele';
+$string['includesitefiles'] = 'Zahrnout soubory stránek použité v tomto kurzu';
 $string['includeuserfiles'] = 'Zahrnout soubory uživatelů';
 $string['info'] = 'Informace';
 $string['institution'] = 'Instituce';
 $string['instudentview'] = 'v pohledu studenta';
+$string['interests'] = 'Zájmy';
 $string['invalidemail'] = 'Neplatná e-mailová adresa';
 $string['invalidlogin'] = 'Neplatné přihlášení, zkuste znovu';
 $string['ip_address'] = 'IP adresa';
@@ -1066,6 +1088,7 @@ $string['phpinfo'] = 'PHP info';
 $string['pictureof'] = 'Obrázek: $a';
 $string['pleaseclose'] = 'Prosím zavřete toto okno';
 $string['pluginsetup'] = 'Nastavení tabulek zásuvných modulů';
+$string['policyaccept'] = 'Rozumím a souhlasím';
 $string['policyagree'] = 'Před dalším používáním těchto stránek musíte souhlasit s těmito pravidly. Souhlasíte s nimi?';
 $string['policyagreement'] = 'Souhlas s pravidly používání stránek';
 $string['policyagreementclick'] = 'Klikněte zde, pokud si chcete přečíst Souhlas s pravidly používání těchto stránek.';
@@ -1111,6 +1134,7 @@ $string['registrationno'] = 'Ne, nechci dostávat zprávy e-mailem';
 $string['registrationsend'] = 'Odeslat údaje o registraci na moodle.org';
 $string['registrationyes'] = 'Ano, chci být upozorňován e-mailem';
 $string['reject'] = 'Odmítnout';
+$string['remotemaharauser'] = 'Vzdálený Mahara uživatel';
 $string['remove'] = 'Odstranit';
 $string['removeadmin'] = 'Odstranit správce';
 $string['removecreator'] = 'Odstranit tvůrce kurzů';
@@ -1161,6 +1185,7 @@ $string['scalescustom'] = 'Vlastní škály';
 $string['scalescustomcreate'] = 'Přidat novou škálu';
 $string['scalescustomno'] = 'Zatím nebyly vytvořeny žádné škály';
 $string['scalesstandard'] = 'Standardní škály';
+$string['scalestandard'] = 'Standardní škála';
 $string['scalestip'] = 'K vytvoření vlastních škál použijte odkaz \'Škály\' v panelu Správa ve svém kurzu.';
 $string['schedule'] = 'Časový plán';
 $string['scheduledbackupstatus'] = 'Stav plánovaných záloh';
@@ -1197,6 +1222,7 @@ $string['senddetails'] = 'Odeslat mé údaje e-mailem';
 $string['separate'] = 'Individuální';
 $string['separateandconnected'] = 'Individuální a Kolektivní způsoby poznávání';
 $string['serverlocaltime'] = 'Místní čas serveru';
+$string['setcategorytheme'] = 'Nastavit motiv kategorie';
 $string['settings'] = 'Nastavení';
 $string['shortname'] = 'Krátký název';
 $string['shortnamecollisionwarning'] = '[*] = Tento krátký název je již používán pro jiný kurz a bude potřeba jej změnit okamžitě po schválení.';
@@ -1228,6 +1254,7 @@ $string['site'] = 'Stránky';
 $string['sitedefault'] = 'Výchozí stránky';
 $string['siteerrors'] = 'Chyby na stránkách';
 $string['sitefiles'] = 'Soubory stránek';
+$string['sitefilesused'] = 'Soubory stránek použité v tomto kurzu';
 $string['sitelogs'] = 'Protokoly stránek';
 $string['sitenews'] = 'Novinky stránek';
 $string['sitepartlist'] = 'Nemáte oprávnění, potřebná ke shlédnutí seznamu účastníků';
@@ -1253,6 +1280,7 @@ $string['sourcerole'] = 'Zdrojová role';
 $string['specifyname'] = 'Musíte určit název';
 $string['starpending'] = '([*] = kurz čeká na schválení)';
 $string['startdate'] = 'Datum začátku kurzu';
+$string['startingfrom'] = 'Začíná od';
 $string['startsignup'] = 'Začněte nyní vytvořením nového účtu!';
 $string['state'] = 'Stát/Kraj';
 $string['statistics'] = 'Statistiky';
