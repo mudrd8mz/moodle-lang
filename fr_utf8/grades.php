@@ -159,6 +159,7 @@ $string['gradeboundary'] = 'Limite pour note lettre';
 $string['gradecategory'] = 'Catégorie de note';
 $string['gradecategoryhelp'] = 'Aide sur les catégories de note';
 $string['gradedisplaytype'] = 'Type d\'affichage des notes';
+$string['gradedon'] = 'Évalué le $a';
 $string['gradeexceptions'] = 'Exceptions';
 $string['gradeexceptionshelp'] = 'Aide sur les exceptions de note';
 $string['gradehelp'] = 'Aide sur les notes';
