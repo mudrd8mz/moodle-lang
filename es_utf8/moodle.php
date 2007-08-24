@@ -1051,7 +1051,7 @@ $string['noticenewerbackup'] = 'Esta copia de seguridad ha sido creada con Moodl
 $string['notifications'] = 'Notificaciones';
 $string['notify'] = 'Notificar';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Usuario: $a->info';
-$string['notifyloginfailuresmessageend'] = 'Puede ver estos registros en $a/course/log.php?id=1&chooselog=1&modid=site_errors.';
+$string['notifyloginfailuresmessageend'] = 'Puede ver estos registros en $a/course/log.php?id=1&chooselog=1&amp;modid=site_errors.';
 $string['notifyloginfailuresmessagestart'] = 'Listado de intentos fallidos de acceso a $a desde que se le envió la última notificación';
 $string['notifyloginfailuressubject'] = '$a :: Notificación de accesos fallidos';
 $string['notincluded'] = 'No incluido';

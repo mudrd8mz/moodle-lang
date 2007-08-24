@@ -11,7 +11,7 @@ $string['createnewcourses'] = 'Crear cursos nuevos (ocultas) si no se encuentran
 $string['createnewusers'] = 'Crear cuentas de usuario para usuarios aún no registrados en Moodle';
 $string['cronfrequency'] = 'Frecuencia de procesamiento';
 $string['deleteusers'] = 'Eliminar cuentas de usuario cuando se especifique en los datos IMS';
-$string['description'] = 'Este método comprobará y procesará repetidamente un archivo de texto especialmente formateado en el lugar que usted especifique. El archivo debe las <a href=\'../help.php?module=enrol/imsenterprise&file=formatoverview.html\' target=\'_blank\'>especificaciones IMS Enterprise</a> que contienen elementos XML relativos a la persona, grupo y pertenencia.';
+$string['description'] = 'Este método comprobará y procesará repetidamente un archivo de texto especialmente formateado en el lugar que usted especifique. El archivo debe las <a href=\'../help.php?module=enrol/imsenterprise&amp;file=formatoverview.html\' target=\'_blank\'>especificaciones IMS Enterprise</a> que contienen elementos XML relativos a la persona, grupo y pertenencia.';
 $string['doitnow'] = 'ejecutar ahora mismo una importación IMS Enterprise';
 $string['enrolname'] = 'archivo IMS Enterprise';
 $string['filelockedmail'] = 'El texto que usted está utilizando para las matriculaciones basadas en archivo IMS ($a) no pueden ser eliminadas por el proceso del cron. Esto normalmente significa que los permisos son erróneos. Por favor, repare los permisos de modo que Moodle pueda eliminar el archivo (de otro modo, podría ser procesado una y otra vez).';
