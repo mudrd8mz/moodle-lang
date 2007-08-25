@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_tag_flickr.php - created with Moodle 1.9 Beta + (2007081600)
+      // block_tag_flickr.php - created with Moodle 1.9  Beta + (2007081600)
 
 
 $string['blockname'] = 'Flickr';

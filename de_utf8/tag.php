@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 dev (2007080103)
+      // tag.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['addtagtomyinterests'] = '\"$a\" zu meinen Interessen hinzufügen';
@@ -33,5 +33,6 @@ $string['thistaghasnodesc'] = 'Dieses Schlagwort besitzt aktuell keine Beschreib
 $string['timemodified'] = 'Verändert';
 $string['updatetag'] = 'Aktualisieren';
 $string['userstaggedwith'] = 'Nutzer/innen mit dem Schlagwort \"$a\"';
+$string['withselectedtags'] = 'Mit ausgewählten Schlagworten...';
 
 ?>
