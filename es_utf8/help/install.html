@@ -1,18 +1,18 @@
 <h1>Instalación de Moodle</h1>
 <h2>¡No se asuste! <img src="http://moodle.org/pix/s/smiley.gif" alt="Sonrisa" /></h2>
 <blockquote>
-<p>Esta guía explica cómo instalar Moodle por primera vez. Ahonda en detalles 
-  de algunos de los pasos, con la finalidad de cubrir una amplia variedad de pequeñas 
-  diferencias entre las opciones de los diversos servidores web, de manera que 
-  este documento puede parecer largo y complicado. No se desanime por esto, &iexcl;normalmente 
+<p>Esta guía explica cómo instalar Moodle por primera vez. Ahonda en detalles
+  de algunos de los pasos, con la finalidad de cubrir una amplia variedad de pequeñas
+  diferencias entre las opciones de los diversos servidores web, de manera que
+  este documento puede parecer largo y complicado. No se desanime por esto, &iexcl;normalmente
   Moodle se instala en unos pocos minutos!</p>
 
 <p>Si tiene dificultades, por favor lea este documento cuidadosamente, pues la mayoría de los problemas habituales están contestados aquí.
-	Si aún así tiene problemas, puede buscar ayuda en 
-	<a target="_blank" href="http://moodle.org/help">Ayuda de Moodle</a>.</p>
-	<p>Otra opción es contactar con una <a target="_blank" href="http://moodle.com/hosting/">compañía de hosting</a> que pueda mantener Moodle por usted, de forma que pueda despreocuparse de todo esto y centrarse en la formación.
+    Si aún así tiene problemas, puede buscar ayuda en
+    <a target="_blank" href="http://moodle.org/help">Ayuda de Moodle</a>.</p>
+    <p>Otra opción es contactar con una <a target="_blank" href="http://moodle.com/hosting/">compañía de hosting</a> que pueda mantener Moodle por usted, de forma que pueda despreocuparse de todo esto y centrarse en la formación.
 </p>
-	<p>&nbsp;  </p>
+    <p>&nbsp;  </p>
 <p>Secciones de este documento:</p>
 <ol>
   <li><a href="#requirements">Requerimientos</a></li>
@@ -20,7 +20,7 @@
   <li><a href="#site">Estructura del sitio</a></li>
   <li><a href="#installer">Ejecutar el script de instalación para crear el archivo config.php</a>      <ul>
         <li><a href="#webserver">Comprobar la configuración del servidor web</a></li>
-	<li><a href="#database">Crear una base de datos</a></li>	
+    <li><a href="#database">Crear una base de datos</a></li>
   <li><a href="#data">Crear un directorio de datos</a></li>
   </ul>
     </li>
@@ -32,32 +32,32 @@
 </blockquote>
 <h3 class="sectionheading"><a name="requirements"></a>1. Requerimientos</h3>
 <blockquote>
-  <p>Moodle está desarrollado principalmente en Linux usando Apache, MySQL y PHP 
-    (también conocida como plataforma LAMP), aunque es probado regularmente 
-    con PostgreSQL y en en los sistemas operativos Windows XP y Mac OS X y Netware 
+  <p>Moodle está desarrollado principalmente en Linux usando Apache, MySQL y PHP
+    (también conocida como plataforma LAMP), aunque es probado regularmente
+    con PostgreSQL y en en los sistemas operativos Windows XP y Mac OS X y Netware
     6.</p>
 
   <p>Los requerimientos de Moodle son los siguientes:</p>
 
   <ol>
-    <li>Un servidor web. La mayoría de los usuarios usan <a href="http://www.apache.org/" target="_blank">Apache</a>, 
-      pero Moodle debe funcionar bien en cualquier servidor web que soporte PHP, 
+    <li>Un servidor web. La mayoría de los usuarios usan <a href="http://www.apache.org/" target="_blank">Apache</a>,
+      pero Moodle debe funcionar bien en cualquier servidor web que soporte PHP,
       como el IIS de las plataformas Windows.</li>
-    <li>Una instalación de <a href="http://www.php.net/">PHP</a> en funcionamiento 
+    <li>Una instalación de <a href="http://www.php.net/">PHP</a> en funcionamiento
       (versión 4.1.0 o posterior). PHP 5 está soportado a partir de Moodle 1.4.</li>
-    <li>Una base de datos: <a href="http://www.mysql.com/" target="_blank">MySQL</a> 
-      o <a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a>, 
+    <li>Una base de datos: <a href="http://www.mysql.com/" target="_blank">MySQL</a>
+      o <a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a>,
       que están completamente soportadas y recomendadas para su uso con Moodle.</li>
   </ol>
 
-  <p>La mayoría de los servicios de alojamiento web (hosting) soportan 
-    todo esto por defecto. Si ha contratado los servicios de alguno de los pocos 
-    servicios de alojamiento web que no soportan estas características 
-    pregúnteles por qué, y considere la posibilidad de trasladar 
+  <p>La mayoría de los servicios de alojamiento web (hosting) soportan
+    todo esto por defecto. Si ha contratado los servicios de alguno de los pocos
+    servicios de alojamiento web que no soportan estas características
+    pregúnteles por qué, y considere la posibilidad de trasladar
     su sistema a otro sitio.</p>
-  <p>Si quiere instalar Moodle en su propio ordenador y todo esto le parece un 
-    poco complicado, entonces vea nuestra guía para 
-	<a href="http://moodle.org/doc/?file=installamp.html">Instalar Apache, MySQL 
+  <p>Si quiere instalar Moodle en su propio ordenador y todo esto le parece un
+    poco complicado, entonces vea nuestra guía para
+    <a href="http://moodle.org/doc/?file=installamp.html">Instalar Apache, MySQL
     y PHP</a>. Le proporcionará instrucciones paso a paso para instalar estos programas  en las plataformas más utilizadas.</p>
   <p>&nbsp;</p>
 </blockquote>
@@ -65,17 +65,17 @@
 <blockquote>
 <p>Existen dos formas de obtener Moodle, como un paquete comprimido y a
 
-través de CVS. Esto se explica con detalle en la página de descarga en 
+través de CVS. Esto se explica con detalle en la página de descarga en
 <a href="http://moodle.org/download/" target="_blank">http://moodle.org/download/</a></p>
 
-  <p>Tras descargar y descomprimir el archivo, o actualizar los archivos vía CVS, 
+  <p>Tras descargar y descomprimir el archivo, o actualizar los archivos vía CVS,
     tendrá un directorio llamado &quot;moodle&quot;, que contiene varios archivos y carpetas.</p>
 
-  <p>Puede o bien  colocar la carpeta completa en su directorio de documentos de 
-    su servidor web, en cuyo caso el sitio estará localizado en <strong>http://suservidor.com/moodle</strong>, 
-    o bien copiar todos los contenidos directamente en el directorio principal de 
+  <p>Puede o bien  colocar la carpeta completa en su directorio de documentos de
+    su servidor web, en cuyo caso el sitio estará localizado en <strong>http://suservidor.com/moodle</strong>,
+    o bien copiar todos los contenidos directamente en el directorio principal de
     documentos del servidor web, en cuyo caso el sitio será simplemente <strong>http://suservidor.com</strong>.</p>
-	<p>Si está descargando Moodle a su ordenador para después subirlo a su sitio web, normalmente es preferible subirlo todo como un solo archivo y descomprimirlo en el servidor. Incluso los paneles de control como Cpanel le permitien descomprimir archivos en el &quot;Administrador de Archivos&quot;.</p>
+    <p>Si está descargando Moodle a su ordenador para después subirlo a su sitio web, normalmente es preferible subirlo todo como un solo archivo y descomprimirlo en el servidor. Incluso los paneles de control como Cpanel le permitien descomprimir archivos en el &quot;Administrador de Archivos&quot;.</p>
 </blockquote>
 
 <p>&nbsp;</p>
@@ -199,10 +199,10 @@ php_value post_max_size 2M
   <p>Si tiene acceso a la línea de comandos de  Unix puede hacer estas mismas cosas escribiendo comandos. </p>
   <p>Ejemplo de líneas de comando para MySQL:</p>
   <pre>   # mysql -u root -p
-   > CREATE DATABASE moodle; 
-   > GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,INDEX,ALTER ON moodle.* 
-           TO moodleuser@localhost IDENTIFIED BY 'yourpassword'; 
-   > quit 
+   > CREATE DATABASE moodle;
+   > GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,INDEX,ALTER ON moodle.*
+           TO moodleuser@localhost IDENTIFIED BY 'yourpassword';
+   > quit
    # mysqladmin -p reload<br />
 </pre>
   <p>Ejemplo de líneas de comando para PostgreSQL: </p>
@@ -225,7 +225,7 @@ documentación de los cursos y las fotos de los usuarios.</p>
 <p>Para asegurarse de que Moodle puede guardar los archivos subidos en ese directorio, revise que el servidor web (por ejemplo Apache) tiene permiso de lectura, escritura y ejecución en ese directorio. </p>
 <p>En las máquinas Unix, esto significa establecer que el dueño del directorio sea algo como "nobody" o "apache" y dar a ese usuario permiso de lectura, escritura y ejecución.</p>
 <p>En los sistemas Cpanel puede usar el &quot;Administrador de Archivos&quot; para encontrar la carpeta, hacer click en ella y escoger &quot;Cambiar Permisos&quot;. En la mayoría de los servidores compartidos, probablemente necesitará restringir el acceso a archivos a su "grupo" (para evitar que otros clientes del mismo servidor web puedan ver o cambiar sus archivos), pero deberá proporcionar acceso completo de lectura/escritura a cualquiera  (lo que permitirá al servidor web acceder a sus archivos). </p>
-<p>Hable con el administrador de 
+<p>Hable con el administrador de
   su servidor si tiene algún problema al establecer esto de forma segura. En concreto, algunos sitios que usan una característica de PHP conocida como &quot;Safe Mode&quot; pueden requerir que el administrador cree este directorio de la forma adecuada para usted. </p>
 <p>&nbsp;</p>
 </blockquote>
@@ -249,18 +249,18 @@ documentación de los cursos y las fotos de los usuarios.</p>
 
  lang="en" xml:lang="en">servidor</span> <abbr title="Simple Mail Transfer Protocol">SMTP</abbr> y cosas por el estilo. No se preocupe demasiado de tener todo correcto ahora, siempre podrá volver y editar ésto más adelante usando la interfaz de administración. Desplácese hasta la parte de abajo de la página y seleccione el enlace "Guardar cambios".</p>
   <blockquote>
-    <p class="style3">      
+    <p class="style3">
     <p>Si (y sólo si) usted se encuentra atascado en esta página o en la siguiente, incapaz de continuar, entonces su servidor probablemente tiene lo que  llamamos el problema de la referencia defectuosa (&quot;buggy referrer&quot;). Esto es fácil de arreglar: sólo tiene que desactivar la opción &quot;secureforms&quot;<em></em> del formulario, luego intente de nuevo entrar en la página.</p>
-  </blockquote>    
+  </blockquote>
 <p>A continuación verá más páginas con multitud de mensajes de estado a medida que se configuran todas las tablas requeridas por los diferentes módulos de Moodle. Como antes, deberían ser todos <font color="#006600">verdes</font>.</p>
     <p>Baje hasta el final de la página y presione el enlace &quot;Continuar&quot;.</p>
     <p>La siguiente página es un formulario en el que usted puede definir parámetros para su sitio Moodle y la página principal, tales como el nombre, formato, descripción y ese tipo de cosas. Rellénelo (siempre podrá volver y cambiar ésto después) y luego haga clic en "Guardar cambios".</p>
     <p>Finalmente, se le pedirá que cree un usuario administrador de máximo nivel para el futuro acceso a la página de administración. Rellene los detalles con su propio nombre, dirección de correo electrónico, etc. y haga clic en "Guardar cambios". No todos los campos son obligatorios, pero si olvida rellenar un campo importante se le avisará.</p>
     <p style="padding-left: 9em; padding-right: 9em;"><strong>Asegúrese de recordar el nombre de usuario y contraseña que ha elegido para la cuenta de la administración, ya que serán necesarias para acceder a la página de administración en el futuro.</strong></p>
-	<blockquote>
-    <p class="style3">(Si por alguna razón se interrumpe su instalación, o hay un error del sistema de algún tipo que le impida entrar usando la cuenta de admininstrador, normalmente podrá entrar usando el usuario &quot;<strong>admin</strong>&quot;, con contraseña &quot;<strong>admin</strong>&quot;.) 
-	</blockquote>
-	     <p>Una vez conseguido esto usted puede volver a la página principal de su sitio. Ésta contiene una serie de enlaces dispuestos en un menú que aparece en la parte izquierda de la página (estos elementos también aparecen en una página aparte de Administración). Éstos elementos sólo son visibles para usted ya que ha entrado como el usuario administrador. Toda su gestión de administración puede desde ahora hacerse desde este menú, como por ejemplo:</p>
+    <blockquote>
+    <p class="style3">(Si por alguna razón se interrumpe su instalación, o hay un error del sistema de algún tipo que le impida entrar usando la cuenta de admininstrador, normalmente podrá entrar usando el usuario &quot;<strong>admin</strong>&quot;, con contraseña &quot;<strong>admin</strong>&quot;.)
+    </blockquote>
+         <p>Una vez conseguido esto usted puede volver a la página principal de su sitio. Ésta contiene una serie de enlaces dispuestos en un menú que aparece en la parte izquierda de la página (estos elementos también aparecen en una página aparte de Administración). Éstos elementos sólo son visibles para usted ya que ha entrado como el usuario administrador. Toda su gestión de administración puede desde ahora hacerse desde este menú, como por ejemplo:</p>
     <ul>
       <li>Crear y borrar cursos</li>
       <li>Crear y editar cuentas de usuario</li>
@@ -285,24 +285,24 @@ discusión para poder enviar copias de los mensajes a las
 
 personas que están suscritas.</p>
 
-  <p>El script que hace todo esto está en el directorio <span>admin</span>, y 
-    se llama <span>cron.php</span>. Sin embargo, no puede funcionar por sí mismo, 
-    de manera que usted tiene que establecer un mecanismo en el que este script 
-    se ejecute regularmente (<abbr title="Ejemplo">por ejemplo</abbr>, cada cinco 
-    o diez minutos). Esto proporciona una señal de manera que el script pueda 
+  <p>El script que hace todo esto está en el directorio <span>admin</span>, y
+    se llama <span>cron.php</span>. Sin embargo, no puede funcionar por sí mismo,
+    de manera que usted tiene que establecer un mecanismo en el que este script
+    se ejecute regularmente (<abbr title="Ejemplo">por ejemplo</abbr>, cada cinco
+    o diez minutos). Esto proporciona una señal de manera que el script pueda
     llevar a cabo funciones en determinados períodos definidos para cada módulo.</p>
 
-  <p>Tenga en cuenta que la máquina que ejecuta el cron <strong>no tiene que ser 
-    necesariamente la misma en la que está ejecutando Moodle</strong>. Por ejemplo, 
-    si usted tiene un servicio de alojamiento web limitado que no tiene cron, 
-    usted puede elegir ejecutar el cron en otro servidor o en su ordenador personal. 
+  <p>Tenga en cuenta que la máquina que ejecuta el cron <strong>no tiene que ser
+    necesariamente la misma en la que está ejecutando Moodle</strong>. Por ejemplo,
+    si usted tiene un servicio de alojamiento web limitado que no tiene cron,
+    usted puede elegir ejecutar el cron en otro servidor o en su ordenador personal.
     Lo que importa es que el archivo <span>cron.php</span> sea llamado regularmente.</p>
 
-  <p>La carga de este script no es muy alta, así que un intervalo de 5 
-    minutos es razonable generalmente, pero si ésto le preocupa, puede 
-    reducir el periodo de tiempo a  15 minutos o incluso 30 
-    minutos. Es mejor no establecer un intervalo de tiempo demasiado largo, ya que 
-    el retrasar el envío de mensajes de correo puede reducir la actividad 
+  <p>La carga de este script no es muy alta, así que un intervalo de 5
+    minutos es razonable generalmente, pero si ésto le preocupa, puede
+    reducir el periodo de tiempo a  15 minutos o incluso 30
+    minutos. Es mejor no establecer un intervalo de tiempo demasiado largo, ya que
+    el retrasar el envío de mensajes de correo puede reducir la actividad
     del curso.</p>
   <p>Primero, pruebe que el script funcione directamente desde su navegador:</p>
 
@@ -373,11 +373,11 @@ del curso. En este momento no tiene que preocuparse demasiado por los
 
 detalles, pues todo puede ser cambiado después por el profesor.</p>
 
-  <p>Presione "Guardar cambios", aparecerá un nuevo formulario en el que puede 
-    asignar profesores al curso. Desde este formulario sólo pueden añadirse cuentas 
-    de usuarios existentes, si necesita una cuenta para un profesor debe pedirle 
-    al profesor que cree su cuenta él mismo (vea la página de entradas) 
-    o créela usted utilizando la opción "Añadir nuevo usuario" en la página 
+  <p>Presione "Guardar cambios", aparecerá un nuevo formulario en el que puede
+    asignar profesores al curso. Desde este formulario sólo pueden añadirse cuentas
+    de usuarios existentes, si necesita una cuenta para un profesor debe pedirle
+    al profesor que cree su cuenta él mismo (vea la página de entradas)
+    o créela usted utilizando la opción "Añadir nuevo usuario" en la página
     Admin.</p>
 
   <p>Una vez hecho esto, el curso está listo para ser
