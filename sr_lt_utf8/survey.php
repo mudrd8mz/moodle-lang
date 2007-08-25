@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8.2+ (2007021520)
+      // survey.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['actual'] = 'Aktuelno';
@@ -177,8 +177,8 @@ $string['howlongoptions'] = 'manje od 1 minuta, 1-2 minuta, 2-3 minuta, 3-4 minu
 $string['ifoundthat'] = 'Otkrio/la sam da';
 $string['introtext'] = 'Uvodni tekst';
 $string['ipreferthat'] = 'Preferiram';
-$string['modulename'] = 'Upitnik';
-$string['modulenameplural'] = 'Upitnici';
+$string['modulename'] = 'Upitnik (Survey)';
+$string['modulenameplural'] = 'Upitnici (Surveys)';
 $string['name'] = 'Ime';
 $string['newsurveyresponses'] = 'Novi odgovori na upitnik';
 $string['nobodyyet'] = 'Niko još nije završio ovaj upitnik';

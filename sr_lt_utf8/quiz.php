@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8.2+ (2007021520)
+      // quiz.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['1day'] = '1 dan';
@@ -11,8 +11,20 @@ $string['acceptederror'] = 'Prihvaćena greška';
 $string['action'] = 'Akcija';
 $string['adaptive'] = 'Adaptivni režim';
 $string['addcategory'] = 'Dodaj kategoriju';
+$string['addingcalculated'] = 'Dodavanje izračunatih pitanja';
+$string['addingdescription'] = 'Dodavanje opisa';
+$string['addingessay'] = 'Dodavanje eseja';
+$string['addingmatch'] = 'Dodavanje pitanja sa sparivanjem';
+$string['addingmultianswer'] = 'Dodavanje umetnutih odgovora';
+$string['addingmultichoice'] = 'Dodavanje pitanja sa višestrukim odabirima';
+$string['addingnumerical'] = 'Dodavanje numeričkih pitanja';
+$string['addingquestion'] = 'Dodavanje pitanja';
 $string['addingquestions'] = 'Na ovom delu stranice uređujete svoju bazu pitanja. Pitanja su sačuvana po kategorijama kako bi se što lakše organizovala, i mogu biti upotrebljena u bilo kom testu unutar Vašeg kursa ili nekog drugog kursa ako odaberete opciju \'objavljivanja\' pitanja. <br /><br />
 Nakon što odaberete određenu kategoriju pitanja, možete kreirati nova ili uređivati već postojeća pitanja. Možete označiti bilo koje od tih pitanja i dodati ga (ih) u Vaš test koji se nalazi s leve strane ekrana.';
+$string['addingrandom'] = 'Dodavanje nasumičnog pitanja';
+$string['addingrandomsamatch'] = 'Dodavanje nasumičnog kratko-odgovarajućeg pitanja sa sparivanjem odgovora';
+$string['addingshortanswer'] = 'Dodavanje kratko odgovarajućih pitanja';
+$string['addingtruefalse'] = 'Dodavanje tačno/netačnih pitanja';
 $string['addquestions'] = 'Dodaj pitanja';
 $string['addquestionstoquiz'] = 'Dodaj pitanja u tekući test';
 $string['addrandom'] = 'Dodaj $a slučajnih pitanja';
@@ -332,7 +344,7 @@ $string['noattempts'] = 'Nije bilo pokušaja da se reši ovaj test';
 $string['noattemptstoshow'] = 'Nema pokušaja za prikaz';
 $string['nocategory'] = 'Pogrešna ili nespecificirana kategorija';
 $string['nocommentsyet'] = 'Još nema komentara';
-$string['noconnection'] = 'Trenutno nije uspostavljena veza sa Web servisom koji može da obradi ovo pitanje. Molimo kontaktirajte svog administratora';
+$string['noconnection'] = 'Trenutno nije uspostavljena veza sa veb servisom koji može da obradi ovo pitanje. Molimo kontaktirajte svog administratora';
 $string['nodataset'] = 'ništa - nije džoker znak';
 $string['noessayquestionsfound'] = 'Nisu pronađena pitanja koja se ručno ocenjuju';
 $string['nomatchinganswer'] = 'Morate navesti tačan odgovor za pitanje \'$a\'.';
@@ -575,20 +587,5 @@ $string['xmlimportnoquestion'] = 'Nedostaje tekst pitanja u xml datoteci';
 $string['xmltypeunsupported'] = 'Tip pitanja $a nije podržan XML uvozom';
 $string['yourfinalgradeis'] = 'Vaša konačna ocena na ovom testu je $a';
 $string['zerosignificantfiguresnotallowed'] = 'Tačan odgovor ne može imati nula značajnih cifara!';
-$string['existingcategory1'] = 'izraz iz već postojećeg skupa izraza koji se koristi i u drugim pitanjima u ovoj kategoriji'; // ORPHANED
-$string['existingcategory2'] = 'datoteka iz već postojećeg skupa datoteka koja se koristi i u drugim pitanjima u ovoj kategoriji'; // ORPHANED
-$string['existingcategory3'] = 'link iz već postojećeg skupa linkove koji se koristi i u drugim pitanjima u ovoj kategoriji'; // ORPHANED
-$string['keptcategory1'] = 'izraz iz iste kategorije skupa izraza koji se mogu višestruko iskoristiti kao pre'; // ORPHANED
-$string['keptcategory2'] = 'datoteka iz iste kategorije skupa datoteka koji se mogu višestruko iskoristiti kao pre'; // ORPHANED
-$string['keptcategory3'] = 'link iz iste kategorije skupa linkova koji se mogu višestruko iskoristiti kao pre'; // ORPHANED
-$string['keptlocal1'] = 'izraz iz istog privatnog skupa izraza za pitanje kao pre'; // ORPHANED
-$string['keptlocal2'] = 'datoteka iz istog privatnog skupa datoteka za pitanje kao pre'; // ORPHANED
-$string['keptlocal3'] = 'link iz istog privatnog skupa linkova za pitanje kao pre'; // ORPHANED
-$string['newcategory1'] = 'izraz iz novog skupa izraza koji se može takođe koristiti u drugim pitanjima ove kategorije'; // ORPHANED
-$string['newcategory2'] = 'datoteka iz novog skupa datoteka koja se može takođe koristiti u drugim pitanjima ove kategorije'; // ORPHANED
-$string['newcategory3'] = 'link iz novog skupa linkova koji se može takođe koristiti u drugim pitanjima ove kategorije'; // ORPHANED
-$string['newlocal1'] = 'izraz iz novog skupa izraza koji će se koristiti samo u ovom pitanju'; // ORPHANED
-$string['newlocal2'] = 'datoteka iz novog skupa datoteka koja će se koristiti samo u ovom pitanju'; // ORPHANED
-$string['newlocal3'] = 'link iz novog skupa linkova koji će se koristiti samo u ovom pitanju'; // ORPHANED
 
 ?>

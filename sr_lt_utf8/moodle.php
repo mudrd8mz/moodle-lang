@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8.2+ (2007021520)
+      // moodle.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['action'] = 'Akcija';
@@ -16,27 +16,28 @@ $string['activityreports'] = 'Izveštaji o aktivnostima';
 $string['activityselect'] = 'Odaberite ovu aktivnost radi premeštanja na drugu lokaciju';
 $string['activitysince'] = 'Aktivnost od $a';
 $string['activityweighted'] = 'Aktivnost po korisniku';
-$string['add'] = 'Dodavanje';
-$string['addactivity'] = 'Dodavanje aktivnosti...';
-$string['addadmin'] = 'Dodavanje administratora';
-$string['addcreator'] = 'Dodavanje kreatora kursa';
+$string['add'] = 'Dodaj';
+$string['addactivity'] = 'Dodaj aktivnost...';
+$string['addadmin'] = 'Dodaj administratora';
+$string['addcreator'] = 'Dodaj kreatora kursa';
 $string['added'] = 'Dodato $a';
-$string['addedrecip'] = 'Dodat $a novi primalac';
-$string['addedrecips'] = 'Dodati $a novi primaoci';
+$string['addedrecip'] = 'Dodat je novi primalac: $a';
+$string['addedrecips'] = 'Broj novih primalaca: $a';
 $string['addedtogroup'] = 'Dodat(a) grupi $a';
 $string['addedtogroupnot'] = 'Nije dodat(a) grupi $a';
 $string['addedtogroupnotenrolled'] = 'Nije dodat(a) grupi $a, jer nije upisan(a) na kurs';
-$string['addinganew'] = 'Dodavanje nove aktivnosti $a';
-$string['addinganewto'] = 'Dodavanje nove aktivnosti $a->what u $a->to';
+$string['addinganew'] = 'Dodavanje aktivnosti: $a';
+$string['addinganewto'] = 'Dodavanje aktivnosti u $a->to';
 $string['addingdatatoexisting'] = 'Dodavanje podataka postojećim';
 $string['addnewcategory'] = 'Dodaj novu kategoriju';
 $string['addnewcourse'] = 'Dodaj novi kurs';
 $string['addnewuser'] = 'Dodaj novog korisnika';
 $string['addnousersrecip'] = 'Dodavanje korisnika koji nije pristupio ovome $a na listu primalaca';
-$string['addresource'] = 'Dodavanje resursa...';
+$string['addresource'] = 'Dodaj resurs...';
 $string['address'] = 'Adresa';
-$string['addstudent'] = 'Dodavanje studenta';
-$string['addteacher'] = 'Dodavanje predavača';
+$string['addstudent'] = 'Dodaj studenta';
+$string['addsubcategory'] = 'Dodaj potkategoriju';
+$string['addteacher'] = 'Dodaj predavača';
 $string['admin'] = 'Administracija';
 $string['adminbookmarks'] = 'Administratorski obeleživač';
 $string['adminhelpaddnewuser'] = 'Ručno kreiranje novog korisničkog naloga';
@@ -85,9 +86,9 @@ $string['advancedfilter'] = 'Napredno pretraživanje';
 $string['advancedsettings'] = 'Napredna podešavanja';
 $string['again'] = 'ponovo';
 $string['aimid'] = 'AIM ID';
-$string['ajaxno'] = 'Ne: koristiti osnovne Web mogućnosti';
+$string['ajaxno'] = 'Ne: koristiti osnovne veb mogućnosti';
 $string['ajaxuse'] = 'AJAX i Javascript';
-$string['ajaxyes'] = 'Da: koristiti napredne Web mogućnosti';
+$string['ajaxyes'] = 'Da: koristiti napredne veb mogućnosti';
 $string['all'] = 'Sve';
 $string['allactions'] = 'Sve akcije';
 $string['allactivities'] = 'Sve aktivnosti';
@@ -159,6 +160,7 @@ $string['backupnonisowarning'] = 'Upozorenje: ova rezervna kopija je kreirana u 
 $string['backuporiginalname'] = 'Naziv rezervne kopije';
 $string['backupsavetohelp'] = 'Puna putanja do direktorijuma u kojem želite da sačuvate datoteke sa rezervnim kopijama<br /> (ostavite ovo polje prazno kako biste podatke sačuvali u podrazumevani direktorijum za čuvanje svih podataka vezanih za ovaj kurs)';
 $string['backupschedulehelp'] = 'Izaberite dane u sedmici kada želite da se kreiraju rezervne kopije.';
+$string['backupsitefileshelp'] = 'Ukoliko je ovo omogućeno, fajlovi sa sajta korišćeni u kursevima biće uključeni prilikom automatskih bekapa.';
 $string['backuptakealook'] = 'Molimo pregledajte svoje izveštaje o kreiranju rezervnih kopija u: $a';
 $string['backupuserfileshelp'] = 'Odaberite da li bi trebalo da se korisničke datoteke (npr. slike za lične profile korisnika) uključe u automatski kreirane rezervne kopije';
 $string['backupusershelp'] = 'Odaberite želite li da obuhvatite sve korisnike na serveru ili samo one koji su potrebni za pojedini kurs';
@@ -228,16 +230,18 @@ $string['complete'] = 'Potpuno';
 $string['completereport'] = 'Potpuni izveštaj';
 $string['configuration'] = 'Konfiguracija';
 $string['confirm'] = 'Potvrda';
+$string['confirmcheckfull'] = 'Da li ste apsolutni sigurni da želite da potvrdite $a?';
 $string['confirmed'] = 'Vaša registracija je potvrđena';
 $string['confirmednot'] = 'Vaša registracija još nije potvrđena!';
 $string['continue'] = 'Nastavak';
 $string['continuetocourse'] = 'Kliknite ovde da biste ušli na svoj kurs';
 $string['convertingwikitomarkdown'] = 'Pretvaranje Wiki formata u Markdown format';
-$string['cookiesenabled'] = 'Vaš Web čitač mora imati omogućene \"kolačiće\"';
-$string['cookiesnotenabled'] = 'Nažalost, \"kolačići\" nisu omogućeni u Vašem Web čitaču';
+$string['cookiesenabled'] = 'Vaš web čitač mora imati omogućene \"kolačiće\"';
+$string['cookiesnotenabled'] = 'Nažalost, \"kolačići\" nisu omogućeni u Vašem web čitaču';
 $string['copy'] = 'kopiranje';
 $string['copyasnoun'] = 'kopiranje';
 $string['copyingcoursefiles'] = 'Kopiranje datoteka kursa';
+$string['copyingsitefiles'] = 'Kopiranje fajlova sa sajta koji su korišćeni u kursu';
 $string['copyinguserfiles'] = 'Kopiranje korisničkih datoteka';
 $string['copyingzipfile'] = 'Kopiranje zip datoteka';
 $string['copyrightnotice'] = 'Napomena o zaštiti autorskih prava';
@@ -432,7 +436,7 @@ Da biste potvrdili otvaranje Vašeg naloga, posetite sledeću lokaciju:
 
 $a->link
 
-U većini programa za e-poštu, u redu iznad ovog biste trebali videti plavo obojeni link na koji možete kliknuti. Ako ta funkcija ne radi, onda samo kopirajte navedenu adresu u liniju za adrese na vrhu Vašeg Web čitača.
+U većini programa za e-poštu, u redu iznad ovog biste trebali videti plavo obojeni link na koji možete kliknuti. Ako ta funkcija ne radi, onda samo kopirajte navedenu adresu u liniju za adrese na vrhu Vašeg veb čitača.
 
 U slučaju da Vam je potrebna tehničku pomoć, molimo kontaktirajte administratora sistema,
 $a->admin';
@@ -466,7 +470,7 @@ Da biste promenili Vašu šifru, molim idite na sledeću internet stranicu:
 
 $a->link
 
-U većini programa namenjenih za poštu ovo bi trebalo da se prikaže kao link u plavoj boji na koji možete da kliknete. U slučaju da to ne funkcioniše, isecite i prenesite adresu u adresnu liniju prozora Vašeg Web čitača.
+U većini programa namenjenih za poštu ovo bi trebalo da se prikaže kao link u plavoj boji na koji možete da kliknete. U slučaju da to ne funkcioniše, isecite i prenesite adresu u adresnu liniju prozora Vašeg web čitača.
 
 Ako Bam je potrebna pomoć, molim Vas kontaktirajte vašeg administratora,  $a->admin';
 $string['emailpasswordchangeinfodisabled'] = 'Postovana/i $a->firstname,
@@ -484,12 +488,12 @@ $string['emailpasswordconfirmation'] = 'Postovana/i $a->firstname,
 
 Neko (najverojatnije Vi) je zatražio novu lozinku za Vaš korisnički nalog u sistemu \'$a->sitename\'.
 
-Kako biste potvrdili potrebu za novom lozinkom i dobili novu lozinku putem e-pošte, posetite ovu Web adresu:
+Kako biste potvrdili potrebu za novom lozinkom i dobili novu lozinku putem e-pošte, posetite ovu veb adresu:
 
 $a->link
 
 U većini programa za e-poštu, u redu iznad ovog biste trebali videti plavo obojeni link na koji možete kliknuti. Ako ta funkcija ne radi, 
-označite i kopirajte adresu u adresnu liniju Vašeg Web čitača.
+označite i kopirajte adresu u adresnu liniju Vašeg veb čitača.
 
 U slučaju da Vam treba tehnička pomoć, molimo Vas da kontaktirate administratora sistema,
 
@@ -519,6 +523,8 @@ $string['enrolmentend'] = 'Kraj upisa';
 $string['enrolmentkey'] = 'Lozinka za upis kursa';
 $string['enrolmentkeyfrom'] = 'Za pristup ovom kursu morate znati \'<b>lozinku kursa</b>\' - jednokratnu<br />
 lozinku koju ste trebali dobiti od Vašeg predavača $a';
+$string['enrolmentkeyfromguest'] = 'Ovaj kurs zahteva lozinku za pristup - kao gost<br />
+morate je uneti svaki put kad pristupate kursu. Trebalo bi da Vam je $a dostavio/la potrebnu lozinku.';
 $string['enrolmentkeyhint'] = 'Lozinka kursa koju ste upotrebili nije tačna. Molimo pokušajte ponovo<br />
 (Pomoć: Lozinka počinje slovom \'$a\')';
 $string['enrolmentnew'] = 'Novi polaznik kursa $a';
@@ -532,9 +538,10 @@ $string['enrolperiod'] = 'Upisni period';
 $string['enrolstartdate'] = 'Datum početka';
 $string['entercourse'] = 'Kliknite za pristup kursu';
 $string['enteremailaddress'] = 'Da biste poništili trenutnu lozinku i dobili novu, treba da unesete Vašu važeću adresu elektronske pošte, na koju će Vam biti poslata nova lozinka.';
+$string['enteryourinterests'] = 'Unesite svoja interesovanja razdvojena zarezima';
 $string['entries'] = 'Ulazi';
 $string['error'] = 'Greška';
-$string['errortoomanylogins'] = 'Nažalost, prekoračili ste dopušteni broj pogrešnih pristupa sistemu. Ponovo pokrenite svoj Web čitač i pokušajte ponovo.';
+$string['errortoomanylogins'] = 'Nažalost, prekoračili ste dopušteni broj pogrešnih pristupa sistemu. Ponovo pokrenite svoj web čitač i pokušajte ponovo.';
 $string['errorwhenconfirming'] = 'Vaš korisnički nalog još nije još potvrđen zbog greške koja se dogodila. Ako ste kliknuli na link koji ste dobili u e-poruci, molimo proverite je li linija u kojoj se nalazi navedeni link ispravna (odnosno, je da je nije Vaš klijent e-pošte možda formatirao u dva reda, čime je deo linka završio u drugom redu). Postoji mogućnost da ćete morati ručnim kopiranjem i unosom rekonstruisati originalni link.';
 $string['everybody'] = 'Svi';
 $string['executeat'] = 'Izvršiti u';
@@ -633,6 +640,7 @@ $string['gdneed'] = 'GD mora biti instaliran da biste videli ovaj grafikon';
 $string['gdnot'] = 'GD nije instaliran';
 $string['gettheselogs'] = 'Pristupanje ovim izveštajima';
 $string['go'] = 'Dalje';
+$string['gotoyourserver'] = '(Vraća vas na vaš server)';
 $string['gpl'] = 'Autorska prava 1999-2004 Martin Dougiamas  (http://dougiamas.com)
 
 Ovaj program je besplatan softver; možete vršiti njegovu distribuciju i/ili menjati ga samo pod uslovima GNU General Public License koju je objavila Free Software Foundation, verzija 2 ili (po Vašem izboru) bilo koja novija verzija.
@@ -712,16 +720,17 @@ $string['home'] = 'Početna strana';
 $string['hour'] = 'h';
 $string['hours'] = 'h';
 $string['howtomakethemes'] = 'Kako podesiti novu šemu izgleda sajta';
-$string['htmleditor'] = 'Upotreba HTML editora (samo u nekim Web čitačima)';
+$string['htmleditor'] = 'Upotreba HTML editora (samo u nekim web čitačima)';
 $string['htmleditoravailable'] = 'HTML editor je dostupan';
 $string['htmleditordisabled'] = 'Isključili ste upotrebu HTML editora za Vaš korisnički profil';
 $string['htmleditordisabledadmin'] = 'Administrator sistema je isključio uportrebu HTML editora na nivou celog sistema';
-$string['htmleditordisabledbrowser'] = 'Upotreba HTML editora nije moguća jer Vaš Web čitač nije kompatibilan s njim';
+$string['htmleditordisabledbrowser'] = 'Upotreba HTML editora nije moguća jer Vaš veb čitač nije kompatibilan s njim';
 $string['htmlfilesonly'] = 'Samo HTML datoteke';
 $string['htmlformat'] = 'Ulepšani HTML format';
 $string['icqnumber'] = 'ICQ broj';
 $string['idnumber'] = 'Identifikacioni broj';
 $string['idnumbercourse'] = 'Identifikacioni broj kursa';
+$string['idnumbertaken'] = 'Ovaj ID broj je već zauzet';
 $string['imagealt'] = 'Opis slike';
 $string['import'] = 'Uvoz';
 $string['importactivities'] = 'Uvoz aktivnosti iz drugog kursa';
@@ -742,10 +751,12 @@ $string['includemodules'] = 'Uključujući module';
 $string['includemoduleuserdata'] = 'Uključujući podatke korisnika modula';
 $string['includeneededusers'] = 'Uključujući potrebne korisnike';
 $string['includenoneusers'] = 'Bez uključivanja korisnika';
+$string['includesitefiles'] = 'Uključi fajlove korišćene u ovom kursu';
 $string['includeuserfiles'] = 'Uključujući korisničke datoteke';
 $string['info'] = 'Informacija';
 $string['institution'] = 'Institucija';
 $string['instudentview'] = 'u studentskom pogledu';
+$string['interests'] = 'Interesovanja';
 $string['invalidemail'] = 'Nevažeća adresa elektronske pošte';
 $string['invalidlogin'] = 'Pogrešno korisničko ime ili lozinka. Molimo pokušajte ponovo.';
 $string['ip_address'] = 'IP adresa';
@@ -786,7 +797,7 @@ $string['loginas'] = 'Pristup sistemu kao';
 $string['loginaspasswordexplain'] = '<p>Morate uneti specijalnu \"pristupi sistemu kao\" lozinku da biste koristili ovu mogućnost.<br />Ako ne znate tu lozinku, pitajte administratora svog servera.</p>';
 $string['loginguest'] = 'Pristup sistemu u ulozi gosta';
 $string['loginsite'] = 'Pristup sistemu';
-$string['loginsteps'] = 'Dobrodošli! Kako biste imali puni pristup kursevima na ovom Web sajtu, morate kreirati novi korisnički nalog.
+$string['loginsteps'] = 'Dobrodošli! Kako biste imali puni pristup kursevima na ovom veb sajtu, morate kreirati novi korisnički nalog.
 Svaki od pojedinih kurseva može takođe imati i od Vas tražiti \"lozinku kursa\", koju treba da dobijete od svog predavača i koja se unosi samo prilikom prvog prijavljivanja na kurs. Sledite ova uputstva:
    <ol size=\"2\">
    <li>Ispunite dati obrazac <a href=\"$a\">Novi korisnički nalog</a> svojim ličnim podacima.</li>
@@ -814,7 +825,7 @@ $string['mailstudents'] = 'Obavestiti studente';
 $string['mailteachers'] = 'Obavestiti predavače';
 $string['mainmenu'] = 'Glavni meni';
 $string['makeafolder'] = 'Kreiraj direktorijum';
-$string['makeeditable'] = 'Ako podesite \'$a\' da se može urediti procesom Web servera, onda možete menjati ovu datoteku direktno sa ove stranice';
+$string['makeeditable'] = 'Ako podesite \'$a\' da se može urediti procesom veb servera, onda možete menjati ovu datoteku direktno sa ove stranice';
 $string['manageblocks'] = 'Blokovi';
 $string['managecourses'] = 'Upravljanje kursevima';
 $string['managedatabase'] = 'Baza podataka';
@@ -928,7 +939,7 @@ Molimo posetite ovu stranicu kako biste promenili svoju lozinku:
    $a->link
 
 U većini programa za čitanje e-pošte, u redu iznad ovog biste trebali videti plavi link na koji možete kliknuti. U slučaju da to ne radi, 
-označite i kopirajte adresu u adresnu liniju Vašeg Web čitača (Firefox, Mozilla, Internet Explorer, Opera).
+označite i kopirajte adresu u adresnu liniju Vašeg veb čitača (Firefox, Mozilla, Internet Explorer, Opera).
 
 U slučaju da Vam treba tehnička pomoć, molimo kontaktirajte administratora sistema,
 $a->admin
@@ -953,7 +964,7 @@ lozinka: $a->newpassword
 
 Da biste počeli da koristite sajt \'$a->sitename\', prijavite se na $a->link
 
-U većini programa za elektronsku poštu pojaviće se plavo obojeni link iznad ovog teksta na koji je potrebno samo kliknuti. Ako ta opcija ne bude radila, kopirajte navedenu adresu u adresnu liniju na vrhu prozora Vašeg Web čitača.';
+U većini programa za elektronsku poštu pojaviće se plavo obojeni link iznad ovog teksta na koji je potrebno samo kliknuti. Ako ta opcija ne bude radila, kopirajte navedenu adresu u adresnu liniju na vrhu prozora Vašeg veb čitača.';
 $string['newusers'] = 'Novi korisnici';
 $string['newwindow'] = 'novi prozor';
 $string['next'] = 'Sledeći';
@@ -1130,6 +1141,7 @@ $string['registrationno'] = 'Ne, ne želim da primam obaveštenja putem e-pošte
 $string['registrationsend'] = 'Slanje registracionih informacija na moodle.org';
 $string['registrationyes'] = 'Da, molim obaveštavajte me o važnim dešavanjima';
 $string['reject'] = 'Odbijanje';
+$string['remotemaharauser'] = 'Udaljeni Mahara korisnik';
 $string['remove'] = 'Uklanjanje';
 $string['removeadmin'] = 'Uklanjanje administratora';
 $string['removecreator'] = 'Uklanjanje kreatora kursa';
@@ -1180,6 +1192,7 @@ $string['scalescustom'] = 'Prilagođene skale za ocenjivanje';
 $string['scalescustomcreate'] = 'Dodavanje nove skale za ocenjivanje';
 $string['scalescustomno'] = 'Prilagođene skale za ocenjivanje još uvek nisu kreirane';
 $string['scalesstandard'] = 'Standardne skale za ocenjivanje';
+$string['scalestandard'] = 'Standardna skala';
 $string['scalestip'] = 'Kako biste kreirali sopstvene, prilagođene skale za ocenjivanje, upotrebite link \'Skale...\' u meniju za administraciju kursa.';
 $string['schedule'] = 'Raspored';
 $string['scheduledbackupstatus'] = 'Status rasporeda kreiranja rezervnih kopija';
@@ -1248,6 +1261,7 @@ $string['site'] = 'Sajt';
 $string['sitedefault'] = 'Podrazumevano za sajt';
 $string['siteerrors'] = 'Greške na sajtu';
 $string['sitefiles'] = 'Datoteke sajta';
+$string['sitefilesused'] = 'Datoteke sajta korišćeni u ovom kursu';
 $string['sitelogs'] = 'Izveštaji o aktivnostima na sajtu';
 $string['sitenews'] = 'Novosti';
 $string['sitepartlist'] = 'Nemate odgovarajuće dozvole za pregled spiska učesnika';
@@ -1354,7 +1368,7 @@ $string['teacheronly'] = 'samo za $a';
 $string['teacherroles'] = '$a uloge';
 $string['teachers'] = 'Predavači';
 $string['textediting'] = 'Pri uređivanju teksta';
-$string['texteditor'] = 'Koristiti standardne Web forme';
+$string['texteditor'] = 'Koristiti standardne veb forme';
 $string['textformat'] = 'Običan tekstualni format';
 $string['thanks'] = 'Hvala';
 $string['theme'] = 'Šema izgleda sajta';
@@ -1483,7 +1497,7 @@ $string['virusplaceholder'] = 'Pronađeno je da je datoteka koja je postavljena 
 $string['visible'] = 'Vidljivo';
 $string['visibletostudents'] = 'Vidljivo za $a';
 $string['warningdeleteresource'] = 'Upozorenje: na $a se odnosi resurs. Da li želite da ažurirate taj resurs?';
-$string['webpage'] = 'Web stranica';
+$string['webpage'] = 'Veb stranica';
 $string['week'] = 'Sedmica';
 $string['weekhide'] = 'Sakrij ovu sedmicu od $a';
 $string['weeklyoutline'] = 'Sedmični pregled dešavanja';

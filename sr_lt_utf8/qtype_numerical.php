@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // qtype_numerical.php - created with Moodle 1.8.2+ (2007021520)
+      // qtype_numerical.php - created with Moodle 1.8.1+ (2007021510)
 
 
-$string['addmoreanswerblanks'] = 'Dodaj prazna polja za još {no} odgovora';
-$string['addmoreunitblanks'] = 'Dodaj prazna polja za još {no} jedinica';
+$string['addmoreanswerblanks'] = 'Praznine za još {no} odgovora';
+$string['addmoreunitblanks'] = 'Praznine za još {no} jedinica';
 $string['answermustbenumberorstar'] = 'Odgovor mora biti broj,  ili \'*\'.';
 $string['answerno'] = 'Odgovori $a';
 $string['errornomultiplier'] = 'Morate navesti množilac za ovu jedinicu.';

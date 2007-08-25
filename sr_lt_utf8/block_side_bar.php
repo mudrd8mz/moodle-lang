@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_side_bar.php - created with Moodle 1.6 + (2006050506)
+      // block_side_bar.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['configsectionnumber'] = 'Unesite početni broj za novu sekciju';
