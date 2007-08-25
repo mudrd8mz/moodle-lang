@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.5.2 (2005060220)
+      // quiz_analysis.php - created with Moodle 1.8.1+ (2007021510)
 
 
+$string['analysis'] = 'Küsimuste analüüs';
+$string['analysisdownload'] = 'Analüüsi allalaadimine';
 $string['analysisoptions'] = 'Analüüsimise valikud';
 $string['analysistitle'] = 'Küsimuste analüüsi tabel';
 $string['attemptsall'] = 'kõik katsed';

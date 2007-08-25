@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.5.2 (2005060220)
+      // auth.php - created with Moodle 1.8.1+ (2007021510)
 
 
-$string['alternatelogin'] = 'Sisestades siia veebilehe URL\'i, kuvatakse seda õpikeskkonna sisenemise leheküljena. Lehekülg peaks sisaldama vormi, mille tegevuse atribuut peab olema <strong>\'$a\'</strong> ning tagastusväljad peavad olema <strong>username</strong> ja <strong>password</strong>.<br />Ole ettevaatlik, et sa ei sisestaks ebakorrektset URL\'i, muidu võid ennast õpikeskkonnast välja lukustada.<br/>Jäta see lahter tühjaks, kui soovid kasutada vaikimisi seatud sisenemise lehekülge.   ';
+$string['alternatelogin'] = 'Sisestades siia veebilehe URL\'i, kuvatakse seda õpikeskkonna sisenemise leheküljena. Lehekülg peaks sisaldama vormi, mille tegevuse atribuut peab olema <strong>\'$a\'</strong> ning tagastusväljad peavad olema <strong>username</strong> ja <strong>password</strong>.<br />Ole ettevaatlik, et sa ei sisestaks ebakorrektset URL\'i, muidu võid ennast õpikeskkonnast välja lukustada.<br/>Jäta see lahter tühjaks, kui soovid kasutada vaikimisi seatud sisenemise lehekülge.';
 $string['alternateloginurl'] = 'Alternatiivne sisenemise lehekülje URL';
 $string['auth_cas_baseuri'] = 'Serveri URI (baseUri puudumise korral ära sisesta midagi).<br/>Näiteks, kui CAS server vastab hostile host.domaine.fr/CAS/, siis<br/>cas_baseuri=CAS';
 $string['auth_cas_create_user'] = 'Lülita see sisse, kui soovid CAS\'i poolt autenditud kasutajaid Moodle andmebaasi sisestada. Kui see on välja lülitatud, siis ainult need kasutajad, kes juba eksisteerivad Moodle andmebaasis, saavad siseneda.';
@@ -15,7 +15,7 @@ $string['auth_cas_port'] = 'CAS serveri port';
 $string['auth_cas_server_settings'] = 'CAS serveri konfiguratsioon';
 $string['auth_cas_text'] = 'Turvaline ühendus';
 $string['auth_cas_version'] = 'CAS\'i versioon';
-$string['auth_casdescription'] = 'See meetod kasutab CAS serverit(CAS = Central Authentication Service - Keskne autentimisteenus), et autentida kasutajaid SSO keskkonnas (SSO = Single Sign On - Ühekordne sisselogimine).Sa võid kasutada ka lihtsat LDAP autentimist. Kui antud kasutajanimi ja salasõna on CAS\'i järgi kehtivad, siis loob Moodle oma andmebaasi uue kasutaja rea, võttes kasutaja atribuudid vajadusel LDAP serverist. Järgmiste sisenemiste ajal kontrollitakse ainult kasutajanime ja salasõna.  ';
+$string['auth_casdescription'] = 'See meetod kasutab CAS serverit(CAS = Central Authentication Service - Keskne autentimisteenus), et autentida kasutajaid SSO keskkonnas (SSO = Single Sign On - Ühekordne sisselogimine).Sa võid kasutada ka lihtsat LDAP autentimist. Kui antud kasutajanimi ja salasõna on CAS\'i järgi kehtivad, siis loob Moodle oma andmebaasi uue kasutaja rea, võttes kasutaja atribuudid vajadusel LDAP serverist. Järgmiste sisenemiste ajal kontrollitakse ainult kasutajanime ja salasõna.';
 $string['auth_castitle'] = 'Kasuta CAS serverit (SSO)';
 $string['auth_common_settings'] = 'Üldised seaded';
 $string['auth_data_mapping'] = 'Andmete vastendamine';
@@ -30,6 +30,7 @@ $string['auth_dbpasstype'] = 'Täpsusta formaati, mida salasõna väli kasutab. 
 $string['auth_dbtable'] = 'Tabeli nimi andmebaasis';
 $string['auth_dbtitle'] = 'Kasuta välist andmebaasi';
 $string['auth_dbtype'] = 'Andmebaasi tüüp (Vaata <a href=\"../lib/adodb/readme.htm#drivers\">ADOdb dokumentatsiooni</a>, et täpsustada detaile).';
+$string['auth_dbtype_key'] = 'Andmebaas';
 $string['auth_dbuser'] = 'Kasutajanimi andmebaasist lugemiseks';
 $string['auth_emaildescription'] = 'E-posti kinnitus on vaikimisi seatud autentimise meetod. Kui kasutaja registreerub, valides omale uue kasutajanime ja salasõna, saadetakse tema e-posti aadressile kinnituskiri. See e-kiri sisaldab turvalist linki lehele, kus kasutaja saab oma konto kinnitada. Edaspidiste õpikeskkonda sisenemiste ajal üksnes kontrollitakse kasutajanime ja salasõna, võrreldes neid Moodle\'i andmebaasis säilitatavatega.';
 $string['auth_emailtitle'] = 'E-postil põhinev autentimine';
@@ -41,9 +42,9 @@ $string['auth_fcpasswd'] = 'Parool antud  konto jaoks';
 $string['auth_fctitle'] = 'Kasuta FirstClass serverit';
 $string['auth_fcuserid'] = 'FirstClass konto kasutaja ID, millel on seatud \'Subadministrator\' õigused.';
 $string['auth_fieldlock'] = 'Lukusta väärtus';
-$string['auth_fieldlock_expl'] = '<p><b>Lukusta väärtus:</b>Kui see valik on sisse lülitatud, siis Moodle kasutajad ja administraatorid ei saa antud välja otse muuta. Kasuta seda valikut, kui hoiad antud välja andmeid välises autentimissüsteemis.</p> ';
+$string['auth_fieldlock_expl'] = '<p><b>Lukusta väärtus:</b>Kui see valik on sisse lülitatud, siis Moodle kasutajad ja administraatorid ei saa antud välja otse muuta. Kasuta seda valikut, kui hoiad antud välja andmeid välises autentimissüsteemis.</p>';
 $string['auth_fieldlocks'] = 'Lukusta kasutaja väljad';
-$string['auth_fieldlocks_help'] = '<p>Sa võid lukustada kasutaja andmete väljad. See on vajalik juhul, kui sinu õpikeskkonnas haldavad administraatorid kasutajate andmeid käsitsi, muutes kasutajakirjeid või laadides kasutajad süsteemi, kasutades vahendit \"Lae kasutajad\". Kui sa lukustad väljad, mis on Moodle\'i jaoks kohustuslikud, kindlusta, et kasutajakontosid luues varustad need vajalike andmetega &emdash; või kontod muutuvad kasutamiskõlbmatuks.   ';
+$string['auth_fieldlocks_help'] = '<p>Sa võid lukustada kasutaja andmete väljad. See on vajalik juhul, kui sinu õpikeskkonnas haldavad administraatorid kasutajate andmeid käsitsi, muutes kasutajakirjeid või laadides kasutajad süsteemi, kasutades vahendit \"Lae kasutajad\". Kui sa lukustad väljad, mis on Moodle\'i jaoks kohustuslikud, kindlusta, et kasutajakontosid luues varustad need vajalike andmetega &emdash; või kontod muutuvad kasutamiskõlbmatuks.';
 $string['auth_imapdescription'] = 'See meetod kasutab IMAP serverit kontrollimaks, kas antud kasutajanimi ja salasõna ketivad.';
 $string['auth_imaphost'] = 'IMAP serveri aadress. Kasuta IP aadressi, mitte DNS nime.';
 $string['auth_imapport'] = 'IMAP serveri pordi number. Tavaliselt on see 143 või 993.';
@@ -56,11 +57,11 @@ $string['auth_ldap_contexts'] = 'Loend kontekstidest, kus kasutajad paiknevad. E
 $string['auth_ldap_create_context'] = 'Kui võimaldad kasutajate loomist e-posti teel kinnitamisega, täpsusta kontekst, milles kasutajaid luuakse. See kontekst peaks erinema teiste kasutajate omast, et ei tekiks turvaprobleeme. Seda konteksti pole vaja lisada ldap_context muutujale, Moodle otsib kasutajaid sellest kontekstist automaatselt.<br /><b>Pane tähele!</b>Sa pead muutma funktsiooni auth_user_create() failis auth/ldap/lib.php, et kasutajate loomine toimiks.';
 $string['auth_ldap_creators'] = 'Nimekiri rühmadest, kelle liikmetel on lubatud luua uusi kursuseid. Eralda rühmad \';\' sümboliga. Näiteks \'cn=teachers,ou=staff,o=myorg\'';
 $string['auth_ldap_expiration_desc'] = 'Vali \"ei\", kui soovid välja lülitada aegunud salasõnade kontrolli või keelata LDAP\'il lugeda salasõnade aegumise aega otse LDAP\'ist.';
-$string['auth_ldap_expiration_warning_desc'] = 'Päevade arv, pärast mida kuvatakse aegunud salasõna hoiatus. ';
+$string['auth_ldap_expiration_warning_desc'] = 'Päevade arv, pärast mida kuvatakse aegunud salasõna hoiatus.';
 $string['auth_ldap_expireattr_desc'] = 'Valikuline: katab üle LDAP-atribuudi passwordExpirationTime, mis hoiab salasõna aegumise aega.';
 $string['auth_ldap_graceattr_desc'] = 'Valikuline: katab üle ajapikendusega sisenemise atribuudi';
 $string['auth_ldap_gracelogins_desc'] = 'Lülitab sisse LDAP\'i ajapikendusega sisenemise toe. Peale salasõna aegumist saab kasutaja õpikeskkonda siseneda nii kaua, kuni ajapikendusega sisenemise loenduri väärtuseks saab 0. Selle seade sisse lülitamine kuvab ajapikendusega sisenemise teate, kui salasõna on aegunud.';
-$string['auth_ldap_host_url'] = 'Täpsusta LDAP host URL-formaadis, näiteks \'ldap://ldap.myorg.com/\' või \'ldaps://ldap.myorg.com/\' Sisestades mitu serverit, eralda nad \';\' sümboliga.  ';
+$string['auth_ldap_host_url'] = 'Täpsusta LDAP host URL-formaadis, näiteks \'ldap://ldap.myorg.com/\' või \'ldaps://ldap.myorg.com/\' Sisestades mitu serverit, eralda nad \';\' sümboliga.';
 $string['auth_ldap_login_settings'] = 'Sisenemise seaded';
 $string['auth_ldap_memberattribute'] = 'Valikuline: katab üle kasutaja liikmelisuse atribuudi (tavaliselt \'member\'), mis näitab kasutajate rühma kuuluvust.';
 $string['auth_ldap_objectclass'] = 'Valikuline: katab üle objectClass\'i, mida kasutatakse kasutajate otsinguks ldap_user_type\'st. Tavaliselt ei pea sa seda muutma.';
@@ -72,7 +73,7 @@ $string['auth_ldap_server_settings'] = 'LDAP serveri seaded';
 $string['auth_ldap_update_userinfo'] = 'Uuenda kasutajainfot (eesnimi, perekonnanimi, aadress,..) LDAP-ist Moodle\'isse. Vaata /auth/ldap/attr_mappings.php andmete vastendamise kohta info saamiseks.';
 $string['auth_ldap_user_attribute'] = 'Valikuline: katab üle atribuudi (tavaliselt \'cn\'), mida kasutatakse kasutajate nimetamiseks/otsimiseks.';
 $string['auth_ldap_user_settings'] = 'Kasutaja otsimise seaded';
-$string['auth_ldap_user_type'] = 'Vali, kuidas kasutajaid LDAP\'is hoitakse. See seadistus määrab ka ära, kuidas sisenemise aegumine, ajapikendusega sisenemine ja kasutajate loomine töötab. ';
+$string['auth_ldap_user_type'] = 'Vali, kuidas kasutajaid LDAP\'is hoitakse. See seadistus määrab ka ära, kuidas sisenemise aegumine, ajapikendusega sisenemine ja kasutajate loomine töötab.';
 $string['auth_ldap_version'] = 'Sinu serveri LDAP protokolli versioon.';
 $string['auth_ldapdescription'] = 'See meetod tagab autentimise, kasutades välist LDAP serverit.
 Kui antud kasutajanimi ja salasõna kehtivad, loob Moodle uue kasutajakande oma andmebaasi. See moodul oskab lugeda kasutaja atribuute LDAP-ist ja eeltäita soovitud väljad Moodle\'is.  Edaspidiste sisenemiste korral kontrollitakse ainult kasutajanime ja salasõna.';
@@ -98,10 +99,10 @@ $string['auth_pop3port'] = 'Serveri port (110 on kõige levinum, 995 on tüüpil
 $string['auth_pop3title'] = 'Kasuta POP3 serverit';
 $string['auth_pop3type'] = 'Serveri tüüp. Kui sinu server kasutab turvasertifikaati, vali pop3cert.';
 $string['auth_shib_convert_data'] = 'Andmete muutmise rakendusliides';
-$string['auth_shib_convert_data_description'] = 'Sa saad kasutada seda rakendusliidest, et muuta Shibboleth\'i poolt hangitavaid andmeid. Edasiste juhiste saamiseks loe <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">LOE MIND</a> ';
+$string['auth_shib_convert_data_description'] = 'Sa saad kasutada seda rakendusliidest, et muuta Shibboleth\'i poolt hangitavaid andmeid. Edasiste juhiste saamiseks loe <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">LOE MIND</a>';
 $string['auth_shib_convert_data_warning'] = 'Faili ei eksisteeri või ta pole loetav veebiserveri protsessi jaoks!';
-$string['auth_shib_instructions'] = 'Kasuta <a href=\"$a\">Shibboleth sisenemist</a>, et saada juurdepääs Shibboleth\'i kaudu, kui sinu asutus seda toetab.<br/>Vastasel korral kasuta siin näidatud tavapärast sisenemise vormi. ';
-$string['auth_shib_instructions_help'] = 'Siia võiksid sisestada Shibboleth\'i selgitava juhise kasutajatele. Seda näidatakse õpikeskkonda sisenemise lehel juhiste sektsioonis. Juhis peaks sisaldama linki Shibboleth\'i kaitstud lehele, mis suunab kasutajad ümber lehele \"<b>$a</b>\", nii et Shibbolethi kasutajad saaksid Moodle\'isse siseneda. Kui jätad selle lahtri tühjaks, siis kasutatakse standardseid juhiseid (mitte Shibboleth\'i-spetsiifilisi).  ';
+$string['auth_shib_instructions'] = 'Kasuta <a href=\"$a\">Shibboleth sisenemist</a>, et saada juurdepääs Shibboleth\'i kaudu, kui sinu asutus seda toetab.<br/>Vastasel korral kasuta siin näidatud tavapärast sisenemise vormi.';
+$string['auth_shib_instructions_help'] = 'Siia võiksid sisestada Shibboleth\'i selgitava juhise kasutajatele. Seda näidatakse õpikeskkonda sisenemise lehel juhiste sektsioonis. Juhis peaks sisaldama linki Shibboleth\'i kaitstud lehele, mis suunab kasutajad ümber lehele \"<b>$a</b>\", nii et Shibbolethi kasutajad saaksid Moodle\'isse siseneda. Kui jätad selle lahtri tühjaks, siis kasutatakse standardseid juhiseid (mitte Shibboleth\'i-spetsiifilisi).';
 $string['auth_shib_only'] = 'Ainult Shibboleth';
 $string['auth_shib_only_description'] = 'Vali see variant, kui tahad sundida Shibboleth\'i põhist autentimist.';
 $string['auth_shib_username_description'] = 'Veebiserveri Shibboleth\'i keskkonna muutuja nimi, mida tuleks kasutada Moodle\'i kasutajanimena.';
@@ -121,9 +122,7 @@ $string['authenticationoptions'] = 'Autentimise valikud';
 $string['authinstructions'] = 'Siin võid juhendada kasutajaid, et nad teaksid, millist kasutajanime ja salasõna nad peaksid kasutama. Siia sisestatud tekst ilmub õpikeskkonda sisenemise lehel. Kui jätad selle välja tühjaks, ei näidata mingeid juhiseid.';
 $string['changepassword'] = 'Salasõna muutmise URL';
 $string['changepasswordhelp'] = 'Siin võid määrata asukoha, kus kasutajad saavad oma kasutajanime/salasõna taastada, kui see on ununenud. Määratud asukoht ilmub nupuna sisenemise lehel ja kasutaja andmete lehel. Kui jätad selle lahtri tühjaks, siis nuppu ei kuvata.';
-$string['chooseauthmethod'] = 'Vali autentimise meetod: ';
-$string['createchangepassword'] = 'Puudumise korral loo - sunni muutmine';
-$string['createpassword'] = 'Puudumise korral loo';
+$string['chooseauthmethod'] = 'Vali autentimise meetod:';
 $string['forcechangepassword'] = 'Sunni salasõna vahetama';
 $string['forcechangepassword_help'] = 'Sunni kasutajat salasõna vahetama järgmise Moodle\'isse sisenemise ajal.';
 $string['forcechangepasswordfirst_help'] = 'Sunni kasutajat salasõna vahetama esimese Moodle\'isse sisenemise ajal.';
@@ -145,5 +144,7 @@ $string['update_never'] = 'Mitte kunagi';
 $string['update_oncreate'] = 'Loomise ajal';
 $string['update_onlogin'] = 'Iga sisenemise ajal';
 $string['update_onupdate'] = 'Uuendamise ajal';
+$string['createchangepassword'] = 'Puudumise korral loo - sunni muutmine'; // ORPHANED
+$string['createpassword'] = 'Puudumise korral loo'; // ORPHANED
 
 ?>

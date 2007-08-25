@@ -1,15 +1,16 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.5.2 (2005060220)
+      // resource.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['addresource'] = 'Lisa kursuse materjalid';
+$string['back'] = 'Tagasi';
 $string['chooseafile'] = 'Vali või lae üles fail';
 $string['chooseparameter'] = 'Vali parameeter';
 $string['configallowlocalfiles'] = 'Luba linke ka failidele, mis asuvad kohalikes failisüsteemides, näiteks CD plaadil või kõvakettal. See võib kasulik olla klassis, kus kõigil õppijatel on juurdepääs üldisele võrgukettale või on vaja kasutada CD kettal asuvaid faile. Selle võimaluse kasutamine võib vajada muudatusi sinu veebibrauseri turvaseadetes.';
 $string['configdefaulturl'] = 'Selle väärtusega eeltäidetakse URL vorm uue URL-põhise kursuse materjali loomisel.';
 $string['configfilterexternalpages'] = 'Selle seadistuse sisse lülitamisel töödeldakse kõik välisressursid (veebilehed, üleslaetud HTML failid) õpikeskkonnas hetkel kehtivate filtrite poolt (nt sõnastiku automaatne linkimine). Selle seadistuse sisse lülitamine võib lehtede kiirust oluliselt vähendada - kasuta ettevaatlikult ja vaid siis, kui tõesti vaja.';
 $string['configframesize'] = 'Kui veebilehte või üleslaetud faili näidatakse raami sees, siis see väärtus (pikslites) on ülemise navigeerimist sisaldava raami suurus.';
-$string['configparametersettings'] = 'See seab vaikimisi väärtuse parameetrite seadistamise paneelile, mis asub uue kursuse materjali lisamise vormis. Pärast esimest korda muutub see kasutaja individuaalseks eelistuseks. ';
+$string['configparametersettings'] = 'See seab vaikimisi väärtuse parameetrite seadistamise paneelile, mis asub uue kursuse materjali lisamise vormis. Pärast esimest korda muutub see kasutaja individuaalseks eelistuseks.';
 $string['configpopup'] = 'Kui lisatakse uus kursuse materjal, mida saaks näidata hüpikaknas, kas siis lubada see võimalus vaikimisi?';
 $string['configpopupdirectories'] = 'Kas hüpikaknas näidatakse vaikimisi kataloogi linke?';
 $string['configpopupheight'] = 'Kui suur on hüpikakna kõrgus vaikimsi?';
@@ -21,7 +22,7 @@ $string['configpopupstatus'] = 'Kas hüpikaknas näidatakse vaikimisi olekuriba?
 $string['configpopuptoolbar'] = 'Kas hüpikaknas näidatakse vaikimisi tööriistariba?';
 $string['configpopupwidth'] = 'Kui suur on hüpikakna laius vaikimsi?';
 $string['configsecretphrase'] = 'Seda salasõna kasutatakse krüptitud koodi loomiseks, mida saab saata mõnedele kursuse materjalidele parameetrina. Krüpteeritud kood luuakse md5 väärtusena, ühendades parameetri current_users IP aadressi sinu salasõnaga. ie code = md5(IP.secretphrase). See lubab sihtmärgil kontrollida ühendust lisaturvalisuse saavutamiseks.';
-$string['configwebsearch'] = 'Kui soovitakse lisada URL veebilehe või -lingina, siis seda veebilehte pakutakse abiks soovitud URL\'i leidmisel. ';
+$string['configwebsearch'] = 'Kui soovitakse lisada URL veebilehe või -lingina, siis seda veebilehte pakutakse abiks soovitud URL\'i leidmisel.';
 $string['configwindowsettings'] = 'See seab vaikimisi väärtuse akna seadistamise paneelile, mis asub uue kursuse materjali lisamise vormis. Pärast esimest korda muutub see kasutaja individuaalseks eelistuseks.';
 $string['directlink'] = 'Otselink sellele failile';
 $string['directoryinfo'] = 'Valitud kataloogis näidatakse kõiki faile.';
@@ -45,8 +46,8 @@ $string['localfileinfo'] = '<p>Vali oma arvutist kohalik fail. Faili ei laeta ve
 $string['localfilepath'] = 'Et seada oma kohalikku teed selle kursuse materjali jaoks, vali oma arvuti vastavalt kettalt, kus sul kursuse materjalid asuvad tavaliselt CD-plaadilt), mingi fail. Seda faili ei laeta üles, aga kettainfo salvestatakse ja seda kasutatakse kõikide kohalike failidega kuruse materjalide jaoks.';
 $string['localfileselect'] = 'Vali see failitee';
 $string['maindirectory'] = 'Failide peakataloog';
-$string['modulename'] = 'Kursuse materjal ';
-$string['modulenameplural'] = 'Kursuse materjalid ';
+$string['modulename'] = 'Kursuse materjal';
+$string['modulenameplural'] = 'Kursuse materjalid';
 $string['neverseen'] = 'Pole näinud';
 $string['newdirectories'] = 'Kuva kaustade lingid';
 $string['newfullscreen'] = 'Täisekraanil';
@@ -85,11 +86,12 @@ $string['resourcetype9'] = 'Kataloog';
 $string['resourcetypedirectory'] = 'Näita kataloogi';
 $string['resourcetypefile'] = 'Link failile või veebilehele';
 $string['resourcetypehtml'] = 'Koosta veebilehekülg';
-$string['resourcetypelabel'] = 'Sisesta vahetekst';
+$string['resourcetypelabel'] = 'Vahetekst';
 $string['resourcetyperepository'] = 'Link repositooriumi objektile';
 $string['resourcetypetext'] = 'Koosta tekstilehekülg';
 $string['searchweb'] = 'Otsi veebilehekülge';
 $string['serverurl'] = 'Serveri URL ($a->wwwroot)';
+$string['showcourseblocks'] = 'Näita kursuse blokke';
 $string['variablename'] = 'Muutuja nimi';
 $string['vol'] = 'Vol';
 

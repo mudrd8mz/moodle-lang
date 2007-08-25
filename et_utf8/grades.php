@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.5.2 (2005060220)
+      // grades.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['addcategory'] = 'Lisa kategooria';
@@ -76,6 +76,7 @@ $string['nolettergrade'] = 'Pole tähelist hinnet:';
 $string['nomode'] = 'pole';
 $string['nonnumericweight'] = 'Saadud mitte-numbriline väärtus:';
 $string['nonweightedpct'] = 'mitte-kaalutud %%';
+$string['notteachererror'] = 'Selle vahendi kasutamiseks peate olema õpetaja õigustes';
 $string['pctoftotalgrade'] = '%% koguhindest';
 $string['percent'] = 'Protsent';
 $string['percentascending'] = 'Sorteeri kasvavalt protsendi järgi';
@@ -122,5 +123,6 @@ $string['weightedpct'] = 'kaalutud %%';
 $string['weightedpctcontribution'] = 'kaalutud %% toetus';
 $string['writinggradebookinfo'] = 'Kirjutan hinnetelehe seadeid';
 $string['yes'] = 'jah';
+$string['yourgrade'] = 'Sinu hinne';
 
 ?>

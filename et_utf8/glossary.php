@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.5.2 (2005060220)
+      // glossary.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['addcomment'] = 'Lisa kommentaar';
@@ -65,7 +65,7 @@ $string['displayformat'] = 'Kuva formaat';
 $string['displayformatcontinuous'] = 'Jätkuv, ilma autorita';
 $string['displayformatdictionary'] = 'Lihtne, sõnastiku stiil';
 $string['displayformatencyclopedia'] = 'Entsüklopeedia';
-$string['displayformatentrylist'] = 'Kirjete list';
+$string['displayformatentrylist'] = 'Märksõnade nimekiri';
 $string['displayformatfaq'] = 'KKK';
 $string['displayformatfullwithauthor'] = 'Täielik autoriga';
 $string['displayformatfullwithoutauthor'] = 'Täielik autorita';
@@ -96,7 +96,6 @@ $string['explainexport'] = 'Fail on loodud.<br />Lae see alla ja hoia turvalisel
 $string['explainimport'] = 'Pead määrama imporditava faili ja kriteeriumi protsessi jaoks.<p> Sisesta oma päring ja vaata tulemusi.</p>';
 $string['explainspecial'] = 'Näitab kirjeid, mis ei alga tähega';
 $string['exportedentry'] = 'Eksporditud kirje';
-$string['exportedfile'] = 'Eksporditud fail';
 $string['exportentries'] = 'Ekspordi kirjed';
 $string['exportglossary'] = 'Ekspordi sõnastik';
 $string['exporttomainglossary'] = 'Ekspordi põhisõnastikku';
@@ -107,7 +106,6 @@ $string['fullmatch'] = 'Arvesta ainult terveid sõnu';
 $string['globalglossary'] = 'Üldine sõnastik';
 $string['glossaryleveldefaultsettings'] = 'Sõnastiku taseme vaikimisi seadistused';
 $string['glossarytype'] = 'Sõnastiku tüüp';
-$string['glosssaryexported'] = 'Sõnastik eksporditud.';
 $string['importcategories'] = 'Impordi kategooriad';
 $string['importedcategories'] = 'Imporditud kategooriad';
 $string['importedentries'] = 'Imporditud kirjed';
@@ -164,7 +162,9 @@ $string['waitingapproval'] = 'Ootab heakskiitu';
 $string['warningstudentcapost'] = '(Kehtib vaid siis, kui sõnastik ei ole põhisõnastik)';
 $string['withauthor'] = 'Mõisted koos autoriga';
 $string['withoutauthor'] = 'Mõisted ilma autorita';
-$string['writtenby'] = ' ';
 $string['youarenottheauthor'] = 'Sa ei ole selle kommentaari autor, seega ei saa sa seda muuta.';
+$string['exportedfile'] = 'Eksporditud fail'; // ORPHANED
+$string['glosssaryexported'] = 'Sõnastik eksporditud.'; // ORPHANED
+$string['writtenby'] = ''; // ORPHANED
 
 ?>

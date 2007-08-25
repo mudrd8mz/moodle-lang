@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.5.2 (2005060220)
+      // wiki.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['action'] = '-- Tegevus --';
@@ -22,7 +22,7 @@ $string['changes'] = '$a muudatust';
 $string['changesfield'] = 'Kui mitu tundi viimasest muudatusest tagasi';
 $string['changesfielderror'] = 'Palun sisesta korrektne tundide arv.';
 $string['checklinks'] = 'Kontrolli linke';
-$string['checklinkscheck'] = 'Kas sa oled kindel et soovid kontrollida linke lehel ';
+$string['checklinkscheck'] = 'Kas sa oled kindel et soovid kontrollida linke lehel';
 $string['checklinksnotice'] = 'Palun kannatust, kui see leht töötab.';
 $string['chooseadministration'] = '-- Administreerimine --';
 $string['chooseafile'] = 'Vali/lae üles esileht';
@@ -87,7 +87,7 @@ $string['htmlonly'] = 'Ainult HTML';
 $string['index'] = 'Indeks';
 $string['infoaboutpage'] = 'Ajalugu:';
 $string['initialcontent'] = 'Vali esileht';
-$string['invalidroot'] = 'Sul ei ole õigusi sisenemaks praegusele juurlehele, seega ei looda ka sisukaarti. ';
+$string['invalidroot'] = 'Sul ei ole õigusi sisenemaks praegusele juurlehele, seega ei looda ka sisukaarti.';
 $string['lastchanged'] = 'Viimati muudetud $a';
 $string['lastmodified'] = 'Viimane muutus';
 $string['linkdead'] = 'Surnud';
@@ -111,7 +111,6 @@ $string['noregexp'] = 'See peab olema fikseeritud string (sa ei saa kasutada * v
 $string['notadministratewiki'] = 'Sul pole õigusi selle wiki administreerimiseks!';
 $string['nothingtostrip'] = 'Ühelgi lehel pole rohkem kui üks versioon.';
 $string['nowikicreated'] = 'Selle wiki jaoks pole loodud ühtegi kirjet.';
-$string['of'] = ' ';
 $string['offline'] = 'OFFLAIN';
 $string['optional'] = 'Valikuline';
 $string['orphanedpage'] = 'Orvuks jäänud leht';
@@ -131,6 +130,8 @@ $string['plaintext'] = 'Lihttekst';
 $string['preview'] = 'Eelvaade';
 $string['readonly'] = 'Kirjutuskaitstud leht';
 $string['refs'] = 'Viited';
+$string['reloadlinkdescription'] = 'Värskendab lehte nii, et uus sisetatud tekt saab nähtavaks.';
+$string['reloadlinktext'] = 'Uuenda lehte';
 $string['removenotice'] = 'Pane tähele, et siin kuvatakse ainult viitamata lehed. Kuna ewiki mootor ise teeb ainult piiratud testimist selle kohta, kas leht on viidatud, siis ta võib mõned lehed välja jätta. <br /> Kui sa lehe tühjendad, siis kuvatakse seegi siin. Tehakse ka mitmeid teisi andmebaaside diagnostikaid.';
 $string['removepagecheck'] = 'Kas oled kindel, et soovid neid lehti kustutada?';
 $string['removepages'] = 'Eemalda lehed';
@@ -188,5 +189,6 @@ $string['wikiusage'] = 'Wiki kasutamine';
 $string['withbinaries'] = 'Kaasa binaarne sisu';
 $string['withvirtualpages'] = 'Kaasa Wiki-lingid';
 $string['wrongversionrange'] = '$a pole korralik vahemik!';
+$string['of'] = ''; // ORPHANED
 
 ?>

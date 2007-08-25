@@ -1,0 +1,54 @@
+<?PHP // $Id$ 
+      // blog.php - created with Moodle 1.8.1+ (2007021510)
+
+
+$string['addnewentry'] = 'Lisa uus sissekanne';
+$string['addotags'] = 'Lisa ametlikud märksõnad';
+$string['addptags'] = 'Lisa kasutaja määratud märksõnad';
+$string['blockmenutitle'] = 'Blogi menüü';
+$string['blocktagstitle'] = 'Blogi märksõnad';
+$string['blocktitle'] = 'Blogi bloki pealkiri';
+$string['blog'] = 'Blogi';
+$string['blogdeleteconfirm'] = 'Kas kustutada see blogi?';
+$string['blogpreferences'] = 'Blogi seaded';
+$string['blogs'] = 'Blogid(veebipäevikud)';
+$string['blogtags'] = 'Blogi märksõnad';
+$string['courseblog'] = 'Kursuse blogi: $a';
+$string['disableblogs'] = 'Lülita blogi süsteem täielikult välja';
+$string['emptybody'] = 'Blogi sissekande tekstiväli ei tohi olla tühi';
+$string['emptytitle'] = 'Blogi sissekande pealkirja väli ei tohi olla tühi';
+$string['entrybody'] = 'Blogi sissekande tekst';
+$string['entrybodyonlydesc'] = 'Sissekande kirjeldus';
+$string['entryerrornotyours'] = 'See sissekanne pole teie oma';
+$string['entrysaved'] = 'Teie sissekanne on salvestatud';
+$string['entrytitle'] = 'Sissekande pealkiri';
+$string['entryupdated'] = 'Blogi sissekanne uuendatud';
+$string['groupblog'] = 'Rühmablogi: $a';
+$string['noentriesyet'] = 'Sissekandeid pole';
+$string['noguestpost'] = 'Külalistel pole luba blogide sõnumeid postitada!';
+$string['norighttodeletetag'] = 'Teil pole õigusi kustutada seda märksõna - $a';
+$string['notallowedtoedit'] = 'Teil pole õigusi muuta seda sissekannet';
+$string['numberofentries'] = 'Sissekanded: $a';
+$string['numberoftags'] = 'Märksõnade arv näitamiseks';
+$string['otags'] = 'Ametlikud märksõnad';
+$string['pagesize'] = 'Leheküljel näidatavate sissekannete arv';
+$string['personalblogs'] = 'Kasutajad näevad ainult oma blogisid';
+$string['ptags'] = 'Kasutaja määratud märksõnad';
+$string['publishto'] = 'Publitseeri...';
+$string['publishtonoone'] = 'Iseendale (esmaversioon)';
+$string['publishtosite'] = 'Kõigile selles õpikeskkonnas';
+$string['publishtoworld'] = 'Kõigile maailmas';
+$string['settingsupdatederror'] = 'Viga! Blogi seadistusi ei õnnestunud uuendada';
+$string['siteblog'] = 'Õpikeskkonna blogi: $a';
+$string['siteblogs'] = 'Õpikeskkonna kasutajad võivad vaadata kõiki blogisid';
+$string['tagdatelastused'] = 'Viimati kasutatud märksõna kuupäev';
+$string['tags'] = 'Märksõnad';
+$string['tagsort'] = 'Sordi märksõnad';
+$string['tagtext'] = 'Märksõna tekst';
+$string['updateentrywithid'] = 'Sissekande uuendamine';
+$string['userblog'] = 'Kasutaja blogi: $a';
+$string['viewcourseentries'] = 'Näita kursuse sissekandeid';
+$string['viewmyentries'] = 'Näita minu sissekandeid';
+$string['viewsiteentries'] = 'Näita õpikeskkonna sissekandeid';
+
+?>

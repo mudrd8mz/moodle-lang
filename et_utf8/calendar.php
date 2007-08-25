@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.5.2 (2005060220)
+      // calendar.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['calendar'] = 'Kalender';
@@ -7,6 +7,7 @@ $string['calendarheading'] = '$a kalender';
 $string['clickhide'] = 'peida';
 $string['clickshow'] = 'näita';
 $string['confirmeventdelete'] = 'Kas oled kindel, et soovid seda sündmust kustutada?';
+$string['courseevent'] = 'Kursuse sündmused';
 $string['courseevents'] = 'Kursuse sündmused';
 $string['dayview'] = 'Päeva vaade';
 $string['daywithnoevents'] = 'Täna pole ühtegi sündmust';
@@ -30,8 +31,11 @@ $string['eventendtime'] = 'Lõpuaeg';
 $string['eventinstanttime'] = 'Aeg';
 $string['eventkind'] = 'Sündmuse liik';
 $string['eventname'] = 'Nimi';
+$string['eventnone'] = 'Sündmusi pole';
 $string['eventrepeat'] = 'Kordused';
+$string['eventsall'] = 'Kõik sündmused';
 $string['eventsfor'] = '$a sündmused';
+$string['eventsrelatedtocourses'] = 'Sündmused seotud kursusega';
 $string['eventstarttime'] = 'Algusaeg';
 $string['eventtime'] = 'Aeg';
 $string['eventview'] = 'Sündmuse üksikasjad';
@@ -41,16 +45,22 @@ $string['explain_maxevents'] = 'Määrab lähenevate sündmuste maksimumarvu, mi
 $string['explain_persistflt'] = 'Kui see on sisse lülitatud, siis Moodle jätab meelde sinu viimase sündmustefiltri seadistused ja käivatab need automaatselt iga kord, kui sisened õpikeskkonda.';
 $string['explain_startwday'] = 'Siin saad määrata, millise päevaga nädalad kalendris algavad.';
 $string['explain_timeformat'] = 'Saad valida 12tunnise ja 24tunnise ajaformaadi vahel. Kui valid \"vaikimisi\", siis ajaformaat valitakse automaatselt õpikeskkonna keele alusel.';
+$string['export'] = 'Ekspordi';
+$string['exportbutton'] = 'Eksport';
+$string['exportcalendar'] = 'Ekspordi kalender';
 $string['fri'] = 'R';
 $string['friday'] = 'reede';
 $string['globalevents'] = 'Õpikeskkonna sündmused';
 $string['gotocalendar'] = 'Mine kalendrisse';
+$string['groupevent'] = 'Rühmita sündmused';
 $string['groupevents'] = 'Rühma sündmused';
 $string['hidden'] = 'peidetud';
 $string['manyevents'] = '$a sündmust';
 $string['mon'] = 'E';
 $string['monday'] = 'Esmaspäev';
 $string['monthlyview'] = 'Kuu vaade';
+$string['monthnext'] = 'Järgmine kuu';
+$string['monththis'] = 'Käesolev kuu';
 $string['newevent'] = 'Uus sündmus';
 $string['noupcomingevents'] = 'Pole ühtegi lähenevat sündmust';
 $string['oneevent'] = '1 sündmus';
@@ -62,7 +72,7 @@ $string['pref_timeformat'] = 'Kellaaja näitamise formaat';
 $string['preferences'] = 'Eelistused';
 $string['preferences_available'] = 'Sinu isiklikud eelistused';
 $string['repeateditall'] = 'Muuda kõiki $a sündmust sellest korduseseeriast.';
-$string['repeateditthis'] = 'Muuda ainult seda sündmust ';
+$string['repeateditthis'] = 'Muuda ainult seda sündmust';
 $string['repeatnone'] = 'Ei korda';
 $string['repeatweeksl'] = 'Korda';
 $string['repeatweeksr'] = 'nädalat';
@@ -95,10 +105,13 @@ $string['typegroup'] = 'Rühma sündmus';
 $string['typesite'] = 'Õpikeskkonna sündmus';
 $string['typeuser'] = 'Kasutaja sündmus';
 $string['upcomingevents'] = 'Lähenevad sündmused';
+$string['userevent'] = 'Kasutaja sündmused';
 $string['userevents'] = 'Kasutaja sündmused';
 $string['wed'] = 'K';
 $string['wednesday'] = 'Kolmapäev';
+$string['weeknext'] = 'Järgmine nädal';
+$string['weekthis'] = 'Käesolev nädal';
 $string['yesterday'] = 'Eile';
-$string['youcandeleteallrepeats'] = 'See sündmus kuulub korratava sündmuse seeriasse. Saad kustutada selle sündmuse või kõik $a seeria sündmust korraga. ';
+$string['youcandeleteallrepeats'] = 'See sündmus kuulub korratava sündmuse seeriasse. Saad kustutada selle sündmuse või kõik $a seeria sündmust korraga.';
 
 ?>
