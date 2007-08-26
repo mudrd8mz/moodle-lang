@@ -11,6 +11,7 @@ $string['cannotfindcomponent'] = 'Komponent nenájdený.';
 $string['cannotsavemd5file'] = 'Nie je možné uložiť súbor MD5.';
 $string['cannotsavezipfile'] = 'Nie je možné uložiť súbor ZIP.';
 $string['cannotunzipfile'] = 'Nie je možné dekomprimovať súbor.';
+$string['cannotviewprofile'] = 'Nemáte dovolené si prezerať profil tohto používateľa.';
 $string['cantunenrollfrommetacourse'] = 'Nemôžete sa odhlásiť z tohto metakurzu.';
 $string['cantunenrollinthisrole'] = 'Nemôžete sa odhlásiť z tohto kurzu, kým ste prihlásený v súčasnej role.';
 $string['cmunknown'] = 'Tento modul kurzu nebol nájdený';
