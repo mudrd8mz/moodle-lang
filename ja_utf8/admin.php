@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta + (2007082200)
+      // admin.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
 $string['accounts'] = 'アカウント';
-$string['addcounter'] = '追加カウンタ';
+$string['addcounter'] = 'カウンタを付加する';
 $string['adminseesall'] = '管理者がすべてを閲覧する';
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示';
 $string['adminseesownevents'] = '管理者は他のユーザと同じ';
@@ -427,6 +427,7 @@ $string['mymoodle'] = 'マイ Moodle';
 $string['mymoodleredirect'] = 'ユーザにマイ Moodleを強制する';
 $string['mysql416bypassed'] = 'あなたのサイトがiso-8859-1 (ラテン) 言語のみ使用している場合、現在インストールされている MySQL 4.1.12 (またはそれ以上) を使用することができます。';
 $string['mysql416required'] = 'Moodle1.6では、将来すべてのデータをUTF-8に変換するため、MySQL 4.1.16が要求される最低限のバージョンです。';
+$string['newusernamehandling'] = '新しいユーザ名の重複取り扱い';
 $string['nobookmarksforuser'] = 'ブックマークはありません。';
 $string['nodefaultuserrolelists'] = 'ユーザにすべてのデフォルトロールを戻さない';
 $string['nolangupdateneeded'] = 'すべての言語パックは最新版です。アップデートの必要はありません。';
@@ -562,6 +563,7 @@ $string['sitemaintenancewarning'] = 'あなたのサイトは、現在メンテ�
 $string['sitepolicies'] = 'サイトポリシー';
 $string['sitepolicy'] = 'サイトポリシーURI';
 $string['sitesectionhelp'] = '選択した場合、トピックセクションがサイトフロントページに表示されます。';
+$string['skipuser'] = 'ユーザをスキップする';
 $string['slasharguments'] = 'スラッシュを使用する';
 $string['smartpix'] = 'スマートpixサーチ';
 $string['smtphosts'] = 'SMTPホスト';
