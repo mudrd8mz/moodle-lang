@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta + (2007081600)
+      // role.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['addrole'] = '역할 추가';
@@ -66,6 +66,7 @@ $string['grade:hide'] = '성적 숨김';
 $string['grade:import'] = '성적 가져옴';
 $string['grade:lock'] = '성적 잠금';
 $string['grade:manage'] = '성적 항목 관리';
+$string['grade:manageoutcomes'] = '성적 출력물 관리';
 $string['grade:override'] = '성적 대체';
 $string['grade:unlock'] = '성적 혹은 항목 잠금해제';
 $string['grade:view'] = '내 성적 보기';
