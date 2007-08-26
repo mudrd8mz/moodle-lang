@@ -33,7 +33,7 @@ En cada rol, usted puede decidir si da permiso para hacer algo o no optando por 
 <p> Los permisos de un contexto "inferior" anulan por lo general a cualquier otro que esté en un contexto "superior" (esto se aplica a las anulaciones y a los roles asignados). La excepción es PROHIBIR, que no puede ser anulado por niveles más bajos.</p>
 
 <p> Si una persona tiene asignados dos roles en el mismo contexto, uno con PERMITIR y otro con PREVENIR, ¿cuál prevalece? En este caso, Moodle consultará el árbol contextual para tomar una decisión.</p>
-    
+
 <p> Por ejemplo, un estudiante tiene dos roles en un curso; uno le permite comenzar nuevos debates, otro previene de tal acción. En este caso, comprobamos los contextos de las categorías y del sitio, buscando otro permiso que nos ayude a decidir. Si no encontramos ninguno, el permiso por defecto será PREVENIR, toda vez que los dos ajustes se anulan mutuamente y, por consiguiente, el estudiante no tendrá permiso.
 </p>
 
