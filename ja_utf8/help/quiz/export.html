@@ -6,8 +6,8 @@
 
 <p>現在サポートされているフォーマットは下記のとおりです:</p>
 
-<p><b>GIFTフォーマット</b></p>
-<ul>
+<h2>GIFTフォーマット</h2>
+<div class="indent">
 <p>GIFTは、Moodleの小テストをテキストファイルにエクスポートするための、最も包括的なインポート・エクスポートフォーマットです。GIFTは、教師が問題をテキストファイルで簡単に書くことができるように設計されています。多肢選択問題、○/×問題、記述問題、組み合わせ問題、数値問題、_____を挿入することで「穴埋め問題」をサポートします。Cloze問題は現在はサポートされていないことに注意してください。
 様々なタイプの問題およびコメント、問題名、フィードバック、評点の加重割合を1つのテキストファイルに記述することができます。以下に例をあげます:</p>
 
@@ -23,23 +23,23 @@
 ユリシーズ S. グラントは、いつ生まれましたか?{#1822}
 </pre>
 
-<p align="right"><a href="help.php?file=formatgift.html&module=quiz">「GIFT」フォーマットの詳細情報</a></p>
-</ul>
+<p class="moreinfo"><a href="help.php?file=formatgift.html&module=quiz">「GIFT」フォーマットの詳細情報</a></p>
+</div>
 
-<p><b>Moodle XMLフォーマット</b></p>
-<ul>
+<h2>Moodle XMLフォーマット</h2>
+<div class="indent">
 <p>このMoodle特有のフォーマットは、小テスト問題をシンプルなXMLフォーマットにエクスポートします。エクスポートしたファイルを他の小テストカテゴリにインポートしたり、XSLTのような他の処理に使用することができます。XMLフォーマットでは、問題に添付されているイメージを (base64エンコードで) エクスポートします。</p>
-</ul>
+</div>
 
-<p><b>IMS QTI 2.0</b></p>
-<ul>
+<h2>IMS QTI 2.0</h2>
+<div class="indent">
 <p>標準的なIMS QTI (version 2.0) フォーマットでエクスポートします。この機能ではファイル群を単一のZipファイルに圧縮します。</p>
-<p align="right"><a href="http://www.imsglobal.org/question/" target="_qti">IMS QTIフォーマットの詳細情報</a> (外部サイトを別のウィンドウに開きます)</p>
-</ul>
+<p class="moreinfo"><a href="http://www.imsglobal.org/question/" target="_qti">IMS QTIフォーマットの詳細情報</a> (外部サイトを別のウィンドウに開きます)</p>
+</div>
 
-<p><b>XHTML</b></p>
-<ul>
+<h2>XHTML</h2>
+<div class="indent">
 <p>カテゴリを1ページの厳密なXHTMLにエクスポートします。それぞれの問題は明確に&lt;div&gt;タグの中に入れられます。このファイルをそのまま使いたい場合は、少なくとも&lt;body&gt;タグの最初にある&lt;form&gt;タグを編集して適切な処理を入れてください。(例 'mailto')</p>
-</ul>
+</div>
 
 <p>インポートおよびエクスポートフォーマットは、脱着可能なリソースです。他のオプションフォーマットは、モジュールおよびプラグインデータベースで利用することができます。</p>
