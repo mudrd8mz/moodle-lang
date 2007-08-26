@@ -3,6 +3,10 @@
       // local modifications from http://127.0.0.1/moodle
 
 
+$string['firstaccess'] = 'Primer acceso';
+$string['isafter'] = 'es después de $a';
+$string['isbefore'] = 'es antes de $a';
+$string['isbetween'] = 'es entre $a(0) y $a(1)';
 $string['actfilterhdr'] = 'Filtros activos (ORed juntos)';
 $string['addfilter'] = 'Agregar filtro';
 $string['anycategory'] = 'cualquier categoría';

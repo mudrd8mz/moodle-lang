@@ -2,6 +2,7 @@
       // grades.php - created with Moodle 1.8.2+ (2007021520)
 
 
+$string['gradedon'] = 'Calificados $a';
 $string['bulkcheckboxes'] = 'Casillas de verificación masivas';
 $string['configbulkcheckboxes'] = 'Casillas de verificación al lado de cada calificación para operaciones de calificación masiva.';
 $string['configenableajax'] = 'Agrega una capa de funcionalidad AJAX al informe del calificador, simplificando y agilizando las operaciones comunes. Depende de que Javascript esté activado en el navegador del usuario.';

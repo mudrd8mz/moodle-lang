@@ -2,6 +2,9 @@
       // admin.php - created with Moodle 1.8 + (2007021502)
 
 
+$string['deleteerrors'] = 'Eliminar errores';
+$string['userdeleted'] = 'Usuario eliminado';
+$string['usersdeleted'] = 'Usuarios eliminados';
 $string['editingnoncorelangfile'] = 'Está intentando modificar la traducción de un módulo/conector añadido. Puede guardar la traducción de módulos de terceras partes sólo en su carpeta local. Quizás quiera mover el archivo con la traducción al directorio lang del módulo y/o enviarlo al mantenedor del módulo añadido.';
 $string['numberofstrings'] = 'Número total de cadenas: $a->strings<br />Ausentes: $a->missing ($a->missingpercent&nbsp;%%)';
 $string['addcounter'] = 'Agregar contador';

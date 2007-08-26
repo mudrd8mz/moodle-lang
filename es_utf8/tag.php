@@ -2,6 +2,10 @@
       // tag.php - created with Moodle 1.8 + (2007021502)
 
 
+$string['changename'] = 'Cambiar nombre';
+$string['namesalreadybeeingused'] = 'Los nombres de marca ya se están usando';
+$string['newname'] = 'Nuevo nombre';
+$string['updated'] = 'Actualizado';
 $string['withselectedtags'] = 'Con las marcas seleccionadas...';
 $string['addtagtomyinterests'] = 'Agregar \"$a\" a mis intereses';
 $string['count'] = 'Contar';
