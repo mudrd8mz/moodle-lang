@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 dev (2007080202)
+      // tag.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['addtagtomyinterests'] = '「 $a 」を私の「興味があること」に追加する';
@@ -30,5 +30,6 @@ $string['thistaghasnodesc'] = '現在、このタグには説明がありませ�
 $string['timemodified'] = '修正日時';
 $string['updatetag'] = '更新';
 $string['userstaggedwith'] = '「 $a 」でタグされたユーザ';
+$string['withselectedtags'] = '選択したタグを ...';
 
 ?>
