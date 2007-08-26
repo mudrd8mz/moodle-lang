@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.9 dev (2007052300)
+      // dialogue.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['addmynewentries'] = '新しいエントリを追加';
@@ -44,8 +44,8 @@ $string['notyetseen'] = 'まだ閲覧されていません';
 $string['numberofentries'] = 'エントリ数';
 $string['numberofentriesadded'] = '追加されたエントリ: $a';
 $string['of'] = '中';
-$string['onwrote'] = '書込み日時: $a';
-$string['onyouwrote'] = 'あなたの書込み日時: $a';
+$string['onwrote'] = '書き込み日時: $a';
+$string['onyouwrote'] = 'あなたの書き込み日時: $a';
 $string['open'] = '開催中';
 $string['openadialoguewith'] = 'ダイアログを開く';
 $string['opendialogue'] = 'ダイアログを開く';

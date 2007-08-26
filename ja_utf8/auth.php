@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007072500)
+      // auth.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['CASform'] = '認証選択';
@@ -254,7 +254,7 @@ $string['auth_updatelocal'] = 'ローカルデータの更新';
 $string['auth_updatelocal_expl'] = '<p><b>ローカルデータの更新:</b> この設定を有効にした場合、このフィールドは(外部認証を通して)ログイン毎またはユーザの同期ごとに更新されます。更新されるローカルフィールドはロックする必要があります。</p>';
 $string['auth_updateremote'] = '外部データの更新';
 $string['auth_updateremote_expl'] = '<p><b>外部データの更新:</b> この設定を有効にした場合、ユーザレコードが更新されるときに外部認証が更新されます。編集できるようフィールドのロックを解除する必要があります。</p>';
-$string['auth_updateremote_ldap'] = '<p><b>注意:</b> 外部LDAPデータを更新するには、すべてのユーザレコードに書込み権を持ったbindユーザに対してbinddnとbindpwを設定する必要があります。現在、多値属性を保持することはできません。また、超過した値は更新時に取り除かれます。</p>';
+$string['auth_updateremote_ldap'] = '<p><b>注意:</b> 外部LDAPデータを更新するには、すべてのユーザレコードに書き込み権を持ったbindユーザに対してbinddnとbindpwを設定する必要があります。現在、多値属性を保持することはできません。また、超過した値は更新時に取り除かれます。</p>';
 $string['auth_user_create'] = 'ユーザの作成';
 $string['auth_user_creation'] = '新しい (匿名) ユーザは、外部認証元のユーザアカウントを作成することができます。ユーザの確定はメールによって行われます。このオプションを有効にした場合、モジュール特有のオプションも同時に設定する必要があります。';
 $string['auth_usernameexists'] = 'このユーザ名はすでに登録されています。新しいものを選んでください。';
