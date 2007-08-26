@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta + (2007081600)
+      // role.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -66,6 +66,7 @@ $string['grade:hide'] = '評定を非表示にする';
 $string['grade:import'] = '評定をインポートする';
 $string['grade:lock'] = '評定をロックする';
 $string['grade:manage'] = '評定項目を管理する';
+$string['grade:manageoutcomes'] = '評定アウトカムを管理する';
 $string['grade:override'] = '評定をオーバーライドする';
 $string['grade:unlock'] = '評定または評定項目をロック解除する';
 $string['grade:view'] = '自分の評定を表示する';
