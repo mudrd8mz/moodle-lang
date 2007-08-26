@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 Beta + (2007082200)
+      // question.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -29,11 +29,14 @@ $string['movecategory'] = 'カテゴリを移動する';
 $string['moveq'] = '問題を移動する';
 $string['moveqtoanothercontext'] = '問題を他のコンテクストに移動する';
 $string['movingcategory'] = 'カテゴリの移動';
+$string['movingcategorynofiles'] = '本当にカテゴリ「 {$a->name} 」およびすべての子カテゴリを「 {$a->contextto} 」のコンテクストに移動してもよろしいですか?';
 $string['movingquestions'] = '問題およびすべてのファイルの移動';
+$string['movingquestionsnofiles'] = '本当に問題 {$a->questions} を<strong>「 {$a->tocontext} 」</strong>のコンテクストに移動してもよろしいですか?<br />{$a->fromareaname} の問題からリンクされているファイルは<strong>ありません</strong>。';
 $string['needtochoosecat'] = 'このカテゴリを移動するにはカテゴリを選択してください。または「キャンセル」をクリックしてください。';
 $string['nopermissionadd'] = 'あなたには問題をここに追加するパーミッションがありません。';
 $string['noprobs'] = 'あなたの問題データベースに問題が見つかりませんでした。';
 $string['notenoughdatatoeditaquestion'] = '問題ID、カテゴリIDおよび問題タイプが指定されていません。';
+$string['notenoughdatatomovequestions'] = 'あなたが移動したい問題の問題IDを提供してください。';
 $string['permissionedit'] = 'この問題を編集する';
 $string['permissionmove'] = 'この問題を移動する';
 $string['permissionsaveasnew'] = 'この問題を新しい問題として保存する';
