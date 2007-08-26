@@ -3,5 +3,6 @@
 
 
 $string['modulename'] = 'Archivo CSV';
+$string['cvs:view'] = 'Usar exportación de calificaciones CSV';
 
 ?>

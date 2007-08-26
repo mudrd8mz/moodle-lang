@@ -7,5 +7,6 @@ $string['courseoutcomes'] = 'Resultados del curso';
 $string['coursespecoutcome'] = 'Resultados del curso';
 $string['modulename'] = 'Informe de resultados';
 $string['usedgradeitem'] = 'Número de elementos de calificación';
+$string['outcomes:view'] = 'Ver el informe de resultados';
 
 ?>

@@ -2,6 +2,7 @@
       // role.php - created with Moodle 1.8 + (2007021502)
 
 
+$string['grade:manageoutcomes'] = 'Gestionar resultados de calificaciones';
 $string['block:view'] = 'Ver bloque';
 $string['globalrole'] = 'Rol global';
 $string['question:add'] = 'Agregar nuevas preguntas';

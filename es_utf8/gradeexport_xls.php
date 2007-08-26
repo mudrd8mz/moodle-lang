@@ -3,5 +3,6 @@
 
 
 $string['modulename'] = 'Hoja de cálculo Excel';
+$string['xls:view'] = 'Usar exportación de calificaciones Excel';
 
 ?>

@@ -3,5 +3,6 @@
 
 
 $string['modulename'] = 'Hoja de cálculo OpenOffice';
+$string['ods:view'] = 'Usar exportación de calificaciones OpenOffice';
 
 ?>

@@ -3,5 +3,6 @@
 
 
 $string['modulename'] = 'Archivo XML';
+$string['xml:view'] = 'Importar calificaciones XML';
 
 ?>

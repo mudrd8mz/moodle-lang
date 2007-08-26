@@ -3,5 +3,6 @@
 
 
 $string['modulename'] = 'Archivo CSV';
+$string['csv:view'] = 'Importar calificaciones CSV';
 
 ?>

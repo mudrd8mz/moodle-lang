@@ -4,5 +4,6 @@
 
 
 $string['modulename'] = 'Informe general';
+$string['overview:view'] = 'Ver el informe general';
 
 ?>
