@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9 Beta (2007081500)
+      // message.php - created with Moodle 1.9 Beta + (2007082701)
 
 
 $string['addcontact'] = 'コンタクトリストに追加する';
 $string['addsomecontacts'] = '誰かにメッセージを送信する場合や、このページにショートカットを作成する場合は、上にある<a href=\"$a\">検索タブ</a>を使用してください。';
-$string['addsomecontactsincoming'] = 'これらのメッセージは、あなたのコンタクトリストに登録されていない人から受信しています。コンタクトに人を追加したい場合は、名前の隣にある「コンタクトリストに追加」アイコンをクリックしてください。';
+$string['addsomecontactsincoming'] = 'これらのメッセージは、あなたのコンタクトリストに登録されていない人から送信されています。コンタクトリストに人を追加したい場合、名前の隣にある「コンタクトリストに追加する」アイコンをクリックしてください。';
 $string['ago'] = '$a 前';
 $string['allmine'] = 'すべての送受信メッセージ';
 $string['allstudents'] = 'コースの学生間のすべてのメッセージ';
@@ -27,6 +27,7 @@ $string['includeblockedusers'] = '拒否したユーザも含む';
 $string['incomingcontacts'] = '受信したコンタクト ($a)';
 $string['keywords'] = 'キーワード';
 $string['keywordssearchresults'] = '検索結果: $a 件のメッセージが見つかりました。';
+$string['mailsent'] = 'あなたのメッセージがメール経由で送信されました。';
 $string['maxmessages'] = 'ディスカッション履歴に表示する最大メッセージ数';
 $string['message'] = 'メッセージ';
 $string['messagehistory'] = 'メッセージ履歴';
@@ -58,13 +59,13 @@ $string['sendmessageto'] = '$a にメッセージを送信する';
 $string['sendmessagetopopup'] = '$a にメッセージを送信する - 新しいウィンドウ';
 $string['settings'] = '設定';
 $string['settingssaved'] = '設定が保存されました。';
-$string['showmessagewindow'] = 'メッセージが届いたら自動的にウィンドウを表示する。 (ブラウザのポップアップブロックを解除してください)';
+$string['showmessagewindow'] = 'メッセージが届いたら自動的にウィンドウを表示する (ブラウザのポップアップブロックを解除してください)。';
 $string['strftimedaydatetime'] = '%%Y/%%m/%%d (%%a) %%I:%%M %%p';
 $string['timenosee'] = 'オンライン表示期間 (分)';
 $string['timesent'] = '送信回数';
 $string['unblockcontact'] = 'コンタクトの拒否解除';
 $string['unreadmessages'] = '未読メッセージ $a 件';
-$string['userisblockingyou'] = 'このユーザはメッセージの送信を禁止されています。';
+$string['userisblockingyou'] = 'このユーザはあなたからのメッセージ受信を拒否しています。';
 $string['userisblockingyounoncontact'] = 'このユーザはコンタクトリストに登録されたユーザからのみメッセージを受信します。あなたは現在コンタクトリストに登録されていません。';
 $string['userssearchresults'] = '検索結果: $a 名のユーザが見つかりました。';
 
