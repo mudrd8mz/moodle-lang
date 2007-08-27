@@ -2,6 +2,7 @@
       // message.php - created with Moodle 1.8.2+ (2007021520)
 
 
+$string['mailsent'] = 'Su mensaje se ha enviado por email.';
 $string['addcontact'] = 'Añadir contacto';
 $string['addsomecontacts'] = 'Para enviar un mensaje a alguien, o para añadir un atajo en esta página, utilice la pestaña <a href=\"$a\">Buscar</a> de más arriba.';
 $string['addsomecontactsincoming'] = 'Estos mensajes provienen de personas que no están en su lista de contactos. Para agregarlos a sus contactos, haga clic en el icono \"Agregar contacto\" al lado de su nombre.';
