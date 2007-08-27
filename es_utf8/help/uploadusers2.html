@@ -1,18 +1,18 @@
 <h1>Subir usuarios</h1>
 
-<p>En primer lugar tenga en cuenta que <strong>normalmente no es necesario importar 
-usuarios en bloque</strong>: para tener su trabajo de mantenimiento bajo control, 
-debería explorar formas de autenticación que no requieran mantenimiento manual, 
-tales como conectarse con una base de datos externa, o dejar que los usuarios 
+<p>En primer lugar tenga en cuenta que <strong>normalmente no es necesario importar
+usuarios en bloque</strong>: para tener su trabajo de mantenimiento bajo control,
+debería explorar formas de autenticación que no requieran mantenimiento manual,
+tales como conectarse con una base de datos externa, o dejar que los usuarios
 creen sus propias cuentas. Vea la sección de Autenticación en el menú del adminitrador.</p>
-<p>Si está seguro que quiere importar múltiples cuentas de usuario desde un archivo 
+<p>Si está seguro que quiere importar múltiples cuentas de usuario desde un archivo
 de texto, entonces necesitará darle formato a su archivo de texto como se indica:</p>
 
 <ul>
   <li>Cada línea del archivo contiene un registro.</li>
   <li>Cada registro es una serie de datos separados por comas.</li>
-  <li>El primer registro del archivo es especial, y contiene una lista de nombres 
-	de campos. Este registro define el formato del resto del archivo.
+  <li>El primer registro del archivo es especial, y contiene una lista de nombres
+    de campos. Este registro define el formato del resto del archivo.
     <blockquote>
       <p><strong>Campos requeridos:</strong> Estos campos deben estar presentes en el primer registro, y deben definirse para cada usuario.</p>
       <p><code>firstname, lastname</code></p>
@@ -63,7 +63,7 @@ carlosp, secreto1, Carlos, Pérez, ES, Valencia<br />
 <li>http://www.example.com/~%u/ = http://www.example.com/~jdoe/ (si el nombre de usuario es mcasas o %-1f%-l)</li>
 </ul>
 <p>El procesamiento de plantillas se lleva a cabo únicamente sobre valores por defecto, y no sobre los valores recuperados del archivo CSV.</p>
-<p>Para crear nombres de usuario correctos en Moodle, el nombre de usuario se convierte siempre a minúsculas. Es más, si la opción &quot;Permitir caracteres extendidos en nombres de usuario&quot; en la página de política del sitio está deshabilitada, se eliminarán los caracteres que no sean letras, dígitos, guiones (-) y puntos (.). 
+<p>Para crear nombres de usuario correctos en Moodle, el nombre de usuario se convierte siempre a minúsculas. Es más, si la opción &quot;Permitir caracteres extendidos en nombres de usuario&quot; en la página de política del sitio está deshabilitada, se eliminarán los caracteres que no sean letras, dígitos, guiones (-) y puntos (.).
 Por ejemplo, si el nombre es Marta M. y el apellido Casas, el nombre de usuario %-f_%-l producirá marta m._casas cuando esté habilitada la opción Permitir caracteres extendidos en nombres de usuario, y martam.casas cuando esté deshabilitada.</p>
 <p>Cuando en el campo &quot;Gestión de duplicados de nuevo nombre de usuario&quot; está seleccionada la opción Agregar contador, se agregará un contador auto-incrementado a los nombres de usuario duplicados producidos por la plantilla.
 Por ejemplo, si el archivo CSV contiene los usuarios Marta Casas, Mario Casas y Maribel Casas sin nombres explícitos de usuario, el nombre de usuario por defecto es %-1f%-l y en Gestión de duplicados de nuevo nombre de usuario se ha seleccionado la opción Agregar contador, entonces los nombres de usuario producidos serán mcasas, mcasas2 y mcasas3.

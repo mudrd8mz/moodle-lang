@@ -1,4 +1,4 @@
-<html><head></head><body><h1>Subir usuarios</h1>
+<h1>Subir usuarios</h1>
 
 <p>En primer lugar tenga en cuenta que <strong>normalmente no es necesario importar usuarios en bloque</strong>: para tener su trabajo de mantenimiento bajo control, debería explorar formas de autenticación que no requieran mantenimiento manual, tales como conectarse con una base de datos externa, o dejando que los usuarios creen sus propias cuentas. Vea la sección de Autenticación en el menú de Administración.</p>
 
@@ -39,11 +39,11 @@ type3, type4, type5, role1, role2, role3, role4, role5, emailstop</code></p>
     </li>
 
   <li>Las comas entre los datos se codificarán como &amp;#44 -el script las decodificará automáticamente como comas.</li>
-  
+
   <li>Para campos boleanos use 0 para falso y 1 para verdadero.</li>
 
   <li>Los tipos se usan para informar a Moodle si el usuario es un estudiante o un profesor en el caso de que el correspondiente curso exista (e.g., type2 corresponde a course2). 1 = Estudiante, 2 = Profesor editor y 3 = Profesor no editor. Si el tipo se deja en blanco, o si no se especifica curso, el usuario por defecto será el estudiante.</li>
-  
+
   <li>Para los cursos, utilice el nombre corto del curso.</li>
 
   <li>Nota: Si un usuario ya está registrado en la base de datos de Moodle, el script devolverá el número userid (índice de la base de datos) de ese usuario, e inscribirá al usuario en los cursos SIN alterar la información anterior.</li>
@@ -65,5 +65,3 @@ saraf, sercreta, Sara, Fernández, sarara@alomas.edu, es, 6736733, 0, Avanzado20
 <p>Al actualizar cuentas existentes, usted puede cambiar también los nombres de usuario. Seleccione <b>Sí</b> en "Permitir renombrar" e incluya en su archivo un campo denominado <code class="example1">oldusername</code>.</p>
 
 <p><b>Atención:</b> cualquier error al actualizar cuentas existentes puede afectar negativamente a los usuarios. Sea cuidadoso a la hora de usar las opciones de actualización.</p>
-
-</body></html>
