@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta + (2007082400)
+      // tag.php - created with Moodle 1.9 Beta + (2007082701)
 
 
 $string['addtagtomyinterests'] = '「 $a 」を私の「興味があること」に追加する';
+$string['changename'] = 'タグ名を変更する';
 $string['count'] = 'カウント';
 $string['delete'] = '削除';
 $string['deleted'] = '削除';
@@ -12,7 +13,9 @@ $string['flag'] = 'フラグ';
 $string['flagasinappropriate'] = '不適切としてフラグする';
 $string['id'] = 'id';
 $string['managetags'] = 'タグの管理';
-$string['name'] = '名称';
+$string['name'] = 'タグ名';
+$string['namesalreadybeeingused'] = 'タグ名がすでに使用されています。';
+$string['newname'] = '新しいタグ名';
 $string['noresultsfor'] = '「 $a 」の検索結果なし';
 $string['owner'] = 'オーナー';
 $string['relatedtags'] = '関連タグ';
@@ -26,8 +29,10 @@ $string['tag'] = 'タグ';
 $string['tagdescription'] = 'タグ説明';
 $string['tags'] = 'タグ';
 $string['tagsaredisabled'] = 'タグが無効にされています。';
+$string['thingstaggedwith'] = '$a->count 件の項目にタグ「 $a->name 」が付けられています。';
 $string['thistaghasnodesc'] = '現在、このタグには説明がありません。';
 $string['timemodified'] = '修正日時';
+$string['updated'] = '更新されました。';
 $string['updatetag'] = '更新';
 $string['userstaggedwith'] = '「 $a 」でタグされたユーザ';
 $string['withselectedtags'] = '選択したタグを ...';
