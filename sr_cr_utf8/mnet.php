@@ -27,6 +27,7 @@ $string['current_transport'] = 'Тренутни транспорт';
 $string['currentkey'] = 'Тренутни јавни кључ';
 $string['databaseerror'] = 'Уписивање детаља у базу података није било могуће.';
 $string['deleteaserver'] = 'Брише се сервер';
+$string['deletehost'] = 'Обриши рачунар';
 $string['deletekeycheck'] = 'Да ли сте потпуно сигурни да желите да обришете овај кључ?';
 $string['deleteoutoftime'] = 'Истекао је период од 60 секунди који сте имали да избришете овај кључ. Почните поново.';
 $string['deleteuserrecord'] = 'SSO ACL: избришите запис за корисника \'$a[0]\' од $a[1].';

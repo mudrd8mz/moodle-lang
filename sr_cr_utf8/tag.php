@@ -33,5 +33,6 @@ $string['thistaghasnodesc'] = 'Ова ознака тренутно нема о�
 $string['timemodified'] = 'Измењено';
 $string['updatetag'] = 'Ажурирај';
 $string['userstaggedwith'] = 'Корисници означени са \"$a\"';
+$string['withselectedtags'] = 'Са одабраним ознакама...';
 
 ?>
