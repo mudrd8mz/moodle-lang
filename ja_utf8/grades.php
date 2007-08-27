@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 Beta + (2007082200)
+      // grades.php - created with Moodle 1.9 Beta + (2007082701)
 
 
 $string['activities'] = '活動';
@@ -27,11 +27,14 @@ $string['aggregatesonly'] = '総計のみ';
 $string['aggregateweightedmeanall'] = 'すべての評点の加重平均';
 $string['aggregateweightedmeangraded'] = '空ではない評点の加重平均';
 $string['aggregation'] = '総計';
+$string['aggregationcoef'] = '総計率';
+$string['aggregationcoefhelp'] = 'この評定項目が他の評定項目に加算される時に適用される加重です。';
 $string['aggregationposition'] = '総計の位置';
 $string['aggregationview'] = '総計の表示';
 $string['allgrades'] = 'カテゴリごとの評点';
 $string['allstudents'] = 'すべての学生';
 $string['autosort'] = '自動並び替え';
+$string['availableidnumbers'] = '利用可能なIDナンバー';
 $string['average'] = '平均';
 $string['averagesdecimalpoints'] = 'カラム平均の小数点以下桁数';
 $string['averagesdisplaytype'] = 'カラム平均の表示タイプ';
@@ -122,6 +125,8 @@ $string['exceptions'] = '例外';
 $string['excluded'] = '除外';
 $string['expand'] = 'カテゴリの拡張';
 $string['export'] = 'エクスポート';
+$string['exportletters'] = '評定文字をエクスポートする';
+$string['exportlettershelp'] = '数字の代わりに評定文字を使用している評定項目に関して、数字の代わりに評定文字をエクスポートします。';
 $string['exportplugins'] = 'プラグインのエクスポート';
 $string['extracredit'] = '追加点扱い';
 $string['extracreditwarning'] = '注意: カテゴリ内のすべての評定項目を追加点扱いにすることにより、評定の計算から評定項目を効果的に除外することができます。これにより合計評点は計算されません。';
@@ -217,6 +222,7 @@ $string['lettergrade'] = '評定文字';
 $string['lettergradenonnumber'] = '上限または下限の評点が数値ではありません:';
 $string['letters'] = '文字';
 $string['linkedactivity'] = 'リンクされた活動';
+$string['linkedactivityhelp'] = 'このアウトカム項目がリンクされる任意の活動です。';
 $string['lock'] = 'ロック';
 $string['locked'] = 'ロック';
 $string['locktime'] = '次の日時以降ロックする';
@@ -271,6 +277,7 @@ $string['outcomescustom'] = '特別アウトカム';
 $string['outcomesstandard'] = '標準アウトカム';
 $string['outcomesstandardavailable'] = '利用可能な標準アウトカム';
 $string['outcomestandard'] = '標準アウトカム';
+$string['outcomestandardhelp'] = '標準アウトカムはサイト全体およびすべてのコースで利用可能です。';
 $string['overallavg'] = '全平均';
 $string['overridden'] = 'オーバーライド';
 $string['pctoftotalgrade'] = '評点合計の%%';
@@ -305,6 +312,8 @@ $string['right'] = '右';
 $string['savechanges'] = '変更を保存する';
 $string['savepreferences'] = '設定を保存する';
 $string['scaledpct'] = '伸縮%%';
+$string['scaleidhelp'] = 'この $a がリンクされる尺度です。';
+$string['scalestandardhelp'] = '標準尺度はサイト全体およびすべてのコースで利用可能な尺度です。';
 $string['selectdestination'] = '$a の移動先を選択';
 $string['separator'] = 'セパレータ';
 $string['sepcomma'] = 'カンマ';
