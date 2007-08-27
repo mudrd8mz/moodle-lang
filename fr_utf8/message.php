@@ -25,6 +25,7 @@ $string['includeblockedusers'] = 'Inclure les utilisateurs bloqués';
 $string['incomingcontacts'] = 'Messages arrivant ($a)';
 $string['keywords'] = 'Mots clefs';
 $string['keywordssearchresults'] = 'Résultats de recherche&nbsp;: $a message(s) trouvé(s)';
+$string['mailsent'] = 'Votre message a été envoyé par courriel.';
 $string['maxmessages'] = 'Nombre maximal de messages à afficher dans l\'historique des discussions';
 $string['message'] = 'Message';
 $string['messagehistory'] = 'Historique du message';
