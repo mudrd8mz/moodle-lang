@@ -86,9 +86,9 @@ $string['advancedfilter'] = 'Napredno pretraživanje';
 $string['advancedsettings'] = 'Napredna podešavanja';
 $string['again'] = 'ponovo';
 $string['aimid'] = 'AIM ID';
-$string['ajaxno'] = 'Ne: koristiti osnovne veb mogućnosti';
+$string['ajaxno'] = 'Ne: koristiti osnovne Web mogućnosti';
 $string['ajaxuse'] = 'AJAX i Javascript';
-$string['ajaxyes'] = 'Da: koristiti napredne veb mogućnosti';
+$string['ajaxyes'] = 'Da: koristiti napredne Web mogućnosti';
 $string['all'] = 'Sve';
 $string['allactions'] = 'Sve akcije';
 $string['allactivities'] = 'Sve aktivnosti';
@@ -187,6 +187,7 @@ $string['category'] = 'Kategorija';
 $string['categoryadded'] = 'Dodata je kategorija \'$a\'';
 $string['categorydeleted'] = 'Obrisana je kategorija \'$a\'';
 $string['categoryduplicate'] = 'Kategorija pod nazivom \'$a\' već postoji';
+$string['categoryname'] = 'Naziv kategorije';
 $string['changedpassword'] = 'Lozinka je promenjena';
 $string['changepassword'] = 'Promena lozinke';
 $string['changessaved'] = 'Promene su sačuvane';
@@ -305,6 +306,7 @@ $string['creatingcourseroles'] = 'Kreiranje zadataka i prepisivanja uloga na niv
 $string['creatingevents'] = 'Kreiranje događaja';
 $string['creatinggradebook'] = 'Kreiranje knjige ocena';
 $string['creatinggroupings'] = 'Kreiranje grupisanja';
+$string['creatinggroupingsgroups'] = 'Dodavanje grupa u grupisanja';
 $string['creatinggroups'] = 'Kreiranje grupa';
 $string['creatinglogentries'] = 'Kreiranje stavki izveštaja o aktivnostima';
 $string['creatingmessagesinfo'] = 'Kreiranje informacija o porukama';
@@ -436,7 +438,7 @@ Da biste potvrdili otvaranje Vašeg naloga, posetite sledeću lokaciju:
 
 $a->link
 
-U većini programa za e-poštu, u redu iznad ovog biste trebali videti plavo obojeni link na koji možete kliknuti. Ako ta funkcija ne radi, onda samo kopirajte navedenu adresu u liniju za adrese na vrhu Vašeg veb čitača.
+U većini programa za e-poštu, u redu iznad ovog biste trebali videti plavo obojeni link na koji možete kliknuti. Ako ta funkcija ne radi, onda samo kopirajte navedenu adresu u liniju za adrese na vrhu Vašeg Web čitača.
 
 U slučaju da Vam je potrebna tehničku pomoć, molimo kontaktirajte administratora sistema,
 $a->admin';
@@ -488,12 +490,12 @@ $string['emailpasswordconfirmation'] = 'Postovana/i $a->firstname,
 
 Neko (najverojatnije Vi) je zatražio novu lozinku za Vaš korisnički nalog u sistemu \'$a->sitename\'.
 
-Kako biste potvrdili potrebu za novom lozinkom i dobili novu lozinku putem e-pošte, posetite ovu veb adresu:
+Kako biste potvrdili potrebu za novom lozinkom i dobili novu lozinku putem e-pošte, posetite ovu Web adresu:
 
 $a->link
 
 U većini programa za e-poštu, u redu iznad ovog biste trebali videti plavo obojeni link na koji možete kliknuti. Ako ta funkcija ne radi, 
-označite i kopirajte adresu u adresnu liniju Vašeg veb čitača.
+označite i kopirajte adresu u adresnu liniju Vašeg Web čitača.
 
 U slučaju da Vam treba tehnička pomoć, molimo Vas da kontaktirate administratora sistema,
 
@@ -724,7 +726,7 @@ $string['htmleditor'] = 'Upotreba HTML editora (samo u nekim web čitačima)';
 $string['htmleditoravailable'] = 'HTML editor je dostupan';
 $string['htmleditordisabled'] = 'Isključili ste upotrebu HTML editora za Vaš korisnički profil';
 $string['htmleditordisabledadmin'] = 'Administrator sistema je isključio uportrebu HTML editora na nivou celog sistema';
-$string['htmleditordisabledbrowser'] = 'Upotreba HTML editora nije moguća jer Vaš veb čitač nije kompatibilan s njim';
+$string['htmleditordisabledbrowser'] = 'Upotreba HTML editora nije moguća jer Vaš Web čitač nije kompatibilan s njim';
 $string['htmlfilesonly'] = 'Samo HTML datoteke';
 $string['htmlformat'] = 'Ulepšani HTML format';
 $string['icqnumber'] = 'ICQ broj';
@@ -797,7 +799,7 @@ $string['loginas'] = 'Pristup sistemu kao';
 $string['loginaspasswordexplain'] = '<p>Morate uneti specijalnu \"pristupi sistemu kao\" lozinku da biste koristili ovu mogućnost.<br />Ako ne znate tu lozinku, pitajte administratora svog servera.</p>';
 $string['loginguest'] = 'Pristup sistemu u ulozi gosta';
 $string['loginsite'] = 'Pristup sistemu';
-$string['loginsteps'] = 'Dobrodošli! Kako biste imali puni pristup kursevima na ovom veb sajtu, morate kreirati novi korisnički nalog.
+$string['loginsteps'] = 'Dobrodošli! Kako biste imali puni pristup kursevima na ovom Web sajtu, morate kreirati novi korisnički nalog.
 Svaki od pojedinih kurseva može takođe imati i od Vas tražiti \"lozinku kursa\", koju treba da dobijete od svog predavača i koja se unosi samo prilikom prvog prijavljivanja na kurs. Sledite ova uputstva:
    <ol size=\"2\">
    <li>Ispunite dati obrazac <a href=\"$a\">Novi korisnički nalog</a> svojim ličnim podacima.</li>
@@ -825,7 +827,7 @@ $string['mailstudents'] = 'Obavestiti studente';
 $string['mailteachers'] = 'Obavestiti predavače';
 $string['mainmenu'] = 'Glavni meni';
 $string['makeafolder'] = 'Kreiraj direktorijum';
-$string['makeeditable'] = 'Ako podesite \'$a\' da se može urediti procesom veb servera, onda možete menjati ovu datoteku direktno sa ove stranice';
+$string['makeeditable'] = 'Ako podesite \'$a\' da se može urediti procesom Web servera, onda možete menjati ovu datoteku direktno sa ove stranice';
 $string['manageblocks'] = 'Blokovi';
 $string['managecourses'] = 'Upravljanje kursevima';
 $string['managedatabase'] = 'Baza podataka';
@@ -939,7 +941,7 @@ Molimo posetite ovu stranicu kako biste promenili svoju lozinku:
    $a->link
 
 U većini programa za čitanje e-pošte, u redu iznad ovog biste trebali videti plavi link na koji možete kliknuti. U slučaju da to ne radi, 
-označite i kopirajte adresu u adresnu liniju Vašeg veb čitača (Firefox, Mozilla, Internet Explorer, Opera).
+označite i kopirajte adresu u adresnu liniju Vašeg Web čitača (Firefox, Mozilla, Internet Explorer, Opera).
 
 U slučaju da Vam treba tehnička pomoć, molimo kontaktirajte administratora sistema,
 $a->admin
@@ -964,7 +966,7 @@ lozinka: $a->newpassword
 
 Da biste počeli da koristite sajt \'$a->sitename\', prijavite se na $a->link
 
-U većini programa za elektronsku poštu pojaviće se plavo obojeni link iznad ovog teksta na koji je potrebno samo kliknuti. Ako ta opcija ne bude radila, kopirajte navedenu adresu u adresnu liniju na vrhu prozora Vašeg veb čitača.';
+U većini programa za elektronsku poštu pojaviće se plavo obojeni link iznad ovog teksta na koji je potrebno samo kliknuti. Ako ta opcija ne bude radila, kopirajte navedenu adresu u adresnu liniju na vrhu prozora Vašeg Web čitača.';
 $string['newusers'] = 'Novi korisnici';
 $string['newwindow'] = 'novi prozor';
 $string['next'] = 'Sledeći';
@@ -1368,7 +1370,7 @@ $string['teacheronly'] = 'samo za $a';
 $string['teacherroles'] = '$a uloge';
 $string['teachers'] = 'Predavači';
 $string['textediting'] = 'Pri uređivanju teksta';
-$string['texteditor'] = 'Koristiti standardne veb forme';
+$string['texteditor'] = 'Koristiti standardne Web forme';
 $string['textformat'] = 'Običan tekstualni format';
 $string['thanks'] = 'Hvala';
 $string['theme'] = 'Šema izgleda sajta';
@@ -1497,7 +1499,7 @@ $string['virusplaceholder'] = 'Pronađeno je da je datoteka koja je postavljena 
 $string['visible'] = 'Vidljivo';
 $string['visibletostudents'] = 'Vidljivo za $a';
 $string['warningdeleteresource'] = 'Upozorenje: na $a se odnosi resurs. Da li želite da ažurirate taj resurs?';
-$string['webpage'] = 'Veb stranica';
+$string['webpage'] = 'Web stranica';
 $string['week'] = 'Sedmica';
 $string['weekhide'] = 'Sakrij ovu sedmicu od $a';
 $string['weeklyoutline'] = 'Sedmični pregled dešavanja';

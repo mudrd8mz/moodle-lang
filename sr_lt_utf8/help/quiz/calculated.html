@@ -51,7 +51,7 @@ abs, acos, acosh, asin, asinh, atan, atanh, ceil, cos, cosh, deg2rad, exp, expm1
 </b><br />i dve funkcije dva argumenta<br /><b>
 atan2, pow
 </b><br />i funkcije <b>min</b> i <b>max</b> koje mogu imati jedan ili dva argumenta. Takođe je moguće koristiti funkciju <b>pi</b> koja nema argumenata, ali ne zaboravite da dodate i zagrade - pravilna upotreba je <b>pi()</b>. Sličnotome, druge funkcije moraju imati svoj(e)argument(e)unutar zagrada. Moguće je npr. upotrebiti sledeće: <b>sin({a}) + cos({b}) * 2</b>. Ne bi trebalo da predstavlja problem ni ugnežđivanje funkcija (jednih kao argumenata drugih) <b>cos(deg2rad({a} + 90))</b> itd.
-<br />Više detalja o tome kako se koriste funkcije u PHP-stilu može se pronaći u <a target="phpmathdoc" href="http://www.php.net/manual/en/ref.math.php">dokumentaciji na PHP veb sajtu</a>
+<br />Više detalja o tome kako se koriste funkcije u PHP-stilu može se pronaći u <a target="phpmathdoc" href="http://www.php.net/manual/en/ref.math.php">dokumentaciji na PHP Web sajtu</a>
 <br /><br />
 Kao i za numerička pitanja, moguće je postaviti granicu u okviru koje se mogu naći odgovori da bi se prihvatili kao tačni. Za ovo se koristi polje "Tolerancija". Međutim, postoje tri različite vrste tolerancija. To su <b>Relativno, Nominalni i Geometrijski</b>. Ako kažemo da je tačan odgovor 200 izračunat u testu i da je tolerancija postavljena na 0.5, tada različite vrste tolerancija rade na sledeći način:
 <br /><br /><b>Relativno:</b> Interval tolerancije izračunava se množenjem tačnog odgovora sa 0.5, tj. u ovom slučaju dobijamo 100, tako da za ovu vrstu tolerancije tačan odgovor mora biti u opsegu između 100 i 300.  (200 ± 100)<br />

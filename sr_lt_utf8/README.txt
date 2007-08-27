@@ -34,7 +34,11 @@ URL:    http://perun.im.ns.ac.yu/komlenov/
    Ivan Nikolić
    Jovana Tripković
 
-   for joint efforts on fine-tuning this language pack.
+   for joint effort on fine-tuning and maintaining this language pack.
+   
+ - Bojan Milosavljević, Kruševac
+
+   for help in fine-tuning and maintaining this language pack, as well as resolving grammar sensitivity issues.
 
  - Marija Ćućuz, Department of Psychology, Faculty of Philosophy, Belgrade
  

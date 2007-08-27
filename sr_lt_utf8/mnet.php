@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8.2+ (2007021520)
+      // mnet.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (self-signed)';
@@ -27,6 +27,7 @@ $string['current_transport'] = 'Trenutni transport';
 $string['currentkey'] = 'Trenutni javni ključ';
 $string['databaseerror'] = 'Upisivanje detalja u bazu podataka nije bilo moguće.';
 $string['deleteaserver'] = 'Briše se server';
+$string['deletehost'] = 'Obriši računar';
 $string['deletekeycheck'] = 'Da li ste potpuno sigurni da želite da obrišete ovaj ključ?';
 $string['deleteoutoftime'] = 'Istekao je period od 60 sekundi koji ste imali da izbrišete ovaj ključ. Počnite ponovo.';
 $string['deleteuserrecord'] = 'SSO ACL: izbrišite zapis za korisnika \'$a[0]\' od $a[1].';

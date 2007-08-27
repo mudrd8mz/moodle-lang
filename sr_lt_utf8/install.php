@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.8.2+ (2007021520)
+      // install.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['admindirerror'] = 'Specificirani administratorski direktorijum je netačan';
@@ -70,6 +70,12 @@ $string['databasesettingssub_mysql'] = '<b>Tip:</b> MySQL<br />
 <b>Korisnik:</b> Vaše korisničko ime za pristup bazi podataka<br />
 <b>Lozinka:</b> Vaša lozinka za pristup bazi podataka<br />
 <b>Prefiksi tabela:</b> prefiks koji će se  koristiti u nazivima svih tabela (opciono)';
+$string['databasesettingssub_mysqli'] = '<b>Tip:</b> Unapređeni MySQL<br />
+<b>Host:</b> npr. localhost ili db.isp.com<br />
+<b>Ime:</b> ime baze podataka, npr. moodle<br />
+<b>Korisnik:</b> Korisničko ime za Vašu bazu podataka<br />
+<b>Password:</b> Lozinka korisnika Vaše  baze podataka<br />
+<b>Prefiks za tabele:</b> prefiks koji se dodaje ispred imena svih tabela (nije obavezno)';
 $string['databasesettingssub_oci8po'] = '<b>Tip:</b> Oracle<br />
 <b>Server:</b> ne koristi se, mora se ostaviti prazno<br />
 <b>Naziv:</b> ime koje ste dali tnsnames.ora konekciji<br />
@@ -98,24 +104,24 @@ $string['dbprefix'] = 'Prefiks tabele';
 $string['dbtype'] = 'Tip';
 $string['dbwrongencoding'] = 'Izabrana baza podataka radi pod nepreporučljivim kodnim rasporedom ($a). Bilo bi bolje da umesto nje koristite Unicode (UTF-8) kodiranu bazu. U svakom slučaju, možete izbeći ovaj test biranjem opcije \"Preskočiti test kodnog rasporeda baze podataka\" ispod, ali se u budućnosti možete suočiti sa problemima pri korišćenju izabrane baze.';
 $string['dbwronghostserver'] = 'Morate pratiti pravila \"Servera\" kao što je objašnjeno iznad.';
-$string['dbwrongnlslang'] = 'NLS_LANG promenljiva okruženja Vašeg Web servera mora da koristi AL32UTF8 skup karaktera. Pogledajte PHP dokumentaciju o tome kako da pravilno podesite OCI8.';
+$string['dbwrongnlslang'] = 'NLS_LANG promenljiva okruženja Vašeg web servera mora da koristi AL32UTF8 skup karaktera. Pogledajte PHP dokumentaciju o tome kako da pravilno podesite OCI8.';
 $string['dbwrongprefix'] = 'Morate pratiti pravila \"Prefiksi tabela\" kao što je gore objašnjeno.';
 $string['directorysettings'] = '<p>Molimo potvrdite lokacije ove Moodle instalacije</p>
 
 <p><b>Web adresa:</b>
-Specificirajte potpunu Web adresu na kojoj će se pristupati Moodle sistemu.
-Ako je Vašem Web sajtu moguće pristupiti preko više URL-ova, izaberite onaj koji će najverovatnije koristiti Vaši studenti. Nemojte navoditi krajnju kosu crtu.</p>
+Specificirajte potpunu web adresu na kojoj će se pristupati Moodle sistemu.
+Ako je Vašem web sajtu moguće pristupiti preko više URL-ova, izaberite onaj koji će najverovatnije koristiti Vaši studenti. Nemojte navoditi krajnju kosu crtu.</p>
 
 <p><b>Moodle direktorijum:</b>
 Specificirajte potpunu putanju do ove instalacije
 Vodite računa o velikim i malim slovima.</p>
 
 <p><b>Direktorijum podataka:</b>
-Morate odrediti mesto na kom će Moodle čuvati postavljene datoteke. Korisnik Web servera (obično \'niko\' ili \'apache\') bi morao imati mogućnost da čita podatke iz tog direktorijuma, ali i da ih u njega upisuje, ali oni ne bi trebali biti dostupni direktno preko Web-a.</p>';
+Morate odrediti mesto na kom će Moodle čuvati postavljene datoteke. Korisnik web servera (obično \'niko\' ili \'apache\') bi morao imati mogućnost da čita podatke iz tog direktorijuma, ali i da ih u njega upisuje, ali oni ne bi trebali biti dostupni direktno preko web-a.</p>';
 $string['directorysettingshead'] = 'Molimo potvrdite lokacije ove Moodle instalacije';
 $string['directorysettingssub'] = '<b>Web adresa:</b>
-Specificirajte potpunu Web adresu na kojoj će se pristupati Moodle sistemu.
-Ako je Vašem Web sajtu moguće pristupiti preko više URL-ova, izaberite onaj koji će najverovatnije koristiti Vaši studenti. Nemojte navoditi krajnju kosu crtu.
+Specificirajte potpunu web adresu na kojoj će se pristupati Moodle sistemu.
+Ako je Vašem web sajtu moguće pristupiti preko više URL-ova, izaberite onaj koji će najverovatnije koristiti Vaši studenti. Nemojte navoditi krajnju kosu crtu.
 <br />
 <br />
 <b>Moodle direktorijum:</b>
@@ -124,7 +130,7 @@ Vodite računa o velikim i malim slovima.
 <br />
 <br />
 <b>Direktorijum podataka:</b>
-Morate odrediti mesto na kom će Moodle čuvati postavljene datoteke. Korisnik Web servera (obično \'niko\' ili \'apache\') bi morao imati mogućnost da čita podatke iz tog direktorijuma, ali i da ih u njega upisuje, ali oni ne bi trebali biti dostupni direktno preko Web-a.';
+Morate odrediti mesto na kom će Moodle čuvati postavljene datoteke. Korisnik web servera (obično \'niko\' ili \'apache\') bi morao imati mogućnost da čita podatke iz tog direktorijuma, ali i da ih u njega upisuje, ali oni ne bi trebali biti dostupni direktno preko web-a.';
 $string['dirroot'] = 'Moodle direktorijum';
 $string['dirrooterror'] = 'Podešavanje \'Moodle direktorijuma\' je čini se netačno - ne može se tamo naći Moodle instalacija. Niža vrednost će biti ponovo dovedena na početni položaj.';
 $string['download'] = 'Preuzeti';
@@ -190,6 +196,8 @@ $string['mssql_n'] = 'SQL* Server sa UTF-8 podrškom (mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'PHP nije bio propisno konfigurisan sa MSSQL ekstenzijom tako da može komunicirati sa SQL* Serverom. Molimo Vas da proverite svoju php.ini datoteku ili opet kompajlirate PHP.';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP neće biti propisno konfigurisan sa MySQL ekstenzijom tako da može komunicirati sa MySQL-om. Molimo Vas da proverite svoju php.ini datoteku ili opet kompajlirate PHP.';
+$string['mysqli'] = 'Unapređeni MySQL (mysqli)';
+$string['mysqliextensionisnotpresentinphp'] = 'PHP nije pravilno podešen za rad sa MySQLi ekstenzijom da bi mogao komunicirati sa MySQL. Molimo proverite Vašu php.ini datoteku ili ponovo kompajlirajte PHP. MySQLi ekstenzija nije na raspolaganju za PHP 4.';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP nije bio propisno konfigurisan sa OCI8 ekstenzijom tako da može komunicirati sa Oracle-om. Molimo Vas da proverite svoju php.ini datoteku ili opet kompajlirate PHP.';
 $string['odbc_mssql'] = 'SQL* Server preko ODBCa (odbc_mssql)';
@@ -200,14 +208,14 @@ $string['phpversion'] = 'PHP verzija';
 $string['phpversionerror'] = 'PHP verzija mora biti bar 4.3.0 ili 5.1.0 (5.0.x funkcioniše uz brojne uočene probleme)';
 $string['phpversionhelp'] = '<p>Moodle zahteva najmanje PHP verziju 4.3.0 ili 5.1.0 (5.0.x funkcioniše uz brojne uočene probleme).</p>
 <p>Trenutno imate verziju $a</p>
-<p>Morate nadograditi PHP ili premestiti Moodle instalaciju na Web server sa novijom verzijom PHP-a!</br>
+<p>Morate nadograditi PHP ili premestiti Moodle instalaciju na web server sa novijom verzijom PHP-a!</br>
 (U slučaju verzije 5.0.x bilo bi dobro da je snizite na 4.4.x verziju)</p>';
 $string['postgres7'] = 'PostgreSQL (postgres7)';
 $string['safemode'] = 'Bezbedan mod';
 $string['safemodeerror'] = 'Moodle može imati problema sa uključenim bezbednim modom rada';
 $string['safemodehelp'] = '<p>Moodle može imati različite probleme sa uključenim bezbednim modom rada, od kojih je jedan od bitnijih taj da najverovatnije neće imati dozvolu da kreira nove datoteke.</p>
    
-<p>Bezbedni mod rada je obično jedino dozvoljen na paranoičnim javnim Web serverima, tako da možete prosto naći Web server kod neke druge kuće za Vaš Moodle sajt.</p>
+<p>Bezbedni mod rada je obično jedino dozvoljen na paranoičnim javnim Web serverima, tako da možete prosto naći web server kod neke druge kuće za Vaš Moodle sajt.</p>
    
 <p>Možete pokušati nastaviti sa instalacijom ako želite, ali očekujte nekoliko problema kasnije.</p>';
 $string['sessionautostart'] = 'Automatski početak akcije';

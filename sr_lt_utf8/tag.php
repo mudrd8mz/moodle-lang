@@ -33,5 +33,6 @@ $string['thistaghasnodesc'] = 'Ova oznaka trenutno nema opis.';
 $string['timemodified'] = 'Izmenjeno';
 $string['updatetag'] = 'Ažuriraj';
 $string['userstaggedwith'] = 'Korisnici označeni sa \"$a\"';
+$string['withselectedtags'] = 'Sa odabranim oznakama...';
 
 ?>

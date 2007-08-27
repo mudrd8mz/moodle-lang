@@ -1,16 +1,20 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8.2+ (2007021520)
+      // error.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['adminprimarynoedit'] = 'Podaci primarnog administratora ne mogu biti menjani od strane drugih korisnika';
+$string['cannotassignrole'] = 'Nije moguće dodeliti ulogu u kursu';
 $string['cannotcreatelangdir'] = 'Nije moguće kreiranje direktorijuma jezika';
 $string['cannotcreatetempdir'] = 'Nije moguće kreiranje privremenog direktorijuma.';
+$string['cannotcustomizelocallang'] = 'Nemate odobrenje da menjate izraze iz prevoda. Ovim odobrenjem upravlja se posedovanjem privilegije \"moodle/site:langeditlocal\". Postavite ovu privilegiju da bi Vam bila omogućena izmena lokalnih jezičkih paketa u slučaju da želite vršiti izmene prevodâ za Vaš sajt.';
 $string['cannotdownloadcomponents'] = 'Nije moguće preuzimanje komponenti.';
 $string['cannotdownloadzipfile'] = 'Nije moguće preuzimanje arhive.';
+$string['cannoteditmasterlang'] = 'Nemate odobrenje da menjate izraze iz glavnog jezičkog paketa. Ovim odobrenjem upravlja se posedovanjem privilegije \"moodle/site:langeditlocal\". Postavite ovu privilegiju da bi Vam bila omogućena izmena glavnih jezičkih paketa u slučaju da ste Vi nadležni za paket.';
 $string['cannotfindcomponent'] = 'Nije moguće pronalaženje komponenti.';
 $string['cannotsavemd5file'] = 'Nije moguće čuvanje md5 datoteke.';
 $string['cannotsavezipfile'] = 'Nije moguće čuvanje arhive.';
 $string['cannotunzipfile'] = 'Nije moguće raspakivanje datoteke.';
+$string['cannotviewprofile'] = 'Ne možete videti profil ovog korisnika';
 $string['cantunenrollfrommetacourse'] = 'Ne možete se ispisati sa ovog meta kursa.';
 $string['cantunenrollinthisrole'] = 'Ne možete se ispisati sa ovog kursa dok ste u trenutnoj ulozi.';
 $string['cmunknown'] = 'Nije pronađen taj modul kursa';
@@ -19,6 +23,7 @@ $string['confirmsesskeybad'] = 'Nažalost, ali ključ Vaše sesije ne može biti
 $string['couldnotassignrole'] = 'Došlo je do ozbiljne, ali neodređene greške prilikom pokušaja dodele Vaše nove uloge';
 $string['coursegroupunknown'] = 'Odgovarajući kurs za grupu $a nije zadat';
 $string['downloadedfilecheckfailed'] = 'Nije uspela provera preuzete datoteke.';
+$string['duplicateusername'] = 'Duplirano korisničko ime - preskače se zapis';
 $string['errorcleaningdirectory'] = 'Greška pri čišćenju direktorijuma \"$a\"';
 $string['errorcopyingfiles'] = 'Greška pri kopiranju datoteka';
 $string['errorcreatingdirectory'] = 'Greška pri kreiranju direktorijuma \"$a\"';
@@ -86,8 +91,11 @@ $string['unknownuseraction'] = 'Žao nam je, ali sistem nije razumeo ovu akciju 
 $string['usernotaddederror'] = 'Korisnik \"$a\" nije dodat - nepoznata greška';
 $string['usernotaddedregistered'] = 'Korisnik \"$a\" nije dodat - već je registrovan';
 $string['usernotavailable'] = 'Detaljne informacije o ovom korisniku Vam nisu dostupne.';
+$string['usernotdeletederror'] = 'Korisnik nije izbrisan - nepoznata greška';
+$string['usernotdeletedmissing'] = 'Korisnik nije izbrisan - korisničko ime nije pronađeno';
 $string['usernotrenamedexists'] = 'Korisnik nije preimenovan -- novo korisničko ime je već zauzeto.';
 $string['usernotrenamedmissing'] = 'Korisnik nije preimenovan -- nije pronađeno staro korisničko ime.';
+$string['usernotupdatederror'] = 'Korisnik nije ažuriran - nepoznata greška';
 $string['wrongdestpath'] = 'Pogrešna odredišna putanja.';
 $string['wrongsourcebase'] = 'Pogrešan izvorni URL baze.';
 $string['wrongzipfilename'] = 'Pogrešan naziv arhive.';
