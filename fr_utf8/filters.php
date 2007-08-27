@@ -12,6 +12,7 @@ $string['contains'] = 'contient';
 $string['courserole'] = 'Rôle dans le cours';
 $string['doesnotcontain'] = 'ne contient pas';
 $string['endswith'] = 'se termine par';
+$string['firstaccess'] = 'Premier accès';
 $string['isafter'] = 'est postérieur à $a';
 $string['isanyvalue'] = 'est n\'importe quel valeur';
 $string['isbefore'] = 'est antérieur à $a';
