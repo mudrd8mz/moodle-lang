@@ -2,6 +2,7 @@
 
 // Trouver un meilleur terme que 'balise' pour 'tag'
 $string['addtagtomyinterests'] =  'Ajouter «&nbsp;$a&nbsp; à mes centres d\'intérêts';
+$string['blocktagstitle'] =  'Balises';
 $string['changename'] = 'Modifier nom';
 $string['count'] = 'Compte';
 $string['description'] = 'Description';
