@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta + (2007082701)
+      // tag.php - created with Moodle 1.9 Beta + (2007082801)
 
 
 $string['addtagtomyinterests'] = '「 $a 」を私の「興味があること」に追加する';
+$string['blocktagstitle'] = 'タグ';
 $string['changename'] = 'タグ名を変更する';
 $string['count'] = 'カウント';
 $string['delete'] = '削除';
@@ -11,6 +12,7 @@ $string['description'] = '説明';
 $string['edittag'] = 'このタグを編集する';
 $string['flag'] = 'フラグ';
 $string['flagasinappropriate'] = '不適切としてフラグする';
+$string['helprelatedtags'] = 'カンマ区切りの関連タグ';
 $string['id'] = 'id';
 $string['managetags'] = 'タグの管理';
 $string['name'] = 'タグ名';
@@ -21,6 +23,7 @@ $string['owner'] = 'オーナー';
 $string['relatedtags'] = '関連タグ';
 $string['reset'] = 'リセット';
 $string['resetflag'] = 'フラグのリセット';
+$string['responsiblewillbenotified'] = '責任者に通知されます。';
 $string['search'] = '検索';
 $string['searchresultsfor'] = '「 $a 」の検索結果';
 $string['searchtags'] = 'タグを検索する';
