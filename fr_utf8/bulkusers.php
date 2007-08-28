@@ -3,10 +3,10 @@
 $string['addall'] = 'Ajouter tous les utilisateurs disponibles';
 $string['addsel'] = 'Ajouter les utilisateurs sélectionnés disponibles';
 $string['available'] = 'Disponible(s)';
-$string['deleteall'] = 'Retirer tous les utilisateurs';
-$string['deletesel'] = 'Retirer les utilisateurs sélectionnés';
-$string['removeall'] = 'Supprimer tous les utilisateurs disponibles';
-$string['removesel'] = 'Supprimer les utilisateurs sélectionnés disponibles';
+$string['deleteall'] = 'Effacer de la liste tous les utilisateurs';
+$string['deletesel'] = 'Effacer de la liste les utilisateurs sélectionnés';
+$string['removeall'] = 'Retirer tous les utilisateurs disponibles';
+$string['removesel'] = 'Retirer les utilisateurs sélectionnés disponibles';
 $string['selected'] = 'Sélectionné(s)';
 $string['selectedlist'] = 'Liste des utilisateurs sélectionnés...';
 $string['usersfound'] = '$a utilisateur(s) trouvé(s).';
