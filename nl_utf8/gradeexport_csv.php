@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // gradeexport_csv.php - created with Moodle 1.9 dev (2007080202)
+      // gradeexport_csv.php - created with Moodle 1.9 Beta + (2007082200)
 
 
+$string['cvs:view'] = 'Gebruik CSV cijferexport';
 $string['modulename'] = 'CSV-bestand';
 
 ?>
