@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta + (2007082400)
+      // admin.php - created with Moodle 1.9 Beta + (2007082803)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -94,6 +94,7 @@ $string['configeditorfontlist'] = 'エディタのドロップダウンリスト
 $string['configenableajax'] = 'ここでは、サイト全体におけるAJAX (Javaスクリプトを使用した高度なクライアント/サーバインターフェース) の使用をコントロールできます。この設定を有効にした場合、ユーザはプロフィールページでAJAXの使用を選択できます。この設定を無効にした場合、すべてのユーザでAJAXの使用が無効にされます。';
 $string['configenablecourserequests'] = 'すべてのユーザにコース作成のリクエストを許可します。';
 $string['configenableglobalsearch'] = 'ここでは、リソースおよび活動のグローバルテキストサーチを有効にします。この設定は、PHP4に互換性がありません。';
+$string['configenablegroupings'] = 'ここでは、グループのグルーピングを有効にします。';
 $string['configenablehtmlpurifier'] = '信頼できないテキストのクリーニングに関して、KSESの代わりにHTML Purifierを使用します。HTML Purifierは活発に開発され、さらにセキュアだと考えられていますが、リソースに負荷がかかります。HTML Purifierでは、表示されるHTMLコードに若干の違いが生じると予想されます。embedおよobjectタグは有効にすることができません。また、MathMLタグおよび古いlangタグもサポートされませんので注意してください。';
 $string['configenablerssfeeds'] = 'ここでは、サイト全体からのRSSフィードを有効にします。実際に更新された情報を見たい場合、各モジュールのRSSフィード設定も有効にする必要があります - 管理ページにあるモジュール管理を確認してください。';
 $string['configenablerssfeedsdisabled'] = 'サイトすべてにおいてRSSフィードが利用不可にされているため、利用できません。管理メニュー内の詳細設定でRSSフィードを利用可にすることができます。';
@@ -269,6 +270,7 @@ $string['doctonewwindow'] = '新しいウィンドウに開く';
 $string['download'] = 'ダウンロード';
 $string['editennotallowed'] = 'このページでは言語ファイルen_utf8を編集することはできません。ローカルに切り替えてください。';
 $string['edithelpdocs'] = 'ヘルプドキュメントの編集';
+$string['editingnoncorelangfile'] = 'あなたはアドオンモジュール/プラグインの翻訳済み言語ファイルを修正しようとしています。あなたはサードパーティの翻訳言語ファイルを_localフォルダのみに保存することができます。サードパーティの翻訳済み言語ファイルはモジュールの言語ディレクトリに移動するか、アドオンモジュールの管理者に送信してください。';
 $string['editorbackgroundcolor'] = '背景色';
 $string['editordictionary'] = 'エディタディレクトリ';
 $string['editorfontfamily'] = 'フォントファミリー';
@@ -497,6 +499,7 @@ $string['profilefieldsize'] = '表示サイズ';
 $string['profilefieldtypemenu'] = '選択メニュー';
 $string['profilefieldtypetext'] = 'テキスト入力';
 $string['profilefieldtypetextarea'] = 'テキストエリア';
+$string['profileforceunique'] = 'データがユニークである必要がありますか?';
 $string['profileinvaliddata'] = '値が有効ではありません。';
 $string['profilelocked'] = 'このフィールドをロックしますか?';
 $string['profilemenudefaultnotinoptions'] = '初期値がオプションの1つではありません。';
@@ -520,6 +523,9 @@ $string['proxyport'] = 'プロクシポート';
 $string['qtyperqpwillberemoved'] = 'アップグレード中、RQP問題タイプは削除されます。あなたはこの問題タイプを使用していませんので、トラブルが発生することはありません。';
 $string['qtyperqpwillberemovedanyway'] = 'アップグレード中、RQP問題タイプは削除されます。あなたのデータベース内にRQP問題タイプが登録されています。アップグレードを続ける前に、 http://moodle.org/mod/data/view.php?d=13&amp;rid=797 から対応するプログラムをインストールしない場合、これらの問題は動作しなくなります。';
 $string['quarantinedir'] = '隔離ディレクトリ';
+$string['question'] = '問題';
+$string['questioncwqpfscheck'] = '1つまたはそれ以上の小テストの「ランダム」問題が共有および非共有カテゴリから混在して選択されるように設定されています。詳細レポートは<a href=\"$a->reporturl\">こちらを</a>ご覧ください。<a href=\"$a->docsurl\">こちら</a>でMoodle Docsページをご覧ください。';
+$string['questioncwqpfsok'] = '素晴らしい。あなたの小テストでは、共有および非共有カテゴリから混在して選択されるように設定されている問題はありません。';
 $string['rcache'] = 'レコードキャッシュ';
 $string['rcachettl'] = 'レコードキャッシュTTL';
 $string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細情報は、<a target=\"_new\" href=\"$a\">オンラインリリースノート</a>をご覧ください。';
