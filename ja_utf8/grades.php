@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 Beta + (2007082701)
+      // grades.php - created with Moodle 1.9 Beta + (2007082803)
 
 
 $string['activities'] = '活動';
@@ -216,6 +216,7 @@ $string['itemname'] = '項目名';
 $string['items'] = '項目';
 $string['itemsedit'] = '評定項目の編集';
 $string['keephigh'] = '最高評点の保持件数';
+$string['keymanager'] = 'キーマネージャ';
 $string['left'] = '左';
 $string['letter'] = '文字';
 $string['lettergrade'] = '評定文字';
@@ -243,6 +244,7 @@ $string['mode'] = '最頻値';
 $string['movingelement'] = '$a に移動';
 $string['multfactor'] = '乗数';
 $string['newcategory'] = '新しいカテゴリ';
+$string['newuserkey'] = '新しいユーザキー';
 $string['no'] = 'No';
 $string['nocategories'] = 'このコースに評定カテゴリは追加されなかったか、見つかりませんでした。';
 $string['nocategoryname'] = 'カテゴリ名を入力してください。';
@@ -254,12 +256,14 @@ $string['nomode'] = 'NA';
 $string['nonnumericweight'] = '数値ではありません:';
 $string['nonweightedpct'] = '加重なし%%';
 $string['nooutcome'] = 'アウトカムなし';
+$string['nopublish'] = '公開しない';
 $string['noselectedcategories'] = 'カテゴリを選択してください。';
 $string['noselecteditems'] = '項目を選択してください。';
 $string['notteachererror'] = 'この機能は教師のみ使用できます。';
 $string['numberofgrades'] = '評定数';
 $string['onascaleof'] = '尺度の適用範囲: $a->grademin - $a->grademax';
 $string['operations'] = '操作';
+$string['options'] = 'オプション';
 $string['outcome'] = 'アウトカム';
 $string['outcomecategory'] = 'カテゴリ内にアウトカムを作成する';
 $string['outcomecategorynew'] = '新しいカテゴリ';
@@ -295,6 +299,7 @@ $string['prefgeneral'] = '一般設定';
 $string['prefletters'] = '評定文字および境界';
 $string['prefrows'] = '特別行';
 $string['prefshow'] = 'トグルの表示/非表示';
+$string['publishing'] = '公開';
 $string['quickfeedback'] = 'クイックフィードバック';
 $string['quickgrading'] = 'クイック評定';
 $string['range'] = '範囲';
