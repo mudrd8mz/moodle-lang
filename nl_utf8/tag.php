@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta + (2007081600)
+      // tag.php - created with Moodle 1.9 Beta + (2007082200)
 
 
 $string['addtagtomyinterests'] = 'Voeg \"$a\" toe aan mijn interesses';
+$string['blocktagstitle'] = 'Tags';
+$string['changename'] = 'Wijzig naam';
 $string['count'] = 'Tel';
 $string['delete'] = 'Verwijder';
 $string['deleted'] = 'Verwijderd';
@@ -14,6 +16,8 @@ $string['helprelatedtags'] = 'Komma gescheiden gerelateerde tags';
 $string['id'] = 'id';
 $string['managetags'] = 'Beheer tags';
 $string['name'] = 'Naam';
+$string['namesalreadybeeingused'] = 'Tag-naam is al in gebruik';
+$string['newname'] = 'Nieuwe naam';
 $string['noresultsfor'] = 'Geen resultaten voor \"$a\"';
 $string['owner'] = 'Eigenaar';
 $string['relatedtags'] = 'Gerelateerde tags';
@@ -31,6 +35,7 @@ $string['tagsaredisabled'] = 'Tags zijn uitgeschakeld';
 $string['thingstaggedwith'] = '$a->count dingen getagged met \"$a->name\"';
 $string['thistaghasnodesc'] = 'Deze tag heeft nog geen beschrijving';
 $string['timemodified'] = 'Gewijzigd';
+$string['updated'] = 'Geüpdatet';
 $string['updatetag'] = 'Aanpassen';
 $string['userstaggedwith'] = 'Gebruikers getagged met \"$a\"';
 $string['withselectedtags'] = 'Met geselecteerde tags ...';

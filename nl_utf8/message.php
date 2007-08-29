@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9 Beta + (2007081600)
+      // message.php - created with Moodle 1.9 Beta + (2007082200)
 
 
 $string['addcontact'] = 'Voeg een contactpersoon toe';
@@ -27,6 +27,7 @@ $string['includeblockedusers'] = 'Geblokkeerde bezoekers inbegrepen';
 $string['incomingcontacts'] = 'Binnenkomende contactpersonen ($a)';
 $string['keywords'] = 'Sleutelwoorden';
 $string['keywordssearchresults'] = 'Zoekresultaten: $a berichten gevonden';
+$string['mailsent'] = 'Je bericht is verzonden via e-mail.';
 $string['maxmessages'] = 'Maximum aantal berichten dat in de discussiegeschiedenis getoond mag worden';
 $string['message'] = 'Bericht';
 $string['messagehistory'] = 'Geschiedenis van het bericht';

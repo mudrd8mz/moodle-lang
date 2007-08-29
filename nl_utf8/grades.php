@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 Beta + (2007081600)
+      // grades.php - created with Moodle 1.9 Beta + (2007082200)
 
 
 $string['activities'] = 'Activiteiten';
@@ -153,6 +153,7 @@ $string['gradeboundary'] = 'Marge cijferbeoordeling';
 $string['gradecategory'] = 'Beoordelingscategorie';
 $string['gradecategoryhelp'] = 'Hulp bij cijfercategorieën';
 $string['gradedisplaytype'] = 'Hoe beoordelingen tonen';
+$string['gradedon'] = 'Beoordeeld op $a';
 $string['gradeexceptions'] = 'Cijferuitzonderingen';
 $string['gradeexceptionshelp'] = 'Hulp bij cijferuitzonderingen';
 $string['gradehelp'] = 'Hulp bij cijfers';
@@ -223,6 +224,7 @@ $string['items'] = 'Items';
 $string['itemsedit'] = 'Bewerk beoordelingsitem';
 $string['keephigh'] = 'Weerhoud hoogste';
 $string['keephighhelp'] = 'Indien ingesteld, zal deze optie enkel de X hoogst cijfers behouden, waarbij X de geselecteerde waarde is voor deze optie.';
+$string['keymanager'] = 'Sleutelbeheerder';
 $string['left'] = 'Links';
 $string['letter'] = 'Letter';
 $string['lettergrade'] = 'Letterbeoordeling';
@@ -251,6 +253,7 @@ $string['movingelement'] = '$a aan het verplaatsen';
 $string['multfactor'] = 'Multiplicator';
 $string['multfactorhelp'] = 'Factor waarmee alle beoordelingen voor dit item zullen vermenigvuldigd worden.';
 $string['newcategory'] = 'Nieuwe categorie';
+$string['newuserkey'] = 'Nieuwe gebruikerssleutel';
 $string['no'] = 'Nee';
 $string['nocategories'] = 'Cijfercategorieën konden voor deze cursus niet gevonden of toegevoegd worden';
 $string['nocategoryname'] = 'Je hebt geen categorienaam opgegeven';
@@ -262,12 +265,14 @@ $string['nomode'] = 'NA';
 $string['nonnumericweight'] = 'Een niet-numerieke waarde ontvangen voor';
 $string['nonweightedpct'] = '%% zonder weging';
 $string['nooutcome'] = 'Geen competentie';
+$string['nopublish'] = 'Niet publiceren';
 $string['noselectedcategories'] = 'Je hebt geen categorieën geselecteerd';
 $string['noselecteditems'] = 'Je hebt geen items geselecteerd';
 $string['notteachererror'] = 'Je moet leraar zijn om deze functie te gebruiken';
 $string['numberofgrades'] = 'Aantal beoordelingen';
 $string['onascaleof'] = 'op een schaal van $a-grademin tot $a->grademax';
 $string['operations'] = 'Operatie';
+$string['options'] = 'Opties';
 $string['outcome'] = 'Competentie';
 $string['outcomecategory'] = 'Maak competenties in categorie';
 $string['outcomecategorynew'] = 'Nieuwe categorie';
@@ -306,6 +311,7 @@ $string['prefgeneral'] = 'Algemeen';
 $string['prefletters'] = 'Beoordelingscijfers en marges';
 $string['prefrows'] = 'Speciale rijen';
 $string['prefshow'] = 'Toon/verberg schakelaars';
+$string['publishing'] = 'Publiceren';
 $string['quickfeedback'] = 'Snelle feedback';
 $string['quickgrading'] = 'Snel beoordelen';
 $string['range'] = 'Marge';
@@ -383,6 +389,8 @@ $string['usenooutcome'] = 'Gebruik geen competentie';
 $string['usenoscale'] = 'Gebruik geen schaal';
 $string['usepercent'] = 'Gebruik procent';
 $string['user'] = 'Gebruiker';
+$string['userkeyhelp'] = 'Kies een bewaarde sleutel die gebruikers toegang zal geven tot de gegevens, gepubliceerd door deze export-plugin, zonder te moeten inloggen in Moodle.
+Kies \'maak nieuwe gebruikerssleutel\' om een nieuwe sleutel te maken wanneer je dit formulier instuurt.';
 $string['userpreferences'] = 'Gebruikersvoorkeuren';
 $string['useweighted'] = 'Gebruik weging';
 $string['viewbygroup'] = 'Groep';
