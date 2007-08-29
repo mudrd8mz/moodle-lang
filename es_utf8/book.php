@@ -2,6 +2,7 @@
       // book.php - created with Moodle 1.7 (2006101007)
 
 
+$string['doexport'] = 'Exportar';
 $string['addafter'] = 'Agregar un nuevo capítulo';
 $string['chapterscount'] = 'Capítulos';
 $string['chaptertitle'] = 'Título del capítulo';
