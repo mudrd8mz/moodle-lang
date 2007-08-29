@@ -1,13 +1,16 @@
 <?PHP // $Id$ 
-      // bulkusers.php - created with Moodle 1.9 Beta + (2007081600)
+      // bulkusers.php - created with Moodle 1.9 Beta + (2007082803)
 
 
 $string['addall'] = '모두 추가';
 $string['addsel'] = '선택항목 추가';
 $string['available'] = '사용가능';
+$string['deleteall'] = '모든 사용자 정리';
+$string['deletesel'] = '선택된 사용자 정리';
 $string['removeall'] = '모두 제외';
 $string['removesel'] = '선택항목 제외';
 $string['selected'] = '선택됨';
+$string['selectedlist'] = '선택된 사용자';
 $string['usersfound'] = '$a 사용자 발견';
 $string['usersinlist'] = '사용자 목록';
 $string['usersselected'] = '$a 사용자 선택됨';

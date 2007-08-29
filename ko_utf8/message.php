@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9 Beta + (2007081600)
+      // message.php - created with Moodle 1.9 Beta + (2007082803)
 
 
 $string['addcontact'] = '연락 추가';
@@ -27,6 +27,7 @@ $string['includeblockedusers'] = '차단 사용자 포함';
 $string['incomingcontacts'] = '들어온 연락 ($a)';
 $string['keywords'] = '키워드';
 $string['keywordssearchresults'] = '결과 찾기 : $a 발견된 메세지';
+$string['mailsent'] = '이메일로 메시지 보냄';
 $string['maxmessages'] = '토론 기록에 있는 최대의 메세지 숫자';
 $string['message'] = '메세지';
 $string['messagehistory'] = '메세지 기록';

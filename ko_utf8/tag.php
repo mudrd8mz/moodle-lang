@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta + (2007082400)
+      // tag.php - created with Moodle 1.9 Beta + (2007082803)
 
 
 $string['addtagtomyinterests'] = '관심분야에 \"$a\" 추가';
+$string['blocktagstitle'] = '태그';
 $string['changename'] = '이름 변경';
 $string['count'] = '계수';
 $string['delete'] = '삭제';
