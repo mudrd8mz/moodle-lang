@@ -267,6 +267,7 @@ $string['nocategoryname'] = 'Aucun nom de catégorie n\'a été donné.';
 $string['nocategoryview'] = 'Aucune catégorie à afficher par';
 $string['nogradeletters'] = 'Aucune note lettre fixée';
 $string['nogradesreturned'] = 'Aucune note retournée';
+$string['noidnumber'] = 'Pas d\'identifiant';
 $string['nolettergrade'] = 'Pas de note lettre pour';
 $string['nomode'] = 'ND';
 $string['nonnumericweight'] = 'Valeur non numérique reçue pour ';
