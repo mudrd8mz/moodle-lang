@@ -13,6 +13,7 @@ $string['flag'] = 'Fanion';
 $string['flagasinappropriate'] = 'Marquer comme inapproprié';
 $string['helprelatedtags'] = 'Balises reliées, séparées par des virgules';
 $string['id'] = 'id';
+$string['lasttenblogs'] = '10 derniers blogs';
 $string['managetags'] = 'Gérer les balises';
 $string['name'] = 'Nom de balise';
 $string['namesalreadybeeingused'] = 'Noms de balise déjà utilisés';
