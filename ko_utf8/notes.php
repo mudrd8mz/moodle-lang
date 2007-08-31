@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9 dev (2007080202)
+      // notes.php - created with Moodle 1.9 Beta + (2007083100)
 
 
 $string['addnewnote'] = '새 알림글 추가';
+$string['addnewnoteselect'] = '알릴 대상자 선택';
 $string['bynameondate'] = '$a->name - $a->date';
 $string['content'] = '전달 내용';
 $string['course'] = '배움터';
