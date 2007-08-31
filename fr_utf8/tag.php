@@ -27,6 +27,7 @@ $string['reset'] = 'Réinitialisation';
 $string['search'] = 'Chercher';
 $string['searchresultsfor'] = 'Résultats de recherche pour «&nbsp;$a&nbsp;»';
 $string['searchtags'] = 'Chercher des balises';
+$string['seeallblogs'] = 'Voir tous les blogs marqué par cette balise';
 $string['select'] = 'Sélectionner';
 $string['tagdescription'] = 'Description balise';
 $string['tag'] = 'Balise';
