@@ -25,7 +25,7 @@ URL:    http://perun.im.ns.ac.yu/komlenov/
    
    for their work on fine-tuning this language pack and translation of help files.
    
- - Miloš Bajčetić, Institute of Histology and Embriology, School of Medicine, University of Belgrade
+ - Miloš Bajčetić, Institute of Histology and Embryology, School of Medicine, University of Belgrade
    and his students
    
    Marija Bokšan
