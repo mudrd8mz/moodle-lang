@@ -68,6 +68,7 @@ $string['missingvaluesinsentence'] = 'Valeurs manquantes dans la phrase';
 $string['mustselectonefield'] = 'Pour voir les actions possibles sur un champ, vous devez d\'abord en sélectionner un&nbsp;!';
 $string['mustselectoneindex'] = 'Pour voir les actions possibles sur un index, vous devez d\'abord en sélectionner un&nbsp;!';
 $string['mustselectonekey'] = 'Pour voir les actions possibles sur une clef, vous devez d\'abord en sélectionner une&nbsp;!';
+$string['mysqlextracheckbigints'] = 'Avec MySQL, une contrôle des grands entier sans signe est également effectué, générant les instructions SQL à lancer pour les corriger.';
 $string['new_statement'] = 'Nouvelle instruction';
 $string['new_table_from_mysql'] = 'Nouvelle table depuis MySQL';
 $string['newfield'] = 'Nouveau champ';
