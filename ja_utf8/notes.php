@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9 dev (2007072500)
+      // notes.php - created with Moodle 1.9 Beta + (2007083101)
 
 
 $string['addnewnote'] = '新しいノートを追加する';
+$string['addnewnoteselect'] = 'ノートを書くユーザを選択する';
 $string['bynameondate'] = '更新: $a->name - $a->date';
 $string['content'] = 'コンテンツ';
 $string['course'] = 'コース';
@@ -12,7 +13,7 @@ $string['deleteconfirm'] = 'このノートを削除してもよろしいです�
 $string['editnote'] = 'ノートの編集';
 $string['groupaddnewnote'] = '全員の新しいノートを追加する';
 $string['nocontent'] = 'ノートコンテンツを入力してください。';
-$string['nonotes'] = 'ノートはありません。';
+$string['nonotes'] = 'まだこのタイプのノートはありません。';
 $string['note'] = 'ノート';
 $string['notes'] = 'ノート';
 $string['notesnotvisible'] = 'あなたはこのノートを閲覧することができません。';

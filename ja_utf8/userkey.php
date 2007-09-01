@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // userkey.php - created with Moodle 1.9 Beta + (2007082803)
+      // userkey.php - created with Moodle 1.9 Beta + (2007083101)
 
 
 $string['createnewkey'] = '新しいユーザキーを作成する';
@@ -14,5 +14,6 @@ $string['keyvaliduntilhelp'] = 'キーが無効になる任意の日付を選択
 $string['keyvalue'] = 'キー値';
 $string['newuserkey'] = '新しいユーザキー';
 $string['userkey'] = 'ユーザキー';
+$string['userkeys'] = 'ユーザキー';
 
 ?>
