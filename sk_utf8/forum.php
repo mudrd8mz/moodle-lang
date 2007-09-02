@@ -176,8 +176,8 @@ $string['postmailinfo'] = 'Toto je kópia správy publikovanej na $a stránke.
 Ak chcete pridať Vašu reakciu na túto správu, kliknite na tento odkaz:';
 $string['postmailnow'] = '<p>Tento príspevok bude hneď po vložení poslaný e-mailom všetkým, ktorí majú zapnuté odoberanie príspevkov z tohto fóra.</p>';
 $string['postrating1'] = 'Vykazuje najmä INDIVIDUÁLNE poznávanie';
-$string['postrating2'] = 'Rovnomerne samostatné aj kolektívne';
-$string['postrating3'] = 'Vykazuje najmä KOLEKTÍVNE poznávanie';
+$string['postrating2'] = 'Rovnako individuálne aj vzťahové';
+$string['postrating3'] = 'Vykazuje najmä VZŤAHOVÉ poznávanie';
 $string['posts'] = 'Príspevky';
 $string['posttoforum'] = 'Poslať do fóra';
 $string['postupdated'] = 'Váš príspevok bol aktualizovaný';
