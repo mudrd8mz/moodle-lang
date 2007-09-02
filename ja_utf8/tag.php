@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta + (2007082801)
+      // tag.php - created with Moodle 1.9 Beta + (2007083101)
 
 
 $string['addtagtomyinterests'] = '「 $a 」を私の「興味があること」に追加する';
@@ -20,6 +20,7 @@ $string['namesalreadybeeingused'] = 'タグ名がすでに使用されていま�
 $string['newname'] = '新しいタグ名';
 $string['noresultsfor'] = '「 $a 」の検索結果なし';
 $string['owner'] = 'オーナー';
+$string['relatedblogs'] = 'このタグに関連する最新ブログ';
 $string['relatedtags'] = '関連タグ';
 $string['reset'] = 'リセット';
 $string['resetflag'] = 'フラグのリセット';
@@ -27,14 +28,17 @@ $string['responsiblewillbenotified'] = '責任者に通知されます。';
 $string['search'] = '検索';
 $string['searchresultsfor'] = '「 $a 」の検索結果';
 $string['searchtags'] = 'タグを検索する';
+$string['seeallblogs'] = 'このタグに関連するブログをすべて表示する';
 $string['select'] = '選択';
 $string['tag'] = 'タグ';
 $string['tagdescription'] = 'タグ説明';
 $string['tags'] = 'タグ';
 $string['tagsaredisabled'] = 'タグが無効にされています。';
+$string['tagtype'] = 'タグタイプ';
 $string['thingstaggedwith'] = '$a->count 件の項目にタグ「 $a->name 」が付けられています。';
 $string['thistaghasnodesc'] = '現在、このタグには説明がありません。';
 $string['timemodified'] = '修正日時';
+$string['typechanged'] = 'タグタイプが変更されました。';
 $string['updated'] = '更新されました。';
 $string['updatetag'] = '更新';
 $string['userstaggedwith'] = '「 $a 」でタグされたユーザ';

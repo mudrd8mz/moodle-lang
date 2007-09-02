@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9 Beta + (2007082803)
+      // xmldb.php - created with Moodle 1.9 Beta + (2007083101)
 
 
 $string['aftertable'] = '次のテーブルの後:';
@@ -72,6 +72,7 @@ $string['missingvaluesinsentence'] = 'センテンスの値が見つかりませ
 $string['mustselectonefield'] = 'フィールドに関連した処理を見るには、フィールドを選択してください!';
 $string['mustselectoneindex'] = 'インデックスに関連した処理を見るには、インデックスを選択してください!';
 $string['mustselectonekey'] = 'キーに関連した処理を見るには、キーを選択してください!';
+$string['mysqlextracheckbigints'] = 'MySQL配下では同様に正しくない符号ありbigintを探して、すべてを修正するため実行する必要のあるSQLを生成します。';
 $string['new_statement'] = '新しいステートメント';
 $string['new_table_from_mysql'] = 'MySQLから新しいテーブル';
 $string['newfield'] = '新しいフィールド';
