@@ -2,7 +2,7 @@
       // chat.php - created with Moodle 1.8.2+ (2007021520)
 
 
-$string['beep'] = 'pípnuť';
+$string['beep'] = 'prezvoniť';
 $string['chat:chat'] = 'Prispievať do chatovania';
 $string['chat:deletelog'] = 'Odstrániť históriu chatovania';
 $string['chat:readlog'] = 'Čítať históriu chatovania';
@@ -32,8 +32,8 @@ $string['explainmethodnormal'] = 'Tieto nastavenia pôsobia <strong>iba</strong>
 $string['generalconfig'] = 'Všeobecná konfigurácia';
 $string['helpchatting'] = 'Nápoveda k chatovaniu';
 $string['idle'] = 'Nečinný/á';
-$string['messagebeepseveryone'] = '$a ohlasuje všetkých!';
-$string['messagebeepsyou'] = '$a Vás práve ohlásil!';
+$string['messagebeepseveryone'] = '$a všetkých prezváňa!';
+$string['messagebeepsyou'] = '$a Vás práve prezváňa!';
 $string['messageenter'] = '$a práve vstúpil do tohto chatu';
 $string['messageexit'] = '$a sa práve odhlásil z chatu';
 $string['messages'] = 'Správy';
