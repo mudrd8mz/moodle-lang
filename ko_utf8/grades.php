@@ -129,6 +129,7 @@ $string['excluded'] = '제외';
 $string['excludedhelp'] = '제외 항목에 체크를 해 놓으면, 이 점수는 총계 산출과정에서 제외되게 된다.';
 $string['expand'] = '범주 확장';
 $string['export'] = '내보내기';
+$string['exportfeedback'] = '내보낼 때 피드백 포함';
 $string['exportletters'] = '등급문자로 내보내기';
 $string['exportlettershelp'] = '점수대신 등급을 표시하는 문자로 된 성적 항목에 대하여, 실제 점수대신 등급에 해당하는 문자로 내보내게 된다.';
 $string['exportplugins'] = '플러그인 내보내기';
