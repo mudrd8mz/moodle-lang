@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 Beta + (2007082803)
+      // grades.php - created with Moodle 1.9 Beta + (2007083101)
 
 
 $string['activities'] = '活動';
@@ -125,6 +125,7 @@ $string['exceptions'] = '例外';
 $string['excluded'] = '除外';
 $string['expand'] = 'カテゴリの拡張';
 $string['export'] = 'エクスポート';
+$string['exportfeedback'] = 'エクスポートにフィードバックを含む';
 $string['exportletters'] = '評定文字をエクスポートする';
 $string['exportlettershelp'] = '数字の代わりに評定文字を使用している評定項目に関して、数字の代わりに評定文字をエクスポートします。';
 $string['exportplugins'] = 'プラグインのエクスポート';
@@ -251,6 +252,7 @@ $string['nocategoryname'] = 'カテゴリ名を入力してください。';
 $string['nocategoryview'] = 'カテゴリがありません。';
 $string['nogradeletters'] = '評定文字が設定されていません。';
 $string['nogradesreturned'] = '評定がありません。';
+$string['noidnumber'] = 'IDナンバーなし';
 $string['nolettergrade'] = '評定文字がありません:';
 $string['nomode'] = 'NA';
 $string['nonnumericweight'] = '数値ではありません:';
