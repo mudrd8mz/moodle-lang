@@ -4,6 +4,7 @@
 $string['addtagtomyinterests'] =  'Ajouter «&nbsp;$a&nbsp; à mes centres d\'intérêts';
 $string['blocktagstitle'] =  'Balises';
 $string['changename'] = 'Modifier nom de balise';
+$string['changetype'] = 'Modifier type de balise';
 $string['count'] = 'Compte';
 $string['description'] = 'Description';
 $string['delete'] = 'Supprimer';
