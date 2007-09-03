@@ -5,6 +5,7 @@
 $string['addtagtomyinterests'] = '「 $a 」を私の「興味があること」に追加する';
 $string['blocktagstitle'] = 'タグ';
 $string['changename'] = 'タグ名を変更する';
+$string['changetype'] = 'タグタイプを変更する';
 $string['count'] = 'カウント';
 $string['delete'] = '削除';
 $string['deleted'] = '削除';
