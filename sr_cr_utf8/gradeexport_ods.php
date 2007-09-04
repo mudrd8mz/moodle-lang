@@ -3,5 +3,6 @@
 
 
 $string['modulename'] = 'OpenOffice радна табела';
+$string['ods:view'] = 'Користити извоз оцена у OpenOffice';
 
 ?>

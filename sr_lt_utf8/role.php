@@ -66,6 +66,7 @@ $string['grade:hide'] = 'Sakrij ocenu';
 $string['grade:import'] = 'Uvoz ocena';
 $string['grade:lock'] = 'Zaključi ocenu';
 $string['grade:manage'] = 'Upravljanje stavkama za ocenjivanje';
+$string['grade:manageoutcomes'] = 'Upravljaj ishodima ocena';
 $string['grade:override'] = 'Menjanje ocena';
 $string['grade:unlock'] = 'Otključavanje ocena ili stavki';
 $string['grade:view'] = 'Pregled sopstvenih ocena';
@@ -161,5 +162,12 @@ $string['user:viewuseractivitiesreport'] = 'Videti izveštaje o aktivnostima kor
 $string['user:viewusergrades'] = 'Pregled korisničkih ocena';
 $string['viewrole'] = 'Pregled detalja o ulogama';
 $string['xuserswiththerole'] = 'Broj korisnika sa ulogom \"$a->role\" je: $a->number';
+$string['question:export'] = 'Izvoz pitanja'; // ORPHANED
+$string['question:import'] = 'Uvoz pitanja'; // ORPHANED
+$string['question:manage'] = 'Upravljanje pitanjima'; // ORPHANED
+$string['course:downloadallgrades'] = 'Preuzmi sve ocene'; // ORPHANED
+$string['course:viewallgrades'] = 'Vidi sve ocene'; // ORPHANED
+$string['course:viewowngrades'] = 'Vidi svoje ocene'; // ORPHANED
+$string['grade:editlocked'] = 'Izmeni zaključene ocene'; // ORPHANED
 
 ?>

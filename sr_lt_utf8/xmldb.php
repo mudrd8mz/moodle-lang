@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.8.2+ (2007021520)
+      // xmldb.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['aftertable'] = 'Nakon tabele:';
@@ -9,17 +9,23 @@ $string['binaryincorrectlength'] = 'Netačna dužina binarnog polja';
 $string['cannotuseidfield'] = 'Nije moguće umetnuti polje identifikatora. Reč je o automatski numerisanoj koloni.';
 $string['change'] = 'Promeniti';
 $string['charincorrectlength'] = 'Netačna dužina polja karaktera';
+$string['check_bigints'] = 'Pretraga netačnih celobronih vrednosti (integera) u bazi';
 $string['check_indexes'] = 'Traži indekse baze koji nedostaju';
+$string['checkbigints'] = 'Proveri velike celobrojne (Bigint) vrednosti';
 $string['checkindexes'] = 'Proveri indekse';
 $string['completelogbelow'] = '(pogledaj kompletni zapis pretrage)';
+$string['confirmcheckbigints'] = 'Ova funkcionalnost će pretražiti <a href=\"http://tracker.moodle.org/browse/MDL-11038\">potencijalno pogrešna polja sa celobrojnim (integer) vrednostima</a> na Vašem serveru za Moodle, i automatski generisati (ali ne i izvršiti!) potrebne SQL iskaze da bi sve celobrojne (integer) vrednosti u Vašoj bazi podataka bile pravilno definisane.<br /><br />
+Kada su jednom generisani, možete kopirati ove iskaze i izvršiti ih bezbedno u Vama najpogodnijem SQL interfejsu (ne zaboravite da napravite rezervnu kopiju podataka pre toga).<br /><br />
+Strogo se preporučuje da koristite najnoviju dostupnu ažuriranu verziju (sa + u nazivu verzije) Vašeg izdanja Moodlea (1.8, 1.9, 2.x) pre izvršavanja pretrage pogrešnih integera.<br /><br />
+Ova funkcionalnost ne izvodi radnje koje menjaju Vašu bazu podataka (već samo čita iz nje), tako da se može izvršiti bezbedno u bilo kom trenutku.';
 $string['confirmcheckindexes'] = 'Ova funkcija traži indekse koji nedostaju na Vašem Moodle serveru, automatski generišući (ali ne izvršavajući!) potrebne SQL naredbe da bi sve ostalo ažurno. Jednom generisane, te naredbe se mogu kopirati i izvršiti bezbedno u okviru Vašeg omiljenog SQL interfejsa.<br /><br />
 Veoma je preporučljivo da instalirate najnoviju (+) verziju Moodle izdanja koje trenutno koristite (1.8, 1.9, 2.x ...) pre   započinjanja potrage za indeksima koji nedostaju.<br /><br />
 Ova funkcija ne radi nikakve izmene baze (samo iščitava podatke iz nje), pa se može bezbedno izvršiti u svako doba.';
-$string['confirmdeletefield'] = 'Da li ste potpuno sigurni da želite da obrišete polje:';
-$string['confirmdeleteindex'] = 'Da li ste potpuno sigurni da želite da obrišete indeks:';
-$string['confirmdeletekey'] = 'Da li ste potpuno sigurni da želite da obrišete ključ:';
-$string['confirmdeletesentence'] = 'Da li ste potpuno sigurni da želite da obrišete rečenicu:';
-$string['confirmdeletestatement'] = 'Da li ste potpuno sigurni da želite da obrišete izjavu i sve njene rečenice:';
+$string['confirmdeletefield'] = 'Da li ste potpuno sigurni da želite obrisati polje:';
+$string['confirmdeleteindex'] = 'Da li ste potpuno sigurni da želite obrisati indeks:';
+$string['confirmdeletekey'] = 'Da li ste potpuno sigurni da želite obrisati ključ:';
+$string['confirmdeletesentence'] = 'Da li ste potpuno sigurni da želite obrisati rečenicu:';
+$string['confirmdeletestatement'] = 'Da li ste potpuno sigurni da želite obrisati iskaz i sve njegove rečenice:';
 $string['confirmdeletetable'] = 'Da li ste potpuno sigurni da želite da obrišete tabelu:';
 $string['confirmdeletexmlfile'] = 'Da li ste potpuno sigurni da želite da obrišete datoteku:';
 $string['confirmrevertchanges'] = 'Da li ste potpuno sigurni da želite da poništite promene načinjene tokom:';
@@ -31,7 +37,7 @@ $string['delete_field'] = 'Brisanje polja';
 $string['delete_index'] = 'Brisanje indeksa';
 $string['delete_key'] = 'Brisanje ključa';
 $string['delete_sentence'] = 'Brisanje rečenice';
-$string['delete_statement'] = 'Brisanje izjave';
+$string['delete_statement'] = 'Brisanje iskaza';
 $string['delete_table'] = 'Brisanje tabele';
 $string['delete_xml_file'] = 'Brisanje XML datoteke';
 $string['down'] = 'Dole';
@@ -42,7 +48,7 @@ $string['edit_field'] = 'Uređivanje polja';
 $string['edit_index'] = 'Uređivanje indeksa';
 $string['edit_key'] = 'Uređivanje ključa';
 $string['edit_sentence'] = 'Uređivanje rečenice';
-$string['edit_statement'] = 'Uređivanje izjave';
+$string['edit_statement'] = 'Uređivanje iskaza';
 $string['edit_table'] = 'Uređivanje tabele';
 $string['edit_xml_file'] = 'Uređivanje XML datoteke';
 $string['enumvaluesincorrect'] = 'Netačna vrednost za numeričko polje';
@@ -69,16 +75,18 @@ $string['missingvaluesinsentence'] = 'Nedostaju vrednosti u rečenici';
 $string['mustselectonefield'] = 'Morate odabrati jedno polje da biste videli akcije koje se odnose na polja!';
 $string['mustselectoneindex'] = 'Morate odabrati jedan indeks da biste videli akcije koje se odnose na indekse!';
 $string['mustselectonekey'] = 'Morate odabrati jedan ključ da biste videli akcije koje se odnose na ključeve!';
-$string['new_statement'] = 'Nova izjava';
+$string['mysqlextracheckbigints'] = 'U MySQL-u takođe pretražuje netačno označene velike celobrojne (bigint) vrednosti, i generiše potreban SQL koji treba izvršiti da bi se sve popravilo';
+$string['new_statement'] = 'Novi iskaz';
 $string['new_table_from_mysql'] = 'Nova tabela iz MySQL-a';
 $string['newfield'] = 'Novo polje';
 $string['newindex'] = 'Novi indeks';
 $string['newkey'] = 'Novi ključ';
 $string['newsentence'] = 'Nova rečenica';
-$string['newstatement'] = 'Nova izjava';
+$string['newstatement'] = 'Novi iskaz';
 $string['newtable'] = 'Nova tabela';
 $string['newtablefrommysql'] = 'Nova tabela iz MySQL-a';
 $string['nomissingindexesfound'] = 'Nije pronađen nijedan indeks koji nedostaje - Vaša baza ne zahteva nikakve dodatne intervencije.';
+$string['nowrongintsfound'] = 'Nema pronađenih pogrešnih celobrojnih (integer) vrednosti, Vaša baza ne zahteva nikakve dalje akcije';
 $string['numberincorrectdecimals'] = 'Netačan broj decimala za numeričko polje';
 $string['numberincorrectlength'] = 'Netačna dužina numeričkog polja';
 $string['reserved'] = 'Rezervisano';
@@ -90,13 +98,13 @@ $string['searchresults'] = 'Rezultati pretrage';
 $string['selectaction'] = 'Izaberite akciju:';
 $string['selectdb'] = 'Izaberite bazu podataka:';
 $string['selectfieldkeyindex'] = 'Izaberite polje/ključ/indeks:';
-$string['selectonecommand'] = 'Molimo odaberite jednu akciju sa navedenog spiska da biste videli odgovarajući PHP kod';
-$string['selectonefieldkeyindex'] = 'Molimo izaberite jedno polje/ključ/indeks iz liste da biste videli PHP kod';
+$string['selectonecommand'] = 'Molimo odaberite jednu akciju sa navedenog spiska da biste videli odgovarajući PHP kôd';
+$string['selectonefieldkeyindex'] = 'Molimo izaberite jedno polje/ključ/indeks iz liste da biste videli PHP kôd';
 $string['selecttable'] = 'Izaberite tabelu:';
 $string['sentences'] = 'Rečenice';
-$string['statements'] = 'Izjave';
-$string['statementtable'] = 'Tabela izjava:';
-$string['statementtype'] = 'Tip izjava:';
+$string['statements'] = 'Iskazi';
+$string['statementtable'] = 'Tabela iskaza:';
+$string['statementtype'] = 'Tip iskaza:';
 $string['table'] = 'Tabela';
 $string['tables'] = 'Tabele';
 $string['test'] = 'Test';
@@ -113,9 +121,12 @@ $string['viewedited'] = 'Pregled uređenog';
 $string['vieworiginal'] = 'Pregled originala';
 $string['viewphpcode'] = 'Pregled PHP koda';
 $string['viewsqlcode'] = 'Pregled SQL koda';
+$string['wrong'] = 'Pogrešno';
+$string['wrongints'] = 'Pronađene pogrešne celobrojne (integer) vrednosti';
 $string['wronglengthforenum'] = 'Netačna dužina numeričkog polja';
 $string['wrongnumberoffieldsorvalues'] = 'Netačan broj polja ili vrednosti u rečenici';
 $string['wrongreservedwords'] = 'Trenutno korišćene rezervisane reči<br />(primetite da nazivi tabela nizu važni ukoliko koristite $CFG->prefix)';
 $string['yesmissingindexesfound'] = 'Nađeni su neki indeksi koji nedostaju u Vašoj bazi podataka. Evo detalja o njima i SQL naredbi koje treba izvršiti u okviru Vašeg omiljenog SQL interfejsa.<br /><br />Nakon toga, vrlo je preporučljivo da ponovo pokrenete ovu pretragu da biste proverili da li ima još indeksa koji nedostaju.';
+$string['yeswrongintsfound'] = 'Neke pogrešne celobrojne (integer) vrednosti su pronađene u Vašoj bazi podataka. Evo nekih detaljnijih informacija i potrebnih SQL iskaza koje treba izvršiti u Vama najpogodnijem SQL interfejsu da biste ih sve kreirali (ne zaboravite da napravite rezervnu kopiju podataka pre toga).<br /><br />Kada to uradite, strogo se preporučuje da pokrenete ovu alatku ponovo da proverite da li neće biti pronađeno još pogrešnih integera.';
 
 ?>

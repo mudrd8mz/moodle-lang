@@ -27,6 +27,7 @@ $string['includeblockedusers'] = 'Uključi blokirane korisnike';
 $string['incomingcontacts'] = 'Prispeli kontakti ($a)';
 $string['keywords'] = 'Ključne reči';
 $string['keywordssearchresults'] = 'Rezultati pretrage: $a poruka je pronađeno';
+$string['mailsent'] = 'Vaša poruka je poslata elektronskom poštom';
 $string['maxmessages'] = 'Maksimalan broj poruka za prikazivanje u istoriji diskusija';
 $string['message'] = 'Poruka';
 $string['messagehistory'] = 'Istorija poruka';

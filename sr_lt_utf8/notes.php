@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.8.2+ (2007021520)
+      // notes.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['addnewnote'] = 'Dodaj belešku';
+$string['addnewnoteselect'] = 'Izbor korisnikâ o kojima se pišu beleške';
 $string['bynameondate'] = 'autor $a->ime - $a->datum';
 $string['content'] = 'Sadržaj';
 $string['course'] = 'kurs';

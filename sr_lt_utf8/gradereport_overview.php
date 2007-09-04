@@ -3,5 +3,6 @@
 
 
 $string['modulename'] = 'Izveštaj pregleda';
+$string['overview:view'] = 'Vidi izveštaj o pregledima';
 
 ?>

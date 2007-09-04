@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8.2+ (2007021520)
+      // resource.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['addresource'] = 'Dodaj resurs';
@@ -11,9 +11,9 @@ $string['chooseafile'] = 'Odaberi ili postavi datoteku';
 $string['chooseparameter'] = 'Odaberi parametar';
 $string['clicktoopen'] = 'Da biste otvorili ovaj dokument, kliknite na sledeći link:';
 $string['configallowlocalfiles'] = 'Kada kreirate novi datotečni resurs, dozvolite umetanje linkova na lokalni datotečni sistem, npr. CD-ROM ili čvrsti disk. Ovo bi moglo biti korisno u učionici gde svi studenti imaju pristup zajedničkom mrežnom disku ili kod potrebe za pristupom većim datotekama koje su na CD mediju. Korišćenje ove opcije može zahtevati promenu sigurnosnih podešavanja Vašeg Web čitača.';
-$string['configautofilerenamesettings'] = 'Automatski ažurirajti reference na datoteke i direktorijume preimenovane pri upravljanju datotekama.';
+$string['configautofilerenamesettings'] = 'Automatski ažurirati reference na datoteke i direktorijume preimenovane pri upravljanju datotekama.';
 $string['configblockdeletingfilesettings'] = 'Blokirati brisanje datoteka i direktorijuma referenciranih resursima. Molimo primetite da slike i ostale datoteke referencirane iz html-a nisu zaštićene.';
-$string['configdefaulturl'] = 'Ova vrednost se koristi za prethodno popunjavanje URL forme kad se kreira novi resurs baziran na URL adresi.';
+$string['configdefaulturl'] = 'Ova vrednost se koristi za prethodno popunjavanje URL forme kad se kreira novi resurs zasnovan na URL adresi.';
 $string['configfilterexternalpages'] = 'Ukoliko omogućite ovo podešavanje, ono će uticati na to da svi spoljašnji resursi (Web stranice, postavljene HTML datoteke) budu procesirani pomoću trenutno odabranih filtera sajta (kao što je npr. automatsko linkovanje pojmova iz rečnika). Uključivanje ove opcije može izazvati značajno usporavanje stranica Vašeg kursa - koristite ovu opciju sa oprezom i jedino ako Vam je zaista potrebna.';
 $string['configframesize'] = 'Kada se postavljena Web stranica ili datoteka prikaže unutar okvira, ovo će biti veličina (u pikselima) gornjeg okvira (koji sadrži navigaciju).';
 $string['configparametersettings'] = 'Ovo podešavanje zadaje standardne vrednosti za opciju \"Parametri\" koja se nalazi na obrascu za postavljanje novih resursa u kurs. Nakon prvog korišćenja, ono postaje i standardno svojstvo za individualne korisnike.';
@@ -23,15 +23,15 @@ $string['configpopupheight'] = 'Koja visina treba biti podrazumevana za nove isk
 $string['configpopuplocation'] = 'Da li bi trebalo da po podrazumevanom podešavanju iskačući prozori pokazuju lokacijsku traku?';
 $string['configpopupmenubar'] = 'Da li bi trebalo da iskačući prozori po podrazumevanom podešavanju prikazuju traku menija?';
 $string['configpopupresizable'] = 'Da li bi trebalo da iskačući prozori po podrazumevanom podešavanju imaju promenjive dimenzije?';
-$string['configpopupscrollbars'] = 'Da li bi trebalo da iskačući prozori po podrazumevanom podešavanju imaju traku za pomeranje prozora?';
+$string['configpopupscrollbars'] = 'Da li bi trebalo da iskačući prozori po podrazumevanom podešavanju imaju (scroll) traku za pregled različitih delova sadržaja?';
 $string['configpopupstatus'] = 'Da li bi trebalo da iskačući prozori po podrazumevanom podešavanju imaju statusnu traku?';
 $string['configpopuptoolbar'] = 'Da li bi trebalo da iskačući prozori po podrazumevanom podešavanju imaju paletu alata?';
 $string['configpopupwidth'] = 'Koja bi širina trebala biti podrazumevana za nove iskačuće prozore?';
-$string['configsecretphrase'] = 'Ova tajna fraza se koristi da bi se kreirala šifriranu vrednost koda koja da bi mogla biti poslata nekim resursima kao parametar. Šifrirana vrednost je napravljena od md5 vrednosti current_users IP adrese povezane sa Vašom tajnom frazom, tj. code = md5(IP.secretphrase). Ovo omogućava ciljnom resursu da verifikuje konekciju radi dodatne sigurnosti.';
+$string['configsecretphrase'] = 'Ova tajna fraza se koristi da bi se kreirala šifriranu vrednost koda koja da bi mogla biti poslata nekim resursima kao parametar. Šifrirana vrednost je napravljena od md5 vrednosti current_users IP adrese nadovezane Vašom tajnom frazom, tj. code = md5(IP.secretphrase). Ovo omogućava ciljnom resursu da verifikuje konekciju radi dodatne sigurnosti.';
 $string['configwebsearch'] = 'Kad dodajete URL poput Web stranice ili linka na neki spoljašnji izvor informacija, ova lokacija je ponuđena kao sajt pretraživača za pomoć korisniku u potrazi za željenim URL-om.';
 $string['configwindowsettings'] = 'Ovo podešavanje postavlja standardnu vrednost za opciju \"Prozor\" koja se nalazi na obrascu za postavljanje novih resursa u kurs. Nakon prvog korišćenja, ista postaje i standardno svojstvo za individualne korisnike.';
-$string['deploy'] = 'Iskoristi';
-$string['deployall'] = 'Iskoristi sve';
+$string['deploy'] = 'Rasporedi';
+$string['deployall'] = 'Rasporedi sve';
 $string['directlink'] = 'Direktni link ka ovoj datoteci';
 $string['directoryinfo'] = 'Sve datoteke u izabranom direktorijumu će biti prikazane na ekranu.';
 $string['display'] = 'Prozor';
@@ -83,7 +83,7 @@ $string['note'] = 'Napomena';
 $string['notefile'] = 'Da biste postavili još datoteka u kurs (kako bi se one pojavile na ovoj listi) koristite <a href=\"$a\">Upravljenje datotekama</a>.';
 $string['notypechosen'] = 'Morate izabrati tip. Koristite taster za povratak unazad i ponovo pokušajte.';
 $string['packagechanged'] = 'Ovaj IMS paket je izmenjen.';
-$string['packagenotdeplyed'] = 'Ovaj IMS paket nije iskorišćen.';
+$string['packagenotdeplyed'] = 'Ovaj IMS paket nije raspoređen.';
 $string['pagedisplay'] = 'Prikaži ovaj resurs unutar tekućeg prozora';
 $string['pagewindow'] = 'Isti prozor';
 $string['pan'] = 'Okno';
@@ -93,7 +93,7 @@ $string['popupresource'] = 'Ovaj resurs treba da se pojavi u iskačućem prozoru
 $string['popupresourcelink'] = 'Ako nije, kliknite ovde: $a';
 $string['preview'] = 'Prikaz';
 $string['previous'] = 'Prethodno';
-$string['redeploy'] = 'Ponovo iskoristi';
+$string['redeploy'] = 'Ponovo rasporedi';
 $string['repository'] = 'IMS repozitorijum';
 $string['resource:view'] = 'Prikaz resursa';
 $string['resourcetype'] = 'Tip resursa';

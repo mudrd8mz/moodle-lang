@@ -3,5 +3,6 @@
 
 
 $string['modulename'] = 'XML датотека';
+$string['xml:view'] = 'Увоз оцена из XML-a';
 
 ?>

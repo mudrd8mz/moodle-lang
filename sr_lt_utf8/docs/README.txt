@@ -1,6 +1,6 @@
-Ovaj direktorijum je ranije sadržao mnoštvo dokumentacije u HTML obliku.
+﻿Ovaj direktorijum je ranije sadržao mnoštvo dokumentacije u HTML obliku.
 
-Sad je sve to uklonjeno jer koristi Moodle Docs wiki.
+Sad je sve to uklonjeno jer se koristi Moodle Docs wiki.
 
 Da biste pronašli nove lokacije za sve informacije koje su bile ovde, pogledajte:
 

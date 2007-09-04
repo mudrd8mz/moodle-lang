@@ -3,5 +3,6 @@
 
 
 $string['modulename'] = 'Excel радна табела';
+$string['xls:view'] = 'Koристити извоз оцена у Excel';
 
 ?>

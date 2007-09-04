@@ -66,6 +66,7 @@ $string['grade:hide'] = 'Сакриј оцену';
 $string['grade:import'] = 'Увоз оцена';
 $string['grade:lock'] = 'Закључи оцену';
 $string['grade:manage'] = 'Управљање ставкама за оцењивање';
+$string['grade:manageoutcomes'] = 'Управљај исходима оцена';
 $string['grade:override'] = 'Мењање оцена';
 $string['grade:unlock'] = 'Откључавање оцена или ставки';
 $string['grade:view'] = 'Преглед сопствених оцена';
