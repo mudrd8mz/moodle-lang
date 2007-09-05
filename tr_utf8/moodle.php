@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 dev (2007021400)
+      // moodle.php - created with Moodle 1.9 Beta + (2007083101)
 
 
 $string['action'] = 'Eylem';
@@ -36,6 +36,7 @@ $string['addnousersrecip'] = 'Bu $a\'a erişmeyen kişileri alıcı listesine ek
 $string['addresource'] = 'Yeni kaynak ekle...';
 $string['address'] = 'Adres';
 $string['addstudent'] = 'Öğrenci ekle';
+$string['addsubcategory'] = 'Alt kategori ekle';
 $string['addteacher'] = 'Eğitimci ekle';
 $string['admin'] = 'Yönetim';
 $string['adminbookmarks'] = 'Yönetici Yer İmleri';
@@ -131,6 +132,7 @@ $string['autosubscribeno'] = 'Hayır: Beni forumlara otomatik abone yapma';
 $string['autosubscribeyes'] = 'Evet: Mesaj gönderdiğimde beni o foruma abone yap';
 $string['availability'] = 'Erişilebilirlik';
 $string['availablecourses'] = 'Açılan Kurslar';
+$string['back'] = 'Geri';
 $string['backtoparticipants'] = 'Katılımcı listesine dön';
 $string['backup'] = 'Yedekle';
 $string['backupactivehelp'] = 'Otomatik yedeklemelerin yapılıp yapılmayacağını seçin.';
@@ -158,6 +160,7 @@ $string['backupnonisowarning'] = 'Uyarı: Bu yedek Moodle (pre 1.6) Unicode olma
 $string['backuporiginalname'] = 'Yedek Adı';
 $string['backupsavetohelp'] = 'Yedek dosyaları kaydetmek istediğiniz klasörün tam adresi<br />(varsayılan olarak kurs dizinine kaydedilsin istiyorsanız boş bırakın)';
 $string['backupschedulehelp'] = 'Otomatik yedeklemelerin haftanın hangi günlerinde yapılacağını seçin.';
+$string['backupsitefileshelp'] = 'Etkinleştirilirse kurslarda kullanılan site dosyaları otomatik yedeklemelere dahil edilir.';
 $string['backuptakealook'] = 'Yedek kayıtlarınıza lütfen bir göz atın:
 $a';
 $string['backupuserfileshelp'] = 'Kullanıcı dosyalarının (ör: profil resimleri) otomatik yedeklemelere dahil edilip edilmeyeceğini seçin';
@@ -185,6 +188,7 @@ $string['category'] = 'Kategori';
 $string['categoryadded'] = '\'$a\' kategorisi eklendi';
 $string['categorydeleted'] = '\'$a\' kategorisi silindi';
 $string['categoryduplicate'] = '\'$a\' isminde bir kategori zaten var!';
+$string['categoryname'] = 'Kategori adı';
 $string['changedpassword'] = 'Şifre değişti';
 $string['changepassword'] = 'Şifre değiştir';
 $string['changessaved'] = 'Değişiklikler kaydedildi';
@@ -238,6 +242,7 @@ $string['cookiesnotenabled'] = 'Maalesef tarayıcı programınızın oturum dest
 $string['copy'] = 'kopyala';
 $string['copyasnoun'] = 'kopya';
 $string['copyingcoursefiles'] = 'Kurs dosyaları kopyalanıyor';
+$string['copyingsitefiles'] = 'Kurslarda kullanılan site dosyaları kopyalanıyor';
 $string['copyinguserfiles'] = 'Kullanıcı dosyaları kopyalanıyor';
 $string['copyingzipfile'] = 'Zip dosyası kopyalanıyor';
 $string['copyrightnotice'] = 'Yayın hakları';
@@ -257,6 +262,8 @@ $string['coursecategories'] = 'Kurs kategorileri';
 $string['coursecategory'] = 'Kurs kategorisi';
 $string['coursecreators'] = 'Kurs açıcı';
 $string['coursecreatorsdescription'] = 'Yeni kurs oluşturabilir ve bu kurslarda eğitim verebilirler.';
+$string['courseenrolenddate'] = 'Kurs kaydı bitiş tarihi';
+$string['courseenrolstartdate'] = 'Kurs kaydı başlangıç tarihi';
 $string['coursefiles'] = 'Kurs dosyaları';
 $string['courseformatdata'] = 'Kurs biçimi verisi';
 $string['courseformats'] = 'Kurs biçimleri';
@@ -301,6 +308,7 @@ $string['creatingcourseroles'] = 'Kurs seviyesindeki rol atamaları ve üstüne 
 $string['creatingevents'] = 'Olaylar oluşturuluyor';
 $string['creatinggradebook'] = 'Not defteri oluşturuluyor';
 $string['creatinggroupings'] = 'Gruplamalar oluşturuluyor';
+$string['creatinggroupingsgroups'] = 'Gruplar gruplamaya ekleniyor';
 $string['creatinggroups'] = 'Gruplar oluşturuluyor';
 $string['creatinglogentries'] = 'Log kayıtları oluşturuluyor';
 $string['creatingmessagesinfo'] = 'Mesaj bilgileri oluşturuluyor';
@@ -470,6 +478,12 @@ Bir çok mail programı yukarıdaki linki tıklanabilir olarak göstermektedir. 
 
 Yardıma ihtiyacınız olursa site yöneticisiyle iletişim kurun:
 $a->admin';
+$string['emailpasswordchangeinfodisabled'] = 'Merhaba $a->firstname,
+
+Birisi (büyük ihtimal siz) \'$a->sitename\' sitesindeki hesabınız için yeni bir şifre isteğinde bulundu.
+
+Maalesef, bu sitedeki hesapınız etkin değil ve yeniden oluşturulamaz. Lütfen site yöneticisiyle iletişim kurun:
+$a->admin';
 $string['emailpasswordchangeinfofail'] = 'Merhaba $a->firstname,
 
 Birisi (büyük ihtimal siz) \'$a->sitename\' sitesindeki hesabınız için yeni bir şifre isteğinde bulundu.
@@ -507,7 +521,8 @@ $string['enrolme'] = 'Beni bu kursa kaydet';
 $string['enrolmentconfirmation'] = 'Bu kursa kendi kendinizi kaydetmek üzeresiniz. <br />Bunu yapmak istediğinizden emin misiniz?';
 $string['enrolmentend'] = 'Kayıt Bitişi';
 $string['enrolmentkey'] = 'Kayıt anahtarı';
-$string['enrolmentkeyfrom'] = 'Bu kurs kaydı için bir defalığına kullanacağınız özel bir \'Kayıt Anahtarı\' gerekmektedir.<br />Eğer bu anahtarı bilmiyorsanız bu kişiden isteyebilirsiniz: $a';
+$string['enrolmentkeyfrom'] = 'Bu kurs, bir defalık \'Kayıt Anahtarı\' gerektirir.<br />Bu anahtarı bu kişiden alabilirsiniz: $a';
+$string['enrolmentkeyfromguest'] = 'Bu kurs, konuk olarak erişim için \'Kayıt Anahtarı\' gerektirir.<br />Kursa her girdiğinizde bunu girmeniz gerekir. Bu anahtarı bu kişiden alabilirsiniz: $a';
 $string['enrolmentkeyhint'] = 'Bu kayıt anahtarı yanlıştır, lütfen tekrar deneyin<br />(İpucu - \'$a\' ile başlıyor)';
 $string['enrolmentnew'] = '$a kursuna yeni kayıt';
 $string['enrolmentnewuser'] = '$a->user, \"$a->course\" kursuna kaydoldu';
@@ -521,6 +536,7 @@ $string['enrolstartdate'] = 'Başlangıç tarihi';
 $string['entercourse'] = 'Bu kursa girmek için tıklayınız';
 $string['enteremailaddress'] = 'Şifrenizi sıfırlamak ve yeni şifrenizi
 e-postayla almak için adresinizi yazınız.';
+$string['enteryourinterests'] = 'İlgi alanlarınızı virgülle ayırarak girin';
 $string['entries'] = 'Girdiler';
 $string['error'] = 'Hata';
 $string['errortoomanylogins'] = 'Üzgünüz, giriş için izin verilen deneme sayısını aştınız. Tarayıcınızı yeniden başlatınız.';
@@ -634,6 +650,7 @@ $string['grades'] = 'Notlar';
 $string['group'] = 'Grup';
 $string['groupadd'] = 'Yeni grup ekle';
 $string['groupaddusers'] = 'Seçiliyi gruba ekle';
+$string['groupextendenrol'] = 'Herkes için kaydı uzat';
 $string['groupfor'] = 'grup için';
 $string['groupinfo'] = 'Seçili grup hakkında bilgi';
 $string['groupinfoedit'] = 'Grup ayarlarını düzenle';
@@ -708,6 +725,7 @@ $string['htmlformat'] = 'Şık HTML biçimi';
 $string['icqnumber'] = 'ICQ numarası';
 $string['idnumber'] = 'ID numarası';
 $string['idnumbercourse'] = 'Kursun ID numarası';
+$string['idnumbertaken'] = 'Bu ID numarası önceden alınmış';
 $string['imagealt'] = 'Resim açıklaması';
 $string['import'] = 'Al';
 $string['importactivities'] = 'Etkinlikleri başka kurstan al';
@@ -728,10 +746,12 @@ $string['includemodules'] = 'Modülleri dahil et';
 $string['includemoduleuserdata'] = 'Modül kullanıcı verisini dahil et';
 $string['includeneededusers'] = 'Gerekli kullanıcıları dahil et';
 $string['includenoneusers'] = 'Hiçbir kullanıcıyı dahil etme';
+$string['includesitefiles'] = 'Bu Kursta Kullanılan Site Dosyalarını Dahil Et';
 $string['includeuserfiles'] = 'Kullanıcı dosyalarını dahil et';
 $string['info'] = 'Bilgi';
 $string['institution'] = 'Kurum';
 $string['instudentview'] = '(öğrenci görünümü)';
+$string['interests'] = 'İlgi alanları';
 $string['invalidemail'] = 'Geçersiz e-posta adresi';
 $string['invalidlogin'] = 'Hatalı giriş, lütfen tekrar deneyin';
 $string['ip_address'] = 'IP Adresi';
@@ -789,6 +809,7 @@ $string['loginstepsnone'] = 'Merhaba!
 $string['loginto'] = '$a\'e giriş';
 $string['loginusing'] = 'Kullanıcı adı ve şifrenizle buradan giriş yapınız';
 $string['logout'] = 'Çıkış';
+$string['logoutconfirm'] = 'Gerçekten çıkmak istiyor musunuz?';
 $string['logs'] = 'Kayıtlar';
 $string['logtoomanycourses'] = '[ <a href=\"$a->url\">dahası</a> ]';
 $string['logtoomanyusers'] = '[ <a href=\"$a->url\">dahası</a> ]';
@@ -1063,6 +1084,7 @@ $string['phpinfo'] = 'PHP bilgisi';
 $string['pictureof'] = '$a resmi';
 $string['pleaseclose'] = 'Bu pencereyi şimdi kapat.';
 $string['pluginsetup'] = 'Eklenti tabloları ayarlanıyor';
+$string['policyaccept'] = 'Anladım ve kabul ediyorum';
 $string['policyagree'] = 'Bu siteyi kullanmaya devam etmek için bu sözleşmeyi kabul etmelisiniz. Kabul ediyor musunuz?';
 $string['policyagreement'] = 'Site Kullanım Sözleşmesi';
 $string['policyagreementclick'] = 'Site Kullanım Sözleşmesini okumak için burayı tıklayın';
@@ -1161,6 +1183,7 @@ $string['scalescustom'] = 'Kişisel ölçekler';
 $string['scalescustomcreate'] = 'Yeni ölçek ekle';
 $string['scalescustomno'] = 'Henüz kişisel bir ölçek oluşturulmadı';
 $string['scalesstandard'] = 'Standart ölçekler';
+$string['scalestandard'] = 'Standart ölçek';
 $string['scalestip'] = 'Kişisel ölçek oluşturmak için kurs yönetim menüsündeki \'Ölçekler...\' bağlantısnı kullanın.';
 $string['schedule'] = 'Zamanlama';
 $string['scheduledbackupstatus'] = 'Zamanlanmış yedekleme durumu';
@@ -1197,6 +1220,7 @@ $string['senddetails'] = 'Bilgilerimi e-postayla gönder';
 $string['separate'] = 'Ayır';
 $string['separateandconnected'] = 'Ayrı ve İlgili bilgi yolları';
 $string['serverlocaltime'] = 'Sunucunun yerel zamanı';
+$string['setcategorytheme'] = 'Kategori Teması Ayarla';
 $string['settings'] = 'Ayarlar';
 $string['shortname'] = 'Kısa ad';
 $string['shortnamecollisionwarning'] = '[*] = Bu kısa ad başka bir kurs tarafından kullanılmakta ve onaylanması için bunu değiştirmeniz gerekiyor';
@@ -1228,6 +1252,7 @@ $string['site'] = 'Site';
 $string['sitedefault'] = 'Site Varsayılanı';
 $string['siteerrors'] = 'Site hataları';
 $string['sitefiles'] = 'Site dosyaları';
+$string['sitefilesused'] = 'Bu kursta kullanılan site dosyaları';
 $string['sitelogs'] = 'Site kayıtları';
 $string['sitenews'] = 'Site haberleri';
 $string['sitepartlist'] = 'Katılımcı listesini görmek için gerekli izinlere hakkınız yok';
@@ -1253,6 +1278,7 @@ $string['sourcerole'] = 'Kaynak rol';
 $string['specifyname'] = 'Bir isim belirtmelisiniz.';
 $string['starpending'] = '([*] = onay bekleyen kurs)';
 $string['startdate'] = 'Kursun başlama tarihi';
+$string['startingfrom'] = 'Başlangıç';
 $string['startsignup'] = 'Yeni hesap oluştur';
 $string['state'] = 'Eyalet';
 $string['statistics'] = 'İstatistikler';
