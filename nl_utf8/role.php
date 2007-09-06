@@ -5,7 +5,7 @@
 $string['addrole'] = 'Nieuwe rol toevoegen';
 $string['allow'] = 'Toelaten';
 $string['allowassign'] = 'Toewijzen van rollen toestaan';
-$string['allowoverride'] = 'Negeren van rollen toestaan';
+$string['allowoverride'] = 'Overschrijven van rollen toestaan';
 $string['assignglobalroles'] = 'Globale rollen toewijzen';
 $string['assignroles'] = 'Rollen toewijzen';
 $string['block:view'] = 'Blok zien';
@@ -115,7 +115,7 @@ $string['role:assign'] = 'Toewijzen van rollen aan gebruikers';
 $string['role:manage'] = 'Aanmaken en beheren van rollen';
 $string['role:override'] = 'Rechten voor anderen overschrijven';
 $string['role:switchroles'] = 'Schakel over naar andere rollen';
-$string['role:unassignself'] = 'EIgen rollen niet meer toewijzen';
+$string['role:unassignself'] = 'Eigen rol kunnen opzeggen';
 $string['role:viewhiddenassigns'] = 'Verborgen roltoewijzingen zien';
 $string['roleassignments'] = 'Roltoewijzingen';
 $string['roles'] = 'Rollen';
