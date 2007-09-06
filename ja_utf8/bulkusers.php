@@ -1,14 +1,14 @@
 <?PHP // $Id$ 
-      // bulkusers.php - created with Moodle 1.9 Beta + (2007082801)
+      // bulkusers.php - created with Moodle 1.9 Beta + (2007090600)
 
 
-$string['addall'] = 'すべての利用可能なユーザを追加する';
-$string['addsel'] = '選択した利用可能なユーザを追加する';
+$string['addall'] = '「利用可能のすべてのユーザ」を「選択済み」に追加する';
+$string['addsel'] = '「利用可能で選択したユーザ」を「選択済み」に追加する';
 $string['available'] = '利用可能';
-$string['deleteall'] = 'すべてのユーザをクリアする';
-$string['deletesel'] = '選択したユーザをクリアする';
-$string['removeall'] = 'すべての利用可能なユーザを削除する';
-$string['removesel'] = '選択した利用可能なユーザを削除する';
+$string['deleteall'] = '「選択済みのすべてのユーザ」を削除する';
+$string['deletesel'] = '「選択済みで選択したユーザ」を削除する';
+$string['removeall'] = '「利用可能のすべてのユーザ」を「選択済み」から削除する';
+$string['removesel'] = '「利用可能で選択したユーザ」を「選択済み」から削除する';
 $string['selected'] = '選択済み';
 $string['selectedlist'] = '選択済みユーザ一覧 ...';
 $string['usersfound'] = '$a ユーザが見つかりました。';
