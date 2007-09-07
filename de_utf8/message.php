@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9 Beta + (2007081600)
+      // message.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['addcontact'] = 'Kontakt hinzufügen';
@@ -27,6 +27,7 @@ $string['includeblockedusers'] = 'Gesperrte Nutzer/innen einschließen';
 $string['incomingcontacts'] = 'Eingehende Kontakte ($a)';
 $string['keywords'] = 'Schlüsselbegriffe';
 $string['keywordssearchresults'] = 'Suchergebnis: $a Mitteilungen gefunden';
+$string['mailsent'] = 'Ihre Nachricht wurde als E-Mail versandt.';
 $string['maxmessages'] = 'Höchstzahl der Mitteilungen, die im Rückblick angezeigt werden';
 $string['message'] = 'Mitteilung';
 $string['messagehistory'] = 'Mitteilungen (Rückblick)';

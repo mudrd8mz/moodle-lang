@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // gradeexport_xls.php -  created with Moodle 1.9 dev (2007072100)
+      // gradeexport_xls.php - created with Moodle 1.9 Beta + (2007082400)
 
 
-$string['modulename'] = 'Als Excel-Tabelle exportieren';
+$string['modulename'] = 'Excel-Tabelle';
+$string['xls:view'] = 'Bewertungen als Excel-Tabelle exportieren';
 
 ?>

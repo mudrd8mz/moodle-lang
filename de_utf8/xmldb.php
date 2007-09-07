@@ -1,17 +1,23 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9 dev (2007070501)
+      // xmldb.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['aftertable'] = 'Nach Tabelle:';
 $string['back'] = 'Zurück';
 $string['backtomainview'] = 'Zurück zur Hauptübersicht';
 $string['binaryincorrectlength'] = 'Falsche Feldlänge (binary)';
-$string['cannotuseidfield'] = '\"id\"-Feld kann nicht eingefügt werden. Es handelt sich um eine Spalte, die automatisch nummeriert wird.';
+$string['cannotuseidfield'] = 'Feld \'id\' kann nicht eingefügt werden. Es handelt sich um eine Spalte, die automatisch nummeriert wird.';
 $string['change'] = 'Ändern';
 $string['charincorrectlength'] = 'Falsche Feldlänge (char)';
+$string['check_bigints'] = 'Nach falschen DB-Werten suchen';
 $string['check_indexes'] = 'Fehlende Datenbank-Indizes suchen';
+$string['checkbigints'] = 'Zahlen prüfen';
 $string['checkindexes'] = 'Indizes prüfen';
 $string['completelogbelow'] = '(das vollständige Suchprotokoll folgt)';
+$string['confirmcheckbigints'] = 'Diese Funktion sucht nach <a href=\"http://tracker.moodle.org/browse/MDL-11038\"> möglicherweise ungültigen Zahlenwerten</a> in Ihrem Moodle-Server und erzeugt automatisch die notwendigen SQL-Anweisungen, um die Werte in der Datenbank zu korrigieren (die SQL-Anweisungen werden erzeugt, aber nicht ausgeführt!). <br /><br />
+Nachdem die Anweisungen erzeugt wurden, können Sie diese kopieren und sie sicher in Ihrer bevorzugten SQL-Oberfläche ausführen (vergessen Sie bitte nicht, Ihre Daten vorher zu sichern!!). <br /><br />
+Es wird dringend empfohlen, auf die jeweils neueste Variante Ihrer Moodle-Version (1.8, 1.9, 2.x ...) zu updaten, bevor Sie die Suche nach ungültigen Werten durchführen.<br /><br />
+Die Funktion führt selber keinerlei Aktionen mit der Datenbank durch (außer  lesend auf sie zuzugreifen), so dass die Funktion zu jedem Zeitpunkt sicher ausgeführt werden kann.';
 $string['confirmcheckindexes'] = 'Diese Funktion sucht nach möglicherweise fehlenden Indizes in Ihrem Moodle-Server, wobei die nötigen SQL-Anweisungen für ein Update automatisch erzeugt (aber nicht ausgeführt) werden. Nachdem die Anweisungen erzeugt sind, können Sie sie kopieren und in Ihrem bevorzugten SQL-Zugang ausführen.<br /><br />
 Es wird dringend empfohlen, die neueste verfügbare +Version zu Ihrem Moodle-Release (1.8, 1.9, 2.x ...) zu installieren, bevor Sie die Suche nach fehlenden Indizes starten.<br /><br />
 Die Funktion führt keine SQL-Anweisungen auf Ihrer Datenbank aus (außer dass sie lesend zugreift), so dass die Funktion zu jedem Zeitpunkt sicher ausgeführt werden kann.';
@@ -113,10 +119,13 @@ $string['viewedited'] = 'Bearbeitete anzeigen';
 $string['vieworiginal'] = 'Original anzeigen';
 $string['viewphpcode'] = 'PHP-Code anzeigen';
 $string['viewsqlcode'] = 'SQL-Code anzeigen';
+$string['wrong'] = 'Falsch';
+$string['wrongints'] = 'Falsche Zahlen gefunden';
 $string['wronglengthforenum'] = 'Falsche Feldlänge (enum)';
 $string['wrongnumberoffieldsorvalues'] = 'Falsche Anzahl von Feldern oder Werten in Satz';
 $string['wrongreservedwords'] = 'Derzeit verwendete reservierte Wörter <br />(die Tabellennamen sind nicht wichtig, wenn $CFG->prefix genutzt wird)';
 $string['yesmissingindexesfound'] = 'Einige fehlende Indizes wurden in Ihrer Datenbank gefunden. Es folgen genauere Einzelheiten und die nötigen SQL-Anweisungen, die Sie mit Ihrem bevorzugten SQL-Werkzeug ausführen müssen, um alle Indizes zu erzeugen.<br /><br />
 Es wird dringend empfohlen, die Suche nach fehlenden Indizes danach noch einmal auszuführen.';
+$string['yeswrongintsfound'] = 'In Ihrer Datenbank wurden mehrere ungültige Werte gefunden. Es folgen die Details und die benötigten SQL-Befehle, die Sie in Ihrer bevorzugten SQL-Oberfläche ausführen müssen, um die Fehler zu beheben (vergessen Sie bitte nicht, vor der Korrektur eine Sicherungskopie Ihrer Daten anzulegen!!)<br /><br />Nach der Ausführung wird dringend empfohlen, dieses Werkzeug erneut aufzurufen, um sicher zu stellen, dass keine ungültige Werte mehr gefunden werden.';
 
 ?>

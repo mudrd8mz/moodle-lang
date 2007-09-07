@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 Beta + (2007081600)
+      // quiz.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['1day'] = '1 Tag';
@@ -473,7 +473,7 @@ $string['requirepassword'] = 'Kennwort erforderlich';
 $string['requirepasswordmessage'] = 'Zur Teilnahme am Test benötigen Sie ein Kennwort.';
 $string['requiresubnet'] = 'Netzwerk-Adresse erforderlich';
 $string['response'] = 'Eingabe TN';
-$string['responses'] = 'Eigene<br/>Eingaben';
+$string['responses'] = 'Eigene Eingaben';
 $string['results'] = 'Ergebnisse';
 $string['reuseifpossible'] = 'Wiederverwendung kürzlich entfernt';
 $string['review'] = 'Bericht';
@@ -485,7 +485,7 @@ $string['reviewimmediately'] = 'Direkt nach dem Versuch';
 $string['reviewnever'] = 'Überprüfung nicht zulassen';
 $string['reviewofattempt'] = 'Überprüfung des Versuchs $a';
 $string['reviewopen'] = 'Später, während der Test noch geöffnet ist';
-$string['reviewoptions'] = 'Was sollen die Teilnehmer/innen <br />zu welchem Zeitpunkt sehen';
+$string['reviewoptions'] = 'Was sollen die Teilnehmer/innen zu welchem Zeitpunkt sehen';
 $string['reviewresponse'] = 'Antwort wieder anzeigen';
 $string['rqp'] = 'Remote-Frage';
 $string['rqps'] = 'Remote-Fragen';

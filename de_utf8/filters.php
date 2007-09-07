@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 1.9 dev (2007080800)
+      // filters.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['actfilterhdr'] = 'Aktive Filter';
@@ -14,7 +14,11 @@ $string['contains'] = 'enthält';
 $string['courserole'] = 'Kurs-Rolle';
 $string['doesnotcontain'] = 'enthält nicht';
 $string['endswith'] = 'endet mit';
+$string['firstaccess'] = 'Erster Fund';
+$string['isafter'] = 'kommt nach $a';
 $string['isanyvalue'] = 'hat beliebigen Wert';
+$string['isbefore'] = 'kommt vor $a';
+$string['isbetween'] = 'kommt zwischen $a[0] und $a[1]';
 $string['isdefined'] = 'ist definiert';
 $string['isempty'] = 'ist leer';
 $string['isequalto'] = 'ist gleich mit';

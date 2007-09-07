@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta + (2007081600)
+      // admin.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['accessdenied'] = 'Kein Zugriff';
 $string['accounts'] = 'Nutzerkonten';
+$string['addcounter'] = 'Zähler hinzufügen';
 $string['adminseesall'] = 'Administrator/innen sehen alles';
 $string['adminseesallevents'] = 'Administrator/innen sehen alle Termine';
 $string['adminseesownevents'] = 'Administrator/innen sehen nur eigene Termine';
@@ -260,6 +261,8 @@ $string['defaultallowedmodules'] = 'Standardmäßig erlaubte Module';
 $string['defaultcourseroleid'] = 'Standardrolle für Nutzer/innen in einem Kurs';
 $string['defaultrequestcategory'] = 'Kategorie für beantragte Kurse';
 $string['defaultuserroleid'] = 'Standardrolle für alle Nutzer/innen';
+$string['defaultvalues'] = 'Standardwerte';
+$string['deleteerrors'] = 'Fehler löschen';
 $string['deleteunconfirmed'] = 'Nutzer/innen ohne Bestätigung löschen nach';
 $string['deleteuser'] = 'Nutzer/in löschen';
 $string['density'] = 'Dichte/Empfindlichkeit';
@@ -272,7 +275,7 @@ $string['doctonewwindow'] = 'In einem neuen Fenster öffnen';
 $string['download'] = 'Download';
 $string['editennotallowed'] = 'Das Sprachpaket en_utf8 kann nicht über diese Webseite bearbeitet werden - schalten Sie auf en_utf8_local';
 $string['edithelpdocs'] = 'Hilfetexte bearbeiten';
-$string['editlang'] = '<b>Bearbeiten</b>';
+$string['editingnoncorelangfile'] = 'Sie versuchen, die Übersetzung zu einen Zusatzmodul/Plugin zu bearbeiten. Sie können die Übersetzung von Fremdmodulen ausschließlich in Ihrem lokalen Sprachordner speichern. Sie können die übersetzte Sprachdatei anschließend in den Sprachordner des Moduls legen. Senden Sie bitte auch eine Kopie an den Maintainer des Zusatzmoduls.';
 $string['editorbackgroundcolor'] = 'Hintergrundfarbe';
 $string['editordictionary'] = 'Wörterbuch für den Editor';
 $string['editorfontfamily'] = 'Zeichensatzart';
@@ -432,6 +435,7 @@ $string['mymoodle'] = 'MyMoodle';
 $string['mymoodleredirect'] = 'Nutzer/innen zu MyMoodle weiterleiten';
 $string['mysql416bypassed'] = 'Wenn Sie in Ihrer Website ausschließlich ISO-8859-1 (lateinische) Sprachen verwenden, können Sie eine MySQL-Version ab 4.1.12 (oder höher) verwenden.';
 $string['mysql416required'] = 'MySQL 4.1.16 (oder höher) ist für Moodle 1.6 unbedingt erforderlich, um eine Datenkonvertierung nach UTF-8 sicherzustellen.';
+$string['newusernamehandling'] = 'Neue Handhabung bei doppeltem Anmeldenamen';
 $string['nobookmarksforuser'] = 'Sie besitzen keinerlei Lesezeichen';
 $string['nodefaultuserrolelists'] = 'Standardmäßige Rollennutzer nicht anzeigen';
 $string['nolangupdateneeded'] = 'Alle Sprachpakete sind auf dem aktuellen Stand. <br />Ein Update ist nicht erforderlich.';
@@ -446,7 +450,8 @@ $string['notifyloginfailures'] = 'E-Mail bei Login-Fehlern an';
 $string['notifyloginthreshold'] = 'Schwelle zur Benachrichtigung';
 $string['notloggedinroleid'] = 'Rolle für Besucher/innen';
 $string['numberofmissingstrings'] = 'Anzahl der fehlenden Texte: $a';
-$string['opensslrecommended'] = 'Die optionale Installation der OpenSSL Bibliothek wird strikt empfohlen. Dadurch wird die Moodle-Netzwerk-Funktionalität ermöglicht.';
+$string['numberofstrings'] = 'Gesamtzahl der Texte: $a->strings<br />Fehlende Texte: $a->missing ($a->missingpercent&nbsp;%%)';
+$string['opensslrecommended'] = 'Die optionale Installation der OpenSSL Bibliothek wird dringend empfohlen. Dadurch wird die Moodle-Netzwerk-Funktionalität ermöglicht.';
 $string['opentogoogle'] = 'Für Google zugänglich';
 $string['optionalmaintenancemessage'] = 'Optionale Wartungsinformation';
 $string['order1'] = 'Erstens';
@@ -525,13 +530,18 @@ $string['qtyperqpwillberemoved'] = 'Während des Updates wird der Fragentyp RQP 
 $string['qtyperqpwillberemovedanyway'] = 'Während des Updates wird der Fragentyp RQP entfernt. Sie haben einige RQP Fragen in Ihrer Datenbank, die nicht mehr funktionieren werden, falls Sie nicht den dafür notwendigen Code vor der Fortsetzung dieses Updates installieren. http://moodle.org/mod/data/view.php?d=13&amp;rid=797';
 $string['quarantinedir'] = 'Quarantäne- Verzeichnis';
 $string['question'] = 'Frage';
+$string['questioncwqpfscheck'] = 'Im Test sind eine oder mehrere \'Zufallsfragen\' so konfiguriert, dass 
+Fragen aus einem Mix von freigegebenen und nichtfreigegebenen Fragenkategorien ausgewählt werden sollen. Lesen Sie dazu bitte den <a href=\"$a->reporturl\"> ausführlicheren Bericht</a> und die 
+<a href=\"$a->docsurl\"> Moodle Dokumentation</a>.';
+$string['questioncwqpfsok'] = 'Gut. Keine der \'Zufallsfragen\' in Ihren Tests ist so konfiguriert, dass 
+Fragen aus einem Mix von freigegebenen und nichtfreigegebenen Fragenkategorien ausgewählt werden könnten.';
 $string['rcache'] = 'Cache-Speicher';
 $string['rcachettl'] = 'Cache-Speicher TTL';
 $string['releasenoteslink'] = 'Weitere Informationen über diese Version finden Sie online: <a target=\"_new\" href=\"$a\">Versionsinformation</a>';
 $string['remotelangnotavailable'] = 'Moodle kann keine Verbindung zu download.moodle.org herstellen. Die Sprachpakete können deswegen nicht automatisch installiert werden. Laden Sie die  ausgewählten Sprachpakete herunter und kopieren diese in das Verzeichnis $a. Entpacken Sie die Sprachpakete dort manuell.';
 $string['renameerrors'] = 'Fehler beim Umbenennen';
-$string['restrictbydefault'] = 'Standardmäßig einschränkte Module';
-$string['restrictmodulesfor'] = 'Eingeschränkte Module für';
+$string['restrictbydefault'] = 'Module standardmäßig einschränken';
+$string['restrictmodulesfor'] = 'Module einschränken für';
 $string['riskconfig'] = 'Nutzer/innen könnten Einstellungen für die Website und das Erscheinungsbild ändern.';
 $string['riskconfigshort'] = 'Gefahr für die Konfiguration';
 $string['riskmanagetrust'] = 'Nutzer/innen könnten die Vertrauenseinstellungen anderer Nutzer/innen ändern.';
@@ -568,6 +578,7 @@ $string['sitemaintenancewarning'] = 'Die Website befindet sich zur Zeit im Wartu
 $string['sitepolicies'] = 'Website-Rechte';
 $string['sitepolicy'] = 'URL zu den Website-Rechten';
 $string['sitesectionhelp'] = 'Falls Sie dies wählen, wird ein Themenbereich auf der Startseite angezeigt.';
+$string['skipuser'] = 'Nutzer/in überspringen';
 $string['slasharguments'] = 'Slash-Parameter benutzen';
 $string['smartpix'] = 'Suche in den Bildern';
 $string['smtphosts'] = 'SMTP-Server';
@@ -624,15 +635,19 @@ $string['upgradinglogs'] = 'Log-Daten aktualisieren';
 $string['upwards'] = 'aufwärts';
 $string['usehtmleditor'] = 'HTML-Editor benutzen';
 $string['useraccountupdated'] = 'Nutzer/in aktualisiert';
+$string['userbulk'] = 'Nutzerverwaltung (Bulk)';
+$string['userdeleted'] = 'Nutzer/in gelöscht';
 $string['userlist'] = 'Nutzerliste anzeigen';
 $string['userpolicies'] = 'Nutzereigenschaften';
 $string['userrenamed'] = 'Nutzer/in umbenannt';
 $string['users'] = 'Nutzer/innen';
 $string['userscreated'] = 'Nutzer/innen angelegt';
+$string['usersdeleted'] = 'Nutzer/innen gelöscht';
 $string['usersrenamed'] = 'Nutzer/innen umbenannt';
 $string['usersupdated'] = 'Nutzer/innen aktualisiert';
 $string['usetags'] = 'Schlagwort- Funktionalität';
 $string['validateerror'] = 'Dieser Wert war ungültig:';
+$string['editlang'] = '<b>Bearbeiten</b>'; // ORPHANED
 $string['confighideactivitytypecrumb'] = 'Wählen Sie für wen die Anzeige des Lernaktivitätentyps in der Breadcrumbnavigation verborgen werden soll.'; // ORPHANED
 $string['hideactivitytypecrumb'] = 'Lernaktivität in Navigation verbergen'; // ORPHANED
 

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9 dev (2007050901)
+      // choice.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['addmorechoices'] = 'Weitere Abstimmungen hinzufügen';
@@ -10,9 +10,9 @@ $string['choice:choose'] = 'Abstimmung aufzeichnen';
 $string['choice:deleteresponses'] = 'Stimmabgaben löschen';
 $string['choice:downloadresponses'] = 'Stimmabgaben herunterladen';
 $string['choice:readresponses'] = 'Stimmabgaben ansehen';
-$string['choiceclose'] = 'Abstimmungsende (Datum, Uhrzeit)';
+$string['choiceclose'] = 'bis (Datum, Uhrzeit)';
 $string['choicename'] = 'Name der Abstimmung';
-$string['choiceopen'] = 'Abstimmungsbeginn (Datum, Uhrzeit)';
+$string['choiceopen'] = 'von (Datum, Uhrzeit)';
 $string['choicetext'] = 'Fragestellung';
 $string['displayhorizontal'] = 'Horizontal anzeigen';
 $string['displaymode'] = 'Anzeigemodus';
@@ -45,7 +45,7 @@ $string['showunanswered'] = 'Spalte für Teilnehmer/innen ohne Stimmabgabe';
 $string['spaceleft'] = 'Platz verfügbar';
 $string['spacesleft'] = 'Plätze verfügbar';
 $string['taken'] = 'Eingetragen';
-$string['timerestrict'] = 'Abstimmung auf einen Zeitraum beschränken';
+$string['timerestrict'] = 'Abstimmung nur im Zeitraum:';
 $string['viewallresponses'] = 'Zeige $a Antworten';
 $string['yourselection'] = 'Ihre Auswahl';
 

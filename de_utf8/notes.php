@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9 dev (2007080800)
+      // notes.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['addnewnote'] = 'Neue Anmerkung hinzufügen';
+$string['addnewnoteselect'] = 'Wählen Sie Nutzer/innen aus, um Anmerkungen über sie zu schreiben.';
 $string['bynameondate'] = 'von $a->name - $a->date';
 $string['content'] = 'Inhalt';
 $string['course'] = 'Kurs';
@@ -12,7 +13,7 @@ $string['deleteconfirm'] = 'Diese Anmerkung löschen?';
 $string['editnote'] = 'Anmerkung bearbeiten';
 $string['groupaddnewnote'] = 'Neue Anmerkung für alle hinzufügen';
 $string['nocontent'] = 'Der Inhalt kann nicht leer sein';
-$string['nonotes'] = 'Es gibt keine Anmerkungen.';
+$string['nonotes'] = 'Es gibt bisher keine Anmerkungen dieser Art.';
 $string['note'] = 'Anmerkung';
 $string['notes'] = 'Anmerkungen';
 $string['notesnotvisible'] = 'Sie sind nicht berechtigt, die Anmerkungen zu sehen.';

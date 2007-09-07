@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // gradereport_outcomes.php -  created with Moodle 1.9 dev (2007072500)
+      // gradereport_outcomes.php - created with Moodle 1.9 Beta + (2007082400)
 
 
-$string['addoutcome'] = 'Ergebnis hinzufügen';
-$string['courseoutcomes'] = 'Kursergebnisse';
-$string['coursespecoutcome'] = 'Kursergebnisse';
-$string['modulename'] = 'Ergebnisse';
+$string['addoutcome'] = 'Lernziel hinzufügen';
+$string['courseoutcomes'] = 'Lernziele im Kurs';
+$string['coursespecoutcome'] = 'Lernziele im Kurs';
+$string['modulename'] = 'Übersicht der Lernziele';
+$string['outcomes:view'] = 'Übersicht der Lernziele anzeigen';
 $string['usedgradeitem'] = 'Anzahl der Bewertungsaspekte';
 
 ?>

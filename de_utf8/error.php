@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta + (2007081600)
+      // error.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['adminprimarynoedit'] = 'Der Hauptadmin kann nicht von anderen bearbeitet werden';
-$string['cannotcreatelangdir'] = 'Das Verzeichnis \"lang\" kann nicht angelegt werden.';
-$string['cannotcreatetempdir'] = 'Das temporäre Verzeichnis kann nicht angelegt werden.';
+$string['cannotassignrole'] = 'Rolle kann im Kurs nicht zugewiesen werden.';
+$string['cannotcreatelangdir'] = 'Verzeichnis \"lang\" kann nicht angelegt werden.';
+$string['cannotcreatetempdir'] = 'Temporäres Verzeichnis kann nicht angelegt werden.';
 $string['cannotcustomizelocallang'] = 'Sie haben keine Berechtigung, die Übersetzung im lokalen Sprachpaket anzupassen. Diese Berechtigung wird durch das Recht \"moodle/site:langeditlocal\" kontrolliert. Setzen Sie dieses Recht auf \"Erlauben\", um das lokale Sprachpaket für Ihre Website bearbeiten zu können.';
 $string['cannotdownloadcomponents'] = 'Komponenten können nicht heruntergeladen werden.';
 $string['cannotdownloadzipfile'] = 'ZIP-Datei kann nicht heruntergeladen werden.';
@@ -13,6 +14,7 @@ $string['cannotfindcomponent'] = 'Komponente wurde nicht gefunden.';
 $string['cannotsavemd5file'] = 'Die md5-Datei konnte nicht gespeichert werden.';
 $string['cannotsavezipfile'] = 'Die ZIP-Datei konnte nicht gespeichert werden';
 $string['cannotunzipfile'] = 'Die Datei konnte nicht entpackt werden.';
+$string['cannotviewprofile'] = 'Sie können dieses Nutzerprofil nicht ansehen.';
 $string['cantunenrollfrommetacourse'] = 'Sie können keine Teilnehmer/innen aus diesen Metakurs entfernen.';
 $string['cantunenrollinthisrole'] = 'Sie können in Ihrer derzeitigen Rolle keine Teilnehmer/innen aus diesem Kurs entfernen.';
 $string['cmunknown'] = 'Das Kursmodul wurde nicht gefunden.';
@@ -20,7 +22,8 @@ $string['componentisuptodate'] = 'Die Komponente ist nicht aktuell.';
 $string['confirmsesskeybad'] = 'Entschuldigung, der \"session key\" für diese Aktion konnte nicht bestätigt werden. Dieses Sicherheitsfeature schützt Sie vor der nicht beabsichtigten Ausführung wichtiger Funktionen oder der Ausführung von Aktionen durch Dritte in Ihrem Namen. Bitte überzeugen Sie sich, dass Sie diese Aktion wirklich ausführen wollen.';
 $string['couldnotassignrole'] = 'Ein ernster, nicht näher bezeichneter Fehler ist aufgetreten, während Sie sich eine Rolle zuweisen wollten.';
 $string['coursegroupunknown'] = 'Es wurde kein Kurs für die Gruppe $a festgelegt';
-$string['downloadedfilecheckfailed'] = 'Die Prüfung der heruntergeladenen Datei ist gescheitert';
+$string['downloadedfilecheckfailed'] = 'Prüfung der heruntergeladenen Datei ist gescheitert';
+$string['duplicateusername'] = 'Doppelter Anmeldename - Datensatz überspringen';
 $string['errorcleaningdirectory'] = 'Fehler beim Bereinigen des Verzeichnisses \"$a\"';
 $string['errorcopyingfiles'] = 'Fehler beim Kopieren der Dateien';
 $string['errorcreatingdirectory'] = 'Fehler beim Erstellen des Verzeichnisses \"$a\"';
@@ -88,8 +91,11 @@ $string['unknownuseraction'] = 'Entschuldigung, diese Nutzeraktion wurde nicht v
 $string['usernotaddederror'] = 'Nutzer \"$a\" wurde nicht hinzugefügt - unbekannter Fehler';
 $string['usernotaddedregistered'] = 'Nutzer \"$a\" wurde nicht hinzugefügt - er/sie war bereits registriert.';
 $string['usernotavailable'] = 'Sie können die Details für diese/n Nutzer/in nicht einsehen.';
+$string['usernotdeletederror'] = 'Nutzer/in wurde nicht gelöscht - unbekannter Fehler';
+$string['usernotdeletedmissing'] = 'Nutzer/in wurde nicht gelöscht - Anmeldename wurde nicht gefunden';
 $string['usernotrenamedexists'] = 'Nutzer/in wurde nicht umbenannt - der eingegebene Nutzername wird bereits verwendet.';
 $string['usernotrenamedmissing'] = 'Nutzer/in wurde nicht umbenannt - der alte Nutzername wurde nicht gefunden.';
+$string['usernotupdatederror'] = 'Nutzer/in wurde nicht aktualisiert - unbekannter Fehler';
 $string['wrongdestpath'] = 'Falscher Pfad';
 $string['wrongsourcebase'] = 'Falsche URL-Quelle';
 $string['wrongzipfilename'] = 'Falscher ZIP-Dateiname';

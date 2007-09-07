@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // gradeexport_ods.php - created with Moodle 1.9 dev (2007072100)
+      // gradeexport_ods.php - created with Moodle 1.9 Beta + (2007082400)
 
 
-$string['modulename'] = 'Als OpenOffice-Tabelle exportieren';
+$string['modulename'] = 'OpenOffice-Tabelle';
+$string['ods:view'] = 'Bewertungen als OpenOffice-Datei exportieren';
 
 ?>

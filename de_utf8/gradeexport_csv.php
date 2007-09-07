@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // gradeexport_csv.php - created  with Moodle 1.9 dev (2007072100)
+      // gradeexport_csv.php - created with Moodle 1.9 Beta + (2007082400)
 
 
-$string['modulename'] = 'Als CVS-Datei exportieren';
+$string['cvs:view'] = 'Bewertungen als CVS-Datei exportieren';
+$string['modulename'] = 'CVS-Datei';
 
 ?>

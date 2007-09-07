@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta + (2007081600)
+      // role.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['addrole'] = 'Neue Rolle hinzufügen';
@@ -67,6 +67,7 @@ $string['grade:hide'] = 'Bewertung verbergen';
 $string['grade:import'] = 'Bewertungen importieren';
 $string['grade:lock'] = 'Bewertung sperren';
 $string['grade:manage'] = 'Bewertungsaspekte verwalten';
+$string['grade:manageoutcomes'] = 'Lernziele verwalten';
 $string['grade:override'] = 'Bewertungen ändern';
 $string['grade:unlock'] = 'Bewertungen oder Aspekte freigeben';
 $string['grade:view'] = 'Eigene Bewertungen ansehen';
@@ -96,11 +97,17 @@ $string['permissions'] = 'Zugriffsrechte';
 $string['potentialusers'] = '$a potenzielle Nutzer/innen';
 $string['prevent'] = 'Unterbinden';
 $string['prohibit'] = 'Untersagen';
+$string['question:add'] = 'Neue Fragen hinzufügen';
 $string['question:config'] = 'Fragetypen konfigurieren';
-$string['question:export'] = 'Fragen exportieren';
-$string['question:import'] = 'Fragen importieren';
-$string['question:manage'] = 'Fragen verwalten';
+$string['question:editall'] = 'Alle Fragen bearbeiten';
+$string['question:editmine'] = 'Meine eigenen Fragen bearbeiten';
 $string['question:managecategory'] = 'Fragenkategorie verwalten';
+$string['question:moveall'] = 'Alle Fragen verschieben';
+$string['question:movemine'] = 'Meine eigenen Fragen verschieben';
+$string['question:useall'] = 'Alle Fragen verwenden';
+$string['question:usemine'] = 'Meine eigenen Fragen verwenden';
+$string['question:viewall'] = 'Alle Fragen anzeigen';
+$string['question:viewmine'] = 'Meine eigenen Fragen anzeigen';
 $string['resetrole'] = 'Grundeinstellungen wiederherstellen';
 $string['resetrolenolegacy'] = 'Zugriffsrechte löschen';
 $string['resetrolesure'] = 'Sind Sie sicher, dass Sie die Rolle \"$a->name ($a->shortname)\" auf die Grundinstellungen zurücksetzen möchten?<p></p>Die Grundeinstellungen werden entsprechend der gewählten Grundfähigkeiten ($a->legacytype) gesetzt.';
@@ -156,6 +163,9 @@ $string['user:viewuseractivitiesreport'] = 'Nutzerberichte sehen';
 $string['user:viewusergrades'] = 'Nutzerbewertungen sehen';
 $string['viewrole'] = 'Rollendetails sehen';
 $string['xuserswiththerole'] = 'Nutzer/innen mit der Rolle \"$a->role\": $a->number';
+$string['question:export'] = 'Fragen exportieren'; // ORPHANED
+$string['question:import'] = 'Fragen importieren'; // ORPHANED
+$string['question:manage'] = 'Fragen verwalten'; // ORPHANED
 $string['course:downloadallgrades'] = 'Alle Bewertungen herunterladen'; // ORPHANED
 $string['course:viewallgrades'] = 'Alle Bewertungen sehen'; // ORPHANED
 $string['course:viewowngrades'] = 'Eigene Bewertungen sehen'; // ORPHANED

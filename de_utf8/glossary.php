@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 (2007021501)
+      // glossary.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['addcomment'] = 'Kommentar einfügen';
@@ -157,7 +157,7 @@ $string['ratingonlyteachers'] = 'Nur $a kann Einträge bewerten';
 $string['ratings'] = 'Bewertungen';
 $string['ratingssaved'] = 'Bewertungen wurden gesichert';
 $string['ratingsuse'] = 'Bewertungen verwenden';
-$string['ratingtime'] = 'Bewertungen sind nur für Einträge möglich, die in folgendem Zeitraum vorgenommen wurden:';
+$string['ratingtime'] = 'Nur Einträge dieses Zeitraums bewerten:';
 $string['rejectedentries'] = 'Abgelehnte Einträge';
 $string['rejectionrpt'] = 'Übersicht über abgelehnte Einträge';
 $string['rsssubscriberss'] = 'RSS-Feed-Anzeige für \'$a\' Begriffe';

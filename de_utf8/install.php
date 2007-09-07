@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.8 (2007021501)
+      // install.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['admindirerror'] = 'Das angegebene Admin-Verzeichnis ist falsch.';
@@ -71,6 +71,12 @@ $string['databasesettingssub_mysql'] = '<b>Typ:</b> MySQL<br />
 <b>Name:</b> Datenbankname, z.B. moodle<br />
 <b>User:</b> Ihr Anmeldename für die Datenbank<br />
 <b>Password:</b> Ihr Passwort für die Datenbank<br />
+<b>Tabellen-Prefix:</b> Prefix für alle Tabellen (optional)';
+$string['databasesettingssub_mysqli'] = '<b>Typ:</b> Improved MySQL<br />
+<b>Host:</b> z.B. localhost oder db.domain.com<br />
+<b>Name:</b> Datenbank-Name, z.B moodle<br />
+<b>User:</b> Ihr Datenbank-Anmeldename<br />
+<b>Passwort:</b> Ihr Datenbank-Passwort<br />
 <b>Tabellen-Prefix:</b> Prefix für alle Tabellen (optional)';
 $string['databasesettingssub_oci8po'] = '<b>Typ:</b> Oracle<br />
 <b>Host:</b> unbenutzt - muss leer bleiben!<br />
@@ -177,6 +183,8 @@ $string['mssql_n'] = 'SQL*Server mit UTF-8-Unterstützung (mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'PHP wurde nicht richtig konfiguriert, um über die MSSQL-Erweiterung mit SQL*Server zu kommunizieren. Bitte prüfen Sie die Datei php.ini oder kompilieren Sie PHP neu.';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP wurde nicht richtig konfiguriert, um über die MySQL-Erweiterung mit MySQL zu kommunizieren. Bitte prüfen Sie die Datei php.ini oder kompilieren Sie PHP neu.';
+$string['mysqli'] = 'Improved MySQL (mysqli)';
+$string['mysqliextensionisnotpresentinphp'] = 'PHP wurde nicht ordnungsgemäß für die MySQLi-Erweiterung konfiguriert, um mit MySQL zu kommunizieren. Bitte überprüfen Sie die Datei php.ini oder übersetzen Sie PHP neu. Die MySQLi-Erweiterung ist nicht für PHP4 verfügbar.';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP wurde nicht richtig konfiguriert, um über die OCI8-Erweiterung mit Oracle zu kommunizieren. Bitte prüfen Sie die Datei php.ini oder kompilieren Sie PHP neu.';
 $string['odbc_mssql'] = 'SQL*Server über ODBC (odbc_mssql)';
