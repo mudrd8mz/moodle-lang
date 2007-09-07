@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7.1+ (2006101010)
+      // resource.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addresource'] = 'Baliabidea gehitu';
@@ -9,6 +9,7 @@ $string['browserepository'] = 'Biltegia arakatu';
 $string['choose'] = 'Aukeratu';
 $string['chooseafile'] = 'Aukeratu edo igo fitxategi bat';
 $string['chooseparameter'] = 'Aukeratu parametroa';
+$string['clicktoopen'] = 'Dokumentu hau zabaltzeko, sakatu estekari';
 $string['configallowlocalfiles'] = 'Fitxategi-baliabidea sortzean, baimendu estekak sistema lokaleko fitxategietara; adibidez, CD edo disko gogorra. Hau lagungarri gerta daiteke ikasle guztiek intranet edo sare lokala izanez gero. Kasu horretan, agian, erabiltzaileak arakatzailearen segurtasun-arauak aldatu beharko ditu.';
 $string['configautofilerenamesettings'] = 'Fitxategien antolatzailean fitxategi edo direktorio  baten izena aldatuz gero, automatikoki eguneratu berari dagozkion erreferentziak.';
 $string['configblockdeletingfilesettings'] = 'Baliabideek erreferentziatutako artxibo eta direktorien blokeko ezabaketa. Ohar zaitez html bidez lotutako artxibo eta irudiak ez daudela babestuta.';
@@ -48,6 +49,7 @@ $string['frameifpossible'] = 'Jarri baliabidea marko batean, web gunean nabigatz
 $string['fulltext'] = 'Testu osoa';
 $string['htmlfragment'] = 'HTML zatia';
 $string['imspackageloaded'] = 'Paketea kargatua';
+$string['keepnavigationvisible'] = 'Orri berean nabigazioa ikusten utzi';
 $string['localfile'] = 'Fitxategi lokala';
 $string['localfilechoose'] = 'Aukeratu fitxategi lokala (CD-ROM)';
 $string['localfilehelp'] = 'Lagundu fitxategi lokalak erakusten';

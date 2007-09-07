@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7.1+ (2006101010)
+      // lesson.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['accesscontrol'] = 'Sarbide-kontrola';
@@ -80,7 +80,7 @@ $string['displayofgrade'] = 'Kalifikazioa erakutsi (ikasleentzat soilik)';
 $string['displayreview'] = '\'Berrikusi\' botoia erakutsi';
 $string['displayscorewithessays'] = 'Automatikoki kalifikatutako galderetan hau da zure puntuazioa: $a->score posible zen gehienezko puntuazio honetatik: $a->tempmaxgrade.<br> $a->essayquestions galdera(k) beranduago kalifikatuko dira eta zure azken emaitzari erantsiko zaizkio aurrerago.<br><br>Oraingoz, eta entsegu-galdera(k) kontuan hartu gabe, zure emaitza $a->score (e)koa da $a->grade (e)tik';
 $string['displayscorewithoutessays'] = 'Zure puntuazioa hau da: $a->score (gehienezkoa hau zen: $a->grade).';
-$string['editlesson'] = '$a editatu';
+$string['edit'] = 'Editatu';
 $string['editlessonsettings'] = 'Ikasgai honen ezarpenak editatu';
 $string['editpagecontent'] = 'Orri honen edukia editatu';
 $string['email'] = 'Email';
@@ -139,10 +139,10 @@ $string['lessonopen'] = 'Ikasgai hau $a egunean irekiko da.';
 $string['lessonopens'] = 'Ikasgaia ireki da';
 $string['lessonpagelinkingbroken'] = 'Ez da lehenengo orririk aurkitu. Seguru aski ikasgaiaren orriarekiko lotura hautsita dago. Administratzailearekin harremanetan jarri, mesedez.';
 $string['lessonstats'] = 'Ikasgaiaren estatistikak';
+$string['linkedmedia'] = 'Estekatutako medioak';
 $string['loginfail'] = 'Sarrerak huts egin du. Berriz saiatu, mesedez...';
 $string['lowscore'] = 'Puntuazio baxua';
 $string['lowtime'] = 'Denbora baxua';
-$string['mainmenu'] = 'Menu nagusia';
 $string['manualgrading'] = 'Entseguak kalifikatu';
 $string['matchesanswer'] = 'Erantzunarekin bat dator';
 $string['maxhighscores'] = 'Erakusteko puntuazio altuenen kopurua';
@@ -235,7 +235,7 @@ $string['redisplaypage'] = 'Orria berriz erakutsi';
 $string['report'] = 'Txostena';
 $string['reports'] = 'Txostenak';
 $string['response'] = 'Iruzkina';
-$string['returnmainmenu'] = 'Menu nagusira itzuli';
+$string['returnto'] = '$a -ra itzuli';
 $string['returntocourse'] = 'Ikastarora itzuli';
 $string['review'] = 'Berrikuspena';
 $string['reviewlesson'] = 'Ikasgaia berrikusi';
@@ -298,5 +298,8 @@ $string['youranswer'] = 'Zure erantzuna';
 $string['yourcurrentgradeis'] = 'Oraingo zure kalifikazioa $a da';
 $string['yourcurrentgradeisoutof'] = 'Zure oraingo kalifikazioa $a->grade da izan zitekeen $a->total (e)tik.';
 $string['youshouldview'] = 'Gutxienez hau ikusi beharko zenuke: $a';
+$string['editlesson'] = '$a editatu'; // ORPHANED
+$string['mainmenu'] = 'Menu nagusia'; // ORPHANED
+$string['returnmainmenu'] = 'Menu nagusira itzuli'; // ORPHANED
 
 ?>

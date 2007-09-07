@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.7.1+ (2006101010)
+      // survey.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['actual'] = 'Benetakoa';
@@ -162,6 +162,7 @@ Zure erantzunek unitate hau etorkizunean hobetzen lagunduko digute.
 
 Eskerrik asko.';
 $string['collespname'] = 'COLLES (Nahia)';
+$string['customintro'] = 'Sarrera pertsonalizatua';
 $string['done'] = 'Eginda';
 $string['download'] = 'Jaitsi';
 $string['downloadexcel'] = 'Datuak Excel kalkulu-orri gisa jaitsi';
@@ -202,6 +203,7 @@ $string['survey:download'] = 'Erantzunak jaitsi';
 $string['survey:participate'] = 'Hausnarketari erantzun';
 $string['survey:readresponses'] = 'Erantzunak ikusi';
 $string['surveycompleted'] = 'Hausnarketa hau bukatu duzu. Beheko grafikoak zure erantzunen eta klasearen erantzunen batez bestekoen arteko konparaketa da.';
+$string['surveygraph'] = 'Hausnarketaren grafikoa';
 $string['surveyname'] = 'Hausnarketaren izena';
 $string['surveysaved'] = 'Hausnarketa gordeta';
 $string['surveytype'] = 'Hausnarketa mota';
