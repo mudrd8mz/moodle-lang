@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007081600)
+      // moodle.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['action'] = '操作';
@@ -1153,7 +1153,7 @@ $string['removecreator'] = 'コース作成者を削除する';
 $string['removestudent'] = '学生を削除する';
 $string['removeteacher'] = '教師を削除する';
 $string['rename'] = 'リネーム';
-$string['renamefileto'] = '<b>$a</b>を下記の名称にリネーム';
+$string['renamefileto'] = '<b>$a</b> を下記名称にリネームする';
 $string['report'] = 'レポート';
 $string['reports'] = 'レポート';
 $string['requestcourse'] = 'コースのリクエスト';
