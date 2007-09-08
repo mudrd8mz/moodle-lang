@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta + (2007082200)
+      // error.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -79,6 +79,7 @@ $string['pluginrequirementsnotmet'] = 'プラグイン 「 $a->pluginname 」 ($
 $string['processingstops'] = 'プロセスがここで停止しました。残りのレコードは無視されます。';
 $string['remotedownloadnotallowed'] = 'あなたのサーバーにコンポーネントをダウンロードすることができません (allow_url_fopen が無効)。<br /><br /><a href=\"$a->url\">$a->url</a> ファイルを手動でダウンロードして、サーバの「 $a->dest 」にコピーした後、解凍してください。';
 $string['restricteduser'] = '申し訳ございません、あなたのアカウント「 $a 」では、この処理を行うことができません。';
+$string['scheduledbackupsdisabled'] = 'スケジュールバックアップは、サーバ管理者により無効にされています。';
 $string['sendmessage'] = 'メッセージを送信する';
 $string['sessionerroruser'] = 'セッションがタイムアウトしました。再度ログインしてください。';
 $string['sessionerroruser2'] = 'あなたのログインセッションに影響を与えるサーバエラーが検知されました。再度ログインするかブラウザを再起動してください。';
