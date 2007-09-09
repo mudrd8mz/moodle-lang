@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007081600)
+      // moodle.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['action'] = '동작';
@@ -87,7 +87,7 @@ $string['advancedsettings'] = '고급설정';
 $string['again'] = '다시';
 $string['aimid'] = 'AIM 아이디';
 $string['ajaxno'] = '아니오: 기본 웹 기능 사용';
-$string['ajaxuse'] = 'AJAX 및 자바스크립트';
+$string['ajaxuse'] = 'AJAX 및 자바';
 $string['ajaxyes'] = '예: 향상된 웹 기능 사용';
 $string['all'] = '모두';
 $string['allactions'] = '모든 조치';
@@ -975,6 +975,7 @@ $string['nofilesselected'] = '복구하기 위한 파일이 선택되지 않았�
 $string['nofilesyet'] = '아직 업로드할 파일이 없습니다.';
 $string['nograde'] = '등급 없음';
 $string['noimagesyet'] = '등록된 이미지 없음';
+$string['nologsfound'] = '기록이 없습니다.';
 $string['nomorecourses'] = '검색된 결과가 없습니다.';
 $string['nomoreidnumber'] = '충돌을 피하기 위해 id 번호를 사용하지 마십시오.';
 $string['none'] = '없음';
@@ -1007,7 +1008,7 @@ $string['noteuserschangednonetocourse'] = '주의: 사용자 데이터(활동, �
 $string['nothingnew'] = '새로 바뀐 내용이 없음';
 $string['nothingtodisplay'] = '게시할 내용 없음';
 $string['noticenewerbackup'] = '이 백업파일은 무들 $a->backuprelease ($a->backupversion) 판에 의해 만들어진 것이고 현재 구동되고 있는 무들 $a->serverrelease ($a->serverversion)보다 새 것입니다. 이경우 약간의 불일치를 촉발할 수 있으며, 구판으로의 되돌릴 때 작동을 확신할 수 없습니다.';
-$string['notifications'] = '공지 사항';
+$string['notifications'] = '시스템 공지';
 $string['notify'] = '알림';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, 사용자: $a->info';
 $string['notifyloginfailuresmessageend'] = '이것들의 로그를 $a/course/log.php?id=1&chooselog=1&modid=site_errors 에서 볼 수 있음';
@@ -1182,6 +1183,7 @@ $string['scalesstandard'] = '표준 척도';
 $string['scalestandard'] = '표준 척도';
 $string['scalestip'] = '개인설정 척도를 생성하기 위해서는 배움터 관리자 메뉴의 \'척도\'링크를 사용하세요.';
 $string['schedule'] = '일정';
+$string['scheduledbackupsinactive'] = '사이트 관리자가 자체적인 백업을 못하게 막아놓았습니다.';
 $string['scheduledbackupstatus'] = '백업 일정 현황';
 $string['screenreaderno'] = '없음';
 $string['screenreaderuse'] = '화면 읽기 도구';

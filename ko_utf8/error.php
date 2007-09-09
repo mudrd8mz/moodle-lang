@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta + (2007082200)
+      // error.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 편집될 수 없음';
@@ -79,6 +79,7 @@ $string['pluginrequirementsnotmet'] = '플러그인 \"$a->pluginname\" ($a->plug
 $string['processingstops'] = '진행이 멈췄습니다. 남은 기록은 무시됩니다.';
 $string['remotedownloadnotallowed'] = '서버로 구성요소를 내려받는 것이 허용되지 않습니다. (allow_url_fopen 이 비활성화 됨).<br /><br /> 수동으로 <a href=\"$a->url\">$a->url</a> 파일을 다운로드 하고, 서버의 \"$a->dest\" 에 복사한 후 압축을 푸셔야 합니다.';
 $string['restricteduser'] = '죄송합니다. 현재 당신의 \"$a\" 계정으로는 그 일을 할 수 없습니다.';
+$string['scheduledbackupsdisabled'] = '서버 관리자가 일정에 따른 백업을 못하게 막아놓았습니다.';
 $string['sendmessage'] = '메세지 보내기';
 $string['sessionerroruser'] = '세션이 종료 되었습니다. 다시 로그인 하십시오.';
 $string['sessionerroruser2'] = '로그인 세션에 영향을 줄만한 서버 오류가 발생했습니다. 다시 로그인 하시거나 인터넷 창을 다시 켜주십시오.';
