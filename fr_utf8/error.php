@@ -77,6 +77,7 @@ $string['pluginrequirementsnotmet'] = 'Le plug-in \"$a->pluginname\" ($a->plugin
 $string['processingstops'] = 'Le traitement s\'arrête ici. Les enregistrements restant ont été ignorés.';
 $string['remotedownloadnotallowed'] = 'Le téléchargement de composants sur votre serveur n\'est pas autorisé (l\'option allow_url_fopen est désactivée).<br /><br />Vous devez télécharger manuellement le fichier <a href=\"$a->url\">$a->url</a>, le copier vers «&nbsp;$a->dest&nbsp;» dans votre serveur et le décompresser.';
 $string['restricteduser'] = 'Votre compte utilisateur «&nbsp;$a&nbsp;» ne vous permet pas d\'effectuer cette opération.';
+$string['scheduledbackupsdisabled'] = 'Les sauvegardes automatiques ont été désactivées par l\'administrateur du serveur';
 $string['sendmessage'] = 'Envoyer un message';
 $string['sessionerroruser'] = 'Votre session est échue. Veuillez vous connecter à nouveau.';
 $string['sessionerroruser2'] = 'Une erreur du serveur affectant votre session de connexion a été détectée. Veuillez vous connecter à nouveau ou relancer votre navigateur.';
