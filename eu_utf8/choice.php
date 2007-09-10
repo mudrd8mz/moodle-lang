@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.7+ (2006101007)
+      // choice.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addmorechoices'] = 'Aukera gehiago gehitu';
@@ -17,6 +17,7 @@ $string['choicetext'] = 'Inkesta-testua';
 $string['displayhorizontal'] = 'Horizontalean erakutsi';
 $string['displaymode'] = 'Erakusteko modua';
 $string['displayvertical'] = 'Bertikalean erakutsi';
+$string['fillinatleastoneoption'] = 'Gutxienez bi erantzun eman behar dituzu.';
 $string['full'] = '(Beteta)';
 $string['havetologin'] = 'Saioa hasi behar duzu zure erantzuna bidali ahal izateko.';
 $string['limit'] = 'Muga';
