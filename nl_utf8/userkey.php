@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // userkey.php - created with Moodle 1.9 Beta + (2007082200)
+      // userkey.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['createnewkey'] = 'Maak een nieuwe gebruikerssleutel';
@@ -14,5 +14,6 @@ $string['keyvaliduntilhelp'] = 'Kies een datum (optioneel) waarna de sleutel nie
 $string['keyvalue'] = 'Sleutelwaarde';
 $string['newuserkey'] = 'Nieuwe gebruikerssleutel';
 $string['userkey'] = 'Gebruikerssleutel';
+$string['userkeys'] = 'Gebruikerssleutels';
 
 ?>

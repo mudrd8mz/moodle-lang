@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007081600)
+      // moodle.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['action'] = 'Actie';
@@ -982,6 +982,7 @@ $string['nofilesselected'] = 'Er zijn geen bestanden geselecteerd om terug te ze
 $string['nofilesyet'] = 'Er zijn nog geen bestanden naar deze cursus geüpload';
 $string['nograde'] = 'Nog geen cijfer';
 $string['noimagesyet'] = 'Er zijn nog geen afbeeldingen naar deze cursus geüpload';
+$string['nologsfound'] = 'Geen logs gevonden';
 $string['nomorecourses'] = 'Er kunnen geen passende cursussen meer worden gevonden';
 $string['nomoreidnumber'] = 'Er wordt geen idnummer gebruikt om botsingen te vermijden';
 $string['none'] = 'Geen';
@@ -1192,6 +1193,7 @@ $string['scalestandard'] = 'Standaardschaal';
 $string['scalestip'] = 'Om aangepaste schalen te maken, gebruik je de link
 \'Schalen...\'in het beheermenu van je cursus';
 $string['schedule'] = 'Planning';
+$string['scheduledbackupsinactive'] = 'Automatische backups zijn niet ingeschakeled door de site-beheerder.';
 $string['scheduledbackupstatus'] = 'Status van geplande backup';
 $string['screenreaderno'] = 'Nee';
 $string['screenreaderuse'] = 'Schermlezer';

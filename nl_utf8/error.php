@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta + (2007082200)
+      // error.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['adminprimarynoedit'] = 'Het profiel van de beheerder met het kleinste gebruikersnummer kan door de andere beheerders niet gewijzigd worden';
@@ -79,6 +79,7 @@ $string['pluginrequirementsnotmet'] = 'Plugin \"$a->pluginname\" ($a->pluginvers
 $string['processingstops'] = 'Verwerking stopt hier. De overgebleven records worden genegeerd';
 $string['remotedownloadnotallowed'] = 'Het downloaden van componenten naar je server is niet toegelaten (allow_url_fopen is uitgeschakeld)<br /><br />Je moet het <a href=\"$a->url\">$a->url</a>bestand manueel downloaden en het kopiëren naar \"$a->dest\" op je server en het daar unzippen.';
 $string['restricteduser'] = 'Sorry, maar je hebt onvoldoende rechten om dat te doen.';
+$string['scheduledbackupsdisabled'] = 'Automatische backups zijn uitgeschakeld door de site-beheerder';
 $string['sendmessage'] = 'Stuur bericht';
 $string['sessionerroruser'] = 'Je sessie bleef te lang zonder activiteit. Je moet terug inloggen.';
 $string['sessionerroruser2'] = 'Je loginsessie is verknoeid. Meld je opnieuw aan of herstart je browser.';

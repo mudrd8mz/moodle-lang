@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9 dev (2007080202)
+      // notes.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['addnewnote'] = 'Nieuwe notitie toevoegen';
+$string['addnewnoteselect'] = 'Selecteer leerlingen om een notitie over te schrijven';
 $string['bynameondate'] = 'op $a->name - $a->date';
 $string['content'] = 'Inhoud notitie';
 $string['course'] = 'cursus';

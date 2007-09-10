@@ -1,0 +1,82 @@
+<h1>Upload gebruikers</h1>
+
+<p>Eerst deze opmerking: <strong>Het is gewoonlijk niet nodig om gebruikers in bulk te importeren</strong> - om je onderhoudstaken te beperken, kun je beter eerst manieren verkennen die geen manueel onderhoud vragen, zoals connectie met externe databanken of gebruikers zelf accounts laten aanmaken. Meer over dit onderwerp in het authenticatiedeel van de beheermenu's.</p>
+
+<p>Als je echt een reeks gebruikers wil importeren vanuit een tekstbestand, dan moeten je tekstbestanden als volgt opgemaakt worden:</p>
+
+<ul>
+  <li>Elke lijn van het bestand moet één record bevatten</li>
+  <li>Elke record is een datareeks, gescheiden door komma's</li>
+  <li>Het eerste record van het bestand is speciaal: het bevat de lijst met veldnamen. Dit bepaalt de opmaak van de rest van het bestand.
+    <blockquote>
+
+      <p><strong>Vereiste veldnamen:</strong> deze velden moeten in de eerste record staan en voor elke gebruiker bepaald zijn</p>
+      <p><code>firstname, lastname,</code></p>
+
+      <p><strong>Optionele veldnamen:</strong> deze zijn optioneel - als ze niet bijgevoegd worden, dan worden de standaardwaarden gebruikt</p>
+      <p><code>institution, department, city, country, lang, auth, timezone, idnumber, icq, phone1, phone2, address, url, description, mailformat, maildisplay, htmleditor, autosubscribe, emailstop, deleted</code> </p>
+
+      <p><strong>Aanmeldingsvelden (optioneel): </strong> De course names zijn de &quot;verkorte namen&quot; van de cursussen - als ze opgegeven worden, dan zal de gebruiker aangemeld worden bij die cursussen.  Groepnamen moeten geassocieerd worden met de overeenstemmende cursus, bv. group1 bij course1, enz.
+</p>
+      <p> code>course1, group1, type1, role1, course2, group2, type2, role2, etc.</code></p>
+    </blockquote>
+    </li>
+
+  <li>Komma's in de gegevens mag je als &amp;#44 noteren. Het script zal automatisch de komma juist terugplaatsen. </li>
+  <li>Voor Boolse velden gebruik je 0 voor onwaar en 1 voor waar. </li>
+ <li>Types worden gebruikt om aan Moodle door te geven of een gebruiker een leerling of een leraar is als er een overeenkomstige cursus bestaat (vb type2 komt overeen met course2). 1 = leerling, 2 = leraar met bewerkrechten, en 3 = leraar zonder bewerkrechten. Als type leeg gelaten wordt of als je geen cursus specifieerd, dan wordt de gebruiker standaard leerling. </li>
+  <li>Opmerking: Als een gebruiker al in de databank geregistreerd is, dan zal dit script het userID teruggeven (de databankindex)en deze leerling als leerling aanmelden in de gespecifieerde cursus ZONDER de andere gespecifieerde data te wijzigen.</li>
+</ul>
+  
+  
+<p>Hier krijg je een voorbeeld van een geldig bestand om te importeren:</p>
+<p><code>username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1, type1<br />
+jonest, verysecret, Tom, Jones, jonest@someplace.edu, en, 3663737, 1, Intro101, Section 1, 1<br />
+reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3, 3</code></p>
+
+<h2>Sjablonen</h2>
+<p>De standaardwaarden worden verwerkt als sjablonen waarin volgende codes toegelaten zijn:</p>
+<ul>
+<li><code>%l</code> - zal vervangen worden door de achternaam</li>
+<li><code>%f</code> - zal vervangen worden door de voornaam</li>
+<li><code>%u</code> - zal vervangen worden door de gebruikersnaam/li>
+<li><code>%%</code> - zal vervangen worden door de  %</li>
+</ul>
+<p>Tussen het procent-teken (%) en de andere codeletters (l, f of u) zijn volgende operatoren toegelaten:</p>
+<ul>
+<li>min-teken (-) - de informatie, gespecifieerd door de codeletter zal omgezet worden naar kleine letters</li>
+<li>plus teken (+) - de informatie, gespecifieerd door de codeletter zal omgezet worden naar hoofdletters</li>
+<li>een decimaal getal - de informatie, gespecifieerd door de codeletter zal afgekort worden naar dat aantal tekens</li>
+</ul>
+
+<p>Bijvoorbeeld: als de voornaam John is en de achternaam is Doe, dat zullen volgende waarden verkregen worden met de verschillende sjablonen:</p>
+<ul>
+<li>%l%f = DoeJohn</li>
+<li>%l%1f = DoeJ</li>
+<li>%-l%+f = doeJOHN</li>
+<li>%-f_%-l = john_doe</li>
+<li>http://www.example.com/~%u/ = http://www.example.com/~jdoe/ (if the username is jdoe or %-1f%-l)</li>
+</ul>
+<p>Het verwerken van sjablonen wordt alleen voor de standaardwaarden gedaan en niet voor de waarden die uit het CSV-bestand gehaald worden.</p>
+<p>Om juiste Moodle gebruikersnamen te maken wordt de gebruikersnaam altijd naar kleine letters geconverteerd. Meer nog, als de &quot;Uitgebreide tekenset in gebruikersnamen toestaan&quot; optie op de site-reglementpagina is uitgeschakeld, dan zullen alle tekens die geen letters zijn, zoals cijfers, liggend streepje (-), en punt (.) verwijderd worden.
+Als de voornaam bijvoorbeeld John Jr. is en de achternaam Doe, dan zal username %-f_%-l john jr._doe produceren wanneer Uitgebreide tekenset in gebruikersnamen toestaan ingeschakeld is, en johnjr_doe wanneer uitgeschakeld.</p>
+
+<p>Wanneer &quot;Afhandeling van dubbele nieuwe gebruikersnamen&quot; is ingesteld op Teller toevoegen, dan zal een opklimmend cijfer toegevoegd worden bij dubbele gebruikersnamen die het sjabloon produceerd.
+Bijvoorbeeld, als het CSV-bestand de gebruikers John Doe, Jane Doe and Jenny Doe bevat zonder gebruikersnamen, de standaard gebruikersnaam is ingesteld als %-1f%-l en de Afhandeling van dubbele nieuwe gebruikersnamen is ingesteld op teller toevoegen, dan zullen de geproduceerde gebruikersnamen jdoe, jdoe2 en jdoe3 zijn.
+</p>
+
+<h1>Bestaande gebruikersaccounts updaten</h1>
+
+<p>Standaard veronderstelt Moodle dat je nieuwe gebruikersaccounts wil aanmaken en zal records waarvan de gebruikersnaam overeenkomt met een bestaande account overslaan. Je kunt echter door de instelling "Update bestaande accounts" op <b>Ja</b> zet, dan zal de bestaande gebruikersaccount aangepast worden. </p>
+
+<p>Bij het updaten van bestaande accounts, kun je gebruikersnamen ook aanpassen. Zet de instelling "Gebruikersnamen bijwerken toestaan" op <b>Ja</b> en geef in je bestand een veld me met als veldnaam <code>oldusername</code>.</p>
+
+<p><b>Opgelet:</b> fouten tijdens het updaten van bestaande gebruikersaccounts, kan de gegevens van die accounts behoorlijk beschadigen. Wees voorzichtig met de updatefunctie.</p>
+
+<h2>Accounts verwijderen</h2>
+<p>Als het veld <code>deleted</code> toegevoegd wordt, zullen gebruikers die daar een waarde 1 opgegeven kregen verwijderd worden. Hiervoor mag je alle velden weglaten, behalve het veld <code>username</code> (dat in het CSV bestand moet zitten of je moet er een standaardwaarde voor opgeven.</p>
+<p>Verwijderen en uploaden van accounts kan met een enkel CSV-bestand gedaan worden. Onderstaand bestand zal bijvoorbeeld de gebruiker Tom Jones toevoegen en de gebruiker reznort verwijderen:</p>
+<p><code>username, firstname, lastname, deleted<br />
+jonest, Tom, Jones, 0<br />
+reznort, , , 1
+</code></p>
