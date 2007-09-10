@@ -1,47 +1,47 @@
 <?php // $Id$
 
 // Trouver un meilleur terme que 'balise' pour 'tag'
-$string['addtagtomyinterests'] =  'Ajouter «&nbsp;$a&nbsp; à mes centres d\'intérêts';
+$string['addtagtomyinterests'] =  'Ajouter Â«&nbsp;$a&nbsp; Ã  mes centres d\'intÃ©rÃªts';
 $string['blocktagstitle'] =  'Balises';
 $string['changename'] = 'Modifier nom de balise';
 $string['changetype'] = 'Modifier type de balise';
 $string['count'] = 'Compte';
 $string['description'] = 'Description';
 $string['delete'] = 'Supprimer';
-$string['deleted'] = 'Supprimé';
+$string['deleted'] = 'SupprimÃ©';
 $string['edittag'] = 'Modifier cette balise';
 $string['flag'] = 'Fanion';
-$string['flagasinappropriate'] = 'Marquer comme inapproprié';
-$string['helprelatedtags'] = 'Balises reliées, séparées par des virgules';
+$string['flagasinappropriate'] = 'Marquer comme inappropriÃ©';
+$string['helprelatedtags'] = 'Balises reliÃ©es, sÃ©parÃ©es par des virgules';
 $string['id'] = 'id';
-$string['managetags'] = 'Gérer les balises';
+$string['managetags'] = 'GÃ©rer les balises';
 $string['name'] = 'Nom de balise';
-$string['namesalreadybeeingused'] = 'Noms de balise déjà utilisés';
+$string['namesalreadybeeingused'] = 'Noms de balise dÃ©jÃ  utilisÃ©s';
 $string['newname'] = 'Nouveau nom de balise';
-$string['noresultsfor'] = 'Aucun résultat pour «&nbsp;$a&nbsp;»';
+$string['noresultsfor'] = 'Aucun rÃ©sultat pour Â«&nbsp;$a&nbsp;Â»';
 $string['owner'] = 'Possesseur';
-$string['relatedblogs'] = 'Articles de blog récents avec cette balise';
+$string['relatedblogs'] = 'Articles de blog rÃ©cents avec cette balise';
 $string['relatedtags'] = 'Balises ';
 $string['responsiblewillbenotified'] = 'La personne responsable sera avertie';
-$string['resetflag'] = 'Réinitialisation fanion';
-$string['reset'] = 'Réinitialisation';
+$string['resetflag'] = 'RÃ©initialisation fanion';
+$string['reset'] = 'RÃ©initialisation';
 $string['search'] = 'Chercher';
-$string['searchresultsfor'] = 'Résultats de recherche pour «&nbsp;$a&nbsp;»';
+$string['searchresultsfor'] = 'RÃ©sultats de recherche pour Â«&nbsp;$a&nbsp;Â»';
 $string['searchtags'] = 'Chercher des balises';
 $string['seeallblogs'] = 'Voir tous les blogs avec cette balise';
-$string['select'] = 'Sélectionner';
+$string['select'] = 'SÃ©lectionner';
 $string['tagdescription'] = 'Description balise';
 $string['tag'] = 'Balise';
 $string['tagtype'] = 'Type de balise';
 $string['tags'] = 'Balises';
-$string['tagsaredisabled'] = 'Les balises sont désactivées';
-$string['thingstaggedwith'] = '$a->count objets marqués par «&nbsp;$a->name&nbsp;»';
+$string['tagsaredisabled'] = 'Les balises sont dÃ©sactivÃ©es';
+$string['thingstaggedwith'] = '$a->count objets marquÃ©s par Â«&nbsp;$a->name&nbsp;Â»';
 $string['thistaghasnodesc'] = 'Cette balise n\'a actuellement pas de description.';
-$string['timemodified'] = 'Modifié';
-$string['typechanged'] = 'Type de la balise modifié';
-$string['userstaggedwith'] = 'Utilisateurs avec la balise «&nbsp;$a&nbsp;»';
+$string['timemodified'] = 'ModifiÃ©';
+$string['typechanged'] = 'Type de la balise modifiÃ©';
+$string['userstaggedwith'] = 'Utilisateurs avec la balise Â«&nbsp;$a&nbsp;Â»';
 $string['updatetag'] = 'Modifier';
-$string['updated'] = 'Modifié';
-$string['withselectedtags'] = 'Avec les balises sélectionnées...';
+$string['updated'] = 'ModifiÃ©';
+$string['withselectedtags'] = 'Avec les balises sÃ©lectionnÃ©es...';
 
 ?>
