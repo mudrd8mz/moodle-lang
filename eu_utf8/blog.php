@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.7+ (2006101007)
+      // blog.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addnewentry'] = 'Sarrera berria gehitu';
@@ -15,6 +15,7 @@ $string['blogs'] = 'Blogak';
 $string['blogtags'] = 'Blogaren etiketak';
 $string['courseblog'] = 'Ikastaroaren bloga: $a';
 $string['courseblogs'] = 'Erabiltzaileek beren ikastaro bereko pertsonen blogak baino ezin dituzte ikusi';
+$string['deleteotagswarn'] = 'Ziur al zaude etiketa hau(ek) <br /> mezu guztietatik ezabatu nahi d(it)uzula eta sistematik kendu?';
 $string['disableblogs'] = 'Blog-sistema desgaitu';
 $string['emptybody'] = 'Blog-sarreraren gorputza ezin da hutsik egon';
 $string['emptytitle'] = 'Blog-sarreraren izenburua ezin da hutsik egon';
@@ -45,6 +46,7 @@ $string['settingsupdatederror'] = 'Errorea gertatu da: blog aukera berriak ezin 
 $string['siteblog'] = 'Gunearen bloga: $a';
 $string['siteblogs'] = 'Erabiltzaile guztiek blog-sarrera guztiak ikusi ahal dituzte';
 $string['tagdatelastused'] = 'Etiketa hau erabili zen azken eguna';
+$string['tags'] = 'Etiketak';
 $string['tagsort'] = 'Zeren arabera ordeantu etiketak';
 $string['tagtext'] = 'Etiketaren testua';
 $string['timewithin'] = 'Egun hauetan erabilitako etiketak erakutsi';

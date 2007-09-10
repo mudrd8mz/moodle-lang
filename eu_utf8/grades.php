@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.7.1+ (2006101010)
+      // grades.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addcategory'] = 'Kategoria erantsi';
@@ -8,6 +8,7 @@ $string['addexceptionerror'] = 'Errore bat gertatu da userid:gradeitem-i salbues
 $string['allgrades'] = 'Nota guztiak kategoriaka';
 $string['allstudents'] = 'Ikasle guztiak';
 $string['average'] = 'Bataz bestekoa';
+$string['backupwithoutgradebook'] = 'Segurtasun-kopiak ez ditu Kalifikazio-liburuaren ezarpenak';
 $string['bonuspoints'] = 'Bonifikazio-puntuak';
 $string['categories'] = 'Kategoriak';
 $string['category'] = 'Kategoria';
@@ -88,6 +89,7 @@ $string['pointsdescending'] = 'Puntuak beherantz sailkatu';
 $string['preferences'] = 'Lehentasunak';
 $string['rawpct'] = '%% gordina';
 $string['reprintheaders'] = 'Goialdeak birrinprimatu';
+$string['respectingcurrentdata'] = 'Egungo ezarpenak ez dira aldatu';
 $string['savechanges'] = 'Aldaketak gorde';
 $string['savepreferences'] = 'Lehentasunak gorde';
 $string['scaledpct'] = 'Eskalatua %%';
@@ -123,5 +125,6 @@ $string['weightedpct'] = '%% neurtua';
 $string['weightedpctcontribution'] = 'ekarpen %% neurtua';
 $string['writinggradebookinfo'] = 'Kalifikazio-liburuaren ezarpenak idazten';
 $string['yes'] = 'Bai';
+$string['yourgrade'] = 'Zure kalifikazioa';
 
 ?>

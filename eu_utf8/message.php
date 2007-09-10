@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.7+ (2006101007)
+      // message.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addcontact'] = 'Kontaktua gehitu';
@@ -33,7 +33,9 @@ $string['messagehistory'] = 'Mezuen historia';
 $string['messages'] = 'Mezuak';
 $string['messaging'] = 'Mezularitza';
 $string['mycontacts'] = 'Nire kontaktuak';
+$string['newonlymsg'] = 'Berriak baino ez erakutsi';
 $string['newsearch'] = 'Bilaketa berria';
+$string['noframesjs'] = 'Marko eta JavaScript-ik gabeko bertsioa';
 $string['nomessages'] = 'Ez duzu mezurik';
 $string['nomessagesfound'] = 'Ez da mezurik aurkitu';
 $string['nosearchresults'] = 'Zure bilaketak du ezer topatu';
@@ -53,6 +55,7 @@ $string['searchforperson'] = 'Pertsonak bilatu';
 $string['searchmessages'] = 'Mezuak bilatu';
 $string['sendmessage'] = 'Mezua bidali';
 $string['sendmessageto'] = 'Mezua bidali honi: $a';
+$string['sendmessagetopopup'] = '$a-ri mezua bidali - leiho berria';
 $string['settings'] = 'Ezarpenak';
 $string['settingssaved'] = 'Zure ezarpenak gordeta';
 $string['showmessagewindow'] = 'Mezuen leihoa erakutsi mezurik baldin badut. Horretarako nabigatzaileak popup leihoak zabaltzea onartu behar du webgune honetan!';
