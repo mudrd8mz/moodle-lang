@@ -42,7 +42,7 @@ $string['early'] = 'En avance de $a';
 $string['editmysubmission'] = 'Modifier mon devoir';
 $string['emailstudents'] = 'Envoyer aux étudiants les alertes par courriel';
 $string['emailteachers'] = 'Envoyer aux enseignants les alertes par courriel';
-$string['emailteachermail'] = '$a->username a modifié son travail remis pour le devoir «&nbsp;$a->assignment&nbsp;».
+$string['emailteachermail'] = '$a->username a modifié son travail remis pour le devoir « $a->assignment ».
 
 Ce travail est disponible ici :
 
