@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta + (2007082200)
+      // role.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
@@ -66,6 +66,7 @@ $string['grade:hide'] = 'Cijfer verbergen';
 $string['grade:import'] = 'Cijfers importeren';
 $string['grade:lock'] = 'Cijfer blokkeren';
 $string['grade:manage'] = 'Beheer beoordelingsitems';
+$string['grade:manageoutcomes'] = 'Beheer beoordelingen competenties';
 $string['grade:override'] = 'Beoordelingen wijzigen';
 $string['grade:unlock'] = 'Beoordelingen of items vrijgeven';
 $string['grade:view'] = 'Eigen cijfers bekijken';
