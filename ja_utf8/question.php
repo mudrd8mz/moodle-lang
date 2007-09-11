@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 Beta + (2007083101)
+      // question.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -9,10 +9,12 @@ $string['categorycurrent'] = '現在のカテゴリ';
 $string['categorycurrentuse'] = 'このカテゴリを使用する';
 $string['categorydoesnotexist'] = 'このカテゴリは存在しません。';
 $string['categorymoveto'] = 'カテゴリに保存する';
+$string['copy'] = '$a からコピーおよびリンクを変更する。';
 $string['created'] = '作成日時';
 $string['createdmodifiedheader'] = '作成日時/最終更新日時';
 $string['defaultfor'] = '$a のデフォルト';
 $string['defaultinfofor'] = 'コンテクスト「 $a 」で共有される問題のデフォルトカテゴリ';
+$string['donothing'] = 'ファイルをコピーまたは移動またはリンクを変更しない。';
 $string['editingcategory'] = 'カテゴリの編集';
 $string['editingquestion'] = '問題の編集';
 $string['erroraccessingcontext'] = 'コンテクストにアクセスできません。';
@@ -32,7 +34,9 @@ $string['makechildof'] = '「 $a 」の子にする';
 $string['maketoplevelitem'] = 'トップレベルに移動する';
 $string['missingimportantcode'] = 'この問題タイプには、重要なコードがありません: $a';
 $string['modified'] = '最終更新日時';
+$string['move'] = '$a から移動およびリンクを変更する。';
 $string['movecategory'] = 'カテゴリを移動する';
+$string['movelinksonly'] = 'リンクが指している場所のみ変更して、ファイルを移動およびコピーしない。';
 $string['moveq'] = '問題を移動する';
 $string['moveqtoanothercontext'] = '問題を他のコンテクストに移動する';
 $string['movingcategory'] = 'カテゴリの移動';
@@ -55,6 +59,7 @@ $string['questionbank'] = '問題バンク';
 $string['questioncatsfor'] = '「 $a 」の問題カテゴリ';
 $string['questiondoesnotexist'] = 'この問題は存在しません。';
 $string['questionuse'] = 'この活動で問題を使用する';
+$string['shareincontext'] = '$a でコンテクストを共有する';
 $string['tofilecategory'] = 'カテゴリをファイルに書く';
 $string['tofilecontext'] = 'コンテクストをファイルに書く';
 $string['unknown'] = '不明';
