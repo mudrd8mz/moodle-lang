@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 Beta + (2007083101)
+      // grades.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['activities'] = '活動';
@@ -45,7 +45,7 @@ $string['calculationsaved'] = '計算が保存されました。';
 $string['calculationview'] = '計算の表示';
 $string['categories'] = 'カテゴリ';
 $string['categoriesanditems'] = 'カテゴリおよび項目';
-$string['categoriesedit'] = 'カテゴリのおよび項目の編集';
+$string['categoriesedit'] = 'カテゴリおよび項目の編集';
 $string['category'] = 'カテゴリ';
 $string['categoryedit'] = 'カテゴリの編集';
 $string['categoryname'] = 'カテゴリ名';
@@ -240,6 +240,7 @@ $string['min'] = '最低';
 $string['mode'] = '最頻値';
 $string['movingelement'] = '$a に移動';
 $string['multfactor'] = '乗数';
+$string['multfactorhelp'] = 'この評定項目の評点に掛けられる因数です。';
 $string['newcategory'] = '新しいカテゴリ';
 $string['newuserkey'] = '新しいユーザキー';
 $string['no'] = 'No';
@@ -289,6 +290,7 @@ $string['percentascending'] = 'パーセントの昇順で並び替え';
 $string['percentdescending'] = 'パーセントの降順で並び替え';
 $string['percentshort'] = '%%';
 $string['plusfactor'] = 'オフセット';
+$string['plusfactorhelp'] = '乗数が適用された後、この評定項目のすべての評点に追加される数値です。';
 $string['points'] = '評点';
 $string['pointsascending'] = '評点の昇順で並び替え';
 $string['pointsdescending'] = '評点の降順で並び替え';
