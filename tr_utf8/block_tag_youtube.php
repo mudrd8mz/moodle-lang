@@ -4,21 +4,21 @@
 
 
 $string['anycategory'] = 'Herhangi Kategori';
-$string['autosvehicles'] = 'Otomobiller & Araçlar';
+$string['autosvehicles'] = 'Otomobiller &amp; Araçlar';
 $string['blockname'] = 'Youtube';
 $string['category'] = 'Kategori';
 $string['comedy'] = 'Komedi';
 $string['configtitle'] = 'Başlık';
 $string['entertainment'] = 'Eğlence';
-$string['filmsanimation'] = 'Filmler & Çizgi filmler';
-$string['gadgetsgames'] = 'Faydalı Araçlar & Oyunlar';
-$string['howtodiy'] = 'Nasıl yapılır & DIY';
+$string['filmsanimation'] = 'Filmler &amp; Çizgi filmler';
+$string['gadgetsgames'] = 'Faydalı Araçlar &amp; Oyunlar';
+$string['howtodiy'] = 'Nasıl yapılır &amp; DIY';
 $string['music'] = 'Müzik';
-$string['newspolitics'] = 'Haber & Politika';
+$string['newspolitics'] = 'Haber &amp; Politika';
 $string['numberofvideos'] = 'Video sayısı';
-$string['peopleblogs'] = 'Kişiler & Bloglar';
+$string['peopleblogs'] = 'Kişiler &amp; Bloglar';
 $string['petsanimals'] = 'Hayvanlar';
 $string['sports'] = 'Spor';
-$string['travel'] = 'Yolculuk & Yerler';
+$string['travel'] = 'Yolculuk &amp; Yerler';
 
 ?>

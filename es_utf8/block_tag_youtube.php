@@ -3,7 +3,7 @@
       // local modifications from http://127.0.0.1/moodle
 
 
-$string['howtodiy'] = 'How-to & DIY';
+$string['howtodiy'] = 'How-to &amp; DIY';
 $string['anycategory'] = 'Cualquier categoría';
 $string['autosvehicles'] = 'Coches y vehículos';
 $string['blockname'] = 'Youtube';
