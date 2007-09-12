@@ -2,8 +2,14 @@
       // qtype_multichoice.php - created with Moodle 1.8.2+ (2007021520)
 
 
+$string['addingmultichoice'] = 'Aukera anitzeko galdera gehitzen';
 $string['addmorechoiceblanks'] = 'Zuriuneak aukera gehiagotarako {ez}';
 $string['answerhowmany'] = 'Erantzun bakarra ala anitza?';
+$string['answernumbering'] = 'Aukerak numeratu?';
+$string['answernumbering123'] = '1., 2., 3., ...';
+$string['answernumberingABC'] = 'A., B., C., ...';
+$string['answernumberingabc'] = 'a., b., c., ...';
+$string['answernumberingnone'] = 'Numeraziorik ez';
 $string['answersingleno'] = 'Erantzun anitzak baimenduta.';
 $string['answersingleyes'] = 'Erantzun bakarra.';
 $string['choiceno'] = 'Aukera $a';

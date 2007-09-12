@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.7+ (2006101007)
+      // editor.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['about'] = 'Editore honi buruz';
@@ -59,6 +59,7 @@ $string['justifycenter'] = 'Justifikatu erdian';
 $string['justifyfull'] = 'Justifikatu guztiz';
 $string['justifyleft'] = 'Justifikatu ezkerrean';
 $string['justifyright'] = 'Justifikatu eskuinean';
+$string['lang'] = 'Hizkuntza';
 $string['layout'] = 'Diseinua';
 $string['left'] = 'Ezkerra';
 $string['lefttoright'] = 'Ezkerretik eskuinerako noranzkoa';
@@ -75,6 +76,7 @@ $string['matchcase'] = 'Larria';
 $string['middle'] = 'Erdian';
 $string['minimize'] = 'Editorea minimizatu';
 $string['move'] = 'Mugitu';
+$string['multi'] = 'Multi';
 $string['mustenterurl'] = 'URL-a jarri behar duzu';
 $string['nolink'] = 'Eragotzi estekatze automatikoa';
 $string['normal'] = 'Normala';

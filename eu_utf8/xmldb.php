@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7.1+ (2006101010)
+      // xmldb.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['aftertable'] = 'Taularen ondoren:';
@@ -48,12 +48,15 @@ $string['floatincorrectdecimals'] = 'Float eremuaren hamartarren kopuru ezegokia
 $string['floatincorrectlength'] = 'Float eremuaren luzera ezegokia';
 $string['gotolastused'] = 'Erabilitako azken fitxategira joan';
 $string['incorrectfieldname'] = 'Izen desegokia';
+$string['index'] = 'Aurkibidea';
 $string['indexes'] = 'Aurkibideak';
 $string['integerincorrectlength'] = 'Integer eremuaren luzera ez da zuzena';
+$string['key'] = 'Gakoa';
 $string['keys'] = 'Gakoak';
 $string['listreservedwords'] = 'Erreserbatutako Hitzen Zerrenda<br/>(used to keep <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> updated)';
 $string['load'] = 'Igo';
 $string['main_view'] = 'Ikuspegi nagusia';
+$string['missing'] = 'Ez dago';
 $string['missingfieldsinsentence'] = 'Esaldian eremuak falta dira';
 $string['missingvaluesinsentence'] = 'Esaldian baloreak falta dira';
 $string['mustselectonefield'] = 'Eremu bat aukeratu behar duzu horrekin lotutako ekintzak ikusteko.';

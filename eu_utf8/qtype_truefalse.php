@@ -2,6 +2,7 @@
       // qtype_truefalse.php - created with Moodle 1.8.2+ (2007021520)
 
 
+$string['addingtruefalse'] = 'Egia/gezurreko galdera gehitzen';
 $string['correctanswer'] = 'Erantzun zuzena';
 $string['editingtruefalse'] = 'Egia/Gezurra motako galdera bat editatzen';
 $string['false'] = 'Gezurra';
