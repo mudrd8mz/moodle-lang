@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7.2 + (2006101020)
+      // forum.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addanewdiscussion'] = 'Mezu berria idatzi';
@@ -10,6 +10,7 @@ $string['allforums'] = 'Foro guztiak';
 $string['allowchoice'] = 'Utzi denei aukeratzen';
 $string['allowdiscussions'] = '$a batek foro honetan idatz dezake?';
 $string['allowratings'] = 'Mezuak baloratzeko aukera eman nahi?';
+$string['allowsallsubscribe'] = 'Foro honetan bakoitzak erabakitzen du harpidetu ala ez';
 $string['allowsdiscussions'] = 'Foro honek partaide bakoitzari eztabaidagai bat hasten uzten dio.';
 $string['allsubscribe'] = 'Foro guztietara harpidetu';
 $string['allunsubscribe'] = 'Foro guztietako harpidetza kendu';
@@ -19,10 +20,12 @@ $string['blockafter'] = 'Blokeoa eragiteko gutxieneko mezu-kopurua';
 $string['blockperiod'] = 'Blokeoa eragiteko gutxieneko denbora-tartea';
 $string['blockperioddisabled'] = 'Ez blokeatu';
 $string['bynameondate'] = '$a->name - $a->date';
+$string['cannotadddiscussion'] = 'Foro honetan eztabaidak gehitzeko talde bateko kide izan behar da';
 $string['cannotviewpostyet'] = 'Eztabaida honetan ezin dituzu beste ikasleen galderak irakurri ez baituzu oraindik mezurik bidali';
 $string['configcleanreadtime'] = 'Irakurketa-tauleko mezu zaharrak garbitzeko ordua';
 $string['configdisplaymode'] = 'Besterik adierazi ezean, eztabaida honela ikusiko da';
 $string['configenablerssfeeds'] = 'Honek RSS jarioetarako aukera gaitzen du foro guztietarako. Ondoren foro bakoitzeko ezarpenetan gaitu beharko dituzu jarioak.';
+$string['configenabletimedposts'] = 'Aukeratu \'bai\' foroan eztabaida berria erakusteko denbora tarteen ezarpenak egiten uzteko (esperimentala eta ez erabat probatuta)';
 $string['configlongpost'] = 'Luzera hau gainditzen duen mezua (HTML kodea albo batera utzirik) luzeegitzat jotzen da.';
 $string['configmanydiscussions'] = 'Orrialde bakoitzean gehienez zenbat mezu edo eztabaida erakutsi behar diren';
 $string['configmaxbytes'] = 'Gune honetan foroetako mezuen eranskinek izan dezaketen gehienezko tamaina, besterik adierazi ezean (zerbitzariaren ezarpenen eta ikastaroaren mugen baitan)';
@@ -64,8 +67,11 @@ $string['editedby'] = 'Nork-noiz  editatua';
 $string['editing'] = 'Editatzen';
 $string['emptymessage'] = 'Zerbait oker dabil zure mezuarekin.  Agian zurian utzi duzu, edo eranskina handiegia da.  Zure aldaketak EZ dira gorde.';
 $string['everyonecanchoose'] = 'Edonork aukera dezake harpidetzea';
+$string['everyonecannowchoose'] = 'Orain bakoitzak aukeratzen du harpidetu ala ez';
+$string['everyoneisnowsubscribed'] = 'Orain denak daude foro honetan harpidetuta';
 $string['everyoneissubscribed'] = 'Denak daude foro honetara harpidetuta';
 $string['existingsubscribers'] = 'Dauden harpidedunak';
+$string['forcessubscribe'] = 'Foro honek denak behartzen ditu harpidetzera';
 $string['forcesubscribe'] = 'Denak harpidetzera behartu';
 $string['forcesubscribeq'] = 'Denak harpidetzera behartu?';
 $string['forum'] = 'Foroa';
@@ -139,8 +145,6 @@ $string['noguestsubscribe'] = 'Barkatu,bisitariak ezin dira forora harpidetu ezt
 $string['noguesttracking'] = 'Barkatu, bisitarik ezin dituzte mezuen jarraipenerako aukerak aldatu';
 $string['nomorepostscontaining'] = 'Ez dago \'$a\' duen mezu gehiago';
 $string['nonews'] = 'Ez dago mezu berririk';
-$string['nopostdiscussion'] = 'Barkatu, ezin duzu mezurik bidali eztabaida honetara';
-$string['nopostforum'] = 'Barkatu, ezin duzu mezurik bidali foro honetara';
 $string['noposts'] = 'Mezurik ez';
 $string['nopostscontaining'] = 'Ez da \'$a\' duen mezurik aurkitu';
 $string['noquestions'] = 'Oraindik ez dago galderarik foro honetan';
@@ -259,5 +263,7 @@ $string['youratedthis'] = 'Hau baloratu duzu';
 $string['yournewquestion'] = 'Zure galdera berria';
 $string['yournewtopic'] = 'Zure eztabaidagai berria';
 $string['yourreply'] = 'Zure erantzuna';
+$string['nopostdiscussion'] = 'Barkatu, ezin duzu mezurik bidali eztabaida honetara'; // ORPHANED
+$string['nopostforum'] = 'Barkatu, ezin duzu mezurik bidali foro honetara'; // ORPHANED
 
 ?>

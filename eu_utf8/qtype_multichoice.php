@@ -1,21 +1,29 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.7 (2006101007)
+      // qtype_multichoice.php - created with Moodle 1.8.2+ (2007021520)
 
 
+$string['addmorechoiceblanks'] = 'Zuriuneak aukera gehiagotarako {ez}';
 $string['answerhowmany'] = 'Erantzun bakarra ala anitza?';
 $string['answersingleno'] = 'Erantzun anitzak baimenduta.';
 $string['answersingleyes'] = 'Erantzun bakarra.';
 $string['choiceno'] = 'Aukera $a';
 $string['choices'] = 'Baliodun aukerak';
+$string['clozeaid'] = 'Sartu galdutako hitza';
+$string['correctfeedback'] = 'Edozein galdera zuzenetarako';
 $string['editingmultichoice'] = 'Aukera anitzeko galdera editatzen';
+$string['errfractionsaddwrong'] = 'Aukeratutako kalifikazio positiboak ez dira %% 100era iristen<br />%%$a -ra bakarrik iristen dira.';
+$string['errfractionsnomax'] = 'Erantzunetako batek %% 100 izan beharko luke eta horrela <br />posible izango litzateke galdera honetako gehienezko puntuazioa lortzea.';
 $string['feedback'] = 'Feedback';
 $string['fillouttwochoices'] = 'Gutxienez bi aukera bete behar dituzu. Hutsik utzitako  aukerak ez dira erabiliko.';
 $string['fractionsaddwrong'] = 'Aukeratu dituzun gradu positiboak gehituta ez da iristen %%100ra. <br/>$a%%ra soilik iristen da.<br/> Nahi al duzu atzera jo eta galdera hau egokitu?';
 $string['fractionsnomax'] = 'Erantzunetako bat %%100 izan behar du, <br/>honela eskura daiteke maila altuena galdera honentzat. <br />Nahi al duzu atzera jo eta galdera hau egokitu?';
+$string['incorrectfeedback'] = 'Edozein erantzun okerretarako';
 $string['notenoughanswers'] = 'Galdera mota honek gutxienez $a erantzun behar ditu.';
 $string['overallcorrectfeedback'] = 'Erantzun zuzenen feedbacka';
+$string['overallfeedback'] = 'Edozeinentzako feedbacka';
 $string['overallincorrectfeedback'] = 'Erantzun okerren feedbacka';
 $string['overallpartiallycorrectfeedback'] = 'Erantzun-zati zuzenen feedbacka';
+$string['partiallycorrectfeedback'] = 'Edozein galdera erdi zuzenetarako';
 $string['shuffleanswers'] = 'Nahasi erantzunak';
 $string['singleanswer'] = 'Aukeratu erantzun bat';
 

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7.1+ (2006101010)
+      // error.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['adminprimarynoedit'] = 'Lehen mailako kudeatzailea ezin dute besteek editatu.';
@@ -30,6 +30,8 @@ $string['fieldrequired'] = '\"$a\" derrigorrezko datua da';
 $string['filenotfound'] = 'Barkatu, baina eskatutako fitxategia ezin izan dugu aurkitu';
 $string['forumblockingtoomanyposts'] = 'Foro honetara mezuak bidaltzeko denbora-epea gainditu duzu.';
 $string['groupalready'] = 'Erabiltzailea oraindik da talde honetako partaide: $a';
+$string['groupexistforcourse'] = 'Ikastaro honetan dagoeneko bada \"$a\" taldea';
+$string['groupnotaddederror'] = '\"$a\" taldea ez da gehitu';
 $string['groupunknown'] = '$a taldea ez da inongo ikastarokoa';
 $string['guestnoeditprofile'] = 'Erabiltzaile bisitariek ezin dute beren profila editatu.';
 $string['guestnoeditprofileother'] = 'Ezinezkoa da erabiltzaile bisitarien profila editatu.';
@@ -37,8 +39,11 @@ $string['invalidcourse'] = 'Ikastaro baliogabea';
 $string['invalidfieldname'] = '\"$a\"  ez da izen erabilgarria eremu honetarako';
 $string['invalidfiletype'] = '\"$a\" ez da fitxategi mota erabilgarria.';
 $string['invalidmd5'] = 'md5 ez da baliagarria';
+$string['invalidrequest'] = 'Eskaera ez da baliozkoa';
 $string['invalidrole'] = 'Rol honek ez du balio';
 $string['invalidxmlfile'] = '\"$a\" ez da XML fitxategi baliagarria.';
+$string['loginasnoenrol'] = 'Ezin duzu matrikulatu edo desmatrikulatu \"Aukeratu beste rol bat\" erabiltzen ari zarenean.';
+$string['loginasonecourse'] = 'Ezin zara ikastaro honetan sartu.<br />\"Aukeratu beste rol bat\" saioa bukatu behar duzu beste edozein ikastarotan sartzeko.';
 $string['missingfield'] = '\"$a\" eremua ez da aurkitzen';
 $string['missingrequiredfield'] = 'Beharrezko eremuren bat falta da.';
 $string['modulemissingcode'] = '$a moduluak funtzio hau aurrera eramateko beharrezko kodea ez dauka.';
@@ -46,6 +51,7 @@ $string['modulerequirementsnotmet'] = '\"$a->modulename\" ($a->moduleversion) mo
 $string['mustbeteacher'] = 'Orri hau irakasleek baino ezin dute ikusi';
 $string['nocontext'] = 'Barkatu, ikastaro hau ez da kontestu baliogarria';
 $string['noinstances'] = 'Ikastaro honetan ez da $a azaltzen.';
+$string['nologinas'] = 'Ez duzu rol hori aukeratzeko baimenik \"Aukeratu beste rol bat\"-en';
 $string['nonmeaningfulcontent'] = 'Eduki esaguratsurik ez.';
 $string['noparticipatorycms'] = 'Sentitzen dugu, baina ez duzu ikastaroez informatzeko partaidetza-modulurik.';
 $string['nopermissions'] = 'Sentitzen dugu, baina oraingoz ez duzu hori egiteko baimenik ($a)';
@@ -64,7 +70,9 @@ $string['sessionerroruser'] = 'Saioa amaitu da. Sar zaitez berriro, mesedez.';
 $string['sessionerroruser2'] = 'Zure saioari eragiten dion zerbitzari-errorea antzeman da. Berriz sartu edo nabigatzailea berriro abiatu, mesedez.';
 $string['sessionipnomatch'] = 'Sentitzen dugu, baina lehenengo sarreratik zure IPa aldatu dela dirudi. Ziurtasun neurri honen arrazoia crackerrek gune honetan zauden bitartean zure nortasuna ez lapurtzean datza. Erabiltzaile arruntek ez lukete mezu hau ikusi beharko. Beraz, gunearen kudeatzaileari laguntza eskatu.';
 $string['statscatchupmode'] = 'Estatista une honetan \'catchup\' moduan dago. Orain arte $a->daysdone egun prozesatu dira eta $a->dayspending prozesatzeko daude. Mesedez, beranduago berriz aztertu.';
+$string['unicodeupgradeerror'] = 'Barkatu baina zure datu-basea oraindik ez dago Unicoden eta Moodle-ren bertsio honek ezin du zure datu-basea Unicodera migratu. Mesedez, eguneratu Moodle 1.7.x-era eta egin Unicoderako migrazioa Kudeaketa orritik. Hori eginda, Moodle $a-rako migraketa egin ahal izango duzu.';
 $string['unknowncourse'] = 'Ez dago \"$a\" izeneko ikastarorik';
+$string['unknowncourseidnumber'] = '\"$a\" ikastaroaren ID ezezaguna';
 $string['unknownuseraction'] = 'Sentitzen dugu, baina erabiltzailearen ekintza hau ez dugu ulertzen.';
 $string['usernotaddederror'] = '\"$a\" erabiltzailea ezin gehitu - errore ezezaguna';
 $string['usernotaddedregistered'] = '\"$a\" erabiltzailea ezin gehitu - dagoeneko izena emanda';
