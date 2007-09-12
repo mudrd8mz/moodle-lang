@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.7+ (2006101007)
+      // hotpot.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['abandoned'] = 'Bertan behera utzita';
 $string['addquizchain'] = 'Galdetegi-sorta gehitu';
+$string['allmycourses'] = 'Nire ikastaro guztiak';
 $string['allusers'] = 'Erabiltzaile guztiak';
 $string['alwaysopen'] = 'Beti zabalik';
 $string['attemptsall'] = 'Saikera guztiak';
@@ -145,6 +146,7 @@ $string['textsourcefilename'] = 'Fitxategiaren izena erabili';
 $string['textsourcefilepath'] = 'Fitxategiaren bide-izena';
 $string['textsourcequiz'] = 'Galdetegitik lortu';
 $string['textsourcespecific'] = 'Testu zehatza';
+$string['thiscourse'] = 'Ikastaro hau';
 $string['timedout'] = 'Denbora-muga';
 $string['updatequizchain'] = 'Hurrengo galdetegia eguneratu';
 $string['weighting'] = 'Haztapena';
