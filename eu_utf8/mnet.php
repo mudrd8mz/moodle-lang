@@ -18,7 +18,16 @@ $string['description'] = 'Deskribapena';
 $string['editenrolments'] = 'Matrikulazioa';
 $string['enrolments'] = 'Matrikulazioak';
 $string['id'] = 'ID';
+$string['ipaddress'] = 'IP helbidea';
 $string['logs'] = 'Etiketak';
 $string['mnetlog'] = 'Agerraldiak';
+$string['never'] = 'Inoiz ez';
+$string['off'] = 'Off';
+$string['on'] = 'On';
+$string['restore'] = 'Berreskuratu';
+$string['settings'] = 'Ezarpenak';
+$string['subscribe'] = 'Harpidetu';
+$string['version'] = 'bertsioa';
+$string['warning'] = 'Kontuz!';
 
 ?>
