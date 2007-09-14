@@ -281,6 +281,7 @@ $string['outcomesstandard'] = '標準アウトカム';
 $string['outcomesstandardavailable'] = '利用可能な標準アウトカム';
 $string['outcomestandard'] = '標準アウトカム';
 $string['outcomestandardhelp'] = '標準アウトカムはサイト全体およびすべてのコースで利用可能です。';
+$string['overallaverage'] = '全平均';
 $string['overallavg'] = '全平均';
 $string['overridden'] = 'オーバーライド';
 $string['pctoftotalgrade'] = '評点合計の%%';
