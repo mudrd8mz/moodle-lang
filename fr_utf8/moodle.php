@@ -1327,6 +1327,7 @@ $string['status'] = 'Statut';
 $string['strftimedate'] = '%%d %%B %%Y';
 $string['strftimedateshort'] = '%%d %%B';
 $string['strftimedatetime'] = '%%d %%B %%Y, %%H:%%M';
+$string['strftimedatetimeshort'] = '%%d.%%m.%%Y %%H:%%M';
 $string['strftimedaydate'] = '%%A %%d %%B %%Y';
 $string['strftimedaydatetime'] = '%%A %%d %%B %%Y, %%H:%%M';
 $string['strftimedayshort'] = '%%A %%d %%B';
