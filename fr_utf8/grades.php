@@ -301,6 +301,7 @@ $string['outcomesstandard'] = 'Objectifs standards';
 $string['outcomesstandardavailable'] = 'Objectifs standards disponibles';
 $string['outcomestandardhelp'] = 'Les objectifs standards sont disponible dans tous le site, pour tous les cours.';
 $string['outcomestandard'] = 'Objectif standard';
+$string['overallaverage'] = 'Moyenne globale';
 $string['overallavg'] = 'Moyenne globale';
 $string['overridden'] = 'Court-circuité';
 $string['overriddenhelp'] = 'Ce réglage permet d\'éviter toute tentative future d\'ajustement automatique de la valeur de la note. Ce réglage est souvent fixé de façon interne par le carnet de notes, mais peut être modifié manuellement ici.';
