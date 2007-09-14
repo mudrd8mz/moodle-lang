@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007090600)
+      // moodle.php - created with Moodle 1.9 Beta + (2007091400)
 
 
 $string['action'] = '操作';
@@ -1344,6 +1344,7 @@ $string['status'] = '状態';
 $string['strftimedate'] = '%%Y年 %%m月 %%d日';
 $string['strftimedateshort'] = '%%m/%%d';
 $string['strftimedatetime'] = '%%Y年 %%m月 %%d日 %%H:%%M';
+$string['strftimedatetimeshort'] = '%%Y年 %%m月 %%d日 %%H:%%M';
 $string['strftimedaydate'] = '%%Y年 %%m月 %%d日(%%A)';
 $string['strftimedaydatetime'] = '%%Y年 %%m月 %%d日(%%A) %%H:%%M';
 $string['strftimedayshort'] = '%%Y年 %%m月 %%d日';
