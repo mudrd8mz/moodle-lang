@@ -2,23 +2,19 @@
       // error.php - created with Moodle 1.8 + (2007021502)
 
 
-$string['usernotdeletederror'] = 'Usuario no eliminado: error desconocido';
-$string['usernotdeletedmissing'] = 'Usuario no eliminado: no se encontró el nombre de usuario.';
-$string['cannotassignrole'] = 'No se puede asignar rol en el curso';
-$string['cannotcustomizelocallang'] = 'Usted no tiene permiso para personalizar la traducción de cadenas. Este permiso viene controlado por la utilidad \"moodle/site:langeditlocal\". Ajuste esta utilidad para poder editar paquetes de idioma local en el caso de que quiera modificar las traducciones en su sitio.';
-$string['cannoteditmasterlang'] = 'No tiene permiso para editar el paquete de idioma maestro. Este permiso viene controlado por la utilidad \"moodle/site:langeditmaster\". Ajuste esta utilidad para poder editar paquetes de idioma maestro en el caso de que usted sea el mantenedor de un paquete determinado.';
-$string['cannotviewprofile'] = 'No puede ver el perfil de este usuario.';
-$string['duplicateusername'] = 'Nombre de usuario duplicado: registro pasado por alto';
-$string['usernotupdatederror'] = 'Usuario no actualizado - error desconocido';
 $string['adminprimarynoedit'] = 'El administrador primario no puede ser editado por otros';
+$string['cannotassignrole'] = 'No se puede asignar rol en el curso';
 $string['cannotcreatelangdir'] = 'No se puede crear el directorio lang.';
 $string['cannotcreatetempdir'] = 'No se puede crear el directorio temp.';
+$string['cannotcustomizelocallang'] = 'Usted no tiene permiso para personalizar la traducción de cadenas. Este permiso viene controlado por la utilidad \"moodle/site:langeditlocal\". Ajuste esta utilidad para poder editar paquetes de idioma local en el caso de que quiera modificar las traducciones en su sitio.';
 $string['cannotdownloadcomponents'] = 'No se puede descargar componentes.';
 $string['cannotdownloadzipfile'] = 'No se puede descargar el archivo ZIP.';
+$string['cannoteditmasterlang'] = 'No tiene permiso para editar el paquete de idioma maestro. Este permiso viene controlado por la utilidad \"moodle/site:langeditmaster\". Ajuste esta utilidad para poder editar paquetes de idioma maestro en el caso de que usted sea el mantenedor de un paquete determinado.';
 $string['cannotfindcomponent'] = 'No se puede encontrar el componente.';
 $string['cannotsavemd5file'] = 'No se puede guardar el archivo md5.';
 $string['cannotsavezipfile'] = 'No se puede guardar el archivo ZIP.';
 $string['cannotunzipfile'] = 'No se puede descomprimir el archivo.';
+$string['cannotviewprofile'] = 'No puede ver el perfil de este usuario.';
 $string['cantunenrollfrommetacourse'] = 'No se puede dar de baja de este metacurso.';
 $string['cantunenrollinthisrole'] = 'No puede darse de baja de este curso mientras tenga su rol actual.';
 $string['cmunknown'] = 'No se ha podido encontrar este módulo';
@@ -27,6 +23,7 @@ $string['confirmsesskeybad'] = 'Lo sentimos, pero su clave de sesión no ha podi
 $string['couldnotassignrole'] = 'Al intentar asignarle un rol, ha ocurrido un error grave no especificado';
 $string['coursegroupunknown'] = 'No se ha especificado el curso correspondiente al grupo $a';
 $string['downloadedfilecheckfailed'] = 'Ha fallado la comprobación del archivo descargado.';
+$string['duplicateusername'] = 'Nombre de usuario duplicado: registro pasado por alto';
 $string['errorcleaningdirectory'] = 'Error al limpiar el directorio  \"$a\"';
 $string['errorcopyingfiles'] = 'Error al copiar archivos';
 $string['errorcreatingdirectory'] = 'Error al crear el directorio  \"$a\"';
@@ -82,6 +79,7 @@ $string['pluginrequirementsnotmet'] = 'No se ha podido instalar el plugin \"$a->
 $string['processingstops'] = 'El procesamiento acaba aquí. Se pasan por alto los demás registros.';
 $string['remotedownloadnotallowed'] = 'No está permitido descargar los componentes a su servidor (allow_url_fopen está deshabilitado).<br /><br />Debe descargar el archivo <a href=\"$a->url\">$a->url</a> manualmente, y copiarlo a \"$a->dest\"';
 $string['restricteduser'] = 'Lo sentimos, su cuenta \"$a\" no puede hacer esto.';
+$string['scheduledbackupsdisabled'] = 'Las copias de seguridad programadas han sido deshabilitadas por el administrador del sitio';
 $string['sendmessage'] = 'Enviar mensaje';
 $string['sessionerroruser'] = 'Su sesión ha excedido el tiempo límite. Por favor, ingrese de nuevo.';
 $string['sessionerroruser2'] = 'Se ha detectado un error del servidor que afecta a su sesión de acceso. Por favor, acceda de nuevo o reinicie su navegador.';
@@ -94,8 +92,11 @@ $string['unknownuseraction'] = 'Lo sentimos, no podemos entender esta acción de
 $string['usernotaddederror'] = 'No se agregó el usuario \"$a\" - error desconocido';
 $string['usernotaddedregistered'] = 'No se agregó el usuario \"$a\" - ya está registrado';
 $string['usernotavailable'] = 'Usted no puede acceder a los detalles de este usuario.';
+$string['usernotdeletederror'] = 'Usuario no eliminado: error desconocido';
+$string['usernotdeletedmissing'] = 'Usuario no eliminado: no se encontró el nombre de usuario.';
 $string['usernotrenamedexists'] = 'Usuario no renombrado - el nuevo nombre de usuario ya está en uso.';
 $string['usernotrenamedmissing'] = 'Usuario no renombrado - no se ha podido encontrar el nombre de usuario anterior.';
+$string['usernotupdatederror'] = 'Usuario no actualizado - error desconocido';
 $string['wrongdestpath'] = 'Ruta de destino errónea.';
 $string['wrongsourcebase'] = 'Base de fuente de URL errónea.';
 $string['wrongzipfilename'] = 'Nombre de archivo ZIP erróneo.';

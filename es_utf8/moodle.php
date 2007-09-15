@@ -2,6 +2,9 @@
       // moodle.php - created with Moodle 1.8 + (2007021502)
 
 
+$string['nologsfound'] = 'No se han encontrado registros';
+$string['scheduledbackupsinactive'] = 'Las copias de seguridad programadas han sido habilitadas por el administrador del sitio';
+$string['strftimedatetimeshort'] = '%%d/%%m/%%Y %%H:%%M';
 $string['backupsitefileshelp'] = 'Si se activa esta opción, los archivos del sitio usados en los cursos se incluirán en copias de seguridad automatizadas';
 $string['categoryname'] = 'Nombre de la categoría';
 $string['confirmcheckfull'] = '¿Está absolutamente seguro de que quiere confirmar $a?';
