@@ -6,9 +6,12 @@
 $string['addall'] = 'Agregar todos a la selección';
 $string['addsel'] = 'Agregar a la selección';
 $string['available'] = 'Disponible';
-$string['removeall'] = 'Limpiar selección';
-$string['removesel'] = 'Eliminar de la selección';
+$string['deleteall'] = 'Quitar todos los usuarios';
+$string['deletesel'] = 'Quitar usuarios seleccionados';
+$string['removeall'] = 'Eliminar todos los usuarios disponibles';
+$string['removesel'] = 'Eliminar los usuarios disponibles seleccionados';
 $string['selected'] = 'Seleccionados';
+$string['selectedlist'] = 'Lista de usuarios seleccionados...';
 $string['usersfound'] = '$a usuario(s) encontrado(s).';
 $string['usersinlist'] = 'Usuarios en lista';
 $string['usersselected'] = '$a usuario(s) seleccionado(s).';
