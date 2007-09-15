@@ -64,11 +64,12 @@ $string['pagenotexist'] = 'Neočakávaná chyba (požadovaná stránka neexistuj
 $string['pleasereport'] = 'Ak môžete, pošlite nám prosím správu s opisom operácie, ktorú ste sa pokúšali vykonať a ktorá viedla k chybe:';
 $string['pluginrequirementsnotmet'] = 'Zásuvný modul \"$a->pluginname\" ($a->pluginversion) sa nepodarilo nainštalovať -- vyžaduje vyššiu verziu Moodle (používate verziu $a->currentmoodle, potrebujete verziu $a->requiremoodle).';
 $string['processingstops'] = 'Tu sa ukončilo spracovávanie. Zostávajúce záznamy boli ignorované.';
-$string['remotedownloadnotallowed'] = 'Nahrávanie komponentov na server nie je povolené (direktíva allow_url_fopen je v stave \'vypnuté\').<br /><br />Musíte súbor stiahnuť <a href=\"$a->url\">$a->url</a> ručne, skopírovat ho na serveri do umiestnenia \"$a->dest\" a tam ho dekomprimovať.';
+$string['remotedownloadnotallowed'] = 'Nahrávanie komponentov na server nie je povolené (direktíva allow_url_fopen je v stave \'vypnuté\').<br /><br />Musíte súbor stiahnuť <a href=\"$a->url\">$a->url</a> ručne, skopírovať ho na serveri do umiestnenia \"$a->dest\" a tam ho dekomprimovať.';
 $string['restricteduser'] = 'Ľutujeme, ale súčasnému účtu \"$a\" nebolo dovolené toto previesť.';
+$string['scheduledbackupsdisabled'] = 'Automatické zálohovanie bolo administrátorom servera vypnuté';
 $string['sendmessage'] = 'Odoslať správu';
 $string['sessionerroruser'] = 'Boli ste príliš dlho nečinný a Vaše prihlásenie sa stalo neplatným. Prosím prihláste sa znovu.';
-$string['sessionerroruser2'] = 'Objavila sa chyba na serveri, která ovplyvňuje vaše prihlásenie. Prosím, prihláste sa znova alebo reštartujte váš prohliadač.';
+$string['sessionerroruser2'] = 'Objavila sa chyba na serveri, ktorá ovplyvňuje vaše prihlásenie. Prosím, prihláste sa znova alebo reštartujte váš prehliadač.';
 $string['sessionipnomatch'] = 'Ľutujeme, ale Vaše IP číslo sa od Vášho prvého prihlásenia zmenilo. Toto bezpečnostné opatrenie zabraňuje útočníkom vydávať sa za prihláseného používateľa. Bežným používateľom by sa táto správa nemala zobraziť - kontaktujte Vášho administrátora a požiadajte ho o pomoc.';
 $string['statscatchupmode'] = 'Prebieha spracovanie štatistík. Doteraz boli spracované štatistiky za $a->daysdone dní, ešte ostáva $a->dayspending dní. Skúste neskôr!';
 $string['unicodeupgradeerror'] = 'Ľutujeme. Vaša databáza zatiaľ nepoužíva kódovanie Unicode a táto verzia Moodle nie je schopná migráciu na Unicode vykonať. Prosím, urobte najprv upgrade na verziu 1.7.x a spusťte proces migrácie na Unicode zo stránky Administratíve. Potom budete môcť migrovať na Moodle $a';
