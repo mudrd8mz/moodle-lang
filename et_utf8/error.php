@@ -1,7 +1,4 @@
-<?PHP // $Id$ 
-      // error.php - created with Moodle 1.5.2 (2005060220)
-
-
+<?php
 $string['adminprimarynoedit'] = 'Peaadministraatorit ei saa teised muuta.';
 $string['confirmsesskeybad'] = 'Vabandame, aga sinu sessiooni võtit ei suudetud kinnitada selle tegevuse sooritamiseks. Selline turvalisuse vahend takistab tähtsate funktsioonide kogemata või pahatahtlikult käivitamist sinu nime alt. Palun tee kindlaks, kas sa tõesti soovisid käivitada seda funktsiooni.';
 $string['coursegroupunknown'] = 'Rühmale $a vastavat kursust ei ole määratud';
@@ -23,5 +20,6 @@ $string['unknowncourse'] = 'Tundmatu kursus \"$a\"';
 $string['usernotaddederror'] = 'Kasutajat \"$a\" ei lisatud - tundmatu viga';
 $string['usernotaddedregistered'] = 'Kasutajat \"$a\" ei lisatud - selline kasutaja on juba olemas';
 $string['usernotavailable'] = 'Selle kasutaja üksikasjad ei ole sinule nähtavad.';
-
+$string['onlyadmins']='Ainult administraatorid saavada seda teha';
 ?>
+

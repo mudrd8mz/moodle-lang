@@ -1,7 +1,6 @@
-<?PHP // $Id$ 
-      // mediaplugin.php - created with Moodle 1.5.2 (2005060220)
-
-
-$string['filtername'] = 'Multimeedia pistikud';
-
+<?php
+$string['filtername']='Multimeedia pistikud';
+$string['flashanimation']='Flash animatsioon';
+$string['flashvideo']='Flash video';
+$string['mp3audio']='MP3 heli';
 ?>

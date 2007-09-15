@@ -1,7 +1,4 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8.1+ (2007021510)
-
-
 $string['addresource'] = 'Lisa kursuse materjalid';
 $string['back'] = 'Tagasi';
 $string['chooseafile'] = 'Vali või lae üles fail';
@@ -64,6 +61,7 @@ $string['newwindowopen'] = 'Ava kursuse materjalid uues hüpikaknas';
 $string['notallowedlocalfileaccess'] = 'Juurdepääs lokaalsetele failidele on hetkel keelatud, seega see kursuse materjal ei ole praegu kättesaadav.';
 $string['note'] = 'Märkus';
 $string['notefile'] = 'Kui soovid kursusele rohkem faile üles laadida (nii et nad ilmuksid selles nimekirjas), siis kasuta
+
 <a href=\"$a\">Failide haldust</a>.';
 $string['notypechosen'] = 'Pead valima tüübi. Vajuta \"Tagasi\" nuppu ja proovi uuesti.';
 $string['pagedisplay'] = 'Näita kursuse materjale samas aknas';
@@ -94,5 +92,7 @@ $string['serverurl'] = 'Serveri URL ($a->wwwroot)';
 $string['showcourseblocks'] = 'Näita kursuse blokke';
 $string['variablename'] = 'Muutuja nimi';
 $string['vol'] = 'Vol';
-
+$string['browserepository']='Sirvi repositooriumi';
+$string['choose']='Vali';
+$string['emptyfolder']='Tühi kaust';
 ?>
