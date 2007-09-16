@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007091400)
+      // moodle.php - created with Moodle 1.9 Beta + (2007091401)
 
 
 $string['action'] = '操作';
@@ -1032,7 +1032,7 @@ $string['noticenewerbackup'] = 'このバックアップファイルは、現在
 $string['notifications'] = '通知';
 $string['notify'] = '通知';
 $string['notifyloginfailuresmessage'] = '$a->time  IP: $a->ip  ユーザ: $a->info';
-$string['notifyloginfailuresmessageend'] = 'これらのログは $a/course/log.php?id=1&amp;chooselog=1&amp;modid=site_errors で閲覧可能です。';
+$string['notifyloginfailuresmessageend'] = 'これらのログは $a/course/report/log/index.php?id=1&amp;chooselog=1&amp;modid=site_errors で閲覧可能です。';
 $string['notifyloginfailuresmessagestart'] = '前回の通知以降の $a におけるログイン失敗一覧です。';
 $string['notifyloginfailuressubject'] = '$a :: ログイン失敗通知';
 $string['notincluded'] = 'バックアップ対象外';
