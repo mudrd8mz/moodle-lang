@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // install.php - created with Moodle 1.8 + (2007021503)
 
 
@@ -243,7 +243,7 @@ $string['welcomep50'] = 'השימוש בכל היישומים בחבילה זו 
 השלמה היא 
 <a href=\"http://www.opensource.org/docs/definition_plain.html\"> קוד פתוח
 </a>
-והיא מבוזרת תחת רשיון
+והיא מבוזרת תחת רישיון
 <a>
 href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a>';
 $string['welcomep60'] = 'העמודים הבאים יובילו אותך בצורה פשוטה דרך כמה צעדים לעיצוב הגדרות <strong>Moodle</strong> במחשבך.

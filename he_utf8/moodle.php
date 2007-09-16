@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // moodle.php - created with Moodle 1.9 Beta + (2007081600)
 
 
@@ -38,7 +38,7 @@ $string['address'] = 'כתובת';
 $string['addstudent'] = 'הוסף סטודנט';
 $string['addsubcategory'] = 'הוסף תת-קטגוריה';
 $string['addteacher'] = 'הוסף מורה';
-$string['admin'] = 'לוח ניהול';
+$string['admin'] = 'מנהל';
 $string['adminbookmarks'] = 'סימניית המנהל';
 $string['adminhelpaddnewuser'] = 'ליצירה ידנית של חשבון משתמש חדש';
 $string['adminhelpassignadmins'] = 'מנהלים יכולים לעשות הכל וללכת לכל מקום באתר';
@@ -392,7 +392,7 @@ $string['down'] = 'למטה';
 $string['downloadexcel'] = 'הורד בפורמט Excel';
 $string['downloadods'] = 'הורד בפורמט ODS';
 $string['downloadtext'] = 'הורד בפורמט טקסט';
-$string['doyouagree'] = 'האם קראת והבנת נאים אלו?';
+$string['doyouagree'] = 'האם קראת והבנת תנאים אלו?';
 $string['duplicate'] = 'העתק';
 $string['duplicatinga'] = 'מעתיק: $a';
 $string['duplicatingain'] = 'מעתיק $a->what ב $a->in';
@@ -734,7 +734,7 @@ $string['latestlanguagepack'] = 'חפש את חבילת השפה האחרונה 
 $string['latestnews'] = 'חדשות אחרונות';
 $string['layouttable'] = 'טבלת תסדיר';
 $string['leavetokeep'] = 'השאר ריק כדי לשמור על סיסמה נוכחית';
-$string['license'] = 'רשיון GPL';
+$string['license'] = 'רישיון GPL';
 $string['liketologin'] = 'האם ברצונך להתחבר כעת עם חשבון משתמש רגיל?';
 $string['list'] = 'רשימה';
 $string['listfiles'] = 'רשימת קבצים ב $a';
@@ -842,7 +842,7 @@ $string['modified'] = 'שונה';
 $string['moduledeleteconfirm'] = 'אתה עומד למחוק לחלוטין את המודול \'$a\'. פעולה זו תמחוק לחלוטין את כל מה שקשור למודול פעילות זה בבסיס הנתונים. האם אתה בטוח שאתה רוצה לעשות זאת?';
 $string['moduledeletefiles'] = 'כל מידע הקשור למודול \'$a->module\' נמחק  מבסיס הנתונים.  בכדי להשלים את המחיקה (ולמנוע מהפרק להתקין את עצמו מחדש), אתה צריך למחוק עכשיו את הספריה $a->directory מהשרת שלך';
 $string['modulesetup'] = 'יוצר טבלאות מודולים';
-$string['modulesuccess'] = '$a טבלאות נוצרו בהצלחה';
+$string['modulesuccess'] = 'טבלאות $a נוצרו בהצלחה';
 $string['moodledocs'] = 'Moodle Docs';
 $string['moodledocslink'] = 'Moodle Docs עבור עמוד זה';
 $string['moodleversion'] = 'גרסת Moodle';

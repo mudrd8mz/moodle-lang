@@ -35,33 +35,10 @@ Thanks.
 First posting of the ISOC-IL project: 14/5/2007.
 Around 80% of the messages and helps files plus some docs files were translated.
 
-
-
 ----------------------------------------------------------------------------------------
 
-Second posting of the ISOC-IL project updated: 17/06/2007
+Additional postings  from 17/06/2007 up to 22/08/2007
 
-
+The strings and help files are applicable to versions 1.8 and 1.9.
 ----------------------------------------------------------------------------------------
-
-Third posting of the ISOC-IL project updated: 07/07/2007
-
-
-
-----------------------------------------------------------------------------------------
-
-Fourth posting of the ISOC-IL project updated: 23/07/2007
-*** This completed the posting for version 1.8 of Moodle
-
-----------------------------------------------------------------------------------------
-
-Fifth posting of the ISOC-IL project updated: 15/08/2007
-*** This completed the posting for version 1.9 of Moodle for this date.
-in addition some of the Help Files.will Be continue soon...
-
-----------------------------------------------------------------------------------------
-
-Fifth posting of the ISOC-IL project updated: 22/08/2007
-*** This completed the posting for version 1.9 of Moodle for this date.
-in addition some of the Help Files. will Be continue soon...
-----------------------------------------------------------------------------------------
+Updating 17 Help files and 4 Php files (strings) non Help files 16/9/07
