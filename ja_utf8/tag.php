@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta + (2007083101)
+      // tag.php - created with Moodle 1.9 Beta + (2007091401)
 
 
 $string['addtagtomyinterests'] = '「 $a 」を私の「興味があること」に追加する';
@@ -36,6 +36,8 @@ $string['tagdescription'] = 'タグ説明';
 $string['tags'] = 'タグ';
 $string['tagsaredisabled'] = 'タグが無効にされています。';
 $string['tagtype'] = 'タグタイプ';
+$string['tagtype_default'] = 'デフォルト';
+$string['tagtype_official'] = 'オフィシャル';
 $string['thingstaggedwith'] = '$a->count 件の項目にタグ「 $a->name 」が付けられています。';
 $string['thistaghasnodesc'] = '現在、このタグには説明がありません。';
 $string['timemodified'] = '修正日時';

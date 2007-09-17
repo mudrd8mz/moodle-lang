@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta + (2007082803)
+      // admin.php - created with Moodle 1.9 Beta + (2007091401)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -25,7 +25,7 @@ $string['autologinguests'] = 'ゲストのオートログイン';
 $string['availablelangs'] = '利用可能な言語パック';
 $string['backgroundcolour'] = '透過色';
 $string['backups'] = 'バックアップ';
-$string['badwordsconfig'] = 'カンマで区切られた使用禁止用語を入力してください。';
+$string['badwordsconfig'] = '使用禁止用語をカンマで区切って入力してください。';
 $string['badwordsdefault'] = '使用禁止用語リストが空の場合、言語パックからデフォルトリストが使用されます。';
 $string['badwordslist'] = '特別使用禁止用語リスト';
 $string['blockinstances'] = 'インスタンス';
