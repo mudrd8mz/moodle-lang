@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 Beta + (2007090600)
+      // quiz.php - created with Moodle 1.9 Beta + (2007091702)
 
 
 $string['1day'] = '1日';
@@ -451,6 +451,7 @@ $string['regrade'] = 'すべての受験を再評定する';
 $string['regradecomplete'] = 'すべての受験が再評定されました。';
 $string['regradecount'] = '$a->attempt 中 $a->changed の評点が変更されました。';
 $string['regradedisplayexplanation'] = '再評定により変更された受験結果は、ハイパーリンクとして問題レビューウィンドウに表示されます。';
+$string['regradenotallowed'] = 'あなたには、この小テストを再評定するパーミッションがありません。';
 $string['regradingquestion'] = '「 $a 」の再評定';
 $string['regradingquiz'] = '問題「 $a 」の再評定';
 $string['relative'] = '相対度数';

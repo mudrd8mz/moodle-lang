@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 Beta + (2007090600)
+      // grades.php - created with Moodle 1.9 Beta + (2007091702)
 
 
 $string['activities'] = '活動';
@@ -150,6 +150,7 @@ $string['gradeexceptionshelp'] = '評定例外ヘルプ';
 $string['gradehelp'] = '評定ヘルプ';
 $string['gradeitem'] = '評定項目';
 $string['gradeitemaddusers'] = '評定から除外する';
+$string['gradeitemislocked'] = 'この活動は、評定表でロックされています。評定表のロックが解除されるまで、この活動に関する評定の変更は評定表にコピーされません。';
 $string['gradeitemlocked'] = '評定ロック中';
 $string['gradeitemmembersselected'] = '評定から除外する';
 $string['gradeitemnonmembers'] = '評定対象とする';
@@ -234,7 +235,7 @@ $string['max'] = '最高';
 $string['maxgrade'] = '満点';
 $string['meanall'] = 'すべての評点';
 $string['meangraded'] = '空白ではない評点';
-$string['meanselection'] = '平均に使用する評点';
+$string['meanselection'] = 'カラム平均に使用する評点';
 $string['median'] = '中央値';
 $string['min'] = '最低';
 $string['mode'] = '最頻値';
@@ -356,6 +357,7 @@ $string['statslink'] = '統計';
 $string['student'] = '学生';
 $string['studentsperpage'] = '1ページあたりの学生数';
 $string['subcategory'] = 'ノーマルカテゴリ';
+$string['submissions'] = '提出';
 $string['synclegacygrades'] = 'レガシー評定を同期させる';
 $string['topcategory'] = 'スーパーカテゴリ';
 $string['total'] = '合計';
