@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 + (2007021502)
+      // admin.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['accessdenied'] = 'Accesso vietato';
@@ -234,6 +234,7 @@ $string['cronerrorpassword'] = 'Spiacente, non è stata fornita una password val
 $string['cronremotepassword'] = 'Cron password per accesso remoto';
 $string['cronwarning'] = 'Lo  <a href=\"cron.php\">script della routine cron.php</a> non è stato lanciato nelle ultime 24 ore.';
 $string['curlrecommended'] = 'L\'installazione della libreria opzionale Curl è fortemente raccomandata per abilitare la funzionalità di Rete di Moodle.';
+$string['customcheck'] = 'Altri controlli';
 $string['datarootsecuritywarning'] = 'La configurazione del tuo sito potrebbe non essere al sicuro. Accertati che la tua cartella dataroot ($a) non sia direttamente accessibile via web.';
 $string['dbmigrate'] = 'Migrazione base di dati Moodle';
 $string['dbmigrateconnecerror'] = 'Non è possibile connettersi alla base dati specificata.';
@@ -490,6 +491,9 @@ $string['protectusernames'] = 'Proteggere gli username';
 $string['proxyhost'] = 'Host proxy';
 $string['proxyport'] = 'Porta proxy';
 $string['quarantinedir'] = 'Cartella per quarantena';
+$string['question'] = 'Domanda';
+$string['questioncwqpfscheck'] = 'Una o più domande \"a caso\" in un quiz sono impostate in modo da pescare le domande da un misto di categorie condivise e non. Esiste un <a href=\"$a->reporturl\">rapporto più dettagliato</a> e leggi anche la <a href=\"$a->docsurl\">pagina</a> di Moodle Docs.';
+$string['questioncwqpfsok'] = 'Bene. Non ci sono domande \"a caso\" nei tuoi quiz impostate in modo da pescare le domande da un misto di categorie condivise e non.';
 $string['rcache'] = 'Record cache';
 $string['rcachettl'] = 'Record cache TTL';
 $string['releasenoteslink'] = 'Per informazioni su questa versione di Moodle, si prega di consultare le <a target=\"_new\" href=\"$a\">Note di rilascio</a> in linea';
@@ -515,6 +519,7 @@ $string['searchresults'] = 'Risultati ricerca';
 $string['secureforms'] = 'Applica maggiore sicurezza per i form';
 $string['security'] = 'Sicurezza';
 $string['server'] = 'Server';
+$string['serverchecks'] = 'Controlli Server';
 $string['sessioncookie'] = 'Prefisso cookie';
 $string['sessioncookiepath'] = 'Percorso cookie';
 $string['sessionhandling'] = 'Gestione sessione';
@@ -572,8 +577,8 @@ $string['updatecomponent'] = 'Aggiornare componenti';
 $string['updatelangs'] = 'Aggiornare tutti i language pack installati';
 $string['updatetimezones'] = 'Fusi orari';
 $string['upgradeforumread'] = 'Una nuova caratteristica è stata aggiunta a Moodle 1.5 per tracciare i messaggi letti/non letti di un forum.<br />Per utilizzarla, bisogna<a href=\"$a\">aggiornare le vostre tabelle</a>.';
-$string['upgradeforumreadinfo'] = 'Una nuova caratteristica è stata aggiunta a Moodle 1.5 per tracciare i messaggi letti/non letti di un forum. Per utilizzarla, bisogna aggiornare le vostre tabelle con tutte le informazioni di tracciamento dei messaggi pre-esistenti. Il tempo di esecuzione dipende dalle dimensioni del vostro sito e potrebbe durare anche ore, sottoponendo il server ad un lavoro gravoso. E\' dunque consigliabile farlo in un momento tranquillo. In ogni caso, il sito continuerà  a funzionare durante questa operazione e gli utenti non ne saranno interessati. Una volta lanciato, il processo non dovrebbe essere interrotto, lasciando aperta la finestra del browser. Se si fermasse il processo, chiudendo la finestra del browser, niente paura: si può sempre ricominciare. < br /><br />Si desidera iniziare adesso il processo di aggiornamento?';
-$string['upgradelogs'] = 'Per la piena funzionalità , i vostri vecchi log devono essere aggiornati. <a href=\"$a\">Ulteriori informazioni</a>';
+$string['upgradeforumreadinfo'] = 'Una nuova caratteristica è stata aggiunta da Moodle 1.5 per tracciare i messaggi letti/non letti di un forum. Per utilizzarla, bisogna aggiornare le vostre tabelle con tutte le informazioni di tracciamento dei messaggi pre-esistenti. Il tempo di esecuzione dipende dalle dimensioni del vostro sito e potrebbe durare anche ore, sottoponendo il server ad un lavoro gravoso. E\' dunque consigliabile farlo in un momento tranquillo. In ogni caso, il sito continuerà  a funzionare durante questa operazione e gli utenti non ne saranno interessati. Una volta lanciato, il processo non dovrebbe essere interrotto, lasciando aperta la finestra del browser. Se si fermasse il processo, chiudendo la finestra del browser, niente paura: si può sempre ricominciare. < br /><br />Si desidera iniziare adesso il processo di aggiornamento?';
+$string['upgradelogs'] = 'Per la piena funzionalità, i vostri vecchi log devono essere aggiornati. <a href=\"$a\">Ulteriori informazioni</a>';
 $string['upgradelogsinfo'] = 'Alcune modifiche hanno cambiato il modo in cui vengono salvati alcuni log. Per poter visualizzare tutti i vecchi log su una base di per-attività , è necessario aggiornarli. In base al tuo sito questa operazione può richiedere molto tempo (es alcune ore) e può essere grosso lavoro per la base dati dei siti grandi. Una volta che l\'aggiornamento è iniziato devi lasciarlo terminare (mantenendo la finestra del browser aperta). Non preoccuparti - il tuo sito continuerà  a lavorare correttamente mentre i log vengono aggiornati.<br /><br />Vuoi aggiornare i log ora?';
 $string['upgradesettings'] = 'Nuove impostazioni';
 $string['upgradesettingsintro'] = 'Le impostazioni mostrate sotto sono state aggiunte durante l\'ultimo tuo aggiornamento di Moodle. Apporta tutti i cambiamenti necessari ai valori default e poi clicca su \"Salva modifiche\" in fondo a questa pagina';

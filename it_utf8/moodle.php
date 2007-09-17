@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8.1 (2007021510)
+      // moodle.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['action'] = 'Azione';
@@ -36,6 +36,7 @@ $string['addnousersrecip'] = 'Aggiungere gli utenti che non hanno mai esaminato 
 $string['addresource'] = 'Aggiungi una risorsa...';
 $string['address'] = 'Indirizzo';
 $string['addstudent'] = 'Aggiungi studente';
+$string['addsubcategory'] = 'Aggiungi una sotto-categoria';
 $string['addteacher'] = 'Aggiungi docente';
 $string['admin'] = 'Amministratore';
 $string['adminbookmarks'] = 'Segnalibri Amministratore';
@@ -208,7 +209,7 @@ $string['choosereportfilter'] = 'Scegli un filtro per il rapporto';
 $string['choosetheme'] = 'Scegli un tema';
 $string['chooseuser'] = 'Scegli un utente';
 $string['city'] = 'Città /Località';
-$string['clambroken'] = 'Il vostro amministratore ha abilitato il controllo dei virus per i file inviati ma ha sbagliato qualcosa.<br />Il vostro file NON è stato correttamente inviato. Il vostro amministratore è stato avvertito tramite mail in modo che possa correggere il problema.<br /> Provate ad inviare il file più tardi.';
+$string['clambroken'] = 'L\'amministratore di Moodle ha abilitato il controllo dei virus per i file inviati ma ha sbagliato qualcosa.<br />Il tuo file NON è stato correttamente inviato. L\'amministratore è stato avvertito tramite email in modo che possa risolvere il problema.<br /> Riprova ad inviare il file più tardi.';
 $string['clamdeletedfile'] = 'Il file è stato cancellato';
 $string['clamdeletedfilefailed'] = 'Il file non può essere cancellato';
 $string['clamemailsubject'] = '$a :: Notifica Clam AV';
@@ -388,7 +389,7 @@ $string['doyouagree'] = 'Hai letto queste condizioni e le hai accettate?';
 $string['duplicate'] = 'Duplicare';
 $string['duplicatinga'] = 'Duplicazione: $a';
 $string['duplicatingain'] = 'Duplicazione di $a->what in $a->in';
-$string['edhelpaspellpath'] = 'Per usare il controllo ortografico nell\'editor HTML, è necessario installare <strong>aspell 0.50</strong> o una versione successiva sul vostro server. Inoltre è necessario specificare il percorso di accesso alle librerie aspell nella configurazione di Moodle. Su sistemi Unix/Linux, in genere il percorso è <strong>/usr/bin/aspell</strong>.';
+$string['edhelpaspellpath'] = 'Per usare il controllo ortografico nell\'editor HTML, è necessario installare <strong>aspell 0.50</strong> o una versione successiva sul server. Inoltre è necessario specificare il percorso di accesso alle librerie aspell nella configurazione di Moodle. Su sistemi Unix/Linux, in genere il percorso è <strong>/usr/bin/aspell</strong>.';
 $string['edhelpbgcolor'] = 'Imposta il colore di sfondo dell\'area di edit.<br /> Valori possibili sono per esempio: #ffffff o white';
 $string['edhelpcleanword'] = 'Questa impostazione abilita o disabilita il filtro del formato Word.';
 $string['edhelpenablespelling'] = 'Abilita o disabilita il controllo ortografico. Quando abilitato <strong>aspell</strong> deve essere installato sul server.';
@@ -510,7 +511,8 @@ $string['enrolme'] = 'Iscrivimi in questo corso';
 $string['enrolmentconfirmation'] = 'Stai per iscriverti a questo corso.<br /> Sei sicuro di volerlo fare?';
 $string['enrolmentend'] = 'Termini iscrizione';
 $string['enrolmentkey'] = 'Chiave di iscrizione';
-$string['enrolmentkeyfrom'] = 'Questo corso richiede una \'chiave di iscrizione\' - una sola volta -<br /> password che dovresti ottenere da $a';
+$string['enrolmentkeyfrom'] = 'Questo corso richiede una \'chiave di iscrizione\' - una sola volta -<br /> chiave che dovresti aver ricevuta da $a';
+$string['enrolmentkeyfromguest'] = 'Questo corso richiede una \'chiave di iscrizione\' - come ospite -<br /> chiave che dovresti aver ricevuta da $a';
 $string['enrolmentkeyhint'] = 'Questa chiave di iscrizione è inesatta, riprovare, prego.<br />
 
 (Questo è un suggerimento - essa inizia con \'$a\')';
@@ -555,7 +557,7 @@ $string['expirynotifystudentsemail'] = 'Caro studente:
 
 Questo è un avviso per segnalare che l\'iscrizione al corso $a->course scadrà tra $a->threshold giorni.
 
-Siete pregati di contattare il vostro docente per ogni altra domanda.';
+Sei pregato di contattare il tuo docente per ulteriori chiarimenti.';
 $string['expirythreshold'] = 'Limite';
 $string['explanation'] = 'Spiegazione';
 $string['extendenrol'] = 'Estendi iscrizione';
@@ -624,7 +626,7 @@ $string['gd1'] = 'GD 1.x è installato';
 $string['gd2'] = 'GD 2.x è installato';
 $string['gdneed'] = 'GD deve essere installato per vedere questo grafico';
 $string['gdnot'] = 'GD non è installato';
-$string['gettheselogs'] = 'Prendi questi log';
+$string['gettheselogs'] = 'Mostra questi log';
 $string['go'] = 'Vai';
 $string['gpl'] = 'Copyright (C) dal 1999 in poi  Martin Dougiamas 
 (http://moodle.com)
@@ -776,7 +778,7 @@ $string['login'] = 'Login';
 $string['login_failure_logs'] = 'Log accessi falliti';
 $string['loginalready'] = 'Sei già collegato';
 $string['loginas'] = 'Login come';
-$string['loginaspasswordexplain'] = '<p>È necessario impostare la speciale \"password login come\" per utilizzare questa caratteristica.<br />Se non la conoscete, chiedete al vostro amministratore del server.</p>';
+$string['loginaspasswordexplain'] = '<p>È necessario impostare la speciale \"password login come\" per utilizzare questa caratteristica.<br />Se non la conoscete, chiedete all\'amministratore del server.</p>';
 $string['loginguest'] = 'Login come ospite';
 $string['loginsite'] = 'Login al sito';
 $string['loginsteps'] = 'Salve! Per un pieno accesso ai corsi hai bisogno di un minuto per creare un tuo account su questo sito.
@@ -853,13 +855,13 @@ $string['missingcategory'] = 'Devi scegliere una categoria';
 $string['missingcity'] = 'Non hai inserito città/località';
 $string['missingcountry'] = 'Non hai scelto lo stato';
 $string['missingdescription'] = 'Non hai inserito la descrizione';
-$string['missingemail'] = 'Non hai inserito email';
+$string['missingemail'] = 'Non hai inserito l\'email';
 $string['missingfirstname'] = 'Non hai inserito il nome';
 $string['missingfullname'] = 'Non hai inserito il nome intero';
 $string['missinglastname'] = 'Non hai inserito il cognome';
 $string['missingname'] = 'Non hai inserito il nome';
 $string['missingnewpassword'] = 'Nuova password mancante';
-$string['missingpassword'] = 'Non hai inserito una password';
+$string['missingpassword'] = 'Non hai inserito la password';
 $string['missingreqreason'] = 'Motivazione mancante';
 $string['missingshortname'] = 'Nome breve mancante';
 $string['missingshortsitename'] = 'Nome breve del sito mancante';
@@ -1048,18 +1050,17 @@ $string['participationreport'] = 'Rapporto partecipazione';
 $string['password'] = 'Password';
 $string['passwordchanged'] = 'La password è stata modificata';
 $string['passwordconfirmchange'] = 'Conferma il cambiamento di password';
-$string['passwordextlink'] = 'Il link seguente è stato fornito per recuperare la password smarrita. Questo vi porterà fuori da Moodle';
+$string['passwordextlink'] = 'Il link seguente è stato fornito per recuperare la password smarrita. Questo vi porterà fuori da Moodle.';
 $string['passwordforgotten'] = 'Password dimenticata';
-$string['passwordforgotteninstructions'] = 'I vostri dati devono essere prima trovati nella base dati di Moodle. Prego inserire il nome utente di Moodle o il vostro indirizzo di posta elettronica nella casella appropriata. Non è necessario inserirli entrambi.';
-$string['passwordnohelp'] = 'Non esiste un aiuto per trovare la password smarrita. Sei pregati di contattare l\'amministratore di Moodle.';
-$string['passwordrecovery'] = 'Si per favore aiutatemi per il login';
+$string['passwordforgotteninstructions'] = 'I tuoi dati devono essere prima trovati nella base dati di Moodle. Inserisci il tuo username o la tua email nella casella corrispondente. Non è necessario inserirli entrambi.';
+$string['passwordnohelp'] = 'Non esiste un aiuto per trovare la password smarrita. Sei pregato di contattare l\'amministratore di Moodle.';
+$string['passwordrecovery'] = 'Si, per favore aiutatemi per il login';
 $string['passwordsdiffer'] = 'Queste password non corrispondono';
 $string['passwordsent'] = 'La password è stata spedita';
-$string['passwordsenttext'] = '<p>Un email è stato spedito a $a->email.</p>
-<p><b> Per favore controlla la tua posta per avere la nuova password</b></p>
-<p>La nuova password è stata generata automaticamente, perciò potresti voler andare a
-<a href=\"$a->link\"> per cambiarla in una più facile da ricordare</a>.</p>';
-$string['pathnotexists'] = 'Il percorso non esiste sul vostro server!';
+$string['passwordsenttext'] = '<p>Una email è stata spedita a $a->email.</p>
+<p><b> Per favore controlla la tua posta per la nuova password</b></p>
+<p>La nuova password è stata generata automaticamente, perciò potresti voler <a href=\"$a->link\">cambiarla in una più facile da ricordare</a>.</p>';
+$string['pathnotexists'] = 'Il percorso non esiste sul tuo server!';
 $string['pathslasherror'] = 'Il percorso non può terminare con uno slash!!';
 $string['paymentinstant'] = 'Utilizza il bottone sottostante per pagare ed essere iscritto in pochi minuti!';
 $string['paymentpending'] = '(<small><b><u>$a</u></b> pendenti</small>)';
@@ -1517,8 +1518,8 @@ $string['youareabouttocreatezip'] = 'Stai per creare un file compresso contenete
 $string['youaregoingtorestorefrom'] = 'Stai per recuperare da:';
 $string['youneedtoenrol'] = 'Per effettuare questa operazione bisogna essere iscritti a questo corso.';
 $string['yourlastlogin'] = 'Il tuo ultimo login è stato:';
-$string['yourself'] = 'Te stesso';
-$string['yourteacher'] = 'Vostro $a';
+$string['yourself'] = 'te stesso';
+$string['yourteacher'] = 'tuo $a';
 $string['zippingbackup'] = 'Compressione copia di salvataggio';
 
 ?>

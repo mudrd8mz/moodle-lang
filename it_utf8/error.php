@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8 dev (2006101001)
+      // error.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['adminprimarynoedit'] = 'L\'amministratore principale non può essere modificato dagli altri';
@@ -11,6 +11,7 @@ $string['cannotfindcomponent'] = 'Non è possibile trovare il componente.';
 $string['cannotsavemd5file'] = 'Non è possibile salvare il file md5.';
 $string['cannotsavezipfile'] = 'Non è possibile salvare il file compresso.';
 $string['cannotunzipfile'] = 'Non è possibile scompattare il file.';
+$string['cannotviewprofile'] = 'Non puoi vedere il profilo di questo utente.';
 $string['cantunenrollfrommetacourse'] = 'Non è possibile disiscrivervi da questo metacorso (iscrizioni ereditate).';
 $string['cantunenrollinthisrole'] = 'Non è possibile disiscrivervi da questo corso mentre siete nel ruolo attuale';
 $string['cmunknown'] = 'Non è possibile trovare questo modulo.';
@@ -30,6 +31,8 @@ $string['fieldrequired'] = '\"$a\" è un campo richiesto';
 $string['filenotfound'] = 'Spiacente, il file richiesto non può essere trovato';
 $string['forumblockingtoomanyposts'] = 'Avete superato il limite di messaggi impostato per questo forum.';
 $string['groupalready'] = 'Utente già  appartenente al gruppo $a';
+$string['groupexistforcourse'] = 'Gruppo \"$a\" già esistente per questo corso';
+$string['groupnotaddederror'] = 'Gruppo \"$a\" non aggiunto';
 $string['groupunknown'] = 'Il gruppo $a non è associato al corso specificato';
 $string['guestnoeditprofile'] = 'Gli utenti ospiti non possono modificare il loro profilo';
 $string['guestnoeditprofileother'] = 'Il profilo dell\'utente ospite non può essere modificato';
@@ -37,8 +40,11 @@ $string['invalidcourse'] = 'Corso non valido';
 $string['invalidfieldname'] = '\"$a\" non è nome di campo valido';
 $string['invalidfiletype'] = '\"$a\" non è un tipo di file valido';
 $string['invalidmd5'] = 'MD5 non valido';
+$string['invalidrequest'] = 'Richiesta non valida';
 $string['invalidrole'] = 'Ruolo non valido';
 $string['invalidxmlfile'] = '\"$a\" non è file XML valido';
+$string['loginasnoenrol'] = 'Non si può usare \"iscrivi\" o \"disiscrivi\" se si è in una sessione del corso \"Login come\".';
+$string['loginasonecourse'] = 'Non puoi entrare in questo corso.<br/>Devi prima terminare la sessione \"Login come\" prima di entrare in qualunque altro corso.';
 $string['missingfield'] = 'Manca il campo \"$a\"';
 $string['missingrequiredfield'] = 'Mancano alcuni campi richiesti';
 $string['modulemissingcode'] = 'Nel modulo $a manca il codice necessario per eseguire questa funzione';
@@ -46,6 +52,7 @@ $string['modulerequirementsnotmet'] = 'Il modulo \"$a->modulename\" ($a->modulev
 $string['mustbeteacher'] = 'Bisogna essere docenti per visualizzare questa pagina';
 $string['nocontext'] = 'Spiacente, ma quel corso non è un contesto valido';
 $string['noinstances'] = 'Non ci sono istanze di $a in questo corso!';
+$string['nologinas'] = 'Non ti è permesso l\'accesso come tale utente';
 $string['nonmeaningfulcontent'] = 'Contenuto senza significato';
 $string['noparticipatorycms'] = 'Spiacente, ma il rapporto di partecipazione dei moduli del corso non è attivato.';
 $string['nopermissions'] = 'Spiacente, ma attualmente non avete il permesso per fare questo ($a)';
@@ -61,11 +68,12 @@ $string['remotedownloadnotallowed'] = 'Non è permesso scaricare i componenti su
 $string['restricteduser'] = 'Spiacente, ma il suo account corrente  \"$a\" non ha il permesso per fare questo.';
 $string['sendmessage'] = 'Invia messaggio';
 $string['sessionerroruser'] = 'La sessione è scaduta o è stato rilevato un errore. Si prega effettuare nuovamente il login.';
-$string['sessionerroruser2'] = 'È stato rilevato un errore su server che ha compromesso la vostra sessione di autenticazione. Vi preghiamo di autenticarvi nuovamente o di far ripartire il browser.';
+$string['sessionerroruser2'] = 'È stato rilevato un errore sul server che ha compromesso la vostra sessione di autenticazione. Vi preghiamo di autenticarvi nuovamente o di far ripartire il browser.';
 $string['sessionipnomatch'] = 'Spiacente, ma il vostro IP sembra essere cambiato da quando vi siete autenticati. Questa caratteristica previene il furto della vostra identità  da parte di hackers mentre siete collegati a questo sito. Gli utenti non dovrebbero vedere questo messaggio - chiedere aiuto all\'amministratore del sito.';
 $string['statscatchupmode'] = 'Le statistiche sono attualmente in modalità  di raccolta dati. Sono già  stati elaborati $a->daysdone giorno(i) e $a->dayspending lo devono ancora essere. Ricontrollate presto!';
 $string['unicodeupgradeerror'] = 'Spiacente, ma la vostra base di dati non è ancora in  Unicode, e questa versioen di Moodle non è in grado di migrare la vostra base di dati in Unicode. Si prega di aggiornare a Moodle 1.7.x prima ed effettuare la migrazione a Unicode dalla pagina di Amministrazione. Fatto questo vi sarà possibile migrare a Moodle $a';
-$string['unknowncourse'] = 'Il corso chiamato \"$a\" risulta sconosciuto';
+$string['unknowncourse'] = 'Il corso di nome \"$a\" risulta sconosciuto';
+$string['unknowncourseidnumber'] = 'Il corso con ID \"$a\" risulta sconosciuto';
 $string['unknownuseraction'] = 'Spiacente, non si riesce a capire questa azione dell\'utente';
 $string['usernotaddederror'] = 'L\'utente \"$a\" non è stato aggiunto - errore sconosciuto';
 $string['usernotaddedregistered'] = 'L\'utente \"$a\" non è stato aggiunto - utente già  registrato';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.8 Beta + (2007021501)
+      // qtype_calculated.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addmoreanswerblanks'] = 'Aggiungi un altro spazio risposta.';
@@ -23,6 +23,7 @@ $string['nodataset'] = 'niente - non è un carattere jolly';
 $string['nosharedwildcard'] = 'Nessun carattere jolly condiviso in questa categoria';
 $string['possiblehdr'] = 'Possibili caratteri jolly solo nel testo della domanda';
 $string['tolerance'] = 'Tolleranza &plusmn;';
+$string['updatecategory'] = 'Aggiorna la categoria';
 $string['usedinquestion'] = 'Usato nella domanda';
 $string['youmustenteramultiplierhere'] = 'Deve essere inserito un moltiplicatore.';
 

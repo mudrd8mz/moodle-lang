@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 + (2007021502)
+      // forum.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
@@ -25,6 +25,7 @@ $string['cannotviewpostyet'] = 'Non puoi leggere le domande degli altri studenti
 $string['configcleanreadtime'] = 'L\'ora del giorno in cui vengono eliminati i vecchi messaggi dalla tabella \'lettura\'.';
 $string['configdisplaymode'] = 'La modalità predefinita di visualizzazione per le discussioni.';
 $string['configenablerssfeeds'] = 'Questa opzione abilita l\'utilizzo dei feed RSS per tutti i forum. I singoli feed devono comunque essere attivati manualmente, nelle impostazioni di ogni forum.';
+$string['configenabletimedposts'] = 'Imposta a \'Si\' se vuoi permettere la definizione di periodi di visualizzazione quando si inserisce una nuova discussione in un forum.';
 $string['configlongpost'] = 'Ogni messaggio oltre questa lunghezza (escludendo i tag HTML) è considerato \"lungo\".';
 $string['configmanydiscussions'] = 'Numero massimo di discussioni visualizzate in una pagina';
 $string['configmaxbytes'] = 'Dimensione massima degli allegati per i forum del sito (soggetto a limitazioni imposte a livello di corso e altre impostazioni locali)';

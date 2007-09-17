@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8 + (2007021502)
+      // form.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addfields'] = 'Aggiungi $a campi al form';
@@ -26,6 +26,7 @@ $string['month'] = 'Mese';
 $string['nomethodforaddinghelpbutton'] = 'Non c\'è alcun metodo per aggiungere un pulsante di help all\'elemento $a->name (class $a->classname)';
 $string['nonexistentformelements'] = 'Tentativo di aggiunta di pulsanti di help a elementi di form inesistente: $a';
 $string['optional'] = 'Facoltativo';
+$string['othersettings'] = 'Altre impostazioni';
 $string['requiredelement'] = 'Campo obbligatorio';
 $string['revealpassword'] = 'Mostra';
 $string['security'] = 'Sicurezza';

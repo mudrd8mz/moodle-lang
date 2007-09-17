@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.8 Beta + (2007021501)
+      // grades.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addcategory'] = 'Aggiungi Categoria';
@@ -8,6 +8,7 @@ $string['addexceptionerror'] = 'Si è verificato un errore aggiungendo un eccezi
 $string['allgrades'] = 'Valutazioni per categoria';
 $string['allstudents'] = 'Tutti gli Studenti';
 $string['average'] = 'Media';
+$string['backupwithoutgradebook'] = 'Il backup non contiene la configurazione del Registro Valutazioni';
 $string['bonuspoints'] = 'Punti Bonus';
 $string['categories'] = 'Categorie';
 $string['category'] = 'Categoria';
@@ -88,6 +89,7 @@ $string['pointsdescending'] = 'Ordina per punti decrescenti';
 $string['preferences'] = 'Preferenze';
 $string['rawpct'] = '%% grezza';
 $string['reprintheaders'] = 'Ristampa titoli di testa';
+$string['respectingcurrentdata'] = 'configurazione corrente inalterata';
 $string['savechanges'] = 'Salva modifiche';
 $string['savepreferences'] = 'Salva Preferenze';
 $string['scaledpct'] = 'Scaled %%';

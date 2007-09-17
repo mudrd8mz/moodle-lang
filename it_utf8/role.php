@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 + (2007021502)
+      // role.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addrole'] = 'Aggiungi un nuovo ruolo';
@@ -72,6 +72,7 @@ $string['listallroles'] = 'Elenco di tutti i ruoli';
 $string['manageroles'] = 'Gestisci i ruoli';
 $string['metaassignerror'] = 'Non puoi assegnare questo ruolo all\'utente \"$a\" perché è necessaria la possibilità di gestione dei metacorsi.';
 $string['metaunassignerror'] = 'Il ruolo dell\'utente \"$a\" è stato riassegnato automaticamente. Se necessario disassegnare questo ruolo dai corsi dipendenti.';
+$string['my:manageblocks'] = 'Gestisci i blocchi della pagina \'Il mio Moodle\'';
 $string['nocapabilitiesincontext'] = 'Nessuna possibilità disponibile in questo contesto';
 $string['notset'] = 'Non impostato';
 $string['overrideroles'] = 'Modifica ruoli';

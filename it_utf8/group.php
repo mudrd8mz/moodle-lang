@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8 + (2007021502)
+      // group.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addgroupstogrouping'] = 'Aggiungi gruppo a raggruppamento';
@@ -37,6 +37,7 @@ $string['errornotingrouping'] = 'Spiacente, non puoi creare un gruppo in <b>$a</
 $string['errornotingroupingedit'] = 'Spiacente, non puoi modificare raggruppamento <b>$a</b>';
 $string['existingmembers'] = 'Membri esistenti: <b>$a</b>';
 $string['group'] = 'Gruppo';
+$string['groupaddedsuccesfully'] = 'Gruppo $a aggiunto con successo';
 $string['groupdescription'] = 'Decrizione gruppo';
 $string['groupfor'] = 'per gruppo';
 $string['groupinfo'] = 'Informazioni su gruppo selezionato';
@@ -66,6 +67,7 @@ $string['hidepicture'] = 'Nascondi immagine';
 $string['javascriptrequired'] = 'Questa pagina richiede che Javascript sia abilitato';
 $string['membersofselectedgroup'] = 'Membri del gruppo';
 $string['newpicture'] = 'Nuova immagine';
+$string['nopermissionforcreation'] = 'Non puoi creare il gruppo \"$a\" in quanto non hai le richieste autorizzazioni';
 $string['notingrouping'] = '[Non in raggruppamento]';
 $string['numberofgroups'] = 'Numero di gruppi';
 $string['numberofstudents'] = 'Numero di studenti';

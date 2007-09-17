@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8 + (2007021502)
+      // quiz.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['1day'] = '1 giorno';
@@ -57,6 +57,7 @@ $string['bestgrade'] = 'Voto migliore';
 $string['blackboard'] = 'Blackboard';
 $string['blackboard_6'] = 'Blackboard V6+';
 $string['bothattempts'] = 'Mostra gli studenti con e senza tentativi';
+$string['braceerror'] = 'Non si possono trovare {...} nelle risposte';
 $string['calculated'] = 'con Calcolo';
 $string['calculatedquestion'] = 'Domanda con Calcolo non supportata alla linea $a. La domanda sarà ignorata.';
 $string['cannotcreatepath'] = 'Il percorso non può essere creato ($a)';
@@ -98,6 +99,7 @@ $string['confirmstartattempttimelimit'] = 'Questo quiz ha un tempo massimo di es
 $string['confirmstarttimelimit'] = 'Il Quiz ha un tempo massimo di esecuzione. Sei sicuro di voler iniziare?';
 $string['containercategorycreated'] = 'Questa categoria è stata creata per contenere tutte le categorie originali spostate a livello di sito a causa di quanto sotto specificato.';
 $string['continueattemptquiz'] = 'Riprendi ultimo tentativo';
+$string['continuepreview'] = 'Continua l\'ultima anteprima';
 $string['copyingfrom'] = 'Creazione di una copia della domanda \'$a\'';
 $string['copyingquestion'] = 'Copia di una domanda';
 $string['correct'] = 'Giusto';
@@ -241,6 +243,7 @@ $string['imagemissing'] = 'Immagine non disponibile alla linea $a. Il nome del f
 $string['import'] = 'Importa';
 $string['importcategory'] = 'importa categoria';
 $string['importerror'] = 'Errore durante il processo di importazione';
+$string['importerrorquestion'] = 'Errore nell\'importazione delle domande';
 $string['importfilearea'] = 'Importazione da file già nei files del corso...';
 $string['importfileupload'] = 'Caricamento del file da importare';
 $string['importfromthisfile'] = 'Importazione da questo file';
@@ -254,8 +257,8 @@ $string['indivresp'] = 'Risposte dei singoli ad ogni elemento';
 $string['info'] = 'Info';
 $string['introduction'] = 'Introduzione';
 $string['invalidcategory'] = 'ID categoria non valido';
-$string['invalidnumericanswer'] = 'Una delle risposte introdotte non è costitita da un numero valido.';
-$string['invalidnumerictolerance'] = 'Una delle tolleranze definite non è costitita da un numero valido.';
+$string['invalidnumericanswer'] = 'Una delle risposte introdotte non è costituita da un numero valido.';
+$string['invalidnumerictolerance'] = 'Una delle tolleranze definite non è costituita da un numero valido.';
 $string['invalidsource'] = 'Il sorgente non è accettato come valido.';
 $string['invalidsourcetype'] = 'Tipo sorgente non valido.';
 $string['itemanal'] = 'Analisi delle risposte agli elementi';
@@ -354,6 +357,7 @@ $string['popupnotice'] = 'Gli studenti visualizzeranno questo quiz in una finest
 $string['preview'] = 'Anteprima';
 $string['previewquestion'] = 'Anteprima domanda';
 $string['previewquiz'] = 'Anteprima $a';
+$string['previewquiznow'] = 'Anteprima quiz ora';
 $string['previous'] = 'Stato precedente';
 $string['publish'] = 'Rendere pubblico';
 $string['publishedit'] = 'Devi avere il permesso nel corso da pubblicare per aggiungere o modificare le domande in questa categoria';
@@ -525,7 +529,7 @@ $string['unusedcategorydeleted'] = 'Questa categoria è stata soppressa perché,
 $string['updatesettings'] = 'Aggiorna impostazioni quiz';
 $string['upgradesure'] = '<div style=\"color: red;\">In particolare il modulo quiz  eseguirà  cambiamenti importanti sulle tabelle dei quiz e questo aggiornamento software non è stato ancora sufficientemente testato. Si raccomanda di fare un backup delle tabelle prima di procedere.</div>';
 $string['url'] = 'URL';
-$string['usedcategorymoved'] = 'Questa categoria è stata spostata a livello di sito, perchè, dopo la cancellazione del corso, le domande in essa contenute erano utilizzate da altri quiz esistenti nel server.';
+$string['usedcategorymoved'] = 'Questa categoria è stata spostata a livello di sito, perché, dopo la cancellazione del corso, le domande in essa contenute erano utilizzate da altri quiz esistenti nel server.';
 $string['validate'] = 'Convalida';
 $string['viewallanswers'] = 'Vedi $a quiz completati';
 $string['viewallreports'] = 'Vedi risultati per $a tentativi';
@@ -540,6 +544,8 @@ $string['wronggrade'] = 'Punteggio sbagliato (dopo la linea $a):';
 $string['wronguse'] = 'Non puoi utilizzare la pagina in questo modo';
 $string['xhtml'] = 'Formato XHTML';
 $string['xml'] = 'Moodle XML';
+$string['xmlimportnoname'] = 'Nome mancante nel file xml';
+$string['xmlimportnoquestion'] = 'Testo domanda mancante nel file xml';
 $string['xmltypeunsupported'] = 'Tipo domanda $a non supportata dall\'import xml';
 $string['yourfinalgradeis'] = 'Il tuo voto finale per questo quiz è: $a';
 $string['zerosignificantfiguresnotallowed'] = 'La risposta giusta non può avere zero cifre significative!';

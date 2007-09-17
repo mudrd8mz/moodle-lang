@@ -1,5 +1,6 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 1.8 Beta + (2007021501)
+      // qtype_datasetdependent.php - created with Moodle 1.8.2+ (2007021520)
+
 
 $string['additem'] = 'Aggiungi item';
 $string['atleastonerealdataset'] = 'Ci deve essere almeno un vero dataset nel testo della domanda';
@@ -16,6 +17,7 @@ $string['existingcategory2'] = 'un file da un set già esistente di files usati 
 $string['existingcategory3'] = 'un link da un set già esistente di links usati anche da altre domande in questa categoria';
 $string['forceregeneration'] = 'forza rigenerazione';
 $string['getnextnow'] = 'Prendi ora nuovo \'Item da aggiungere\'';
+$string['item(s)'] = 'item(s)';
 $string['itemno'] = 'Item <b>$a</b>';
 $string['itemscount'] = 'Conteggio<br/>items';
 $string['itemtoadd'] = 'Item da aggiungere';
@@ -25,6 +27,7 @@ $string['keptcategory3'] = 'un link dallo stesso set di links riutilizzabile di 
 $string['keptlocal1'] = 'un\'espressione letterale dallo stesso set di espressioni privato di domande di prima';
 $string['keptlocal2'] = 'un file dallo stesso set di files privato di domande di prima';
 $string['keptlocal3'] = 'un link dallo stesso set di links privato di domande di prima';
+$string['lastitem(s)'] = 'ultimo(i) item(s)';
 $string['loguniform'] = 'Loguniform';
 $string['minmax'] = 'Intervallo di valori';
 $string['newcategory1'] = 'un\'espressione letterale da un nuovo set di espressioni che può anche essere usato da altre domande in questa categoria';
@@ -42,6 +45,5 @@ $string['sharedwildcards'] = 'Cratteri jolly condivisi';
 $string['uniform'] = 'Uniforme';
 $string['updatedatasetparam'] = 'Aggiorna i parametri dei datasets';
 $string['youmustaddatleastoneitem'] = 'Devi aggiungere almeno un item di dataset prima di salvare questa domanda.';
-
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.5 ALPHA (2005050600)
+      // message.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addcontact'] = 'Aggiungi contatto';
@@ -22,7 +22,7 @@ $string['discussion'] = 'Discussione';
 $string['emailmessages'] = 'Inviami i messaggi per email quando sono offline';
 $string['emailtagline'] = 'Questa email contiene una copia dei messaggi che hai ricevuto su \"$a\"';
 $string['emptysearchstring'] = 'Dovresti cercare qualcosa';
-$string['formorethan'] = 'Per più di ';
+$string['formorethan'] = 'Per più di';
 $string['includeblockedusers'] = 'Includi gli utenti bloccati';
 $string['incomingcontacts'] = 'Contatti in arrivo ($a)';
 $string['keywords'] = 'Parole chiave';
@@ -55,6 +55,7 @@ $string['searchforperson'] = 'Cerca una persona';
 $string['searchmessages'] = 'Cerca un messaggio';
 $string['sendmessage'] = 'Invia un messaggio';
 $string['sendmessageto'] = 'Invia un messaggio a $a';
+$string['sendmessagetopopup'] = 'Invia un messaggio a $a - nuova finestra';
 $string['settings'] = 'Impostazioni';
 $string['settingssaved'] = 'Le tue impostazioni sono state salvate';
 $string['showmessagewindow'] = 'Mostra automaticamente la finestra dei messaggi non appena ricevo un nuovo messaggio (è necessario che il browser non blocchi le popup da questo sito)';
