@@ -328,6 +328,7 @@ $string['prefgeneral'] = 'Général';
 $string['prefletters'] = 'Notes lettres et limites';
 $string['prefrows'] = 'Rangées spéciales';
 $string['prefshow'] = 'Cacher/afficher';
+$string['previewrows'] = 'Prévisualiser les rangées';
 $string['publishing'] = 'Publication en cours';
 $string['quickfeedback'] = 'Feedback rapide';
 $string['quickgrading'] = 'Notation rapide';
