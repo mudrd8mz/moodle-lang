@@ -63,6 +63,7 @@ $string['errorexistsroleshortname'] = 'Ce nom de rôle abrégé existe déjà';
 $string['existingusers'] = '$a utilisateurs existants';
 $string['globalrole'] = 'Rôle global';
 $string['globalroleswarning'] = 'ATTENTION&nbsp;! Les rôles que vous attribuez sur cette page s\'appliqueront à l\'intégralité du site pour les utilisateurs concernés, y compris dans la page d\'accueil et dans tous les cours.';
+$string['grade:edit'] = 'Modifier les notes';
 $string['grade:export'] = 'Exporter des notes';
 $string['grade:hide'] = 'Cacher/afficher les notes ou éléments';
 $string['grade:import'] = 'Importer des notes';
