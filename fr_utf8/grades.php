@@ -385,6 +385,7 @@ $string['statslink'] = 'Stats';
 $string['student'] = 'Participants';
 $string['studentsperpage'] = 'Participants par page';
 $string['subcategory'] = 'Catégorie normale';
+$string['submissions'] = 'Remises';
 $string['synclegacygrades'] = 'Synchroniser les anciennes notes';
 $string['text'] = 'Texte';
 $string['topcategory'] = 'Super-catégorie';
