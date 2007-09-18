@@ -301,6 +301,7 @@ $string['prefgeneral'] = '一般設定';
 $string['prefletters'] = '評定文字および境界';
 $string['prefrows'] = '特別行';
 $string['prefshow'] = 'トグルの表示/非表示';
+$string['previewrows'] = 'プレビュー行';
 $string['publishing'] = '公開';
 $string['quickfeedback'] = 'クイックフィードバック';
 $string['quickgrading'] = 'クイック評定';
