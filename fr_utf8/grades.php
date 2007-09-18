@@ -160,6 +160,7 @@ $string['gradebook'] = 'Carnet de notes';
 $string['gradebookhiddenerror'] = 'Le carnet de note est configuré de façon à cacher toutes ses données aux étudiants.';
 $string['gradebookhistories'] = 'Historiques d\'évaluation';
 $string['gradeboundary'] = 'Limite pour note lettre';
+$string['gradecategories'] = 'Catégories de note';
 $string['gradecategory'] = 'Catégorie de note';
 $string['gradecategoryhelp'] = 'Aide sur les catégories de note';
 $string['gradecategorysettings'] = 'Réglages de la catégorie de note';
