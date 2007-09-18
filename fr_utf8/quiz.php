@@ -445,6 +445,7 @@ $string['regradecomplete'] = 'Toutes les notes ont été recalculées';
 $string['regradecount'] = '$a->changed sur $a->attempt notes ont été changées';
 $string['regradedisplayexplanation'] = 'Les tentatives modifiées durant le nouveau calcul des notes sont affichées comme hyperliens dans la fenêtre de relecture des questions';
 $string['regradedone'] = 'Terminé. Notes modifiées pour $a->changed états sur un total de $a->statecount.';
+$string['regradenotallowed'] = 'Vous n\'avez pas les autorisations pour ré-évaluer ce test';
 $string['regradequiz'] = 'Nouveau calcul des notes du test $a->name';
 $string['regradingquestion'] = 'Nouveau calcul de «&nbsp;$a&nbsp;».';
 $string['regradingquiz'] = 'Nouveau calcul des notes du test «&nbsp;$a&nbsp;»';
