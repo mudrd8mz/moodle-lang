@@ -1013,7 +1013,7 @@ $string['noticenewerbackup'] = 'Ce fichier de sauvegarde a été créé avec la 
 $string['notifications'] = 'Notifications';
 $string['notify'] = 'Notifier';
 $string['notifyloginfailuresmessage'] = '$a->time, IP : $a->ip, Utilisateur : $a->info';
-$string['notifyloginfailuresmessageend'] = 'Vous pouvez consulter l\'historique de ces tentatives à l\'adresse $a/course/log.php?id=1&chooselog=1&modid=site_errors.';
+$string['notifyloginfailuresmessageend'] = 'Vous pouvez consulter l\'historique de ces tentatives à l\'adresse $a/course/report/log/index.php?id=1&amp;chooselog=1&amp;modid=site_errors.';
 $string['notifyloginfailuresmessagestart'] = 'Voici une liste des tentatives de connexion au site $a depuis la dernière notification ';
 $string['notifyloginfailuressubject'] = '$a :: notification de tentatives de connexion';
 $string['notincluded'] = 'Pas inclus';
