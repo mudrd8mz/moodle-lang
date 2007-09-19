@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 Beta + (2007091702)
+      // quiz.php - created with Moodle 1.9 Beta + (2007091900)
 
 
 $string['1day'] = '1日';
@@ -375,6 +375,7 @@ $string['numberabbr'] = '#';
 $string['numerical'] = '数値問題';
 $string['onlyteachersexport'] = '教師のみ問題をエクスポートできます。';
 $string['onlyteachersimport'] = '権限のある教師のみ問題をインポートできます。';
+$string['openclosedatesupdated'] = '小テスト公開日時および終了日時が更新されました。';
 $string['optional'] = 'オプション';
 $string['outof'] = '$a->grade / $a->maxgrade';
 $string['overallfeedback'] = '全体のフィードバック';
