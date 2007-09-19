@@ -367,6 +367,7 @@ $string['numberabbr'] = 'No ';
 $string['numerical'] = 'Numérique';
 $string['onlyteachersexport'] = 'Seuls les enseignants peuvent exporter des questions';
 $string['onlyteachersimport'] = 'Seuls les enseignants avec droit d\'édition peuvent importer des questions';
+$string['openclosedatesupdated'] = 'Dates d\'ouverture et de fermeture du test modifiées';
 $string['optional'] = 'facultatif';
 $string['outof'] = '$a->grade sur un maximum de $a->maxgrade';
 $string['overallfeedback'] = 'Feedback général';
