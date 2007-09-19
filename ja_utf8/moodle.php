@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007091401)
+      // moodle.php - created with Moodle 1.9 Beta + (2007091800)
 
 
 $string['action'] = '操作';
@@ -323,7 +323,7 @@ $string['creatinguserroles'] = 'ユーザレベルロール割り当ておよび
 $string['creatingusers'] = 'ユーザの作成';
 $string['creatingxmlfile'] = 'XMLファイルの作成';
 $string['currency'] = '通貨';
-$string['currentcourseadding'] = '現在のコース、ここにデータを追加する';
+$string['currentcourseadding'] = '現在のコース、データを追加する';
 $string['currentcoursedeleting'] = '現在のコース、最初に削除する';
 $string['currentlanguage'] = '現在の言語';
 $string['currentlocaltime'] = 'あなたの現在のローカルタイム';
@@ -1452,6 +1452,7 @@ $string['uploadrenamedcollision'] = '同一名称のファイルが存在する�
 $string['uploadserverlimit'] = 'アップロードファイルがサーバで設定された最大サイズを超えました。';
 $string['uploadthisfile'] = 'このファイルをアップロードする';
 $string['uploadusers'] = 'ユーザのアップロード';
+$string['used'] = '使用';
 $string['usedinnplaces'] = '$a 箇所で使用';
 $string['usemessageform'] = 'または、下記のフォームを使用して、選択した学生にメッセージを送信してください。';
 $string['user'] = 'ユーザ';
