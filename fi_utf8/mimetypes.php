@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // mimetypes.php - created with Moodle 1.7 beta (2006101000)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['application/msword'] = 'Word-tiedosto';
 $string['application/pdf'] = 'Pdf-tiedosto';
@@ -15,5 +14,4 @@ $string['image/gif'] = 'Gif-kuva';
 $string['image/jpeg'] = 'Jpeg-kuva';
 $string['text/plain'] = 'tekstitiedosto';
 $string['text/rtf'] = 'Rtf-tiedosto';
-
 ?>

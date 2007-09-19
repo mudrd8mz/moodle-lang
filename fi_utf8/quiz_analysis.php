@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.7 beta (2006101000)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['analysis'] = 'Kohteen analyysi';
 $string['analysisdownload'] = 'Lataa analyysi';
@@ -12,6 +11,5 @@ $string['attemptsfirst'] = 'esimmäinen yritys';
 $string['attemptshighest'] = 'korkein arvio';
 $string['attemptslast'] = 'viimeinen yritys';
 $string['downloadooo'] = 'Lataa OpenOffice.org muodossa';
-$string['facilitytitle'] = '%% Oikein <br>';
-
+$string['facilitytitle'] = '%%%% Oikein <br>';
 ?>

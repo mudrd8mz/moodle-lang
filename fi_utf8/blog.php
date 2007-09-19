@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // blog.php - created with Moodle 1.7 beta (2006101000)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['addnewentry'] = 'Lisää uusi merkintä';
 $string['addotags'] = 'Lisää virallinen tunniste';
@@ -54,5 +53,4 @@ $string['viewcourseentries'] = 'Kurssimerkinnnät';
 $string['viewmyentries'] = 'Omat merkinnät';
 $string['viewsiteentries'] = 'Sivuston merkinnät';
 $string['worldblogs'] = 'Kuka tahansa voi lukea merkinnät jotka ovat avoinna kaikille internet käyttäjille';
-
 ?>

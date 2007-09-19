@@ -1,8 +1,5 @@
-<?PHP // $Id:
-
-
-      // enrol_ldap.php - created with Moodle 1.5.2 + (2005060222)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['description'] = '<p>Voit käyttää LDAP-palvelinta hallinnoidaksesi ilmoittautumisia. Tällöin oletetaan että LDAP-puusi sisältää ryhmät, jotka liittyvät kursseihin ja että jokainen näistä ryhmistä/kursseista tulee sisältämään jäsenyysrekisterin, johon oppilaat liitetään.</p>
 
@@ -39,5 +36,4 @@ $string['enrol_ldap_template'] = 'Valinnainen: automaattisesti luodut kurssit vo
 $string['enrol_ldap_updatelocal'] = 'Päivitä paikalliset tiedot';
 $string['enrol_ldap_version'] = 'LDAP-protokollan versio, jota palvelimesi käyttää.';
 $string['enrolname'] = 'LDAP';
-
 ?>

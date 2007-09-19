@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // attendance.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['absentlong'] = 'Puuttuva';
 $string['absentshort'] = 'P';
@@ -68,5 +67,4 @@ $string['viewtable'] = 'Katsele raporttia yhtenä taulukkona';
 $string['viewweek'] = 'Katsele kaikkia viikon läsnäololistoja';
 $string['wednesday'] = 'Ke';
 $string['weekmodulename'] = 'Kaikki viime viikon läsnäololistat';
-
 ?>

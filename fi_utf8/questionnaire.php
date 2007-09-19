@@ -1,8 +1,5 @@
-<?PHP // $Id:
-
-
-      // questionnaire.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004101900)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['alreadyfilled'] = 'Olet jo täyttänyt tämän kyselyn. Kiitos.';
 $string['modulename'] = 'Kysely';
@@ -14,5 +11,4 @@ $string['qmanagetitle'] = 'Tutkimuksen hallinnointi phpESP';
 $string['qtype'] = 'Tyyppi';
 $string['questionnaireid'] = 'Kysely';
 $string['respondenttype'] = 'Vastaajan tyyppi';
-
 ?>

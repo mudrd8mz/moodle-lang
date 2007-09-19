@@ -1,8 +1,5 @@
-<?PHP // $Id:
-
-
-      // enrol_manual.php - created with Moodle 1.7 beta (2006101000)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['description'] = 'Oletustapa kurssille rekisteröitymisessä.
 Tämä tarjoaa kaksi tapaa joilla käyttäjät voivat rekisteröityä kurssille.
@@ -11,5 +8,4 @@ Tämä tarjoaa kaksi tapaa joilla käyttäjät voivat rekisteröityä kurssille.
 <li>Kursilla voi olla avain ja jokainen joka tietää avaimen voi rekisteröidä itsensä kurssille</lI>
 </ul>';
 $string['enrolname'] = 'Sisäinen rekisteröityminen';
-
 ?>

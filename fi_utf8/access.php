@@ -1,12 +1,10 @@
-<?PHP // $Id:
-
-
-      // access.php - created with Moodle 1.7 beta (2006101000)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['access'] = 'Esteettömyys';
-$string['accesshelp'] = 'Esteettömyys ohje';
-$string['accessstatement'] = 'Esteettömyys lausunto';
+$string['accesshelp'] = 'Esteettömyysohje';
+$string['accesskey'] = 'Näppäinkomento, $a';
+$string['accessstatement'] = 'Esteettömyyslausunto';
 $string['activitynext'] = 'Seuraava aktiviteetti';
 $string['activityprev'] = 'Edellinen aktiviteetti';
 $string['breadcrumb'] = 'Kulkujäljet';
@@ -22,5 +20,4 @@ $string['tablelayout'] = 'Asettelutaulukko, $a';
 $string['tocontent'] = 'Pääsisältö';
 $string['tonavigation'] = 'Navigointivalikkoon';
 $string['youarehere'] = 'Olet tässä';
-
 ?>

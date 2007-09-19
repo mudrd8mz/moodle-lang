@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // install.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['admindirerror'] = 'Ylläpitohakemisto on määritetty väärin';
 $string['admindirname'] = 'Ylläpitohakemisto';
@@ -190,5 +189,4 @@ $string['skipdbencodingtest'] = 'Ohita tietokannan merkistö testi';
 $string['welcomep70'] = 'Napsauta \"Seuraava\"-painiketta jatkaaksesi moodlen asennusta';
 $string['wwwroot'] = 'Web-osoite';
 $string['wwwrooterror'] = 'Web-osoite ei näyttäisi olevan voimassa- tämä Moodle asennus ei näyttäisi olevan siellä.';
-
 ?>

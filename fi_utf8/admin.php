@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // admin.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['accounts'] = 'Käyttäjät';
 $string['adminseesall'] = 'Ylläpitäjät näkevät kaiken';
@@ -457,5 +456,4 @@ $string['userscreated'] = 'Käyttäjä luotu';
 $string['usersrenamed'] = 'Käyttäjät nimetty';
 $string['usersupdated'] = 'Käyttäjät päivitetty';
 $string['validateerror'] = 'Tämä arvo ei kelvannut:';
-
 ?>

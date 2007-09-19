@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // choice.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['addmorechoices'] = 'Lisää lisää vaihtoehtoja';
 $string['allowupdate'] = 'Salli valinnan päivitys';
@@ -46,5 +45,4 @@ $string['taken'] = 'Varattu';
 $string['timerestrict'] = 'Rajoita vastaaminen ajanjaksolle';
 $string['viewallresponses'] = 'Katsele $a vastausta';
 $string['yourselection'] = 'Valintasi';
-
 ?>

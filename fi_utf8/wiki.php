@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['action'] = '-- Toiminto --';
 $string['administration'] = 'Ylläpito';
@@ -195,5 +194,4 @@ $string['wikiusage'] = 'Wikin käyttö';
 $string['withbinaries'] = 'Ota mukaan tiedostot';
 $string['withvirtualpages'] = 'Ota mukaan Wiki-linkit';
 $string['wrongversionrange'] = '$a ei ole kelvollinen alue.';
-
 ?>

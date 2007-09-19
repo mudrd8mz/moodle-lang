@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // forum.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['addanewdiscussion'] = 'Lisää uusi keskustelu';
 $string['addanewquestion'] = 'Lisää uusi kysymys';
@@ -242,5 +241,4 @@ $string['youratedthis'] = 'Arvioit tämän';
 $string['yournewquestion'] = 'Uusi kysymyksesi';
 $string['yournewtopic'] = 'Uusi keskustelun aihe';
 $string['yourreply'] = 'Vastauksesi';
-
 ?>

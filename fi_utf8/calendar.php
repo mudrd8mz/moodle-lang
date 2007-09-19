@@ -1,14 +1,14 @@
-<?PHP // $Id:
+<?PHP // $Id$
+      // Modified with langdiff.php
 
-
-      // calendar.php - created with Moodle 1.6.1+ (2006050511)
-
-
+$string['advancedoptions'] = 'Lisäasetukset';
 $string['calendar'] = 'Kalenteri';
 $string['calendarheading'] = '$a kalenteri';
 $string['clickhide'] = 'piilota';
 $string['clickshow'] = 'näytä';
+$string['commontasks'] = 'Asetukset';
 $string['confirmeventdelete'] = 'Haluatko varmasti poistaa tämän tapahtuman';
+$string['courseevent'] = 'Kurssin tapahtuma';
 $string['courseevents'] = 'Kurssin tapahtumat';
 $string['dayview'] = 'Päivänäkymä';
 $string['daywithnoevents'] = 'Ei tapahtumia tälle päivälle';
@@ -34,7 +34,9 @@ $string['eventkind'] = 'Tapahtuman tyyppi';
 $string['eventname'] = 'Nimi';
 $string['eventnone'] = 'Ei tapahtumia';
 $string['eventrepeat'] = 'Toistot';
+$string['eventsall'] = 'Kaikki tapahtumat';
 $string['eventsfor'] = '$a tapahtumat';
+$string['eventsrelatedtocourses'] = 'Kurssiin liittyvät tapahtumat';
 $string['eventstarttime'] = 'Tapahtuman alkamisaika';
 $string['eventtime'] = 'kello';
 $string['eventview'] = 'Tapahtumanäkymä';
@@ -42,18 +44,30 @@ $string['expired'] = 'Tapahtuma on jo mennyt';
 $string['explain_lookahead'] = 'Tämä oletusasetus määrittää, kuinka monen päivän päässä tulevaisuudessa tapahtuman pitää olla, jotta se näytettäisiin \"tulevana tapahtumana\". Tapahtumia, jotka alkavat myöhemmin, ei näytetä koskaan tulevien tapahtumien listassa. Huomaa, että <strong>ei ole mitään takeita</strong> siitä, että kaikki tämän ajan sisällä olevat tapahtumat näytettäisiin tulevien listassa; mikäli niitä on paljon (enemmän kuin asetus \"Tulevien tapahtumien listan maksimikoko\", kaukaisimmat tulevista tapahtumista eivät näy listassa.';
 $string['explain_maxevents'] = 'Tämä asetus määrittää tulevien tapahtumien listan maksimikoon. Mikäli valitset tähän suuren luvun, saattaa tulevien tapahtumien lista viedä huomattavan paljon tilaa ruudultasi.';
 $string['explain_persistflt'] = 'Jos tämä asetus on päällä, Moodle muistaa kalenterista valitsemiesi tapahtumien piilotuksen ja näyttämisen asetukset myös kirjautumiskertojen välillä.';
+$string['explain_site_timeformat'] = 'Voit määrittää sivuston käyttämän kellon joko 12 tai 24 tunnin muotoon. Jos valitset \"oletus\", valinta suoritetaan sivuston kieliasetuksen perusteella. Käyttäjät voivat ohittaa tämän määrityksen oman profiilinsa asetuksilla.';
 $string['explain_startwday'] = 'Tämä asetus määrittää tavan, jolla kuukausittainen kalenteri näytetään. Käytä tätä asettaaksesi näkymälle tavan, johon olet tottunut.';
 $string['explain_timeformat'] = 'Voit näyttää ajat joko 12 tai 24 tunnin muodossa. Jos valitset \"oletus\", valinta suoritetaan sivuston asetusten mukaisesti.';
+$string['export'] = 'Vie';
+$string['exportbutton'] = 'Vie';
+$string['exportcalendar'] = 'Vie kalenterin tiedot';
+$string['for'] = 'kohde';
 $string['fri'] = 'pe';
 $string['friday'] = 'perjantai';
+$string['generateurlbutton'] = 'Näytä kalenterin URL';
+$string['globalevent'] = 'Yhteinen tapahtuma';
 $string['globalevents'] = 'Yhteiset tapahtumat';
 $string['gotocalendar'] = 'Siirry kalenteriin';
+$string['groupevent'] = 'Ryhmän tapahtuma';
 $string['groupevents'] = 'Ryhmän tapahtumat';
 $string['hidden'] = 'Piilotettu';
+$string['ical'] = 'iCal';
+$string['iwanttoexport'] = 'Vie';
 $string['manyevents'] = '$a tapahtumaa';
 $string['mon'] = 'ma';
 $string['monday'] = 'maanantai';
 $string['monthlyview'] = 'Kuukausinäkymä';
+$string['monthnext'] = 'Seuraava kuukausi';
+$string['monththis'] = 'Tämä kuukausi';
 $string['newevent'] = 'Uusi tapahtuma';
 $string['noupcomingevents'] = 'Ei tulevia tapahtumia';
 $string['oneevent'] = '1 tapahtuma';
@@ -64,6 +78,8 @@ $string['pref_startwday'] = 'Viikon ensimmäinen päivä';
 $string['pref_timeformat'] = 'Kellonajan muoto';
 $string['preferences'] = 'Asetukset';
 $string['preferences_available'] = 'Henkilökohtaiset asetuksesi';
+$string['quickdownloadcalendar'] = 'Kalenterin pikalataus / tilaus';
+$string['recentupcoming'] = 'Viimeisimmät sekä seuraavat 60 päivää';
 $string['repeateditall'] = 'Tee muutokset kaikkiin $a tapahtumiin tässä toistuvassa sarjassa';
 $string['repeateditthis'] = 'Tee muutokset vain tähän tapahtumaan';
 $string['repeatnone'] = 'Ei toistoja';
@@ -98,10 +114,13 @@ $string['typegroup'] = 'ryhmälle';
 $string['typesite'] = 'koko sivustolle';
 $string['typeuser'] = 'oma tapahtuma';
 $string['upcomingevents'] = 'Tulevat tapahtumat';
+$string['urlforical'] = 'URL iCalendar-vientiä varten, kalenterin tilaukseen';
+$string['userevent'] = 'Oma tapahtuma';
 $string['userevents'] = 'Omat tapahtumat';
 $string['wed'] = 'ke';
 $string['wednesday'] = 'keskiviikko';
+$string['weeknext'] = 'Seuraava viikko';
+$string['weekthis'] = 'Tämä viikko';
 $string['yesterday'] = 'eilen';
 $string['youcandeleteallrepeats'] = 'Tämä tapahtuma on osa tapahtumasarjaa. Voit poistaa vain tämän tapahtuman tai tapahtumasarjan kaikki $a tapahtumaa kerralla.';
-
 ?>

@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // block_quiz_results.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['bestgrade'] = 'Ylin arvosana';
 $string['bestgrades'] = '$a ylintä arvosanaa';
@@ -22,5 +21,4 @@ $string['worstgrade'] = 'Alin arvosana';
 $string['worstgrades'] = '$a alinta arvosanaa';
 $string['worstgroupgrade'] = 'Keskiarvoltaan alin ryhmä:';
 $string['worstgroupgrades'] = '$a keskiarvoltaan ylintä ryhmää:';
-
 ?>

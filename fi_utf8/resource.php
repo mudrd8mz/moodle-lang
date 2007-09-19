@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['addresource'] = 'Lisää aineisto';
 $string['back'] = 'Takaisin';
@@ -116,5 +115,4 @@ $string['tableofcontents'] = 'Sisällysluettelo';
 $string['upbutton'] = 'Ylös';
 $string['variablename'] = 'Muuttujan nimi';
 $string['viewims'] = 'Katso IMS-sisältöpakettia';
-
 ?>

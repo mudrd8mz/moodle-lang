@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // auth.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['alternatelogin'] = 'Jos kirjoitat tähän URL:n, sitä käytetään kirjautumissivuna tälle sivustolle. Sivun pitäisi sisältää lomake, jonak ominaisuudet on asetettu <strong>\'$a\'</strong> ja joko antaa paluukentät <strong>käyttäjänimi</strong> and <strong>salasana</strong>.<br />
 
@@ -160,5 +159,4 @@ $string['update_never'] = 'Ei koskaan';
 $string['update_oncreate'] = 'Luotaessa';
 $string['update_onlogin'] = 'Jokaisella kirjautumisella';
 $string['update_onupdate'] = 'Päivitettäessä';
-
 ?>

@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['addfeed'] = 'Lisää uutislähteen osoite:';
 $string['addheadlineblock'] = 'Lisää RSS otsikko lohko';
@@ -43,5 +42,4 @@ $string['submitters'] = 'Kuka voi määritellä uusia RSS-syötteitä? Syötteet
 $string['timeoutdesc'] = 'Kauanko RSS-syötettä pidetään välimuistissa';
 $string['updatefeed'] = 'Päivitä uutislähteen osoite:';
 $string['validatefeed'] = 'Tarkista syöte';
-
 ?>

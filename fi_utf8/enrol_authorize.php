@@ -1,12 +1,9 @@
-<?PHP // $Id:
-
-
-      // enrol_authorize.php - created with Moodle 1.5.2 + (2005060222)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['anlogin'] = 'Authorize.net: Käyttäjänimi';
 $string['anpassword'] = 'Authorize.net: Salasana';
-$string['anreferer'] = 'Määrittele URL-referenssi tässä, jos olet määritellyt sen authorize.net-tilillesi. Tämä jälkeen verkkopalvelupyyntöön lisätään rivi \"Referer: URL\". ';
+$string['anreferer'] = 'Määrittele URL-referenssi tässä, jos olet määritellyt sen authorize.net-tilillesi. Tämä jälkeen verkkopalvelupyyntöön lisätään rivi \"Referer: URL\".';
 $string['antestmode'] = 'Tee rahansiirrot testitilassa (rahaa ei nosteta).';
 $string['antrankey'] = 'Authorize.net: Rahansiirtoavain';
 $string['ccexpire'] = 'Vanhenemispäivämäärä';
@@ -26,5 +23,4 @@ Tämän valinnan käyttö käskee Moodlea käyttämään turvattua https-yhteytt
 $string['nameoncard'] = 'Kortin nimi';
 $string['sendpaymentbutton'] = 'Lähetä maksu';
 $string['zipcode'] = 'Postinumero';
-
 ?>

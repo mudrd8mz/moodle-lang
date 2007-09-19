@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['action'] = 'Toiminto';
 $string['add'] = 'Lisää tietue';
@@ -201,5 +200,4 @@ $string['url'] = 'Url-osoite';
 $string['usestandard'] = 'käytä mallia';
 $string['viewfromdate'] = 'Nähtävissä alkaen';
 $string['viewtodate'] = 'Nähtävissä päättyen';
-
 ?>

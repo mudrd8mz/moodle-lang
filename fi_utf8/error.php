@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // error.php - created with Moodle 1.7 beta + (2006101001)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['adminprimarynoedit'] = 'Muut eivät voi muokata pääasiallista ylläpitäjää';
 $string['cannotcreatelangdir'] = 'Kielihakemistoa ei voitu luoda';
@@ -61,5 +60,4 @@ $string['usernotaddedregistered'] = 'Käyttäjää \"$a\" ei lisätty - on jo re
 $string['usernotavailable'] = 'Pahus, et voi tarkastella kyseisen käyttäjän tietoja';
 $string['wrongdestpath'] = 'Virheellinen kohde kansio';
 $string['wrongzipfilename'] = 'Virheellinen zip-tiedoston nimi';
-
 ?>

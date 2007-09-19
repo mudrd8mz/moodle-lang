@@ -1,8 +1,5 @@
-<?PHP // $Id:
-
-
-      // simpletest.php - created with Moodle 1.7 beta (2006101000)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['all'] = 'KAIKKI';
 $string['exception'] = 'Poikkeus';
@@ -26,5 +23,4 @@ $string['showpasses'] = 'Näytä myös onnistuneet testit';
 $string['showsearch'] = 'Näytä testitiedostojen haku';
 $string['thorough'] = 'Suorita perusteelliset testit (vie aikaa)';
 $string['unittests'] = 'Testit';
-
 ?>

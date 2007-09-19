@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // survey.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['actual'] = 'Toteutunut';
 $string['actualclass'] = 'Toteutunut';
@@ -204,5 +203,4 @@ $string['surveytype'] = 'Kyselyn tyyppi';
 $string['thanksforanswers'] = 'Kiitos vastauksestasi tähän kyselyyn, $a';
 $string['time'] = 'Aika';
 $string['viewsurveyresponses'] = 'Katso $a kyselyn vastausta';
-
 ?>

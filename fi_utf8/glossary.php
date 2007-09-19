@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['addcomment'] = 'Lisää kommentti';
 $string['addentry'] = 'Lisää uusi tietue';
@@ -176,5 +175,4 @@ $string['withauthor'] = 'Käsitteet kirjoittajineen';
 $string['withoutauthor'] = 'Käsitteet ilman kirjoittajaa';
 $string['writtenby'] = 'kirjoittanut';
 $string['youarenottheauthor'] = 'Et ole kommentin kirjoittaja, joten et voi muokata sitä.';
-
 ?>

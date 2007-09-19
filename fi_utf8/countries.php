@@ -1,8 +1,5 @@
-<?PHP // $Id:
-
-
-      // countries.php - created with Moodle 1.5.2 + (2005060222)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['AD'] = 'Andorra';
 $string['AE'] = 'Yhdistyneet arabi emiirikunnat';
@@ -35,7 +32,7 @@ $string['BO'] = 'Bolivia';
 $string['BR'] = 'Brasilia';
 $string['BS'] = 'Bahamasaaret';
 $string['BT'] = 'Bhutan';
-$string['BV'] = 'Bouvet\'n saari ';
+$string['BV'] = 'Bouvet\'n saari';
 $string['BW'] = 'Botswana';
 $string['BY'] = 'Valko-Venäjä';
 $string['BZ'] = 'Belize';
@@ -104,7 +101,7 @@ $string['ID'] = 'Indonesia';
 $string['IE'] = 'Irlanti';
 $string['IL'] = 'Israel';
 $string['IN'] = 'Intia';
-$string['IO'] = 'Brittiläinen intian valtameren territorio ';
+$string['IO'] = 'Brittiläinen intian valtameren territorio';
 $string['IQ'] = 'Irak';
 $string['IR'] = 'Iran';
 $string['IS'] = 'Islanti';
@@ -117,7 +114,7 @@ $string['KG'] = 'Kirgistan';
 $string['KH'] = 'Kambodsa';
 $string['KI'] = 'Kiribati';
 $string['KM'] = 'Komorit';
-$string['KN'] = 'Saint Kitts ja Nevis ';
+$string['KN'] = 'Saint Kitts ja Nevis';
 $string['KO'] = 'Kosovo';
 $string['KP'] = 'Pohjois-Korea';
 $string['KR'] = 'Etelä-Korea';
@@ -176,7 +173,7 @@ $string['PG'] = 'Papua Uusi-Guinea';
 $string['PH'] = 'Filippiinit';
 $string['PK'] = 'Pakistan';
 $string['PL'] = 'Puola';
-$string['PM'] = 'St. Pierre ja Miquelon ';
+$string['PM'] = 'St. Pierre ja Miquelon';
 $string['PN'] = 'Pitcairn';
 $string['PR'] = 'Puerto Rico';
 $string['PS'] = 'Palestiina';
@@ -207,9 +204,9 @@ $string['ST'] = 'Sao Tome ja Principe';
 $string['SV'] = 'El Salvador';
 $string['SY'] = 'Syyria';
 $string['SZ'] = 'Swazimaa';
-$string['TC'] = 'Turks- ja Caicossaaret ';
+$string['TC'] = 'Turks- ja Caicossaaret';
 $string['TD'] = 'Tshad';
-$string['TF'] = 'Ranskan eteläiset territoriot ';
+$string['TF'] = 'Ranskan eteläiset territoriot';
 $string['TG'] = 'Togo';
 $string['TH'] = 'Thaimaa';
 $string['TJ'] = 'Tadzhikistan';
@@ -236,7 +233,7 @@ $string['VI'] = 'Yhdysvaltain Neitsytsaaret';
 $string['VN'] = 'Vietnam';
 $string['VU'] = 'Vanuatu';
 $string['WA'] = 'Wales';
-$string['WF'] = 'Wallis- ja Futunasaaret ';
+$string['WF'] = 'Wallis- ja Futunasaaret';
 $string['WS'] = 'Samoa';
 $string['YE'] = 'Jemen';
 $string['YT'] = 'Mayotte';
@@ -244,5 +241,4 @@ $string['ZA'] = 'Etelä-Afrikka';
 $string['ZM'] = 'Zambia';
 $string['ZR'] = 'Zaire';
 $string['ZW'] = 'Zimbabwe';
-
 ?>

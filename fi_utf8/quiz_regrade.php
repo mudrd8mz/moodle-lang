@@ -1,9 +1,5 @@
-<?PHP // $Id:
-
-
-      // quiz_regrade.php - created with Moodle 1.6.1+ (2006050511)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['regrade'] = 'Uudelleen arvioi';
-
 ?>

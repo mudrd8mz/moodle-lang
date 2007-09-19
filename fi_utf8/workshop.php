@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['absent'] = 'Poissa';
 $string['accumulative'] = 'Kumulatiivinen';
@@ -67,7 +66,7 @@ $string['count'] = 'Määrä';
 $string['criterion'] = 'Peruste';
 $string['currentphase'] = 'Tämänhetkinen vaihe';
 $string['date'] = 'Päivämäärä';
-$string['datestr'] = '%%d/%%m/%%y<br />%%H:%%M';
+$string['datestr'] = '%%%%d/%%%%m/%%%%y<br />%%%%H:%%%%M';
 $string['deadline'] = 'Palautuksen määräaika';
 $string['deadlineis'] = 'Määräaika on $a';
 $string['delete'] = 'Poista';
@@ -318,5 +317,4 @@ $string['yourassessments'] = 'Arviointisi';
 $string['yourassessmentsofexamplesfromtheteacher'] = 'a$:n antamien esimerkkien arviointisi';
 $string['yourfeedbackgoeshere'] = 'Kirjoita palautteesi tähän';
 $string['yoursubmissions'] = 'Palautuksesi';
-
 ?>

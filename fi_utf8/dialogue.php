@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['addmynewentries'] = 'Lisää viestini';
 $string['addmynewentry'] = 'Lisää viestini';
@@ -69,5 +68,4 @@ $string['typefollowup'] = 'Kirjoita seuraavat tähän';
 $string['typeofdialogue'] = 'Dialogin tyyppi';
 $string['typereply'] = 'Kirjoita vastaus tähän';
 $string['viewallentries'] = 'Näytä $a dialogin viestit';
-
 ?>

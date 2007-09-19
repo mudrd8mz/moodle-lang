@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['advanced'] = 'Asetukset';
 $string['attempt'] = 'yritys';
@@ -127,5 +126,4 @@ $string['viewallreports'] = 'Näytä raportit $a yrityksestä';
 $string['whatgrade'] = 'Arvioidut yritykset';
 $string['width'] = 'Leveys';
 $string['window'] = 'Ikkuna';
-
 ?>

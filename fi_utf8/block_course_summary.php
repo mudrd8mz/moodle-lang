@@ -1,10 +1,6 @@
-<?PHP // $Id:
-
-
-      // block_course_summary.php - created with Moodle 1.5.2 + (2005060222)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['coursesummary'] = 'Kurssin kuvaus';
 $string['pagedescription'] = 'Kurssin/Sivuston kuvaus';
-
 ?>

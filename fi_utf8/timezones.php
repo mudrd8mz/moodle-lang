@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // timezones.php - created with Moodle 1.5.2 + (2005060222)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['europe/amsterdam'] = 'Eurooppa/Amsterdam';
 $string['europe/andorra'] = 'Eurooppa/Andorra';
@@ -45,5 +44,4 @@ $string['europe/vilnius'] = 'Eurooppa/Vilna';
 $string['europe/warsaw'] = 'Eurooppa/Varsova';
 $string['europe/zaporozhye'] = 'Eurooppa/Zaporozhye';
 $string['europe/zurich'] = 'Eurooppa/Zurich';
-
 ?>

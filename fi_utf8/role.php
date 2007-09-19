@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // role.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['addrole'] = 'Lisää rooli';
 $string['allow'] = 'Salli';
@@ -115,5 +114,4 @@ $string['user:viewuseractivitiesreport'] = 'Käyttäjän aktiivisuuden katselu';
 $string['user:viewusergrades'] = 'Käyttäjän arvosanojen katselu';
 $string['viewrole'] = 'Roolin tarkastelu';
 $string['xuserswiththerole'] = 'Käyttäjiä roolilla \"$a->role\": $a->number';
-
 ?>

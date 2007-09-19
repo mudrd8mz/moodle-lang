@@ -1,8 +1,5 @@
-<?PHP // $Id:
-
-
-      // enrol_database.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004112900)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['dbhost'] = 'Tietokantapalvelimen nimi';
 $string['dbname'] = 'Käytettävä tietokanta';
@@ -16,5 +13,4 @@ $string['localcoursefield'] = 'Mitä Moodlen tietoa käytetään kurssitietojen 
 $string['localuserfield'] = 'Mitä Moodlen tietoa käytetään käyttäjätietojen linkittämiseen (esim. idnumber)';
 $string['remotecoursefield'] = 'Ulkoisen tietokannan course id sarakkeen nimi';
 $string['remoteuserfield'] = 'Ulkoisen tietokannan userid sarakkeen nimi';
-
 ?>

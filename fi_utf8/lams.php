@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // lams.php - created with Moodle 1.7 beta (2006101000)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['createSequence'] = 'Luo uusi jakso';
 $string['editSequence'] = 'Muokkaa valittua jaksoa';
@@ -25,5 +24,4 @@ $string['visibletostudents'] = 'Näytä tapahtumat opiskelijoille';
 $string['wikistartederror'] = 'Wikissä on jo sivuja - sitä ei voi muuttaa';
 $string['workspace'] = 'Valitse työtila';
 $string['wrongversionrange'] = '$a ei ole kelvollinen alue.';
-
 ?>

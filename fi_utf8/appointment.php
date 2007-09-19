@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // appointment.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['allowresubmit'] = 'Salli uudelleenlähetys';
 $string['appointmentdetails'] = 'Tapaamisen tiedot';
@@ -41,5 +40,4 @@ $string['uploadsuccess'] = 'Tiedosto \'$a\' vastaanotettu';
 $string['viewfeedback'] = 'Tarkastele tapaamisten arviointeja ja palautteita';
 $string['viewsubmissions'] = 'Katso $a lähettyä tapaamista';
 $string['yoursubmission'] = 'Vastauksesi';
-
 ?>

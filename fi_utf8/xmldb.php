@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['aftertable'] = 'Taulun jälkeen:';
 $string['back'] = 'Takaisin';
@@ -103,5 +102,4 @@ $string['viewsqlcode'] = 'Katso SQL';
 $string['wronglengthforenum'] = 'Virheellinen pituus listakentälle';
 $string['wrongnumberoffieldsorvalues'] = 'Virheellinen määrä kenttiä tai arvoja lausekkeessa';
 $string['wrongreservedwords'] = 'Tällä hetkellä varattuna olevat sanat<br />(Taulukoiden nimet on suojattu etuliitteellä $CFG->prefix)';
-
 ?>

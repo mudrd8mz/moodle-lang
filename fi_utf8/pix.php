@@ -1,8 +1,5 @@
-<?PHP // $Id:
-
-
-      // pix.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004101900)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['angry'] = 'Vihainen';
 $string['approve'] = 'Hyväksyvä';
@@ -24,5 +21,4 @@ $string['thoughtful'] = 'Ajattelevainen';
 $string['tongueout'] = 'Näyttää kieltä';
 $string['wideeyes'] = 'Silmät suurina';
 $string['wink'] = 'Nikkaa';
-
 ?>

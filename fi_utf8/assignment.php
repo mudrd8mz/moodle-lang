@@ -1,9 +1,8 @@
-<?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['allowdeleting'] = 'Salli muutokset';
-$string['allowmaxfiles'] = 'Palautettujen tiedostojen maksimi määrä';
+$string['allowmaxfiles'] = 'Palautettujen tiedostojen enimmäismäärä';
 $string['allownotes'] = 'Salli muistiinpanot';
 $string['allowresubmit'] = 'Salli uudelleenpalautus';
 $string['assignment:grade'] = 'Tehtävän arviointi';
@@ -22,12 +21,12 @@ Voit nähdä sen osoitteessa:
 <a href=\"$a->url\">Tehtävän palautus</a>.';
 $string['assignmentname'] = 'Tehtävän nimi';
 $string['assignmenttype'] = 'Tehtävän tyyppi';
-$string['availabledate'] = 'Tarjoaa';
+$string['availabledate'] = 'Avautuu';
 $string['comment'] = 'Kommentoi';
 $string['commentinline'] = 'Kommentoi ja muokkaa vastausta';
 $string['configitemstocount'] = 'Kohteiden tyypit, jotka lasketaan opiskelijalle tehtävissä.';
-$string['configmaxbytes'] = 'Oletusasetus sivuston tehtävien maksimikoolle (alisteinen kurssien omille rajoituksille ja muille paikallisille asetuksille)';
-$string['confirmdeletefile'] = 'Oletko varma että haluat poistaa tiedoston?<br /><strong>$a</strong>';
+$string['configmaxbytes'] = 'Oletusasetus sivuston tehtävien enimmäiskoolle (alisteinen kurssien omille rajoituksille ja muille paikallisille asetuksille)';
+$string['confirmdeletefile'] = 'Oletko varma että haluat poistaa tämän tiedoston?<br /><strong>$a</strong>';
 $string['deletefilefailed'] = 'Tiedoston poistaminen epäonnistui';
 $string['description'] = 'Kuvaus';
 $string['draft'] = 'Keskeneräinen';
@@ -114,8 +113,7 @@ $string['uploadfiletoobig'] = 'Valitettavasti tiedosto, jota yritit lähettää,
 $string['uploadnofilefound'] = 'Tiedostoa ei löydy - oletko varma, että valitsit tiedoston lähetettäväksi?';
 $string['uploadnotregistered'] = '\'$a\' vastaanotettiin, mutta lähetystäsi ei rekisteröity.';
 $string['uploadsuccess'] = '\'$a\' on vastaanotettu palvelimelle.';
-$string['viewfeedback'] = 'Katso tehtävien arviointeja ja palautteita.';
-$string['viewsubmissions'] = 'Katso palautettuja tehtäviä, joiden lukumäärä on $a';
+$string['viewfeedback'] = 'Katso tehtävien arviointeja ja palautteita';
+$string['viewsubmissions'] = 'Katso palautettuja tehtäviä ($a kpl)';
 $string['yoursubmission'] = 'Palautuksesi';
-
 ?>

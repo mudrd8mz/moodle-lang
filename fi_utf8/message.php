@@ -1,8 +1,5 @@
-<?PHP // $Id:
-
-
-      // message.php - created with Moodle 1.6.1+ (2006050512)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['addcontact'] = 'Lisää kontakti';
 $string['addsomecontacts'] = 'Käytä <a href=\"$a\">hakutoimintoa</a> lähettääksesi viestin jollekin, tai lisätäksesi heidät tälle sivulle.';
@@ -65,5 +62,4 @@ $string['unreadmessages'] = '$a uutta viestiä';
 $string['userisblockingyou'] = 'Käyttäjä ei ota vastaan viestejä sinulta.';
 $string['userisblockingyounoncontact'] = 'Käyttäjä ottaa vastaan viestejä vain omilta kontakteiltaan ja sinä et ole listalla.';
 $string['userssearchresults'] = 'Hakutulos: $a käyttäjää löydetty';
-
 ?>

@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // currencies.php - created with Moodle 1.7 beta (2006101000)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['AED'] = 'Arabiemiirikuntien dirhami';
 $string['AFA'] = 'Afganistanin afgaani (1927-2002)';
@@ -143,5 +142,4 @@ $string['YER'] = 'Jemenin rial';
 $string['ZAR'] = 'Etelä-Afrikan randi';
 $string['ZMK'] = 'Sambian kwacha';
 $string['ZWD'] = 'Zimbabwen dollari';
-
 ?>

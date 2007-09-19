@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['accesscontrol'] = 'Saatavuus';
 $string['actionaftercorrectanswer'] = 'Toiminto oikean vastauksen jälkeen';
@@ -246,5 +245,4 @@ $string['youmadehighscore'] = 'Selvisit TOP $a :iin parhaat tulokset listalla.';
 $string['youranswer'] = 'Vastauksesi';
 $string['yourcurrentgradeis'] = 'Nykyinen arvosanasi on $a';
 $string['youshouldview'] = 'Sinun pitäisi katsoa ainakin $a sivua';
-
 ?>

@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // editor.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['about'] = 'Tietoja editorista';
 $string['absbottom'] = 'Absbottom';
@@ -37,6 +36,7 @@ Tämä ominaisuus voidaan haluttaessa kiertää (muuta muista, kyse on turvallis
 (3) Vaihda selaimesi asetuksia muokkaamalla user.js -tiedostoa.<br />
 Napsauta alla olevaa OK-painiketta saadaksesi lisää apua tai Cancel-painiketta palataksesi editoriin.';
 $string['delete'] = 'Poista';
+$string['enterurlfirst'] = 'Määritä ensin URL';
 $string['filebrowser'] = 'Tiedostoselain';
 $string['findwhat'] = 'Etsi';
 $string['fontname'] = 'Fontin nimi';
@@ -63,6 +63,7 @@ $string['justifycenter'] = 'Keskitä';
 $string['justifyfull'] = 'Tasaa molemmat reunat';
 $string['justifyleft'] = 'Tasaa vasen reuna';
 $string['justifyright'] = 'Tasaa oikea reuna';
+$string['lang'] = 'Kieli';
 $string['layout'] = 'Ulkoasu';
 $string['left'] = 'Vasen';
 $string['lefttoright'] = 'Suunta vasemmalta oikealle';
@@ -79,6 +80,8 @@ $string['matchcase'] = 'Vastaava kirjainkoko';
 $string['middle'] = 'Keskitä';
 $string['minimize'] = 'Pienennä editori';
 $string['move'] = 'Siirrä';
+$string['multi'] = 'Useita';
+$string['mustenterurl'] = 'Anna URL';
 $string['nolink'] = 'Estä automaattinen linkitys';
 $string['normal'] = 'Normaali';
 $string['notimage'] = 'Valittu tiedosto ei ollut kuva. Valitse kuvatiedosto!';
@@ -91,6 +94,7 @@ $string['paste'] = 'Liitä';
 $string['path'] = 'Polku';
 $string['percent'] = 'Prosenttia';
 $string['pixels'] = 'Pikseliä';
+$string['pleaseenteralt'] = 'Määritä oletusteksti';
 $string['popupeditor'] = 'Suurenna editori';
 $string['preformatted'] = 'Esimuotoiltu';
 $string['preview'] = 'Esikatsele';
@@ -127,5 +131,4 @@ $string['vertical'] = 'Pysty';
 $string['width'] = 'Leveys';
 $string['wordclean'] = 'Puhdista Word HTML';
 $string['zip'] = 'Zip';
-
 ?>

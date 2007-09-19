@@ -1,8 +1,5 @@
-<?PHP // $Id:
-
-
-      // journal.php - created with Moodle 1.5.2 + (2005060222)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['alwaysopen'] = 'Aina avoinna';
 $string['blankentry'] = 'Tyhjä osa';
@@ -38,5 +35,4 @@ $string['rate'] = 'Arviointi';
 $string['saveallfeedback'] = 'Tallenna kaikki palaute';
 $string['startoredit'] = 'Aloita tai muokkaa muistiota';
 $string['viewallentries'] = 'Katso kaikkia $a muistioita';
-
 ?>

@@ -1,8 +1,5 @@
-<?PHP // $Id:
-
-
-      // exercise.php - created with Moodle 1.7 beta (2006101000)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['absent'] = 'Puuttuva';
 $string['accumulative'] = 'Kumulatiivinen';
@@ -183,5 +180,4 @@ $string['wrongpassword'] = 'väärä salasana tälle harjoitukselle';
 $string['yourassessment'] = 'Sinun arviointisi';
 $string['yourfeedbackgoeshere'] = 'Palautteesi tänne';
 $string['yoursubmission'] = 'Palautuksesi';
-
 ?>
