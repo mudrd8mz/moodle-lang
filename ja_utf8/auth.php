@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 Beta + (2007082400)
+      // auth.php - created with Moodle 1.9 Beta + (2007091900)
 
 
 $string['CASform'] = '認証選択';
@@ -53,7 +53,7 @@ $string['auth_dbdeleteusererror'] = 'ユーザ $a の削除中にエラーが発
 $string['auth_dbdescription'] = 'ユーザ名とパスワードを確認するために外部のデータベースを使用します。新しいアカウントを作成する場合、他のフィールドの情報がMoodleへ複製されます。';
 $string['auth_dbextencoding'] = '外部データベースエンコーディング';
 $string['auth_dbextencodinghelp'] = '外部データベースで使用されるエンコーディング';
-$string['auth_dbextrafields'] = 'これらのフィールドは任意項目です。<b>外部データベースフィールド</b>より事前に入力されたMoodleユーザフィールドを選択することも可能です。<p>空白の場合は初期値が使用されます。</p><p>どちらの場合でも、ユーザはログイン後にすべてのフィールドを編集可能です。</p>';
+$string['auth_dbextrafields'] = 'これらのフィールドは任意項目です。<b>外部データベースフィールド</b>より事前に入力されたMoodleユーザフィールドを選択することも可能です。<p>空白の場合はデフォルト値が使用されます。</p><p>どちらの場合でも、ユーザはログイン後にすべてのフィールドを編集可能です。</p>';
 $string['auth_dbfieldpass'] = 'パスワードを含んだフィールド名';
 $string['auth_dbfieldpass_key'] = 'パスワードフィールド';
 $string['auth_dbfielduser'] = 'ユーザ名を含んだフィールド名';
@@ -182,7 +182,7 @@ $string['auth_ldap_usertypeundefined2'] = 'config.user_typeが定義されてい
 $string['auth_ldap_version'] = 'サーバで使用しているLDAPプロトコルのバージョン';
 $string['auth_ldap_version_key'] = 'バージョン';
 $string['auth_ldapdescription'] = '外部のLDAPサーバに対して認証を行います。ユーザ名とパスワードが正しい場合、Moodleは新しいユーザをデータベースに作成します。このモジュールはユーザ属性をLDAPから取得してMoodleのフィールドに入力します。認証後のログインでは、ユーザ名とパスワードのみ確認されます。';
-$string['auth_ldapextrafields'] = 'これらのフィールドは任意項目です。<b>LDAPフィールド</b>より事前に入力されたMoodleユーザフィールドを選択することも可能です。<p>空白の場合、LDAPよりデータは転送されず、代わりにMoodleの初期値が使用されます。</p><p>どちらの場合でも、ユーザはログイン後にすべてのフィールドを編集することができます。</p>';
+$string['auth_ldapextrafields'] = 'これらのフィールドは任意項目です。<b>LDAPフィールド</b>より事前に入力されたMoodleユーザフィールドを選択することも可能です。<p>空白の場合、LDAPよりデータは転送されず、代わりにMoodleのデフォルト値が使用されます。</p><p>どちらの場合でも、ユーザはログイン後にすべてのフィールドを編集することができます。</p>';
 $string['auth_ldapnotinstalled'] = 'LDAP認証を使用できません。PHP LDAPモジュールがインストールされていません。';
 $string['auth_ldaptitle'] = 'LDAPサーバ';
 $string['auth_manualdescription'] = 'この方法では、ユーザによるユーザアカウント作成機能を停止します。すべてのアカウント作成は、管理者により手動で行う必要があります。';

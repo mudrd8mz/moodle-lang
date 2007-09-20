@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007091800)
+      // moodle.php - created with Moodle 1.9 Beta + (2007091900)
 
 
 $string['action'] = '操作';
@@ -420,7 +420,7 @@ $string['editorenablespelling'] = 'スペルチェックを行う';
 $string['editorfontlist'] = 'フォントリスト';
 $string['editorfontsize'] = 'デフォルトフォントサイズ';
 $string['editorhelptopics'] = 'エディタヘルプトピックス';
-$string['editorresettodefaults'] = '初期値にリセットする';
+$string['editorresettodefaults'] = 'デフォルト値にリセットする';
 $string['editorsettings'] = 'エディタ設定';
 $string['editorshortcutkeys'] = 'エディタショートカットキー';
 $string['editsummary'] = '要約の編集';
@@ -1168,7 +1168,7 @@ $string['reset'] = 'リセット';
 $string['resetcourse'] = 'コースをリセットする';
 $string['resetinfo'] = 'このページでは、活動および他の設定を保持しながら、コースのユーザデータを空にすることができます。下記のアイテムを選択して、このページを実行することで、選択されたユーザデータをこのコースから完全に削除しますので注意してください!';
 $string['resetstartdate'] = '開講日をリセットする';
-$string['resettodefaults'] = '初期値にリセットする';
+$string['resettodefaults'] = 'デフォルト値にリセットする';
 $string['resortcoursesbyname'] = 'コース名で並び替える';
 $string['resource'] = 'リソース';
 $string['resources'] = 'リソース';
