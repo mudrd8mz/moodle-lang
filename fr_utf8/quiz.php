@@ -587,6 +587,7 @@ $string['xml'] = 'Format XML Moodle';
 $string['xmlimportnoname'] = 'Nom de question manquant dans le fichier xml';
 $string['xmlimportnoquestion'] = 'Texte de question manquant dans le fichier xml';
 $string['xmltypeunsupported'] = 'L\'importation xml est impossible pour le type de question $a';
+$string['youneedtoenrol'] = 'Vous devez vous inscrire à ce cours avant d\'effectuer ce test';
 $string['yourfinalgradeis'] = 'Votre note finale pour ce test est $a.';
 $string['zerosignificantfiguresnotallowed'] = 'La bonne réponse ne peut pas n\'avoir aucun chiffre significatif&nbsp;!';
 
