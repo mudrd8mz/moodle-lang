@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 Beta + (2007091702)
+      // grades.php - created with Moodle 1.9 Beta + (2007091900)
 
 
 $string['activities'] = '活動';
@@ -7,6 +7,7 @@ $string['addcategory'] = 'カテゴリの追加';
 $string['addcategoryerror'] = 'カテゴリを追加できませんでした。';
 $string['addexceptionerror'] = 'ユーザID:評定項目への例外追加中にエラーが発生しました。';
 $string['addfeedback'] = 'フィードバックの追加';
+$string['addgradeletter'] = '評定文字の追加';
 $string['addidnumbers'] = 'IDナンバーの追加';
 $string['additem'] = '評定項目の追加';
 $string['addoutcomeitem'] = 'アウトカム項目の追加';
@@ -83,7 +84,9 @@ $string['configstudentsperpage'] = '評定レポートの1ページあたりに�
 $string['configstudentsperpagedefault'] = '評定レポートの1ページあたりに表示される学生数です。サイトデフォルト (現在 $a) を使用する場合、このフィールドを空白のままにしてください。';
 $string['contract'] = 'カテゴリの縮小';
 $string['coursegradecategory'] = 'コース評定カテゴリ';
+$string['coursegradedisplaytype'] = 'コース評定表示タイプ';
 $string['coursename'] = 'コース名';
+$string['coursesettings'] = 'コース設定';
 $string['coursetotal'] = 'コース合計';
 $string['createcategory'] = 'カテゴリを作成する';
 $string['createcategoryerror'] = '新しいカテゴリを作成できませんでした。';
@@ -146,7 +149,8 @@ $string['gradecategories'] = '評定カテゴリ';
 $string['gradecategory'] = '評定カテゴリ';
 $string['gradecategoryhelp'] = '評定カテゴリヘルプ';
 $string['gradecategorysettings'] = '評定カテゴリ設定';
-$string['gradedisplaytype'] = '評定の表示タイプ';
+$string['gradedisplay'] = '評定表示';
+$string['gradedisplaytype'] = '評定表示タイプ';
 $string['gradeexceptions'] = '成績から除外';
 $string['gradeexceptionshelp'] = '評定例外ヘルプ';
 $string['gradehelp'] = '評定ヘルプ';
@@ -287,6 +291,7 @@ $string['outcomestandardhelp'] = '標準アウトカムはサイト全体およ�
 $string['overallaverage'] = '全平均';
 $string['overallavg'] = '全平均';
 $string['overridden'] = 'オーバーライド';
+$string['overridesitedefaultgradedisplaytype'] = 'サイトデフォルトをオーバーライドする';
 $string['pctoftotalgrade'] = '評点合計の%%';
 $string['percent'] = 'パーセント';
 $string['percentage'] = 'パーセンテージ';

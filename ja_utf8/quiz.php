@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 Beta + (2007091900)
+      // quiz.php - created with Moodle 1.9 Beta + (2007092000)
 
 
 $string['1day'] = '1日';
@@ -592,6 +592,7 @@ $string['xml'] = 'Moodle XMLフォーマット';
 $string['xmlimportnoname'] = 'xmlファイルに問題名がありません。';
 $string['xmlimportnoquestion'] = 'xmlファイルに問題テキストがありません。';
 $string['xmltypeunsupported'] = '問題タイプ $a は、xmlインポートではサポートされていません。';
+$string['youneedtoenrol'] = 'この小テストを受験する前に、このコースに受講登録する必要があります。';
 $string['yourfinalgradeis'] = 'あなたの最終評点は $a です。';
 $string['zerosignificantfiguresnotallowed'] = '正解の有効数字にはゼロを設定できません!';
 $string['existingcategory1'] = 'すでに登録されている定数、このカテゴリの他の問題でも使用'; // ORPHANED
