@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta + (2007091900)
+      // admin.php - created with Moodle 1.9 Beta + (2007092001)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -215,6 +215,7 @@ $string['configusetags'] = 'サイト全体でタグ機能を有効にします�
 $string['configvariables'] = '詳細設定';
 $string['configvisiblecourses'] = '非表示のカテゴリ内に通常どおりコースを表示します。';
 $string['configwarning'] = '設定の変更は慎重に行ってください - 間違った設定はトラブルの原因となります。';
+$string['configxmlstrictheaders'] = 'この設定を有効にした場合、それぞれのページはXML httpヘッダおよびprologを使用して生成されるため、ブラウザにはXHTMLエラーがインラインに表示されます。これは開発者のみに有用です。';
 $string['configzip'] = 'zipプログラムのパスを指定してください (Unix/Linuxのみ、任意)。パスを指定した場合、サーバ内のzip書庫作成時に使用されます。空白にした場合、Moodleは内部ルーチンを使用します。';
 $string['confirmation'] = '確認';
 $string['confirminstall'] = 'あなたは言語パック ($a) をインストールしようとしています。本当によろしいですか?';
@@ -640,6 +641,7 @@ $string['usersrenamed'] = 'ユーザがリネームされました。';
 $string['usersupdated'] = 'ユーザが更新されました。';
 $string['usetags'] = 'タグ機能を有効にする';
 $string['validateerror'] = 'この値は有効ではありません。:';
+$string['xmlstrictheaders'] = 'XMLストリクトヘッダ';
 $string['editlang'] = '<b>編集</b>'; // ORPHANED
 $string['confighideactivitytypecrumb'] = '活動モジュールで表示されるブレッドクラム内の活動タイプ (例 小テスト) クラムを誰に非表示にするか選択してください。'; // ORPHANED
 $string['hideactivitytypecrumb'] = '活動タイプクラムを非表示にする'; // ORPHANED
