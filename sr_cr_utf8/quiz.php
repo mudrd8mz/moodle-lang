@@ -446,6 +446,7 @@ $string['regrade'] = 'Поново оцени све покушаје';
 $string['regradecomplete'] = 'Сви покушаји су поново оцењени';
 $string['regradecount'] = '$a->changed од укупно $a->attempt оцена је промењено';
 $string['regradedisplayexplanation'] = 'Покушаји који се мењају током поновног оцењивања се приказују као линкови на прозор за преглед питања';
+$string['regradenotallowed'] = 'Немате дозволу за поновно оцењивање овог теста';
 $string['regradingquestion'] = 'Поновно оцењивање \"$a\".';
 $string['regradingquiz'] = 'Поновно оцењивање теста \"$a\"';
 $string['relative'] = 'Релативно';
