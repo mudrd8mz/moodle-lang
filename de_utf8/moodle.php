@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007081600)
+      // moodle.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['action'] = 'Aktion';
@@ -1041,7 +1041,7 @@ $string['noticenewerbackup'] = 'Diese Sicherungsdatei wurde mit Moodle $a->backu
 $string['notifications'] = 'Mitteilungen';
 $string['notify'] = 'Anzeigen';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Nutzer/in: $a->info';
-$string['notifyloginfailuresmessageend'] = 'Sie können diese Logdaten unter $a/course/log.php?id=1&chooselog=1&modid=site_errors ansehen.';
+$string['notifyloginfailuresmessageend'] = 'Sie können diese Logdaten unter $a/course/report/log/index.php?id=1&amp;chooselog=1&amp;modid=site_errors ansehen.';
 $string['notifyloginfailuresmessagestart'] = 'Dies ist eine Übersicht über gescheiterte Anmeldeversuche auf der Seite $a seit der letzten Benachrichtigung.';
 $string['notifyloginfailuressubject'] = '$a: Benachrichtigung über gescheiterte Anmeldeversuche';
 $string['notincluded'] = 'Nicht einbezogen';
