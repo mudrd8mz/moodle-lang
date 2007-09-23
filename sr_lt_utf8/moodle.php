@@ -237,8 +237,8 @@ $string['confirmednot'] = 'Vaša registracija još nije potvrđena!';
 $string['continue'] = 'Nastavak';
 $string['continuetocourse'] = 'Kliknite ovde da biste ušli na svoj kurs';
 $string['convertingwikitomarkdown'] = 'Pretvaranje Wiki formata u Markdown format';
-$string['cookiesenabled'] = 'Vaš web čitač mora imati omogućene \"kolačiće\"';
-$string['cookiesnotenabled'] = 'Nažalost, \"kolačići\" nisu omogućeni u Vašem web čitaču';
+$string['cookiesenabled'] = 'Vaš Web čitač mora imati omogućene \"kolačiće\"';
+$string['cookiesnotenabled'] = 'Nažalost, \"kolačići\" nisu omogućeni u Vašem Web čitaču';
 $string['copy'] = 'kopiranje';
 $string['copyasnoun'] = 'kopiranje';
 $string['copyingcoursefiles'] = 'Kopiranje datoteka kursa';
@@ -472,7 +472,7 @@ Da biste promenili Vašu šifru, molim idite na sledeću internet stranicu:
 
 $a->link
 
-U većini programa namenjenih za poštu ovo bi trebalo da se prikaže kao link u plavoj boji na koji možete da kliknete. U slučaju da to ne funkcioniše, isecite i prenesite adresu u adresnu liniju prozora Vašeg web čitača.
+U većini programa namenjenih za poštu ovo bi trebalo da se prikaže kao link u plavoj boji na koji možete da kliknete. U slučaju da to ne funkcioniše, isecite i prenesite adresu u adresnu liniju prozora Vašeg Web čitača.
 
 Ako Bam je potrebna pomoć, molim Vas kontaktirajte vašeg administratora,  $a->admin';
 $string['emailpasswordchangeinfodisabled'] = 'Postovana/i $a->firstname,
@@ -540,10 +540,9 @@ $string['enrolperiod'] = 'Upisni period';
 $string['enrolstartdate'] = 'Datum početka';
 $string['entercourse'] = 'Kliknite za pristup kursu';
 $string['enteremailaddress'] = 'Da biste poništili trenutnu lozinku i dobili novu, treba da unesete Vašu važeću adresu elektronske pošte, na koju će Vam biti poslata nova lozinka.';
-$string['enteryourinterests'] = 'Unesite svoja interesovanja razdvojena zarezima';
 $string['entries'] = 'Ulazi';
 $string['error'] = 'Greška';
-$string['errortoomanylogins'] = 'Nažalost, prekoračili ste dopušteni broj pogrešnih pristupa sistemu. Ponovo pokrenite svoj web čitač i pokušajte ponovo.';
+$string['errortoomanylogins'] = 'Nažalost, prekoračili ste dopušteni broj pogrešnih pristupa sistemu. Ponovo pokrenite svoj Web čitač i pokušajte ponovo.';
 $string['errorwhenconfirming'] = 'Vaš korisnički nalog još nije još potvrđen zbog greške koja se dogodila. Ako ste kliknuli na link koji ste dobili u e-poruci, molimo proverite je li linija u kojoj se nalazi navedeni link ispravna (odnosno, je da je nije Vaš klijent e-pošte možda formatirao u dva reda, čime je deo linka završio u drugom redu). Postoji mogućnost da ćete morati ručnim kopiranjem i unosom rekonstruisati originalni link.';
 $string['everybody'] = 'Svi';
 $string['executeat'] = 'Izvršiti u';
@@ -696,6 +695,7 @@ $string['helpemoticons'] = 'Upotreba emotikona';
 $string['helpformatting'] = 'O oblikovanju teksta';
 $string['helphtml'] = 'Kako koristiti HTML oblikovanje';
 $string['helpindex'] = 'Indeks svih datoteka pomoći';
+$string['helpinterestslist'] = 'Unesite vaša interesovanja odvojene zarezom';
 $string['helppicture'] = 'Kako postaviti sliku';
 $string['helpprefix'] = 'Pomoć, $a';
 $string['helpprefix2'] = 'Pomoć za $a';
@@ -722,7 +722,7 @@ $string['home'] = 'Početna strana';
 $string['hour'] = 'h';
 $string['hours'] = 'h';
 $string['howtomakethemes'] = 'Kako podesiti novu šemu izgleda sajta';
-$string['htmleditor'] = 'Upotreba HTML editora (samo u nekim web čitačima)';
+$string['htmleditor'] = 'Upotreba HTML editora (samo u nekim Web čitačima)';
 $string['htmleditoravailable'] = 'HTML editor je dostupan';
 $string['htmleditordisabled'] = 'Isključili ste upotrebu HTML editora za Vaš korisnički profil';
 $string['htmleditordisabledadmin'] = 'Administrator sistema je isključio uportrebu HTML editora na nivou celog sistema';
@@ -759,6 +759,7 @@ $string['info'] = 'Informacija';
 $string['institution'] = 'Institucija';
 $string['instudentview'] = 'u studentskom pogledu';
 $string['interests'] = 'Interesovanja';
+$string['interestslist'] = 'Lista interesovanja';
 $string['invalidemail'] = 'Nevažeća adresa elektronske pošte';
 $string['invalidlogin'] = 'Pogrešno korisničko ime ili lozinka. Molimo pokušajte ponovo.';
 $string['ip_address'] = 'IP adresa';
@@ -985,6 +986,7 @@ $string['nofilesselected'] = 'Nije izabrana nijedna datoteka za restauriranje.';
 $string['nofilesyet'] = 'Unutar ovog kursa još nije postavljena nijedna datoteka';
 $string['nograde'] = 'Nema ocene';
 $string['noimagesyet'] = 'Unutar ovog kursa još nije postavljena nijedna slika';
+$string['nologsfound'] = 'Logovi nisu nađeni';
 $string['nomorecourses'] = 'Nije pronađeno više kurseva koji se uklapaju sa zadatim kriterijumima';
 $string['nomoreidnumber'] = 'Ne koristi se idnumber da bi se izbegle kolizije';
 $string['none'] = 'Nema';
@@ -1197,6 +1199,7 @@ $string['scalesstandard'] = 'Standardne skale za ocenjivanje';
 $string['scalestandard'] = 'Standardna skala';
 $string['scalestip'] = 'Kako biste kreirali sopstvene, prilagođene skale za ocenjivanje, upotrebite link \'Skale...\' u meniju za administraciju kursa.';
 $string['schedule'] = 'Raspored';
+$string['scheduledbackupsinactive'] = 'Planirane sigurnosne kopije nisu uključene od strane administratora';
 $string['scheduledbackupstatus'] = 'Status rasporeda kreiranja rezervnih kopija';
 $string['screenreaderno'] = 'Ne';
 $string['screenreaderuse'] = 'Čitač ekrana';
@@ -1339,6 +1342,7 @@ $string['status'] = 'Status';
 $string['strftimedate'] = '%%d. %%B %%Y.';
 $string['strftimedateshort'] = '%%d. %%B';
 $string['strftimedatetime'] = '%%d. %%B %%Y., %%I:%%M';
+$string['strftimedatetimeshort'] = '%%d/%%m/%%Y %%H:%%M';
 $string['strftimedaydate'] = '%%A, %%d. %%B %%Y.';
 $string['strftimedaydatetime'] = '%%A, %%d. %%B %%Y., %%I:%%M';
 $string['strftimedayshort'] = '%%A, %%d. %%B';
@@ -1549,5 +1553,6 @@ $string['yourlastlogin'] = 'Vaš poslednji pristup sistemu';
 $string['yourself'] = 'sebe';
 $string['yourteacher'] = 'Vaš $a';
 $string['zippingbackup'] = 'Kreira se arhiva sa rezervnom kopijom';
+$string['enteryourinterests'] = 'Unesite svoja interesovanja razdvojena zarezima'; // ORPHANED
 
 ?>

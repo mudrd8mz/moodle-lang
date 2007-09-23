@@ -61,6 +61,7 @@ $string['errorexistsroleshortname'] = 'Naziv uloge već postoji';
 $string['existingusers'] = '$a postojećih korisnika';
 $string['globalrole'] = 'Globalna uloga';
 $string['globalroleswarning'] = 'UPOZORENJE! Svaka uloga koju dodelite na ovoj stranici primenjivaće se na korisnike kojima je dodeljena na čitavom sajtu, uključujući i početnu stranicu i sve kurseve.';
+$string['grade:edit'] = 'Edituj ocene';
 $string['grade:export'] = 'Izvoz ocena';
 $string['grade:hide'] = 'Sakrij ocenu';
 $string['grade:import'] = 'Uvoz ocena';
