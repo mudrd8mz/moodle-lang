@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 Beta + (2007092000)
+      // quiz.php - created with Moodle 1.9 Beta + (2007092002)
 
 
 $string['1day'] = '1日';
@@ -345,7 +345,7 @@ $string['multiplier'] = '乗数';
 $string['name'] = '名称';
 $string['newattemptfail'] = 'エラー: 小テストの新しい受験を開始できませんでした。';
 $string['noanswers'] = '答えが選択されていません!';
-$string['noattempts'] = 'この小テストは解答されていません。';
+$string['noattempts'] = 'この小テストは受験されていません。';
 $string['noattemptstoshow'] = '表示する受験結果はありません。';
 $string['nocategory'] = 'カテゴリが正しくないか、指定されていません。';
 $string['nocommentsyet'] = 'まだコメントはありません。';
@@ -371,6 +371,7 @@ $string['notenoughanswers'] = 'このタイプの質問には少なくとも $a 
 $string['notenoughsubquestions'] = '十分な副質問が定義されていません！<br />この質問を修正しますか？';
 $string['notimedependentitems'] = '現在、時間に依存する問題は小テストモジュールでサポートされていません。代わりに小テスト全体に対して制限時間を設定してください。他の問題を選択しますか (または無視してこの問題を使いますか) ?';
 $string['numattempts'] = '$a->studentnum 名の $a->studentstring が $a->attemptnum 回受験しました。';
+$string['numattemptsmade'] = 'この小テストは $a 回受験されました。';
 $string['numberabbr'] = '#';
 $string['numerical'] = '数値問題';
 $string['onlyteachersexport'] = '教師のみ問題をエクスポートできます。';
@@ -432,6 +433,7 @@ $string['quizavailable'] = '小テストは $a まで利用できます。';
 $string['quizclose'] = '小テスト終了';
 $string['quizclosed'] = 'この小テストは $a に終了しました。';
 $string['quizcloses'] = '終了日時';
+$string['quizcloseson'] = 'この小テストは $a に終了します。';
 $string['quiznotavailable'] = '小テストは  $a まで利用できません。';
 $string['quizopen'] = '小テスト公開';
 $string['quizopens'] = '公開日時';
