@@ -214,6 +214,7 @@ $string['configunzip'] = 'Indiquer le chemin complet du programme «&nbsp;unzip&
 $string['configusetags'] = 'La fonctionnalité de balises doit-elle être activée sur tout le site&nbsp;?';
 $string['configvariables'] = 'Paramètres techniques';
 $string['configwarning'] = 'Attention ! Des valeurs inadaptées pour ces paramètres peuvent engendrer des problèmes.';
+$string['configxmlstrictheaders'] = 'Si ce réglage est activé, chaque page sera générée avec des entêtes et un prologue http XML, de sorte que les navigateurs afficheront les erreurs XHTML. Ceci n\'est utile que pour les développeurs.';
 $string['configzip'] = 'Indiquer le chemin complet du programme «&nbsp;zip&nbsp;» (seulement pour Unix). Ce programme est requis pour réaliser des archives zip sur le serveur.';
 $string['confirmation'] = 'Confirmation';
 $string['confirminstall'] = 'Vous êtes sur le point d\'installer une nouvelle langue ($a). Voulez-vous continuer&nbsp;?';
@@ -637,5 +638,6 @@ $string['usersrenamed'] = 'Utilisateurs renommés';
 $string['usersupdated'] = 'Utilisateurs modifiés';
 $string['usetags'] = 'Activer la fonctionnalité de balises';
 $string['validateerror'] = 'Cette valeur n\'est pas valide&nbsp;: ';
+$string['xmlstrictheaders'] = 'Entêtes XML strict';
 
 ?>
