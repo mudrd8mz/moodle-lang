@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 dev (2007081001)
+      // glossary.php - created with Moodle 1.9 Beta + (2007092002)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -17,7 +17,7 @@ $string['approve'] = '承認';
 $string['areyousuredelete'] = '本当にこのエントリを削除してもよろしいですか?';
 $string['areyousuredeletecomment'] = '本当にこのコメントを削除してもよろしいですか?';
 $string['areyousureexport'] = '本当にこのエントリを下記の用語集にエクスポートしてもよろしいですか?';
-$string['ascending'] = '(昇順)';
+$string['ascending'] = '昇順';
 $string['attachment'] = '添付';
 $string['authorview'] = '著者順に表示';
 $string['back'] = '戻る';
@@ -29,6 +29,7 @@ $string['categories'] = 'カテゴリ';
 $string['category'] = 'カテゴリ';
 $string['categorydeleted'] = 'カテゴリが削除されました。';
 $string['categoryview'] = 'カテゴリ順';
+$string['changeto'] = '$a に変更する';
 $string['cnfallowcomments'] = '用語集のエントリへのコメントをデフォルトで許可します。';
 $string['cnfallowdupentries'] = '重複エントリを許可します。';
 $string['cnfapprovalstatus'] = '学生による投稿をデフォルトで承認します。';
@@ -51,6 +52,7 @@ $string['commentupdated'] = 'コメントが更新されました。';
 $string['concept'] = '用語';
 $string['concepts'] = '用語';
 $string['configenablerssfeeds'] = 'すべての用語集に関するRSSフィードを有効にします。さらに、手動で各用語集のRSSフィード設定を有効にする必要があります。';
+$string['current'] = '現在の並び替え順: $a';
 $string['currentglossary'] = '現在の用語集';
 $string['dateview'] = '日付順';
 $string['defaultapproval'] = 'デフォルトで承認する';
@@ -59,7 +61,7 @@ $string['definitions'] = '定義';
 $string['deleteentry'] = 'エントリの削除';
 $string['deletingcomment'] = 'コメントの削除';
 $string['deletingnoneemptycategory'] = '空でないカテゴリが削除された場合、関係するエントリも同時に削除されます。エントリを削除したい場合は、手動で行ってください。';
-$string['descending'] = '(降順)';
+$string['descending'] = '降順';
 $string['destination'] = 'インポート先';
 $string['displayformat'] = '表示フォーマット';
 $string['displayformatcontinuous'] = '連続、著者なし';
