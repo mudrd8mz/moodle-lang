@@ -314,6 +314,7 @@ $string['documentation'] = 'Документация';
 $string['donotask'] = 'Не спрашивать';
 $string['down'] = 'Вниз';
 $string['downloadexcel'] = 'Скачать в формате Excel';
+$string['downloadods'] = 'Скачать в формате ODS';
 $string['downloadtext'] = 'Скачать в текстовом формате';
 $string['doyouagree'] = 'Прочитали ли вы условия?';
 $string['duplicate'] = 'Дублировать';
@@ -428,8 +429,23 @@ $string['existingcoursedeleting'] = 'Существующий курс, пред
 $string['existingcreators'] = 'Существующие создатели курса';
 $string['existingstudents'] = 'Записанные студенты';
 $string['existingteachers'] = 'Учителя';
-$string['expirynotify'] = 'Уведомление об окончании записи';
-$string['expirynotifystudents'] = 'Оповещение учеников';
+$string['expirynotify'] = 'Уведомление об окончании обучения';
+$string['expirynotifyemail'] = 'Следующие студенты в этом курсе закончат свое обучение через $a->threshold дней:
+
+$a->current
+
+Следующие студенты в этом курсе закончат свое обучение менее чем через $a->threshold дней:
+
+$a->past
+
+Вы можете воспользоваться следующей страницей для продления их сроков обучения:
+$a->extendurl';
+$string['expirynotifystudents'] = 'Оповещать учеников';
+$string['expirynotifystudentsemail'] = 'Дорогой $a->studentstr:
+
+Это письмо является напоминанием о том, что Ваше обучение в курсе $a->course закончится через $a->threshold дней.
+
+Вы можете связаться с $a->teacherstr для обсуждения возможности продления Вам сроков обучения.';
 $string['expirythreshold'] = 'Порог';
 $string['failedloginattempts'] = '$a->attempts неудачных попыток авторизации с Вашего последнего захода';
 $string['failedloginattemptsall'] = '$a->attempts неудачных попыток авторизации для $a->accounts пользователей';

@@ -10,3 +10,12 @@ $string['overview'] = 'Просмотр';
 $string['overviewdownload'] = 'Загрузить результаты просмотра';
 
 ?>
+<?PHP // $Id$ 
+      // quiz_overview.php - created with Moodle 1.8 + (2007021505)
+      // local modifications from http://www.cdp.tsure.ru/moodle
+
+
+$string['attemptsonly'] = '$a, которые сделали попытки';
+$string['noattemptsonly'] = '$a, которые не сделали попытки';
+
+?>

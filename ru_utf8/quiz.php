@@ -518,3 +518,13 @@ $string['continuepreview'] = 'Продолжить последний просм
 $string['previewquiznow'] = 'Начать просмотр'; // ORPHANED
 
 ?>
+<?PHP // $Id$ 
+      // quiz.php - created with Moodle 1.8.2+ (2007021520)
+      // local modifications from http://www.cdp.tsure.ru/moodle
+
+
+$string['choice'] = 'Вариант ответа';
+$string['questionsinthisquiz'] = 'Вопросы этого теста';
+$string['responses'] = 'Ответы учеников';
+
+?>

@@ -31,3 +31,14 @@ $string['rpercenttitle'] = '%% от-<br />ветов';
 $string['stddevtitle'] = 'Станд.<br />откл.';
 
 ?>
+<?PHP // $Id$ 
+      // quiz_analysis.php - created with Moodle 1.8.2+ (2007021520)
+      // local modifications from http://www.cdp.tsure.ru/moodle
+
+
+$string['dicsindextitle'] = 'Индекс<br />диффер.';
+$string['disccoefftitle'] = 'Коэфф.<br />диффер.';
+$string['facilitytitle'] = 'Индекс<br />легкости';
+$string['stddevtitle'] = 'Ср.квадр.<br />откл.';
+
+?>
