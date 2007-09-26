@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007091900)
+      // moodle.php - created with Moodle 1.9 Beta + (2007092501)
 
 
 $string['action'] = '操作';
@@ -158,6 +158,7 @@ $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['backupnoneusersinfo'] = '注意: あなたはユーザをバックアップしない (「なし」) を選択をしました。すべてのモジュールのバックアップは「ユーザデータを含まないモード」に変更されました。「エクササイズ」および「ワークショップ」モジュールは、このタイプのバックアップと互換性が無いため、これらのモジュールのバックアップは完全に解除されました。';
 $string['backupnonisowarning'] = '警告: このバックアップは、非ユニコードバージョンのMoodle (1.6以前) によって作成されたものです。このバックアップに非ISO-8859-1テキストが含まれている場合、ユニコードバージョンのMoodleにリストアすると、文字化けが発生する可能性があります。このバックアップを正常にするための詳細情報は、<a href=\"http://docs.moodle.org/ja/バックアップFAQ\">バックアップFAQ</a>をご覧ください。';
 $string['backuporiginalname'] = 'バックアップ名';
+$string['backuproleassignments'] = 'これらのロールに対するロール割り当てをバックアップする';
 $string['backupsavetohelp'] = 'バックアップファイルの保存先ディレクトリをフルパスで入力してください。<br />(コースのデフォルトディレクトリに保存する場合は空白)';
 $string['backupschedulehelp'] = '何曜日に自動バックアップを実行するか選択してください。';
 $string['backupsitefileshelp'] = 'このオプションを有効にした場合、コースで使用されているサイトファイルが自動バックアップに含まれます。';
@@ -749,6 +750,7 @@ $string['includemodules'] = 'モジュールを含む';
 $string['includemoduleuserdata'] = 'モジュールユーザデータを含む';
 $string['includeneededusers'] = '必要なユーザを含む';
 $string['includenoneusers'] = 'ユーザを含まない';
+$string['includeroleassignments'] = 'ロール割り当てを含む';
 $string['includesitefiles'] = 'このコースで使用されているサイトファイルを含む';
 $string['includeuserfiles'] = 'ユーザファイルを含む';
 $string['info'] = '情報';
