@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta + (2007092001)
+      // admin.php - created with Moodle 1.9 Beta + (2007092501)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -529,7 +529,7 @@ $string['questioncwqpfscheck'] = '1つまたはそれ以上の小テストの「
 $string['questioncwqpfsok'] = '素晴らしい。あなたの小テストでは、共有および非共有カテゴリから混在して選択されるように設定されている問題はありません。';
 $string['rcache'] = 'レコードキャッシュ';
 $string['rcachettl'] = 'レコードキャッシュTTL';
-$string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細情報は、<a target=\"_new\" href=\"$a\">オンラインリリースノート</a>をご覧ください。';
+$string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細情報は、<a target=\"_blank\" href=\"$a\">オンラインリリースノート</a>をご覧ください。';
 $string['remotelangnotavailable'] = 'Moodleがmoodle.orgに接続できないため、言語パックを自動的にインストールできません。適切なzipファイルを下記のリンクより手動でダウンロードして、$a ディレクトリにコピーおよびunzipしてください。';
 $string['renameerrors'] = 'リネームのエラー';
 $string['restrictbydefault'] = 'デフォルトでモジュールを制限する';
