@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // gradeexport_ods.php - created with Moodle 1.9 Beta + (2007082400)
+      // gradeexport_ods.php - created with Moodle 1.9 Beta + (2007092501)
 
 
 $string['modulename'] = 'OpenOfficeスプレッドシート';
+$string['ods:publish'] = 'ODS評定エクスポートを公開する';
 $string['ods:view'] = 'OpenOffice評定エクスポートを使用する';
 
 ?>

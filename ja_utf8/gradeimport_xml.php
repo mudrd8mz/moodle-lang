@@ -7,6 +7,7 @@ $string['errduplicateidnumber'] = 'エラー - IDナンバーが重複してい�
 $string['errincorrectidnumber'] = 'エラー - IDナンバーが正しくありません。';
 $string['fileurl'] = 'リモートファイルURI';
 $string['modulename'] = 'XMLファイル';
+$string['xml:publish'] = 'XMLからの評定インポートを公開する';
 $string['xml:view'] = 'XMLから評定をインポートする';
 
 ?>
