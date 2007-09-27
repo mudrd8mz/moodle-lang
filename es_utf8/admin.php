@@ -538,7 +538,7 @@ $string['qtyperqpwillberemovedanyway'] = 'Durante la actualización, el tipo de 
 $string['quarantinedir'] = 'Directorio de cuarentena';
 $string['rcache'] = 'Caché de registro';
 $string['rcachettl'] = 'Caché TTL de registro';
-$string['releasenoteslink'] = 'Si desea información sobre esta versiónde Moodle, por favor vea <a target=\"_new\" href=\"$a\">Release Notes</a>';
+$string['releasenoteslink'] = 'Si desea información sobre esta versión de Moodle, por favor vea <a target=\"_blank\" href=\"$a\">Release Notes</a>';
 $string['remotelangnotavailable'] = 'Debido a que Moodle no puede conectarse a download.moodle.org, no podemos instalar el paquete de idioma automáticamente. Por favor, descargue los archivos apropiados de la lista, cópielos en su directorio $a y descomprímalos manualmente.';
 $string['renameerrors'] = 'Errores al renombrar';
 $string['restrictbydefault'] = 'Restringir módulos por defecto';
