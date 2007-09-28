@@ -1,4 +1,5 @@
-<?
+<?php  // $Id$
+
 $string['blockname'] = 'Recherche globale';
 $string['configbuttonlabel'] = 'Libellé du bouton de recherche';
 $string['configenablefileindexing'] = 'Activer l\'indexation des fichiers';
@@ -9,6 +10,7 @@ $string['configwordtotextcmd'] = 'Chemin vers la commande doctotext';
 $string['configwordtotextenv'] = 'Réglage d\'environnement du convertisseur MSWord';
 $string['configsearchtext'] = 'Rechercher dans le texte';
 $string['go'] = 'Lancer la recherche';
-$string['bytes'] = ' octets (0 pour \"pas de limite\")';
+$string['bytes'] = ' octets (0 pour «&nbsp;pas de limite&nbsp;»)';
 $string['searchmoodle'] = 'Rechercher dans le site';
+
 ?>
