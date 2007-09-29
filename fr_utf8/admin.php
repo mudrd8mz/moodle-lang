@@ -529,7 +529,7 @@ $string['questioncwqpfscheck'] = 'Une ou plusieurs questions aléatoires d\'un t
 $string['questioncwqpfsok'] = 'Il n\'y a dans vos tests aucune question aléatoire tirant ses questions de catégories partagées et de catégories non partagées.';
 $string['rcache'] = 'Cache des enregistrements';
 $string['rcachettl'] = 'TTL des enregistrements en cache';
-$string['releasenoteslink'] = 'Pour des informations sur cette version de Moodle, veuillez consulter les <a target=\"_new\" href=\"$a\">Notes de mise à jour</a> en ligne.';
+$string['releasenoteslink'] = 'Pour des informations sur cette version de Moodle, veuillez consulter les <a target=\"_blank\" href=\"$a\">Notes de mise à jour</a> en ligne.';
 $string['remotelangnotavailable'] = 'Moodle ne peut pas se connecter au site download.moodle.org. L\'installation automatique des langues ne peut donc pas avoir lieu. Veuillez télécharger le(s) fichier(s) compressé(s) nécessaire(s) dans la liste ci-dessous, les copier dans votre dossier $a et les décompresser manuellement.';
 $string['renameerrors'] = 'Erreurs lors de changements de nom';
 $string['restrictbydefault'] = 'Restreindre les modules par défaut';
