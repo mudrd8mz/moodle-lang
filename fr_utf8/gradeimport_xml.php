@@ -6,5 +6,5 @@ $string['errincorrectidnumber'] = 'Erreur - identifiant incorrect';
 $string['fileurl'] = 'URL du fichier distant';
 $string['modulename'] = 'Fichier XML';
 $string['xml:view'] = 'Importer des notes en XML';
-
+$string['xml:publish'] = 'Publier les notes importées depuis XML';
 ?>
