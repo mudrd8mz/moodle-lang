@@ -1,6 +1,6 @@
 $Id$
 
-Slovenský jazyk (ISO-8859-2)
+Slovenský jazyk (UTF-8)
 -------------------------------------------------------------------------------
 
 Autori
@@ -11,10 +11,14 @@ Miroslav Fikar (MF), FCHPT STU, e-mail: miroslav.fikar@stuba.sk
 Radik Kalakay, Projekt VECIT 9-2003 - ISO-8859-2
 a dalsi...
 
+Aktualny kontakt pre vkladanie, opravy na CVS: MF
 Novinky
 -------------------------------------------------------------------------------
+13-08-2007
+* prace na preklade 1.8 zahajene (MF)
+
 02-02-2007
-* prace na preklade 1.7 zahajene
+* prace na preklade 1.7 zahajene (MF)
 
 03-10-2006
 * doplnena cast utf-8 prekladov pre Moodle 1.6

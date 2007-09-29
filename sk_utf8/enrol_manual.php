@@ -8,5 +8,6 @@ $string['description'] = 'Toto je východzia metóda zápisu do kurzov. Študent
 <li>Kurz má definované heslo, tzv. \'kľúč k zápisu\'. Každý, kto pozná tento kľúč, sa môže do kurzu sám zapísať.</li>
 </ul>';
 $string['enrolname'] = 'Interný zápis';
+$string['keyholderrole'] = 'Rola používateľa, ktorý spravuje kľúč k zápisu do kurzu. Odkaz na osobu s touto rolou bude zobrazený študentom, ktorí sa prihlasujú do kurzu.';
 
 ?>
