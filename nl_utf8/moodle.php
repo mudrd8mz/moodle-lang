@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007090600)
+      // moodle.php - created with Moodle 1.9 Beta + (2007091401)
 
 
 $string['action'] = 'Actie';
@@ -247,7 +247,7 @@ $string['copyingsitefiles'] = 'Site-bestanden, gebruikt in cursussen aan het kop
 $string['copyinguserfiles'] = 'Gebruikersbestanden kopiëren';
 $string['copyingzipfile'] = 'ZIP-bestanden kopiëren';
 $string['copyrightnotice'] = 'Auteursrechtenverklaring';
-$string['coresystem'] = 'Hoofdsysteem';
+$string['coresystem'] = 'Site';
 $string['cost'] = 'Prijs';
 $string['costdefault'] = 'Standaardprijs';
 $string['counteditems'] = '$a->count $a->items';
@@ -538,7 +538,6 @@ $string['enrolperiod'] = 'Aanmeldingsperiode';
 $string['enrolstartdate'] = 'Startdatum';
 $string['entercourse'] = 'Klik om deze cursus binnen te gaan';
 $string['enteremailaddress'] = 'Typ je e-mailadres om je wachtwoord te resetten en via e-mail een nieuw wachtwoord te ontvangen.';
-$string['enteryourinterests'] = 'Noteer je interesses, gescheiden door komma\'s';
 $string['entries'] = 'Invoer';
 $string['error'] = 'Fout';
 $string['errortoomanylogins'] = 'Het spijt me, maar je hebt te vaak geprobeerd om in te loggen. Herstart je browser.';
@@ -693,6 +692,7 @@ $string['helpemoticons'] = 'Gebruik emoticons';
 $string['helpformatting'] = 'Over tekstopmaak';
 $string['helphtml'] = 'Hoe je HTML kunt schrijven';
 $string['helpindex'] = 'Index  helpbestanden';
+$string['helpinterestslist'] = 'Zet hier kernwoorden voor je interesses, gescheiden door komma\'s';
 $string['helppicture'] = 'Hoe je een afbeelding kunt uploaden';
 $string['helpprefix'] = 'Help, $a';
 $string['helpprefix2'] = 'Hulp voor $a';
@@ -756,6 +756,7 @@ $string['info'] = 'Informatie';
 $string['institution'] = 'Instituut';
 $string['instudentview'] = 'Als leerling';
 $string['interests'] = 'Interesses';
+$string['interestslist'] = 'Lijst met interesses';
 $string['invalidemail'] = 'Ongeldig e-mailadres';
 $string['invalidlogin'] = 'Ongeldige log in, probeer nog eens';
 $string['ip_address'] = 'IP-adres';
@@ -1336,6 +1337,7 @@ $string['status'] = 'Status';
 $string['strftimedate'] = '%%d %%B %%Y';
 $string['strftimedateshort'] = '%%d %%B';
 $string['strftimedatetime'] = '%%d %%B %%Y, %%H:%%M';
+$string['strftimedatetimeshort'] = '%%d/%%m/%%Y %%H:%%M';
 $string['strftimedaydate'] = '%%A, %%d %%B %%Y';
 $string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%H:%%M';
 $string['strftimedayshort'] = '%%A %%d  %%B';
@@ -1542,5 +1544,6 @@ $string['yourlastlogin'] = 'Je laatste log in was';
 $string['yourself'] = 'Jezelf';
 $string['yourteacher'] = 'Jouw $a';
 $string['zippingbackup'] = 'Backup zippen';
+$string['enteryourinterests'] = 'Noteer je interesses, gescheiden door komma\'s'; // ORPHANED
 
 ?>
