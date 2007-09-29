@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 Beta + (2007092002)
+      // quiz.php - created with Moodle 1.9 Beta + (2007092806)
 
 
 $string['1day'] = '1日';
@@ -399,7 +399,7 @@ $string['preview'] = 'プレビュー';
 $string['previewquestion'] = '問題のプレビュー';
 $string['previewquiz'] = '$a のプレビュー';
 $string['previewquiznow'] = '小テストをプレビューする';
-$string['previous'] = '前の状態に戻る';
+$string['previous'] = '前の状態に戻す';
 $string['publish'] = '公開';
 $string['publishedit'] = 'このカテゴリへの問題の追加・編集を行うためにはコース公開に関する権限を有する必要があります。';
 $string['qti'] = 'IMS QTIフォーマット';
