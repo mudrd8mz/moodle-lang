@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta + (2007092501)
+      // admin.php - created with Moodle 1.9 Beta + (2007100301)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -321,6 +321,7 @@ $string['forcetimezone'] = 'デフォルトタイムゾーンを強制する';
 $string['framename'] = 'フレーム名';
 $string['frontpage'] = 'フロントページ';
 $string['frontpagebackup'] = 'フロントページバックアップ';
+$string['frontpagedefaultrole'] = 'デフォルトのフロントページロール';
 $string['frontpageloggedin'] = 'ログイン時のフロントページアイテム';
 $string['frontpagerestore'] = 'フロントページリストア';
 $string['frontpageroles'] = 'フロントページロール';
