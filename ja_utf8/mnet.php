@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 Beta + (2007082400)
+      // mnet.php - created with Moodle 1.9 Beta + (2007100301)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
@@ -94,6 +94,7 @@ $string['mnetlog'] = 'ログ';
 $string['mnetpeers'] = 'ピア';
 $string['mnetservices'] = 'サービス';
 $string['mnetsettings'] = 'Moodleネットワーク設定';
+$string['mnetthemes'] = 'テーマ';
 $string['moodle_home_help'] = 'リモートホストのMoodleホームページのパスです。 例 /moodle/';
 $string['moodleloc'] = 'Moodleロケーション';
 $string['net'] = 'ネットワーキング';
@@ -161,6 +162,7 @@ $string['subscribe'] = '登録';
 $string['system'] = 'システム';
 $string['testtrustedhosts'] = 'IPアドレスをテストする';
 $string['testtrustedhostsexplain'] = '信頼できるホストかどうか確認するため、IPアドレスを入力してください。';
+$string['themesavederror'] = 'エラーが発生しました: テーマの変更は保存されません。';
 $string['transport_help'] = 'これらのオプションでは、相互認証が必要です。リモートホストに署名SSL証明書を強制するには、あなたのサーバも同様に署名SSL証明書を持つ必要があります。';
 $string['trustedhosts'] = 'XML-RPCホスト';
 $string['trustedhostsexplain'] = '<p>信頼できるホストメカニズムでは、特定のマシンにXML-RPC経由であらゆるMoodle APIの一部を実行することを許可します。Moodleの挙動をコントロールするスクリプトの実行が可能であり、このオプションを有効にすると非常に危険です。分からない場合、無効のままにしてください。</p><p>これは、Moodleネットワーキングに必要<strong>ではありません</strong>。</p><p>有効にするには、、1行に１つのIPアドレスのリストまたはネットワークを入力してください。例:</p>あなたのローカルホスト:<br />127.0.0.1<br />あなたのローカルホスト (CIDR表記、ネットワークブロック):<br />127.0.0.1/32<br />指定したIPアドレスのホストのみ 192.168.0.7:<br />192.168.0.7/32<br />IPアドレス 192.168.0.1 から 192.168.0.255 の間のホストはどれでも:<br />192.168.0.0/24<br />どのようなホストでも:<br />192.168.0.0/0<br />明らかに最後の例は、お勧めできる設定<strong>ではありません</strong>。';
