@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.7 beta + (2006101001)
+      // install.php - created with Moodle 1.9 Beta + (2007092806)
 
 
 $string['admindirerror'] = 'El directori d\'administració especificat és incorrecte';
@@ -64,6 +64,12 @@ $string['databasesettingssub_mssql_n'] = '<b>Tipus:</b> SQL*Server (UTF-8 habili
 <b>Contrasenya:</b> la vostra contrasenya de la base de dades<br />
 <b>Prefix de les taules:</b> prefix que cal anteposar als noms de totes les taules (obligatori)';
 $string['databasesettingssub_mysql'] = '<b>Tipus:</b> MySQL<br />
+<b>Servidor:</b> p. ex. localhost o db.isp.com<br />
+<b>Nom:</b> nom de la base de dades, p. ex. moodle<br />
+<b>Usuari:</b> el vostre nom d\'usuari de la base de dades<br />
+<b>Contrasenya:</b> la vostra contrasenya de la base de dades<br />
+<b>Prefix de les taules:</b> prefix que cal anteposar als noms de totes les taules (opcional)';
+$string['databasesettingssub_mysqli'] = '<b>Tipus:</b> MySQL Improved<br />
 <b>Servidor:</b> p. ex. localhost o db.isp.com<br />
 <b>Nom:</b> nom de la base de dades, p. ex. moodle<br />
 <b>Usuari:</b> el vostre nom d\'usuari de la base de dades<br />
@@ -185,6 +191,8 @@ $string['mssql_n'] = 'SQL*Server amb UTF-8 (mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'El PHP no s\'ha configurat correctament amb l\'extensió MSSQL de manera que pugui comunicar-se amb SQL*Server. Reviseu el fitxer php.ini o recompileu PHP.';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'El PHP no s\'ha configurat correctament amb l\'extensió MySQL de manera que pugui comunicar-se amb MySQL. Reviseu el fitxer php.ini o recompileu el PHP.';
+$string['mysqli'] = 'MySQL Improved (mysqli)';
+$string['mysqliextensionisnotpresentinphp'] = 'El PHP no ha estat configurat adequadament amb l\'extensió MySQLi de manera que pugui comunicar-se amb MySQL. Reviseu el fitxer php.ini o recompileu el PHP. L\'extensió MySQLi no està disponible per a PHP 4.';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'El PHP no s\'ha configurat correctament amb l\'extensió OCI8 de manera que pugui comunicar-se amb Oracle. Reviseu el fitxer php.ini o recompileu el PHP.';
 $string['odbc_mssql'] = 'SQL*Server over ODBC (odbc_mssql)';
