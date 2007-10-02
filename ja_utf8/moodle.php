@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007092501)
+      // moodle.php - created with Moodle 1.9 Beta + (2007100301)
 
 
 $string['action'] = '操作';
@@ -683,8 +683,9 @@ $string['guestsyes'] = '登録キーを持っていないゲストを許可す�
 $string['guestuser'] = 'ゲストユーザ';
 $string['guestuserinfo'] = 'いくつかのコースに閲覧のみ許可された特別なユーザです。';
 $string['healthcenter'] = 'ヘルスセンター';
-$string['healthproblemsdetected'] = '問題が発見されました!';
-$string['healthproblemsolution'] = '問題の解決方法';
+$string['healthnoproblemsfound'] = '健康問題は見つかりませんでした!';
+$string['healthproblemsdetected'] = '健康問題が発見されました!';
+$string['healthproblemsolution'] = '健康問題の解決方法';
 $string['healthreturntomain'] = '続ける';
 $string['healthsolution'] = '解決方法';
 $string['help'] = 'ヘルプ';
