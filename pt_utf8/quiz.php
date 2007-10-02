@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7.1+ (2006101010)
+      // quiz.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['1day'] = '1 Dia';
@@ -174,9 +174,6 @@ $string['event7'] = 'Enviar';
 $string['event8'] = 'Fechar';
 $string['event9'] = 'Avaliação manual';
 $string['examview'] = 'Examview';
-$string['existingcategory1'] = 'um literal de um conjunto de literais já existente que já está a ser usado por outras perguntas nesta categoria';
-$string['existingcategory2'] = 'um ficheiro de um conjunto de ficheiros já existente que já está a ser usado por outras perguntas nesta categoria';
-$string['existingcategory3'] = 'um apontador de um conjunto de apontadores já existente que já está a ser usado por outras perguntas nesta categoria';
 $string['export'] = 'Exportar';
 $string['exporterror'] = 'Ocorreu algum erro durante o processo de exportação';
 $string['exportfilename'] = 'teste';
@@ -247,12 +244,6 @@ $string['itemdefinition'] = 'Definição';
 $string['itemsource'] = 'Fonte do item';
 $string['itemsourceformat'] = 'Formato fonte do item';
 $string['itemtypes'] = 'Tipos de perguntas remotas';
-$string['keptcategory1'] = 'um literal do mesmo conjunto reutilizável de literais da categoria, como anteriormente';
-$string['keptcategory2'] = 'um ficheiro do mesmo conjunto reutilizável de ficheiros da categoria, como anteriormente';
-$string['keptcategory3'] = 'um apontador do mesmo conjunto reutilizável de apontadores da categoria, como anteriormente';
-$string['keptlocal1'] = 'um literal do mesmo conjunto privado de literais da pergunta, como anteriormente';
-$string['keptlocal2'] = 'um ficheiro do mesmo conjunto privado de ficheiros da pergunta, como anteriormente';
-$string['keptlocal3'] = 'um apontador do mesmo conjunto privado de apontadores da pergunta, como anteriormente';
 $string['lastanswer'] = 'A sua última resposta foi';
 $string['learnwise'] = 'Formato Learnwise';
 $string['link'] = 'Apontador';
@@ -291,12 +282,6 @@ $string['multipleanswers'] = 'Escolha pelo menos uma resposta';
 $string['multiplier'] = 'Multiplicador';
 $string['name'] = 'Nome';
 $string['newattemptfail'] = 'Errro: Não foi possível começar uma nova tentativa de resolução do teste';
-$string['newcategory1'] = 'um literal de um novo conjunto de literais que poderá ser usado também por outras perguntas nesta categoria';
-$string['newcategory2'] = 'um ficheiro de um novo conjunto de ficheiros que poderá ser usado por outras perguntas nesta categoria';
-$string['newcategory3'] = 'um apotador de um novo conjunto de apontadores que poderá ser usado por outras perguntas nesta categoria';
-$string['newlocal1'] = 'um literal de um novo conjunto de literais que unicamente poderá ser usado por esta pergunta';
-$string['newlocal2'] = 'um ficheiro de um novo conjunto de ficheiros que unicamente poderá ser usado por esta pergunta';
-$string['newlocal3'] = 'um apontador de um novo conjunto de apontadores que unicamente poderá ser usado por esta pergunta';
 $string['noanswers'] = 'Nenhuma resposta foi seleccionada!';
 $string['noattempts'] = 'Ainda não houve tentativas de resolver este teste';
 $string['noattemptstoshow'] = 'Não há tentativas a apresentar';
@@ -408,7 +393,7 @@ $string['reportresponses'] = 'Respostas detalhadas';
 $string['reports'] = 'Relatórios';
 $string['reportsimplestat'] = 'Estatísticas simples';
 $string['requirepassword'] = 'Exigir palavra chave';
-$string['requirepasswordmessage'] = 'Para poder responder a este teste, precisa saber apalavra chave de acesso.';
+$string['requirepasswordmessage'] = 'Para poder responder a este teste, precisa saber a palavra chave de acesso.';
 $string['requiresubnet'] = 'Exigir endereço de rede';
 $string['response'] = 'Resposta';
 $string['responses'] = 'Respostas';
@@ -510,7 +495,7 @@ $string['warningsdetected'] = 'Foram detectadas $a advertência(s)';
 $string['webct'] = 'Formato WebCT';
 $string['wheregrade'] = 'Onde está a minha nota?';
 $string['wildcard'] = 'Padrão geral';
-$string['withselected'] = 'Com sleccionados(as)';
+$string['withselected'] = 'Com os seleccionados(as)';
 $string['withsummary'] = 'Com sumário de estatísticas';
 $string['wronggrade'] = 'Nota errada (a seguir à linha $a) :';
 $string['wronguse'] = 'Não pode usar esta página assim';
@@ -519,5 +504,20 @@ $string['xml'] = 'Formato Moodle XML';
 $string['xmltypeunsupported'] = 'O tipo de pergunta $a não pode ser importado em xml';
 $string['yourfinalgradeis'] = 'A sua nota final neste teste é $a';
 $string['zerosignificantfiguresnotallowed'] = 'A resposta correcta não pode ter zero algarismos significativos!';
+$string['existingcategory1'] = 'um literal de um conjunto de literais já existente que já está a ser usado por outras perguntas nesta categoria'; // ORPHANED
+$string['existingcategory2'] = 'um ficheiro de um conjunto de ficheiros já existente que já está a ser usado por outras perguntas nesta categoria'; // ORPHANED
+$string['existingcategory3'] = 'um apontador de um conjunto de apontadores já existente que já está a ser usado por outras perguntas nesta categoria'; // ORPHANED
+$string['keptcategory1'] = 'um literal do mesmo conjunto reutilizável de literais da categoria, como anteriormente'; // ORPHANED
+$string['keptcategory2'] = 'um ficheiro do mesmo conjunto reutilizável de ficheiros da categoria, como anteriormente'; // ORPHANED
+$string['keptcategory3'] = 'um apontador do mesmo conjunto reutilizável de apontadores da categoria, como anteriormente'; // ORPHANED
+$string['keptlocal1'] = 'um literal do mesmo conjunto privado de literais da pergunta, como anteriormente'; // ORPHANED
+$string['keptlocal2'] = 'um ficheiro do mesmo conjunto privado de ficheiros da pergunta, como anteriormente'; // ORPHANED
+$string['keptlocal3'] = 'um apontador do mesmo conjunto privado de apontadores da pergunta, como anteriormente'; // ORPHANED
+$string['newcategory1'] = 'um literal de um novo conjunto de literais que poderá ser usado também por outras perguntas nesta categoria'; // ORPHANED
+$string['newcategory2'] = 'um ficheiro de um novo conjunto de ficheiros que poderá ser usado por outras perguntas nesta categoria'; // ORPHANED
+$string['newcategory3'] = 'um apotador de um novo conjunto de apontadores que poderá ser usado por outras perguntas nesta categoria'; // ORPHANED
+$string['newlocal1'] = 'um literal de um novo conjunto de literais que unicamente poderá ser usado por esta pergunta'; // ORPHANED
+$string['newlocal2'] = 'um ficheiro de um novo conjunto de ficheiros que unicamente poderá ser usado por esta pergunta'; // ORPHANED
+$string['newlocal3'] = 'um apontador de um novo conjunto de apontadores que unicamente poderá ser usado por esta pergunta'; // ORPHANED
 
 ?>
