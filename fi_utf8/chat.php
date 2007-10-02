@@ -52,7 +52,7 @@ $string['repeatweekly'] = 'Joka viikko samaan aikaan';
 $string['savemessages'] = 'Säästä vanhat istunnot';
 $string['seesession'] = 'Vilkaise tätä istuntoa';
 $string['sessions'] = 'Chat-istunnot';
-$string['strftimemessage'] = '%%%%H:%%%%M';
+$string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Vanhat istunnot näytetään kaikille';
 $string['viewreport'] = 'Näytä vanhat chat-istunnot';
 ?>

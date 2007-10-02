@@ -173,7 +173,7 @@ $string['export'] = 'Vie';
 $string['exportfilename'] = 'tentti';
 $string['exportingquestions'] = 'Kysymykset on viety tiedostoon';
 $string['exportname'] = 'Tiedostonimi';
-$string['exportnameformat'] = '%%%%Y%%%%m%%%%d-%%%%H%%%%M';
+$string['exportnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['exportquestions'] = 'Vie kysymykset tiedostoon';
 $string['false'] = 'Epätosi';
 $string['feedback'] = 'Palaute';
@@ -185,9 +185,9 @@ $string['filloutthreequestions'] = 'Sinun pitää täyttää vähintään kolme 
 $string['fillouttwochoices'] = 'Sinun pitää valita vähintään kaksi vaihtoehtoa. Tyhjiä vaihtoehtoja ei käytetä.';
 $string['finishattempt'] = 'Palauta kaikki ja lopeta';
 $string['forceregeneration'] = 'pakota uudelleenluonti';
-$string['fractionsaddwrong'] = 'Valitsemasi arviointiasteikko ei ole<br/>100%%%% asti, vaan $a%%%%.<br />
+$string['fractionsaddwrong'] = 'Valitsemasi arviointiasteikko ei ole<br/>100%% asti, vaan $a%%.<br />
 Haluatko palata ja korjata tämän kysymyksen?';
-$string['fractionsnomax'] = 'Yhden vastauksista pitäisi olla %%%%100, jotta<br /> käyttäjän on mahdollista saada täysi <br />arviointi tästä kysymyksestä.<br />
+$string['fractionsnomax'] = 'Yhden vastauksista pitäisi olla %%100, jotta<br /> käyttäjän on mahdollista saada täysi <br />arviointi tästä kysymyksestä.<br />
 Haluatko palata ja korjata tämän kysymyksen?';
 $string['functiontakesatleasttwo'] = 'Funktiolla $a pitää ola vähintään kaksi argumenttia';
 $string['functiontakesnoargs'] = 'Funktio $a ei ota vastaan argumentteja';

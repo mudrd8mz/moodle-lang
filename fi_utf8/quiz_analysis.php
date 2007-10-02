@@ -11,5 +11,5 @@ $string['attemptsfirst'] = 'esimmäinen yritys';
 $string['attemptshighest'] = 'korkein arvio';
 $string['attemptslast'] = 'viimeinen yritys';
 $string['downloadooo'] = 'Lataa OpenOffice.org muodossa';
-$string['facilitytitle'] = '%%%% Oikein <br>';
+$string['facilitytitle'] = '%% Oikein <br>';
 ?>
