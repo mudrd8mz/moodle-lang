@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta + (2007082400)
+      // tag.php - created with Moodle 1.9 Beta + (2007092001)
 
 
 $string['addtagtomyinterests'] = '\"$a\" zu meinen Interessen hinzufügen';
 $string['blocktagstitle'] = 'Schlagworte';
 $string['changename'] = 'Schlagwort ändern';
+$string['changetype'] = 'Schlagworttyp ändern';
 $string['count'] = 'Zählen';
 $string['delete'] = 'Löschen';
 $string['deleted'] = 'Gelöscht';
@@ -35,6 +36,8 @@ $string['tagdescription'] = 'Beschreibung des Schlagworts';
 $string['tags'] = 'Schlagworte';
 $string['tagsaredisabled'] = 'Schlagworte sind nicht erlaubt';
 $string['tagtype'] = 'Schlagworttyp';
+$string['tagtype_default'] = 'Voreinstellung';
+$string['tagtype_official'] = 'Offiziell';
 $string['thingstaggedwith'] = '$a->count Dinge mit dem Schlagwort \"$a->name\"';
 $string['thistaghasnodesc'] = 'Dieses Schlagwort hat bisher keine Beschreibung.';
 $string['timemodified'] = 'Verändert';

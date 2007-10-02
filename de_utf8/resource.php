@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 dev (2007050901)
+      // resource.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['addresource'] = 'Arbeitsmaterial hinzufügen';
@@ -63,7 +63,7 @@ $string['modulenameplural'] = 'Arbeitsmaterialien';
 $string['navigationbuttons'] = 'Navigationsbuttons';
 $string['navigationmenu'] = 'Navigationsmenü an der Seite';
 $string['navigationup'] = 'Aufwärtsbutton';
-$string['neverseen'] = 'Nie gelesen';
+$string['neverseen'] = 'Ressource nicht geöffnet';
 $string['newdirectories'] = 'Verzeichnis-Links anzeigen';
 $string['newfullscreen'] = 'Den ganzen Bildschirm ausfüllen';
 $string['newheight'] = 'Standard-Fensterhöhe (in Pixeln)';

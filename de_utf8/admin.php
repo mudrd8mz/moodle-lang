@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta + (2007082400)
+      // admin.php - created with Moodle 1.9 Beta + (2007092001)
 
 
 $string['accessdenied'] = 'Kein Zugriff';
@@ -57,7 +57,7 @@ $string['configallowuserblockhiding'] = 'Wollen Sie zulassen, dass Nutzer/innen 
 $string['configallowusermailcharset'] = 'Mit der Aktivierung erlauben Sie allen Nutzer/innen der Website, den Zeichensatz für E-Mails selber festzulegen.';
 $string['configallowuserthemes'] = 'Die Einstellung erlaubt allen Nutzer/innen, ein eigenes Design auszuwählen. Damit wird das Design der Website überschrieben, aber keine kursspezifische Design-Vorgabe.';
 $string['configallusersaresitestudents'] = 'Hier legen Sie den Zugriff zu den Lernaktivitäten auf der Startseite der Website fest. Wenn Sie \'Ja\' auswählen, können alle eingetragenen Nutzer/innen die Lernaktivitäten auf der Startseite durchführen. Wenn Sie \'Nein\' auswählen, können nur diejenigen, die derzeit in mindestens einem Kurs eingetragen sind, die Lernaktivitäten auf der Startseite ausführen. Nur Administrator/innen und speziell zugelassene Trainer/innen dürfen die Aktivitäten auf der Startseite einrichten und bearbeiten.';
-$string['configauthenticationplugins'] = 'Bitte wählen Sie die Plugins zur Authentifikation aus, die Sie benutzen möchten, und ordnen Sie diese in eine Reihenfolge. Selbstregistrierung wird durch das Plugin behandelt, das Sie in der Spalte \'Registrierung\' ausgewählt haben (normalerweise \'E-Mail-basiert\').';
+$string['configauthenticationplugins'] = 'Bitte wählen Sie die Plugins zur Authentifikation aus, die Sie benutzen möchten, und ordnen Sie diese in eine Reihenfolge.';
 $string['configautologinguests'] = 'Sollen Gäste automatisch eingeloggt werden, wenn der Kurs den Zugang für Gäste erlaubt?';
 $string['configbloglevel'] = 'Die Einstellung regelt den Grad der Öffentlichkeit für Blog-Einträge. Beachten Sie, dass die Einstellung den Wert für Leser/innen festlegt, nicht für Schreiber/innen und auch nicht den Blogtyp. Sie können Blogs auf Wunsch auch vollständig deaktivieren.';
 $string['configcachetext'] = 'Diese Einstellung kann größere Websites (oder auch Websites, die Textfilter verwenden) erheblich beschleunigen. Textkopien werden in der jeweiligen Form für die festgelegte Zeit vorgehalten. Eine zu niedrige Einstellung könnte das System verlangsamen. Bei einer zu hohen Einstellung werden Textänderungen  (z.B. neue Links) erst erheblich verzögert sichtbar.';
@@ -68,7 +68,7 @@ $string['configclamdonothing'] = 'Behandle die Dateien als ok';
 $string['configclamfailureonupload'] = 'Legen Sie die Reaktion fest, falls bei der Virenprüfung von hochgeladenen Dateien ein Fehler auftritt.
 Wenn Sie \'Behandle Dateien wie virenhaltige Dateien\' auswählen, werden diese in Quarantäne verschoben oder gelöscht. Wenn Sie \'Behandle die Dateien als ok\' wählen, werden diese normal ohne Prüfung hochgeladen. In jedem Fall werden die Administrator/innen benachrichtigt, dass ein Problem aufgetreten ist. Seien Sie mit dieser Einstellung sehr vorsichtig.';
 $string['configcountry'] = 'Wenn Sie hier ein Land festlegen, wird dieses Land als Vorgabe für neue Nutzereinträge gewählt.  Wenn  Nutzer/innen das Land aktiv wählen sollen, lassen Sie das Feld einfach leer.';
-$string['configcoursemanager'] = 'Diese Einstellung erlaubt es Ihnen die Kontrolle, wer auf die Kursbeschreibungen zugreifen darf. Nutzer/innen müssen mindestens eine dieser Rollen haben, um die Kursbeschreibung für diesen Kurs sehen zu können.';
+$string['configcoursemanager'] = 'Diese Einstellung legt fest, wer in den Kursbeschreibungen angezeigt wird. Wer eine der hier angekreuzten Rollen inne hat, wird in der Ausschreibung angezeigt.';
 $string['configcoursesperpage'] = 'Geben Sie die Kursanzahl an, die pro Seite in einer Kursliste angezeigt werden soll.';
 $string['configcreatornewroleid'] = 'Dieses Rolle wird den Kurserstellern automatisch beim Anlegen des Kurses in dem neu erstellten Kurs zugewiesen. Die Rolle wird nicht zugewiesen wenn der Kursersteller die Rechte nur im Elternkontext (parent) hat.';
 $string['configcronclionly'] = 'Wenn diese Einstellung gesetzt ist, dann kann das Script cron.php ausschließlich über die Kommandozeile aufgerufen werden und nicht über den Webbrowser. Die nachfolgende Kennwort-Einstellung wird damit überschrieben.';
@@ -220,11 +220,12 @@ $string['configusetags'] = 'Soll die Kennzeichen-Funktionalität für die gesamt
 $string['configvariables'] = 'Variablen konfigurieren';
 $string['configvisiblecourses'] = 'Kurse werden in verborgenen Kategorien normal angezeigt.';
 $string['configwarning'] = 'Vorsicht bei der Veränderung dieser Einstellungen! <br />Ungeeignete Werte könnten Probleme verursachen.';
+$string['configxmlstrictheaders'] = 'Mit dieser Funktion werden auf jeder Seite  XML http Header und Prologs erstellt. Der Browser zeigt dann XHTML Fehlermeldungen an. Diese Funktion ist nur für Entwickler sinnvoll.';
 $string['configzip'] = 'Geben Sie hier die Lage (Pfad und Dateiname) des Programms zip an (nur Unix). Das Programm wird für die Erstellung ZIP-Archiven auf dem Server benötigt. Wenn Sie dieses Feld leer lassen, benutzt Moodle interne Routinen.';
 $string['confirmation'] = 'Bestätigung';
 $string['confirminstall'] = 'Sie sind dabei das Sprachpaket ($a) zu installieren. Wollen Sie dies fortsetzen?';
 $string['country'] = 'Land';
-$string['coursemanager'] = 'Kursverwaltung';
+$string['coursemanager'] = 'Kursbeschreibung';
 $string['coursemgmt'] = 'Verwaltung';
 $string['courseoverview'] = 'Kursübersicht';
 $string['courserequests'] = 'Kursanfragen';
@@ -537,7 +538,7 @@ $string['questioncwqpfsok'] = 'Gut. Keine der \'Zufallsfragen\' in Ihren Tests i
 Fragen aus einem Mix von freigegebenen und nichtfreigegebenen Fragenkategorien ausgewählt werden könnten.';
 $string['rcache'] = 'Cache-Speicher';
 $string['rcachettl'] = 'Cache-Speicher TTL';
-$string['releasenoteslink'] = 'Weitere Informationen über diese Version finden Sie online: <a target=\"_new\" href=\"$a\">Versionsinformation</a>';
+$string['releasenoteslink'] = 'Weitere Informationen über diese Version finden Sie online: <a target=\"_blank\" href=\"$a\">Versionsinformation</a>';
 $string['remotelangnotavailable'] = 'Moodle kann keine Verbindung zu download.moodle.org herstellen. Die Sprachpakete können deswegen nicht automatisch installiert werden. Laden Sie die  ausgewählten Sprachpakete herunter und kopieren diese in das Verzeichnis $a. Entpacken Sie die Sprachpakete dort manuell.';
 $string['renameerrors'] = 'Fehler beim Umbenennen';
 $string['restrictbydefault'] = 'Module standardmäßig einschränken';
@@ -647,6 +648,7 @@ $string['usersrenamed'] = 'Nutzer/innen umbenannt';
 $string['usersupdated'] = 'Nutzer/innen aktualisiert';
 $string['usetags'] = 'Schlagwort- Funktionalität';
 $string['validateerror'] = 'Dieser Wert war ungültig:';
+$string['xmlstrictheaders'] = 'XML strict Header';
 $string['editlang'] = '<b>Bearbeiten</b>'; // ORPHANED
 $string['confighideactivitytypecrumb'] = 'Wählen Sie für wen die Anzeige des Lernaktivitätentyps in der Breadcrumbnavigation verborgen werden soll.'; // ORPHANED
 $string['hideactivitytypecrumb'] = 'Lernaktivität in Navigation verbergen'; // ORPHANED

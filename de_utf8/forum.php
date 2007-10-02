@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 dev (2007063001)
+      // forum.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['addanewdiscussion'] = 'Neues Diskussionsthema hinzufügen';
@@ -7,10 +7,10 @@ $string['addanewquestion'] = 'Neue Frage hinzufügen';
 $string['addanewtopic'] = 'Neues Thema hinzufügen';
 $string['advancedsearch'] = 'Erweiterte Suche';
 $string['allforums'] = 'Alle Foren';
-$string['allowchoice'] = 'Alle dürfen auswählen';
+$string['allowchoice'] = 'Ändern zu: Alle dürfen auswählen';
 $string['allowdiscussions'] = 'Teilnehmerrechte';
 $string['allowratings'] = 'Bewertung von Beiträgen';
-$string['allowsallsubscribe'] = 'Dieses Forum ermöglicht es allen, sich selber für die  Eintragung zu entscheiden.';
+$string['allowsallsubscribe'] = 'Aktuelle Einstellung: Jede/r darf selber über Abonnement entscheiden.';
 $string['allowsdiscussions'] = 'Alle dürfen in diesem Forum ein neues Diskussionsthema beginnen';
 $string['allsubscribe'] = 'Alle Foren abonnieren';
 $string['allunsubscribe'] = 'Alle Foren abbestellen';
@@ -71,8 +71,8 @@ $string['everyonecannowchoose'] = 'Jede/r kann entscheiden, sich einzutragen.';
 $string['everyoneisnowsubscribed'] = 'Jede/r ist nun in dieses Forum eingetragen.';
 $string['everyoneissubscribed'] = 'Alle haben dieses Forum abonniert';
 $string['existingsubscribers'] = 'Derzeitige Abonnenten';
-$string['forcessubscribe'] = 'Dieses Forum trägt jede/n verbindlich ein.';
-$string['forcesubscribe'] = 'Alle haben dieses Forum zwingend abonniert';
+$string['forcessubscribe'] = 'Aktuelle Einstellung: Jede/r ist Abonnent, abstellen nicht möglich.';
+$string['forcesubscribe'] = 'Ändern zu: Alle haben dieses Forum zwingend abonniert';
 $string['forcesubscribeq'] = 'Alle in das Forum eintragen';
 $string['forum'] = 'Forum';
 $string['forum:addnews'] = 'Nachrichten hinzufügen';

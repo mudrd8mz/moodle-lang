@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta + (2007082400)
+      // error.php - created with Moodle 1.9 Beta + (2007092001)
 
 
 $string['adminprimarynoedit'] = 'Der Hauptadmin kann nicht von anderen bearbeitet werden';
@@ -79,6 +79,7 @@ $string['pluginrequirementsnotmet'] = 'Das Plugin \"$a->pluginname\" ($a->plugin
 $string['processingstops'] = 'Der Prozess wurde an dieser Stelle gestoppt. Verbleibende Schritte wurden nicht mehr durchgeführt.';
 $string['remotedownloadnotallowed'] = 'Der Download von Komponenten auf Ihren Server ist nicht erlaubt (allow_url_fopen ist deaktiviert). <br /><br /> Die Datei <a href=\"$a->url\">$a->url</a> muss manuell heruntergeladen werden. Kopieren Sie die Datei nach \"$a->dest\" auf Ihren Server und entpacken Sie sie dort.';
 $string['restricteduser'] = 'Entschuldigung, Sie sind gegenwärtig nicht zu dieser Aktion berechtigt.';
+$string['scheduledbackupsdisabled'] = 'Automatisch terminierte Backups wurden vom  Admin des Servers deaktiviert.';
 $string['sendmessage'] = 'Mitteilung senden';
 $string['sessionerroruser'] = 'Die Zeitdauer für Ihre Sitzung wurde überschritten oder ein anderer Fehler ist eingetreten. Loggen Sie sich bitte neu ein.';
 $string['sessionerroruser2'] = 'Ein Serverfehler ist aufgetreten. Er betrifft Ihre Login-Session. Loggen Sie sich bitte neu ein oder starten Sie Ihren Browser noch einmal.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9 Beta + (2007082400)
+      // xmldb.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['aftertable'] = 'Nach Tabelle:';
@@ -75,6 +75,7 @@ $string['missingvaluesinsentence'] = 'Fehlende Werte in Satz';
 $string['mustselectonefield'] = 'Sie müssen ein Feld auswählen, um die damit verbundenen Aktionen zu sehen!';
 $string['mustselectoneindex'] = 'Sie müssen einen Index auswählen, um die damit verbundenen Aktionen zu sehen!';
 $string['mustselectonekey'] = 'Sie müssen einen Schlüssel auswählen, um die damit verbundenen Aktionen zu sehen!';
+$string['mysqlextracheckbigints'] = 'Unter MySQL werden zudem falsch gesetzte große Zahlwerte (bigints) geprüft. Der erforderliche SQL Code wird erstellt und ausgeführt, um alle zu fixen.';
 $string['new_statement'] = 'Neue Anweisung';
 $string['new_table_from_mysql'] = 'Neue Tabelle aus MySQL';
 $string['newfield'] = 'Neues Feld';
@@ -84,7 +85,8 @@ $string['newsentence'] = 'Neuer Satz';
 $string['newstatement'] = 'Neue Anweisung';
 $string['newtable'] = 'Neue Tabelle';
 $string['newtablefrommysql'] = 'Neue Tabelle aus MySQL';
-$string['nomissingindexesfound'] = 'Es wurden keine felenden Indizes gefunden. Die Datenbank benötigt keine weitere Bearbeitung.';
+$string['nomissingindexesfound'] = 'Es wurden keine fehlenden Indizes gefunden. Die Datenbank benötigt keine weitere Bearbeitung.';
+$string['nowrongintsfound'] = 'Es wurden keine falschen integer-Werte gefunden. Die Datenbank benötigt keine weitere Bearbeitung.';
 $string['numberincorrectdecimals'] = 'Falsche Anzahl von Stellen (number)';
 $string['numberincorrectlength'] = 'Falsche Feldlänge (number)';
 $string['reserved'] = 'Reserviert';
