@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 1.9 dev (2007070603)
+      // feedback.php - created with Moodle 1.9 Beta + (2007092806)
 
 
 $string['add_item'] = '質問を追加する';
@@ -21,7 +21,7 @@ $string['are_you_sure_to_delete_this_item'] = '本当にこの要素を削除し
 $string['are_you_sure_to_delete_this_template'] = '本当にこのテンプレートを削除してもよろしいですか?';
 $string['are_you_sure_to_use_this_template'] = '本当にこのテンプレートを使用しますか?';
 $string['average'] = '平均';
-$string['bold'] = 'Bold';
+$string['bold'] = '太字';
 $string['cancel_moving'] = '移動をキャンセルする';
 $string['captcha'] = 'キャプチャ';
 $string['check'] = '多肢選択 - 複数回答';
@@ -33,6 +33,7 @@ $string['complete_the_form'] = '質問に回答する ...';
 $string['completed'] = '完了';
 $string['completed_feedbacks'] = '送信済み回答';
 $string['continue_the_form'] = 'フォームを続ける';
+$string['count_of_nums'] = '桁数';
 $string['courseid'] = 'コースID';
 $string['creating_templates'] = 'これらの質問を新しいテンプレートとして保存する';
 $string['delete_entry'] = 'エントリを削除する';
@@ -106,6 +107,7 @@ $string['name'] = '名称';
 $string['name_required'] = '名称を入力してください。';
 $string['next_page'] = '次のページ';
 $string['no_handler'] = 'アクションハンドラがありません:';
+$string['no_itemname'] = '無題';
 $string['no_items_available_yet'] = '質問はまだ設定されていません。';
 $string['no_templates_available_yet'] = 'テンプレートはまだ利用できません。';
 $string['non_anonymous'] = 'ユーザ名を記録し、回答とともに表示する';
@@ -175,6 +177,5 @@ $string['use_one_line_for_each_value'] = '<br />1行に1つの回答を入力し
 $string['use_this_template'] = 'このテンプレートを使用する';
 $string['using_templates'] = 'テンプレートの使用';
 $string['vertical'] = '垂直';
-$string['saving_failed_because_missing_items'] = '<strong>すべての</strong>必須回答の質問に回答してください (赤い＊の質問)。'; // ORPHANED
 
 ?>
