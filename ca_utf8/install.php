@@ -178,10 +178,10 @@ $string['memorylimithelp'] = '<p>El límit de memòria del PHP del vostre servid
 
 <p>Això pot causar que Moodle tingui problemes de memòria més endavant, especialment si teniu molts mòduls habilitats i/o molts usuaris.</p>
 
-<p>És recomanable que configureu el PHP amb un límit superior, com ara 16 MB, sempre que sigui possible. Hi ha diverses maneres de fer això:</p>
+<p>És recomanable que configureu el PHP amb un límit superior, com ara 40 MB, sempre que sigui possible. Hi ha diverses maneres de fer això:</p>
 <ol>
 <li>Si podeu, recompileu el PHP amb <i>--enable-memory-limit</i>. Això permetrà que Moodle defineixi el límit de memòria per si mateix.</li>
-<li>Si teniu accés al fitxer php.ini, podeu canviar el paràmetre <b>memory_limit</b> a 40M. Si no hi teniu accés podeu demanar al vostre administrador que ho faci ell.</li>
+<li>Si teniu accés al fitxer php.ini, podeu canviar el paràmetre <b>memory_limit</b> a 40 MB. Si no hi teniu accés podeu demanar al vostre administrador que ho faci ell.</li>
 <li>En alguns servidors PHP podeu crear un fitxer .htaccess dins del directori de Moodle amb aquesta línia:
 <p><blockquote>php_value memory_limit 40M</blockquote></p>
 <p>Tanmateix, en alguns servidors això farà que no funcioni <b>cap</b> pàgina PHP (es visualitzaran errors) en el qual cas hauríeu de suprimir el fitxer .htaccess.</p></li>

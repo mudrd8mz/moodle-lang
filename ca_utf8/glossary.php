@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 dev (2007062008)
+      // glossary.php - created with Moodle 1.9 Beta + (2007092806)
 
 
 $string['addcomment'] = 'Afegeix un comentari';
@@ -29,6 +29,7 @@ $string['categories'] = 'Categories';
 $string['category'] = 'Categoria';
 $string['categorydeleted'] = 'La categoria s\'ha suprimit';
 $string['categoryview'] = 'Navega per categories';
+$string['changeto'] = 'canvia a $a';
 $string['cnfallowcomments'] = 'Definiu si els glossaris acceptaran comentaris en les entrades per defecte';
 $string['cnfallowdupentries'] = 'Definiu si els glossaris permetran entrades duplicades per defecte';
 $string['cnfapprovalstatus'] = 'Definiu si les entrades enviades pels estudiants quedaran aprovades per defecte';
@@ -51,6 +52,7 @@ $string['commentupdated'] = 'S\'ha actualitzat el comentari';
 $string['concept'] = 'Concepte';
 $string['concepts'] = 'Conceptes';
 $string['configenablerssfeeds'] = 'Aquest commutador habilita la possibilitat de tenir RSS en tots els glossaris. Haureu d\'activar manualment l\'RSS en els paràmetres de cada glossari.';
+$string['current'] = 'Ordenació actual $a';
 $string['currentglossary'] = 'Glossari actual';
 $string['dateview'] = 'Navega per data';
 $string['defaultapproval'] = 'Estat d\'aprovació per defecte';

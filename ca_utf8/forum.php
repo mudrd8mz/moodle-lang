@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 dev (2007062008)
+      // forum.php - created with Moodle 1.9 Beta + (2007092806)
 
 
 $string['addanewdiscussion'] = 'Afegeix un nou tema de debat';
@@ -25,6 +25,7 @@ $string['cannotviewpostyet'] = 'Encara no podeu llegir les preguntes d\'altres e
 $string['configcleanreadtime'] = 'L\'hora del dia per a netejar missatges vells de la taula de lectures.';
 $string['configdisplaymode'] = 'El mode de visualització per defecte dels debats si no se n\'especifica un.';
 $string['configenablerssfeeds'] = 'Aquest commutador habilitarà la possibilitat de tenir RSS en tots els fòrums. Haureu d\'activar l\'RSS en els paràmetres de cada fòrum.';
+$string['configenabletimedposts'] = 'Aquesta opció permet definir un període de visualització quan es crea un nou debat en un fòrum (característica experimental)';
 $string['configlongpost'] = 'Qualsevol missatge per damunt d\'aquesta mida (exclòs l\'HTML) es considera massa llarg.';
 $string['configmanydiscussions'] = 'Nombre màxim de debats per pàgina';
 $string['configmaxbytes'] = 'Mida màxima per defecte per a tots els fitxers adjuntats als fòrums d\'aquest lloc (subjecte als límits de cada curs i altres paràmetres locals)';

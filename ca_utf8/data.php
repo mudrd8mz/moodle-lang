@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 dev (2007062008)
+      // data.php - created with Moodle 1.9 Beta + (2007092806)
 
 
 $string['action'] = 'Acció';
@@ -163,6 +163,7 @@ $string['nomatch'] = 'No s\'han trobat entrades que coincideixin';
 $string['nomaximum'] = 'No hi ha un valor màxim';
 $string['norecords'] = 'No hi ha entrades en la base de dades';
 $string['nosingletemplate'] = 'Encara no s\'ha definit la plantilla d\'entrada única';
+$string['notinjectivemap'] = 'No hi ha un mapa d\'injecció';
 $string['number'] = 'Nombre';
 $string['numberrssarticles'] = 'Articles RSS';
 $string['numnotapproved'] = 'Pendents';
@@ -220,6 +221,7 @@ $string['text'] = 'Text';
 $string['textarea'] = 'Àrea de text';
 $string['todatabase'] = 'en aquesta base de dades';
 $string['type'] = 'Tipus de camp';
+$string['undefinedprocessactionmethod'] = 'No hi ha un mètode definit en Data_Preset per gestionar l\'acció \"$a\"';
 $string['updatefield'] = 'Actualitza un camp existent';
 $string['uploadfile'] = 'Penja un fitxer';
 $string['uploadrecords'] = 'Carrega entrades';
@@ -227,5 +229,6 @@ $string['url'] = 'URL';
 $string['usestandard'] = 'utilitza un predefinit';
 $string['viewfromdate'] = 'Visualitza des de';
 $string['viewtodate'] = 'Visualitza fins';
+$string['wrongdataid'] = 'L\'ID de dades proporcionat és erroni';
 
 ?>

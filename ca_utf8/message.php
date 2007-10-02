@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8 dev (2007010404)
+      // message.php - created with Moodle 1.9 Beta + (2007092806)
 
 
 $string['addcontact'] = 'Afegeix contacte';
@@ -27,6 +27,7 @@ $string['includeblockedusers'] = 'Inclou usuaris blocats';
 $string['incomingcontacts'] = 'Contactes nous ($a)';
 $string['keywords'] = 'Paraules clau';
 $string['keywordssearchresults'] = 'Resultats de la cerca: s\'han trobat $a missatges';
+$string['mailsent'] = 'El vostre missatge s\'ha enviat per correu electrònic.';
 $string['maxmessages'] = 'Nombre màxim de missatges que es poden mostrar en l\'històric de discussions';
 $string['message'] = 'Missatge';
 $string['messagehistory'] = 'Històric de missatges';
@@ -55,6 +56,7 @@ $string['searchforperson'] = 'Cerca una persona';
 $string['searchmessages'] = 'Cerca missatges';
 $string['sendmessage'] = 'Envia missatge';
 $string['sendmessageto'] = 'Envia missatge a $a';
+$string['sendmessagetopopup'] = 'Envia missatge a $a (nova finestra)';
 $string['settings'] = 'Paràmetres';
 $string['settingssaved'] = 'S\'han desat els vostres paràmetres';
 $string['showmessagewindow'] = 'Visualitza automàticament la finestra de missatges quan arribin missatges nous (heu de configurar el vostre navegador perquè no bloqui les finestres emergents en aquest lloc)';

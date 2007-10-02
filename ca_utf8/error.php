@@ -1,16 +1,20 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 dev (2007080202)
+      // error.php - created with Moodle 1.9 Beta + (2007092806)
 
 
 $string['adminprimarynoedit'] = 'L\'administrador primari no pot ser editat per altres usuaris';
-$string['cannotcreatelangdir'] = 'No es pot crear el directori d\'idiomes.';
+$string['cannotassignrole'] = 'No s\'ha pogut assignar un sol en el curs';
+$string['cannotcreatelangdir'] = 'No s\'ha pogut crear el directori d\'idiomes.';
 $string['cannotcreatetempdir'] = 'No s\'ha pogut crear el directori temporal';
+$string['cannotcustomizelocallang'] = 'No teniu permís per a personalitzar la traducció de cadenes. Aquest permís és controlat per la capacitat \"moodle/site:langeditlocal\". Definiu aquesta capacitat per poder editar paquets d\'idioma locals en cas que vulgueu modificar les traduccions per al vostre lloc.';
 $string['cannotdownloadcomponents'] = 'No s\'han pogut baixar components';
 $string['cannotdownloadzipfile'] = 'No s\'ha pogut baixar el fitxer zip';
+$string['cannoteditmasterlang'] = 'No teniu permís per a editar un paquet mestre d\'idioma. Aquest permís és controlat per la capacitat \"moodle/site:langeditmaster\". Definiu aquesta capacitat per poder editar paquets mestre d\'idioma en cas que sigueu responsable d\'un d\'aquests paquets.';
 $string['cannotfindcomponent'] = 'No s\'ha pogut trobar un component';
 $string['cannotsavemd5file'] = 'No s\'ha pogut desar el fitxer md5';
 $string['cannotsavezipfile'] = 'No s\'ha pogut desar el fitxer zip';
 $string['cannotunzipfile'] = 'No s\'ha pogut descomprimir el fitxer';
+$string['cannotviewprofile'] = 'No podeu veure el perfil d\'aquest usuari.';
 $string['cantunenrollfrommetacourse'] = 'No podeu cancel·lar la vostra inscripció en aquest metacurs.';
 $string['cantunenrollinthisrole'] = 'No podeu cancel·lar la vostra inscripció en aquest curs mentre romangueu en el rol actual.';
 $string['cmunknown'] = 'No s\'ha pogut trobar aquest mòdul de curs';
@@ -19,6 +23,7 @@ $string['confirmsesskeybad'] = 'No s\'ha pogut confirmar la vostra clau de sessi
 $string['couldnotassignrole'] = 'S\'ha produït un error greu sense especificar mentre se us intentava assignar un rol';
 $string['coursegroupunknown'] = 'No s\'ha especificat el curs corresponent al grup $a';
 $string['downloadedfilecheckfailed'] = 'Ha fallat la comprovació del fitxer baixat';
+$string['duplicateusername'] = 'Nom d\'usuari duplicat. S\'ha omès aquest registre.';
 $string['errorcleaningdirectory'] = 'S\'ha produït un error en netejar el directori \"$a\"';
 $string['errorcopyingfiles'] = 'S\'ha produït un error en copiar els fitxers';
 $string['errorcreatingdirectory'] = 'S\'ha produït un error en crear el directori \"$a\"';
@@ -74,6 +79,7 @@ $string['pluginrequirementsnotmet'] = 'El connector \"$a->pluginname\" ($a->plug
 $string['processingstops'] = 'El processament acaba aquí. Els registres que resten s\'ignoraran.';
 $string['remotedownloadnotallowed'] = 'El vostre servidor no permet baixar components ((allow_url_fopen inhabilitat).<br /><br />Baixeu manualment el fitxer <a href=\"$a->url\">$a->url</a>, copieu en la ubicació \"$a->dest\" del vostre servidor i descomprimiu-lo allí.';
 $string['restricteduser'] = 'Al vostre compte \"$a\" no li és permès de fer això.';
+$string['scheduledbackupsdisabled'] = 'Els administradors d\'aquest servidor han inhabilitat les còpies de seguretat programades.';
 $string['sendmessage'] = 'Envia missatge';
 $string['sessionerroruser'] = 'Heu excedit el termini de la vostra sessió o s\'ha produït un error. Si us plau torneu a entrar-hi.';
 $string['sessionerroruser2'] = 'S\'ha detectat un error del servidor que afecta la vostra sessió. Heu d\'entrar de nou o reiniciar el vostre navegador.';
@@ -86,8 +92,11 @@ $string['unknownuseraction'] = 'Aquesta acció d\'usuari no és intel·ligible';
 $string['usernotaddederror'] = 'No s\'ha afegit l\'usuari \"$a\". Error desconegut';
 $string['usernotaddedregistered'] = 'No s\'ha afegit l\'usuari \"$a\". Ja està registrat';
 $string['usernotavailable'] = 'Els detalls d\'aquest usuari no estan disponibles per a vós.';
+$string['usernotdeletederror'] = 'Un error desconegut ha impedit suprimir aquest usuari';
+$string['usernotdeletedmissing'] = 'No es pot suprimir l\'usuari perquè no s\'ha trobat el nom d\'usuari.';
 $string['usernotrenamedexists'] = 'No s\'ha canviat el nom de l\'usuari. El nom nou ja és utilitzat per un altre usuari.';
 $string['usernotrenamedmissing'] = 'No s\'ha canviat el nom de l\'usuari. No s\'ha pogut trobar el nom vell.';
+$string['usernotupdatederror'] = 'Un error desconegut ha impedit actualitzar l\'usuari';
 $string['wrongdestpath'] = 'El camí de destinació és erroni';
 $string['wrongsourcebase'] = 'L\'adreça (URL) base de la font és errònia';
 $string['wrongzipfilename'] = 'El nom del fitxer ZIP és erroni';
