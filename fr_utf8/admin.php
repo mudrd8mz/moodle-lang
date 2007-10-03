@@ -273,6 +273,7 @@ $string['download'] = 'Télécharger';
 $string['editennotallowed'] = 'La langue en_utf8 ne peut pas être modifié depuis cette page. Veuillez passer en langue locale';
 $string['edithelpdocs'] = 'Modifier les fichiers d\'aide';
 $string['editingnoncorelangfile'] = 'Vous essayez de modifier la traduction d\'un module additionnel. Vous ne pouvez enregistrer cette traduction que dans votre dossier _local. Vous pouvez déplacer le fichier contenant la traduction dans le dossier lang du module et/ou l\'envoyer au responsable du module additionnel.';
+$string['editlang'] = '<b>Modifier</b>';  // Obsolete from 1.8 upwards
 $string['editorbackgroundcolor'] = 'Couleur de fond';
 $string['editordictionary'] = 'Dictionnaire de l\'éditeur';
 $string['editorfontfamily'] = 'Famille de police';
