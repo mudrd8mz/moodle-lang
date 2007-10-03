@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 Beta + (2007092501)
+      // grades.php - created with Moodle 1.9 Beta + (2007100303)
 
 
 $string['activities'] = '活動';
@@ -141,9 +141,11 @@ $string['extracreditwarning'] = '注意: カテゴリ内のすべての評定項
 $string['feedback'] = 'フィードバック';
 $string['feedbackadd'] = 'フィードバックの追加';
 $string['feedbackedit'] = 'フィードバックの編集';
+$string['feedbackhelp'] = '教師から評定に追加されるメモです。広範囲、個別のフィードバックまたはフィードバックの内部システムを参照するシンプルなコードを使用することができます。';
 $string['feedbacksaved'] = 'フィードバックが保存されました。';
 $string['feedbackview'] = 'フィードバックの表示';
 $string['finalgrade'] = '最終評点';
+$string['finalgradehelp'] = 'すべての計算が実行された後の (キャッシュされた)  最終的な 評点です。';
 $string['forceoff'] = '強制: OFF';
 $string['forceon'] = '強制: ON';
 $string['forelementtypes'] = '作成対象: $a';
@@ -229,6 +231,7 @@ $string['item'] = '項目';
 $string['iteminfo'] = '項目情報';
 $string['iteminfohelp'] = 'この評定項目の情報およびメモです。';
 $string['itemname'] = '項目名';
+$string['itemnamehelp'] = 'モジュールから提供される項目の名称です。';
 $string['items'] = '項目';
 $string['itemsedit'] = '評定項目の編集';
 $string['keephigh'] = '最高評点の保持件数';
