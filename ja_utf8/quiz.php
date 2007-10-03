@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 Beta + (2007092806)
+      // quiz.php - created with Moodle 1.9 Beta + (2007100303)
 
 
 $string['1day'] = '1日';
@@ -491,7 +491,7 @@ $string['reviewbefore'] = '小テスト実施中にレビューを許可する';
 $string['reviewclosed'] = '小テスト終了後';
 $string['reviewimmediately'] = '受験後すぐに';
 $string['reviewnever'] = 'レビューを許可しない';
-$string['reviewofattempt'] = '$a 回の受験結果をレビュー';
+$string['reviewofattempt'] = '受験 $a をレビューする';
 $string['reviewopen'] = '後で、小テスト実施中';
 $string['reviewoptions'] = '学生はレビューできる';
 $string['reviewresponse'] = '解答のレビュー';
