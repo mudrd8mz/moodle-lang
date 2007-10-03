@@ -1,7 +1,16 @@
 KHMER language pack for Moodle
+-------
 
-Translated by vichika vichika@everyday.com.kh
+Translated by:
+
+- vichika vichika@everyday.com.kh
+- KhmerOS Localization and E-Learning Team of the Open Institute (http://www.open.org.kh):
+  1. Auk Piseth piseth_dv@khmeros.info
+  2. Eng Vannak evannak@khmeros.info
+  3. Khem Sokhem khoemsokhem@khmeros.info
+  4. Leang Chumsoben leang.chumsoben@open.org.kh
 
 ATTENTION: This is an UTF-8 language pack, but you have to install the Khmer font.
 This is provided in the fonts folder of the language pack. The font is public domain. 
 More information about Khmer and the Khmer font on http://khmeros.info/drupal/
+
