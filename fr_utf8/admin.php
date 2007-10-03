@@ -255,6 +255,7 @@ $string['debugnormal'] = 'Normal&nbsp;: afficher les erreurs, avertissements et 
 $string['debugsmtp'] = 'Débogage de l\'envoi des courriels';
 $string['defaultallowedmodules'] = 'Modules autorisés par défaut';
 $string['defaultcourseroleid'] = 'Rôle par défaut des utilisateurs d\'un cours';
+$string['frontpagedefaultrole'] = 'Rôle par défaut sur la page d\'accueil';
 $string['defaultrequestcategory'] = 'Catégorie par défaut des demandes de cours';
 $string['defaultuserroleid'] = 'Rôle par défaut des utilisateurs';
 $string['defaultvalues'] = 'Valeurs par défaut';
