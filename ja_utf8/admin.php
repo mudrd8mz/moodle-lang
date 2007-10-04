@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta + (2007100301)
+      // admin.php - created with Moodle 1.9 Beta + (2007100303)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -84,7 +84,7 @@ $string['configdefaultrequestedcategory'] = 'リクエストされたコース�
 $string['configdefaultuserroleid'] = 'すべてのログインユーザには、それぞれのユーザに与えられるロールに加えて、あなたがここで指定した権限のあるロールがサイトレベルで与えられます。デフォルトは、認証済みユーザロール (または古いバージョンのゲストロール) です。ここでの設定は、ユーザに与えられているロールと衝突することはなく、ユーザがサイトレベルで確実に有益なことを行うことができるようにします (例 フォーラムディスカッション、リソースの閲覧等)。';
 $string['configdeleteunconfirmed'] = 'メールによる認証を利用している場合、この値はユーザからの返答を受けつける期間を指します。この期間終了後、古い未承認のアカウントは削除されます。';
 $string['configdenyemailaddresses'] = '特定ドメインから新しいメールアドレスを拒否したい場合は、この欄にスペースで区切って入力してください。他のドメインはすべて認められます。例  <strong>hotmail.com yahoo.co.uk</strong>';
-$string['configdigestmailtime'] = 'メール送信する選択をしたユーザに、投稿内容を要約したメールが毎日送信されます。ここでは、1日の内で何時に要約メールを送信するか設定します (この設定後に実行される次のcronがメールを送信します)。';
+$string['configdigestmailtime'] = 'メール送信する選択をしたユーザに、投稿内容を要約したメールが毎日送信されます。ここでは、1日の内で何時に要約メールを送信するかどうか設定します (この設定後に実行される次のcronがメールを送信します)。';
 $string['configdisableuserimages'] = 'ユーザがユーザプロフィールイメージを変更できないようにします。';
 $string['configdisplayloginfailures'] = 'ここで選択したユーザに前回のログイン失敗情報を表示します。';
 $string['configdocroot'] = 'Moodle Docsのパスを定義します。独自のオンラインドキュメントを使用したい場合、この設定を変更することができます。設定を変更する場合、ドキュメンテーションのパスが、http://docs.moodle.orgと同じフォーマットであることを確認してください。';
@@ -272,6 +272,7 @@ $string['download'] = 'ダウンロード';
 $string['editennotallowed'] = 'このページでは言語ファイルen_utf8を編集することはできません。ローカルに切り替えてください。';
 $string['edithelpdocs'] = 'ヘルプドキュメントの編集';
 $string['editingnoncorelangfile'] = 'あなたはアドオンモジュール/プラグインの翻訳済み言語ファイルを修正しようとしています。あなたはサードパーティの翻訳言語ファイルを_localフォルダのみに保存することができます。サードパーティの翻訳済み言語ファイルはモジュールの言語ディレクトリに移動するか、アドオンモジュールの管理者に送信してください。';
+$string['editlang'] = '<b>編集</b>';
 $string['editorbackgroundcolor'] = '背景色';
 $string['editordictionary'] = 'エディタディレクトリ';
 $string['editorfontfamily'] = 'フォントファミリー';
@@ -643,7 +644,6 @@ $string['usersupdated'] = 'ユーザが更新されました。';
 $string['usetags'] = 'タグ機能を有効にする';
 $string['validateerror'] = 'この値は有効ではありません。:';
 $string['xmlstrictheaders'] = 'XMLストリクトヘッダ';
-$string['editlang'] = '<b>編集</b>'; // ORPHANED
 $string['confighideactivitytypecrumb'] = '活動モジュールで表示されるブレッドクラム内の活動タイプ (例 小テスト) クラムを誰に非表示にするか選択してください。'; // ORPHANED
 $string['hideactivitytypecrumb'] = '活動タイプクラムを非表示にする'; // ORPHANED
 
