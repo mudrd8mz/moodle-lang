@@ -69,6 +69,7 @@ $string['grade:hide'] = 'Cacher/afficher les notes ou éléments';
 $string['grade:import'] = 'Importer les notes';
 $string['grade:lock'] = 'Verrouiller les notes ou éléments';
 $string['grade:manage'] = 'Gérer les éléments d\'évaluation';
+$string['grade:manageletters'] = 'Gérer les notes lettres';
 $string['grade:manageoutcomes'] = 'Gérer les objectifs d\'évaluation';
 $string['grade:override'] = 'Court-circuiter les notes';
 $string['grade:unlock'] = 'Déverrouiller les notes ou éléments';
