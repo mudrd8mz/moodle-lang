@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.9 dev (2007081001)
+      // qtype_multichoice.php - created with Moodle 1.9 Beta + (2007100303)
 
 
 $string['addingmultichoice'] = '多肢選択問題の追加';
@@ -7,7 +7,7 @@ $string['addmorechoiceblanks'] = 'さらに {no} 件の選択肢入力欄を追�
 $string['answerhowmany'] = '単一または複数解答?';
 $string['answernumbering'] = '選択肢に番号付けしますか?';
 $string['answernumbering123'] = '1.  2.  3. ...';
-$string['answernumberingABC'] = 'A.  B.  C. ...';
+$string['answernumberingABCD'] = 'A., B., C., ...';
 $string['answernumberingabc'] = 'a.  b.  c., ...';
 $string['answernumberingnone'] = '番号付けなし';
 $string['answersingleno'] = '複数解答を許可する';
@@ -32,5 +32,6 @@ $string['overallpartiallycorrectfeedback'] = '部分的な正解すべてに対�
 $string['partiallycorrectfeedback'] = '部分的な正解すべてに対するフィードバック';
 $string['shuffleanswers'] = '選択肢をシャッフルしますか?';
 $string['singleanswer'] = '1つの答えを選択してください。';
+$string['answernumberingABC'] = 'A.  B.  C. ...'; // ORPHANED
 
 ?>
