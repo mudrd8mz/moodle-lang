@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8.2+ (2007021520)
+      // quiz.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['1day'] = '1 Dia';
@@ -11,7 +11,19 @@ $string['acceptederror'] = 'Erro aceite';
 $string['action'] = 'Acção';
 $string['adaptive'] = 'Modo adaptável';
 $string['addcategory'] = 'Adicionar categoria';
+$string['addingcalculated'] = 'A adicionar uma pergunta calculada';
+$string['addingdescription'] = 'A adicionar uma descrição';
+$string['addingessay'] = 'A adicionar um ensaio';
+$string['addingmatch'] = 'A adicionar uma pergunta de associação';
+$string['addingmultianswer'] = 'A adicionar uma pergunta de respostas embebidas';
+$string['addingmultichoice'] = 'A adicionar uma pergunta de resposta múltipla';
+$string['addingnumerical'] = 'A adicionar uma pergunta numérica';
+$string['addingquestion'] = 'A adicionar uma pergunta';
 $string['addingquestions'] = 'Nesta secção da página poderá gerir a sua base de dados de perguntas. As perguntas são guardadas em categorias por forma a ficarem organizadas, e poderão ser usadas em qualquer teste neste curso ou noutro caso opte por as \'publicar\'. <br /><br />Depois de seleccionar ou criar uma categoria, poderá criar ou editar perguntas. Poderá seleccionar qualquer destas perguntas para as adicionar ao seu teste na outra secção desta página.';
+$string['addingrandom'] = 'A adicionar uma pergunta aleatória';
+$string['addingrandomsamatch'] = 'A adicionar uma pergunta aleatória de associação de resposta curta';
+$string['addingshortanswer'] = 'A adicionar uma pergunta de resposta curta';
+$string['addingtruefalse'] = 'A adicionar uma pergunta de Verdadeiro ou Falso';
 $string['addquestions'] = 'Adicionar perguntas';
 $string['addquestionstoquiz'] = 'Adicionar perguntas ao teste actual';
 $string['addrandom'] = 'Adicionar $a perguntas aleatórias';
@@ -46,6 +58,7 @@ $string['attemptlast'] = 'Última tentativa';
 $string['attemptquiznow'] = 'Tentar resolver agora o teste';
 $string['attempts'] = 'Tentativas';
 $string['attemptsallowed'] = 'Tentativas permitidas';
+$string['attemptsdeleted'] = 'Tentativas de resolução apagadas';
 $string['attemptselection'] = 'Seleccione quais tentativas analisar por utilizador';
 $string['attemptsexist'] = 'Já tem respondido a este teste anteriormente';
 $string['attemptsonly'] = 'Mostrar unicamente alunos que tenham respondido';
@@ -136,6 +149,7 @@ $string['deletequestioncheck'] = 'Tem a certeza absoluta que quer apagar \'$a\'?
 $string['deletequestionscheck'] = 'Tem a certeza absoluta que quer apagar as seguintes perguntas?
 <div>$a</div>';
 $string['deleteselected'] = 'Apagar as seleccionadas';
+$string['deletingquestionattempts'] = 'A apagar tentativas de resolução da pergunta';
 $string['description'] = 'Descrição';
 $string['discrimination'] = 'ìndice discriminante';
 $string['displayoptions'] = 'Opções de apresentação';
@@ -165,6 +179,23 @@ $string['editqcats'] = 'Editar categorias de perguntas';
 $string['editquestions'] = 'Editar perguntas';
 $string['editquiz'] = 'Editar teste';
 $string['editquizquestions'] = 'Editar perguntas do teste';
+$string['emailconfirmbody'] = 'Viva $a->username,
+
+Obrigado por ter respondido o teste
+\'$a->quizname\' na disciplina \'$a->coursename\'
+em $a->submissiontime.
+
+Esta mensagem confirma que recebemos as suas respostas.
+
+Poderá aceder ao teste em $a->quizurl.';
+$string['emailconfirmsubject'] = 'Confirmação de recepção da resposta ao teste $a->quizname';
+$string['emailnotifybody'] = 'Viva a->username,
+
+$a->studentname completou a resposta a teste \'$a->quizname\' ($a->quizurl)
+na disciplina \'$a->coursename\'
+
+Pode consultar as respostas em $a->quizreviewurl.';
+$string['emailnotifysubject'] = '$a->studentname completou o teste $a->quizname';
 $string['errorinquestion'] = 'Pergunta com erro';
 $string['errormissingquestion'] = 'Erro: A pergunta identificada por $a está a faltar no sistema.';
 $string['errornotnumbers'] = 'Erro - as respostas deverão ser numéricas';
@@ -202,6 +233,7 @@ $string['filloutoneanswer'] = 'Tem que preencher pelo menos uma possível respos
 $string['filloutthreequestions'] = 'Terá que preencher pelo menos três perguntas. Respostas a branco não serão usadas.';
 $string['fillouttwochoices'] = 'Tem que preencher pelo menos duas escolhas. Respostas em branco não serão consideradas.';
 $string['finishattempt'] = 'Enviar tudo e terminar';
+$string['finishreview'] = 'Terminar revisão';
 $string['forceregeneration'] = 'forçar a regeneração';
 $string['formatnotfound'] = 'não foi encontrado o formato $a de importação/exportaçaõ';
 $string['formatnotimplemented'] = 'A implementação deste formato não é correcta, por favor envie um relatório deste erro.';
@@ -227,13 +259,14 @@ $string['giftnonumericalanswers'] = 'Não foram encontradas respostas para uma p
 $string['giftnovalidquestion'] = 'Não se encontrou nenhuma pergunta válida';
 $string['giftqtypenotset'] = 'Não foi definido o tipo de pergunta';
 $string['giftrightbraceerror'] = 'Não se encontrou o símbolo }';
-$string['grade'] = 'Avaliar';
+$string['grade'] = 'Nota';
 $string['gradeall'] = 'Avaliar tudo';
 $string['gradeaverage'] = 'Nota média';
 $string['gradeboundary'] = 'Nota fronteira';
 $string['gradeessays'] = 'Avaliar ensaios';
 $string['gradehighest'] = 'Nota mais alta';
 $string['grademethod'] = 'Método de avaliação';
+$string['gradesdeleted'] = 'Notas do teste apagadas';
 $string['gradesofar'] = '$a->method: $a->mygrade / $a->quizgrade.';
 $string['gradingdetails'] = 'Notas para este envio: $a->raw/$a->max.';
 $string['gradingdetailsadjustment'] = 'Com as penalizações anteriores isso equivale a <strong>$a->cur/$a->max</strong>.';
@@ -338,10 +371,12 @@ $string['notenoughsubquestions'] = 'Não foram definidas sub-questões suficient
 Quer voltar atrás e corrigir a questão?';
 $string['notimedependentitems'] = 'O módulo de testes actualmente não suporta itens dependentes do tempo. Uma alternativa consiste em colocar um tempo limite para tudo o teste. Quer seleccionar outro item (ou usar o item actual de qualquer forma)?';
 $string['numattempts'] = 'Já foram feitas $a->attemptnum tentativas por $a->studentnum $a->studentstring';
+$string['numattemptsmade'] = '$a tentativas feitas para este teste';
 $string['numberabbr'] = '#';
 $string['numerical'] = 'Numérica';
 $string['onlyteachersexport'] = 'Unicamente os docentes podem exportar perguntas';
 $string['onlyteachersimport'] = 'Unicamente docentes com permissão de edição podem importar perguntas';
+$string['openclosedatesupdated'] = 'Datas de abertura e fecho do teste actualizadas';
 $string['optional'] = 'opcional';
 $string['outof'] = '$a->grade sobre o máximo $a->maxgrade';
 $string['overallfeedback'] = 'Diagnóstico geral';
@@ -386,6 +421,8 @@ $string['questiontype'] = 'Pergunta do tipo $a';
 $string['questiontypesetupoptions'] = 'Opções de configuração para tipos de perguntas:';
 $string['quiz:attempt'] = 'Tentar resolver testes';
 $string['quiz:deleteattempts'] = 'Apagar tentativas de resolução';
+$string['quiz:emailconfirmsubmission'] = 'Receber confirmação do envio do teste pelo correio electrónico';
+$string['quiz:emailnotifysubmission'] = 'Receber notificação de testes respondidos, pelo correio electrónico';
 $string['quiz:grade'] = 'Classificar testes manualmente';
 $string['quiz:ignoretimelimits'] = 'Ignora limites de tempo dos testes';
 $string['quiz:manage'] = 'Gerir testes';
@@ -396,6 +433,7 @@ $string['quizavailable'] = 'O teste está disponível até: $a';
 $string['quizclose'] = 'Fechar o teste';
 $string['quizclosed'] = 'Este teste caducou em $a';
 $string['quizcloses'] = 'O teste termina';
+$string['quizcloseson'] = 'Este teste fechará em $a';
 $string['quiznotavailable'] = 'O teste não estará disponível até: $a';
 $string['quizopen'] = 'Abrir o teste';
 $string['quizopens'] = 'O teste começa';
@@ -416,10 +454,12 @@ $string['regrade'] = 'Avaliar novamente todas as tentativas';
 $string['regradecomplete'] = 'Todas as tentativas foram avaliadas novamente';
 $string['regradecount'] = '$a->changed de $a->attempt notas foram modificadas';
 $string['regradedisplayexplanation'] = 'As tentativas que foram alteradas durante o processo de reavaliação, são apresentadas com apontadores para a janela de revisão de perguntas';
+$string['regradenotallowed'] = 'Não tem autorização para re-calcular  notas.';
 $string['regradingquestion'] = 'Avaliando novamente \"$a\".';
 $string['regradingquiz'] = 'Avaliando novamente o teste \"$a\"';
 $string['relative'] = 'Relativo';
 $string['remove'] = 'Remover';
+$string['removeallquizattempts'] = 'Apagar todas as tentativas do teste';
 $string['rename'] = 'Renomear';
 $string['renderingserverconnectfailed'] = 'O servidor $a falhou no porcessamento do pedido RQP. Verifique que o URL esteja correcto.';
 $string['reordertool'] = 'Mostrar a ferramenta de reordenação';
@@ -513,6 +553,7 @@ $string['timedelay'] = 'Não pode responder ao teste por não ter passado o per�
 $string['timeleft'] = 'Tempo restante';
 $string['timelimit'] = 'Tempo limite';
 $string['timelimitexeeded'] = 'Lamentamos, mas o tempo limite do teste foi ultrapassado!';
+$string['timelimitmin'] = 'Limite de tempo (minutos)';
 $string['timestr'] = '%%H:%%M:%%S em %%d/%%m/%%y';
 $string['timesup'] = 'Terminou o tempo!';
 $string['timetaken'] = 'Tempo gasto';
@@ -553,22 +594,8 @@ $string['xml'] = 'Formato Moodle XML';
 $string['xmlimportnoname'] = 'Falta um nome de pergunta no ficheiro xml';
 $string['xmlimportnoquestion'] = 'Falta o texto de uma pergunta no ficheiro xml';
 $string['xmltypeunsupported'] = 'O tipo de pergunta $a não pode ser importado em xml';
+$string['youneedtoenrol'] = 'Deverá inscrever-se nesta disciplina antes de poder responder este teste.';
 $string['yourfinalgradeis'] = 'A sua nota final neste teste é $a';
 $string['zerosignificantfiguresnotallowed'] = 'A resposta correcta não pode ter zero algarismos significativos!';
-$string['existingcategory1'] = 'um literal de um conjunto de literais já existente que já está a ser usado por outras perguntas nesta categoria'; // ORPHANED
-$string['existingcategory2'] = 'um ficheiro de um conjunto de ficheiros já existente que já está a ser usado por outras perguntas nesta categoria'; // ORPHANED
-$string['existingcategory3'] = 'um apontador de um conjunto de apontadores já existente que já está a ser usado por outras perguntas nesta categoria'; // ORPHANED
-$string['keptcategory1'] = 'um literal do mesmo conjunto reutilizável de literais da categoria, como anteriormente'; // ORPHANED
-$string['keptcategory2'] = 'um ficheiro do mesmo conjunto reutilizável de ficheiros da categoria, como anteriormente'; // ORPHANED
-$string['keptcategory3'] = 'um apontador do mesmo conjunto reutilizável de apontadores da categoria, como anteriormente'; // ORPHANED
-$string['keptlocal1'] = 'um literal do mesmo conjunto privado de literais da pergunta, como anteriormente'; // ORPHANED
-$string['keptlocal2'] = 'um ficheiro do mesmo conjunto privado de ficheiros da pergunta, como anteriormente'; // ORPHANED
-$string['keptlocal3'] = 'um apontador do mesmo conjunto privado de apontadores da pergunta, como anteriormente'; // ORPHANED
-$string['newcategory1'] = 'um literal de um novo conjunto de literais que poderá ser usado também por outras perguntas nesta categoria'; // ORPHANED
-$string['newcategory2'] = 'um ficheiro de um novo conjunto de ficheiros que poderá ser usado por outras perguntas nesta categoria'; // ORPHANED
-$string['newcategory3'] = 'um apotador de um novo conjunto de apontadores que poderá ser usado por outras perguntas nesta categoria'; // ORPHANED
-$string['newlocal1'] = 'um literal de um novo conjunto de literais que unicamente poderá ser usado por esta pergunta'; // ORPHANED
-$string['newlocal2'] = 'um ficheiro de um novo conjunto de ficheiros que unicamente poderá ser usado por esta pergunta'; // ORPHANED
-$string['newlocal3'] = 'um apontador de um novo conjunto de apontadores que unicamente poderá ser usado por esta pergunta'; // ORPHANED
 
 ?>
