@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8.2+ (2007021520)
+      // moodle.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['action'] = 'Acção';
@@ -563,7 +563,7 @@ $string['extendenrol'] = 'Estender inscrição';
 $string['extendperiod'] = 'Período de extensão';
 $string['failedloginattempts'] = '$a->attempts tentativas de entrada sem sucesso desde a sua última visita';
 $string['failedloginattemptsall'] = '$a->attempts tentativas de entrada sem sucesso para $a->accounts conta(s)';
-$string['feedback'] = 'A suas opiniões';
+$string['feedback'] = 'As suas opiniões';
 $string['file'] = 'Ficheiro';
 $string['filemissing'] = '$a não existe';
 $string['files'] = 'Ficheiros';
