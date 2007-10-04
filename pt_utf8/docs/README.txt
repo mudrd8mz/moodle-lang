@@ -1,46 +1,13 @@
-Documentação do Moodle
-----------------------
+Neste directório antigamente havia muita documentação em formato HTML.
 
-Se quiser traduzir esta documentação para outra língua, sugiro que
-faça o seguinte:
+Todos essses documentos foram retirados, porque agora usa-se o wiki
+Moodle Docs.
 
- 1) Não inclua versões em inglês destes ficheiros neste directório,
-    porque de qualquer forma vão ser usados automaticamente se não
-    existirem ficheiros correspondentes no seu pacote linguístico.
+Para encontrar os documentos que antigamente estavam aqui, consulte:
 
- 2) Traduza-os na ordem seguinte (a começar pelos mais importantes):
-  
-    MAIS IMPORTANTE
-    |-------------------
-    |
-    |   - files.php
-    |   - install.html
-    |   - installamp.html
-    |   - upgrade.html
-    |   - faq.html
-    |
-    |  -----------------
-    |
-    |   - teacher.html
-    |   - module_files.txt
-    | 
-    |  -----------------
-    |   
-    |   - intro.html
-    |   - features.html
-    |   - release.html
-    |
-    |  -----------------
-    |
-    |   - developer.html
-    |   - cvs.html
-    |   - future.html
-    |
-    |  -----------------
-    |   
-    |   - license.html
-    |
-    |-------------------
-    MENOS IMPORTANTE
+    http://docs.moodle.org/en/MoodleDocs_and_lang_packs
 
- 3) Por favor nunca traduza credits.html - este muda continuamente.
+    http://tracker.moodle.org/browse/MDL-4912
+
+Cumprimentos,
+Martin Dougiamas, 10 de Julho de 2007
