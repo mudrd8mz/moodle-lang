@@ -1,18 +1,22 @@
-ABOUT THIS DIRECTORY
---------------------
+ACERCA DE ESTE DIRECTÓRIO
+-------------------------
 
-DO NOT CHANGE, RENAME OR MOVE ANY OF THE FILES 
-IN THIS DIRECTORY unless you REALLY know what 
-you are doing.  
+NÃO MODIFIQUE, MUDE O NOME, OU LOCALIZAÇÃO DE
+QUALQUER DOS FICHEIROS NESTE DIRECTÓRIO, a menos
+que REALMENTE perceba o que está a fazer.
 
-Changing these files could mess up your course.
+A alteração dos ficheiros neste directório pode
+prejudicar seriamente as suas disciplinas no
+Moodle.
 
-This directory contains files uploaded to your 
-course within particular modules (mostly by 
-students), such as assignment submissions and 
-forum attachments.
+Este directório contém ficheiros que foram
+carregados na sua disciplina com módulos
+específicos (principalmente ficheiros enviados
+pelos alunos), tais como trabalhos, ficheiros
+submetidos e anexos a mensagens nos fóruns.
 
-The names of the directories and files within 
-this directory are very specific and are 
-automatically maintained by Moodle.
+Os nomes dos directórios e os ficheiros dentro
+de este directório são bastante específicos e
+mantidos automaticamente no Moodle.
+
 
