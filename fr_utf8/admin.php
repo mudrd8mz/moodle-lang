@@ -551,6 +551,7 @@ $string['savechanges'] = 'Enregistrer les modifications';
 $string['search'] = 'Recherche';
 $string['searchinsettings'] = 'Recherche dans les paramètres';
 $string['searchresults'] = 'Résultats';
+$string['sectionerror'] = 'Erreur de section&nbsp;!';
 $string['secureforms'] = 'Utiliser une meilleure sécurité pour les formulaires';
 $string['security'] = 'Sécurité';
 $string['server'] = 'Serveur';
