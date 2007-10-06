@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 Beta + (2007100303)
+      // grades.php - created with Moodle 1.9 Beta + (2007100500)
 
 
 $string['activities'] = '活動';
@@ -163,6 +163,7 @@ $string['gradecategoryhelp'] = '評定カテゴリヘルプ';
 $string['gradecategorysettings'] = '評定カテゴリ設定';
 $string['gradedisplay'] = '評定表示';
 $string['gradedisplaytype'] = '評定表示タイプ';
+$string['gradedon'] = '評定日時 $a';
 $string['gradeexceptions'] = '成績から除外';
 $string['gradeexceptionshelp'] = '評定例外ヘルプ';
 $string['gradehelp'] = '評定ヘルプ';
@@ -290,7 +291,7 @@ $string['options'] = 'オプション';
 $string['outcome'] = 'アウトカム';
 $string['outcomecategory'] = 'カテゴリ内にアウトカムを作成する';
 $string['outcomecategorynew'] = '新しいカテゴリ';
-$string['outcomecreate'] = '新しいアウトカム項目を追加する';
+$string['outcomecreate'] = '新しいアウトカムの追加';
 $string['outcomeitem'] = 'アウトカム項目';
 $string['outcomeitemsedit'] = 'アウトカム項目の編集';
 $string['outcomename'] = 'アウトカム名';
