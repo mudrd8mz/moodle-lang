@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 Beta + (2007090600)
+      // question.php - created with Moodle 1.9 Beta + (2007100500)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -55,6 +55,7 @@ $string['permissionmove'] = 'この問題を移動する';
 $string['permissionsaveasnew'] = 'この問題を新しい問題として保存する';
 $string['permissionto'] = 'あなたのパーミッションは下記のとおりです:';
 $string['published'] = '共有';
+$string['questionaffected'] = '<a href=\"$a->qurl\">問題「 $a->name」($a->qtype)</a> は、この問題カテゴリ内にありますが、別のコース「 $a->coursename 」の <a href=\"$a->qurl\">小テスト「 $a->quizname 」</a> でも使用されています。';
 $string['questionbank'] = '問題バンク';
 $string['questioncatsfor'] = '「 $a 」の問題カテゴリ';
 $string['questiondoesnotexist'] = 'この問題は存在しません。';
