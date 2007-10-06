@@ -3,6 +3,7 @@
 
 
 $string['modulename'] = 'Tekstualna datoteka';
+$string['txt:publish'] = 'Objaviti izvoz ocena u .txt datoteci';
 $string['txt:view'] = 'Koristiti izvoz ocena u tekstualnu datoteku';
 
 ?>

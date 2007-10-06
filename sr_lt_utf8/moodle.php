@@ -158,6 +158,7 @@ $string['backupnameformat'] = '%%d.%%m.%%Y.-%%H.%%M';
 $string['backupnoneusersinfo'] = 'Napomena: Označili ste opciju koja kaže kako ne želite kreiranje rezervnih kopija korisničkih podataka, tako da su rezervne kopije svih modula prebačene u oblik \"bez korisničkih podataka\". Uzmite u obzir i to da moduli \"vežba\" i \"radionica\" nisu kompatibilni sa ovom opcijom za kreiranje rezervnih kopija, tako da su u potpunosti isključeni iz ove procedure.';
 $string['backupnonisowarning'] = 'Upozorenje: ova rezervna kopija je kreirana u verziji Moodle sistema koja nije podržavala Unicode (pre verzije 1.6). Ako ova rezervna kopija sadrži tekstove koji se ne slažu sa ISO-8859-1 može biti OŠTEĆENA ako pokušate da je restaurirate u ovoj Unicode Moodle verziji. Pogledajte <a href=\"http://docs.moodle.org/en/Backup_FAQ\">Backup FAQ</a>za više informacija o tome kako da pravilno uradite oporavak ove rezervne kopije.';
 $string['backuporiginalname'] = 'Naziv rezervne kopije';
+$string['backuproleassignments'] = 'Napravi rezervnu kopiju dodele ovih uloga';
 $string['backupsavetohelp'] = 'Puna putanja do direktorijuma u kojem želite da sačuvate datoteke sa rezervnim kopijama<br /> (ostavite ovo polje prazno kako biste podatke sačuvali u podrazumevani direktorijum za čuvanje svih podataka vezanih za ovaj kurs)';
 $string['backupschedulehelp'] = 'Izaberite dane u sedmici kada želite da se kreiraju rezervne kopije.';
 $string['backupsitefileshelp'] = 'Ukoliko je ovo omogućeno, fajlovi sa sajta korišćeni u kursevima biće uključeni prilikom automatskih bekapa.';
@@ -237,8 +238,8 @@ $string['confirmednot'] = 'Vaša registracija još nije potvrđena!';
 $string['continue'] = 'Nastavak';
 $string['continuetocourse'] = 'Kliknite ovde da biste ušli na svoj kurs';
 $string['convertingwikitomarkdown'] = 'Pretvaranje Wiki formata u Markdown format';
-$string['cookiesenabled'] = 'Vaš Web čitač mora imati omogućene \"kolačiće\"';
-$string['cookiesnotenabled'] = 'Nažalost, \"kolačići\" nisu omogućeni u Vašem Web čitaču';
+$string['cookiesenabled'] = 'Vaš web čitač mora imati omogućene \"kolačiće\"';
+$string['cookiesnotenabled'] = 'Nažalost, \"kolačići\" nisu omogućeni u Vašem web čitaču';
 $string['copy'] = 'kopiranje';
 $string['copyasnoun'] = 'kopiranje';
 $string['copyingcoursefiles'] = 'Kopiranje datoteka kursa';
@@ -472,7 +473,7 @@ Da biste promenili Vašu šifru, molim idite na sledeću internet stranicu:
 
 $a->link
 
-U većini programa namenjenih za poštu ovo bi trebalo da se prikaže kao link u plavoj boji na koji možete da kliknete. U slučaju da to ne funkcioniše, isecite i prenesite adresu u adresnu liniju prozora Vašeg Web čitača.
+U većini programa namenjenih za poštu ovo bi trebalo da se prikaže kao link u plavoj boji na koji možete da kliknete. U slučaju da to ne funkcioniše, isecite i prenesite adresu u adresnu liniju prozora Vašeg web čitača.
 
 Ako Bam je potrebna pomoć, molim Vas kontaktirajte vašeg administratora,  $a->admin';
 $string['emailpasswordchangeinfodisabled'] = 'Postovana/i $a->firstname,
@@ -542,7 +543,7 @@ $string['entercourse'] = 'Kliknite za pristup kursu';
 $string['enteremailaddress'] = 'Da biste poništili trenutnu lozinku i dobili novu, treba da unesete Vašu važeću adresu elektronske pošte, na koju će Vam biti poslata nova lozinka.';
 $string['entries'] = 'Ulazi';
 $string['error'] = 'Greška';
-$string['errortoomanylogins'] = 'Nažalost, prekoračili ste dopušteni broj pogrešnih pristupa sistemu. Ponovo pokrenite svoj Web čitač i pokušajte ponovo.';
+$string['errortoomanylogins'] = 'Nažalost, prekoračili ste dopušteni broj pogrešnih pristupa sistemu. Ponovo pokrenite svoj web čitač i pokušajte ponovo.';
 $string['errorwhenconfirming'] = 'Vaš korisnički nalog još nije još potvrđen zbog greške koja se dogodila. Ako ste kliknuli na link koji ste dobili u e-poruci, molimo proverite je li linija u kojoj se nalazi navedeni link ispravna (odnosno, je da je nije Vaš klijent e-pošte možda formatirao u dva reda, čime je deo linka završio u drugom redu). Postoji mogućnost da ćete morati ručnim kopiranjem i unosom rekonstruisati originalni link.';
 $string['everybody'] = 'Svi';
 $string['executeat'] = 'Izvršiti u';
@@ -722,7 +723,7 @@ $string['home'] = 'Početna strana';
 $string['hour'] = 'h';
 $string['hours'] = 'h';
 $string['howtomakethemes'] = 'Kako podesiti novu šemu izgleda sajta';
-$string['htmleditor'] = 'Upotreba HTML editora (samo u nekim Web čitačima)';
+$string['htmleditor'] = 'Upotreba HTML editora (samo u nekim web čitačima)';
 $string['htmleditoravailable'] = 'HTML editor je dostupan';
 $string['htmleditordisabled'] = 'Isključili ste upotrebu HTML editora za Vaš korisnički profil';
 $string['htmleditordisabledadmin'] = 'Administrator sistema je isključio uportrebu HTML editora na nivou celog sistema';
@@ -753,6 +754,7 @@ $string['includemodules'] = 'Uključujući module';
 $string['includemoduleuserdata'] = 'Uključujući podatke korisnika modula';
 $string['includeneededusers'] = 'Uključujući potrebne korisnike';
 $string['includenoneusers'] = 'Bez uključivanja korisnika';
+$string['includeroleassignments'] = 'Obuhvati dodelu uloga';
 $string['includesitefiles'] = 'Uključi fajlove korišćene u ovom kursu';
 $string['includeuserfiles'] = 'Uključujući korisničke datoteke';
 $string['info'] = 'Informacija';
@@ -1449,6 +1451,7 @@ $string['uploadrenamedcollision'] = 'Datoteka je preimenovana sa $a->oldname na 
 $string['uploadserverlimit'] = 'Datoteka koja je postavljena je veća od maksimalne veličine dozovoljene ograničenjem ovog servera';
 $string['uploadthisfile'] = 'Postavi datoteku';
 $string['uploadusers'] = 'Postavljanje korisnika';
+$string['used'] = 'Korišćeno';
 $string['usedinnplaces'] = 'Koristi se na $a mesta';
 $string['usemessageform'] = 'ili koristite formu ispod da pošaljete poruku izabranim studentima';
 $string['user'] = 'Korisnik';

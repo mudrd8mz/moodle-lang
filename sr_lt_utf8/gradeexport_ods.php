@@ -3,6 +3,7 @@
 
 
 $string['modulename'] = 'OpenOffice radna tabela';
+$string['ods:publish'] = 'Objaviti izvoz ocena u .ods datoteci';
 $string['ods:view'] = 'Koristiti izvoz ocena u OpenOffice';
 
 ?>

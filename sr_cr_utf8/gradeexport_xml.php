@@ -3,6 +3,7 @@
 
 
 $string['modulename'] = 'XML датотека';
+$string['xml:publish'] = 'Објавити извоз оцена у XML формату';
 $string['xml:view'] = 'Користити извоз оцена у XML';
 
 ?>

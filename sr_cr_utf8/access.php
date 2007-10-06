@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.6.2 (2006050520)
+      // access.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['access'] = 'Приступачност';
@@ -9,6 +9,8 @@ $string['accessstatement'] = 'Изјава о приступачности';
 $string['activitynext'] = 'Следећа активност';
 $string['activityprev'] = 'Претходна активност';
 $string['breadcrumb'] = 'Навигациона путања';
+$string['currenttopic'] = 'Ова тема';
+$string['currentweek'] = 'Ова седмица';
 $string['monthnext'] = 'Следећи месец';
 $string['monthprev'] = 'Претходни месец';
 $string['showhideblock'] = 'Прикажи или сакриј блок';

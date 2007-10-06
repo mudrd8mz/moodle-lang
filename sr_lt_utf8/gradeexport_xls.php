@@ -3,6 +3,7 @@
 
 
 $string['modulename'] = 'Excel radna tabela';
+$string['xls:publish'] = 'Objaviti izvoz ocena u .xls  datoteci';
 $string['xls:view'] = 'Koristiti izvoz ocena u Excel';
 
 ?>

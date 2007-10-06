@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8.2+ (2007021520)
+      // glossary.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['addcomment'] = 'Dodaj komentar';
@@ -29,6 +29,7 @@ $string['categories'] = 'Kategorije';
 $string['category'] = 'Kategorija';
 $string['categorydeleted'] = 'Kategorija je obrisana';
 $string['categoryview'] = 'Pregled po kategorijama';
+$string['changeto'] = 'promena u <b>$a</b>';
 $string['cnfallowcomments'] = 'Definiše da li se podrazumeva da će rečnik prihvatati komentare pojmova';
 $string['cnfallowdupentries'] = 'Definiše da li se podrazumeva da će rečnik prihvatati duplikate pojmova';
 $string['cnfapprovalstatus'] = 'Definiše podrazumevani status za odobravanje unosa novih pojmova, poslatih od strane studenta';
@@ -51,6 +52,7 @@ $string['commentupdated'] = 'Komentar je ažuriran.';
 $string['concept'] = 'Pojam';
 $string['concepts'] = 'Pojmovi';
 $string['configenablerssfeeds'] = 'Ova opcija daje mogućnost RSS izvora za sve rečnike. Ipak, moraćete ručno uključiti podršku u podešavanjima za svaki rečnik.';
+$string['current'] = 'Trenutno sortirano <b>$a</b>';
 $string['currentglossary'] = 'Trenutni rečnik';
 $string['dateview'] = 'Pregled po datumu';
 $string['defaultapproval'] = 'Podrazumevani status za odobrenja';
