@@ -355,6 +355,7 @@ $string['reportsettings'] = 'Réglages des rapports';
 $string['reprintheaders'] = 'Réafficher les entêtes';
 $string['respectingcurrentdata'] = 'en conservant la configuration actuelle';
 $string['right'] = 'Droit';
+$string['rowpreviewnum'] = 'Prévisualiser les rangées';
 $string['savechanges'] = 'Enregistrer les changements';
 $string['savepreferences'] = 'Enregistrer les préférences';
 $string['scaledpct'] = '%% pondéré';
