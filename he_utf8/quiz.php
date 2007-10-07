@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // quiz.php - created with Moodle 1.9 Beta + (2007081600)
 
 
@@ -58,7 +58,7 @@ $string['attemptlast'] = 'נסיון מענה אחרון';
 $string['attemptquiznow'] = 'נסה לענות על הבוחן כעת.';
 $string['attempts'] = 'נסיונות מענה';
 $string['attemptsallowed'] = 'נסיונות מענה מותרים';
-$string['attemptsdeleted'] = 'נסיונות החידון הוסרו';
+$string['attemptsdeleted'] = 'נסיונות הבוחן הוסרו';
 $string['attemptselection'] = 'בחר איזה נסיונות מענה יש לנתח עבור כל משתמש:';
 $string['attemptsexist'] = 'אינך מורשה להוסיף או להוריד שאלות בשלב זה.';
 $string['attemptsonly'] = 'הראה רק את התלמידים שניסו לענות על בחנים.';
@@ -182,9 +182,9 @@ $string['emailconfirmbody'] = 'תודה על ששלחת את התשובות ל:
 \'$a->quizname\'
 בקורס \'$a->coursename\'
 ב: $a->submissiontime';
-$string['emailconfirmsubject'] = 'אישור שליחת החידון: $a->quizname';
+$string['emailconfirmsubject'] = 'אישור שליחת ההבוחן: $a->quizname';
 $string['emailnotifybody'] = '$a->studentname סים את $a->quizname ב: $a->quizurl בקורס $a->coursename';
-$string['emailnotifysubject'] = 'סטודנט $a->studentname סים את החידון
+$string['emailnotifysubject'] = 'סטודנט $a->studentname סים את הבוחן
 $a->quizname';
 $string['errorinquestion'] = 'שגיאה בשאלה';
 $string['errormissingquestion'] = 'שגיאה: השאלה בעלת מספר הזיהוי: $a, חסרה במערכת.';
@@ -252,7 +252,7 @@ $string['gradeboundary'] = 'גבול הציון';
 $string['gradeessays'] = 'תן ציון למאמרים';
 $string['gradehighest'] = 'הציון הגבוה ביותר';
 $string['grademethod'] = 'שיטת מתן ציונים';
-$string['gradesdeleted'] = 'ציוני החידון הוסרו';
+$string['gradesdeleted'] = 'ציוני הבוחן הוסרו';
 $string['gradesofar'] = '$a->method: $a->mygrade / $a->quizgrade.';
 $string['gradingdetails'] = 'ציונים להגשה זו: $a->raw$a->max';
 $string['gradingdetailsadjustment'] = 'עם קנסות קודמים התוצאה היא <strong>$a->cur/$a->max</strong>.';
@@ -381,7 +381,7 @@ $string['popupnotice'] = 'הסטודנטים יראו את בוחן זה בחל�
 $string['preview'] = 'תצוגה מקדימה';
 $string['previewquestion'] = 'תצוגה מקדימה של השאלה';
 $string['previewquiz'] = 'תצוגה מקדימה של $a';
-$string['previewquiznow'] = 'צפיה מוקדמת בחידון';
+$string['previewquiznow'] = 'צפיה מוקדמת בבוחן';
 $string['previous'] = 'מצב קודם';
 $string['publish'] = 'פרסם';
 $string['publishedit'] = 'על מנת שתוכל להוסיף או לערוך שאלות שנמצאות בקטגוריה זה, עליך להיות בעל הרשאות בקורס המפרסם';
@@ -440,7 +440,7 @@ $string['regradingquestion'] = 'בודק מחדש את \"$a\".';
 $string['regradingquiz'] = 'בודק מחדש את בוחן \"$a\"';
 $string['relative'] = 'יחסי';
 $string['remove'] = 'הסר';
-$string['removeallquizattempts'] = 'הסר את נסיונות החידון';
+$string['removeallquizattempts'] = 'הסר את נסיונות הבוחן';
 $string['rename'] = 'שנה שם';
 $string['renderingserverconnectfailed'] = 'השרת $a לא הצליח לעבד בקשת RQP. בדוק שכתובת ה-URL נכונה.';
 $string['reordertool'] = 'הצג את כלי הסידור מחדש.';

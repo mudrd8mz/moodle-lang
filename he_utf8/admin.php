@@ -422,7 +422,7 @@ $string['multilangforceold'] = 'הכרח תחביר ישן של שפות מרו�
  <lang>';
 $string['multilangupgrade'] = 'שדרוג שפות מרובות (multilang)';
 $string['multilangupgradeinfo'] = 'תחביר מסנן השפות המרובות שונה ב-1.8, תג <lang> לא נתמך יותר. <br> <br> לדוגמא: <span lang=\"en\" class=\"multilang\">Hello!</span><span lang=\"es\" class=\"multilang\">Hola!</span><br /><br /> <strong> האם תרצה לשדרג את התחביר בכל הטקסטים הקיימים כעת? </strong>';
-$string['multilangupgradenotice'] = 'האתר שלך כנראה משתמש בתחביר שפות מרובות (multylang) ישן, <a href=\"multilangupgrade.php\"> שפות מרובות </a> מומלץ';
+$string['multilangupgradenotice'] = 'האתר שלך כנראה משתמש בתחביר שפות מרובות (multilang) ישן, <a href=\"multilangupgrade.php\"> שפות מרובות </a> מומלץ';
 $string['mustenablestats'] = 'סטטיסטיקות לא אופשרו עדיין באתר זה';
 $string['mymoodle'] = 'מוודל שלי (My Moodle)';
 $string['mymoodleredirect'] = 'הכרח משתמשים להשתמש ב-\"מוודל שלי\"';
