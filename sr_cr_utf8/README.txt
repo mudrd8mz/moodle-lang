@@ -36,7 +36,7 @@ URL:    http://perun.im.ns.ac.yu/komlenov/
 
    for joint effort on fine-tuning and maintaining this language pack.
    
- - Bojan Milosavljević, Kruševac
+ - Bojan Milosavljević, Higher Education School of Professional Studies in Business & Industrial Management, Kruševac
 
    for help in fine-tuning and maintaining this language pack, as well as resolving grammar sensitivity issues.
 
