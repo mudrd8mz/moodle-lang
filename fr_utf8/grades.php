@@ -230,6 +230,7 @@ $string['idnumberhelp'] = 'Identifiant arbitraire fourni par le responsable du m
 $string['import'] = 'Importer';
 $string['importcsv'] = 'Importation CSV';
 $string['importfailed'] = 'L\'importation a échoué';
+$string['importfeedback'] = 'Importer les feedbacks';
 $string['importfile'] = 'Fichier à importer';
 $string['importplugins'] = 'Modules d\'importation';
 $string['importpreview'] = 'Prévisualisation de l\'importation';
