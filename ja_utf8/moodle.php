@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007100301)
+      // moodle.php - created with Moodle 1.9 Beta + (2007100802)
 
 
 $string['action'] = '操作';
@@ -638,6 +638,7 @@ $string['gd1'] = 'GD 1.xインストール済';
 $string['gd2'] = 'GD 2.xインストール済';
 $string['gdneed'] = 'このグラフを表示するためにはGDのインストールが必要です。';
 $string['gdnot'] = 'GD未インストール';
+$string['general'] = '一般';
 $string['gettheselogs'] = 'これらのログを取得する';
 $string['go'] = 'Go';
 $string['gotoyourserver'] = '(あなたのサーバに戻る)';
