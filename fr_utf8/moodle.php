@@ -627,6 +627,7 @@ $string['gd1'] = 'GD 1.x est installé';
 $string['gd2'] = 'GD 2.x est installé';
 $string['gdneed'] = 'GD doit être installé pour visualiser ce graphique';
 $string['gdnot'] = 'GD n\'est pas installé';
+$string['general'] = 'Général';
 $string['gettheselogs'] = 'Télécharger ces historiques';
 $string['go'] = 'Valider';
 $string['gotoyourserver'] = '(Retour à votre serveur)';
