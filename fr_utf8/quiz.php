@@ -489,6 +489,7 @@ $string['reviewnever'] = 'Ne jamais permettre la relecture';
 $string['reviewofattempt'] = 'Relecture de la tentative $a';
 $string['reviewopen'] = 'Plus tard, alors que le test est encore ouvert';
 $string['reviewoptions'] = 'Les étudiants peuvent relire';
+$string['reviewoptionsheading'] = 'Options de relecture';
 $string['reviewresponse'] = 'Relire la réponse';
 $string['rqp'] = 'Question RQP';
 $string['rqps'] = 'Questions RQP';
