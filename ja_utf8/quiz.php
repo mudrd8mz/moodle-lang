@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 Beta + (2007100303)
+      // quiz.php - created with Moodle 1.9 Beta + (2007100805)
 
 
 $string['1day'] = '1日';
@@ -24,8 +24,9 @@ $string['addingrandom'] = 'ランダム問題の追加';
 $string['addingrandomsamatch'] = 'ランダム記述組み合わせ問題の追加';
 $string['addingshortanswer'] = '記述問題の追加';
 $string['addingtruefalse'] = '○/×問題の追加';
+$string['addmoreoverallfeedbacks'] = 'さらに {no}  個のフィードバックフィールドを追加する';
 $string['addquestions'] = '問題を追加';
-$string['addquestionstoquiz'] = '現在の小テストに問題を追加';
+$string['addquestionstoquiz'] = '現在の小テストに問題を追加する';
 $string['addrandom'] = '$a 問のランダム問題を追加する';
 $string['addrandom1'] = '<< 追加';
 $string['addrandom2'] = 'ランダム問題';
@@ -494,6 +495,7 @@ $string['reviewnever'] = 'レビューを許可しない';
 $string['reviewofattempt'] = '受験 $a をレビューする';
 $string['reviewopen'] = '後で、小テスト実施中';
 $string['reviewoptions'] = '学生はレビューできる';
+$string['reviewoptionsheading'] = 'レビューオプション';
 $string['reviewresponse'] = '解答のレビュー';
 $string['rqp'] = 'リモート問題';
 $string['rqps'] = 'リモート問題';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007100802)
+      // moodle.php - created with Moodle 1.9 Beta + (2007100805)
 
 
 $string['action'] = '操作';
@@ -189,6 +189,7 @@ $string['categoryadded'] = '「 $a 」 が追加されました。';
 $string['categorydeleted'] = '「 $a 」 が削除されました。';
 $string['categoryduplicate'] = '「$a」はすでに登録されています!';
 $string['categoryname'] = 'カテゴリ名';
+$string['categoryupdated'] = 'カテゴリ「 $a 」が更新されました。';
 $string['changedpassword'] = 'パスワードを変更しました。';
 $string['changepassword'] = 'パスワードの変更';
 $string['changessaved'] = '変更内容が保存されました。';
@@ -406,7 +407,8 @@ $string['edhelpfontfamily'] = 'フォントファミリー属性は、フォン�
 $string['edhelpfontlist'] = 'エディタのドロップダウンメニューで使用されるフォントを設定します。';
 $string['edhelpfontsize'] = 'デフォルトフォントサイズではフォントのサイズを設定します。<br />正しい値の例: medium, large, smaller, larger, 10pt, 11px.';
 $string['edit'] = '$a 編集';
-$string['editcoursesettings'] = 'コース設定';
+$string['editcategorysettings'] = 'カテゴリ設定の編集';
+$string['editcoursesettings'] = 'コース設定の編集';
 $string['editfiles'] = 'ファイルの編集';
 $string['editgroupprofile'] = 'グループプロフィールの編集';
 $string['editinga'] = '$a 編集';
@@ -1069,6 +1071,7 @@ $string['outline'] = '概略';
 $string['outlinereport'] = '概略レポート';
 $string['page'] = 'ページ';
 $string['pageheaderconfigablock'] = '%%fullname%% 内のブロック設定';
+$string['parentcategory'] = '親カテゴリ';
 $string['parentcoursenotfound'] = '親コースが見つかりませんでした!';
 $string['parentcoursenotmetacourse'] = '親コースはメタコースではありません!';
 $string['parentfolder'] = '親フォルダ';
