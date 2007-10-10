@@ -405,6 +405,7 @@ $string['edhelpfontlist'] = 'Définition des polices disponible dans le menu de 
 $string['edhelpfontsize'] = 'Le corps par défaut définit la taille de la police.<br />Des valeurs correctes sont par exemple&nbsp;: medium, large, smaller, larger, 10pt, 11px.';
 $string['edit'] = 'Modifier $a';
 $string['editcategorysettings'] = 'Modifier les paramètres de la catégorie';
+$string['editcategorythis'] = 'Modifier cette catégorie';
 $string['editcoursesettings'] = 'Modifier les paramètres du cours';
 $string['editfiles'] = 'Modifier les fichiers';
 $string['editgroupprofile'] = 'Modifier le profil du groupe';
