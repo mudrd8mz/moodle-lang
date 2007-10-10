@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7.1+ (2006101010)
+      // enrol_authorize.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['adminacceptccs'] = 'Zer kreditu-txartel onartuko da?';
 $string['adminaccepts'] = 'Onartutako ordainketa-metodoak aukeratu';
+$string['adminauthcode'] = 'Erabiltzaile baten kreditu txartela ezin bada zuzenean interneten hartu, lortu telefonoz baimen-kodea customer bankutik';
 $string['adminauthorizeccapture'] = 'Eskariaren errebisioaren ezarpenak';
 $string['adminauthorizeemail'] = 'E-mailen bidalketen ezarpenak';
 $string['adminauthorizesettings'] = 'Authorize.net-en ezarpenak';
@@ -50,6 +51,7 @@ $string['antestmode'] = 'Eragiketak soilik test moduan (ez da diru-kargurik egin
 $string['antrankey'] = 'Authorize.net: Eragiketa-kodea';
 $string['approvedreview'] = 'Berrikusketa onartuta';
 $string['authcaptured'] = 'Baimendua / Eragiketa egina';
+$string['authcode'] = 'Baimen-kodea';
 $string['authorize:managepayments'] = 'Ordainketak kudeatu';
 $string['authorize:uploadcsv'] = 'CVS fitxategia igo';
 $string['authorizedpendingcapture'] = 'Baimendua / Eragiketa egiten ari da';
@@ -109,6 +111,7 @@ $string['missingaba'] = 'ABA zenbakia falta da';
 $string['missingaddress'] = 'Helbidea falta da';
 $string['missingbankname'] = 'Bankuaren izena falta da';
 $string['missingcc'] = 'Kreditu-txartelaren zenbakia falta da';
+$string['missingccauthcode'] = 'Baimen-kodea falta da';
 $string['missingccexpire'] = 'Amaitze data falta da';
 $string['missingcctype'] = 'Txartel mota falta';
 $string['missingcvv'] = 'Berrespen-zenbakia falta da';
