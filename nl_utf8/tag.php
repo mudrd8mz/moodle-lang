@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta + (2007090600)
+      // tag.php - created with Moodle 1.9 Beta + (2007100903)
 
 
 $string['addtagtomyinterests'] = 'Voeg \"$a\" toe aan mijn interesses';
@@ -36,6 +36,8 @@ $string['tagdescription'] = 'Tag beschrijving';
 $string['tags'] = 'Tags';
 $string['tagsaredisabled'] = 'Tags zijn uitgeschakeld';
 $string['tagtype'] = 'Tag-type';
+$string['tagtype_default'] = 'Standaard';
+$string['tagtype_official'] = 'Officiëel';
 $string['thingstaggedwith'] = '$a->count dingen getagged met \"$a->name\"';
 $string['thistaghasnodesc'] = 'Deze tag heeft nog geen beschrijving';
 $string['timemodified'] = 'Gewijzigd';

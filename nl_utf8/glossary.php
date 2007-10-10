@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 dev (2007070603)
+      // glossary.php - created with Moodle 1.9 Beta + (2007100903)
 
 
 $string['addcomment'] = 'Voeg commentaar toe';
@@ -29,6 +29,7 @@ $string['categories'] = 'Categorieën';
 $string['category'] = 'Categorie';
 $string['categorydeleted'] = 'Categorie verwijderd';
 $string['categoryview'] = 'Blader in categorieën';
+$string['changeto'] = 'wijzig naar $a';
 $string['cnfallowcomments'] = 'Stel als standaardinstelling in of een woordenlijst commentaren aanvaardt';
 $string['cnfallowdupentries'] = 'Stel als standaardinstelling in of een woordenlijst dubbels aanvaardt';
 $string['cnfapprovalstatus'] = 'Stel de standaardinstelling in voor de goedkeuring van een door een leerling ingezonden invoer';
@@ -51,6 +52,7 @@ $string['commentupdated'] = 'De commentaar is bijgewerkt';
 $string['concept'] = 'Concept';
 $string['concepts'] = 'Concepten';
 $string['configenablerssfeeds'] = 'Met deze instelling kun je de mogelijkheid voor het maken van RSS-feeds inschakelen voor alle woordenlijsten. Je zult wel nog voor elke woordenlijst afzonderlijk het maken van de RSS-feeds moeten inschakelen.';
+$string['current'] = 'Gesorteerd op $a';
 $string['currentglossary'] = 'Huidige woordenlijst';
 $string['dateview'] = 'Blader op datum';
 $string['defaultapproval'] = 'Standaardinstelling goedkeuring';

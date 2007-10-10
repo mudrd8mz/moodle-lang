@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 Beta + (2007081600)
+      // mnet.php - created with Moodle 1.9 Beta + (2007100903)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (eigen certificaat)';
@@ -94,6 +94,7 @@ $string['mnetlog'] = 'Logs';
 $string['mnetpeers'] = 'Peer servers';
 $string['mnetservices'] = 'Sevices';
 $string['mnetsettings'] = 'Instellingen Moodle network';
+$string['mnetthemes'] = 'Thema\'s';
 $string['moodle_home_help'] = 'Het pad naar de startpagina van Moodle op de externe host, bijvoorbeeld /moolde/moodle_home_help';
 $string['moodleloc'] = 'Moodle locatie';
 $string['net'] = 'Netwerk';
@@ -162,6 +163,7 @@ $string['subscribe'] = 'Schrijf in';
 $string['system'] = 'Systeem';
 $string['testtrustedhosts'] = 'Test een adres';
 $string['testtrustedhostsexplain'] = 'Geef een IP-adres om te controleren of dit een vertrouwde host is.';
+$string['themesavederror'] = 'Er is een fout gebeurd: het wijzigen van het thema is niet bewaard.';
 $string['transport_help'] = 'Je kunt een externe host alleen dwingen om een getekend SSL-certificaat te gebruiken als jouw server ook een getekend SSL-certificaat heeft.';
 $string['trustedhosts'] = 'XML-RPC hosts';
 $string['trustedhostsexplain'] = '<p>Het vertrouwde hosts mechanisme maakt het voor specifieke machines mogelijlk om cals uit te voeren via het XML-RPC mechanisme naar gelijk welk deel van de Moodle API. Dit maakt het mogelijk voor scripts om het gedrag van Moodle te controleren en kan een erg gevaarlijk optie zijn om in te schakelen. Laat het bij twijfel uit staan.</p>

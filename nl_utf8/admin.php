@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta + (2007082200)
+      // admin.php - created with Moodle 1.9 Beta + (2007100903)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -217,6 +217,7 @@ $string['configusetags'] = 'Tags functionaliteit over de hele site inschakelen?'
 $string['configvariables'] = 'Configureer variabelen';
 $string['configvisiblecourses'] = 'Toon cursussen in verborgen categorieën';
 $string['configwarning'] = 'Wees voorzichtig met het veranderen van deze instellingen. Vreemde waarden kunnen problemen opleveren.';
+$string['configxmlstrictheaders'] = 'Wanneer dit ingeschakeld is, zal elke pagina gegenereerd worden met XML http headers en prolog, zodat browsers XHTML-fouten inline tonen. Dit is enkel nuttig voor ontwikkelaars';
 $string['configzip'] = 'Geef de locatie van je ZIP-programma (alleen voor UNIX). Dit is nodig om ZIP-archieven op de server te maken.';
 $string['confirmation'] = 'Bevestiging';
 $string['confirminstall'] = 'Je gaat het taalpakket ($a) installeren. Verder gaan?';
@@ -273,6 +274,7 @@ $string['download'] = 'Download';
 $string['editennotallowed'] = 'Het taalpakket en_utf8 kan niet bewerkt worden met deze pagina - switch naar local';
 $string['edithelpdocs'] = 'Bewerk helpbestanden';
 $string['editingnoncorelangfile'] = 'Je probeert een vertaling van een niet-standaard module te wijzigen. Je kunt de vertaling alleen bewaren in je _local map. Misschien wil je daarna de vertaling verplaatsen naar de lang-map van de module en/of de vertaling naar de maker van de module sturen.';
+$string['editlang'] = '<b>Bewerk</b>';
 $string['editorbackgroundcolor'] = 'Achtergrondkleur';
 $string['editordictionary'] = 'Editor woordenboek';
 $string['editorfontfamily'] = 'Lettertypefamilie';
@@ -322,6 +324,7 @@ $string['forcetimezone'] = 'Verplicht standaard tijdzone';
 $string['framename'] = 'Framenaam';
 $string['frontpage'] = 'Startpagina';
 $string['frontpagebackup'] = 'Backup startpagina';
+$string['frontpagedefaultrole'] = 'Standaardrol voor startpagina';
 $string['frontpageloggedin'] = 'Startpagina-items als aangemeld';
 $string['frontpagerestore'] = 'Restore startpagina';
 $string['frontpageroles'] = 'Rollen startpagina';
@@ -643,7 +646,7 @@ $string['usersrenamed'] = 'Gebruikers hernoemd';
 $string['usersupdated'] = 'Gebruikers geüpdatet';
 $string['usetags'] = 'Tags functionaliteit inschakelen';
 $string['validateerror'] = 'Deze waarde is niet geldig';
-$string['editlang'] = '<b>Bewerk</b>'; // ORPHANED
+$string['xmlstrictheaders'] = 'XML strict headers';
 $string['confighideactivitytypecrumb'] = 'Selecteer voor wie het activiteitstype (bijvoorbeeld Testen) in het broodkruimelpad verborgen moet worden.'; // ORPHANED
 $string['hideactivitytypecrumb'] = 'Verberg broodkruimeltje voor activiteitstype'; // ORPHANED
 

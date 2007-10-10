@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.9 Beta + (2007081600)
+      // qtype_multichoice.php - created with Moodle 1.9 Beta + (2007100903)
 
 
 $string['addingmultichoice'] = 'Een meerkeuzevraag toevoegen';
@@ -7,7 +7,7 @@ $string['addmorechoiceblanks'] = 'Lege lijnen voor {no} meer keuzes';
 $string['answerhowmany'] = 'Een of meer antwoorden?';
 $string['answernumbering'] = 'Keuzes nummeren?';
 $string['answernumbering123'] = '1., 2., 3., ...';
-$string['answernumberingABC'] = 'A., B., C., ...';
+$string['answernumberingABCD'] = 'A., B., C., ...';
 $string['answernumberingabc'] = 'a., b., c., ...';
 $string['answernumberingnone'] = 'Geen nummering';
 $string['answersingleno'] = 'Meerdere antwoorden toegelaten';
@@ -32,5 +32,6 @@ $string['overallpartiallycorrectfeedback'] = 'Feedback voor elk gedeeltelijk jui
 $string['partiallycorrectfeedback'] = 'Voor elk gedeeltelijk juist antwoord';
 $string['shuffleanswers'] = 'Antwoorden in willekeurige volgorde';
 $string['singleanswer'] = 'Kies een antwoord';
+$string['answernumberingABC'] = 'A., B., C., ...'; // ORPHANED
 
 ?>

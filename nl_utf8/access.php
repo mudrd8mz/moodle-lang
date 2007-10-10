@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.7 dev (2006091901)
+      // access.php - created with Moodle 1.9 Beta + (2007100903)
 
 
 $string['access'] = 'Toegankelijkheid';
@@ -9,6 +9,8 @@ $string['accessstatement'] = 'Toegankelijkheidsverklaring';
 $string['activitynext'] = 'Volgende activiteit';
 $string['activityprev'] = 'Vorige activiteit';
 $string['breadcrumb'] = 'Broodkruimelpad';
+$string['currenttopic'] = 'Dit onderwerp';
+$string['currentweek'] = 'Deze week';
 $string['monthnext'] = 'Volgende maand';
 $string['monthprev'] = 'Vorige maand';
 $string['showhideblock'] = 'Toon of verberg blok';

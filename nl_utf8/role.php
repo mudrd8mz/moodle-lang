@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta + (2007090600)
+      // role.php - created with Moodle 1.9 Beta + (2007100903)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
@@ -61,11 +61,13 @@ $string['errorexistsroleshortname'] = 'Rolnaam bestaat al';
 $string['existingusers'] = '$a bestaande gebruikers';
 $string['globalrole'] = 'Globale rol';
 $string['globalroleswarning'] = 'WAARSCHUWING: Alle rollen die je vanaf deze pagina aan gebruikers toewijst, zullen voor de hele site gelden, de startpagina en alle cursussen inbegrepen.';
+$string['grade:edit'] = 'Cijfers bewerken';
 $string['grade:export'] = 'Cijfers exporteren';
 $string['grade:hide'] = 'Cijfer verbergen';
 $string['grade:import'] = 'Cijfers importeren';
 $string['grade:lock'] = 'Cijfer blokkeren';
-$string['grade:manage'] = 'Beheer beoordelingsitems';
+$string['grade:manage'] = 'Beoordelingsitems beheren';
+$string['grade:manageletters'] = 'Letterbeoordelingen beheren';
 $string['grade:manageoutcomes'] = 'Beheer beoordelingen competenties';
 $string['grade:override'] = 'Beoordelingen wijzigen';
 $string['grade:unlock'] = 'Beoordelingen of items vrijgeven';

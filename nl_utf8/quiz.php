@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 Beta + (2007081600)
+      // quiz.php - created with Moodle 1.9 Beta + (2007100903)
 
 
 $string['1day'] = '1 dag';
@@ -26,6 +26,7 @@ $string['addingrandom'] = 'Willekeurige vraag toevoegen';
 $string['addingrandomsamatch'] = 'Willekeurige kort antwoord koppelvraag toevoegen';
 $string['addingshortanswer'] = 'Kort antwoordvraag toevoegen';
 $string['addingtruefalse'] = 'Waar / niet waar-vraag toevoegen';
+$string['addmoreoverallfeedbacks'] = 'Voeg {geen} feedbackvelden toe';
 $string['addquestions'] = 'Voeg vragen toe';
 $string['addquestionstoquiz'] = 'Voeg vragen aan de huidige test toe';
 $string['addrandom'] = 'Voeg $a willekeurige vragen toe';
@@ -374,10 +375,12 @@ $string['notimedependentitems'] = 'Tijdsafhankelijke items worden op dit ogenbli
 $string['numattempts'] = '$a->studentnum 
 $a->studentstring hebben 
 $a->attemptnum pogingen gedaan';
+$string['numattemptsmade'] = '$a pogingen gedaan in deze test';
 $string['numberabbr'] = '#';
 $string['numerical'] = 'Numeriek';
 $string['onlyteachersexport'] = 'Enkel leraren kunnen vragen exporteren';
 $string['onlyteachersimport'] = 'Enkel leraren met bewerkrechten kunnen vragen importeren';
+$string['openclosedatesupdated'] = 'Open- en sluittijden aangepast';
 $string['optional'] = 'optioneel';
 $string['outof'] = '$a->grade uit een maximum van $a->maxgrade';
 $string['overallfeedback'] = 'Algemene feedback';
@@ -434,6 +437,7 @@ $string['quizavailable'] = 'De test is beschikbaar tot: $a';
 $string['quizclose'] = 'Sluit de test';
 $string['quizclosed'] = 'Deze test  wordt op $a gesloten';
 $string['quizcloses'] = 'Test gaat dicht';
+$string['quizcloseson'] = 'Deze test sluit op $a';
 $string['quiznotavailable'] = 'De test zal nog niet beschikbaar zijn tot :  $a';
 $string['quizopen'] = 'Open de test';
 $string['quizopens'] = 'De test gaat open';
@@ -454,6 +458,7 @@ $string['regrade'] = 'Herbereken alle pogingen';
 $string['regradecomplete'] = 'Alle pogingen zijn herberekend';
 $string['regradecount'] = '$a->changed van de $a->attempt cijfers zijn gewijzigd';
 $string['regradedisplayexplanation'] = 'Pogingen die gewijzigd worden tijdens het herberekenen van de cijfers, worden als links getoond in het venster voor herberekening van de vragen';
+$string['regradenotallowed'] = 'Je hebt onvoldoende rechten om deze test te herberekenen';
 $string['regradingquestion'] = '\"$a\" aan het herberekenen';
 $string['regradingquiz'] = 'Test \"$a\" aan het herberekenen';
 $string['relative'] = 'Relatief';
@@ -493,6 +498,7 @@ $string['reviewnever'] = 'Sta nooit nalezen toe';
 $string['reviewofattempt'] = 'Kijk poging $a na';
 $string['reviewopen'] = 'Later, terwijl de test nog open is';
 $string['reviewoptions'] = 'Leerlingen mogen nakijken';
+$string['reviewoptionsheading'] = 'Opties voor herbekijken';
 $string['reviewresponse'] = 'Kijk antwoord na';
 $string['rqp'] = 'Vraag op afstand';
 $string['rqps'] = 'Vragen op afstand';
@@ -593,6 +599,7 @@ $string['xml'] = 'Moodle XML-formaat';
 $string['xmlimportnoname'] = 'Vraagnaam ontbreekt in XML-bestand';
 $string['xmlimportnoquestion'] = 'Tekst van de vraag ontbreekt in XML-bestand';
 $string['xmltypeunsupported'] = 'Vraagtype $a wordt niet ondersteund door XML-import';
+$string['youneedtoenrol'] = 'Je moet aangemeld zijn bij deze cursus voor je deze test kunt maken.';
 $string['yourfinalgradeis'] = 'Je eindcijfer voor deze test is $a';
 $string['zerosignificantfiguresnotallowed'] = 'Het juiste antwoord kan geen nul beduidende cijfers hebben!';
 $string['existingcategory1'] = 'een jokerteken van een bestaande reeks jokertekens die ook door andere vragen in deze categorie gebruikt worden'; // ORPHANED

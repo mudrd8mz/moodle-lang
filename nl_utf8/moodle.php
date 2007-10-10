@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007091401)
+      // moodle.php - created with Moodle 1.9 Beta + (2007100903)
 
 
 $string['action'] = 'Actie';
@@ -158,6 +158,7 @@ $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['backupnoneusersinfo'] = 'Let op: je hebt ervoor gekozen om \"geen\" gebruikers in de backup op te nemen. De backup van alle modules staat nu in de \"zonder gebruikersgegevens\"-modus. De modules \"oefening\" en \"workshop\" zijn niet compatibel met dit type backup en zullen niet mee in de backup gezet worden.';
 $string['backupnonisowarning'] = 'Waarschuwing: deze backup is er één van een niet-unicodeversie van Moodle (voor 1.6). Als deze backup andere dan ISO-8859-1 teksten bevat, dan kunnen deze CORRUPT worden als je ze probeert in een unicode versie van Moodle terug te zetten. Zie de <a href=\"http://docs.moodle.org/en/Backup_FAQ\">Backup FAQ</a> voor meer informatie over hoe je deze backup wel kunt terugzetten.';
 $string['backuporiginalname'] = 'Naam backup';
+$string['backuproleassignments'] = 'Backup de roltoewijzingen voor deze rollen';
 $string['backupsavetohelp'] = 'Volledig pad naar de map waar je de backupbestanden wil bewaren<br />(laat blanco als je ze in de standaardmap van de cursus wil bewaren)';
 $string['backupschedulehelp'] = 'Dagen van de week om automatische backups uit te voeren';
 $string['backupsitefileshelp'] = 'Indien ingeschakeld worden site-bestanden die in cursussen gebruikt worden mee in de automatische backups opgenomen.';
@@ -189,6 +190,7 @@ $string['categoryadded'] = 'De categorie \'$a\'  werd toegevoegd';
 $string['categorydeleted'] = 'De categorie \'$a\'  werd verwijderd';
 $string['categoryduplicate'] = 'Er bestaat al een categorie met de naam \'$a\'!';
 $string['categoryname'] = 'Categorienaam';
+$string['categoryupdated'] = 'De categorie \'$a\' is aangepast';
 $string['changedpassword'] = 'Het wachtwoord is veranderd';
 $string['changepassword'] = 'Verander wachtwoord';
 $string['changessaved'] = 'De veranderingen zijn bewaard';
@@ -406,6 +408,8 @@ $string['edhelpfontfamily'] = 'De eigenschap font-family is een lijst van namen 
 $string['edhelpfontlist'] = 'Definiëer de lettertypes die gebruikt zullen worden voor het menu van de editor.';
 $string['edhelpfontsize'] = 'De standaard lettertype-grootte stelt de grootte in van een lettertype<br />Geldige waarden zijn bijvoorbeeld: medium, large, smaller, larger, 10pt, 11px.';
 $string['edit'] = '$a bewerken';
+$string['editcategorysettings'] = 'Wijzig categorie-instellingen';
+$string['editcategorythis'] = 'Wijzig deze categorie';
 $string['editcoursesettings'] = 'Wijzig cursusinstellingen';
 $string['editfiles'] = 'Bewerk bestanden';
 $string['editgroupprofile'] = 'Wijzig groepsprofiel';
@@ -637,6 +641,7 @@ $string['gd1'] = 'GD 1.x is geïnstalleerd';
 $string['gd2'] = 'GD 2.x is geïnstalleerd';
 $string['gdneed'] = 'GD moet geïnstalleerd zijn om deze grafiek te kunnen bekijken';
 $string['gdnot'] = 'GD is niet geïnstalleerd';
+$string['general'] = 'Algemeen';
 $string['gettheselogs'] = 'Toon logs';
 $string['go'] = 'Start';
 $string['gotoyourserver'] = '(Linkt terug naar jouw server)';
@@ -683,6 +688,7 @@ $string['guestsyes'] = 'Laat gasten zonder sleutel toe';
 $string['guestuser'] = 'Gastgebruiker';
 $string['guestuserinfo'] = 'Deze gebruiker is een speciale gebruiker met alleen-lezen toegang tot sommige cursussen.';
 $string['healthcenter'] = 'Gezondheidscentrum';
+$string['healthnoproblemsfound'] = 'Er zijn geen gezondheidsproblemen gevonden!';
 $string['healthproblemsdetected'] = 'Gezondheidsproblemen ontdekt!';
 $string['healthproblemsolution'] = 'Oplossing';
 $string['healthreturntomain'] = 'Ga verder';
@@ -750,6 +756,7 @@ $string['includemodules'] = 'Voeg modules toe';
 $string['includemoduleuserdata'] = 'Gebruikersgegevens van de modules toevoegen';
 $string['includeneededusers'] = 'Voeg de nodige gebruikers toe';
 $string['includenoneusers'] = 'Voeg geen gebruikers toe';
+$string['includeroleassignments'] = 'Roltoewijzingen toevoegen';
 $string['includesitefiles'] = 'Site-bestanden, gebruikt in deze cursus, toevoegen';
 $string['includeuserfiles'] = 'Voeg gebruikersbestanden toe';
 $string['info'] = 'Informatie';
@@ -1053,6 +1060,7 @@ $string['outline'] = 'Overzicht';
 $string['outlinereport'] = 'Overzichtsrapport';
 $string['page'] = 'Pagina';
 $string['pageheaderconfigablock'] = 'Blok configureren in %%fullname%%';
+$string['parentcategory'] = 'Bovenliggende categorie';
 $string['parentcoursenotfound'] = 'Bovenliggende cursus niet gevonden';
 $string['parentcoursenotmetacourse'] = 'Van de bovenliggende cursus kun je geen aanmeldingen erven!';
 $string['parentfolder'] = 'Bovenliggende map';
@@ -1444,6 +1452,7 @@ $string['uploadrenamedcollision'] = 'Het bestand is hernoemd van $a->oldname naa
 $string['uploadserverlimit'] = 'Het geüploade bestand is groter dan de maximumgrootte die op deze server ingesteld is.';
 $string['uploadthisfile'] = 'Upload dit bestand';
 $string['uploadusers'] = 'Uploaden';
+$string['used'] = 'Gebruikt';
 $string['usedinnplaces'] = 'Gebruik op $a plaatsen';
 $string['usemessageform'] = 'of gebruik het formulier hieronder om een bericht te sturen naar de geselecteerde leerlingen';
 $string['user'] = 'Gebruiker';
