@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 1.8 Beta (2007020200)
+      // simpletest.php - created with Moodle 1.9 Beta + (2007082400)
 
 
 $string['all'] = 'Alle';
@@ -23,9 +23,9 @@ $string['rununittests'] = 'Systemtests durchführen';
 $string['showpasses'] = 'Alle Testergebnisse anzeigen';
 $string['showsearch'] = 'Suchfunktion für die Testdateien anzeigen';
 $string['stacktrace'] = 'Verarbeitung beobachten:';
-$string['summary'] = '{$a->run}/{$a->total} alle Testfälle vollständig: <strong>{$a->passes}</strong> bestanden, <strong>{$a->fails}</strong> gescheitert und <strong>{$a->exceptions}</strong> herausgenommen.';
-$string['thorough'] = 'vollständigen Testlauf durchführen (dies könnte lange dauern!)';
-$string['uncaughtexception'] = 'Ein unerwartetes Problem ist aufgetreten [{$a->getMessage()}] in [{$a->getFile()}:{$a->getLine()}]. Der Test wurde abgebrochen.';
+$string['summary'] = '{$a->run}/{$a->total} der Testfälle durchgeführt: <strong>{$a->passes}</strong> bestanden, <strong>{$a->fails}</strong> gescheitert und <strong>{$a->exceptions}</strong> herausgenommen.';
+$string['thorough'] = 'Vollständigen Testlauf durchführen (dies könnte lange dauern!)';
+$string['uncaughtexception'] = 'Ein unerwartetes Problem ist aufgetreten [{$a->getMessage()}] in [{$a->getFile()}:{$a->getLine()}]. Der Testlauf wurde abgebrochen.';
 $string['unittests'] = 'Systemtests';
 $string['version'] = 'Verwendet: <a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> Version $a.';
 

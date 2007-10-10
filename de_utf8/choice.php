@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9 Beta + (2007082400)
+      // choice.php - created with Moodle 1.9 Beta + (2007092001)
 
 
 $string['addmorechoices'] = 'Weitere Abstimmungen hinzufügen';
@@ -9,7 +9,7 @@ $string['choice'] = 'Antwort  $a';
 $string['choice:choose'] = 'Abstimmung aufzeichnen';
 $string['choice:deleteresponses'] = 'Stimmabgaben löschen';
 $string['choice:downloadresponses'] = 'Stimmabgaben herunterladen';
-$string['choice:readresponses'] = 'Stimmabgaben ansehen';
+$string['choice:readresponses'] = 'Stimmabgaben sehen';
 $string['choiceclose'] = 'bis (Datum, Uhrzeit)';
 $string['choicename'] = 'Name der Abstimmung';
 $string['choiceopen'] = 'von (Datum, Uhrzeit)';

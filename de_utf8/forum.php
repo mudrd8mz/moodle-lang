@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 Beta + (2007090600)
+      // forum.php - created with Moodle 1.9 Beta + (2007092001)
 
 
 $string['addanewdiscussion'] = 'Neues Diskussionsthema hinzufügen';
@@ -87,13 +87,13 @@ $string['forum:rate'] = 'Beiträge bewerten';
 $string['forum:replynews'] = 'Auf Nachrichten antworten';
 $string['forum:replypost'] = 'Auf Beiträge antworten';
 $string['forum:splitdiscussions'] = 'Themen aufteilen';
-$string['forum:startdiscussion'] = 'Themen neu beginnen';
-$string['forum:throttlingapplies'] = 'Beschränkung der Beiträge';
-$string['forum:viewanyrating'] = 'Alle Bewertungen ansehen';
-$string['forum:viewdiscussion'] = 'Themen ansehen';
-$string['forum:viewhiddentimedposts'] = 'Verborgene zeitliche Beiträge ansehen';
+$string['forum:startdiscussion'] = 'Neue Themen beginnen';
+$string['forum:throttlingapplies'] = 'Beiträge beschränken';
+$string['forum:viewanyrating'] = 'Alle Bewertungen sehen';
+$string['forum:viewdiscussion'] = 'Themen sehen';
+$string['forum:viewhiddentimedposts'] = 'Verborgene zeitliche Beiträge sehen';
 $string['forum:viewqandawithoutposting'] = 'Frage- und Antwortbeiträge immer sehen';
-$string['forum:viewrating'] = 'Bewertungen ansehen';
+$string['forum:viewrating'] = 'Bewertungen sehen';
 $string['forum:viewsubscribers'] = 'Abonnent/innen sehen';
 $string['forumauthorhidden'] = 'Autor/in (verborgen)';
 $string['forumblockingalmosttoomanyposts'] = 'Sie erreichen bald die Höchstzahl der zulässigen Beiträge. Sie haben $a->numposts Beiträge im Zeitraum\'$a->blockperiod veröffentlicht. Die Grenze ist bei $a->blockafter Beiträgen erreicht.';
@@ -225,7 +225,7 @@ $string['searchuser'] = 'Name des Autors/der Autorin';
 $string['searchuserid'] = 'Moodle-ID des Autors/der Autorin';
 $string['searchwhichforums'] = 'Forum für Suche auswählen';
 $string['searchwords'] = 'Alle Begriffe (können an jeder Stelle des Beitrags auftauchen)';
-$string['seeallposts'] = 'Alle Beiträge dieses Nutzers/dieser Nutzerin  ansehen';
+$string['seeallposts'] = 'Alle Beiträge dieses Nutzers/dieser Nutzerin ansehen';
 $string['sendinratings'] = 'Aktuelle Bewertung senden';
 $string['showsubscribers'] = 'Teilnehmer/innen im Forum verwalten';
 $string['singleforum'] = 'Diskussion zu einem einzigen Thema';

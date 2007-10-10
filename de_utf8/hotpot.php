@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8 Beta + (2007021401)
+      // hotpot.php - created with Moodle 1.9 Beta + (2007092001)
 
 
 $string['abandoned'] = 'Abgebrochen';
@@ -49,8 +49,8 @@ $string['hints'] = 'Tipps';
 $string['hotpot:attempt'] = 'HotPot-Test durchführen';
 $string['hotpot:deleteattempt'] = 'Versuche löschen';
 $string['hotpot:grade'] = 'Bewertungen ändern';
-$string['hotpot:view'] = 'HotPot-Test ansehen';
-$string['hotpot:viewreport'] = 'Ergebnisse ansehen';
+$string['hotpot:view'] = 'HotPot-Test sehen';
+$string['hotpot:viewreport'] = 'Ergebnisse sehen';
 $string['hotpotcloses'] = 'HotPot-Test endet';
 $string['hotpotopens'] = 'HotPot-Test startet';
 $string['ignored'] = 'Ignoriert';

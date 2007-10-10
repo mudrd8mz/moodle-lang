@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 Beta + (2007082400)
+      // glossary.php - created with Moodle 1.9 Beta + (2007092001)
 
 
 $string['addcomment'] = 'Kommentar einfügen';
@@ -29,6 +29,7 @@ $string['categories'] = 'Kategorien';
 $string['category'] = 'Kategorie';
 $string['categorydeleted'] = 'Kategorie gelöscht';
 $string['categoryview'] = 'Anzeige nach Kategorie';
+$string['changeto'] = 'ändern nach $a';
 $string['cnfallowcomments'] = 'Teilnehmer/innen dürfen Kommentare zu Glossareinträgen abgeben.';
 $string['cnfallowdupentries'] = 'Doppelte Einträge im Glossar sind erlaubt.';
 $string['cnfapprovalstatus'] = 'Einträge von Teilnehmer/innen müssen von Trainer/innen geprüft und freigegeben werden.';
@@ -51,6 +52,7 @@ $string['commentupdated'] = 'Der Kommentar wurde geändert.';
 $string['concept'] = 'Begriff';
 $string['concepts'] = 'Begriffe';
 $string['configenablerssfeeds'] = 'RSS-Feeds für Glossare aktivieren.';
+$string['current'] = 'Aktuelle Sortierung $a';
 $string['currentglossary'] = 'Aktuelles Glossar';
 $string['dateview'] = 'Anzeige nach Datum';
 $string['defaultapproval'] = 'Beiträge ohne Prüfung freigeben';

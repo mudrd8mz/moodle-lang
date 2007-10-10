@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 Beta + (2007081600)
+      // mnet.php - created with Moodle 1.9 Beta + (2007092001)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (selbstsigniert)';
@@ -96,6 +96,7 @@ $string['mnetlog'] = 'Logdaten';
 $string['mnetpeers'] = 'Peers';
 $string['mnetservices'] = 'Dienste';
 $string['mnetsettings'] = 'Moodle-Netzwerkeinstellungen';
+$string['mnetthemes'] = 'Themes';
 $string['moodle_home_help'] = 'Der Pfad zur Moodle-Startseite aud dem Remote-Rechner, z.B. /moodle/';
 $string['moodleloc'] = 'Moodle-Standort';
 $string['net'] = 'Netzwerk';
@@ -163,6 +164,7 @@ $string['subscribe'] = 'Abonnieren';
 $string['system'] = 'System';
 $string['testtrustedhosts'] = 'Adresse testen';
 $string['testtrustedhostsexplain'] = 'Geben Sie eine IP-Adresse ein, um zu prüfen, ob es ein vertrauenswürdiger Rechner ist.';
+$string['themesavederror'] = 'Fehler: Änderung desThemes wurde nicht gespeichert';
 $string['transport_help'] = 'Diese Optionen wirken wechselseitig. Sie können den entfernten Host nur für SSL Cert verpflichten, wenn sie diese Funktion selber auch aktiviert haben.';
 $string['trustedhosts'] = 'XML-RPC-Rechner';
 $string['trustedhostsexplain'] = '<p>Die Mechanismen für vertrauenswürdige Hosts erlauben spezifischen Rechnern Aufrufe über XML-RPCs für jeden Teil der Moodle API auszuführen. Damit ist der Zugriff auf Skripte, die Moodle kontrollieren zulässig. Die Aktivierung ist damit potenziell geführlich. Wenn Sie sich nicht sicher sind, lassen Sie die Funkion deaktiviert. </p>

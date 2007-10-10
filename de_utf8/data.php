@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 (2007021501)
+      // data.php - created with Moodle 1.9 Beta + (2007092001)
 
 
 $string['action'] = 'Aktion';
@@ -48,9 +48,9 @@ $string['data:managetemplates'] = 'Vorlagen verwalten';
 $string['data:manageuserpresets'] = 'Vorlagensätze für alle Vorlagen verwalten';
 $string['data:rate'] = 'Einträge bewerten';
 $string['data:readentry'] = 'Einträge lesen';
-$string['data:viewalluserpresets'] = 'Vorlagensätze aller Nutzer/innen ansehen';
-$string['data:viewentry'] = 'Einträge ansehen';
-$string['data:viewrating'] = 'Bewertungen ansehen';
+$string['data:viewalluserpresets'] = 'Vorlagensätze aller Nutzer/innen sehen';
+$string['data:viewentry'] = 'Einträge sehen';
+$string['data:viewrating'] = 'Bewertungen sehen';
 $string['data:writeentry'] = 'Einträge schreiben';
 $string['date'] = 'Datum';
 $string['dateentered'] = 'Daten eingetragen';
