@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007100805)
+      // moodle.php - created with Moodle 1.9 Beta + (2007100902)
 
 
 $string['action'] = '操作';
@@ -408,6 +408,7 @@ $string['edhelpfontlist'] = 'エディタのドロップダウンメニューで
 $string['edhelpfontsize'] = 'デフォルトフォントサイズではフォントのサイズを設定します。<br />正しい値の例: medium, large, smaller, larger, 10pt, 11px.';
 $string['edit'] = '$a 編集';
 $string['editcategorysettings'] = 'カテゴリ設定の編集';
+$string['editcategorythis'] = 'このカテゴリを編集する';
 $string['editcoursesettings'] = 'コース設定の編集';
 $string['editfiles'] = 'ファイルの編集';
 $string['editgroupprofile'] = 'グループプロフィールの編集';
