@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007100902)
+      // moodle.php - created with Moodle 2.0 dev (2007101100)
 
 
 $string['action'] = '操作';
@@ -1064,6 +1064,7 @@ $string['numwords'] = '$a 語';
 $string['numyears'] = '$a 年';
 $string['ok'] = 'OK';
 $string['oldpassword'] = '現在のパスワード';
+$string['olduserdirectory'] = 'これは古いユーザディレクトリで必要ありません。あなたはこのディレクトリを安全に削除することができます。古いユーザディレクトリに含まれるファイルは、新しいユーザディレクトリにコピーされました。';
 $string['opentoguests'] = 'ゲストアクセス';
 $string['optional'] = '任意';
 $string['order'] = '表示順';
