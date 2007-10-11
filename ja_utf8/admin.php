@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta + (2007100303)
+      // admin.php - created with Moodle 2.0 dev (2007101000)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -551,6 +551,7 @@ $string['savechanges'] = '変更を保存する';
 $string['search'] = '検索';
 $string['searchinsettings'] = '設定検索';
 $string['searchresults'] = '検索結果';
+$string['sectionerror'] = 'セクションエラー!';
 $string['secureforms'] = '追加的なフォームセキュリティを使用する';
 $string['security'] = 'セキュリティ';
 $string['server'] = 'サーバ';
