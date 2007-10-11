@@ -27,6 +27,7 @@ $string['includeblockedusers'] = 'Blokeatutako erabiltzaileak barne';
 $string['incomingcontacts'] = 'Kontaktu izateko eskariak';
 $string['keywords'] = 'Hitz-gakoak';
 $string['keywordssearchresults'] = 'Bilaketaren emaitza: $a mezu';
+$string['mailsent'] = 'Zure mezua e-posta bidez bidali zen';
 $string['maxmessages'] = 'Eztabaidaren historian erakutsi beharreko gehienezko mezu kopurua';
 $string['message'] = 'Mezua';
 $string['messagehistory'] = 'Mezuen historia';
