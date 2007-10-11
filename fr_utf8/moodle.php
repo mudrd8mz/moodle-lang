@@ -1045,6 +1045,7 @@ $string['numwords'] = '$a mots';
 $string['numyears'] = '$a ans';
 $string['ok'] = 'Ok';
 $string['oldpassword'] = 'Mot de passe actuel';
+$string['olduserdirectory'] = 'Ceci est l\'ancien dossier utilisateur. Il n\'est plus utilisé.\n\nVous pouvez le supprimer sans conséquence.\n\nLes fichiers qu\'il contient ont été copiés dans le nouveau dossier utilisateur.';
 $string['opentoguests'] = 'Accès invité';
 $string['optional'] = 'facultatif';
 $string['order'] = 'Ordre';
