@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 Beta + (2007100805)
+      // quiz.php - created with Moodle 2.0 dev (2007101100)
 
 
 $string['1day'] = '1日';
@@ -58,7 +58,7 @@ $string['attemptincomplete'] = '$a による受験は完了していません。
 $string['attemptlast'] = '最新の受験';
 $string['attemptquiznow'] = '問題を受験する';
 $string['attempts'] = '受験';
-$string['attemptsallowed'] = '受験回数';
+$string['attemptsallowed'] = '受験可能回数';
 $string['attemptsdeleted'] = '小テストの受験結果が削除されました。';
 $string['attemptselection'] = 'ユーザごとにどの受験を分析するか選択してください:';
 $string['attemptsexist'] = 'あなたは、これ以上問題を追加または削除することはできません。';
