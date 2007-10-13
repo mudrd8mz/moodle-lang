@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 Beta + (2007100805)
+      // grades.php - created with Moodle 2.0 dev (2007101100)
 
 
 $string['activities'] = '活動';
@@ -134,8 +134,6 @@ $string['excluded'] = '除外';
 $string['expand'] = 'カテゴリの拡張';
 $string['export'] = 'エクスポート';
 $string['exportfeedback'] = 'エクスポートにフィードバックを含む';
-$string['exportletters'] = '評定文字を文字としてエクスポートする';
-$string['exportlettershelp'] = '数字の代わりに評定文字を使用している評定項目に関して、数字の代わりに評定文字をエクスポートします。';
 $string['exportplugins'] = 'プラグインのエクスポート';
 $string['extracredit'] = '追加点扱い';
 $string['extracreditwarning'] = '注意: カテゴリ内のすべての評定項目を追加点扱いにすることにより、評定の計算から評定項目を効果的に除外することができます。これにより合計評点は計算されません。';
@@ -167,6 +165,8 @@ $string['gradedisplaytype'] = '評定表示タイプ';
 $string['gradedon'] = '評定日時 $a';
 $string['gradeexceptions'] = '成績から除外';
 $string['gradeexceptionshelp'] = '評定例外ヘルプ';
+$string['gradeexportdecimalpoints'] = '評定エクスポート小数点';
+$string['gradeexportdisplaytype'] = '評定エクスポート表示タイプ';
 $string['gradehelp'] = '評定ヘルプ';
 $string['gradeitem'] = '評定項目';
 $string['gradeitemaddusers'] = '評定から除外する';
@@ -312,6 +312,7 @@ $string['overallaverage'] = '全平均';
 $string['overallavg'] = '全平均';
 $string['overridden'] = 'オーバーライド済み';
 $string['overriddenhelp'] = 'オーバーライド済みが有効にされた場合、将来的な受験の評点が自動的に調整されることをオーバーライド済みフラグが防ぎます。多くの場合、このフラグは評定表で内部的に設定されますが、このフォーム要素を使用して手動で有効および無効に変更することができます。';
+$string['overriddennotice'] = 'この活動に関するあなたの評点は、手動で調整されました。';
 $string['overridesitedefaultgradedisplaytype'] = 'サイトデフォルトをオーバーライドする';
 $string['overridesitedefaultgradedisplaytypehelp'] = '評定表の評定表示のサイトデフォルトをオーバーライドしたい場合、このチェックボックスをチェックしてください。チェックボックスをチェックすることで、あなたが評定文字および境界を選択できるフォーム要素がアクティブにされます。';
 $string['pctoftotalgrade'] = '評点合計の%%';
@@ -332,7 +333,7 @@ $string['prefgeneral'] = '一般設定';
 $string['prefletters'] = '評定文字および境界';
 $string['prefrows'] = '特別行';
 $string['prefshow'] = 'トグルの表示/非表示';
-$string['previewrows'] = 'プレビュー行';
+$string['previewrows'] = '行のプレビュー';
 $string['publishing'] = '公開';
 $string['quickfeedback'] = 'クイックフィードバック';
 $string['quickgrading'] = 'クイック評定';
@@ -426,6 +427,8 @@ $string['writinggradebookinfo'] = '評定表設定の書き込み';
 $string['xml'] = 'XML';
 $string['yes'] = 'Yes';
 $string['yourgrade'] = 'あなたの評定';
+$string['exportletters'] = '評定文字を文字としてエクスポートする'; // ORPHANED
+$string['exportlettershelp'] = '数字の代わりに評定文字を使用している評定項目に関して、数字の代わりに評定文字をエクスポートします。'; // ORPHANED
 $string['changesitedefaults'] = 'サイトデフォルトを変更する'; // ORPHANED
 $string['left'] = '左'; // ORPHANED
 $string['right'] = '右'; // ORPHANED
