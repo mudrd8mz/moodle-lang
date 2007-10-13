@@ -543,6 +543,7 @@ $string['stoponerror'] = 'Stopper en cas d\'erreur';
 $string['subneterror'] = 'Désolé, ce test a été configuré de façon à ne pouvoir être effectué que depuis certains ordinateurs. Votre ordinateur n\'est actuellement pas autorisé.';
 $string['subnetnotice'] = 'Ce test a été configuré de façon à ne pouvoir être effectué que depuis certains ordinateurs. Votre ordinateur n\'est pas situé dans une sous-réseau autorisé. En tant qu\'enseignant, vous pouvez toutefois le prévisualiser.';
 $string['substitutedby'] = 'sera remplacé par';
+$string['summaryofattempts'] = 'Résumé de vos tentatives précédentes';
 $string['temporaryblocked'] = 'Il ne vous est temporairement plus permis d\'effectuer le test.<br />Vous pourrez effectuer une nouvelle tentative le&nbsp;';
 $string['time'] = 'Temps';
 $string['timecompleted'] = 'Terminé';
