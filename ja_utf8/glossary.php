@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 Beta + (2007092002)
+      // glossary.php - created with Moodle 2.0 dev (2007101100)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -19,7 +19,7 @@ $string['areyousuredeletecomment'] = '本当にこのコメントを削除して
 $string['areyousureexport'] = '本当にこのエントリを下記の用語集にエクスポートしてもよろしいですか?';
 $string['ascending'] = '昇順';
 $string['attachment'] = '添付';
-$string['authorview'] = '著者順に表示';
+$string['authorview'] = '著者順';
 $string['back'] = '戻る';
 $string['cantinsertcat'] = 'カテゴリを追加できません。';
 $string['cantinsertrec'] = 'レコードを追加できません。';
