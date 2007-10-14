@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 + (2007021503)
+      // glossary.php - created with Moodle 1.9 Beta + (2007100902)
 
 
 $string['addcomment'] = 'Přidat komentář';
@@ -29,6 +29,7 @@ $string['categories'] = 'Kategorie';
 $string['category'] = 'Kategorie';
 $string['categorydeleted'] = 'Kategorie odstraněna';
 $string['categoryview'] = 'Procházet podle kategorie';
+$string['changeto'] = 'změnit na $a';
 $string['cnfallowcomments'] = 'Povolit přidávání komentářů k položkám';
 $string['cnfallowdupentries'] = 'Povolit duplicitní položky';
 $string['cnfapprovalstatus'] = 'Položky vložené studenty považovat automaticky za schválené';
@@ -51,6 +52,7 @@ $string['commentupdated'] = 'Komentář byl aktualizován.';
 $string['concept'] = 'Pojem';
 $string['concepts'] = 'Pojmy';
 $string['configenablerssfeeds'] = 'Povolit funkci RSS kanálů pro všechny slovníky. Budete ještě muset zapnout RSS kanály v nastavení jednotlivých slovníků.';
+$string['current'] = 'Momentální třídění: $a';
 $string['currentglossary'] = 'Stávající slovník';
 $string['dateview'] = 'Procházet podle data';
 $string['defaultapproval'] = 'Automaticky schvalovat položky';

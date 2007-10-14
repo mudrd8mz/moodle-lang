@@ -11,7 +11,7 @@ $string['adminseesownevents'] = 'Správci jsou jako obyčejní uživatelé';
 $string['allowcategorythemes'] = 'Povolit motivy kategorií';
 $string['allowcoursethemes'] = 'Povolit změnu motivu v kurzech';
 $string['allowemailaddresses'] = 'Povolené emailové domény';
-$string['allowobjectembed'] = 'Povolit tagy EMBED a OBJECT';
+$string['allowobjectembed'] = 'Povolit značky EMBED a OBJECT';
 $string['allowrenames'] = 'Povolit přejmenování';
 $string['allowuserblockhiding'] = 'Povolit uživatelům skrývat bloky';
 $string['allowusermailcharset'] = 'Povolit uživatelům výběr znakové sady';
@@ -126,7 +126,7 @@ $string['configintroadmin'] = 'Na této stránce byste měli nastavit váš hlav
 $string['configintrosite'] = 'Zde můžete nastavit vzhled titulní stránky a název stránek. Můžete se sem kdykoliv později vrátit a změnit toto nastavení pomocí odkazu \'Správa -> Nastavení -> Nastavení stránek\'.';
 $string['configintrotimezones'] = 'Tato stránka vyhledá nové informace o časových pásmech (včetně informací o letním a zimním čase) a aktualizuje vaši lokální databázi s těmito informacemi. Prověřovány budou následující lokace (v uvedeném pořadí): $a. Tato procedura je obecně velmi bezpečná a nemůže ohrozit běžné instalace. Přejete si nyní aktualizovat časové zóny?';
 $string['configiplookup'] = 'Při kliknutí na IP adresu (jako např 86.49.131.129, typicky jsou zobrazovány v protokolech) se otevře mapa s vyznačením odhadované lokace daného počítače. Tuto funkci zajišťují různé zásuvné moduly, z nichž každý má své přednosti i nevýhody.';
-$string['configkeeptagnamecase'] = 'Zaškrtněte, pokud si přejete, aby si klíčová slova zachovávala takovou velikost písmen, jakou použil uživatel, který je vložil.';
+$string['configkeeptagnamecase'] = 'Zaškrtněte, pokud si přejete, aby si nálepky zachovávaly takovou velikost písmen, jakou použil uživatel, který je vložil.';
 $string['configlang'] = 'Vyberte výchozí jazyk pro tyto stránky. Uživatelé si mohou nastavit jazyk odlišný.';
 $string['configlangcache'] = 'Používat vyrovnávací paměť pro rychlejší zobrazování nabídky jazyků. Změny v nastavení jazyků se mohou projevit až za několik minut.<em>Poznámka: zvažte rovněž odstranění nepotřebných lokalizací.</em>';
 $string['configlangdir'] = 'Texty ve většině jazyků jsou psány zleva doprava, v některých jazycích (jako je arabština nebo hebrejština) jsou psány zprava doleva.';
@@ -209,7 +209,7 @@ $string['configteacherassignteachers'] = 'Dovolit učitelům přiřazovat do kur
 $string['configthemelist'] = 'Seznam povolených motivů. Jednotlivé názvy oddělte čárkou (např. \'standard,metal,garden\' -- tj. bez mezer!). Ponecháte-li toto pole prázdné, budou si uživatelé moci vybrat libovolný dostupný motiv stránek.';
 $string['configtimezone'] = 'Vyberte časové pásmo, v němž se nachází váš server. Uživatelé si mohou toto nastavení změnit v uživatelském profilu. Úlohy spouštěné cronem se řídí zde nastaveným časovým pásmem.';
 $string['configunzip'] = 'Umístění programu unzip (pouze pro Unix, volitelné). Pokud je zadáno, bude Moodle používat tento program k rozbalování zip archivů na serveru. Jinak bude používat vlastní knihovny.';
-$string['configusetags'] = 'Povolit funkci klíčových slov na těchto stránkách?';
+$string['configusetags'] = 'Povolit funkci nálepek na těchto stránkách?';
 $string['configvariables'] = 'Obecné parametry';
 $string['configvisiblecourses'] = 'Zobrazovat kurzy ve skrytých kategoriích normálně';
 $string['configwarning'] = 'Následující hodnoty upravujte velmi opatrně -- nestandardní hodnoty mohou způsobovat problémy.';
@@ -363,7 +363,7 @@ $string['intcachemax'] = 'Maximum interních záznamů';
 $string['invalidsection'] = 'Neplatná sekce';
 $string['invaliduserchangeme'] = 'Uživatelské jméno \'changeme\' je rezervováno -- nelze je použít pro vytvoření účtu.';
 $string['iplookup'] = 'Hledat IP adresu pomocí';
-$string['keeptagnamecase'] = 'zachovat velikost písmen v klíčových slovech';
+$string['keeptagnamecase'] = 'Zachovat velikost písmen v názvech nálepek';
 $string['lang'] = 'Výchozí jazyk';
 $string['lang16notify'] = 'Moodle verze 1.6 a vyšší umožňuje instalovat a aktualizovat jazykové balíčky přímo ze serveru download.moodle.org -- klikněte na odkaz níže.';
 $string['langcache'] = 'Seznam jazyků ve vyrovnávací paměti';
@@ -421,9 +421,9 @@ $string['misc'] = 'Různé';
 $string['mnetrestore_extusers'] = '<strong>Poznámka:</strong> Tato záloha obsahuje vzdálené uživatele sítě Moodle Network. Vzdálené účty budou v průběhu tohoto procesu obnoveny.';
 $string['mnetrestore_extusers_mismatch'] = '<strong>Poznámka:</strong> Tato záloha evidentně pochází z odlišné instalace Moodlu a obsahuje vzdálené uživatelské účty. Obnova těchto účtů může selhat, tato operace není podporovaná. Pokud jste si jistí, že záloha pochází z této instalace, nebo můžete zajistit, že jsou správně nastaveny všechny hostitelské počítače v síti Moodle Network, můžete se přesto pokusit o obnovu.';
 $string['modulesecurity'] = 'Zabezpečení modulu';
-$string['multilangforceold'] = 'Vnutit starou syntaxi vícejazyčného obsahu pomocí tagu &lt;lang&gt;';
+$string['multilangforceold'] = 'Vnutit starou syntaxi vícejazyčného obsahu: značka &lt;lang&gt; a značka &lt;span&gt; bez parametru class=\"multilang\"';
 $string['multilangupgrade'] = 'Upgrade syntaxe vícejazyčného obsahu';
-$string['multilangupgradeinfo'] = 'Syntaxe filtru pro vícejazyčný obsah byla ve verzi 1.8 změněna. Tag &lt;lang&gt; již není podporován.
+$string['multilangupgradeinfo'] = 'Syntaxe filtru pro vícejazyčný obsah byla ve verzi 1.8 změněna. Značka &lt;lang&gt; již není podporován.
 <br /><br />Ukázka nové syntaxe:<br />&lt;span lang=\"en\" class=\"multilang\"&gt;Hello!&lt;/span&gt;&lt;span lang=\"es\" class=\"multilang\"&gt;Hola!&lt;/span&gt;<br /><br />
 <strong>Přejete si upravit všechny textu na tuto novou syntaxi?</strong>';
 $string['multilangupgradenotice'] = 'Vaše stránky pravděpodobně používají starou syntaxi vícejazyčného obsahu. Doporučujeme provést <a href=\"multilangupgrade.php\">její upgrade</a>.';
@@ -638,7 +638,7 @@ $string['userscreated'] = 'Nově vytvořené uživatelské účty';
 $string['usersdeleted'] = 'Odstraněné uživatelské účty';
 $string['usersrenamed'] = 'Přejmenované uživatelské účty';
 $string['usersupdated'] = 'Aktualizované uživatelské účty';
-$string['usetags'] = 'Povolit klíčová slova';
+$string['usetags'] = 'Povolit nálepky';
 $string['validateerror'] = 'Tato hodnota není validní:';
 $string['xmlstrictheaders'] = 'XML strict hlavičky';
 

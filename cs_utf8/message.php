@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8 + (2007021502)
+      // message.php - created with Moodle 1.9 Beta + (2007100902)
 
 
 $string['addcontact'] = 'Přidat kontakt';
@@ -27,6 +27,7 @@ $string['includeblockedusers'] = 'Zahrnout blokované uživatele';
 $string['incomingcontacts'] = 'Nové kontakty ($a)';
 $string['keywords'] = 'Klíčová slova';
 $string['keywordssearchresults'] = 'Výsledky hledání -- počet nalezených zpráv: $a';
+$string['mailsent'] = 'Vaše zpráva byla zaslána na email uživatele';
 $string['maxmessages'] = 'Největší počet zpráv zobrazovaných v historii diskuse';
 $string['message'] = 'Zpráva';
 $string['messagehistory'] = 'Historie zpráv';
@@ -55,6 +56,7 @@ $string['searchforperson'] = 'Vyhledat osobu';
 $string['searchmessages'] = 'Vyhledat zprávu';
 $string['sendmessage'] = 'Poslat zprávu';
 $string['sendmessageto'] = 'Poslat zprávu uživateli $a';
+$string['sendmessagetopopup'] = 'Poslat zprávu uživateli $a (nové okno)';
 $string['settings'] = 'Nastavení';
 $string['settingssaved'] = 'Vaše nastavení bylo uloženo';
 $string['showmessagewindow'] = 'Automaticky otevřít okno s novou zprávou (váš prohlížeč nesmí na těchto stránkách blokovat otevírání nových popup oken)';
