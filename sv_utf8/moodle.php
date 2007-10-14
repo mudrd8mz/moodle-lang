@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 (2007021501)
+      // moodle.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['action'] = 'Åtgärd';
@@ -36,6 +36,7 @@ $string['addnousersrecip'] = 'Lägg till användare som inte har har besökt den
 $string['addresource'] = 'Lägg till en resurs...';
 $string['address'] = 'Adress';
 $string['addstudent'] = 'Lägg till en ny student/elev/deltagare/lärande';
+$string['addsubcategory'] = 'Lägg till en underkategori';
 $string['addteacher'] = 'Lägg till distanslärare/handledare/coach';
 $string['admin'] = 'Administration';
 $string['adminbookmarks'] = 'Administratörens bokmärken';
@@ -132,6 +133,7 @@ $string['autosubscribeno'] = 'Nej, jag vill inte bli automatiskt registrerad som
 $string['autosubscribeyes'] = 'Ja, registrera mig som prenumerant när jag gör ett inlägg i ett visst forum.';
 $string['availability'] = 'Tillgänglighet';
 $string['availablecourses'] = 'Tillgängliga kurser';
+$string['back'] = 'Tillbaka';
 $string['backtoparticipants'] = 'Tillbaka till deltagarförteckningen';
 $string['backup'] = 'Säkerhetskopiering';
 $string['backupactivehelp'] = 'Välj huruvida Du vill ställa in automatisk säkerhetskopiering eller inte.';
@@ -159,6 +161,7 @@ $string['backupnonisowarning'] = 'Varning: Den här säkerhetskopian kommer frå
 $string['backuporiginalname'] = 'Namn på säkerhetskopian';
 $string['backupsavetohelp'] = 'Hela sökvägen till katalogen där Du vill spara de säkerhetskopierade filerna <br /> Om Du vill spara dem i standardkatalogen så behöver Du inte fylla i något här.';
 $string['backupschedulehelp'] = 'Välj vilka dagar i veckan som automatiska säkerhetskopieringar ska genomföras.';
+$string['backupsitefileshelp'] = 'Om detta är aktiverat så kommer de filer på webbplatsen som används i kurser att  tas med vid automatisk säkerhetskopiering.';
 $string['backuptakealook'] = 'Var snäll och kontrollera Din loggar för säkerhetskopiering i: $a';
 $string['backupuserfileshelp'] = 'Välj om Du vill ta med användarfiler (avatarer eller bilder ur profilen) i den automatiska säkerhetskopieringen.';
 $string['backupusershelp'] = 'Välj om Du vill ta med alla användare på servern eller bara de nödvändiga användarna av den aktuella kursen.';
@@ -185,6 +188,7 @@ $string['category'] = 'Kategori';
 $string['categoryadded'] = 'Kategorin \'$a\' lades till';
 $string['categorydeleted'] = 'Kategorin \'$a\' togs bort';
 $string['categoryduplicate'] = 'Kategorin \'$a\' finns redan!';
+$string['categoryname'] = 'Namn på kategori';
 $string['changedpassword'] = 'Ändrat lösenord';
 $string['changepassword'] = 'Ändra lösenord';
 $string['changessaved'] = 'Ändringar sparade';
@@ -228,6 +232,7 @@ $string['complete'] = 'Komplett';
 $string['completereport'] = 'Komplett rapport';
 $string['configuration'] = 'Konfiguration';
 $string['confirm'] = 'Bekräfta';
+$string['confirmcheckfull'] = 'Är Du helt säker på att Du vill bekräfta $a ?';
 $string['confirmed'] = 'Din registrering har blivit bekräftad.';
 $string['confirmednot'] = 'Din registrering har ännu inte blivit bekräftad.';
 $string['continue'] = 'Nästa';
@@ -238,6 +243,7 @@ $string['cookiesnotenabled'] = 'Cookies är f.n. tyvärr inte aktiverade i inst�
 $string['copy'] = 'Kopiera';
 $string['copyasnoun'] = 'kopiera';
 $string['copyingcoursefiles'] = 'Kopiera kursfiler...';
+$string['copyingsitefiles'] = 'Kopierar filer på webbplatsen som används i kurs';
 $string['copyinguserfiles'] = 'Kopierar användarfiler...';
 $string['copyingzipfile'] = 'Kopierar zip.fil...';
 $string['copyrightnotice'] = 'Meddelande om upphovsrätt';
@@ -257,6 +263,8 @@ $string['coursecategories'] = 'Kategori av kurs';
 $string['coursecategory'] = 'Kategorier av kurser';
 $string['coursecreators'] = 'Kursutvecklare';
 $string['coursecreatorsdescription'] = 'Kursutvecklare kan skapa nya kurser och undervisa i dem.';
+$string['courseenrolenddate'] = 'Slutdatum för registrering på kurs';
+$string['courseenrolstartdate'] = 'Startdatum för registrering på kurs';
 $string['coursefiles'] = 'Kursfiler';
 $string['courseformatdata'] = 'Data för kursformat';
 $string['courseformats'] = 'Kursformat';
@@ -299,6 +307,7 @@ $string['creatingcourseroles'] = 'Skapar tilldelningar av, och överskridanden f
 $string['creatingevents'] = 'Skapar händelser';
 $string['creatinggradebook'] = 'Skapar betygs/omdömeskatalog';
 $string['creatinggroupings'] = 'Skapar gruppindelningar';
+$string['creatinggroupingsgroups'] = 'Lägger till grupper till grupperingar';
 $string['creatinggroups'] = 'Skapar grupper';
 $string['creatinglogentries'] = 'Skapar log \'entries\'...';
 $string['creatingmessagesinfo'] = 'Skapar info om meddelanden';
@@ -492,6 +501,18 @@ radmatningen (Enter).
 Om Du behöver hjälp så är Du välkommen att 
 kontakta den som är ansvarig för webbplatsen,
 $a->admin';
+$string['emailpasswordchangeinfodisabled'] = 'Hej $a->firstname,
+Någon (troligen Du) har efterfrågat
+ett nytt lösenord för Ditt konto hos:
+
+\'$a->sitename\'.
+
+Tyvärr har Ditt konto på den här webbplatsen avaktiverats och det 
+går inte att återställa det. 
+
+Var snäll och kontakta administratören 
+för webbplatsen:
+$a->admin';
 $string['emailpasswordchangeinfofail'] = 'Hej $a->firstname,
 Någon (troligen Du) har efterfrågat
 ett nytt lösenord för Ditt konto hos:
@@ -561,6 +582,7 @@ $string['enrolmentend'] = 'Registrering upphör';
 $string['enrolmentkey'] = 'Kursnyckel';
 $string['enrolmentkeyfrom'] = 'Denna kurs kräver en \'kursnyckel\' - <br />
 ett engångslösenord som Du bör/borde ha fått från $a.';
+$string['enrolmentkeyfromguest'] = 'Den här kursen kräver en \'kursnyckel\' och i egenskap av gäst<br /> så måste Du skriva in den varje gång Du loggar in på kursen. Du bör ha fått nyckeln av $a.';
 $string['enrolmentkeyhint'] = 'Den angivna kursnyckeln var felaktig, var vänlig försök igen.<br />
 (Här är ett tips - det börjar med \'$a\')';
 $string['enrolmentnew'] = 'Ny registrering på $a';
@@ -575,6 +597,7 @@ $string['enrolstartdate'] = 'Startdatum';
 $string['entercourse'] = 'Klicka för att nå denna kurs';
 $string['enteremailaddress'] = 'Mata in Din e-postadress för att nollställa Ditt
 lösenord så skickar vi det nya lösenordet till Dig via e-post.';
+$string['enteryourinterests'] = 'Skriv in Dina intressen separerade med komman';
 $string['entries'] = 'Bidrag';
 $string['error'] = 'Fel';
 $string['errortoomanylogins'] = 'Du har tyvärr försökt logga in för många gånger. Starta om Din webbläsare och försök igen.';
@@ -672,6 +695,7 @@ $string['gdneed'] = 'GD måste vara installerat för att Du ska kunna se denna b
 $string['gdnot'] = 'GD är inte installerat';
 $string['gettheselogs'] = 'Hämta dessa loggar';
 $string['go'] = 'Gå';
+$string['gotoyourserver'] = '(Länkar tillbaka till Din server)';
 $string['gpl'] = 'Copyright, Upphovsrätt (C) 2001-2002  Martin Dougiamas  (http://dougiamas.com)
 
 Det här programmet är fri (gratis) mjukvara. Du har rätt att distribuera det vidare och/eller modifiera(ändra)det i enlighet med villkoren i 
@@ -690,6 +714,7 @@ $string['grades'] = 'Betyg';
 $string['group'] = 'Grupp';
 $string['groupadd'] = 'Lägg till en ny grupp';
 $string['groupaddusers'] = 'Lägg till det valda till grupp';
+$string['groupextendenrol'] = 'Förläng registreringen för alla';
 $string['groupfor'] = 'för grupp';
 $string['groupinfo'] = 'Info om vald grupp';
 $string['groupinfoedit'] = 'Redigera inställningar för grupp';
@@ -764,6 +789,7 @@ $string['htmlformat'] = 'Snyggt HTML- format';
 $string['icqnumber'] = 'ICQ nummer';
 $string['idnumber'] = 'ID nummer';
 $string['idnumbercourse'] = 'ID-nummer för kurs';
+$string['idnumbertaken'] = 'Det här ID-numret används redan';
 $string['imagealt'] = 'Beskrivning av bild';
 $string['import'] = 'Importera';
 $string['importactivities'] = 'Importera aktiviteter från en annan kurs.';
@@ -784,10 +810,12 @@ $string['includemodules'] = 'Ta med moduler';
 $string['includemoduleuserdata'] = 'Ta med användardata för modulen';
 $string['includeneededusers'] = 'Ta med \'behövda\' användare';
 $string['includenoneusers'] = 'Ta med icke-användare';
+$string['includesitefiles'] = 'Ta med de filer på webbplatsnivå som används i den här kursen';
 $string['includeuserfiles'] = 'Ta med användarfiler';
 $string['info'] = 'Information';
 $string['institution'] = 'Institution';
 $string['instudentview'] = 'i lärandevy';
+$string['interests'] = 'Intressen';
 $string['invalidemail'] = 'Ogiltig e-postadress';
 $string['invalidlogin'] = 'Ogiltig login, var vänlig försök igen';
 $string['ip_address'] = 'IP-adress';
@@ -1049,6 +1077,7 @@ $string['nofilesselected'] = 'Inga filer har valts för att återställas.';
 $string['nofilesyet'] = 'Inga filer har laddats upp till Din kurs ännu.';
 $string['nograde'] = 'Inget betyg';
 $string['noimagesyet'] = 'Inga bilder har laddats upp till Din kurs ännu.';
+$string['nologsfound'] = 'Det gick inte att hitta några loggar';
 $string['nomorecourses'] = 'Inga fler matchande kurser kunde hittas.';
 $string['nomoreidnumber'] = 'För att undvika kollisioner används inga id-nummer.';
 $string['none'] = 'Ingen';
@@ -1154,6 +1183,7 @@ $string['phpinfo'] = 'PHP-info';
 $string['pictureof'] = 'Bild av $a';
 $string['pleaseclose'] = 'Var snäll och stäng det här fönstret nu.';
 $string['pluginsetup'] = 'Installerar tabeller för plugins';
+$string['policyaccept'] = 'Jag förstår och accepterar';
 $string['policyagree'] = 'Du måste acceptera denna policy för få fortsätta att använda denna webbplats. Accepterar Du denna policy?';
 $string['policyagreement'] = 'Avtal angående webbplatsens policy.';
 $string['policyagreementclick'] = 'Klicka här för att läsa avtalet angående webbplatsens policy.';
@@ -1203,6 +1233,7 @@ $string['registrationno'] = 'Nej, jag vill inte ha någon e-post.';
 $string['registrationsend'] = 'Skicka information för registrering till moodle.org.';
 $string['registrationyes'] = 'Ja, var snäll och håll mig informerad om viktiga frågor.';
 $string['reject'] = 'Avslå';
+$string['remotemaharauser'] = 'Fjärr användare av Mahara';
 $string['remove'] = 'Ta bort';
 $string['removeadmin'] = 'Ta bort administratör';
 $string['removecreator'] = 'Ta bort kursutvecklare';
@@ -1253,8 +1284,10 @@ $string['scalescustom'] = 'Egendefinierade skalor';
 $string['scalescustomcreate'] = 'Lägg till en ny skala';
 $string['scalescustomno'] = 'Inga egendefinierade skalor har ännu lagts till.';
 $string['scalesstandard'] = 'Standardskalor';
+$string['scalestandard'] = 'Standardskala';
 $string['scalestip'] = 'För att skapa egendefinierade skalor så får Du använda länken \'Skalor\' på menyn för administration av Din kurs.';
 $string['schedule'] = 'Schema';
+$string['scheduledbackupsinactive'] = 'Webbplatsens administratör har inte aktiverat schemalagd säkerhetskopiering.';
 $string['scheduledbackupstatus'] = 'Status för schemalagd säkerhetskopiering.';
 $string['screenreaderno'] = 'Nej';
 $string['screenreaderuse'] = 'Skärmläsare';
@@ -1289,6 +1322,7 @@ $string['senddetails'] = 'Sänd mina uppgifter för inloggning via e-post.';
 $string['separate'] = 'Separat';
 $string['separateandconnected'] = 'Enskild (rationell) och social(empatisk) inriktning ang vetande (kunskap)';
 $string['serverlocaltime'] = 'Serverns lokala tid';
+$string['setcategorytheme'] = 'Ställ tema för kategori';
 $string['settings'] = 'Inställningar';
 $string['shortname'] = 'Kortnamn';
 $string['shortnamecollisionwarning'] = '[*] = det här kortnamnet används redan för en annan kurs så Du måste byta det om kursen blir godkänd.';
@@ -1320,6 +1354,7 @@ $string['site'] = 'Webbplats';
 $string['sitedefault'] = 'Förinställt värde på webbplatsen';
 $string['siteerrors'] = 'fel på webbplatsen';
 $string['sitefiles'] = 'Webbplatsens filer';
+$string['sitefilesused'] = 'De filer på webbplatsen som används i den här kursen';
 $string['sitelogs'] = 'Webbplatsloggar';
 $string['sitenews'] = 'Webbplatsnyheter';
 $string['sitepartlist'] = 'Du har inte tillstånd att se förteckningen över deltagare.';
@@ -1345,6 +1380,7 @@ $string['sourcerole'] = 'Källa för roll';
 $string['specifyname'] = 'Du måste ange ett  namn.';
 $string['starpending'] = '([*]  = kurs i kö för att bli godkänd';
 $string['startdate'] = 'Kursens startdatum';
+$string['startingfrom'] = 'Med start från';
 $string['startsignup'] = 'Starta nu genom att skapa ett nytt konto!';
 $string['state'] = 'Stat/region';
 $string['statistics'] = 'Statistik';

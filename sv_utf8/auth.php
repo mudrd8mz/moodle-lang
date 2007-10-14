@@ -1,7 +1,10 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8 (2007021501)
+      // auth.php - created with Moodle 1.9 Beta + (2007090600)
 
 
+$string['CASform'] = 'Val angående autenticering';
+$string['accesCAS'] = 'CAS-användare';
+$string['accesNOCAS'] = 'andra användare';
 $string['alternatelogin'] = 'Om Du skriver in en URL här så kommer den att användas som sida för inloggning på den här webbplatsen. Sidan bör innehålla ett formulär som har egenskapen för händelse inställd till <strong>\'$a\'</strong><br />Var försiktig så att Du inte skriver in en felaktig URL eftersom Du då kan stänga Dig själv ute från webbplatsen. <br />Låt den här inställningen vara tom om Du vill använda standardsidan för inloggning.';
 $string['alternateloginurl'] = 'Alternativ URL för inloggning';
 $string['auth_cas_auth_user_create'] = 'Skapa användare med externa metoder';
@@ -21,8 +24,14 @@ $string['auth_cas_invalidcaslogin'] = 'Din inloggning misslyckades tyvärr - Din
 $string['auth_cas_language'] = 'Valt språk';
 $string['auth_cas_language_key'] = 'Språk';
 $string['auth_cas_logincas'] = 'Tillträde via en säker uppkoppling';
+$string['auth_cas_logoutcas'] = 'Ändra detta till \'Ja\' om Du vill logga ut från CAS när Du går ur Moodle.';
+$string['auth_cas_logoutcas_key'] = 'Logga ut från CAS';
+$string['auth_cas_multiauth'] = 'Ändra detta till \'Ja\' om Du vill använda multi-autenticering (CAS eller annan autenticering).';
+$string['auth_cas_multiauth_key'] = 'Multi-autenticering';
 $string['auth_cas_port'] = 'CAS-serverns port';
 $string['auth_cas_port_key'] = 'Port';
+$string['auth_cas_proxycas'] = 'Ändra detta till \'Ja\' om Du vill använda proxy-mode för CASin.';
+$string['auth_cas_proxycas_key'] = 'Proxy-mode';
 $string['auth_cas_server_settings'] = 'Konfiguration av CAS-server';
 $string['auth_cas_text'] = 'Säker uppkoppling';
 $string['auth_cas_use_cas'] = 'Använd CAS';
@@ -111,6 +120,7 @@ $string['auth_imapport_key'] = 'Port';
 $string['auth_imaptitle'] = 'Använd en IMAP-server';
 $string['auth_imaptype'] = 'IMAP servertyp.  IMAP-servrar kan ha olika typer av autenticering och förhandlingar.';
 $string['auth_imaptype_key'] = 'Typ';
+$string['auth_ldap_ad_create_req'] = 'Det går inte att skapa ett nytt konto i den aktiva katalogen. Se till att Du uppfyller alla krav för att detta ska fungera (LDAPS connection, bind user med de rättigheter som krävs etc.)';
 $string['auth_ldap_auth_user_create_key'] = 'Skapa användare externt';
 $string['auth_ldap_bind_dn'] = 'Om Du vill bruka \'bind\'-användare för att söka användare, så ska Du specificera det här. Något som \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_dn_key'] = 'Urskiljt namn';
@@ -122,6 +132,7 @@ $string['auth_ldap_contexts'] = 'Lista av kontexter där användarna finns med. 
 $string['auth_ldap_contexts_key'] = 'Sammanhang';
 $string['auth_ldap_create_context'] = 'Om Du aktiverar \'Skapa användare\' med e-postbekräftelse så ska Du specifiera den kontext där användare skapas. Denna kontext bör vara en annan än den vanliga för att undvika säkerhetsrisker. Du behöver inte lägga till denna kontext till variabeln \'ldap_context\'. Moodle letar automatiskt efter användare från den här kontexten.<br /><b>OBS!</b> Du måste modifiera metoden \'ser_create\' i filen \'auth/ldap/auth.php för att se till att \'skapa användare\' fungerar.';
 $string['auth_ldap_create_context_key'] = 'Sammanhang för nya användare';
+$string['auth_ldap_create_error'] = 'Fel i samband med en användare skulle skapas i LDAP';
 $string['auth_ldap_creators'] = 'Lista av grupper som har behörighet att skapa nya kurser. Skilj på grupperna med \';\'. Vanligtvis något liknande \'ch=utbildare, ou=personal, o=minOrg\'';
 $string['auth_ldap_creators_key'] = 'Skapare';
 $string['auth_ldap_expiration_desc'] = 'Välj \'Nej\' för att avaktivera kontroll av lösenord som har gått ut eller LDAP för att läsa \'passwordexpiration time\' direkt från LDAP. Kom ihåg att fylla i namnet på attributet, nämligen \'ldap_expireattr\'.';
@@ -143,6 +154,7 @@ $string['auth_ldap_memberattribute'] = 'Specificera en medlems egenskaper när a
 $string['auth_ldap_memberattribute_isdn'] = 'Valfritt: Detta överskrider hantering av värden för medlemmars attribut, antingen 0 eller 1.';
 $string['auth_ldap_memberattribute_isdn_key'] = 'medlems attribut använder dn';
 $string['auth_ldap_memberattribute_key'] = 'medlems attribut';
+$string['auth_ldap_no_mbstring'] = 'Du behöver komplementeringen mbstring för att skapa användare i den aktiva katalogen.';
 $string['auth_ldap_noconnect'] = 'Det gick inte att ansluta LDAP-modulen till server: $a';
 $string['auth_ldap_noconnect_all'] = 'Det gick inte att ansluta LDAP-modulen till några servrar: $a';
 $string['auth_ldap_noextension'] = 'Varning! Det verkar som om det inte finns någon PHP LDAP-modul. Var snäll och säkerställ att den är installerad och aktiverad.';
@@ -162,6 +174,7 @@ $string['auth_ldap_unsupportedusertype'] = '\'auth: ldap user_create()\' stödje
 $string['auth_ldap_update_userinfo'] = 'Uppdatera användarinformation (förnamn, efternamn, adress..) från LDAP till Moodle.  Se \'/auth/ldap/attr_mappings.php\' för mappnings-information';
 $string['auth_ldap_user_attribute'] = 'Attributet som används för namn/sökning av användare. Vanligtvis \'cn\'.';
 $string['auth_ldap_user_attribute_key'] = 'Attribut för användare';
+$string['auth_ldap_user_exists'] = 'Användarnamnet finns redan i LDAP';
 $string['auth_ldap_user_settings'] = 'Inställningar för \'slå upp användare\'';
 $string['auth_ldap_user_type'] = 'Välj hur användare ska lagras i LDAP. Den här inställningen anger hur upphörande av login, \'grace\'-login och skapande av användare ska gå till.';
 $string['auth_ldap_user_type_key'] = 'Typ av användare';
@@ -254,6 +267,11 @@ $string['changepassword'] = 'URL   till sida för att ändra lösenord';
 $string['changepasswordhelp'] = 'Här kan Du specificera en plats där Dina användare kan återställa eller ändra sina användarnamn/lösenord om de har glömt det. Detta kommer att visas för användarna som en knapp på sidan för inloggning och på deras användarsidor. Om Du lämnar detta tomt kommer inte knappen att visas.';
 $string['chooseauthmethod'] = 'Välj en metod för autenticering:';
 $string['createpasswordifneeded'] = 'Skapa  ett lösenord om så behövs';
+$string['errorminpassworddigits'] = 'Lösenord måste innehålla minst $a siff/ror';
+$string['errorminpasswordlength'] = 'Lösenord måste innehålla minst $a tecken';
+$string['errorminpasswordlower'] = 'Lösenord måste innehålla minst $a små bokstäver';
+$string['errorminpasswordnonalphanum'] = 'Lösenord måste innehålla minst $a icke-alfanumeriska tecken.';
+$string['errorminpasswordupper'] = 'Lösenord måste innehålla minst $a stora bokstäver.';
 $string['errorpasswordupdate'] = 'Det uppstod ett fel i samband med uppdatering av lösenord, lösenordet ändrades inte.';
 $string['forcechangepassword'] = 'Tvinga fram ändring av lösenord';
 $string['forcechangepassword_help'] = 'Tvinga användare att byta lösenord nästa gång de loggar in på Moodle.';

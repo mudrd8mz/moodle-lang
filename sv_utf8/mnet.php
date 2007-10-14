@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8 (2007021501)
+      // mnet.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (själv-signerad)';
@@ -87,7 +87,7 @@ $string['logs'] = 'Loggar';
 $string['mnet'] = 'Nätverkande för Moodle';
 $string['mnet_concatenate_strings'] = 'Konkatenera (upp til) 3 strängar och returnera resultatet.';
 $string['mnet_session_prohibited'] = 'Användare från Din hemserver har f.n. inte tillstånd att navigera vidare till $a.';
-$string['mnetdisabled'] = 'Nåtverk för Moodle är <strong>avaktiverat</strong>.';
+$string['mnetdisabled'] = 'Nätverk för Moodle är <strong>avaktiverat</strong>.';
 $string['mnetenrol'] = 'Registreringar';
 $string['mnetlog'] = 'Loggar';
 $string['mnetpeers'] = '\'Peers\' jämbördiga partners';

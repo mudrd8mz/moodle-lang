@@ -1,0 +1,60 @@
+<h1>Aggregation av kategori</h1>
+<p>Den här menyn gör det möjligt för dig att välja vilken strategi för aggregation som ska användas för att beräkna varje deltagares övergripande betyg för den här kategorin.
+De olika alternativen förklarar vi här nedan:</p>
+<p><strong>Viktigt!</strong><br /> Ett tomt fält för betyg innebär bara att det saknas en inmatning i betygskatalogen. Detta kan betyda lite olika saker. Det kan t.ex. vara det att en student/elev/deltagare/lärande ännu inte har skickat in en viss uppgift; det kan röra sig om en inskickad uppgift som ännu inte har blivit betygssatt av läraren eller ett betyg som har tagits bort manuellt av den som administrerar betygskatalogen. Du bör alltså iaktta viss försiktighet när du tolkar vad dessa 'tomma betyg' egentligen innebär. </p>
+
+<table class="generaltable boxaligncenter" cellpadding="4" cellspacing="1" summary="Aggregation strategies for grading categories">
+    <tr>
+        <th class="header">Strategi</th><th class="header">Beskrivning</th>
+    </tr>
+    <tr>
+        <td class="cell">Medelvärdet för alla betyg</td>
+        <td class="cell">Alla betyg räknas samman till en totalsumma som sedan divideras med det sammanlagda antalet betyg. Tomma betygsfält räknas in (de uppskattas till komponentens lägsta värde).</td>
+    </tr>
+    <tr>
+        <td class="cell">Medelvärdet för 'icke-tomma' betyg</td>
+        <td class="cell">Det är samma sak som ovan med den skillnaden att tomma betygsfält inte tas med i beräkningen.</td>
+    </tr>
+    <tr>
+        <td class="cell">Medianvärdet för alla betyg</td>
+        <td class="cell">Medianvärdet beräknas genom att alla betyg räknas och sedan väljs det betyg som hamnar i mitten av den beräkningen (eller medelvärdet mellan de två mellersta betygen ifall det finns ett jämnt antal betyg). Fördelen med detta jämfört med ett medelvärde är den att detta inte påverkas av extrema värden (betyg som ligger ovanligt långt från medelvärdet). Tomma betygsfält tas med i beräkningen.</td>
+    </tr>
+    <tr>
+        <td class="cell">Medianvärdet för 'icke-tomma' betyg</td>
+        <td class="cell">Det är samma sak som ovan med den skillnaden att tomma betygsfält inte tas med i beräkningen.</td>
+    </tr>
+    <tr>
+        <td class="cell">Det lägsta av de 'icke-tomma' betygen</td>
+        <td class="cell">Endast det lägsta betyget behålls. Tomma betygsfält tas inte med i beräkningen.</td>
+    </tr>
+    <tr>
+        <td class="cell">Det högsta av de 'icke-tomma' betygen</td>
+        <td class="cell">Endast det högsta betyget behålls. Tomma betygsfält tas inte med i beräkningen.</td>
+    </tr>
+    <tr>
+        <td class="cell">Standardvärde för alla betyg</td>
+        <td class="cell">Med standardvärdet menas det betyg som är vanligast. Det används oftare för icke-numeriska betyg.  Fördelen med detta jämfört med ett medianvärde är den att detta inte påverkas av extrema värden (betyg som ligger ovanligt långt från medelvärdet. Tomma betygsfält tas med i beräkningen. </td>
+    </tr>
+    <tr>
+        <td class="cell">Standardvärde för 'icke-tomma' betyg</td>
+        <td class="cell">Det är samma sak som ovan med den skillnaden att tomma betygsfält inte tas med i beräkningen.</td>
+    </tr>
+    <tr>
+        <td class="cell">Viktade medelvärden för alla betyg</td>
+        <td class="cell">Du kan ge varje betygskomponent en viktning, som sedan används i den aritmetiska aggregationen av medelvärde så att varje komponents vikt (värde) beräknas i förhållande till det övergripande medelvärdet. Tomma betygsfält tas med i beräkningen.</td>
+    </tr>
+    <tr>
+        <td class="cell">Viktade medelvärden för 'icke-tomma' betyg</td>
+        <td class="cell">Det är samma sak som ovan med den skillnaden att tomma betygsfält inte tas med i beräkningen.</td>
+    </tr>
+    <tr>
+        <td class="cell">Medelvärdet för alla betyg (med extra tillgodoräknanden)</td>
+        <td class="cell">Aritmetiskt medelvärde med ett komplement. Detta är en gammal 
+strategi för aggregation som inte längre stödjs men som finns med för att det ska finnas bakåtkompatibilitet för äldre aktiviteter. Tomma betygsfält tas med i beräkningen.</td>
+    </tr>
+    <tr>
+        <td class="cell">Medelvärdet för 'icke-tomma' betyg (med extra tillgodoräknanden)</td>
+        <td class="cell">Det är samma sak som ovan med den skillnaden att tomma betygsfält inte tas med i beräkningen.</td>
+    </tr>
+
+</table>

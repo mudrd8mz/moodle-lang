@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // algebra.php - created with Moodle 1.4.2+ (2004083126)
+      // algebra.php - created with Moodle 1.9 Beta + (2007090600)
 
 
-$string['filtername'] = 'Notation f&ouml;r algebra';
+$string['filtername'] = 'Notation för algebra';
 
 ?>

@@ -1,10 +1,12 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8 (2007021501)
+      // error.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['adminprimarynoedit'] = 'Ingen kan redigera huvudadministratören';
+$string['cannotassignrole'] = 'Det går inte att tilldela en roll i kurs';
 $string['cannotcreatelangdir'] = 'Det går inte att skapa en lang-katalog';
 $string['cannotcreatetempdir'] = 'Det går inte att skapa en temp-katalog';
+$string['cannotcustomizelocallang'] = 'Du har inte tillstånd att modifiera översättningen av textsträngarna. Tillståndet kontrolleras av kapaciteten  \"moodle/site:langeditlocal\". Ställ in den  här kapaciteten så att den tillåter Dig att redigera lokala språkpaket om Du vill kunna modifiera översättningar för Din webbplats.';
 $string['cannotdownloadcomponents'] = 'Det går inte att ladda ner komponenter';
 $string['cannotdownloadzipfile'] = 'Det går inte att ladda ner ZIP-fil.';
 $string['cannotfindcomponent'] = 'Det går inte att hitta komponent';

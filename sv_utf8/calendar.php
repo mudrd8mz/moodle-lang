@@ -1,16 +1,19 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 (2007021501)
+      // calendar.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['advancedoptions'] = 'Avancerade inställningar';
+$string['allday'] = 'Hela dagen';
 $string['calendar'] = 'Kalender';
 $string['calendarheading'] = '$a Kalender';
 $string['clickhide'] = 'Klicka för att dölja';
 $string['clickshow'] = 'Klicka för att visa';
 $string['commontasks'] = 'Inställningar';
 $string['confirmeventdelete'] = 'Är Du säker på att Du vill ta bort den här händelsen?';
+$string['course'] = 'Kurs';
 $string['courseevent'] = 'Händelse i kurs';
 $string['courseevents'] = 'Händelser i kursen';
+$string['courses'] = 'Kurser';
 $string['dayview'] = 'Vy över dag';
 $string['daywithnoevents'] = 'Det finns inga händelser för den här dagen';
 $string['default'] = 'Aktuell';
@@ -37,6 +40,7 @@ $string['eventnone'] = 'Inga händelser';
 $string['eventrepeat'] = 'Upprepningar';
 $string['eventsall'] = 'Alla händelser';
 $string['eventsfor'] = '$a händelser';
+$string['eventskey'] = 'Nyckel till händelser';
 $string['eventsrelatedtocourses'] = 'Händelser kopplade till kurser';
 $string['eventstarttime'] = 'Starttid/datum';
 $string['eventtime'] = 'Tid';
@@ -55,9 +59,11 @@ $string['for'] = 'för';
 $string['fri'] = 'Fre';
 $string['friday'] = 'Fredag';
 $string['generateurlbutton'] = 'Hämta URL till kalender';
+$string['global'] = 'Global';
 $string['globalevent'] = 'Global händelse';
 $string['globalevents'] = 'Globala händelser';
 $string['gotocalendar'] = 'Gå till Kalender';
+$string['group'] = 'Grupp';
 $string['groupevent'] = 'Händelse för grupp';
 $string['groupevents'] = 'Händelser för grupp';
 $string['hidden'] = 'Dold';
@@ -116,6 +122,7 @@ $string['typesite'] = 'Händelse för webbplats';
 $string['typeuser'] = 'Händelse för användare';
 $string['upcomingevents'] = 'Kommande händelser';
 $string['urlforical'] = 'URL för att exportera iCalendar, för att prenumerera på kalender.';
+$string['user'] = 'Användare';
 $string['userevent'] = 'Händelse för användare';
 $string['userevents'] = 'Händelser för användare';
 $string['wed'] = 'Ons';
