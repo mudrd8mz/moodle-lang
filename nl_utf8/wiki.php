@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.7 dev (2006100401)
+      // wiki.php - created with Moodle 1.9 Beta + (2007100903)
 
 
 $string['action'] = '- - Acties - -';
@@ -36,7 +36,7 @@ $string['deletepage'] = 'Verwijder pagina';
 $string['deleteversions'] = 'Verwijder versies';
 $string['deleteversionserror'] = 'Geef een juist versienummer in';
 $string['diff'] = 'Verschil';
-$string['differences'] = 'Verschillen tussen versie $a->new_ver en $a->old_ver van $a-pagename';
+$string['differences'] = 'Verschillen tussen versie $a->new_ver en $a->old_ver van $a->pagename';
 $string['disablecamel'] = 'Schakel CamelCase-linken uit';
 $string['disabledpage'] = 'Afgesloten pagina';
 $string['doesnotexist'] = 'Deze pagina bestaat nog niet. Klik op de bewerk-knop als je ze wil maken.';
