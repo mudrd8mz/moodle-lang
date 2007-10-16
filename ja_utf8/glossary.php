@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (2007101100)
+      // glossary.php - created with Moodle 2.0 dev (2007101500)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -163,7 +163,7 @@ $string['ratingtime'] = 'エントリの評価を下記の期間に制限する:
 $string['rejectedentries'] = '拒否されたエントリ';
 $string['rejectionrpt'] = '拒否レポート';
 $string['rsssubscriberss'] = '$a の用語のRSSフィードを表示する';
-$string['searchindefinition'] = '定義も検索する';
+$string['searchindefinition'] = '全文検索する';
 $string['secondaryglossary'] = 'サブ用語集';
 $string['sendinratings'] = '最新の評価を送る';
 $string['showall'] = 'すべてのリンクを表示する';
