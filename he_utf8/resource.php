@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // resource.php - created with Moodle 1.8 + (2007021503)
 
 
@@ -109,7 +109,7 @@ $string['resourcetype7'] = 'תוכנה';
 $string['resourcetype8'] = 'טקסט דמוי Wiki';
 $string['resourcetype9'] = 'ספריה';
 $string['resourcetypedirectory'] = 'הצג ספרייה';
-$string['resourcetypefile'] = 'קשר לקובץ או אתר אינטרנט';
+$string['resourcetypefile'] = 'קישור לקובץ או אתר אינטרנט';
 $string['resourcetypehtml'] = 'כתוב דף HTML';
 $string['resourcetypeims'] = 'הוסף חבילת תוכן IMS';
 $string['resourcetypelabel'] = 'הכנס כותרת';

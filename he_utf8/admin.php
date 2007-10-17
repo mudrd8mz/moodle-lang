@@ -521,8 +521,8 @@ $string['qtyperqpwillberemoved'] = 'במהלך השדרוג, סוג שאלת ה-
 $string['qtyperqpwillberemovedanyway'] = 'במהלך השדרוג, סוג שאלת ה-RQP תוסר. יש לך כמה שאלות RQP במסד הנתונים ,והם יופסקו לעבוד אלא אם כן תתקין מחדש את הקוד מ- http://moodle.org/mod/data/view.php?d=13&amp;rid=797 לפני שתמשיך עם השדרוג.';
 $string['quarantinedir'] = 'ספריית הסגר';
 $string['question'] = 'שאלה';
-$string['questioncwqpfscheck'] = 'שאלה \'אקראית\' אחת או יותר בחידון הופעלו בכדי לבחור שאלות מתערובת של שאלות מקטגוריות משותפות ולא משותפות. דוח מפורט יותר ימצא <a href=\"$a->reporturl\">כאן</a>. ראה גם את דף התיעוד של Moodle <a href=\"$a->docsurl\">כאן</a>.';
-$string['questioncwqpfsok'] = 'טוב. אין שאלות \'אקראיות\' בחידונים שלך שנבנו בכדי לבחור שאלות מתוך תעובת של שאלות מקטגוריות משותפות ולא משותפות.';
+$string['questioncwqpfscheck'] = 'שאלה \'אקראית\' אחת או יותר בבוחן הופעלו בכדי לבחור שאלות מתערובת של שאלות מקטגוריות משותפות ולא משותפות. דוח מפורט יותר ימצא <a href=\"$a->reporturl\">כאן</a>. ראה גם את דף התיעוד של Moodle <a href=\"$a->docsurl\">כאן</a>.';
+$string['questioncwqpfsok'] = 'טוב. אין שאלות \'אקראיות\' בבחנים שלך שנבנו בכדי לבחור שאלות מתוך תעובת של שאלות מקטגוריות משותפות ולא משותפות.';
 $string['rcache'] = 'מטמון הצבירה';
 $string['rcachettl'] = 'זמן החיים של מטמון הצבירה';
 $string['releasenoteslink'] = 'למידע על גירסה זו של Moodle, אנא בקר ב <a target=\"new\" href=\"$a\"> שחרור גירסה </a>';
