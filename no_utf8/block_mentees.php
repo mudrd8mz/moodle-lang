@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // block_mentees.php - created with Moodle 1.8 + (2007021503)
+      // block_mentees.php - created with Moodle 1.8.2+ (2007021520)
 
 
-$string['blockname'] = 'Deltakere';
-$string['configtitle'] = 'Blokktittel';
+$string['blockname'] = 'Innsyn';
+$string['configtitle'] = 'Bokstittel';
 $string['leaveblanktohide'] = 'Tomt felt skjuler tittelen';
-$string['newmenteesblock'] = '(blokk for nye deltakere)';
+$string['newmenteesblock'] = '(boksfor innsyn)';
 
 ?>
