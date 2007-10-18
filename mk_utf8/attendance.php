@@ -1,0 +1,72 @@
+<?PHP // $Id$ 
+      // attendance.php - created with Moodle 1.8 + (2007021505)
+
+
+$string['absentlong'] = 'Отсутен';
+$string['absentshort'] = 'О';
+$string['addingmultiple'] = 'Додавање на повеќекратен список за присуство';
+$string['addmultiple'] = 'Додај повеќекратен список за присуство';
+$string['allmodulename'] = 'Сите списоци за присутност';
+$string['auto'] = 'автоматски';
+$string['autoattend'] = 'Автоматски одреди присуство врз основа на регистрираната активност на корисникот';
+$string['autoattendmulti'] = 'Автоматски одреди присуство за сите списоци базирани на регистрираната активност на корисникот';
+$string['autoattendshort'] = 'Автоматски од регистрирањата';
+$string['choosedays'] = 'Денови во неделата за кои ќе се бара присуство';
+$string['dayofroll'] = 'Датум на одредување на список за';
+$string['defaultautoattend'] = 'Дали предефинирано да се одреди присуство врз основа на регистрираната активност на корисникот';
+$string['defaultdynamicsection'] = 'Дали да се преместат списоците за присуство во правилната недела на предефиниран начин';
+$string['defaultgrade'] = 'Дали да биде предефинирано оценувањето на списоците за редовност';
+$string['defaulthoursinclass'] = 'Колку часа треба да има во предефинираниот список за присуство';
+$string['defaultmaxgrade'] = 'Која би требало да биде максималната оцена за редовно присуство';
+$string['defaultstudentstatus'] = 'Предефинираниот статус за присуство на студентот на нов список за присуство';
+$string['downloadexcelfull'] = 'Сними ја целосната Excel табела со пресметки';
+$string['downloadexceltotals'] = 'Сними ја кратката Excel табела со пресметки';
+$string['downloadtextfull'] = 'Сними го целосниот текстуален извештај';
+$string['downloadtexttotals'] = 'Сними го краткиот текстуален извештај';
+$string['dynamicsection'] = 'Определи ја неделата за присуство врз основа на овој датум';
+$string['dynamicsectionmulti'] = 'Автоматски постави ги списоците во нивниот неделен отсек';
+$string['dynsectionshort'] = 'Динамички преместен во отсекот';
+$string['endbeforestart'] = 'Последниот датум е пред почетниот датум';
+$string['endmulti'] = 'Датум на последниот список за присуство';
+$string['for'] = 'за';
+$string['friday'] = 'Пет';
+$string['gradeshort'] = 'Оценето';
+$string['gradevalue'] = 'Направи го овој список оценувачки';
+$string['gradevaluemulti'] = 'Направи ги овие списоци оценувачки';
+$string['hoursinclass'] = 'Број на часови во период на предавањето';
+$string['hoursineachclass'] = 'Број на часови во секој период на предавањето';
+$string['hoursinfullreport'] = 'Максималниот број часови на присуство што треба да бидат прикажани на една страница од извештајот';
+$string['maxgradeshort'] = 'Максимална оцена';
+$string['maxgradevalue'] = 'Максимална оцена за редовно присуство';
+$string['modulename'] = 'Присуство';
+$string['modulenameplural'] = 'Списоци за присутност';
+$string['monday'] = 'Пон';
+$string['norolls'] = 'Нема списоци за присуство за овој курс';
+$string['notes'] = 'Исклучителна информација';
+$string['notesfor'] = 'Исклучителна информација за';
+$string['noviews'] = 'Жалам, нема податоци за Вашата сметка овде';
+$string['of'] = 'од';
+$string['pages'] = 'Страници';
+$string['presentlong'] = 'Присутен';
+$string['presentshort'] = 'П';
+$string['saturday'] = 'Саб';
+$string['startafterend'] = 'Почетниот датум е после завршувањето на курсот';
+$string['startmulti'] = 'Датум на првиот список за присуство';
+$string['sunday'] = 'Нед';
+$string['takeroll'] = 'Одреди список за денес?';
+$string['tardiesperabsence'] = 'Колку задоцнувања да се сметаат како едно отсуство';
+$string['tardylong'] = 'Задоцнет';
+$string['tardyshort'] = 'З';
+$string['teacheredit'] = 'Одреди присуство';
+$string['thursday'] = 'Чет';
+$string['tuesday'] = 'Вто';
+$string['viewall'] = 'Погледнете ги сите списоци за присуство';
+$string['viewmulti'] = 'Погледнете го извештајот како повеќекратни страници';
+$string['viewone'] = 'Погледнете ги сите страници од извештајот';
+$string['viewsection'] = 'Погледнете ги сите списоци за присуство од овој отсек';
+$string['viewtable'] = 'Погледнете го извештајот како една табела';
+$string['viewweek'] = 'Погледнете ги сите списоци за присуство од календарската седмица';
+$string['wednesday'] = 'Сре';
+$string['weekmodulename'] = 'Сите списоци за присутност во последната седмица';
+
+?>

@@ -1,0 +1,71 @@
+<?PHP // $Id$ 
+      // message.php - created with Moodle 1.8 + (2007021505)
+
+
+$string['addcontact'] = 'Додаj контакт';
+$string['addsomecontacts'] = 'За да пратите порака некому, или да додадете кратенка за него на оваа страница, користете го <a href=\"$a\">јазичето за пребарување</a> горе.';
+$string['addsomecontactsincoming'] = 'Овие пораки се од корисници кои не се во Вашата листа со контакти. За да ги додадете во Вашата листа, кликнете на „Додаj контакт“ иконата што се наоѓа веднаш до нивното име.';
+$string['ago'] = '$a порано';
+$string['allmine'] = 'Сите пораки до мене или од мене.';
+$string['allstudents'] = 'Сите пораки помеѓу студентите кои се на курсот';
+$string['allusers'] = 'Сите пораки од сите корисници';
+$string['backupmessageshelp'] = 'Ако е овозможено, тогаш непосредните пораки ќе бидат вклучени во автоматските копии на САЈТОТ';
+$string['beepnewmessage'] = 'Пушти звучен сигнал кога ќе пристигне нова порака (може да побарува додаток за пребарувачот за да може да пушта звуци, како што е Quicktime)';
+$string['blockcontact'] = 'Блокирај контакт';
+$string['blockedmessages'] = '$a порака(и) од/до блокирани корисници';
+$string['blocknoncontacts'] = 'Блокирај ги сите нови пораки од луѓе кои не се во мојата листа на контакти';
+$string['contactlistempty'] = 'Вашата листа со контакти во моментов е празна';
+$string['contacts'] = 'Контакти';
+$string['context'] = 'текст';
+$string['deletemessagesdays'] = 'Број на денови пред старите пораки да бидат избришани автоматски';
+$string['discussion'] = 'Дискусија';
+$string['emailmessages'] = 'Пораки за е-пошта кога сум офлајн';
+$string['emailtagline'] = 'Оваа порака од е-пошта е копија на пораката која Ви е пратена Вам околу \"$a\"';
+$string['emptysearchstring'] = 'Мора нешто да барате';
+$string['formorethan'] = 'За повеќе од';
+$string['includeblockedusers'] = 'Вкучи ги блокираните корисници';
+$string['incomingcontacts'] = 'Нови контакти ($a)';
+$string['keywords'] = 'Клучни зборови';
+$string['keywordssearchresults'] = 'Резултати од барањето: $a пораки се пронајдени';
+$string['maxmessages'] = 'Максимален број на пораки што можат да се прикажат во историјата на дискусијата';
+$string['message'] = 'Порака';
+$string['messagehistory'] = 'Историја на пораката';
+$string['messages'] = 'Пораки';
+$string['messaging'] = 'Размена на пораки';
+$string['mycontacts'] = 'Мои контакти';
+$string['newonlymsg'] = 'Покажи само нови';
+$string['newsearch'] = 'Ново пребарување';
+$string['noframesjs'] = 'Верзија без рамки и JavaScript';
+$string['nomessages'] = 'Нема пораки што чекаат';
+$string['nomessagesfound'] = 'Ниедна порака не беше пронајдена';
+$string['nosearchresults'] = 'Нема резултати од Вашето барање';
+$string['offline'] = 'Офлајн';
+$string['offlinecontacts'] = 'Офлајн контакти ($a)';
+$string['online'] = 'Онлајн';
+$string['onlinecontacts'] = 'Онлајн контакти ($a)';
+$string['onlyfromme'] = 'Само пораки од мене';
+$string['onlymycourses'] = 'Само во моите курсеви';
+$string['onlytome'] = 'Само пораки до мене';
+$string['pagerefreshes'] = 'Оваа страница автоматски се освежува секои $a секунди';
+$string['readmessages'] = '$a прочитани пораки';
+$string['removecontact'] = 'Избриши контакт';
+$string['savemysettings'] = 'Зачувај ги моите поставувања';
+$string['search'] = 'Барај';
+$string['searchforperson'] = 'Барајте личност';
+$string['searchmessages'] = 'Барајте пораки';
+$string['sendmessage'] = 'Пратете порака';
+$string['sendmessageto'] = 'Пратете порака до $a';
+$string['sendmessagetopopup'] = 'Пратете порака до $a - нов прозорец';
+$string['settings'] = 'Поставувања';
+$string['settingssaved'] = 'Baшите поставувања се зачувани';
+$string['showmessagewindow'] = 'Автоматски прикажи го прозорецот со пораки кога ќе добијам нова порака (Вашиот прелистувач мора да биде поставен за да не ги блокира скокачките прозорци од овој сајт)';
+$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
+$string['timenosee'] = 'Минути откако последен пат бев онлајн';
+$string['timesent'] = 'Време на праќање';
+$string['unblockcontact'] = 'Одблокирај го контактот';
+$string['unreadmessages'] = '$a непрочитани пораки';
+$string['userisblockingyou'] = 'Овој корисник Ве блокирал и не можете да му испраќате пораки';
+$string['userisblockingyounoncontact'] = 'Овој корисник прифаќа пораки само од корисниците што се наведени како контакти, а Вие во моментот не сте на листата.';
+$string['userssearchresults'] = 'Резултати од барањето: $a корисници пронајдени';
+
+?>
