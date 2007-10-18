@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // algebra.php - created with Moodle 1.4.4 (2004083140)
+      // algebra.php - created with Moodle 1.7 beta + (2006101003)
 
 
-$string['filtername'] = 'កំណត់សំគាល់នៃពិជគណិត';
+$string['filtername'] = 'ការ​ជូនដំណឹង Algebra';
 
 ?>

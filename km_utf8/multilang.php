@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // multilang.php - created with Moodle 1.4.4 (2004083140)
+      // multilang.php - created with Moodle 1.7 beta + (2006101003)
 
 
-$string['filtername'] = 'មាតិកានៃភាសាទាំងឡាយ';
+$string['filtername'] = 'មាតិកា​ពហុ​ភាសា';
 
 ?>

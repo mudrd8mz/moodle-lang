@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // block_html.php - created with Moodle 1.5 Beta (2005052300)
+      // block_html.php - created with Moodle 1.7 beta + (2006101003)
 
 
-$string['configcontent'] = 'មាតិការ';
-$string['configtitle'] = 'ចំណងជើងនៃប្លុក';
+$string['configcontent'] = 'មាតិកា';
+$string['configtitle'] = 'ចំណងជើង​ប្លុក';
 $string['html'] = 'HTML';
-$string['leaveblanktohide'] = 'ទុកវាទទេដើម្បីលាក់';
+$string['leaveblanktohide'] = 'ទុក​ឲ្យ​នៅ​ទទេ​ដើម្បី​លាក់​ចំណង​ជើង';
 $string['newhtmlblock'] = '(ប្លុក HTML ថ្មី)';
 
 ?>

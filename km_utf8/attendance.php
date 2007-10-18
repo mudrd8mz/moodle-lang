@@ -1,8 +1,72 @@
 <?PHP // $Id$ 
-      // attendance.php - created with Moodle 1.4.4 (2004083140)
+      // attendance.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['absentlong'] = 'អវត្តមាន';
+$string['absentshort'] = 'A';
+$string['addingmultiple'] = 'បន្ថែម​បញ្ជី​វត្តមាន​ច្រើន';
+$string['addmultiple'] = 'បន្ថែម​បញ្ជី​វត្តមាន​ច្រើន';
+$string['allmodulename'] = 'បញ្ជី​វត្តមាន​ទាំងអស់';
+$string['auto'] = 'ស្វ័យប្រវត្តិ';
+$string['autoattend'] = 'ស្រង់​វត្តមាន​ដោយ​ស្វ័យ​ប្រវត្តិ​ដោយ​ផ្អែក​លើ​កំណត់​ហេតុ​សកម្មភាព​របស់​អ្នក​ប្រើ';
+$string['autoattendmulti'] = 'ស្រង់​វត្តមាន​ដោយ​ស្វ័យ​ប្រវត្តិ​សម្រាប់​បញ្ជី​ទាំងអស់​ដែល​ផ្អែក​លើ​កំណត់ហេតុ​សកម្មភាព​អ្នក​ប្រើ';
+$string['autoattendshort'] = 'ដោយ​ស្វ័យ​ប្រវត្តិ​ពី​កំណត់​ហេតុ';
+$string['choosedays'] = 'ថ្ងៃ​នៃ​សប្ដាហ៍​នីមួយៗ​ដែលត្រូវ​ស្រង់​វត្តមាន';
+$string['dayofroll'] = 'កាល​បរិច្ឆេទ​ដែលត្រូវ​ចុះ​បញ្ជី​សម្រាប់';
+$string['defaultautoattend'] = 'ថា​តើ​ត្រូវ​ស្រង់​វត្តមាន​ដោយ​ផ្អែក​លើ​កំណត់​ហេតុ​សកម្មភាព​អ្នក​ប្រើ​តាម​លំនាំ​ដើម ឬ​អត់';
+$string['defaultdynamicsection'] = 'ថា​តើ​ត្រូវ​ផ្លាស់ទី​បញ្ជី​វត្តមាន​ទៅ​សប្ដាហ៍​ត្រឹមត្រូវ​តាម​លំនាំ​ដើម ឬ​អត់';
+$string['defaultgrade'] = 'ថា​តើ​ត្រូវ​ធ្វើ​ឲ្យ​បញ្ជី​វត្តមាន​អាច​ដាក់​ពិន្ទុ​បាន​តាម​លំនាំ​ដើម ឬ​អត់';
+$string['defaulthoursinclass'] = 'ចំនួន​ម៉ោង​ដែល​គួរ​តែ​មាន​នៅ​ក្នុង​បញ្ជី​វត្តមាន​លំនាំ​ដើម';
+$string['defaultmaxgrade'] = 'ពិន្ទុ​អតិបរមា​លំនាំដើម​សម្រាប់​វត្តមាន​ពេញលេញ​គួរតែ';
+$string['defaultstudentstatus'] = 'ស្ថានភាព​វត្តមាន​សិស្ស​លំនាំ​ដើម​លើ​បញ្ជី​វត្តមាន​ថ្មី';
+$string['downloadexcelfull'] = 'ទាញ​យក​សៀវភៅ​បញ្ជី Excel ពេញលេញ';
+$string['downloadexceltotals'] = 'ទាញយក​សៀវភៅ​បញ្ជី Excel សង្ខេប';
+$string['downloadtextfull'] = 'ទាញយក​របាយការណ៍​អត្ថបទ​ពេញលេញ';
+$string['downloadtexttotals'] = 'ទាញ​យក​របាយការណ៍​អត្ថបទ​សង្ខេប';
+$string['dynamicsection'] = 'កំណត់​សប្ដាហ៍​សម្រាប់​វត្តមាន​ដែល​ផ្អែក​លើ​កាល​បរិច្ឆេទ​នេះ';
+$string['dynamicsectionmulti'] = 'ដាក់​បញ្ជី​ក្នុង​ផ្នែក​ប្រចាំ​សប្ដាហ៍​របស់​ពួក​គេ​ដោយ​ស្វ័យ​ប្រវត្តិ';
+$string['dynsectionshort'] = 'ត្រូវ​បាន​ផ្លាស់ទី​​ទៅកាន់​ផ្នែក​ដោយ​ថាមវន្ត';
+$string['endbeforestart'] = 'កាលបរិច្ឆេទ​បញ្ចប់​មុន​កាលបរិច្ឆេទ​ចាប់ផ្ដើម';
+$string['endmulti'] = 'កាល​បរិច្ឆេទ​សម្រាប់​បញ្ជី​វត្តមាន​ចុង​ក្រោយ';
+$string['for'] = 'សម្រាប់';
+$string['friday'] = 'សុ';
+$string['gradeshort'] = 'បាន​ដាក់​ពិន្ទុ';
+$string['gradevalue'] = 'ធ្វើ​ឲ្យ​បញ្ជី​នេះ​អាច​ដាក់​ពិន្ទុ​បាន';
+$string['gradevaluemulti'] = 'ធ្វើ​ឲ្យ​បញ្ជី​ទាំងនេះ​អាច​ដាក់​ពិន្ទុ​បាន';
+$string['hoursinclass'] = 'ចំនួន​ម៉ោង​សម្រាប់​មួយ​ថ្នាក់';
+$string['hoursineachclass'] = 'ចំនួន​ម៉ោង​សម្រាប់​ថ្នាក់​នីមួយៗ';
+$string['hoursinfullreport'] = 'ចំនួន​ម៉ោង​អតិបរមា​នៃ​វត្តមាន​ដែល​គួរតែ​ត្រូវ​បង្ហាញ​នៅ​លើ​ទំព័រ​របាយការណ៍​តែ​មួយ';
+$string['maxgradeshort'] = 'ពិន្ទុ​អតិបរមា';
+$string['maxgradevalue'] = 'តម្លៃ​ពិន្ទុ​អតិបរមា​សម្រាប់​វត្តមាន​ពេញ';
+$string['modulename'] = 'វត្តមាន';
+$string['modulenameplural'] = 'បញ្ជី​វត្តមាន';
+$string['monday'] = 'ច';
+$string['norolls'] = 'គ្មាន​បញ្ជី​វត្តមាន​ក្នុង​វគ្គសិក្សា​នេះ​ទេ';
+$string['notes'] = 'ព័ត៌មាន​លើកលែង';
+$string['notesfor'] = 'ព័ត៌មាន​លើកលែង​សម្រាប់';
+$string['noviews'] = 'សូមអភ័យទោស មិន​មាន​ទិន្នន័យ​សម្រាប់​គណនី​របស់​អ្នក​នៅ​ទីនេះ​ទេ';
+$string['of'] = 'របស់';
+$string['pages'] = 'ទំព័រ';
 $string['presentlong'] = 'វត្តមាន';
+$string['presentshort'] = 'P';
+$string['saturday'] = 'ស';
+$string['startafterend'] = 'កាល​បរិច្ឆេទ​ចាប់ផ្ដើម​នៅ​បន្ទាប់ពី​ចុង​បញ្ចប់​នៃ​​វគ្គសិក្សា';
+$string['startmulti'] = 'កាល​បរិច្ឆេទ​សម្រាប់​បញ្ជី​វត្តមាន​ដំបូង';
+$string['sunday'] = 'អា';
+$string['takeroll'] = 'ស្រង់​បញ្ជី​វត្តមាន​នៅ​ថ្ងៃ​នេះឬ ?';
+$string['tardiesperabsence'] = 'តើ​មក​យឺត​ប៉ុន្មាន​ដង​គួរ​រាប់​ថា​អវត្តមាន​ម្ដង';
+$string['tardylong'] = 'យឺត';
+$string['tardyshort'] = 'T';
+$string['teacheredit'] = 'ស្រង់​វត្តមាន';
+$string['thursday'] = 'ព្រ';
+$string['tuesday'] = 'អ';
+$string['viewall'] = 'មើល​បញ្ជី​វត្តមាន​ទាំងអស់';
+$string['viewmulti'] = 'មើល​របាយការណ៍​ជា​ទំព័រ​ច្រើន';
+$string['viewone'] = 'មើល​ទំព័រ​របាយការណ៍​ទាំងអស់';
+$string['viewsection'] = 'មើល​បញ្ជី​វត្តមាន​ទាំងអស់​ពី​ផ្នែក​នេះ';
+$string['viewtable'] = 'មើល​​របាយការណ៍​ជា​តារាង​មួយ';
+$string['viewweek'] = 'មើល​បញ្ជី​វត្តមាន​ទាំងអស់​ពី​សប្ដាហ៍​ប្រតិទិន';
+$string['wednesday'] = 'ព';
+$string['weekmodulename'] = 'បញ្ជី​វត្តមាន​ទាំងអស់​ក្នុង​សប្ដាហ៍​ចុង​ក្រោយ';
 
 ?>

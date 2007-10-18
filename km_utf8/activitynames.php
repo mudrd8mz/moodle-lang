@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // activitynames.php - created with Moodle 1.4.4 (2004083140)
+      // activitynames.php - created with Moodle 1.7 beta + (2006101003)
 
 
-$string['filtername'] = 'ឈ្មោះសកម្មភាពនៃការតភ្ជាប់ដោយស្វ័យប្រវត្ត';
+$string['filtername'] = 'ការ​តភ្ជាប់​ឈ្មោះ​សកម្មភាព​ដោយ​ស្វ័យ​ប្រវត្តិ';
 
 ?>

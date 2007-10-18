@@ -1,16 +1,70 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.4.4 (2004083140)
+      // message.php - created with Moodle 1.7 beta + (2006101003)
 
 
-$string['offline'] = 'នៅក្រៅបណ្តាញ';
-$string['offlinecontacts'] = '($a) ទំនាក់ទំនងនៅក្រៅបណ្តាញ';
-$string['online'] = 'នៅលើបណ្តាញ';
-$string['onlinecontacts'] = '($a) ទំនាក់ទំនងនៅលើបណ្តាញ';
-$string['search'] = '្ស្វែងរក';
-$string['searchforperson'] = '្ស្វែងរក';
-$string['searchmessages'] = '្សារស្វែងរក';
-$string['sendmessage'] = 'បញ្ជូនសារ';
-$string['sendmessageto'] = 'បញ្ជូនសារទៅកាន់ $a';
-$string['userssearchresults'] = 'លទ្ធផលនៃការស្វែងរក : រកឃើញអ្នកប្រើប្រាស់$a ';
+$string['addcontact'] = 'បន្ថែម​ទំនាក់ទំនង';
+$string['addsomecontacts'] = 'ដើម្បី​ផ្ញើ​សារ​ទៅ​នរណា​ម្នាក់ ឬ​បន្ថែម​ផ្លូវកាត់​សម្រាប់​ពួក​គេ​នៅ​លើ​ទំព័រ​នេះ គឺ​ត្រូវ​ប្រើ <a href=\"$a\">ផ្ទាំង​ស្វែងរក</a> ខាង​លើ ។';
+$string['addsomecontactsincoming'] = 'សារ​ទាំងនេះ​គឺ​ត្រូវបាន​ផ្ញើ​មក​ពី​មនុស្ស​ដែល​មិន​មាន​នៅ​ក្នុង​បញ្ជី​ទំនាក់ទំនង​របស់​អ្នក ។ ដើម្បី​បន្ថែម​ពួក​គេ​ទៅ​ទំនាក់ទំនង​របស់​អ្នក ត្រូវ​ចុច​រូប​តំណាង \"បន្ថែម​ទំនាក់ទំនង\" នៅជាប់​នឹង​ឈ្មោះ​របស់​ពួក​គេ ។';
+$string['ago'] = '$a កន្លង​ទៅ';
+$string['allmine'] = 'សារ​ទាំងអស់​ជូន​ចំពោះ​ខ្ញុំ ឬ​ពី​ខ្ញុំ';
+$string['allstudents'] = 'សារ​ទាំងអស់​រវាង​សិស្ស​ក្នុង​វគ្គ​សិក្សា';
+$string['allusers'] = 'សារ​ទាំងអស់​ពី​អ្នក​ប្រើ​ទាំងអស់';
+$string['backupmessageshelp'] = 'ប្រសិនបើ​បាន​បើក នោះ​សារ​បន្ទាន់​នឹង​ត្រូវ​បាន​រួម​បញ្ចូល​ក្នុង​ការ​បម្រុង​ទុក​ស្វ័យ​ប្រវត្តិ​របស់​តំបន់បណ្ដាញ';
+$string['beepnewmessage'] = 'បន្លឺសំឡេង​​ប៊ីប​នៅពេល​មាន​សារ​ថ្មី​ចូល​មក​ដល់ (ប្រហែលជា​ទាមទារ​កម្មវិធី​ជំនួយ​របស់​កម្មវិធី​រុករក​ដែល​អាច​ចាក់​សំឡេង​បាន ដូច​ជា Quicktime)';
+$string['blockcontact'] = 'ទប់ស្កាត់​ទំនាក់ទំនង';
+$string['blockedmessages'] = '$a សារ ជូនចំពោះ​/មកពី​អ្នក​ប្រើ​ដែល​បាន​ទប់ស្កាត់';
+$string['blocknoncontacts'] = 'ទប់ស្កាត់​សារ​ថ្មី​ទាំងអស់​ពី​មនុស្ស​ដែល​មិនមាន​នៅ​ក្នុង​បញ្ជី​ទំនាក់ទំនង​របស់​ខ្ញុំ';
+$string['contactlistempty'] = 'បច្ចុប្បន្ន ​បញ្ជី​ទំនាក់ទំនង​របស់​អ្នក​គឺ​ទទេ';
+$string['contacts'] = 'ទំនាក់ទំនង';
+$string['context'] = 'បរិបទ';
+$string['deletemessagesdays'] = 'ចំនួន​ថ្ងៃ​មុន​ពេល​ដែល​សារ​ចាស់ៗ​ត្រូវ​បាន​លុប​ដោយ​ស្វ័យ​ប្រវត្តិ';
+$string['discussion'] = 'កិច្ច​ពិភាក្សា';
+$string['emailmessages'] = 'សារ​អ៊ីម៉ែល នៅ​ពេល​ខ្ញុំ​នៅ​ក្រៅ​បណ្ដាញ';
+$string['emailtagline'] = 'អ៊ីមែល​នេះ​ជា​ច្បាប់​ចម្លង​របស់​សារ​ដែល​បាន​ផ្ញើ​ទៅ​អ្នក​នៅ \"$a\"';
+$string['emptysearchstring'] = 'អ្នក​ត្រូវ​តែ​ស្វែងរក​អ្វី​មួយ';
+$string['formorethan'] = 'ច្រើន​ជាង';
+$string['includeblockedusers'] = 'រួម​បញ្ចូល​អ្នក​ប្រើ​ដែល​បានទប់ស្កាត់';
+$string['incomingcontacts'] = 'ទំនាក់ទំនង​ដែល​ចូលមក ($a)';
+$string['keywords'] = 'ពាក្យ​គន្លឹះ';
+$string['keywordssearchresults'] = 'ស្វែងរក​លទ្ធផល ៖ រក​ឃើញ​ $a សារ';
+$string['maxmessages'] = 'ចំនួន​សារ​អតិបរមា​ដែលត្រូវ​បង្ហាញ​ក្នុង​ប្រវត្តិ​នៃ​កិច្ច​ពិភាក្សា';
+$string['message'] = 'សារ';
+$string['messagehistory'] = 'ប្រវត្តិ​សារ';
+$string['messages'] = 'សារ';
+$string['messaging'] = 'ផ្ញើ​សារ';
+$string['mycontacts'] = 'ទំនាក់ទំនង​របស់​ខ្ញុំ';
+$string['newsearch'] = 'ការ​ស្វែងរក​ថ្មី';
+$string['newonlymsg'] = 'បង្ហាញ​តែ​ថ្មី​ប៉ុណ្ណោះ';
+$string['noframesjs'] = 'កំណែ​ដែល​គ្មាន​ស៊ុម និង JavaScript';
+$string['nomessages'] = 'គ្មាន​ការ​រង់ចាំ​សារ​ឡើយ';
+$string['nomessagesfound'] = 'រក​មិន​ឃើញ​សារ';
+$string['nosearchresults'] = 'គ្មាន​លទ្ធផល​ពី​ការ​ស្វែងរក​របស់​អ្នក​ទេ';
+$string['offline'] = 'ក្រៅ​បណ្ដាញ';
+$string['offlinecontacts'] = 'ទំនាក់ទំនង​ក្រៅ​បណ្តាញ ($a)';
+$string['online'] = 'លើ​បណ្តាញ';
+$string['onlinecontacts'] = 'ទំនាក់ទំនង​នៅ​លើ​បណ្តាញ ($a)';
+$string['onlyfromme'] = 'តែ​សារ​ពី​ខ្ញុំ​ប៉ុណ្ណោះ';
+$string['onlymycourses'] = 'តែ​នៅ​ក្នុង​វគ្គ​សិក្សា​របស់​ខ្ញុំ​ប៉ុណ្ណោះ';
+$string['onlytome'] = 'តែ​សារ​ជូន​ចំពោះ​​ខ្ញុំ​ប៉ុណ្ណោះ';
+$string['pagerefreshes'] = 'ទំព័រ​នេះ​ធ្វើ​ឲ្យ​ស្រស់​ដោយ​ស្វ័យ​ប្រវត្តិ​នៅរាល់ $a វិនាទីម្ដង';
+$string['readmessages'] = '$a ​សារ​ដែលបាន​អាន';
+$string['removecontact'] = 'យក​ទំនាក់ទំនង​ចេញ';
+$string['savemysettings'] = 'រក្សា​ទុក​ការ​កំណត់​របស់​ខ្ញុំ';
+$string['search'] = 'ស្វែងរក';
+$string['searchforperson'] = 'ស្វែងរក​មនុស្ស';
+$string['searchmessages'] = 'ស្វែងរក​សារ';
+$string['sendmessage'] = 'ផ្ញើ​សារ';
+$string['sendmessageto'] = 'ផ្ញើ​សារ​ដែល​ជូន​ចំពោះ $a';
+$string['settings'] = 'ការ​កំណត់';
+$string['settingssaved'] = 'ការ​កំណត់​របស់​អ្នក​ត្រូវ​បាន​រក្សាទុក';
+$string['showmessagewindow'] = 'បង្ហាញ​បង្អួច​សារ​ដោយ​ស្វ័យ​ប្រវត្តិ ពេល​ខ្ញុំ​យក​សារ​ថ្មី (កម្មវិធី​រុករក​របស់​អ្នក​តម្រូវ​ឲ្យ​កំណត់ ដូច្នេះ​វា​មិន​ទប់ស្កាត់​ការ​លេច​ឡើង​លើ​តំបន់​បណ្ដាញ​នេះ​ទេ)';
+$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
+$string['timenosee'] = 'នាទី​ចាប់​ពី​ខ្ញុំ​នៅ​លើ​បណ្ដាញ​ចុង​ក្រោយ';
+$string['timesent'] = 'ពេល​វេលា​ត្រូវបាន​ផ្ញើ';
+$string['unblockcontact'] = 'មិន​ទប់ស្កាត់​ទំនាក់ទំនង';
+$string['unreadmessages'] = '$a សារ​មិន​ទាន់​អាន';
+$string['userisblockingyou'] = 'អ្នកប្រើ​នេះ​បាន​ទប់ស្កាត់​អ្នក​​​ក្នុងការ​ផ្ញើសារ​ទៅ​កាន់​ពួកគេ';
+$string['userisblockingyounoncontact'] = 'អ្នក​ប្រើ​នេះ​ព្រម​ទទួល​សារ​តែ​ពី​មនុស្ស​ដែល​បាន​រាយ​បញ្ជី​ជា​ទំនាក់ទំនង​ប៉ុណ្ណោះ ហើយ​បច្ចុប្បន្ន​នេះ ​អ្នក​មិន​នៅ​លើ​បញ្ជី​ទេ ។';
+$string['userssearchresults'] = 'លទ្ធផល​ស្វែងរក ៖ រក​ឃើញ​អ្នក​ប្រើ $a';
 
 ?>
