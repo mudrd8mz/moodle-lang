@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101000)
+      // admin.php - created with Moodle 2.0 dev (2007101500)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -39,6 +39,8 @@ $string['cachetext'] = 'テキストキャッシュ保存時間';
 $string['cachetype'] = 'キャッシュタイプ';
 $string['calendar_weekend'] = '週末日';
 $string['calendarsettings'] = 'カレンダー';
+$string['cfgwwwrootslashwarning'] = 'あなたは、config.phpファイルの &#36;CFG->wwwroot を正しく定義していません。末尾に「/」文字を含めています。「/」文字を取り除いてください。取り除かない場合、<a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>のようなバグが発生する可能性があります。';
+$string['cfgwwwrootwarning'] = 'あなたは、config.phpファイルの &#36;CFG->wwwroot を正しく定義していません。あなたがこのページにアクセスしているURIと合致しません。URIを修正してください。修正しない場合、<a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>のようなバグが発生する可能性があります。';
 $string['change'] = '変更';
 $string['changesitelang'] = 'サイト言語の変更';
 $string['choosefiletoedit'] = '編集するファイルを選択してください。';

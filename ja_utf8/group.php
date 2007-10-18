@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 Beta + (2007092501)
+      // group.php - created with Moodle 2.0 dev (2007101500)
 
 
 $string['addgroupstogrouping'] = 'グループをグルーピングに追加する';
@@ -36,6 +36,7 @@ $string['erroraddremoveuser'] = 'ユーザ $a のグループ登録/削除中に
 $string['erroreditgroup'] = 'グループ $a の作成/更新中にエラーが発生しました。';
 $string['erroreditgrouping'] = 'グルーピング $a の作成/更新中にエラーが発生しました。';
 $string['errorinvalidgroup'] = 'エラー、無効なグループです: $a';
+$string['evenallocation'] = '注意: 割り当てを均等にするため、グループごとの実際のメンバー数は、あなたが指定した数と異なります。';
 $string['existingmembers'] = '登録済みメンバー: $a';
 $string['filtergroups'] = 'グループをフィルタする:';
 $string['firstname'] = '名のアルファベット順';
@@ -74,6 +75,7 @@ $string['hidepicture'] = '写真を隠す';
 $string['javascriptrequired'] = 'このページでは、Javaスクリプトを有効にする必要があります。';
 $string['lastname'] = '姓のアルファベット順';
 $string['members'] = 'グループあたりのメンバー数';
+$string['membersingroup'] = 'メンバー';
 $string['membersofselectedgroup'] = 'メンバー:';
 $string['namingscheme'] = 'ネーミングスキーム';
 $string['namingschemehelp'] = 'メモ: グループ文字に「@」またはグループ番号に「#」を使用してください。';
