@@ -488,6 +488,7 @@ $string['reviewclosed'] = 'Après la fermeture du test';
 $string['reviewimmediately'] = 'Immédiatement après la tentative';
 $string['reviewnever'] = 'Ne jamais permettre la relecture';
 $string['reviewofattempt'] = 'Relecture de la tentative $a';
+$string['reviewofpreview'] = 'Relecture de la prévisualisation';
 $string['reviewopen'] = 'Plus tard, alors que le test est encore ouvert';
 $string['reviewoptions'] = 'Les étudiants peuvent relire';
 $string['reviewoptionsheading'] = 'Options de relecture';
