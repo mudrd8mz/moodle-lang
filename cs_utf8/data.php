@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 + (2007021503)
+      // data.php - created with Moodle 1.9 Beta + (2007100902)
 
 
 $string['action'] = 'Akce';
@@ -8,11 +8,13 @@ $string['addafield'] = 'Přidat pole';
 $string['addcomment'] = 'Přidat komentář';
 $string['addentries'] = 'Přidat záznamy';
 $string['addtemplate'] = 'Šablona přidání záznamu';
+$string['advancedsearch'] = 'Pokročilé vyhledávání';
 $string['allowcomments'] = 'Povolit komentáře?';
 $string['allowratings'] = 'Povolit hodnocení záznamů?';
 $string['alttext'] = 'Alternativní text';
 $string['approve'] = 'Schválit';
 $string['ascending'] = 'Vzestupně';
+$string['asearchtemplate'] = 'Šablona pokročilého vyhledávání';
 $string['atmaxentry'] = 'Vložili jste maximální povolený počet záznamů!';
 $string['autogenallforms'] = 'Generovat všechny výchozí šablony';
 $string['autolinkurl'] = 'Automaticky propojit URL';
@@ -105,6 +107,7 @@ $string['forcelinkname'] = 'Vnucené jméno odkazu';
 $string['fromfile'] = 'Importovat ze ZIP souboru';
 $string['header'] = 'Hlavička';
 $string['headeraddtemplate'] = 'Definuje rozhraní pro úpravu záznamů';
+$string['headerasearchtemplate'] = 'Definuje rozhraní pro pokročilé vyhledávání';
 $string['headercsstemplate'] = 'Definuje vlastní styly CSS pro jiné šablony';
 $string['headerjstemplate'] = 'Definuje vlastní Javascript pro jiné šablony';
 $string['headerlisttemplate'] = 'Definuje formát pro zobrazení seznamu záznamů';
@@ -192,6 +195,7 @@ $string['recordssaved'] = 'vložených záznamů';
 $string['requireapproval'] = 'Vyžadovat schválení';
 $string['requiredentries'] = 'Počet požadovaných záznamů';
 $string['requiredentriestoview'] = 'Počet záznamů požadovaných před zpřístupněním databáze';
+$string['resetsettings'] = 'Generovat výchozí pole';
 $string['resettemplate'] = 'Generovat výchozí šablonu';
 $string['resizingimages'] = 'Změna velikosti náhledů...';
 $string['rows'] = 'řádky';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8.2+ (2007021520)
+      // auth.php - created with Moodle 1.9 Beta + (2007100902)
 
 
 $string['CASform'] = 'Volba ověřování';
@@ -119,6 +119,7 @@ $string['auth_imapport_key'] = 'Port';
 $string['auth_imaptitle'] = 'Používat server IMAP';
 $string['auth_imaptype'] = 'Typ serveru IMAP. Servery IMAP mohou používat různé typy ověřování a komunikace (IMAP authentication and negotiation).';
 $string['auth_imaptype_key'] = 'Typ';
+$string['auth_ldap_ad_create_req'] = 'Nelze vytvořit nový účet ve službě Active Directory. Ujistěte se, že jsou splněny všechny požadavky (LDAPS spojení, bind user má dostatečná práva apod.)';
 $string['auth_ldap_auth_user_create_key'] = 'Vytvořit uživatele externě';
 $string['auth_ldap_bind_dn'] = 'Chcete-li používat nějaký účet (bind-user) k vyhledání uživatelů, specifikujte jej zde. Příklad: \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_dn_key'] = 'Jednoznačné jméno (Distinguished Name)';
@@ -130,6 +131,7 @@ $string['auth_ldap_contexts'] = 'Seznam kontextů, ve kterých se nacházejí u�
 $string['auth_ldap_contexts_key'] = 'Kontexty';
 $string['auth_ldap_create_context'] = 'Povolíte-li registrování uživatelů na základě e-mailu, určete kontext, ve kterém budou noví uživatelé vytvářeni. Tento kontext by měl být z bezpečnostních důvodů odlišný od kontextu ostatních uživatelů. Není třeba přidávat tento kontext do proměnné auth_ldap_contexts, Moodle automaticky hledá uživatele i v tomto kontextu.<br /><b>Upozornění!</b>Má-li vytváření uživatelských účtů fungovat, musíte upravit funkci auth_user_create() v souboru auth/ldap/lib.php.';
 $string['auth_ldap_create_context_key'] = 'Kontext pro nové uživatele';
+$string['auth_ldap_create_error'] = 'Chyba při vytváření uživatele v LDAP';
 $string['auth_ldap_creators'] = 'Seznam skupin, jejichž členové jsou oprávněni vytvářet nové kurzy. Jednotlivé skupiny oddělujte středníkem. Příklad: \'cn=ucitele,ou=zamestnanci,o=naseskola\'';
 $string['auth_ldap_creators_key'] = 'Tvůrci';
 $string['auth_ldap_expiration_desc'] = 'Zvolte Ne, chcete-li zakázat ověřování vypršelých hesel nebo čtení \'passwordexpiration time\' přímo z LDAP';
@@ -151,6 +153,7 @@ $string['auth_ldap_memberattribute'] = 'Volitelné: přenastavuje název atribut
 $string['auth_ldap_memberattribute_isdn'] = 'Volitelné: přenastavuje manipulaci s hodnotami členství, 0 nebo 1';
 $string['auth_ldap_memberattribute_isdn_key'] = 'Atribut členství (member) používá dn';
 $string['auth_ldap_memberattribute_key'] = 'Atribut členství';
+$string['auth_ldap_no_mbstring'] = 'Pro vytváření uživatelů v Active Directory musíte povolit rozšíření mbstring.';
 $string['auth_ldap_noconnect'] = 'Modul LDAP se nemůže připojit k serveru: $a';
 $string['auth_ldap_noconnect_all'] = 'LDAP modul se nemůže připojit k žádnému ze serverů: $a';
 $string['auth_ldap_noextension'] = 'Varování: Zdá se, že není přítomen PHP LDAP modul. Prosím zajistěte jeho instalaci a zpřístupnění.';
@@ -170,6 +173,7 @@ $string['auth_ldap_unsupportedusertype'] = 'Ověřování: ldap user_create() ne
 $string['auth_ldap_update_userinfo'] = 'Aktualizovat informace o uživateli (příjmení, křestní jméno, adresa...) ze serveru LDAP do Moodlu. Dle potřeby definujte \'Mapování dat\'.';
 $string['auth_ldap_user_attribute'] = 'Volitelné: přenastavuje atribut použitý pro pojmenování a vyhledávání uživatelů. Většinou \'cn\'.';
 $string['auth_ldap_user_attribute_key'] = 'Atribut uživatele';
+$string['auth_ldap_user_exists'] = 'Toto uživatelské jméno již v LDAP existuje';
 $string['auth_ldap_user_settings'] = 'Nastavení prohledávání uživatelů';
 $string['auth_ldap_user_type'] = 'Vyberte, jak jsou uživatelé ukládáni v LDAP. Toto nastavení zároveň určuje, jak se bude chovat vypršení hesla (login expiration), přihlášení z milosti (grace logins) a tvorba uživatelů.';
 $string['auth_ldap_user_type_key'] = 'Typ uživatele';
@@ -261,6 +265,11 @@ $string['changepassword'] = 'URL ke změně hesla';
 $string['changepasswordhelp'] = 'Zde můžete určit URL, na kterém si uživatelé mohou obnovit či změnit své uživatelské jméno/heslo, pokud je zapomněli. URL bude uživatelům poskytnuto jako tlačitko na přihlašovací a osobní stránce. Necháte-li toto pole prázdné, nebude se tlačítko zobrazovat.';
 $string['chooseauthmethod'] = 'Vyberte si způsob ověření uživatelů:';
 $string['createpasswordifneeded'] = 'Vytvořit heslo, je-li to potřeba';
+$string['errorminpassworddigits'] = 'Minimální počet číslic v heslech: $a';
+$string['errorminpasswordlength'] = 'Minimální počet znaků v heslech: $a';
+$string['errorminpasswordlower'] = 'Minimální počet malých písmen v heslech: $a';
+$string['errorminpasswordnonalphanum'] = 'Minimální počet nealfanumerických znaků v heslech: $a';
+$string['errorminpasswordupper'] = 'Minimální počet VELKÝCH písmen v heslech: $a';
 $string['errorpasswordupdate'] = 'Chyba při změně hesla, heslo nebylo změněno.';
 $string['forcechangepassword'] = 'Vynutit změnu hesla';
 $string['forcechangepassword_help'] = 'Vynutit změnu hesla při příštím přihlášení do Moodlu.';

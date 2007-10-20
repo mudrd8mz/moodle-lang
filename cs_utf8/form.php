@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8 + (2007021503)
+      // form.php - created with Moodle 1.9 Beta + (2007100902)
 
 
 $string['addfields'] = 'Přidat $a polí do formuláře';
@@ -26,12 +26,14 @@ $string['month'] = 'Měsíc';
 $string['nomethodforaddinghelpbutton'] = 'Nebyla nalezena metoda pro přidání tlačítka nápovědy pro formulářový prvek $a->name (třída $a->classname)';
 $string['nonexistentformelements'] = 'Zkouším přidat tlačítka nápovědy k neexistujícím formulářovým prvkům: $a';
 $string['optional'] = 'Volitelné pole';
+$string['othersettings'] = 'Další nastavení';
 $string['requiredelement'] = 'Povinné pole';
 $string['revealpassword'] = 'Prozradit';
 $string['security'] = 'Zabezpečení';
 $string['showadvanced'] = 'Zobrazit rozšiřující nastavení';
 $string['somefieldsrequired'] = 'Formulář obsahuje povinná pole';
-$string['timing'] = 'Vkládání času';
+$string['timing'] = 'Načasování';
+$string['unmaskpassword'] = 'Odkrýt';
 $string['year'] = 'Rok';
 $string['requiredfield'] = 'Vyplnění pole je povinně vyžadováno'; // ORPHANED
 

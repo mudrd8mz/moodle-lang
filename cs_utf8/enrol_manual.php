@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_manual.php - created with Moodle 1.6 Beta 5 (2006050502)
+      // enrol_manual.php - created with Moodle 1.9 Beta + (2007100902)
 
 
 $string['description'] = 'Toto je výchozí metoda zápisu do kurzů. Studenti mohou být do kurzu zapsáni dvěma hlavními způsoby.
@@ -8,5 +8,6 @@ $string['description'] = 'Toto je výchozí metoda zápisu do kurzů. Studenti m
 <li>Kurz má definováno heslo, tzv. \'klíč k zápisu\'. Každý, kdo zná tento klíč, se může do kurzu sám zapsat.</li>
 </ul>';
 $string['enrolname'] = 'Interní zápis';
+$string['keyholderrole'] = 'Role uživatele, který zná klíč k zápisu do kurzu. Je zobrazeno studentům, kteří se snaží do kurzu zapsat.';
 
 ?>

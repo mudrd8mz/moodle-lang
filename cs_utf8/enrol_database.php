@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.8 + (2007021503)
+      // enrol_database.php - created with Moodle 1.9 Beta + (2007100902)
 
 
 $string['autocreate'] = 'Pokud jsou v externí databázi studenti zapsáni do kurzů, které ještě nejsou v Moodlu vytvořeny, lze takové kurzy založit v Moodlu automaticky.';
@@ -21,6 +21,7 @@ $string['enrol_database_autocreation_settings'] = 'Automatické vytváření nov
 $string['enrolname'] = 'Externí databáze';
 $string['general_options'] = 'Obecná nastavení';
 $string['host'] = 'Síťové jméno externího databázového serveru';
+$string['ignorehiddencourse'] = 'Pokud je nastaveno na \"Ano\", nebudou studenti zapsáni do kurzů, které jsou nastaveny jako nedostupné';
 $string['local_fields_mapping'] = 'Pole lokální databáze';
 $string['localcoursefield'] = 'Název pole v tabulce kurzů (course), které bude použito k provázání s externí databází (např. idnumber).';
 $string['localrolefield'] = 'Název pole v tabulce rolí (roles), které bude použito k provázání s externí databází (např. shortname).';

@@ -1,16 +1,19 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 + (2007021503)
+      // calendar.php - created with Moodle 1.9 Beta + (2007100902)
 
 
 $string['advancedoptions'] = 'Pokročilé možnosti';
+$string['allday'] = 'Celý den';
 $string['calendar'] = 'Kalendář';
 $string['calendarheading'] = '$a kalendář';
 $string['clickhide'] = 'kliknutím skryjete';
 $string['clickshow'] = 'kliknutím zobrazíte';
 $string['commontasks'] = 'Možnosti';
 $string['confirmeventdelete'] = 'Jste si jisti, že chcete odstranit tuto událost?';
+$string['course'] = 'Kurz';
 $string['courseevent'] = 'Událost kurzu';
 $string['courseevents'] = 'Události kurzu';
+$string['courses'] = 'Kurzy';
 $string['dayview'] = 'Zobrazit den';
 $string['daywithnoevents'] = 'V tento den nejsou žádné události';
 $string['default'] = 'Výchozí';
@@ -37,6 +40,7 @@ $string['eventnone'] = 'Žádné události';
 $string['eventrepeat'] = 'Opakování';
 $string['eventsall'] = 'Všechny události';
 $string['eventsfor'] = '$a - události';
+$string['eventskey'] = 'Typy událostí';
 $string['eventsrelatedtocourses'] = 'Události související s kurzem';
 $string['eventstarttime'] = 'Začíná';
 $string['eventtime'] = 'čas';
@@ -55,9 +59,11 @@ $string['for'] = 'pro';
 $string['fri'] = 'Pá';
 $string['friday'] = 'Pátek';
 $string['generateurlbutton'] = 'Získat URL kalendáře';
+$string['global'] = 'Globální';
 $string['globalevent'] = 'Globální událost';
 $string['globalevents'] = 'Globální události';
 $string['gotocalendar'] = 'Jdi do kalendáře';
+$string['group'] = 'Skupinové';
 $string['groupevent'] = 'Skupinová událost';
 $string['groupevents'] = 'Skupinové události';
 $string['hidden'] = 'skryto';
@@ -116,6 +122,7 @@ $string['typesite'] = 'Globální událost';
 $string['typeuser'] = 'Osobní událost';
 $string['upcomingevents'] = 'Nadcházející události';
 $string['urlforical'] = 'URL pro export ve formátu iCalendar a pro odebírání událostí z kalendáře';
+$string['user'] = 'Osobní';
 $string['userevent'] = 'Osobní událost';
 $string['userevents'] = 'Osobní události';
 $string['wed'] = 'St';
