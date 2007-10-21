@@ -37,6 +37,8 @@ $string['cachetext'] = 'Durée de vie du cache texte';
 $string['cachetype'] = 'Type de cache';
 $string['calendar_weekend'] = 'Jours du week-end';
 $string['calendarsettings'] = 'Calendrier';
+$string['cfgwwwrootwarning'] = 'Le paramètre $CFG->wwwroot est défini incorrectement dans votre fichier config.php. Il ne correspond pas à l\'URL que vous utilisez pour accéder à cette page. Veuillez le corriger, sans quoi vous souffrirez de bogues bizarres, comme celui décrit ici&nbsp;: <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
+$string['cfgwwwrootslashwarning'] = 'Le paramètre $CFG->wwwroot est défini incorrectement dans votre fichier config.php. Vous y avez placé une barre oblique «&nbsp;/&nbsp;» à la fin. Veuillez la retirer, sans quoi vous souffrirez de bogues bizarres, comme celui décrit ici&nbsp;: <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
 $string['change'] = 'Changer';
 $string['changesitelang'] = 'Changer la langue du site';
 $string['choosefiletoedit'] = 'Sélectionnez le fichier à modifier';
