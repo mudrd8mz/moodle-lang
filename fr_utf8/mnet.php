@@ -12,6 +12,7 @@ $string['authfail_usermismatch'] = 'Échec d\'autorisation&nbsp;: l\'utilisateur
 $string['authmnetdisabled'] = 'La <em>méthode d\'authentification</em> Réseau Moodle est <strong>désactivée</strong>.';
 $string['authmnetautoadddisabled'] = 'L\'<em>ajout automatique d\'utilisateurs</em> de la méthode d\'authentification Réseau Moodle est <strong>désactivé</strong>.';
 $string['badcert'] = 'Ceci n\'est pas un certificat valide.';
+$string['certdetails'] = 'Détails du certificat';
 $string['couldnotgetcert'] = 'Aucun certificat n\'a été trouvé sur <br />$a. <br />Le serveur est peut-être éteint ou incorrectement configuré.';
 $string['couldnotmatchcert'] = 'Ceci ne correspond pas au certificat publié actuellement par le serveur web.';
 $string['courses'] = 'Cours';
