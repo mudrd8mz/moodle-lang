@@ -21,5 +21,6 @@ En vous abonnant à ce service, vous pourrez inscrire vos étudiants aux cours s
 <li><em>Dépendance</em>&nbsp;: vous devez également <strong>vous abonner</strong> au service SSO (fournisseur de service) de $a.</li>
 <li><em>Dépendance</em>&nbsp;: vous devez également <strong>publier</strong> le service SSO (fournisseur d\'identité) pour $a.</li>
 </ul><br />';
+$string['mnetlocalforexternal'] = 'Cours locaux pour utilisateurs externes';
 
 ?>
