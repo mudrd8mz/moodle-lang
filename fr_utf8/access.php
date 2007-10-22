@@ -18,7 +18,7 @@ $string['skipblock'] = 'Sauter le bloc';
 $string['skipnavigation'] = 'Sauter la navigation';
 $string['tabledata'] = 'Données en tableau, $a';
 $string['tablelayout'] = 'Formatage en tableau, $a';
-$string['tocontent'] = 'Vers le contenu principal';
+$string['tocontent'] = 'Passer au contenu principal';
 $string['tonavigation'] = 'Vers la navigation';
 $string['youarehere'] = 'Vous êtes ici';
 
