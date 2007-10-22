@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101100)
+      // moodle.php - created with Moodle 2.0 dev (2007101500)
 
 
 $string['action'] = '操作';
@@ -1294,7 +1294,6 @@ $string['sizegb'] = 'GB';
 $string['sizekb'] = 'KB';
 $string['sizemb'] = 'MB';
 $string['skipped'] = 'スキップ';
-$string['skiptomaincontent'] = 'メインコンテンツに移動する';
 $string['skypeid'] = 'Skype ID';
 $string['socialheadline'] = '一般フォーラム - 最新トピック';
 $string['someallowguest'] = 'いくつかのコースはゲストで利用できます';
@@ -1562,6 +1561,7 @@ $string['yourlastlogin'] = '最終ログイン';
 $string['yourself'] = 'あなた自身';
 $string['yourteacher'] = 'あなたの $a';
 $string['zippingbackup'] = 'バックアップファイルの圧縮中';
+$string['skiptomaincontent'] = 'メインコンテンツに移動する'; // ORPHANED
 $string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; // ORPHANED
 $string['weeks'] = '週'; // ORPHANED
 
