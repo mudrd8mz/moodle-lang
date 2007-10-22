@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007080202)
+      // auth.php - created with Moodle 1.9 Beta 2 (2007101000)
 
 
 $string['CASform'] = 'Opció d\'autenticació';
@@ -23,8 +23,14 @@ $string['auth_cas_invalidcaslogin'] = 'Entrada errònia. Potser no esteu autorit
 $string['auth_cas_language'] = 'Idioma seleccionat';
 $string['auth_cas_language_key'] = 'Idioma';
 $string['auth_cas_logincas'] = 'Accés a la connexió segura';
+$string['auth_cas_logoutcas'] = 'Activeu aquesta opció si voleu sortir de CAS quan sortiu de Moodle';
+$string['auth_cas_logoutcas_key'] = 'Surt de CAS';
+$string['auth_cas_multiauth'] = 'Activeu aquesta opció si voleu tenir diversos mètodes d\'autenticació (CAS + altres)';
+$string['auth_cas_multiauth_key'] = 'Autenticació múltiple';
 $string['auth_cas_port'] = 'Port del servidor CAS';
 $string['auth_cas_port_key'] = 'Port';
+$string['auth_cas_proxycas'] = 'Activeu aquesta opció per utilitzar CAS en mode servidor intermediari';
+$string['auth_cas_proxycas_key'] = 'Mode proxy';
 $string['auth_cas_server_settings'] = 'Configuració del servidor CAS';
 $string['auth_cas_text'] = 'Connexió segura';
 $string['auth_cas_use_cas'] = 'Utilitza CAS';
@@ -113,6 +119,7 @@ $string['auth_imapport_key'] = 'Port';
 $string['auth_imaptitle'] = 'Servidor IMAP';
 $string['auth_imaptype'] = 'Tipus de servidor IMAP. Els servidors IMAP poden tenir diferents tipus d\'autenticació i negociació.';
 $string['auth_imaptype_key'] = 'Tipus';
+$string['auth_ldap_ad_create_req'] = 'No s\'ha pogut crear el nou compte en el Directori Actiu. Assegureu-vos que compliu tots els requeriments necessaris perquè això funcioni (connexió LDAPS, bind-user amb els drets adequats, etc.)';
 $string['auth_ldap_auth_user_create_key'] = 'Crea usuaris externament';
 $string['auth_ldap_bind_dn'] = 'Si voleu utilitzar el bind-user per cercar usuaris, especifiqueu-ho aquí. Per exemple \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_dn_key'] = 'Nom distingit';
@@ -124,6 +131,7 @@ $string['auth_ldap_contexts'] = 'Llista de contextos en què estan ubicats els u
 $string['auth_ldap_contexts_key'] = 'Contextos';
 $string['auth_ldap_create_context'] = 'Si activeu la creació d\'usuaris mitjançant confirmació per correu electrònic, especifiqueu en quin context s\'han de crear els usuaris. Aquest context ha de ser diferent del d\'altres usuaris per tal de prevenir problemes de seguretat. No cal afegir aquest context a ldap_context-variable. Moodle cercarà els usuaris en aquest context automàticament.';
 $string['auth_ldap_create_context_key'] = 'Context per a nous usuaris';
+$string['auth_ldap_create_error'] = 'S\'ha produït un error en crear l\'usuari mitjançant LDAP.';
 $string['auth_ldap_creators'] = 'Llista de grups als membres dels quals els és permès  crear nous cursos. Separeu els grups amb \';\'. Generalment una cosa semblant a \'cn=teachers,ou=staff,o=myorg\'';
 $string['auth_ldap_creators_key'] = 'Creadors';
 $string['auth_ldap_expiration_desc'] = 'Seleccioneu \'No\' per inhabilitar la comprovació de contrasenyes vençudes o \'LDAP\' per consultar la data de venciment de la contrasenya directament a l\'LDAP.';
@@ -141,8 +149,11 @@ $string['auth_ldap_host_url_key'] = 'URL del servidor';
 $string['auth_ldap_ldap_encoding'] = 'Especifiqueu la codificació utilitzada pel servidor LDAP. Molt probablement UTF-8. MS AD v2 utilitza la codificació per defecte del sistema operatiu: cp1252, cp1250, etc.';
 $string['auth_ldap_ldap_encoding_key'] = 'Codificació LDAP';
 $string['auth_ldap_login_settings'] = 'Paràmetres d\'entrada';
-$string['auth_ldap_memberattribute'] = 'Especifiqueu l\'atribut de membre de l\'usuari, quan els usuaris pertanyen a un grup. Generalment \'member\'';
+$string['auth_ldap_memberattribute'] = 'Opcional: anul·la l\'atribut de membre de l\'usuari si l\'usuari pertany a un grup. Generalment \'membre\'.';
+$string['auth_ldap_memberattribute_isdn'] = 'Opcional: anul·la la gestió de valors d\'atribut de membre. Pot ser 0 o 1.';
+$string['auth_ldap_memberattribute_isdn_key'] = 'L\'atribut de membre utilitza dn';
 $string['auth_ldap_memberattribute_key'] = 'Atribut de membre';
+$string['auth_ldap_no_mbstring'] = 'Per a crear usuaris en el Directori Actiu necessiteu l\'extensió mbstring.';
 $string['auth_ldap_noconnect'] = 'El mòdul LDAP no s\'ha pogut connectar al servidor: $a';
 $string['auth_ldap_noconnect_all'] = 'El mòdul LDAP no s\'ha pogut connectar a cap servidor: $a';
 $string['auth_ldap_noextension'] = 'Avís: el mòdul PHP LDAP no sembla que sigui present. Si us plau assegureu-vos que està instal·lat i habilitat.';
@@ -150,6 +161,8 @@ $string['auth_ldap_objectclass'] = 'Filtre utilitzat per nomenar/cercar usuaris.
 $string['auth_ldap_objectclass_key'] = 'Classe objecte';
 $string['auth_ldap_opt_deref'] = 'Determina com es manegen els àlies en les cerques. Seleccioneu un dels valors següents: \"No\" (LDAP_DEREF_NEVER) o \"Sí\" (LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_opt_deref_key'] = 'Desreferencia àlies';
+$string['auth_ldap_passtype'] = 'Especifiqueu el format per a les contrasenyes noves, o modificades, en el servidor LDAP.';
+$string['auth_ldap_passtype_key'] = 'Format de contrasenyes';
 $string['auth_ldap_passwdexpire_settings'] = 'Paràmetres LDAP de venciment de contrasenyes';
 $string['auth_ldap_preventpassindb'] = 'Seleccioneu \'sí\' per impedir que les contrasenyes s\'emmagatzemin en la base de dades de Moodle.';
 $string['auth_ldap_preventpassindb_key'] = 'Oculta contrasenyes';
@@ -160,6 +173,7 @@ $string['auth_ldap_unsupportedusertype'] = 'auth: ldap user_create() no és ara 
 $string['auth_ldap_update_userinfo'] = 'Actualitzeu la informació dels usuaris (nom, cognoms, adreça...) d\'LDAP a Moodle. Especifiqueu els paràmetres de \"Mapatge de dades\" segons les vostres necessitats.';
 $string['auth_ldap_user_attribute'] = 'Opcional: substitueix l\'atribut utilitzat per anomenar/cercar usuaris. Generalment \'cn\'.';
 $string['auth_ldap_user_attribute_key'] = 'Atribut d\'usuari';
+$string['auth_ldap_user_exists'] = 'Aquest nom d\'usuari LDAP ja existeix.';
 $string['auth_ldap_user_settings'] = 'Paràmetres de consulta d\'usuaris';
 $string['auth_ldap_user_type'] = 'Seleccioneu com s\'emmagatzemen els usuaris en LDAP. Aquest paràmetre també especifica com funcionarà el venciment de les contrasenyes, el període de gràcia i la creació d\'usuaris.';
 $string['auth_ldap_user_type_key'] = 'Tipus d\'usuari';

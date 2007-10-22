@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta + (2007092806)
+      // admin.php - created with Moodle 1.9 Beta 2 (2007101000)
 
 
 $string['accessdenied'] = 'Accés denegat';
@@ -271,6 +271,7 @@ $string['download'] = 'Baixa';
 $string['editennotallowed'] = 'L\'idioma en_utf8 no es pot editar amb aquesta pàgina. Canvieu a local.';
 $string['edithelpdocs'] = 'Edita documents d\'ajuda';
 $string['editingnoncorelangfile'] = 'Esteu modificant la traducció d\'un connector o mòdul afegit. Les traduccions de mòduls de terceres parts només es poden desar a la carpeta _local. Potser voldreu moure el fitxer de la traducció al directori d\'idiomes del mòdul i/o enviar-lo als responsables d\'aquest mòdul.';
+$string['editlang'] = '<b>Edició</b>';
 $string['editorbackgroundcolor'] = 'Color de fons';
 $string['editordictionary'] = 'Diccionari de l\'editor';
 $string['editorfontfamily'] = 'Família de fonts';
@@ -320,6 +321,7 @@ $string['forcetimezone'] = 'Imposa la zona horària per defecte';
 $string['framename'] = 'Nom del marc';
 $string['frontpage'] = 'Primera plana';
 $string['frontpagebackup'] = 'Còpia de seguretat de la base de dades';
+$string['frontpagedefaultrole'] = 'Rol per defecte per a la pàgina inicial';
 $string['frontpageloggedin'] = 'Elements de la primera plana si l\'usuari ha entrat';
 $string['frontpagerestore'] = 'Restauració de la primera plana';
 $string['frontpageroles'] = 'Rols de la primera plana';
@@ -552,6 +554,7 @@ $string['savechanges'] = 'Desa els canvis';
 $string['search'] = 'Cerca';
 $string['searchinsettings'] = 'Cerca en paràmetres';
 $string['searchresults'] = 'Resultats de la cerca';
+$string['sectionerror'] = 'Error en la secció';
 $string['secureforms'] = 'Utilitza seguretat addicional als fomularis';
 $string['security'] = 'Seguretat';
 $string['server'] = 'Servidor';
@@ -642,7 +645,6 @@ $string['usersupdated'] = 'S\'han actualitzat els usuaris';
 $string['usetags'] = 'Habilita la funcionalitat d\'etiquetes';
 $string['validateerror'] = 'Aquest valor no és vàlid:';
 $string['xmlstrictheaders'] = 'Capçaleres XML estrictes';
-$string['editlang'] = '<b>Edició</b>'; // ORPHANED
 $string['confighideactivitytypecrumb'] = 'Seleccioneu a qui voleu ocultar el tipus d\'activitat (p. ex. Qüestionaris) en el camí de navegació que es visualitza en els mòduls d\'activitat.'; // ORPHANED
 $string['hideactivitytypecrumb'] = 'Oculta la navegació per tipus d\'activitat'; // ORPHANED
 

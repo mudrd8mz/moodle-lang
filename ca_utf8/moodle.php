@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007092806)
+      // moodle.php - created with Moodle 1.9 Beta 2 (2007101000)
 
 
 $string['action'] = 'Acció';
@@ -190,6 +190,7 @@ $string['categoryadded'] = 'S\'ha afegit la categoria \'$a\'';
 $string['categorydeleted'] = 'S\'ha suprimit la categoria \'$a\'';
 $string['categoryduplicate'] = 'Ja existeix una categoria anomenada \'$a\'!';
 $string['categoryname'] = 'Nom de la categoria';
+$string['categoryupdated'] = 'S\'ha actualitzat la categoria \'$a\'.';
 $string['changedpassword'] = 'S\'ha canviat la contrasenya';
 $string['changepassword'] = 'Canvia la contrasenya';
 $string['changessaved'] = 'S\'han desat els canvis';
@@ -407,7 +408,9 @@ $string['edhelpfontfamily'] = 'La propietat font-family és una llista de noms d
 $string['edhelpfontlist'] = 'Definiu els tipus de lletra utilitzats en el menú desplegable de l\'editor.';
 $string['edhelpfontsize'] = 'La mida de lletra per defecte defineix la mida d\'un tipus de lletra.<br />Per exemple són valors vàlids els següents: medium, large, smaller, larger, 10pt, 11px.';
 $string['edit'] = 'Edita $a';
-$string['editcoursesettings'] = 'Edita els paràmetres del curs';
+$string['editcategorysettings'] = 'Edita paràmetres de la categoria';
+$string['editcategorythis'] = 'Edita aquesta categoria';
+$string['editcoursesettings'] = 'Edita paràmetres del curs';
 $string['editfiles'] = 'Edita fitxers';
 $string['editgroupprofile'] = 'Edita el perfil del grup';
 $string['editinga'] = 'S\'està editant: $a';
@@ -651,6 +654,7 @@ $string['gd1'] = 'GD 1.x instal·lada';
 $string['gd2'] = 'GD 2.x instal·lada';
 $string['gdneed'] = 'GD ha d\'estar instal·lada per veure aquesta imatge';
 $string['gdnot'] = 'GD no està instal·lada';
+$string['general'] = 'General';
 $string['gettheselogs'] = 'Obté aquests registres';
 $string['go'] = 'Endavant';
 $string['gotoyourserver'] = '(enllaç de retorn al vostre servidor)';
@@ -689,6 +693,7 @@ $string['guestsyes'] = 'Permet visitants sense clau';
 $string['guestuser'] = 'Usuari visitant';
 $string['guestuserinfo'] = 'Aquest usuari és un usuari especial que permet entrar a alguns cursos en mode només de lectura (read-only).';
 $string['healthcenter'] = 'Centre de salut';
+$string['healthnoproblemsfound'] = 'No s\'han trobat problemes de salut';
 $string['healthproblemsdetected'] = 'S\'han detectat problemes de salut';
 $string['healthproblemsolution'] = 'Solució del problema de salut';
 $string['healthreturntomain'] = 'Continua';
@@ -1058,6 +1063,7 @@ $string['outline'] = 'Esquema';
 $string['outlinereport'] = 'Informe en esquema';
 $string['page'] = 'Pàgina';
 $string['pageheaderconfigablock'] = 'S\'està configurant un bloc en %%fullname%%';
+$string['parentcategory'] = 'Categoria pare';
 $string['parentcoursenotfound'] = 'No s\'ha trobat el curs pare';
 $string['parentcoursenotmetacourse'] = 'El curs pare no és un metacurs';
 $string['parentfolder'] = 'Nivell superior';
