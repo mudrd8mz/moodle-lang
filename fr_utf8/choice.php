@@ -15,6 +15,7 @@ $string['choicetext'] = 'Texte de la question';
 $string['displayhorizontal'] = 'Afficher horizontalement';
 $string['displaymode'] = 'Mode d\'affichage';
 $string['displayvertical'] = 'Afficher verticalement';
+$string['expired'] = 'Désolé, cette activité s\'est terminée le $a et n\'est plus disponible';
 $string['fillinatleastoneoption'] = 'Veuillez fournir au moins deux réponses possibles.';
 $string['full'] = '(complet)';
 $string['havetologin'] = 'Vous devez vous connecter pour pouvoir répondre à ce sondage';
