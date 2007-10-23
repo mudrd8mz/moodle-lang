@@ -89,6 +89,7 @@ $string['listallroles'] = 'Liste de tous les rôles';
 $string['manageroles'] = 'Gérer les rôles';
 $string['metaassignerror'] = 'Impossible d\'attribuer ce rôle à l\'utilisateur «&nbsp;$a&nbsp;», car la capacité «&nbsp;Gérer les méta-cours&nbsp;» est requise.';
 $string['metaunassignerror'] = 'Le rôle de l\'utilisateur «&nbsp;$a&nbsp;» a été automatiquement réattribué. Si nécessaire, veuillez retirer ce rôle dans les cours dépendants.';
+$string['morethan'] = 'Plus de $a';
 $string['my:manageblocks'] = 'Gérer les blocs de Mon Moodle';
 $string['nocapabilitiesincontext'] = 'Aucune capacité dans ce contexte';
 $string['notes:view'] = 'Voir les annotations';
