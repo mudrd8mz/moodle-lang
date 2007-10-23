@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta + (2007100303)
+      // role.php - created with Moodle 2.0 dev (2007101500)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -87,6 +87,7 @@ $string['listallroles'] = 'すべてのロールを一覧表示する';
 $string['manageroles'] = 'ロールの管理';
 $string['metaassignerror'] = 'メタコースを管理するケイパビリティが必要なため、このロールをユーザ「 $a 」に割り当てられませんでした。';
 $string['metaunassignerror'] = 'ユーザ「 $a 」のロールは自動的に再割り当てされました。代わりに、子コースのロールを解除してください。';
+$string['morethan'] = '$a 以上';
 $string['my:manageblocks'] = 'マイ Moodleページブロックを管理する';
 $string['nocapabilitiesincontext'] = 'このコンテクストで利用できるケイパビリティはありません。';
 $string['notes:manage'] = 'ノートを管理する';
