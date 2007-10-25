@@ -4,8 +4,8 @@
 <div id="Main">
 
 <div class="article">
-<p>This section expands upon the basic information given in  the section titled 'Enhancing Text With Markdown' to give those with special requirements the information needed to make the most of Markdown. If you don't recognise, or don't need, the formatting listed below then you should feel free to skip this section and return to it as and when needed.</p>
 
+<p>קטע זה מרחיב על המידע הבסיסי הניתן בכותרת הקטע  'Enhancing Text With Markdown'  בכדי להעניק לאלו בעלי הדרישות המיוחדות את המידע ההנצרך בכדי לקיים את ה-Markdown. אם אינך מכיר זאת, או אין לך צורך בכך, את תבנית הרשימה הנמצאת למטה תוכל לדלג על קטע זה ולחזור אליו כשתצטרך זאת.</p>
 <ul>
 
 <li><a href="#linebreaks">Line Breaks</a></li>
@@ -19,8 +19,7 @@
 
 <h2><a id="linebreaks">Line Breaks</a></h2>
 
-<p>In some texts, for instance in poetry and verse, it is often necessary to insert line breaks. Trying to do so with the return key will not give the intended effect as by default the lines will be run together to create a paragraph.</p>
-
+<p>בכמה טקסטים , למשל בשירה ופיוטים, בד"כ רצוי להכניס שורות חדשות. כאשר תנסה לעשות זאת עם מקש החזרה לא תינתן לך אותה תוצאה כך שכברירת מחדל השורות יראו מחוברות לשם יצירת פיסקה.   </p> 
 <p><strong><code>The best laid schemes o' Mice an' Men,<br />
 Gang aft agley,<br />
 An' lea'e us nought but grief an' pain,<br />
@@ -42,13 +41,13 @@ For promis'd joy!  </p>
 
 <h2><a id="hr">Horizontal Rules</a></h2>
 
-<p>Horizontal rules can be created by placing three or more asterisks (*), hyphens (-) or underscores (_) on a line by themselves.</p>
+<p>Horizontal rules יכול להיווצר ע"י הכנסת שלושה כוכביות (*) או יותר, מקף (-) או מקף תחתון (_) בשורה  ביחידות.</p>
 
-<p>This will work:</p>
+<p>הדבר הבא יעבוד:</p>
 
 <p><strong><code>***</code></strong></p>
 
-<p>but you can add spaces or further characters to make it more obviously a section break in the text editing window e.g.</p>
+<p>.אך תוכל להוסיף רווחים או תווים נוספים להיראות יותר כמו קו הפרדה בחלון עריכת הטקסט למשל: </p>
 
 <p><strong><code>* * * * *</code></strong></p>
 
@@ -56,36 +55,36 @@ For promis'd joy!  </p>
 
 <p><strong><code>_ _ _ _ _</code></strong></p>
 
-<p>All of these methods give the exact same result:</p>
+<p>כל שיטות אלו נותנות את אותה תוצאה בדיוק.</p>
 
 <hr />
 
-<h2><a id="image_links">Hyperlinked Images</a></h2>
+<h2><a id="image_links">קישור היפרטקסט עבור תמונות</a></h2>
 
-<p>The Enhancing Text With Markdown document gives instructions for creating web links and inserting images. It may not be obvious that these can be combined to create images that are also clickable links.</p>
+<p>מסמך ה-Enhancing Text With Markdown מקנה הקדמה עבור יצירת קישורי רשת והכנסת תמונות. פעולות אלו עדיין לא ברורות כאשר רוצים לשלבם יחד בכדי ליצור תמונות אשר משמשות גם כקישור וניתן ללחוץ עליהן.</p>
 
 <p><strong><code>[the google search engine][google]</code></strong></p>
 
 <p><strong><code>![the google logo][logo]</code></strong></p>
 
-<p>Above are a standard web link and image. By placing the image where the link text would be found you end up with this:</p>
+<p>כאן קיים קישור רשת ותמונה רגילים,. כאשר מרווחים תמונה כאשר טקסט הקישור נמצא נראה את הדבר הבא:</p>
 
 <p><strong><code>[![the google logo][logo]][google]</code></strong></p>
 
-<p>This line above, in combination with the following link definitions elsewhere in the document:</p>
+<p>השורה למעלה, בשילוב עם הקישורים הבאים במקום אחר במסמך</p>
 
 <p><strong><code>[logo]: http://www.google.com/images/logo.gif</code></strong><br />
 <strong><code>[google]: http://www.google.com/ "click to visit Google.com"</code></strong></p>
 
-<p>combine to produce the following clickable image link (with tooltip if you hover over it):</p>
+<p>אחד בכדי להציג את תמונת הקישור הבאה הניתנת ללחיצה (ע"י tooltip אם תרחף מעליה): </p>
 
 <p><a href="http://www.google.com/" title="click to visit Google.com"><img src="http://www.google.com/images/logo.gif" alt="the google logo" /></a></p>
 
-<p>An example of where this technique might be handy is in linking small 'thumbnail' images to downloads of the larger photos.</p>
+<p>דוגמה היכן טכניקה זו שימושית ניתן למצוא בקישור לתמונות קטנות וממוזערות ('thumbnail') אשרמורידות דרכן את אותן תמונות גדולות יותר.</p>
 
-<h2><a id="embedded">Embedding HTML</a></h2>
+<h2><a id="embedded">שיבוץ HTML</a></h2>
 
-<p>If you are already proficient in HTML then there may be occasions when Markdown does not allow you as much control as you are used to. Luckily Markdown is designed for this eventuality and allows you to embed HTML directly within Markdown formatted text.</p>
+<p>אם הינך מיומן עם Html יתכן שיהיו קיימים מקרים אשר ה-Markdown לא תאפשר לך שליטה רבה כפי שהיית רגיל אליה. למרבה המזל Markdown מיועדת לאפשרות זו ומאפשרת לך לשבץ HTML ישירות במסגרת Markdown formatetd text. </p>
 
 <p><strong><code>* &lt;small&gt;small text&lt;/small&gt;</code></strong><br />
 
@@ -96,7 +95,7 @@ For promis'd joy!  </p>
 <li><big>big text</big> </li>
 </ul>
 
-<p>Note that the HTML markup co-exists with the Markdown code for bullet lists. This frees you from the mundane task of writing complex HTML for basic formatting features such as paragraphs and lists while still allowing you to access the full power of HTML in specific situations.</p>
+<p> דע כי תגי ה-HTML </p>
 
 <h2><a id="preformatted">Displaying HTML or Preformatted Text</a></h2>
 

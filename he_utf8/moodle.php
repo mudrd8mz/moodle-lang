@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // moodle.php - created with Moodle 1.9 Beta + (2007081600)
 
 
@@ -947,7 +947,7 @@ $string['notifyloginfailuressubject'] = '$a :: הודעות על התחברוי�
 $string['notincluded'] = 'לא נכלל';
 $string['notingroup'] = 'מצטערים, אבל אתה צריך להיות חלק מקבוצה בשביל לראות פעילות זו.';
 $string['notpublic'] = 'לא ציבורי!';
-$string['nousersmatching'] = 'לא נמצאו משתמשים התואמים את \'a$\'';
+$string['nousersmatching'] = 'לא נמצאו משתמשים התואמים את \'$a\'';
 $string['nousersyet'] = 'עדיין אין משתמשים';
 $string['novalidcourses'] = 'אין קורסים תקינים להראות';
 $string['now'] = 'עכשיו';

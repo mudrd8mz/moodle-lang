@@ -1,5 +1,5 @@
-﻿<?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8 + (2007021503)
+<?PHP // $Id$ 
+      // resource.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['addresource'] = 'הוסף משאב';
@@ -40,7 +40,7 @@ $string['display'] = 'חלון';
 $string['editingaresource'] = 'עריכת משאב';
 $string['emptyfolder'] = 'רוקן את התיקייה';
 $string['encryptedcode'] = 'קוד מוצפן';
-$string['example'] = 'דוגמא';
+$string['example'] = 'דוגמה';
 $string['exampleurl'] = 'http://www.example.com/somedirectory/somefile.html';
 $string['fetchclienterror'] = 'במהלך הניסיון למצוא ולהחזיר את עמוד הרשת נמצאה שגיאה אצל לקוח הרשת שלך (ייתכן כי מדובר בכתובת URL שגויה).';
 $string['fetcherror'] = 'חלה שגיאה במהלך הניסיון למצוא ולהחזיר את עמוד הרשת.';
