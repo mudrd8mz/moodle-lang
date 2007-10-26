@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.8 + (2007021502)
+      // tag.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addtagtomyinterests'] = 'Agregar \"$a\" a mis intereses';
@@ -36,6 +36,8 @@ $string['tagdescription'] = 'Descripción de la marca';
 $string['tags'] = 'Marcas';
 $string['tagsaredisabled'] = 'Las marcas están deshabilitadas';
 $string['tagtype'] = 'Tipo de marca';
+$string['tagtype_default'] = 'Valor por defecto';
+$string['tagtype_official'] = 'Oficial';
 $string['thingstaggedwith'] = '$a->count cosas marcadas con \"$a->name\"';
 $string['thistaghasnodesc'] = 'Esta marca no tiene descripción en este momento.';
 $string['timemodified'] = 'Modificado';

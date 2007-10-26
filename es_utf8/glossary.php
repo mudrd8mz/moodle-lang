@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 + (2007021502)
+      // glossary.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addcomment'] = 'Agregar comentario';
@@ -29,6 +29,7 @@ $string['categories'] = 'Categorías';
 $string['category'] = 'Categoría';
 $string['categorydeleted'] = 'Categoría eliminada';
 $string['categoryview'] = 'Vista por Categoría';
+$string['changeto'] = 'cambiar a $a';
 $string['cnfallowcomments'] = 'Define si el glosario aceptará por defecto comentarios a las entradas';
 $string['cnfallowdupentries'] = 'Define si el glosario aceptará por defecto entradas duplicadas';
 $string['cnfapprovalstatus'] = 'Define el estado por defecto de las entradas colocadas por los estudiantes';
@@ -51,6 +52,7 @@ $string['commentupdated'] = 'Este comentario se ha actualizado';
 $string['concept'] = 'Concepto';
 $string['concepts'] = 'Conceptos';
 $string['configenablerssfeeds'] = 'Este interruptor posibilita canales RSS para todos los glosarios. Necesitará activar los canales manualmente en los ajustes de cada glosario.';
+$string['current'] = 'Actualmente ordenados $a';
 $string['currentglossary'] = 'Glosario actual';
 $string['dateview'] = 'Buscar por fecha';
 $string['defaultapproval'] = 'Estado de aprobación por defecto';

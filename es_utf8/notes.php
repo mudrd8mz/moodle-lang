@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.8 + (2007021502)
+      // notes.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addnewnote'] = 'Agregar una nueva nota';
+$string['addnewnoteselect'] = 'Seleccionar usuarios sobre los que escribir notas';
 $string['bynameondate'] = 'por $a->name - $a->date';
 $string['content'] = 'Contenido';
 $string['course'] = 'curso';

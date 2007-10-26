@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.7 (2006101007)
+      // access.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['access'] = 'Accesibilidad';
@@ -9,6 +9,8 @@ $string['accessstatement'] = 'Declaración de accesibilidad';
 $string['activitynext'] = 'Actividad siguiente';
 $string['activityprev'] = 'Actividad anterior';
 $string['breadcrumb'] = 'Rastro de breadcrumb';
+$string['currenttopic'] = 'Este tema';
+$string['currentweek'] = 'Esta semana';
 $string['monthnext'] = 'Mes próximo';
 $string['monthprev'] = 'Mes anterior';
 $string['showhideblock'] = 'Mostrar u ocultar bloque';
