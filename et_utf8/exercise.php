@@ -1,7 +1,4 @@
-<?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.5.2 (2005060220)
-
-
+<?php
 $string['absent'] = 'Puudub';
 $string['accumulative'] = 'Kumulatiivne';
 $string['action'] = 'Tegevus';
@@ -180,5 +177,4 @@ $string['wrongpassword'] = 'Vale salasõna selle harjutuse jaoks';
 $string['yourassessment'] = 'Sinu hinnang';
 $string['yourfeedbackgoeshere'] = 'Sinu tagasiside läheb siia';
 $string['yoursubmission'] = 'Sinu esitus';
-
 ?>

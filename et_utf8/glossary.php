@@ -1,7 +1,4 @@
-<?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8.1+ (2007021510)
-
-
+<?php
 $string['addcomment'] = 'Lisa kommentaar';
 $string['addentry'] = 'Lisa uus kirje';
 $string['addingcomment'] = 'Lisa kommentaar';

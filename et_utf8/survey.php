@@ -1,7 +1,4 @@
-<?PHP // $Id$ 
-      // survey.php - created with Moodle 1.5.2 (2005060220)
-
-
+<?php
 $string['actual'] = 'Tegelik';
 $string['actualclass'] = 'Klassi tegelik';
 $string['actualstudent'] = '$a tegelik';
@@ -211,5 +208,4 @@ $string['surveytype'] = 'Küsimustiku tüüp';
 $string['thanksforanswers'] = 'Täname küsimustikule vastamast, $a';
 $string['time'] = 'Aeg';
 $string['viewsurveyresponses'] = 'Vaata $a küsimustiku vastust';
-
 ?>

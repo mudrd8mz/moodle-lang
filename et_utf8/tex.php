@@ -1,3 +1,3 @@
 <?php
-$string['filtername'] = 'TeX\'i kirjaviis';
+$string['filtername']='TeX\'i kirjaviis';
 ?>

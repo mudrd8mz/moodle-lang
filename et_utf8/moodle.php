@@ -1390,4 +1390,10 @@ $string['ajaxuse']='AJAX ja Javascript';
 $string['gettheselogs']='Saa soovitud logid';
 $string['stats']='Statistika';
 $string['adminhelpenvironment']='Kontrolli kuidas server rahuldab praegusi ja tulevasi instaleerimiste nõudeid';
+$string['addsubcategory']='Lisa alamrubriik';
+$string['adminhelpxmldbeditor']='Liides redigeerimaks XMLDB faile. Ainult arendajatele.';
+$string['xmldbeditor']='XMLDB redaktor';
+$string['year']='aasta';
+$string['years']='aastad';
+$string['cancelled']='Tühistatud';
 ?>

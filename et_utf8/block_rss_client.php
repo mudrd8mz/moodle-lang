@@ -35,7 +35,10 @@ $string['timeout']='RSS ajalõpp';
 $string['timeoutdesc']='Aeg minutites, mille jooksul RSS toide on vahemälus';
 $string['updatefeed']='Uuenda uudiste sööte URL';
 $string['validatefeed']='Kontrolli söödet';
-$string['blockname']='RSS klint';
+$string['blockname']='RSS klient';
 $string['sharedfeed']='Jagatud sööde';
-$string['rss_client:manageownfeeds']='Halda oma RSS söötmeid';
+$string['rss_client:manageownfeeds']='Hallata oma RSS söötmeid';
+$string['rss_client:createprivatefeeds']='Luua privaatseid RSS söötmeid';
+$string['rss_client:createsharedfeeds']='Luua jagatud RSS söötmeid';
+$string['rss_client:manageanyfeeds']='Hallata igat RSS söödet';
 ?>

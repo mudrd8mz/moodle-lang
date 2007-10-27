@@ -1,7 +1,4 @@
-<?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.5.2 (2005060220)
-
-
+<?php
 $string['accesscontrol'] = 'Ligipääsukontroll';
 $string['actionaftercorrectanswer'] = 'Tegevus peale õiget vastust';
 $string['addabranchtable'] = 'Lisa harutabel';
@@ -18,7 +15,7 @@ $string['and'] = 'JA';
 $string['answer'] = 'Vastus';
 $string['answeredcorrectly'] = 'õigesti vastatud.';
 $string['answersfornumerical'] = 'Numbriliste küsimuste vastused peaksid olema paarid miinimum- ja maksimumväärtustest.';
-$string['arrangebuttonshorizontally'] = 'Järjesta harude nupud slaidiesitluse reiimis horisontaalselt? ';
+$string['arrangebuttonshorizontally'] = 'Järjesta harude nupud slaidiesitluse režiimis horisontaalselt? ';
 $string['attempt'] = 'Katse: $a';
 $string['attempts'] = 'Katseid';
 $string['available'] = 'Avatud alates';
@@ -264,5 +261,4 @@ $string['yourcurrentgradeis'] = 'Sinu praegune hinne on $a';
 $string['yourgradeisnow'] = 'Sinu tunnihinnet on muudetud, uus hinne on $a';
 $string['yourresponse'] = 'Sinu reageering';
 $string['youshouldview'] = 'Sa peaksid vaatama vähemalt: $a';
-
 ?>
