@@ -1,6 +1,6 @@
 <?php /// $Id$
 
-$string['filtername'] = "Protection adresses de courriel";
+$string['filtername'] = 'Protection adresses de courriel';
 
 ?>
 
