@@ -17,6 +17,7 @@ $string['choicetext'] = 'Текст избора';
 $string['displayhorizontal'] = 'Приказати хоризонтално';
 $string['displaymode'] = 'Начин приказа';
 $string['displayvertical'] = 'Приказати вертикално';
+$string['expired'] = 'Нажалост, ова активност је затворена дана $a и није више доступна';
 $string['fillinatleastoneoption'] = 'Морате понудити најмање два могућа одговора.';
 $string['full'] = '(Попуњено)';
 $string['havetologin'] = 'Морате се пријавити на систем пре потврђивања свог избора';

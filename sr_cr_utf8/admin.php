@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8.1+ (2007021510)
+      // admin.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['accessdenied'] = 'Онемогућен приступ';
@@ -39,6 +39,8 @@ $string['cachetext'] = 'Време трајања кеширања текста'
 $string['cachetype'] = 'Тип кеширања';
 $string['calendar_weekend'] = 'Дани викенда';
 $string['calendarsettings'] = 'Календар';
+$string['cfgwwwrootslashwarning'] = 'Погрешно сте дефинисали &#36;CFG->wwwroot у вашој config.php датотеци. Укључили сте карактер \'/\' на крају. Уклоните га, иначе ће те добијати чудне поруке о грешци попут следеће <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
+$string['cfgwwwrootwarning'] = 'Погрешно сте дефинисали &#36;CFG->wwwroot у вашој config.php датотеци. Адреса не одговара URL адреси коју користите да бисте приступили овој страници. Исправите адресу, иначе ће те добијати чудне поруке о грешци попут следеће <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
 $string['change'] = 'промена';
 $string['changesitelang'] = 'Промени језик сајта';
 $string['choosefiletoedit'] = 'Одабери датотеку за уређивање од горе наведених';
@@ -320,6 +322,7 @@ $string['forcetimezone'] = 'Обавезна подразумевана врем
 $string['framename'] = 'Назив оквира';
 $string['frontpage'] = 'Почетна страница';
 $string['frontpagebackup'] = 'Бекап почетне странице';
+$string['frontpagedefaultrole'] = 'Подразумевана улога за насловну страну';
 $string['frontpageloggedin'] = 'Ставке на почетној страници када је корисник пријављен на систем';
 $string['frontpagerestore'] = 'Почетна страница враћена';
 $string['frontpageroles'] = 'Улоге на насловној страници';
@@ -548,6 +551,7 @@ $string['savechanges'] = 'Сачувај промене';
 $string['search'] = 'Претрага';
 $string['searchinsettings'] = 'Тражи у подешавањима';
 $string['searchresults'] = 'Претрага резултата';
+$string['sectionerror'] = 'Грешка секције!';
 $string['secureforms'] = 'Користити додатне мере безбедности формулара';
 $string['security'] = 'Безбедност';
 $string['server'] = 'Сервер';
