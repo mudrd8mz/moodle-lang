@@ -277,6 +277,7 @@ $string['meangraded'] = '空白ではない評点';
 $string['meanselection'] = 'カラム平均に使用する評点';
 $string['median'] = '中央値';
 $string['min'] = '最低';
+$string['missingscale'] = '尺度を選択してください。';
 $string['mode'] = '最頻値';
 $string['movingelement'] = '$a に移動';
 $string['multfactor'] = '乗数';
