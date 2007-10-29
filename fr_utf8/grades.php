@@ -272,6 +272,7 @@ $string['locktime'] = 'Verrouiller après';
 $string['locktimedate'] = 'Verrouillé après le $a';
 $string['lowest'] = 'Le plus bas';
 $string['lowgradeletter'] = 'Bas';
+$string['missingscale'] = 'Un barème doit être sélectionné';
 $string['manualitem'] = 'Élément manuel';
 $string['mapfrom'] = 'Lier depuis';
 $string['mappings'] = 'Correspondance des éléments d\'évaluation';
