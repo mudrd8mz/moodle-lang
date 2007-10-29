@@ -1374,6 +1374,7 @@ $string['thanks'] = 'Merci';
 $string['theme'] = 'Thème';
 $string['themes'] = 'Thèmes';
 $string['themesaved'] = 'Nouveau thème enregistré';
+$string['thereareno'] = 'Il n\'y a pas de $a dans ce cours';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Fran&#231;ais';
