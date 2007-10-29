@@ -5,7 +5,7 @@
 $string['accesscontrol'] = 'Контроль доступа';
 $string['actionaftercorrectanswer'] = 'Действие после правильного ответа';
 $string['actions'] = 'Действия';
-$string['activitylink'] = 'Переход на этап';
+$string['activitylink'] = 'Переход к элементу курса';
 $string['addabranchtable'] = 'Добавить карточку-рубрикатор (раздел)';
 $string['addanendofbranch'] = 'Добавить конец раздела';
 $string['addaquestionpage'] = 'Добавить страницу с вопросами';
