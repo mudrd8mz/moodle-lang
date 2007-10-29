@@ -326,6 +326,7 @@ $string['frontpage'] = 'フロントページ';
 $string['frontpagebackup'] = 'フロントページバックアップ';
 $string['frontpagedefaultrole'] = 'デフォルトのフロントページロール';
 $string['frontpageloggedin'] = 'ログイン時のフロントページアイテム';
+$string['frontpagequestions'] = 'フロントページ問題';
 $string['frontpagerestore'] = 'フロントページリストア';
 $string['frontpageroles'] = 'フロントページロール';
 $string['frontpagesettings'] = 'フロントページ設定';

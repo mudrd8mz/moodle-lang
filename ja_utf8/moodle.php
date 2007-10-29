@@ -1391,6 +1391,7 @@ $string['thanks'] = 'ありがとうございます';
 $string['theme'] = 'テーマ';
 $string['themes'] = 'テーマ';
 $string['themesaved'] = '新しいテーマが保存されました。';
+$string['thereareno'] = 'このコースには $a がありません。';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = '日本語';
