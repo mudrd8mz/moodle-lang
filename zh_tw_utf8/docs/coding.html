@@ -1,0 +1,1097 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="coding.files/filelist.xml">
+<link rel=Edit-Time-Data href="coding.files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Moodle帮助文档: 程序编写准则</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Aquarius</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Aquarius</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>1</o:TotalTime>
+  <o:Created>2005-07-27T08:55:00Z</o:Created>
+  <o:LastSaved>2005-07-27T08:56:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>782</o:Words>
+  <o:Characters>4462</o:Characters>
+  <o:Company>CMT</o:Company>
+  <o:Lines>37</o:Lines>
+  <o:Paragraphs>10</o:Paragraphs>
+  <o:CharactersWithSpaces>5234</o:CharactersWithSpaces>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>BestFit</w:Zoom>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<link rel=Stylesheet type="text/css" media=all href=docstyles.css>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:新細明體;
+	panose-1:2 2 3 0 0 0 0 0 0 0;
+	mso-font-alt:PMingLiU;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:3 137232384 22 0 1048577 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 3 9 0 0 0 0 0 0;
+	mso-font-alt:MingLiU;
+	mso-font-charset:136;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:3 137232384 22 0 1048577 0;}
+@font-face
+	{;
+	panose-1:2 11 6 3 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:"\@新細明體";
+	panose-1:2 2 3 0 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:3 137232384 22 0 1048577 0;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 3 9 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:3 137232384 22 0 1048577 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:新細明體;
+	mso-bidi-font-family:新細明體;}
+h1
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	background:#CCCCCC;
+	font-size:18.0pt;
+	font-family:新細明體;
+	mso-bidi-font-family:新細明體;
+	font-weight:bold;}
+h2
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	background:#666666;
+	font-size:13.5pt;
+	font-family:新細明體;
+	mso-bidi-font-family:新細明體;
+	font-weight:bold;}
+h3
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	background:#666666;
+	font-size:13.5pt;
+	font-family:新細明體;
+	mso-bidi-font-family:新細明體;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:新細明體;
+	mso-bidi-font-family:新細明體;}
+code
+	{mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:細明體;
+	mso-ascii-font-family:細明體;
+	mso-fareast-font-family:細明體;
+	font-family:細明體;
+	mso-bidi-font-family:細明體;}
+p.question, li.question, div.question
+	{mso-style-name:question;
+	font-size:13.5pt;
+	mso-fareast-font-family:新細明體;
+	mso-bidi-font-family:新細明體;}
+p.answer, li.answer, div.answer
+	{mso-style-name:answer;
+	font-size:13.5pt;
+	mso-fareast-font-family:新細明體;
+	mso-bidi-font-family:新細明體;}
+p.normaltext, li.normaltext, div.normaltext
+	{mso-style-name:normaltext;
+	font-size:13.5pt;
+	mso-fareast-font-family:新細明體;
+	mso-bidi-font-family:新細明體;}
+p.answercode, li.answercode, div.answercode
+	{mso-style-name:answercode;
+	font-size:12.0pt;
+	mso-fareast-font-family:新細明體;}
+p.questionlink, li.questionlink, div.questionlink
+	{mso-style-name:questionlink;
+	font-size:13.5pt;
+	mso-fareast-font-family:新細明體;
+	mso-bidi-font-family:新細明體;}
+p.examplecode, li.examplecode, div.examplecode
+	{mso-style-name:examplecode;
+	font-size:12.0pt;
+	mso-fareast-font-family:新細明體;}
+p.spaced, li.spaced, div.spaced
+	{mso-style-name:spaced;
+	font-size:12.0pt;
+	font-family:新細明體;
+	mso-bidi-font-family:新細明體;}
+p.commandline, li.commandline, div.commandline
+	{mso-style-name:commandline;
+	mso-margin-top-alt:auto;
+	margin-bottom:12.85pt;
+	margin-left:19.3pt;
+	mso-pagination:widow-orphan;
+	background:#FBFBFB;
+	border:none;
+	mso-border-alt:solid #999999 .5pt;
+	padding:0cm;
+	mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt;
+	font-size:10.0pt;
+	mso-fareast-font-family:新細明體;
+	font-weight:bold;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:222106678;
+	mso-list-template-ids:424313782;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l1
+	{mso-list-id:235095038;
+	mso-list-template-ids:1146630208;}
+@list l2
+	{mso-list-id:662854157;
+	mso-list-template-ids:-1054601604;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l3
+	{mso-list-id:1551576210;
+	mso-list-template-ids:1020438958;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:表格內文;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white lang=ZH-TW link=blue vlink=blue style='tab-interval:24.0pt'>
+
+<div class=Section1>
+
+<h1>Moodle</span><span
+style='mso-ascii-;'>程式編寫準則</span><span
+ style=''><o:p></o:p></span></h1>
+
+<p class=normaltext><span style='font-family:新細明體;mso-ascii-;
+'>任何合作的專案都需要一致性和穩定性才能保持它的強壯。</span></p>
+
+<p class=normaltext><span style='font-family:新細明體;mso-ascii-;
+'>編寫這些準則的目的是為所有的</span><span >Moodle</span><span
+style='font-family:新細明體;mso-ascii-;font-family:
+"Trebuchet MS"'>代碼提供一個努力的目標。有一些比較老的已經存在的代碼在極少的方面尚未達標，但它們最終將會被修正。所有新的代碼都必須盡可能地遵守這些準則。</span></p>
+
+<h2><span style='mso-ascii-;font-family:
+"Trebuchet MS"'>一般規定</h2>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l3 level1 lfo1;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>所有代碼檔應當使用</span> .php </span>作為副檔名。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l3 level1 lfo1;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>所有範本檔應當使用</span> .html </span>作為副檔名。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l3 level1 lfo1;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>所有文字檔案應當使用</span>Unix</span>風格的文本格式</span>(</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>多數的文本編輯器都有這個選項</span>)</span>。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l3 level1 lfo1;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>所有</span><span 
+style='font-size:13.5pt;'>php</span>標記都必須是</span>“</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>完整</span><span 
+style='font-size:13.5pt;'>”</span>標記，譬如</span><span  style='font-size:13.5pt;
+;color:#339900'>&lt;?php ?&gt;</span> ... </span>而不是如</span><span  style='font-size:13.5pt;font-family:
+"Trebuchet MS";color:#339900'>&lt;? ?&gt;</span><span style='font-size:13.5pt;
+mso-ascii-;'>的</span>“</span>短</span>”</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>標記。</span><span
+style='font-size:13.5pt;'> <span ><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l3 level1 lfo1;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>所有已經存在的版權聲明應當被保留。如果有必要，您可以加入自己的。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l3 level1 lfo1;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>每個檔都應當包含主</span>config.php</span>文件。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l3 level1 lfo1;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>每個檔都應當檢查用戶的身份是否正確，可以使用函數</span>require_login()</span>和</span>isadmin()</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>、</span><span 
+style='font-size:13.5pt;'>isteacher()</span>、</span>iscreator()</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>或者</span><span 
+style='font-size:13.5pt;'>isstudent()</span>。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l3 level1 lfo1;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>所有訪問資料庫的操作都應當使用</span>lib/datalib.php</span>中的函數</span>――</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>這樣可以相容更多的資料庫伺服器。所有的事情都應當是可以用這些函數來完成的，如果遇到必須要寫</span>SQL</span>代碼的情況，請記住這些代碼應當是跨平臺的，且僅僅對您代碼中的特定函數</span><span 
+style='font-size:13.5pt;'>(</span>通常在一個</span>lib.php</span><span style='font-size:13.5pt;
+mso-ascii-;'>檔中</span>)</span>有效，且代碼中用注釋進行明確說明。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l3 level1 lfo1;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>不要建立和使用標準總體變數</span>$CFG</span>、</span>$SESSION</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>、</span><span 
+style='font-size:13.5pt;'>$THEME</span>和</span>$USER</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>之外的總體變數。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l3 level1 lfo1;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>10.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>所有變數都應當被初始化或者至少在使用前用</span>isset()</span>或</span>empty()</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>等函數進行檢測。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l3 level1 lfo1;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>11.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>所有字串都應當可翻譯</span>――</span>在</span>&quot;lang/en&quot;</span><span style='font-size:13.5pt;
+mso-ascii-;'>目錄中創建新的文字檔案，字串應當使用簡潔的英文小寫名稱，並通過函數</span>get_string()</span>或</span>print_string()</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>來取得。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l3 level1 lfo1;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>12.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>所有幫助檔應當可翻譯</span>――</span>在</span>&quot;en/help&quot;</span><span style='font-size:13.5pt;
+mso-ascii-;'>目錄中創建文字檔案並且通過</span>helpbutton()</span>函數來調用它們。</span><span style='font-size:13.5pt;'>
+<span ><o:p></o:p></span></span></p>
+
+<p style='margin-left:19.3pt;background:white'><span style='font-size:13.5pt;
+mso-ascii-;'>如果需要上傳一個幫助檔：</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.45pt;
+margin-left:55.3pt;text-indent:-18.0pt;mso-list:l3 level2 lfo1;tab-stops:list 72.0pt;
+background:white'><![if !supportLists]><span  style='font-size:10.0pt;
+mso-bidi-font-size:13.5pt;font-family:"Courier New"font-family:
+"Courier New"'><span style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>對於小的修改，舊的翻譯檔仍然可以繼續使用時，可以直接進行修改，但您應當通知</span>translation@moodle.org<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.45pt;
+margin-left:55.3pt;text-indent:-18.0pt;mso-list:l3 level2 lfo1;tab-stops:list 72.0pt;
+background:white'><![if !supportLists]><span  style='font-size:10.0pt;
+mso-bidi-font-size:13.5pt;font-family:"Courier New"font-family:
+"Courier New"'><span style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>對於大的修改，應當創建新的檔，新檔的檔案名是在原檔案名的末尾添加一個數字，並在以後逐漸增加</span>(</span>如</span>filename2.html)</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>，這樣翻譯人員就可以方便地知道檔有了一個新的版本。很顯然，新的代碼和幫助索引檔都必須修改以指向新版本的檔。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l3 level1 lfo1;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>13.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>從流覽器發來的資訊</span>(</span>以</span>GET</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>或</span><span 
+style='font-size:13.5pt;'>POST</span>形式發送</span>)</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>都應用了</span>magic_quotes(</span>無論</span>PHP</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>的設置如何</span>)</span>，因此直接將它們插入到資料庫中是安全的。所有其他的原始資料</span><span 
+style='font-size:13.5pt;'>(</span>來自檔或資料庫的</span>)</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>都必須在插入資料庫前使用</span><span
+ style='font-size:13.5pt;;color:#339900'>addslashes()</span>進行預處理。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l3 level1 lfo1;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>14.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>重要的：</span>Moodle</span>中所有的文本，特別是用戶提供的文本，都必須使用</span><span 
+style='font-size:13.5pt;'>format_text()</span>函數來輸出。這樣就可以確保文本已經正確地過濾。</span><span 
+style='font-size:13.5pt;'><o:p></o:p></span></p>
+
+<h2><span style='mso-ascii-;font-family:
+"Trebuchet MS"'>編碼風格</h2>
+
+<p class=normaltext><span style='font-family:新細明體;mso-ascii-;
+'>我知道，如果您已經習慣了一種編碼風格而我卻讓您改變它是有一點討厭的，但比較而言，這比日後所有人都需要去搞清混合風格的</span><span
+>Moodle</span><span style='font-family:新細明體;mso-ascii-font-family:
+"Trebuchet MS";'>代碼要好一些。對於人們使用的任何編碼風格都有很多支援和反對的意見，但現在正在使用的風格<strong><span
+style='font-family:新細明體;mso-ascii-;font-family:
+"Trebuchet MS";mso-bidi-font-family:新細明體'>已經存在</span></strong>了，因此請堅持下去。</span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><strong><span style='font-size:13.5pt;
+font-family:新細明體;mso-ascii-;font-family:
+"Trebuchet MS";mso-bidi-font-family:新細明體'>縮進</span></strong>應當是</span>4</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>個連續的空格。絕對不要使用跳位字元。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><strong><span style='font-size:13.5pt;
+font-family:新細明體;mso-ascii-;font-family:
+"Trebuchet MS";mso-bidi-font-family:新細明體'>變數名</span></strong>應當是容易理解、有含義的小寫英文單詞。如果確實需要兩個或以上的單詞，請把它們連在一起，但要保持名稱盡可能短。對於陣列物件，請使用複數名稱。</span><span
+style='font-size:13.5pt;'> <span ><o:p></o:p></span></span></p>
+
+<div style='mso-element:para-border-div;border:dashed #999999 1.0pt;mso-border-alt:
+dashed #999999 .75pt;padding:19.0pt 19.0pt 19.0pt 19.0pt;background:#FBFBFB;
+margin-left:19.3pt;margin-right:0cm'>
+
+<p class=examplecode style='background:#FBFBFB'><span style='font-family:新細明體;
+mso-ascii-font-family:"Courier New";font-family:"Courier New";
+color:#006600'>好的</span><span  style='color:#006600'>: $quiz<br>
+</span><span style='font-family:新細明體;mso-ascii-font-family:"Courier New";
+font-family:"Courier New";color:#006600'>好的</span><span 
+style='color:#006600'>: $errorstring<br>
+</span><span style='font-family:新細明體;mso-ascii-font-family:"Courier New";
+font-family:"Courier New";color:#006600'>好的</span><span 
+style='color:#006600'>: $assignments (</span><span style='font-family:新細明體;
+mso-ascii-font-family:"Courier New";font-family:"Courier New";
+color:#006600'>用於陣列</span><span  style='color:#006600'>)<br>
+</span><span style='font-family:新細明體;mso-ascii-font-family:"Courier New";
+font-family:"Courier New";color:#006600'>好的</span><span 
+style='color:#006600'>: $i (</span><span style='font-family:新細明體;mso-ascii-font-family:
+"Courier New";font-family:"Courier New";color:#006600'>僅用於小型迴圈</span><span
+ style='color:#006600'>)<br>
+<br>
+</span><span style='font-family:新細明體;mso-ascii-font-family:"Courier New";
+font-family:"Courier New";color:#006600'>壞的</span><span 
+style='color:#006600'>: $Quiz <br>
+</span><span style='font-family:新細明體;mso-ascii-font-family:"Courier New";
+font-family:"Courier New";color:#006600'>壞的</span><span 
+style='color:#006600'>: $aReallyLongVariableNameWithoutAGoodReason<br>
+</span><span style='font-family:新細明體;mso-ascii-font-family:"Courier New";
+font-family:"Courier New";color:#006600'>壞的</span><span 
+style='color:#006600'>: $error_string</span></p>
+
+</div>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><strong><span style='font-size:13.5pt;
+font-family:新細明體;mso-ascii-;font-family:
+"Trebuchet MS";mso-bidi-font-family:新細明體'>常量</span></strong>應當總是大寫的，並總是以模組的名稱作為首碼。單詞之間應當用下劃線分隔。</span><span
+style='font-size:13.5pt;'> <span ><o:p></o:p></span></span></p>
+
+<div style='mso-element:para-border-div;border:dashed #999999 1.0pt;mso-border-alt:
+dashed #999999 .75pt;padding:19.0pt 19.0pt 19.0pt 19.0pt;background:#FBFBFB;
+margin-left:19.3pt;margin-right:0cm'>
+
+<p class=examplecode style='background:#FBFBFB'><span 
+style='color:#006600'>define(&quot;FORUM_MODE_FLATOLDEST&quot;, 1);</span></p>
+
+</div>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><strong><span style='font-size:13.5pt;
+font-family:新細明體;mso-ascii-;font-family:
+"Trebuchet MS";mso-bidi-font-family:新細明體'>函數名稱</span></strong>應當是簡單的英文小寫單詞，且總是以模組名作為首碼以防止模組之間的衝突。單詞之間以下劃線分隔。變數如果可能應當總有合理的缺省值。注意在函數名和其後的括弧之間沒有空格。</p>
+
+<div style='mso-element:para-border-div;border:dashed #999999 1.0pt;mso-border-alt:
+dashed #999999 .75pt;padding:19.0pt 19.0pt 19.0pt 19.0pt;background:#FBFBFB;
+margin-left:19.3pt;margin-right:0cm'>
+
+<p class=examplecode style='background:#FBFBFB'><span 
+style='color:#007700'>function </span><span  style='color:#0000BB'>forum_set_display_mode</span><span
+ style='color:#007700'>(</span><span  style='color:#0000BB'>$mode</span><span
+ style='color:#007700'>=</span><span  style='color:#0000BB'>0</span><span
+ style='color:#007700'>) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;global </span><span  style='color:#0000BB'>$USER</span><span
+ style='color:#007700'>, </span><span  style='color:#0000BB'>$CFG</span><span
+ style='color:#007700'>;<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;if (</span><span  style='color:#0000BB'>$mode</span><span
+ style='color:#007700'>) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span 
+style='color:#0000BB'>$USER</span><span  style='color:#007700'>-&gt;</span><span
+ style='color:#0000BB'>mode </span><span  style='color:
+#007700'>= </span><span  style='color:#0000BB'>$mode</span><span
+ style='color:#007700'>;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;} else if (empty(</span><span 
+style='color:#0000BB'>$USER</span><span  style='color:#007700'>-&gt;</span><span
+ style='color:#0000BB'>mode</span><span  style='color:#007700'>))
+{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span 
+style='color:#0000BB'>$USER</span><span  style='color:#007700'>-&gt;</span><span
+ style='color:#0000BB'>mode </span><span  style='color:
+#007700'>= </span><span  style='color:#0000BB'>$CFG</span><span
+ style='color:#007700'>-&gt;</span><span  style='color:
+#0000BB'>forum_displaymode</span><span  style='color:#007700'>;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+}</span></p>
+
+</div>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><strong><span style='font-size:13.5pt;
+font-family:新細明體;mso-ascii-;font-family:
+"Trebuchet MS";mso-bidi-font-family:新細明體'>語句塊</span></strong>必須總是使用大括弧</span>(</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>即便是只有一行</span>)</span>。</span>Moodle</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>使用如下風格</span>: <o:p></o:p></span></p>
+
+<div style='mso-element:para-border-div;border:dashed #999999 1.0pt;mso-border-alt:
+dashed #999999 .75pt;padding:19.0pt 19.0pt 19.0pt 19.0pt;background:#FBFBFB;
+margin-left:19.3pt;margin-right:0cm'>
+
+<p class=examplecode style='background:#FBFBFB'><span 
+style='color:#006600'>if (</span><span  style='color:#0000CC'>$quiz</span><span
+ style='color:#006600'>-&gt;</span><span  style='color:
+#0000CC'>attempts</span><span  style='color:#006600'>) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;if (</span><span  style='color:#0000CC'>$numattempts
+</span><span  style='color:#006600'>&gt; </span><span 
+style='color:#0000CC'>$quiz</span><span  style='color:#006600'>-&gt;</span><span
+ style='color:#0000CC'>attempts</span><span 
+style='color:#006600'>) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span 
+style='color:#0000CC'>error</span><span  style='color:#006600'>(</span><span
+ style='color:#0000BB'>$strtoomanyattempts</span><span 
+style='color:#006600'>, </span><span  style='color:#CC0000'>&quot;view.php?id=$cm</span><span
+ style='color:#006600'>-&gt;</span><span  style='color:
+#CC0000'>id&quot;</span><span  style='color:#006600'>);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+}</span></p>
+
+</div>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><strong><span style='font-size:13.5pt;
+font-family:新細明體;mso-ascii-;font-family:
+"Trebuchet MS";mso-bidi-font-family:新細明體'>字串</span></strong>應當盡可能用單引號定義以提高速度。</p>
+
+<div style='mso-element:para-border-div;border:dashed #999999 1.0pt;mso-border-alt:
+dashed #999999 .75pt;padding:19.0pt 19.0pt 19.0pt 19.0pt;background:#FBFBFB;
+margin-left:19.3pt;margin-right:0cm'>
+
+<p class=examplecode style='background:#FBFBFB'><span 
+style='color:#006600'>$var = 'some text without any variables';<br>
+$var = &quot;with special characters like a new line n&quot;;<br>
+$var = 'a very, very long string with a '.$single.' variable in it';<br>
+$var = &quot;some $text with $many variables $within it&quot;; </span></p>
+
+</div>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>實用的<strong><span
+style='font-family:新細明體;mso-ascii-;font-family:
+"Trebuchet MS";mso-bidi-font-family:新細明體'>注釋</span></strong>應當盡可能填寫，用以解釋代碼流程和函數與變數的功能。</span><span
+style='font-size:13.5pt;'> <span ><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.45pt;
+margin-left:55.3pt;text-indent:-18.0pt;mso-list:l0 level2 lfo2;tab-stops:list 72.0pt;
+background:white'><![if !supportLists]><span  style='font-size:10.0pt;
+mso-bidi-font-size:13.5pt;font-family:"Courier New"font-family:
+"Courier New"'><span style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>每個函數和類都應該使用流行的</span><a
+href="http://www.phpdoc.org/" target="_blank">phpDoc<span 
+style='font-family:新細明體;mso-ascii-;font-family:
+"Trebuchet MS"'><span >格式</span></span></a></span>編寫，以便自動生成代碼文檔。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.45pt;
+margin-left:55.3pt;text-indent:-18.0pt;mso-list:l0 level2 lfo2;tab-stops:list 72.0pt;
+background:white'><![if !supportLists]><span  style='font-size:10.0pt;
+mso-bidi-font-size:13.5pt;font-family:"Courier New"font-family:
+"Courier New"'><span style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>內嵌注釋應使用</span> // </span>風格，並且整齊佈局，使其能融入代碼中並和代碼對齊。</span><span style='font-size:13.5pt;
+'> <span ><o:p></o:p></span></span></p>
+
+<div style='mso-element:para-border-div;border:dashed #999999 1.0pt;mso-border-alt:
+dashed #999999 .75pt;padding:19.0pt 19.0pt 19.0pt 19.0pt;background:#FBFBFB;
+margin-left:19.3pt;margin-right:0cm'>
+
+<p class=examplecode style='background:#FBFBFB'><span 
+style='color:#FF8000'>/**<br>
+* The description should be first, with asterisks laid out exactly<br>
+* like this example. If you want to refer to a another function,<br>
+* do it like this: {@link clean_param()}. Then, add descriptions <br>
+* for each parameter as follows.<br>
+*<br>
+* @param int $postid The PHP type is followed by the variable name<br>
+* @param array $scale The PHP type is followed by the variable name<br>
+* @param array $ratings The PHP type is followed by the variable name<br>
+* @return mixed<br>
+*/</span><span ><br>
+<span style='color:#006600'>function </span><span style='color:#0000BB'>forum_get_ratings_mean</span><span
+style='color:#007700'>(</span><span style='color:#0000BB'>$postid</span><span
+style='color:#007700'>, </span><span style='color:#0000BB'>$scale</span><span
+style='color:#007700'>, </span><span style='color:#0000BB'>$ratings</span><span
+style='color:#007700'>=</span><span style='color:#0000BB'>NULL</span><span
+style='color:#007700'>) {<br>
+</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style='color:#007700'>if (!</span><span
+style='color:#0000BB'>$ratings</span><span style='color:#007700'>) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='color:#0000BB'>$ratings
+</span><span style='color:#007700'>= array(); &nbsp;&nbsp;&nbsp;&nbsp;</span><span
+style='color:#FF8000'>// Initialize the empty array</span><span
+style='color:#007700'><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (</span><span
+style='color:#0000BB'>$rates </span><span style='color:#007700'>= </span><span
+style='color:#0000BB'>get_records</span><span style='color:#007700'>(</span><span
+style='color:#DD0000'>&quot;forum_ratings&quot;</span><span style='color:#007700'>,
+</span><span style='color:#DD0000'>&quot;post&quot;</span><span
+style='color:#007700'>, </span><span style='color:#0000BB'>$postid</span><span
+style='color:#007700'>)) {<br>
+&nbsp;&nbsp;&nbsp;</span><span
+style='color:#FF8000'>// Process each rating in turn</span><span
+style='color:#007700'><br>
+&nbsp;&nbsp;&nbsp;foreach
+(</span><span style='color:#0000BB'>$rates </span><span style='color:#007700'>as
+</span><span style='color:#0000BB'>$rate</span><span style='color:#007700'>) {</span>
+<br>
+....etc </span></p>
+
+</div>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><strong><span style='font-size:13.5pt;
+font-family:新細明體;mso-ascii-;font-family:
+"Trebuchet MS";mso-bidi-font-family:新細明體'>換行</span></strong>可以被大方地使用</span>——</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>把東西分散開看起來會比較清楚。一般情況下，在花括弧和普通命令之間應當有一個換行符，但在花括弧和變數或函數之間可以沒有換行符</span>:<o:p></o:p></span></p>
+
+<div style='mso-element:para-border-div;border:dashed #999999 1.0pt;mso-border-alt:
+dashed #999999 .75pt;padding:19.0pt 19.0pt 19.0pt 19.0pt;background:#FBFBFB;
+margin-left:19.3pt;margin-right:0cm'>
+
+<p class=examplecode style='background:#FBFBFB'><span 
+style='color:#007700'>foreach (</span><span  style='color:#0000BB'>$objects
+</span><span  style='color:#007700'>as </span><span 
+style='color:#0000BB'>$key </span><span  style='color:#007700'>=&gt;</span><span
+ style='color:#0000BB'> $thing</span><span 
+style='color:#007700'>)</span><span  style='color:#006600'> {<br>
+</span><span  style='color:#007700'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+ style='color:#0000BB'>process($thing);</span><span 
+style='color:#006600'> <br>
+} <br>
+<br>
+</span><span  style='color:#007700'>if (</span><span 
+style='color:#0000BB'>$x </span><span  style='color:#007700'>== </span><span
+ style='color:#0000BB'>$y</span><span  style='color:#007700'>)</span><span
+ style='color:#006600'> {<br>
+</span><span  style='color:#007700'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+ style='color:#0000BB'>$a </span><span  style='color:#007700'>=
+</span><span  style='color:#0000BB'>$b</span><span 
+style='color:#007700'>;</span><span  style='color:#006600'><br>
+} else if (</span><span  style='color:#0000BB'>$x </span><span
+ style='color:#007700'>== </span><span  style='color:#0000BB'>$z</span><span
+ style='color:#006600'>) {<br>
+</span><span  style='color:#007700'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+ style='color:#0000BB'>$a </span><span  style='color:#007700'>=
+</span><span  style='color:#0000BB'>$c</span><span 
+style='color:#007700'>;</span><span  style='color:#006600'><br>
+} else {<br>
+</span><span  style='color:#007700'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+ style='color:#0000BB'>$a </span><span  style='color:#007700'>=
+</span><span  style='color:#0000BB'>$d</span><span 
+style='color:#007700'>;</span><span  style='color:#006600'><br>
+} </span></p>
+
+</div>
+
+<h2><span style='mso-ascii-;font-family:
+"Trebuchet MS"'>資料庫結構</h2>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l2 level1 lfo3;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>每個表格都必須有一個自增的</span><strong><span
+ style='font-size:13.5pt;;mso-bidi-font-family:
+新細明體'>id</span></strong><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>欄位</span><span 
+style='font-size:13.5pt;'>(INT10)</span>作為主鍵。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l2 level1 lfo3;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>包含著模組中資料實例的主表格必須和模組同名</span>(</span>譬如</span><strong><span  style='font-size:13.5pt;
+;mso-bidi-font-family:新細明體'>widget</span></strong>)</span>，並且至少包含如下欄位</span>: <o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.45pt;
+margin-left:55.3pt;text-indent:-18.0pt;mso-list:l2 level2 lfo3;tab-stops:list 72.0pt;
+background:white'><![if !supportLists]><span  style='font-size:10.0pt;
+mso-bidi-font-size:13.5pt;font-family:"Courier New"font-family:
+"Courier New"'><span style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>
+</span></span></span><![endif]><strong><span  style='font-size:13.5pt;
+;mso-bidi-font-family:新細明體'>id</span></strong> - </span>如上一條所述</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.45pt;
+margin-left:55.3pt;text-indent:-18.0pt;mso-list:l2 level2 lfo3;tab-stops:list 72.0pt;
+background:white'><![if !supportLists]><span  style='font-size:10.0pt;
+mso-bidi-font-size:13.5pt;font-family:"Courier New"font-family:
+"Courier New"'><span style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>
+</span></span></span><![endif]><strong><span  style='font-size:13.5pt;
+;mso-bidi-font-family:新細明體'>course</span></strong> - </span>每個實例所屬的課程</span>id<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.45pt;
+margin-left:55.3pt;text-indent:-18.0pt;mso-list:l2 level2 lfo3;tab-stops:list 72.0pt;
+background:white'><![if !supportLists]><span  style='font-size:10.0pt;
+mso-bidi-font-size:13.5pt;font-family:"Courier New"font-family:
+"Courier New"'><span style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>
+</span></span></span><![endif]><strong><span  style='font-size:13.5pt;
+;mso-bidi-font-family:新細明體'>name</span></strong> - </span>每個實例的完整名稱</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l2 level1 lfo3;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>與模組相關的其他表格的命名規則是：如果它包含的資訊是關於</span>“things”</span>的，則它的名字應當是</span><strong><span  style='font-size:
+13.5pt;;mso-bidi-font-family:新細明體'>widget_things</span></strong>(</span>注意採用複數形式</span>)</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>。</span><span 
+style='font-size:13.5pt;'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l2 level1 lfo3;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>欄位名稱應當簡短，與變數名的規則相同。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l2 level1 lfo3;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>在可能的情況下，包含著對其他表格</span>(</span>如</span><strong><span  style='font-size:13.5pt;
+;mso-bidi-font-family:新細明體'>widget</span></strong>)</span>引用的欄位應當命名為</span><strong><span  style='font-size:
+13.5pt;;mso-bidi-font-family:新細明體'>widgetid</span></strong>。</span>(</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>注意這是個新約定，有一些老的表格並未遵守</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l2 level1 lfo3;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>布林欄位應當使用小整數類型</span>(</span>如</span>INT4)</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>並存儲為</span>0</span>或</span>1</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>，這樣就可以在需要時擴展它。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l2 level1 lfo3;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>多數的表格應當有一個</span><strong><span
+ style='font-size:13.5pt;;mso-bidi-font-family:
+新細明體'>timemodified</span></strong><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>欄位</span><span 
+style='font-size:13.5pt;'>(INT10)</span>，並用</span>PHP</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>的</span><strong><span
+ style='font-size:13.5pt;;mso-bidi-font-family:
+新細明體'>time</span></strong>()</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>函數取得的當前時間戳來更新它。</p>
+
+<div class=MsoNormal align=center style='text-align:center'><span 
+style=''>
+
+<hr size=2 width="100%" align=center>
+
+</span></div>
+
+<p>&nbsp;<o:p></o:p></span></p>
+
+<h2><span style='mso-ascii-;font-family:
+"Trebuchet MS"'>安全問題（處理表單和</span>URL</span><span
+style='mso-ascii-;'>資料）</span><span
+ style=''><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>不要依靠</span>“register_globals”</span>。<strong><span style='font-family:新細明體;mso-ascii-font-family:
+"Trebuchet MS";;mso-bidi-font-family:新細明體'>每個</span></strong>變數必須在<strong><span
+style='font-family:新細明體;mso-ascii-;font-family:
+"Trebuchet MS";mso-bidi-font-family:新細明體'>每個</span></strong>原始檔案裏正確初始化。變數的來源必須顯而易見</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>初始化所有的陣列和物件，即使它是空的。</span><code><span
+>$a = array()</span></code><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>或</span><code><span
+>$obj = new stdClass();</span></code><span style='font-size:13.5pt;
+mso-ascii-;'>。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>不要使用</span><code><span
+>optional_variable()</span></code><span style='font-size:13.5pt;
+mso-ascii-;'>函數。使用</span><code><span
+>optional_param()</span></code><span style='font-size:13.5pt;
+mso-ascii-;'>函數來替代。根據資料類型選擇正確的</span>PARAM_XXXX</span>值。使用</span><code><span >set_default()</span></code>函數檢查和設置變數的可選值。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>不要使用</span><code><span
+>require_variable()</span></code><span style='font-size:13.5pt;
+mso-ascii-;'>函數。使用</span><code><span
+>required_param()</span></code><span style='font-size:13.5pt;
+mso-ascii-;'>來替代。根據資料類型選擇正確的</span>PARAM_XXXX</span>值。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>不要使用</span><code><span
+>$_GET</span></code><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>、</span><code><span
+>$_POST</span></code><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>或</span><code><span
+>$_REQUEST</span></code><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>。根據您的需要使用更合適的</span><code><span
+>required_param()</span></code><span style='font-size:13.5pt;
+mso-ascii-;'>或</span><code><span
+>optional_param()</span></code><span  style='font-size:
+13.5pt;'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>檢查一個動作時，不要使用像</span><code><span
+>if (isset($_GET['something']))</span></code>這樣的代碼。可以使用諸如：</span><code><span
+>$something = optional_param( 'something','',PARAM_ALPHA )</span></code>，並且用</span><code><span >empty()</span></code>函數或（如果</span>'empty'</span><span style='font-size:13.5pt;
+mso-ascii-;'>也是一個合法值）</span><code><span
+>isset_param()</span></code><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>函數測試</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>在任何可能的情況下，把您所有的</span><code><span
+>required_param()</span></code><span style='font-size:13.5pt;
+mso-ascii-;'>、</span><code><span
+>optional_param()</span></code><span style='font-size:13.5pt;
+mso-ascii-;'>和其他的變數初始化一起放在每個文件的開頭，這樣它們會更容易被找到。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>使用</span><span 
+style='font-size:13.5pt;'>“sesskey”</span>機制保護表單處理函數不被攻擊。簡單示例：當生成表單的時候，要包含</span><code><span >&lt;input
+type=&quot;hidden&quot; name=&quot;sesskey&quot; value=&quot;&lt;?php echo
+sesskey(); ?&gt;&quot; /&gt;</span></code><span style='font-size:13.5pt;
+mso-ascii-;'>。使用表單時用</span><code><span
+>if (!confirm_sesskey()) {error('Bad Session Key');}</span></code>檢查。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>所有檔案名必須用</span><code><span
+>clean_filename()</span></code><span style='font-size:13.5pt;
+mso-ascii-;'>函數</span>“</span>過濾</span>”</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>，但如果已經適當地使用</span><code><span
+>required_param()</span></code><span style='font-size:13.5pt;
+mso-ascii-;'>或</span><code><span
+>optional_param()</span>做了此項工作，則不必如此</code><span style='font-size:
+13.5pt;'> <span ><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>10.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>再把任何從資料庫讀出的資料寫回之前，必須先用</span><code><span
+>addslashes()</span></code><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>處理。一個完整資料物件可以用</span><code><span
+>addslashes_object()</span></code><span style='font-size:13.5pt;
+mso-ascii-;'>一次性完全處理完畢。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>11.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>在任何可能的情況下，存入資料庫的資料必須來自</span><code><span
+>POST</span></code><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>資料（也就是來自表單的資料），而不能來自</span><code><span
+>GET</span></code><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>資料（也就是來自</span>URL</span>的資料）。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>12.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>如果能避免的話，不要使用來自</span><code><span
+>$_SERVER</span></code><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>的資料。它會給移植性帶來問題</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>13.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>在其他地方沒有做的情況下，確保所有寫入資料庫的資料已經被</span><code><span
+>clean_param</span></code> </span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>函數處理，並且針對資料類型，使用了恰當的</span>PARAM_XXXX</span>。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>14.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>如果您編寫了自定義的</span>SQL</span>代碼，請確保它是正確的。尤其小心在數值周圍不要丟失引號，這可能會帶來</span><span 
+style='font-size:13.5pt;'>SQL“</span>注入</span>”</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>漏洞。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>15.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><strong><span style='font-size:13.5pt;
+font-family:新細明體;mso-ascii-;font-family:
+"Trebuchet MS";mso-bidi-font-family:新細明體'>每個</span></strong>檔內都要檢查它使用的所有資料（尤其是寫到資料庫的資料）的合法性。不要期盼或依賴其他地方已經檢查了。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:19.3pt;
+margin-left:19.3pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt;
+background:white'><![if !supportLists]><span  style='font-size:13.5pt;
+;mso-bidi-font-family:
+"Trebuchet MS"'><span style='mso-list:Ignore'>16.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>被其他檔包含的代碼塊應當有確切定義的</span>PHP</span>結構（例如類的聲明、函數定義等）</span>——</span><span style='font-size:13.5pt;mso-ascii-font-family:
+"Trebuchet MS";'>直接執行的代碼塊建議使用變數時不要初始化。</p>
+
+<p align=center style='text-align:center'><span  style='font-size:
+7.5pt;'><a href="." target="_top">Moodle文檔</span></a></span><o:p></o:p></span></p>
+
+<p align=center style='text-align:center'><span  style='font-size:
+7.5pt;'>Version: $Id$</span><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

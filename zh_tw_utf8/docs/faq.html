@@ -1,0 +1,397 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Moodle 文件：常問問題 (FAQ)</title>
+<link rel="stylesheet" href="docstyles.css" type="TEXT/CSS" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+<h1>常問問題(FAQ)</h1>
+<p class="normaltext">這一頁包含人們安裝Moodle時，最常問的一些問題。如果你有遵循<a href="./?file=install.html">安裝說明</a> 但仍遇到困難，那麼這一頁可能對你有幫助。 </p>
+
+<p class="normaltext">如果再這一頁找不到你要的答案，那試著到moodle.org 的 <a href="http://moodle.org/mod/forum/index.php?id=5" target="_top">使用 
+  Moodle</a> 課程。 從以關鍵字在討論區搜尋開始，說不定你的問題已經曾被討論過。 
+  如果你找不到你要的，那就試著把你的問題挑倒是當的討論區。 - 或許有某個人能夠幫助你。</p>
+
+<p class="normaltext">如果你是過多種方法，仍無法解決問題，且你的moodle是在防火牆(Firewalls)之後運作，或許你應該是著重新設定你的防火牆，以確保它沒有阻礙了必要的功能或需要的溝通。防火牆很少對 Moodle 造成問題，但偶爾會因為設定錯誤，而減損了它的功能。
+
+<p class="normaltext">使用下列表單跳到下列適當的答案上:</p>
+
+<p class="questionlink"><a href="#filenotfound">當我試著去取用或檢視我上傳的檔案時，我得到&quot;找不到檔案&quot; 的錯誤訊息</a></p>
+
+<p class="questionlink"><a href="#php">PHP - 它是否安裝好了，以及我有的是哪一版本？</a></p>
+
+<p class="questionlink"><a href="#blankpages">為什麼我的頁面都是空白？</a></p>
+
+<p class="questionlink"><a href="#errorgetstring">我的頁面顯示有嚴重錯誤，例如：call to undefined function: get_string()</a></p>
+
+<p class="questionlink"><a href="#headerssent">為什麼我一直得到錯誤訊息說：&quot;headers already sent&quot;?</a></p>
+
+<p class="questionlink"><a href="#failedopen">I keep getting this error: Failed opening required '/web/moodle/lib/setup.php'</a></p>
+
+<p class="questionlink"><a href="#quotes">Any text I add with an apostrophe (') or a quote (&quot;) causes errors or comes up with a slash added</a></p>
+
+<p class="questionlink"><a href="#sessiontmp">我一直得到關於 session_start 的錯誤訊息。</a></p>
+
+<p class="questionlink"><a href="#fixdirroot">當我進入管理頁面時，I get told to make dirroot blank!</a></p>
+
+<p class="questionlink"><a href="#loginsetting">I login but the login link doesn't change. I am logged in and can navigate freely.</a></p>
+
+<p class="questionlink"><a href="#resource1">當試著新添加一資源時，我得到錯誤訊息。</a></p>
+
+<p class="questionlink"><a href="#noadmin">在第一次設定的過程中，它沒有要求我建立管理員帳號！</a></p>
+
+<p class="questionlink"><a href="#nologin">我完全無法登入- 我一直卡在登入畫面上。</a></p>
+
+<p class="questionlink"><a href="#backup">我如何備份我的 Moodle 網站？</a></p>
+
+<p class="questionlink"><a href="#locale">為什麼我的 Moodle 網站無法正確顯示日期和時間？</a></p>
+
+<p class="questionlink"><a href="#cron">我的討論區無法送出 Email副本</a></p>
+
+<p class="questionlink">&nbsp;</p>
+
+<h3><a name="filenotfound"></a>當我試著去取用或檢視我上傳的檔案時，我得到&quot;找不到檔案&quot; 的錯誤訊息</h3>
+
+<p class="answer">例如說您看到: Not Found: The requested URL /moodle/file.php/2/myfile.jpg 
+
+  was not found on this server. </p>
+
+<p class="answer">您的網頁伺服器需要被設定成允許腳本名稱之後的 URL 可以直接傳遞給這腳本。在Apache 1上，它通常是開啟的，但是在Apache 2上，預設通常是關閉的。
+  要開啟它，把這行加到伺服器的 httpd.conf 檔案中，或加到本地目錄的 .htaccess 檔案中 (參見 <a href="./?file=install.html#webserver">安裝說明</a> 
+
+  會有詳細說明): </p>
+
+<p class="answercode"><b>AcceptPathInfo</b> on</p>
+
+<p class="answer">注意，這只對Apache版本2.x有效。 </p>
+
+<p class="answer">如果您不是用 Apache 2，而仍然有這問題(不太可能)， 那您可以透過 Moodle使用替代的解決方式。缺點是 
+
+  回應速度會稍微便慢，且您無法在 HTM 資源中使用相對連結。 </p>
+
+<p class="answer">要使用這一替代方法：以管理員身分登入，進入 
+
+  "設定變項"頁面，並更改 "<b>slasharguments</b>"的設定。 
+
+  您現在應該能存取您的上傳檔案了。</p>
+
+<p class="answer">&nbsp;</p>
+
+ 
+<h3><a name="php"></a>PHP - 它是否安裝好了，以及我有的是哪一版本？</h3>
+
+<p class="answer">在您的網站裡建一個新檔，命名為 info.php，裡面輸入下列文字，然後用您的瀏覽器打開它:</p>
+ 
+<p class="answercode">&lt;?PHP phpinfo() ?&gt;</p>
+
+<p class="answer">如果沒看到什麼，那您就是沒安裝 PHP。請參見安裝文件，您可找到在哪裡可以下載該程式的資訊。</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="blankpages"></a>為什麼我的頁面都是空白？ </h3> 
+
+<p class="answer">檢查在 config.php 的根目錄(dirroot)變項。您必須使用完整的絕對路徑名稱，例如:</p>
+
+<p class="answercode"> $CFG->dirroot = "d:\inetpub\sites\www.yoursite.com\web\moodle";</p>
+
+<p>&nbsp; </p>
+<p class="answer">使用 Redhat Linux 平台者，請參見: <a href="http://moodle.org/doc/?file=installamp.html">Redhat Linux</a></p>
+
+<p>&nbsp; </p>
+
+<h3><a name="errorgetstring"></a>我的頁面顯示有嚴重錯誤，例如：call to undefined function: get_string()</h3>
+
+<p class="answer">如果您看到的錯誤訊息像這樣:</p>
+
+<p class="answercode">Parse error: parse error, unexpected T_VARIABLE in c:\program 
+
+  files\easyphp\www\moodle\config.php on line 94 <br />
+
+  Fatal error: Call to undefined function: get_string() in c:\program files\easyphp\www\moodle\mod\resource\lib.php 
+
+  on line 11</p>
+
+<p class="answer">這可能是您在 config.php 中，留下多餘的分號或引號 (第94行).</p>
+
+<p class="answer">另一個理由是，您曾經以一般文書編輯程式，像 Word 來開啟 config.php 檔，然後把它
+
+  存成 HTML網頁格式，而非純文字檔。</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="headerssent"></a>為什麼我一直得到錯誤訊息說：&quot;headers already sent&quot;?</h3>
+
+<p class="answer">如果您看到的錯誤訊息像這樣:</p>
+
+<p class="answercode">Warning: Cannot add header information - headers already 
+
+  sent by (output started at /webs/moodle/config.php:87) in /webs/moodle/lib/moodlelib.php 
+
+  on line 1322 </p>
+
+<p class="answercode"> Warning: Cannot add header information - headers already 
+
+  sent by (output started at /webs/moodle/config.php:87) in /webs/moodle/lib/moodlelib.php 
+
+  on line 1323 </p>
+
+<p class="answercode"> Warning: Cannot add header information - headers already 
+
+  sent by (output started at /webs/moodle/config.php:87) in /webs/moodle/login/index.php 
+
+  on line 54 </p>
+
+<p class="answer">You have blank lines or spaces after the final ?> in your config.php 
+
+  file. Sometimes text editors add these - for example Notepad on Windows - so 
+
+  you may have to try a different text editor to remove these spaces or blank 
+
+  lines completely. </p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="failedopen"></a>I keep getting this error: Failed 
+
+  opening required '/web/moodle/lib/setup.php'</h3>
+
+<p class="answer">In your config.php, the setting that you use for the dirroot 
+
+  variable must be the <strong>complete path from the root of your server's hard 
+
+  drive</strong>.</p>
+
+<p class="answer">Sometimes people only use the path from their home directory, 
+
+  or relative to the root of the web server directory.</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="quotes" id="quotes"></a>Any text I add with an apostrophe 
+
+  (') or a quote (&quot;) causes errors or comes up with a slash added</h3>
+
+<p class="answer">Problems caused by apostrophes are caused by incorrect &quot;magic 
+
+  quotes&quot; settings. Moodle requires the following settings (which are usually 
+
+  the default):</p>
+
+<p class="answercode">magic_quotes_gpc = On<br />
+
+  magic_quotes_runtime = Off</p>
+
+<p class="answer">See the section on <a href="./?file=install.html#webserver">webserver 
+
+  configuration</a> in the Installation docs for more details.</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="sessiontmp"></a>我一直得到關於 session_start 的錯誤訊息。</h3>
+
+<p class="answer">如果您看到的錯誤訊息像這樣</p>
+
+<p class="answercode">Warning: session_start() [function.session-start]: open(/tmp\sess_d40f380d37d431fc1516e9a895ad9ce0, O_RDWR) failed: No such file or directory (2) in G:\web\moodle\lib\setup.php on line 123</p>
+
+<p class="answercode">Warning: session_start() [function.session-start]: open(/tmp\sess_d40f380d37d431fc1516e9a895ad9ce0, O_RDWR) failed: No such file or directory (2) in G:\web\moodle\lib\setup.php on line 123</p>
+
+<p class="answercode">Warning: session_start() [function.session-start]: Cannot send session cache limiter - headers already sent (output started at G:\web\moodle\lib\setup.php:1) in G:\web\moodle\lib\setup.php on line 123</p>
+
+<p class="answer">... these are all related to the fact that PHP is failing to save 
+
+  "session" files on your hard disk (在目錄/tmp).  Usually the 
+
+  reason is that you don't HAVE a directory called /tmp on your computer.  這通常是安裝在 Windows 上，才會發生。
+
+<p class="answer">The solution is to fix the PHP setting for this path to point to a real directory.  You can do this in your php.ini file:</p>
+
+<p class="answercode">session.save_path = C:\temp</p>
+
+<p class="answer">or otherwise in a .htaccess file in your main moodle directory:</p>
+
+<p class="answercode">php_value session.save_path "/home/moodle/sessions"</p>
+
+<p class="answercode">&nbsp;</p>
+
+<h3><a name="fixdirroot"></a>When I go to the admin page, I get told to make dirroot blank!</h3>
+
+<p class="answer">If you see errors like this in Moodle 1.0.9:</p>
+
+<table class="generalbox" cellspacing="0" cellpadding="5" align="center" border="0">
+
+<tbody>
+
+<tr>
+
+<td bgcolor=#ffbbbb>請修改您在 config.php 的設定: 
+
+<p>您有: 
+
+<p>$CFG-&gt;dirroot = "/home/users/fred/public_html/moodle"; 
+
+<p>但它應該是: 
+
+<p>$CFG-&gt;dirroot = "";</p></td></tr></tbody></table>
+
+<p class="answer">then you have encountered a small bug that occurs on some servers. 
+The problem is with the error-checking mechanism, not with your actual path.  
+To fix it, find this line (line 66) in the file admin/index.php: </p>
+
+<p class="answercode">if ($dirroot != $CFG->dirroot) {</p>
+
+<p class="answer">更改它成為這樣:</p>
+
+<p class="answercode">if (!empty($dirroot) and $dirroot != $CFG->dirroot) {</p>
+
+<p class="answercode">&nbsp;</p>
+
+<h3><a name="loginsetting"></a>I login but don't appear to be. I am logged in and can navigate freely.</h3>
+
+<p class="answer">Make sure the URL in your $CFG->wwwroot setting is exactly the 
+
+  same as the one you are actually using to access the site.</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="resource1"></a>當試著新添加一資源時，我得到錯誤訊息。</h3>
+
+<p class="answer">Assuming you are using Apache, then it's quite likely that your 
+
+  setting in config.php for $CFG->wwwroot is different from the actual URL you 
+
+  are using to access the site. Also try turning off "<b>secureforms</b>" in the 
+
+  admin settings.</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="noadmin"></a>在第一次設定的過程中，它沒有要求我建立管理員帳號！</h3>
+
+<p class="answer">This is a known bug in versions of Moodle up to 1.0.9, now fixed in the main code and version 1.1.</p>
+
+<p class="answer">It doesn't affect all people, it only occurs when the person installing Moodle has a
+
+  cookie in their browser from another program on the same site, called "user", "admin", or "teacher".</p>
+
+<p class="answer">Quick fixes include deleting those cookies from your browser before installing, using a different browser, or editing the file moodle/admin/user.php to insert these lines near the top:</p>
+
+<p class="answercode">unset($user);<br />unset($admin);<br />unset($teacher);</p>
+
+<p class="answer">After performing any of these fixes it might be a good idea 
+
+  to drop all the tables in your database and re-install again from scratch.</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="nologin"></a>我完全無法登入- 我一直卡在登入畫面上。</h3>
+
+<p class="answer">The most common cause for this is that your own computer (not your Moodle server) 
+
+                  has a firewall that is stripping referrer information from the browser.  Here are 
+                  
+                  some instructions for fixing <a href="http://service1.symantec.com/SUPPORT/nip.nsf/46f26a2d6dafb0a788256bc7005c3fa3/b9b47ad7eddd343b88256c6b006a85a8?OpenDocument&amp;src=bar_sch_nam">Norton firewall products</a>.</p>
+
+<p class="answer">The server admin can also fix this for everyone by editing the Moodle configuration 
+
+                  page and changing the variable "<b>secureforms</b>" to "No".</p>
+
+<p class="answer">Another possible cause of this problem is that sessions are 
+
+  not configured properly on the server. You can test this by calling the script 
+
+  http://yourserver/moodle/lib/session-test.php.</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="backup"></a>我如何備份我的 Moodle 網站？</h3>
+
+<p class="answer">There are two main things you need to make a copy of: the database and the uploaded files.  The Moodle scripts themselves are less important, since you can always download a fresh copy if you have to.</p>
+
+<p class="answer">There are many ways to do such backups.  Here is an outline of a little script you can run on Unix to backup the database (it works well to have such a script run daily via a cron task</p>
+
+<p class="answercode">cd /my/backup/directory</p>
+
+<p class="answercode">mv moodle-database.sql.gz moodle-database-old.sql.gz</p>
+
+<p class="answercode">mysqldump -h example.com -u myusername --password=mypassword -C -Q -e -a mydatabasename > moodle-database.sql</p>
+
+<p class="answercode">gzip moodle-database.sql</p>
+
+<p class="answer">For the files, you can use rsync regularly to copy only the changed files to another host:</p>
+
+<p class="answercode">rsync -auvtz --delete -e ssh mysshusername@example.com:/my/server/directory 
+
+  /my/backup/directory/</p>
+
+<p class="answercode">&nbsp;</p>
+
+<h3><a name="locale"></a>為什麼我的 Moodle 網站無法正確顯示日期和時間？</h3>
+
+<p class="answer">Each language requires a specific language code (called a <strong>locale</strong> 
+
+  code) to allow dates to be displayed correctly. The language packs contain default 
+
+  standard codes, but sometimes these don't work on Windows servers. </p>
+
+<p class="answer">You can find the correct locale codes for Windows on these two 
+
+  pages: <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vclib/html/_crt_language_strings.asp" target="_blank">Language 
+
+  codes</a> and <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vclib/html/_crt_country_strings.asp" target="_blank">Country/region 
+
+  codes</a>.(eg &quot;esp_esp&quot; for spanish)</p>
+
+<p class="answer">These new locale codes can be entered on the Admin -&gt; Configure 
+
+  -&gt; Variables page, where they override the ones in the currently chosen language 
+
+  pack.</p>
+
+<p class="answer">&nbsp;</p>
+
+<h3><a name="cron"></a>我的討論區無法送出 Email副本</h3>
+
+<p class="answer">You <strong>must</strong> set up cron properly if you want Moodle 
+
+  to send out automatic email from forums, assignments etc. This same 
+
+  process also performs a number of clean-up tasks such as deleting old unconfirmed 
+
+  users, unenrolling old students and so on.</p>
+
+<p class="answer">Basically, you need to set up a process to regularly call the 
+
+  script http://yoursite/admin/cron.php. Please see <a href="./?file=install.html#cron">the 
+
+  section on cron in the Installation documentation</a>.</p>
+
+<p class="answer">Tip: Try the default setting in Moodle variables page. Leave the smtphost blank.
+
+This will be acceptable for the majority of users.
+<p class="answer">&nbsp;
+<p class="answer">&nbsp;
+
+<hr />
+
+<p align="center" class="normaltext"><a href='ma&#105&#108t&#111:ma%72%74in@%6d%6fo%64%6c%65.o%72g' title='mar&#116&#105n@&#109oo&#100&#108&#101&#46&#111&#114g'>Suggest 
+
+  a new FAQ</a> (include the answer!)</p>
+
+<hr />
+
+<p align="right"><strong><em>Thanks to John Eyre for helping to maintain this 
+
+  FAQ.</em></strong></p>
+
+<p align="center"><font size="1"><a href="." target="_top">Moodle Documentation</a></font></p>
+
+<p align="center"><font size="1">Version: $Id: faq.html,v 1.6 2003/03/30 13:54:28 
+
+  moodler Exp $</font></p>
+
+</body>
+
+</html>

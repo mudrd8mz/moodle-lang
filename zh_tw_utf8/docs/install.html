@@ -1,0 +1,394 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+<title>Moodle 文件：基本安裝</title>
+  
+<link rel="stylesheet" href="docstyles.css" type="TEXT/CSS" />
+    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+<!--
+.style3 {color: #660000}
+-->
+</style>
+</head>
+
+<body>
+<h1>安裝 Moodle</h1>
+<h2>別驚慌！ <img src="http://moodle.org/pix/s/smiley.gif" /></h2>
+<blockquote>
+  <p>這一指南是說明如何第一次安裝 Moodle。其中有些步驟是在詳細說明網頁伺服器的設定，因此這文件可能看起來長又複雜。不必驚慌，一旦您知道如何做，您可以在幾分鐘之內安裝好 Moodle!</p>
+  <p>如果您遇到困難，請仔細讀這一文件，--大多數常見的問題在此都有答案。
+     如果您還是有問題，您可以從
+   <a target="_blank" href="http://moodle.org/help">Moodle 幫助</a>尋求幫助。</p>
+  <p>另一個方法是聯絡一家 <a target="_blank" href="http://moodle.com/hosting/">虛擬主機出租服務公司</a>
+     它可以完全為你安裝並維護 Moodle，這樣您就可以不管這些，並直接開始教學工作了!
+</p>
+  <p>&nbsp;  </p>
+  <p>此文件的章節:</p>
+  <ol>
+    <li><a href="#requirements">需求</a></li>
+    <li><a href="#downloading">下載並複製檔案到正確目錄</a> </li>
+    <li><a href="#site">網站結構</a></li>
+    <li><a href="#installer">執行安裝腳本易建立 config.php 檔</a>      <ul>
+        <li><a href="#webserver">檢查網頁伺服器的設定</a></li>
+        <li><a href="#database">建立一資料庫</a></li>
+        <li><a href="#data">建立一資料目錄</a></li>
+        </ul>
+    </li>
+    <li><a href="#admin">到管理頁面去繼續設定</a></li>
+    <li><a href="#cron">設定 cron</a></li>
+    <li><a href="#course">建立一新課程</a></li>
+     </ol>
+  <p>&nbsp;</p>
+</blockquote>
+<h3 class="sectionheading"><a name="requirements"></a>1. 需求</h3>
+<blockquote> 
+  <p>Moodle 基本上是在 Linux 發展出來，它使用 Apache, MySQL 和 PHP (有時也被稱為LAMP平台)，但也在 PostgreSQL 測試過，並在 Windows XP， Mac OS X 和 Netware 6 操作系統測試過。</p>
+  <p>安裝 Moodle 的需前如下：</p>
+  <ol>
+    <li>網頁伺服器軟體。大多數人使用 <a href="http://www.apache.org/" target="_blank">Apache</a>， 
+      但是 Moodle 在任何能夠支持 PHP 的網頁伺服器上都能正常運作，比如 Windows 平台上的IIS。</li>
+    <li><a href="http://www.php.net/" target="_blank">PHP</a> 腳本語言 (4.1.0版或以後)。 PHP 5 要在 Moodle 1.4. 版以後才有支援</li>
+    <li>一個能運作的資料庫伺服器： <a href="http://www.mysql.com/" target="_blank">MySQL</a> 
+      或 <a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a> 是完全支援，並推薦使用在       Moodle上。 </li>
+</ol>
+  <p>大多數的網頁主機基本上都支持上述的程式。如果您是和少數不支援這些功能的網頁主機簽約，問他們為什麼沒有，並考慮換一家公司。</p>
+  <p>如果您想在自己的電腦上跑 Moodle ，而所有這些看起來有點棘手，那麼請看我們的指南： <a href="http://moodle.org/doc/?file=installamp.html">安裝 Apache, MySQL and PHP</a>。
+它提供一些在常用平台上逐步安裝的指令。</p>
+  <p>&nbsp;</p>
+</blockquote>
+<h3 class="sectionheading"><a name="downloading"></a>2. 下載並複製檔案到正確目錄 </h3>
+<blockquote>
+  <p>有兩種方法可以拿到 Moodle，經由壓縮包和經由 CVS。這些在下載頁有詳細的解釋: <a href="http://moodle.org/download/" target="_blank">http://moodle.org/download/</a></p>
+  <p>在下載並解壓縮這些檔案之後，或經由 CVS 取出這些檔案之後，您將會跑出一個稱為&quot;moodle&quot;的資料夾，包含有一些檔案和資料夾。</p>
+  <p>您若不是把整個資料夾搬到您的網頁伺服器文件目錄中，這時您的網站將位於 <b>http://yourwebserver.com/moodle</b>, 
+    就是要直接複製所有的內容貼到主要網頁伺服器文件目錄中，在這種情況下您的網站將是 <b>http://yourwebserver.com</b> </p>
+  <p>如果您要下載 Moodle 到您的本地電腦，然後傳到您的遠端網頁伺服器主機上， 通常較好的方法是以單一檔案方式上傳，然後在伺服器上解壓縮。即使像 Cpanel 的出租網站主機也都允許您在 &quot;檔案管理&quot;終將檔案解壓縮。 </p>
+</blockquote>
+<p>&nbsp;</p>
+<h3 class="sectionheading"><a name="site"></a>3.網站結構</h3>
+<blockquote>
+  <p>您跳過這一節也沒有關係，但這是 Moodle 各資料夾的內容的簡短摘要，可幫助您弄清楚頭緒：</p>
+  <blockquote>
+    <table><tr>
+      <td width="130" valign="top">config.php</td>
+      <td valign="top">-</td>
+      <td valign="top">包含各種基本設定。這檔案不是隨著 Moodle而來 - 您需要在安裝過程建立它。 </td>
+    </tr>
+      <tr>
+        <td valign="top">install.php</td>
+        <td valign="top">-</td>
+        <td valign="top">您將用來建立 config.php 的腳本</td>
+      </tr>
+      <tr><td valign="top">version.php</td>
+      <td valign="top">-</td>
+      <td valign="top"> 定義當前 Moodle 程式碼的版本
+      </td></tr>
+      <tr><td valign="top">index.php</td>
+      <td valign="top">-</td>
+      <td valign="top">這網站的首頁
+      </td></tr></table>
+    <ul>
+      <li>admin/ - 管理這整個伺服器的程式碼 </li>
+      <li>auth/ - 用於認證用戶的插件模組 </li>
+      <li>blocks/ - 用於管理在許多頁面上的小區塊的插件模組</li>
+      <li>calendar/ - 管理和顯示行事曆的程式碼</li>
+      <li>course/ - 顯示和管理課程的程式碼 </li>
+      <li>doc/ -  Moodle用的幫助文件 (例如這一頁)</li>
+      <li>files/ - 顯示和管理上傳檔案的程式碼</li>
+      <li>lang/ - 不同語言的文字檔，每種語言一個目錄 </li>
+      <li>lib/ -  Moodle核心程式碼的程式庫 </li>
+      <li>login/ - 處理登入和產生帳號的程式碼 </li>
+      <li>mod/ - 所有 Moodle主要的課程模組都放在這裡 </li>
+      <li>pix/ - 產生網站的圖表</li>
+      <li>theme/ - 主題包/用以改變網站外觀的外殼</li>
+      <li>user/ - 顯現和管理用戶的程式碼</li>
+    </ul>
+    <p>&nbsp;</p>
+  </blockquote>
+</blockquote>
+<h3 class="sectionheading"><a name="installer"></a>4. 執行安裝腳本易建立 config.php 檔</h3>
+<blockquote>
+  <p>要執行安裝腳本程式 (install.php)，只要用網頁瀏覽器進入您的 Moodle的主要 URL，或直接執行 <strong>http://yourserver/install.php</strong> 。 </p>
+  <p>(安裝程式將會設定一個 session cookie。若您的瀏覽器以跳出視窗來警告您，要確定您把瀏覽器設定為能接受 cookie！) </p>
+  <p>Moodle 將會偵測必要的設定，並由一些螢幕畫面引導您建立一新的設定檔，稱為 <strong>config.php </strong>。在這過程結束，Moodle 會在正確的地方寫入這個檔案，否則的話，您可以從安裝程式中按一按鈕來下載它， 然後上傳 config.php 到伺服器的 Moodle 主目錄中。 </p>
+  <p>安裝程式一路上會測試您的伺服器環境，並提供建議來解決問題。就大多數常見問題而言，這些建議已經足夠了，但若您卡住了，閱讀下面更多的訊息，或許能救您一把。 <br />
+  </p>
+</blockquote>
+<blockquote>
+
+<h3 class="sectionheading"><a name="webserver" id="webserver"></a>4.1 檢查網頁伺服器的設定 </h3>
+  <blockquote>
+    <p>首先，要確定您的網頁伺服器是被設定成使用 index.php 作為預設首頁 (或可加上 index.html, default.htm 等等)。</p>
+    <p>在 Apache 裏，在您的 httpd.conf檔案中，使用一個 DirectoryIndex 參數即可完成。我的通常看起來像這樣:</p>
+    <blockquote>
+      <pre><strong>DirectoryIndex</strong> index.php index.html index.htm </pre>
+    </blockquote>
+    <p>要確定 index.php 有放在清單裏 (且最好是在清單的開頭，以求效率)。</p>
+    <p>第二，<b>若您用 Apache 2</b>，那您應該打開 <i>AcceptPathInfo</i>
+       變項，它會允許腳本傳遞像 http://server/file.php/arg1/arg2 的參數。
+       這點在您的資源之間使用相對連結是很重要的，並也會讓您的Moodle網站的表現大幅提升。要開啟這功能，您只要在您的 httpd.conf 檔中加上這一行。</p>
+    <blockquote>
+      <pre><strong>AcceptPathInfo</strong> on </pre>
+    </blockquote>
+    <p>第三，Moodle 需要啟動一些 PHP 設定才能工作。<b>在大多數的伺服器上，這些都已經是預設的設定了。</b>
+       然而，有些 PHP 伺服器 (以及一些較新的 PHP 版本) 可能有些設定不一樣。 以下是 PHP的設定檔中應加上去的 (通常是指 php.ini):</p>
+    <blockquote>
+      <pre>magic_quotes_gpc = 1    (最好有，但不是必要)
+magic_quotes_runtime = 0    (必要)
+file_uploads = 1
+session.auto_start = 0
+session.bug_compat_warn = 0
+  </pre>
+    </blockquote>
+    <p>如果您再您的伺服器上無法改寫 httpd.conf 或 php.ini檔，或者您的 Moodle所在的伺服器同時在跑其他應用程式，需要不同的設定，那別擔心，您通常還是可以"覆蓋"掉預設的設定。 
+    </p>
+    <p>要這樣做，您需要在Moodle的主要目錄中建立一個檔案，稱之為<b>.htaccess</b> ，並包含下列幾行文字。
+       這只有在 Apache 伺服器上有效，並且在主要設定中允許"覆蓋"。</p>
+    <blockquote>
+      <pre>
+DirectoryIndex index.php index.html index.htm
+
+&lt;IfDefine APACHE2>
+     <b>AcceptPathInfo</b> on
+&lt;/IfDefine>
+
+php_flag magic_quotes_gpc 1
+php_flag magic_quotes_runtime 0
+php_flag file_uploads 1
+php_flag session.auto_start 0
+php_flag session.bug_compat_warn 0</pre>
+    </blockquote>
+    <p>您也可以界定上傳檔案的最大限制:
+         
+</p>
+    <blockquote>
+      <pre>
+LimitRequestBody 0
+php_value upload_max_filesize 2M
+php_value post_max_size 2M
+     </pre>
+    </blockquote>
+    <p>最簡單的做法就是從<strong>lib/htaccess</strong>複製樣本檔，並編輯它以符合您的需要。它包含有進一步的指示。例如， 在 Unix 系統上:
+   </p>
+    <blockquote>
+      <pre>cp lib/htaccess .htaccess</pre>
+    </blockquote>
+  </blockquote>
+<p>&nbsp;</p>
+<h3 class="sectionheading"><a name="database"></a>4.2 建立一資料庫</h3>
+
+  <blockquote>
+    <p>您需要在您的資料庫系統中建立一個空的資料庫 (例如 "<em>moodle</em>") ，並指定一特殊用用戶(例如 "moodleuser") 具有存取資料庫的權限 (且只有這資料庫)。若您只是要測試這伺服器，您可以使用 "root" 用戶，但是若在正式運作的伺服器上，千萬別這樣做，因為如果駭客發現了這密碼，那您整個資料庫系統將有很大的風險，且不只是一個資料庫。 </p>
+    <p>如果您是租用虛擬網站主機，他們可能有一個透過網頁的控制面板，讓您能建立您的資料庫。</p>
+    <p>這<strong>Cpanel</strong> 系統是其中最普遍的一個。要在 Cpanel建立資料庫： </p>
+    <ol>
+      <li>點選 &quot;<strong>MySQL Databases</strong>&quot; 圖示。</li>
+      <li>在資料庫欄位中打入 &quot;moodle&quot; ，並點選 &quot;<strong>Add Database</strong>&quot;。</li>
+      <li> 輸入一個用戶名稱和密碼 (不是您在別處使用的)到相對的欄位，然後點選 &quot;<strong>Add User</strong>&quot;。</li>
+      <li> 現在使用 &quot;<strong>Add User to Database</strong>&quot; 按鈕來讓這新用戶帳號對新資料庫具有全部&quot;<strong>ALL</strong>&quot;的權力。</li>
+      <li>注意，很可能這用戶名稱和資料庫名稱，在您申請您的 Cpanel帳號名稱時就以被決定了。所以當輸入這一資訊到Moodle安裝程式時 - 請使用完整名稱。</li>
+    </ol>
+    <p>如果您可以直接使用 Unix 指令，您可以藉著打入指令來做同樣的事。 </p>
+    <p>以下是一些用於 MySQL 的 Unix 指令的範例 : </p>
+    <pre>
+   # mysql -u root -p
+   > CREATE DATABASE moodle; 
+   > GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,INDEX,ALTER ON moodle.* 
+           TO moodleuser@localhost IDENTIFIED BY 'yourpassword'; 
+   > quit 
+   # mysqladmin -p reload
+    </pre>
+    <p>以及用在 PostgreSQL的指令: </p>
+    <pre>
+   # su - postgres
+   > psql -c "create user moodleuser createdb;" template1
+   > psql -c "create database moodle;" -U moodleuser template1
+   > psql -c "alter user moodleuser nocreatedb;" template1</pre>
+  </blockquote>
+  <p>&nbsp;</p>
+  
+<h3 class="sectionheading"><a name="data"></a>4.3 建立一資料目錄</h3>
+
+  <blockquote>
+    <p>Moodle也需要在您的伺服器的硬碟上有一些空間，好存放上傳的檔案，比如說，課程文件和用戶圖像。 </p>
+    <p>Moodle 安裝程式會努力試著為您建立這個目錄，但是若不行，那您就必須自己動手建立它。 </p>
+    <p>為了安全，這目錄最好是無法透過網頁直接存取的。要這樣做最間單的方式就是把把這資料目錄放在網頁目錄之外，但是如果您一定要放在網頁目錄之內，那保護的方法就是在資料目錄建一檔案，稱為 .htaccess，並包含這一行字: </p>
+    <blockquote>
+      <pre>deny from all</pre>
+    </blockquote>
+    <p>要確定 Moodle 可以儲存上傳的檔案到這一目錄，檢查這網頁伺服器軟體 (如 Apache) 有權限在這一目錄中讀取，寫入，和執行。 </p>
+    <p>On Unix machines, this means setting the owner of the directory to be something like &quot;nobody&quot; or &quot;apache&quot;, and then giving that user read, write and execute permissions.</p>
+    <p>On Cpanel systems you can use the &quot;File Manager&quot; to find the folder, click on it, then choose &quot;Change Permissions&quot;. On many shared hosting servers, you will probably need to restrict all file access to your "group" (to prevent other webhost customers from looking at or changing your files), but provide full read/write access to everyone else (which will allow the web server to access your files). </p>
+    <p>Speak to your server administrator if you are having trouble setting this up securely. In particular some sites that use a PHP feature known as &quot;Safe Mode&quot; may <em>require</em> the administrator to create this directory properly for you. </p>
+  </blockquote>
+
+</blockquote>
+
+<h3 class="sectionheading"><a name="admin"></a>5. 到管理頁面去繼續設定</h3>
+<blockquote> 
+  <p>Once the basic <strong>config.php</strong> has been correctly created in the previous step, trying to access the front page of your site will take you the &quot;admin&quot; page for the rest of the configuration.</p>
+  <p>The first time you access this admin page, you will be presented with 
+    a GPL &quot;shrinkwrap&quot; agreement with which you <strong>must</strong> agree before you 
+  can continue with the setup.</p>
+  <p>Now Moodle will start setting up your database and creating tables to store 
+    data. Firstly, the main database tables are created. You should see a number 
+    of SQL statements followed by status messages (in green or red) that look 
+    like this:</p>
+  <blockquote> 
+    <p>CREATE TABLE course ( id int(10) unsigned NOT NULL auto_increment, category 
+      int(10) unsigned NOT NULL default '0', password varchar(50) NOT NULL default 
+      '', fullname varchar(254) NOT NULL default '', shortname varchar(15) NOT 
+      NULL default '', summary text NOT NULL, format tinyint(4) NOT NULL default 
+      '1', teacher varchar(100) NOT NULL default 'Teacher', startdate int(10) 
+      unsigned NOT NULL default '0', enddate int(10) unsigned NOT NULL default 
+      '0', timemodified int(10) unsigned NOT NULL default '0', PRIMARY KEY (id)) 
+      TYPE=MyISAM</p>
+    <p><font color="#006600">SUCCESS</font></p>
+  </blockquote>
+  <p>...and so on, followed by: <font color="#006600">Main databases set up 
+      successfully.</font> </p>
+  <blockquote>
+    <p class="style3">If you don't see these, then there must have been some problem with the database 
+        or the configuration settings you defined in config.php. Check that PHP isn't 
+        in a restricted "Safe Mode" (commercial web hosts sometimes have safe mode 
+        turned on). You can check PHP variables by creating a little file containing <strong>&lt;?php phpinfo() ?&gt;</strong> and looking at it through a browser. Check all these and 
+      try this page again.</p>
+  </blockquote>
+  <p>Scroll down the very bottom of the page and press the &quot;Continue&quot; 
+    link.</p>
+  <p>You should now see a form where you can define more configuration variables 
+    for your installation, such as the default language, SMTP hosts and so on. 
+    Don't worry too much about getting everything right just now - you can always 
+    come back and edit these later on using the admin interface. The defaults are designed to be useful and secure for most sites. Scroll down to 
+    the bottom and click &quot;Save changes&quot;.</p>
+  <blockquote>
+    <p class="style3">If (and only if) you find yourself getting stuck on this page, unable to 
+      continue, then your server probably has what I call the "buggy referrer" problem. 
+      This is easy to fix: just turn off the &quot;secureforms&quot; setting, then 
+      try to continue again.</p>
+  </blockquote>
+  <p>Next you will see more  pages that print lots of status messages as they set up all the tables required by the various Moodle module. As before, they should all be <font color="#006600">green</font>.</p>
+  <p>Scroll down the very bottom of the page and press the &quot;Continue&quot; link.</p>
+  <p>The next page is a form where you can define parameters for your Moodle site 
+    and the front page, such as the name, format, description and so on. Fill 
+    this out (you can always come back and change these later) and then press 
+    &quot;Save changes&quot;.</p>
+  <p>Finally, you will then be asked to create a top-level administration user 
+    for future access to the admin pages. Fill out the details with your own name, 
+    email etc and then click &quot;Save changes&quot;. Not all the fields are 
+    required, but if you miss any important fields you'll be re-prompted for them. 
+  </p>
+  <blockquote> 
+    <blockquote> 
+      <blockquote> 
+        <blockquote> 
+          <blockquote> 
+            <p><strong>Make sure you remember the username and password you chose 
+              for the administration user account, as they will be necessary to 
+              access the administration page in future.</strong></p>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+    <p class="style3">(If for any reason your install is interrupted, or there is a system error 
+      of some kind that prevents you from logging in using the admin account, you 
+      can usually log in using the default username of &quot;<strong>admin</strong>&quot;, 
+      with password &quot;<strong>admin</strong>&quot;.)</p>
+  </blockquote>
+  <p>Once successful, you will be returned to the home page of your new site! Note the 
+    administration links that appear down the left hand side of the page (these 
+    items also appear on a separate Admin page) - these items are only visible 
+    to you because you are logged in as the admin user. All your further administration 
+    of Moodle can now be done using this menu, such as:</p>
+  <ul>
+    <li>creating and deleting courses</li>
+    <li>creating and editing user accounts</li>
+    <li>administering teacher accounts</li>
+    <li>changing site-wide settings like themes etc</li>
+  </ul>
+  <p>But you are not done installing yet! There is one very important thing still to do (see the next section on cron). </p>
+</blockquote>
+<p>&nbsp;</p>
+<h3 class="sectionheading"><a name="cron"></a>6. 設定 cron -- 重要! </h3>
+<blockquote> 
+  <p>某些 Moodle的模組需要持續的檢查以執行其工作。舉例來說，Moodle 需要定期檢查討論區，這樣它才可以用電子郵件寄貼文副本給那些訂閱該討論區的人。</p>
+  <p>做這些事情的腳本程式釋放於管理目錄中，稱為 cron.php。然而，它不會自己執行，因此您要設定一個機制 
+    使這腳本定期運作(例如 每五分鐘或每十分鐘)。這提供氇一個&quot;心跳&quot;， so that the script can perform functions at periods 
+    defined by each module. 這種定期的機制被稱為<strong>cron service</strong>。 </p>
+	<p>注意，執行 Cron 的機器 <b>不需要與執行Moodle的電腦是同一台</b>。舉例來說，如果您有一個受限制的虛擬網站出租服務，
+	無法有 cron 的服務，那您可以在另一台伺服器上或在您的家用電腦上執行 cron。 最重要的是 cron.php 檔案會被定期的執行。</p>
+  <p>這腳本的負擔不會很高，所以5分鐘通常是很合理的，但若您擔心的話，您可以加長時間間格，比如15分鐘，或甚至30分鐘。
+但是最好不要間格太長，因為經常延遲寄出的郵件會減緩課程中的活動。</p>
+  <p>首先，直接從您的瀏覽器去執行它，看它能否正常作:</p>
+  <blockquote> 
+    <pre>http://example.com/moodle/admin/cron.php</pre>
+  </blockquote>
+  <p>現在，您作某些設定來自動並定期的執行這腳本。</p>
+  <p><b>在 Windows系統上</b></p>
+  <blockquote>
+    <p>最簡單的方式是利用這小包裹<a href="http://moodle.org/download/modules/moodle-cron-for-windows.zip" title="點此來下載包裹(150k)" target="_blank"><strong>moodle-cron-for-windows.zip</strong></a>經由安裝一個小 Windows 服務，可把事情變得非常簡單。執行它，然後置之不理！
+	</p>
+  </blockquote>
+  <p><strong>在虛擬網站租用服務上</strong></p>
+  <blockquote>
+    <p> Your web-based control panel may have a web page that allows you to set up this cron process. For example, on Cpanel system, look for a button called &quot;Cron jobs&quot;. In there you can put the same sort of Unix commands as listed below. </p>
+  </blockquote>
+  <h4> 在 Unix  上使用指令</h4>
+  <blockquote>
+    <p>There are different command line programs you can use to call the page from the command line. Not all of them may be available on a given server.</p>
+    <p>For example, you can use a Unix utility like 'wget':</p>
+    <blockquote>
+      <pre>wget -q -O /dev/null http://example.com/moodle/admin/cron.php</pre>
+    </blockquote>
+    <p>Note in this example that the output is thrown away (to /dev/null).</p>
+    <p>The same thing using lynx:</p>
+    <blockquote>
+      <pre>lynx -dump http://example.com/moodle/admin/cron.php &gt; /dev/null</pre>
+    </blockquote>
+    <p>Alternatively you could use a standalone version of PHP, compiled to be run 
+      on the command line. The advantage with doing this is that your web server 
+      logs aren't filled with constant requests to cron.php. The disadvantage is 
+      that you need to have access to a command-line version of php.</p>
+    <blockquote>
+      <pre>/opt/bin/php /web/moodle/admin/cron.php
+
+    </pre>
+    </blockquote>
+  </blockquote>
+  <h4>Using the crontab program on Unix </h4>
+  <blockquote>
+    <p> All that Cpanel does is provide a web interface to a Unix utility known as crontab. If you have a command line, you can set up crontab yourself using the command:</p>
+    <blockquote>
+      <pre>crontab -e</pre>
+   </blockquote>
+   <p>and then adding one of the above commands like:</p>
+    <blockquote>
+      <pre>*/5 * * * * wget -q -O /dev/null http://example.com/moodle/admin/cron.php</pre>
+    </blockquote>
+    <p>通常，這"crontab"指令會把您帶到'vi' 編輯器。藉著按下"i"，您會進入"插入設模式"，然後打入上面那一行，然後按 ESC 
+	離開插入模式。您打入":wq"就會儲存並退出，或用":q!"(不加引號)退出而不儲存。</p>
+  </blockquote>
+  <p>&nbsp;</p>
+</blockquote>
+<h3 class="sectionheading"><a name="course"></a>7. 建立一新課程</h3>
+<blockquote>
+  <p>現在 Moodle 已經能正常運轉了，您可以建立一新課程來試玩看看。 </p>
+  <p>從管理頁面中選擇 &quot;創建一新課程&quot;(或首頁的管理連結)。</p>
+  <p>填寫好這表格，特別注意這課程格式。在這階段您不需要擔心太多的細節，因為每一個設定，稍後教師都可以加以更改。注意：這黃色問號的幫助圖示到處都有，可以在各方面提供脈絡式的幫助。 </p>
+  <p>按下 &quot;儲存變更&quot;，然後您會看到新表格，那兒可讓您指派教師給這一新課程。You can only add existing user accounts 
+    from this form - 如果您想要建立一個新教師帳號，那麼若不是要求這教師為他們自己申請一新帳號(建登入頁面)，就是要在管理頁面，使用&quot;新增一新用戶&quot;來為他建立帳號。</p>
+  <p>一旦完成，這課程就可以開始製作了，而且它可以由首頁的 &quot;課程&quot; 
+    連結進入這課程中。</p>
+  <p>請參見 &quot;<a href="./?file=teacher.html">教師手冊</a>&quot; ，可找到建立課程的更多細節。</p>
+  <p>&nbsp;</p>
+  <p align="center"><strong>快樂地探索且快樂地Moodling!</strong></p>
+  <p align="center"><strong>若您喜歡 Moodle，請考慮 <a href="http://moodle.org/donations/" target="_blank">捐款</a> 幫助我們應付我們的花費！ </strong></p>
+</blockquote>
+<p>&nbsp;</p>
+<p align="center"><font size="1"><a href="." target="_top">Moodle 文件</a></font></p>
+<p align="center"><font size="1">版本: $Id$</font></p>
+</body>
