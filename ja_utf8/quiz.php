@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (2007101100)
+      // quiz.php - created with Moodle 2.0 dev (2007101501)
 
 
 $string['1day'] = '1日';
@@ -60,8 +60,9 @@ $string['attemptquiznow'] = '問題を受験する';
 $string['attempts'] = '受験';
 $string['attemptsallowed'] = '受験可能回数';
 $string['attemptsdeleted'] = '小テストの受験結果が削除されました。';
-$string['attemptselection'] = 'ユーザごとにどの受験を分析するか選択してください:';
+$string['attemptselection'] = 'どの受験を分析するかユーザごとに選択してください:';
 $string['attemptsexist'] = 'あなたは、これ以上問題を追加または削除することはできません。';
+$string['attemptsnum'] = '受験件数: $a';
 $string['attemptsonly'] = '受験済みの学生のみ表示';
 $string['attemptsunlimited'] = '無制限';
 $string['back'] = '問題のプレビューに戻る';
@@ -155,7 +156,7 @@ $string['discrimination'] = '識別指数';
 $string['displayoptions'] = '表示オプション';
 $string['download'] = 'エクスポートしたカテゴリファイルをダウンロードする';
 $string['downloadextra'] = '(ファイルはコースファイル内の /backupdata/quizフォルダにも保存されます。)';
-$string['duplicateresponse'] = 'あなたは、過去に同じ解答を行っていますので、この送信は無視されました。';
+$string['duplicateresponse'] = 'あなたは、前に同じ解答を送信していますので、この送信は無視されました。';
 $string['eachattemptbuildsonthelast'] = '直近の解答内容を反映させる';
 $string['editcategories'] = 'カテゴリの編集';
 $string['editcategory'] = 'カテゴリの編集';
