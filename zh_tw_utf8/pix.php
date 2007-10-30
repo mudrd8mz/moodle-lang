@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // pix.php - created with Moodle 1.8.2+ (2007021520)
+      // pix.php - created with Moodle 1.6 development (2005060201)
 
 
 $string['angry'] = '生氣';
@@ -17,13 +17,10 @@ $string['sad'] = '傷心';
 $string['shy'] = '害羞';
 $string['sleepy'] = '好睏';
 $string['smiley'] = '微笑';
-$string['surprise'] = '驚奇';
-$string['thoughtful'] = '深思';
+$string['surprise'] = '驚訝的';
+$string['thoughtful'] = '深思的';
 $string['tongueout'] = '吐舌頭';
 $string['wideeyes'] = '大眼睛';
 $string['wink'] = '眨眼';
-$string['thischarset'] = 'UTF-8'; // ORPHANED
-$string['thisdirection'] = '文字走向'; // ORPHANED
-$string['thislanguage'] = '繁體中文'; // ORPHANED
 
 ?>

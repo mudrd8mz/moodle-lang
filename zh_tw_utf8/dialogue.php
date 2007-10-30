@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.8.2+ (2007021520)
+      // dialogue.php - created with Moodle 1.6 (2006050506)
 
 
 $string['addmynewentries'] = '添加我的話題';
@@ -9,13 +9,13 @@ $string['allowmultiple'] = '允許和一個使用者有多個對話';
 $string['allowstudentdialogues'] = '允許學生間對話';
 $string['close'] = '關閉';
 $string['closed'] = '關閉';
-$string['closeddialogues'] = '關閉的對話';
-$string['confirmclosure'] = '您打算結束和 $a 的對話。結束後只能查看不能添加。您可以開啟一個新對話和他交談。確定嗎？';
+$string['closeddialogues'] = '關閉對話';
+$string['confirmclosure'] = '您打算結束和 $a 的對話。結束後只能查看不能添加.您可以開啟一個新對話和他交談。確定嗎？';
 $string['deleteafter'] = '刪除關閉的對話(天)';
 $string['dialogueclosed'] = '對話關閉';
 $string['dialogueintro'] = '對話簡介';
-$string['dialoguemail'] = '$a->userfrom 向您的對話條目發佈了一個 $a->dialogue 條目。您可以在您的對話條目中看到他: $a->url';
-$string['dialoguemailhtml'] = '$a->userfrom 向您的對話條目發佈了一個 <i>$a->dialogue</i>條目<br /><br /> 您可以在您的對話條目中看到<a href=\"$a->url\">它</a>。';
+$string['dialoguemail'] = '$a->userfrom 向您的對話條目發佈了一個 $a->dialogue 條目.您可以在您的對話條目中看到他: $a->url ';
+$string['dialoguemailhtml'] = '$a->userfrom 向您的對話條目發佈了一個 <i>$a->dialogue</i>條目<br /><br /> 您可以在您的對話條目中看到<a href=\"$a->url\">它</a>.';
 $string['dialoguename'] = '對話名稱';
 $string['dialogueopened'] = '$a 開啟了對話';
 $string['dialoguewith'] = '與 $a 對話';
@@ -32,7 +32,7 @@ $string['newentry'] = '新項目';
 $string['noavailablepeople'] = '不允許任何人對話';
 $string['nopersonchosen'] = '未選擇使用者';
 $string['nosubject'] = '未輸入主題';
-$string['notavailable'] = '訪客無法使用對話功能';
+$string['notavailable'] = '訪客不能使用對話功能';
 $string['notextentered'] = '未輸入文字';
 $string['notstarted'] = '您尚未啟動該對話';
 $string['notyetseen'] = '未被瀏覽';

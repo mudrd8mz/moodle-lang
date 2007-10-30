@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // attendance.php - created with Moodle 1.8.2+ (2007021520)
+      // attendance.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2004112900)
 
 
 $string['absentlong'] = '缺席';
-$string['absentshort'] = '缺席';
+$string['absentshort'] = '曠  ';
 $string['addingmultiple'] = '增加多樣性的出點名單';
 $string['addmultiple'] = '增加點名單';
 $string['allmodulename'] = '所有點名單';
@@ -15,7 +15,7 @@ $string['choosedays'] = '每周點名時間';
 $string['dayofroll'] = '點名日期';
 $string['defaultautoattend'] = '預設的點名方式，是否依據使用者的活動記錄';
 $string['defaultdynamicsection'] = '預設的點名時間是否依據現有的星期';
-$string['defaultgrade'] = '預設的出缺資料，是否加入作為成績計算的部份';
+$string['defaultgrade'] = '預設的出缺資料，是否加入作為成績計算的部份 ';
 $string['defaulthoursinclass'] = '預設的點名，應參與課程時間多少小時才算數';
 $string['defaultmaxgrade'] = '對於所有點名的預設成績上限';
 $string['defaultstudentstatus'] = '預設在新的點名上的出缺狀況';
@@ -28,7 +28,7 @@ $string['dynamicsectionmulti'] = '每星期自動點名';
 $string['dynsectionshort'] = '動態地移動到這個區域';
 $string['endbeforestart'] = '結束時間在課程開始之前';
 $string['endmulti'] = '最後一次點名日期';
-$string['for'] = '針對';
+$string['for'] = '針對 ';
 $string['friday'] = '星期五';
 $string['gradeshort'] = '評分';
 $string['gradevalue'] = '用點名結果，計算成績';
@@ -44,7 +44,7 @@ $string['monday'] = '星期一';
 $string['norolls'] = '這個課程沒有任何點名資訊';
 $string['notes'] = '異常訊息';
 $string['notesfor'] = '異常訊息針對';
-$string['noviews'] = '抱歉，這裡沒有你的帳號資料';
+$string['noviews'] = '抱歉，這裡沒有您的帳號資料';
 $string['of'] = '的';
 $string['pages'] = '頁';
 $string['presentlong'] = '出席';
@@ -53,14 +53,16 @@ $string['saturday'] = '星期六';
 $string['startafterend'] = '開始時間在這個課程結束之後';
 $string['startmulti'] = '第一次點名日期';
 $string['sunday'] = '星期日';
-$string['takeroll'] = '這天要點名嗎?';
+$string['takeroll'] = '這天要點名嗎? ';
 $string['tardiesperabsence'] = '遲到多久，當成曠課';
 $string['tardylong'] = '今日';
 $string['tardyshort'] = '今日';
-$string['teacheredit'] = '點名';
+$string['teacheredit'] = '點名take attendance';
+$string['thischarset'] = 'UTF-8';
+$string['thislanguage'] = '正體中文';
 $string['thursday'] = '星期四';
 $string['tuesday'] = '星期二';
-$string['viewall'] = '觀看所有的點記錄';
+$string['viewall'] = '觀看所有的點記錄 ';
 $string['viewmulti'] = '採用分頁方式觀看總結報告';
 $string['viewone'] = '觀看所有頁面的報告';
 $string['viewsection'] = '觀看本學期的所有點名資料';

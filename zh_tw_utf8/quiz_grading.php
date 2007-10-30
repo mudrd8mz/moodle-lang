@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // quiz_grading.php - created with Moodle 1.8.2+ (2007021520)
+      // quiz_grading.php - created with Moodle 1.6 (2006050506)
 
 
-$string['essayonly'] = '下面題目必須手動評分';
-$string['grading'] = '手動評分';
+$string['essayonly'] = '下列試題需要人工閱卷';
+$string['grading'] = '人工閱卷';
 
 ?>

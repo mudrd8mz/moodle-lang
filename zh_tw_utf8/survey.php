@@ -1,17 +1,17 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8.2+ (2007021520)
+      // survey.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
 
 
 $string['actual'] = '實際的';
 $string['actualclass'] = '課程實際的';
 $string['actualstudent'] = '$a 實際的';
-$string['allquestions'] = '所有問題依序排列， 所有學生';
-$string['allscales'] = '所有量表， 所有學生';
+$string['allquestions'] = '所有問題依序排列, 所有學生';
+$string['allscales'] = '所有量表, 所有學生';
 $string['alreadysubmitted'] = '您已經做過這份問卷';
 $string['analysisof'] = '$a 的分析結果';
 $string['answers'] = '回答';
-$string['attls1'] = '當評論他人的言論時， 我總是就事論事， 針對的是言論內容的品質， 而不管發言者本身的身分地位';
-$string['attls10'] = '對我而言，當分析事情時盡量保持客觀的態度';
+$string['attls1'] = '當評論他人的言論時, 我總是就事論事, 針對的是言論內容的品質, 而不管發言者本身的身分地位';
+$string['attls10'] = '對我而言,當分析事情時盡量保持客觀的態度';
 $string['attls10short'] = '保持客觀的態度';
 $string['attls11'] = '我會盡量理解別人的想法意見而不是一味的站在反對的立場';
 $string['attls11short'] = '站在別人的立場';
@@ -23,50 +23,50 @@ $string['attls14'] = '我會試圖找出他人論點中的弱點以便協助對�
 $string['attls14short'] = '指出弱點';
 $string['attls15'] = '當討論具爭議性的議題時 我會試圖從他人的立場去思考為何對方有如此的想法';
 $string['attls15short'] = '站在對方的立場';
-$string['attls16'] = '我分析問題的方式可稱為檢驗求證法，因為我總是會考慮現有的所有證據';
+$string['attls16'] = '我分析問題的方式可稱為檢驗求證法,因為我總是會考慮現有的所有證據';
 $string['attls16short'] = '檢驗求證';
-$string['attls17'] = '當處理問題時，我重視邏輯推理勝於感情用事';
+$string['attls17'] = '當處理問題時,我重視邏輯推理勝於感情用事';
 $string['attls17short'] = '我重視邏輯推理';
-$string['attls18'] = '當別人觀點和我的不同時，我會用心體會對方的觀點';
+$string['attls18'] = '當別人觀點和我的不同時,我會用心體會對方的觀點';
 $string['attls18short'] = '用心體會對方';
-$string['attls19'] = '當遇到他人觀點和我相異時，我會試圖置身於對方的立場去思考為何他人會產生那樣的想法';
+$string['attls19'] = '當遇到他人觀點和我相異時,我會試圖置身於對方的立場去思考為何他人會產生那樣的想法';
 $string['attls19short'] = '試圖置身於對方的立場';
 $string['attls1short'] = '針對論點的品質';
-$string['attls2'] = '我喜歡抬槓，和他人唱反調';
-$string['attls20'] = '我會發時間去找出事情可能有問題之處， 例如: 某種論點不完整有缺失的地方';
+$string['attls2'] = '我喜歡抬槓,和他人唱反調';
+$string['attls20'] = '我會發時間去找出事情可能有問題之處, 例如: 某種論點不完整有缺失的地方';
 $string['attls20short'] = '錯在哪裡?';
 $string['attls2short'] = '喜歡抬槓';
-$string['attls3'] = '我喜歡了解別人想法的由來， 為何會導致對方有如此想法';
+$string['attls3'] = '我喜歡了解別人想法的由來, 為何會導致對方有如此想法';
 $string['attls3short'] = '了解別人想法的由來';
 $string['attls4'] = '我的教育中最重要的學習經驗是理解人和人之間往往會有不同的觀點';
 $string['attls4short'] = '理解不同的人';
 $string['attls5'] = '我覺得實踐自我的最好方式是能夠和很多不同的人打交道';
 $string['attls5short'] = '和很多不同的人打交道';
-$string['attls6'] = '我喜歡多聽到不同背景的人所提出不同的論點， 這讓我更容易體會為何事情會有很多不同的想法';
+$string['attls6'] = '我喜歡多聽到不同背景的人所提出不同的論點, 這讓我更容易體會為何事情會有很多不同的想法';
 $string['attls6short'] = '喜歡多聽到不同的論點';
 $string['attls7'] = '我發現和立場不同的人辯論會使我的論點更受到支持';
 $string['attls7short'] = '透過辯論獲得更多支持';
 $string['attls8'] = '我總是很有興趣理解他人為何哪樣說?那樣做?';
 $string['attls8short'] = '理解他人為何哪樣做?';
-$string['attls9'] = '我經常會和所讀書本作者的論點爭辯，似圖找出書中錯誤的論點';
+$string['attls9'] = '我經常會和所讀書本作者的論點爭辯,似圖找出書中錯誤的論點';
 $string['attls9short'] = '和作者爭辯';
-$string['attlsintro'] = '本問卷的目的是為了瞭解您個人思考和學習的態度，
-沒有所謂的標準答案或對錯之分， 我們有興趣的是您個人的觀點。 可以保證您所做的回答將會被受密且絕對和學業成績完全無關。';
+$string['attlsintro'] = '本問卷的目的是為了瞭解您個人思考和學習的態度,
+沒有所謂的標準答案或對錯之分, 我們有興趣的是您個人的觀點. 可以保證您所做的回答將會被受密且絕對和學業成績完全無關.';
 $string['attlsm1'] = '對於思考和學習的態度';
 $string['attlsm2'] = '關聯性學習';
 $string['attlsm3'] = '獨立性學 習';
-$string['attlsmintro'] = '討論中...';
+$string['attlsmintro'] = '討論中 ...';
 $string['attlsname'] = '20項學習與思考態度問卷';
 $string['ciq1'] = '什麼時候您學習最投入？';
 $string['ciq1short'] = '最投入';
 $string['ciq2'] = '什麼時候您學習最不投入？';
-$string['ciq2short'] = '最疏離';
+$string['ciq2short'] = '最不投入';
 $string['ciq3'] = '論壇上的人們的何種行為最讓您感覺值得確信或有幫助？';
-$string['ciq3short'] = '有幫助的時刻';
+$string['ciq3short'] = '有幫助';
 $string['ciq4'] = '論壇上的人們的何種行為最讓您感覺困惑。';
-$string['ciq4short'] = '困惑的時刻';
+$string['ciq4short'] = '困感';
 $string['ciq5'] = '什麼事件讓您最吃驚？';
-$string['ciq5short'] = '最吃驚的時刻';
+$string['ciq5short'] = '驚訝';
 $string['ciqintro'] = '想想本班上周發生的事情，回答以下問題。';
 $string['ciqname'] = '關鍵事件';
 $string['clicktocontinue'] = '按此處繼續';
@@ -119,18 +119,18 @@ $string['colles8'] = '我會很仔細的思考書本上的論點';
 $string['colles8short'] = '我會很仔細的檢驗書本上的論點';
 $string['colles9'] = '我會向其他同學解釋我的論點';
 $string['colles9short'] = '解釋我的論點';
-$string['collesaintro'] = '本問卷主要在幫助我們了解本線上課程對於您的學習有怎樣的幫助。
+$string['collesaintro'] = '本問卷主要在幫助我們了解本線上課程對於您的學習有怎樣的幫助.
 以下的24個問題是想了解您使用本線上課程的經驗與感覺
-沒有所謂對錯的答案; 我們有興趣的是您的觀點與想法。
-可以保證的是您的回答會被守密而且和學期成績絕對無關。
-您的認真回答將有助於我們改善本線上課程，使得未來使用時更加有功效!
+沒有所謂對錯的答案; 我們有興趣的是您的觀點與想法.
+可以保證的是您的回答會被守密而且和學期成績絕對無關.
+您的認真回答將有助於我們改善本線上課程,使得未來使用時更加有功效!
 非常謝謝您的合作!';
 $string['collesaname'] = '學習環境問卷(實際的感覺)';
-$string['collesapintro'] = '本問卷的目的是為了瞭解本線上學習單元到底對您的學習有怎樣的幫助。 
-以下的24個問題將同時詢問您<B>所期待的收穫</B>與<B>實際使用後的感覺</B>。
-沒有所謂對錯的答案; 我們有興趣的是您的觀點與想法。
-可以保證的是您的回答會被守密而且和學期成績絕對無關。
-您的認真回答將有助於我們改善本線上課程，使得未來使用時更加有功效!
+$string['collesapintro'] = '本問卷的目的是為了瞭解本線上學習單元到底對您的學習有怎樣的幫助. 
+以下的24個問題將同時詢問您<B>所期待的收穫</B>與<B>實際使用後的感覺</B>.
+沒有所謂對錯的答案; 我們有興趣的是您的觀點與想法.
+可以保證的是您的回答會被守密而且和學期成績絕對無關.
+您的認真回答將有助於我們改善本線上課程,使得未來使用時更加有功效!
 非常謝謝您的合作!';
 $string['collesapname'] = '學習環境問卷(期待與實際的感覺)';
 $string['collesm1'] = '很有關聯';
@@ -147,23 +147,23 @@ $string['collesm6'] = '詮釋';
 $string['collesm6short'] = '詮釋';
 $string['collesmintro'] = '本線上學習課程';
 $string['collespintro'] = '本問卷是用來幫助我們瞭解您對本線上課程的評價
-以下的24個問題將詢問您對本線上課程所期待獲得的收穫。
-沒有所謂對錯的答案; 我們有興趣的是您的觀點與想法。
-可以保證的是您的回答會被守密而且和學期成績絕對無關。
-您的認真回答將有助於我們改善本線上課程，使得未來使用時更加有功效!
+以下的24個問題將詢問您對本線上課程所期待獲得的收穫.
+沒有所謂對錯的答案; 我們有興趣的是您的觀點與想法.
+可以保證的是您的回答會被守密而且和學期成績絕對無關.
+您的認真回答將有助於我們改善本線上課程,使得未來使用時更加有功效!
 非常謝謝您的合作!';
 $string['collespname'] = '學習環境問卷(期待的想法)';
 $string['customintro'] = '自訂介紹';
 $string['done'] = '完成';
 $string['download'] = '下載';
-$string['downloadexcel'] = '以 execl 格式下載';
+$string['downloadexcel'] = '以 Execl 格式下載';
 $string['downloadinfo'] = '您可以下載完整的問卷資料並應用Excel或是spss加以分析';
 $string['downloadtext'] = '以純文字檔案格式下載';
 $string['editingasurvey'] = '編輯問卷';
 $string['guestsnotallowed'] = '訪客不允許提交問卷';
 $string['helpsurveys'] = '其他格式問卷的使用說明';
 $string['howlong'] = '您花費多少時間填寫本問卷?';
-$string['howlongoptions'] = '1分鐘以內,1-2分鐘,2-3分鐘,3-4分鐘,4-5分鐘,5-10分鐘,超過10分鐘';
+$string['howlongoptions'] = '1分鐘以內, 1-2分鐘,2-3分鐘,3-4分鐘,4-5分鐘,5-10分鐘,超過10分鐘';
 $string['ifoundthat'] = '我發現';
 $string['introtext'] = '簡介說明文字';
 $string['ipreferthat'] = '我希望的是';
@@ -188,18 +188,18 @@ $string['scaleagree5'] = '非常不同意,不同意,沒意見,部分同意,非�
 $string['scales'] = '比例';
 $string['scaletimes5'] = '從未,很少,偶而,經常,幾乎總是';
 $string['seemoredetail'] = '按此以觀看更多細節';
-$string['selectedquestions'] = '從量表中選出的問題， 所有學生';
+$string['selectedquestions'] = '從量表中選出的問題, 所有學生';
 $string['summary'] = '總結';
 $string['survey:download'] = '下載回答';
 $string['survey:participate'] = '回答問卷';
 $string['survey:readresponses'] = '檢視回答';
-$string['surveycompleted'] = '您已經完成本問卷調查， 以下顯示您的回答和全班平均的比較';
+$string['surveycompleted'] = '您已經完成本問卷調查, 以下顯示您的回答和全班平均的比較';
 $string['surveygraph'] = '問卷圖形';
 $string['surveyname'] = '問卷名稱';
 $string['surveysaved'] = '儲存問卷';
 $string['surveytype'] = '問卷型態';
-$string['thanksforanswers'] = '謝謝您回答本問卷， $a';
+$string['thanksforanswers'] = '{$a}，謝謝您回答本問卷';
 $string['time'] = '時間';
-$string['viewsurveyresponses'] = '檢視 $a 問卷結果';
+$string['viewsurveyresponses'] = '檢視{$a}個問卷結果';
 
 ?>

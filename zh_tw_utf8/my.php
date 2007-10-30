@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // my.php - created with Moodle 1.8.2+ (2007021520)
+      // my.php - created with Moodle 1.6.3 + (2006050531)
 
 
 $string['mymoodle'] = '我的課程概要';
-$string['nocourses'] = '沒有能夠顯示的課程資訊';
-$string['noguest'] = '訪客無法使用課程概要頁面';
-$string['pinblocks'] = '設定我的頁面的置頂區塊';
-$string['pinblocksexplan'] = '您在這兒使用的任何區塊設定都會在使用者的個人概要頁面顯示（而且他們無法編輯）。';
+$string['nocourses'] = '沒有課程資訊可以顯示';
+$string['noguest'] = '這 \'課程概要\' 頁面不允許未註冊者使用';
+$string['pinblocks'] = '從 \'我的MOODLE\' 設定隱藏的區塊';
+$string['pinblocksexplan'] = '任何使用者在他的\'我的MOODLE\'設定的區塊將可顯示(且不得編輯)';
 
 ?>

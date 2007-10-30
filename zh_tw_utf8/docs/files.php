@@ -1,1 +1,31 @@
-<?PHP // $Id$      // Names of the documentation files$string['intro.html'] = "簡介";$string['background.html'] = "背景";$string['features.html'] = "特點";$string['release.html'] = "釋出版本說明";$string['install.html'] = "安裝";$string['upgrade.html'] = "升級";$string['teacher.html'] = "教師手冊";$string['developer.html'] = "管理手冊";$string['cvs.html'] = "使用 CVS";$string['future.html'] = "未來計畫";$string['credits.html'] = "貢獻";$string['licence.html'] = "版權聲明";?>
+﻿<?php // $Id$
+      // Names of the documentation files
+      // Files with a definition "-" are treated as spacers
+
+$string['-about'] = "關於Moodle";
+$string['intro.html'] = "簡介";
+$string['background.html'] = "背景";
+$string['philosophy.html'] = "理念";
+$string['licence.html'] = "授權";
+$string['features.html'] = "特性";
+$string['release.html'] = "發行說明";
+$string['future.html'] = "展望";
+$string['credits.html'] = "致謝";
+
+$string['-installation'] = "管理";
+$string['install.html'] = "安裝";
+$string['faq.html'] = "安裝FAQ";
+$string['installamp.html'] = "Apache, MySQL, PHP";
+$string['upgrade.html'] = "升級";
+
+$string['-usage'] = "使用Moodle";
+$string['teacher.html'] = "教師手冊";
+$string['other.html'] = "其他文件";
+
+$string['-development'] = "開發";
+$string['developer.html'] = "開發手冊";
+$string['coding.html'] = "編碼指引";
+$string['cvs.html'] = "使用CVS";
+$string['translation.html'] = "翻譯";
+
+?>

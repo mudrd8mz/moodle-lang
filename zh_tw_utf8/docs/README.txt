@@ -1,21 +1,19 @@
-Moodle documentation
+Moodle 文件
 --------------------
 
-If you want to translate this documentation into another language,
-I would suggest that you:
+如果您想把這些文件翻譯成另一種語言，我建議您這樣做：
 
- 1) don't include English versions of the files in this directory
-    because they will be used automatically anyway if it is missing
-    from your language pack.
+ 1) 不要更動這個目錄中的英文版本的檔案，因為如果您的語言包裡少了某個檔案，系統會自動以英文版的來代替。
 
- 2) translate them in this order (starting with the important ones):
+ 2) 依照下列順序開始翻譯 (由最重要的開始):
   
-    MOST IMPORTANT
+    最重要:
     |-------------------
-    |
     |   - files.php
     |   - install.html
+    |   - installamp.html
     |   - upgrade.html
+    |   - faq.html
     |
     |  -----------------
     |
@@ -37,8 +35,8 @@ I would suggest that you:
     |  -----------------
     |   
     |   - license.html
-    |   - credits.html
     |
     |-------------------
-    LEAST IMPORTANT
+    最不重要
 
+ 3)請不要翻譯 credits.html - 因它經常更改。

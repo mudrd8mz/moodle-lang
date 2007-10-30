@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // appointment.php - created with Moodle 1.8.2+ (2007021520)
+      // appointment.php - created with Moodle 1.6 development (2005060201)
 
 
 $string['allowresubmit'] = '允許重複';
@@ -11,7 +11,7 @@ $string['description'] = '說明';
 $string['early'] = '$a 前';
 $string['failedupdatefeedback'] = '從使用者 $a 更新回饋失敗';
 $string['feedback'] = '回饋';
-$string['feedbackupdated'] = '提文的回饋更新到 $a';
+$string['feedbackupdated'] = '提文的回饋更新到 $a ';
 $string['late'] = '$a 後';
 $string['maximumgrade'] = '最高分數';
 $string['maximumsize'] = '檔案最大';
@@ -24,7 +24,7 @@ $string['overwritewarning'] = '注意: 重覆送出會取代舊有資料';
 $string['saveallfeedback'] = '儲存所有的回饋';
 $string['submissionfeedback'] = '提交回饋';
 $string['submissions'] = '提交';
-$string['submitappointment'] = '使用此表送出你的會議';
+$string['submitappointment'] = '使用此表送出您的會議';
 $string['submitted'] = '已提交';
 $string['timeend'] = '會議結束';
 $string['timestart'] = '會議開始';
@@ -35,11 +35,11 @@ $string['uploadedfiles'] = '上傳檔案';
 $string['uploaderror'] = '儲存檔案至伺服器發生錯誤';
 $string['uploadfailnoupdate'] = '檔案上傳成功,但是無法更新您的資料!';
 $string['uploadfiletoobig'] = '抱歉, 檔案太大(上限是 $a 字元)';
-$string['uploadnofilefound'] = '無選定檔案- 確定你已選好要上傳的檔案?';
+$string['uploadnofilefound'] = '無選定檔案- 確定您已選好要上傳的檔案?';
 $string['uploadnotregistered'] = '\'$a\' 上傳成功,但未登錄!';
 $string['uploadsuccess'] = '上傳 \'$a\' 成功';
 $string['viewfeedback'] = '檢視會議成績和回饋';
-$string['viewsubmissions'] = '檢視 $a 提交的會議';
-$string['yoursubmission'] = '您的 提交記錄';
+$string['viewsubmissions'] = '檢視{$a}提交的約會';
+$string['yoursubmission'] = '您的提交記錄';
 
 ?>
