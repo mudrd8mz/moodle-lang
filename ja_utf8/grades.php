@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (2007101500)
+      // grades.php - created with Moodle 2.0 dev (2007101501)
 
 
 $string['activities'] = '活動';
@@ -385,6 +385,7 @@ $string['setting'] = '設定';
 $string['settings'] = '設定';
 $string['setweights'] = '加重の設定';
 $string['showactivityicons'] = '活動アイコンを表示する';
+$string['showallhidden'] = 'すべての隠し評定項目';
 $string['showallstudents'] = 'すべての学生を表示';
 $string['showaverages'] = '平均を表示する';
 $string['showcalculations'] = '計算を表示する';
@@ -392,7 +393,9 @@ $string['showeyecons'] = '表示/非表示アイコンを表示する';
 $string['showfeedback'] = 'フィードバックを表示する';
 $string['showgroups'] = 'グループを表示する';
 $string['showhiddenitems'] = '隠し評定項目を表示する';
+$string['showhiddenuntilonly'] = '期限のある隠し評定項目のみ';
 $string['showlocks'] = 'ロックを表示する';
+$string['shownohidden'] = '隠し評定項目なし';
 $string['shownooutcomes'] = 'アウトカムを隠す';
 $string['shownumberofgrades'] = '平均に評定数を表示する';
 $string['showranges'] = '範囲を表示する';
