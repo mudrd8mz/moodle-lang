@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8.2+ (2007021520)
+      // lesson.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['accesscontrol'] = 'Kontrola pristupa';
@@ -37,7 +37,7 @@ $string['cancel'] = 'Odustani';
 $string['canretake'] = '$a može ponovo da pogleda lekciju';
 $string['casesensitive'] = 'Koristi regularne izraze';
 $string['checkbranchtable'] = 'Provera tabele grananja';
-$string['checkedthisone'] = 'proverilo ovu.';
+$string['checkedthisone'] = 'izabralo ovaj odgovor';
 $string['checknavigation'] = 'Proveri navigaciju';
 $string['checkquestion'] = 'Proveri pitanje';
 $string['classstats'] = 'Statistički pregled rezultata svih učesnika kursa';
@@ -183,7 +183,7 @@ $string['nohighscores'] = 'Nema najboljih rezultata';
 $string['nolessonattempts'] = 'Niko još nije pokušao da prođe kroz ovu lekciju.';
 $string['nooneansweredcorrectly'] = 'Niko nije tačno odgovorio.';
 $string['nooneansweredthisquestion'] = 'Niko nije odgovorio na ovo pitanje.';
-$string['noonecheckedthis'] = 'Niko nije ovo proverio.';
+$string['noonecheckedthis'] = 'Niko nije izabrao ovaj odgovor.';
 $string['nooneenteredthis'] = 'Niko nije ovo pokušao.';
 $string['noonehasanswered'] = 'Niko još nije odgovorio na pitanje koje zahteva odgovor u vidu eseja.';
 $string['noretake'] = 'Nije Vam dozvoljeno da ponovo pokušate ovu lekciju.';

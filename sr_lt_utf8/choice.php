@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8.2+ (2007021520)
+      // choice.php - created with Moodle 1.8.1+ (2007021510)
 
 
 $string['addmorechoices'] = 'Dodavanje još izbora';
@@ -17,6 +17,7 @@ $string['choicetext'] = 'Tekst izbora';
 $string['displayhorizontal'] = 'Prikazati horizontalno';
 $string['displaymode'] = 'Način prikaza';
 $string['displayvertical'] = 'Prikazati vertikalno';
+$string['expired'] = 'Nažalost, ova aktivnost je zatvorena dana $a i nije više dostupna';
 $string['fillinatleastoneoption'] = 'Morate ponuditi najmanje dva moguća odgovora.';
 $string['full'] = '(Popunjeno)';
 $string['havetologin'] = 'Morate se prijaviti na sistem pre potvrđivanja svog izbora';

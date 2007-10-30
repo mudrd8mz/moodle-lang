@@ -189,6 +189,7 @@ $string['categoryadded'] = 'Dodata je kategorija \'$a\'';
 $string['categorydeleted'] = 'Obrisana je kategorija \'$a\'';
 $string['categoryduplicate'] = 'Kategorija pod nazivom \'$a\' već postoji';
 $string['categoryname'] = 'Naziv kategorije';
+$string['categoryupdated'] = 'Kategorija \'$a\' je ažurirana';
 $string['changedpassword'] = 'Lozinka je promenjena';
 $string['changepassword'] = 'Promena lozinke';
 $string['changessaved'] = 'Promene su sačuvane';
@@ -238,8 +239,8 @@ $string['confirmednot'] = 'Vaša registracija još nije potvrđena!';
 $string['continue'] = 'Nastavak';
 $string['continuetocourse'] = 'Kliknite ovde da biste ušli na svoj kurs';
 $string['convertingwikitomarkdown'] = 'Pretvaranje Wiki formata u Markdown format';
-$string['cookiesenabled'] = 'Vaš web čitač mora imati omogućene \"kolačiće\"';
-$string['cookiesnotenabled'] = 'Nažalost, \"kolačići\" nisu omogućeni u Vašem web čitaču';
+$string['cookiesenabled'] = 'Vaš Web čitač mora imati omogućene \"kolačiće\"';
+$string['cookiesnotenabled'] = 'Nažalost, \"kolačići\" nisu omogućeni u Vašem Web čitaču';
 $string['copy'] = 'kopiranje';
 $string['copyasnoun'] = 'kopiranje';
 $string['copyingcoursefiles'] = 'Kopiranje datoteka kursa';
@@ -404,6 +405,8 @@ $string['edhelpfontfamily'] = 'Karakteristika familija fontova je lista naziva g
 $string['edhelpfontlist'] = 'Odredite fontove koji će se koristiti u padajućem meniju.';
 $string['edhelpfontsize'] = 'Podrazumevana veličina veličina fonta. <br />Primeri vrednosti koje se mogu zadati su: medium, large, smaller, larger, 10pt, 11px.';
 $string['edit'] = 'Uredi $a';
+$string['editcategorysettings'] = 'Uredi podešavanja kategorije';
+$string['editcategorythis'] = 'Uredi ovu kategoriju';
 $string['editcoursesettings'] = 'Uređivanje podešavanja kursa';
 $string['editfiles'] = 'Uređivanje datoteka';
 $string['editgroupprofile'] = 'Uređivanje profila grupe';
@@ -473,7 +476,7 @@ Da biste promenili Vašu šifru, molim idite na sledeću internet stranicu:
 
 $a->link
 
-U većini programa namenjenih za poštu ovo bi trebalo da se prikaže kao link u plavoj boji na koji možete da kliknete. U slučaju da to ne funkcioniše, isecite i prenesite adresu u adresnu liniju prozora Vašeg web čitača.
+U većini programa namenjenih za poštu ovo bi trebalo da se prikaže kao link u plavoj boji na koji možete da kliknete. U slučaju da to ne funkcioniše, isecite i prenesite adresu u adresnu liniju prozora Vašeg Web čitača.
 
 Ako Bam je potrebna pomoć, molim Vas kontaktirajte vašeg administratora,  $a->admin';
 $string['emailpasswordchangeinfodisabled'] = 'Postovana/i $a->firstname,
@@ -543,7 +546,7 @@ $string['entercourse'] = 'Kliknite za pristup kursu';
 $string['enteremailaddress'] = 'Da biste poništili trenutnu lozinku i dobili novu, treba da unesete Vašu važeću adresu elektronske pošte, na koju će Vam biti poslata nova lozinka.';
 $string['entries'] = 'Ulazi';
 $string['error'] = 'Greška';
-$string['errortoomanylogins'] = 'Nažalost, prekoračili ste dopušteni broj pogrešnih pristupa sistemu. Ponovo pokrenite svoj web čitač i pokušajte ponovo.';
+$string['errortoomanylogins'] = 'Nažalost, prekoračili ste dopušteni broj pogrešnih pristupa sistemu. Ponovo pokrenite svoj Web čitač i pokušajte ponovo.';
 $string['errorwhenconfirming'] = 'Vaš korisnički nalog još nije još potvrđen zbog greške koja se dogodila. Ako ste kliknuli na link koji ste dobili u e-poruci, molimo proverite je li linija u kojoj se nalazi navedeni link ispravna (odnosno, je da je nije Vaš klijent e-pošte možda formatirao u dva reda, čime je deo linka završio u drugom redu). Postoji mogućnost da ćete morati ručnim kopiranjem i unosom rekonstruisati originalni link.';
 $string['everybody'] = 'Svi';
 $string['executeat'] = 'Izvršiti u';
@@ -640,6 +643,7 @@ $string['gd1'] = 'GD 1.x je instaliran';
 $string['gd2'] = 'GD 2.x je instaliran';
 $string['gdneed'] = 'GD mora biti instaliran da biste videli ovaj grafikon';
 $string['gdnot'] = 'GD nije instaliran';
+$string['general'] = 'Opšte';
 $string['gettheselogs'] = 'Pristupanje ovim izveštajima';
 $string['go'] = 'Dalje';
 $string['gotoyourserver'] = '(Vraća vas na vaš server)';
@@ -687,6 +691,7 @@ $string['guestsyes'] = 'Dozvoljen pristup gostima bez lozinke kursa';
 $string['guestuser'] = 'Gost';
 $string['guestuserinfo'] = 'Ovaj korisnik je poseban koji dozvoljava pristup nekim kursevima samo za čitanje.';
 $string['healthcenter'] = 'Testiranje ispravnosti sistema';
+$string['healthnoproblemsfound'] = 'Nema sistemskih problema!';
 $string['healthproblemsdetected'] = 'Otkriveni su sistemski problemi!';
 $string['healthproblemsolution'] = 'Rešenje sistemskog problema';
 $string['healthreturntomain'] = 'Nastavi';
@@ -723,7 +728,7 @@ $string['home'] = 'Početna strana';
 $string['hour'] = 'h';
 $string['hours'] = 'h';
 $string['howtomakethemes'] = 'Kako podesiti novu šemu izgleda sajta';
-$string['htmleditor'] = 'Upotreba HTML editora (samo u nekim web čitačima)';
+$string['htmleditor'] = 'Upotreba HTML editora (samo u nekim Web čitačima)';
 $string['htmleditoravailable'] = 'HTML editor je dostupan';
 $string['htmleditordisabled'] = 'Isključili ste upotrebu HTML editora za Vaš korisnički profil';
 $string['htmleditordisabledadmin'] = 'Administrator sistema je isključio uportrebu HTML editora na nivou celog sistema';
@@ -1050,6 +1055,7 @@ $string['numwords'] = '$a reč(i)';
 $string['numyears'] = '$a godina(e)';
 $string['ok'] = 'OK';
 $string['oldpassword'] = 'Tekuća lozinka';
+$string['olduserdirectory'] = 'Ovo je STARI korisnički direktorijum koji više nije neophodan. Možete ga slobodno obrisati. Datoteke iz ovog direktorijuma su kopirane u NOVI korisnički direktorijum.';
 $string['opentoguests'] = 'Pristup gostima';
 $string['optional'] = 'opciono';
 $string['order'] = 'Poredak';
@@ -1058,6 +1064,7 @@ $string['outline'] = 'Kratak pregled';
 $string['outlinereport'] = 'Skraćeni izveštaj';
 $string['page'] = 'Stranica';
 $string['pageheaderconfigablock'] = 'Konfigurisanje bloka u %%fullname%%';
+$string['parentcategory'] = 'Nadeređena kategorija';
 $string['parentcoursenotfound'] = 'Nadređeni kurs nije pronađen!';
 $string['parentcoursenotmetacourse'] = 'Nadređeni kurs nije metakurs!';
 $string['parentfolder'] = 'Nadređeni direktorijum';
@@ -1284,7 +1291,6 @@ $string['sizegb'] = 'Gb';
 $string['sizekb'] = 'Kb';
 $string['sizemb'] = 'Mb';
 $string['skipped'] = 'Preskočeno';
-$string['skiptomaincontent'] = 'Preskoči napred do glavnog sadržaja';
 $string['skypeid'] = 'Skype ID';
 $string['socialheadline'] = 'Društveni forum - najnovije teme';
 $string['someallowguest'] = 'Neki od kurseva mogu dozvoliti pristup gostima (anonimnim korisnicima)';
@@ -1556,6 +1562,7 @@ $string['yourlastlogin'] = 'Vaš poslednji pristup sistemu';
 $string['yourself'] = 'sebe';
 $string['yourteacher'] = 'Vaš $a';
 $string['zippingbackup'] = 'Kreira se arhiva sa rezervnom kopijom';
+$string['skiptomaincontent'] = 'Preskoči napred do glavnog sadržaja'; // ORPHANED
 $string['enteryourinterests'] = 'Unesite svoja interesovanja razdvojena zarezima'; // ORPHANED
 
 ?>

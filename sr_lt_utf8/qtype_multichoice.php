@@ -2,12 +2,12 @@
       // qtype_multichoice.php - created with Moodle 1.8.1+ (2007021510)
 
 
-$string['addingmultichoice'] = 'Dodaje se pitanje višestrukog izbora';
+$string['addingmultichoice'] = 'Dodavanje pitanja višestrukog izbora';
 $string['addmorechoiceblanks'] = 'Praznine za još {no} izbora';
 $string['answerhowmany'] = 'Jedan ili više tačnih odgovora?';
 $string['answernumbering'] = 'Način obeležavanja odgovora';
 $string['answernumbering123'] = '1. , 2. , 3. , ...';
-$string['answernumberingABC'] = 'A. , B. , C. , ...';
+$string['answernumberingABCD'] = 'A, B., C., ...';
 $string['answernumberingabc'] = 'a. , b. , c. , ...';
 $string['answernumberingnone'] = 'Bez obeležavanja';
 $string['answersingleno'] = 'Dozvoljen izbor više odgovora';
@@ -32,5 +32,6 @@ $string['overallpartiallycorrectfeedback'] = 'Povratne informacije za svaki deli
 $string['partiallycorrectfeedback'] = 'Za svaki delimično tačan odgovor';
 $string['shuffleanswers'] = 'Mešanje pitanja';
 $string['singleanswer'] = 'Izaberite jedan odgovor.';
+$string['answernumberingABC'] = 'A. , B. , C. , ...'; // ORPHANED
 
 ?>
