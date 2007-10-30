@@ -60,6 +60,7 @@ $string['attemptsallowed'] = 'Nombre de tentatives autorisées';
 $string['attemptsdeleted'] = 'Tentatives de tests supprimées';
 $string['attemptselection'] = 'Choisir les tentatives à analyser par utilisateur&nbsp;: ';
 $string['attemptsexist'] = 'Vous ne pouvez plus ajouter ou retirer des questions.';
+$string['attemptsnum'] = 'Tentatives&nbsp;: $a';
 $string['attemptsonly'] = 'N\'afficher que les étudiants ayant déjà effectué le test';
 $string['attemptsunlimited'] = 'Nombre illimité de tentatives';
 $string['back'] = 'Retour à la question précédente';
