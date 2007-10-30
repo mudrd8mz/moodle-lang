@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (2007101500)
+      // role.php - created with Moodle 2.0 dev (2007101501)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -16,6 +16,7 @@ $string['blog:manageofficialtags'] = 'オフィシャルタグを管理する';
 $string['blog:managepersonaltags'] = 'パーソナルタグを管理する';
 $string['blog:view'] = 'ブログエントリを表示する';
 $string['calendar:manageentries'] = 'すべてのカレンダーエントリを管理する';
+$string['calendar:managegroupentries'] = 'グループのカレンダーエントリを管理する';
 $string['calendar:manageownentries'] = '自分のカレンダーエントリを管理する';
 $string['capabilities'] = 'ケイパビリティ';
 $string['capability'] = 'ケイパビリティ';
