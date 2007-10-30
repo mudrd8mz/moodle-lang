@@ -14,6 +14,7 @@ $string['blog:manageofficialtags'] = 'Gérer les balises officielles';
 $string['blog:managepersonaltags'] = 'Gérer les balises personnelles';
 $string['blog:view'] = 'Voir les articles de blog';
 $string['calendar:manageentries'] = 'Gérer tous les événements du calendrier';
+$string['calendar:managegroupentries'] = 'Gérer les événements de groupes du calendrier';
 $string['calendar:manageownentries'] = 'Gérer ses propres événements du calendrier';
 $string['capabilities'] = 'Capacités';
 $string['capability'] = 'Capacité';
