@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta + (2007100903)
+      // role.php - created with Moodle 2.0 dev (2007101501)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
@@ -8,13 +8,15 @@ $string['allowassign'] = 'Toewijzen van rollen toestaan';
 $string['allowoverride'] = 'Overschrijven van rollen toestaan';
 $string['assignglobalroles'] = 'Globale rollen toewijzen';
 $string['assignroles'] = 'Rollen toewijzen';
+$string['assignrolesin'] = 'Rollen toewijzen in $a';
 $string['block:view'] = 'Blok zien';
 $string['blog:create'] = 'Niewe blog items maken';
 $string['blog:manageentries'] = 'Items bewerken en beheren';
 $string['blog:manageofficialtags'] = 'Officiële tags beheren';
 $string['blog:managepersonaltags'] = 'Persoonlijke tags beheren';
 $string['blog:view'] = 'Blogitems bekijken';
-$string['calendar:manageentries'] = 'elijk welke kalenderitems beheren';
+$string['calendar:manageentries'] = 'Gelijk welke kalenderitems beheren';
+$string['calendar:managegroupentries'] = 'Groepskalenderitems beheren';
 $string['calendar:manageownentries'] = 'Eigen kalenderitems beheren';
 $string['capabilities'] = 'Mogelijkheden';
 $string['capability'] = 'Mogelijkheid';
@@ -87,12 +89,14 @@ $string['listallroles'] = 'Toon alle rollen';
 $string['manageroles'] = 'Beheer rollen';
 $string['metaassignerror'] = 'Kan deze rol niet toewijzen aan gebruiker \"$a\" omdat de mogelijkheid om koepelcursussen te beheren nodig is.';
 $string['metaunassignerror'] = 'De rol van gebruiker \"$a\" was automatisch gewijzigd.  Pas de rol aan in de erfcursus';
+$string['morethan'] = 'Meer dan $a';
 $string['my:manageblocks'] = 'Bloks op Mijn Moodle beheren';
 $string['nocapabilitiesincontext'] = 'Geen mogelijkheden beschikbaar  in deze context';
 $string['notes:manage'] = 'Notities beheren';
 $string['notes:view'] = 'Notities bekijken';
 $string['notset'] = 'Niet ingesteld';
 $string['overrideroles'] = 'Rollen overschrijven';
+$string['overriderolesin'] = 'Rollen overschrijven in $a';
 $string['overrides'] = 'Rollen overschrijven';
 $string['permissions'] = 'Rechten';
 $string['potentialusers'] = '$a mogelijke gebruikers';

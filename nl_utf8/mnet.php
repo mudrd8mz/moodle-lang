@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 Beta + (2007100903)
+      // mnet.php - created with Moodle 2.0 dev (2007101501)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (eigen certificaat)';
@@ -19,6 +19,7 @@ $string['authfail_usermismatch'] = 'Authorisatie mislukt: de gebruiker komt niet
 $string['authmnetautoadddisabled'] = '<em>Automatisch gebruikers toevoegen</em> in Moodle Networking Authenticatieplugin is <strong>uitgeschakeld</strong>.';
 $string['authmnetdisabled'] = 'Moodle Networking <em>Authenticatieplugin</em> is <strong>uitgeschakeld</strong>.';
 $string['badcert'] = 'Dit certificaat is niet geldig.';
+$string['certdetails'] = 'Cert Details';
 $string['couldnotgetcert'] = 'Geen certificaat gevonden op <br />$a.<br />De host is misschien onbereikbaar of slecht geconfigureerd.';
 $string['couldnotmatchcert'] = 'Dit komt niet overeen met het certificaat dat door de webserver gepubliceerd wordt.';
 $string['courses'] = 'cursussen';
@@ -42,6 +43,12 @@ $string['enrolcourses_desc'] = 'Cursussen, aangeboden voor externe aanmeldingen 
 $string['enrollingincourse'] = 'Aanmelden in de cursus $a[0] op host $a[1]<br />';
 $string['enrolments'] = 'aanmeldingen';
 $string['enterausername'] = 'Geef een gebruikersnaam of een door komma\'s gescheiden lijst van gebruikersnamen.';
+$string['error7020'] = 'Je ziet deze foutmelding als de site op afstand een record voor jou gemaakt heeft met de verkeerde wwwroot, bijvoorbeeld http://jouwsite.com in de plaats van http://www.jouwsite.com. Je moet de beheerder van die site contacteren om te vragen de record voor jouw host aan te passen met de waarde die je voor wwwroot vindt in config.php.';
+$string['error7022'] = 'Het bericht dat je naar de server op afstand stuurde, was juist geëncrypteerd, maar niet ondertekend. Dit is heel ongewoon. Je kunt best een foutmelding in de Moodle bugtracker maken, waarbij je zoveel mogelijk informatie geeft over de betreffende Moodleversie enz.';
+$string['error7023'] = 'De site op afstand heeft geprobeerd he bericht te ontcijferen met de sleutels die daar voor jouw site beschikbaar zijn. Dit is mislukt. Je kunt dit waarschijnlijk oplossen door manueel de sleutel opnieuw uit te wisselen met de site op afstand. Deze fout zou normaal gezien niet mogen gebeuren, tenzij je geen communicatie meer had met die site gedurende enkele maanden.';
+$string['error7024'] = 'Je hebt een onversleuteld bericht gestuurd naar de site op afstand, maar deze site accepteert geen onversleutelde boodschappen van jouw site. Dit is heel ongewoon. Je kunt best een foutmelding in de Moodle bugtracker maken, waarbij je zoveel mogelijk informatie geeft over de betreffende Moodleversie enz.';
+$string['error7026'] = 'De sleutel waarmee je boodschap is ondertekend, is verschillend van de sleutel waarover de host op afstand over beschikt voor jouw server. Bovendien heeft die host geprobeerd je huidige sleutel te bekomen en is daar niet in gelukt. Geef de sleutel opnieuw manueel door en probeer nog eens.';
+$string['error709'] = 'De site op afstand kon van jouw site geen SSL key bekomen.';
 $string['expired'] = 'Deze sleutel verloopt op';
 $string['expires'] = 'Geldig tot';
 $string['expireyourkey'] = 'Verwijder deze sleutel';

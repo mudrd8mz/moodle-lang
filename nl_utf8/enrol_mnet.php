@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_mnet.php - created with Moodle 1.9 dev (2007021400)
+      // enrol_mnet.php - created with Moodle 2.0 dev (2007101500)
 
 
 $string['allcategories'] = '$a mogelijke categorieën';
@@ -20,6 +20,7 @@ Schrijf je op deze service in om je leerlingen te kunnen aanmelden op $a.<br />
 <li><em>Dependentie</em>: Je moet je ook <strong>inschrijven</strong> op de SSO service (service provider) op $a.</li>
 <li><em>Dependentie</em>: Je moet ook de SSO (identiteitsprovider) <strong>pubiceren</strong> naar $a.</li></ul><br />';
 $string['mnet_enrol_name'] = 'Moodle Netwerk aanmelding';
+$string['mnetlocalforexternal'] = 'Locale cursussen voor externe gebruikers';
 $string['nocategoriesdefined'] = 'Geen cursuscategorieën gevonden. Definieëer nieuwe categorieën  <a href=\"$a\">hier</a>.';
 $string['nocoursesdefined'] = 'Geen cursussen gevonden. Definieëer nieuwe cursussen  <a href=\"$a\">hier</a>.';
 

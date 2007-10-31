@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 Beta + (2007100903)
+      // quiz.php - created with Moodle 2.0 dev (2007101501)
 
 
 $string['1day'] = '1 dag';
@@ -64,6 +64,7 @@ $string['attemptsallowed'] = 'Toegestane pogingen';
 $string['attemptsdeleted'] = 'Testpogingen verwijderd';
 $string['attemptselection'] = 'Kies welke pogingen per gebruiker je wil analyseren';
 $string['attemptsexist'] = 'Deze test is al eens geprobeerd';
+$string['attemptsnum'] = 'Pogingen: $a';
 $string['attemptsonly'] = 'Toon enkel leerlingen met testpogingen';
 $string['attemptsunlimited'] = 'Onbeperkt aantal pogingen';
 $string['back'] = 'Terug naar controleer vraag';
@@ -496,6 +497,7 @@ $string['reviewclosed'] = 'Nadat de test gesloten is';
 $string['reviewimmediately'] = 'Onmiddellijk na de poging';
 $string['reviewnever'] = 'Sta nooit nalezen toe';
 $string['reviewofattempt'] = 'Kijk poging $a na';
+$string['reviewofpreview'] = 'Voorbeeld nakijken';
 $string['reviewopen'] = 'Later, terwijl de test nog open is';
 $string['reviewoptions'] = 'Leerlingen mogen nakijken';
 $string['reviewoptionsheading'] = 'Opties voor herbekijken';
@@ -551,6 +553,7 @@ $string['stoponerror'] = 'Stop bij fout';
 $string['subneterror'] = 'Deze test is zo beveiligd dat hij alleen toegankelijk is vanop bepaalde plaatsen. Jouw computer staat niet in de lijst met toegelaten machines om deze test te maken.';
 $string['subnetnotice'] = 'De test is vastgezet, zodat hij alleen geopend kan worden vanop bepaalde locaties. Jouw computer staat niet op een toegelaten subnet. Als leraar kun je wel een voorbeeld bekijken';
 $string['substitutedby'] = 'zal vervangen worden door';
+$string['summaryofattempts'] = 'Samenvatting van al je pogingen';
 $string['temporaryblocked'] = 'Je mag tijdelijk deze test niet opnieuw proberen<br /> Je mag een niewe poging doen op:';
 $string['time'] = 'Tijd';
 $string['timecompleted'] = 'Voltooid';

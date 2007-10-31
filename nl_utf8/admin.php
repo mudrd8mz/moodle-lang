@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta + (2007100903)
+      // admin.php - created with Moodle 2.0 dev (2007101501)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -39,6 +39,8 @@ $string['cachetext'] = 'Hoelang mag tekst in cache blijven';
 $string['cachetype'] = 'Cache type';
 $string['calendar_weekend'] = 'Weekend';
 $string['calendarsettings'] = 'Kalender';
+$string['cfgwwwrootslashwarning'] = 'Je hebt &#36;CFG->wwwroot fout ingesteld in het bestand config.php. Je hebt een \'/\' aan het einde van je pad gezet. Verwijder dit. Je kunt er vreemde bugs mee ondervinden, zoals  <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>';
+$string['cfgwwwrootwarning'] = 'Je hebt &#36;CFG->wwwroot fout ingesteld in het bestand config.php. Het pad komt niet overeen met de URL die je bebruikt om toegang te krijgen tot deze pagina  Pas dit aan. Je kunt er vreemde bugs mee ondervinden, zoals  <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>';
 $string['change'] = 'wijzig';
 $string['changesitelang'] = 'Wijzig de taalinstelling van de site';
 $string['choosefiletoedit'] = 'Kies een te bewerken bestand uit bovenstaande lijst';
@@ -326,6 +328,7 @@ $string['frontpage'] = 'Startpagina';
 $string['frontpagebackup'] = 'Backup startpagina';
 $string['frontpagedefaultrole'] = 'Standaardrol voor startpagina';
 $string['frontpageloggedin'] = 'Startpagina-items als aangemeld';
+$string['frontpagequestions'] = 'Vragen startpagina';
 $string['frontpagerestore'] = 'Restore startpagina';
 $string['frontpageroles'] = 'Rollen startpagina';
 $string['frontpagesettings'] = 'Instellingen startpagina';
@@ -530,7 +533,7 @@ $string['proxyport'] = 'Proxyport';
 $string['qtyperqpwillberemoved'] = 'Tijdens de upgrade zal het RQP vraagtype verwijderd worden. Je gebruikte deze vraag niet, dus je zult hier geen problemen mee krijgen.';
 $string['qtyperqpwillberemovedanyway'] = 'Tijdens de upgrade zal het RQP vraagtype verwijderd worden. Er zijn vragen van dit type in je database. Die zullen stoppen met werken, tenzij je de code herinstalleert van  http://moodle.org/mod/data/view.php?d=13&amp;rid=797 voor je verder gaat met de upgrade.';
 $string['quarantinedir'] = 'Quarantainemap';
-$string['question'] = 'Vraag';
+$string['question'] = 'Vragen';
 $string['questioncwqpfscheck'] = 'Eén of meer willekeurige vragen in een test zijn insgesteld om vragen te kiezen uit gedeelde en niet gedeelde vragencategorieën. Er is een meer gedetailleerd rapport <a href=\"$a->reporturl\">hier</a> en je kunt de Moodle Docs-pagina <a href=\"$a->docsurl\">hier</a> bekijken.';
 $string['questioncwqpfsok'] = 'Goed. Er zijn geen willekeurige vragen in je testen die opgemaakt zijn om vragen uit zowel gedeelde als niet gedeelde vragencategorieën te kiezen.';
 $string['rcache'] = 'Record cache';
@@ -555,6 +558,7 @@ $string['savechanges'] = 'Bewaar wijzigingen';
 $string['search'] = 'Zoek';
 $string['searchinsettings'] = 'Zoek in instellingen';
 $string['searchresults'] = 'Zoekresultaten';
+$string['sectionerror'] = 'Sectiefout!';
 $string['secureforms'] = 'Gebruik bijkomende formulierbeveiliging';
 $string['security'] = 'Veiligheid';
 $string['server'] = 'Server';

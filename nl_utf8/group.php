@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 Beta + (2007100903)
+      // group.php - created with Moodle 2.0 dev (2007101501)
 
 
 $string['addgroupstogrouping'] = 'Voeg groepen aan groepering toe.';
@@ -36,6 +36,7 @@ $string['erroraddremoveuser'] = 'Fout bij toevoegen/verwijderen van gebruiker $a
 $string['erroreditgroup'] = 'Fout bij het maken/updaten van groep $a';
 $string['erroreditgrouping'] = 'Fout bij het maken/updaten van groepering $a';
 $string['errorinvalidgroup'] = 'Fout, ongeldige groep $a';
+$string['evenallocation'] = 'Opmerking: Om de toewijzing aan groepen evenwichtig te houden, verschilt het aantal leden per groep van het aantal dat je opgegeven hebt.';
 $string['existingmembers'] = 'Leden: $a';
 $string['filtergroups'] = 'Filter groepeert op:';
 $string['firstname'] = 'alfabetisch op voornaam';
@@ -74,6 +75,7 @@ $string['hidepicture'] = 'Verberg foto';
 $string['javascriptrequired'] = 'Voor deze pagina moet Javascript ingeschakeld zijn';
 $string['lastname'] = 'alfabetisch op achternaam';
 $string['members'] = 'Leden per groep';
+$string['membersingroup'] = 'Leden';
 $string['membersofselectedgroup'] = 'Leden van de geselecteerde groep';
 $string['namingscheme'] = 'Naamschema';
 $string['namingschemehelp'] = 'opmerking: gebruik \'@\' om de groepletter voor te stellen of \'#\' om het groepsnummer voor te stellen';
