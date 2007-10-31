@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta + (2007092806)
+      // role.php - created with Moodle 1.9 Beta 2 (2007101000)
 
 
 $string['addrole'] = 'Afegeix un nou rol';
@@ -67,6 +67,7 @@ $string['grade:hide'] = 'Mostrar/ocultar qualificacions o elements';
 $string['grade:import'] = 'Importar qualificacions';
 $string['grade:lock'] = 'Blocar qualificacions o elements';
 $string['grade:manage'] = 'Gestionar elements de qualificació';
+$string['grade:manageletters'] = 'Gestionar qualificacions per lletres';
 $string['grade:manageoutcomes'] = 'Gestionar resultats de les qualificacions';
 $string['grade:override'] = 'Esmenar qualificacions';
 $string['grade:unlock'] = 'Desblocar qualificacions o elements';

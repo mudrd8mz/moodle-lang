@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_search.php - created with Moodle 1.9 Beta + (2007092806)
+      // block_search.php - created with Moodle 1.9 Beta 2 (2007101000)
 
 
 $string['blockname'] = 'Cerca global';
@@ -12,7 +12,7 @@ $string['configpdftotextcmd'] = 'Camí de l\'ordre pdftotext';
 $string['configsearchtext'] = 'Text de cerca';
 $string['configwordtotextcmd'] = 'Camí de l\'ordre doctotext';
 $string['configwordtotextenv'] = 'Paràmetre d\'entorn del conversor de MSWord';
-$string['go'] = 'Vés-hi';
+$string['go'] = 'Endavant';
 $string['searchmoodle'] = 'Cerca Moodle';
 
 ?>
