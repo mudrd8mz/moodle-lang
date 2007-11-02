@@ -194,8 +194,7 @@ $string['categoryupdated'] = 'S\'ha actualitzat la categoria \'$a\'.';
 $string['changedpassword'] = 'S\'ha canviat la contrasenya';
 $string['changepassword'] = 'Canvia la contrasenya';
 $string['changessaved'] = 'S\'han desat els canvis';
-$string['check'] = 'Activa';
-$string['checkall'] = 'Activa tot';
+$string['check'] = 'Reviseu';
 $string['checkingbackup'] = 'S\'està comprovant la còpia de seguretat';
 $string['checkingcourse'] = 'S\'està comprovant el curs';
 $string['checkingforbbexport'] = 'S\'està fent la comprovació per exportar a BlackBoard';
@@ -1552,6 +1551,7 @@ $string['yourlastlogin'] = 'La vostra darrera entrada va ser';
 $string['yourself'] = 'vós mateix';
 $string['yourteacher'] = 'el vostre $a';
 $string['zippingbackup'] = 'S\'està comprimint la còpia de seguretat';
+$string['checkall'] = 'Activa tot'; // ORPHANED
 $string['enteryourinterests'] = 'Introduir els vostres interessos separats per comes'; // ORPHANED
 
 ?>
