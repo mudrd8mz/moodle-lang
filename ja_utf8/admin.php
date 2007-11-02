@@ -234,6 +234,7 @@ $string['cronerrorclionly'] = '申し訳ございません、このページへ�
 $string['cronerrorpassword'] = '申し訳ございません、あなたはこのページへアクセスするための有効なパスワードを提供していません。';
 $string['cronremotepassword'] = 'リモートアクセスのcronパスワード';
 $string['cronwarning'] = '<a href=\"cron.php\">cron.phpメンテナンススクリプト</a>が、少なくとも24時間稼動していません。';
+$string['csvseparator'] = 'CSVセパレータ';
 $string['curlrecommended'] = 'Moodleネットワーキング機能を有効にするため、Curlライブラリのインストールを強くお勧めします。';
 $string['customcheck'] = 'その他のチェック';
 $string['datarootsecuritywarning'] = 'あなたのサイト設定は、安全ではない可能性があります。datarootディレクトリ ($a) が、ウェブから直接アクセスできないことを確認してください。';
@@ -550,6 +551,7 @@ $string['riskspam'] = 'ユーザは、サイトユーザまたはそれ以外に
 $string['riskspamshort'] = 'スパムリスク';
 $string['riskxss'] = 'ユーザは、クロスサイトスクリプティング (XSS) を許すファイルおよびテキストを追加することができます。';
 $string['riskxssshort'] = 'XSSリスク';
+$string['rowpreviewnum'] = 'プレビュー行';
 $string['runclamavonupload'] = 'アップロードファイルにclam AVを使用する';
 $string['savechanges'] = '変更を保存する';
 $string['search'] = '検索';

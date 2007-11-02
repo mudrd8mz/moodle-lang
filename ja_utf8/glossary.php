@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (2007101500)
+      // glossary.php - created with Moodle 2.0 dev (2007101501)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -56,6 +56,10 @@ $string['current'] = '現在の並び替え順: $a';
 $string['currentglossary'] = '現在の用語集';
 $string['dateview'] = '日付順';
 $string['defaultapproval'] = 'デフォルトで承認する';
+$string['defaulthook'] = 'デフォルトフック';
+$string['defaultmode'] = 'デフォルトモード';
+$string['defaultsortkey'] = 'デフォルトの並び替えキー';
+$string['defaultsortorder'] = 'デフォルトの並び替え順';
 $string['definition'] = '定義';
 $string['definitions'] = '定義';
 $string['deleteentry'] = 'エントリの削除';
@@ -148,6 +152,7 @@ $string['noentry'] = 'エントリが見つかりませんでした。';
 $string['notcategorised'] = 'カテゴリなし';
 $string['numberofentries'] = 'エントリ数';
 $string['onebyline'] = '(1行あたり1件)';
+$string['popupformat'] = 'ポップアップフォーマット';
 $string['printerfriendly'] = '印刷モード';
 $string['printviewnotallowed'] = '印刷モードは許可されていません。';
 $string['question'] = '質問';
