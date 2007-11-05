@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101500)
+      // moodle.php - created with Moodle 2.0 dev (2007101501)
 
 
 $string['action'] = '操作';
@@ -23,9 +23,9 @@ $string['addcreator'] = 'コース作成者を追加する';
 $string['added'] = '$a が追加されました。';
 $string['addedrecip'] = '受信者が $a 名追加されました。';
 $string['addedrecips'] = '受信者が $a 名追加されました。';
-$string['addedtogroup'] = 'グループ $a に追加されました。';
-$string['addedtogroupnot'] = 'グループ $a に追加されませんでした。';
-$string['addedtogroupnotenrolled'] = 'コースに登録されていないため、グループ $a に追加されませんでした。';
+$string['addedtogroup'] = 'グループ「 $a 」に追加されました。';
+$string['addedtogroupnot'] = 'グループ「 $a 」に追加されませんでした。';
+$string['addedtogroupnotenrolled'] = 'コースに登録されていないため、グループ「 $a 」に追加されませんでした。';
 $string['addinganew'] = '新しい $a の追加';
 $string['addinganewto'] = '新しい $a->what を $a->to へ追加';
 $string['addingdatatoexisting'] = '既存のデータに追加';
@@ -522,6 +522,8 @@ $string['enrolenddaterror'] = '登録終了日が開始日よりも早く設定�
 $string['enrollable'] = 'コース登録可能';
 $string['enrolledincourse'] = 'コース「 $a 」に登録されました。';
 $string['enrolledincoursenot'] = 'コース「 $a 」に登録されませんでした。';
+$string['enrolledincoursenotrole'] = '「 $a->course 」に「 $a->role 」として登録中にエラーが発生しました。';
+$string['enrolledincourserole'] = '「 $a->course 」に「 $a->role 」として登録されました。';
 $string['enrollfirst'] = 'サイト活動を利用するためには、事前にコースに登録を行ってください。';
 $string['enrolme'] = 'このコースに登録する';
 $string['enrolmentconfirmation'] = 'あなたはメンバーとしてこのコースに登録しようとしています。<br />本当に登録してもよろしいですか?';
