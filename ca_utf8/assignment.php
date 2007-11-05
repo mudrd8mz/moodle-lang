@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 beta + (2006101001)
+      // assignment.php - created with Moodle 1.9 Beta 2 (2007101000)
 
 
 $string['allowdeleting'] = 'Permet suprimir';
@@ -10,13 +10,13 @@ $string['assignment:grade'] = 'Qualificar tasca';
 $string['assignment:submit'] = 'Trametre tasca';
 $string['assignment:view'] = 'Veure tasca';
 $string['assignmentdetails'] = 'Detalls de la tasca';
-$string['assignmentmail'] = '$a->teacher ha posat certa retroacció sobre la vostra tramesa corresponent a la tasca \'$a->assignment\'
+$string['assignmentmail'] = '$a->teacher ha introduït una retroacció en la vostra tramesa de la tasca \'$a->assignment\'
 
 Podeu veure-ho en la vostra tramesa:
 
 $a->url';
-$string['assignmentmailhtml'] = '$a->teacher ha posat certa retroacció sobre la vostra tramesa corresponent a la tasca \'<i>$a->assignment</i>\'<br /><br />
-Podeu veure-ho adjunts a la vostra <a href=\"$a->url\">tramesa</a>.';
+$string['assignmentmailhtml'] = '$a->teacher ha introduït una retroacció en la vostra tramesa de la tasca \'<i>$a->assignment</i>\'<br /><br />
+Podeu veure-ho en la vostra <a href=\"$a->url\">tramesa</a>.';
 $string['assignmentname'] = 'Nom de la tasca';
 $string['assignmenttype'] = 'Tipus de tasca';
 $string['availabledate'] = 'Disponible des de';
