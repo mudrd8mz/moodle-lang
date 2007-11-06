@@ -294,6 +294,7 @@ $string['enablerecordcache'] = 'Activer le cache des enregistrements';
 $string['enablerssfeeds'] = 'Activer les RSS';
 $string['enablestats'] = 'Activer les statistiques';
 $string['enabletrusttext'] = 'Activer le système Contenu fiable';
+$string['encoding'] = 'Encodage';
 $string['environment'] = 'Environnement';
 $string['environmenterrortodo'] = 'Vous devez résoudre tous les problèmes liés à l\'environnement (erreurs) décrits ci-dessus avant de continuer l\'installation de cette version de Moodle&nbsp;!';
 $string['environmenterrorupgrade'] = 'Attention&nbsp;! Veuillez résoudre tous les problèmes d\'environnement (erreurs) mentionnées ci-dessus avant de continuer la mise à jour vers cette version de Moodle&nbsp;! La mise à jour sans correction de ces problèmes causera vraisemblablement des problèmes, par exemple des pertes de données. Voulez-vous vraiment continuer maintenant la mise à jour&nbsp;?';
