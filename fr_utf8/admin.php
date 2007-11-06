@@ -234,6 +234,7 @@ $string['cronerrorpassword'] = 'Désolé, vus n\'avez pas fourni un mot de passe
 $string['cronremotepassword'] = 'Mot de passe pour lancer le cron à distance';
 $string['cronwarning'] = 'Le <a href=\"cron.php\">script de maintenance cron.php</a> n\'a pas été lancé depuis au moins 24 heures.';
 $string['cronwarning2'] = 'Le <a href=\"cron.php\">script de maintenance cron.php</a> n\'a pas été lancé depuis au moins 24 heures.<br />Voir $a pour de plus amples informations sur l\'automatisation de cette opération.';
+$string['csvseparator'] = 'Séparateur CSV';
 $string['curlrecommended'] = 'L\'installation de la bibliothèque optionnelle Curl est vivement recommandée, afin de pouvoir utiliser la fonctionnalité Réseau Moodle.';
 $string['customcheck'] = 'Autres contrôles';
 $string['datarootsecuritywarning'] = 'La configuration de votre site semble ne pas être sûre. Veuillez vous assurer que le dossier des données de Moodle ($a) ne soit pas directement accessible depuis le web.';
@@ -550,6 +551,7 @@ $string['riskspam'] = 'Les utilisateurs pourraient envoyer du spam à des utilis
 $string['riskspamshort'] = 'Risque de spam';
 $string['riskxss'] = 'Les utilisateurs pourraient déposer des fichiers ou écrire des textes permettant le «&nbsp;cross-site scripting&nbsp;» (XSS)';
 $string['riskxssshort'] = 'Risque XSS';
+$string['rowpreviewnum'] = 'Rangées de prévisualisation';
 $string['runclamavonupload'] = 'Vérifier les fichiers déposés avec clam AV';
 $string['savechanges'] = 'Enregistrer les modifications';
 $string['search'] = 'Recherche';
