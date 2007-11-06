@@ -95,6 +95,7 @@ $string['unknownrole'] = 'Rôle «&nbsp;$a&nbsp;» inconnu';
 $string['unknownuseraction'] = 'Désolé, je ne comprends pas ce que vous voulez faire.';
 $string['userautherror'] = 'Méthode d\'authentification inconnue.';
 $string['userauthunsupported'] = 'Méthode d\'authentification non supportée ici.';
+$string['useremailduplicate'] = 'Adresse de courriel en doublon';
 $string['usernotaddedadmin'] = 'Impossible de supprimer les comptes administrateur.';
 $string['usernotaddederror'] = 'Utilisateur pas ajouté&nbsp;: erreur inconnue.';
 $string['usernotaddedregistered'] = 'Utilisateur pas ajouté&nbsp;; déjà enregistré.';
