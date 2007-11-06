@@ -608,6 +608,7 @@ $string['formattext'] = 'Format Moodle';
 $string['formattexttype'] = 'Mise au format';
 $string['formattopics'] = 'Thématique';
 $string['formattopicsajax'] = 'Thématique - AJAX';
+$string['formattopicscss'] = 'Thématique - CSS, sans table';
 $string['formatweeks'] = 'Hebdomadaire';
 $string['formatweekscss'] = 'Hebdomadaire - CSS, sans table';
 $string['formatwiki'] = 'Format de genre wiki';
