@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9 Beta + (2007083101)
+      // xmldb.php - created with Moodle 2.0 dev (2007101501)
 
 
 $string['aftertable'] = '次のテーブルの後:';
@@ -40,6 +40,7 @@ $string['delete_xml_file'] = 'XMLファイルの削除';
 $string['down'] = '下へ';
 $string['duplicate'] = '複製';
 $string['duplicatefieldname'] = '同じ名称のフィールドが登録されています。';
+$string['duplicatekeyname'] = '同じ名称のキーが登録されています。';
 $string['edit'] = '編集';
 $string['edit_field'] = 'フィールドの編集';
 $string['edit_index'] = 'インデックスの編集';

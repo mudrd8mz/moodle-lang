@@ -509,7 +509,7 @@ $a->link
 
 お分かりにならない場合は、サイト管理者 $a->admin にご連絡ください。';
 $string['emailpasswordconfirmationsubject'] = '$a: パスワード変更の確認';
-$string['emailpasswordconfirmmaybesent'] = '<p>正しいユーザ名またはパスワードを入力した場合、あなたにメールが送信されています。</p>
+$string['emailpasswordconfirmmaybesent'] = '<p>正しいユーザ名またはメールアドレスを入力した場合、あなたにメールが送信されています。</p>
 <p>送信されたメールには、パスワードの変更を確認および完了するため、簡単な説明が記載されています。パスワード変更作業が難しい場合、サイト管理者にご連絡ください。</p>';
 $string['emailpasswordconfirmsent'] = 'メールがあなたのアドレス <b>$a</b> 宛に送信されました。<br />送信されたメールにはパスワードの変更を確認・完了するための簡単な説明が書いてあります。問題がある場合、サイト管理者にご連絡ください。';
 $string['emailpasswordsent'] = 'パスワードの変更確認ありがとうございます。
