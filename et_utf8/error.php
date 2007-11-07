@@ -29,5 +29,6 @@ $string['cannotsavemd5file']='Ei saa salvestada md5 faili.';
 $string['cannotsavezipfile']='Ei saa salvestada ZIP faili.';
 $string['cannotunzipfile']='Ei saa lahti pakkida faili.';
 $string['invalidmd5']='Vigane md5';
+$string['unknowncourseidnumber']="Tundmatu kursuse ID \"\$a\"";
 ?>
 

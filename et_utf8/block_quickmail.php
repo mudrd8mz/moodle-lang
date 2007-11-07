@@ -1,0 +1,29 @@
+<?php
+$string['action']='Toiming';
+$string['areyousure']='Kas oled kindel, et tahad kustutada kõik kirjad arhiivist?';
+$string['attachment']='Manus';
+$string['attachmentalt']='Manuse lisamine kirjale';
+$string['attachmenterror']='Pole korrektne kaasapanu! Järgmist faili ei eksisteeri:<strong>$a</strong>';
+$string['attachmentoptional']='Kaasapanu (valikuline)';
+$string['blockname']='Kiirpost';
+$string['check']='Märgista kõik';
+$string['clearhistory']='Kustuta ajalugu';
+$string['compose']='Koosta';
+$string['date']='Kuupäev';
+$string['delete']='Kustuta';
+$string['deletefail']='Kustutamine ebaõnnestus';
+$string['deletesuccess']='Kustutamine õnnestus';
+$string['email']='e_kiri';
+$string['emailfail']='e_kirja viga';
+$string['history']='Arhiiv';
+$string['messageerror']='Pead kirjutama sõnumi!';
+$string['nogroupmembers']='Rühma liikmed puuduvad';
+$string['notingroup']='Pole rühmas';
+$string['quickmail:cansend']='Võib saata e-meile kiirpostiga';
+$string['sendemail']='Saada kiri';
+$string['subjecterror']='Pane pealkiri!';
+$string['successfulemail']='Saatmine õnnestus';
+$string['to']='Kellele';
+$string['toerror']='Pead märkima meili saaja!';
+$string['uncheck']='Eemalda märgistused';
+?>

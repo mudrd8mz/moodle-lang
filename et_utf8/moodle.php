@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+<?php
 $string['action']='Toiming';
 $string['actions']='Toimingud';
 $string['active']='Aktiivne';
@@ -633,7 +633,7 @@ $string['htmleditordisabled']='Sa pole oma kasutaja andmetes võimaldanud HTML t
 $string['htmleditordisabledadmin']='Administraator pole võimaldanud HTML toimetit õpikeskkonnas';
 $string['htmleditordisabledbrowser']='HTML toimeti pole saadaval, kuna sa ei kasuta Internet Explorer 5.5 või uuemat versiooni';
 $string['htmlfilesonly']='HTML failid ainult';
-$string['htmlformat']='Pretty HTML formaat';
+$string['htmlformat']='Kena HTML formaat';
 $string['icqnumber']='ICQ number';
 $string['idnumber']='ID number';
 $string['idnumbercourse']='Kursuse ID number';
@@ -1396,4 +1396,8 @@ $string['xmldbeditor']='XMLDB redaktor';
 $string['year']='aasta';
 $string['years']='aastad';
 $string['cancelled']='Tühistatud';
+$string['ajaxno']='Ei: kasuta põhilisi veebivahendeid';
+$string['ajaxyes']='Jah: kasuta progressiivseid vahendeid';
+$string['nostatstodisplay']='Ei saa kuvada, sest ei ole kättesaadavaid andmeid, vabandust.';
+$string['untilcomplete']='Kuni valmis';
 ?>

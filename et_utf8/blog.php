@@ -1,7 +1,4 @@
-<?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8.1+ (2007021510)
-
-
+<?php
 $string['addnewentry'] = 'Lisa uus sissekanne';
 $string['addotags'] = 'Lisa ametlikud märksõnad';
 $string['addptags'] = 'Lisa kasutaja määratud märksõnad';

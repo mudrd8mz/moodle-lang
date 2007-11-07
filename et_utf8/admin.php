@@ -409,4 +409,17 @@ $string['runclamavonupload']='Kasuta clam AV üles laaditud failide kontrollimis
 $string['unicoderecommended']='Soovitatav on kõikide andmete salvestamine UTF-8\'s (unicode). Uued paigaldamised peaksid olema tehtud andmebaasi, mille vaikimisi kodeering on Unicode. Kui uuendada, siis peaksid teostama UTF-8\'sse üleviimise protsessi (vaata Admin lehte).';
 $string['gradebook']='Hinneteleht';
 $string['memcachedhosts']='memcached hostid';
+$string['sitelangchanged']='Saidi keeleseaded edukalt muudetud';
+$string['maxeditingtime']='Maksimaalne aeg postituste redigeerimiseks';
+$string['updatecomponent']='Uuenda komponent';
+$string['searchinsettings']='Otsi seadetest';
+$string['searchresults']='Otsingu tulemused';
+$string['confirminstall']='Oled paigaldamas keelepaketti (\$a), oled kindel?';
+$string['sitemailcharset']='Märgistik';
+$string['riskxss']='Kasutajad võivad lisada faile ja tekste, mis võimaldab XSS (Cross-Site Scripting) ründeid';
+$string['profileshortnamenotunique']='See lühinimi on juba kasutusel';
+$string['opentogoogle']='Ava Google\'s';
+$string['renameerrors']='Vead ümbernimetamisel';
+$string['environmentrequirecustomcheck']='see test peab olema edukalt läbitud';
+$string['configrunclamavonupload']='Kui võimaldatud, siis clam AV kasutatakse kõikide üleslaetud failide skänneerimiseks.';
 ?>

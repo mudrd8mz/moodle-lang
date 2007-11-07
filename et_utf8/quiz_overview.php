@@ -1,7 +1,4 @@
-<?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 1.8.1+ (2007021510)
-
-
+<?php
 $string['allattempts'] = 'Näita kõiki katseid';
 $string['allstudents'] = 'Näita kõiki $a';
 $string['attemptsonly'] = 'Näita $a ainult katsetega';

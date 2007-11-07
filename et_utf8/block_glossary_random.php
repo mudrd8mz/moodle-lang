@@ -1,7 +1,4 @@
-<?PHP // $Id$ 
-      // block_glossary_random.php - created with Moodle 1.5.2 (2005060220)
-
-
+<?php
 $string['addentry'] = 'Täienda sõnastikku';
 $string['askaddentry'] = 'Kui kasutajad tohivad lisada kirjeid sõnastikku, näita linki sellise tekstiga: ';
 $string['askinvisible'] = 'Kui kasutajad ei tohi muuta ega vaadata sõnastikku, näita seda teksti (ilma lingita):';
@@ -23,5 +20,4 @@ $string['type'] = 'Kuidas uut kirjet valitakse';
 $string['typehelp'] = '<b>Viimati muudetud kirje</b> kuvab alati kirje, mida muudeti viimasena. <b>Juhuslik kirje</b> valib uue kirje iga kord juhuslikult. Valik <b>Järgmine kirje</b> ringleb järjekorras mööda kirjeid. See viimane valik on eriti kasulik siis, kui päevade arv on samuti valitud, võimaldades sul niimoodi luua <i>Nädala märksõna</i> või <i>Päeva tera</i>, mida kõik näevad.';
 $string['viewglossary'] = 'Veel kirjeid...';
 $string['whichfooter'] = 'Sa võid kuvada linke tegevustele, millega selle ploki sõnastik seotud on. Plokis kuvatakse linke ainult neile tegevustele, mis on selle sõnastiku jaoks võimaldatud.';
-
 ?>

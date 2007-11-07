@@ -81,5 +81,8 @@ $string['course:viewhiddensections']='Vaadata peidetud sektsioone';
 $string['course:viewhiddenactivities']='Vaadata peidetud tegevusi';
 $string['user:readuserblogs']='Vaadata kõikide kasutajate blogisid';
 $string['user:viewuseractivitiesreport']='Vaadata kasutajate tegevuste raporteid';
-
+$string['user:readuserposts']='Vaadata kõikide kasutajate postitusi';
+$string['inherit']='Pärantatav';
+$string['overrides']='Ülekatmised';
+$string['overrideroles']='Rollide ülekatmised';
 ?>

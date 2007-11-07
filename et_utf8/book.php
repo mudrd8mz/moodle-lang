@@ -1,0 +1,32 @@
+<?php
+$string['addafter']='Lisa uus peatükk';
+$string['chapterscount']='Peatükid';
+$string['chaptertitle']='Peatüki pealkiri';
+$string['confchapterdelete']='Kas Te tõepoolest tahate kustutada seda peatükki?';
+$string['confchapterdeleteall']='Ka Te tõepoolest tahate kustutada seda peatükki ja selle alapeatükke?';
+$string['content']='Sisukord';
+$string['customtitles']='Kohandatud pealkirjad';
+$string['disableprinting']='Trükkimine keelatud';
+$string['doexport']='Ekspordi';
+$string['doimport']='Impordi';
+$string['editingchapter']='Peatüki muutmine';
+$string['faq']='Raamat FAQ';
+$string['import']='Importimine';
+$string['importing']='Importimine';
+$string['importingchapters']='Impordib peatükid raamatusse';
+$string['modulename']='Raamat';
+$string['modulenameplural']='Raamatud';
+$string['navexit']='Välju raamatust';
+$string['navnext']='Järgmine';
+$string['navprev']='Eelmine';
+$string['numbering']='Peatükkide tähistus';
+$string['numbering0']='Ei';
+$string['numbering1']='Numbrid';
+$string['numbering2']='Täpid';
+$string['numbering3']='Taandatud';
+$string['printbook']='Trüki kogu raamat';
+$string['printchapter']='Ttrüki käesolev peatükk';
+$string['printdate']='Kuupäev';
+$string['subchapter']='Alapeatükk';
+$string['toc']='Sisukord';
+?>

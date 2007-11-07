@@ -22,4 +22,9 @@ $string['version']='versioon';
 $string['expired']='See võti aegub';
 $string['expires']='Kehtiv kuni';
 $string['courses']='kursused';
+$string['RPC_HTTPS_VERIFIED']='HTTPS (signeeritud)';
+$string['hostdeleted']='Ok - host kustutatud';
+$string['hostsettings']='Host seaded';
+$string['logs']='logid';
+$string['mnetlog']='Logid';
 ?>

@@ -119,4 +119,7 @@ $string['vertical']='Vertikaalne';
 $string['width']='Laius';
 $string['wordclean']='Eemalda Word\'i HTML';
 $string['zip']='Paki';
+$string['mustenterurl']='Sa pead sisestama URL\'i';
+$string['pleaseenteralt']='Palun sisesta alternatiivne tekst';
+$string['enterurlfirst']='Sa pead esimesena sisestama URL\'i';
 ?>
