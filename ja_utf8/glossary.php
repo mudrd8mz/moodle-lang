@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (2007101501)
+      // glossary.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -19,12 +19,14 @@ $string['areyousuredeletecomment'] = '本当にこのコメントを削除して
 $string['areyousureexport'] = '本当にこのエントリを下記の用語集にエクスポートしてもよろしいですか?';
 $string['ascending'] = '昇順';
 $string['attachment'] = '添付';
+$string['author'] = '著者';
 $string['authorview'] = '著者順';
 $string['back'] = '戻る';
 $string['cantinsertcat'] = 'カテゴリを追加できません。';
 $string['cantinsertrec'] = 'レコードを追加できません。';
 $string['cantinsertrel'] = '関連カテゴリエントリを追加できません。';
 $string['casesensitive'] = '大文字小文字を区別する';
+$string['cat'] = 'カテゴリ';
 $string['categories'] = 'カテゴリ';
 $string['category'] = 'カテゴリ';
 $string['categorydeleted'] = 'カテゴリが削除されました。';
@@ -54,6 +56,7 @@ $string['concepts'] = '用語';
 $string['configenablerssfeeds'] = 'すべての用語集に関するRSSフィードを有効にします。さらに、手動で各用語集のRSSフィード設定を有効にする必要があります。';
 $string['current'] = '現在の並び替え順: $a';
 $string['currentglossary'] = '現在の用語集';
+$string['date'] = '日付';
 $string['dateview'] = '日付順';
 $string['defaultapproval'] = 'デフォルトで承認する';
 $string['defaulthook'] = 'デフォルトフック';
@@ -133,7 +136,9 @@ $string['importedcategories'] = 'インポートされたカテゴリ';
 $string['importedentries'] = 'インポートされたエントリ';
 $string['importentries'] = 'エントリのインポート';
 $string['importentriesfromxml'] = 'エントリをXMLファイルからインポートする';
+$string['includegroupbreaks'] = 'グループ区切りを含む';
 $string['isglobal'] = 'これはグローバル用語集ですか?';
+$string['letter'] = 'アルファベット';
 $string['linkcategory'] = 'このカテゴリを自動的にリンクする';
 $string['linking'] = 'オートリンク';
 $string['mainglossary'] = 'メイン用語集';
