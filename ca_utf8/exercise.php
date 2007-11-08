@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.9 dev (2007080202)
+      // exercise.php - created with Moodle 1.9 Beta 2 (2007101000)
 
 
 $string['absent'] = 'Absent';
@@ -61,11 +61,11 @@ $string['gradetable'] = 'Taula de qualificacions';
 $string['gradinggrade'] = 'Qualificació de qualificacions';
 $string['gradingstrategy'] = 'Estratègia de qualificacions';
 $string['handlingofmultiplesubmissions'] = 'Administració de múltiples trameses';
-$string['hidenamesfromstudents'] = 'Ocultar el nom dels estudiants';
+$string['hidenamesfromstudents'] = 'Oculta els noms de l\'estudiantat';
 $string['incorrect'] = 'Incorrecte';
 $string['late'] = 'Tard';
 $string['lax'] = 'Fluix';
-$string['leaguetable'] = 'Taula de treballs lliurats';
+$string['leaguetable'] = 'Taula de classificació dels treballs tramesos';
 $string['mail1'] = 'La vostra tasca \'$a\' ha estat avaluada per';
 $string['mail2'] = 'Els comentaris i la qualificació es poden trobar a l\'assignació de la tasca \'$a\'';
 $string['mail3'] = 'Podeu veure\'l en l\'assignació de la tasca';
@@ -94,18 +94,18 @@ $string['notitlegiven'] = 'No hi ha títol';
 $string['numberofassessmentelements'] = 'Nombre de comentaris, elements d\'avaluació, bandes de qualificació, declaracions de criteris o categories en una rúbrica';
 $string['numberofcriterionelements'] = 'El nombre d\'elements del criteri ha de ser més gran que un.';
 $string['numberofentries'] = 'Nombre d\'entrades';
-$string['numberofentriesinleaguetable'] = 'Nombre d\'entrades en la taula de qualificacions';
+$string['numberofentriesinleaguetable'] = 'Nombre d\'entrades en la taula de classificació';
 $string['numberofnegativeresponses'] = 'Nombre de respostes negatives';
 $string['onesubmission'] = 'Una tramesa';
-$string['optionaladjustment'] = 'Adaptació opcional';
-$string['overallgrade'] = 'Qualificació general';
+$string['optionaladjustment'] = 'Ajust opcional';
+$string['overallgrade'] = 'Qualificació global';
 $string['passwordprotectedexercise'] = 'Exercici protegit amb contrasenya';
 $string['phase'] = 'Fase';
 $string['phase1'] = 'Configuració de l\'exercici';
 $string['phase1short'] = 'Configuració';
 $string['phase2'] = 'Permet avaluacions i trameses $a';
 $string['phase2short'] = 'Obrir';
-$string['phase3'] = 'Mostra les qualificacions generals i la Taula corresponent';
+$string['phase3'] = 'Mostra les qualificacions globals i la taula de classificació';
 $string['phase3short'] = 'Mostra';
 $string['pleasegradetheassessment'] = 'Si us plau, qualifiqueu l\'avaluació del treball de $a';
 $string['pleasemakeyourownassessment'] = 'Si us plau, qualifiqueu el  treball de $a. <br />Noteu que el formulari d\'avaluació es veu al costat de l\'avaluació feta per l\'estudiant.<br /> Heu de fer les correccions necessàries i clicar en un <br />dels botons que apareixen al final de la pàgina.';
@@ -175,7 +175,7 @@ $string['weightforgradingofassessments'] = 'Ponderació per a la qualificació d
 $string['weightforteacherassessments'] = 'Ponderació per a las avaluacions de $a';
 $string['weights'] = 'Mesures';
 $string['weightssaved'] = 'Mesures desades';
-$string['weightsusedforoverallgrade'] = 'Mesures utilitzades per a la qualificació general';
+$string['weightsusedforoverallgrade'] = 'Mesures utilitzades per a la qualificació global';
 $string['wrongpassword'] = 'Contrasenya incorrecta per a aquesta tasca';
 $string['yourassessment'] = 'La vostra avaluació';
 $string['yourfeedbackgoeshere'] = 'Els vostres comentaris van aquí';
