@@ -2,6 +2,7 @@
       // role.php - created with Moodle 1.8 + (2007021502)
 
 
+$string['addrole'] = 'Создать роль';
 $string['allow'] = 'Разрешить';
 $string['allowassign'] = 'Разрешить назначение ролей';
 $string['allowoverride'] = 'Разрешить переопределение ролей';
@@ -32,5 +33,6 @@ $string['roletooverride'] = 'Переопределить роль';
 $string['site:approvecourse'] = 'Одобрить создание курса';
 $string['site:doclinks'] = 'Отображать ссылку на оф. сайт документации';
 $string['user:update'] = 'Обновление профилей пользователей';
+$string['user:viewdetails'] = 'Просмотр профилей пользователей';
 
 ?>
