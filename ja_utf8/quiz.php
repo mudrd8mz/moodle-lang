@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (2007101501)
+      // quiz.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['1day'] = '1日';
@@ -262,6 +262,7 @@ $string['giftnonumericalanswers'] = '数値問題の答えがありません。'
 $string['giftnovalidquestion'] = '有効な問題がありません。';
 $string['giftqtypenotset'] = '問題タイプが設定されていません。';
 $string['giftrightbraceerror'] = '} がありません。';
+$string['gobacktocourse'] = 'コースに戻るには、ここをクリックしてください。';
 $string['grade'] = '評点';
 $string['gradeall'] = 'すべてを評定する';
 $string['gradeaverage'] = '平均評点';

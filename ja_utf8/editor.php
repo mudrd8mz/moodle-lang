@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 2.0 dev (2007101501)
+      // editor.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['about'] = 'エディタに関して';
@@ -114,7 +114,7 @@ $string['strikethrough'] = '打ち消し線';
 $string['subscript'] = '下付き文字';
 $string['superscript'] = '上付き文字';
 $string['textindicator'] = '現在のスタイル';
-$string['textmode'] = '現在テキストモードです。WYSIWYGモードに戻る場合は[<>]ボタンを押してください。';
+$string['textmode'] = '現在テキストモードです。WYSIWYGモードに戻るには、[<>]ボタンをクリックしてください。';
 $string['texttop'] = 'Texttop';
 $string['top'] = 'Top';
 $string['type'] = 'タイプ';
