@@ -7,7 +7,7 @@ $string['addmorechoiceblanks'] = 'Zuriuneak aukera gehiagotarako {ez}';
 $string['answerhowmany'] = 'Erantzun bakarra ala anitza?';
 $string['answernumbering'] = 'Aukerak numeratu?';
 $string['answernumbering123'] = '1., 2., 3., ...';
-$string['answernumberingABC'] = 'A., B., C., ...';
+$string['answernumberingABCD'] = 'A., B., C., ...';
 $string['answernumberingabc'] = 'a., b., c., ...';
 $string['answernumberingnone'] = 'Numeraziorik ez';
 $string['answersingleno'] = 'Erantzun anitzak baimenduta.';
@@ -24,7 +24,7 @@ $string['fillouttwochoices'] = 'Gutxienez bi aukera bete behar dituzu. Hutsik ut
 $string['fractionsaddwrong'] = 'Aukeratu dituzun gradu positiboak gehituta ez da iristen %%100ra. <br/>$a%%ra soilik iristen da.<br/> Nahi al duzu atzera jo eta galdera hau egokitu?';
 $string['fractionsnomax'] = 'Erantzunetako bat %%100 izan behar du, <br/>honela eskura daiteke maila altuena galdera honentzat. <br />Nahi al duzu atzera jo eta galdera hau egokitu?';
 $string['incorrectfeedback'] = 'Edozein erantzun okerretarako';
-$string['notenoughanswers'] = 'Galdera mota honek gutxienez $a erantzun behar ditu.';
+$string['notenoughanswers'] = 'Galdera-mota honek gutxienez $a erantzun behar ditu.';
 $string['overallcorrectfeedback'] = 'Erantzun zuzenen feedbacka';
 $string['overallfeedback'] = 'Edozeinentzako feedbacka';
 $string['overallincorrectfeedback'] = 'Erantzun okerren feedbacka';
@@ -32,5 +32,6 @@ $string['overallpartiallycorrectfeedback'] = 'Erantzun-zati zuzenen feedbacka';
 $string['partiallycorrectfeedback'] = 'Edozein galdera erdi zuzenetarako';
 $string['shuffleanswers'] = 'Nahasi erantzunak';
 $string['singleanswer'] = 'Aukeratu erantzun bat';
+$string['answernumberingABC'] = 'A., B., C., ...'; // ORPHANED
 
 ?>

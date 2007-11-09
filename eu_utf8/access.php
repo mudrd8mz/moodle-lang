@@ -1,14 +1,16 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.7+ (2006101007)
+      // access.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['access'] = 'Eskuragarritasuna';
 $string['accesshelp'] = 'Eskuragarritasunari buruzko laguntza';
 $string['accesskey'] = 'Pasahitza, $a';
 $string['accessstatement'] = 'Eskuragarritasun-aldarrikapena';
-$string['activitynext'] = 'Hurrengo aktibitatea';
-$string['activityprev'] = 'Aurreko aktibitatea';
+$string['activitynext'] = 'Hurrengo jarduera';
+$string['activityprev'] = 'Aurreko jarduera';
 $string['breadcrumb'] = 'Breadcrumb-aren arrastoa';
+$string['currenttopic'] = 'Gai hau';
+$string['currentweek'] = 'Aste hau';
 $string['monthnext'] = 'Hurrengo hilabetea';
 $string['monthprev'] = 'Aurreko hilabetea';
 $string['showhideblock'] = 'Blokea erakutsi edo ezkutatu';
