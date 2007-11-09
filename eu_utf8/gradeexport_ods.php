@@ -3,6 +3,7 @@
 
 
 $string['modulename'] = 'OpenOffice kalkulu-orria';
+$string['ods:publish'] = 'ODS kalifikazioen esportazioa argitaratu';
 $string['ods:view'] = 'Kalifikazioak esportatzeko Openoffice erabili';
 
 ?>

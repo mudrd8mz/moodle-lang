@@ -3,6 +3,7 @@
 
 
 $string['modulename'] = 'Testu lauko fitxategia';
+$string['txt:publish'] = 'TXT kalifikazioen esportazioa argitaratu';
 $string['txt:view'] = 'Kalifikazioak esportatzeko testu laua erabili';
 
 ?>

@@ -3,6 +3,7 @@
 
 
 $string['modulename'] = 'XML fitxategia';
+$string['xml:publish'] = 'XML kalifikazioen esportazioa argitaratu';
 $string['xml:view'] = 'Kalifikazioak esportatzeko XML  erabili';
 
 ?>

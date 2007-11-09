@@ -3,6 +3,7 @@
 
 
 $string['modulename'] = 'Excel kalkulu-orria';
+$string['xls:publish'] = 'XLS kalifikazioen esportazioa argitaratu';
 $string['xls:view'] = 'Kalifikazioak esportatzeko Excel erabili';
 
 ?>
