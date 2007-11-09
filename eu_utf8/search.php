@@ -33,7 +33,7 @@ $string['globalsearchdisabled'] = 'Bilaketa orokorra ez dago gaituta';
 $string['invalidindexerror'] = 'Aurkibide-direktorioak aurkibide ezegoki bat du edo hutsik dago';
 $string['ittook'] = 'Tori';
 $string['next'] = 'Hurrengoa';
-$string['noindexmessage'] = 'Kudeat: ez dago bilaketa-aurkibiderik, antza. Mesedez';
+$string['noindexmessage'] = 'Kudeatzailea: ez dago bilaketa-aurkibiderik, antza. Mesedez';
 $string['normalsearch'] = 'Bilaketa normala';
 $string['openedon'] = 'irekia noiz:';
 $string['resultsreturnedfor'] = 'lortutako emaitzak honetarako:';
@@ -53,7 +53,7 @@ $string['tofetchtheseresults'] = 'Emaitza hauek lortzeko:';
 $string['totalsize'] = 'Tamaina osoa';
 $string['type'] = 'Mota';
 $string['uncompleteindexingerror'] = 'Indexatzea ez da osorik egoki egin; mesedez, abiarazi berriz.';
-$string['versiontoolow'] = 'Barkatu, bilaketa orokorrak PHP 5.0 o aurreragokoa behar du (orain erabilitako bertsioa)';
+$string['versiontoolow'] = 'Barkatu, bilaketa orokorrak PHP 5.0 edo aurreragokoa behar du (orain erabilitako bertsioa)';
 $string['whichmodulestosearch?'] = 'Zein modulu bilatu?';
 $string['wordsintitle'] = 'Hitzak izenburuan';
 
