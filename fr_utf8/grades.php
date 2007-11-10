@@ -300,6 +300,7 @@ $string['no'] = 'Non';
 $string['nocategories'] = 'Les catégories de note ne peuvent être ajoutées ou trouvées dans ce cours';
 $string['nocategoryname'] = 'Aucun nom de catégorie n\'a été donné.';
 $string['nocategoryview'] = 'Aucune catégorie à afficher par';
+$string['nocourses'] = 'Il n\'y a pas encore de cours';
 $string['noforce'] = 'Ne pas imposer';
 $string['nogradeletters'] = 'Aucune note lettre fixée';
 $string['nogradesreturned'] = 'Aucune note retournée';
