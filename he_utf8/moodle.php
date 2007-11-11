@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // moodle.php - created with Moodle 1.9 Beta + (2007081600)
 
 
@@ -749,7 +749,7 @@ $string['loggedinnot'] = 'אתה לא מחובר.';
 $string['login'] = 'התחבר';
 $string['login_failure_logs'] = 'רישום נסיונות התחברות כושלים';
 $string['loginalready'] = 'אתה כבר מחובר למערכת';
-$string['loginas'] = 'התחבר כ';
+$string['loginas'] = 'התחבר כמשתמש זה';
 $string['loginaspasswordexplain'] = '<p> אתה חייב להכניס \"loginas password\" מיוחד בכדי להשתמש במאפיין זה.<br/> אם אינך יודע זאת, שאל את מנהל הרשת.';
 $string['loginguest'] = 'התחבר כאורח';
 $string['loginsite'] = 'התחבר לאתר';
@@ -800,7 +800,7 @@ $string['messagebody'] = 'גוף ההודעה';
 $string['messagedselectedusers'] = 'בחר משתמשים אשר קיבלו הודעה ורשימת המקבלים אותחלה';
 $string['messagedselectedusersfailed'] = 'משהו השתבש בזמן שליחת הודעות למשתמשים הנבחרים. כמה מהם כנראה קיבלו את הדוא\"ל.';
 $string['messageselect'] = 'בחר משתמש זה נמען הדוא\"ל';
-$string['messageselectadd'] = 'הוסף שלח הודעה';
+$string['messageselectadd'] = 'הוסף/שלח הודעה';
 $string['metaaddcourse'] = 'הוסף קורס זה';
 $string['metaalreadycourses'] = 'קורס זה כבר הוקצה';
 $string['metaalreadyhascourses'] = 'לקורס-מטה זה קיימים כבר קורסים נגזרים';
