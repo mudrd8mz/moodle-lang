@@ -235,7 +235,7 @@ $string['cronerrorpassword'] = 'Désolé, vus n\'avez pas fourni un mot de passe
 $string['cronremotepassword'] = 'Mot de passe pour lancer le cron à distance';
 $string['cronwarning'] = 'Le <a href=\"cron.php\">script de maintenance cron.php</a> n\'a pas été lancé depuis au moins 24 heures.';
 $string['cronwarning2'] = 'Le <a href=\"cron.php\">script de maintenance cron.php</a> n\'a pas été lancé depuis au moins 24 heures.<br />Voir $a pour de plus amples informations sur l\'automatisation de cette opération.';
-$string['csvseparator'] = 'Délimiteur CSV';
+$string['csvdelimiter'] = 'Délimiteur CSV';
 $string['curlrecommended'] = 'L\'installation de la bibliothèque optionnelle Curl est vivement recommandée, afin de pouvoir utiliser la fonctionnalité Réseau Moodle.';
 $string['customcheck'] = 'Autres contrôles';
 $string['datarootsecuritywarning'] = 'La configuration de votre site semble ne pas être sûre. Veuillez vous assurer que le dossier des données de Moodle ($a) ne soit pas directement accessible depuis le web.';
