@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 dev (2007072500)
+      // data.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['action'] = '操作';
@@ -82,7 +82,7 @@ $string['exportaszip'] = 'ZIPファイルとしてエクスポートする';
 $string['exportedtozip'] = '一時的にZIPファイルとしてエクスポート ...';
 $string['failedpresetdelete'] = 'プリセットの削除にエラーが発生しました!';
 $string['fieldadded'] = 'フィールドが追加されました。';
-$string['fieldallowautolink'] = 'オートリンクを許可';
+$string['fieldallowautolink'] = 'オートリンクを許可する';
 $string['fielddeleted'] = 'フィールドが削除されました。';
 $string['fielddelimiter'] = 'フィールド区切り文字';
 $string['fielddescription'] = 'フィールド説明';
@@ -174,7 +174,7 @@ $string['overwrite'] = '上書き';
 $string['pagesize'] = '1ページあたりのエントリ数';
 $string['participants'] = '参加者';
 $string['picture'] = 'ピクチャー';
-$string['pleaseaddsome'] = '始めるには、下記で新しいフィールドを追加するか、<a href=\"$a\">定義済みのフィールドセットを選択</a>してください。';
+$string['pleaseaddsome'] = '始めるには、下で新しいフィールドを追加するか、<a href=\"$a\">定義済みフィールドセットを選択</a>してください。';
 $string['presetinfo'] = 'プリセットとして保存することで、このテンプレートが公開されます。他のユーザは、このテンプレートを自分のデータベースで使用することができます。';
 $string['presets'] = 'プリセット';
 $string['radiobutton'] = 'ラジオボタン';
