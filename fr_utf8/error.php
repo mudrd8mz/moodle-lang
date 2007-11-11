@@ -106,6 +106,7 @@ $string['usernotdeletedoff'] = 'L\'utilisateur n\'a pas été supprimé&nbsp;: l
 $string['usernotrenamedadmin'] = 'Impossible de modifier le nom des comptes administrateur.';
 $string['usernotrenamedexists'] = 'Le nom d\'utilisateur n\'a pas été modifié&nbsp;: le nouveau nom est déjà utilisé.';
 $string['usernotrenamedmissing'] = 'Le nom d\'utilisateur n\'a pas été modifié&nbsp;: l\'ancien nom n\'a pas été trouvé.';
+$string['usernotrenamedoff'] = 'Le nom d\'utilisateur n\'a pas été modifié&nbsp;: la modification du nom n\'est pas autorisée.';
 $string['usernotupdatedadmin'] = 'Impossible de mettre à jour les comptes administrateur.';
 $string['usernotupdatederror'] = 'Utilisateur pas mis à jour&nbsp;: erreur inconnue.';
 $string['usernotupdatednotexists'] = 'Utilisateur pas mis à jour&nbsp;: le compte n\'existe pas.';
