@@ -1,12 +1,22 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.8 dev (2006112200)
+      // grades.php - created with Moodle 2.0 dev (2007101503)
 
 
+$string['activities'] = 'Etkinlikler';
 $string['addcategory'] = 'Kategori Ekle';
 $string['addcategoryerror'] = 'Kategori eklenemedi.';
 $string['addexceptionerror'] = 'userid:gradeitem için istisna eklenirken hata oluştu.';
+$string['aggregatemax'] = 'En yüksek not';
+$string['aggregatemean'] = 'Not ortalaması';
+$string['aggregatemedian'] = 'Not ortancası';
+$string['aggregatemin'] = 'En düşük not';
+$string['aggregateonlygraded'] = 'Sadece boş olmayan notların toplamı';
+$string['aggregatesonly'] = 'Sadece toplamlar';
+$string['aggregateweightedmean'] = 'Notların ağırlıklı ortalaması';
+$string['aggregation'] = 'Toplam';
 $string['allgrades'] = 'Kategorilere göre tüm notlar';
 $string['allstudents'] = 'Tüm Öğrenciler';
+$string['autosort'] = 'Otomatik-sırala';
 $string['average'] = 'Fark';
 $string['bonuspoints'] = 'Bonus Not';
 $string['categories'] = 'Kategoriler';
@@ -122,6 +132,7 @@ $string['weighteddescending'] = 'Ağırlıklı yüzde (azalan sıralama)';
 $string['weightedpct'] = 'Ağırlıklı %%';
 $string['weightedpctcontribution'] = 'Ağırlıklı %% katılım';
 $string['writinggradebookinfo'] = 'Not Defteri ayarları yazılıyor';
+$string['xml'] = 'XML';
 $string['yes'] = 'Evet';
 $string['yourgrade'] = 'Notunuz';
 
