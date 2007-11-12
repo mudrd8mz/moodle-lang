@@ -1,16 +1,19 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 dev (2007012500)
+      // calendar.php - created with Moodle 2.0 dev (2007101503)
 
 
 $string['advancedoptions'] = 'Gelişmiş ayarlar';
+$string['allday'] = 'Tüm gün';
 $string['calendar'] = 'Takvim';
 $string['calendarheading'] = '$a Takvimi';
 $string['clickhide'] = 'gizle';
 $string['clickshow'] = 'göster';
 $string['commontasks'] = 'Seçenekler';
 $string['confirmeventdelete'] = 'Bu olayı silmek istediğinizden emin misiniz?';
+$string['course'] = 'Kurs';
 $string['courseevent'] = 'Kurs olayı';
 $string['courseevents'] = 'Ders olayları';
+$string['courses'] = 'Kurslar';
 $string['dayview'] = 'Günlük Görünüm';
 $string['daywithnoevents'] = 'Bugün bir olay yok.';
 $string['default'] = 'Varsayılan';
@@ -37,6 +40,7 @@ $string['eventnone'] = 'Olay yok';
 $string['eventrepeat'] = 'Tekrarlama';
 $string['eventsall'] = 'Tüm olaylar';
 $string['eventsfor'] = '$a olayları';
+$string['eventskey'] = 'Olay İmi';
 $string['eventsrelatedtocourses'] = 'Kursla ilgili olaylar';
 $string['eventstarttime'] = 'Başlangıç tarihi';
 $string['eventtime'] = 'Zaman';
@@ -54,9 +58,11 @@ $string['for'] = 'için';
 $string['fri'] = 'Cum';
 $string['friday'] = 'Cuma';
 $string['generateurlbutton'] = 'Takvim URL getir';
+$string['global'] = 'Genel';
 $string['globalevent'] = 'Genel olay';
 $string['globalevents'] = 'Genel olaylar';
 $string['gotocalendar'] = 'Takvime git';
+$string['group'] = 'Grup';
 $string['groupevent'] = 'Grup olayı';
 $string['groupevents'] = 'Grup olayları';
 $string['hidden'] = 'gizli';
@@ -115,6 +121,7 @@ $string['typesite'] = 'Site olayı';
 $string['typeuser'] = 'Kullanıcı olayı';
 $string['upcomingevents'] = 'Yaklaşan Olaylar';
 $string['urlforical'] = 'iCalendar dışa verimi için URL, takvime abonelik için kullanılır';
+$string['user'] = 'Kullanıcı';
 $string['userevent'] = 'Kullanıcı olayı';
 $string['userevents'] = 'Kullanıcı olayları';
 $string['wed'] = 'Çrş';
