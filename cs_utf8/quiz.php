@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 Beta + (2007082000)
+      // quiz.php - created with Moodle 1.9 Beta 2 (2007101501)
 
 
 $string['1day'] = '1 den';
@@ -51,6 +51,7 @@ $string['attempts'] = 'Pokusy';
 $string['attemptsallowed'] = 'Povolený počet pokusů';
 $string['attemptselection'] = 'Vyberte pokusy, které mají být u každého uživatele zahrnuty do analýzy:';
 $string['attemptsexist'] = 'Přidávat či odebírat úlohy již není možné.';
+$string['attemptsnum'] = 'Pokusů: $a';
 $string['attemptsonly'] = 'Ukázat pouze studenty s pokusy';
 $string['attemptsunlimited'] = 'Neomezený počet pokusů';
 $string['back'] = 'Zpěr k náhledu úlohy';
@@ -337,7 +338,7 @@ $string['numerical'] = 'Numerická úloha';
 $string['onlyteachersexport'] = 'Pouze učitelé mohou exportovat úlohy.';
 $string['onlyteachersimport'] = 'Pouze učitelé s právem upravovat obsah kurzu mohou importovat úlohy.';
 $string['optional'] = 'volitelný';
-$string['outof'] = 'z maximálního počtu';
+$string['outof'] = '$a->grade z možných $a->maxgrade';
 $string['overallfeedback'] = 'Celková reakce';
 $string['overdue'] = 'Zpožděný';
 $string['pagesize'] = 'Počet pokusů na stránku:';
