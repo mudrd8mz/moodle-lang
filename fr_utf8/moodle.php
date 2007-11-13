@@ -1030,6 +1030,7 @@ $string['notifyloginfailuressubject'] = '$a :: notification de tentatives de con
 $string['notincluded'] = 'Pas inclus';
 $string['notingroup'] = 'Désolé, vous devez faire partie d\'un groupe pour participer à cette activité.';
 $string['notpublic'] = 'Non public&nbsp;!';
+$string['nousersfound'] = 'Aucun utilisateur n\'a été trouvé';
 $string['nousersmatching'] = 'Aucun utilisateur n\'a été trouvé contenant le texte «&nbsp;$a&nbsp;».';
 $string['nousersyet'] = 'Il n\'y pas encore d\'utilisateur';
 $string['novalidcourses'] = 'Aucun cours valable à afficher';
