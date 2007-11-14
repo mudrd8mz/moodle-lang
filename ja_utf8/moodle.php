@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101501)
+      // moodle.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['action'] = '操作';
@@ -1049,6 +1049,7 @@ $string['notifyloginfailuressubject'] = '$a :: ログイン失敗通知';
 $string['notincluded'] = 'バックアップ対象外';
 $string['notingroup'] = '申し訳ございません、この活動を閲覧するためにはグループに属している必要があります。';
 $string['notpublic'] = '非公開!';
+$string['nousersfound'] = 'ユーザが見つかりませんでした。';
 $string['nousersmatching'] = 'ユーザ「 $a 」は見つかりませんでした。';
 $string['nousersyet'] = 'まだ利用者がいません。';
 $string['novalidcourses'] = '表示する有効なコースはありません。';
