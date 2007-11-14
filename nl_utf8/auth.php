@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007070603)
+      // auth.php - created with Moodle 2.0 dev (2007101503)
 
 
 $string['CASform'] = 'Authenticatiekeuze';
@@ -277,6 +277,8 @@ $string['errorpasswordupdate'] = 'Fout tijdens het updaten van het wachtwoord, w
 $string['forcechangepassword'] = 'Verplicht het wijzigen van het wachtwoord';
 $string['forcechangepassword_help'] = 'Verplicht gebruikers om hun wachtwoord te wijzigen bij hun volgende aanmelding bij Moodle';
 $string['forcechangepasswordfirst_help'] = 'Verplicht gebruikers om hun wachtwoord te wijzigen bij hun eerste aanmelding bij Moodle.';
+$string['forgottenpassword'] = 'Als je hier een URL ingeeft, dan zal die gebruikt worden als pagina voor verloren wachtwoorden voor deze site. Dit is bedoeld voor sites waar de wachtwoorden volledig buiten Moodle afgehandeld worden. Laat leeg om de standaardprocedure voor vergeten wachtwoorden te gebruiken.';
+$string['forgottenpasswordurl'] = 'URL voor vergeten wachtwoorden';
 $string['guestloginbutton'] = 'Knop om in te loggen als gast';
 $string['infilefield'] = 'Veld vereist in bestand';
 $string['instructions'] = 'Instructies';

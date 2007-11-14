@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9 Beta + (2007090600)
+      // xmldb.php - created with Moodle 2.0 dev (2007101503)
 
 
 $string['aftertable'] = 'Tabel resultaat:';
@@ -42,6 +42,7 @@ $string['delete_xml_file'] = 'Verwijder XML-bestand';
 $string['down'] = 'Omlaag';
 $string['duplicate'] = 'Dupliceer';
 $string['duplicatefieldname'] = 'Er bestaat al een veld met die naam';
+$string['duplicatekeyname'] = 'Er bestaat al een sleutel met die naam';
 $string['edit'] = 'Bewerk';
 $string['edit_field'] = 'Bewerk veld';
 $string['edit_index'] = 'Bewerk index';

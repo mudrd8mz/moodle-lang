@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101501)
+      // moodle.php - created with Moodle 2.0 dev (2007101503)
 
 
 $string['action'] = 'Actie';
@@ -521,6 +521,8 @@ $string['enrolenddaterror'] = 'De einddatum van de aanmelding in je cursus kan n
 $string['enrollable'] = 'Aanmelden in de cursus mogelijk';
 $string['enrolledincourse'] = 'Aangemeld in cursus  \"$a\"';
 $string['enrolledincoursenot'] = 'Niet aangemeld in cursus  \"$a\"';
+$string['enrolledincoursenotrole'] = 'Fout aanmelden in \"$a->course\" als \"$a->role\"';
+$string['enrolledincourserole'] = 'Aangemeld in \"$a->course\" als \"$a->role\"';
 $string['enrollfirst'] = 'Je moet aangemeld zijn bij één van de cursussen voor je de siteactiviteiten kunt gebruiken.';
 $string['enrolme'] = 'Meld me aan bij deze cursus';
 $string['enrolmentconfirmation'] = 'Je staat op het punt jezelf aan te melden als deelnemer van deze cursus.<br />Weet je zeker dat je dit wilt doen?';
@@ -617,6 +619,7 @@ $string['formattext'] = 'Moodle auto-opmaak';
 $string['formattexttype'] = 'Opmaken';
 $string['formattopics'] = 'Onderwerpformat';
 $string['formattopicsajax'] = 'Onderwerpformat - AJAX';
+$string['formattopicscss'] = 'Onderwerpformat - CSS / geen tabellen';
 $string['formatweeks'] = 'Weekformat';
 $string['formatweekscss'] = 'Weekformat - CSS / geen tabellen';
 $string['formatwiki'] = 'Wiki-format';
@@ -1034,6 +1037,7 @@ $string['notifyloginfailuressubject'] = '$a::Notificatie van mislukte aanmelding
 $string['notincluded'] = 'Niet ingevoegd';
 $string['notingroup'] = 'Om deze activiteit te kunnen zien moet je lid zijn van een groep.';
 $string['notpublic'] = 'Niet publiek!';
+$string['nousersfound'] = 'Geen gebruikers gevonden';
 $string['nousersmatching'] = 'Er zijn geen gebruikers gevonden met de zoekterm \'$a\'';
 $string['nousersyet'] = 'Er zijn nog geen gebruikers';
 $string['novalidcourses'] = 'Er zijn geen geldige cursussen om te tonen.';

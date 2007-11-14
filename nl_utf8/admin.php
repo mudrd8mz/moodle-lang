@@ -1,15 +1,15 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101501)
+      // admin.php - created with Moodle 2.0 dev (2007101503)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
 $string['accounts'] = 'Gebruikers';
-$string['addcounter'] = 'Teller toevoegen';
 $string['adminseesall'] = 'Beheerders zien alles';
 $string['adminseesallevents'] = 'Beheerders zien alle gebeurtenissen';
 $string['adminseesownevents'] = 'Beheerders zien niet alle gebeurtenissen';
 $string['allowcategorythemes'] = 'Categoriethema\'s toestaan';
 $string['allowcoursethemes'] = 'Cursusthema\'s toestaan';
+$string['allowdeletes'] = 'Verwijderen toestaan';
 $string['allowemailaddresses'] = 'Emaildomeinen toestaan';
 $string['allowobjectembed'] = 'EMBED en OBJECT tags toestaan';
 $string['allowrenames'] = 'Gebruikersnamen bijwerken toestaan';
@@ -236,6 +236,7 @@ $string['cronerrorclionly'] = 'Sorry, internettoegang tot deze pagina is door de
 $string['cronerrorpassword'] = 'Sorry, maar je kon geen geldig wachtwoord ingeven om deze pagina te bezoeken.';
 $string['cronremotepassword'] = 'Cron wachtwoord voor toegang op afstand';
 $string['cronwarning'] = 'Het onderhoudsscript <a href=\"cron.php\">cron.php</a> heeft de laatste 24 uur niet gelopen.';
+$string['csvdelimiter'] = 'Scheidingsteken voor CSV';
 $string['curlrecommended'] = 'Het installeren van de optionele Curl bibliotheek wordt ten zeerste aangeraden om de netwerkmogelijkheden van Moodle in te schakelen';
 $string['customcheck'] = 'Andere controles';
 $string['datarootsecuritywarning'] = 'De configuratie van je site zou onveilig kunnen zijn. Zorg er voor dat je dataroot map ($a) niet toegankelijk is vanaf het internet.';
@@ -296,6 +297,7 @@ $string['enablerecordcache'] = 'Record cache inschakelen';
 $string['enablerssfeeds'] = 'RSS-feeds inschakelen';
 $string['enablestats'] = 'Statistieken inschakelen';
 $string['enabletrusttext'] = 'Vertrouwde Inhoud inschakelen';
+$string['encoding'] = 'Codering';
 $string['environment'] = 'Omgeving';
 $string['environmenterrortodo'] = 'Je moet all de problemen over de installatie-omgeving die hierboven gevonden zijn, oplossen. Ga pas dan verder met het installeren van deze Moodleversie.';
 $string['environmenterrorupgrade'] = 'Waarschuwing: je moet eerst alle hierboven gemelde omgevingsproblemen oplossen voor je verder gaat met de upgrade van Moodle! Upgraden zonder deze vereiste omgeving kan problemen zoals gegevensverlies veroorzaken. Ben je er zeker van dat je verder wil doen met deze upgrade?';
@@ -439,8 +441,8 @@ $string['mymoodle'] = 'Mijn Moodle';
 $string['mymoodleredirect'] = 'Mijn Moodle verplichten';
 $string['mysql416bypassed'] = 'Als je site echter UITSLUITEND iso-8859-1 (latin) talen gebruikt, dan kun je MySQL 4.1.12 (of hoger) blijven gebruiken.';
 $string['mysql416required'] = 'MySQL 4.1.16 is de minimum versie die nodig is voor Moodle 1.6 om te kunnen garanderen dat alle gegevens naar UTF-8 geconverteerd zullen worden.';
-$string['newusernamehandling'] = 'Afhandeling van dubbele nieuwe gebruikersnamen';
 $string['nobookmarksforuser'] = 'Je hebt geen bladwijzers.';
+$string['nochanges'] = 'Geen wijzigingen';
 $string['nodefaultuserrolelists'] = 'Alle standaardrolgebruikers niet ophalen';
 $string['nolangupdateneeded'] = 'Al je geïnstalleerde taalpakketten zijn up-to-date. Er is geen update nodig.';
 $string['nomissingstrings'] = 'Geen ontbrekende woorden of zinnen';
@@ -541,6 +543,7 @@ $string['rcachettl'] = 'Record cache TTL';
 $string['releasenoteslink'] = 'Bekijk de on line <a target=\"_new\" href=\"$a\">Release Notes</a> voor informatie over deze versie van Moodle.';
 $string['remotelangnotavailable'] = 'Het is niet mogelijk om automatisch taalpakketten te installeren, omdat Moodle geen verbinding kan maken met Moodle.org. Download daarom de nodige zipbestanden uit onderstaande lijst, copieer ze naar je $a map en unzip ze daar.';
 $string['renameerrors'] = 'Fouten in hernoemen';
+$string['requiredtemplate'] = 'Vereist. Je kunt hier sjabloonsyntax gebruiken (%%l = achternaam, %%f = voornaam, %%u = gebruikersnaam). Bekijk het helpbestand voor details en voorbeelden.';
 $string['restrictbydefault'] = 'Modules beperken';
 $string['restrictmodulesfor'] = 'Beperk modules voor';
 $string['riskconfig'] = 'Gebruikers zouden de configuratie en het gedrag van de site kunnen wijzigen';
@@ -553,6 +556,7 @@ $string['riskspam'] = 'Gebruikers kunnen spam sturen naar site-gebruikers of and
 $string['riskspamshort'] = 'Spam-risico';
 $string['riskxss'] = 'Gebruikers kunnen bestanden en teksten toevoegen die  cross-site scripting (XSS) mogelijk maken.';
 $string['riskxssshort'] = 'XSS-risico';
+$string['rowpreviewnum'] = 'Voorbeeld rijen';
 $string['runclamavonupload'] = 'Gebruik clam AV voor geüploade bestanden';
 $string['savechanges'] = 'Bewaar wijzigingen';
 $string['search'] = 'Zoek';
@@ -580,7 +584,6 @@ $string['sitemaintenancewarning'] = 'Je site is nu in onderhoudsmodus (alleen be
 $string['sitepolicies'] = 'Site reglement';
 $string['sitepolicy'] = 'URL voor site afspraken';
 $string['sitesectionhelp'] = 'Indien gekozen wordt er een onderwerpsectie getoond op de startpagina van de site';
-$string['skipuser'] = 'Gebruikers overslaan';
 $string['slasharguments'] = 'Gebruik slash arguments';
 $string['smartpix'] = 'Slim afbeeldingen zoeken';
 $string['smtphosts'] = 'SMTP hosts';
@@ -635,6 +638,8 @@ $string['upgradesure'] = 'De bestanden op je Moodleserver zijn gewijzigd en je g
 <p>Ben je er er zeker van dat je deze server naar die versie wil upgraden?</p>';
 $string['upgradingdata'] = 'Bezig met het upgraden van de gegevens';
 $string['upgradinglogs'] = 'Bezig met upgraden van logs';
+$string['uploaduserspreview'] = 'Voorbeeld uploaden gebruikers';
+$string['uploadusersresult'] = 'Resultaat uploaden gebruikers';
 $string['upwards'] = 'hoger';
 $string['usehtmleditor'] = 'Gebruik HTML-editor';
 $string['useraccountupdated'] = 'Gebruiker geüpdatet';
@@ -647,10 +652,36 @@ $string['users'] = 'Gebruikers';
 $string['userscreated'] = 'Gebruikers gecreëerd';
 $string['usersdeleted'] = 'Gebruikers verwijderd';
 $string['usersrenamed'] = 'Gebruikers hernoemd';
+$string['usersskipped'] = 'Gebruikers overgeslagen';
 $string['usersupdated'] = 'Gebruikers geüpdatet';
 $string['usetags'] = 'Tags functionaliteit inschakelen';
+$string['uubulk'] = 'Selecteer voor bulkoperaties';
+$string['uubulkall'] = 'Alle gebruikers';
+$string['uubulknew'] = 'Nieuwe gebruikers';
+$string['uubulkupdated'] = 'geüpdate gebruikers';
+$string['uucoursedefaultrole'] = 'Standaard cursusrol';
+$string['uucsvline'] = 'CSV-lijn';
+$string['uulegacy1role'] = '(Oorspronkelijk leerling) typeN=1';
+$string['uulegacy2role'] = '(Oorspronkelijk leraar) typeN=2';
+$string['uulegacy3role'] = '(Oorspronkelijk leraar zonder bewerken) typeN=3';
+$string['uunoemailduplicates'] = 'Voorkom duplicaten van e-mailadressen';
+$string['uuoptype'] = 'Uploadtype';
+$string['uuoptype_addinc'] = 'Allen toevoegen, zet een teller achter de gebruikersnaam indien nodig';
+$string['uuoptype_addnew'] = 'Enkel nieuwe gebruikers toevoegen, bestaande overslaan';
+$string['uuoptype_addupdate'] = 'Nieuwe gebruikers toevoegen en bestaande updaten';
+$string['uuoptype_update'] = 'Enkel bestaande gebruikers updaten';
+$string['uupasswordnew'] = 'Nieuw wachtwoord';
+$string['uupasswordold'] = 'Bestaand wachtwoord';
+$string['uupreprocessedcount'] = 'Aantal voorverwerkte records: $a';
+$string['uuupdateall'] = 'Overschrijven met bestand en standaardinstellingen';
+$string['uuupdatefromfile'] = 'Overschrijven met bestand';
+$string['uuupdatemissing'] = 'Ontbrekende waarden invullen vanuit bestand en standaardwaarden';
+$string['uuupdatetype'] = 'Details van bestaande gebruikers';
 $string['validateerror'] = 'Deze waarde is niet geldig';
 $string['xmlstrictheaders'] = 'XML strict headers';
+$string['addcounter'] = 'Teller toevoegen'; // ORPHANED
+$string['newusernamehandling'] = 'Afhandeling van dubbele nieuwe gebruikersnamen'; // ORPHANED
+$string['skipuser'] = 'Gebruikers overslaan'; // ORPHANED
 $string['confighideactivitytypecrumb'] = 'Selecteer voor wie het activiteitstype (bijvoorbeeld Testen) in het broodkruimelpad verborgen moet worden.'; // ORPHANED
 $string['hideactivitytypecrumb'] = 'Verberg broodkruimeltje voor activiteitstype'; // ORPHANED
 

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta + (2007090600)
+      // error.php - created with Moodle 2.0 dev (2007101503)
 
 
 $string['adminprimarynoedit'] = 'Het profiel van de beheerder met het kleinste gebruikersnummer kan door de andere beheerders niet gewijzigd worden';
@@ -22,6 +22,10 @@ $string['componentisuptodate'] = 'Component niet up-to-date';
 $string['confirmsesskeybad'] = 'Je sessiesleutel om deze actie uit te voeren kon niet bevestigd worden. Deze beveiligingsfunctie verhindert dat er per ongeluk of met verkeerde bedoelingen belangrijke functies in jouw naam uitgevoerd kunnen worden. Bedenk goed of je deze opdracht wel echt wou uitvoeren.';
 $string['couldnotassignrole'] = 'Er gebeurde een ernstige maar niet gespecifieerde fout tijdens het proberen toewijzen van een rol aan jou.';
 $string['coursegroupunknown'] = 'De cursus die met groep $a overeenkomt is niet gespecifieerd';
+$string['csvcolumnduplicates'] = 'Duplicate kolommen gevonden';
+$string['csvemptyfile'] = 'Het CVS-bestand is leeg';
+$string['csvfewcolumns'] = 'Onvoldoende kolommen. Controleer de instelling voor het scheidingsteken.';
+$string['csvweirdcolumns'] = 'Ongeldige CSV bestandsopmaak - aantal kolommen is niet constant!';
 $string['downloadedfilecheckfailed'] = 'Controle van het gedownloade bestand mislukt';
 $string['duplicateusername'] = 'Gebruikersnaam bestaat al - record genegeerd';
 $string['errorcleaningdirectory'] = 'Fout bij het opkuisen van map \"$a\"';
@@ -89,15 +93,26 @@ $string['unicodeupgradeerror'] = 'Sorry, maar je databank is nog niet in Unicode
 Upgrade eerst naar Moodle 1.7.x en doe de Unicode migratie vanuit de Beheerpagina. Daarna zou je moeten kunnen upgraden naar Moodle $a';
 $string['unknowncourse'] = 'Onbekende cursus \"$a\"';
 $string['unknowncourseidnumber'] = 'Onbekend cursusID \"$a\"';
+$string['unknowngroup'] = 'Onbekende groep \"$a\"';
+$string['unknownrole'] = 'Onbekende rol \"$a\"';
 $string['unknownuseraction'] = 'Sorry, Moodle begrijpt niet wat je wil';
+$string['userautherror'] = 'Onbekende authenticatieplugin';
+$string['userauthunsupported'] = 'Authenticatieplugin niet ondersteund';
+$string['useremailduplicate'] = 'Duplicaat adres';
+$string['usernotaddedadmin'] = 'Kan beheerdersaccounts niet verwijderen';
 $string['usernotaddederror'] = 'Gebruiker \"$a\" niet toegevoegd - onbekende fout';
 $string['usernotaddedregistered'] = 'Gebruiker \"$a\" niet toegevoegd - gebruiker bestaat al';
 $string['usernotavailable'] = 'Je hebt het recht niet om de detailgegevens van deze gebruiker te zien.';
 $string['usernotdeletederror'] = 'Gebruiker niet verwijderd - onbekende fout';
 $string['usernotdeletedmissing'] = 'Gebruiker niet verwijderd - kon gebruikersnaam niet vinden.';
+$string['usernotdeletedoff'] = 'Gebruiker niet verwijderd - verwijderen niet toegestaan.';
+$string['usernotrenamedadmin'] = 'Kan beheerdersaccounts niet hernoemen';
 $string['usernotrenamedexists'] = 'Gebruiker niet hernoemd -- de nieuwe gebruikersnaam bestaat al.';
 $string['usernotrenamedmissing'] = 'Gebruiker niet hernoemd -- kon de oude gebruikersnaam niet vinden.';
+$string['usernotrenamedoff'] = 'Gebruiker niet hernoemd - hernoemen niet toegestaan.';
+$string['usernotupdatedadmin'] = 'Kan beheerdersaccounts niet aanpassen';
 $string['usernotupdatederror'] = 'Gebruiker niet aangepast - onbekende fout';
+$string['usernotupdatednotexists'] = 'Gebruiker niet aangepast - bestaat niet';
 $string['wrongdestpath'] = 'Fout pad voor bestemming';
 $string['wrongsourcebase'] = 'Foute URL voor de bron';
 $string['wrongzipfilename'] = 'Foute ZIP-bestandsnaam';

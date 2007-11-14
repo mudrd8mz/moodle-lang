@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 Beta + (2007100903)
+      // glossary.php - created with Moodle 2.0 dev (2007101503)
 
 
 $string['addcomment'] = 'Voeg commentaar toe';
@@ -19,12 +19,14 @@ $string['areyousuredeletecomment'] = 'Wil je deze commentaar echt verwijderen ?'
 $string['areyousureexport'] = 'Weet je zeker dat je dit item wil exporteren naar';
 $string['ascending'] = '(oplopend)';
 $string['attachment'] = 'Bijlage';
+$string['author'] = 'Auteur';
 $string['authorview'] = 'Blader volgens auteur';
 $string['back'] = 'Terug';
 $string['cantinsertcat'] = 'Kan geen categorie toevoegen';
 $string['cantinsertrec'] = 'Kan geen record toevoegen';
 $string['cantinsertrel'] = 'Kan geen relatie tussen categorie en invoer toevoegen';
 $string['casesensitive'] = 'Dit woord is hoofdlettergevoelig';
+$string['cat'] = 'cat';
 $string['categories'] = 'Categorieën';
 $string['category'] = 'Categorie';
 $string['categorydeleted'] = 'Categorie verwijderd';
@@ -54,8 +56,13 @@ $string['concepts'] = 'Concepten';
 $string['configenablerssfeeds'] = 'Met deze instelling kun je de mogelijkheid voor het maken van RSS-feeds inschakelen voor alle woordenlijsten. Je zult wel nog voor elke woordenlijst afzonderlijk het maken van de RSS-feeds moeten inschakelen.';
 $string['current'] = 'Gesorteerd op $a';
 $string['currentglossary'] = 'Huidige woordenlijst';
+$string['date'] = 'datum';
 $string['dateview'] = 'Blader op datum';
 $string['defaultapproval'] = 'Standaardinstelling goedkeuring';
+$string['defaulthook'] = 'Standaard haak';
+$string['defaultmode'] = 'Standaard modus';
+$string['defaultsortkey'] = 'Standaard sorteersleutel';
+$string['defaultsortorder'] = 'Standaard sorteervolgorde';
 $string['definition'] = 'Definitie';
 $string['definitions'] = 'Definities';
 $string['deleteentry'] = 'Verwijder woord';
@@ -130,6 +137,7 @@ $string['importedentries'] = 'Geïmporteerde invoer';
 $string['importentries'] = 'Importeer invoer';
 $string['importentriesfromxml'] = 'Items importeren uit XML-bestand';
 $string['isglobal'] = 'Is dit een globale woordenlijst?';
+$string['letter'] = 'letter';
 $string['linkcategory'] = 'Link deze categorie automatisch';
 $string['linking'] = 'Automatisch linken';
 $string['mainglossary'] = 'Hoofdwoordenlijst';
@@ -148,6 +156,7 @@ $string['noentry'] = 'Geen item gevonden';
 $string['notcategorised'] = 'Niet gecategoriseerd';
 $string['numberofentries'] = 'Aantal items';
 $string['onebyline'] = '(één per lijn)';
+$string['popupformat'] = 'Popup-grootte';
 $string['printerfriendly'] = 'Afdrukbare versie';
 $string['printviewnotallowed'] = 'Afdrukbare versie tonen is niet toegelaten';
 $string['question'] = 'Vraag';
