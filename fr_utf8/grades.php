@@ -460,6 +460,7 @@ $string['useweighted'] = 'Utiliser les coefficients';
 $string['viewbygroup'] = 'Groupe';
 $string['viewgrades'] = 'Affichage des notes';
 $string['weight'] = 'Pondération';
+$string['weightcourse'] = 'Utiliser la pondération pour le cours';
 $string['weightedascending'] = 'Tri croissant par pourcent pondéré';
 $string['weighteddescending'] = 'Tri décroissant par pourcent pondéré';
 $string['weightedpct'] = '%% pondéré';
