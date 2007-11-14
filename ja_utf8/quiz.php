@@ -262,7 +262,6 @@ $string['giftnonumericalanswers'] = '数値問題の答えがありません。'
 $string['giftnovalidquestion'] = '有効な問題がありません。';
 $string['giftqtypenotset'] = '問題タイプが設定されていません。';
 $string['giftrightbraceerror'] = '} がありません。';
-$string['gobacktocourse'] = 'コースに戻るには、ここをクリックしてください。';
 $string['grade'] = '評点';
 $string['gradeall'] = 'すべてを評定する';
 $string['gradeaverage'] = '平均評点';
