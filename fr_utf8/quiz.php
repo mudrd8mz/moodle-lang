@@ -254,7 +254,6 @@ $string['giftnonumericalanswers'] = 'Aucune réponse trouvée pour la question n
 $string['giftnovalidquestion'] = 'Aucune question valide trouvée';
 $string['giftqtypenotset'] = 'Le type de question n\'est pas spécifié';
 $string['giftrightbraceerror'] = 'Impossible de trouver une accolade }';
-$string['gobacktocourse'] = 'Cliquez ici pour retourner au cours';
 $string['grade'] = 'Note';
 $string['gradeall'] = 'Tout noter';
 $string['gradeaverage'] = 'Note moyenne';
