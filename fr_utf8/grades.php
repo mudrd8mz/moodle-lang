@@ -345,6 +345,7 @@ $string['overriddenhelp'] = 'Ce réglage permet d\'éviter toute tentative futur
 $string['overriddennotice'] = 'Votre note finale pour cette activité a été ajustée manuellement.';
 $string['overridesitedefaultgradedisplaytype'] = 'Court-circuiter les réglages du site';
 $string['overridesitedefaultgradedisplaytypehelp'] = 'En activant ce réglage, vous permettrez de passer outre les réglages du site pour l\'affichage des notes du carnet de notes. Cela activera les éléments permettant de définir les notes lettres et les valeurs limites au choix des enseignants.';
+$string['parentcategory'] = 'Catégorie mère';
 $string['pctoftotalgrade'] = '%% de la note maximale';
 $string['percent'] = 'Pourcent';
 $string['percentage'] = 'Pourcentage';
