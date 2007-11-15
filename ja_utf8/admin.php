@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101501)
+      // admin.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -384,6 +384,7 @@ $string['langpackmaintaining'] = '言語パックのメンテナンス';
 $string['langpackremoved'] = '言語パックのアンインストールが完了しました。';
 $string['langpacks'] = '言語パック';
 $string['langpackupdated'] = '言語パック $a が正常にインストールされました。';
+$string['langpackwillbeupdated'] = '翻訳者メモ: アップグレード中、Moodleはあなたの言語パックのアップグレードを試みます。ローカル言語フォルダ以外にある言語パックに関する修正はオーバーライドされます。';
 $string['languagesettings'] = '言語設定';
 $string['langupdatecomplete'] = '言語パックの更新が完了しました。';
 $string['latexpreamble'] = 'LaTeXプリアンブル';
