@@ -130,7 +130,7 @@ $string['auth_ldap_create_context_key'] = 'Contexte des nouveaux utilisateurs';
 $string['auth_ldap_create_context'] = 'Lors de l\'utilisation de la création d\'utilisateurs avec confirmation par courriel, indiquer ici le contexte où créer les utilisateurs. Pour des raisons de sécurité, ce contexte ne doit pas être le même que celui des autres utilisateurs. Il n\'est pas nécessaire d\'ajouter ce contexte à la variable ldap_context. Moodle cherchera automatiquement les utilisateurs dans ce contexte.<br/><strong>Remarque&nbsp;:</strong> vous devrez modifier la méthode user_create() dans le fichier auth/ldap/auth.php pour permettre la création des utilisateurs.';
 $string['auth_ldap_create_error'] = 'Erreur lors de la création de l\'utilisateur dans LDAP.';
 $string['auth_ldap_creators_key'] = 'Créateurs';
-$string['auth_ldap_creators'] = 'Liste des groupes dont les membres ont le droit de créer des cours. Les groupes (en général, de la forme «&nbsp;cn=teachers,ou=staff,o=myorg&nbsp;») sont séparés par des points-virgules (;).';
+$string['auth_ldap_creators'] = 'Liste des groupes ou contextes dont les membres ont le droit de créer des cours. Les groupes (en général, de la forme «&nbsp;cn=teachers,ou=staff,o=myorg&nbsp;») sont séparés par des points-virgules (;).';
 $string['auth_ldap_expiration_desc'] = 'Si vous voulez désactiver le contrôle d\'échéance des mots de passe, indiquez «&nbsp;Non&nbsp;». Si vous indiquez LDAP, la durée sera reprise automatiquement de la variable passwordexpiration du serveur LDAP';
 $string['auth_ldap_expiration_key'] = 'Échéance';
 $string['auth_ldap_expiration_warning_desc'] = 'Nombre de jours avant que l\'avertissement d\'échéance soit affiché.';
