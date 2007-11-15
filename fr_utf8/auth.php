@@ -289,6 +289,7 @@ $string['nopasswordchange'] = 'Le mot de passe ne peut pas être modifié';
 $string['nopasswordchangeforced'] = 'Vous ne pouvez pas continuer sans modifier votre mot de passe. Cependant, il n\'y a aucun moyen disponible de le modifier. Veuillez contacter l\'administrateur de votre Moodle.';
 $string['ntlmsso_attempting'] = 'Tentative de connexion SSO via NTLM...';
 $string['ntlmsso_failed'] = 'La connexion automatique a échoué. Essaysez de vous connecter depuis la page de connexion standard.';
+$string['ntlmsso_isdisabled'] = 'L\'authentification SSO NTLM est désactivée.';
 $string['passwordhandling'] = 'Traitement du champ Mot de passe';
 $string['plaintext'] = 'Texte en clair';
 $string['pluginnotenabled'] = 'La méthode d\'authentification $a n\'est pas activée.';
