@@ -385,6 +385,7 @@ $string['langpackmaintaining'] = 'Maintenance des paquetages de langue';
 $string['langpackremoved'] = 'La désinstallation du paquetage de langue est terminée';
 $string['langpacks'] = 'Paquetages langue';
 $string['langpackupdated'] = 'Le paquetage de langue $a a été correctement mis à jour';
+$string['langpackwillbeupdated'] = 'Note pour les traducteurs&nbsp;: au cours de la mise à jour, Moodle mettra également à jour les paquetages de langue. Vos modifications effectuées dans les dossiers de langues non locaux seront perdues.';
 $string['languagesettings'] = 'Réglages langue';
 $string['langupdatecomplete'] = 'La mise à jour des langues est terminée';
 $string['latexpreamble'] = 'Préambule LaTeX';
