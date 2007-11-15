@@ -480,6 +480,7 @@ $string['performance'] = 'パフォーマンス';
 $string['pgcluster'] = 'PostgreSQLクラスタ';
 $string['pgclusterdescription'] = 'コマンドライン処理のためのPostgreSQLバージョン/クラスタパラメータです。あなたのシステムに1つのPostgreSQLのみある場合、またはこの設定が分からない場合は、空白にしてください。';
 $string['php50restricted'] = 'PHP 5.0.x には数多くの既知の問題があります。5.1.x にアップグレードするか、4.3.x または 4.4.x にダウングレードしてください。';
+$string['pleaserefreshregistration'] = 'あなたのサイトがmoodle.orgに登録されました。最終更新日 $a 以降、サイトに大幅な変更があった場合、登録内容の更新をお考えください。';
 $string['pleaseregister'] = 'このボタンを消すには、あなたのサイトを登録してください。';
 $string['plugins'] = 'モジュール';
 $string['profilecategory'] = 'カテゴリ';
