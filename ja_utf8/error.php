@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (2007101501)
+      // error.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -32,7 +32,7 @@ $string['errorcleaningdirectory'] = 'ディレクトリ「 $a 」のクリーニ
 $string['errorcopyingfiles'] = 'ファイルのコピー中にエラーが発生しました。';
 $string['errorcreatingdirectory'] = 'ディレクトリ「 $a 」の作成中にエラーが発生しました。';
 $string['errorcreatingfile'] = 'ファイル「 $a 」の作成中にエラーが発生しました。';
-$string['erroronline'] = '$a 行にエラーがあります。';
+$string['erroronline'] = '$a 行目にエラーがあります。';
 $string['errorreadingfile'] = 'ファイル「 $a 」の読み取り中にエラーが発生しました。';
 $string['errorunzippingfiles'] = 'ファイルの解凍処理中にエラーが発生しました。';
 $string['fieldrequired'] = '「 $a 」 は必須項目です。';
@@ -80,7 +80,7 @@ $string['onlyeditown'] = '他の人の情報は編集できません。';
 $string['pagenotexist'] = '異常なエラー (存在しないページへのアクセス) が発生しました。';
 $string['pleasereport'] = 'あなたに時間がある場合、エラーが発生したとき、あなたが何を試みたのか私たちにお教えください。';
 $string['pluginrequirementsnotmet'] = 'プラグイン 「 $a->pluginname 」 ($a->pluginversion) がインストールされませんでした。インストールするには、新しいバージョンのMoodleが必要です (現在使用しているバージョン: $a->currentmoodle  インストールに必要なバージョン: $a->requiremoodle)。';
-$string['processingstops'] = 'プロセスがここで停止しました。残りのレコードは無視されます。';
+$string['processingstops'] = 'ここで処理が停止します。残りのレコードは無視されました。';
 $string['remotedownloadnotallowed'] = 'あなたのサーバーにコンポーネントをダウンロードすることができません (allow_url_fopen が無効)。<br /><br /><a href=\"$a->url\">$a->url</a> ファイルを手動でダウンロードして、サーバの「 $a->dest 」にコピーした後、解凍してください。';
 $string['restricteduser'] = '申し訳ございません、あなたのアカウント「 $a 」では、この処理を行うことができません。';
 $string['scheduledbackupsdisabled'] = 'スケジュールバックアップは、サーバ管理者により無効にされています。';
