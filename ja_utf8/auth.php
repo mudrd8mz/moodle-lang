@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (2007101501)
+      // auth.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['CASform'] = '認証選択';
@@ -265,7 +265,7 @@ $string['changepassword'] = 'パスワードURIの変更';
 $string['changepasswordhelp'] = 'ここでは、あなたのユーザがパスワードを忘れた場合、ユーザ名/パスワードを回復または変更するためのロケーションを設定します。これは、ログインページおよびユーザページにボタンとして提供されます。ここを空白にした場合、ボタンは表示されません。';
 $string['chooseauthmethod'] = '認証方法の選択:';
 $string['createpasswordifneeded'] = '必要に応じてパスワードを作成する';
-$string['errorminpassworddigits'] = 'パスワードは、少なくとも $a 文字の数字を使用する必要があります。';
+$string['errorminpassworddigits'] = 'パスワードには、少なくとも $a 文字の数字を使用する必要があります。';
 $string['errorminpasswordlength'] = 'パスワードには、少なくとも $a 文字使用する必要があります。';
 $string['errorminpasswordlower'] = 'パスワードには、少なくとも $a 文字の小文字を使用する必要があります。';
 $string['errorminpasswordnonalphanum'] = 'パスワードには、少なくとも $a 文字の非英数字を使用する必要があります。';
