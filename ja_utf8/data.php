@@ -210,6 +210,7 @@ $string['saveaspreset'] = 'プリセットとして保存する';
 $string['savesettings'] = '設定を保存する';
 $string['savesuccess'] = '正常に保存されました。あなたのプリセットは、サイト全体で利用できます。';
 $string['savetemplate'] = 'テンプレートを保存する';
+$string['search'] = '検索';
 $string['sendinratings'] = '私の評価を送信する';
 $string['showall'] = 'すべてのエントリを表示する';
 $string['single'] = '個別表示';
