@@ -26,5 +26,4 @@ $string['config_names_full']='Kuva täisnimed';
 $string['config_names_id']='Kuva ainult ID numbrid';
 $string['config_names_anon']='Anonüümsed tulemused';
 $string['config_name_format']='Privaatsuse tase kuvatud tulemustele:';
-
 ?>

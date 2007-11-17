@@ -26,8 +26,7 @@ $string['createanchor']='Loo ankur';
 $string['createfolder']='Loo uus kaust';
 $string['createlink']='Lisa veebilink';
 $string['cut']='Lõika valik';
-$string['cutpastemozilla']='Kahjuks ei saa sa hetkel kasutatada tavapäraseid klaviatuuri lühikäske (isegi mitte \"Kleebi\" nuppu) teksti kleepimiseks siia tekstitoimetisse. See tuleneb Mozilla ja Firefoxi veebilehitsejate teatud versioonidesse sisse ehitatud turvalisuse nõudest.<br /><br />
-On kolm võimalust, mida võid proovida:<br /> (1) CTRL+v asemel kasuta SHIFT+Insert<br /> (2)Kasuta Muuda->Kleebi menüükäsku oma veebilehitsejas <br /> (3)Muuda oma veebilehitseja seadeid failis user.js<br /><br />Kliki \"OK\" nuppu, et saada rohkem abi, või \"Tühista\" tekstitoimetisse tagasi pöördumiseks. ';
+$string['cutpastemozilla']='Kahjuks ei saa sa hetkel kasutatada tavapäraseid klaviatuuri lühikäske (isegi mitte \"Kleebi\" nuppu) teksti kleepimiseks siia tekstitoimetisse. See tuleneb Mozilla ja Firefoxi veebilehitsejate teatud versioonidesse sisse ehitatud turvalisuse nõudest.<br /><br />On kolm võimalust, mida võid proovida:<br /> (1) CTRL+v asemel kasuta SHIFT+Insert<br /> (2)Kasuta Muuda->Kleebi menüükäsku oma veebilehitsejas <br /> (3)Muuda oma veebilehitseja seadeid failis user.js<br /><br />Kliki \"OK\" nuppu, et saada rohkem abi, või \"Tühista\" tekstitoimetisse tagasi pöördumiseks.';
 $string['delete']='Kustuta';
 $string['filebrowser']='Failiotsing';
 $string['findwhat']='Otsi';
@@ -122,4 +121,6 @@ $string['zip']='Paki';
 $string['mustenterurl']='Sa pead sisestama URL\'i';
 $string['pleaseenteralt']='Palun sisesta alternatiivne tekst';
 $string['enterurlfirst']='Sa pead esimesena sisestama URL\'i';
+$string['lang']='Keel';
+$string['multi']='Multi';
 ?>
