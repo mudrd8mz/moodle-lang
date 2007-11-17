@@ -63,4 +63,5 @@ $string['userisblockingyounoncontact']='See kasutaja võtab vastu sõnumeid ainu
 $string['userssearchresults']='Otsingu tulemus: leiti $a kasutajat';
 $string['newonlymsg']='Kuva ainult uued';
 $string['noframesjs']='Versioon ilma raamide ja JavaScriptita';
+$string['sendmessagetopopup']='Saada teade $a\'le - uus aken';
 ?>

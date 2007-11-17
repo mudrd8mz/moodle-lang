@@ -115,4 +115,5 @@ $string['commontasks']='Valikud';
 $string['globalevent']='Globaalne sündmus';
 $string['iwanttoexport']='Ekspordi';
 $string['generateurlbutton']='Saa kalendri URL';
+$string['recentupcoming']='Tänasest 60 möödunud ja järgnevat päeva';
 ?>

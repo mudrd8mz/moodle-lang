@@ -150,4 +150,23 @@ $string['databasesettingssub_postgres7']='<b>Tüüp:</b> PostgreSQL<br />
 	<b>Nimi:</b> andmebaasi nimi, näiteks moodle<br />
 	<b>Kasutaja:</b> Sinu andmebaasi konto kasutajatunnus<br />
 	<b>Tabelite prefiks:</b> prefiks kasutamaks tabelite nimedes (kohustuslik)';
+$string['welcomep70']='Vajuta \"Järgmine\" nuppu all jätkamaks <strong>Moodle</strong> paigaldamisega.';
+$string['skipdbencodingtest']='Jäta vahele andmebaasi kodeeringu test';
+$string['odbc_mssql']='SQL*Server üle ODBC (odbc_mssql)';
+$string['downloadlanguagebutton']='Tõmba alla &quot;$a&quot; keelepakett';
+$string['downloadlanguagehead']='Tõmba alla keelepakett';
+$string['langdownloaderror']='Kahjuks keelt "$a" ei paigaldatud. Paigaldamine jätkub inglise keeles.';
+$string['langdownloadok']='Keel "$a" paigaldati edukalt. Paigaldamisprotsess jätkub selles keeles.';
+$string['mssqlextensionisnotpresentinphp']='PHP laiendus MSSQL ei ole korralikult seadistatud, mistõttu ei saa ühenduda SQL*Server\'iga. Palun kontrolli oma php.ini faili või kompileeri PHP uuesti.';
+$string['ociextensionisnotpresentinphp']='PHP laiendus OCI8 ei ole korralikult seadistatud, mistõttu ei saa ühenduda Oracle\'ga. Palun kontrolli oma php.ini faili või kompileeri PHP uuesti.';
+$string['odbcextensionisnotpresentinphp']='PHP laiendus ODBC ei ole korralikult seadistatud, mistõttu ei saa ühenduda SQL*Server\'iga. Palun kontrolli oma php.ini faili või kompileeri PHP uuesti.';
+$string['pgsqlextensionisnotpresentinphp']='PHP laiendus PGSQL ei ole korralikult seadistatud, mistõttu ei saa ühenduda PostgreSQL\'iga. Palun kontrolli oma php.ini faili või kompileeri PHP uuesti.';
+
+$string['databasecreationsettingssub']='<b>Tüüp:</b> määratud "mysql" paigaldaja poolt<br />
+       <b>Host:</b> määratud "localhost" paigaldaja poolt<br />
+       <b>Nimi:</b> andmebaasi nimi, nt. moodle<br />
+       <b>User:</b> määratud "root" paigaldaja poolt<br />
+       <b>Parool:</b> Sinu andmebaasi parool<br />
+       <b>Tabelite prefiks:</b> fakultatiivne prefiks kasutamaks tabeli nimetes';
+
 ?>

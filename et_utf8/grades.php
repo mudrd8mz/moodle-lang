@@ -122,4 +122,5 @@ $string['writinggradebookinfo']='Kirjutan hinnetelehe seadeid';
 $string['yes']='jah';
 $string['yourgrade']='Sinu hinne';
 $string['backupwithoutgradebook']='Tagavarakoopia ei sisalda hinnetelehe seadistust';
+$string['respectingcurrentdata']='Jätakse praegune seadistus muutmata';
 ?>

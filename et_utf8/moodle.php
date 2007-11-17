@@ -1400,4 +1400,7 @@ $string['ajaxno']='Ei: kasuta põhilisi veebivahendeid';
 $string['ajaxyes']='Jah: kasuta progressiivseid vahendeid';
 $string['nostatstodisplay']='Ei saa kuvada, sest ei ole kättesaadavaid andmeid, vabandust.';
 $string['untilcomplete']='Kuni valmis';
+$string['tag']='Märksõna';
+$string['tagalready']='See märksõna juba on olemas';
+$string['tags']='Märksõnad';
 ?>
