@@ -28,6 +28,7 @@ $string['aggregatesubcats'] = 'Calculer les tendances centrales en incluant les 
 $string['aggregatesubcatshelp'] = 'Le calcul des tendances centrales est habituellement effectué sur les notes de la catégorie. Il est aussi possible de calculer les tendances centrales des notes de toutes les sous-catégories, tout en excluant les autres tendances centrales calculées.';
 $string['aggregatesum'] = 'Sommes des notes';
 $string['aggregateweightedmean'] = 'Moyenne pondérée des notes';
+$string['aggregateweightedmean2'] = 'Simple moyenne pondérée des notes';
 $string['aggregation'] = 'Tendance centrale';
 $string['aggregationcoef'] = 'Coefficient';
 $string['aggregationcoefextra'] = 'Points supplémentaires';
