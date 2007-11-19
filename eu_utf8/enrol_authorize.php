@@ -98,6 +98,7 @@ $string['echeckfirslasttname'] = 'Kontuaren jabea';
 $string['echecksavings'] = 'Aurrezkiak';
 $string['enrolname'] = 'Authorize.net ordaintzeko bidea';
 $string['expired'] = 'Kadukatua';
+$string['haveauthcode'] = 'Badut baimen-kodea';
 $string['howmuch'] = 'Zenbat?';
 $string['httpsrequired'] = 'Sentitzen dugu, baina zure eragiketa ezin da orain prozesatu. Gune honen konfigurazioa ezin izan da egokiro ezarri.<br /><br />Mesedez, zure txartel-zenbakia ez sartu nabigatzailearen behealdean kandatu horia ikusten ez duzun bitartean. Ikurra agertuz gero, guneak bezero eta zerbitzariaren arteko informazio oro enkriptatzen duela esan nahi du. Horrela eragiketa egiten ari den bitartean bi ordenadoreen arteko informazioa babestuta dago, zure kreditu-txartelaren zenbakia interneten inork lapur ez dezan.';
 $string['invalidaba'] = 'ABA zenbaki desegokia';

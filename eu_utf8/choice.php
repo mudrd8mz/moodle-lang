@@ -17,6 +17,7 @@ $string['choicetext'] = 'Inkesta-testua';
 $string['displayhorizontal'] = 'Horizontalean erakutsi';
 $string['displaymode'] = 'Erakusteko modua';
 $string['displayvertical'] = 'Bertikalean erakutsi';
+$string['expired'] = 'Barkatu, jardura hau $a(e)an itxi zen eta dagoeneko ez dago eskuragarri.';
 $string['fillinatleastoneoption'] = 'Gutxienez bi erantzun eman behar dituzu.';
 $string['full'] = '(Beteta)';
 $string['havetologin'] = 'Saioa hasi behar duzu zure erantzuna bidali ahal izateko.';

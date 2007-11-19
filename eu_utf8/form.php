@@ -33,6 +33,7 @@ $string['security'] = 'Segurtasuna';
 $string['showadvanced'] = 'Erakutsi aurreratuak';
 $string['somefieldsrequired'] = 'Formulario honetan derrigorrezko eremuak daude';
 $string['timing'] = 'Denbora';
+$string['unmaskpassword'] = 'Agerian jarri';
 $string['year'] = 'Urtea';
 
 ?>

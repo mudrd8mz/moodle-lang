@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // book.php - created with Moodle 1.5.3+ (2005060230)
+      // book.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addafter'] = 'Atala gehitu';
@@ -10,17 +10,19 @@ $string['confchapterdeleteall'] = 'Ziur al zaude atal hau eta bere azpiatal guzt
 $string['content'] = 'Edukia';
 $string['customtitles'] = 'Erabiltzailearen izenburuak';
 $string['disableprinting'] = 'Inprimatzeko aukera ezgaitu';
+$string['doexport'] = 'Esportatu';
 $string['doimport'] = 'Inportatu';
 $string['editingchapter'] = 'Atala editatzen';
 $string['faq'] = 'FAQ motako liburua';
 $string['fileordir'] = 'Fitxategia edo direktorioa';
 $string['import'] = 'Inportatu';
+$string['importinfo'] = 'Inportatu aukeratutako HTML fitxategia edo direktorioa.<br/>Kapituluak alfabetikoki ordenatuko dira izenaren arabera.<br/>\'sub_*\' izeneko fitxategiak beti atal gisa inportatuko dira.';
 $string['importing'] = 'Inportatzen';
 $string['importingchapters'] = 'Inportatzen atalak liburura';
 $string['maindirectory'] = 'Direktorio nagusia';
 $string['modulename'] = 'Liburua';
 $string['modulenameplural'] = 'Liburuak';
-$string['navexit'] = 'Liburutik ireten';
+$string['navexit'] = 'Liburutik irten';
 $string['navnext'] = 'Hurrengoa';
 $string['navprev'] = 'Aurrekoa';
 $string['numbering'] = 'Atalak zenbatzen';
