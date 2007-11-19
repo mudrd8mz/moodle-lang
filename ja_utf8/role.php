@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (2007101501)
+      // role.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -86,6 +86,7 @@ $string['legacy:teacher'] = 'レガシーロール: 教師 (編集権限なし)'
 $string['legacy:user'] = 'レガシーロール: 認証済みユーザ';
 $string['legacytype'] = 'レガシーロールタイプ';
 $string['listallroles'] = 'すべてのロールを一覧表示する';
+$string['localroles'] = 'ローカルに割り当てられたロール';
 $string['manageroles'] = 'ロールの管理';
 $string['metaassignerror'] = 'メタコースを管理するケイパビリティが必要なため、このロールをユーザ「 $a 」に割り当てられませんでした。';
 $string['metaunassignerror'] = 'ユーザ「 $a 」のロールは自動的に再割り当てされました。代わりに、子コースのロールを解除してください。';
@@ -95,6 +96,8 @@ $string['nocapabilitiesincontext'] = 'このコンテクストで利用できる
 $string['notes:manage'] = 'ノートを管理する';
 $string['notes:view'] = 'ノートを表示する';
 $string['notset'] = '設定なし';
+$string['overridepermissions'] = 'パーミッションのオーバーライド';
+$string['overridepermissionsin'] = '$a におけるパーミッションのオーバーライド';
 $string['overrideroles'] = 'ロールのオーバーライド';
 $string['overriderolesin'] = '$a のロールのオーバーライド';
 $string['overrides'] = 'オーバーライド';
