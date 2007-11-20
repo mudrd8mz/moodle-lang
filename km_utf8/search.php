@@ -1,0 +1,50 @@
+<?PHP // $Id$
+  
+$string['advancedsearch'] = 'ស្វែងរក​កម្រិត​ខ្ពស់';
+$string['all'] = 'ទាំងអស់';
+$string['author'] = 'អ្នក​និពន្ធ';
+$string['authorname'] = 'ឈ្មោះ​អ្នក​និពន្ធ';
+$string['back'] = 'ថយក្រោយ';
+$string['beadmin'] = 'ទាល់​តែ​ជា​អ្នក​គ្រប់គ្រង​ប្រព័ន្ធ ទើប​អ្នក​អាច​ប្រើ​ទំព័រ​នេះ​បាន ។';
+$string['checkdb'] = 'ពិនិត្យ​មូលដ្ឋាន​ទិន្នន័យ';
+$string['checkdbadvice'] = 'ពិនិត្យ​រក​មើល​បញ្ហា ក្នុង​មូលដ្ឋាន​ទិន្នន័យ​របស់​អ្នក ។';
+$string['checkdiradvice'] = 'សូម​ប្រាកដ​ថា មាន​ថត​ទិន្នន័យ ហើយ​អាច​សរសេរ​ចូល​បាន ។';
+$string['createanindex'] = 'បង្កើត​លិបិក្រម';
+$string['createdon'] = 'បាន​បង្កើត​នៅ';
+$string['database'] = 'មូលដ្ឋាន​ទិន្នន័យ';
+$string['datadirectory'] = 'ថត​ទិន្នន័យ';
+$string['doctype'] = 'Doctype';
+$string['documents'] = 'ឯកសារ';
+$string['documentsfor'] = 'ឯកសារ​សម្រាប់';
+$string['documentsindatabase'] = 'ឯកសារ​ក្នុង​មូលដ្ឋាន​ទិន្នន័យ';
+$string['documentsinindex'] = 'ឯកសារ​ក្នុង​លិបិក្រម';
+$string['duration'] = 'ថិរវេលា';
+$string['emptydatabaseerror'] = 'តារាង​មូលដ្ឋាន​ទិន្នន័យ អាច​នឹង​​មិន​មាន​កំណត់ត្រា​លិបិក្រម ឬ​មិន​មាន​តែ​ម្ដង ។';
+$string['enteryoursearchquery'] = 'បញ្ចូល​ពាក្យ​ដែល​អ្នក​ចង់​ស្វែងរក';
+$string['errors'] = 'កំហុស';
+$string['filesinindexdirectory'] = 'ឯកសារ​នៅ​ក្នុង​ថត​លិបិក្រម';
+$string['globalsearchdisabled'] = 'ការ​ស្វែងរក​សកល មិន​ត្រូវ​បាន​អនុញ្ញាត​ឡើយ ។';
+$string['invalidindexerror'] = 'ថត​លិបិក្រម​អាច​នឹង​មាន​លិបិក្រម​មិន​ត្រឹមត្រូវ ឬ​មិន​មាន​អ្វី​ទាំងអស់ ។';
+$string['ittook'] = 'វា​ចំណាយ​ពេល';
+$string['next'] = 'បន្ទាប់';
+$string['normalsearch'] = 'ស្វែងរក​ធម្មតា';
+$string['openedon'] = 'បាន​បើក​នៅ';
+$string['score'] = 'ពិន្ទុ';
+$string['search'] = 'ស្វែងរក';
+$string['searching'] = 'កំពុង​ស្វែងរក​ក្នុង...';
+$string['seconds'] = ' វិនាទី';
+$string['solutions'] = 'ដំណោះស្រាយ';
+$string['statistics'] = 'ស្ថិតិ';
+$string['thesewordshelpimproverank'] = 'ពាក្យ​ទាំងនេះ ជួយ​ធ្វើ​ឲ្យ​លំដាប់​កាន់​តែ​ប្រសើរ';
+$string['thesewordsmustappear'] = 'ពាក្យ​ទាំងនេះ​ត្រូវ​តែ​បង្ហាញ';
+$string['thesewordsmustnotappear'] = 'ពាក្យ​ទាំងនេះ​ត្រូវ​តែ​មិន​បង្ហាញ';
+$string['title'] = 'ចំណងជើង';
+$string['tofetchtheseresults'] = 'ដើម្បី​ទៅ​យក​លទ្ធផល​ទាំងនេះ';
+$string['totalsize'] = 'ទំហំ​សរុប';
+$string['type'] = 'ប្រភេទ';
+$string['uncompleteindexingerror'] = 'ការ​ធ្វើ​លិបិក្រម មិន​បាន​បញ្ចប់​ដោយ​ជោគជ័យ​ឡើយ ។ សូម​ចាប់ផ្ដើម​វា​ម្ដង​ទៀត ។';
+$string['versiontoolow'] = 'សូម​ទោស ការ​ស្វែងរក​ជា​សកល​ត្រូវការ PHP 5.0.0 ឬ​ខ្ពស់​ជាង​នេះ (បច្ចុប្បន្ន​កំពុង​ប្រើ \'.$phpversion.\')';
+$string['whichmodulestosearch?'] = 'តើ​ស្វែងរក​ម៉ូឌុល​មួយ​ណា ?';
+$string['wordsintitle'] = 'ពាក្យ​ក្នុង​ចំណងជើង';
+
+?>
