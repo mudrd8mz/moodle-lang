@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // search.php - created with Moodle 1.9 Beta + (2007082400)
+      // search.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['advancedsearch'] = '検索オプション';
@@ -53,7 +53,7 @@ $string['tofetchtheseresults'] = '&nbsp;';
 $string['totalsize'] = '合計サイズ';
 $string['type'] = 'タイプ';
 $string['uncompleteindexingerror'] = 'インデックス処理が完全に終了していません。リスタートしてください。';
-$string['versiontoolow'] = '申し訳ございません、検索にはPHP 5.0.0またはそれ以降のバージョンが必要です。';
+$string['versiontoolow'] = '申し訳ございません、グローバルサーチにはPHP 5.0.0またはそれ以降のバージョンが必要です。';
 $string['whichmodulestosearch?'] = 'どのモジュールを検索しますか?';
 $string['wordsintitle'] = '次の文字をタイトルに含む';
 
