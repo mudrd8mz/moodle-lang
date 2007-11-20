@@ -51,7 +51,7 @@ $string['tofetchtheseresults'] = 'pour retrouver ces résultats';
 $string['totalsize'] = 'Taille totale ';
 $string['type'] = 'Type';
 $string['uncompleteindexingerror'] = 'L\'indexation n\'a pas pu être terminée correctement. Veuillez la recommencer.';
-$string['versiontoolow'] = 'La recherche globale requiert PHP 5.0.0 ou une version ultérieure (vous utilisez la version '.$phpversion.')';
+$string['versiontoolow'] = 'La recherche globale requiert PHP 5.0.0 ou une version ultérieure';
 $string['whichmodulestosearch?'] = 'Rechercher dans quels modules&nbsp;?';
 $string['wordsintitle'] = 'Termes dans le titre';
 
