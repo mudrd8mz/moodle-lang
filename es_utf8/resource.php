@@ -118,6 +118,7 @@ $string['serverurl'] = 'URL del servidor ($a->wwwroot)';
 $string['showcourseblocks'] = 'Mostrar los bloques del curso';
 $string['skipsubmenus'] = 'Saltar páginas de sub-menú';
 $string['tableofcontents'] = 'Tabla de contenidos';
+$string['tableofcontentsabbrev'] = 'TDC';
 $string['upbutton'] = 'Arriba';
 $string['variablename'] = 'Nombre de la variable';
 $string['viewims'] = 'Ver Paquete IMS CP';
