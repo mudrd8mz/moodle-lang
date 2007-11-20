@@ -1,6 +1,5 @@
 <?PHP 
-			$string['addmoreanswerblanks'] = 'បន្ថែម​ចម្លើយ​ទទេ​មួយ​ផ្សេង​ទៀត ។';
-$string['addmoreunitblanks'] = 'កន្លែង​ទំនេរ​សម្រាប់​មេរៀន $a បន្ថែម​ទៀត';
+			$string['addmoreunitblanks'] = 'កន្លែង​ទំនេរ​សម្រាប់​មេរៀន $a បន្ថែម​ទៀត';
 $string['answerhdr'] = 'ចម្លើយ';
 $string['atleastoneanswer'] = 'អ្នក​ត្រូវ​ផ្ដល់​ចម្លើយ​យ៉ាងហោចណាស់​មួយ ។';
 $string['correctanswershows'] = 'ការ​បង្ហាញ​ចម្លើយ​ត្រឹមត្រូវ';

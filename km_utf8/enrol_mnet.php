@@ -1,6 +1,5 @@
 <?PHP 
-			$string['description'] = 'សេចក្ដី​ពិពណ៌នា​​នៃ​​ការ​ចុះ​ឈ្មោះ​លើ​បណ្ដាញ Moodle ។';
-$string['enrolname'] = 'ការ​តបណ្ដាញ Moodle';
+			$string['enrolname'] = 'ការ​តបណ្ដាញ Moodle';
 $string['enrolname'] = 'ការ​តបណ្ដាញ Moodle';
 $string['allow_allcourses'] = 'អនុញ្ញាត​ការ​ចុះឈ្មោះ​នៅ​ក្នុង​វគ្គសិក្សា​ពីចម្ងាយ​ទាំងអស់ ។';
 $string['allcategories'] = 'ប្រភេទ​ចម្បង $a';

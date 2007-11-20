@@ -3,10 +3,9 @@
 
 $string['answerhowmany'] = 'ចម្លើយ​មួយ ឬច្រើន ?';
 $string['addmorechoiceblanks'] = 'ទទេ​សម្រាប់​​{គ្មាន}ជម្រើស​ច្រើន ';
-$string['answerhowmany'] = 'ចម្លើយ​មួយ ឬច្រើន?';
+$string['answerhowmany'] = 'ចម្លើយ​មួយ ឬច្រើន ?';
 $string['answernumbering'] = 'ដាក់​លេខ​ជម្រើស ?';
 $string['answernumberingabc'] = 'a., b., c., ...';
-$string['answernumberingABC'] = 'A., B., C., ...';
 $string['answernumbering123'] = '1., 2., 3., ...';
 $string['answernumberingnone'] = 'គ្មាន​លេខ​រៀង';
 $string['answersingleno'] = 'អនុញ្ញាត​ឲ្យមាន​ចម្លើយ​ច្រើន';

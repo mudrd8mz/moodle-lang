@@ -55,7 +55,6 @@ $string['searchforperson'] = 'ស្វែងរក​មនុស្ស';
 $string['searchmessages'] = 'ស្វែងរក​សារ';
 $string['sendmessage'] = 'ផ្ញើ​សារ';
 $string['sendmessageto'] = 'ផ្ញើ​សារ​ដែល​ជូន​ចំពោះ $a';
-$string['settings'] = 'ការ​កំណត់';
 $string['settingssaved'] = 'ការ​កំណត់​របស់​អ្នក​ត្រូវ​បាន​រក្សាទុក';
 $string['showmessagewindow'] = 'បង្ហាញ​បង្អួច​សារ​ដោយ​ស្វ័យ​ប្រវត្តិ ពេល​ខ្ញុំ​យក​សារ​ថ្មី (កម្មវិធី​រុករក​របស់​អ្នក​តម្រូវ​ឲ្យ​កំណត់ ដូច្នេះ​វា​មិន​ទប់ស្កាត់​ការ​លេច​ឡើង​លើ​តំបន់​បណ្ដាញ​នេះ​ទេ)';
 $string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';

@@ -3,6 +3,7 @@
 
 
 $string['adminprimarynoedit'] = 'ការគ្រប់គ្រង​ចម្បង​មិនអាច​ត្រូវ​បាន​កែសម្រួល​ដោយ​អ្នក​ដទៃ​បាន​ឡើយ';
+$string['cannotassignrole'] = 'មិន​អាច​ផ្ដល់​តួនាទី នៅ​ក្នុង​វគ្គសិក្សា';
 $string['cannotcreatelangdir'] = 'មិនអាច​បង្កើត​ថត lang បាន​ឡើយ ។';
 $string['cannotcreatetempdir'] = 'មិនអាច​បង្កើត​ថត temp បាន​ឡើយ ។';
 $string['cannotdownloadcomponents'] = 'មិនអាច​ទាញយក​សមាសភាគ​បាន​ឡើយ ។';
@@ -11,6 +12,7 @@ $string['cannotfindcomponent'] = 'មិនអាច​រក​សមាភា�
 $string['cannotsavemd5file'] = 'មិនអាច​រក្សាទុក​ឯកសារ md5 បាន​ឡើយ ។';
 $string['cannotsavezipfile'] = 'មិនអាច​រក្សាទុក​ឯកសារ ZIP បាន​ឡើយ ។';
 $string['cannotunzipfile'] = 'មិនអាច​ពន្លា​ឯកសារ​បាន​ឡើយ ។';
+$string['cannotviewprofile'] = 'អ្នក​មិន​អាច​មើល​ទម្រង់​របស់​អ្នក​ប្រើ​នេះ​បាន​ឡើយ ។';
 $string['cantunenrollfrommetacourse'] = 'អ្នក​មិនអាច​លុបឈ្មោះ​ពី​វគ្គសិក្សា​មេតា​នេះ​បាន​ឡើយ ។';
 $string['cantunenrollinthisrole'] = 'អ្នក​មិនអាច​លុបឈ្មោះ​ពី​វគ្គសិក្សា​នេះ​បាន​ឡើយ ​ខណៈពេល​​ដែល​អ្នក​ស្ថិត​នៅ​ក្នុង​តួនាទី​បច្ចុប្បន្នរបស់​អ្នក ។';
 $string['cmunknown'] = 'មិនអាច​រក​ម៉ូឌុល​វគ្គសិក្សា​នេះ​បាន​ឡើយ';
@@ -59,7 +61,7 @@ $string['modulemissingcode'] = 'ម៉ូឌុល $a បាត់​កូដ�
 $string['modulerequirementsnotmet'] = 'មិនអាច​ដំឡើង​ម៉ូឌុល \"$a->modulename\" ($a->moduleversion) បាន​ឡើយ ។  វា​ត្រូវការ​​កំណែ Moodle ថ្មី (បច្ចុប្បន្ន​ អ្នក​កំពុងប្រើ $a->currentmoodle ហើយ​អ្នក​ត្រូវ​ការ $a->requiremoodle) ។';
 $string['mustbeteacher'] = 'អ្នក​ត្រូវ​តែ​ជា​គ្រូ​ដើម្បី​មើល​ទំព័រ​នេះ';
 $string['nocontext'] = 'សូម​អភ័យទោស វគ្គសិក្សា​នោះ​គឺ​មិនមែន​ជា​បរិបទ​ត្រឹមត្រូវ​ឡើយ';
-$string['noinstances'] = 'គ្មាន​វត្ថុ​របស់ $a នៅ​ក្នុង​វគ្គសិក្សា​នេះ​ទេ !';
+$string['noinstances'] = 'មិន​មាន $a នៅ​ក្នុង​វគ្គសិក្សា​នេះ​ទេ !';
 $string['nologinas'] = 'អ្នក​មិនត្រូវ​បាន​អនុញ្ញាត​ឲ្យ​​ចូល​ជា​អ្នកប្រើ​នោះ​ឡើយ';
 $string['nonmeaningfulcontent'] = 'មាតិកា​​គ្មាន​ន័យ​គ្រប់គ្រាន់';
 $string['noparticipatorycms'] = 'សូមអភ័យទោស អ្នក​មិនមាន​ម៉ូឌុល​វគ្គសិក្សា​ដែលចូលរួម​សម្រាប់​ធ្វើរបាយការណ៍ ។';
@@ -85,9 +87,12 @@ $string['unknowncourseidnumber'] = 'មិនស្គាល់​លេខស�
 $string['unknownuseraction'] = 'សូម​អភ័យទោស ខ្ញុំ​មិនយល់​អំពី​អំពើ​របស់​អ្នកប្រើ​នេះ​ទេ ។';
 $string['usernotaddederror'] = 'មិន​បាន​បន្ថែម​អ្នកប្រើ \"$a\" ឡើយ - មិនស្គាល់​កំហុស';
 $string['usernotaddedregistered'] = 'មិនបាន​បន្ថែម​អ្នកប្រើ \"$a\" ឡើយ - បាន​ចុះឈ្មោះ​រួចហើយ';
+$string['usernotdeletederror'] = 'មិន​បាន​លុប​អ្នក​ប្រើ - កំហុស​មិន​ស្គាល់';
+$string['usernotdeletedmissing'] = 'មិន​បាន​លុប​អ្នក​ប្រើ - មិន​អាច​រក​ឈ្មោះ​អ្នក​ប្រើ';
 $string['usernotavailable'] = 'សេចក្ដី​លម្អិត​របស់​អ្នកប្រើ​នេះ​មិនមាន​សម្រាប់​អ្នកឡើយ ។';
 $string['usernotrenamedexists'] = 'អ្នកប្រើ​មិនបាន​ប្ដូរ​ឈ្មោះទេ -- ឈ្មោះ​អ្នកប្រើ​ថ្មី​​កំពុង​ប្រើ​រួច​ហើយ ។';
 $string['usernotrenamedmissing'] = 'អ្នកប្រើ​មិនបាន​ប្ដូរ​ឈ្មោះ​ទេ -- មិនអាច​រក​ឈ្មោះ​អ្នកប្រើ​ចាស់​បាន​ឡើយ ។';
+$string['usernotupdatederror'] = 'មិន​បាន​ធ្វើ​ឲ្យ​អ្នក​ប្រើ​ទាន់សម័យ - កំហុស​មិន​ស្គាល់';
 $string['wrongdestpath'] = 'ផ្លូវ​ទិសដៅ​មិនត្រឹមត្រូវ ។';
 $string['wrongsourcebase'] = 'មូលដ្ឋាន URL ប្រភព​មិនត្រឹមត្រូវ ។';
 $string['wrongzipfilename'] = 'ឈ្មោះ​ឯកសារ ZIP មិនត្រឹមត្រូវ ។';

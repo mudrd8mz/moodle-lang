@@ -3,6 +3,6 @@
 
 
 $string['advancedsearch'] = 'ការ​ស្វែងរក​កម្រិត​ខ្ពស់';
-$string['blocktitle'] = 'វេទិកា​ស្វែងរក';
+$string['blocktitle'] = 'ស្វែងរក​វេទិកា';
 
 ?>

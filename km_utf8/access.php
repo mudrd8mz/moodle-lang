@@ -1,5 +1,6 @@
 <?PHP // $Id$ 
       // access.php - created with Moodle 1.7 beta + (2006101003)
+      // Accessibility, usability and navigation language file.
 
 
 $string['access'] = 'មធ្យោបាយ​ងាយស្រួល';
@@ -8,7 +9,9 @@ $string['accesskey'] = 'គ្រាប់ចុច​ដំណើរការ $
 $string['accessstatement'] = 'សេចក្ដី​ថ្លែងការណ៍​មធ្យោបាន​ងាយស្រួល';
 $string['activitynext'] = 'សកម្មភាព​បន្ទាប់';
 $string['activityprev'] = 'សកម្មភាព​មុន';
-$string['breadcrumb'] = 'ដាន​តំណ​ប្រាប់​ដំណឹង';
+$string['breadcrumb'] = 'ដាន​តំណ​ប្រាប់​ទីតាំង';
+$string['currentweek'] = 'សប្ដាហ៍​នេះ';
+$string['currenttopic'] = 'ប្រធានបទ​នេះ';
 $string['monthnext'] = 'ខែ​បន្ទាប់';
 $string['monthprev'] = 'ខែ​មុន';
 $string['showhideblock'] = 'បង្ហាញ ឬ​លាក់​ប្លុក';
