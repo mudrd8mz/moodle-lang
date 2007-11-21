@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 Beta + (2007091900)
+      // resource.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['addresource'] = 'リソースを追加する';
@@ -117,6 +117,7 @@ $string['serverurl'] = 'サーバURI ($a->wwwroot)';
 $string['showcourseblocks'] = 'コースブロックを表示する';
 $string['skipsubmenus'] = 'サブメニューページをスキップする';
 $string['tableofcontents'] = '目次';
+$string['tableofcontentsabbrev'] = 'TOC';
 $string['upbutton'] = 'UP';
 $string['variablename'] = '変数名';
 $string['viewims'] = 'IMSコンテンツパッケージの表示';
