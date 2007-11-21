@@ -106,6 +106,7 @@ $string['serverurl'] = 'URL du serveur ($a->wwwroot)';
 $string['showcourseblocks'] = 'Afficher les blocs de cours';
 $string['skipsubmenus'] = 'Sauter les pages sous-menu';
 $string['tableofcontents'] = 'Table des matières';
+$string['tableofcontentsabbrev'] = 'TDM';
 $string['upbutton'] = 'Niveau supérieur';
 $string['variablename'] = 'Nom de la variable';
 $string['viewims'] = 'Visualiser le contenu du fichier IMS';
