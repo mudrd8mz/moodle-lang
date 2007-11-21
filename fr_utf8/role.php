@@ -149,6 +149,7 @@ $string['site:mnetlogintoremote'] = 'Accéder à un serveur Moodle distant';
 $string['site:mnetloginfromremote'] = 'Se connecter depuis un serveur Moodle distant';
 $string['site:readallmessages'] = 'Lire tous les messages sur le site';
 $string['site:restore'] = 'Restaurer les cours';
+$string['site:sendmessage'] = 'Envoyer des messages à tous les utilisateurs';
 $string['site:trustcontent'] = 'Se fier aux contenus';
 $string['site:uploadusers'] = 'Importer de nouveaux utilisateurs à partir d\'un fichier';
 $string['site:viewfullnames'] = 'Toujours voir les noms complets des utilisateurs';
