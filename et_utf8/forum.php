@@ -147,8 +147,7 @@ $string['parent']='Näita algatajat';
 $string['parentofthispost']='Selle postituse algataja';
 $string['postadded']='Teie postitus lisati edukalt.<br />Teil on soovi korral $a selle muutmiseks.';
 $string['postincontext']='Vaata seda postitust kontekstis';
-$string['postmailinfo']='See on koopia sõnumist, mis postitati $a õpikeskkonnas.
-Kui soovite vastata, siis klikkige sellel lingil:';
+$string['postmailinfo']='See on koopia sõnumist, mis postitati $a õpikeskkonnas. Kui soovite vastata, siis klikkige sellel lingil:';
 $string['postrating1']='Näitab enamasti ERALDATUD teadmisi';
 $string['postrating2']='Võrdselt eraldatud ja ühendatud teadmised';
 $string['postrating3']='Näitab enamasti ÜHENDATUD teadmisi';

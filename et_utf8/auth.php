@@ -72,9 +72,7 @@ $string['auth_ldap_user_attribute']='Valikuline: katab üle atribuudi (tavalisel
 $string['auth_ldap_user_settings']='Kasutaja otsimise seaded';
 $string['auth_ldap_user_type']='Vali, kuidas kasutajaid LDAP\'is hoitakse. See seadistus määrab ka ära, kuidas sisenemise aegumine, ajapikendusega sisenemine ja kasutajate loomine töötab.';
 $string['auth_ldap_version']='Sinu serveri LDAP protokolli versioon.';
-$string['auth_ldapdescription']='See meetod tagab autentimise, kasutades välist LDAP serverit.
-
-Kui antud kasutajanimi ja salasõna kehtivad, loob Moodle uue kasutajakande oma andmebaasi. See moodul oskab lugeda kasutaja atribuute LDAP-ist ja eeltäita soovitud väljad Moodle\'is.  Edaspidiste sisenemiste korral kontrollitakse ainult kasutajanime ja salasõna.';
+$string['auth_ldapdescription']='See meetod tagab autentimise, kasutades välist LDAP serverit. Kui antud kasutajanimi ja salasõna kehtivad, loob Moodle uue kasutajakande oma andmebaasi. See moodul oskab lugeda kasutaja atribuute LDAP-ist ja eeltäita soovitud väljad Moodle\'is.  Edaspidiste sisenemiste korral kontrollitakse ainult kasutajanime ja salasõna.';
 $string['auth_ldapextrafields']='Nende lahtrite täitmine on valikuline. Kui sa soovid, et mõned Moodle\'i kasutaja väljad eeltäidetaks infoga <b>LDAP\'i väljadelt</b>, siis määra vastavad LDAP\'i väljad siin. <p>Kui jätad need lahtrid tühjaks, ei kanta LDAP\'ist midagi üle ja kasutatakse Moodle\'i vaikeseadeid.</p><p>Mõlemal juhul on kasutajal võimalus muuta kõiki välju, kui ta on õpikeskkonda sisenenud.</p>';
 $string['auth_ldaptitle']='Kasuta LDAP serverit';
 $string['auth_manualdescription']='See meetod võtab kasutajatelt igasuguse võimaluse ise endale kontosid luua. Kõik kontod tuleb administraatoril käsitsi luua.';
@@ -133,9 +131,7 @@ $string['passwordhandling']='Salasõna välja haldamine';
 $string['plaintext']='Lihttekst';
 $string['showguestlogin']='Võid peita või näidata külaliskasutaja sisenemisnuppu sisenemislehel.';
 $string['stdchangepassword']='Kasuta standardset salasõna muutmise lehekülge';
-$string['stdchangepassword_expl']='Kui väline autentimissüsteem lubab vahetada salasõna läbi Moodle\'i, siis vali \"Jah\".
-
-See seadistus katab üle \'Change Password URL\' funktsiooni.';
+$string['stdchangepassword_expl']='Kui väline autentimissüsteem lubab vahetada salasõna läbi Moodle\'i, siis vali \"Jah\". See seadistus katab üle \'Change Password URL\' funktsiooni.';
 $string['stdchangepassword_explldap']='TÄHELEPANU: On soovitatav kasutada LDAP\'i üle SSL-i krüpteeritud tunneli (ldaps://), kui LDAP server on eemal.';
 $string['unlocked']='Lukustamata';
 $string['unlockedifempty']='Lukustamata, kui tühi';
@@ -145,7 +141,6 @@ $string['update_onlogin']='Iga sisenemise ajal';
 $string['update_onupdate']='Uuendamise ajal';
 $string['createchangepassword']='Puudumise korral loo - sunni muutmine'; // ORPHANED
 $string['createpassword']='Puudumise korral loo'; // ORPHANED
-
 $string['auth_nologintitle']='Logimiseta';
 $string['selfregistration']='Iseseisev registreerimine';
 $string['selfregistration_help']='Võimalus valida millist autentimispluginat kasutatakse kasutaja iseseisvaks registreerimiseks.';
@@ -196,12 +191,12 @@ $string['auth_radiustitle']='RADIUS server';
 $string['sha1']='SHA-1 räsi';
 $string['auth_sync_script']='Cron sükronisatsiooni skript';
 $string['nopasswordchange']='Parooli ei saa muuta';
-$string['pluginnotenabled']="Autentimise plugin '\$a' ei ole lubatud.";
-$string['pluginnotinstalled']="Autentimise plugin '\$a' ei ole installeeritud.";
+$string['pluginnotenabled']='Autentimise plugin \"$a\" ei ole lubatud.';
+$string['pluginnotinstalled']='Autentimise plugin \"$a\" ei ole installeeritud.';
 $string['auth_ldap_changepasswordurl_key']='Parooli muutmise URL';
-$string['auth_cas_proxycas']="Seadista 'jah' kui kasutad CASin proksilaadi";
-$string['auth_cas_logoutcas']="Seadista 'jah' kui soovid välja logida CAS'st, kui ühendud lahti Moode'st";
-$string['auth_cas_logoutcas_key']="Logi välja CAS'st";
+$string['auth_cas_proxycas']='Seadista \'jah\' kui kasutad CASin proksilaadi';
+$string['auth_cas_logoutcas']='Seadista \'jah\' kui soovid välja logida CAS\'st, kui ühendud lahti Moode\'st';
+$string['auth_cas_logoutcas_key']='Logi välja CAS\'st';
 $string['auth_dbfieldpass_key']='Parooli väli';
 $string['auth_dbfielduser_key']='Kasutajanime väli';
 $string['auth_ldap_noextension']='Hoiatus: PHP LDAP moodul ei paista olevat kättesaadav. Palun installeeri ja võimalda.';
@@ -226,4 +221,13 @@ $string['auth_cas_create_user_key']='Loo kasutaja';
 $string['auth_dbextencoding']='Välise andmebaasi kodeering';
 $string['auth_dbextencodinghelp']='Kodeering, mida kasutatakse välises andmebaasis';
 $string['auth_dbinsertusererror']='Viga kasutaja lisamisel\$a';
+$string['auth_dbdebugauthdb']='ADOdb silumine';
+$string['auth_dbdeleteuser']='Kustutatud kasutaja $a[0] id $a[1]';
+$string['auth_dbdeleteusererror']='Viga kasutaja kustutamisel $a';
+$string['auth_dbinsertuser']='Lisatud kasutaja $a[0] id $a[1]';
+$string['auth_cas_use_cas']='Kasuta CAS\'i';
+$string['auth_emailnoemail']='Prooviti saate Sinu e-maili, kuid ebaõnnestunult!';
+$string['auth_dbsybasequoting']='Kasuta sybase jutumärke';
+$string['auth_fcconnfail']='Ühendus ebaõnnestus veakoodiga: $a[0] ja veateatega: $a[1]';
+$string['auth_imapnotinstalled']='Ei saa kasutada IMAP autentimist. PHP IMAP moodul ei ole installeeritud.';
 ?>

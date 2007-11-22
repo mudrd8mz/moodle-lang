@@ -8,4 +8,3 @@ $string['skipa']='Jäta vahele $a';
 $string['youarehere']='Te olete siin';
 $string['sitemap']='Saidi kaart';
 ?>
-

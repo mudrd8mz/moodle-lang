@@ -11,9 +11,7 @@ $string['deleteafter']='Kustuta suletud dialoogid peale (Päevade arv)';
 $string['dialogueclosed']='Dialoog suletud';
 $string['dialogueintro']='Dialoogi tutvustus';
 $string['dialoguemail']='$a->userfrom on lisanud uue kirje sinu dialoogikirjesse \'$a->dialogue\'
-
 Võid näha seda lisatuna oma dialoogi kirjesse:
-
 $a->url';
 $string['dialoguemailhtml']='$a->userfrom on lisanud uue kirje sinu dialoogikirjesse \'<i>$a->dialogue</i>\'<br /><br />
 Võid näha seda lisatuna oma <a href=\"$a->url\">dialoogi</a>.';

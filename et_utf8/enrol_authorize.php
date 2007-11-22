@@ -15,9 +15,7 @@ $string['choosemethod']='Kui sa tead kursusele registreerumise võtit, sisesta s
 $string['chooseone']='Täida üks või mõlemad järgnevatest väljadest';
 $string['description']='Authorize.net moodul võimaldab luua tasulisi kursusi läbi krediitkaardi teenuse pakkujate. Kui mõne kursuse maksumus on null, siis õpilastelt ei küsita liitumise eest raha. Siin lehel määra maksumuse vaikeväärtus kogu õpikeskkonna kursuste jaoks. Kursuste seadetes saab määrata igale kursusele oma maksumuse, mis hakkab kehtima vaikeväärtuse asemel.  ';
 $string['enrolname']='Authorize.net krediitkaardi värav';
-$string['logindesc']='Sa võid määrata <a href=\"$a->url\">loginhttps</a> valiku Muutujate/Turvalisuse sektsioonis.
-<br /><br />
-Selle seadistuse sisse lülitamisel hakkab Moodle sisenemise ja tasumise lehekülgedel kasutama turvalist https ühendust.';
+$string['logindesc']='Sa võid määrata <a href=\"$a->url\">loginhttps</a> valiku Muutujate/Turvalisuse sektsioonis.<br /><br />Selle seadistuse sisse lülitamisel hakkab Moodle sisenemise ja tasumise lehekülgedel kasutama turvalist https ühendust.';
 $string['nameoncard']='Nimi kaardil';
 $string['sendpaymentbutton']='Saada makse';
 $string['zipcode']='Postikood';

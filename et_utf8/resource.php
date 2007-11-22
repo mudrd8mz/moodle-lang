@@ -95,4 +95,10 @@ $string['vol']='Vol';
 $string['browserepository']='Sirvi repositooriumi';
 $string['choose']='Vali';
 $string['emptyfolder']='Tühi kaust';
+$string['resourcetypeims']='Lisa IMS Content Package';
+$string['viewims']='Vaata IMS Content Package';
+$string['navigationmenu']='Navigatsiooni külgmenüü';
+$string['navigationbuttons']='Navigeerimise nupud';
+$string['repository']='IMS repositoorium';
+$string['navigationup']='Ülesse nupp';
 ?>

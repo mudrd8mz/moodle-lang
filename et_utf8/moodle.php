@@ -330,7 +330,6 @@ $string['edhelpaspellpath']='Et kasutada selles toimetis õigekirja kontrolli, P
 $string['edhelpbgcolor']='Defineeri toimeti taustavärv <br /> Sobivad väärtused on näiteks #ffffff või white';
 $string['edhelpcleanword']='See seadistus lülitab sisse või välja Wordi-spetsiifilise formaadi filtreerimise';
 $string['edhelpenablespelling']='Lülita sisse või välja õigekirja kontroll. Sisse lülitatuna peab serveris olema installeeritud <strong>aspell</strong>.
-
 Teine väärtus on <strong>vaikimisi sõnastik </strong>. Seda väärtust kasutatakse, kui aspell\'il pole kasutaja keele sõnastikku.';
 $string['edhelpfontfamily']='Fondiperekonna atribuut on nimekiri fondiperekondade nimedest ja/või geneeriliste perekondade nimedest. Perekondade nimed tuleb eraldada komadega.';
 $string['edhelpfontlist']='Defineeri fondid, mida kasutatakse toimeti rippmenüüs';
@@ -362,34 +361,15 @@ $string['emailactive']='E-post aktiveeritud';
 $string['emailagain']='E-posti aadress (uuesti)';
 $string['emailconfirm']='Kinnita oma kasutajanimi';
 $string['emailconfirmation']='Tere $a->firstname,
-
-
-
 \'$a->sitename\' õpikeskkonnas on taotletud uut kasutajatunnust, kasutades antud e-posti aadressi.
-
-
-
 Uue kasutajatunnuse kinnitamiseks mine järgmisele veebiaadressile:
-
-
-
   $a->link
-
-
-
 Enamasti peaks see ilmuma veebilingi kujul, millele võib lihtsalt klikkida. Kui see ei tööta, siis kopeeri aadress veebilehitseja aadressiribale.
-
-
-
 Kui vajad abi, võta kontakti õpikeskkonna administraatoriga,
-
 $a->admin';
-
 $string['emailconfirmationsubject']='$a: kasutajatunnuse kinnitus';
 $string['emailconfirmsent']='<P>Sinu e-posti aadressile <B>$a</B></p>
-
 <p>saadeti kiri, mis sisaldab lihtsaid juhendeid, kuidas kasutajatunnust kinnitada.</p>
-
 <P>Probleemide korral pöördu õpikeskkonna administraatori poole.</p>';
 $string['emaildigest']='E-postiga saadetava kokkuvõtte tüüp';
 $string['emaildigestcomplete']='Täielik (iga päeva kohta e-kiri täispikkade postitustega)';
@@ -409,40 +389,18 @@ $string['emailmustbereal']='Märkus: sinu e-posti aadress peab olema reaalselt e
 $string['emailnotallowed']='E-posti aadressid ei ole lubatud järgmistest domeenidest: $a';
 $string['emailonlyallowed']='E-posti aadress ei ole üks nendest, mis on lubatud ($a)';
 $string['emailpasswordconfirmation']='Tere $a->firstname,
-
-
-
 Keegi (tõenäoliselt sina ise) on soovinud uut salasõna sinu kasutajatunnusele õpikeskkonnas \'$a->sitename\'.
-
-
-
 Selle kinnitamiseks ja uue salasõna saamiseks e-kirjana mine järgmisele veebiaadressile:
-
-
-
   $a->link
-
-
-
 Enamikus meiliprogrammides peaks veebiaadress kuvatama lingi kujul, millele võid lihtsalt klikkida. Kui see ei tööta, siis kopeeri aadress veebilehitseja aadressiribale.
-
- 
-
 Probleemide korral kontakteeru õpikeskkonna adimistraatoriga,
-
   $a->admin';
 $string['emailpasswordconfirmationsubject']='$a: muuda salasõna kinnitus';
 $string['emailpasswordconfirmsent']='Sinu e-posti aadressile <b>$a</b> saadeti kiri, mis sisaldab lihtsaid juhiseid, kuidas kinnitada ja lõpule viia salasõna muutmine.
-
-
-
 Probleemide korral kontakteeru õpikeskkonna adimistraatoriga.';
 $string['emailpasswordsent']='Täname, et kinnitasid salasõna muutmise.
-
   <p>Sinu e-posti aadressile <b>$a->email</b> saadeti e-kiri, mis sisaldab uut salasõna. 
-
   <p>Uus salasõna tekitati automaatselt.  
-
   <a href=$a->link>Muuda salasõna</a> millekski lihtsamini meeldejäävaks.';
 $string['enable']='Luba';
 $string['encryptedcode']='Krüptitud kood';
@@ -457,10 +415,8 @@ $string['enrolme']='Registreeri mind antud kursusele';
 $string['enrolmentconfirmation']='Sa oled registreerumas antud kursusele. <br />Oled kindel, et soovid seda teha?';
 $string['enrolmentkey']='Kursusele registreerumise võti';
 $string['enrolmentkeyfrom']='Selle kursusega liitumiseks on vajalik kursusele registreerumise võti - salasõna,<br />
-
 mille andis sulle $a';
 $string['enrolmentkeyhint']='Kursusele registreerumise võti oli vale, palun proovi uuesti. <br />
-
 (Vihje - see algab \'$a\')';
 $string['enrolmentnew']='Uus registreerumine kursusele $a';
 $string['enrolmentnewuser']='$a->user on registreerinud ennast \"$a->course\" kursusele';
@@ -549,17 +505,8 @@ $string['gdneed']='Selle graafiku nägemiseks tuleb installeerida GD.';
 $string['gdnot']='GD pole installeeritud';
 $string['go']='Mine';
 $string['gpl']='Copyright (C) 2001-2002  Martin Dougiamas  (http://dougiamas.com)
-
-
-
 See programm on vabavara, mida võib levitada ja/või muuta vastavalt Vabavara Fondi poolt avaldatud GNU Üldise Avaliku Litsentsi versioonile 2 või sinu omal valikul vastavalt mõnele hilisemale versioonile.
-
-
-
 Seda programmi levitatakse lootuses, et ta on kasulik, kuid ILMA MINGI GARANTIITA, isegi ilma mingi vihjeta TURUSTATAVUSE või KONKREETSEKS EESMÄRGIKS  SOBIVUSE garantiile. Lisateabe saamiseks vaata GNU Üldist Avalikku Litsentsi:
-
-
-
 http://www.gnu.org/copyleft/gpl.html';
 $string['grade']='Hinne';
 $string['grades']='Hinded';
@@ -640,9 +587,7 @@ $string['idnumbercourse']='Kursuse ID number';
 $string['imagealt']='Pildi kirjeldus';
 $string['import']='Impordi';
 $string['importdata']='Impordi kursuse andmed';
-$string['importdataexported']='\"Kust\" kursuse andmed eksporditud edukalt.<br />
-
-Jätka importimist \"kuhu\" kursusesse.';
+$string['importdataexported']='\"Kust\" kursuse andmed eksporditud edukalt.<br />Jätka importimist \"kuhu\" kursusesse.';
 $string['importdatafinished']='Importimine lõpetatud! Jätka oma kursust.';
 $string['importdatafrom']='Otsi kursust, kust andmeid importida';
 $string['importgroups']='Impordi rühmi';
@@ -698,34 +643,9 @@ $string['loginalready']='Oled juba sisenenud';
 $string['loginas']='Sisene kui';
 $string['loginguest']='Sisene külalisena';
 $string['loginsite']='Sisene õpikeskkonda';
-$string['loginsteps']='Tere! <p>
-
-Selleks, et pääseda kursus(t)ele, pead looma omale kasutajatunnuse. Kasutajatunnuse loomiseks pead:
-
-   <ol>
-
-   <li>Täitma <a href=\"$a\">avalduse vormi</a>.</li>
-
-   <li>Pärast avalduse täitmist saadetakse Sinu e-posti aadressile kiri.</li>
-
-   <li>Loe saadud e-kiri läbi ja täida kirjas olevad juhised.</li>
-
-   <li>Kui juhised on täidetud, siis Sinu kasutajatunnus kinnitatakse ja Sind suunatakse õpikeskkonda.</li>
-
-   <li>Vali kursus, millel soovid osaleda.</li>
-
-   <li>Vajadusel sisesta õpetajalt saadud kursusele registreerumise võti.</li>
-
-   </ol>
-
-
-
+$string['loginsteps']='Tere! <p>Selleks, et pääseda kursus(t)ele, pead looma omale kasutajatunnuse. Kasutajatunnuse loomiseks pead:<ol><li>Täitma <a href=\"$a\">avalduse vormi</a>.</li><li>Pärast avalduse täitmist saadetakse Sinu e-posti aadressile kiri.</li><li>Loe saadud e-kiri läbi ja täida kirjas olevad juhised.</li><li>Kui juhised on täidetud, siis Sinu kasutajatunnus kinnitatakse ja Sind suunatakse õpikeskkonda.</li><li>Vali kursus, millel soovid osaleda.</li><li>Vajadusel sisesta õpetajalt saadud kursusele registreerumise võti.</li></ol>
 Edaspidi kasuta õpikeskkonda sisenemisel loodud kasutajanime ja salasõna.';
-$string['loginstepsnone']='Tere!<P>Selleks, et pääseda kursus(t)ele, pead looma omale kasutajatunnuse.<P>Sul tuleb mõelda välja kasutajanimi ja salasõna!
-
-
-
-<P>Kui keegi on sellise kasutajanime juba valinud, siis proovi uut kasutajanime varianti.';
+$string['loginstepsnone']='Tere!<br />Selleks, et pääseda kursus(t)ele, pead looma omale kasutajatunnuse.<br />Sul tuleb mõelda välja kasutajanimi ja salasõna!<br />Kui keegi on sellise kasutajanime juba valinud, siis proovi uut kasutajanime varianti.';
 $string['loginto']='Sisene $a';
 $string['loginusing']='Sisene, kasutades oma kasutajanime ja salasõna';
 $string['logout']='Välju';
@@ -836,31 +756,14 @@ $string['newaccount']='Uus kasutajatunnus';
 $string['newcourse']='Uus kursus';
 $string['newpassword']='Uus salasõna';
 $string['newpasswordtext']='Tere $a->firstname,
-
-
-
 Sinu kasutajatunnuse salasõna \'$a->sitename\' õpikeskkonnas on muudetud ning sulle on genereeritud uus ajutine salasõna.
-
-
-
 Sinu sisenemisinfo on:
-
    kasutajanimi: $a->username
-
    salasõna: $a->newpassword
-
-
-
 Palun mine antud aadressile, et muuta salasõna :
-
    $a->link
-
 Enamikus meiliprogrammides peaks see ilmuma lingi kujul, millele võib lihtsalt klikkida. Kui see ei tööta, siis kopeeri aadress oma veebilehitseja aadressiribale.
-
- 
-
 Tervitustega \'$a->sitename\' administraator,
-
 $a->signoff';
 $string['newpicture']='Uus pilt';
 $string['newsitem']='uudis';
@@ -896,9 +799,6 @@ $string['nopotentialcreators']='Võimalikke kursuse disainereid pole';
 $string['nopotentialstudents']='Võimalikke õppijaid pole';
 $string['nopotentialteachers']='Võimalikke õpetajaid pole';
 $string['noreplybouncemessage']='Sa vastasid e-posti aadressile, kuhu ei saa kirju saata. Kui sa üritasid foorumi postitusele vastata, siis palun kasuta $a foorumit.
-
-
-
 Järgnev on sinu e-kirja sisu:';
 $string['noreplybouncesubject']='$a - tagastatud e-kiri';
 $string['noreplyname']='Ära vasta sellele e-kirjale';
@@ -917,13 +817,11 @@ $string['noteuserschangednonetocourse']='Märkus: kasutajate andmeid taastades p
 $string['nothingnew']='Sinu viimasest sisenemisest alates pole midagi uut';
 $string['nothingtodisplay']='Pole midagi näidata';
 $string['noticenewerbackup']='See varukoopia fail on loodud Moodle versiooniga 
-
 $a->backuprelease ($a->backupversion), mis on uuem, kui hetkel installeeritud Moodle versioon $a->serverrelease ($a->serverversion). See võib tekitada mõningaid probleeme, kuna varundusfailide tagasi ühenduvus ei ole garanteeritud.';
 $string['notifications']='Teadaanded';
 $string['notify']='Teata';
 $string['notifyloginfailuresmessage']='$a->time, IP: $a->ip, Kasutaja: $a->info';
 $string['notifyloginfailuresmessageend']='Sa võid neid logisi vaadata siit: 
-
 $a/course/log.php?id=1&chooselog=1&modid=site_errors.';
 $string['notifyloginfailuresmessagestart']='Siin on $a ebaõnnestunud sienemiste nimekiri alates sellest, kui sind viimati teavitati.';
 $string['notifyloginfailuressubject']='$a :: Ebaõnnestunud sisenemiste teavitus';
@@ -1292,41 +1190,16 @@ $string['views']='Vaated';
 $string['viewsolution']='vaata lahendust';
 $string['virusfound']='Tähelepanu administraator! Clam AV leidis viiruse kasutaja $a->user poolt kursusele $a->course laetud failis. Siin on Clam AV väljund:';
 $string['virusfoundlater']='Failist nimega $a->filename , mille sa laadisid üles kuupäeval $a->date kurusele $a->course, leiti viirus. Siin on kokkuvõte sellest, mis sinu failiga tehti:
-
-
-
 $a->action
-
-  
-
 Kui fail sisaldas esitatavat tööd, pead selle uuesti esitama, et sinu juhendaja seda näeks.';
 $string['virusfoundlateradmin']='Tähelepanu administraator! Fail nimega
-
 $a->filename, mille kasutaja $a->user laadis üles kuupäeval $a->date kursusele $a->course, sisaldab viirust. Siin on kokkuvõte sellest, mis failiga tehti:
-
-
-
 $a->action
-
-
-
 Kasutajat on samuti teavitatud.
-
-
-
 Siin on kokkuvõte mis failiga juhtus:
-
-
-
 $a->action';
 $string['virusfoundlateradminnolog']='Tähelepanu administraator! Üles laetud fail nimega $a->filename sisaldab viirust. Moodle ei suutnud tuvastada, milline kasutaja selle faili üles laadis. 
-
-
-
 Siin on kokkuvõte sellest, mis failiga tehti:
-
-
-
 $a->action';
 $string['virusfoundsubject']='$a: Viirus leitud!';
 $string['virusfounduser']='Teie poolt üles laetud faili $a->filename skaneeriti viirusetõrje poolt ja avastati, et see on viirusega nakatunud! Faili üles laadimine EBAÕNNESTUS.';
@@ -1340,13 +1213,7 @@ $string['weeklyoutline']='Nädalavaade';
 $string['weekshow']='Näita seda nädalat $a jaoks';
 $string['welcometocourse']='Tere tulemast kursusele $a';
 $string['welcometocoursetext']='Tere tulemast kursusele $a->coursename!
-
-
-
 Sellele lingile klikkides saad täiendada oma kasutajaandmeid, et teised kursusel osalejad võiksid sind rohkem tundma õppida:
-
-
-
 $a->profileurl';
 $string['whattocallzip']='Mis pakitud faili nimeks saab?';
 $string['withchosenfiles']='Valitud failidega';

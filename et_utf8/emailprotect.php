@@ -1,3 +1,3 @@
 <?php
-$string['filtername'] = 'E-posti kaitse';
+$string['filtername']='E-posti kaitse';
 ?>

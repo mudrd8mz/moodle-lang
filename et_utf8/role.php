@@ -56,7 +56,7 @@ $string['viewrole']='Rollide detailid';
 
 $string['user:delete']='Kustuta kasutajad';
 $string['course:managegroups']='Halda gruppe';
-$string['existingusers']="\$a eksisteerivat kasutajat";
+$string['existingusers']='$a eksisteerivat kasutajat';
 $string['user:loginas']='Logida sisse teise kasutajana';
 $string['user:create']='Luua kasutajaid';
 $string['site:restore']='Kursuste taastamine';
