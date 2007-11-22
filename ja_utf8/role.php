@@ -147,6 +147,7 @@ $string['site:mnetloginfromremote'] = 'リモートMoodleからログインす�
 $string['site:mnetlogintoremote'] = 'リモートMoodleを散策する';
 $string['site:readallmessages'] = 'サイトのすべてのメッセージを読む';
 $string['site:restore'] = 'コースをリストアする';
+$string['site:sendmessage'] = 'すべてのユーザにメッセージを送信する';
 $string['site:trustcontent'] = '送信されたコンテンツを信頼する';
 $string['site:uploadusers'] = 'ファイルからユーザをアップロードする';
 $string['site:viewfullnames'] = 'ユーザのフルネームを常に表示する';

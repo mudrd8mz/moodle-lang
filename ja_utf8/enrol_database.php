@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.9 dev (2007072100)
+      // enrol_database.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['autocreate'] = 'まだMoodleに作成されていないコースへの登録ユーザがある場合、コースを自動的に作成します。';
@@ -17,6 +17,7 @@ $string['dbtype'] = 'データベースタイプ';
 $string['dbuser'] = 'サーバユーザ';
 $string['defaultcourseroleid'] = '他のロールが指定されない場合、デフォルト割り当てられるロールです。';
 $string['description'] = 'ユーザ登録に外部のデータベース (ほとんどの種類) を使用することができます。外部データベースにはコースIDおよびユーザIDを含んでいる必要があります。これらはローカルなコーステーブルおよびユーザテーブルのフィールドと比較されます。';
+$string['disableunenrol'] = 'この設定を「Yes」にした場合、データベースのコンテンツにかかわらず、外部データベースプラグインで以前に登録されたユーザは、同じプラグインで登録解除されることはありません。';
 $string['enrol_database_autocreation_settings'] = '新しいコースの自動作成';
 $string['enrolname'] = '外部データベース';
 $string['general_options'] = '一般オプション';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.9 dev (2007032200)
+      // survey.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['actual'] = '実体験';
@@ -193,6 +193,7 @@ $string['question'] = '質問';
 $string['questions'] = '質問';
 $string['questionsnotanswered'] = '未回答の質問があります。';
 $string['report'] = '調査報告';
+$string['responses'] = '回答';
 $string['savednotes'] = 'メモが保存されました。';
 $string['scaleagree5'] = '全く賛成できない,多少賛成できない,どちらでもない,多少賛成できる,強く賛成できる';
 $string['scales'] = '評価尺度';
