@@ -1,10 +1,9 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta + (2007100902)
+      // admin.php - created with Moodle 1.9 Beta 2 (2007101504)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
 $string['accounts'] = 'Účty';
-$string['addcounter'] = 'Přidat pořadové číslo';
 $string['adminseesall'] = 'Správci vidí vše';
 $string['adminseesallevents'] = 'Správci vidí všechny události';
 $string['adminseesownevents'] = 'Správci jsou jako obyčejní uživatelé';
@@ -268,7 +267,7 @@ $string['docroot'] = 'Umístění dokumentace';
 $string['doctonewwindow'] = 'Otevírat v novém okně';
 $string['download'] = 'Stáhnout';
 $string['editennotallowed'] = 'Jazyk en_utf8 nemůže být upravován přes toto rozhraní. Přepněte do režimu lokálních úprav.';
-$string['edithelpdocs'] = 'Upravit nápovědu a dokumentaci';
+$string['edithelpdocs'] = 'Upravit nápovědu';
 $string['editingnoncorelangfile'] = 'Pokoušíte se měnit překlad přídavného modulu. Překlady dodatečných modulů od třetích stran můžete ukládat pouze do vaší složky _local. Možná bude vhodné přesunout soubor s překladem do adresáře lang, který je součástí daného modulu, a/nebo jej poslat osobě zodpovědné za jeho údržbu.';
 $string['editlang'] = '<b>Úpravy</b>';
 $string['editorbackgroundcolor'] = 'Barva pozadí';
@@ -432,7 +431,6 @@ $string['mymoodle'] = 'Můj Moodle';
 $string['mymoodleredirect'] = 'Vnutit uživatelům použití stránky Můj Moodle';
 $string['mysql416bypassed'] = 'Pokud ovšem ve vaší instalaci Moodlu používáte POUZE jazyky založené na latince (iso-8859-1), můžete nadále používat momentálně nainstalovanou verzi MySQL 4.1.12 (nebo vyšší).';
 $string['mysql416required'] = 'Minimální verzí požadovanou pro Moodle 1.6 -- a pro pozdější bezpečný převod všech dat do UTF-8 -- je MySQL 4.1.16.';
-$string['newusernamehandling'] = 'Ošetření duplicity uživatelských jmen';
 $string['nobookmarksforuser'] = 'Nemáte žádné záložky';
 $string['nodefaultuserrolelists'] = 'Nenačítej všechny uživatele s výchozí rolí';
 $string['nolangupdateneeded'] = 'Všechny jazykové balíčky jsou aktuální, není co aktualizovat.';
@@ -572,7 +570,6 @@ $string['sitemaintenancewarning'] = 'Momentálně probíhá údržba stránek, p
 $string['sitepolicies'] = 'Pravidla provozu stránek';
 $string['sitepolicy'] = 'URL k pravidlům provozu stránek';
 $string['sitesectionhelp'] = 'Je-li vybráno, zobrazuje se na hlavní stránce serveru tématická sekce.';
-$string['skipuser'] = 'Přeskočit uživatele';
 $string['slasharguments'] = 'Předávání argumentů za lomítkem';
 $string['smartpix'] = 'Vylepšené vyhledávání ikon';
 $string['smtphosts'] = 'SMTP hostitelé';
@@ -641,5 +638,8 @@ $string['usersupdated'] = 'Aktualizované uživatelské účty';
 $string['usetags'] = 'Povolit nálepky';
 $string['validateerror'] = 'Tato hodnota není validní:';
 $string['xmlstrictheaders'] = 'XML strict hlavičky';
+$string['addcounter'] = 'Přidat pořadové číslo'; // ORPHANED
+$string['newusernamehandling'] = 'Ošetření duplicity uživatelských jmen'; // ORPHANED
+$string['skipuser'] = 'Přeskočit uživatele'; // ORPHANED
 
 ?>

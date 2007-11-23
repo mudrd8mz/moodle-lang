@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta 2 (2007101501)
+      // moodle.php - created with Moodle 1.9 Beta 2 (2007101504)
 
 
 $string['action'] = 'Akce';
@@ -614,9 +614,10 @@ $string['formatsocial'] = 'Diskusní uspořádání';
 $string['formattext'] = 'Moodle auto-formát';
 $string['formattexttype'] = 'Formátování';
 $string['formattopics'] = 'Tematické uspořádání';
-$string['formattopicsajax'] = 'Tematické uspořádání AJAX';
+$string['formattopicsajax'] = 'Tematické uspořádání - AJAX';
+$string['formattopicscss'] = 'Tematické uspořádání - CSS/bez tabulek';
 $string['formatweeks'] = 'Týdenní uspořádání';
-$string['formatweekscss'] = 'Týdenní uspořádání -- CSS/bez tabulek';
+$string['formatweekscss'] = 'Týdenní uspořádání - CSS/bez tabulek';
 $string['formatwiki'] = 'Formát Wiki';
 $string['framesetinfo'] = 'Dokument v rámcích obsahuje:';
 $string['from'] = 'Od';
@@ -717,6 +718,7 @@ $string['hiddensectionsinvisible'] = 'Skryté sekce se nezobrazují vůbec';
 $string['hide'] = 'Skrýt';
 $string['hideadvancedsettings'] = 'Skrýt pokročilá nastavení';
 $string['hidepicture'] = 'Skrýt obrázek';
+$string['hidesection'] = 'Skrýt sekci $a';
 $string['hidesettings'] = 'Skrýt nastavení';
 $string['hits'] = 'Četnost přístupů';
 $string['hitsoncourse'] = 'Četnost přístupů uživatele $a->username do kurzu $a->coursename';
@@ -911,6 +913,7 @@ $string['movefull'] = 'Přesunout $a do tohoto umístění';
 $string['movehere'] = 'Přesunout sem';
 $string['moveleft'] = 'Přesunout doleva';
 $string['moveright'] = 'Přesunout doprava';
+$string['movesection'] = 'Přesunout sekci $a';
 $string['moveselectedcoursesto'] = 'Přesunout vybrané kurzy do...';
 $string['movetoanotherfolder'] = 'Přesunout do jiné složky';
 $string['moveup'] = 'Přesunout nahoru';
@@ -1034,6 +1037,7 @@ $string['notifyloginfailuressubject'] = '$a :: Upozorneni na neuspesna prihlasen
 $string['notincluded'] = 'Nezahrnuto';
 $string['notingroup'] = 'Je mi líto, ale pro přístup k této činnosti musíte být členem skupiny.';
 $string['notpublic'] = 'Neveřejné!';
+$string['nousersfound'] = 'Nenalezeni žádní uživatelé';
 $string['nousersmatching'] = 'Na dotaz \'$a\' nebyl nalezen žádný uživatel.';
 $string['nousersyet'] = 'Ještě nejsou k dispozici žádní uživatelé.';
 $string['novalidcourses'] = 'Žádné kurzy k zobrazení';

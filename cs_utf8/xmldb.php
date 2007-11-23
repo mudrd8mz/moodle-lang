@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.8 + (2007021503)
+      // xmldb.php - created with Moodle 1.9 Beta 2 (2007101504)
 
 
 $string['aftertable'] = 'Za tabulkou:';
@@ -9,8 +9,19 @@ $string['binaryincorrectlength'] = 'Nesprávná délka binárního pole';
 $string['cannotuseidfield'] = 'Nelze vložit pole \"id\", jeho hodnota se přiřazuje automaticky';
 $string['change'] = 'Změnit';
 $string['charincorrectlength'] = 'Nesprávná délka znakového pole';
+$string['check_bigints'] = 'Vyhledat v DB nesprávný typ celočíselných polí';
+$string['check_indexes'] = 'Vyhledat v DB chybějící rejstříky';
+$string['checkbigints'] = 'Kontrola BIGINT';
+$string['checkindexes'] = 'Kontrola rejstříků';
+$string['completelogbelow'] = '(viz dále výslednou zprávu o hledání)';
+$string['confirmcheckbigints'] = 'Tato funkce vyhledá <a href=\"http://tracker.moodle.org/browse/MDL-11038\">celočíselná pole s nesprávně nastaveným typem</a> ve vaší Moodle databázi a vygeneruje (ale nespustí!) SQL příkazy pro jejich opravu.<br /><br />
+Tato funkce žádným způsobem nemění obsah databáze, pouze z ní čte definice tabulek. Vygenerovaný SQL kód musíte spustit ručně ve vašem oblíbeném SQL klientovi (nezapomeňte předtím vaši databázi zazálohovat).<br /><br />
+Výrazně se doporučuje spustit tuto funkci až po upgrade na poslední stabilní verzi (označované jako \"+\" verze) vámi používané řady (1.8, 1.9, 2.x, ...).';
+$string['confirmcheckindexes'] = 'Tato funkce vyhledá chybějící rejstříky (angl. indices nebo indexes) ve vaší Moodle databázi a vygeneruje (ale nespustí!) SQL příkazy pro jejich vytvoření.<br /><br />
+Tato funkce žádným způsobem nemění obsah databáze, pouze z ní čte data. Vygenerovaný SQL kód musíte spustit ručně ve vašem oblíbeném SQL klientovi (nezapomeňte předtím vaši databázi zazálohovat).<br /><br />
+Výrazně se doporučuje spustit tuto funkci až po upgrade na poslední stabilní verzi (označované jako \"+\" verze) vámi používané řady (1.8, 1.9, 2.x, ...).';
 $string['confirmdeletefield'] = 'Jste si úplně jisti, že chcete odstranit pole:';
-$string['confirmdeleteindex'] = 'Jste si úplně jisti, že chcete odstranit index:';
+$string['confirmdeleteindex'] = 'Jste si úplně jisti, že chcete odstranit rejstřík:';
 $string['confirmdeletekey'] = 'Jste si úplně jisti, že chcete odstranit klíč:';
 $string['confirmdeletesentence'] = 'Jste si úplně jisti, že chcete odstranit větu:';
 $string['confirmdeletestatement'] = 'Jste si úplně jisti, že chcete odstranit příkaz a všechny jeho věty:';
@@ -48,17 +59,22 @@ $string['floatincorrectdecimals'] = 'Nesprávný počet desetinných čísel v p
 $string['floatincorrectlength'] = 'Nesprávná délka pole s plovoucí desetinnou čárkou';
 $string['gotolastused'] = 'Jdi k posledně použitému souboru';
 $string['incorrectfieldname'] = 'Nesprávný název';
-$string['indexes'] = 'Indexy';
+$string['index'] = 'Rejstřík';
+$string['indexes'] = 'Rejstříky';
 $string['integerincorrectlength'] = 'Nesprávná délka celočíselného pole';
+$string['key'] = 'Klíč';
 $string['keys'] = 'Klíče';
 $string['listreservedwords'] = 'Seznam rezerovaných slov<br/>(používá se k aktualizaci stránky <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a>)';
 $string['load'] = 'Nahrát';
 $string['main_view'] = 'Hlavní pohled';
+$string['missing'] = 'Chybí';
 $string['missingfieldsinsentence'] = 'Chybějící pole ve větě';
+$string['missingindexes'] = 'Nalezeny chybějící rejstříky';
 $string['missingvaluesinsentence'] = 'Chybějící hodnoty ve větě';
 $string['mustselectonefield'] = 'Musíte vybrat jedno pole, abyste viděli související akce.';
-$string['mustselectoneindex'] = 'Musíte vybrat jeden index, abyste viděli související akce.';
+$string['mustselectoneindex'] = 'Musíte vybrat jeden rejstřík, abyste viděli související akce.';
 $string['mustselectonekey'] = 'Musíte vybrat klíč, abyste viděli související akce.';
+$string['mysqlextracheckbigints'] = 'Na MySQL serverech se rovněž vyhledají nesprávně definované rozsahy celočíselných typů (signed/unsigned bigints) a vygeneruje se SQL pro opravu jejich definice.';
 $string['new_statement'] = 'Nový příkaz';
 $string['new_table_from_mysql'] = 'Nová tabulka z MySQL';
 $string['newfield'] = 'Nové pole';
@@ -68,6 +84,8 @@ $string['newsentence'] = 'Nová věta';
 $string['newstatement'] = 'Nový příkaz';
 $string['newtable'] = 'Nová tabulka';
 $string['newtablefrommysql'] = 'Nová tabulka z MySQL';
+$string['nomissingindexesfound'] = 'Nebyly nalezeny chybějící rejstříky. Není potřeba dalších oprav databáze.';
+$string['nowrongintsfound'] = 'Nebyly nalezeny problémy v definici celočíselných polí. Není potřeba dalších oprav databáze.';
 $string['numberincorrectdecimals'] = 'Nesprávný počet desetinných čísel v číselném poli';
 $string['numberincorrectlength'] = 'Nesprávná délka číselného pole';
 $string['reserved'] = 'Rezervováno';
@@ -75,6 +93,7 @@ $string['reservedwords'] = 'Rezervováná slova';
 $string['revert'] = 'Vrátit';
 $string['revert_changes'] = 'Vrátit změny';
 $string['save'] = 'Uložit';
+$string['searchresults'] = 'Výsledky hledání';
 $string['selectaction'] = 'Výběr akce:';
 $string['selectdb'] = 'Výběr databáze:';
 $string['selectfieldkeyindex'] = 'Výběr pole/klíče/indexu:';
@@ -101,6 +120,8 @@ $string['viewedited'] = 'Zobrazit upravenou';
 $string['vieworiginal'] = 'Zobrazit originální';
 $string['viewphpcode'] = 'Zobrazit kód PHP';
 $string['viewsqlcode'] = 'Zobrazit kód SQL';
+$string['wrong'] = 'Chyby';
+$string['wrongints'] = 'Nalezeny problémy v definici celočíselných polí';
 $string['wronglengthforenum'] = 'Nesprávná délka výčtového pole';
 $string['wrongnumberoffieldsorvalues'] = 'Nesprávný počet polí nebo hodnot ve větě';
 $string['wrongreservedwords'] = 'Stávající rezervovaná slova<br />(názvy tabulek nehrajou roli, pokud používáte $CFG->prefix)';

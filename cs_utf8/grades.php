@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.8 dev (2007012500)
+      // grades.php - created with Moodle 1.9 Beta 2 (2007101504)
 
 
 $string['addcategory'] = 'Přidat kategorii';
 $string['addcategoryerror'] = 'Nepodařilo se přidat kategorii';
 $string['addexceptionerror'] = 'Vyskytla se chyba při přidávání výjimky pro userid:gradeitem';
+$string['addgradeletter'] = 'Přidat slovní známku';
 $string['allgrades'] = 'Všechny známky podle kategorie';
 $string['allstudents'] = 'Všichni studenti';
 $string['average'] = 'Průměr';
@@ -15,7 +16,7 @@ $string['choosecategory'] = 'Vyberte kategorii';
 $string['creatinggradebooksettings'] = 'Vytvářím nastavení Klasifikace';
 $string['curveto'] = 'Přepočítat na';
 $string['deletecategory'] = 'Odstranit kategorii';
-$string['displaylettergrade'] = 'Zobrazit známky jako písmena';
+$string['displaylettergrade'] = 'Zobrazit slovní známky';
 $string['displaypercent'] = 'Zobrazit známky v procentech';
 $string['displaypoints'] = 'Zobrazit body';
 $string['displayweighted'] = 'Zobrazit vážené známky';
@@ -33,6 +34,7 @@ $string['extracreditwarning'] = 'Poznámka: Pokud nastavíte všechny položky v
 $string['forstudents'] = 'Pro studenty';
 $string['gradebook'] = 'Klasifikace';
 $string['gradebookhiddenerror'] = 'Veškerá klasifikace je momentálně studentům skrytá';
+$string['gradeboundary'] = 'Meze slovní známky';
 $string['gradecategoryhelp'] = 'Nápověda ke kategorizaci známek';
 $string['gradeexceptions'] = 'Výjimky z klasifikace';
 $string['gradeexceptionshelp'] = 'Nápověda k výjimkám z klasifikace';
@@ -46,6 +48,7 @@ $string['gradeitems'] = 'Položky klasifikace';
 $string['gradeletter'] = 'Slovní známka';
 $string['gradeletterhelp'] = 'Nápověda ke slovním známkám';
 $string['gradeletternote'] = 'Chcete-li odstranit slovní známku, odstraňte obsah kteréhokoli ze<br />tří textových polí pro tuto známku a stiskněte \'Uložit změny\'.';
+$string['gradeletters'] = 'Slovní známky';
 $string['gradepreferenceshelp'] = 'Nápověda k předvolbám klasifikace';
 $string['grades'] = 'Známky';
 $string['gradeweighthelp'] = 'Nápověda k vahám známek';
