@@ -191,6 +191,7 @@ $string['question'] = 'Question';
 $string['questions'] = 'Questions';
 $string['questionsnotanswered'] = 'Certaines questions à choix multiples n\'ont pas reçu de réponse.';
 $string['report'] = 'Rapport des consultations';
+$string['responses'] = 'Réponses';
 $string['savednotes'] = 'Vos notes ont été enregistrées';
 $string['scaleagree5'] = 'Pas du tout d\'accord,Pas tout à fait d\'accord,Neutre,Assez d\'accord,Tout à fait d\'accord';
 $string['scales'] = 'Barèmes';
