@@ -15,6 +15,7 @@ $string['dbname'] = 'Nom de la base de données';
 $string['dbtable'] = 'Table de la base de données';
 $string['defaultcourseroleid'] = 'Rôle devant être attribué par défaut, si aucun autre rôle n\'est spécifié.';
 $string['description'] = 'Vous pouvez utiliser une base de données externe (de presque n\'importe quel type) pour contrôler les inscriptions. La base de données externe doit posséder un champ contenant l\'identifiant du cours et un champ contenant l\'identifiant de l\'utilisateur. Ces deux champs sont comparés aux champs que vous choisissez dans les tables locales des cours et des utilisateurs.';
+$string['disableunenrol'] = 'En activant ce réglage, vous empêcherez les utilisateurs inscrits à l\'aide de la méthode base de données externe d\'être désinscrits par cette même méthode, indépendamment du contenu de la base de données.';
 $string['enrolname'] = 'Base de données externe';
 $string['enrol_database_autocreation_settings'] = 'Création automatique des nouveaux cours';
 $string['general_options'] = 'Options générales';
