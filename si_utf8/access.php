@@ -1,0 +1,27 @@
+<?PHP // $Id$ 
+      // access.php - created with Moodle 1.8.3 + (2007021532)
+
+
+$string['access'] = 'පිවිසුම් හැකියාව';
+$string['accesshelp'] = 'පිවිසුම් හැකියාව - උදව්';
+$string['accesskey'] = 'පිවිසුම් යතුර, $a';
+$string['accessstatement'] = 'පිවිසුම් හැකියාවේ ප්‍රකාශනය';
+$string['activitynext'] = 'මීලග ක්‍රියාකාරකම';
+$string['activityprev'] = 'පෙර ක්‍රියාකාරකම';
+$string['breadcrumb'] = 'Breadcrumb පියමග';
+$string['currenttopic'] = 'මෙම මාතෘකාව';
+$string['currentweek'] = 'මෙම සතිය';
+$string['monthnext'] = 'ඉදිරි මාසය';
+$string['monthprev'] = 'පසුගිය මාසය';
+$string['showhideblock'] = 'කොටස පෙන්වීම හෝ සැගවීම';
+$string['sitemap'] = 'අඩවි සිතියම';
+$string['skipa'] = '$a අත්හරින්න';
+$string['skipblock'] = 'කොටස අත්හරින්න';
+$string['skipnavigation'] = 'තරණය මගහරින්න';
+$string['tabledata'] = '$a දත්ත වගුව';
+$string['tablelayout'] = '$a සැලසුම් වගුව';
+$string['tocontent'] = 'ප්‍රධාන අන්තර්ගතයට යන්න';
+$string['tonavigation'] = 'තරණයට යන්න';
+$string['youarehere'] = 'ඔබ මෙතැනයි';
+
+?>

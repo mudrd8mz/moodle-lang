@@ -1,0 +1,27 @@
+<?PHP // $Id$ 
+      // group.php - created with Moodle 1.8.2+ (2007021520)
+
+
+$string['createSequence'] = 'නව අනුක්‍රමයක් සාදන්න';
+$string['editSequence'] = 'තෝරාගත් අනුක්‍රමය සංස්කරණය කරන්න';
+$string['error'] = 'කනගාටුයි නොදන්නා දෝෂයක් ඇතිවිය';
+$string['introduction'] = 'හැදින්වීම';
+$string['lams'] = '-- LAMS - ඉගෙනුම් ක්‍රියාක‍ාරකම් කළමනාකරන පද්දතිය --';
+$string['lamsoutline'] = 'LAMS සංක්ෂිප්තය';
+$string['lesson'] = 'ඉගෙනුම් සැසිය';
+$string['modulename'] = 'LAMS';
+$string['modulenameplural'] = 'LAMS';
+$string['notsetup'] = 'NOT_SET_UP';
+$string['openauthor'] = 'LAMS කර්තෘ විවෘත කරන්න';
+$string['openlearner'] = 'LAMS ඉගෙනුම ලබන්නා විවෘත කරන්න';
+$string['openmonitor'] = 'LAMS මොනිටරය විවෘත කරන්න';
+$string['refreshSequenceList'] = 'අනුක්‍රම ලයිස්තුව නැවතඅලුත් කරන්න';
+$string['selectExistingSequence'] = 'පවතින අනුක්‍රමයන් තෝරන්න‍ හෝ නව අනුක්‍රමයන් සාදන්න';
+$string['sequence'] = 'අනුක්‍රමය තෝරන්න';
+$string['useSequence'] = 'තෝරාගත් අනුක්‍රමය භාවිතා කරන්න';
+$string['visibletostudents'] = 'ක්‍රියාකාරකම ශිෂ්‍යයන්ට පෙන්වන්න';
+$string['wikistartederror'] = 'විකියෙහි දැනටමත් ඇතුලත් කිරීම ඇත -  වෙනස්කල නොහැක.';
+$string['workspace'] = 'වැඩ අවකාශය තෝරන්න';
+$string['wrongversionrange'] = 'නිවැරදි පරාසයේ $a නැත!';
+
+?>

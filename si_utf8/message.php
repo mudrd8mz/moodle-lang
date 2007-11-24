@@ -1,13 +1,69 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.6.2 (2006050521)
+      // message.php - created with Moodle 1.8.2+ (2007021520)
 
 
-$string['message'] = 'පණිවුඩය';
-$string['messagehistory'] = 'පණිවුඩ ඉතිහාසය';
-$string['messages'] = 'පණිවුඩ';
-$string['nomessages'] = 'පණිවුඩ කිසිවක් නැත';
-$string['offline'] = 'මාර්ග අපගත';
-$string['online'] = 'මාර්ග ගත';
-$string['settings'] = 'සැකැස්ම';
+$string['addcontact'] = 'සම්බන්ධතා එක් කිරීම';
+$string['addsomecontacts'] = 'මෙම පිටුවෙහි යම් කෙනෙකුට පණිවිඩයක් යැවීමට හෝඔවුන් සඳහා කෙටි මඟක් එක් කිරීමට ඉහත <a href=\"$a\"> සෙවුම් පටිතිය</a > භාවිතා කරන්න.';
+$string['addsomecontactsincoming'] = 'ඔබගේ සම්බන්ධතා ලැයිස්තුවේ නැති පුද්ගලයින්ගෙන් මෙම පණිවුඩ ලැබී ඇත.ඔවුන් ඔබගේ සම්බන්ධතා ලැයිස්තුවට එක් කිරීමට,නම් අසල ඇති සම්භන්ධතා එක් කිරීම යන අයිකනය ක්ලික් කරන්න.';
+$string['ago'] = '$a ට පෙර';
+$string['allmine'] = 'සියලුම පණිවිඩ මාවෙත හෝ මාවෙතින්';
+$string['allstudents'] = 'සියළුම පණිවිඩ පාඨමාලාවෙහි ශිෂ්‍යයන් අතර';
+$string['allusers'] = 'සියලුම පණිවිඩ සියලුම භාවිතා කරන්නන්ගෙනි.';
+$string['backupmessageshelp'] = 'සක්‍රිය කරන ලදහොත් ක්ෂණික පණිවිඩ ස්වයංක්‍රීය පසුගබඩා අඩවියට ඇතුලත් කරනු ලැබේ';
+$string['blockcontact'] = 'සම්බන්ධතා අවහිර කිරීම';
+$string['blockedmessages'] = '$a පණිවිඩ(ය) වෙත/අවහිර කරන ලද භාවිතා කරන්නන් වෙතින්';
+$string['blocknoncontacts'] = 'මගේ සම්භන්ධතා ලැයිස්තුවේ නැති පුද්ගලයින් ගෙන එන සියලුම පණිවිඩ අවහිර කරන්න.';
+$string['contactlistempty'] = 'මේ අවස්ථාවේදී ඔබගේ සම්බන්ධතා ලැයිස්තුවෙහි කිසිවක් නොමැත';
+$string['contacts'] = 'සම්බන්ධතා';
+$string['context'] = 'ප්‍රකරණ';
+$string['deletemessagesdays'] = 'දින ගනණක් පැරණි පණිවුඩ ස්වයංක්‍රියව ඉවත්වේ';
+$string['discussion'] = 'සාකච්ඡාව';
+$string['emailmessages'] = 'මම නොබැඳි අවස්ථාවේදී ඊ තැපැල් පණිවුඩ';
+$string['emailtagline'] = 'මෙය ඔබ වෙත $a දී එවන ලද විද්‍යුත් තැපෑලෙහි පිටපතකි.';
+$string['emptysearchstring'] = 'ඔබ යමක් ලබා ගැනීමට‍ සෙවිය යුතුයි.';
+$string['formorethan'] = 'පමනට වඩා';
+$string['includeblockedusers'] = 'අවහිර කරන ලද භාවිතා කරන්නන් ඇතුලත් කරන්න.';
+$string['incomingcontacts'] = 'ඇතුලට එන පණිවිඩ ($a)';
+$string['keywords'] = 'මූලික පද';
+$string['keywordssearchresults'] = 'සෙවීම් ප්‍රතිඵල :$a සොයා ගන්නා ලද පණිවිඩ';
+$string['maxmessages'] = 'කතිකා ඉතිහාසයේ දැක්විය යුතු උපරිම පණිවිඩ ගනන';
+$string['message'] = 'පණිවිඩය';
+$string['messagehistory'] = 'පණිවිඩ ඉතිහාසය';
+$string['messages'] = 'පණිවිඩ';
+$string['messaging'] = 'පණිවිඩ යැවීම';
+$string['mycontacts'] = 'මගේ සම්බන්ධතා';
+$string['newonlymsg'] = 'අලුත් දේ පමණක් පෙන්වන්න';
+$string['newsearch'] = 'නව සෙවුම';
+$string['noframesjs'] = 'ඉම් රේඛා සහ \"JavaScript\" නොමැති අනුවාදය';
+$string['nomessages'] = 'පණිවිඩ පොරොත්තු නොමැත';
+$string['nomessagesfound'] = 'පණිවිඩ කිසිවක් සොයාගැනීමට නොමැත';
+$string['nosearchresults'] = 'ඔබගේ සෙවුමෙහි ප්‍රතිඵල  කිසිවක් නොමැත';
+$string['offline'] = 'නොබැඳි';
+$string['offlinecontacts'] = 'නොබැඳි සම්බන්ධතා($a)';
+$string['online'] = 'සබැඳි';
+$string['onlinecontacts'] = 'සබැඳි සම්බන්ධතා ($a)';
+$string['onlyfromme'] = 'මා වෙතින් ලැබෙන පණිවිඩ පමණි';
+$string['onlymycourses'] = 'මා වෙතින් එන පණිවිඩ පමණි';
+$string['onlytome'] = 'මා වෙත ලැබෙන පණීවිඩ පමණි';
+$string['pagerefreshes'] = 'මෙම පිටුව සෑම තප්පර $a කට වරක් ස්වයංක්‍රීයව නැවුම් කරණය වේ';
+$string['readmessages'] = '$a කියවන ලද පණිවිඩ';
+$string['removecontact'] = 'සම්බන්ධතාවය ඉවත් කිරීම';
+$string['savemysettings'] = 'මගේ සිටවුම් සුරකින්න';
+$string['search'] = 'සෙවුම';
+$string['searchforperson'] = 'පුද්ගලයෙක් සෙවීම';
+$string['searchmessages'] = 'පණිවිඩ සෙවීම';
+$string['sendmessage'] = 'පණිවිඩ යවන්න';
+$string['sendmessageto'] = '$a වෙත පණිවිඩය යවන්න';
+$string['settings'] = 'සිටවුම්';
+$string['settingssaved'] = 'ඔබ‍ගේ සිටවුම් සුරකින ලදි';
+$string['showmessagewindow'] = 'මා වෙත නව පණිවිඩ ලැබෙන විට ඒවා පණිවිඩ කවුලුවක දර්ශනය කරවන්න.(ඔබගේ බ්‍රවුසරය තුලනය කිරීම අවශ්‍ය වේ.එවිට එය මෙම අඩවියේ popups අවහිර කිරීම සිදු නොකරයි.';
+$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
+$string['timenosee'] = 'මම අවසන් වරට සබැඳි වූ පසු ගතවූ මිනින්තු ගණන';
+$string['timesent'] = 'යවන ලද වේලාව';
+$string['unblockcontact'] = 'සම්බන්ධතා බාධාව ඉවත් කිරීම';
+$string['unreadmessages'] = 'නොකියවන ලද පණිවිඩ $a';
+$string['userisblockingyou'] = 'මෙම භාවිතා කරන්නා විසින් ඔබ ඔවුන් වෙත යවන පණිවිඩ අවහිර කර ඇත.';
+$string['userisblockingyounoncontact'] = 'මෙම භාවිතා කරන්නා විසින් පිලිගැනෙන්නේ සම්බන්ධතා ලෙස ලැයිස්තු ගත කර ඇති පුද්ගලයන්ගෙන් පමණි.තවද ඔබ මේ අවස්ථාවේදී ලැයිස්තුවේ නොමැත.';
+$string['userssearchresults'] = 'සෙවුම් ප්‍රතිඵල : භාවිතා කරන්නන් $a සොයාගන්නා ලදි';
 
 ?>

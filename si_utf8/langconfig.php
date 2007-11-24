@@ -1,10 +1,9 @@
-
 <?php
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['firstdayofweek'] = '0';
-$string['locale'] = 'si.UTF-8';
-$string['localewin'] = 'Sinhala_SriLanka.1252';
+$string['locale'] = 'si_LK.UTF-8';
+$string['localewin'] = 'English_Australia.1252';
 $string['localewincharset'] = '';
 $string['oldcharset'] = 'ISO-8859-1';
 $string['strftimedate'] = '%%d %%B %%Y';
@@ -20,5 +19,5 @@ $string['strftimerecentfull'] = '%%a, %%d %%b %%Y, %%I:%%M %%p';
 $string['strftimetime'] = '%%I:%%M %%p';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
-$string['thislanguage'] = 'Sinhala(සිංහල)';
+$string['thislanguage'] = 'සිංහල ';
 ?>
