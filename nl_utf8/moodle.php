@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101503)
+      // moodle.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['action'] = 'Actie';
@@ -178,6 +178,7 @@ $string['blockseditoff'] = 'Blokken bewerken inschakelen';
 $string['blocksediton'] = 'Blokken bewerken uitschakelen';
 $string['blocksetup'] = 'Installeren van de tabellen voor blokken';
 $string['blocksuccess'] = '$a tabellen zijn juist geïnstalleerd';
+$string['brief'] = 'Kort';
 $string['bycourseorder'] = 'In volgorde van de cursus';
 $string['byname'] = 'volgens $a';
 $string['bypassed'] = 'Omzeild';

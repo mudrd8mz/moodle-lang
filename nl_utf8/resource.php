@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 dev (2007062401)
+      // resource.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['addresource'] = 'Bron toevoegen';
@@ -117,6 +117,7 @@ $string['serverurl'] = 'Server URL ($a->wwwroot)';
 $string['showcourseblocks'] = 'Toon de cursusblokken';
 $string['skipsubmenus'] = 'Sla submenupagina\'s over';
 $string['tableofcontents'] = 'Inhoudstafel';
+$string['tableofcontentsabbrev'] = 'Inhoudstafel';
 $string['upbutton'] = 'Omhoog';
 $string['variablename'] = 'Variable naam';
 $string['viewims'] = 'Toon IMS-pakket';

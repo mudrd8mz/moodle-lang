@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101503)
+      // admin.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -381,6 +381,9 @@ $string['langedit'] = 'Taal bewerken';
 $string['langimport'] = 'Taalpakkettenbeheer';
 $string['langimportsuccess'] = 'Taalpakket geüpgraded';
 $string['langlist'] = 'Talen in taalmenu';
+$string['langlocalpackage'] = 'Lokale aanpassingen';
+$string['langmasterenglish'] = 'Hoofd taalpakket Engels';
+$string['langmasterpackage'] = 'Hoofd taalpakket';
 $string['langmenu'] = 'Toon taalmenu';
 $string['langnoeditenglish'] = 'Het standaard Engels taalpakket kan niet overschreven worden. Wijzig de taalmap om locale wijzigingen te maken';
 $string['langpackmaintaining'] = 'Onderhoud taalpakket';
@@ -388,6 +391,7 @@ $string['langpackremoved'] = 'Taalpakket verwijderd';
 $string['langpacks'] = 'Taalpakketten';
 $string['langpackupdated'] = 'Taalpakket $a geupdate';
 $string['langpackwillbeupdated'] = 'Opmerking voor vertalers: tijdens de upgrade zal Moodle je taalpakket proberen te updaten. Je wijzigingen in alle andere dan de local mappen zullen overschreven worden.';
+$string['langrmyourself'] = 'Om gegevensverlies te voorkomen kan lang.php het bestaande bestand niet overschrijven. Verwijder het bestand manueel.';
 $string['languagesettings'] = 'Taalinstellingen';
 $string['langupdatecomplete'] = 'Taalpakket update afgewerkt';
 $string['latexpreamble'] = 'LaTeX inleiding';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (2007101503)
+      // auth.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['CASform'] = 'Authenticatiekeuze';
@@ -208,6 +208,11 @@ $string['auth_nologindescription'] = 'Hulpplugin die gebruikers verhindert aan t
 $string['auth_nologintitle'] = 'Geen login';
 $string['auth_nonedescription'] = 'De gebruikers kunnen meteen inloggen en een geldige account aanmaken, zonder authenticatie door middel van een externe server en zonder bevestiging via e-mail. Wees voorzichtig met het gebruiken van deze mogelijkheid - denk aan de beveiligings- en beheerproblemen die hieruit zouden kunnen ontstaan.';
 $string['auth_nonetitle'] = 'Geen authenticatie';
+$string['auth_ntlmsso'] = 'NTLM SSO';
+$string['auth_ntlmsso_enabled'] = 'Zet dit op Ja om Single-sign-on met het NTLM-domein te bekomen.<strong>Opmerking</strong>dit vereist bijkomende instellingen op de webserver. Zie <a href=\"http://docs.moodle.org/nl/NTLM_authenticatie\">http://docs.moodle.org/nl/NTLM_authenticatie</a';
+$string['auth_ntlmsso_enabled_key'] = 'Inschakelen';
+$string['auth_ntlmsso_subnet'] = 'Indien ingeschakeld, zal alleen SSO geprobeerd worden met clients in dit subnet. Opmaak: xxx.xxx.xxx.xxx/bitmask';
+$string['auth_ntlmsso_subnet_key'] = 'Subnet';
 $string['auth_pamdescription'] = 'Deze methode gebruikt PAM om toegang te geven tot de gebruikersnamen op deze server. Je moet <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Authentication</a> installeren om deze module te kunnen gebruiken.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
 $string['auth_passwordisexpired'] = 'Je wachtwoord is verlopen. Wil je het nu wijzigen?';
@@ -287,6 +292,9 @@ $string['locked'] = 'Geblokkeerd';
 $string['md5'] = 'MD5-encryptie';
 $string['nopasswordchange'] = 'Wachtwoord kan niet gewijzigd worden';
 $string['nopasswordchangeforced'] = 'Je kunt niet verdergaan zonder je wachtwoord te wijzigen, hoewel er geen pagina voorzien is om dat te doen. Neem contact op met je Moodlebeheerder';
+$string['ntlmsso_attempting'] = 'Single sign on via NTLM wordt geprobeerd...';
+$string['ntlmsso_failed'] = 'Auto-login mislukt, probeer de gewone loginpagina...';
+$string['ntlmsso_isdisabled'] = 'NTLM SSO is uitgeschakeld';
 $string['passwordhandling'] = 'Behandeling van het wachtwoordveld';
 $string['plaintext'] = 'Platte tekst';
 $string['pluginnotenabled'] = 'Authenticatieplugin \'$a\' is niet ingeschakeld.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (2007101501)
+      // role.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
@@ -86,6 +86,7 @@ $string['legacy:teacher'] = 'PRE 1.7 ROL: Leraar (niet bewerken)';
 $string['legacy:user'] = 'PRE 1.7 ROL: Ingelogde gebruiker';
 $string['legacytype'] = 'Standaard roltype';
 $string['listallroles'] = 'Toon alle rollen';
+$string['localroles'] = 'Lokaal toegewezen rollen';
 $string['manageroles'] = 'Beheer rollen';
 $string['metaassignerror'] = 'Kan deze rol niet toewijzen aan gebruiker \"$a\" omdat de mogelijkheid om koepelcursussen te beheren nodig is.';
 $string['metaunassignerror'] = 'De rol van gebruiker \"$a\" was automatisch gewijzigd.  Pas de rol aan in de erfcursus';
@@ -95,6 +96,8 @@ $string['nocapabilitiesincontext'] = 'Geen mogelijkheden beschikbaar  in deze co
 $string['notes:manage'] = 'Notities beheren';
 $string['notes:view'] = 'Notities bekijken';
 $string['notset'] = 'Niet ingesteld';
+$string['overridepermissions'] = 'Rechten overschrijven';
+$string['overridepermissionsin'] = 'Rechten overschrijven in $a';
 $string['overrideroles'] = 'Rollen overschrijven';
 $string['overriderolesin'] = 'Rollen overschrijven in $a';
 $string['overrides'] = 'Rollen overschrijven';
@@ -144,6 +147,7 @@ $string['site:mnetloginfromremote'] = 'Aanmelden vanaf een Moodle op afstand';
 $string['site:mnetlogintoremote'] = 'Ga naar een Moodle op afstand';
 $string['site:readallmessages'] = 'Alle berichten op de site lezen';
 $string['site:restore'] = 'Cursussen terugzetten';
+$string['site:sendmessage'] = 'Stuur berichten naar gelijk welke gebruiker';
 $string['site:trustcontent'] = 'Inhoud als veilig beschouwen';
 $string['site:uploadusers'] = 'Nieuwe gebruikers uploaden van een bestand';
 $string['site:viewfullnames'] = 'Altijd volledige namen van gebruikers zien';

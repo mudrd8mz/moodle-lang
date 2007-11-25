@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.9 dev (2007080202)
+      // enrol_database.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['autocreate'] = 'Cursussen kunnen automatisch aangemaakt worden als er aanmeldingen zijn voor een cursus die in Moodle nog niet bestaat';
@@ -17,6 +17,7 @@ $string['dbtype'] = 'Databanktype';
 $string['dbuser'] = 'Server gebruikersnaam';
 $string['defaultcourseroleid'] = 'De rol die standaard toegewezen wordt als er geen andere rol is opgegeven.';
 $string['description'] = 'Je kunt een externe datatabank (nagenoeg elk type) gebruiken om je cursusaanmeldingen te controleren. Er wordt verondersteld dat je externe databank een veld met course ID bevat en een veld met user ID. Deze worden vergeleken met velden die je kiest in de lokale cursus- en gebruikerstabellen';
+$string['disableunenrol'] = 'Als dit op ja gezet wordt, zullen gebruikers die voordien aangemeld waren door de externe databank plugin, niet afgemeld worden door dezelfde plugin, ongeacht de databankinhoud.';
 $string['enrol_database_autocreation_settings'] = 'Automatisch aanmaken van nieuwe cursussen';
 $string['enrolname'] = 'Externe databank';
 $string['general_options'] = 'Algemene instellingen';

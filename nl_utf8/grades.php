@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (2007101503)
+      // grades.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['activities'] = 'Activiteiten';
@@ -26,6 +26,7 @@ $string['aggregatesubcats'] = 'Subcategorieën mee opnemen in aggregatie';
 $string['aggregatesubcatshelp'] = 'De aggregatie wordt gewoonlijk gedaan voor onmiddellijk onderliggende cijfers. Het is ook mogelijk om cijfers in alle subcategorieën mee te verwerken, zonder andere geaggregeerde cijfers mee te nemen.';
 $string['aggregatesum'] = 'Som van cijfers';
 $string['aggregateweightedmean'] = 'Gewogen gemiddelde';
+$string['aggregateweightedmean2'] = 'Eenvoudig gewogen cijfergemiddelde';
 $string['aggregation'] = 'Aggregatie';
 $string['aggregationcoef'] = 'Aggregatiecoëfficiënt';
 $string['aggregationcoefextra'] = 'Bonus';
@@ -77,6 +78,7 @@ $string['configgradeboundary'] = 'Een percentagemarge waarvoor cijfers een lette
 $string['configgradedisplaytype'] = 'Beoordelingen kunnen getoond worden als echte cijfers, als percentage (van het minimum- en maximumcijfer) of als letters (A, B, C, ...)';
 $string['configgradeexportdisplaytype'] = 'Beoordelingen kunnen tijdens de export getoond worden als cijfers, als percentages (zich verhoudend tot het minimum en het maximumcijfer) of als letters (A,B,C, enz). Dit kan genegeerd worden tijdens de export.';
 $string['configgradehistorylifetime'] = 'Met deze instelling bepaal je hoelang je de geschiedenis van de wijzigingen aan de cijfertabellen wil bijhouden. Het is aangewezen dit zo lang mogelijk te doen. Als je performantieproblemen ondervindt of je hebt maar beperkte databaseruimte, dan kun je hier een lagere waarde instellen.';
+$string['configgradeitemadvanced'] = 'Kies alle elementen die als geavanceerd getoond moeten worden wanneer cijfers bewerkt worden.';
 $string['configgradeletter'] = 'Een letter of een ander symbool dat gebruikt wordt om een cijfermarge voor te stellen.';
 $string['configgradeletterdefault'] = 'Een letter of ander symbool dat gebruikt wordt om een marge van cijfers voor te stellen. Laat dit veld leeg om de sitestandaard (op dit ogenblik $a) te gebruiken.';
 $string['configgradepublishing'] = 'Publiceren in import en export inschakelen: Geëxporteerde cijfers kunnen opgevraagd worden via een URL zonder te moeten inloggen. Cijfers kunnen door zo een URL te bezoeken ook geïmporteerd worden (wat betekent dat een Moodle site cijfers kan importeren die gepubliceerd worden door een andere site).';
@@ -167,6 +169,7 @@ $string['forelementtypes'] = 'Voor de gekozen $a';
 $string['forstudents'] = 'Voor leerlingen';
 $string['full'] = 'Volledig';
 $string['fullmode'] = 'Volledig overzicht';
+$string['generalsettings'] = 'Algemene instellingen';
 $string['grade'] = 'Beoordeling';
 $string['gradebook'] = 'Cijferlijst';
 $string['gradebookhiddenerror'] = 'Het cijferlijst is nu ingesteld om alles voor de leerlingen te verbergen.';
@@ -187,12 +190,14 @@ $string['gradehelp'] = 'Hulp bij cijfers';
 $string['gradehistorylifetime'] = 'Levensduur van de cijfergeschiedenis';
 $string['gradeitem'] = 'Cijferitem';
 $string['gradeitemaddusers'] = 'Niet meerekenen';
+$string['gradeitemadvanced'] = 'Geavanceerde opties';
 $string['gradeitemislocked'] = 'Deze activiteit is in het cijferboek geblokkeerd. Als je de cijfers wijzigd, dan zullen de cijfers, intern door deze activiteit bijgehouden, verschillen van de cijfers in het cijferboek. Dat zal ongewijzigd blijven. Ben je zeker dat je wil verdergaan met het wijzigen van de cijfers?';
 $string['gradeitemlocked'] = 'Beoordeling geblokkeerd';
 $string['gradeitemmembersselected'] = 'Niet meegerekend';
 $string['gradeitemnonmembers'] = 'Meegerekend';
 $string['gradeitemremovemembers'] = 'Meerekenen';
 $string['gradeitems'] = 'Cijferitems';
+$string['gradeitemsettings'] = 'Instellingen beoordelingsitems';
 $string['gradeitemsinc'] = 'Te gebruiken beoordelingsitems';
 $string['gradeletter'] = 'Letterbeoordeling';
 $string['gradeletterhelp'] = 'Help bij letterbeoordeling';
@@ -339,6 +344,7 @@ $string['overriddenhelp'] = 'Wanneer ingeschakeld, zal de gewijzigd-vlag alle to
 $string['overriddennotice'] = 'Je totaalcijfer voor deze activiteit is manueel aangepast.';
 $string['overridesitedefaultgradedisplaytype'] = 'Standaardinstellingen voor de site negeren';
 $string['overridesitedefaultgradedisplaytypehelp'] = 'Dit inschakelen zal er voor zorgen dat de standaardinstellingen van de site voor het tonen van beoordelingen in het cijferboek genegeerd zullen worden. Hierdoor verschijnen er formulierelementen waarmee je de letterbeoordelingen en hun marges naar jouw keuze kunt instellen.';
+$string['parentcategory'] = 'Bovenliggende categorie';
 $string['pctoftotalgrade'] = '%% van totaalcijfer';
 $string['percent'] = 'Procent';
 $string['percentage'] = 'Percentage';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 Beta + (2007082200)
+      // data.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['action'] = 'Actie';
@@ -211,6 +211,7 @@ $string['saveaspreset'] = 'Bewaar als sjabloonset';
 $string['savesettings'] = 'Bewaar instellingen';
 $string['savesuccess'] = 'Bewaren gelukt. Je sjabloonset zal nu voor de hele site beschikbaar zijn.';
 $string['savetemplate'] = 'Bewaar sjabloon';
+$string['search'] = 'Zoek';
 $string['sendinratings'] = 'Stuur mijn laatste beoordelingen in';
 $string['showall'] = 'Toon alles';
 $string['single'] = 'Itemweergave';

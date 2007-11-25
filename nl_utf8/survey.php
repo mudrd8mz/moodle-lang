@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.9 dev (2007032200)
+      // survey.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['actual'] = 'Werkelijk';
@@ -191,6 +191,7 @@ $string['question'] = 'Vraag';
 $string['questions'] = 'Vragen';
 $string['questionsnotanswered'] = 'Sommige van de meerkeuzevragen zijn niet ingevuld.';
 $string['report'] = 'Onderzoeksrapport';
+$string['responses'] = 'Antwoorden';
 $string['savednotes'] = 'Je aantekeningen zijn bewaard';
 $string['scaleagree5'] = 'Volledig mee oneens,Enigszins mee oneens,Mee eens noch mee oneens,Enigszins mee eens,Volledig mee eens';
 $string['scales'] = 'Schalen';
