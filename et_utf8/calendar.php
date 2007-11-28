@@ -119,6 +119,6 @@ $string['recentupcoming']='Tänasest 60 möödunud ja järgnevat päeva';
 $string['ical']='iCal';
 $string['urlforical']='URL iCalendar\' eksportimiseks, (kalendrisse üles märkimiseks)';
 $string['quickdownloadcalendar']='Otse alla tõmbamine / üles märkimine kalendrisse';
-$string['explain_site_timeformat']='Sa saad kogu saidi puhul valida, kas aega näidatakse 12 või 24 tunni formaadis. Kui sa valid \"default\", siis valitakse formaat automaatselt vastavalt keelele, mida saidi puhul kasutad. Need sätted saab üle katta kasutaja eelistustes.';
+$string['explain_site_timeformat']='Sa saad kogu õpikeskkonna puhul valida, kas aega näidatakse 12 või 24 tunni formaadis. Kui sa valid \"default\", siis valitakse formaat automaatselt vastavalt keelele, mida saidi puhul kasutad. Need sätted saab üle katta kasutaja eelistustes.';
 
 ?>

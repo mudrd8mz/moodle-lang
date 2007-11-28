@@ -230,4 +230,6 @@ $string['auth_emailnoemail']='Prooviti saate Sinu e-maili, kuid ebaõnnestunult!
 $string['auth_dbsybasequoting']='Kasuta sybase jutumärke';
 $string['auth_fcconnfail']='Ühendus ebaõnnestus veakoodiga: $a[0] ja veateatega: $a[1]';
 $string['auth_imapnotinstalled']='Ei saa kasutada IMAP autentimist. PHP IMAP moodul ei ole installeeritud.';
+$string['auth_mnettitle']='Kasuta Moodle Network autentimist';
+$string['auth_radiusdescription']='See meetod kasutab <a href=\"http://en.wikipedia.org/wiki/RADIUS\" target=\"_blank\">RADIUS</a> serverit kontrollimaks antud kasutajanimi ja parool on lubatud.';
 ?>

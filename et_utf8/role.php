@@ -53,7 +53,6 @@ $string['site:import']='Importida teisi kursusi kursusele';
 $string['site:manageblocks']='Hallata kursuse tasemel blokke';
 $string['user:editprofile']='Muuda kasutaja andmeid';
 $string['viewrole']='Rollide detailid';
-
 $string['user:delete']='Kustuta kasutajad';
 $string['course:managegroups']='Halda gruppe';
 $string['existingusers']='$a eksisteerivat kasutajat';
@@ -63,7 +62,7 @@ $string['site:restore']='Kursuste taastamine';
 $string['site:accessallgroups']='Pääseda ligi kõikidele gruppidele';
 $string['site:viewfullnames']='Alati näha kasutajate täisnimesid';
 $string['user:viewdetails']='Vaadata kasutajate profiile';
-$string['site:readallmessages']='Lugeda saidil kõiki teateid';
+$string['site:readallmessages']='Lugeda õpikeskkonnas kõiki teateid';
 $string['site:viewreports']='Vaadata raporte';
 $string['user:viewhiddendetails']='Vaadata kasutaja peidetud andmeid';
 $string['user:update']='Muuta kasutajate profiile';
@@ -82,7 +81,7 @@ $string['course:viewhiddenactivities']='Vaadata peidetud tegevusi';
 $string['user:readuserblogs']='Vaadata kõikide kasutajate blogisid';
 $string['user:viewuseractivitiesreport']='Vaadata kasutajate tegevuste raporteid';
 $string['user:readuserposts']='Vaadata kõikide kasutajate postitusi';
-$string['inherit']='Pärantatav';
+$string['inherit']='Pärandatav';
 $string['overrides']='Ülekatmised';
 $string['overrideroles']='Rollide ülekatmised';
 ?>

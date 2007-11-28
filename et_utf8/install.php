@@ -168,5 +168,5 @@ $string['databasecreationsettingssub']='<b>Tüüp:</b> määratud \"mysql\" paig
        <b>User:</b> määratud \"root\" paigaldaja poolt<br />
        <b>Parool:</b> Sinu andmebaasi parool<br />
        <b>Tabelite prefiks:</b> fakultatiivne prefiks kasutamaks tabeli nimetes';
-
+$string['globalsquoteshelp']='<p>Kombinatsioon mitte lubatud Magic Quotes GPC ja võimaldatud Register Globals samaaegsest seadistusest ei ole soovitatav.</p><p>Soovituslik seadistus on <b>magic_quotes_gpc = On</b> and <b>register_globals = Off</b> Sinu php.ini failis</p><p>Kui Sul ei ole ligipääsu php.ini failile, siis peaksid paneme alljärgnevad read Moodle kataloogis olevasse faili .htaccess:<blockquote>php_value magic_quotes_gpc On</blockquote><blockquote>php_value register_globals Off</blockquote></p>';
 ?>
