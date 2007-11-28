@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.7+ (2006101007)
+      // workshop.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['absent'] = 'Ez dago';
@@ -123,7 +123,7 @@ $string['incorrect'] = 'Ezegokia';
 $string['info'] = 'Info';
 $string['invaliddates'] = 'Sartutako datak ezinezkoak dira.<br />Zure nabigatzailearen \'Atzera\' botoia erabili formulariora itzuli eta datak zuzentzeko.';
 $string['iteration'] = 'Osatuta: $a';
-$string['lastname'] = 'Detirura';
+$string['lastname'] = 'Deitura';
 $string['lax'] = 'Ahula';
 $string['leaguetable'] = 'Bidalitako lanen taula';
 $string['listassessments'] = 'Ebaluazioak zerrendatu';

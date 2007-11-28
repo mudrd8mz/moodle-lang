@@ -2,9 +2,9 @@
       // forum.php - created with Moodle 1.8.2+ (2007021520)
 
 
-$string['addanewdiscussion'] = 'Mezu berria idatzi';
-$string['addanewquestion'] = 'Galdera berria gehitu';
-$string['addanewtopic'] = 'Gai berria gehitu';
+$string['addanewdiscussion'] = 'Mezua idatzi';
+$string['addanewquestion'] = 'Galdera gehitu';
+$string['addanewtopic'] = 'Gaia gehitu';
 $string['advancedsearch'] = 'Bilaketa aurreratua';
 $string['allforums'] = 'Foro guztiak';
 $string['allowchoice'] = 'Utzi denei aukeratzen';
@@ -25,7 +25,7 @@ $string['cannotviewpostyet'] = 'Eztabaida honetan ezin dituzu beste ikasleen gal
 $string['configcleanreadtime'] = 'Irakurketa-tauleko mezu zaharrak garbitzeko ordua';
 $string['configdisplaymode'] = 'Besterik adierazi ezean, eztabaida honela ikusiko da';
 $string['configenablerssfeeds'] = 'Honek RSS jarioetarako aukera gaitzen du foro guztietarako. Ondoren foro bakoitzeko ezarpenetan gaitu beharko dituzu jarioak.';
-$string['configenabletimedposts'] = 'Aukeratu \'bai\' foroan eztabaida berria erakusteko denbora tarteen ezarpenak egiten uzteko (esperimentala eta ez erabat probatuta)';
+$string['configenabletimedposts'] = 'Aukeratu \'bai\' foroan beste eztabaida bat erakusteko denbora tarteen ezarpenak egiten uzteko (esperimentala eta ez erabat probatuta)';
 $string['configlongpost'] = 'Luzera hau gainditzen duen mezua (HTML kodea albo batera utzirik) luzeegitzat jotzen da.';
 $string['configmanydiscussions'] = 'Orrialde bakoitzean gehienez zenbat mezu edo eztabaida erakutsi behar diren';
 $string['configmaxbytes'] = 'Gune honetan foroetako mezuen eranskinek izan dezaketen gehienezko tamaina, besterik adierazi ezean (zerbitzariaren ezarpenen eta ikastaroaren mugen baitan)';
@@ -44,7 +44,7 @@ $string['deletedpost'] = 'Mezua ezabatu da';
 $string['deletedposts'] = 'Mezuak ezabatuta';
 $string['deletesure'] = 'Ziur al zaude mezu hau ezabatu nahi duzula?';
 $string['deletesureplural'] = 'Ziur al zaude mezu hau eta erantzun guztiak ezabatu nahi dituzula? ($a mezu)';
-$string['digestmailheader'] = '$a->sitename-eko foroetako mezu berrien banaketa da hau. Foroetako zure ezarpenak editatzeko zoaz hona: $a->userprefs';
+$string['digestmailheader'] = '$a->sitename-eko foroetako azken mezuen banaketa da hau. Foroetako zure ezarpenak editatzeko zoaz hona: $a->userprefs';
 $string['digestmailprefs'] = 'Zure erabiltzaile-profila';
 $string['digestmailsubject'] = '$a: foroko mezuen banaketa';
 $string['digestsentusers'] = 'Mezuen banaketa arrakastatsua izan da $a erabiltzailerentzat.';
@@ -87,7 +87,7 @@ $string['forum:rate'] = 'Mezuak kalifikatu';
 $string['forum:replynews'] = 'Albisteei erantzun';
 $string['forum:replypost'] = 'Mezuei erantzun';
 $string['forum:splitdiscussions'] = 'Eztabaidak bereizi';
-$string['forum:startdiscussion'] = 'Eztabaida berria hasi';
+$string['forum:startdiscussion'] = 'Beste eztabaida bat hasi';
 $string['forum:throttlingapplies'] = 'Erregulazioa aplikatuko da';
 $string['forum:viewanyrating'] = 'Edozein kalifikazio ikusi';
 $string['forum:viewdiscussion'] = 'Eztabaidak ikusi';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.7+ (2006101007)
+      // chat.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['beep'] = 'Abisatu';
@@ -13,7 +13,7 @@ $string['chattime'] = 'Hurrengo txat-saioaren ordua';
 $string['configmethod'] = 'Txataren ohiko metodoan erabiltzaileek aldiro konektatzen dute zerbitzariarekin eguneraketak egiteko. Ez du konfiguraziorik behar eta edonon funtzionatzen du baina zerbitzaria gainkarga dezake gelan erabiltzaile asko aldi berean ari badira. \'Daemon\'a erabiltzeak (bigarren mailako egikaritza-prozesu independientea)Unixerako sheell (komando-interpretaria) sarbidea eskatzen du, baina txat-giro arinago eta lorgarriagoa ematen du.';
 $string['confignormalupdatemode'] = 'HTTP 1.1ren <em>Keep-Alive</em> ezaugarria erabilita zerbitzatzen dira normalean txat-gelaren eguneraketak baina zerbitzariarentzat nahikoa gogorra da lan hau. Erabiltzaileei eguneraketak bidaltzeko metodo aurreratuagoa da <em>Stream</em> estrategia erabiltzea. <em>Stream</em> erabilita eskalamendu hobea lortzen da (chatd metodoaren antzekoa da) baina agian zure zerbitzariak ez du onartuko aukera hau.';
 $string['configoldping'] = 'Jarduerarik gabe zenbat denbora (segundutan) igarota uste izan behar da erabiltzaileak utzi egin duela?';
-$string['configrefreshroom'] = 'Zenbat segunduro eguneratu behar da txataren orrialdea? Balore baxuak elkarrizketa arinagoa ahalbidetuko du baina zerbitzariarentzat karga handia izan daiteke gelan lagun asko dagoenean.';
+$string['configrefreshroom'] = 'Zenbat segunduro eguneratu behar da txataren orria? Balore baxuak elkarrizketa arinagoa ahalbidetuko du baina zerbitzariarentzat karga handia izan daiteke gelan lagun asko dagoenean.';
 $string['configrefreshuserlist'] = 'Zenbat segunduro eguneratu behar da txatean dauden erabiltzaileen zerrenda?';
 $string['configserverhost'] = 'Zerbitzariaren \'daemnon\'a (egikaritza prozesu independientea) dagoen ordenagailuaren \'Hostame\'a (etxekoaren izena)';
 $string['configserverip'] = '\'hostame\'aren (etxekoaren izena) baliokidea den IP zenbakizko helbidea';
