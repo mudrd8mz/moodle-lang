@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta + (2007100902)
+      // role.php - created with Moodle 1.9 Beta 2 (2007101504)
 
 
 $string['addrole'] = 'Přidat novou roli';
@@ -8,6 +8,7 @@ $string['allowassign'] = 'Povolit přidělování rolí';
 $string['allowoverride'] = 'Povolit výjimky z rolí';
 $string['assignglobalroles'] = 'Přidělit globální role';
 $string['assignroles'] = 'Přidělit role';
+$string['assignrolesin'] = 'Přidělit role v $a';
 $string['block:view'] = 'Vidět blok';
 $string['blog:create'] = 'Vytvořit nové příspěvky blogu';
 $string['blog:manageentries'] = 'Upravovat a spravovat položky';
@@ -15,6 +16,7 @@ $string['blog:manageofficialtags'] = 'Spravovat oficiální nálepky';
 $string['blog:managepersonaltags'] = 'Spravovat osobní nálepky';
 $string['blog:view'] = 'Vidět příspěvky blogu';
 $string['calendar:manageentries'] = 'Spravovat všechny položky v kalendáři';
+$string['calendar:managegroupentries'] = 'Spravovat skupinové položky v kalendáři';
 $string['calendar:manageownentries'] = 'Spravovat vlastní položky v kalendáři';
 $string['capabilities'] = 'Pravomoci';
 $string['capability'] = 'Pravomoc';
@@ -81,18 +83,23 @@ $string['legacy:editingteacher'] = 'Archetyp: Učitel (s právy úprav)';
 $string['legacy:guest'] = 'Archetyp: Host';
 $string['legacy:student'] = 'Archetyp: Student';
 $string['legacy:teacher'] = 'Archetyp: Učitel (bez práv úprav)';
-$string['legacy:user'] = 'Archetyp: Přihlášený uživatel';
+$string['legacy:user'] = 'Archetyp: Registrovaný uživatel';
 $string['legacytype'] = 'Archetyp role';
 $string['listallroles'] = 'Seznam všech rolí';
+$string['localroles'] = 'Lokálně přidělené role';
 $string['manageroles'] = 'Spravovat role';
 $string['metaassignerror'] = 'Tuto roli nelze přidělit uživateli \"$a\", protože je nutná pravomoc spravovat metakurz.';
 $string['metaunassignerror'] = 'Role uživatele  \"$a\" byla automaticky znovu přiřazena. Prosím, zrušte namísto toho její přiřazení v asociovaných kurzech.';
+$string['morethan'] = 'Více než $a';
 $string['my:manageblocks'] = 'Spravovat bloky na stránce Můj Moodle';
 $string['nocapabilitiesincontext'] = 'V tomto kontextu nejsou k dispozici žádné pravomoci.';
 $string['notes:manage'] = 'Spravovat poznámky';
 $string['notes:view'] = 'Vidět poznámky';
 $string['notset'] = 'Nenastaveno';
+$string['overridepermissions'] = 'Výjímky z oprávnění';
+$string['overridepermissionsin'] = 'Výjímky z oprávnění v $a';
 $string['overrideroles'] = 'Výjimky z rolí';
+$string['overriderolesin'] = 'Výjímky z oprávnění v $a';
 $string['overrides'] = 'Výjimky';
 $string['permissions'] = 'Oprávnění';
 $string['potentialusers'] = '$a uživatelů k dispozici';
@@ -140,6 +147,7 @@ $string['site:mnetloginfromremote'] = 'Přihlásit se ze vzdáleného Moodlu';
 $string['site:mnetlogintoremote'] = 'Roamovat do vzdáleného Moodlu';
 $string['site:readallmessages'] = 'Číst všechny zprávy na stránkách';
 $string['site:restore'] = 'Obnovovat kurzy';
+$string['site:sendmessage'] = 'Posílat zprávy libovolnému uživateli';
 $string['site:trustcontent'] = 'Důvěřovat uloženému obsahu';
 $string['site:uploadusers'] = 'Načítat nové uživatele ze souboru';
 $string['site:viewfullnames'] = 'Vždy ukazovat celá jména uživatelů';

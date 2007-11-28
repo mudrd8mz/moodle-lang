@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 Beta + (2007100902)
+      // data.php - created with Moodle 1.9 Beta 2 (2007101504)
 
 
 $string['action'] = 'Akce';
@@ -210,6 +210,7 @@ $string['saveaspreset'] = 'Uložit jako předlohu';
 $string['savesettings'] = 'Uložit nastavení';
 $string['savesuccess'] = 'Uloženo. Nyní může být šablona používána jako předloha.';
 $string['savetemplate'] = 'Uložit šablonu';
+$string['search'] = 'Vyhledat';
 $string['sendinratings'] = 'Odeslat hodnocení';
 $string['showall'] = 'Ukázat všechny položky';
 $string['single'] = 'Prohlédnout jednotlivě';

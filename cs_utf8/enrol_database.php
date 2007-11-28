@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.9 Beta + (2007100902)
+      // enrol_database.php - created with Moodle 1.9 Beta 2 (2007101504)
 
 
 $string['autocreate'] = 'Pokud jsou v externí databázi studenti zapsáni do kurzů, které ještě nejsou v Moodlu vytvořeny, lze takové kurzy založit v Moodlu automaticky.';
@@ -17,6 +17,7 @@ $string['dbtype'] = 'Typ databáze';
 $string['dbuser'] = 'Uživatelské jméno pro přístup';
 $string['defaultcourseroleid'] = 'Role, která bude přidělena implicitně, pokud není specifikováno jinak.';
 $string['description'] = 'Pro řízení zápisů do kurzů můžete použít externí databázi (téměř jakéhokoliv druhu). Předpokládá se, že externí databáze obsahuje pole s ID kurzu a pole s ID uživatele. Tato jsou porovnána s poli, která si vyberete v lokálních tabulkách kurzů a uživatelů.';
+$string['disableunenrol'] = 'Zda zakázat vyškrtávání uživatelů z kurzů při použití externí databáze. Je-li \'ano\', uživatelé, kteří se do kurzu zapíší na základě dat v externí databázi a v této databázi jsou poté odstraněni, zůstanou přesto v kurzu zapsáni.';
 $string['enrol_database_autocreation_settings'] = 'Automatické vytváření nových kurzů';
 $string['enrolname'] = 'Externí databáze';
 $string['general_options'] = 'Obecná nastavení';
