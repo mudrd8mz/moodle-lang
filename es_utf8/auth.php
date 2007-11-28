@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8 + (2007021502)
+      // auth.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['CASform'] = 'Opción de autenticación';
@@ -207,6 +207,11 @@ $string['auth_nologindescription'] = 'Conector (Plugin) auxiliar que previene qu
 $string['auth_nologintitle'] = 'No hay sesión';
 $string['auth_nonedescription'] = 'Los usuarios pueden registrarse y crear cuentas válidas inmediatamente, sin autenticación contra un servidor externo y sin confirmación vía email. Tenga cuidado al usar esta opción - piense en los problemas de seguridad y de administración que puede ocasionar.';
 $string['auth_nonetitle'] = 'Sin autenticación';
+$string['auth_ntlmsso'] = 'NTLM SSO';
+$string['auth_ntlmsso_enabled'] = 'Seleccione Sí para intentar Single Sign On con el dominio NTLM. <strong>Nota:</strong> esto requiere un ajuste adicional en el servidor web para trabajar; vea <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>';
+$string['auth_ntlmsso_enabled_key'] = 'Habilitar';
+$string['auth_ntlmsso_subnet'] = 'Si se selecciona, sólo intentará el SSO con clientes de esta sub-red. Formato: xxx.xxx.xxx.xxx/bitmask';
+$string['auth_ntlmsso_subnet_key'] = 'Sub-red';
 $string['auth_pamdescription'] = 'Este método utiliza PAM para acceder a los nombres de usuario nativos en este servidor. Debe instalar <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Authentication</a> para usar este módulo.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
 $string['auth_passwordisexpired'] = 'Su contraseña ha caducado. ¿Desea cambiar su contraseña ahora?';
@@ -275,6 +280,8 @@ $string['errorpasswordupdate'] = 'Error actualizando contraseña, la contraseña
 $string['forcechangepassword'] = 'Forzar cambio de contraseña';
 $string['forcechangepassword_help'] = 'Forzar a los usuarios a cambiar la contraseña la próxima vez que accedan a Moodle.';
 $string['forcechangepasswordfirst_help'] = 'Forzar a los usuarios a cambiar la contraseña la primera vez que accedan a Moodle.';
+$string['forgottenpassword'] = 'Si escribe aquí una URL, se usará como página de recuperación de la contraseña perdida para este sitio. Esto está pensado para sitios en los que las contraseñas se gestionan totalmente fuera de Moodle. Déjelo en blanco para usar la recuperación por defecto de la contraseña.';
+$string['forgottenpasswordurl'] = 'URL contraseña olvidada';
 $string['guestloginbutton'] = 'Botón de entrada para invitados';
 $string['infilefield'] = 'Campo requerido en el archivo';
 $string['instructions'] = 'Instrucciones';
@@ -283,6 +290,9 @@ $string['locked'] = 'Bloqueado';
 $string['md5'] = 'Encriptación MD5';
 $string['nopasswordchange'] = 'La contraseña no puede cambiarse';
 $string['nopasswordchangeforced'] = 'No puede seguir sin cambiar su contraseña, sin embargo no existe ninguna página disponible para cambiarla. Por favor contacte a su administrador de Moodle.';
+$string['ntlmsso_attempting'] = 'Intentando Single Sign On vía NTLM...';
+$string['ntlmsso_failed'] = 'Falló el acceso automático; intente con la página de acceso normal...';
+$string['ntlmsso_isdisabled'] = 'NTLM SSO está desactivado.';
 $string['passwordhandling'] = 'Gestión del campo de contraseña';
 $string['plaintext'] = 'Texto plano';
 $string['pluginnotenabled'] = 'El conector (\'plugin\') de autenticación \'$a\' no está activado.';
