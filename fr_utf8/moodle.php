@@ -1090,6 +1090,7 @@ $string['paymentsorry'] = 'Merci pour votre paiement ! Malheureusement, votre pa
 $string['paymentthanks'] = 'Merci pour votre paiement ! Vous êtes dès maintenant inscrit à votre cours&nbsp;:<br />«&nbsp;$a&nbsp;»';
 $string['people'] = 'Personnes';
 $string['periodending'] = 'Fin de la période ($a)';
+$string['personal'] = 'Personnel';
 $string['personalprofile'] = 'Fiche personnelle';
 $string['phone'] = 'Téléphone';
 $string['phpinfo'] = 'Info PHP';
