@@ -164,6 +164,8 @@ $string['collespintro'] = 'この調査の目的は、あなたがオンライ�
 ありがとうございます。';
 $string['collespname'] = 'COLLES (要望)';
 $string['customintro'] = 'カスタムイントロ';
+$string['deleteallanswers'] = 'すべての調査の回答を削除する';
+$string['deleteanalysis'] = '回答分析を削除する';
 $string['done'] = '完了';
 $string['download'] = 'ダウンロード';
 $string['downloadexcel'] = 'Excelフォーマットでダウンロードする';
@@ -183,7 +185,7 @@ $string['name'] = '名称';
 $string['newsurveyresponses'] = '新しい調査の回答';
 $string['nobodyyet'] = 'この調査は解答されていません';
 $string['notdone'] = '未回答';
-$string['notes'] = '個人的な分析とメモ';
+$string['notes'] = 'あなたの個人分析およびノート';
 $string['othercomments'] = '他にコメントはありますか?';
 $string['peoplecompleted'] = '現在 $a 人がこの調査に回答しています';
 $string['preferred'] = '要望';

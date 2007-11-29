@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9 dev (2007072500)
+      // lesson.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -62,6 +62,7 @@ $string['credit'] = '承認';
 $string['customscoring'] = 'カスタムスコア';
 $string['deadline'] = 'レッスン終了';
 $string['defaultessayresponse'] = 'あなたの作文はコース教師によって評定されます。';
+$string['deleteallattempts'] = 'すべてのレッスン受験を削除する';
 $string['deletedefaults'] = '$a x レッスンデフォルトを削除しました。';
 $string['deletedpage'] = 'ページを削除しました。';
 $string['deleting'] = '削除中';

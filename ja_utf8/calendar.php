@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 dev (2007072500)
+      // calendar.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['advancedoptions'] = '高度なオプション';
@@ -18,6 +18,7 @@ $string['dayview'] = '1日分表示';
 $string['daywithnoevents'] = 'イベントがありません。';
 $string['default'] = 'デフォルト';
 $string['deleteevent'] = 'イベントの削除';
+$string['deleteevents'] = 'イベントを削除する';
 $string['detailedmonthview'] = '詳細な月表示';
 $string['durationminutes'] = '期間 (分)';
 $string['durationnone'] = '期間なし';

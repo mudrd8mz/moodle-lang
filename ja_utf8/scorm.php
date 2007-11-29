@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 dev (2007063001)
+      // scorm.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['activation'] = 'アクティベーション';
@@ -26,6 +26,7 @@ $string['contents'] = 'コンテンツ';
 $string['coursepacket'] = 'コースパッケージ';
 $string['coursestruct'] = 'コース構造';
 $string['datadir'] = 'ファイルシステムエラー: コースデータディレクトリを作成できません。';
+$string['deleteallattempts'] = 'すべてのSCORM受験を削除する';
 $string['details'] = 'トラック詳細';
 $string['directories'] = 'ディレクトリリンクを表示する';
 $string['display'] = 'パッケージの表示';

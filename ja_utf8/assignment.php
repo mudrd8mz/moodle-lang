@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 dev (2007052300)
+      // assignment.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -24,6 +24,7 @@ $string['commentinline'] = 'インラインコメント';
 $string['configitemstocount'] = 'オンライン課題でカウントする学生の提出課題の単位';
 $string['configmaxbytes'] = 'すべての課題に関するデフォルト最大サイズ (コース制限および他のローカル設定に従います)';
 $string['confirmdeletefile'] = '本当にこのファイルを完全に削除してもよろしいですか?<br /><strong>$a</strong>';
+$string['deleteallsubmissions'] = 'すべての提出課題を削除する';
 $string['deletefilefailed'] = 'ファイルの削除が失敗しました。';
 $string['description'] = '詳細';
 $string['draft'] = '下書き';
