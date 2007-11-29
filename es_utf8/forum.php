@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 + (2007021502)
+      // forum.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addanewdiscussion'] = 'Colocar un nuevo tema de discusión aquí';
@@ -89,11 +89,11 @@ $string['forum:replypost'] = 'Replicar a mensajes';
 $string['forum:splitdiscussions'] = 'Dividir discusiones';
 $string['forum:startdiscussion'] = 'Comenzar nuevas discusiones';
 $string['forum:throttlingapplies'] = 'Se aplica regulación';
-$string['forum:viewanyrating'] = 'Ver cualquier clasificación';
+$string['forum:viewanyrating'] = 'Ver cualquier calificación';
 $string['forum:viewdiscussion'] = 'Ver discusiones';
 $string['forum:viewhiddentimedposts'] = 'Ver mensajes programados ocultos';
 $string['forum:viewqandawithoutposting'] = 'Ver siempre mensajes de P y R';
-$string['forum:viewrating'] = 'Ver clasificaciones';
+$string['forum:viewrating'] = 'Ver calificaciones';
 $string['forum:viewsubscribers'] = 'Ver suscriptores';
 $string['forumauthorhidden'] = 'Autor (oculto)';
 $string['forumblockingalmosttoomanyposts'] = 'Usted se está aproximando al límite permitido de mensajes. Ha enviado $a->numposts mensajes en el último $a->blockperiod y el límite está en $a->blockafter mensajes.';
