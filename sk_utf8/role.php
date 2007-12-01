@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8.2+ (2007021520)
+      // role.php - created with Moodle 1.8.3 + (2007021533)
 
 
 $string['addrole'] = 'Pridať novú rolu';
@@ -114,6 +114,7 @@ $string['site:mnetloginfromremote'] = 'Prihlásiť sa zo vzdialeného Moodle';
 $string['site:mnetlogintoremote'] = 'Roamovať do vzdialeného Moodle';
 $string['site:readallmessages'] = 'Čítať všetky správy na portáli';
 $string['site:restore'] = 'Obnovovať kurzy';
+$string['site:sendmessage'] = 'Posielať správy ľubovoľnému používateľovi';
 $string['site:trustcontent'] = 'Dôverovať vloženému obsahu';
 $string['site:uploadusers'] = 'Nahrať nových používateľov zo súboru';
 $string['site:viewfullnames'] = 'Vždy vidieť plné mená používateľov';

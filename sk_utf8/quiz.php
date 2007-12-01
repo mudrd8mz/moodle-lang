@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8.2+ (2007021520)
+      // quiz.php - created with Moodle 1.8.3 + (2007021533)
 
 
 $string['1day'] = '1 deň';
@@ -13,6 +13,7 @@ $string['adaptive'] = 'Adaptívny režim';
 $string['addcategory'] = 'Pridať kategóriu';
 $string['addingquestions'] = 'V tejto časti stránky si vediete databázu vašich otázok. Aby bolo otázky možné udržať usporiadané a aby mohli byť použité v ľubovoľnom teste vo Vašom kurze, alebo dokonca aj inými kurzami, ak sa rozhodnete publikovať ich, sú uložené v kategóriách.<br /><br />
 Keď vyberiete alebo vytvoríte kategóriu otázok, budete môcť tvoriť alebo meniť otázky. Môžete vybrať ktorúkoľvek z týchto otázok a pridať ju do Vášho testu na ostatných častiach tejto stránky.';
+$string['addmoreoverallfeedbacks'] = 'Pridať ešte {N} polí so spätnou väzbou';
 $string['addquestions'] = 'Pridať otázky';
 $string['addquestionstoquiz'] = 'Pridať otázky do testu';
 $string['addrandom'] = 'Pridať $a náhodných otázok';

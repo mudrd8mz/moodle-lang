@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8.2+ (2007021520)
+      // message.php - created with Moodle 1.8.3 + (2007021533)
 
 
 $string['addcontact'] = 'Pridať kontakt';
@@ -32,6 +32,7 @@ $string['message'] = 'Správa';
 $string['messagehistory'] = 'História správ';
 $string['messages'] = 'Správy';
 $string['messaging'] = 'Posielanie správ';
+$string['messagingdisabled'] = 'Tieto stránky nepovoľujú systém správ. Namiesto toho sú posielané emaily.';
 $string['mycontacts'] = 'Moje kontakty';
 $string['newonlymsg'] = 'Ukázať iba nové';
 $string['newsearch'] = 'Nové hľadanie';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8.2+ (2007021520)
+      // moodle.php - created with Moodle 1.8.3 + (2007021533)
 
 
 $string['action'] = 'Akcia';
@@ -632,6 +632,7 @@ $string['gd1'] = 'GD 1.x je nainštalované';
 $string['gd2'] = 'GD 2.x je nainštalované';
 $string['gdneed'] = 'aby sa zobrazil tento graf, musí byť nainštalované GD';
 $string['gdnot'] = 'GD nie je nainštalované';
+$string['general'] = 'všeobecný';
 $string['gettheselogs'] = 'Získať tieto logy';
 $string['go'] = 'Ísť';
 $string['gpl'] = 'Copyright (C) 2001-on  Martin Dougiamas  (http://dougiamas.com)
@@ -1044,6 +1045,7 @@ $string['numwords'] = '$a slov';
 $string['numyears'] = '$a rokov';
 $string['ok'] = 'OK';
 $string['oldpassword'] = 'Súčasné heslo';
+$string['olduserdirectory'] = 'Toto je STARÝ používateľský adresár, ktorý sa už nepoužíva. Môžete ho vymazať, pretože súbory, ktoré obsahoval, boli kopírované do NOVÉHO používateľského adresára.';
 $string['opentoguests'] = 'Hosťovský prístup';
 $string['optional'] = 'nepovinné';
 $string['order'] = 'Príkaz';
