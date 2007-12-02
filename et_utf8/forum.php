@@ -235,4 +235,5 @@ $string['youratedthis']='Te hindasite seda';
 $string['yournewquestion']='Teie uus küsimus';
 $string['yournewtopic']='Teie uus aruteluteema';
 $string['yourreply']='Teie vastus';
+$string['forum:replypost']='Vastata postitustele';
 ?>

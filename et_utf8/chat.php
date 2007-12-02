@@ -48,4 +48,6 @@ $string['sessions']='Jututoa sessioonid';
 $string['strftimemessage']='%%H:%%M';
 $string['studentseereports']='Kõik saavad vaadata vanu sessioone';
 $string['viewreport']='Vaata vanu jututoa sessioone';
+$string['chat:deletelog']='Kustutada vestluse logisid';
+$string['chat:readlog']='Lugeda vestluse logisid';
 ?>

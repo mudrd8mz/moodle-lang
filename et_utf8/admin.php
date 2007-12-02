@@ -422,4 +422,6 @@ $string['globalsquoteswarning']='<p><strong>Turvahoiatus</strong>: õigesti toim
 $string['iconvrecommended']='Fakultatiivse ICONV teegi installeerimine on tungivalt soovitatav tõstmaks õpikeskkonna jõudlust, eriti kui õpikeskkond toetab mitte ladinatähistikuga keeli (näiteks eesti keelt).';
 $string['importlangreminder']='Andmebaasi migreerimisega on alustatud. Sa peaksid <b>uuesti sisse logima</b>, et uuendus hakkaks mõjuma. Palun installeeri unicode keelepakk niipea kui võimalik Admin->Lang->Lang Import Utility abil<b>peale</b> andmebaasi migreerimisprotsessi lõppu.';
 $string['invalidsection']='Vigane sektsioon.';
+$string['riskpersonal']='Kasutajad võivad saada ligipääsu teiste kasutajate privaatsele informatsioonile';
+$string['riskspam']='Kasutajad võivad saata rämpskirju õpikeskkonna kasutajatele või teistele';
 ?>
