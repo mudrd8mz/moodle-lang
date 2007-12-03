@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // block_search_forums.php - created with Moodle 1.8 dev (2006102600)
+      // block_search_forums.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['advancedsearch'] = '検索オプション';
-$string['blocktitle'] = 'フォーラム内を検索';
+$string['blocktitle'] = 'フォーラムの検索';
 
 ?>

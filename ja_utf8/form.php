@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.9 Beta + (2007092806)
+      // form.php - created with Moodle 2.0 dev (2007110800)
 
 
 $string['addfields'] = 'フィールド $a 個をフォームに追加する';
@@ -30,6 +30,7 @@ $string['othersettings'] = 'その他の設定';
 $string['requiredelement'] = '必須入力フィールド';
 $string['revealpassword'] = '表示';
 $string['security'] = 'セキュリティ';
+$string['selectallornone'] = 'すべてを選択/なし';
 $string['showadvanced'] = '拡張要素を表示する';
 $string['somefieldsrequired'] = '$a マークが付けられたフィールドは必須入力フィールドです。';
 $string['timing'] = 'タイミング';
