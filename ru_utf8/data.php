@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 + (2007021502)
+      // data.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['add'] = 'Добавить запись';
@@ -16,6 +16,7 @@ $string['availablefromdate'] = 'Доступно с';
 $string['availabletags'] = 'Доступные тэги';
 $string['availabletodate'] = 'Доступно до';
 $string['cancel'] = 'Отменить';
+$string['checkbox'] = 'Флажки';
 $string['commentdeleted'] = 'Комментарий удален';
 $string['comments'] = 'Комментарии';
 $string['commentsaved'] = 'Комментарий сохранен';
@@ -73,8 +74,11 @@ $string['insufficiententries'] = 'необходимо добавить боль
 $string['intro'] = 'Введение';
 $string['invalidfieldname'] = 'Пожалуйста, выберите другое название для этого поля';
 $string['invalidurl'] = 'Ссылка, которую вы указали, неверна';
+$string['latitude'] = 'Широта';
+$string['latlong'] = 'Широта/долгота';
 $string['list'] = 'Просмотр списка';
 $string['listtemplate'] = 'Шаблон списка';
+$string['longitude'] = 'Долгота';
 $string['maxentries'] = 'Максимум записей';
 $string['maxsize'] = 'Максимальный размер';
 $string['menu'] = 'Меню';
@@ -114,6 +118,7 @@ $string['optionalfilename'] = 'Имя файла (необязательно)';
 $string['pagesize'] = 'Записей на страницу';
 $string['participants'] = 'Участники';
 $string['picture'] = 'Картинка';
+$string['presets'] = 'Предустановки';
 $string['radiobutton'] = 'Переключатели';
 $string['rate'] = 'Оценить';
 $string['rating'] = 'Оценка';

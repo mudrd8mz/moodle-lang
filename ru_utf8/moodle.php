@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8 + (2007021502)
+      // moodle.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['action'] = 'Действие';
@@ -447,6 +447,8 @@ $string['expirynotifystudentsemail'] = 'Дорогой $a->studentstr:
 
 Вы можете связаться с $a->teacherstr для обсуждения возможности продления Вам сроков обучения.';
 $string['expirythreshold'] = 'Порог';
+$string['extendenrol'] = 'Продлить обучение';
+$string['extendperiod'] = 'Продлить на';
 $string['failedloginattempts'] = '$a->attempts неудачных попыток авторизации с Вашего последнего захода';
 $string['failedloginattemptsall'] = '$a->attempts неудачных попыток авторизации для $a->accounts пользователей';
 $string['feedback'] = 'Оценки:';
@@ -480,12 +482,10 @@ $string['formatmarkdown'] = 'Markdown формат';
 $string['formatplain'] = 'Текстовый формат';
 $string['formatscorm'] = 'SCORM';
 $string['formatsocial'] = 'Сообщество (форум)';
-$string['formatstepped'] = 'Последовательное изучение'; 
 $string['formattext'] = 'Авто-формат';
 $string['formattexttype'] = 'Форматирование';
 $string['formattopics'] = 'Структура';
 $string['formattopicsajax'] = 'Структура (AJAX)';
-$string['formatweeks'] = 'Календарь';
 $string['formatweeks'] = 'Календарь (CSS)';
 $string['formatwiki'] = 'Wiki-формат';
 $string['from'] = 'Из';
@@ -559,6 +559,7 @@ $string['helpsummaries'] = 'Информация о содержании';
 $string['helptext'] = 'Как написать текст';
 $string['helpwiki'] = 'Как написать Wiki-текст';
 $string['helpwriting'] = 'Пишите правильно';
+$string['hiddenassign'] = 'Скрытое назначение';
 $string['hiddensections'] = 'Отображение скрытых секций';
 $string['hiddensectionscollapsed'] = 'В неразвернутом виде';
 $string['hiddensectionsinvisible'] = 'Полностью невидимы';
@@ -769,6 +770,7 @@ $string['newusers'] = 'Новые пользователи';
 $string['next'] = 'Дальше';
 $string['no'] = 'Нет';
 $string['nobody'] = 'Никто';
+$string['nochange'] = 'Не изменять';
 $string['nocoursesfound'] = 'Курсов со словами \'$a\' найдено не было';
 $string['nocoursesyet'] = 'В этой категории нет курсов';
 $string['noexistingadmins'] = 'Нет ни одного администратора. Произошел очень серьезный системный сбой (вы никогда не должны видеть эту надпись).';
@@ -1237,6 +1239,7 @@ $string['yourlastlogin'] = 'Последний вход';
 $string['yourself'] = 'себя';
 $string['yourteacher'] = 'Ваш $a';
 $string['zippingbackup'] = 'Архивирование';
+$string['formatstepped'] = 'Последовательное изучение'; // ORPHANED
 $string['statsreport6'] = 'Вся активность учителей (просмотры и изменения)'; // ORPHANED
 $string['statsreportstudentactivity'] = 'Вся активность учащихся (просмотры и изменения)'; // ORPHANED
 $string['statsreportteacheractivity'] = 'Вся активность учителей (просмотры и изменения)'; // ORPHANED

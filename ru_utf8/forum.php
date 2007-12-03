@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 + (2007021502)
+      // forum.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['addanewdiscussion'] = 'Добавить тему для обсуждения';
@@ -63,6 +63,7 @@ $string['emptymessage'] = 'Произошла ошибка при обработ
 $string['everyonecanchoose'] = 'Каждый может подписаться на этот форум';
 $string['everyoneissubscribed'] = 'На этот форум подписаны все';
 $string['existingsubscribers'] = 'Текущие подписчики';
+$string['forcessubscribe'] = 'Это форум с обязательной подпиской';
 $string['forcesubscribe'] = 'Подписать всех в обязательном порядке';
 $string['forcesubscribeq'] = 'Подписать всех на этот форум?';
 $string['forum'] = 'Форум';
@@ -106,6 +107,7 @@ $string['namesocial'] = 'Общий форум';
 $string['nameteacher'] = 'Учительский форум';
 $string['newforumposts'] = 'Новые сообщения форума';
 $string['nodiscussions'] = 'Нет тем для обсуждения';
+$string['nodiscussionsstartedby'] = 'Этот пользователь не создавал ни одного обсуждения';
 $string['noguestpost'] = 'Извините, гостю не разрешается писать в форум';
 $string['noguestsubscribe'] = 'Извините, гости не могут быть подписчиками форумов';
 $string['noguesttracking'] = 'Извините, гости не могут менять установки форума.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8 + (2007021502)
+      // lesson.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['accesscontrol'] = 'Контроль доступа';
