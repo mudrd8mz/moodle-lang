@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8.2+ (2007021520)
+      // forum.php - created with Moodle 1.9 Beta 2 (2007101501)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
@@ -16,9 +16,9 @@ $string['allsubscribe'] = 'Iscriversi a tutti i forum';
 $string['allunsubscribe'] = 'Disiscriversi da tutti i forum';
 $string['anyfile'] = 'Qualunque file';
 $string['attachment'] = 'Allegato';
-$string['blockafter'] = 'Limite messaggi per il blocco';
-$string['blockperiod'] = 'Periodo di tempo per il blocco';
-$string['blockperioddisabled'] = 'Non bloccare';
+$string['blockafter'] = 'Limitazione num.messaggi';
+$string['blockperiod'] = 'Periodo per controllo limitazione';
+$string['blockperioddisabled'] = 'Non limitare';
 $string['bynameondate'] = 'di $a->name - $a->date';
 $string['cannotadddiscussion'] = 'L\'aggiunta di discussioni a questo forum richiede l\'appartenenza a un gruppo.';
 $string['cannotviewpostyet'] = 'Non puoi leggere le domande degli altri studenti in questa discussione perché non hai ancora inviato messaggi';
@@ -96,7 +96,7 @@ $string['forum:viewqandawithoutposting'] = 'Vedi sempre i messaggi di tipo \"Dom
 $string['forum:viewrating'] = 'Vedi le valutazioni';
 $string['forum:viewsubscribers'] = 'Vedi gli iscritti';
 $string['forumauthorhidden'] = 'Authore (nascosto)';
-$string['forumblockingalmosttoomanyposts'] = 'Stai per raggiungere il limite di messaggi. Hai inviato $a->numposts messaggi negli ultimi $a->blockperiod giorni. Il limite è $a->blockafter messaggi.';
+$string['forumblockingalmosttoomanyposts'] = 'tai per raggiungere il limite dei messaggi permessi. Hai inviato $a->numposts messaggi negli ultimi $a->blockperiod giorni. Il limite è di $a->blockafter messaggi.';
 $string['forumbodyhidden'] = 'Questo messaggio non può essere visualizzato, probabilmente perché non hai ancora inviato messaggi nella discussione.';
 $string['forumintro'] = 'Introduzione al forum';
 $string['forumname'] = 'Nome del forum';
@@ -256,7 +256,7 @@ $string['unreadpostsone'] = '1 messaggio non letto';
 $string['unsubscribe'] = 'Cancella la tua iscrizione da questo forum';
 $string['unsubscribed'] = 'Iscrizione cancellata';
 $string['unsubscribeshort'] = 'Disiscrivi';
-$string['warnafter'] = 'Limite messaggi per l\'avviso';
+$string['warnafter'] = 'Num. messaggi per l\'avviso';
 $string['yesforever'] = 'Si, per sempre';
 $string['yesinitially'] = 'Si, inizialmente';
 $string['youratedthis'] = 'Lo hai già valutato';
