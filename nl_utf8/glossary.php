@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (2007101503)
+      // glossary.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['addcomment'] = 'Voeg commentaar toe';
@@ -136,6 +136,7 @@ $string['importedcategories'] = 'Geïmporteerde categorieën';
 $string['importedentries'] = 'Geïmporteerde invoer';
 $string['importentries'] = 'Importeer invoer';
 $string['importentriesfromxml'] = 'Items importeren uit XML-bestand';
+$string['includegroupbreaks'] = 'Scheiding invoegen';
 $string['isglobal'] = 'Is dit een globale woordenlijst?';
 $string['letter'] = 'letter';
 $string['linkcategory'] = 'Link deze categorie automatisch';

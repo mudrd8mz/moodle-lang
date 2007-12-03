@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (2007101503)
+      // xmldb.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['aftertable'] = 'Tabel resultaat:';
@@ -55,6 +55,7 @@ $string['enumvaluesincorrect'] = 'Foute waarden voor enum veld';
 $string['field'] = 'Veld';
 $string['fieldnameempty'] = 'Naam veld leeg';
 $string['fields'] = 'Velden';
+$string['fieldsusedinkey'] = '[[Onvolledige taalstring op lijn \' . __LINE__ . \' in bestand \' . __FILE__ . \']]';
 $string['filenotwriteable'] = 'Bestand niet beschrijfbaar';
 $string['floatincorrectdecimals'] = 'Fout aantal decimalen voor float veld';
 $string['floatincorrectlength'] = 'Foute lengte voor float veld';
