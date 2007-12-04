@@ -46,6 +46,7 @@ $string['nomessages'] = 'Pas encore de messages';
 $string['normalkeepalive'] = 'Keep-Alive';
 $string['normalstream'] = 'Flux';
 $string['noscheduledsession'] = 'Aucune session agendée';
+$string['removemessages'] = 'Supprimer tous les messages';
 $string['repeatdaily'] = 'Chaque jour à la même heure';
 $string['repeatnone'] = 'Pas de répétition - ne publier que la date spécifiée';
 $string['repeattimes'] = 'Répéter les sessions';

@@ -37,6 +37,7 @@ $string['publishanonymous'] = 'Publier les résultats anonymement, sans afficher
 $string['publishnames'] = 'Publier les résultats complets, avec le nom des étudiants et leur choix';
 $string['publishnot'] = 'Ne pas publier les résultats pour les étudiants';
 $string['removemychoice'] = 'Retirer mon vote';
+$string['removeresponses'] = 'Supprimer toutes les réponses';
 $string['responses'] = 'Réponses';
 $string['responsesto'] = 'Réponses à $a';
 $string['savemychoice'] = 'Enregistrer mon vote';

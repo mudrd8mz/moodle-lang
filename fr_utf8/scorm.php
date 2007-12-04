@@ -29,6 +29,7 @@ $string['contents'] = 'Contenus';
 $string['coursepacket'] = 'Paquetage du cours';
 $string['coursestruct'] = 'Structure du cours';
 $string['datadir'] = 'Erreur du système de fichier : impossible de créer le dossier des données du cours';
+$string['deleteallattempts'] = 'Supprimer toutes les tentatives de SCORM';
 $string['details'] = 'Détails du parcours';
 $string['directories'] = 'Afficher les liens de dossier';
 $string['display'] = 'Afficher le paquetage';

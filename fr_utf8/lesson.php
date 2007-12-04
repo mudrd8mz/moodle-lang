@@ -61,6 +61,7 @@ $string['credit'] = 'Crédit';
 $string['customscoring'] = 'Score personnalisé';
 $string['deadline'] = 'À faire jusqu\'au';
 $string['defaultessayresponse'] = 'Votre composition sera évaluée par un enseignant de ce cours.';
+$string['deleteallattempts'] = 'Supprimer toutes les tentatives des leçons';
 $string['deletedefaults'] = 'Leçon par défaut $a x supprimée';
 $string['deletedpage'] = 'Page supprimée';
 $string['deleting'] = 'En cours de suppression';

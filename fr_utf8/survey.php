@@ -162,6 +162,8 @@ Vos réponses soigneusement réfléchies nous aideront à améliorer la façon d
 Nous vous remercions de votre collaboration.';
 $string['collespname'] = 'COLLES (idéal)';
 $string['customintro'] = 'Introduction personnalisée';
+$string['deleteallanswers'] = 'Supprimer toutes les réponses des consultations';
+$string['deleteanalysis'] = 'Supprimer les analyses de réponses';
 $string['done'] = 'Terminé';
 $string['download'] = 'Télécharger';
 $string['downloadexcel'] = 'Télécharger les données en format Excel';

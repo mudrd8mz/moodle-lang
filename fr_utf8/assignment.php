@@ -30,6 +30,7 @@ $string['commentinline'] = 'Commentaire dans le texte';
 $string['configitemstocount'] = 'Nature des éléments à compter comme devoirs remis dans les devoirs en ligne.';
 $string['configmaxbytes'] = 'Taille maximale par défaut de tous les devoirs du site (sujet aux limites des cours et autres réglages locaux)';
 $string['confirmdeletefile'] = 'Voulez-vous vraiment supprimer le fichier suivant&nbsp;:<br /><strong>$a</strong>';
+$string['deleteallsubmissions'] = 'Supprimer tous les devoirs remis';
 $string['deletecheckfile'] = 'Voulez-vous vraiment supprimer ce fichier&nbsp;?'; // Legacy, to delete in 1.7dev
 $string['deleteednotification'] = 'Le fichier a été supprimé.'; // Legacy, to delete in 1.7dev
 $string['deletefail'] = 'Le fichier suivant n\'a pas été supprimé&nbsp;:'; // Legacy, to delete in 1.7dev

@@ -16,6 +16,7 @@ $string['dayview'] = 'Vue quotidienne';
 $string['daywithnoevents'] = 'Il n\'y a pas d\'événement programmé à cette date.';
 $string['default'] = 'Valeur par défaut';
 $string['deleteevent'] = 'Supprimer l\'événement';
+$string['deleteevents'] = 'Supprimer les événements';
 $string['detailedmonthview'] = 'Vue mensuelle détaillée';
 $string['durationminutes'] = 'Durée en minutes';
 $string['durationnone'] = 'Sans durée';
