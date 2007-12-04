@@ -29,6 +29,7 @@ $string['othersettings'] = 'Autres réglages';
 $string['requiredelement'] = 'Champ requis';
 $string['revealpassword'] = 'Révéler'; // Legacy, to remove for 1.9 and above ?
 $string['security'] = 'Sécurité';
+$string['selectallornone'] = 'Tout/ne rien sélectionner';
 $string['showadvanced'] = 'Afficher éléments supplémentaires';
 $string['somefieldsrequired'] = 'Ce formulaire comprend des champs requis, marqués $a';
 $string['timing'] = 'Durée';
