@@ -7,6 +7,7 @@ $string['content'] = 'Contenu';
 $string['course'] = 'cours';
 $string['coursenotes'] = 'Annotations de cours';
 $string['created'] = 'créée';
+$string['deletenotes'] = 'Supprimer toutes les annotations';
 $string['deleteconfirm'] = 'Supprimer cette annotation&nbsp;?';
 $string['editnote'] = 'Modifier annotation';
 $string['groupaddnewnote'] = 'Ajouter une nouvelle annotation pour tous';
