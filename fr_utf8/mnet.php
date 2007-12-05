@@ -171,7 +171,7 @@ $string['testtrustedhostsexplain'] = 'Saisissez une adresse IP pour voir s\'il s
 $string['themesavederror'] = 'Erreur&nbsp;: le changement de thème n\'a pas été enregistré';
 $string['transport_help'] = 'Ces options sont réciproques. Vous ne pouvez donc imposer à un serveur distant l\'utilisation d\'un certificat SSL signé que si votre serveur possède également un certificat SSL.';
 $string['trustedhosts'] = 'Serveurs XML-RPC';
-$string['trustedhostsexplain'] = '<p>Le mécanisme des serveurs fiables permet à certaines machines d\'effectuer des appels à n\'importe quel API Moodle via XML-RPC. Grâce à cette option <b>très dangereuse</b>, des scripts externes peuvent contrôler le comportement de Moodle. En cas de doute, désactivez-là.</p><p>Cette option <b>n\'est pas nécessaire</b> pour le fonctionnement d\'un Réseau Moodle.</p><p>Pour activer cette option, veuillez saisir une liste d\'adresses IP ou de réseaux, une par ligne. Voici quelques exemples.<br />
+$string['trustedhostsexplain'] = '<p>Le mécanisme des serveurs fiables permet à certaines machines d\'effectuer des appels à n\'importe quelle API Moodle via XML-RPC. Grâce à cette option <b>très dangereuse</b>, des scripts externes peuvent contrôler le comportement de Moodle. En cas de doute, désactivez-là.</p><p>Cette option <b>n\'est pas nécessaire</b> pour le fonctionnement d\'un Réseau Moodle.</p><p>Pour activer cette option, veuillez saisir une liste d\'adresses IP ou de réseaux, une par ligne. Voici quelques exemples.<br />
 Votre serveur local&nbsp;:<br />
 127.0.0.1<br />
 Votre serveur local (avec un bloc réseau):<br />
