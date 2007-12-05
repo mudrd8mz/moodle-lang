@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // moodle.php - created with Moodle 1.9 Beta + (2007081600)
 
 
@@ -797,7 +797,7 @@ $string['maximumupload'] = 'גודל העלאה מקסימלי';
 $string['maxsize'] = 'גודל מקסימלי: $a';
 $string['memberincourse'] = 'משתתפים בקורס';
 $string['messagebody'] = 'גוף ההודעה';
-$string['messagedselectedusers'] = 'בחר משתמשים אשר קיבלו הודעה ורשימת המקבלים אותחלה';
+$string['messagedselectedusers'] = 'ההודעה נשלחה למשתתפים הנבחרים והרשימת  המקבל אופסה';
 $string['messagedselectedusersfailed'] = 'משהו השתבש בזמן שליחת הודעות למשתמשים הנבחרים. כמה מהם כנראה קיבלו את הדוא\"ל.';
 $string['messageselect'] = 'בחר משתמש זה נמען הדוא\"ל';
 $string['messageselectadd'] = 'הוסף/שלח הודעה';
@@ -963,7 +963,7 @@ $string['numviews'] = '$a חשיפות';
 $string['numweeks'] = '$a שבועות';
 $string['numwords'] = '$a מילים';
 $string['numyears'] = '$a שנים';
-$string['ok'] = 'תקין';
+$string['ok'] = 'אישור';
 $string['oldpassword'] = 'סיסמה נוכחית';
 $string['opentoguests'] = 'כניסת אורחים';
 $string['optional'] = 'ניתן לבחירה';
@@ -1023,7 +1023,7 @@ $string['potentialteachers'] = 'מורים פוטנציאלים';
 $string['preferences'] = 'העדפות';
 $string['preferredlanguage'] = 'שפה מועדפת';
 $string['preferredtheme'] = 'ערכת נושא מועדפת';
-$string['preview'] = 'תצוגה מקדימה';
+$string['preview'] = 'preview';
 $string['previewhtml'] = 'תצוגת פורמט Html';
 $string['previeworchoose'] = 'הצג או בחר ערכת נושא';
 $string['previous'] = 'קודם';

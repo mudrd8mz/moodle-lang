@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.8 + (2007021503)
+      // wiki.php - created with Moodle 1.9 Beta + (2007081600)
 
 
 $string['action'] = '-- פעולה --';
@@ -136,7 +136,7 @@ $string['preview'] = 'תצוגה מקדימה';
 $string['readonly'] = 'עמוד לקריאה בלבד';
 $string['refs'] = 'מראי מקום';
 $string['reloadlinkdescription'] = 'טען מחדש את עמוד זה כך שיוצג כל תוכן חדש שהוסף.';
-$string['reloadlinktext'] = 'טען מחדש את עמוד זה.';
+$string['reloadlinktext'] = 'טען מחדש את עמוד זה';
 $string['removenotice'] = 'שים לב שברשימה זו יופיעו רק עמודים שאין להם איזכורים. ובגלל שמנוע ה-ewiki עורך  בחינה מאוד מוגבלת להאם לעמוד כלשהו יש אזכורים או לא, יכול מאוד להיות שהוא יפספס כמה מהעמודים והם לא יופיעו כאן .<br /> אך אם תרוקן לפני כן את העמוד, הוא גם כן יופיע ברשימה זו. אבחנות אחרות ושונות לבסיסי נתונים נעשות גם כן.';
 $string['removepagecheck'] = 'אתה בטוח שברצונך למחוק את העמודים הללו?';
 $string['removepages'] = 'הסר עמודים';
@@ -144,7 +144,7 @@ $string['removeselectedpages'] = 'הסר את העמודים שנבחרו';
 $string['revertallsince'] = 'המהדורה מתיישהת, מחוק גם שינויים שנעשו לאחר';
 $string['revertchanges'] = 'החזר את השינויים לקדמותם';
 $string['revertlastonly'] = 'רק אם הוא היה השינוי האחרון';
-$string['revertpages'] = 'החזר כמות גדולה של שינויים לקדמותם.';
+$string['revertpages'] = 'החזר כמות גדולה של שינויים לקדמותם';
 $string['revertpagescheck'] = 'האם אתה באמת רוצה להחזיר את השינויים הבאים לקדמותם?';
 $string['revertthe'] = 'המהדורה מתיישנת, אך מחוק רק את אלו שהושפעו';
 $string['safehtml'] = 'HTML בטוח';
@@ -167,8 +167,8 @@ $string['tablinks'] = 'קישורים';
 $string['tabview'] = 'ראה';
 $string['thanksforcontribution'] = 'תודה על תרומתכם.';
 $string['thispageisntlinkedfromanywhereelse'] = 'העמוד לא מקושר ממקום אחר כלשהוא.';
-$string['updatedpages'] = 'עמודים מעודכנים.';
-$string['updatedwikipages'] = 'עמודי  wiki  מעודכנים.';
+$string['updatedpages'] = 'עמודים מעודכנים';
+$string['updatedwikipages'] = 'עמודי  wiki  מעודכנים';
 $string['uplerror'] = 'אנו מצטערים, אבל חלה שגיאה כלשהיא בזמן העלאת הקובץ.';
 $string['uplinsect'] = 'העלה לתוך';
 $string['uplnewnam'] = 'שמור תחת שם קובץ שונה';
@@ -187,7 +187,7 @@ $string['wiki:manage'] = 'נהל הגדרות Wiki';
 $string['wiki:overridelock'] = 'עקוף את העמודים הנעולים';
 $string['wiki:participate'] = 'ערוך עמודי Wiki';
 $string['wikidefaultpagename'] = 'אינדקס Wiki';
-$string['wikiexport'] = 'יצא עמודים.';
+$string['wikiexport'] = 'ייצא עמודים';
 $string['wikiexportcomment'] = 'כאן אתה יכול להגדיר את הגדרות הייצוא לפי צרכיך.';
 $string['wikilinkoptions'] = 'אפשרויות יצירת קישורים אוטומטיים ל-Wiki';
 $string['wikilinks'] = 'קישורי Wiki';
