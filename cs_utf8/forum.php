@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 + (2007021503)
+      // forum.php - created with Moodle 1.9 Beta 3 (2007101504)
 
 
 $string['addanewdiscussion'] = 'Přidat nové téma diskuse';
@@ -168,7 +168,7 @@ $string['overviewnumpostssince'] = 'příspěvků od posledního přihlášení'
 $string['overviewnumunread'] = 'celkem nepřečteno';
 $string['parent'] = 'Ukázat předchůdce';
 $string['parentofthispost'] = 'Předchůdce tohoto příspěvku';
-$string['postadded'] = 'Váš příspěvek byl úspěšně přidán.<p>Na případné úpravy máte $a.';
+$string['postadded'] = '<p>Váš příspěvek byl úspěšně přidán.</p><p>Na případné úpravy máte $a</p>';
 $string['postincontext'] = 'Ukázat příspěvek v kontextu';
 $string['postmailinfo'] = 'Toto je kopie nove zpravy ze stranek $a.
 Chcete-li na prispevek odpovedet, nasledujte tento odkaz:';
@@ -206,7 +206,9 @@ $string['repliesone'] = '$a odpověď';
 $string['reply'] = 'Odpovědět';
 $string['replyforum'] = 'Odpovědět do fóra';
 $string['resetforums'] = 'Odstranit všechny příspěvky z tohoto typu fór.';
+$string['resetforumsall'] = 'Odstranit všechny příspěvky';
 $string['resetsubscriptions'] = 'Vypnout všechna odebírání příspěvků';
+$string['resettrackprefs'] = 'Vypnout všechna označování nepřečtených příspěvků';
 $string['rsssubscriberssdiscussions'] = 'Zobrazit RSS kanál \'$a\' diskusí';
 $string['rsssubscriberssposts'] = 'Zobrazit RSS kanál \'$a\' příspěvků';
 $string['search'] = 'Hledat';
