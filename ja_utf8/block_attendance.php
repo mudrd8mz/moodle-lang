@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_attendance.php - created with Moodle 1.9 dev (2007071703)
+      // block_attendance.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['Aacronym'] = '欠';
@@ -33,6 +33,7 @@ $string['deletingsession'] = 'コースの出欠を削除';
 $string['description'] = '説明';
 $string['display'] = '表示対象';
 $string['downloadexcel'] = 'Excelフォーマットでダウンロードする';
+$string['downloadooo'] = 'OpenOfficeフォーマットでダウンロードする';
 $string['downloadtext'] = 'テキストフォーマットでダウンロードする';
 $string['editsession'] = '出欠の編集';
 $string['errorinaddingsession'] = '出欠の追加中にエラーが発生しました。';

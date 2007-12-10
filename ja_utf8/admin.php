@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007110800)
+      // admin.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -102,16 +102,16 @@ $string['configenablehtmlpurifier'] = '信頼できないテキストのクリ�
 $string['configenablerssfeeds'] = 'ここでは、サイト全体からのRSSフィードを有効にします。実際に更新された情報を見たい場合、各モジュールのRSSフィード設定も有効にする必要があります - 管理ページにあるモジュール管理を確認してください。';
 $string['configenablerssfeedsdisabled'] = 'サイトすべてにおいてRSSフィードが利用不可にされているため、利用できません。管理メニュー内の詳細設定でRSSフィードを利用可にすることができます。';
 $string['configenablestats'] = 'この設定を有効にした場合、Moodleのcronジョブはログを処理し、統計情報を集めます。あなたのサイトのトラフィックにより、しばらく時間がかかる場合があります。このオプションを有効にした場合、あなたの各コースまたはサイト全体に関する面白いグラフおよび統計を見ることができます。';
-$string['configenabletrusttext'] = 'デフォルトでMoodleはユーザによりアップロードされたセキュリティ上のリスクのがある悪意を持ったスクリプト、メディア等をテキストから完全にクリーニングしています。コンテンツ信頼システムでは、特定のユーザによるコンテンツに対して干渉しない拡張機能を適用することができます。このシステムを動作させるには、最初にこの設定を有効にして、個別のMoodleロールにコンテンツ信頼パーミッションを与える必要があります。このようなユーザにより作成またはアップロードされたテキストには、信頼されている旨のマークが付けられ、表示前にクリーニングされることはありません。';
+$string['configenabletrusttext'] = 'Moodleは、デフォルトでユーザによりアップロードされたセキュリティ上のリスクのがある悪意を持ったスクリプト、メディア等をテキストから完全にクリーニングしています。コンテンツ信頼システムでは、特定のユーザによるコンテンツに対して干渉しない拡張機能を適用することができます。このシステムを動作させるには、最初にこの設定を有効にして、個別のMoodleロールにコンテンツ信頼パーミッションを与える必要があります。このようなユーザにより作成またはアップロードされたテキストには、信頼されている旨のマークが付けられ、表示前にクリーニングされることはありません。';
 $string['configenrolmentplugins'] = 'あなたが使用したいプラグインを選択してください。また、忘れずに適切に設定してください。<br /><br />ここでは、どのプラグインを有効にするのか指定する必要があります。<strong>1つ</strong>のプラグインを<em>インタラクティブ</em>なユーザ登録方法としてデフォルトに設定することができます。インタラクティブなユーザ登録方法を無効にするには、該当するコースの設定画面で「コース登録可能」を「No」にしてください。';
 $string['configerrorlevel'] = '表示したいPHPの警告数を選択してください。通常は、Normalが最適です。';
-$string['configextendedusernamechars'] = 'この設定を有効にした場合、学生はユーザ名にどのような文字でも使用することができます (実際の名前には影響しません)。デフォルトでは、ユーザ名を英数字に制限する「無効」にされています。';
+$string['configextendedusernamechars'] = 'この設定を有効にした場合、学生はユーザ名にどのような文字でも使用することができます (実際の名前には影響しません)。ユーザ名を英数字に制限する「無効」がデフォルトです。';
 $string['configfilterall'] = 'ヘッダ、タイトル、ナビゲーションバー等を含むすべての文字をフィルタします。これは多言語フィルタを使用しているときに最も有用です。そうでない場合、あなたのサイトに単に負荷がかかるだけになります。';
 $string['configfiltermatchoneperpage'] = 'オートリンクフィルタは、ページ全体で最初のテキストマッチングに該当した1つのテキストリンクのみ生成します。他のすべては無視されます。';
 $string['configfiltermatchonepertext'] = 'オートリンクフィルタは、それぞれのアイテムのページテキスト (例 リソース、ブロック) で最初のテキストマッチングに該当した1つのテキストリンクのみ生成します。「1ページあたり1回フィルタマッチする」が有効にされている場合、この設定は無視されます。';
 $string['configfilteruploadedfiles'] = '「すべてのファイル」はアップロードしたすべてのHTMLおよびテキストファイル、「HTMLファイルのみ」はアップロードしたHTMLファイルのみ、表示する前にフィルタをかけます。「なし」は全くフィルタをかけません。';
 $string['configforcelogin'] = '通常、サイトとコース一覧 (コースではなく) のフロントページはサイトにログインせずに閲覧することができます。すべての動作を行う前にログインを強制したい場合、この設定を有効にしてください。';
-$string['configforceloginforprofiles'] = 'この設定を有効にした場合、ユーザプロフィールページを閲覧するには実際のアカウントでログインする必要があります。デフォルトでこの設定は有効 (チェックした状態) にされます。';
+$string['configforceloginforprofiles'] = 'この設定を有効にした場合、ユーザプロフィールページを閲覧するには実際のアカウントでログインする必要があります。この設定はデフォルトで有効 (チェックした状態) にされています。';
 $string['configframename'] = 'Moodleをフレーム内で使用する場合、フレーム名を指定してください。フレームを使用しない場合は「_top」のままにしてください。';
 $string['configfrontpage'] = '上で選択したアイテムは、サイトフロントページに表示されます。';
 $string['configfrontpageloggedin'] = '上で選択したアイテムは、ユーザのログイン時にサイトフロントページに表示されます。';
@@ -155,7 +155,7 @@ $string['configminpasswordnonalphanum'] = 'パスワードには、少なくと�
 $string['configminpasswordupper'] = 'パスワードには、少なくともここで設定した数の大文字を使用する必要があります。';
 $string['configmymoodleredirect'] = 'この設定では、管理者以外のユーザがログインした後、 /my へ強制的にリダイレクトします。また、トップレベルのサイト・ブレッドクラムを /my に置き換えます。';
 $string['confignodefaultuserrolelists'] = 'この設定では、デフォルトロールがサイトコースにアクセスを提供している場合、廃止予定のget_course_user等のコールを使用してデータベースからすべてのユーザに対してデフォルトロールを戻さないようにします。パフォーマンスに問題がある場合、この設定を有効にしてください。';
-$string['confignonmetacoursesyncroleids'] = 'デフォルトでは、子コースからのすべての受講登録はメタコースに同期されます。ここで選択されたロールは、同期化処理に含まれません。';
+$string['confignonmetacoursesyncroleids'] = '子コースからのすべての受講登録は、デフォルトでメタコースに同期されます。ここで選択されたロールは、同期化処理に含まれません。';
 $string['confignoreplyaddress'] = 'Moodleでは、メールがユーザに送信される場合があります (例 フォーラムの投稿)。ここで設定するメールアドレスは、「From」に使用され、受信者が直接送信者に返信できないようにします (例 ユーザが個人のメールアドレスを隠す設定を行っている場合)。';
 $string['confignotifyloginfailures'] = 'ログイン失敗が記録された場合、メールで通知を送信することができます。誰が通知を受け取りますか?';
 $string['confignotifyloginthreshold'] = 'ログイン失敗の通知が有効の場合、同一ユーザまたはIPアドレスで何回ログインに失敗すると通知を送信しますか?';
@@ -175,7 +175,7 @@ $string['configrequestedstudentname'] = 'リクエストされたコースで使
 $string['configrequestedstudentsname'] = 'リクエストされたコースで使用する学生 (複数) に対する呼称';
 $string['configrequestedteachername'] = 'リクエストされたコースで使用する教師 (単数) に対する呼称';
 $string['configrequestedteachersname'] = 'リクエストされたコースで使用する教師 (複数) に対する呼称';
-$string['configrestrictbydefault'] = '上位カテゴリに分類される新しく作成されたコースでは、デフォルトでモジュールを制限しますか?';
+$string['configrestrictbydefault'] = '上位カテゴリに分類される新しく作成されたコースにおいて、モジュールをデフォルトで制限しますか?';
 $string['configrestrictmodulesfor'] = 'どのコースで、いくつかの活動モジュールを無効にするよう<b>設定</b>しますか? この設定は、教師のみに適用されます。管理者は、どのような活動でもコースに追加することができます。';
 $string['configrunclamavonupload'] = 'この設定を有効にした場合、すべてのアップロードファイルをスキャンするためclam AVが使用されます。';
 $string['configrunclamonupload'] = 'ファイルアップロード時にclam AVを動作させますか? 正常に動作させるためには、pathtoclamに正しいパスを入力する必要があります。 (Clam AVは次の場所で入手できる無料ウイルススキャナーです。 http://www.clamav.net/)';
@@ -348,7 +348,7 @@ $string['helpcalendarsettings'] = 'Moodleのカレンダーおよび日付/時�
 $string['helpforcetimezone'] = 'ここでは、ユーザに独自のタイムゾーンを選択させることができます。または、すべてのユーザに対してタイムゾーンを強制します。';
 $string['helpsitemaintenance'] = 'アップグレードやその他の作業時に使用します。';
 $string['helpstartofweek'] = '週の始めは何曜日ですか?';
-$string['helpupcominglookahead'] = 'デフォルトで何日前のイベントを直近イベントとして表示しますか?';
+$string['helpupcominglookahead'] = '何日前のイベントをデフォルトで直近イベントとして表示しますか?';
 $string['helpupcomingmaxevents'] = '直近イベントを最大何件ユーザに表示しますか?';
 $string['helpweekenddays'] = '何曜日を「週末」として別の色で表示しますか?';
 $string['hiddenuserfields'] = 'ユーザフィールドを隠す';
@@ -548,7 +548,7 @@ $string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細�
 $string['remotelangnotavailable'] = 'Moodleがmoodle.orgに接続できないため、言語パックを自動的にインストールできません。適切なzipファイルを下記のリンクより手動でダウンロードして、$a ディレクトリにコピーおよびunzipしてください。';
 $string['renameerrors'] = 'リネームのエラー';
 $string['requiredtemplate'] = '必須です。あなたはここでテンプレート構文 (%%l = 姓、%%f = 名、%%u = ユーザ名) を使用することができます。詳細および例に関して、ヘルプをご覧ください。';
-$string['restrictbydefault'] = 'デフォルトでモジュールを制限する';
+$string['restrictbydefault'] = 'モジュールをデフォルトで制限する';
 $string['restrictmodulesfor'] = 'モジュールの制限';
 $string['riskconfig'] = 'ユーザは、サイトの設定および動作を変更することができます。';
 $string['riskconfigshort'] = '設定リスク';

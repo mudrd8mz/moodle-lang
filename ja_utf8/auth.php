@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (2007110800)
+      // auth.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['CASform'] = '認証選択';
@@ -264,7 +264,7 @@ $string['auth_user_create'] = 'ユーザの作成';
 $string['auth_user_creation'] = '新しい (匿名) ユーザは、外部認証元のユーザアカウントを作成することができます。ユーザの確定はメールによって行われます。このオプションを有効にした場合、モジュール特有のオプションも同時に設定する必要があります。';
 $string['auth_usernameexists'] = 'このユーザ名はすでに登録されています。新しいものを選んでください。';
 $string['authenticationoptions'] = '認証オプション';
-$string['authinstructions'] = 'どのようなユーザ名やパスワードを使用したらよいのかユーザに説明します。ここに入力した文章はログインページに表示されます。空白の場合、何も表示されません。';
+$string['authinstructions'] = 'どのようなユーザ名やパスワードを使用したらよいのかユーザに説明します。ここに入力したテキストはログインページに表示されます。空白の場合、何も表示されません。';
 $string['auto_add_remote_users'] = 'リモートユーザを自動的に追加する';
 $string['changepassword'] = 'パスワードURIの変更';
 $string['changepasswordhelp'] = 'ここでは、あなたのユーザがパスワードを忘れた場合、ユーザ名/パスワードを回復または変更するためのロケーションを設定します。これは、ログインページおよびユーザページにボタンとして提供されます。ここを空白にした場合、ボタンは表示されません。';

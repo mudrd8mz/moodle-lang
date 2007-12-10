@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 2.0 dev (2007110800)
+      // group.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['addgroupstogrouping'] = 'グループをグルーピングに追加する';
@@ -52,6 +52,7 @@ $string['groupingdescription'] = 'グルーピング説明';
 $string['groupingname'] = 'グルーピング名';
 $string['groupingnameexists'] = 'グルーピング名「 $a 」はすでにこのコースで使用されています。他のグルーピング名を使用してください。';
 $string['groupings'] = 'グルーピング';
+$string['groupingsonly'] = 'グルーピングのみ';
 $string['groupmember'] = 'グループメンバー';
 $string['groupmemberdesc'] = 'グループメンバーの標準ロール';
 $string['groupmembers'] = 'グループメンバー';
@@ -67,6 +68,7 @@ $string['groupnameexists'] = 'グループ名「 $a 」はすでにこのコー�
 $string['groupnotamember'] = '申し訳ございません、あなたはそのグループのメンバーではありません。';
 $string['groups'] = 'グループ';
 $string['groupscount'] = 'グループ ($a)';
+$string['groupsgroupings'] = 'グループ &amp; グルーピング';
 $string['groupsinselectedgrouping'] = 'グループ:';
 $string['groupsnone'] = 'グループなし';
 $string['groupspreview'] = 'グループプレビュー';
