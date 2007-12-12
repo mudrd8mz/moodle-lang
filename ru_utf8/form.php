@@ -12,7 +12,7 @@ $string['modstandardels'] = 'Общие настройки модуля';
 $string['requiredelement'] = 'Обязательное поле';
 $string['security'] = 'Защита';
 $string['showadvanced'] = 'Показать дополнительные';
-$string['somefieldsrequired'] = 'Обязательные для заполнения поля в этой форме помечены$a.';
+$string['somefieldsrequired'] = 'Обязательные для заполнения поля в этой форме помечены $a.';
 $string['timing'] = 'Ограничения по времени';
 
 ?>
