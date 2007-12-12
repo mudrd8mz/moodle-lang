@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (2007110800)
+      // quiz.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['1day'] = '1日';
@@ -63,6 +63,8 @@ $string['attemptsdeleted'] = '小テストの受験結果が削除されまし�
 $string['attemptselection'] = 'どの受験を分析するかユーザごとに選択してください:';
 $string['attemptsexist'] = 'あなたは、これ以上問題を追加または削除することはできません。';
 $string['attemptsnum'] = '受験件数: $a';
+$string['attemptsnumthisgroup'] = '受験件数: $a->total (このグループ: $a->group)';
+$string['attemptsnumyourgroups'] = '受験件数: $a->total (あなたのグループ: $a->group)';
 $string['attemptsonly'] = '受験済みの学生のみ表示';
 $string['attemptsunlimited'] = '無制限';
 $string['back'] = '問題のプレビューに戻る';
@@ -76,6 +78,7 @@ $string['braceerror'] = '答えの周囲に {...} が見つかりませんでし
 $string['calculated'] = '計算問題';
 $string['calculatedquestion'] = '$a 行の計算された問題はサポートされていません。問題は無視されました。';
 $string['cannotcreatepath'] = 'パス ($a) が作成できません。';
+$string['cannoteditafterattempts'] = '小テストが受験されているため、あなたは問題を追加または削除することはできません。';
 $string['cannotinsert'] = '問題を挿入できません。';
 $string['cannotopen'] = 'エクスポートファイル ($a) を開けません。';
 $string['cannotread'] = 'インポートファイル読めません (またはファイルが空です)。';
