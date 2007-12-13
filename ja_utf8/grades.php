@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (2007110800)
+      // grades.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['activities'] = '活動';
@@ -268,6 +268,7 @@ $string['itemsedit'] = '評定項目の編集';
 $string['keephigh'] = '最大評点の保持件数';
 $string['keephighhelp'] = 'このオプションを設定した場合、X件の最大評点のみ保持されます。Xは、このオプションで選択された値です。';
 $string['keymanager'] = 'キーマネージャ';
+$string['lessthanmin'] = '$a->itemname に入力された $a->username の評点は許可された最小評点に達していません。';
 $string['letter'] = '文字';
 $string['lettergrade'] = '評定文字';
 $string['lettergradenonnumber'] = '上限または下限の評点が数値ではありません:';
@@ -294,6 +295,7 @@ $string['median'] = '中央値';
 $string['min'] = '最低';
 $string['missingscale'] = '尺度を選択してください。';
 $string['mode'] = '最頻値';
+$string['morethanmax'] = '$a->itemname に入力された $a->username の評点は許可された最大評点を超えています。';
 $string['movingelement'] = '$a に移動';
 $string['multfactor'] = '乗数';
 $string['multfactorhelp'] = 'この評定項目の評点に掛けられる因数です。';
