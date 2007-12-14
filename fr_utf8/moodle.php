@@ -1547,6 +1547,7 @@ $string['writingcoursedata'] = 'Écriture des données du cours';
 $string['writingeventsinfo'] = 'Écriture du calendrier';
 $string['writinggeneralinfo'] = 'Écriture des informations générales';
 $string['writinggradebookinfo'] = 'Écriture des carnets de notes';
+$string['writinggroupingsgroupsinfo'] = 'Écriture des infos groupements-groupes';
 $string['writinggroupingsinfo'] = 'Écriture des groupements';
 $string['writinggroupsinfo'] = 'Écriture des groupes';
 $string['writingheader'] = 'Écriture de l\'entête';
