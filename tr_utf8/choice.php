@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8 dev (2006112200)
+      // choice.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['addmorechoices'] = 'Daha fazla seçenek ekle';
@@ -17,6 +17,7 @@ $string['choicetext'] = 'Anket metni';
 $string['displayhorizontal'] = 'Yatay görüntüle';
 $string['displaymode'] = 'Görünüm modu';
 $string['displayvertical'] = 'Dikey görüntüle';
+$string['expired'] = 'Üzgünüz, bu etkinlik $a tarihinde kapandı ve bu etkinliğe artık ulaşılamaz';
 $string['fillinatleastoneoption'] = 'En az iki yanıt vermeniz gerekiyor.';
 $string['full'] = '(Tam)';
 $string['havetologin'] = 'Anketi göndermeden önce giriş yapmalısınız';
@@ -37,6 +38,8 @@ $string['publishalways'] = 'Her zaman sonuçları öğrencilere göster';
 $string['publishanonymous'] = 'Anonim sonuçları yayınla, öğrenci isimlerini gösterme';
 $string['publishnames'] = 'Tüm sonuçları öğrencilere yayınla';
 $string['publishnot'] = 'Sonuçları öğrencilere yayınlama';
+$string['removemychoice'] = 'Seçimimi sil';
+$string['removeresponses'] = 'Tüm yanıtları sil';
 $string['responses'] = 'Yanıtlar';
 $string['responsesto'] = '$a \'e Yanıt';
 $string['savemychoice'] = 'Seçeneklerimi kaydet';

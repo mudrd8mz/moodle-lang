@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 dev (2007021400)
+      // data.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['action'] = 'Eylem';
@@ -8,11 +8,13 @@ $string['addafield'] = 'Bir alan ekle';
 $string['addcomment'] = 'Yorum ekle';
 $string['addentries'] = 'Kayıtları ekle';
 $string['addtemplate'] = 'Şablon ekle';
+$string['advancedsearch'] = 'Gelişmiş arama';
 $string['allowcomments'] = 'Yorum izni';
 $string['allowratings'] = 'Gönderileri derecelendirme';
 $string['alttext'] = 'Açıklama metni';
 $string['approve'] = 'Onayla';
 $string['ascending'] = 'Artan';
+$string['asearchtemplate'] = 'Gelişmiş arama şablonu';
 $string['atmaxentry'] = 'İzin verilen en yüksek kayıt sayısını girdiniz!';
 $string['autogenallforms'] = 'Tüm varsayılan şablonları oluştur';
 $string['autolinkurl'] = 'URL\'yi otomatik-linkle';
@@ -56,6 +58,7 @@ $string['defaultfielddelimiter'] = '(varsayılan, virgülle ayrılmış)';
 $string['defaultfieldenclosure'] = '(varsayılan, hiçbiri)';
 $string['defaultsortfield'] = 'Sıralama alanı';
 $string['delete'] = 'Sil';
+$string['deleteallentries'] = 'Tüm kayıtları sil';
 $string['deletecomment'] = 'Bu yorumu silmek istediğinizden emin misiniz?';
 $string['deleted'] = 'silinmiş';
 $string['deletefield'] = 'Varolan alanı sil';
@@ -131,6 +134,7 @@ $string['modulename'] = 'Veritabanı';
 $string['modulenameplural'] = 'Veritabanları';
 $string['more'] = 'Dahası';
 $string['moreurl'] = 'Daha fazla URL';
+$string['movezipfailed'] = 'Zip taşınamıyor';
 $string['multientry'] = 'Tekrarlanan girdi';
 $string['multimenu'] = 'Menu (çoklu-seçim)';
 $string['multipletags'] = 'Birçok etiket bulundu. Şablon kaydedilmedi';
@@ -186,6 +190,7 @@ $string['recordssaved'] = 'kayıt kaydedildi';
 $string['requireapproval'] = 'Onay gerekli';
 $string['requiredentries'] = 'Gerekli kayıt';
 $string['requiredentriestoview'] = 'Bakmadan önce gerekli kayıt';
+$string['resetsettings'] = 'Alanları Temizle';
 $string['resettemplate'] = 'Şablonu temizle';
 $string['resizingimages'] = 'Tırnak resimler tekrar boyutlandırılıyor...';
 $string['rows'] = 'satır';
@@ -200,6 +205,7 @@ $string['saveaspreset'] = 'Ayar olarak kaydet';
 $string['savesettings'] = 'Ayarları kaydet';
 $string['savesuccess'] = 'Başarıyla kaydedildi. Ayarınıza şu anda tüm siteden ulaşılabilir.';
 $string['savetemplate'] = 'Şablonu kaydet';
+$string['search'] = 'Ara';
 $string['sendinratings'] = 'Son derecelendirmelerimi gönder';
 $string['showall'] = 'Bütün kayıtları göster';
 $string['single'] = 'Tek görünüm';

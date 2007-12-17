@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 dev (2007021400)
+      // forum.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['addanewdiscussion'] = 'Yeni tartışma konusu ekle';
@@ -66,13 +66,16 @@ $string['existingsubscribers'] = 'Kayıtlı aboneler';
 $string['forcesubscribe'] = 'Abone olma zorunluluğu';
 $string['forcesubscribeq'] = 'Abone olma zorunluluğu';
 $string['forum'] = 'Forum';
+$string['forum:addnews'] = 'Haber ekle';
 $string['forum:createattachment'] = 'Dosya iliştir';
 $string['forum:deleteanypost'] = 'Mesajları sil (her zaman)';
 $string['forum:deleteownpost'] = 'Mesajları sil (son süreye kadar)';
 $string['forum:editanypost'] = 'Bütün mesajları düzenle';
+$string['forum:initialsubscriptions'] = 'Başlangıç aboneliği';
 $string['forum:managesubscriptions'] = 'Abonelikleri yönet';
 $string['forum:movediscussions'] = 'Tartışmaları taşı';
 $string['forum:rate'] = 'Mesajları derecelendir';
+$string['forum:replynews'] = 'Haberlere cevap yaz';
 $string['forum:replypost'] = 'Mesajlara cevap ver';
 $string['forum:splitdiscussions'] = 'Tartışmaları ayır';
 $string['forum:startdiscussion'] = 'Yeni tartışma başlat';
@@ -194,7 +197,9 @@ $string['repliesone'] = 'Şimdiye kadar $a yanıt';
 $string['reply'] = 'Yanıtla';
 $string['replyforum'] = 'Forumu yanıtla';
 $string['resetforums'] = 'Bu forum tipindeki bütün mesajları sil';
+$string['resetforumsall'] = 'Tüm mesajları sil';
 $string['resetsubscriptions'] = 'Forum aboneliklerini sil';
+$string['resettrackprefs'] = 'Tüm forum izleme seçeneklerini sil';
 $string['rsssubscriberssdiscussions'] = '\'$a\' tartışmalarını RSS olarak göster';
 $string['rsssubscriberssposts'] = '\'$a\' mesajlarını RSS olarak göster';
 $string['search'] = 'Ara';

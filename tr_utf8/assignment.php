@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.8 dev (2006101001)
+      // assignment.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['allowdeleting'] = 'Silme izni';
@@ -24,6 +24,7 @@ $string['commentinline'] = 'Satıriçi yorum';
 $string['configitemstocount'] = 'Çevrimiçi ödevlerde öğrenci gönderileri için sayılacak tür';
 $string['configmaxbytes'] = 'Sitedeki tüm ödevler için varsayılan en yüksek ödev boyutu (ders limitleri ve diğer yerel ayarlar içindir)';
 $string['confirmdeletefile'] = 'Bu dosyayı tamamen silmek istediğinzden emin misiniz?<br /><strong>$a</strong>';
+$string['deleteallsubmissions'] = 'Tüm gönderileri sil';
 $string['deletefilefailed'] = 'Dosya silme başarısız.';
 $string['description'] = 'Açıklama';
 $string['draft'] = 'Taslak';

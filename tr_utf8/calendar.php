@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 2.0 dev (2007101503)
+      // calendar.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['advancedoptions'] = 'Gelişmiş ayarlar';
@@ -18,6 +18,7 @@ $string['dayview'] = 'Günlük Görünüm';
 $string['daywithnoevents'] = 'Bugün bir olay yok.';
 $string['default'] = 'Varsayılan';
 $string['deleteevent'] = 'Olayı sil';
+$string['deleteevents'] = 'Olayları sil';
 $string['detailedmonthview'] = 'Ayrıntılı Aylık Görünüm';
 $string['durationminutes'] = 'Dakika süreli';
 $string['durationnone'] = 'Süresiz';

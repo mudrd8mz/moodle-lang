@@ -1,6 +1,5 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9 Beta + (2007083101)
-      // local modifications from http://ibsumer.cu.edu.tr/moodlehead
+      // notes.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['addnewnote'] = 'Yeni not ekle';
@@ -11,6 +10,7 @@ $string['course'] = 'kurs';
 $string['coursenotes'] = 'Kurs notları';
 $string['created'] = 'oluşturulma';
 $string['deleteconfirm'] = 'Bu not silinsin mi?';
+$string['deletenotes'] = 'Tüm notları sil';
 $string['editnote'] = 'Notu düzenle';
 $string['groupaddnewnote'] = 'Hepsi için bir not ekle';
 $string['nocontent'] = 'Not içeriği boş olamaz';

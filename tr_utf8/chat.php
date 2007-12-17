@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.7 dev (2006081000)
+      // chat.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['beep'] = 'biip';
@@ -45,6 +45,7 @@ $string['nextsession'] = 'Sonraki oturum';
 $string['noguests'] = 'Sohbet odası konuklara açık değildir';
 $string['nomessages'] = 'Henüz mesaj yok';
 $string['noscheduledsession'] = 'Programlanmış oturum yok';
+$string['removemessages'] = 'Tüm mesajları sil';
 $string['repeatdaily'] = 'Her gün aynı saatte';
 $string['repeatnone'] = 'Tekrar yok - sadece BELİRTİLEN vakitte';
 $string['repeattimes'] = 'Oturum tekrarları';

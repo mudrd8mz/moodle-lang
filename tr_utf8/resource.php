@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8 dev (2006101001)
+      // resource.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['addresource'] = 'Kaynak ekle';
@@ -9,6 +9,7 @@ $string['browserepository'] = 'Ambara gözat';
 $string['choose'] = 'Seç';
 $string['chooseafile'] = 'Seç veya bir dosya yükle';
 $string['chooseparameter'] = 'Parametre seç';
+$string['clicktoopen'] = 'Bu belgeyi açmak için bağlantıyı tıklayın:';
 $string['configallowlocalfiles'] = 'Yeni bir kaynak dosya oluştururken, CD sürücü veya ana disk gibi yerel dosya sistemindeki dosyalara bağlantılara izin ver. Bir sınıfta tüm öğrencilerin genel bir ağ sürücüne erişmesi gerekiyorsa veya CD\'de erişilmesi gereken dosyalar varsa bu kullanışlı olabilir. Bu özelliğin kullanımı, tarayıcınızın güvenlik ayarları değişimi gerektirebilir.';
 $string['configautofilerenamesettings'] = 'Dosya yöneticisinde isim değiştirildiğinde dosyalara ve klasörlere bağlantıları otomatikmen güncelle.';
 $string['configblockdeletingfilesettings'] = 'Kaynaklar tarafından bağlantıları olan dosya ve klasörlerin silinmesini engelle. Lütfen, HTML dosyalarındaki resim ve diğer dosya bağlantılarının korunmayacığını dikkate alın.';
@@ -110,6 +111,7 @@ $string['serverurl'] = 'Sunucu adresi ($a->wwwroot)';
 $string['showcourseblocks'] = 'Kurs bloklarını göster';
 $string['skipsubmenus'] = 'Alt-menü sayfalarını atla';
 $string['tableofcontents'] = 'İçerik Tablosu';
+$string['tableofcontentsabbrev'] = 'İçindekiler';
 $string['upbutton'] = 'Yukarı';
 $string['variablename'] = 'Değişken adı';
 $string['viewims'] = 'IMS İçerik Paketine bak';

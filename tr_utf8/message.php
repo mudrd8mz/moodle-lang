@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8 dev (2006120700)
+      // message.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['addcontact'] = 'Kişi ekle';
@@ -27,11 +27,13 @@ $string['includeblockedusers'] = 'Engellenmiş kullanıcılar dahil';
 $string['incomingcontacts'] = 'Gelen Kişiler ($a)';
 $string['keywords'] = 'Anahtar sözcükler';
 $string['keywordssearchresults'] = 'Arama sonuçları: $a mesaj bulundu';
+$string['mailsent'] = 'Mesajınız e-posta olarak gönderildi.';
 $string['maxmessages'] = 'Tartışma geçmişinde görünecek en fazla mesaj sayısı';
 $string['message'] = 'Mesaj';
 $string['messagehistory'] = 'Mesaj Geçmişi';
 $string['messages'] = 'Mesajlar';
 $string['messaging'] = 'Mesajlaşma';
+$string['messagingdisabled'] = 'Bu sitede mesajlaşma etkin değil, bunun yerine e-posta gönderilecek';
 $string['mycontacts'] = 'Kişiler';
 $string['newonlymsg'] = 'Sadece yenileri göster';
 $string['newsearch'] = 'Yeni arama';
@@ -55,6 +57,7 @@ $string['searchforperson'] = 'Kişi ara';
 $string['searchmessages'] = 'Mesaj ara';
 $string['sendmessage'] = 'Mesaj gönder';
 $string['sendmessageto'] = '$a\'a mesaj gönder';
+$string['sendmessagetopopup'] = 'Mesaj gönder: $a - yeni pencere';
 $string['settings'] = 'Ayarlar';
 $string['settingssaved'] = 'Ayarlarınız kaydedildi';
 $string['showmessagewindow'] = 'Yeni mesaj aldığımda Mesaj Penceresini otomatik göster (tarayıcınız bu site için açılan yeni pencereleri bloklamamalıdır)';
