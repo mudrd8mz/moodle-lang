@@ -1,4 +1,4 @@
-﻿<?PHP
+<?PHP
 $string['AmericanEnglish'] = '美式英文';
 $string['BackgroundColor'] = '背景顏色';
 $string['Board'] = '留言板';

@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // block_online_users.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['blockname'] = 'நிகழ் நிலைப் பயனாளர்';

@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // questionnaire.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['alreadyfilled'] = 'நன்றி். நீங்கள் ஏற்கனவே இந்த கேள்விக் கொத்தை பூர்த்தி செய்துள்ளிர்கள்.';

@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // qtype_shortanswer.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['addmoreanswerblanks'] = 'மேலதிக பதில்களுக்கான வெற்றிடங்கள்';

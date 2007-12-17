@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // blog.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['addnewentry'] = 'புதிய பதிவொன்றைச் சேர்க்க';

@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // journal.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['alwaysopen'] = 'எப்பொழுதும் திறந்தநிலை';

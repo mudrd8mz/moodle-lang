@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
      
 $string['modulename'] = 'Reunión';
 $string['modulenameplural'] = 'Reuniones';

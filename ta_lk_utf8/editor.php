@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // editor.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['about'] = 'இப் பதிப்பியைப் பற்றி';

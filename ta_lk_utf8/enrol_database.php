@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // enrol_database.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['autocreate'] = 'கற்கை நெறிக்கான உள்வாங்கல் மூடுலில் காணப்படாவிட்டால் கற்கை நெறி தாமாகவே உருவாக்கப்படலாம்';

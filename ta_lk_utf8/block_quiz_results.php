@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // block_quiz_results.php - created with Moodle 1.8.2 + (November 27, 2007)
    
 $string['bestgrade'] = 'உயர்ந்த தரம்:';

@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // block_loancalc.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['amountofloan'] = 'கடனின் மொத்தத்தொகை';

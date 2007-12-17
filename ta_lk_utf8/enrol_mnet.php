@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // enrol_mnet.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['allcategories'] = '$a சாத்தியமான வகைகள்';

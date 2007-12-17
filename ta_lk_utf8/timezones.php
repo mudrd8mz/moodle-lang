@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // timezones.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['africa/abidjan'] = 'ஆபிரிக்கா/';

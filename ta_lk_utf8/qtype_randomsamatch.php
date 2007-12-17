@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // qtype_randomsamatch.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['nosaincategory'] = 'நீங்கள் தெரிவுசெய்த இந்த \'$a->catname\' வகையில் குறு விடையளிக்கும் வினாக்கள் எதுவும் இல்லை.. வேறொரு வகையைத் தெரிவுசெய்க, இந்த வகைக்கு சில வினாக்களைத் தொகுக்குக.';

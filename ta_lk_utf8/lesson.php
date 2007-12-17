@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // lesson.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['accesscontrol'] = 'அணுகுதலைக்கட்டுப்படுத்தல்';

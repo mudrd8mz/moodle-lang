@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // my.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['mymoodle'] = 'எனது கற்கைநெறிகளின் மேலோட்டப் பார்வை';

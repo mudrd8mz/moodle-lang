@@ -1,4 +1,4 @@
-﻿<?php // $Id$ 
+<?php // $Id$ 
          // qtype_datasetdependent.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['additem'] = 'வகையைச் சேர்க்க';

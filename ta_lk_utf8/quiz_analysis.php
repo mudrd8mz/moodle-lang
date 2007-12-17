@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // quiz_analysis.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['analysis'] = 'பகுதிப்பகுப்பாய்வு';

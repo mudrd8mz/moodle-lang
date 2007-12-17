@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // block_glossary_random.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['addentry'] = 'உங்களுடைய சொந்த விருப்பத்திற்குகந்த மேற்கோள்களைச் சேர்க்க!';

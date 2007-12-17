@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // mimetypes.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['application/msword'] = 'எழுத்து ஆவணங்கள்';

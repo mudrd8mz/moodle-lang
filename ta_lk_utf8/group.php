@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // group.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['addgroupstogrouping'] = 'குழுவாக்கத்திற்குக் குழுவைச் சேர்க்க';

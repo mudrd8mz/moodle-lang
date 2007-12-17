@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // qtype_truefalse.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 

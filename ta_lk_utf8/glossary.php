@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // glossary.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['addcomment'] = 'அபிப்பிராயத்தைச் சேர்க்க';

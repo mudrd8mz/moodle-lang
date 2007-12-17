@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // mnet.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (சுய ஒப்பமிடப்பட்ட)';

@@ -1,4 +1,4 @@
-﻿<?php // $Id$ 
+<?php // $Id$ 
          // qtype_calculated.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['addmoreanswerblanks'] = 'இன்னுமொரு பதிலுக்கான வெற்றிடத்தைச் சேர்க்க.';

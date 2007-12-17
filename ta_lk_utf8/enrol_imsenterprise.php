@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // enrol_imsenterprise.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['aftersaving...'] = 'நீங்கள் உங்களுடைய அமைப்புக்களை சேமித்ததும்,நீங்கள் விரும்பலாம்,';

@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // block_course_summary.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['coursesummary'] = 'பாட சுருக்கம்';

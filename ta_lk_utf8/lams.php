@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
          // lams.php - created with Moodle 1.8.2 + (November 27, 2007)
 
 $string['createSequence'] = 'புதிய வரிசையை அமைக்க';
