@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.8 dev (2006101001)
+      // assignment.php - created with Moodle 2.0 dev (2007101504)
 
 
 $string['allowdeleting'] = 'Verwijderen toestaan';
@@ -17,7 +17,7 @@ $string['assignmentmailhtml'] = '$a->teacher heeft feedback gepost voor je bijdr
 Hij is toegevoegd aan je ingestuurde <a href=\"$a->url\">opdracht</a>.';
 $string['assignmentname'] = 'Naam van de opdracht';
 $string['assignmenttype'] = 'Soort opdracht';
-$string['availabledate'] = 'Beschikbaar vanaf';
+$string['availabledate'] = 'Inleveren kan vanaf';
 $string['comment'] = 'Commentaar';
 $string['commentinline'] = 'Commentaar invoegen';
 $string['configitemstocount'] = 'Wat er moet geteld worden wanneer leerlingen hun on line opdracht ingestuurd hebben.';
