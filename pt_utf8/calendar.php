@@ -1,15 +1,19 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.6.2 (2006050521)
+      // calendar.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['advancedoptions'] = 'Opções avançadas';
+$string['allday'] = 'Todo o dia';
 $string['calendar'] = 'Calendário';
 $string['calendarheading'] = 'Calendário de $a';
 $string['clickhide'] = 'click para esconder';
 $string['clickshow'] = 'click para mostrar';
 $string['commontasks'] = 'Opções';
 $string['confirmeventdelete'] = 'Tem a certeza que deseja apagar este evento?';
+$string['course'] = 'Disciplina';
+$string['courseevent'] = 'Evento da disciplina';
 $string['courseevents'] = 'Eventos da disciplina';
+$string['courses'] = 'Disciplinas';
 $string['dayview'] = 'Eventos do dia';
 $string['daywithnoevents'] = 'Não há eventos marcados nesta data';
 $string['default'] = 'Por omissão';
@@ -36,6 +40,7 @@ $string['eventnone'] = 'Sem eventos';
 $string['eventrepeat'] = 'Com repetição';
 $string['eventsall'] = 'Todos os eventos';
 $string['eventsfor'] = '$a eventos';
+$string['eventskey'] = 'Chave de eventos';
 $string['eventsrelatedtocourses'] = 'Eventos relativos a esta disciplina';
 $string['eventstarttime'] = 'Hora de início';
 $string['eventtime'] = 'Tempo';
@@ -44,6 +49,7 @@ $string['expired'] = 'Expirou';
 $string['explain_lookahead'] = 'Este campo define o número (máximo) de dias no  futuro em que deverá começar um evento para que seja apresentado entre os próximos eventos. Eventos a começarem mais tarde nunca serão apresentados na lista de próximos eventos. Por favor repare que <strong>não existe garantia</strong> de que todos o eventos a começar nesse intervalo sejam apresentados; se houver demasiados eventos (mais do que o \"Número máximo de eventos\") os eventos mais distantes não serão apresentados.';
 $string['explain_maxevents'] = 'Este campo limita o número máximo de próximos eventos que poderão ser apresentados na lista dos próximos eventos. Se escolher aqui um número muito grande, é possível que a lista completa ocupe demasiado espaço no seu ecran.';
 $string['explain_persistflt'] = 'Se seleccionar esta opção, cada vez que se autenticar serão restauradas automaticamente as configurações que o filtro de eventos tiver na sua última sessão.';
+$string['explain_site_timeformat'] = 'Pode escolher o modo de visualização do formato de horas de 12 ou 24 para o site todo. Se escolher a opção \"default\", então o formato vai ser automaticamente escolhido de acordo com a língua escolhida para o site. Esta configuração pode ser alterada nas preferências do utilizador.';
 $string['explain_startwday'] = 'Cada semana nos calendários será apresentada a começar no dia que seleccionar aqui.';
 $string['explain_timeformat'] = 'Pode escolher entre formato de 12 ou 24 horas. Se escolher o \"valor por omissão\", o formato será definido automaticamente de acordo com a língua que usar no seu sítio.';
 $string['export'] = 'Exportar';
@@ -53,10 +59,15 @@ $string['for'] = 'para';
 $string['fri'] = 'Sex';
 $string['friday'] = 'Sexta';
 $string['generateurlbutton'] = 'Obter URL do calendário';
+$string['global'] = 'Global';
+$string['globalevent'] = 'Evento global';
 $string['globalevents'] = 'Eventos globais';
 $string['gotocalendar'] = 'Ir ao calendário';
+$string['group'] = 'Grupo';
+$string['groupevent'] = 'Evento de grupo';
 $string['groupevents'] = 'Eventos de grupo';
 $string['hidden'] = 'oculto';
+$string['ical'] = 'iCal';
 $string['iwanttoexport'] = 'Exportar';
 $string['manyevents'] = '$a eventos';
 $string['mon'] = 'Seg';
@@ -111,6 +122,8 @@ $string['typesite'] = 'Evento do sítio';
 $string['typeuser'] = 'Evento do utilizador';
 $string['upcomingevents'] = 'Próximos eventos';
 $string['urlforical'] = 'Endereço URL para a exportação do iCalendar, para subscrever ao calendário';
+$string['user'] = 'Utilizador';
+$string['userevent'] = 'Evento de Utilizador';
 $string['userevents'] = 'Eventos do utilizador';
 $string['wed'] = 'Qua';
 $string['wednesday'] = 'Quarta';
