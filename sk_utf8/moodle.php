@@ -1400,7 +1400,7 @@ $string['unenrol'] = 'Odstrániť z kurzu';
 $string['unenrolallstudents'] = 'Odstrániť z kurzu všetkých študentov';
 $string['unenrolallstudentssure'] = 'Naozaj chcete úplne odstrániť všetkých študentov z tohto kurzu?';
 $string['unenrolme'] = 'Odstrániť ma z kurzu $a';
-$string['unenrolsure'] = 'Naozaj chcete odstrániť $a z tohto kurzu?';
+$string['unenrolsure'] = 'Naozaj sa chcete odstrániť $a z tohto kurzu?';
 $string['unfinished'] = 'Neukončený';
 $string['unknowncategory'] = 'Neznáma kategória';
 $string['unlimited'] = 'Neohraničený';
@@ -1538,7 +1538,7 @@ $string['youareabouttocreatezip'] = 'Práve sa chystáte vytvoriť zip súbor ob
 $string['youaregoingtorestorefrom'] = 'Práve sa chystáte obnovovať z:';
 $string['youneedtoenrol'] = 'Na splnenie Vami požadovanej akcie je potrebné sa prihlásiť do toho kurzu.';
 $string['yourlastlogin'] = 'Vaše posledné prihlásenie bolo';
-$string['yourself'] = 'vy sám';
+$string['yourself'] = 'seba';
 $string['yourteacher'] = 'Váš $a';
 $string['zippingbackup'] = 'Záloha sa práve zozipováva';
 
