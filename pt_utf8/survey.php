@@ -163,6 +163,7 @@ As suas perguntas cuidadosas ajudar-nos-ão a melhorar a forma como esta unidade
 
 Muito obrigado pela sua colaboração.';
 $string['collespname'] = 'COLLES (Preferências)';
+$string['customintro'] = 'Introdução habitual';
 $string['done'] = 'Feito';
 $string['download'] = 'Descarregar';
 $string['downloadexcel'] = 'Descarregar dados numa folha Excel';
@@ -199,7 +200,11 @@ $string['scaletimes5'] = 'Quase nunca,Raramente,Às vezes,Frequentemente,Quase s
 $string['seemoredetail'] = 'Carregue aqui para ver mais pormenores';
 $string['selectedquestions'] = 'Perguntas seleccionadas de uma escala, todos os alunos';
 $string['summary'] = 'Sumário';
+$string['survey:download'] = 'Descarregar respostas';
+$string['survey:participate'] = 'Responder ao inquérito';
+$string['survey:readresponses'] = 'Ver respostas';
 $string['surveycompleted'] = 'Tem concluído o inquérito. O gráfico em baixo mostra um sumário dos seus resultados comparados com a média da turma.';
+$string['surveygraph'] = 'Gráfico do inquérito';
 $string['surveyname'] = 'Nome do inquérito';
 $string['surveysaved'] = 'Inquérito gravado';
 $string['surveytype'] = 'Tipo de inquérito';
