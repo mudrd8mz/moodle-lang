@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6.2 (2006050521)
+      // wiki.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['action'] = '-- Acção --';
@@ -94,6 +94,7 @@ $string['linkok'] = 'OK';
 $string['linkschecked'] = 'Apontador verificados';
 $string['listall'] = 'Listar todo';
 $string['listcandidates'] = 'Listar candidatos';
+$string['lockcancelled'] = 'O bloqueio de edição foi sobreposto e alguém está a editar esta página. Se deseja manter as suas mudanças, por favor seleccione e copie-as antes de clicar em \"CANCEL\"; depois tente editar de novo.';
 $string['meta'] = 'Meta dados';
 $string['moduledirectory'] = 'Directório de módulo';
 $string['modulename'] = 'Wiki';
@@ -105,6 +106,7 @@ $string['noadministrationaction'] = 'Não foi indicada nenhuma acção administr
 $string['nocandidatestoremove'] = 'Não páginas para remover; seleccione \'$a\' para mostrar todas as páginas.';
 $string['nochangestorevert'] = 'Não há alterações a desfazer';
 $string['nohtml'] = 'Sem  HTML';
+$string['nojslockwarning'] = 'Porque o Javasript está desligado no seu browser, é possivel que alguém possa editar esta página. Se isso acontecer, não poderá gravar as suas mudanças. Por favor, tente fazer conque a sua edição seja rápida, ou ligue o Javascript e volte a entrar na página.';
 $string['nolinksfound'] = 'Não foram encontrados apontadores na página';
 $string['noregexp'] = 'Isto deverá ser uma sequência alfanumérica fixa (não pode usar * ou expressões regulares), use o número IP ou nome do servidor do atacante, mas não indique o número do porto (já que aumenta em cada acesso http).';
 $string['notadministratewiki'] = 'Não tem autorização para administrar este wiki!';
@@ -116,10 +118,13 @@ $string['optional'] = 'Opcional';
 $string['orphanedpage'] = 'Página órfã';
 $string['orphanedpages'] = 'Páginas órfãs';
 $string['otherwikis'] = 'Outros wikis';
+$string['overridebutton'] = 'Sobrepor bloqueio';
+$string['overrideinfo'] = 'Pode sobrepor o bloqueio deste utilizador, mas ao faze-lo pode fazer com que percam as suas mudanças. Por favor tenha cuidado.';
 $string['ownerunknown'] = 'desconhecido';
 $string['pageactions'] = 'Acções sobre a página';
 $string['pageindex'] = 'Índice de páginas';
 $string['pageinfo'] = 'Informação sobre a página';
+$string['pagelocked'] = '<p><strong>Esta página está a ser editada por $a->name</strong>, quem começou a editar às $a->since  e ainda tem a janela aberta a partir de $a->seen.</p><p> Precisa de esperar que ele acabe antes de conseguir editar esta página.</p>';
 $string['pagename'] = 'Nome da página';
 $string['pagenamechoice'] = '- ou -';
 $string['pageslinkingto'] = 'Páginas a apontarem para esta';
@@ -144,6 +149,7 @@ $string['revertpagescheck'] = 'Quer realmente desfazer as alterações seguintes
 $string['revertthe'] = 'Voltar para versão anterior, mas apagar unicamente a versão afectada';
 $string['safehtml'] = 'HTML seguro';
 $string['save'] = 'Gravar';
+$string['savenolock'] = 'Não consegue gravar a página porque não tem a edição bloqueada. Isto pode acontecer se o browser tiver o Javascript desligado, ou se outro utilizador sobrepõe o teu cadeado. <br/><br/> Pode voltar ao ecrã anterior usando o botão \"BACK/RETROCEDER\" do browser e copiar o texto de qualquer alteração que tenha feito, e depois tentar editar de novo.';
 $string['searchwiki'] = 'Procurar no Wiki';
 $string['setpageflags'] = 'Colocar indicadores de página';
 $string['showversions'] = 'Mostrar versões:';
@@ -177,6 +183,9 @@ $string['versionstodelete'] = 'Versão(ões) a apagar';
 $string['viewpage'] = 'Ver Página';
 $string['viewsmfor'] = 'Ver mapa do sítio para';
 $string['wantedpages'] = 'Páginas desejadas';
+$string['wiki:manage'] = 'Gerir definições do wiki';
+$string['wiki:overridelock'] = 'Sobrepor páginas bloqueadas';
+$string['wiki:participate'] = 'Editar páginas wiki';
 $string['wikidefaultpagename'] = 'Índice do Wiki';
 $string['wikiexport'] = 'Exportar páginas';
 $string['wikiexportcomment'] = 'Aqui poderá adaptar a exportação às suas necessidades.';
