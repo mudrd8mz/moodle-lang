@@ -4,7 +4,7 @@
 
 $string['adminprimarynoedit'] = 'Os dados do administrador principal não podem ser editado
 s por outros';
-$string['cannotassignrole'] = 'Não pode atribuir papel na disciplina';
+$string['cannotassignrole'] = 'Não pode atribuir cargos na disciplina';
 $string['cannotcreatelangdir'] = 'Não é possível criar o directório para pacotes linguísticos';
 $string['cannotcreatetempdir'] = 'Não é possível criar o directório temporal';
 $string['cannotdownloadcomponents'] = 'Não é possível descarregar a cópia dos componentes';

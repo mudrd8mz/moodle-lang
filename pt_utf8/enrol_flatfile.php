@@ -4,11 +4,11 @@
 
 $string['description'] = 'Este método analisa e processa repetidamente um ficheiro de texto que você indica, com um formato específico.
 O ficheiro deverá ter quatro ou seis campos por linha, separados por vírgulas:<pre>
-* operação, papel, código (utilizador), código(disciplina) [, tempo_inicial, tempo_final]
+* operação, cargo, código (utilizador), código(disciplina) [, tempo_inicial, tempo_final]
 
 onde:
 * operação = add | del
-* papel = student | teacher | teacheredit
+* cargo = student | teacher | teacheredit
 * código(utilizador) = número de identificação na tabela de utilizadores
 * código(disciplina) = número de identificação na tabela de disciplinas
 * tempo_inicial = opcional - tempo de início (em segundos desde a época de referência)
