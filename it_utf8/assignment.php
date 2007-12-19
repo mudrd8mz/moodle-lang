@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7.1+ (2006101010)
+      // assignment.php - created with Moodle 1.9 Beta 3 (2007101505)
 
 
 $string['allowdeleting'] = 'Permettere rimozione';
@@ -25,6 +25,7 @@ $string['commentinline'] = 'Commento in linea';
 $string['configitemstocount'] = 'Natura degli item da contare per le consegne degli studenti nei compiti on-line.';
 $string['configmaxbytes'] = 'Dimensione massima del compito inviato per tutti i compiti del sito (modificabile da limiti del corso e altre impostazioni locali)';
 $string['confirmdeletefile'] = 'Sei assolutamente sicuro di voler rimuovere questo file?<br/><strong>$a</strong>';
+$string['deleteallsubmissions'] = 'Cancella tutte le consegne';
 $string['deletefilefailed'] = 'Rimozione del file fallita';
 $string['description'] = 'Descrizione';
 $string['draft'] = 'Bozza';

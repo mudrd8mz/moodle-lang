@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8 + (2007021502)
+      // resource.php - created with Moodle 1.9 Beta 3 (2007101505)
 
 
 $string['addresource'] = 'Aggiungi una risorsa';
@@ -121,6 +121,7 @@ $string['serverurl'] = 'Indirizzo del server (<strong>$a->wwwroot</strong>)';
 $string['showcourseblocks'] = 'visualizza i blocchi laterali presenti nella home page del corso';
 $string['skipsubmenus'] = 'Salta le pagine nei sotto-menu';
 $string['tableofcontents'] = 'Indice';
+$string['tableofcontentsabbrev'] = 'Indice';
 $string['upbutton'] = 'Torna Su';
 $string['variablename'] = 'Nome della variabile';
 $string['viewims'] = 'Visualizza pacchetto IMS';

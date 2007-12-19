@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta 2 (2007101504)
+      // admin.php - created with Moodle 1.9 Beta 3 (2007101505)
 
 
 $string['accessdenied'] = 'Accesso vietato';
@@ -21,6 +21,7 @@ $string['antivirus'] = 'Antivirus';
 $string['appearance'] = 'Aspetto';
 $string['aspellpath'] = 'Percorso d\'accesso a aspell';
 $string['authentication'] = 'Autenticazione';
+$string['autolang'] = 'Autorilevazione lingua';
 $string['autologinguests'] = 'Login automatico per gli ospiti';
 $string['availablelangs'] = 'Language Pack disponibili';
 $string['backgroundcolour'] = 'Colore trasparente';
@@ -60,6 +61,7 @@ $string['configallowusermailcharset'] = 'Abilitando questa opzione, ogni utente 
 $string['configallowuserthemes'] = 'Se abilitato, ogni utente potrà  ad impostare un proprio tema personale. I temi personali dell\'utente sovrascrivono i temi del sito. (ma non i temi di un corso).';
 $string['configallusersaresitestudents'] = 'Ai fini delle attività poste sulla pagina principale del sito, tutti gli utenti devono essere considerati studenti? Se si risponde \"Si\" allora ogni account utente confermato sarà  abilitato a partecipare come studente a queste attività . Se si risponde \"No\", allora solo gli utenti che sono anche studenti iscritti almeno ad un corso saranno abilitati a partecipare a queste attività  presenti nella pagina principale. Solo gli amministratori e i docenti speciali assegnati potranno comportarsi come docenti per queste attività  della pagina principale.';
 $string['configauthenticationplugins'] = 'Scegli i plugin di autenticazione e mettili in ordine di priorità di esecuzione. L\'auto-registrazione sarà gestita dal plugin selezionato nel campo \"Auto registrazione\" (di solito \"via email\").';
+$string['configautolang'] = 'Rileva la lingua di default dalle impostazioni del browser, se l\'opzione disabilitata sarà usata la lingua default del sito.';
 $string['configautologinguests'] = 'Abilitare automaticamente i visitatori occasionali a visitare i corsi (aperti agli ospiti) con accesso Ospite?';
 $string['configbloglevel'] = 'Questa impostazione permette di restringere il livello al quale i blog degli utenti possono essere visualizzati in questo sito. Notare che loro specificano il contesto massimo del VISITATORE non colui che scrive il messaggio o il tipo di messaggio del blog. I blog possono essere disabilitati completamente se non li volete completamente.';
 $string['configcachetext'] = 'Per siti molto ampi o siti che utilizzano filtri di testo, queste impostazioni possono davvero velocizzare molto la navigazione. Le copie dei testi saranno mantenute nella loro forma originaria per il tempo specificato qui. Impostazioni con valori di spazio molto ridotto potrebbero provocare un rallentamento generale, mentre Impostazioni con valori di spazio troppo ampi potrebbe portare a tempi troppo lunghi nel refresh dei testi principali (in caso di nuovi collegamenti, per esempio)';
@@ -96,10 +98,12 @@ $string['configdocroot'] = 'Definisce il percorso per la Documentazione di Moodl
 $string['configdoctonewwindow'] = 'Se viene abilitata questa opzione, il collegamenti a Moodle Docs verranno mostrati in una nuova finestra';
 $string['configeditordictionary'] = 'Questo valore sarà utilizzato se lo spell checker aspell non ha il dizionario per la lingua degli utenti.';
 $string['configeditorfontlist'] = 'Scegli i font di caratteri che devono apparire nella lista drop-down dell\'editor.';
+$string['configemoticons'] = 'Modifica il codice a sinistra in corrispondenza al nome dell\'emoticon. Per aggiungere nuovi emoticon, aggiungere un codice e un nome, poi aggiungere un\'immagine come nome.gif in /pix/s.';
 $string['configenableajax'] = 'Questa impostazione permette di controllare l\'uso di AJAX (interfacce avanzate client/server che utilizzano Javascript) in tutto il sito. Con questa impostazione abilitata gli utenti possono decidere di scegliere AJAX nel loro profilo, altrimenti AJAX è disabilitato per tutti.';
 $string['configenablecourserequests'] = 'Questa impostazione permette a qualunque utente di richiedere la creazione di un corso.';
 $string['configenableglobalsearch'] = 'Questa impostazione abilita la ricerca globale di testo nelle risorse e nelle attività. Non è compatibile con PHP 4.';
 $string['configenablegroupings'] = 'Questa impostazione abilita il raggruppamento di gruppi.';
+$string['configenablehtmlpurifier'] = 'Usa HTML Purifier invece di KSES per la pulizia di testo non affidabile. HTML Purifier è in continuo sviluppo ed è ritenuto più sicuro, ma consuma più risorse. Ci saranno meno differenze visibili nel codice html risultante. Notare che i tag embed e object non possono essere abilitati, i tag MathML e i vecchi tag lang non sono supportati.';
 $string['configenablerssfeeds'] = 'Questa impostazione attiva l\'alimentatore RSS (RSS Feeds) nel sito. Per visualizzare i cambiamenti bisognerà  attivare l\'alimentatore RSS anche nei moduli individuali: per farlo, andate in \'configurazione moduli\' nel pannello di Amministrazione.';
 $string['configenablerssfeedsdisabled'] = 'Non è attiva poiché l\'alimentatore RSS è disabilitato in tutto il sito. Per attivarlo, andate in \'configura variabili\' nel pannello di Amministrazione.';
 $string['configenablestats'] = 'Se qui viene scelto \'Si\'. All\'esecuzione del cron Moodle elaborerà  i log e genererà  alcune statistiche. La durata di questa operazione dipende dal traffico del vostro sito. Se viene abilitata questa impostazione sarete in grado di visualizzare alcuni grafici interessanti su ogni corso, o su tutto il sito.';
@@ -160,7 +164,7 @@ $string['configlongtimenosee'] = 'Se gli studenti non si sono collegati per molt
 $string['configlookahead'] = 'Giorni da anticipare';
 $string['configmaxbytes'] = 'Specifica il limite massimo dei file da trasferire sul sito. Questo valore dipende dalla impostazione della variabile \'upload_max_filesize\' in PHP e dalle impostazioni di \'LimitRequestBody\' in Apache.
 In alternativa, la dimensione massima può essere scelta a livello dei corsi o dei moduli. Se si sceglie \'Limite server\', sarà usato il massimo consentito dal server.';
-$string['configmaxeditingtime'] = 'Questo parametro specifica il tempo complessivo che gli utenti hanno a disposizione per modificare i loro messaggi sui forums, sul diario, per il feedback, ecc. Normalmente, 30 è un buon valore.';
+$string['configmaxeditingtime'] = 'Questo parametro specifica il tempo complessivo che gli utenti hanno a disposizione per modificare i loro interventi sui forums, sul diario, per il feedback, ecc. Normalmente, 30 è un buon valore.';
 $string['configmaxevents'] = 'Eventi da anticipare';
 $string['configmemcachedhosts'] = 'Per cache di tipo \"memcached\". Lista degli host, separati da virgole, che hanno attivo il daemon memcached. Usare indirizzi IP per evitare la DNS latency (tempo per la traduzione). La memcached non funziona bene se si aggiungono o rimuovono host durante il setup.';
 $string['configmemcachedpconn'] = 'Per cache di tipo \"memcached\". Uso di collegamenti persistenti. Usare attentamente -- può far andare in crash Apache/PHP dopo un restart del daemon memcached.';
@@ -172,10 +176,10 @@ $string['configminpasswordnonalphanum'] = 'Le password devono avere almeno quest
 $string['configminpasswordupper'] = 'Le password devono avere almeno questo numero di lettere maiuscole.';
 $string['configmymoodleredirect'] = 'Questa impostazione obbliga la ridirezione a /my all\'accesso per i non amministratori e sostituisce collegamento alla pagina principale del sito con /my';
 $string['confignonmetacoursesyncroleids'] = 'Per default tutte le iscrizioni dai corsi \"figli\" sono sincronizzate ai metacorsi. I ruoli che sono qui selezionati non saranno inclusi nel processo di sincronizzazione.';
-$string['confignoreplyaddress'] = 'Le mail a volte sono spedite a nome di un utente (per esempio, i messaggi dei forum). L\'indirizzo mail qui specificato sarà  utilizzato come l\'indirizzo \"Da\" cui proviene il messaggio,nei casi in cui il ricevente non è in grado di replicare direttamente all\'utente (per esempio, quando un utente decide di mantenere il suo indirizzo privato).';
+$string['confignoreplyaddress'] = 'Le mail a volte sono spedite a nome di un utente (per esempio, gli interventi dei forum). L\'indirizzo mail qui specificato sarà  utilizzato come l\'indirizzo \"Da\" cui proviene il messaggio,nei casi in cui il ricevente non è in grado di replicare direttamente all\'utente (per esempio, quando un utente decide di mantenere il suo indirizzo privato).';
 $string['confignotifyloginfailures'] = 'Se sono stati registrati accessi falliti, una mail di notifica può essere spedita. Chi deve ricevere queste notifiche?';
 $string['confignotifyloginthreshold'] = 'Se la notifica sugli accessi falliti è attiva, dopo quanti tentativi falliti per utente o per indirizzo IP la notifica deve essere inviata?';
-$string['confignotloggedinroleid'] = 'Gli utenti che non fanno login nel sito sono trattati come se questo ruolo fosse stato loro attribuito nel contesto del sito. L\'ospite è quasi sempre quello che si definisce qui, ma si possono voler creare ruoli che sono più o meno restrittivi. Comunque cose come \"scrivere messaggi in un forum\" ancora richiedono che l\'utente entri con un corretto login.';
+$string['confignotloggedinroleid'] = 'Gli utenti che non fanno login nel sito sono trattati come se questo ruolo fosse stato loro attribuito nel contesto del sito. L\'ospite è quasi sempre quello che si definisce qui, ma si possono voler creare ruoli che sono più o meno restrittivi. Comunque cose come \"scrivere interventi in un forum\" ancora richiedono che l\'utente entri con un corretto login.';
 $string['configopentogoogle'] = 'Se abilitate questa impostazione, Google potrà  entrare nel vostro sito come Ospite. Inoltre, chi arriverà  al vostro sito tramite Google verrà  automaticamente autenticato come Ospite. Nota che questa impostazione fornisce un accesso trasparente solo ai corsi che già  permettono l\'accesso agli ospiti.';
 $string['configpasswordpolicy'] = 'Attivando questa opzione Moodle controllerà le password utente in base a specifiche regole definite. Le impostazioni seguenti servono a specificare tali regole (queste saranno ignorate se questa opzione non è marcata).';
 $string['configpathtoclam'] = 'Percorso a Clam antivirus. Probabilmente, sarà  usr/bin/clamscan oppure /usr/bin/clamdscan.
@@ -306,6 +310,7 @@ $string['editorkillword'] = 'Filtro Word';
 $string['editorspelling'] = 'Spelling per editor';
 $string['editorspellinghelp'] = 'Abilita o disabilita lo spell-checking. Se abilitato <strong>aspell</strong> deve essere installato sul server.';
 $string['editstrings'] = 'Modifica stringhe';
+$string['emoticons'] = 'Emoticons (faccine)';
 $string['enableajax'] = 'Abilita AJAX';
 $string['enablecourserequests'] = 'Permetti richieste corsi';
 $string['enableglobalsearch'] = 'Abilita ricerca globale';
@@ -648,12 +653,12 @@ $string['updateaccounts'] = 'Aggiornare registrazioni esistenti';
 $string['updatecomponent'] = 'Aggiornare componenti';
 $string['updatelangs'] = 'Aggiornare tutti i language pack installati';
 $string['updatetimezones'] = 'Fusi orari';
-$string['upgradeforumread'] = 'Una nuova caratteristica è stata aggiunta a Moodle 1.5 per tracciare i messaggi letti/non letti di un forum.<br />Per utilizzarla, bisogna<a href=\"$a\">aggiornare le vostre tabelle</a>.';
+$string['upgradeforumread'] = 'Una nuova caratteristica è stata aggiunta a Moodle 1.5 per tracciare gli interventi letti/non letti di un forum.<br />Per utilizzarla, bisogna<a href=\"$a\">aggiornare le vostre tabelle</a>.';
 $string['upgradeforumreadinfo'] = 'Una nuova caratteristica è stata aggiunta da Moodle 1.5 per tracciare i messaggi letti/non letti di un forum. Per utilizzarla, bisogna aggiornare le vostre tabelle con tutte le informazioni di tracciamento dei messaggi pre-esistenti. Il tempo di esecuzione dipende dalle dimensioni del vostro sito e potrebbe durare anche ore, sottoponendo il server ad un lavoro gravoso. E\' dunque consigliabile farlo in un momento tranquillo. In ogni caso, il sito continuerà  a funzionare durante questa operazione e gli utenti non ne saranno interessati. Una volta lanciato, il processo non dovrebbe essere interrotto, lasciando aperta la finestra del browser. Se si fermasse il processo, chiudendo la finestra del browser, niente paura: si può sempre ricominciare. < br /><br />Si desidera iniziare adesso il processo di aggiornamento?';
 $string['upgradelogs'] = 'Per la piena funzionalità, i vostri vecchi log devono essere aggiornati. <a href=\"$a\">Ulteriori informazioni</a>';
 $string['upgradelogsinfo'] = 'Alcune modifiche hanno cambiato il modo in cui vengono salvati alcuni log. Per poter visualizzare tutti i vecchi log su una base di per-attività , è necessario aggiornarli. In base al tuo sito questa operazione può richiedere molto tempo (es alcune ore) e può essere grosso lavoro per la base dati dei siti grandi. Una volta che l\'aggiornamento è iniziato devi lasciarlo terminare (mantenendo la finestra del browser aperta). Non preoccuparti - il tuo sito continuerà  a lavorare correttamente mentre i log vengono aggiornati.<br /><br />Vuoi aggiornare i log ora?';
 $string['upgradesettings'] = 'Nuove impostazioni';
-$string['upgradesettingsintro'] = 'Le impostazioni mostrate sotto sono state aggiunte durante l\'ultimo tuo aggiornamento di Moodle. Apporta tutti i cambiamenti necessari ai valori default e poi clicca su \"Salva modifiche\" in fondo a questa pagina';
+$string['upgradesettingsintro'] = 'Le impostazioni sotto elencate sono state aggiunte durante l\'ultimo aggiornamento di Moodle. Apportare tutti i cambiamenti necessari ai valori default e poi cliccare su \"Salva modifiche\" in fondo a questa pagina';
 $string['upgradesure'] = 'I file di Moodle sono modificati, e si sta per aggiornare automaticamente la versione del server alla seguente versione:
 <p><b>$a</b></p>
 <p>Una volta effettuato questo non è possibile tornare indietro.</p>

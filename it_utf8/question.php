@@ -1,22 +1,74 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.8.2+ (2007021520)
+      // question.php - created with Moodle 1.9 Beta 3 (2007101505)
 
 
 $string['adminreport'] = 'Rapporto su possibili problemi nel tuo database di domande.';
+$string['broken'] = 'Questo è un \"link interrotto\", punta a un file inesistente.';
+$string['byandon'] = 'di <em>$a->user</em> il <em>$a->time</em>';
+$string['categorycurrent'] = 'Categoria corrente';
+$string['categorycurrentuse'] = 'Usa questa categoria';
 $string['categorydoesnotexist'] = 'Questa categoria non esiste';
+$string['categorymoveto'] = 'Salva in Categoria';
 $string['changepublishstatuscat'] = '<a href=\"$a->caturl\">La categoria \"$a->name\"</a> nel corso \"$a->coursename\" avrà il suo stato di condivisione cambiato da <strong>$a->changefrom a $a->changeto</strong>.';
+$string['copy'] = 'Copia da $a e cambia i link.';
+$string['created'] = 'Creata';
+$string['createdmodifiedheader'] = 'Creata/Ultimo salvataggio';
 $string['cwrqpfs'] = 'Domande \'a caso\' con domande da sotto-categorie.';
 $string['cwrqpfsinfo'] = '<p>Nell\'aggiornamento a Moodle 1.9 separeremo le categorie di domande in differenti contesti. Alcune categorie di domande e domande del tuo sito dovranno modificare il loro stato di condivisione. Questo sarà necessario nel raro caso che una o più domande \'a caso\' di un quiz sono definite in modo da pescare domande da un misto di categorie condivise e non (come nel caso di questo sito). Questo può succedere quando una domanda \'a caso\' è impostata per pescare domande da sotto-categorie e una o più sotto-categorie hanno uno stato di condivisione diverso da quello della categoria in cui la domanda \'a caso\' è creata.</p>
 <p>Nell\'aggiornamento a Moodle 1.9, le seguenti categorie di domande, dalle quali domande \'a caso\' pescano domande, avranno il loro stato di condivisione trasformato nello stato di condivisione della categoria di appartenenza della domanda \'a caso\'. Le domande interessate continueranno a funzionare in tutti i quiz in cui sono definite, finché non le rimuovi da tali quiz.</p>';
 $string['cwrqpfsnoprob'] = 'Nessuna categoria del tuo sito è affetta dal problema \'Domande a caso che pescano domande da sotto-categorie\'.';
+$string['defaultfor'] = 'Default per $a';
+$string['defaultinfofor'] = 'La categoria default per le domande condivise nel contesto \'$a\'.';
+$string['donothing'] = 'Non copiare o spostare files o cambiare links.';
+$string['editingcategory'] = 'Modifica una categoria';
 $string['editingquestion'] = 'Modifica una domanda';
+$string['erroraccessingcontext'] = 'Il contesto non può essere acceduto';
+$string['errorfilecannotbecopied'] = 'Errore: il file $a non può essere copiato.';
+$string['errorfilecannotbemoved'] = 'Errore: il file $a non può essere spostato.';
+$string['errorfileschanged'] = 'Errore: i files linkati dalle domande sono cambiati da quando è iniziata la visualizzazione di questo form.';
+$string['exportcategory'] = 'Esporta categoria';
+$string['filesareacourse'] = 'area files del corso';
+$string['filesareasite'] = 'area files del sito';
+$string['filestomove'] = 'Sposta / copia i file a $a?';
 $string['fractionsnomax'] = 'Una delle risposte dovrebbe avere un punteggio del 100%% perché sia possibile ottenere un voto pieno per questa domanda.';
+$string['getcategoryfromfile'] = 'Categoria da file';
+$string['getcontextfromfile'] = 'Contesto da file';
+$string['ignorebroken'] = 'Ignora link interrotti';
+$string['linkedfiledoesntexist'] = 'Il file linkato $a non esiste';
+$string['makechildof'] = 'Fai un discendente di \'$a\'';
+$string['maketoplevelitem'] = 'Muovi a livello Top';
 $string['missingimportantcode'] = 'In questo tipo di domanda manca una parte importante: <b>$a</b>.';
+$string['modified'] = 'Ultimo salvataggio';
+$string['move'] = 'Sposta da $a e modifica i link.';
+$string['movecategory'] = 'Sposta Categoria';
+$string['movelinksonly'] = 'Cambia solamente l\'indirizzamento dei link, non spostare o copiare i files.';
+$string['moveq'] = 'Sposta domande';
+$string['moveqtoanothercontext'] = 'Sposta domanda in un altro contesto';
+$string['movingcategory'] = 'Spostamento Categoria';
+$string['movingcategoryandfiles'] = 'Sei sicuro di voler spostare la categoria {$a->name} e tutte le sotto categorie nel contesto \"{$a->contextto}\"?<br /> Sono stati rilevati {$a->urlcount} files linkati da domande in {$a->fromareaname}, vuoi copiare o spostare questi in {$a->toareaname}?';
+$string['movingcategorynofiles'] = 'Sei sicuro di voler spostare la categoria \"{$a->name}\" e tutte le sottocategorie nel contesto \"{$a->tocontext}\"?';
+$string['movingquestions'] = 'Spostamento Domande e Files';
+$string['movingquestionsandfiles'] = 'Sei sicuro di voler spostare domande da {$a->questions} al contesto di <strong>\"{$a->tocontext}\"</strong>?<br /> Sono stati rilevati<strong>{$a->urlcount} files</strong> linkati da queste domande in {$a->fromareaname}, vuoi copiare o spostare questi files in {$a->toareaname}?.';
+$string['movingquestionsnofiles'] = 'Sei sicuro di voler spostare domande da {$a->questions} al contesto di <strong>\"{$a->tocontext}\"</strong>?<br /> <strong>Non ci sono files</strong> linkati da queste domande in {$a->fromareaname}.';
+$string['needtochoosecat'] = 'Devi scegliere una categoria dove spostare questa domanda oppure clicca su \'Annulla\'.';
+$string['nopermissionadd'] = 'Non sei autorizzato ad aggiungere domande qui.';
 $string['noprobs'] = 'Non trovato alcun problema nel tuo database delle domande.';
 $string['notenoughdatatoeditaquestion'] = 'Non è stato specificato un id di domanda, o un id di categoria e il tipo domanda.';
+$string['notenoughdatatomovequestions'] = 'Devi fornire l\'ID delle domande che vuoi spostare.';
+$string['permissionedit'] = 'Modifica questa domanda';
+$string['permissionmove'] = 'Sposta questa domanda';
+$string['permissionsaveasnew'] = 'Salva questa come una nuova domanda';
+$string['permissionto'] = 'Sei autorizzato a:';
 $string['published'] = 'condivise';
+$string['questionaffected'] = '<a href=\"$a->qurl\">La domanda \"$a->name\" ($a->qtype)</a> è in questa categoria ma è anche usata nel <a href=\"$a->qurl\">quiz \"$a->quizname\"</a> nell\'altro corso \"$a->coursename\".';
 $string['questionbank'] = 'Banco delle domande';
+$string['questioncatsfor'] = 'Categorie di domande per \'$a\'';
 $string['questiondoesnotexist'] = 'Questa domanda non esiste';
+$string['questionuse'] = 'Usa domanda in questa attività';
+$string['shareincontext'] = 'Condividi in contesto per $a';
+$string['tofilecategory'] = 'Scrivi categoria su file';
+$string['tofilecontext'] = 'Scrivi contesto su file';
+$string['unknown'] = 'Sconosciuto';
 $string['unknownquestiontype'] = 'Tipo domanda sconosciuto: <b>$a</b>.';
 $string['unpublished'] = 'non condivise';
 

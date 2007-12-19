@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 + (2007021502)
+      // glossary.php - created with Moodle 1.9 Beta 3 (2007101505)
 
 
 $string['addcomment'] = 'Aggiungi commento';
@@ -29,6 +29,7 @@ $string['categories'] = 'Categorie';
 $string['category'] = 'Categoria';
 $string['categorydeleted'] = 'Categoria cancellata';
 $string['categoryview'] = 'Ordina per categoria';
+$string['changeto'] = 'cambia a $a';
 $string['cnfallowcomments'] = 'Definisce se, di base, un glossario permette commenti sui termini';
 $string['cnfallowdupentries'] = 'Definisce se, di base, un glossario permette i termini duplicati';
 $string['cnfapprovalstatus'] = 'Definisce lo stato di approvazione di base per un termine aggiunto da uno studente';
@@ -51,12 +52,14 @@ $string['commentupdated'] = 'Il commento è stato aggiornato';
 $string['concept'] = 'Concetto';
 $string['concepts'] = 'Concetti';
 $string['configenablerssfeeds'] = 'Questa impostazione abilita l\'utilizzo degli RSS per tutti i glossari. E\' comunque necessario abilitarli manualmente nelle impostazioni di ogni glossario.';
+$string['current'] = 'Attualmente ordinato $a';
 $string['currentglossary'] = 'Glossario corrente';
 $string['dateview'] = 'Ordina per data';
 $string['defaultapproval'] = 'Approva i termini automaticamente';
 $string['definition'] = 'Definizione';
 $string['definitions'] = 'Definizioni';
 $string['deleteentry'] = 'Cancella termine';
+$string['deletenotenrolled'] = 'Cancella i termini degli utenti non iscritti';
 $string['deletingcomment'] = 'Cancellazione commento';
 $string['deletingnoneemptycategory'] = 'Cancellando questa categoria, non verranno comunque eliminati i termini in essa contenuti, ma saranno contrassegnati come non categorizzati. Se vuoi cancellare i termini, dovrai farlo manualmente.';
 $string['descending'] = '(decrescente)';
@@ -160,6 +163,8 @@ $string['ratingsuse'] = 'Utilizza le valutazioni';
 $string['ratingtime'] = 'Restringi la valutazione ai termini tra queste date:';
 $string['rejectedentries'] = 'Termini rifiutati';
 $string['rejectionrpt'] = 'Riepilogo termini rifiutati';
+$string['resetglossaries'] = 'Cancella i termini da';
+$string['resetglossariesall'] = 'Cancella i termini da tutti i glossari';
 $string['rsssubscriberss'] = 'Mostra gli RSS per \'$a\' concetti';
 $string['searchindefinition'] = 'Cerca anche nelle definizioni';
 $string['secondaryglossary'] = 'Glossario secondario';

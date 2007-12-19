@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.8 dev (2006101001)
+      // chat.php - created with Moodle 1.9 Beta 3 (2007101505)
 
 
 $string['beep'] = 'campanella';
@@ -11,8 +11,8 @@ $string['chatname'] = 'Nome di questa stanza di chat';
 $string['chatreport'] = 'Sessioni discussione';
 $string['chattime'] = 'Prossima ora di discussione';
 $string['configmethod'] = 'Il metodo normale della chat richiede che i client contattino regolarmente il server per gli aggiornamenti. Questo non richiede configurazioni e funziona dovunque, ma con molti utenti connessi può generare un grosso carico sul server. Utilizzare un server esterno richiede l\'utilizzo di una shell Unix, ma risulta essere un ambiente più facilmente ampliabile.';
-$string['confignormalupdatemode'] = 'Gli aggiornamenti delle chat sono normalmente forniti in modo efficiente utilizzando la funzionalità <em>Keep-Alive</em> del HTTP 1.1, ma questo è comunque gravoso per il server. Un metodo più avanzatoè quello di utilizzare la strategia <em>Stream</em> per fornire gli aggiornamenti agli utenti. Utilizzare <em>Stream</em> permette di scalare meglio (simile al metodo chatd) ma potrebbe non essere supportato dal vostro server.';
-$string['configoldping'] = 'Dopo quanto tempo di inattività  di un utente dobbiamo considerarlo uscito dalla chat?';
+$string['confignormalupdatemode'] = 'Gli aggiornamenti delle chat sono normalmente forniti in modo efficiente utilizzando la funzionalità <em>Keep-Alive</em> del HTTP 1.1, ma questo è comunque gravoso per il server. Un metodo più avanzato è quello di utilizzare la strategia <em>Stream</em> per fornire gli aggiornamenti agli utenti. Utilizzare <em>Stream</em> permette di scalare meglio (simile al metodo chatd) ma potrebbe non essere supportato dal vostro server.';
+$string['configoldping'] = 'Dopo quanto tempo di inattività di un utente dobbiamo considerarlo uscito dalla chat?';
 $string['configrefreshroom'] = 'Ogni quanto tempo deve essere aggiornata la chat (in secondi)? Impostando un valore basso la chat sembra essere più veloce, ma può determinare un grande carico sul web server quando molte persone sono collegate.';
 $string['configrefreshuserlist'] = 'Ogni quanto tempo deve essere aggiornata la lista degli utenti (in secondi)?';
 $string['configserverhost'] = 'Il nome del computer dove è locato il server';
@@ -48,6 +48,7 @@ $string['nomessages'] = 'Nessun messaggio ancora';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Nessuna sessione programmata';
+$string['removemessages'] = 'Rimuovi tutti i messaggi';
 $string['repeatdaily'] = 'Alla stessa ora tutti i giorni';
 $string['repeatnone'] = 'Nessuna ripetizione - pubblica solo l\'orario specificato';
 $string['repeattimes'] = 'Ripeti sessioni';

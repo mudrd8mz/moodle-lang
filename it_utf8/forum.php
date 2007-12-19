@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 Beta 2 (2007101504)
+      // forum.php - created with Moodle 1.9 Beta 3 (2007101505)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
@@ -100,7 +100,7 @@ $string['forumblockingalmosttoomanyposts'] = 'Stai per raggiungere il limite deg
 $string['forumbodyhidden'] = 'Questo intervento non può essere visualizzato, probabilmente perché non hai ancora effettuato interventi nella discussione.';
 $string['forumintro'] = 'Introduzione al forum';
 $string['forumname'] = 'Nome del forum';
-$string['forumposts'] = 'Messaggi del Forum';
+$string['forumposts'] = 'Interventi nei Forum';
 $string['forums'] = 'Forum';
 $string['forumsubjecthidden'] = 'Oggetto (nascosto)';
 $string['forumtracked'] = 'Gli interventi non letti sono tracciati';
@@ -122,7 +122,7 @@ $string['markreadbutton'] = 'Segna come <br/> letto';
 $string['markunread'] = 'Segna come non letto';
 $string['markunreadbutton'] = 'Segna come <br/> non letto';
 $string['maxattachmentsize'] = 'Dimensione massima dell\'allegato';
-$string['maxtimehaspassed'] = 'Spiacenti ma il tempo massimo concesso per modificare questo messaggio ($a) è trascorso!';
+$string['maxtimehaspassed'] = 'Spiacenti ma il tempo massimo concesso per modificare questo intervento ($a) è trascorso!';
 $string['message'] = 'Messaggio';
 $string['missingsearchterms'] = 'I seguenti termini di ricerca si presentano soltanto nel marcatore HTML di questo messaggio:';
 $string['modeflatnewestfirst'] = 'Mostra le repliche in formato lineare, con le più recenti all\'inizio';

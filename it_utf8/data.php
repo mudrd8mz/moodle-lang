@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 + (2007021503)
+      // data.php - created with Moodle 1.9 Beta 3 (2007101505)
 
 
 $string['action'] = 'Azione';
@@ -8,11 +8,13 @@ $string['addafield'] = 'Aggiungi un campo';
 $string['addcomment'] = 'Aggiungi un commento';
 $string['addentries'] = 'Aggiungi record';
 $string['addtemplate'] = 'Modello: Agg./Mod.record';
+$string['advancedsearch'] = 'Ricerca avanzata';
 $string['allowcomments'] = 'Permettere commenti?';
 $string['allowratings'] = 'Valutazione dei record inseriti';
 $string['alttext'] = 'Testo alternativo';
 $string['approve'] = 'Approva';
 $string['ascending'] = 'Ascendente';
+$string['asearchtemplate'] = 'Modello ricerca avanzata';
 $string['atmaxentry'] = 'È stato inserito il massimo numero consentito di record!';
 $string['autogenallforms'] = 'Imposta automaticamente i modelli di visualizzazione';
 $string['autolinkurl'] = 'Collega automaticamente la URL';
@@ -32,7 +34,7 @@ $string['commentempty'] = 'Il commento era vuoto';
 $string['comments'] = 'Commenti ai record';
 $string['commentsaved'] = 'Il commento è stato salvato';
 $string['commentsn'] = '<strong>$a</strong> commento(i)';
-$string['configenablerssfeeds'] = 'Questa impostazione consente di generare feed RSS per tutti i Database. Per generare il feed RSS, sarà  necessario abilitare manualmente l\'impostazione per ciascun Database.';
+$string['configenablerssfeeds'] = 'Questa impostazione consente di generare feed RSS per tutti i Database. Per generare il feed RSS, sarà necessario abilitare manualmente l\'impostazione per ciascun Database.';
 $string['confirmdeletefield'] = 'Stai per eliminare questo campo. Ne sei certo?';
 $string['confirmdeleterecord'] = 'Stai per eliminare questo record. Ne sei certo?';
 $string['csstemplate'] = 'Foglio di stile CSS';
@@ -56,9 +58,11 @@ $string['defaultfielddelimiter'] = '(in genere è il carattere virgola)';
 $string['defaultfieldenclosure'] = '(in genere non è nessun carattere)';
 $string['defaultsortfield'] = 'Campo da utilizzare per l\'ordinamento';
 $string['delete'] = 'Elimina';
+$string['deleteallentries'] = 'Cancella tutti i record';
 $string['deletecomment'] = 'Sei certo di voler eliminare questo commento?';
 $string['deleted'] = 'è stato eliminato';
 $string['deletefield'] = 'Elimina un campo esistente';
+$string['deletenotenrolled'] = 'Cancella i record degli utenti non iscritti';
 $string['deletewarning'] = 'Stai per eliminare questa preimpostazione. Ne sei certo?';
 $string['descending'] = 'Discendente';
 $string['directorynotapreset'] = '$a->directory Non è una preimpostazione: files mancanti: $a->missing_files';
@@ -105,6 +109,7 @@ $string['forcelinkname'] = 'Nome';
 $string['fromfile'] = 'da un file .zip';
 $string['header'] = 'Intestazione';
 $string['headeraddtemplate'] = 'Imposta come apparirà il form di inserimento o modifica dei record.';
+$string['headerasearchtemplate'] = 'Definisce l\'interfaccia per Ricerche avanzate';
 $string['headercsstemplate'] = 'Imposta un Foglio di stile CSS che verrà utilizzato con i Modelli di visualizzazione di questo Database.';
 $string['headerjstemplate'] = 'E\' possibile scrivere del codice Javascript che sarà usato nei Modelli di visualizzazione';
 $string['headerlisttemplate'] = 'Imposta come apparirà l\'interfaccia di navigazione per la visualizzazione \"Elenco\"';
@@ -192,6 +197,7 @@ $string['recordssaved'] = 'record salvati';
 $string['requireapproval'] = 'E\' necessaria l\'approvazione dei record inseriti';
 $string['requiredentries'] = 'Numero minimo di record da inserire';
 $string['requiredentriestoview'] = 'Numero minimo di record da inserire prima di poter visualizzare il Database';
+$string['resetsettings'] = 'Reimposta campi';
 $string['resettemplate'] = 'Reimposta il modello';
 $string['resizingimages'] = 'Ridimensionamento anteprima immagini in corso...';
 $string['rows'] = 'righe';
@@ -206,6 +212,7 @@ $string['saveaspreset'] = 'Salva preimpostazione';
 $string['savesettings'] = 'Salva le impostazioni';
 $string['savesuccess'] = 'Le preimpostazioni sono state salvate. Queste preimpostazioni saranno disponibili in tutto il sito.';
 $string['savetemplate'] = 'Salva il modello di visualizzazione';
+$string['search'] = 'Cerca';
 $string['sendinratings'] = 'Invia le mie più recenti valutazioni';
 $string['showall'] = 'Mostra tutti i record';
 $string['single'] = 'Dettagli';

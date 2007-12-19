@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7+ (2006101009)
+      // lesson.php - created with Moodle 1.9 Beta 3 (2007101505)
 
 
 $string['accesscontrol'] = 'Controllo accesso';
@@ -62,6 +62,7 @@ $string['credit'] = 'Credito';
 $string['customscoring'] = 'Valutazione dei risultati';
 $string['deadline'] = 'Fino al';
 $string['defaultessayresponse'] = 'Il tuo testo sarà valutato dal docente del corso.';
+$string['deleteallattempts'] = 'Cancella tutti i tentativi della lezione';
 $string['deletedefaults'] = 'Eliminata $a di default per lezione';
 $string['deletedpage'] = 'Pagina cancellata';
 $string['deleting'] = 'Cancellazione';
@@ -81,7 +82,6 @@ $string['displayreview'] = 'Mostra pulsante per revisione';
 $string['displayscorewithessays'] = 'Hai ottenuto $a->score su $a->tempmaxgrade per le domande valutate automaticamente.<br>Le tue $a->essayquestions domande a testo libero saranno valutate prossimamente e il voto sarà aggiunto<br />nel tuo punteggio finale.<br /><br />La tua valutazione attuale senza le domande a testo libero è $a->score su $a->grade';
 $string['displayscorewithoutessays'] = 'Il tuo punteggio è $a->score (su $a->grade).';
 $string['edit'] = 'Modifica';
-$string['editlesson'] = 'Modifica $a';
 $string['editlessonsettings'] = 'Modifica impostazioni lezione';
 $string['editpagecontent'] = 'Modifica contenuto pagina';
 $string['email'] = 'Invia per email';
@@ -130,8 +130,10 @@ $string['leftduringtimed'] = 'Hai abbandonato durante una lezione a tempo.<br />
 $string['leftduringtimednoretake'] = 'Hai abbandonato durante una lezione a tempo e <br />non puoi riprovare o continuare la lezione.';
 $string['lesson:edit'] = 'Modifica una attività della lezione';
 $string['lesson:manage'] = 'Gestisci una attività della lezione';
+$string['lessonattempted'] = 'Lezione provata';
 $string['lessonclosed'] = 'Questa lezione è stata chiusa il $a.';
-$string['lessoncloses'] = 'La lezione chiude';
+$string['lessoncloses'] = 'La lezione viene chiusa';
+$string['lessoncloseson'] = 'La lezione viene chiusa il';
 $string['lessondefault'] = 'Usa le impostazioni di questa lezione come default';
 $string['lessonformating'] = 'Formato della lezione';
 $string['lessonmenu'] = 'Menu della lezione';
@@ -144,7 +146,6 @@ $string['linkedmedia'] = 'Media linkati';
 $string['loginfail'] = 'Login fallito, prova ancora...';
 $string['lowscore'] = 'Voti peggiori';
 $string['lowtime'] = 'Tempi peggiori';
-$string['mainmenu'] = 'Menu corso';
 $string['manualgrading'] = 'Valuta i testi';
 $string['matchesanswer'] = 'Corrisponde con la risposta';
 $string['maxhighscores'] = 'Numero di voti migliori da mostrare';
@@ -237,7 +238,6 @@ $string['redisplaypage'] = 'Rivisualizza pagina';
 $string['report'] = 'Risultati';
 $string['reports'] = 'Risultati';
 $string['response'] = 'Replica';
-$string['returnmainmenu'] = 'Ritorna al menu principale';
 $string['returnto'] = 'Indietro a <b>$a</b>';
 $string['returntocourse'] = 'Ritorna al corso';
 $string['review'] = 'Revisione';
@@ -295,11 +295,15 @@ $string['whatdofirst'] = 'Cosa vuoi fare prima?';
 $string['wronganswerjump'] = 'Per risposta errata salta a';
 $string['wronganswerscore'] = 'Punteggio per risposta errata';
 $string['wrongresponse'] = 'Replica a risposta errata';
+$string['xattempts'] = '$a tentativi';
 $string['youhaveseen'] = 'Hai già  visto più di una pagina di questa lezione. <br />Vuoi iniziare dall\'ultima pagina visitata?';
 $string['youmadehighscore'] = 'Fatto sulla lista dei $a voti migliori.';
 $string['youranswer'] = 'La tua risposta';
 $string['yourcurrentgradeis'] = 'La tua attuale valutazione è $a';
 $string['yourcurrentgradeisoutof'] = 'La tua attuale valutazione è $a->grade su $a->total';
 $string['youshouldview'] = 'Devi rispondere almeno: $a';
+$string['editlesson'] = 'Modifica $a'; // ORPHANED
+$string['mainmenu'] = 'Menu corso'; // ORPHANED
+$string['returnmainmenu'] = 'Ritorna al menu principale'; // ORPHANED
 
 ?>
