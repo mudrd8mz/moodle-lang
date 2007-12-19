@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.6 (2006050506)
+      // enrol_imsenterprise.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['aftersaving...'] = 'Uma vez guardadas as suas definições, poderá querer';
@@ -16,8 +16,10 @@ $string['doitnow'] = 'executar uma importação IMS Enterprise agora mesmo';
 $string['enrolname'] = 'Ficheiro IMS Enterprise';
 $string['filelockedmail'] = 'O ficheiro de texto que está a utilizar nas inscrições baseadas no IMS ($a) não pode ser apagado  pelo processo Cron. Isto normalmente significa que as permissões estão erradas. Por favor verifique as permissões para que o Moodle possa apagar o ficheiro, caso contrário irá ser processado repetidamente.';
 $string['filelockedmailsubject'] = 'Erro grave: Ficheiro de inscrições';
-$string['fixcasepersonalnames'] = 'Mudar nomes pessoais para o do Título ';
+$string['fixcasepersonalnames'] = 'Mudar nomes pessoais para o do Título';
 $string['fixcaseusernames'] = 'Alterar nomes de utilizador para letra pequena';
+$string['imsrolesdescription'] = 'A especificação IMS Enterprise inclui 8 tipos distintos de cargos.
+Por favor, escolha como quer que eles sejam atribuídos no Moodle, incluindo se quer que algum deles deva ser ignorado.';
 $string['location'] = 'Localização de ficheiro';
 $string['logtolocation'] = 'Localização da saída do log (em branco para não logar)';
 $string['mailadmins'] = 'Informar administradores por email';
@@ -27,7 +29,7 @@ $string['processphoto'] = 'Adicionar dados da fotografia do utilizador';
 $string['processphotowarning'] = 'Aviso: ao processar uma imagem é provável ocorrer uma lentidão no servidor. Não é recomendado activar esta opção se houver um grande número de alunos a processar.';
 $string['restricttarget'] = 'Apenas dados de processamento se o seguinte objectivo for especificado';
 $string['sourcedidfallback'] = 'Utilize o &quot;sourcedid&quot; para o nome de utilizador se &quot;userid&quot; o campo não for encontrado';
-$string['truncatecoursecodes'] = 'Truncados códigos do curso a este comprimento ';
+$string['truncatecoursecodes'] = 'Truncados códigos do curso a este comprimento';
 $string['usecapitafix'] = 'Ajeite esta caixa se utilizar &quot;Capita&quot; (o seu formato XML é ligeiramente errado)';
 $string['usersettings'] = 'Opções dos dados do utilizador';
 $string['zeroisnotruncation'] = '0 indica que não há truncagem';
