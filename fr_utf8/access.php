@@ -24,5 +24,4 @@ $string['tocontent'] = 'Passer au contenu principal';
 $string['tonavigation'] = 'Vers la navigation';
 $string['youarehere'] = 'Vous êtes ici';
 
-
 ?>
