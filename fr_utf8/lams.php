@@ -15,7 +15,7 @@ $string['notsetup'] = 'NOT_SET_UP';
 $string['openauthor'] = 'Ouvrir LAMS Author';
 $string['openlearner'] = 'Ouvrir LAMS Learner';
 $string['openmonitor'] = 'Ouvrir LAMS Monitor';
-$string['refreshSequenceList']  = 'Rafraîchir la liste des séquences';
+$string['refreshSequenceList']  = 'Actualiser la liste des séquences';
 $string['selectExistingSequence'] = 'Sélectionner une séquence existante ou en créer une nouvelle.';
 $string['sequence'] = 'Sélectionner séquence';
 $string['serverid'] = 'Saisissez l\'identifiant du serveur (server ID) reçu de <a href=\"http://www.lamsinternational.com\">LAMS international</a>.';
