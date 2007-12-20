@@ -1,29 +1,27 @@
 <?PHP // $Id$ 
-      // block_glossary_random.php - created with Moodle 1.6 development (2005072200)
+      // block_glossary_random.php - created with Moodle 1.9 Beta 3 (2007101505)
 
 
-$string['addentry'] = 'dodaj swój ulubiony cytat';
-$string['askaddentry'] = 'Jak użytkownik doda słowo do słownika pokaż link w tekście.';
-$string['askinvisible'] = 'Jeżeli użytkownik nie może używać słownika nie pokazuj linków do wytłumaczonych słów';
-$string['askviewglossary'] = 'Jeżeli użytkownik może używać słownik pokazuj linki do wytłumaczonych słów';
-$string['blockname'] = 'losowy wybór słownika pojęć';
-$string['intro'] = 'Upewnij się że jest co najmniej jeden słownik dodny do tego kursu. Potem możesz zmieniać parametry';
-$string['invisible'] = 'cąg dalszy nastąpi';
-$string['lastmodified'] = 'ostatnio zmodyfikowane hasło';
-$string['nextone'] = 'następne hasło';
-$string['noentriesyet'] = 'nie ma szykanego hasła w wybranym słowniku';
-$string['notyetconfigured'] = 'Prosze skonfigurawać słownik używając ikon edycji';
+$string['addentry'] = 'Dodaj ulubione cytaty';
+$string['askaddentry'] = 'Pokaż link w tekście, kiedy użytkownik doda pojęcia do słownika.';
+$string['askinvisible'] = 'Jeżeli użytkownik nie może korzystać ze słownika, nie pokazuj linków do pojęć';
+$string['askviewglossary'] = 'Jeżeli użytkownik może korzystać ze słownika, pokazuj linki do pojęć';
+$string['blockname'] = 'Losowe pojęcie ze słownika';
+$string['intro'] = 'Upewnij się, że co najmniej jeden słownik jest dodany do tego kursu. Potem możesz zmieniać parametry.';
+$string['invisible'] = 'ciąg dalszy nastąpi';
+$string['lastmodified'] = 'Ostatnio zmodyfikowane pojęcie';
+$string['nextone'] = 'Następne pojęcie';
+$string['noentriesyet'] = 'Nie ma szukanego hasła w wybranym słowniku';
+$string['notyetconfigured'] = 'Skonfiguruj słownik używając ikon edycji';
 $string['notyetglossary'] = 'Musisz mieć co najmniej jeden słownik';
-$string['random'] = 'losowy wybór słów';
-$string['refresh'] = 'odśwież zanim wybierzesz nowe hasło';
-$string['select_glossary'] = 'pobierz hasło z tego słownika';
-$string['showconcept'] = 'pokaż nagłówek dla każdego hasła';
-$string['title'] = 'tytuł';
+$string['random'] = 'Losowe pojęcie';
+$string['refresh'] = 'Po ilu dniach jest losowane nowe pojęcie';
+$string['select_glossary'] = 'Wybieraj pojęcia z tego słownika';
+$string['showconcept'] = 'Pokaż nagłówek dla każdego hasła';
+$string['title'] = 'Tytuł';
 $string['type'] = 'Jak nowe hasło jest wybierane';
-$string['typehelp'] = '<b>Ostatnia modyfikacja</b>zawsze będzie pokazywać hasła, które ostatnio były modyfikowane,<b>Losowe hasła</b> będzie wybierać hasło na chybił trafił za każdym razem. Wybór <b>Następne hasło</b> będzie powtarzać w koło hasła. Ostatnia opcja jest szczególnie użyteczna kiedy liczba dni także jest wybierana, pozwala wyświetlać <i>cytat tygodnia</i> albo <i> wiadomość dnia<i/>. 
-
-';
-$string['viewglossary'] = 'więcej cytatowań';
-$string['whichfooter'] = 'Pozwala pokazać łącza do bloków słownika. Blok będzie pokazywał łącza tylko do słowników, do których będzie miał upoważnienie.';
+$string['typehelp'] = 'Opcja <b>Ostatnio zmodyfikowane pojęcie</b>zawsze wyświetli hasło, które zostało ostatnio zmodyfikowane.<b>Losowe hasła</b>będzie losowo wybierać nowe hasło. Wybór <b>Następne hasło</b> będzie kolejno powtarzać hasła. Ta opcja jest szczególnie przydatna, kiedy liczba dni także jest wybierana, co pozwala wyświetlać <i>Cytat tygodnia</i> albo <i> Poradę dnia<i/>.';
+$string['viewglossary'] = 'Więcej cytatów';
+$string['whichfooter'] = 'Można wyświetlać linki do słownika, z którym jest związany ten blok. Blok pokaże linki tylko do słowników, do których będzie miał upoważnienie.';
 
 ?>

@@ -68,5 +68,8 @@ $string['viewtable'] = 'Wyświetl raport jako jedną tabelę';
 $string['viewweek'] = 'Wyświetl wszystkie listy obecności z danego tygodnia';
 $string['wednesday'] = 'Śr';
 $string['weekmodulename'] = 'Wszystkie listy obecności w ostatnim tygodniu ';
+$string['autoattend'] = 'Automatycznie sprawdź obecność, opierając się na dziennikach aktywności użytkownika';
+$string['autoattendmulti'] = 'Automatycznie sprawdź wszystkie listy obecności, opierając się na dziennikach aktywności użytkownika';
+$string['noviews'] = 'Przepraszamy, ale nie mamy danych dla Twojego konta';
 
 ?>

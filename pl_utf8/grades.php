@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.6.1+ (2006050512)
+      // grades.php - created with Moodle 1.9 Beta 3 (2007101505)
 
 
 $string['addcategory'] = 'Dodaj kategorię';
 $string['addcategoryerror'] = 'Nie można dodać kategorii';
-$string['addexceptionerror'] = 'Błąd podaczas dodawania wyjątku dla userid:gradeitem';
+$string['addexceptionerror'] = 'Błąd podczas dodawania wyjątku dla userid:gradeitem';
 $string['allgrades'] = 'Wszystkie stopnie w kategorii';
 $string['allstudents'] = 'Wszyscy studenci';
 $string['average'] = 'Średnia';
@@ -13,7 +13,7 @@ $string['categories'] = 'Kategorie';
 $string['category'] = 'Kategoria';
 $string['choosecategory'] = 'Wybierz kategorię';
 $string['creatinggradebooksettings'] = 'Tworzenie ustawień dziennika ocen';
-$string['curveto'] = 'Zagnij do';
+$string['curveto'] = 'Zaokrąglaj do';
 $string['deletecategory'] = 'Usuń kategorię';
 $string['displaylettergrade'] = 'Pokazuj stopnie';
 $string['displaypercent'] = 'Pokazuj procenty';
@@ -22,9 +22,9 @@ $string['displayweighted'] = 'Pokazuj ważone stopnie';
 $string['dropped'] = 'Usunięto';
 $string['dropxlowest'] = 'Usuń najniższe X';
 $string['dropxlowestwarning'] = 'Wskazówka:Ilość odrzuconych dla danej kategorii powinna mieć taką samą wartość, w przeciwnym razie wyniki mogą być niedokładne.';
-$string['errorgradevaluenonnumeric'] = 'Otrzymano nienumeryczną wartośćdla najniższej i najwyższej oceny';
+$string['errorgradevaluenonnumeric'] = 'Otrzymano nienumeryczną wartość dla najniższej i najwyższej oceny';
 $string['errornocategorizedid'] = 'Brak id **uncategorized**';
-$string['errornocourse'] = 'Brak  informacji o kursie';
+$string['errornocourse'] = 'Brak informacji o kursie';
 $string['errorreprintheadersnonnumeric'] = 'Otrzymano nienumeryczną wartość dla powtórzeń nagłówka';
 $string['exceptions'] = 'Wyjątki';
 $string['excluded'] = 'Wykluczony';
@@ -32,10 +32,10 @@ $string['extracredit'] = 'Ekstra kredyt';
 $string['extracreditwarning'] = 'Uwaga: ustawienie wszystkich danych jako opcji dodatkowej dla wyszczególnionej kategorii może skutkować niespodziewanymi wynikami. Nie będzie uwzględniony w wyniku ogólnym.';
 $string['forstudents'] = 'Dla studentów';
 $string['gradebook'] = 'Dziennik ocen';
-$string['gradebookhiddenerror'] = 'Dziennik ocen jest obecnie nie dostępny dla studentów.';
-$string['gradecategoryhelp'] = 'Pomoc do oceny kategorii';
+$string['gradebookhiddenerror'] = 'Dziennik ocen jest obecnie niedostępny dla studentów.';
+$string['gradecategoryhelp'] = 'Pomoc do kategorii oceny';
 $string['gradeexceptions'] = 'Wyjątki przy ocenianiu';
-$string['gradeexceptionshelp'] = 'Pomoc do wyjątki przy ocenianiu';
+$string['gradeexceptionshelp'] = 'Pomoc do wyjątków przy ocenianiu';
 $string['gradehelp'] = 'Pomoc do ocen';
 $string['gradeitem'] = 'Ocena';
 $string['gradeitemaddusers'] = 'Wyklucz z listy ocenianych';
@@ -45,7 +45,7 @@ $string['gradeitemremovemembers'] = 'Dołącz do listy ocenianych';
 $string['gradeitems'] = 'Oceny';
 $string['gradeletter'] = 'Nazwy stopni';
 $string['gradeletterhelp'] = 'Pomoc do nazwy stopni';
-$string['gradeletternote'] = 'Żeby usunąć oznaczenie literowe stopnia, zostaw puste pole i kliknij \"zachowaj zmiany\"';
+$string['gradeletternote'] = 'Żeby usunąć literowe stopnie, zostaw puste pole i kliknij \"Zachowaj zmiany\".';
 $string['gradepreferenceshelp'] = 'Pomoc do właściwości oceny';
 $string['grades'] = 'Stopnie';
 $string['gradeweighthelp'] = 'Pomoc do wag stopni';
@@ -77,7 +77,7 @@ $string['nomode'] = 'Bez trybu';
 $string['nonnumericweight'] = 'Otrzymano nienumeryczną wartość';
 $string['nonweightedpct'] = 'Nieważony %%';
 $string['notteachererror'] = 'Tej opcji może używać tylko nauczyciel';
-$string['pctoftotalgrade'] = '%% w całości oceny';
+$string['pctoftotalgrade'] = '%% z całości oceny';
 $string['percent'] = 'procent';
 $string['percentascending'] = 'Sortuj wg procentów rosnąco';
 $string['percentdescending'] = 'Sortuj wg procentów malejąco';
@@ -123,5 +123,6 @@ $string['weightedpct'] = 'waga %%';
 $string['weightedpctcontribution'] = 'udział %% wag';
 $string['writinggradebookinfo'] = 'zapisz ustawienia';
 $string['yes'] = 'Tak';
+$string['yourgrade'] = 'Twoja ocena';
 
 ?>

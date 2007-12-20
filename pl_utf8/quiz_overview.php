@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 1.6.1+ (2006050512)
+      // quiz_overview.php - created with Moodle 1.9 Beta 3 (2007101505)
 
 
-$string['allattempts'] = 'Pokaż wszystkie próby';
+$string['allattempts'] = 'Pokaż wszystkie podejścia';
 $string['allstudents'] = 'Pokaż wszystkie $a';
-$string['attemptsonly'] = 'Pokaż tylko $a prób';
-$string['noattemptsonly'] = 'Pokaż tylko $a bez prób';
+$string['attemptsonly'] = 'Pokaż tylko $a z podejściami';
+$string['noattemptsonly'] = 'Pokaż tylko $a bez podejść';
 $string['overview'] = 'Podgląd';
 $string['overviewdownload'] = 'Pobierz podgląd';
 

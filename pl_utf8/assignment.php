@@ -1,116 +1,118 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 Beta + (2007082803)
+      // assignment.php - created with Moodle 1.9 Beta 3 (2007101505)
 
 
-$string['allowdeleting'] = 'Zezwalaj na kasowanie';
-$string['allowmaxfiles'] = 'Maksymalna liczba załadowanych plików';
-$string['allownotes'] = 'Zezwalaj na notatki';
-$string['allowresubmit'] = 'Pozwolić na powtórne dostarczenie';
+$string['allowdeleting'] = 'Zezwalaj na kasowanie przesłanych plików';
+$string['allowmaxfiles'] = 'Maksymalna liczba plików, które można przesłać';
+$string['allownotes'] = 'Zezwalaj na zamieszczanie przypisów do oddawanego zadania';
+$string['allowresubmit'] = 'Zezwalaj na ponowne przesłanie';
 $string['assignment:grade'] = 'Oceń zadanie';
 $string['assignment:submit'] = 'Zgłoś zadanie';
 $string['assignment:view'] = 'Zobacz zadanie';
-$string['assignmentdetails'] = 'Szczegóły zadnia';
-$string['assignmentmail'] = '$a->teacher wyłał(a) informację zwrotną dotyczącą Twojego przesłanego zadania dla \'$a->assignment\'
+$string['assignmentdetails'] = 'Szczegóły zadania';
+$string['assignmentmail'] = '$a->nauczyciel przesłał informację zwrotną do Twojego zadania \'$a->assignment\'
 
-Możesz zobaczyć ją. Jest dołączona do wysłanego przez Ciebie zadania $a->url';
-$string['assignmentmailhtml'] = '$a->teacher wysłał(a) informację zwrotną dotyczącą Twojego przesłanego zadania dla \'<i>$a->assignment</i>\'<br /><br />
-Możesz zobaczyć ją. Jest dołączona do wysłanego przez Ciebie zadania <a href=\"$a->url\">przesłane zadanie</a>.';
+Informację zwrotną znajdziesz jako załącznik do zadania:
+
+$a->url';
+$string['assignmentmailhtml'] = '$a->nauczyciel zamieścił informację zwrotną do oddanego zadania \'<i>$a->zadanie</i>\'<br /><br />
+Znajdziesz ją jako załącznik do <a href=\"$a->url\">oddanego zadania</a>.';
 $string['assignmentname'] = 'Nazwa zadania';
 $string['assignmenttype'] = 'Typ zadania';
 $string['availabledate'] = 'Dostępne od';
 $string['comment'] = 'Komentarz';
-$string['commentinline'] = 'Komentarz';
-$string['configmaxbytes'] = 'Domyślny maksymalny rozmiar wszystkich zadań w serwisie (możliwy do ograniczenia na poziomie kursu bądź w innych ustawieniach lokalnych)';
-$string['confirmdeletefile'] = 'Czy jesteś pewien że chcesz skasować plik?<br /><strong>$a</strong>';
-$string['deletefilefailed'] = 'Skasowanie pliku niepowiodło się';
+$string['commentinline'] = 'Komentarz wewnątrzliniowy';
+$string['configitemstocount'] = 'Co ma być traktowane jako oddane zadanie w zadaniu online.';
+$string['configmaxbytes'] = 'Standardowy dopuszczalny rozmiar zadania dla wszystkich zadań (zależy od limitów w kursach i innych lokalnych ustawień)';
+$string['confirmdeletefile'] = 'Czy na pewno chcesz skasować plik?<br /><strong>$a</strong>';
+$string['deleteallsubmissions'] = 'Usuń wszyskie przesłane zadania';
+$string['deletefilefailed'] = 'Skasowanie pliku nie powiodło się';
 $string['description'] = 'Opis';
 $string['draft'] = 'Wersja robocza';
-$string['duedate'] = 'Wymagane do';
-$string['duedateno'] = 'Brak terminu przesłania';
+$string['duedate'] = 'Termin oddania';
+$string['duedateno'] = 'Brak terminu oddania';
 $string['early'] = '$a wcześnie';
-$string['editmysubmission'] = 'Zmodyfikuj moją przesłaną pracę';
-$string['emailstudents'] = 'Ostrzeżenie emailowe do studentów';
-$string['emailteachermail'] = '$a->username zmodyfikował(a) swoją przesłana wcześniej pracę do \'$a->assignment\'
+$string['editmysubmission'] = 'Edytuj moje zadanie';
+$string['emailstudents'] = 'Wyślij powiadomienie do studentów';
+$string['emailteachermail'] = '$a->username uaktualnił oddane zadanie \'$a->assignment\'
 
-Jest ona dostępna tutaj:
+Zadanie jest dostępne tutaj:
 
 $a->url';
-$string['emailteachermailhtml'] = '$a->username zaktualizował przesłaną już wcześniej pracę do <i>\'$a->assignment\'</i><br /><br />
-Jest ona <a href=\"$a->url\"> dostępna na stronie.</a>.';
-$string['emailteachers'] = 'Powiadomienia e-mailem do prowadzącego';
-$string['emptysubmission'] = 'Dotychczas, niczego jeszcze nie przesłałeś';
-$string['existingfiledeleted'] = 'Istniejący plik został usunięty: $a';
-$string['failedupdatefeedback'] = 'Błąd przy aktualizacji wysyłki';
+$string['emailteachermailhtml'] = '$a->username uaktualnił oddane zadanie \'$a->assignment\'</i><br /><br />
+
+Zadanie <a href=\"$a->url\">jest dostępne na stronie</a>.';
+$string['emailteachers'] = 'Wyślij powiadomienie do nauczycieli';
+$string['emptysubmission'] = 'Jeszcze nie oddałeś zadania';
+$string['existingfiledeleted'] = 'Plik został usunięty: $a';
+$string['failedupdatefeedback'] = 'Nie powiodło się uaktualnienie informacji zwrotnej do zadania użytkownika $a';
 $string['feedback'] = 'Informacja zwrotna';
-$string['feedbackfromteacher'] = 'Informacja zwrotna of $a';
-$string['feedbackupdated'] = 'Informacje zwrotne dot. przesłanych prac zostały zaktualizowane dla $a osób.';
+$string['feedbackfromteacher'] = 'Informacja zwrotna od $a';
+$string['feedbackupdated'] = 'Uaktualnienie informacji zwrotnych do $a oddanych zadań';
 $string['graded'] = 'Ocenione';
-$string['guestnosubmit'] = 'Niestety, goście nie są uprawnieni do przesyłania prac domowych. Musisz zalogować się/ zarejestrować aby przesłać swoją odpowiedź';
-$string['guestnoupload'] = 'Niestety goście nie są uprawnieni do przesyłania plików';
-$string['helpoffline'] = '<p>To jest użyteczne, gdy zadanie jest realizowane poza platformą Moodle. To mogłoby być coś wykonywanego na innej stronie www lub na zajęciach \"twarzą w twarz\"';
-$string['helponline'] = '<p>Ten typ zadania polega na edycji tekstu przez użytkownika. Nauczyciel może ocenić je w trybie on-line i nawet dopisać swoje komentarze lub zmiany.</p>
-<p>(Jeśli znasz starsze wersje Moodla, ten typ zadania działa tak samo jak stary moduł Dziennik)</p>';
+$string['guestnosubmit'] = 'Goście nie mają uprawnień, by oddawać zadania. Należy zalogować się/ zarejestrować, by oddać zadanie';
+$string['guestnoupload'] = 'Goście nie mają uprawnień, by przesyłać pliki';
+$string['helpoffline'] = '<p>Ta opcja jest przydatna, gdy zadanie wykonywane jest poza Moodle, w internecie bądź podczas spotkania face-to-face.</p><p>Studenci widzą opis zadania, lecz nie mogą przesłać pliku ani zamieścić tekstu. Jak w innych typach zadania, studenci otrzymują powiadomienie o wystawionych ocenach.</p>';
+$string['helponline'] = '<p>Ten typ zadania wymaga od użytkownika edycji tekstu przy użyciu standardowych narzędzi edycji. Nauczyciele mogą oceniać zadania online, a także dodawać komentarze śródliniowe i wprowadzać zmiany.</p><p>
+(Osoby znające poprzednie wersje Moodle zauważą, że ten typ Zadania działa w ten sam sposób, co dawny moduł Dziennik.)';
 $string['helpupload'] = '<p>Ten typ zadania pozwala każdemu uczestnikowi załadować jeden lub więcej plików w dowolnym formacie. 
-	Mogą to być pliki edytora tekstowego, obrazki, spakowana strona internetowa lub cokolwiek o czego zgłoszenie poprosisz.</p>
-<p>Ten typ umożliwia także załadowanie wieli plików odpowiedzi. Pliki odpowiedzi mogą zostać załadowane przed zgłoszeniem co może 
-być wykorzystane przy przypisywaniu innych plików do pracy dla każdego uczestnika.</p>
-<p> Uczestnicy mogą także wprowadzać notatki opisujące zgłoszone pliki, stan zaawansowania pracy lub inne dowolne informacje tekstowe.</p>
-<p>Zgłoszenie tego typu zadania musi zostać ręcznie sfinalizowane przez uczestnika. Można zobaczyć obecny stan 
-w dowolnym czasie, nieskończone zadania są oznaczone jako Wersja Wstępna. Można cofnąć każde nieocenione zadanie do stanu wersji 
-wstępnej.</p>';
-$string['helpuploadsingle'] = '<p>Ten typ zadania polega na przesłaniu pojedynczego pliku dowolnego typu.</p><p>To może być dokument Worda, rysunek, spakowana serwis internetowy lub cokolwiek innego o co poprosisz</p>';
-$string['hideintro'] = 'Ukryj opis przed nastaniem daty dostępności';
+Mogą to być pliki tekstowe, obrazki, spakowana strona internetowa lub pliki innych formatów.</p>
+<p>Ten typ zadania umożliwia też przesłanie wielu plików - można je przesyłać przed ostatecznym oddaniem zadania, dzięki czemu nauczyciele mogą zadać uczestnikom kursu analizę prac innych osób przed ich ocenieniem.</p>
+<p> Uczestnicy mogą opisywać przesłane pliki, określać stan zaawansowania pracy lub zamieszczać inne informacje.</p>
+<p>Oddanie tego typu zadania musi zostać ręcznie sfinalizowane przez uczestnika. Pliki są dostępne do wglądu przed ostatecznym oddaniem zadania - nieskończone wersje zadania są oznaczone jako Szkic. Można też zastąpić każde nieocenione zadanie zamieszczonym wcześniej szkicem.</p>';
+$string['helpuploadsingle'] = '<p>Ten typ zadania pozwala każdemu uczestnikowi kursu przesłać jeden plik dowolnego typu.</p> <p>Może to być dokument tekstowy, zdjęcie lub plik zarchiwizowany.</p>';
+$string['hideintro'] = 'Ukryj opis przed udostępnieniem zadania';
 $string['late'] = '$a późno';
 $string['maximumgrade'] = 'Maksymalna ocena';
 $string['maximumsize'] = 'Maksymalny rozmiar';
-$string['modulename'] = 'Zadanie domowe';
-$string['modulenameplural'] = 'Zadania domowe';
-$string['newsubmissions'] = 'Przesłane zadania domowe';
-$string['noassignments'] = 'Jeszcze nie ma tu zadań domowych';
-$string['noattempts'] = 'Nie podjęto, żadnych prób wykonania zadania';
+$string['modulename'] = 'Zadanie';
+$string['modulenameplural'] = 'Zadania';
+$string['newsubmissions'] = 'Oddane zadania';
+$string['noassignments'] = 'Nie zamieszczono jeszcze żadnych zadań';
+$string['noattempts'] = 'Nikt jeszcze nie oddał zadania';
 $string['nofiles'] = 'Żaden plik nie został przesłany';
-$string['nofilesyet'] = 'Jeszcze nie przesłano plików';
+$string['nofilesyet'] = 'Żaden plik nie został przesłany';
 $string['notavailableyet'] = 'Przepraszamy, to zadanie jeszcze nie jest dostępne.<br />Instrukcje do zadania zostaną wyświetlone w dniu podanym poniżej.';
 $string['notes'] = 'Notatki';
 $string['notesempty'] = 'Brak wpisu';
 $string['notesupdateerror'] = 'Błąd podczas aktualizacji notatki';
 $string['notgradedyet'] = 'Jeszcze nie ocenione';
-$string['notsubmittedyet'] = 'Jeszcze nie przesłane';
+$string['notsubmittedyet'] = 'Jeszcze nie oddane';
 $string['onceassignmentsent'] = 'Po wysłaniu zadania do oceny, nie będzie możliwości skasowania lub dołączenia plików. Czy chcesz kontynuować?';
-$string['overwritewarning'] = 'Ostrzeżenie: przesłanie pliku ponownie ZASTĄPI przesłany wcześniej.';
-$string['pagesize'] = 'Przesłanych prac wyświetlonych na stronę';
-$string['preventlate'] = 'Zabronić przesyłania spóźnionych prac';
-$string['quickgrade'] = 'Udostępnić szybkie ocenanie';
+$string['overwritewarning'] = 'Uwaga! Ponowne przesłanie pliku usunie poprzednio przesłany plik';
+$string['pagesize'] = 'Liczba zadań wyświetlanych na jednej stronie';
+$string['preventlate'] = 'Zapobiegaj przesyłaniu zadań po terminie';
+$string['quickgrade'] = 'Zezwól na szybkie ocenianie';
 $string['responsefiles'] = 'Pliki odpowiedzi';
 $string['reviewed'] = 'Przejrzane';
-$string['saveallfeedback'] = 'Zapisz wszystkie moje informacje zwrotne';
+$string['saveallfeedback'] = 'Zachowaj moją informację zwrotną';
 $string['sendformarking'] = 'Wyślij do oceny';
-$string['submission'] = 'Przesłanie zadania domowego';
-$string['submissiondraft'] = 'Wersja robocza zgłoszenia';
-$string['submissionfeedback'] = 'Informacja zwrotna o przesłanym zadaniu domowym';
-$string['submissions'] = 'Przesłane zadania domowe';
-$string['submissionsaved'] = 'Twoje zmiany zostały zapisane';
-$string['submissionsnotgraded'] = '$a prac nie oceniono';
-$string['submitassignment'] = 'Prześlij swoja pracę używając tego formularza';
+$string['submission'] = 'Oddane zadanie';
+$string['submissiondraft'] = 'Wersja robocza oddawanego zadania';
+$string['submissionfeedback'] = 'Informacja zwrotna do oddanych zadań';
+$string['submissions'] = 'Oddane zadania';
+$string['submissionsaved'] = 'Zmiany zostały zachowane';
+$string['submissionsnotgraded'] = '$a nieocenionych zadań';
+$string['submitassignment'] = 'Oddaj zadanie przy użyciu formularza';
 $string['submitedformarking'] = 'Zadanie zostało już zgłoszone do oceny i nie może być zaktualizowane.';
 $string['submitformarking'] = 'Ostateczne zgłoszenie do oceny zadania';
-$string['submitted'] = 'Dostarczone';
-$string['submittedfiles'] = 'Zgłoszone pliki';
-$string['typeoffline'] = 'Aktywność offline';
+$string['submitted'] = 'Oddane';
+$string['submittedfiles'] = 'Przesłane pliki';
+$string['typeoffline'] = 'Zadanie offline';
 $string['typeonline'] = 'Tekst online';
 $string['typeupload'] = 'Zaawansowane ładowanie plików';
-$string['typeuploadsingle'] = 'Prześlij pojedyńczy plik,.';
+$string['typeuploadsingle'] = 'Prześlij plik';
 $string['unfinalize'] = 'Powrót do wersji roboczej';
-$string['uploadbadname'] = 'Ta nazwa pliku zawierała dziwne znaki i nie może być przesłana';
-$string['uploadedfiles'] = 'przesłane pliki';
-$string['uploaderror'] = 'Błąd podczas zapisu pliku na serwerze';
-$string['uploadfailnoupdate'] = 'Plik został przesłany poprawnie, ale nie zaktualizował Twojej pracy domowej!';
-$string['uploadfiletoobig'] = 'Niestety, ten plik jest zbyt duży (możesz przesłać max. $a bajtów)';
-$string['uploadnofilefound'] = 'Nie znaleziono pliku - masz pewność, że wskazałeś(aś) go w celu przesłania?';
-$string['uploadnotregistered'] = '\'$a\' został przesłany poprawnie, ale nie został zarejestrowany!';
-$string['uploadsuccess'] = 'Przesłano \'$a\'.';
-$string['viewfeedback'] = 'Zobacz oceny zadań i informacje zwrotne';
-$string['viewsubmissions'] = 'Zobacz $a wysłanych zadań';
-$string['yoursubmission'] = 'Twoja wysyłka';
+$string['uploadbadname'] = 'Nazwa pliku zawiera znaki, które nie pozwalają go przesłać';
+$string['uploadedfiles'] = 'Przesłane pliki';
+$string['uploaderror'] = 'Wystąpił błąd podczas zapisywania pliku na serwerze';
+$string['uploadfailnoupdate'] = 'Plik został przesłany, lecz nie udało się zapisać faktu przesłania pliku';
+$string['uploadfiletoobig'] = 'Zbyt duży plik (max. rozmiar pliku to $a bajtów)';
+$string['uploadnofilefound'] = 'Nie odnaleziono żadnego pliku - czy zaznaczyłeś plik przed przesyłaniem?';
+$string['uploadnotregistered'] = '\'$a\' was uploaded OK but submission did not register!';
+$string['uploadsuccess'] = '\'$a\' został przesłany';
+$string['viewfeedback'] = 'Oglądaj oceny i informacje zwrotne zadania';
+$string['viewsubmissions'] = 'Oglądaj $a oddanych zadań';
+$string['yoursubmission'] = 'Twoje przesłane zadanie';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // appointment.php - created with Moodle 1.4 (2004083100)
+      // appointment.php - created with Moodle 1.9 Beta 3 (2007101505)
 
 
 $string['allowresubmit'] = 'Zezwól na wielokrotne wysyłanie rozwiązania';
@@ -30,7 +30,7 @@ $string['timeend'] = 'Koniec spotkania';
 $string['timestart'] = 'Początek spotkania';
 $string['typeoffline'] = 'Aktywność offline';
 $string['typeuploadsingle'] = 'Prześlij jeden plik';
-$string['uploadbadname'] = 'Pliku zawierał w nazwie nieprawidłowe znaki i nie został przesłany.';
+$string['uploadbadname'] = 'Plik zawierał w nazwie nieprawidłowe znaki i nie został przesłany.';
 $string['uploadedfiles'] = 'przesłane pliki';
 $string['uploaderror'] = 'Pojawił się błąd podczas zapisu pliku na serwerze';
 $string['uploadfailnoupdate'] = 'Plik został przesłany ale nie udało się zaktualizować Twojej rozwiązania!';

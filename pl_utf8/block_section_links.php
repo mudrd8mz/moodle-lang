@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // block_section_links.php - created with Moodle 1.3 - (2004052400)
+      // block_section_links.php - created with Moodle 1.9 Beta 3 (2007101505)
 
 
-$string['blockname'] = 'Odniesienia do sekcji';
+$string['blockname'] = 'Linki do sekcji';
 $string['jumptocurrenttopic'] = 'Przejdź do aktualnego tematu';
 $string['jumptocurrentweek'] = 'Przejdź do aktualnego tygodnia';
 $string['topics'] = 'Tematy';

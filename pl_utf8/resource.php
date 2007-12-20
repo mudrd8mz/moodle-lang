@@ -1,15 +1,17 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // resource.php - created with Moodle 1.9 Beta 3 (2007101505)
 
 
-$string['addresource'] = ' Dodaj zasób';
+$string['addresource'] = 'Dodaj zasób';
 $string['back'] = 'Wróć';
 $string['browserepository'] = 'Przeglądaj repozytorium';
 $string['choose'] = 'Wybierz';
 $string['chooseafile'] = 'Prześlij plik';
 $string['chooseparameter'] = 'Wybierz parametr';
-$string['configallowlocalfiles'] = 'Kiedy tworzysz nowy zasób, zezwalasz na dostęp do plików umieszczonych lokalnie. To może być użyteczny gdy studenci mają dostęp do współnego dysku sieciowego lub CD. Użycie tej cechy może wymagać zmian parametrów bezpieczeństwa twojej przeglądarki. ';
-$string['configdefaulturl'] = 'Ta wartość jest używana ażeby domyślnie wypełnić formę URL podczas dodawania nowego zasobu opartego o URL.';
+$string['clicktoopen'] = 'Aby otworzyć dokument, kliknij na ten link:';
+$string['configallowlocalfiles'] = 'Kiedy tworzysz nowy zasób, zezwalasz na dostęp do plików umieszczonych lokalnie. To może być użyteczny gdy studenci mają dostęp do wspólnego dysku sieciowego lub CD. Użycie tej cechy może wymagać zmian parametrów bezpieczeństwa twojej przeglądarki.';
+$string['configblockdeletingfilesettings'] = 'Zablokuj usuwanie plików i katalogów, do których odnoszą się zasoby. Obrazki i inne pliki z html nie są chronione.';
+$string['configdefaulturl'] = 'Ta wartość jest używana, aby domyślnie wypełnić formularz URL podczas dodawania nowego zasobu opartego o URL.';
 $string['configfilterexternalpages'] = 'Włączenie tej opcji spowoduje, że wszystkie zewnętrzne zasoby (np strony, załadowane pliki HTML) zostaną przefiltrowane (np. dynamiczne linki w słowniku pojęć). Wybranie tej opcji może mocno spowolnić działanie systemu - używaj więc tej opcji tylko wtedy kiedy musisz.';
 $string['configframesize'] = 'Kiedy strona WWW lub przesłany plik jest wyświetlany wewnątrz ramki, ta wartość jest rozmiarem (podanym w pikselach) górnej ramki (zawierającej nawigację)';
 $string['configparametersettings'] = 'To ustawia domyślną wartość ustawień panelu Parametrów. Po pierwszym razie, są to indywidualne ustawienia użytkownika.';
@@ -31,19 +33,19 @@ $string['deployall'] = 'rozwiń wszystko';
 $string['directlink'] = 'Bezpośredni link to tego pliku';
 $string['directoryinfo'] = 'Wszystkie pliki w danym katalogu zostaną wyświetlone';
 $string['display'] = 'Okno';
-$string['editingaresource'] = ' Modyfikacja zasobu';
+$string['editingaresource'] = 'Modyfikacja zasobu';
 $string['emptyfolder'] = 'pusty katalog';
 $string['encryptedcode'] = 'Zakodowany kod';
-$string['example'] = ' Przykład';
-$string['exampleurl'] = ' http://www.example.com/somedirectory/somefile.html';
+$string['example'] = 'Przykład';
+$string['exampleurl'] = 'http://www.example.com/somedirectory/somefile.html';
 $string['fetchclienterror'] = 'Błąd zareportowany przez Twoją przeglądarkę, podczas ładowania strony (prawdopodbnie zły adres URL).';
 $string['fetcherror'] = 'Błąd podczas ładowania strony internetowej';
 $string['fetchservererror'] = 'Błąd zareportowany przez serwer, podczas ładowania strony internetowej (prawdopodobnie bład programu).';
-$string['filename'] = ' Nazwa pliku';
+$string['filename'] = 'Nazwa pliku';
 $string['filtername'] = 'Automatyczne linkowanie zasobów';
 $string['frameifpossible'] = 'Umieść zasób w ramce aby nawigacja była widoczna';
-$string['fulltext'] = ' Pełna treść';
-$string['htmlfragment'] = ' Fragment HTML';
+$string['fulltext'] = 'Pełna treść';
+$string['htmlfragment'] = 'Fragment HTML';
 $string['imspackageloaded'] = 'Pakiet załadowany';
 $string['localfile'] = 'Lokalizacja pliku';
 $string['localfilechoose'] = 'Wybierz plik';
@@ -53,8 +55,8 @@ Plik nie zostanie załadowany na serwer, ale Moodle poszuka tego pliku na komput
 $string['localfilepath'] = 'Ustaw ścieżkę do Twojego lokalnego zasobu, wybierz plik z napędu (przeważnie CD-ROM) na Twoim komputerze, gdzie zasób się znajduje. Plik nie będzie przesyłany ale informacja o napędzie będzie przechowywana i użyta dla lokalnych plików (zasobów).';
 $string['localfileselect'] = 'Wybierz';
 $string['maindirectory'] = 'Folder z głównymi plikami';
-$string['modulename'] = ' Zasób';
-$string['modulenameplural'] = ' Zasoby';
+$string['modulename'] = 'Zasób';
+$string['modulenameplural'] = 'Zasoby';
 $string['navigationbuttons'] = 'Przycisk nawigacji';
 $string['navigationmenu'] = 'Menu nawigacji strony';
 $string['navigationup'] = 'przcisk';
@@ -90,15 +92,15 @@ $string['preview'] = 'następny';
 $string['previous'] = 'poprzedni';
 $string['redeploy'] = 'rozwiń znowu';
 $string['repository'] = 'Repozytorium IMS';
-$string['resourcetype'] = ' Typ zasobu';
-$string['resourcetype1'] = ' Źródło';
-$string['resourcetype2'] = ' Strona WWW';
+$string['resourcetype'] = 'Typ zasobu';
+$string['resourcetype1'] = 'Źródło';
+$string['resourcetype2'] = 'Strona WWW';
 $string['resourcetype3'] = 'Przesłany plik';
-$string['resourcetype4'] = ' Zwykły tekst';
-$string['resourcetype5'] = ' Link';
-$string['resourcetype6'] = ' Tekst HTML';
-$string['resourcetype7'] = ' Program';
-$string['resourcetype8'] = ' Tekst Wiki';
+$string['resourcetype4'] = 'Zwykły tekst';
+$string['resourcetype5'] = 'Link';
+$string['resourcetype6'] = 'Tekst HTML';
+$string['resourcetype7'] = 'Program';
+$string['resourcetype8'] = 'Tekst Wiki';
 $string['resourcetype9'] = 'Folder';
 $string['resourcetypedirectory'] = 'Wyświetl katalog plików';
 $string['resourcetypefile'] = 'Link do pliku lub strony www';
@@ -114,7 +116,7 @@ $string['skipsubmenus'] = 'Pomiń strony podmenu';
 $string['tableofcontents'] = 'Spis treści';
 $string['upbutton'] = 'Góra';
 $string['variablename'] = 'Nazwa zmiennej';
-$string['viewims'] = 'Pokaż pakiet IMS ';
+$string['viewims'] = 'Pokaż pakiet IMS';
 $string['vol'] = 'dysk';
 
 ?>

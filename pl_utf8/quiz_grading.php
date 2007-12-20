@@ -4,5 +4,6 @@
 
 $string['essayonly'] = 'Następujące pytania wymagają ocenienia ręcznego';
 $string['grading'] = 'oceń ręcznie';
+$string['grading'] = 'Oceniane ręcznie';
 
 ?>

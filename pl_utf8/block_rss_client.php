@@ -1,14 +1,15 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.6 Beta 5 (2006050500)
+      // block_rss_client.php - created with Moodle 1.9 Beta 3 (2007101505)
 
 
 $string['addfeed'] = 'Dodaj adres URL niusów';
 $string['addheadlineblock'] = 'Dodaj nagłówek bloku RSS';
 $string['addnew'] = 'Dodaj nowy';
+$string['blockname'] = 'Klient RSS';
 $string['choosefeedlabel'] = 'Wybierz wiadomości które mają być dostępne:';
 $string['clientchannellink'] = 'Strona z wiadomościami';
-$string['clientnumentries'] = 'Domyślna liczba pokazywanych haseł  ';
-$string['clientshowchannellinklabel'] = 'Czy wyświtlić łącze do oryginalnej strony z wiadomościami? ';
+$string['clientnumentries'] = 'Domyślna liczba pokazywanych haseł';
+$string['clientshowchannellinklabel'] = 'Czy wyświtlić łącze do oryginalnej strony z wiadomościami?';
 $string['clientshowimagelabel'] = 'Pokaż logo strony wiadomości jeśli dostępne:';
 $string['configblock'] = 'Konfiguruj ten blok';
 $string['couldnotfindfeed'] = 'nie znaleziona źródła wiadomości o danym id.';
@@ -31,10 +32,15 @@ $string['managefeeds'] = 'Zarządzaj źródłami wiadomościi RSS';
 $string['nofeeds'] = 'Na tej stronie nie ma źródła wiadomości RSS';
 $string['pickfeed'] = 'Wybierz nowy źródło wiadomości';
 $string['remotenewsfeed'] = 'Usuń serwer RSS';
+$string['rss_client:createprivatefeeds'] = 'Utwórz prywatne źródła wiadomości';
+$string['rss_client:createsharedfeeds'] = 'Utwórz udostępniane źródła wiadomości';
+$string['rss_client:manageanyfeeds'] = 'Zarządzaj źródłami wiadomości';
+$string['rss_client:manageownfeeds'] = 'Zarządzaj własnymi źródłami wiadomości';
 $string['seeallfeeds'] = 'Pokaż wiadomości ze wszystkich zdefiniowanych źródeł';
+$string['sharedfeed'] = 'Udostępnione źródło';
 $string['shownumentrieslabel'] = 'Maksymalna liczba haseł pokazywana w bloku';
 $string['submitters'] = 'Kto może definiować nowe źródła wiadomości RSS? Zdefiniowane wiadomości RSS są dostępne dla wszystkich stron w serwisie.';
-$string['timeout'] = 'Timeout bloku rss';
+$string['timeout'] = 'Przekroczony czas ważności kanału RSS';
 $string['timeoutdesc'] = 'Czas w minutach przechowywania w cachu';
 $string['updatefeed'] = 'Uaktualnij adres wiadomości RSS';
 $string['validatefeed'] = 'Sprawdź źródło wiadomości RSS';
