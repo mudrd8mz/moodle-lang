@@ -699,6 +699,7 @@ $string['uuupdatefromfile'] = 'Remplacer avec le fichier';
 $string['uuupdatemissing'] = 'Remplir les manquants avec le fichier et les réglages par défaut';
 $string['uuupdatetype'] = 'Détails de l\'utilisateur existant';
 $string['validateerror'] = 'Cette valeur n\'est pas valide&nbsp;: ';
+$string['warningcurrentsetting'] = 'Valeur actuelle non valide&nbsp;: $a';
 $string['xmlstrictheaders'] = 'Entêtes XML strict';
 
 ?>
