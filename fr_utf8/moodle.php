@@ -1028,6 +1028,7 @@ $string['notenrolledprofile'] = 'Ce profil n\'est pas accessible, car cet utilis
 $string['noteuserschangednonetocourse'] = 'Remarque&nbsp;: les utilisateurs du cours doivent être restaurés lors de la restauration de données utilisateur (fichiers ou messages, dans les activités). Ce paramètre a été modifié pour vous.';
 $string['nothingnew'] = 'Rien de nouveau depuis votre dernière visite';
 $string['nothingtodisplay'] = 'Rien à afficher';
+$string['notice'] = 'Remarque';
 $string['noticenewerbackup'] = 'Ce fichier de sauvegarde a été créé avec la version $a->backuprelease ($a->backupversion) de Moodle, qui est plus récente que votre installation actuelle de Moodle $a->serverrelease ($a->serverversion). Ceci peut causer des incohérences, car la compatibilité des fichiers de sauvegarde ne peut dans ce cas pas être garantie.';
 $string['notifications'] = 'Notifications';
 $string['notify'] = 'Notifier';
