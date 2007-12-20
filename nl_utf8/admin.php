@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101504)
+      // admin.php - created with Moodle 2.0 dev (2007101505)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -21,6 +21,8 @@ $string['antivirus'] = 'Anti-virus';
 $string['appearance'] = 'Uitzicht';
 $string['aspellpath'] = 'Pad naar aspell';
 $string['authentication'] = 'Authenticatie';
+$string['authsettings'] = 'Beheer authenticatie';
+$string['autolang'] = 'Taal automatisch detecteren';
 $string['autologinguests'] = 'Gasten automatisch inloggen';
 $string['availablelangs'] = 'Beschikbare taalpakketten';
 $string['backgroundcolour'] = 'Transparant';
@@ -30,6 +32,7 @@ $string['badwordsdefault'] = 'Je aangepaste lijst is leeg. Er zal een standaardl
 $string['badwordslist'] = 'Aangepaste lijst te censureren woorden';
 $string['blockinstances'] = 'In gebruik';
 $string['blockmultiple'] = 'Meer';
+$string['blocksettings'] = 'Beheer blokken';
 $string['bloglevel'] = 'Zichtbaarheid blogs';
 $string['bookmarkadded'] = 'Bladwijzer toegevoegd';
 $string['bookmarkalreadyexists'] = 'Bladwijzer bestaat al';
@@ -43,9 +46,12 @@ $string['cfgwwwrootslashwarning'] = 'Je hebt &#36;CFG->wwwroot fout ingesteld in
 $string['cfgwwwrootwarning'] = 'Je hebt &#36;CFG->wwwroot fout ingesteld in het bestand config.php. Het pad komt niet overeen met de URL die je bebruikt om toegang te krijgen tot deze pagina  Pas dit aan. Je kunt er vreemde bugs mee ondervinden, zoals  <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>';
 $string['change'] = 'wijzig';
 $string['changesitelang'] = 'Wijzig de taalinstelling van de site';
+$string['checkboxno'] = 'Nee';
+$string['checkboxyes'] = 'Ja';
 $string['choosefiletoedit'] = 'Kies een te bewerken bestand uit bovenstaande lijst';
 $string['clamfailureonupload'] = 'Als Clam AV faalt';
 $string['cleanup'] = 'Opschonen';
+$string['commonsettings'] = 'Algemene instellingen';
 $string['componentinstalled'] = 'Onderdeel geïnstalleerd';
 $string['confeditorhidebuttons'] = 'Kies de knoppen die in de HTML-editor verborgen moeten zijn.';
 $string['configallowassign'] = 'De rollen aan de linkerkant toestaan de rollen in elke kolom toe te wijzen';
@@ -61,6 +67,7 @@ $string['configallowuserthemes'] = 'Als je dit inschakelt, dan kunnen gebruikers
 $string['configallusersaresitestudents'] = 'Moeten ALLE gebruikers als leerlingen beschouwd worden voor activiteiten op de startpagina van de site? Als je hier \"Ja\" kiest, dan zullen alle bevestigde accounts hier als leerling kunnen meedoen aan alle activiteiten. Als je hier \"Nee\" kiest, dan zullen alleen gebruikers die minstens van één cursus lid zijn kunnen meedoen aan die startpagina-activiteiten.';
 $string['configauthenticationplugins'] = 'Kies de authenticatieplugins die je wenst te gebruiken en rangschik ze in volgorde, zodat diegene met het meeste kans op succes heeft, bovenaan staat.
 Zelf een account aanmaken zal gebeuren door de plugin die je kiest in de \'Registratie\'-kolom (gewoonlijk \'e-mail\').';
+$string['configautolang'] = 'Detecteer de standaardtaal uit de browserinstelling. Indien uitgeschakeld, wordt de standaardtaal van de site gebruikt.';
 $string['configautologinguests'] = 'Moeten bezoekers automatisch als gast aangemeld worden als ze cursussen met toegangsrecht voor gasten binnengaan ?';
 $string['configbloglevel'] = 'Met deze instelling kun je het niveau beperken waarop gebruikers blogs op deze site kunnen zien. Merk op dat ze een maximum zetten voor wie KIJKT, niet voor wie berichten post of de mogelijke types berichten die gepost kunnen worden. Blogs kunnen ook uitgeschakeld worden als je ze niet wil.';
 $string['configcachetext'] = 'Deze instelling kan de snelheid vergroten voor grotere sites of voor sites die tekstfilters gebruiken. kopieën van teksten zullen in hun gecompileerde vorm bewaard worden voor de tijd die je hier instelt. Als je deze tijd te kort instelt, zou je zelfs een kleine vertraging kunnen krijgen, maar de tijd te lang instellen kan ervoor zorgen dat het te lang duurt voor teksten vernieuwd worden (met nieuwe links bijvoorbeeld).';

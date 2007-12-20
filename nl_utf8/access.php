@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.9 Beta + (2007100903)
+      // access.php - created with Moodle 2.0 dev (2007101505)
 
 
 $string['access'] = 'Toegankelijkheid';
@@ -11,9 +11,10 @@ $string['activityprev'] = 'Vorige activiteit';
 $string['breadcrumb'] = 'Broodkruimelpad';
 $string['currenttopic'] = 'Dit onderwerp';
 $string['currentweek'] = 'Deze week';
+$string['hideblocka'] = 'Verberg $a blok';
 $string['monthnext'] = 'Volgende maand';
 $string['monthprev'] = 'Vorige maand';
-$string['showhideblock'] = 'Toon of verberg blok';
+$string['showblocka'] = 'Toon $a blok';
 $string['sitemap'] = 'Site kaart';
 $string['skipa'] = 'Sla $a over';
 $string['skipblock'] = 'Sla een blok over';
@@ -23,5 +24,6 @@ $string['tablelayout'] = 'Opmaaktabel, $a';
 $string['tocontent'] = 'Ga naar hoofdinhoud';
 $string['tonavigation'] = 'Ga naar navigatie';
 $string['youarehere'] = 'Je bent hier';
+$string['showhideblock'] = 'Toon of verberg blok'; // ORPHANED
 
 ?>
