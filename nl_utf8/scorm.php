@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 dev (2007070603)
+      // scorm.php - created with Moodle 2.0 dev (2007101505)
 
 
 $string['activation'] = 'Activatie';
@@ -59,7 +59,7 @@ $string['hidebrowse'] = 'Verberg voorproeven';
 $string['hideexit'] = 'Verberg de uitgang-link';
 $string['hidenav'] = 'Verberg navigatieknoppen';
 $string['hidereview'] = 'Verberg de knop voor herzien';
-$string['hidetoc'] = 'Verberg cursusstructuur';
+$string['hidetoc'] = 'Weergave inhoudsopgave cursusstructuur';
 $string['highestattempt'] = 'Beste poging';
 $string['identifier'] = 'Vraagidentificatie';
 $string['iframe'] = 'Huidig venster';
@@ -106,7 +106,7 @@ $string['packagefile'] = 'Je hebt geen bestand met een pakket gespecifieerd';
 $string['passed'] = 'Geslaagd';
 $string['php5'] = 'PHP 5 (DOMXML native library)';
 $string['popup'] = 'Open de huidige SCORM/AICC in een nieuw venster';
-$string['popupmenu'] = 'In een popup-venster';
+$string['popupmenu'] = 'In een drop downmenu';
 $string['popupopen'] = 'Open het pakket in een nieuw venster';
 $string['position_error'] = 'De $a->tag kan geen child zijn van $a->parent tag';
 $string['prev'] = 'Vorige';
