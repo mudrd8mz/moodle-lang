@@ -2,7 +2,10 @@
 
 $string['addresource'] = 'Ajouter une ressource';
 $string['affectedresources'] = 'Ressources touchées';
+$string['allowlocalfiles'] = 'Autoriser les fichiers locaux';
+$string['autofilerename'] = 'Mettre à jour le lien quand le fichier est renommé';
 $string['back'] = 'Retour';
+$string['blockdeletingfile'] = 'Empêcher la suppression des fichiers référencés';
 $string['browserepository'] = 'Consulter le répertoire';
 $string['choose'] = 'Choisir';
 $string['chooseafile'] = 'Choisir ou déposer un fichier';
@@ -44,6 +47,7 @@ $string['fetchservererror'] = 'Une erreur est survenue lors du chargement de la 
 $string['filename'] = 'Nom du fichier';
 $string['filtername'] = 'Liens automatiques des noms des ressources';
 $string['frameifpossible'] = 'Afficher la ressource dans un cadre pour conserver les menus de navigation du site';
+$string['framesize'] = 'Taille du cadre';
 $string['fulltext'] = 'Texte de la page';
 $string['htmlfragment'] = 'Fragment de code HTML';
 $string['imspackageloaded'] = 'Fichier IMS chargé';
@@ -93,6 +97,7 @@ $string['previous'] = 'Précédent';
 $string['redeploy'] = 'Déployer à nouveau';
 $string['repository'] = 'Répertoire IMS';
 $string['resource:view'] = 'Voir les ressources';
+$string['resourcedefaulturl'] = 'URL par défaut';
 $string['resourcetype'] = 'Type de ressource';
 $string['resourcetypedirectory'] = 'Afficher le contenu d\'un dossier';
 $string['resourcetypefile'] = 'Lien vers un fichier ou un site web';
@@ -113,6 +118,7 @@ $string['viewims'] = 'Visualiser le contenu du fichier IMS';
 $string['vol'] = 'Vol';
 $string['warningblockingdelete'] = 'Attention&nbsp;: la suppression est bloquée par une ressource existante. Veuillez d\'abord mettre à jour vos ressources. L\'administrateur peut désactiver globalement ce mécanisme de sécurité dans la configuration des ressources.';
 $string['warningdisabledrename'] = 'Attention&nbsp;: le renommage automatique des références dans les ressources est désactivé. Veuillez modifier manuellement les ressources affectées au besoin. Le renommage automatique des ressources peut être activé par l\'administrateur dans la configuration des ressources.';
+$string['websearchdefault'] = 'Recherche web par défaut';
 
 // The following strings are to be deleted after 1.4 release
 $string['resourcetype1'] = 'Référence';

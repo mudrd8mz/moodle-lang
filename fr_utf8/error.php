@@ -24,6 +24,7 @@ $string['csvemptyfile'] = 'Le fichier CSV est vide.';
 $string['csvcolumnduplicates'] = 'Colonnes identiques détectées.';
 $string['csvfewcolumns'] = 'Pas assez de colonnes. Veuillez vérifier le réglage du délimiteur.';
 $string['csvweirdcolumns'] = 'Format de fichier CSV non valide&nbsp;: le nombre de colonnes n\'est pas toujours le même&nbsp;!';
+$string['dbupdatefailed'] = 'Échec de la mise à jour de la base de données.';
 $string['downloadedfilecheckfailed'] = 'La vérification du fichier téléchargé à échoué.';
 $string['duplicateusername'] = 'Nom d\'utilisateur à double&nbsp;: ligne ignorée';
 $string['errorcleaningdirectory'] = 'Erreur lors du nettoyage du dossier «&nbsp;$a&nbsp;»';
