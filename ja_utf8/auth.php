@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (2007101504)
+      // auth.php - created with Moodle 2.0 dev (2007101505)
 
 
 $string['CASform'] = '認証選択';
 $string['accesCAS'] = 'CASユーザ';
 $string['accesNOCAS'] = '他のユーザ';
+$string['actauthhdr'] = '有効な認証プラグイン';
 $string['alternatelogin'] = 'ここにURIを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong> フィールドおよび <strong>password</strong> フィールドをMoodleに渡してください。<br />間違ったURIを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合、空白のままにしてください。';
 $string['alternateloginurl'] = '代替ログインURI';
 $string['auth_cas_auth_user_create'] = '外部にユーザを作成する';
@@ -42,7 +43,7 @@ $string['auth_changepasswordhelp'] = 'パスワードヘルプの変更';
 $string['auth_changepasswordhelp_expl'] = 'ユーザが $a パスワードを忘れた場合、パスワード喪失ヘルプを表示します。これは、<strong>パスワード変更URI</strong>またはMoodle内部のパスワード変更画面と同時に、または代わりに表示されます。';
 $string['auth_changepasswordurl'] = 'パスワードURIの変更';
 $string['auth_changepasswordurl_expl'] = '$a パスワードを忘れたユーザが使用するURIを指定してください。<strong>通常のパスワード変更ページを使用する場合</strong>は、<strong>No</strong>を設定してください。';
-$string['auth_common_settings'] = '一般設定';
+$string['auth_common_settings'] = '共通設定';
 $string['auth_data_mapping'] = 'データマッピング';
 $string['auth_dbcantconnect'] = '指定された認証データベースに接続できませんでした ...';
 $string['auth_dbchangepasswordurl_key'] = 'パスワード変更のURI';

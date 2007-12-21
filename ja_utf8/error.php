@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (2007110800)
+      // error.php - created with Moodle 2.0 dev (2007101505)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -26,6 +26,7 @@ $string['csvcolumnduplicates'] = '重複するカラムが見つかりました�
 $string['csvemptyfile'] = 'CSVファイルが空です。';
 $string['csvfewcolumns'] = 'カラムが不足しています、デリミタ設定を確認してください。';
 $string['csvweirdcolumns'] = 'CSVファイルフォーマットが正しくありません - カラム数が一定ではありません!';
+$string['dbupdatefailed'] = 'データベースの更新が失敗しました。';
 $string['downloadedfilecheckfailed'] = 'ダウンロードファイルのチェックが失敗しました。';
 $string['duplicateusername'] = '重複ユーザ名 - レコードをスキップ';
 $string['errorcleaningdirectory'] = 'ディレクトリ「 $a 」のクリーニング中にエラーが発生しました。';

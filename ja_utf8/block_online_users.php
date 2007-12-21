@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // block_online_users.php - created with Moodle 1.8 dev (2006102600)
+      // block_online_users.php - created with Moodle 2.0 dev (2007101505)
 
 
 $string['blockname'] = 'オンラインユーザ';
-$string['configtimetosee'] = 'オンラインユーザとして検出する時間 (分)';
+$string['configtimetosee'] = 'ユーザがオンライン状態ではないと判断するための休眠時間 (分) です。';
 $string['periodnminutes'] = '$a 分';
+$string['timetosee'] = '休眠状態 (分) の後、除外する';
 
 ?>

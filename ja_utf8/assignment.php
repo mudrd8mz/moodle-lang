@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (2007110800)
+      // assignment.php - created with Moodle 2.0 dev (2007101505)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -60,6 +60,7 @@ $string['helpupload'] = '<p>このタイプの課題では、各参加者が1つ
 <p>このタイプの課題の提出は、参加者により手動で行われる必要があります。あなたは、現在の状況をいつでもレビューでき、未完成の課題には「下書き」と表示されます。あなたは、評定が終わっていない課題を「下書き」状態に戻すことができます。</p>';
 $string['helpuploadsingle'] = '<p>このタイプの課題では、各参加者があらゆる種類の単一ファイルをアップロードすることができます。</p> <p>ワードプロセッサ文書、イメージ、ZIP圧縮したウェブサイト、その他あなたが参加者に提出するよう求めたファイルです。</p>';
 $string['hideintro'] = '開始日時前に課題説明を隠す';
+$string['itemstocount'] = 'カウント';
 $string['late'] = '$a 遅く提出';
 $string['maximumgrade'] = '最大評価';
 $string['maximumsize'] = '最大サイズ';

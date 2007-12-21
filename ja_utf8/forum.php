@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (2007110800)
+      // forum.php - created with Moodle 2.0 dev (2007101505)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -59,6 +59,7 @@ $string['discussionsstartedby'] = '$a さんより開始されたディスカッ
 $string['discussionsstartedbyrecent'] = '$a さんより最近開始されたディスカッション';
 $string['discussthistopic'] = 'このトピックを読む';
 $string['displayend'] = '表示終了';
+$string['displaymode'] = '表示モード';
 $string['displayperiod'] = '表示期間';
 $string['displaystart'] = '表示開始';
 $string['eachuserforum'] = '各人が1件のディスカッションを投稿';
@@ -114,7 +115,9 @@ $string['introsocial'] = '投稿制限なしフォーラム';
 $string['introteacher'] = '教師専用フォーラム';
 $string['lastpost'] = '最新の投稿';
 $string['learningforums'] = '学習フォーラム';
+$string['longpost'] = '長い投稿';
 $string['mailnow'] = 'すぐにメール送信する';
+$string['manydiscussions'] = 'ページあたりのディスカッション数';
 $string['markalldread'] = 'このディスカッションの投稿をすべて既読にする。';
 $string['markallread'] = 'このフォーラムの投稿をすべて既読にする。';
 $string['markread'] = '既読にする';
@@ -208,6 +211,7 @@ $string['repliesmany'] = '返信数: $a 件';
 $string['repliesone'] = '返信数: $a 件';
 $string['reply'] = '返信';
 $string['replyforum'] = 'フォーラムに返信';
+$string['replytouser'] = '返信にメールアドレスを使用する';
 $string['resetforums'] = '次のフォーラムから投稿を削除する';
 $string['resetforumsall'] = 'すべての投稿を削除する';
 $string['resetsubscriptions'] = 'メール購読を解除する';
@@ -231,6 +235,7 @@ $string['searchwhichforums'] = '検索するフォーラム';
 $string['searchwords'] = 'これらの語が投稿のどこかに含まれる';
 $string['seeallposts'] = 'このユーザによるすべての投稿を表示';
 $string['sendinratings'] = '私の評価を送信する';
+$string['shortpost'] = '短い投稿';
 $string['showsubscribers'] = 'メール購読ユーザを表示/編集する';
 $string['singleforum'] = 'トピック1件のシンプルなディスカッション';
 $string['startedby'] = 'ディスカッションの開始';
@@ -246,6 +251,7 @@ $string['subscribestop'] = 'このフォーラムの投稿記事をメール購�
 $string['subscription'] = 'メール購読';
 $string['subscriptions'] = 'メール購読';
 $string['thisforumisthrottled'] = 'このフォーラムでは、期限内にあなたが投稿できる投稿数を制限しています - 現在 $a->blockperiod で $a->blockafter 回に設定されています。';
+$string['timedposts'] = '時間制限投稿';
 $string['timestartenderror'] = '表示終了日を表示開始日より先にすることはできません。';
 $string['trackforum'] = '投稿の未読管理をする';
 $string['tracking'] = '未読管理';
