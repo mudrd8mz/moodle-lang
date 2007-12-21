@@ -522,6 +522,7 @@ $string['profileeditcategory'] = 'カテゴリの編集: $a';
 $string['profileeditfield'] = 'プロフィールフィールドの編集: $a';
 $string['profilefield'] = 'プロフィールフィールド';
 $string['profilefieldcolumns'] = '列';
+$string['profilefieldispassword'] = 'これはパスワードフィールドですか?';
 $string['profilefieldmaxlength'] = '最大長';
 $string['profilefieldrows'] = '行';
 $string['profilefields'] = 'ユーザプロフィールフィールド';
