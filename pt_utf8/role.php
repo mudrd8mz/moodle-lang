@@ -170,4 +170,3 @@ $string['viewrole'] = 'Ver promenores dos cargos atribuidos';
 $string['xuserswiththerole'] = 'Utilizadores com o cargo \"$a->role\": $a->number';
 
 ?>
-o
