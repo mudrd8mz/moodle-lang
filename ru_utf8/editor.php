@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 + (2007021502)
+      // editor.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['about'] = 'О редакторе';
@@ -22,6 +22,7 @@ $string['cellspacing'] = 'Расстояние между ячейками';
 $string['choosechar'] = 'Выбрать символ';
 $string['chooseicon'] = 'Выбрать иконку для вставки';
 $string['close'] = 'Закрыть';
+$string['closeafterreplace'] = 'Закрыть после замены';
 $string['cols'] = 'Столбцы';
 $string['copy'] = 'Копировать выделение';
 $string['createanchor'] = 'Создать закладку';
@@ -29,11 +30,13 @@ $string['createfolder'] = 'Создать папку';
 $string['createlink'] = 'Вставка ссылки';
 $string['cut'] = 'Вырезать выделение';
 $string['delete'] = 'Удалить';
+$string['enterurlfirst'] = 'Нужно сначала ввести URL';
 $string['filebrowser'] = 'Список файлов';
 $string['findwhat'] = 'Найти';
 $string['fontname'] = 'Название шрифта';
 $string['fontsize'] = 'Размер шрифта';
 $string['forecolor'] = 'Цвет шрифта';
+$string['formatblock'] = 'Формат';
 $string['fullscreen'] = 'Полнофункциональный редактор';
 $string['heading'] = 'Заголовок';
 $string['height'] = 'Высота';
@@ -49,10 +52,12 @@ $string['insertlink'] = 'Вставить ссылку';
 $string['insertsmile'] = 'Вставить смайлик';
 $string['inserttable'] = 'Вставить таблицу';
 $string['italic'] = 'Курсивный';
+$string['itemsreplaced'] = 'строк заменено!';
 $string['justifycenter'] = 'По центру';
 $string['justifyfull'] = 'По ширине';
 $string['justifyleft'] = 'По левому краю';
 $string['justifyright'] = 'По правому краю';
+$string['lang'] = 'Язык';
 $string['layout'] = 'Формат';
 $string['left'] = 'По левому краю';
 $string['lefttoright'] = 'Направление слева-направо';
@@ -69,6 +74,8 @@ $string['matchcase'] = 'Учитывать регистр';
 $string['middle'] = 'По средине';
 $string['minimize'] = 'Вернуться в обычный редактор';
 $string['move'] = 'Переместить';
+$string['multi'] = 'Много';
+$string['mustenterurl'] = 'Введите, пожалуйста, URL';
 $string['nolink'] = 'Не допускать авто-связывания';
 $string['normal'] = 'Обычный';
 $string['notimage'] = 'Выбранный файл не является изображением. Пожалуйста, выберите изображение :)!';
@@ -81,6 +88,7 @@ $string['paste'] = 'Вставить из буфера';
 $string['path'] = 'Путь';
 $string['percent'] = 'Процент';
 $string['pixels'] = 'Пиксели';
+$string['pleaseenteralt'] = 'Пожалуйста, введите альтернативный текст';
 $string['popupeditor'] = 'Редактор во весь экран';
 $string['preformatted'] = 'По заданному формату';
 $string['preview'] = 'Просмотр';
