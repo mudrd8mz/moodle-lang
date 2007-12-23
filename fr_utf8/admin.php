@@ -525,6 +525,7 @@ $string['profileeditcategory'] = 'Modification de la catégorie $a';
 $string['profileeditfield'] = 'Modification du champ $a';
 $string['profilefield'] = 'Champ de profil';
 $string['profilefieldcolumns'] = 'Colonnes';
+$string['profilefieldispassword'] = 'Champ mot de passe';
 $string['profilefieldmaxlength'] = 'Longueur maximale';
 $string['profilefieldrows'] = 'Lignes';
 $string['profilefields'] = 'Champs du profil';
