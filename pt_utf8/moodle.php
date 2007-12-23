@@ -995,7 +995,7 @@ $a->signoff
 
 (esta mensagem foi gerada automaticamente)';
 $string['newusers'] = 'Novos utilizadores';
-$string['newwindow'] = 'Próxima janela';
+$string['newwindow'] = 'Nova janela';
 $string['next'] = 'Próximo';
 $string['nextsection'] = 'Próxima secção';
 $string['no'] = 'Não';
