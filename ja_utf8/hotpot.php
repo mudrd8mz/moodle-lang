@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9 dev (2007072500)
+      // hotpot.php - created with Moodle 2.0 dev (2007101505)
 
 
 $string['abandoned'] = '放棄';
@@ -37,6 +37,7 @@ $string['error_nofeedbackurlwebpage'] = 'ウェブページのURIを入力して
 $string['error_nofilename'] = 'ファイル名を入力してください。';
 $string['error_noquizzesfound'] = 'Hot Potatoesクイズが見つかりませんでした。';
 $string['error_notfileorfolder'] = '「 $a 」はファイルまたはフォルダではありません。';
+$string['excelencodings'] = 'Excelエンコーディング';
 $string['feedbackformmail'] = 'フィードバックフォーム';
 $string['feedbackmoodleforum'] = 'Moodleフォーラム';
 $string['feedbackmoodlemessaging'] = 'Moodleメッセージ';
@@ -138,6 +139,7 @@ $string['resultssaved'] = 'クイズ結果が保存されました。';
 $string['score'] = 'スコア';
 $string['showhtmlsource'] = 'HTMLソースを表示する';
 $string['shownextquiz'] = '次のクイズを表示する';
+$string['showtimes'] = '処理時間を表示する';
 $string['showxmlsource'] = 'XMLソースを表示する';
 $string['showxmltree'] = 'XMLツリーを表示する';
 $string['specifictime'] = '日時指定';

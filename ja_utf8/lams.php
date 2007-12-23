@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.9 dev (2007072500)
+      // lams.php - created with Moodle 2.0 dev (2007101505)
 
 
 $string['createSequence'] = '新しいシーケンスの作成';
@@ -20,6 +20,9 @@ $string['openmonitor'] = 'LAMSモニターのオープン';
 $string['refreshSequenceList'] = 'シーケンスリストのリフレッシュ';
 $string['selectExistingSequence'] = '登録済みシーケンスを選択するか、新しいシーケンスを作成してください。';
 $string['sequence'] = 'シーケンスの選択';
+$string['server_id'] = 'サーバID';
+$string['server_key'] = 'サーバキー';
+$string['server_url'] = 'サーバURI';
 $string['serverid'] = '<a href=\"http://www.lamsinternational.com\">LAMS international</a> から取得したサーバIDを入力してください。';
 $string['serverkey'] = '<a href=\"http://www.lamsinternational.com\">LAMS international</a> から取得したサーバkeyを入力してください。';
 $string['serverurl'] = 'LAMSサーバにアクセスするためのURIを入力してください。例: http://localhost:8080/lams';
