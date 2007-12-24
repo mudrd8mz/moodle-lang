@@ -253,7 +253,7 @@ $string['auth_shib_only_description'] = 'Marque esta opção se quiser forçar u
 $string['auth_shib_username_description'] = 'Nome da variável de ambiente do servidor web Shibboleth que deverá ser utilizada como nome de utilizador Moodle.';
 $string['auth_shibboleth_login'] = 'Login Shibboleth';
 $string['auth_shibboleth_manual_login'] = 'Login Manual';
-$string['auth_shibbolethdescription'] = 'Com este método os utilizadores serão criados e autenticados utilizando o <a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth</a>.<br>Leia atentamente <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> do Shibboleth de como configurar o seu Moodle com o Shibboleth.';
+$string['auth_shibbolethdescription'] = 'Com este método os utilizadores serão criados e autenticados utilizando o <a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth</a>.<br />Leia atentamente <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> do Shibboleth de como configurar o seu Moodle com o Shibboleth.';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_sync_script'] = 'Script de sincronização cron';
 $string['auth_updatelocal'] = 'Actualizar localmente';

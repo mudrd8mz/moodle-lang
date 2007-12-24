@@ -19,7 +19,7 @@ $string['authfail_usermismatch'] = 'Autorização falhada: o utilizador não é 
 $string['authmnetautoadddisabled'] = 'O plugin de autenticação da rede Moodle para auto-adicionar utilizadores está <strong>desligado</strong>.';
 $string['authmnetdisabled'] = 'O plugin de autenticação da rede Moodle está <strong>desligado</strong>.';
 $string['badcert'] = 'Este não é um certificado válido.';
-$string['couldnotgetcert'] = 'Nenhum certificado encontrado em <br/>$a. <br/> O host pode estar em baixo ou configurado incorrectamente.';
+$string['couldnotgetcert'] = 'Nenhum certificado encontrado em <br />$a. <br /> O host pode estar em baixo ou configurado incorrectamente.';
 $string['couldnotmatchcert'] = 'Isto não combina com o certificado publicado actualmente pelo servidor da Internet.';
 $string['courses'] = 'Disciplinas';
 $string['courseson'] = 'Disciplinas em';
@@ -33,7 +33,7 @@ $string['deleteuserrecord'] = 'SSO ACL: apagar registro para o utilizador \'$a[0
 $string['deletewrongkeyvalue'] = 'Um erro ocorreu. Se você não esta a tentar apagar a chave do SSL do seu servidor, é possível que esteja a ser sujeito a um ataque malicioso. Nenhuma acção foi tomada.';
 $string['deny'] = 'Negar';
 $string['description'] = 'Descrição';
-$string['duplicate_usernames'] = 'Falhamos na criação de um índice nas colunas \"mnethostid\" e \"username\" na tabela utilizador. <br/> Isto pode acontecer quando tens <a href=\"$a\" target=\"_blank\"> nomes de utilizadores duplicados na tabela de utilizador .</a>. <br/> A actualização deve conseguir concluir com sucesso na mesma. Clique sobre o link acima, e instruções de como resolver este problema aparecerão numa nova janela. Pode aceder a isso no final da actualização. <br/>';
+$string['duplicate_usernames'] = 'Falhamos na criação de um índice nas colunas \"mnethostid\" e \"username\" na tabela utilizador. <br /> Isto pode acontecer quando tens <a href=\"$a\" target=\"_blank\"> nomes de utilizadores duplicados na tabela de utilizador .</a>. <br /> A actualização deve conseguir concluir com sucesso na mesma. Clique sobre o link acima, e instruções de como resolver este problema aparecerão numa nova janela. Pode aceder a isso no final da actualização. <br />';
 $string['editenrolments'] = 'Inscrever';
 $string['enabled_for_all'] = '(Este serviço foi ligado para todos os hosts).';
 $string['enrolcourseenrol_desc'] = 'Inscrever/Cancelar inscrição de utilizadores desta disciplina usando Inscrições/Matriculas rede Moodle.
@@ -110,7 +110,7 @@ $string['noipmatch'] = 'O endereço da máquina remota: <br /><em>$a[0]</em><br 
 $string['nolocaluser'] = 'Nenhum registo local existe para o utilizador remoto.';
 $string['nomodifyacl'] = 'Não tem permissões para modificar a lista de acesso de controlo MNET.';
 $string['nonmatchingcert'] = 'O sujeito do certificado: <br /><em>$a[0]</em><br /> não combina com o host de onde veio:<br /><em>$a[1]</em>.';
-$string['nopubkey'] = 'Ocorreu um problema ao recuperar a chave pública. <br/>Talvez o host não permita rede Moodle ou a chave é inválida.';
+$string['nopubkey'] = 'Ocorreu um problema ao recuperar a chave pública. <br />Talvez o host não permita rede Moodle ou a chave é inválida.';
 $string['nosite'] = '(Não conseguiu encontrar o nível do site disciplina)';
 $string['nosuchfile'] = 'O ficheiro/função $a não existe.';
 $string['nosuchfunction'] = 'Incapaz de encontrar a função, ou a função é proibitiva para o RPC.';
@@ -141,7 +141,7 @@ $string['reenableserver'] = 'Não – Seleccione esta opção para voltar a liga
 $string['registerallhosts'] = 'Registar todos os hosts. (<em>modo Hub</em>)';
 $string['registerallhostsexplain'] = 'Você pode escolher registar automaticamente todos os hosts que tentam ligar-se a si.
 Isto significa que um registo vai aparecer na tua lista de hosts para qualquer site do Moodle que se ligue a si e que peça a chave pública.
-<br/> Você tem a opção abaixo para configurar serviços para \"todos os hosts\" e ao ligar alguns serviços lá, você pode proporcionar indiscriminadamente serviços a qualquer servidor de Moodle.';
+<br /> Você tem a opção abaixo para configurar serviços para \"todos os hosts\" e ao ligar alguns serviços lá, você pode proporcionar indiscriminadamente serviços a qualquer servidor de Moodle.';
 $string['remotecourses'] = 'Disciplinas remotas';
 $string['remoteenrolhosts_desc'] = 'Inscreve e anula a inscrição da tua instalação Moodle no Moodle Hosts que permite que o faças através do plugin inscrição da rede Moodle.';
 $string['remotehost'] = 'Hub remoto';

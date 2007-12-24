@@ -51,7 +51,7 @@ $string['incorrectfieldname'] = 'Nome incorrecto';
 $string['indexes'] = 'Índices';
 $string['integerincorrectlength'] = 'Tamanho incorrecto para campo inteiro';
 $string['keys'] = 'Chaves';
-$string['listreservedwords'] = 'Lista de Palavras Reservadas<br/>(usadas para manter <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> actualizadas)';
+$string['listreservedwords'] = 'Lista de Palavras Reservadas<br />(usadas para manter <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> actualizadas)';
 $string['load'] = 'Carregar';
 $string['main_view'] = 'Vista principal';
 $string['missingfieldsinsentence'] = 'A faltar campos na (frase/conteudo)';
@@ -103,6 +103,6 @@ $string['viewphpcode'] = 'Ver Código PHP';
 $string['viewsqlcode'] = 'Ver Código SQL';
 $string['wronglengthforenum'] = 'Tamanho incorrecto para campo enum';
 $string['wrongnumberoffieldsorvalues'] = 'Incorrecto número de campos ou valores na (frase/conteudo)';
-$string['wrongreservedwords'] = 'Palavras Reservadas Usadas Actualmente<br/>(verifique que nomes de tabelas não são importantes se usar $CFG->prefix)';
+$string['wrongreservedwords'] = 'Palavras Reservadas Usadas Actualmente<br />(verifique que nomes de tabelas não são importantes se usar $CFG->prefix)';
 
 ?>
