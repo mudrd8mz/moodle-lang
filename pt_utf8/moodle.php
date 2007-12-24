@@ -80,7 +80,7 @@ $string['administratordescription'] = 'Habitualmente, os administradores podem f
 $string['administrators'] = 'Administradores';
 $string['administratorsall'] = 'Todos os administradores';
 $string['administratorsandteachers'] = 'Administradores e professores';
-$string['adminprimarynoedit'] = 'Não pode alterar a palavra chave do administrador principal';
+$string['adminprimarynoedit'] = 'Não pode alterar a senha do administrador principal';
 $string['advanced'] = 'Avançado';
 $string['advancedfilter'] = 'Filtro avançado';
 $string['advancedsettings'] = 'Configurações avançadas';
@@ -190,8 +190,8 @@ $string['categorydeleted'] = 'A categoria \'$a\' foi apagada';
 $string['categoryduplicate'] = 'Já existe uma categoria com o nome \'$a\'!';
 $string['categoryname'] = 'Nome da categoria';
 $string['categoryupdated'] = 'A categoria \'$a\' foi actualizada';
-$string['changedpassword'] = 'Palavra chave modificada';
-$string['changepassword'] = 'Modificar palavra chave';
+$string['changedpassword'] = 'Senha modificada';
+$string['changepassword'] = 'Modificar senha';
 $string['changessaved'] = 'Alterações gravadas';
 $string['check'] = 'Verificar';
 $string['checkall'] = 'Verificar todo';
@@ -298,7 +298,7 @@ $string['courseuploadlimit'] = 'Tamanho máximo de ficheiros enviados para a dis
 $string['create'] = 'Criar';
 $string['createaccount'] = 'Criar a minha conta';
 $string['createfolder'] = 'Criar uma pasta em $a';
-$string['createuserandpass'] = 'Escolha um nome de utilizador e palavra chave';
+$string['createuserandpass'] = 'Escolha um nome de utilizador e senha';
 $string['createziparchive'] = 'Criar um arquivo zip';
 $string['creatingblocks'] = 'A criar blocos';
 $string['creatingblocksroles'] = 'A criar atribuições e revogações de cargos ao nível de blocos.';
@@ -472,9 +472,9 @@ $string['emailnotfound'] = 'O endereço de correio electrónico não foi encontr
 $string['emailonlyallowed'] = 'Este endereço de correio electrónico não está entre os permitidos ($a)';
 $string['emailpasswordchangeinfo'] = 'Viva $a->firstname,
 
-Alguém (provavelmente você) pediu uma nova palavra chave nova para a sua conta em \'$a->sitename\'.
+Alguém (provavelmente você) pediu uma senha nova para a sua conta em \'$a->sitename\'.
 
-Para alterar a palavra chave, por favor visite o seguinte endereço Web:
+Para alterar a senha, por favor visite o seguinte endereço Web:
 
 $a->link
 
@@ -483,19 +483,19 @@ Na maioria dos programas de correio electrónico, o endereço aparecerá em azul
 Se precisar de ajuda, entre em contacto com o administrador do sítio, $a->admin';
 $string['emailpasswordchangeinfodisabled'] = 'Viva $a->firstname,
 
-Alguém (provavelmente você) pediu uma nova palavra chave para a sua conta em \'$a->sitename\'.
+Alguém (provavelmente você) pediu uma nova senha para a sua conta em \'$a->sitename\'.
 
 Desafortunadamente, a sua conta neste sítio foi desactivada e não pode ser activada novamente; por favor entre em contacto com o administrador do sítio, $a->admin';
 $string['emailpasswordchangeinfofail'] = 'Viva $a->firstname,
 
-Alguém (provavelmente você) pediu uma nova palavra chave para a sua conta em \'$a->sitename\'.
+Alguém (provavelmente você) pediu uma nova senha para a sua conta em \'$a->sitename\'.
 
 Desafortunadamente, neste sítio não podem ser atribuídas novas palavras chave; por favor entre em contacto com o administrador do sítio, $a->admin';
-$string['emailpasswordchangeinfosubject'] = 'Informação para alteração de palavra chave';
+$string['emailpasswordchangeinfosubject'] = 'Informação para alteração de senha';
 $string['emailpasswordconfirmation'] = 'Viva $a->firstname,
-Alguém (provavelmente você) pediu uma nova palavra chave para a sua conta no servidor \'$a->sitename\'.
+Alguém (provavelmente você) pediu uma nova senha para a sua conta no servidor \'$a->sitename\'.
 
-Para confirmar este pedido e receber a nova palavra chave pelo correio electrónico, visite o seguinte endereço:
+Para confirmar este pedido e receber a nova senha pelo correio electrónico, visite o seguinte endereço:
 
 $a->link
 
@@ -504,15 +504,15 @@ Se isso não funcionar, recorte e cole o endereço na barra de endereço do seu 
 
 Se precisar de ajuda, contacte o administrador do servidor,
 $a->admin';
-$string['emailpasswordconfirmationsubject'] = '$a: confirmação de alteração da palavra chave';
+$string['emailpasswordconfirmationsubject'] = '$a: confirmação de alteração da senha';
 $string['emailpasswordconfirmmaybesent'] = '<p>Se indicou um nome de utilizador ou endereço de correio electrónico correctos, deverá receber uma mensagem de correio electrónico.</p>
-<p>Leia as intruções nessa mensagem para confirmar e completar a selecção de uma nova palavra chave. Se continuar a ter dificuldades, por faver contacte o administrador do sítio.</p>';
+<p>Leia as intruções nessa mensagem para confirmar e completar a selecção de uma nova senha. Se continuar a ter dificuldades, por faver contacte o administrador do sítio.</p>';
 $string['emailpasswordconfirmsent'] = '<p>Foi enviada uma mensagem para o seu endereço <b>$a</b>.</p>
-<p>Esta contém instruções para confirmar e completar a alteração da palavra chave.</p>
+<p>Esta contém instruções para confirmar e completar a alteração da senha.</p>
 <p>Se continuar a ter dificuldades, contacte o administrador do servidor.</p>';
-$string['emailpasswordsent'] = '<p>Obrigado por confirmar a alteração da sua palavra chave.</p>
-<p>A sua nova palavra chave foi enviada por correio para <b>$a->email</b>.</p>
-<p>A nova palavra chave foi gerada automaticamente - poderá querer <a href=\"$a->link\">alterar a sua palavra chave</a> para algo que se recorde depois com mais facilidade (mas primeiro procure a nova palavra chave na mensagem que acabou de ser enviada).</p>';
+$string['emailpasswordsent'] = '<p>Obrigado por confirmar a alteração da sua senha.</p>
+<p>A sua nova senha foi enviada por correio para <b>$a->email</b>.</p>
+<p>A nova senha foi gerada automaticamente - poderá querer <a href=\"$a->link\">alterar a sua senha</a> para algo que se recorde depois com mais facilidade (mas primeiro procure a nova senha na mensagem que acabou de ser enviada).</p>';
 $string['enable'] = 'Activar';
 $string['encryptedcode'] = 'Código encriptado';
 $string['enroldate'] = 'Intervalo de datas';
@@ -544,7 +544,7 @@ $string['enrolperiod'] = 'Periodo de inscrição';
 $string['enrolstartdate'] = 'Data de início';
 $string['entercourse'] = 'Clique para entrar na disciplina';
 $string['enteremailaddress'] = 'Introduza o seu endereço de correio electrónico
-para criar uma nova palavra chave que lhe será enviada para esse endereço.';
+para criar uma nova senha que lhe será enviada para esse endereço.';
 $string['entries'] = 'Entradas';
 $string['error'] = 'Erro';
 $string['errortoomanylogins'] = 'Desculpe, mas excedeu o número permitido de tentativas de acesso. Terá que reiniciar o seu navegador.';
@@ -601,12 +601,12 @@ $string['force'] = 'Forçar';
 $string['forcedmode'] = 'Modo forçado';
 $string['forcelanguage'] = 'Forçar língua';
 $string['forceno'] = 'Não forçar';
-$string['forcepasswordchange'] = 'Forçar mudança de palavra chave';
+$string['forcepasswordchange'] = 'Forçar mudança de senha';
 $string['forcepasswordchangehelp'] = 'Peça ao utilizador para o alterar, a proxima vez que entrar';
-$string['forcepasswordchangenotice'] = 'Deverá alterar a sua palavra chave para poder continuar.';
+$string['forcepasswordchangenotice'] = 'Deverá alterar a sua senha para poder continuar.';
 $string['forcetheme'] = 'Forçar o tema';
-$string['forgotaccount'] = 'recuperar palavra chave';
-$string['forgotten'] = 'Se esqueceu o seu nome de utilizador ou palavra chave:';
+$string['forgotaccount'] = 'recuperar senha';
+$string['forgotten'] = 'Se esqueceu o seu nome de utilizador ou senha:';
 $string['forgottenduplicate'] = 'O endereço de correio é partilhado por várias contas diferentes; por favor indique melhor o nome de utilizador';
 $string['forgotteninvalidurl'] = 'URL para recuperação de contrasenhas esquecidas';
 $string['format'] = 'Formato';
@@ -796,7 +796,7 @@ $string['lastyear'] = 'Ano passado';
 $string['latestlanguagepack'] = 'Verificar o pacote linguístico mais recente em moodle.org';
 $string['latestnews'] = 'Últimas notícias';
 $string['layouttable'] = 'Tabela de esquema';
-$string['leavetokeep'] = 'Deixe em branco se quiser manter a palavra chave actual';
+$string['leavetokeep'] = 'Deixe em branco se quiser manter a senha actual';
 $string['license'] = 'Licença Pública Geral';
 $string['liketologin'] = 'Quer aceder agora o sistema com uma conta completa de utilizador?';
 $string['list'] = 'Lista';
@@ -813,7 +813,7 @@ $string['login'] = 'Entrar';
 $string['login_failure_logs'] = 'Relatórios de tentativas de entrada sem sucesso';
 $string['loginalready'] = 'Já está autenticado como';
 $string['loginas'] = 'Entrar como';
-$string['loginaspasswordexplain'] = '<p>Para poder utilizar esta opção terá que introduzir a palavra chave especial para \"entrar como\".</br>Se não souber essa palavra chave, pergunte ao administrador.</p>';
+$string['loginaspasswordexplain'] = '<p>Para poder utilizar esta opção terá que introduzir a senha especial para \"entrar como\".</br>Se não souber essa senha, pergunte ao administrador.</p>';
 $string['loginguest'] = 'Entrar como visitante';
 $string['loginsite'] = 'Entrar no sítio';
 $string['loginsteps'] = 'Viva!<br />
@@ -826,15 +826,15 @@ $string['loginsteps'] = 'Viva!<br />
 <li>Leia essa mensagem e visite o apontador fornecido para confirmar o registo e poder entrar no sítio.</li>
 <li>A seguir poderá seleccionar a disciplina na qual se quer inscrever.</li>
 <li>Se precisar de uma \"chave de inscrição\", terá que usara a chave indicada pelo seu docente.</li>
-<li>A seguir já terá acesso completo à disciplina. A partir de agora só precisará de entrar com o seu nome de utilizador e palavra chave (no formulário
+<li>A seguir já terá acesso completo à disciplina. A partir de agora só precisará de entrar com o seu nome de utilizador e senha (no formulário
 de acesso desta página).</li>
 </ol>';
 $string['loginstepsnone'] = '<p>Viva!</p>
 <p>Para ter acesso total às disciplinas, vai ter que criar a sua própria conta de utilizador.</p>
-<p>Só precisa de escolher um nome de utilizador e palavra chave, e usá-los no formulário nesta página!</p>
+<p>Só precisa de escolher um nome de utilizador e senha, e usá-los no formulário nesta página!</p>
 <p>Se já alguém tiver escolhido esse nome de utilizador deverá tentar com um nome diferente.</p>';
 $string['loginto'] = 'Entrar em $a';
-$string['loginusing'] = 'Para aceder precisa do seu nome de utilizador e palavra chave';
+$string['loginusing'] = 'Para aceder precisa do seu nome de utilizador e senha';
 $string['logout'] = 'Sair';
 $string['logoutconfirm'] = 'Tem a certeza que que sair?';
 $string['logs'] = 'Registos de acesso';
@@ -893,8 +893,8 @@ $string['missingfirstname'] = 'Falta o nome';
 $string['missingfullname'] = 'Falta o nome completo';
 $string['missinglastname'] = 'Falta o apelido';
 $string['missingname'] = 'Falta o nome completo';
-$string['missingnewpassword'] = 'Falta a nova palavra chave';
-$string['missingpassword'] = 'Falta a palavra chave';
+$string['missingnewpassword'] = 'Falta a nova senha';
+$string['missingpassword'] = 'Falta a senha';
 $string['missingreqreason'] = 'Falta justificação';
 $string['missingshortname'] = 'Falta o nome abreviado';
 $string['missingshortsitename'] = 'Falta o nome abreviado do sítio';
@@ -930,7 +930,7 @@ $string['moveselectedcoursesto'] = 'Mover as disciplinas seleccionados para...';
 $string['movetoanotherfolder'] = 'Mude para outra pasta';
 $string['moveup'] = 'Mover para cima';
 $string['msnid'] = 'ID do MSN';
-$string['mustchangepassword'] = 'A nova palavra chave deverá ser diferente da actual';
+$string['mustchangepassword'] = 'A nova senha deverá ser diferente da actual';
 $string['mustconfirm'] = 'Precisa confirmar o seu acesso';
 $string['mycourses'] = 'As minhas disciplinas';
 $string['name'] = 'Nome(s)';
@@ -946,17 +946,17 @@ $string['neverdeletelogs'] = 'Nunca apague os registos';
 $string['new'] = 'Novo';
 $string['newaccount'] = 'Nova conta';
 $string['newcourse'] = 'Nova disciplina';
-$string['newpassword'] = 'Nova palavra chave';
-$string['newpasswordfromlost'] = '<strong>ATENÇÃO:</strong> A sua <strong>palavra chave actual</strong> deverá ter sido enviada para si na <strong>segunda</strong> de duas mensagens que lhe foram enviadas como parte do processo de recuperação de palavra chave. Verifique que já recebeu a mensagem com a palavra chave de substituição antes de continuar com esta página.';
+$string['newpassword'] = 'Nova senha';
+$string['newpasswordfromlost'] = '<strong>ATENÇÃO:</strong> A sua <strong>senha actual</strong> deverá ter sido enviada para si na <strong>segunda</strong> de duas mensagens que lhe foram enviadas como parte do processo de recuperação de senha. Verifique que já recebeu a mensagem com a senha de substituição antes de continuar com esta página.';
 $string['newpasswordtext'] = 'Viva $$$a->firstname,
-Tal como foi pedido, a palavra chave da sua conta em \'$$a->sitename\' foi substituída por uma nova palavra chave provisória.
+Tal como foi pedido, a senha da sua conta em \'$$a->sitename\' foi substituída por uma nova senha provisória.
 
 A informação actual da sua conta de utilizador é:
 
   Nome de utilizador: $a->username
-  Palavra chave: $a->newpassword
+  Senha: $a->newpassword
 
-Por favor visite a página que se segue, para modificar a palavra chave provisória:
+Por favor visite a página que se segue, para modificar a senha provisória:
   $a->link
 
 Em muitos leitores de correio bastará carregar sobre o endereço anterior.
@@ -977,11 +977,11 @@ $string['newuser'] = 'Novo utilizador';
 $string['newusernewpasswordsubj'] = 'Nova conta de utilizador';
 $string['newusernewpasswordtext'] = 'Uma nova conta de utilizador foi criada para si em
 \'$a->sitename\'
-and foi-lhe atribuida uma palavra chave temporária.
+and foi-lhe atribuida uma senha temporária.
 
 Os seus dados actuais são:
 nome de utilizador: $a->username
-palavra chave: $a->newpassword
+senha: $a->newpassword
 (já terá oportunidade de modificar a sua palavra
 chave quando entrar pela primeira vez)
 
@@ -1073,7 +1073,7 @@ $string['numweeks'] = '$a semana(s)';
 $string['numwords'] = '$a palavra(s)';
 $string['numyears'] = '$a ano(s)';
 $string['ok'] = 'OK';
-$string['oldpassword'] = 'Palavra chave actual';
+$string['oldpassword'] = 'Senha actual';
 $string['olduserdirectory'] = 'Este é o ANTIGO directório de utilizadores, que já não é necessário. Pode apagá-lo sem problemas. Os ficheiros nele contidos foram copiados para o NOVO directório.';
 $string['opentoguests'] = 'Acesso a visitantes';
 $string['optional'] = 'opcional';
@@ -1091,19 +1091,19 @@ $string['parentlanguage'] = '<< TRADUTORES: Se existir uma língua semelhante à
 $string['participants'] = 'Participantes';
 $string['participationratio'] = 'Taxa de participação';
 $string['participationreport'] = 'Relatório de participação';
-$string['password'] = 'Palavra chave';
-$string['passwordchanged'] = 'Palavra chave modificada';
-$string['passwordconfirmchange'] = 'Confirme alteração de palavra chave';
-$string['passwordextlink'] = 'O seguinte apontador permite-lhe substituir a sua palavra chave esquecida. Este apontador conduz para o sítio Moodle que está utilizar.';
-$string['passwordforgotten'] = 'Palavra chave esquecida';
+$string['password'] = 'Senha';
+$string['passwordchanged'] = 'Senha modificada';
+$string['passwordconfirmchange'] = 'Confirme alteração de senha';
+$string['passwordextlink'] = 'O seguinte apontador permite-lhe substituir a sua senha esquecida. Este apontador conduz para o sítio Moodle que está utilizar.';
+$string['passwordforgotten'] = 'Senha esquecida';
 $string['passwordforgotteninstructions'] = 'Primeiro teremos que indentificar os seus dados na base de dados. Por favor diga-nos <strong>algum dos dois dados seguintes</strong> no campo respectivo: o seu nome de utilizador no sítio Moodle, ou o endereço de correio electrónico com que está registado. Não é preciso indicar as duas coisas.';
-$string['passwordnohelp'] = 'No é possível ajudar a resuperar a sua palavra chave perdida. Por favor entre em contacto com o administrador do sítio Moddle que está a utilizar.';
+$string['passwordnohelp'] = 'No é possível ajudar a resuperar a sua senha perdida. Por favor entre em contacto com o administrador do sítio Moddle que está a utilizar.';
 $string['passwordrecovery'] = 'Sim, ajude-me a entrar';
 $string['passwordsdiffer'] = 'As palavras chave não coincidem';
-$string['passwordsent'] = 'Palavra chave enviada com sucesso';
+$string['passwordsent'] = 'Senha enviada com sucesso';
 $string['passwordsenttext'] = '<p>Foi enviada uma mensagem foi para o seu endereço $a->email.</p>
-<p><b>Por favor procure a sua nova palavra chave no correio</b>.</p>
-<p>A nova palavra chave foi gerada automaticamente, sendo assim conveniente <a href=\"$a->link\">mudá-la para outra mais fácil de lembrar</a>.</p>';
+<p><b>Por favor procure a sua nova senha no correio</b>.</p>
+<p>A nova senha foi gerada automaticamente, sendo assim conveniente <a href=\"$a->link\">mudá-la para outra mais fácil de lembrar</a>.</p>';
 $string['pathnotexists'] = 'Esse caminho não existe no seu servidor!';
 $string['pathslasherror'] = 'O caminho não pode terminar com / !!';
 $string['paymentinstant'] = 'Use o botão em baixo para pagar e completar a inscrição!';
@@ -1243,7 +1243,7 @@ $string['secondstotime432000'] = '5 dias';
 $string['secondstotime518400'] = '6 dias';
 $string['secondstotime604800'] = '1 semana';
 $string['secondstotime86400'] = '1 dia';
-$string['secretalreadyused'] = 'A palavra chave não foi alterada, porque o apontador para confirmar a sua alteração já foi utilizado.';
+$string['secretalreadyused'] = 'A senha não foi alterada, porque o apontador para confirmar a sua alteração já foi utilizado.';
 $string['secs'] = 'segundos';
 $string['section'] = 'Secção';
 $string['sections'] = 'Secções';
@@ -1439,7 +1439,7 @@ $string['unfinished'] = 'Sem terminar';
 $string['unknowncategory'] = 'Categoria desconhecida';
 $string['unlimited'] = 'Ilimitado';
 $string['unpacking'] = 'Desempacotando $a';
-$string['unsafepassword'] = 'Palavra chave insegura - use outra melhor';
+$string['unsafepassword'] = 'Senha insegura - use outra melhor';
 $string['untilcomplete'] = 'Até estar completo';
 $string['unusedaccounts'] = 'Contas que não sejam utilizadas por mais do que $a dias são eliminadas automaticamente';
 $string['unzip'] = 'Descompactar';
@@ -1563,7 +1563,7 @@ $string['writingmessagesinfo'] = 'Escrevendo informação sobre mensagens';
 $string['writingmoduleinfo'] = 'Escrevendo dados do módulo';
 $string['writingscalesinfo'] = 'Escrevendo dados das escalas';
 $string['writinguserinfo'] = 'Escrevendo dados dos utilizadores';
-$string['wrongpassword'] = 'Palavra chave errada para este utilizador';
+$string['wrongpassword'] = 'Senha errada para este utilizador';
 $string['xmldbeditor'] = 'Editor XMLDB';
 $string['yahooid'] = 'ID do Yahoo';
 $string['year'] = 'ano';

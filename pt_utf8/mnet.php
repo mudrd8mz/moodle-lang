@@ -182,9 +182,9 @@ Qualquer hostcom um endereço de Ip entre 192.168.0.1 e 192.168.0.255:<br />192.
 Qualquer host: <br />192.168.0.0/0<br />
 Obviamente o último exemplo <strong>não</strong> é uma configuração recomendada.';
 $string['unknownerror'] = 'Ocorreu um erro desconhecido durante a negociação.';
-$string['usercannotchangepassword'] = 'Não pode modificar a sua password aqui já que é um utilizador remoto.';
-$string['userchangepasswordlink'] = '<br /> Talvez tenha que alterar a sua password no seu <a href=\"$a->wwwroot/login/change_password.php\">$a->description</a> fornecedor.';
-$string['usersareonline'] = 'Aviso: $a utilizadores daquele servidor estão ligados actualmente ao teu servidor.';
+$string['usercannotchangepassword'] = 'Não pode modificar a sua senha aqui já que é um utilizador remoto.';
+$string['userchangepasswordlink'] = '<br /> Talvez tenha que alterar a sua senha no seu <a href=\"$a->wwwroot/login/change_password.php\">$a->description</a> fornecedor.';
+$string['usersareonline'] = 'Aviso: $a utilizadores desse servidor estão ligados actualmente ao seu servidor.';
 $string['validated_by'] = 'É validade pela rede: &nbsp;<code>$a</code>';
 $string['verifysignature-error'] = 'A verificação de assinatura falhou. Ocorreu um erro.';
 $string['verifysignature-invalid'] = 'A verificação da assinatura falhou. 

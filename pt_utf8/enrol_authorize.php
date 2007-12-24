@@ -44,8 +44,8 @@ $string['adminreview'] = 'Rever pedido antes de processar o cartão de crédito.
 $string['adminteachermanagepay'] = 'Os professores podem controlar os pagamentos da Disciplina.';
 $string['allpendingorders'] = 'Todas as ordens pendentes';
 $string['amount'] = 'Quantidade';
-$string['anlogin'] = 'Authorize.net: Nome Login';
-$string['anpassword'] = 'Authorize.net: Palavra-Passe';
+$string['anlogin'] = 'Authorize.net: Nome de utilizador';
+$string['anpassword'] = 'Authorize.net: Senha';
 $string['anreferer'] = 'Defina o URL referente se tiver configurado isto na sua conta authorize.net. Isto enviará uma linha \"Referente: URL\" incluida no seu pedido web.';
 $string['antestmode'] = 'Corra as transacções apenas em modo de teste (não será despejado dinheiro)';
 $string['antrankey'] = 'Authorize.net: Chave de Transacção';
@@ -105,9 +105,7 @@ $string['invalidaba'] = 'Número ABA inválido';
 $string['invalidaccnum'] = 'Número de conta inválido';
 $string['invalidacctype'] = 'Tipo de conta inválido';
 $string['logindesc'] = 'Esta opção tem que estar ON. <br /><br />Certifique-se que colocou <a href=\"$a->url\">loginhttps ON</a> in Admin >> Variables >> Security.<br /><br />Colocando isto ON fará com que o Moodle utilize o protocolo de ligação segura https para o login e páginas de pagamento.';
-$string['logininfo'] = 'Nome de Login, password e chaves de transacções não são (mostradas/visíveis/visionadas) devido a questões de segurança. Não será necessário introduzir de novo estes campos se estes já foram configurados anteriormente.
-Deverá visualizar um texto a verde á esquerda da (caixa de texto) se certos campos já foram configurados.
-Se introduz estes campos pela primeira vez, o nome do Login(*) é obrigatório e <strong> também </strong> deve introduzir a chave de transacção(#1)  <strong> ou </strong> a password(#2) na caixa de texto apropriada. Recomendamos que introduza a chave de transacção devido a precauções de questões de segurança. Se quiser apagar a password actual, (coloque um viste na checkbox).';
+$string['logininfo'] = 'Não se mostram o nome de utilizador, senha e chaves de transacção devido a questões de segurança. Não será necessário introduzir de novo estes campos se estes já foram configurados anteriormente. Deverá ver um texto a verde á esquerda da (caixa de texto) se certos campos já foram configurados. Se introduz estes campos pela primeira vez, o nome do Login(*) é obrigatório e <strong> também </strong> deve introduzir a chave de transacção(#1)  <strong> ou </strong> a password(#2) na caixa de texto apropriada. Recomendamos que introduza a chave de transacção devido a precauções de questões de segurança. Se quiser apagar a password actual, (coloque um viste na checkbox).';
 $string['methodcc'] = 'Cartão de crédito';
 $string['methodecheck'] = '(eCheck)(ACH)';
 $string['missingaba'] = 'Número ABA em falta';
