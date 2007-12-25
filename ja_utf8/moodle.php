@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101505)
+      // moodle.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['action'] = '操作';
@@ -20,7 +20,7 @@ $string['add'] = '追加';
 $string['addactivity'] = '活動の追加 ...';
 $string['addadmin'] = '管理者を追加する';
 $string['addcreator'] = 'コース作成者を追加する';
-$string['added'] = '$a が追加されました。';
+$string['added'] = '$a が追加されました';
 $string['addedrecip'] = '受信者が $a 名追加されました。';
 $string['addedrecips'] = '受信者が $a 名追加されました。';
 $string['addedtogroup'] = 'グループ「 $a 」に追加されました。';
