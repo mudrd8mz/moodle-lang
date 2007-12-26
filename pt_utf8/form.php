@@ -3,7 +3,7 @@
 
 
 $string['addfields'] = 'Adicionar $a campo(s) ao formulário';
-$string['advancedelement'] = 'Elemento avaçado';
+$string['advancedelement'] = 'Elemento avançado';
 $string['day'] = 'Dia';
 $string['display'] = 'Mostrar';
 $string['err_alphanumeric'] = 'Aqui pode usar unicamente letras ou números';
@@ -20,8 +20,8 @@ $string['general'] = 'Geral';
 $string['hideadvanced'] = 'Ocultar opções avançadas';
 $string['hour'] = 'Hora';
 $string['minute'] = 'Minuto';
-$string['miscellaneoussettings'] = 'Configurações diversas';
-$string['modstandardels'] = 'Configurações comuns de módulos';
+$string['miscellaneoussettings'] = 'Definições variadas';
+$string['modstandardels'] = 'Definições comuns do módulo';
 $string['month'] = 'Mês';
 $string['nomethodforaddinghelpbutton'] = 'Não existe nenhum método para adicionar um botão de ajuda ao elemento de formulário $a->name (classe $a->classname)';
 $string['nonexistentformelements'] = 'Tentativa de adicionar botões de ajuda a elementos de formulário não existentes: $a';

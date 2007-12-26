@@ -1,5 +1,6 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.6.2 (2006050521)
+      // editor.php - created with Moodle 1.7.1+ (2006101010)
+
 
 $string['about'] = 'Acerca deste editor';
 $string['absbottom'] = 'FundoAbsoluto';
@@ -59,6 +60,7 @@ $string['justifycenter'] = 'Centrar';
 $string['justifyfull'] = 'Preencher linha';
 $string['justifyleft'] = 'Alinhar à esquerda';
 $string['justifyright'] = 'Alinhar à direita';
+$string['lang'] = 'Língua';
 $string['layout'] = 'Estrutura';
 $string['left'] = 'Esquerda';
 $string['lefttoright'] = 'Texto corre de esquerda para direita';
@@ -75,6 +77,7 @@ $string['matchcase'] = 'Distinguir maiúsculas e minúsculas';
 $string['middle'] = 'Meio';
 $string['minimize'] = 'Minimizar o editor';
 $string['move'] = 'Mover';
+$string['multi'] = 'Multi';
 $string['mustenterurl'] = 'Tem que inserir um endereço (URL)';
 $string['nolink'] = 'Não criar apontadores automaticamente';
 $string['normal'] = 'Normal';

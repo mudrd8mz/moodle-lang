@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.6 (2006050506)
+      // enrol_ldap.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['description'] = '<p>Pode utilizar um servidor LDAP para controlar os seus registos. É assumido que a sua árvore LDAP contém grupos que mapeiam as Disciplinas e que cada um desses grupos/Disciplinas terão entradas de membros para mapear os alunos.</p>
@@ -10,9 +10,10 @@ Isto normalmente corre bem se já estiver a utilizar Autenticação LDAP.</p>
 <p>Este plugin também poderá ser definido para criar automaticamente novas Disciplinas quando aparecem novos grupos no LDAP.</p>';
 $string['enrol_ldap_autocreate'] = 'As disciplinas podem ser criadas automaticamente se houver registos numa disciplina que ainda não exista no Moodle.';
 $string['enrol_ldap_autocreation_settings'] = 'Definições automáticas de criação de disciplinas';
-$string['enrol_ldap_bind_dn'] = 'Se quiser utilizar o bind-user para procurar utilizadores, especifique-o aqui. Qualquer coisa como \'cn=ldapuser,ou=public,o=org\' ';
+$string['enrol_ldap_bind_dn'] = 'Se quiser utilizar o bind-user para procurar utilizadores, especifique-o aqui. Qualquer coisa como \'cn=ldapuser,ou=public,o=org\'';
 $string['enrol_ldap_bind_pw'] = 'Palavra-Chave para bind-user';
 $string['enrol_ldap_category'] = 'A categoria para criar automaticamente disciplinas';
+$string['enrol_ldap_contexts'] = 'Contextos LDAP';
 $string['enrol_ldap_course_fullname'] = 'Opcional: Campo LDAP de onde tirar o nome completo';
 $string['enrol_ldap_course_idnumber'] = 'Mapa para o identificador único no LDAP, normalmente  <em>cn</em> ou <em>uid</em>. É recomendado que bloqueie o valor se estiver a utilizar a criação automatica de disciplinas';
 $string['enrol_ldap_course_settings'] = 'Definições de registo nas disciplinas';
@@ -22,7 +23,9 @@ $string['enrol_ldap_editlock'] = 'Valor bloqueado';
 $string['enrol_ldap_general_options'] = 'Opções Gerais';
 $string['enrol_ldap_host_url'] = 'Especifique o host LDAP em forma URL, do tipo \'ldap://ldap.myorg.com/\'
 or \'ldaps://ldap.myorg.com/\'';
+$string['enrol_ldap_memberattribute'] = 'Atributo do membro LDAP';
 $string['enrol_ldap_objectclass'] = 'objectClass utilizada para procurar Disciplinas. Normalmente \'posixGroup\'';
+$string['enrol_ldap_roles'] = 'Mapear cargo';
 $string['enrol_ldap_search_sub'] = 'Procurar membros do Grupo em subcontexts';
 $string['enrol_ldap_server_settings'] = 'Definições do servidor LDAP';
 $string['enrol_ldap_student_contexts'] = 'Lista de contextos onde os grupos com registos de estudantes estão localizados. Separe os diferentes contextos com \';\'. Por exemplo: \'ou=courses,o=org; ou=others,o=org\'';
