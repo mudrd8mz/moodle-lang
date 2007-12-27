@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101505)
+      // admin.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -94,6 +94,7 @@ $string['configdefaultuserroleid'] = 'すべてのログインユーザには、
 $string['configdeleteunconfirmed'] = 'メールによる認証を利用している場合、この値はユーザからの返答を受けつける期間を指します。この期間終了後、古い未承認のアカウントは削除されます。';
 $string['configdenyemailaddresses'] = '特定ドメインから新しいメールアドレスを拒否したい場合、この欄にスペースで区切って入力してください。他のドメインはすべて認められます。例  <strong>hotmail.com yahoo.co.uk</strong>';
 $string['configdigestmailtime'] = 'メール送信する選択をしたユーザに、投稿内容を要約したメールが毎日送信されます。ここでは、1日の内で何時に要約メールを送信するか設定します (この設定後に実行される次のcronがメールを送信します)。';
+$string['configdisablecourseajax'] = 'メインコースページを編集する場合、AJAXを使用しません。';
 $string['configdisableuserimages'] = 'ユーザがユーザプロフィールイメージを変更できないようにします。';
 $string['configdisplayloginfailures'] = 'ここで選択したユーザに前回のログイン失敗情報を表示します。';
 $string['configdocroot'] = 'Moodle Docsのパスを定義します。独自のオンラインドキュメントを使用したい場合、この設定を変更することができます。設定を変更する場合、ドキュメンテーションのパスが、http://docs.moodle.orgと同じフォーマットであることを確認してください。';
@@ -279,6 +280,7 @@ $string['deleteuser'] = 'ユーザを削除する';
 $string['density'] = '密度';
 $string['denyemailaddresses'] = '拒否されたメールアドレスのドメイン';
 $string['digestmailtime'] = '要約メールを送信する時間 (時)';
+$string['disablecourseajax'] = 'AJAXコース編集を無効にする';
 $string['disableuserimages'] = 'ユーザプロフィールイメージを無効にする';
 $string['displayloginfailures'] = 'ログイン失敗を表示する';
 $string['docroot'] = 'Moodle Docsドキュメントルート';
