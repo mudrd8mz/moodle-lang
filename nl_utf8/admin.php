@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101505)
+      // admin.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -96,12 +96,14 @@ Merk op dat dit geen conflict geeft met andere rollen die je gebruikers al hebbe
 $string['configdeleteunconfirmed'] = 'Als je met e-mailauthenticatie werkt dan is dit de periode waarbinnen gebruikers moeten reageren op de bevestigingsmail voor de nieuwe account. Na deze periode zullen oude, niet-bevestigde accounts verwijderd worden.';
 $string['configdenyemailaddresses'] = 'Om e-mailadressen van bepaalde domeinen te weigeren, kun je ze hier op dezelfde manier opnemen. Alle andere domeinen zullen aanvaard worden. bv <strong>hotmail.com yahoo.co.uk</strong>';
 $string['configdigestmailtime'] = 'Gebruikers die ervoor kiezen dat de e-mails hun als samenvatting toegezonden worden, zullen dagelijks een e-mail ontvangen. Deze instelling controleert op welk moment van de dag deze dagelijkse mail verzonden wordt (de mail wordt verstuurd door de cron die volgt op het uur dat hier gekozen wordt)';
+$string['configdisablecourseajax'] = 'Gebruik geen AJAX bij het bewerken van cursuspagina\'s';
 $string['configdisableuserimages'] = 'Schakel het wijzigen van het profielprentje uit voor alle gebruikers.';
 $string['configdisplayloginfailures'] = 'Dit zal informatie tonen over mislukte aanmeldingen van de geselecteerde gebruikers';
 $string['configdocroot'] = 'Bepaalt het pad naar Moodle Docs. Je kunt dit wijzigen als je je eigen aangepaste on line documentatie wil. Als je dat wil doen, moet je er wel voor zorgen dat de vorm van het pad er naartoe dezelfde is als http://docs.moodle.org';
 $string['configdoctonewwindow'] = 'Als je dit aanzet zullen links naar Moodle Docs geopend worden in een nieuw venster';
 $string['configeditordictionary'] = 'Deze waarde zal gebruikt worden als aspell geen woordenlijst heeft voor de eigen taal van een gebruiker.';
 $string['configeditorfontlist'] = 'Kies de lettertypes die in het dropdownmenu van de editor zouden moeten verschijnen';
+$string['configemoticons'] = 'Wijzig de code (links) die gekoppeld is aan de naam van het emoticon (rechts). Om nieuwe emoticons toe te voegen, voeg je naam en code toe en voeg je een afbeelding toe in de map /pix/s met naam.gif als naam.';
 $string['configenableajax'] = 'Met deze instelling kun je het gebruik van AJAX (een geavanceerde op Javascript gebaseerde client/serverinterface) controleren voor de hele site. Met deze instelling aan kunnen gebruikers nog steeds kiezen via hun profiel of ze AJAX willen gebruiken, anders is AJAX voor iedereen uitgeschakeld';
 $string['configenablecourserequests'] = 'Hiermee kan elke gebruiker aanvragen om een nieuwe cursus aan te maken.';
 $string['configenableglobalsearch'] = 'Deze instelling maakt het globaal zoeken van tekst mogelijk in bronnen en activiteiten. Deze functie is niet compatibel met PHP4';
@@ -109,6 +111,7 @@ $string['configenablegroupings'] = 'Deze instelling schakeld groepering van groe
 $string['configenablehtmlpurifier'] = 'Gebruik HTML Purifier in de plaats van KSES voor het opkuisen van onvertrouwde tekst. HTML Purifier wordt actief ontwikkeld en wordt verondersteld veiliger te zijn, maar veroorzaakt een grotere belasting. Je kunt kleine wijzigingen verwachten aan de html-code. Merk op dat embed en object tags niet kunnen ingeschakeld worden, MathML tags en oude lang tags worden niet ondersteund.';
 $string['configenablerssfeeds'] = 'Met deze instelling maak je RSS-feeds mogelijk voor heel de site. Om ze echt te kunnen gebruiken, moet je de RSS-feeds nog inschakelen voor elke module afzonderlijk - ga naar \'Beheer van de modules\' onder Beheer, Configuratie.';
 $string['configenablerssfeedsdisabled'] = 'Dit is niet beschikbaar omdat RSS voor heel de site is uitgeschakeld. Om RSS in te schakelen ga je naar Configureer variablen onder Beheer Configuratie.';
+$string['configenablerssfeedsdisabled2'] = 'RSS-feeds zijn uitgeschakeld op serverniveau. Je moet ze inschakelen in Server/RSS.';
 $string['configenablestats'] = 'Als je hier \'ja\' kiest, zal de cron van Moodle de logbestanden verwerken en statistieken aanmaken. Afhankelijk van de hoeveelheid verkeer op je site, kan dit wel even duren. Als je dit inschakelt kun je interessante grafieken en statistieken zien over elke cursus of over de hele site.';
 $string['configenabletrusttext'] = 'Moodle zal altijd tekst, afkomstig van gebruikers, grondig opschonen. Zo worden gevaarlijke scripts, media enz., die een beveiligingsrisico kunnen zijn, verwijderd. Het vertrouwde inhoudsysteem is een manier om het voor bepaalde gebruikers toch mogelijk te maken om geavanceerde functies in hun cursusmateriaal te gebruiken. Om dit systeem in te schakelen, moet je eerst hier de instelling inschakelen en dan het Vertrouwde Inhoud-recht toekennen aan een specifieke Moodle rol. Teksten die gemaakt of geüpload worden door gebruikers met die rol, zullen als vertrouwd gemarkeerd worden en zullen niet opgeschoond worden voor ze getoond worden.';
 $string['configenrolmentplugins'] = 'Kies de aanmeldingsplugins die je wil gebruiken. Vergeet niet om de instellingen er van behoorlijk te configureren.<br /><br />Je moet aangeven welke plugins ingeschakeld zijn, en <strong>één</strong> plugin kan als standaard plugin voor <em>interactieve</em> aanmelding gekozen worden. Om deze interactieve aanmelding uit te schakelen, zet je \"Aanmelden in de cursus mogelijk\" op \"Nee\" in de bedoelde cursus.';
@@ -150,6 +153,7 @@ $string['configloginhttps'] = 'Als je dit inschakelt gebruikt Moodle een veilige
 $string['configloglifetime'] = 'Dit specificeert de lengte van de periode waarin statistieken van gebruikersactiviteit worden bewaard. Statistieken die ouder zijn worden automatisch verwijderd. Het is verstandig om de statistieken zo lang mogelijk te bewaren, je kunt ze immers altijd nog nodig hebben. Maar als je een zeer drukke server hebt en prestatieproblemen ondervindt, kun je de periode misschien beter minder lang maken.';
 $string['configlongtimenosee'] = 'Als het heel lang geleden is dat een leerling heeft ingelogd wordt hij/zij automatisch uit de cursussen verwijderd. Deze parameter bepaalt deze tijdlimiet.';
 $string['configlookahead'] = 'Aantal dagen vooruit kijken';
+$string['configmailnewline'] = 'Karakters voor een nieuwe regel, gebruikt in e-mailberichten. CRLF is vereist volgens RFC 822bis. Sommige mailservers converteren automatisch LF naar CRLF, andere mailservers doen een foute conversie van CRLF naar CRCRLF. Nog andere servers verwerpen e-mails die alleen maar LF als regeleinde hebben (qmail bijvoorbeeld). Probeer deze instelling te wijzigen als je problemen hebt met onverstuurde e-mails of met dubbele nieuwe regels.';
 $string['configmaxbytes'] = 'Dit bepaalt de maximumgrootte van geüploade bestanden in heel de site. De instelling is beperkt door de PHP-instelling upload_max_filesize en de Apache-instelling LimitRequestBody. Anderzijds beperkt maxbytes het bereik van groottes dat gekozen kan worden op cursus- of moduleniveau.';
 $string['configmaxeditingtime'] = 'Dit bepaalt hoe lang mensen de tijd hebben om hun forumbijdrage, feedback en dergelijke te wijzigen. Meestal is 30 minuten een goede tijd.';
 $string['configmaxevents'] = 'Aantal gebeurtenissen vooruit kijken';
