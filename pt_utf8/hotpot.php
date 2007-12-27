@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.6.2 (2006050521)
+      // hotpot.php - created with Moodle 1.8 + (2007021503)
 
 
 $string['abandoned'] = 'Abandonado';
 $string['addquizchain'] = 'Adicionar cadeia de testes';
 $string['allmycourses'] = 'Todas as minhas Disciplinas';
+$string['allusers'] = 'Todos os utilizadores';
 $string['alwaysopen'] = 'Abrir sempre';
 $string['attemptsall'] = 'Todas as tentativas';
 $string['attemptsbest'] = 'Melhor tentativa';
@@ -45,6 +46,13 @@ $string['filetype'] = 'Tipo de ficheiro';
 $string['forceplugins'] = 'Plugins de forçar media';
 $string['giveup'] = 'Desistir';
 $string['hints'] = 'Sugestões';
+$string['hotpot:attempt'] = 'Tentar um questionário';
+$string['hotpot:deleteattempt'] = 'Apagar tentativas de questionário';
+$string['hotpot:grade'] = 'Modificar notas';
+$string['hotpot:view'] = 'Usar questionário';
+$string['hotpot:viewreport'] = 'Ver relatórios';
+$string['hotpotcloses'] = 'O questionário Hot Potatoes fecha';
+$string['hotpotopens'] = 'O questionário Hot Potatoes abre';
 $string['ignored'] = 'Ignorados';
 $string['inprogress'] = 'Em andamento';
 $string['location'] = 'Localização do ficheiro';

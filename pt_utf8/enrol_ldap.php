@@ -2,7 +2,7 @@
       // enrol_ldap.php - created with Moodle 1.7.1+ (2006101010)
 
 
-$string['description'] = '<p>Pode utilizar um servidor LDAP para controlar os seus registos. É assumido que a sua árvore LDAP contém grupos que mapeiam as Disciplinas e que cada um desses grupos/Disciplinas terão entradas de membros para mapear os alunos.</p>
+$string['description'] = '<p>Pode utilizar um servidor LDAP para controlar os seus registos. É assumido que a sua árvore LDAP contém grupos que mapeiam as Disciplinas e que cada um desses grupos/disciplinas terão entradas de membros para mapear os alunos.</p>
 <p>Assume-se que as Disciplinas são definidas como grupos no LDAP, com cada grupo a ter multiplos campos de membros (<em>member</em> or <em>memberUid</em>) que contêm uma identificação única de utilizador.</p>
 <p>Para utilizar o registo LDAP, os seus utilizadores <strong>têm</strong> que ter um campo idnumber válido. Os grupos LDAP têm que ter esse idnumber nos campos de membro para que um utilizador possa ser registado numa disciplina.
 Isto normalmente corre bem se já estiver a utilizar Autenticação LDAP.</p>
@@ -28,7 +28,7 @@ $string['enrol_ldap_objectclass'] = 'objectClass utilizada para procurar Discipl
 $string['enrol_ldap_roles'] = 'Mapear cargo';
 $string['enrol_ldap_search_sub'] = 'Procurar membros do Grupo em subcontexts';
 $string['enrol_ldap_server_settings'] = 'Definições do servidor LDAP';
-$string['enrol_ldap_student_contexts'] = 'Lista de contextos onde os grupos com registos de estudantes estão localizados. Separe os diferentes contextos com \';\'. Por exemplo: \'ou=courses,o=org; ou=others,o=org\'';
+$string['enrol_ldap_student_contexts'] = 'Lista de contextos onde os grupos com registos de alunos estão localizados. Separe os diferentes contextos com \';\'. Por exemplo: \'ou=courses,o=org; ou=others,o=org\'';
 $string['enrol_ldap_student_memberattribute'] = 'Atributo do membro, quando os utilizadores pertencem (estão registados) num grupo. Normalmente \'member\' ou \'memberUid\'.';
 $string['enrol_ldap_student_settings'] = 'Definições de registo de aluno';
 $string['enrol_ldap_teacher_contexts'] = 'Lista de contextos onde os grupos com registos de professores estão localizados. Separe os diferentes contextos com \';\'. Por exemplo: \'ou=courses,o=org; ou=others,o=org\'';

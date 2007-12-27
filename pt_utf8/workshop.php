@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.6.2 (2006050521)
+      // workshop.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['absent'] = 'Ausente';
@@ -137,7 +137,7 @@ $string['mail3'] = 'Pode vê-lo no seu trabalho do Workshop';
 $string['mail4'] = 'Foi adicionado um comentário ao trabalho \'$a\', por';
 $string['mail5'] = 'O novo comentário pode ser visto no trabalho do Workshop\'$a \'';
 $string['mail6'] = 'A sua apreciação do trabalho \'$a\' foi revista';
-$string['mail7'] = 'Os comentários feitos por o $a podem ser vistos no trabalho deo Workshop';
+$string['mail7'] = 'Os comentários feitos por o $a podem ser vistos no trabalho do Workshop';
 $string['mail8'] = 'O trabalho $a é a revisão de uma parte de um trabalho.';
 $string['mail9'] = 'Por favor avalie-o no trabalho do workshop $a';
 $string['managingassignment'] = 'Gestão do trabalho';
@@ -312,6 +312,8 @@ $string['weightforteacherassessments'] = 'Peso para apreciação do docente';
 $string['weights'] = 'Pesos';
 $string['weightsusedforfinalgrade'] = 'Pesos usados para a nota final';
 $string['weightsusedforsubmissions'] = 'Pesos usados para envios';
+$string['workshop:manage'] = 'Gerir definições';
+$string['workshop:participate'] = 'Participar no Workshop';
 $string['workshopagreedassessments'] = 'Apreciações com consenso do Workshop';
 $string['workshopassessments'] = 'Apreciações do Workshop';
 $string['workshopcomments'] = 'Comentários do Workshop';

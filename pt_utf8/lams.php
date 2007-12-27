@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.6 (2006050506)
+      // lams.php - created with Moodle 1.7.1+ (2006101010)
 
 
 $string['createSequence'] = 'Criar nova sequência';
@@ -7,6 +7,8 @@ $string['editSequence'] = 'Editar sequência seleccionada';
 $string['error'] = 'Desculpe, ocorreu um erro desconhecido';
 $string['introduction'] = 'Introdução';
 $string['lams'] = '-- LAMS -- Learning Activity Management System --';
+$string['lams:manage'] = 'Controlar actividades LAMS';
+$string['lams:participate'] = 'Participar nas actividades LAMS';
 $string['lamsoutline'] = 'LAMS Outline';
 $string['lesson'] = 'Sessão de aprendizagem';
 $string['modulename'] = 'LAMS';
@@ -18,13 +20,12 @@ $string['openmonitor'] = 'Abrir Monitor LAMS';
 $string['refreshSequenceList'] = 'Actualizar lista de sequências';
 $string['selectExistingSequence'] = 'Seleccionar uma sequência existente ou criar uma nova sequência';
 $string['sequence'] = 'Seleccionar sequência';
-$string['serverid'] = 'Digite o ID do servidor recebido de <a href=http://www.lamsinternational.com target=_blank>LAMS internacional</a>
-';
-$string['serverkey'] = 'Digite a Palavra-Pase recebida de <a href=http://www.lamsinternational.com target=_blank>LAMS internacional</a>.';
-$string['serverurl'] = 'Digite o URL utilizado para aceder ao servidor LAMS. Por exemplo http://localhost:8080/lams';
+$string['serverid'] = 'Escreva o identificador que lhe foi enviado por <a href=http://www.lamsinternational.com target=_blank>LAMS International</a>';
+$string['serverkey'] = 'Escreva a senha que lhe foi enviada por <a href=http://www.lamsinternational.com target=_blank>LAMS International</a>.';
+$string['serverurl'] = 'Escreva o URL utilizado para aceder ao servidor LAMS. Por exemplo http://localhost:8080/lams';
 $string['useSequence'] = 'Utilize a sequência seleccionada';
 $string['visibletostudents'] = 'Mostrar actividade aos alunos';
-$string['wikistartederror'] = 'Wiki já tem entradas - não pode ser alterada';
+$string['wikistartederror'] = 'O Wiki já tem entradas - não pode ser alterado';
 $string['workspace'] = 'Seleccionar espaço de trabalho';
 $string['wrongversionrange'] = '$a não é um intervalo correcto!';
 
