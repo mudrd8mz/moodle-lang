@@ -40,4 +40,6 @@ $string['groupmy']='Minu grupp';
 $string['defaultgroupprefix']='Grupp ';
 $string['defaultgroupdescription']='Vaikimisi grupi kirjeldus';
 $string['groupmemberssee']='Vaata grupi liikmeid';
+$string['prefixforgroupnames']='Prefiks grupi nimedele';
+$string['printerfriendly']='Kuva printimis-sõbralikult';
 ?>

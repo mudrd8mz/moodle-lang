@@ -37,4 +37,7 @@ $string['taken']='Valitud';
 $string['timerestrict']='Piira vastamist selle ajavahemikuga';
 $string['viewallresponses']='Vaata $a vastust';
 $string['yourselection']='Sinu valik';
+$string['choice:deleteresponses']='Kustuta vastused';
+$string['choice:downloadresponses']='Tõmba alla vastused';
+$string['choice:readresponses']='Loe vastuseid';
 ?>

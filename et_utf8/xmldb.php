@@ -52,4 +52,11 @@ $string['back']='Tagasi';
 $string['nomissingindexesfound']='Ei leitud puuduvaid indekseid, Sinu andmebaas ei vaja edasisi toiminguid.';
 $string['completelogbelow']='(vaata täielikku otsingulogi allpool)';
 $string['test']='Test';
+$string['down']='Alla';
+$string['up']='Üles';
+$string['newtablefrommysql']='Uus tabel MySQL\'st';
+$string['new_table_from_mysql']='Uus tabel MySQL\'st';
+$string['aftertable']='Peale tabelit:';
+$string['change']='Muuda';
+$string['duplicate']='Dubleeri';
 ?>

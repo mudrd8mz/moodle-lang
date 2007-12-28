@@ -768,7 +768,7 @@ $a->signoff';
 $string['newpicture']='Uus pilt';
 $string['newsitem']='uudis';
 $string['newsitems']='uudist';
-$string['newsitemsnumber']='Mitu uudist näitatakse';
+$string['newsitemsnumber']='Mitu uudist näidatakse';
 $string['newuser']='Uus kasutaja';
 $string['newusernewpasswordsubj']='Uus kasutaja konto';
 $string['newusers']='Uued kasutajad';
@@ -1270,4 +1270,9 @@ $string['untilcomplete']='Kuni valmis';
 $string['tag']='Märksõna';
 $string['tagalready']='See märksõna juba on olemas';
 $string['tags']='Märksõnad';
+$string['remove']='Eemalda';
+$string['nologsfound']='Logisid ei leitud';
+$string['scheduledbackupsinactive']='Graafikualused tagavarakoopiad ei ole võimaldatud õpikeskkonna administraatori poolt';
+$string['helpprefix2']='Spikker $a kohta';
+
 ?>

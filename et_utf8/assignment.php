@@ -90,4 +90,5 @@ $string['uploadsuccess']='\'$a\' üleslaadimine õnnestus';
 $string['viewfeedback']='Vaata ülesande hindeid ja tagasisidet';
 $string['viewsubmissions']='Vaata $a esitatud ülesannet';
 $string['yoursubmission']='Sinu esitatud töö';
+$string['hideintro']='Peida ülesande kirjeldus enne avamiskuupäeva';
 ?>
