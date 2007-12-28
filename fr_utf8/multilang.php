@@ -1,5 +1,5 @@
 <?php /// $Id$
 
-$string['filtername'] = "Contenus multilingues";
+$string['filtername'] = 'Contenus multilingues';
 
 ?>

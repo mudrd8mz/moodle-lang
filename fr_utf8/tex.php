@@ -1,5 +1,5 @@
 <?php /// $Id$
 
-$string['filtername'] = "Notation TeX";
+$string['filtername'] = 'Notation TeX';
 
 ?>
