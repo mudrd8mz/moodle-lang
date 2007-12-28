@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 1.8 + (2007021503)
+      // qtype_datasetdependent.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['additem'] = 'Adicionar Item';
@@ -17,6 +17,7 @@ $string['existingcategory2'] = 'Um ficheiro de um conjunto de ficheiros já exis
 $string['existingcategory3'] = 'um link de um conjunto de links já existentes que também são usados por outras questões desta categoria';
 $string['forceregeneration'] = 'Forçar regeneração';
 $string['getnextnow'] = 'Gerar agora novo \"Item a adicionar\"';
+$string['item(s)'] = 'Item(s)';
 $string['itemno'] = 'Item $a';
 $string['itemscount'] = 'Contador <br /> de Items';
 $string['itemtoadd'] = 'Item a adicionar';
@@ -26,6 +27,7 @@ $string['keptcategory3'] = 'Um link da mesma categoria reutilizável de links qu
 $string['keptlocal1'] = 'Um literal da mesma questão privada de literais que antes';
 $string['keptlocal2'] = 'Um ficheiro da mesma questão privada de ficheiros que antes';
 $string['keptlocal3'] = 'Um (link/ligação) da mesma questão privada de (links/ligações) que antes';
+$string['lastitem(s)'] = 'último(s) item(s)';
 $string['loguniform'] = 'Inteiros';
 $string['minmax'] = 'Limite do valor';
 $string['newcategory1'] = 'Um literal de uma série de literais que também podem ser usados por outras questões nesta categoria';
