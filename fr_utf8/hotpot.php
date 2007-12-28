@@ -1,220 +1,158 @@
 <?php // $Id$ 
 
-$string['modulename'] = 'Test Hot Potatoes';
-$string['modulenameplural'] = 'Tests Hot Potatoes';
-
-// for mod.html
-$string['hotpot:attempt'] = 'Répondre à un test';
-$string['hotpot:viewreport'] = 'Afficher les rapports';
-$string['hotpot:grade'] = 'Modifier les notes';
-$string['hotpot:deleteattempt'] = 'Supprimer des tentatives';
-
-$string['textsourcequiz'] = 'Tirer du test';
-$string['textsourcefilename'] = 'Utiliser le nom du fichier';
-$string['textsourcefilepath'] = 'Utiliser le chemin du fichier';
-$string['textsourcespecific'] = 'Texte spécifique';
-  	 
-$string['alwaysopen'] = 'Toujours ouvert';
-$string['specifictime'] = 'Durée spécifique';
-$string['neverclosed'] = 'Jamais fermé';
-
-$string['displayhotpotnext'] = 'Afficher un test Hot Potatoes ensuite';
-$string['displaycoursenext'] = 'Afficher la page du cours ensuite';
-$string['displayindexnext'] = 'Afficher l\'index HotPot ensuite';
-  	 
-$string['hotpot:view'] = 'Utiliser les test Hot Potatoes';
-
-$string['outputformat'] = 'Format d\'affichage';
-$string['outputformat_best'] = 'Meilleur';
-$string['outputformat_v6_plus'] = 'v6+';
-$string['outputformat_v6'] = 'v6';
-$string['outputformat_v5_plus'] = 'v5+';
-$string['outputformat_v5'] = 'v5';
-$string['outputformat_v4'] = 'v4';
-$string['outputformat_v3'] = 'v3';
-$string['outputformat_flash'] = 'Flash';
-$string['outputformat_mobile'] = 'Mobile';
-  	 
-$string['navigation'] = 'Navigation';
-$string['navigation_bar'] = 'Barre de navigation Moodle';
-$string['navigation_frame'] = 'Cadre de navigation Moodle';
-$string['navigation_iframe'] = 'Inclus dans un IFRAME';
-$string['navigation_buttons'] = 'Boutons des tests Hot Potatoes';
-$string['navigation_give_up'] = 'Bouton «&nbsp;Abandonner&nbsp;» uniquement';
-$string['navigation_none'] = 'Aucune';
-  	 
-$string['giveup'] = 'Abandonner';
-$string['location'] = 'Emplacement du fichier';
-$string['addquizchain'] = 'Ajouter une chaîne de tests';
-$string['updatequizchain'] = 'Mettre à jour une chaîne de tests';
-$string['shownextquiz'] = 'Afficher test suivant';
-$string['forceplugins'] = 'Lecteurs multimédias compatibles';
-$string['clickreporting'] = 'Activer les rapports de clic';
-
-$string['resultssaved'] = 'Les résultats du test ont été enregistrés';
-  	 
-  	 // for edit.php and show.php
-$string['filetype'] = 'Type de fichier';
-$string['quiztype'] = 'Type de test';
-$string['showxmlsource'] = 'Afficher la source XML';
-$string['showxmltree'] = 'Afficher l\'arbre XML';
-$string['showhtmlsource'] = 'Afficher la source HTML';
-$string['showtimes'] = 'Afficher les temps de traitement';
-$string['enterafilename'] = 'Veuillez saisir un nom de fichier';
-
-    // show.php (javascript messages, so must be double escaped. i.e. "it's" ==> 'it\\\'s' OR "it\\'s")
-$string['copytoclipboard'] = 'Copier dans le presse-papier';
-$string['copiedtoclipboard'] = 'Le contenu de cette page a été copié dans le presse-papier';
-  	   	 
-// lib.php (calendar events)
-$string['hotpotcloses'] = 'Le test Hot Potatoes se termine';
-$string['hotpotopens'] = 'Le test Hot Potatoes s\'ouvre';
-
-  	 // lib.php (status)
-$string['noactivity'] = 'Aucune activité';
-$string['inprogress'] = 'En cours';
-$string['timedout'] = 'En pause';
 $string['abandoned'] = 'Abandonné';
-$string['completed'] = 'Terminé';
-
-	// lib.php (feedback)
-$string['studentfeedback'] = 'Feedback de l\'édudiant';
-$string['feedbacknone'] = 'Aucun';
-$string['feedbackwebpage'] = 'Page web';
-$string['feedbackformmail'] = 'Formulaire de feedback';
-$string['feedbackmoodleforum'] = 'Forum Moodle';
-$string['feedbackmoodlemessaging'] = 'Message Moodle';
-  	 
-  	 // lib.php (responses)
-$string['correct'] = 'Correct';
-$string['ignored'] = 'Ignoré';
-$string['wrong'] = 'Faux';
-$string['score'] = 'Score';
-$string['weighting'] = 'Pondération';
-$string['hints'] = 'Conseils';
-$string['clues'] = 'Indices';
-$string['checks'] = 'Vérifications';
-$string['penalties'] = 'Pénalités';
-  	 
-     // index.php
-$string['regrade'] = 'Renoter';
-$string['regradecheck'] = 'Voulez-vous vraiment renoter «&nbsp;$a&nbsp;»&nbsp;?';
-$string['regraderequired'] = 'Il est nécessaire de renoter';
-
-     // report.php
-$string['reportclick'] = 'Rapport des clics';
-
-$string['reportcontent'] = 'Contenu';
-$string['reportformat'] = 'Format';
-
-$string['reportbutton'] = 'Générer le rapport';
-
-$string['thiscourse'] = 'Ce cours';  // Legacy, to delete after release 1.7
+$string['addquizchain'] = 'Ajouter une chaîne de tests';
 $string['allmycourses'] = 'Tous mes cours';  // Legacy, to delete after release 1.7
-
 $string['allusers'] = 'Tous les utilisateurs';
-
+$string['alwaysopen'] = 'Toujours ouvert';
 $string['attemptsall'] = 'Toutes les tentatives';
 $string['attemptsbest'] = 'Meilleure tentative';
 $string['attemptsfirst'] = 'Première tentative';
 $string['attemptslast'] = 'Dernière tentative';
-
-$string['reportformathtml'] = 'HTML';
-$string['reportformatexcel'] = 'Excel';
-$string['reportformattext'] = 'Texte';
-$string['reportencoding'] = 'Encodage';
-$string['reportwrapdata'] = 'Renvoyer les données à la ligne'; // ?
-$string['reportshowlegend'] = 'Afficher la légende';
-
-$string['rawdetails'] = 'Détails bruts de la tentative';     
-     
-//$string['deletedattempts'] = '$a tentatives ont été supprimées';
-//$string['deletedresponses'] = '$a réponses ont été supprimées';
-//$string['selectattempt'] = 'Veuillez choisir une tentative';
-  	 
-  	 // report/*/report.php
 $string['average'] = 'Moyenne';
-$string['questionshort'] = 'Q-$a';
-  	 
-     // report/default.php
-$string['reportlegend'] = 'Légende';
-  	 
-  	 // report/overview/report.php
+$string['checks'] = 'Vérifications';
+$string['clickreporting'] = 'Activer les rapports de clic';
+$string['clues'] = 'Indices';
+$string['completed'] = 'Terminé';
+$string['configexcelencodings'] = 'Une liste des encodages pouvant être utilisés pour enregistrer les données exportées dans un encodage spécifique. Les différents encodages doivent être séparés par des virgules.';
+$string['configshowtimes'] = 'La durée du traitement des enregistrements doit-elle être affichée dans les listes et rapports&nbsp;? Ceci n\'est vraiment que nécessaire si vous essayez de découvrir pourquoi votre serveur est lent.';
+$string['copiedtoclipboard'] = 'Le contenu de cette page a été copié dans le presse-papier';
+$string['copytoclipboard'] = 'Copier dans le presse-papier';
+$string['correct'] = 'Correct';
 $string['deleteabandoned'] = 'Supprimer les abandons';
 $string['deleteabandonedcheck'] = 'Voulez-vous vraiment supprimer les $a tentatives abandonées&nbsp;?';
-  	 
- 	 // report/click/report.php
-$string['reportnottriedsymbol'] = '-';
-$string['reportcorrectsymbol'] = 'O';
-$string['reportwrongsymbol'] = 'X';
-
-$string['reportcoursename'] = 'Nom du cours';
-$string['reportsectionnumber'] = 'Section';
-$string['reportexercisenumber'] = 'Exercice';
-$string['reportexercisename'] = 'Nom ex.';
-$string['reportexercisetype'] = 'Type ex.';
-$string['reportnumberofquestions'] = "No de q.";
-
-$string['reportstudentid'] = 'Id. étudiant';
-$string['reportlogindate'] = 'Date connexion';
-$string['reportlogintime'] = 'Heure connexion';
-$string['reportlogofftime'] = 'Heure déconnexion';
-
+//$string['deletedattempts'] = '$a tentatives ont été supprimées';
+//$string['deletedresponses'] = '$a réponses ont été supprimées';
+$string['displaycoursenext'] = 'Afficher la page du cours ensuite';
+$string['displayhotpotnext'] = 'Afficher un test Hot Potatoes ensuite';
+$string['displayindexnext'] = 'Afficher l\'index HotPot ensuite';
+$string['enterafilename'] = 'Veuillez saisir un nom de fichier';
+$string['error_couldnotopenfolder'] = 'Impossible d\'accéder au dossier «&nbsp;$a&nbsp;»';
+$string['error_couldnotopensourcefile'] = 'Impossible d\'ouvrir le fichier source «&nbsp;$a&nbsp;»';
+$string['error_couldnotopentemplate'] = 'Impossible d\'ouvrir le modèle du format «&nbsp;$a&nbsp;»';
+$string['error_invalidquiztype'] = 'Ce type de test est manquant ou n\'est pas valide';
+$string['error_nocourseorfilename'] = 'Impossible de créer l\'arborescence XML&nbsp;: le nom du cours ou du fichier est manquant';
+$string['error_nofeedbackurlformmail'] = 'Veuillez saisir une URL pour le script de traitement du formulaire';
+$string['error_nofeedbackurlwebpage'] = 'Veuillez saisir une URL pour la page web';
+$string['error_nofilename'] = 'Veuillez saisir un nom de fichier';
+$string['error_noquizzesfound'] = 'Aucun test Hot Potatoes trouvé';
+$string['error_notfileorfolder'] = '«&nbsp;$a&nbsp;» n\'est pas un fichier, ni un dossier';
+$string['excelencodings'] = 'Encodages Excel';
+$string['feedbackformmail'] = 'Formulaire de feedback';
+$string['feedbackmoodleforum'] = 'Forum Moodle';
+$string['feedbackmoodlemessaging'] = 'Message Moodle';
+$string['feedbacknone'] = 'Aucun';
+$string['feedbackwebpage'] = 'Page web';
+$string['filetype'] = 'Type de fichier';
+$string['forceplugins'] = 'Lecteurs multimédias compatibles';
+$string['giveup'] = 'Abandonner';
+$string['hints'] = 'Conseils';
+$string['hotpot:attempt'] = 'Répondre à un test';
+$string['hotpot:deleteattempt'] = 'Supprimer des tentatives';
+$string['hotpot:grade'] = 'Modifier les notes';
+$string['hotpot:view'] = 'Utiliser les test Hot Potatoes';
+$string['hotpot:viewreport'] = 'Afficher les rapports';
+$string['hotpotcloses'] = 'Le test Hot Potatoes se termine';
+$string['hotpotopens'] = 'Le test Hot Potatoes s\'ouvre';
+$string['ignored'] = 'Ignoré';
+$string['inprogress'] = 'En cours';
+$string['location'] = 'Emplacement du fichier';
+$string['modulename'] = 'Test Hot Potatoes';
+$string['modulenameplural'] = 'Tests Hot Potatoes';
+$string['navigation_bar'] = 'Barre de navigation Moodle';
+$string['navigation_buttons'] = 'Boutons des tests Hot Potatoes';
+$string['navigation_frame'] = 'Cadre de navigation Moodle';
+$string['navigation_give_up'] = 'Bouton «&nbsp;Abandonner&nbsp;» uniquement';
+$string['navigation_iframe'] = 'Inclus dans un IFRAME';
+$string['navigation_none'] = 'Aucune';
+$string['navigation'] = 'Navigation';
+$string['neverclosed'] = 'Jamais fermé';
+$string['noactivity'] = 'Aucune activité';
+$string['noresponses'] = 'Aucune information n\'a été trouvée sur les questions et les réponses individuelles.';
+$string['outputformat_best'] = 'Meilleur';
+$string['outputformat_flash'] = 'Flash';
+$string['outputformat_mobile'] = 'Mobile';
+$string['outputformat_v3'] = 'v3';
+$string['outputformat_v4'] = 'v4';
+$string['outputformat_v5_plus'] = 'v5+';
+$string['outputformat_v5'] = 'v5';
+$string['outputformat_v6_plus'] = 'v6+';
+$string['outputformat_v6'] = 'v6';
+$string['outputformat'] = 'Format d\'affichage';
+$string['penalties'] = 'Pénalités';
+$string['questionshort'] = 'Q-$a';
+$string['quiztype'] = 'Type de test';
+$string['rawdetails'] = 'Détails bruts de la tentative';     
+$string['regrade'] = 'Renoter';
+$string['regradecheck'] = 'Voulez-vous vraiment renoter «&nbsp;$a&nbsp;»&nbsp;?';
+$string['regraderequired'] = 'Il est nécessaire de renoter';
+$string['reportanswers'] = 'Réponses';
+$string['reportattemptfinish'] = 'Fin';
 $string['reportattemptnumber'] = 'Tentative';
 $string['reportattemptstart'] = 'Début';
-$string['reportattemptfinish'] = 'Fin';
-
+$string['reportbutton'] = 'Générer le rapport';
+$string['reportchanges'] = 'Modifications';
+$string['reportchecks'] = 'Vérifications';
+$string['reportclick'] = 'Rapport des clics';
 $string['reportclicknumber'] = 'Clics';
 $string['reportclicktime'] = 'Heure du clic';
 $string['reportclicktype'] = 'Type du clic';
-
-$string['reportthisclick'] = '$a ce clic';
-$string['reportsofar'] = '$a jusqu\'ici';
-
-$string['reportquestionstried'] = "Q. tentées";
-
-$string['reportright'] = 'Juste';
-$string['reportwrong'] = 'Faux';
-$string['reportnottried'] = 'Pas tentée';
-
-$string['reportanswers'] = 'Réponses';
-$string['reportchanges'] = 'Modifications';
-$string['reportchecks'] = 'Vérifications';
 $string['reportclues'] = 'Indices';
+$string['reportcontent'] = 'Contenu';
+$string['reportcorrectsymbol'] = 'O';
+$string['reportcoursename'] = 'Nom du cours';
+$string['reportencoding'] = 'Encodage';
 $string['reportevents'] = 'Événements';
+$string['reportexercisename'] = 'Nom ex.';
+$string['reportexercisenumber'] = 'Exercice';
+$string['reportexercisetype'] = 'Type ex.';
+$string['reportformat'] = 'Format';
+$string['reportformatexcel'] = 'Excel';
+$string['reportformathtml'] = 'HTML';
+$string['reportformattext'] = 'Texte';
 $string['reporthints'] = 'Indices';
-$string['reportshowanswer'] = 'Afficher réponses';
-$string['reportstatus'] = 'État';
-
-$string['reportrawscore'] = 'Score brut';
-$string['reportmaxscore'] = 'Score max';
-$string['reportpercentscore'] = 'Score %%';
-
 $string['reporthotpotscore'] = 'Score Hotpot';
- 	 
- 	 // review.php
-$string['noresponses'] = 'Aucune information n\'a été trouvée sur les questions et les réponses individuelles.';
+$string['reportlegend'] = 'Légende';
+$string['reportlogindate'] = 'Date connexion';
+$string['reportlogintime'] = 'Heure connexion';
+$string['reportlogofftime'] = 'Heure déconnexion';
+$string['reportmaxscore'] = 'Score max';
+$string['reportnottried'] = 'Pas tentée';
+$string['reportnottriedsymbol'] = '-';
+$string['reportnumberofquestions'] = "No de q.";
+$string['reportpercentscore'] = 'Score %%';
+$string['reportquestionstried'] = "Q. tentées";
+$string['reportrawscore'] = 'Score brut';
+$string['reportright'] = 'Juste';
+$string['reportsectionnumber'] = 'Section';
+$string['reportshowanswer'] = 'Afficher réponses';
+$string['reportshowlegend'] = 'Afficher la légende';
+$string['reportsofar'] = '$a jusqu\'ici';
+$string['reportstatus'] = 'État';
+$string['reportstudentid'] = 'Id. étudiant';
+$string['reportthisclick'] = '$a ce clic';
 $string['reporttimerecorded'] = 'Réponses enregistrées';
-
-     // config.html
-$string['configshowtimes'] = 'La durée du traitement des enregistrements doit-elle être affichée dans les listes et rapports&nbsp;? Ceci n\'est vraiment que nécessaire si vous essayez de découvrir pourquoi votre serveur est lent.';
-$string['configexcelencodings'] = 'Une liste des encodages pouvant être utilisés pour enregistrer les données exportées dans un encodage spécifique. Les différents encodages doivent être séparés par des virgules.';
-
-     // error messages (lib.php)
-$string['error_nofilename'] = 'Veuillez saisir un nom de fichier';
-$string['error_notfileorfolder'] = '«&nbsp;$a&nbsp;» n\'est pas un fichier, ni un dossier';
-$string['error_nocourseorfilename'] = 'Impossible de créer l\'arborescence XML&nbsp;: le nom du cours ou du fichier est manquant';
-$string['error_couldnotopensourcefile'] = 'Impossible d\'ouvrir le fichier source «&nbsp;$a&nbsp;»';
-$string['error_couldnotopenfolder'] = 'Impossible d\'accéder au dossier «&nbsp;$a&nbsp;»';
-$string['error_couldnotopentemplate'] = 'Impossible d\'ouvrir le modèle du format «&nbsp;$a&nbsp;»';
-$string['error_noquizzesfound'] = 'Aucun test Hot Potatoes trouvé';
-$string['error_nofeedbackurlwebpage'] = 'Veuillez saisir une URL pour la page web';
-$string['error_nofeedbackurlformmail'] = 'Veuillez saisir une URL pour le script de traitement du formulaire';
-
-  	 // error messages (attempt.php)
-$string['error_invalidquiztype'] = 'Ce type de test est manquant ou n\'est pas valide';
-
-$string['excelencodings'] = 'Encodages Excel';
-
+$string['reportwrapdata'] = 'Renvoyer les données à la ligne'; // ?
+$string['reportwrong'] = 'Faux';
+$string['reportwrongsymbol'] = 'X';
+$string['resultssaved'] = 'Les résultats du test ont été enregistrés';
+$string['score'] = 'Score';
+//$string['selectattempt'] = 'Veuillez choisir une tentative';
+$string['showhtmlsource'] = 'Afficher la source HTML';
+$string['shownextquiz'] = 'Afficher test suivant';
+$string['showtimes'] = 'Afficher les temps de traitement';
+$string['showxmlsource'] = 'Afficher la source XML';
+$string['showxmltree'] = 'Afficher l\'arbre XML';
+$string['specifictime'] = 'Durée spécifique';
+$string['studentfeedback'] = 'Feedback de l\'édudiant';
+$string['textsourcefilename'] = 'Utiliser le nom du fichier';
+$string['textsourcefilepath'] = 'Utiliser le chemin du fichier';
+$string['textsourcequiz'] = 'Tirer du test';
+$string['textsourcespecific'] = 'Texte spécifique';
+$string['thiscourse'] = 'Ce cours';  // Legacy, to delete after release 1.7
+$string['timedout'] = 'En pause';
+$string['updatequizchain'] = 'Mettre à jour une chaîne de tests';
+$string['weighting'] = 'Pondération';
+$string['wrong'] = 'Faux';
 
 ?>
