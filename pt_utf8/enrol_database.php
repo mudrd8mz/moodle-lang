@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.7.1+ (2006101010)
+      // enrol_database.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['autocreate'] = 'As Disciplinas podem ser criadas automaticamente se houver inscrições para uma disciplina que ainda não exista no Moodle.';
@@ -25,9 +25,9 @@ $string['ignorehiddencourse'] = 'Se seleccionar \"sim\", os utilizadores não se
 $string['local_fields_mapping'] = 'Campos da base de dados (local) do Moodle';
 $string['localcoursefield'] = 'Nome do campo na tabela Disciplina que esta a ser usada para comparar entradas na base de dados (remota)(eg idnumber).';
 $string['localrolefield'] = 'Nome do campo na tabela de Cargos que esta a ser usada para comparar entradas na base de dados (remota)(eg shortname).';
-$string['localuserfield'] = 'Nome do campo na tabela Utilizador que esta a ser usada para comparar entradas na base de dados (remota)(eg idnumber).';
+$string['localuserfield'] = 'Nome do campo na tabela Utilizador que esta a ser usada para comparar entradas na base de dados remota (por exemplo, idnumber).';
 $string['name'] = 'Base de dados específica a utilizar';
-$string['pass'] = 'Palavra chave para aceder ao servidor';
+$string['pass'] = 'Senha para aceder ao servidor';
 $string['remote_fields_mapping'] = 'Campos da base de dados (remota) de inscritos.';
 $string['remotecoursefield'] = 'Nome do campo na tabela (remota) que esta a ser usada para comparar entradas na tabela Disciplina.';
 $string['remoterolefield'] = 'Nome do campo na tabela (remota) que esta a ser usada para comparar entradas na tabela Cargos.';

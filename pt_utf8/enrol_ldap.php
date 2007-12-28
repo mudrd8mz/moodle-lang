@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.7.1+ (2006101010)
+      // enrol_ldap.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['description'] = '<p>Pode utilizar um servidor LDAP para controlar os seus registos. É assumido que a sua árvore LDAP contém grupos que mapeiam as Disciplinas e que cada um desses grupos/disciplinas terão entradas de membros para mapear os alunos.</p>
@@ -11,7 +11,7 @@ Isto normalmente corre bem se já estiver a utilizar Autenticação LDAP.</p>
 $string['enrol_ldap_autocreate'] = 'As disciplinas podem ser criadas automaticamente se houver registos numa disciplina que ainda não exista no Moodle.';
 $string['enrol_ldap_autocreation_settings'] = 'Definições automáticas de criação de disciplinas';
 $string['enrol_ldap_bind_dn'] = 'Se quiser utilizar o bind-user para procurar utilizadores, especifique-o aqui. Qualquer coisa como \'cn=ldapuser,ou=public,o=org\'';
-$string['enrol_ldap_bind_pw'] = 'Palavra-Chave para bind-user';
+$string['enrol_ldap_bind_pw'] = 'Senha para bind-user';
 $string['enrol_ldap_category'] = 'A categoria para criar automaticamente disciplinas';
 $string['enrol_ldap_contexts'] = 'Contextos LDAP';
 $string['enrol_ldap_course_fullname'] = 'Opcional: Campo LDAP de onde tirar o nome completo';

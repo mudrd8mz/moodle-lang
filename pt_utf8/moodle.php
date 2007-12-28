@@ -1066,7 +1066,7 @@ $string['passwordforgotten'] = 'Senha esquecida';
 $string['passwordforgotteninstructions'] = 'Primeiro teremos que indentificar os seus dados na base de dados. Por favor diga-nos <strong>algum dos dois dados seguintes</strong> no campo respectivo: o seu nome de utilizador no sítio Moodle, ou o endereço de correio electrónico com que está registado. Não é preciso indicar as duas coisas.';
 $string['passwordnohelp'] = 'No é possível ajudar a resuperar a sua senha perdida. Por favor entre em contacto com o administrador do sítio Moddle que está a utilizar.';
 $string['passwordrecovery'] = 'Sim, ajude-me a entrar';
-$string['passwordsdiffer'] = 'As palavras chave não coincidem';
+$string['passwordsdiffer'] = 'As senhas não coincidem';
 $string['passwordsent'] = 'Senha enviada com sucesso';
 $string['passwordsenttext'] = '<p>Foi enviada uma mensagem foi para o seu endereço $a->email.</p>
 <p><b>Por favor procure a sua nova senha no correio</b>.</p>
@@ -1575,7 +1575,7 @@ $string['scheduledbackupsinactive'] = 'O administrador do sítio não tem activa
 $string['setcategorytheme'] = 'Definir tema da categoria'; // ORPHANED
 $string['sitefilesused'] = 'Ficheiros do sítio usados nesta disciplina'; // ORPHANED
 $string['startingfrom'] = 'A começar em'; // ORPHANED
-$string['strftimedatetimeshort'] = '%%%%d/%%%%m/%%%%Y %%%%H:%%%%M'; // ORPHANED
+$string['strftimedatetimeshort'] = '%%%%%%%%d/%%%%%%%%m/%%%%%%%%Y %%%%%%%%H:%%%%%%%%M'; // ORPHANED
 $string['thereareno'] = 'Não nenhum $a nesta disciplina'; // ORPHANED
 $string['used'] = 'Utilizado'; // ORPHANED
 

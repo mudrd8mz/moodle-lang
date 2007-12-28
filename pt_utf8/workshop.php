@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.7.1+ (2006101010)
+      // workshop.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['absent'] = 'Ausente';
@@ -85,7 +85,7 @@ $string['editingassessmentelements'] = 'A editar elementos de apreciação';
 $string['editsubmission'] = 'Editar envio';
 $string['element'] = 'Elemento';
 $string['elementweight'] = 'Peso do elemento';
-$string['enterpassword'] = 'Inserir palavra chave';
+$string['enterpassword'] = 'Inserir senha';
 $string['errorbanded'] = 'Com barras de erro';
 $string['errortable'] = 'Tabela de erros';
 $string['examplesubmissions'] = 'Envios de exemplo';
@@ -197,7 +197,7 @@ $string['overallpeergrade'] = 'Nota global dos colegas: $a';
 $string['overallteachergrade'] = 'Nota global do docente: $a';
 $string['ownwork'] = 'Trabalho próprio';
 $string['passmnts'] = 'Apreciação<br />de colégas';
-$string['passwordprotectedworkshop'] = 'Workshop protegido com palavra chave';
+$string['passwordprotectedworkshop'] = 'Workshop protegido com senha';
 $string['percentageofassessments'] = 'Percentagem de apreciações ignoradas';
 $string['phase'] = 'Fase';
 $string['phase0'] = 'Inactivo';
@@ -293,7 +293,7 @@ $string['ungradedassessments'] = '$a apreciações sem classificar';
 $string['ungradedassessmentsofstudentsubmissions'] = '$a apreciações de envios de alunos, sem classificar';
 $string['ungradedassessmentsofteachersubmissions'] = '$a apreciações de envios de docentes, sem apreciar';
 $string['uploadsuccess'] = 'Enviado com sucesso';
-$string['usepassword'] = 'Usar palavra chave';
+$string['usepassword'] = 'Usar senha';
 $string['verylax'] = 'Muito incerto';
 $string['verypoor'] = 'Mau';
 $string['verystrict'] = 'Muito rigoroso';
@@ -319,7 +319,7 @@ $string['workshopassessments'] = 'Apreciações do Workshop';
 $string['workshopcomments'] = 'Comentários do Workshop';
 $string['workshopfeedback'] = 'Respostas do Workshop';
 $string['workshopsubmissions'] = 'Envios do Workshop';
-$string['wrongpassword'] = 'Palavra chave errada para este Workshop';
+$string['wrongpassword'] = 'Senha errada para este Workshop';
 $string['yourassessments'] = 'As suas apreciações';
 $string['yourassessmentsofexamplesfromtheteacher'] = 'As suas apreciações dos exemplos de $a';
 $string['yourfeedbackgoeshere'] = 'Os seus comentários aqui';
