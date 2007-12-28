@@ -7,4 +7,3 @@ $string['flashvideo'] = 'Vidéo Flash';
 $string['mp3audio'] = 'Son MP3';
 
 ?>
-

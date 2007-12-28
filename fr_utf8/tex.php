@@ -3,4 +3,3 @@
 $string['filtername'] = "Notation TeX";
 
 ?>
-
