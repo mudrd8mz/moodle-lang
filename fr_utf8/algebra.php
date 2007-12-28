@@ -1,6 +1,5 @@
-<?php /// $Id$
+<?php // $Id$
 
 $string['filtername'] = 'Notation Algebra';
 
 ?>
-
