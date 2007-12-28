@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.6.2 (2006050521)
+      // blog.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addnewentry'] = 'Adicionar novo tópico';
@@ -15,6 +15,7 @@ $string['blogs'] = 'Blogs';
 $string['blogtags'] = 'Palavras Chave do Blog';
 $string['courseblog'] = 'Blog da Disciplina: $a';
 $string['courseblogs'] = 'Os utilizadores apenas podem ver blogs de pessoas que partilham uma disciplina';
+$string['deleteotagswarn'] = 'Tem a certeza que quer apagar esta(s) palavra(s) chave<br />em todo o conteúdo dos blogs e no sistema?';
 $string['disableblogs'] = 'Desactivar completamente o sistema de blogs';
 $string['emptybody'] = 'O corpo de um tópico do blog não pode estar vazio';
 $string['emptytitle'] = 'O título de um tópico do blog não pode estar vazio';
@@ -46,6 +47,7 @@ $string['siteblog'] = 'Blog do sítio: $a';
 $string['siteblogs'] = 'Todos os utilizadores do sítio podem ver todos os 
 tópicos dos blogs';
 $string['tagdatelastused'] = 'Data da última utilização da palavra chave';
+$string['tags'] = 'Palavras chave';
 $string['tagsort'] = 'Mostrar palavras chave ordenadas por';
 $string['tagtext'] = 'Palavra Chave de texto';
 $string['timewithin'] = 'Mostrar palavras chave utilizadas durante estes dias';
