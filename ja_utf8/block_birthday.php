@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_birthday.php - created with Moodle 1.9 Beta + (2007083101)
+      // block_birthday.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['birthday'] = '誕生日';
@@ -15,6 +15,6 @@ $string['dateformatusa'] = 'USA日付フォーマット: \'%%m.%%d.%%Y\'';
 $string['happybirthday'] = 'お誕生日おめでとうございます!';
 $string['nobirthdays'] = '今日の誕生日はありません。';
 $string['periodnminutes'] = 'ラスト $a 分';
-$string['user_info_field_shortname'] = 'ユーザの誕生日を含む一意のユーザプロフィールフィールド省略名を入力してください (デフォルト省略名は「DOB」です)。';
+$string['user_info_field_shortname'] = 'ユーザの誕生日を含むユニークなユーザプロフィールフィールド省略名を入力してください (デフォルト省略名は「DOB」です)。';
 
 ?>
