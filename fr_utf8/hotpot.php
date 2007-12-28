@@ -59,6 +59,7 @@ $string['quiztype'] = 'Type de test';
 $string['showxmlsource'] = 'Afficher la source XML';
 $string['showxmltree'] = 'Afficher l\'arbre XML';
 $string['showhtmlsource'] = 'Afficher la source HTML';
+$string['showtimes'] = 'Afficher les temps de traitement';
 $string['enterafilename'] = 'Veuillez saisir un nom de fichier';
 
     // show.php (javascript messages, so must be double escaped. i.e. "it's" ==> 'it\\\'s' OR "it\\'s")
@@ -212,5 +213,8 @@ $string['error_nofeedbackurlformmail'] = 'Veuillez saisir une URL pour le script
 
   	 // error messages (attempt.php)
 $string['error_invalidquiztype'] = 'Ce type de test est manquant ou n\'est pas valide';
+
+$string['excelencodings'] = 'Encodages Excel';
+
 
 ?>
