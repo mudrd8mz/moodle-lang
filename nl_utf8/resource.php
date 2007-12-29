@@ -1,10 +1,13 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (2007101504)
+      // resource.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['addresource'] = 'Bron toevoegen';
 $string['affectedresources'] = 'Bronnen waarop van toepassing';
+$string['allowlocalfiles'] = 'Lokale bestanden toelaten';
+$string['autofilerename'] = 'Update link als bestand hernoemd wordt';
 $string['back'] = 'Terug';
+$string['blockdeletingfile'] = 'Blokkeer het verwijderen van bestanden waarnaar een link verwijst';
 $string['browserepository'] = 'Zoek in IMS-bibliotheek';
 $string['choose'] = 'Kies';
 $string['chooseafile'] = 'Kies of upload een bestand';
@@ -46,6 +49,7 @@ $string['fetchservererror'] = 'Er is een fout gevonden bij de webserver terwijl 
 $string['filename'] = 'Bestandsnaam';
 $string['filtername'] = 'Automatisch linken van bronnen';
 $string['frameifpossible'] = 'Toon de bron in een frame, zodat de navigatie zichtbaar blijft';
+$string['framesize'] = 'Frame grootte';
 $string['fulltext'] = 'Volledige tekst';
 $string['htmlfragment'] = 'HTML-fragment';
 $string['imspackageloaded'] = 'Pakket geladen';
@@ -95,6 +99,7 @@ $string['previous'] = 'Vorige';
 $string['redeploy'] = 'Opnieuw publiceren';
 $string['repository'] = 'IMS-bibliotheek';
 $string['resource:view'] = 'Bron bekijken';
+$string['resourcedefaulturl'] = 'Standaard URL';
 $string['resourcetype'] = 'Soort bron';
 $string['resourcetype1'] = 'Verwijzing';
 $string['resourcetype2'] = 'Webpagina';
@@ -124,5 +129,6 @@ $string['viewims'] = 'Toon IMS-pakket';
 $string['vol'] = 'Vol';
 $string['warningblockingdelete'] = 'Waarschuwing: Beschermd tegen verwijderen - in gebruik door een bron. Wijzig eerst je bronnen of vraag de beheerder dit beveiligingsmechnisme uit te schakelen in het configuratiescherm voor bronnen.';
 $string['warningdisabledrename'] = 'Waarschuwing: Het automatisch hernoemen van verwijzingen in bronnen is uitgeschakeld. Wijzig de verwijzingen manueel indien nodig. Je kunt de beheerder vragen om het automatisch hernoemen van verwijzingen in te schakelen in het configuratiescherm voor bronnen.';
+$string['websearchdefault'] = 'Standaard voor zoeken op het web';
 
 ?>

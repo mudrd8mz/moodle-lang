@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 2.0 dev (2007101504)
+      // group.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['addgroupstogrouping'] = 'Voeg groepen aan groepering toe.';
@@ -24,6 +24,8 @@ $string['databaseupgradegroups'] = 'Groep versie is nu $a';
 $string['defaultgrouping'] = 'Standaardgroepering';
 $string['defaultgroupingname'] = 'Groepering';
 $string['defaultgroupname'] = 'Groep';
+$string['deleteallgroupings'] = 'Verwijder alle groeperingen';
+$string['deleteallgroups'] = 'Verwijder alle groepen';
 $string['deletegroupconfirm'] = 'Ben je zeker dat je de groep \'$a\' wil verwijderen?';
 $string['deletegrouping'] = 'Verwijder groepering';
 $string['deletegroupingconfirm'] = 'Ben je zeker dat je de groepering \'$a\' wil verwijderen?(Groepen in de groepering worden niet verwijderd).';
@@ -50,6 +52,7 @@ $string['groupingdescription'] = 'Groeperingsbeschrijving';
 $string['groupingname'] = 'Groeperingsnaam';
 $string['groupingnameexists'] = 'De groeperingsnaam \'$a\' bestaat al in deze cursus. Kies een andere naam.';
 $string['groupings'] = 'Groeperingen';
+$string['groupingsonly'] = 'Enkel groeperingen';
 $string['groupmember'] = 'Groepslid';
 $string['groupmemberdesc'] = 'Standaardrol voor groepsleden';
 $string['groupmembers'] = 'Groepsleden';
@@ -65,6 +68,7 @@ $string['groupnameexists'] = 'De groepnaam \'$a\' bestaat al in deze cursus. Kie
 $string['groupnotamember'] = 'Sorry, maar je bent geen lid van die groep';
 $string['groups'] = 'Groepen';
 $string['groupscount'] = 'Groepen ($a)';
+$string['groupsgroupings'] = 'Groepen &amp; groeperingen';
 $string['groupsinselectedgrouping'] = 'Groepen in geselecteerde groepering';
 $string['groupsnone'] = 'Geen groepen';
 $string['groupspreview'] = 'Voorbeeld groepen';
@@ -94,6 +98,8 @@ $string['potentialmembers'] = 'Mogelijke groepsleden: $a';
 $string['printerfriendly'] = 'Printervriendelijke overzichtspagina groeperingen';
 $string['random'] = 'willekeurig';
 $string['removegroupfromselectedgrouping'] = 'Verwijder groep van geselecteeerde groepering';
+$string['removegroupingsmembers'] = 'Verwijder alle groepen van groeperingen';
+$string['removegroupsmembers'] = 'Verwijder alle groepsleden';
 $string['removeselectedusers'] = 'Verwijder geselecteerde gebruikers';
 $string['selectfromrole'] = 'Rol waaruit leden gekozen moeten worden';
 $string['showgroupsingrouping'] = 'Toon groepen in groepering';

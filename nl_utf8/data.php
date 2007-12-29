@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (2007101504)
+      // data.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['action'] = 'Actie';
@@ -58,9 +58,11 @@ $string['defaultfielddelimiter'] = '(standaardinstelling is een komma)';
 $string['defaultfieldenclosure'] = '(standaardinstelling is geen)';
 $string['defaultsortfield'] = 'Standaard sorteerveld';
 $string['delete'] = 'Verwijder';
+$string['deleteallentries'] = 'Verwijder alle items';
 $string['deletecomment'] = 'Weet je zeker dat je deze commentaar wil verwijderen?';
 $string['deleted'] = 'verwijderd';
 $string['deletefield'] = 'Verwijder een bestaand veld';
+$string['deletenotenrolled'] = 'Verwijder items van niet aangemelde gebruikers';
 $string['deletewarning'] = 'Ben je zeker dat je deze sjabloonset wil verwijderen?';
 $string['descending'] = 'Aflopend';
 $string['directorynotapreset'] = '$a->directory Geen sjabloon: bestanden ontbreeken:

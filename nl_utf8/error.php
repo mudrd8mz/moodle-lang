@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (2007101503)
+      // error.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['adminprimarynoedit'] = 'Het profiel van de beheerder met het kleinste gebruikersnummer kan door de andere beheerders niet gewijzigd worden';
@@ -26,6 +26,7 @@ $string['csvcolumnduplicates'] = 'Duplicate kolommen gevonden';
 $string['csvemptyfile'] = 'Het CVS-bestand is leeg';
 $string['csvfewcolumns'] = 'Onvoldoende kolommen. Controleer de instelling voor het scheidingsteken.';
 $string['csvweirdcolumns'] = 'Ongeldige CSV bestandsopmaak - aantal kolommen is niet constant!';
+$string['dbupdatefailed'] = 'Update van de databank mislukt';
 $string['downloadedfilecheckfailed'] = 'Controle van het gedownloade bestand mislukt';
 $string['duplicateusername'] = 'Gebruikersnaam bestaat al - record genegeerd';
 $string['errorcleaningdirectory'] = 'Fout bij het opkuisen van map \"$a\"';

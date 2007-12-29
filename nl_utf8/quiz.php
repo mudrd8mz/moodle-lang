@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (2007101501)
+      // quiz.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['1day'] = '1 dag';
@@ -65,6 +65,8 @@ $string['attemptsdeleted'] = 'Testpogingen verwijderd';
 $string['attemptselection'] = 'Kies welke pogingen per gebruiker je wil analyseren';
 $string['attemptsexist'] = 'Deze test is al eens geprobeerd';
 $string['attemptsnum'] = 'Pogingen: $a';
+$string['attemptsnumthisgroup'] = 'Pogingen: $a->total ($a->group van deze groep)';
+$string['attemptsnumyourgroups'] = 'Pogingen: $a->total ($a->group van jouw groepen)';
 $string['attemptsonly'] = 'Toon enkel leerlingen met testpogingen';
 $string['attemptsunlimited'] = 'Onbeperkt aantal pogingen';
 $string['back'] = 'Terug naar controleer vraag';
@@ -78,6 +80,7 @@ $string['braceerror'] = 'Kon geen {...} rond antwoorden vinden';
 $string['calculated'] = 'Berekend';
 $string['calculatedquestion'] = 'Berekende vraag niet ondersteund op lijn $a. De vraag wordt genegeerd.';
 $string['cannotcreatepath'] = 'Pad kan niet gemaakt worden ($a)';
+$string['cannoteditafterattempts'] = 'Je kunt geen vragen toevoegen of verwijderen omdat er al pogingen voor deze test zijn.';
 $string['cannotinsert'] = 'Kan vraag niet invoegen';
 $string['cannotopen'] = 'Kan exportbestand niet openen ($a)';
 $string['cannotread'] = 'Kan importbestand niet lezen (of bestand is leeg)';

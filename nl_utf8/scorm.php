@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (2007101505)
+      // scorm.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['activation'] = 'Activatie';
@@ -26,6 +26,7 @@ $string['contents'] = 'Inhoud';
 $string['coursepacket'] = 'Cursuspakket';
 $string['coursestruct'] = 'Cursusstructuur';
 $string['datadir'] = 'Fout van het bestandssysteem: de gegevensfolder van de cursus kan niet gemaakt worden';
+$string['deleteallattempts'] = 'Verwijder alle SCORM pogingen';
 $string['details'] = 'SCO opvolgdetails';
 $string['directories'] = 'Toon de links naar mappen';
 $string['display'] = 'Toon';

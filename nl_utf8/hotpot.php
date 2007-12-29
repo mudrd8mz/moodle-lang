@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9 dev (2007021501)
+      // hotpot.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['abandoned'] = 'verlaten';
@@ -37,6 +37,7 @@ $string['error_nofeedbackurlwebpage'] = 'Geef een URL in voor de webpagina';
 $string['error_nofilename'] = 'Geef een filternaam';
 $string['error_noquizzesfound'] = 'Geen Hot Potatoestesten gevonden';
 $string['error_notfileorfolder'] = '\"$a\" is geen bestand of map';
+$string['excelencodings'] = 'Excel encoderingen';
 $string['feedbackformmail'] = 'Feedbackformulier';
 $string['feedbackmoodleforum'] = 'Moodleforum';
 $string['feedbackmoodlemessaging'] = 'Moodleberichten';
@@ -138,6 +139,7 @@ $string['resultssaved'] = 'Testresultaten zjn bewaard';
 $string['score'] = 'cijfer';
 $string['showhtmlsource'] = 'Toon HTML-bron';
 $string['shownextquiz'] = 'Toon volgende test?';
+$string['showtimes'] = 'Toon procestijden';
 $string['showxmlsource'] = 'Toon XML-bron';
 $string['showxmltree'] = 'Toon XML-boom';
 $string['specifictime'] = 'Specifieke tijd';

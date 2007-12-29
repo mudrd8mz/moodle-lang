@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 2.0 dev (2007101500)
+      // choice.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['addmorechoices'] = 'Voeg meer keuzes toe';
@@ -39,6 +39,7 @@ $string['publishanonymous'] = 'Publiceer anonieme resultaten, laat de namen van 
 $string['publishnames'] = 'Publiceer volledige resultaten, laat namen en de bijbehorende keuzes zien';
 $string['publishnot'] = 'Publiceer geen resultaten voor de leerlingen';
 $string['removemychoice'] = 'Verwijder mijn keuze';
+$string['removeresponses'] = 'Verwijder alle antwoorden';
 $string['responses'] = 'Antwoorden';
 $string['responsesto'] = 'Antwoorden op  $a';
 $string['savemychoice'] = 'Bewaar mijn antwoord';

@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (2007101504)
+      // auth.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['CASform'] = 'Authenticatiekeuze';
 $string['accesCAS'] = 'CAS-gebruikers';
 $string['accesNOCAS'] = 'andere gebruikers';
+$string['actauthhdr'] = 'Actieve authenticatieplugins';
 $string['alternatelogin'] = 'Als je hier een URL ingeeft, dan zal die dienen als loginpagina voor deze site. De pagina moet een formulier bevatten met de actie ingesteld op <strong>\'$a\'</strong> en die de velden <strong>username</strong> en <strong>password</strong> teruggeeft.<br />Let er op dat je een juiste URL ingeeft. Zoniet sluit je jezelf uit de site.<br />Laat deze instelling leeg als je de standaard loginpagina wil gebruiken.';
 $string['alternateloginurl'] = 'URL van de alternatieve loginpagina';
 $string['auth_cas_auth_user_create'] = 'Creëer geburikers extern';

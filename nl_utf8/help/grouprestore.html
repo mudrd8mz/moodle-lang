@@ -1,0 +1,33 @@
+<h1>Groepen terugzetten</h1>
+
+<p>Je kunt er voor kiezen of je groepen wil terugzetten<?php
+global $CFG;
+if (empty($CFG->enablegroupings)) {
+    echo '. ';
+} else {
+    echo ', and groupings. ';
+}
+?>
+De opties zijn:</p>
+
+<dl>
+<?php if (empty($CFG->enablegroupings)) { ?>
+  <dt>Nee</dt>
+  <dd>Groepen niet terugzetten.</dd>
+  <dt>Ja</dt>
+  <dd>Groepen terugzetten.</dd>
+<?php } else { ?>
+  <dt>Niets</dt>
+  <dd>Geen groepen of groeperingen terugzetten. De groepering voor groeperingsactiviteiten is op 'Nee' gezet.</dd>
+  <dt>Enkel groeperingen</dt>
+  <dd>Groeperingen worden leeg teruggezet. De groepering, gekozen voor groeperingsactiviteiten word behouden en groepen worden niet teruggezet.</dd>
+  <dt>Groepen &amp; groeperingen</dt>
+  <dd>Groepen en groeperingen worden teruggezet en alle gerelateerde instellingen worden behouden.</dd>
+<?php } ?>
+</dl>
+
+<h2>Groepsmodus voor cursussen en activiteiten</h2>
+<p>Welke optie er ook gekozen is, de gescheiden of zichtbaar instelling van groepen voor cursus en activiteiten blijft behouden. 
+
+Deze functies zijn nodig voor leraren/beheerders die groepen willen opnieuw aanmaken na het terugzetten van een cursus.
+</p>

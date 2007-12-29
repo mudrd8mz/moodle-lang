@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (2007101504)
+      // role.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
@@ -52,6 +52,8 @@ $string['currentcontext'] = 'Huidige context';
 $string['currentrole'] = 'Huidige rol';
 $string['defaultrole'] = 'Standaard rol';
 $string['defineroles'] = 'Definieer rollen';
+$string['deletecourseoverrides'] = 'Verwijder alle overschrijvingen in de cursus';
+$string['deletelocalroles'] = 'Verwijder alle toegewezen rollen';
 $string['deleterolesure'] = '<p>Ben je zeker dat je de rol \"$a->name ($a->shorname)\" wil verwijderen?</p><p>Op dit moment is de rol aan $a->count gebruikers toegewezen.';
 $string['duplicaterole'] = 'Kopieer rol';
 $string['duplicaterolesure'] = 'Ben je zeker dat je de rol \"$a->name ($a->shortname)\" wil kopiëren?</p>';

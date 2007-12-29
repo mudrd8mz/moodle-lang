@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9 dev (2007080202)
+      // lesson.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['accesscontrol'] = 'Toegangscontrole';
@@ -62,6 +62,7 @@ $string['credit'] = 'Krediet';
 $string['customscoring'] = 'Aangepaste cijfers';
 $string['deadline'] = 'Deadline';
 $string['defaultessayresponse'] = 'Je antwoord op deze open vraag zal door de leraar beoordeeld worden.';
+$string['deleteallattempts'] = 'Verwijder alle pogingen';
 $string['deletedefaults'] = 'Standaard les $a verwijderd';
 $string['deletedpage'] = 'Pagina verwijderd';
 $string['deleting'] = 'Verwijderen';

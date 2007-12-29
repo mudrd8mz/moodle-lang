@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9 Beta + (2007090600)
+      // notes.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['addnewnote'] = 'Nieuwe notitie toevoegen';
@@ -10,6 +10,7 @@ $string['course'] = 'cursus';
 $string['coursenotes'] = 'Cursusnotities';
 $string['created'] = 'gemaakt';
 $string['deleteconfirm'] = 'Deze notitie verwijderen?';
+$string['deletenotes'] = 'Verwijder alle notities';
 $string['editnote'] = 'Bewerk notitie';
 $string['groupaddnewnote'] = 'Nieuwe notitie voor iedereen toevoegen';
 $string['nocontent'] = 'Een notitie kan niet leeg zijn';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.7 dev (2006082100)
+      // chat.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['beep'] = 'Piep';
@@ -37,6 +37,7 @@ $string['messagebeepsyou'] = '$a heeft je net gepiept!';
 $string['messageenter'] = '$a is net deze chat binnen gekomen';
 $string['messageexit'] = '$a heeft deze chat verlaten';
 $string['messages'] = 'Berichten';
+$string['method'] = 'Chat methode';
 $string['methoddaemon'] = 'Chat server daemon';
 $string['methodnormal'] = 'Gewone methode';
 $string['modulename'] = 'Chat';
@@ -48,15 +49,24 @@ $string['nomessages'] = 'Nog geen berichten';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Steam';
 $string['noscheduledsession'] = 'Geen sessie gepland';
+$string['oldping'] = 'Timeout verbinding verbroken';
+$string['refreshroom'] = 'Ververs chatroom';
+$string['refreshuserlist'] = 'Ververs gebruikerslijst';
+$string['removemessages'] = 'Verwijder alle berichten';
 $string['repeatdaily'] = 'Elke dag om dezelfde tijd';
 $string['repeatnone'] = 'Geen herhalingen - alleen publiceren op de aangegeven tijd';
 $string['repeattimes'] = 'Herhaal sessies';
 $string['repeatweekly'] = 'Elke week om dezelfde tijd';
 $string['savemessages'] = 'Bewaar voorbije chatsessies';
 $string['seesession'] = 'Bekijk deze sessie';
+$string['serverhost'] = 'Servernaam';
+$string['serverip'] = 'Server IP';
+$string['servermax'] = 'Maximum aantal gebruikers';
+$string['serverport'] = 'Serverpoort';
 $string['sessions'] = 'Chatsessies';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Iedereen kan voorbije chatsessies bekijken';
+$string['updatemethod'] = 'Update methode';
 $string['viewreport'] = 'Bekijk voorbije chatsessies';
 
 ?>

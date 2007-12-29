@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (2007101504)
+      // glossary.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['addcomment'] = 'Voeg commentaar toe';
@@ -66,6 +66,7 @@ $string['defaultsortorder'] = 'Standaard sorteervolgorde';
 $string['definition'] = 'Definitie';
 $string['definitions'] = 'Definities';
 $string['deleteentry'] = 'Verwijder woord';
+$string['deletenotenrolled'] = 'Verwijder items van niet aangemelde gebruikers';
 $string['deletingcomment'] = 'Verwijder commentaar';
 $string['deletingnoneemptycategory'] = 'Door deze categorie te verwijderen zullen de woorden die ze bevat niet verdwijnen - ze zullen als niet-gecategoriseerd gemerkt worden';
 $string['descending'] = '(aflopend)';
@@ -172,6 +173,8 @@ $string['ratingsuse'] = 'Gebruik beoordelingen';
 $string['ratingtime'] = 'Beoordeel alleen nieuwe invoer tussen deze data';
 $string['rejectedentries'] = 'Verworpen items';
 $string['rejectionrpt'] = 'Verwerpingsrapport';
+$string['resetglossaries'] = 'Verwijder items van';
+$string['resetglossariesall'] = 'Verwijder items uit alle woordenlijsten';
 $string['rsssubscriberss'] = 'Toon de RSS-feed voor \'$a\' items';
 $string['searchindefinition'] = 'Zoek ook in definities';
 $string['secondaryglossary'] = 'Secundaire woordenlijst';

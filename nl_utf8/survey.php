@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 2.0 dev (2007101504)
+      // survey.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['actual'] = 'Werkelijk';
@@ -162,6 +162,8 @@ Er zijn geen \'goede\' en geen \'foute\' antwoorden; we zijn alleen maar geïnte
 Hartelijk bedankt.';
 $string['collespname'] = 'COLLES (Voorkeur)';
 $string['customintro'] = 'Aangepaste introductietekst';
+$string['deleteallanswers'] = 'Verwijder alle onderzoek antwoorden';
+$string['deleteanalysis'] = 'Verwijder alle antwoordanalyses';
 $string['done'] = 'Voltooid';
 $string['download'] = 'Download';
 $string['downloadexcel'] = 'Download de gegevens als een Excel spreadsheet';

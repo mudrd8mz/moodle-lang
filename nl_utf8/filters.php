@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 2.0 dev (2007101503)
+      // filters.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['actfilterhdr'] = 'Actieve filters';
@@ -36,6 +36,7 @@ $string['removeall'] = 'Verwijder alles';
 $string['removeselected'] = 'Verwijder selectie';
 $string['selectlabel'] = '$a->label $a->operator $a->value';
 $string['startswith'] = 'Begint met';
+$string['tablenosave'] = 'Wijzigingen in bovenstaande tabel worden automatisch bewaard.';
 $string['textlabel'] = '$a->label $a->operator $a->value';
 $string['textlabelnovalue'] = '$a->label $a->operator';
 $string['isbetween'] = 'is tussen $a[0] en $a[1]'; // ORPHANED

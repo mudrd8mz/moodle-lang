@@ -3,8 +3,7 @@
 <p>Met de filterbeheerpagina kun je aangeven welke filters op de getoonde tekst ingrijpen en in welke volgorde. Deze pagina geeft ook toegang tot de instellingenpagina die bij sommige filters hoort. Filters worden toegepast op de meeste gebruikersteksten in Moodle net voor ze getoond worden. Ze maken 'last minute' wijzigingen van de tekst mogelijk.</p>
 
 <p>Filters werken als plugins. Mogelijk kun je er meer vinden op
-   <a href="http://download.moodle.org/modules/filters.php">
-   http://download.moodle.org/modules/filters.php</a>.</p>
+   <a href="http://moodle.org/mod/data/view.php?id=6009">Modules and plugins database</a>.</p>
 
 <p>Selecteer de filters die je wil gebruiken door ze 'zichtbaar' te maken met het oog-icoontje. Als je er meer dan één aanzet, kun je de volgorde waarin ze toegepast zullen worden wijzigen door ze te verplaatsen met de op- en neerpijltjes.
 </p> 
@@ -16,6 +15,7 @@
   <p>Met de instellingenpagina kunnen de paden van de LaTeX en Ghostscript bestanden ingesteld worden, samen met de LaTeX inleiding.</p>
   <p><b>Meer info</b></p>
   <p><a href="http://www.miktex.org/">MiKTeX</a><br/>
+     <a href="http://www.forkosh.com/mimetex.html">MimeTeX</a><br />
      <a href="http://www.latex-project.org/">LaTeX</a><br/>
      <a href="http://www.ghostscript.com/">ghostscript</a></p>
 </div>
@@ -23,8 +23,7 @@
 <p><b>Woordcensuur</b></p>
 
 <div class="indent">
-  <p>Woordcensuur scanr tekst naar 'vieze woorden' uit een voorgedefinieerde lijst. 
-  Elk taalpakket heeft zijn eigen standaardlijst, maar je kunt je eigen lijst aanmaken. Om je lijst te maken ga je naar de instellingenpagina en geef je jouw lijst met te censureren woorden in. De gebruiker zal de woorden verborgen met een zwarte box zien, al zal het originele woord verschijnen wanneer de gebruiker er met zijn muisaanwijzer overgaat.</p>
+  <p>Woordcensuur scant tekst naar 'vieze woorden' uit een voorgedefinieerde lijst.  Om je lijst te maken ga je naar de instellingenpagina van de woordcensuurfilter en geef je jouw lijst met te censureren woorden in. De gebruiker zal de woorden verborgen zien door een zwarte box.</p>
 </div>
 
 <p><b>Automatisch linken van bronnen</b></p>
@@ -62,6 +61,6 @@
 
 <div class="indent">
   <p>Deze filter maakt het mogelijk om bronnen aan te maken in meerdere talen. De taal van de bron zal dan veranderen als de gebruiker een andere taal in Moodle kiest. Om deze functie te kunnen gebruiken moet je je inhoud in meerdere talen maken (binnen dezelfde bron). Sluit dan elk taalblok in tussen volgende tags:</p>
-  <pre>      &lt;lang lang="XX"&gt;jouw_inhoud_hier&lt;/lang&gt;</pre>
+  <pre>       &lt;span lang="XX" class="multilang"&gt;jouw_inhoud_hier&lt;/span&gt;</pre>
   
 </div>
