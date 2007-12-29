@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (2007101504)
+      // assignment.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['allowdeleting'] = 'Verwijderen toestaan';
@@ -23,6 +23,7 @@ $string['commentinline'] = 'Commentaar invoegen';
 $string['configitemstocount'] = 'Wat er moet geteld worden wanneer leerlingen hun on line opdracht ingestuurd hebben.';
 $string['configmaxbytes'] = 'Standaard maximumgrootte voor alle opdrachten op de site (afhankelijk de limiet van de cursus en van andere lokale instellingen)';
 $string['confirmdeletefile'] = 'Ben je er zeker van dat je dit bestand wil verwijderen?<br/><strong>$a</strong>';
+$string['deleteallsubmissions'] = 'Alle inzendingen verwijderen';
 $string['deletefilefailed'] = 'Bestand verwijderen mislukt';
 $string['description'] = 'Beschrijving';
 $string['draft'] = 'Kladwerk';
@@ -57,6 +58,7 @@ $string['helpupload'] = '<p>Dit type opdracht laat elke leerling toe om één of
 <p>Dit type opdracht maakt het ook voor jou mogelijk om één of meerdere bestanden van gelijk welk type te uploaden als feedback.</p>';
 $string['helpuploadsingle'] = '<p>Dit type opdracht laat elke deelnemer toe om één bestand te uploaden, van gelijk welk bestandstype.</p><p>Dit kan een bestand zijn van een tekstverwerker, een afbeelding, een website in een zip-bestand of gelijk welk type dat je je leerlingen vraagt te maken</p>';
 $string['hideintro'] = 'Verberg beschrijving voor de startdatum';
+$string['itemstocount'] = 'Aantal';
 $string['late'] = '$a laat';
 $string['maximumgrade'] = 'Maximale cijfer';
 $string['maximumsize'] = 'Maximale grootte';
