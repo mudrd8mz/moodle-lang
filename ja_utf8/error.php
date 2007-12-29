@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (2007101505)
+      // error.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -8,6 +8,7 @@ $string['cannotcreatelangdir'] = 'langディレクトリを作成できません
 $string['cannotcreatetempdir'] = 'tempディレクトリを作成できません。';
 $string['cannotcustomizelocallang'] = 'あなたには翻訳ストリングをカスタマイズするパーミッションがありません。このパーミッションは、ケイパビリティ「moodle/site:langeditlocal」でコントロールされます。あなたのサイトの翻訳ストリングを修正したい場合、このケイパビリティを設定して、ローカル言語パックを編集できるようにしてください。';
 $string['cannotdownloadcomponents'] = 'コンポーネットをダウンロードできません。';
+$string['cannotdownloadlanguageupdatelist'] = 'download.moodle.orgから言語の更新リストをダウンロードできません。';
 $string['cannotdownloadzipfile'] = 'ZIPファイルをダウンロードできません。';
 $string['cannoteditmasterlang'] = 'あなたにはマスター翻訳ストリングを編集するパーミッションがありません。このパーミッションは、ケイパビリティ「moodle/site:langeditmaster」でコントロールされます。あなたが言語パックの管理者の場合、このケイパビリティを設定して、マスター言語パックを編集できるようにしてください。';
 $string['cannotfindcomponent'] = 'コンポーネントを見つけることができません。';
