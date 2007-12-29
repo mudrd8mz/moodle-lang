@@ -12,7 +12,7 @@ $string['includerelatedtags'] = 'Inclure les balises dans la recherche';
 $string['interestingness-asc'] = 'Intérêt &#8593;';
 $string['interestingness-desc'] = 'Intérêt &#8595;';
 $string['numberofphotos'] = 'Nombre de photos';
-$string['relevance'] = 'Relevance';
+$string['relevance'] = 'Pertinence';
 $string['sortby'] = 'Trier par';
                                    
 ?>
