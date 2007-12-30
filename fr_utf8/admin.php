@@ -179,8 +179,11 @@ $string['configpathtoclam'] = 'Chemin d\'accès du programme «&nbsp;clam AV&nbs
 $string['configpathtodu'] = 'Chemin d\'accès du programme «&nbsp;du&nbsp;» (disk usage). En général quelque chose comme «&nbsp;/usr/bin/du&nbsp;». Si vous spécifiez ce chemin, les pages affichant le contenu de dossiers contenant beaucoup de fichiers se chargeront beaucoup plus vite.';
 $string['configperfdebug'] = 'L\'activation de cette option a pour effet l\'affichage d\'informations de performance dans le pied de page du thème standard.';
 $string['configprotectusernames'] = 'Par défaut, le fichier <em>forgot_password.php</em> n\'affiche aucun indice pouvant permettre de deviner les noms d\'utilisateurs ou les adresses de courriel.';
-$string['configproxyhost'] = 'Si le serveur qui héberge le site Moodle a besoin d\'utiliser un proxy (dans le cas, par exemple, où il existe un firewall sur le réseau), indiquer ici le nom de ce proxy et son numéro de port. Sinon laisser vide.';
+$string['configproxyhost'] = 'Si le serveur qui héberge le site Moodle a besoin d\'utiliser un proxy (dans le cas, par exemple, où il existe un firewall sur le réseau), indiquer ici le nom de ce proxy le port qu\'il utilise. Sinon laisser vide.';
+$string['configproxypassword'] = 'Mot de passe requis pour accéder à Internet au travers du proxy, si nécessaire. Laisser vide dans le cas contraire (l\'extension cURL de PHP est requise).';
 $string['configproxyport'] = 'Si le serveur requiert l\'utilisation d\'un proxy, indiquez ici le port du proxy.';
+$string['configproxyuser'] = 'Nom d\'utilisateur requis pour accéder à Internet au travers du proxy, si nécessaire. Laisser vide dans le cas contraire (l\'extension cURL de PHP est requise).';
+$string['configproxytype'] = 'Type de proxy web (PHP5 et son extension cURL sont requis pour le support de SOCKS5).';
 $string['configquarantinedir'] = 'Si vous désirez que clam AV déplace les fichiers infectés vers un dossier de quarantaine, spécifiez ici son chemin d\'accès. Le serveur web doit pouvoir écrire dans ce dossier. Si vous laissez ce champ vide ou si vous spécifiez un dossier inexistant ou sans droit d\'écriture, les fichiers infectés seront détruits. Ne pas écrire la barre oblique finale.';
 $string['configrcache'] = 'Utiliser le cache pour stocker les enregistrements de la base de données. N\'oubliez pas de configurer aussi le paramètre «&nbsp;Type de cache&nbsp;»&nbsp;!';
 $string['configrcachettl'] = 'Durée de vie des enregistrements en cache, en secondes. Utiliser ici une brève durée (&lt;15).';
@@ -248,7 +251,7 @@ $string['cronremotepassword'] = 'Mot de passe pour lancer le cron à distance';
 $string['cronwarning'] = 'Le <a href=\"cron.php\">script de maintenance cron.php</a> n\'a pas été lancé depuis au moins 24 heures.';
 $string['cronwarning2'] = 'Le <a href=\"cron.php\">script de maintenance cron.php</a> n\'a pas été lancé depuis au moins 24 heures.<br />Voir $a pour de plus amples informations sur l\'automatisation de cette opération.';
 $string['csvdelimiter'] = 'Délimiteur CSV';
-$string['curlrecommended'] = 'L\'installation de la bibliothèque optionnelle Curl est vivement recommandée, afin de pouvoir utiliser la fonctionnalité Réseau Moodle.';
+$string['curlrecommended'] = 'L\'installation de la bibliothèque optionnelle cURL est vivement recommandée, afin de pouvoir utiliser la fonctionnalité Réseau Moodle.';
 $string['customcheck'] = 'Autres contrôles';
 $string['datarootsecuritywarning'] = 'La configuration de votre site semble ne pas être sûre. Veuillez vous assurer que le dossier des données de Moodle ($a) ne soit pas directement accessible depuis le web.';
 $string['dbmigrate'] = 'Migration de la base de données de Moodle';
@@ -555,7 +558,10 @@ $string['profilevisiblenone'] = 'Caché';
 $string['profilevisibleprivate'] = 'Visible pour l\'utilisateur';
 $string['protectusernames'] = 'Protéger les noms d\'utilisateur';
 $string['proxyhost'] = 'Hôte du proxy';
+$string['proxypassword'] = 'Mot de passe du proxy';
 $string['proxyport'] = 'Port du proxy';
+$string['proxytype'] = 'Type de proxy';
+$string['proxyuser'] = 'Nom d\'utilisateur du proxy';
 $string['qtyperqpwillberemoved'] = 'Au cours de cette mise à jour, le type de question RQP sera supprimé. Vous n\'utilisiez pas ce type de question, et ne souffrirez donc d\'aucun problème.';
 $string['qtyperqpwillberemovedanyway'] = 'Au cours de cette mise à jour, le type de question RQP sera supprimé. Votre base de données comporte des questions RQP, qui ne fonctionneront plus, à moins que vous ne réinstalliez le code disponible sur http://moodle.org/mod/data/view.php?d=13&amp;rid=797 avant de continuer la mise à jour.';
 $string['question'] = 'Question';
@@ -703,6 +709,8 @@ $string['uuupdatemissing'] = 'Remplir les manquants avec le fichier et les régl
 $string['uuupdatetype'] = 'Détails de l\'utilisateur existant';
 $string['validateerror'] = 'Cette valeur n\'est pas valide&nbsp;: ';
 $string['warningcurrentsetting'] = 'Valeur actuelle non valide&nbsp;: $a';
+$string['webproxy'] = 'Prox web';
+$string['webproxyinfo'] = 'Renseignez les options suivantes si votre serveur Moodle n\'a pas un accès direct à Internet. L\'accès direct à Internet est requis pour le téléchargement des données de l\'environnement, les paquetages de langue, les flux RSS, les fuseaux horaires, etc.<br /><em>L\'extension cURL de PHP est chaudement recommandée.</em>';
 $string['xmlstrictheaders'] = 'Entêtes XML strict';
 
 ?>
