@@ -83,6 +83,7 @@ $string['pagenotexist'] = '異常なエラー (存在しないページへのア
 $string['pleasereport'] = 'あなたに時間がある場合、エラーが発生したとき、あなたが何を試みたのか私たちにお教えください。';
 $string['pluginrequirementsnotmet'] = 'プラグイン 「 $a->pluginname 」 ($a->pluginversion) がインストールされませんでした。インストールするには、新しいバージョンのMoodleが必要です (現在使用しているバージョン: $a->currentmoodle  インストールに必要なバージョン: $a->requiremoodle)。';
 $string['processingstops'] = 'ここで処理が停止します。残りのレコードは無視されました。';
+$string['remotedownloaderror'] = 'あなたのサーバへのコンポーネントのダウンロードに失敗しました。プロクシ設定を確認してください。PHP cURL拡張モジュールの使用を強くお勧めします。<br /><br /><a href=\"$a->url\">$a->url</a>ファイルを手動でダウンロードした後、あなたのサーバの「$a->dest」にコピーおよび解凍してください。';
 $string['remotedownloadnotallowed'] = 'あなたのサーバーにコンポーネントをダウンロードすることができません (allow_url_fopen が無効)。<br /><br /><a href=\"$a->url\">$a->url</a> ファイルを手動でダウンロードして、サーバの「 $a->dest 」にコピーした後、解凍してください。';
 $string['restricteduser'] = '申し訳ございません、あなたのアカウント「 $a 」では、この処理を行うことができません。';
 $string['scheduledbackupsdisabled'] = 'スケジュールバックアップは、サーバ管理者により無効にされています。';
