@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (2007101500)
+      // mnet.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
@@ -108,7 +108,7 @@ $string['net'] = 'ネットワーキング';
 $string['networksettings'] = 'ネットワーク設定';
 $string['never'] = 'なし';
 $string['noaclentries'] = 'SSOアクセスコントロールリストにエントリがありません。';
-$string['nocurl'] = 'PHP Curlライブラリがインストールされていません。';
+$string['nocurl'] = 'PHP cURLライブラリがインストールされていません。';
 $string['nohostid'] = 'このページでは、整数のホストIDを入力してください。';
 $string['noipmatch'] = 'リモートマシンのIPアドレス <em>$a[0]</em> がレコードのIPアドレス <em>$a[1]</em> と合致しません。';
 $string['nolocaluser'] = 'リモートユーザのローカルレコードが存在しません。';
