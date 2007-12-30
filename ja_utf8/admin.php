@@ -250,7 +250,7 @@ $string['cronerrorpassword'] = '申し訳ございません、あなたはこの
 $string['cronremotepassword'] = 'リモートアクセスのcronパスワード';
 $string['cronwarning'] = '<a href=\"cron.php\">cron.phpメンテナンススクリプト</a>が、少なくとも24時間稼動していません。';
 $string['csvdelimiter'] = 'CSVデリミタ';
-$string['curlrecommended'] = 'Moodleネットワーキング機能を有効にするため、Curlライブラリのインストールを強くお勧めします。';
+$string['curlrecommended'] = 'Moodleネットワーキング機能を有効にするため、cURLライブラリのインストールを強くお勧めします。';
 $string['customcheck'] = 'その他のチェック';
 $string['datarootsecuritywarning'] = 'あなたのサイト設定は、安全ではない可能性があります。datarootディレクトリ ($a) が、ウェブから直接アクセスできないことを確認してください。';
 $string['dbmigrate'] = 'Moodleデータベース移行';
