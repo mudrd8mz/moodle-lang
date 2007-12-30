@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (2007110800)
+      // lesson.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -130,8 +130,8 @@ $string['insertedpage'] = 'ページが追加されました';
 $string['jump'] = 'ジャンプ';
 $string['jumps'] = 'ジャンプ';
 $string['jumpsto'] = '<em>$a</em> にジャンプする';
-$string['leftduringtimed'] = 'あなたは制限時間のあるレッスンを途中で終了しました。<br />レッスンを再スタートするためにクリックしてください。';
-$string['leftduringtimednoretake'] = 'あなたは制限時間のあるレッスンを途中で終了しました。<br />レッスンの再受験、継続はできません。';
+$string['leftduringtimed'] = 'あなたは制限時間のあるレッスンを途中で終了しました。<br />レッスンを再スタートするには、「続ける」をクリックしてください。';
+$string['leftduringtimednoretake'] = 'あなたは制限時間のあるレッスンを途中で終了しました。<br />レッスンを再受験または継続できません。';
 $string['lesson:edit'] = 'レッスン活動を編集する';
 $string['lesson:manage'] = 'レッスン活動を管理する';
 $string['lessonattempted'] = 'レッスン受験済み';
@@ -201,7 +201,7 @@ $string['numberofcorrectanswers'] = '正解数: $a';
 $string['numberofcorrectmatches'] = '正しいマッチ数: $a';
 $string['numberofpagestoshow'] = 'ページ (カード) の表示数';
 $string['numberofpagesviewed'] = '解答済み問題数: $a';
-$string['numberofpagesviewednotice'] = '解答済み問題数: $a->nquestions; (あなたは少なくとも: $a->minquestions の問題に解答する必要があります。)';
+$string['numberofpagesviewednotice'] = '解答済み問題数: $a->nquestions; (あなたは少なくとも: $a->minquestions の問題に解答する必要があります)';
 $string['ongoing'] = '進行中の評点を表示する';
 $string['ongoingcustom'] = '現在、あなたの評点は $a->currenthigh 点中 $a->score 点です。';
 $string['ongoingnormal'] = 'あなたは $a->viewed の問題の中から $a->correct を正しく答えました。';
@@ -209,7 +209,6 @@ $string['or'] = 'または';
 $string['ordered'] = '整理済み';
 $string['other'] = 'その他';
 $string['outof'] = '$a 中';
-$string['outoftime'] = '時間切れ';
 $string['overview'] = '概要';
 $string['page'] = 'ページ: $a';
 $string['pagecontents'] = 'ページコンテンツ';
@@ -267,11 +266,10 @@ $string['startlesson'] = 'レッスンの開始';
 $string['studentattemptlesson'] = '$a->lastname, $a->firstname さんの受験回数:  $a->attempt';
 $string['studentname'] = '$a の氏名';
 $string['studentoneminwarning'] = '警告: レッスンが終了するまでの残り時間が1分またはそれ以下です。';
-$string['studentoutoftime'] = 'お知らせ: このレッスンの制限時間が終わりました。あなたの最後の解答は、時間終了送信されましたので計算から除外されます。「続ける」ボタンをクリックしてレッスンを終了してください。';
 $string['studentresponse'] = '{$a} のレスポンス';
 $string['submitname'] = 'ニックネームの送信';
 $string['teacherjumpwarning'] = 'このレッスンでは、$a->cluster ジャンプまたは $a->unseen ジャンプが使用されています。これらのジャンプの代わりに「次のページ」へのジャンプが使用されます。これらのジャンプを確認するには、学生としてログインしてください。';
-$string['teacherongoingwarning'] = '進行中の評点は学生のみに表示されます。進行中のスコアをテストするには、学生としてログインしてください。';
+$string['teacherongoingwarning'] = '進行中の評点は、学生のみに表示されます。進行中のスコアをテストするには、学生としてログインしてください。';
 $string['teachertimerwarning'] = 'タイマーは学生に対してのみ作動します。タイマーをテストするには、学生としてログインしてください。';
 $string['thatsthecorrectanswer'] = '正解です。';
 $string['thatsthewronganswer'] = '不正解です。';
@@ -306,6 +304,8 @@ $string['youranswer'] = 'あなたの答え';
 $string['yourcurrentgradeis'] = 'あなたの現在の評点は $a です。';
 $string['yourcurrentgradeisoutof'] = 'あなたの現在の評点は $a->total 点中 $a->grade 点です。';
 $string['youshouldview'] = '少なくとも $a 回解答してください。';
+$string['outoftime'] = '時間切れ'; // ORPHANED
+$string['studentoutoftime'] = 'お知らせ: このレッスンの制限時間が終わりました。あなたの最後の解答は、時間終了送信されましたので計算から除外されます。「続ける」ボタンをクリックしてレッスンを終了してください。'; // ORPHANED
 $string['editlesson'] = '$a の編集'; // ORPHANED
 
 ?>
