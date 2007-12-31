@@ -711,7 +711,7 @@ $string['uuupdatemissing'] = 'Remplir les manquants avec le fichier et les régl
 $string['uuupdatetype'] = 'Détails de l\'utilisateur existant';
 $string['validateerror'] = 'Cette valeur n\'est pas valide&nbsp;: ';
 $string['warningcurrentsetting'] = 'Valeur actuelle non valide&nbsp;: $a';
-$string['webproxy'] = 'Prox web';
+$string['webproxy'] = 'Proxy web';
 $string['webproxyinfo'] = 'Renseignez les options suivantes si votre serveur Moodle n\'a pas un accès direct à Internet. L\'accès direct à Internet est requis pour le téléchargement des données de l\'environnement, les paquetages de langue, les flux RSS, les fuseaux horaires, etc.<br /><em>L\'extension cURL de PHP est vivement recommandée.</em>';
 $string['xmlstrictheaders'] = 'Entêtes XML strict';
 
