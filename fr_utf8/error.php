@@ -81,6 +81,7 @@ $string['pagenotexist'] = 'Une erreur inhabituelle est survenue (vous essayez d\
 $string['pleasereport'] = 'Merci de prendre un peu de temps pour nous faire savoir ce que vous essayiez de faire lorsque l\'erreur est survenue&nbsp;:';
 $string['pluginrequirementsnotmet'] = 'Le plug-in \"$a->pluginname\" ($a->pluginversion) ne peut pas être installé. Il nécessite une version plus récente de Moodle (vous utilisez actuellement la version $a->currentmoodle&nbsp; la version $a->requiremoodle est requise).';
 $string['processingstops'] = 'Le traitement s\'arrête ici. Les enregistrements restant ont été ignorés.';
+$string['remotedownloaderror'] = 'Le téléchargement de composants sur votre serveur a échoué. Veuillez vérifier less réglages de proxy. L\'extension cURL de PHP est vivement recommandée.<br /><br />Vous devez télécharger manuellement le fichier <a href=\"$a->url\">$a->url</a>, le copier sur votre serveur à l\'emplacement «&nbsp;$a->dest&nbsp;» et le décompresser à cet endroit.';
 $string['remotedownloadnotallowed'] = 'Le téléchargement de composants sur votre serveur n\'est pas autorisé (l\'option allow_url_fopen est désactivée).<br /><br />Vous devez télécharger manuellement le fichier <a href=\"$a->url\">$a->url</a>, le copier vers «&nbsp;$a->dest&nbsp;» dans votre serveur et le décompresser.';
 $string['restricteduser'] = 'Votre compte utilisateur «&nbsp;$a&nbsp;» ne vous permet pas d\'effectuer cette opération.';
 $string['scheduledbackupsdisabled'] = 'Les sauvegardes automatiques ont été désactivées par l\'administrateur du serveur';

@@ -404,6 +404,8 @@ $string['langmasterenglish'] = 'Paquetage principal anglais';
 $string['langlocalpackage'] = 'Modifications locales';
 $string['langnoeditenglish'] = 'Il n\'est pas possible d\'écraser le paquetage de langue de base en anglais. Veuillez changer de dossier de langue pour effectuer des changements locaux';
 $string['langmenu'] = 'Afficher le menu des langues';
+$string['langpackinstalled'] = 'Le paquetage de langue $a a été correctement installé';
+$string['langpackupdateskipped'] = 'La mise à jour du paquetage de langue $a n\'a pas été effectuée';
 $string['langpackmaintaining'] = 'Maintenance des paquetages de langue';
 $string['langpackremoved'] = 'La désinstallation du paquetage de langue est terminée';
 $string['langpacks'] = 'Paquetages langue';
@@ -657,7 +659,7 @@ $string['uninstallconfirm'] = 'Vous êtes sur le point de supprimer totalement l
 $string['unsupported'] = 'Non supporté';
 $string['updateaccounts'] = 'Modifier des comptes existants';
 $string['updatecomponent'] = 'Mise à jour du composant';
-$string['updatelangs'] = 'Mettre à jour toutes les langues installées';
+$string['updatelangs'] = 'Mettre à jour tous les paquetages de langue installés';
 $string['updatetimezones'] = 'Fuseaux horaires';
 $string['upgradeforumread'] = 'Moodle 1.5 possède une nouvelle fonctionnalité permettant de signaler quels messages des forums ont été lus.<br />Pour profiter de cette fonctionnalité, les tables de la base de données <a href=\"$a\">doivent être mises à jour</a>.';
 $string['upgradeforumreadinfo'] = 'Moodle 1.5 possède une nouvelle fonctionnalité permettant de signaler quels messages des forums ont été lus. Pour profiter de cette fonctionnalité, les tables de la base de données doivent être complétées avec le statut de lecture pour les messages existants. Suivant la taille de votre site, cette mise à jour peut prendre beaucoup de temps (quelques heures) et risque de surcharger la base de données. Nous vous conseillons donc de l\'effectuer lors d\'une période creuse. Durant cette mise à jour, votre site continuera à fonctionner et les utilisateurs n\'en seront pas affectés. Une fois l\'opération démarrée, vous devez la laisser se terminer (en laissant ouverte la fenêtre du navigateur). Si par inadvertance vous interrompez le processus, par exemple en fermant la fenêtre, vous pourrez le recommencer sans dommage.<br /><br />Voulez-vous commencer maintenant cette opération&nbsp;?';
