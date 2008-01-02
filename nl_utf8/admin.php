@@ -128,6 +128,8 @@ $string['configfrontpage'] = 'De hierboven gekozen items zullen op de startpagin
 $string['configfrontpageloggedin'] = 'De hierboven gekozen items zullen op de startpagina van de site getoond worden, wanneer een gebruiker aangemeld is.';
 $string['configfullnamedisplay'] = 'Deze instelling bepaalt hoe de volledige namen getoond worden. Voor de meeste eentalige sites is de beste instelling de standaardinstelling, nl \"voornaam + achternaam\", maar je kunt ervoor kiezen de achternaam te verbergen of de gekozen taalinstelling te volgen (sommige talen gebruiken een andere volgorde).';
 $string['configgdversion'] = 'Geef aan welke versie van GD geïnstalleerd is. De versie die standaard getoond wordt is automatisch gevonden. Verander dit niet tenzij je echt weet wat je doet.';
+$string['configgeoipfile'] = 'Plaats van het GeoIP City binair data bestan. Dit bestand is geen deel van de Moodledistributie en moet apart bekomen worden van  <a href=\"http://www.maxmind.com/\">MaxMind</a>. Je kunt ofwel een commerciële versie bekomen of de gratis versie gebruiken.<br />Download <a href=\"http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz\">http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a> en unzip het in de map \"$a\" op je server.';
+$string['configgooglemapkey'] = 'Je moet een speciale sleutel ingeven om Google Maps voor IP-adreslocalisatie te kunnen gebruiken. Die kun je gratis bekomen op <a href=\"http://code.google.com/apis/maps/signup.html\">http://code.google.com/apis/maps/signup.html</a>.<br />Jouw web site URL is: $a';
 $string['configgradebookroles'] = 'Deze instelling bepaalt wie er in de cijferlijsten verschijnt. Gebruikers moeten minstens één van deze rollen hebben om in de cijferlijsten voor die cursus te verschijnen.';
 $string['configgradeexport'] = 'Kies welke formaten je wil om je punten te exporteren. De gekozen plugins worden dan ingesteld en gebruiken een \"laatst geëxporteerd veld\" voor elk cijfer. Dit kan er bijvoorbeeld voor zorgen dat geëxporteerde records geïdentificeerd worden als nieuw of aangepast. Als je niet zeker bent van deze instelling, laat dan alles staan zonder vinkje.';
 $string['configguestroleid'] = 'Deze rol is automatisch toegewezen aan de gast gebruiker. Hij wordt ook toegewezen aan niet aangemelde gebruikers wanneer die een cursus binnengaan die gasten zonder wachtwoord toelaat. Controleer of de rol moodle/legacy:guest en moodle/course:view mogelijkheden heeft.';
@@ -181,7 +183,10 @@ $string['configpathtodu'] = 'Pad naar du. Waarschijnlijk iets als /usr/bin/du. A
 $string['configperfdebug'] = 'Als je dit inschakelt wordt er informatie over de performantie getoond onderaan de pagina. Je moet hiervoor het standaard thema gebruiken.';
 $string['configprotectusernames'] = 'De standaardinstelling voor forget_password.php is dat er geen hints getoond worden die het zouden mogelijk maken een gebruikersnaam of e-mailadres te raden.';
 $string['configproxyhost'] = 'Als deze <b>server</b> een proxyserver (zoals bijvoorbeeld een firewall) nodig heeft om op het internet te komen, vul hier dan de hostname en de poort van de proxy in. Laat het veld leeg als dit niet het geval is.';
+$string['configproxypassword'] = 'Wachtwoord nodig om door een proxy op het internet te komen, leeg indien geen wachtwoord (PHP cURL extentie nodig).';
 $string['configproxyport'] = 'Als deze server een proxyserver gebruikt, zet dan hier de gebruikte poort.';
+$string['configproxytype'] = 'Type web proxy (PHP5 en cURL extentie nodig voor SOCKS5 ondersteuning).';
+$string['configproxyuser'] = 'Gebruikersnaam nodig om door een proxy op het internet te komen, leeg indien geen wachtwoord (PHP cURL extentie nodig).';
 $string['configquarantinedir'] = 'Als je wil dat clam AV besmette bestanden naar een quarantainemap verplaatst, zet het pad dan hier. Het moet beschrijfbaar zijn voor de webserver. Als je dit leeg laat of als je een map opgeeft die niet bestaat of niet beschrijfbaar is, dan zullen besmette bestanden verwijderd worden. Gebruik geen schuine streep achteraan het pad.';
 $string['configrcache'] = 'Gebruik de cache om database records in te bewaren. Denk er aan het cache type ook in te stellen!';
 $string['configrcachettl'] = 'Time-to-live voor records in cache, in seconden. Gebruik een korte waarde (<15).';
@@ -354,7 +359,10 @@ $string['frontpagesettings'] = 'Instellingen startpagina';
 $string['fullnamedisplay'] = 'Volledige naam opmaak';
 $string['gdversion'] = 'GD-versie';
 $string['generalsettings'] = 'Algemene instellingen';
+$string['geoipfile'] = 'GeoIP City databestand';
 $string['globalsquoteswarning'] = '<p><strong>Beveiligingswaarschuwing</strong>: om Moodle goed te laten werken, is het nodig<br />dat je enkele wijzigingen aanbrengt aan je huidige instellingen voor PHP.<p/><p>Je <em>moet</em>  <code>register_globals=off</code> en/of <code>magic_quotes_gpc=on</code> instellen. <br />Indien mogelijk, zet je best <code>register_globals=off</code> om de algemene beveiliging van<br />de server te verhogen, het instellen van <code>magic_quotes_gpc=on</code> wordt ook aangeraden.<p/><p>Deze instellingen worden gemaakt door <code>php.ini</code> te bewerken, de configuratie van Apache/IIS <br />of een <code>.htaccess</code> bestand.</p>';
+$string['googlemapkey'] = '<p><strong>Beveiligingswaarschuwing</strong>: om Moodle goed te laten werken, is het nodig<br />dat je enkele wijzigingen aanbrengt aan je huidige instellingen voor PHP.<p/><p>Je <em>moet</em> <code>register_globals=off</code> en/of <code>magic_quotes_gpc=on</code> instellen. <br />Indien mogelijk, zet je best <code>register_globals=off</code> om de algemene beveiliging van<br />de server te verhogen, het instellen van <code>magic_quotes_gpc=on</code> wordt ook aangeraden.<p/><p>Deze instellingen worden gemaakt door <code>php.ini</code> te bewerken, de configuratie van Apache/IIS <br />of een <code>.htaccess</code> bestand.</p>
+Google Maps API sleutel';
 $string['gotofirst'] = 'Ga naar de eerste ontbrekende string';
 $string['gradebook'] = 'Cijferlijst';
 $string['gradebookroles'] = 'Rollen in cijferlijst';
@@ -390,6 +398,11 @@ $string['intcachemax'] = 'Int. cache max';
 $string['invalidsection'] = 'Ongeldige sectie';
 $string['invaliduserchangeme'] = 'De gebruikersnaam \"changeme\" kan niet als gebruikersnaam gebruikt worden. Kies een andere.';
 $string['iplookup'] = 'IP-adres opzoeken';
+$string['iplookupinfo'] = 'Standaard gebruikt Moodle de gratis  NetGeo (The Internet Geographic Database) server om de plaats van IP-adressen op te zoeken. Jammer genoeg wordt deze databank niet meer onderhouden en kan  <em>foute</em> data weergeven.
+Het is dan ook aangeraden om een lokale kopie van de gratis GeoLite City database van MaxMind te installeren.<br />
+IP-adreslocatie wordt dan getoond op een eenvoudige kaart of op een kaart van Google Maps. Merk op dat je hiervoor een Google account nodig hebt en een gratis Google Maps API sleutel moet aanvragen om de interactieve kaarten in te schakelen.';
+$string['iplookupmaxmindnote'] = 'Dit product bevat GeoLite data gemaakt door  <a href=\"http://www.maxmind.com/\">http://www.maxmind.com/</a>.';
+$string['iplookupnetgeonote'] = 'Nu wordt de NetGeo server gebruikt om geografische informatie op te zoeken. Als je meer accurate informatie nodig hebt, raden we aan om een lokale kopie van de MaxMind GeoLite database te installeren.';
 $string['keeptagnamecase'] = 'Hoofdletters tag-namen behouden';
 $string['lang'] = 'Standaardtaal';
 $string['lang16notify'] = 'Vanaf Moodle 1.6 kun je rechtstreeks van download.moodle.org taalpakketten installeren en updaten door op onderstaande link te klikken';
@@ -403,10 +416,12 @@ $string['langmasterenglish'] = 'Hoofd taalpakket Engels';
 $string['langmasterpackage'] = 'Hoofd taalpakket';
 $string['langmenu'] = 'Toon taalmenu';
 $string['langnoeditenglish'] = 'Het standaard Engels taalpakket kan niet overschreven worden. Wijzig de taalmap om locale wijzigingen te maken';
+$string['langpackinstalled'] = 'Taalpakket $a is geïnstalleerd';
 $string['langpackmaintaining'] = 'Onderhoud taalpakket';
 $string['langpackremoved'] = 'Taalpakket verwijderd';
 $string['langpacks'] = 'Taalpakketten';
 $string['langpackupdated'] = 'Taalpakket $a geupdate';
+$string['langpackupdateskipped'] = 'De update van taalpakket $a is overgeslagen.';
 $string['langpackwillbeupdated'] = 'Opmerking voor vertalers: tijdens de upgrade zal Moodle je taalpakket proberen te updaten. Je wijzigingen in alle andere dan de local mappen zullen overschreven worden.';
 $string['langrmyourself'] = 'Om gegevensverlies te voorkomen kan lang.php het bestaande bestand niet overschrijven. Verwijder het bestand manueel.';
 $string['languagesettings'] = 'Taalinstellingen';
@@ -557,7 +572,10 @@ $string['profilevisiblenone'] = 'Niet zichtbaar';
 $string['profilevisibleprivate'] = 'Zichtbaar voor gebruiker';
 $string['protectusernames'] = 'Bescherm gebruikersnamen';
 $string['proxyhost'] = 'Proxyserver';
-$string['proxyport'] = 'Proxyport';
+$string['proxypassword'] = 'Proxy wachtwoord';
+$string['proxyport'] = 'Proxy poort';
+$string['proxytype'] = 'Proxy type';
+$string['proxyuser'] = 'Proxy gebruikersnaam';
 $string['qtyperqpwillberemoved'] = 'Tijdens de upgrade zal het RQP vraagtype verwijderd worden. Je gebruikte deze vraag niet, dus je zult hier geen problemen mee krijgen.';
 $string['qtyperqpwillberemovedanyway'] = 'Tijdens de upgrade zal het RQP vraagtype verwijderd worden. Er zijn vragen van dit type in je database. Die zullen stoppen met werken, tenzij je de code herinstalleert van  http://moodle.org/mod/data/view.php?d=13&amp;rid=797 voor je verder gaat met de upgrade.';
 $string['quarantinedir'] = 'Quarantainemap';
@@ -706,6 +724,8 @@ $string['uuupdatemissing'] = 'Ontbrekende waarden invullen vanuit bestand en sta
 $string['uuupdatetype'] = 'Details van bestaande gebruikers';
 $string['validateerror'] = 'Deze waarde is niet geldig';
 $string['warningcurrentsetting'] = 'Foute waarde: $a';
+$string['webproxy'] = 'Web proxy';
+$string['webproxyinfo'] = 'Vul onderstaande opties in als je Moodle server niet rechtstreeks op internet kan. Internettoegang is nodig voor de download van geografische informatie, taalpakketten, RSS-feeds, tijdzones enz.<br /><em>Je kunt best de PHP cURL extentie installeren.</em>';
 $string['xmlstrictheaders'] = 'XML strict headers';
 $string['addcounter'] = 'Teller toevoegen'; // ORPHANED
 $string['newusernamehandling'] = 'Afhandeling van dubbele nieuwe gebruikersnamen'; // ORPHANED

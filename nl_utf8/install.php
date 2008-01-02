@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.9 Beta + (2007082200)
+      // install.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['admindirerror'] = 'De admin-map die je opgeeft is niet juist';
@@ -93,6 +93,7 @@ $string['databasesettingssub_postgres7'] = '<b>Type:</b> PostgreSQL<br />
 <b>Gebruiker:</b> de gebruikersnaam voor jouw database<br />
 <b>Wachtwoord:</b> het wachtwoord voor je databank<br />
 <b>Tabelvoorvoegsel:</b>voorvoegsel voor alle tabelnamen (verplicht)';
+$string['databasesettingswillbecreated'] = '<b>Opmerking:</b> het installatieprogramma zal proberen een databank te maken als die nog niet bestaat.';
 $string['dataroot'] = 'Gegevens';
 $string['datarooterror'] = 'De \'data-map\' die je opgaf kon niet gevonden of gemaakt worden. Verbeter ofwel het pad of maak die map manueel.';
 $string['dbconnectionerror'] = 'We konden geen verbinding maken met de databank die je opgegeven hebt. Controleer je databankinstellingen';
