@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 + (2007021502)
+      // data.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['action'] = 'Acción';
@@ -210,6 +210,7 @@ $string['saveaspreset'] = 'Guardar como ajuste previo';
 $string['savesettings'] = 'Guardar ajustes';
 $string['savesuccess'] = 'Guardado con éxito. Su ajuste previo estará ahora disponible en todo el sitio.';
 $string['savetemplate'] = 'Guardar plantilla';
+$string['search'] = 'Buscar';
 $string['sendinratings'] = 'Enviar mis últimas calificaciones';
 $string['showall'] = 'Mostrar todas las entradas';
 $string['single'] = 'Ver uno por uno';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.8 + (2007021502)
+      // enrol_database.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['autocreate'] = 'Los cursos pueden crearse automáticamente si hay matriculaciones en un curso que aún no existe en Moodle.';
@@ -17,6 +17,7 @@ $string['dbtype'] = 'Tipo de la base de datos';
 $string['dbuser'] = 'Usuario del servidor';
 $string['defaultcourseroleid'] = 'Rol que será asignado por defecto si no se especifica otro.';
 $string['description'] = 'Puede usar una base de datos externa (prácticamente de cualquier tipo) para controlar sus matriculaciones. Se asume que la base de datos externa dispone de un campo que contiene un identificador del curso, y otro que contiene un identificador de usuario. Estos valores son contrastados con los campos que usted elige en el curso local y en las tablas de usuario.';
+$string['disableunenrol'] = 'Si selecciona \'Sí\' los usuarios matriculados previamente por el conector de la base de datos externa no serán desmatriculados por el mismo conector independientemente del contenido de la base de datos.';
 $string['enrol_database_autocreation_settings'] = 'Creación automática de nuevos cursos';
 $string['enrolname'] = 'Base de datos externa';
 $string['general_options'] = 'Opciones genereales';

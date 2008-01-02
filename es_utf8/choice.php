@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8 + (2007021502)
+      // choice.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addmorechoices'] = 'Añadir más opciones';
@@ -17,6 +17,7 @@ $string['choicetext'] = 'Pregunta a responder';
 $string['displayhorizontal'] = 'Mostrar horizontalmente';
 $string['displaymode'] = 'Modo Mostrar';
 $string['displayvertical'] = 'Mostrar verticalmente';
+$string['expired'] = 'Lo sentimos, esta actividad se cerró el $a y ya no está disponible';
 $string['fillinatleastoneoption'] = 'Necesita proporcionar al menos dos respuestas.';
 $string['full'] = '(Lleno)';
 $string['havetologin'] = 'Debe entrar antes de remitir su elección';

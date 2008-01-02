@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8 + (2007021502)
+      // error.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['adminprimarynoedit'] = 'El administrador primario no puede ser editado por otros';
@@ -22,6 +22,10 @@ $string['componentisuptodate'] = 'El componente está actualizado.';
 $string['confirmsesskeybad'] = 'Lo sentimos, pero su clave de sesión no ha podido ser confirmada para llevar a cabo esta acción. Esta característica de seguridad previene contra la ejecución en su nombre (accidental o maliciosa) de funciones importantes. Por favor, asegúrese de que realmente deseaba ejecutar esta función.';
 $string['couldnotassignrole'] = 'Al intentar asignarle un rol, ha ocurrido un error grave no especificado';
 $string['coursegroupunknown'] = 'No se ha especificado el curso correspondiente al grupo $a';
+$string['csvcolumnduplicates'] = 'Detectadas columnas duplicadas.';
+$string['csvemptyfile'] = 'El archivo CVS está vacío.';
+$string['csvfewcolumns'] = 'No hay suficientes columnas; por favor, verifique el ajuste del delimitador.';
+$string['csvweirdcolumns'] = 'Formato de archivo CVS no válido: el número de columnas no es constante.';
 $string['downloadedfilecheckfailed'] = 'Ha fallado la comprobación del archivo descargado.';
 $string['duplicateusername'] = 'Nombre de usuario duplicado: registro pasado por alto';
 $string['errorcleaningdirectory'] = 'Error al limpiar el directorio  \"$a\"';
@@ -88,15 +92,26 @@ $string['statscatchupmode'] = 'La estadística está en este momento en modo \'c
 $string['unicodeupgradeerror'] = 'Lo sentimos, su base de datos aún no está en Unicode, y esta versión de Moodle no puede migrar su base de datos a Unicode. Por favor, actualícese a Moodle 1.7.x y lleve a cabo la migración Unicode desde la página de Administración. Una vez lo haya hecho, podrá migrar a Moodle $a';
 $string['unknowncourse'] = 'No existe un curso llamado \"$a\"';
 $string['unknowncourseidnumber'] = 'ID del Curso \"$a\" desconocido';
+$string['unknowngroup'] = 'Grupo desconocido \"$a\"';
+$string['unknownrole'] = 'Rol desconocido \"$a\"';
 $string['unknownuseraction'] = 'Lo sentimos, no podemos entender esta acción del usuario.';
+$string['userautherror'] = 'Conector de autenticación desconocido.';
+$string['userauthunsupported'] = 'Conector de autenticación no admitido aquí.';
+$string['useremailduplicate'] = 'Dirección duplicada';
+$string['usernotaddedadmin'] = 'No se pueden eliminar las cuentas del administrador.';
 $string['usernotaddederror'] = 'No se agregó el usuario \"$a\" - error desconocido';
 $string['usernotaddedregistered'] = 'No se agregó el usuario \"$a\" - ya está registrado';
 $string['usernotavailable'] = 'Usted no puede acceder a los detalles de este usuario.';
 $string['usernotdeletederror'] = 'Usuario no eliminado: error desconocido';
 $string['usernotdeletedmissing'] = 'Usuario no eliminado: no se encontró el nombre de usuario.';
-$string['usernotrenamedexists'] = 'Usuario no renombrado - el nuevo nombre de usuario ya está en uso.';
-$string['usernotrenamedmissing'] = 'Usuario no renombrado - no se ha podido encontrar el nombre de usuario anterior.';
-$string['usernotupdatederror'] = 'Usuario no actualizado - error desconocido';
+$string['usernotdeletedoff'] = 'Usuario no eliminado: eliminación no permitida.';
+$string['usernotrenamedadmin'] = 'No se pueden renombrar las cuentas del administrador.';
+$string['usernotrenamedexists'] = 'Usuario no renombrado: el nuevo nombre de usuario ya está en uso.';
+$string['usernotrenamedmissing'] = 'Usuario no renombrado: no se ha podido encontrar el nombre de usuario anterior.';
+$string['usernotrenamedoff'] = 'Usuario no renombrado: operación no permitida.';
+$string['usernotupdatedadmin'] = 'No se pueden actualizar las cuentas del administrador.';
+$string['usernotupdatederror'] = 'Usuario no actualizado: error desconocido';
+$string['usernotupdatednotexists'] = 'Usuario no actualizado: no existe.';
 $string['wrongdestpath'] = 'Ruta de destino errónea.';
 $string['wrongsourcebase'] = 'Base de fuente de URL errónea.';
 $string['wrongzipfilename'] = 'Nombre de archivo ZIP erróneo.';
