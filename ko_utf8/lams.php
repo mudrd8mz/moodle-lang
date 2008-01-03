@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.7 dev (2006092800)
+      // lams.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['createSequence'] = '새 연결학습 생성';
@@ -15,11 +15,14 @@ $string['modulename'] = '람스';
 $string['modulenameplural'] = '람스';
 $string['notsetup'] = '설정 안됨';
 $string['openauthor'] = '람스 저작도구 열기';
-$string['openlearner'] = '람스 배움터열기';
+$string['openlearner'] = '람스 강좌열기';
 $string['openmonitor'] = '람스 주시';
 $string['refreshSequenceList'] = '연결학습 목록 새로 고침';
 $string['selectExistingSequence'] = '기존의 연결학습을 선택하거나 새 연결학습을 생성';
 $string['sequence'] = '연결학습 선택';
+$string['server_id'] = '서버 ID';
+$string['server_key'] = '서버 Key';
+$string['server_url'] = '서버 URL';
 $string['serverid'] = '<a href=http://www.lamsinternational.com target=_blank>람스 인터내셔날</a>에서 받은 서버아이디를 입력하세요.(필요없음)';
 $string['serverkey'] = '<a href=http://www.lamsinternational.com target=_blank>람스 인터내셔날</a>에서 받은 서버키를 입력하세요.(필요없음)';
 $string['serverurl'] = '람스 서버에 접속하기 위한 기본 URL 주소를 입력하세요. 예:http://localhost:8080/lams';

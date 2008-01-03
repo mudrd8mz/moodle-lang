@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 dev (2007071703)
+      // scorm.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['activation'] = '활성화';
@@ -26,6 +26,7 @@ $string['contents'] = '목차';
 $string['coursepacket'] = '코스 집합';
 $string['coursestruct'] = '코스 구조';
 $string['datadir'] = '파일시스탬 문제:코스정보의 파일목록을 창조할수 없는';
+$string['deleteallattempts'] = '모든 SCORM 시도 삭제';
 $string['details'] = 'SCO 트랙 세부사항';
 $string['directories'] = '연결 경로 보임';
 $string['display'] = '진열';
@@ -125,8 +126,8 @@ $string['scorm:viewreport'] = '보고서 보기';
 $string['scorm:viewscores'] = '점수 보기';
 $string['scormcourse'] = 'SCORM 과정';
 $string['scrollbars'] = '스크롤 허용';
-$string['sided'] = '왼쪽에';
-$string['skipview'] = '학생들은 내용 구조 쪽을 생략함';
+$string['sided'] = '왼페이지에';
+$string['skipview'] = '학생들은 내용 구조 페이지을 생략함';
 $string['stagesize'] = '프레임/윈도우 크기';
 $string['started'] = '시작일';
 $string['status'] = '상태';

@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8 Beta (2007020400)
+      // hotpot.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['abandoned'] = '실패';
 $string['addquizchain'] = '퀴즈 체인 더하기';
-$string['allmycourses'] = '내 배움터들';
+$string['allmycourses'] = '내 강좌';
 $string['allusers'] = '모든 사용자';
 $string['alwaysopen'] = '언제나 열림';
 $string['attemptsall'] = '모든 시도';
@@ -37,9 +37,10 @@ $string['error_nofeedbackurlwebpage'] = '웹페이지에 URL 주소를 입력해
 $string['error_nofilename'] = '파일 이름을 입력해 주세요';
 $string['error_noquizzesfound'] = '핫포테이토 퀴즈를 찾을 수 없습니다.';
 $string['error_notfileorfolder'] = '\"$a\"은 파일이나 폴더가 아닙니다.';
+$string['excelencodings'] = '엑셀 엔코딩';
 $string['feedbackformmail'] = '피드백 서식';
 $string['feedbackmoodleforum'] = '무들 포럼';
-$string['feedbackmoodlemessaging'] = '무들 쪽글';
+$string['feedbackmoodlemessaging'] = '무들 페이지글';
 $string['feedbacknone'] = '없음';
 $string['feedbackwebpage'] = '웹 페이지';
 $string['filetype'] = '파일 형태';
@@ -99,7 +100,7 @@ $string['reportclicktype'] = '유형 선택';
 $string['reportclues'] = '단서';
 $string['reportcontent'] = '내용';
 $string['reportcorrectsymbol'] = 'O';
-$string['reportcoursename'] = '배움터 이름';
+$string['reportcoursename'] = '강좌 이름';
 $string['reportencoding'] = '부호화';
 $string['reportevents'] = '사건';
 $string['reportexercisename'] = '연습 명칭';
@@ -138,6 +139,7 @@ $string['resultssaved'] = '퀴즈 결과가 저장됨';
 $string['score'] = '점수';
 $string['showhtmlsource'] = 'HTML 소스 보기';
 $string['shownextquiz'] = '다음 퀴즈 보기';
+$string['showtimes'] = '처리시간 보이기';
 $string['showxmlsource'] = 'XML 소스 보기';
 $string['showxmltree'] = 'XML 구조 보기';
 $string['specifictime'] = '특정 시간';
@@ -146,7 +148,7 @@ $string['textsourcefilename'] = '파일 이름 이용';
 $string['textsourcefilepath'] = '파일 경로 이용';
 $string['textsourcequiz'] = '퀴즈로부터 얻기';
 $string['textsourcespecific'] = '특정 문서';
-$string['thiscourse'] = '이 배움터';
+$string['thiscourse'] = '이 강좌';
 $string['timedout'] = '시간 종료';
 $string['updatequizchain'] = '퀴즈 묶음 갱신';
 $string['weighting'] = '가중치';

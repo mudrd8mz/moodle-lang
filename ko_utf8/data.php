@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 dev (2007040200)
+      // data.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['action'] = '행동';
@@ -34,7 +34,7 @@ $string['commentempty'] = '덧글 없음';
 $string['comments'] = '덧글';
 $string['commentsaved'] = '덧글 저장됨';
 $string['commentsn'] = '$a 덧글';
-$string['configenablerssfeeds'] = '이 스위치는 모든 데이터베이스의 RSS 알리미를 사용가능하게 합니다. 각각의 데이터베이스에 대하여 수동으로 송출기능을 켤 수도 있습니다.';
+$string['configenablerssfeeds'] = '이 스위치는 모든 데이터베이스의 RSS Feed를 사용가능하게 합니다. 각각의 데이터베이스에 대하여 수동으로 송출기능을 켤 수도 있습니다.';
 $string['confirmdeletefield'] = '파일을 삭제하려고 합니다. 확실합니까?';
 $string['confirmdeleterecord'] = '이 게시물을 삭제하려고 하는 것이 확실합니까?';
 $string['csstemplate'] = 'CSS 템플릿';
@@ -58,9 +58,11 @@ $string['defaultfielddelimiter'] = ',';
 $string['defaultfieldenclosure'] = 'none';
 $string['defaultsortfield'] = '기본 정렬 항목';
 $string['delete'] = '삭제';
+$string['deleteallentries'] = '모든 항목 삭제';
 $string['deletecomment'] = '이 덧글을 삭제할까요?';
 $string['deleted'] = '삭제됨';
 $string['deletefield'] = '기존의 항목 삭제';
+$string['deletenotenrolled'] = '등록하지 않은 사용자에 의한 입력항목 삭제';
 $string['deletewarning'] = '기존의 설정값을 정말 삭제합니까?';
 $string['descending'] = '내림차순';
 $string['directorynotapreset'] = '$a->directory 는 설정되지 않음. 빠진 파일들: $a->missing 개';
@@ -111,7 +113,7 @@ $string['headerasearchtemplate'] = '상세 검색을 위한 화면 정의';
 $string['headercsstemplate'] = '다른 템플릿을 위한 로컬 CSS스타일 정의';
 $string['headerjstemplate'] = '다른 템플릿을 위한 자바스크립트 정의';
 $string['headerlisttemplate'] = '다중 게시물을 위한 보기 인터페이스 정의';
-$string['headerrsstemplate'] = 'RSS 알리미 게시물의 모양 정의';
+$string['headerrsstemplate'] = 'RSS Feed 게시물의 모양 정의';
 $string['headersingletemplate'] = '단일 게시물에 대한 검색 인터페이스 정의';
 $string['importsuccess'] = '초기설정이 성공적으로 적용됨';
 $string['insufficiententries'] = '이 데이터베이스를 보기 위해서는 입력항목이 더 필요함';
@@ -210,6 +212,7 @@ $string['saveaspreset'] = '초기설정으로 저장';
 $string['savesettings'] = '설정 저장';
 $string['savesuccess'] = '저장 완료. 여러분의 초기 설정이 사이트 전반에 적용될 것입니다.';
 $string['savetemplate'] = '템플릿 저장';
+$string['search'] = '검색';
 $string['sendinratings'] = '나의 최종 등급 보내기';
 $string['showall'] = '전체항목 보기';
 $string['single'] = '한개 보기';

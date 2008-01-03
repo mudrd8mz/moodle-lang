@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 Beta + (2007081600)
+      // mnet.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (자동 서명)';
@@ -19,10 +19,11 @@ $string['authfail_usermismatch'] = '인증 실패: 사용자 불일치';
 $string['authmnetautoadddisabled'] = '무들네트웍 인증 플러그인에서 <em>자동 추가 사용자</em>는 비활성화 됩니다.';
 $string['authmnetdisabled'] = '무들네트웍 인증플러그인 비활성됨.';
 $string['badcert'] = '유효한 자격이 아님.';
+$string['certdetails'] = '자격 세부사항';
 $string['couldnotgetcert'] = '$a에서 인증서를 찾을 수 없음.<br />호스트가 죽었거나 설정이 잘못 되어 있음.';
 $string['couldnotmatchcert'] = '웹서버에 의해 출판된 현재의 인증서와 일치하지 않음.';
-$string['courses'] = '배움터들';
-$string['courseson'] = '배움터 탑재';
+$string['courses'] = '강좌들';
+$string['courseson'] = '강좌 탑재';
 $string['current_transport'] = '현재의 운송계층';
 $string['currentkey'] = '현재의 공개키';
 $string['databaseerror'] = '데이터테이스에 자세한 사항을 기재할 수 없음.';
@@ -35,14 +36,20 @@ $string['deletewrongkeyvalue'] = '오류 발생. 만일 당신이 서버의 SSL�
 $string['deny'] = '거부';
 $string['description'] = '설명';
 $string['duplicate_usernames'] = '사용자 테이블의 \"mnet 호스트 아이디\" 및 \"사용자 아이디\"난에 대한 색인을 생성할 수 없습니다.<br />이는 사용자 테이블에 <a href=\"$a\" target=\"_blank\">사용자명이 중복</a>되었기 때문일 수 있습니다. 다행이 갱신은 성공했을 지도 모릅니다만, 업그레이드를 마칠 때까지 잘 지켜봐 주시기 바랍니다. 앞의 링크를 클릭하면 이 문제를 해결할 수 있는 안내문이 뜰 것입니다.<br />';
-$string['editenrolments'] = '출석';
+$string['editenrolments'] = '등록';
 $string['enabled_for_all'] = '(이 서비스는 모든 호스트에 활성화되어 있습니다)';
-$string['enrolcourseenrol_desc'] = '무들네트웍 출석 기능을 이용한 이 배움터의 츨석/결석한 사용자. 원격 호스트에서 허용한 또 다른 출석 방법의 일환으로 이 배움터에 출석을 했던 사용자들이 있다면 그들을 주목하라. 
-그러한 출석사항은 <em>기타 출석자</em>항목에 나타나 있다.';
-$string['enrolcourses_desc'] = '이 호스트에 의해 원격 출석이 제공되는 배움터';
-$string['enrollingincourse'] = '호스트 $a[1]의 $a[0] 배움터 출석<br />';
-$string['enrolments'] = '출결사항';
+$string['enrolcourseenrol_desc'] = '무들네트웍 등록 기능을 이용한 이 강좌의 등록/등록취소한 사용자. 원격 호스트에서 허용한 또 다른 등록 방법의 일환으로 이 강좌에 등록을 했던 사용자들이 있다면 그들을 주목하라. 
+그러한 등록사항은 <em>기타 등록</em>항목에 나타나 있다.';
+$string['enrolcourses_desc'] = '이 호스트에 의해 원격 등록이 제공되는 강좌';
+$string['enrollingincourse'] = '호스트 $a[1]의 $a[0] 강좌 등록<br />';
+$string['enrolments'] = '등록';
 $string['enterausername'] = '사용자 아이디를 쉼표로 구분하여 입력하기 바랍니다.';
+$string['error7020'] = '이 오류는  http://www.yoursite.com 대신 http://yoursite.com 와 같이 원격 사이트가 틀린 wwwroot 기록을 만들었을때 발생한다. 당신의 호스트에 대한 기록을 갱신하도록 (config.php에 명시된) wwwroot의 원격사이트 관리자에게 요청하세요.';
+$string['error7022'] = '원격 사이트에 보낸 메세지는 적절하게 암호화되어 있지만 사인되지 않았습니다. 이것은 매우 예상되지 못한 일입니다. 이것이 발생하면 버그를 기록하여야만 할 것입니다.(무들 버전등 가능한 많은 정보제공)';
+$string['error7023'] = '원격사이트는 당신의 사이트에 대해 레코드에 가지고 있는 모든 키를 사용하여 당신의 메세지를 복호화 하려고 시도하였으나 실패하였습니다. 원격사이트에 대하여 키를 재발급함에 의해 이 문제를 고칠 수 있습니다. 몇달 동안 원격 사이트와 통신을 하지 않은 경우가 아니라면 발생하기 어렵습니다.';
+$string['error7024'] = '원격 사이트에 암호화되지 않은 메세지를 보냈지만 원격사이트는 이를 수신하지 않았습니다. 이것은 매우 예상되지 못한 일입니다. 이것이 발생하면 버그를 기록하여야만 할 것입니다.(무들 버전등 가능한 많은 정보제공)';
+$string['error7026'] = '당신의 메세지에 사인된 키는 당신에 서버에 대해 원격서버가 파일에 가지고 있는 키와 다릅니다. 더우기 원격 호스트는 현재 당신키를 가져가려고 하였으나 실패하였습니다. 원격 호스트와 수동적으로 키를 맞추고 다시 시도하십시요.';
+$string['error709'] = '원격 사이트가 당신으로 부터 SSL키를 얻는데 실패하였습니다.';
 $string['expired'] = '파기일시';
 $string['expires'] = '유효기간';
 $string['expireyourkey'] = '키 삭제';
@@ -56,7 +63,7 @@ $string['helpnetworksettings'] = '역내 무들네트웍 구성';
 $string['hidelocal'] = '지역 사용자 감추기';
 $string['hideremote'] = '원격 사용자 감추기';
 $string['host'] = '호스트';
-$string['hostcoursenotfound'] = '호스트나 배움터를 찾을 수 없음';
+$string['hostcoursenotfound'] = '호스트나 강좌를 찾을 수 없음';
 $string['hostdeleted'] = '호스트 삭제 성공';
 $string['hostexists'] = '지정한 호스트는 이미 기록이 존재하기 때문에 무들은 임시로 ID $a 로 배치했습니다. 기록을 변경하고 싶으면 <em>계속</em>을 클릭하시오.';
 $string['hostname'] = '호스트명';
@@ -96,6 +103,7 @@ $string['mnetlog'] = '기록들';
 $string['mnetpeers'] = '무들네트웍 환경';
 $string['mnetservices'] = '서비스';
 $string['mnetsettings'] = '무들네트웍 설정';
+$string['mnetthemes'] = '테마';
 $string['moodle_home_help'] = '원격 호스트의 무들 홈페이지 경로, 예: /moodle/';
 $string['moodleloc'] = '무들 경로(위치)';
 $string['net'] = '네트웍';
@@ -109,7 +117,7 @@ $string['nolocaluser'] = '이곳에는 원격 사용자의 기록이 없습니�
 $string['nomodifyacl'] = 'MNET 접속 목록을 바꿀 수 있는 자격이 없습니다.';
 $string['nonmatchingcert'] = '인증서의 내용 <br /><em>$a[0]</em>가<br /><em>$a[1]</em>에<br />있는 호스트의 기록과 일치하지 않습니다.';
 $string['nopubkey'] = '공개키를 검색하는데 문제가 있습니다.<br />호스트가 무들 네트웍을 허용하지 않거나 키가 부정확합니다.';
-$string['nosite'] = '사이트 수준의 배움터가 없습니다.';
+$string['nosite'] = '사이트 수준의 강좌가 없습니다.';
 $string['nosuchfile'] = '파일/기능 $a 가 존재하지 않습니다.';
 $string['nosuchfunction'] = '기능을 작동시키지 못하거나 RPC때문에 금지되었습니다.';
 $string['nosuchmodule'] = '주소가 잘못 지정되었거나 제 위치에 설치되지 않았습니다.  mod/modulename/lib/functionname 형식을 사용하십시오.';
@@ -137,7 +145,7 @@ $string['recordnoexists'] = '기록이 존재하지 않습니다.';
 $string['reenableserver'] = '아니오 - 서버를 재 활성화하려면 이 옵션을 선택';
 $string['registerallhosts'] = '모든 호스트 등록(<em>중계기 모드</em>)';
 $string['registerallhostsexplain'] = '호스트에 접속해 오는 모든 호스트를 자동으로 등록하도록 선택할 수 있습니다. 이는 당신의 호스트에 접속해서 공개키를 요구하는 어떤 무들 사이트던지 당신의 호스트 목록에 나타난다는 것을 의미합니다.<br />아래의 \"모든 호스트\" 설정을 할 수 있는 선택사항과 약간의 서비스를 활성화함으로서 가능하며, 무들 서버라면 어느 것도 가리지 않고 서비스를 제공할 수 있습니다.';
-$string['remotecourses'] = '원격 배움터';
+$string['remotecourses'] = '원격 강좌';
 $string['remoteenrolhosts_desc'] = '무들네트웍 플러그인을 경유한 출석을 허용해 놓은 호스트에서의 사용자 출결 사항';
 $string['remotehost'] = '원격 중계기';
 $string['remotehosts'] = '원격 호스트';
@@ -163,8 +171,9 @@ $string['subscribe'] = '등록';
 $string['system'] = '시스템';
 $string['testtrustedhosts'] = '주소 검사';
 $string['testtrustedhostsexplain'] = '인증된 호스트인지를 알아보려면 IP 주소를 입력하세요.';
+$string['themesavederror'] = '오류가 발생하였습니다. 테마변경이 저장되지 않았습니다.';
 $string['transport_help'] = '이 선택항목들은 상호 호혜적인 것으로 만일 여러분의 서버가 서명된 SSL 인증서만 가지고 있다면, 원격서버에 서명된 SSL 인증서만 요구할 수 있다.';
-$string['trustedhosts'] = 'XML-RPC 인증';
+$string['trustedhosts'] = 'XML-RPC 호스트들';
 $string['trustedhostsexplain'] = '<p>호스트 인증 매카니즘은 무들 API의 일부분으로 소위 XML-RPC를 호출하여 특정 기계에서 이를 실행시킬 수 있도록 한다. 이는 스크립트가 무들의 행동을 관장하게 하는데, 활성화 시키기에는 매우 위험한 선택 사항이 될 것이다. 만일 확신이 서지 않는다면, 이를 꺼 두도록 하라.</p>
  <p>이것은 무들네트웍에서는 필요하지 <strong>않다</strong>.</p>
  <p>이것을 활성화시키기 위해서는, 한 줄에 하나씩 IP 주소 혹은 네트웍 목록을 입력하라. 다음은 작성 예이다.</p>로칼 호스트:<br />127.0.0.1<br />로칼 호스트(네트웍 블록):<br />127.0.0.1/32<br />IP 주소가 192.168.0.7인 호스트만:<br />192.168.0.7/32<br />IP 주소가 192.168.0.1 에서 192.168.0.255 사이의 모든 호스트:<br />192.168.0.0/24<br />모든 호스트:<br />192.168.0.0/0<br />물론 마지막 예는 추천할 수 <strong>없는</strong> 사례이기는 하다.';
@@ -175,7 +184,7 @@ $string['usersareonline'] = '경고: 현재 그 서버로 부터 $a 사용자가
 $string['validated_by'] = '<code>$a</code> 네트웍에 의해 승인되었습니다.';
 $string['verifysignature-error'] = '서명 확인 실패. 오류가 발생하였습니다.';
 $string['verifysignature-invalid'] = '서명 확인 실패. 이 페이로드는 당신이 서명한 것이 아닌 것 같습니다.';
-$string['version'] = '판번호';
+$string['version'] = '버전';
 $string['warning'] = '경고';
 $string['wrong-ip'] = 'IP 주소가 보유하고 있는 기록과 일치하지 않습니다.';
 $string['xmlrpc-missing'] = 'PHP를 통해 이 기능을 사용할 수 있게 하기위해서는 XML-RPC를 설치해야만 한다.';

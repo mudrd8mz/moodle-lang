@@ -1,10 +1,13 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 dev (2007041100)
+      // resource.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['addresource'] = '자료 추가';
 $string['affectedresources'] = '변경된 자료';
+$string['allowlocalfiles'] = '로컬 파일 허용';
+$string['autofilerename'] = '파일이름이 고져지면 링크 새로고침';
 $string['back'] = '뒤로';
+$string['blockdeletingfile'] = '참조된 파일 블럭 삭제';
 $string['browserepository'] = '저장소 검색';
 $string['choose'] = '선택';
 $string['chooseafile'] = '업로드 파일 선택';
@@ -14,7 +17,7 @@ $string['configallowlocalfiles'] = '새로운 파일 자료를 만들 때, CD �
 $string['configautofilerenamesettings'] = '파일 관리에서 이름이 변경되면 자동적으로 파일과 경로의 참조가 갱신된다.';
 $string['configblockdeletingfilesettings'] = '자료에 의해 참조된 파일 및 경로들이 삭제 차단됨. HTML에 의해 참조된 그림과 다른 파일들이 보호되지 않았는지를 확인해 보십시오.';
 $string['configdefaulturl'] = 'URL 기반 자료 추가시 기본값';
-$string['configfilterexternalpages'] = '이 설정을 켜 놓으면, 최근의 정의된 사이트 필터(어휘사전 등)에 의해 모든 외부의 자원(웹 페이지,업로드된 HTML파일)들이 처리될 수 있게 합니다. 한편 배움터 화면이 눈에 띄게 느려질 것이기 때문에 꼭 필요한 경우가 아니면 주의해서 사용해야 합니다.';
+$string['configfilterexternalpages'] = '이 설정을 켜 놓으면, 최근의 정의된 사이트 필터(용어집 등)에 의해 모든 외부의 자원(웹 페이지,업로드된 HTML파일)들이 처리될 수 있게 합니다. 한편 강좌 화면이 눈에 띄게 느려질 것이기 때문에 꼭 필요한 경우가 아니면 주의해서 사용해야 합니다.';
 $string['configframesize'] = '웹 페이지나 업로드된 파일이 프레임으로 보여진다면 이 값은 상단에 프레임으로 구성된 부분(진행창을 포함)의 크기(픽셀로 표시)입니다.';
 $string['configparametersettings'] = '이것은 몇몇의 새로운 요소를 더할 때의 형태에서의 매개변수 배치 창에 디폴트 값을 둡니다. 처음 설정 이후에는 사용자의 선택사양이 됩니다.';
 $string['configpopup'] = '팝업창을 이용하여 새 자원을 추가할때 이 옵션이 기본이 되게 할까요?';
@@ -46,6 +49,7 @@ $string['fetchservererror'] = '웹 페이지를 갱신하려고 하니 원격 �
 $string['filename'] = '파일명';
 $string['filtername'] = '자료명 자동 연결';
 $string['frameifpossible'] = '사이트 항해를 지켜보고 싶으면 틀에 자료를 입력하시오.';
+$string['framesize'] = '프레임 크기';
 $string['fulltext'] = '전체 내용';
 $string['htmlfragment'] = 'HTML 조각';
 $string['imspackageloaded'] = '팩키지 불러오기';
@@ -53,7 +57,7 @@ $string['keepnavigationvisible'] = '진행경로 보이기';
 $string['localfile'] = '지역 파일';
 $string['localfilechoose'] = '지역 파일 선택(CD-ROM)';
 $string['localfilehelp'] = '지역 파일 표시 도움말';
-$string['localfileinfo'] = '당신의 컴퓨터에 있는 파일을 선택하십시오. 파일은 웹사이트로 업로드되지 않을 것이지만, 무들은 이 자료를 보고있는 그 누구의 컴퓨터상에서라도 동일한 파일을 찾을 것입니다.</p><p>이것은 당신이 모든 참여자와 공유하는 표준의 CD-ROM에 저장 된 큰 미디어 파일을 가지고 있을 때 매우 유용할 것입니다. 각 참여자는 그들의 <a href=\"$a\" target=\"_blank\">사용자 신상명세 수정</a>을 통하여 자신들만의 경로를 선택할 수 있습니다.';
+$string['localfileinfo'] = '당신의 컴퓨터에 있는 파일을 선택하십시오. 파일은 웹사이트로 업로드되지 않을 것이지만, 무들은 이 자료를 보고있는 그 누구의 컴퓨터상에서라도 동일한 파일을 찾을 것입니다.</p><p>이것은 당신이 모든 참여자와 공유하는 표준의 CD-ROM에 저장 된 큰 미디어 파일을 가지고 있을 때 매우 유용할 것입니다. 각 참여자는 그들의 <a href=\"$a\" target=\"_blank\">사용자 개인정보 수정</a>을 통하여 자신들만의 경로를 선택할 수 있습니다.';
 $string['localfilepath'] = '자원을 위한 경로를 설정해 놓으려면, 자료가 존재하는 당신의 컴퓨터의 드라이브(보통 CD-ROM)의 어떠한 파일이든 선택하십시오. 파일은 업로드되지 않고 드라이브 정보만 저장되며 추후 로컬파일 자원을 위해 사용될 것입니다.';
 $string['localfileselect'] = '이 파일경로를 선택하시오';
 $string['maindirectory'] = '주 파일 디렉토리';
@@ -81,8 +85,8 @@ $string['notdeployed'] = '배포되지 않음';
 $string['note'] = '참고';
 $string['notefile'] = '더욱 많은 파일을 올리기 위해서는(이곳에 표시가 됨) <a href=\"$a\">파일 관리자</a>을 이용하시오.';
 $string['notypechosen'] = '유형을 선택해야 합니다. 뒤로가기 버튼을 클릭하신후 재 시도해 주시기 바랍니다.';
-$string['packagechanged'] = '이 IMS 컨텐츠 팩키지는 변경되었습니다.';
-$string['packagenotdeplyed'] = 'IMS 컨텐츠 팩키지가 배치되지 않았습니다.';
+$string['packagechanged'] = '이 IMS 콘텐츠 팩키지는 변경되었습니다.';
+$string['packagenotdeplyed'] = 'IMS 콘텐츠 팩키지가 배치되지 않았습니다.';
 $string['pagedisplay'] = '현재 창에 자료를 제시';
 $string['pagewindow'] = '같은 윈도우';
 $string['pan'] = '팬';
@@ -95,6 +99,7 @@ $string['previous'] = '이전';
 $string['redeploy'] = '다시 배포';
 $string['repository'] = 'IMS 저장소';
 $string['resource:view'] = '자원 보기';
+$string['resourcedefaulturl'] = '기본 URL';
 $string['resourcetype'] = '자료의 유형';
 $string['resourcetype1'] = '출처';
 $string['resourcetype2'] = '웹 페이지';
@@ -106,22 +111,24 @@ $string['resourcetype7'] = '프로그램';
 $string['resourcetype8'] = '위키 문서';
 $string['resourcetype9'] = '디렉토리';
 $string['resourcetypedirectory'] = '디렉토리 표시';
-$string['resourcetypefile'] = '파일이나 웹 사이트로 링크(연결)';
-$string['resourcetypehtml'] = '웹 페이지 만들기';
-$string['resourcetypeims'] = 'IMS 컨텐츠 팩키지 배치';
-$string['resourcetypelabel'] = '표지 삽입';
+$string['resourcetypefile'] = '파일 및 웹사이트 링크';
+$string['resourcetypehtml'] = '웹 페이지';
+$string['resourcetypeims'] = 'IMS 콘텐츠 패키지';
+$string['resourcetypelabel'] = '표지';
 $string['resourcetyperepository'] = '저장 대상에 연결';
-$string['resourcetypetext'] = '텍스트 페이지 만들기';
+$string['resourcetypetext'] = '텍스트 페이지';
 $string['searchweb'] = '웹 사이트 검색';
 $string['serverurl'] = '서버 URL ($a->wwwroot)';
 $string['showcourseblocks'] = '교육과정 블럭 보이기';
 $string['skipsubmenus'] = '부-메뉴 페이지 건너뛰기';
 $string['tableofcontents'] = '목차';
+$string['tableofcontentsabbrev'] = '목차';
 $string['upbutton'] = '위로';
 $string['variablename'] = '변수명';
 $string['viewims'] = 'IMS CP 팩키지 보기';
 $string['vol'] = '볼륨';
 $string['warningblockingdelete'] = '경고 : 삭제기능이 기존 자료에 의해 차단되었습니다. 우선 자료들을 갱신하거나 아니면 관리자에게 전체 자료에 대한 설정에서 이 보호작동을 꺼주도록 요청하십시오.';
 $string['warningdisabledrename'] = '경고 : 자료의 참조에 대한 자동 새이름 주기가 불가능합니다. 만일 필요하다면 영향을 받는 자료들은 수동으로 갱신하여 주십시오. 관리자 역시 전체 자료 설정에서 자동 새이름 주기 기능을 켜 놓을 수 있습니다.';
+$string['websearchdefault'] = '웹검색 기본';
 
 ?>

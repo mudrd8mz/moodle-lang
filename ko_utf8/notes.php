@@ -1,28 +1,29 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9 Beta + (2007083100)
+      // notes.php - created with Moodle 2.0 dev (2007101506)
 
 
-$string['addnewnote'] = '새 알림글 추가';
-$string['addnewnoteselect'] = '알릴 대상자 선택';
+$string['addnewnote'] = '새 학습관찰 추가';
+$string['addnewnoteselect'] = '학습관찰을 기록할 사용자를 선택하세요.';
 $string['bynameondate'] = '$a->name - $a->date';
-$string['content'] = '전달 내용';
-$string['course'] = '배움터';
-$string['coursenotes'] = '배움터 알림';
+$string['content'] = '내용';
+$string['course'] = '강좌';
+$string['coursenotes'] = '강좌별 학습관찰';
 $string['created'] = '생성됨';
 $string['deleteconfirm'] = '이 내용을 삭제할까요?';
-$string['editnote'] = '전달사항 편집';
+$string['deletenotes'] = '모든 학습관찰 삭제';
+$string['editnote'] = '학습관찰편집';
 $string['groupaddnewnote'] = '모두에게 새 알림 추가';
-$string['nocontent'] = '전달 내용을 채워 넣으세요';
-$string['nonotes'] = '알림이 없습니다';
-$string['note'] = '전달사항';
-$string['notes'] = '전달사항';
+$string['nocontent'] = '내용을 채워 넣으세요';
+$string['nonotes'] = '내용이 없습니다';
+$string['note'] = '학습관찰';
+$string['notes'] = '학습관찰';
 $string['notesnotvisible'] = '내용을 볼 수 없습니다.';
 $string['nouser'] = '사용자를 선택해야 합니다';
 $string['personal'] = '개인';
-$string['personalnotes'] = '개인적 알림';
-$string['publishstate'] = '전달대상';
+$string['personalnotes'] = '개인적 학습관찰';
+$string['publishstate'] = '공개범위';
 $string['site'] = '사이트';
-$string['sitenotes'] = '사이트 알림';
+$string['sitenotes'] = '사이트 학습관찰';
 $string['unknown'] = '모름';
 $string['abovenormal'] = '중상'; // ORPHANED
 $string['belownormal'] = '중하'; // ORPHANED

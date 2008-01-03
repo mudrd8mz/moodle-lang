@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.8 dev (2006102200)
+      // chat.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['beep'] = '호출';
@@ -37,6 +37,7 @@ $string['messagebeepsyou'] = '$a 나를 호출했음!';
 $string['messageenter'] = '$a 대화방에 들어옴';
 $string['messageexit'] = '$a 대화방을 나감';
 $string['messages'] = '메시지';
+$string['method'] = '채팅 방법';
 $string['methoddaemon'] = '채팅 서버';
 $string['methodnormal'] = '일반 방법';
 $string['modulename'] = '대화방';
@@ -48,15 +49,24 @@ $string['nomessages'] = '아직 메시지 없음';
 $string['normalkeepalive'] = '연결유지';
 $string['normalstream'] = '스트림';
 $string['noscheduledsession'] = '예정된 세션 없음';
+$string['oldping'] = '연결해제 타임아웃';
+$string['refreshroom'] = '대화방 새로 고침';
+$string['refreshuserlist'] = '사용자 목록 새로 고침';
+$string['removemessages'] = '매일 같은 시간에';
 $string['repeatdaily'] = '매일 같은 시간에';
 $string['repeatnone'] = '반복 없이, 지정된 시간에만 공개하기';
 $string['repeattimes'] = '되풀이 대화방';
 $string['repeatweekly'] = '매주 같은 시간에';
 $string['savemessages'] = '지난 세션 저장하기';
 $string['seesession'] = '이 세션 보기';
+$string['serverhost'] = '서버 이름';
+$string['serverip'] = '서버 아이피';
+$string['servermax'] = '최대 사용자';
+$string['serverport'] = '서버 포트';
 $string['sessions'] = '대화 세션';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = '모든 사람이 지난 대화를 볼 수 있습니다.';
+$string['updatemethod'] = '새로고침 방법';
 $string['viewreport'] = '지난 대화 내용 보기';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9 dev (2007071900)
+      // choice.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['addmorechoices'] = '선택사항을 더 추가하시오';
@@ -17,6 +17,7 @@ $string['choicetext'] = '설문 내용';
 $string['displayhorizontal'] = '수평으로 배치';
 $string['displaymode'] = '화면 배치';
 $string['displayvertical'] = '수직으로 배치';
+$string['expired'] = '죄송합니다. 이 활동은 $a 에 종료되어서 더 이상 사용할 수 없습니다.';
 $string['fillinatleastoneoption'] = '최소 두 개 이상의  선택문을 제시할 필요가 있습니다.';
 $string['full'] = '(마감됨)';
 $string['havetologin'] = '설문에 응하려면 로그인해야 합니다.';
@@ -38,6 +39,7 @@ $string['publishanonymous'] = '익명으로 결과 공개';
 $string['publishnames'] = '실명으로 선택내용까지 완전히 공개';
 $string['publishnot'] = '학생들에게는 결과를 공개하지 않음';
 $string['removemychoice'] = '기존 응답 취소';
+$string['removeresponses'] = '모든 응답 제거';
 $string['responses'] = '응답';
 $string['responsesto'] = '$a 에 대한 응답';
 $string['savemychoice'] = '응답내용 저장';

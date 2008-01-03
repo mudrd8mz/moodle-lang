@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.9 dev (2007081001)
+      // qtype_multichoice.php - created with Moodle 1.9 Beta + (2007100500)
 
 
 $string['addingmultichoice'] = '선다형 문항 추가';
@@ -7,7 +7,7 @@ $string['addmorechoiceblanks'] = '여분의 선택란 작성';
 $string['answerhowmany'] = '정답의 갯수';
 $string['answernumbering'] = '답안 번호?';
 $string['answernumbering123'] = '1., 2., 3., ...';
-$string['answernumberingABC'] = 'A., B., C., ...';
+$string['answernumberingABCD'] = 'A.,B.,C.,...';
 $string['answernumberingabc'] = 'a., b., c., ...';
 $string['answernumberingnone'] = '답안번호 없음';
 $string['answersingleno'] = '다답 허용';
@@ -32,5 +32,6 @@ $string['overallpartiallycorrectfeedback'] = '부분적으로 맞은 답에 대�
 $string['partiallycorrectfeedback'] = '부분적으로 옳은 답에 대해';
 $string['shuffleanswers'] = '답안을 섞음';
 $string['singleanswer'] = '답 하나 고르기';
+$string['answernumberingABC'] = 'A., B., C., ...'; // ORPHANED
 
 ?>

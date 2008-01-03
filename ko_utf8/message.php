@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9 Beta + (2007082803)
+      // message.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['addcontact'] = '연락 추가';
@@ -18,7 +18,7 @@ $string['contactlistempty'] = '당신의 연락처가 비어있습니다';
 $string['contacts'] = '연락들';
 $string['context'] = '문장';
 $string['deletemessagesdays'] = '오래된 메세지 자동삭제 기한';
-$string['discussion'] = '토론';
+$string['discussion'] = '토론주제';
 $string['emailmessages'] = '오프라인 상태에 온 이메일';
 $string['emailtagline'] = '이 이메일은 \"$a\"에서 당신에게 보내진 메세지의 복사본입니다.';
 $string['emptysearchstring'] = '당신은 무언가를 찾아야만 합니다';
@@ -27,12 +27,13 @@ $string['includeblockedusers'] = '차단 사용자 포함';
 $string['incomingcontacts'] = '들어온 연락 ($a)';
 $string['keywords'] = '키워드';
 $string['keywordssearchresults'] = '결과 찾기 : $a 발견된 메세지';
-$string['mailsent'] = '이메일로 메시지 보냄';
+$string['mailsent'] = '메세지가 이메일로 전송되었습니다.';
 $string['maxmessages'] = '토론 기록에 있는 최대의 메세지 숫자';
 $string['message'] = '메세지';
 $string['messagehistory'] = '메세지 기록';
 $string['messages'] = '메세지';
 $string['messaging'] = '메세지';
+$string['messagingdisabled'] = '메세지 기능이 이 사이트에서 비활성화 되어 있습니다. 대신 이메일이 보내어질 것입니다.';
 $string['mycontacts'] = '나의 연락';
 $string['newonlymsg'] = '변경사항 보기';
 $string['newsearch'] = '새로운 검색';

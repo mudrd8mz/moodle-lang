@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.9 Beta + (2007082200)
+      // install.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['admindirerror'] = '지정한 관리 디렉토리가 적절치 않습니다';
@@ -94,7 +94,8 @@ $string['databasesettingssub_postgres7'] = '<b>종류:</b>  PostgreSQL<br />
 <b>사용자:</b> 데이터베이스 사용자명<br />
 <b>암호:</b> 데이터베이스 암호<br />
 <b>테이블 접두어:</b> 모든 테이블에 사용할 접두어 (필수)';
-$string['dataroot'] = '데이타 경로';
+$string['databasesettingswillbecreated'] = '<b>노트:</b>만일 데이터베이스가 존재하지 않으면 인스톨러가 데이터베이스를 자동으로 생성할 것입니다.';
+$string['dataroot'] = '데이타디렉토리 경로';
 $string['datarooterror'] = '당신이 지정한 \'데이타 경로\'가 없거나 생성되지 않았습니다. 정확한 경로를 적거나 수동으로 그 디렉토리를 생성해 놓으시오.';
 $string['dbconnectionerror'] = '지정한 데이터베이스에 연결할 수 없습니다. 데이타베이스의 설정을 점검하시오.';
 $string['dbcreationerror'] = '데이터베이스 생성 오류. 주어진 사용자명 및 암호로 데이터베이스 이름을 생성할 수 없습니다.';
@@ -141,7 +142,7 @@ $string['fileuploads'] = '파일 올리기';
 $string['fileuploadserror'] = '이것은 켜져야 합니다.';
 $string['fileuploadshelp'] = '<p>서버로 파일올리기가 불가능해 보입니다.</p>
 
-<p>무들은 설치될 수 있지만 파일을 업로딩 할 수 없는 상태에서는 배움터에 파일이나 사진을 올릴 수 없을 것입니다.</p>
+<p>무들은 설치될 수 있지만 파일을 업로딩 할 수 없는 상태에서는 강좌에 파일이나 사진을 올릴 수 없을 것입니다.</p>
 
 <p>파일 업로딩이 가능하게 하기 위해서는 당신(또는 당신의 시스템 관리자)가 php.ini 파일 속의  <b>file_upload</b>을 \'1\'로 설정해야 할 것입니다.</p>';
 $string['gdversion'] = 'GD 의 버전';

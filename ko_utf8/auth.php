@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007060502)
+      // auth.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['CASform'] = '인증 선택';
 $string['accesCAS'] = 'CAS 사용자';
 $string['accesNOCAS'] = '기타 사용자';
+$string['actauthhdr'] = '활성화된 인증 플러그인';
 $string['alternatelogin'] = '이 사이트를 위한 로그인 페이지로 사용할 URL을 입력. <strong>\'$a\'</strong> 처럼 실행문을 가진 형태여야 하고 <strong>사용자ID</strong>  <strong>password</strong> 그리고 Return 필드를 포함하여야 한다. 
 <br />정확한 URL을 입력하도록 주의하지 않으면 이 사이트에 갇혀 버릴 수도 있다.<br />
 기본 로그인 페이지를 사용하려면 이 칸을 빈칸으로 남겨두어라.';
@@ -98,7 +99,7 @@ $string['auth_emailnoinsert'] = '데이터베이스에 당신의 기록 추가 �
 $string['auth_emailtitle'] = '이메일 기반 인증';
 $string['auth_fcchangepasswordurl'] = '암호 변경 URL';
 $string['auth_fcconnfail'] = '접속 실패 오류번호: $a[0] 오류내용: $a[1]';
-$string['auth_fccreators'] = '새로운 배움터를 만들수 있는 회원들이 있는 모둠의 목록.  다수의 모둠이 있는 경우에는 \';\'를 사용하여 구분하라. 이름은 FirstClass 서버에서와 마찬가지로 반드시 정확하게 쓰여져야 한다. 시스템은 대소문자를 구별한다.';
+$string['auth_fccreators'] = '새로운 강좌를 만들수 있는 회원들이 있는 모둠의 목록.  다수의 모둠이 있는 경우에는 \';\'를 사용하여 구분하라. 이름은 FirstClass 서버에서와 마찬가지로 반드시 정확하게 쓰여져야 한다. 시스템은 대소문자를 구별한다.';
 $string['auth_fccreators_key'] = '생성자';
 $string['auth_fcdescription'] = '이 방법은 정해진 사용자인지 그리고 비밀번호가 유효한지 확인하기 위해서 FirstClass 서버를 사용한다.';
 $string['auth_fcfppport'] = '서버 포트(3333이 가장 일반적입니다.)';
@@ -137,7 +138,7 @@ $string['auth_ldap_contexts_key'] = '컨텍스트';
 $string['auth_ldap_create_context'] = '만약 당신이 이메일 인증으로 사용자를 생성시키려 한다면 어디에 사용자들을 생성시킬지를 명시하라. 이 문맥은 보안상의 문제를 막기위해 다른 사용자들과는 다르게 명기되어야 한다. ldap_context-variable에 작성된 문맥을 포함할 필요는 없다. 무들이 자동적으로 작성된 문맥에서 사용자를 찾아줄 것이다.<br /><b>주의!</b> 사용자 생성을 위해서는 auth/ldap/lib.php에 있는 auth_user_create()를 변경시킬 필요가 있다.';
 $string['auth_ldap_create_context_key'] = '새 사용자를 위한 컨텍스트';
 $string['auth_ldap_create_error'] = 'LDAP 사용자 생성 오류';
-$string['auth_ldap_creators'] = '새 배움터를 생성할 수 있는 모둠의 목록이다. 보통 \'cn=teachers,ou=staff,o=myorg\'형식으로 모둠을 분류한다.';
+$string['auth_ldap_creators'] = '새 강좌를 생성할 수 있는 모둠의 목록이다. 보통 \'cn=teachers,ou=staff,o=myorg\'형식으로 모둠을 분류한다.';
 $string['auth_ldap_creators_key'] = '생성자';
 $string['auth_ldap_expiration_desc'] = '만료된 비밀번호 검색을 불가능하게 하거나 LDAP로부터 비밀번호 만료 시간을 직접 읽어오게 하려면, \"아니오\"를 선택하라.';
 $string['auth_ldap_expiration_key'] = '만료';
@@ -154,7 +155,7 @@ $string['auth_ldap_host_url_key'] = '호스트 URL';
 $string['auth_ldap_ldap_encoding'] = 'LDAP 서버에 의해 지정된 인코딩. 대개의 경우는 utf-8이나, MS AD v2 에서는 기본으로 cp1252, cp1250 등을 사용한다.';
 $string['auth_ldap_ldap_encoding_key'] = 'LDAP 인코딩';
 $string['auth_ldap_login_settings'] = '로그인 설정하기';
-$string['auth_ldap_memberattribute'] = '선택 사항 : 사용자들이 한 그룹안에 속해 있다면 사용자 번호 속성보다 우선한다. 대개는 \'member\'이다.';
+$string['auth_ldap_memberattribute'] = '선택 사항 : 사용자들이 한 모둠안에 속해 있다면 사용자 번호 속성보다 우선한다. 대개는 \'member\'이다.';
 $string['auth_ldap_memberattribute_isdn'] = '선택 사항 : 0 이던 1 이던 간에  사용자 속성값을 무효화 한다.';
 $string['auth_ldap_memberattribute_isdn_key'] = '사용자 속성은 dn을 사용';
 $string['auth_ldap_memberattribute_key'] = '구성원 속성';
@@ -213,6 +214,11 @@ $string['auth_nologindescription'] = '사용자들이 시스템으로 로그인�
 $string['auth_nologintitle'] = 'No login';
 $string['auth_nonedescription'] = '사용자들은 외부 보안시스템을 거치지 않거나 이메일확인 작업 없이 즉시 계정을 만들 수 있다. 하지만 만들기 전에 이 문제가 가져올 수 있는 보안상, 등록상의 문제를 생각해 보시기 바란다.';
 $string['auth_nonetitle'] = '불인증';
+$string['auth_ntlmsso'] = 'NTLM SSO';
+$string['auth_ntlmsso_enabled'] = 'NTLM 도메인에서 싱글사인온을 하려면 예로 설정. <strong>노트:</strong> 웹서버에 추가작업이 필요합니다. <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a> 를 참조하십시요.';
+$string['auth_ntlmsso_enabled_key'] = '활성화';
+$string['auth_ntlmsso_subnet'] = '설정되면 이 서브넷에 있는 클라이언트에 대해 SSO를 시도합니다.  포맷: xxx.xxx.xxx.xxx/bitmask';
+$string['auth_ntlmsso_subnet_key'] = '서브넷';
 $string['auth_pamdescription'] = '이 방법은 이 서버에서 원래 사용자 이름에 접근하는 PAM을 사용한다. 당신은 이 모듈을 사용하기 위해 
 <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Authentication</a> 를 설치해야 한다.';
 $string['auth_pamtitle'] = 'PAM';
@@ -285,6 +291,8 @@ $string['errorpasswordupdate'] = '비밀번호 갱신 오류. 비밀번호가 �
 $string['forcechangepassword'] = '암호변경 강요';
 $string['forcechangepassword_help'] = '다음번 무들 로그인시 비밀번호를 바꿀 것을 사용자에게 요청합니다.';
 $string['forcechangepasswordfirst_help'] = '사용자가 무들에 처음 로그인 할 때 비밀번호를 변경할 것을 요청합니다.';
+$string['forgottenpassword'] = '여기에 URL을 입력하면,  URL은 이 사이트에 대한 암호 복원 페이지로 이용될 것입니다. 이것은 암호가 무들 외부에서 처리되는 사이트를 위한 것입니다. 기본 암호 복원 방법을 사용하려면 빈칸으로 남겨 좋으세요.';
+$string['forgottenpasswordurl'] = '잊어버린 암호 URL';
 $string['guestloginbutton'] = '손님 접속 버튼';
 $string['infilefield'] = '파일에  필요한 항목';
 $string['instructions'] = '안내문';
@@ -293,14 +301,17 @@ $string['locked'] = '잠겨있음';
 $string['md5'] = 'MD5 인증';
 $string['nopasswordchange'] = '암호를 변경할 수 없음';
 $string['nopasswordchangeforced'] = '비밀번호 변경없이는 계속할 수 없습니다만 암호를 변경할 방법이 없습니다. 무들 관리자에게 연락하기 바랍니다.';
+$string['ntlmsso_attempting'] = 'NTLM을 통한 싱글사인온 시도';
+$string['ntlmsso_failed'] = '자동로그인 실패, 보통 로그린 페이지를 시도하세요.';
+$string['ntlmsso_isdisabled'] = 'NTLM SSO가 비활성화되어 있습니다.';
 $string['passwordhandling'] = '비밀번호 처리';
 $string['plaintext'] = '단순 텍스트';
 $string['pluginnotenabled'] = '인증 플러그인 \'$a\'은 활성화되어 있지 않습니다.';
 $string['pluginnotinstalled'] = '인증 플러그인 \'$a\'은 설치되어 있지 않습니다.';
 $string['rpc_negotiation_timeout'] = 'RPC 교섭시간 초과';
-$string['selfregistration'] = '자동 등록';
-$string['selfregistration_help'] = '자동 등록에 쓰일 인증 플러그인을 선택하시오.';
-$string['sha1'] = 'SHA1 해쉬';
+$string['selfregistration'] = '자체 등록';
+$string['selfregistration_help'] = '자체 등록에 쓰일 인증 플러그인을 선택하시오.';
+$string['sha1'] = 'SHA-1 해쉬';
 $string['shib_no_attributes_error'] = '당신은 Shibboleth인증을 쓰는 것 같습니다만, 무들은 당신의 사용자 속성을 전달받지 못했습니다. 필요한 속성($a)을 무들 서비스 제공자 혹은 이 서버의 웹관리자에게 전달하였는지를 점검하여 주시기 바랍니다.';
 $string['shib_not_all_attributes_error'] = '무들은 당신의 경우와 같은 사례를 처리하기 위해서 별도의 Shibboleth 속성이 필요합니다.<br />여러분의 웹관리자나 인증제공자에게 문의하시기 바랍니다.';
 $string['shib_not_set_up_error'] = 'Shibboleth인증이 제대로 설정되지 않은 것 같습니다. Shibboleth인증을 설정하기 위한 자세한 내용은 <a href=\"README.txt\">README</a>를 확인하여 주기 바랍니다.';

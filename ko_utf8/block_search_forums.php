@@ -1,7 +1,8 @@
-<?PHP // $Id$
+<?PHP // $Id$ 
+      // block_search_forums.php - created with Moodle 1.6 development (2005100400)
 
 
+$string['advancedsearch'] = '상세검색';
+$string['blocktitle'] = '포럼검색';
 
-$string['advancedsearch'] = '진보된 검색';
-$string['blocktitle'] = '검색 포럼';
 ?>

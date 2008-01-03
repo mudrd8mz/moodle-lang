@@ -79,7 +79,7 @@ $string['maximumsize'] = '최대크기';
 $string['mean'] = '평균값';
 $string['minimum'] = '최소치';
 $string['modulename'] = '연습과제';
-$string['modulenameplural'] = '과제모음';
+$string['modulenameplural'] = '연습과제';
 $string['movingtophase'] = '$a 단계로 이동';
 $string['multiplesubmissions'] = '다수의 제출물';
 $string['noexercisedescriptionssubmitted'] = '과제가 제출되지 않았음';
@@ -87,7 +87,7 @@ $string['nosubmissions'] = '제출물 없음';
 $string['notassessedyet'] = '아직 평가되지 않았음';
 $string['notavailable'] = '이용할 수 없음';
 $string['noteonassessmentelements'] = '채점은 여러 ‘평가요소’에 의해 이루어진다는 것을 기억하기 바랍니다.<br />
-이것은 채점을 좀더 쉽고 일관되게 해 줍니다. 이는 배움터의 과제를 클릭하면 되는데, 만일 아무런 요소도 없었다면 이를 채워 넣도록 요구할 것입니다. 과제 편집 화면에서 요소의 숫자를 변경시킬 수 있으며 요소 자체는 \"과제 관리\"화면에서 수정할 수 있습니다.';
+이것은 채점을 좀더 쉽고 일관되게 해 줍니다. 이는 강좌의 과제를 클릭하면 되는데, 만일 아무런 요소도 없었다면 이를 채워 넣도록 요구할 것입니다. 과제 편집 화면에서 요소의 숫자를 변경시킬 수 있으며 요소 자체는 \"과제 관리\"화면에서 수정할 수 있습니다.';
 $string['noteongradinggrade'] = '이 점수는 당신이 평가한 내용과 $a에 의한 당신 성과물의 평가와 함께 얼마나 잘 합치되었는가를 나타낸 것입니다. 높은 점수는 동의에 더 가깝습니다.';
 $string['noteonstudentassessments'] = '{학생이 평가한 점수 / 채점 능력에 대한 점수}';
 $string['notgraded'] = '채점되지 않았음';
