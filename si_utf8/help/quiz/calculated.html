@@ -1,0 +1,80 @@
+
+<h1>ගණනය කිරීම් ආශ්‍රිත ප්‍රශ්න</h1>
+<p>මෙය ආදේශක යොදා ගනිමින්,සිසුන්ට වෙන වෙනම අංක ගණිතමය ප්‍රශ්න, ප්‍රශ්නාවලිය ලබාගන්නා මොහොතේම ලබා දීම සඳහා ඇති ක්‍රමෝපායකි.   පහත දැක්වන්නේ, ප්‍රශ්න පාලකයේ අනුරූ සටහනකි.</p>
+<table>
+  <tbody>
+    <tr valign="top">
+      <th scope="col" align="right">ප්‍රශ්නය :</th>
+      <td><textarea id="questiontext" name="questiontext" rows="5" cols="40" wrap="virtual">{a} + {b} අගය කීයද?</textarea>
+      </td>
+    </tr>
+    <tr valign="top">
+      <th scope="col" align="right">දිස්විය යුතු රූපය:</th>
+      <td><select name="image">
+        <option value="" selected="selected">නැත</option>
+        <option value="grevture.gif">grevture.gif</option>
+      </select>
+      </td>
+    </tr>
+    <tr valign="top">
+      <th scope="col" align="right">නිවැරදි පිළිතුරේ සමීකරණය:</th>
+      <td><input align="left" type="text" id="formula0" name="answer[]" size="20" value="{a} + {b}" />
+        &nbsp;&nbsp;
+        <input type="hidden" name="fraction[]" value="1.0" />
+      </td>
+    </tr>
+    <tr valign="top">
+      <th scope="col" align="right">Tolerence:</th>
+      <td><input align="left" type="text" id="tolerance0&quot;" name="tolerance[]" size="15" value="0.01" />
+        ± </td>
+    </tr>
+    <tr valign="top">
+      <th scope="col" align="right">Tolerence Type:</th>
+      <td><select name="tolerancetype[]">
+        <option value="1" selected="selected">සාපේෂව</option>
+        <option value="2">නාමමාත්‍ර</option>
+        <option value="3">ඡ්‍යාමිතික</option>
+      </select>
+      </td>
+    </tr>
+    <tr valign="top">
+      <th scope="col" align="right"><strong>සාර්ථාකාංය<b>(Significant Figures</b>)</strong>:</th>
+      <td><select name="correctanswerlength[]">
+        <option value="1">1</option>
+        <option value="2" selected="selected">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p align="justify">  &quot;<strong>නිවැරදි පිළිතුරේ සමීකරණය&quot;,</strong>‍යට‍තේ  {a} සහ {b} ලෙස විචල්‍යයන් දෙකක් ඔබ‍ට දැකිය හැකි ය. <strong>a </strong>සහ <strong>b</strong> වෙනුවට ඕනෑම නමක් භාවිත කළ හැකි ය. එය ප්‍රශ්නය ලබා ගන්නා අවස්ථාවලදී ඒවාට යම් අගයක් ආදේශ වේ. පිළිතුර ලබා දෙන අවස්ථාවේ දී, &quot;නිවැරදි පිළිතුරේ සමීකරණය‍&quot; ට අදාලව පිළිතුර ගණනය වේ. විය හැකි ආදේශ අගයන් කල්තියා සැකසිය හැකි ය. නැතහොත් ඒවා පසු පිටුවක වූ &quot;සංස්කරණ විශාරදය(wizard)&quot; භාවිතයෙන් ‍උත්පාදනය කළ හැකි ය. </p>
+<p align="justify"> ඉහත උදාහරණයේ ගණිත කර්මයක් ලෙස  ධන (+) යොදා ගෙන ඇත. ඊට අමතරව -,  *, / සහ % ද භාවිත කළ හැක. % යොදා ගන්නේ ‍මාපංකානුකූල( Modulo) ගණිත කර්මය සඳහායි. එසේ ම ඔබට සමහර PHP-රටාවේ ගණිත කර්ම ද මේ සඳහා භාවිත කළ හැකි ය. එවැනි යෙදුම් තනි තාර්කික කෘත්‍යයන්(single argument fuctions) 24 ක් පහත දක්වා ඇත. </p>
+<p><b>abs, acos, acosh, asin, asinh, atan, atanh, ceil, cos, cosh, deg2rad, exp, expm1, floor, log, log10, log1p, rad2deg, round, sin, sinh, sprt, tan, tanh. </b></p>
+<p>එසේ ම යොදා ගත හැකි ද්වි-තාර්කික කෘත්‍යයන්(double argument fuctions) 2 ක් ද, පහත දැක්වේ.</p>
+<p><b>atan2, pow </b></p>
+<p> <strong>min</strong> සහ <strong>max</strong> යන කෘත්‍යයන් ද්වි තාර්කික හෝ බහු තාර්කික කෘත්‍යයක් විය හැකි ය. තව ද, pi කෘත්‍යය තර්කයක් නොමැතිව භාවිත කළ හැකි ය. එය භාවිත කරන විට pi( ) ලෙස නිවැරදිව භාවිත කරන්න. උදාහරණ: <b>sin({a}) + cos({b}) * 2</b>. </p>
+<p>ගණිත කෘත්‍යන් ‍වෙලී ඇතිවිටක වුවද  ගැටළුවක් ඇති නොවේ.උදාහරණ:  <b>cos(deg2rad({a} + 90))</b></p>
+<p><strong>PHP</strong> රටාවේ ගණිත කෘත්‍යයන්ගේ භාවිතයේ විස්තර ලේඛනය PHP වෙබ් අඩවිය(http://www.php.net/manual/ref.math.php) ඔස්සේ ලබා ගත හැකි ය.</p>
+<p align="justify">සංඛ්‍යාත්මක ප්‍රශ්නවලදී, නිවැරදි පිළිතුර ලෙස යම් පිළිගත හැකි පරාසයක සීමා තීරයක් (margin) ලබා දිය හැකිය. මෙහි ඇති පිළිතුරු සේ  එම තීරුව &quot;<strong>Tolerence</strong>&quot; ‍‍ක්‍ෂේත්‍රය මඟින් සැකසිය හැක.  ඒවා <strong>සාපේක්ෂ</strong>, <strong>නාමමාත්‍ර </strong>සහ <strong>ජ්‍යාමිතික </strong>වේ.</p>
+<p align="justify"> ඔබ ප්‍රශ්නාවලිය සඳහා කාලපරාසය 200 ලෙස සකස් කර <strong>&quot;Tolerence&quot; = 0.5 </strong>ලෙස සැලකුවහොත් ඉහත <strong>&quot;Tolerence&quot;</strong> වර්ග තුනේ හැසිරීම් කෙබඳු වේදැයි පහත දැක්වේ. </p>
+<p><strong>සාපේක්ෂ(Relative):</strong></p>
+<p>මෙහිදී නිවැරදි පිළිතුරේ අගය 0.5 න් ගුණකරනු (200*0.5=100) ලැබේ. පිළිතුර අගය 100  වේ. ඵම අගය<strong>Tolerence Interval </strong>(TI) ලෙස නම් කරයි.එම අගය 100 වු විට ඉහත සකැසුම සඳහා බලාපොරොත්තු වන නිවැරදි පිළිතුර, 100 සහ 300 අතර අගයක් අතර පැවතිය යුතුයි. (200 ± 100)  ආදේශක අගයන් මත, නිවැරදි පිළිතුරේ අගය බොහෝ සෙයින් වෙනස් වන අවස්ථාවක මෙය ඉතා වැදගත් වේ. </p>
+<p><strong>නාමමාත්‍ර(Nominal):	</strong></p>
+<p>මෙය සරල <strong>&quot;Tolerence&quot; </strong>අවස්ථාවකි. නමුත් එය එතරම් ප්‍රබල නැත. ඉහත සකැසුම සදහා බලාපොරොත්තු වන නිවැරදි පිළිතුර 199.5 සහ 200.5 අතර අගයක් විය යුතු ය(200 ± 0.5).  මෙය නිවැරදි පිළිතුරුවල අගයන් අතර ඉතා අඩු වෙනසක් පවතින විට  වැදගත් වේ. </p>
+<p><strong>ජ්‍යාමිතික(Geometric):</strong></p>
+<p>&quot;Tolerence&quot; වල ඉහළ සිමා(upper limit)අගය ගණනය කරනුයේ, 200 + (0.5 * 200)=300 ලෙසය. එය ඉහත සාපේක්ෂ ක්‍රමය හා සමානයි. අවම සීමාව(lower limit)ගණනය කරනුයේ 200/(1+0.5) =133.33 ඒ අනුව නිවැරදි පිළිතුර විය යුත්තේ 133.33 සහ 300 අතර අගයකි.  <strong>Tolerence </strong>අගය තබාගත යුතු ඉතා සංකීර්ණ ගණනය කිරීම් සඳහා ඉතා ප්‍රයෝජනවත්ය. නමුත් සියලු අවස්ථා සඳහා ඵම අගය 0 වීම පිළිගත නොහැක, නමුත් ඉහළ සීමා අගය 1 හෝ වැඩි අගයක් ගැනීම පිළිගත හැක. </p>
+<p><b><strong>සාර්ථාකාංය</strong> (Significant Figures</b>)  ‍ක්ෂේත්‍රය කරනුයේ, නිවැරදි පිළිතුර  වාර්තාවකට සුදුසු ලෙස සකස් කරීමයි. උදාහරණ: එය 3 ට සකස් කළහොත් නිවැරදි පිළිතුර 13.333 යන්න දක්වනුයේ, 13.3ලෙසය; එසේ ම 1236 පෙන්වනුයේ, 1240;  ලෙස ය. 23 පෙන්වනුයේ, 23.0 යන ලෙසිනි. </p>
+<p>පසු විපරම් ‍ක්ෂේත්‍රය සහ විකල්ප ඒකක ‍ක්ෂේත්‍රය ද අංක ගණිත ප්‍රශ්නවල  ආකාරයට ම  වේ. </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
