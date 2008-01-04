@@ -214,6 +214,7 @@ $string['event8'] = 'Fermer';
 $string['event9'] = 'Noter manuellement';
 $string['examview'] = 'Examview';
 $string['export'] = 'Exporter';
+$string['exportcategory'] = 'Exporter catégorie'; // Pour compatibilité avec 1.8 et antérieure
 $string['exporterror'] = 'Une erreur est survenue durant l\'exportation';
 $string['exportfilename'] = 'quiz'; // Ne pas traduire cette chaîne ! Voir http://tracker.moodle.org/browse/MDL-4544
 $string['exportingquestions'] = 'Les questions sont exportées vers un fichier';
