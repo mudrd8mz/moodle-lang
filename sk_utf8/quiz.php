@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8.3 + (2007021533)
+      // quiz.php - created with Moodle 1.8.3 + (2007021534)
 
 
 $string['1day'] = '1 deň';
@@ -182,6 +182,7 @@ $string['event8'] = 'Uzavrieť';
 $string['event9'] = 'Ručné bodovanie';
 $string['examview'] = 'Formát Examview';
 $string['export'] = 'Export';
+$string['exportcategory'] = 'exportovať kategóriu';
 $string['exporterror'] = 'V priebehu exportu sa objavila chyba';
 $string['exportfilename'] = 'test';
 $string['exportingquestions'] = 'Otázky sa exportujú do súboru';
@@ -253,7 +254,7 @@ $string['illegalformulasyntax'] = 'Nesprávna syntax vzorca začínajúca s \'$a
 $string['imagedisplay'] = 'Obrázok  na znázornenie';
 $string['imagemissing'] = 'obrázok nie je dostupný na riadku $a. Názov súboru bude ignorovaný';
 $string['import'] = 'Import';
-$string['importcategory'] = 'importná kategória';
+$string['importcategory'] = 'importovať kategóriu';
 $string['importerror'] = 'V priebehu importu sa objavila chyba';
 $string['importerrorquestion'] = 'Chyba pri importovaní otázky';
 $string['importfilearea'] = 'Importovať zo súboru v kurze';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.8.2+ (2007021520)
+      // access.php - created with Moodle 1.8.3 + (2007021534)
 
 
 $string['access'] = 'Prístupnosť';
@@ -11,9 +11,10 @@ $string['activityprev'] = 'Predošlá činnosť';
 $string['breadcrumb'] = 'Navigačná lišta';
 $string['currenttopic'] = 'Táto téma';
 $string['currentweek'] = 'Tento týždeň';
+$string['hideblocka'] = 'Ukázať $a blok';
 $string['monthnext'] = 'Ďalší mesiac';
 $string['monthprev'] = 'Predchádzajúci mesiac';
-$string['showhideblock'] = 'Ukázať alebo skryť blok';
+$string['showblocka'] = 'Skryť $a blok';
 $string['sitemap'] = 'Mapa stránok';
 $string['skipa'] = 'Preskočiť $a';
 $string['skipblock'] = 'Preskočiť blok';
@@ -23,5 +24,6 @@ $string['tablelayout'] = 'Formátovacia tabuľka, $a';
 $string['tocontent'] = 'Prejsť k hlavnému obsahu';
 $string['tonavigation'] = 'Prejsť k navigácii';
 $string['youarehere'] = 'Nachádzate sa tu';
+$string['showhideblock'] = 'Ukázať alebo skryť blok'; // ORPHANED
 
 ?>
