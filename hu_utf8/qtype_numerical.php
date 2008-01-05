@@ -1,6 +1,6 @@
 <?php
 $string['addmoreanswerblanks'] = 'Hely további {no} válaszhoz';
-$string['addmoreunitblanks'] = 'Hely további {no} egységhez';
+$string['addmoreunitblanks'] = 'Hely további {no} egység számára';
 $string['answerno'] = '$a válasz';
 $string['answermustbenumberorstar'] = 'A válasz szám vagy \'*\' lehet.';
 $string['errorrepeatedunit'] = 'Két egységnek nem lehet azonos a neve.';

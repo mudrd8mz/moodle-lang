@@ -1,33 +1,33 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // quiz_analysis.php - created with Moodle 1.7 beta + (2006101003)
 
 
-$string['analysis'] = 'Tételes elemzés';
-$string['analysisdownload'] = "Elemzés letöltése";
+$string['analysis'] = 'Tételelemzés';
+$string['analysisdownload'] = 'Elemzés letöltése';
 $string['analysisoptions'] = 'Elemzési lehetőségek';
-$string['analysistitle'] = 'Tételes elemzési táblázat';
-$string['attemptsall'] = 'minden próbálkozás';
-$string['attemptselection'] = 'Felhasználónként elemezendő próbálkozások';
+$string['analysistitle'] = 'Tételelemzési táblázat';
+$string['attemptsall'] = 'összes próbálkozás';
+$string['attemptselection'] = 'Felhasználónként elemzendő próbálkozások';
 $string['attemptsfirst'] = 'első próbálkozás';
-$string['attemptshighest'] = 'legmagasabb pontszám';
+$string['attemptshighest'] = 'legmagasabb pont';
 $string['attemptslast'] = 'utolsó próbálkozás';
-$string['dicsindextitle'] = 'Diszkr.<br />index';
-$string['disccoefftitle'] = 'Diszkr.<br />együtth.';
-$string['downloadooo'] = 'OpenOffice formában letöltendő';
-$string['facilitytitle'] = '%% helyes<br />megoldás';
-$string['lowmarkslimit'] = 'Ne elemezze a pontszámot, ha kisebb, mint:';
+$string['dicsindextitle'] = 'Megkül.<br />index';
+$string['disccoefftitle'] = 'Megkül.<br />együtth.';
+$string['downloadooo'] = 'Letöltés OpenOffice-formában';
+$string['facilitytitle'] = '%% helyes<br />egység';
+$string['lowmarkslimit'] = 'Ne elemezze a pontszámot, ha alacsonyabb, mint:';
 $string['pagesize'] = 'Kérdés oldalanként:';
 $string['qcounttitle'] = 'K. szám';
-$string['qidtitle'] = 'K';
+$string['qidtitle'] = 'K.sz.';
 $string['qnametitle'] = 'Kérdés neve';
 $string['qtexttitle'] = 'Kérdés szövege';
-$string['qtypetitle'] = 'K.típus';
+$string['qtypetitle'] = 'K. típusa';
 $string['quizreportdir'] = 'teszt_jelentes';
 $string['rcounttitle'] = 'H.<br />szám';
-$string['reportanalysis'] = 'Tételes elemzési jelentés';
+$string['reportanalysis'] = 'Tételelemzési jelentés';
 $string['responsestitle'] = 'Válasz szövege';
-$string['rfractiontitle'] = 'rész<br />pont';
-$string['rpercenttitle'] = 'H.%%';
-$string['stddevtitle'] = 'SD';
+$string['rfractiontitle'] = 'részl.<br />kreditpont';
+$string['rpercenttitle'] = 'V.%%';
+$string['stddevtitle'] = 'Szórás';
 
 ?>

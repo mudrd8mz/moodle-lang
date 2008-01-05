@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // block_online_users.php - created with Moodle 1.6 Beta 3 (2006041100)
-
+      // block_online_users.php - created with Moodle 1.7 beta + (2006101003) 
 
 $string['blockname'] = 'Online felhasználók';
-$string['configtimetosee'] = 'Felhasználónak mint tétlen online jelen lévőnek a megállapítására rendelkezésre álló percek száma';
+$string['configtimetosee'] = 'Az online jelen lévő felhasználó hány perc múlva minősüljön tétlennek';
 $string['periodnminutes'] = 'utolsó $a perc';
+$string['timetosee'] = 'Ennyi tétlenség (perc) eltávolítandó';
 
 ?>

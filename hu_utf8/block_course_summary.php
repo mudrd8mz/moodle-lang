@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // block_course_summary.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // block_course_summary.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['coursesummary'] = 'Kurzusösszesítő';
-$string['pagedescription'] = 'Portáltájékoztató';
+$string['pagedescription'] = 'Kurzus-/portálleírás';
 
 ?>

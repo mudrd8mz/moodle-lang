@@ -1,26 +1,20 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // dialogue.php - created with Moodle 1.7 beta + (2006101003)
 
-
-$string['addmynewentries'] = 'Új szövegeim hozzáadása';
-$string['addmynewentry'] = 'Új szövegem hozzáadása';
+$string['addmynewentries'] = 'Új bejegyzéseim hozzáadása';
+$string['addmynewentry'] = 'Új bejegyzésem hozzáadása';
 $string['addsubject'] = 'Téma hozzáadása';
 $string['allowmultiple'] = 'Ugyanazon személlyel egynél több párbeszéd engedélyezése';
 $string['allowstudentdialogues'] = 'Tanulók közötti párbeszéd engedélyezése';
 $string['close'] = 'Lezárás';
 $string['closed'] = 'Lezárva';
-$string['closeddialogues'] = 'Lezárt párbeszédek ';
-$string['confirmclosure'] = 'Párbeszédet készül lezárni $a-val/-vel. A lezárt párbeszédet nem lehet újból megnyitni. Ha lezárja a párbeszédet, megtekintheti, de nem tehet hozzá és egy új párbeszédet kell elindítani, ha az adott személyhez kíván szólni.<br /><br />Biztosan le akarja zárni ezt a párbeszédet?';
-$string['deleteafter'] = 'Lezárt párbeszédek törlése ... elteltével';
+$string['closeddialogues'] = 'Lezárt párbeszédek';
+$string['confirmclosure'] = 'Párbeszédet készül lezárni $a-val/-vel. A lezárt párbeszédet nem lehet újból megnyitni. Ha lezárja a párbeszédet, megtekintheti, de nem tehet hozzá semmit, és egy új párbeszédet kell elindítani, ha az adott személyhez kíván szólni..<br /><br />Biztosan le akarja zárni ezt a párbeszédet?';
+$string['deleteafter'] = 'Lezárt párbeszédek törlése ... (nap) elteltével';
 $string['dialogueclosed'] = 'Párbeszéd lezárva';
 $string['dialogueintro'] = 'Párbeszéd bevezetése';
-$string['dialoguemail'] = '$a->userfrom új szöveget küldött az Ön \'$a->dialogue\' témájú párbeszédéhez.
-
-Ezt megtekintheti az alábbi párbeszédjéhez kapcsolva:
-
-    $a->url';
-$string['dialoguemailhtml'] = '$a->userfrom új szöveget küldött az Ön \'<i>$a->dialogue</i>\' témájú párbeszédéhez.<br /><br />
-Ezt megtekintheti ehhez a  <a href=\"$a->url\">párbeszédjéhez</a> kapcsolva.';
+$string['dialoguemail'] = '$a->userfrom új szöveget küldött az Ön \'$a->dialogue\' témájú párbeszédéhez. Ezt megtekintheti az alábbi párbeszédjéhez kapcsolva: $a->url';
+$string['dialoguemailhtml'] = '$a->userfrom új szöveget küldött az Ön <i>$a->dialogue</i> párbeszédéhez. <br /><br /> Megtekintheti <a href=\"$a->url\">párbeszédjéhez</a> csatolva.';
 $string['dialoguename'] = 'Párbeszéd neve';
 $string['dialogueopened'] = 'Párbeszéd megnyitva a következő személlyel: $a';
 $string['dialoguewith'] = 'Párbeszéd a következő személlyel: $a';
@@ -35,17 +29,17 @@ $string['namehascloseddialogue'] = '$a lezárta a párbeszédet';
 $string['newdialogueentries'] = 'Új párbeszédszövegek';
 $string['newentry'] = 'Új szöveg';
 $string['noavailablepeople'] = 'Nincs kivel párbeszédet folytatni.';
-$string['nopersonchosen'] = 'Nem választott személyt';
+$string['nopersonchosen'] = 'Nem választott ki személyt';
 $string['nosubject'] = 'Nincs megadva téma';
-$string['notavailable'] = 'Vendégek nem használhatnak párbeszédet';
+$string['notavailable'] = 'Vendégek nem folytathatnak párbeszédet';
 $string['notextentered'] = 'Nincs megadva szöveg';
 $string['notstarted'] = 'Még nem kezdte el ezt a párbeszédet';
 $string['notyetseen'] = 'Még nem látták';
 $string['numberofentries'] = 'Szövegek száma';
 $string['numberofentriesadded'] = 'Új szövegek száma: $a';
 $string['of'] = 'ból';
-$string['onwrote'] = '$a-án írta';
-$string['onyouwrote'] = '$a-án Ön írta';
+$string['onwrote'] = '$a-án/-én ezt írta';
+$string['onyouwrote'] = '$a-án/-én Ön ezt írta';
 $string['open'] = 'Megnyitás';
 $string['openadialoguewith'] = 'Párbeszéd megnyitása a következővel';
 $string['opendialogue'] = 'Párbeszéd megnyitása';
@@ -67,7 +61,7 @@ $string['subjectadded'] = 'Téma hozzáadva';
 $string['teachertostudent'] = 'Tanár és tanuló között';
 $string['typefirstentry'] = 'Az első szöveget ide írja be';
 $string['typefollowup'] = 'A többit ide írja';
-$string['typeofdialogue'] = 'Párbeszéd típusa';
+$string['typeofdialogue'] = 'A párbeszéd típusa';
 $string['typereply'] = 'A választ ide írja be';
 $string['viewallentries'] = '$a párbeszédszöveg megtekintése';
 

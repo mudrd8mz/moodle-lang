@@ -1,11 +1,13 @@
 <?PHP // $Id$ 
-      // block_course_list.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // block_course_list.php - created with Moodle 1.7 beta + (2006101003)
 
 
-$string['allcourses'] = 'Az adminisztrátor minden kurzust lát';
+$string['adminview'] = 'Rendszergazda nézete';
+$string['allcourses'] = 'A rendszergazda minden kurzust lát';
 $string['blockname'] = 'Kurzuslista';
-$string['configadminview'] = 'Mit lásson az adminisztrátor a kurzuslista blokkjában?';
-$string['confighideallcourseslink'] = 'Elrejti a blokk alján lévő \"Összes kurzus\" ugrópontot. Az ugrópont elrejtése nem vonatkozik a rendszergazdai nézetre'; 
-$string['owncourses'] = 'Az adminisztrátor saját kurzusait látja';
+$string['configadminview'] = 'Mit lásson a rendszergazda a kurzuslista blokkjában?';
+$string['confighideallcourseslink'] = 'Elrejti a blokk alján lévő \"Összes kurzus\" ugrópontot. Az ugrópont elrejtése nem vonatkozik a rendszergazdai nézetre';
+$string['hideallcourseslink'] = 'Minden kurzuskapcsolat elrejtése';
+$string['owncourses'] = 'A rendszergazda a saját kurzusait látja';
 
 ?>

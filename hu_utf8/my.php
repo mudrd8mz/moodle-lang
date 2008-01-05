@@ -1,10 +1,11 @@
-<?PHP // $Id$
-      // moodle.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005010100)
+<?PHP // $Id$ 
+      // my.php - created with Moodle 1.7 beta + (2006101003)
 
 
-$string['mymoodle'] = 'Saját Moodle';
+$string['mymoodle'] = 'Kurzusaim áttekintése';
 $string['nocourses'] = 'Nincs megjelenítendő kurzusinformáció.';
-$string['noguest'] = 'A \'Saját Moodle\' oldal vendégek számára nem elérhető.';
+$string['noguest'] = 'A \'Kurzus áttekintése\' oldal vendégek számára nem elérhető.';
 $string['pinblocks'] = 'Kijelölt blokkok beállítása a Saját Moodle számára';
-$string['pinblocksexplan'] = 'Az itt módosított blokkbeállítások láthatók (és nem szerkeszthetők) lesznek minden Moodle-felhasználó számára a \'Saját Moodle\' képernyőn.';
+$string['pinblocksexplan'] = 'Az itt módosított blokkbeállítások láthatók (de nem szerkeszthetők) lesznek minden Moodle-felhasználó számára \'MyMoodle\' áttekintő oldalukon.';
+
 ?>

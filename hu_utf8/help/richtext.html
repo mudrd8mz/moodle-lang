@@ -1,4 +1,4 @@
-<p align="center"><strong>A richtext formájú HTML-szerkesztő használata</strong></p>
+<h1>A richtext formájú HTML-szerkesztő használata</h1>
 
 <p>Elérhetőség: <strong>
 <?php  if (!$CFG->htmleditor) {
@@ -19,7 +19,7 @@ eredményként pedig szokásos HTML-kódot ad vissza.</p>
 
 <p>A szöveg formázása mellett ez a szerkesztő egy sor egyéb, hasznos jellemzővel rendelkezik.</p>
 
-<p><strong>Szöveg beszúrása más alkalmazásokból</strong></p>
+<h2>Szöveg beszúrása más alkalmazásokból</h2>
 <ul>
 <p>Egyéb Windows-alkalmazásokból, például Microsoft Wordből szúrhat be szöveget 
 közvetlenül ebbe a szerkesztőbe, miközben annak a formázása megőrződik. Ehhez mindössze 
@@ -27,25 +27,25 @@ a webböngésző szokásos kivágási és beillesztési menüpontjait (vagy a
 Control-C és Control-V) billentyűkombinációkat kell használnia.</p>
 </ul>
 
-<p><strong>Képek beszúrása <img border="0" hspace="10" src="lib/editor/htmlarea/images/ed_image.gif" /></strong></p>
+<h2>Képek beszúrása <img alt="" src="lib/editor/htmlarea/images/ed_image.gif" /></h2>
 <ul>
 <p>Ha olyan képekkel rendelkezik, amelyek már valamely honlapon elérhetők, ezeket az "Kép beszúrása" 
 gombbal beillesztheti.</p>
 </ul>
 
-<p><strong>Táblázat beszúrása <img border="0" hspace="10" src="lib/editor/htmlarea/images/insert_table.gif" /></strong></p>
+<h2>Táblázat beszúrása <img alt="" src="lib/editor/htmlarea/images/insert_table.gif" /></h2>
 <ul>
 <p>A szöveg elrendezéséhez használhatja az eszköztáron lévő "Táblázatok beszúrása" gombot. </p>
 </ul>
 
-<p><strong>Hivatkozások beszúrása <img border="0" hspace="10" src="lib/editor/htmlarea/images/ed_link.gif" /></strong></p>
+<h2>Hivatkozások beszúrása <img alt="" src="lib/editor/htmlarea/images/ed_link.gif" /></h2>
 <ul>
 <p>Új ugrópont létrehozásához először írja be a hivatkozáshoz szánt szöveget. 
 Utána jelölje ki és kattintson az eszköztáron lévő Ugrópont gombra. Gépelje be a 
 hivatkozás URL-jét, és kész!</p>
 </ul>
 
-<p><strong>Emotikonok beszúrása <img border="0" hspace="10" src="pix/s/smiley.gif" width="15" height="15" /></strong></p>
+<h2>Emotikonok beszúrása <img alt="" src="pix/s/smiley.gif" class="icon" /></h2>
 <ul>
 <p>Ezeknek a kis ikonoknak a szövegbe való beillesztéséhez kattintson az eszköztáron lévő, 
 emotikont jelölő ikonra. A felbukkanó párbeszédablakból választhat az alábbi emotikonok 
@@ -56,111 +56,109 @@ amely később, a szöveg megjelenítésekor átalakítva jelenik majd meg). </p
         <td>
         <table border="0" align="center" cellpadding="10">
           <tr>
-            <td><img border="0" hspace="10" src="pix/s/smiley.gif" width="15" height="15" /></td>
+            <td><img  alt="" src="pix/s/smiley.gif" class="icon" /></td>
             <td>mosoly</td>
-            <td nowrap="nowrap"><font face="Courier">:-)</font></td>
-          </tr>
-          <tr>
-            <td><img alt="" border="0" hspace="10" src="pix/s/biggrin.gif" width="15" height="15" /></td>
-            <td>vigyor</td>
-            <td nowrap="nowrap"><font face="Courier">:-D</font></td>
-          </tr>
-          <tr>
-            <td><img alt="" border="0" hspace="10" src="pix/s/wink.gif" width="15" height="15" /></td>
-            <td>kacsintás</td>
-            <td nowrap="nowrap"><font face="Courier">;-)</font></td>
-          </tr>
-          <tr>
-            <td><img alt="" border="0" hspace="10" src="pix/s/mixed.gif" width="15" height="15" /></td>
-            <td>vegyes</td>
-            <td nowrap="nowrap"><font face="Courier">:-/</font></td>
-          </tr>
-            <tr>
-              <td><img alt="" border="0" hspace="10" src="pix/s/thoughtful.gif" width="15" height="15" /></td>
-              <td>töprengés</td>
-              <td nowrap="nowrap"><font face="Courier">V-.</font></td>
-            </tr>
-          <tr>
-            <td><img alt="" border="0" hspace="10" src="pix/s/tongueout.gif" width="15" height="15" /></td>
-            <td>nyelvnyújtás</td>
-            <td nowrap="nowrap"><font face="Courier">:-P</font></td>
+      <td><code>:-)</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext(':-D')"><img alt="" border="0" hspace="10" src="pix/s/biggrin.gif" class="icon" alt="" /></a></td>
+      <td>vigyor</td>
+      <td><code>:-D</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext(';-)')"><img alt="" border="0" hspace="10" src="pix/s/wink.gif" class="icon" alt="" /></a></td>
+      <td>kacsintás</td>
+      <td><code>;-)</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext(':-/')"><img alt="" border="0" hspace="10" src="pix/s/mixed.gif" class="icon" alt="" /></a></td>
+      <td>vegyes</td>
+      <td><code>:-/</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext('V-.')"><img alt="" border="0" hspace="10" src="pix/s/thoughtful.gif" class="icon" alt="" /></a></td>
+      <td>töprengés</td>
+      <td><code>V-.</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext(':-P')"><img alt="" border="0" hspace="10" src="pix/s/tongueout.gif" class="icon" alt="" /></a></td>
+      <td>nyelvnyújtás</td>
+      <td><code>:-P</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext('B-)')"><img alt="" border="0" hspace="10" src="pix/s/cool.gif" class="icon" alt="" /></a></td>
+      <td>klassz</td>
+      <td><code>B-)</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext('^-)')"><img alt="" border="0" hspace="10" src="pix/s/approve.gif" class="icon" alt="" /></a></td>
+      <td>rendben</td>
+      <td><code>^-)</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext('8-)')"><img alt="" border="0" hspace="10" src="pix/s/wideeyes.gif" class="icon" alt="" /></a></td>
+      <td>tágra nyílt szemek</td>
+      <td><code>8-)</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext('8-o')"><img alt="" border="0" hspace="10" src="pix/s/surprise.gif" class="icon" alt="" /></a></td>
+      <td>meglepődés</td>
+      <td><code>8-o</code></td>
+    </tr>
+    </table>
+  </td>
+  <td>
+    <table border="0" align="center" cellpadding="5">
+    <tr>
+      <td><a href="javascript:inserttext(':-(')"><img alt="" border="0" hspace="10" src="pix/s/sad.gif" class="icon" alt="" /></a></td>
+      <td>szomorúság</td>
+      <td><code>:-(</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext('8-.')"><img alt="" border="0" hspace="10" src="pix/s/shy.gif" class="icon" alt="" /></a></td>
+      <td>félénkség</td>
+      <td><code>8-.</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext(':-I')"><img alt="" border="0" hspace="10" src="pix/s/blush.gif" class="icon" alt="" /></a></td>
+      <td>elpirulás</td>
+      <td><code>:-I</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext(':-X')"><img alt="" border="0" hspace="10" src="pix/s/kiss.gif" class="icon" alt="" /></a></td>
+      <td>puszi</td>
+      <td><code>:-X</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext(':o)')"><img alt="" border="0" hspace="10" src="pix/s/clown.gif" class="icon" alt="" /></a></td>
+      <td>bohóc</td>
+      <td><code>:o)</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext('P-|')"><img alt="" border="0" hspace="10" src="pix/s/blackeye.gif" class="icon" alt="" /></a></td>
+      <td>fekete szem</td>
+      <td><code>P-|</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext('8-[')"><img alt="" border="0" hspace="10" src="pix/s/angry.gif" class="icon" alt="" /></a></td>
+      <td>düh</td>
+      <td><code>8-[</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext('xx-P')"><img alt="" border="0" hspace="10" src="pix/s/dead.gif" class="icon" alt="" /></a></td>
+      <td>halott</td>
+      <td><code>xx-P</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext('|-.')"><img alt="" border="0" hspace="10" src="pix/s/sleepy.gif" class="icon" alt="" /></a></td>
+      <td>álmos</td>
+      <td><code>|-.</code></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:inserttext('}-]')"><img alt="" border="0" hspace="10" src="pix/s/evil.gif" class="icon" alt="" /></a></td>
+      <td>gonosz</td>
+      <td><code>}-]</code></td>
          </tr>
-          <tr>
-            <td><img alt="" border="0" hspace="10" src="pix/s/cool.gif" width="15" height="15" /></td>
-            <td>klassz</td>
-            <td nowrap="nowrap"><font face="Courier">B-)</font></td>
-          </tr>
-            <tr>
-              <td><img alt="" border="0" hspace="10" src="pix/s/approve.gif" width="15" height="15" /></td>
-              <td>rendben</td>
-              <td nowrap="nowrap"><font face="Courier">^-)</font></td>
-            </tr>
-            <tr>
-              <td><img alt="" border="0" hspace="10" src="pix/s/wideeyes.gif" width="15" height="15" /></td>
-              <td>tágra nyílt szemek</td>
-              <td nowrap="nowrap"><font face="Courier">8-)</font></td>
-            </tr>
-            <tr>
-              <td><img alt="" border="0" hspace="10" src="pix/s/surprise.gif" width="15" height="15" /></td>
-              <td>meglepődés</td>
-              <td nowrap="nowrap"><font face="Courier">8-o</font></td>
-           </tr>
-      </table>
-      	</td>
-         </tr>
-        </table>
- 
-        <table border="0" align="center" cellpadding="10">
-            <tr>
-              <td><img alt="" border="0" hspace="10" src="pix/s/sad.gif" width="15" height="15" /></td>
-              <td>szomorúság</td>
-              <td nowrap="nowrap"><font face="Courier">:-(</font></td>
-            </tr>
-            <tr>
-              <td><img alt="" border="0" hspace="10" src="pix/s/shy.gif" width="15" height="15" /></td>
-              <td>félénkség</td>
-              <td nowrap="nowrap"><font face="Courier">8-.</font></td>
-            </tr>
-          <tr>
-            <td><img alt="" border="0" hspace="10" src="pix/s/blush.gif" width="15" height="15" /></td>
-            <td>elpirulás</td>
-            <td nowrap="nowrap"><font face="Courier">:-I</font></td>
-          </tr>
-            <tr>
-              <td><img alt="" border="0" hspace="10" src="pix/s/kiss.gif" width="15" height="15" /></td>
-              <td>puszi</td>
-              <td nowrap="nowrap"><font face="Courier">:-X</font></td>
-            </tr>
-          <tr>
-            <td><img alt="" border="0" hspace="10" src="pix/s/clown.gif" width="15" height="15" /></td>
-            <td>bohóc</td>
-            <td nowrap="nowrap"><font face="Courier">:o)</font></td>
-          </tr>
-          <tr>
-            <td><img alt="" border="0" hspace="10" src="pix/s/blackeye.gif" width="15" height="15" /></td>
-            <td>fekete szem</td>
-            <td nowrap="nowrap"><font face="Courier">P-|</font></td>
-          </tr>
-            <tr>
-              <td><img alt="" border="0" hspace="10" src="pix/s/angry.gif" width="15" height="15" /></td>
-              <td>düh</td>
-              <td nowrap="nowrap"><font face="Courier">8-[</font></td>
-            </tr>
-            <tr>
-              <td><img alt="" border="0" hspace="10" src="pix/s/dead.gif" width="15" height="15" /></td>
-              <td>halott</td>
-              <td nowrap="nowrap"><font face="Courier">xx-P</font></td>
-            </tr>
-            <tr>
-              <td><img alt="" border="0" hspace="10" src="pix/s/sleepy.gif" width="15" height="15" /></td>
-              <td>álmos</td>
-              <td nowrap="nowrap"><font face="Courier">|-.</font></td>
-            </tr>
-          <tr>
-            <td><img alt="" border="0" hspace="10" src="pix/s/evil.gif" width="15" height="15" /></td>
-            <td>gonosz</td>
-            <td nowrap="nowrap"><font face="Courier">}-]</font></td>
-          </tr>
         </table>
 
 </ul>

@@ -1,4 +1,4 @@
-<p align="center"><strong>Felhasználók feltöltése</strong></p>
+<h1>Felhasználók feltöltése</h1>
 
 <p>Először is ne feledje, hogy <strong>rendszerint nincs szükség felhasználók tömeges 
 importálására</strong> - a karbantartási munka mérséklése érdekében 
@@ -18,17 +18,17 @@ megformázni:</p>
   Ez határozza meg az állomány fennmaradó részének a formáját. <blockquote>
       <p><strong>Szükséges mezőnevek:</strong> ezeket a mezőket az első rekordnak kell tartalmaznia - 
       minden egyes felhasználóra vonatkozóan</p>
-      <p><font color="#990000" face="Courier New, Courier, mono">username, password, firstname, lastname, email</font></p>
+      <code class="example1">username, password, firstname, lastname, email</code>
       <p><strong>Alapbeállítás szerinti mezőnevek:</strong> ezek opcionálisak - ha nem 
       szerepelnek, értékeiket az elsődleges rendszergazda adja.</p>
-      <p><font color="#990000" face="Courier New, Courier, mono">intézmény, tanszék, város, ország, nyelv, 
-      időzóna</font> </p>
+      <code class="example1">intézmény, tanszék, város, ország, nyelv, 
+      időzóna</code>
       <p><strong>Opcionális mezőnevek: </strong>ezek mindegyike teljesen opcionális. A kurzusnevek a kurzusok "rövid nevei" 
       - ha meg van adva, a felhasználó tanulóként kerül bele az adott kurzusba. A csoportneveket 
       társítani kell a megfelelő kurzussal, vagyis a group1-et a course1-gyel stb.</p>
-      <p> <font color="#990000" face="Courier New, Courier, mono">idnumber, icq, phone1, phone2, address, url, description, mailformat, 
+      <code class="example1">idnumber, icq, phone1, phone2, address, url, description, mailformat, 
       maildisplay, htmleditor, autosubscribe, course1, course2, course3, course4, course5, group1, group2, group3, group4, group5,
-      type1, type2, type3, type4, type5</font></p>
+      type1, type2, type3, type4, type5</code></p>
     </blockquote>
     </li>
   <li>Az adatok közötti vesszőket &#44; formában kell megadni - a parancssor ezt automatikusan visszaírja 
@@ -47,9 +47,9 @@ megformázni:</p>
   
   
 <p>Íme egy példa egy érvényes importálási állományra:</p>
-<p><font size="-1" face="Courier New, Courier, mono">username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1, type1<br />
+<code class="example1">username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1, type1<br />
 jonest, verysecret, Tom, Jones, jonest@someplace.edu, en, 3663737, 1, Intro101, Section 1, 1<br />
-reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3, 3</font></p>
+reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3, 3</code>
 
 <h1>Meglévő felhasználói nevek frissítése</h1>
 
@@ -58,7 +58,7 @@ megegyeznek egy meglévővel. Ha viszont a "Meglévő felhasználói nevek friss
 rendszer frissíti. </p>
 
 <p>Meglévő felhasználói nevek frissítése során maga a felhasználói név is módosítható. Állítsa az "Átnevezés engedélyezése"-t <b>Igen</b>-re
-és szúrjon be az állományba egy <font color="#990000" face="Courier New, Courier, mono">oldusername</font> nevű mezőt.</p>
+és szúrjon be az állományba egy <code class="example1">oldusername</code> nevű mezőt.</p>
 
 <p><b>Vigyázat:</b> a felhasználói nevek frissítése során bekövetkező hiba súlyosan érintheti felhasználóit. 
 Ezért a frissítési opciók használata során legyen körültekintő.</p>

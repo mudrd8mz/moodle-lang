@@ -1,51 +1,52 @@
-<?PHP // $Id$ 
-      // choice.php - created with Moodle 1.6 Beta 3 (2006041100)
-
-
-$string['addmorechoices'] = 'További válaszok hozzáadása';
-$string['allowupdate'] = 'Válasz frissítésének engedélyezése';
+<?PHP // $Id$
+      // choice.php - created with Moodle 1.7 beta + (2006101003) 
+$string['addmorechoices'] = 'További válaszlehetőségek hozzáadása';
+$string['allowupdate'] = 'Válaszlehetőség frissítésének engedélyezése';
 $string['answered'] = 'Megválaszolva';
-$string['choice:choose'] = "Válasz rögzítése";
-$string['choice:deleteresponses'] = "Viszontválaszok törlése";
-$string['choice:downloadresponses'] = "Viszontválaszok letöltése";
-$string['choice:readresponses'] = "Viszontválaszok olvasása";
-$string['choice'] = '$a választás';
+$string['choice'] = 'Válaszlehetőség';
+$string['choice:choose'] = 'Válaszlehetőség rögzítése';
+$string['choice:deleteresponses'] = 'Viszontválaszok törlése';
+$string['choice:downloadresponses'] = 'Viszontválaszok letöltése';
+$string['choice:readresponses'] = 'Viszontválaszok olvasása';
 $string['choiceclose'] = 'Meddig';
-$string['choicename'] = 'Választás neve';
+$string['choicename'] = 'Válaszlehetőség neve';
 $string['choiceopen'] = 'Megnyitás';
-$string['choicetext'] = 'Választás szövege';
+$string['choicetext'] = 'Válaszlehetőség szövege';
 $string['displayhorizontal'] = 'Vízszintes kijelzés';
 $string['displaymode'] = 'Kijelzési mód';
 $string['displayvertical'] = 'Függőleges kijelzés';
-$string['fillinatleastoneoption'] = "Legalább két lehetséges választ meg kell adnia.";
+$string['expired'] = 'Ez a tevékenység $a időpontban lezárult és már nem érhető el';
+$string['fillinatleastoneoption'] = 'Legalább két lehetséges választ meg kell adnia.';
 $string['full'] = '(Teljes)';
-$string['havetologin'] = 'Válasz megadása előtt be kell jelentkeznie';
+$string['havetologin'] = 'Válaszlehetőség megadása előtt be kell jelentkeznie';
 $string['limit'] = 'Korlát';
 $string['limitanswers'] = 'Engedélyezett válaszok számának korlátozása';
-$string['modulename'] = 'Válasz';
-$string['modulenameplural'] = 'Válaszok';
-$string['mustchooseone'] = 'Mentés előtt válasszon egy választ. Nem történt mentés.';
-$string['noguestchoose'] = "Vendégek nem adhatnak meg válaszokat.";
-$string['noresultsviewable'] = "Az eredmények jelenleg nem tekinthetők meg.";
+$string['modulename'] = 'Válaszlehetőség';
+$string['modulenameplural'] = 'Válaszlehetőségek';
+$string['mustchooseone'] = 'Mentés előtt válasszon egy választ. Semmiről nem készült mentés.';
+$string['noguestchoose'] = 'Vendégek nem választhatnak.';
+$string['noresultsviewable'] = 'Az eredmények jelenleg nem tekinthetők meg.';
 $string['notanswered'] = 'Még nincs válasz';
-$string['notopenyet'] = 'Sajnos erre $a -ig nincs lehetőség';
-$string['privacy'] = 'Az eredmények bizalmasak';
+$string['notopenyet'] = 'Ez a tevékenység $a időpontig nem elérhető';
+$string['privacy'] = 'Az eredmények titkossága';
 $string['publish'] = 'Eredmények közzététele';
 $string['publishafteranswer'] = 'Eredmény megmutatása a tanulónak, miután válaszolt';
-$string['publishafterclose'] = 'Eredmény megmutatása a tanulónak, miután a választás lezárult';
-$string['publishalways'] = 'Eredmények mindenkori megmutatása a tanulónak';
-$string['publishanonymous'] = 'Eredmények név nélküli közzététele';
-$string['publishnames'] = 'Eredmények teljes közzététele névvel és választásokkal együtt';
+$string['publishafterclose'] = 'Eredmény megmutatása a tanulónak, miután a választási lehetőség lezárult';
+$string['publishalways'] = 'Eredmények mindenkori megmutatása a tanulóknak';
+$string['publishanonymous'] = 'Eredmények tanuló neve nélküli közzététele';
+$string['publishnames'] = 'Eredmények teljes közzététele nevekkel és válaszlehetőségekkel együtt';
 $string['publishnot'] = 'Ne mutassa meg az eredményeket a tanulóknak';
+$string['removeresponses'] = 'Az összes viszontválasz törlése';
 $string['responses'] = 'Viszontválaszok';
-$string['responsesto'] = 'Viszontválaszok $a részére';
-$string['savemychoice'] = 'Választásom mentése';
-$string['showunanswered'] = 'Válasz nélküli oszlop megmutatása';
-$string['spaceleft'] = 'meglévő hely';
-$string['spacesleft'] = 'meglévő hely';
-$string['taken'] = 'Foglalt';
+$string['responsesto'] = 'Viszontválaszok erre: $a';
+$string['savemychoice'] = 'Válaszlehetőségem mentése';
+$string['removemychoice'] = 'Válaszlehetőségem törlése';
+$string['showunanswered'] = 'Válasz nélküli oszlop megjelenítése';
+$string['spaceleft'] = 'felhasználható hely';
+$string['spacesleft'] = 'felhasználható helyek';
+$string['taken'] = 'Elvégezve';
 $string['timerestrict'] = 'Válaszadás korlátozása eddig az időpontig';
-$string['viewallresponses'] = 'A(z) $a viszontválaszainak megtekintése';
+$string['viewallresponses'] = '$a viszontválasz megtekintése';
 $string['yourselection'] = 'Az Ön választása';
 
 ?>

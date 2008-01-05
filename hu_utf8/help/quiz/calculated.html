@@ -1,52 +1,54 @@
-<P ALIGN=CENTER><B>Számításos kérdések</B></P>
-A számításos kérdésekkel egyedi kérdéseket hozhatunk létre olyan 
+<h1>Számításos kérdések</h1>
+<p>A számításos kérdésekkel egyedi kérdéseket hozhatunk létre olyan 
 helyettesítők megadásával, amelyek helyére a teszt megoldása során 
 konkrét értékek kerülnek.
-<br/>Alább egy rövid változata látható a fő szerkesztő oldalnak, benne néhány példával:<br/>
+<br />Alább egy rövid változata látható a fő szerkesztő oldalnak, benne néhány példával:</p>
 
 <table><tbody>
 <tr valign="top">
-    <td align="right"><p><b>Kérdés:</b></p>
-    </td>
+ <th scope="col" align="right">Kérdés:</th>
+    
     <td>
         <textarea id="questiontext" name="questiontext" rows="5" cols="40" wrap="virtual">Mennyi {a} + {b} ?</textarea>
 </td>
 </tr>
 <tr valign="top">
-    <td align="right"><p><b>Használandó kép:</b></p></td>
+     <th scope="col" align="right">Használandó kép:</th>
+     
     <td>
     <select name="image"><option value="" selected="selected">Semmi</option><option value="grevture.gif">grevture.gif</option></select>
     </td>
 </tr>
 
 <tr valign="top">
-<td align="right"><p><b>Helyes képlet:</b></p></td>
+<th scope="col" align="right">Helyes képlet:</th>
+
     <td>
-    <input align="left" type="text" id="formula0" name="answer[]" size="20" value="{a} + {b}">  
-    <input type="hidden" name="fraction[]" value="1.0">
+    <input align="left" type="text" id="formula0" name="answer[]" size="20" value="{a} + {b}" />&nbsp;&nbsp;
+    <input type="hidden" name="fraction[]" value="1.0" />
     </td>
 </tr>
 <tr valign="top">
-    <td align="right"><p><b>Tolerancia:</b></p></td>
-    <td>
-    <input align="left" type="text" id="tolerance0"" name="tolerance[]" size="15" value="0.01">ą
+    <th scope="col" align="right">Tolerancia:</th>
+        <td>
+    <input align="left" type="text" id="tolerance0&quot;" name="tolerance[]" size="15" value="0.01" />Â±
     </td>
 </tr>
 <tr valign="top">
-<td align="right"><p><b>Tolerancia típusa:</b></p></td>
+<th scope="col" align="right">Tolerancia típusa:</th>
     <td>
     <select name="tolerancetype[]"><option value="1" selected="selected">Relatív</option><option value="2">Nominális</option><option value="3">Geometriai</option></select>
     </td>
 </tr>
 <tr valign="top">
-<td align="right"><p><b>Szignifikáns számjegyek:</b></p></td>
+<th scope="col" align="right">Szignifikáns számjegyek:</th>
     <td>
     <select name="correctanswerlength[]"><option value="1">1</option><option value="2" selected="selected">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>
     </td>
 </tr>
 </tbody></table>
 
-<br/>
+<p>
 A kérdés szövegében és a "Helyes képlet" helyén {a} és {b} látható. 
 Ezek és bármely egyéb {név} használható helyettesítőként, melynek helyére a teszt
 megoldása során valamilyen érték kerül. Emellett a helyes érték kiszámítása is 
@@ -54,39 +56,40 @@ megtörténik, ha a tesztet a "Helyes képlet" kifejezéssel adják le, amely sz
 alakul a behelyettesítést követően. A lehetséges helyettesítők értékeit egy 
 későbbi oldalon lehet beállítani vagy előállítani a számításos 
 kérdések szerkesztő varázslójában...
-<br/>A példaképletben a + műveleti jel szerepel. Egyéb elfogadható jelek: -*/ és %, ahol a % a moduló. 
-Használhatók emellett egyes PHP-szerű matematikai függvények. Ilyenek a 24 egyargumentumú függvény:<br/><b>
+</p> 
+<p>A példaképletben a + műveleti jel szerepel. Egyéb elfogadható jelek: -*/ és %, ahol a % a moduló. 
+Használhatók emellett egyes PHP-szerű matematikai függvények. Ilyenek a 24 egyargumentumú függvény:<br /><b>
 abs, acos, acosh, asin, asinh, atan, atanh, ceil, cos, cosh, deg2rad, exp, expm1, floor, log, log10, log1p, rad2deg, round, sin, sinh, sprt, tan, tanh
-</b><br/>és két kétargumentumú függvény<br/><b>
+</b><br />és két kétargumentumú függvény<br /><b>
 atan2, pow
-</b><br/> továbbá a <b>min</b> és a <b>max</b> függvény, melyek két vagy több argumentumot vehetnek fel.
+</b><br /> továbbá a <b>min</b> és a <b>max</b> függvény, melyek két vagy több argumentumot vehetnek fel.
  Ugyancsak használható az argumentum nélküli <b>pi</b> függvény, de ne feledkezzünk meg a 
  zárójelek használatáról - a helyes használat: <b>pi()</b>. Hasonlóképpen a többi
 függvény argumentumait zárójelek közé kell tenni. Például:  <b>sin({a}) + cos({b}) * 2</b>. 
 A függvények egymásba ágyazása nem okozhat gondot, pl. <b>cos(deg2rad({a} + 90))</b> stb.
-<br/>A PHP-szerű függvényekről részletesebben lásd  <a target="phpmathdoc" href="http://www.php.net/manual/en/ref.math.php">a PHP portálján található dokumentációt</a>.
-<br/><br/>
+<br />A PHP-szerű függvényekről részletesebben lásd  <a target="phpmathdoc" href="http://www.php.net/manual/en/ref.math.php">a PHP portálján található dokumentációt</a>.
+</p><p>
 Számjegyes kérdések esetén megadható egy határ, melyen belül minden válasz helyesnek 
 fogadható el. Erre a célra szolgál a "Tolerancia" mező. Háromféle tolerancia létezik. 
 Ezek a <b>relatív, nominális és geometriai</b>. Ha azt feltételezzük, hogy a teszt időpontjában 
 a helyes válasz 200, a tolerancia pedig 0,5, akkor a különféle toleranciatípusoknál ez így alakul:
-<br/><br/><b>Relatív:</B> A tolerancia intervallumának a kiszámítása a helyes válasz 0,5-del való 
+</p><p><b>Relatív:</b> A tolerancia intervallumának a kiszámítása a helyes válasz 0,5-del való 
 megszorzásával történik, vagyis ez esetben 100-at kapunk, így ezen tolerancia esetén a helyes 
-feleletnek 100 és 300 közé kell esni.  (200 ą 100)<br/>
+feleletnek 100 és 300 közé kell esni.  (200 Â± 100)<br />
 Ez akkor hasznos megoldás, amikor a helyes válaszok nagyban eltérhetnek a helyettesítő értékeket illetően.
-<br/><br/><b>Nominális:</b>  Ez a legegyszerűbb toleranciatípus, ugyanakkor nem a legalkalmasabb. A helyes 
-feleletnek 199,5 és 200,5 közé kell esni. (200 ą 0,5)<br/>
+</p><p><b>Nominális:</b>  Ez a legegyszerűbb toleranciatípus, ugyanakkor nem a legalkalmasabb. A helyes 
+feleletnek 199,5 és 200,5 közé kell esni. (200 Â± 0,5)<br />
 Ez a toleranciatípus akkor hasznos megoldás, amikor a helyes válaszok csak csekély mértékben térnek el egymástól.
-<br/><br/><b>Geometriai:</b> A tolerancia intervallumának felső határa 200 + 0,5*200, egyben azonos a relatívval.
- Az alsó határ 200/(1 + 0,5). A helyes feleletnek 133,33 és 300 közé kell esni.<br/>
+</p><p><b>Geometriai:</b> A tolerancia intervallumának felső határa 200 + 0,5*200, egyben azonos a relatívval.
+ Az alsó határ 200/(1 + 0,5). A helyes feleletnek 133,33 és 300 közé kell esni.<br />
 Ez olyan bonyolult, nagy toleranciatartományt igénylő számítások esetén hasznos, ahol 
 a felső határt a legalább 1-es relatív tolerancia adja, alsó határnak viszont egyértelműen elfogadhatatlan, mivel 
 minden esetben 0 volna a helyes válasz.
-<br/><br/>
+</p><p>
 A  <b>Szignifikáns számjegyek</b> mindössze a helyes válasznak az ellenőrzésben
 vagy jelentésekben való megjelenítésére vonatkozik. 
 Példák: Ha ez az érték 3, akkor a 13,333 mint helyes válasz 13,3 formában jelenik meg; 
 az 1236 helyén 1240; a 23 helyén 23,0 stb. lesz látható.
-<br/><br/>
+</p><p>
 A visszajelzési mező és az opcionális egységmezők a számjegyes kérdésekkel azonos módon működnek.
-<br/>
+</p>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // countries.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // countries.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['AD'] = 'Andorra';
@@ -24,7 +24,7 @@ $string['BD'] = 'Banglades';
 $string['BE'] = 'Belgium';
 $string['BF'] = 'Burkina Faso';
 $string['BG'] = 'Bulgária';
-$string['BH'] = 'Bahrain';
+$string['BH'] = 'Bahrein';
 $string['BI'] = 'Burundi';
 $string['BJ'] = 'Benin';
 $string['BM'] = 'Bermuda';
@@ -90,9 +90,9 @@ $string['GQ'] = 'Egyenlítői-Guinea';
 $string['GR'] = 'Görögország';
 $string['GT'] = 'Guatemala';
 $string['GU'] = 'Guam';
-$string['GW'] = 'Guinea-Bissau';
+$string['GW'] = 'Bissau-Guinea';
 $string['GY'] = 'Guyana';
-$string['HK'] = 'Hong Kong';
+$string['HK'] = 'Hongkong';
 $string['HM'] = 'Heard-sziget és McDonalds-szigetek';
 $string['HN'] = 'Honduras';
 $string['HR'] = 'Horvátország';
@@ -102,7 +102,7 @@ $string['ID'] = 'Indonézia';
 $string['IE'] = 'Írország';
 $string['IL'] = 'Izrael';
 $string['IN'] = 'India';
-$string['IO'] = 'Brit Indiai-Óceániai Terület';
+$string['IO'] = 'Brit Indiai-óceániai Terület';
 $string['IQ'] = 'Irak';
 $string['IR'] = 'Irán';
 $string['IS'] = 'Izland';
@@ -192,7 +192,7 @@ $string['SC'] = 'Seychelles-szigetek';
 $string['SD'] = 'Szudán';
 $string['SE'] = 'Svédország';
 $string['SG'] = 'Szingapúr';
-$string['SH'] = 'Szent Ilona';
+$string['SH'] = 'St. Helena';
 $string['SI'] = 'Szlovénia';
 $string['SJ'] = 'Spitzbergák';
 $string['SK'] = 'Szlovákia';
@@ -207,7 +207,7 @@ $string['SY'] = 'Szíria';
 $string['SZ'] = 'Szváziföld';
 $string['TC'] = 'Turk- és Caicos-szigetek';
 $string['TD'] = 'Csád';
-$string['TF'] = 'Francia Déli Területek ';
+$string['TF'] = 'Francia Déli Területek';
 $string['TG'] = 'Togo';
 $string['TH'] = 'Thaiföld';
 $string['TJ'] = 'Tadzsikisztán';
@@ -235,7 +235,7 @@ $string['VN'] = 'Vietnam';
 $string['VU'] = 'Vanuatu';
 $string['WA'] = 'Wales';
 $string['WF'] = 'Wallis és Futuna-szigetek';
-$string['WS'] = 'Samoa';
+$string['WS'] = 'Szamoa';
 $string['YE'] = 'Jemen';
 $string['YT'] = 'Mayotte';
 $string['ZA'] = 'Dél-Afrika';

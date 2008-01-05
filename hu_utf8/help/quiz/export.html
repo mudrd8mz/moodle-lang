@@ -1,12 +1,12 @@
-<p align="center"><strong>Kérdések exportálása egy kategóriából</strong></p>
+<h1>Kérdések exportálása egy kategóriából</h1>
 
 <p>Ezzel a funkcióval kérdések egész kategóriáját exportálhatjuk egy szöveges állományba. 
 
-<p>Ne feledjük, hogy egy sor fájlforma esetén bizonyos információk elvesznek, ha exportáljuk a kérdéseket. Ennek az az oka, hogy számos forma nem rendelkezik az összes olyan jellemzővel, amellyel a Moodle kérdései fel vannak ruházva. Nem várhatjuk el, hogy a kérdések exportálása és importálása után azok majd azonosak is lesznek. Ráadásul előfordulhat, hogy egyes kérdéstípusokat egyáltalán nem lehet exportálni. Ajánlatos az exportált adatokat ellenőrizni, mielőtt konkrét előállítási környezetben használnánk őket.</p>
+<p>Ne feledje, hogy egy sor fájlforma esetén bizonyos információk elvesznek, ha exportálja a kérdéseket. Ennek az az oka, hogy számos forma nem rendelkezik az összes olyan jellemzővel, amellyel a Moodle kérdései fel vannak ruházva. Nem várhatjuk el, hogy a kérdések exportálása és importálása után azok majd azonosak is lesznek. Ráadásul előfordulhat, hogy egyes kérdéstípusokat egyáltalán nem lehet exportálni. Ajánlatos az exportált adatokat ellenőrizni, mielőtt konkrét előállítási környezetben használná őket.</p>
 
 <p>A jelenleg támogatott forma (formák) a következők:</p>
 
-<p><strong>GIFT-forma</strong></p>
+<h2>GIFT-forma</h2>
 <ul>
 <p>Moodle-ban a tesztkérdések szöveges állományba exportálására a GIFT a legáltalánosabb rendelkezésre álló forma. Eredetileg egy könnyű módszert kínált arra, hogy a tanárok a kérdéseket szöveges állományként írhassák meg. Támogatja a feleletválasztós, igaz-hamis, kiegészítő, párosító és számjegyes kérdések használatát, továbbá az _____ beszúrását a "szókitöltő" forma esetén. Ne feledjük, hogy a kitöltő kérdések használatát a rendszer jelenleg nem támogatja. A különféle kérdéstípusokat egy szöveges állományon belül vegyesen is használhatjuk, emellett a forma támogatja egysoros megjegyzések, kérdésnevek, visszajelzés és százalékosan súlyozott pontok alkalmazását. Íme néhány példa:</p>
 <pre>
@@ -21,7 +21,25 @@ Ki fekszik Grant sírjában?{=senki =senki sem}
 Mikor született Ulysses S. Grant?{#1822}
 </pre>
 
-<p align=right><a href="help.php?file=formatgift.html&module=quiz">További információk a "GIFT" formával kapcsolatosan</a></p>
+<p align=right><a href="help.php?file=formatgift.html&amp;module=quiz">További információk a "GIFT" formával kapcsolatosan</a></p>
 </ul>
 
-<p>További formák kerülnek a rendszer a későbbiekben, ideértve a WebCT-t, az IMS QTI-t és bármely egyebet, amelyet a Moodle felhasználói rendelkezésre bocsátanak! </p>
+
+<h2>Moodle XML forma</h2>
+<ul>
+<p>Ez a speciális Moodle-forma a tesztkérdéseket egyszerű XML-ben exportálja. A kérdések bármely teszkategóriába importálhatók, vagy egyéb műveletek, pl. XSLT-átalakítás végezhető rajtuk. Az XML-forma a kérdésekhez mellékelt képeket is exportálja (base64 kódolással).</p>
+</ul>
+
+<h2>IMS QTI 2.0</h2>
+<ul>
+<p>Standard IMS QTI (2.0 verzió) szerinti formában exportál. Ne feledje, hogy ez esetben egy sor fájl készül, amely egyetlen 'zip' állományba van tömörítve.</p>
+<p align="right"><a href="http://www.imsglobal.org/question/" target="_qti">További információk az IMS QTI site</a>  (külső portál új ablakban)</p>
+</ul>
+
+<h2>XHTML</h2>
+<ul>
+<p>A kategóriát egyetlen szigorú XHTML-szabvány szerinti alakban exportálja. Minden kérdés egyértelműen külön &lt;div&gt; elempár közé kerül. Ha az oldalt adott állapotában kívánja használni, legalábbis a &lt;body&gt; rész elején lévő &lt;form&gt; elemet módosítania kell a megfelelő utasítás (pl. 'mailto') végrehajtásához.</p>
+</ul>
+
+<p>Az importálási és exportálási formák segédprogramokként állnak rendelkezésre. Egyéb lehetséges formákat találhat a Modulok és segédprogramok adatbázisban.</p>
+

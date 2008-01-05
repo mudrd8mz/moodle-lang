@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // pix.php - created with Moodle 1.6 Beta 3 (2006042401)
+      // pix.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['angry'] = 'dühös';
-$string['approve'] = 'elfogad';
+$string['approve'] = 'rendben';
 $string['biggrin'] = 'vigyor';
 $string['blackeye'] = 'fekete szem';
-$string['blush'] = 'elpirul';
+$string['blush'] = 'pirulás';
 $string['clown'] = 'bohóc';
 $string['cool'] = 'klassz';
 $string['dead'] = 'döglött';
@@ -17,10 +17,10 @@ $string['sad'] = 'szomorú';
 $string['shy'] = 'félénk';
 $string['sleepy'] = 'szundi';
 $string['smiley'] = 'mosoly';
-$string['surprise'] = 'meglepődik';
-$string['thoughtful'] = 'töpreng';
+$string['surprise'] = 'meglepetés';
+$string['thoughtful'] = 'töprengő';
 $string['tongueout'] = 'nyelvöltés';
 $string['wideeyes'] = 'tágra nyílt szemek';
-$string['wink'] = 'kacsint';
+$string['wink'] = 'kacsintás';
 
 ?>

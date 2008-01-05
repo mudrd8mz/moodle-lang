@@ -1,4 +1,4 @@
-<p align="center"><span style="font-weight: bold;">Szűrők kezelése</span></p>
+<h1>Szűrők kezelése</h1>
 
 <p>A Szűrők kezelése oldalon megadhatja, mely szűrőket és milyen 
 sorrendben alkalmazzon a program a kijelzett szöveghez. Emellett elérhetővé tesz néhány, 
@@ -14,7 +14,7 @@ Ezekkel az 'utolsó pillanatban' módosítható a szöveg.</p>
 amelyeket használni kíván. Ha egyszerre több is látszik,
 a fel és le nyilakkal beállíthatja alkalmazásuk sorrendjét. </p> 
    
-<p><span style="font-weight: bold;">TeX-jelölés</span></p>
+<h2>TeX-jelölés</h2>
 
 <div class="indent">
   <p>A TeX-jelölésmóddal elsősorban matematikai képleteket szúrhat be egy Moodle-forrásba. 
@@ -25,13 +25,14 @@ a fel és le nyilakkal beállíthatja alkalmazásuk sorrendjét. </p>
   <i>miktex</i> programot használja. A LaTex lehetővé teszi a teljes szintaxis használatát, 
   míg a miktex csak egy matematikai részhalmazt támogat.</p>
   <p>A beállítási oldalon megadhatja a LaTeX és a Ghostscript útvonalát, a LaTeX előtagjával együtt.</p>
-  <p>További információk</p>
-  <p><a href="http://www.miktex.org/">MiKTeX</a><br/>
-     <a href="http://www.latex-project.org/">LaTeX</a><br/>
+  <h3>További információk</h3>
+  <p><a href="http://www.miktex.org/">MiKTeX</a><br />
+       <a href="http://www.forkosh.com/mimetex.html">MimeTeX</a><br />
+     <a href="http://www.latex-project.org/">LaTeX</a><br />
      <a href="http://www.ghostscript.com/">Ghostscript</a></p>
 </div>
 
-<p><span style="font-weight: bold;">Szóhasználat korlátozása</span></p>
+<h2>Szóhasználat korlátozása</h2>
 
 <div class="indent">
   <p>A szóhasználatot korlátozó szűrő egy megadott jegyzék alapján keres rá a 
@@ -41,7 +42,7 @@ a fel és le nyilakkal beállíthatja alkalmazásuk sorrendjét. </p>
   egérmutató fölé vitelével láthatóvá válik az eredeti szó.</p>
 </div>
 
-<p><span style="font-weight: bold;">Forrásnevek automatikus kapcsolása</span></p>
+<h2>Forrásnevek automatikus kapcsolása</h2>
 
 <div class="indent">
   <p>A forrásnevek automatikus kapcsolása során a program végigvizsgálja az azonos kurzusban szereplő 
@@ -52,7 +53,7 @@ a fel és le nyilakkal beállíthatja alkalmazásuk sorrendjét. </p>
   hogy mire vonatkozik.</p>
 </div>
 
-<p><span style="font-weight: bold;">Tevékenységnevek automatikus kapcsolása</span></p>
+<h2>Tevékenységnevek automatikus kapcsolása</h2>
 
 <div class="indent">
   <p>A tevékenységnevek automatikus kapcsolása során a program végigvizsgálja az azonos kurzusban 
@@ -63,7 +64,7 @@ a fel és le nyilakkal beállíthatja alkalmazásuk sorrendjét. </p>
   hogy mire vonatkozik.</p>
 </div>
 
-<p><span style="font-weight: bold;">Fogalomtár automatikus kapcsolása</span></p>
+<h2>Fogalomtár automatikus kapcsolása</h2>
 
 <div class="indent">
   <p>Ez a szűrő végigvizsgálja a kurzusban szereplő összes fogalomtárban lévő 
@@ -72,7 +73,7 @@ a fel és le nyilakkal beállíthatja alkalmazásuk sorrendjét. </p>
   </p>
 </div>
 
-<p><span style="font-weight: bold;">E-mail védelme</span></p>
+<h2>E-mail védelme</h2>
 
 <div class="indent">
   <p>Az e-mail védelmét szolgáló szűrő a szövegben lévő e-mail címeket keresi ki.
@@ -81,7 +82,7 @@ a fel és le nyilakkal beállíthatja alkalmazásuk sorrendjét. </p>
   ha a Moodle-portálján egyes részek nyitva vannak.</p>
 </div>
 
-<p><span style="font-weight: bold;">Tidy</span></p>
+<h2>Tidy</h2>
 
 <div class="indent">
   <p>A Tidy a szövegben lévő HTML-kódokat vizsgálja végig. Ha ilyet talál, megpróbálja 
@@ -89,12 +90,14 @@ a fel és le nyilakkal beállíthatja alkalmazásuk sorrendjét. </p>
   a vonatkozó funkciót a PHP telepítése során bekapcsolni.</p>
 </div>
 
-<p><span style="font-weight: bold;">Többnyelvű tartalom</span></p>
+<h2>Többnyelvű tartalom</h2>
 
 <div class="indent">
   <p>Ez a szűrő többnyelvű források létrehozását teszi lehetővé. 
   A forrásnyelv ez esetben változik, ha a felhasználó módosítja a kiválasztott Moodle nyelvi 
   környezetet. Használatához előbb készítse el a tartalmakat több nyelven (azonos forráson 
   belül). Ezután az egyes nyelvi blokkokat tegye az alábbi elemek közé:</p>
-  <pre>      <lang lang="XX">tartalom_ide</lang></pre>
+   <pre>      &lt;span lang="XX" class="multilang"&gt;your_content_here&lt;/span&gt;</pre>
+  <p>You can still use the old (deprecated) span tags instead, for example:</p>
+  <pre>      &lt;lang lang="XX" &gt;tartalom_ide&lt;/lang&gt;</pre>
  </div>

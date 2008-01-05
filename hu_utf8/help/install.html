@@ -1,16 +1,16 @@
 <h1>A Moodle telepítése</h1>
-<h2>Nyugalom! <img src="http://moodle.org/pix/s/smiley.gif" /></h2>
+<h2>Nyugalom! <img src="http://moodle.org/pix/s/smiley.gif" alt="" /></h2>
 <blockquote>
   <p>Ebből az útmutatóból megtudhatja, hogyan telepítheti a Moodle-t az első alkalommal.  A leírás egyes lépéseket részletesen taglal
   annak érdekében, hogy a webszerverek lehetséges beállításainak túlnyomó részére kitérhessen, ezért ez a dokumentum hosszúnak
   és bonyolultnak tűnhet. De izgalomra nincs ok: ha tudja, mi a módja, a Moodle-t percek alatt telepíteni tudja!</p>
   <p>Ha gondja támad, alaposan olvassa végig az alábbiakat - a legtöbb kérdésre alább megkapja a választ.
      Ha továbbra is problémába ütközik, választ kaphat a 
-   <a target="_blank" href="http://moodle.org/help">Moodle Súgó</a>-ból.</p>
-  <p>Egy másik lehetőség, ha megbíz egy <a target="_blank" href="http://moodle.com/hosting/">internetes szolgáltató vállalatot</a>,
+    <a href="http://moodle.org/help">Moodle súgójából.</a></p>
+  <p>Egy másik lehetőség, ha megbíz egy <a href="http://moodle.com/hosting/">internetes szolgáltató vállalatot</a>,
      amely teljes egészében átvállalja a Moodle kezelését, így Önnek egyből csak a tanításra kell koncentrálnia!
 </p>
-  <p>   </p>
+  <p>&nbsp;    </p>
   <p>A leírás részei:</p>
   <ol>
     <li><a href="#requirements">Követelmények</a></li>
@@ -28,31 +28,29 @@
      </ol>
   <p> </p>
 </blockquote>
-<h3 class="sectionheading"><a name="requirements"></a>1. Követelmények</h3>
+<h3 class="sectionheading" id="requirements">1. Követelmények</h3>
 <blockquote> 
   <p>A Moodle alapvetően Linux alatt lett kifejlesztve az Apache, a MySQL és a PHP (együttesen időnként LAMP platformként ismert)
   környezetben, de rendszeresen ellenőrzésen megy át a PostgreSQL adatbázis-kezelővel, illetve Windows XP, Mac OS X és Netware 6
   operációs rendszerben</p>
   <p>A Moodle futtatásához a következőkre van szükség:</p>
   <ol>
-    <li>Webszerver. A legelterjedtebb az <a href="http://www.apache.org/" target="_blank">Apache</a>, 
+    <li>Webszerver. A legelterjedtebb az <a href="http://www.apache.org/" >Apache</a>, 
       de a Moodle bármely egyéb PHP-t támogató webszerverrel megfelelően futtatható, például Windows alatt az IIS-sel.</li>
-    <li><a href="http://www.php.net/" target="_blank">PHP</a> programozási language (4.1.0-es vagy magasabb verzió). 
+    <li><a href="http://www.php.net/">PHP</a> programozási language (4.1.0-es vagy magasabb verzió). 
     A Moodle 1.4 változatától felfelé a rendszer támogatja a PHP 5 használatát. </li>
-    <li>működő adatbázisszerver: a <a href="http://www.mysql.com/" target="_blank">MySQL</a> 
-      vagy a <a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a> használatát a Moodle teljes mértékben támogatja, így ezek használata ajánlott. </li>
+    <li>működő adatbázisszerver: a <a href="http://www.mysql.com/">MySQL</a> 
+      vagy a <a href="http://www.postgresql.org/">PostgreSQL</a> használatát a Moodle teljes mértékben támogatja, így ezek használata ajánlott. </li>
   </ol>
   <p>A legtöbb webes környezet ezeket alapbeállításban támogatja. Ha azon csekély számú internetes szolgáltató egyikével áll kapcsolatban,
   amely ezeket nem támogatja, kérdezze meg, mi ennek az oka és vegye fontolóra valamely másik szolgáltató kiválasztását.</p>
-  <p>Ha a Moodle-t saját gépén kívánja futtatni és a fentiek kissé ijesztőnek tűnnek, olvassa el <a href="http://moodle.org/doc/?file=installamp.html">Az  
-    Apache, a MySQL és a PHP telepítése</a> című tájékoztatónkat. Ebből lépésről lépésre ismerheti meg 
-    ezen programok telepítését a legelterjedtebb platformokra.</p>
-  <p> </p>
+  <p>Ha a Moodle-t saját gépén kívánja futtatni és a fentiek kissé ijesztőnek tűnnek, olvassa el <a href="http://docs.moodle.org/en/Administrator_documentation">rendszergazdáknak szóló tájékoztatónkat</a>.</p>
+  <p>&nbsp; </p>
 </blockquote>
-<h3 class="sectionheading"><a name="downloading"></a>2. Állományok letöltése és helyükre másolása </h3>
+<h3 class="sectionheading" id="downloading"></a>2. Állományok letöltése és helyükre másolása </h3>
 <blockquote>
   <p>A Moodle kétféleképpen szerezhető be: tömörített csomagként és a CVS-en keresztül. Ezekről részletesen lásd a letöltési oldalt: 
-  <a href="http://moodle.org/download/" target="_blank">http://moodle.org/download/</a></p>
+  <a href="http://moodle.org/download/">http://moodle.org/download/</a></p>
   <p>A csomag letöltése és kicsomagolása, illetve az állományok CVS-en keresztüli elérése után a felhasználó a "moodle" könyvtárba kerül, 
   amelyben számos állomány és mappa található.</p>
   <p>Lehetősége van a komplett könyvtárat a webszerver dokumentumkönyvtárába helyezni, 
@@ -62,12 +60,12 @@
   feltölteni, majd a szerveren kicsomagolni. Még a Cpanelhez hasonló webes környezetben is lehetőség van a csomagok kibontására, például a "File Manager" segítségével. </p>
 </blockquote>
 <p> </p>
-<h3 class="sectionheading"><a name="site"></a>3. A portál szerkezete</h3>
+<h3 class="sectionheading" id="site"></a>3. A portál szerkezete</h3>
 <blockquote>
   <p>Ezt a részt nyugodtan átugorhatja, tájékoztatásul alább egy összegzést talál a Moodle mappa tartalmáról:</p>
   <blockquote>
     <table><tr>
-      <td width="130" valign="top">config.php</td>
+      <td valign="top">config.php</td>
       <td valign="top">-</td>
       <td valign="top">
         az alapvető beállításokat tartalmazza. Ezt a Moodle nem foglalja magában - Ön fogja létrehozni. </td>
@@ -106,7 +104,7 @@
     <p> </p>
   </blockquote>
 </blockquote>
-<h3 class="sectionheading"><a name="installer"></a>4. A telepítő program futtatása a config.php létrehozására </h3>
+<h3 class="sectionheading" id="installer"></a>4. A telepítő program futtatása a config.php létrehozására </h3>
 <blockquote>
   <p>A telepítő kód (install.php) futtatásához elegendő böngészőjében megnyitni a Moodle fő URL-jét, 
   vagy közvetlenül behívni a <strong>http://szerverem/install.php</strong> állományt. </p>
@@ -122,7 +120,7 @@
 </blockquote>
 <blockquote>
 
-<h3 class="sectionheading"><a name="webserver" id="webserver"></a>4.1 A webszerver általános beállításai  </h3>
+<h3 class="sectionheading" id="webserver"></a>4.1 A webszerver általános beállításai  </h3>
   <blockquote>
     <p>Először is ellenőrizze, hogy webszerver alapbeállítás szerint az index.php fájlt használja-e 
     (esetleg az index.html, default.htm stb. mellett).</p>
@@ -186,8 +184,8 @@ php_value post_max_size 2M
       <pre>cp lib/htaccess .htaccess</pre>
     </blockquote>
   </blockquote>
-<p> </p>
-<h3 class="sectionheading"><a name="database"></a>4.2 Adatbázis létrehozása</h3>
+<p> &nbsp;</p>
+<h3 class="sectionheading" id="database"></a>4.2 Adatbázis létrehozása</h3>
 
   <blockquote>
     <p>Adatbázisrendszerében létre kell hoznia egy üres adatbázist (pl. "<em>moodle</em>") egy speciális felhasználóval (pl. "moodleuser"),
@@ -222,7 +220,7 @@ php_value post_max_size 2M
   </blockquote>
   <p> </p>
   
-<h3 class="sectionheading"><a name="data"></a>4.3 Adatkönyvtár létrehozása </h3>
+<h3 class="sectionheading" id="data"></a>4.3 Adatkönyvtár létrehozása </h3>
 
   <blockquote>
     <p>A Moodle-nak némi tárhelyre lesz szüksége a szerver merevlemezén a feltöltött állományok tárolására, 
@@ -249,7 +247,7 @@ php_value post_max_size 2M
 
 </blockquote>
 
-<h3 class="sectionheading"><a name="admin"></a>5. A beállítások folytatásához áttérés a rendszergazda oldalára </h3>
+<h3 class="sectionheading" id="admin"></a>5. A beállítások folytatásához áttérés a rendszergazda oldalára </h3>
 <blockquote> 
   <p>Ha a fenti lépés során sikerült a <strong>config.php</strong>-t létrehozni, térjen át portálja címoldalára, mellyel a beállítás
   további lépéseihez átkerül a "rendszergazda" oldalára.</p>
@@ -266,9 +264,9 @@ php_value post_max_size 2M
       unsigned NOT NULL default '0', enddate int(10) unsigned NOT NULL default 
       '0', timemodified int(10) unsigned NOT NULL default '0', PRIMARY KEY (id)) 
       TYPE=MyISAM</p>
-    <p><font color="#006600">SUCCESS</font></p>
+    <p class="success">SUCCESS</p>
   </blockquote>
-  <p>...stb., majd ezt követően: <font color="#006600">A fő adatbázisok létrehozása sikerült.</font> </p>
+  <p>...stb., majd ezt követően: <span class="success">A fő adatbázisok létrehozása sikerült....</span> </p>
   <blockquote>
     <p class="style3">Ha nem lát ilyen üzeneteket, akkor az adatbázissal vagy a config.php állományban megadott beállításokkal
     lehet valami gond. Ellenőrizze, hogy a PHP nincs-e "Safe Mode"-ra korlátozva (egyes kereskedelmi szolgáltatók ezt időnként bekapcsolják). 
@@ -285,7 +283,7 @@ php_value post_max_size 2M
       Ez könnyen kiküszöbölhető: kapcsolja ki a "secureforms" beállítást, majd próbálkozzék újból.</p>
   </blockquote>
   <p>Ezután további oldalak jelennek meg egy sor üzenettel a Moodle különböző moduljai számára szükséges táblázatok létrehozásának megfelelően. 
-  Mint korábban, ezeknek az üzeneteknek is <font color="#006600">zöld</font> színben kell megjelenni.</p>
+  Mint korábban, ezeknek az üzeneteknek is <span style="color:#006600">zöld</span> színben kell megjelenni.</p>
   <p>Az oldalak legaljára lapozva nyomja meg a "Tovább" gombot.</p>
   <p>A következő oldalon a Moodle portáljához és a címoldalhoz határozhat meg beállításokat, például a nevét, a formáját, a leírását stb. 
   Töltse ki az oldalt (bármikor visszatérhet ide és módosíthatja a beállításokat), majd nyomja meg a "Változások mentése" gombot.</p>
@@ -319,7 +317,7 @@ php_value post_max_size 2M
   <p>A telepítés azonban ezzel még nem ért véget! Hátravan még egy nagyon fontos teendő (lásd a cron leírását tartalmazó részt). </p>
 </blockquote>
 <p> </p>
-<h3 class="sectionheading"><a name="cron"></a>6. A cron beállítása -- FONTOS! </h3>
+<h3 class="sectionheading" id="cron"></a>6. A cron beállítása -- FONTOS! </h3>
 <blockquote> 
   <p>A Moodle egyes moduljai a feladatok folyamatos elvégzéséhez rendszeres ellenőrzést igényelnek. 
   Például a Moodle-nak ellenőrizni kell a vitafórumokat és postáznia kell az üzeneteket minden feliratkozott személy részére.</p>
@@ -338,11 +336,10 @@ php_value post_max_size 2M
     <pre>http://example.com/moodle/admin/cron.php</pre>
   </blockquote>
   <p>Ezután kézzel be kell állítania a kód rendszeres automatikus lefutását.</p>
-  <p><b>Windows rendszereken</b></p>
+  <h4>Windows rendszereken</h4>
   <blockquote>
     <p>A legegyszerűbb megoldás, ha a 
-    <a href="http://moodle.org/download/modules/moodle-cron-for-windows.zip" title="Click to download this package (150k)" target="_blank"><strong>moodle-cron-for-windows.zip</strong></a> csomagot használja, 
-    amellyel egy kis Windows szolgáltatást telepíthet. Lefuttatja, aztán el is felejtheti!</p>
+    <a href="http://moodle.org/download/modules/moodle-cron-for-windows.zip" title="Click to download this package (150k)"><strong>moodle-cron-for-windows.zip</strong></a> csomagot használja, amellyel egy kis Windows szolgáltatást telepíthet. Lefuttatja, aztán el is felejtheti!</p>
   </blockquote>
   <p><strong>Internetes szolgáltatók szerverén</strong></p>
   <blockquote>
@@ -388,7 +385,7 @@ php_value post_max_size 2M
   </blockquote>
   <p> </p>
 </blockquote>
-<h3 class="sectionheading"><a name="course"></a>7. Új kurzus létrehozása</h3>
+<h3 class="sectionheading" id="course"></a>7. Új kurzus létrehozása</h3>
 <blockquote>
   <p>Most, hogy a Moodle megfelelően működik, megpróbálkozhat egy új kurzus próbaképpeni létrehozásával. </p>
   <p>Az Adminisztráció oldalról (vagy a címoldalról az adminisztrációs ugrópontokról) válassza az "Új kurzus hozzáadása" menüpontot.</p>
@@ -398,8 +395,8 @@ php_value post_max_size 2M
   Erről az űrlapról csak meglévő tanárokat adhat a kurzushoz - ha új tanárt kíván felvenni a rendszerbe, vagy kérje meg őt, hogy regisztráltassa magát
  (lásd a bejelentkezési oldalt), vagy hozzon létre egyet az Adminisztráció oldalon az "Új felhasználónév és jelszó létrehozása" menüpont segítségével.</p>
   <p>Ha elkészült, a kurzus készen áll a testre szabásra, emellett elérhető a címoldal "Kurzusok" ugrópontjáról.</p>
-  <p>A kurzusok létrehozásával kapcsolatosan lásd a "<a href="./?file=teacher.html">Tanári kézikönyvet</a>".</p>
+  <p>A kurzusok létrehozásával kapcsolatosan lásd a &quot;<a href="http://docs.moodle.org/en/Teacher_documentation">Tanári kézikönyvet</a>&quot;.</p>
   <p> </p>
-  <p align="center"><strong>Kellemes felfedezést és sikeres oktatási élményt kívánunk a Moodle használatához!</strong></p>
-  <p align="center"><strong>Ha megtetszett a Moodle, vegye fontolóra az <a href="http://moodle.org/donations/" target="_blank">adománnyal</a> való támogatás lehetőségét, mellyel segíthet bennünket költségeink fedezésében! </strong></p>
+  <p class="center"><strong>Kellemes felfedezést és sikeres oktatási élményt kívánunk a Moodle használatához!</strong></p>
+  <p class="center"><strong>Ha megtetszett a Moodle, vegye fontolóra az <a href="http://moodle.org/donations/">adománnyal</a> való támogatás lehetőségét, mellyel segíthet bennünket költségeink fedezésében! </strong></p>
 </blockquote>

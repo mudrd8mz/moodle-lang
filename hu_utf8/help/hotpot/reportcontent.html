@@ -1,10 +1,8 @@
-<p align="center">
-	<span style="font-weight: bold;">A jelentés tartalma</span>
-</p>
+<h1>A jelentés tartalma</h1>
 <p>
 	A Hot Potatoes jelentései különféle tartalommal készülhetnek.
 </p>
-<p><span style="font-weight: bold;">Jelentéstípus kiválasztása</span></p>
+<h2>Jelentéstípus kiválasztása</h2>
 <div class="indent"><p>	<span style="font-weight: bold;">Áttekintés</span></p>
 <p>	Ez a jelentés az adott teszt próbálkozásait sorolja föl.
 		A "felhagyott" próbálkozásokat kihagyja,
@@ -29,53 +27,45 @@
 	</p>
 
 <p><span style="font-weight: bold;">Részletes statisztika</span><br /> 	
-		Ez a jelentés a teszttel kapcsolatos összes befejezett próbálkozás minden részletét tartalmazza.
-
-		A "felhagyott" és a "folyamatban lévő" 
-		próbálkozások nem szerepelnek benne.
+		Ez a jelentés a teszttel kapcsolatos összes befejezett próbálkozás minden részletét tartalmazza a "folyamatban lévő" próbálkozások kivételével.
 
 		A jelentés az alábbi táblázatokat tartalmazza:	</p>
 		<ul>
 			<li>
-				a <a href="help.php?module=hotpot&file=responsestable.html">válaszok táblázata</a>, 
+				a <a href="help.php?module=hotpot&amp;file=responsestable.html">válaszok táblázata</a>, 
 				amelyből kiderül, hogyan válaszoltak az egyes felhasználók próbálkozásaik 
 				során az egyes tesztkérdésekre.
 			</li>
 			<li>
-				az <a href="help.php?module=hotpot&file=analysistable.html">elemzési táblázat</A>, amely felsorolja
+				az <a href="help.php?module=hotpot&amp;file=analysistable.html">elemzési táblázat</a>, amely felsorolja
 				az egyes kérdésekre adott válaszokat a gyakoriságukkal együtt.
 			</li>
 		</ul>
 <p><span style="font-weight: bold;">Kattintásokról szóló jelentés</span><br /> 
-		Ez a jelentés megmutatja az egyes tanulóknak a teszt megoldása során végrehajtott 
-		összes egérkattintását.
+		Ez a jelentés megmutatja az egyes tanulóknak a teszt megoldása során végrehajtott összes egérkattintását.
 		Ez a jelentés igen terjedelmes lehet. Letöltése után táblázatkezelőben, pl. 
 		Microsoft Excelben tekinthető meg.
 		A jelentés oszlopainak részletei a 
-		<a href="help.php?module=hotpot&file=clickreporttable.html">kattintások táblázata</a>
-		súgóban tekinthetők meg.</p>
+		<a href="help.php?module=hotpot&amp;file=clickreporttable.html">kattintások táblázata</a> súgóban tekinthetők meg.</p>
+   <p>
+A kattintásokról szóló jelentés csak akkor érhető el, ha az adott HotPot-tevékenységhez be volt kapcsolva a <a href="help.php?module=hotpot&amp;file=clickreporting.html">Kattintásokról szóló jelentés</a>.
+    </p>
+		
 </div>
-<p><span style="font-weight: bold;">Kurzus kiválasztása</span></p>
+<h2>Felhasználók kiválasztása</h2>
 
-<div class="indent"><p><span style="font-weight: bold;">Ez a kurzus</span><br />
-		A jelentés az adott kurzusban részt vevők válaszait mutatja.
-	</p>
-<p> <span style="font-weight: bold;">Minden kurzusom<br />
-		A jelentés a tesztet használó, Ön által tartott összes kurzus résztvevőinek 
-		a válaszát tartalmazza. 
-		Több kurzusban való használathoz a tesztnek a <span style="font-weight: bold;">Portál állományai</span> 
-		könyvtárban kell szerepelni.
-		<span style="font-weight: bold;"><i>Ez a lehetőség csak a portál rendszergazdái számára elérhető.</i></span>
-	</p>
-</div>
-
-<p><span style="font-weight: bold;">Felhasználók kiválasztása</span></p>
 <div class="indent">
+    <p>
+        <span style="font-weight: bold;">Minden felhasználó</span><br />
+        A jelentésben szerepel a teszttel megpróbálkozó összes felhasználó válasza. Magában foglalja a kurzusba jelenleg be nem iratkozott felhasználókat, a &quot;vendég&quot; felhasználókat, a kurzusfejlesztőket és a Moodle-rendszergazdákat.
+    </p>
 	<p><span style="font-weight: bold;">Minden résztvevő</span><br /> 			
-      Ebben a jelentésben a válaszok tanulók, tanárok, kurzusfejlesztők és 
-		rendszergazdák szerinti lebontásban szerepelnek.
-		Ha vannak, tartalmazza a "vendég" felhasználók válaszait is. </p> 
-	<p><span style="font-weight: bold;">Tanulók</span><br /> 
+      Ebben a jelentésben a válaszok beiratkozott tanulók és tanárok szerinti lebontásban szerepelnek, emellett tartalmazza a "vendég" felhasználók, a kurzusfejlesztők és a Moodle-rendszergazdák válaszait is. </p> 
+	      <p>  <b>Csoport: csoportnév</b><br />
+        A jelentés a kiválasztott csoport összes tanulójának válaszait tartalmazza. A csoport szerinti választás nem jelenik meg a lenyíló menüben, ha a kurzushoz nincsenek meghatározva csoportok.
+    </p>
+
+  <p><span style="font-weight: bold;">Beiratkozott tanulók</span><br /> 
 	A jelentésben a válaszok a kurzusba beiratkozott tanulók szerinti bontásban jelennek meg. 
 		A jelentés nem tartalmazza a tanár válaszait.
 	</p>
@@ -84,7 +74,8 @@
     A jelentés a legördülő listából kiválasztott egyetlen tanuló válaszait mutatja.
 	</p>
 </div>
-<p><span style="font-weight: bold;">Pontok kiválasztása</span></p>
+
+<h2>Pontok kiválasztása</h2>
 
 <div class="indent">
 

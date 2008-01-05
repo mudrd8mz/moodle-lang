@@ -1,11 +1,15 @@
-<p align="center"><strong>Új kérdések importálása</strong></p>
+<h1>Új kérdések importálása</h1>
 
-<p>Ezzel a funkcióval külső, űrlapon keresztül feltöltött szöveges állományból 
-importálhat kérdéseket. </p>
+<p>Ezzel a funkcióval külső, űrlapon keresztül feltöltött szöveges állományból, vagy a kurzus Állományok területén már meglévő fájl kiválasztásával 
+importálhat kérdéseket.  </p>
+
+<h2>Megjegyzés a karakterkódolásról</h2>
+
+<p>Ha állományában vannak nem-ascii karakterek, akkor annak UTF-8 kódolásúnakkell lenni. A kódolást beállíthatja szövegszerkesztőjével, vagy ilyenre alakíthatja át állományát az exportáló szoftverrel. Legyen körültekintő, ha Microsoft Office alkalmazásokkal előállított állományokkal dolgozik, mivel ezek speciális, nem megfelelően kezelt kódolást használnak. Az XML alapú importált állományokat a rendszer automatikusan kezeli, amennyiben Moodle-szerverén PHP 5 fut.</p>
 
 <p>A rendszer egy sor állományformát támogat:</p>
 
-<p><strong>GIFT-forma</strong></p>
+<h2>GIFT-forma</h2>
 <ul>
 <p>A GIFT a legkiterjedtebb importálási forma, mellyel a Moodle szöveges állományokból 
 tesztkérdéseket képes beolvasni. Eredetileg egy könnyű módszert kínált arra, hogy a 
@@ -21,71 +25,67 @@ Ki fekszik Grant sírjában?{=senki =senki sem}
 
 </pre>
 
-<p align="right"><a href="help.php?file=formatgift.html&module=quiz">További információk a "GIFT"-
-formával kapcsolatosan</a></p>
+<p align="right"><a href="help.php?file=formatgift.html&amp;module=quiz">További információk a GIFT-formával kapcsolatosan</a></p>
 </ul>
 
-<p><strong>Aiken-forma</strong></p>
+<h2>Aiken-forma</h2>
 <ul>
 <p>Az Aiken-forma feleletválasztós kérdések készítéséhez használt igen 
 egyszerű, olvasható forma. Íme egy példa erre a formára:</p>
-<pre>
-Mi az elsősegély célja?
-A. Élet megmentése, további sérülés megelőzése, egészség megőrzése
-B. Sérült vagy sebesült személy részére orvosi ellátás biztosítása
-C. További sérülés megelőzése
-D. Segítséget kereső áldozatok megsegítése
-VÁLASZ: A
-</pre>
-
-<p align="right"><a href="help.php?file=formataiken.html&module=quiz">További információk az Aiken-formával 
+<p align="right"><a href="help.php?file=formataiken.html&amp;module=quiz">További információk az Aiken-formával 
 kapcsolatosan</a></p>
 </ul>
 
-<p><strong>Szókitöltő</strong></p>
+<h2>Moodle XML forma</h2>
 <ul>
-<p>Ez a forma csak a feleletválasztós kérdéseket támogatja. Az egyes válaszokat hullámjel 
+<p>Ez a speciális Moodle-forma korábban azonos formában exportált teszkérdések importálására alkalmas. A forma világos felépítésű, legkönnyebben egy kategória Moodle XML formában való exportálásával szemléltethető. Az XML-forma alkalmas képeállományok importálására.
+</p>
+<p align="right"><a href="help.php?file=formatxml.html&amp;module=quiz">További információk a Moodle XML formával 
+kapcsolatosan</a></p>
+</ul>
+
+<h2>Szókitöltő</h2>
+<ul>
+<p>Ez a forma a válaszok számától függően csak a feleletválasztós és a rövid válaszos kérdéseket támogatja. Egy válasz esetén rövid válaszos, két vagy több esetén feleletválasztós tesztet állít elő. Az egyes válaszokat hullámjel 
 (~) választja el egymástól, a helyes válasz előtt egyenlőségjel (=) áll. 
-Íme egy példa:
+Íme egy példa a feleletválasztós kérdésre:
 
 <blockquote>Amikor kisgyermekként elkezdjük felfedezni testünk részeit, az {=anatómia és 
 fiziológia ~reflexológia ~tudomány ~kísérlet} tanulóivá válunk, és 
 bizonyos értelemben tanulók is maradunk egész életünkben. </blockquote>
 
-<p align="right"><a href="help.php?file=formatmissingword.html&module=quiz">További információk a 
-szókitöltő formával kapcsolatosan</a></p>
+<p>Íme egy példa a rövid válaszos kérdésre:</p>
+
+<blockquote>Amikor kisgyermekként elkezdjük felfedezni testünk részeit, az {=anatómia és 
+fiziológia} tanulóivá válunk, és 
+bizonyos értelemben tanulók is maradunk egész életünkben.
+</blockquote>
+
+<p align="right"><a href="help.php?file=formatmissingword.html&amp;module=quiz">További információk a szókitöltő formával kapcsolatosan</a></p>
 </ul>
 
-<p><strong>AON</strong></p>
-<ul>
-<p>Ez azonos a szókitöltő formával, azzal a különbséggel, hogy a kérdések 
-importálása után az összes kiegészítő kérdéseket a rendszer négyesével 
-párosító kérdésekké alakítja át.</p>
-<p>Emellett az importálás során a feleletválasztós kérdésekre adandó válaszokat 
-a rendszer véletlenszerűen rendezi el.</p>
-<p>Nevét egy olyan szervezetről kapta, amely számos tesztjellemző kifejlesztéséhez adott 
-támogatást</p>
-</ul>
-
-<p><strong>Blackboard</strong></p>
+<h2>Blackboard</h2>
 <ul>
 <p>Ez a modul a Blackboard exportálási formájának megfelelő kérdéseket képes 
-importálni. A modul a PHP-ben lefordított XML-függvényekre támaszkodik.</p>
-
-<p align="right"><a href="help.php?file=formatblackboard.html&module=quiz">További információk a Blackboard-
-formával kapcsolatosan</a></p>
+importálni. A modul PHP-re lefordított XML-függvényekre támaszkodik. Az exportált tömörített állományt először ki kell csomagolnia és a Moodle-nak meg kell adnia a megfelelő .dat állományt. Ez a változat <strong>nem</strong> működik a Blackboard 6-os verziójú és újabb változataival.</p>
 </ul>
 
-<p><strong>WebCT</strong></p>
+<h2>Blackboard V6+</h2>
 <ul>
-<p>Ez a modul a WebCT exportálási formájának megfelelő kérdéseket képes 
+<p>Ezzel a modullal a Blackboard exportálási formájában lévő kérdések importálhatók. Korlátozottan támogatja a Blackboard 6-os és 
+7-es verzióját. PHP-re lefordított XML-függvényekre támaszkodik. Használatához töltse fel a Blackboardból exportált tömörített állományt.</p>
+</ul>
+
+<h2>WebCT</h2>
+<ul>
+<p>Ez a modul a WebCT szöveges formában mentett kérdéseit képes 
 importálni.</p>
 
-<p align="right"><a href="help.php?file=formatwebct.html&module=quiz">További információk a WebCT-formával 
+<p align="right"><a href="help.php?file=formatwebct.html&amp;module=quiz">További információk a WebCT-formával 
 kapcsolatosan</a></p>
 </ul>
 
-<p><strong>Course Test Manager</strong></p>
+<h2>Course Test Manager</h2>
 <ul>
 <p>Ez a modul Course Test Manager feladatbanki formában mentett kérdéseket képes importálni. A 
 Microsoft Access adatbázisban tárolt feladatbankhoz különféle hozzáférési módokat 
@@ -93,36 +93,34 @@ támogat attól függően, hogy a Moodle Windows vagy Linux webszerveren fut-e.<
 <p>Windows alatt az Access adatbázist bármely egyéb adatállományhoz hasonlóan 
 importálhatja.</p>
 <p>Linux esetén egy Windows gépet kell létrehozni a Course Test Manager adatbázissal azonos 
-hálózaton egy ODBC Socket Server nevű porgrammal együtt, amely XML segítségével 
+hálózaton egy ODBC Socket Server nevű programmal együtt, amely XML segítségével 
 adja át az adatokat a Moodle számára a Linux szerveren.</p>  
 <p>Az ilyen importálási lehetőség használata előtt olvassa el az egész 
 súgót.</p>
 
-<p align="right"><a href="help.php?file=formatctm.html&module=quiz">További információk a CTM-formával 
+<p align="right"><a href="help.php?file=formatctm.html&amp;module=quiz">További információk a CTM-formával 
 kapcsolatosan</a></p>
 </ul>
 
-<p><strong>Beépített válaszok (Kitöltő)</strong></p>
+<h2>Beépített válaszok (Kitöltő)</h2>
 <ul>
 <p>Ez a speciális forma csak egyfajta kérdés, a beépített válaszos 
 (más néven kitöltős) forma importálására alkalmas.
 </p>
 
-<p align="right"><a href="help.php?file=multianswer.html&module=quiz">További információk a kitöltős formával 
+<p align="right"><a href="help.php?file=multianswer.html&amp;module=quiz">További információk a kitöltős formával 
 kapcsolatosan</a></p>
 </ul>
 
-<p><strong>Saját</strong></p>
+<h2>Learnwise-forma</h2>
 <ul>
-<p>Ha saját importálási formával rendelkezik, szerkessze meg ennek megfelelően a mod/quiz/format/custom.php 
-állományt.</p>
-
-<p>Az újonnan írandó kód igen csekély -  az adott szövegből mindössze egy 
-kérdés beolvasását kell megírni.
-
-<p align="right"><a href="help.php?file=formatcustom.html&module=quiz">További információk a 
-saját formával kapcsolatosan</a></p>
+<p>Ezzel a formával Learnwise XML-formában elmentett feleletválasztós kérdéseket importálhat.</p>
 </ul>
 
-<p>További formák kerülnek a rendszerbe a későbbiek folyamán, ideértve a WebCT-t, az 
-IMS QTI-t és bármely egyebet, amelyet a Moodle felhasználói rendelkezésre bocsátanak!  </p>
+<h2>Examview-forma</h2>
+<ul>
+<p>Ezzel a formával Examview 4 XML állományokat importálhat. Ne feledje, hogy az Examview régebbi változataival készült kérdések importálását a rendszer nem támogatja.</p>
+</ul>
+
+<p>Az importálási és exportálási formák segédprogramokként állnak rendelkezésre. Egyéb lehetséges formákat találhat a Modulok és segédprogramok adatbázisban.</p>
+

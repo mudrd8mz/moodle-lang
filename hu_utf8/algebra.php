@@ -1,5 +1,7 @@
-<?php /// $Id$
+<?PHP // $Id$ 
+      // algebra.php - created with Moodle 1.7 beta + (2006101003)
 
-$string['filtername'] = "Algebrai jelölés";
 
-?> 
+$string['filtername'] = 'Algebrai jelölés';
+
+?>

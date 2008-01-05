@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // quiz_responses.php - created with Moodle 1.6 Beta 3 (2006041100)
+      // quiz_responses.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['pagesize'] = 'Oldalankénti próbálkozások: ';
-$string['reportresponses'] = 'Részletes válaszok';
-$string['responses'] = 'Részletes válaszok';
-$string['responsesoptions'] = 'Válaszok opciói';
-$string['responsestitle'] = 'Részletes válaszok';
+$string['reportresponses'] = 'Részletes viszontválaszok';
+$string['responses'] = 'Részletes viszontválaszok';
+$string['responsesoptions'] = 'Viszontválaszok lehetőségei';
+$string['responsestitle'] = 'Részletes viszontválaszok';
 
 ?>
