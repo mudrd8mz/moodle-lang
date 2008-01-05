@@ -2,7 +2,6 @@
       // message.php - created with Moodle 1.8.2+ (2007021520)
 
 
-$string['mailsent'] = 'Su mensaje se ha enviado por email.';
 $string['addcontact'] = 'Añadir contacto';
 $string['addsomecontacts'] = 'Para enviar un mensaje a alguien, o para añadir un atajo en esta página, utilice la pestaña <a href=\"$a\">Buscar</a> de más arriba.';
 $string['addsomecontactsincoming'] = 'Estos mensajes provienen de personas que no están en su lista de contactos. Para agregarlos a sus contactos, haga clic en el icono \"Agregar contacto\" al lado de su nombre.';
@@ -28,11 +27,13 @@ $string['includeblockedusers'] = 'Incluir usuarios bloqueados';
 $string['incomingcontacts'] = 'Contactos Entrantes ($a)';
 $string['keywords'] = 'Palabras-clave';
 $string['keywordssearchresults'] = 'Resultados de la búsqueda: $a mensajes encontrados';
+$string['mailsent'] = 'Su mensaje se ha enviado por email.';
 $string['maxmessages'] = 'Número máximo de mensajes para mostrar en la historia de la discusión';
 $string['message'] = 'Mensaje';
 $string['messagehistory'] = 'Historia de mensajes';
 $string['messages'] = 'Mensajes';
 $string['messaging'] = 'Mensajes';
+$string['messagingdisabled'] = 'El servicio de mensajería está deshabilitado en este sitio: se enviarán correos electrónicos en lugar de mensajes';
 $string['mycontacts'] = 'Mis contactos';
 $string['newonlymsg'] = 'Mostrar sólo nuevos';
 $string['newsearch'] = 'Nueva búsqueda';

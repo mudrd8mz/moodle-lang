@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8 + (2007021502)
+      // survey.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['actual'] = 'Real';
@@ -179,6 +179,7 @@ $string['question'] = 'Pregunta';
 $string['questions'] = 'Preguntas';
 $string['questionsnotanswered'] = 'Algunas de las preguntas con opción múltiple no han sido contestadas.';
 $string['report'] = 'Informe de la encuesta';
+$string['responses'] = 'Respuestas';
 $string['savednotes'] = 'Sus notas se han guardado';
 $string['scaleagree5'] = 'en total desacuerdo, un poco en desacuerdo, ni de acuerdo ni en desacuerdo, un poco de acuerdo, totalmente de acuerdo';
 $string['scales'] = 'Escalas';

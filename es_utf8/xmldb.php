@@ -41,6 +41,7 @@ $string['delete_xml_file'] = 'Eliminar archivo XML';
 $string['down'] = 'Abajo';
 $string['duplicate'] = 'Duplicar';
 $string['duplicatefieldname'] = 'Ya existe otro campo con ese nombre';
+$string['duplicatekeyname'] = 'Ya existe otra clave con ese nombre';
 $string['edit'] = 'Edición';
 $string['edit_field'] = 'Editar campo';
 $string['edit_index'] = 'Editar índice';

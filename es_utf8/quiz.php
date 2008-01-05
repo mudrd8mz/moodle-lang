@@ -62,6 +62,7 @@ $string['attemptsallowed'] = 'Intentos permitidos';
 $string['attemptsdeleted'] = 'Eliminados intentos de resolver el cuestionario';
 $string['attemptselection'] = 'Seleccionar qué intentos analizar por ususario:';
 $string['attemptsexist'] = 'Ya ha intentado contestar este cuestionario';
+$string['attemptsnum'] = 'Intentos: $a';
 $string['attemptsonly'] = 'Mostrar solamente estudiantes con intentos';
 $string['attemptsunlimited'] = 'Intentos ilimitados';
 $string['back'] = 'Regresar a visión previa de la pregunta';
