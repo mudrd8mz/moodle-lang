@@ -1,10 +1,13 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // resource.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['addresource'] = 'Aggiungi una risorsa';
 $string['affectedresources'] = 'Risorse coinvolte';
+$string['allowlocalfiles'] = 'Consenti file locali';
+$string['autofilerename'] = 'Aggiorna link se file rinominato';
 $string['back'] = 'Indietro';
+$string['blockdeletingfile'] = 'Cancellazione dei file collegati';
 $string['browserepository'] = 'Cerca nel repository';
 $string['choose'] = 'Scegli';
 $string['chooseafile'] = 'Scegli un file oppure caricane uno dal tuo computer';
@@ -46,6 +49,7 @@ $string['fetchservererror'] = 'E\' stato rilevato un errore sul server mentre pr
 $string['filename'] = 'Nome del file';
 $string['filtername'] = 'Creazione automatica di link ai nomi delle risorse';
 $string['frameifpossible'] = 'Mostra la risorsa in un frame mantenendo visibile i pulsanti di navigazione.';
+$string['framesize'] = 'Dimensione frame';
 $string['fulltext'] = 'Testo visualizzato dalla risorsa';
 $string['htmlfragment'] = 'Codice HTML';
 $string['imspackageloaded'] = 'Pacchetto caricato';
@@ -99,6 +103,7 @@ $string['previous'] = 'Precedente';
 $string['redeploy'] = 'Pubblica nuovamente';
 $string['repository'] = 'Repository IMS';
 $string['resource:view'] = 'Visualizza la risorsa';
+$string['resourcedefaulturl'] = 'URL default';
 $string['resourcetype'] = 'Tipo di risorsa';
 $string['resourcetype1'] = 'Riferimento';
 $string['resourcetype2'] = 'Pagina web';
@@ -128,5 +133,6 @@ $string['viewims'] = 'Visualizza pacchetto IMS';
 $string['vol'] = 'Volume';
 $string['warningblockingdelete'] = 'Attenzione: la cancellazione è stata interrotta poiché esistono risorse che usano i file da cancellare. E\' necessario eliminare da queste risorse i riferimenti ai file che volete eliminare oppure chiedere all\'Amministratore di disattivare questo meccanismo di controllo nella configurazione del sistema.';
 $string['warningdisabledrename'] = 'Attenzione: l\'aggiornamento automatico dei nomi dei file presenti all\'interno delle risorse è disabilitato. Se necessario, aggiornare manualmente le risorse interessate. L\'Amministratore può anche abilitare il l\'aggiornamento automatico dei nomi dei file nella configurazione globale delle Risorse.';
+$string['websearchdefault'] = 'Websearch default';
 
 ?>

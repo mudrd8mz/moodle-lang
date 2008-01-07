@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // data.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['action'] = 'Azione';
@@ -40,18 +40,18 @@ $string['confirmdeleterecord'] = 'Stai per eliminare questo record. Ne sei certo
 $string['csstemplate'] = 'Foglio di stile CSS';
 $string['csvfile'] = 'File CSV';
 $string['csvimport'] = 'Importa un file CSV';
-$string['data:approve'] = 'Approva tutti i record in attesa';
-$string['data:comment'] = 'Scrivi i commenti';
-$string['data:managecomments'] = 'Gestisci i commenti';
-$string['data:manageentries'] = 'Gestisci i record inseriti';
-$string['data:managetemplates'] = 'Gestisci i Modelli di visualizzazione';
-$string['data:manageuserpresets'] = 'Gestisci tutte le preimpostazioni dei Modelli di visualizzazione';
-$string['data:rate'] = 'Valuta i record inseriti';
+$string['data:approve'] = 'Approvare tutti i record in attesa';
+$string['data:comment'] = 'Scrivere i commenti';
+$string['data:managecomments'] = 'Gestire i commenti';
+$string['data:manageentries'] = 'Gestire i record inseriti';
+$string['data:managetemplates'] = 'Gestire i Modelli di visualizzazione';
+$string['data:manageuserpresets'] = 'Gestire tutte le preimpostazioni dei Modelli di visualizzazione';
+$string['data:rate'] = 'Valutare i record inseriti';
 $string['data:readentry'] = 'Accedi ai record inseriti';
-$string['data:viewalluserpresets'] = 'Visualizza le preimpostazioni salvate da tutti gli utenti';
-$string['data:viewentry'] = 'Visualizza i record inseriti';
-$string['data:viewrating'] = 'Visualizza le valutazioni ai record inseriti';
-$string['data:writeentry'] = 'Inserisci un record';
+$string['data:viewalluserpresets'] = 'Visualizzare le preimpostazioni salvate da tutti gli utenti';
+$string['data:viewentry'] = 'Visualizzare i record inseriti';
+$string['data:viewrating'] = 'Visualizzare le valutazioni ai record inseriti';
+$string['data:writeentry'] = 'Inserire un record';
 $string['date'] = 'Data';
 $string['dateentered'] = 'Data di inserimento';
 $string['defaultfielddelimiter'] = '(in genere è il carattere virgola)';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.7+ (2006101009)
+      // hotpot.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['abandoned'] = 'Abbandonato';
@@ -37,6 +37,7 @@ $string['error_nofeedbackurlwebpage'] = 'Introdurre un URL per la pagina web';
 $string['error_nofilename'] = 'Introdurre nome file';
 $string['error_noquizzesfound'] = 'Quiz Hot Potatoes non trovati';
 $string['error_notfileorfolder'] = '\"$a\" non né un file né una cartella';
+$string['excelencodings'] = 'Codifiche Excel';
 $string['feedbackformmail'] = 'Form per il commento';
 $string['feedbackmoodleforum'] = 'Forum di Moodle';
 $string['feedbackmoodlemessaging'] = 'Messaggi di Moodle';
@@ -46,11 +47,11 @@ $string['filetype'] = 'Tipo file';
 $string['forceplugins'] = 'Cambia lettori multimediali';
 $string['giveup'] = 'Abbandona';
 $string['hints'] = 'Suggerimenti';
-$string['hotpot:attempt'] = 'Prova il quiz';
-$string['hotpot:deleteattempt'] = 'Cancella i tentativi';
-$string['hotpot:grade'] = 'Modifica le valutazioni';
-$string['hotpot:view'] = 'Usa il quiz';
-$string['hotpot:viewreport'] = 'Guarda i risultati';
+$string['hotpot:attempt'] = 'Provare il quiz';
+$string['hotpot:deleteattempt'] = 'Cancellare i tentativi';
+$string['hotpot:grade'] = 'Modificare le valutazioni';
+$string['hotpot:view'] = 'Usare il quiz';
+$string['hotpot:viewreport'] = 'Guardare i risultati';
 $string['hotpotcloses'] = 'Il quiz Hot Potatoes  termina';
 $string['hotpotopens'] = 'Il quiz Hot Potatoes è attivo da';
 $string['ignored'] = 'Ignorato';
@@ -138,6 +139,7 @@ $string['resultssaved'] = 'I risultati del quiz sono stati salvati';
 $string['score'] = 'Punteggio';
 $string['showhtmlsource'] = 'Sorgente HTML';
 $string['shownextquiz'] = 'Mostra quiz successivo';
+$string['showtimes'] = 'Mostra tempi elaborazione';
 $string['showxmlsource'] = 'Sorgente XML';
 $string['showxmltree'] = 'Struttura  XML';
 $string['specifictime'] = 'Intervallo specifico';
@@ -151,6 +153,5 @@ $string['timedout'] = 'Tempo scaduto';
 $string['updatequizchain'] = 'Aggiorna catena quiz';
 $string['weighting'] = 'Peso';
 $string['wrong'] = 'Errato';
-
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // lesson.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['accesscontrol'] = 'Controllo accesso';
@@ -128,8 +128,8 @@ $string['jumps'] = 'Salti';
 $string['jumpsto'] = 'Salti a <em>$a</em>';
 $string['leftduringtimed'] = 'Hai abbandonato durante una lezione a tempo.<br />Clicca su Continua per ricominciare la lezione.';
 $string['leftduringtimednoretake'] = 'Hai abbandonato durante una lezione a tempo e <br />non puoi riprovare o continuare la lezione.';
-$string['lesson:edit'] = 'Modifica una attività della lezione';
-$string['lesson:manage'] = 'Gestisci una attività della lezione';
+$string['lesson:edit'] = 'Modificare una attività della lezione';
+$string['lesson:manage'] = 'Gestire una attività della lezione';
 $string['lessonattempted'] = 'Lezione provata';
 $string['lessonclosed'] = 'Questa lezione è stata chiusa il $a.';
 $string['lessoncloses'] = 'La lezione viene chiusa';
@@ -205,7 +205,6 @@ $string['or'] = 'OR';
 $string['ordered'] = 'Ordinato';
 $string['other'] = 'Altro';
 $string['outof'] = 'su $a';
-$string['outoftime'] = 'Tempo scaduto';
 $string['overview'] = 'Riepilogo';
 $string['page'] = 'Pagina: $a';
 $string['pagecontents'] = 'Contenuto della pagina';
@@ -263,7 +262,6 @@ $string['startlesson'] = 'Inizio lezione';
 $string['studentattemptlesson'] = 'Tentativo numero $a->attempt di $a->lastname, $a->firstname';
 $string['studentname'] = 'Nome $a';
 $string['studentoneminwarning'] = 'Attenzione: hai un minuto o meno per terminare la lezione.';
-$string['studentoutoftime'] = 'Attenzione: hai superato il tempo previsto per questa lezione. La tua ultima risposta non conta perché è stata data dopo lo scadere del tempo. Clicca su Continua per terminare la lezione.';
 $string['studentresponse'] = 'Risposta di {$a}';
 $string['submitname'] = 'Immetti il nome';
 $string['teacherjumpwarning'] = 'In questa lezione si sta utilizzando un salto a $a->cluster o un salto a $a->unseen.  Sarà invece utilizzato il salto alla Pagina seguente. Fare Login come uno studente per verificare questi salti.';
@@ -302,6 +300,8 @@ $string['youranswer'] = 'La tua risposta';
 $string['yourcurrentgradeis'] = 'La tua attuale valutazione è $a';
 $string['yourcurrentgradeisoutof'] = 'La tua attuale valutazione è $a->grade su $a->total';
 $string['youshouldview'] = 'Devi rispondere almeno: $a';
+$string['outoftime'] = 'Tempo scaduto'; // ORPHANED
+$string['studentoutoftime'] = 'Attenzione: hai superato il tempo previsto per questa lezione. La tua ultima risposta non conta perché è stata data dopo lo scadere del tempo. Clicca su Continua per terminare la lezione.'; // ORPHANED
 $string['editlesson'] = 'Modifica $a'; // ORPHANED
 $string['mainmenu'] = 'Menu corso'; // ORPHANED
 $string['returnmainmenu'] = 'Ritorna al menu principale'; // ORPHANED

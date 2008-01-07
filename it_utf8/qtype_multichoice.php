@@ -1,9 +1,15 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.8 Beta + (2007021501)
+      // qtype_multichoice.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
+$string['addingmultichoice'] = 'Creazione domanda a Risposta multipla';
 $string['addmorechoiceblanks'] = 'Spazi per altre {no} scelte';
 $string['answerhowmany'] = 'Una o più alternative';
+$string['answernumbering'] = 'Numerazione scelte';
+$string['answernumbering123'] = '1., 2., 3., ...';
+$string['answernumberingABCD'] = 'A., B., C., ...';
+$string['answernumberingabc'] = 'a., b., c., ...';
+$string['answernumberingnone'] = 'Nessuna';
 $string['answersingleno'] = 'Più alternative';
 $string['answersingleyes'] = 'Una sola alternativa';
 $string['choiceno'] = 'Alternativa $a';
@@ -19,10 +25,10 @@ $string['fractionsaddwrong'] = 'La somma dei voti positivi definiti <br/>non è 
 $string['fractionsnomax'] = 'Una delle alternative dovrebbe essere valutata 100%%, in modo da avere <br/>una valutazione corretta di questa domanda. <br/>Vuoi tornare indietro e correggere l\'errore?';
 $string['incorrectfeedback'] = 'Per ogni risposta errata';
 $string['notenoughanswers'] = 'Questo tipo di domanda richiede almeno $a alternative';
-$string['overallcorrectfeedback'] = 'Feedback generico per ogni risposta corretta';
-$string['overallfeedback'] = 'Feedback generale';
-$string['overallincorrectfeedback'] = 'Feedback generico per ogni risposta errata';
-$string['overallpartiallycorrectfeedback'] = 'Feedback generico per ogni risposta parzialmente corretta';
+$string['overallcorrectfeedback'] = 'Feedback per ogni risposta corretta';
+$string['overallfeedback'] = 'Feedback complessivo';
+$string['overallincorrectfeedback'] = 'Feedback per ogni risposta errata';
+$string['overallpartiallycorrectfeedback'] = 'Feedback per ogni risposta parzialmente corretta';
 $string['partiallycorrectfeedback'] = 'Per ogni risposta parzialmente corretta';
 $string['shuffleanswers'] = 'Alternative in ordine casuale';
 $string['singleanswer'] = 'Scegli un\'alternativa';

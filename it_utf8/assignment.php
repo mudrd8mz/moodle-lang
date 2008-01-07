@@ -1,14 +1,14 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // assignment.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['allowdeleting'] = 'Permettere rimozione';
 $string['allowmaxfiles'] = 'Numero massimo di file inviati';
 $string['allownotes'] = 'Permettere note';
 $string['allowresubmit'] = 'Possibilità  di consegnare più volte';
-$string['assignment:grade'] = 'Valuta compito';
-$string['assignment:submit'] = 'Consegna compito';
-$string['assignment:view'] = 'Visualizza compito';
+$string['assignment:grade'] = 'Valutare compito';
+$string['assignment:submit'] = 'Consegnare compito';
+$string['assignment:view'] = 'Visualizzare compito';
 $string['assignmentdetails'] = 'Dettaglio compiti';
 $string['assignmentmail'] = '$a->teacher ha corretto il tuo compito per l\'esercizio \'$a->assignment\'.
 

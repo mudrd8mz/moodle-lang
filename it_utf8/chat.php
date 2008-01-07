@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // chat.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['beep'] = 'campanella';
@@ -37,6 +37,7 @@ $string['messagebeepsyou'] = '$a ti ha appena richiamato!';
 $string['messageenter'] = '$a è entrato nella chat';
 $string['messageexit'] = '$a ha lasciato la discussione';
 $string['messages'] = 'Messaggi';
+$string['method'] = 'Metodo chat';
 $string['methoddaemon'] = 'Server chat';
 $string['methodnormal'] = 'Metodo normale';
 $string['modulename'] = 'Chat';
@@ -48,6 +49,9 @@ $string['nomessages'] = 'Nessun messaggio ancora';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Nessuna sessione programmata';
+$string['oldping'] = 'Timeout disconnessione';
+$string['refreshroom'] = 'Aggiorna stanza';
+$string['refreshuserlist'] = 'Aggiorna lista utenti';
 $string['removemessages'] = 'Rimuovi tutti i messaggi';
 $string['repeatdaily'] = 'Alla stessa ora tutti i giorni';
 $string['repeatnone'] = 'Nessuna ripetizione - pubblica solo l\'orario specificato';
@@ -55,9 +59,14 @@ $string['repeattimes'] = 'Ripeti sessioni';
 $string['repeatweekly'] = 'Alla stessa ora tutte le settimane';
 $string['savemessages'] = 'Salva le sessioni passate';
 $string['seesession'] = 'Guarda questa sessione';
+$string['serverhost'] = 'Nome server';
+$string['serverip'] = 'IP server';
+$string['servermax'] = 'Massimo utenti';
+$string['serverport'] = 'Porta server';
 $string['sessions'] = 'Sessioni chat';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Tutti posso vedere le sessioni passate';
+$string['updatemethod'] = 'Medoto aggiornamento';
 $string['viewreport'] = 'Guarda le sessioni passate';
 
 ?>

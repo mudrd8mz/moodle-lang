@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8.1 (2007021510)
+      // auth.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['CASform'] = 'Scelta autenticazione';
 $string['accesCAS'] = 'Utenti CAS';
 $string['accesNOCAS'] = 'altri utenti';
+$string['actauthhdr'] = 'Plugin attivi per autenticazione';
 $string['alternatelogin'] = 'Se viene inserito un URL, la pagina indirizzata verrà utilizzata come pagina di login del sito. La pagina deve contenere un form con la \"action property\" impostata a <strong>\'$a\'</strong> e con i campi di ritorno <strong>username</strong> e <strong>password</strong>.<br/> Fate attenzione a non inserire un URL errato perché potreste \"chiudervi fuori\" dal sito. <br/>
 Lasciate in bianco questa impostazione se volete utilizzare la pagina di login predefinita.';
 $string['alternateloginurl'] = 'URL della pagina di login alternativa';
@@ -135,7 +136,7 @@ $string['auth_ldap_contexts_key'] = 'Contesti';
 $string['auth_ldap_create_context'] = 'Se attivate la creazione degli utenti con conferma via e-mail, specificate il contesto dove gli utenti vengono creati. Questo contesto deve essere diverso da quello di altri utenti per prevenire problemi di sicurezza. Non è necessario aggiungere questo contesto alla variabile ldap_context, Moodle cercherà  gli utenti di questo contesto automaticamente.
 .<br /><b>Nota!</b> Dovete modificare la funzione auth_user_create() nel file auth/ldap/lib.php per far funzionare le creazioni dell\'utente.';
 $string['auth_ldap_create_context_key'] = 'Contesto per nuovi utenti';
-$string['auth_ldap_create_error'] = 'Si è verificato un errore durante la crezione dell\'utente in LDAP.';
+$string['auth_ldap_create_error'] = 'Si è verificato un errore durante la creazione dell\'utente in LDAP.';
 $string['auth_ldap_creators'] = 'Lista dei gruppi nei quali i membri possono creare nuovi corsi. Separate i gruppi multipli con \';\'. Normalmente, qualcosa come: \'cn=teachers,ou=staff,o=myorg\'';
 $string['auth_ldap_creators_key'] = 'Creatori';
 $string['auth_ldap_expiration_desc'] = 'Selezionate No per disabilitare il controllo delle password scadute o la lettura della data di scadenza delle password direttamente da LDAP';
@@ -157,10 +158,10 @@ $string['auth_ldap_memberattribute'] = 'Opzionale: sovrascrive l\'attributo dell
 $string['auth_ldap_memberattribute_isdn'] = 'Opzionale: Sostituisce la gestione dei valori dell\'attributo membro, 0 o 1';
 $string['auth_ldap_memberattribute_isdn_key'] = 'L\'attributo Membro usa \"dn\"';
 $string['auth_ldap_memberattribute_key'] = 'Attributo Membro';
+$string['auth_ldap_no_mbstring'] = 'E\' necessaria l\'estensione mbstring per creare utenti in Active Directory.';
 $string['auth_ldap_noconnect'] = 'Il modulo LDAP non può collegarsi al server: $a';
 $string['auth_ldap_noconnect_all'] = 'Il modulo LDAP non può collegarsi ad alcun server: $a';
 $string['auth_ldap_noextension'] = 'Attenzione: il modulo PHP LDAP sembra che non sia presente. Assicurarsi che sia installato e abilitato.';
-$string['auth_ldap_no_mbstring'] = 'E\' necessaria l\'estensione mbstring per creare utenti in Active Directory.';
 $string['auth_ldap_objectclass'] = 'Opzionale: il filtro utilizzato per la ricerca dei nomi utente. Normalmente sarà  impostato a qualcosa di simile a objectClass=posixAccount. L\'impostazione a objectClass=* restituirà  tutti gli oggetti da LDAP.';
 $string['auth_ldap_objectclass_key'] = 'Object class';
 $string['auth_ldap_opt_deref'] = 'Determina la maniera in cui vengono trattati gli alias durante una ricerca. Selezionare uno dei seguenti valori:<br/>
@@ -172,7 +173,7 @@ $string['auth_ldap_passtype_key'] = 'Formato password';
 $string['auth_ldap_passwdexpire_settings'] = 'Impostazione scadenza password LDAP';
 $string['auth_ldap_preventpassindb'] = 'Selezionare Si per prevenire il salvataggio delle password nel database di Moodle.';
 $string['auth_ldap_preventpassindb_key'] = 'Nascondere password';
-$string['auth_ldap_search_sub'] = 'Cerca gli utenti anche nei sottocontesti.';
+$string['auth_ldap_search_sub'] = 'Cerca gli utenti anche nei sotto-contesti.';
 $string['auth_ldap_search_sub_key'] = 'Cerca sotto-contesti';
 $string['auth_ldap_server_settings'] = 'Impostazioni server LDAP';
 $string['auth_ldap_unsupportedusertype'] = 'auth: ldap user_create() non sopporta il tipo utente selezionato: \"$a\" (..per ora)';
@@ -213,6 +214,11 @@ $string['auth_nologindescription'] = 'Plugin ausiliario che impedisce a un utent
 $string['auth_nologintitle'] = 'Login vietato';
 $string['auth_nonedescription'] = 'Gli utenti possono registrarsi e creare iscrizioni valide immediatamente, senza autenticazione di un server esterno e senza conferma tramite email. Fare attenzione ad usare questa opzione - riflettete sulla sicurezza e ai problemi di amministrazione che questa scelta può causare.';
 $string['auth_nonetitle'] = 'Nessuna autenticazione';
+$string['auth_ntlmsso'] = 'NTLM SSO';
+$string['auth_ntlmsso_enabled'] = 'Impostare a SI per provare il Single Sign On con il dominio NTLM. <strong>Nota:</strong> per funzionare, questo richiede impostazioni aggiuntive sul webserver, vedere <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>';
+$string['auth_ntlmsso_enabled_key'] = 'Abilita';
+$string['auth_ntlmsso_subnet'] = 'Se impostato, proverà il SSO solo con clienti in questa sotto-rete. Formato: xxx.xxx.xxx.xxx/bitmask';
+$string['auth_ntlmsso_subnet_key'] = 'Sotto-rete';
 $string['auth_pamdescription'] = 'Questo metodo utilizza PAM per accedere ai nomi utente originali su questo server. E\' necessario installare <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">la libreria di autenticazione PAM di PHP4</a> per poter utilizzare questo modulo.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
 $string['auth_passwordisexpired'] = 'La vostra password è scaduta. Volete cambiarla adesso?';
@@ -277,11 +283,13 @@ $string['errorminpassworddigits'] = 'La password deve avere almeno $a numeri.';
 $string['errorminpasswordlength'] = 'La password deve essere lunga almeno $a caratteri.';
 $string['errorminpasswordlower'] = 'La password deve contenere almeno $a lettere minuscole.';
 $string['errorminpasswordnonalphanum'] = 'La password deve contenere almeno $a caratteri non alfanumerici (punteggiatura, trattini, eccetera).';
-$string['errorpasswordupdate'] = 'Errore nell\'aggiornamento della password, password non modificata';
 $string['errorminpasswordupper'] = 'La password deve contenere almeno $a lettere maiuscole.';
+$string['errorpasswordupdate'] = 'Errore nell\'aggiornamento della password, password non modificata';
 $string['forcechangepassword'] = 'Forza il cambiamento della password';
 $string['forcechangepassword_help'] = 'Forzare gli utenti a cambiare la password al successivo accesso a Moodle?';
 $string['forcechangepasswordfirst_help'] = 'Forzare gli utenti a cambiare la password al primo accesso a Moodle?';
+$string['forgottenpassword'] = 'Se viene inserita una URL qui, essa sarà usata come pagina di recupero della password perduta per questo sito. Questo serve per quei siti in cui la gestione delle password è effettuata completamente all\'esterno di Moodle. Lasciare lo spazio vuoto per usare il recupero password di default.';
+$string['forgottenpasswordurl'] = 'URL per password dimenticata';
 $string['guestloginbutton'] = 'Pulsante login ospite';
 $string['infilefield'] = 'Campo richiesto nel file';
 $string['instructions'] = 'Istruzioni';
@@ -290,6 +298,9 @@ $string['locked'] = 'Bloccato';
 $string['md5'] = 'Criptatura MD5';
 $string['nopasswordchange'] = 'La password non può essere modificata';
 $string['nopasswordchangeforced'] = 'Non puoi proseguire senza modificare la tua password, ma non c\'è una pagina per cambiarla. Contatta il tuo amministratore Moodle.';
+$string['ntlmsso_attempting'] = 'Esecuzione di Single Sign On via NTLM ...';
+$string['ntlmsso_failed'] = 'Auto-login fallito. Provare la normale pagina di login ...';
+$string['ntlmsso_isdisabled'] = 'SSO via NTLM non è abilitato';
 $string['passwordhandling'] = 'Gestione del campo password';
 $string['plaintext'] = 'Testo semplice';
 $string['pluginnotenabled'] = 'Il plugin \'$a\' per l\'autenticazione non è abilitato.';

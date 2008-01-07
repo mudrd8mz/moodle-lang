@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.8 dev (2006101001)
+      // block_rss_client.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['addfeed'] = 'Aggiungi un URL di feed news:';
@@ -12,10 +12,10 @@ $string['clientnumentries'] = 'Numero predefinito di voci da mostrare per ogni f
 $string['clientshowchannellinklabel'] = 'Si deve mostrare un collegamento al sito originario (channel link)?<br/> (Da notare che se non è fornito alcun collegamento feed nel feed delle news, <br/>allora nessun collegamento verrà  mostrato):';
 $string['clientshowimagelabel'] = 'Mostra canale immagine se disponibile:';
 $string['configblock'] = 'Configura questo blocco';
-$string['couldnotfindfeed'] = 'Non ho trovato il  feed tramite l\'id';
-$string['customtitlelabel'] = 'Titolo personalizzato (lasciare in bianco per usare il titolo del feed originario:';
+$string['couldnotfindfeed'] = 'Non ho trovato il feed tramite l\'id';
+$string['customtitlelabel'] = 'Titolo personalizzato (lasciare in bianco per usare il titolo del feed originario):';
 $string['deletefeedconfirm'] = 'Sei sicuro di voler cancellare questo feed?';
-$string['displaydescriptionlabel'] = 'Mostra la descrizione per ogni link?';
+$string['displaydescriptionlabel'] = 'Mostra descrizione per ogni link?';
 $string['editfeeds'] = 'Modificare, sottoscrivere o revocare l\'iscrizione al feed news RSS/Atom';
 $string['editnewsfeeds'] = 'Modifica feed di news';
 $string['editrssblock'] = 'Modifica titolo blocco RSS';
@@ -30,6 +30,7 @@ $string['feedupdated'] = 'Aggiornato feed News';
 $string['findmorefeeds'] = 'Trova altri feed RSS';
 $string['managefeeds'] = 'Gestisci tutti i miei feed';
 $string['nofeeds'] = 'Non ci sono altri feed RSS definiti per questo sito.';
+$string['numentries'] = 'Elementi per feed';
 $string['pickfeed'] = 'Preleva un feed news';
 $string['remotenewsfeed'] = 'Feed RSS remoto';
 $string['rss_client:createprivatefeeds'] = 'Creare feed RSS privati';

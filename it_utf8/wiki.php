@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.8 + (2007021503)
+      // wiki.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['action'] = '-- Azione --';
@@ -183,9 +183,9 @@ $string['versionstodelete'] = 'Versioni da cancellare';
 $string['viewpage'] = 'Mostra pagina';
 $string['viewsmfor'] = 'Mostra mappa per';
 $string['wantedpages'] = 'Pagine da scrivere';
-$string['wiki:manage'] = 'Gestione delle impostazioni Wiki';
-$string['wiki:overridelock'] = 'Esclusione del blocco dalle modifiche';
-$string['wiki:participate'] = 'Modifica delle pagine Wiki';
+$string['wiki:manage'] = 'Gestire impostazioni Wiki';
+$string['wiki:overridelock'] = 'Modificare pagine bloccate';
+$string['wiki:participate'] = 'Modificare pagine Wiki';
 $string['wikidefaultpagename'] = 'Indice Wiki';
 $string['wikiexport'] = 'Esporta pagine';
 $string['wikiexportcomment'] = 'Qui puoi impostare le preferenze sull\'esportazione.';

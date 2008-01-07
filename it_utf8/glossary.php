@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // glossary.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['addcomment'] = 'Aggiungi commento';
@@ -112,17 +112,17 @@ $string['fillfields'] = 'Concetto e definizione sono campi obbligatori.';
 $string['filtername'] = 'Auto-collegamento al glossario';
 $string['fullmatch'] = 'Collega solo le parole intere';
 $string['globalglossary'] = 'Glossario globale';
-$string['glossary:approve'] = 'Approva i termini in attesa';
-$string['glossary:comment'] = 'Crea commenti';
-$string['glossary:export'] = 'Esporta termini';
-$string['glossary:import'] = 'Importa termini';
-$string['glossary:managecategories'] = 'Gestisci categorie';
-$string['glossary:managecomments'] = 'Gestisci commetni';
-$string['glossary:manageentries'] = 'Gestisci termini';
-$string['glossary:rate'] = 'Valuta termini';
-$string['glossary:view'] = 'Visualizza glossario';
-$string['glossary:viewrating'] = 'Visualizza valutazioni';
-$string['glossary:write'] = 'Crea nuovi termini';
+$string['glossary:approve'] = 'Approvare i termini in attesa';
+$string['glossary:comment'] = 'Creare commenti';
+$string['glossary:export'] = 'Esportare termini';
+$string['glossary:import'] = 'Importare termini';
+$string['glossary:managecategories'] = 'Gestire categorie';
+$string['glossary:managecomments'] = 'Gestire commetni';
+$string['glossary:manageentries'] = 'Gestire termini';
+$string['glossary:rate'] = 'Valutare termini';
+$string['glossary:view'] = 'Visualizzare glossario';
+$string['glossary:viewrating'] = 'Visualizzare valutazioni';
+$string['glossary:write'] = 'Creare nuovi termini';
 $string['glossaryleveldefaultsettings'] = 'Impostazioni standard per i glossari';
 $string['glossarytype'] = 'Tipo di glossario';
 $string['importcategories'] = 'Importa categorie';
