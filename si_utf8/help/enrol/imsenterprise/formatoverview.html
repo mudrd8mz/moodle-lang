@@ -1,0 +1,70 @@
+<h1>හැඩතල සමාලෝචනය </h1>
+<p>පහත දැක්වෙන්නේ ආකෘතිකමය IMS Enterperice දත්ත ගොනුවක් සදහා සරල උපදෙස මාලාවකි. ඩැඩිවිස්තර සදහා  <a href="http://www.imsglobal.org/enterprise/">IMS Enterprise අඩවි‍යට පිවිසෙන්න </a></p>
+<p>ඔබට පේනු මෘදුකාංග(plugin)  සකස් කලහැකි IMS දත්තාංග වල මොනව‍ දැයි අදුනාගත ගැනීමට  <a href="./enrol/imsenterprise/entv1p1_conformance_summary.html">අනුගත සාරංශය</a> කියැවා බලන්න. </p>
+<h1> IMS Enterprise  ගොනු හැඩතලය සදහා මූලික  උපදෙස මාලාව </h1>
+
+<p>For any IMS-style enrolment you need a &lt;group&gt; tag which specifies the course, a &lt;person&gt; tag which specifies the user account, and a &lt;membership&gt; tag containing &lt;member&gt; tags which specify a person's role within a given course.</p>
+<p> ඕනෑම IMS-හැඩයක් ලේඛන ගතකිරීමට ඔබට , පාඨමාලාව දැක්වෙන &lt;group&gt; ටැගයද භාවිතාකර‍න්නාගේ ගිණුම දැක්වෙන &lt;person&gt;ටැගය සහ &lt;member&gt; ටැගය , ඵහි පාඨමාලාව තුල දී භාවිතාකරන්නාගේ භූමිකාව සදහන් වන &lt;membership&gt;  ටැගයන් ද අවශ්‍යය වේ.</p>
+<p>මූඩ්ල් දත්තසමුච්චය සදහා යොදාගන්නා සංඛ්‍යාත්මක යතුරු interoperable දත්ත නොවේ- මූඩ්ල් දත්ත සමුච්චයට, නිමල් 20 වැනි භාවිතකරන්නා ඵකතු කල බව ශිෂ්‍යය දත්ත පද්ධතිය නොදනී- මේ නිසා මේවැනි යතුරු, හුවමාරු කලහැකි දත්ත වර්ගයක් නොවේ.</p>
+
+<p>සාමන්‍යයෙන් පාඨමාලාවක් සදහා ‍යොමු ‍අංකයක් සහ නමක් ඇත, අපි   යම් පාඨමාලාවක යොමු ‍අංකය: MOODLE101 යැයි සිතමු. දැන් ඔබ මේ පාඨමාලාව නිර්වචනය සදහා කේතය:</p>
+<p>
+&nbsp; &lt;group&gt;<br />
+&nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;මාගේ-දත්ත-පද්ධතිය &lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;id&gt;MOODLE101&lt;/id&gt;<br />
+&nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &lt;description&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;short&gt;Moodle 101&lt;/short&gt;<br />
+&nbsp; &nbsp; &lt;/description&gt;<br />
+&nbsp; &lt;/group&gt;<br />
+</p>
+
+<p>
+The enrolment script will look for a course with code MOODLE101, and (optionally) create it if it doesn't exist. Similarly for the person - let's assume it's &quot;jmoodle&quot;:</p>
+<p>ලේඛන ගතකිරීමේ විධානාවලිය(enrolment script) , MOODLE101  කේතය සහිත පාඨමාලාව ‍සොයයි. ඵය ‍නොමැතනම් ඵම කේතය නිර්මාණය කරයි(විකල්පයකි). උදාහරණයක් ලෙස &quot;jmoodle&quot; ගනිමු: </p>
+<p>&nbsp; &lt;person&gt;<br />
+&nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;මාගේ-දත්ත-පද්ධතිය&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;id&gt;jmoodle&lt;/id&gt;<br />
+&nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &lt;userid&gt;jmoodle&lt;/userid&gt;<br />
+&nbsp; &nbsp; &lt;name&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;fn&gt;නිමල් ගේ මූඩ්ල්&lt;/fn&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;n&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;family&gt;MOODLE&lt;/family&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;given&gt;නිමල්&lt;/given&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;/n&gt;<br />
+&nbsp; &nbsp; &lt;/name&gt;<br />
+&nbsp; &lt;/person&gt;<br />
+</p>
+
+<p>නිමල්ට ගිණුමක් නැති අවස්ථාවක, විධානාවලිය ඔහුට ගිණුමක් නිර්මාණය කරයි(විකල්පයකි).</p>
+<p>
+Let's now look at the membership, adding the person to the course:</p>
+<p>දැන් සාමාඡිකත්වය ගැන බලමු, පාඨමාලාවට පුද්ගලයෙකු ඵකතු කරමු: </p>
+
+<p>
+&nbsp; &lt;membership&gt;<br />
+&nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;මාගේ-දත්ත-පද්ධතිය&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;id&gt;MOODLE101&lt;/id&gt;<br />
+&nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &lt;member&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;source&gt;මාගේ-දත්ත-පද්ධතිය&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;id&gt;jmoodle&lt;/id&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;role roletype=&quot;01&quot;&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;status&gt;1&lt;/status&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;extension&gt;&lt;cohort&gt;ඵකක 01 &lt;/cohort&gt;&lt;/extension&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;/role&gt;<br />
+&nbsp; &nbsp; &lt;/member&gt;<br />
+&nbsp; &lt;/membership&gt;<br />
+</p>
+
+<p>IMS Enterprise වි‍ශේෂණය අනුව, ආරම්භක සහ අවසාන දිනය සදහන් කිරීමට පහසුකම් ඇත. ඵය &lt;timeframe&gt; ටැලයට අවශ්‍ය නම්  ඇතුල් කල හැකිය. </p>
+<p>පුද්ගලයෙකු පාඨමාලාවට ඵකතු දැනටමත් ඵකතු කල ඇතිවිට, විධානාවලිය සංස්කරණය අවශ්‍ය‍ය නැත. ඔවුන් කංඩායම් ගතකර නැතිනම්, සදහන් කල කංඩායම අඩංගු කරවයි. </p>
+<p>&nbsp;</p>
+<p>
+
