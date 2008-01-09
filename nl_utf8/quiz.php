@@ -217,6 +217,7 @@ $string['event8'] = 'Sluit';
 $string['event9'] = 'Manueel cijfers geven';
 $string['examview'] = 'Examview';
 $string['export'] = 'Exporteer';
+$string['exportcategory'] = 'export categorie';
 $string['exporterror'] = 'Er is een fout opgetreden tijdens het verwerken van de export';
 $string['exportfilename'] = 'quiz';
 $string['exportingquestions'] = 'Vragen zijn geëxporteerd naar een bestand';
