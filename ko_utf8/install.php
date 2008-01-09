@@ -9,18 +9,33 @@ $string['admindirsetting'] = '간혹 웹호스트 업체는 당신이 관리 구
 그러면 무들에 있는 관리 링크가 고쳐질 것입니다.';
 $string['admindirsettinghead'] = '관리자 디렉토리 설정 ...';
 $string['admindirsettingsub'] = '몇 개의 웹사이트만이 제어판 등을 제공하는 특별한 URL으로서 /admin을 사용합니다. 불행하게도 이것은 무들 관리페이지를 위한 표준 위치와 충돌을 일으킵니다. 설치과정에서 관리 디렉토리의 이름을 바꿈으로서 이 문제를 고칠수 있는 데, 다음의 예와 같이 새이름을 여기에 넣으면 됩니다. 예: <br /> <br /><b>moodleadmin</b><br /> <br /> 이렇게 하면 무들에서 관리자 링크문제가 해결됩니다.';
+$string['adminemail'] = '이메일 :';
+$string['adminfirstname'] = '이름 :';
+$string['admininfo'] = '관리자 정보';
+$string['adminlastname'] = '성 :';
+$string['adminpassword'] = '비밀번호 :';
+$string['adminusername'] = '사용자 ID';
+$string['askcontinue'] = '계속할까요 (yes/no) :';
+$string['availabledbtypes'] = '/n 사용가능한 디비 유형 /n';
+$string['availablelangs'] = '가능한 언어 목록 /n';
+$string['cannotconnecttodb'] = '디비에 연결할 수 없음 /n';
 $string['caution'] = '주의';
+$string['checkingphpsettings'] = '/n/n PHP설정 점검 /n/n';
 $string['chooselanguage'] = '언어를 선택하시오';
 $string['chooselanguagehead'] = '언어를 선택하시오';
 $string['chooselanguagesub'] = '설치를 위한 언어를 선택하시오. 설치를 마치고 난 후에도 사이트와 사용자들을 위한 언어팩을 가져와서 다시 바꿀 수 있습니다.';
 $string['compatibilitysettings'] = 'PHP 설정을 검사하는 중 ..';
 $string['compatibilitysettingshead'] = 'PHP 설정을 검사하는 중 ..';
 $string['compatibilitysettingssub'] = '당신의 서버는 무들이 잘 작동되기 위한 필요한 모든 테스트를 통과해야 합니다.';
+$string['configfilecreated'] = '설정파일 생성 완료 /n';
+$string['configfiledoesnotexist'] = '설정파일이 존재하지 않습니다!';
 $string['configfilenotwritten'] = '설치 스크립트는 당신이 선택한 설정으로 config.php파일을 자동적으로 생성할 수 없습니다. 아마도 무들 경로가 쓰기 허용이 되어 있지 않은 모양입니다.  당신은 수동으로 다음의 코드를 무들의 루트디렉토리안에 config.php파일로 복사해 넣을 수 있습니다.';
 $string['configfilewritten'] = '성공적으로 contig.php가 생성되었음.';
 $string['configurationcomplete'] = '초기 설정 완료';
 $string['configurationcompletehead'] = '초기 설정 완료';
 $string['configurationcompletesub'] = '무들이 설치 루트디렉토리에 있는 파일에 당신의 설정을 저장하도록 시도하였습니다.';
+$string['configurationfileexist'] = '기존 설정파일이 존재합니다! /n';
+$string['creatingconfigfile'] = '설정파일 작성 중.. /n';
 $string['database'] = '데이타 베이스';
 $string['databasecreationsettings'] = '지금 당신은 모든 무들 데이터가 저장될 데이터베이스를 설정할 필요가 있습니다. 이 데이터베이스는  아래에 있는 특별한 설정의 윈도우 설치 프로그램으로써 무들 프로그램에 의해 자동설치 될 것입니다.<br />
 <br /> <br />
@@ -37,6 +52,9 @@ $string['databasecreationsettingssub'] = '<b>종류:</b> 설치프로그램에 �
 <b>사용자:</b> 설치프로그램에 의해 \"root\" 로 고정됨 <br />
 <b>암호:</b> 데이터베이스 암호 <br />
 <b>테이블 첨두어:</b> 모든 테이블에 사용할 선택적 접두어';
+$string['databasehost'] = '데이터베이스 호스트 :';
+$string['databasename'] = '데이터베이스 명칭 :';
+$string['databasepass'] = '데이터베이스 비밀번호 :';
 $string['databasesettings'] = '지금 대부분의 무들 정보가 저장될 데이터베이스를 설정할 필요가 있습니다. 이 데이터베이스는 미리 생성되어 있어야 하며, 데이터베이스에 접근하기위한 사용자명과 비밀번호가 등록되어 있어야만 합니다.<br />
 <br /> <br />
 <b>종류:</b> mysql 또는 postgres7<br />
@@ -45,6 +63,7 @@ $string['databasesettings'] = '지금 대부분의 무들 정보가 저장될 �
 <b>사용자:</b> 데이터베이스 사용자명<br />
 <b>암호:</b> 데이터베이스 암호<br />
 <b>테이블 접두어:</b> 모든 테이블에 사용할 선택적 접두어';
+$string['databasesettingsformoodle'] = '/n/n 무들을 위한 데이터베이스 설정 /n/n';
 $string['databasesettingshead'] = '모든 무들데이터가 저장되는 데이터베이스를 설정할 필요가 있습니다. 이 데이터베이스는 이미 만들어졌으며 이에 접근할 수 있는 사용자명과 암호가 등록되어 있어야만 합니다.';
 $string['databasesettingssub'] = '<b>종류:</b> mysql 또는 postgres7<br />
 <b>호스트:</b>예: localhost 또는 db.isp.com <br />
@@ -95,6 +114,8 @@ $string['databasesettingssub_postgres7'] = '<b>종류:</b>  PostgreSQL<br />
 <b>암호:</b> 데이터베이스 암호<br />
 <b>테이블 접두어:</b> 모든 테이블에 사용할 접두어 (필수)';
 $string['databasesettingswillbecreated'] = '<b>노트:</b>만일 데이터베이스가 존재하지 않으면 인스톨러가 데이터베이스를 자동으로 생성할 것입니다.';
+$string['databasetype'] = '데이터베이스 유형 :';
+$string['databaseuser'] = '데이터베이스 사용자명 :';
 $string['dataroot'] = '데이타디렉토리 경로';
 $string['datarooterror'] = '당신이 지정한 \'데이타 경로\'가 없거나 생성되지 않았습니다. 정확한 경로를 적거나 수동으로 그 디렉토리를 생성해 놓으시오.';
 $string['dbconnectionerror'] = '지정한 데이터베이스에 연결할 수 없습니다. 데이타베이스의 설정을 점검하시오.';
@@ -130,13 +151,18 @@ $string['directorysettingssub'] = '<b>웹 주소:</b>
 무들로 업로드된 파일을 저장할 수 있는 장소가 필요합니다. 이 디렉토리는 웹 서버의 사용자(보통 \"none\" 또는 \"apache\" )에 의해서 \'읽고쓰기 가능\' 권한을 보유하여야 합니다. 그러나 직접 접근할 수 있어서는 안됩니다.';
 $string['dirroot'] = '무들 디렉토리';
 $string['dirrooterror'] = '무들의 경로가 바르지 않은 것 같습니다 - 무들의 설치 프로그램을 찾을 수 없습니다. 아래의 값들은 초기화 되었습니다.';
+$string['disagreelicense'] = 'GPL 규약에 동의하지 않았으므로 갱신을 중단합니다!';
 $string['download'] = '내려 받음';
 $string['downloadlanguagebutton'] = '\"$a\" 언어팩 내려받기';
 $string['downloadlanguagehead'] = '언어팩 다운로드';
 $string['downloadlanguagenotneeded'] = '기본 언어팩인 \"$a\"을 사용하여 설치과정을 계속할 수 있습니다.';
+$string['downloadlanguagepack'] = '/n/n 언어팩을 내려받으시겠습니까?(yes/no) :';
 $string['downloadlanguagesub'] = '이제 언어팩 선택을 하셨기 때문에 추후에는 선택한 언어로 설치를 계속할 수 있습니다.<br /><br />만일 해당 언어팩을 내려받지 못한다면, 영문으로 설치가 계속될 것입니다.(일단 영문으로 프로그램을 깐 후, 다시 또 다른 언어팩을 선택하여 설정할 수 있는 기회가 있습니다)';
+$string['downloadsuccess'] = '언어팩 내려받기 성공';
+$string['doyouagree'] = '동의하십니까? (yes/no) :';
 $string['environmenthead'] = '구동환경을 점검합니다...';
 $string['environmentsub'] = '기존 운영체제가 무들의 여러 구성 요소들을 구동하는데 적합한지 점검합니다.';
+$string['errorsinenvironment'] = '환경설정에 오류가 있습니다! /n';
 $string['fail'] = '실패';
 $string['fileuploads'] = '파일 올리기';
 $string['fileuploadserror'] = '이것은 켜져야 합니다.';
@@ -160,9 +186,25 @@ $string['globalsquoteshelp'] = '<p>magic_quotes_gpc = Off 과 register_globals =
 <blockquote>php_value magic_quotes_gpc On</blockquote>
 <blockquote>php_value register_globals Off</blockquote>
 </p>';
+$string['inputdatadirectory'] = '데이터 경로 :';
+$string['inputwebadress'] = '웹 주소 :';
+$string['inputwebdirectory'] = '무들 경로 :';
 $string['installation'] = '설치';
+$string['installationiscomplete'] = '설치 완료! /n';
+$string['invalidargumenthelp'] = '오류 : 잘못된 인수 사용예 : $php cliupgrade.php OPTIONS 좀 더 자세한 내용을 알고 싶으면 --help 옵션을 사용하세요 /n';
+$string['invalidemail'] = '잘못된 이메일주소';
+$string['invalidhost'] = '잘못된 호스트';
+$string['invalidint'] = '오류 : 정수값이 아닙니다 /n';
+$string['invalidintrange'] = '오류 : 범위를 벗어난 값입니다 /n';
+$string['invalidpath'] = '잘못된 경로';
+$string['invalidsetelement'] = '오류 : 주어진 옵션에 적절한 값이 아닙니다 /n';
+$string['invalidtextvalue'] = '잘못된 문자값';
+$string['invalidurl'] = '잘못된 웹주소';
+$string['invalidvalueforlanguage'] = '--lang 옵션에 맞지 않는 값. --help 를 쳐서 알아보세요. /n';
+$string['invalidyesno'] = '오류 : yes/no에 적절하지 않은 인수 /n';
 $string['langdownloaderror'] = '안타깝게도 \"$a\" 언어팩이 설치되지 않았습니다. 대신 영어를 이용하여 설치될 것입니다.';
 $string['langdownloadok'] = '\"$a\" 언어팩이 성공적으로 설치되었습니다. 해당 언어를 이용하여 설치가 진행될 것입니다.';
+$string['locationanddirectories'] = '/n/n 지역 및 경로 /n/n';
 $string['magicquotesruntime'] = 'Magic Quotes 실행 시간';
 $string['magicquotesruntimeerror'] = '이것은 꺼져야 합니다.';
 $string['magicquotesruntimehelp'] = '<p>Magic quotes runtime은 무들이 제대로 작동하기 위해 꺼져야(Off) 합니다.</p>
@@ -205,16 +247,68 @@ $string['phpversionhelp'] = '<p>무들은 적어도 PHP4.3.0 혹은 5.1.0. 이�
 <p>현재 구동되고 있는 PHP버전은 $a 입니다.</p>
 <p>PHP를 업그레이드 하시거나 새버전을 제공하는 웹호스팅 업체로 이전하기를 권합니다!<br />(만일 5.0.x버전을 사용 중이라면 4.4.x 버전으로 다운그레이드 할 수 있습니다)</p>';
 $string['postgres7'] = 'PostgreSQL (postgres7)';
+$string['releasenoteslink'] = '본 무들판에 대한 좀 더 자세한 내용을 알고 싶으면, $a 에 있는 개정 안내(Release Notes)를 참조하기 바랍니다.';
 $string['safemode'] = '안전모드';
 $string['safemodeerror'] = '아마 안전모드(Safe Mode)가 작동되어서 문제가 생겼을 것입니다.';
 $string['safemodehelp'] = '<p>무들은 safe mode on 상태에서는 작동이 원활하지 않을 텐데, 아마 그 중 하나가 새로운 파일을 못 만들게 하는 문제일 것입니다.</p>
 <p>Safe mode는 일단의 보안 편집증적인 웹호스트에서 이를 켜 놓을 것인데, 무들 사이트를 원활히 운용하기 위해서는 새로운 웹호스트를 찾아보시는 편이 나을 겁니다.</p>
 <p>원한다면 설치는 계속할 수는 있는데, 나중에 문제에 봉착할 것이라는 점을 염두에 두기 바랍니다.</p>';
+$string['selectlanguage'] = '/n/n 설치를 위한 언어 선택 /n/n';
 $string['sessionautostart'] = '세션 자동 시작';
 $string['sessionautostarterror'] = '이것은 꺼져 있어야(Off) 합니다.';
 $string['sessionautostarthelp'] = '<p>무들은 세션의 지원이 필요하고 그것 없이는 작동하지 않을 것 입니다.</p>
 <P>세션은 php.ini 파일 안에서 조정될 수 있습니다. session.auto_start 항목을 살펴보세요.</p>';
+$string['sitefullname'] = '사이트명칭 :';
+$string['siteinfo'] = '사이트 소개';
+$string['sitenewsitems'] = '새소식 항목 :';
+$string['siteshortname'] = '사이트 단축명 :';
+$string['sitesummary'] = '사이트 개요 :';
 $string['skipdbencodingtest'] = 'DB 엔코딩 테스트 생략';
+$string['tableprefix'] = '테이블 접두어 :';
+$string['unsafedirname'] = '오류 : 경로명에 적절치 않은 문자 포함. 사용가능한 문자는 a-zA-Z0-9_- 입니다. /n';
+$string['upgradingactivitymodule'] = '활동 모듈 갱신';
+$string['upgradingbackupdb'] = '백업 데이터베이스 갱신';
+$string['upgradingblocksdb'] = '블록 데이터베이스 갱신';
+$string['upgradingblocksplugin'] = '블록 플러그인 갱신';
+$string['upgradingcompleted'] = '갱신 완료 /n';
+$string['upgradingcourseformatplugin'] = '강좌 포맷 플러그인 갱신';
+$string['upgradingenrolplugin'] = '출석 플러그인 갱신';
+$string['upgradinggradeexportplugin'] = '성적 내보내기 플러그인 갱신';
+$string['upgradinggradeimportplugin'] = '성적 불러들이기 플러그인 갱신';
+$string['upgradinggradereportplugin'] = '성적표 작성 플러그인 갱신';
+$string['upgradinglocaldb'] = '지역 데이터베이스 갱신';
+$string['upgradingmessageoutputpluggin'] = '메시지 송출 플러그인 갱신';
+$string['upgradingqtypeplugin'] = '문항/유형 플러그인 갱신';
+$string['upgradingrpcfunctions'] = 'RPC 기능 갱신';
+$string['usagehelp'] = '개괄:
+$php cliupgrade.php OPTIONS /n
+옵션
+--lang 설치를 위한 준비된 언어. 기본값은 영어(en)
+--webaddr 무들 사이트를 위한 웹 주소
+--moodledir 무들 웹 경로 위치
+--datadir 무들 자료 경로(data folder) 위치(웹에서 보이지 않아야 함)
+--dbtype 데이터베이스 유형. 기본값은 mysql
+--dbhost 데이터베이스 호스트. 기본값은 localhost
+--dbname 데이터베이스명. 기본값은 moodle
+--dbuser 데이터베이스 사용자. 기본값은 공난
+--dbpass 데이터베이스 암호. 기본값은 공난
+--prefix 상기 데이터베이스의 테이블 접두어. 기본값은 mdl
+--verbose 0 출력없음, 1 요약 출력(기본값), 2 상세 출력
+--interactivelevel 0 Non interactive, 1 semi interactive(Default), 2 interactive
+--agreelicense Yes(기본값) 혹은 No
+--confirmrelease Yes(기본값) 혹은 No
+--sitefullname 사이트 전체 이름. 기본값은 : Moodle Site (사이트명을 바꾸세요!!)
+--siteshortname 사이트 단축명. 기본값은 moodle
+--sitesummary 사이트 개요. 기본값은 공난
+--adminfirstname 관리자 이름. 기본값은 Admin
+--adminlastname 관리자의 성. 기본값은 User
+--adminusername 관리자 ID. 기본값은 admin
+--adminpassword 관리자 암호. 기본값은 admin
+--adminemail 관리자 이메일. 기본값은 root@localhost
+--help 본 도움말 출력 /n
+사용예시:
+$php cliupgrade.php --lang=en --webaddr=http://www.example.com --moodledir=/var/www/html/moodle --datadir=/var/moodledata --dbtype=mysql --dbhost=localhost --dbname=moodle --dbuser=root --prefix=mdl --agreelicense=yes --confirmrelease=yes --sitefullname=\"Example Moodle Site\" --siteshortname=moodle --sitesummary=siteforme --adminfirstname=Admin --adminlastname=User --adminusername=admin --adminpassword=admin --adminemail=admin@example.com --verbose=1 --interactivelevel=2 /n';
+$string['versionerror'] = '판오류로 인한 사용자 취소';
 $string['welcomep10'] = '$a->installername ($a->installerversion)';
 $string['welcomep20'] = '당신의 컴퓨터에 <strong>$a->packname $a->packversion</strong> 패키지를 성공적으로 설치한 것을 축하합니다!';
 $string['welcomep30'] = '<strong>$a->installername</strong> 의 이 릴리스는 <strong>무들</strong>이 그 속에서 동작하는 환경을 생성하기 위한 어플리케이션을 포함하고 있습니다.';
@@ -223,7 +317,10 @@ $string['welcomep50'] = '이 패키지에 있는 모든 어플리케이션을 �
 <a href=\"http://www.opensource.org/docs/definition_plain.html\">공개 소스이며 </a> <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> 라이선스에 의해 배포됩니다.';
 $string['welcomep60'] = '다음 페이지들은 당신의 컴퓨터에 <strong>무들</strong>을 설정하고 설치하는데 따라하기 쉬운 방법으로 당신을 안내할 것입니다. 당신은 기본 설정을 선택하거나 당신의 목적에 맞게 선택적으로 수정할 수 있습니다.';
 $string['welcomep70'] = '<strong>무들</strong> 설정을 계속하기 위해서는 \"다음\" 버튼을 클릭하세요.';
+$string['welcometext'] = '/n/n --무들 설치를 위한 명령입력 모드입니다-- /n/n';
+$string['writetoconfigfilefaild'] = '오류 : 설정 파일 쓰기 실패';
 $string['wwwroot'] = '웹 주소';
 $string['wwwrooterror'] = '이 웹 주소는 유효한 것 같지 않습니다 - 무들 설치 프로그램이 거기에 없습니다.';
+$string['yourchoice'] = '/n 선택 :';
 
 ?>
