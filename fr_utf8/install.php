@@ -217,6 +217,52 @@ $string['sitenewsitems'] = 'Nouvelles :';
 $string['siteshortname'] = 'Nom abrégé du site :';
 $string['sitesummary'] = 'Résumé du site :';
 $string['skipdbencodingtest'] = 'Ne pas effectuer le test d\'encodage de la base de données';
+$string['tableprefix'] = 'Préfixe des tables :';
+$string['unsafedirname'] = 'Erreur: caractères non sûrs dans le nom du dossier. Les caractères valides sont a-zA-Z0-9_-';
+$string['upgradingactivitymodule']= 'Mise à jour du module Activité';
+$string['upgradingbackupdb'] = 'Mise à jour de la base de données du backup';
+$string['upgradingblocksdb'] = 'Mise à jour de la base de données des blocs';
+$string['upgradingblocksplugin'] = 'Mise à jour du plugin Bloc';
+$string['upgradingcompleted'] = 'Mise à jour terminée...';
+$string['upgradingcourseformatplugin'] = 'Mise à jour du plugin Format de cours';
+$string['upgradingenrolplugin'] = 'Mise à jour du plugin Inscription';
+$string['upgradinggradeexportplugin'] = 'Mise à jour du plugin Exportation des notes';
+$string['upgradinggradeimportplugin'] = 'Mise à jour du plugin Importation des notes';
+$string['upgradinggradereportplugin'] = 'Mise à jour du plugin Rapport des notes';
+$string['upgradinglocaldb'] = 'Mise à jour de la base de données locale';
+$string['upgradingmessageoutputpluggin'] = 'Mise à jour du plugin Message';
+$string['upgradingqtypeplugin'] = 'Mise à jour du plugin Question';
+$string['upgradingrpcfunctions'] = 'Mise à jour des fonctions RPC';
+$string['usagehelp']='
+Synopsis:
+\$php cliupgrade.php OPTIONS\n
+OPTIONS
+--lang              Langue installée à utiliser pour l\'installation. Par défaut, l\'anglais (en)
+--webaddr           Adresse web du site Moodle
+--moodledir         Emplacement du dossier web de moodle
+--datadir           Emplacement du dossier de données de moodle (ne devrait pas être accessible depuis le web)
+--dbtype            Type de base de données. Par défaut, mysql
+--dbhost            Serveur de base de données. Par défaut, localhost
+--dbname            Nom de la base de données. Par défaut, moodle
+--dbuser            Utilisateur de la base de données. Par défaut, vide
+--dbpass            Mot de passe de la base de données. Par défaut, vide
+--prefix            Préfixe des tables pour la base de données ci-dessus. Par défaut, mdl
+--verbose           0 Pas d\'output, 1 Output brève (défaut), 2 Output détaillée
+--interactivelevel  0 Non interactif, 1 semi-interactif (défaut), 2 interactif
+--agreelicense      Yes (défaut) ou No
+--confirmrelease    Yes (défaut) ou No
+--sitefullname      Nom complet du site. Par défaut, Moodle Site (Please Change Site Name!!)
+--siteshortname     Nom abrégé du site. Par défaut,  moodle
+--sitesummary       Résumé du site. Default is blank 
+--adminfirstname    Prénom de l\'administrateur. Par défaut, Admin
+--adminlastname     Nom de l\'administrateur. Par défaut, User
+--adminusername     Nom d\'utilisateur de l\'administrateur. Par défaut, admin
+--adminpassword     Mot de passe de l\'administrateur. Par défaut, admin
+--adminemail        Adresse de courriel de l\'administrateur. Par défaut, root@localhost
+--help              print out this help\n
+Usage:
+\$php cliupgrade.php --lang=en --webaddr=http://www.example.com --moodledir=/var/www/html/moodle --datadir=/var/moodledata --dbtype=mysql --dbhost=localhost --dbname=moodle --dbuser=root --prefix=mdl --agreelicense=yes --confirmrelease=yes --sitefullname=\"Site Moodle de test\" --siteshortname=moodle --sitesummary=monbeausite --adminfirstname=Admin --adminlastname=User --adminusername=admin --adminpassword=admin --adminemail=admin@example.com --verbose=1 --interactivelevel=2';
+$string['versionerror'] = 'Installation interrompue en raison d\'une erreur de version';
 $string['welcomep10'] = '$a->installername ($a->installerversion)';
 $string['welcomep20'] = 'Vous voyez cette page, car vous avez installé Moodle correctement et lancé le logiciel <strong>$a->packname $a->packversion</strong> sur votre ordinateur. Félicitations&nbsp;!';
 $string['welcomep30'] = 'Cette version du paquet <strong>$a->installername</strong> comprend des logiciels qui créent un environnement dans lequel <strong>Moodle</strong> va fonctionner, à savoir&nbsp;:';
@@ -224,7 +270,10 @@ $string['welcomep40'] = 'Ce paquet contient également <strong>Moodle $a->moodle
 $string['welcomep50'] = 'L\'utilisation de tous les logiciels de ce paquet est soumis à l\'acceptation de leurs licences respectives. Le paquet <strong>$a->installername</strong> est un <a href=\"http://www.opensource.org/docs/definition_plain.html\">logiciel libre</a>. Il est distribué sous licence <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a>.';
 $string['welcomep60'] = 'Les pages suivantes vous aideront pas à pas à configurer et mettre en place <strong>Moodle</strong> sur votre ordinateur. Il vous sera possible d\'accepter les réglages par défaut ou, facultativement, de les adapter à vos propres besoins.';
 $string['welcomep70'] = 'Cliquer sur le bouton «&nbsp;Suivant&nbsp;» ci-dessous pour continuer l\'installation de <strong>Moodle</strong>.';
+$string['welcometext']='---Bienvenue à l\'installeur de Moodle en ligne de commande---';
+$string['writetoconfigfilefaild'] = 'Erreur: L\'écriture du fichier de configuration à échoué';
 $string['wwwroot'] = 'Adresse web';
 $string['wwwrooterror'] = 'L\'adresse web indiquée semble incorrecte&nbsp;: aucune installation de Moodle ne se trouve à cette adresse.';
+$string['yourchoice'] = 'Votre choix :';
 
 ?>
