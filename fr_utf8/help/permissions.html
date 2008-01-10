@@ -12,7 +12,7 @@
 
 <dt>Non défini</dt>
 
-<dd>Ce réglage est habituellement le réglage par défaut. C'est un réglage neutre qui signifie « utiliser les réglages que l'utilisateur a déjà ». Si un rôle  qui a cette permission pour une capacité est attribué à quelqu'un, par exemple dans un cours, la permission que cette personne aura effectivement sera celle qu'elle avait déjà dans un contexte plus élevé, par exemple au niveau des catégories ou au niveau du site. Dans le cas extrême où une permission n\'est jamais attribué à aucun niveau, l'utilisateur n'aura alors aucune permission pour cette capacité.</dd>
+<dd>Ce réglage est habituellement le réglage par défaut. C'est un réglage neutre qui signifie « utiliser les réglages que l'utilisateur a déjà ». Si un rôle  qui a cette permission pour une capacité est attribué à quelqu'un, par exemple dans un cours, la permission que cette personne aura effectivement sera celle qu'elle avait déjà dans un contexte plus élevé, par exemple au niveau des catégories ou au niveau du système. Dans le cas extrême où une permission n\'est jamais attribué à aucun niveau, l'utilisateur n'aura alors aucune permission pour cette capacité.</dd>
 
 <dt>Autoriser</dt>
 
@@ -24,7 +24,7 @@
 
 <dt>Interdire</dt>
 
-<dd>Ce choix est rarement nécessaire. Il permet de retirer une capacité à un rôle, de façon qu'il ne soit pas possible de l'autoriser dans un contexte inférieur. Par exemple, si un administrateur veut empêcher un utilisateur de commencer de nouvelles discussions dans tous les forums d'un site, il créera un rôle avec cette capacité réglée sur « Interdire » et attribuera ce rôle à l'utilisateur en question, dans le contexte du site.</dd>
+<dd>Ce choix est rarement nécessaire. Il permet de retirer une capacité à un rôle, de façon qu'il ne soit pas possible de l'autoriser dans un contexte inférieur. Par exemple, si un administrateur veut empêcher un utilisateur de commencer de nouvelles discussions dans tous les forums d'un système, il créera un rôle avec cette capacité réglée sur « Interdire » et attribuera ce rôle à l'utilisateur en question, dans le contexte du système.</dd>
 
 </dl>
 
@@ -34,7 +34,7 @@
 
 <p>Si deux rôles sont attribués à un utilisateur dans le même contexte, l'un avec le réglage <b>Autoriser</b> et l'autre avec le réglage <b>Interdire</b>, lequel des deux sera appliqué ? Dans un tel cas, Moodle recherchera dans l'arbre des contextes un indice de décision.</p>
 
-<p>Par exemple, supposons qu'un étudiant ait deux rôles dans un cours, l'un lui permettant de commencer des discussions et l'autre le lui empêchant. Dans ce cas, Moodle contrôlera les contextes catégories et site, à la recherche de la définition d'une autre permission pour tomber sur une décision. S'il n'en trouve pas, la permission sera par défaut mise à <b>Empêcher</b> (parce que les deux réglages s'annulent et qu'il n'y a alors pas de permission).</p>
+<p>Par exemple, supposons qu'un étudiant ait deux rôles dans un cours, l'un lui permettant de commencer des discussions et l'autre le lui empêchant. Dans ce cas, Moodle contrôlera les contextes catégories et système, à la recherche de la définition d'une autre permission pour tomber sur une décision. S'il n'en trouve pas, la permission sera par défaut mise à <b>Empêcher</b> (parce que les deux réglages s'annulent et qu'il n'y a alors pas de permission).</p>
 
 <h1>Exceptions spéciales</h1>
 
