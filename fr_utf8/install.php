@@ -218,7 +218,6 @@ $string['siteshortname'] = 'Nom abrégé du site :';
 $string['sitesummary'] = 'Résumé du site :';
 $string['skipdbencodingtest'] = 'Ne pas effectuer le test d\'encodage de la base de données';
 $string['tableprefix'] = 'Préfixe des tables :';
-$string['unsafedirname'] = 'Erreur: caractères non sûrs dans le nom du dossier. Les caractères valides sont a-zA-Z0-9_-';
 $string['upgradingactivitymodule']= 'Mise à jour du module Activité';
 $string['upgradingbackupdb'] = 'Mise à jour de la base de données du backup';
 $string['upgradingblocksdb'] = 'Mise à jour de la base de données des blocs';
