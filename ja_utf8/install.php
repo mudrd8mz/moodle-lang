@@ -2,6 +2,7 @@
       // install.php - created with Moodle 2.0 dev (2007101506)
 
 
+$string['aborting'] = 'インストール異常終了';
 $string['admindirerror'] = '設定されたadminディレクトリが正しくありません。';
 $string['admindirname'] = 'Adminディレクトリ';
 $string['admindirsetting'] = 'まれに、コントロールパネルまたはその他の管理ツールにアクセスするためのURIとして/adminディレクトリを使用しているウェブホストがあります。残念ながら、これはMoodle管理ページの標準的なロケーションと衝突します。インストールするときにadminディレクトリをリネームすることが可能です。ここに新しいディレクトリ名を入力してください。例: <br/> <br /><b>moodleadmin</b><br /> <br />
@@ -269,7 +270,6 @@ $string['siteshortname'] = '短いサイト名 :';
 $string['sitesummary'] = 'フロントページの説明 :';
 $string['skipdbencodingtest'] = 'DBエンコーディングテストをスキップ';
 $string['tableprefix'] = 'テーブル接頭辞 :';
-$string['unsafedirname'] = 'エラー: ディレクトリ名に安全でない文字が含まれています。有効な文字は、「a-zA-Z0-9_」です。';
 $string['upgradingactivitymodule'] = '活動モジュールのアップグレード';
 $string['upgradingbackupdb'] = 'バックアップデータのアップブレード';
 $string['upgradingblocksdb'] = 'ブロックデータベースのアップグレード';
@@ -325,5 +325,6 @@ $string['writetoconfigfilefaild'] = 'エラー: config.phpファイルの書き�
 $string['wwwroot'] = 'ウェブアドレス';
 $string['wwwrooterror'] = '「ウェブアドレス」が正しくありません - インストール済みMoodleはそこに表示されません。下記の値はリセットされました。';
 $string['yourchoice'] = 'あなたの選択 :';
+$string['unsafedirname'] = 'エラー: ディレクトリ名に安全でない文字が含まれています。有効な文字は、「a-zA-Z0-9_」です。'; // ORPHANED
 
 ?>
