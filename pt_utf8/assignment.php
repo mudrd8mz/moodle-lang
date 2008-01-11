@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7.1+ (2006101010)
+      // assignment.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['allowdeleting'] = 'Permitir apagar';
@@ -27,6 +27,7 @@ $string['commentinline'] = 'Comentar em linha';
 $string['configitemstocount'] = 'Natureza dos pontos a ser tidos em conta nos trabalhos em-linha enviados pelos alunos.';
 $string['configmaxbytes'] = 'Tamanho máximo, por omissão, de todos os trabalhos enviados para o servidor (sujeito a limites de cada disciplina e limites locais)';
 $string['confirmdeletefile'] = 'tem a certeza que pretende eliminar este ficheiro? <br /><strong>$a</strong>';
+$string['deleteallsubmissions'] = 'Apagara todos os envios';
 $string['deletefilefailed'] = 'A eliminação do ficheiro falhou';
 $string['description'] = 'Descrição';
 $string['draft'] = 'Rascunho';
@@ -59,6 +60,7 @@ $string['helpupload'] = '<p>Este tipo de trabalho permite os alunos enviem um ou
 <p>O envio deste tipo de trabalho deverá ser concluído manualmente por parte de cada participante. Pode rever o estado actual em qualquer momento, e os trabalhos não concluídos serão identificados como Rascunhos. Pode reverter o estado de qualquer trabalho ainda não avaliado, de concluído para rascunho.</p>';
 $string['helpuploadsingle'] = '<p>Este tipo de trabalho permite a cada participante enviar um ficheiro simples, de qualquer tipo.</p> <p>Poderá ser um documento de processador de texto, uma imagem, um sítio web comprimido, ou qualquer coisa que lhes for pedido enviar.</p>';
 $string['hideintro'] = 'Ocultar a descrição antes da data disponível';
+$string['itemstocount'] = 'Número';
 $string['late'] = '$a atrasado';
 $string['maximumgrade'] = 'Nota máxima';
 $string['maximumsize'] = 'Tamanho máximo';

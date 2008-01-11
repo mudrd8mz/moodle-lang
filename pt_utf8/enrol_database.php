@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.8.2+ (2007021520)
+      // enrol_database.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['autocreate'] = 'As Disciplinas podem ser criadas automaticamente se houver inscrições para uma disciplina que ainda não exista no Moodle.';
@@ -17,11 +17,12 @@ $string['dbtype'] = 'Tipo de Base de Dados';
 $string['dbuser'] = 'Utilizador do (Servidor)';
 $string['defaultcourseroleid'] = 'Cargo que vai atribuído por defeito se nenhum outro cargo for especificado.';
 $string['description'] = 'Pode usar uma base de dados externa (de quase qualquer tipo) para controlar as inscrições. Admite-se que a sua base de dados externa contém um campo com um identificador de disciplina (course ID), e um campo com o código de utilizador (user ID). Esses campos serão comparados com os campos que seleccionar nas tabelas locais de disciplina e utilizador.';
+$string['disableunenrol'] = 'Se escolher sim os utilizadores previamente matriculados pelo plugin de base de dados externa não serão retirados da disciplina pelo mesmo plugin, independentemente do conteúdo da base de dados.';
 $string['enrol_database_autocreation_settings'] = 'Criação automática de novas disciplinas';
 $string['enrolname'] = 'Base de dados externa';
 $string['general_options'] = 'Opções Gerais';
 $string['host'] = 'Nome do servidor de bases de dados';
-$string['ignorehiddencourse'] = 'Se seleccionar \"sim\", os utilizadores não serão inscritos em disciplinas que não estejam diponíveis para alunos.';
+$string['ignorehiddencourse'] = 'Se seleccionar sim, os utilizadores não serão inscritos em disciplinas que não estejam diponíveis para alunos.';
 $string['local_fields_mapping'] = 'Campos da base de dados (local) do Moodle';
 $string['localcoursefield'] = 'Nome do campo na tabela Disciplina que esta a ser usada para comparar entradas na base de dados (remota)(eg idnumber).';
 $string['localrolefield'] = 'Nome do campo na tabela de Cargos que esta a ser usada para comparar entradas na base de dados (remota)(eg shortname).';

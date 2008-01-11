@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.7.1+ (2006101010)
+      // block_rss_client.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['addfeed'] = 'Adicionar URL de um alimentador de notícias';
@@ -30,6 +30,7 @@ $string['feedupdated'] = 'Lista de notícias RSS actualizada';
 $string['findmorefeeds'] = 'Encontrar mais listas RSS';
 $string['managefeeds'] = 'Gerir todas as listas RSS';
 $string['nofeeds'] = 'Não há listas RSS definidas para este sítio';
+$string['numentries'] = 'Notícias por lista';
 $string['pickfeed'] = 'Seleccionar uma lista de notícias RSS';
 $string['remotenewsfeed'] = 'Lista de notícias RSS  remota';
 $string['rss_client:createprivatefeeds'] = 'Criar lista RSS privada';
@@ -40,7 +41,9 @@ $string['seeallfeeds'] = 'Ver todas as listas RSS';
 $string['sharedfeed'] = 'Lista RSS partilhada';
 $string['shownumentrieslabel'] = 'Número máximo de titulares a mostrar por bloco';
 $string['submitters'] = 'A quem será permitido definir uma nova lista RSS? As listas RSS definidas estão disponíneis para qualquer página no sítio.';
+$string['submitters2'] = 'Fornecedores';
 $string['timeout'] = 'Bloco RSS parado';
+$string['timeout2'] = 'Tempo limite';
 $string['timeoutdesc'] = 'Tempo, em minutos, para uma lista RSS ficar em cache';
 $string['updatefeed'] = 'Actualizar URL de uma lista de notícias RSS:';
 $string['validatefeed'] = 'Validar lista RSS';

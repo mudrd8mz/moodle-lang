@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8.2+ (2007021520)
+      // auth.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['CASform'] = 'Escolha de autenticação';
 $string['accesCAS'] = 'Utilizadores CAS';
 $string['accesNOCAS'] = 'outros utilizadores';
+$string['actauthhdr'] = 'Plugins de autenticação activos';
 $string['alternatelogin'] = 'Se inserir um URL aqui, será utilizado como página de entrada para este sítio. A página deverá conter um formulário que tenha a propriedade action definida para <strong>\'$a\'</strong> e campos de retorno <strong>Utilizador</strong> e <strong>Senha</strong>.<br />Tenha cuidado para não inserir um URL incorrecto porque pode bloque-a-lo a si neste sítio.<br /> Deixe esta definição em branco para utilizar a página de entrada por omissão.';
 $string['alternateloginurl'] = 'Endereço alternativo para entrada';
 $string['auth_cas_auth_user_create'] = 'Criar utilizadores externamente';
@@ -119,6 +120,7 @@ $string['auth_imapport_key'] = 'Porta';
 $string['auth_imaptitle'] = 'Use um servidor IMAP';
 $string['auth_imaptype'] = 'Tipo de servidor IMAP. Os servidores IMAP podem usar diferentes métodos de autenticação e negociação.';
 $string['auth_imaptype_key'] = 'Tipo';
+$string['auth_ldap_ad_create_req'] = 'Não é possível criar a nova conta no Active Directory. Verifique que tenha todo o que precisa para que funcione (ligação LDAPS, utilizador do bind com permissões apropriadas, etc.)';
 $string['auth_ldap_auth_user_create_key'] = 'Criar utilizadores externamente';
 $string['auth_ldap_bind_dn'] = 'Se quiser usar o utilizador do bind para procurar utilizadores, especifique-o aqui. Algo como \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_dn_key'] = 'Nome distinto';
@@ -130,6 +132,7 @@ $string['auth_ldap_contexts'] = 'Lista dos contextos onde os utilizadores são e
 $string['auth_ldap_contexts_key'] = 'Contextos';
 $string['auth_ldap_create_context'] = 'Se permitir a criação de utilizadores com confirmação pelo correio electrónico, especifique o contexto em que os utilizadores são criados. Este contexto deverá ser diferente do de outros utilizadores, por medidas de segurança. Não é necessário adicionar este contexto à variável ldap_context, pois o Moodle irá, automaticamente, procurar utilizadores associados a este contexto.';
 $string['auth_ldap_create_context_key'] = 'Contexto para novos utilizadores';
+$string['auth_ldap_create_error'] = 'Erro na criação de utilizador no LDAP.';
 $string['auth_ldap_creators'] = 'Lista de grupos cujos membros tém permissões para criar novos cursos. Separe vários grupos com \';\'. Geralmente como \'cn=teacher,ou=staff,o=myorg\'';
 $string['auth_ldap_creators_key'] = 'Criadores';
 $string['auth_ldap_expiration_desc'] = 'Seleccione Não para desactivar a verificação de senha expirada ou a leitura directa da data de expiração da senha a partir do LDAP';
@@ -152,6 +155,7 @@ $string['auth_ldap_memberattribute'] = 'Especifica o atributo de utilizador memb
 $string['auth_ldap_memberattribute_isdn'] = 'Opcional: tem prioridade sobre a atribuição de valores dos atributos de membros, ou 0 ou 1.\'';
 $string['auth_ldap_memberattribute_isdn_key'] = 'Atributos dos membros usam dn';
 $string['auth_ldap_memberattribute_key'] = 'Atributo do membro';
+$string['auth_ldap_no_mbstring'] = 'Precisa da extansão mbstring para poder criar utlizadores no Active Directory';
 $string['auth_ldap_noconnect'] = 'Módulo LDAP não conseguiu ligar ao servidor: $a';
 $string['auth_ldap_noconnect_all'] = 'Módulo LDAP não conseguiu ligar a nenhum servidor: $a';
 $string['auth_ldap_noextension'] = 'Aviso: o módulo PHP LDAP parece não estar presente. Asegure-se que está instalado e activado.';
@@ -171,6 +175,7 @@ $string['auth_ldap_unsupportedusertype'] = 'auth: a função user_create() do ld
 $string['auth_ldap_update_userinfo'] = 'Actualizar informação de utilizador (nome, apelido, endereço...) de LDAP para Moodle. Para informação sobre a correspondência, consulte /auth/ldap/attr_mappings.php';
 $string['auth_ldap_user_attribute'] = 'O atributo usado para nomear/procurar utilizadores. Geralmente \'cn\'.';
 $string['auth_ldap_user_attribute_key'] = 'Atributo do utilizador';
+$string['auth_ldap_user_exists'] = 'Configurações da pesquisa de utilizadores';
 $string['auth_ldap_user_settings'] = 'Definições de visualização do utilizador';
 $string['auth_ldap_user_type'] = 'Seleccione como é que os utilizadores são gravados no LDAP. Esta definição tambem especifica como irão trabalhar a expiração do login, a tolerância de entrada e a criação de utilizadores.';
 $string['auth_ldap_user_type_key'] = 'Tipo de utilizador';
@@ -203,6 +208,11 @@ $string['auth_nologindescription'] = 'Plugin auxiliar que pode impedri que um ut
 $string['auth_nologintitle'] = 'Sem autenticação';
 $string['auth_nonedescription'] = 'Os utilizadores podem registrar-se e criar contas válidas imediatamente, sem autenticação em nenhum servidor externo e sem nenhuma confirmação por correio. Tenha cuidado se usar esta opção - pense nos problemas de segurança e administração que isto poderia causar.';
 $string['auth_nonetitle'] = 'Sem autenticação';
+$string['auth_ntlmsso'] = 'NTLM SSO';
+$string['auth_ntlmsso_enabled'] = 'Se for activado, será feita uma tentativa de \"Single Sign On\" (SSO) no domínio NTLM. <strong>Nota:</strong> para isto funcionar precisa de alguma configuração adicional no servidor Web, veja <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>';
+$string['auth_ntlmsso_enabled_key'] = 'Activar';
+$string['auth_ntlmsso_subnet'] = 'Se for activado, só serão feitas tentativas de SSO com clientes nesta sub rede. Formato: xxx.xxx.xxx.xxx/bitmask';
+$string['auth_ntlmsso_subnet_key'] = 'Sub rede';
 $string['auth_pamdescription'] = 'Este método utiliza PAM para aceder aos usernames nativos neste servidor. Terá que instalar a autenticação <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM </a> para poder utilizar este módulo.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
 $string['auth_passwordisexpired'] = 'A sua senha expirou. Quer alterá-la agora?';
@@ -262,10 +272,17 @@ $string['changepassword'] = 'Endereço para alteração de senha';
 $string['changepasswordhelp'] = 'Aqui pode especificar um local onde os utilizadores podem recuperar ou alterar a sua senha e nome de usuário caso se esqueçam dela. Isto será fornecido aos utilizadores como um botão na página de entrada a servidor e na sua página de utilizador. Se deixar este espaço em branco o botão não aparecerá.';
 $string['chooseauthmethod'] = 'Escolha um método de autenticação:';
 $string['createpasswordifneeded'] = 'Criar senha se necessário';
+$string['errorminpassworddigits'] = 'A senha deverá ter pelo menos $a algarismo(s)';
+$string['errorminpasswordlength'] = 'A senha deverá ter pelo menos $a caracteres.';
+$string['errorminpasswordlower'] = 'A senha deverá ter pelo menos $a letra(s) minúscula(s).';
+$string['errorminpasswordnonalphanum'] = 'A senha deverá ter pelo menos $a caracteres(s) não alfanumérico(s).';
+$string['errorminpasswordupper'] = 'A senha deverá ter pelo menos $a letra(s) maiúscula(s).';
 $string['errorpasswordupdate'] = 'Erro na actualização da senha; senha não modificada';
 $string['forcechangepassword'] = 'Obrigar a alterar senha';
 $string['forcechangepassword_help'] = 'Obrigar os utilizadores a alterar a senha na sua próxima entrada no Moodle.';
 $string['forcechangepasswordfirst_help'] = 'Obrigar os utilizadores a alterar a senha na sua primeira entrada no Moodle.';
+$string['forgottenpassword'] = 'Se inserir aqui um URL, será usado neste sítio como página para recuperação de senhas. Este campo foi criado para sítios onde as palavras chaves são controladas em forma externa ao Moodle. Deixe em branco se quiser usar a página de recuperação de senha própria do Moodle.';
+$string['forgottenpasswordurl'] = 'URL para recuperação de senha';
 $string['guestloginbutton'] = 'Botão de entrada como visitante';
 $string['infilefield'] = 'Campo necessário no ficheiro';
 $string['instructions'] = 'Instruções';
@@ -274,6 +291,9 @@ $string['locked'] = 'Bloqueado';
 $string['md5'] = 'Criptografia MD5';
 $string['nopasswordchange'] = 'A senha não pode ser modificada.';
 $string['nopasswordchangeforced'] = 'Não consegue prosseguir sem modificar a senha, entretanto não existe nenhuma página disponível para a mudar. Por favor contacte o Administrador do sítio Moodle.';
+$string['ntlmsso_attempting'] = 'A tentar \"Single Sign On\" via NTLM...';
+$string['ntlmsso_failed'] = 'A autenticação automática falhou; tente com autenticação normal...';
+$string['ntlmsso_isdisabled'] = 'SSO NTLM não se encontra activado.';
 $string['passwordhandling'] = 'Tratamento do campo de senha';
 $string['plaintext'] = 'Texto simples';
 $string['pluginnotenabled'] = 'O plugin de autenticação \'$a\' não está activado.';
@@ -295,24 +315,5 @@ $string['update_never'] = 'Nunca';
 $string['update_oncreate'] = 'Em criação';
 $string['update_onlogin'] = 'Em cada entrada';
 $string['update_onupdate'] = 'Em actualização';
-$string['auth_ldap_ad_create_req'] = 'Não é possível criar a nova conta no Active Directory. Verifique que tenha todo o que precisa para que funcione (ligação LDAPS, utilizador do bind com permissões apropriadas, etc.)'; // ORPHANED
-$string['auth_ldap_create_error'] = 'Erro na criação de utilizador no LDAP.'; // ORPHANED
-$string['auth_ldap_no_mbstring'] = 'Precisa da extansão mbstring para poder criar utlizadores no Active Directory'; // ORPHANED
-$string['auth_ldap_user_exists'] = 'Configurações da pesquisa de utilizadores'; // ORPHANED
-$string['auth_ntlmsso'] = 'NTLM SSO'; // ORPHANED
-$string['auth_ntlmsso_enabled'] = 'Se for activado, será feita uma tentativa de \"Single Sign On\" (SSO) no domínio NTLM. <strong>Nota:</strong> para isto funcionar precisa de alguma configuração adicional no servidor Web, veja <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>'; // ORPHANED
-$string['auth_ntlmsso_enabled_key'] = 'Activar'; // ORPHANED
-$string['auth_ntlmsso_subnet'] = 'Se for activado, só serão feitas tentativas de SSO com clientes nesta sub rede. Formato: xxx.xxx.xxx.xxx/bitmask'; // ORPHANED
-$string['auth_ntlmsso_subnet_key'] = 'Sub rede'; // ORPHANED
-$string['errorminpassworddigits'] = 'A senha deverá ter pelo menos $a algarismo(s)'; // ORPHANED
-$string['errorminpasswordlength'] = 'A senha deverá ter pelo menos $a caracteres.'; // ORPHANED
-$string['errorminpasswordlower'] = 'A senha deverá ter pelo menos $a letra(s) minúscula(s).'; // ORPHANED
-$string['errorminpasswordnonalphanum'] = 'A senha deverá ter pelo menos $a caracteres(s) não alfanumérico(s).'; // ORPHANED
-$string['errorminpasswordupper'] = 'A senha deverá ter pelo menos $a letra(s) maiúscula(s).'; // ORPHANED
-$string['forgottenpassword'] = 'Se inserir aqui um URL, será usado neste sítio como página para recuperação de senhas. Este campo foi criado para sítios onde as palavras chaves são controladas em forma externa ao Moodle. Deixe em branco se quiser usar a página de recuperação de senha própria do Moodle.'; // ORPHANED
-$string['forgottenpasswordurl'] = 'URL para recuperação de senha'; // ORPHANED
-$string['ntlmsso_attempting'] = 'A tentar \"Single Sign On\" via NTLM...'; // ORPHANED
-$string['ntlmsso_failed'] = 'A autenticação automática falhou; tente com autenticação normal...'; // ORPHANED
-$string['ntlmsso_isdisabled'] = 'SSO NTLM não se encontra activado.'; // ORPHANED
 
 ?>
