@@ -2,6 +2,7 @@
       // install.php - created with Moodle 2.0 dev (2007101506)
 
 
+$string['aborting'] = 'Installatie afbreken';
 $string['admindirerror'] = 'De admin-map die je opgeeft is niet juist';
 $string['admindirname'] = 'Admin-map';
 $string['admindirsetting'] = 'Enkele webhosts gebruiken /admin als speciale URL  om je toegang te geven tot een controlepaneel of iets dergelijks. Jammer genoeg geeft dit conflicten met de standaardmap voor de Moodle-beheerpagina\'s. Je kunt dit toch aan het werk krijgen door de adminmap van jouw installatie te hernoemen en deze nieuwe mapnaam hier te zetten. Bijvoorbeeld <br /> <br /><b>moodleadmin</b><br /> <br />. Dit zal alle beheerlinks in Moodle aanpassen.';
@@ -260,7 +261,6 @@ $string['siteshortname'] = 'Verkorte naam voor de site:';
 $string['sitesummary'] = 'Site samenvatting:';
 $string['skipdbencodingtest'] = 'Negeer DB-encodingtest';
 $string['tableprefix'] = 'Tabelvoorvoegsel:';
-$string['unsafedirname'] = 'Fout: onveilige tekens in de mapnaam. Geldige tekens zijn a-zA-Z0-9_-';
 $string['upgradingactivitymodule'] = 'Upgraden module';
 $string['upgradingbackupdb'] = 'Upgraden backup databank';
 $string['upgradingblocksdb'] = 'Upgraden blok databank';
@@ -320,5 +320,6 @@ $string['writetoconfigfilefaild'] = 'Fout: schrijven naar config.php-bestand mis
 $string['wwwroot'] = 'Web adres';
 $string['wwwrooterror'] = 'Het webadres lijkt niet geldig te zijn - deze Moodle-installatie is blijkbaar niet op die plaats.';
 $string['yourchoice'] = 'Jouw keuze:';
+$string['unsafedirname'] = 'Fout: onveilige tekens in de mapnaam. Geldige tekens zijn a-zA-Z0-9_-'; // ORPHANED
 
 ?>
