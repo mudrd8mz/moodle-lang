@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.9 dev (2007072500)
+      // enrol_authorize.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
@@ -160,7 +160,7 @@ $string['reason47'] = '決済にリクエストされた金額が、認証され
 $string['reason5'] = '有効な金額を入力してください。';
 $string['reason50'] = 'このトランザクションは決済処理中ですので、払い戻しはできません。';
 $string['reason51'] = 'このトランザクションに関するすべてのクレジットの合計が、最初のトランザクションの金額よりも多くなっています。';
-$string['reason54'] = '参照トランザクションはクレジット発行の基準に適合しません。';
+$string['reason54'] = '参照トランザクションはクレジット発行のクライテリアに適合しません。';
 $string['reason55'] = '参照トランザクションに対するクレジット合計は、最初のクレジット金額を超えます。';
 $string['reason56'] = 'このマーチャントアカウントでは、eCheck (ACH) トランザクションのみ受け入れます。クレジットカードトランザクションは、受け入れられません。';
 $string['refund'] = '払い戻し';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.8 dev (2006102600)
+      // workshop.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['absent'] = '欠席';
@@ -64,7 +64,7 @@ $string['comparisonofassessments'] = '評価の比較';
 $string['confirmdeletionofthisitem'] = '本当にこの $a を削除してもよろしいですか?';
 $string['correct'] = '正解';
 $string['count'] = 'カウント';
-$string['criterion'] = 'クリテリオン';
+$string['criterion'] = 'クライテリオン';
 $string['currentphase'] = '現在のフェーズ';
 $string['date'] = '日時';
 $string['datestr'] = '%%Y/%%m/%%d<br />%%H:%%M';
@@ -173,7 +173,7 @@ $string['notitle'] = '提出課題名なし';
 $string['notitlegiven'] = '提出課題名がありません。';
 $string['notsubmittedyet'] = 'まだ提出課題はありません。';
 $string['nowork'] = '提出期限が終了しました。<br />あなたは課題を提出していません。';
-$string['numberofassessmentelements'] = 'コメント数、評価要素数、評価の幅、クリテリオン・ステートメントまたはルーブリックのカテゴリ数';
+$string['numberofassessmentelements'] = 'コメント数、評価要素数、評価の幅、クライテリオン・ステートメントまたはルーブリックのカテゴリ数';
 $string['numberofassessments'] = '評価数';
 $string['numberofassessmentschanged'] = '変更された評価数: $a';
 $string['numberofassessmentsdropped'] = '除外された評価数: $a';
