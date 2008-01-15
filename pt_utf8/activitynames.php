@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // activitynames.php - created with Moodle 1.4 development (2004060100)
+      // activitynames.php - created with Moodle 1.8.2+ (2007021520)
 
 
-$string['filtername'] = 'Auto-apontadores para nomes de actividades';
+$string['filtername'] = 'Auto-apontar para actividades';
 
 ?>
