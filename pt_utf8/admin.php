@@ -722,4 +722,3 @@ $string['xmlstrictheaders'] = 'Cabeçalhos XML estritos';
 
 ?>
 
- LocalWords:  plugin Moodle plugins strong proxy firewall cookie PHP script
