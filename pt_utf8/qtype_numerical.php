@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // qtype_numerical.php - created with Moodle 1.8 + (2007021503)
+      // qtype_numerical.php - created with Moodle 2.0 dev (2007101506)
 
 
-$string['addmoreanswerblanks'] = 'Vazios para mais {no} respostas';
-$string['addmoreunitblanks'] = 'Vazios para mais {no} unidades';
+$string['addmoreanswerblanks'] = 'Espaço para mais {no} respostas';
+$string['addmoreunitblanks'] = 'Espaço para mais {no} unidades';
 $string['answermustbenumberorstar'] = 'A resposta deve ser um número, ou \'*\'.';
-$string['answerno'] = 'Respsta $a';
-$string['errornomultiplier'] = 'Deve especificar um múltiplo para esta unidade.';
+$string['answerno'] = 'Resposta $a';
+$string['errornomultiplier'] = 'Deve especificar um multiplicador para esta unidade.';
 $string['errorrepeatedunit'] = 'Não pode ter duas unidades com o mesmo nome.';
 $string['notenoughanswers'] = 'Tem que introduzir pelo menos uma resposta.';
 $string['unithdr'] = 'Unidade $a';

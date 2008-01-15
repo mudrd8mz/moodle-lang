@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // qtype_randomsamatch.php - created with Moodle 1.8 + (2007021503)
+      // qtype_randomsamatch.php - created with Moodle 2.0 dev (2007101506)
 
 
-$string['nosaincategory'] = 'Não existem questões de resposta curta na categoria que escolheu \'$a->catname\'.
-Escolha uma categoria diferente, faça algumas questões nesta categoria.';
-$string['notenoughsaincategory'] = 'Existe(m) só $a->nosaquestions de resposta curta na categoria que escolheu $a->catname\'. 
-Escolha uma categoria diferente, faça mais algumas questões nesta categoria ou reduza o número de questões que seleccionou.';
+$string['nosaincategory'] = 'Não existem perguntas de resposta curta na categoria que escolheu \'$a->catname\'.
+Escolha uma categoria diferente, ou crie algumas perguntas nesta categoria.';
+$string['notenoughsaincategory'] = 'Existe(m) só $a->nosaquestions perguntas de resposta curta na categoria que escolheu \'$a->catname\'. 
+Escolha uma categoria diferente, crie mais perguntas nesta categoria ou reduza o número de perguntas que seleccionou.';
 
 ?>
