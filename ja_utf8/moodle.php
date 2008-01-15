@@ -800,6 +800,7 @@ $string['list'] = 'リスト';
 $string['listfiles'] = '$a のファイルリスト';
 $string['listofallpeople'] = '全員を表示する';
 $string['livelogs'] = '過去1時間のライブログ';
+$string['local'] = 'ローカル';
 $string['locale'] = 'ja_JP.UTF-8';
 $string['location'] = 'ロケーション';
 $string['log_excel_date_format'] = 'yyyy/mm/dd h:mm';
