@@ -488,7 +488,7 @@ $string['notifyloginfailures'] = 'Enviar correio com os problemas de acesso para
 $string['notifyloginthreshold'] = 'Limiar para notificações por correio';
 $string['notloggedinroleid'] = 'Cargo a atribuir aos visitantes';
 $string['numberofmissingstrings'] = 'Numero de frases em falta: $a';
-$string['numberofstrings'] = 'Número total de frases: $a->strings<br />Em falta: $a->missing ($a->missingpercent %)';
+$string['numberofstrings'] = 'Número total de frases: $a->strings<br />Em falta: $a->missing ($a->missingpercent %%)';
 $string['opensslrecommended'] = 'É altamente recomendada a instalação da livraria OpenSSL -- activa a funcionalidade da rede Moodle.';
 $string['opentogoogle'] = 'Aberto ao Google';
 $string['optionalmaintenancemessage'] = 'Mensagem de manutenção opcional';
@@ -581,7 +581,7 @@ $string['rcachettl'] = 'Record cache TTL';
 $string['releasenoteslink'] = 'Para ter informação sobre esta versão do Moodle, veja, na Web, as <a target=\"_new\" href=\"$a\">Notas Publicadas</a>';
 $string['remotelangnotavailable'] = 'Devido ao Moodle não conseguir a ligação com download.moodle.org, não nos é possível fazer a instalação do pacote linguístico automaticamente. Descarregue por favor os ficheiros comprimidos apropriados da lista abaixo, copie-os para a sua directoria $a e descompacte-os manualmente.';
 $string['renameerrors'] = 'Erros nas renomeações';
-$string['requiredtemplate'] = 'Necessário. Pode usar aqui a sintaxe de templates (%l = apelido, %f = nome, %u = nome de utilizador). Veja mais pormenores e exemplos na ajuda.';
+$string['requiredtemplate'] = 'Necessário. Pode usar aqui a sintaxe de templates (%%l = apelido, %%f = nome, %%u = nome de utilizador). Veja mais pormenores e exemplos na ajuda.';
 $string['restrictbydefault'] = 'Restringir módulos por omissão';
 $string['restrictmodulesfor'] = 'Restringir módulos para';
 $string['riskconfig'] = 'Os utilizadores poderiam alterar a configuração e comportamento do sítio';
