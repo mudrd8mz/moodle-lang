@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7.1+ (2006101010)
+      // data.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['action'] = 'Acção';
@@ -58,9 +58,11 @@ $string['defaultfielddelimiter'] = '(por defeito é o caracter vírgula)';
 $string['defaultfieldenclosure'] = '(não há nada por defeito)';
 $string['defaultsortfield'] = 'Campo ordenado por defeito';
 $string['delete'] = 'Apagar';
+$string['deleteallentries'] = 'Apagar todas as entradas';
 $string['deletecomment'] = 'Tem a certeza que deseja apagar este comentário?';
 $string['deleted'] = 'Apagado';
 $string['deletefield'] = 'Apagar um campo existente';
+$string['deletenotenrolled'] = 'Apagar todas as entradas de utilizadores não inscritos';
 $string['deletewarning'] = 'Tem a certeza que quer apagar esta predefinição?';
 $string['descending'] = 'Descendentemente';
 $string['directorynotapreset'] = '$a->directory Não é predefinida: faltam os ficheiros: $a->missing_files';
@@ -71,7 +73,7 @@ $string['editentry'] = 'Editar entrada';
 $string['editordisable'] = 'Desligar Editor';
 $string['editorenable'] = 'Ligar Editor';
 $string['emptyadd'] = 'O template de adição está vazio, gerando um formulário por defeito';
-$string['emptyaddform'] = 'Não preencheu qualquer campo!';
+$string['emptyaddform'] = 'Não preencheu nenhum campo!';
 $string['entries'] = 'Entradas';
 $string['entry'] = 'Entrada';
 $string['entrysaved'] = 'A sua entrada foi gravada';
@@ -210,6 +212,7 @@ $string['saveaspreset'] = 'Gravas como predefinição';
 $string['savesettings'] = 'Guardar definições';
 $string['savesuccess'] = 'Gravado com sucesso. A sua predefinição vai estar disponível por todo o site.';
 $string['savetemplate'] = 'Guardar template';
+$string['search'] = 'Procurar';
 $string['sendinratings'] = 'Enviar as minhas últimas classificações';
 $string['showall'] = 'Mostrar toras as entradas';
 $string['single'] = 'Visualização simples';

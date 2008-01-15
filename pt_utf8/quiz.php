@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.7.1+ (2006101010)
+      // quiz.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['1day'] = '1 Dia';
@@ -24,6 +24,7 @@ $string['addingrandom'] = 'A adicionar uma pergunta aleatória';
 $string['addingrandomsamatch'] = 'A adicionar uma pergunta aleatória de associação de resposta curta';
 $string['addingshortanswer'] = 'A adicionar uma pergunta de resposta curta';
 $string['addingtruefalse'] = 'A adicionar uma pergunta de Verdadeiro ou Falso';
+$string['addmoreoverallfeedbacks'] = 'Adicionar {no} campos mais para comentários';
 $string['addquestions'] = 'Adicionar perguntas';
 $string['addquestionstoquiz'] = 'Adicionar perguntas ao teste actual';
 $string['addrandom'] = 'Adicionar $a perguntas aleatórias';
@@ -62,6 +63,8 @@ $string['attemptsdeleted'] = 'Tentativas de resolução apagadas';
 $string['attemptselection'] = 'Seleccione quais tentativas analisar por utilizador';
 $string['attemptsexist'] = 'Já tem respondido a este teste anteriormente';
 $string['attemptsnum'] = 'Tentativas: $a';
+$string['attemptsnumthisgroup'] = 'Tentativas: $a->total ($a->group de este grupo)';
+$string['attemptsnumyourgroups'] = 'Tentativas: $a->total ($a->group dos seus grupos)';
 $string['attemptsonly'] = 'Mostrar unicamente alunos que tenham respondido';
 $string['attemptsunlimited'] = 'Tentativas ilimitadas';
 $string['back'] = 'Regressar à visualização de pergunta';
@@ -75,6 +78,7 @@ $string['braceerror'] = 'Não foram encontradas chaves {...} a delimitar a pergu
 $string['calculated'] = 'Calculada';
 $string['calculatedquestion'] = 'Na alínea $a, não se admitem perguntas calculadas. A pergunta será ignorada.';
 $string['cannotcreatepath'] = 'O caminho não pode ser criado ($a)';
+$string['cannoteditafterattempts'] = 'Não pode adicionar nem retirar perguntas porque já foram feitas tentativas de resposta.';
 $string['cannotinsert'] = 'Não foi possível inserir a pergunta';
 $string['cannotopen'] = 'Não é possível abrir o ficheiro de exportação ($a)';
 $string['cannotread'] = 'Não foi possível ler o ficheiro a importar (ou o ficheiro está vazio)';
@@ -213,6 +217,7 @@ $string['event8'] = 'Fechar';
 $string['event9'] = 'Avaliação manual';
 $string['examview'] = 'Examview';
 $string['export'] = 'Exportar';
+$string['exportcategory'] = 'exportar categoria';
 $string['exporterror'] = 'Ocorreu algum erro durante o processo de exportação';
 $string['exportfilename'] = 'teste';
 $string['exportingquestions'] = 'As perguntas estão a ser exportadas para o ficheiro';

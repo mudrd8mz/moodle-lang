@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7.1+ (2006101010)
+      // scorm.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['activation'] = 'Activação';
@@ -26,6 +26,7 @@ $string['contents'] = 'Conteúdo';
 $string['coursepacket'] = 'Pacote da disciplina';
 $string['coursestruct'] = 'Estrutura da disciplina';
 $string['datadir'] = 'Erro no sistema de ficheiros:não é possível criar um directório para os dados da disciplina';
+$string['deleteallattempts'] = 'Apagar todas as tentativas SCORM';
 $string['details'] = 'Pormenores do percurso';
 $string['directories'] = 'Mostrar o apontador para directório';
 $string['display'] = 'Mostrar pacote';

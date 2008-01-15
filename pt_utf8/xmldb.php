@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.8.2+ (2007021520)
+      // xmldb.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['aftertable'] = 'Depois da tabela:';
@@ -9,10 +9,13 @@ $string['binaryincorrectlength'] = 'Tamanho do campo do tipo binário incorrecto
 $string['cannotuseidfield'] = 'Não consegue inserir o campo \"id\". É uma coluna autonumérica';
 $string['change'] = 'Modificar';
 $string['charincorrectlength'] = 'Tamanho do campo do tipo caracter incorrecto';
+$string['check_bigints'] = 'Buscar inteiros incorrectos na base de dados';
 $string['check_indexes'] = 'Procurar índices em falta na Base de Dados';
+$string['checkbigints'] = 'Seleccionar inteiros grandes';
 $string['checkindexes'] = 'Testar índices';
 $string['completelogbelow'] = '(veja em baixo o relatório completo da pesquisa)';
-$string['confirmcheckindexes'] = 'Esta função procura potenciais índices em falta no seu servidor Moodle, gerando automaticamente (sem os executar!) os comandos SQL necessários para actualizar todo devidamente. Uma vez gerados, poderá copiá-los e executá-los em segurança usando o seu interface SQL favorito.<br /><br />Recomenda-se vivamente que use a actualização mais recente (versão +) da versão do Moodle que estiver a usar (1.8, 1.9, 2.x,...) antes de realizar a pesquisa de índices em falta.<br /><br />Esta função não realiza qualquer acção na sua base de dados (somente leitura); assim, pode ser executada com segurança, em qualquer momento.';
+$string['confirmcheckbigints'] = 'Esta funcionalidade busca <a href=\"http://tracker.moodle.org/browse/MDL-11038\">potenciais campos inteiros errados</a> no seu servidor Moodle, gerando automaticamente (mas sem executar!) os comandos SQL necessários para que todos os inteiros na sua base de dados sejam devidamente definidos.<br /><br />Uma vez gerados, poderá copiá-los e executá-los em segurança usando a sua interface SQL favorita.<br /><br />Recomenda-se vivamente que use a actualização mais recente (versão +) da versão do Moodle que estiver a usar (1.8, 1.9, 2.x,...) antes de realizar a pesquisa de inteiros errados.<br /><br />Esta função não realiza qualquer acção na sua base de dados (somente leitura); assim, pode ser executada com segurança, em qualquer momento.';
+$string['confirmcheckindexes'] = 'Esta funcionalidade busca potenciais índices em falta no seu servidor Moodle, gerando automaticamente (sem os executar!) os comandos SQL necessários para actualizar todo devidamente.<br /><br />Uma vez gerados, poderá copiá-los e executá-los em segurança usando a sua interface SQL favorita.<br /><br />Recomenda-se vivamente que use a actualização mais recente (versão +) da versão do Moodle que estiver a usar (1.8, 1.9, 2.x,...) antes de realizar a pesquisa de índices em falta.<br /><br />Esta função não realiza qualquer acção na sua base de dados (somente leitura); assim, pode ser executada com segurança, em qualquer momento.';
 $string['confirmdeletefield'] = 'Tem a certeza absoluta que quer apagar o campo:';
 $string['confirmdeleteindex'] = 'Tem a certeza absoluta que quer apagar o indíce:';
 $string['confirmdeletekey'] = 'Tem a certeza absoluta que quer apagar a chave:';
@@ -34,7 +37,8 @@ $string['delete_table'] = 'Apagar Tabela';
 $string['delete_xml_file'] = 'Apagar ficheiro XML';
 $string['down'] = 'Baixo';
 $string['duplicate'] = 'Duplicar';
-$string['duplicatefieldname'] = 'Já existe outro campo com esse nome';
+$string['duplicatefieldname'] = 'Existe outro campo com esse nome';
+$string['duplicatekeyname'] = 'Existe outra chave com esse nome';
 $string['edit'] = 'Editar';
 $string['edit_field'] = 'Editar Campo';
 $string['edit_index'] = 'Editar Índice';
@@ -47,6 +51,8 @@ $string['enumvaluesincorrect'] = 'Valores incorrectos para o campo enum';
 $string['field'] = 'Campo';
 $string['fieldnameempty'] = 'Nome de campo vazio';
 $string['fields'] = 'Campos';
+$string['fieldsusedinindex'] = 'Estes campos estão a ser usados com índice';
+$string['fieldsusedinkey'] = 'Estes campos estão a ser usados como chave';
 $string['filenotwriteable'] = 'Ficheiro só de leitura';
 $string['floatincorrectdecimals'] = 'Campo decimal com número incorrecto de décimais';
 $string['floatincorrectlength'] = 'Tamanho incorrecto para campo decimal';
@@ -67,6 +73,7 @@ $string['missingvaluesinsentence'] = 'A faltar valores na (frase/conteudo)';
 $string['mustselectonefield'] = 'Tem que seleccionar um campo para ver as acções relacionados com o mesmo.';
 $string['mustselectoneindex'] = 'Tem que seleccionar um índice para ver as acções relacionados com o mesmo.';
 $string['mustselectonekey'] = 'Tem que seleccionar uma chave para ver as acções relacionados com a mesma.';
+$string['mysqlextracheckbigints'] = 'No MySQL também busca inteiros grandes com sinal errados, gerando o código SQL necessário para os corrigir.';
 $string['new_statement'] = 'Nova (frase/conteudo)';
 $string['new_table_from_mysql'] = 'Tabela nova do MySQL';
 $string['newfield'] = 'Novo Campo';
@@ -77,6 +84,7 @@ $string['newstatement'] = 'Nova (afirmação)';
 $string['newtable'] = 'Nova Tabela';
 $string['newtablefrommysql'] = 'Nova Tabela do MySQL';
 $string['nomissingindexesfound'] = 'Não foram encontrados índices em falta; a sua Base de Dados não precisa de nenhuma modificação adicional.';
+$string['nowrongintsfound'] = 'Não foram encontrados inteiros errados; a sua base de dados não precisa de ser modificada.';
 $string['numberincorrectdecimals'] = 'Número de decimais incorrecto para o campo de númerico';
 $string['numberincorrectlength'] = 'Tamanho incorrecto para campo numérico';
 $string['reserved'] = 'Reservado';
@@ -111,9 +119,12 @@ $string['viewedited'] = 'Ver editados';
 $string['vieworiginal'] = 'Ver Original';
 $string['viewphpcode'] = 'Ver Código PHP';
 $string['viewsqlcode'] = 'Ver Código SQL';
+$string['wrong'] = 'Errado';
+$string['wrongints'] = 'Foram encontrados inteiros errados';
 $string['wronglengthforenum'] = 'Tamanho incorrecto para campo enum';
 $string['wrongnumberoffieldsorvalues'] = 'Incorrecto número de campos ou valores na (frase/conteudo)';
 $string['wrongreservedwords'] = 'Palavras Reservadas Usadas Actualmente<br />(verifique que nomes de tabelas não são importantes se usar $CFG->prefix)';
-$string['yesmissingindexesfound'] = 'Foram encontrados alguns índices em falta na sua Base de Dados. Aqui seguem os pormenores e os comandos SQL que deverão ser executados com o seu interface favorito do SQL, para criar os índices em falta.<br /><br / >Após executar os comandos SQL, recomenda-se que execute novamente esta função, para verificar que não sejam encontrados mais índices em falta.';
+$string['yesmissingindexesfound'] = 'Foram encontrados alguns índices em falta na sua Base de Dados. Aqui seguem os pormenores e os comandos SQL que deverão ser executados com a sua interface favorita do SQL, para criar os índices em falta.<br /><br / >Após executar os comandos SQL, recomenda-se que execute novamente esta função, para verificar que não sejam encontrados mais índices em falta.';
+$string['yeswrongintsfound'] = 'Foram encontrados alguns inteiros errados na sua Base de Dados. Aqui seguem os pormenores e os comandos SQL que deverão ser executados com a sua interface favorita do SQL, para os corrigir.<br /><br / >Após executar os comandos SQL, recomenda-se que execute novamente esta função, para verificar que não sejam encontrados mais inteiros errados.';
 
 ?>

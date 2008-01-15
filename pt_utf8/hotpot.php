@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8 + (2007021503)
+      // hotpot.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['abandoned'] = 'Abandonado';
@@ -37,6 +37,7 @@ $string['error_nofeedbackurlwebpage'] = 'Por favor insira um URL para a Webpage'
 $string['error_nofilename'] = 'Por favor insira um nome de ficheiro';
 $string['error_noquizzesfound'] = 'Não foram encontrados quizzes Hot Potatoes';
 $string['error_notfileorfolder'] = '\"$a\" não é um ficheiro ou directório';
+$string['excelencodings'] = 'Codificações do Excel';
 $string['feedbackformmail'] = 'Form de feedback';
 $string['feedbackmoodleforum'] = 'Forum Moodle';
 $string['feedbackmoodlemessaging'] = 'Messaging Moodle';
@@ -138,6 +139,7 @@ $string['resultssaved'] = 'Os resultados Quiz foram guardados';
 $string['score'] = 'Resultado';
 $string['showhtmlsource'] = 'Mostrar fonte HTML';
 $string['shownextquiz'] = 'Mostrar próximo quiz';
+$string['showtimes'] = 'Mostrar tempo de processamento';
 $string['showxmlsource'] = 'Mostrar fonte XML';
 $string['showxmltree'] = 'Mostrar árvore XML';
 $string['specifictime'] = 'Tempo específico';

@@ -1,14 +1,14 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.7.1+ (2006101010)
+      // error.php - created with Moodle 2.0 dev (2007101506)
 
 
-$string['adminprimarynoedit'] = 'Os dados do administrador principal não podem ser editado
-s por outros';
+$string['adminprimarynoedit'] = 'Os dados do administrador principal não podem ser editados por outros';
 $string['cannotassignrole'] = 'Não pode atribuir cargos na disciplina';
 $string['cannotcreatelangdir'] = 'Não é possível criar o directório para pacotes linguísticos';
 $string['cannotcreatetempdir'] = 'Não é possível criar o directório temporal';
 $string['cannotcustomizelocallang'] = 'Não tem permissão para modificar as frases traduzidas. Essa permissão controla-se através de \"moodle/site:langeditlocal\". Se quiser modificar a tradução no se sítio, configure esse campo para poder editar os pacotes linguísticos locais.';
 $string['cannotdownloadcomponents'] = 'Não é possível descarregar a cópia dos componentes';
+$string['cannotdownloadlanguageupdatelist'] = 'Não é possível descarregar a lista de actualizações das línguas de download.moodle.org';
 $string['cannotdownloadzipfile'] = 'Não é possível descarregar a cópia do ficheiro ZIP';
 $string['cannoteditmasterlang'] = 'Não tem permissão para editar o pacote linguístico original. Essa permissão controla-se através de \"moodle/site:langeditmaster\". Se for o responsável por esse pacote, configure esse campo para poder editar o pacote linguísticos original.';
 $string['cannotfindcomponent'] = 'Não foi encontrado um componente';
@@ -27,6 +27,7 @@ $string['csvcolumnduplicates'] = 'Foram detectadas colunas duplicadas.';
 $string['csvemptyfile'] = 'O ficheiro CSV está vazio.';
 $string['csvfewcolumns'] = 'Não há colunas suficientes; verifique a definição do delimitador.';
 $string['csvweirdcolumns'] = 'Formato de ficheiro CSV inválido; o número de colunas não é constante!';
+$string['dbupdatefailed'] = 'A actualização da base de dados falhou';
 $string['downloadedfilecheckfailed'] = 'Falhou a verificação do ficheiro descarregado.';
 $string['duplicateusername'] = 'Nome de utilizador duplicado - registo ignorado';
 $string['errorcleaningdirectory'] = 'Erro na limpeza do directório \"$a\"';
@@ -48,11 +49,14 @@ $string['guestnoeditprofileother'] = 'O perfil do visitante não pode ser editad
 $string['invalidcourse'] = 'Disciplina não válida';
 $string['invalidfieldname'] = '\"$a\" não é um nome de campo válido';
 $string['invalidfiletype'] = '\"$a\" não é um tipo de ficheiro válido';
+$string['invalidipformat'] = 'Formato de endereço IP errado';
 $string['invalidmd5'] = 'md5 não válido';
 $string['invalidrequest'] = 'Pedido Inválido';
 $string['invalidrole'] = 'Cargo Inválido';
 $string['invalidurl'] = 'URL inválido';
 $string['invalidxmlfile'] = '\"$a\" não é um ficheiro XML válido';
+$string['iplookupfailed'] = 'Não é possível encontrar informação geográfica sobre este endereço IP $a';
+$string['iplookupprivate'] = 'Não pode ser apresentada informação sobre este endereço IP privado';
 $string['listcantmovedown'] = 'Não foi possível deslocar o item para baixo; já é o último item do seu nível.';
 $string['listcantmoveleft'] = 'Não foi possível deslocar o item para a esquerda; não tem item ascendente.';
 $string['listcantmoveright'] = 'Não foi possível deslocar o item para a direita; não existe um outro item do mesmo nível que se possa tornar o item ascendente. Passe o item para um nivel inferior e depois poderá deslocá-lo para a direita.';
@@ -82,6 +86,7 @@ $string['pagenotexist'] = 'Ocorreu um erro não habitual (tentativa de acesso a 
 $string['pleasereport'] = 'Se tiver tempo, por favor diga-nos o que estava a tentar fazer quando ocorreu esse erro.';
 $string['pluginrequirementsnotmet'] = 'O plugin \"$a->pluginname\" ($a->pluginversion) não pôde ser instalado porque precisa de uma versão mais recente do Moodle (actualmente está a utilizar a versão $a->currentmoodle, mas precisa da $a->requiremoodle).';
 $string['processingstops'] = 'O processamento terminou aqui. Os restantes registos foram ignorados.';
+$string['remotedownloaderror'] = 'Não foi possível descarregar algum componente para o seu servidor; verifique as definições do proxy; recomenda-se fortemente o uso da extensão cURL do PHP.<br /><br />Deverá descarregar o ficheiro <a href=\"$a->url\">$a->url</a> manualmente, copiá-lo para \"$a->dest\" no seu servidor, e descomprimi-lo nesse local.';
 $string['remotedownloadnotallowed'] = 'O seu servidor não permite descarregar componentes  (a variável allow_url_fopen está desactivada).<br /><br />Terá que descarregar <a href=\"$a->url\">$a->url</a> manualmente, copia-lo para  \"$a->dest\" no seu servidor e descompacta-lo.';
 $string['restricteduser'] = 'Lamentamos, mas na sua conta actual \"$a\" não lhe permite fazer isso.';
 $string['scheduledbackupsdisabled'] = 'A programação da criação de cópias de segurança foi desactivada pelo administrador do servidor';

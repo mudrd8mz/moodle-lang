@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8 + (2007021503)
+      // mnet.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (auto-assinado)';
@@ -19,6 +19,7 @@ $string['authfail_usermismatch'] = 'Autorização falhada: o utilizador não é 
 $string['authmnetautoadddisabled'] = 'O plugin de autenticação da rede Moodle para auto-adicionar utilizadores está <strong>desligado</strong>.';
 $string['authmnetdisabled'] = 'O plugin de autenticação da rede Moodle está <strong>desligado</strong>.';
 $string['badcert'] = 'Este não é um certificado válido.';
+$string['certdetails'] = 'Pormenores do certificado';
 $string['couldnotgetcert'] = 'Nenhum certificado encontrado em <br />$a. <br /> O host pode estar em baixo ou configurado incorrectamente.';
 $string['couldnotmatchcert'] = 'Isto não combina com o certificado publicado actualmente pelo servidor da Internet.';
 $string['courses'] = 'Disciplinas';
@@ -27,6 +28,7 @@ $string['current_transport'] = 'Transporte actual';
 $string['currentkey'] = 'Chave pública actual';
 $string['databaseerror'] = 'Não foi possível escrever detalhes na base de dados';
 $string['deleteaserver'] = 'A apagar um servidor';
+$string['deletehost'] = 'Apagar servidor';
 $string['deletekeycheck'] = 'Tem a certeza absoluta que quer apagar esta chave?';
 $string['deleteoutoftime'] = 'A sua janela de 60 segundos para apagar a esta chave expirou. Por favor comece de novo.';
 $string['deleteuserrecord'] = 'SSO ACL: apagar registro para o utilizador \'$a[0]\' de $a[1].';
@@ -43,6 +45,12 @@ $string['enrolcourses_desc'] = 'Disciplinas disponíveis para a inscrição remo
 $string['enrollingincourse'] = 'Inscrever na disciplina $a[0] no host $a[1]<br />';
 $string['enrolments'] = 'Inscrições';
 $string['enterausername'] = 'Por favor introduza um utilizador, ou uma lista de nomes do utilizador separados por vírgulas.';
+$string['error7020'] = 'Este erro normalmente surge quando o servidor remoto tem criado para si um registo com o valor de wwwroot errado, por exemplo, http://o_seu_sítio.pt em vez de http://www.o_seu_sítio.pt. Deverá entrar em contacto com o adminstrador do sítio remoto, pedindo que actualize o registo para o seu servidor com o valor de wwwroot  (pode ser consultado em config.php no seu servidor).';
+$string['error7022'] = 'A mensagem que enviou para o servidor remoto foi cifrada correctamente, mas não foi assinada. Isso é bastante inesperado; provavelmente deverá enviar um relatório de bug se isso acontecer (inclua no relatório toda a informação possível sobre a versão do Moodle em questão, etc).';
+$string['error7023'] = 'O sítio remoto tentou descifrar a sua mensagem com todas as chaves que tem registadas para o seu servidor. Todas elas falharam. Poderá conseguir resolver o problema trocando novamente chaves com o sítio remoto em forma manual. Isto acontece raramente, a menos que não tenha tido comunicação com o sítio remoto durante alguns meses.';
+$string['error7024'] = 'Enviou uma mensagem sem cifrar para o sítio remoto, mas o sítio remoto não aceita comunicações não cifradas desde o seu sítio. Isso é bastante inesperado; provavelmente deverá enviar um relatório de bug se isso acontecer (inclua no relatório toda a informação possível sobre a versão do Moodle em questão, etc).';
+$string['error7026'] = 'A chave usada para assinar a sua mensagem difere da chave que o servidor remoto tem armazenada para o seu servidor. O servidor remoto ainda tentou obter a sua nova chave sem sucesso. Por favor troque novamente chaves com o sítio remoto em forma manual.';
+$string['error709'] = 'O sítio remoto não conseguiu obter uma chave SSL do seu servidor.';
 $string['expired'] = 'Esta chave expirou em';
 $string['expires'] = 'Válido até';
 $string['expireyourkey'] = 'Apagar esta chave';
@@ -98,6 +106,7 @@ $string['mnetlog'] = 'Registos';
 $string['mnetpeers'] = 'Peers';
 $string['mnetservices'] = 'Serviços';
 $string['mnetsettings'] = 'Definições da rede Moodle';
+$string['mnetthemes'] = 'Temas';
 $string['moodle_home_help'] = 'O caminho para a Página principal do Moodle no host remoto. Exemplo: /moodle/';
 $string['moodleloc'] = 'Localização do Moodle';
 $string['net'] = 'Rede Moodle';
@@ -170,6 +179,7 @@ $string['subscribe'] = 'Subscrever';
 $string['system'] = 'Sistema';
 $string['testtrustedhosts'] = 'Testar um endereço';
 $string['testtrustedhostsexplain'] = 'Introduza um endereço de IP para verificar se é um host de confiança.';
+$string['themesavederror'] = 'Surgiu um erro: A alteração do tema não foi gravada.';
 $string['transport_help'] = 'Estas opções são recíprocas, para que possa só forçar a que um host remoto use um certificado SSL atribuído se o teu servidor também tem um certificado SSL atribuído.';
 $string['trustedhosts'] = 'Hosts XML-RPC';
 $string['trustedhostsexplain'] = '< p> O mecanismo confiado dos hosts permite que as máquinas específicas executem chamadas através de XML-RPC a qualquer parte do Moodle API.

@@ -810,6 +810,7 @@ $string['list'] = 'Lista';
 $string['listfiles'] = 'Lista de ficheiros em $a';
 $string['listofallpeople'] = 'Lista de todas as pessoas';
 $string['livelogs'] = 'Estatísticas de acesso na última hora';
+$string['local'] = 'Local';
 $string['locale'] = 'pt_PT.UTF-8';
 $string['location'] = 'Localização';
 $string['log_excel_date_format'] = 'yyyy mmmm d h:mm';

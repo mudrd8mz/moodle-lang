@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7.1+ (2006101010)
+      // glossary.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['addcomment'] = 'Adicionar comentário';
@@ -66,6 +66,7 @@ $string['defaultsortorder'] = 'Forma de ordenar, por omissão';
 $string['definition'] = 'Definição';
 $string['definitions'] = 'Definições';
 $string['deleteentry'] = 'Apagar termo';
+$string['deletenotenrolled'] = 'Apagar todas as entradas de utilizadores não inscritos';
 $string['deletingcomment'] = 'Apagando comentário';
 $string['deletingnoneemptycategory'] = 'Apagar esta categoria não faz com que os termos contidos nela sejam apagados - os termos serão marcados como termos sem categoria';
 $string['descending'] = '(descendente)';
@@ -172,6 +173,8 @@ $string['ratingsuse'] = 'Usar classificações';
 $string['ratingtime'] = 'Restrinja classificações a termos com datas neste intervalo:';
 $string['rejectedentries'] = 'Termos rejeitados';
 $string['rejectionrpt'] = 'Relatório de rejeição';
+$string['resetglossaries'] = 'Apagar termos de';
+$string['resetglossariesall'] = 'Apagar termos de todos os glossários';
 $string['rsssubscriberss'] = 'Mostrar a listagem RSS para \'$a\' conceitos';
 $string['searchindefinition'] = 'Pesquisa no texto completo';
 $string['secondaryglossary'] = 'Glossário secundário';

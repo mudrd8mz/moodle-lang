@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.7.1+ (2006101010)
+      // chat.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['beep'] = 'chamar';
@@ -37,6 +37,7 @@ $string['messagebeepsyou'] = '$a acabou de o chamar!';
 $string['messageenter'] = '$a acabou de entrar neste chat';
 $string['messageexit'] = '$a acabou de sair deste chat';
 $string['messages'] = 'Mensagens';
+$string['method'] = 'Método do Chat';
 $string['methoddaemon'] = 'Servidor de Chat';
 $string['methodnormal'] = 'Método Normal';
 $string['modulename'] = 'Chat';
@@ -48,15 +49,24 @@ $string['nomessages'] = 'Não tem mensagens';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Nenhuma sessão marcada';
+$string['oldping'] = 'Tempo morto para fim da ligação';
+$string['refreshroom'] = 'Refrescar sala';
+$string['refreshuserlist'] = 'Refrescar lista de utilizadores';
+$string['removemessages'] = 'Retirar todas as mensagens';
 $string['repeatdaily'] = 'Todos os dias à mesma hora';
 $string['repeatnone'] = 'Sem repetições - Publique apenas o tempo especificado';
 $string['repeattimes'] = 'Repetir sessões';
 $string['repeatweekly'] = 'Todas as semanas à mesma hora';
 $string['savemessages'] = 'Gravar sessões anteriores';
 $string['seesession'] = 'Ver esta sessão';
+$string['serverhost'] = 'Nome do servidor';
+$string['serverip'] = 'IP do servidor';
+$string['servermax'] = 'Núm. Máx. utilizadores';
+$string['serverport'] = 'Porta do servidor';
 $string['sessions'] = 'Sessões de chat';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Toda a gente poderá visualizar sessões passadas';
+$string['updatemethod'] = 'Método de actualização';
 $string['viewreport'] = 'Visualizar sessões passadas';
 
 ?>

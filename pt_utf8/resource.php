@@ -1,15 +1,18 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7.1+ (2006101010)
+      // resource.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['addresource'] = 'Adicionar documento';
 $string['affectedresources'] = 'Recursos afectados';
+$string['allowlocalfiles'] = 'Permitir ficheiros locais';
+$string['autofilerename'] = 'Actualizar o apontador se o ficheiro for renomeado';
 $string['back'] = 'Retroceder';
+$string['blockdeletingfile'] = 'Bloquear remoção de ficheiros referidos';
 $string['browserepository'] = 'Ver o repositório';
 $string['choose'] = 'Escolher';
 $string['chooseafile'] = 'Escolha ou envie um ficheiro';
 $string['chooseparameter'] = 'Escolha parâmetro';
-$string['clicktoopen'] = 'Para abrir este documento, clique neste apontador';
+$string['clicktoopen'] = 'Para abrir este documento, clique neste apontador:';
 $string['configallowlocalfiles'] = 'Na criação de recursos de ficheiros, permitir apontadores para ficheiros no sistema local de ficheiros, por exemplo, num drive de CD ou no disco rígido. Isto pode ser útil numa sala de aulas onde todos os alunos têm acesso a um drive partilhado, ou quando for preciso aceder a um ficheiro contido num CD. A utilização dessa opção poderá precisar de algumas alterações às configurações de segurança do seu navegador.';
 $string['configautofilerenamesettings'] = 'Actualizar automaticamente referências a ficheiros e directórios, quando o seu nome mudar na secção de ficheiros.';
 $string['configblockdeletingfilesettings'] = 'Não permitir apagar ficheiros e directórios que sejam referidos nos recursos. Por favor repare que as figuras e outros ficheiros referidos dentro duma página html não ficarão protegidos.';
@@ -39,13 +42,14 @@ $string['editingaresource'] = 'Editar documento';
 $string['emptyfolder'] = 'Pasta vazia';
 $string['encryptedcode'] = 'Valor códificado';
 $string['example'] = 'Exemplo';
-$string['exampleurl'] = 'http://www.exemplo.com/directorio/ficheiro.html';
+$string['exampleurl'] = 'http://www.exemplo.pt/directório/ficheiro.html';
 $string['fetchclienterror'] = 'Foi detectado um erro no seu navegador web enquanto tentava aceder à página (provavelmente o URL está errado).';
 $string['fetcherror'] = 'Foi detectado um erro no acesso para a página web.';
 $string['fetchservererror'] = '<p>Foi detectado um erro no servidor web remoto enquanto se tentava aceder à página (provavelmente algum programa falhou).</p>';
 $string['filename'] = 'Nome do ficheiro';
 $string['filtername'] = 'Auto-apontar para recursos';
-$string['frameifpossible'] = 'Colocar o recurso num \"frame\" da mesma janela, para manter o cabeçalho de navegação visível';
+$string['frameifpossible'] = 'Colocar o recurso num quadro da mesma janela, para manter o cabeçalho de navegação visível';
+$string['framesize'] = 'Tamanho do quadro';
 $string['fulltext'] = 'Texto completo';
 $string['htmlfragment'] = 'Fragmento de HTML';
 $string['imspackageloaded'] = 'Pacote carregado';
@@ -95,6 +99,7 @@ $string['previous'] = 'Prévio';
 $string['redeploy'] = 'Incorporar novamente';
 $string['repository'] = 'Repositório IMS';
 $string['resource:view'] = 'Ver recurso';
+$string['resourcedefaulturl'] = 'URL por omissão';
 $string['resourcetype'] = 'Tipo de documento';
 $string['resourcetype1'] = 'Referência';
 $string['resourcetype2'] = 'Página da Web';
@@ -117,11 +122,13 @@ $string['serverurl'] = 'URL do servidor ($a->wwwroot)';
 $string['showcourseblocks'] = 'Mostrar os blocos da disciplina';
 $string['skipsubmenus'] = 'Ignorar as paginas de sub menu';
 $string['tableofcontents'] = 'Tabela de conteúdos';
+$string['tableofcontentsabbrev'] = 'Tabela de Conteúdo';
 $string['upbutton'] = 'Para cima';
 $string['variablename'] = 'Nome de variável';
 $string['viewims'] = 'Ver pacote IMS de conteúdos';
 $string['vol'] = 'Vol.';
 $string['warningblockingdelete'] = 'Advertência: A operação de apagar está encontra-se bloqueada por algum recurso existente. Terá que actualizar primeiro os seus recursos ou pedir ao administrador para desactivar este mecanismo de segurança na configuração global dos recursos.';
 $string['warningdisabledrename'] = 'Advertência: A mudança automática dos nomes dos ficheiros referidos pelos recursos não está activada. Por favor actualize os recursos afectados em forma manual, se for preciso. O administrador também poderá activar a actualização automática dos recursos afectados, na configuração global dos recursos.';
+$string['websearchdefault'] = 'Pesquisa Web por omissão';
 
 ?>

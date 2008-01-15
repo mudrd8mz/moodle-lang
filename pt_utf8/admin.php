@@ -356,6 +356,7 @@ $string['gdversion'] = 'Versão do GD';
 $string['generalsettings'] = 'Configurações gerais';
 $string['geoipfile'] = 'ficheiro de dados do GeoIP City';
 $string['globalsquoteswarning'] = '<p><strong>Aviso de Segurança</strong>: para funcionar apropriadamente, o Moodle precisa <br />que faça algumas alterações às definições do seu PHP.<p/><p><em>Tem</em> que definir <code>register_globals=off</code> e/ou <code>magic_quotes_gpc=on</code>. <br />Se possível, deve definir <code>register_globals=off</code> para melhorar a <br /> segurança geral do servidor, a definição <code>magic_quotes_gpc=on</code> também é recomendada.<p/><p>Estas definições são possíveis editando o ficheiro de configuração <code>php.ini</code>, Apache/IIS <br />ou o ficheiro <code>.htaccess</code>.</p>';
+$string['globalswarning'] = '<p><strong>Anúncio de segurança</strong>: para funcionar devidamente, o Moodle precisa que altere às suas definições actuais do PHP.<p/><p> <em>Deverá</em> usar <code>register_globals=off</code>.<p>Essa opçaõ altera-se editanto o seu ficheiro  <code>php.ini</code>, ou os ficheiros de configuração do Apache/IIS <br />ou o ficheiro <code>.htaccess</code>, e reiniciando o servidor.</p>';
 $string['googlemapkey'] = 'Chave API do Google Maps';
 $string['gotofirst'] = 'Saltar para a primeira frase por traduzir';
 $string['gradebook'] = 'Pauta';
