@@ -59,4 +59,11 @@ $string['new_table_from_mysql']='Uus tabel MySQL\'st';
 $string['aftertable']='Peale tabelit:';
 $string['change']='Muuda';
 $string['duplicate']='Dubleeri';
+$string['filenotwriteable']='Fail ei ole kirjutatav';
+$string['confirmdeletekey']='Oled sa täiesti kindel, et soovid kustutada võtit:';
+$string['confirmdeletefield']='Oled sa täiesti kindel, et soovid kustutada välja:';
+$string['confirmdeleteindex']='Oled sa täiesti kindel, et soovid kustutada indeksit:';
+$string['confirmdeletetable']='Oled sa täiesti kindel, et soovid kustutada tabelit:';
+$string['confirmdeletexmlfile']='Oled sa täiesti kindel, et soovid kustutada faili:';
+
 ?>

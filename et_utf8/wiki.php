@@ -174,6 +174,9 @@ $string['versionstodelete']='Kustutamisele minev(ad) versioon(id)';
 $string['viewpage']='Vaata lehte';
 $string['viewsmfor']='Vaata sisukaarti';
 $string['wantedpages']='Otsitud lehed';
+$string['wiki:manage']='Hallata wiki seadeid';
+$string['wiki:overridelock']='Tühistada lukustatud lehti';
+$string['wiki:participate']='Muuta wiki lehti';
 $string['wikidefaultpagename']='WikiIndeks';
 $string['wikiexport']='Ekspordi lehed';
 $string['wikiexportcomment']='Siin saad sa seadistada eksporti vastavalt oma vajadustele.';
@@ -187,6 +190,4 @@ $string['withbinaries']='Kaasa binaarne sisu';
 $string['withvirtualpages']='Kaasa Wiki-lingid';
 $string['wrongversionrange']='$a pole korralik vahemik!';
 $string['of']=''; // ORPHANED
-$string['wiki:participate']='Wiki lehtede redigeerimine';
-$string['wiki:manage']='Wiki seadete haldus';
 ?>

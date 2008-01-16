@@ -46,7 +46,7 @@ $string['export']='Ekspordi';
 $string['exportbutton']='Eksport';
 $string['exportcalendar']='Ekspordi kalender';
 $string['fri']='R';
-$string['friday']='reede';
+$string['friday']='Reede';
 $string['globalevents']='Õpikeskkonna sündmused';
 $string['gotocalendar']='Mine kalendrisse';
 $string['groupevent']='Rühmita sündmused';
@@ -119,6 +119,6 @@ $string['recentupcoming']='Tänasest 60 möödunud ja järgnevat päeva';
 $string['ical']='iCal';
 $string['urlforical']='URL iCalendar\' eksportimiseks, (kalendrisse üles märkimiseks)';
 $string['quickdownloadcalendar']='Otse alla tõmbamine / üles märkimine kalendrisse';
-$string['explain_site_timeformat']='Sa saad kogu õpikeskkonna puhul valida, kas aega näidatakse 12 või 24 tunni formaadis. Kui sa valid \"default\", siis valitakse formaat automaatselt vastavalt keelele, mida saidi puhul kasutad. Need sätted saab üle katta kasutaja eelistustes.';
+$string['explain_site_timeformat']='Sa saad kogu õpikeskkonna puhul valida, kas aega näidatakse 12 või 24 tunni formaadis. Kui sa valid \"default\", siis valitakse formaat automaatselt vastavalt keelele, mida õpikeskkonna puhul kasutad. Need sätted saab üle katta kasutaja eelistustes.';
 
 ?>

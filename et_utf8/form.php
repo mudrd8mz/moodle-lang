@@ -23,4 +23,6 @@ $string['othersettings']='Muud seaded';
 $string['err_email']='Sa pead sisestama siia korrektse e-meili siia.';
 $string['err_nonzero']='Sa pead sisestama siia numbri, mis ei alga nulliga.';
 $string['err_alphanumeric']='Sa pead siin sisestama tähti või numbreid.';
+$string['err_maxlength']='Sa pead sisestama mitte rohkem kui $a->format märki siin.';
+$string['err_minlength']='Sa pead sisestama vähemalt $a->format märki siia.';
 ?>

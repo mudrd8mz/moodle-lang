@@ -91,4 +91,9 @@ $string['viewfeedback']='Vaata ülesande hindeid ja tagasisidet';
 $string['viewsubmissions']='Vaata $a esitatud ülesannet';
 $string['yoursubmission']='Sinu esitatud töö';
 $string['hideintro']='Peida ülesande kirjeldus enne avamiskuupäeva';
+$string['helpupload']='<<p>Seda tüüpi ülesanne lubab igal osalejal üles laadida ühe või rohkem faile ükskõik mis formaadis. </p>
+<p>See tüüp lubab samuti üles laadida mitme vastusega faile. 
+Vastuse faile saab ka enne esitamist üles laadida, mida võib kasutada selleks, et igale osalejale anda erinev fail töötamiseks.</p>
+<p>Osalejad võivad sisestada märkmeid, mis kirjeldavad esitatud faile, edenemise staatust või ükskõik missugust tekstilist informatsiooni. </p>
+<p>Seda tüüpi ülesande esitamine peab olema osaleja poolt manuaalselt lõpuleviidav. Hetkeseisu saab vaadata igal ajal, lõpetamata ülesanded on märgitud visandiks. Iga hindamata ülesannet saab viia tagasi visandi staatusesse.</p>';
 ?>

@@ -78,7 +78,7 @@ $string['displayofgrades']='Näita hindeid';
 $string['dontshowgrades']='Ära näita hindeid';
 $string['edit']='Muuda';
 $string['editacomment']='Muuda kommentaari';
-$string['editingassessmentelements']='Muudan hinnanguelemente ';
+$string['editingassessmentelements']='Muudan hinnanguelemente';
 $string['editsubmission']='Muuda esitust';
 $string['element']='Element';
 $string['elementweight']='Elemendi kaal';
@@ -163,7 +163,7 @@ $string['noteonassessmentelements']='Pane tähele: hinnang on lahutatud hulgaks 
 	elemendid, enne kui ülesande õppijate jaoks avab. Seda saab teha,<br />
 	klikkides kursusel ülesandele, ja kui elemente pole lisatud, siis palutakse sul<br />
 	need lisada. Elementide arvu saad muuta hinnangu muutmise lehel,<br />
-	elemente endid saad muuta hinnangute haldamise lehel. ';
+	elemente endid saad muuta hinnangute haldamise lehel.';
 $string['noteonstudentassessments']='(Hinne õpilaselt/Hinnangu hinne)';
 $string['notgraded']='Hindamata';
 $string['notitle']='Pealkirjata';
@@ -308,6 +308,8 @@ $string['weightforteacherassessments']='Õpetaja hinnagu kaal';
 $string['weights']='Kaal';
 $string['weightsusedforfinalgrade']='Lõpphinde panemisel kasutatav kaal';
 $string['weightsusedforsubmissions']='Esitatud tööde kaal';
+$string['workshop:manage']='Hallata seadeid';
+$string['workshop:participate']='Osaleda õpikojas';
 $string['workshopagreedassessments']='Õpikoja nõustutud hinnangud';
 $string['workshopassessments']='Õpikoja hinnangud';
 $string['workshopcomments']='Õpikoja kommentaarid';
@@ -318,5 +320,4 @@ $string['yourassessments']='Sinu poolt teistele õppijatele antud hinnangud';
 $string['yourassessmentsofexamplesfromtheteacher']='Sinu hinnangud $a näidetele';
 $string['yourfeedbackgoeshere']='Sinu tagasiside läheb siia';
 $string['yoursubmissions']='Sinu esitatud tööd';
-$string['workshop:manage']='Hallata seadeid';
 ?>
