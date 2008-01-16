@@ -7,13 +7,13 @@ $string['adminaccepts'] = '許可する支払方法およびタイプを選択�
 $string['adminauthcode'] = '直接ユーザのクレジットカードをインターネット経由でキャプチャできない場合、顧客の銀行から電話で認証コードを取得してください。';
 $string['adminauthorizeccapture'] = 'オーダーレビュー&amp;スケジュールキャプチャ設定';
 $string['adminauthorizeemail'] = 'メール送信設定';
-$string['adminauthorizesettings'] = 'Authorize.net 設定';
+$string['adminauthorizesettings'] = 'Authorize.net設定';
 $string['adminauthorizewide'] = 'サイト全体の設定';
-$string['adminavs'] = 'あなたのauthorize.netアカウントで住所確認システム (AVS:Address Verification System) を有効にした場合は、ここをチェックしてください。この設定により、ユーザが支払いフォームに入力するときに、市町村、県、国および郵便番号の入力が求められます。';
+$string['adminavs'] = 'あなたのauthorize.netアカウントで住所確認システム (AVS: Address Verification System) を有効にした場合、ここをチェックしてください。この設定により、ユーザが支払いフォームに入力するとき、市町村、県、国および郵便番号の入力が求められます。';
 $string['adminconfighttps'] = 'このプラグインを使用するには、管理 >> セキュリティ >> HTTPセキュリティで <a href=\"$a->url\">「ログインにHTTPSを使用する」をチェック</a>していることを確認してください。';
 $string['adminconfighttpsgo'] = 'このプラグインを設定するには、<a href=\"$a->url\">セキュアページ</a>に移動してください。';
 $string['admincronsetup'] = 'cron.phpメンテナンススクリプトが少なくとも24時間稼動していません。<br />スケジュールキャプチャ機能を使用したい場合、cronを有効にする必要があります。<br />Authorize.netプラグインを<b>有効</b>および適切に<b>cronを設定</b>、または <b>an_review</b> のチェックを外してください。<br />スケジュールキャプチャを無効にすると、30日以内にトランザクションを検査しない場合、トランザクションはキャンセルされます。<br />30日以内に<b>手動で</b>支払いを受領/拒否したい場合、<b>an_review</b> をチェックして、<br /><b>an_capture_day</b>フィールドにゼロを入力してください。';
-$string['adminemailexpired'] = 'この設定は「マニュアルキャプチャ」に便利です。<b>$a</b> 日で何件の保留オーダーが失効したか管理者に通知します。';
+$string['adminemailexpired'] = 'この設定は「マニュアルキャプチャ」に有用です。<b>$a</b> 日で何件の保留オーダーが失効したか管理者に通知します。';
 $string['adminemailexpiredsort'] = '保留オーダー失効時に教師にメール通知する場合、どれが重要ですか?';
 $string['adminemailexpiredsortcount'] = 'オーダー数';
 $string['adminemailexpiredsortsum'] = '合計金額';
@@ -31,7 +31,7 @@ $string['adminneworder'] = '新しい保留オーダーが入りました:
 
 スケジュールキャプチャ有効?: $a->acstatus
 
-スケジュールキャプチャが有効にされている場合、クレジットカード情報は $a->captureon 日で取得され、学生がコース登録されます。そうでない場合、$a->expireon 日で期限切れとなり、この日以降はカード情報の取得ができなくなります。
+スケジュールキャプチャが有効にされている場合、クレジットカード情報は $a->captureon 日で取得され、学生がコースに受講登録されます。そうでない場合、$a->expireon 日で期限切れとなり、この日以降はカード情報の取得ができなくなります。
 
 下記のリンクで、学生がコース登録するための支払いをすぐに受領/拒否することもできます:
 $a->url';
@@ -53,7 +53,7 @@ $string['authorize:managepayments'] = '支払いを管理する';
 $string['authorize:uploadcsv'] = 'CSVファイルをアップロードする';
 $string['authorizedpendingcapture'] = '認証完了 / キャプチャ保留';
 $string['avsa'] = '住所は合致しますが、郵便番号が合致しません。';
-$string['avsb'] = '住所情報を入力されていません。';
+$string['avsb'] = '住所情報が入力されていません。';
 $string['avse'] = '住所確認システムエラー';
 $string['avsg'] = '米国以外のカード発行銀行';
 $string['avsn'] = '住所および郵便番号が合致しません。';
@@ -71,7 +71,7 @@ $string['cancelled'] = 'キャンセル完了';
 $string['capture'] = 'キャプチャ';
 $string['capturedpendingsettle'] = '認証完了 / 確定保留';
 $string['capturedsettled'] = '認証完了 / 確定';
-$string['captureyes'] = 'クレジットカード情報が取得され、学生がコース登録されます。本当によろしいですか?';
+$string['captureyes'] = 'クレジットカード情報が取得され、学生がコースに受講登録されます。本当によろしいですか?';
 $string['ccexpire'] = '有効期限';
 $string['ccexpired'] = 'クレジットカードの期限が切れています。';
 $string['ccinvalid'] = 'クレジットカードが正しくありません。';
@@ -79,10 +79,10 @@ $string['ccno'] = 'クレジットカード番号';
 $string['cctype'] = 'クレジットカードタイプ';
 $string['ccvv'] = 'CV2';
 $string['ccvvhelp'] = 'カードの裏面 (3桁の数字) をご覧ください。';
-$string['choosemethod'] = 'コースの登録キーを知っている場合は、入力してください。<br />そうでない場合は、このコースに受講料を支払う必要があります。';
+$string['choosemethod'] = 'あなたがコースの登録キーを知っている場合、そのキーを入力してください。<br />そうでない場合、このコースに受講料を支払う必要があります。';
 $string['chooseone'] = '次の2つのフィールドの1つまたは両方に入力してください。パスワードは表示されません。';
 $string['costdefaultdesc'] = 'このデフォルト費用を使用するには、<strong>コース設定でコース費用フィールドに -1 を設定</strong>してください。';
-$string['cutofftime'] = 'トランザクションのカットオフ時間です。確定するため、何時に最終のトランザクションを取得しますか?';
+$string['cutofftime'] = 'トランザクションの遮断時間です。確定するため、何時に最終トランザクションを取得しますか?';
 $string['delete'] = '無効化';
 $string['description'] = 'Authorize.netモジュールでは、支払いプロバイダを通して、受講料支払いが必要なコースを作成することができます。コースの受講料がゼロの場合、学生には受講登録費用は請求されません。コース費用を設定するには、(1) サイト全体のデフォルトとしてのサイト費用 または (2) 各コースで個々に設定できるコース費用 の2つの方法があります。コース費用は、サイト費用をオーバーライドします。<br /><br /><b>メモ:</b> コース設定で登録キーを指定した場合、学生は登録キーを使用した受講登録のオプションも持つことになります。これは、支払い要、支払い不要の学生が混在している場合に便利です。';
 $string['echeckabacode'] = '銀行ABA番号';
@@ -98,11 +98,10 @@ $string['expired'] = '期限切れ';
 $string['haveauthcode'] = '私はすでに認証コードを持っています';
 $string['howmuch'] = 'いくらですか?';
 $string['httpsrequired'] = '申し訳ございません、あなたのリクエストは現在処理することができません。このサイトの設定は正常に行われませんでした。
-<br /><br />
-ブラウザの下部に黄色の鍵マークが表示されない場合は、あなたのクレジットカード番号を入力しないでください。これはクライアントとサーバ間で送信されるすべてのデータが単に暗号化されることを意味します。ですから、2台のコンピュータ間のトランザクション情報は保護され、あなたのクレジットカード番号がインターネット上で盗まれることはありません。';
+<br /><br />ブラウザの下部に黄色の鍵マークが表示されない場合、あなたのクレジットカード番号を入力しないでください。これはクライアントとサーバ間で送信されるすべてのデータが暗号化されることを意味します。暗号化により、2台のコンピュータ間のトランザクション情報は保護され、あなたのクレジットカード番号がインターネット上で盗まれることはありません。';
 $string['invalidaba'] = 'ABA番号が正しくありません。';
 $string['invalidaccnum'] = '口座番号が正しくありません。';
-$string['invalidacctype'] = '講座種別が正しくありません。';
+$string['invalidacctype'] = '口座種別が正しくありません。';
 $string['logindesc'] = 'このオプションは「ON」にする必要があります。<br /><br />管理 >> 詳細設定 >> セキュリティ で <a href=\"$a->url\">loginhttps が「Yes」になっていること</a>を確認してください。 <br /><br />この設定を「Yes」にすることで、Moodleはログインおよび支払いページでセキュアhttps接続を使用します。';
 $string['logininfo'] = 'ログイン名、パスワードおよびトランザクションキーは、セキュリティ対策のため表示されません。あなたが、これらのフィールドに以前入力したことがある場合、再度入力する必要はありません。入力済みの場合、フィールドの近くに緑色のテキストが表示されます。これらのフィールドを入力するのが初めての場合、ログイン名 (*) は必須入力です。また、適切な入力欄にトランザクションキー (#1) <strong>または</strong> パスワード (#2)を入力してください。更なるセキュリティ対策のため、トランザクションキーの入力をお勧めします。現在のパスワードを削除したい場合、チェックボックスをチェックしてください。';
 $string['methodcc'] = 'クレジットカード';
@@ -137,7 +136,7 @@ $string['pendingordersemail'] = '支払いを受領しない場合、トラン�
 保留の支払いを受領/拒否するには次のページへ:
 $a->url
 
-スケジュールキャプチャを有効にすると、あなたは警告メッセージを受信しなくなります。設定は次のページへ:
+スケジュールキャプチャを有効にすると、あなたは警告メッセージを受信しなくなります。設定するには次のページへ:
 $a->enrolurl';
 $string['pendingordersemailteacher'] = 'あなたが支払いを $a->days 日以内に受領しない場合、コース「 $a->course 」の $a->pending トランザクション ($a->currency $a->sumcost) は失効します。
 
@@ -182,18 +181,20 @@ $string['unenrolstudent'] = '学生を登録抹消しますか?';
 $string['uploadcsv'] = 'CSVファイルをアップロードする';
 $string['usingccmethod'] = '<a href=\"$a->url\"><strong>クレジットカード</strong></a>を使用して登録する。';
 $string['usingecheckmethod'] = '<a href=\"$a->url\"><strong>eCheck</strong></a>を使用して登録する。';
+$string['verifyaccount'] = 'あなたのauthorize.netアカウントを確認する';
+$string['verifyaccountresult'] = '確認結果: $a';
 $string['void'] = '取り消し';
 $string['voidyes'] = 'トランザクションがキャンセルされます。本当によろしいですか?';
-$string['welcometocoursesemail'] = 'お支払いありがとうございます。あなたは下記のコースに受講登録されました:
+$string['welcometocoursesemail'] = 'お支払いありがとうございます。あなたは下記コースに受講登録されました:
 
 $a->courses
 
 あなたのプロフィールは、下記で編集することができます:
 $a->profileurl
 
-あなたの支払い詳細は下記でご覧ください:
+あなたの支払い詳細は下記でご覧いただけます:
 $a->paymenturl';
-$string['youcantdo'] = '次の処理を行うことはできません: $a->action';
+$string['youcantdo'] = '次の処理を実行できません: $a->action';
 $string['zipcode'] = '郵便番号';
 
 ?>
