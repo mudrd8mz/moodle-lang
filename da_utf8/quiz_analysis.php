@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.7+ (2006101007)
+      // quiz_analysis.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['analysis'] = 'Emneanalyse';
@@ -9,8 +9,8 @@ $string['analysistitle'] = 'Emneanalysetabel';
 $string['attemptsall'] = 'alle forsøg';
 $string['attemptselection'] = 'Forsøg som skal analyseres pr. bruger';
 $string['attemptsfirst'] = 'Første forsøg';
-$string['attemptshighest'] = 'Højeste karakter';
-$string['attemptslast'] = 'Sidste forsøg';
+$string['attemptshighest'] = 'højeste karakter';
+$string['attemptslast'] = 'sidste forsøg';
 $string['dicsindextitle'] = 'Disc.<br />Indeks';
 $string['disccoefftitle'] = 'Disc.<br />Koeff.';
 $string['downloadooo'] = 'Download i OpenOffice format';

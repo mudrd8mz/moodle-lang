@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // quiz_grading.php - created with Moodle 1.7+ (2006101007)
+      // quiz_grading.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
-$string['essayonly'] = 'De følgende spørgsmål skal bedømmes manuelt';
+$string['essayonly'] = 'De fÃ¸lgende spÃ¸rgsmÃ¥l skal bedÃ¸mmes manuelt';
 $string['grading'] = 'Manuel vurdering';
 
 ?>

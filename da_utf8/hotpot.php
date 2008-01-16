@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.7+ (2006101007)
+      // hotpot.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['abandoned'] = 'Efterladte';
 $string['addquizchain'] = 'Tilføj kæde af quiz\'er';
+$string['allmycourses'] = 'Alle mine kurser';
 $string['allusers'] = 'Alle brugere';
 $string['alwaysopen'] = 'Altid tilgængelig';
 $string['attemptsall'] = 'Alle forsøg';
@@ -145,6 +146,7 @@ $string['textsourcefilename'] = 'Brug filnavn';
 $string['textsourcefilepath'] = 'Brug filsti';
 $string['textsourcequiz'] = 'Brug quiz\'ens';
 $string['textsourcespecific'] = 'Specifik tekst';
+$string['thiscourse'] = 'Dette kursus';
 $string['timedout'] = 'Udløbet';
 $string['updatequizchain'] = 'Opdater quizkæde';
 $string['weighting'] = 'Vægtning';

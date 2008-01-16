@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.7+ (2006101007)
+      // grades.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['addcategory'] = 'Tilføj kategori';
@@ -22,6 +22,7 @@ $string['displayweighted'] = 'Vis vægtetede karakterer';
 $string['dropped'] = 'Droppet';
 $string['dropxlowest'] = 'Drop X laveste';
 $string['dropxlowestwarning'] = 'Note: Hvis du bruger Drop X laveste forudsætter det at alle elementer i kategorien har den samme pointværdi. Hvis pointværdien er forskellig vil resultatet blive uforudsigeligt.';
+$string['enableoutcomes'] = 'Aktiver resultater';
 $string['errorgradevaluenonnumeric'] = 'Fandt et ikke-numerisk tegn for lav eller høj karakter for';
 $string['errornocategorizedid'] = 'Kan ikke få et u-kategoriseret id!';
 $string['errornocourse'] = 'Kan ikke finde kursusinformation';

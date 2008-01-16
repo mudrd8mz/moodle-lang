@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7+ (2006101007)
+      // glossary.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['addcomment'] = 'Tilføj kommentar';
@@ -17,7 +17,7 @@ $string['approve'] = 'Godkend';
 $string['areyousuredelete'] = 'Er du sikker på at du vil slette dette opslagsord?';
 $string['areyousuredeletecomment'] = 'Er du sikker på at du vil slette denne kommentar?';
 $string['areyousureexport'] = 'Er du sikker på at du vil eksportere dette indlæg til';
-$string['ascending'] = '(stigende)';
+$string['ascending'] = 'stigende';
 $string['attachment'] = 'Vedhæftning';
 $string['authorview'] = 'Sorter efter forfatter';
 $string['back'] = 'Tilbage';
@@ -62,13 +62,13 @@ $string['deletingnoneemptycategory'] = 'Ved sletning af denne kategori vil de op
 $string['descending'] = '(faldene)';
 $string['destination'] = 'Destination';
 $string['displayformat'] = 'Vælg format';
-$string['displayformatcontinuous'] = 'Kontinuerlig uden forfatter';
-$string['displayformatdictionary'] = 'Simpelt ordbogsformat';
-$string['displayformatencyclopedia'] = 'Leksikon';
-$string['displayformatentrylist'] = 'Ordliste';
-$string['displayformatfaq'] = 'FAQ';
-$string['displayformatfullwithauthor'] = 'Fuldt med forfatter (forumagtig)';
-$string['displayformatfullwithoutauthor'] = 'Fuldt men uden forfatter';
+$string['displayformatcontinuous'] = '3. Kontinuerlig uden forfatter';
+$string['displayformatdictionary'] = '2. Simpelt ordbogsformat';
+$string['displayformatencyclopedia'] = '7. Leksikon';
+$string['displayformatentrylist'] = '1. Ordliste';
+$string['displayformatfaq'] = '4. FAQ/OSS';
+$string['displayformatfullwithauthor'] = '6. Fuldt med forfatter (forumagtig)';
+$string['displayformatfullwithoutauthor'] = '5. Fuldt men uden forfatter';
 $string['displayformats'] = 'visnings formater';
 $string['displayformatssetup'] = 'Vis formaterings opsætning';
 $string['duplicateentry'] = 'Dubletter';
@@ -89,6 +89,9 @@ $string['entryleveldefaultsettings'] = 'Normal indstilling';
 $string['entrysaved'] = 'Indlægget er gemt';
 $string['entryupdated'] = 'Indlægget er blevet opdateret';
 $string['entryusedynalink'] = 'Dette opslagsord skal autolinkes.';
+$string['errcannoteditothers'] = 'Du kan ikke ændre andres opslagsord.';
+$string['errconceptalreadyexists'] = 'Der kan ikke være to ens opslag og dette opslagsord eksisterer allerede.';
+$string['erredittimeexpired'] = 'Redigeringstiden er udløbet.';
 $string['explainaddentry'] = 'Tilføj et nyt opslagsord til opslagsværket. <br />Opslagsord og definition skal altid udfyldes!';
 $string['explainall'] = 'Vis ALLE opslagsord på en side';
 $string['explainalphabet'] = 'Vælg kronologi og filtrer efter første bogstav i forfatterens efternavn';

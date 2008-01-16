@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.7+ (2006101007)
+      // choice.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['addmorechoices'] = 'Tilføj flere valgmuligheder';
@@ -11,34 +11,37 @@ $string['choice:deleteresponses'] = 'Slet svar';
 $string['choice:downloadresponses'] = 'Download svar';
 $string['choice:readresponses'] = 'Læs svar';
 $string['choiceclose'] = 'Indtil';
-$string['choicename'] = 'Spørgsmål navn';
+$string['choicename'] = 'Spørgsmålsnavn';
 $string['choiceopen'] = 'Åben';
-$string['choicetext'] = 'Spørgsmål tekst';
-$string['displayhorizontal'] = 'Vis horisontalt';
+$string['choicetext'] = 'Spørgsmålstekst';
+$string['displayhorizontal'] = 'Vis vandret';
 $string['displaymode'] = 'Layout';
-$string['displayvertical'] = 'Vis vertikalt';
+$string['displayvertical'] = 'Vis lodret';
+$string['fillinatleastoneoption'] = 'Du skal mindst give 2 svarmuligheder';
 $string['full'] = '(Fuld)';
 $string['havetologin'] = 'Du bliver nødt til at logge på før du kan afgive dit valg.';
 $string['limit'] = 'Begrænset';
 $string['limitanswers'] = 'Begræns antallet af svar';
-$string['modulename'] = 'Spørgsmål';
-$string['modulenameplural'] = 'Spørgsmål';
+$string['modulename'] = 'Valg';
+$string['modulenameplural'] = 'Valg';
 $string['mustchooseone'] = 'Du skal vælge et svar før du gemmer. Der blev ikke gemt noget.';
-$string['noguestchoose'] = 'Desværre, gæster kan ikke vælge.';
+$string['noguestchoose'] = 'Desværre, gæster kan ikke deltage i valg.';
 $string['noresultsviewable'] = 'Resultaterne er ikke tilgængelige på nuværende tidspunkt.';
 $string['notanswered'] = 'Ikke besvaret endnu';
-$string['notopenyet'] = 'Denne aktivitet er ikke tilgængelig før $a';
+$string['notopenyet'] = 'Denne aktivitet er tilgængelig fra $a';
 $string['privacy'] = 'Vis ikke resultater';
 $string['publish'] = 'Vis resultater';
-$string['publishafteranswer'] = 'Vis resultatet til eleven efter de har svaret.';
+$string['publishafteranswer'] = 'Vis resultatet til eleven efter afleverig.';
 $string['publishafterclose'] = 'Vis resultatet til studenten efter et spørgsmål er lukket.';
 $string['publishalways'] = 'Vis altid resultater til eleven';
 $string['publishanonymous'] = 'Vis anonyme resultater uden at angive de studerendes navne';
 $string['publishnames'] = 'Vis alle resultater, med navne og spørgsmål';
 $string['publishnot'] = 'Vis ikke resultaterne til de studerende';
+$string['removemychoice'] = 'Slet mit svar';
+$string['removeresponses'] = 'Slet alle svar';
 $string['responses'] = 'Besvarelser';
 $string['responsesto'] = 'Besvarelser til $a';
-$string['savemychoice'] = 'Gem mit spørgsmål';
+$string['savemychoice'] = 'Gem';
 $string['showunanswered'] = 'Vis kolonne for ubesvaret';
 $string['spaceleft'] = 'tilgængelig plads';
 $string['spacesleft'] = 'tilgængelig pladser';

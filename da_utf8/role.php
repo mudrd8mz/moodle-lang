@@ -1,12 +1,14 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.7+ (2006101007)
+      // role.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['addrole'] = 'Tilføj ny rolle';
 $string['allow'] = 'Tillad';
 $string['allowassign'] = 'Tillad rolletildeling';
 $string['allowoverride'] = 'Tillad tilsidesættelse af roller';
+$string['assignglobalroles'] = 'Tildel globale roller';
 $string['assignroles'] = 'Tildel roller';
+$string['assignrolesin'] = 'Tildel roller i $a';
 $string['blog:create'] = 'Opret nye weblogindlæg';
 $string['blog:manageentries'] = 'Ret og administrer indlæg';
 $string['blog:manageofficialtags'] = 'Administrere officielle tags';
@@ -49,12 +51,15 @@ $string['currentrole'] = 'Nuværende rolle';
 $string['defaultrole'] = 'Standardrolle';
 $string['defineroles'] = 'Standardroller';
 $string['deleterolesure'] = 'Er du sikker på at du vil slette rollen \"$a->name ($a->shortname)\"?</p><p>Denne rolle er på nuværende tidspunkt tildelt til $a->count brugere.';
+$string['duplicaterole'] = 'Duplikere rolle';
+$string['duplicaterolesure'] = 'Bekræft at du vil duplikere rollen \"$a->name ($a->shortname)\".';
 $string['editrole'] = 'Ret rolle';
 $string['errorbadrolename'] = 'Ugyldigt rollenavn';
 $string['errorbadroleshortname'] = 'Ugyldigt rollenavn';
 $string['errorexistsrolename'] = 'Rollen eksisterer allerede';
 $string['errorexistsroleshortname'] = 'Rollen eksisterer allerede';
 $string['existingusers'] = '$a eksisterende brugere';
+$string['globalroleswarning'] = 'ADVARSEL! De roller du tildeler her vil gælde på hele sitet, inklusiv forsiden og alle kurser.';
 $string['inherit'] = 'Nedarver';
 $string['legacy:admin'] = 'Administrator';
 $string['legacy:coursecreator'] = 'Kursusudvikler';
@@ -66,6 +71,7 @@ $string['listallroles'] = 'Vis alle roller';
 $string['manageroles'] = 'Administrer roller';
 $string['metaassignerror'] = 'Kan ikke tildele rollen til brugeren \"$a\" da rettigheden \"Administrer metakurser\" mangler.';
 $string['metaunassignerror'] = 'Rollen fra brugeren \"$a\" er automatisk nedarvet. Fjern i stedet rollen i delkurset.';
+$string['my:manageblocks'] = 'Administrer myMoodle-blokke';
 $string['nocapabilitiesincontext'] = 'Ingen rettigheder tilgængelige i denne sammenhæng';
 $string['overrideroles'] = 'Tilsidesæt roller';
 $string['overrides'] = 'Tilsidesættelser';
@@ -73,10 +79,8 @@ $string['permissions'] = 'Rettigheder';
 $string['potentialusers'] = '$a potentielle brugere';
 $string['prevent'] = 'Tillad ikke';
 $string['prohibit'] = 'Forbyd';
-$string['question:export'] = 'Eksporter spørgsmål';
-$string['question:import'] = 'Importer spørgsmål';
-$string['question:manage'] = 'Administrer spørgsmål';
 $string['question:managecategory'] = 'Administrer spørgsmålskategorier';
+$string['resetrole'] = 'Genskab standarder';
 $string['risks'] = 'Risici';
 $string['role:assign'] = 'Tildel roller til brugere';
 $string['role:manage'] = 'Opret og administrer roller';
@@ -98,6 +102,8 @@ $string['site:doanything'] = 'Kan alt';
 $string['site:doclinks'] = 'Vis links til offsite sider';
 $string['site:import'] = 'Importer andre kurser til et kursus';
 $string['site:manageblocks'] = 'Administrer siteblokke';
+$string['site:mnetloginfromremote'] = 'Login fra en anden Moodleinstallation';
+$string['site:mnetlogintoremote'] = 'Roam til en anden Moodleinstallation';
 $string['site:readallmessages'] = 'Læs alle beskeder på sitet';
 $string['site:restore'] = 'Genopret kurser fra backup';
 $string['site:trustcontent'] = 'Stol på afleveret indhold';
@@ -118,5 +124,8 @@ $string['user:viewuseractivitiesreport'] = 'Se brugeraktivitetsrapport';
 $string['user:viewusergrades'] = 'Se karakterer';
 $string['viewrole'] = 'Se rolledetaljer';
 $string['xuserswiththerole'] = 'Brugere med rollen \"$a->role\": $a->number';
+$string['question:export'] = 'Eksporter spørgsmål'; // ORPHANED
+$string['question:import'] = 'Importer spørgsmål'; // ORPHANED
+$string['question:manage'] = 'Administrer spørgsmål'; // ORPHANED
 
 ?>

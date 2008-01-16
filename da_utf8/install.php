@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.7+ (2006101007)
+      // install.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['admindirerror'] = 'Det angivne adminbibliotek er forkert';
@@ -88,6 +88,7 @@ $string['databasesettingssub_postgres7'] = '<b>Type:</b> PostgreSQL<br />
 <b>Bruger:</b> dit databasebrugernavn<br />
 <b>Password:</b> dit database password<br />
 <b>Tables Præfix:</b> præfix der bruges foran alle tabelnavnene (nødvendigt)';
+$string['databasesettingswillbecreated'] = '<b>Note:</b> Installationsprocessen vil søge at oprette en database hvis ikke den findes allerede.';
 $string['dataroot'] = 'Databibliotek';
 $string['datarooterror'] = 'Data-biblioteket du specificerede kan ikke findes eller oprettes. Ret stien til biblioteket eller opret det manuelt.';
 $string['dbconnectionerror'] = 'Den angive database kunne ikke kontaktes. Kontroller eller ret venligst databaseinformationerne.';
