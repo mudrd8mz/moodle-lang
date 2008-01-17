@@ -2,7 +2,7 @@
       // install.php - created with Moodle 2.0 dev (2007101506)
 
 
-$string['aborting'] = 'Abortando a instalaçaõ';
+$string['aborting'] = 'Abortando a instalação';
 $string['admindirerror'] = 'O directório da administração especificado está errado';
 $string['admindirname'] = 'Directório de Administração';
 $string['admindirsetting'] = 'Alguns servidores Web utilizam /admin como endereço especial para acedera um painel de controlo, ou semelhante. Desafortunadamente, isso cria conflictos com o endereço padrão das páginas de gestão do Moodle. Poderá resolver o problema renomeando o directório admin na sua instalação do Moodle, e escrevendo aqui o novo nome que utilizou. Por exemplo:<br /><br /><b>moodleadmin</b><br /><br />
@@ -19,7 +19,7 @@ $string['adminusername'] = 'Nome de utilizador:';
 $string['askcontinue'] = 'Continuar (yes/no):';
 $string['availabledbtypes'] = 'Tipos de bases de dados disponíveis';
 $string['availablelangs'] = 'Lista de línguas disponíveis';
-$string['cannotconnecttodb'] = 'Não é possível aceder a base de dados';
+$string['cannotconnecttodb'] = 'Não é possível aceder à base de dados';
 $string['caution'] = 'Advertência';
 $string['checkingphpsettings'] = 'A verificar definições do PHP';
 $string['chooselanguage'] = 'Escolha uma língua';
@@ -34,7 +34,7 @@ $string['configfilenotwritten'] = 'O script de instalação não conseguiu criar
 $string['configfilewritten'] = 'O ficheiro config.php foi criado com sucesso';
 $string['configurationcomplete'] = 'Configuração concluida';
 $string['configurationcompletehead'] = 'Configuração concluida';
-$string['configurationcompletesub'] = 'Configuração de substituições concluida';
+$string['configurationcompletesub'] = 'O Moodle tentou gravar a sua configuração  instalação do Moodle.';
 $string['configurationfileexist'] = 'O ficheiro de configuração já existe!';
 $string['creatingconfigfile'] = 'A criar ficheiro de configuração';
 $string['database'] = 'Base de dados';
@@ -118,7 +118,7 @@ $string['databasesettingswillbecreated'] = '<b>Nota:</b> O instalador tentará c
 $string['databasetype'] = 'Tipo de base de dados';
 $string['databaseuser'] = 'Utilizador da base de dados:';
 $string['dataroot'] = 'Directório de dados';
-$string['datarooterror'] = 'Não foi possível encontrar ou criar o directório de dados que indicou. Terá que tentar corrigir o caminho que indicou, ou criar o directório manualmente.';
+$string['datarooterror'] = 'Não foi possível encontrar ou criar o directório de dados que indicou. Terá que ou corrigir o caminho que indicou, ou criar o directório manualmente.';
 $string['dbconnectionerror'] = 'Não foi possível estabelecer a ligação à base de dados que indicou. Por favor verifique as definições dessa base de dados.';
 $string['dbcreationerror'] = 'Erro na criação da base de dados. Não foi possível criar a base de dados com o nome e definições que indicou.';
 $string['dbhost'] = 'Servidor';
@@ -126,7 +126,7 @@ $string['dbpass'] = 'Senha';
 $string['dbprefix'] = 'Prefixo das tabelas';
 $string['dbtype'] = 'Tipo';
 $string['dbwrongencoding'] = 'A base de dados seleccionada está a funcionar com uma codificação de caracteres não recomendada ($a). Seria melhor usar uma base de dados com codificação Unicode (UTF-8). De qualquer forma, poderá proceder com a base de dados que indicou, seleccionando \"Não testar codificação da Base de Dados\" aqui em baixo, mas poderá ter problemas no futuro.';
-$string['dbwronghostserver'] = 'Deverá usar \"Regras do Servidor\" como se explica acima.';
+$string['dbwronghostserver'] = 'Deverá usar regras de \"Servidor\" como se explica acima.';
 $string['dbwrongnlslang'] = 'A variável de configuração NLS_LANG no seu servidor Web deverá usar os caracteres AL32UTF8. Consulte como configurar correctamente o OCI8, na documentação do PHP.';
 $string['dbwrongprefix'] = 'Deverá usar um \"Prefixo das Tabelas\" como se explica acima.';
 $string['directorysettings'] = '<p>Por favor confira as localizações para esta instalação do Moodle</p>
@@ -163,15 +163,15 @@ $string['downloadsuccess'] = 'Pacote linguístico descarregado com êxito';
 $string['doyouagree'] = 'Esta de acordo ? (yes/no)';
 $string['environmenthead'] = 'A verificar o seu ambiente ...';
 $string['environmentsub'] = 'Estamos a verificar que os vários componentes do seu sistema estejam de acordo com os requerimentos do Moodle';
-$string['errorsinenvironment'] = 'Erros no ambiente';
+$string['errorsinenvironment'] = 'Erros no ambiente!';
 $string['fail'] = 'Falha';
-$string['fileuploads'] = 'Envio de ficheiros';
+$string['fileuploads'] = 'Transferência de ficheiros para o servidor';
 $string['fileuploadserror'] = 'Isto deveria estar activo';
-$string['fileuploadshelp'] = '<p>O envio de ficheiros parece não estar habilitado no seu servidor.</p>
+$string['fileuploadshelp'] = '<p>A transferência de ficheiros para o servidor parece estar deshabilitada no seu servidor.</p>
 
 <p>Moodle poderá ainda ser instalado, mas sem essa funcionalidade, não poderá enviar ficheiros de uma disciplina nem fotografias de utilizadores.</p>
 
-<p>Para habilitar o envio de ficheiros terá que editar (ou pedir ao administrador do sistema que o faça) o ficheiro principal php.ini do seu sistema, modificando o valor de <b>file_upload</b> para \'1\', e reiniciando o servidor Web.</p>';
+<p>Para habilitar a transferência de ficheiros terá que editar (ou pedir ao administrador do sistema que o faça) o ficheiro principal php.ini do seu sistema, modificando o valor de <b>file_upload</b> para \'1\', e reiniciando o servidor Web.</p>';
 $string['gdversion'] = 'Versão do GD';
 $string['gdversionerror'] = 'A biblioteca GD deverá estar instalada para processar e criar imagens.';
 $string['gdversionhelp'] = '<p>O seu servidor não parece ter GD instalado.</p>
@@ -181,7 +181,7 @@ $string['gdversionhelp'] = '<p>O seu servidor não parece ter GD instalado.</p>
 <p>Para adicionar GD ao PHP, em Unix, compile o PHP usando o parâmetro --with-gd.</p>
 
 <p>Em Windows, normalmente poderá editar php.ini e descomentar a linha que faz referência a php_gd2.dll.</p>';
-$string['globalsquotes'] = 'Variáveis Globais manipuladas em forma insegura';
+$string['globalsquotes'] = 'Variáveis globais manipuladas em forma insegura';
 $string['globalsquoteserror'] = 'Corrija as suas definições do PHP: desactive o register_globals e/ou active magic_quotes_gpc';
 $string['globalsquoteshelp'] = '<p>Não se recomenda a combinação simultânea de Magic Quotes GPC desactivada e Register Globals activa.</p>
 
@@ -200,7 +200,7 @@ $string['invalidargumenthelp'] = 'Erro: Argumento(s) inválido(s)
 Uso: $php cliupgrade.php OPÇÕES
 Para obter ajuda use a opção --help';
 $string['invalidemail'] = 'Endereço de correio inválido';
-$string['invalidhost'] = 'Servidor não inválido';
+$string['invalidhost'] = 'Servidor inválido';
 $string['invalidint'] = 'Erro: o valor não é um inteiro';
 $string['invalidintrange'] = 'Erro: O valor está fora dos limites permitidos';
 $string['invalidpath'] = 'Caminho inválido';
@@ -276,7 +276,7 @@ $string['siteinfo'] = 'Pormenores do sítio:';
 $string['sitenewsitems'] = 'Notícias:';
 $string['siteshortname'] = 'Nome curto do sítio:';
 $string['sitesummary'] = 'Sumário do sítio:';
-$string['skipdbencodingtest'] = 'Não testar codificação da Base de Dados';
+$string['skipdbencodingtest'] = 'Não testar codificação da base de dados';
 $string['tableprefix'] = 'Prefixo das tabelas:';
 $string['upgradingactivitymodule'] = 'Actualização do módulo de actividades';
 $string['upgradingbackupdb'] = 'Actualização da base de dados de cópias de segurança';
