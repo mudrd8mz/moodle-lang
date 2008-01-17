@@ -93,6 +93,7 @@ $string['manageroles'] = 'ロールの管理';
 $string['metaassignerror'] = 'メタコースを管理するケイパビリティが必要なため、このロールをユーザ「 $a 」に割り当てられませんでした。';
 $string['metaunassignerror'] = 'ユーザ「 $a 」のロールは自動的に再割り当てされました。代わりに、子コースのロールを解除してください。';
 $string['morethan'] = '$a 以上';
+$string['multipleroles'] = 'マルチロール';
 $string['my:manageblocks'] = 'マイ Moodleページブロックを管理する';
 $string['nocapabilitiesincontext'] = 'このコンテクストで利用できるケイパビリティはありません。';
 $string['notes:manage'] = 'ノートを管理する';
