@@ -801,6 +801,7 @@ $string['list'] = 'Lijst';
 $string['listfiles'] = 'Lijst met bestanden in $a';
 $string['listofallpeople'] = 'Lijst van alle mensen';
 $string['livelogs'] = 'Actief logboek van het afgelopen uur';
+$string['local'] = 'Lokaal';
 $string['locale'] = 'nl_NL.UTF-8';
 $string['location'] = 'Plaats';
 $string['log_excel_date_format'] = 'yyyy mmmm d h:mm';

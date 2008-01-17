@@ -93,6 +93,7 @@ $string['manageroles'] = 'Beheer rollen';
 $string['metaassignerror'] = 'Kan deze rol niet toewijzen aan gebruiker \"$a\" omdat de mogelijkheid om koepelcursussen te beheren nodig is.';
 $string['metaunassignerror'] = 'De rol van gebruiker \"$a\" was automatisch gewijzigd.  Pas de rol aan in de erfcursus';
 $string['morethan'] = 'Meer dan $a';
+$string['multipleroles'] = 'Meerdere rollen';
 $string['my:manageblocks'] = 'Bloks op Mijn Moodle beheren';
 $string['nocapabilitiesincontext'] = 'Geen mogelijkheden beschikbaar  in deze context';
 $string['notes:manage'] = 'Notities beheren';
