@@ -797,6 +797,7 @@ $string['list'] = 'Liste';
 $string['listfiles'] = 'Liste des fichiers dans $a';
 $string['listofallpeople'] = 'Liste de tous les utilisateurs';
 $string['livelogs'] = 'Actions effectuées durant l\'heure écoulée';
+$string['local'] = 'Local';
 $string['locale'] = 'fr_FR.UTF-8';
 $string['location'] = 'Emplacement';
 $string['log_excel_date_format'] = 'yyyy mmmm d h:mm';
