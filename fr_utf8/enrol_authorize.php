@@ -205,6 +205,8 @@ $string['unenrolstudent'] = 'Désinscrire l\'étudiant&nbsp;?';
 $string['uploadcsv'] = 'Déposer un fichier CSV';
 $string['usingccmethod'] = 'S\'inscrire par <a href=\"$a->url\"><strong>carte de crédit</strong></a>';
 $string['usingecheckmethod'] = 'S\'inscrire par <a href=\"$a->url\"><strong>eCheck</strong></a>';
+$string['verifyaccount'] = 'Vérifier votre compte authorize.net';
+$string['verifyaccountresult'] = 'Résultat de la vérification&nbsp;: $a';
 $string['void'] = 'Nul';
 $string['voidyes'] = 'La transaction sera annulée. Voulez-vous continuer&nbsp;?';
 $string['welcometocoursesemail'] = 'Chère étudiante, cher étudiant,
