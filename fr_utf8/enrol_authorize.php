@@ -209,7 +209,7 @@ $string['verifyaccount'] = 'Vérifier votre compte authorize.net';
 $string['verifyaccountresult'] = 'Résultat de la vérification&nbsp;: $a';
 $string['void'] = 'Nul';
 $string['voidyes'] = 'La transaction sera annulée. Voulez-vous continuer&nbsp;?';
-$string['welcometocoursesemail'] = 'Chère étudiante, cher étudiant,
+$string['welcometocoursesemail'] = 'Bonjour,
 
 Nous vous remercions de votre paiement. Vous vous êtes inscrits aux cours suivants
 
