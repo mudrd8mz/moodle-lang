@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 2.0 dev (2007110800)
+      // choice.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['addmorechoices'] = '選択肢の追加';
@@ -11,6 +11,7 @@ $string['choice:deleteresponses'] = '投票結果を削除する';
 $string['choice:downloadresponses'] = '投票結果をダウンロードする';
 $string['choice:readresponses'] = '投票結果を表示する';
 $string['choiceclose'] = '終了日時';
+$string['choicefull'] = 'この投票は投票可能数の上限に達しているため、投票できません。';
 $string['choicename'] = '投票名';
 $string['choiceopen'] = '開始日時';
 $string['choicetext'] = '説明文';
