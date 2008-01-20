@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8.2+ (2007021520)
+      // blog.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['addnewentry'] = 'Adicionar novo tópico';
@@ -39,7 +39,7 @@ $string['pagesize'] = 'Número de tópicos do blogue por página';
 $string['personalblogs'] = 'Os utilizadores apenas podem ver os seus blogues';
 $string['ptags'] = 'Palavras Chave definidas pelo utilizador (separados por vírgulas)';
 $string['publishto'] = 'Publicar para';
-$string['publishtonoone'] = 'O próprio (esboço)';
+$string['publishtonoone'] = 'O próprio (draft)';
 $string['publishtosite'] = 'Qualquer pessoa neste sítio';
 $string['publishtoworld'] = 'Qualquer pessoa no mundo';
 $string['settingsupdatederror'] = 'Ocorreu um erro, a definição de preferências do blogue não pôde ser actualizada';
