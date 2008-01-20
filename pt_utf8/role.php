@@ -93,6 +93,7 @@ $string['manageroles'] = 'Gerir cargos';
 $string['metaassignerror'] = 'Não se pode atribuir este cargo ao utilizador \"$a\" porque precisa permissão para gerir meta-disciplina.';
 $string['metaunassignerror'] = 'O cargo do utilizador \"$a\" foi reatribuido automaticamente; por favor mude melhor cargo atribuído nas disciplinas descendentes.';
 $string['morethan'] = 'Mais do que $a';
+$string['multipleroles'] = 'Diversos cargos';
 $string['my:manageblocks'] = 'Gerir blocos da página MeuMoodle';
 $string['nocapabilitiesincontext'] = 'Não existem competências disponíveis neste contexto';
 $string['notes:manage'] = 'Gerir notas';

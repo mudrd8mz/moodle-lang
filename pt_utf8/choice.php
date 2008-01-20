@@ -11,6 +11,7 @@ $string['choice:deleteresponses'] = 'Apagar respostas';
 $string['choice:downloadresponses'] = 'Descarregar respostas';
 $string['choice:readresponses'] = 'Ler respostas';
 $string['choiceclose'] = 'Até';
+$string['choicefull'] = 'Este referendo está cheio e nâo existem espaços disponíveis.';
 $string['choicename'] = 'Nome do referendo';
 $string['choiceopen'] = 'Abrir';
 $string['choicetext'] = 'Descrição do referendo';
