@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 dev (2006112200)
+      // enrol_authorize.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['adminacceptccs'] = '어떤 유형의 카드가 가능합니까?';
@@ -190,6 +190,8 @@ $string['unenrolstudent'] = '학생 등록취소';
 $string['uploadcsv'] = 'CSV 파일 올리기';
 $string['usingccmethod'] = '<a href=\"$a->url\"><strong>신용 카드 </strong></a>를 이용한 등록';
 $string['usingecheckmethod'] = '<a href=\"$a->url\"><strong>eCheck</strong></a>를 이용한 등록';
+$string['verifyaccount'] = 'authorize.net 계정 확인';
+$string['verifyaccountresult'] = '확인 결과 : $a';
 $string['void'] = '무효';
 $string['voidyes'] = '거래가 취소될 것입니다. 맞습니까?';
 $string['welcometocoursesemail'] = '학생 제위,

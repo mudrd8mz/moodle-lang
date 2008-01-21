@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (2007101503)
+      // xmldb.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['aftertable'] = '다음 표 :';
@@ -51,6 +51,7 @@ $string['enumvaluesincorrect'] = '영숫자 필드에 옳지 않은 값';
 $string['field'] = '필드';
 $string['fieldnameempty'] = '필드명 없음';
 $string['fields'] = '필드들';
+$string['fieldsusedinkey'] = '[[/var/www/moodle/lang/en_utf8/xmldb.php의 60번째 줄에 불완전한 문자열]]';
 $string['filenotwriteable'] = '기록할 수 없는 파일';
 $string['floatincorrectdecimals'] = '부동소숫점 필드에 적합하지 않는 십진수';
 $string['floatincorrectlength'] = '부동소숫점 필드에 적합하지 않은 길이';

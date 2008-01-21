@@ -213,6 +213,7 @@ $string['event8'] = '닫기';
 $string['event9'] = '수동 채점';
 $string['examview'] = '시험보기';
 $string['export'] = '내보내기';
+$string['exportcategory'] = '범주 내보내기';
 $string['exporterror'] = '내보내기 과정에서 오류 발생';
 $string['exportfilename'] = '퀴즈';
 $string['exportingquestions'] = '문항을 파일로 내보내고 있습니다.';

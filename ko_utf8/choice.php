@@ -11,6 +11,7 @@ $string['choice:deleteresponses'] = '설문 응답 삭제';
 $string['choice:downloadresponses'] = '응답내용 내려받기';
 $string['choice:readresponses'] = '응답내용 보기';
 $string['choiceclose'] = '까지';
+$string['choicefull'] = '더 이상 이 항목을 선택할 수 없습니다.';
 $string['choicename'] = '설문 명칭';
 $string['choiceopen'] = '부터';
 $string['choicetext'] = '설문 내용';

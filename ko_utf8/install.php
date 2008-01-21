@@ -2,6 +2,7 @@
       // install.php - created with Moodle 2.0 dev (2007101506)
 
 
+$string['aborting'] = '설치 취소';
 $string['admindirerror'] = '지정한 관리 디렉토리가 적절치 않습니다';
 $string['admindirname'] = '관리 디렉토리';
 $string['admindirsetting'] = '간혹 웹호스트 업체는 당신이 관리 구획에 접근할 수 있도록하기 위해 특별한 URL을 사용하거나 관리합니다. 어떤 경우 이 위치가 무들 관리페이지와 충돌할 수도 있습니다. 이 경우 이것을 바꿔서 지정할 수 있는데, 설치과정에서 적어넣었던 관리 디렉토리를  새로 바꿔 적어 넣으면 됩니다.
@@ -191,7 +192,7 @@ $string['inputwebadress'] = '웹 주소 :';
 $string['inputwebdirectory'] = '무들 경로 :';
 $string['installation'] = '설치';
 $string['installationiscomplete'] = '설치 완료! /n';
-$string['invalidargumenthelp'] = '오류 : 잘못된 인수 사용예 : $php cliupgrade.php OPTIONS 좀 더 자세한 내용을 알고 싶으면 --help 옵션을 사용하세요 /n';
+$string['invalidargumenthelp'] = '오류 : 잘못된 인수  사용예 : $php cliupgrade.php OPTIONS 좀 더 자세한 내용을 알고 싶으면 --help 옵션을 사용하세요 /n';
 $string['invalidemail'] = '잘못된 이메일주소';
 $string['invalidhost'] = '잘못된 호스트';
 $string['invalidint'] = '오류 : 정수값이 아닙니다 /n';
@@ -265,7 +266,6 @@ $string['siteshortname'] = '사이트 단축명 :';
 $string['sitesummary'] = '사이트 개요 :';
 $string['skipdbencodingtest'] = 'DB 엔코딩 테스트 생략';
 $string['tableprefix'] = '테이블 접두어 :';
-$string['unsafedirname'] = '오류 : 경로명에 적절치 않은 문자 포함. 사용가능한 문자는 a-zA-Z0-9_- 입니다. /n';
 $string['upgradingactivitymodule'] = '활동 모듈 갱신';
 $string['upgradingbackupdb'] = '백업 데이터베이스 갱신';
 $string['upgradingblocksdb'] = '블록 데이터베이스 갱신';
@@ -322,5 +322,6 @@ $string['writetoconfigfilefaild'] = '오류 : 설정 파일 쓰기 실패';
 $string['wwwroot'] = '웹 주소';
 $string['wwwrooterror'] = '이 웹 주소는 유효한 것 같지 않습니다 - 무들 설치 프로그램이 거기에 없습니다.';
 $string['yourchoice'] = '/n 선택 :';
+$string['unsafedirname'] = '오류 : 경로명에 적절치 않은 문자 포함. 사용가능한 문자는 a-zA-Z0-9_- 입니다. /n'; // ORPHANED
 
 ?>
