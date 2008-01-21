@@ -185,15 +185,15 @@ $string['verifyaccount'] = 'あなたのauthorize.netアカウントを確認す
 $string['verifyaccountresult'] = '確認結果: $a';
 $string['void'] = '取り消し';
 $string['voidyes'] = 'トランザクションがキャンセルされます。本当によろしいですか?';
-$string['welcometocoursesemail'] = 'お支払いありがとうございます。あなたは下記コースに受講登録されました:
+$string['welcometocoursesemail'] = '$a->name さん
+
+お支払いありがとうございます。あなたは下記コースに受講登録されました:
 
 $a->courses
 
-あなたのプロファイルは、下記で編集することができます:
-$a->profileurl
-
-あなたの支払い詳細は下記でご覧いただけます:
-$a->paymenturl';
+下記で支払い状況の閲覧およびあなたのプロファイルを編集することができます:
+$a->paymenturl
+$a->profileurl';
 $string['youcantdo'] = 'あなたは、次の処理を実行できません: $a->action';
 $string['zipcode'] = '郵便番号';
 
