@@ -11,6 +11,7 @@ $string['choice:deleteresponses'] = 'Verwijder antwoorden';
 $string['choice:downloadresponses'] = 'Download antwoorden';
 $string['choice:readresponses'] = 'Lees antwoorden';
 $string['choiceclose'] = 'Tot';
+$string['choicefull'] = 'Deze keuze is vol - er zijn geen beschikbare plaatsen meer.';
 $string['choicename'] = 'Naam keuze';
 $string['choiceopen'] = 'Open';
 $string['choicetext'] = 'Keuzetekst';
