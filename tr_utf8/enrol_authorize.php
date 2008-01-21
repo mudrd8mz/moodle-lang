@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 dev (2006112200)
+      // enrol_authorize.php - created with Moodle 2.0 dev (2007101506)
 
 
 $string['adminacceptccs'] = 'Hangi kredi kartı tipleri kabul edilecek?';
@@ -193,9 +193,11 @@ $string['unenrolstudent'] = 'Öğrencinin ders kaydını sil?';
 $string['uploadcsv'] = 'CSV dosyası yükle';
 $string['usingccmethod'] = '<a href=\"$a->url\"><strong>Kredi Kartı</strong></a> kullanarak kaydol';
 $string['usingecheckmethod'] = '<a href=\"$a->url\"><strong>E-Çek</strong></a> kullanarak kaydol';
+$string['verifyaccount'] = 'Authorize.net hesabınızı doğrulayın';
+$string['verifyaccountresult'] = 'Doğrulama sonucu: $a';
 $string['void'] = 'İptal et';
 $string['voidyes'] = 'İşlem iptal edilecek. Emin misiniz?';
-$string['welcometocoursesemail'] = 'Sevgili öğrenci,
+$string['welcometocoursesemail'] = 'Sevgili $a->name,
 
 Ödemeleriniz için teşekkürler. Bu kurslara kaydınız yapılmıştır:
 
