@@ -207,6 +207,7 @@ $string['gradeletter'] = '評定文字';
 $string['gradeletterhelp'] = '評定文字ヘルプ';
 $string['gradeletternote'] = '評定文字を削除するには、テキストエリアの文字を<br />空白にして「変更を保存する」をクリックしてください。';
 $string['gradeletters'] = '評定文字';
+$string['gradelong'] = '$a->grade / $a->max';
 $string['grademax'] = '最大評点';
 $string['grademaxhelp'] = 'この評定項目で許容可能な最大評点です。';
 $string['grademin'] = '最小評点';
