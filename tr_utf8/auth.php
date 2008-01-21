@@ -1,7 +1,11 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 dev (2007021400)
+      // auth.php - created with Moodle 2.0 dev (2007101506)
 
 
+$string['CASform'] = 'Yetkilendirme seçeneği';
+$string['accesCAS'] = 'CAS kullanıcıları';
+$string['accesNOCAS'] = 'diğer kullanıcılar';
+$string['actauthhdr'] = 'Etkin yetkilendirme eklentileri';
 $string['alternatelogin'] = 'Buraya bir URL girerseniz, sitenin giriş adresi olarak bu sayfa kullanılacaktır. Bu sayfa, eylemin <strong>\'$a\'</strong> olarak ayarlandığı, kullanıcı adı(<strong>username</strong>) ve şifre(<strong>password</strong>) alanlarını döndüren bir formdan oluşmalıdır.<br />Yanlış adres girmeniz durumunda kendi kendinizi bile site dışı bir yere kilitleyebilirsiniz.<br />Varsayılan giriş sayfasını kullanmak için burayı boş bırakın.';
 $string['alternateloginurl'] = 'Alternatif giriş URL';
 $string['auth_cas_auth_user_create'] = 'Harici kullanıcı oluştur';
@@ -120,7 +124,7 @@ $string['auth_ldapextrafields'] = 'Bu alanlar isteğe bağlıdır. Burada belirt
 $string['auth_ldapnotinstalled'] = 'LDAP yetkilendirmesi kullanılamıyor. PHP LDAP modülü kurulmamış.';
 $string['auth_ldaptitle'] = 'LDAP sunucu kullan';
 $string['auth_manualdescription'] = 'Bu yöntem, kullanıcıların kendi hesaplarını oluşturması için bütün yolları ortadan kaldırır. Bütün hesaplar yönetici tarafından elle oluşturulmalıdır.';
-$string['auth_manualtitle'] = 'Sadece elle ayarlanabilir hesaplar';
+$string['auth_manualtitle'] = 'Elle ayarlanan hesaplar';
 $string['auth_mnettitle'] = 'Moodle ağı yetkilendirmesi';
 $string['auth_multiplehosts'] = 'Birden çok alan adları VEYA adresler belirtilebilir. (örnek host1.com;host2.com;host3.com veya xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx)';
 $string['auth_nntpchangepasswordurl_key'] = 'Şifre değişim adresi';
@@ -131,6 +135,8 @@ $string['auth_nntpnotinstalled'] = 'NNTP yetkilendirmesi kullanılamıyor. PHP I
 $string['auth_nntpport'] = 'Sunucu bağlantı noktası (119 en genelidir)';
 $string['auth_nntpport_key'] = 'Bağlantı noktası';
 $string['auth_nntptitle'] = 'NNTP sunucu kullan';
+$string['auth_nologindescription'] = 'Bu yardımcı yetkilendirme eklentisi, kullanıcıların sisteme giriş yapmasını engeller ve aynı zamanda herhangi kullanıcıya eposta gönderilmesine izin vermez. Kullanıcı hesaplarını geçici olarak <em>askıya almak</em> için kullanılabilir.';
+$string['auth_nologintitle'] = 'Giriş yok';
 $string['auth_nonedescription'] = 'Kullanıcılar, harici bir sunucu olmaksızın ve e-posta yetkilendirmesi gerekmeksizin, yeni hesap açabilir ve bu hesapla giriş yapabilirler. Bu seçeneği kullanırken güvenlik ve yönetimle ilgili problemlerin olabileceğini dikkate alın.';
 $string['auth_nonetitle'] = 'Yetki yok';
 $string['auth_pamdescription'] = 'Bu yöntem, bu sunucudaki yerel kullanıcılara erişmek için PAM kullanır. Bu yöntemi kullanmak için <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Yetkilendirmesi</a>ni kurmanız gerekir.';
