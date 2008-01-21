@@ -207,6 +207,7 @@ $string['gradeletter'] = 'Letterbeoordeling';
 $string['gradeletterhelp'] = 'Help bij letterbeoordeling';
 $string['gradeletternote'] = 'Om een letterbeoordeling te verwijderen, maak je<br /> gewoon één van de drie tekstzones voor die letter leeg en klik je op bewaren.';
 $string['gradeletters'] = 'Letterbeoordeling';
+$string['gradelong'] = '$a->grade / $a->max';
 $string['grademax'] = 'Maximum beoordeling';
 $string['grademaxhelp'] = 'Hoogst mogelijke beoordeling voor dit beoordelingsonderdeel';
 $string['grademin'] = 'Minimum beoordeling';
