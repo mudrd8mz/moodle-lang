@@ -1,4 +1,4 @@
-<?PHP // $Id$
+<?PHP // $Id$ 
       // moodle.php - created with Moodle 2.0 dev (2007101506)
 
 
@@ -266,8 +266,8 @@ $string['coursecategories'] = 'Categorias da disciplina';
 $string['coursecategory'] = 'Categoria da disciplina';
 $string['coursecreators'] = 'Criador da disciplina';
 $string['coursecreatorsdescription'] = 'Os criadores de disciplinas podem criar novas disciplinas e leccionar nelas.';
-$string['courseenrolenddate'] = 'Fim do período de inscrição';
-$string['courseenrolstartdate'] = 'Início do período de inscrição';
+$string['courseenrolenddate'] = 'Fim do período de inscrições';
+$string['courseenrolstartdate'] = 'Início do período de inscrições';
 $string['coursefiles'] = 'Ficheiros da disciplina';
 $string['courseformatdata'] = 'Dados do formato da disciplina';
 $string['courseformats'] = 'Formatos da disciplina';
@@ -532,7 +532,7 @@ $string['enrolledincourserole'] = 'Inscrito em \"$a->course\" como \"$a->role\"'
 $string['enrollfirst'] = 'Tem que se inscrever em alguma das disciplinas para poder começar a usar as actividades do sítio.';
 $string['enrolme'] = 'Inscreva-me nesta disciplina';
 $string['enrolmentconfirmation'] = 'Está prestes a inscrever-se nesta disciplina.<br />Tem a certeza que deseja continuar?';
-$string['enrolmentend'] = 'Fim do período de inscrição';
+$string['enrolmentend'] = 'Fim da inscrição';
 $string['enrolmentkey'] = 'Chave de inscrição';
 $string['enrolmentkeyfrom'] = 'Esta disciplina requer uma \'chave de inscrição\'.<br />Chave essa que deverá ser pedida a $a<br />
 (Pode também \'Sair\' e a seguir entrar na disciplina como visitante)';
@@ -545,7 +545,7 @@ $string['enrolmentnointernal'] = 'Actualmente não se aceitam inscrições manua
 $string['enrolmentnotyet'] = 'Lamentamos, mas não poderá aceder a esta disciplina até o dia <br />$a';
 $string['enrolmentplugins'] = 'Plugins de inscrição';
 $string['enrolments'] = 'Inscrições';
-$string['enrolmentstart'] = 'Início de inscrições';
+$string['enrolmentstart'] = 'Início da inscrição';
 $string['enrolperiod'] = 'Período de inscrição';
 $string['enrolstartdate'] = 'Data de início';
 $string['entercourse'] = 'Clique para entrar na disciplina';
