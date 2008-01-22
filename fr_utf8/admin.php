@@ -360,6 +360,7 @@ $string['gdversion'] = 'Version de GD';
 $string['generalsettings'] = 'Réglages généraux';
 $string['geoipfile'] = 'Fichier des données GeoIP City';
 $string['globalsquoteswarning'] = '<p><strong>Notification de sécurité</strong>&nbsp;: pour fonctionner correctement, Moodle nécessite <br />certaines modifications de vos réglages PHP actuels.<p/><p>Vous <em>devez</em> effectuer les réglages <code>register_globals=off</code> et/ou <code>magic_quotes_gpc=on</code>.<br />Si possible, veuillez effectuer le réglage <code>register_globals=off</code>, afin d\'augmenter la sécurité globale <br /> de votre serveur. L\'activation de l\'option <code>magic_quotes_gpc=on</code> est aussi recommandée.<p/><p>Ces réglages sont effectués en modifiant votre fichier <code>php.ini</code>, la configuration<br />de Apache/IIS ou du fichier <code>.htaccess</code>.</p>';
+$string['globalswarning'] = '<p><strong>Notification de sécurité</strong>&nbsp;: pour fonctionner correctement, Moodle nécessite <br />certaines modifications de vos réglages PHP actuels.<p/><p>Vous <em>devez</em> effectuer le réglage <code>register_globals=off</code>.<p>Ce réglage s\'effectue en modifiant le fichier <code>php.ini</code>, la configuration <br />de Apache/IIS ou le fichier <code>.htaccess</code>.</p>';
 $string['googlemapkey'] = 'Clef API de Google Maps';
 $string['gotofirst'] = 'Afficher la première chaîne manquante';
 $string['gradebook'] = 'Carnet de notes';
