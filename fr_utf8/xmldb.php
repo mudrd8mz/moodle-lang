@@ -60,7 +60,7 @@ $string['indexes'] = 'Index';
 $string['integerincorrectlength'] = 'Longueur du champ entier incorrecte';
 $string['key'] = 'Clef';
 $string['keys'] = 'Clefs';
-$string['listreservedwords'] = 'Liste des mots réservés<br/>(utilisées pour tenir à jour <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a>)';
+$string['listreservedwords'] = 'Liste des mots réservés<br/>(utilisée pour tenir à jour <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a>)';
 $string['load'] = 'Charger';
 $string['main_view'] = 'Vue d\'ensemble';
 $string['missing'] = 'Manquant(s)';
