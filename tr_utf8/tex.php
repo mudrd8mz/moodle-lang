@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // tex.php - created with Moodle 1.6 development (2005101200)
+      // tex.php - created with Moodle 2.0 dev (2007101506)
 
 
-$string['filtername'] = 'Matematiksel İfade (TeX Gösterimi)';
+$string['filtername'] = 'TeX İfade';
 
 ?>
