@@ -212,6 +212,7 @@ $string['gradeletter'] = 'Note lettre';
 $string['gradeletters'] = 'Notes lettres';
 $string['gradeletterhelp'] = 'Aide sur les notes lettres';
 $string['gradeletternote'] = 'Pour supprimer une note lettre, effacer simplement le contenu des trois<br />zones lui correspondant et cliquer sur «&nbsp;Enregistrer les changements&nbsp;».';
+$string['gradelong'] = '$a->grade / $a->max';
 $string['grademax'] = 'Note maximale';
 $string['grademaxhelp'] = 'La note maximale permise pour cet élément d\'évaluation.';
 $string['grademin'] = 'Note minimale';
