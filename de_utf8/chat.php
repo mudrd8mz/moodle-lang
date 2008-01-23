@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9 Beta + (2007092001)
+      // chat.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['beep'] = 'Signal';
@@ -37,6 +37,7 @@ $string['messagebeepsyou'] = '$a hat Sie angepiepst!';
 $string['messageenter'] = '$a hat den Chat gerade betreten';
 $string['messageexit'] = '$a hat den Chat verlassen';
 $string['messages'] = 'Mitteilungen';
+$string['method'] = 'Chat Methode';
 $string['methoddaemon'] = 'Chat Server Daemon';
 $string['methodnormal'] = 'Standardmethode';
 $string['modulename'] = 'Chat';
@@ -48,15 +49,24 @@ $string['nomessages'] = 'Bisher keine Nachrichten';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Kein Termin vorgesehen';
+$string['oldping'] = 'Timeout für Trennung';
+$string['refreshroom'] = 'Aktualisierung Raum';
+$string['refreshuserlist'] = 'Aktualisierung Nutzerliste';
+$string['removemessages'] = 'Alle Mitteilungen entfernen';
 $string['repeatdaily'] = 'Jeden Tag zur gleichen Zeit';
 $string['repeatnone'] = 'Keine Antworten - nur festgelegte Zeiten veröffentlichen';
 $string['repeattimes'] = 'Sitzungen wiederholen';
 $string['repeatweekly'] = 'Jede Woche zur gleichen Zeit';
 $string['savemessages'] = 'Speicherung der Chat-Protokolle (Dauer)';
 $string['seesession'] = 'Die Sitzung einsehen';
+$string['serverhost'] = 'Servername';
+$string['serverip'] = 'Server IP';
+$string['servermax'] = 'Maximale Nutzerzahl';
+$string['serverport'] = 'Server-Port';
 $string['sessions'] = 'Chat-Sitzungen';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Teilnehmer/innen können Chat-Protokolle sehen';
+$string['updatemethod'] = 'Updatemethode';
 $string['viewreport'] = 'Vorherige Chat-Sitzung einsehen';
 
 ?>

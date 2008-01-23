@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 Beta + (2007092001)
+      // data.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['action'] = 'Aktion';
@@ -58,9 +58,11 @@ $string['defaultfielddelimiter'] = '(Grundeinstellung ist das Komma-Zeichen)';
 $string['defaultfieldenclosure'] = '(Grundeinstellung ist \'kein\' Eintrag)';
 $string['defaultsortfield'] = 'Standard-Sortierfeld';
 $string['delete'] = 'Löschen';
+$string['deleteallentries'] = 'Alle Einträge löschen';
 $string['deletecomment'] = 'Sind Sie sicher, dass Sie diesen Kommentar löschen wollen?';
 $string['deleted'] = 'gelöscht';
 $string['deletefield'] = 'Ein bestehendes Feld löschen';
+$string['deletenotenrolled'] = 'Einträge von abgemeldeten Nutzer/innen löschen';
 $string['deletewarning'] = 'Sind Sie sicher, dass Sie diesen Vorlagensatz löschen möchten?';
 $string['descending'] = 'Absteigend';
 $string['directorynotapreset'] = '$a->directory ist kein Vorlagensatz. Fehlende Dateien: $a->missing_files';
@@ -210,6 +212,7 @@ $string['saveaspreset'] = 'Als Vorlagensatz speichern';
 $string['savesettings'] = 'Einstellungen speichern';
 $string['savesuccess'] = 'Erfolgreich gespeichert. Ihr Vorlagensatz wird ab sofort überall in dieser Installation nutzbar sein.';
 $string['savetemplate'] = 'Vorlage speichern';
+$string['search'] = 'Suche';
 $string['sendinratings'] = 'Meine neuesten Bewertungen abschicken';
 $string['showall'] = 'Alle Einträge anzeigen';
 $string['single'] = 'Einzelansicht';

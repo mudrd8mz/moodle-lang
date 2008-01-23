@@ -1,10 +1,13 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 Beta + (2007090600)
+      // resource.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['addresource'] = 'Arbeitsmaterial hinzufügen';
 $string['affectedresources'] = 'Bevorzugte Arbeitsmaterialien';
+$string['allowlocalfiles'] = 'Lokale Dateien zulassen';
+$string['autofilerename'] = 'Link beim Umbenennen der Datei aktualisieren';
 $string['back'] = 'Zurück';
+$string['blockdeletingfile'] = 'Löschen der zugeordneten Dateien unterbinden';
 $string['browserepository'] = 'Repository durchsuchen';
 $string['choose'] = 'Auswählen';
 $string['chooseafile'] = 'Datei wählen oder neu hochladen';
@@ -46,6 +49,7 @@ $string['fetchservererror'] = 'Ein Fehler ist beim Remoteserver aufgetreten (evt
 $string['filename'] = 'Dateiname';
 $string['filtername'] = 'Automatische Verlinkung zu den Namen der Arbeitsmaterialien';
 $string['frameifpossible'] = 'Arbeitsmaterial in einem Frame anzeigen und die Seitennavigation sichtbar lassen';
+$string['framesize'] = 'Frame-Größe';
 $string['fulltext'] = 'Text-/Webseite';
 $string['htmlfragment'] = 'HTML-Teil';
 $string['imspackageloaded'] = 'Paket geladen';
@@ -96,6 +100,7 @@ $string['previous'] = 'Vorherige';
 $string['redeploy'] = 'Nochmal verwenden';
 $string['repository'] = 'IMS-Repository';
 $string['resource:view'] = 'Arbeitsmaterial sehen';
+$string['resourcedefaulturl'] = 'Standard-URL';
 $string['resourcetype'] = 'Art des Arbeitsmaterials';
 $string['resourcetype1'] = 'Referenz';
 $string['resourcetype2'] = 'Internet-Seite';
@@ -118,11 +123,13 @@ $string['serverurl'] = 'Server-URL ($a->wwwroot)';
 $string['showcourseblocks'] = 'Kursblöcke anzeigen';
 $string['skipsubmenus'] = 'Untermenü-Seiten überspringen';
 $string['tableofcontents'] = 'Inhaltsverzeichnis';
+$string['tableofcontentsabbrev'] = 'Inhalt';
 $string['upbutton'] = 'Aufwärts';
 $string['variablename'] = 'Name der Variablen';
 $string['viewims'] = 'IMS-Content-Paket anzeigen';
 $string['vol'] = 'Vol';
 $string['warningblockingdelete'] = 'Warnung: Das Löschen ist nicht möglich, da noch eine  Ressource vorhanden ist. Überarbeiten Sie zunächst diese Ressourcen oder fragen Sie die Administration, ob sie diese Sicherheitseinstellung in den Einstellungen für die Arbeitsmaterialien deaktiviert.';
 $string['warningdisabledrename'] = 'Warnung: Die automatische Umbenennung der Verlinkungen in den Arbeitsmaterialien ist deaktiviert. Aktualisieren Sie die betroffenen Arbeitsmaterialien einzeln oder fragen Sie die Administration, ob sie die entsprechenden Einstellungen ändert.';
+$string['websearchdefault'] = 'Standard-Websuche';
 
 ?>

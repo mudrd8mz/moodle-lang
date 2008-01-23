@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9 Beta + (2007090600)
+      // xmldb.php - created with Moodle 1.9 Beta + (2007100903)
 
 
 $string['aftertable'] = 'Nach Tabelle:';
@@ -43,6 +43,7 @@ $string['delete_xml_file'] = 'XML-Datei löschen';
 $string['down'] = 'Nach unten';
 $string['duplicate'] = 'Kopieren';
 $string['duplicatefieldname'] = 'Es existiert bereits ein anderes Feld mit diesem Namen.';
+$string['duplicatekeyname'] = 'Es existiert bereits ein anderer Schlüssel mit diesem Namen';
 $string['edit'] = 'Bearbeiten';
 $string['edit_field'] = 'Feld bearbeiten';
 $string['edit_index'] = 'Index bearbeiten';
@@ -55,6 +56,7 @@ $string['enumvaluesincorrect'] = 'Falsche Feldwerte (enum)';
 $string['field'] = 'Feld';
 $string['fieldnameempty'] = 'Feldname ist leer';
 $string['fields'] = 'Felder';
+$string['fieldsusedinkey'] = '[[unvollständiger Sprachstring in Zeile \' . __LINE__ . \' in \' . __FILE__ . \']]';
 $string['filenotwriteable'] = 'Die Datei ist nicht beschreibbar';
 $string['floatincorrectdecimals'] = 'Falsche Anzahl von Nachkommazahlen (float)';
 $string['floatincorrectlength'] = 'Falsche Feldlänge (float)';

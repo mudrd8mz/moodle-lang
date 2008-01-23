@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 Beta + (2007092001)
+      // scorm.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['activation'] = 'Aktivierung';
@@ -26,6 +26,7 @@ $string['contents'] = 'Inhalte';
 $string['coursepacket'] = 'Lernpaket';
 $string['coursestruct'] = 'Kursstruktur';
 $string['datadir'] = 'Dateisystemfehler: Das Verzeichnis für Kursdaten konnte nicht erstellt werden';
+$string['deleteallattempts'] = 'Alle SCORM-Versuche löschen';
 $string['details'] = 'Trackingdetails';
 $string['directories'] = 'Verzeichnislinks anzeigen';
 $string['display'] = 'Lernpaket anzeigen';

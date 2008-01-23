@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 Beta + (2007092001)
+      // glossary.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['addcomment'] = 'Kommentar einfügen';
@@ -59,6 +59,7 @@ $string['defaultapproval'] = 'Beiträge ohne Prüfung freigeben';
 $string['definition'] = 'Definition';
 $string['definitions'] = 'Definitionen';
 $string['deleteentry'] = 'Eintrag löschen';
+$string['deletenotenrolled'] = 'Einträge von abgemeldeten Nutzer/innen löschen';
 $string['deletingcomment'] = 'Lösche Kommentar';
 $string['deletingnoneemptycategory'] = 'Wenn diese Kategorie gelöscht wird, werden die Einträge daraus nicht gelöscht. Sie werden als \'keiner Kategorie zugeordnet\' gekennzeichnet.';
 $string['descending'] = '(absteigend)';
@@ -162,6 +163,8 @@ $string['ratingsuse'] = 'Bewertungen verwenden';
 $string['ratingtime'] = 'Nur Einträge dieses Zeitraums bewerten:';
 $string['rejectedentries'] = 'Abgelehnte Einträge';
 $string['rejectionrpt'] = 'Übersicht über abgelehnte Einträge';
+$string['resetglossaries'] = 'Einträge löschen von';
+$string['resetglossariesall'] = 'Einträge aus allen Glossaren löschen';
 $string['rsssubscriberss'] = 'RSS-Feed-Anzeige für \'$a\' Begriffe';
 $string['searchindefinition'] = 'Volltext-Suche';
 $string['secondaryglossary'] = 'Standardglossar';
@@ -184,5 +187,15 @@ $string['withauthor'] = 'Einträge mit Autorennennung';
 $string['withoutauthor'] = 'Einträge ohne Autorennennung';
 $string['writtenby'] = 'von';
 $string['youarenottheauthor'] = 'Sie sind nicht Autor/in dieses Kommentars und deshalb nicht berechtigt, diesen Kommentar zu bearbeiten.';
+$string['author'] = 'Autor/in'; // ORPHANED
+$string['cat'] = 'Kategorie'; // ORPHANED
+$string['date'] = 'Datum'; // ORPHANED
+$string['defaulthook'] = 'Standardverbindung'; // ORPHANED
+$string['defaultmode'] = 'Standardmodus'; // ORPHANED
+$string['defaultsortkey'] = 'Standardschlüssel'; // ORPHANED
+$string['defaultsortorder'] = 'Standardsortierung'; // ORPHANED
+$string['includegroupbreaks'] = 'Gruppentrennung einbeziehen'; // ORPHANED
+$string['letter'] = 'Buchstabe'; // ORPHANED
+$string['popupformat'] = 'Popup-Format'; // ORPHANED
 
 ?>

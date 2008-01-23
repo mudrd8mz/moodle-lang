@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9 Beta + (2007092001)
+      // hotpot.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['abandoned'] = 'Abgebrochen';
@@ -37,6 +37,7 @@ $string['error_nofeedbackurlwebpage'] = 'Bitte URL für die Webseite eingeben';
 $string['error_nofilename'] = 'Bitte Dateinamen eingeben';
 $string['error_noquizzesfound'] = 'Es wurden keine HotPot-Tests gefunden';
 $string['error_notfileorfolder'] = '\"$a\" ist keine Datei bzw. kein Ordner';
+$string['excelencodings'] = 'Excel-Codierung';
 $string['feedbackformmail'] = 'per Formular';
 $string['feedbackmoodleforum'] = 'per Moodle-Forum';
 $string['feedbackmoodlemessaging'] = 'per Moodle-Mitteilung';
@@ -138,6 +139,7 @@ $string['resultssaved'] = 'Testergebnisse wurden gespeichert';
 $string['score'] = 'Bewertung';
 $string['showhtmlsource'] = 'HTML-Quelle anzeigen';
 $string['shownextquiz'] = 'Nächsten Test anzeigen';
+$string['showtimes'] = 'Bearbeitungszeiten anzeigen';
 $string['showxmlsource'] = 'XML-Quelle anzeigen';
 $string['showxmltree'] = 'XML-Baum anzeigen';
 $string['specifictime'] = 'Spezifische Zeit';

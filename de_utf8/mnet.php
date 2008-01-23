@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 Beta + (2007092001)
+      // mnet.php - created with Moodle 1.9 Beta + (2007100903)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (selbstsigniert)';
@@ -19,6 +19,7 @@ $string['authfail_usermismatch'] = 'Keine Zugangsberechtigung: Der Nutzer ist un
 $string['authmnetautoadddisabled'] = 'Moodle-Netzwerk: Die Einstellung <em>Auto-add users</em> ist im Plugin zur Authentifikation <strong> ausgeschaltet</strong>.';
 $string['authmnetdisabled'] = 'Moodle-Netzwerk: Das <em>Plugin zur Authentifikation</em> ist <strong>ausgeschaltet</strong>.';
 $string['badcert'] = 'Dies ist kein gültiges Zertifikat.';
+$string['certdetails'] = 'Zertifikatsdetails';
 $string['couldnotgetcert'] = 'Es wurde kein Zertifikat gefunden unter <br />$a. <br />Der Rechner scheint ausgeschaltet oder falsch konfiguriert zu sein.';
 $string['couldnotmatchcert'] = 'Dies stimmt nicht mit dem Zertifikat überein, das aktuell auf dem Webserver veröffentlicht ist.';
 $string['courses'] = 'Kurse';
@@ -44,6 +45,12 @@ $string['enrolcourses_desc'] = 'Angebotene Kurse für eine Remote-Registrierung 
 $string['enrollingincourse'] = 'Anmelden im Kurs $a[0] auf dem Rechner $a[1]<br />';
 $string['enrolments'] = 'Anmeldungen';
 $string['enterausername'] = 'Bitte geben Sie einen Anmeldenamen ein (oder eine kommagetrennte Liste von Anmeldenamen)';
+$string['error7020'] = 'Dieser Fehler tritt normalerweise auf, wenn die Remote-Site einen Dateneintrag für wwwroot falsch erzeugt hat, z.B. http://domain.de statt http://www.domain.de. Sie sollten den Administrator der Remote-Site über die richtige Einstellung für wwwroot  informieren (so wie in config.php angegeben), damit dortige Dateneintrag für Ihren Server korrigiert werden kann.';
+$string['error7022'] = 'Die von Ihnen an den Remote-Server übermittelte Nachricht war richtig verschlüsselt, aber nicht signiert. Dies ist ziemlich seltsam! Sie sollten diesen Fehler bei seinem Auftreten unbedingt melden und dabei die beteiligten Moodle-Versionen angeben.';
+$string['error7023'] = 'Der Remote-Server ist bei dem Versuch gescheitert, Ihre Nachricht mit den für Ihre Site verfügbaren Schlüssel zu entschlüsseln. Eventuell sind Sie in der Lage, dieses Problem durch ein manuelles Eingreifen (re-keying) zu beheben. Dieses Problem ist sehr unwahrscheinlich, außer Sie hatten mehrere Monate keinen Kontakt zum Remote-Server.';
+$string['error7024'] = 'Sie haben eine unverschlüsselte Nachricht an den Remote-Server versandt, aber dieser akzeptiert keine unverschlüsselte Kommunikation von Ihrer Site. Dies ist ziemlich seltsam! Sie sollten diesen Fehler bei seinem Auftreten unbedingt melden und dabei die beteiligten Moodle-Versionen angeben.';
+$string['error7026'] = 'Der Schlüssel, mit dem Ihre Nachricht signiert wurde, unterscheidet sich vom Schlüssel, den der Remote-Server für Ihre Site gespeichert hat. Zusätzlich ist der Remote-Server bei dem Versuch gescheitert, Ihren aktuellen Schlüssel automatisch zu holen. Bitte greifen Sie manuell ein (re-key) und versuchen Sie es noch einmal.';
+$string['error709'] = 'Der Remote-Server ist bei dem Versuch gescheitert, einen SSL-Schlüssel von Ihnen zu beziehen.';
 $string['expired'] = 'Schlüssel wird ungültig am';
 $string['expires'] = 'Gültig bis';
 $string['expireyourkey'] = 'Schlüssel löschen';

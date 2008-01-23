@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta + (2007092001)
+      // error.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['adminprimarynoedit'] = 'Der Hauptadmin kann nicht von anderen bearbeitet werden';
@@ -22,6 +22,11 @@ $string['componentisuptodate'] = 'Die Komponente ist nicht aktuell.';
 $string['confirmsesskeybad'] = 'Entschuldigung, der \"session key\" für diese Aktion konnte nicht bestätigt werden. Dieses Sicherheitsfeature schützt Sie vor der nicht beabsichtigten Ausführung wichtiger Funktionen oder der Ausführung von Aktionen durch Dritte in Ihrem Namen. Bitte überzeugen Sie sich, dass Sie diese Aktion wirklich ausführen wollen.';
 $string['couldnotassignrole'] = 'Ein ernster, nicht näher bezeichneter Fehler ist aufgetreten, während Sie sich eine Rolle zuweisen wollten.';
 $string['coursegroupunknown'] = 'Es wurde kein Kurs für die Gruppe $a festgelegt';
+$string['csvcolumnduplicates'] = 'Doppelte Datenfelder gefunden';
+$string['csvemptyfile'] = 'Die CSV-Datei ist leer.';
+$string['csvfewcolumns'] = 'Nicht genügend Datenfelder vorhanden - bitte prüfen Sie die Trennzeichen-Einstellung.';
+$string['csvweirdcolumns'] = 'Ungültiges CSV-Format - die Anzahl der Datenfelder ist nicht konstant!';
+$string['dbupdatefailed'] = 'Datenbankaktualisierung fehlgeschlagen';
 $string['downloadedfilecheckfailed'] = 'Prüfung der heruntergeladenen Datei ist gescheitert';
 $string['duplicateusername'] = 'Doppelter Anmeldename - Datensatz überspringen';
 $string['errorcleaningdirectory'] = 'Fehler beim Bereinigen des Verzeichnisses \"$a\"';
@@ -88,15 +93,26 @@ $string['statscatchupmode'] = 'Die Statistiken befinden sich im sog. Catchup-Mod
 $string['unicodeupgradeerror'] = 'Entschuldigung, aber Ihre Datenbank hat kein Unicode-Format. Diese Moodle-Version ist deswegen nicht fähig, Ihre Datenbank nach Unicode umzuwandeln. Bitte aktualisieren Sie zuerst auf Moodle 1.7.x. Anschließend starten Sie die Unicode-Umwandlung auf der Admin-Seite. Anschließend sollte es möglich sein, auf Moodle $a zu aktualisieren.';
 $string['unknowncourse'] = 'Unbekannter Kursname \"$a\"';
 $string['unknowncourseidnumber'] = 'Unbekannte Kurs-ID \"$a\"';
+$string['unknowngroup'] = 'Unbekannte Gruppe \"$a\"';
+$string['unknownrole'] = 'Unbekannte Rolle \"$a\"';
 $string['unknownuseraction'] = 'Entschuldigung, diese Nutzeraktion wurde nicht verstanden.';
+$string['userautherror'] = 'Unbekanntes Plugin zur Authentifizierung';
+$string['userauthunsupported'] = 'Plugin zur Authentifizierung wird nicht unterstützt.';
+$string['useremailduplicate'] = 'Doppelte Adresse';
+$string['usernotaddedadmin'] = 'Administrator-Accounts können nicht gelöscht werden.';
 $string['usernotaddederror'] = 'Nutzer \"$a\" wurde nicht hinzugefügt - unbekannter Fehler';
 $string['usernotaddedregistered'] = 'Nutzer \"$a\" wurde nicht hinzugefügt - er/sie war bereits registriert.';
 $string['usernotavailable'] = 'Sie können die Details für diese/n Nutzer/in nicht einsehen.';
 $string['usernotdeletederror'] = 'Nutzer/in wurde nicht gelöscht - unbekannter Fehler';
 $string['usernotdeletedmissing'] = 'Nutzer/in wurde nicht gelöscht - Anmeldename wurde nicht gefunden';
+$string['usernotdeletedoff'] = 'Nutzer/in nicht gelöscht - Löschen ist nicht erlaubt.';
+$string['usernotrenamedadmin'] = 'Administrator-Accounts können nicht umbenannt werden.';
 $string['usernotrenamedexists'] = 'Nutzer/in wurde nicht umbenannt - der eingegebene Nutzername wird bereits verwendet.';
 $string['usernotrenamedmissing'] = 'Nutzer/in wurde nicht umbenannt - der alte Nutzername wurde nicht gefunden.';
-$string['usernotupdatederror'] = 'Nutzer/in wurde nicht aktualisiert - unbekannter Fehler';
+$string['usernotrenamedoff'] = 'Nutzer/in nicht umbenannt - Umbenennen ist nicht erlaubt.';
+$string['usernotupdatedadmin'] = 'Administrator-Accounts können nicht aktualisiert werden.';
+$string['usernotupdatederror'] = 'Nutzer/in nicht aktualisiert - unbekannter Fehler';
+$string['usernotupdatednotexists'] = 'Nutzer/in nicht aktualisiert - der Account existiert nicht.';
 $string['wrongdestpath'] = 'Falscher Pfad';
 $string['wrongsourcebase'] = 'Falsche URL-Quelle';
 $string['wrongzipfilename'] = 'Falscher ZIP-Dateiname';

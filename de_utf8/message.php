@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9 Beta + (2007082400)
+      // message.php - created with Moodle 1.9 Beta + (2007100903)
 
 
 $string['addcontact'] = 'Kontakt hinzufügen';
@@ -33,6 +33,7 @@ $string['message'] = 'Mitteilung';
 $string['messagehistory'] = 'Mitteilungen (Rückblick)';
 $string['messages'] = 'Mitteilungen';
 $string['messaging'] = 'Mitteilungen';
+$string['messagingdisabled'] = 'Bei dieser Website sind die Mitteilungen deaktiviert, aber es werden stattdessen E-Mails verschickt.';
 $string['mycontacts'] = 'Meine Kontakte';
 $string['newonlymsg'] = 'Nur neue anzeigen';
 $string['newsearch'] = 'Neue Suche';

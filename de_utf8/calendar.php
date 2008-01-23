@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 dev (2007062007)
+      // calendar.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['advancedoptions'] = 'Erweiterte Optionen';
@@ -18,7 +18,8 @@ $string['dayview'] = 'Tagesansicht';
 $string['daywithnoevents'] = 'Es gibt heute keine Termine.';
 $string['default'] = 'Grundeinstellung';
 $string['deleteevent'] = 'Termin löschen';
-$string['detailedmonthview'] = 'Monatsgesamtansicht';
+$string['deleteevents'] = 'Termine löschen';
+$string['detailedmonthview'] = 'Monatsansicht';
 $string['durationminutes'] = 'Dauer in Minuten';
 $string['durationnone'] = 'Ohne Zeitangabe';
 $string['durationuntil'] = 'Bis';
@@ -64,8 +65,8 @@ $string['globalevent'] = 'Allgemeiner Termin';
 $string['globalevents'] = 'Allgemeine Termine';
 $string['gotocalendar'] = 'Zum Kalender';
 $string['group'] = 'Gruppe';
-$string['groupevent'] = 'Termin meiner Gruppen';
-$string['groupevents'] = 'Termine meiner Gruppen';
+$string['groupevent'] = 'Gruppen-Termin';
+$string['groupevents'] = 'Gruppen-Termine';
 $string['hidden'] = 'verborgen';
 $string['ical'] = 'iCal';
 $string['iwanttoexport'] = 'Export';

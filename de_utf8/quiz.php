@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 Beta + (2007092001)
+      // quiz.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['1day'] = '1 Tag';
@@ -24,6 +24,7 @@ $string['addingrandom'] = 'Zufallsfrage hinzufügen';
 $string['addingrandomsamatch'] = 'Zufällige Kurzantwort-Zuordnung hinzufügen';
 $string['addingshortanswer'] = 'Kurzantwort-Frage hinzufügen';
 $string['addingtruefalse'] = 'Wahr-Falsch-Frage hinzufügen';
+$string['addmoreoverallfeedbacks'] = '[0} weitere Feedbackfelder hinzufügen';
 $string['addquestions'] = 'Fragen hinzufügen';
 $string['addquestionstoquiz'] = 'Fragen zu aktuellem Test hinzufügen';
 $string['addrandom'] = '$a Zufallsfrage(n)';
@@ -61,6 +62,9 @@ $string['attemptsallowed'] = 'Max. Zahl der Versuche';
 $string['attemptsdeleted'] = 'Die Testversuche wurden gelöscht.';
 $string['attemptselection'] = 'Welche Versuche pro Nutzer/in analysieren:';
 $string['attemptsexist'] = 'Sie können jetzt keine Fragen mehr hinzufügen oder entfernen.';
+$string['attemptsnum'] = 'Versuche: $a';
+$string['attemptsnumthisgroup'] = 'Versuche: $a->total ($a->group von dieser Gruppe)';
+$string['attemptsnumyourgroups'] = 'ersuche: $a->total ($a->group von Ihrer Gruppe)';
 $string['attemptsonly'] = 'Nur Teilnehmer/innen anzeigen, die bereits Versuche durchgeführt haben.';
 $string['attemptsunlimited'] = 'Unbegrenzte Zahl';
 $string['back'] = 'Zurück zur vorherigen Antwort';
@@ -74,6 +78,7 @@ $string['braceerror'] = 'Es fehlen {...} um die Antworten';
 $string['calculated'] = 'Berechnung';
 $string['calculatedquestion'] = 'Die Berechnungsfrage in Zeile $a wird nicht unterstützt. Die Frage wird ignoriert.';
 $string['cannotcreatepath'] = 'Pfad kann nicht angelegt werden ($a).';
+$string['cannoteditafterattempts'] = 'Sie können keineFrage hinzufügen oder entfernen, da bereits Testversuche registriert sind.';
 $string['cannotinsert'] = 'Frage kann nicht eingefügt werden.';
 $string['cannotopen'] = 'Exportdatei kann nicht geöffnet werden ($a).';
 $string['cannotread'] = 'Importdatei kann nicht geöffnet werden oder ist leer';
@@ -488,8 +493,10 @@ $string['reviewclosed'] = 'Wenn der Test abgeschlossen ist';
 $string['reviewimmediately'] = 'Direkt nach dem Versuch';
 $string['reviewnever'] = 'Überprüfung nicht zulassen';
 $string['reviewofattempt'] = 'Überprüfung des Versuchs $a';
+$string['reviewofpreview'] = 'Vorschauansicht überprüfen';
 $string['reviewopen'] = 'Später, während der Test noch geöffnet ist';
 $string['reviewoptions'] = 'Was sollen die Teilnehmer/innen zu welchem Zeitpunkt sehen';
+$string['reviewoptionsheading'] = 'Berichtsoptionen';
 $string['reviewresponse'] = 'Antwort wieder anzeigen';
 $string['rqp'] = 'Remote-Frage';
 $string['rqps'] = 'Remote-Fragen';
@@ -542,6 +549,7 @@ $string['stoponerror'] = 'Bei Fehler anhalten';
 $string['subneterror'] = 'Entschuldigung, der Zugang zum Test ist nur von bestimmten Rechnern möglich. Ihr Computer gehört nicht dazu und kann den Test daher nicht starten.';
 $string['subnetnotice'] = 'Der Zugang zum Test ist nur von bestimmten Rechnern möglich. Ihr Rechner hat dieses Recht nicht. Als Trainer/in können Sie jedoch von jedem Rechner aus zugreifen.';
 $string['substitutedby'] = 'wird ersetzt durch';
+$string['summaryofattempts'] = 'Zusammenfassung der vorherigen Versuche';
 $string['temporaryblocked'] = 'Sie können für einige Zeit keinen neuen Versuch durchführen. </br>Machen Sie einen weiteren Versuch ab:';
 $string['time'] = 'Zeit';
 $string['timecompleted'] = 'Beendet';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9 dev (2007072100)
+      // lesson.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['accesscontrol'] = 'Zugriffskontrolle';
@@ -62,6 +62,7 @@ $string['credit'] = 'Bewertung';
 $string['customscoring'] = 'Standardbewertung (Punkte)';
 $string['deadline'] = 'Verfügbar bis';
 $string['defaultessayresponse'] = 'Ihre Freitext-Antwort wird später bewertet.';
+$string['deleteallattempts'] = 'Alle Versuche der Lektion löschen';
 $string['deletedefaults'] = '$a x Lektionen gelöscht';
 $string['deletedpage'] = 'Seite gelöscht';
 $string['deleting'] = 'Lösche';

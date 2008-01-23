@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // block_online_users.php - created with Moodle 1.6.3 (2006050530)
+      // block_online_users.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['blockname'] = 'Online-Aktivitäten';
-$string['configtimetosee'] = 'Anzahl von Minuten, nach denen inaktive Nutzer/innen nicht mehr angezeigt werden';
+$string['configtimetosee'] = 'Wartezeit in Minuten, nach der inaktive Nutzer/innen nicht mehr in der Liste angezeigt werden.';
 $string['periodnminutes'] = 'in den letzten $a Minuten';
+$string['timetosee'] = 'Inaktivität (in Minuten)';
 
 ?>

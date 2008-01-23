@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8 Beta + (2007021501)
+      // survey.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['actual'] = 'Tatsächlich';
@@ -145,6 +145,8 @@ Es gibt keine \'richtigen\' oder \'falschen\' Antworten; wir sind nur an Ihrer M
 Wir werden Ihre Antworten sorgfältig durchdenken und daraus Schlüsse für die künftige Online-Präsentation dieses Themenbereichs ziehen. <br /> Herzlichen Dank!';
 $string['collespname'] = 'COLLES (bevorzugt)';
 $string['customintro'] = 'Einführungstext';
+$string['deleteallanswers'] = 'Alle Umfrageeinträge löschen';
+$string['deleteanalysis'] = 'Alle Auswertungen der Umfrageeinträge löschen';
 $string['done'] = 'Erledigt';
 $string['download'] = 'Herunterladen';
 $string['downloadexcel'] = 'Daten als Excel-Tabelle herunterladen';
@@ -174,6 +176,7 @@ $string['question'] = 'Frage';
 $string['questions'] = 'Fragen';
 $string['questionsnotanswered'] = 'Manche der Fragen mit Mehrfachantworten sind nicht beantwortet worden.';
 $string['report'] = 'Bericht zur Umfrage';
+$string['responses'] = 'Antworten';
 $string['savednotes'] = 'Ihre Anmerkungen wurden gespeichert';
 $string['scaleagree5'] = 'Lehne ich vollständig ab, lehne ich überwiegend ab, kaum Ablehnung, kaum Zustimmung, stimme überwiegend zu, bin völlig einverstanden';
 $string['scales'] = 'Skalen';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.7+ (2006101008)
+      // block_rss_client.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['addfeed'] = 'URL für Newsfeed hinzufügen';
@@ -25,22 +25,25 @@ $string['feeddeleted'] = 'Newsfeed gelöscht';
 $string['feeds'] = 'Newsfeeds';
 $string['feedsaddedit'] = 'Hinzufügen/Bearbeiten von Feeds';
 $string['feedsconfigurenewinstance'] = 'Klicken Sie hier, um den Block zur Anzeige von RSS-Feeds zu konfigurieren';
-$string['feedstitle'] = 'Zugriff auf RSS-Feeds';
+$string['feedstitle'] = 'RSS-Feeds';
 $string['feedupdated'] = 'Newsfeed aktualisiert';
 $string['findmorefeeds'] = 'Weitere RSS-Feeds suchen';
 $string['managefeeds'] = 'Alle meine Feeds bearbeiten';
 $string['nofeeds'] = 'Es sind keine Feeds für diese Seite definiert.';
+$string['numentries'] = 'Einträge pro Feed';
 $string['pickfeed'] = 'Newsfeed auswählen';
 $string['remotenewsfeed'] = 'Zugriff aus Newsfeed';
-$string['rss_client:createprivatefeeds'] = 'Private RSS-Feeds erstellen';
+$string['rss_client:createprivatefeeds'] = 'Persönliche RSS-Feeds erstellen';
 $string['rss_client:createsharedfeeds'] = 'RSS-Feeds erstellen und mit anderen teilen';
 $string['rss_client:manageanyfeeds'] = 'Alle RSS-Feeds verwalten';
-$string['rss_client:manageownfeeds'] = 'Nur eigene RSS-Feeds verwalten';
+$string['rss_client:manageownfeeds'] = 'Persönliche RSS-Feeds verwalten';
 $string['seeallfeeds'] = 'Alle Feeds anzeigen';
 $string['sharedfeed'] = 'Bereitgestellter Feed';
 $string['shownumentrieslabel'] = 'Höchstzahl der angezeigten Einträge pro Block:';
-$string['submitters'] = 'Wer hat die Berechtigung  zur Definition von Newsfeeds? Definierte Feeds können in allen Kursräumen genutzt werden.';
+$string['submitters'] = 'Wer hat die Berechtigung zur Definition von Newsfeeds? Definierte Feeds können in allen Kursräumen genutzt werden.';
+$string['submitters2'] = 'Antragsteller';
 $string['timeout'] = 'blockrsstimeout';
+$string['timeout2'] = 'Timeout';
 $string['timeoutdesc'] = 'Speicherdauer für RSS-Feeds im Cache';
 $string['updatefeed'] = 'URL zum Update des Newsfeed';
 $string['validatefeed'] = 'Feed prüfen';
