@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // forum.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
@@ -166,7 +166,7 @@ $string['nowtracking'] = '$a->name verfolgt nun das \'$a->forum\'.';
 $string['numposts'] = '$a Beiträge';
 $string['olderdiscussions'] = 'Ältere Diskussionen';
 $string['oldertopics'] = 'Ältere Beiträge';
-$string['oldpostdays'] = 'Lesen nach wieviel Tagen';
+$string['oldpostdays'] = 'Lesen nach wie viel Tagen';
 $string['openmode0'] = 'Keine neuen Themen, keine Antworten';
 $string['openmode1'] = 'Keine neuen Themen, aber Antworten erlaubt';
 $string['openmode2'] = 'Neue Themen und Antworten erlaubt';

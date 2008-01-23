@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // role.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
@@ -68,11 +68,11 @@ $string['globalrole'] = 'Globale Rolle';
 $string['globalroleswarning'] = 'WARNUNG! Jede Rolle, die Sie von dieser Seite aus zuweisen, wird für die zugewiesenen Nutzer/innen und die gesamte Website angelegt, also für wirklich alle Kurse und die Startseite.';
 $string['grade:edit'] = 'Bewertungen bearbeiten';
 $string['grade:export'] = 'Bewertungen exportieren';
-$string['grade:hide'] = 'Bewertungen anzeigen / verbergen';
+$string['grade:hide'] = 'Bewertungen oder Aspekte anzeigen / verbergen';
 $string['grade:import'] = 'Bewertungen importieren';
-$string['grade:lock'] = 'Bewertungen sperren';
+$string['grade:lock'] = 'Bewertungen oder Kategorien sperren';
 $string['grade:manage'] = 'Bewertungsaspekte verwalten';
-$string['grade:manageletters'] = 'Bewertungsziffern verwalten';
+$string['grade:manageletters'] = 'Bewertungsbuchstaben verwalten';
 $string['grade:manageoutcomes'] = 'Lernziele verwalten';
 $string['grade:override'] = 'Bewertungen ändern';
 $string['grade:unlock'] = 'Bewertungen oder Aspekte freigeben';

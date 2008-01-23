@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // moodle.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
@@ -87,7 +87,7 @@ $string['advancedsettings'] = 'Erweiterte Einstellungen';
 $string['again'] = 'noch einmal';
 $string['aimid'] = 'AIM';
 $string['ajaxno'] = 'Nein, nur Standardmöglichkeiten nutzen';
-$string['ajaxuse'] = 'JavaScript & AJAX';
+$string['ajaxuse'] = 'JavaScript / AJAX';
 $string['ajaxyes'] = 'Ja, die erweiterten Möglichkeiten nutzen';
 $string['all'] = 'Alle';
 $string['allactions'] = 'Alle Aktionen';
@@ -449,7 +449,7 @@ unter Verwendung Ihrer E-Mail-Adresse ist ein neuer Zugang zum Lernmanagementsys
 
 Kontrollieren Sie bitte zunächst, ob alle Zeichen der obigen Zeile in dem Link enthalten sind. Falls im Anmeldenamen ein Leerzeichen enthalten ist, kann der Link unterbrochen sein. Klicken Sie dann auf den Link und ergänzen Sie im Browser in der URL-Adresse die restlichen Zeichen des Links.
 
-Hinweise: In den meisten E-Mail-Programmen erscheint dieser Link blau, so dass Sie diesen anklicken können. Wenn dies nicht funktioniert, kopieren Sie bitte die komplette Adresse in die obere Zeile des Browser-Fensters. Wenn Sie Ihren Zugang nicht innerhalb einer Woche bestätigen, wird dieser wieder gelöscht. Sie müssen sich dann neu registrieren. 
+Hinweise: In den meisten E-Mail-Programmen ist dieser Link aktiv, so dass Sie ihn anklicken können. Wenn dies nicht funktioniert, kopieren Sie bitte die komplette Adresse in die obere Zeile des Browser-Fensters. Wenn Sie den Zugang nicht bestätigen, wird er automatisch gelöscht.
 
 Sollte die Anmeldung nicht von Ihnen stammen, können Sie diese E-Mail ignorieren.
 
@@ -1075,7 +1075,7 @@ $string['numattempts'] = '$a gescheiterte Anmeldeversuche';
 $string['numberweeks'] = 'Anzahl der Wochen/Themen';
 $string['numdays'] = '$a Tage';
 $string['numhours'] = '$a Stunden';
-$string['numletters'] = '$a Beiträge';
+$string['numletters'] = '$a Zeichen';
 $string['numminutes'] = '$a Minuten';
 $string['nummonths'] = '$a Monate';
 $string['numseconds'] = '$a Sekunden';

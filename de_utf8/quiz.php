@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // quiz.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
@@ -214,6 +214,7 @@ $string['event8'] = 'Schließen';
 $string['event9'] = 'Freitext-Bewertung';
 $string['examview'] = 'Examview';
 $string['export'] = 'Export';
+$string['exportcategory'] = 'Exportkategorie';
 $string['exporterror'] = 'Beim Export ist ein Fehler aufgetreten.';
 $string['exportfilename'] = 'quiz';
 $string['exportingquestions'] = 'Die Fragen werden in eine Exportdatei übertragen.';

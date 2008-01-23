@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // error.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
@@ -8,6 +8,7 @@ $string['cannotcreatelangdir'] = 'Verzeichnis \"lang\" kann nicht angelegt werde
 $string['cannotcreatetempdir'] = 'Temporäres Verzeichnis kann nicht angelegt werden.';
 $string['cannotcustomizelocallang'] = 'Sie haben keine Berechtigung, die Übersetzung im lokalen Sprachpaket anzupassen. Diese Berechtigung wird durch das Recht \"moodle/site:langeditlocal\" kontrolliert. Setzen Sie dieses Recht auf \"Erlauben\", um das lokale Sprachpaket für Ihre Website bearbeiten zu können.';
 $string['cannotdownloadcomponents'] = 'Komponenten können nicht heruntergeladen werden.';
+$string['cannotdownloadlanguageupdatelist'] = 'Die Liste der Sprachupdates konnte nicht von download.moodle.org herunter geladen werden.';
 $string['cannotdownloadzipfile'] = 'ZIP-Datei kann nicht heruntergeladen werden.';
 $string['cannoteditmasterlang'] = 'Sie haben keine Berechtigung, die Übersetzung im offiziellen Sprachpaket zu bearbeiten. Diese Berechtigung wird durch das Recht \"moodle/site:langeditmaster\" kontrolliert. Setzen Sie dieses Recht auf \"Erlauben\", um das offizielle Sprachpaket als Maintainer bearbeiten zu können.';
 $string['cannotfindcomponent'] = 'Komponente wurde nicht gefunden.';
@@ -48,11 +49,14 @@ $string['guestnoeditprofileother'] = 'Das Profil für Gäste kann nicht bearbeit
 $string['invalidcourse'] = 'Ungültiger Kurs';
 $string['invalidfieldname'] = '\"$a\" ist ein ungültiger Feldname.';
 $string['invalidfiletype'] = '\"$a\" ist ein unzulässiger Dateityp.';
+$string['invalidipformat'] = 'Ungültiges IP-Adressformat';
 $string['invalidmd5'] = 'md5 ungültig';
 $string['invalidrequest'] = 'Ungültige Abfrage';
 $string['invalidrole'] = 'Ungültige Rolle';
 $string['invalidurl'] = 'Ungültige URL';
 $string['invalidxmlfile'] = '\"$a\" ist eine ungültige XML-Datei.';
+$string['iplookupfailed'] = 'Es konnten keine Geo-Informationen zu dieser IP-Adresse gefunden werden.';
+$string['iplookupprivate'] = 'Private IP-Adressen können nicht nachgeschlagen werden.';
 $string['listcantmovedown'] = 'Fehler beim Verschieben nach unten, denn zu diesem Element existieren keine Gleichen (Peers).';
 $string['listcantmoveleft'] = 'Fehler beim Verschieben des Elements nach links, denn es besitzt keine Vorgänger (Parents).';
 $string['listcantmoveright'] = 'Fehler beim Verschieben des Elements nach rechts, denn es existiert kein Gleiches (Peer), um dieses zum Nachfolger zu machen. Bewegen Sie das Element zuerst unter ein anderes Gleiches (Peer), danach wird das Bewegen nach rechts möglich sein.';
@@ -82,6 +86,7 @@ $string['pagenotexist'] = 'Ein unerwarteter  Fehler ist aufgetreten (Versuch, ei
 $string['pleasereport'] = 'Wenn Sie etwas Zeit haben, informieren Sie uns bitte darüber, was Sie versucht haben, bevor der Fehler auftrat.';
 $string['pluginrequirementsnotmet'] = 'Das Plugin \"$a->pluginname\" ($a->pluginversion) konnte nicht installiert werden. Es erfordert eine neuere Version von Moodle (Sie verwenden zur Zeit Version $a->currentmoodle - benötigt wird aber Version $a->requiremoodle).';
 $string['processingstops'] = 'Der Prozess wurde an dieser Stelle gestoppt. Verbleibende Schritte wurden nicht mehr durchgeführt.';
+$string['remotedownloaderror'] = 'Der Download auf Ihren Server konnte nicht ausgeführt werden. Prüfen Sie bitte die Proxy-Einstellungen, die PHP CURL Erweiterung wird dringend empfohlen.<br /><br />Die Datei <a href=\"$a->url\">$a->url</a> muss nun manuell herunter geladen, entpackt und auf den Server nach \"$a->dest\" kopiert werden. there.';
 $string['remotedownloadnotallowed'] = 'Der Download von Komponenten auf Ihren Server ist nicht erlaubt (allow_url_fopen ist deaktiviert). <br /><br /> Die Datei <a href=\"$a->url\">$a->url</a> muss manuell heruntergeladen werden. Kopieren Sie die Datei nach \"$a->dest\" auf Ihren Server und entpacken Sie sie dort.';
 $string['restricteduser'] = 'Entschuldigung, Sie sind gegenwärtig nicht zu dieser Aktion berechtigt.';
 $string['scheduledbackupsdisabled'] = 'Automatisch terminierte Backups wurden vom  Admin des Servers deaktiviert.';

@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9 Beta + (2007100903)
+﻿<?PHP // $Id$ 
+      // xmldb.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['aftertable'] = 'Nach Tabelle:';
@@ -9,7 +9,7 @@ $string['binaryincorrectlength'] = 'Falsche Feldlänge (binary)';
 $string['cannotuseidfield'] = 'Feld \'id\' kann nicht eingefügt werden. Es handelt sich um eine Spalte, die automatisch nummeriert wird.';
 $string['change'] = 'Ändern';
 $string['charincorrectlength'] = 'Falsche Feldlänge (char)';
-$string['check_bigints'] = 'Nach falschen DB-Werten suchen';
+$string['check_bigints'] = 'Ungültige DB-Werten suchen';
 $string['check_indexes'] = 'Fehlende Datenbank-Indizes suchen';
 $string['checkbigints'] = 'Zahlen prüfen';
 $string['checkindexes'] = 'Indizes prüfen';
@@ -42,8 +42,7 @@ $string['delete_table'] = 'Tabelle löschen';
 $string['delete_xml_file'] = 'XML-Datei löschen';
 $string['down'] = 'Nach unten';
 $string['duplicate'] = 'Kopieren';
-$string['duplicatefieldname'] = 'Es existiert bereits ein anderes Feld mit diesem Namen.';
-$string['duplicatekeyname'] = 'Es existiert bereits ein anderer Schlüssel mit diesem Namen';
+$string['duplicatefieldname'] = 'Es existiert bereits ein anderes Feld mit diesem Namen';
 $string['edit'] = 'Bearbeiten';
 $string['edit_field'] = 'Feld bearbeiten';
 $string['edit_index'] = 'Index bearbeiten';
@@ -52,15 +51,14 @@ $string['edit_sentence'] = 'Satz bearbeiten';
 $string['edit_statement'] = 'Anweisung bearbeiten';
 $string['edit_table'] = 'Tabelle bearbeiten';
 $string['edit_xml_file'] = 'XML-Datei bearbeiten';
-$string['enumvaluesincorrect'] = 'Falsche Feldwerte (enum)';
+$string['enumvaluesincorrect'] = 'Ungültige Feldwerte (enum)';
 $string['field'] = 'Feld';
 $string['fieldnameempty'] = 'Feldname ist leer';
 $string['fields'] = 'Felder';
-$string['fieldsusedinkey'] = '[[unvollständiger Sprachstring in Zeile \' . __LINE__ . \' in \' . __FILE__ . \']]';
-$string['filenotwriteable'] = 'Die Datei ist nicht beschreibbar';
+$string['filenotwriteable'] = 'Datei ist schreibgeschützt';
 $string['floatincorrectdecimals'] = 'Falsche Anzahl von Nachkommazahlen (float)';
 $string['floatincorrectlength'] = 'Falsche Feldlänge (float)';
-$string['gotolastused'] = 'Gehe zur zuletzt genutzten Datei.';
+$string['gotolastused'] = 'Zur zuletzt genutzten Datei';
 $string['incorrectfieldname'] = 'Falscher Name';
 $string['index'] = 'Index';
 $string['indexes'] = 'Indizes';
@@ -88,7 +86,7 @@ $string['newstatement'] = 'Neue Anweisung';
 $string['newtable'] = 'Neue Tabelle';
 $string['newtablefrommysql'] = 'Neue Tabelle aus MySQL';
 $string['nomissingindexesfound'] = 'Es wurden keine fehlenden Indizes gefunden. Die Datenbank benötigt keine weitere Bearbeitung.';
-$string['nowrongintsfound'] = 'Es wurden keine falschen integer-Werte gefunden. Die Datenbank benötigt keine weitere Bearbeitung.';
+$string['nowrongintsfound'] = 'Es wurden keine ungültigen Zahlenwerte (integer) gefunden. Die Datenbank benötigt keine weitere Bearbeitung.';
 $string['numberincorrectdecimals'] = 'Falsche Anzahl von Stellen (number)';
 $string['numberincorrectlength'] = 'Falsche Feldlänge (number)';
 $string['reserved'] = 'Reserviert';
@@ -130,6 +128,8 @@ $string['wrongnumberoffieldsorvalues'] = 'Falsche Anzahl von Feldern oder Werten
 $string['wrongreservedwords'] = 'Derzeit verwendete reservierte Wörter <br />(die Tabellennamen sind nicht wichtig, wenn $CFG->prefix genutzt wird)';
 $string['yesmissingindexesfound'] = 'Einige fehlende Indizes wurden in Ihrer Datenbank gefunden. Es folgen genauere Einzelheiten und die nötigen SQL-Anweisungen, die Sie mit Ihrem bevorzugten SQL-Werkzeug ausführen müssen, um alle Indizes zu erzeugen.<br /><br />
 Es wird dringend empfohlen, die Suche nach fehlenden Indizes danach noch einmal auszuführen.';
-$string['yeswrongintsfound'] = 'In Ihrer Datenbank wurden mehrere ungültige Werte gefunden. Es folgen die Details und die benötigten SQL-Befehle, die Sie in Ihrer bevorzugten SQL-Oberfläche ausführen müssen, um die Fehler zu beheben (vergessen Sie bitte nicht, vor der Korrektur eine Sicherungskopie Ihrer Daten anzulegen!!)<br /><br />Nach der Ausführung wird dringend empfohlen, dieses Werkzeug erneut aufzurufen, um sicher zu stellen, dass keine ungültige Werte mehr gefunden werden.';
+$string['yeswrongintsfound'] = 'In Ihrer Datenbank wurden mehrere ungültige Zahlenwerte gefunden. Es folgen die Details und die benötigten SQL-Befehle, die Sie in Ihrer bevorzugten SQL-Oberfläche ausführen müssen, um die Fehler zu beheben (vergessen Sie bitte nicht, vor der Korrektur eine Sicherungskopie Ihrer Daten anzulegen!!)<br /><br />Nach der Ausführung wird dringend empfohlen, dieses Werkzeug erneut aufzurufen, um sicher zu stellen, dass keine ungültige Zahlenwerte mehr gefunden werden.';
+$string['duplicatekeyname'] = 'Es existiert bereits ein anderer Schlüssel mit diesem Namen'; // ORPHANED
+$string['fieldsusedinkey'] = '[[unvollständiger Sprachstring in Zeile \' . __LINE__ . \' in \' . __FILE__ . \']]'; // ORPHANED
 
 ?>
