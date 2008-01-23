@@ -680,7 +680,7 @@ $string['uploadusersresult'] = 'Enviar resultados de utilizadores';
 $string['upwards'] = 'Para cima';
 $string['usehtmleditor'] = 'Usar editor HTML';
 $string['useraccountupdated'] = 'Utilizador actualizado';
-$string['userbulk'] = 'Acções de blocos de utilizadores';
+$string['userbulk'] = 'Alterações colectivas';
 $string['userdeleted'] = 'Utilizador eliminado';
 $string['userlist'] = 'Ver lista de utilizadores';
 $string['userpolicies'] = 'Políticas de utilizadores';
@@ -721,4 +721,3 @@ $string['webproxyinfo'] = 'Preencha as seguintes definições se o seu servidor 
 $string['xmlstrictheaders'] = 'Cabeçalhos XML estritos';
 
 ?>
-
