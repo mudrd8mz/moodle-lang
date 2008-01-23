@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta + (2007092001)
+      // tag.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['addtagtomyinterests'] = '\"$a\" zu meinen Interessen hinzufügen';
@@ -14,8 +14,8 @@ $string['edittag'] = 'Dieses Schlagwort bearbeiten';
 $string['flag'] = 'Markieren';
 $string['flagasinappropriate'] = 'Als unpassend markieren';
 $string['helprelatedtags'] = 'Kommagetrennte, zusammenpassende Schlagworte';
-$string['id'] = 'id';
-$string['managetags'] = 'Schlagworte verwalten';
+$string['id'] = 'ID';
+$string['managetags'] = 'Schlagworte';
 $string['name'] = 'Schlagwort';
 $string['namesalreadybeeingused'] = 'Bereits genutzte Schlagworte';
 $string['newname'] = 'Neues Schlagwort';
