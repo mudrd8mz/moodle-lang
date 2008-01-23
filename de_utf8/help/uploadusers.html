@@ -4,17 +4,17 @@
 Einrichtung von Zugängen durch die Teilnehmer selbst zu nutzen. Weitere Hinweise dazu finden Sie im Bereich Anmeldung /Authentifizierung im Administrationsmenü.</p>
 
 <h3>Felder in der Importdatei</h3>
-<p>Wenn Sie dennoch eine große Zahl von Nutzern aus einer Textdatei importieren wollen, müssen Sie die Textdatei folgendermaßen aufbauen:</p>
+<p>Wenn Sie dennoch eine große Zahl von Nutzer/innen aus einer Textdatei importieren wollen, müssen Sie die Textdatei folgendermaßen aufbauen:</p>
 <ul>
 <li>Jede Zeile der Datei enthält genau einen einzelnen Datensatz</li>
-<li>Jeder Datensatz besteht aus einer Reihe von Datenfeldern, die durch Kommas getrennt sind.</li>
-<li>Der erste Datensatz der Datei (erste Zeile) enthält eine Liste der Feldnamen. Diese Zeile legt das Format der restlichen Zeilen fest. Die Feldnamen entsprechen den Datensätzen, die im Anmeldeformular in der Datenbank genutzt werden.
+<li>Jeder Datensatz besteht aus einer Reihe von Daten, die durch Kommas getrennt sind.</li>
+<li>Der erste Datensatz der Datei (die erste Zeile in der Datei) enthält eine Liste der Feldnamen. Diese Zeile legt das Format der restlichen Zeilen fest. Die Feldnamen entsprechen den Datenfelder in der Nutzertabelle der Moodle-Datenbank.
 
-<p><strong>Erforderliche Datenfeldnamen:</strong> Diese Datenfeldnamen müssen in der ersten Zeile eingetragen werden und für jeden Nutzer definiert werden</p>
+<p><strong>Erforderliche Datenfeldnamen:</strong> Diese Datenfeldnamen müssen in der ersten Zeile eingetragen und für jede/n Nutzer/in definiert werden</p>
 
 <p><code class="example1">username, password, firstname, lastname, email</code></p>
 
-<p><strong>Voreingestellte Datenfeldnamen:</strong> Diese sind optional - wenn sie nicht eingebunden werden, werden die Werte für diese Felder vom Basiseintrag übernommen, die bei jeder
+<p><strong>Voreingestellte Datenfeldnamen:</strong> Diese sind optional - wenn sie nicht im ersten Datensatz (erste Zeile der Importdatei) eingebunden werden, werden für diese Datenfelder Standardwerte verwendet, die die Moodle Adminstration bei der Konfiguration der Website festlegt.die StandardWerte für diese Felder vom Basiseintrag übernommen, die bei jeder
 Neuanmeldung voreingestellt sind. (Der Spracheintrag für Deutsch lautet 'de'. Der Kursname 'course' ist die Kurzbezeichnung für den Kurs. Wird dieser angegeben, wird der/die Teilnehmer/in automatisch in den Kurs eingetragen. Die Nummerierung der Gruppen entspricht der Nummerierung der Kurse, also Kurs1 -> Gruppe1.)</p>
 
 <p><code class="example1">institution, department, city, country, lang, auth, timezone</code></p>
