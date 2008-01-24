@@ -979,7 +979,7 @@ $string['newusernewpasswordtext'] = '\'$a->sitename\'에 새 계정이 생성되
 $a->signoff';
 $string['newusers'] = '새 사용자들';
 $string['newwindow'] = '새 창';
-$string['next'] = '다음으로';
+$string['next'] = '다음';
 $string['nextsection'] = '다음 분야';
 $string['no'] = '아니오';
 $string['nobody'] = '아무도 없음';
