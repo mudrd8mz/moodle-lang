@@ -2,6 +2,7 @@
       // moodle.php - created with Moodle 2.0 dev (2007101506)
 
 
+$string['abouttobeinstalled'] = 'インストールされます';
 $string['action'] = '操作';
 $string['actions'] = '操作';
 $string['active'] = 'アクティブ';
@@ -388,6 +389,7 @@ $string['description'] = '説明';
 $string['deselectall'] = 'すべての選択を解除';
 $string['detailedless'] = '一覧表示';
 $string['detailedmore'] = '詳細表示';
+$string['directory'] = 'ディレクトリ';
 $string['directorypaths'] = 'ディレクトリパス';
 $string['disable'] = 'No';
 $string['displayingfirst'] = '最初の $a->count $a->things のみ表示されます。';
