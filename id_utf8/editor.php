@@ -1,7 +1,37 @@
 <?PHP // $Id$ 
       // editor.php - created with Moodle 1.2.1 (2004032500)
 
-
+$string['alertnoselectedtext'] = 'Anda harus memilih teks terlebih dahulu!';
+$string['anchorhelp'] = 'Ini hanya membuat anchor. Anda harus membuat link secara manual.';
+$string['anchorname'] = 'Namaanchor';
+$string['anchors'] = 'Anchor';
+$string['closeafterreplace'] = 'Tutup setelah mengganti';
+$string['createanchor'] = 'Buat anchor';
+$string['cutpastemozilla'] = 'Sayang sekali, Anda tidak dapat menggunakan keyboard shortcut yang biasanya (Termasuk Paste(Ctrl+V)) untuk menambahkan teks ke dalam editor online ini. Ini karena adanya fitur keamanan yang termasuk dalam beberapa versi Mozilla dan Firefox browser.<br /><br />Ada tiga cara yang dapat Anda coba: <br /> (1) Gunakan SHIFT-Insert <br /> (2) Gunakan menu Edit->Paste dalam browser Anda<br /> (3) Ganti preferensi browser Anda dengan mengedit file user.js. <br /><br />Klik tombol OK di bawah ini, untuk bantuan lebih lanjut, atau Batal untuk kembali ke editor.';
+$string['enterurlfirst'] = 'Anda harus memasukkan URL terlebih dahulu';
+$string['findwhat'] = 'Cari';
+$string['fontname'] = 'Nama huruf';
+$string['fontsize'] = 'Ukuran-huruf';
+$string['formatblock'] = 'Format';
+$string['fullscreen'] = 'Buat editor berlayar penuh';
+$string['itemsreplaced'] = 'item telah diganti!';
+$string['lang'] = 'Bahasa';
+$string['lefttoright'] = 'Dari kiri ke kanan';
+$string['matchcase'] = 'Cocokkan besar kecil';
+$string['minimize'] = 'Perkecil editor';
+$string['multi'] = 'Multi';
+$string['mustenterurl'] = 'Anda harus memasukkan URL';
+$string['nolink'] = 'Cegah linking otomatis';
+$string['options'] = 'Opsi';
+$string['pleaseenteralt'] = 'Harap masukkan teks alternatif';
+$string['regularexpressions'] = 'Gunakan ekspresi regular';
+$string['replaceall'] = 'Ganti semua';
+$string['replacewith'] = 'Ganti';
+$string['righttoleft'] = 'Dari kanan ke kiri';
+$string['searchandreplace'] = 'Cari dan ganti';
+$string['searchnotfound'] = 'Pencarian string Tidak Ditemukan!';
+$string['selectcolor'] = 'Pilih warna';
+$string['wordclean'] = 'Hapus Word HTML';
 $string['about'] = 'Tentang editor ini';
 $string['absbottom'] = 'Bawah Absolut';
 $string['middle'] = 'Tengah Absolut';
