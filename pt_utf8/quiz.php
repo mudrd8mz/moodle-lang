@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (2007101506)
+      // quiz.php - created with Moodle 2.0 dev (2007101507)
 
 
 $string['1day'] = '1 Dia';
@@ -225,16 +225,16 @@ $string['exportname'] = 'Nome do ficheiro';
 $string['exportnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['exportquestions'] = 'Exportar perguntas para ficheiro';
 $string['false'] = 'Falso';
-$string['feedback'] = 'Diagnóstico';
-$string['feedbackerrorboundaryformat'] = 'As notas fronteira para o diagnóstico deverão ser ou números ou percentagens. O valor $a que indicou para a fronteira não foi reconhecido.';
-$string['feedbackerrorboundaryoutofrange'] = 'As notas fronteira para o diagnóstico deverão estar entre 0%% e 100%%. O valor $a que indicou para a fronteira encontra-se fora desse intervalo.';
-$string['feedbackerrorjunkinboundary'] = 'Tem que preencher os campos de notas fronteira para o diagnóstico, sem deixar nenhum em branco.';
-$string['feedbackerrorjunkinfeedback'] = 'Tem que preencher os campos de diagnóstico, sem deixar nenhum em branco.';
-$string['feedbackerrororder'] = 'As notas fronteira para o diagnóstico deverão estar em ordem, a começar pelas mais altas. O valor que indicou na fronteira $a encontra-se fora da sequência.';
+$string['feedback'] = 'Comentários';
+$string['feedbackerrorboundaryformat'] = 'As notas fronteira para os comentários deverão ser ou números ou percentagens. O valor $a que indicou para a fronteira não foi reconhecido.';
+$string['feedbackerrorboundaryoutofrange'] = 'As notas fronteira para os comentários deverão estar entre 0%% e 100%%. O valor $a que indicou para a fronteira encontra-se fora desse intervalo.';
+$string['feedbackerrorjunkinboundary'] = 'Tem que preencher os campos de notas fronteira para os comentários, sem deixar nenhum em branco.';
+$string['feedbackerrorjunkinfeedback'] = 'Tem que preencher os campos de cometários, sem deixar nenhum em branco.';
+$string['feedbackerrororder'] = 'As notas fronteira para os comentários deverão estar em ordem, a começar pelas mais altas. O valor que indicou na fronteira $a encontra-se fora da sequência.';
 $string['file'] = 'ficheiro';
 $string['fileformat'] = 'Formato do ficheiro';
 $string['fillcorrect'] = 'Preencher com a correcta(s)';
-$string['filloutnumericalanswer'] = 'Indica-se pelo menos uma resposta possível e a tolerância. A primeira resposta a coincidir será usada para calcular a pontuação e o diagnóstico. Se escrever algum diagnóstico no fim sem resposta, será apresentado aos alunos com respostas que não coincidem com nenhuma das outras respostas.';
+$string['filloutnumericalanswer'] = 'Indica-se pelo menos uma resposta possível e a tolerância. A primeira resposta a coincidir será usada para determinar a pontuação e o comentário. Se escrever algum comentário no fim sem resposta, será apresentado aos alunos com respostas que não coincidem com nenhuma das outras respostas.';
 $string['filloutoneanswer'] = 'Tem que preencher pelo menos uma possível resposta. Respostas em branco não serão consideradas.';
 $string['filloutthreequestions'] = 'Terá que preencher pelo menos três perguntas. Respostas a branco não serão usadas.';
 $string['fillouttwochoices'] = 'Tem que preencher pelo menos duas escolhas. Respostas em branco não serão consideradas.';
@@ -255,7 +255,7 @@ $string['functiontakesnoargs'] = 'A função $a  não aceita argumentos';
 $string['functiontakesonearg'] = 'A função $a exige exactamente um argumento';
 $string['functiontakesoneortwoargs'] = 'A função $a tem que ter ou um ou dois argumentos';
 $string['functiontakestwoargs'] = 'A função $a exige dois argumentos';
-$string['generalfeedback'] = 'Diagnóstico geral';
+$string['generalfeedback'] = 'Comentário geral';
 $string['generatevalue'] = 'Gerar um novo valor entre';
 $string['geometric'] = 'Geométrico';
 $string['gift'] = 'Formato GIFT';
@@ -385,7 +385,7 @@ $string['onlyteachersimport'] = 'Unicamente docentes com permissão de edição 
 $string['openclosedatesupdated'] = 'Datas de abertura e fecho do teste actualizadas';
 $string['optional'] = 'opcional';
 $string['outof'] = '$a->grade sobre o máximo $a->maxgrade';
-$string['overallfeedback'] = 'Diagnóstico geral';
+$string['overallfeedback'] = 'Comentário geral';
 $string['overdue'] = 'Fora de prazo';
 $string['pagesize'] = 'Numero de tentativas mostradas por página';
 $string['paragraphquestion'] = 'Na linha $a, não são permitidas perguntas de parágrafo. A pergunta será ignorada.';
