@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101506)
+      // moodle.php - created with Moodle 2.0 dev (2007101507)
 
 
+$string['abouttobeinstalled'] = 'a ponto de ser instalado';
 $string['action'] = 'Acção';
 $string['actions'] = 'Acções';
 $string['active'] = 'Activa(o)';
@@ -98,6 +99,7 @@ $string['allfieldsrequired'] = 'Todos os campos são obrigatórios';
 $string['allfiles'] = 'Todos os ficheiros';
 $string['allgroups'] = 'Todos os grupos';
 $string['alllogs'] = 'Todas as estatísticas de acesso';
+$string['allmods'] = 'Todos os $a';
 $string['allow'] = 'Permitir';
 $string['allowguests'] = 'Esta disciplina permite acesso a todos os utilizadores';
 $string['allowinternal'] = 'Permitir também métodos internos';
@@ -386,6 +388,7 @@ $string['description'] = 'Descrição';
 $string['deselectall'] = 'Não seleccionar nenhum';
 $string['detailedless'] = 'Menos detalhes';
 $string['detailedmore'] = 'Mais detalhes';
+$string['directory'] = 'Directório';
 $string['directorypaths'] = 'Caminho dos directórios';
 $string['disable'] = 'Desactivar';
 $string['displayingfirst'] = 'Apenas o(s) primeiro(s) $a->count $a->things são apresentados';
@@ -655,19 +658,13 @@ $string['general'] = 'Geral';
 $string['gettheselogs'] = 'Obter estes registos';
 $string['go'] = 'Executar';
 $string['gotoyourserver'] = '(aponta de volta para o seu servidor)';
-$string['gpl'] = 'Copyright (C) 2001-2002 Martin Dougiamas (http://dougiamas.com)
+$string['gpl'] = 'Copyright (C) 1999 e posteriores, Martin Dougiamas (http://moodle.com)
 
-Este programa é software livre; pode redistribuí-lo e/ou
-modificá-lo sob os termos da Licença Pública Geral GNU, conforme
-publicada pela Free Software Foundation; tanto a versão 2 da
-Licença como (a seu critério) qualquer versão mais nova.
+Este programa é software livre; pode redistribuí-lo e/ou modificá-lo sob os termos da Licença Pública Geral GNU, conforme publicada pela Free Software Foundation; tanto a versão 2 da Licença como (a seu critério) qualquer versão mais nova.
 
-Este programa é distribuído com a esperança de que seja útil, mas
-SEM QUALQUER GARANTIA; sem mesmo a garantia implícita de
-COMERCIALIZAÇÃO ou de ADEQUAÇÃO A QUALQUER PROPÓSITO EM
-PARTICULAR.
+Este programa é distribuído com a esperança de que seja útil, mas SEM QUALQUER GARANTIA; sem mesmo a garantia implícita de COMERCIALIZAÇÃO ou de ADEQUAÇÃO A QUALQUER PROPÓSITO EM PARTICULAR.
 
-Para mais informações, consulte a página de informação sobre a licença do Moodle:
+Para ver os pormenores, consulte a página da Licença do Moodle:
 
 http://docs.moodle.org/en/License';
 $string['grade'] = 'Nota';
@@ -898,6 +895,7 @@ $string['missingcountry'] = 'Falta o país';
 $string['missingdescription'] = 'Falta a descrição';
 $string['missingemail'] = 'Falta o endereço de correio';
 $string['missingfirstname'] = 'Falta o nome';
+$string['missingfromdisk'] = 'Em falta no disco';
 $string['missingfullname'] = 'Falta o nome completo';
 $string['missinglastname'] = 'Falta o apelido';
 $string['missingname'] = 'Falta o nome completo';
@@ -1027,6 +1025,7 @@ $string['nomoreidnumber'] = 'A não usar um número de identificação, para evi
 $string['none'] = 'Nenhum';
 $string['noneditingteacher'] = 'Professor não editor';
 $string['noneditingteacherdescription'] = 'Os professores não editores poderão leccionar numa disciplina e atribuir classificações aos alunos, mas não poderão modificar as actividades.';
+$string['nonstandard'] = 'Não padrão';
 $string['nopendingcourses'] = 'Não existem disciplinas a espera de aprovação';
 $string['nopotentialadmins'] = 'Nenhum candidato a administrador';
 $string['nopotentialcreators'] = 'Nenhum candidato a criador de disciplina';
@@ -1131,6 +1130,9 @@ $string['phone'] = 'Telefone';
 $string['phpinfo'] = 'PHP info';
 $string['pictureof'] = 'Imagem de $a';
 $string['pleaseclose'] = 'Por favor feche esta janela já.';
+$string['plugincheck'] = 'Teste dos plugins';
+$string['pluginchecknotice'] = 'As tabelas seguintes mostram os módulos, blocos e filtros que foram detectados na sua instalação actual do Moodle.
+Estão indicados os plugins padrão e os que não são. Todos os plugins que não forem padrão, deverão ser testados eactualizados para a versão mais recente antes de continuar com a actualização do Moodle.';
 $string['pluginsetup'] = 'A configurar tabelas de plugins';
 $string['policyaccept'] = 'Compreendo e concordo';
 $string['policyagree'] = 'Deverá aceitar este regulamento para poder proceder a utilizar este sítio. Aceita o regulamento?';
@@ -1230,6 +1232,8 @@ $string['rsserror'] = 'Erro na leitura de dados RSS';
 $string['rsstype'] = 'Listagem RSS para esta actividade';
 $string['saveandnext'] = 'Gravar e mostrar o seguinte';
 $string['savechanges'] = 'Gravar alterações';
+$string['savechangesanddisplay'] = 'Gravar alterações e mostrar';
+$string['savechangesandreturntocourse'] = 'Gravar alterações e regresar à disciplina';
 $string['savedat'] = 'Gravado em:';
 $string['savepreferences'] = 'Gravar preferências';
 $string['saveto'] = 'Gravar para';
@@ -1333,6 +1337,7 @@ $string['someerrorswerefound'] = 'Alguma informação incorrecta ou em falta. Ve
 $string['sortby'] = 'Ordenar por';
 $string['sourcerole'] = 'Cargo atribuído na fonte';
 $string['specifyname'] = 'Tem que especificar um nome.';
+$string['standard'] = 'Padrão';
 $string['starpending'] = '([*] =disciplina a espera de aprovação)';
 $string['startdate'] = 'Data de início da disciplina';
 $string['startingfrom'] = 'A começar em';
@@ -1436,7 +1441,7 @@ $string['toeveryone'] = 'para todos';
 $string['toomanybounces'] = 'Esse endereço de correio tem devolvido demasiadas mensagens. <strong>Deverá modificá-lo</strong> para poder continuar.';
 $string['toomanytoshow'] = 'Há demasiados utilizadores para mostrar';
 $string['toonly'] = 'unicamente para $a';
-$string['top'] = 'Cima';
+$string['top'] = 'Topo';
 $string['topic'] = 'Tópico';
 $string['topichide'] = 'Esconda este tópico de $a';
 $string['topicoutline'] = 'Lista de tópicos';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (2007101506)
+      // assignment.php - created with Moodle 2.0 dev (2007101507)
 
 
 $string['allowdeleting'] = 'Permitir apagar';
@@ -26,6 +26,7 @@ $string['comment'] = 'Comentário';
 $string['commentinline'] = 'Comentar em linha';
 $string['configitemstocount'] = 'Natureza dos pontos a ser tidos em conta nos trabalhos em-linha enviados pelos alunos.';
 $string['configmaxbytes'] = 'Tamanho máximo, por omissão, de todos os trabalhos enviados para o servidor (sujeito a limites de cada disciplina e limites locais)';
+$string['configshowrecentsubmissions'] = 'Todos podem ver as notificações de ficheiros enviados nos relatórios de actividade recente.';
 $string['confirmdeletefile'] = 'tem a certeza que pretende eliminar este ficheiro? <br /><strong>$a</strong>';
 $string['deleteallsubmissions'] = 'Apagara todos os envios';
 $string['deletefilefailed'] = 'A eliminação do ficheiro falhou';
@@ -71,6 +72,7 @@ $string['noassignments'] = 'Ainda não existem trabalhos';
 $string['noattempts'] = 'Não têm sido feita nenhuma tentativa neste trabalho';
 $string['nofiles'] = 'Nenhum ficheiro enviado';
 $string['nofilesyet'] = 'Ainda nenhum ficheiro foi enviado';
+$string['nosubmitusers'] = 'Não foram encontrados utilizadores com autorização para enviar este tabalho';
 $string['notavailableyet'] = 'Este trabalho ainda não está disponível.<br />O trabalho será apresentado aqui na data indicada em baixo.';
 $string['notes'] = 'Notas';
 $string['notesempty'] = 'Sem entrada';
@@ -86,6 +88,7 @@ $string['responsefiles'] = 'Ficheiros de resposta';
 $string['reviewed'] = 'Revisto';
 $string['saveallfeedback'] = 'Gravar todos os meus comentários';
 $string['sendformarking'] = 'Enviado para avaliação';
+$string['showrecentsubmissions'] = 'Mostrar ficheiros enviados recentemente';
 $string['submission'] = 'Envio';
 $string['submissiondraft'] = 'Rascunho do trabalho';
 $string['submissionfeedback'] = 'Comentários ao trabalho';

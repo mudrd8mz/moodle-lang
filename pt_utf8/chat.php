@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (2007101506)
+      // chat.php - created with Moodle 2.0 dev (2007101507)
 
 
 $string['beep'] = 'chamar';
@@ -50,6 +50,7 @@ $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Nenhuma sessão marcada';
 $string['oldping'] = 'Tempo morto para fim da ligação';
+$string['pastchats'] = 'Sessões de chat anteriores';
 $string['refreshroom'] = 'Refrescar sala';
 $string['refreshuserlist'] = 'Refrescar lista de utilizadores';
 $string['removemessages'] = 'Retirar todas as mensagens';

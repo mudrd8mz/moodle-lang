@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (2007101506)
+      // grades.php - created with Moodle 2.0 dev (2007101507)
 
 
 $string['activities'] = 'Actividades';
@@ -207,6 +207,7 @@ $string['gradeletter'] = 'Letra de avaliação';
 $string['gradeletterhelp'] = 'Ajuda com letra de avaliação';
 $string['gradeletternote'] = 'Para apagar uma nota tem que limpar qualquer uma<br />das 3 caixas de texto para essa letra e clicar em enviar.';
 $string['gradeletters'] = 'Letras para as notas';
+$string['gradelong'] = '$a->grade / $a->max';
 $string['grademax'] = 'Nota máxima';
 $string['grademaxhelp'] = 'A nota máxima possível para esta prova';
 $string['grademin'] = 'Notá mínima';
