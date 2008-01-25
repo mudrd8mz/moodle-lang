@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // search.php - created with Moodle 1.7.1+ (2006101010)
+      // search.php - created with Moodle 2.0 dev (2007101507)
 
 
 $string['advancedsearch'] = 'Pesquisa avançada';
@@ -14,7 +14,7 @@ $string['checkdir'] = 'Testar directório.';
 $string['checkdiradvice'] = 'Garantir que o directório de dados existe e é editável.';
 $string['commenton'] = 'Comentar';
 $string['createanindex'] = 'criar um índice';
-$string['createdon'] = 'Cirado em';
+$string['createdon'] = 'Criado em';
 $string['database'] = 'Base de dados';
 $string['databasestate'] = 'A indexar estado da base de dados';
 $string['datadirectory'] = 'Directório de dados';

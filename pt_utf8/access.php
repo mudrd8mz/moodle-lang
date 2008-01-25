@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 2.0 dev (2007101506)
+      // access.php - created with Moodle 2.0 dev (2007101507)
 
 
 $string['access'] = 'Acessibilidade';
@@ -23,7 +23,7 @@ $string['tabledata'] = 'Tabela de dados, $a';
 $string['tablelayout'] = 'Tabela de esquema, $a';
 $string['tocontent'] = 'Ir para o conteúdo principal';
 $string['tonavigation'] = 'Ir para a navegação';
-$string['youarehere'] = 'Você está aqui';
+$string['youarehere'] = 'Encontra-se em';
 $string['showhideblock'] = 'Mostrar ou ocultar bloco'; // ORPHANED
 
 ?>

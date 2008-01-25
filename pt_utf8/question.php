@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.7.1+ (2006101010)
+      // question.php - created with Moodle 2.0 dev (2007101507)
 
 
 $string['adminreport'] = 'Diagnosticar possíveis problemas na sua base de dados.';
@@ -11,7 +11,7 @@ $string['categorydoesnotexist'] = 'Esta categoria não existe';
 $string['categorymoveto'] = 'Gravar na categoria';
 $string['changepublishstatuscat'] = '<a href=\"$a->caturl\">A categoria \"$a->name\"</a> na disciplina \"$a->coursename\" mudará o seu estado de partilha de <strong>$a->changefrom para $a->changeto</strong>.';
 $string['copy'] = 'Copiar de $a e alterar apontadores.';
-$string['created'] = 'Criação';
+$string['created'] = 'Criado';
 $string['createdmodifiedheader'] = 'Criação / Última actualização';
 $string['cwrqpfs'] = 'Perguntas aleatórias, seleccionando perguntas de subcategorias.';
 $string['cwrqpfsinfo'] = '<p>Durante a actualização para o Moodle 1.9, vamos separar as categorias de perguntas em diferentes contextos. O estado de partilha de algumas categorias de perguntas e perguntas no seu sítio terá que ser alterado. Isso será necessário no caso, pouco usual, em que uma ou mais perguntas \'aleatórias\' num teste tenha sido configurada para seleccionar perguntas de categorias partilhadas e não partilhadas (que é o caso neste sítio). Isso acontece quando uma pergunta aleatória é configurada para seleccionar perguntas de subcategorias e algumas das subcategorias têm estado de partilha diferente do estado da categoria ascendente onde a pergunta aleatória foi criada.</p>
