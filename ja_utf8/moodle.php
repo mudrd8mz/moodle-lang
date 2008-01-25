@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101506)
+      // moodle.php - created with Moodle 2.0 dev (2007101507)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -99,6 +99,7 @@ $string['allfieldsrequired'] = 'すべての項目に入力してください。
 $string['allfiles'] = 'すべてのファイル';
 $string['allgroups'] = 'すべてのグループ';
 $string['alllogs'] = 'すべてのログ';
+$string['allmods'] = 'すべての $a';
 $string['allow'] = '許可する';
 $string['allowguests'] = 'このコースはゲストユーザも利用できます。';
 $string['allowinternal'] = '内部登録も許可する';
@@ -898,6 +899,7 @@ $string['missingcountry'] = '国が選択されていません。';
 $string['missingdescription'] = '自己紹介が入力されていません。';
 $string['missingemail'] = 'メールアドレスが入力されていません。';
 $string['missingfirstname'] = '名が入力されていません。';
+$string['missingfromdisk'] = 'ディスクにありません。';
 $string['missingfullname'] = 'フルネームが入力されていません。';
 $string['missinglastname'] = '姓が入力されていません。';
 $string['missingname'] = '名前が入力されていません。';

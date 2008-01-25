@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (2007101505)
+      // chat.php - created with Moodle 2.0 dev (2007101507)
 
 
 $string['beep'] = 'ビープ';
@@ -50,6 +50,7 @@ $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'スケジュールセッションがありません。';
 $string['oldping'] = '切断タイムアウト';
+$string['pastchats'] = '過去のチャットセッション';
 $string['refreshroom'] = 'チャットルームをリフレッシュする';
 $string['refreshuserlist'] = 'ユーザ一覧をリフレッシュする';
 $string['removemessages'] = 'すべてのメッセージを削除する';

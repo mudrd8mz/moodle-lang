@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (2007101505)
+      // assignment.php - created with Moodle 2.0 dev (2007101507)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -23,6 +23,7 @@ $string['comment'] = 'コメント';
 $string['commentinline'] = 'インラインコメント';
 $string['configitemstocount'] = 'オンライン課題でカウントする学生の提出課題の単位';
 $string['configmaxbytes'] = 'すべての課題に関するデフォルト最大サイズ (コース制限および他のローカル設定に従います)';
+$string['configshowrecentsubmissions'] = 'すべてのユーザが課題提出の通知を「最近の活動」レポートで閲覧できる。';
 $string['confirmdeletefile'] = '本当にこのファイルを完全に削除してもよろしいですか?<br /><strong>$a</strong>';
 $string['deleteallsubmissions'] = 'すべての提出課題を削除する';
 $string['deletefilefailed'] = 'ファイルの削除が失敗しました。';
@@ -71,6 +72,7 @@ $string['noassignments'] = '課題はまだありません。';
 $string['noattempts'] = 'この課題はまだ提出されていません。';
 $string['nofiles'] = 'ファイルが提出されていません。';
 $string['nofilesyet'] = 'ファイルはまだ提出されていません。';
+$string['nosubmitusers'] = 'この課題を提出できるパーミッションのユーザは見つかりませんでした。';
 $string['notavailableyet'] = '申し訳ございません、この課題はまだ利用できません。<br />課題のインストラクションは、下記の開始日時以降、ここに表示されます。';
 $string['notes'] = 'メモ';
 $string['notesempty'] = 'エントリなし';
@@ -86,6 +88,7 @@ $string['responsefiles'] = 'レスポンスファイル';
 $string['reviewed'] = 'レビュー済み';
 $string['saveallfeedback'] = 'すべてのフィードバックを保存する';
 $string['sendformarking'] = '採点のため送信する';
+$string['showrecentsubmissions'] = '最近の課題提出を表示する';
 $string['submission'] = '提出課題';
 $string['submissiondraft'] = '提出課題の下書き';
 $string['submissionfeedback'] = '提出課題へのフィードバック';
