@@ -1,5 +1,6 @@
 <?php // $Id$
 
+$string['abouttobeinstalled'] = 'prêt à être installé';
 $string['action'] = 'Action';
 $string['actions'] = 'Actions';
 $string['active'] = 'Actif';
@@ -385,6 +386,7 @@ $string['description'] = 'Description';
 $string['deselectall'] = 'Annuler la sélection';
 $string['detailedless'] = 'Moins de détails';
 $string['detailedmore'] = 'Plus de détails';
+$string['directory'] = 'Dossier';
 $string['directorypaths'] = 'Chemin d\'accès des dossiers';
 $string['disable'] = 'Désactiver';
 $string['displayingfirst'] = 'Seules les $a->count premier(ère)s $a->things sont affiché(e)s';
