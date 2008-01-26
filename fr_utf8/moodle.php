@@ -97,6 +97,7 @@ $string['allfieldsrequired'] = 'Tous les champs sont requis';
 $string['allfiles'] = 'Tous les fichiers';
 $string['allgroups'] = 'Tous les groupes';
 $string['alllogs'] = 'Tous les historiques';
+$string['allmods'] = 'Tous les $a';
 $string['allow'] = 'Autoriser';
 $string['allowguests'] = 'Les invités sont autorisés dans ce cours';
 $string['allowinternal'] = 'Permettre aussi les méthodes internes';

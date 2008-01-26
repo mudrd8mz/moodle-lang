@@ -48,6 +48,7 @@ $string['normalkeepalive'] = 'Keep-Alive';
 $string['normalstream'] = 'Flux';
 $string['noscheduledsession'] = 'Aucune session agendée';
 $string['oldping'] = 'Délai de déconnexion';
+$string['pastchats'] = 'Sessions de chat antérieures';
 $string['refreshroom'] = 'Actualisation salon';
 $string['refreshuserlist'] = 'Actualisation liste utilisateurs';
 $string['removemessages'] = 'Supprimer tous les messages';
