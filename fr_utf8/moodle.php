@@ -884,6 +884,7 @@ $string['missingcountry'] = 'Le pays ne peut pas être vide';
 $string['missingdescription'] = 'La description ne peut pas être vide';
 $string['missingemail'] = 'L\'adresse de courriel ne peut pas être vide';
 $string['missingfirstname'] = 'Le prénom ne peut pas être vide';
+$string['missingfromdisk'] = 'Manquant sur le disque';
 $string['missingfullname'] = 'Le nom complet ne peut pas être vide';
 $string['missinglastname'] = 'Le nom ne peut pas être vide';
 $string['missingname'] = 'Le nom ne peut pas être vide';
