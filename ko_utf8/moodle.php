@@ -393,7 +393,7 @@ $string['detailedless'] = '간단히';
 $string['detailedmore'] = '자세히';
 $string['directory'] = '디렉토리';
 $string['directorypaths'] = '디렉토리 경로';
-$string['disable'] = '기능 제한';
+$string['disable'] = '유지관리모드 해제';
 $string['displayingfirst'] = '오직 첫째 $a->count $a->things 이 보여집니다.';
 $string['displayingrecords'] = '$a 레코드 보기';
 $string['displayingusers'] = '$a->start 에서 $a->end 까지 이용자 보기';
@@ -522,7 +522,7 @@ $string['emailpasswordsent'] = '비밀번호 변경에 대한 확인을 해 주�
 <br />새로운 비밀번호가 포함된 이메일이 <b>$a->email</b> 로 보내졌습니다.
 <br />새비밀번호는 자동으로 생성되었습니다.
 <a href=\"$a->link\">비밀번호 변경하기</a> 로 가서 기억하기 쉬운 비밀번호로 바꾸세요.';
-$string['enable'] = '사용가능';
+$string['enable'] = '유지관리모드 활성화';
 $string['encryptedcode'] = '암호화된 코드';
 $string['enroldate'] = '등록기간';
 $string['enroldetails'] = '등록 세부사항';
