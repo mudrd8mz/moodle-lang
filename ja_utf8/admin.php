@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101506)
+      // admin.php - created with Moodle 2.0 dev (2007101507)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -42,8 +42,8 @@ $string['cachetext'] = 'テキストキャッシュ保存時間';
 $string['cachetype'] = 'キャッシュタイプ';
 $string['calendar_weekend'] = '週末日';
 $string['calendarsettings'] = 'カレンダー';
-$string['cfgwwwrootslashwarning'] = 'あなたは、config.phpファイルの &#36;CFG->wwwroot を正しく定義していません。末尾に「/」文字を含めています。「/」文字を取り除いてください。取り除かない場合、<a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>のようなバグが発生する可能性があります。';
-$string['cfgwwwrootwarning'] = 'あなたは、config.phpファイルの &#36;CFG->wwwroot を正しく定義していません。あなたがこのページにアクセスしているURIと合致しません。URIを修正してください。修正しない場合、<a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>のようなバグが発生する可能性があります。';
+$string['cfgwwwrootslashwarning'] = 'あなたは、config.phpファイルの $CFG->wwwroot を正しく定義していません。末尾に「/」文字を含めています。「/」文字を取り除いてください。取り除かない場合、<a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>のようなバグが発生する可能性があります。';
+$string['cfgwwwrootwarning'] = 'あなたは、config.phpファイルの $CFG->wwwroot を正しく定義していません。あなたがこのページにアクセスしているURIと合致しません。URIを修正してください。修正しない場合、<a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>のようなバグが発生する可能性があります。';
 $string['change'] = '変更';
 $string['changesitelang'] = 'サイト言語の変更';
 $string['checkboxno'] = 'No';
@@ -432,7 +432,7 @@ $string['log'] = 'ログ';
 $string['loginhttps'] = 'ログインにHTTPSを使用する';
 $string['loglifetime'] = 'ログの保存期間';
 $string['longtimenosee'] = 'コースからユーザを登録抹消する日数';
-$string['longtimewarning'] = '<b>この処理には、長時間がかかりますので注意してください。</b>';
+$string['longtimewarning'] = '<b>この処理には長時間がかかりますので注意してください。</b>';
 $string['mail'] = 'Eメール';
 $string['mailnewline'] = 'メールの改行文字';
 $string['maintfileopenerror'] = 'メンテナンスファイルのオープン中にエラーが発生しました！';
@@ -465,9 +465,9 @@ $string['mnetrestore_extusers'] = '<strong>注意:</strong> このバックア�
 $string['mnetrestore_extusers_mismatch'] = '<strong>注意:</strong> このバックアップファイルは、他のMoodleで作成され、リストアできないMoodleネットワークユーザアカウントを含んでいます。この処理はサポートされていません。このバックアップファイルがこのMoodleでバックアップされたこと、または必要なすべてのMoodleネットワークホストが設定されていることをあなたが保証できる場合のみ、リストアを試みてください。';
 $string['modsettings'] = '活動の管理';
 $string['modulesecurity'] = 'モジュールセキュリティ';
-$string['multilangforceold'] = '古いmultilangシンタックスを強制する: class=\"multilang\" なしの &lt;span&gt; および &lt;lang&gt;';
+$string['multilangforceold'] = '古いmultilangシンタックスを強制する: class=\"multilang\" なしの <span> および <lang>';
 $string['multilangupgrade'] = 'multilangアップグレード';
-$string['multilangupgradeinfo'] = 'multilangフィルタシンタックスはMoodle 1.8で変更されました。今後、&lt;lang&gt; タグはサポートされません。<br /><br />例: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"es\" class=\"multilang\">Hola!&lt;/span&gt;<br /><br /><strong>既存のすべてのテキストに関するシンタックスをアップグレードしてもよろしいですか?</strong>';
+$string['multilangupgradeinfo'] = 'multilangフィルタシンタックスはMoodle 1.8で変更されました。今後、<lang> タグはサポートされません。<br /><br />例: <span lang=\"en\" class=\"multilang\">Hello!</span><span lang=\"es\" class=\"multilang\">Hola!</span><br /><br /><strong>既存のすべてのテキストに関するシンタックスをアップグレードしてもよろしいですか?</strong>';
 $string['multilangupgradenotice'] = 'あなたのサイトは、おそらく古いmultilangシンタックスを使用しています。<a href=\"multilangupgrade.php\">multilangアップグレード</a>をお勧めします。';
 $string['mustenablestats'] = 'このサイトでは、統計が有効にされていません。';
 $string['mymoodle'] = 'マイ Moodle';
@@ -489,7 +489,7 @@ $string['notifyloginfailures'] = 'ログイン失敗をメール通知する';
 $string['notifyloginthreshold'] = 'メール通知の閾値';
 $string['notloggedinroleid'] = 'ビジターのロール';
 $string['numberofmissingstrings'] = '未翻訳ストリング数: $a';
-$string['numberofstrings'] = '合計ストリング数: $a->strings<br />未翻訳数: $a->missing ($a->missingpercent&nbsp;%%)';
+$string['numberofstrings'] = '合計ストリング数: $a->strings<br />未翻訳数: $a->missing ($a->missingpercent %%)';
 $string['opensslrecommended'] = 'Moodleネットワーキング機能を有効にするため、OpenSSLライブラリのインストールを強くお勧めします。';
 $string['opentogoogle'] = 'Googleに公開する';
 $string['optionalmaintenancemessage'] = '任意のメンテナンスメッセージ';
@@ -571,7 +571,7 @@ $string['proxyport'] = 'プロクシポート';
 $string['proxytype'] = 'プロクシタイプ';
 $string['proxyuser'] = 'プロクシユーザ名';
 $string['qtyperqpwillberemoved'] = 'アップグレード中、RQP問題タイプは削除されます。あなたはこの問題タイプを使用していませんので、トラブルが発生することはありません。';
-$string['qtyperqpwillberemovedanyway'] = 'アップグレード中、RQP問題タイプは削除されます。あなたのデータベース内にRQP問題タイプが登録されています。アップグレードを続ける前に、 http://moodle.org/mod/data/view.php?d=13&amp;rid=797 から対応するプログラムをインストールしない場合、これらの問題は動作しなくなります。';
+$string['qtyperqpwillberemovedanyway'] = 'アップグレード中、RQP問題タイプは削除されます。あなたのデータベース内にRQP問題タイプが登録されています。アップグレードを続ける前に、 http://moodle.org/mod/data/view.php?d=13&rid=797 から対応するプログラムをインストールしない場合、これらの問題は動作しなくなります。';
 $string['quarantinedir'] = '隔離ディレクトリ';
 $string['question'] = '問題';
 $string['questioncwqpfscheck'] = '1つまたはそれ以上の小テストの「ランダム」問題が共有および非共有カテゴリから混在して選択されるよう設定されています。詳細レポートは<a href=\"$a->reporturl\">こちらを</a>ご覧ください。<a href=\"$a->docsurl\">こちら</a>でMoodle Docsページをご覧ください。';
@@ -722,11 +722,5 @@ $string['warningcurrentsetting'] = '無効な現在値: $a';
 $string['webproxy'] = 'ウェブプロクシ';
 $string['webproxyinfo'] = 'あなたのMoodleサーバが直接インターネットに接続できない場合、以下のオプションに必要事項を入力してください。インターネットアクセスは、環境データ、言語パック、RSSフィード、タイムゾーン等のダウンロードに必要です。<br />PHP cURL拡張モジュールの使用を強くお勧めします。';
 $string['xmlstrictheaders'] = 'XMLストリクトヘッダ';
-$string['addcounter'] = 'カウンタを付加する'; // ORPHANED
-$string['csvseparator'] = 'CSVセパレータ'; // ORPHANED
-$string['newusernamehandling'] = '新しいユーザ名の重複取り扱い'; // ORPHANED
-$string['skipuser'] = 'ユーザをスキップする'; // ORPHANED
-$string['confighideactivitytypecrumb'] = '活動モジュールで表示されるブレッドクラム内の活動タイプ (例 小テスト) クラムを誰に非表示にするか選択してください。'; // ORPHANED
-$string['hideactivitytypecrumb'] = '活動タイプクラムを非表示にする'; // ORPHANED
 
 ?>
