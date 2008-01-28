@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101506)
+      // admin.php - created with Moodle 2.0 dev (2007101507)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -432,7 +432,7 @@ $string['log'] = 'ログ';
 $string['loginhttps'] = 'ログインにHTTPSを使用する';
 $string['loglifetime'] = 'ログの保存期間';
 $string['longtimenosee'] = 'コースからユーザを登録抹消する日数';
-$string['longtimewarning'] = '<b>この処理には、長時間がかかりますので注意してください。</b>';
+$string['longtimewarning'] = '<b>この処理には長時間がかかりますので注意してください。</b>';
 $string['mail'] = 'Eメール';
 $string['mailnewline'] = 'メールの改行文字';
 $string['maintfileopenerror'] = 'メンテナンスファイルのオープン中にエラーが発生しました！';
