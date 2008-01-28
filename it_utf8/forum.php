@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // forum.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
-$string['addanewquestion'] = 'Aggiungi una nuova domanda';
-$string['addanewtopic'] = 'Aggiungi un nuovo argomento';
+$string['addanewquestion'] = 'Aggiungi nuova domanda';
+$string['addanewtopic'] = 'Aggiungi nuovo argomento';
 $string['advancedsearch'] = 'Ricerca avanzata';
 $string['allforums'] = 'Tutti i forum';
 $string['allowchoice'] = 'Permetti a ognuno di scegliere';
@@ -135,7 +135,7 @@ $string['modenested'] = 'Mostra le repliche in formato nidificato';
 $string['modethreaded'] = 'Mostra le repliche in formato per oggetto';
 $string['modulename'] = 'Forum';
 $string['modulenameplural'] = 'Forum';
-$string['more'] = 'altro';
+$string['more'] = 'leggi';
 $string['movedmarker'] = 'Spostato';
 $string['movethisdiscussionto'] = 'Sposta la discussione in...';
 $string['namenews'] = 'Forum News';
@@ -164,8 +164,8 @@ $string['nownottracking'] = '$a->name non sta più tracciando \'$a->forum\'.';
 $string['nowsubscribed'] = '$a->name riceverà copie di \'$a->forum\' via email.';
 $string['nowtracking'] = '$a->name sta tracciando \'$a->forum\'.';
 $string['numposts'] = '$a interventi';
-$string['olderdiscussions'] = 'Vecchie discussioni';
-$string['oldertopics'] = 'Vecchi argomenti';
+$string['olderdiscussions'] = 'Discussioni precedenti';
+$string['oldertopics'] = 'Argomenti precedenti';
 $string['oldpostdays'] = 'Letti dopo giorni';
 $string['openmode0'] = 'Discussioni e repliche non permesse';
 $string['openmode1'] = 'Discussioni non permesse ma repliche consentite';

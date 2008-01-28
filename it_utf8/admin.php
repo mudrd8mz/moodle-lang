@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // admin.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['accessdenied'] = 'Accesso vietato';
@@ -381,6 +381,7 @@ $string['gdversion'] = 'Versione GD';
 $string['generalsettings'] = 'Impostazioni Generali';
 $string['geoipfile'] = 'GeoIP City data file';
 $string['globalsquoteswarning'] = '<p><strong>Avvertimento di Sicurezza</strong>: per funzionare correttamente, Moodle necessita<br />che vengano fatte alcune modifiche alle vostre impostazioni del PHP.</p><p><em>Dovete</em> impostare <code>register_globals=off</code> e/o <code>magic_quotes_gpc=on</code>.<br />Se possibile, dovete impostare <code>register_globals=off</code> per migliorare la sicurezza generale del server,<br /> anche impostare <code>magic_quotes_gpc=on</code> è raccomandato.<p/><p>Queste impostazioni sono controllate modificando il vostro <code>php.ini</code>, la configurazione di Apache/IIS <br />o il file <code>.htaccess</code>.</p>';
+$string['globalswarning'] = '<p><strong>Avvertimento per la sicurezza</strong>: per funzionare correttamente, Moodle richiede <br />alcune modifiche alle attuali impostazioni del PHP.<p/><p><em>Bisogna</em> impostare <code>register_globals=off</code>.<p>Questa impostazione può essere modificata editando il vostro <code>php.ini</code>, la configurazione Apache/IIS <br />o il file <code>.htaccess</code>.</p>';
 $string['googlemapkey'] = 'Google Maps API key';
 $string['gotofirst'] = 'Vai alla prima stringa mancante';
 $string['gradebook'] = 'Registro Valutazioni';
@@ -606,15 +607,15 @@ $string['requiredtemplate'] = 'Richiesto. Si può usare il modello di sintassi (
 $string['restrictbydefault'] = 'Limitare i moduli per default';
 $string['restrictmodulesfor'] = 'Limitare i moduli per';
 $string['riskconfig'] = 'Gli utenti possono modificare la configurazione e il comportamento del sito';
-$string['riskconfigshort'] = 'Rischio di configurazione';
+$string['riskconfigshort'] = 'Configurazione';
 $string['riskmanagetrust'] = 'Gli utenti possono modificare le impostazioni di affidabilità di altri utenti';
 $string['riskmanagetrustshort'] = 'Gestione rischi';
 $string['riskpersonal'] = 'Gli utenti possono avere accesso alle informazioni private di altri utenti';
-$string['riskpersonalshort'] = 'Rischio di privacy';
+$string['riskpersonalshort'] = 'Privacy';
 $string['riskspam'] = 'Gli utenti possono inviare spam agli utenti del sito o ad altri';
-$string['riskspamshort'] = 'Rischio di spam';
+$string['riskspamshort'] = 'Spam';
 $string['riskxss'] = 'Gli utenti possono aggiungere files e testi che permettono il cross-site scripting (XSS)';
-$string['riskxssshort'] = 'Rischio XSS';
+$string['riskxssshort'] = 'XSS';
 $string['rowpreviewnum'] = 'Anteprima righe';
 $string['rssglobaldisabled'] = 'Disabilitato a livello server';
 $string['runclamavonupload'] = 'Usa clam AV sui files caricati';

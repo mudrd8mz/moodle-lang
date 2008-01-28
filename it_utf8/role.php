@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // role.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['addrole'] = 'Aggiungere un nuovo ruolo';
@@ -7,7 +7,7 @@ $string['allow'] = 'Permetti';
 $string['allowassign'] = 'Permetti l\'attribuzione di ruoli';
 $string['allowoverride'] = 'Permetti la modifica dei ruoli';
 $string['assignglobalroles'] = 'Attribuire ruoli globali';
-$string['assignroles'] = 'Attribuire ruoli';
+$string['assignroles'] = 'Ruoli';
 $string['assignrolesin'] = 'Attribuire ruoli in $a';
 $string['block:view'] = 'Visualizzare blocchi';
 $string['blog:create'] = 'Creare un nuovi interventi nei blog';
@@ -93,6 +93,7 @@ $string['manageroles'] = 'Gestiione ruoli';
 $string['metaassignerror'] = 'Non puoi attribuire questo ruolo all\'utente \"$a\" perché è necessaria la possibilità di gestione dei metacorsi.';
 $string['metaunassignerror'] = 'Il ruolo dell\'utente \"$a\" è stato riassegnato automaticamente. Se necessario disassegnare questo ruolo dai corsi dipendenti.';
 $string['morethan'] = 'Più di $a';
+$string['multipleroles'] = 'Ruoli multipli';
 $string['my:manageblocks'] = 'Gestire blocchi della pagina \'Il mio Moodle\'';
 $string['nocapabilitiesincontext'] = 'Nessuna possibilità disponibile in questo contesto';
 $string['notes:manage'] = 'Gestire note';

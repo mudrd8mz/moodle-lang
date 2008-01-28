@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // moodle.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['action'] = 'Azione';
@@ -803,6 +803,7 @@ $string['list'] = 'Lista';
 $string['listfiles'] = 'Lista dei file in $a';
 $string['listofallpeople'] = 'Lista di tutte le persone';
 $string['livelogs'] = 'Logs della ultima ora';
+$string['local'] = 'Locale';
 $string['locale'] = 'it_IT.UTF-8';
 $string['location'] = 'File o sito web';
 $string['log_excel_date_format'] = 'yyyy mmmm d h:mm';
@@ -1559,6 +1560,7 @@ $string['writingcoursedata'] = 'Scrittura dati corso';
 $string['writingeventsinfo'] = 'Scrittura informazioni eventi';
 $string['writinggeneralinfo'] = 'Scrittura informazioni generali';
 $string['writinggradebookinfo'] = 'Scrittura informazioni sulle valutazioni';
+$string['writinggroupingsgroupsinfo'] = 'Scrittura informazioni raggruppamenti-gruppi';
 $string['writinggroupingsinfo'] = 'Scrittura informazioni raggruppamenti';
 $string['writinggroupsinfo'] = 'Scrittura informazioni gruppi';
 $string['writingheader'] = 'Scrittura intestazione';
