@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // qtype_truefalse.php - created with Moodle 1.8.2+ (2007021520)
-      // local modifications from http://moodlelatest.stencel.info
+      // qtype_truefalse.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
+$string['addingtruefalse'] = 'Dodawanie pytania \'Prawda/Fałsz\'';
 $string['correctanswer'] = 'Poprawna odpowiedź';
 $string['editingtruefalse'] = 'Edycja pytania \'Prawda/Fałsz\'';
 $string['false'] = 'Fałsz';
