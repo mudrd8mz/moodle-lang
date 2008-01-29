@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (2007101507)
+      // quiz.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['1day'] = '1 Dia';
@@ -255,7 +255,7 @@ $string['functiontakesnoargs'] = 'A função $a  não aceita argumentos';
 $string['functiontakesonearg'] = 'A função $a exige exactamente um argumento';
 $string['functiontakesoneortwoargs'] = 'A função $a tem que ter ou um ou dois argumentos';
 $string['functiontakestwoargs'] = 'A função $a exige dois argumentos';
-$string['generalfeedback'] = 'Comentário geral';
+$string['generalfeedback'] = 'Sugestão';
 $string['generatevalue'] = 'Gerar um novo valor entre';
 $string['geometric'] = 'Geométrico';
 $string['gift'] = 'Formato GIFT';
@@ -274,7 +274,7 @@ $string['gradehighest'] = 'Nota mais alta';
 $string['grademethod'] = 'Método de avaliação';
 $string['gradesdeleted'] = 'Notas do teste apagadas';
 $string['gradesofar'] = '$a->method: $a->mygrade / $a->quizgrade.';
-$string['gradingdetails'] = 'Notas para este envio: $a->raw/$a->max.';
+$string['gradingdetails'] = 'Nota para esta pergunta: $a->raw/$a->max.';
 $string['gradingdetailsadjustment'] = 'Com as penalizações anteriores isso equivale a <strong>$a->cur/$a->max</strong>.';
 $string['gradingdetailspenalty'] = 'Este envio foi penalizado com $a.';
 $string['gradingdetailszeropenalty'] = 'Não foi penalizado por este envio.';
@@ -385,7 +385,7 @@ $string['onlyteachersimport'] = 'Unicamente docentes com permissão de edição 
 $string['openclosedatesupdated'] = 'Datas de abertura e fecho do teste actualizadas';
 $string['optional'] = 'opcional';
 $string['outof'] = '$a->grade sobre o máximo $a->maxgrade';
-$string['overallfeedback'] = 'Comentário geral';
+$string['overallfeedback'] = 'Comentário global';
 $string['overdue'] = 'Fora de prazo';
 $string['pagesize'] = 'Numero de tentativas mostradas por página';
 $string['paragraphquestion'] = 'Na linha $a, não são permitidas perguntas de parágrafo. A pergunta será ignorada.';

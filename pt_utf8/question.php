@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (2007101507)
+      // question.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['adminreport'] = 'Diagnosticar possíveis problemas na sua base de dados.';
@@ -64,7 +64,7 @@ $string['permissionsaveasnew'] = 'Gravar numa pergunta nova';
 $string['permissionto'] = 'Tem autorização para:';
 $string['published'] = 'partilhada';
 $string['questionaffected'] = 'A <a href=\"$a->qurl\">pergunta \"$a->name\" ($a->qtype)</a> encontra-se nesta categoria, mas também está a ser usada no <a href=\"$a->qurl\">teste \"$a->quizname\"</a> na outra disciplina, \"$a->coursename\".';
-$string['questionbank'] = 'Banco de perguntas';
+$string['questionbank'] = 'Base de dados de perguntas';
 $string['questioncatsfor'] = 'Categorias de perguntas para \'$a\'';
 $string['questiondoesnotexist'] = 'Esta pergunta não existe';
 $string['questionuse'] = 'Usar pergunta nesta actividade';

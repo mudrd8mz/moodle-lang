@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (2007101507)
+      // grades.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['activities'] = 'Actividades';
@@ -180,7 +180,7 @@ $string['gradebookhiddenerror'] = 'A pauta está actualmente configurada para es
 $string['gradebookhistories'] = 'Histórico de notas';
 $string['gradeboundary'] = 'Nível delimitador para nota alfabética';
 $string['gradecategories'] = 'Categorias de notas';
-$string['gradecategory'] = 'Cateforia de notas';
+$string['gradecategory'] = 'Categoria na pauta';
 $string['gradecategoryhelp'] = 'Ajuda com categoria de notas';
 $string['gradecategorysettings'] = 'Definições de categorias de notas';
 $string['gradedisplay'] = 'Apresentação de notas';
