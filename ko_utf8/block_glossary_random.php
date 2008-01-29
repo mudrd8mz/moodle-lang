@@ -12,7 +12,7 @@ $string['invisible'] = '(계속)';
 $string['lastmodified'] = '최근 수정된 자료';
 $string['nextone'] = '다음 입력';
 $string['noentriesyet'] = '선택된 자료집에 등록된 수록어가 없습니다.';
-$string['notyetconfigured'] = '편집 아이콘을 이용하여 이 블록을 설정하시기 바랍니다.';
+$string['notyetconfigured'] = '편집 아이콘을 이용하여 이 블럭을 설정하시기 바랍니다.';
 $string['notyetglossary'] = '당신은 적어도 하나 이상의 자료집을 선택해야만 합니다.';
 $string['random'] = '임의 입력';
 $string['refresh'] = '새로운 항목이 선택되기 전의 날들';
@@ -20,8 +20,8 @@ $string['select_glossary'] = '이 자료집에서 내용 추출';
 $string['showconcept'] = '각 어휘의 개념 보임';
 $string['title'] = '제목';
 $string['type'] = '새로운 기입이 선택되는 방법';
-$string['typehelp'] = '선택사항<b>Random entry</b>는 만약 당신이 흥미로운 링크/인용구들을 주마다 혹은 날마다 기본적으로 사용자들에게 전시하기 위해서 블록을 사용하기를 원할 때 유용하다. 당신이 세개의 새로운 기입을 어휘해석에 첨가하기를 원해도 블록은 오직 하나의 진보만 할것이다. 그것은 따라서 몇몇의 블랙로그를 생성하기를 가능하게 만든다. <br>선택사항 <b>last modified</b>는 항상 마지막에 수정된 기입으로 전시된다.';
+$string['typehelp'] = '선택사항<b>Random entry</b>는 만약 당신이 흥미로운 링크/인용구들을 주마다 혹은 날마다 기본적으로 사용자들에게 전시하기 위해서 블럭을 사용하기를 원할 때 유용하다. 당신이 세개의 새로운 기입을 어휘해석에 첨가하기를 원해도 블럭은 오직 하나의 진보만 할것이다. 그것은 따라서 몇몇의 블랙로그를 생성하기를 가능하게 만든다. <br>선택사항 <b>last modified</b>는 항상 마지막에 수정된 기입으로 전시된다.';
 $string['viewglossary'] = '더 많은 이용구...';
-$string['whichfooter'] = '당신은 연합된 블록의 자료집을 링크를 눌러 볼수 있습니다. 이 블록은 인터넷 사전에 허락된 것들만 보여질 것입니다.';
+$string['whichfooter'] = '당신은 연합된 블럭의 자료집을 링크를 눌러 볼수 있습니다. 이 블럭은 인터넷 사전에 허락된 것들만 보여질 것입니다.';
 
 ?>

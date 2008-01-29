@@ -17,13 +17,13 @@ $string['monthprev'] = '지난 달';
 $string['showblocka'] = '$a 블럭 보이기';
 $string['sitemap'] = '사이트 맵';
 $string['skipa'] = '$a 건너 뜀';
-$string['skipblock'] = '블록 생략';
+$string['skipblock'] = '블럭 생략';
 $string['skipnavigation'] = '네비게이션 생략';
 $string['tabledata'] = '데이터 테이블, $a';
 $string['tablelayout'] = '배치 테이블, $a';
 $string['tocontent'] = '주 내용으로 가기';
 $string['tonavigation'] = '안내판으로 가기';
 $string['youarehere'] = '당신이 있는 곳';
-$string['showhideblock'] = '블록 보기/감추기'; // ORPHANED
+$string['showhideblock'] = '블럭 보기/감추기'; // ORPHANED
 
 ?>
