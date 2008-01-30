@@ -11,7 +11,7 @@ $string['configlimitindexbody'] = '인덱스된 본문 크기 제한';
 $string['configpdftotextcmd'] = 'pdftotext 명령어 경로';
 $string['configsearchtext'] = '문장 검색';
 $string['configwordtotextcmd'] = 'doctotest 명령어 경로';
-$string['configwordtotextenv'] = 'MS워드 변환기에 대한 환경설정';
+$string['configwordtotextenv'] = 'MS워드 변환기 환경설정';
 $string['go'] = '진행';
 $string['searchmoodle'] = '무들 검색';
 

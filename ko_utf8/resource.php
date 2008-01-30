@@ -5,7 +5,7 @@
 $string['addresource'] = '자료 추가';
 $string['affectedresources'] = '변경된 자료';
 $string['allowlocalfiles'] = '로컬 파일 허용';
-$string['autofilerename'] = '파일이름이 고져지면 링크 새로고침';
+$string['autofilerename'] = '파일명 교체 후 링크 갱신';
 $string['back'] = '뒤로';
 $string['blockdeletingfile'] = '참조된 파일 블럭 삭제';
 $string['browserepository'] = '저장소 검색';
