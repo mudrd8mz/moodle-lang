@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101507)
+      // moodle.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -747,6 +747,7 @@ $string['htmlformat'] = 'HTMLフォーマット';
 $string['icqnumber'] = 'ICQナンバー';
 $string['idnumber'] = 'IDナンバー';
 $string['idnumbercourse'] = 'コースIDナンバー';
+$string['idnumbermod'] = 'IDナンバー';
 $string['idnumbertaken'] = 'このIDナンバーはすでに使用されています。';
 $string['imagealt'] = '写真の説明';
 $string['import'] = 'インポート';
