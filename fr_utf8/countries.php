@@ -1,5 +1,9 @@
 <?php // $id: countries.php;v 1.5 2003/08/07 15:23:10 moodler exp $
 
+// Ne pas modifier cette liste, qui doit correspondre à la norme
+// ISO 3166-1 des abréviations et des noms des pays. Voir :
+// http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm
+
 $string['AD'] = 'Andorre';
 $string['AE'] = 'Émirats Arabes Unis';
 $string['AF'] = 'Afghanistan';
