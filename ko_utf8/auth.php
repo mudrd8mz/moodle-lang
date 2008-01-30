@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (2007101506)
+      // auth.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['CASform'] = '인증 선택';
@@ -93,7 +93,7 @@ $string['auth_dbuser_key'] = 'DB 사용자';
 $string['auth_dbusernotexist'] = '존재하지 않는 사용자 $a 는 갱신할 수 없음';
 $string['auth_dbuserstoadd'] = '$a 에 사용자 목록 추가';
 $string['auth_dbuserstoremove'] = '$a 에서 사용자 목록 제거';
-$string['auth_emaildescription'] = '이메일 확인 인증은 기본 인증 방법이다. 사용자가 가입할 때, 새로운 사용자 아이디와 비밀번호를 선택하면, 사용자의 이메일 계정으로 확인 메일이 보내진다. 이 메일에는 계정을 활성화할 수 있는 안전한 링크를 포함한다. 다음에 로그인할 때에는 무들 데이타베이스에 저장된 값을 참고하게 된다.';
+$string['auth_emaildescription'] = '이메일 확인 인증은 기본 인증 방법이다. 가입하기 위해  이용자가 새로운 사용자 아이디와 비밀번호를 입력하면, 사용자의 이메일 계정으로 확인 메일이 보내진다. 이 메일에는 계정을 활성화할 수 있는 안전한 링크를 포함한다. 다음에 로그인할 때에는 무들 데이타베이스에 저장된 자료들을 참고하게 된다.';
 $string['auth_emailnoemail'] = '이메일 발송 실패';
 $string['auth_emailnoinsert'] = '데이터베이스에 당신의 기록 추가 실패';
 $string['auth_emailtitle'] = '이메일 기반 인증';
@@ -112,9 +112,9 @@ $string['auth_fctitle'] = 'FirstClass 서버 사용';
 $string['auth_fcuserid'] = '\'Subadministrator\'권한 설정을 위한 FirstClass 계정의 사용자 아이디';
 $string['auth_fcuserid_key'] = '사용자 아이디';
 $string['auth_fieldlock'] = '사용자 정보 잠금';
-$string['auth_fieldlock_expl'] = '<p><b>사용자 정보 잠김:</b> 만약 이를 켜 놓으면 무들  사용자나 관리자의 정보 필드를 바로 편집하는 것을 방지할 것입니다. 사용자 정보를 외부인증시스템이 지속적으로 관리하게 하려면 이 옵션을 사용하라. </p>';
+$string['auth_fieldlock_expl'] = '<p><b>사용자 정보 잠금:</b> 만약 이를 켜 놓으면 무들 사용자나 관리자의 정보 필드를 바로 편집하는 것을 방지할 것입니다. 사용자 정보를 외부인증시스템이 지속적으로 관리하게 하려면 이 옵션을 사용하라. </p>';
 $string['auth_fieldlocks'] = '사용자 항목 잠금';
-$string['auth_fieldlocks_help'] = '<p>당신은 사용자 자료 필드를 잠굴수 있다. 이 기능은  사이트에서 운영자가 \"사용자 올리기\"기능 등을 통해 직접 사용자 자료를 유지 관리할 때 유용하다. 무들 프로그램에 의해 잠긴 분야가 있다면, 사용자 계정을 새로 만들거나 하지 않으면 계정은 사용할수 없게 될 것이다.</p><p>이런 문제가 생기지 않길 바란다면 설정을 \'칸이 비워져있을땐 잠기지 않음\'으로 설정하라.</p>';
+$string['auth_fieldlocks_help'] = '<p>당신은 사용자 자료 필드를 잠글 수 있다. 이 기능은 운영자가 \"사용자 업로드\" 기능 등을 통해 직접 사용자 자료를 유지 관리할 때 유용하다. 무들에서 필요한데도 잠금 해제가 되지 않은 필드가 있다면, 그 필드에 대한 자료를 따로 생성해 주지 않는 한, 그 사용자 계정은 사용할 수 없게 된다.</p><p>이런 문제가 생기지 않길 바란다면 \'비어있다면 잠금 해제\'로 설정하라.</p>';
 $string['auth_imapchangepasswordurl_key'] = '암호 변경 URL';
 $string['auth_imapdescription'] = 'IMAP서버를 사용하여 사용자의 이름과 비밀번호가 유효한지를 확인한다.';
 $string['auth_imaphost'] = 'IMAP서버의 주소. DNS이름을 사용하지 말고 IP번호를 사용하라.';
@@ -193,8 +193,8 @@ $string['auth_ldapdescription'] = '이 방법은 외부 LDAP서버에 대해 인
 $string['auth_ldapextrafields'] = '이 필드는 선택사항이다. 당신이 여기에 명시한 LDAP서버에서 정보와 함께 무들 사용자 필드를 미리 채워놓을 수 있다. <p>만약 이 필드를 빈 공간으로 남겨둔다면, LDAP서버에서 아무것도 이동이 되지 않으며 무들의 기본값이 대신 사용된다.</p><p> 어느 경우라도 사용자가 로그인을 한 후에는, 사용자가 이 필드의 모든 것을 수정할 수 있다.';
 $string['auth_ldapnotinstalled'] = 'LDAP인증을 사용할 수 없음. PHP의 LDAP모듈이 설치되지 않았습니다.';
 $string['auth_ldaptitle'] = 'LDAP서버의 사용';
-$string['auth_manualdescription'] = '이 방법은 사용자들이 직접 자신의 계정을 만들 수 있는 모든 방법을 배제한다. 모든 계정들은 운영자에 의해 손수 만들어져야 한다.';
-$string['auth_manualtitle'] = '운영자 생성 계정';
+$string['auth_manualdescription'] = '이것은 사용자가 자신의 계정을 만들 수 있는 어떤 방법도 허용하지 않는다. 모든 계정은 관리자에 의해 직접 수동으로 생성되어야만 한다.';
+$string['auth_manualtitle'] = '관리자 생성 계정';
 $string['auth_mnet_auto_add_remote_users'] = '예로 설정하여 두면, 원격 사용자가 처음 방문할 때에 사용자 기록이 자동으로 생성된다.';
 $string['auth_mnet_roamin'] = '이 호스트의 사용자들은 여러분의 사이트를 탐방할 수 있음';
 $string['auth_mnet_roamout'] = '여러분의 사용자는 이 호스트들을 탐방할 수 있음';
@@ -291,13 +291,13 @@ $string['errorpasswordupdate'] = '비밀번호 갱신 오류. 비밀번호가 �
 $string['forcechangepassword'] = '강제 암호변경';
 $string['forcechangepassword_help'] = '다음 로그인시 사용자에게 비밀번호 교체 요청';
 $string['forcechangepasswordfirst_help'] = '무들에 최초 로그인 할 때 비밀번호 교체 요청';
-$string['forgottenpassword'] = '여기에 URL을 입력하면, 이 주소는 사이트에 대한 암호 복원 화면으로 이용될 것입니다. 이것은 암호가 무들 외부에서 처리되는 사이트를 위한 것입니다. 기본 암호 복원 방법을 사용하려면 빈칸으로 남겨 좋으세요.';
+$string['forgottenpassword'] = '여기에 URL을 입력하면, 이 주소는 사이트에 대한 암호 복원 화면으로 이용될 것입니다. 이것은 암호가 무들 외부에서 처리되는 사이트를 위한 것입니다. 기본 암호 복원 방법을 사용하려면 빈칸으로 남겨 놓으시오.';
 $string['forgottenpasswordurl'] = '암호 재발급 URL';
 $string['guestloginbutton'] = '손님 접속 버튼';
 $string['infilefield'] = '파일에 필요한 항목';
 $string['instructions'] = '안내문';
 $string['internal'] = '내부';
-$string['locked'] = '잠겨있음';
+$string['locked'] = '잠금';
 $string['md5'] = 'MD5 인증';
 $string['nopasswordchange'] = '암호를 변경할 수 없음';
 $string['nopasswordchangeforced'] = '비밀번호 변경없이는 계속할 수 없습니다만 암호를 변경할 방법이 없습니다. 무들 관리자에게 연락하기 바랍니다.';
@@ -319,8 +319,8 @@ $string['showguestlogin'] = '로그인 화면에서 손님 로그인 단추를 �
 $string['stdchangepassword'] = '표준 비밀번호변경 화면 사용';
 $string['stdchangepassword_expl'] = '만약 외부 인증 시스템이 무들을 통한 비밀번호 변경을 허용한다면, 이것을 \"예\"로 바꾸시오. 이 설정은 \'비밀번호 URL 변경\'보다 우선합니다.';
 $string['stdchangepassword_explldap'] = '주목 : 만약 LDAP서버가 원격에 있다면, SSL 함호화 터널(ldaps://)을 통해서 LDAP를 사용할 것을 추천한다.';
-$string['unlocked'] = '잠기지 않음';
-$string['unlockedifempty'] = '비어있다면 잠기지 않음';
+$string['unlocked'] = '잠금 해제';
+$string['unlockedifempty'] = '비어있다면 잠금 해제';
 $string['update_never'] = '불가';
 $string['update_oncreate'] = '생성 중';
 $string['update_onlogin'] = '모든 접속';

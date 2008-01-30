@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101507)
+      // admin.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -57,7 +57,7 @@ $string['confeditorhidebuttons'] = 'HTML 편집기에서 감추고자 하는 버
 $string['configallowassign'] = '왼페이지의 역할에게 각 칼럼의 역할 부여를 허용';
 $string['configallowcategorythemes'] = '이것을 활성화하면, 범주 수준에서 테마를 설정할 수 있게 된다. 각각의 하위 범주 혹은 강좌에서 나름대로 테마를 지정하지 않는 한, 범주 수준에서 설정한 테마가 그 하위에도 적용된다. 경고: 범주 테마 활성화는 성능에 영향을 미칠 수도 있다.';
 $string['configallowcoursethemes'] = '이것을 활성화하면, 각 강좌는 나름대로 독특한 테마로 설정될 수 있다. 강좌 테마는 모든 다른 테마(사이트, 이용자, 또는 세션 테마)선택보다 우선하여 적용된다';
-$string['configallowemailaddresses'] = '만약 당신이 특별한 도메인의 이메일 주소만 허용하고자 한다면, 그 주소를 한 칸씩 띄어 적어 놓아라. 그 외 모든 다른 도메인은 거부된다. ( 예: <strong>sun.ac.kr moodle.org</strong> )';
+$string['configallowemailaddresses'] = '만약 당신이 특정 도메인의 이메일 주소만 허용하고자 한다면, 그 주소를 한 칸씩 띄어 적어 놓아라. 그 외 모든 다른 도메인은 거부된다. ( 예: <strong>sun.ac.kr moodle.org</strong> )';
 $string['configallowobjectembed'] = '기본 보안 규정에 따라, 일반 이용자들은 멀티미디어 파일 (예:플래시,동영상,mp3)을 EMBED, OBJECT 등의 명령어나 태그를 사용해서 올릴수 없다. (비록 안전한 미디어 파일일지라도) 운영자가 허락 옵션을 켜야만 파일을 올릴 수 있다.';
 $string['configallowoverride'] = '왼쪽의 역할이 각 칼럼의 역할에게 권한을 재설정할 수 있도록 허용';
 $string['configallowunenroll'] = '만약 이것이 \"예\"로 설정된다면, 학생들은 스스로 수강 등록 여부를 결정할 수 있다. 반면에 \"아니오\"로 설정하면 교사와 관리자만 학생의 수강 여부를 결정할 수 있게 된다.';
@@ -128,7 +128,7 @@ $string['configgdversion'] = '표시된 GD 버전이 설치되어 있다. 여기
 $string['configgeoipfile'] = 'GeoIP City의 이진 데이터가 있는 위치. 이 파일은 무들 배포본에 포함된 것이 아니며 <a href=\"http://www.maxmind.com/\">MaxMind</a>에서 개별적으로 얻어야만 하는 것이다. 상용 정식판을 구매할 수도 있고 공개판을 이용할 수도 있다. 간단히 <a href=\"http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz\">http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a>을 내려받아 서버의 \"$a\" 경로에 풀어 넣으면 된다.';
 $string['configgooglemapkey'] = '시각적인 IP 주소찾기를 위해 구글맵을 이용하려면 특별한 암호가 필요하다. 이는 <a href=\"http://code.google.com/apis/maps/signup.html\">http://code.google.com/apis/maps/signup.html</a>에서 무료로 얻을 수 있다. <br />현재 이 곳의 웹사이트 주소는 $a 로 되어 있다.';
 $string['configgradebookroles'] = '이 설정은 성적표에 표시될 사람을 조정할 수 있게 한다. 성적표에 나타나려면 이용자는 적어도 이 중 하나의 역할을 지녀야 한다.';
-$string['configgradeexport'] = '성적을 내보내는데 사용할 주요한 성적표 형식을 선택하세요. 선택된 플러그인은 설정된 후  모든 성적에 \"최근 내보냄\" 항목을 사용할 것입니다. 예를 들면 내보내기 한 레코드들이 \"새로운\" 혹은 \"새로고침\"된 것으로 간주되도록 할 것입니다. 확신이 들지 않으면 모든 것을 비워 두십시요.';
+$string['configgradeexport'] = '성적을 내보낼 때 우선적으로 사용할 성적표 형식을 선택하세요. 선택된 플러그인은 설정된 후 모든 성적에 \"최근 내보냄\" 항목을 사용할 것입니다. 예를 들면 내보내기 한 레코드들이 \"새로운\" 혹은 \"새로고침\"된 것으로 간주되도록 할 것입니다. 확신이 들지 않으면 모든 것을 비워 두십시요.';
 $string['configguestroleid'] = '이 역할은 방문객에게 자동으로 부여되는 것이다. 키없는 손님 방문을 허용한 강좌에 방문객으로 참여한 비등록 이용자에게도 한시적으로 적용된다. moodle/legacy:guest 및 moodle/course:view 권한이 부여되어 있는지 확인하라.';
 $string['confighiddenuserfields'] = '교수자와 관리자 이외의 사람들에게는 보이게 하고 싶지 않은 이용자 정보를 선택하라. 이렇게 하면 학생들의 프라이버시를 증진시킬 수 있다. 여러 항목을 선택할 때는 CTRL키를 누른채 항목들을 선택하면 된다.';
 $string['confighideactivitytypenavlink'] = '활동 모듈을 표시한 네비게이션에서 퀴즈등의 활동 형식 링크를 숨길 이용자들을 선택';
@@ -291,7 +291,7 @@ $string['deleteerrors'] = '오류 삭제';
 $string['deleteunconfirmed'] = '인증 유예 기간';
 $string['deleteuser'] = '이용자 삭제';
 $string['density'] = '밀도';
-$string['denyemailaddresses'] = '거부된 이메일 도메인들';
+$string['denyemailaddresses'] = '거부할 이메일 도메인';
 $string['digestmailtime'] = '요약 이메일 보내는 시간';
 $string['disablecourseajax'] = 'AJAX 강좌 편집 비활성화';
 $string['disableuserimages'] = '사진 갱신 불허';
