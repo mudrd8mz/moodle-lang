@@ -2,6 +2,7 @@
       // grades.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
+$string['activities'] = 'Aktiviteter';
 $string['addcategory'] = 'Tilføj kategori';
 $string['addcategoryerror'] = 'Kan ikke tilføje kategori';
 $string['addexceptionerror'] = 'Der opstod en fejl i forbindelse med en tilføjelse af en undtagelse for brugerid:gradeitem';

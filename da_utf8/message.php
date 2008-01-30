@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.7+ (2006101007)
+      // message.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['addcontact'] = 'Tilføj kontakt';
@@ -27,12 +27,15 @@ $string['includeblockedusers'] = 'Inkluder blokerede brugere';
 $string['incomingcontacts'] = 'Indkomne kontakter ($a)';
 $string['keywords'] = 'Nøgleord';
 $string['keywordssearchresults'] = 'Søge resultat: $a beskeder fundet';
+$string['mailsent'] = 'Din besked blev sendt via e-mail.';
 $string['maxmessages'] = 'Maksimalt antal beskeder der vises i diskussions-historikken';
 $string['message'] = 'Besked';
 $string['messagehistory'] = 'Beskedhistorik';
 $string['messages'] = 'Beskeder';
 $string['messaging'] = 'Beskedsystem';
+$string['messagingdisabled'] = 'Beskedsystemet er deaktiveret, der sendes e-mails i stedet';
 $string['mycontacts'] = 'Mine kontakter';
+$string['newonlymsg'] = 'Vis kun nye';
 $string['newsearch'] = 'Ny søgning';
 $string['nomessages'] = 'Ingen ventende beskeder';
 $string['nomessagesfound'] = 'Ingen beskeder fundet';
@@ -53,6 +56,7 @@ $string['searchforperson'] = 'Søg efter en person';
 $string['searchmessages'] = 'Søg efter beskeder';
 $string['sendmessage'] = 'Send besked';
 $string['sendmessageto'] = 'Send besked til $a';
+$string['sendmessagetopopup'] = 'Send besked til $a - nyt vindue';
 $string['settings'] = 'Indstillinger';
 $string['settingssaved'] = 'Dine indstillinger er gemt';
 $string['showmessagewindow'] = 'Vis automatisk nye beskeder i et popupvindue. (det kræver at din browser ikke bloker for popupvinduer for dette site)';

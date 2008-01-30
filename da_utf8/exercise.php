@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.8 dev (2006102600)
+      // exercise.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['absent'] = 'Fraværende';
@@ -66,10 +66,10 @@ $string['incorrect'] = 'Forkert';
 $string['late'] = 'For sent';
 $string['lax'] = 'Lax';
 $string['leaguetable'] = 'Niveau for afleveringer';
-$string['mail1'] = 'Din opgave \'$a\' er blevet vurderet af';
-$string['mail2'] = 'Kommentarer og karakter kan ses i arbejdsopgaven \'$a\'';
+$string['mail1'] = 'Din opgave \"$a\" er blevet vurderet af';
+$string['mail2'] = 'Kommentarer og karakter kan ses i arbejdsopgaven \"$a\"';
 $string['mail3'] = 'Du kan se det i din arbejdsopgave';
-$string['mail6'] = 'Din vurdering af afleveringen \'$a\' er blevet gennemlæst.';
+$string['mail6'] = 'Din vurdering af afleveringen \"$a\" er blevet gennemlæst.';
 $string['mail7'] = 'Kommentarer fra $a kan ses i arbejdsopgaven.';
 $string['managingassignment'] = 'Ordne opgaven';
 $string['maximum'] = 'Maksimum';

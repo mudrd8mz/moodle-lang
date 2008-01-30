@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.7+ (2006101007)
+      // chat.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['beep'] = 'bip';
@@ -38,6 +38,7 @@ $string['messagebeepsyou'] = '$a har lige bippet dig!';
 $string['messageenter'] = '$a er lige kommet til';
 $string['messageexit'] = '$a har forladt chatten';
 $string['messages'] = 'Beskeder';
+$string['method'] = 'Chatmetode';
 $string['methoddaemon'] = 'Chatserverservice';
 $string['methodnormal'] = 'Normal metode (polling)';
 $string['modulename'] = 'Chat';
@@ -49,15 +50,23 @@ $string['nomessages'] = 'Ingen beskeder endnu';
 $string['normalkeepalive'] = 'Polling';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Ingen planlagte chatsessioner';
+$string['refreshroom'] = 'Genindlæs';
+$string['refreshuserlist'] = 'Genindlæs brugerliste';
+$string['removemessages'] = 'Slet alle beskeder';
 $string['repeatdaily'] = 'Samme tid hver dag';
 $string['repeatnone'] = 'Ingen gentagelser - brug den kun angivne tid';
 $string['repeattimes'] = 'Gentag sessioner';
 $string['repeatweekly'] = 'Samme tid hver uge';
 $string['savemessages'] = 'Gem forrige sessioner';
 $string['seesession'] = 'Se denne session';
+$string['serverhost'] = 'Servernavn';
+$string['serverip'] = 'Server-IP';
+$string['servermax'] = 'Max. antal brugere';
+$string['serverport'] = 'Server-port';
 $string['sessions'] = 'Chat sessioner';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Elever kan se gemte sessioner';
+$string['updatemethod'] = 'Opdateringsmetode';
 $string['viewreport'] = 'Se forrige sessioner';
 
 ?>

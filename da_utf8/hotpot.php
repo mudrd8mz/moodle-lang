@@ -37,6 +37,7 @@ $string['error_nofeedbackurlwebpage'] = 'Skriv en URL til websiden';
 $string['error_nofilename'] = 'Skriv et filnavn';
 $string['error_noquizzesfound'] = 'Ingen Hot Potatoes-quiz\'er fundet';
 $string['error_notfileorfolder'] = '\"$a\" er ikke en fil eller en mappe';
+$string['excelencodings'] = 'Excel-koder';
 $string['feedbackformmail'] = 'Feedbackformular';
 $string['feedbackmoodleforum'] = 'Moodle-forum';
 $string['feedbackmoodlemessaging'] = 'Moodle-besked';

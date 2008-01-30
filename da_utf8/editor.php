@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.7+ (2006101007)
+      // editor.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['about'] = 'Om denne editor';
@@ -58,6 +58,7 @@ $string['justifycenter'] = 'Centreret tekst';
 $string['justifyfull'] = 'Fast linjebredde';
 $string['justifyleft'] = 'Venstrestillet tekst';
 $string['justifyright'] = 'Højrestillet tekst';
+$string['lang'] = 'Sprog';
 $string['layout'] = 'Layout';
 $string['left'] = 'Venstre';
 $string['lefttoright'] = 'Retning fra venstre mod højre';
