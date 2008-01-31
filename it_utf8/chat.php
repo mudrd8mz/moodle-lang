@@ -50,6 +50,7 @@ $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Nessuna sessione programmata';
 $string['oldping'] = 'Timeout disconnessione';
+$string['pastchats'] = "Sessioni passate di chat";
 $string['refreshroom'] = 'Aggiorna stanza';
 $string['refreshuserlist'] = 'Aggiorna lista utenti';
 $string['removemessages'] = 'Rimuovi tutti i messaggi';

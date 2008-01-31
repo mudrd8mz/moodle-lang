@@ -11,6 +11,7 @@ $string['choice:deleteresponses'] = 'Rimuovere le risposte';
 $string['choice:downloadresponses'] = 'Scaricare le risposte';
 $string['choice:readresponses'] = 'Leggere le risposte';
 $string['choiceclose'] = 'Fino al';
+$string['choicefull'] = "Questa opzione è completet .";
 $string['choicename'] = 'Nome della scelta';
 $string['choiceopen'] = 'Aperta';
 $string['choicetext'] = 'Testo della domanda';
