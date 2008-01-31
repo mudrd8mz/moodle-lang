@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // countries.php - created with Moodle 2.0 dev (2007101507)
+      // countries.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['AD'] = 'アンドラ公国';
@@ -40,7 +40,7 @@ $string['BW'] = 'ボツワナ共和国';
 $string['BY'] = 'ベラルーシ';
 $string['BZ'] = 'ベリーズ';
 $string['CA'] = 'カナダ';
-$string['CC'] = 'ココス諸島';
+$string['CC'] = 'ココス (キーリング) 諸島';
 $string['CD'] = 'コンゴ民主共和国';
 $string['CF'] = '中央アフリカ共和国';
 $string['CG'] = 'コンゴ共和国';
@@ -150,9 +150,9 @@ $string['MM'] = 'ミャンマー連邦';
 $string['MN'] = 'モンゴル国';
 $string['MO'] = 'マカオ';
 $string['MP'] = '北マリアナ諸島';
-$string['MQ'] = 'マルチニーク島（フランス統治）';
+$string['MQ'] = 'マルチニーク島 (フランス統治)';
 $string['MR'] = 'モーリタニア・イスラム共和国';
-$string['MS'] = 'モントセラト（英国統治）';
+$string['MS'] = 'モントセラト (英国統治)';
 $string['MT'] = 'マルタ共和国';
 $string['MU'] = 'モーリシャス共和国';
 $string['MV'] = 'モルディヴ共和国';
