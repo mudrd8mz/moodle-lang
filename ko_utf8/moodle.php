@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101507)
+      // moodle.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
 $string['action'] = '동작';
 $string['actions'] = '동작들';
-$string['active'] = '활동적';
+$string['active'] = '활성';
 $string['activeusers'] = '활동적 이용자들';
 $string['activities'] = '활동';
 $string['activity'] = '활동';
@@ -393,7 +393,7 @@ $string['detailedless'] = '간단히';
 $string['detailedmore'] = '자세히';
 $string['directory'] = '디렉토리';
 $string['directorypaths'] = '디렉토리 경로';
-$string['disable'] = '유지관리모드 해제';
+$string['disable'] = '관리모드 해제';
 $string['displayingfirst'] = '오직 첫째 $a->count $a->things 이 보여집니다.';
 $string['displayingrecords'] = '$a 레코드 보기';
 $string['displayingusers'] = '$a->start 에서 $a->end 까지 이용자 보기';
@@ -522,7 +522,7 @@ $string['emailpasswordsent'] = '비밀번호 변경에 대한 확인을 해 주�
 <br />새로운 비밀번호가 포함된 이메일이 <b>$a->email</b> 로 보내졌습니다.
 <br />새비밀번호는 자동으로 생성되었습니다.
 <a href=\"$a->link\">비밀번호 변경하기</a> 로 가서 기억하기 쉬운 비밀번호로 바꾸세요.';
-$string['enable'] = '유지관리모드 활성화';
+$string['enable'] = '관리모드 활성';
 $string['encryptedcode'] = '암호화된 코드';
 $string['enroldate'] = '등록기간';
 $string['enroldetails'] = '등록 세부사항';
@@ -644,7 +644,7 @@ $string['fulllistofcourses'] = '강좌목록';
 $string['fullname'] = '전체 이름';
 $string['fullnamedisplay'] = '$a->firstname $a->lastname';
 $string['fullprofile'] = '상세정보';
-$string['fullsitename'] = '사이트 이름';
+$string['fullsitename'] = '사이트 정식 명칭';
 $string['functiondisabled'] = '그 기능은 현재 사용할 수 없음';
 $string['gd1'] = 'GD 1.x 가 설치됨';
 $string['gd2'] = 'GD 2.x 가 설치됨';
@@ -745,6 +745,7 @@ $string['htmlformat'] = 'HTML 포멧';
 $string['icqnumber'] = 'icq 번호';
 $string['idnumber'] = 'id 번호';
 $string['idnumbercourse'] = '강좌 식별 번호';
+$string['idnumbermod'] = '식별 번호';
 $string['idnumbertaken'] = '이 ID는 이미 쓰고 있습니다.';
 $string['imagealt'] = '그림 설명';
 $string['import'] = '가져옴';
@@ -894,7 +895,7 @@ $string['missingnewpassword'] = '빠짐: 새로운 비밀번호';
 $string['missingpassword'] = '빠짐: 비밀번호';
 $string['missingreqreason'] = '빠짐: 이유';
 $string['missingshortname'] = '빠짐: 사용자 이름';
-$string['missingshortsitename'] = '빠짐: 짧은 사이트명';
+$string['missingshortsitename'] = '빠짐: 단축 사이트명';
 $string['missingsitedescription'] = '빠짐: 사이트 설명';
 $string['missingsitename'] = '빠짐: 사이트 이름';
 $string['missingstrings'] = '번역안된 문자열 확인';
@@ -1267,7 +1268,7 @@ $string['settings'] = '설정들';
 $string['shortname'] = '짧은 이름';
 $string['shortnamecollisionwarning'] = '[*]=이 짧은 이름은 이미 다른 교육과정에 사용되고 있습니다. 승인이 될 수 있는 다른 이름으로 바꿔주십시오';
 $string['shortnametaken'] = '짧은 이름이 다른 곳( $a )에서 사용되고 있습니다.';
-$string['shortsitename'] = '사이트의 짧은 이름(예:과목명,반명,학교명)';
+$string['shortsitename'] = '사이트의 단축명(예:과목명,반명,학교명)';
 $string['show'] = '보기';
 $string['showactions'] = '활동 보기';
 $string['showadvancedsettings'] = '상세 설정 보기';

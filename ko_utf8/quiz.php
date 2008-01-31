@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (2007101506)
+      // quiz.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['1day'] = '하루';
@@ -281,13 +281,13 @@ $string['importcategory'] = '범주 가져오기';
 $string['importerror'] = '가져오기 과정에서 오류 발생';
 $string['importerrorquestion'] = '질문 가져오기 오류';
 $string['importfilearea'] = '강좌에 있는 기존 파일에서 가져오기';
-$string['importfileupload'] = '올려진 파일로부터 파일 가져오기';
-$string['importfromthisfile'] = '이 파일로부터 가져오기';
-$string['importingquestions'] = '파일로부터 $a 문항 가져오기';
+$string['importfileupload'] = '올려진 파일에서 가져오기';
+$string['importfromthisfile'] = '이 파일에서 가져오기';
+$string['importingquestions'] = '파일에서 $a 문항 가져오기';
 $string['importmax10error'] = '질문에 오류가 있습니다. 당신은 열 개 이상의 답을 가질 수 없습니다.';
 $string['importmaxerror'] = '질문에 오류가 있습니다. 너무 많은 답이 있습니다.';
 $string['importminerror'] = '질문에 오류가 있습니다. 질문 유형에 맞는 충분한 답이 없습니다.';
-$string['importquestions'] = '파일로부터 질문 가져오기';
+$string['importquestions'] = '파일에서 질문 가져오기';
 $string['incorrect'] = '부정확';
 $string['indivresp'] = '각 문항에 대한 개별 응답';
 $string['info'] = '정보';
@@ -440,7 +440,7 @@ $string['quiztimelimit'] = '시간제한: $a';
 $string['quiztimer'] = '퀴즈타이머';
 $string['random'] = '무작위 질문';
 $string['randomcreate'] = '무작위 질문 만들기';
-$string['randomsamatch'] = '무작위 단답일치형문항';
+$string['randomsamatch'] = '무작위 단답일치형';
 $string['randomsamatchcreate'] = '무작위 단답일치형문항 만들기';
 $string['randomsamatchintro'] = '각각의 질문에 상응하는 대답을 메뉴에서 골라주시기 바랍니다.';
 $string['randomsamatchnumber'] = '선택할 질문의 수';
@@ -486,7 +486,7 @@ $string['review'] = '재검토하기';
 $string['reviewafter'] = '퀴즈 마감 후에 재검토 허용';
 $string['reviewalways'] = '아무 때나 재검토를 허용';
 $string['reviewbefore'] = '퀴즈를 푸는 동안 재검토 허용';
-$string['reviewclosed'] = '퀴즈를 마감한 후에';
+$string['reviewclosed'] = '퀴즈 마감 이후';
 $string['reviewimmediately'] = '퀴즈 제출 직후';
 $string['reviewnever'] = '재검토를 허용하지 않음';
 $string['reviewofattempt'] = '$a 차 재검토';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (2007101506)
+      // glossary.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['addcomment'] = '덧글 쓰기';
@@ -138,14 +138,14 @@ $string['importedentries'] = '가져온 항목';
 $string['importentries'] = '항목 가져오기';
 $string['importentriesfromxml'] = 'XML파일에서 내용 가져옴';
 $string['includegroupbreaks'] = '모둠 해체 포함';
-$string['isglobal'] = '이 용어집은 공용인가요?';
+$string['isglobal'] = '공용 용어집';
 $string['letter'] = '이 용어집은 전역에 해당하는 것인가요?';
 $string['linkcategory'] = '이 범주로 자동 링크됨';
 $string['linking'] = '자동 연결';
 $string['mainglossary'] = '주 용어집';
 $string['maxtimehaspassed'] = '죄송합니다만, 수정할 수 있는 횟수($a)를 초과하였습니다!';
 $string['modulename'] = '용어집';
-$string['modulenameplural'] = '용어집';
+$string['modulenameplural'] = '용어활용';
 $string['newentries'] = '새 자료 항목';
 $string['newglossary'] = '새 용어집';
 $string['newglossarycreated'] = '새 용어집이 생성됨';
@@ -170,7 +170,7 @@ $string['ratingonlyteachers'] = '오직 $a 만이 추천할 수 있음';
 $string['ratings'] = '추천';
 $string['ratingssaved'] = '추천 저장';
 $string['ratingsuse'] = '추천 가능';
-$string['ratingtime'] = '아래 범위의 기간에 항목을 추천할 수 있도록 제한합니다:';
+$string['ratingtime'] = '추천 기간 제한';
 $string['rejectedentries'] = '반송된 항목';
 $string['rejectionrpt'] = '반송 보고서';
 $string['resetglossaries'] = '다음으로부터 입력항목 삭제';
