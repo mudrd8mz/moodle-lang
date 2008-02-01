@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // error.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
@@ -121,5 +121,4 @@ $string['usernotupdatednotexists'] = 'Nutzer/in nicht aktualisiert - der Account
 $string['wrongdestpath'] = 'Falscher Pfad';
 $string['wrongsourcebase'] = 'Falsche URL-Quelle';
 $string['wrongzipfilename'] = 'Falscher ZIP-Dateiname';
-
 ?>

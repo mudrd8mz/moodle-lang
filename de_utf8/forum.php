@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // forum.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
@@ -236,7 +236,7 @@ $string['searchwords'] = 'Alle Begriffe (können an jeder Stelle des Beitrags au
 $string['seeallposts'] = 'Alle Beiträge dieses Nutzers/dieser Nutzerin ansehen';
 $string['sendinratings'] = 'Aktuelle Bewertung senden';
 $string['shortpost'] = 'Kurzer Beitrag';
-$string['showsubscribers'] = 'Teilnehmer/innen im Forum verwalten';
+$string['showsubscribers'] = 'Abonnent/innen sehen';
 $string['singleforum'] = 'Diskussion zu einem einzigen Thema';
 $string['startedby'] = 'Beginnt mit';
 $string['subject'] = 'Betreff';

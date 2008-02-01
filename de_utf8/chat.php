@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // chat.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
@@ -8,7 +8,7 @@ $string['chat:deletelog'] = 'Logdaten eines Chats löschen';
 $string['chat:readlog'] = 'Logdaten eines Chats sehen';
 $string['chatintro'] = 'Einleitungstext';
 $string['chatname'] = 'Name dieses Chat-Raums';
-$string['chatreport'] = 'Chat-Sitzungen';
+$string['chatreport'] = 'Chat-Protokolle';
 $string['chattime'] = 'Nächste Chat-Sitzung';
 $string['configmethod'] = 'In der Standardeinstellung fragen die Clients auf dem Server nach Aktualisierungen nach. Dazu ist keine Konfiguration erforderlich. Das Verfahren funktioniert immer. Es führt jedoch zu einer hohen Belastung des Servers durch dauernde Anfragen. Die Verwendung des Server Daemon erfordert einen Shell-Zugang zu Unix, es führt jedoch zu einem schnelleren Chatablauf.';
 $string['confignormalupdatemode'] = 'Chatroom-Aktualisierungen arbeiten in der Regel im <em>Keep-Alive-Modus</em> von HTTP 1.1 zuverlässig. Dies beansprucht den Server jedoch stark. Eine weiterentwickelte Möglichkeit nutzt die <em>Stream-Strategie</em> zur Aktualisierung der Anzeige bei den Nutzer/innen. Die <em>Stream-Einstellung</em> nutzt die Möglichkeiten des Servers (ähnlich wie chatd) besser. Es kann jedoch sein, dass Ihr Server dies nicht unterstützt.';
@@ -50,6 +50,7 @@ $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Kein Termin vorgesehen';
 $string['oldping'] = 'Timeout für Trennung';
+$string['pastchats'] = 'Vorherige Chat-Sitzungen';
 $string['refreshroom'] = 'Aktualisierung Raum';
 $string['refreshuserlist'] = 'Aktualisierung Nutzerliste';
 $string['removemessages'] = 'Alle Mitteilungen entfernen';
@@ -66,7 +67,7 @@ $string['serverport'] = 'Server-Port';
 $string['sessions'] = 'Chat-Sitzungen';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Teilnehmer/innen können Chat-Protokolle sehen';
-$string['updatemethod'] = 'Updatemethode';
-$string['viewreport'] = 'Vorherige Chat-Sitzung einsehen';
+$string['updatemethod'] = 'Update-Methode';
+$string['viewreport'] = 'Vorherige Chat-Protokolle einsehen';
 
 ?>

@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // admin.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
@@ -224,6 +224,7 @@ $string['configsitepolicy'] = 'Wenn Sie eine Zustimmungserklärung verwenden, di
 $string['configslasharguments'] = 'Dateien (Bilder, Dokumente usw.) werden über ein Script ausgeliefert und können mit der Aktivierung \'Slash-Parameter benutzen\' besser in Browsern, Proxy-Servern usw. zwischengespeichert werden. Leider erlauben nicht alle PHP-Server diese Methode, so dass Sie die Option deaktivieren müssen, falls Probleme mit Dateiauslieferung oder der Bildanzeige (z.B. bei den Nutzerfotos) auftreten.';
 $string['configsmartpix'] = 'Wenn diese Einstellung aktiviert ist, werden Icons durch ein PHP-Skript bereitgestellt, das das aktuelle Design, alle übergeordneten Designs (parent themes) und das /pix Verzeichnis im Moodle-Installationsverzeichnis durchsucht. Damit müssen Grafiken u.U. nicht mehrfach in verschiedenen Designs bereitgestellt werden - zu Lasten geringfügiger Geschwindigkeitseinbußen.';
 $string['configsmtphosts'] = 'Geben Sie hier den vollen Namen von einem oder mehreren lokalen SMTP-Servern an, die Moodle für den E-Mail-Versand benutzen soll (z.B. \'mail.a.de\' oder \'mail.a.de;mail.b.de\'). Wenn Sie dieses frei lassen, wird Moodle die Standard-Methode von PHP zum Senden von E-Mails verwenden.';
+$string['configsmtpmaxbulk'] = 'Mehrere Mitteilungen im Paket bei einer einzigen SMTP-Verbindung versenden. Dies könnte den Versand von E-Mails beschleunigen.';
 $string['configsmtpuser'] = 'Sofern Sie einen SMTP-Server angegeben haben und der Server Zugangsdaten erfordert, dann geben Sie hier Nutzernamen und Kennwort an.';
 $string['configstartwday'] = 'Beginn der Woche';
 $string['configstatsfirstrun'] = 'Die Einstellung legt den Zeitraum fest, um den die auszuwertenden Logdaten zurückliegen dürfen. Wenn Sie sehr viele Aktivitäten in den Kursen haben oder sich einen Server mit anderen Anwendungen teilen, sollten Sie keinen zu langen Zeitraum wählen. Die Auswertung erfordert eine hohe Serverleistung. (Hinweis: für diese Einstellung gilt: 1 Monat = 28 Tage. In der grafischen Auswertung und den Berichten ist 1 Monat = 1 Kalendermonat.)';
@@ -366,6 +367,7 @@ $string['gdversion'] = 'GD-Version';
 $string['generalsettings'] = 'Standardeinstellungen';
 $string['geoipfile'] = 'GeoIP-City-Datei';
 $string['globalsquoteswarning'] = '<p><strong>Wichtiger Warnhinweis</strong>: Damit Sie erfolgreich mit Moodle arbeiten können, <br />sind einige Änderungen an den derzeitigen PHP-Einstellungen erforderlich.<p/><p>Die Einstellung  <code>register_globals=off</code> und/oder <code>magic_quotes_gpc=on</code> <em>muss</em> gesetzt werden. <br />Wenn möglich, sollten Sie  <code>register_globals=off</code> einstellen <br /> Sicherheitseinstellung für Server; die Einstellung <code>magic_quotes_gpc=on</code> ist ebenfalls ratsam.<p/><p>Die Einstellungen werden in der Datei <code>php.ini</code> vorgenommen, in der Apache/IIS <br />Konfiguration oder einer <code>.htaccess</code> Datei.</p>';
+$string['globalswarning'] = '<p><strong>Sicherheitshinweis</strong>: Um ordnungsgemäß funktionieren zu können, benötigt <br />Moodle mehrere Änderungen in Ihren aktuellen PHP-Einstellungen.<p/> <p>Sie <em>müssen</em> den Parameter <code>register_globals=off</code> setzen.<p>Diese Einstellung können Sie vornehmen, in dem Sie die Datei <code>php.ini</code>, die Apache/IIS <br />Konfiguration oder die Datei <code>.htaccess</code> bearbeiten.</p>';
 $string['googlemapkey'] = 'Schlüssel für Google Maps API';
 $string['gotofirst'] = 'Zum ersten fehlenden Text springen';
 $string['gradebook'] = 'Bewertungen';
@@ -637,6 +639,7 @@ $string['sitesectionhelp'] = 'Falls Sie dies wählen, wird ein Themenbereich auf
 $string['slasharguments'] = 'Slash-Parameter benutzen';
 $string['smartpix'] = 'Suche in den Bildern';
 $string['smtphosts'] = 'SMTP-Server';
+$string['smtpmaxbulk'] = 'SMTP-Massenversand';
 $string['smtppass'] = 'SMTP-Kennwort';
 $string['smtpuser'] = 'SMTP-Nutzername';
 $string['stats'] = 'Statistiken';

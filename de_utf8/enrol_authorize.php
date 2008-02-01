@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.9 dev (2007072500)
+      // enrol_authorize.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['adminacceptccs'] = 'Welche Kreditkartentypen sollen akzeptiert werden?';
@@ -189,9 +189,11 @@ $string['unenrolstudent'] = 'Teilnehmer/in aus Kurs löschen?';
 $string['uploadcsv'] = 'Eine CSV-Datei hochladen';
 $string['usingccmethod'] = 'Eintragung verwendet <a href=\"$a->url\"><strong> Kreditkarte</strong></a>';
 $string['usingecheckmethod'] = 'Eintragung verwendet <a href=\"$a->url\"><strong> eCheck</strong></a>';
+$string['verifyaccount'] = 'Ihre Zugangsdaten bei authorize.net werden geprüft';
+$string['verifyaccountresult'] = 'Prüfergebnis: $a';
 $string['void'] = 'Gültig';
 $string['voidyes'] = 'Ihre Transaktion wird abgebrochen. Sind Sie sicher?';
-$string['welcometocoursesemail'] = 'Liebe Teilnehmerin, lieber Teilnehmer,
+$string['welcometocoursesemail'] = 'Guten Tag $a->name,
 
 vielen Dank für Ihre Zahlung. Sie sind nun als Teilnehmer/in im Kurs
 

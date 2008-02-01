@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // role.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
@@ -64,7 +64,7 @@ $string['errorbadroleshortname'] = 'Ungültiger Rollenname';
 $string['errorexistsrolename'] = 'Rollenname existiert bereits';
 $string['errorexistsroleshortname'] = 'Rollenname existiert bereits';
 $string['existingusers'] = '$a bestehende Nutzer/innen';
-$string['globalrole'] = 'Globale Rolle';
+$string['globalrole'] = 'Systemweite Rolle';
 $string['globalroleswarning'] = 'WARNUNG! Jede Rolle, die Sie von dieser Seite aus zuweisen, wird für die zugewiesenen Nutzer/innen und die gesamte Website angelegt, also für wirklich alle Kurse und die Startseite.';
 $string['grade:edit'] = 'Bewertungen bearbeiten';
 $string['grade:export'] = 'Bewertungen exportieren';
@@ -94,6 +94,7 @@ $string['manageroles'] = 'Rollen verwalten';
 $string['metaassignerror'] = 'Diese Rolle kann nicht an \"$a\" zugewiesen werden, weil die Fähigkeit \"Metakurse verwalten\" dafür notwendig ist.';
 $string['metaunassignerror'] = 'Die Rolle von \"$a\" wurde automatisch wieder zugewiesen. Bitte löschen Sie die Zuweisung stattdessen in den übergeordneten Kursen.';
 $string['morethan'] = 'Mehr als $a';
+$string['multipleroles'] = 'Mehrfach-Rollen';
 $string['my:manageblocks'] = 'Blöcke auf der myMoodle-Seite verwalten';
 $string['nocapabilitiesincontext'] = 'In diesem Kontext sind keine Fähigkeiten verfügbar';
 $string['notes:manage'] = 'Anmerkungen verwalten';

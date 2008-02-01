@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // grades.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
@@ -38,6 +38,7 @@ $string['aggregationposition'] = 'Anzeige des Gesamtergebnisses';
 $string['aggregationview'] = 'Gesamtergebnisansicht';
 $string['allgrades'] = 'Alle Bewertungen nach Kategorien';
 $string['allstudents'] = 'Alle Teilnehmer/innen';
+$string['allusers'] = 'Alle Nutzer/innen';
 $string['autosort'] = 'Auto-Sortierung';
 $string['availableidnumbers'] = 'Verfügbare ID-Nummern';
 $string['average'] = 'Durchschnitt';
@@ -101,6 +102,7 @@ $string['configshowlocks'] = 'Symbol zum Sperren bzw. Freigeben neben jeder Bewe
 $string['configshownumberofgrades'] = 'Anzahl der erfassten Bewertungen in Klammern neben dem Durchschnittswert anzeigen. Beispiel: 45 (34)';
 $string['configshowranges'] = 'Zeile anzeigen, die die möglichen Bereiche für alle Bewertungen in der Bewerterübersicht darstellt';
 $string['configshowrank'] = 'Rang für jeden Aspekt anzeigen';
+$string['configshowuseridnumber'] = 'Nutzer-ID in einer separaten Spalte anzeigen';
 $string['configshowuserimage'] = 'Nutzerbild neben dem Namen in der Bewerterübersicht anzeigen';
 $string['configstudentsperpage'] = 'Anzahl der Teilnehmer/innen, die pro Seite in der Bewertungsübersicht gezeigt werden';
 $string['configstudentsperpagedefault'] = 'Anzahl der Teilnehmer/innen, die pro Seite in der Bewertungsübersicht gezeigt werden. Lassen Sie das Feld leer und nutzen Sie die Voreinstellung (aktuell $a).';
@@ -206,6 +208,7 @@ $string['gradeletter'] = 'Note';
 $string['gradeletterhelp'] = 'Hilfe zur Noten-Definition';
 $string['gradeletternote'] = 'Füllen Sie die letzte Zeile und speichern Sie, <br />um eine neue Leerzeile für eine weitere Note zu erhalten.';
 $string['gradeletters'] = 'Bewertungsbuchstaben';
+$string['gradelong'] = '$a->grade / $a->max';
 $string['grademax'] = 'Maximale Bewertung';
 $string['grademaxhelp'] = 'Der größte erlaubte Wert für diesen Bewertungsaspekt';
 $string['grademin'] = 'Minimale Bewertung';
@@ -395,6 +398,7 @@ $string['savepreferences'] = 'Grundeinstellungen speichern';
 $string['scaledpct'] = 'Berechnete %%';
 $string['scaleidhelp'] = 'Skala, zu der $a verlinkt ist.';
 $string['scalestandardhelp'] = 'Eine Standard-Skala ist eine Skala, die systemweit in allen Kursen verfügbar ist.';
+$string['selectalloroneuser'] = 'Alle oder einen auswählen';
 $string['selectdestination'] = 'Ziel für $a auswählen';
 $string['separator'] = 'Trennzeichen';
 $string['sepcomma'] = 'Komma';
@@ -422,6 +426,7 @@ $string['shownooutcomes'] = 'Lernziele verbergen';
 $string['shownumberofgrades'] = 'Anzahl in Durchschnittsbewertungen anzeigen';
 $string['showranges'] = 'Stufen anzeigen';
 $string['showrank'] = 'Rang anzeigen';
+$string['showuseridnumber'] = 'Nutzer-ID anzeigen';
 $string['showuserimage'] = 'Nutzerbilder anzeigen';
 $string['showverbose'] = 'Anzeige $a->category$a->itemmodule $a->itemname';
 $string['sitewide'] = 'Für die ganze Website';

@@ -198,5 +198,4 @@ $string['wikiusage'] = 'Wiki-Anleitung';
 $string['withbinaries'] = 'Binäre Inhalte einbinden';
 $string['withvirtualpages'] = 'Wiki-Links einbinden';
 $string['wrongversionrange'] = '$a ist kein zulässiger Wert';
-
 ?>

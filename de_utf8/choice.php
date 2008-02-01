@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // choice.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
@@ -11,6 +11,7 @@ $string['choice:deleteresponses'] = 'Stimmabgaben löschen';
 $string['choice:downloadresponses'] = 'Stimmabgaben herunterladen';
 $string['choice:readresponses'] = 'Stimmabgaben sehen';
 $string['choiceclose'] = 'bis (Datum, Uhrzeit)';
+$string['choicefull'] = 'Diese Abstimmung ist voll und es gibt keine verfügbaren Plätze mehr.';
 $string['choicename'] = 'Name der Abstimmung';
 $string['choiceopen'] = 'von (Datum, Uhrzeit)';
 $string['choicetext'] = 'Fragestellung';
