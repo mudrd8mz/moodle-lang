@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (2007101505)
+      // auth.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['CASform'] = '認証選択';
@@ -248,11 +248,17 @@ $string['auth_shib_convert_data_description'] = 'あなたがShibbolethから提
 $string['auth_shib_convert_data_warning'] = 'ファイルが存在しないか、ウェブプロセスで読み取れません!';
 $string['auth_shib_instructions'] = 'あなたの機関がShibbolethをサポートしている場合、Shibboleth経由のアクセスには、<a href=\"$a\">Shibbolethログイン</a>を使用してください。 <br />Shibbolethをサポートしていない場合は、ここに表示される通常ログインを使用してください。';
 $string['auth_shib_instructions_help'] = 'Shibbolethに関してユーザに提示する説明文です。 これはログインページの説明セクションに表示されます。Shibbolethユーザが簡単にログインできるよう「<b>$a</b>」 のようなリンクを入れてください。';
+$string['auth_shib_no_organizations_warning'] = 'あなたが統合WAYFサービスを利用したい場合、カンマで区切ったアイデンティティプロバイダのエンティティID、名称およびセッションイニシエータのリストを提供してください。';
 $string['auth_shib_only'] = 'Shibbolethのみ';
 $string['auth_shib_only_description'] = 'Shibboleth認証を強制する場合は、このオプションをチェックしてください。';
 $string['auth_shib_username_description'] = 'Moodleユーザ名として使用されるShibbolethウェブサーバ環境のユーザ名';
+$string['auth_shibboleth_contact_administrator'] = 'あなたが特定の組織と関係せず、このサーバのコースにアクセスする必要がある場合、Moodle管理者にご連絡ください:';
+$string['auth_shibboleth_errormsg'] = 'あなたがメンバーの組織を選択してください!';
 $string['auth_shibboleth_login'] = 'Shibbolethログイン';
+$string['auth_shibboleth_login_long'] = 'Shibboleth経由でMoodleにログインする';
 $string['auth_shibboleth_manual_login'] = '手動ログイン';
+$string['auth_shibboleth_select_member'] = '私は ...';
+$string['auth_shibboleth_select_organization'] = 'Shibboleth経由の認証のため、あなたの組織をドロップダウンリストから選択してください。';
 $string['auth_shibbolethdescription'] = 'この方法を使用すると、<a href=\"http://shibboleth.internet2.edu/\">Shibboleth</a>を使用して、ユーザが作成および認証されます。<br />あなたが使用しているMoodleにShibbolethを設定するには、<a href=\"../auth/shibboleth/README.txt\">README</a> をご覧ください。';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_sync_script'] = 'Cron同期化スクリプト';
