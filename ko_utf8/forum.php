@@ -149,6 +149,7 @@ $string['noguestsubscribe'] = '죄송합니다, 손님은 이메일을 통해 �
 $string['noguesttracking'] = '죄송합니다, 손님은 경로 추적이 허용되지 않습니다.';
 $string['nomorepostscontaining'] = '\'$a\'를 포함한 글이 더이상 없습니다.';
 $string['nonews'] = '아직 뉴스가 게시되지 않았습니다.';
+$string['nopostforum'] = '미안합니다만, 이 포럼에 게시할 수 없습니다.';
 $string['noposts'] = '게시물 없음';
 $string['nopostscontaining'] = '\'$a\'를 포함하는 게시물이 없습니다.';
 $string['noquestions'] = '이 포럼에는 아직 질문이 없습니다.';

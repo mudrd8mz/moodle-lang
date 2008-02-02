@@ -6,7 +6,7 @@ $string['CASform'] = '인증 선택';
 $string['accesCAS'] = 'CAS 사용자';
 $string['accesNOCAS'] = '기타 사용자';
 $string['actauthhdr'] = '활성화된 인증 플러그인';
-$string['alternatelogin'] = '이 사이트를 위한 로그인 페이지로 사용할 URL을 입력. <strong>\'$a\'</strong> 처럼 실행문을 가진 형태여야 하고 <strong>사용자ID</strong>  <strong>password</strong> 그리고 Return 필드를 포함하여야 한다. 
+$string['alternatelogin'] = '이 사이트를 위한 로그인 페이지로 사용할 URL을 입력. <strong>\'$a\'</strong> 처럼 실행문을 가진 형태여야 하고 <strong>사용자ID</strong>와  <strong>비밀번호</strong>를 리턴할 수 있는 필드를 포함하여야 한다. 
 <br />정확한 URL을 입력하도록 주의하지 않으면 이 사이트에 갇혀 버릴 수도 있다.<br />
 기본 로그인 페이지를 사용하려면 이 칸을 빈칸으로 남겨두어라.';
 $string['alternateloginurl'] = '대체 로그인 URL';
@@ -256,15 +256,21 @@ $string['auth_shib_convert_data'] = '자료 변경 API';
 $string['auth_shib_convert_data_description'] = '추후 암호에 의해 제공된 데이터를 변경하기 위해 이 API를 사용할 수 있다. 좀 더 많은 규정을 위해
 <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> 을 읽어보라.';
 $string['auth_shib_convert_data_warning'] = '파일이 존재하지 않거나 서버가 파일을 읽을 수 없습니다!';
-$string['auth_shib_instructions'] = '만약 여러분의 기관이 Shibboleth login을 지원한다면 <a href=\"$a\"> Shibboleth 로그인 </a>을 사용하라.<br />그렇지 않으면 여기 있는 정상적인 로그인 형식을 사용하라.';
-$string['auth_shib_instructions_help'] = '여기에 Shibboleth를 설명하기 위한 당신의 주문 내용을 제공하여야 한다. 그것은 명령 섹션의 로그인 페이지에 보여질 것이다. 설명서에는 사용자가 로그인을 원할 때 클릭할 수 있는 \"<b>$a</b>\"링크를  포함하여야만 한다.';
+$string['auth_shib_instructions'] = '만약 여러분의 기관이 Shibboleth를 지원한다면 <a href=\"$a\"> Shibboleth 로그인 </a>을 사용하라.<br />그렇지 않으면 여기 있는 정상적인 로그인 형식을 사용하라.';
+$string['auth_shib_instructions_help'] = '여기에 Shibboleth를 설명하기 위한 안내문을 제공하여야 한다. 이는 안내 영역에 있는 로그인 화면에 나타날 것이다. 설명서에는 사용자가 로그인을 원할 때 클릭할 수 있는 \"<b>$a</b>\"링크를  포함하여야만 한다.';
+$string['auth_shib_no_organizations_warning'] = '통합된 WAYF 서비스를 이용하려면, 반드시 제공자의 entityID, 이름 및 부가적인 세션 이니시에이터 목록을 컴마로 구분해 제공해야 한다.';
 $string['auth_shib_only'] = 'Shibboleth만';
-$string['auth_shib_only_description'] = '만약 암호 확증이 강요된다면 이 옵션을 체크하십시오.';
+$string['auth_shib_only_description'] = '만약 Shibboleth 인증이 강요된다면 이 옵션을 체크하십시오.';
 $string['auth_shib_username_description'] = '모듈 사용자 이름으로 사용되어야 하는 다양한 웹서버 암호 환경의 이름을 지어라.';
+$string['auth_shibboleth_contact_administrator'] = '제공된 기관에 소속되어 있지 않을 경우 이 서버를 통해 강좌에 접속해야 할 필요가 있으며 다음의 관리자에게 연락하기 바란다 :';
+$string['auth_shibboleth_errormsg'] = '다음에서 자신이 소속되어 있는 기관을 선택하라!';
 $string['auth_shibboleth_login'] = 'Shibboleth 로그인';
+$string['auth_shibboleth_login_long'] = 'Shibboleth를 통한 무들 로그인';
 $string['auth_shibboleth_manual_login'] = '수동 로그인';
-$string['auth_shibbolethdescription'] = '이 방법을 사용하는 사용자는 창조적이며 <a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth</a>을 사용하는 것을 증명한다. 
-<br>어떻게 당신의 모듈을 비빌먼호와 함께 설치하는 가에 대해 <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a>를 반드시 읽어 두어라.';
+$string['auth_shibboleth_select_member'] = '내 소속 기관은 ...';
+$string['auth_shibboleth_select_organization'] = 'Shibboleth로 인증을 받으려면 다음 펼침목록에서 소속 기관을 선택하라:';
+$string['auth_shibbolethdescription'] = '이 방법을 사용하는 사용자는 <a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth</a>에 의해 생성되고 인증을 받은 사람들이다. 
+<br>Shibboleth를 이용하여 무들을 설정하는 방법은 <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a>를 읽어보기 바란다.';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_sync_script'] = 'cron 동기화 스크립트';
 $string['auth_updatelocal'] = '내부 데이터의 개정';
@@ -312,9 +318,9 @@ $string['rpc_negotiation_timeout'] = 'RPC 교섭시간 초과';
 $string['selfregistration'] = '자체 등록';
 $string['selfregistration_help'] = '자체 등록에 쓰일 인증 플러그인을 선택하시오.';
 $string['sha1'] = 'SHA-1 해쉬';
-$string['shib_no_attributes_error'] = 'Shibboleth인증을 쓰는 것 같습니다만, 무들은 당신의 사용자 속성을 전달받지 못했습니다. 필요한 속성($a)을 무들 서비스 제공자 혹은 이 서버의 웹관리자에게 전달하였는지를 점검하여 주시기 바랍니다.';
-$string['shib_not_all_attributes_error'] = '무들은 당신의 경우와 같은 사례를 처리하기 위해서 별도의 Shibboleth 속성이 필요합니다.<br />웹관리자나 인증제공자에게 문의하시기 바랍니다.';
-$string['shib_not_set_up_error'] = 'Shibboleth인증이 제대로 설정되지 않은 것 같습니다. Shibboleth인증을 설정하기 위한 자세한 내용은 <a href=\"README.txt\">README</a>를 확인하여 주기 바랍니다.';
+$string['shib_no_attributes_error'] = 'Shibboleth인증을 쓰는 것 같습니다만, 무들은 사용자 속성을 전달받지 못했습니다. 필요한 속성($a)을 무들 서비스 제공자 혹은 이 서버의 웹관리자에게 전달하였는지를 점검하여 주시기 바랍니다.';
+$string['shib_not_all_attributes_error'] = '무들은 당신의 경우와 같은 사례를 처리하기 위해서 다음과 같은 Shibboleth 속성이 필요합니다. $a <br />웹관리자나 인증제공자에게 문의하시기 바랍니다.';
+$string['shib_not_set_up_error'] = '화면에 아무런 Shibboleth 환경 변수가 없는 것으로 보아 인증 환경이 제대로 설정되지 않은 것 같습니다. Shibboleth 인증을 설정하기 위한 자세한 내용은 <a href=\"README.txt\">README</a>를 참고하거나 무들 관리자에게 연락하기 바랍니다.';
 $string['showguestlogin'] = '로그인 화면에서 손님 로그인 단추를 보이거나 숨길 수 있다.';
 $string['stdchangepassword'] = '표준 비밀번호변경 화면 사용';
 $string['stdchangepassword_expl'] = '만약 외부 인증 시스템이 무들을 통한 비밀번호 변경을 허용한다면, 이것을 \"예\"로 바꾸시오. 이 설정은 \'비밀번호 URL 변경\'보다 우선합니다.';
