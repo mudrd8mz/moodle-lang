@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8.3 + (2007021533)
+      // moodle.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['action'] = 'Akcia';
@@ -1180,6 +1180,8 @@ $string['rsserror'] = 'Chyba pri čítaní RSS údajov';
 $string['rsstype'] = 'RSS kanály pre túto aktivitu';
 $string['saveandnext'] = 'Uložiť a ísť ďalej';
 $string['savechanges'] = 'Uložiť zmeny';
+$string['savechangesanddisplay'] = 'Uložiť zmeny a zobraziť';
+$string['savechangesandreturntocourse'] = 'Uložiť zmeny a návrat do kurzu';
 $string['savedat'] = 'Uložené:';
 $string['savepreferences'] = 'Uložiť preferencie';
 $string['saveto'] = 'Uložiť do';

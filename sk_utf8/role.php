@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8.3 + (2007021533)
+      // role.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['addrole'] = 'Pridať novú rolu';
 $string['allow'] = 'Povoliť';
 $string['allowassign'] = 'Povoliť priradenia rol';
 $string['allowoverride'] = 'Povoliť prepísanie rol';
-$string['assignglobalroles'] = 'Priradiť globálne roly';
+$string['assignglobalroles'] = 'Priradiť systémové roly';
 $string['assignroles'] = 'Priradiť roly';
 $string['blog:create'] = 'Vytvoriť nové položky blogu';
 $string['blog:manageentries'] = 'Upravovať a spravovať položky';

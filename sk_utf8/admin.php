@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8.2+ (2007021520)
+      // admin.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -299,7 +299,8 @@ $string['frontpagesettings'] = 'Nastavenie titulnej stránky';
 $string['fullnamedisplay'] = 'Formát celého mena';
 $string['gdversion'] = 'Verzia GD';
 $string['generalsettings'] = 'Všeobecné nastavenia';
-$string['globalsquoteswarning'] = '<p><b>Bezpečnostné upozornenie</b>: pre správne fungovanie Moodle je nutné upraviť nastavenie PHP <br />na vašom serveri.<p/><p><em>Musíte</em> nastaviť <code>register_globals=off</code> a/alebo <code>magic_quotes_gpc=on</code>. <br />Nastavenie <code>register_globals=off</code> zvyšuje všeobecné zabezpečenie servera, nastaviť <code>magic_quotes_gpc=on</code> <br />sa doporučuje z rovnakého dôvodu.<p/><p>Nastavenia skontrolujte v súbore <code>php.ini</code>, v konfiguračnom súbore Apache/IIS, alebo v súbore <code>.htaccess</code>.</p>';
+$string['globalsquoteswarning'] = '<p><strong>Bezpečnostné upozornenie</strong>: pre správne fungovanie Moodle je nutné upraviť nastavenie PHP <br />na vašom serveri.<p/><p><em>Musíte</em> nastaviť <code>register_globals=off</code> a/alebo <code>magic_quotes_gpc=on</code>. <br />Nastavenie <code>register_globals=off</code> zvyšuje všeobecné zabezpečenie servera, nastaviť <code>magic_quotes_gpc=on</code> <br />sa doporučuje z rovnakého dôvodu.<p/><p>Nastavenia skontrolujte v súbore <code>php.ini</code>, v konfiguračnom súbore Apache/IIS, alebo v súbore <code>.htaccess</code>.</p>';
+$string['globalswarning'] = '<p><strong>Bezpečnostné upozornenie</strong>: pre správne fungovanie Moodle je nutné upraviť nastavenie PHP <br />na vašom serveri.<p/><p><em>Musíte</em> nastaviť <code>register_globals=off</code>. <p>Nastavenie skontrolujte v súbore <code>php.ini</code>, v konfiguračnom súbore Apache/IIS, alebo v súbore <code>.htaccess</code>.</p>';
 $string['gotofirst'] = 'Prvý chýbajúci reťazec';
 $string['gradebook'] = 'Klasifikácia';
 $string['gradebookroles'] = 'Klasifikovaní používatelia';
@@ -337,7 +338,8 @@ $string['langimport'] = 'Správa jazykových balíčkov';
 $string['langimportsuccess'] = 'Jazykový balíček bol úspešne aktualizovaný.';
 $string['langlist'] = 'Ktoré jazyky zobrazovať v ponuke';
 $string['langmenu'] = 'Zobrazovať ponuku jazykov';
-$string['langpackremoved'] = 'Jazykový balíček bol odinštalovaný.';
+$string['langnoeditenglish'] = 'Nie je možné prepisovať základný anglický jazykový balíček. Prestavte jazykový adresár pre vytvorenie lokálnych zmien.';
+$string['langpackremoved'] = 'Jazykový balíček bol odinštalovaný';
 $string['langpacks'] = 'Jazykové balíčky';
 $string['langpackupdated'] = 'Jazykový balíček $a bol úspešne aktualizovaný.';
 $string['langpackwillbeupdated'] = 'Upozornenie pre prekladateľov: Moodle sa pokúsi počas aktualizácie nahrať aj najnovšiu verziu jazykového balíčka. Všetky zmeny v štandardnom (nie lokálnom) adresári budú prepísané.';
@@ -493,8 +495,8 @@ $string['runclamavonupload'] = 'Použiť clam AV pre nahrávané súbory';
 $string['savechanges'] = 'Uložiť zmeny';
 $string['search'] = 'Hľadaj';
 $string['searchinsettings'] = 'Hľadaj v nastaveniach';
-$string['sectionerror'] = 'Chyba v sekcii!';
 $string['searchresults'] = 'Výsledky hľadania';
+$string['sectionerror'] = 'Chyba v sekcii!';
 $string['secureforms'] = 'Použiť pridané zabezpečenie formulára';
 $string['security'] = 'Zabezpečenie';
 $string['server'] = 'Server';
