@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta 3 (2007101504)
+      // moodle.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['action'] = 'Akce';
@@ -176,7 +176,7 @@ $string['blocksaddedit'] = 'Přidat/Upravit bloky';
 $string['blockseditoff'] = 'Vypnout úpravu bloků';
 $string['blocksediton'] = 'Zapnout úpravu bloků';
 $string['blocksetup'] = 'Nastavení bloků';
-$string['blocksuccess'] = '$a tabulek bylo korektně nastaveno';
+$string['blocksuccess'] = 'Tabulky bloku \'$a\' byly korektně nastaveny';
 $string['bycourseorder'] = 'Dle pořadí kurzů';
 $string['byname'] = 'od $a';
 $string['bypassed'] = 'Přeskočeno';
@@ -1073,7 +1073,7 @@ $string['parentcategory'] = 'Nadřazená kategorie';
 $string['parentcoursenotfound'] = 'Nadřazený kurz nenalezen!';
 $string['parentcoursenotmetacourse'] = 'Nadřazený kurz není metakurz!';
 $string['parentfolder'] = 'Nadřazená složka';
-$string['parentlanguage'] = '<< Překladatelé: Pokud Váš jazyk má \"nadřazený\" jazyk\", který má Moodle používat v případech, kdy řetězce ve vašem jazykovém balíčku chybí, specifikujte jeho kód zde. Příklad: nl >>';
+$string['parentlanguage'] = '<< Pokud chcete definovat sekundární jazyk, který má Moodle používat v případech, kdy řetězce ve vašem jazykovém balíčku chybí, specifikujte jeho kód zde. Příklad: sk_utf8>>';
 $string['participants'] = 'Účastníci';
 $string['participationratio'] = 'Poměr participace';
 $string['participationreport'] = 'Protokol participace';
