@@ -217,7 +217,7 @@ $string['configsitepolicy'] = 'このサイトを使用する前に、すべて�
 $string['configslasharguments'] = 'ファイル (イメージ、アップロード等) は、スラッシュを使ってプログラムに受け渡されます。この方法により、簡単にブラウザ内やプロクシにイメージを一時保存させることが可能です。いくつかのPHPサーバではこの方法が取れない場合があります。もし、アップロードされたファイルやイメージ (例 ユーザの顔写真) の表示に問題がある場合、この設定を無効にしてください。';
 $string['configsmartpix'] = 'この設定を有効にすると、PHPスクリプトが現在のテーマ、そしてすべてのテーマ、最後にMoodle/pixフォルダを検索して、アイコンを表示します。これはテーマ間の重複するイメージファイルを減らすことができますが、パフォーマンスにおいてわずかな負荷がかかります。';
 $string['configsmtphosts'] = 'Moodleでメールを送信するときに使用する1つ以上のローカルSMTPサーバを入力してください (例 mail.a.com またはmail.a.com;mail.b.com)。空白にした場合、MoodleはデフォルトのPHPメール送信機能を使用します。';
-$string['configsmtpmaxbulk'] = '複数のメッセージを1つのSMTPセッションで送信します。これにより、メール送信をスピードアップすることができます。';
+$string['configsmtpmaxbulk'] = 'SMTPセッションごとに送信するメッセージの最大数です。メッセージのグルーピングにより、メールの送信スピードをスピードアップすることができます。2より少ない値に設定した場合、メールごとに新しいSMTPセッションの作成が強制されます。';
 $string['configsmtpuser'] = '上でSMTPサーバを設定し、なおかつ認証が必要な場合、ユーザ名とパスワードを設定してください。';
 $string['configstartwday'] = '週の始め';
 $string['configstatsfirstrun'] = 'ここでは、cronジョブが<b>最初の</b>統計処理で、どのくらい過去にさかのぼるか指定します。トラフィックが多く、共有ホスティングを利用している場合、あまりにも過去にさかのぼるのは良い考えではありません。統計処理は長時間を必要とし、リソースに過大な負荷をかけます。(この設定では、 1ヵ月 = 28日ですので注意してください。 グラフおよびレポートの生成には、1ヶ月= 1カレンダー月が利用されます。)';
@@ -627,7 +627,7 @@ $string['sitesectionhelp'] = '選択した場合、トピックセクション�
 $string['slasharguments'] = 'スラッシュを使用する';
 $string['smartpix'] = 'スマートpixサーチ';
 $string['smtphosts'] = 'SMTPホスト';
-$string['smtpmaxbulk'] = 'SMTPバルク送信';
+$string['smtpmaxbulk'] = 'SMTPセッション制限';
 $string['smtppass'] = 'SMTPパスワード';
 $string['smtpuser'] = 'SMTPユーザ名';
 $string['stats'] = '統計資料';
