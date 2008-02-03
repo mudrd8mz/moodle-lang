@@ -1,0 +1,12 @@
+<h1>Adaptiv tilstand</h1>
+
+<p>Vælger du "Ja" her, kan den studerende ændre sine besvarelser indenfor det samme forsøg. Hvis for eksempel hendes svar er markeret som forkert, har hun umiddelbart efter mulighed for at ændre det. Evt. strafpoint for hvert forkert svar vil dog som regel trække fra i slutresultatet (straffens størrelse bestemmes af næste indstilling).</p>
+
+<p>This mode also allows adaptive questions that can change themselves in response to a student's answer. Here is how the IMS QTI specification defines adaptive questions (items):</p>
+
+<blockquote>
+<p>An adaptive item is an item that adapts either its appearance, its scoring (Response Processing) or both in response to each of the candidate's attempts. For example, an adaptive item may start by prompting the candidate with a box for free-text entry but, on receiving an unsatisfactory answer, present a simple choice interaction  instead and award fewer marks for subsequently identifying the correct response. Adaptivity allows authors to create items for use in formative situations which both help to guide candidates through a given task while also providing an outcome that takes into consideration their path
+</p></blockquote>
+
+<p>I adaptiv tilstand vises en ekstra "<?php print_string('mark', 'quiz') ?>"-knap ved hvert spørgsmål.
+Klikker den studerende på denne knap afleveres svaret, det vurderes og resultatet vises på skærmen. Når det er et adaptivt spørgsmål vises det i den nye tilstand, hvor svaret bogføres og i mange tilfælde vil skulle gives nye input. I de mest simple adaptive spørgsmål vil den eneste forskel være feedback-teksten og den studerende vil kunne prøve igen; i mere komplicerede tilfælde kan både spørgsmålsteksten og de interaktive elementer ændres.</p>
