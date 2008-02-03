@@ -218,6 +218,7 @@ $string['configsitepolicy'] = 'Si votre site a un règlement que tous les utilis
 $string['configslasharguments'] = 'Les fichiers (images, fichiers téléchargés, etc.) sont transmis via un script qui utilise les «&nbsp;slash arguments&nbsp;». Cette méthode permet à ces fichiers d\'être plus facilement pris en compte par le système de cache des navigateurs web, les proxy, etc. Cependant certains serveurs PHP n\'autorisent pas cette méthode. Par conséquent veuillez désactiver ce réglage si des problèmes d\'affichage des fichiers ou images téléchargés sont rencontrés.';
 $string['configsmartpix'] = 'Lorsque ce réglage est activé, les icônes sont affichées via un script PHP, qui les cherche dans le thème actuel, puis dans tous les thèmes parents, et finalement dans le dossier /pix de Moodle. Ainsi il n\'est plus nécessaire de dupliquer les images dans les thèmes, pour un léger coût de performance.';
 $string['configsmtphosts'] = 'Indiquer le nom complet d\'un ou plusieurs serveurs SMTP locaux que Moodle devra utiliser pour envoyer des courriels (par exemple, « mail.a.com » ou « mail.a.com;mail.b.com »). Si ce paramètre est laissé vide, Moodle utilisera la méthode par défaut de PHP pour envoyer des courriels.';
+$string['configsmtpmaxbulk'] = 'Permet d\'envoyer plusieurs messages de courriel lors d\'une session SMTP. Peut accélérer l\'envoi des courriels.';
 $string['configsmtpuser'] = 'Si vous avez indiqué un nom de serveur SMTP ci-dessus et qu\'il requiert une authentification, entrez ici le nom d\'utilisateur et le mot de passe à utiliser.';
 $string['configstartwday'] = 'Début de la semaine';
 $string['configstatsfirstrun'] = 'Ce réglage permet de spécifier jusqu\'à quelle date dans le passé les historiques doivent être traités lors de la <b>première fois</b> que le cron traite les statistiques. Si vous avez beaucoup de trafic ou si vous partagez un hébergement, il vous est déconseillé de remonter trop loin dans le temps, car le processus peut prendre beaucoup de temps et nécessite beaucoup de ressources processeur. (Pour ce réglage, veuillez noter que 1 mois = 28 jours. Dans les graphiques et statistiques générées, 1 mois = 1 mois du calendrier.)';
@@ -629,6 +630,7 @@ $string['sitesectionhelp'] = 'Si cette option est activée, une section sera aff
 $string['slasharguments'] = 'Utiliser les «&nbsp;slash arguments&nbsp;»';
 $string['smartpix'] ='Recherche intelligente des icônes';
 $string['smtphosts'] = 'Hôtes SMTP';
+$string['smtpmaxbulk'] = 'Envois SMTP groupés';
 $string['smtppass'] = 'Mot de passe SMTP';
 $string['smtpuser'] = 'Nom d\'utilisateur SMTP';
 $string['stats'] = 'Statistiques';
