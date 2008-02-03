@@ -245,11 +245,17 @@ $string['auth_shib_convert_data_warning'] = 'Le fichier n\'existe pas ou n\'est 
 $string['auth_shib_convert_data'] = 'API de modification de données';
 $string['auth_shib_instructions_help'] = 'Veuillez indiquer ici les instructions expliquant le fonctionnement de Shibboleth à vos utilisateurs. Ces instructions seront affichées sur la page de connexion, dans la zone adéquate. Le texte doit contenir un lien vers «&nbsp;<b>$a</b>&nbsp;» que les utilisateurs doivent cliquer pour se connecter à Moodle.';
 $string['auth_shib_instructions'] = 'Utilisez la <a href=\"$a\">connexion Shibboleth</a> pour accéder via Shibboleth, si votre institution le permet.<br />Sinon, utilisez la connexion standard de ce formulaire.';
+$string['auth_shib_no_organizations_warning'] = 'Si vous voulez utiliser le service intégré WAYF, vous devez fournir une liste des identifiants (entityIDs) Fournisseurs d\'Identité, de leurs noms et optionnellement d\'un initiateur de session, séparés par des virgules (CSV).';
 $string['auth_shib_only_description'] = 'Cocher cette option pour imposer l\'authentification Shibboleth';
 $string['auth_shib_only'] = 'Seulement Shibboleth';
 $string['auth_shib_username_description'] = 'Nom de la variable d\'environnement du serveur web Shibboleth à utiliser comme nom d\'utilisateur Moodle';
+$string['auth_shibboleth_contact_administrator'] = 'Si vous n\'êtes pas associé avec les organisations mentionnées et avez besoin d\'accéder à un cours sur ce serveur, veuillez contacter';
+$string['auth_shibboleth_errormsg'] = 'Veuillez choisir l\'organisation dont vous êtes membre';
 $string['auth_shibboleth_login'] = 'Connexion Shibboleth';
+$string['auth_shibboleth_login_long'] = 'Connexion à Moodle via Shibboleth';
 $string['auth_shibboleth_manual_login'] = 'Connexion manuelle';
+$string['auth_shibboleth_select_member'] = 'Je suis membre de...';
+$string['auth_shibboleth_select_organization'] = 'Pourl\'authentification via Shibboleth, veuillez sélectionner votre organisation dans le menu déroulant&nbsp;:';
 $string['auth_shibbolethdescription'] = 'Cette méthode permet de créer et d\'authentifier des utilisateurs par l\'intermédiaire d\'un serveur <a href=\"http://shibboleth.internet2.edu/\">Shibboleth</a>.<br />Veuillez lire attentivement le fichier <a href=\"../auth/shibboleth/README.txt\">README</a> pour apprendre comment configurer Moodle pour authentification Shibboleth';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_updatelocal_expl'] = '<p><strong>Mise à jour des données locales&nbsp;:</strong> lorsque cette option est activée, le champ est mis à jour (depuis la source externe) chaque fois que l\'utilisateur se connecte ou qu\'une synchronisation a lieu. Les champs destinés à être mis à jour ainsi devraient être verrouillés.</p>';
