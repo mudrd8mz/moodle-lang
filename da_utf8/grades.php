@@ -8,6 +8,7 @@ $string['addcategoryerror'] = 'Kan ikke tilføje kategori';
 $string['addexceptionerror'] = 'Der opstod en fejl i forbindelse med en tilføjelse af en undtagelse for brugerid:gradeitem';
 $string['allgrades'] = 'Kategorier med vurderinger';
 $string['allstudents'] = 'Alle elever';
+$string['availableidnumbers'] = 'Tilgængelige id-numre';
 $string['average'] = 'Gennemsnit';
 $string['bonuspoints'] = 'Bonuspoints';
 $string['categories'] = 'Kategorier';

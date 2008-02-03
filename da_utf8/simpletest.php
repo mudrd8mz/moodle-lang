@@ -25,7 +25,7 @@ $string['showsearch'] = 'Vis søgning efter testfiler';
 $string['stacktrace'] = 'Stak trace:';
 $string['summary'] = '{$a->run}/{$a->total} test cases udført: <strong>{$a->passes}</strong> godkendt, <strong>{$a->fails}</strong> fejlede og <strong>{$a->exceptions}</strong> undtagelser.';
 $string['thorough'] = 'Kør en udførlig test (kan være langsom)';
-$string['uncaughtexception'] = 'Uhåndteret undtagelse [{$a->getMessage()}] i [{$a->getFile()}:{$a->getLine()}] TEST AFBRUDT.';
+$string['uncaughtexception'] = 'Ikke håndteret undtagelse [{$a->getMessage()}] i [{$a->getFile()}:{$a->getLine()}] TEST AFBRUDT.';
 $string['unittests'] = 'Modul tests';
 $string['version'] = 'Bruger <a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> version $a.';
 

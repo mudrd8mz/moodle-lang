@@ -2,7 +2,8 @@
       // error.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
-$string['adminprimarynoedit'] = 'Den primære admin kan ikke ændres af andre';
+$string['adminprimarynoedit'] = 'Den primære administrator kan ikke ændres af andre';
+$string['cannotassignrole'] = 'Kan ikke tilføje rolle på kurset';
 $string['cannotcreatelangdir'] = 'Kan ikke oprette sprogmappe';
 $string['cannotcreatetempdir'] = 'Kan ikke oprette temp-mappe';
 $string['cannotdownloadcomponents'] = 'Kan ikke downloade komponenter';

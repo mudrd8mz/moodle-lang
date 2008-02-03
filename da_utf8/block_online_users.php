@@ -3,7 +3,7 @@
 
 
 $string['blockname'] = 'Brugere online';
-$string['configtimetosee'] = 'Antal minutter en bruger skal være tilsluttet systemet for at brugeren er online';
+$string['configtimetosee'] = 'Antal minutter en bruger skal være inaktiv på systemet før brugeren betragtes som offline.';
 $string['periodnminutes'] = 'sidste $a minutter';
 $string['timetosee'] = 'Fjern efter (minutters) inaktivitet';
 

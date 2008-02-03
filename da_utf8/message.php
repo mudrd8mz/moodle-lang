@@ -66,7 +66,7 @@ $string['timesent'] = 'Tid sendt';
 $string['unblockcontact'] = 'Fjern blokering for kontakt';
 $string['unreadmessages'] = '$a ulæste beskeder';
 $string['userisblockingyou'] = 'Denne bruger har blokeret for beskeder fra dig.';
-$string['userisblockingyounoncontact'] = 'Denne bruger acceptere kun beskeder fra personer der er på hans/hendes kontaktliste og det er du ikke på nuværende tidspunkt.';
+$string['userisblockingyounoncontact'] = 'Denne bruger accepterer kun beskeder fra personer der er på hans/hendes kontaktliste og det er du ikke på nuværende tidspunkt.';
 $string['userssearchresults'] = 'Søge resultat: $a brugere fundet';
 
 ?>

@@ -3,7 +3,7 @@
 
 
 $string['addresource'] = 'Tilføj materiale';
-$string['affectedresources'] = 'Påvirkede resourcer';
+$string['affectedresources'] = 'Berørte resourcer';
 $string['allowlocalfiles'] = 'Tillad lokale filer';
 $string['autofilerename'] = 'Updater linket ved omdøbning';
 $string['back'] = 'Tilbage';

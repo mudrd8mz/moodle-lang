@@ -16,7 +16,7 @@ Denne metode er ret belastene for serveren. En mere avanceret metode er at benyt
 $string['configoldping'] = 'Hvor lang tid skal der gå fra man sidst har hørt fra en bruger til man må formode at de har forladt chatten?';
 $string['configrefreshroom'] = 'Hvor ofte skal chatrummet opdateres? (i sekunder) Lavere værdi får det til at virke mere realtime, men vil belaste webserveren mere, når mange mennesker chatter samtidigt';
 $string['configrefreshuserlist'] = 'Hvor tit skal brugerlisten opdateres? (i sekunder)';
-$string['configserverhost'] = 'Værtsnavnet på den computer hvor serverservices er.';
+$string['configserverhost'] = 'Værtsnavnet på den computer hvor serverservices er';
 $string['configserverip'] = 'Den numeriske IP-adresse på værten med serverservices.';
 $string['configservermax'] = 'Maksimalt antal klienter tilladt';
 $string['configserverport'] = 'Porten som serverservicen lytter på';

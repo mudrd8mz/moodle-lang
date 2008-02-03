@@ -4,7 +4,7 @@
 
 $string['accessdenied'] = 'Adgang afvist';
 $string['accounts'] = 'Konti';
-$string['adminseesall'] = 'Admins kan se alt';
+$string['adminseesall'] = 'Administratorer kan se alt';
 $string['adminseesallevents'] = 'Administratorer kan se alle begivenheder';
 $string['adminseesownevents'] = 'Administratorer er som andre brugere';
 $string['allowcategorythemes'] = 'Tillad kategoritemaer';

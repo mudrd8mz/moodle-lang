@@ -2,7 +2,7 @@
       // wiki.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
-$string['action'] = '-- Aktion --';
+$string['action'] = '-- Handling --';
 $string['administration'] = 'Administration';
 $string['allowremovepages'] = 'Tillad \'Fjern sider\'';
 $string['allowrevertchanges'] = 'Tillad \'Genskab alle sider\'';

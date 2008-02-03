@@ -16,7 +16,7 @@ Du kan se evt. kommentarer i slutningen af det du har afleveret på
 
 $a->url';
 $string['assignmentmailhtml'] = '$a->teacher har kikket det du har afleveret igennem og kommenteret det: \'<i>$a->assignment</i>\'<br /><br />
-Du kan se evt. kommentarer i slutningen på <a href=\"$a->url\">det du har afleveret</a>.';
+Du kan se evt. kommentarer i slutningen af <a href=\"$a->url\"> det du har afleveret</a>.';
 $string['assignmentname'] = 'Opgavenavn';
 $string['assignmenttype'] = 'Opgavetype';
 $string['availabledate'] = 'Tilgængelig fra';

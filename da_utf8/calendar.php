@@ -129,6 +129,6 @@ $string['wednesday'] = 'Onsdag';
 $string['weeknext'] = 'Næste uge';
 $string['weekthis'] = 'Denne uge';
 $string['yesterday'] = 'I går';
-$string['youcandeleteallrepeats'] = 'Denne begivenhed er en del af en tilbagevendene serie af begivenheder. Du kan kun slette denne begivenhed, eller alle $a begivenheder i serien på en gang.';
+$string['youcandeleteallrepeats'] = 'Denne begivenhed er en del af en tilbagevendende serie af begivenheder. Du kan kun slette denne begivenhed, eller alle $a begivenheder i serien på en gang.';
 
 ?>

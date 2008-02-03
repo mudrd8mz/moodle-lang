@@ -3,7 +3,7 @@
 
 
 $string['addmorechoices'] = 'Tilføj flere valgmuligheder';
-$string['allowupdate'] = 'Tillad spørgsmålet at blive opdateret';
+$string['allowupdate'] = 'Tillad at ændre stemmeafgivelsen';
 $string['answered'] = 'Besvaret';
 $string['choice'] = 'Afstemning';
 $string['choice:choose'] = 'Vælg et svar';
@@ -32,8 +32,8 @@ $string['notanswered'] = 'Ikke besvaret endnu';
 $string['notopenyet'] = 'Denne aktivitet er tilgængelig fra $a';
 $string['privacy'] = 'Vis ikke resultater';
 $string['publish'] = 'Vis resultater';
-$string['publishafteranswer'] = 'Vis resultatet til eleven efter afleverig.';
-$string['publishafterclose'] = 'Vis resultatet til eleverne efter et spørgsmål er lukket.';
+$string['publishafteranswer'] = 'Vis resultatet til eleven efter aflevering.';
+$string['publishafterclose'] = 'Vis resultatet til eleverne efter at spørgsmålet er lukket.';
 $string['publishalways'] = 'Vis altid resultaterne til eleven';
 $string['publishanonymous'] = 'Vis anonyme resultater uden at angive de studerendes navne';
 $string['publishnames'] = 'Vis alle resultater, med navne og spørgsmål';

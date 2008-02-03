@@ -2,7 +2,9 @@
       // auth.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
+$string['accesCAS'] = 'CAS-brugere';
 $string['accesNOCAS'] = 'andre brugere';
+$string['actauthhdr'] = 'Aktive autenciterings plugins';
 $string['alternatelogin'] = 'Her kan du skrive en URL der vil blive brugt som loginside for dette site. Siden bør indeholde en form hvis action er sat til <strong>\'$a\'</strong> og returnere 2 felter <strong>username</strong> og <strong>password</strong>.<br />Pas på ikke at skrive en forkert URL da du kan risikere at ikke at kunne logge ind igen. <br />Lad denne være blank for bruge den almindelige loginside.';
 $string['alternateloginurl'] = 'Alternativ loginside';
 $string['auth_cas_auth_user_create'] = 'Opret brugere eksternt';
