@@ -251,6 +251,7 @@ $string['auth_shib_convert_data_description'] = 'Je kunt deze API gebruiken om d
 $string['auth_shib_convert_data_warning'] = 'Het bestand bestaat niet of is niet leesbaar voor het webserverproces!';
 $string['auth_shib_instructions'] = 'Gebruik de <a href=\"$a\">Shibboleth login</a> om toegang te krijgen via Shibboleth als je instituut dat ondersteund.<br />Gebruik anders het gewone loginformulier.';
 $string['auth_shib_instructions_help'] = 'Hier zou je aangepaste instructies moeten geven om je gebruikers Shibboleth uit te leggen. Die instructies zullen getoond worden op de login-pagina in het gedeelte voor instructies. Er zou een link naar \"<b>$a</b>\" moeten instaan, zodat gebruikers gemakkelijk kunnen inloggen. Als je dit blanco laat, dan zullen de standaardinstructies getoond worden (niet specifiek voor Shibboleth).';
+$string['auth_shib_no_organizations_warning'] = 'Als je wil gebruik maken van de geïntegreerde WAYF-service, moet je eerst een door komma\'s gescheiden lijst met IDentity Provider entityID\'s, hun numen en optionneel een sessie-initiator.';
 $string['auth_shib_only'] = 'Uitsluitend Shibboleth';
 $string['auth_shib_only_description'] = 'Vink deze optie af als een Shibboleth-authenticatie opgelegd wordt.';
 $string['auth_shib_username_description'] = 'Naam van de variable uit de Shibboleth webserveromgeving die als Moodle gebruikersnaam zal gebruikt worden';
