@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (2007101506)
+      // auth.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['CASform'] = 'Authenticatiekeuze';
@@ -254,8 +254,13 @@ $string['auth_shib_instructions_help'] = 'Hier zou je aangepaste instructies moe
 $string['auth_shib_only'] = 'Uitsluitend Shibboleth';
 $string['auth_shib_only_description'] = 'Vink deze optie af als een Shibboleth-authenticatie opgelegd wordt.';
 $string['auth_shib_username_description'] = 'Naam van de variable uit de Shibboleth webserveromgeving die als Moodle gebruikersnaam zal gebruikt worden';
+$string['auth_shibboleth_contact_administrator'] = 'Als jd niet geassocieerd bent met de opgegeven organisaties en je hebt toegang nodig tot een cursus op deze server, neem dan contact op met de';
+$string['auth_shibboleth_errormsg'] = 'Kies de organisatie waarvan je lid bent';
 $string['auth_shibboleth_login'] = 'Shibboleth aanmelding';
-$string['auth_shibboleth_manual_login'] = 'Manuele aanmelding';
+$string['auth_shibboleth_login_long'] = 'Inloggen bij Moodle via Shibboleth';
+$string['auth_shibboleth_manual_login'] = 'Manueel inloggen';
+$string['auth_shibboleth_select_member'] = 'Ik ben lid van ...';
+$string['auth_shibboleth_select_organization'] = 'Kies om the authenticeren via Shibboleth je organisatie uit het rolmenu.';
 $string['auth_shibbolethdescription'] = 'Door deze methode te gebruiken kun je verbinding maken met een bestaande Shibboleth server om gebruikers te controleren en nieuwe aan te maken';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_sync_script'] = 'Cron synchronisatirscript';

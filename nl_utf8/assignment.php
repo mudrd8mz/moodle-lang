@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (2007101506)
+      // assignment.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['allowdeleting'] = 'Verwijderen toestaan';
@@ -22,6 +22,7 @@ $string['comment'] = 'Commentaar';
 $string['commentinline'] = 'Commentaar invoegen';
 $string['configitemstocount'] = 'Wat er moet geteld worden wanneer leerlingen hun online opdracht ingestuurd hebben.';
 $string['configmaxbytes'] = 'Standaard maximumgrootte voor alle opdrachten op de site (afhankelijk de limiet van de cursus en van andere lokale instellingen)';
+$string['configshowrecentsubmissions'] = 'Iedereen kan in rapporteringen over \"Recente activiteit\" zien dat er inzendingen gebeurt zijn.';
 $string['confirmdeletefile'] = 'Ben je er zeker van dat je dit bestand wil verwijderen?<br/><strong>$a</strong>';
 $string['deleteallsubmissions'] = 'Alle inzendingen verwijderen';
 $string['deletefilefailed'] = 'Bestand verwijderen mislukt';
@@ -69,6 +70,7 @@ $string['noassignments'] = 'Er zijn nog geen opdrachten';
 $string['noattempts'] = 'Er heeft nog niemand zijn opdracht ingestuurd';
 $string['nofiles'] = 'Er werden geen bestanden ingestuurd';
 $string['nofilesyet'] = 'Er werden nog geen bestanden ingestuurd';
+$string['nosubmitusers'] = 'Er zijn geen gebruikers gevonden die het recht hebben deze opdracht in te sturen';
 $string['notavailableyet'] = 'Sorry, maar deze opdracht is nog niet beschikbaar.<br />De instructies voor de opdracht zullen getoond worden vanaf onderstaande datum.';
 $string['notes'] = 'Notities';
 $string['notesempty'] = 'Nog leeg';
@@ -84,6 +86,7 @@ $string['responsefiles'] = 'Ingestuurde bestanden';
 $string['reviewed'] = 'Nagekeken';
 $string['saveallfeedback'] = 'Bewaar al mijn feedback';
 $string['sendformarking'] = 'Insturen';
+$string['showrecentsubmissions'] = 'Toon recente inzendingen';
 $string['submission'] = 'Ingestuurde opdracht';
 $string['submissiondraft'] = 'Ingestuurd kladwerk';
 $string['submissionfeedback'] = 'Feedback op de ingestuurde opdracht';
