@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (2007101504)
+      // message.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['addcontact'] = 'Voeg een contactpersoon toe';
@@ -19,10 +19,10 @@ $string['contacts'] = 'Contactpersonen';
 $string['context'] = 'context';
 $string['deletemessagesdays'] = 'Aantal dagen voor oude boodschappen automatisch verwijderd worden';
 $string['discussion'] = 'Discussie';
-$string['emailmessages'] = 'Stuur berichten door als e-mail wanneer ik off line ben';
+$string['emailmessages'] = 'Stuur berichten door als e-mail wanneer ik offline ben';
 $string['emailtagline'] = 'Deze e-mail is een kopie van een bericht dat naar jou gestuurd is op \"$a\"';
 $string['emptysearchstring'] = 'Je moet iets zoeken';
-$string['formorethan'] = 'Langer off line dan';
+$string['formorethan'] = 'Langer offline dan';
 $string['includeblockedusers'] = 'Geblokkeerde bezoekers inbegrepen';
 $string['incomingcontacts'] = 'Binnenkomende contactpersonen ($a)';
 $string['keywords'] = 'Sleutelwoorden';
@@ -41,10 +41,10 @@ $string['noframesjs'] = 'Versie zonder frames en JavaScript';
 $string['nomessages'] = 'Geen wachtende berichten';
 $string['nomessagesfound'] = 'Geen berichten gevonden';
 $string['nosearchresults'] = 'Je zoekopdracht gaf geen resultaten';
-$string['offline'] = 'Off line';
-$string['offlinecontacts'] = 'Off line contactpersonenen ($a)';
-$string['online'] = 'On line';
-$string['onlinecontacts'] = 'On line contactpersonen ($a)';
+$string['offline'] = 'Offline';
+$string['offlinecontacts'] = 'Offline contactpersonenen ($a)';
+$string['online'] = 'Online';
+$string['onlinecontacts'] = 'Online contactpersonen ($a)';
 $string['onlyfromme'] = 'Enkel mijn berichten';
 $string['onlymycourses'] = 'Enkel in mijn cursussen';
 $string['onlytome'] = 'Enkel berichten aan mij';

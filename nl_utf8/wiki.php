@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.9 Beta + (2007100903)
+      // wiki.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['action'] = '- - Acties - -';
@@ -113,7 +113,7 @@ $string['notadministratewiki'] = 'Je hebt onvoldoende rechten om deze wiki te be
 $string['nothingtostrip'] = 'Er zijn geen pagina\'s met meer dan één versie';
 $string['nowikicreated'] = 'Deze wiki is nog leeg.';
 $string['of'] = 'van';
-$string['offline'] = 'OFF LINE';
+$string['offline'] = 'OFFLINE';
 $string['optional'] = 'Optioneel';
 $string['orphanedpage'] = 'Ongelinkte pagina';
 $string['orphanedpages'] = 'Ongelinkte pagina\'s';

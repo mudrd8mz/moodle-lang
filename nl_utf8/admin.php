@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101506)
+      // admin.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -99,7 +99,7 @@ $string['configdigestmailtime'] = 'Gebruikers die ervoor kiezen dat de e-mails h
 $string['configdisablecourseajax'] = 'Gebruik geen AJAX bij het bewerken van cursuspagina\'s';
 $string['configdisableuserimages'] = 'Schakel het wijzigen van het profielprentje uit voor alle gebruikers.';
 $string['configdisplayloginfailures'] = 'Dit zal informatie tonen over mislukte aanmeldingen van de geselecteerde gebruikers';
-$string['configdocroot'] = 'Bepaalt het pad naar Moodle Docs. Je kunt dit wijzigen als je je eigen aangepaste on line documentatie wil. Als je dat wil doen, moet je er wel voor zorgen dat de vorm van het pad er naartoe dezelfde is als http://docs.moodle.org';
+$string['configdocroot'] = 'Bepaalt het pad naar Moodle Docs. Je kunt dit wijzigen als je je eigen aangepaste online documentatie wil. Als je dat wil doen, moet je er wel voor zorgen dat de vorm van het pad er naartoe dezelfde is als http://docs.moodle.org';
 $string['configdoctonewwindow'] = 'Als je dit aanzet zullen links naar Moodle Docs geopend worden in een nieuw venster';
 $string['configeditordictionary'] = 'Deze waarde zal gebruikt worden als aspell geen woordenlijst heeft voor de eigen taal van een gebruiker.';
 $string['configeditorfontlist'] = 'Kies de lettertypes die in het dropdownmenu van de editor zouden moeten verschijnen';
@@ -585,7 +585,7 @@ $string['questioncwqpfscheck'] = 'Eén of meer willekeurige vragen in een test z
 $string['questioncwqpfsok'] = 'Goed. Er zijn geen willekeurige vragen in je testen die opgemaakt zijn om vragen uit zowel gedeelde als niet gedeelde vragencategorieën te kiezen.';
 $string['rcache'] = 'Record cache';
 $string['rcachettl'] = 'Record cache TTL';
-$string['releasenoteslink'] = 'Bekijk de on line <a target=\"_new\" href=\"$a\">Release Notes</a> voor informatie over deze versie van Moodle.';
+$string['releasenoteslink'] = 'Bekijk de online <a target=\"_new\" href=\"$a\">Release Notes</a> voor informatie over deze versie van Moodle.';
 $string['remotelangnotavailable'] = 'Het is niet mogelijk om automatisch taalpakketten te installeren, omdat Moodle geen verbinding kan maken met Moodle.org. Download daarom de nodige zipbestanden uit onderstaande lijst, copieer ze naar je $a map en unzip ze daar.';
 $string['renameerrors'] = 'Fouten in hernoemen';
 $string['requiredtemplate'] = 'Vereist. Je kunt hier sjabloonsyntax gebruiken (%%l = achternaam, %%f = voornaam, %%u = gebruikersnaam). Bekijk het helpbestand voor details en voorbeelden.';

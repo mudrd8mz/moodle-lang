@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (2007101506)
+      // chat.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['beep'] = 'Piep';
@@ -10,7 +10,7 @@ $string['chatintro'] = 'Inleidende tekst';
 $string['chatname'] = 'Naam van deze chatroom';
 $string['chatreport'] = 'Chatsessies';
 $string['chattime'] = 'Volgende chattijd';
-$string['configmethod'] = 'De gewone chatmethode laat de clients regelmatig contact opnemen met de server voor updates. Deze methode vraagt geen configuratie en werkt op alle servers, maar kan een zware belasting op de server veroorzaken wanneer er veel chatters tegelijk on line zijn. Om een serverdaemon te kunnen gebruiken heb je  shell-toegang tot Unix nodig, maar je krijgt er een snelle, schaalbare chatomgeving mee.';
+$string['configmethod'] = 'De gewone chatmethode laat de clients regelmatig contact opnemen met de server voor updates. Deze methode vraagt geen configuratie en werkt op alle servers, maar kan een zware belasting op de server veroorzaken wanneer er veel chatters tegelijk online zijn. Om een serverdaemon te kunnen gebruiken heb je  shell-toegang tot Unix nodig, maar je krijgt er een snelle, schaalbare chatomgeving mee.';
 $string['confignormalupdatemode'] = 'Chatrooms worden normaal gezien heel eficient geupdatet met de <em>Keep-Alive</em> functie van het HTTP 1.1 protocol, maar het geeft een grote belasting voor de server. Een meer geavanceerde methode is gebruik te maken van <em>Stream</em> om de updates tot bij de gebruikers te krijgen. Het gebruik van <em>Stream</em> geeft betere resultaten (gelijkwaardig met de chatd methode), maar het is mogelijk dat je server dat niet ondersteunt.';
 $string['configoldping'] = 'Na hoeveel tijd zonder activiteit wil je een gebruiker als weg uit de chat beschouwen (in seconden)? Dit is slechts een maximumlimiet. Verbroken verbindingen worden gewoonlijk heel vlug gedetecteerd. Kleinere waarden zullen je server zwaarder belasten. Als je de normale methode gebruikt, zet deze instelling dan <strong>nooit</strong> lager dan 2* chat_refresh_room';
 $string['configrefreshroom'] = 'Hoe vaak moet de chatroom ververst worden? (in seconden). Als je deze waarde laag instelt kan de chatroom sneller lijken te werken, maar het kan ook, als veel mensen aan het chatten zijn, een hogere belasting op de webserver veroorzaken.';
