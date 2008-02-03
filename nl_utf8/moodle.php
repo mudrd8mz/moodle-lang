@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101506)
+      // moodle.php - created with Moodle 2.0 dev (2007101508)
 
 
+$string['abouttobeinstalled'] = 'zal geïnstalleerd worden';
 $string['action'] = 'Actie';
 $string['actions'] = 'Acties';
 $string['active'] = 'Actief';
@@ -98,6 +99,7 @@ $string['allfieldsrequired'] = 'Alle velden zijn verplicht';
 $string['allfiles'] = 'Alle bestanden';
 $string['allgroups'] = 'Alle groepen';
 $string['alllogs'] = 'Alle logs';
+$string['allmods'] = 'Alle $a';
 $string['allow'] = 'Sta toe';
 $string['allowguests'] = 'In deze cursus zijn gasten toegestaan';
 $string['allowinternal'] = 'Laat interne methodes ook toe';
@@ -389,6 +391,7 @@ $string['description'] = 'Beschrijving';
 $string['deselectall'] = 'Niets selecteren';
 $string['detailedless'] = 'Minder gedetailleerd';
 $string['detailedmore'] = 'Meer gedetailleerd';
+$string['directory'] = 'Map';
 $string['directorypaths'] = 'Paden van mappen';
 $string['disable'] = 'Schakel uit';
 $string['displayingfirst'] = 'Alleen de eerste $a->count $a->things worden getoond.';
@@ -745,6 +748,7 @@ $string['htmlformat'] = 'Mooie HTML-opmaak';
 $string['icqnumber'] = 'ICQ-nummer';
 $string['idnumber'] = 'Nummer (ID)';
 $string['idnumbercourse'] = 'Nummer (ID) van de cursus';
+$string['idnumbermod'] = 'ID-nummer';
 $string['idnumbertaken'] = 'Dit ID-nummer is al in gebruik';
 $string['imagealt'] = 'Afbeeldingsbeschrijvingen';
 $string['import'] = 'Importeer';
@@ -887,6 +891,7 @@ $string['missingcountry'] = 'Land ontbreekt';
 $string['missingdescription'] = 'Beschrijving ontbreekt';
 $string['missingemail'] = 'e-mailadres ontbreekt';
 $string['missingfirstname'] = 'Voornaam ontbreekt';
+$string['missingfromdisk'] = 'Ontbrekend op schijf';
 $string['missingfullname'] = 'Volledige naam ontbreekt';
 $string['missinglastname'] = 'Achternaam ontbreekt';
 $string['missingname'] = 'Naam ontbreekt';
@@ -1008,6 +1013,7 @@ $string['nomoreidnumber'] = 'Er wordt geen idnummer gebruikt om botsingen te ver
 $string['none'] = 'Geen';
 $string['noneditingteacher'] = 'Leraar zonder bewerken';
 $string['noneditingteacherdescription'] = 'Een leraar zonder bewerken kan les geven in een cursus en kan leerlingen beoordelen, maar kan de activiteiten niet wijzigen';
+$string['nonstandard'] = 'Niet-standaard';
 $string['nopendingcourses'] = 'Er zijn geen cursusaanvragen die wachten op goedkeuring';
 $string['nopotentialadmins'] = 'Geen mogelijke beheerders';
 $string['nopotentialcreators'] = 'Geen mogelijke cursus-aanmakers';
@@ -1111,6 +1117,9 @@ $string['phone'] = 'Telefoon';
 $string['phpinfo'] = 'PHP-info';
 $string['pictureof'] = 'Foto van $a';
 $string['pleaseclose'] = 'Sluit dit venster.';
+$string['plugincheck'] = 'Controle van de plugins';
+$string['pluginchecknotice'] = 'Onderstaande tabellen tonen de modules, blokken en filters die gedetecteerd zijn in je huidige Moodle-installatie.
+Er is telkens vermeld welke standaard zijn en welke niet. Alle niet-standaard plugins moeten gecontroleerd en geüpgradet worden naar hun meest recente versie voor je verder gaat met deze Moodle upgrade.';
 $string['pluginsetup'] = 'Installeren van plugintabellen';
 $string['policyaccept'] = 'Ik begrijp het en ga akkoord';
 $string['policyagree'] = 'Je moet akkoord gaan met deze overeenkomst voor je verder kunt gaan met het gebruiken van deze site. Ga je akkoord?';
@@ -1211,6 +1220,8 @@ $string['rsserror'] = 'Fout tijdens het lezen van de RSS-gegevens';
 $string['rsstype'] = 'RSS-feed voor deze activiteit';
 $string['saveandnext'] = 'Bewaar en toon volgende';
 $string['savechanges'] = 'Bewaar de wijzigingen';
+$string['savechangesanddisplay'] = 'Bewaar de wijzigingen en toon';
+$string['savechangesandreturntocourse'] = 'Bewaar de wijzigingen en keer terug naar de cursuspagina';
 $string['savedat'] = 'Bewaard op:';
 $string['savepreferences'] = 'Instellingen bewaren';
 $string['saveto'] = 'Bewaar op';
@@ -1315,6 +1326,7 @@ $string['someerrorswerefound'] = 'Bepaalde informatie ontbrak of was fout. Kijk 
 $string['sortby'] = 'Sorteer volgens';
 $string['sourcerole'] = 'Bron rol';
 $string['specifyname'] = 'Je moet een naam geven';
+$string['standard'] = 'Standaard';
 $string['starpending'] = '[*]=cursus wacht op goedkeuring';
 $string['startdate'] = 'Begindatum van de cursus';
 $string['startingfrom'] = 'Starten vanaf';

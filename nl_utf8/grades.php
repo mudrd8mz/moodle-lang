@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (2007101506)
+      // grades.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['activities'] = 'Activiteiten';
@@ -102,6 +102,7 @@ $string['configshowlocks'] = 'Of er een blokkeer/vrijgeven icoontje getoond moet
 $string['configshownumberofgrades'] = 'Toont het aantal cijfers dat geaggregeerd wordt tussen haakjes naast elk gemiddelde. Voorbeeld 45(34)';
 $string['configshowranges'] = 'Toon een rij met de mogelijke marges voor elk beoordelingsitem in het rapport.';
 $string['configshowrank'] = 'Toon een ranglijst voor elk beoordelingsitem';
+$string['configshowuseridnumber'] = 'Of je het idnummer van de gebruiker als een extra kolom in het rapportagescherm wil zien.';
 $string['configshowuserimage'] = 'Of de afbeelding van het gebruikersprofiel naast de naam moet getoond worden op het rapport.';
 $string['configstudentsperpage'] = 'Het aantal leerlingen dat op één pagina van het rapport getoond wordt.';
 $string['configstudentsperpagedefault'] = 'Het aantal leerlingen dat op één pagina van het rapportt getoond wordt. Laat dit veld leeg om de sitestandaard te gebruiken (op dit moment $a).';
@@ -425,6 +426,7 @@ $string['shownooutcomes'] = 'Verberg competenties';
 $string['shownumberofgrades'] = 'Toon het aantal cijfers in gemiddelden';
 $string['showranges'] = 'Toon marges';
 $string['showrank'] = 'Toon ranglijst';
+$string['showuseridnumber'] = 'Toon IDnummer van gebruikers';
 $string['showuserimage'] = 'Toon gebruikersprofielafbeeldingen';
 $string['showverbose'] = 'Toon $a->category$a->itemmodule $a->itemname';
 $string['sitewide'] = 'Voor heel de site';

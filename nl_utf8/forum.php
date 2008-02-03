@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (2007101506)
+      // forum.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -27,6 +27,7 @@ $string['configcleanreadtime'] = 'Het uur van de dag waarop oude berichten van d
 $string['configdisplaymode'] = 'De standaardmanier voor het weergeven van discussies als er geen methode is ingesteld.';
 $string['configenablerssfeeds'] = 'Met deze instelling kun je de mogelijkheid voor het maken van RSS-feeds inschakelen voor alle forums. Je zult wel nog voor elk forum afzonderlijk het maken van de RSS-feeds moeten  inschakelen.';
 $string['configenabletimedposts'] = 'Zet op \'Ja\' als je een tijdvak wil instellen wanneer je een nieuwe discussie start';
+$string['configlogblocked'] = 'De forum cron kan logs maken van geblokkeerde pogingen om e-mails te sturen naar gebruikers met uitgeschakelde email.';
 $string['configlongpost'] = 'Elk bericht dat langer is dan deze waarde (HTML-code niet inbegrepen) wordt als lang beschouwd.';
 $string['configmanydiscussions'] = 'Maximale aantal discussies van een forum die per pagina getoond worden';
 $string['configmaxbytes'] = 'Standaard maximumgrootte voor alle forumbijlagen op deze site (afhankelijk van vaklimieten en andere lokale instellingen)';
@@ -116,6 +117,7 @@ $string['introsocial'] = 'Een open forum om te chatten over wat je maar wilt';
 $string['introteacher'] = 'Een forum alleen bestemd voor discussies en aantekeningen van leraren';
 $string['lastpost'] = 'Laatste bericht';
 $string['learningforums'] = 'Leerforums';
+$string['logblocked'] = 'Log geblokkeerde e-mails';
 $string['longpost'] = 'Lang bericht';
 $string['mailnow'] = 'Stuur nu e-mail';
 $string['manydiscussions'] = 'Discussies per pagina';
@@ -149,6 +151,7 @@ $string['noguestsubscribe'] = 'Sorry, gasten mogen zich niet inschrijven om foru
 $string['noguesttracking'] = 'Sorry, gasten kunnen de instellingen voor het opvolgen van forumberichten niet wijzigen.';
 $string['nomorepostscontaining'] = 'Er zijn geen berichten met \'$a\' meer gevonden';
 $string['nonews'] = 'Er zijn nog geen nieuwsberichten';
+$string['nopostforum'] = 'Sorry, je mag geen berichten posten in dit forum';
 $string['noposts'] = 'Geen berichten';
 $string['nopostscontaining'] = 'Er zijn geen berichten met \'$a\' gevonden';
 $string['noquestions'] = 'Er zijn nog geen vragen in dit forum';

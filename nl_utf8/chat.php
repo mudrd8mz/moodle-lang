@@ -50,6 +50,7 @@ $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Steam';
 $string['noscheduledsession'] = 'Geen sessie gepland';
 $string['oldping'] = 'Timeout verbinding verbroken';
+$string['pastchats'] = 'Voorbije chatsessies';
 $string['refreshroom'] = 'Ververs chatroom';
 $string['refreshuserlist'] = 'Ververs gebruikerslijst';
 $string['removemessages'] = 'Verwijder alle berichten';
