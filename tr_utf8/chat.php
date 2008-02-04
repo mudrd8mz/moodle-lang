@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (2007101506)
+      // chat.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['beep'] = 'biip';
@@ -49,6 +49,7 @@ $string['normalkeepalive'] = 'SürekliBağlantı';
 $string['normalstream'] = 'Akım';
 $string['noscheduledsession'] = 'Zamanlanmış oturum yok';
 $string['oldping'] = 'Bağlantı kesme zaman aşımı';
+$string['pastchats'] = 'Geçmiş sohbet oturumları';
 $string['refreshroom'] = 'Odayı yenile';
 $string['refreshuserlist'] = 'Kullanıcı listesini yenile';
 $string['removemessages'] = 'Tüm mesajları sil';
