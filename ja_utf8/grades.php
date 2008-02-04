@@ -400,6 +400,7 @@ $string['savepreferences'] = '設定を保存する';
 $string['scaledpct'] = '伸縮%%';
 $string['scaleidhelp'] = 'この $a がリンクされる尺度です。';
 $string['scalestandardhelp'] = '標準尺度はサイト全体およびすべてのコースで利用可能な尺度です。';
+$string['seeallcoursegrades'] = 'すべてのコース評定を表示する';
 $string['selectalloroneuser'] = 'すべてまたは1ユーザを選択';
 $string['selectdestination'] = '$a の移動先を選択';
 $string['separator'] = 'セパレータ';
