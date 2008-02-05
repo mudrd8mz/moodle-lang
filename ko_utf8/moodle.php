@@ -141,8 +141,8 @@ $string['backupactivehelp'] = '자동 백업을 할 것인지의 여부를 선�
 $string['backupcancelled'] = '백업 취소';
 $string['backupcoursefileshelp'] = '이 항목을 \"예\"로 해 놓으면, 자동으로 강좌 파일을 백업에 포함시킵니다.';
 $string['backupdate'] = '백업 날짜';
-$string['backupdatenew'] = '$a->TAG 는 현재 $a->weekday, $a->mday $a->month $a->year 입니다.<br />';
-$string['backupdateold'] = '$a->TAG 는 $a->weekday, $a->mday $a->month $a->year 였습니다.';
+$string['backupdatenew'] = '$a->TAG 는 현재 $a->year $a->month $a->mday , $a->weekday 입니다.<br />';
+$string['backupdateold'] = '$a->TAG 는 $a->year $a->month $a->mday , $a->weekday 이었습니다.';
 $string['backupdaterecordtype'] = '<br />$a->recordtype - $a->recordname<br />';
 $string['backupdetails'] = '백업 자세히 보기';
 $string['backupexecuteathelp'] = '자동백업 시작시각 선택';
@@ -463,13 +463,13 @@ $string['emaildigest'] = '이메일 요약 형식';
 $string['emaildigestcomplete'] = '전부다(모든 게시 내용에 대해 매일)';
 $string['emaildigestoff'] = '요약하지 않음(포럼 게시물이 게시될 때만)';
 $string['emaildigestsubjects'] = '제목만(매일)';
-$string['emaildisable'] = '이 이메일 주소는 이용할 수 없습니다.';
+$string['emaildisable'] = '이메일 전송 금지';
 $string['emaildisableclick'] = '여기를 눌러 모든 이메일이 이 주소로 보내지는 것을 불가능하게 함';
 $string['emaildisplay'] = '이메일 공개';
-$string['emaildisplaycourse'] = '이메일 주소를 다른 강좌의 참여자에게만 공개 허용';
-$string['emaildisplayno'] = '이메일 주소를 모든 사람에게 비공개';
-$string['emaildisplayyes'] = '모든 사람이 내 이메일 주소를 볼 수 있게 공개 허용';
-$string['emailenable'] = '이 이메일 주소를 이용할 수 있습니다.';
+$string['emaildisplaycourse'] = '강좌 참여자에게만 공개';
+$string['emaildisplayno'] = '모든 사람에게 비공개';
+$string['emaildisplayyes'] = '모든 사람에게 공개';
+$string['emailenable'] = '이메일 전송 허용';
 $string['emailenableclick'] = '여기를 눌러 모든 이메일이 이 주소로 보내질수 있도록 다시 가능하게 함';
 $string['emailexists'] = '이 이메일 주소는 이미 등록되었습니다.';
 $string['emailformat'] = '이메일 양식';
@@ -520,7 +520,7 @@ $string['emailpasswordconfirmsent'] = '<b>$a</b>로 이메일이 보내지게 �
 만일 지속적으로 어려움을 격는다면, 사이트 관리자에게 연락하기 바랍니다.';
 $string['emailpasswordsent'] = '비밀번호 변경에 대한 확인을 해 주셔서 감사합니다.
 <br />새로운 비밀번호가 포함된 이메일이 <b>$a->email</b> 로 보내졌습니다.
-<br />새비밀번호는 자동으로 생성되었습니다.
+<br />새 비밀번호는 자동으로 생성되었습니다.
 <a href=\"$a->link\">비밀번호 변경하기</a> 로 가서 기억하기 쉬운 비밀번호로 바꾸세요.';
 $string['enable'] = '관리모드 활성';
 $string['encryptedcode'] = '암호화된 코드';
@@ -659,9 +659,8 @@ $string['gpl'] = 'Copyright (C) 2001-2004  Martin Dougiamas  (http://dougiamas.c
 이 프로그램은 프리웨어입니다. 당신은 자유소프트웨어 재단이 선언한 GNU 협약에 근거하여 재배포할 수도 있고, 수정하여 사용할 수도 있습니다.
 
 이 프로그램은 유용할 것이라는 희망으로 배포되었습니만 어떠한 종류의 상업적 이익이나 특별한 의도를 지지하는 등에 대해 보장하지 않습니다.
-GNU에 대해 상세한 정보가 필요하시면 아래의 사이트를 참고하세요.
 
-http://www.gnu.org/copyleft/gpl.html';
+무들 라이센스에 대해 상세한 정보가 필요하시면 아래의 사이트(영문)를 참고하세요. http://docs.moodle.org/en/License';
 $string['grade'] = '등급';
 $string['grades'] = '성적';
 $string['group'] = '모둠';
@@ -716,13 +715,13 @@ $string['helpreading'] = '주의깊게 읽으세요';
 $string['helprichtext'] = 'HTML 편집기에 대해';
 $string['helpsummaries'] = '요약에 대해';
 $string['helptext'] = '텍스트를 쓰는 요령';
-$string['helpwiki'] = 'Wiki 텍스트를 쓰는 요령';
+$string['helpwiki'] = 'Wiki 문서를 쓰는 요령';
 $string['helpwiththis'] = '이것에 대한 도움말';
 $string['helpwriting'] = '주의깊게 쓰세요';
-$string['hiddenassign'] = '감춰진 과제';
-$string['hiddensections'] = '감춰진 영역들';
-$string['hiddensectionscollapsed'] = '감춰진 영역들은 제목만 보여짐';
-$string['hiddensectionsinvisible'] = '감춰진 영역은 완전히 볼수 없음';
+$string['hiddenassign'] = '비공개 과제';
+$string['hiddensections'] = '비공개 영역';
+$string['hiddensectionscollapsed'] = '비공개 영역은 제목만 보여짐';
+$string['hiddensectionsinvisible'] = '비공개 영역은 완전히 볼수 없음';
 $string['hide'] = '감추기';
 $string['hideadvancedsettings'] = '고급 설정 숨기기';
 $string['hidepicture'] = '그림 감추기';
@@ -748,7 +747,7 @@ $string['idnumbercourse'] = '강좌 식별 번호';
 $string['idnumbermod'] = '식별 번호';
 $string['idnumbertaken'] = '이 ID는 이미 쓰고 있습니다.';
 $string['imagealt'] = '그림 설명';
-$string['import'] = '가져옴';
+$string['import'] = '가져오기';
 $string['importactivities'] = '다른 강좌에서 활동을 가져옴';
 $string['importdata'] = '가져올 강좌 정보';
 $string['importdataexported'] = '강좌로부터 내보낸 정보를 성공적으로 불러들였습니다.<br />가져오기를 계속합니다.';
@@ -854,7 +853,7 @@ $string['managemetaexplan'] = '(출석상황이 다른 강좌로부터 이관되
 $string['managemodules'] = '모듈';
 $string['manageroles'] = '역할과 권한';
 $string['markedthistopic'] = '이 주제는 현재의 주제로서 강조됩니다.';
-$string['markthistopic'] = '이 주제를  현재의 주제로 강조하기';
+$string['markthistopic'] = '이 주제를 현재의 주제로 강조하기';
 $string['maximumchars'] = '$a 문자의 최대치';
 $string['maximumgrade'] = '최대 등급';
 $string['maximumshort'] = '최대';
@@ -1072,7 +1071,7 @@ $string['outline'] = '요약';
 $string['outlinereport'] = '요약 보고';
 $string['page'] = '페이지';
 $string['pageheaderconfigablock'] = '블럭을 %%fullname%% 으로 배열중';
-$string['parentcategory'] = '부모 범주';
+$string['parentcategory'] = '상위 범주';
 $string['parentcoursenotfound'] = '상위 과정이 개설되지 않았습니다.';
 $string['parentcoursenotmetacourse'] = '상위 과정은 메타 코스가 아닙니다';
 $string['parentfolder'] = '상위 폴더';
@@ -1110,7 +1109,7 @@ $string['phpinfo'] = 'PHP 정보';
 $string['pictureof'] = '$a 사진';
 $string['pleaseclose'] = '이제 이 창을 닫기 바랍니다.';
 $string['plugincheck'] = '플러그인 점검';
-$string['pluginchecknotice'] = '다음 표에는 현재 무들에 설치되어 있다고 인식된 모듈, 블럭 그리고 필터가 나타나 있습니다. 여기에는 어느 것이 표준이고 어느 것이 비 표준인지도 나타나 있습니다. 무들의 갱신 과정을 계속하기 전에 모든 비 표준 플러그인은 가장 최신판으로 갱신되어야 하고 제대로 작동되는지 점검해야 합니다.';
+$string['pluginchecknotice'] = '다음 표에는 현재 무들에 설치되어 있다고 인식된 모듈, 블럭 그리고 필터가 나타나 있습니다. 여기에는 어느 것이 표준이고 어느 것이 비표준인지도 나타나 있습니다. 무들의 갱신 과정을 계속하기 전에 모든 비표준 플러그인은 가장 최신판으로 갱신되어야 하고 제대로 작동되는지 점검해야 합니다.';
 $string['pluginsetup'] = '플러그인 테이블 설정';
 $string['policyaccept'] = '약관을 이해하였으며 이에 동의합니다.';
 $string['policyagree'] = '이 사이트를 계속 이용하시려면 약관에 동의하셔야 합니다. 동의하십니까?';
@@ -1161,10 +1160,11 @@ $string['registrationinfo'] = '<p> 이 페이지는 무들 사이트를  moodle.
 <p> 모든 등록은 수동으로 이루어집니다.
 일단 등록하면 등록된 내용은 쉽게 수정할 수 있습니다.</p>';
 $string['registrationno'] = '아니오, 이메일을 받지 않겠습니다.';
-$string['registrationsend'] = 'moodle.org 에 등록 정보 보내기';
+$string['registrationsend'] = 'moodle.org에 등록 정보 보내기';
 $string['registrationyes'] = '예, 중요한 사항을 나에게 알려주세요.';
 $string['reject'] = '거절';
-$string['remotemaharauser'] = 'Mahara User 삭제';
+$string['reload'] = '다시 로딩';
+$string['remotemaharauser'] = '원격 Mahara 사용자';
 $string['remove'] = '삭제';
 $string['removeadmin'] = '관리자 삭제';
 $string['removecreator'] = '강좌 생성자 삭제';
@@ -1203,7 +1203,7 @@ $string['returningtosite'] = '이 웹사이트로 들어 갈까요?';
 $string['revert'] = '복구';
 $string['role'] = '역할';
 $string['rolemappings'] = '역할 배치';
-$string['roles'] = '역할들';
+$string['roles'] = '역할';
 $string['rss'] = 'RSS';
 $string['rssarticles'] = 'RSS로 배포할 최근 문서의 수';
 $string['rsserror'] = 'RSS 데이터 읽기 에러';
@@ -1319,7 +1319,7 @@ $string['sortby'] = '정렬';
 $string['sourcerole'] = '원래 역할';
 $string['specifyname'] = '반드시 이름을 기입해야 합니다.';
 $string['standard'] = '표준';
-$string['starpending'] = '([*] 교육과정 개설이 승인 대기중입니다.)';
+$string['starpending'] = '([*] = 승인 대기중인 교육과정.)';
 $string['startdate'] = '강좌 시작일';
 $string['startingfrom'] = '개시일';
 $string['startsignup'] = '새 계정 만들기';
