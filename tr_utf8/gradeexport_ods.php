@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // gradeexport_ods.php - created with Moodle 1.9 Beta + (2007083101)
+      // gradeexport_ods.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['modulename'] = 'OpenOffice çalışma yaprağı';
-$string['ods:view'] = 'OpenOffice başarı notu dışaver';
+$string['ods:publish'] = 'ODS başarı notu dışaverimi yayınla';
+$string['ods:view'] = 'OpenOffice başarı notu dışaverimi kullan';
 
 ?>

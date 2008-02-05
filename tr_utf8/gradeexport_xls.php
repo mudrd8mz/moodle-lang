@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // gradeexport_xls.php - created with Moodle 1.9 Beta + (2007083101)
+      // gradeexport_xls.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['modulename'] = 'Excel çalışma yaprağı';
-$string['xls:view'] = 'Excel başarı notu dışaver';
+$string['xls:publish'] = 'XLS başarı notu dışaverimi yayınla';
+$string['xls:view'] = 'Excel başarı notu dışaverimi kullan';
 
 ?>

@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // gradereport_grader.php - created with Moodle 1.9 Beta + (2007083101)
+      // gradereport_grader.php - created with Moodle 2.0 dev (2007101508)
 
 
-$string['grader:manage'] = 'Notlandırıcı raporunu yönet';
-$string['grader:view'] = 'Notlandırıcı raporuna bak';
-$string['modulename'] = 'Notlandırıcı raporu';
+$string['grader:manage'] = 'Öğrenci raporunu yönet';
+$string['grader:view'] = 'Öğrenci raporuna bak';
+$string['modulename'] = 'Öğrenci raporu';
 
 ?>

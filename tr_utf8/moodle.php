@@ -238,6 +238,7 @@ $string['complete'] = 'Tamamlanmış';
 $string['completereport'] = 'Bütün raporlar';
 $string['configuration'] = 'Yapılandırma';
 $string['confirm'] = 'Onayla';
+$string['confirmcheckfull'] = 'Bunu tamamen onayladığınızdan emin misiniz: $a?';
 $string['confirmed'] = 'Kaydınız onaylandı';
 $string['confirmednot'] = 'Kaydınız henüz onaylanmadı!';
 $string['continue'] = 'Devam';
@@ -655,6 +656,7 @@ $string['gdnot'] = 'GD kurulu değil';
 $string['general'] = 'Genel';
 $string['gettheselogs'] = 'Bu kayıtları getir';
 $string['go'] = 'Git';
+$string['gotoyourserver'] = '(Sunucunuza geri dönün)';
 $string['gpl'] = 'Telif Hakkı (C) 1999\'dan itibaren Martin Dougiamas (http://moodle.com)
 
 Bu program ücretsiz bir yazılımdır. Bu yazılımı, Free Software Foundation tarafından yayınlanan GNU Genel Kamu Lisansı (GPL) 2 veya sonraki sürümü ile düzenleyebilir veya dağıtabilirsiniz.
@@ -1171,6 +1173,7 @@ $string['registrationno'] = 'Hayır, email almak istemiyorum';
 $string['registrationsend'] = 'Kayıt bilgisini moodle.org\'a gönder';
 $string['registrationyes'] = 'Evet, önemli duyuruları bana bildir';
 $string['reject'] = 'Reddet';
+$string['reload'] = 'Tekrar yükle';
 $string['remotemaharauser'] = 'Uzak Mahara Kullanıcısı';
 $string['remove'] = 'Sil';
 $string['removeadmin'] = 'Yöneticiyi çıkar';
