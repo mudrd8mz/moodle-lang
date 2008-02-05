@@ -1159,6 +1159,7 @@ $string['registrationno'] = 'Non, je ne désire pas recevoir de courriel';
 $string['registrationsend'] = 'Envoyer les informations d\'enregistrement à moodle.org';
 $string['registrationyes'] = 'Oui, envoyez-moi les informations importantes';
 $string['reject'] = 'Rejeter';
+$string['reload'] = 'Actualiser';
 $string['remotemaharauser'] = 'Utilisateur Mahara distant';
 $string['remove'] = 'Supprimer';
 $string['removeadmin'] = 'Supprimer cet administrateur';
