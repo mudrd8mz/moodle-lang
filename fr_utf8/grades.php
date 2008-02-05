@@ -406,6 +406,7 @@ $string['savepreferences'] = 'Enregistrer les préférences';
 $string['scaledpct'] = '%% pondéré';
 $string['scaleidhelp'] = 'Le barème sur lequel cet $a est basé.';
 $string['scalestandardhelp'] = 'Les barèmes standards sont disponibles dans tout le site, pour tous les cours.';
+$string['seeallcoursegrades'] = 'Voir toutes les notes du cours';
 $string['selectalloroneuser'] = 'Sélectionner tous ou un utilisateur';
 $string['selectdestination'] = 'Choisir la destination de $a';
 $string['separator'] = 'Séparateur';
