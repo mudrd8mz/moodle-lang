@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 2.0 dev (2007101506)
+      // survey.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['actual'] = '実体験';
@@ -164,7 +164,7 @@ $string['collespintro'] = 'この調査の目的は、あなたがオンライ�
 ありがとうございます。';
 $string['collespname'] = 'COLLES (要望)';
 $string['customintro'] = 'カスタムイントロ';
-$string['deleteallanswers'] = 'すべての調査の回答を削除する';
+$string['deleteallanswers'] = 'すべての調査回答を削除する';
 $string['deleteanalysis'] = '回答分析を削除する';
 $string['done'] = '完了';
 $string['download'] = 'ダウンロード';
@@ -182,7 +182,7 @@ $string['ipreferthat'] = '私は次のことが好きです:';
 $string['modulename'] = '調査';
 $string['modulenameplural'] = '調査';
 $string['name'] = '名称';
-$string['newsurveyresponses'] = '新しい調査の回答';
+$string['newsurveyresponses'] = '新しい調査回答';
 $string['nobodyyet'] = 'この調査は解答されていません';
 $string['notdone'] = '未回答';
 $string['notes'] = 'あなたの個人分析およびノート';
@@ -203,7 +203,7 @@ $string['scaletimes5'] = 'ほとんど無い,まれに,時々,頻繁に,ほと�
 $string['seemoredetail'] = '詳細を見るためにはここをクリックしてください。';
 $string['selectedquestions'] = '評価尺度から選ばれた質問、すべての学生';
 $string['summary'] = '要約';
-$string['survey:download'] = '調査をダウンロードする';
+$string['survey:download'] = '回答をダウンロードする';
 $string['survey:participate'] = '調査に回答する';
 $string['survey:readresponses'] = '回答を表示する';
 $string['surveycompleted'] = '調査が終了しました。下のグラフはクラスの平均とあなたの結果を比較したものです。';

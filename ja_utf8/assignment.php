@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (2007101507)
+      // assignment.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -67,7 +67,7 @@ $string['maximumgrade'] = '最大評価';
 $string['maximumsize'] = '最大サイズ';
 $string['modulename'] = '課題';
 $string['modulenameplural'] = '課題';
-$string['newsubmissions'] = '課題が提出されました。';
+$string['newsubmissions'] = '課題が提出されました';
 $string['noassignments'] = '課題はまだありません。';
 $string['noattempts'] = 'この課題はまだ提出されていません。';
 $string['nofiles'] = 'ファイルが提出されていません。';

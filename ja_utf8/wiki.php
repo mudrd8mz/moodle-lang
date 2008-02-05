@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.8 dev (2006102600)
+      // wiki.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['action'] = '-- アクション --';
@@ -167,8 +167,8 @@ $string['tablinks'] = 'リンク';
 $string['tabview'] = '表示';
 $string['thanksforcontribution'] = 'ご協力ありがとうございます。';
 $string['thispageisntlinkedfromanywhereelse'] = 'このページは、どこからもリンクされていません。';
-$string['updatedpages'] = '更新ページ';
-$string['updatedwikipages'] = '更新Wikiページ';
+$string['updatedpages'] = '更新されたページ';
+$string['updatedwikipages'] = '更新されたWikiページ';
 $string['uplerror'] = '申し訳ございません、ファイルのアップロード中にエラーが発生しました。';
 $string['uplinsect'] = 'アップロード先';
 $string['uplnewnam'] = '別名で保存する';
