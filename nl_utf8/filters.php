@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 2.0 dev (2007101506)
+      // filters.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['actfilterhdr'] = 'Actieve filters';
@@ -26,7 +26,7 @@ $string['isanyvalue'] = 'is willekeurige waarde';
 $string['isbefore'] = 'is voor $a';
 $string['isdefined'] = 'is bepaald';
 $string['isempty'] = 'is leeg';
-$string['isequalto'] = 'is gelijk aan';
+$string['isequalto'] = 'gelijk aan';
 $string['isnotdefined'] = 'is niet gedefinieerd';
 $string['isnotequalto'] = 'is niet gelijk aan';
 $string['newfilter'] = 'Nieuwe filter';
@@ -35,7 +35,7 @@ $string['profilelabelnovalue'] = '$a->label: $a->profile $a->operator';
 $string['removeall'] = 'Verwijder alles';
 $string['removeselected'] = 'Verwijder selectie';
 $string['selectlabel'] = '$a->label $a->operator $a->value';
-$string['startswith'] = 'Begint met';
+$string['startswith'] = 'begint met';
 $string['tablenosave'] = 'Wijzigingen in bovenstaande tabel worden automatisch bewaard.';
 $string['textlabel'] = '$a->label $a->operator $a->value';
 $string['textlabelnovalue'] = '$a->label $a->operator';
