@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.6.2 (2006050520)
+      // block_rss_client.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addfeed'] = 'Añadir una URL de canal de noticias:';
@@ -30,6 +30,7 @@ $string['feedupdated'] = 'Canal de noticias actualizado';
 $string['findmorefeeds'] = 'Encontrar más canales RSS';
 $string['managefeeds'] = 'Gestionar todos mis canales';
 $string['nofeeds'] = 'No hay canales RSS definidos para este sitio.';
+$string['numentries'] = 'Entradas por canal';
 $string['pickfeed'] = 'Seleccionar un canal de noticias';
 $string['remotenewsfeed'] = 'Canal de noticias remoto';
 $string['rss_client:createprivatefeeds'] = 'Crear canales RSS privados';
@@ -40,7 +41,9 @@ $string['seeallfeeds'] = 'Ver todos los canales';
 $string['sharedfeed'] = 'Canal compartido';
 $string['shownumentrieslabel'] = 'Número máximo de entradas a mostrar por bloque.';
 $string['submitters'] = '¿Quién puede definir canales RSS de noticias? Los canales definidos estarán disponibles en cualquier página de su sitio.';
+$string['submitters2'] = 'Remitentes';
 $string['timeout'] = 'Tiempo en minutos antes de que un canal RSS expire. Sepa que este tiempo define el intervalo mínimo de tiempo antes de expirar; el canal se refrescará en la siguiente ejecución del cron. Valores recomendados son 30 minutos o mayores.';
+$string['timeout2'] = 'Tiempo de espera';
 $string['timeoutdesc'] = 'Tiempo de permanencia de un canal de noticias en el caché (en minutos)';
 $string['updatefeed'] = 'Actualizar una URL de canal de noticias:';
 $string['validatefeed'] = 'Validar canal';

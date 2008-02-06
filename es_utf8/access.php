@@ -11,9 +11,10 @@ $string['activityprev'] = 'Actividad anterior';
 $string['breadcrumb'] = 'Rastro de breadcrumb';
 $string['currenttopic'] = 'Este tema';
 $string['currentweek'] = 'Esta semana';
+$string['hideblocka'] = 'Oclutar bloque $a';
 $string['monthnext'] = 'Mes próximo';
 $string['monthprev'] = 'Mes anterior';
-$string['showhideblock'] = 'Mostrar u ocultar bloque';
+$string['showblocka'] = 'Mostrar bloque $a';
 $string['sitemap'] = 'Mapa del sitio';
 $string['skipa'] = 'Saltar $a';
 $string['skipblock'] = 'Saltar bloque';
@@ -23,5 +24,6 @@ $string['tablelayout'] = 'Tabla de esquemas, $a';
 $string['tocontent'] = 'Ir a contenido principal';
 $string['tonavigation'] = 'Ir a navegación';
 $string['youarehere'] = 'Usted está aquí';
+$string['showhideblock'] = 'Mostrar u ocultar bloque'; // ORPHANED
 
 ?>

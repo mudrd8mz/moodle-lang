@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.6 (2006050506)
+      // chat.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['beep'] = 'beep';
@@ -21,7 +21,7 @@ $string['configserverip'] = 'Dirección IP numérica equivalente al \'hostname\'
 $string['configservermax'] = 'Número máximo de usuarios';
 $string['configserverport'] = 'Puerto que usa el \'daemon\' en el servidor';
 $string['currentchats'] = 'Salas activas';
-$string['currentusers'] = 'Usuarios ';
+$string['currentusers'] = 'Usuarios';
 $string['deletesession'] = 'Borrar esta sesión';
 $string['deletesessionsure'] = '¿Está seguro de que desea borrar esta sesión?';
 $string['donotusechattime'] = 'No publicar horas de chat';
@@ -38,6 +38,7 @@ $string['messagebeepsyou'] = '$a le acaba de enviar un beep';
 $string['messageenter'] = '$a entró a la sala';
 $string['messageexit'] = '$a salió de la sala';
 $string['messages'] = 'Mensajes';
+$string['method'] = 'Método de chat';
 $string['methoddaemon'] = '\'Daemon\' del servidor de chat';
 $string['methodnormal'] = 'Método normal';
 $string['modulename'] = 'Chat';
@@ -49,15 +50,25 @@ $string['nomessages'] = 'Aún no hay mensajes';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'No hay sesión programada';
+$string['oldping'] = 'Desconectar tiempo de espera';
+$string['pastchats'] = 'Sesiones de chat pasadas';
+$string['refreshroom'] = 'Refrescar sala';
+$string['refreshuserlist'] = 'Refrescar lista de usuarios';
+$string['removemessages'] = 'Eliminar todos los mensajes';
 $string['repeatdaily'] = 'A la misma hora todos los días';
 $string['repeatnone'] = 'Sin repeticiones, publicar sólo la hora especificada';
 $string['repeattimes'] = 'Repetir sesiones';
 $string['repeatweekly'] = 'A la misma hora todas las semanas';
 $string['savemessages'] = 'Guardar sesiones pasadas';
 $string['seesession'] = 'Ver esta sesión';
+$string['serverhost'] = 'Nombre del servidor';
+$string['serverip'] = 'IP del servidor';
+$string['servermax'] = 'Número máximo de usuarios';
+$string['serverport'] = 'Puerto del servidor';
 $string['sessions'] = 'Sesiones';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Todos pueden ver las sesiones pasadas';
+$string['updatemethod'] = 'Actualizar método';
 $string['viewreport'] = 'Ver las sesiones anteriores';
 
 ?>

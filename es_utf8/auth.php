@@ -5,6 +5,7 @@
 $string['CASform'] = 'Opción de autenticación';
 $string['accesCAS'] = 'Usuarios CAS';
 $string['accesNOCAS'] = 'Otros usuarios';
+$string['actauthhdr'] = 'Activar conectores de autenticación';
 $string['alternatelogin'] = 'Si introduce aquí una URL, se usará como página de acceso al sitio. La página debería contener un formulario cuya propiedad de acción está ajustada a <strong>\'$a\'</strong> y devuelve los campos <strong>nombre de usuario</strong> y <strong>contraseña</strong>.<br />Procure no introducir una URL incorrecta puesto que hacerlo supondrá su expulsión del sitio.<br />Deje el ajuste en blanco para utilizar la página de acceso por defecto.';
 $string['alternateloginurl'] = 'URL de acceso alternativo';
 $string['auth_cas_auth_user_create'] = 'Crear usuarios en fuente externa';
