@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 2.0 dev (2007101506)
+      // calendar.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['advancedoptions'] = 'Geavanceerde opties';
@@ -55,7 +55,7 @@ $string['explain_startwday'] = 'Een kalenderweek zal starten op de dag die je hi
 $string['explain_timeformat'] = 'Je kunt kiezen of de tijd in 12- of 24-uurformaat wordt weergegeven. Als je voor de standaardinstelling kiest, dan zal het formaat automatisch gekozen worden volgens de taal die je gebruikt op je site.';
 $string['export'] = 'Exporteer';
 $string['exportbutton'] = 'Exporteer';
-$string['exportcalendar'] = 'Exporteer calender';
+$string['exportcalendar'] = 'Exporteer Kalender';
 $string['for'] = 'voor';
 $string['fri'] = 'Vr';
 $string['friday'] = 'Vrijdag';
