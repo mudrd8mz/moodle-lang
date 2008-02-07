@@ -1,10 +1,13 @@
 <?PHP // $Id$ 
-      // block_course_list.php - created with Moodle 1.6 development (2005101200)
+      // block_course_list.php - created with Moodle 2.0 dev (2007101508)
 
 
-$string['allcourses'] = 'Yöneticiler bütün dersleri görür';
+$string['adminview'] = 'Yönetici görünümü';
+$string['allcourses'] = 'Yönetici bütün dersleri görür';
 $string['blockname'] = 'Ders Listesi';
 $string['configadminview'] = 'Ders listesi bloklarında yöneticiler neleri görebilir?';
-$string['owncourses'] = 'Yöneticiler kendi derslerini görür';
+$string['confighideallcourseslink'] = 'Blokun altındaki \"Tüm kurslar\" bağlantısını gizle. Bağlantı gizleme, yöneticinin görmesini etkilemez.';
+$string['hideallcourseslink'] = 'Tüm kurs bağlantılarını gizle';
+$string['owncourses'] = 'Yönetici kendi derslerini görür';
 
 ?>
