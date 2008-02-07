@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 2.0 dev (2007101504)
+      // calendar.php - created with Moodle 2.0 dev (2007101508)
 
 
-$string['advancedoptions'] = 'Gelişmiş ayarlar';
+$string['advancedoptions'] = 'Gelişmiş seçenekler';
 $string['allday'] = 'Tüm gün';
 $string['calendar'] = 'Takvim';
 $string['calendarheading'] = '$a Takvimi';
@@ -15,7 +15,7 @@ $string['courseevent'] = 'Kurs olayı';
 $string['courseevents'] = 'Ders olayları';
 $string['courses'] = 'Kurslar';
 $string['dayview'] = 'Günlük Görünüm';
-$string['daywithnoevents'] = 'Bugün bir olay yok.';
+$string['daywithnoevents'] = 'Bu günde bir olay yok.';
 $string['default'] = 'Varsayılan';
 $string['deleteevent'] = 'Olayı sil';
 $string['deleteevents'] = 'Olayları sil';
@@ -24,32 +24,33 @@ $string['durationminutes'] = 'Dakika süreli';
 $string['durationnone'] = 'Süresiz';
 $string['durationuntil'] = 'Süreli';
 $string['editevent'] = 'Olay düzenleniyor';
-$string['errorbeforecoursestart'] = 'Olay ders başlangıç tarihinden önce ayarlanamaz';
+$string['errorbeforecoursestart'] = 'Olay, ders başlangıç tarihinden önce ayarlanamaz';
 $string['errorinvaliddate'] = 'Geçersiz tarih';
 $string['errorinvalidminutes'] = '1 ve 999 arasında bir sayı vererek dakika olarak süreyi belirtin';
 $string['errorinvalidrepeats'] = '1 ve 99 arasında bir sayı vererek olay sayısını belirtin';
 $string['errornodescription'] = 'Açıklama gerekli';
 $string['errornoeventname'] = 'İsim gerekli';
-$string['eventdate'] = 'Başlangıç';
+$string['eventdate'] = 'Tarih';
 $string['eventdescription'] = 'Açıklama';
-$string['eventduration'] = 'Süre';
+$string['eventduration'] = 'Süreç';
 $string['eventendtime'] = 'Bitiş süresi';
 $string['eventinstanttime'] = 'Zaman';
 $string['eventkind'] = 'Olay tipi';
 $string['eventname'] = 'İsim';
 $string['eventnone'] = 'Olay yok';
-$string['eventrepeat'] = 'Tekrarlama';
+$string['eventrepeat'] = 'Tekrar';
 $string['eventsall'] = 'Tüm olaylar';
 $string['eventsfor'] = '$a olayları';
 $string['eventskey'] = 'Olay İmi';
-$string['eventsrelatedtocourses'] = 'Kursla ilgili olaylar';
-$string['eventstarttime'] = 'Başlangıç tarihi';
+$string['eventsrelatedtocourses'] = 'Kurslarla ilgili olaylar';
+$string['eventstarttime'] = 'Başlangıç zamanı';
 $string['eventtime'] = 'Zaman';
 $string['eventview'] = 'Olay Ayrıntıları';
 $string['expired'] = 'Süresi doldu';
-$string['explain_lookahead'] = 'Gelecek bir olayın gösterilmesinde maksimum gün sayısını ayarlar. Bundan sonra olan olaylar gösterilmez. Lütfen dikkat; bu zaman çerçevesindeki tüm olayların gösterilmesinin <strong>garantisi yoktur.</strong> Eğer çok fazla sayıda (Gelecek Maksimum Olay sayısından daha fazla)olay varsa en sondaki olaylar gösterilmez.';
-$string['explain_maxevents'] = 'Yaklaşan olayların görüntülenme sayısı sınırını ayarlayabilirsiniz. Büyük bir sayı girerseniz yaklaşan olaylar ekranınızda çok yer kaplayabilir.';
-$string['explain_persistflt'] = 'Bu ayarın etkin olması durumunda, son filtreleme ayarlarınız hatırlanacak ve her giriş yaptığınızda bu ayarlara dönülecektir.';
+$string['explain_lookahead'] = 'Gelecekteki bir olayın gösterilmesinde maksimum gün sayısını ayarlar. Bundan sonraki olaylar, yaklaşan olaylar olarak gösterilmez. Lütfen dikkat; bu zaman çerçevesindeki tüm olayların gösterilmesinin <strong>garantisi yoktur.</strong> Eğer çok fazla sayıda (Yaklaşan Maksimum Olay sayısından daha fazla) olay varsa en sondaki olaylar gösterilmez.';
+$string['explain_maxevents'] = 'Yaklaşan olayların görüntülenme sayısı sınırını ayarlar. Büyük bir sayı girerseniz yaklaşan olaylar ekranınızda çok yer kaplayabilir.';
+$string['explain_persistflt'] = 'Bu ayarın etkin olması durumunda, son filtreleme ayarlarınız hatırlanır ve her giriş yaptığınızda bu ayarlara dönülür.';
+$string['explain_site_timeformat'] = 'Sitenin tamamında, saatin 12 veya 24 şeklinde görünmesini ayarlayabilirsiniz. Varsayılanı seçerseniz siteyi kullandığınız dilin ayarlarına göre saat biçimi belirecektir. Bu ayar, kullanıcı seçenekleri tarafından tekrar tanımlanabilir.';
 $string['explain_startwday'] = 'Burada seçtiğiniz gün, haftanın ilk günü olarak görünecektir.';
 $string['explain_timeformat'] = 'Saatin 12 veya 24 şeklinde görünmesini ayarlayabilirsiniz. Varsayılanı seçerseniz siteyi kullandığınız dilin ayarlarına göre saat biçimi belirecektir.';
 $string['export'] = 'Dışa ver';
@@ -87,10 +88,10 @@ $string['preferences'] = 'Seçenekler';
 $string['preferences_available'] = 'Kişisel tercihleriniz';
 $string['quickdownloadcalendar'] = 'Hızlı indir / takvime abone ol';
 $string['recentupcoming'] = 'Şu an ve sonraki 60 gün';
-$string['repeateditall'] = 'Bu tekrarlanan seride değişiklikleri tüm $a olaylarına uygula';
+$string['repeateditall'] = 'Bu tekrarlanan serideki değişiklikleri, tüm $a olaylarına uygula';
 $string['repeateditthis'] = 'Değişiklikleri sadece bu olaya uygula';
 $string['repeatnone'] = 'Tekrar yok';
-$string['repeatweeksl'] = 'Haftalık tekrarla, gerçekleşme sayısı:';
+$string['repeatweeksl'] = 'Haftalık tekrarla, toplam gerçekleşme sayısı';
 $string['repeatweeksr'] = 'olay';
 $string['sat'] = 'Cmt';
 $string['saturday'] = 'Cumartesi';
@@ -130,6 +131,6 @@ $string['wednesday'] = 'Çarşamba';
 $string['weeknext'] = 'Sonraki hafta';
 $string['weekthis'] = 'Bu hafta';
 $string['yesterday'] = 'Dün';
-$string['youcandeleteallrepeats'] = 'Bu durum bir tekrarlanan olay serisinin parçasıdır. Sadece bu olayı silebilirsiniz, veya serideki tüm $a olayları bir seferde silersiniz.';
+$string['youcandeleteallrepeats'] = 'Bu olay, tekrarlanan bir olay serisinin parçasıdır. Sadece bu olayı silebilirsiniz, veya serideki tüm $a olayları bir seferde silersiniz.';
 
 ?>
