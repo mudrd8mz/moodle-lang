@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (2007101504)
+      // assignment.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['allowdeleting'] = 'Silme izni';
-$string['allowmaxfiles'] = 'Yüklenecek en fazla dosya sayısı';
+$string['allowmaxfiles'] = 'Yüklenecek en fazla dosya';
 $string['allownotes'] = 'Notlara izin ver';
 $string['allowresubmit'] = 'Tekrar göndermeye izin ver';
 $string['assignment:grade'] = 'Ödevi notlandır';
@@ -21,8 +21,9 @@ $string['assignmenttype'] = 'Ödev türü';
 $string['availabledate'] = 'Başlangıç tarihi';
 $string['comment'] = 'Yorum';
 $string['commentinline'] = 'Satıriçi yorum';
-$string['configitemstocount'] = 'Çevrimiçi ödevlerde öğrenci gönderileri için sayılacak tür';
+$string['configitemstocount'] = 'Çevrimiçi ödevlerde öğrenci gönderileri için sayaç türü';
 $string['configmaxbytes'] = 'Sitedeki tüm ödevler için varsayılan en yüksek ödev boyutu (ders limitleri ve diğer yerel ayarlar içindir)';
+$string['configshowrecentsubmissions'] = 'Herkes, şu anki etkinlik raporlarındaki gönderim uyarılarını görebilir.';
 $string['confirmdeletefile'] = 'Bu dosyayı tamamen silmek istediğinzden emin misiniz?<br /><strong>$a</strong>';
 $string['deleteallsubmissions'] = 'Tüm gönderileri sil';
 $string['deletefilefailed'] = 'Dosya silme başarısız.';
@@ -33,16 +34,16 @@ $string['duedateno'] = 'Süresiz';
 $string['early'] = '$a öncesi';
 $string['editmysubmission'] = 'Gönderimi düzenle';
 $string['emailstudents'] = 'Öğrencilere e-posta uyarısı';
-$string['emailteachermail'] = '$a->username, \'$a->assignment\' isimli gönderesini güncelledi.
+$string['emailteachermail'] = '$a->username, \'$a->assignment\' isimli ödevini güncelledi.
 
 Buradan ulaşabilirsiniz:
 
 $a->url';
-$string['emailteachermailhtml'] = '$a->username, <i>\'$a->assignment\'</i> isimli gönderesini güncelledi.<br /><br /><a href=\"$a->url\">Buradan</a> ulaşabilirsiniz.';
+$string['emailteachermailhtml'] = '$a->username, <i>\'$a->assignment\'</i> isimli ödevini güncelledi.<br /><br /><a href=\"$a->url\">Web sitesinden</a> ulaşabilirsiniz.';
 $string['emailteachers'] = 'Eğitimcilere e-posta uyarısı';
 $string['emptysubmission'] = 'Henüz bir şey göndermediniz';
 $string['existingfiledeleted'] = 'Varolan dosya silindi: $a';
-$string['failedupdatefeedback'] = 'Bu kullanıcının, $a, gönderdiği geribildirim güncellenemedi';
+$string['failedupdatefeedback'] = '$a kullanıcısının geribildirimi güncellenirken hata oluştu';
 $string['feedback'] = 'Geribildirim';
 $string['feedbackfromteacher'] = '$a\'den geribildirim';
 $string['feedbackupdated'] = '$a kişi için gönderi geribildirimleri güncellendi';
@@ -59,7 +60,8 @@ $string['helpupload'] = '<p>Bu ödev türü, her bir katılımcının bir veya b
 <p>Bu ödev türü katılımcı tarafından elle bitirilmeli. İstediğiniz zaman bu ödevin şu anki durumunu görebilirsiniz, bitirilmeyen ödevler \'Taslak\' olarak gösterilir. Notlandırılmamış herhangi bir ödevi taslak durumuna çevirebilirsiniz.</p>';
 $string['helpuploadsingle'] = '<p>Bu ödev türü, tüm katılımcıların herhangi bir tipte bir dosya göndermelerine olanak sağlar.</p>
 <p>Word belgesi, resim dosyası, zip veya öğrencilerden ne tür bir dosya göndermelerini istediyseniz.</p>';
-$string['hideintro'] = 'Açıklamayı sadece erişilebildiğinde göster';
+$string['hideintro'] = 'Erişilebilme tarihine kadar açıklamayı gizle';
+$string['itemstocount'] = 'Sayaç';
 $string['late'] = '$a sonrası';
 $string['maximumgrade'] = 'En yüksek not';
 $string['maximumsize'] = 'En yüksek boyut';
@@ -70,6 +72,7 @@ $string['noassignments'] = 'Henüz ödev yok';
 $string['noattempts'] = 'Bu ödev için uygulama yapılmadı';
 $string['nofiles'] = 'Dosya gönderilmedi';
 $string['nofilesyet'] = 'Henüz dosya gönderilmedi';
+$string['nosubmitusers'] = 'Bu ödevi gönderecek izni olan kullanıcı yok';
 $string['notavailableyet'] = 'Üzgünüz, bu ödeve şimdi ulaşılamaz.<br />Ödev yönergeleri aşağıda gösterilen tarihte burada gösterilecektir.';
 $string['notes'] = 'Notlar';
 $string['notesempty'] = 'Kayıt yok';
@@ -85,6 +88,7 @@ $string['responsefiles'] = 'Yanıt dosyaları';
 $string['reviewed'] = 'İncelendi';
 $string['saveallfeedback'] = 'Tüm geribildirimlerimi kaydet';
 $string['sendformarking'] = 'İşaretleme için gönder';
+$string['showrecentsubmissions'] = 'Son gönderileri göster';
 $string['submission'] = 'Gönderi';
 $string['submissiondraft'] = 'Gerilbildirim taslağı';
 $string['submissionfeedback'] = 'Geribildirim gönderimi';
