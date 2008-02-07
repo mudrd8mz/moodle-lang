@@ -8,22 +8,22 @@ LAST MODIFIED : $Date$
 REVISION      : $Revision$
 ------------------------------------------------------------------------
 
++ Ethem Evlice (www.evlice.com)
+  Başlangıç: 6 Eylül 2004, Bitiş: Hala devam ediyor
+
 + M. Cuneyt Birkok (www.birkok.net)
   Moodle çevirilerini ilk başlatan kişi
   Başlangıç: 10 Aralık 2002, Bitiş: 20 Ocak 2004
-
-+ Ethem Evlice (www.evlice.com)
-  Başlangıç: 6 Eylül 2004, Bitiş: Hala devam ediyor
 
 ------------------------------------------------------------------------
 Türkçe dil paketiyle ilgili her türlü öneri ve eleştirilerinizi
 lütfen bu foruma iletin: http://moodle.org/course/view.php?id=17
 ------------------------------------------------------------------------
 
-Moodle 1.6 ve üstü sürümünü kullanıyorsanız dil paketlerini
-otomatik olarak bu menüden
+Moodle 1.6 ve ÜSTÜ sürümünü kullanıyorsanız dil paketlerini
+Moodle programı içinde otomatik olarak bu menüden
 
-  "YÖNETİM > YAPILANDIRMA > DİL > DİL YÜKLEME ARACI"
+  "YÖNETİM > DİL > DİL PAKETLERİ"
 
 güncelleyebilirsiniz. Bunu yapamıyorsanız bu adresten
 
@@ -33,12 +33,13 @@ Türkçe dil paketini indirdikten sonra sıkıştırılmış dosyayı
 moodledata/lang/tr_utf klasörüne açabilirsiniz.
 
 Moodle 1.5 kullanıyorsanız bu adresteki paketi indirin:
-  http://download.moodle.org/lang/   (not: artık güncellenmeyecek)
+  http://download.moodle.org/lang15/
+  (NOT: son güncelleme: 06 Şubat 2006, artık güncellenmiyor)
 ------------------------------------------------------------------------
 
 :::::::::::::::::::::::::::::::: ÖNEMLİ ::::::::::::::::::::::::::::::::
 
-Web sitesi için çoğu dil paketi çevrilmiş, ancak /docs ve /help
+Web sitesi için çevirilerin çoğu %95 yapılmış, ancak /docs ve /help
 klasöründe bulunan belgeler çevrilmemiştir. Bunları tek başıma çevirmem
 mümkün değil. Bu yüzden, çeviri kabiliyeti yüksek olan ve eğitimle ilgili
 kavramları anlayan kişilerin benimle iletişime geçip vereceğim belgeleri
