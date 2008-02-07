@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 dev (2007021400)
+      // mnet.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (kendinden-imzalı)';
@@ -19,13 +19,17 @@ $string['authfail_usermismatch'] = 'Yetkilendirme hatası: kullanıcı eşleşmi
 $string['authmnetautoadddisabled'] = 'Moodle Ağı Yetkilendirme eklentilerindeki <em>kullanıcıları otomatik-ekleme</em> <strong>etkin değil</strong>.';
 $string['authmnetdisabled'] = 'Moodle Ağı <em>Yetkilendirme eklentisi</em> <strong>etkin değil</strong>.';
 $string['badcert'] = 'Bu geçerli bir sertifika değil.';
+$string['certdetails'] = 'Sertifika Ayrıntıları';
 $string['couldnotgetcert'] = 'Burada sertifika bulunamadı: <br />$a<br />Host çalışmıyor veya hatalı yapılandırıldı.';
 $string['courses'] = 'kurslar';
 $string['currentkey'] = 'Geçerli Açık Anahtar';
 $string['databaseerror'] = 'Veritabanına ayrıntılar yazaılamadı.';
 $string['deleteaserver'] = 'Sunucu Siliniyor';
+$string['deletehost'] = 'Hostu sil';
 $string['deletekeycheck'] = 'Bu anahtarı silmek istediğinizden kesinlikle emin misiniz?';
 $string['deny'] = 'Reddet';
+$string['description'] = 'Açıklama';
+$string['enabled_for_all'] = '(Bu servis tüm hostlar için etkinleştirildi).';
 $string['enrolments'] = 'ders kayıtları';
 $string['expired'] = 'Bu anahtarın yok olma süresi';
 $string['expires'] = 'Geçerlilik';
@@ -33,11 +37,20 @@ $string['expireyourkey'] = 'Bu Anahtarı Sil';
 $string['hidelocal'] = 'Yerel kullanıcıları gizle';
 $string['hideremote'] = 'Uzak kullanıcıları gizle';
 $string['host'] = 'host';
+$string['hostcoursenotfound'] = 'Host veya kurs yok';
 $string['hostdeleted'] = 'Tamam - host silindi';
 $string['hostname'] = 'Hostadı';
 $string['hostsettings'] = 'Host Ayarları';
+$string['id'] = 'ID';
+$string['invalidaccessparam'] = 'Geçersiz erişim parametresi';
+$string['invalidactionparam'] = 'Geçersiz eylem parametresi';
+$string['invalidhost'] = 'Geçerli bir host tanımlayıcısı girmelisiniz';
+$string['invalidpubkey'] = 'Bu geçerli bir SSL anahtarı değil.';
+$string['invalidurl'] = 'Geçersiz URL parametresi';
+$string['ipaddress'] = 'IP adresi';
 $string['keydeleted'] = 'Anahtarınız başarıyla silindi ve değiştirildi.';
 $string['last_connect_time'] = 'Son bağlantı zamanı';
+$string['logs'] = 'kayitlar';
 $string['mnet'] = 'Moodle Ağı';
 $string['mnetdisabled'] = 'Moodle Ağı <strong>etkin değil</strong>.';
 $string['mnetenrol'] = 'Ders Kayıtları';

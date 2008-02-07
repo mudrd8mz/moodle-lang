@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.8 dev (2006102600)
+      // xmldb.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['aftertable'] = 'Tablodan Sonra:';
@@ -9,6 +9,10 @@ $string['binaryincorrectlength'] = 'Binary alan için geçersiz uzunluk';
 $string['cannotuseidfield'] = '\"id\" alanı eklenemedi. Bu otomatik-artan bir sütündur';
 $string['change'] = 'Değiştir';
 $string['charincorrectlength'] = 'Char alanı için geçersiz uzunluk';
+$string['check_bigints'] = 'Hatalı DB sayılarını ara';
+$string['check_indexes'] = 'Hatalı DB indekslerini ara';
+$string['checkbigints'] = 'Büyük sayıları kontrol et';
+$string['checkindexes'] = 'İndeksleri kontrol et';
 $string['confirmdeletefield'] = 'Alanı tamamen silmek istediğinizden emin misiniz:';
 $string['confirmdeleteindex'] = 'İndeksi tamamen silmek istediğinizden emin misiniz:';
 $string['confirmdeletekey'] = 'Anahtarı tamamen silmek istediğinizden emin misiniz:';
@@ -31,6 +35,7 @@ $string['delete_xml_file'] = 'XML Dosyayı Sil';
 $string['down'] = 'Aşağı';
 $string['duplicate'] = 'Kopyala';
 $string['duplicatefieldname'] = 'Bu isimde başka bir alan var';
+$string['duplicatekeyname'] = 'Bu isimde başka bir anahtar var';
 $string['edit'] = 'Düzenle';
 $string['edit_field'] = 'Alanı Düzenle';
 $string['edit_index'] = 'İndexi Düzenle';
@@ -48,13 +53,17 @@ $string['floatincorrectdecimals'] = 'Float alanı için hatalı ondalık sayı';
 $string['floatincorrectlength'] = 'Float alanı için hatalı uzunluk';
 $string['gotolastused'] = 'Son kullanılan dosyaya git';
 $string['incorrectfieldname'] = 'Geçersiz ad';
+$string['index'] = 'İndeks';
 $string['indexes'] = 'İndeksler';
 $string['integerincorrectlength'] = 'Sayı alanı için geçersiz uzunluk';
+$string['key'] = 'Anahtar';
 $string['keys'] = 'Anahtarlar';
 $string['listreservedwords'] = 'Rezerve Edilmiş Sözcükler<br />(Güncellemeler için <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a>)';
 $string['load'] = 'Yükle';
 $string['main_view'] = 'Ana Görünüm';
+$string['missing'] = 'Eksik';
 $string['missingfieldsinsentence'] = 'Tümcede alanlar eksik';
+$string['missingindexes'] = 'Eksik İndekler Bulundu';
 $string['missingvaluesinsentence'] = 'Tümcede değerler eksik';
 $string['mustselectonefield'] = 'Alan ilişkili eylemleri görmek için bir alan seçmelisiniz!';
 $string['mustselectoneindex'] = 'Index ilişkili eylemleri görmek için bir index seçmelisiniz!';
@@ -75,6 +84,7 @@ $string['reservedwords'] = 'Rezerve Edilmiş Sözcükler';
 $string['revert'] = 'Geri Al';
 $string['revert_changes'] = 'Değişiklikleri Geri Al';
 $string['save'] = 'Kaydet';
+$string['searchresults'] = 'Arama Sonuçları';
 $string['selectaction'] = 'Eylem Seç:';
 $string['selectdb'] = 'Veritabanı Seç:';
 $string['selectfieldkeyindex'] = 'Alan/Anahtar/İndex Seç:';
@@ -101,6 +111,8 @@ $string['viewedited'] = 'Düzeltilmişe Bak';
 $string['vieworiginal'] = 'Orijinaline Bak';
 $string['viewphpcode'] = 'PHP Koduna Bak';
 $string['viewsqlcode'] = 'SQL Koduna Bak';
+$string['wrong'] = 'Hatalı';
+$string['wrongints'] = 'Hatalı Sayılar Bulundu';
 $string['wronglengthforenum'] = 'Enum alanı için geçersiz uzunluk';
 $string['wrongnumberoffieldsorvalues'] = 'Tümcede alanın veya değerin sayısı geçersiz';
 $string['wrongreservedwords'] = 'Rezerve Edilmiş Sözcükler<br />$CFG->prefix kullanılıyorsa tablo isimleri önemli değildir.';

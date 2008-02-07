@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta + (2007083101)
+      // tag.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['addtagtomyinterests'] = 'İlgi alanlarıma ekle: \"$a\"';
@@ -36,11 +36,13 @@ $string['tagdescription'] = 'Etiket açıklaması';
 $string['tags'] = 'Etiketler';
 $string['tagsaredisabled'] = 'Etiketler etkin değil';
 $string['tagtype'] = 'Etiket tipi';
+$string['tagtype_default'] = 'Varsayılan';
+$string['tagtype_official'] = 'Resmî';
 $string['thingstaggedwith'] = '\"$a->name\" ismiyle $a->count kayıt var';
 $string['thistaghasnodesc'] = 'Bu etiketin açıklaması henüz yok.';
 $string['timemodified'] = 'Düzenleme';
 $string['typechanged'] = 'Etiket tipi değiştirildi';
-$string['updated'] = 'Güncelleme';
+$string['updated'] = 'Güncellendi';
 $string['updatetag'] = 'Güncelle';
 $string['userstaggedwith'] = '\"$a\" etiketli kullanıcılar';
 $string['withselectedtags'] = 'Seçilen etiketlerle...';
