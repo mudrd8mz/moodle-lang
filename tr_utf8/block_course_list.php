@@ -5,7 +5,7 @@
 $string['adminview'] = 'Yönetici görünümü';
 $string['allcourses'] = 'Yönetici bütün dersleri görür';
 $string['blockname'] = 'Ders Listesi';
-$string['configadminview'] = 'Ders listesi bloklarında yöneticiler neleri görebilir?';
+$string['configadminview'] = 'Yönetici, ders listesi bloklarında neleri görebilir?';
 $string['confighideallcourseslink'] = 'Blokun altındaki \"Tüm kurslar\" bağlantısını gizle. Bağlantı gizleme, yöneticinin görmesini etkilemez.';
 $string['hideallcourseslink'] = 'Tüm kurs bağlantılarını gizle';
 $string['owncourses'] = 'Yönetici kendi derslerini görür';
