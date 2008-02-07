@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9 Beta + (2007092806)
+      // notes.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['addnewnote'] = 'Afegeix una anotació';
@@ -10,6 +10,7 @@ $string['course'] = 'Curs';
 $string['coursenotes'] = 'Anotacions del curs';
 $string['created'] = 'creació';
 $string['deleteconfirm'] = 'Voleu suprimir aquesta anotació?';
+$string['deletenotes'] = 'Suprimeix totes les anotacions';
 $string['editnote'] = 'Edita anotació';
 $string['groupaddnewnote'] = 'Afegeix una anotació per a tothom';
 $string['nocontent'] = 'El contingut de l\'anotació no pot estar buit';

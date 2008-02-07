@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 Beta + (2007092806)
+      // forum.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['addanewdiscussion'] = 'Afegeix un nou tema de debat';
@@ -26,6 +26,7 @@ $string['configcleanreadtime'] = 'L\'hora del dia per a netejar missatges vells 
 $string['configdisplaymode'] = 'El mode de visualització per defecte dels debats si no se n\'especifica un.';
 $string['configenablerssfeeds'] = 'Aquest commutador habilitarà la possibilitat de tenir RSS en tots els fòrums. Haureu d\'activar l\'RSS en els paràmetres de cada fòrum.';
 $string['configenabletimedposts'] = 'Aquesta opció permet definir un període de visualització quan es crea un nou debat en un fòrum (característica experimental)';
+$string['configlogblocked'] = 'El cron del fòrum pot registrar els intents blocats d\'enviar correu a usuaris amb el correu inhabilitat.';
 $string['configlongpost'] = 'Qualsevol missatge per damunt d\'aquesta mida (exclòs l\'HTML) es considera massa llarg.';
 $string['configmanydiscussions'] = 'Nombre màxim de debats per pàgina';
 $string['configmaxbytes'] = 'Mida màxima per defecte per a tots els fitxers adjuntats als fòrums d\'aquest lloc (subjecte als límits de cada curs i altres paràmetres locals)';
@@ -59,6 +60,7 @@ $string['discussionsstartedby'] = 'Debats iniciats per $a';
 $string['discussionsstartedbyrecent'] = 'Debats iniciats recentment per $a';
 $string['discussthistopic'] = 'Debat aquest tema';
 $string['displayend'] = 'Fi de la visualització';
+$string['displaymode'] = 'Mode visualització';
 $string['displayperiod'] = 'Període de visualització';
 $string['displaystart'] = 'Inici de la visualització';
 $string['eachuserforum'] = 'Cada persona inicia un debat';
@@ -114,7 +116,10 @@ $string['introsocial'] = 'Un fòrum obert per xerrar sobre qualsevol cosa que es
 $string['introteacher'] = 'Un fòrum per a notes i debats només del professorat';
 $string['lastpost'] = 'Darrer missatge';
 $string['learningforums'] = 'Fòrums d\'aprenentatge';
+$string['logblocked'] = 'Registra correus blocats';
+$string['longpost'] = 'Missatge llarg';
 $string['mailnow'] = 'Envia correu ara';
+$string['manydiscussions'] = 'Debats per pàgina';
 $string['markalldread'] = 'Marca com a llegits tots els missatges d\'aquest debat.';
 $string['markallread'] = 'Marca com a llegits tots els missatges d\'aquest fòrum.';
 $string['markread'] = 'Marca com a llegit';
@@ -145,6 +150,7 @@ $string['noguestsubscribe'] = 'Els visitants no poden subscriure\'s per rebre el
 $string['noguesttracking'] = 'Els visitants no poden definir opcions de seguiment.';
 $string['nomorepostscontaining'] = 'No s\'han trobat més missatges que continguin \'$a\'';
 $string['nonews'] = 'Encara no s\'han enviat notícies';
+$string['nopostforum'] = 'No us és permès d\'escriure en aquest fòrum';
 $string['noposts'] = 'No hi ha missatges';
 $string['nopostscontaining'] = 'No s\'ha trobat cap missatge que contingui \'$a\'';
 $string['noquestions'] = 'Encara no hi ha preguntes en aquest fòrum';
@@ -206,8 +212,11 @@ $string['repliesmany'] = '$a respostes fins ara';
 $string['repliesone'] = '$a resposta fins ara';
 $string['reply'] = 'Contesta';
 $string['replyforum'] = 'Contesta al fòrum';
+$string['replytouser'] = 'Utilitza l\'adreça de correu en la resposta';
 $string['resetforums'] = 'Suprimeix tots els missatges d\'aquests tipus de fòrums';
+$string['resetforumsall'] = 'Suprimeix tots els missatges';
 $string['resetsubscriptions'] = 'Suprimeix les subscripcions al fòrum';
+$string['resettrackprefs'] = 'Suprimeix totes les preferències de seguiment del fòrum';
 $string['rsssubscriberssdiscussions'] = 'Visualitza l\'RSS dels debats \'$a\'';
 $string['rsssubscriberssposts'] = 'Visualitza l\'RSS dels missatges \'$a\'';
 $string['search'] = 'Cerca';
@@ -227,6 +236,7 @@ $string['searchwhichforums'] = 'Trieu quins fòrums voleu cercar';
 $string['searchwords'] = 'Aquests mots poden aparèixer en qualsevol part del missatge';
 $string['seeallposts'] = 'Visualitza tots els missatges d\'aquest usuari';
 $string['sendinratings'] = 'Envia les meves darreres valoracions';
+$string['shortpost'] = 'Missatge curt';
 $string['showsubscribers'] = 'Mostra/edita els subscriptors';
 $string['singleforum'] = 'Un debat simple';
 $string['startedby'] = 'Iniciat per';

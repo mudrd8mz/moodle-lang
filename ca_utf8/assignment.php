@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 Beta 2 (2007101000)
+      // assignment.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['allowdeleting'] = 'Permet suprimir';
@@ -24,7 +24,9 @@ $string['comment'] = 'Comentari';
 $string['commentinline'] = 'Comentaris inserits';
 $string['configitemstocount'] = 'Naturalesa dels elements que cal comptar en les trameses de les tasques en línia.';
 $string['configmaxbytes'] = 'Mida màxima per defecte de la tasca per a totes les tasques del lloc (subjecta als límits del curs i a altres paràmetres locals)';
+$string['configshowrecentsubmissions'] = 'Tothom pot veure les notificacions de trameses en els informes d\'activitat recent.';
 $string['confirmdeletefile'] = 'Esteu absolutament segur que voleu suprimir aquest fitxer?<br /><strong>$a</strong>';
+$string['deleteallsubmissions'] = 'Suprimeix totes les trameses';
 $string['deletefilefailed'] = 'No s\'ha pogut suprimir el fitxer.';
 $string['description'] = 'Descripció';
 $string['draft'] = 'Esborrany';
@@ -57,6 +59,7 @@ $string['helpupload'] = '<p>Aquest tipus de tasca permet que cada participant pe
 <p>Aquest tipus també us permet penjar múltiples fitxers de qualsevol mena en resposta a les trameses dels participants.</p>';
 $string['helpuploadsingle'] = '<p>Aquest tipus de tasca permet que cada participant pengi un fitxer, només un, de qualsevol mena.</p><p>Pot ser un document de processador de textos, una imatge, un lloc web complet empaquetat en un fitxer zip, o qualsevol altra cosa que els vulgueu demanar que trametin.</p>';
 $string['hideintro'] = 'Oculta la descripció fins la data de disponibilitat';
+$string['itemstocount'] = 'Nombre';
 $string['late'] = '$a tard';
 $string['maximumgrade'] = 'Nota màxima';
 $string['maximumsize'] = 'Mida màxima';
@@ -67,6 +70,7 @@ $string['noassignments'] = 'Encara no hi tasques';
 $string['noattempts'] = 'No s\'han fet intents en aquesta tasca';
 $string['nofiles'] = 'No s\'ha tramès cap fitxer';
 $string['nofilesyet'] = 'Encara no s\'ha tramès cap fitxer';
+$string['nosubmitusers'] = 'No s\'han trobat usuaris amb dret a trametre aquesta tasca';
 $string['notavailableyet'] = 'Aquesta tasca encara no està disponible.<br />Les instruccions de la tasca es mostraran aquí a partir de la data que s\'indica més avall.';
 $string['notes'] = 'Notes';
 $string['notesempty'] = 'No hi ha entrades';
@@ -82,6 +86,7 @@ $string['responsefiles'] = 'Fitxers de resposta';
 $string['reviewed'] = 'Revisada';
 $string['saveallfeedback'] = 'Desa tota la meva retroacció';
 $string['sendformarking'] = 'Envia per avaluar';
+$string['showrecentsubmissions'] = 'Mostra les trameses recents';
 $string['submission'] = 'Tramesa';
 $string['submissiondraft'] = 'Esborrany de la tramesa';
 $string['submissionfeedback'] = 'Retroacció per a la tramesa';

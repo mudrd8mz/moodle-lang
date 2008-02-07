@@ -1,10 +1,13 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 dev (2007080103)
+      // resource.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['addresource'] = 'Afegeix un recurs';
 $string['affectedresources'] = 'Recursos afectats';
+$string['allowlocalfiles'] = 'Permet fitxers locals';
+$string['autofilerename'] = 'Actualitza l\'enllaç si canvia el nom del fitxer';
 $string['back'] = 'Enrere';
+$string['blockdeletingfile'] = 'Bloca la supressió de fitxers referenciats';
 $string['browserepository'] = 'Explora el repositori';
 $string['choose'] = 'Tria';
 $string['chooseafile'] = 'Tria o penja un fitxer';
@@ -94,6 +97,7 @@ $string['previous'] = 'Anterior';
 $string['redeploy'] = 'Torna a desplegar';
 $string['repository'] = 'Repositori IMS';
 $string['resource:view'] = 'Veure recurs';
+$string['resourcedefaulturl'] = 'URL per defecte';
 $string['resourcetype'] = 'Tipus de recurs';
 $string['resourcetype1'] = 'Referència';
 $string['resourcetype2'] = 'Pàgina web';
@@ -116,10 +120,12 @@ $string['serverurl'] = 'URL del servidor ($a->wwwroot)';
 $string['showcourseblocks'] = 'Mostra els blocs del curs';
 $string['skipsubmenus'] = 'Omet submenús';
 $string['tableofcontents'] = 'Taula de continguts';
+$string['tableofcontentsabbrev'] = 'Taula';
 $string['upbutton'] = 'Amunt';
 $string['variablename'] = 'Nom de variable';
 $string['viewims'] = 'Visualitza paquet IMS CP';
 $string['warningblockingdelete'] = 'Avís: l\'operació de supressió ha estat blocada per un recurs existent. Actualitzeu primer aquest recurs o demaneu a l\'administrador que inhabiliti aquest mecanisme de seguretat en la configuració global del mòdul Recurs.';
 $string['warningdisabledrename'] = 'Avís: el canvi automàtic del nom de fitxers o directoris en recursos està inhabilitat. Haureu d\'actualitzar manualment els recursos afectats. L\'administrador pot habilitar el canvi automàtic en la configuració global del mòdul Recurs.';
+$string['websearchdefault'] = 'Cerca web per defecte';
 
 ?>
