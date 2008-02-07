@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // role.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['addrole'] = 'Aggiungere un nuovo ruolo';
 $string['allow'] = 'Permetti';
 $string['allowassign'] = 'Permetti l\'attribuzione di ruoli';
 $string['allowoverride'] = 'Permetti la modifica dei ruoli';
-$string['assignglobalroles'] = 'Attribuire ruoli globali';
+$string['assignglobalroles'] = 'Assegna ruoli globali';
 $string['assignroles'] = 'Ruoli';
 $string['assignrolesin'] = 'Attribuire ruoli in $a';
 $string['block:view'] = 'Visualizzare blocchi';
@@ -51,7 +51,7 @@ $string['course:visibility'] = 'Nascondere/Mostrare corsi';
 $string['currentcontext'] = 'Contesto attuale';
 $string['currentrole'] = 'Ruolo attuale';
 $string['defaultrole'] = 'Ruolo di default';
-$string['defineroles'] = 'Definire ruoli';
+$string['defineroles'] = 'Ruoli';
 $string['deletecourseoverrides'] = 'Cancellare tutte le modifiche di ruolo nel corso';
 $string['deletelocalroles'] = 'Cancellare tutte le assegnazioni locali di ruolo';
 $string['deleterolesure'] = '<p> Sei sicuro di voler cancellare \"$a->name ($a->shortname)\"?</p><p>Attualmente questo ruolo è assegnato a $a->count utenti.</p>';
@@ -89,7 +89,7 @@ $string['legacy:user'] = 'RUOLO ORIGINARIO: Utente registrato';
 $string['legacytype'] = 'Tipo di ruolo originario';
 $string['listallroles'] = 'Elenca tutti i ruoli';
 $string['localroles'] = 'Ruoli assegnati localmente';
-$string['manageroles'] = 'Gestiione ruoli';
+$string['manageroles'] = 'Gestione ruoli';
 $string['metaassignerror'] = 'Non puoi attribuire questo ruolo all\'utente \"$a\" perché è necessaria la possibilità di gestione dei metacorsi.';
 $string['metaunassignerror'] = 'Il ruolo dell\'utente \"$a\" è stato riassegnato automaticamente. Se necessario disassegnare questo ruolo dai corsi dipendenti.';
 $string['morethan'] = 'Più di $a';

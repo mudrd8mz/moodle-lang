@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // admin.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['accessdenied'] = 'Accesso vietato';
@@ -10,16 +10,16 @@ $string['adminseesownevents'] = 'Gli Amministratori sono come tutti gli altri ut
 $string['allowcategorythemes'] = 'Consenti la scelta dei temi per le categorie';
 $string['allowcoursethemes'] = 'Consenti la scelta dei temi all\'interno dei corsi';
 $string['allowdeletes'] = 'Consenti cancellazioni';
-$string['allowemailaddresses'] = 'Domini di posta consentiti';
+$string['allowemailaddresses'] = 'Domini di posta autorizzati';
 $string['allowobjectembed'] = 'Consenti i tag EMBED e OBJECT';
 $string['allowrenames'] = 'Consenti di rinominare';
 $string['allowuserblockhiding'] = 'Consenti agli utenti di nascondere i blocchi';
-$string['allowusermailcharset'] = 'Consenti all\'utente di scegliere i caratteri';
+$string['allowusermailcharset'] = 'Consenti all\'utente di scegliere il set di caratteri';
 $string['allowuserthemes'] = 'Consenti all\'utente la scelta dei temi';
 $string['allowvisiblecoursesinhiddencategories'] = 'Consenti visibilità corsi in categorie nascoste';
 $string['antivirus'] = 'Antivirus';
 $string['appearance'] = 'Aspetto';
-$string['aspellpath'] = 'Percorso d\'accesso a aspell';
+$string['aspellpath'] = 'Percorso d\'accesso ad aspell';
 $string['authentication'] = 'Autenticazione';
 $string['authsettings'] = 'Gestione autenticazione';
 $string['autolang'] = 'Autorilevazione lingua';
@@ -262,7 +262,7 @@ $string['confirmation'] = 'Conferma';
 $string['confirminstall'] = 'Si sta per installare il language pack ($a), siete sicuri?';
 $string['country'] = 'Paese default';
 $string['coursemanager'] = 'Gestori del corso';
-$string['coursemgmt'] = 'Aggiunta/Modifica corsi';
+$string['coursemgmt'] = 'Aggiungi/Modifica corsi';
 $string['courseoverview'] = 'Sommario corsi';
 $string['courserequests'] = 'Richieste corsi';
 $string['courses'] = 'Corsi';
@@ -736,6 +736,7 @@ $string['validateerror'] = 'Questo valore non era valido:';
 $string['warningcurrentsetting'] = 'Valore corrente non valido: $a';
 $string['webproxy'] = 'Proxy web';
 $string['webproxyinfo'] = 'Definire i seguenti parametri se il proprio server Moodle non può accedere a internet direttamente. L\'accesso a internet è richiesto per scaricare dati di ambiente, language packs, feed RSS, timezones, ecc.<br /><em>L\'estensione PHP cURL è fortemente raccomandata.</em>';
+$string['xmlstrictheaders'] = 'Intestazioni XML Strict';
 $string['configenablerecordcache'] = 'Se si abilita questa impostazione, sarà effettuato del caching in memoria durante la ricerca di informazioni da un database. Questo significa che la velocità di funzionamento del database sarà maggiore, ma nello stesso tempo, i requisiti di memoria del web server aumenteranno leggermente. Generalmente si consiglia di abilitare questa impostazione salvo nel caso in cui il server abbia poca memoria. Alcuni processi possono decidere di non tener conto di questa impostazione quando il programmatore è sicuro di un miglioramento delle prestazioni.'; // ORPHANED
 
 ?>
