@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.7.1 (2006101010)
+      // calendar.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['advancedoptions'] = 'Opcións avanzadas';
@@ -45,6 +45,7 @@ $string['expired'] = 'Caducado';
 $string['explain_lookahead'] = 'Isto define o número (máximo) de días en que un evento debe comezar para ser mostrado entre os próximos eventos. Os eventos que comecen máis tarde non se mostrarán como próximos eventos. Lembre que <strong>Non hai garantía</strong> de que todos os eventos que comecen neste intervalo de tempo sexan mostrados; se hai demasiados eventos (máis dos que se fixaron na preferencia \"Número máximo de eventos próximos\") os eventos máis distantes non se mostrarán.';
 $string['explain_maxevents'] = 'Isto define o número máximo de próximos eventos que poden ser mostrados. Se escolle aquí un amplo número é posible que ocupe demasiado espazo na pantalla.';
 $string['explain_persistflt'] = 'Se isto está activado, Moodle lembrará a configuración do filtro do seu último evento e será restaurada automaticamente cada vez que entre.';
+$string['explain_site_timeformat'] = 'Pode escoller o formato en que se ven as horas (12 ou 24) en todo o sitio. Se escolle a opción por defecto, o formato escollerase automaticamente segundo o idioma que empregue. Este axuste pode pasarse por alto mediante as preferencias do usuario.';
 $string['explain_startwday'] = 'As semanas do calendario mostraranse comezando polo día que seleccione aquí.';
 $string['explain_timeformat'] = 'Pode escoller entre os formatos de 12 e 24 horas. Se escolle Por defecto, o formato será escollido automaticamente de acordo co idioma que utilice no sitio.';
 $string['export'] = 'Exportar';
@@ -114,7 +115,7 @@ $string['typegroup'] = 'Evento de grupo';
 $string['typesite'] = 'Evento de sitio';
 $string['typeuser'] = 'Evento de usuario';
 $string['upcomingevents'] = 'Próximos eventos';
-$string['urlforical'] = 'URL para exportar o iCalendar, para subscribir ao calendario';
+$string['urlforical'] = 'URL para exportar a iCalendar, para subscribir ao calendario';
 $string['userevent'] = 'Evento de usuario';
 $string['userevents'] = 'Eventos de usuario';
 $string['wed'] = 'Me';

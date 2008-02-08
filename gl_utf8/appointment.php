@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // appointment.php - created with Moodle 1.7.1 (2006101010)
+      // appointment.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['allowresubmit'] = 'Permitir enviar de novo';

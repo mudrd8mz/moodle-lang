@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.7.1 (2006101010)
+      // exercise.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['absent'] = 'Ausente';
 $string['accumulative'] = 'Acumulativo';
 $string['action'] = 'Acción';
-$string['ago'] = 'Fai $a';
+$string['ago'] = 'Hai $a';
 $string['amend'] = 'Corrixir';
 $string['amendassessmentelements'] = 'Corrixir os elementos de avaliación';
 $string['amendtitle'] = 'Corrixir título';
@@ -34,18 +34,18 @@ $string['deletesubmissionwarning'] = 'Aviso: hai avaliacións $a asociadas con e
     Recoméndase que este envío NON sexa eliminado.';
 $string['deleting'] = 'Eliminando';
 $string['description'] = 'Descrición';
-$string['descriptionofexercise'] = 'Na atribución dun exercicio, a descrición do mesmo ou da tarefa feita polo $a, colocarase nun documento de Word ou nun arquivo HTML. Este ficheiro subirase ao exercicio antes de que a tarefa sexa mostrada ao $a. Tamén é posible crear un conxunto de variables no mesmo exercicio ou tarefa, así como ficheiros HTML ou documentos de Word, e logo subilos todos xuntos ao exercicio antes de que sexa mostrada ao/os $a.';
+$string['descriptionofexercise'] = 'Na atribución dun exercicio, a súa descrición ou a da tarefa feita polo $a, colocarase nun documento de Word ou nun arquivo HTML. Este ficheiro subirase ao exercicio antes de que a tarefa sexa mostrada ao $a. Tamén é posible crear un conxunto de variables no mesmo exercicio ou tarefa, así como ficheiros HTML ou documentos de Word, e logo subilos todos xuntos ao exercicio antes de que sexa mostrada ao/os $a.';
 $string['detailsofassessment'] = 'Detalles da avaliación';
 $string['displayoffinalgrades'] = 'Mostra das cualificacións finais';
-$string['doubleupload'] = 'Aviso: probablemente este envío foi enviado dúas veces. Vaia á páxina de Administration, verifique se houbo dous envíos deste/a usuario/a nun breve período de tempo. Elimine un destes envíos antes de proceder.';
-$string['duedate'] = 'Data de vecemento';
+$string['doubleupload'] = 'Aviso: probablemente este envío foi enviado dúas veces. Vaia á páxina de Administración, verifique se houbo dous envíos deste/a usuario/a nun breve período de tempo. Elimine un destes envíos antes de proceder.';
+$string['duedate'] = 'Data de vencemento';
 $string['edit'] = 'Editar';
 $string['editingassessmentelements'] = 'Editar elementos de avaliación';
 $string['element'] = 'Elemento';
 $string['elementweight'] = 'Peso do elemento';
 $string['enterpassword'] = 'Introducir contrasinal';
 $string['entriessaved'] = 'Entradas gardadas';
-$string['errorbanded'] = 'Faixa de erro';
+$string['errorbanded'] = 'Franxa de erro';
 $string['excellent'] = 'Excelente';
 $string['exercise:assess'] = 'Avaliar exercicios';
 $string['exerciseassessments'] = 'Avaliación de exercicio';
@@ -56,10 +56,10 @@ $string['generalcomment'] = 'Comentario xeral';
 $string['good'] = 'Bo';
 $string['gradeassessment'] = 'Avaliación da cualificación';
 $string['gradeforassessment'] = 'Cualificación da avaliación';
-$string['gradeforstudentsassessment'] = 'Cualificación da avliación de $a';
+$string['gradeforstudentsassessment'] = 'Cualificación da avaliación de $a';
 $string['gradeforsubmission'] = 'Cualificación do envío';
 $string['gradetable'] = 'Táboa de cualificación';
-$string['gradinggrade'] = 'Clasificación da cualificación';
+$string['gradinggrade'] = 'Cualificación das cualificacións';
 $string['gradingstrategy'] = 'Estratexia de cualificación';
 $string['handlingofmultiplesubmissions'] = 'Manexo de múltiples envíos';
 $string['hidenamesfromstudents'] = 'Ocultar nomes aos estudantes';
@@ -95,7 +95,7 @@ $string['noteonassessmentelements'] = 'Lembre que a cualificación está formada
     os elementos tamén poden modificarse desde a pantalla Xestión de tarefas.';
 $string['noteongradinggrade'] = 'Esta cualificación mide a concordancia entre a súa propia avaliación <br />
     e a avaliación feita por $a. Canto maior sexa a cualificación, maior será a concordancia.';
-$string['noteonstudentassessments'] = '{Cualificación do estudante / Cualicación da cualificación da avaliación}';
+$string['noteonstudentassessments'] = '{Cualificación do estudante / Cualificación da cualificación da avaliación}';
 $string['notgraded'] = 'Non cualificado';
 $string['notitlegiven'] = 'Sen título';
 $string['numberofassessmentelements'] = 'Número de comentarios, elementos de avaliación, tipos de cualificacións, criterios ou categorías na rúbrica';
@@ -115,17 +115,17 @@ $string['phase2short'] = 'Abrir';
 $string['phase3'] = 'Mostrar cualificacións globais e a táboa da liga';
 $string['phase3short'] = 'Mostrar';
 $string['pleasegradetheassessment'] = 'Cualifique a avaliación deste traballo feita por $a';
-$string['pleasemakeyourownassessment'] = 'Faga a súa propia avaliación do traballo de $a. <br />Lembre que o formulario é mostrado inicialmente coa avaliación dos/as estudantes.<br /> Pode facer calquera enmenda que considere necesaria e, a seguir prema un <br />dos botóns ao pé de páxina.';
+$string['pleasemakeyourownassessment'] = 'Faga a súa propia avaliación do traballo de $a. <br />Lembre que o formulario é mostrado inicialmente coa avaliación dos/as estudantes.<br /> Pode facer calquera emenda que considere necesaria e a seguir prema un <br />dos botóns ao pé de páxina.';
 $string['pleasesubmityourwork'] = 'Envíe o seu traballo utilizando este formulario';
 $string['pleaseusethisform'] = 'Complete este formulario cando <br />acabe as instrucións no exercicio mostrado abaixo.';
-$string['pleaseviewtheexercise'] = 'Vexa o exercicio fornecido abaixo premendo o título.<br />siga as instrucións. <br />Cando estea satisfeito co traballo feito<br /> prema a ligazón Avaliar (ou Reavaliar) <br /> na caixa de abaixo. Cando teña feito esta avaliación <br />mostraránselle instrucións do que terá que facer a seguir.';
+$string['pleaseviewtheexercise'] = 'Vexa o exercicio fornecido abaixo premendo o título.<br />Siga as instrucións. <br />Cando estea satisfeito co traballo feito<br /> prema a ligazón Avaliar (ou Reavaliar) <br /> na caixa de abaixo. Cando teña feita esta avaliación <br />mostraránselle instrucións do que terá que facer a seguir.';
 $string['poor'] = 'Pobre';
 $string['present'] = 'Presente';
 $string['reasonforadjustment'] = 'Comentario/Motivo xeral do axuste';
 $string['reassess'] = 'Reavaliación';
 $string['regradestudentassessments'] = 'Cualificar de novo as avaliacións dos/as estudantes';
 $string['resubmissionfor'] = 'Enviar de novo para $a';
-$string['resubmitnote'] = '* significa que está permitido que $a repita este envío. <br /> Esta marca pode ser atribuída a calquera envío, a través dunha reavaliación e premendo <br /> o botón <b>Permitit $a para reenviar</b>. <br />O/A estudante pode reenviar cando estea presente esta marca en <b>calquera</b> dos seus envíos.';
+$string['resubmitnote'] = '* significa que está permitido que $a repita este envío. <br /> Esta marca pode ser atribuída a calquera envío, a través dunha reavaliación e premendo <br /> o botón <b>Permitir $a para reenviar</b>. <br />O/A estudante pode reenviar cando estea presente esta marca en <b>calquera</b> dos seus envíos.';
 $string['rubric'] = 'Rúbrica';
 $string['savedok'] = 'Gardado';
 $string['saveentries'] = 'Gardar entradas';
@@ -157,7 +157,7 @@ $string['submitted'] = 'Enviado';
 $string['submittedby'] = 'Enviado por';
 $string['suggestedgrade'] = 'Cualificación suxerida';
 $string['teacherassessment'] = '$a Avaliación';
-$string['teacherassessmenttable'] = '$a Táboa de avalición';
+$string['teacherassessmenttable'] = '$a Táboa de avaliación';
 $string['teacherscomment'] = 'Comentario do/a docente';
 $string['theexercise'] = 'O exercicio';
 $string['theexerciseandthesubmissionby'] = 'O exercicio e o envío de $a';
@@ -175,7 +175,7 @@ $string['verylax'] = 'Moi flexible';
 $string['verypoor'] = 'Moi pobre';
 $string['verystrict'] = 'Moi estrito';
 $string['view'] = 'Ver';
-$string['viewteacherassessment'] = 'Ver avalición de $a';
+$string['viewteacherassessment'] = 'Ver avaliación de $a';
 $string['warningonamendingelements'] = 'AVISO: Hai avaliacións enviadas. <br />NON modificar o número de elementos, os tipos de elementos ou os pesos dos elementos.';
 $string['weightederrorcount'] = 'Número ponderado de erros: $a';
 $string['weightforgradingofassessments'] = 'Ponderación para a cualificación das avaliacións';

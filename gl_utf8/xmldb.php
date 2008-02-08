@@ -1,14 +1,20 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7.1 (2006101010)
+      // xmldb.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['aftertable'] = 'Despois da táboa:';
-$string['back'] = 'Voltar';
-$string['backtomainview'] = 'Voltar ao principal';
+$string['back'] = 'Volver';
+$string['backtomainview'] = 'Volver ao principal';
 $string['binaryincorrectlength'] = 'Lonxitude incorrecta para un campo binario';
 $string['cannotuseidfield'] = 'Non é posible inserir o campo \"id\". É unha columna de numeración automática';
 $string['change'] = 'Modificar';
 $string['charincorrectlength'] = 'Lonxitude incorrecta para un campo de caracteres';
+$string['check_indexes'] = 'Buscar índices BD ausentes';
+$string['checkindexes'] = 'Comprobar índices';
+$string['completelogbelow'] = '(ver abaixo o rexistro completo da busca)';
+$string['confirmcheckindexes'] = 'Esta funcionalidade buscará potenciais índices ausentes no seu servidor Moodle, xerando (non executando) automaticamente os comandos SQL precisos para manter todo actualizado. Unha vez xerados, pode copiar os comandos e executalos con seguridade na súa interface SQL favorita.<br /><br />
+Recoméndase executar a última versión dispoñible de Moodle (1.8, 1.9, 2.x ...) antes de realizar a busca dos índices ausentes.<br /><br />
+Esta funcionalidade non executa ningunha acción contra a BD (simplemente le nela), de maneira que pode executarse con seguridade en calquera momento.';
 $string['confirmdeletefield'] = 'Está realmente certo de que desexa eliminar o campo:';
 $string['confirmdeleteindex'] = 'Está realmente certo de que desexa eliminar o índice:';
 $string['confirmdeletekey'] = 'Está realmente certo de que desexa eliminar a chave:';
@@ -48,13 +54,17 @@ $string['floatincorrectdecimals'] = 'Número incorrecto de decimais para un camp
 $string['floatincorrectlength'] = 'Lonxitude incorrecta para un campo flotante';
 $string['gotolastused'] = 'Ir ao último ficheiro usado';
 $string['incorrectfieldname'] = 'Nome incorrecto';
+$string['index'] = 'Índice';
 $string['indexes'] = 'Índices';
 $string['integerincorrectlength'] = 'Lonxitude incorrecta para un campo enteiro';
+$string['key'] = 'Chave';
 $string['keys'] = 'Chaves';
 $string['listreservedwords'] = 'Lista de palabras reservadas<br/>(utilizado para manter <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> actualizado)';
 $string['load'] = 'Cargar';
 $string['main_view'] = 'Vista principal';
+$string['missing'] = 'Ausente';
 $string['missingfieldsinsentence'] = 'Faltan algúns campos na frase';
+$string['missingindexes'] = 'Atopáronse índices ausentes';
 $string['missingvaluesinsentence'] = 'Faltan algúns valores na frase';
 $string['mustselectonefield'] = 'Para ver as accións relacionadas cun campo, seleccióneo!';
 $string['mustselectoneindex'] = 'Para ver as accións relacionadas cun índice, seleccióneo!';
@@ -68,6 +78,7 @@ $string['newsentence'] = 'Nova frase';
 $string['newstatement'] = 'Nova declaración';
 $string['newtable'] = 'Nova táboa';
 $string['newtablefrommysql'] = 'Nova táboa de MySQL';
+$string['nomissingindexesfound'] = 'Non se atoparon índices ausentes: a súa BD non require accións adicionais.';
 $string['numberincorrectdecimals'] = 'Número incorrecto de decimais para un campo numérico';
 $string['numberincorrectlength'] = 'Lonxitude incorrecta para un campo numérico';
 $string['reserved'] = 'Reservadas';
@@ -75,6 +86,7 @@ $string['reservedwords'] = 'Palabras reservadas';
 $string['revert'] = 'Desfacer';
 $string['revert_changes'] = 'Desfacer modificacións';
 $string['save'] = 'Gardar';
+$string['searchresults'] = 'Buscar resultados';
 $string['selectaction'] = 'Seleccionar unha acción:';
 $string['selectdb'] = 'Seleccionar unha base de datos:';
 $string['selectfieldkeyindex'] = 'Seleccionar un campo/chave/índice:';
@@ -104,5 +116,6 @@ $string['viewsqlcode'] = 'Ver código SQL';
 $string['wronglengthforenum'] = 'Lonxitude incorrecta para un campo enum';
 $string['wrongnumberoffieldsorvalues'] = 'Número incorrecto de campos ou valores nunha frase';
 $string['wrongreservedwords'] = 'Palabras reservadas actualmente utilizadas<br />(Os nomes das táboas non son importantes cando se emprega un $CFG->prefix)';
+$string['yesmissingindexesfound'] = 'Na súa BD atopáronse algúns índices ausentes. Aquí pode ver os seus detalles, así como os comandos SQL para executar coa súa interface SQL favorita para crealos.<br /><br />Unha vez feito isto, recoméndase que execute de novo esta utilidade para comprobar que non se atopan máis índices ausentes.';
 
 ?>

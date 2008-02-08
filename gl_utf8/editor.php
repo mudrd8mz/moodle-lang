@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.7.1 (2006101010)
+      // editor.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['about'] = 'Acerca deste editor';
@@ -29,7 +29,7 @@ $string['createanchor'] = 'Crear áncora';
 $string['createfolder'] = 'Crear cartafol';
 $string['createlink'] = 'Inserir ligazón Web';
 $string['cut'] = 'Cortar selección';
-$string['cutpastemozilla'] = 'Infelizmente, non pode utilizar os atallos normais do teclado (nin tampouco o botón Pegar) para pegar texto neste editor. Isto é debido a unha característica de seguranza que teñen algunhas versións dos exploradores Mozilla e Firefox.<br /><br />Existen tres posibles solucións que pode tentar: <br /> (1) En vez de CTRL-V, utilice SHIFT-Insert <br /> (2) Utilice o menú Editar->Pegar no seu explorador <br /> (3) Modifique as preferencias no seu navegador editando o ficheiro user.js. <br /><br />Prema o botón Aceptar de abaixo para máis axuda, ou Cancelar para voltar ao editor.';
+$string['cutpastemozilla'] = 'Infelizmente, non pode utilizar os atallos normais do teclado (nin tampouco o botón Pegar) para pegar texto neste editor. Isto é debido a unha característica de seguranza que teñen algunhas versións dos exploradores Mozilla e Firefox.<br /><br />Existen tres posibles solucións que pode tentar: <br /> (1) En vez de CTRL-V, utilice SHIFT-Insert <br /> (2) Utilice o menú Editar->Pegar no seu explorador <br /> (3) Modifique as preferencias no seu navegador editando o ficheiro user.js. <br /><br />Prema o botón Aceptar de abaixo para máis axuda, ou Cancelar para volver ao editor.';
 $string['delete'] = 'Eliminar';
 $string['enterurlfirst'] = 'Primeiro ten que introducir un URL';
 $string['filebrowser'] = 'Explorador de ficheiro';
@@ -84,11 +84,11 @@ $string['notset'] = 'Non seleccionado';
 $string['ok'] = 'Aceptar';
 $string['options'] = 'Opcións';
 $string['orderedlist'] = 'Lista ordenada';
-$string['outdent'] = 'Disminuír sangría';
-$string['paste'] = 'Pegar desde o portapapeis';
+$string['outdent'] = 'Diminuír sangría';
+$string['paste'] = 'Pegar desde o portarretallos';
 $string['path'] = 'Camiño';
 $string['percent'] = 'Porcentaxe';
-$string['pixels'] = 'Píxels';
+$string['pixels'] = 'Píxeles';
 $string['pleaseenteralt'] = 'Introduza o texto alternativo';
 $string['popupeditor'] = 'Aumentar o editor';
 $string['preformatted'] = 'Preformatado';
@@ -114,7 +114,7 @@ $string['strikethrough'] = 'Riscado';
 $string['subscript'] = 'Subíndice';
 $string['superscript'] = 'Superíndice';
 $string['textindicator'] = 'Estilo actual';
-$string['textmode'] = 'Está en MODO TEXTO. Utilice o botón [<>] para voltar ao MODO EDITOR.';
+$string['textmode'] = 'Está en MODO TEXTO. Utilice o botón [<>] para volver ao MODO EDITOR.';
 $string['texttop'] = 'Texto arriba';
 $string['top'] = 'Arriba';
 $string['type'] = 'Tipo';

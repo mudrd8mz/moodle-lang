@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_flatfile.php - created with Moodle 1.7.1 (2006101010)
+      // enrol_flatfile.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['description'] = 'Este método verificará e procesará repetidamente un ficheiro de texto cun formatado especial no lugar que especifique.
@@ -24,7 +24,7 @@ Podería ser algo como isto:
    engadir, estudante, 21, CF101, 1091115000, 1091215000
 </pre>';
 $string['enrolname'] = 'Ficheiro plano';
-$string['filelockedmail'] = 'O ficheiro de texto que está a utilizar para as inscricións baseadas no ficheiro($a) non poderá ser eliminado polo proceso cron.  Normalmente, isto significa que os permisos non son apropiados.  Sinale os permisos para que Moodle poda eliminar o ficheiro, no caso contrario poderá ser procesado repetidamente.';
+$string['filelockedmail'] = 'O ficheiro de texto que está a utilizar para as inscricións baseadas no ficheiro($a) non poderá ser eliminado polo proceso cron.  Normalmente, isto significa que os permisos non son apropiados.  Sinale os permisos para que Moodle poida eliminar o ficheiro, no caso contrario poderá ser procesado repetidamente.';
 $string['filelockedmailsubject'] = 'Erro importante: Ficheiro de inscrición';
 $string['location'] = 'Localización do ficheiro';
 $string['mailadmin'] = 'Notificar ao administrador por correo electrónico';

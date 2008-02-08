@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.7.1 (2006101010)
+      // chat.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['beep'] = 'beep';
@@ -51,11 +51,11 @@ $string['noscheduledsession'] = 'Sesión non programada';
 $string['repeatdaily'] = 'Todos os días á mesma hora';
 $string['repeatnone'] = 'Sen repeticións. Publique só o tempo especificado';
 $string['repeattimes'] = 'Repetir sesións';
-$string['repeatweekly'] = 'Todas as semanas a mesma hora';
+$string['repeatweekly'] = 'Todas as semanas á mesma hora';
 $string['savemessages'] = 'Gardar sesións antigas';
 $string['seesession'] = 'Ver esta sesión';
 $string['sessions'] = 'Sesións de Chat';
-$string['strftimemessage'] = 'Hora:Minuto';
+$string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Todos poden ver sesións antigas';
 $string['viewreport'] = 'Ver as sesións antigas';
 

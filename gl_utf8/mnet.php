@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.7.1 (2006101010)
+      // mnet.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (auto-asinado)';
@@ -33,11 +33,12 @@ $string['deleteuserrecord'] = 'SSO ACL: eliminar rexistro do usuario \'$a[0]\' d
 $string['deletewrongkeyvalue'] = 'Ocorreu un erro. Se non estaba a tentar eliminar a chave SSL do seu servidor, é posible que fose suxeito dun ataque malicioso. Non se executou ningunha acción.';
 $string['deny'] = 'Denegar';
 $string['description'] = 'Descrición';
+$string['duplicate_usernames'] = 'Erramos en crear un índice nas columnas \"mnethostid\" e \"username\" na súa táboa de usuarios.<br />Isto pode acontecer cando ten <a href=\"$a\" target=\"_blank\">nomes de usuarios duplicados na súa táboa de usuarios</a>.<br />A súa autorización aínda debería completarse con éxito. Prema na ligazón de arriba e logo aparecerá este problema nunha nova xanela en instrucións de arranxo. Vostede pode atendelo ao final da actualización.<br />';
 $string['editenrolments'] = 'inscribir';
 $string['enabled_for_all'] = '(Este servizo foi activado para todos os servidores).';
 $string['enrolcourseenrol_desc'] = 'Inscribir/Dar de baixa usuarios deste curso usando as inscricións da rede Moodle.                                    Lembre que os usuarios puideron inscribirse neste curso a través doutros métodos de inscrición se o servidor remoto os acepta. Esas inscricións aparecen na lista <em>Outros usuarios inscritos</em>';
 $string['enrolcourses_desc'] = 'Cursos ofrecidos para inscrición remota por este servidor.';
-$string['enrollingincourse'] = 'Incribindo no curso $a[0] do servidor $a[1]<br />';
+$string['enrollingincourse'] = 'Inscribindo no curso $a[0] do servidor $a[1]<br />';
 $string['enrolments'] = 'inscricións';
 $string['enterausername'] = 'Introduza un nome de usuario ou unha lista de nomes separados por vírgulas.';
 $string['expired'] = 'Esta chave caduca o';
@@ -108,7 +109,7 @@ $string['nopubkey'] = 'Houbo un problema durante o proceso de recuperación da c
 $string['nosite'] = 'Non foi posible encontrar curso a nivel do sitio';
 $string['nosuchfile'] = 'O ficheiro/función $a non existe.';
 $string['nosuchfunction'] = 'Incapaz de localizar a función, ou función prohibida para RPC.';
-$string['nosuchmodule'] = 'Ou hai algún erro no enderezo da función ou non foi posible encontrala.nUse o formato mod/modulename/lib/functionname.';
+$string['nosuchmodule'] = 'Ou hai algún erro no enderezo da función ou non foi posible encontrala. Use o formato mod/modulename/lib/functionname.';
 $string['nosuchpublickey'] = 'Incapaz de obter a chave pública para a verificación da sinatura.';
 $string['nosuchservice'] = 'O servizo RPC non está a funcionar neste servidor.';
 $string['nosuchtransport'] = 'Non existe transporte con ese ID.';
@@ -130,7 +131,7 @@ $string['publish'] = 'Publicar';
 $string['reallydeleteserver'] = 'Está certo/a de que desexa eliminar o servidor';
 $string['receivedwarnings'] = 'Recibíronse os seguintes avisos';
 $string['recordnoexists'] = 'Ese rexistro non existe.';
-$string['reenableserver'] = 'Non - Seleccione esta opción para voltar a activar este servidor.';
+$string['reenableserver'] = 'Non - Seleccione esta opción para volver activar este servidor.';
 $string['registerallhosts'] = 'Rexistrar todos os servidores (<em>modo Hub</em>)';
 $string['registerallhostsexplain'] = 'Os usuarios poden optar por rexistrar todos os servidores que tenten conectarse automaticamente con eles. 
 Isto significa que na lista de servidores aparecerá o rexistro de calquera sitio Moodle que se conecte con eles e solicite a súa chave pública.<br />Abaixo proporciónase a posibilidade de configurar servizos para \'Todos os servidores\'. Os servizos aí activados pódense fornecer a calquera servidor Moodle escollido indiscriminadamente.';
@@ -146,7 +147,7 @@ $string['reviewhostservices'] = 'Revisar servizos do servidor';
 $string['selectaccesslevel'] = 'Seleccione un nivel de acceso da lista.';
 $string['selectahost'] = 'Seleccione un servidor Moodle remoto.';
 $string['serviceswepublish'] = 'Servizos que publicamos para $a.';
-$string['serviceswesubscribeto'] = 'Servizos en $a a que nos subscribimos.';
+$string['serviceswesubscribeto'] = 'Servizos en $a aos que nos subscribimos.';
 $string['settings'] = 'Configuración';
 $string['showlocal'] = 'Mostrar usuarios locais';
 $string['showremote'] = 'Mostrar usuarios remotos';
@@ -154,7 +155,7 @@ $string['ssl_acl_allow'] = 'SSO ACL: Permitir usuario $a[0] de $a[1]';
 $string['ssl_acl_deny'] = 'SSO ACL: Denegar usuario $a[0] de $a[1]';
 $string['ssoaccesscontrol'] = 'Control de acceso SSO';
 $string['ssoacldescr'] = 'Use esta páxina para garantir/denegar o acceso a determinados usuarios de servidores remotos de rede Moodle. Isto é funcional cando se ofrecen servizos SSO a usuarios remotos. Para controlar a capacidade dos seus usuarios <em>locais</em> para se moveren a outros servidores de rede Moodle, use o sistema de papeis para lles garantir a capacidade <em>mnetcanroam</em>.';
-$string['ssoaclneeds'] = 'Para que esta opción funcione, a rede de Moodle ten que estar activa, así como o plugin de autenticación da mesma, cos usuarios engadidos automaticamente tamén activos.';
+$string['ssoaclneeds'] = 'Para que esta opción funcione, a rede de Moodle ten que estar activa, así como o seu plugin de autenticación, cos usuarios engadidos automaticamente tamén activos.';
 $string['strict'] = 'Estrito';
 $string['subscribe'] = 'Subscribirse';
 $string['system'] = 'Sistema';
@@ -176,6 +177,7 @@ $string['verifysignature-invalid'] = 'Fallou a verificación da sinatura. Parece
 $string['version'] = 'versión';
 $string['warning'] = 'Aviso';
 $string['wrong-ip'] = 'O seu enderezo IP non coincide co enderezo que consta no noso rexistro.';
+$string['xmlrpc-missing'] = 'Debe ter XML-RPC instalado na súa construción PHP para poder usar esta característica';
 $string['yourhost'] = 'O seu servidor';
 $string['yourpeers'] = 'Os seus compañeiros';
 

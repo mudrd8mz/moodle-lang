@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.7.1 (2006101010)
+      // form.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['addfields'] = 'Engadir campos $a ao formulario';
@@ -26,12 +26,14 @@ $string['month'] = 'Mes';
 $string['nomethodforaddinghelpbutton'] = 'Non hai método para engadir un botón de axuda ao elemento do formulario $a->name (clase $a->classname)';
 $string['nonexistentformelements'] = 'Difícil engadir botóns de axuda aos elementos do formulario non existentes: $a';
 $string['optional'] = 'Opcional';
+$string['othersettings'] = 'Outros axustes';
 $string['requiredelement'] = 'Campo obrigatorio';
-$string['requiredfield'] = 'Este é un campo obrigatorio';
+$string['revealpassword'] = 'Revelar';
 $string['security'] = 'Seguranza';
 $string['showadvanced'] = 'Mostra avanzada';
 $string['somefieldsrequired'] = 'Neste formulario hai campos obrigatorios';
 $string['timing'] = 'Coordinación';
 $string['year'] = 'Ano';
+$string['requiredfield'] = 'Este é un campo obrigatorio'; // ORPHANED
 
 ?>

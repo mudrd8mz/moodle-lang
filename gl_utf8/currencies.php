@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // currencies.php - created with Moodle 1.7 beta + (2006101003)
+      // currencies.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['AED'] = 'Dirham dos Emiratos Árabes Unidos';
@@ -32,7 +32,7 @@ $string['CLP'] = 'Peso chileno';
 $string['CNY'] = 'Yuan Renminbi da China';
 $string['COP'] = 'Peso colombiano';
 $string['CRC'] = 'Colón costarriqueño';
-$string['CSD'] = ' Dinar serbio';
+$string['CSD'] = 'Dinar serbio';
 $string['CUP'] = 'Peso cubano';
 $string['CVE'] = 'Escudo caboverdiano';
 $string['CYP'] = 'Libra chipriota';
@@ -57,11 +57,11 @@ $string['GYD'] = 'Dólar güianés';
 $string['HKD'] = 'Dólar de Hong Kong';
 $string['HNL'] = 'Lempira de Honduras';
 $string['HTG'] = 'Gourde de Haití';
-$string['HUF'] = 'Forint de Hungaría';
+$string['HUF'] = 'Forint de Hungría';
 $string['IDR'] = 'Rupiah indonesia';
 $string['ILS'] = 'Shekel de Israel';
 $string['INR'] = 'Rupia india';
-$string['IQD'] = 'Dinar iraqí';
+$string['IQD'] = 'Dinar iraquí';
 $string['IRR'] = 'Rial iraniano';
 $string['ISK'] = 'Coroa islandesa';
 $string['JMD'] = 'Dólar xamaicano';
@@ -81,7 +81,7 @@ $string['LRD'] = 'Dólar liberiano';
 $string['LSL'] = 'Loti de Lesotho';
 $string['LYD'] = 'Dinar libio';
 $string['MAD'] = 'Dirham marroquí';
-$string['MGF'] = 'Franco malagaxe';
+$string['MGF'] = 'Franco malgaxe';
 $string['MNT'] = 'Tugrik de Mongolia';
 $string['MOP'] = 'Pataca de Macau';
 $string['MRO'] = 'Ouguiya de Mauritania';
@@ -93,13 +93,13 @@ $string['MXN'] = 'Peso novo mexicano';
 $string['MYR'] = 'Ringgit de Malaisia';
 $string['MZM'] = 'Metical de Moçambique';
 $string['NGN'] = 'Naira de Nixeria';
-$string['NIO'] = 'Cordoba ouro de Nicaragua';
+$string['NIO'] = 'Córdoba ouro de Nicaragua';
 $string['NOK'] = 'Coroa norueguesa';
 $string['NPR'] = 'Rupia nepalí';
 $string['NZD'] = 'Dólar neocelandés';
 $string['OMR'] = 'Rial omaní';
 $string['PAB'] = 'Balboa de Panamá';
-$string['PEI'] = 'Inti de Peruvia';
+$string['PEN'] = 'Novo sol';
 $string['PGK'] = 'Kina de Papúa-Nova Guinea';
 $string['PHP'] = 'Peso filipino';
 $string['PKR'] = 'Rupia paquistaní';
@@ -143,5 +143,6 @@ $string['YER'] = 'Rial iemení';
 $string['ZAR'] = 'Rand sudafricano';
 $string['ZMK'] = 'Kwacha de Zambia';
 $string['ZWD'] = 'Dólar cimbabués';
+$string['PEI'] = 'Inti de Peruvia'; // ORPHANED
 
 ?>

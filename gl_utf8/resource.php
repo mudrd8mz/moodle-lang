@@ -1,14 +1,15 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7.1 (2006101010)
+      // resource.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['addresource'] = 'Engadir un recurso';
 $string['affectedresources'] = 'Recursos afectados';
-$string['back'] = 'Voltar';
+$string['back'] = 'Atrás';
 $string['browserepository'] = 'Explorar repositorio';
 $string['choose'] = 'Escoller';
 $string['chooseafile'] = 'Escoller ou cargar un ficheiro';
 $string['chooseparameter'] = 'Escoller parámetro';
+$string['clicktoopen'] = 'Para abrir este documento, prema nesta ligazón:';
 $string['configallowlocalfiles'] = 'Cando cree recursos de ficheiros, permita ligazóns aos ficheiros dos sistemas locais como, por exemplo, unidades de CD ou discos ríxidos. Isto pode ser útil nunha clase en que o conxunto dos/das estudantes ten acceso a unha unidade compartida ou se necesita acceder aos ficheiros dun CD. A utilización desta opción pode requirir a realización de certas alteracións na configuración de seguranza do seu explorador.';
 $string['configautofilerenamesettings'] = 'Actualizar automaticamente as referencias aos ficheiros e directorios cando se lles muda o nome no xestor de ficheiros.';
 $string['configblockdeletingfilesettings'] = 'Bloquear a eliminación de ficheiros e directorios a que fan referencia os recursos. Lembre que as imaxes e outros ficheiros a que se fai referencia desde html non se protexen.';
@@ -22,7 +23,7 @@ $string['configpopupheight'] = 'Cal debe ser a altura por defecto das novas xane
 $string['configpopuplocation'] = 'As xanelas despregables deben mostrar por defecto a barra de localización?';
 $string['configpopupmenubar'] = 'As xanelas despregables deben mostrar por defecto a barra de menú?';
 $string['configpopupresizable'] = 'As xanelas despregables deben ser redimensionables por defecto?';
-$string['configpopupscrollbars'] = 'As xanelas despregables deben desprazables por defecto?';
+$string['configpopupscrollbars'] = 'As xanelas despregables deben ser  desprazables por defecto?';
 $string['configpopupstatus'] = 'As xanelas despregables deben mostrar por defecto a barra de estado?';
 $string['configpopuptoolbar'] = 'As xanelas despregables deben mostrar por defecto a barra de ferramentas?';
 $string['configpopupwidth'] = 'Cal debe ser a largura por defecto das novas xanelas despregables?';
@@ -48,10 +49,11 @@ $string['frameifpossible'] = 'Colocar o recurso nun marco para manter visible a 
 $string['fulltext'] = 'Texto completo';
 $string['htmlfragment'] = 'Fragmento HTML';
 $string['imspackageloaded'] = 'Paquete cargado';
+$string['keepnavigationvisible'] = 'Manter visible a navegación na mesma páxina';
 $string['localfile'] = 'Ficheiro local';
 $string['localfilechoose'] = 'Escoller un ficheiro local (CD-ROM)';
 $string['localfilehelp'] = 'Axudar mostrando ficheiros locais';
-$string['localfileinfo'] = '<p>Escolla un ficheiro local do seu computador. Non se cargará no sitio web, mais Moodle procurarao no computador dalguén que estea a ver este recurso.</p><p>Isto é útil principalmente cando se teñen ficheiros multimedia de grande tamaño almacenados nun CD estándar distribuído ao conxunto dos/das participantes. Cada participante pode escoller o camiño que desexa atribuír ao ficheiro editando o seu perfil de usuario <a href=\"$a\" target=\"_blank\"></a>.</p>';
+$string['localfileinfo'] = '<p>Escolla un ficheiro local do seu computador. Non se cargará no sitio web, mais Moodle procurarao no computador de alguén que estea a ver este recurso.</p><p>Isto é útil principalmente cando se teñen ficheiros multimedia de grande tamaño almacenados nun CD estándar distribuído ao conxunto dos/das participantes. Cada participante pode escoller o camiño que desexa atribuír ao ficheiro editando o seu perfil de usuario <a href=\"$a\" target=\"_blank\"></a>.</p>';
 $string['localfilepath'] = 'Para configurar o seu propio camiño para este recurso, seleccione calquera ficheiro da unidade do seu computador (normalmente CD) en que está o recurso. O ficheiro non se carga, mais a información da unidade almacénase e úsase para os recursos dos ficheiros locais';
 $string['localfileselect'] = 'Escolla este camiño.';
 $string['maindirectory'] = 'Directorio de ficheiros principais';
@@ -78,7 +80,7 @@ $string['notallowedlocalfileaccess'] = 'O acceso aos ficheiros locais está desa
 $string['notdeployed'] = 'Non implementado';
 $string['note'] = 'Nota';
 $string['notefile'] = 'Para cargar máis ficheiros no curso (de xeito que aparezan nesta lista) use o <a href=\"$a\">Xestor de ficheiros</a>.';
-$string['notypechosen'] = 'Debe seleccionar un tipo. Utilice o botón Voltar para retroceder e tentar de novo.';
+$string['notypechosen'] = 'Debe seleccionar un tipo. Utilice o botón Volver para retroceder e tentalo de novo.';
 $string['packagechanged'] = 'Este paquete de contido IMS foi modificado.';
 $string['packagenotdeplyed'] = 'Este paquete de contido IMS non está implementado.';
 $string['pagedisplay'] = 'Mostrar este recurso dentro da xanela actual';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_quiz_results.php - created with Moodle 1.7.1 (2006101010)
+      // block_quiz_results.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['bestgrade'] = 'Cualificación máis alta:';
@@ -19,7 +19,7 @@ $string['config_select_quiz'] = 'De que exame mostrará os resultados este bloqu
 $string['config_show_best'] = 'Cantas cualificacións das máis altas deberán mostrarse (0 para desactivar)?';
 $string['config_show_worst'] = 'Cantas cualificacións das máis baixas deberán mostrarse (0 para desactivar)?';
 $string['config_use_groups'] = 'Mostrar grupos en vez de estudantes (só se o programa soporta grupos)?';
-$string['configuredtoshownothing'] = 'Esta configuración actual do bloque non permite mostrar resultados. Pode voltar a configuralo ou ocultalo.';
+$string['configuredtoshownothing'] = 'Esta configuración actual do bloque non permite mostrar resultados. Pode volver configuralo ou ocultalo.';
 $string['error_emptyquizid'] = 'Hai un erro con este bloque: é preciso que seleccione de que exame serán mostrados os resultados.';
 $string['error_emptyquizrecord'] = 'Hai un erro con este bloque: o exame seleccionado non parece que exista na base de datos.';
 $string['error_nogroupsexist'] = 'Hai un erro con este bloque: foi definido para mostrar as cualificacións na modalidade de grupo, mais o curso non ten grupos.';

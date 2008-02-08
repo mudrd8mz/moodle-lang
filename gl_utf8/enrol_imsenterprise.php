@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.7.1 (2006101010)
+      // enrol_imsenterprise.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['aftersaving...'] = 'Unha vez gardadas as súas configuracións, poderá desexar';
@@ -11,10 +11,10 @@ $string['createnewcourses'] = 'Crear novos cursos (ocultos) se non os encontra e
 $string['createnewusers'] = 'Crear contas para usuarios aínda non rexistrados en Moodle';
 $string['cronfrequency'] = 'Frecuencia do procesamento';
 $string['deleteusers'] = 'Eliminar contas de usuario cando son especificadas en datos IMS';
-$string['description'] = 'Este método verificará e procesará repetidamente un ficheiro de texto con un formato especial na lugar que especifique.  O ficheiro debe seguir as <a href=\'../help.php?module=enrol/imsenterprise&file=formatoverview.html\' target=\'_blank\'>Especificacións de IMS Enterprise</a> contendo persoas, grupos e elementos XML.';
+$string['description'] = 'Este método verificará e procesará repetidamente un ficheiro de texto cun formato especial no lugar que especifique.  O ficheiro debe seguir as <a href=\'../help.php?module=enrol/imsenterprise&file=formatoverview.html\' target=\'_blank\'>Especificacións de IMS Enterprise</a> contendo persoas, grupos e elementos XML.';
 $string['doitnow'] = 'executar unha importación IMS Enterprise agora mesmo';
 $string['enrolname'] = 'Ficheiro IMS Enterprise';
-$string['filelockedmail'] = 'O ficheiro de texto que está a utilizar para as inscricións baseadas nos ficheiros IMS ($a) non pode ser eliminado polo proceso cron.  Normalmente, isto significa que os permisos non son apropiados.  Sinale os permisos para que Moodle poda eliminar o ficheiro, no caso contrario poderá ser procesado repetidamente.';
+$string['filelockedmail'] = 'O ficheiro de texto que está a utilizar para as inscricións baseadas nos ficheiros IMS ($a) non pode ser eliminado polo proceso cron.  Normalmente, isto significa que os permisos non son apropiados.  Sinale os permisos para que Moodle poida eliminar o ficheiro, no caso contrario poderá ser procesado repetidamente.';
 $string['filelockedmailsubject'] = 'Erro importante: Ficheiro de inscricións';
 $string['fixcasepersonalnames'] = 'Modificar os nomes persoais para maiúsculas no Título';
 $string['fixcaseusernames'] = 'Modificar nomes de usuario para minúsculas';

@@ -1,16 +1,16 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.7.1 (2006101010)
+      // message.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['addcontact'] = 'Engadir contacto';
 $string['addsomecontacts'] = 'Para enviar a alguén unha mensaxe, ou para engadir nesta páxina un atallo que conduza a eles, use o <a href=\"$a\">separador de busca</a>.';
-$string['addsomecontactsincoming'] = 'Estas mensaxes proceden de persoas que non están na súa lista de contactos. Para engadilos, prema a icona \"Engadir contacto\" situada ao lado do seu nome.';
+$string['addsomecontactsincoming'] = 'Estas mensaxes proceden de persoas que non están na súa lista de contactos. Para engadilas, prema a icona \"Engadir contacto\" situada ao lado do seu nome.';
 $string['ago'] = 'hai $a';
 $string['allmine'] = 'Todas as mensaxes para min e enviadas por min';
 $string['allstudents'] = 'Todas as mensaxes entre estudantes do curso';
 $string['allusers'] = '<br />Todas as mensaxes procedentes de todos os usuarios';
 $string['backupmessageshelp'] = 'Cando está inactivo, as mensaxes instantáneas inclúense nas copias de seguranza automáticas do sitio';
-$string['beepnewmessage'] = 'Ouvir un sinal cando entra unha nova mensaxe (Pode precisar dun plugin do explorador que produza sons, como o Quicktime)';
+$string['beepnewmessage'] = 'Oír un sinal cando entra unha nova mensaxe (Pode precisar dun plugin do explorador que produza sons, como o Quicktime)';
 $string['blockcontact'] = 'Bloquear contacto';
 $string['blockedmessages'] = '$a mensaxes para/de usuarios bloqueados';
 $string['blocknoncontacts'] = 'Bloquear todas as novas mensaxes procedentes de persoas que non están na miña lista de contactos';
@@ -55,6 +55,7 @@ $string['searchforperson'] = 'Procurar unha persoa';
 $string['searchmessages'] = 'Procurar nas mensaxes';
 $string['sendmessage'] = 'Enviar mensaxe';
 $string['sendmessageto'] = 'Enviar mensaxe a $a';
+$string['sendmessagetopopup'] = 'Enviar mensaxe a $a - nova xanela';
 $string['settings'] = 'Configuración';
 $string['settingssaved'] = 'Gardouse a súa configuración';
 $string['showmessagewindow'] = 'Mostrar automaticamente unha xanela de mensaxe cando recibo novas mensaxes (O explorador ten que configurarse de xeito que non bloquee os despregables deste sitio)';

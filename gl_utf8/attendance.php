@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // attendance.php - created with Moodle 1.7.1 (2006101010)
+      // attendance.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['absentlong'] = 'Ausente';
@@ -26,7 +26,7 @@ $string['downloadtexttotals'] = 'Descargar o texto resumido do informe';
 $string['dynamicsection'] = 'Determinar a semana para a asistencia baseándose nesta data';
 $string['dynamicsectionmulti'] = 'Colocar automaticamente os rexistros na súa sección semanal';
 $string['dynsectionshort'] = 'Movido automaticamente para a sección';
-$string['endbeforestart'] = 'A data final é anterior a data de inicio';
+$string['endbeforestart'] = 'A data final é anterior á data de inicio';
 $string['endmulti'] = 'Data para o último rexistro de asistencia';
 $string['for'] = 'para';
 $string['friday'] = 'V';
@@ -54,7 +54,7 @@ $string['startafterend'] = 'A data de inicio é posterior ao curso';
 $string['startmulti'] = 'Data do primeiro rexistro de asistencia';
 $string['sunday'] = 'Dom';
 $string['takeroll'] = 'Pasar lista este día?';
-$string['tardiesperabsence'] = 'Cantas atrasos contan como unha falta de asistencia';
+$string['tardiesperabsence'] = 'Cantos atrasos contan como unha falta de asistencia?';
 $string['tardylong'] = 'Atrasado';
 $string['tardyshort'] = 'A';
 $string['teacheredit'] = 'Rexistrar asistencia';

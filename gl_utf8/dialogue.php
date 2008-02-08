@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.7.1 (2006101010)
+      // dialogue.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['addmynewentries'] = 'Engadir as miñas novas entradas';
@@ -55,10 +55,10 @@ $string['opendialogue'] = 'Abrir diálogo';
 $string['opendialogueentries'] = 'Abrir entradas de diálogo';
 $string['opendialogues'] = 'Abrir diálogos';
 $string['pane0'] = 'Abrir un diálogo';
-$string['pane1'] = '$a Diálogos a espera das súas respostas';
-$string['pane1one'] = '1 Diálogo a espera da súa resposta';
-$string['pane2'] = '$a Diálogos a espera das respostas doutra persoa';
-$string['pane2one'] = '1 Diálogo a espera da resposta doutra persoa';
+$string['pane1'] = '$a Diálogos á espera das súas respostas';
+$string['pane1one'] = '1 Diálogo á espera da súa resposta';
+$string['pane2'] = '$a Diálogos á espera das respostas doutra persoa';
+$string['pane2one'] = '1 Diálogo á espera da resposta doutra persoa';
 $string['pane3'] = '$a diálogos pechados';
 $string['pane3one'] = '1 diálogo pechado';
 $string['seen'] = 'Visto hai $a';

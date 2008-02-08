@@ -1,6 +1,6 @@
 Language: Galician
-Translators: imaxin|localiza
-Contact: localiza@imaxin.com
+Translators: Forem Galicia - CC.OO.
+Contact: forem_galicia@foremga.ccoo.es
 ----------------------
 O idioma predefinido de Moodle é o inglés, e ese paquete de idioma 
 é definido como "master" frente outros paquetes.

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7.1 (2006101010)
+      // assignment.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['allowdeleting'] = 'Permitir eliminar';
@@ -46,7 +46,7 @@ $string['guestnoupload'] = 'Aos convidados non lles está permitido cargar';
 $string['helpoffline'] = '<p>Isto é útil cando a tarefa se efectúa fóra de Moodle. Pode ser noutro lugar da Web ou cara a cara.</p><p>Os estudantes poden ver a descrición da tarefa, mais non poden cargar ficheiros. Os traballos cualifícanse, e os estudantes recibirán notificacións das súas notas.</p>';
 $string['helponline'] = '<p>Este tipo de tarefa implica que os usuarios editen un texto utilizando as ferramentas de edición normais. Os profesores poden cualificalos en liña, e até engadir comentarios ou modificacións en liña.</p> <p>(Se está familiarizado con versións máis antigas de Moodle, este tipo de tarefa fai o mesmo que o antigo módulo Xornal.)</p>';
 $string['helpupload'] = '<p>Este tipo de tarefa permite cargar un ou máis ficheiros en calquera formato a cada participante. 
-   Estes ficheiros poden ser documentos de texto, imaxes, un sitio Web comprimido, ou calquera cousa que envie.</p>
+   Estes ficheiros poden ser documentos de texto, imaxes, un sitio Web comprimido, ou calquera cousa que envíe.</p>
    <p>Este tipo tamén lle permite cargar varios ficheiros resposta. Os ficheiros resposta tamén poden ser cargados antes do envío; desta maneira poden ser utilizados para dar a cada participante 
   ficheos que trairos diferentes cballar.</p>
    <p>Os participantes tamén poden introducir notas para describir os ficheiros enviados, o progreso ou calquera outra información.</p>
@@ -66,7 +66,7 @@ $string['noassignments'] = 'Aínda non hai tarefas';
 $string['noattempts'] = 'Non houbo tentativas nesta tarefa';
 $string['nofiles'] = 'Os ficheiros non foron enviados';
 $string['nofilesyet'] = 'Os ficheiros aínda non foron enviados';
-$string['notavailableyet'] = 'Esta tarefa aínda non está dispoñible.<br />As instrucións das tarefas mostraránse aquí, na data mostrada abaixo.';
+$string['notavailableyet'] = 'Esta tarefa aínda non está dispoñible.<br />As instrucións das tarefas mostraranse aquí, na data mostrada abaixo.';
 $string['notes'] = 'Notas';
 $string['notesempty'] = 'Non entrar';
 $string['notesupdateerror'] = 'Erro ao actualizar as notas';
@@ -88,7 +88,7 @@ $string['submissions'] = 'Envíos';
 $string['submissionsaved'] = 'As súas modificacións foron gardadas';
 $string['submissionsnotgraded'] = '$a envíos non avaliados';
 $string['submitassignment'] = 'Envíe a súa tarefa utilizando este formato';
-$string['submitedformarking'] = 'A tarefa xa foi enviada para correxir e non pode ser actualizada';
+$string['submitedformarking'] = 'A tarefa xa foi enviada para corrixir e non pode ser actualizada';
 $string['submitformarking'] = 'Tarefa enviada para avaliar';
 $string['submitted'] = 'Enviada';
 $string['submittedfiles'] = 'Ficheiros enviados';

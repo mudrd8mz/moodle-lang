@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // block_glossary_random.php - created with Moodle 1.7.1 (2006101010)
+      // block_glossary_random.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['addentry'] = 'Engadir as súas citas favoritas!';
 $string['askaddentry'] = 'Cando os usuarios poden engadir entradas ao glosario, mostrar unha ligazón con este texto';
-$string['askinvisible'] = 'Cando os usuarios non poden editar ou ver o glosario, mostrar este texto (sen lingazón)';
-$string['askviewglossary'] = 'Cando os usuarios poden ver o glosario mais non engadir entradas, mostrar unha lingazón con este texto';
+$string['askinvisible'] = 'Cando os usuarios non poden editar ou ver o glosario, mostrar este texto (sen ligazón)';
+$string['askviewglossary'] = 'Cando os usuarios poden ver o glosario mais non engadir entradas, mostrar unha ligazón con este texto';
 $string['blockname'] = 'Entrada de glosario aleatoria';
 $string['intro'] = 'Asegúrese de que ten polo menos un glosario con polo menos unha entrada engadida a este curso. Despois pode axustar as seguintes definicións:';
 $string['invisible'] = '(continúa...)';

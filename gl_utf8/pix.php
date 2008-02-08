@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // pix.php - created with Moodle 1.7.1 (2006101010)
+      // pix.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['angry'] = 'enfadado';
-$string['approve'] = 'aprobador';
+$string['approve'] = 'aprobar';
 $string['biggrin'] = 'grande sorriso';
 $string['blackeye'] = 'ollo negro';
 $string['blush'] = 'ruborizado';
@@ -19,7 +19,7 @@ $string['sleepy'] = 'adormecido';
 $string['smiley'] = 'sorriso';
 $string['surprise'] = 'sorprendido';
 $string['thoughtful'] = 'pensativo';
-$string['tongueout'] = 'coa lingua fora';
+$string['tongueout'] = 'coa lingua fóra';
 $string['wideeyes'] = 'ollos arregalados';
 $string['wink'] = 'chiscadela';
 

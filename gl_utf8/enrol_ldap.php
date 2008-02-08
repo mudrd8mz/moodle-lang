@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.7.1 (2006101010)
+      // enrol_ldap.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['description'] = '<p>Pode utilizar un servidor LDAP para controlar as súas inscricións.  
-                          É asumido que a súa árbore LDAP contén grupos que mapean os 
+                          É asumido que a súa árbore LDAP contén grupos que asignan os 
                           cursos, e que cada un deses grupos/cursos terán 
-                          entradas de membros para mapear estudantes.</p>
+                          entradas de membros para asignar estudantes.</p>
                           <p>É asumido que os cursos son definidos como grupos en 
                           LDAP, e que cada grupo ten múltiples campos de membros 
                           (<em>membro</em> ou <em>membroUid</em>) que conteñen unha única
@@ -30,6 +30,7 @@ $string['enrol_ldap_bind_dn'] = 'Se desexa utilizar Usuario de ligazón para bus
                                  cn=ldapusuarior,ou=público,o=org';
 $string['enrol_ldap_bind_pw'] = 'Contrasinal para o usuario de ligazón.';
 $string['enrol_ldap_category'] = 'Categoría para cursos creados automaticamente.';
+$string['enrol_ldap_contexts'] = 'Contextos LDAP';
 $string['enrol_ldap_course_fullname'] = 'Opcional: Campo LDAP de onde se colle o nome completo.';
 $string['enrol_ldap_course_idnumber'] = 'Mapa para o único identificador no LDAP, normalmente
                                          <em>cn</em> ou <em>uid</em>. Recoméndase
@@ -43,10 +44,12 @@ $string['enrol_ldap_general_options'] = 'Opcións xerais';
 $string['enrol_ldap_host_url'] = 'Especificar o servidor LDAP en forma de URL como 
                                   ldap://ldap.myorg.com/ 
                                   ou ldaps://ldap.myorg.com/';
+$string['enrol_ldap_memberattribute'] = 'Atributo de membro LDAP';
 $string['enrol_ldap_objectclass'] = 'objectClass utilizado para buscar cursos. Normalmente
                                      posixGroup.';
+$string['enrol_ldap_roles'] = 'Asignación de papeis';
 $string['enrol_ldap_search_sub'] = 'Buscar membros de grupo para subcontextos.';
-$string['enrol_ldap_server_settings'] = 'Configuarción do servidor LDAP';
+$string['enrol_ldap_server_settings'] = 'Configuración do servidor LDAP';
 $string['enrol_ldap_student_contexts'] = 'Lista de contextos onde son localizados 
 										  os grupos con inscricións de estudante.
                                           Separe os diferentes 
@@ -65,7 +68,7 @@ $string['enrol_ldap_teacher_memberattribute'] = 'Atributo do membro, cando os us
                                           ou membroUid.';
 $string['enrol_ldap_teacher_settings'] = 'Configuración da inscrición do profesor';
 $string['enrol_ldap_template'] = 'Opcional: os cursos creados automaticamente poden copiar 
-                                  as suas configuracións dun modelo de curso.';
+                                  as súas configuracións dun modelo de curso.';
 $string['enrol_ldap_updatelocal'] = 'Actualizar datos locais';
 $string['enrol_ldap_version'] = 'A versión do protocolo LDAP que está a utilizar o seu servidor.';
 $string['enrolname'] = 'LDAP';

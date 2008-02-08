@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.7.1 (2006101010)
+      // survey.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['actual'] = 'Realidade';
@@ -25,25 +25,25 @@ $string['attls15'] = 'Tendo a pórme no lugar dos outros cando se discuten cuest
 $string['attls15short'] = 'pórme no lugar dos outros';
 $string['attls16'] = 'A miña forma de analizar as cousas podería denominarse \'pólas a proba\' porque teño o coidado de considerar todas as posibles evidencias.';
 $string['attls16short'] = 'pór a proba';
-$string['attls17'] = 'Á hora de resolver problmas dou máis valor ao uso da lóxica e da razón que ás miñas propias preocupacións.';
-$string['attls17short'] = 'dou máis valor á lóxica';
+$string['attls17'] = 'Á hora de resolver problemas doulle máis valor ao uso da lóxica e da razón que ás miñas propias preocupacións.';
+$string['attls17short'] = 'doulle máis valor á lóxica';
 $string['attls18'] = 'Podo comprender opinións que difiren da miña a través da empatía.';
 $string['attls18short'] = 'comprender a través da empatía';
 $string['attls19'] = 'Cando me encontro con persoas cuxas opinións son radicalmente opostas ás miñas, fago un esforzo deliberado para \'estender\' a miña visión a esa persoa, para tentar comprender como poden ter esa opinión.';
 $string['attls19short'] = 'facer un esforzo de extensión';
 $string['attls1short'] = 'centrarse na calidade do argumento';
 $string['attls2'] = 'Gústame facer de avogado do diabo - argumentando o contrario do que a outra persoa está a dicir.';
-$string['attls20'] = 'Paso tempo a pensar que está mal nas cousas. Por exemplo, nunha interpretación literaria procuro aquilo que non está suficientemente argumentado.';
+$string['attls20'] = 'Paso tempo a pensar qué está mal nas cousas. Por exemplo, nunha interpretación literaria procuro aquilo que non está suficientemente argumentado.';
 $string['attls20short'] = 'que está mal?';
 $string['attls2short'] = 'facer de avogado do diabo';
-$string['attls3'] = 'Gústame comprender \'a experiencia previa\' das outras persoas, que os levou a sentir como senten.';
+$string['attls3'] = 'Gústame comprender \'a experiencia previa\' das outras persoas, qué os levou a sentir como senten.';
 $string['attls3short'] = 'experiencia previa das persoas';
 $string['attls4'] = 'A parte máis importante da miña educación foi aprender a entender as persoas que son diferentes de min.';
 $string['attls4short'] = 'entender as persoas diferentes';
 $string['attls5'] = 'Sinto que o mellor xeito para min de encontrar a miña propia identidade é interaccionar cunha diversidade de persoas.';
 $string['attls5short'] = 'interaccionar cunha diversidade de persoas';
-$string['attls6'] = 'Gústame ouvir a opinión de persoas con experiencias diferentes da miña. Axúdame a entender como se poden ver as mesmas cousas de xeitos diferentes.';
-$string['attls6short'] = 'gustar de ouvir opinións';
+$string['attls6'] = 'Gústame oír a opinión de persoas con experiencias diferentes da miña. Axúdame a entender como se poden ver as mesmas cousas de xeitos diferentes.';
+$string['attls6short'] = 'gustar de oír opinións';
 $string['attls7'] = 'Penso que podo fortalecer a miña posición a través da discusión con alguén que non concorda comigo.';
 $string['attls7short'] = 'fortalecer a través da discusión';
 $string['attls8'] = 'Estou sempre interesado en saber por que as persoas din e cren determinadas cousas.';
@@ -62,7 +62,7 @@ $string['ciq1'] = 'En que momento da clase se sentiu máis comprometido como est
 $string['ciq1short'] = 'Máis comprometido';
 $string['ciq2'] = 'En que momento da clase se sentiu máis distante como estudante?';
 $string['ciq2short'] = 'Máis distante';
-$string['ciq3'] = 'Que acción das realizadas polos participantes nos forums considerou a máis proveitosa?';
+$string['ciq3'] = 'Que acción das realizadas polos participantes nos foros considerou a máis proveitosa?';
 $string['ciq3short'] = 'Momento máis proveitoso';
 $string['ciq4'] = 'Que acción das realizadas polos participantes nos foros considerou a máis confusa?';
 $string['ciq4short'] = 'Momento máis confuso';
@@ -73,7 +73,7 @@ $string['ciqname'] = 'Incidentes críticos';
 $string['clicktocontinue'] = 'Prema aquí para continuar';
 $string['clicktocontinuecheck'] = 'Prema aquí para verificar e continuar';
 $string['colles1'] = 'A miña aprendizaxe céntrase en asuntos que me interesan.';
-$string['colles10'] = 'Pídolle a outros/as estudantes que me expliquen as súas ideas.';
+$string['colles10'] = 'Pídolles a outros/as estudantes que me expliquen as súas ideas.';
 $string['colles10short'] = 'Pido que me expliquen';
 $string['colles11'] = 'Outros/as estudantes pídenme que explique as miñas ideas.';
 $string['colles11short'] = 'Pídenme que explique';
@@ -102,7 +102,7 @@ $string['colles21short'] = 'Comprendo os/as outros/as estudantes';
 $string['colles22'] = 'Os/as outros/as estudantes comprenden ben as miñas mensaxes.';
 $string['colles22short'] = 'Os/as estudantes compréndenme';
 $string['colles23'] = 'Comprendo ben as mensaxes do titor.';
-$string['colles23short'] = 'Entendo ao titor';
+$string['colles23short'] = 'Entendo o titor';
 $string['colles24'] = 'O titor comprende ben as miñas mensaxes.';
 $string['colles24short'] = 'O titor enténdeme';
 $string['colles2short'] = 'Importante para a miña práctica';
@@ -155,14 +155,15 @@ $string['collesm6short'] = 'Interpretación';
 $string['collesmintro'] = 'Nesta unidade en liña...';
 $string['collespintro'] = 'A finalidade desta enquisa é axudarnos a coñecer que valoras dunha experiencia de aprendizaxe en liña.
 
-Os 24 puntos seguintes refírense ás súas <b>preferencias</b> (situación ideal) en relación con esta unidade.
+Os 24 puntos seguintes refírense ás túas <b>preferencias</b> (situación ideal) en relación con esta unidade.
 
-Non hai respostas \'correctas\' ou \'incorrectas\'; o que nos interesa é a súa opinión. As súas respostas serán tratadas coa máxima confidencialidade e non afectarán a avaliación do seu traballo.
+Non hai respostas \'correctas\' ou \'incorrectas\'; o que nos interesa é a túa opinión. As túas respostas serán tratadas coa máxima confidencialidade e non afectarán a avaliación do teu traballo.
 
-As súas respostas axudarannos a mellorar a maneira de presentar en liña esta unidade no futuro.
+As túas respostas axudarannos a mellorar a maneira de presentar en liña esta unidade no futuro.
 
 Moitas grazas.';
 $string['collespname'] = 'COLLES (Preferencias)';
+$string['customintro'] = 'Introdución personalizada';
 $string['done'] = 'Feito';
 $string['download'] = 'Descargar';
 $string['downloadexcel'] = 'Descargar datos como folla de Excel';
@@ -181,12 +182,12 @@ $string['modulenameplural'] = 'Enquisas';
 $string['name'] = 'Nome';
 $string['newsurveyresponses'] = 'Respostas á nova enquisa';
 $string['nobodyyet'] = 'Aínda ninguén realizou esta enquisa';
-$string['notdone'] = 'Aínda non concluído';
+$string['notdone'] = 'Aínda non concluíu';
 $string['notes'] = 'A súa análise privada e as súas anotacións';
 $string['othercomments'] = 'Ten algún outro comentario?';
 $string['peoplecompleted'] = 'Até agora completaron esta enquisa $a persoas';
 $string['preferred'] = 'Preferencias';
-$string['preferredclass'] = 'Preferencias en relación á clase';
+$string['preferredclass'] = 'Preferencias en relación coa clase';
 $string['preferredstudent'] = 'Preferencias de $a';
 $string['question'] = 'Pregunta';
 $string['questions'] = 'Preguntas';

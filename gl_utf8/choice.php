@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.7.1 (2006101010)
+      // choice.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['addmorechoices'] = 'Engadir máis escollas';
 $string['allowupdate'] = 'Permitir actualizar a escolla';
 $string['answered'] = 'Respondido';
 $string['choice'] = 'Escolla';
-$string['choice:choose'] = 'Record a choice';
+$string['choice:choose'] = 'Rexistrar unha escolla';
 $string['choice:deleteresponses'] = 'Eliminar respostas';
 $string['choice:downloadresponses'] = 'Cargar respostas';
 $string['choice:readresponses'] = 'Ler respostas';
@@ -33,7 +33,7 @@ $string['privacy'] = 'Privacidade dos resultados';
 $string['publish'] = 'Publicar resultados';
 $string['publishafteranswer'] = 'Mostrar resultados aos estudantes despois de que respondan';
 $string['publishafterclose'] = 'Mostrar resultados aos estudantes só despois de que a escolla estea fechada';
-$string['publishalways'] = 'Mostrar os resultados aos estudentes sempre';
+$string['publishalways'] = 'Mostrar os resultados aos estudantes sempre';
 $string['publishanonymous'] = 'Publicar resultados de maneira anónima, sen mostrar os nomes dos estudantes';
 $string['publishnames'] = 'Publicar os resultados completos, mostrando os nomes e as súas escollas';
 $string['publishnot'] = 'Non publicar resultados aos estudantes';

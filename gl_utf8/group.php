@@ -1,110 +1,96 @@
-<?php
-/**
- * Language strings for new Moodle Groups (cvs:/group/) 
- *
- * @copyright &copy; 2006 The Open University
- * @author J.White AT open.ac.uk
- * @license http://www.gnu.org/copyleft/gpl.html GNU Public License
- * @package groups
- */
+<?PHP // $Id$ 
+      // group.php - created with Moodle 1.8.3 + (2007021532)
 
-$string['groupmember'] = 'Membro do grupo';
-$string['groupmemberdesc'] = 'Papel estándar para o membro dun grupo.';
-$string['notingrouping'] = '[Non está en ningún grupo]';
 
+$string['addgroupstogrouping'] = 'Engadir grupos ao agrupamento';
+$string['adduserstogroup'] = 'Engadir/Eliminar usuarios dun grupo';
+$string['anygrouping'] = 'Calquera agrupamento';
+$string['backtogroups'] = 'Volver aos grupos';
+$string['cancel'] = 'Cancelar';
+$string['createautomaticgrouping'] = 'Crear agrupamento automático';
+$string['creategroup'] = 'Crear grupo';
+$string['creategrouping'] = 'Crear agrupamento';
+$string['creategroupinselectedgrouping'] = 'Crear un grupo no agrupamento seleccionado';
+$string['createorphangroup'] = 'Crear un grupo orfo';
+$string['databaseupgradegroups'] = 'A versión dos grupos agora é $a';
+$string['defaultgroupdescription'] = 'Descrición predefinida de grupo';
+$string['defaultgroupingname'] = 'Agrupamento';
+$string['defaultgroupname'] = 'Grupo';
+$string['defaultgroupprefix'] = 'Grupo';
+$string['deletegroupconfirm'] = 'Está seguro de que desexa eliminar o grupo \'$a\'?';
+$string['deletegrouping'] = 'Eliminar agrupamento';
+$string['deletegroupingconfirm'] = 'Está seguro de que desexa eliminar o agrupamento \'$a\'? (Os grupos non se eliminarán).';
+$string['deleteselectedgroup'] = 'Eliminar o grupo seleccionado';
+$string['displaygrouping'] = 'Mostrar agrupamento';
+$string['distributealphabetically'] = 'Distribuír nos grupos por orde alfabética de apelidos';
+$string['distributeevenly'] = 'Distribuír equitativamente estudantes que quedaron fóra';
+$string['editgroupingpermissions'] = 'Editar permisos de agrupamento';
+$string['editgroupingsettings'] = 'Editar configuración de agrupamento';
+$string['editgroupsettings'] = 'Editar configuración de grupo';
+$string['enrolmentkey'] = 'Chave de inscrición';
+$string['erroraddremoveuser'] = 'Erro ao engadir/quitar o usuario $a do grupo';
+$string['erroreditgroup'] = 'Erro ao crear/actualizar grupo $a';
+$string['erroreditgrouping'] = 'Erro ao crear/actualizar agrupamento $a';
+$string['errorinvalidgroup'] = 'Erro, o grupo $a non é válido';
+$string['errorinvalidgrouping'] = 'Erro, o agrupamento $a non é válido';
 $string['errornotingrouping'] = 'Non pode crear un grupo en $a';
 $string['errornotingroupingedit'] = 'Non pode editar un agrupamento en $a';
-$string['errorinvalidgrouping'] = 'Erro, o agrupamento $a non é válido';
-$string['errorinvalidgroup'] = 'Erro, o grupo $a non é válido';
-$string['erroreditgrouping'] = 'Erro ao crear/actualizar agrupamento $a';
-$string['erroreditgroup'] = 'Erro ao crear/actualizar grupo $a';
-
-$string['upgradeconfirm'] = 'As táboas de grupos creadas en Moodle 1.8 dev deben ser eliminadas para realizar esta actualización. Desexa continuar?';
-
-$string['groupings'] = 'Agrupamentos';
-$string['grouping'] = 'Agrupamento';
-$string['groups'] = 'Grupos';
+$string['existingmembers'] = 'Membros existentes: $a';
 $string['group'] = 'Grupo';
-$string['groupsinselectedgrouping'] = 'Grupos en agrupamentos seleccionados';
-$string['membersofselectedgroup'] = 'Membros do grupo seleccionado';
-
-$string['showgroupsingrouping'] = 'Mostrar grupos no agrupamento';
-$string['showmembersforgroup'] = 'Mostrar membros do grupo';
-$string['databaseupgradegroups'] = 'A versión dos grupos agora é $a';
-
-$string['editgroupingsettings'] = 'Editar configuración de agrupamento';
-$string['editgroupingpermissions'] = 'Editar permisos de agrupamento';
-$string['deletegrouping'] = 'Eliminar agrupamento';
-$string['creategrouping'] = 'Crear agrupamento';
-$string['createautomaticgrouping'] = 'Crear agrupamento automático';
-$string['printerfriendly'] = 'Visualización amigable de impresión para agrupamentos';
-
-$string['editgroupsettings'] = 'Editar configuración de grupo';
-$string['deleteselectedgroup'] = 'Eliminar o grupo seleccionado';
-$string['removegroupfromselectedgrouping'] = 'Eliminar un grupo do agrupamento seleccionado';
-$string['creategroupinselectedgrouping'] = 'Crear un grupo no agrupamento seleccionado';
-$string['addexistinggroupstogrouping'] = 'Engadir grupos existentes a un agrupamento';
-$string['addgroupstogrouping'] = 'Engadir grupos a un agrupamento';
-
-$string['removeselectedusers'] = 'Eliminar usuarios seleccionados';
-$string['adduserstogroup'] = 'Engadir/Eliminar usuarios dun grupo'; //'Engadir usuarios a un grupo';
-
-$string['groupingname'] = 'Nome do agrupamento';
-$string['defaultgroupingname'] = 'Agrupamento';
-$string['groupingdescription'] = 'Descrición do agrupamento';
-$string['prefixforgroupnames'] = 'Prefixo dos nomes de grupo';
-$string['defaultgroupprefix'] = 'Grupo ';
-$string['distributealphabetically'] = 'Distribuír nos grupos por orde alfabética de apelidos';
-$string['usestudentsonlyfromselectedgroup'] = 'Só utilizar estudantes dos grupos seleccionados actualmente';
-$string['selectnumberineachgroup'] = 'Escoller o número en cada grupo';
-$string['numberofstudents'] = 'Número de estudantes';
-$string['distributeevenly'] = 'Distribuír equitativamente estudantes que quedaron fóra';
-$string['selectnumberofgroups'] = 'Escoller o número de grupos';
-$string['numberofgroups'] = 'Número de grupos';
-$string['creategrouping'] = 'Crear agrupamento';
-$string['creategroup'] = 'Crear grupo';
-
-$string['groupname'] = 'Nome do grupo';
-$string['defaultgroupname'] = 'Grupo';
+$string['groupaddedsuccesfully'] = 'Grupo $a engadido con éxito';
 $string['groupdescription'] = 'Descrición do grupo';
-$string['enrolmentkey'] = 'Chave de inscrición';
-$string['hidepicture'] = 'Ocultar imaxe';
-$string['newpicture'] = 'Nova imaxe';
-
-$string['defaultgroupdescription'] = 'Descrición predefinida de grupo';
-
-$string['displaygrouping'] = 'Mostrar agrupamento';
-$string['addgroupstogrouping'] = 'Engadir grupos ao agrupamento';
-$string['showusersalreadyingroup'] = 'Mostrar no agrupamento usuarios que xa estean dentro dun grupo';
-
-$string['save'] = 'Gardar';
-$string['cancel'] = 'Cancelar';
-$string['return'] = 'Volver';
-
-$string['groupfor'] = "para o grupo";
+$string['groupfor'] = 'para o grupo';
 $string['groupinfo'] = 'Información acerca do grupo seleccionado';
 $string['groupinfomembers'] = 'Información acerca dos/das membros seleccionados';
-$string['groupinfopeople'] = 'Información acerca das persoas seleccionados';
+$string['groupinfopeople'] = 'Información acerca das persoas seleccionadas';
+$string['grouping'] = 'Agrupamento';
+$string['groupingdescription'] = 'Descrición do agrupamento';
+$string['groupingname'] = 'Nome do agrupamento';
+$string['groupings'] = 'Agrupamentos';
+$string['groupmember'] = 'Membro do grupo';
+$string['groupmemberdesc'] = 'Papel estándar para o membro dun grupo.';
 $string['groupmembers'] = 'Membros do grupo';
 $string['groupmemberssee'] = 'Ver membros do grupo';
 $string['groupmembersselected'] = 'Membros do grupo seleccionado';
-
-
-$string['javascriptrequired'] = 'Para activar esta páxina é preciso Javascript.';
-
-$string['viewowngroup'] = 'Os/As estudantes poden ver os/as membros de calquera grupo a que pertenzan';
-$string['viewallgroupsmembers'] = 'Os/As estudantes poden ver os/as membros de todos os grupos';
-$string['viewallgroupsactivities'] = 'Os/As estudantes poden ver todas as actividades de todos os grupos, mais non poden participar nelas';
-$string['teachersgroupmark'] = 'Os/As profesores/as non poden marcar grupos a que non pertenzan';
-$string['teachersgroupview'] = 'Os/As profesores/as non poden ver actividades dos grupos a que non pertenzan';
-$string['teachersoverride'] = 'Os/As profesores/as que non pertencen a ningún grupo poden ver e marcar actividades en todos os grupos (substitúe o anterior)';
-
 $string['groupmode'] = 'Modo do grupo';
 $string['groupmodeforce'] = 'Facer obrigatorio o modo de grupo';
 $string['groupmy'] = 'O meu grupo';
+$string['groupname'] = 'Nome do grupo';
+$string['groupnameexists'] = 'O nome do grupo \'$a\' xa existe neste curso; por favor, escolla outro.';
 $string['groupnotamember'] = 'Desculpe, mais non é un membro deste grupo';
+$string['groups'] = 'Grupos';
+$string['groupsinselectedgrouping'] = 'Grupos en agrupamentos seleccionados';
 $string['groupsnone'] = 'Sen grupos';
 $string['groupsseparate'] = 'grupos separados';
 $string['groupsvisible'] = 'grupos visibles';
+$string['hidepicture'] = 'Ocultar imaxe';
+$string['javascriptrequired'] = 'Para activar esta páxina é preciso Javascript.';
+$string['membersofselectedgroup'] = 'Membros do grupo seleccionado';
+$string['newpicture'] = 'Nova imaxe';
+$string['nopermissionforcreation'] = 'Non se pode crear o grupo $a: vostede non ten os permisos requiridos';
+$string['notingrouping'] = '[Non está en ningún grupo]';
+$string['numberofgroups'] = 'Número de grupos';
+$string['numberofstudents'] = 'Número de estudantes';
+$string['potentialmembers'] = 'Membros potenciais: $a';
+$string['prefixforgroupnames'] = 'Prefixo dos nomes de grupo';
+$string['printerfriendly'] = 'Visualización amigable de impresión para agrupamentos';
+$string['removegroupfromselectedgrouping'] = 'Eliminar un grupo do agrupamento seleccionado';
+$string['removeselectedusers'] = 'Eliminar usuarios seleccionados';
+$string['return'] = 'Volver';
+$string['save'] = 'Gardar';
+$string['selectnumberineachgroup'] = 'Escoller o número en cada grupo';
+$string['selectnumberofgroups'] = 'Escoller o número de grupos';
+$string['showgroupsingrouping'] = 'Mostrar grupos no agrupamento';
+$string['showmembersforgroup'] = 'Mostrar membros do grupo';
+$string['showusersalreadyingroup'] = 'Mostrar no agrupamento usuarios que xa estean dentro dun grupo';
+$string['teachersgroupmark'] = 'Os/As profesores/as non poden marcar grupos aos que non pertenzan';
+$string['teachersgroupview'] = 'Os/As profesores/as non poden ver actividades dos grupos aos que non pertenzan';
+$string['teachersoverride'] = 'Os/As profesores/as que non pertencen a ningún grupo poden ver e marcar actividades en todos os grupos (substitúe o anterior)';
+$string['upgradeconfirm'] = 'As táboas de grupos creadas en Moodle 1.8 dev deben ser eliminadas para realizar esta actualización. Desexa continuar?';
+$string['usestudentsonlyfromselectedgroup'] = 'Só utilizar estudantes dos grupos seleccionados actualmente';
+$string['viewallgroupsactivities'] = 'Os/As estudantes poden ver todas as actividades de todos os grupos, mais non poden participar nelas';
+$string['viewallgroupsmembers'] = 'Os/As estudantes poden ver os/as membros de todos os grupos';
+$string['viewowngroup'] = 'Os/As estudantes poden ver os/as membros de calquera grupo a que pertenzan';
+$string['addexistinggroupstogrouping'] = 'Engadir grupos existentes a un agrupamento'; // ORPHANED
 
 ?>

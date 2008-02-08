@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.7.1 (2006101010)
+      // wiki.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['action'] = '-- Acción --';
@@ -54,7 +54,7 @@ $string['errornotype'] = 'Erro: Nin BIN nin TXT';
 $string['errororreason'] = 'Erro ou razón';
 $string['errorroandwr'] = 'Erro: A páxina é escribible e só de lectura';
 $string['errorsize'] = 'Tamaño de páxina maior de 64k';
-$string['errversionsave'] = 'Desculpe. Mentres editaba esta páxina alguén máis gravou unha versión modificada. Volte á pantalla anterior e copie as súas modificacións no portapapeis do seu computador para as inserir de novo despois de refrescar a pantalla de edición.';
+$string['errversionsave'] = 'Desculpe. Mentres editaba esta páxina alguén máis gravou unha versión modificada. Volva á pantalla anterior e copie as súas modificacións no portarretallos do seu computador para as inserir de novo despois de refrescar a pantalla de edición.';
 $string['ewikiacceptbinary'] = 'Permitir ficheiros binarios';
 $string['ewikiprinttitle'] = 'Imprimir o nome da wiki en cada páxina';
 $string['export'] = 'Exportar';
@@ -86,7 +86,7 @@ $string['htmlonly'] = 'Só HTML';
 $string['index'] = 'Índice';
 $string['infoaboutpage'] = 'Historial de:';
 $string['initialcontent'] = 'Escoller unha páxina inicial';
-$string['invalidroot'] = 'Non ten autorización para acceder a actual páxina raíz e por iso non se pode crear ningún mapa do sitio.';
+$string['invalidroot'] = 'Non ten autorización para acceder á actual páxina raíz e por iso non se pode crear ningún mapa do sitio.';
 $string['lastchanged'] = 'Última modificación efectuada en $a';
 $string['lastmodified'] = 'Última modificación';
 $string['linkdead'] = 'MORTO';
@@ -137,19 +137,19 @@ $string['readonly'] = 'Páxina só de lectura';
 $string['refs'] = 'Referencias';
 $string['reloadlinkdescription'] = 'Carga novamente a páxina para que se mostre calquera contido novo.';
 $string['reloadlinktext'] = 'Cargar de novo esta páxina';
-$string['removenotice'] = 'Aquí só se listan as páxinas a que non se fixo referencia, aínda que, como as probas que efectúa o motor ewiki para determinar páxinas a que non se fixo referencia son limitadas, poden faltar algunhas páxinas.<br />Con todo, se baleira antes unha páxina, será incluída na lista. Tamén se realizan outros diagnósticos de base de datos.';
+$string['removenotice'] = 'Aquí só se listan as páxinas a que non se fixo referencia, aínda que, como as probas que efectúa o motor ewiki para determinar páxinas ás que non se fixo referencia son limitadas, poden faltar algunhas páxinas.<br />Con todo, se baleira antes unha páxina, será incluída na lista. Tamén se realizan outros diagnósticos de base de datos.';
 $string['removepagecheck'] = 'Está certo/a de que desexa eliminar estas páxinas?';
 $string['removepages'] = 'Eliminar páxinas';
 $string['removeselectedpages'] = 'Eliminar páxinas seleccionadas';
-$string['revertallsince'] = 'Voltar a unha versión anterior, eliminando as modificacións intermedias';
+$string['revertallsince'] = 'Volver a unha versión anterior, eliminando as modificacións intermedias';
 $string['revertchanges'] = 'Desfacer modificacións';
 $string['revertlastonly'] = 'Só se se trata da última modificación';
 $string['revertpages'] = 'Desfacer modificacións masivas';
 $string['revertpagescheck'] = 'Está certo/a de que desexa desfacer as seguintes modificacións?:';
-$string['revertthe'] = 'Voltar a unha versión anterior purgando só a afectada';
+$string['revertthe'] = 'Volver a unha versión anterior purgando só a afectada';
 $string['safehtml'] = 'HTML seguro';
 $string['save'] = 'Gardar';
-$string['savenolock'] = 'Non pode gardar a páxina porque non ten un bloqueo de edición. Isto pódese deber a que o seu explorador ten Javascript desactivado ou á anulación do bloqueo por parte doutro usuario.<br/><br/>Volte á pantalla anterior empregando o botón Voltar do explorador, copie o texto coas modificacións realizadas e tente editar novamente.';
+$string['savenolock'] = 'Non pode gardar a páxina porque non ten un bloqueo de edición. Isto pódese deber a que o seu explorador ten Javascript desactivado ou á anulación do bloqueo por parte doutro usuario.<br/><br/>Volva á pantalla anterior empregando o botón Volver do explorador, copie o texto coas modificacións realizadas e tente editar novamente.';
 $string['searchwiki'] = 'Procurar na wiki';
 $string['setpageflags'] = 'Establecer indicadores de páxina';
 $string['showversions'] = 'Mostrar versións:';
