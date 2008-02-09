@@ -19,6 +19,6 @@ $string['surprise'] = 'surprise';
 $string['thoughtful'] = 'pensif';
 $string['tongueout'] = 'langue tirée';
 $string['wideeyes'] = 'yeux grands ouverts';
-$string['wink'] = 'clin d&#8217;oeil';
+$string['wink'] = 'clin d&#8217;oeil'; // Workaround wink emoticon insertion problem with HTML Editor
 
 ?>
