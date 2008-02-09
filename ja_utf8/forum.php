@@ -186,7 +186,7 @@ $string['parent'] = '親記事を表示する';
 $string['parentofthispost'] = 'この投稿の親記事';
 $string['postadded'] = '<p>あなたの投稿が追加されました。</p>
 <p>内容を変更したい場合、 $a 編集できます。</p>';
-$string['postincontext'] = 'この投稿記事をコンテクスト内に表示する';
+$string['postincontext'] = 'この投稿をコンテクスト内に表示する';
 $string['postmailinfo'] = 'これは ウェブサイト $a に投稿された記事のコピーです。
 
 ウェブサイト経由で返信を投稿するには、このリンクをクリックしてください:';
@@ -201,8 +201,8 @@ $string['potentialsubscribers'] = '潜在的メール購読ユーザ';
 $string['processingdigest'] = '$a のメールダイジェストを処理中';
 $string['processingpost'] = '投稿 $a を処理中';
 $string['prune'] = '分割';
-$string['prunedpost'] = '新しいディスカッションが投稿記事より作成されました。';
-$string['pruneheading'] = '投稿記事を分割して、新しいディスカッションへ移動する。';
+$string['prunedpost'] = '新しいディスカッションが投稿より作成されました。';
+$string['pruneheading'] = '投稿を分割して、新しいディスカッションへ移動する。';
 $string['qandaforum'] = 'Q&Aフォーラム';
 $string['qandanotify'] = 'これはQ&Aフォーラムです。これらの質問に対する他の人の回答を読むには、最初にあなたの回答を投稿する必要があります。';
 $string['rate'] = '評価';
@@ -258,8 +258,8 @@ $string['subscribed'] = 'メール購読';
 $string['subscribenone'] = '全員のメール購読を解除';
 $string['subscribers'] = 'メール購読ユーザ';
 $string['subscribersto'] = '$a のメール購読ユーザ';
-$string['subscribestart'] = 'このフォーラムの投稿記事をメール購読する';
-$string['subscribestop'] = 'このフォーラムの投稿記事をメール購読しない';
+$string['subscribestart'] = 'このフォーラムの投稿をメール購読する';
+$string['subscribestop'] = 'このフォーラムの投稿をメール購読しない';
 $string['subscription'] = 'メール購読';
 $string['subscriptions'] = 'メール購読';
 $string['thisforumisthrottled'] = 'このフォーラムでは、期限内にあなたが投稿できる投稿数を制限しています - 現在 $a->blockperiod で $a->blockafter 回に設定されています。';
