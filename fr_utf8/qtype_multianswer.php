@@ -1,5 +1,5 @@
 <?php // $Id$
 
-$string['decodeverifyquestiontext'] = 'Décoder et vérifier le texte de la question';
+$string['decodeverifyquestiontext'] = 'DÃ©coder et vÃ©rifier le texte de la question';
 
 ?>
