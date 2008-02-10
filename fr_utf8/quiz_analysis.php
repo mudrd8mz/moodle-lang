@@ -12,7 +12,7 @@ $string['attemptslast'] = 'Dernière tentative';
 $string['dicsindextitle'] = 'Index<br />discr.';
 $string['disccoefftitle'] = 'Coeff.<br />discr.';
 $string['downloadooo'] = 'Télécharger en format OpenOffice';
-$string['facilitytitle'] = '%% Correct<br />Facility';
+$string['facilitytitle'] = 'Utilitaire<br />%% correct';
 $string['lowmarkslimit'] = 'Ne pas analyser si le score est inférieur à';
 $string['pagesize'] = 'Questions par page&nbsp;: ';
 $string['qcounttitle'] = 'Nombre Q.';
@@ -26,6 +26,6 @@ $string['reportanalysis'] = 'Rapport d\'analyse éléments';
 $string['responsestitle'] = 'Texte réponse';
 $string['rfractiontitle'] = 'Points<br />partiels';
 $string['rpercenttitle'] = 'R. %%';
-$string['stddevtitle'] = 'Éc. Type';
+$string['stddevtitle'] = 'Éc. type';
 
 ?>
