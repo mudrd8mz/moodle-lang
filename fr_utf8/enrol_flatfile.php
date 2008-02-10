@@ -22,7 +22,7 @@ Cela pourrait par exemple ressembler à ceci&nbsp;:
     del, student, 17, CF101
     add, student, 21, CF101, 1091115000, 1091215000
 </pre>';
-$string['filelockedmailsubject'] = 'Erreur importante : fichier d\'inscriptions';
+$string['filelockedmailsubject'] = 'Erreur importante&nbsp;: fichier d\'inscriptions';
 $string['filelockedmail'] = 'Le fichier texte que vous utilisez pour l\'inscription ($a) ne pourra pas être effacé par le cron. Cela signifie la plupart du temps que ses permissions ne sont pas correctement réglées. Veuillez corriger ces permissions, de sorte que Moodle puisse effacer le fichier. Sans cela les inscriptions pourraient être effectuées à plusieurs reprises.';
 $string['location'] = 'Emplacement du fichier';
 $string['mailusers'] = 'Avertir les utilisateurs par courriel';
