@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (2007101506)
+      // enrol_authorize.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
@@ -7,9 +7,9 @@ $string['adminaccepts'] = '許可する支払方法およびタイプを選択�
 $string['adminauthcode'] = '直接ユーザのクレジットカードをインターネット経由でキャプチャできない場合、顧客の銀行から電話で認証コードを取得してください。';
 $string['adminauthorizeccapture'] = 'オーダーレビュー&amp;スケジュールキャプチャ設定';
 $string['adminauthorizeemail'] = 'メール送信設定';
-$string['adminauthorizesettings'] = 'Authorize.net設定';
-$string['adminauthorizewide'] = 'サイト全体の設定';
-$string['adminavs'] = 'あなたのauthorize.netアカウントで住所確認システム (AVS: Address Verification System) を有効にした場合、ここをチェックしてください。この設定により、ユーザが支払いフォームに入力するとき、市町村、県、国および郵便番号の入力が求められます。';
+$string['adminauthorizesettings'] = 'Authorize.netマーチャントアカウント設定';
+$string['adminauthorizewide'] = '一般設定';
+$string['adminavs'] = 'あなたのauthorize.netマーチャントアカウントの住所確認システム (AVS: Address Verification System) を有効にした場合、ここをチェックしてください。この設定により、ユーザが支払いフォームに入力するとき、市区町村、都道府県、国および郵便番号の入力が求められます。';
 $string['adminconfighttps'] = 'このプラグインを使用するには、管理 >> セキュリティ >> HTTPセキュリティで <a href=\"$a->url\">「ログインにHTTPSを使用する」をチェック</a>していることを確認してください。';
 $string['adminconfighttpsgo'] = 'このプラグインを設定するには、<a href=\"$a->url\">セキュアページ</a>に移動してください。';
 $string['admincronsetup'] = 'cron.phpメンテナンススクリプトが少なくとも24時間稼動していません。<br />スケジュールキャプチャ機能を使用したい場合、cronを有効にする必要があります。<br />Authorize.netプラグインを<b>有効</b>および適切に<b>cronを設定</b>、または <b>an_review</b> のチェックを外してください。<br />スケジュールキャプチャを無効にすると、30日以内にトランザクションを検査しない場合、トランザクションはキャンセルされます。<br />30日以内に<b>手動で</b>支払いを受領/拒否したい場合、<b>an_review</b> をチェックして、<br /><b>an_capture_day</b>フィールドにゼロを入力してください。';
@@ -43,7 +43,7 @@ $string['allpendingorders'] = 'すべての保留オーダー';
 $string['amount'] = '金額';
 $string['anlogin'] = 'Authorize.net: ログイン名';
 $string['anpassword'] = 'Authorize.net: パスワード';
-$string['anreferer'] = '必要な場合は、リファラURIを設定してください。これは、ウェブリクエストの「Referer: URI」ヘッダを送信します。';
+$string['anreferer'] = 'あなたのauthorize.netマーチャントアカウントでこれを設定した場合、URIリファラを定義してください。この定義により、ウェブリクエストに組み込まれた「Referer: URI」行を送信します。';
 $string['antestmode'] = 'Authorize.net: テストトランザクション (料金は引き落とされません)';
 $string['antrankey'] = 'Authorize.net: トランザクションキー';
 $string['approvedreview'] = '検査承認';
@@ -75,6 +75,7 @@ $string['captureyes'] = 'クレジットカード情報が取得され、学生�
 $string['ccexpire'] = '有効期限';
 $string['ccexpired'] = 'クレジットカードの期限が切れています。';
 $string['ccinvalid'] = 'クレジットカードが正しくありません。';
+$string['cclastfour'] = 'クレジットカード下4桁';
 $string['ccno'] = 'クレジットカード番号';
 $string['cctype'] = 'クレジットカードタイプ';
 $string['ccvv'] = 'CV2';
@@ -102,6 +103,7 @@ $string['httpsrequired'] = '申し訳ございません、あなたのリクエ�
 $string['invalidaba'] = 'ABA番号が正しくありません。';
 $string['invalidaccnum'] = '口座番号が正しくありません。';
 $string['invalidacctype'] = '口座種別が正しくありません。';
+$string['isbusinesschecking'] = '法人クレジットカードですか?';
 $string['logindesc'] = 'このオプションは「ON」にする必要があります。<br /><br />管理 >> 詳細設定 >> セキュリティ で <a href=\"$a->url\">loginhttps が「Yes」になっていること</a>を確認してください。 <br /><br />この設定を「Yes」にすることで、Moodleはログインおよび支払いページでセキュアhttps接続を使用します。';
 $string['logininfo'] = 'ログイン名、パスワードおよびトランザクションキーは、セキュリティ対策のため表示されません。あなたが、これらのフィールドに以前入力したことがある場合、再度入力する必要はありません。入力済みの場合、フィールドの近くに緑色のテキストが表示されます。これらのフィールドを入力するのが初めての場合、ログイン名 (*) は必須入力です。また、適切な入力欄にトランザクションキー (#1) <strong>または</strong> パスワード (#2)を入力してください。更なるセキュリティ対策のため、トランザクションキーの入力をお勧めします。現在のパスワードを削除したい場合、チェックボックスをチェックしてください。';
 $string['methodcc'] = 'クレジットカード';
@@ -120,6 +122,7 @@ $string['nameoncard'] = 'クレジットカード名義';
 $string['new'] = 'New';
 $string['noreturns'] = '返金なし!';
 $string['notsettled'] = '未確定';
+$string['orderdetails'] = '注文詳細';
 $string['orderid'] = '注文ID';
 $string['paymentmanagement'] = '支払い管理';
 $string['paymentmethod'] = '支払方法';
@@ -157,7 +160,7 @@ $string['reason44'] = 'このトランザクションは拒否されました。
 $string['reason45'] = 'このトランザクションは拒否されました。カード番号 / AVSフィルタエラー!';
 $string['reason47'] = '決済にリクエストされた金額が、認証された最初の金額よりも大きくないかもしれません。';
 $string['reason5'] = '有効な金額を入力してください。';
-$string['reason50'] = 'このトランザクションは決済処理中ですので、払い戻しはできません。';
+$string['reason50'] = 'このトランザクションは決済処理中です。払い戻しはできません。';
 $string['reason51'] = 'このトランザクションに関するすべてのクレジットの合計が、最初のトランザクションの金額よりも多くなっています。';
 $string['reason54'] = '参照トランザクションはクレジット発行のクライテリアに適合しません。';
 $string['reason55'] = '参照トランザクションに対するクレジット合計は、最初のクレジット金額を超えます。';
@@ -171,6 +174,7 @@ $string['reviewnotify'] = 'あなたの支払いが確認されました。数�
 $string['sendpaymentbutton'] = '支払いの送信';
 $string['settled'] = '確定済み';
 $string['settlementdate'] = '確定年月日';
+$string['shopper'] = '顧客';
 $string['subvoidyes'] = '返金済みトランザクション ($a->transid) はキャンセルされ、$a->amount があなたの口座に振り込まれます。本当によろしいですか?';
 $string['tested'] = 'テスト済み';
 $string['testmode'] = '[ テストモード ]';
@@ -181,7 +185,7 @@ $string['unenrolstudent'] = '学生を登録抹消しますか?';
 $string['uploadcsv'] = 'CSVファイルをアップロードする';
 $string['usingccmethod'] = '<a href=\"$a->url\"><strong>クレジットカード</strong></a>を使用して登録する。';
 $string['usingecheckmethod'] = '<a href=\"$a->url\"><strong>eCheck</strong></a>を使用して登録する。';
-$string['verifyaccount'] = 'あなたのauthorize.netアカウントを確認する';
+$string['verifyaccount'] = 'あなたのauthorize.netマーチャントアカウントを確認する';
 $string['verifyaccountresult'] = '確認結果: $a';
 $string['void'] = '取り消し';
 $string['voidyes'] = 'トランザクションがキャンセルされます。本当によろしいですか?';
