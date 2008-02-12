@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (2007110800)
+      // data.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['action'] = '操作';
@@ -75,6 +75,7 @@ $string['editorenable'] = 'エディタを有効にする';
 $string['emptyadd'] = '追加用テンプレートが空です。デフォルトフォームを生成しています ...';
 $string['emptyaddform'] = 'あなたは、どのフィールドにも入力していません!';
 $string['entries'] = 'エントリ';
+$string['entrieslefttoadd'] = '他の参加者のエントリを閲覧するには、$a 件以上のエントリを追加してください。';
 $string['entry'] = 'エントリ';
 $string['entrysaved'] = 'エントリが保存されました。';
 $string['errormustbeteacher'] = 'このページは教師のみ使用できます!';

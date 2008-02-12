@@ -1,9 +1,8 @@
 <?PHP // $Id$ 
-      // block_quickmail.php - created with Moodle 1.8 dev (2007012500)
+      // block_quickmail.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['action'] = '操作';
-$string['allowstudents'] = '$a にクイックメールの使用を許可する';
 $string['areyousure'] = '本当に履歴中のすべてのメールを削除してもよろしいですか?';
 $string['attachment'] = '添付';
 $string['attachmentalt'] = 'メールに添付ファイルを追加する';
@@ -25,11 +24,13 @@ $string['history'] = '履歴';
 $string['messageerror'] = 'メッセージを入力してください!';
 $string['nogroupmembers'] = 'グループメンバーなし';
 $string['notingroup'] = 'グループ外';
+$string['quickmail:cansend'] = 'クイックメールでメールを送信できる';
 $string['sendemail'] = 'メールを送信する';
 $string['subjecterror'] = '題名を入力してください!';
 $string['successfulemail'] = 'メールが正常に送信されました。';
 $string['to'] = 'To';
 $string['toerror'] = 'メールの受信者を選択してください!';
 $string['uncheck'] = 'すべての選択を解除';
+$string['allowstudents'] = '$a にクイックメールの使用を許可する'; // ORPHANED
 
 ?>
