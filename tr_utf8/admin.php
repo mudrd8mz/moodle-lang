@@ -166,6 +166,7 @@ $string['configperfdebug'] = 'Bunu açık yaparsanız, performans bilgisi standa
 $string['configprotectusernames'] = 'Varsayılan olarak forget_password.php (şifre hatırlatma) sayfası kullanıcı adını veya e-posta adresini hatırlatacak herhangi bir ipucu göstermez.';
 $string['configproxyhost'] = 'Bu <b>sunucunun</b> internete erişmek için bir vekil bilgisayara (firewall gibi) gereksinimi varsa vekil sunucunun host adını ve bağlantı noktasını buraya girin, aksi takdirde boş bırakın.';
 $string['configproxyport'] = 'Bu sunucu bir vekil sunucuya ihtiyaç duyuyorsa vekil sunucu portunu burada belirtin.';
+$string['configproxytype'] = 'Web proxy tipi (SOCKS5 desteği için PHP5 ve cURL eklentisi gereklidir)';
 $string['configquarantinedir'] = 'Clam AV\'in virüs bulaşmış dosyaları karantina klasörüne taşımasını istiyorsanız buraya yolu yazınız. Bu klasör Web sunucu tarafından yazılabilir olmalı. Burayı boş bırakırsanız veya olmayan bir klasörü girerseniz ya da klasör yazılabilir değilse, virüslü dosyalar silinir. Klasörün sonuna slash (/) ekleMEyin.';
 $string['configrcache'] = 'Veritabanı kayıtlarını saklamak için önbelleği kullan. Aynı zamanda \'cachetype\' ayarlamayı unutmayın.';
 $string['configrcachettl'] = 'Önbelleklenen kayıtlar için saniye olarak yaşam süresi. Buraya (<15)den küçük bir değer girin.';
@@ -279,6 +280,7 @@ $string['editorfontsize'] = 'Font boyutu';
 $string['editorhidebuttons'] = 'Gizli butonlar';
 $string['editorkillword'] = 'Word biçim filtresi';
 $string['editorspelling'] = 'Editör yazım denetimi';
+$string['editorspellinghelp'] = 'Sözcük denetimini etkinleştirip etkinleştirilmeyeceğini seçin. Etkinleştirilirse, <strong>aspell</strong> sunucuda kurulu olmalıdır.';
 $string['editstrings'] = 'Cümleleri veya ifadeleri düzenle';
 $string['emoticons'] = 'Duygu ifadeleri';
 $string['emptysettingvalue'] = 'Boş';
@@ -435,7 +437,7 @@ $string['modulesecurity'] = 'Modül güvenliği';
 $string['multilangforceold'] = 'Eski çokludil yazımını kullan: <span> class=\"multilang\" ve <lang> olmaksızın';
 $string['multilangupgrade'] = 'Çoklu dil güncellemesi';
 $string['multilangupgradeinfo'] = 'Çokludil filtresi yazım kuralı 1.8\'de değişmiştir; <lang> etiketi artık desteklenmemektedir.<br /><br />Örnek: <span lang=\"en\" class=\"multilang\">Hello!</span><span lang=\"tr\" class=\"multilang\">Merhaba!</span><br /><br /><strong>Şu anda bütün metinlerdeki yazımları güncellemek istiyor musunuz?</strong>';
-$string['multilangupgradenotice'] = 'Siteniz muhtemelen eski çokludil yazımını kullanıyor, a href=\"multilangupgrade.php\">çokludil güncellemesi</a> yapmanız tavsiye edilir.';
+$string['multilangupgradenotice'] = 'Siteniz muhtemelen eski çokludil yazımını kullanıyor, <a href=\"multilangupgrade.php\">çokludil güncellemesi</a> yapmanız tavsiye edilir.';
 $string['mustenablestats'] = 'Bu sitede istatistikler etkinleştirilmemiş';
 $string['mymoodle'] = 'Kişisel moodle';
 $string['mymoodleredirect'] = 'Kullanıcıları Kişisel Moodle kullanmaya zorla';
@@ -662,5 +664,6 @@ $string['uuoptype_addinc'] = 'Bunlara ek olarak, gerekirse kullanıcı adların�
 $string['uupasswordnew'] = 'Yeni kullanıcı şifresi';
 $string['uupasswordold'] = 'Mevcut kullanıcı şifresi';
 $string['validateerror'] = 'Bu değer geçerli değildi:';
+$string['webproxy'] = 'Web proxy';
 
 ?>
