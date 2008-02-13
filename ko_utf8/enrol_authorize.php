@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (2007101506)
+      // enrol_authorize.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['adminacceptccs'] = '어떤 유형의 카드가 가능합니까?';
 $string['adminaccepts'] = '허용되는 지불 방법 및 유형 선택';
-$string['adminauthcode'] = '만일 사용자의 신용카드로 인터넷 상에서 직접 수납하지 못하면, 거래자의 은행으로부터 전화를 통해서 인증코드를 획득하라.';
+$string['adminauthcode'] = '만일 사용자의 신용카드로 인터넷 상에서 직접 징수하지 못하면, 거래자의 은행에서 전화를 통해 인증코드를 획득하라.';
 $string['adminauthorizeccapture'] = '수강신청 검토 및 자동 징수 설정';
 $string['adminauthorizeemail'] = '이메일 보내기 설정';
 $string['adminauthorizesettings'] = 'Authorize.net 설정';
@@ -75,6 +75,7 @@ $string['captureyes'] = '신용카드정보가 저장될 것이며 학생이 강
 $string['ccexpire'] = '만료 날짜';
 $string['ccexpired'] = '이 신용카드는 파기되었습니다.';
 $string['ccinvalid'] = '카드 번호가 잘못되었습니다.';
+$string['cclastfour'] = '최근 신용카드 넷';
 $string['ccno'] = '신용카드 번호';
 $string['cctype'] = '신용카드 종류';
 $string['ccvv'] = '카드 확인';
@@ -104,6 +105,7 @@ $string['httpsrequired'] = '저희는 당신이 요구가 신속하게 처리되
 $string['invalidaba'] = '쓸 수 없는 ABA 코드';
 $string['invalidaccnum'] = '쓸 수 없는 계좌번호';
 $string['invalidacctype'] = '쓸 수 없는 계좌유형';
+$string['isbusinesschecking'] = '업무용 수표입니까?';
 $string['logindesc'] = '이 옵선은 반드시 켜져야 합니다.<br /><br />
 반드시 환경/보안 섹션에서 <a href=\"$a->url\">loginhttps On</a>옵션을 설정해야만 합니다.<br /><br />
 이 옵션을 켜야 무들은 접속 페이지와 지불 페이지에 보안 프로그램을 사용할 것입니다.';
@@ -124,6 +126,7 @@ $string['nameoncard'] = '카드에 적힌 이름';
 $string['new'] = '새';
 $string['noreturns'] = '반환이 안됨';
 $string['notsettled'] = '결제 안됨';
+$string['orderdetails'] = '주문 명세';
 $string['orderid'] = '수강신청 아이디';
 $string['paymentmanagement'] = '지불 관리';
 $string['paymentmethod'] = '지불 방법';
@@ -180,6 +183,7 @@ $string['reviewnotify'] = '결제가 확인되었습니다. 선생님으로부�
 $string['sendpaymentbutton'] = '지불하기';
 $string['settled'] = '결제됨';
 $string['settlementdate'] = '결제일';
+$string['shopper'] = '판매자';
 $string['subvoidyes'] = '환불된 $a->transid 거래는 취소될 것이며 당신의 계좌에 $a->amount가 이체될 것입니다, 맞습니까?';
 $string['tested'] = '테스트 됨';
 $string['testmode'] = '[테스트 모드]';

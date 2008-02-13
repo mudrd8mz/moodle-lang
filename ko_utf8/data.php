@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (2007101506)
+      // data.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['action'] = '행동';
@@ -75,6 +75,7 @@ $string['editorenable'] = '편집 가능';
 $string['emptyadd'] = '이 추가 템플릿은 비어 있습니다. 기본 템플릿을 생성합니다.';
 $string['emptyaddform'] = '어떤 항목도 기입하지 않았습니다!';
 $string['entries'] = '입력 내용';
+$string['entrieslefttoadd'] = '다른 참석자의 입력 내용을 살펴보려면, 그 전에 $a 항목 이상을 입력해야만 합니다.';
 $string['entry'] = '입력 내용';
 $string['entrysaved'] = '입력 내용이 저장되었습니다.';
 $string['errormustbeteacher'] = '선생님만 이 페이지를 사용할 수 있습니다.';
