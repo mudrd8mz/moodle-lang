@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8 dev (2006112200)
+      // survey.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['actual'] = 'Gerçek';
@@ -163,6 +163,9 @@ Sizin dikkatlice düşünülmüş cevaplarınız, bu ünitenin ileride yapılaca
 
 Çok teşekkür ederiz.';
 $string['collespname'] = 'Yapısalcı Çevrimiçi Öğrenme Ortamı (İstenilen)';
+$string['customintro'] = 'Özel tanıtım';
+$string['deleteallanswers'] = 'Tüm anket yanıtlarını sil';
+$string['deleteanalysis'] = 'Yanıt analizlerini sil';
 $string['done'] = 'Tamamlandı';
 $string['download'] = 'İndir';
 $string['downloadexcel'] = 'Verileri Excel olarak indir';
@@ -192,6 +195,7 @@ $string['question'] = 'Soru';
 $string['questions'] = 'Sorular';
 $string['questionsnotanswered'] = 'Bazı çoktan seçmeli sorular yanıtlanmadı.';
 $string['report'] = 'Anket raporu';
+$string['responses'] = 'Yanıtlar';
 $string['savednotes'] = 'Notlarınız kaydedildi';
 $string['scaleagree5'] = 'Kesinlikle karşı,Oldukça karşı,Ne karşı ne de taraftar,Oldukça taraftar,Tamamen taraftar';
 $string['scales'] = 'Ölçekler';

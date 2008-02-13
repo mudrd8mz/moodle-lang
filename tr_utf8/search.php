@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // search.php - created with Moodle 2.0 dev (2007101503)
+      // search.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['advancedsearch'] = 'Gelişmiş arama';
@@ -20,12 +20,15 @@ $string['databasestate'] = 'Veritabanı durumu indexleniyor';
 $string['datadirectory'] = 'Veri klasörü';
 $string['doctype'] = 'Belge tipi';
 $string['documents'] = 'belgeler';
+$string['documentsfor'] = 'Belgeler:';
 $string['documentsindatabase'] = 'Veritabanındaki belgeler';
 $string['documentsinindex'] = 'Indexteki belgeler';
+$string['duration'] = 'Süre';
 $string['enteryoursearchquery'] = 'Arama sorgunuzu giriniz';
 $string['errors'] = 'Hatalar';
 $string['filesinindexdirectory'] = 'Index klasöründeki dosyalar';
 $string['globalsearchdisabled'] = 'Genel arama etkin değil.';
+$string['ittook'] = 'Sürdü';
 $string['next'] = 'Sonraki';
 $string['normalsearch'] = 'Normal arama';
 $string['search'] = 'Ara';
@@ -36,6 +39,7 @@ $string['statistics'] = 'İstatistikler';
 $string['title'] = 'Başlık';
 $string['totalsize'] = 'Toplam Boyut';
 $string['type'] = 'Tipi';
+$string['versiontoolow'] = 'Üzgünüz, genel arama için en az PHP 5.0 sürümünü gerekir.';
 $string['whichmodulestosearch?'] = 'Hangi modüller aranacak?';
 $string['wordsintitle'] = 'Başlıktaki sözcükler';
 
