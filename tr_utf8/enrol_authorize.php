@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (2007101506)
+      // enrol_authorize.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['adminacceptccs'] = 'Hangi kredi kartı tipleri kabul edilecek?';
@@ -7,9 +7,9 @@ $string['adminaccepts'] = 'İzin verilen ödeme yöntemlerini ve tiplerini seçi
 $string['adminauthcode'] = 'Kullanıcının kredi kartı direk olarak internetten alış-veriş yapmaya uygun değilse, kullanıcının bankasından telefonla yetki kodu al.';
 $string['adminauthorizeccapture'] = 'Siparişi İnceleme ve Zamanlanmış-Çekme Ayarları';
 $string['adminauthorizeemail'] = 'E-Posta Gönderme Ayarları';
-$string['adminauthorizesettings'] = 'Authorize.net Ayarları';
-$string['adminauthorizewide'] = 'Site Geneli Ayarları';
-$string['adminavs'] = 'Authorize.net hesabınızda AVS\'yi (Adres Doğrulama Sistemi) etkinleştirdiyseniz bunu seçin. Kullanıcı ödeme formunu doldururken cadde, ülke, posta kodu gibi adres alanları istenir.';
+$string['adminauthorizesettings'] = 'Authorize.net Satıcı Hesabı Ayarları';
+$string['adminauthorizewide'] = 'Genel Ayarlar';
+$string['adminavs'] = 'Authorize.net satıcı hesabınızda AVS\'yi (Adres Doğrulama Sistemi) etkinleştirdiyseniz bunu seçin. Kullanıcı ödeme formunu doldururken cadde, ülke, posta kodu gibi adres alanları istenir.';
 $string['adminconfighttps'] = 'Bu eklentiyi kullanmak için lütfen,<br />Yönetim >> Değişkenler >> Güvenlik >> HTTP güvenliği içindeki \"<a href=\"$a->url\">loginhttps</a>\" ayarını AÇIK yapın.';
 $string['adminconfighttpsgo'] = 'Bu eklentiyi yapılandırmak için <a href=\"$a->url\">güvenli sayfaya</a> geçin.';
 $string['admincronsetup'] = 'Cron.php bakım betiği son 24 saattir çalışmıyor. <br />Zamanlanmış-çekme özelliğini kullanmak istiyorsanız cron etkin olmalı.<br />\'Authorize.net eklentisini\' <b>etkinleştirin</b> ve <b>cronu</b> düzgün ayarlayın; ya da an_review\'i tekrar <b>seçili durumdan kaldırın.</b><br />Zamanlanmış-çekmeyi etkinleştirmezseniz ve 30 gün içinde işlemleri incelemezseniz işlem iptal edilir.<br />Ödemeleri 30 gün içinde <b>elle</b> kabul etmek veya iptal etmek istiyorsanız <b>an_review\'i seçin</b> ve <b>an_capture_day alanına \'0\'</b> girin.';
@@ -46,7 +46,7 @@ $string['allpendingorders'] = 'Tüm Bekleyen Siparişler';
 $string['amount'] = 'Miktar';
 $string['anlogin'] = 'Authorize.net: Kullanıcı adı';
 $string['anpassword'] = 'Authorize.net: Şifre';
-$string['anreferer'] = 'Authorize.net hesabınızda URL referer ayarı yaptıysanız buraya yazınız. Bu, web isteğinde \"Referer: URL\" başlığını gönderir.';
+$string['anreferer'] = 'Authorize.net satıcı hesabınızda URL referer ayarı yaptıysanız buraya yazınız. Bu, web isteğinde \"Referer: URL\" başlığını gönderir.';
 $string['antestmode'] = 'İşlemleri deneme modunda çalıştır (para çekilmez)';
 $string['antrankey'] = 'Authorize.net: İşlem Anahtarı (Transaction Key)';
 $string['approvedreview'] = 'İnceleme Onaylandı';
@@ -78,6 +78,7 @@ $string['captureyes'] = 'Para kredi kartından çekilecek ve öğrencinin derse 
 $string['ccexpire'] = 'Geçerlilik Tarihi';
 $string['ccexpired'] = 'Kredi kartının süresi geçmiş';
 $string['ccinvalid'] = 'Geçersiz kart numarası';
+$string['cclastfour'] = 'KK son 4';
 $string['ccno'] = 'Kredi Kartı No';
 $string['cctype'] = 'Kredi Kartı Tipi';
 $string['ccvv'] = 'Onay Kodu';
@@ -104,6 +105,7 @@ $string['httpsrequired'] = 'Üzgünüz, isteğinizi şu anda yerine getiremiyoru
 $string['invalidaba'] = 'Geçersiz ABA numarası';
 $string['invalidaccnum'] = 'Geçersiz hesap numarası';
 $string['invalidacctype'] = 'Geçersiz hesap tipi';
+$string['isbusinesschecking'] = 'Ticari çek mi?';
 $string['logindesc'] = 'Bu seçenek AÇIK olmalı.<br /><br /><a href=\"$a->url\">Loginhttps</a> seçeneğini Değişkenler/Güvenlik bölümünden ayarlayabilirsiniz.<br /><br />Bu seçenek aktif ise sadece giriş ve ödeme sayfaları için güvenli bağlantı (https) kullanılacaktır.';
 $string['logininfo'] = 'Kullanıcı adı, şifre ve işlem anahtarı güvenlik önleminden dolayı gösterilmez. Bu alanları daha önceden yapılandırdıysanız tekrar girmenize gerek yok. Bu alanlar daha önceden yapılandırıldıysa kutucuğun yanında yeşil bir metin görürsünüz. Bu alanları ilk kez giriyorsanız, kullanıcı adı (*) gereklidir; ayrıca <strong>ya</strong> işlem anahtarını (#1) <strong>ya da</strong> şifreyi (#2)  ilgili kutucuğa girmeniz gerekiyor. Güvenlik önleminden dolayı kayıt anahtarını girmenizi tavsiye ediyoruz. Şimdiki şifreyi silmek istiyorsanız seçme kutucuğuna tık atın.';
 $string['methodcc'] = 'Kredi Kartı';
@@ -122,6 +124,7 @@ $string['nameoncard'] = 'Kart Üzerindeki İsim';
 $string['new'] = 'Yeni';
 $string['noreturns'] = 'Geri ödeme yok';
 $string['notsettled'] = 'Karara bağlanmamış';
+$string['orderdetails'] = 'Sipariş Ayrıntıları';
 $string['orderid'] = 'Sipariş ID';
 $string['paymentmanagement'] = 'Ödeme Yönetimi';
 $string['paymentmethod'] = 'Ödeme Yöntemi';
@@ -155,16 +158,16 @@ Yönetici zamanlanmış-çekmeyi etkinleştirmediği için ödemeleri elle kabul
 $a->url';
 $string['pendingorderssubject'] = 'UYARI: $a->course, $a->pending siparişin $a->days gün içinde süresi dolacak.';
 $string['reason11'] = 'Aynı işlem gönderildi.';
-$string['reason13'] = 'Mağaza Giriş ID hatalı veya hesap etkin değil.';
+$string['reason13'] = 'Satıcı Giriş ID geçersiz veya hesap etkin değil.';
 $string['reason16'] = 'İşlem bulunamadı.';
-$string['reason17'] = 'Mağaza, bu kredi kartı tipini kabul etmiyor.';
+$string['reason17'] = 'Satıcı bu kredi kartı tipini kabul etmiyor.';
 $string['reason245'] = 'Ödeme geçidi tarafından barındırılan form kullanılırken bu e-çek tipine izin verilmiyor.';
 $string['reason246'] = 'Bu e-çek tipine izin verilmiyor.';
 $string['reason27'] = 'İşlem AVS hatasına sebep oldu. Verilen adres kart sahibinin adresiyle eşleşmiyor.';
-$string['reason28'] = 'Mağaza, bu kredi kartı tipini kabul etmiyor.';
-$string['reason30'] = 'İşleyici yapılandırması hatalı. Müşteri Hizmetlerini arayın.';
-$string['reason39'] = 'Verilen para birimi ya hatalı ya desteklenmiyor ya bu mağaza buna izin vermiyor ya da döviz kuru yok.';
-$string['reason43'] = 'Mağaza işleyiciyi hatalı yapılandırdı. Müşteri Hizmetlerini arayın.';
+$string['reason28'] = 'Satıcı bu kredi kartı tipini kabul etmiyor.';
+$string['reason30'] = 'İşleyici yapılandırması hatalı. Satıcı Servis Sağlayıcını arayın.';
+$string['reason39'] = 'Verilen para birimi ya hatalı ya desteklenmiyor ya bu satıcı buna izin vermiyor ya da döviz kuru yok.';
+$string['reason43'] = 'Satıcı işleyiciyi hatalı yapılandırdı. Satıcı Servis Sağlayıcınızı arayın.';
 $string['reason44'] = 'İşlem reddedildi. Kart kodu süzgeci hatası!';
 $string['reason45'] = 'İşlem reddedildi. Kart kodu / Adres süzgeci hatası!';
 $string['reason47'] = 'Uzlaşma için istenen tutar orijinal provizyondaki miktardan fazla olamaz.';
@@ -173,7 +176,7 @@ $string['reason50'] = 'İşlem faturalandırma uzlaşması beklediği için geri
 $string['reason51'] = 'Bu işleme karşı tüm geri ödemelerin toplamı orijinal işlem miktarından daha büyüktür.';
 $string['reason54'] = 'Referans gösterilen işlem geri ödeme şartlarına uymuyor.';
 $string['reason55'] = 'Referans edilen işleme karşı tüm geri ödemelerin toplamı orijinal borç miktarını aşıyor.';
-$string['reason56'] = 'Bu mağaza sadece eÇek (ACH) işlemlerini kabul ediyor; kredi kartı işlemlerini değil.';
+$string['reason56'] = 'Bu satıcı sadece eÇek (ACH) işlemlerini kabul ediyor; kredi kartı işlemlerini değil.';
 $string['refund'] = 'Geri Öde';
 $string['refunded'] = 'Geri Ödenmiş';
 $string['returns'] = 'Geri Ödemeler';
@@ -183,6 +186,7 @@ $string['reviewnotify'] = 'Ödemeniz incelenecek. Bir kaç gün içinde eğitimc
 $string['sendpaymentbutton'] = 'Ödemeyi Yap';
 $string['settled'] = 'Uzlaşılmış';
 $string['settlementdate'] = 'Uzlaşma Tarihi';
+$string['shopper'] = 'Alıcı';
 $string['subvoidyes'] = 'Geri ödenen $a->transid nolu işlem iptal edilecek ve hesabınıza $a->amount yüklenecek. Emin misiniz?';
 $string['tested'] = 'Test edilmiş';
 $string['testmode'] = '[DENEME MODU]';
@@ -193,7 +197,7 @@ $string['unenrolstudent'] = 'Öğrencinin ders kaydını sil?';
 $string['uploadcsv'] = 'CSV dosyası yükle';
 $string['usingccmethod'] = '<a href=\"$a->url\"><strong>Kredi Kartı</strong></a> kullanarak kaydol';
 $string['usingecheckmethod'] = '<a href=\"$a->url\"><strong>E-Çek</strong></a> kullanarak kaydol';
-$string['verifyaccount'] = 'Authorize.net hesabınızı doğrulayın';
+$string['verifyaccount'] = 'Authorize.net satıcı hesabınızı doğrulayın';
 $string['verifyaccountresult'] = 'Doğrulama sonucu: $a';
 $string['void'] = 'İptal et';
 $string['voidyes'] = 'İşlem iptal edilecek. Emin misiniz?';
