@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.8.3 + (2007021532)
+      // access.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['access'] = 'පිවිසුම් හැකියාව';
@@ -11,9 +11,10 @@ $string['activityprev'] = 'පෙර ක්‍රියාකාරකම';
 $string['breadcrumb'] = 'Breadcrumb පියමග';
 $string['currenttopic'] = 'මෙම මාතෘකාව';
 $string['currentweek'] = 'මෙම සතිය';
+$string['hideblocka'] = '$a කොටස සඟවන්න';
 $string['monthnext'] = 'ඉදිරි මාසය';
 $string['monthprev'] = 'පසුගිය මාසය';
-$string['showhideblock'] = 'කොටස පෙන්වීම හෝ සැගවීම';
+$string['showblocka'] = '$a කොටස පෙන්වන්න';
 $string['sitemap'] = 'අඩවි සිතියම';
 $string['skipa'] = '$a අත්හරින්න';
 $string['skipblock'] = 'කොටස අත්හරින්න';
@@ -23,5 +24,6 @@ $string['tablelayout'] = '$a සැලසුම් වගුව';
 $string['tocontent'] = 'ප්‍රධාන අන්තර්ගතයට යන්න';
 $string['tonavigation'] = 'තරණයට යන්න';
 $string['youarehere'] = 'ඔබ මෙතැනයි';
+$string['showhideblock'] = 'කොටස පෙන්වීම හෝ සැගවීම'; // ORPHANED
 
 ?>
