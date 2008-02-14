@@ -1,6 +1,7 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8.2+ (2007021520)
+      // activitynames.php - created with Moodle 2.0 dev (2007101508)
 
-$string['filtername'] = 'ක්‍රිය‍ාකරකම් නම ස්වයංක්‍රීයව සම්බන්ධ කිරීම';
+
+$string['filtername'] = 'ක්‍රිය‍ාකරකමේ නම් ස්වයංක්‍රීයව සම්බන්ධ කිරීම';
 
 ?>

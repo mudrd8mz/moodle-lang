@@ -1,6 +1,7 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8.2+ (2007021520)
+      // algebra.php - created with Moodle 2.0 dev (2007101508)
 
-$string['filtername'] = 'වීජ ගණිතමය සටහන්';
+
+$string['filtername'] = 'වීජ ගණිත සටහන්';
 
 ?>
