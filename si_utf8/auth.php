@@ -287,6 +287,7 @@ $string['errorpasswordupdate'] = 'මුරපදය යාවත්කාලී
 $string['forcechangepassword'] = 'මුරපදය වෙනස් කිරිම සදහා බල කරන්න';
 $string['forcechangepassword_help'] = 'ඔවුන්ගේ මීලග moodle  ලොගින්හිදී මුරපදය වෙනස් කිරීම සදහා  පරිශිලකයන්ට බල කරන්න';
 $string['forcechangepasswordfirst_help'] = 'ඔවුන්ගේ පළමු moodle ලොගින්හිදී  මුරපදය වෙනස් කිරීමට පරිශිලකයන්ට බල කරන්න';
+$string['forgottenpasswordurl'] = 'අමතක වූ මුරපද URLය';
 $string['guestloginbutton'] = 'අමුත්තන්ගේ ලොගින්වීමේ ‍බොත්තම';
 $string['infilefield'] = 'ගොනුවට අවශ්‍ය ක්ෂේත්‍ර';
 $string['instructions'] = 'උපදෙස්';

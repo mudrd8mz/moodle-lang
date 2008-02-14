@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8.2+ (2007021520)
+      // calendar.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['advancedoptions'] = 'උසස් විකල්ප';
@@ -18,6 +18,7 @@ $string['dayview'] = 'දින දැක්වීම';
 $string['daywithnoevents'] = 'මෙම දිනට සිද්ධීන් කිසිවක් නොමැත';
 $string['default'] = 'පෙර නිමිය';
 $string['deleteevent'] = 'සිද්ධිය මකා දමන්න';
+$string['deleteevents'] = 'සිද්ධිය ඉවත් කරන්න';
 $string['detailedmonthview'] = 'විස්තරාත්මක මාසික දැක්ම';
 $string['durationminutes'] = 'කාලසීමාව මින්ත්තු වලින්';
 $string['durationnone'] = 'කාලසීමාවක් නොමැතිව';
@@ -129,7 +130,7 @@ $string['wed'] = 'බදාදා';
 $string['wednesday'] = 'බදාදා';
 $string['weeknext'] = 'ඊළඟ සතිය';
 $string['weekthis'] = 'මෙම සතිය';
-$string['yesterday'] = 'ඊයේ';
+$string['yesterday'] = 'පෙර දින';
 $string['youcandeleteallrepeats'] = 'මෙම සිද්ධිය නැවත කිරීම් ශ්‍රේණියේ කොටසකි.ඔබට මෙම සිද්ධිය පමණක් හෝ එකවරම ශ්‍රේණියේ සියලුම $a සිද්ධීන් මකා දැමීම සිදුකල හැක.';
 
 ?>
