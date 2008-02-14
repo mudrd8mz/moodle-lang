@@ -1,5 +1,6 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8.2+ (2007021520)
+      // workshop.php - created with Moodle 2.0 dev (2007101508)
+
 
 $string['absent'] = 'නොමැත';
 $string['accumulative'] = 'රැස්කරනලද';
@@ -306,6 +307,8 @@ $string['weightforteacherassessments'] = 'ගුරුවර ඇගයීම් 
 $string['weights'] = 'අගයන්';
 $string['weightsusedforfinalgrade'] = 'අවසන් ශ්‍රේණිගත කිරීම් සදහා භාවිතා කල අගයන්';
 $string['weightsusedforsubmissions'] = 'අවසන් ඉදිරපත් කිරීම් සදහා භාවිතා කල අගයන්';
+$string['workshop:manage'] = 'සැකසීම් කළමනාකරණය';
+$string['workshop:participate'] = 'වැඩමුළුව‍ට සහභාගී වීම';
 $string['workshopagreedassessments'] = 'වැඩමුළු හරහා එකගවූ ඇගයීම්';
 $string['workshopassessments'] = 'වැඩමුළු ඇගයීම්';
 $string['workshopcomments'] = 'වැඩමුළු විස්තර/විවේචන';
