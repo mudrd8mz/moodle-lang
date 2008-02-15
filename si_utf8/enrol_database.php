@@ -1,11 +1,19 @@
 <?PHP // $Id$ 
-      // emailprotect.php - created with Moodle 1.6 + (2006050507)
+      // enrol_database.php - created with Moodle 2.0 dev (2007101508)
+
 
 $string['autocreate'] = 'මූඩ්ල්හි තවම නොමැති පාඨමාලාවක් සදහා ලියාපදිංචි වීම් ඇත්නම් පාඨමාලා ස්වයංක්‍රීයවම සෑදිය හැක.';
 $string['autocreation_settings'] = 'ස්වයංසෑදීමේ සැකසුම්';
 $string['category'] = 'ස්වයංක්‍රීයව සෑදෙන පාඨමාලා සදහා ප්‍රභේදය';
 $string['course_fullname'] = 'පාඨමාලා නම ගබඩා කිරීම සදහා භාවිතා කල යුතු ක්ෂේත්‍ර නම';
 $string['course_shortname'] = 'පාඨමාලා කෙටිනම ගබඩා කිරීම සදහා භාවිතා කල යුතු ක්ෂේත්‍ර නම';
+$string['dbhost'] = 'සේවාදායකයේ IP නම හෝ අංකය';
+$string['dbname'] = 'දත්තගබඩාවේ නම';
+$string['dbpass'] = 'සේවාදායකයේ මුරපදය';
+$string['dbtable'] = 'දත්තගබඩා වගුව';
+$string['dbtype'] = 'දත්තගබඩා වර්ගය';
+$string['dbuser'] = 'සේවාදායක පරිශීලක';
+$string['enrol_database_autocreation_settings'] = 'ස්වයංක්‍රීය නව පාඨමාලා සෑදීම';
 $string['enrolname'] = 'බාහිර දත්තගබඩාව';
 $string['general_options'] = 'සාමාන්‍ය විකල්ප';
 $string['host'] = 'දත්තගබඩා සර්ව‍රයේ හොස්ට් නම';

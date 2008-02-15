@@ -1,5 +1,6 @@
 <?PHP // $Id$ 
-      // emailprotect.php - created with Moodle 1.6 + (2006050507)
+      // enrol_authorize.php - created with Moodle 2.0 dev (2007101508)
+
 
 $string['adminacceptccs'] = 'කුමන ක්‍රෙඩිට් කාඩ් වර්ග බාර ගන්නේද?';
 $string['adminauthorizeccapture'] = 'ඇනවුම සමාලෝචණය හා න්‍යයපත්‍රගත-ග්‍රහන සැකසුම්';
@@ -59,16 +60,20 @@ $string['expired'] = 'කල්ඉකුත් වී ඇත';
 $string['howmuch'] = 'කොපමනද?';
 $string['missingaddress'] = 'ලිපිනය දක්නට නැත';
 $string['missingcc'] = 'කාඩ්පත් අංකය දක්නට නැත';
+$string['missingccauthcode'] = 'සත්‍යාපන කේතය අස්ථානගතවී ඇත';
 $string['missingccexpire'] = 'කල්ඉකුත්වීමේ දිනය දක්නට නැත';
 $string['missingcctype'] = 'කාඩ්පත් වර්ගය දක්නට නැත';
 $string['missingcvv'] = 'ස්ථිර කිරී‍මේ අංකය දක්නට නැත';
 $string['missingzip'] = 'තැපැල් අංකය දක්නට නැත';
+$string['mypaymentsonly'] = 'මගේ ගෙවීම් පමණක් පෙන්වන්න';
 $string['nameoncard'] = 'කාඩ්පතෙහි නම';
 $string['new'] = 'නව';
 $string['noreturns'] = 'අපසු නැත!';
 $string['notsettled'] = 'නිමාකර නැත';
+$string['orderdetails'] = 'ඇනවුම් විස්තර';
 $string['orderid'] = 'ඇනවුම් හැදුනුම';
 $string['paymentmanagement'] = 'ගෙවීම් කළමනාකරනය';
+$string['paymentmethod'] = 'ගෙවීම් ක්‍රමය';
 $string['pendingorderssubject'] = 'අවවාදයයි - $a->course, $a->pending ඇනවුම දින $a->days කදී කල්ඉකුත් වනු ඇත';
 $string['reason11'] = 'අමතර අනුපිටපත් ගනුදෙනුවක් කර ඉදිරිපත් කර ඇත';
 $string['reason13'] = 'වෙළෙන්දාගේ ලොගින් හැදුනුම් අංකය වලංගු නොවේ හෝ ගිණුම අක්‍රියයි';
@@ -96,6 +101,7 @@ $string['tested'] = 'පරීක්ෂාකරන ලදි';
 $string['testmode'] = '[පරීක්ෂණ ක්‍රමය]';
 $string['transid'] = 'ගනුදෙනු හැදුනුම් අංකය';
 $string['unenrolstudent'] = 'ශිෂ්‍යයා ලියාපදිංචියෙන් ඉවත් කරන්නද?';
+$string['uploadcsv'] = 'CSV ගොනුවක් උඩුගත කිරීම';
 $string['void'] = 'මගහරින්න';
 $string['voidyes'] = 'ගනුදෙනුව අවලංගු කෙරෙනු ඇත. එය ඔබට විශ්වාසද?';
 $string['welcometocoursesemail'] = 'හිතවත් ශිෂ්‍යය,
