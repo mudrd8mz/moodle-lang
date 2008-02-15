@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 2.0 dev (2007110800)
+      // form.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['addfields'] = 'フィールド $a 個をフォームに追加する';
@@ -36,6 +36,6 @@ $string['somefieldsrequired'] = '$a マークが付けられたフィールド�
 $string['timing'] = 'タイミング';
 $string['unmaskpassword'] = 'マスク解除';
 $string['year'] = '年';
-$string['requiredfield'] = 'これは必須入力フィールドです。'; // ORPHANED
+$string['requiredfield'] = 'これは必須入力フィールドです。'; //TBD with Moodle 2.0 dev (2007101508)
 
 ?>

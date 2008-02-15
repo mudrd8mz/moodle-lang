@@ -724,11 +724,11 @@ $string['warningcurrentsetting'] = '無効な現在値: $a';
 $string['webproxy'] = 'ウェブプロクシ';
 $string['webproxyinfo'] = 'あなたのMoodleサーバが直接インターネットに接続できない場合、以下のオプションに必要事項を入力してください。インターネットアクセスは、環境データ、言語パック、RSSフィード、タイムゾーン等のダウンロードに必要です。<br />PHP cURL拡張モジュールの使用を強くお勧めします。';
 $string['xmlstrictheaders'] = 'XMLストリクトヘッダ';
-$string['addcounter'] = 'カウンタを付加する'; // ORPHANED
-$string['csvseparator'] = 'CSVセパレータ'; // ORPHANED
-$string['newusernamehandling'] = '新しいユーザ名の重複取り扱い'; // ORPHANED
-$string['skipuser'] = 'ユーザをスキップする'; // ORPHANED
-$string['confighideactivitytypecrumb'] = '活動モジュールで表示されるブレッドクラム内の活動タイプ (例 小テスト) クラムを誰に非表示にするか選択してください。'; // ORPHANED
-$string['hideactivitytypecrumb'] = '活動タイプクラムを非表示にする'; // ORPHANED
+$string['addcounter'] = 'カウンタを付加する'; //TBD with Moodle 2.0 dev (2007101508)
+$string['csvseparator'] = 'CSVセパレータ'; //TBD with Moodle 2.0 dev (2007101508)
+$string['newusernamehandling'] = '新しいユーザ名の重複取り扱い'; //TBD with Moodle 2.0 dev (2007101508)
+$string['skipuser'] = 'ユーザをスキップする'; //TBD with Moodle 2.0 dev (2007101508)
+$string['confighideactivitytypecrumb'] = '活動モジュールで表示されるブレッドクラム内の活動タイプ (例 小テスト) クラムを誰に非表示にするか選択してください。'; //TBD with Moodle 2.0 dev (2007101508)
+$string['hideactivitytypecrumb'] = '活動タイプクラムを非表示にする'; //TBD with Moodle 2.0 dev (2007101508)
 
 ?>

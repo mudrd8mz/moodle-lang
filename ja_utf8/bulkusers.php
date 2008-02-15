@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // bulkusers.php - created with Moodle 2.0 dev (2007110800)
+      // bulkusers.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['addall'] = 'すべてを「選択済み」に追加する';
@@ -18,9 +18,9 @@ $string['selectedlist'] = '選択済みユーザ一覧 ...';
 $string['usersfound'] = '$a ユーザが見つかりました。';
 $string['usersinlist'] = 'ユーザ一覧';
 $string['usersselected'] = '$a ユーザが選択されました。';
-$string['deleteall'] = '「選択済み」のすべてのユーザをクリアする'; // ORPHANED
-$string['deletesel'] = '「選択済み」で選択したユーザをクリアする'; // ORPHANED
-$string['action'] = '操作'; // ORPHANED
-$string['filtered'] = 'フィルタ済み'; // ORPHANED
+$string['deleteall'] = '「選択済み」のすべてのユーザをクリアする'; //TBD with Moodle 2.0 dev (2007101508)
+$string['deletesel'] = '「選択済み」で選択したユーザをクリアする'; //TBD with Moodle 2.0 dev (2007101508)
+$string['action'] = '操作'; //TBD with Moodle 2.0 dev (2007101508)
+$string['filtered'] = 'フィルタ済み'; //TBD with Moodle 2.0 dev (2007101508)
 
 ?>

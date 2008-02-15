@@ -320,6 +320,6 @@ $string['update_never'] = 'しない';
 $string['update_oncreate'] = '作成時';
 $string['update_onlogin'] = '毎回ログイン時';
 $string['update_onupdate'] = '更新時';
-$string['auth_dbrevive'] = 'レビューユーザ $a[0] ID $a[1]'; // ORPHANED
+$string['auth_dbrevive'] = 'レビューユーザ $a[0] ID $a[1]'; //TBD with Moodle 2.0 dev (2007101508)
 
 ?>

@@ -286,7 +286,7 @@ $string['courserejected'] = 'コースは拒否され、申請者に通知メー
 $string['courserejectemail'] = '申し訳ございません、あなたがリクエストしたコースは拒否されました。拒否理由は下記のとおりです。
 
 $a';
-$string['courserejectreason'] = 'あなたが、このコースを拒否する理由の概略<br />(この内容は申請者にメール送信されます。)';
+$string['courserejectreason'] = 'あなたが、このコースを拒否する理由のアウトライン<br />(この内容は申請者にメール送信されます。)';
 $string['courserejectsubject'] = 'あなたのコースは拒否されました。';
 $string['courserequest'] = 'コースリクエスト';
 $string['courserequestdisabled'] = '申し訳ございません、リクエストされたコースは管理者によって無効にされました。';
@@ -1071,7 +1071,7 @@ $string['nousersyet'] = 'まだ利用者がいません。';
 $string['novalidcourses'] = '表示する有効なコースはありません。';
 $string['now'] = '現在';
 $string['numattempts'] = 'ログイン失敗回数 $a';
-$string['numberweeks'] = '週 / トピックの数';
+$string['numberweeks'] = '週/トピックの数';
 $string['numdays'] = '$a 日';
 $string['numhours'] = '$a 時間';
 $string['numletters'] = '$a 文字';
@@ -1089,8 +1089,8 @@ $string['opentoguests'] = 'ゲストアクセス';
 $string['optional'] = '任意';
 $string['order'] = '表示順';
 $string['other'] = '他の';
-$string['outline'] = '概略';
-$string['outlinereport'] = '概略レポート';
+$string['outline'] = 'アウトライン';
+$string['outlinereport'] = 'アウトラインレポート';
 $string['page'] = 'ページ';
 $string['pageheaderconfigablock'] = '%%fullname%% 内のブロック設定';
 $string['parentcategory'] = '親カテゴリ';
@@ -1441,7 +1441,7 @@ $string['toonly'] = '$a のみ';
 $string['top'] = 'トップ';
 $string['topic'] = 'トピック';
 $string['topichide'] = '$a よりこのトピックを隠す';
-$string['topicoutline'] = 'トピックの概略';
+$string['topicoutline'] = 'トピックアウトライン';
 $string['topicshow'] = '$a にこのトピックを表示する';
 $string['total'] = '合計';
 $string['trackforums'] = 'フォーラム未読管理';
@@ -1551,12 +1551,12 @@ $string['warningdeleteresource'] = '警告: $a はりソースに参照されて
 $string['webpage'] = 'ウェブページ';
 $string['week'] = '週';
 $string['weekhide'] = '$a よりこの週を隠す';
-$string['weeklyoutline'] = '週の概略';
+$string['weeklyoutline'] = 'ウィークリーアウトライン';
 $string['weekshow'] = '$a にこの週を表示する';
 $string['welcometocourse'] = '$a へようこそ';
 $string['welcometocoursetext'] = '$a->coursename へようこそ!
 
-まだプロファイルの編集が終わっていない場合は、私たちが受講している皆さんのことを知ることができるように、コースの中でプロファイルページを編集してください:
+まだプロファイルの編集が終わっていない場合は、私たちが受講している皆さんのことを知ることができるよう、コースの中でプロファイルページを編集してください:
 
  $a->profileurl';
 $string['whattocallzip'] = 'Zipファイルの名称は?';
@@ -1592,15 +1592,15 @@ $string['yahooid'] = 'Yahoo ID';
 $string['year'] = '年';
 $string['years'] = '年';
 $string['yes'] = 'Yes';
-$string['youareabouttocreatezip'] = 'あなたは下記のファイルを含んだzipファイルを作成しようとしています';
-$string['youaregoingtorestorefrom'] = 'あなたは下記のファイルのリストア処理を開始しようとしています';
+$string['youareabouttocreatezip'] = 'あなたは、下記ファイルを含んだzipファイルを作成しようとしています';
+$string['youaregoingtorestorefrom'] = 'あなたは、下記ファイルのリストア処理を開始しようとしています';
 $string['youneedtoenrol'] = 'この操作をするには、コースに受講登録してください。';
 $string['yourlastlogin'] = 'あなたの最終ログイン';
 $string['yourself'] = 'あなた自身';
 $string['yourteacher'] = 'あなたの $a';
 $string['zippingbackup'] = 'バックアップファイルの圧縮中';
-$string['skiptomaincontent'] = 'メインコンテンツに移動する'; // ORPHANED
-$string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; // ORPHANED
-$string['weeks'] = '週'; // ORPHANED
+$string['skiptomaincontent'] = 'メインコンテンツに移動する'; //TBD with Moodle 2.0 dev (2007101508)
+$string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; //TBD with Moodle 2.0 dev (2007101508)
+$string['weeks'] = '週'; //TBD with Moodle 2.0 dev (2007101508)
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (2007101506)
+      // lesson.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -304,8 +304,8 @@ $string['youranswer'] = 'あなたの答え';
 $string['yourcurrentgradeis'] = 'あなたの現在の評点は $a です。';
 $string['yourcurrentgradeisoutof'] = 'あなたの現在の評点は $a->total 点中 $a->grade 点です。';
 $string['youshouldview'] = '少なくとも $a 回解答してください。';
-$string['outoftime'] = '時間切れ'; // ORPHANED
-$string['studentoutoftime'] = 'お知らせ: このレッスンの制限時間が終わりました。あなたの最後の解答は、時間終了送信されましたので計算から除外されます。「続ける」ボタンをクリックしてレッスンを終了してください。'; // ORPHANED
-$string['editlesson'] = '$a の編集'; // ORPHANED
+$string['outoftime'] = '時間切れ'; //TBD with Moodle 2.0 dev (2007101508)
+$string['studentoutoftime'] = 'お知らせ: このレッスンの制限時間が終わりました。あなたの最後の解答は、時間終了送信されましたので計算から除外されます。「続ける」ボタンをクリックしてレッスンを終了してください。'; //TBD with Moodle 2.0 dev (2007101508)
+$string['editlesson'] = '$a の編集'; //TBD with Moodle 2.0 dev (2007101508)
 
 ?>

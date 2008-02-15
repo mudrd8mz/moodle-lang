@@ -248,11 +248,11 @@ $string['YT'] = 'マイヨット島';
 $string['ZA'] = '南アフリカ共和国';
 $string['ZM'] = 'ザンビア共和国';
 $string['ZW'] = 'ジンバブエ共和国';
-$string['CS'] = 'セルビア・モンテネグロ'; // ORPHANED
-$string['FX'] = 'フランス本国'; // ORPHANED
-$string['KO'] = 'コソボ'; // ORPHANED
-$string['TP'] = '東ティモール'; // ORPHANED
-$string['WA'] = 'ウェールズ'; // ORPHANED
-$string['ZR'] = 'ザイール共和国'; // ORPHANED
+$string['CS'] = 'セルビア・モンテネグロ'; //TBD with Moodle 2.0 dev (2007101508)
+$string['FX'] = 'フランス本国'; //TBD with Moodle 2.0 dev (2007101508)
+$string['KO'] = 'コソボ'; //TBD with Moodle 2.0 dev (2007101508)
+$string['TP'] = '東ティモール'; //TBD with Moodle 2.0 dev (2007101508)
+$string['WA'] = 'ウェールズ'; //TBD with Moodle 2.0 dev (2007101508)
+$string['ZR'] = 'ザイール共和国'; //TBD with Moodle 2.0 dev (2007101508)
 
 ?>

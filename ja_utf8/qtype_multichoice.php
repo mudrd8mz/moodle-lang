@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.9 Beta + (2007100303)
+      // qtype_multichoice.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['addingmultichoice'] = '多肢選択問題の追加';
@@ -32,6 +32,6 @@ $string['overallpartiallycorrectfeedback'] = '部分的な正解すべてに対�
 $string['partiallycorrectfeedback'] = '部分的な正解すべてに対するフィードバック';
 $string['shuffleanswers'] = '選択肢をシャッフルしますか?';
 $string['singleanswer'] = '1つの答えを選択してください。';
-$string['answernumberingABC'] = 'A.  B.  C. ...'; // ORPHANED
+$string['answernumberingABC'] = 'A.  B.  C. ...'; //TBD with Moodle 2.0 dev (2007101508)
 
 ?>
