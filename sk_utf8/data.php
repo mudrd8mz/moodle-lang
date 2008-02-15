@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8.2+ (2007021520)
+      // data.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['action'] = 'Akcia';
@@ -71,6 +71,7 @@ $string['editorenable'] = 'Povoliť editor';
 $string['emptyadd'] = 'Pridaná šablóna je prázdna, generujem štandardný formulár...';
 $string['emptyaddform'] = 'Nevyplnili ste žiadne polia!';
 $string['entries'] = 'Záznamy';
+$string['entrieslefttoadd'] = 'Predtým, ako si budete môcť pozrieť ostatné záznamy, musíte pridať $a záznam/záznamy.';
 $string['entry'] = 'Záznam';
 $string['entrysaved'] = 'Váš záznam bol uložený';
 $string['errormustbeteacher'] = 'Musíte byť učiteľ pre používanie tejto strany!';
