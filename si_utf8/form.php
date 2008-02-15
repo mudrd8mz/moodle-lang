@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8.2+ (2007021520)
+      // form.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['addfields'] = 'පොර්මයට ක්ෂේත්‍ර $a ක් එක් කරන්න';
@@ -30,6 +30,7 @@ $string['othersettings'] = 'වෙනත් සිටුවම්';
 $string['requiredelement'] = 'අත්‍යවශ්‍ය ක්ෂේත්‍රය';
 $string['revealpassword'] = 'අනාවරනය කරන්න';
 $string['security'] = 'ආරක්ෂණය';
+$string['selectallornone'] = 'සියල්ල‍/කිසිවක් නොවේ තෝරන්න';
 $string['showadvanced'] = 'උසස් සිටුවම් පෙන්වන්න';
 $string['somefieldsrequired'] = 'මෙම පෝර්මයේ $a ලෙස ලකුණු කර ඇති අත්‍යවශ්‍ය ක්ෂේත්‍ර ඇත';
 $string['timing'] = 'කාල නිශ්‍චය';

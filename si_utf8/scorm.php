@@ -1,5 +1,6 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8.2+ (2007021520)
+      // scorm.php - created with Moodle 2.0 dev (2007101508)
+
 
 $string['activation'] = 'සක්‍රිය කිරීම';
 $string['advanced'] = 'විචල්‍යයන්';
@@ -25,6 +26,7 @@ $string['contents'] = 'අන්තර්ගතයන්';
 $string['coursepacket'] = 'පාඨමාලා පැකේජය';
 $string['coursestruct'] = 'පාඨමාලා සැකසුම';
 $string['datadir'] = '‍ගොනු පද්ධති දෝෂයක්: පාඨමාලා දත්ත ඩිරෙක්ටරිය සෑදීමට නොහැක.';
+$string['deleteallattempts'] = 'සියලුම SCORM උත්සාහයන් ඉවත් කරන්න';
 $string['details'] = 'විස්තර හඹායන්න';
 $string['directories'] = 'ඩිරෙක්ටෙරි සැබැදුම් පෙන්වන්න';
 $string['display'] = 'පැකේජය පෙන්වන්න';
