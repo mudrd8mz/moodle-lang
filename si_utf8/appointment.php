@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // mnet.php - created with Moodle 1.8.2+ (2007021520)
 
 $string['allowresubmit'] = 'නැවත බාරදීම කල හැක';
@@ -17,7 +17,7 @@ $string['maximumsize'] = 'උපරිම ප්‍රමාණය';
 $string['modulename'] = 'පත්වීම';
 $string['modulenameplural'] = 'පත්වීම්';
 $string['newsubmissions'] = 'පත්වීම් බාරදෙන ලදි';
-$string['notgradedyet'] = 'තවම ශ්‍රේනිගත කර නැත';
+$string['notgradedyet'] = 'තවම ශ්‍රේණිගත කර නැත';
 $string['notsubmittedyet'] = 'තවම බාරදී නැත';
 $string['overwritewarning'] = 'අවවාදයයි - නැවත අප්ලෝඩ් කිරී‍මෙන් දැනට බාරදී ඇති දෙය වෙනුවට ආදේශ වනු ඇත';
 $string['saveallfeedback'] = 'මගේ සියලුම පසුවිපරම් සේව් කරන්න';
@@ -26,17 +26,17 @@ $string['submissions'] = 'බාරදීම්';
 $string['submitappointment'] = 'මෙම පෝරමය භාවිතා කර ඔබගේ පත්වීම බාරදෙන්න';
 $string['submitted'] = 'බාරදෙන ලදි';
 $string['timeend'] = 'පත්වීම් අවසානය';
-$string['timestart'] = 'පත්වීම් ආරම්බය';
+$string['timestart'] = 'පත්වීම් ආරම්භය';
 $string['typeoffline'] = 'ඕෆ්ලයින් ක්‍රියාකාරකම';
-$string['typeuploadsingle'] = 'ෆයිල් එකක් අප්ලෝඩ් කිරීම';
-$string['uploadbadname'] = 'මෙම ෆයිල් නමෙහි වලංගු නොවන අකුරු ඇති බැවින් අප්ලෝඩ් කල නොහැක';
-$string['uploadedfiles'] = 'අප්ලෝඩ් කරන ලද ෆයිල්';
-$string['uploaderror'] = 'ෆයිල් එක සර්වරයේ සේව් කිරීමේදී දෝෂයක් ඇති විය';
-$string['uploadfailnoupdate'] = 'ෆයිල් අප්ලෝඩ් කිරීම OK මුත් ඉදිරිපත් කිරීම යාවත්කාලීන කල නොහැකි විය';
-$string['uploadfiletoobig'] = 'ෆයිල් එක විශාල වැඩියි (සීමාව බයිට් $a)';
-$string['uploadnofilefound'] = 'ෆයිල් එක සොයාගත නොහැක - ඔබට විශ්වාසද අප්ලෝඩ් කිරීම සදහා ෆයිල් එකක් තෝරාගත් බව';
-$string['uploadnotregistered'] = '$a\' අප්ලෝඩ් කිරීම OK නමුත් ඉදිරිපත් කිරීම ලියාපදිංචි කල නොහැකි විය.';
-$string['uploadsuccess'] = '\'$a\'  අප්ලෝඩ් කිරීම සාර්ථකයි';
+$string['typeuploadsingle'] = '‍ගොනුවක් උඩුගත කිරීම';
+$string['uploadbadname'] = 'මෙම ගොනු නමෙහි වලංගු නොවන අකුරු ඇති බැවින් උඩුගත කල නොහැක';
+$string['uploadedfiles'] = 'උඩුගත කරන ලද ගොනු';
+$string['uploaderror'] = 'ගොනුව සේවාදායකයේ සුරක්ෂිත කිරීමේදී දෝෂයක් ඇති විය';
+$string['uploadfailnoupdate'] = 'ගොනු උඩුගත කිරීම OK මුත් ඉදිරිපත් කිරීම යාවත්කාලීන කල නොහැකි විය';
+$string['uploadfiletoobig'] = 'ගොනුව විශාල වැඩියි (සීමාව බයිට් $a)';
+$string['uploadnofilefound'] = 'ගොනුව සොයාගත නොහැක - ඔබට විශ්වාසද උඩුගත කිරීම සදහා ගොනුවක් එකක් තෝරාගත් බව';
+$string['uploadnotregistered'] = '$a\' උඩුගත කිරීම OK නමුත් ඉදිරිපත් කිරීම ලියාපදිංචි කල නොහැකි විය.';
+$string['uploadsuccess'] = '\'$a\'  උඩුගත කිරීම සාර්ථකයි';
 $string['viewfeedback'] = 'හමුවීම් ශ්‍රේණි හා ප්‍රතිචාර පෙන්වන්න';
 $string['viewsubmissions'] = 'බාරදෙන ලද $a පත්වීම් පෙන්වන්න';
 $string['yoursubmission'] = 'ඔබගේ බාරදීම';

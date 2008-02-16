@@ -1,5 +1,6 @@
 <?PHP // $Id$ 
-      // block_course_list.php - created with Moodle 1.8.2+ (2007021520)
+      // block_loancalc.php - created with Moodle 2.0 dev (2007101508)
+
 
 $string['amountofloan'] = 'ණය ප්‍රමාණය';
 $string['fortnightly'] = 'පෙරසතිය';
