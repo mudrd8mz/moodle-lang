@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101508)
+      // admin.php - created with Moodle 2.0 dev (2007101508.02)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -220,9 +220,11 @@ $string['configsmtphosts'] = 'Moodleでメールを送信するときに使用�
 $string['configsmtpmaxbulk'] = 'SMTPセッションごとに送信するメッセージの最大数です。メッセージのグルーピングにより、メールの送信スピードをスピードアップすることができます。2より少ない値に設定した場合、メールごとに新しいSMTPセッションの作成が強制されます。';
 $string['configsmtpuser'] = '上でSMTPサーバを設定し、なおかつ認証が必要な場合、ユーザ名とパスワードを設定してください。';
 $string['configstartwday'] = '週の始め';
+$string['configstatscatdepth'] = '統計コードは、簡易化したコース受講登録ロジックを使用し、オーバーライドは無視されます。また、ここでは検証された親コースカテゴリ数を設定します。設定値ゼロでは、サイトおよびコースレベルの直接ロール割り当てのみ検出します。設定値1では、コースの親カテゴリ等のロール割り当ても同時に検出します。設定値を大きくすることで、統計処理中、さらにデータベースサーバに過大な負荷がかかることになります。';
 $string['configstatsfirstrun'] = 'ここでは、cronジョブが<b>最初の</b>統計処理で、どのくらい過去にさかのぼるか指定します。トラフィックが多く、共有ホスティングを利用している場合、あまりにも過去にさかのぼるのは良い考えではありません。統計処理は長時間を必要とし、リソースに過大な負荷をかけます。(この設定では、 1ヵ月 = 28日ですので注意してください。 グラフおよびレポートの生成には、1ヶ月= 1カレンダー月が利用されます。)';
 $string['configstatsmaxruntime'] = '統計処理は、コンピュータに大きな負荷がかかる場合があります。このオプションと次のオプションの組み合わせで、「いつ」および「どのくらい」稼動させるか設定してください。';
-$string['configstatsruntimestart'] = '何時にcronジョブの統計処理を<b>開始</b>させますか?';
+$string['configstatsmaxruntime2'] = '統計処理は、コンピュータに大きな負荷がかかる場合があります。1日の統計データの収集で許可する最大時間を指定してください。1回のcron実行で処理できる最大日数は、3です。';
+$string['configstatsruntimestart'] = '何時にcronジョブの統計処理を<b>開始</b>させますか? 1つの物理サーバに複数のMoodleをインストールしている場合、異なる時間を指定してください。';
 $string['configstatsuserthreshold'] = 'コースランキングのため、ゼロ以外の数値をここに入力した場合、この値より少ない登録ユーザ数 (すべてのロール) のコースは無視されます。';
 $string['configsupportemail'] = 'このメールアドレスは、一般的なサポート (例えば、ユーザが自分のアカウントを作成) が必要な場合、このサイトのユーザに公開されます。この欄を空白のままにした場合、そのような有益なメールアドレスは提供されません。';
 $string['configsupportname'] = 'これは、サポートメールまたはウェブ経由で一般的なサポートを提供する人の名前または団体の名称です。';
@@ -631,6 +633,7 @@ $string['smtpmaxbulk'] = 'SMTPセッション制限';
 $string['smtppass'] = 'SMTPパスワード';
 $string['smtpuser'] = 'SMTPユーザ名';
 $string['stats'] = '統計資料';
+$string['statscatdepth'] = '最大親カテゴリ';
 $string['statsfirstrun'] = '最大処理間隔';
 $string['statsmaxruntime'] = '最大実行時間';
 $string['statsruntimestart'] = '開始時刻';
@@ -656,7 +659,7 @@ $string['timezoneforced'] = 'サイト管理者によって強制されていま
 $string['timezoneisforcedto'] = 'ユーザに使用を強制';
 $string['timezonenotforced'] = 'ユーザは独自のタイムゾーンを使用できる';
 $string['tokenizerrecommended'] = 'PHP Tokenizer拡張モジュールのインストールをお勧めします - Moodleネットーワーキングの機能性を改善します。';
-$string['unattendedoperation'] = '自動操作';
+$string['unattendedoperation'] = '無人オペレーション';
 $string['unbookmarkthispage'] = 'このページをブックマーク解除する';
 $string['unicoderecommended'] = 'あなたのすべてのデータをユニコードフォーマット (UTF-8) で保存することをお勧めします。Moodleの新しいインストールは、ユニコードをデフォルトキャラクタにセットしたデータベースで実行してください。アップグレードの場合、UTF-8移行プロセスを実行してださい (詳細は管理ページをご覧ください)。';
 $string['unicoderequired'] = 'あなたのすべてのデータをユニコードフォーマット (UTF-8) で保存することが必須です。Moodleの新しいインストールは、ユニコードをデフォルトキャラクタにセットしたデータベースで実行してください。アップグレードの場合、UTF-8移行プロセスを実行してださい (詳細は管理ページをご覧ください)。';
@@ -724,11 +727,11 @@ $string['warningcurrentsetting'] = '無効な現在値: $a';
 $string['webproxy'] = 'ウェブプロクシ';
 $string['webproxyinfo'] = 'あなたのMoodleサーバが直接インターネットに接続できない場合、以下のオプションに必要事項を入力してください。インターネットアクセスは、環境データ、言語パック、RSSフィード、タイムゾーン等のダウンロードに必要です。<br />PHP cURL拡張モジュールの使用を強くお勧めします。';
 $string['xmlstrictheaders'] = 'XMLストリクトヘッダ';
-$string['addcounter'] = 'カウンタを付加する'; //TBD with Moodle 2.0 dev (2007101508)
-$string['csvseparator'] = 'CSVセパレータ'; //TBD with Moodle 2.0 dev (2007101508)
-$string['newusernamehandling'] = '新しいユーザ名の重複取り扱い'; //TBD with Moodle 2.0 dev (2007101508)
-$string['skipuser'] = 'ユーザをスキップする'; //TBD with Moodle 2.0 dev (2007101508)
-$string['confighideactivitytypecrumb'] = '活動モジュールで表示されるブレッドクラム内の活動タイプ (例 小テスト) クラムを誰に非表示にするか選択してください。'; //TBD with Moodle 2.0 dev (2007101508)
-$string['hideactivitytypecrumb'] = '活動タイプクラムを非表示にする'; //TBD with Moodle 2.0 dev (2007101508)
+$string['addcounter'] = 'カウンタを付加する'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['csvseparator'] = 'CSVセパレータ'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['newusernamehandling'] = '新しいユーザ名の重複取り扱い'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['skipuser'] = 'ユーザをスキップする'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['confighideactivitytypecrumb'] = '活動モジュールで表示されるブレッドクラム内の活動タイプ (例 小テスト) クラムを誰に非表示にするか選択してください。'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['hideactivitytypecrumb'] = '活動タイプクラムを非表示にする'; //TBD with Moodle 2.0 dev (2007101508.02)
 
 ?>
