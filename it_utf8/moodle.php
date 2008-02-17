@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // moodle.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
+$string['abouttobeinstalled'] = 'in procinto di essere installati';
 $string['action'] = 'Azione';
 $string['actions'] = 'Azioni';
 $string['active'] = 'Attivo';
@@ -98,6 +99,7 @@ $string['allfieldsrequired'] = 'È richiesta la compilazione di tutti i campi';
 $string['allfiles'] = 'Tutti i file';
 $string['allgroups'] = 'Tutti i gruppi';
 $string['alllogs'] = 'Tutti i logs';
+$string['allmods'] = 'Tutti $a';
 $string['allow'] = 'Permettere';
 $string['allowguests'] = 'Questo corso permette l\'accesso ad utenti ospiti';
 $string['allowinternal'] = 'Permetti anche i metodi interni';
@@ -387,7 +389,8 @@ $string['description'] = 'Descrizione';
 $string['deselectall'] = 'Deseleziona tutto';
 $string['detailedless'] = 'Meno dettagli';
 $string['detailedmore'] = 'Più dettagli';
-$string['directorypaths'] = 'Percorsi cartelle';
+$string['directory'] = 'Cartella';
+$string['directorypaths'] = 'Percorsi della cartella';
 $string['disable'] = 'Disabilita';
 $string['displayingfirst'] = 'Solo il primi $a->count $a->things sono mostrati';
 $string['displayingrecords'] = 'Mostra $a records';
@@ -747,6 +750,7 @@ $string['htmlformat'] = 'Formato HTML';
 $string['icqnumber'] = 'Numero ICQ';
 $string['idnumber'] = 'Matricola';
 $string['idnumbercourse'] = 'Matricola del corso';
+$string['idnumbermod'] = 'Numero ID';
 $string['idnumbertaken'] = 'Questo numero ID è già usato';
 $string['imagealt'] = 'Descrizione immagine';
 $string['import'] = 'Importa';
@@ -893,6 +897,7 @@ $string['missingcountry'] = 'Non hai scelto lo stato';
 $string['missingdescription'] = 'Non hai inserito la descrizione';
 $string['missingemail'] = 'Non hai inserito l\'email';
 $string['missingfirstname'] = 'Non hai inserito il nome';
+$string['missingfromdisk'] = 'Manca sul disco';
 $string['missingfullname'] = 'Non hai inserito il nome intero';
 $string['missinglastname'] = 'Non hai inserito il cognome';
 $string['missingname'] = 'Non hai inserito il nome';
@@ -1014,6 +1019,7 @@ $string['nomoreidnumber'] = 'Non vengono usati numeri di id per evitare conflitt
 $string['none'] = 'Nessuno';
 $string['noneditingteacher'] = 'Docente non editor';
 $string['noneditingteacherdescription'] = 'I docenti non editor possono insegnare nei corsi e valutare gli studenti, ma non possono modificare le attività.';
+$string['nonstandard'] = 'Non standard';
 $string['nopendingcourses'] = 'Non ci sono corsi che attendono approvazione';
 $string['nopotentialadmins'] = 'Non ci sono possibili amministratori';
 $string['nopotentialcreators'] = 'Non ci sono possibili creatori di corsi';
@@ -1118,6 +1124,9 @@ $string['phone'] = 'Telefono';
 $string['phpinfo'] = 'Informazioni PHP';
 $string['pictureof'] = 'Immagine $a';
 $string['pleaseclose'] = 'Si prega ora di chiudere questa finestra.';
+$string['plugincheck'] = 'Controllo delle plugin';
+$string['pluginchecknotice'] = 'Le tabelle che seguono mostrano i moduli, i blocchi ed i filtri individuati nella vostra installazione di Moodle.
+Nelle tabelle sono indicati anche quali plugin sono standard e quali non lo sono. Prima di proseguire con l\'aggiornamento di Moodle, tutte le plugin che non sono standard dovrebbero essere controllate ed aggiornate alla più recente versione disponibile.';
 $string['pluginsetup'] = 'Impostazione tabelle plugin';
 $string['policyaccept'] = 'Ho capito e sono d\'accordo';
 $string['policyagree'] = 'Per continuare ad usare questo sito, è necessario accettare le condizioni riportate.';
@@ -1170,6 +1179,7 @@ $string['registrationno'] = 'No, non voglio ricevere email';
 $string['registrationsend'] = 'Manda le informazioni di registrazione a moodle.org';
 $string['registrationyes'] = 'Si, inviatemi informazioni sulle cose importanti';
 $string['reject'] = 'Rifiuta';
+$string['reload'] = 'Ricarica';
 $string['remotemaharauser'] = 'Utente remoto Mahara';
 $string['remove'] = 'Rimuovi';
 $string['removeadmin'] = 'Rimuovi amministratore';
@@ -1216,6 +1226,8 @@ $string['rsserror'] = 'Errore nella lettura dei dati RSS';
 $string['rsstype'] = 'RSS per questa attività';
 $string['saveandnext'] = 'Salva e mostra il prossimo';
 $string['savechanges'] = 'Salva modifiche';
+$string['savechangesanddisplay'] = 'Salva e visualizza';
+$string['savechangesandreturntocourse'] = 'Salva e torna al corso';
 $string['savedat'] = 'Salvato:';
 $string['savepreferences'] = 'Salva impostazioni';
 $string['saveto'] = 'Salva in';
@@ -1319,6 +1331,7 @@ $string['someerrorswerefound'] = 'Qualche informazione è mancante o incorretta.
 $string['sortby'] = 'Ordina per';
 $string['sourcerole'] = 'Ruolo sorgente';
 $string['specifyname'] = 'Devi specificare un nome.';
+$string['standard'] = 'Standard';
 $string['starpending'] = '([*] = corso in attesa di approvazione)';
 $string['startdate'] = 'Data di inizio del corso';
 $string['startingfrom'] = 'Inizio da';

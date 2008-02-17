@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // assignment.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['allowdeleting'] = 'Permettere rimozione';
@@ -24,6 +24,7 @@ $string['comment'] = 'Commento';
 $string['commentinline'] = 'Commento in linea';
 $string['configitemstocount'] = 'Natura degli item da contare per le consegne degli studenti nei compiti on-line.';
 $string['configmaxbytes'] = 'Dimensione massima del compito inviato per tutti i compiti del sito (modificabile da limiti del corso e altre impostazioni locali)';
+$string['configshowrecentsubmissions'] = 'Chiunque può vedere le nuove consegne nei report attività recente.';
 $string['confirmdeletefile'] = 'Sei assolutamente sicuro di voler rimuovere questo file?<br/><strong>$a</strong>';
 $string['deleteallsubmissions'] = 'Cancella tutte le consegne';
 $string['deletefilefailed'] = 'Rimozione del file fallita';
@@ -47,6 +48,7 @@ $string['failedupdatefeedback'] = 'Aggiornamento delle risposte alle consegne de
 $string['feedback'] = 'Risposte';
 $string['feedbackfromteacher'] = 'Risposte dal';
 $string['feedbackupdated'] = 'Risposte alle consegne aggiornate per $a utenti';
+$string['finalize'] = 'Non ci sono altre consegne';
 $string['graded'] = 'Valutato';
 $string['guestnosubmit'] = 'Spiacente, ma agli ospiti non è permesso inviare compiti.
 Dovete autenticarvi/registrarvi prima di poter inviare la risposta';
@@ -60,6 +62,7 @@ $string['helpupload'] = '<p>Questo tipo di compito permette ai partecipanti di c
 <p>I compiti inviati, di questo tipo, devono essere manualmente dichiarati \"terminati\" dai partecipanti. Il docente può controllare in ogni momento lo stato corrente. I compiti non terminati sono marcati come Bozze. Il docente può riportare allo stato di Bozza qualunque compito non ancora valutato.</p>';
 $string['helpuploadsingle'] = '<p>Questo tipo di compito permette a tutti i partecipanti di inviare un file, di qualunque tipo.</p><p>Questo potrebbe essere un documento di testo, o un\'immagine, un sito web compresso, o qualunque cosa venga richiesto loro di consegnare.</p>';
 $string['hideintro'] = 'Nascondere la descrizione prima della data di apertura';
+$string['itemstocount'] = 'Numero';
 $string['late'] = '$a ritardo';
 $string['maximumgrade'] = 'Voto massimo';
 $string['maximumsize'] = 'Dimensione massima';
@@ -70,6 +73,7 @@ $string['noassignments'] = 'Non ci sono ancora compiti';
 $string['noattempts'] = 'Ancora nessuna consegna per questo compito';
 $string['nofiles'] = 'Nessun file consegnato';
 $string['nofilesyet'] = 'Nessun file ancora consegnato';
+$string['nosubmitusers'] = 'Non sono stati trovati utenti con privilegi sufficienti per consegnare questo compito.';
 $string['notavailableyet'] = 'Spiacente, questo compito non è ancora disponibile.<br/>Istruzioni sul compito saranno qui riportate alla data sotto specificata.';
 $string['notes'] = 'Note';
 $string['notesempty'] = 'Nessun elemento';
@@ -85,6 +89,7 @@ $string['responsefiles'] = 'Files di replica';
 $string['reviewed'] = 'Rivisto';
 $string['saveallfeedback'] = 'Salva tutte le mie risposte';
 $string['sendformarking'] = 'Consegna per valutazione';
+$string['showrecentsubmissions'] = 'Mostra le nuove consegne';
 $string['submission'] = 'Consegna';
 $string['submissiondraft'] = 'Consegna bozza';
 $string['submissionfeedback'] = 'Risposte alla consegna';

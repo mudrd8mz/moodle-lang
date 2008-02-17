@@ -1,11 +1,18 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // forum.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
 $string['addanewquestion'] = 'Aggiungi nuova domanda';
 $string['addanewtopic'] = 'Aggiungi nuovo argomento';
 $string['advancedsearch'] = 'Ricerca avanzata';
+$string['aggregateavg'] = 'Media dei punteggi';
+$string['aggregatecount'] = 'Numero di punteggi';
+$string['aggregatemax'] = 'Punteggio massimo';
+$string['aggregatemin'] = 'Punteggio minimo';
+$string['aggregatenone'] = 'Nessun punteggio';
+$string['aggregatesum'] = 'Somma dei punteggi';
+$string['aggregatetype'] = 'Tipo di aggregazione';
 $string['allforums'] = 'Tutti i forum';
 $string['allowchoice'] = 'Permetti a ognuno di scegliere';
 $string['allowdiscussions'] = 'Possibilità di un(o) $a di scrivere in questo forum';
@@ -27,6 +34,7 @@ $string['configcleanreadtime'] = 'L\'ora del giorno in cui vengono eliminati i v
 $string['configdisplaymode'] = 'La modalità predefinita di visualizzazione per le discussioni.';
 $string['configenablerssfeeds'] = 'Questa opzione abilita l\'utilizzo dei feed RSS per tutti i forum. I singoli feed devono comunque essere attivati manualmente, nelle impostazioni di ogni forum.';
 $string['configenabletimedposts'] = 'Imposta a \'Si\' se vuoi permettere la definizione di periodi di visualizzazione quando si inserisce una nuova discussione in un forum.';
+$string['configlogblocked'] = 'Il cron del modulo Forum può aggiungere al log i tentativi di inviare email ad utenti con la email disabilitata.';
 $string['configlongpost'] = 'Ogni intervento oltre questa lunghezza (escludendo i tag HTML) è considerato \"lungo\".';
 $string['configmanydiscussions'] = 'Numero massimo di discussioni visualizzate in una pagina';
 $string['configmaxbytes'] = 'Dimensione massima degli allegati per i forum del sito (soggetto a limitazioni imposte a livello di corso e altre impostazioni locali)';
@@ -116,6 +124,7 @@ $string['introsocial'] = 'Un forum aperto per dialogare su qualsiasi argomento d
 $string['introteacher'] = 'Un forum riservato agli insegnanti per annotazioni e discussioni.';
 $string['lastpost'] = 'Ultimo intervento';
 $string['learningforums'] = 'Forum per apprendimento';
+$string['logblocked'] = 'Inserisci nel log le email bloccate';
 $string['longpost'] = 'Intervento lungo';
 $string['mailnow'] = 'Invia e-mail ora';
 $string['manydiscussions'] = 'Dsicussioni per pagina';
@@ -149,6 +158,7 @@ $string['noguestsubscribe'] = 'Spiacenti, agli ospiti non è concesso iscriversi
 $string['noguesttracking'] = 'Spiacenti, agli ospiti non è concesso impostare opzioni di tracciamento.';
 $string['nomorepostscontaining'] = 'Non sono stati trovati altri interventi contenenti \'$a\'';
 $string['nonews'] = 'Nessuna News è stata ancora spedita';
+$string['nopostforum'] = 'Spiacente, non puoi scrivere in questo forum';
 $string['noposts'] = 'Nessun intervento';
 $string['nopostscontaining'] = 'Nessun intervento contenente \'$a\' è stato trovato';
 $string['noquestions'] = 'Non ci sono ancora domande in questo forum';
@@ -275,6 +285,5 @@ $string['yournewquestion'] = 'La tua nuova domanda';
 $string['yournewtopic'] = 'Il tuo nuovo argomento di discussione';
 $string['yourreply'] = 'La tua replica';
 $string['nopostdiscussion'] = 'Spiacente, non puoi scrivere in questa discussione'; // ORPHANED
-$string['nopostforum'] = 'Spiacente, non puoi scrivere in questo forum'; // ORPHANED
 
 ?>

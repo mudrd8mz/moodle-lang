@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.8 dev (2006101001)
+      // lams.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['createSequence'] = 'Creare una nuova sequenza';
@@ -21,6 +21,9 @@ $string['openmonitor'] = 'Aprire Monitor LAMS';
 $string['refreshSequenceList'] = 'Aggiorna lista sequenza';
 $string['selectExistingSequence'] = 'Selezionare un sequenza esistente o creare una nuova sequenza.';
 $string['sequence'] = 'Selezionare Sequenza';
+$string['server_id'] = 'Server ID';
+$string['server_key'] = 'Server key';
+$string['server_url'] = 'Server URL';
 $string['serverid'] = 'Inserire l\'identificativo (ID) del server ricevuta da <a href=http://www.lamsinternational.com target=_blank>LAMS international</a>.';
 $string['serverkey'] = 'Inserire la chiave del server ricevuta da <a href=http://www.lamsinternational.com target=_blank>LAMS international</a>.';
 $string['serverurl'] = 'Inserire l\'indirizzo (URL) di base utilizzato per accedere al server LAMS. Per esempio http://localhost:8080/lams';
