@@ -1,70 +1,17 @@
-<!--
-TODO:  Update as accessibility status changes.
-FILE:  lang/en_utf8/docs/accessibility.html
-NOTES: Hard-coded links need to be edited/ scripted.
-       May need editing for local Moodle sites.
--->
-
-
-<h1>Accessibility</h1>
-
-<h2>Accessibility Statement</h2>
-
-<p>This site has been tested in a range of browsers and with screen reader software.</p>
-
-<p>Moodle uses semantic markup to assist screen reader users among others &mdash; site, page
- and block headings use &lt;h1&gt;, &lt;h2&gt;, navigation blocks are lists &lt;ul&gt; and so on.
-</p>
-
-<p>Moodle complies with the World Wide Web Consortium's [<a href="http://www.w3.org/TR/WCAG10/" title="Web Content Accessibility Guidelines 1.0">Web
- Content Accessibility Guidelines 1.0</a>] level 1, most of level 2 
- [<a href="http://www.w3.org/WAI/WCAG1AA-Conformance"  title="About Double-A WCAG conformance">about Double-A conformance</a>] 
- and some level 3. Through these guidelines we aim to comply with local laws regarding access to those with disabilities. 
- We are currently working to improve the accessibility and usability of Moodle. 
- At present there are still some tables used for layout, but in general presentation (using style sheets) is separated from content.
-</p>
-
-<p>We welcome feedback, particularly reports of any inaccessible content. 
- Please [<a href="./message/discussion.php?id=2">message the administrator</a>].
-</p>
-
-
-<h2>Access keys</h2>
-
-<p>At present we don't specify access keys, but we intend implementing them for a future release of Moodle.</p>
-
-
-<h2>Links</h2>
-
-<p>There is a link before each side block, which allows screen reader users to skip the block.
- Note, the link is hidden from graphical browsers.</p>
-
-<p>Many links have title attributes 
-that describe the link in greater detail, unless the text of the link already 
-fully describes the target (such as the headline of an article). If a link has 
-an access key this will be announced in the link title.</p>
-
-<p>Whenever possible, links are written to make sense out of context.
- There are no javascript: pseudo-links. </p>
-
-
-<h2>Images</h2>
-
-<p>All images use the alt attribute to 
-provide alternate text where appropriate; images that are purely decorative 
-contain a null alt attribute. Images, such as maps, that present complex 
-information have a longdesc attribute linking them to a text description of the 
-image content.</p>
-
-
-<h2>Standards compliance</h2>
-
-<p>This site is built using valid 
- <acronym title="Extensible Hyper-Text Markup Language">XHTML</acronym> 
- for markup and uses CSS for presentation.</p>
-
-<p style="text-align:center">
-  <a href="http://validator.w3.org/check?verbose=1&amp;ss=1&amp;uri=<?php echo $CFG->wwwroot; ?>" title="Use the W3C validator">Validate HTML</a> 
-| <a href="http://www.contentquality.com/mynewtester/cynthia.exe?rptmode=-1&amp;url1=<?php echo $CFG->wwwroot; ?>" title="Test with Cynthia">Section 508 Check</a> 
-| <a href="http://www.contentquality.com/mynewtester/cynthia.exe?rptmode=0&amp;warnp2n3e=1&amp;url1=<?php echo $CFG->wwwroot; ?>" title="Test with Cynthia">WCAG 1 (2,3) Check</a>
-</p>
+﻿<h1>ප්‍රවේශ වීමේ හැකියාව </h1>
+<p>මෙම අඩවිය විවිධ බ්‍රව්සර සහ screen reader මෘඳුකාංග සමඟ පරික්ෂණයට භාජනය කර ඇත. </p>
+<p>අන් අය අතරින් screen reader පරිශීලකයන්ට මූඩ්ල් පද්ධතිය පහසුකම් සපයන්නේ, මූඩ්ල් Semantic Markup යොදා ගනිමිනි. — වෙබ් අඩවි, වෙබ් පිටු, 
+කොටු (block) සිරස්තල  &lt;h1&gt; &lt;h2&gt; සංචාලන කොටු ලැයිස්තුගත වීම  &lt;ul&gt;ආදි පහසුකම් ඒ යටතට ගැනේ.</p>
+<p>මූඩ්ල් World Wide Web Consortium's [<a href="http://www.w3.org/TR/WCAG10/">වෙබ් අන්තර්ගතයන්ට ප්‍රවේශවීම සඳහා වූ උපදෙස් මාලා 1.0</a>] පළමු මට්ටම  සහ බොහෝ විට දෙවැනි මට්ටම [<a href="http://www.w3.org/WAI/WCAG1AA-Conformance">Double -A comformance</a>] එමෙන් ම සමහර අවස්ථාවලදී තෙවැනි මට්ටමට ද අනුගත වන ලෙස නිර්මාණය කර ඇත. මේ මාර්ගෝපදේශය මඟින් අප බලාපොරොත්තු වන්නේ, ප්‍රාදේශීය වශයෙන් වෙනත් හැකියා ඇති අයවලුන් (disabilities-වෙනත් හැකියාවන් ඇති අය) සඳහා ඇති ප්‍රවේශවීමේ අයිතිය ආශ්‍රිත නීති රීතිවලට සරිලන ආකාරයට පද්ධතිය පවත්වා ගැනීමයි. දැනටමත් සමහර වගු සඳහා 'layout' යොදා ගනී. නමුත් සාමාන්‍ය ඉදිරිපත් කිරීම් වලදී ( CSS යෙදා ගනිමින්) අන්තර්ගතයෙන් වෙන් කර ඇත. </p>
+<p>ඔබ මේ ගැන සැලකිල්ලක් දක්වන්නේ නම් හෝ එවැනි අපහසුතා ඇත්නම්, කරුණාකර අපගේ පද්ධති පරිපාලකට දන්වන්න. ඒ සඳහා මෙම<a href="./message/discussion.php?id=2"> <em><u>සම්බන්ධකය යොදා ගන්න. </u></em></a></p>
+<h2><strong>ප්‍රවේශ යතුර</strong></h2>
+<p>මේ අවස්ථාවේ දී අප ප්‍රවේශ යතුර දක්වන්නේ, නැත. නමුත් අනාගත මූඩ්ල් සංස්කරණවලදී මේ ප්‍රවේශ යතුර යොදා ගැනීමට බලාපොරොත්තු වේ.</p>
+<h2><strong>සම්බන්ධකයන්</strong></h2>
+<p>දෙපස වූ කොටුවලට පෙර පිහිටා ඇති සම්බන්ධකයකි. මේ මඟින් screen reader පරිශීලකයන්ට, කොටු මඟහැරීම සඳහා මං පාදයි. මෙම සම්බන්ධකය රූපමය බහුමාධ්‍ය බ්‍රව්සරවලදී  (උදාහරණ Internet Explore, Fire Fox ආදී) දක්නට නැත.</p>
+<p>බොහෝ සම්බන්ධක සඳහා සිරස්තල විශේෂණ (attribute) ඇත. එම සම්බන්ධකය හොඳින් විස්තර කරන්නේ, සම්බන්ධ කර ඇති පෙළ එහි අන්තර්ගතය විස්තර නොවන විටෙක දී ය.</p>
+<p>සම්බන්ධකයට ප්‍රවේශ යතුරක් පවතීනම්, මේ බව සම්බන්ධකයේ සිරස්තලය තුළින් නිවේදනය කරයි. හැකි සෑම විටෙක දී ම, සම්බන්ධකය පෙළ මඟින් එහි අන්තර්ගතය දක්වන පරිදි යතුරු ලියනය කළ යුතු යි. එහි javascript අන්තර්ගත වී නොමැති සම්බන්ධක (අසත්‍ය සම්බන්ධක-pseudo-links) විය යුතු ය. </p>
+<h2><strong>රූපසටහන් </strong></h2>
+<p>සෑම රූපයකට ම 'alt' විශේෂණය යොදා ගනිමින්  රූපය විස්තර කරයි. රූපය සැරසීමට හෝ අලංකරණයට පමණක් තිබේනම්,  'alt' විශේෂණය හිස්ව තබන්න. සිතියම් ආදී සංකීර්ණ තොරතුරු රූපසටහන් සඳහා 'longdess'   විශේෂණය යොදා ගනිමින්, එය විස්තර කරන පෙළවැලකට සම්බන්ධ කරන්න.</p>
+<h2><strong>සම්මත Complaince</strong></h2>
+<p>මෙම අඩවිය නිර්මාණය කර ඇත්තේ, අනුමත HTML කේතවලට අනුකූලව ය. එසේ ම දර්ශනය වීම සඳහා CSS යොදා ගනී. </p>
+<p align="center"><span style="text-align:center"><a href="http://validator.w3.org/check?verbose=1&amp;ss=1&amp;uri=<?php echo $CFG->wwwroot; ?>" title="Use the W3C validator"> HTML තහවුරු කිරීම </a> | <a href="http://www.contentquality.com/mynewtester/cynthia.exe?rptmode=-1&amp;url1=<?php echo $CFG->wwwroot; ?>" title="Test with Cynthia">508 වැනි කොටස පරික්ෂා කිරීම</a> | <a href="http://www.contentquality.com/mynewtester/cynthia.exe?rptmode=0&amp;warnp2n3e=1&amp;url1=<?php echo $CFG->wwwroot; ?>" title="Test with Cynthia">WCAG 1 (2,3) පරික්ෂා කිරීම </a></span></p>
