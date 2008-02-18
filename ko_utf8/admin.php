@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101508)
+      // admin.php - created with Moodle 2.0 dev (2007101508.02)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -226,8 +226,10 @@ $string['configsmtphosts'] = '무들이 메일을 보낼때 사용하는 local S
 $string['configsmtpmaxbulk'] = '복수의 메시지를 단일 STMP 세션으로 전송하여 이메일 전송을 빨라지게 할 것임';
 $string['configsmtpuser'] = '만약 위에서 SMTP 서버를 지정했고, 각 서버에 접속할 수 있는 인증을 요구한다면, 사용자 ID와 비밀번호를 이 곳에 입력하라.';
 $string['configstartwday'] = '한 주의 첫 요일';
+$string['configstatscatdepth'] = '통계 코드는 단순화된 강좌 출석 로직을 사용하므로, 재 조정은 무시되고 확인된 상위 강좌 범주의 최대 수가 존재하게 된다. 여기에서 숫자 0은 사이트 및 강좌 수준에서 직접 부여된  역할만을, 1은 강좌의 상위 범주에서 부여된 역할을 검출해 낸다. 더 큰 수 일수록 통계처리할 때 데이터베이스 서버에 더 많은 부하를 걸리게 한다.';
 $string['configstatsfirstrun'] = '여기에서 cron이 통계를 처리한 후 얼마나 오랫동안 기록을 보유하고 있어야 할지를 지정한다. 만일 매우 접속이 많거나 서버를 임대해 쓰는 경우는, 통계처리에 걸리는 시간도 길고 부하도 많이 걸리기 때문에 기록을 오래 유지시키는 일은 바람직하지 않다.(여기에서는 1 month = 28 days로 설정했고, 그래프와 보고에서는 1 month = 1 calendar month로 했음에 유의하라)';
 $string['configstatsmaxruntime'] = '통계 처리과정은 부하가 매우 많이 걸리기 때문에 언제 시작하고 얼마나 유지할지를 이 항목과 다음 항목에서 지정해 주어야 한다.';
+$string['configstatsmaxruntime2'] = '통계 처리는 매우 집중적일 수 있기 때문에, 하루의 통계를 처리하는데 있어 허용할 수 있는 최대 시간을 지정한다. 한번의 cron 실행으로 처리할 수 있는 최대 날 수는 3일이다.';
 $string['configstatsruntimestart'] = '언제 자동으로 통계 프로세스를 <b>가동</b>할까?';
 $string['configstatsuserthreshold'] = '만일 강좌의 순위를 정하기 위해 여기에 0이 아닌 숫자를 넣으면, 이 숫자보다 작은 동록인원(학생수+교수자수)이 등록되어 있는 강좌는 무시될 것이다.';
 $string['configsupportemail'] = '이 이메일 주소는 새 계정을 신청한 이용자가 일반적인 도움말이 필요할 경우 반송 주소로 공개될 것입니다. 이 이메일 주소를 입력하지 않은 경우에는 사용할 수 있는 이메일 주소는 제공되지 않습니다.';
@@ -640,7 +642,8 @@ $string['smtpmaxbulk'] = 'STMP 일괄 전송';
 $string['smtppass'] = 'SMTP 암호';
 $string['smtpuser'] = 'SMTP 사용자명';
 $string['stats'] = '통계';
-$string['statsfirstrun'] = '최대 처리 시간 간격';
+$string['statscatdepth'] = '최대 상위 범주';
+$string['statsfirstrun'] = '최대 보유 시한';
 $string['statsmaxruntime'] = '최대 동작 시간';
 $string['statsruntimestart'] = '실행 시각';
 $string['statsuserthreshold'] = '한계 인원';
