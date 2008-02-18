@@ -1,223 +1,137 @@
-<h2>Advanced Use of Markdown</h2>
-
-<div id="Main">
-
-<div class="article">
-<p>This section expands upon the basic information given in  the section titled 'Enhancing Text With Markdown' to give those with special requirements the information needed to make the most of Markdown. If you don't recognise, or don't need, the formatting listed below then you should feel free to skip this section and return to it as and when needed.</p>
-
-<p>(Even more) Advanced options are available. See the <a href="#further">Further Reading</a>
-section.</p>
-
-<ul>
-
-<li><a href="#linebreaks">Line Breaks</a></li>
-<li><a href="#hr">Horizontal Rules</a></li>
-<li><a href="#image_links">Linked Images</a></li>
-<li><a href="#tables">Tables</a></li>
-<li><a href="#definition">Definition Lists</a></li>
-<li><a href="#footnotes">Footnotes</a></li>
-<li><a href="#embedded">Embedding HTML</a></li>
-<li><a href="#preformatted">Pre-formatted Code</a></li>
-<li><a href="#special_char">Using Special Characters</a></li>
-<li><a href="#further">Further Reading</a></li>
+﻿<h1><strong>සලකුණු කිරිම්වල උසස්  ප්‍රයෝජන</strong><strong> </strong></h1>
+මෙම කොටස  මඟින් “සලකුණු කිරීම්  මඟින් පෙළෙහි අගය වැඩි කිරීම” ‍ කොටසෙහි කරුණු  තවදුරටත් සවිස්තරාත්මකව දක්වයි. ඔබට මෙම දක්වා ඇති ආකෘති ලැයිස්තු අනවශ්‍ය  නම් ඒවා මඟ හැර යාහැක. එසේ ම නැවත අවශ්‍ය යැයි හැ‍ඟේනම් නැවත භාවිතා කළ හැක.<br />
+  <br />
+තව දුරටත් ‍උසස් විකල්ප සඳහා වැඩිදුර කියවීම කොටස බලන්න. 
+<ul type="disc">
+  <li><u><a href="#linebreaks">පේළි බිඳුම්</a> </u></li>
+  <li><u><a href="#hr">තිරස් ඉරි</a> </u></li>
+  <li><u><a href="#image_links">සබැඳි‍ රූප</a></u><a href="#image_links"><u> </u></a></li>
+  <li><u><a href="#tables">වගු</a></u><a href="#tables"> </a></li>
+  <li><u><a href="#definition">අර්ථ නිරූපන ලැයිස්තු</a></u><a href="#definition"> </a></li>
+  <li><u><a href="#footnotes">පාද සටහන්</a></u></li>
+  <li><u><a href="#embedded">HTML කාවැද්දුම් </a></u><a href="#footnotes"><u> </u></a></li>
+  <li><u><a href="#preformatted">කලින්- සකසන ලද ලැයිස්තු</a></u><a href="#special_char"> </a></li>
+  <li><u><a href="#special_char">විශේෂ අනුලකුණු‍ යොදා ගැනීම</a></u></li>
+  <li><u><a href="#further">වැඩිදුර කියවීම්</a></u><a href="#further"> </a></li>
 </ul>
-
-<h2><a id="linebreaks">Line Breaks</a></h2>
-
-<p>In some texts, for instance in poetry and verse, it is often necessary to insert line breaks. Trying to do so with the return key will not give the intended effect as by default the lines will be run together to create a paragraph.</p>
-
-<p><strong><code>The best laid schemes o' Mice an' Men,<br />
-Gang aft agley,<br />
-An' lea'e us nought but grief an' pain,<br />
-For promis'd joy!</code></strong></p>
-
-<p>The above input, using the enter key to insert line breaks will give the following output as such breaks are ignored:</p>
-
-<p>The best laid schemes o' Mice an' Men,
-Gang aft agley,
-An' lea'e us nought but grief an' pain,
-For promis'd joy!</p>
-
-<p>But by ending each line with two spaces you can force a line break as follows:</p>
-
-<p>The best laid schemes o' Mice an' Men,<br />
-Gang aft agley,<br />
-An' lea'e us nought but grief an' pain,<br />
-For promis'd joy!  </p>
-
-<h2><a id="hr">Horizontal Rules</a></h2>
-
-<p>Horizontal rules can be created by placing three or more asterisks (*), hyphens (-) or underscores (_) on a line by themselves.</p>
-
-<p>This will work:</p>
-
-<p><strong><code>***</code></strong></p>
-
-<p>but you can add spaces or further characters to make it more obviously a section break in the text editing window e.g.</p>
-
-<p><strong><code>* * * * *</code></strong></p>
-
-<p><strong><code>-------------------------</code></strong></p>
-
-<p><strong><code>_ _ _ _ _</code></strong></p>
-
-<p>All of these methods give the exact same result:</p>
-
-<hr />
-
-<h2><a id="image_links">Hyperlinked Images</a></h2>
-
-<p>The Enhancing Text With Markdown document gives instructions for creating web links and inserting images. It may not be obvious that these can be combined to create images that are also clickable links.</p>
-
-<p><strong><code>[the google search engine][google]</code></strong></p>
-
-<p><strong><code>![the google logo][logo]</code></strong></p>
-
-<p>Above are a standard web link and image. By placing the image where the link text would be found you end up with this:</p>
-
-<p><strong><code>[![the google logo][logo]][google]</code></strong></p>
-
-<p>This line above, in combination with the following link definitions elsewhere in the document:</p>
-
-<p><strong><code>[logo]: http://www.google.com/images/logo.gif</code></strong><br />
-<strong><code>[google]: http://www.google.com/ "click to visit Google.com"</code></strong></p>
-
-<p>combine to produce the following clickable image link (with tooltip if you hover over it):</p>
-
-<p><a href="http://www.google.com/" title="click to visit Google.com"><img src="http://www.google.com/images/logo.gif" alt="the google logo" /></a></p>
-
-<p>An example of where this technique might be handy is in linking small 'thumbnail' images to downloads of the larger photos.</p>
-
-<h2><a id="tables">Tables</a></h2>
-
-<p>You can create simple HTML tables with Markdown. Here is an example:</p>
-
+  <hr />
+<h2>&nbsp;</h2>
+<h1><strong><a id="linebreaks"></a>පේළි බිඳුම</strong>  </h1>
+ <p>කවි, කෙටි පරිඡේද වැනි ඇතැම් පෙළ සඳහා නිරතුරුවම පේළි  බිඳුම අවශ්‍ය වේ. return යතුර මඟින්  මෙය සම්මත ලෙස කළ හැකි වුවද එමඟින් ඔබට අවශ්‍ය ප්‍රතිඵලය නොලැබෙනු ඇත.</p>
+ <p><strong>The best laid schemes o' Mice an' Men,</strong><strong><br />
+   Gang aft agley,<br />
+   An' lea'e us nought but grief an' pain,<br />
+For promis'd joy!</strong> </p>
+ <p>   ඉහත  ප්‍රදානය return  යතුරු උපයෝගී කරගෙන පේළි බිඳුම සිදු කළ ද එය ලබා දෙන්නේ,  පේළි බිඳුම   ‍නොසලකන ලද පහත ප්‍රතිදානයයි. <br />
+   The best laid schemes o'  Mice an' Men, Gang aft agley, An' lea'e us nought but grief an' pain, For  promis'd joy!<br />
+නමුත්  සෑම පේළියක් ම අ‍වසානයේ හිස් ‍තැන්‍ දෙකක් තැබීම මඟින් ද පේළි බිඳුම සිදු කළ හැක.  එවි‍ට ප්‍රතිදානය පහත පරිදි වනු ඇත.
+</p>
+ </p>
+ <p>   The best laid schemes o'  Mice an' Men,<br />
+   Gang aft agley,<br />
+   An' lea'e us nought but grief an' pain,<br>
+   For promis'd joy! Horizontal  Rules  
+   </p>
+ </p>
+ <p>තිරස්  ඉරි ( | ) තරු  ලකුණු (*) , කෙටි ඉරි (-) , ය‍ටින් ඇඳි ඉරි තුනක් හෝ ‍‍වැඩි ප්‍රමාණයක් පේළියට  යොදාගනිමින් තිරස් ඉ‍රි නිර්මාණය කළ හැක. <br />
+   උදාහරණ: <br />
+   <strong>***</strong><strong><br />
+     </strong>නමුත්  ඔබට<strong> </strong>වෙනත්/තවත් අනුලකුණු යොදා ගනිමින් එය ‍වඩාත් පැහැදිලි‍ ලෙස පෙළ සංස්කරණ  කවුළුවලදී උ‍පයෝගී කර ගත හැක. <br />
+     උදාහරණ: <br />
+   <strong>* * * * *</strong> <br />
+   <strong><code>-------------------------</code></strong></p>
+ <p><strong><code>_ _ _ _ _</code></strong></p>
+ <p><br />
+   මෙම  සියලු ම ක්‍රමවේදයන් සඳහා එක ම ප්‍රතිඵපලයක් ලබා දෙයි. </p>
+ <hr />
+<h2>අධි සන්ධානික ( Hyperlinked) රූප</h2>
+<p>මෙම Enhancing Text With  Markdown ලේඛනය වෙබ් සබැඳිය නිර්මාණය කරන ආකාරය සහ රූපයක් ඇතුළත් කිරීම පිළිබඳ උපදෙස් ලබා දේ. මේවා එකතු කර ක්ලික් කළ හැකි සබැඳියක් සහිත රූපයක් නිර්මාණය කළ නොහැකි බව පෙනේ.</p>
+<p>  <strong>[the google search engine][google]</strong> <br />
+  <strong>![the google logo][logo]</strong> </p>
+<p>ඉහත දක්වා ඇත්තේ, සම්මත වෙබ් සබැඳියක් සහ රූපයකි. පෙළ සබැඳියක රූපයට රූපයක් ඇතුල් කිරීම පහත පරිදි දැක්විය හැක.</p>
+<p><strong>[![the google logo][logo]][google]</strong> <br /> 
+ඉහත පේළිය මඟින් දක්වා ඇත්තේ, ලිපියේ වෙනත් ස්ථානයක අර්ථ දක්වා ඇති සබැඳියක් යොදා ගන්නා ආකාරයයි.</p>
+<p><strong>[logo]:  http://www.google.com/images/logo.gif</strong><br />
+  <strong>[google]: http://www.google.com/  &quot;click to visit Google.com&quot;</strong> <br /> 
+නිර්මාණය කිරීම සඳහා පහත දක්වා ඇති ක්ලික් කළ හැකි සබැඳි රූපය එකතු කළ හැකි ය.</p>
+<p><a href="http://www.google.com/" title="click to visit Google.com"><img border="0" width="32" height="32" src="went2/bizfusion/images/clip_image001.gif" alt="the google logo" /></a></p>
+<p>උදාහරණයක් ලෙස මෙම උපක්‍රමය මඟින් කුඩා 'සිඟිති රූපයත්' (thumbnail) විශාල රුපයක‍ට සබඳ කර විශාල රුපය බාගැනීම‍ට සැලස්විය හැකිය. <br />
+</p>
+<h2> වගු </h2>
+<p>  ඔබට  සලකුණු කිරීම් මඟින් සරල වගු නිර්මාණය කර ගත  හැක. </p>
 <pre>
-Name    |   Age
+නම     |    වයස
 --------|------
-Fred    |   29
-Jim     |   47
-Harry   |   32
+නිමල්    |   29
+කමල්    |   47
+සුනිල්    |   32
 </pre>
-
-<table>
-<thead>
-<tr>
-  <th>Name</th>
-  <th>Age</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>Fred</td>
-  <td>29</td>
-
-</tr>
-<tr>
-  <td>Jim</td>
-  <td>47</td>
-</tr>
-<tr>
-  <td>Harry</td>
-  <td>32</td>
-</tr>
-
-</tbody>
+<table border="0" cellpadding="0">
+  <tr>
+    <td width="48"><p align="center">නම<strong> </strong></p></td>
+    <td width="45"><p align="center">වයස<strong> </strong></p></td>
+  </tr>
+  <tr>
+    <td width="48"><p align="center"><strong>&nbsp;</strong></p></td>
+    <td width="45"><p align="center"><strong>&nbsp;</strong></p></td>
+  </tr>
+  <tr>
+    <td width="48" valign="top"><pre>කමල්      </pre></td>
+    <td width="45" valign="top"><pre>29 </pre></td>
+  </tr>
+  <tr>
+    <td width="48" valign="top"><pre>නිමල්             </pre></td>
+    <td width="45" valign="top"><pre>47 </pre></td>
+  </tr>
+  <tr>
+    <td width="48" valign="top"><pre>සුනිල්     </pre></td>
+    <td width="45" valign="top"><pre>32 </pre></td>
+  </tr>
 </table>
-
-<p>You can apply normal formatting to the cell contents. Columns can be left or right aligned by adding a colon the left or the right of the horizontal bar (see additional instructions).</p>
-
-<h2><a id="definition">Definition Lists</a></h2>
-
-<p>Definition lists consist of terms followed by their definitions. Rather like a dictionary. A simple example is as follows:</p>
-
-<pre>
-Moodle
-:   A well-known online learning platform
-
-PHP
-:   A scripting language.
-    Mostly used for developing interactive web applications.
+ තිරස්   ඉරේ ‍වම් හෝ දකුණු පසට දෙතිත් (:) ලකුණ යොදා ගැනීමෙන් වගුවේ තීරු වම් හෝ  දකුණු පසට පෙළ ගැස්විය හැක. Definition  Lists අර්ථ නිරූපන ලැයිස්තු අර්ථ  නිරූපන ලයිස්තු මඟින් එම අදාල වදන් හි අර්ථයන් දක්වයි. මෙය බොහෝ දුරට ශබ්දකෝෂයකට  සමානය. මූඩ්ල් යනු  ඉතා හොඳ online  ඉගෙනුම් -ඉගැන්වීම් platform යකි. 
+<pre>PHP</pre>
+<pre>:   විධානාවලි භාෂාවකි.</pre>
+<pre>    වෙබ් යෙදවුම් සඳහා බොහෝ සෙයින් භාවිතා කරයි.</pre>
+<pre>මූඩ්ල් </pre>
+<pre>:    ඉතා හොඳ online  ඉගෙනුම් -ඉගැන්වීම් platform යකි. 
 </pre>
-
-<dl>
-<dt>Moodle</dt>
-<dd>A well-known online learning platform</dd>
-
-<dt>PHP</dt>
-<dd>A scripting language.
-Mostly used for developing interactive web applications.</dd>
-</dl>
-
-<h2><a id="footnotes">Footnotes</a></h2>
-
-<p>A footnote has two elements. A marker in the text which will become a superscript number and a footnote
-definition that will appear at the end of the document. Here is a simple example:</p>
-
-<pre>
-Read about it in my book.[^1]
-
-[^1]: All about my book.
+<pre>&nbsp;</pre>
+<pre>PHP</pre>
+<pre>:   විධානාවලි භාෂාවකි.</pre>
+<pre>    වෙබ් යෙදවුම් සඳහා බොහෝ සෙයින් භාවිතා කරයි.</pre>
+<h2> පාද සටහන් </h2>
+<p>පාද  සටහන් (footnote) සඳහා කො‍ටස් දෙකක් ඇත. (උඩුලකුණු සහ එහි අර්ථ දැක්වීම) </p>
+<p>පෙළක වූ සලකුණකින් උඩුලකුණු සංඛ්‍යාවක් ( superscript number ) දක්වයි. ‍එහි අර්ථය ලිපියේ අග කොටසෙහි වූ පාද සටහනෙහි ‍දර්ශනය වේ. මේ සමඟ ඇති උදාහරණය මඟින් එය පැහැදිලි කර ගත හැක. </p>
+<pre>Read about it in my book.[^1]
 </pre>
-
-<p>You can place the footnote definitions anywhere you like. They will be listed in the order that they are
-linked to in the text. You cannot make more than  one link to the same footnote.</p>
-
-<h2><a id="embedded">Embedding HTML</a></h2>
-
-<p>If you are already proficient in HTML then there may be occasions when Markdown does not allow you as much control as you are used to. Luckily Markdown is designed for this eventuality and allows you to embed HTML directly within Markdown formatted text.</p>
-
-<p><strong><code>* &lt;small&gt;small text&lt;/small&gt;</code></strong><br />
-
-<strong><code>* &lt;big&gt;big text&lt;/big&gt;</code></strong> </p>
-
-<ul>
-<li><small>small text</small>  </li>
-<li><big>big text</big> </li>
+<pre>[^1]: All about my book.</pre>
+<p>ඔබට  මෙම පාද සටහන් ඔබට අවශ්‍ය ස්ථානය‍කට ඇතුළත් කළ හැක. ඒවා පෙළට සබඳ වී ඇති අනු‍පිළිවෙළට  ලයිස්තුගත වන අතර ඔබට එකම පාද සටහනට සබැඳි එකකට වඩා නිර්මාණය කළ නොහැකි ය. </p>
+<h2> HTML කාවැද්දුම් </h2>
+<p>ඔබට  HTML හි  යම් දැනුමක් ඇත්නම්, සළකුණු කිරීම් භාවිතා කළ නොහැකි ඇතැම් අවස්ථා ‍වලදී HTML කාවැද්දුම් සළකුණු  කිරීම් සමඟ උ‍පයෝගී කරගත හැක. <br />
+    <strong>* &lt;small&gt;</strong><strong>කුඩා පාඨ</strong><strong>&lt;/small&gt;</strong><br />
+    <strong>* &lt;big&gt;</strong><strong>විශාල පාඨ</strong><strong>&lt;/big&gt;</strong> </p>
+<ul type="disc">
+  <li>කුඩා පාඨ </li>
+  <li>විශාල පාඨ </li>
 </ul>
-
-<p>Note that the HTML markup co-exists with the Markdown code for bullet lists. This frees you from the mundane task of writing complex HTML for basic formatting features such as paragraphs and lists while still allowing you to access the full power of HTML in specific situations.</p>
-
-<h2><a id="preformatted">Displaying HTML or Preformatted Text</a></h2>
-
-<p>If, unlike in the section above, you wish the HTML you enter to be displayed exactly as you typed it, rather than processed as HTML then you can start each line with four space characters.</p>
-
-<pre><code>&lt;p&gt;A paragraph in &lt;b&gt;HTML&lt;/b&gt; displayed as code&lt;/p&gt;
-</code></pre>
-
-<p>This also works for displaying computer code:</p>
-
-<pre><code>print "Command-line arguments: (@ARGV)\n";
-</code></pre>
-
-<p>As this formatting is often used for computer program listings and other text which may plausibly contain the characters that Markdown uses to indicate different types of formatting, Markdown's formatting is switched off for these lines:</p>
-
-<pre><code>Normally this word would be **bold**.
-</code></pre>
-
-<p>To include such characters within normal text, see the section below.</p>
-
-<h2><a id="special_char">Using Special Characters</a></h2>
-
-<p>If you wish to use any of the special characters that trigger Markdown formatting without them being processed simply precede them with a backslash character (\). This is known as 'escaping' a character. The backslash is not displayed but the character immediately following it is shown, exactly as entered.</p>
-
-<p><strong><code>\*asterisks, not emphasis\*</code></strong></p>
-
-<p>becomes</p>
-
-<p>*asterisks, not emphasis*</p>
-
-<p>rather than</p>
-
-<p><strong><code>*emphasis, not asterisks*</code></strong></p>
-
-<p>which gives</p>
-
-<p><em>emphasis, not asterisks</em></p>
-
-<h2><a id="further">Further Reading</a></h2>
-
-<p>The Markdown system is not unique to Moodle, it is used in an ever increasing number of web publishing tools. You can find out more about it at <a href="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a></p>
-
-<p>Moodle uses a version of Markdown with additional features known as "Markdown Extra". Further information can be found at <a href="http://www.michelf.com/projects/php-markdown/extra/">http://www.michelf.com/projects/php-markdown/extra/ </a>.</p>
-</div></div>
+<h2>Displaying  HTML or Preformatted Text </h2>
+<h2>HTML දර්ශනය වීම හෝ පෙර හැඩතල කළ පෙළ </h2>
+<p><br />
+  ඔබ  ඇතුළත් කරන ලද HTML කේත  සංස්කරණය ‍නොවී හෝ එ‍්‍වා ඒ ආකාරයෙන් ම දිස්වීමට අවශ්‍යනම් , ඔබ සෑම පේළියක්ම හිස්තැන්  4ක් සහිතව ආරම්භ කළ යුතු ය. </p>
+<pre>&lt;p&gt;A paragraph in &lt;b&gt;HTML&lt;/b&gt; displayed as code&lt;/p&gt;</pre>
+<p>මෙය පරිගණක කේත දර්ශනය කිරීමට ද උපකාරී වේ.</p>
+<pre>print &quot;Command-line arguments: (@ARGV)\n&quot;;</pre>
+<p>පහත  පරිදි සාමාන්‍ය පෙළ සඳහා අනුලකුණු උපයෝගී කර ගැනීමට මීළඟ කොටස බලන්න:</p>
+<pre>සාමාන්‍යයෙන් මෙම වදන් **<strong>තද කළු</strong> ** වේ.</pre>
+<h2> විශේෂ අක්ෂර යොදා ගැනිම </h2>
+<p>ඔබ  සලකුණු කිරීම් වලින් බැහැර‍ව ‍විශේෂ අක්ෂර  යොදා ගන්නේ නම්, ඒ සඳහා පිටුපස ඇලය backslash  (\) නම් අක්ෂරය  යොදාගත හැක මෙය අක්ෂරයක් මඟහැර යාමක් ලෙස ද හැඳින‍්වේ. පහත උදාහරණ පිරික්සන්න. <br />
+    <strong>\*asterisks, not emphasis\*</strong> <br />
+  ඉහත  ආකාරයට ප්‍රදානය ලබා දුන් වි‍ට එය පහත ආකාර ප්‍රතිදානයක් ලබාදෙයි. <br />
+  *asterisks, not emphasis*<br />
+  එසේම  පහත ප්‍රදානය <br />
+  <strong>*emphasis, not asterisks*</strong> <br />
+  ‍මෙම  ප්‍රතිදානය ලබා දෙයි.<br />
+  <em>emphasis, not  asterisks</em> </p>
+<h2>‍වැඩිදුර කියවීම් </h2>
+<p>Markdown පද්ධතිය, මූඩ්ල් සඳහාම සුවිශේෂි වුවක් නොවේ. පහත සබැදි හරහා ඔබට ‍වැඩි  විස්තර දැනගත හැක. <a href="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a><br />
+    <a href="http://www.michelf.com/projects/php-markdown/extra/">http://www.michelf.com/projects/php-markdown/extra/ </a>. </p>
