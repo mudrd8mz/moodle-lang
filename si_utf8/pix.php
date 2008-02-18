@@ -1,13 +1,14 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8.2+ (2007021520)
+      // pix.php - created with Moodle 2.0 dev (2007101508)
+
 
 $string['angry'] = 'තරහ';
 $string['approve'] = 'අනුමත කිරීම';
 $string['biggrin'] = 'විශාල නියවීම';
 $string['blackeye'] = 'කළු ඇස';
-$string['blush'] = 'ලැජ්ජාවට පත්වීම';
+$string['blush'] = 'ලැජ්ජාවෙන් රතු වීම';
 $string['clown'] = 'විකටයා';
-$string['cool'] = 'කූල්';
+$string['cool'] = 'කට්ට';
 $string['dead'] = 'මැරුන';
 $string['evil'] = 'දුෂ්ඨ';
 $string['kiss'] = 'හාදුව';

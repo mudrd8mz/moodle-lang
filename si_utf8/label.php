@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8.2+ (2007021520)
+      // label.php - created with Moodle 2.0 dev (2007101508)
 
-$string['labeltext'] = 'ලේපල් පාඨ';
+
+$string['labeltext'] = 'ලේබල් පාඨ';
 $string['modulename'] = 'ලේබලය';
 $string['modulenameplural'] = 'ලේබල';
 

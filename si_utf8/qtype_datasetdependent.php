@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 1.8.2+ (2007021520)
+      // qtype_datasetdependent.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['additem'] = 'අයිතමයක් එක් කරන්න';
 $string['atleastonerealdataset'] = 'ප්‍රශ්ණ කුලකයේ අවම වශයෙන් එක් අව්‍යාජ දත්ත කුලකයක් හෝ තිබිය යුතුය';
 $string['atleastonewildcard'] = 'පිළිතුරු සූත්‍රයේ අවම වශයෙන් එක් ආදේශකයක් හෝ තිබිය යුතුය';
 $string['calcdistribution'] = 'ව්‍යාප්තිය';
-$string['calclength'] = 'දශමස්ථාන';
+$string['calclength'] = 'දශමස්ථාන ගණන';
 $string['calcmax'] = 'උපරිම';
 $string['calcmin'] = 'අවම';
 $string['dataitemdefined'] = 'දැනට අර්ථ දක්වා ඇති සංඛ්‍යා අගයන් a$ ක් ප්‍රයෝජනයට ගතහැක';
@@ -36,7 +36,7 @@ $string['newcategory3'] = 'මෙම ප්‍රවර්ගයේ වෙනත
 $string['newlocal1'] = 'මෙම ප්‍රශ්ණයේ පමණක් භාවිතා කළ හැකි නව වරණ කුලකයකින් වරණයක්';
 $string['newlocal2'] = 'මෙම ප්‍රශ්ණයේ පමණක් භාවිතා කළ හැකි නව ගොනු කුලකයකින් ගොනුවක්';
 $string['newlocal3'] = 'මෙම ප්‍රශ්ණයේ පමණක් භාවිතා කළ හැකි නව සබැදි කුලකයකින් සබැදියක්';
-$string['nodataset'] = 'ශුන්‍යංයි - එය ආදේශකයක් නොවේ';
+$string['nodataset'] = 'ශුන්‍යයි - එය ආදේශකයක් නොවේ';
 $string['param'] = 'Param {<strong>$a</strong>}';
 $string['replacewithrandom'] = 'සසම්භාවී අගයකින් ප්‍රතිස්ථාපනය කරන්න';
 $string['reuseifpossible'] = 'පවතී නම් පෙර අගයම නැවත භාවිතා කරන්න';

@@ -1,6 +1,7 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8.2+ (2007021520)
+      // multilang.php - created with Moodle 2.0 dev (2007101508)
 
-$string['filtername'] = 'විවධ භාෂා අඩංගුව';
+
+$string['filtername'] = 'බහු භාෂා අඩංගුව';
 
 ?>
