@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (2007101508)
+      // grades.php - created with Moodle 2.0 dev (2007101508.02)
 
 
 $string['activities'] = '活動';
@@ -31,6 +31,8 @@ $string['aggregation'] = '総計';
 $string['aggregationcoef'] = '総計率';
 $string['aggregationcoefextra'] = '追加点';
 $string['aggregationcoefextrahelp'] = 'この評定項目に対する総計時の追加点です。';
+$string['aggregationcoefextrasum'] = '追加点';
+$string['aggregationcoefextrasumhelp'] = 'この評定項目に対する総計時の追加点です。';
 $string['aggregationcoefweight'] = '評定項目の加重';
 $string['aggregationcoefweighthelp'] = '他の評定項目との総計時、この評定項目のすべての評点に適用される加重です。';
 $string['aggregationhelp'] = 'コース内のすべての学生の評定を総計する手法です。';
@@ -498,32 +500,32 @@ $string['writinggradebookinfo'] = '評定表設定の書き込み';
 $string['xml'] = 'XML';
 $string['yes'] = 'Yes';
 $string['yourgrade'] = 'あなたの評定';
-$string['aggregationcoefhelp'] = '他の評定項目との総計時、この評定項目のすべての評点に適用される加重です。'; //TBD with Moodle 2.0 dev (2007101508)
-$string['exportletters'] = '評定文字を文字としてエクスポートする'; //TBD with Moodle 2.0 dev (2007101508)
-$string['exportlettershelp'] = '数字の代わりに評定文字を使用している評定項目に関して、数字の代わりに評定文字をエクスポートします。'; //TBD with Moodle 2.0 dev (2007101508)
-$string['changesitedefaults'] = 'サイトデフォルトを変更する'; //TBD with Moodle 2.0 dev (2007101508)
-$string['left'] = '左'; //TBD with Moodle 2.0 dev (2007101508)
-$string['right'] = '右'; //TBD with Moodle 2.0 dev (2007101508)
-$string['sitedefault'] = 'サイトデフォルト ($a)'; //TBD with Moodle 2.0 dev (2007101508)
-$string['aggregateextracreditmeanall'] = 'すべての評点の平均 (追加点扱い)'; //TBD with Moodle 2.0 dev (2007101508)
-$string['aggregateextracreditmeangraded'] = '空ではない評点の平均 (追加点扱い)'; //TBD with Moodle 2.0 dev (2007101508)
-$string['aggregatemaxall'] = 'すべての評点の最高評点'; //TBD with Moodle 2.0 dev (2007101508)
-$string['aggregatemaxgraded'] = '空ではない評点の最高評点'; //TBD with Moodle 2.0 dev (2007101508)
-$string['aggregatemeanall'] = 'すべての評点の平均'; //TBD with Moodle 2.0 dev (2007101508)
-$string['aggregatemeangraded'] = '空ではない評点の平均'; //TBD with Moodle 2.0 dev (2007101508)
-$string['aggregatemedianall'] = 'すべての評点の中央値'; //TBD with Moodle 2.0 dev (2007101508)
-$string['aggregatemediangraded'] = '空ではない評点の中央値'; //TBD with Moodle 2.0 dev (2007101508)
-$string['aggregateminall'] = 'すべての評点の最小評点'; //TBD with Moodle 2.0 dev (2007101508)
-$string['aggregatemingraded'] = '空ではない評点の最小評点'; //TBD with Moodle 2.0 dev (2007101508)
-$string['aggregatemodeall'] = 'すべての評点の最頻値'; //TBD with Moodle 2.0 dev (2007101508)
-$string['aggregatemodegraded'] = '空ではない評点の最頻値'; //TBD with Moodle 2.0 dev (2007101508)
-$string['aggregateweightedmeanall'] = 'すべての評点の加重平均'; //TBD with Moodle 2.0 dev (2007101508)
-$string['aggregateweightedmeangraded'] = '空ではない評点の加重平均'; //TBD with Moodle 2.0 dev (2007101508)
-$string['exportods'] = 'ODSにエクスポートする'; //TBD with Moodle 2.0 dev (2007101508)
-$string['exporttxt'] = 'TXTにインポートする'; //TBD with Moodle 2.0 dev (2007101508)
-$string['exportxml'] = 'XMLにインポートする'; //TBD with Moodle 2.0 dev (2007101508)
-$string['gradereports'] = '評定レポート'; //TBD with Moodle 2.0 dev (2007101508)
-$string['selectplugin'] = 'プラグインの選択'; //TBD with Moodle 2.0 dev (2007101508)
-$string['userreport'] = 'ユーザ評定レポート'; //TBD with Moodle 2.0 dev (2007101508)
+$string['aggregationcoefhelp'] = '他の評定項目との総計時、この評定項目のすべての評点に適用される加重です。'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['exportletters'] = '評定文字を文字としてエクスポートする'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['exportlettershelp'] = '数字の代わりに評定文字を使用している評定項目に関して、数字の代わりに評定文字をエクスポートします。'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['changesitedefaults'] = 'サイトデフォルトを変更する'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['left'] = '左'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['right'] = '右'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['sitedefault'] = 'サイトデフォルト ($a)'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['aggregateextracreditmeanall'] = 'すべての評点の平均 (追加点扱い)'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['aggregateextracreditmeangraded'] = '空ではない評点の平均 (追加点扱い)'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['aggregatemaxall'] = 'すべての評点の最高評点'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['aggregatemaxgraded'] = '空ではない評点の最高評点'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['aggregatemeanall'] = 'すべての評点の平均'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['aggregatemeangraded'] = '空ではない評点の平均'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['aggregatemedianall'] = 'すべての評点の中央値'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['aggregatemediangraded'] = '空ではない評点の中央値'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['aggregateminall'] = 'すべての評点の最小評点'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['aggregatemingraded'] = '空ではない評点の最小評点'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['aggregatemodeall'] = 'すべての評点の最頻値'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['aggregatemodegraded'] = '空ではない評点の最頻値'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['aggregateweightedmeanall'] = 'すべての評点の加重平均'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['aggregateweightedmeangraded'] = '空ではない評点の加重平均'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['exportods'] = 'ODSにエクスポートする'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['exporttxt'] = 'TXTにインポートする'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['exportxml'] = 'XMLにインポートする'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['gradereports'] = '評定レポート'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['selectplugin'] = 'プラグインの選択'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['userreport'] = 'ユーザ評定レポート'; //TBD with Moodle 2.0 dev (2007101508.02)
 
 ?>
