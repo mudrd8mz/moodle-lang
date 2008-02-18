@@ -1,12 +1,13 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.8.2+ (2007021520)
+      // qtype_multichoice.php - created with Moodle 2.0 dev (2007101508)
 
 
+$string['addingmultichoice'] = 'බහුවරණ ප්‍රශ්න එක් කිරීම';
 $string['addmorechoiceblanks'] = 'තවත් වරණ {no} සදහා හිස්තැන්';
 $string['answerhowmany'] = 'තනි පිලිතුරක්ද නැතහොත් බහු පිලිතුරුද?';
 $string['answernumbering'] = 'වරණ ක්‍රමාංකනය කල යුතුද?';
 $string['answernumbering123'] = '1., 2., 3., ...';
-$string['answernumberingABC'] = 'A., B., C., ...';
+$string['answernumberingABCD'] = 'A., B., C., ...';
 $string['answernumberingabc'] = 'a., b., c., ...';
 $string['answernumberingnone'] = 'ක්‍රමාංකනය රහිත';
 $string['answersingleno'] = 'පිළිතුරු කිහිපයක් සදහා ඉඩදේ';
@@ -31,5 +32,6 @@ $string['overallpartiallycorrectfeedback'] = 'ඕනෑම අඩවශයෙන
 $string['partiallycorrectfeedback'] = 'අඩවශයෙන් නිවැරදි පිලිතුරක් සදහා';
 $string['shuffleanswers'] = 'වරණ කලවම් කරන්න';
 $string['singleanswer'] = 'එක් පිලිතුරක් තෝරන්න';
+$string['answernumberingABC'] = 'A., B., C., ...'; // ORPHANED
 
 ?>

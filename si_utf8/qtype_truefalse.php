@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // qtype_truefalse.php - created with Moodle 1.8.2+ (2007021520)
+      // qtype_truefalse.php - created with Moodle 2.0 dev (2007101508)
 
 
+$string['addingtruefalse'] = 'සත්‍ය/අසත්‍ය ප්‍රශ්නයක් එක් කිරීම';
 $string['correctanswer'] = 'නිවැරදි පිළිතුර';
 $string['editingtruefalse'] = 'සත්‍ය/අසත්‍ය ප්‍රශ්නයක් සංස්කරණය කිරීම';
 $string['false'] = 'අසත්‍ය';
