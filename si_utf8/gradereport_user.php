@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // gradereport_user.php - created with Moodle 1.8.2+ (2007021520)
+      // gradereport_user.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['modulename'] = 'පරිශීලක';
-$string['user:view'] = 'තමන්ගේ ශ්‍රේණි වාර්ථාව බැලීම';
+$string['user:view'] = 'ස්වකීය ශ්‍රේණි වාර්තාව බැලීම';
 
 ?>

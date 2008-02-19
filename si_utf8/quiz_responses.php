@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8.2+ (2007021520)
+      // quiz_responses.php - created with Moodle 2.0 dev (2007101508)
+
 
 $string['pagesize'] = 'පිටුවකට උත්සාහයන්';
 $string['reportresponses'] = 'විස්තරාත්මක ප්‍රතිචාර';
 $string['responses'] = 'විස්තරාත්මක ප්‍රතිචාර';
-$string['responsesoptions'] = 'විකල්ප ප්‍රතිචාර';
+$string['responsesoptions'] = 'ප්‍රතිචාර විකල්ප';
 $string['responsestitle'] = 'විස්තරාත්මක ප්‍රතිචාර';
 
 ?>

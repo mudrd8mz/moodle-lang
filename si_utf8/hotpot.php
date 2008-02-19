@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8.2+ (2007021520)
+      // hotpot.php - created with Moodle 2.0 dev (2007101508)
 
 
 $string['abandoned'] = 'අත්හැර දමන ලද';
 $string['addquizchain'] = 'පැන විසදුම් මාලාවක් එක් කරන්න';
 $string['allmycourses'] = 'ම‍ගේ සියලු ‍පාඨමාලා';
+$string['allusers'] = 'සියලු පරිශීලකයන්';
 $string['alwaysopen'] = 'සෑම විටම විවෘත';
 $string['attemptsall'] = 'සෑම උත්සාහයක්ම';
 $string['attemptsbest'] = 'විශිෂ්ඨ උත්සාහය';

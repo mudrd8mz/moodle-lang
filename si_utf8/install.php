@@ -1,11 +1,23 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8.2+ (2007021520)
+      // install.php - created with Moodle 2.0 dev (2007101508)
 
 
-$string['admindirerror'] = 'සදහන් කර ඇති ඇඩ්මින් ඩිරෙක්ටරිය වැරදි සහිතයි';
-$string['admindirname'] = 'ඇඩ්මින් ඩිරෙක්ටරිය';
-$string['admindirsettinghead'] = 'ඇඩ්මින් ඩිරෙක්ටරිය සැකසීම...';
+$string['aborting'] = 'ස්ථාපනය අත්හැර දැමීම';
+$string['admindirerror'] = 'සදහන් කර ඇති admin ඩිරෙක්ටරිය වැරදි සහිතයි';
+$string['admindirname'] = 'admin ඩිරෙක්ටරිය';
+$string['admindirsettinghead'] = 'admin ඩිරෙක්ටරිය සැකසීම...';
+$string['adminemail'] = 'විද්‍යුත් තැපෑල :';
+$string['adminfirstname'] = 'පළමු නම :';
+$string['admininfo'] = 'පරිපාලකයරයාගේ විස්තර';
+$string['adminlastname'] = 'අවසන් නම :';
+$string['adminpassword'] = 'මුරපදය :';
+$string['adminusername'] = 'පරිශීලක නම :';
+$string['askcontinue'] = 'පවත්වාගෙන යන්න (ඔව්/නැත) :';
+$string['availabledbtypes'] = 'පවතින db වර්ග';
+$string['availablelangs'] = 'පවතින භාෂා ලයිස්තුව';
+$string['cannotconnecttodb'] = 'db සඳහා සම්බන්ධ විය නොහැක';
 $string['caution'] = 'අනතුරු ඇගවීම';
+$string['checkingphpsettings'] = 'PHP සැකසීම් පරීක්ෂා කිරීම';
 $string['chooselanguage'] = 'භාෂාවක් තෝරාගන්න';
 $string['chooselanguagehead'] = 'භාෂාවක් තෝරාගන්න';
 $string['compatibilitysettings'] = 'ඔබගේ PHP සැකසීම් පරීක්ෂා කිරීම...';
@@ -38,6 +50,8 @@ $string['safemodeerror'] = 'ආරක්ෂාකාරී මාදිලිය
 $string['sessionautostart'] = 'සැසිය ස්වයංක්‍රීය ආරම්භය';
 $string['sessionautostarterror'] = 'මෙය වසාතැබිය යුතුයි';
 $string['skipdbencodingtest'] = 'DB කේතගත කිරීමේ පරීක්ෂණය මගහරින්න';
+$string['welcomep10'] = '$a->installername ($a->installerversion)';
 $string['wwwroot'] = 'අන්තර්ජාල ලිපිනය';
+$string['yourchoice'] = 'ඔබගේ තේරීම';
 
 ?>
